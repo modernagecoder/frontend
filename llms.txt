@@ -361,6 +361,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Leaving Cert Computer Science grinds online: https://learn.modernagecoders.com/leaving-cert-computer-science-grinds-online
 - After CoderDojo: the next step in coding, Ireland: https://learn.modernagecoders.com/after-coderdojo-next-step-coding-ireland
 - AI and Python academy for girls, Ireland: https://learn.modernagecoders.com/ai-and-python-academy-for-girls-ireland
+- Junior Cycle Coding short course help: https://learn.modernagecoders.com/junior-cycle-coding-short-course-help
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

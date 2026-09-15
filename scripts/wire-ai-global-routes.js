@@ -145,6 +145,7 @@ const SLUGS = [
   'leaving-cert-computer-science-grinds-online',
   'after-coderdojo-next-step-coding-ireland',
   'ai-and-python-academy-for-girls-ireland',
+  'junior-cycle-coding-short-course-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -369,6 +370,7 @@ const LLMS_LABELS = {
   'leaving-cert-computer-science-grinds-online': 'Leaving Cert Computer Science grinds online',
   'after-coderdojo-next-step-coding-ireland': 'After CoderDojo: the next step in coding, Ireland',
   'ai-and-python-academy-for-girls-ireland': 'AI and Python academy for girls, Ireland',
+  'junior-cycle-coding-short-course-help': 'Junior Cycle Coding short course help',
 };
 
 function wireLlms(slugs) {

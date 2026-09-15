@@ -514,6 +514,7 @@ Each page answers one question for one audience, with its facts read at the sour
 - [Leaving Cert Computer Science grinds online](/leaving-cert-computer-science-grinds-online): The subject's strands, exam and coursework, the changes coming in 2027, and live grinds for Fifth and Sixth Years.
 - [After CoderDojo: the next step in coding](/after-coderdojo-next-step-coding-ireland): For children who have outgrown a free coding club: the step from Scratch to Python and AI, with a teacher and a clear path.
 - [AI and Python academy for girls in Ireland](/ai-and-python-academy-for-girls-ireland): Who studies and works in computing in Ireland, why interest fades, and a mixed class that keeps a learner going.
+- [Junior Cycle Coding short course help](/junior-cycle-coding-short-course-help): The Coding short course and its Classroom-Based Assessment, explained, with the help a learner can have and the line we never cross.
 
 Pages for Irish places are listed on [the national Ireland page](/coding-classes-in-ireland).
 
