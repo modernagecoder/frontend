@@ -138,6 +138,7 @@ const SLUGS = [
   'data-science-course-netherlands',
   'app-development-course-netherlands',
   'python-to-ai-roadmap-for-students-netherlands',
+  'vibe-coding-vs-building-ai-netherlands',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -355,6 +356,7 @@ const LLMS_LABELS = {
   'data-science-course-netherlands': 'Data science course, Netherlands',
   'app-development-course-netherlands': 'App development course, Netherlands',
   'python-to-ai-roadmap-for-students-netherlands': 'Python to AI roadmap for students, Netherlands',
+  'vibe-coding-vs-building-ai-netherlands': 'Vibe coding vs building AI, Netherlands',
 };
 
 function wireLlms(slugs) {
