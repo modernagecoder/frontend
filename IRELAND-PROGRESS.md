@@ -33,6 +33,7 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 
 | # | Slug | Type | Words | Worst overlap | AI H2 used | Trap used | Commit |
 |---|------|------|-------|---------------|------------|-----------|--------|
+| 1 | best-coding-class-in-the-world (bcw, #70530B) | ag- door, worldwide criteria (Phase 1 preview) | 4,332 | 1% vs vibe-coding-vs-building-ai-netherlands | eight tests for any coding class: 5 from studies read in full (MOOC completion 3.13 percent, Lister fragile grasp, Lopez r = 0.56, PRIMM r = .13, Prather illusion of competence; tutoring d = 0.79, 0.37 SD) and 3 practice, each answered, with our limits | none (ag- door) | (this commit) |
 
 ## Skipped (kill criterion)
 

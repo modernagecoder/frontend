@@ -139,6 +139,7 @@ const SLUGS = [
   'app-development-course-netherlands',
   'python-to-ai-roadmap-for-students-netherlands',
   'vibe-coding-vs-building-ai-netherlands',
+  'best-coding-class-in-the-world',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -357,6 +358,7 @@ const LLMS_LABELS = {
   'app-development-course-netherlands': 'App development course, Netherlands',
   'python-to-ai-roadmap-for-students-netherlands': 'Python to AI roadmap for students, Netherlands',
   'vibe-coding-vs-building-ai-netherlands': 'Vibe coding vs building AI, Netherlands',
+  'best-coding-class-in-the-world': 'Best coding class in the world: eight tests',
 };
 
 function wireLlms(slugs) {
