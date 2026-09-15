@@ -636,3 +636,4 @@
 
 /* Ireland cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints. */
 .ag-root.ag-bcw { --ag-accent: #70530B; --ag-accent-soft: rgba(112,83,11,.09); }   /* Worldwide criteria door: a dark bronze from the solver, the colour of an old assay mark, separated from both Irish greens and from every other Ireland preview page */
+.ag-root.ag-boi { --ag-accent: #0E4B00; --ag-accent-soft: rgba(14,75,0,.09); }   /* Best online, Ireland: a deep holly green from the solver, darker than both live Irish greens and separated from every other Ireland preview page */

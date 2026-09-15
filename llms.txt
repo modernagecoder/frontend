@@ -356,6 +356,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Python to AI roadmap for students, Netherlands: https://learn.modernagecoders.com/python-to-ai-roadmap-for-students-netherlands
 - Vibe coding vs building AI, Netherlands: https://learn.modernagecoders.com/vibe-coding-vs-building-ai-netherlands
 - Best coding class in the world: eight tests: https://learn.modernagecoders.com/best-coding-class-in-the-world
+- Best online coding classes in Ireland: https://learn.modernagecoders.com/best-online-coding-classes-ireland
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

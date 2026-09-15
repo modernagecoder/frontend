@@ -2550,4 +2550,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-dun-laoghaire-rathdown /src/pages/coding-classes-in-dun-laoghaire-rathdown.html 200
 /coding-classes-in-dun-laoghaire-rathdown.md /src/pages/coding-classes-in-dun-laoghaire-rathdown.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/best-online-coding-classes-ireland /src/pages/best-online-coding-classes-ireland.html 200
+/best-online-coding-classes-ireland.md /src/pages/best-online-coding-classes-ireland.md 200
 /* /src/pages/404.html 404

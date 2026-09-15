@@ -140,6 +140,7 @@ const SLUGS = [
   'python-to-ai-roadmap-for-students-netherlands',
   'vibe-coding-vs-building-ai-netherlands',
   'best-coding-class-in-the-world',
+  'best-online-coding-classes-ireland',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -359,6 +360,7 @@ const LLMS_LABELS = {
   'python-to-ai-roadmap-for-students-netherlands': 'Python to AI roadmap for students, Netherlands',
   'vibe-coding-vs-building-ai-netherlands': 'Vibe coding vs building AI, Netherlands',
   'best-coding-class-in-the-world': 'Best coding class in the world: eight tests',
+  'best-online-coding-classes-ireland': 'Best online coding classes in Ireland',
 };
 
 function wireLlms(slugs) {
