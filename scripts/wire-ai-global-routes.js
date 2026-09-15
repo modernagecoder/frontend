@@ -136,6 +136,7 @@ const SLUGS = [
   'coding-alongside-informatica-havo-vwo-netherlands',
   'full-stack-software-development-course-netherlands',
   'data-science-course-netherlands',
+  'app-development-course-netherlands',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -351,6 +352,7 @@ const LLMS_LABELS = {
   'coding-alongside-informatica-havo-vwo-netherlands': 'Coding alongside informatica, havo and vwo',
   'full-stack-software-development-course-netherlands': 'Full stack software development course, Netherlands',
   'data-science-course-netherlands': 'Data science course, Netherlands',
+  'app-development-course-netherlands': 'App development course, Netherlands',
 };
 
 function wireLlms(slugs) {

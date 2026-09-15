@@ -2526,4 +2526,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /data-science-course-netherlands /src/pages/data-science-course-netherlands.html 200
 /data-science-course-netherlands.md /src/pages/data-science-course-netherlands.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/app-development-course-netherlands /src/pages/app-development-course-netherlands.html 200
+/app-development-course-netherlands.md /src/pages/app-development-course-netherlands.md 200
 /* /src/pages/404.html 404
