@@ -23,6 +23,10 @@ const ROOT = path.resolve(__dirname, '..', '..');
 function read(f) { return fs.readFileSync(path.join(ROOT, f), 'utf8'); }
 function write(f, s) { fs.writeFileSync(path.join(ROOT, f), s, 'utf8'); }
 
+// Which cluster a page belongs to, for the comment markers in the registries.
+// Netherlands modules predate the field, so no field means Netherlands.
+function clusterOf(page) { return page.clusterName || (page.market && page.market.name) || 'Netherlands'; }
+
 function hexToRgb(hex) { const h = hex.replace('#', ''); return [0, 2, 4].map(i => parseInt(h.slice(i, i + 2), 16)); }
 
 function registerCss(page) {
@@ -31,7 +35,9 @@ function registerCss(page) {
   const eol = css.includes('\r\n') ? '\r\n' : '\n';
   const sel = `.cg-root.cg-${page.code}`;
   if (new RegExp('\\.cg-root\\.cg-' + page.code + '\\s*\\{').test(css)) return 'css: present';
-  const marker = '/* Netherlands cluster. Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints, separated only from the pages each one links to. */';
+  const marker = clusterOf(page) === 'Netherlands'
+    ? '/* Netherlands cluster. Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints, separated only from the pages each one links to. */'
+    : '/* ' + clusterOf(page) + ' cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints, separated only from the pages each one links to. */';
   if (!css.includes(marker)) css = css.replace(/\s*$/, '') + eol + eol + marker + eol;
   const [r, g, b] = hexToRgb(page.accent);
   const line = `${sel}  { --cg-accent: ${page.accent}; --cg-accent-soft: rgba(${r},${g},${b},.10); }   /* ${page.accentRationale} */`;
@@ -44,7 +50,7 @@ function insertAlternation(src, reLabel, place) {
   // Insert "<place>|" right after "coding-classes-in-(" inside the coding-global block.
   const start = src.indexOf("'coding-global': {");
   if (start === -1) throw new Error('coding-global block not found');
-  const key = reLabel + ': /^' + (reLabel === 'siblingRe' ? '\\/' : '') + 'coding-classes-in-(';
+  const key = reLabel + ': /^' + (reLabel === 'siblingRe' ? '\\/' : '') + '(?:coding-classes-in-(';
   const idx = src.indexOf(key, start);
   if (idx === -1) throw new Error(key + ' not found');
   const at = idx + key.length;
@@ -54,12 +60,32 @@ function insertAlternation(src, reLabel, place) {
   return src.slice(0, at) + place + '|' + src.slice(at);
 }
 
+// Irish place pages use slug shapes other than coding-classes-in-<place>
+// (best-coding-class-in-<city>, coding-and-ai-classes-in-<province>). They
+// are listed by full slug in a second group that opens with the never-matching
+// (?!x)x, so the 131 India best-coding-class-in-* pages stay out of the gates.
+function insertFullSlug(src, reLabel, slug) {
+  const start = src.indexOf("'coding-global': {");
+  if (start === -1) throw new Error('coding-global block not found');
+  const keyIdx = src.indexOf(reLabel + ': /^', start);
+  const lineEnd = src.indexOf('\n', keyIdx);
+  const g = src.indexOf('(?:(?!x)x', keyIdx);
+  if (keyIdx === -1 || g === -1 || g > lineEnd) throw new Error(reLabel + ' full-slug group not found');
+  const at = g + '(?:(?!x)x'.length;
+  const end = src.indexOf(')', at);
+  if (src.slice(at, end).split('|').includes(slug)) return src;
+  return src.slice(0, at) + '|' + slug + src.slice(at);
+}
+
+function addToRe(src, reLabel, slug) {
+  return slug.startsWith('coding-classes-in-') ? insertAlternation(src, reLabel, slug.replace(/^coding-classes-in-/, '')) : insertFullSlug(src, reLabel, slug);
+}
+
 function registerVerify(page) {
   const f = 'scripts/verify-cluster-pages.js';
   let s = read(f);
-  const place = page.slug.replace(/^coding-classes-in-/, '');
-  s = insertAlternation(s, 'fileRe', place);
-  s = insertAlternation(s, 'siblingRe', place);
+  s = addToRe(s, 'fileRe', page.slug);
+  s = addToRe(s, 'siblingRe', page.slug);
   const start = s.indexOf("'coding-global': {");
   const mk = s.indexOf('markets: [', start);
   if (mk === -1) throw new Error('markets array not found');
@@ -75,7 +101,7 @@ function registerVerify(page) {
 function registerUniqueness(page) {
   const f = 'scripts/check-cluster-uniqueness.js';
   let s = read(f);
-  s = insertAlternation(s, 'fileRe', page.slug.replace(/^coding-classes-in-/, ''));
+  s = addToRe(s, 'fileRe', page.slug);
   write(f, s);
   return 'uniqueness: registered';
 }
@@ -90,7 +116,7 @@ function registerRoutes(page) {
   if (close === -1) throw new Error('MARKETS close not found');
   const eol = s.includes('\r\n') ? '\r\n' : '\n';
   const line = `  ['${page.slug}', '${page.routeLabel.replace(/'/g, "\\'")}'],`;
-  const marker = '  // Netherlands cluster (scripts/nl)';
+  const marker = '  // ' + clusterOf(page) + ' cluster (scripts/nl)';
   let head = s.slice(0, close).replace(/\r?\n$/, '');
   // The previous last entry may lack a trailing comma; without one the next
   // array literal parses as an index expression and the whole table collapses.

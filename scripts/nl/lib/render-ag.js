@@ -97,17 +97,20 @@ function courseCard(x) {
 function jsonLd(page) {
   const url = SITE + '/' + page.slug;
   const m = page.market;
+  // A market with an empty iso is a worldwide page (the international lead
+  // contract): it serves everywhere rather than one country.
+  const area = m.iso === '' ? { '@type': 'Place', name: 'Worldwide' } : { '@type': 'Country', name: m.name };
   const graph = {
     '@context': 'https://schema.org',
     '@graph': [
-      { '@type': 'EducationalOrganization', '@id': SITE + '/#org', name: 'Modern Age Coders', url: SITE, logo: SITE + '/images/logo.svg', foundingDate: String(BRAND.founded), areaServed: { '@type': 'Country', name: m.name }, knowsAbout: ['Python', 'Machine Learning', 'AI Agents', 'Deep Learning', 'Data Science', 'Generative AI', 'Large Language Models', 'Model Evaluation', 'Git and GitHub', 'Statistics'] },
+      { '@type': 'EducationalOrganization', '@id': SITE + '/#org', name: 'Modern Age Coders', url: SITE, logo: SITE + '/images/logo.svg', foundingDate: String(BRAND.founded), areaServed: area, knowsAbout: ['Python', 'Machine Learning', 'AI Agents', 'Deep Learning', 'Data Science', 'Generative AI', 'Large Language Models', 'Model Evaluation', 'Git and GitHub', 'Statistics'] },
       { '@type': 'WebPage', '@id': url + '#page', url, name: plain(page.pageName), description: page.webPageDescription, inLanguage: m.lang, isPartOf: { '@type': 'WebSite', url: SITE, name: 'Modern Age Coders' } },
       { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: SITE + '/' }].concat(page.crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 2, name: c.name, item: SITE + c.href }))).concat([{ '@type': 'ListItem', position: page.crumbs.length + 2, name: plain(page.crumbLabel), item: url }]) },
       { '@type': 'Course', name: plain(page.pageName), description: page.courseDescription, provider: { '@id': SITE + '/#org' }, inLanguage: 'en', educationalCredentialAwarded: 'Modern Age Coders certificate of completion', audience: { '@type': 'EducationalAudience', educationalRole: 'student' }, hasCourseInstance: { '@type': 'CourseInstance', courseMode: 'online', courseWorkload: 'PT1H30M', location: { '@type': 'VirtualLocation', url }, instructor: { '@type': 'Organization', name: 'Modern Age Coders' } }, offers: [{ '@type': 'Offer', name: 'Group batch', price: '100', priceCurrency: 'USD', category: 'Monthly', availability: 'https://schema.org/InStock', url }, { '@type': 'Offer', name: 'One to one', price: '150', priceCurrency: 'USD', category: 'Monthly', availability: 'https://schema.org/InStock', url }] },
       { '@type': 'FAQPage', mainEntity: page.faq.items.map(f => ({ '@type': 'Question', name: plain(f.q), acceptedAnswer: { '@type': 'Answer', text: plain(f.a) } })) }
     ]
   };
-  const service = { '@context': 'https://schema.org', '@type': 'Service', serviceType: 'Online Python, AI and machine learning teaching for students', provider: { '@type': 'EducationalOrganization', name: 'Modern Age Coders', url: SITE + '/' }, areaServed: { '@type': 'Country', name: m.name }, availableChannel: { '@type': 'ServiceChannel', serviceUrl: url, availableLanguage: ['en'] } };
+  const service = { '@context': 'https://schema.org', '@type': 'Service', serviceType: 'Online Python, AI and machine learning teaching for students', provider: { '@type': 'EducationalOrganization', name: 'Modern Age Coders', url: SITE + '/' }, areaServed: area, availableChannel: { '@type': 'ServiceChannel', serviceUrl: url, availableLanguage: ['en'] } };
   return `  <script type="application/ld+json" data-price-scope="coding.international">\n  ${JSON.stringify(graph)}\n  </script>\n\n  <script type="application/ld+json">\n  ${JSON.stringify(service)}\n  </script>`;
 }
 
@@ -123,7 +126,7 @@ window.${fn} = function (e) {
   var age = (form.querySelector('select[name="age"]') || {}).value || '';
   var note = form.querySelector('.ag-form-note');
   var phoneDigits = phoneRaw.replace(/\\D/g, '');
-  if (phoneDigits.length < ${m.minDigits}) { if (note) note.textContent = 'Please enter a valid ${m.name} phone number.'; return; }
+  if (phoneDigits.length < ${m.minDigits}) { if (note) note.textContent = '${m.iso ? 'Please enter a valid ' + m.name + ' phone number.' : 'Please enter a valid phone number, including your country code.'}'; return; }
   var btn = form.querySelector('button[type="submit"]');
   var oldText = btn.textContent;
   btn.disabled = true; btn.textContent = 'Sending...';
@@ -134,7 +137,7 @@ window.${fn} = function (e) {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       phone: phoneDigits, countryCode: '${m.dial}', countryIso: '${m.iso}', countryName: '${m.name}',
-      source: '${page.slug}-inline', meta: { name: name, age: age, page: '${page.slug}' }
+      source: '${page.slug}-inline', meta: { name: name, age: age, page: '${page.slug}'${m.iso ? '' : ', raw: phoneRaw'} }
     })
   }).then(function (r) { return r.json(); }).then(function (data) {
     if (data && data.success) {
@@ -164,6 +167,7 @@ function render(page) {
   const m = page.market;
   const wa = WA + encodeURIComponent(page.wa);
   const fn = 'submitLead_' + page.code;
+  const fid = m.iso ? m.iso.toLowerCase() : 'intl';
 
   const head = `<!DOCTYPE html>
 <html lang="${m.lang}">
@@ -196,8 +200,8 @@ function render(page) {
   <meta name="twitter:image" content="${SITE}/images/og-modern-age-coders.png">
 
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <meta name="geo.region" content="${m.geoRegion}">
-  <meta name="geo.placename" content="${esc(m.name)}">
+${m.geoRegion ? `  <meta name="geo.region" content="${m.geoRegion}">
+  <meta name="geo.placename" content="${esc(m.name)}">` : '  <meta name="geo.placename" content="Worldwide">'}
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -450,16 +454,16 @@ ${page.faq.items.map(f => `      <div class="ag-faq-item">
       <div class="ag-form-panel">
         <form onsubmit="${fn}(event)" novalidate>
           <div class="ag-field">
-            <label for="nl-name">Your name</label>
-            <input id="nl-name" type="text" name="name" placeholder="Parent or student name" required>
+            <label for="${fid}-name">Your name</label>
+            <input id="${fid}-name" type="text" name="name" placeholder="Parent or student name" required>
           </div>
           <div class="ag-field">
-            <label for="nl-phone">Phone or WhatsApp, ${esc(m.name)} ${esc(m.dial)}</label>
-            <input id="nl-phone" type="tel" name="phone" placeholder="${esc(m.phonePlaceholder)}" required>
+            <label for="${fid}-phone">${m.iso ? 'Phone or WhatsApp, ' + esc(m.name) + ' ' + esc(m.dial) : 'Phone or WhatsApp, including your country code'}</label>
+            <input id="${fid}-phone" type="tel" name="phone" placeholder="${esc(m.phonePlaceholder)}" required>
           </div>
           <div class="ag-field">
-            <label for="nl-age">Learner age group</label>
-            <select id="nl-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+            <label for="${fid}-age">Learner age group</label>
+            <select id="${fid}-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
           </div>
           <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
           <p class="ag-form-note">${page.start.formNote}</p>

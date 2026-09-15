@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 /**
- * Build one Netherlands cluster page from its content module.
+ * Build one country-cluster page (Netherlands, Ireland) from its content module.
  *
  *   node scripts/nl/build.js coding-classes-in-amstelveen
  *
@@ -23,8 +23,9 @@ const ROOT = path.resolve(__dirname, '..', '..');
 const slug = process.argv[2];
 if (!slug) { console.error('usage: node scripts/nl/build.js <slug>'); process.exit(2); }
 
-const modPath = path.join(ROOT, 'content', 'nl', slug + '.js');
-if (!fs.existsSync(modPath)) { console.error('no content module at ' + modPath); process.exit(2); }
+const MARKET_DIRS = ['nl', 'ie'];
+const modPath = MARKET_DIRS.map(d => path.join(ROOT, 'content', d, slug + '.js')).find(p => fs.existsSync(p));
+if (!modPath) { console.error('no content module for ' + slug + ' in content/' + MARKET_DIRS.join(', content/')); process.exit(2); }
 delete require.cache[require.resolve(modPath)];
 const page = require(modPath);
 const CLUSTER = page.cluster === 'ag' ? 'ag' : 'cg';
@@ -83,7 +84,14 @@ if (/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/u.test(html)) fail('emoji in page');
 // 'groep 5 to 8', 'grades 5 to 8' and 'class 5 to 8' are school-year ranges, not a batch size.
 if (/(?<!groep |grades? |class(?:es)? |years? )5 to 8(?! (?:child|pupil|learner))|five to eight/i.test(html)) fail('old batch size 5 to 8 in page; brand facts say ' + JSON.stringify(require(path.join(ROOT, 'scripts/brand-facts.json')).batchSizes.group));
 if (/\+1\b.*strip|countryIso:'IN'/.test(html)) fail('wrong lead contract');
-if (!/countryIso: ?'NL'/.test(html)) fail('countryIso NL missing');
+// Lead contract: the form must send the module's market. A cg module with no
+// market object is a Netherlands page, the convention this builder began with.
+const LEAD_ISO = page.market && page.market.iso !== undefined ? page.market.iso : 'NL';
+if (LEAD_ISO) { if (!new RegExp("countryIso: ?'" + LEAD_ISO + "'").test(html)) fail('countryIso ' + LEAD_ISO + ' missing'); }
+else if (!/countryName: ?'International'/.test(html)) fail('international lead contract missing');
+// In Ireland IST means Irish Standard Time; to the teachers it means India
+// Standard Time. An Irish page must never use it unqualified.
+if (LEAD_ISO === 'IE' && /\bIST\b/.test(html.replace(/<script[\s\S]*?<\/script>/g, ' '))) fail('bare IST on an Irish page: write Irish time or India time');
 
 // --- write -------------------------------------------------------------------
 const outHtml = path.join(ROOT, 'src', 'pages', slug + '.html');

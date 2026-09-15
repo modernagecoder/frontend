@@ -23,7 +23,8 @@ function registerCss(page) {
   let css = read(f);
   const eol = css.includes('\r\n') ? '\r\n' : '\n';
   if (new RegExp('\\.ag-root\\.ag-' + page.code + '\\s*\\{').test(css)) return 'css: present';
-  const marker = '/* Netherlands cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints. */';
+  const name = page.clusterName || (page.market && page.market.name) || 'Netherlands';
+  const marker = name === 'Netherlands' ? '/* Netherlands cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints. */' : '/* ' + name + ' cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints. */';
   if (!css.includes(marker)) css = css.replace(/\s*$/, '') + eol + eol + marker + eol;
   const [r, g, b] = hexToRgb(page.accent);
   css = css.replace(/\s*$/, '') + eol + `.ag-root.ag-${page.code} { --ag-accent: ${page.accent}; --ag-accent-soft: rgba(${r},${g},${b},.09); }   /* ${page.accentRationale} */` + eol;

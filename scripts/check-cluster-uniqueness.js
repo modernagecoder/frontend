@@ -74,7 +74,12 @@ const CLUSTERS = {
       'ai-projects-for-high-school-students',
       'science-fair-project-ideas-ai',
       'ai-tools-age-guide',
-      'ai-and-machine-learning-for-working-professionals'
+      'ai-and-machine-learning-for-working-professionals',
+      // Ireland cluster: the country page and the global pages its doors overlap
+      'coding-classes-in-ireland',
+      'best-coding-classes-online',
+      'best-online-coding-classes-for-kids-2026',
+      'how-to-train-machine-learning-models'
     ]
   },
 
@@ -106,7 +111,7 @@ const CLUSTERS = {
   // for the same market, which is the true sibling most likely to collide.
   'coding-global': {
     label: 'International growth cluster',
-    fileRe: /^coding-classes-in-(roermond|middelburg|diemen|rijswijk|oegstgeest|voorschoten|wassenaar|capelle-aan-den-ijssel|velsen|bergen-op-zoom|assen|veenendaal|almelo|hoorn|vlaardingen|gouda|roosendaal|leidschendam-voorburg|schiedam|hengelo|meierijstad|lelystad|heerlen|nissewaard|sittard-geleen|hilversum|oss|purmerend|helmond|tongelre|woensel-noord|woensel-zuid|strijp|gestel|stratum|eindhoven-centrum|segbroek|loosduinen|leidschenveen-ypenburg|laak|haagse-hout|scheveningen|escamp|the-hague-centrum|prins-alexander|hillegersberg-schiebroek|kralingen-crooswijk|ijsselmonde|charlois|feijenoord|delfshaven|rotterdam-centrum|weesp|amsterdam-zuidoost|amsterdam-nieuw-west|amsterdam-west|amsterdam-zuid|amsterdam-oost|amsterdam-noord|amsterdam-centrum|uithoorn|venlo|deventer|emmen|delft|alkmaar|alphen-aan-den-rijn|westland|dordrecht|ede|maastricht|leeuwarden|leiden|zoetermeer|zwolle|den-bosch|enschede|amersfoort|zaanstad|haarlemmermeer|haarlem|apeldoorn|arnhem|nijmegen|breda|tilburg|groningen|zeeland|flevoland|drenthe|friesland|noord-brabant|groningen-province|limburg|overijssel|gelderland|utrecht-province|zuid-holland|noord-holland|rotterdam|utrecht|almere|the-hague|eindhoven|amsterdam|amstelveen|madha|shalim|al-mazyunah|haima|mahdah|daba-al-bayah|wadi-bani-khalid|masirah|mirbat|thumrait|mahout|al-awabi|wadi-al-maawil|dhank|taqah|al-qabil|manah|yanqul|dima-wa-attayeen|al-hamra|nakhal|adam|bidbid|al-kamil-wal-wafi|bidiyah|jalan-bani-bu-hassan|qurayyat|liwa|izki|samail|shinas|al-khaburah|al-mudhaibi|bahla|al-musanaah|jalan-bani-bu-ali|rustaq|al-amarat|saham|as-suwaiq|madinat-al-sultan-qaboos|bandar-seri-begawan|ash-sharqiyah-north|ash-sharqiyah-south|al-batinah-north|al-batinah-south|british-columbia|madinat-al-irfan|ad-dakhiliyah|adh-dhahirah|kuala-belait|jerudong|netherlands|al-buraimi|al-ghubrah|al-khuwair|birmingham|california|new-jersey|temburong|gadong|washington|al-khoudh|hong-kong|leicester|al-wusta|illinois|maryland|musandam|new-york|virginia|al-hail|al-mouj|alberta|bahrain|bawshar|georgia|mawaleh|muttrah|ontario|salalah|azaiba|brunei|liang|seria|dhofar|khasab|kuwait|muscat|tutong|barka|nizwa|qurum|sohar|texas|duqm|ibra|ibri|oman|seeb|sur)\.html$/,
+    fileRe: /^(?:coding-classes-in-(roermond|middelburg|diemen|rijswijk|oegstgeest|voorschoten|wassenaar|capelle-aan-den-ijssel|velsen|bergen-op-zoom|assen|veenendaal|almelo|hoorn|vlaardingen|gouda|roosendaal|leidschendam-voorburg|schiedam|hengelo|meierijstad|lelystad|heerlen|nissewaard|sittard-geleen|hilversum|oss|purmerend|helmond|tongelre|woensel-noord|woensel-zuid|strijp|gestel|stratum|eindhoven-centrum|segbroek|loosduinen|leidschenveen-ypenburg|laak|haagse-hout|scheveningen|escamp|the-hague-centrum|prins-alexander|hillegersberg-schiebroek|kralingen-crooswijk|ijsselmonde|charlois|feijenoord|delfshaven|rotterdam-centrum|weesp|amsterdam-zuidoost|amsterdam-nieuw-west|amsterdam-west|amsterdam-zuid|amsterdam-oost|amsterdam-noord|amsterdam-centrum|uithoorn|venlo|deventer|emmen|delft|alkmaar|alphen-aan-den-rijn|westland|dordrecht|ede|maastricht|leeuwarden|leiden|zoetermeer|zwolle|den-bosch|enschede|amersfoort|zaanstad|haarlemmermeer|haarlem|apeldoorn|arnhem|nijmegen|breda|tilburg|groningen|zeeland|flevoland|drenthe|friesland|noord-brabant|groningen-province|limburg|overijssel|gelderland|utrecht-province|zuid-holland|noord-holland|rotterdam|utrecht|almere|the-hague|eindhoven|amsterdam|amstelveen|madha|shalim|al-mazyunah|haima|mahdah|daba-al-bayah|wadi-bani-khalid|masirah|mirbat|thumrait|mahout|al-awabi|wadi-al-maawil|dhank|taqah|al-qabil|manah|yanqul|dima-wa-attayeen|al-hamra|nakhal|adam|bidbid|al-kamil-wal-wafi|bidiyah|jalan-bani-bu-hassan|qurayyat|liwa|izki|samail|shinas|al-khaburah|al-mudhaibi|bahla|al-musanaah|jalan-bani-bu-ali|rustaq|al-amarat|saham|as-suwaiq|madinat-al-sultan-qaboos|bandar-seri-begawan|ash-sharqiyah-north|ash-sharqiyah-south|al-batinah-north|al-batinah-south|british-columbia|madinat-al-irfan|ad-dakhiliyah|adh-dhahirah|kuala-belait|jerudong|netherlands|al-buraimi|al-ghubrah|al-khuwair|birmingham|california|new-jersey|temburong|gadong|washington|al-khoudh|hong-kong|leicester|al-wusta|illinois|maryland|musandam|new-york|virginia|al-hail|al-mouj|alberta|bahrain|bawshar|georgia|mawaleh|muttrah|ontario|salalah|azaiba|brunei|liang|seria|dhofar|khasab|kuwait|muscat|tutong|barka|nizwa|qurum|sohar|texas|duqm|ibra|ibri|oman|seeb|sur)|(?:(?!x)x))\.html$/,
     prefix: 'cg',
     incumbents: [
       // country hubs these pages spoke from
@@ -131,6 +136,7 @@ const CLUSTERS = {
       'ai-and-machine-learning-classes-in-bahrain',
       'ai-and-machine-learning-classes-in-hong-kong',
       'ai-and-machine-learning-classes-in-netherlands',
+      'ai-and-machine-learning-classes-in-ireland',
       'ai-and-machine-learning-classes-in-usa',
       'ai-and-machine-learning-classes-in-uk',
       'ai-and-machine-learning-classes-in-canada',
