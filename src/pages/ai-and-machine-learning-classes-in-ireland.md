@@ -500,6 +500,19 @@ The verifiable list is broader than people expect. University College Cork place
 
 They answer two different questions. A grind school exists to move a student up a grade band in a subject examined in June, and it is good at that. It is not built to leave a learner holding a trained model, a held out test window and a public link. Ireland is at 4.9 per cent unemployment against 6.4 per cent across the euro area, so the constraint here is not vacancies, it is being chosen among strong applicants, and that is settled by evidence of work rather than exam drilling. A group place is USD 100 a month, so this is rarely a choice between the two.
 
+More for Irish learners
+
+## Guides for Irish families, and pages for Irish places
+
+Each page answers one question for one audience, with its facts read at the source.
+
+- [Understand the code, don't copy-paste](/understand-the-code-dont-copy-paste-ireland): What Irish school and exam guidance says about AI, and how to learn code you can explain line by line.
+- [Leaving Cert Computer Science grinds online](/leaving-cert-computer-science-grinds-online): The subject's strands, exam and coursework, the changes coming in 2027, and live grinds for Fifth and Sixth Years.
+- [Best online coding classes in Ireland](/best-online-coding-classes-ireland): Where coding sits in Irish schools, six checks for any provider, and what clubs, camps, grinds and live classes are each for.
+- [Coding classes in Dublin](/best-coding-class-in-dublin): The city and county, from Swords to Tallaght, with a project on Dublin Bikes data.
+- [Coding classes in Dún Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown): From Blackrock and Dundrum to Dalkey and Shankill, with a project on the county's bathing water tests.
+- [The best coding class in the world](/best-coding-class-in-the-world): Eight tests any coding class should pass, from research on how people learn to program.
+
 Start here
 
 ## One free class, then decide
