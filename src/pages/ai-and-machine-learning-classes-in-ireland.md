@@ -515,6 +515,7 @@ Each page answers one question for one audience, with its facts read at the sour
 - [After CoderDojo: the next step in coding](/after-coderdojo-next-step-coding-ireland): For children who have outgrown a free coding club: the step from Scratch to Python and AI, with a teacher and a clear path.
 - [AI and Python academy for girls in Ireland](/ai-and-python-academy-for-girls-ireland): Who studies and works in computing in Ireland, why interest fades, and a mixed class that keeps a learner going.
 - [Junior Cycle Coding short course help](/junior-cycle-coding-short-course-help): The Coding short course and its Classroom-Based Assessment, explained, with the help a learner can have and the line we never cross.
+- [Best coding classes for kids in Ireland](/best-coding-classes-for-kids-ireland): Coding for primary-school children, from Junior Infants to Sixth Class: blocks, Scratch and first Python, set against the new primary curriculum.
 
 Pages for Irish places are listed on [the national Ireland page](/coding-classes-in-ireland).
 

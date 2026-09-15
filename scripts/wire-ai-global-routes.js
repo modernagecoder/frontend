@@ -146,6 +146,7 @@ const SLUGS = [
   'after-coderdojo-next-step-coding-ireland',
   'ai-and-python-academy-for-girls-ireland',
   'junior-cycle-coding-short-course-help',
+  'best-coding-classes-for-kids-ireland',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -371,6 +372,7 @@ const LLMS_LABELS = {
   'after-coderdojo-next-step-coding-ireland': 'After CoderDojo: the next step in coding, Ireland',
   'ai-and-python-academy-for-girls-ireland': 'AI and Python academy for girls, Ireland',
   'junior-cycle-coding-short-course-help': 'Junior Cycle Coding short course help',
+  'best-coding-classes-for-kids-ireland': 'Best coding classes for kids in Ireland',
 };
 
 function wireLlms(slugs) {

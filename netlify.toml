@@ -9880,6 +9880,18 @@
   to = "/src/pages/junior-cycle-coding-short-course-help.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-classes-for-kids-ireland"
+  to = "/src/pages/best-coding-classes-for-kids-ireland.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-classes-for-kids-ireland.md"
+  to = "/src/pages/best-coding-classes-for-kids-ireland.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
