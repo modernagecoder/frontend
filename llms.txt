@@ -347,6 +347,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - One-to-one coding classes, Netherlands: https://learn.modernagecoders.com/one-to-one-coding-classes-netherlands
 - Python classes, Netherlands: https://learn.modernagecoders.com/python-classes-netherlands
 - AI and Python Academy for girls, Netherlands: https://learn.modernagecoders.com/ai-and-python-academy-for-girls-netherlands
+- AI agents course for students, Netherlands: https://learn.modernagecoders.com/ai-agents-course-for-students-netherlands
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
