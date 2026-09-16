@@ -2698,4 +2698,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-county-westmeath /src/pages/coding-classes-in-county-westmeath.html 200
 /coding-classes-in-county-westmeath.md /src/pages/coding-classes-in-county-westmeath.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-county-cork /src/pages/coding-classes-in-county-cork.html 200
+/coding-classes-in-county-cork.md /src/pages/coding-classes-in-county-cork.md 200
 /* /src/pages/404.html 404

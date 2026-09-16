@@ -269,6 +269,7 @@ const MARKETS = [
   ['coding-classes-in-fingal', 'Fingal, County Dublin, Ireland'],
   ['coding-classes-in-south-dublin', 'South Dublin, County Dublin, Ireland'],
   ['coding-classes-in-county-westmeath', 'County Westmeath, Ireland'],
+  ['coding-classes-in-county-cork', 'County Cork, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

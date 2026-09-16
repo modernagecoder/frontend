@@ -11044,5 +11044,84 @@
       "A named private employer in the county: none met the standard of a quote from the employer's own page.",
       "Anything owned by the Meath, Laois, Kildare or other county pages in this cluster."
     ]
+  },
+  "coding-classes-in-county-cork": {
+    "market": "County Cork",
+    "bodyClass": "cg-ckc",
+    "pageType": "governorate",
+    "curriculumAuthority": "County Cork, the area outside the city, Census 2022 (CSO): Cork County Council population 360,152, which with Cork City Council's separately published figure makes the combined Cork total of 584,156. BOUNDARY: Cork County Council states that from 31 May 2019 the local authority for the transition area changed from county to city, the transition area comprising Ballincollig, Blarney, Tower, Glanmire, Douglas, Rochestown and Togher, under legislation passed in January 2019; the CSO's own Profile 1 background notes state that \"Changes made in 2019 to the Cork City and Cork County boundaries entail that a direct comparison with Census 2016 data is not possible\", and separately that new built-up area definitions prevent direct comparison of 2022 town figures with 2016. County towns (F1013 and F1015): Carrigaline 18,239 at 2,847.7 per sq km, average age 35.4 and 23.8 percent under 15; Cobh 14,148 at 2,997.0; Midleton 13,906 at 1,848.0, average age 36.1; Mallow 13,456 at 1,487.8, average age 38.0; Youghal 8,564 at 1,487.0, average age 41.0 and 18.5 percent under 15; Bandon 8,196; Fermoy 6,720; Kinsale 5,991; Clonakilty 5,112. County employment: over 161,000 people at work; unemployment 6 percent, the joint lowest in the country, with long-term unemployment at 3 percent, also joint lowest; labour force participation 61 percent, matching the national rate; from CSO table FY049, 50,510 people working from home at least part of the time against 97,034 who never do and 13,630 not stated. Citizenship in County Cork: Polish 8,590, UK 8,127, Lithuanian 1,602. Irish language in the county council area: almost 15,000 people, 10 percent, speaking it very well, just over 49,000 speaking it well and 84,607 not able to speak it well. Gov.ie, 4 January 2018: the county's first-phase Leaving Certificate Computer Science schools are Carrigaline Community School, Waterpark; Colaiste an Chraoibhin, Duntaheen Road, Fermoy; and Sacred Heart Secondary School, Convent of Mercy, Clonakilty, while Colaiste Choilm in Ballincollig and three city schools fall inside the post-2019 city boundary and are excluded. School eircodes from their own sites: Carrigaline Community School P43 XE06 and Colaiste an Chraoibhin P61 VX78. MTU describes the National Maritime College of Ireland at Ringaskiddy as a purpose-built college on a 10-acre campus 18 km from Cork city, serving the merchant shipping industry and the non-military needs of the Irish Naval Service.",
+    "localProject": "A county that changed shape, and a mapping layer with three empty fields. The first half of the project uses no download: learners establish that the 2019 transfer of Ballincollig, Blarney, Tower, Glanmire, Douglas, Rochestown and Togher to Cork City Council makes a 2016 to 2022 county comparison impossible, as the CSO itself states, and then choose a question the data can answer. The second half uses the council's own CDP 2022 Architectural Conservation Areas layer, published under Creative Commons Attribution 4.0 among the council's nine datasets. Measured: the service returns 50 features and a separate count request confirms 50 is the complete set rather than a first page; every one of the 50 records carries null in the ACA_ID, Townland and Settlement_Name fields, a 100 percent systematic gap, while only a free-text name and a bare numeric identifier with no published lookup table are populated; and the geometry uses spatial reference wkid 102100, Web Mercator metres, with coordinate values such as minus 965,375 and 6,843,008, so treating the rings as longitude and latitude pairs would place a north Cork conservation area off the west coast of Africa.",
+    "requiredMentions": [
+      "360,152",
+      "18,239",
+      "14,148",
+      "13,906",
+      "13,456",
+      "8,564",
+      "50,510",
+      "8,590",
+      "84,607",
+      "31 May 2019",
+      "P43 XE06",
+      "Ringaskiddy"
+    ],
+    "sources": [
+      {
+        "claim": "Cork County Council: \"from May 31st 2019, as a resident, business or community within the transition area, your local authority will change from Cork County Council to Cork City Council. The transition area includes Ballincollig, Blarney, Tower, Glanmire, Douglas Donnybook, Grange, Frankfield, Rochestown and Togher.\"",
+        "url": "https://www.corkcoco.ie/en/council/accessibility-maps-and-publications/cork-boundary-change-information"
+      },
+      {
+        "claim": "CSO Profile 1 background notes: \"Changes made in 2019 to the Cork City and Cork County boundaries entail that a direct comparison with Census 2016 data is not possible\", and that built-up area definitions prevent direct comparison of 2022 town data with 2016.",
+        "url": "https://www.cso.ie/en/releasesandpublications/ep/p-cpp1/censusofpopulation2022profile1-populationdistributionandmovements/backgroundnotes/"
+      },
+      {
+        "claim": "CSO table F1010: Cork County Council population 360,152, distinct from the separately published Cork City Council row.",
+        "url": "https://data.cso.ie/table/F1010"
+      },
+      {
+        "claim": "CSO tables F1013 and F1015: Carrigaline 18,239 at 2,847.7 per sq km with average age 35.4; Cobh 14,148 at 2,997.0; Midleton 13,906; Mallow 13,456; Youghal 8,564 with average age 41.0; Bandon 8,196; Fermoy 6,720; Kinsale 5,991; Clonakilty 5,112.",
+        "url": "https://data.cso.ie/table/F1013"
+      },
+      {
+        "claim": "CSO Profile 7, Cork: \"over 161,000 people working in Cork County\"; \"Cork County had the joint lowest unemployment rate at 6%\"; long-term unemployment 3%, also joint lowest; participation 61% in Cork County against 61% nationally.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutingcork/"
+      },
+      {
+        "claim": "CSO table FY049: for Cork County Council, 97,034 people never work from home, 50,510 do work from home and 13,630 are not stated.",
+        "url": "https://data.cso.ie/table/FY049"
+      },
+      {
+        "claim": "CSO Profile 5, Cork: \"In Cork County the largest group were Polish citizens (8,590 people), followed by UK citizens (8,127 people) and Lithuanian (1,602).\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligioncork/"
+      },
+      {
+        "claim": "CSO Profile 8, Cork: in the County Council area almost 15,000 people (10%) spoke Irish very well, just over 49,000 spoke it well and 84,607 could not speak it well.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationcork/"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: the first-phase list includes Carrigaline Community School, Coláiste an Chraoibhin in Fermoy and Sacred Heart Secondary School in Clonakilty, alongside Cork city schools now inside the extended city boundary.",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "Carrigaline Community School publishes its address as Waterpark, Carrigaline, Co. Cork, eircode P43 XE06.",
+        "url": "https://carrigcs.ie/contact-us/"
+      },
+      {
+        "claim": "Munster Technological University: \"The NMCI is a purpose-built College on a 10-acre campus and is located 18km from Cork city in Ringaskiddy. It provides training and education for the Merchant Shipping Industry and the non-military needs of the Irish Naval Service.\"",
+        "url": "https://www.mtu.ie/about-mtu/our-campuses/national-maritime-college-of-ireland/"
+      },
+      {
+        "claim": "Cork County Council CDP 2022 Architectural Conservation Areas, licensed Creative Commons Attribution 4.0: 50 records, all carrying null ACA_ID, Townland and Settlement_Name, with geometry in spatial reference wkid 102100 rather than degrees.",
+        "url": "https://data.gov.ie/dataset/cdp-2022-architectural-conservation-areas"
+      }
+    ],
+    "rejectedClaims": [
+      "A County Cork population growth rate between 2016 and 2022: the CSO states such a comparison is not possible because of the 2019 boundary change.",
+      "Treating Ballincollig, Blarney, Glanmire, Douglas, Rochestown or Togher as County Cork after 31 May 2019.",
+      "Counting Colaiste Choilm or the three Cork city schools as County Cork schools on the 2018 list.",
+      "Any Cork city figure: those belong to the Cork city page.",
+      "Comparing 2022 town populations with 2016 town figures: the CSO says built-up area definitions prevent it.",
+      "Reading the conservation layer coordinates as longitude and latitude: they are Web Mercator metres."
+    ]
   }
 }
