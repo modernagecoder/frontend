@@ -527,6 +527,7 @@ Each page answers one question for one audience, with its facts read at the sour
 - [Full stack software development course in Ireland](/full-stack-software-development-course-ireland): Front end, back end and database together, with an honest reading of what Irish labour market data does and does not say.
 - [Best Python classes online in Ireland](/best-python-classes-online-ireland): Python taught on Ireland's own public data, from a child's first program to the CSO statistical tables professionals actually use.
 - [Build real AI projects in Ireland](/build-real-ai-projects-ireland): Building AI projects on real Irish data, including how to tell an honest result from a leaked one.
+- [Data science course in Ireland](/data-science-course-ireland): Data science taught on Ireland's open data portal, including how to read a licence and how to spot a column that mixes units.
 
 Pages for Irish places are listed on [the national Ireland page](/coding-classes-in-ireland).
 
