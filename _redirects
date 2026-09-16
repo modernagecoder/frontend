@@ -2726,4 +2726,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-county-offaly /src/pages/coding-classes-in-county-offaly.html 200
 /coding-classes-in-county-offaly.md /src/pages/coding-classes-in-county-offaly.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-county-longford /src/pages/coding-classes-in-county-longford.html 200
+/coding-classes-in-county-longford.md /src/pages/coding-classes-in-county-longford.md 200
 /* /src/pages/404.html 404

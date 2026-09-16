@@ -911,3 +911,4 @@
 .cg-root.cg-tip  { --cg-accent: #5E3B76; --cg-accent-soft: rgba(94,59,118,.10); }   /* County Tipperary: a muted violet from the solver, distinct from the purples already used on the Leinster doors */
 .cg-root.cg-kkn  { --cg-accent: #8C4A00; --cg-accent-soft: rgba(140,74,0,.10); }   /* County Kilkenny: a burnt amber from the solver, set apart from the browns used on the other south eastern pages */
 .cg-root.cg-ofy  { --cg-accent: #3B5E1C; --cg-accent-soft: rgba(59,94,28,.10); }   /* County Offaly: a midland green from the solver, kept apart from the greens used on the western county pages */
+.cg-root.cg-lgf  { --cg-accent: #6E2440; --cg-accent-soft: rgba(110,36,64,.10); }   /* County Longford: a deep claret from the solver, held apart from the wines used on the eastern county pages */

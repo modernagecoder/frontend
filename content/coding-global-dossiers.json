@@ -11574,5 +11574,81 @@
       "Any claim linking the Technological University of the Shannon to Offaly: its own site does not mention Offaly, Tullamore or Birr.",
       "Any suggestion that Offaly schools do not teach computer science today: the finding concerns the January 2018 first-phase list only."
     ]
+  },
+  "coding-classes-in-county-longford": {
+    "market": "County Longford",
+    "bodyClass": "cg-lgf",
+    "pageType": "governorate",
+    "curriculumAuthority": "County Longford, whose council area is the county, Census 2022 (CSO Longford releases): population 46,751, up 5,878 (14 percent) since 2016; average age 38.8, identical to the national average; 9,728 children aged 15 and under, of whom 3,044 (31 percent) were in childcare against 33 percent nationally. Birthplace: 20,714 people (45 percent) born in the county, 15,401 (34 percent) elsewhere in the State and 9,580 (21 percent) outside the State, above the national 20 percent and up from 19.5 percent in 2016. Longford town: 10,952 people at 1,720.8 per sq km over 6.4 sq km, average age 37.3 with 22.5 percent under 15; the Longford local electoral area holds 17,329. Among towns of at least 500 people, Keenagh is youngest at average age 34.5 and Lanesborough-Ballyleague oldest at 40.3. From table F1010, the Longford County Council slice records 26,007 people in the remainder of the county outside every town of 500 or more, which by our own arithmetic is 55.6 percent of the county. Citizenship: the CSO's two releases give non-Irish citizens as 13 percent in the summary and 14 percent in Profile 5, so the range is quoted rather than one figure; largest groups Polish 1,508, UK 886, Lithuanian 559, Slovakian 523; dual Irish citizens up from 752 in 2016 to 1,523. Work, with the CSO's own national comparisons: almost 19,700 people at work, an increase of 30 percent from almost 15,200 in 2016, \"the highest rate of increase in the country\"; unemployment 11 percent against 20 percent in 2016, \"the joint highest rate in the country\"; 4,110 people working from home at least one day a week, 21 percent of the workforce against 32 percent nationally, with workers here \"along with those in Monaghan\" the least likely to work from home; average journey time 28.8 minutes against 26.4 in 2016. Education: third level qualifications up from just over 7,900 in 2016 to almost 10,400, a rate of 34 percent against 45 percent nationally; 14,993 people aged three and over could speak Irish, up by more than 900, which is 38 percent of that group against 36.9 percent in 2016. FINDING: no County Longford school appears on the forty-school first-phase Leaving Certificate Computer Science list of 4 January 2018, established by re-parsing the published table row by row. Sites: Center Parcs Longford Forest, described on the company's own site as set in 400 acres of historic forest five kilometres from Ballymahon and its first resort in Ireland; Longford County Council, Aras an Chontae, Great Water Street, Longford, N39 NH56.",
+    "localProject": "A name is not an identifier. Measured in CSO table F1013, the national list of built-up areas: filtering on the literal substring \"Longford\" returns 12 rows, while the same filter run case-insensitively, the default behaviour of pandas str.contains with case set to false and of SQL LIKE, returns 13, the extra row being \"Ballylongford, Co Kerry\" with a population of 415, which qualifies only because its name contains the letters longford. No warning and no error accompanies the difference, and at 415 people against a county of 46,751 the resulting total is wrong by under one percent, which is precisely why such errors survive review. Learners run both versions, diff the row sets, and then write the rule: match on an identifier or on a whole field, never on part of a human-readable name. The follow-on lesson is why every mature system issues codes that never change and never mean anything, eircodes for addresses being the nearest example to hand. Two further labelling notes from the same county are stated but not made into projects, because other pages own them: Lanesborough-Ballyleague is recorded as a single built-up area spanning Roscommon and Longford, so it belongs wholly to neither county total, and within the Longford slice of table F1010 there is a row labelled \"Ireland\" whose value is 46,751, the county total rather than the national population.",
+    "requiredMentions": [
+      "46,751",
+      "10,952",
+      "9,728",
+      "14,993",
+      "17,329",
+      "26,007",
+      "28.8 minutes",
+      "N39 NH56",
+      "Ballymahon",
+      "1,523",
+      "20,714",
+      "3,044"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Longford summary press statement, 30 May 2023: \"the population of Longford grew by 14% to 46,751, which means the number of people in the county rose by 5,878 between April 2016 and April 2022\"; average age 38.8 against a national 38.8; \"There were 9,728 children aged 15 and under in Longford in April 2022. Of these, 3,044 (31%) were in childcare, compared with 33% nationally\"; \"In Longford, 4,110 people (aged 15 and over) worked from home at least one day a week in 2022. This represented 21% of the workforce\"; and, in its dual citizens section, non-Irish citizens at 13 percent.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensusofpopulation2022-summaryresultslongford/"
+      },
+      {
+        "claim": "CSO Profile 1 Longford: \"Longford was the largest town, with a population of 10,952 in April 2022\"; Keenagh the youngest town at average age 34.5 and Lanesborough-Ballyleague the oldest at 40.3; 45 percent (20,714) born in the county, 34 percent (15,401) elsewhere in the State and 21 percent (9,580) outside it.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile1-populationdistributionandmovementslongford/"
+      },
+      {
+        "claim": "CSO Profile 7 Longford: \"almost 19,700 people were at work. This was an increase of 30% (from the almost 15,200 people recorded as working in Census 2016) - the highest rate of increase in the country\"; \"The unemployment rate was 11% compared with 20% in 2016. This was the joint highest rate in the country\"; \"Workers in the county, along with those in Monaghan, were the least likely to work from home, with 21% doing so\"; \"an average journey time of 28.8 minutes compared with 26.4 minutes in 2016\".",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutinglongford/"
+      },
+      {
+        "claim": "CSO Profile 5 Longford: \"In Longford non-Irish citizens accounted for 14% of the county's population. Among the non-Irish residents, the largest group were Polish citizens (1,508 people) followed by UK citizens (886), Lithuanian (559) and Slovakian (523)\"; dual Irish citizens up from 752 in 2016 to 1,523. The summary release gives 13 percent for the same measure, and the page quotes the range.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligionlongford/"
+      },
+      {
+        "claim": "CSO Profile 8 Longford: third level qualifications up from just over 7,900 in 2016 to almost 10,400, a rate of 34 percent against 45 percent nationally; \"The number of people (aged three and over) who could speak Irish in Longford increased by more than 900 to 14,993 in Census 2022. This was 38% of the county's population aged three and over.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationlongford/"
+      },
+      {
+        "claim": "CSO PxStat table F1013: Longford town at 1,720.8 per sq km over 6.4 sq km; a case-sensitive substring filter for \"Longford\" returns 12 built-up area rows, a case-insensitive one returns 13 by additionally matching \"Ballylongford, Co Kerry\", population 415; and \"Lanesborough-Ballyleague, Counties Roscommon & Longford\" is recorded as a single two-county row.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F1013/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO PxStat tables F1015 and F1016: Longford town average age 37.3 with 22.5 percent under 15; the Longford local electoral area 17,329.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F1015/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO PxStat table F1010, Longford County Council slice: remainder of the county outside towns of 500 or more, 26,007 people, and a row labelled \"Ireland\" whose value is 46,751, the county total rather than the national population.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F1010/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: the forty-school first-phase Leaving Certificate Computer Science list contains no school with a County Longford address, established by re-parsing the published table row by row.",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "Center Parcs: \"Nestled in 400 acres of beautiful historic forest just five kilometres from Ballymahon, Longford Forest is our first resort in Ireland.\"",
+        "url": "https://www.centerparcs.ie/discover-center-parcs/holiday-locations/longford-forest.html"
+      },
+      {
+        "claim": "Longford County Council contact page: \"Longford County Council, Aras an Chontae, Great Water Street, Longford N39 NH56\", and eight dataset records on data.gov.ie, all licensed Creative Commons Attribution 4.0, every one resolving its only resource to the same council web page rather than a data file.",
+        "url": "https://www.longfordcoco.ie/your-council/contact-us/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim that Longford has the highest share of non-Irish citizens in the country: no CSO statement ranks it, so only the 13 to 14 percent against a national 12 percent comparison is used.",
+      "A single figure for non-Irish citizens: the CSO's two releases give 13 and 14 percent, so the range is quoted.",
+      "The Lanesborough-Ballyleague two-county straddle as a project: the County Louth and County Carlow pages own the cross-county filter trap.",
+      "The F1010 row labelled \"Ireland\" as a project: the County Kerry page owns that trap, so it appears here as a one-line note.",
+      "Any Longford-specific broadband figure: the CSO publishes internet access no lower than the four-county Midland region.",
+      "A county land area or density figure for Longford: no such row exists in the CSO tables checked.",
+      "Any second named Longford employer: none could be verified at a primary source, so none is named."
+    ]
   }
 }
