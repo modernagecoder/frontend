@@ -2678,4 +2678,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-county-kildare /src/pages/coding-classes-in-county-kildare.html 200
 /coding-classes-in-county-kildare.md /src/pages/coding-classes-in-county-kildare.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-county-meath /src/pages/coding-classes-in-county-meath.html 200
+/coding-classes-in-county-meath.md /src/pages/coding-classes-in-county-meath.md 200
 /* /src/pages/404.html 404

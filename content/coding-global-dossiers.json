@@ -10669,5 +10669,85 @@
       "Guessing the missing character in the truncated Eircode: it is reported as incomplete instead.",
       "Anything owned by the Louth, Wexford, Carlow or Laois county pages, or by the city pages."
     ]
+  },
+  "coding-classes-in-county-meath": {
+    "market": "County Meath",
+    "bodyClass": "cg-mth",
+    "pageType": "governorate",
+    "curriculumAuthority": "County Meath, Census 2022 (CSO): population 220,826, up 13 percent or 25,782 since 2016, with 110,838 female and 109,988 male, 99 males for every 100 females; average age 36.9, up from 35.2; those aged 65 and over up 30 percent to 27,059; 32,539 people working from home at least one day a week, 32 percent of the workforce, the same as nationally; non-Irish citizens 11 percent, Polish 3,942, Romanian 3,174, Lithuanian 3,033, UK 2,767; 89,635 people travelling to work, 60,834 driving, 4,959 by bus, 1,241 by train, 5,023 walking and 634 cycling; average journey time 35.2 minutes against 34.6 in 2016, the longest of any county, with 17,044 people, 19 percent, travelling 60 minutes or more, the highest rate in the country, including more than 29 percent of commuters in Ballivor and more than 27 percent in Laytown, Bettystown, Mornington and Donacarney; third-level qualifications almost 62,600, 45 percent, the same as the national rate, and 1,003 PhD holders, 3 percent of the national total; the Meath Gaeltacht rose from just over 1,850 to 2,093 people, with 1,179 of the 1,989 aged three and over able to speak Irish, an increase of 117 or 11 percent, the second highest rate of increase in Gaeltacht areas. Towns (F1015): Navan 33,886, Ashbourne 15,680, Laytown-Bettystown-Mornington-Donacarney 15,642, Ratoath 10,077, Trim 9,563, Dunboyne 7,155, Kells 6,608, with 83,430 people in towns of 10,000 or more (F1010). Cross-boundary towns not used as Meath figures: Drogheda across Louth and Meath at 44,135, Kilcock across Kildare and Meath at 8,674. F1010 also records exactly 234 residents of the Dublin city and suburbs built-up area living in Meath County Council. Local electoral areas (F1016): Laytown-Bettystown 40,660, Ratoath 39,326, Navan 39,294, Kells 34,575, Ashbourne 33,516 and Trim 33,455, summing exactly to 220,826. Gov.ie, 4 January 2018: no County Meath school appears on the first-phase Leaving Certificate Computer Science list. Office of Public Works: Bru na Boinne at Donore holds Knowth, Newgrange and Dowth, built circa 3200 BC, among the most important Neolithic sites in the world with the largest collection of megalithic art in Western Europe; Trim Castle, C15 HN90, is the largest Anglo-Norman fortification in Ireland and took thirty years to build. Meath County Council: Buvinda House, Dublin Road, Athlumney, Navan, C15 Y291.",
+    "localProject": "Two official ways of adding up one county. Using CSO tables published under the office's own Creative Commons Attribution licence, the six local electoral areas in F1016 sum to exactly 220,826, matching the county total in F1010 to the person, while the 87 electoral divisions labelled Meath in F1011 sum to 213,398, a shortfall of 7,428 people or 3.4 percent. The missing population sits in divisions attached to cross-boundary towns whose labels carry a different county, so a filter on the county name never sees them. The densest Meath-labelled division is Trim Urban at 2,157.9 persons per square kilometre across 0.6 square kilometres. The same shortfall pattern appears in other counties, so it is taught as a structural property of nested geographies rather than an error. Meath County Council's own six datasets on the national portal are each registered as a web page with no downloadable file, which is why the project uses national tables and why checking a source before planning around it is part of the lesson.",
+    "requiredMentions": [
+      "220,826",
+      "213,398",
+      "7,428",
+      "33,886",
+      "15,680",
+      "15,642",
+      "10,077",
+      "83,430",
+      "35.2 minutes",
+      "27,059",
+      "2,093",
+      "C15 Y291",
+      "40,660"
+    ],
+    "sources": [
+      {
+        "claim": "CSO summary results, Meath: \"the population of Meath grew by 13% to 220,826, which means the number of people in the county rose by 25,782\"; average age 36.9 against 35.2 in 2016; those aged 65 and over up 30% to 27,059; \"In Meath, 32,539 people (aged 15 and over) worked from home at least one day a week in 2022. This represented 32% of the workforce. The national figure was 32%.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensusofpopulation2022-summaryresultsmeath/"
+      },
+      {
+        "claim": "CSO Profile 7, Meath: 89,635 travelling to work, 60,834 driving, 4,959 by bus, 1,241 by train; \"an average journey time of 35.2 minutes ... This meant that Meath commuters had the longest average journey time\"; 17,044 people, 19%, travelling 60 minutes or more, \"the highest in the country\", including more than 29% in Ballivor.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutingmeath"
+      },
+      {
+        "claim": "CSO Profile 5, Meath: non-Irish citizens 11% of the county, \"the largest group were Polish citizens (3,942 people) followed by Romanian citizens (3,174), Lithuanian (3,033) and the UK (2,767)\".",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligionmeath"
+      },
+      {
+        "claim": "CSO Profile 8, Meath: third-level qualifications almost 62,600, 45%, \"the same as the national rate of 45%\"; 1,003 PhD holders; the Meath Gaeltacht rising to 2,093 with 1,179 Irish speakers, up 117 or 11%, \"the second highest rate of increase in Irish speakers in Gaeltacht areas\".",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationmeath"
+      },
+      {
+        "claim": "CSO table F1015: Navan 33,886, Ashbourne 15,680, Laytown-Bettystown-Mornington-Donacarney 15,642, Ratoath 10,077, Trim 9,563, Dunboyne 7,155, Kells 6,608; Drogheda published across Louth and Meath at 44,135 and Kilcock across Kildare and Meath at 8,674.",
+        "url": "https://data.cso.ie/table/F1015"
+      },
+      {
+        "claim": "CSO table F1010: Meath County Council total 220,826; 83,430 people in towns of 10,000 and over; exactly 234 residents of the Dublin city and suburbs built-up area living in Meath County Council.",
+        "url": "https://data.cso.ie/table/F1010"
+      },
+      {
+        "claim": "CSO table F1016: Laytown-Bettystown 40,660, Ratoath 39,326, Navan 39,294, Kells 34,575, Ashbourne 33,516 and Trim 33,455, summing exactly to 220,826.",
+        "url": "https://data.cso.ie/table/F1016"
+      },
+      {
+        "claim": "CSO table F1011: the 87 electoral divisions labelled Meath sum to 213,398 against the official 220,826, a gap of 7,428; the densest is Trim Urban at 2,157.9 persons per sq km.",
+        "url": "https://data.cso.ie/table/F1011"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: no County Meath school appears in the first-phase Leaving Certificate Computer Science list, which does include a Mullingar school in County Westmeath.",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "Office of Public Works, Bru na Boinne: the passage tombs of Knowth, Newgrange and Dowth \"were built circa 3200BC\", are \"among the most important Neolithic sites in the world\" and \"contain the largest collection of megalithic art in Western Europe\".",
+        "url": "https://heritageireland.ie/places-to-visit/bru-na-boinne-visitor-centre-newgrange-knowth-and-dowth/"
+      },
+      {
+        "claim": "Office of Public Works, Trim Castle: \"the castle is the largest Anglo-Norman fortification in Ireland. Hugh de Lacy and his successors took 30 years to build it\"; eircode C15 HN90.",
+        "url": "https://heritageireland.ie/places-to-visit/trim-castle/"
+      },
+      {
+        "claim": "Meath County Council: \"Buvinda House, Dublin Road, Athlumney, Navan, Co. Meath, C15 Y291\"; its six datasets on the national portal are each listed in HTML form with no downloadable file.",
+        "url": "https://www.meath.ie/council/contact-us"
+      }
+    ],
+    "rejectedClaims": [
+      "Using Drogheda's 44,135 or Kilcock's 8,674 as Meath figures: both are published across two counties with no Meath-only split available.",
+      "A county area or density figure: the CSO publishes neither for Meath, and the electoral division sum undercounts, so no derived density is printed.",
+      "Any claim about which Meath schools teach Leaving Certificate Computer Science today: no current official list exists.",
+      "Counting the Mullingar school on the 2018 list as a Meath school: it is in County Westmeath.",
+      "Hill of Tara, Loughcrew or Slane facts: not read at source in this research, so not used.",
+      "Anything owned by the Louth, Kildare, Wexford, Carlow or Laois county pages, or by the city pages."
+    ]
   }
 }
