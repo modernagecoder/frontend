@@ -907,3 +907,4 @@
 .cg-root.cg-ckc  { --cg-accent: #7E3F1D; --cg-accent-soft: rgba(126,63,29,.10); }   /* County Cork: a burnt umber from the solver, deliberately distinct from the plum used for Cork city and from every other Ireland page */
 .cg-root.cg-gwc  { --cg-accent: #2D4B73; --cg-accent-soft: rgba(45,75,115,.10); }   /* County Galway: a slate blue from the solver, set apart from the tone used on the Galway city page and from the other western counties */
 .cg-root.cg-kry  { --cg-accent: #1F5E52; --cg-accent-soft: rgba(31,94,82,.10); }   /* County Kerry: a deep sea green from the solver, held apart from the tones used on the Munster city pages */
+.cg-root.cg-cla  { --cg-accent: #0D5A36; --cg-accent-soft: rgba(13,90,54,.10); }   /* County Clare: a deep emerald from the solver, kept clear of the greens already used on the Leinster county pages */

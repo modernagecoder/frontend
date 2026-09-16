@@ -10288,6 +10288,18 @@
   to = "/src/pages/coding-classes-in-county-kerry.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-county-clare"
+  to = "/src/pages/coding-classes-in-county-clare.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-county-clare.md"
+  to = "/src/pages/coding-classes-in-county-clare.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

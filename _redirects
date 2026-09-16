@@ -2710,4 +2710,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-county-kerry /src/pages/coding-classes-in-county-kerry.html 200
 /coding-classes-in-county-kerry.md /src/pages/coding-classes-in-county-kerry.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-county-clare /src/pages/coding-classes-in-county-clare.html 200
+/coding-classes-in-county-clare.md /src/pages/coding-classes-in-county-clare.md 200
 /* /src/pages/404.html 404

@@ -11273,5 +11273,80 @@
       "The euro value of the Fexco investment, kept off the page so no euro figure sits near our USD fees.",
       "Treating the F1010 row labelled \"Ireland\" under the Kerry filter as a national figure: it is the Kerry total."
     ]
+  },
+  "coding-classes-in-county-clare": {
+    "market": "County Clare",
+    "bodyClass": "cg-cla",
+    "pageType": "governorate",
+    "curriculumAuthority": "County Clare, Census 2022 (CSO Clare releases): population 127,938, up 9,121 (8 percent) since 2016; 65,021 female and 62,917 male, 97 males per 100 females; average age 40.1 against 38.5 in 2016; 24,998 children aged 15 and under. Towns (F1013): Ennis 27,923 at 1,208.4 per sq km over 23.1 sq km, the largest town in the county; Shannon 10,256 at 1,408.6 over 7.3 sq km. Local electoral areas (F1016): Ennis 33,952, Shannon 31,774, Ennistimon 18,052, each larger than the town because an LEA includes rural hinterland. Among places of at least 500 people, Crusheen is youngest at average age 33.1 and Cratloe oldest at 46.2. Citizenship: non-Irish citizens 10 percent of the county, largest groups UK 2,471, Polish 2,462, Ukrainian 976, Indian 578; dual Irish citizens up from 2,588 in 2016 to 4,572, largest Irish-US 1,347, Irish-UK 896, Irish-Australian 432. Irish language: 123,728 people aged three and over, of whom 54,437 could speak Irish, 47 percent, the same proportion as 2016 and the second highest of any county after Galway County, with no Gaeltacht area in Clare. Education: third level qualifications up from just under 30,000 in 2016 to just over 37,300, a rate of 44 percent against 45 percent nationally. Work (Profile 7): more than 56,100 at work; over 33,200 never working from home against more than 16,500 who do at least some of the time, 29 percent of the workforce against 32 percent nationally, including over 4,200 five days a week, 2,885 one day and 2,575 two days; manufacturing the largest sector at over 8,600 workers; 49,330 travelling to work, of whom 34,070 drive, 713 take the bus, 104 the train, 3,014 walk and 528 cycle; average journey time 26.7 minutes against 24.5 in 2016. Schools and sites: Ennistymon Vocational School, published by gov.ie on 4 January 2018 with the address \"Ennistymon, Ennis, Co. Clare\", the only Clare school on the first-phase Leaving Certificate Computer Science list; TUS Ennis Campus, Bindon Street, Ennis, eircode V95 DP96; Shannon Airport, described by its own group as Ireland's second largest long-haul airport with the country's longest runway and 24 hour unrestricted operations, 25 minutes from Limerick and 45 from Galway; the Cliffs of Moher, described by their operators as stretching 8km and reaching 214m at the highest point, with O'Brien's Tower built in 1835 by Cornelius O'Brien, and publishing no eircode on their own contact page, so none is printed.",
+    "localProject": "Auditing a public data catalogue by reading it. Clare County Council's publisher page on data.gov.ie advertises seven datasets, all licensed Creative Commons Attribution 4.0. Measured directly on the page: two entries are duplicate records of datasets already listed, identifiable because the second copy's URL slug carries CKAN's trailing \"1\", namely clare-county-council-departments and clare-county-council-departments1, and playgrounds-owned-and-managed-by-clare-county-council and the same slug with a 1. Two further entries are not Clare data at all: \"Limerick Landscape Characterisation\", whose description reads \"Dataset owned and provided by Limericke County Council June 2010\", reproducing the source's own misspelling, and \"Limerick Settlement Stratedgy\", misspelled in its own title and described as owned and provided by Limerick County Council as part of the Limerick development plan. Seven catalogue records therefore represent five distinct topics, of which three belong to Clare. The output is a one-page audit note stating record count, distinct topics, ownership, exact quotations and what the licence permits. Two supporting label problems from the same county reinforce the point: the CSO writes the electoral area as Ennistimon while the Department of Education writes the school as Ennistymon, and part of Limerick city's built-up area lies inside County Clare, so some residents appear in this county's council figures and in that city's town figures at the same time.",
+    "requiredMentions": [
+      "127,938",
+      "27,923",
+      "10,256",
+      "24,998",
+      "54,437",
+      "34,070",
+      "26.7 minutes",
+      "V95 DP96",
+      "Ennistymon",
+      "4,572",
+      "37,300",
+      "8,600"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Clare summary press statement, 30 May 2023: \"the population of Clare grew by 8% to 127,938, which means the number of people in the county rose by 9,121 between April 2016 and April 2022\"; \"65,021 were female and 62,917 were male\"; average age 40.1 against 38.5; \"There were 24,998 children aged 15 and under in Clare in April 2022.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensusofpopulation2022-summaryresultsclare/"
+      },
+      {
+        "claim": "CSO Profile 1 Clare: \"Ennis was the largest town, with a population of 27,923 in April 2022\"; Crusheen the youngest town at average age 33.1 and Cratloe the oldest at 46.2.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile1-populationdistributionandmovementsclare/"
+      },
+      {
+        "claim": "CSO PxStat table F1013: Ennis 27,923 at 1,208.4 per sq km over 23.1 sq km; Shannon 10,256 at 1,408.6 over 7.3 sq km. Table F1016: Ennis LEA 33,952, Shannon LEA 31,774, Ennistimon LEA 18,052.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F1013/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Profile 5 Clare: non-Irish citizens 10 percent of the county, UK 2,471, Polish 2,462, Ukrainian 976, Indian 578; dual Irish citizens up from 2,588 in 2016 to 4,572.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligionclare"
+      },
+      {
+        "claim": "CSO Profile 7 Clare: \"There were more than 56,100 people at work in Clare in April 2022. Of these, over 33,200 never worked from home, while more than 16,500 people worked from home at least some of the time\"; \"There were 49,330 people travelling to work in the county\"; 34,070 driving, 713 by bus, 104 by train, 3,014 walking, 528 cycling; average journey time 26.7 minutes against 24.5 in 2016; \"The Manufacturing sector accounted for the largest number of workers in the county at over 8,600.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutingclare/"
+      },
+      {
+        "claim": "CSO Profile 8 Clare: \"There were 123,728 people aged three years and over living in Clare in Census 2022. Of these, 54,437 people could speak Irish... Irish speakers made up 47% of the county's population... The county had the second highest proportion of Irish speakers in the country after Galway County\"; third level up from just under 30,000 to just over 37,300, a rate of 44 percent against 45 percent nationally; Clare is not among the seven Gaeltacht counties listed in the same release.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationclare"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: the first-phase Leaving Certificate Computer Science list includes \"Ennistymon Vocational School / Ennistymon, Ennis, Co. Clare\", the only Clare entry, quoted exactly as published.",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "Technological University of the Shannon contact page: \"TUS Ennis Campus, Bindon Street, Ennis, Co. Clare V95 DP96.\"",
+        "url": "https://tus.ie/contact-us/"
+      },
+      {
+        "claim": "The Shannon Airport Group: \"Shannon Airport is Ireland's second-largest long-haul airport... Located close to the western cities of Cork (1hr 40mins), Limerick (25mins), Galway (45mins)\" and \"Ireland's longest runway, combined with 24 hour unrestricted operations with no slots or curfews\".",
+        "url": "https://www.shannongroup.ie/about-us/"
+      },
+      {
+        "claim": "Cliffs of Moher Visitor Experience: \"The Cliffs stretch for 8km (5 miles) as the crow flies... The Cliffs reach 214m (702 feet) in height at their highest point\", and O'Brien's Tower \"was built in 1835 by Cornelius O'Brien, a descendant of Brian Boru\". No eircode is published on the site's own contact page.",
+        "url": "https://www.cliffsofmoher.ie/about-us/"
+      },
+      {
+        "claim": "data.gov.ie, Clare County Council publisher page: \"Datasets 7\", all licensed Creative Commons Attribution 4.0, with two duplicate records carrying CKAN trailing-1 slugs and two entries whose descriptions attribute them to Limerick County Council, one reading \"Dataset owned and provided by Limericke County Council June 2010\" and one titled \"Limerick Settlement Stratedgy\".",
+        "url": "https://data.gov.ie/organization/clare-county-council"
+      }
+    ],
+    "rejectedClaims": [
+      "The 4,435 people counted under Clare County Council as part of Limerick city and suburbs: that figure belongs to the Limerick page, so only the structural fact that the city reaches into Clare is stated here.",
+      "The 58,686 versus 56,686 contradiction inside the Clare Profile 1 release: real, but the same kind of finding the County Kerry page already carries, so it is not reused here.",
+      "A county land area or population density figure for Clare: the CSO publishes density only at electoral division and town level.",
+      "Any county-to-county commuting destination figure, including any claim about Clare residents working in Limerick: no such table was found at a primary source.",
+      "An eircode for the Cliffs of Moher: none is published on the operator's own contact page.",
+      "Any claim that Shannon Airport employment figures are Clare employment figures: the airport is a site, not a county statistic."
+    ]
   }
 }

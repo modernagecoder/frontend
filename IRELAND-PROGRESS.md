@@ -75,7 +75,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 40 | coding-classes-in-county-westmeath (wmh, #1E4D8C) | cg- county (Phase 4) | 3,618 | 4% vs coding-classes-in-fingal | 96,221 people, 26% home working against 32% nationally, two towns of nearly equal size with Athlone spanning two counties; two first-phase LCCS schools; TUS Athlone; N37 and N91 confirmed from the council's own file | the recycling file's textiles column holds YES, NO and one empty cell at Horseleap, so blank and no are different answers and any filter that conflates them silently reclassifies a real site | f10d7486 |
 | 41 | coding-classes-in-county-cork (ckc, #7E3F1D) | cg- county | 3,573 | 5.1% vs coding-classes-in-fingal | the 2019 boundary change and why no growth rate exists | conservation layer: 3 fields null in all 50 rows, coords in metres | 077ad046 |
 | 42 | coding-classes-in-county-galway (gwc, #2D4B73) | cg- county | 3,524 | 3.7% vs coding-classes-in-county-cork | do the parts add up to the whole | seven LEAs reconcile to 193,323; growth rate is city plus county | 2f51d1ce |
-| 43 | coding-classes-in-county-kerry (kry, #1F5E52) | cg- county | 3,314 | 5.1% vs coding-classes-in-county-galway | what to publish when the source disagrees with itself | 62,887 vs 62,877 in two CSO releases; F1010 row named Ireland is really Kerry | (this commit) |
+| 43 | coding-classes-in-county-kerry (kry, #1F5E52) | cg- county | 3,314 | 5.1% vs coding-classes-in-county-galway | what to publish when the source disagrees with itself | 62,887 vs 62,877 in two CSO releases; F1010 row named Ireland is really Kerry | c8b65e43 |
+| 44 | coding-classes-in-county-clare (cla, #0D5A36) | cg- county | 3,307 | 4.8% vs coding-classes-in-county-kerry | the label on the tin | catalogue says 7 datasets: 5 topics, 2 of them Limerick's | (this commit) |
 
 ## Skipped (kill criterion)
 
