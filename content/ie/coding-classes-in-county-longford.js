@@ -134,7 +134,7 @@ module.exports = {
           { h3: 'What that means for a family', p: 'A teenager here is growing up somewhere the labour market is changing fast. What a young person can actually do is worth more in that setting than what their address is.' },
           { h3: 'Education', p: 'Almost 10,400 people in the county hold a third level qualification, up from just over 7,900 in 2016, a rate of 34% against 45% nationally.' }
         ] },
-        { kind: 'spec', title: 'The least likely county to work from home', p: 'Only 21% of the workforce here works from home at any point in a week, the joint lowest share in the country. That cuts two ways. It means fewer households have the habit of a scheduled video call, and it also means an online class is not competing with anything else for the family broadband at six in the evening. What it does not tell us is whether any particular house has a good enough connection, because no county-level broadband figure is published at all. The free lesson answers that question directly, which is the only way to answer it.' }
+        { kind: 'spec', title: 'The least likely county to work from home', p: 'Only 21% of the workforce here works from home at any point in a week, the joint lowest share in the country. That cuts two ways. It means fewer households have the habit of a scheduled video call, and it also means an online class is not competing with anything else for the family broadband at six in the evening. The census does give a county answer on connections: in April 2022, 11,591 of Longford\'s 16,206 households had broadband, 2,015 had no internet and 1,803 did not say. What no table can tell you is whether your own house has a good enough line, and the free lesson answers that directly.' }
       ]
     },
     {
@@ -279,14 +279,15 @@ module.exports = {
       { claim: 'CSO PxStat table F1010, Longford County Council slice: remainder of the county outside towns of 500 or more, 26,007 people, and a row labelled "Ireland" whose value is 46,751, the county total rather than the national population.', url: 'https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F1010/JSON-stat/2.0/en' },
       { claim: 'Department of Education, 4 January 2018: the forty-school first-phase Leaving Certificate Computer Science list contains no school with a County Longford address, established by re-parsing the published table row by row.', url: 'https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/' },
       { claim: 'Center Parcs: "Nestled in 400 acres of beautiful historic forest just five kilometres from Ballymahon, Longford Forest is our first resort in Ireland."', url: 'https://www.centerparcs.ie/discover-center-parcs/holiday-locations/longford-forest.html' },
-      { claim: 'Longford County Council contact page: "Longford County Council, Aras an Chontae, Great Water Street, Longford N39 NH56", and eight dataset records on data.gov.ie, all licensed Creative Commons Attribution 4.0, every one resolving its only resource to the same council web page rather than a data file.', url: 'https://www.longfordcoco.ie/your-council/contact-us/' }
+      { claim: 'Longford County Council contact page: "Longford County Council, Aras an Chontae, Great Water Street, Longford N39 NH56", and eight dataset records on data.gov.ie, all licensed Creative Commons Attribution 4.0, every one resolving its only resource to the same council web page rather than a data file.', url: 'https://www.longfordcoco.ie/your-council/contact-us/' },
+      { claim: 'CSO Census 2022 table SAP2022T15T2CTY, Households with Internet access by administrative county: Longford County Council 16,206 households, of which 11,591 broadband, 797 other connection, 2,015 no internet and 1,803 not stated.', url: 'https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2CTY/JSON-stat/2.0/en' }
     ],
     rejectedClaims: [
       'Any claim that Longford has the highest share of non-Irish citizens in the country: no CSO statement ranks it, so only the 13 to 14 percent against a national 12 percent comparison is used.',
       'A single figure for non-Irish citizens: the CSO\'s two releases give 13 and 14 percent, so the range is quoted.',
       'The Lanesborough-Ballyleague two-county straddle as a project: the County Louth and County Carlow pages own the cross-county filter trap.',
       'The F1010 row labelled "Ireland" as a project: the County Kerry page owns that trap, so it appears here as a one-line note.',
-      'Any Longford-specific broadband figure: the CSO publishes internet access no lower than the four-county Midland region.',
+      'Presenting the Midland region internet survey figure as a Longford figure: the county figure used comes from the census table of internet access by county.',
       'A county land area or density figure for Longford: no such row exists in the CSO tables checked.',
       'Any second named Longford employer: none could be verified at a primary source, so none is named.'
     ]

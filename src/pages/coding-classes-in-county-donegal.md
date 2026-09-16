@@ -150,7 +150,7 @@ The Republic of Ireland only. Every figure here comes from Republic sources, and
 
 ### Connections
 
-No county broadband figure is published. For the Border region as a whole, covering Cavan, Donegal, Leitrim, Monaghan and Sligo, 91% of households have an internet connection and 79% have fixed broadband, the lowest regional rate in the country. Your own line is tested in the free lesson.
+The census records 46,882 of Donegal's 61,575 households on broadband in April 2022, and 7,777 with no internet. Separately, the annual internet survey puts fixed broadband across the five-county Border region at 79% in 2023, the lowest regional rate in the country. Your own line is tested in the free lesson.
 
 We are not connected with Donegal County Council, Atlantic Technological University or any school named here. Population, language, education and employment figures are quoted from Central Statistics Office releases naming Donegal, with Gaeltacht figures kept distinct from county ones. Every measurement in the data project is ours, made on a file the council publishes under a Creative Commons Attribution licence. One small honest note: unlike other councils in this cluster, Donegal County Council's own contact page does not carry a postal address or eircode, so we do not print one for it.
 

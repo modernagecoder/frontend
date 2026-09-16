@@ -14,9 +14,9 @@ County Offaly, Leinster / Live online
 
 **What are the best coding classes in County Offaly?** There are 83,150 people in County Offaly and 17,167 of them are aged 15 or under. Tullamore is the county town with 15,598 residents, Birr is next with 4,726, and the rest of the county lives in smaller places between the two. Nearly 21,000 people here drive to work and their journeys are among the longer ones in the country. What we run is simple: live classes, one fixed hour a week, ability groups of five to ten or one to one, from age six to sixty-seven. Try the first lesson at no cost, then a group place is USD 100 a month, a private one USD 150.
 
-For seventy years the largest telescope on earth stood in Birr. Everything a telescope does comes down to resolution: how small a thing it can separate from the thing beside it. Statistics has the same limit, and this page runs headlong into it. The figure we would most like to put in front of an Offaly family is the share of homes here with a good broadband connection, since our classes need one. That figure does not exist. The national statistics office publishes internet access no finer than the Midland region, four counties at once, and so the only honest sentence we can write is a regional one, clearly labelled as regional. Stating that costs us something, and it is the right way round.
+For seventy years the largest telescope on earth stood in Birr, and everything a telescope does comes down to resolution: how small a thing it can separate from the thing beside it. Statistics has the same limit, and it depends on the instrument. The figure we most wanted here was the share of Offaly homes with broadband, since our classes need a connection. The source most often quoted, the statistics office's annual internet survey, reports no finer than the Midland region, four counties at once, and this page once said that no Offaly figure therefore existed. That was wrong. The census is a different instrument, and it publishes internet access for every county, town and small neighbourhood: in Offaly, 21,841 of 28,702 households had broadband in April 2022. The data was not missing. We had asked only one instrument.
 
-Facts last verified 16 September 2026. Teaching is online; no County Offaly branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
+Facts last verified 17 September 2026. Teaching is online; no County Offaly branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
 
 ## Four starting points
 
@@ -36,34 +36,35 @@ The four we are known for, on every market page:
 
 Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
 
-## The number that is not published at your size
+## One question, two instruments
 
-Three real examples from this county, and one mistake that has its own name in statistics.
+Household internet in Offaly, asked of two official sources, alongside two limits that are genuinely real.
 
-**What we wanted for Offaly, and what actually exists**
+**What we wanted for Offaly, and where it actually exists**
 
-| The question | Finest published answer | What that stops you saying |
+| The question | Annual internet survey | Census 2022 |
 |---|---|---|
-| Homes with internet access | The Midland region: Laois, Longford, Offaly and Westmeath together, at 91% | Anything specific to Offaly |
-| Homes on fixed broadband | The same four counties, at 82%, against 91% in Dublin | That any Offaly town is above or below that |
-| Population density | Electoral divisions, towns and electoral areas | A single density figure for the county |
-| Town populations | Built-up areas, one row each | A clean county total by adding towns, since Portarlington sits in two counties at once |
+| Households on broadband | Midland region only, 82% on fixed broadband in 2023 | Offaly itself: 21,841 of 28,702 households, about 76% by our arithmetic |
+| Households with no internet | Not published for Offaly | 3,413 households, with a further 2,063 not stating |
+| Finest geography reached | NUTS3 region, four counties together | County, town, electoral division and small area |
+| Population density | Not covered | No single county figure in the tables we checked, only towns and electoral areas |
+| Town populations | Not covered | Built-up areas one row each, with Portarlington spanning Laois and Offaly |
 
 ### The mistake with a name
 
-Taking a fact about a large area and applying it to a small one inside it. If the Midland region is 82% on fixed broadband, it does not follow that Tullamore is, or that any particular house is. The error is old enough to have a formal name and common enough to appear in newspapers weekly.
+Taking a fact about a large area and applying it to a small one inside it. The census shows the cost plainly: across the State about 79% of households had broadband, in Offaly about 76%, both by our arithmetic on the published counts. Quote the national figure for Offaly and you overstate it with a number that is perfectly true of somewhere else.
 
-### The opposite mistake
+### The mistake we made first
 
-Refusing to use the regional figure at all, on the grounds that it is not exact. It is still the best available evidence. The requirement is to label it, not to bin it.
+Stopping at the first source. The annual survey is the one most articles cite and it genuinely stops at the region, which made it sound true that no county figure existed. That was only ever true of the survey.
 
 ### What a learner produces
 
-A short table like the one above: question, finest available geography, and the sentence that geography does and does not support. It is the most professional-looking page of work a fifteen year old can make in an afternoon.
+A table like the one above: the question, each source asked, the finest geography each reaches, and the year and method behind each figure. A survey sample from 2023 and a full count from 2022 giving different numbers is not a contradiction once that is written down.
 
 ### Why a telescope is the right way to think about it
 
-Birr Castle Demesne still holds the Great Telescope, which its owners describe as having remained the largest reflecting telescope in the world for over seventy years. A telescope with a wide field and poor resolution shows you a bright smudge where two stars are. You can describe the smudge honestly and usefully, and you cannot say anything at all about the two stars, because at that resolution they are one object. A four-county broadband figure is a smudge. It is real, it is measured, it is the best instrument available, and the two stars inside it stay invisible no matter how confidently anyone writes about them.
+Birr Castle Demesne still holds the Great Telescope, which its owners describe as having remained the largest reflecting telescope in the world for over seventy years. A small telescope shows a bright smudge where a bigger one shows two separate stars. Neither is lying; they differ in resolution. The regional internet survey is the smaller instrument, a four-county smudge. The census is the bigger one, and it separates Offaly from Laois, Tullamore from Birr and one neighbourhood from the next. Before anyone writes that a detail cannot be seen, they should check whether a bigger telescope has already been pointed at it.
 
 The county's own data adds a smaller version of the same lesson. Offaly County Council has seven dataset records on the national portal, all licensed for reuse, and we checked every one through the catalogue interface. All seven point at an ordinary web page rather than a file you could open. Seven records, zero files. That is not a complaint, it is a measurement, and it is exactly the sort of thing a learner should be able to establish for themselves in ten minutes rather than assume in either direction.
 
@@ -124,7 +125,7 @@ No Offaly school appears on the forty-school first-phase list for Leaving Certif
 
 Nearly 20,200 people in the county hold a third level qualification, up from almost 15,500 in 2016, which is 37% against 45% nationally.
 
-**The honest version of our own argument** We would like to tell you that Offaly homes are well connected, because that is what makes our classes possible. What we can say is that 91% of households across the four midland counties have an internet connection and 82% have fixed broadband, against 91% on fixed broadband in Dublin. Whether a particular house outside Banagher clears that bar is a question the published data cannot answer, and the free lesson is the only real test of it. That is also why the first lesson is free: it settles the connection question before anybody pays anything.
+**The honest version of our own argument** We would like to tell you that Offaly homes are well connected, because that is what makes our classes possible. The census gives the honest picture: in April 2022, 21,841 of the county's 28,702 households had broadband, 1,385 had another kind of connection, 3,413 had no internet at all and 2,063 did not say. By our arithmetic that is about 76% on broadband, a little below the national share. Whether a particular house outside Banagher is one of the connected ones is exactly what the free lesson finds out, before anybody pays anything.
 
 ## Quoted from the people who own them
 
@@ -142,7 +143,7 @@ The same site records that the reflecting telescope there remained the largest i
 
 Offaly County Council publishes its own address as Aras an Chontae, Charleville Road, Tullamore, eircode R35 F893.
 
-We are not connected with Offaly County Council, Birr Castle Demesne or any school mentioned here. Population, work and education figures are quoted from Central Statistics Office releases naming Offaly; the internet figures are the CSO's Midland regional figures and are labelled as regional every time they appear; the count of seven dataset records resolving to web pages rather than files is our own, made through the national portal's catalogue interface; and the absence of an Offaly school from the 2018 list comes from re-reading that published table in full.
+We are not connected with Offaly County Council, Birr Castle Demesne or any school mentioned here. Population, work and education figures are quoted from Central Statistics Office releases naming Offaly; household internet figures come from the census table of internet access by county, any regional survey figure is labelled as regional, and every percentage is marked as our own arithmetic; the count of seven dataset records resolving to web pages rather than files is our own, made through the national portal's catalogue interface; and the absence of an Offaly school from the 2018 list comes from re-reading that published table in full.
 
 ## From zooming in to naming the limit
 
@@ -153,13 +154,13 @@ Ages guide the grouping; the free lesson decides it.
 - **Ages 14 to 18: Matching question to data** Finding the finest geography a figure exists at, and writing what it does and does not support. [Data Science for Teens](/courses/data-science-course-for-teens-python-data), [Python for Teens](/courses/python-complete-masterclass-teens)
 - **Ages 18 to 67: Answering anyway** Giving a useful answer from coarse data without overclaiming, which is most of professional analysis. [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
 
-## Ask for the Offaly broadband figure and you will be given one
+## Ask for the Offaly broadband figure and you may be given the wrong one
 
-It will be specific, it will sound researched, and no such figure has been published.
+Often the regional survey number, relabelled, while the real county figure sits in a different table.
 
-What usually comes back is the regional number with the region's name quietly swapped for the county's, or a national number rounded to look local. Neither is a lie exactly. Both are the same error: a statistic reported at a finer resolution than it was ever measured at. The generated sentence contains no trace of the smudge it came from.
+The survey figure is the one quoted most, so it is the one most likely to come back, with the region's name quietly swapped for the county's. That is not quite a lie. It is a statistic reported at a finer resolution than it was measured at, while the census figure that actually describes Offaly goes unmentioned because fewer people have repeated it.
 
-A learner who has gone looking for that figure knows it is not there. They ask what area a number covers before repeating it, and they write the area's name beside it. That single habit would prevent a large share of the confident nonsense published about small places every week.
+A learner who has done this project asks two questions before repeating any local figure: what area does this number really cover, and does another source measure this place directly. We had to ask the second question ourselves, and the answer changed what this page says.
 
 Knowing the limits of your instrument is not a small technical point. In Birr of all places, it is the whole tradition. The longer argument is in [whether coding is still worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
@@ -194,11 +195,11 @@ The 2022 census recorded 83,150, an increase of 5,189 on 2016, including 17,167 
 
 ### Is broadband good enough in Offaly for live classes?
 
-No county-level figure is published. The statistics office reports 91% of midland households with an internet connection and 82% with fixed broadband, across four counties together. The free lesson tests your own connection, which is the only test that matters.
+The census gives a county answer: in April 2022, 21,841 of Offaly's 28,702 households had broadband and 3,413 had no internet. Your own connection is what matters, and the free lesson tests it directly.
 
 ### What is the Offaly data project?
 
-Students find out which questions the published data can answer at county size and which it cannot, then write the difference down. Broadband, density and town totals each fail in a different way.
+Students ask the same question of two official sources, find that one stops at the region while the census reaches individual neighbourhoods, and learn to name the source, year and area behind every figure they quote.
 
 ### How big are Tullamore and Birr?
 

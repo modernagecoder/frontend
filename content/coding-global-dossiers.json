@@ -11504,8 +11504,8 @@
     "market": "County Offaly",
     "bodyClass": "cg-ofy",
     "pageType": "governorate",
-    "curriculumAuthority": "County Offaly, whose council area is the county, Census 2022 (CSO Offaly releases): population 83,150, up 5,189 (7 percent) since 2016; average age 39 against 37.2 in 2016 and a national 38.8; 17,167 children aged 15 and under, of whom 5,623 (33 percent) were in childcare, the same share as nationally. Birthplace: 40,155 people (49 percent) born in the county, 30,601 (37 percent) elsewhere in the State and 11,881 (14 percent) outside the State, up from 12 percent in 2016. Towns: Tullamore 15,598 at 1,426.8 per sq km over 10.9 sq km, average age 38.1 with 20.9 percent under 15; Birr 4,726 at 738.1 over 6.4 sq km, average age 39.8 with 18.9 percent under 15. Local electoral areas: Tullamore 30,958 and Birr 27,004. Among towns of at least 500 people, Daingean is youngest at average age 35.5 and Shinrone oldest at 43.7. Citizenship: non-Irish citizens 9 percent of the county, largest groups Polish 1,560, UK 990, Lithuanian 883, Romanian 612; dual Irish citizens up from 1,130 in 2016 to 1,972. Work and travel: 35,248 people at work, an increase of 4,961 or 16 percent since 2016; unemployment 9 percent against 16 percent in 2016; 8,324 people working from home at least one day a week, 24 percent of the workforce against 32 percent nationally; 21,143 driving to work, 2,367 walking and 504 cycling; average journey time 30.2 minutes against 28.9 in 2016. Education: third level qualifications up from almost 15,500 in 2016 to nearly 20,200, a rate of 37 percent against 45 percent nationally; 28,231 people aged three and over could speak Irish, up by more than 400, which is 37.3 percent of that group against 38.2 percent in 2016. FINDING: no County Offaly school appears on the forty-school first-phase Leaving Certificate Computer Science list of 4 January 2018, established by re-parsing the published table row by row. Addresses from their owners: Birr Castle Demesne, Rosse Row, Birr, County Offaly, R42 VO27, describing 120 acres of parkland with over 5,000 species of trees and plants and a reflecting telescope that \"remained the largest in the world for over 70 years\"; Offaly County Council, Aras an Chontae, Charleville Road, Tullamore, R35 F893.",
-    "localProject": "Resolution: what to do when the statistic you need is not published at the size you need it. Three worked examples from this county. One, household internet: the CSO's internet coverage release publishes no finer than NUTS3 region, so the only available figures are 91 percent of Midland households with an internet connection and 82 percent with fixed broadband, covering Laois, Longford, Offaly and Westmeath together, against 91 percent on fixed broadband in Dublin. No Offaly figure exists, and the page states this against its own commercial interest rather than borrowing the regional number and relabelling it. Two, population density: no county-level density or area row exists for Offaly in PxStat tables F1010, F1011, F1013, F1015 or F1016, which publish density only at electoral division, built-up area and local electoral area level. Three, the council's own data: all seven Offaly County Council dataset records on the national portal, each licensed Creative Commons Attribution 4.0, resolve their only resource to an ordinary web page rather than a downloadable file, checked one by one through the catalogue interface, so seven records yield zero files. The taught error is applying a fact about a large area to a small one inside it, and the taught output is a three-column table of question, finest available geography, and the sentence that geography does and does not support. Birr's Great Telescope supplies the image: a coarse instrument shows a single bright smudge where two stars are, and describing the smudge honestly is the only available truth.",
+    "curriculumAuthority": "County Offaly, whose council area is the county, Census 2022 (CSO Offaly releases): population 83,150, up 5,189 (7 percent) since 2016; average age 39 against 37.2 in 2016 and a national 38.8; 17,167 children aged 15 and under, of whom 5,623 (33 percent) were in childcare, the same share as nationally. Birthplace: 40,155 people (49 percent) born in the county, 30,601 (37 percent) elsewhere in the State and 11,881 (14 percent) outside the State, up from 12 percent in 2016. Towns: Tullamore 15,598 at 1,426.8 per sq km over 10.9 sq km, average age 38.1 with 20.9 percent under 15; Birr 4,726 at 738.1 over 6.4 sq km, average age 39.8 with 18.9 percent under 15. Local electoral areas: Tullamore 30,958 and Birr 27,004. Among towns of at least 500 people, Daingean is youngest at average age 35.5 and Shinrone oldest at 43.7. Citizenship: non-Irish citizens 9 percent of the county, largest groups Polish 1,560, UK 990, Lithuanian 883, Romanian 612; dual Irish citizens up from 1,130 in 2016 to 1,972. Work and travel: 35,248 people at work, an increase of 4,961 or 16 percent since 2016; unemployment 9 percent against 16 percent in 2016; 8,324 people working from home at least one day a week, 24 percent of the workforce against 32 percent nationally; 21,143 driving to work, 2,367 walking and 504 cycling; average journey time 30.2 minutes against 28.9 in 2016. Education: third level qualifications up from almost 15,500 in 2016 to nearly 20,200, a rate of 37 percent against 45 percent nationally; 28,231 people aged three and over could speak Irish, up by more than 400, which is 37.3 percent of that group against 38.2 percent in 2016. FINDING: no County Offaly school appears on the forty-school first-phase Leaving Certificate Computer Science list of 4 January 2018, established by re-parsing the published table row by row. Addresses from their owners: Birr Castle Demesne, Rosse Row, Birr, County Offaly, R42 VO27, describing 120 acres of parkland with over 5,000 species of trees and plants and a reflecting telescope that \"remained the largest in the world for over 70 years\"; Offaly County Council, Aras an Chontae, Charleville Road, Tullamore, R35 F893. Household internet, Census 2022 table SAP2022T15T2CTY: of 28,702 households in Offaly County Council, 21,841 had broadband, 1,385 another connection, 3,413 no internet and 2,063 did not state; across the State 1,457,883 of 1,836,728 households had broadband.",
+    "localProject": "Resolution depends on the instrument. Household internet access in Offaly asked of two official sources. The CSO Internet Coverage and Usage in Ireland 2023 release, a sample survey, reports no finer than NUTS3 region: 91 percent of Midland households with an internet connection and 82 percent on fixed broadband, covering Laois, Longford, Offaly and Westmeath together. Census 2022 table SAP2022T15T2CTY, a full count, reports every administrative county and is also published by town, local electoral area, electoral division and small area: of 28,702 households in Offaly County Council, 21,841 had broadband, 1,385 another connection, 3,413 no internet and 2,063 did not state, while across the State 1,457,883 of 1,836,728 households had broadband, so about 76 percent in Offaly against about 79 percent nationally by our arithmetic. This page first stated that no Offaly figure existed, relying on the survey alone; it was corrected on 17 September 2026 and the correction is the lesson: ask more than one instrument before writing that a figure does not exist, and record the source, year, method and geography behind every number. The ecological fallacy is demonstrated inside one instrument, since quoting the national census share for Offaly overstates it. Two genuine limits remain: no single county population density row in PxStat F1010, F1011, F1013, F1015 or F1016, and seven Offaly County Council dataset records on data.gov.ie, each CC BY 4.0, that all resolve to an ordinary web page rather than a file. Birr's Great Telescope supplies the image: a smaller instrument shows a smudge where a larger one separates two stars.",
     "requiredMentions": [
       "83,150",
       "15,598",
@@ -11546,7 +11546,7 @@
         "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationoffaly/"
       },
       {
-        "claim": "CSO Internet Coverage and Usage in Ireland 2023: \"In 2023, 94% of households have an internet connection... Household internet connectivity was highest for the Dublin region (96%), compared with the Border and Midland regions (91% of households in these regions)\", with the Midland region, comprising Laois, Longford, Offaly and Westmeath, at 82 percent on fixed broadband against 91 percent in Dublin. No county-level figure is published.",
+        "claim": "CSO Internet Coverage and Usage in Ireland 2023: \"In 2023, 94% of households have an internet connection... Household internet connectivity was highest for the Dublin region (96%), compared with the Border and Midland regions (91% of households in these regions)\", with the Midland region, comprising Laois, Longford, Offaly and Westmeath, at 82 percent on fixed broadband against 91 percent in Dublin. The survey itself publishes no county-level figure.",
         "url": "https://www.cso.ie/en/releasesandpublications/ep/p-isshict/internetcoverageandusageinireland2023/householdinternetconnectivity/"
       },
       {
@@ -11564,10 +11564,15 @@
       {
         "claim": "data.gov.ie: Offaly County Council has seven dataset records, each licensed Creative Commons Attribution 4.0, and every one resolves its only resource to an HTML page rather than a downloadable data file, checked individually through the catalogue interface.",
         "url": "https://data.gov.ie/organization/offaly-county-council"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T15T2CTY, Households with Internet access by administrative county: Offaly County Council 28,702 households, of which 21,841 broadband, 1,385 other connection, 3,413 no internet and 2,063 not stated; State total 1,836,728 households, of which 1,457,883 broadband. The same table is published by town, local electoral area, electoral division and small area.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2CTY/JSON-stat/2.0/en"
       }
     ],
     "rejectedClaims": [
-      "Any Offaly-specific broadband or internet access figure: the CSO publishes no lower than the four-county Midland region, and the regional figure is labelled as regional every time it appears.",
+      "Presenting the Midland region survey figures as Offaly figures: the county figure comes from the census table, and the regional figure is labelled as regional.",
+      "The statement on an earlier version of this page that no county internet figure existed: the census table of internet access by county disproves it.",
       "A county land area or population density figure for Offaly: no such row exists in the CSO tables checked.",
       "The Portarlington cross-county filter trap as a project: the County Louth and County Carlow pages already own it, so it appears here only as a one-line labelling note.",
       "Any address or quotation for the Tullamore whiskey visitor centre: its own pages returned errors when checked, and addresses are not taken from third parties.",
@@ -11639,6 +11644,10 @@
       {
         "claim": "Longford County Council contact page: \"Longford County Council, Aras an Chontae, Great Water Street, Longford N39 NH56\", and eight dataset records on data.gov.ie, all licensed Creative Commons Attribution 4.0, every one resolving its only resource to the same council web page rather than a data file.",
         "url": "https://www.longfordcoco.ie/your-council/contact-us/"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T15T2CTY, Households with Internet access by administrative county: Longford County Council 16,206 households, of which 11,591 broadband, 797 other connection, 2,015 no internet and 1,803 not stated.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2CTY/JSON-stat/2.0/en"
       }
     ],
     "rejectedClaims": [
@@ -11646,7 +11655,7 @@
       "A single figure for non-Irish citizens: the CSO's two releases give 13 and 14 percent, so the range is quoted.",
       "The Lanesborough-Ballyleague two-county straddle as a project: the County Louth and County Carlow pages own the cross-county filter trap.",
       "The F1010 row labelled \"Ireland\" as a project: the County Kerry page owns that trap, so it appears here as a one-line note.",
-      "Any Longford-specific broadband figure: the CSO publishes internet access no lower than the four-county Midland region.",
+      "Presenting the Midland region internet survey figure as a Longford figure: the county figure used comes from the census table of internet access by county.",
       "A county land area or density figure for Longford: no such row exists in the CSO tables checked.",
       "Any second named Longford employer: none could be verified at a primary source, so none is named."
     ]
@@ -11705,17 +11714,21 @@
         "url": "https://www.atu.ie/campus/mayo"
       },
       {
-        "claim": "CSO Internet Coverage and Usage in Ireland 2023: the West region, comprising Galway, Mayo and Roscommon, at 92 percent of households with an internet connection and 83 percent on fixed broadband. No county-level figure is published.",
+        "claim": "CSO Internet Coverage and Usage in Ireland 2023: the West region, comprising Galway, Mayo and Roscommon, at 92 percent of households with an internet connection and 83 percent on fixed broadband. The survey publishes no county figure; the census table does.",
         "url": "https://www.cso.ie/en/releasesandpublications/ep/p-isshict/internetcoverageandusageinireland2023/householdinternetconnectivity/"
       },
       {
         "claim": "data.gov.ie: Mayo County Council has two dataset records, both licensed Creative Commons Attribution 4.0, whose only resources point at the council's own mapping host; three requests over two protocols on 16 September 2026 timed out with no response, so the data was unreachable and its contents are unknown.",
         "url": "https://data.gov.ie/organization/mayo-county-council"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T15T2CTY, Households with Internet access by administrative county: Mayo County Council 51,996 households, of which 38,640 broadband, 3,242 other connection, 6,965 no internet and 3,149 not stated.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2CTY/JSON-stat/2.0/en"
       }
     ],
     "rejectedClaims": [
       "Any description of what Mayo County Council's two datasets contain: the host did not answer, so an unreachable source is reported as unreachable rather than as empty.",
-      "Any Mayo-specific broadband figure: the CSO publishes internet access no lower than the three-county West region, which is labelled as regional wherever it appears.",
+      "Presenting the West region internet survey figure as a Mayo figure: the county figure used comes from the census table of internet access by county.",
       "Treating the Mayo Gaeltacht figures as county figures or the reverse: they measure different areas and are kept apart throughout.",
       "The Charlestown-Bellahy two-county straddle as a project: the County Louth and County Carlow pages own the cross-county filter trap.",
       "The Rice College address as a substring trap project: the County Longford page owns that, so it appears here as a single note.",
@@ -11781,19 +11794,23 @@
         "url": "https://data.gov.ie/dataset/co-donegal-municipal-districts"
       },
       {
-        "claim": "CSO Internet Coverage and Usage in Ireland 2023: the Border region, comprising Cavan, Donegal, Leitrim, Monaghan and Sligo, at 91 percent of households with an internet connection and 79 percent on fixed broadband, the lowest regional fixed broadband rate in the country. No county-level figure is published.",
+        "claim": "CSO Internet Coverage and Usage in Ireland 2023: the Border region, comprising Cavan, Donegal, Leitrim, Monaghan and Sligo, at 91 percent of households with an internet connection and 79 percent on fixed broadband, the lowest regional fixed broadband rate in the country. The survey publishes no county figure; the census table does.",
         "url": "https://www.cso.ie/en/releasesandpublications/ep/p-isshict/internetcoverageandusageinireland2023/householdinternetconnectivity/"
       },
       {
         "claim": "Donegal County Council contact page: gives a telephone number and email but no postal address or eircode, so none is printed for the council.",
         "url": "https://www.donegalcoco.ie/contact/"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T15T2CTY, Households with Internet access by administrative county: Donegal County Council 61,575 households, of which 46,882 broadband, 2,830 other connection, 7,777 no internet and 4,086 not stated.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2CTY/JSON-stat/2.0/en"
       }
     ],
     "rejectedClaims": [
       "Any Northern Ireland figure, statistic, school or service: this cluster covers the Republic of Ireland only.",
       "Any cross-border commuting figure for Donegal: none of the five Donegal census releases mentions Northern Ireland, the border, Derry or Strabane.",
       "The Gaeltacht count-versus-rate framing as a project: the County Mayo page owns it, so Donegal states its Gaeltacht figures without that structure.",
-      "Regional broadband limits as a project: the County Offaly page owns that, so the Border region figure appears here in one cell, labelled regional.",
+      "Presenting the Border region survey figure as a Donegal figure: the county figure comes from the census table and the regional figure is labelled as regional.",
       "A Donegal County Council postal address or eircode: its own contact page does not publish one.",
       "A CSO county land area or density figure for Donegal: the 4,835.72 sq km figure on this page is our own sum of the council's five municipal districts and is described as such.",
       "Any ranking of Donegal's two listed schools against other counties: the count is stated without a comparison we cannot sustain as more pages ship."

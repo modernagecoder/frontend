@@ -141,7 +141,7 @@ Both point at the council's own mapping server rather than a file. We asked that
 
 That the data was unreachable from outside on the day we tried, and nothing whatsoever about what it contains. Reporting an unreachable source as an empty one would be a straightforward error.
 
-We are not connected with Mayo County Council, Atlantic Technological University, Rice College or any school named here. Population, language, education and employment figures are quoted from Central Statistics Office releases naming Mayo, with Gaeltacht figures kept separate from county figures because they measure different areas. The account of the unreachable server is a plain description of requests we made and the responses we did not get. Internet access figures exist only for the West region as a whole, covering Galway, Mayo and Roscommon, at 92% of households connected and 83% on fixed broadband, and we do not restate them as Mayo figures.
+We are not connected with Mayo County Council, Atlantic Technological University, Rice College or any school named here. Population, language, education and employment figures are quoted from Central Statistics Office releases naming Mayo, with Gaeltacht figures kept separate from county figures because they measure different areas. The account of the unreachable server is a plain description of requests we made and the responses we did not get. Household internet figures come from the census table of internet access by county, which records 38,640 of Mayo's 51,996 households on broadband in April 2022.
 
 ## From counting to comparing properly
 
@@ -209,7 +209,7 @@ Rice College, published on the January 2018 list at Castlebar Road, Westport. Ca
 
 ### Is broadband good enough in Mayo?
 
-No county figure is published. For the West region as a whole, covering Galway, Mayo and Roscommon, 92% of households have an internet connection and 83% have fixed broadband. The free lesson tests your own line, which is the only test that counts.
+The census gives a county answer: in April 2022, 38,640 of Mayo's 51,996 households had broadband and 6,965 had no internet. Your own line is what matters, and the free lesson tests it directly.
 
 ### When do classes run?
 

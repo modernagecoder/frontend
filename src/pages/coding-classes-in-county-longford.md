@@ -125,7 +125,7 @@ A teenager here is growing up somewhere the labour market is changing fast. What
 
 Almost 10,400 people in the county hold a third level qualification, up from just over 7,900 in 2016, a rate of 34% against 45% nationally.
 
-**The least likely county to work from home** Only 21% of the workforce here works from home at any point in a week, the joint lowest share in the country. That cuts two ways. It means fewer households have the habit of a scheduled video call, and it also means an online class is not competing with anything else for the family broadband at six in the evening. What it does not tell us is whether any particular house has a good enough connection, because no county-level broadband figure is published at all. The free lesson answers that question directly, which is the only way to answer it.
+**The least likely county to work from home** Only 21% of the workforce here works from home at any point in a week, the joint lowest share in the country. That cuts two ways. It means fewer households have the habit of a scheduled video call, and it also means an online class is not competing with anything else for the family broadband at six in the evening. The census does give a county answer on connections: in April 2022, 11,591 of Longford's 16,206 households had broadband, 2,015 had no internet and 1,803 did not say. What no table can tell you is whether your own house has a good enough line, and the free lesson answers that directly.
 
 ## Two places, quoted from their owners
 
