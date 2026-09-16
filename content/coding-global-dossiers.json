@@ -12030,5 +12030,81 @@
       "A county population density figure: no CSO release or table publishes one for Roscommon.",
       "Any claim that Roscommon schools do not teach computer science today: only the January 2018 first-phase list was checked."
     ]
+  },
+  "coding-classes-in-county-cavan": {
+    "market": "County Cavan",
+    "bodyClass": "cg-cvn",
+    "pageType": "governorate",
+    "curriculumAuthority": "County Cavan, whose council area is the county, Census 2022 (CSO Cavan releases, Republic of Ireland only): population 81,704, up 5,528 (7 percent) since 2016, against State growth of 8 percent; 40,644 female and 41,060 male, 101 males per 100 females; average age 38.5 against 37.2 in 2016 and a national 38.8; 17,752 children aged 15 and under, of whom 6,104 (34 percent) were in childcare against 33 percent nationally. Towns: Cavan 11,741 at 947.4 per sq km over 12.4 sq km, average age 35.8, 24.3 percent under 15; Virginia 3,211, average age 36.3; Bailieborough 2,974, average age 38.3; Kingscourt 2,955; Ballyjamesduff 2,917, average age 34.9; Cootehill 1,856 at 905.8 over 2.0 sq km; Mullagh 1,651; Belturbet 1,610 at 1,563.5 over 1.0 sq km, average age 40.1. Mullagh is youngest at average age 34.1 and Cootehill oldest at 40.4 among places of at least 500 people. Citizenship: non-Irish 12 percent, Polish 1,719, UK 1,564, Lithuanian 1,398, Latvian 783; dual Irish citizens up from 1,297 to 2,335. Religion: almost 61,000 Catholics (74 percent), down from 82 percent; almost 6,900 stating no religion, up 77 percent from just over 3,900. Work and travel (Profile 7): almost 34,400 at work; 7,898 working from home at least one day a week, 22 percent against 32 percent nationally; 32,111 travelling to work, 21,127 by car, 562 by bus, 33 by train, 2,075 on foot up from 1,834, and 169 by bicycle, with \"Working commuters in both Cavan and Donegal ... the least likely to cycle to work with only 0.5% doing so\"; average journey time 30.7 minutes against 28.5 in 2016; \"Cootehill had the second highest rate nationally of primary students going to school by public transport, at 31%\". The release contains no sentence on cross-border commuting. Education and Irish: third level up from nearly 15,600 to almost 20,000, a rate of 38 percent against 45 percent nationally; average age of completing full time education up from 18.9 to 19.8 against a national 20.8; 26,591 of 78,633 people aged three and over could speak Irish, 35.9 percent, up from 25,210 and 35.4 percent; no Gaeltacht in Cavan under the CSO's seven-county definition. Schools: the gov.ie first-phase Leaving Certificate Computer Science list of 4 January 2018 includes two Cavan schools, \"Breifne College / Cootehill Rd, Cavan, Co. Cavan\", which is in Cavan town, and \"St Aidan's Comprehensive School / Cootehill, Co. Cavan\". Sites from their owners: Cavan County Museum, Virginia Road, Ballyjamesduff, A82 YP70, holding the Killycluggin Stone and a trench it describes as \"the largest outdoor replica trench open to the public in Ireland and the UK\"; Cavan County Council, Cavan Courthouse, Farnham St, Abbeyland, Cavan, H12 R6V2, a different routing key. Cavan County Council's data.gov.ie publisher page lists zero datasets.",
+    "localProject": "Order and dates are data too. With no council datasets available, learners use CSO PxStat table F1010, population by administrative county and aggregate town size, 448 cells, and two traps in it that no other page in this cluster uses. One, stored order: the Administrative Counties dimension holds its categories in insertion order, the first six being Cork City Council, Clare County Council, Cavan County Council, Cork County Council, Carlow County Council and Dublin City Council, so Cavan is third rather than second as alphabetical order would place it. Pairing the values with an alphabetically sorted list of names by position assigns counties the wrong populations and raises no error, because each name and each value is individually genuine. The check that exposes it is one known pair: Cavan's population is 81,704, and any row labelled Cavan showing a different figure proves the join is broken. The fix is to join on the stored code or label, never on position. Two, metadata date against reference date: the table's updated field reads 29 June 2023, while every figure in it describes census night, 3 April 2022, fourteen months earlier, so reading the timestamp as the as-of date overstates how recent the data is. Output: a paragraph on positional joins with the one-pair check, and a statement of the as-of date for every figure used. Not used: the table's \"Ireland\" pseudo-county row that doubles a naive sum, which the Kerry and Fingal pages own.",
+    "requiredMentions": [
+      "81,704",
+      "11,741",
+      "3,211",
+      "17,752",
+      "26,591",
+      "21,127",
+      "30.7 minutes",
+      "A82 YP70",
+      "H12 R6V2",
+      "2,335",
+      "7,898",
+      "1,856"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Cavan summary press statement, 30 May 2023: \"the population of Cavan grew by 7% to 81,704, which means the number of people in the county rose by 5,528 between April 2016 and April 2022. Over the same period, Ireland's population grew by 8%\"; \"The average age of Cavan's population in April 2022 was 38.5 years, compared to 37.2 years in April 2016. Nationally, the average age of the population was 38.8\"; \"40,644 were female and 41,060 were male\"; \"There were 17,752 children aged 15 and under in Cavan in April 2022. Of these 6,104 were in childcare (34%)\"; \"In Cavan, 7,898 people (aged 15 and over) worked from home at least one day a week in 2022. This represented 22% of the workforce.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensusofpopulation2022-summaryresultscavan/"
+      },
+      {
+        "claim": "CSO Profile 1 Cavan: \"Cavan was the largest town, with a population of 11,741 in April 2022\"; \"Mullagh was the youngest with an average age of 34.1 years. The oldest was Cootehill, with an average age of 40.4 years.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile1-populationdistributionandmovementscavan/"
+      },
+      {
+        "claim": "CSO PxStat tables F1013 and F1015: Cavan town 11,741 at 947.4 per sq km over 12.4 sq km, average age 35.8, 24.3 percent under 15; Virginia 3,211; Bailieborough 2,974; Kingscourt 2,955; Ballyjamesduff 2,917; Cootehill 1,856 at 905.8 over 2.0 sq km; Mullagh 1,651; Belturbet 1,610 at 1,563.5 over 1.0 sq km.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F1015/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO PxStat table F1010: the Administrative Counties dimension stores categories in the order Cork City Council, Clare County Council, Cavan County Council, Cork County Council, Carlow County Council, Dublin City Council for its first six positions; the Cavan County Council grand total is 81,704; the table metadata gives updated 2023-06-29, for figures describing census night on 3 April 2022.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F1010/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Profile 5 Cavan: \"In Cavan non-Irish citizens accounted for 12% of the county's population. Among the non-Irish residents, the largest group were Polish citizens (1,719 people), followed by UK citizens (1,564), Lithuanian (1,398) and Latvian (783)\"; dual Irish citizens up from 1,297 to 2,335; Catholic share 74 percent down from 82 percent; almost 6,900 stating no religion, up 77 percent.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligioncavan/"
+      },
+      {
+        "claim": "CSO Profile 7 Cavan: \"There were 32,111 people travelling to work in the county in April 2022. The majority of these drove to work, with 21,127 people driving to work by car\"; 562 by bus, 33 by train; \"2,075 people walked to work, up from 1,834 in 2016, while 169 people cycled\"; \"Working commuters in both Cavan and Donegal were the least likely to cycle to work with only 0.5% doing so\"; \"an average journey time of 30.7 minutes compared with 28.5 minutes in 2016\"; \"Cootehill had the second highest rate nationally of primary students going to school by public transport, at 31%\". No sentence on cross-border commuting appears in the release.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutingcavan/"
+      },
+      {
+        "claim": "CSO Profile 8 Cavan: third level up from nearly 15,600 to almost 20,000, \"a rate of 38% compared with 45% nationally\"; average age of completing education up from 18.9 to 19.8 against a national 20.8; \"There were 78,633 people aged three years and over living in Cavan in Census 2022. Of these, 26,591 people could speak Irish... Irish speakers made up 35.9% of the county's population\"; Gaeltacht defined by the editor's note as electoral divisions in seven counties not including Cavan.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationcavan/"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: the first-phase Leaving Certificate Computer Science list includes \"Breifne College / Cootehill Rd, Cavan, Co. Cavan\" and \"St Aidan's Comprehensive School / Cootehill, Co. Cavan\".",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "Cavan County Museum: \"Virginia Road, Ballyjamesduff, Cavan, A82YP70\", \"see the ancient Killycluggin Stone\", and \"the World War One Trench Experience, the largest outdoor replica trench open to the public in Ireland and the UK\".",
+        "url": "https://www.cavanmuseum.ie/"
+      },
+      {
+        "claim": "Cavan County Council: \"Cavan County Council, Cavan Courthouse, Farnham St, Abbeyland, Cavan, H12 R6V2\".",
+        "url": "https://www.cavancoco.ie/"
+      },
+      {
+        "claim": "data.gov.ie, Cavan County Council publisher page: \"Datasets 0 / Total Views 0\", with a dataset search returning no results.",
+        "url": "https://data.gov.ie/organization/cavan-county-council"
+      }
+    ],
+    "rejectedClaims": [
+      "The F1010 \"Ireland\" pseudo-county row doubling a naive national sum: the County Kerry and Fingal pages own that trap.",
+      "Any Northern Ireland or cross-border commuting figure: the CSO Cavan release contains none and the cluster covers the Republic only.",
+      "Belturbet's town unemployment rate: accurate, but left off a page addressed to families in that town, as on the Roscommon page.",
+      "The museum's euro admission prices: no euro figure is placed on a page carrying our USD fees.",
+      "A county population density figure for Cavan: no CSO release or table publishes one.",
+      "Any headcount for a named Cavan employer: nothing beyond a headline could be verified at a primary source.",
+      "The \"Cootehill Rd\" address as a substring trap project: County Longford owns that, so it is stated here only as a geography note."
+    ]
   }
 }
