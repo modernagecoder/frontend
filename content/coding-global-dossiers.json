@@ -11798,5 +11798,81 @@
       "A CSO county land area or density figure for Donegal: the 4,835.72 sq km figure on this page is our own sum of the council's five municipal districts and is described as such.",
       "Any ranking of Donegal's two listed schools against other counties: the count is stated without a comparison we cannot sustain as more pages ship."
     ]
+  },
+  "coding-classes-in-county-sligo": {
+    "market": "County Sligo",
+    "bodyClass": "cg-sgo",
+    "pageType": "governorate",
+    "curriculumAuthority": "County Sligo, a single-tier local authority whose council area is the county, Census 2022 (CSO Sligo releases): population 70,198, up 4,663 (7 percent) since 2016, against national growth of 8 percent from 4,761,865 to 5,149,139; average age 40.7 against 39.2 in 2016 and a national 38.8; people aged 65 or over up 21 percent to 12,903, against a national rise of 22 percent to 776,315. Towns: Sligo town 20,608 at 1,649.6 per sq km over 12.5 sq km, average age 39.8 with 16.4 percent under 15 and 16.7 percent aged 65 or over; Tubbercurry 2,307; Strandhill 1,982; Collooney 1,797; Ballymote 1,711; Enniscrone 1,291 with 26.8 percent aged 65 or over and an average age of 45.3; Coolaney 1,155 with 30.6 percent under 15 and the youngest average age at 31.8; Rosses Point 883 with 28.2 percent aged 65 or over and an average age of 45.3, tied with Enniscrone as the oldest. Citizenship: non-Irish citizens 9 percent of the county, largest group UK at 1,599, then Polish 1,124, Indian 317 and German 222. Religion and ethnicity: 418 Travellers, up from 386 in 2016; more than 51,500 Catholics, 73 percent; almost 8,700 people stating no religion, up 64 percent from almost 5,300; Church of Ireland 2,485, Islam 1,021, Orthodox 434. Work and travel: human health and social work the largest sector at almost 4,600 workers, then manufacturing at just over 3,600 and wholesale and retail at almost 3,500; unemployment 8 percent against 14 percent in 2016; 8,216 people working from home at least one day a week, 27 percent of the workforce against 32 percent nationally, with almost 2,200 doing so five days, 1,550 one day and 1,367 two days, and almost 18,800 never; 17,154 driving to work, 372 by bus, 71 by train, 2,400 walking up from 2,092, and 359 cycling; average journey time 23.4 minutes against 22.1 in 2016, with 7,668 commuters under 15 minutes and 8,859 between 15 and 30. Education and Irish: third level qualifications up from almost 16,600 in 2016 to just under 21,000, a rate of 44 percent just below the national 45 percent; the average age of completing full time education up from 19.9 to 21 years, against a national move from 19.9 to 20.8; 26,506 people aged three and over could speak Irish, up from 25,196, which is 41.5 percent of that group against 41 percent in 2016. County Sligo has no Gaeltacht: the CSO defines the Gaeltacht as electoral divisions in Cork, Donegal, Galway, Kerry, Mayo, Meath and Waterford, and Sligo is not among them. FINDING: no County Sligo school appears on the forty-school first-phase Leaving Certificate Computer Science list of 4 January 2018, established by reading the full table. Addresses from their owners, all sharing the F91 routing key: ATU Sligo, Ash Lane, F91 YW50, described as a 72 acre green campus ten minutes' walk from the centre with almost 10,000 students; Hawk's Well Theatre, Temple Street, F91 CFY7, open since 1982 and a registered charity; Sligo MacDiarmada station, Lord Edward Street, F91 K752, open 24 hours with 34 parking spaces including two electric charging points; Sligo County Council, County Hall, Riverside, F91 Y763.",
+    "localProject": "A county average describes the county and almost none of the places in it. Sligo's average age is 40.7 years, while its towns run from Coolaney at 31.8 to Rosses Point and Enniscrone at 45.3, a spread of thirteen and a half years inside one small county. The sharper finding concerns children: Sligo town, by far the largest place at 20,608 people, has the smallest share of under-15s of the towns checked at 16.4 percent, while Coolaney, a village of 1,155, has 30.6 percent, nearly double. Where the population is and where the children are proportionally are two different maps, and a population table shows only the first. Learners rebuild the county from its towns, plot the eight places against the county average, compute the range, and write one sentence on what a county average is good for and what it is not. The extension is a real decision rather than an exercise: where would you start a class for twelve year olds using only the county average, and where would you start one after seeing the town figures. NOT USED: the F1010 \"Ireland\" pseudo-category, measured in this county's research as doubling both Sligo's own total of 70,198 and the national figure for any band, because the County Kerry and Fingal pages already carry that trap.",
+    "requiredMentions": [
+      "70,198",
+      "20,608",
+      "12,903",
+      "26,506",
+      "17,154",
+      "2,307",
+      "1,155",
+      "30.6%",
+      "F91 YW50",
+      "F91 CFY7",
+      "8,216",
+      "23.4 minutes"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Sligo summary press statement, 30 May 2023: \"Census 2022 shows that the population of Sligo grew by 7% to 70,198\" and \"the number of people in the county rose by 4,663 between April 2016 and April 2022\", against \"Ireland's population grew by 8% from 4,761,865 to 5,149,139\"; \"The average age of Sligo's population in April 2022 was 40.7 years, compared with 39.2 years in April 2016\"; \"This age group increased by 21% to 12,903 in Sligo\"; \"In Sligo, 8,216 people (aged 15 and over) worked from home at least one day a week in 2022. This represented 27% of the workforce.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensusofpopulation2022-summaryresultssligo/"
+      },
+      {
+        "claim": "CSO Profile 1 Sligo: \"Sligo was the largest town, with a population of 20,608 in April 2022\"; \"Coolaney was the youngest, with an average age of 31.8 years\"; \"The oldest were Rosses Point and Enniscrone, with both having an average age of 45.3 years.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile1-populationdistributionandmovementssligo/"
+      },
+      {
+        "claim": "CSO PxStat tables F1013 and F1015: Sligo town 20,608 at 1,649.6 per sq km over 12.5 sq km, average age 39.8, 16.4 percent under 15 and 16.7 percent aged 65 or over; Tubbercurry 2,307; Strandhill 1,982; Collooney 1,797; Ballymote 1,711; Enniscrone 1,291 with 26.8 percent aged 65 or over; Coolaney 1,155 with 30.6 percent under 15; Rosses Point 883 with 28.2 percent aged 65 or over.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F1015/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Profile 5 Sligo: \"Non-Irish citizens accounted for 9% of the county's population\"; \"The largest group were UK citizens (1,599 people) followed by Poland citizens (1,124), Indian (317) and German (222)\"; \"There were 418 Travellers in Sligo in Census 2022, compared with 386 in 2016 (+8%)\"; \"More than 51,500 people in the county were Catholic (73%)\"; \"There were almost 8,700 people who stated they did not have a religion, which was up from almost 5,300 in Census 2016, up 64%.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligionsligo/"
+      },
+      {
+        "claim": "CSO Profile 7 Sligo: \"Human Health and Social Work Activities sector accounted for the largest number of workers in the county at almost 4,600\"; manufacturing \"just over 3,600\" and wholesale and retail \"almost 3,500\"; \"The unemployment rate was 8% compared with 14% in 2016\"; \"17,154 people driving to work by car in 2022. There were 372 people travelling by bus and 71 by train\"; \"2,400 people walked to work, up from 2,092 in 2016, while 359 people cycled\"; \"an average journey time of 23.4 minutes compared with 22.1 minutes in 2016\"; \"7,668 Sligo commuters who had a journey time of less than 15 minutes, while 8,859 people had a journey time of 15 to 30 minutes.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutingsligo/"
+      },
+      {
+        "claim": "CSO Profile 8 Sligo: \"The number of people with a third level qualification in the county rose from almost 16,600 in 2016 to just under 21,000 in 2022. This was a rate of 44%, just below that at national level (45%)\"; \"In Sligo the average age rose from 19.9 years to 21 years\"; \"Of these 26,506 people could speak Irish... Irish speakers made up 41.5% of the county's population aged three and over, compared with 41% in Census 2016\"; and the editor's note defining the Gaeltacht as electoral divisions \"in the counties of Cork, Donegal, Galway, Kerry, Mayo, Meath and Waterford\", which does not include Sligo.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationsligo/"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: the forty-school first-phase Leaving Certificate Computer Science table contains no County Sligo address, established by reading and searching the full list.",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "Atlantic Technological University: \"ATU Sligo, Ash Lane, Co. Sligo, F91 YW50, Ireland\", \"almost 10,000 students who study full-time, part-time or online\", \"a 72-acre Green Campus\", \"a ten-minute walk from the centre\".",
+        "url": "https://www.atu.ie/campus/sligo"
+      },
+      {
+        "claim": "Hawk's Well Theatre: \"Hawk's Well Theatre Temple Street Sligo F91 CFY7\" and \"Since opening in 1982, Hawk's Well Theatre has been bringing the joy of the Arts to the people of the North West\", registered charity number 17611.",
+        "url": "https://www.hawkswell.com/"
+      },
+      {
+        "claim": "Iarnrod Eireann: Sligo MacDiarmada station, Lord Edward Street, eircode F91 K752, \"34 parking spaces managed by APCOA, including 3 disabled spaces and 2 electric car charging points\", operating hours 24hrs.",
+        "url": "https://www.irishrail.ie/en-ie/station/sligo-macdiarmada"
+      },
+      {
+        "claim": "Sligo County Council: \"County Hall, Riverside, Sligo, Ireland, F91 Y763\". Its publisher page on data.gov.ie lists zero datasets, and a filtered dataset search for it returns no results.",
+        "url": "https://www.sligococo.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "The F1010 \"Ireland\" pseudo-category doubling trap, measured cleanly in this county's research but owned by the County Kerry and Fingal pages.",
+      "A county-level population density or land area figure for Sligo: neither the Summary nor Profile 1 states one, and no CSO table publishes a whole-county row.",
+      "A county-level percentage aged under 15 for Sligo: only the 65 and over share and the average age are published at county level, with under-15 shares available only by town.",
+      "Any address or eircode for The Model arts centre: its site was unreachable, and addresses are not taken from third parties.",
+      "ATU Sligo's St Angela's campus address: not opened at a primary page, so not claimed.",
+      "Any claim that Sligo has a Gaeltacht: the CSO's own definition names seven counties and Sligo is not among them.",
+      "Council data of any kind: Sligo County Council publishes zero datasets on the national portal."
+    ]
   }
 }

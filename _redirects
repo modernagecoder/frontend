@@ -2738,4 +2738,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-county-donegal /src/pages/coding-classes-in-county-donegal.html 200
 /coding-classes-in-county-donegal.md /src/pages/coding-classes-in-county-donegal.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-county-sligo /src/pages/coding-classes-in-county-sligo.html 200
+/coding-classes-in-county-sligo.md /src/pages/coding-classes-in-county-sligo.md 200
 /* /src/pages/404.html 404

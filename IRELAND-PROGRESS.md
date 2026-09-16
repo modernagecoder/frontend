@@ -82,7 +82,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 47 | coding-classes-in-county-offaly (ofy, #3B5E1C) | cg- county | 3,411 | 2.2% vs coding-classes-in-county-kilkenny | the number that is not published at your size | no county broadband figure exists; only the 4-county Midland region | 0483ab45 |
 | 48 | coding-classes-in-county-longford (lgf, #6E2440) | cg- county | 3,392 | 4.1% vs coding-classes-in-county-offaly | a name is not an identifier | case-insensitive filter pulls Ballylongford, Co Kerry into Longford | fa19cefa |
 | 49 | coding-classes-in-county-mayo (myo, #145A7A) | cg- county | 3,352 | 3% vs coding-classes-in-county-offaly | more people, smaller share | count and rate moving opposite ways: Gaeltacht +129 while speakers fell 3% | f6821f46 |
-| 50 | coding-classes-in-county-donegal (dgl, #4A3E86) | cg- county | 3,564 | 4.2% vs coding-classes-in-county-mayo | five rows, four traps | a district named Donegal; mixed units; a column name broken on export | (this commit) |
+| 50 | coding-classes-in-county-donegal (dgl, #4A3E86) | cg- county | 3,564 | 4.2% vs coding-classes-in-county-mayo | five rows, four traps | a district named Donegal; mixed units; a column name broken on export | 4bcaf205 |
+| 51 | coding-classes-in-county-sligo (sgo, #0E6154) | cg- county | 3,316 | 4.7% vs coding-classes-in-county-offaly | an average describes nowhere | county age 40.7 vs towns 31.8 to 45.3; biggest town has fewest children | (this commit) |
 
 ## Skipped (kill criterion)
 
