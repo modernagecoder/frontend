@@ -524,6 +524,7 @@ Each page answers one question for one audience, with its facts read at the sour
 - [Problem solving skills through coding in Ireland](/problem-solving-skills-through-coding-ireland): What PISA and the Irish maths curriculum say about problem solving, and how coding classes build it step by step.
 - [Best coding classes for adults in Ireland](/best-coding-classes-for-adults-ireland): Coding for adults in Ireland, whether you are changing career, returning to work or simply curious, with the public routes explained honestly.
 - [Coding for college students in Ireland](/coding-for-college-students-ireland): For students in Irish higher education: what first-year programming actually asks, and how to build the portfolio employers look at.
+- [Full stack software development course in Ireland](/full-stack-software-development-course-ireland): Front end, back end and database together, with an honest reading of what Irish labour market data does and does not say.
 
 Pages for Irish places are listed on [the national Ireland page](/coding-classes-in-ireland).
 

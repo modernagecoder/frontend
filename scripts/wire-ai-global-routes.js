@@ -155,6 +155,7 @@ const SLUGS = [
   'problem-solving-skills-through-coding-ireland',
   'best-coding-classes-for-adults-ireland',
   'coding-for-college-students-ireland',
+  'full-stack-software-development-course-ireland',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -389,6 +390,7 @@ const LLMS_LABELS = {
   'problem-solving-skills-through-coding-ireland': 'Problem solving skills through coding, Ireland',
   'best-coding-classes-for-adults-ireland': 'Best coding classes for adults in Ireland',
   'coding-for-college-students-ireland': 'Coding for college students, Ireland',
+  'full-stack-software-development-course-ireland': 'Full stack software development course, Ireland',
 };
 
 function wireLlms(slugs) {
