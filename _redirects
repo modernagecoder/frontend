@@ -2642,4 +2642,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /app-development-course-ireland /src/pages/app-development-course-ireland.html 200
 /app-development-course-ireland.md /src/pages/app-development-course-ireland.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-cork /src/pages/best-coding-class-in-cork.html 200
+/best-coding-class-in-cork.md /src/pages/best-coding-class-in-cork.md 200
 /* /src/pages/404.html 404

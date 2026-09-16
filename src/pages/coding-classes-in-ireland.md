@@ -760,6 +760,7 @@ Pages for Irish places and for the questions Irish families ask most, each writt
 - [Java classes in Ireland](/java-classes-ireland): Where Java actually sits in Irish computing education, and how to learn it properly at school, in college or at work.
 - [App development course in Ireland](/app-development-course-ireland): Building and shipping real mobile apps, with two Irish public apps read as worked examples.
 - [Coding classes in Dublin](/best-coding-class-in-dublin): The city and county, from Swords to Tallaght, with a project on Dublin Bikes data.
+- [Coding classes in Cork](/best-coding-class-in-cork): The southern capital, from Ballincollig to Mayfield, with a project on the city's own footfall counters.
 
 **Counties and council areas:** [Dún Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown)
 

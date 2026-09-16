@@ -9920,5 +9920,95 @@
       "A D16 routing key for the county: no primary address shows one.",
       "Anything the Dublin page owns, including Dublin City's 10,308 Indian citizens and the county-wide census figures."
     ]
+  },
+  "best-coding-class-in-cork": {
+    "market": "Cork",
+    "bodyClass": "cg-crk",
+    "pageType": "city",
+    "curriculumAuthority": "Cork, Census 2022 (CSO): city and suburbs 222,526 (F1015/F1013; 109,030 male, 113,496 female), area 191.7 sq km, density 1,160.9 per sq km, average age 39.1, 16.6 percent under 15, 14.9 percent 65 or over; Cork City Council area 224,004 (F1010/F1020; 109,736 male, 114,268 female), of which 216,229 are in the built-up city, 6,079 in towns of 2,000 to 4,999 and 1,696 in the rural remainder, while 6,297 of the built-up city live in Cork County Council; five local electoral areas, South West 51,063, South East 45,400, North East 44,235, North West 42,306, South Central 41,000 (F1016); Ballincollig electoral division 19,069 and the densest city division South Gate B at 15,439.6 per sq km (F1011); county total 584,156, up 8 percent or 41,288 on 2016. Cork City citizenship: Polish 4,423, Indian 3,016, UK 2,434; 8,555 people moved into the city in the year before the census, 3,148 from within Ireland and 5,407 from outside the State. Cork City work: over 103,000 at work, unemployment 8 percent, participation 60 percent; almost 35,700 worked from home at least some of the time and almost 11,800 five days a week, while almost 56,000 never did. County-level, labelled as such: 47 percent with a third-level qualification against 45 percent nationally, and 5,342 PhD holders, 14 percent of the State total. Gov.ie, 4 January 2018: the first-phase Leaving Certificate Computer Science list includes seven Cork schools, four of them in the city (Christ King Girls, Gaelcholaiste Mhuire AG, Mayfield Community School and Coláiste Choilm in Ballincollig) and three in the county (Carrigaline, Fermoy, Clonakilty). Addresses: City Hall T12 T997, UCC T12 K8AF, MTU Bishopstown T12 P928, CSO head office Skehard Road T12 X00E, Kent Station T23 E6TD, Old Cork Waterworks T23 N828. UCC established 1845, opened 1849 with 115 students, now over 26,000; MTU established 1 January 2021 (HEA). Apple: first facility outside the US at Hollyhill, 1980, 60 employees, with 6,000 Irish employees as of November 2020, and staff volunteering weekly at Terence MacSwiney School to teach coding. English Market created 1788, Princes Street entrance by Sir John Benson 1862. Lifetime Lab at the Old Cork Waterworks runs accredited primary science workshops and the Cork Carnival of Science.",
+    "localProject": "A retail calendar hiding inside a clean file. Cork City Council's pedestrian counts (Creative Commons Attribution, data.corkcity.ie) hold 593,280 rows for 11 counter sites from 1 August 2018 to 28 July 2026, with no nulls, no duplicate site-hours, exactly 24 rows per site-day and ReportCount equal to InCount plus OutCount on every row. The BRC retail calendar in the BRCYear, BRCMonthName and BRCWeekNum columns uses 28 and 35 day months: 47,400 rows sit in a different month from their date, 3,000 in a different year and 55,968 in a different week. Patrick Bridge East December 2024 is 476,121 by calendar month and 545,376 by retail month, about 14.5 percent higher. Second trap: the network grew from six counters to eleven in August 2022, so all-site totals rise from 32,647,302 in 2019 to 35,231,992 in 2023, up 7.9 percent, while the same six counters fall 12.4 percent to 28,594,862. Third trap: 19 Caroline Street has 27 all-zero days against a median non-zero day of 2,865, and with no nulls in the file an outage is indistinguishable from an empty street. Fourth, flagged as inference: every day including clock-change days has exactly 24 rows, consistent with UTC rather than Irish local time, which the publisher does not state. Busiest hour in the file: Academy Street North, 22 December 2018 at 16:00, 5,263 people.",
+    "requiredMentions": [
+      "222,526",
+      "224,004",
+      "216,229",
+      "51,063",
+      "19,069",
+      "15,439.6",
+      "4,423",
+      "8,555",
+      "593,280",
+      "545,376",
+      "28,594,862",
+      "Skehard Road",
+      "Terence MacSwiney School",
+      "T23 E6TD"
+    ],
+    "sources": [
+      {
+        "claim": "Census 2022 tables F1013 and F1015: Cork city and suburbs 222,526 (109,030 male, 113,496 female), area 191.7 sq km, density 1,160.9, average age 39.1, 16.6% under 15, 14.9% aged 65 or more.",
+        "url": "https://data.cso.ie/table/F1015"
+      },
+      {
+        "claim": "Census 2022 tables F1010 and F1020: Cork City Council 224,004 (109,736 male, 114,268 female); 216,229 of the built-up city inside the council area, 6,297 in Cork County Council, plus 6,079 in towns of 2,000 to 4,999 and 1,696 in the remainder.",
+        "url": "https://data.cso.ie/table/F1010"
+      },
+      {
+        "claim": "Census 2022 table F1016: Cork City South West 51,063, South East 45,400, North East 44,235, North West 42,306, South Central 41,000.",
+        "url": "https://data.cso.ie/table/F1016"
+      },
+      {
+        "claim": "Census 2022 table F1011: Ballincollig, Cork City 19,069; densest city electoral division South Gate B at 15,439.6 persons per sq km.",
+        "url": "https://data.cso.ie/table/F1011"
+      },
+      {
+        "claim": "CSO Profile 5, Cork: \"Among the non-Irish residents in Cork City, the largest group were Polish citizens (4,423 people), followed by Indian citizens (3,016) and the UK (2,434)\"; 8,555 people had moved into Cork City in the previous year, 3,148 from within Ireland and 5,407 from outside the State.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligioncork"
+      },
+      {
+        "claim": "CSO Profile 7, Cork: over 103,000 at work in Cork City, unemployment 8%, participation 60%; almost 35,700 worked from home at least some of the time, almost 11,800 five days a week, almost 56,000 never.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutingcork/"
+      },
+      {
+        "claim": "CSO Profile 8, Cork (county level): 47% with a third-level qualification against 45% nationally; 5,342 PhD holders, 14% of the national total.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationcork/"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: first-phase Leaving Certificate Computer Science schools, including Christ King Girls Secondary School, Gaelcholaiste Mhuire AG, Mayfield Community School, Coláiste Choilm, Carrigaline Community School, Coláiste an Chraoibhin and Sacred Heart Secondary School.",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "University College Cork: \"Established in 1845 our beautiful university opened its gates to just 115 students in 1849. We now have a student population of over 26,000.\"",
+        "url": "https://www.ucc.ie/en/about/"
+      },
+      {
+        "claim": "Higher Education Authority: Munster Technological University \"Established on 1 January 2021\", formed from Cork Institute of Technology and Institute of Technology Tralee.",
+        "url": "https://hea.ie/higher-education-institutions/mtu/"
+      },
+      {
+        "claim": "Apple newsroom, November 2020: \"The story of Apple in Ireland began in 1980 with a single manufacturing facility and 60 employees\"; \"The facility in Cork, Ireland, was Apple's first outside of the US\"; employees volunteering weekly at Terence MacSwiney School in Cork teaching coding, music, photography and video.",
+        "url": "https://www.apple.com/ie/newsroom/2020/11/apples-cork-campus-celebrates-40-years-of-community-and-looks-to-the-future/"
+      },
+      {
+        "claim": "Cork City Council: the English Market \"was created in 1788\"; the Princes Street entrance and roof were designed by Sir John Benson in 1862; the Lifetime Lab runs accredited primary school workshops at the Old Cork Waterworks, T23 N828.",
+        "url": "https://www.corkcity.ie/en/english-market/history/the-history-of-the-english-market/"
+      },
+      {
+        "claim": "Iarnród Éireann: Kent Station, Cork City, T23 E6TD, with direct Dublin Heuston services; platforms 1 to 4 level, ramp or lift to 5A, 5B and 6.",
+        "url": "https://www.irishrail.ie/en-ie/station/cork-kent"
+      },
+      {
+        "claim": "Cork City Pedestrian Counts, Cork City Council open data portal, licence \"Creative Commons Attribution\": 593,280 rows, 11 counter sites, hourly counts with InCount, OutCount and ReportCount.",
+        "url": "https://data.corkcity.ie/dataset/corkcitypedestriancounts"
+      }
+    ],
+    "rejectedClaims": [
+      "A search summary giving Cork city and suburbs as 222,333: the CSO tables say 222,526.",
+      "Routing-key summaries claiming T12 is the southside and T23 the northside: no primary source; the published addresses are used instead.",
+      "A current Apple Cork headcount: only the November 2020 figure is published on apple.com, and it is date-stamped here.",
+      "Any claim about which Cork schools offer Leaving Certificate Computer Science today: no current official list was found.",
+      "Whether Coláiste Choilm sits inside the city boundary: only the CSO electoral division label was checked.",
+      "A stated timezone for the pedestrian counts: the publisher gives none, so the reading is labelled an inference.",
+      "Anything owned by the Dublin page, including Dublin Bikes and its census figures."
+    ]
   }
 }
