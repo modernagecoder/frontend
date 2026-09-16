@@ -12495,5 +12495,64 @@
       "Any figure fetched from gov.ie on 17 September 2026: automated requests were refused and no workaround was attempted.",
       "Any claim about Swords schools teaching computer science today: only the 2018 first-phase list is cited."
     ]
+  },
+  "best-coding-class-in-maynooth": {
+    "market": "Maynooth",
+    "bodyClass": "cg-myn",
+    "pageType": "city",
+    "curriculumAuthority": "Maynooth, the built-up area \"Maynooth, Co Kildare\", from the CSO Census 2022 Small Area Population town tables, read 17 September 2026. SAP2022T2T1TOWN22: usual residents 16,981; born Ireland 12,284, United Kingdom 964, Poland 445, India 429, other EU 1,161, rest of world 1,698. SAP2022T15T2TOWN22: households 5,721, broadband 5,084, no internet 138, not stated 443. SAP2022T8T1TOWN22 principal economic status, aged 15 and over, total 13,839: at work 8,451, student 2,622, retired 1,271. SAP2022T10T2TOWN22 education not ceased: still at school or college 2,622, other 1,149. SAP2022T10T4TOWN22 highest level of education completed, total 10,068: honours bachelor degree 2,084, postgraduate diploma or degree 2,244, doctorate 428, upper secondary 1,307, not stated 695. Identity verified: 13,839 less 3,771 equals 10,068, and for the all-towns row 2,921,013 less 567,559 equals 2,353,454, the education table total. SAP2022T1T1TOWN22: aged 20 to 24, 1,902; total population 17,259. SAP2022T11T4TOWN22: 8,356 working persons, 3,836 work from home, 3,812 never, 708 not stated. SAP2022T11T1TOWN22: to work, car driver 3,838, work mainly at or from home 1,343, train DART or Luas 830, on foot 640, total 8,356; to school, college or childcare, on foot 2,400, car passenger 1,465, total 5,415. SAP2022T14T1TOWN22 at work 8,451: professional services 2,235, commerce and trade 2,213. In TOWN22 tables the row labelled State is all 867 towns combined and is described as such. Irish Rail: \"Iarnrod Eireann, Maynooth, Co. Kildare, Eircode W23 N2F8\", routes \"Dublin Connolly - Sligo\" and \"Dublin - Maynooth, Longford and M3 Parkway\", car park operated by APCOA with 222 spaces, open 24 hours. Maynooth University About page: \"formally established as an autonomous university in 1997\", tracing \"its origins to the foundation of the Royal College of St. Patrick in 1795\", \"With over 17,000 students from more than 100 countries\".",
+    "localProject": "Who is missing from the table? The CSO Census 2022 table of highest level of education completed, SAP2022T10T4TOWN22, covers only residents aged 15 and over whose education has ceased. In Maynooth that is 10,068 people, while SAP2022T8T1TOWN22 counts 13,839 residents aged 15 and over; the difference of 3,771 equals exactly the 2,622 still at school or college plus 1,149 others whose education has not ceased, from SAP2022T10T2TOWN22. The same identity holds for the all-towns row (2,921,013 less 326,901 and 240,658 equals 2,353,454). By our arithmetic, degree-level qualifications, honours bachelor 2,084, postgraduate 2,244 and doctorate 428, together 4,756, are 47.2 percent of the education table but 34.4 percent of all residents aged 15 and over, and the excluded group is 27.2 percent of Maynooth's adults. Students aged 15 and over are 18.9 percent of adults in Maynooth against 11.2 percent across all towns combined, which is why the effect is large here. Output: the subtraction that reveals the table's population, both percentages, and a sentence choosing the one that answers the question. Distinct from Swords, where a total row's label misleads; here the table's universe quietly excludes a group. The university's own figure of over 17,000 students is not compared with census residents as if they were the same population.",
+    "requiredMentions": [
+      "16,981",
+      "13,839",
+      "10,068",
+      "3,771",
+      "2,622",
+      "4,756",
+      "2,244",
+      "3,836",
+      "3,812",
+      "W23 N2F8",
+      "5,721",
+      "5,084"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T10T4TOWN22, highest level of education completed, Maynooth, Co Kildare, both sexes: total 10,068, honours bachelor degree 2,084, postgraduate diploma or degree 2,244, doctorate 428; all-towns row total 2,353,454, doctorate 30,117.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T10T4TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T10T2TOWN22, population aged 15 and over whose education has not ceased, Maynooth, Co Kildare: still at school or college 2,622, other 1,149; all-towns row 326,901 and 240,658.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T10T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T8T1TOWN22, principal economic status aged 15 and over, Maynooth, Co Kildare: total 13,839, at work 8,451, student 2,622; all-towns row total 2,921,013, student 326,901.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T8T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22 and SAP2022T15T2TOWN22, Maynooth, Co Kildare: usual residents 16,981, born Ireland 12,284, United Kingdom 964, Poland 445, India 429, other EU 1,161, rest of world 1,698; households 5,721, broadband 5,084.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T2T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T11T1TOWN22, SAP2022T11T4TOWN22, SAP2022T14T1TOWN22 and SAP2022T1T1TOWN22, Maynooth, Co Kildare: travel to work car driver 3,838, from home 1,343, train DART or Luas 830, on foot 640; to school, college or childcare on foot 2,400, car passenger 1,465, total 5,415; 8,356 working persons, 3,836 work from home, 3,812 never; at work 8,451, professional services 2,235, commerce and trade 2,213; aged 20 to 24, 1,902.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T4TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Maynooth station: \"Iarnrod Eireann, Maynooth, Co. Kildare, Eircode W23 N2F8\"; routes serviced \"Dublin Connolly - Sligo\" and \"Dublin - Maynooth, Longford and M3 Parkway\"; car park operated by APCOA, \"Spaces : 222\", \"Operating Hours : 24hrs\".",
+        "url": "https://www.irishrail.ie/en-ie/station/maynooth"
+      },
+      {
+        "claim": "Maynooth University About page: \"formally established as an autonomous university in 1997. Yet, it traces its origins to the foundation of the Royal College of St. Patrick in 1795\"; \"With over 17,000 students from more than 100 countries\".",
+        "url": "https://www.maynoothuniversity.ie/about-us"
+      }
+    ],
+    "rejectedClaims": [
+      "Treating the education table total of 10,068 as all Maynooth adults: it covers only people whose education has ceased.",
+      "Comparing the university's over 17,000 students with census residents as if they were the same population.",
+      "Using Maynooth's total population 17,259 as a mention: the County Kildare page owns it.",
+      "Calling the TOWN22 row labelled State the national figure: it is all 867 towns combined.",
+      "Any claim about how many Maynooth University students live in the town: the census does not say.",
+      "Any ranking of Maynooth against every Irish town on qualifications: only comparisons with all towns combined are made."
+    ]
   }
 }

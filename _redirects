@@ -2778,4 +2778,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-swords /src/pages/best-coding-class-in-swords.html 200
 /best-coding-class-in-swords.md /src/pages/best-coding-class-in-swords.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-maynooth /src/pages/best-coding-class-in-maynooth.html 200
+/best-coding-class-in-maynooth.md /src/pages/best-coding-class-in-maynooth.md 200
 /* /src/pages/404.html 404

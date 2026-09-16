@@ -289,6 +289,7 @@ const MARKETS = [
   ['coding-and-ai-classes-in-connacht', 'Connacht, Ireland'],
   ['coding-and-ai-classes-in-ulster', 'Cavan, Donegal and Monaghan, Ireland'],
   ['best-coding-class-in-swords', 'Swords, Fingal, Ireland'],
+  ['best-coding-class-in-maynooth', 'Maynooth, County Kildare, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
