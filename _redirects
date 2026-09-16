@@ -2746,4 +2746,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-county-leitrim /src/pages/coding-classes-in-county-leitrim.html 200
 /coding-classes-in-county-leitrim.md /src/pages/coding-classes-in-county-leitrim.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-county-roscommon /src/pages/coding-classes-in-county-roscommon.html 200
+/coding-classes-in-county-roscommon.md /src/pages/coding-classes-in-county-roscommon.md 200
 /* /src/pages/404.html 404

@@ -10396,6 +10396,18 @@
   to = "/src/pages/coding-classes-in-county-leitrim.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-county-roscommon"
+  to = "/src/pages/coding-classes-in-county-roscommon.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-county-roscommon.md"
+  to = "/src/pages/coding-classes-in-county-roscommon.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

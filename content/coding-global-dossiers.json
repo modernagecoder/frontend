@@ -11950,5 +11950,85 @@
       "A county density figure derived by aggregating electoral division areas ourselves: the published 22 per square kilometre is quoted instead.",
       "Any headcount for a private Leitrim employer: none could be verified at a primary source."
     ]
+  },
+  "coding-classes-in-county-roscommon": {
+    "market": "County Roscommon",
+    "bodyClass": "cg-rsc",
+    "pageType": "governorate",
+    "curriculumAuthority": "County Roscommon, a single-tier council area covering the county, Census 2022 (CSO Roscommon releases): population 70,259, up 5,715 (9 percent) since 2016, against State growth of 8 percent; 35,089 female and 35,170 male, 100 males per 100 females; average age 40.8 against 39.7 in 2016 and a national 38.8. Towns: Roscommon 6,555 at 936.8 per sq km over 7.0 sq km, average age 38.4 with 22.8 percent under 15; Boyle 2,915 at 540.0 over 5.4 sq km; Castlerea 2,348 at 1,038.9, average age 43.0; Ballaghaderreen 2,387, average age 36.8 with 24.9 percent under 15; Strokestown 850, average age 43.1. Ballaghaderreen and Termonbarry share the youngest average age at 36.8 and Boyle is oldest at 43.9. The CSO records Athlone (Westmeath and Roscommon, 22,869), Carrick-on-Shannon (Leitrim and Roscommon, 4,743) and Lanesborough-Ballyleague (Roscommon and Longford, 1,733) as cross-county built-up areas, none quoted as a Roscommon figure. Birthplace: 41 percent (28,743) born in the county, 40 percent (27,841) elsewhere in the State and 19 percent (12,948) outside the State, up from 16 percent. Citizenship: non-Irish 11 percent, UK 2,239, Polish 1,228, Brazilian 547, Lithuanian 433; dual Irish citizens up from 1,152 to 2,043. Work and travel (Profile 7): more than 29,600 at work, up 15 percent; unemployment 8 percent against 13 percent in 2016; participation 58 percent against 61 percent nationally; 7,861 people working from home at least one day a week, 27 percent against 32 percent nationally; 26,488 people travelling to work of whom 18,552 drove, \"70% of working commuters went to work by car, the joint highest rate in the country\"; \"The average distance travelled by Roscommon commuters was 24.9km, the second longest in the country\"; average journey time 29.1 minutes against 26.4 in 2016. Education: third level up from almost 14,800 to more than 19,000, a rate of 40 percent against 45 percent nationally. Roscommon has no Gaeltacht: the CSO defines it as electoral divisions in seven named counties, which do not include Roscommon. FINDING: no Roscommon school on the gov.ie first-phase Leaving Certificate Computer Science list of 4 January 2018. Sites from their owners: Roscommon County Council, Aras an Chontae, F42 VR98; King House, Military Road, Boyle, F52 WR26, a restored Georgian mansion housing the Mary McAleese Collection and the Boyle Civic Art Collection; Lough Key Forest Park, described by Coillte as a 350 hectare estate with almost 200,000 visits in 2025; Strokestown Park and the National Famine Museum, F42 H282, managed by the Irish Heritage Trust; Irish Rail stations at Roscommon, Abbeytown, F42 KF85, and Castlerea, Church Road, F45 HH34, both on the Dublin Heuston to Westport and Ballina route with free parking.",
+    "localProject": "How a missing value is written decides whether software can see it. Roscommon County Council's Record of Protected Structures, County Development Plan 2022 to 2028, published on data.gov.ie under Creative Commons Attribution 4.0, has 559 records and 13 columns, a count confirmed against the ArcGIS service's own count endpoint, with the layer last edited on 8 December 2022. Measured: the TOWN column records the absence of a town five ways, \"na\" 93 times, blank 3, \"n/a\" 3, \"Na\" 2 and \"NA\" 1, for 102 rows or 18.2 percent. pandas 3.0.0 read_csv with default settings recognises only the blank, \"NA\" and \"n/a\" forms, so isna reports 7 and value_counts ranks \"na\" second with 93, behind Boyle at 109 and ahead of Roscommon at 91, then Castlerea 33 and Strokestown 25. Second trap: the downloaded CSV has 679 lines but csv parsing yields 559 records, because the APPRAISAL and FEATURES text fields contain line breaks inside quoted values, so line counting overstates the file. Third: Ballaghaderreen appears as \"Ballaghdereen\" in 18 of its 19 rows, splitting one town into two groups. Deliverable: a cleaning note listing every spelling of missing and each fix, plus a chart of structures by town with unknown-town rows shown as a labelled bar rather than dropped. Not used, because other pages own the trap: the Irish Grid and ITM coordinate columns (County Cork), registration number 04400070 appearing twice (Kilkenny), the three electoral areas summing to 70,259 (County Galway), and the cross-county towns (Louth and Carlow).",
+    "requiredMentions": [
+      "70,259",
+      "6,555",
+      "2,915",
+      "2,387",
+      "18,552",
+      "24.9 kilometres",
+      "F42 VR98",
+      "F52 WR26",
+      "F45 HH34",
+      "2,043",
+      "7,861",
+      "12,948"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Roscommon summary press statement, 30 May 2023: \"the population of Roscommon grew by 9% to 70,259, which means the number of people in the county rose by 5,715 between April 2016 and April 2022. Over the same period, Ireland's population grew by 8%\"; average age 40.8 against 39.7; \"35,089 were female and 35,170 were male, which means there were 100 males for every 100 females\"; \"In Roscommon, 7,861 people (aged 15 and over) worked from home at least one day a week in 2022. This represented 27% of the workforce.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensusofpopulation2022-summaryresultsroscommon/"
+      },
+      {
+        "claim": "CSO Profile 1 Roscommon: \"Roscommon was the largest town, with a population of 6,555 in April 2022\"; \"Ballaghaderreen and Termonbarry were the youngest, with both having an average age of 36.8 years. The oldest was Boyle, with an average age of 43.9 years\"; 41 percent (28,743) born in the county, 40 percent (27,841) elsewhere in the State, 19 percent (12,948) outside it, up from 16 percent.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile1-populationdistributionandmovementsroscommon/"
+      },
+      {
+        "claim": "CSO PxStat tables F1013 and F1015: Roscommon 6,555 at 936.8 per sq km over 7.0 sq km, average age 38.4, 22.8 percent under 15; Boyle 2,915 at 540.0 over 5.4; Castlerea 2,348 at 1,038.9, average age 43.0; Ballaghaderreen 2,387, average age 36.8, 24.9 percent under 15; Strokestown 850; and cross-county rows \"Athlone, Counties Westmeath & Roscommon\" 22,869, \"Carrick-On-Shannon, Counties Leitrim & Roscommon\" 4,743, \"Lanesborough-Ballyleague, Counties Roscommon & Longford\" 1,733.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F1013/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Profile 5 Roscommon: \"In Roscommon non-Irish citizens accounted for 11% of the county's population. Among the non-Irish residents, the largest group were UK citizens (2,239 people) followed by Polish citizens (1,228), Brazilian (547) and Lithuanian (433)\"; dual Irish citizens up from 1,152 in 2016 to 2,043.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligionroscommon/"
+      },
+      {
+        "claim": "CSO Profile 7 Roscommon: \"There were 26,488 people travelling to work in the county in April 2022. The majority of these drove to work, with 18,552 people driving to work by car in 2022. This meant that 70% of working commuters went to work by car, the joint highest rate in the country\"; \"The average distance travelled by Roscommon commuters was 24.9km, the second longest in the country\"; \"an average journey time of 29.1 minutes compared with 26.4 minutes in 2016\"; more than 29,600 at work, up 15 percent; unemployment 8 percent against 13 percent; participation 58 percent against 61 percent nationally.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutingroscommon/"
+      },
+      {
+        "claim": "CSO Profile 8 Roscommon: third level up from almost 14,800 in 2016 to more than 19,000, \"a rate of 40% compared with 45% nationally\"; editor's note defining the Gaeltacht as electoral divisions in Cork, Donegal, Galway, Kerry, Mayo, Meath and Waterford.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationroscommon/"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: a full-text search of the first-phase Leaving Certificate Computer Science release for Roscommon returns no match.",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "Roscommon County Council: \"Aras an Chontae / Roscommon / County Roscommon / F42 VR98\". Its Record of Protected Structures, County Development Plan 2022 to 2028, is licensed creativecommons.org/licenses/by/4.0 on data.gov.ie, and measured by us at 559 records in 679 CSV lines, with the TOWN column holding na 93, blank 3, n/a 3, Na 2 and NA 1, and Ballaghdereen 18 against Ballaghaderreen 1.",
+        "url": "https://data.gov.ie/dataset/record-of-protected-structures-roscommon-cdp-2022-2028"
+      },
+      {
+        "claim": "King House: \"A unique Visitor Centre in a beautifully restored Georgian Mansion\", \"Walk through over 400 years of Irish history\", collections including the Mary McAleese Collection and Boyle Civic Art Collection, at \"King House, Military Road, Boyle, County Roscommon, F52 WR26\".",
+        "url": "https://www.visitkinghouse.ie/contact/"
+      },
+      {
+        "claim": "Coillte: Lough Key Forest Park, \"the 350-hectare estate\", \"one of Coillte's flagship visitor destinations... With almost 200,000 visits recorded in 2025\", with its entrance \"on the N4 between Boyle and Carrick-on-Shannon\".",
+        "url": "https://www.coillte.ie/site/lough-key-forest-park/"
+      },
+      {
+        "claim": "Strokestown Park: \"National Famine Museum | Strokestown Park, Strokestown, Co. Roscommon, F42 H282\", \"Cared for and managed by the Irish Heritage Trust, an independent not-for-profit\".",
+        "url": "https://strokestownpark.ie/"
+      },
+      {
+        "claim": "Iarnrod Eireann: Roscommon station, Abbeytown, eircode F42 KF85, 25 free spaces; Castlerea station, Church Road, eircode F45 HH34, 34 free spaces; both served by the Dublin Heuston to Westport and Ballina route.",
+        "url": "https://www.irishrail.ie/en-ie/station/castlerea"
+      }
+    ],
+    "rejectedClaims": [
+      "The Irish Grid and ITM coordinate pairs in the protected structures file as a project: County Cork owns coordinate-system traps.",
+      "The duplicated registration number 04400070 as a project: County Kilkenny owns non-unique keys.",
+      "The three local electoral areas summing exactly to 70,259: County Galway owns reconciliation.",
+      "Athlone, Carrick-on-Shannon or Lanesborough-Ballyleague populations as Roscommon figures: each is recorded as spanning two counties.",
+      "Town-level unemployment and participation extremes for Ballaghaderreen and Boyle: accurate, but left off a page aimed at families in those towns without context that would do them justice.",
+      "A county population density figure: no CSO release or table publishes one for Roscommon.",
+      "Any claim that Roscommon schools do not teach computer science today: only the January 2018 first-phase list was checked."
+    ]
   }
 }

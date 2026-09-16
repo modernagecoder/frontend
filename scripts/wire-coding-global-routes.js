@@ -281,6 +281,7 @@ const MARKETS = [
   ['coding-classes-in-county-donegal', 'County Donegal, Ireland'],
   ['coding-classes-in-county-sligo', 'County Sligo, Ireland'],
   ['coding-classes-in-county-leitrim', 'County Leitrim, Ireland'],
+  ['coding-classes-in-county-roscommon', 'County Roscommon, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
