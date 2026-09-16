@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes across County Tipperary,
 canonical: https://learn.modernagecoders.com/coding-classes-in-county-tipperary
 source: src/pages/coding-classes-in-county-tipperary.html
 ---
-> County Tipperary holds 167,895 people, 8,342 more than in 2016, including 33,286 children aged 15 and under. Clonmel is the largest town at 18,369, with Nenagh at 9,895 and Thurles at 8,185, and the county has run as a single council since the North and South Riding councils merged. Its third level rate is 38% against 45% nationally, which is the widest gap of any county we have written about. We teach ages 6 to 67 live online at a fixed weekly hour, in groups of five to ten placed by ability or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
+> County Tipperary holds 167,895 people, 8,342 more than in 2016, including 33,286 children aged 15 and under. Clonmel is the largest town at 18,369, with Nenagh at 9,895 and Thurles at 8,185, and the county has run as a single council since the North and South Riding councils merged. Its third level rate is 38% against 45% nationally, one of several counties where that gap is wide. We teach ages 6 to 67 live online at a fixed weekly hour, in groups of five to ten placed by ability or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [Waterford](/best-coding-class-in-waterford) / County Tipperary
 
@@ -12,7 +12,7 @@ County Tipperary, Munster / Live online
 
 # Coding classes in County Tipperary
 
-**What are the best coding classes in County Tipperary?** County Tipperary holds 167,895 people, 8,342 more than in 2016, including 33,286 children aged 15 and under. Clonmel is the largest town at 18,369, with Nenagh at 9,895 and Thurles at 8,185, and the county has run as a single council since the North and South Riding councils merged. Its third level rate is 38% against 45% nationally, which is the widest gap of any county we have written about. We teach ages 6 to 67 live online at a fixed weekly hour, in groups of five to ten placed by ability or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
+**What are the best coding classes in County Tipperary?** County Tipperary holds 167,895 people, 8,342 more than in 2016, including 33,286 children aged 15 and under. Clonmel is the largest town at 18,369, with Nenagh at 9,895 and Thurles at 8,185, and the county has run as a single council since the North and South Riding councils merged. Its third level rate is 38% against 45% nationally, one of several counties where that gap is wide. We teach ages 6 to 67 live online at a fixed weekly hour, in groups of five to ten placed by ability or one to one, starting with a free lesson and then USD 100 a month in a group or USD 150 privately.
 
 We went looking for Tipperary council data for this page and found something more interesting than a spreadsheet. The council publishes nothing at all on the national data portal, which its own publisher page states plainly: zero datasets. It does run open data pages on its own website, and every attempt to read them returned a security block instead, the kind that stops automated requests. So the data may well exist and we cannot see it. At that point there are two kinds of person. One goes looking for a way around the block. The other writes down exactly what happened, quotes the message, and uses a source that gives permission. We are teaching children to be the second kind, and this page explains why that is the more valuable habit in a career, not just the more polite one.
 
@@ -118,7 +118,7 @@ A 16 year old in Cahir or Borrisokane cannot get to a class in Clonmel and home 
 
 ### Third level, and the gap
 
-More than 43,200 people in the county hold a third level qualification, up from almost 34,900 in 2016, but that is 38% against 45% nationally, the widest gap in this cluster so far.
+More than 43,200 people in the county hold a third level qualification, up from almost 34,900 in 2016, but that is 38% against 45% nationally, a gap of seven percentage points.
 
 ### What the county does have
 
