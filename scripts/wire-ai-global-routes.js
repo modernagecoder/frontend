@@ -148,6 +148,7 @@ const SLUGS = [
   'junior-cycle-coding-short-course-help',
   'best-coding-classes-for-kids-ireland',
   'best-coding-classes-for-teens-ireland',
+  'transition-year-coding-course-ireland',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -375,6 +376,7 @@ const LLMS_LABELS = {
   'junior-cycle-coding-short-course-help': 'Junior Cycle Coding short course help',
   'best-coding-classes-for-kids-ireland': 'Best coding classes for kids in Ireland',
   'best-coding-classes-for-teens-ireland': 'Best coding classes for teens in Ireland',
+  'transition-year-coding-course-ireland': 'Transition Year coding course, Ireland',
 };
 
 function wireLlms(slugs) {

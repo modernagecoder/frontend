@@ -9904,6 +9904,18 @@
   to = "/src/pages/best-coding-classes-for-teens-ireland.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/transition-year-coding-course-ireland"
+  to = "/src/pages/transition-year-coding-course-ireland.html"
+  status = 200
+
+[[redirects]]
+  from = "/transition-year-coding-course-ireland.md"
+  to = "/src/pages/transition-year-coding-course-ireland.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
