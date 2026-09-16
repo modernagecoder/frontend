@@ -10749,5 +10749,78 @@
       "Hill of Tara, Loughcrew or Slane facts: not read at source in this research, so not used.",
       "Anything owned by the Louth, Kildare, Wexford, Carlow or Laois county pages, or by the city pages."
     ]
+  },
+  "coding-classes-in-county-wicklow": {
+    "market": "County Wicklow",
+    "bodyClass": "cg-wkw",
+    "pageType": "governorate",
+    "curriculumAuthority": "County Wicklow, Census 2022 (CSO): population 155,851, up 9 percent or 13,426 since 2016; average age 39.1, up from 37.2; 25,839 people working from home at least one day a week, 37 percent of the workforce against 32 percent nationally; third-level qualifications just over 49,100, a rate of 48 percent against 45 percent nationally, with 1,261 PhD holders, 3.3 percent of the national total; 58,715 people travelling to work, 37,311 driving, 2,717 by train against 2,568 by bus, 4,269 walking and 665 cycling, with an average journey time of 33.9 minutes against 34.5 in 2016; almost 69,000 people at work, up 17 percent since 2016. The Profile 5 release states non-Irish citizens at 10 percent of the county, with UK citizens the largest group at 2,917, then Polish 2,244, Romanian 1,018 and Lithuanian 680, while the same office rounds the share to 9 percent elsewhere in its Wicklow material; both are quoted. Towns (F1015): Greystones-Delgany 22,009, Arklow 13,399, Wicklow 12,957, Kilcoole 4,569, Newtownmountkennedy 3,539, Rathnew 3,482, Baltinglass 2,611, Ashford 1,892; Bray published as \"Bray, Counties Wicklow & Dublin\" at 33,512 and Blessington across Wicklow and Kildare at 5,611, neither used as a Wicklow figure. Local electoral areas (F1016) sum exactly to the county total: Wicklow 32,593, Greystones 30,479, Baltinglass 28,041, Arklow 27,866, Bray West 19,144 and Bray East 17,728. DERIVED, and labelled as ours: Bray West plus Bray East gives 36,872 people wholly inside County Wicklow, an electoral area figure rather than a town boundary. Electoral divisions (F1011): the densest is Rathmichael on the Bray side at 7,441.1 persons per sq km across 0.3 sq km, with Bray No. 3 next at 4,656.7; the 78 divisions labelled Wicklow sum to 151,943 rather than 155,851, so no ED-based county figure is used. Gov.ie, 4 January 2018: no County Wicklow school appears on the first-phase Leaving Certificate Computer Science list. National Parks and Wildlife Service: Wicklow Mountains National Park \"stretches across almost 23,000 hectares south of Dublin\", is \"the largest of Ireland's National Parks and the only one in the east\". Office of Public Works: Glendalough, A98 HC80, where a sixth-century foundation by St Kevin \"became one of the most famous religious centres in Europe\".",
+    "localProject": "Three published figures for one town, none of them interchangeable. Bray's built-up area is published as spanning Wicklow and Dublin at 33,512 people, so it belongs to neither local authority alone. The Bray West and Bray East electoral areas, both wholly inside County Wicklow, hold 19,144 and 17,728 people, and adding them gives 36,872, which is our own arithmetic on two published rows and is a wider area than the town. Blessington behaves the same way across Wicklow and Kildare at 5,611. The project asks learners to collect every published figure for the place they know best, identify the unit behind each, and produce a table of figure, unit, source and the question each answers. The page deliberately does NOT subtract one figure from another to manufacture a Bray Wicklow-side town population, because the units differ and the result would look authoritative while meaning nothing. Separately, the county's 71 datasets on the national portal are planning and zoning polygon layers, several with no licence specified, so no council dataset is used, and the CSO's own two roundings of the non-Irish share, 10 percent and 9 percent, are both quoted rather than reconciled.",
+    "requiredMentions": [
+      "155,851",
+      "22,009",
+      "13,399",
+      "12,957",
+      "36,872",
+      "25,839",
+      "2,717",
+      "1,261",
+      "32,593",
+      "7,441.1",
+      "33,512",
+      "A98 HC80",
+      "Glendalough"
+    ],
+    "sources": [
+      {
+        "claim": "CSO summary results, Wicklow: \"the population of Wicklow grew by 9% to 155,851, which means the number of people in the county rose by 13,426\"; average age 39.1 against 37.2; \"In Wicklow, 25,839 people (aged 15 and over) worked from home at least one day a week in 2022. This represented 37% of the workforce. The national figure was 32%.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensusofpopulation2022-summaryresultswicklow/"
+      },
+      {
+        "claim": "CSO Profile 7, Wicklow: 58,715 travelling to work, 37,311 driving, \"2,568 people travelling by bus, which was slightly less than those by train (2,717)\"; average journey time 33.9 minutes against 34.5 in 2016; almost 69,000 at work, up 17%.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutingwicklow"
+      },
+      {
+        "claim": "CSO Profile 5, Wicklow: \"In Wicklow non-Irish citizens accounted for 10% of the county's population. Among the non-Irish residents, the largest group were UK citizens (2,917 people) followed by Polish citizens (2,244), Romanian (1,018) and Lithuanian (680)\"; the office rounds the same share to 9% elsewhere in its Wicklow material.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligionwicklow"
+      },
+      {
+        "claim": "CSO Profile 8, Wicklow: third-level qualifications just over 49,100, \"a rate of 48% compared with 45% nationally\"; 1,261 PhD holders, 3.3% of the national total.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationwicklow"
+      },
+      {
+        "claim": "CSO table F1015: Greystones-Delgany 22,009, Arklow 13,399, Wicklow 12,957, Kilcoole 4,569, Newtownmountkennedy 3,539, Rathnew 3,482; Bray published as \"Bray, Counties Wicklow & Dublin\" at 33,512 and Blessington across Wicklow and Kildare at 5,611.",
+        "url": "https://data.cso.ie/table/F1015"
+      },
+      {
+        "claim": "CSO table F1016: Wicklow 32,593, Greystones 30,479, Baltinglass 28,041, Arklow 27,866, Bray West 19,144 and Bray East 17,728, summing exactly to 155,851.",
+        "url": "https://data.cso.ie/table/F1016"
+      },
+      {
+        "claim": "CSO table F1011: Rathmichael on the Bray side is the densest Wicklow electoral division at 7,441.1 persons per sq km across 0.3 sq km, with Bray No. 3 next at 4,656.7.",
+        "url": "https://data.cso.ie/table/F1011"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: the first-phase Leaving Certificate Computer Science list contains no County Wicklow address.",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "National Parks and Wildlife Service: \"Wicklow Mountains National Park stretches across almost 23,000 hectares south of Dublin. The largest of Ireland's National Parks and the only one in the east\".",
+        "url": "https://www.nationalparks.ie/wicklow/"
+      },
+      {
+        "claim": "Office of Public Works, Glendalough: \"The foundation of St Kevin at Glendalough became one of the most famous religious centres in Europe\"; address Glendalough, Bray, Co. Wicklow, A98 HC80.",
+        "url": "https://heritageireland.ie/places-to-visit/glendalough-monastic-site-and-visitor-centre/"
+      }
+    ],
+    "rejectedClaims": [
+      "Using Bray's 33,512 or Blessington's 5,611 as County Wicklow figures: both are published across two local authorities.",
+      "Manufacturing a Bray Wicklow-side town population by subtracting one published figure from another: the units differ, so the result would be meaningless.",
+      "Any Dun Laoghaire-Rathdown census figure: those belong to the page covering that local authority.",
+      "A county-level density from summing electoral divisions: the 78 Wicklow-labelled divisions sum to 151,943 against an official 155,851.",
+      "Any Eircode routing key for Wicklow town, Arklow or Greystones: none was confirmed at a primary source, so only the Glendalough address is printed.",
+      "Any claim about which Wicklow schools teach Leaving Certificate Computer Science today: no current official list exists.",
+      "Silently reconciling the CSO's two roundings of the non-Irish share: both are quoted instead."
+    ]
   }
 }

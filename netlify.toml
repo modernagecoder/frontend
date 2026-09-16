@@ -10204,6 +10204,18 @@
   to = "/src/pages/coding-classes-in-county-meath.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-county-wicklow"
+  to = "/src/pages/coding-classes-in-county-wicklow.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-county-wicklow.md"
+  to = "/src/pages/coding-classes-in-county-wicklow.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

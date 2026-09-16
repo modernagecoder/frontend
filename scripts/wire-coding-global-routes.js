@@ -265,6 +265,7 @@ const MARKETS = [
   ['coding-classes-in-county-laois', 'County Laois, Ireland'],
   ['coding-classes-in-county-kildare', 'County Kildare, Ireland'],
   ['coding-classes-in-county-meath', 'County Meath, Ireland'],
+  ['coding-classes-in-county-wicklow', 'County Wicklow, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
