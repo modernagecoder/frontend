@@ -915,3 +915,4 @@
 .cg-root.cg-myo  { --cg-accent: #145A7A; --cg-accent-soft: rgba(20,90,122,.10); }   /* County Mayo: an Atlantic blue from the solver, distinct from the blues used on the midland and border pages */
 .cg-root.cg-dgl  { --cg-accent: #4A3E86; --cg-accent-soft: rgba(74,62,134,.10); }   /* County Donegal: a north west indigo from the solver, kept clear of the purples used elsewhere in the cluster */
 .cg-root.cg-sgo  { --cg-accent: #0E6154; --cg-accent-soft: rgba(14,97,84,.10); }   /* County Sligo: a north western teal from the solver, distinct from the greens used in Munster and the midlands */
+.cg-root.cg-ltr  { --cg-accent: #7A4230; --cg-accent-soft: rgba(122,66,48,.10); }   /* County Leitrim: a russet from the solver, held apart from the browns used on the Munster and midland pages */
