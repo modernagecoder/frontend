@@ -285,6 +285,7 @@ const MARKETS = [
   ['coding-classes-in-county-cavan', 'County Cavan, Ireland'],
   ['coding-classes-in-county-monaghan', 'County Monaghan, Ireland'],
   ['coding-and-ai-classes-in-leinster', 'Leinster, Ireland'],
+  ['coding-and-ai-classes-in-munster', 'Munster, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
