@@ -903,3 +903,4 @@
 .cg-root.cg-wkw  { --cg-accent: #405A2B; --cg-accent-soft: rgba(64,90,43,.10); }   /* County Wicklow: a deep moss green from the solver for the Garden County, distinct from the Irish flag greens and from every other Ireland page */
 .cg-root.cg-fng  { --cg-accent: #7B3A53; --cg-accent-soft: rgba(123,58,83,.10); }   /* Fingal: a deep rose-brown from the solver, unused elsewhere in the Ireland cluster and clear of the Dublin city red */
 .cg-root.cg-sdb  { --cg-accent: #57306B; --cg-accent-soft: rgba(87,48,107,.10); }   /* South Dublin: a deep plum-violet from the solver, distinct from the Dublin city red and from every other Ireland page */
+.cg-root.cg-wmh  { --cg-accent: #1E4D8C; --cg-accent-soft: rgba(30,77,140,.10); }   /* County Westmeath: a deep lake blue from the solver for a county of loughs, distinct from both Irish greens and every other Ireland page */

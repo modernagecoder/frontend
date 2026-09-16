@@ -10971,5 +10971,78 @@
       "The hospital's campus acreage or catchment: its own page gives two different figures for each.",
       "Anything owned by the Dublin city, Dun Laoghaire-Rathdown or Fingal pages."
     ]
+  },
+  "coding-classes-in-county-westmeath": {
+    "market": "County Westmeath",
+    "bodyClass": "cg-wmh",
+    "pageType": "governorate",
+    "curriculumAuthority": "County Westmeath, Census 2022 (CSO): population 96,221, up 8 percent or 7,451 since 2016; average age 38.6 against 38.8 nationally; those aged 65 and over up 26 percent to 14,369; 11,096 people working from home at least one day a week, 26 percent of the workforce against 32 percent nationally; 42,077 people aged 15 and over at work, up 6,788 or 19 percent; 68 percent of households owning and 26 percent renting; 52 percent of residents, 50,115 people, born in the county, 29 percent or 27,937 elsewhere in the State and 18 percent or 17,565 outside it, up from 16 percent in 2016; non-Irish citizens stated as 11 percent in the summary release and 12 percent in Profile 5, with Polish 1,832, UK 1,357, Indian 1,034 and Lithuanian 1,005 the largest groups; dual Irish citizenship up from 1,826 to 3,180, most commonly Irish-UK 527, Irish-US 521 and Irish-Polish 332; 3,028 people moving into the county in the previous year, 1,748 from within Ireland and 1,280 from outside the State; 974 Travellers, down 3 percent on 2016; Catholics almost 70,600, 73 percent, down from 83 percent, with more than 10,200 stating no religion, 11 percent against 6 percent in 2016; unemployment 9 percent against 16 percent in 2016, with more than 4,400 unemployed, a fall of 34 percent; labour force participation 61 percent, the same as nationally; wholesale and retail the largest sector at almost 5,400 workers, health and social work just over 5,100 and manufacturing more than 4,500; 37,866 people travelling to work, 24,378 driving, 2,897 walking, 893 by bus, 518 cycling and 339 by train, with an average journey of 30.4 minutes against 28.8 in 2016; 3,390 third-level students commuting, most by car at 975; third-level qualifications just over 26,200, a rate of 42 percent against 45 percent nationally; almost 16,900 people, 27 percent, completing education at upper secondary level, with the average leaving age rising to 20.5. Towns: Mullingar 22,667 wholly within the county, average age 36.8 and 22.5 percent under 15; Athlone published as \"Athlone, Counties Westmeath & Roscommon\" at 22,869, average age 37.1 and 20.4 percent under 15, never used as a Westmeath figure; Kinnegad 3,064 with an average age of 34.1, the youngest town of at least 500 people; Moate 3,013. Gov.ie, 4 January 2018: Colaiste Mhuire in Mullingar and Moate Community School, Church Street, Moate were the county's first-phase Leaving Certificate Computer Science schools. TUS Athlone: University Road, Athlone, N37 HD68. The council's own civic offices file gives Athlone Civic Centre, Church Street at N37DN02 and County Buildings, Mount Street, Mullingar at N91FH4N.",
+    "localProject": "A column where blank and NO are different answers. Westmeath County Council publishes Westmeath Recycle Bring Banks under a Creative Commons Attribution 4.0 licence, stating on the dataset page that there are 49 bring bank locations and that the council provides the information without guaranteeing it is accurate, correct or complete. Measured across the 49 rows: the Textiles column holds YES 42 times, NO 6 times and one empty string, at the Saint Peter and Paul Church car park in Horseleap, while the other four material columns are populated on every row. A filter on NO returns six sites and a fill or drop of blanks silently reclassifies the Horseleap row, so the honest reporting keeps three categories, yes, no and not recorded. Checked and found clean: zero duplicate rows; Athlone and Mullingar appearing on several rows each, which is legitimate because each town has several sites; and coordinates in Irish Transverse Mercator metres that agree with the separate latitude and longitude columns, so no coordinate-unit trap exists in this file. One settlement is rendered Ballnacarrigy, a likely misspelling flagged rather than corrected because the file holds no second spelling to prove a pattern.",
+    "requiredMentions": [
+      "96,221",
+      "22,869",
+      "22,667",
+      "14,369",
+      "11,096",
+      "17,565",
+      "1,832",
+      "974",
+      "30.4 minutes",
+      "26,200",
+      "N37 HD68",
+      "Horseleap",
+      "Kinnegad"
+    ],
+    "sources": [
+      {
+        "claim": "CSO summary results, Westmeath: \"the population of Westmeath grew by 8% to 96,221, which means the number of people in the county rose by 7,451\"; average age 38.6 against a national 38.8; those aged 65 and over up 26% to 14,369; \"In Westmeath, 11,096 people (aged 15 and over) worked from home at least one day a week in 2022. This represented 26% of the workforce. The national figure was 32%\"; 42,077 at work, up 19%.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensusofpopulation2022-summaryresultswestmeath/"
+      },
+      {
+        "claim": "CSO Profile 1, Westmeath: \"Athlone was the largest town, with a population of 22,869 in April 2022\"; 52% of residents born in the county, 29% elsewhere in the State and 18% or 17,565 outside it; Kinnegad the youngest town at an average age of 34.1.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile1-populationdistributionandmovementswestmeath/"
+      },
+      {
+        "claim": "CSO table F1015: Athlone labelled \"Athlone, Counties Westmeath & Roscommon\" at 22,869; Mullingar, Co Westmeath 22,667 with average age 36.8 and 22.5% aged under 15; Kinnegad 3,064; Moate 3,013.",
+        "url": "https://data.cso.ie/table/F1015"
+      },
+      {
+        "claim": "CSO Profile 5, Westmeath: \"In Westmeath non-Irish citizens accounted for 12% of the county's population\", with Polish 1,832, UK 1,357, Indian 1,034 and Lithuanian 1,005; dual citizenships Irish-UK 527, Irish-US 521 and Irish-Polish 332; 3,028 people moving in during the previous year; 974 Travellers against 1,002 in 2016.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligionwestmeath/"
+      },
+      {
+        "claim": "CSO Profile 7, Westmeath: unemployment 9% against 16% in 2016 with more than 4,400 unemployed, a decrease of 34%; participation 61%, the same as nationally; 37,866 travelling to work with 24,378 driving, 893 by bus and 339 by train; average journey 30.4 minutes against 28.8; 3,390 third-level students commuting, 975 by car.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutingwestmeath/"
+      },
+      {
+        "claim": "CSO Profile 8, Westmeath: third-level qualifications just over 26,200, \"a rate of 42% compared with 45% nationally\"; almost 16,900 people, 27%, completing at upper secondary level; average leaving age rising to 20.5.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationwestmeath/"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: the first-phase Leaving Certificate Computer Science list includes \"Coláiste Mhuire / Mullingar, Co. Westmeath\" and \"Moate Community School / Church Street, Moate, Co. Westmeath\".",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "Technological University of the Shannon: Athlone campus at University Road, Athlone, N37 HD68.",
+        "url": "https://tus.ie/contact-us/athlone-reception/"
+      },
+      {
+        "claim": "Westmeath County Council civic offices dataset: \"Athlone Civic Centre,Church Street,Athlone,Westmeath,N37DN02\" and \"Westmeath County Council,County Buildings,Mount Street,Mullingar,Westmeath,N91FH4N\".",
+        "url": "https://data.gov.ie/organization/westmeath-county-council"
+      },
+      {
+        "claim": "Westmeath Recycle Bring Banks, licensed Creative Commons Attribution 4.0: 49 locations, with the council stating it \"provides this information with the understanding that it is not guaranteed to be accurate, correct or complete\"; the Textiles column holds YES 42 times, NO 6 times and one empty value at Horseleap.",
+        "url": "https://data.gov.ie/dataset/westmeath-recycle-bring-banks"
+      }
+    ],
+    "rejectedClaims": [
+      "Using Athlone's 22,869 as a Westmeath figure: the CSO publishes it across Westmeath and Roscommon.",
+      "Reconciling the CSO's two published non-Irish shares of 11% and 12%: both are quoted instead.",
+      "Correcting the settlement spelling Ballnacarrigy: it is flagged, since the file holds no second spelling to prove a pattern.",
+      "Treating the blank textiles value as a no: it is reported as a third category.",
+      "A county-level population density: the CSO publishes density only at electoral division level.",
+      "A named private employer in the county: none met the standard of a quote from the employer's own page.",
+      "Anything owned by the Meath, Laois, Kildare or other county pages in this cluster."
+    ]
   }
 }
