@@ -10275,5 +10275,81 @@
       "Summing electoral divisions labelled Waterford to reach the council total: the sum falls short, so no such claim is made.",
       "Anything owned by the Cork, Limerick, Galway or Dublin pages."
     ]
+  },
+  "coding-classes-in-county-wexford": {
+    "market": "County Wexford",
+    "bodyClass": "cg-wex",
+    "pageType": "governorate",
+    "curriculumAuthority": "County Wexford, Census 2022 (CSO): population 163,919, up 9 percent or 14,197 since 2016, with 83,142 female and 80,777 male; average age 40, up from 38.1; those aged 65 and over up 25 percent to 27,403; 70 percent of households owning and 24 percent renting; 69,485 people aged 15 and over at work, up 11,726 or 20 percent; 17,932 people, 26 percent of the workforce, working from home at least one day a week; unemployment 10 percent, down from 17 percent, with almost 7,600 unemployed; 41,118 driving to work, an average journey of 28.5 minutes and 7,633 people travelling an hour or more. Towns (F1013 and F1015): Wexford 21,524 at 2,629.3 per sq km, Enniscorthy 12,310 with an average age of 38.2 and 20.6 percent under 15, Gorey 11,517 at 2,558.4 per sq km with an average age of 36.3 and 22.5 percent under 15, and New Ross published as Wexford and Kilkenny at 8,610, a cross-county built-up area. F1010 shows 45,351 people, just under 28 percent of the county, in towns of 10,000 or more. Local electoral areas (F1016): Wexford 31,547, Gorey 31,140, New Ross 29,946, Enniscorthy 29,314, Rosslare 23,573 and Kilmuckridge 18,399. Citizenship: non-Irish citizens 9 percent, UK 3,561, Polish 3,356, Romanian 729, Lithuanian 725; dual citizenship 4,219, up from 2,186, most commonly Irish and UK at 1,185. Education: just over 41,100 with a third-level qualification, 37 percent against 45 percent nationally. Irish speakers 55,198, 36.7 percent of those aged three and over. Gov.ie, 4 January 2018: the county's two first-phase Leaving Certificate Computer Science schools were Creagh College, Carnew Road, Gorey and St Mary's CBS, Millpark Road, Enniscorthy. South East Technological University lists Wexford campuses at Summerhill Road, Y35 KA07 and Hill Street, Y35 FPC2. The CSO publishes no county-level density or under-15 share, so none is claimed here.",
+    "localProject": "A description that promises a year and a layer that holds a week, plus a publisher contradicting itself about missing values. Gorey Pedestrian Traffic North Side, Wexford County Council, licensed Creative Commons Attribution 4.0, describes weekly tables of fifteen-minute counts with records starting 20 January 2022; the only queryable layer is internally named for week 1 of 2023 and returns 553 rows covering 2 to 8 January 2023. A complete week would hold 672 quarter-hour readings, so 119 are missing, 17.7 percent. Measured by hour of day, 114 of those 119 gaps, 95.8 percent, fall between 01:00 and 08:00, with the 04:00 and 05:00 hours missing 24 of 28 possible slots each, while all 336 possible readings between 10:00 and 22:00 across the seven days are present. The notes field states both that a missing fifteen-minute interval means there was no traffic in that interval and that any gaps in the time series are due to the sensor malfunctioning, which are incompatible readings of the same blank. Everything else checks out: no duplicate date and time rows, no null or negative counts, one sensor identifier and one coordinate pair throughout.",
+    "requiredMentions": [
+      "163,919",
+      "21,524",
+      "12,310",
+      "11,517",
+      "8,610",
+      "3,561",
+      "17,932",
+      "27,403",
+      "31,547",
+      "553",
+      "95.8%",
+      "Y35 KA07",
+      "Creagh College"
+    ],
+    "sources": [
+      {
+        "claim": "CSO summary results, Wexford: \"The population of Wexford grew by 9% to 163,919\"; average age 40 against 38.1 in 2016; those aged 65 and over up 25% to 27,403; 69,485 at work, up 20%; 17,932 working from home at least one day a week, 26% of the workforce.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensusofpopulation2022-summaryresultswexford/"
+      },
+      {
+        "claim": "CSO Profile 7, Wexford: unemployment 10% against 17% in 2016; 41,118 driving to work; average journey time 28.5 minutes; 7,633 people with journeys of 60 minutes or more.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutingwexford/"
+      },
+      {
+        "claim": "CSO Profile 1, Wexford: \"Wexford was the largest town, with a population of 21,524 in April 2022\".",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile1-populationdistributionandmovementswexford/"
+      },
+      {
+        "claim": "CSO tables F1013 and F1015: Enniscorthy 12,310, Gorey 11,517 and New Ross published as \"New Ross, Wexford & Kilkenny\" at 8,610; Gorey average age 36.3 with 22.5% aged under 15; town densities of 2,629.3 and 2,558.4 per sq km.",
+        "url": "https://data.cso.ie/table/F1013"
+      },
+      {
+        "claim": "CSO table F1010: 45,351 people in County Wexford lived in towns of 10,000 population and over in April 2022.",
+        "url": "https://data.cso.ie/table/F1010"
+      },
+      {
+        "claim": "CSO table F1016: Wexford 31,547, Gorey 31,140, New Ross 29,946, Enniscorthy 29,314, Rosslare 23,573 and Kilmuckridge 18,399.",
+        "url": "https://data.cso.ie/table/F1016"
+      },
+      {
+        "claim": "CSO Profile 5, Wexford: \"Among the non-Irish residents, the largest group were UK citizens (3,561 people) followed by Polish citizens (3,356)\"; dual citizenship 4,219, up from 2,186, with Irish-UK the largest combination at 1,185.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligionwexford/"
+      },
+      {
+        "claim": "CSO Profile 8, Wexford: third-level qualifications just over 41,100, \"a rate of 37% compared with 45% nationally\"; 55,198 Irish speakers, 36.7% of those aged three and over.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationwexford/"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: the first-phase Leaving Certificate Computer Science list includes Creagh College, Carnew Road, Gorey and St Mary's CBS, Millpark Road, Enniscorthy.",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "South East Technological University: \"Address: Summerhill Road, Slippery Green, Wexford. Eircode: Y35 KA07\" and \"Hill Street Campus ... Eircode: Y35 FPC2\".",
+        "url": "https://www.setu.ie/about/setu-campuses/visiting-the-wexford-campuses"
+      },
+      {
+        "claim": "Wexford County Council, Gorey Pedestrian Traffic North Side, licensed Creative Commons Attribution 4.0, describing weekly fifteen-minute tables with records starting 20 January 2022, and stating both that a missing interval means no traffic and that gaps are due to sensor malfunctioning.",
+        "url": "https://data.gov.ie/dataset/gorey-pedestrian-traffic-north-side"
+      }
+    ],
+    "rejectedClaims": [
+      "A county-level population density or land area for Wexford: the CSO publishes density at electoral division level only, so town figures are used and labelled.",
+      "A county-level under-15 share: not published for Wexford, so town-level shares are used and labelled.",
+      "Treating New Ross as a County Wexford figure: the CSO publishes it across Wexford and Kilkenny.",
+      "Any claim about which Wexford schools teach Leaving Certificate Computer Science today: no current official list exists.",
+      "A county-wide out-commuting total: not published in the profiles read.",
+      "Anything owned by the city pages or by other county pages in this cluster."
+    ]
   }
 }

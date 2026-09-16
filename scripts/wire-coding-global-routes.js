@@ -259,6 +259,7 @@ const MARKETS = [
   ['best-coding-class-in-limerick', 'Limerick, Ireland'],
   ['best-coding-class-in-galway', 'Galway, Ireland'],
   ['best-coding-class-in-waterford', 'Waterford, Ireland'],
+  ['coding-classes-in-county-wexford', 'County Wexford, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
