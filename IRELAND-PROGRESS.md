@@ -90,7 +90,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 55 | coding-classes-in-county-monaghan (mgh, #35507C) | cg- county | 3,335 | 1.5% vs coding-classes-in-county-galway | the description says one thing, the numbers another | item says WGS84; X/Y are Web Mercator, proven in all 24 rows | 1c9b2f82 |
 | 56 | coding-and-ai-classes-in-leinster (lns, #3D4F8A) | cg- province | 2,848 | 1.9% vs coding-classes-in-county-cavan | the national figure is mostly Leinster | plain average of province WFH shares 28.5% vs national 32.1% | 2b6f3ac5 |
 | 57 | coding-and-ai-classes-in-munster (mns, #8A3B2E) | cg- province | 2,746 | 3.5% vs coding-and-ai-classes-in-leinster | the ranking that flips | broadband: Ulster ahead with all households, Munster ahead excluding non-response | 6838be83 |
-| 58 | coding-and-ai-classes-in-connacht (cnt, #1E6B5C) | cg- province | 2,775 | 3.5% vs coding-and-ai-classes-in-munster | what counts as a speaker | 244,788 can speak Irish; 55,826 never do; 16,966 daily outside education | (this commit) |
+| 58 | coding-and-ai-classes-in-connacht (cnt, #1E6B5C) | cg- province | 2,775 | 3.5% vs coding-and-ai-classes-in-munster | what counts as a speaker | 244,788 can speak Irish; 55,826 never do; 16,966 daily outside education | 4adb6c60 |
+| 59 | coding-and-ai-classes-in-ulster (uls, #6B3F7A) | cg- province | 2,842 | 5.5% vs coding-and-ai-classes-in-munster | points or per cent | journeys 1.5 pts/76% vs birthplace 4.5 pts/5.7%: opposite rankings | (this commit) |
 
 ## Skipped (kill criterion)
 

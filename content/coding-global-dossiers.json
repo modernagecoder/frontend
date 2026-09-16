@@ -12371,5 +12371,63 @@
       "Weighted averages, and percentage points against per cent: the Leinster and Ulster pages own those.",
       "County detail repeated from the Connacht county and city pages, which carry it and are linked."
     ]
+  },
+  "coding-and-ai-classes-in-ulster": {
+    "market": "Cavan, Donegal and Monaghan",
+    "bodyClass": "cg-uls",
+    "pageType": "governorate",
+    "curriculumAuthority": "Ulster (part of), the CSO's own label in its Census 2022 province tables for the three Ulster counties in the State, Cavan, Donegal and Monaghan; no Northern Ireland figure is used. Tables read 17 September 2026. SAP2022T2T1PROV usually resident population by birthplace: Ulster (part of) total 310,160, born Ireland 243,018, United Kingdom 38,819, Poland 4,474, India 1,994; Munster total 1,355,848, born Ireland 1,122,711; State total 5,084,879, born United Kingdom 289,053; Connacht 582,891 with 45,148 UK-born; Leinster 2,835,980 with 132,195 UK-born; Munster 72,891 UK-born. SAP2022T11T3PROV journey time to work, school or college, aged 5 and over: Ulster (part of) under 15 minutes 73,087, 1.5 hours and over 6,077, not stated 17,631, total 188,977; Munster 1.5 hours and over 15,185, not stated 85,705, total 839,388; Connacht under 15 minutes 124,460 of 360,119 with 35,686 not stated and 8,297 at 1.5 hours or more; Leinster under 15 minutes 461,473 of 1,798,477 with 203,248 not stated and 51,308 at 1.5 hours or more. SAP2022T15T2PROV: Ulster (part of) 113,206 households, broadband 86,744. SAP2022T3T1PROV: Ulster (part of) aged 3 and over 302,797, able to speak Irish 109,292. SAP2022T11T4PROV: Ulster (part of) 130,188 working persons, 28,479 working from home; Connacht 255,297 and 70,500; Leinster 1,308,124 and 463,956; Munster 600,129 and 173,175. The CSO Gaeltacht definition names seven counties including Donegal. County pages: Cavan, Donegal, Monaghan.",
+    "localProject": "Percentage points against per cent. Two gaps between Ulster (part of) and Munster, each measured both ways, by our arithmetic on published counts. Long journeys: 6,077 of 171,346 stated journeys in Ulster (part of), being 188,977 less 17,631 not stated, is 3.55 percent; 15,185 of 753,683 in Munster, being 839,388 less 85,705, is 2.01 percent; a gap of 1.53 percentage points, but Ulster's share is 76.0 percent higher. Birthplace: 243,018 of 310,160 residents born in Ireland in Ulster (part of) is 78.35 percent; 1,122,711 of 1,355,848 in Munster is 82.81 percent; a gap of 4.45 percentage points, but Munster's share is only 5.7 percent higher. In points the birthplace gap is about three times the journey gap; in relative terms the journey gap is about thirteen times the birthplace gap, so the two measures rank the same pair of gaps in opposite orders. Output: every comparison written both ways, with a sentence stating which a headline would use and what that choice emphasises. Not used, because other province pages own them: weighted averages (Leinster), non-response and rankings (Munster), definitions of a speaker (Connacht). The page follows the CSO label Ulster (part of) and describes Cavan, Donegal and Monaghan only.",
+    "requiredMentions": [
+      "310,160",
+      "243,018",
+      "38,819",
+      "4,474",
+      "113,206",
+      "86,744",
+      "109,292",
+      "302,797",
+      "73,087",
+      "6,077",
+      "188,977",
+      "17,631"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T3PROV, population aged 5 years and over by journey time to work, school or college, by province: Ulster (part of) under 15 minutes 73,087, 1.5 hours and over 6,077, not stated 17,631, total 188,977; Munster 1.5 hours and over 15,185, not stated 85,705, total 839,388; Connacht 124,460, 8,297, 35,686, 360,119; Leinster 461,473, 51,308, 203,248, 1,798,477.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T3PROV/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T2T1PROV, usually resident population by birthplace, by province: Ulster (part of) total 310,160, born Ireland 243,018, United Kingdom 38,819, Poland 4,474; Munster total 1,355,848, born Ireland 1,122,711, United Kingdom 72,891; Connacht 582,891 and 45,148 UK-born; Leinster 2,835,980 and 132,195 UK-born; Ireland 5,084,879 and 289,053 UK-born.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T2T1PROV/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T15T2PROV, households with internet access by province: Ulster (part of) 113,206 households, broadband 86,744.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2PROV/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T3T1PROV, ability to speak Irish by province: Ulster (part of) 109,292 able of 302,797 aged 3 and over.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T3T1PROV/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T4PROV, working from home by province: Ulster (part of) 130,188 working persons and 28,479 working from home; Connacht 255,297 and 70,500; Leinster 1,308,124 and 463,956; Munster 600,129 and 173,175.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T4PROV/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO PxStat Census 2022 province dimension labels: Connacht, Leinster, Munster, Ulster (part of), Ireland.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadCollection"
+      },
+      {
+        "claim": "CSO Census 2022 Profile 8 editor's note: the Gaeltacht comprises electoral divisions in Cork, Donegal, Galway, Kerry, Mayo, Meath and Waterford.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationdonegal/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Northern Ireland figure, statistic, school or service, or any figure for the nine-county historic province.",
+      "Calling the area simply Ulster in any figure label: the CSO labels it Ulster (part of), and the page follows that.",
+      "Any explanation of why journeys of 1.5 hours or more are more common here: the census does not say, so no cause is asserted.",
+      "Weighted averages, non-response rankings and speaker definitions as projects: the Leinster, Munster and Connacht pages own those.",
+      "County detail repeated from the Cavan, Donegal and Monaghan pages, which carry it and are linked."
+    ]
   }
 }

@@ -922,3 +922,4 @@
 .cg-root.cg-lns  { --cg-accent: #3D4F8A; --cg-accent-soft: rgba(61,79,138,.10); }   /* Leinster: an eastern blue from the solver, darker than the blues used on individual Leinster county pages so the province reads as a parent */
 .cg-root.cg-mns  { --cg-accent: #8A3B2E; --cg-accent-soft: rgba(138,59,46,.10); }   /* Munster: a southern brick red from the solver, deeper than any red on the individual Munster county and city pages */
 .cg-root.cg-cnt  { --cg-accent: #1E6B5C; --cg-accent-soft: rgba(30,107,92,.10); }   /* Connacht: a western sea green from the solver, set apart from the greens and teals of the individual Connacht county pages */
+.cg-root.cg-uls  { --cg-accent: #6B3F7A; --cg-accent-soft: rgba(107,63,122,.10); }   /* Ulster (part of): a northern plum from the solver, distinct from the crimson, indigo and blue used on the Cavan, Donegal and Monaghan pages */
