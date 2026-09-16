@@ -753,6 +753,7 @@ Pages for Irish places and for the questions Irish families ask most, each writt
 - [Coding for college students in Ireland](/coding-for-college-students-ireland): For students in Irish higher education: what first-year programming actually asks, and how to build the portfolio employers look at.
 - [Full stack software development course in Ireland](/full-stack-software-development-course-ireland): Front end, back end and database together, with an honest reading of what Irish labour market data does and does not say.
 - [Best Python classes online in Ireland](/best-python-classes-online-ireland): Python taught on Ireland's own public data, from a child's first program to the CSO statistical tables professionals actually use.
+- [Build real AI projects in Ireland](/build-real-ai-projects-ireland): Building AI projects on real Irish data, including how to tell an honest result from a leaked one.
 - [Coding classes in Dublin](/best-coding-class-in-dublin): The city and county, from Swords to Tallaght, with a project on Dublin Bikes data.
 
 **Counties and council areas:** [Dún Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown)
