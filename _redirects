@@ -2758,4 +2758,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-county-monaghan /src/pages/coding-classes-in-county-monaghan.html 200
 /coding-classes-in-county-monaghan.md /src/pages/coding-classes-in-county-monaghan.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-and-ai-classes-in-leinster /src/pages/coding-and-ai-classes-in-leinster.html 200
+/coding-and-ai-classes-in-leinster.md /src/pages/coding-and-ai-classes-in-leinster.md 200
 /* /src/pages/404.html 404
