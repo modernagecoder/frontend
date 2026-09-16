@@ -2590,4 +2590,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ai-agents-course-for-students-ireland /src/pages/ai-agents-course-for-students-ireland.html 200
 /ai-agents-course-for-students-ireland.md /src/pages/ai-agents-course-for-students-ireland.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/online-coding-summer-course-ireland /src/pages/online-coding-summer-course-ireland.html 200
+/online-coding-summer-course-ireland.md /src/pages/online-coding-summer-course-ireland.md 200
 /* /src/pages/404.html 404
