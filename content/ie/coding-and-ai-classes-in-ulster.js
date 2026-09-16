@@ -53,7 +53,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Ulster',
   capsuleQ: 'What are the best coding and AI classes in Cavan, Donegal and Monaghan?',
-  capsule: 'This page covers Ulster as the Irish census counts it: Cavan, Donegal and Monaghan, the three Ulster counties in the State, which the statistics office labels Ulster (part of). They held 310,160 usually resident people and 113,206 households at the 2022 census. Nothing here describes Northern Ireland. Each of the three counties has its own page with us, linked below. Whichever county a family lives in, lessons are live on video twice a week at a fixed time, in ability groups of five to ten or one to one, for ages six to sixty-seven. The first is free; a group place then costs USD 100 a month and a private one USD 150.',
+  capsule: 'This page covers Ulster as the Irish census counts it: Cavan, Donegal and Monaghan, the three Ulster counties in the State, which the statistics office labels Ulster (part of). They held 310,160 usually resident people and 113,206 households at the 2022 census. Nothing here describes Northern Ireland. Each of the three counties has its own page with us, linked below. In Letterkenny, Cootehill or Clones the offer is identical: two live video lessons in a normal week, a small group matched on ability or a private teacher, and learners anywhere from six to sixty-seven. Nobody pays for the first lesson. From then on it is USD 100 monthly in a group, USD 150 privately.',
   lead: 'Here are two gaps between these three counties and Munster, and a question: which gap is bigger? Among people who stated how long their journey to work, school or college takes, 3.5% here travel an hour and a half or more, against 2.0% in Munster. On birthplace, 78.4% of residents here were born in Ireland, against 82.8% in Munster. The first gap is 1.5 percentage points, the second 4.5, so the birthplace gap looks three times bigger. Now compare them proportionally: the long-journey share here is 76% higher than Munster\'s, while Munster\'s born-in-Ireland share is only 5.7% higher. By that measure the journey gap is thirteen times bigger. Both statements are arithmetically correct, and they rank the same two gaps in opposite orders.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Cavan, Donegal or Monaghan.',
 
@@ -107,7 +107,7 @@ module.exports = {
       h2: 'Ulster (part of), as the census reports it',
       intro: 'Totals from the census small area population tables for the province. Our percentages are marked.',
       body: [
-        { kind: 'table', caption: 'Cavan, Donegal and Monaghan together, Census 2022', head: ['Measure', 'Result'], rows: [
+        { kind: 'table', caption: 'Cavan, Donegal and Monaghan together, Census 2022', head: ['Census item', 'The three counties'], rows: [
           ['Usually resident population', '310,160'],
           ['Born in the United Kingdom', '38,819, about 12.5%, the highest share of the four provinces'],
           ['Born in Poland', '4,474'],
@@ -154,7 +154,7 @@ module.exports = {
     cells: [
       { h3: 'Always live', p: 'A teacher leads each lesson as it happens, and the learner takes part rather than watches.' },
       { h3: 'Grouped by ability', p: 'Five to ten learners at one level, gathered from all three counties and further afield.' },
-      { h3: 'Fixed and regular', p: 'Two lessons in most weeks, about eight a month, at a time set once and then kept.' },
+      { h3: 'A rhythm that holds', p: 'Roughly eight sessions a month, usually two a week, on days and at an hour agreed at the outset.' },
       { h3: 'Irish school stages', p: 'From Junior Cycle to Leaving Certificate, with holidays and exam weeks built in.' },
       { h3: 'What is needed', p: 'A laptop or desktop, working sound and a connection that carries video, all checked in the free lesson.' },
       { h3: 'One to one if needed', p: 'If no suitable group meets at a workable hour, the same course is taught privately.' }
@@ -171,11 +171,11 @@ module.exports = {
     closer: 'Everything is billed monthly in US dollars at the single rate we use outside India, so a family in Letterkenny and one in Carrickmacross pay the same and there is no second currency. No payment is taken until the free lesson settles a course and a time, and the pricing page covers pauses, missed lessons and changing format.'
   },
 
-  reviewsH2: 'Six Google reviews by families we teach, word for word',
+  reviewsH2: 'What six families wrote about us on Google, unedited',
 
   book: {
     h2: 'Book a free first lesson',
-    intro: 'Tell us the learner\'s age and interests and we will plan the first hour around them, from a Scratch game about adding and doubling to census shares compared two ways.',
+    intro: 'A few details are enough: how old the learner is and what they enjoy. The opening hour is then shaped for them, perhaps a Scratch game where adding and doubling race each other, perhaps two census gaps that swap places.',
     success: 'Thank you. Somebody will be in touch about your class in Cavan, Donegal or Monaghan shortly.'
   },
 
@@ -187,8 +187,8 @@ module.exports = {
       { q: 'How many people live in the three counties?', a: 'The 2022 census province tables record 310,160 usually resident people across Cavan, Donegal and Monaghan, in 113,206 households.' },
       { q: 'What is the data project on this page?', a: 'Learners compare two census gaps with Munster, long journeys and birthplace, first in percentage points and then in relative terms, and find that the two methods say opposite things about which gap is bigger.' },
       { q: 'Is there a Gaeltacht in these counties?', a: 'Yes, in Donegal, one of the seven counties the statistics office names as containing Gaeltacht areas. Lessons are in English, so a pupil from a Gaeltacht school starts level with everyone else.' },
-      { q: 'Do lesson times suit Irish evenings?', a: 'Yes: after school, evenings and weekend mornings. Our teachers are in India, four and a half hours ahead of Ireland in summer and five and a half in winter, and the time is set in the free lesson.' },
-      { q: 'Do you teach AI as well as coding?', a: 'Yes. Courses run from Scratch for young children through Python, data and AI for teenagers and adults; the free lesson is where the right one is chosen.' },
+      { q: 'Do lesson times suit Irish evenings?', a: 'They are planned for them. The teaching team works from India, where the clock runs four and a half hours ahead of Irish summer time and five and a half ahead in winter, so an Irish after-school or evening slot is a normal working hour there. The exact slot is fixed during the free lesson.' },
+      { q: 'Is AI taught, or only programming?', a: 'Both. Younger children usually start with Scratch, while teenagers and adults can take Python, data science or AI courses, and the teacher recommends one at the end of the free lesson.' },
       { q: 'Which county pages do you have?', a: 'One each for Cavan, Donegal and Monaghan, linked on this page, each with its own local figures and data project.' },
       { q: 'Is there a Modern Age Coders classroom in Cavan, Donegal or Monaghan?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
       { q: 'What do coding classes cost in Cavan, Donegal and Monaghan?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },

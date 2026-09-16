@@ -4,7 +4,7 @@ description: "Live online coding, Python and AI classes for the Ulster counties 
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-ulster
 source: src/pages/coding-and-ai-classes-in-ulster.html
 ---
-> This page covers Ulster as the Irish census counts it: Cavan, Donegal and Monaghan, the three Ulster counties in the State, which the statistics office labels Ulster (part of). They held 310,160 usually resident people and 113,206 households at the 2022 census. Nothing here describes Northern Ireland. Each of the three counties has its own page with us, linked below. Whichever county a family lives in, lessons are live on video twice a week at a fixed time, in ability groups of five to ten or one to one, for ages six to sixty-seven. The first is free; a group place then costs USD 100 a month and a private one USD 150.
+> This page covers Ulster as the Irish census counts it: Cavan, Donegal and Monaghan, the three Ulster counties in the State, which the statistics office labels Ulster (part of). They held 310,160 usually resident people and 113,206 households at the 2022 census. Nothing here describes Northern Ireland. Each of the three counties has its own page with us, linked below. In Letterkenny, Cootehill or Clones the offer is identical: two live video lessons in a normal week, a small group matched on ability or a private teacher, and learners anywhere from six to sixty-seven. Nobody pays for the first lesson. From then on it is USD 100 monthly in a group, USD 150 privately.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / Cavan, Donegal and Monaghan
 
@@ -12,7 +12,7 @@ Ulster, the three counties in the State / Live online
 
 # Coding and AI classes in Ulster
 
-**What are the best coding and AI classes in Cavan, Donegal and Monaghan?** This page covers Ulster as the Irish census counts it: Cavan, Donegal and Monaghan, the three Ulster counties in the State, which the statistics office labels Ulster (part of). They held 310,160 usually resident people and 113,206 households at the 2022 census. Nothing here describes Northern Ireland. Each of the three counties has its own page with us, linked below. Whichever county a family lives in, lessons are live on video twice a week at a fixed time, in ability groups of five to ten or one to one, for ages six to sixty-seven. The first is free; a group place then costs USD 100 a month and a private one USD 150.
+**What are the best coding and AI classes in Cavan, Donegal and Monaghan?** This page covers Ulster as the Irish census counts it: Cavan, Donegal and Monaghan, the three Ulster counties in the State, which the statistics office labels Ulster (part of). They held 310,160 usually resident people and 113,206 households at the 2022 census. Nothing here describes Northern Ireland. Each of the three counties has its own page with us, linked below. In Letterkenny, Cootehill or Clones the offer is identical: two live video lessons in a normal week, a small group matched on ability or a private teacher, and learners anywhere from six to sixty-seven. Nobody pays for the first lesson. From then on it is USD 100 monthly in a group, USD 150 privately.
 
 Here are two gaps between these three counties and Munster, and a question: which gap is bigger? Among people who stated how long their journey to work, school or college takes, 3.5% here travel an hour and a half or more, against 2.0% in Munster. On birthplace, 78.4% of residents here were born in Ireland, against 82.8% in Munster. The first gap is 1.5 percentage points, the second 4.5, so the birthplace gap looks three times bigger. Now compare them proportionally: the long-journey share here is 76% higher than Munster's, while Munster's born-in-Ireland share is only 5.7% higher. By that measure the journey gap is thirteen times bigger. Both statements are arithmetically correct, and they rank the same two gaps in opposite orders.
 
@@ -90,7 +90,7 @@ Totals from the census small area population tables for the province. Our percen
 
 **Cavan, Donegal and Monaghan together, Census 2022**
 
-| Measure | Result |
+| Census item | The three counties |
 |---|---|
 | Usually resident population | 310,160 |
 | Born in the United Kingdom | 38,819, about 12.5%, the highest share of the four provinces |
@@ -138,7 +138,7 @@ From Malin Head to Kingscourt, the arrangement is the same.
 
 - **Always live** A teacher leads each lesson as it happens, and the learner takes part rather than watches.
 - **Grouped by ability** Five to ten learners at one level, gathered from all three counties and further afield.
-- **Fixed and regular** Two lessons in most weeks, about eight a month, at a time set once and then kept.
+- **A rhythm that holds** Roughly eight sessions a month, usually two a week, on days and at an hour agreed at the outset.
 - **Irish school stages** From Junior Cycle to Leaving Certificate, with holidays and exam weeks built in.
 - **What is needed** A laptop or desktop, working sound and a connection that carries video, all checked in the free lesson.
 - **One to one if needed** If no suitable group meets at a workable hour, the same course is taught privately.
@@ -175,11 +175,11 @@ Yes, in Donegal, one of the seven counties the statistics office names as contai
 
 ### Do lesson times suit Irish evenings?
 
-Yes: after school, evenings and weekend mornings. Our teachers are in India, four and a half hours ahead of Ireland in summer and five and a half in winter, and the time is set in the free lesson.
+They are planned for them. The teaching team works from India, where the clock runs four and a half hours ahead of Irish summer time and five and a half ahead in winter, so an Irish after-school or evening slot is a normal working hour there. The exact slot is fixed during the free lesson.
 
-### Do you teach AI as well as coding?
+### Is AI taught, or only programming?
 
-Yes. Courses run from Scratch for young children through Python, data and AI for teenagers and adults; the free lesson is where the right one is chosen.
+Both. Younger children usually start with Scratch, while teenagers and adults can take Python, data science or AI courses, and the teacher recommends one at the end of the free lesson.
 
 ### Which county pages do you have?
 
