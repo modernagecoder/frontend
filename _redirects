@@ -2686,4 +2686,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-county-wicklow /src/pages/coding-classes-in-county-wicklow.html 200
 /coding-classes-in-county-wicklow.md /src/pages/coding-classes-in-county-wicklow.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-fingal /src/pages/coding-classes-in-fingal.html 200
+/coding-classes-in-fingal.md /src/pages/coding-classes-in-fingal.md 200
 /* /src/pages/404.html 404

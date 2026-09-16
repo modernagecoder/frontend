@@ -10822,5 +10822,77 @@
       "Any claim about which Wicklow schools teach Leaving Certificate Computer Science today: no current official list exists.",
       "Silently reconciling the CSO's two roundings of the non-Irish share: both are quoted instead."
     ]
+  },
+  "coding-classes-in-fingal": {
+    "market": "Fingal",
+    "bodyClass": "cg-fng",
+    "pageType": "governorate",
+    "curriculumAuthority": "Fingal, one of the four Dublin local authorities rather than a county, Census 2022 (CSO PxStat, which carries Fingal as its own row): population 330,506; 159,994 residents inside the Dublin city and suburbs built-up area, roughly half of Fingal; seven local electoral areas summing exactly to the total, Howth-Malahide 69,960, Swords 48,739, Castleknock 47,149, Ongar 43,905, Balbriggan 40,476, Rush-Lusk 40,255 and Blanchardstown-Mulhuddart 40,022; the 42 electoral divisions labelled Fingal also sum exactly to 330,506, with the densest, Blanchardstown-Blakestown, at 5,576.3 persons per sq km across 7.9 sq km. Towns, labelled \"Co Dublin\" in the census list under a convention predating the 1994 split: Swords 40,776 with an average age of 36.2, Balbriggan 24,322 at 33.6, Malahide 18,608 at 40.5, Rush 10,875, Portmarnock 10,750, Skerries 10,743, Donabate 9,669, Lusk 8,806 and Portrane 1,262; Blanchardstown is not published as a town in its own right. The council describes Fingal as a 450 sq km region whose name derives from Fine Gall, land of the fair-haired stranger, and publishes its own list of constituent areas, used here to place schools. DELIBERATE ABSENCE: the CSO publishes no Fingal-only figures for citizenship, working from home, commuting mode or third-level education, only a Dublin-wide release covering all four authorities, and none of those is used here. Gov.ie, 4 January 2018: six first-phase Leaving Certificate Computer Science schools are in Fingal, Loreto College and St Finian's Community College in Swords, St Joseph's Secondary School in Rush, and Colaiste Pobail Setanta, Le Cheile Secondary School and Luttrellstown Community College in Dublin 15; Mount Temple Comprehensive was checked and excluded, since its Malahide Road address is in Dublin 3. Dublin Airport's operator states an ambition of \"coherent, sustainable and plan-led growth of Dublin Airport to 40 million passengers per annum\", a planning aim rather than a current count. Malahide Castle, K36 YP65, was home to the Talbot family for over 800 years; Newbridge House, K36 VR90 in Donabate, is a Georgian villa designed by James Gibbs and built from 1747, whose demesne passed to the council in 1985.",
+    "localProject": "A total that counts itself. Fingal County Council publishes 419 datasets, and its Newbridge House Visitors file, licensed Creative Commons Attribution 4.0, holds 31 rows. Three of those rows are year totals rather than months, labelled for 2021, 2022 and 2023, so summing the visitor column across all 31 rows returns 379,230 while the 28 genuine rows total 189,615: the naive answer is exactly double, because each total row repeats the rows above it. Further measured faults in the same file: the X and Y columns hold projected metre coordinates identical on every row, sitting beside a correct latitude and longitude pair, so plotting X and Y as degrees puts the point in the ocean; four rows record zero visitors because the house was closed during 2021 Covid restrictions, which is a closure rather than a measurement; the reporting grain switches from monthly in 2021 and 2022 to quarterly from 2023 with no column flagging it; and the visitor column name is misspelled in the published header, so code referring to the correct spelling fails to find it.",
+    "requiredMentions": [
+      "330,506",
+      "159,994",
+      "69,960",
+      "48,739",
+      "40,776",
+      "24,322",
+      "18,608",
+      "10,875",
+      "5,576.3",
+      "379,230",
+      "189,615",
+      "K36 YP65",
+      "Fine Gall"
+    ],
+    "sources": [
+      {
+        "claim": "CSO table F1010: Fingal County Council population 330,506, of which 159,994 are within the Dublin city and suburbs built-up area.",
+        "url": "https://data.cso.ie/table/F1010"
+      },
+      {
+        "claim": "CSO table F1016: Howth-Malahide 69,960, Swords 48,739, Castleknock 47,149, Ongar 43,905, Balbriggan 40,476, Rush-Lusk 40,255 and Blanchardstown-Mulhuddart 40,022, summing exactly to 330,506.",
+        "url": "https://data.cso.ie/table/F1016"
+      },
+      {
+        "claim": "CSO table F1011: the 42 electoral divisions labelled Fingal sum exactly to 330,506, and the densest, Blanchardstown-Blakestown, records 5,576.3 persons per sq km across 7.9 sq km.",
+        "url": "https://data.cso.ie/table/F1011"
+      },
+      {
+        "claim": "CSO table F1015: Swords 40,776 with average age 36.2, Balbriggan 24,322 at 33.6, Malahide 18,608 at 40.5, Rush 10,875, Portmarnock 10,750, Skerries 10,743, Donabate 9,669, Lusk 8,806, Portrane 1,262, each labelled Co Dublin.",
+        "url": "https://data.cso.ie/table/F1015"
+      },
+      {
+        "claim": "Fingal County Council: \"This 450sq.km region derives its name from the Gaelic words 'Fine Gall' or 'land of the fair-haired stranger' in reference to the Vikings who settled here\", with its own list of Fingal areas including Balbriggan, Blanchardstown, Castleknock, Howth, Malahide, Rush, Skerries and Swords.",
+        "url": "https://www.fingal.ie/"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: the first-phase Leaving Certificate Computer Science list includes Loreto College and St. Finian's Community College in Swords, St Joseph's Secondary School in Rush, Colaiste Pobail Setanta in Phibblestown, Le Cheile Secondary School in Tyrellstown and Luttrellstown Community College in Blanchardstown, while Mount Temple Comprehensive is at a Malahide Road address in Dublin 3.",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "daa, Dublin Airport: an ambition to deliver \"coherent, sustainable and plan-led growth of Dublin Airport to 40 million passengers per annum (mppa) in line with aviation and planning policy\".",
+        "url": "https://www.dublinairport.com/corporate/airport-development/dublin-airport-vision"
+      },
+      {
+        "claim": "Malahide Castle and Gardens: \"home to the Talbot family for over 800 years\", eircode K36 YP65.",
+        "url": "https://malahidecastleandgardens.ie/"
+      },
+      {
+        "claim": "Newbridge House and Farm, Donabate, K36 VR90: a Georgian villa \"built to the design of James Gibbs in 1747\", whose demesne passed to the local authority in 1985 under an agreement leaving the family collection in situ.",
+        "url": "https://newbridgehouseandfarm.com/"
+      },
+      {
+        "claim": "Fingal County Council, Newbridge House Visitors dataset, licensed Creative Commons Attribution 4.0: 31 rows including three year-total rows, a misspelled visitor column, projected X and Y coordinates beside correct latitude and longitude, and four zero rows recorded during Covid closures.",
+        "url": "https://data.fingal.ie/datasets/FingalCoCo::newbridge-house-visitors-fcc"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Dublin-wide census percentage presented as a Fingal figure: the CSO publishes citizenship, home working, commuting and education only for all four Dublin authorities together, so those topics are omitted here.",
+      "A single Blanchardstown population: the census does not publish it as a town in its own right.",
+      "Placing Mount Temple Comprehensive in Fingal: its Malahide Road address is in Dublin 3.",
+      "A Fingal County Hall eircode: the council contact page could not be read, so only the two heritage-site eircodes are printed.",
+      "Any Dublin Airport passenger count: only the operator's stated planning ambition is quoted, and it is labelled as such.",
+      "Anything owned by the Dublin city or Dun Laoghaire-Rathdown pages."
+    ]
   }
 }
