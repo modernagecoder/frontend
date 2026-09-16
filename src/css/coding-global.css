@@ -898,3 +898,4 @@
 .cg-root.cg-lth  { --cg-accent: #7D5700; --cg-accent-soft: rgba(125,87,0,.10); }   /* County Louth: a dark harvest gold from the solver, unused elsewhere in the Ireland cluster and clear of both Irish greens */
 .cg-root.cg-clw  { --cg-accent: #1D5B5B; --cg-accent-soft: rgba(29,91,91,.10); }   /* County Carlow: a dark slate teal from the solver, unused elsewhere in the Ireland cluster and clear of both Irish greens */
 .cg-root.cg-lao  { --cg-accent: #7A1F4B; --cg-accent-soft: rgba(122,31,75,.10); }   /* County Laois: a deep berry from the solver, unused elsewhere in the Ireland cluster and clear of both Irish greens */
+.cg-root.cg-kld  { --cg-accent: #14614A; --cg-accent-soft: rgba(20,97,74,.10); }   /* County Kildare: a deep jade from the solver, unused elsewhere in the Ireland cluster and distinct from the Irish flag greens */
