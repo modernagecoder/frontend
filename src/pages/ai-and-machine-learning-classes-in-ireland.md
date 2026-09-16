@@ -531,6 +531,7 @@ Each page answers one question for one audience, with its facts read at the sour
 - [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-ireland): The difference between prompting a model and training one, worked through on an Irish dataset with a baseline you have to beat.
 - [AI agents course for professionals in Ireland](/ai-agents-course-for-professionals-ireland): For professionals in Ireland building AI agents at work, with the national adoption figures read carefully.
 - [Java classes in Ireland](/java-classes-ireland): Where Java actually sits in Irish computing education, and how to learn it properly at school, in college or at work.
+- [App development course in Ireland](/app-development-course-ireland): Building and shipping real mobile apps, with two Irish public apps read as worked examples.
 
 Pages for Irish places are listed on [the national Ireland page](/coding-classes-in-ireland).
 

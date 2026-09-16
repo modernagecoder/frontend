@@ -2638,4 +2638,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /java-classes-ireland /src/pages/java-classes-ireland.html 200
 /java-classes-ireland.md /src/pages/java-classes-ireland.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/app-development-course-ireland /src/pages/app-development-course-ireland.html 200
+/app-development-course-ireland.md /src/pages/app-development-course-ireland.md 200
 /* /src/pages/404.html 404

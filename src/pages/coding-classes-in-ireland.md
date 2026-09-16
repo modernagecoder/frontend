@@ -758,6 +758,7 @@ Pages for Irish places and for the questions Irish families ask most, each writt
 - [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-ireland): The difference between prompting a model and training one, worked through on an Irish dataset with a baseline you have to beat.
 - [AI agents course for professionals in Ireland](/ai-agents-course-for-professionals-ireland): For professionals in Ireland building AI agents at work, with the national adoption figures read carefully.
 - [Java classes in Ireland](/java-classes-ireland): Where Java actually sits in Irish computing education, and how to learn it properly at school, in college or at work.
+- [App development course in Ireland](/app-development-course-ireland): Building and shipping real mobile apps, with two Irish public apps read as worked examples.
 - [Coding classes in Dublin](/best-coding-class-in-dublin): The city and county, from Swords to Tallaght, with a project on Dublin Bikes data.
 
 **Counties and council areas:** [Dún Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown)
