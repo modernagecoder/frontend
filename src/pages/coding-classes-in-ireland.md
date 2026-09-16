@@ -765,7 +765,7 @@ Pages for Irish places and for the questions Irish families ask most, each writt
 - [Coding classes in Galway](/best-coding-class-in-galway): The walking city, with a project on a seventeen-row file that can still be got wrong four ways.
 - [Coding classes in Waterford](/best-coding-class-in-waterford): Ireland's oldest city, with a project about a dataset nobody licensed and what to do about that.
 
-**Counties and council areas:** [Dún Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown) · [County Wexford](/coding-classes-in-county-wexford) · [County Louth](/coding-classes-in-county-louth) · [County Carlow](/coding-classes-in-county-carlow) · [County Laois](/coding-classes-in-county-laois) · [County Kildare](/coding-classes-in-county-kildare) · [County Meath](/coding-classes-in-county-meath) · [County Wicklow](/coding-classes-in-county-wicklow) · [Fingal](/coding-classes-in-fingal)
+**Counties and council areas:** [Dún Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown) · [County Wexford](/coding-classes-in-county-wexford) · [County Louth](/coding-classes-in-county-louth) · [County Carlow](/coding-classes-in-county-carlow) · [County Laois](/coding-classes-in-county-laois) · [County Kildare](/coding-classes-in-county-kildare) · [County Meath](/coding-classes-in-county-meath) · [County Wicklow](/coding-classes-in-county-wicklow) · [Fingal](/coding-classes-in-fingal) · [South Dublin](/coding-classes-in-south-dublin)
 
 <!-- ireland-pages:end -->
 

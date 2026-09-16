@@ -10894,5 +10894,82 @@
       "Any Dublin Airport passenger count: only the operator's stated planning ambition is quoted, and it is labelled as such.",
       "Anything owned by the Dublin city or Dun Laoghaire-Rathdown pages."
     ]
+  },
+  "coding-classes-in-south-dublin": {
+    "market": "South Dublin",
+    "bodyClass": "cg-sdb",
+    "pageType": "governorate",
+    "curriculumAuthority": "South Dublin, one of the four Dublin local authorities rather than a county. The council states that it came into existence on 1 January 1994, operates in an area of 222.74 square kilometres, and had 301,075 people living in 100,364 homes at the 2022 census, an 8 percent increase on 2016, with an average age of 37.2, lower than Leinster at 37.6, Dublin City at 38.6 and the State at 38.8, and home ownership at 66.5 percent. CSO table F1016 gives seven electoral areas that sum to exactly 301,075: Lucan 55,785, Clondalkin 52,878, Rathfarnham-Templeogue 52,805, Tallaght South 43,644, Firhouse-Bohernabreena 37,643, Tallaght Central 36,178 and Palmerstown-Fonthill 22,142. DERIVED, and labelled as ours: the two Tallaght areas together hold 79,822 people, an electoral area figure rather than a town. Tallaght, Clondalkin and Lucan have no standalone census town populations, because the 2022 tables fold them into the Dublin city and suburbs built-up area. Small towns that are published: Saggart 4,573 with an average age of 30.4 and 33.4 percent aged under 15, the youngest in the Dublin region; Rathcoole 5,792 at 5,270.4 persons per sq km across 1.1 sq km, average age 35.7; Newcastle 4,526 at 1,363.7 per sq km, average age 32.8. From the CSO Dublin profiles, using only sentences naming South Dublin: the largest non-Irish groups are Polish at 5,739 and Romanian at 4,943; the largest dual citizenships Irish-Nigerian at 1,220 and Irish-Polish at 1,176; 6,517 people moved into the area in the previous year, 2,297 from within Ireland and 4,220 from outside the State, with a further 11,375 moving within it; 1,943 Travellers were recorded in 2022, with no 2016 comparison published for South Dublin; over 137,100 people at work, almost 103,700 full time and over 18,700 part time; labour force participation 63 percent, 58 percent for women and 69 percent for men; wholesale and retail the largest sector at almost 18,500 workers; over 75,900 never working from home against almost 46,600 who do at least part of the time, including almost 13,300 for five days; of 122,000 commuters, just over 69,000 driving, more than 15,200 by bus, just over 4,000 by train, DART or Luas, nearly 6,900 walking and over 5,200 cycling; an average journey time of 30.6 minutes, the same as 2016; almost 10,900 third-level students commuting, most by bus; Irish speakers rising from almost 91,000 to just over 98,000, 36 percent of those aged three and over; just over 84,000 people holding a third-level qualification, stated as a count with no percentage published for South Dublin; nearly 51,400 people, 27 percent, completing education at upper secondary level against 26 percent nationally; and the average age at which full-time education ended rising to 20.5. Gov.ie, 4 January 2018: three first-phase Leaving Certificate Computer Science schools are here, Colaiste Bride in Clondalkin, Colaiste Phadraig in Lucan and Adamstown Community College, with Adamstown confirmed as South Dublin by the council's own description of it as a planned urban development in the north of its area delivering over 9,000 homes. TU Dublin Tallaght: an 18 hectare site between Old Blessington Road, Belgard Road and Greenhills Road, over 5,000 students, D24 FKT9. Tallaght University Hospital, D24 NR0A, opened 21 June 1998 from the amalgamation of the Adelaide, the Meath and the National Children's Hospital, with 562 beds, 12 theatres and 14 critical care beds; its own page states two different campus acreages and two different catchment figures, so neither is used.",
+    "localProject": "One dataset, two licences. South Dublin County Council publishes Parking Fines Issued 2024 among 233 datasets. The national open data portal page states \"Licensed under: Creative Commons Attribution 4.0\", while the council's own ArcGIS hub item records licenseInfo as CC-BY-SA, a different licence carrying a ShareAlike obligation. Both surfaces belong to the same council and describe the same file, and the difference decides whether a derived work must itself be licensed alike. The teaching output is a source note recording both readings, the date checked, the interpretation used, being the stricter of the two, and an email to the publisher asking which governs. The same file also contains thirteen rows for twelve months, the thirteenth being a Total row carrying identical columns whose values equal the twelve months exactly, at 10,486 tickets, so a naive sum returns 20,972; this is mentioned in a single line because the Fingal page owns the embedded-total trap in depth.",
+    "requiredMentions": [
+      "301,075",
+      "222.74",
+      "100,364",
+      "55,785",
+      "52,878",
+      "79,822",
+      "5,739",
+      "4,943",
+      "6,517",
+      "1,943",
+      "30.6 minutes",
+      "D24 FKT9",
+      "Saggart"
+    ],
+    "sources": [
+      {
+        "claim": "South Dublin County Council: \"South Dublin County Council came into existence on the 1st January 1994 and operates in an area of 222.74 square kilometres. South Dublin has a population of 301,075 people living in 100,364 homes according to the 2022 census, an 8% population increase\"; \"The average age for the county is 37.2 years ... while the home ownership rate is 66.5%.\"",
+        "url": "https://www.sdcc.ie/en/services/our-council/about-us/"
+      },
+      {
+        "claim": "CSO table F1016: Lucan 55,785, Clondalkin 52,878, Rathfarnham-Templeogue 52,805, Tallaght South 43,644, Firhouse-Bohernabreena 37,643, Tallaght Central 36,178 and Palmerstown-Fonthill 22,142, summing to 301,075.",
+        "url": "https://data.cso.ie/table/F1016"
+      },
+      {
+        "claim": "CSO tables F1013 and F1015: Saggart 4,573 with average age 30.4 and 33.4% under 15; Rathcoole 5,792 at 5,270.4 per sq km; Newcastle 4,526 at 1,363.7 per sq km; no separate Tallaght, Clondalkin or Lucan town rows exist for 2022.",
+        "url": "https://data.cso.ie/table/F1015"
+      },
+      {
+        "claim": "CSO Profile 5, Dublin: \"The largest groups in South Dublin were Polish citizens (5,739 people) and Romanian citizens (4,943)\"; \"In South Dublin the largest dual-Irish citizenships were Irish-Nigerian (1,220 people) followed by Irish-Polish (1,176)\"; 6,517 people moved into South Dublin in the previous year; \"there were 1,943 in South Dublin\" for Travellers in 2022.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligiondublin"
+      },
+      {
+        "claim": "CSO Profile 7, Dublin: \"over 137,100 people working in South Dublin\"; participation 63%; \"In South Dublin almost 103,700 were in full-time employment while over 18,700 were working part-time\"; \"In South Dublin the average journey time in April 2022 was 30.6 minutes, the same as 2016\"; commuting and home-working splits as quoted.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutingdublin"
+      },
+      {
+        "claim": "CSO Profile 8, Dublin: \"In South Dublin the number of Irish speakers grew from almost 91,000 to just over 98,000. This was 36% of those aged three years and over\"; \"just over 84,000 people in South Dublin\" holding a third-level qualification; 27% completing at upper secondary level against 26% nationally.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationdublin"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: the first-phase Leaving Certificate Computer Science list includes \"Coláiste Bríde / New Road, Clondalkin, Dublin 22\", \"Colaiste Phadraig / Roselawn, Lucan, Co. Dublin\" and \"Adamstown Community College / Station Rd, Adamstown, Co. Dublin\".",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "South Dublin County Council on Adamstown: \"a planned urban development in the north of South Dublin County Council, which has the aim of delivering over 9,000 residential units\".",
+        "url": "https://www.sdcc.ie/en/services/planning-building-control/strategic-development-zones/adamstown/"
+      },
+      {
+        "claim": "TU Dublin Tallaght: \"Situated on the southwest side of the city and has over 5,000 students. The campus is located on an 18-hectare site between Old Blessington Road, Belgard Road and Greenhills Road\"; address \"TU Dublin, Blessington Road, Tallaght, Dublin 24, D24 FKT9\".",
+        "url": "https://www.tudublin.ie/explore/our-campuses/tallaght/"
+      },
+      {
+        "claim": "Tallaght University Hospital: \"The Hospital opened on June 21st 1998 through the amalgamation of three independent voluntary hospitals\"; \"562 beds, 12 theatres, and 14 Critical Care beds\"; address Tallaght, Dublin D24 NR0A. The same page states two different campus acreages and two different catchment figures.",
+        "url": "https://www.tuh.ie/about-us/"
+      },
+      {
+        "claim": "Parking Fines Issued 2024 SDCC: the data.gov.ie page states \"Licensed under: Creative Commons Attribution 4.0\" while the council's own hub item records licenseInfo as CC-BY-SA; the file holds twelve monthly rows totalling 10,486 tickets plus a thirteenth Total row carrying the same value.",
+        "url": "https://data.gov.ie/dataset/parking-fines-issued-2024-sdcc"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Dublin-wide figure covering all four local authorities presented as a South Dublin figure.",
+      "A standalone population for Tallaght, Clondalkin or Lucan: the census publishes none for 2022.",
+      "A 2016 comparison or percentage change for Travellers in South Dublin: the release states only the 2022 count.",
+      "A third-level qualification rate for South Dublin: only a headcount is published, never a percentage.",
+      "A South Dublin population density from the CSO: none is published, and the council's own area and population are quoted separately instead.",
+      "The hospital's campus acreage or catchment: its own page gives two different figures for each.",
+      "Anything owned by the Dublin city, Dun Laoghaire-Rathdown or Fingal pages."
+    ]
   }
 }
