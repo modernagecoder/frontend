@@ -891,3 +891,4 @@
 .cg-root.cg-dub  { --cg-accent: #8F3736; --cg-accent-soft: rgba(143,55,54,.10); }   /* Dublin: a red-brick terrace red from the solver, clear of both Irish greens and of every other Ireland preview page */
 .cg-root.cg-dlr  { --cg-accent: #2A5B88; --cg-accent-soft: rgba(42,91,136,.10); }   /* Dun Laoghaire-Rathdown: a Dublin Bay blue from the solver for the county of the DART coast, separated from the Dublin red, both Irish greens and every other Ireland preview page */
 .cg-root.cg-crk  { --cg-accent: #7A2C58; --cg-accent-soft: rgba(122,44,88,.10); }   /* Cork: a deep plum from the solver, clear of both Irish greens and of every other Ireland page */
+.cg-root.cg-lmk  { --cg-accent: #712712; --cg-accent-soft: rgba(113,39,18,.10); }   /* Limerick: a deep brick-red brown from the solver, clear of both Irish greens and of every other Ireland page */

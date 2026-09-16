@@ -2646,4 +2646,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-cork /src/pages/best-coding-class-in-cork.html 200
 /best-coding-class-in-cork.md /src/pages/best-coding-class-in-cork.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-limerick /src/pages/best-coding-class-in-limerick.html 200
+/best-coding-class-in-limerick.md /src/pages/best-coding-class-in-limerick.md 200
 /* /src/pages/404.html 404
