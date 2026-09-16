@@ -12429,5 +12429,71 @@
       "Weighted averages, non-response rankings and speaker definitions as projects: the Leinster, Munster and Connacht pages own those.",
       "County detail repeated from the Cavan, Donegal and Monaghan pages, which carry it and are linked."
     ]
+  },
+  "best-coding-class-in-swords": {
+    "market": "Swords",
+    "bodyClass": "cg-swd",
+    "pageType": "city",
+    "curriculumAuthority": "Swords, the built-up area \"Swords, Co Dublin\" in Fingal, from the CSO Census 2022 Small Area Population town tables (TOWN22), read 17 September 2026. SAP2022T2T1TOWN22 by birthplace: usual residents 40,458; born Ireland 30,184, United Kingdom 1,559, Poland 1,337, India 725, other EU 3,364, rest of world 3,289. SAP2022T15T2TOWN22: households 13,643, broadband 12,233, other 153, no internet 405, not stated 852. SAP2022T11T1TOWN22 travel to work, total 20,536: car driver 10,438, bus minibus or coach 3,299, work mainly at or from home 2,200, on foot 1,324, bicycle 366, train DART or Luas 143, van 801, car passenger 748, motorcycle 138, other 38, not stated 1,041; travel to school, college or childcare, total 10,560: car passenger 3,915, on foot 3,345, bus 1,883. SAP2022T11T2TOWN22 time leaving home, aged 5 and over, total 27,496: before 06:30 2,668, not stated 2,492. SAP2022T11T3TOWN22 journey time: 1 hour to under 1.5 hours 2,252, 1.5 hours and over 703. SAP2022T11T4TOWN22: all working persons 20,536, work from home 7,005. SAP2022T11T5TOWN22: children under 15 in childcare 2,843. SAP2022T14T1TOWN22 persons at work, both sexes, total 20,683: commerce and trade 5,755, professional services 4,667, transport and communications 3,438. SAP2022T8T1TOWN22 principal economic status: student 3,169. In every TOWN22 table the row labelled State is the sum of the 867 built-up areas; in SAP2022T2T1TOWN22 the 867 rows sum exactly to 3,582,870 usual residents, against a State total of 5,084,879 in SAP2022T2T1PROV; in SAP2022T15T2TOWN22 that row gives 1,317,616 households with 1,083,309 broadband and 95,677 no internet, against the true State 1,836,728, 1,457,883 and 159,866 in SAP2022T15T2CTY. Fingal County Council contact page: \"Fingal County Council County Hall, Main Street, Swords County Dublin K67 X8Y2\", \"County Hall is located opposite Swords Castle on the northern end of Main Street\", served by Dublin Bus routes 33, 33a, 33b, 41, 41b, 41c, 41x, 43 and 102, Swords Express from Eden Quay via Port Tunnel and LocalLink route 196. Department of Education, 4 January 2018, saved copy read 16 September 2026: first-phase Leaving Certificate Computer Science schools include \"Loreto College / Swords, Co. Dublin\" and \"St. Finian's Community College / Swords, Co. Dublin\".",
+    "localProject": "Compared with what? The row labelled State in the CSO Census 2022 town tables is not the State. Summing all 867 built-up area rows of SAP2022T2T1TOWN22 reproduces it exactly, 3,582,870 usual residents, which is 70.5 percent of the true State population of 5,084,879 from SAP2022T2T1PROV, so the row means all towns combined and excludes 1,502,009 people living outside built-up areas. Using household broadband, by our arithmetic: Swords 12,233 of 13,643, 89.7 percent; the town-table State row 1,083,309 of 1,317,616, 82.2 percent; the true State 1,457,883 of 1,836,728, 79.4 percent from SAP2022T15T2CTY. Swords' lead is 7.4 points against the town row and 10.3 points against the real national figure. No internet: Swords 3.0 percent, town row 7.3, State 8.7. Output: the summation that proves what the row covers, both comparisons side by side, and a sentence naming each benchmark in full. The trap is a benchmark whose one-word label claims wider coverage than it has; it is distinct from the Kerry and Fingal doubling traps, where a total row is summed with its parts, because here the total is correct and only its label misleads.",
+    "requiredMentions": [
+      "40,458",
+      "30,184",
+      "13,643",
+      "12,233",
+      "20,536",
+      "10,438",
+      "3,299",
+      "2,668",
+      "7,005",
+      "3,169",
+      "K67 X8Y2",
+      "3,582,870"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T2T1TOWN22, usually resident population by birthplace for Swords, Co Dublin: total 40,458, Ireland 30,184, United Kingdom 1,559, Poland 1,337, India 725, other EU 3,364, rest of world 3,289; the row labelled State totals 3,582,870, equal to the sum of all 867 towns.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T2T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T15T2TOWN22, households with internet access for Swords, Co Dublin: total 13,643, broadband 12,233, other 153, no 405, not stated 852; State row 1,317,616 total, 1,083,309 broadband, 95,677 no.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T15T2CTY, households with internet access by administrative county, Ireland: total 1,836,728, broadband 1,457,883, no 159,866.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2CTY/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T2T1PROV, usually resident population, Ireland total 5,084,879.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T2T1PROV/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T1TOWN22, means of travel for Swords, Co Dublin: to work total 20,536, car driver 10,438, bus 3,299, mainly at or from home 2,200, on foot 1,324, bicycle 366, train DART or Luas 143; to school, college or childcare total 10,560, car passenger 3,915, on foot 3,345, bus 1,883.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T11T2TOWN22 and SAP2022T11T3TOWN22 for Swords, Co Dublin: before 06:30 2,668 of 27,496 with 2,492 not stated; State row before 06:30 150,256 of 2,254,664 with 258,435 not stated; journeys of 1 hour to under 1.5 hours 2,252 and 1.5 hours and over 703.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T11T4TOWN22, SAP2022T11T5TOWN22, SAP2022T14T1TOWN22 and SAP2022T8T1TOWN22 for Swords, Co Dublin: 20,536 working persons of whom 7,005 work from home; 2,843 children under 15 in childcare; 20,683 at work, commerce and trade 5,755, professional services 4,667, transport and communications 3,438; 3,169 students.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T14T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Fingal County Council contact page: \"Fingal County Council County Hall, Main Street, Swords County Dublin K67 X8Y2\"; \"County Hall is located opposite Swords Castle on the northern end of Main Street\"; Dublin Bus routes 33, 33a, 33b, 41, 41b, 41c, 41x, 43 and 102, \"Swords Express from Eden Quay via Port Tunnel\" and \"LocalLink Route 196 from Knocksedan to Swords\".",
+        "url": "https://www.fingal.ie/contact-us"
+      },
+      {
+        "claim": "Department of Education press release of 4 January 2018, saved copy read 16 September 2026: the forty first-phase Leaving Certificate Computer Science schools include \"Loreto College / Swords, Co. Dublin\" and \"St. Finian's Community College / Swords, Co. Dublin\".",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      }
+    ],
+    "rejectedClaims": [
+      "Treating the row labelled State in any TOWN22 table as the national figure: it is the sum of the 867 built-up areas.",
+      "Repeating the Swords town population 40,776 or the Swords LEA figure 48,739 as mentions: the Fingal page owns them.",
+      "Any claim that Dublin Airport or any named employer explains Swords' industry mix: the census gives broad groups only, so no cause is asserted.",
+      "Any figure fetched from gov.ie on 17 September 2026: automated requests were refused and no workaround was attempted.",
+      "Any claim about Swords schools teaching computer science today: only the 2018 first-phase list is cited."
+    ]
   }
 }

@@ -769,6 +769,8 @@ Pages for Irish places and for the questions Irish families ask most, each writt
 
 **Provinces:** [Leinster](/coding-and-ai-classes-in-leinster) · [Munster](/coding-and-ai-classes-in-munster) · [Connacht](/coding-and-ai-classes-in-connacht) · [Cavan, Donegal and Monaghan](/coding-and-ai-classes-in-ulster)
 
+**Towns:** [Swords](/best-coding-class-in-swords)
+
 <!-- ireland-pages:end -->
 
 Real shipped student projects
