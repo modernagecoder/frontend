@@ -2654,4 +2654,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-galway /src/pages/best-coding-class-in-galway.html 200
 /best-coding-class-in-galway.md /src/pages/best-coding-class-in-galway.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-waterford /src/pages/best-coding-class-in-waterford.html 200
+/best-coding-class-in-waterford.md /src/pages/best-coding-class-in-waterford.md 200
 /* /src/pages/404.html 404

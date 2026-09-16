@@ -10184,5 +10184,96 @@
       "Any claim about which Galway schools teach Leaving Certificate Computer Science today: no current official list was found.",
       "Anything owned by the Cork, Limerick or Dublin pages, including their datasets and census figures."
     ]
+  },
+  "best-coding-class-in-waterford": {
+    "market": "Waterford",
+    "bodyClass": "cg-wfd",
+    "pageType": "city",
+    "curriculumAuthority": "Waterford, Census 2022 (CSO): city and suburbs 60,079, labelled by the CSO as spanning Counties Waterford and Kilkenny, with 54,313 of those residents in Waterford City and County Council and 5,766 in Kilkenny County Council; 29,525 male and 30,554 female; area 50.4 sq km, density 1,191.7 per sq km, average age 38.7, 18.9 percent aged under 15. Waterford City and County Council area 127,363, up 10 percent or 11,187 since 2016, and there is no separate city-only council. Three local electoral areas cover the city: Waterford City South 26,011, Tramore and Waterford City West 24,803, Waterford City East 24,397. The densest electoral division is The Glen at 11,099.4 per sq km with 1,068 residents. City and suburbs work: 27,704 workers, 56 percent of them resident in the city and suburbs, with Tramore the largest commuter town at nearly 2,000 workers. County figures: non-Irish citizens 11 percent, UK 2,678, Polish 2,058, Indian 831, Croatian 590; 13,908 people worked from home at least one day a week, 25 percent against a national 32 percent; third-level qualifications rose from almost 27,200 in 2016 to just over 34,900, which is 41 percent of those aged 15 and over against a national 45 percent; the Waterford Gaeltacht grew from just over 1,800 to 2,063, up 274 or 14 percent, the fastest growth of any Gaeltacht area; 1,252 people travelled to work by bus against 73 by train, and 2,278 secondary students by bus against 8 by train. Gov.ie, 4 January 2018: Mount Sion CBS, Barrack Street was the only Waterford school in the first-phase Leaving Certificate Computer Science list. Addresses: City Hall, The Mall X91 PK15; Plunkett Station X91 A2PV; Bausch and Lomb, Cork Road Industrial Estate X91 V383; Sanofi, Old Kilmeaden Road X91 TP27. South East Technological University: established 1 May 2022 as Ireland's fifth technological university from Waterford Institute of Technology and IT Carlow, 18,500 students across Waterford, Carlow, Wexford and Wicklow, with Cork Road and College Street campuses in Waterford. Bausch and Lomb: more than 1,500 staff as of July 2021, the Biotrue lens developed in Waterford, and forty years on the site. Sanofi: manufacturing site at the IDA Industrial Park, Old Kilmeaden Road. Plunkett Station: Dublin Heuston services and a Waterford to Limerick Junction line through Clonmel, with a car park normally full from early morning Tuesday to Thursday. Waterford Greenway: opened 25 March 2017 on the fiftieth anniversary of the last passenger train between Dungarvan and Waterford City, and the first Irish greenway to receive a Green Flag Award, in 2020; the council describes Waterford as Ireland's Oldest City.",
+    "localProject": "A dataset with no licence, and text that lies. Waterford City and County Council publishes a school-gathered Placenames Survey as two ArcGIS layers: one of 407 rows and one of 503, with fields for the Irish name, English name, feature type, meaning, townland, source and school. Measured: all 407 rows of the smaller layer appear in the larger, 96 rows appear only in the larger, and every one of those 96 carries the same authorisation value, so the answer to how many names were collected depends on which layer is loaded. Fifty townland values contain zero-width or non-breaking characters, so 227 distinct raw townland strings collapse to 216 once those are stripped and spacing is normalised, and eleven places would otherwise be double counted; eleven Irish names carry leading or trailing spaces. Feature types are bilingual coded tokens, with 40.5 percent of rows coded as Other, and the free-text Other field spells one category five different ways. School labels are truncated at 31 characters and split by curly against straight apostrophes, one school appearing 26 times under one form and once under the other. 18 rows have no English name, 40 no meaning and 123 no source. Critically, NO licence is declared on either layer, and the larger layer records an editor's personal email address on every row, so the page reports counts and structure only and reproduces no row content.",
+    "requiredMentions": [
+      "60,079",
+      "127,363",
+      "54,313",
+      "5,766",
+      "1,191.7",
+      "26,011",
+      "27,704",
+      "13,908",
+      "2,063",
+      "407",
+      "503",
+      "227",
+      "X91 PK15",
+      "Mount Sion CBS"
+    ],
+    "sources": [
+      {
+        "claim": "CSO tables F1013 and F1015: Waterford city and suburbs, Counties Waterford and Kilkenny, 60,079 people (29,525 male, 30,554 female), area 50.4 sq km, density 1,191.7, average age 38.7, 18.9% aged under 15.",
+        "url": "https://data.cso.ie/table/F1015"
+      },
+      {
+        "claim": "CSO table F1010: of the built-up city, 54,313 residents are in Waterford City and County Council and 5,766 in Kilkenny County Council; the council area totals 127,363.",
+        "url": "https://data.cso.ie/table/F1010"
+      },
+      {
+        "claim": "CSO table F1016: Waterford City South 26,011, Tramore-Waterford City West 24,803, Waterford City East 24,397.",
+        "url": "https://data.cso.ie/table/F1016"
+      },
+      {
+        "claim": "CSO table F1011: The Glen is the densest Waterford electoral division at 11,099.4 persons per sq km with 1,068 residents.",
+        "url": "https://data.cso.ie/table/F1011"
+      },
+      {
+        "claim": "CSO summary results, Waterford: \"the population of Waterford grew by 10% to 127,363, which means the number of people in the county rose by 11,187\"; 13,908 people worked from home at least one day a week, 25% against a national 32%.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensusofpopulation2022-summaryresultswaterford/"
+      },
+      {
+        "claim": "CSO Profile 7, Waterford: \"Waterford city and suburbs had 27,704 workers, of whom 56% lived in the city and suburbs. The largest commuter town was Tramore\"; 1,252 travelling by bus against 73 by train; 2,278 students by bus and 8 by train.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutingwaterford/"
+      },
+      {
+        "claim": "CSO Profile 5, Waterford: non-Irish citizens 11% of the county, with UK 2,678, Polish 2,058, Indian 831 and Croatian 590.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligionwaterford"
+      },
+      {
+        "claim": "CSO Profile 8, Waterford: third-level qualifications 41% of those aged 15 and over against a national 45%; the Waterford Gaeltacht rose from just over 1,800 to 2,063, an increase of 274 or 14%, the highest rate of growth in Gaeltacht areas.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationwaterford"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: the first-phase Leaving Certificate Computer Science list contains \"Mount Sion CBS / Barrack Street, Waterford\".",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "Higher Education Authority: \"South East Technological University is Ireland's fifth technological university following its establishment on 1 May 2022\", with 18,500 students across Waterford, Carlow, Wexford and Wicklow.",
+        "url": "https://hea.ie/higher-education-institutions/south-east-technological-university/"
+      },
+      {
+        "claim": "Department of Enterprise, July 2021: \"The Waterford site currently employs more than 1,500 people\"; \"The Biotrue lens was developed by the team in Waterford\".",
+        "url": "https://enterprise.gov.ie/en/news-and-events/department-news/2021/july/20210721.html"
+      },
+      {
+        "claim": "Waterford City and County Council: City Hall, The Mall, Waterford X91 PK15; and the Waterford Greenway \"was officially opened on March 25th 2017 ... on the 50th anniversary of the last passenger train journey between Dungarvan and Waterford City\", the first Irish greenway to receive a Green Flag Award, in 2020.",
+        "url": "https://waterfordcouncil.ie/waterford-greenway-celebrates-fifth-birthday/"
+      },
+      {
+        "claim": "Iarnród Éireann, Waterford Plunkett: eircode X91 A2PV, Dublin Heuston and Limerick Junction services, and a car park \"normally full from early in the morning on Tuesdays to Thursdays\".",
+        "url": "https://www.irishrail.ie/en-ie/station/waterford-plunkett"
+      },
+      {
+        "claim": "Waterford City and County Council Placenames Survey, published as two public ArcGIS feature layers with 407 and 503 rows and no declared licence.",
+        "url": "https://share-open-data-waterfordcouncil.hub.arcgis.com/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim that the placenames survey is openly licensed: no licence is declared on either layer, so the page says exactly that.",
+      "Reproducing row content from the survey, including placenames: the larger layer carries an editor's personal email address, so counts and structure only are used.",
+      "A current Bausch and Lomb headcount: the 1,500 figure is from July 2021 and is dated here.",
+      "A Sanofi Waterford headcount: none was verified.",
+      "Linking Mount Sion CBS to the Mount Sion electoral division: not checked.",
+      "A visitor figure for the Waterford Greenway: the published number comes from a 2022 post and is not treated as current.",
+      "Summing electoral divisions labelled Waterford to reach the council total: the sum falls short, so no such claim is made.",
+      "Anything owned by the Cork, Limerick, Galway or Dublin pages."
+    ]
   }
 }
