@@ -78,7 +78,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 43 | coding-classes-in-county-kerry (kry, #1F5E52) | cg- county | 3,314 | 5.1% vs coding-classes-in-county-galway | what to publish when the source disagrees with itself | 62,887 vs 62,877 in two CSO releases; F1010 row named Ireland is really Kerry | c8b65e43 |
 | 44 | coding-classes-in-county-clare (cla, #0D5A36) | cg- county | 3,307 | 4.8% vs coding-classes-in-county-kerry | the label on the tin | catalogue says 7 datasets: 5 topics, 2 of them Limerick's | 056de786 |
 | 45 | coding-classes-in-county-tipperary (tip, #5E3B76) | cg- county | 3,342 | 5.2% vs coding-classes-in-county-kerry | no data or no permission | council publishes 0 datasets; its own portal blocks automated access | 4d52bf20 |
-| 46 | coding-classes-in-county-kilkenny (kkn, #8C4A00) | cg- county | 3,355 | 1.2% vs coding-classes-in-county-tipperary | the blanks are the data | missingness tracks road class; legend text leaked into the category column | (this commit) |
+| 46 | coding-classes-in-county-kilkenny (kkn, #8C4A00) | cg- county | 3,355 | 1.2% vs coding-classes-in-county-tipperary | the blanks are the data | missingness tracks road class; legend text leaked into the category column | 8fca831a |
+| 47 | coding-classes-in-county-offaly (ofy, #3B5E1C) | cg- county | 3,411 | 2.2% vs coding-classes-in-county-kilkenny | the number that is not published at your size | no county broadband figure exists; only the 4-county Midland region | (this commit) |
 
 ## Skipped (kill criterion)
 
