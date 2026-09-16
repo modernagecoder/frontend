@@ -12312,5 +12312,64 @@
       "Any claim about what non-responding households actually have: the census does not say, so both assumptions are described and neither is asserted.",
       "County-level detail repeated from the Munster county and city pages, which carry it and are linked."
     ]
+  },
+  "coding-and-ai-classes-in-connacht": {
+    "market": "Connacht",
+    "bodyClass": "cg-cnt",
+    "pageType": "governorate",
+    "curriculumAuthority": "Connacht, one of four provinces and not an administrative unit; figures are only those the CSO publishes at province level in Census 2022 Small Area Population province tables, read on 17 September 2026. SAP2022T2T1PROV: Connacht usually resident population 582,891; born in Ireland 472,955; born in the United Kingdom 45,148; State total 5,084,879. SAP2022T3T1PROV: Connacht aged 3 and over 571,654, able to speak Irish 244,788, not able 293,060, not stated 33,806; State 1,873,997 able of 4,975,713. SAP2022T3T2PROV Irish speakers in Connacht by frequency, both sexes: daily only within the education system 65,180; daily within and daily outside 3,993; daily within and weekly outside 844; daily within and less often outside 441; daily within and never outside 195; daily only outside the education system 12,973; weekly only outside 15,900; less often only outside 83,282; never 55,826; not stated 6,154; all Irish speakers 244,788, to which the categories sum exactly. SAP2022T15T2PROV: Connacht 217,015 households, broadband 164,270. SAP2022T11T4PROV: Connacht 255,297 working persons, 70,500 working from home. SAP2022T11T3PROV: Connacht under 15 minutes 124,460, not stated 35,686, total 360,119; State under 15 minutes 936,520, not stated 342,270, total 3,186,961. The CSO Gaeltacht definition names seven counties, two of which, Galway and Mayo, are in Connacht. Connacht pages: Galway city, County Galway, Leitrim, Mayo, Roscommon, Sligo.",
+    "localProject": "What counts as a speaker. SAP2022T3T1PROV records 244,788 Connacht residents aged 3 and over who can speak Irish, of 571,654, about 42.8 percent by our arithmetic against about 37.7 percent in the State. SAP2022T3T2PROV divides the same 244,788 by frequency, and its categories sum to exactly that total. Four defensible headline counts follow, all by our arithmetic on published categories: 244,788 who can speak Irish; 188,962 once the 55,826 who never speak it are removed; 83,626 who speak it daily in any setting, being daily only within education 65,180, daily only outside 12,973, daily both 3,993, and the daily-within combinations 844, 441 and 195; and 16,966 who speak it daily outside the education system, being 12,973 plus 3,993. The largest and smallest differ by a factor of about fourteen. Output: a one-sentence definition written before each count, with the check that the categories sum to the total. Nothing compares census years, so the County Mayo count-versus-rate lesson is not reused, and nothing ranks provinces by an alternative denominator, which is the Munster page's lesson.",
+    "requiredMentions": [
+      "582,891",
+      "571,654",
+      "244,788",
+      "55,826",
+      "12,973",
+      "3,993",
+      "65,180",
+      "83,282",
+      "15,900",
+      "472,955",
+      "45,148",
+      "124,460"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T3T2PROV, Irish speakers aged 3 years and over by frequency of speaking Irish, by province, both sexes: Connacht daily only within the education system 65,180, daily within and daily outside 3,993, daily within and weekly outside 844, daily within and less often outside 441, daily within and never outside 195, daily only outside 12,973, weekly only outside 15,900, less often only outside 83,282, never 55,826, not stated 6,154, all Irish speakers 244,788.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T3T2PROV/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T3T1PROV, population aged 3 years and over by ability to speak Irish, by province: Connacht yes 244,788, no 293,060, not stated 33,806, total 571,654; Ireland yes 1,873,997 of 4,975,713.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T3T1PROV/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T2T1PROV, usually resident population by birthplace, by province: Connacht total 582,891, born Ireland 472,955, born United Kingdom 45,148.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T2T1PROV/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T15T2PROV, households with internet access by province: Connacht 217,015 households, of which 164,270 broadband.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2PROV/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T4PROV, working from home by province: Connacht 255,297 working persons, 70,500 working from home.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T4PROV/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T3PROV, journey time to work, school or college by province: Connacht under 15 minutes 124,460, not stated 35,686, total 360,119; Ireland under 15 minutes 936,520, not stated 342,270, total 3,186,961.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T3PROV/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 Profile 8 editor's note: the Gaeltacht comprises electoral divisions in the counties of Cork, Donegal, Galway, Kerry, Mayo, Meath and Waterford.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationmayo/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any single figure presented as the number of Irish speakers in Connacht without its definition.",
+      "Any Connacht figure built by summing county figures ourselves: province figures come only from CSO province tables.",
+      "A province ranking on an alternative definition of speaker: ranking changes under a methodological choice are the Munster page's lesson.",
+      "Any comparison with 2016: count-versus-rate change over time is the County Mayo page's lesson.",
+      "Weighted averages, and percentage points against per cent: the Leinster and Ulster pages own those.",
+      "County detail repeated from the Connacht county and city pages, which carry it and are linked."
+    ]
   }
 }

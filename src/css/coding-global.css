@@ -921,3 +921,4 @@
 .cg-root.cg-mgh  { --cg-accent: #35507C; --cg-accent-soft: rgba(53,80,124,.10); }   /* County Monaghan: a drumlin-country blue from the solver, separate from the western and midland blues in the cluster */
 .cg-root.cg-lns  { --cg-accent: #3D4F8A; --cg-accent-soft: rgba(61,79,138,.10); }   /* Leinster: an eastern blue from the solver, darker than the blues used on individual Leinster county pages so the province reads as a parent */
 .cg-root.cg-mns  { --cg-accent: #8A3B2E; --cg-accent-soft: rgba(138,59,46,.10); }   /* Munster: a southern brick red from the solver, deeper than any red on the individual Munster county and city pages */
+.cg-root.cg-cnt  { --cg-accent: #1E6B5C; --cg-accent-soft: rgba(30,107,92,.10); }   /* Connacht: a western sea green from the solver, set apart from the greens and teals of the individual Connacht county pages */
