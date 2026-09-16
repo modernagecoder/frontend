@@ -762,6 +762,7 @@ Pages for Irish places and for the questions Irish families ask most, each writt
 - [Coding classes in Dublin](/best-coding-class-in-dublin): The city and county, from Swords to Tallaght, with a project on Dublin Bikes data.
 - [Coding classes in Cork](/best-coding-class-in-cork): The southern capital, from Ballincollig to Mayfield, with a project on the city's own footfall counters.
 - [Coding classes in Limerick](/best-coding-class-in-limerick): The Shannon city, with a project on the bridge counter whose late-night hours quietly disappear.
+- [Coding classes in Galway](/best-coding-class-in-galway): The walking city, with a project on a seventeen-row file that can still be got wrong four ways.
 
 **Counties and council areas:** [Dún Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown)
 
