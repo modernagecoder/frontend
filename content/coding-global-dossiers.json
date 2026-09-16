@@ -11423,5 +11423,81 @@
       "An address for the well known Clonmel drinks manufacturer: its own site did not resolve when checked, and addresses are not taken from third parties.",
       "Treating Clonmel's 18,369 as a wholly Tipperary figure: the CSO registers the built-up area as spanning Tipperary and Waterford."
     ]
+  },
+  "coding-classes-in-county-kilkenny": {
+    "market": "County Kilkenny",
+    "bodyClass": "cg-kkn",
+    "pageType": "governorate",
+    "curriculumAuthority": "County Kilkenny, Census 2022 (CSO Kilkenny releases): population 104,160, up 4,928 (5 percent) since 2016; 52,277 female and 51,883 male, 99 males per 100 females; average age 39.7 against 37.9 in 2016; 21,094 children aged 15 and under. Birthplace: 59,811 people (58 percent) born in the county, 28,716 (28 percent) elsewhere in the State, 14,308 (14 percent) outside the State. Towns (F1013): Kilkenny city 27,184 at 2,347.5 per sq km over 11.6 sq km; Castlecomer 1,496 at 1,363.7 over 1.1 sq km. Local electoral areas (F1016): Kilkenny 29,653 and Castlecomer 24,863, the latter more than sixteen times the Castlecomer town figure because the area is named after the town but covers a wide rural stretch. Among places of at least 500 people, Paulstown is youngest at average age 33 and Freshford oldest at 45.3. Citizenship: non-Irish citizens 8 percent of the county, largest groups UK 1,645, Polish 1,566, Indian 528, Romanian 414; dual Irish citizens up from 1,604 in 2016 to 2,628. Irish language: 41,037 people aged three and over could speak Irish, up by more than 2,300, which is 42.8 percent of that group against 41.5 percent in 2016, with no Gaeltacht in the county. Education: third level qualifications up from almost 24,900 in 2016 to nearly 30,600, a rate of 44 percent just below the national 45 percent. Work and travel (Profile 7): almost 46,200 at work; more than 29,100 never working from home against just over 12,900 who do at least some of the time, 28 percent of the workforce against 32 percent nationally, including almost 3,100 five days a week, 2,226 one day and 1,891 two days; 40,560 travelling to work, of whom 27,846 drive, 498 take the bus, 164 the train, 3,537 walk and 565 cycle, with Kilkenny among the top ten towns for commuter cycling at 3.6 percent; average journey time 27 minutes against 25.6 in 2016; human health and social work the largest sector at more than 6,300 workers. FINDING, stated plainly: no County Kilkenny school appears anywhere on the forty-school first-phase Leaving Certificate Computer Science list of 4 January 2018, established by reading the published list in full; the nearest listed school is in Waterford city, a different county. Addresses quoted from their owners: Glanbia plc registered office, Leggetsrath Business Park, Carlow Road, Kilkenny, R95 YTD5, and Tirlan Co-operative Society Limited, Abbey Quarter, Kilkenny, R95 DXR1, both from Glanbia's own 2026 annual general meeting notice; Kilkenny Castle, The Parade, Kilkenny City, R95 YRK1, described by the Office of Public Works as the principal seat of the Butlers for almost 600 years.",
+    "localProject": "Missingness is structural, not accidental. Measured in Kilkenny County Council's own Road Traffic Counts 2016 file, published under Creative Commons Attribution 4.0: cross-tabulating road classification against missing values shows the gaps track the class exactly. All 11 local primary and all 4 local secondary sites report average daily traffic and leave annual average daily traffic blank; all 6 motorway sites do the reverse; regional and national roads are mixed. The blanks therefore record which counting methodology applied, so mean, median or forward fill imputation would manufacture traffic nobody measured. The same file carries a contaminated category column: the road class field, which should hold only M, NP, NS, LP, LS and R, also contains four rows of legend text that leaked out of the key, including one describing heavy commercial vehicles as a percentage and misspelling commercial, so a naive group-by invents four road types. Two further traps come from the council's quarterly purchase order file: every one of the 60 values carries a minus sign, a bookkeeping convention rather than income, and one supplier is a road maintenance company whose registered name begins with the word TOTAL, so a filter that deletes rows containing \"total\" in order to strip summary lines destroys a genuine transaction. A third: 10 of the 60 rows share an order number with another row and none is an error, the same order number being legitimately reused across invoices and periods, so removing duplicates by order number discards ten real transactions. NOT USED, because the Kerry and Fingal pages already own it: the same purchase order file embeds its grand total as a 60th data row, doubling a naive column sum. No monetary figure from either file appears on the page.",
+    "requiredMentions": [
+      "104,160",
+      "27,184",
+      "59,811",
+      "21,094",
+      "41,037",
+      "27,846",
+      "3.6%",
+      "R95 YTD5",
+      "R95 YRK1",
+      "24,863",
+      "2,628",
+      "6,300"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Kilkenny summary press statement, 30 May 2023: \"the population of Kilkenny grew by 5% to 104,160, which means the number of people in the county rose by 4,928 between April 2016 and April 2022\"; \"52,277 were female and 51,883 were male\"; average age 39.7 against 37.9; \"There were 21,094 children aged 15 and under in Kilkenny in April 2022.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensusofpopulation2022-summaryresultskilkenny/"
+      },
+      {
+        "claim": "CSO Profile 1 Kilkenny: \"Kilkenny was the largest town, with a population of 27,184 in April 2022\"; Paulstown the youngest town at average age 33 and Freshford the oldest at 45.3; 58 percent (59,811) born in the county, 28 percent (28,716) elsewhere in the State and 14 percent (14,308) outside it.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile1-populationdistributionandmovementskilkenny/"
+      },
+      {
+        "claim": "CSO PxStat table F1013: the standalone rows \"Kilkenny, Co Kilkenny\" 27,184 at 2,347.5 per sq km and \"Castlecomer, Co Kilkenny\" 1,496 at 1,363.7, kept separate from the row \"Waterford city and suburbs, Counties Waterford & Kilkenny\". Table F1016: Kilkenny LEA 29,653 and Castlecomer LEA 24,863.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F1013/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Profile 5 Kilkenny: non-Irish citizens 8 percent of the county, UK 1,645, Polish 1,566, Indian 528, Romanian 414; dual Irish citizens up from 1,604 in 2016 to 2,628.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligionkilkenny"
+      },
+      {
+        "claim": "CSO Profile 7 Kilkenny: \"There were almost 46,200 people at work in Kilkenny in April 2022. Of these, more than 29,100 never worked from home while just over 12,900 people worked from home at least some of the time\"; \"There were 40,560 people travelling to work in the county\"; 27,846 driving, 498 by bus, 164 by train, 3,537 walking, 565 cycling; \"Kilkenny was among the top 10 towns with the highest percentage of work commuters cycling at 3.6%\"; average journey time 27 minutes against 25.6 in 2016; \"Human Health and Social Work Activities accounted for the largest number of workers in the county with more than 6,300.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutingkilkenny"
+      },
+      {
+        "claim": "CSO Profile 8 Kilkenny: \"The number of people (aged three and over) who could speak Irish in Kilkenny increased by more than 2,300 to 41,037 in Census 2022. This was 42.8% of the county's population aged three and over\"; third level up from almost 24,900 to nearly 30,600, a rate of 44 percent just below the national 45 percent.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationkilkenny"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: the full forty-school first-phase Leaving Certificate Computer Science list contains no County Kilkenny address, established by reading the published list in full.",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "Glanbia plc Notice of Annual General Meeting, 25 March 2026: \"REGISTERED OFFICE ... Leggetsrath Business Park, Carlow Road, Kilkenny, R95 YTD5\", and Tirlan Co-operative Society Limited at \"Abbey Quarter, Kilkenny, R95 DXR1\".",
+        "url": "https://www.glanbia.com/sites/glanbia-plc/files/glanbia/investors/agm/2026/Glanbia-plc-Notice-of-AGM-25-March-2026.pdf"
+      },
+      {
+        "claim": "Office of Public Works, Heritage Ireland: \"Built in the twelfth century, Kilkenny Castle was the principal seat of the Butlers, earls, marquesses and dukes of Ormond for almost 600 years\", at \"The Parade, Kilkenny City, R95 YRK1\".",
+        "url": "https://www.heritageireland.ie/places-to-visit/kilkenny-castle/"
+      },
+      {
+        "claim": "data.gov.ie, Kilkenny County Council publisher page: 18 datasets, each licensed Creative Commons Attribution 4.0, including the road traffic counts and quarterly purchase order files used in the project.",
+        "url": "https://data.gov.ie/organization/kilkenny-county-council"
+      },
+      {
+        "claim": "Kilkenny Road Traffic Counts 2016, measured by us: all 11 local primary and all 4 local secondary rows report average daily traffic with annual average daily traffic blank; all 6 motorway rows do the reverse; the road class column also contains four rows of legend text, one misspelling commercial.",
+        "url": "https://data.gov.ie/dataset/kilkenny-road-traffic-counts-2016"
+      }
+    ],
+    "rejectedClaims": [
+      "The purchase order file's embedded grand total, which doubles a naive column sum: the County Kerry and Fingal pages already carry that trap.",
+      "Any euro figure from the council's spending or purchase order files, kept off a page that also states our fees.",
+      "The 5,766 people counted under Kilkenny County Council as part of Waterford city and suburbs: that figure belongs to the Waterford page.",
+      "Any claim that Kilkenny schools do not teach computer science today: the finding concerns the January 2018 first-phase list only.",
+      "A county land area or population density figure for Kilkenny: the CSO publishes density only at electoral division and town level.",
+      "Any claim about how many Kilkenny residents commute into Waterford: no such table was found at a primary source.",
+      "Any assumption that the traffic file's missing values could be imputed: the missingness tracks road classification exactly."
+    ]
   }
 }
