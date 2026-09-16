@@ -11722,5 +11722,81 @@
       "A county land area or population density figure for Mayo: no such row exists in the CSO tables checked.",
       "Any claim that a low participation rate reflects attitudes to work: the county's older age profile puts more people outside the labour force by definition."
     ]
+  },
+  "coding-classes-in-county-donegal": {
+    "market": "County Donegal",
+    "bodyClass": "cg-dgl",
+    "pageType": "governorate",
+    "curriculumAuthority": "County Donegal, whose council area is the county, Census 2022 (CSO Donegal releases, Republic of Ireland only, with no NISRA or Northern Ireland figure used anywhere): population 167,084, up 7,892 (5 percent) since 2016; average age 40.1 against 38.5 in 2016; 34,092 children aged 15 and under, of whom 10,972 (32 percent) were in childcare against 33 percent nationally. Birthplace: 113,828 people (69 percent) born in the county, 13,838 (8 percent) elsewhere in the State and 36,998 (22 percent) outside the State, above the national 20 percent. Towns: Letterkenny 22,549 at 850.2 per sq km over 26.5 sq km, average age 36.5 with 21.5 percent under 15; Buncrana 6,971 at 703.0 over 9.9 sq km, average age 39.2 with 21.6 percent under 15. Local electoral areas: Letterkenny 32,266, Buncrana 22,618. Among places of at least 500 people, Manorcunningham is youngest at average age 33.3 and Doiri Beaga oldest at 46.1. Citizenship: non-Irish citizens 7 percent of the county, largest group UK at 4,276, then Polish 1,609, Indian 1,128 and American 335; dual Irish citizens up from 2,405 in 2016 to 4,307. Work: more than 67,900 at work, up 16 percent since 2016; almost 8,100 unemployed, a rate of 11 percent against 18 percent in 2016, which the CSO calls one of the highest rates in the country, with long-term unemployment at 6 percent also among the highest, and Lifford, among towns of at least 1,500 people, having one of the highest unemployment rates in the country at 22 percent of which 12 percent was long term; labour force participation 57 percent against 61 percent nationally; 15,350 people working from home at least one day a week, 23 percent of the workforce against 32 percent nationally; average journey time 23.6 minutes against 22.1 in 2016, with Donegal commuters among the least likely in the country to cycle at 0.5 percent. Education and Irish: third level qualifications up from almost 32,600 in 2016 to more than 41,300, which is 37 percent of those aged 15 and over, up from 31 percent and below the national 45 percent; county-wide 59,130 people aged three and over could speak Irish, up by almost 2,400, or 38.5 percent of that group, of whom 11,621 spoke it very well, 20 percent of speakers against 10 percent nationally, 18,937 well and 27,122 not well. GAELTACHT, a defined sub-county area kept separate from county figures: population up from over 23,300 to 24,220, including 23,554 aged three and over of whom 15,549 could speak Irish, while the number able to speak Irish in the Donegal Gaeltacht fell 2 percent between the censuses. Schools: two Donegal entries on the gov.ie first-phase Leaving Certificate Computer Science list of 4 January 2018, Abbey Vocational School at The Glebe, Donegal Town, and Saint Eunan's College, Letterkenny. Higher education: ATU Donegal Letterkenny, Port Road, F92 FC93, described by the university as over 18,000 square metres of educational and support accommodation. DOCUMENTED ABSENCE: none of the five Donegal census releases contains the terms Northern Ireland, border, Derry or Strabane, so no cross-border commuting figure is published for Donegal in them and none is quoted.",
+    "localProject": "Small, tidy and complete is not the same as safe. Donegal County Council publishes one dataset, Co. Donegal Municipal Districts, under Creative Commons Attribution 4.0, and unlike every other council file checked in this phase it downloads: 397 bytes, five data rows, nine columns, and zero empty cells across all 45, a count verified rather than assumed. It nonetheless carries four distinct faults. One, a name collision between a part and its container: one of the five municipal districts is named Donegal, identical to the county, so an exact-match filter for Donegal returns that district's 1,083.68 square kilometres instead of the county total of 4,835.72 produced by summing all five, and there is no grand total row to catch the error. Two, mixed units under one naming convention: only the first numeric column, Area_sq_kms, is in square kilometres, while the other six numeric columns hold road network lengths in kilometres with no unit marker of their own. Three, a corrupted field name: one column heading lost a character during export and cannot be interpreted from the file alone. Four, the verified absence of missing values, recorded as a measurement. The deliverable is a data note stating what each column holds, in what unit, which cannot be trusted, and one warning sentence about the row called Donegal.",
+    "requiredMentions": [
+      "167,084",
+      "22,549",
+      "6,971",
+      "34,092",
+      "59,130",
+      "24,220",
+      "15,549",
+      "F92 FC93",
+      "32,266",
+      "4,307",
+      "41,300",
+      "113,828"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Donegal summary press statement, 30 May 2023: \"the population of Donegal grew by 5% to 167,084, which means the number of people in the county rose by 7,892 between April 2016 and April 2022\"; average age 40.1 against 38.5; \"There were 34,092 children aged 15 and under in Donegal in April 2022. Of these, 10,972 (32%) were in childcare\"; \"In Donegal, 15,350 people (aged 15 and over) worked from home at least one day a week in 2022. This represented 23% of the workforce.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensusofpopulation2022-summaryresultsdonegal/"
+      },
+      {
+        "claim": "CSO Profile 1 Donegal: \"Letterkenny was the largest town, with a population of 22,549 in April 2022\"; Manorcunningham the youngest town at average age 33.3 and Doiri Beaga the oldest at 46.1; 69 percent (113,828) born in the county, 8 percent (13,838) elsewhere in the State and 22 percent (36,998) outside it against a national 20 percent.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile1-populationdistributionandmovementsdonegal/"
+      },
+      {
+        "claim": "CSO PxStat tables F1013 and F1015: Buncrana 6,971 at 703.0 per sq km over 9.9 sq km, average age 39.2 with 21.6 percent under 15; Letterkenny at 850.2 per sq km over 26.5 sq km, average age 36.5 with 21.5 percent under 15. Table F1016: Letterkenny LEA 32,266 and Buncrana LEA 22,618.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F1013/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Profile 5 Donegal: \"In Donegal non-Irish citizens accounted for 7% of the county's population. Among the non-Irish residents, the largest group were UK citizens (4,276 people), followed by Polish citizens (1,609), Indian (1,128) and American (335)\"; dual Irish citizens up from 2,405 in 2016 to 4,307.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligiondonegal/"
+      },
+      {
+        "claim": "CSO Profile 7 Donegal: \"The unemployment rate was 11% compared with 18% in 2016. This was one of the highest rates in the country\"; long-term unemployment 6 percent; \"Lifford had one of the highest rates of unemployment at 22%, of which 12% was long-term unemployment\"; \"The labour force participation rate was 57% in Donegal compared with 61% nationally\"; more than 67,900 at work, up 16 percent; \"an average journey time of 23.6 minutes compared with 22.1 minutes in 2016\"; \"Commuters in Donegal were among the least likely to cycle to work at just 0.5%\".",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutingdonegal/"
+      },
+      {
+        "claim": "CSO Profile 8 Donegal: third level up from almost 32,600 to more than 41,300, 37 percent of those aged 15 and over against a national 45 percent; \"The population of the Donegal Gaeltacht increased from over 23,300 to 24,220. This included 23,554 people aged three and over and of these 15,549 could speak Irish. The number of people who could speak Irish in the Donegal Gaeltacht fell by 2% between the censuses in 2016 and 2022\"; county-wide 59,130 Irish speakers, up almost 2,400, 38.5 percent of that group; \"In Donegal, 11,621 people who could speak Irish spoke it very well (20%), while 18,937 could speak it well (32%), and 27,122 people did not speak it well (46%). In Ireland overall, 10% of Irish speakers could speak the language very well.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationdonegal/"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: Donegal has two entries on the first-phase Leaving Certificate Computer Science list, \"Abbey Vocational School, The Glebe, Donegal Town, Co. Donegal\" and \"Saint Eunan's College, Letterkenny, Co. Donegal\".",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "Atlantic Technological University: \"The Letterkenny campus is at the heart of the university town. It includes over 18,000 square meters of educational and support accommodation\", address \"ATU Donegal Letterkenny, Port Road, Letterkenny, Co. Donegal, F92 FC93, Ireland.\"",
+        "url": "https://www.atu.ie/campus/donegal-letterkenny"
+      },
+      {
+        "claim": "data.gov.ie, Co. Donegal Municipal Districts, licensed Creative Commons Attribution 4.0: a 397 byte CSV of five municipal districts, measured by us as containing a district named Donegal at 1,083.68 sq km against a five-district total of 4,835.72 sq km, six road-length columns in kilometres alongside one area column in square kilometres, one column name corrupted on export, and zero missing values across all 45 cells.",
+        "url": "https://data.gov.ie/dataset/co-donegal-municipal-districts"
+      },
+      {
+        "claim": "CSO Internet Coverage and Usage in Ireland 2023: the Border region, comprising Cavan, Donegal, Leitrim, Monaghan and Sligo, at 91 percent of households with an internet connection and 79 percent on fixed broadband, the lowest regional fixed broadband rate in the country. No county-level figure is published.",
+        "url": "https://www.cso.ie/en/releasesandpublications/ep/p-isshict/internetcoverageandusageinireland2023/householdinternetconnectivity/"
+      },
+      {
+        "claim": "Donegal County Council contact page: gives a telephone number and email but no postal address or eircode, so none is printed for the council.",
+        "url": "https://www.donegalcoco.ie/contact/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Northern Ireland figure, statistic, school or service: this cluster covers the Republic of Ireland only.",
+      "Any cross-border commuting figure for Donegal: none of the five Donegal census releases mentions Northern Ireland, the border, Derry or Strabane.",
+      "The Gaeltacht count-versus-rate framing as a project: the County Mayo page owns it, so Donegal states its Gaeltacht figures without that structure.",
+      "Regional broadband limits as a project: the County Offaly page owns that, so the Border region figure appears here in one cell, labelled regional.",
+      "A Donegal County Council postal address or eircode: its own contact page does not publish one.",
+      "A CSO county land area or density figure for Donegal: the 4,835.72 sq km figure on this page is our own sum of the council's five municipal districts and is described as such.",
+      "Any ranking of Donegal's two listed schools against other counties: the count is stated without a comparison we cannot sustain as more pages ship."
+    ]
   }
 }
