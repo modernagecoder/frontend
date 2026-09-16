@@ -647,3 +647,4 @@
 .ag-root.ag-tyc { --ag-accent: #732D39; --ag-accent-soft: rgba(115,45,57,.09); }   /* Transition Year, Ireland: a deep claret from the solver, separated from both Irish greens and every other Ireland page */
 .ag-root.ag-asi { --ag-accent: #7A3800; --ag-accent-soft: rgba(122,56,0,.09); }   /* AI agents for students, Ireland: a deep rust from the solver, separated from both Irish greens and every other Ireland page */
 .ag-root.ag-osc { --ag-accent: #8F4800; --ag-accent-soft: rgba(143,72,0,.09); }   /* Summer, Ireland: a deep amber-rust from the solver, separated from both Irish greens and every other Ireland page */
+.ag-root.ag-ltt { --ag-accent: #006660; --ag-accent-soft: rgba(0,102,96,.09); }   /* Thinking door, Ireland: a deep teal from the solver, separated from both Irish greens and every other Ireland page */

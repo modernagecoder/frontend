@@ -747,6 +747,7 @@ Pages for Irish places and for the questions Irish families ask most, each writt
 - [Transition Year coding course in Ireland](/transition-year-coding-course-ireland): A coding project that lasts the whole of Transition Year, fitted to the new Programme Statement and to your school's own TY plan.
 - [AI agents course for students in Ireland](/ai-agents-course-for-students-ireland): For students in Ireland who want to build AI agents as their own work, inside Irish academic integrity guidance.
 - [Online coding summer course in Ireland](/online-coding-summer-course-ireland): A live online coding course across the Irish summer holidays, for primary and secondary students, from June to the week school reopens.
+- [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-ireland): For families who want a class that builds thinking rather than tool use, set against the key skills and competencies Irish schools already teach.
 - [Coding classes in Dublin](/best-coding-class-in-dublin): The city and county, from Swords to Tallaght, with a project on Dublin Bikes data.
 
 **Counties and council areas:** [Dún Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown)

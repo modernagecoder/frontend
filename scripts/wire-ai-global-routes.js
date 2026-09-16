@@ -151,6 +151,7 @@ const SLUGS = [
   'transition-year-coding-course-ireland',
   'ai-agents-course-for-students-ireland',
   'online-coding-summer-course-ireland',
+  'learn-to-think-not-just-use-ai-tools-ireland',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -381,6 +382,7 @@ const LLMS_LABELS = {
   'transition-year-coding-course-ireland': 'Transition Year coding course, Ireland',
   'ai-agents-course-for-students-ireland': 'AI agents course for students, Ireland',
   'online-coding-summer-course-ireland': 'Online coding summer course, Ireland',
+  'learn-to-think-not-just-use-ai-tools-ireland': 'Learn to think, not just use AI tools, Ireland',
 };
 
 function wireLlms(slugs) {
