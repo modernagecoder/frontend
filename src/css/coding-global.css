@@ -905,3 +905,4 @@
 .cg-root.cg-sdb  { --cg-accent: #57306B; --cg-accent-soft: rgba(87,48,107,.10); }   /* South Dublin: a deep plum-violet from the solver, distinct from the Dublin city red and from every other Ireland page */
 .cg-root.cg-wmh  { --cg-accent: #1E4D8C; --cg-accent-soft: rgba(30,77,140,.10); }   /* County Westmeath: a deep lake blue from the solver for a county of loughs, distinct from both Irish greens and every other Ireland page */
 .cg-root.cg-ckc  { --cg-accent: #7E3F1D; --cg-accent-soft: rgba(126,63,29,.10); }   /* County Cork: a burnt umber from the solver, deliberately distinct from the plum used for Cork city and from every other Ireland page */
+.cg-root.cg-gwc  { --cg-accent: #2D4B73; --cg-accent-soft: rgba(45,75,115,.10); }   /* County Galway: a slate blue from the solver, set apart from the tone used on the Galway city page and from the other western counties */
