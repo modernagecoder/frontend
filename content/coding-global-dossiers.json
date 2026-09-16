@@ -11348,5 +11348,80 @@
       "An eircode for the Cliffs of Moher: none is published on the operator's own contact page.",
       "Any claim that Shannon Airport employment figures are Clare employment figures: the airport is a site, not a county statistic."
     ]
+  },
+  "coding-classes-in-county-tipperary": {
+    "market": "County Tipperary",
+    "bodyClass": "cg-tip",
+    "pageType": "governorate",
+    "curriculumAuthority": "County Tipperary, a single council area since the former North and South Riding councils merged, Census 2022 (CSO Tipperary releases): population 167,895, up 8,342 (5 percent) since 2016; 84,256 female and 83,639 male, 99 males per 100 females; average age 40.3 against 38.6 in 2016; 33,286 children aged 15 and under. Birthplace: 100,745 people (60 percent) born in the county, 42,013 (25 percent) elsewhere in the State and 24,223 (15 percent) outside the State, up from 13 percent in 2016. Towns (F1013): Clonmel 18,369 at 986.8 per sq km over 18.6 sq km, registered by the CSO as \"Clonmel, Counties Tipperary & Waterford\" because its built-up area crosses the county line; Nenagh 9,895 at 1,143.5 over 8.7 sq km; Thurles 8,185 at 1,362.1 over 6.0 sq km. Local electoral areas (F1016): Clonmel 25,003, Nenagh 23,354, Thurles 19,980. Among places of at least 500 people, Newport is youngest at average age 34.5 and Clogheen oldest at 43.4. Citizenship: non-Irish citizens 9 percent of the county, largest groups Polish 3,255, UK 2,926, Romanian 1,187, Lithuanian 848; dual Irish citizens up from 2,329 in 2016 to 3,904. Irish language: 66,003 people aged three and over could speak Irish, an increase of 612, which is 43 percent of that population against 43.6 percent in 2016, with no Gaeltacht area in the county. Education: third level qualifications up from almost 34,900 in 2016 to slightly more than 43,200, a rate of 38 percent against 45 percent nationally. Work and travel (Profile 7): more than 73,200 at work; more than 47,300 never working from home against almost 17,700 who do at least some of the time, 24 percent of the workforce against 32 percent nationally, including almost 3,900 five days a week, 3,068 one day and 2,553 two days; 65,656 travelling to work, of whom 44,595 drive, 528 take the bus, \"a rate of 1%, the lowest in the country\", and 312 the train; average journey time 27.1 minutes against 25.6 in 2016; manufacturing the largest sector at more than 10,400 workers. Schools and sites: Presentation Secondary school, Clonmel, the only Tipperary entry on the gov.ie first-phase Leaving Certificate Computer Science list of 4 January 2018, quoted with the department's own lower-case spelling; TUS Thurles Campus, Nenagh Road, eircode E41 PC92, and TUS Clonmel Campus, eircode E91 D896; the Rock of Cashel, described by the Office of Public Works as possessing \"the most impressive cluster of medieval buildings in Ireland\", including a round tower, a high cross, a Romanesque chapel, a Gothic cathedral, an abbey, the Hall of the Vicars Choral and a fifteenth-century Tower House, at eircode E25 KX44.",
+    "localProject": "The difference between no data and no permission. Tipperary County Council's publisher page on data.gov.ie states zero datasets, read 16 September 2026. Its two open data pages on its own site returned a bot-protection block page instead of content on every attempt, stating that access was refused and that the site uses a security service to protect itself from online attacks. No attempt was made to work around that block and no content behind it is claimed. The project therefore contains no downloaded file. Learners produce a written record instead: what was sought, where, what was returned, an exact quotation of the refusal, the alternative source used with its licence, and a paragraph separating what could be answered from what could not. The teaching point is that absent and forbidden are different findings, that a block is a statement of terms by the owner rather than an obstacle to be defeated, and that documenting an obstacle and proposing a legitimate route is what distinguishes professional research from a workaround that becomes somebody else's problem later.",
+    "requiredMentions": [
+      "167,895",
+      "18,369",
+      "9,895",
+      "100,745",
+      "33,286",
+      "66,003",
+      "44,595",
+      "27.1 minutes",
+      "E41 PC92",
+      "E91 D896",
+      "43,200",
+      "10,400"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Tipperary summary press statement, 30 May 2023: \"the population of Tipperary grew by 5% to 167,895, which means the number of people in the county rose by 8,342 between April 2016 and April 2022\"; \"84,256 were female and 83,639 were male\"; average age 40.3 against 38.6; \"There were 33,286 children aged 15 and under in Tipperary in April 2022.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensusofpopulation2022-summaryresultstipperary/"
+      },
+      {
+        "claim": "CSO Profile 1 Tipperary: \"Clonmel was the largest town, with a population of 18,369 in April 2022\"; Newport the youngest town at average age 34.5 and Clogheen the oldest at 43.4; 60 percent (100,745) born in the county, 25 percent (42,013) elsewhere in the State and 15 percent (24,223) outside it.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile1-populationdistributionandmovementstipperary/"
+      },
+      {
+        "claim": "CSO PxStat table F1013: the Clonmel row is labelled \"Clonmel, Counties Tipperary & Waterford\", population 18,369 at 986.8 per sq km over 18.6 sq km; Nenagh 9,895 at 1,143.5 over 8.7 sq km; Thurles 8,185 at 1,362.1 over 6.0 sq km. Table F1016: Clonmel LEA 25,003, Nenagh LEA 23,354, Thurles LEA 19,980.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F1013/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Profile 5 Tipperary: non-Irish citizens 9 percent of the county, Polish 3,255, UK 2,926, Romanian 1,187, Lithuanian 848; dual Irish citizens up from 2,329 in 2016 to 3,904.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligiontipperary"
+      },
+      {
+        "claim": "CSO Profile 7 Tipperary: \"There were more than 73,200 people at work in Tipperary in April 2022. More than 47,300 never worked from home, while almost 17,700 people worked from home at least some of the time\"; \"There were 65,656 people travelling to work in the county\"; 44,595 driving; \"There were 528 people travelling by bus, a rate of 1%, the lowest in the country\"; 312 by train; average journey time 27.1 minutes against 25.6 in 2016; \"Manufacturing accounted for the largest number of workers in the county at more than 10,400.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutingtipperary/"
+      },
+      {
+        "claim": "CSO Profile 8 Tipperary: \"The number of people (aged three and over) who could speak Irish in Tipperary increased by 612 to 66,003 in Census 2022. This was 43% of the county's population aged three and over\"; third level up from almost 34,900 in 2016 to slightly more than 43,200, a rate of 38 percent against 45 percent nationally.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationtipperary"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: the first-phase Leaving Certificate Computer Science list includes \"Presentation Secondary school / Clonmel, Co. Tipperary\", the only Tipperary entry, reproduced with the source's own lower-case spelling.",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "Technological University of the Shannon contact page: \"TUS Thurles Campus, Nenagh Road, Thurles, Co. Tipperary E41 PC92\" and \"TUS Clonmel Campus... Clonmel, Co. Tipperary E91 D896\".",
+        "url": "https://tus.ie/contact-us/"
+      },
+      {
+        "claim": "Office of Public Works, Heritage Ireland: the Rock of Cashel \"possesses the most impressive cluster of medieval buildings in Ireland. Among the monuments to be found there is a round tower, a high cross, a Romanesque chapel, a Gothic cathedral, an abbey, the Hall of the Vicars Choral and a fifteenth-century Tower House\", at \"St. Patrick's Rock of Cashel, Cashel, Co. Tipperary, E25 KX44\".",
+        "url": "https://www.heritageireland.ie/places-to-visit/rock-of-cashel/"
+      },
+      {
+        "claim": "data.gov.ie, Tipperary County Council publisher page: \"Datasets 0. Total Views 0 ... No results.\"",
+        "url": "https://data.gov.ie/organization/tipperary-county-council"
+      },
+      {
+        "claim": "Tipperary County Council's own open data pages returned a bot-protection block page on every attempt on 16 September 2026, stating that access was refused and that the site uses a security service to protect itself from online attacks. No content behind the block is claimed and no attempt was made to circumvent it.",
+        "url": "https://www.tipperarycoco.ie/information-technology/geographic-information-systems-data-access/tipperary-county-council-open"
+      }
+    ],
+    "rejectedClaims": [
+      "Any description of what Tipperary County Council's own open data pages contain: they returned a block page, so their contents are unknown.",
+      "The F1010 totals-that-are-also-rows doubling trap, which the County Kerry page already carries.",
+      "A county land area or population density figure for Tipperary: the CSO publishes density only at electoral division and town level.",
+      "Any county-to-county commuting destination figure: no such table was found at a primary source.",
+      "An address for the well known Clonmel drinks manufacturer: its own site did not resolve when checked, and addresses are not taken from third parties.",
+      "Treating Clonmel's 18,369 as a wholly Tipperary figure: the CSO registers the built-up area as spanning Tipperary and Waterford."
+    ]
   }
 }

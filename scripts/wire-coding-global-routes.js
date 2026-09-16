@@ -273,6 +273,7 @@ const MARKETS = [
   ['coding-classes-in-county-galway', 'County Galway, Ireland'],
   ['coding-classes-in-county-kerry', 'County Kerry, Ireland'],
   ['coding-classes-in-county-clare', 'County Clare, Ireland'],
+  ['coding-classes-in-county-tipperary', 'County Tipperary, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
