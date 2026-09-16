@@ -918,3 +918,4 @@
 .cg-root.cg-ltr  { --cg-accent: #7A4230; --cg-accent-soft: rgba(122,66,48,.10); }   /* County Leitrim: a russet from the solver, held apart from the browns used on the Munster and midland pages */
 .cg-root.cg-rsc  { --cg-accent: #2C5E44; --cg-accent-soft: rgba(44,94,68,.10); }   /* County Roscommon: a pasture green from the solver, set apart from the teals of the north west pages */
 .cg-root.cg-cvn  { --cg-accent: #863048; --cg-accent-soft: rgba(134,48,72,.10); }   /* County Cavan: a lake-country crimson from the solver, distinct from the wines and clarets of the midland pages */
+.cg-root.cg-mgh  { --cg-accent: #35507C; --cg-accent-soft: rgba(53,80,124,.10); }   /* County Monaghan: a drumlin-country blue from the solver, separate from the western and midland blues in the cluster */

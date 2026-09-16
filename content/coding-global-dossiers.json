@@ -12106,5 +12106,82 @@
       "Any headcount for a named Cavan employer: nothing beyond a headline could be verified at a primary source.",
       "The \"Cootehill Rd\" address as a substring trap project: County Longford owns that, so it is stated here only as a geography note."
     ]
+  },
+  "coding-classes-in-county-monaghan": {
+    "market": "County Monaghan",
+    "bodyClass": "cg-mgh",
+    "pageType": "governorate",
+    "curriculumAuthority": "County Monaghan, whose council area is the county, Census 2022 (CSO Monaghan releases, Republic of Ireland only): population 65,288, up 3,902 (6 percent) since 2016, against State growth of 8 percent; 32,394 female and 32,894 male, 102 males per 100 females; average age 38.7 against 37.4 in 2016 and a national 38.8; people aged 65 and over up 21 percent to 10,397. Birthplace: 52 percent (33,378) born in the county, 26 percent (16,753) elsewhere in the State and 23 percent (14,665) outside it, up from 21 percent and above the national 20 percent. Towns: Monaghan 7,894 at 1,097.6 per sq km over 7.2 sq km, average age 39.8, 18.9 percent under 15; Carrickmacross 5,745 at 1,351.4 over 4.3 sq km, the youngest at average age 37.1 with 21.9 percent under 15; Castleblayney 3,926, average age 38.5, 21.5 percent under 15; Emyvale the oldest at 41.5. Citizenship: non-Irish 11 percent, largest groups Lithuanian 2,011, Latvian 776, UK 713 and Polish 709; dual Irish citizens up from 775 to 1,427. Work and travel (Profile 7): nearly 28,600 at work, up 12 percent from more than 25,500; unemployment 8 percent against 13 percent; participation 61 percent, the same as nationally; manufacturing the largest sector at almost 4,400, then wholesale and retail at nearly 3,900 and health and social work at more than 3,000; 5,900 working from home at least some of the time, 21 percent, with workers in Monaghan \"among the least likely to work from home\"; 26,139 travelling to work, 17,160 by car, 375 by bus, 34 by train, 1,837 on foot up from 1,751, 193 by bicycle; average journey 26.9 minutes against 24.9 in 2016; \"Almost one in three working commuters in Clones walked to work, the second highest rate in the country\". The release contains no mention of Northern Ireland, cross-border travel, Armagh, Tyrone or Fermanagh. Education and Irish: third level up from nearly 12,400 to almost 15,400, a rate of 37 percent against 45 percent nationally; 154 PhD holders; average age of completing full time education up from 18.8 to 19.7; 23,571 people aged three and over could speak Irish, 39.3 percent; no Gaeltacht under the CSO's seven-county definition. School: Castleblayney College, Dublin Road, Castleblayney, the only Monaghan school on the gov.ie first-phase Leaving Certificate Computer Science list of 4 January 2018. Sites from their owners: Monaghan County Council, The Glen, Monaghan, H18 YT50; Rossmore Forest Park, which Coillte places circa 3.0 km south of Monaghan town, with a castle built in 1827 and demolished in 1974 and an avenue of yew trees running approximately 500 metres from the walled garden; the Patrick Kavanagh Centre, Inniskeen, whose own site states the exhibition is closed for refurbishment until further notice with tours by appointment, on a site whose newest dated content is from 2019.",
+    "localProject": "A dataset's description is a claim, and claims can be tested. Monaghan County Council's Bring Bank Locations dataset, one of 17 the council lists on data.gov.ie, is licensed Creative Commons Attribution 4.0 and contains 24 rows and 17 columns, matching the item's own statement that \"Currently there are 24 facilities in the county\". The ArcGIS item description states \"The Projection of this dataset is WGS84\". Measured: the X column runs from minus 806,986 to minus 731,973, impossible as degrees of longitude, and the item's spatialReference is WKID 102100, Web Mercator. Converting X and Y with the spherical Web Mercator formula, radius 6,378,137 metres, reproduces the file's own Lat and Long columns with a maximum difference of 0.000000 degrees across all 24 rows, proving the written description wrong and the numbers right. The file also carries Irish Grid and Irish Transverse Mercator pairs named accordingly. The teaching point is to treat documentation as a hypothesis to be tested against the data it describes, using magnitude as the first check and a second column that should agree as the proof. The page acknowledges that coordinate units also appear on the County Cork page, and distinguishes this project as a test of a specific written claim rather than an unexpected unit. A second instance is stated without being made a project: the Patrick Kavanagh Centre's own site says it is closed for refurbishment while its newest dated content is from 2019. Not used, because other pages own them: the Yes and No text fields (Galway city), the per-row Last_Updated_Date of 2025/01/09 predating the hosted layer's own creation in October 2025 (Cavan owns metadata dates), and the three electoral areas summing to 65,288 (County Galway).",
+    "requiredMentions": [
+      "65,288",
+      "7,894",
+      "5,745",
+      "3,926",
+      "10,397",
+      "23,571",
+      "17,160",
+      "26.9 minutes",
+      "H18 YT50",
+      "1,427",
+      "5,900",
+      "14,665"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Monaghan summary press statement, 30 May 2023: \"the population of Monaghan grew by 6% to 65,288, which means the number of people in the county rose by 3,902 between April 2016 and April 2022. Over the same period, Ireland's population grew by 8%\"; average age 38.7 against 37.4, with a national 38.8; \"32,394 were female and 32,894 were male, which means there were 102 males for every 100 females\"; \"This age group increased by 21% to 10,397 in Monaghan\"; \"In Monaghan, 5,900 people (aged 15 and over) worked from home at least one day a week in 2022. This represented 21% of the workforce.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensusofpopulation2022-summaryresultsmonaghan/"
+      },
+      {
+        "claim": "CSO Profile 1 Monaghan: \"Monaghan was the largest town, with a population of 7,894 in April 2022\"; \"Carrickmacross was the youngest, with an average of 37.1 years. The oldest was Emyvale, with an average age of 41.5 years\"; 52 percent (33,378) born in the county, 26 percent (16,753) elsewhere in the State, 23 percent (14,665) outside it, up from 21 percent.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile1-populationdistributionandmovementsmonaghan/"
+      },
+      {
+        "claim": "CSO PxStat tables F1013 and F1015: Monaghan 7,894 at 1,097.6 per sq km over 7.2 sq km, average age 39.8, 18.9 percent under 15; Carrickmacross 5,745 at 1,351.4 over 4.3 sq km, average age 37.1, 21.9 percent under 15; Castleblayney 3,926, average age 38.5, 21.5 percent under 15.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F1015/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Profile 5 Monaghan: \"In Monaghan non-Irish citizens accounted for 11% of the county's population. Among the non-Irish residents, the largest group were Lithuanian citizens (2,011 people) followed by Latvian citizens (776), the UK (713) and Polish (709)\"; dual Irish citizens up from 775 in 2016 to 1,427.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligionmonaghan/"
+      },
+      {
+        "claim": "CSO Profile 7 Monaghan: \"nearly 28,600 people were at work. This was an increase of 12%\"; \"The unemployment rate was 8% compared with 13% in 2016\"; \"The labour force participation rate was 61% in Monaghan which was the same as the figure nationally\"; \"Manufacturing accounted for the largest number of workers in the county at almost 4,400\"; \"Workers in Monaghan were thus among the least likely to work from home, with just 21% doing so\"; \"There were 26,139 people travelling to work in the county in April 2022. The majority of these drove to work, with 17,160 people driving to work by car\"; \"1,837 people walked to work, up from 1,751 in 2016\"; \"an average journey time of 26.9 minutes compared with 24.9 minutes in 2016\"; \"Almost one in three working commuters in Clones walked to work, the second highest rate in the country\". No mention of Northern Ireland or cross-border travel.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutingmonaghan/"
+      },
+      {
+        "claim": "CSO Profile 8 Monaghan: third level up from nearly 12,400 to almost 15,400, \"a rate of 37% compared with 45% nationally\"; \"There were 154 people in the county who held a PhD\"; average age of completing education up from 18.8 to 19.7; 23,571 people aged three and over able to speak Irish, 39.3 percent; the Gaeltacht defined as electoral divisions in seven counties not including Monaghan.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationmonaghan/"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: \"Castleblayney College / Dublin Road, Castleblayney, Co. Monaghan\" is the only Monaghan entry on the first-phase Leaving Certificate Computer Science list.",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "Monaghan County Council: \"Monaghan County Council, The Glen, Monaghan, Co. Monaghan, Ireland. H18 YT50\".",
+        "url": "https://monaghan.ie/contact-us/"
+      },
+      {
+        "claim": "Monaghan County Council Bring Bank Locations, licensed Creative Commons Attribution 4.0: item description \"The Projection of this dataset is WGS84\" and \"Currently there are 24 facilities in the county\"; spatialReference 102100; 24 rows, 17 columns; measured by us, X from minus 806,986 to minus 731,973, with Web Mercator conversion of X and Y matching the file's Lat and Long columns to 0.000000 degrees in all 24 rows.",
+        "url": "https://data.gov.ie/dataset/bring-bank-locations"
+      },
+      {
+        "claim": "Coillte, Rossmore Forest Park: \"A castle was constructed in 1827... Rossmore Castle was demolished in 1974\"; \"Located circa 3.0 Km south of Monaghan town\"; \"an avenue of yew trees which runs for approximately 500 meters from the walled garden\".",
+        "url": "https://www.coillte.ie/site/rossmore-forest-park/"
+      },
+      {
+        "claim": "Patrick Kavanagh Centre: \"Due to refurbishment works at the Patrick Kavanagh Centre, the exhibition will be closed until further notice\" and \"Tours can be arranged at anytime by prior appointment\", on a site carrying a 2019 copyright line and no dated content newer than October 2019.",
+        "url": "https://www.patrickkavanaghcountry.com/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Northern Ireland or cross-border commuting figure: the CSO Monaghan release contains none and this cluster covers the Republic only.",
+      "Any expectation about which nationalities work in a particular Monaghan industry: only the CSO's published citizenship ranking is used.",
+      "The Yes and No text columns in the bring bank file as a project: the Galway city page owns that trap.",
+      "The per-row update date predating the hosted layer as a project: the County Cavan page owns metadata dates.",
+      "The three local electoral areas summing exactly to 65,288: County Galway owns reconciliation.",
+      "Eircodes for the Patrick Kavanagh Centre or Rossmore Forest Park: neither publishes one on its own site.",
+      "Any claim that the Kavanagh Centre is currently closed or open: only its own published statement is reported, with the age of that site noted.",
+      "A county population density figure for Monaghan: no CSO release or table publishes one."
+    ]
   }
 }

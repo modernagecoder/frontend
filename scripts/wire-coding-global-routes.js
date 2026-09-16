@@ -283,6 +283,7 @@ const MARKETS = [
   ['coding-classes-in-county-leitrim', 'County Leitrim, Ireland'],
   ['coding-classes-in-county-roscommon', 'County Roscommon, Ireland'],
   ['coding-classes-in-county-cavan', 'County Cavan, Ireland'],
+  ['coding-classes-in-county-monaghan', 'County Monaghan, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
