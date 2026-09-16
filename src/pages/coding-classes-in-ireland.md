@@ -757,6 +757,7 @@ Pages for Irish places and for the questions Irish families ask most, each writt
 - [Data science course in Ireland](/data-science-course-ireland): Data science taught on Ireland's open data portal, including how to read a licence and how to spot a column that mixes units.
 - [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-ireland): The difference between prompting a model and training one, worked through on an Irish dataset with a baseline you have to beat.
 - [AI agents course for professionals in Ireland](/ai-agents-course-for-professionals-ireland): For professionals in Ireland building AI agents at work, with the national adoption figures read carefully.
+- [Java classes in Ireland](/java-classes-ireland): Where Java actually sits in Irish computing education, and how to learn it properly at school, in college or at work.
 - [Coding classes in Dublin](/best-coding-class-in-dublin): The city and county, from Swords to Tallaght, with a project on Dublin Bikes data.
 
 **Counties and council areas:** [Dún Laoghaire-Rathdown](/coding-classes-in-dun-laoghaire-rathdown)

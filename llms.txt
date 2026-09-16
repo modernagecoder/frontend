@@ -377,6 +377,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Data science course, Ireland: https://learn.modernagecoders.com/data-science-course-ireland
 - Learn to train AI, not just prompt it, Ireland: https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland
 - AI agents course for professionals, Ireland: https://learn.modernagecoders.com/ai-agents-course-for-professionals-ireland
+- Java classes, Ireland: https://learn.modernagecoders.com/java-classes-ireland
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

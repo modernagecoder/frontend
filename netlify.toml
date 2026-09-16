@@ -10060,6 +10060,18 @@
   to = "/src/pages/ai-agents-course-for-professionals-ireland.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/java-classes-ireland"
+  to = "/src/pages/java-classes-ireland.html"
+  status = 200
+
+[[redirects]]
+  from = "/java-classes-ireland.md"
+  to = "/src/pages/java-classes-ireland.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

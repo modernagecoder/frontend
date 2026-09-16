@@ -161,6 +161,7 @@ const SLUGS = [
   'data-science-course-ireland',
   'learn-to-train-ai-not-just-prompt-it-ireland',
   'ai-agents-course-for-professionals-ireland',
+  'java-classes-ireland',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -401,6 +402,7 @@ const LLMS_LABELS = {
   'data-science-course-ireland': 'Data science course, Ireland',
   'learn-to-train-ai-not-just-prompt-it-ireland': 'Learn to train AI, not just prompt it, Ireland',
   'ai-agents-course-for-professionals-ireland': 'AI agents course for professionals, Ireland',
+  'java-classes-ireland': 'Java classes, Ireland',
 };
 
 function wireLlms(slugs) {

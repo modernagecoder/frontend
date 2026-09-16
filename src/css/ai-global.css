@@ -657,3 +657,4 @@
 .ag-root.ag-dsi { --ag-accent: #336627; --ag-accent-soft: rgba(51,102,39,.09); }   /* Data science, Ireland: a deep leaf green from the solver, separated from the Irish flag greens and from every other Ireland page */
 .ag-root.ag-lta { --ag-accent: #384A7E; --ag-accent-soft: rgba(56,74,126,.09); }   /* Training AI, Ireland: a deep indigo from the solver, separated from both Irish greens and every other Ireland page */
 .ag-root.ag-apr { --ag-accent: #2B5B07; --ag-accent-soft: rgba(43,91,7,.09); }   /* AI agents for professionals, Ireland: a deep olive-green from the solver, separated from the Irish flag greens and from every other Ireland page */
+.ag-root.ag-jvi { --ag-accent: #00617F; --ag-accent-soft: rgba(0,97,127,.09); }   /* Java, Ireland: a deep petrol blue from the solver, separated from both Irish greens and every other Ireland page */
