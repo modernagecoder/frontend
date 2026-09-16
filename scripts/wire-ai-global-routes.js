@@ -153,6 +153,7 @@ const SLUGS = [
   'online-coding-summer-course-ireland',
   'learn-to-think-not-just-use-ai-tools-ireland',
   'problem-solving-skills-through-coding-ireland',
+  'best-coding-classes-for-adults-ireland',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -385,6 +386,7 @@ const LLMS_LABELS = {
   'online-coding-summer-course-ireland': 'Online coding summer course, Ireland',
   'learn-to-think-not-just-use-ai-tools-ireland': 'Learn to think, not just use AI tools, Ireland',
   'problem-solving-skills-through-coding-ireland': 'Problem solving skills through coding, Ireland',
+  'best-coding-classes-for-adults-ireland': 'Best coding classes for adults in Ireland',
 };
 
 function wireLlms(slugs) {

@@ -649,3 +649,4 @@
 .ag-root.ag-osc { --ag-accent: #8F4800; --ag-accent-soft: rgba(143,72,0,.09); }   /* Summer, Ireland: a deep amber-rust from the solver, separated from both Irish greens and every other Ireland page */
 .ag-root.ag-ltt { --ag-accent: #006660; --ag-accent-soft: rgba(0,102,96,.09); }   /* Thinking door, Ireland: a deep teal from the solver, separated from both Irish greens and every other Ireland page */
 .ag-root.ag-pss { --ag-accent: #004F69; --ag-accent-soft: rgba(0,79,105,.09); }   /* Problem solving door, Ireland: a deep marine blue from the solver, separated from both Irish greens and every other Ireland page */
+.ag-root.ag-bai { --ag-accent: #1B6A00; --ag-accent-soft: rgba(27,106,0,.09); }   /* Adults, Ireland: a deep forest green from the solver, separated from the Irish flag greens and from every other Ireland page */
