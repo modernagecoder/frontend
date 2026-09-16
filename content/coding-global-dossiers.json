@@ -10351,5 +10351,84 @@
       "A county-wide out-commuting total: not published in the profiles read.",
       "Anything owned by the city pages or by other county pages in this cluster."
     ]
+  },
+  "coding-classes-in-county-louth": {
+    "market": "County Louth",
+    "bodyClass": "cg-lth",
+    "pageType": "governorate",
+    "curriculumAuthority": "County Louth, Census 2022 (CSO): population 139,703, up 8 percent or 10,819 since 2016, with 70,796 female and 68,907 male; average age 38.2, up from 36.4; those aged 65 and over up 24 percent to 19,898; 67 percent of households owning and 28 percent renting; 59,140 people aged 15 and over at work, up 8,823 or 18 percent; unemployment 11 percent against 17 percent in 2016, recorded as the joint highest rate in the country, with long-term unemployment at 6 percent, also joint highest; almost 15,800 people working from home at least some of the time and more than 4,400 five days a week; 31,863 driving to work, an average journey of 28.9 minutes against 27.7 in 2016, and 7,418 people travelling an hour or more. Towns: Drogheda published as \"Drogheda, Counties Louth & Meath\" at 44,135, 2,486 per sq km across 17.8 sq km; Dundalk wholly within Louth at 43,112, average age 37.2, 21.4 percent aged under 15, 1,986.4 per sq km across 21.7 sq km; Ardee 5,478. F1010 records 79,102 people, 57 percent of the county, in towns of 10,000 or more. DERIVED, not published: with Dundalk at 43,112 and no other single-county Louth town above 10,000, about 35,990 of Drogheda lies on the Louth side and roughly 8,145 in Meath. Local electoral areas: Dundalk South 38,195, Drogheda Urban 28,537, Ardee 27,034, Dundalk and Carlingford 26,092, Drogheda Rural 19,845. Citizenship: non-Irish citizens 11 percent, Lithuanian 1,817, Polish 1,734, UK 1,688, Latvian 1,094; dual citizenship 4,271, up from 2,685, most commonly Irish and Nigerian at 760; almost 106,600 people of White Irish background and 4,296 of Black or Black Irish African background; Catholics more than 100,500, 72 percent; no religion almost 16,800, up 72 percent; 930 Irish Travellers, up 21 percent. Education: more than 35,600 with a third-level qualification, 40 percent against 45 percent nationally. Irish speakers 44,078, 35.2 percent of those aged three and over, the second lowest rate in the country behind Dublin City. Gov.ie, 4 January 2018: the county's first-phase Leaving Certificate Computer Science schools were Bush Post Primary, Riverstown, Dundalk and St Vincent's Secondary School, Seatown Place, Dundalk. Dundalk Institute of Technology calls itself the leading higher education institute in the North East and cross-border region of Ireland, reports more than 600 international students a year, and notes a 25 minute walk from Clarke station. Addresses: Louth County Council, County Hall, Millennium Centre, Dundalk A91 KFW6, and Drogheda Library, Stockwell Lane A92 PY20.",
+    "localProject": "A registered dataset with no file, and a filter that deletes the largest town. The Co. Louth Road Schedule is listed on data.gov.ie under Creative Commons Attribution 4.0 with a description promising road centre lines and roads-in-charge records, but its package record carries exactly one resource, an HTML link to the council homepage, so no data is downloadable. The substitute trap is measured in CSO table F1013: of 868 national town labels, 20 end in the words Co Louth while 21 contain Louth at all, and the single row a suffix filter misses is Drogheda, Counties Louth and Meath, at 44,135 people, the county's largest town. A roll-up built with the naive filter understates the county's town population by more than the entire population of Dundalk, and raises no error while doing it. The fix is to match the county name anywhere in the label, count matched against expected rows, inspect the excluded rows, and reconcile the total against the published F1010 figure of 79,102.",
+    "requiredMentions": [
+      "139,703",
+      "44,135",
+      "43,112",
+      "35,990",
+      "79,102",
+      "1,817",
+      "19,898",
+      "35.2%",
+      "4,296",
+      "38,195",
+      "A91 KFW6",
+      "Bush Post Primary"
+    ],
+    "sources": [
+      {
+        "claim": "CSO summary results, Louth: \"The population of Louth grew by 8% to 139,703, which means the number of people in the county rose by 10,819\"; average age 38.2 against 36.4; those aged 65 and over up 24% to 19,898; 59,140 at work, up 18%; 67% owning and 28% renting.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensusofpopulation2022-summaryresultslouth/"
+      },
+      {
+        "claim": "CSO Profile 7, Louth: unemployment 11%, \"the joint highest rate in the country\", long-term unemployment 6%, also joint highest; 31,863 driving to work; average journey 28.9 minutes; 7,418 journeys of 60 minutes or more; almost 15,800 working from home at least some of the time, more than 4,400 for five days.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutinglouth/"
+      },
+      {
+        "claim": "CSO Profile 1, Louth: \"Drogheda was the largest town, with a population of 44,135 in April 2022\", published in table F1013 as \"Drogheda, Counties Louth & Meath\".",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile1-populationdistributionandmovementslouth/"
+      },
+      {
+        "claim": "CSO tables F1013 and F1015: Dundalk, Co Louth 43,112, average age 37.2, 21.4% aged under 15, density 1,986.4 per sq km across 21.7 sq km; Drogheda density 2,486 per sq km across 17.8 sq km; Ardee 5,478.",
+        "url": "https://data.cso.ie/table/F1013"
+      },
+      {
+        "claim": "CSO table F1010: 79,102 people in County Louth lived in towns of 10,000 population and over in April 2022.",
+        "url": "https://data.cso.ie/table/F1010"
+      },
+      {
+        "claim": "CSO table F1016: Dundalk South 38,195, Drogheda Urban 28,537, Ardee 27,034, Dundalk-Carlingford 26,092, Drogheda Rural 19,845.",
+        "url": "https://data.cso.ie/table/F1016"
+      },
+      {
+        "claim": "CSO Profile 5, Louth: non-Irish citizens 11% of the county, Lithuanian 1,817, Polish 1,734, UK 1,688, Latvian 1,094; dual citizenship 4,271, up from 2,685, Irish-Nigerian the largest combination at 760; 4,296 people of Black or Black Irish African background; 930 Irish Travellers, up 21%.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligionlouth/"
+      },
+      {
+        "claim": "CSO Profile 8, Louth: third-level qualifications more than 35,600, \"a rate of 40% compared with 45% nationally\"; 44,078 Irish speakers, 35.2% of those aged three and over, \"the second lowest rate of Irish speakers in the country behind Dublin City\".",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationlouth/"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: the first-phase Leaving Certificate Computer Science list includes Bush Post Primary, Riverstown, Dundalk and St Vincent's Secondary School, Seatown Place, Dundalk.",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "Dundalk Institute of Technology: \"DkIT is the leading higher education institute in the North East and cross-border region of Ireland\"; \"Every year more than 600 international students choose to study with us\"; \"The Institute is a 25 minute walk from Dundalk's Clarke Train station\".",
+        "url": "https://www.dkit.ie/"
+      },
+      {
+        "claim": "Louth County Council: \"Louth County Council, County Hall, Millennium Centre, Dundalk, A91 KFW6\"; Drogheda Library, Stockwell Lane, Drogheda, A92 PY20.",
+        "url": "https://www.louthcoco.ie/en/contact-us/"
+      },
+      {
+        "claim": "data.gov.ie: the Co. Louth Road Schedule is registered under Creative Commons Attribution 4.0, and its package record lists a single resource, an HTML link to the council website, rather than any road data.",
+        "url": "https://data.gov.ie/dataset/co-louth-road-schedule"
+      }
+    ],
+    "rejectedClaims": [
+      "Presenting Drogheda's 44,135 as a County Louth figure: the CSO publishes it across Louth and Meath.",
+      "Presenting the 35,990 Louth-side and 8,145 Meath-side split as published figures: both are our own subtraction and are labelled as derived wherever they appear.",
+      "A county-level population density or under-15 share: the CSO publishes neither for Louth, so town-level figures are used and labelled.",
+      "A county-wide out-commuting total: not published in the profiles read; only Drogheda's town-level net outflow exists, and it is not restated as a county figure.",
+      "Any claim about which Louth schools teach Leaving Certificate Computer Science today: no current official list was found.",
+      "Anything owned by the Wexford county page or by the city pages in this cluster."
+    ]
   }
 }
