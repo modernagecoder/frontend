@@ -80,7 +80,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 45 | coding-classes-in-county-tipperary (tip, #5E3B76) | cg- county | 3,342 | 5.2% vs coding-classes-in-county-kerry | no data or no permission | council publishes 0 datasets; its own portal blocks automated access | 4d52bf20 |
 | 46 | coding-classes-in-county-kilkenny (kkn, #8C4A00) | cg- county | 3,355 | 1.2% vs coding-classes-in-county-tipperary | the blanks are the data | missingness tracks road class; legend text leaked into the category column | 8fca831a |
 | 47 | coding-classes-in-county-offaly (ofy, #3B5E1C) | cg- county | 3,411 | 2.2% vs coding-classes-in-county-kilkenny | the number that is not published at your size | no county broadband figure exists; only the 4-county Midland region | 0483ab45 |
-| 48 | coding-classes-in-county-longford (lgf, #6E2440) | cg- county | 3,392 | 4.1% vs coding-classes-in-county-offaly | a name is not an identifier | case-insensitive filter pulls Ballylongford, Co Kerry into Longford | (this commit) |
+| 48 | coding-classes-in-county-longford (lgf, #6E2440) | cg- county | 3,392 | 4.1% vs coding-classes-in-county-offaly | a name is not an identifier | case-insensitive filter pulls Ballylongford, Co Kerry into Longford | fa19cefa |
+| 49 | coding-classes-in-county-mayo (myo, #145A7A) | cg- county | 3,352 | 3% vs coding-classes-in-county-offaly | more people, smaller share | count and rate moving opposite ways: Gaeltacht +129 while speakers fell 3% | (this commit) |
 
 ## Skipped (kill criterion)
 

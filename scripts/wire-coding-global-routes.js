@@ -277,6 +277,7 @@ const MARKETS = [
   ['coding-classes-in-county-kilkenny', 'County Kilkenny, Ireland'],
   ['coding-classes-in-county-offaly', 'County Offaly, Ireland'],
   ['coding-classes-in-county-longford', 'County Longford, Ireland'],
+  ['coding-classes-in-county-mayo', 'County Mayo, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

@@ -11650,5 +11650,77 @@
       "A county land area or density figure for Longford: no such row exists in the CSO tables checked.",
       "Any second named Longford employer: none could be verified at a primary source, so none is named."
     ]
+  },
+  "coding-classes-in-county-mayo": {
+    "market": "County Mayo",
+    "bodyClass": "cg-myo",
+    "pageType": "governorate",
+    "curriculumAuthority": "County Mayo, whose council area is the county, Census 2022 (CSO Mayo releases): population 137,970, up 7,463 (6 percent) since 2016; average age 41.6 against 40.2 in 2016 and a national 38.8; 26,362 children aged 15 and under, of whom 8,637 (33 percent) were in childcare, the same share as nationally. Birthplace: 89,416 people (66 percent) born in the county, 20,964 (15 percent) elsewhere in the State and 25,307 (19 percent) outside the State, up from 17 percent in 2016. Towns: Castlebar 13,054 at 1,575.8 per sq km over 8.3 sq km, average age 39.3 with 19.1 percent under 15; Ballina 10,556 at 1,290.8 over 8.2 sq km, average age 39.5 with 21.2 percent under 15; Westport 6,872 at 723.4 over 9.5 sq km, average age 41.5 with 18.5 percent under 15. Local electoral areas: Castlebar 32,080, Ballina 25,858, Westport 19,947. Among places of at least 500 people, Ballyhaunis is youngest at average age 35.1 and Keel-Dooagh oldest at 53. Citizenship: non-Irish citizens 10 percent of the county, with UK citizens the largest group at 3,898, followed by Polish 2,131, Lithuanian 819 and Indian 562, unlike the midland counties where Polish citizens lead; dual Irish citizens up from 2,462 in 2016 to 4,557. Work: more than 111,600 people aged 15 and over, of whom more than 58,300 were at work, an increase of 13 percent from more than 51,400 in 2016; labour force participation 57 percent against 61 percent nationally, \"the joint lowest rate in the country\", with male participation also joint lowest nationally alongside Donegal; 13,894 people working from home at least one day a week, 24 percent of the workforce against 32 percent nationally; average journey time 25.1 minutes against 23.3 in 2016. Education and Irish: third level qualifications up from almost 29,300 in 2016 to just over 37,000, which is 39 percent of those aged 15 and over, up from 33 percent, and below the national 45 percent; county-wide, 56,346 people aged three and over could speak Irish, up by just over 1,200, which is 44.3 percent of that group against 44.7 percent in 2016. GAELTACHT, a defined sub-county area kept separate from county figures: population up from almost 10,400 to 10,515, an increase of 129 people, which the CSO calls the lowest rate of increase in Gaeltacht areas, including 10,196 people aged three and over of whom 5,956 could speak Irish, while the number able to speak Irish in the Mayo Gaeltacht fell by 3 percent between 2016 and 2022. Sites: Rice College, published by gov.ie on 4 January 2018 at \"Castlebar Road, Westport, Co. Mayo\", Mayo's only entry on the first-phase Leaving Certificate Computer Science list, where Castlebar Road is a street in Westport rather than the town of Castlebar; ATU Mayo, Westport Road, Castlebar, F23 X853, described by the university as a campus of approximately 1,000 students, occupied since 1994 and the first institute of technology campus in Ireland awarded Green Campus status, in 2011.",
+    "localProject": "Counts and rates move independently, and both can be true. Four Mayo measurements are taken apart. One, the Gaeltacht: population up 129 people to 10,515 while the number of Irish speakers within it fell 3 percent. Two, the county: Irish speakers up by just over 1,200 to 56,346 while their share fell from 44.7 to 44.3 percent, which is arithmetically possible because the county itself grew by 7,463. Three, employment: up 13 percent to more than 58,300 at work, while labour force participation at 57 percent against 61 percent nationally was the joint lowest in the country, partly because Mayo's average age of 41.6 puts more people outside the labour force by definition. Four, the contrast case: third level qualifications rose on both measures at once, from almost 29,300 to just over 37,000 and from 33 percent to 39 percent, which stops learners concluding that every statistic is a trick. A fifth kind of claim is introduced as a footnote, the rank: the CSO calls the Gaeltacht's 129-person growth the lowest rate of increase in Gaeltacht areas, and learners write down what they would need to check before repeating a ranking. Output: for each headline, what is counted, what it is divided by, which part moved, and one sentence a reader could not misread.",
+    "requiredMentions": [
+      "137,970",
+      "13,054",
+      "10,556",
+      "6,872",
+      "26,362",
+      "56,346",
+      "10,515",
+      "5,956",
+      "F23 X853",
+      "32,080",
+      "4,557",
+      "89,416"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Mayo summary press statement, 30 May 2023: \"the population of Mayo grew by 6% to 137,970, which means the number of people in the county rose by 7,463 between April 2016 and April 2022\"; average age 41.6 against 40.2, with a national 38.8; \"There were 26,362 children aged 15 and under in Mayo in April 2022. Of these, 8,637 (33%) were in childcare\"; \"In Mayo, 13,894 people (aged 15 and over) worked from home at least one day a week in 2022. This represented 24% of the workforce.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensusofpopulation2022-summaryresultsmayo/"
+      },
+      {
+        "claim": "CSO Profile 1 Mayo: \"Castlebar was the largest town, with a population of 13,054 in April 2022\"; Ballyhaunis the youngest town at average age 35.1 and Keel-Dooagh the oldest at 53; 66 percent (89,416) born in the county, 15 percent (20,964) elsewhere in the State and 19 percent (25,307) outside it.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile1-populationdistributionandmovementsmayo/"
+      },
+      {
+        "claim": "CSO PxStat tables F1013 and F1015: Ballina 10,556 at 1,290.8 per sq km over 8.2 sq km, average age 39.5 with 21.2 percent under 15; Westport 6,872 at 723.4 over 9.5 sq km, average age 41.5 with 18.5 percent under 15; Castlebar at 1,575.8 over 8.3 sq km, average age 39.3 with 19.1 percent under 15. Table F1016: Castlebar LEA 32,080, Ballina LEA 25,858, Westport LEA 19,947.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F1013/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Profile 5 Mayo: \"In Mayo non-Irish citizens accounted for 10% of the county's population. Among the non-Irish residents, the largest group were UK citizens (3,898 people) followed by Polish citizens (2,131), Lithuanian (819) and Indian (562)\"; dual Irish citizens up from 2,462 in 2016 to 4,557.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile5-diversitymigrationethnicityirishtravellersreligionmayo/"
+      },
+      {
+        "claim": "CSO Profile 7 Mayo: \"more than 58,300 people were at work. This was an increase of 13% (from the more than 51,400 people recorded as working in Census 2016)\"; \"The labour force participation rate was 57% in Mayo compared with 61% nationally. This was the joint lowest rate in the country\"; male participation \"the joint lowest nationally, along with Donegal\"; \"an average journey time of 25.1 minutes compared with 23.3 minutes in 2016\".",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile7-employmentoccupationsandcommutingmayo/"
+      },
+      {
+        "claim": "CSO Profile 8 Mayo: third level up from almost 29,300 to just over 37,000, 39 percent of those aged 15 and over, up from 33 percent and below the national 45 percent; \"The population of the Gaeltacht in Mayo living within the Mayo county boundary increased from almost 10,400 to 10,515. This was an increase of 129 people (1%, the lowest rate of increase in Gaeltacht areas). This included 10,196 people aged three and over and of these 5,956 could speak Irish. The number of people who could speak Irish in the Mayo Gaeltacht fell by 3% between the censuses in 2016 and 2022\"; and county-wide, \"The number of people (aged three and over) who could speak Irish in Mayo increased by just over 1,200 to 56,346 in Census 2022. This was 44.3% of the county's population aged three and over, compared with 44.7% in Census 2016.\"",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile8-theirishlanguageandeducationmayo/"
+      },
+      {
+        "claim": "Department of Education, 4 January 2018: Mayo's single entry on the first-phase Leaving Certificate Computer Science list is Rice College, address published as \"Castlebar Road, Westport, Co. Mayo\".",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/minister-bruton-announces-leaving-certificate-computer-science-subject/"
+      },
+      {
+        "claim": "Atlantic Technological University: \"Located in Castlebar, ATU Mayo is a responsive and dynamic campus with a population of approximately 1,000 students\"; occupied since 1994 and \"the first Institute of Technology campus in Ireland to be awarded Green Campus status in 2011\"; address \"Westport Road, Castlebar, Co. Mayo, F23 X853, Ireland.\"",
+        "url": "https://www.atu.ie/campus/mayo"
+      },
+      {
+        "claim": "CSO Internet Coverage and Usage in Ireland 2023: the West region, comprising Galway, Mayo and Roscommon, at 92 percent of households with an internet connection and 83 percent on fixed broadband. No county-level figure is published.",
+        "url": "https://www.cso.ie/en/releasesandpublications/ep/p-isshict/internetcoverageandusageinireland2023/householdinternetconnectivity/"
+      },
+      {
+        "claim": "data.gov.ie: Mayo County Council has two dataset records, both licensed Creative Commons Attribution 4.0, whose only resources point at the council's own mapping host; three requests over two protocols on 16 September 2026 timed out with no response, so the data was unreachable and its contents are unknown.",
+        "url": "https://data.gov.ie/organization/mayo-county-council"
+      }
+    ],
+    "rejectedClaims": [
+      "Any description of what Mayo County Council's two datasets contain: the host did not answer, so an unreachable source is reported as unreachable rather than as empty.",
+      "Any Mayo-specific broadband figure: the CSO publishes internet access no lower than the three-county West region, which is labelled as regional wherever it appears.",
+      "Treating the Mayo Gaeltacht figures as county figures or the reverse: they measure different areas and are kept apart throughout.",
+      "The Charlestown-Bellahy two-county straddle as a project: the County Louth and County Carlow pages own the cross-county filter trap.",
+      "The Rice College address as a substring trap project: the County Longford page owns that, so it appears here as a single note.",
+      "A county land area or population density figure for Mayo: no such row exists in the CSO tables checked.",
+      "Any claim that a low participation rate reflects attitudes to work: the county's older age profile puts more people outside the labour force by definition."
+    ]
   }
 }

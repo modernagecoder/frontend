@@ -912,3 +912,4 @@
 .cg-root.cg-kkn  { --cg-accent: #8C4A00; --cg-accent-soft: rgba(140,74,0,.10); }   /* County Kilkenny: a burnt amber from the solver, set apart from the browns used on the other south eastern pages */
 .cg-root.cg-ofy  { --cg-accent: #3B5E1C; --cg-accent-soft: rgba(59,94,28,.10); }   /* County Offaly: a midland green from the solver, kept apart from the greens used on the western county pages */
 .cg-root.cg-lgf  { --cg-accent: #6E2440; --cg-accent-soft: rgba(110,36,64,.10); }   /* County Longford: a deep claret from the solver, held apart from the wines used on the eastern county pages */
+.cg-root.cg-myo  { --cg-accent: #145A7A; --cg-accent-soft: rgba(20,90,122,.10); }   /* County Mayo: an Atlantic blue from the solver, distinct from the blues used on the midland and border pages */
