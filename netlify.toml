@@ -9952,6 +9952,18 @@
   to = "/src/pages/learn-to-think-not-just-use-ai-tools-ireland.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/problem-solving-skills-through-coding-ireland"
+  to = "/src/pages/problem-solving-skills-through-coding-ireland.html"
+  status = 200
+
+[[redirects]]
+  from = "/problem-solving-skills-through-coding-ireland.md"
+  to = "/src/pages/problem-solving-skills-through-coding-ireland.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

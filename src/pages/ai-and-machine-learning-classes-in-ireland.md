@@ -521,6 +521,7 @@ Each page answers one question for one audience, with its facts read at the sour
 - [AI agents course for students in Ireland](/ai-agents-course-for-students-ireland): For students in Ireland who want to build AI agents as their own work, inside Irish academic integrity guidance.
 - [Online coding summer course in Ireland](/online-coding-summer-course-ireland): A live online coding course across the Irish summer holidays, for primary and secondary students, from June to the week school reopens.
 - [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-ireland): For families who want a class that builds thinking rather than tool use, set against the key skills and competencies Irish schools already teach.
+- [Problem solving skills through coding in Ireland](/problem-solving-skills-through-coding-ireland): What PISA and the Irish maths curriculum say about problem solving, and how coding classes build it step by step.
 
 Pages for Irish places are listed on [the national Ireland page](/coding-classes-in-ireland).
 
