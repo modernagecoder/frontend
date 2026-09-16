@@ -149,6 +149,7 @@ const SLUGS = [
   'best-coding-classes-for-kids-ireland',
   'best-coding-classes-for-teens-ireland',
   'transition-year-coding-course-ireland',
+  'ai-agents-course-for-students-ireland',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -377,6 +378,7 @@ const LLMS_LABELS = {
   'best-coding-classes-for-kids-ireland': 'Best coding classes for kids in Ireland',
   'best-coding-classes-for-teens-ireland': 'Best coding classes for teens in Ireland',
   'transition-year-coding-course-ireland': 'Transition Year coding course, Ireland',
+  'ai-agents-course-for-students-ireland': 'AI agents course for students, Ireland',
 };
 
 function wireLlms(slugs) {

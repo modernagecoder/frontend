@@ -518,6 +518,7 @@ Each page answers one question for one audience, with its facts read at the sour
 - [Best coding classes for kids in Ireland](/best-coding-classes-for-kids-ireland): Coding for primary-school children, from Junior Infants to Sixth Class: blocks, Scratch and first Python, set against the new primary curriculum.
 - [Best coding classes for teens in Ireland](/best-coding-classes-for-teens-ireland): Coding for secondary-school students, First Year to the Leaving Cert: Python, the web, apps and AI, with a data project on Irish school enrolments.
 - [Transition Year coding course in Ireland](/transition-year-coding-course-ireland): A coding project that lasts the whole of Transition Year, fitted to the new Programme Statement and to your school's own TY plan.
+- [AI agents course for students in Ireland](/ai-agents-course-for-students-ireland): For students in Ireland who want to build AI agents as their own work, inside Irish academic integrity guidance.
 
 Pages for Irish places are listed on [the national Ireland page](/coding-classes-in-ireland).
 

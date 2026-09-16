@@ -645,3 +645,4 @@
 .ag-root.ag-bki { --ag-accent: #4C4300; --ag-accent-soft: rgba(76,67,0,.09); }   /* Kids, Ireland: a dark gorse-olive from the solver, separated from both Irish greens and every other Ireland page */
 .ag-root.ag-bti { --ag-accent: #516000; --ag-accent-soft: rgba(81,96,0,.09); }   /* Teens, Ireland: a deep moss green from the solver, separated from both Irish greens and every other Ireland page */
 .ag-root.ag-tyc { --ag-accent: #732D39; --ag-accent-soft: rgba(115,45,57,.09); }   /* Transition Year, Ireland: a deep claret from the solver, separated from both Irish greens and every other Ireland page */
+.ag-root.ag-asi { --ag-accent: #7A3800; --ag-accent-soft: rgba(122,56,0,.09); }   /* AI agents for students, Ireland: a deep rust from the solver, separated from both Irish greens and every other Ireland page */

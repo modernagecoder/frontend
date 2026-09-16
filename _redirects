@@ -2586,4 +2586,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /transition-year-coding-course-ireland /src/pages/transition-year-coding-course-ireland.html 200
 /transition-year-coding-course-ireland.md /src/pages/transition-year-coding-course-ireland.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ai-agents-course-for-students-ireland /src/pages/ai-agents-course-for-students-ireland.html 200
+/ai-agents-course-for-students-ireland.md /src/pages/ai-agents-course-for-students-ireland.md 200
 /* /src/pages/404.html 404
