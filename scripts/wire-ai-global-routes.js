@@ -159,6 +159,7 @@ const SLUGS = [
   'best-python-classes-online-ireland',
   'build-real-ai-projects-ireland',
   'data-science-course-ireland',
+  'learn-to-train-ai-not-just-prompt-it-ireland',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -397,6 +398,7 @@ const LLMS_LABELS = {
   'best-python-classes-online-ireland': 'Best Python classes online, Ireland',
   'build-real-ai-projects-ireland': 'Build real AI projects, Ireland',
   'data-science-course-ireland': 'Data science course, Ireland',
+  'learn-to-train-ai-not-just-prompt-it-ireland': 'Learn to train AI, not just prompt it, Ireland',
 };
 
 function wireLlms(slugs) {

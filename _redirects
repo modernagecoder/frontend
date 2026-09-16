@@ -2626,4 +2626,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /data-science-course-ireland /src/pages/data-science-course-ireland.html 200
 /data-science-course-ireland.md /src/pages/data-science-course-ireland.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/learn-to-train-ai-not-just-prompt-it-ireland /src/pages/learn-to-train-ai-not-just-prompt-it-ireland.html 200
+/learn-to-train-ai-not-just-prompt-it-ireland.md /src/pages/learn-to-train-ai-not-just-prompt-it-ireland.md 200
 /* /src/pages/404.html 404

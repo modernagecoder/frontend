@@ -528,6 +528,7 @@ Each page answers one question for one audience, with its facts read at the sour
 - [Best Python classes online in Ireland](/best-python-classes-online-ireland): Python taught on Ireland's own public data, from a child's first program to the CSO statistical tables professionals actually use.
 - [Build real AI projects in Ireland](/build-real-ai-projects-ireland): Building AI projects on real Irish data, including how to tell an honest result from a leaked one.
 - [Data science course in Ireland](/data-science-course-ireland): Data science taught on Ireland's open data portal, including how to read a licence and how to spot a column that mixes units.
+- [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-ireland): The difference between prompting a model and training one, worked through on an Irish dataset with a baseline you have to beat.
 
 Pages for Irish places are listed on [the national Ireland page](/coding-classes-in-ireland).
 

@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Learn to Train AI, Not Just Prompt It | Ireland</title>
+  <meta name="description" content="Learn to train AI in Ireland, not just prompt it: labels, splits, baselines and overfitting, worked on a real Irish dataset. Live online, first class free.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland">
+  <link rel="alternate" type="text/markdown" href="/src/pages/learn-to-train-ai-not-just-prompt-it-ireland.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#384A7E">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland">
+  <meta property="og:title" content="Learn to Train AI, Not Just Prompt It | Ireland">
+  <meta property="og:description" content="Anyone can prompt a model. Training one means choosing labels, splitting data honestly and beating a baseline you set yourself, and that is a different skill entirely.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Learn to Train AI, Not Just Prompt It">
+  <meta name="twitter:description" content="Training AI rather than prompting it, taught live on a real Irish dataset. First class free.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="IE">
+  <meta name="geo.placename" content="Ireland">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-lta .ag-hero-grid { gap: clamp(1.09rem, 3.42vw, 2.88rem); }
+.ag-root.ag-lta .ag-hero h1 { letter-spacing: -0.0215em; }
+.ag-root.ag-lta .ag-capsule { border-left-width: 3px; }
+.ag-root.ag-lta .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-lta .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-lta .ag-band-head h3 { letter-spacing: -0.0085em; }
+.ag-root.ag-lta .ag-spec dt { letter-spacing: 0.132em; }
+.ag-root.ag-lta .ag-slots { gap: 1.07rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Ireland"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland#page","url":"https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland","name":"Learn to Train AI, Not Just Prompt It, Ireland","description":"For learners in Ireland who want to train models rather than only prompt them: what training actually involves, a real Irish dataset with a measured baseline, and the five ways a split or a column can quietly ruin a result.","inLanguage":"en-IE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"AI and machine learning classes in Ireland","item":"https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-ireland"},{"@type":"ListItem","position":4,"name":"Learn to train AI, Ireland","item":"https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland"}]},{"@type":"Course","name":"Learn to Train AI, Not Just Prompt It, Ireland","description":"Live online classes for learners in Ireland on training machine learning models: labelling, feature choice, honest splits, baselines, overfitting and evaluation, worked on open Irish data.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is prompting not enough for most jobs?","acceptedAnswer":{"@type":"Answer","text":"For using a tool, often yes. For deciding whether to trust one, no. Training teaches you what a model can and cannot know, which is what judgement rests on."}},{"@type":"Question","name":"Do I need a lot of maths?","acceptedAnswer":{"@type":"Answer","text":"Less than you fear. You need to be comfortable with averages, percentages and the idea of error. The heavier maths is taught only where a problem needs it."}},{"@type":"Question","name":"What is a baseline, and why does it matter?","acceptedAnswer":{"@type":"Answer","text":"The simplest sensible prediction, such as always guessing the overall average. On the driving-test data that gives an average error of 6.787 percentage points, and any model has to beat it to be worth anything."}},{"@type":"Question","name":"What is group leakage?","acceptedAnswer":{"@type":"Answer","text":"Letting the same group appear in training and testing. On this dataset, a random split put every one of the 67 test-fold centres into training too, so the model could memorise rather than generalise."}},{"@type":"Question","name":"Where do I get data like this?","acceptedAnswer":{"@type":"Answer","text":"Ireland publishes plenty openly. This table is on the national portal under a Creative Commons Attribution 4.0 licence, which allows re-use with attribution."}},{"@type":"Question","name":"Do I need a GPU?","acceptedAnswer":{"@type":"Answer","text":"No. Everything on this page trains in seconds on an ordinary laptop. Large models are a different subject and rarely where the learning is."}},{"@type":"Question","name":"Can I train a model on my company's data?","acceptedAnswer":{"@type":"Answer","text":"Yes, in one-to-one lessons, and we will be careful about what leaves your machine. The method is identical; only the data changes."}},{"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"The first class is free. After that a group place is USD 100 a month and one-to-one lessons are USD 150 a month, in US dollars, with no enrolment fee."}},{"@type":"Question","name":"When are the classes?","acceptedAnswer":{"@type":"Answer","text":"Evenings and weekends, at a weekly hour set in the free class. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter."}},{"@type":"Question","name":"What happens after I send the form?","acceptedAnswer":{"@type":"Answer","text":"We phone you at a reasonable Irish hour and arrange the free class. There is no charge unless you continue."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Ireland"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland","availableLanguage":["en"]}}
+  </script>
+</head>
+
+<body class="ag-root ag-lta">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Ireland</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#difference">Prompting or training</a></li>
+      <li><a href="#dataset">A dataset to train on</a></li>
+      <li><a href="#splits">Five ways to fool yourself</a></li>
+      <li><a href="#catalogue">Courses</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/ai-and-machine-learning-classes-in-ireland">AI and machine learning classes in Ireland</a> / Learn to train AI, Ireland
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Ireland &middot; Training, not prompting &middot; Live online</p>
+        <h1>Learn to train AI, not just prompt it</h1>
+        <p class="ag-lede">Prompting is a genuine skill, and it is a shallow one. It takes a weekend to get good at, the tools change every few months, and none of it tells you whether the answer you got is right. Training is the other half of AI, the half that decides what a model learns and how you would know if it had learned nothing useful. It involves choices no tool makes for you: what exactly are you predicting, what evidence would have been available at the moment of the prediction, how do you split the data so the test is honest, and what is the simplest possible approach your model has to beat? Ireland's 2024 National AI Strategy refresh makes a related point about people rather than models: "the skills needed for AI are not only digital skills, and the continued development of empathetic and cognitive skills will be crucial to the success of AI adoption in Ireland." This page shows the training half being done properly, on an Irish dataset anyone can download.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#splits" class="ag-btn ag-btn--ghost">Five ways to fool yourself</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Ireland%20and%20would%20like%20a%20free%20first%20class%20on%20training%20AI%20models." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'lta'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; models trained, split and measured by the learner</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Teens, students and adults</dd>
+          <dt>Teaches</dt><dd>Labels, features, splits, baselines</dd>
+          <dt>Catches</dt><dd>Overfitting and group leakage</dd>
+          <dt>Uses</dt><dd>Open Irish data</dd>
+          <dt>Needs</dt><dd>Python, at least the basics</dd>
+          <dt>Group</dt><dd>Five to ten at one level</dd>
+          <dt>Or</dt><dd>One to one</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Training a model means deciding what to predict, choosing evidence you would genuinely have in advance, splitting the data so the test is fair, setting a baseline, and only then fitting anything. We teach that on real Irish data rather than on tidied teaching sets, because every important lesson lives in the mess: categories that repeat themselves as totals, missing values that are missing for a reason, and splits that let a model memorise instead of learn. Classes are live, in groups of five to ten at one level or one to one, for teenagers, students and adults. The first class is free, then USD 100 a month in a group or USD 150 a month one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three courses where you train the model</h2>
+      <p class="ag-lede">The mechanics of training, at three levels. Each card opens its syllabus.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-complete-college">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-college.webp" alt="AI and ML Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">TRAIN / 01</p>
+          <h3>AI and Machine Learning Masterclass</h3>
+          <p>The full training loop for students and adults: features, splits, fitting, validation and the arithmetic of deciding whether a result is real.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">TRAIN / 02</p>
+          <h3>AI and Machine Learning for Teens</h3>
+          <p>The same ideas at secondary-school pace, with a first model the student trains, breaks on purpose and then fixes.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/orange-data-mining-machine-learning-course-for-college-students">
+        <div class="ag-pick-shot"><img src="/images/orange-data-mining-college.webp" alt="Orange Data Mining Course for College Students course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">TRAIN / 03</p>
+          <h3>Orange Data Mining</h3>
+          <p>Training made visible, for learners who want to see the pipeline before they write one in code.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="difference">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Prompting or training</p><h2>What training actually asks of you</h2><p class="ag-lede">Both skills matter. They are simply not the same work, and only one of them makes you able to judge a model.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Two different jobs</caption><thead><tr><th scope="col">Question</th><th scope="col">Prompting</th><th scope="col">Training</th></tr></thead><tbody><tr><td>What do you control?</td><td>The words you send</td><td>The data, the labels, the features and the split</td></tr><tr><td>How do you know it worked?</td><td>It looks right</td><td>It beats a baseline you defined in advance</td></tr><tr><td>What can go wrong quietly?</td><td>A confident wrong answer</td><td>A score inflated by leakage or a bad split</td></tr><tr><td>What transfers when tools change?</td><td>Some habits</td><td>Almost everything</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The first thing a learner meets in training is that the task has to be defined precisely enough to argue about. Predicting "how a place is doing" is not a task. Predicting one named number, for one month, from evidence that existed the month before, is.</p>
+<p>The second is that you must be able to fail. A prompt never reports an error rate. A trained model does, and the number is only meaningful beside the simplest alternative anyone could have used instead.</p></div><div><p>The skills side of this is national policy. The 2024 refresh of Ireland's National AI Strategy notes that AI skills "are not only digital skills", and that cognitive skills will matter for adoption here.</p>
+<p>The practical version of that sentence, for a learner, is judgement: knowing which questions the data can answer, and saying clearly when it cannot. The tool side is covered on <a class="ag-inline-link" href="/learn-to-think-not-just-use-ai-tools-ireland">learn to think, not just use AI tools</a>.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://enterprise.gov.ie/en/publications/publication-files/national-ai-strategy-refresh-2024.pdf" rel="noopener" target="_blank">Ireland's National AI Strategy: AI, Here for Good, Refresh 2024</a>, Department of Enterprise, Trade and Employment, read 16 September 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="dataset">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A dataset to train on</p><h2>Driving test pass rates: a training set every Irish family understands</h2><p class="ag-lede">The Central Statistics Office publishes driving test figures from the Road Safety Authority, monthly, by test centre and test category. It is open under a Creative Commons Attribution 4.0 licence, and it is a superb first training set precisely because it is awkward.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>CSO table ROA30, Driving Tests Delivered and Pass Rate</caption><thead><tr><th scope="col">Aspect</th><th scope="col">Measured</th></tr></thead><tbody><tr><td>Shape</td><td>An exact cube: 4 statistics by 68 months by 18 test categories by 73 centres, which is 357,408 rows</td></tr><tr><td>Period</td><td>January 2021 to August 2026</td></tr><tr><td>The task we set</td><td>Predict the car-test pass rate for a given centre in a given month</td></tr><tr><td>Usable rows for that task</td><td>3,887, across 68 centres, once rows with no recorded pass rate are dropped</td></tr><tr><td>The number to beat</td><td>Predicting the overall mean of 53.285% for every row gives an average error of 6.787 percentage points</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why a baseline first</h3><p>That 6.787 is the whole point of the exercise. It is what you achieve by knowing nothing except the national average, and any model that cannot beat it has taught you only that your features are useless.</p>
+<p>Students compute it themselves in the first session, before any model exists. It takes two lines and it reframes everything that follows.</p></div><div><h3>And why this dataset</h3><p>Because almost every household in Ireland has someone who has sat this test, so learners have real intuitions to check the model against, which is exactly when mistakes become visible.</p>
+<p>We publish no ranking of test centres, and neither should a learner. The data supports a forecasting exercise; it does not support judgements about the places or the people in them.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://data.gov.ie/dataset/roa30-driving-tests-delivered-and-pass-rate" rel="noopener" target="_blank">ROA30, Driving Tests Delivered and Pass Rate</a>, published by the Central Statistics Office with the Road Safety Authority as source, listed on data.gov.ie as "Licensed under: Creative Commons Attribution 4.0", read and measured on 16 September 2026. Contains Irish Public Sector Data licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) licence. All counts above are ours, computed from the published file.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="splits">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Five ways to fool yourself</p><h2>Five traps in one file, each of them measured</h2><p class="ag-lede">These are not hypothetical warnings. Every number below came out of this file, and each one has ruined somebody's project at some point.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Measured traps in ROA30</caption><thead><tr><th scope="col">Trap</th><th scope="col">What we measured</th><th scope="col">What it costs you</th></tr></thead><tbody><tr><td>A random split</td><td>A random 80/20 split put 67 centres in the test set, and all 67 also appeared in training</td><td>The model can memorise centres instead of learning; centre memorisation alone cuts the error by 24%</td></tr><tr><td>Time drift</td><td>Yearly mean pass rates ran 55.90, 52.19, 52.72, 51.59, 53.14 and 54.71 across the period</td><td>Training on one era and testing across all of them is not forecasting</td></tr><tr><td>Missing for a reason</td><td>81.48% of raw cells are blank, from 20.6% for the car test to 100% for one category; 43 centres never miss a value and 4 always do</td><td>Dropping blank rows silently deletes whole categories and venues</td></tr><tr><td>Totals hiding in the rows</td><td>24,480 rows, 6.8% of the file, are totals, verified as exact sums of the detailed rows in all 68 months</td><td>Training on them means training repeatedly on the same observations</td></tr><tr><td>Columns that die</td><td>Once you select the pass-rate statistic, three columns hold a single value each</td><td>A pipeline that encodes every column wastes features on constants</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Split by group, not by row</h3><p>Hold out whole test centres, or whole months, depending on the question. If your model will meet new places, test it on places it has never seen.</p></div><div><h3>Ask why a value is missing</h3><p>Here, small overflow venues are missing 55.7% of their values against 16.2% at permanent centres. The publisher does not say why cells are blank, so we do not claim a reason, but the pattern is clearly not random.</p></div><div><h3>Read the names carefully</h3><p>One centre name uses an en dash where three otherwise identical names use a hyphen. A split on the wrong character quietly mangles one row, and nothing warns you.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>Working through these is the course. A learner who has met group leakage once, with a measured 24% gap attached to it, will check for it forever afterwards.</p></div><div><p>And when the honest model finally beats 6.787, they know exactly what the improvement is worth, which is the only thing that separates a result from a screenshot.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="limits">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What it cannot tell you</p><h2>The limits are part of the training</h2><p class="ag-lede">A model that predicts a number says nothing about why the number is what it is. Confusing those two is the most common mistake in applied AI.</p></div>
+    <div class="ag-grid-3"><div><h3>Prediction is not explanation</h3><p>A model can forecast a pass rate without any idea what causes it. Who sits the test where, when and after how much practice all sit outside this file.</p></div><div><h3>Do not rank people or places</h3><p>We do not publish league tables from data like this, and we teach students not to. The same restraint applies to staff, schools and patients in every other dataset they will meet.</p></div><div><h3>Say what would change your mind</h3><p>Every project ends with the conditions under which the model would stop working: a new category, a new venue, a change in how the figures are recorded.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The rungs</p>
+      <h2>Five rungs of training a model</h2>
+      <p class="ag-lede">The order matters more than the algorithm. Most learners reach the last rung in three to five months.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The training loop, in order</caption><thead><tr><th scope="col">Rung</th><th scope="col">What the learner does</th></tr></thead><tbody><tr><td>1. Define the target</td><td class="ag-num">States the exact quantity, the unit and the moment of prediction</td></tr><tr><td>2. Choose honest features</td><td class="ag-num">Keeps only evidence that exists before the target is known</td></tr><tr><td>3. Split with intent</td><td class="ag-num">Holds out groups or time periods, not random rows</td></tr><tr><td>4. Baseline, then fit</td><td class="ag-num">Measures the naive approach, then trains and compares</td></tr><tr><td>5. Test the result</td><td class="ag-num">Checks stability, looks for leakage, and writes the limits down</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Where overfitting shows up</h3><p>Usually between rungs three and four: the training score climbs while the held-out score stalls. Seeing it happen once, on your own data, teaches more than any definition.</p>
+<p>The wider sequence of subjects is on the <a class="ag-inline-link" href="/coding-roadmap">coding roadmap</a>.</p></div><div><h3>After this</h3><p>Learners who want a finished, defensible project go on to <a class="ag-inline-link" href="/build-real-ai-projects-ireland">build real AI projects</a>, which works on a different Irish dataset.</p>
+<p>Those heading for agents and language models take <a class="ag-inline-link" href="/ai-agents-course-for-students-ireland">AI agents for students</a> instead.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine live courses on training and evaluating models</h2>
+      <p class="ag-lede">By level. The free first class decides where you start.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Before training</h3>
+        <span class="ag-band-sub">The groundwork</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">TRAIN / BASE / 01</p>
+          <h4>Python Masterclass</h4>
+          <p>Enough Python to write a training pipeline yourself.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TRAIN / BASE / 02</p>
+          <h4>Data Analysis Mastery</h4>
+          <p>Reading a file properly before modelling it.</p>
+          <a class="ag-course-link" href="/courses/data-analysis-mastery-course-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TRAIN / BASE / 03</p>
+          <h4>Data Science for Teens</h4>
+          <p>The same groundwork for secondary students.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Training</h3>
+        <span class="ag-band-sub">The loop itself</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">TRAIN / CORE / 01</p>
+          <h4>AI and Machine Learning Masterclass</h4>
+          <p>Features, splits, fitting, validation, judgement.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TRAIN / CORE / 02</p>
+          <h4>AI and Machine Learning for Teens</h4>
+          <p>A model a teenager trains and interrogates.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TRAIN / CORE / 03</p>
+          <h4>Orange Data Mining</h4>
+          <p>The pipeline seen before it is written.</p>
+          <a class="ag-course-link" href="/courses/orange-data-mining-machine-learning-course-for-college-students">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Beyond one model</h3>
+        <span class="ag-band-sub">Scale and modern methods</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">TRAIN / NEXT / 01</p>
+          <h4>Artificial Intelligence Masterclass</h4>
+          <p>The field around the training loop.</p>
+          <a class="ag-course-link" href="/courses/artificial-intelligence-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TRAIN / NEXT / 02</p>
+          <h4>Generative AI: LLMs, RAG and Agents</h4>
+          <p>What training means for language models.</p>
+          <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TRAIN / NEXT / 03</p>
+          <h4>Data Science Masterclass</h4>
+          <p>The analysis that surrounds any model.</p>
+          <a class="ag-course-link" href="/courses/data-science-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How the classes run</p>
+      <h2>Live sessions with the data open in front of you</h2>
+      <p class="ag-lede">Classes are live, with teachers working from India at a weekly hour set in Irish time. India does not change its clocks and Ireland does, so the gap is four and a half hours through the Irish summer and five and a half through the winter. Training sessions suit longer slots, so many learners choose a weekend time.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday evening</p><p class="ag-slot-l">Steady weekly progress, Irish time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Longer blocks for fitting and evaluation.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Quiet periods</p><p class="ag-slot-l">Intensive weeks during holidays.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A free first class</h3><p>You define a task and compute its baseline with a teacher, before any model is trained.</p></div>
+      <div><h3>Five to ten per group</h3><p>Learners at one level, comparing splits and scores on the same data.</p></div>
+      <div><h3>One to one</h3><p>For work data, a thesis, or a deadline that will not wait.</p></div>
+      <div><h3>Baseline before model</h3><p>No result is accepted in class without the naive score it has to beat.</p></div>
+      <div><h3>Splits are checked</h3><p>Every split is inspected for group and time leakage before training begins.</p></div>
+      <div><h3>Limits written down</h3><p>Each project ends with the conditions under which its model should not be trusted.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Models our learners trained</h2>
+      <p class="ag-lede">Four projects our students published, with their code and their evaluation. More are gathered on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">One monthly fee in US dollars, identical in every country outside India, for any course on this page. Nothing to pay in advance for a term, and you stop whenever you choose.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A task defined and a baseline computed</li><li>An honest view of your starting level</li><li>No card taken</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten learners at one level</li><li>The same teacher throughout</li><li>Splits and scores reviewed weekly</li><li>A certificate at the end</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher to yourself</li><li>Your own dataset and question</li><li>Suited to work projects and theses</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Straight from Google: reviews written by our students and their families, never bought.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions</p>
+      <h2>What learners in Ireland ask about training models</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Is prompting not enough for most jobs?</h3>
+        <p>For using a tool, often yes. For deciding whether to trust one, no. Training teaches you what a model can and cannot know, which is what judgement rests on.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need a lot of maths?</h3>
+        <p>Less than you fear. You need to be comfortable with averages, percentages and the idea of error. The heavier maths is taught only where a problem needs it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is a baseline, and why does it matter?</h3>
+        <p>The simplest sensible prediction, such as always guessing the overall average. On the driving-test data that gives an average error of 6.787 percentage points, and any model has to beat it to be worth anything.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is group leakage?</h3>
+        <p>Letting the same group appear in training and testing. On this dataset, a random split put every one of the 67 test-fold centres into training too, so the model could memorise rather than generalise.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where do I get data like this?</h3>
+        <p>Ireland publishes plenty openly. This table is on the national portal under a Creative Commons Attribution 4.0 licence, which allows re-use with attribution.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need a GPU?</h3>
+        <p>No. Everything on this page trains in seconds on an ordinary laptop. Large models are a different subject and rarely where the learning is.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I train a model on my company's data?</h3>
+        <p>Yes, in one-to-one lessons, and we will be careful about what leaves your machine. The method is identical; only the data changes.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does it cost?</h3>
+        <p>The first class is free. After that a group place is USD 100 a month and one-to-one lessons are USD 150 a month, in US dollars, with no enrolment fee.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are the classes?</h3>
+        <p>Evenings and weekends, at a weekly hour set in the free class. Our teachers are four and a half hours ahead of Irish time in summer and five and a half in winter.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens after I send the form?</h3>
+        <p>We phone you at a reasonable Irish hour and arrange the free class. There is no charge unless you continue.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Neighbouring subjects.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/build-real-ai-projects-ireland">Build real AI projects in Ireland</a></h3><p>A finished project, start to finish.</p></div>
+      <div><h3><a class="ag-inline-link" href="/data-science-course-ireland">Data science course in Ireland</a></h3><p>The data work underneath.</p></div>
+      <div><h3><a class="ag-inline-link" href="/learn-to-think-not-just-use-ai-tools-ireland">Learn to think, not just use AI tools</a></h3><p>The judgement side.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-agents-course-for-professionals-ireland">AI agents course for professionals</a></h3><p>Agents at work.</p></div>
+      <div><h3><a class="ag-inline-link" href="/best-python-classes-online-ireland">Best Python classes online in Ireland</a></h3><p>The language for all of it.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-ireland">AI and machine learning classes in Ireland</a></h3><p>The national AI page.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Compute your first baseline in a free class</h2>
+        <p class="ag-lede">Leave a number and we will ring at a time that suits you in Ireland. In the free class you take a real Irish dataset, define a task with a teacher and work out the number any model would have to beat.</p>
+        <p class="ag-mt-40">Prefer to read first? Try <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, the <a class="ag-inline-link" href="/courses">course syllabuses</a>, and <a class="ag-inline-link" href="/student-labs">projects our students published</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Ireland%20and%20would%20like%20a%20free%20first%20class%20on%20training%20AI%20models." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'lta',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp is free from an Irish number and usually reaches us fastest. Ours is an Indian number, because our teachers are in India, and we keep no Irish office.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_lta(event)" novalidate>
+          <div class="ag-field">
+            <label for="ie-name">Your name</label>
+            <input id="ie-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ie-phone">Phone or WhatsApp, Ireland +353</label>
+            <input id="ie-phone" type="tel" name="phone" placeholder="87 123 4567" required>
+          </div>
+          <div class="ag-field">
+            <label for="ie-age">Learner age group</label>
+            <select id="ie-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card, no obligation, one call.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Training</h4><ul><li><a href="/build-real-ai-projects-ireland">Build real AI projects</a></li><li><a href="/data-science-course-ireland">Data science</a></li><li><a href="/learn-to-think-not-just-use-ai-tools-ireland">Learn to think</a></li><li><a href="/coding-roadmap">The coding roadmap</a></li></ul></div>
+      <div><h4>Ireland</h4><ul><li><a href="/ai-and-machine-learning-classes-in-ireland">AI classes in Ireland</a></li><li><a href="/coding-classes-in-ireland">Coding classes in Ireland</a></li><li><a href="/ai-agents-course-for-students-ireland">AI agents for students</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Training, splitting and measuring, on Irish data</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitLead_lta = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Ireland phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+353', countryIso: 'IE', countryName: 'Ireland',
+      source: 'learn-to-train-ai-not-just-prompt-it-ireland-inline', meta: { name: name, age: age, page: 'learn-to-train-ai-not-just-prompt-it-ireland' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+</body>
+</html>
