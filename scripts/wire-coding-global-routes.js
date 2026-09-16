@@ -261,6 +261,7 @@ const MARKETS = [
   ['best-coding-class-in-waterford', 'Waterford, Ireland'],
   ['coding-classes-in-county-wexford', 'County Wexford, Ireland'],
   ['coding-classes-in-county-louth', 'County Louth, Ireland'],
+  ['coding-classes-in-county-carlow', 'County Carlow, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

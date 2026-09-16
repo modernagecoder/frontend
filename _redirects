@@ -2666,4 +2666,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-county-louth /src/pages/coding-classes-in-county-louth.html 200
 /coding-classes-in-county-louth.md /src/pages/coding-classes-in-county-louth.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-county-carlow /src/pages/coding-classes-in-county-carlow.html 200
+/coding-classes-in-county-carlow.md /src/pages/coding-classes-in-county-carlow.md 200
 /* /src/pages/404.html 404
