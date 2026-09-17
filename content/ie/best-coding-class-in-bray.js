@@ -13,7 +13,7 @@
 
 module.exports = {
   clusterName: 'Ireland',
-  hub: { group: 'town', tag: 'BRAY', blurb: 'The largest town in Wicklow, with a project on an age table that looks like a trend and is not one.' },
+  hub: { group: 'town', tag: 'BRAY', blurb: 'Fewer small children than ten-year-olds is not a decline. Reading a snapshot properly in the largest town in Wicklow.' },
   market: { iso: 'IE', dial: '+353', name: 'Ireland', locale: 'en_IE', geoRegion: 'IE', phoneLabel: 'Irish mobile number', phonePlaceholder: '87 123 4567', gradeLabel: 'Class, year or age' },
   slug: 'best-coding-class-in-bray',
   code: 'bry',
@@ -83,7 +83,7 @@ module.exports = {
         { kind: 'grid3', mt: true, cells: [
           { h3: 'What the table is', p: 'A count of who lived in Bray on one day in April 2022, sorted by how old each person was. Age runs left to right like time, which is exactly what makes it so easy to misread as a history of the town.' },
           { h3: 'Why the slope is not a trend', p: 'The 2,245 residents aged ten to fourteen were never the same people as the 1,704 aged under five. Nobody moved between those rows. A smaller younger band can come from fewer births, from families moving out, from families with older children moving in, or from all three at once, and this table separates none of them.' },
-          { h3: 'The comparison that settles it', p: 'All towns combined show the same shape, 211,241 under five against 257,812 aged ten to fourteen. Bray at 1,704 against 2,245 is close to that national proportion by our arithmetic, so a Bray-specific explanation is being invented for a national pattern.' }
+          { h3: 'The comparison that settles it', p: 'All towns combined show the same shape, 211,241 under five against 257,812 aged ten to fourteen. That is a youngest band at 81.9% of the ten to fourteen band, against 75.9% in Bray by our arithmetic, so the slope runs through the whole country and is somewhat steeper here.' }
         ] },
         { kind: 'callout', h3: 'Cross-section, not history', p: 'A single snapshot sorted by any quantity that grows with time will look like a trend. Customers by tenure. Employees by years of service. Files by age. Accounts by signup month. In each case the oldest group has survived something the newest group has not yet faced, and the ones who left are simply absent from the picture. The fix is to name the question first: if the question is about change, one snapshot cannot answer it, and no amount of clever plotting inside that snapshot will help.',
         },

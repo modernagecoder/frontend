@@ -15,7 +15,7 @@
 
 module.exports = {
   clusterName: 'Ireland',
-  hub: { group: 'town', tag: 'DROGHEDA', blurb: 'A Boyne town spanning two counties, with a project on why a figure you calculate cannot borrow an official name.' },
+  hub: { group: 'town', tag: 'DROGHEDA', blurb: 'One numerator, two defensible denominators, and a name the figure has not earned. On the Boyne, across two counties.' },
   market: { iso: 'IE', dial: '+353', name: 'Ireland', locale: 'en_IE', geoRegion: 'IE', phoneLabel: 'Irish mobile number', phonePlaceholder: '87 123 4567', gradeLabel: 'Class, year or age' },
   slug: 'best-coding-class-in-drogheda',
   code: 'dro',

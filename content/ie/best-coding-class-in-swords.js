@@ -17,7 +17,7 @@
 
 module.exports = {
   clusterName: 'Ireland',
-  hub: { group: 'town', tag: 'SWORDS', blurb: 'Fingal\'s county town, with a project on a census row labelled State that leaves out a million and a half people.' },
+  hub: { group: 'town', tag: 'SWORDS', blurb: 'A census row labelled State that leaves out a million and a half people, read in the county town of Fingal.' },
   market: { iso: 'IE', dial: '+353', name: 'Ireland', locale: 'en_IE', geoRegion: 'IE', phoneLabel: 'Irish mobile number', phonePlaceholder: '87 123 4567', gradeLabel: 'Class, year or age' },
   slug: 'best-coding-class-in-swords',
   code: 'swd',

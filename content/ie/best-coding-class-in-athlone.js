@@ -16,7 +16,7 @@
 
 module.exports = {
   clusterName: 'Ireland',
-  hub: { group: 'town', tag: 'ATHLONE', blurb: 'A Shannon town in the midlands, with a project on why an average of a category means nothing at all.' },
+  hub: { group: 'town', tag: 'ATHLONE', blurb: 'Eleven qualifications, three different averages, not one of them held by anybody. Data work on the Shannon.' },
   market: { iso: 'IE', dial: '+353', name: 'Ireland', locale: 'en_IE', geoRegion: 'IE', phoneLabel: 'Irish mobile number', phonePlaceholder: '87 123 4567', gradeLabel: 'Class, year or age' },
   slug: 'best-coding-class-in-athlone',
   code: 'ath',

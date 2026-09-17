@@ -19,7 +19,7 @@
 
 module.exports = {
   clusterName: 'Ireland',
-  hub: { group: 'town', tag: 'LEIXLIP', blurb: 'A two-station commuter town in County Kildare, with a project on why a town\'s census describes its residents and not its employers.' },
+  hub: { group: 'town', tag: 'LEIXLIP', blurb: 'Two railway stations, 3,357 residents working in Dublin, and a table that describes where people live rather than where the jobs are.' },
   market: { iso: 'IE', dial: '+353', name: 'Ireland', locale: 'en_IE', geoRegion: 'IE', phoneLabel: 'Irish mobile number', phonePlaceholder: '87 123 4567', gradeLabel: 'Class, year or age' },
   slug: 'best-coding-class-in-leixlip',
   code: 'lxp',

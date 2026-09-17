@@ -13,7 +13,7 @@
 
 module.exports = {
   clusterName: 'Ireland',
-  hub: { group: 'town', tag: 'CARRIGALINE', blurb: 'A harbour-side town south of Cork city, with a project on two percentages from one number that mean opposite things.' },
+  hub: { group: 'town', tag: 'CARRIGALINE', blurb: 'South of Cork city, where the same 3,232 journeys produce two percentages that say opposite things.' },
   market: { iso: 'IE', dial: '+353', name: 'Ireland', locale: 'en_IE', geoRegion: 'IE', phoneLabel: 'Irish mobile number', phonePlaceholder: '87 123 4567', gradeLabel: 'Class, year or age' },
   slug: 'best-coding-class-in-carrigaline',
   code: 'crg',

@@ -14,7 +14,7 @@
 
 module.exports = {
   clusterName: 'Ireland',
-  hub: { group: 'town', tag: 'ASHBOURNE', blurb: 'A south Meath town on the Dublin road, with a project on why the biggest number in a table is not the majority.' },
+  hub: { group: 'town', tag: 'ASHBOURNE', blurb: 'Walking leads the Ashbourne school run without winning a majority. A south Meath town, and the words most and most common.' },
   market: { iso: 'IE', dial: '+353', name: 'Ireland', locale: 'en_IE', geoRegion: 'IE', phoneLabel: 'Irish mobile number', phonePlaceholder: '87 123 4567', gradeLabel: 'Class, year or age' },
   slug: 'best-coding-class-in-ashbourne',
   code: 'asb',

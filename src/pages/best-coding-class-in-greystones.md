@@ -50,7 +50,7 @@ The same 21,701 usual residents of Greystones and Delgany, counted twice in Cens
 | India | 178 | 99 |
 | Other EU countries | 892 | 820 |
 | Rest of World | 1,474 | 707 |
-| Not stated | No row published | 440 |
+| Not stated | No value returned | 440 |
 
 ### Two answers to "how Irish is the town"
 
@@ -62,7 +62,7 @@ The blocks are separate counts of the same population, not a before and after. S
 
 ### Even the missing answers differ
 
-The citizenship block records 440 residents who did not state one. The birthplace block publishes no not stated row at all, so the two are not even incomplete in the same way.
+The citizenship block records 440 residents who did not state one. The birthplace block carries the same heading and returns no value against it, so the two are not even incomplete in the same way.
 
 ### The everyday version of this mistake
 

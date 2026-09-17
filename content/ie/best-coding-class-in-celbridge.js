@@ -17,7 +17,7 @@
 
 module.exports = {
   clusterName: 'Ireland',
-  hub: { group: 'town', tag: 'CELBRIDGE', blurb: 'A Liffey town in County Kildare, with a project on a striking cycling figure that the census records but cannot explain.' },
+  hub: { group: 'town', tag: 'CELBRIDGE', blurb: '763 cyclists on the school run in one Liffey town. The census records it and can never tell you why.' },
   market: { iso: 'IE', dial: '+353', name: 'Ireland', locale: 'en_IE', geoRegion: 'IE', phoneLabel: 'Irish mobile number', phonePlaceholder: '87 123 4567', gradeLabel: 'Class, year or age' },
   slug: 'best-coding-class-in-celbridge',
   code: 'clb',

@@ -15,7 +15,7 @@
 
 module.exports = {
   clusterName: 'Ireland',
-  hub: { group: 'town', tag: 'MALAHIDE', blurb: 'A coastal town in Fingal, with a project on a census chart that rises at the end only because one band is twice as wide.' },
+  hub: { group: 'town', tag: 'MALAHIDE', blurb: 'Why the journey-time chart bends upwards on this Fingal coast: one band thirty minutes wide, beside bands of fifteen.' },
   market: { iso: 'IE', dial: '+353', name: 'Ireland', locale: 'en_IE', geoRegion: 'IE', phoneLabel: 'Irish mobile number', phonePlaceholder: '87 123 4567', gradeLabel: 'Class, year or age' },
   slug: 'best-coding-class-in-malahide',
   code: 'mlh',

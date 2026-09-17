@@ -13,7 +13,7 @@
 
 module.exports = {
   clusterName: 'Ireland',
-  hub: { group: 'town', tag: 'RATOATH', blurb: 'A Meath commuter town with unusually full houses, and a project on the difference between a household and a person.' },
+  hub: { group: 'town', tag: 'RATOATH', blurb: 'Nine in ten houses here have broadband. How many people that covers is a different question, and the tables do not answer it.' },
   market: { iso: 'IE', dial: '+353', name: 'Ireland', locale: 'en_IE', geoRegion: 'IE', phoneLabel: 'Irish mobile number', phonePlaceholder: '87 123 4567', gradeLabel: 'Class, year or age' },
   slug: 'best-coding-class-in-ratoath',
   code: 'rto',

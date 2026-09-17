@@ -15,7 +15,7 @@
 
 module.exports = {
   clusterName: 'Ireland',
-  hub: { group: 'town', tag: 'NAAS', blurb: 'The county town of Kildare, with a project on the column in every table that is labelled Other and answers nothing.' },
+  hub: { group: 'town', tag: 'NAAS', blurb: 'Kildare\'s county town, where the second most common birthplace cannot be named because the table calls it Rest of World.' },
   market: { iso: 'IE', dial: '+353', name: 'Ireland', locale: 'en_IE', geoRegion: 'IE', phoneLabel: 'Irish mobile number', phonePlaceholder: '87 123 4567', gradeLabel: 'Class, year or age' },
   slug: 'best-coding-class-in-naas',
   code: 'nas',

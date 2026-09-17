@@ -59,7 +59,7 @@ The 2,245 residents aged ten to fourteen were never the same people as the 1,704
 
 ### The comparison that settles it
 
-All towns combined show the same shape, 211,241 under five against 257,812 aged ten to fourteen. Bray at 1,704 against 2,245 is close to that national proportion by our arithmetic, so a Bray-specific explanation is being invented for a national pattern.
+All towns combined show the same shape, 211,241 under five against 257,812 aged ten to fourteen. That is a youngest band at 81.9% of the ten to fourteen band, against 75.9% in Bray by our arithmetic, so the slope runs through the whole country and is somewhat steeper here.
 
 ### Cross-section, not history
 

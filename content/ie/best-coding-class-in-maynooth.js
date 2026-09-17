@@ -18,7 +18,7 @@
 
 module.exports = {
   clusterName: 'Ireland',
-  hub: { group: 'town', tag: 'MAYNOOTH', blurb: 'The university town in north Kildare, with a project on a census table that quietly leaves out everyone still studying.' },
+  hub: { group: 'town', tag: 'MAYNOOTH', blurb: 'Ten thousand adults in the education table, thirteen thousand in the town: who a Kildare university town\'s figures leave out.' },
   market: { iso: 'IE', dial: '+353', name: 'Ireland', locale: 'en_IE', geoRegion: 'IE', phoneLabel: 'Irish mobile number', phonePlaceholder: '87 123 4567', gradeLabel: 'Class, year or age' },
   slug: 'best-coding-class-in-maynooth',
   code: 'myn',
