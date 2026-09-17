@@ -13364,5 +13364,52 @@
       "Correcting the eircode printed on the station page: sources are quoted as they stand and the discrepancy is stated instead.",
       "Treating the bounds as a forecast or as evidence about any other day: the census records one day in April 2022."
     ]
+  },
+  "best-coding-class-in-tralee": {
+    "market": "Tralee",
+    "bodyClass": "cg-tre",
+    "pageType": "city",
+    "curriculumAuthority": "Tralee, the built-up area \"Tralee, Co Kerry\", CSO Census 2022 Small Area Population town tables, read 18 September 2026. SAP2022T2T1TOWN22: usual residents 25,675, born in Ireland 19,377. SAP2022T15T2TOWN22: households 10,185, broadband 7,622, other 217, none 1,100, not stated 1,246. SAP2022T11T1TOWN22 to work total 10,208: car driver 5,066, on foot 1,459, not stated 1,399, work mainly at or from home 717, car passenger 570, van 567, bicycle 289, bus 69, motorcycle 24, other including lorry 25, train DART or Luas 23; to school, college or childcare total 6,277: car passenger 3,134, on foot 1,244, not stated 838, bus 490, car driver 347, bicycle 142, train 22, work mainly at or from home 39, van 11, other 10, motorcycle 0. SAP2022T11T4TOWN22: 10,208 working persons, 1,974 work from home at least some of the time, 6,383 never, 1,851 not stated. SAP2022T11T5TOWN22: 1,315 children under 15 in childcare, 649 aged 0 to 4 and 666 aged 5 to 14. SAP2022T8T1TOWN22: at work 10,355, students 2,419, retired 3,713, total aged 15 and over 21,299. Encoding facts established by running each operation in this session against the census label for the Kerry town published as Dingle-Daingean Ui Chuis, spelled in the file with a fada: 24 characters against 25 bytes in UTF-8; the UTF-8 bytes read as Latin-1 produce a two-character mangling of the accented letter; encoding to ASCII with errors ignored drops the accented letter entirely; the composed form is 24 code points and the decomposed form 25, and the two are not equal; a plain sort places a name beginning with an accented capital after Zoo. The town dimension of SAP2022T15T2TOWN22 holds 868 labels, of which 16 contain characters outside ASCII: seven in Co Donegal, five in Co Galway, two in Co Cork, one in Co Kerry and one in Co Mayo. Irish Rail, Tralee: \"Casement Station, John Joe Sheehy Road, Tralee, Co. Kerry\", \"Eircode V92 X201\", \"This station is not staffed\", booking office \"Tuesday to Saturday: 06:30 - 13:05 only\", toilets opened for twenty minutes before each departure. Siamsa Tire: \"Town Park, Tralee, Co Kerry\", \"Registered Charity Number (RCN): 20009403. CHY5842\".",
+    "localProject": "Names are data too. The town dimension of the census table carries 868 labels and 16 of them contain characters outside ASCII, seven in Donegal, five in Galway, two in Cork, one in Mayo and one in Kerry, the last being the town published as Dingle-Daingean Ui Chuis. Four ordinary mistakes were executed against that exact label while writing the page: counting bytes rather than characters gives 25 against 24; reading UTF-8 bytes as Latin-1 turns the accented letter into visual rubbish; forcing the label into ASCII drops a letter without raising an error; and the composed and decomposed forms, which display identically, compare as unequal at 24 and 25 code points. A plain sort also places an accented capital after Zoo. The consequence is that a join on names loses exactly those 16 places, silently, while the total still looks plausible, and that sixteen in 868 is small enough to pass a spot check and large enough to make a national figure wrong. The learner writes a checker that reads the labels, reports the count outside ASCII, prints those rows and flags any label that would not match its own normalised form, returning 16 on this table. New family for the cluster: text handling and character encoding.",
+    "requiredMentions": [
+      "25,675",
+      "10,185",
+      "7,622",
+      "10,208",
+      "5,066",
+      "1,459",
+      "6,277",
+      "3,134",
+      "1,974",
+      "1,315",
+      "868",
+      "V92 X201"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T15T2TOWN22, Tralee, Co Kerry: households 10,185, broadband 7,622, other 217, no internet 1,100, not stated 1,246. The same table's town dimension holds 868 labels, 16 of which contain characters outside ASCII, including Dingle-Daingean Ui Chuis in Co Kerry.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T11T1TOWN22, SAP2022T2T1TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T8T1TOWN22, Tralee: to work 10,208 with car driver 5,066, on foot 1,459, mainly at or from home 717, car passenger 570, van 567, bicycle 289, bus 69, train 23, not stated 1,399; to school, college or childcare 6,277 with car passenger 3,134, on foot 1,244, bus 490, car driver 347, bicycle 142; usual residents 25,675; 1,974 work from home at least some of the time, 6,383 never; 1,315 children under 15 in childcare; at work 10,355, students 2,419, retired 3,713.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Tralee station: \"Casement Station, John Joe Sheehy Road, Tralee, Co. Kerry\", \"Eircode V92 X201\"; \"This station is not staffed\"; booking office \"Tuesday to Saturday: 06:30 - 13:05 only\"; toilets opened for twenty minutes before each train departs.",
+        "url": "https://www.irishrail.ie/en-ie/station/tralee-casement"
+      },
+      {
+        "claim": "Siamsa Tire, theatre and arts centre: \"Town Park, Tralee, Co Kerry\"; \"Registered Charity Number (RCN): 20009403. CHY5842\".",
+        "url": "https://www.siamsatire.com/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any encoding claim quoted from memory: every operation on the page was executed against the actual census label in this session.",
+      "The Irish-language form of Tralee: the Placenames Database served a bot-verification page rather than content, and no substitute source was used.",
+      "Any claim about how the CSO stores or serves its files beyond what reading them showed.",
+      "The census town-list population of Tralee and the Kerry County Council eircode: the County Kerry page owns both.",
+      "Any reason for the town's travel shares or its level of non-response.",
+      "Reproducing the accented spellings in the sixteen-label table: they are printed without marks deliberately, because the page is about what is lost when marks go missing."
+    ]
   }
 }
