@@ -12778,5 +12778,57 @@
       "Any reason for the share of Naas residents who drive to work, or for the size of any group in these tables.",
       "Naas Racecourse: its site returned a rate-limit response rather than content, so nothing is quoted from it."
     ]
+  },
+  "best-coding-class-in-athlone": {
+    "market": "Athlone",
+    "bodyClass": "cg-ath",
+    "pageType": "city",
+    "curriculumAuthority": "Athlone, the built-up area published as \"Athlone, Counties Westmeath & Roscommon\", CSO Census 2022 Small Area Population town tables, read 18 September 2026. SAP2022T10T4TOWN22, highest level of education completed, total 14,439: no formal education 360, primary 1,081, lower secondary 1,772, upper secondary 2,767, technical or vocational 974, advanced certificate or completed apprenticeship 566, higher certificate 774, ordinary bachelor degree or national diploma 1,174, honours bachelor degree or professional qualification 1,814, postgraduate diploma or degree 1,593, doctorate or higher 132, not stated 1,432; the eleven stated categories sum to 13,007 and the running totals are 360, 1,441, 3,213, 5,980, 6,954, 7,520, 8,294, 9,468, 11,282, 12,875 and 13,007. Our arithmetic on that distribution: weighted mean 5.82 numbering the rows 1 to 11, 5.85 with the technical or vocational and advanced certificate rows exchanged, 5.35 on a ten-point numbering that merges those two; median category technical or vocational qualification, since half of 13,007 is 6,503.5 and the running total reaches 6,954 there; higher certificate or above 5,487, which is 42.2 percent. SAP2022T2T1TOWN22 usual residents 22,664. SAP2022T15T2TOWN22: households 8,439, broadband 6,649, other 162, none 665, not stated 963. SAP2022T11T1TOWN22 to work total 9,794: car driver 4,898, on foot 1,044, mainly at or from home 968, car passenger 541, bus minibus or coach 391, van 376, bicycle 251, train DART or Luas 121, other including lorry 30, motorcycle or scooter 14, not stated 1,160; to school, college or childcare total 5,877: car passenger 2,742, on foot 1,178, bus 845, car driver 178, bicycle 119, train 80. SAP2022T11T4TOWN22: 9,794 working persons, 2,723 work from home at least some of the time, 5,480 never, 1,591 not stated. SAP2022T11T5TOWN22: 1,351 children under 15 in childcare, 606 aged 0 to 4 and 745 aged 5 to 14. SAP2022T10T2TOWN22: 1,938 still at school or college. Irish Rail, Athlone station: \"Southern Station Road Athlone Co. Westmeath\", \"Eircode N37 DF24\", routes \"Dublin Heuston - Galway\", \"Dublin Heuston - Westport and Ballina\", \"Galway - Limerick\", \"Spaces : 96\", \"Disabled Parking : 6\", \"Electric Car Charging : 2\", booking office \"Monday to Friday: 07:45 - 12:45 and 13:45 - 16:00\", \"Ecofill Triple filtered water refill unit\". Athlone Castle Visitor Centre: \"St Peter's Square, Athlone, County Westmeath, N37 A6D7\"; \"Athlone Castle Visitor Centre: Closure & Redevelopment Update\"; \"The reopening is likely to extend into 2027\".",
+    "localProject": "What the numbers on a label are for. The Athlone education table publishes eleven qualification categories in order, and 13,007 residents stated one of them. Numbering the categories 1 to 11 and weighting by those counts gives a mean of 5.82; exchanging the technical or vocational row with the advanced certificate row gives 5.85; a ten-point numbering that merges the two gives 5.35. All three are correct arithmetic and none corresponds to a qualification anybody holds, because the labels carry an order but no measured distance. What the order does support is a middle: half of 13,007 is 6,503.5, the running total passes it inside the technical or vocational group, so that is the median category, reported with the stated assumption that the published order is a ranking. The defensible summary for the page is 5,487 of 13,007, or 42.2 percent, holding a higher certificate or above. The travel table is then used as the nominal contrast: its modes have no order, so only counts, shares and the most common value, car driver at 4,898 of 9,794, can be quoted, and any grouping such as bus plus train at 512 or walking plus cycling at 1,295 is labelled as ours. New to the cluster: what arithmetic a column allows, and the difference between named, ordered and numeric data.",
+    "requiredMentions": [
+      "22,664",
+      "8,439",
+      "6,649",
+      "9,794",
+      "4,898",
+      "5,877",
+      "2,742",
+      "2,767",
+      "1,814",
+      "13,007",
+      "N37 DF24",
+      "N37 A6D7"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T10T4TOWN22, highest level of education completed, Athlone, Counties Westmeath & Roscommon: no formal education 360, primary 1,081, lower secondary 1,772, upper secondary 2,767, technical or vocational 974, advanced certificate or completed apprenticeship 566, higher certificate 774, ordinary bachelor degree or national diploma 1,174, honours bachelor degree or professional qualification 1,814, postgraduate diploma or degree 1,593, doctorate 132, not stated 1,432, total 14,439.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T10T4TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T1TOWN22, means of travel, Athlone: to work 9,794 with car driver 4,898, on foot 1,044, mainly at or from home 968, car passenger 541, bus 391, van 376, bicycle 251, train 121, not stated 1,160; to school, college or childcare 5,877 with car passenger 2,742, on foot 1,178, bus 845, car driver 178, bicycle 119, train 80.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T10T2TOWN22, Athlone: usual residents 22,664; households 8,439, broadband 6,649, no internet 665, not stated 963; 2,723 work from home at least some of the time, 5,480 never, 1,591 not stated; 1,351 children under 15 in childcare; 1,938 still at school or college.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Athlone station: \"Southern Station Road Athlone Co. Westmeath\", \"Eircode N37 DF24\"; routes \"Dublin Heuston - Galway\", \"Dublin Heuston - Westport and Ballina\", \"Galway - Limerick\"; \"Spaces : 96\", \"Disabled Parking : 6\", \"Electric Car Charging : 2\"; booking office \"Monday to Friday: 07:45 - 12:45 and 13:45 - 16:00\"; \"Ecofill Triple filtered water refill unit\".",
+        "url": "https://www.irishrail.ie/en-ie/station/athlone"
+      },
+      {
+        "claim": "Athlone Castle Visitor Centre: \"St Peter's Square, Athlone, County Westmeath, N37 A6D7\"; \"Athlone Castle Visitor Centre: Closure & Redevelopment Update\"; \"The reopening is likely to extend into 2027\".",
+        "url": "https://www.athlonecastle.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any average education level for Athlone presented as a finding: the three values 5.82, 5.85 and 5.35 appear only as a demonstration that the number follows the numbering.",
+      "A claim that the middle rungs of the education list are strictly ranked: the median category is reported with the published order stated as an assumption.",
+      "The cross-county town as the page's lesson: the Louth and Carlow pages own the cross-county town trap, so the two-county label is stated as a fact only.",
+      "The census town-list population of Athlone, the Technological University of the Shannon address and the Athlone Civic Centre address: the County Westmeath page owns all three.",
+      "Any residual-category lesson from the Athlone industry table: the Naas page owns that project.",
+      "Athlone Castle as somewhere to visit, or any euro admission price: the centre's own site says it is closed for redevelopment.",
+      "Any reason for the share of Athlone residents who did not state a travel mode or a qualification."
+    ]
   }
 }
