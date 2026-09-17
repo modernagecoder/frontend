@@ -13411,5 +13411,52 @@
       "Any reason for the town's travel shares or its level of non-response.",
       "Reproducing the accented spellings in the sixteen-label table: they are printed without marks deliberately, because the page is about what is lost when marks go missing."
     ]
+  },
+  "best-coding-class-in-newbridge": {
+    "market": "Newbridge",
+    "bodyClass": "cg-nwb",
+    "pageType": "city",
+    "curriculumAuthority": "Newbridge, the built-up area \"Newbridge, Co Kildare\", CSO Census 2022 Small Area Population town tables, read 18 September 2026. SAP2022T11T1TOWN22 to work total 11,031: car driver 5,841, on foot 1,092, work mainly at or from home 1,036, van 611, train DART or Luas 594, car passenger 593, not stated 566, bus 424, bicycle 201, motorcycle 47, other including lorry 26; to school, college or childcare total 6,603: car passenger 2,786, on foot 2,148, bus 494, not stated 453, train 274, bicycle 203, car driver 201, work mainly at or from home 32, other 7, van 5, motorcycle 0. Counted by us across the same table on the same date: the town dimension holds 868 labels; 360 of them have fewer than 200 working residents; the smallest is Dumha Thuama, Co Mayo with 33, followed by Ballindrait, Co Donegal 37, Malin, Co Donegal 39 and Dromineer, Co Tipperary 43; in 260 towns either the bicycle cell or the train cell of the work block holds exactly one person; in 307 towns the bicycle cell is zero. Dumha Thuama has 33 working residents, 0 cycling and 1 by train. SAP2022T2T1TOWN22: usual residents 24,253, born in Ireland 18,530. SAP2022T15T2TOWN22: households 8,308, broadband 7,184, other 146, none 497, not stated 481. SAP2022T11T4TOWN22: 11,031 working persons, 3,082 work from home at least some of the time, 6,916 never, 1,033 not stated. SAP2022T11T5TOWN22: 1,521 children under 15 in childcare, 620 aged 0 to 4 and 901 aged 5 to 14. SAP2022T8T1TOWN22: at work 11,082, students 2,120, retired 2,501, total aged 15 and over 19,229. Irish Rail, Newbridge station: \"Station Road, Newbridge, Co. Kildare\", \"Eircode W12 CP28\", station and booking office \"Monday to Saturday: 06:00 - 00:00\", \"Sunday : 09:00- 23:00\", \"The toilets at this station are closed until further notice\". Newbridge College: \"Newbridge, Co. Kildare, W12C241\", \"a co-educational voluntary secondary school established by the Dominican order in 1852\", \"under the trusteeship of the Provincial of the Irish Province of Dominicans\". Riverbank Arts Centre returned a refusal to automated requests on 18 September 2026 and is not quoted.",
+    "localProject": "A count of one is a person. Newbridge is large, 11,031 working residents with 594 giving a train as their main means and 201 cycling, so no cell on the page comes near identifying anybody. The same column across all 868 town labels is different: 360 towns have fewer than 200 working residents, the smallest being Dumha Thuama, Co Mayo at 33, and in 260 towns either the bicycle or the train cell holds exactly one person. A published single-variable count stays a count; the risk appears when a reader splits it by another variable or joins it to a second dataset, at which point a record about an identifiable individual has been built out of public files. The page therefore teaches a minimum group size, states that every threshold protects someone and hides something, and sets out four candidate levels with what each costs. Nothing on the page claims to know how the CSO prepares its tables; the duty described is the reader's. The learner writes a suppression guard, a function taking a table and a minimum group size that returns publishable rows, suppressed rows and a reason for each, runs it over the census column at a threshold of five, then over a dataset of their own. New family for the cluster: small cells and disclosure risk.",
+    "requiredMentions": [
+      "24,253",
+      "8,308",
+      "7,184",
+      "11,031",
+      "5,841",
+      "6,603",
+      "2,786",
+      "2,148",
+      "3,082",
+      "1,521",
+      "W12 CP28",
+      "W12C241"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T1TOWN22, means of travel: Newbridge, Co Kildare to work 11,031 with car driver 5,841, on foot 1,092, mainly at or from home 1,036, van 611, train 594, car passenger 593, bus 424, bicycle 201, not stated 566; to school, college or childcare 6,603 with car passenger 2,786, on foot 2,148, bus 494, train 274, bicycle 203, car driver 201. Across the same table: 868 town labels, 360 with fewer than 200 working residents, smallest Dumha Thuama, Co Mayo at 33 with 1 travelling by train, and 260 towns whose bicycle or train cell is exactly 1.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T8T1TOWN22, Newbridge: usual residents 24,253, born in Ireland 18,530; households 8,308, broadband 7,184, no internet 497, not stated 481; 3,082 work from home at least some of the time, 6,916 never, 1,033 not stated; 1,521 children under 15 in childcare; at work 11,082, students 2,120, retired 2,501.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Newbridge station: \"Station Road, Newbridge, Co. Kildare\", \"Eircode W12 CP28\"; station and booking office \"Monday to Saturday: 06:00 - 00:00\" and \"Sunday : 09:00- 23:00\"; \"The toilets at this station are closed until further notice\".",
+        "url": "https://www.irishrail.ie/en-ie/station/newbridge"
+      },
+      {
+        "claim": "Newbridge College: \"Newbridge, Co. Kildare, W12C241\"; \"Newbridge College is a co-educational voluntary secondary school established by the Dominican order in 1852\"; \"under the trusteeship of the Provincial of the Irish Province of Dominicans\".",
+        "url": "https://www.newbridge-college.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim about how the Central Statistics Office prepares, checks or protects its tables: nothing on the page knows that, and the duty described is the reader's.",
+      "Any cross-tabulation or join that would produce a cell describing an identifiable person, including for the small towns named.",
+      "Presenting any threshold as the correct one: each is shown with what it costs and what it protects.",
+      "Riverbank Arts Centre: it refused automated requests on 18 September 2026, so nothing is quoted from it and no substitute source was used in its place.",
+      "The census town-list population of Newbridge and the Kildare library eircode: the County Kildare page owns both.",
+      "Any reason for the town's rail or cycling shares."
+    ]
   }
 }

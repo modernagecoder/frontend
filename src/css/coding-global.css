@@ -941,3 +941,4 @@
 .cg-root.cg-crl  { --cg-accent: #2E4A2E; --cg-accent-soft: rgba(46,74,46,.10); }   /* Carlow town: a dark forest green from the solver, apart from the County Carlow accent and the Kilkenny and Laois pages next to it */
 .cg-root.cg-kil  { --cg-accent: #8A4A6B; --cg-accent-soft: rgba(138,74,107,.10); }   /* Kilkenny: a damson from the solver, unlike the County Kilkenny ochre and the Carlow and Waterford accents nearby */
 .cg-root.cg-tre  { --cg-accent: #2F6B6B; --cg-accent-soft: rgba(47,107,107,.10); }   /* Tralee: a bay teal from the solver, apart from the Kerry county accent and the Limerick and Cork blues along the coast */
+.cg-root.cg-nwb  { --cg-accent: #2E6B8A; --cg-accent-soft: rgba(46,107,138,.10); }   /* Newbridge: a Liffey blue from the solver, kept apart from the Kildare county accent and the four other Kildare town pages */

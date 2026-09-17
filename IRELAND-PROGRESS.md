@@ -110,7 +110,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 75 | best-coding-class-in-ennis (enn, #8A5A2E) | town | 3,134 | 2% vs best-coding-class-in-ratoath | a rank is not a fact | ranking stability; inclusion cut | a887f141 |
 | 76 | best-coding-class-in-carlow (crl, #2E4A2E) | town | 3,109 | 2.8% vs best-coding-class-in-drogheda | write the recipe, not the number | provenance and reproducibility | 7f3a9c15 |
 | 77 | best-coding-class-in-kilkenny (kil, #8A4A6B) | town | 3,126 | 2.3% vs best-coding-class-in-ratoath | no margin of error, and still a range | bounds under non-response; kinds of uncertainty | 5f6ebef6 |
-| 78 | best-coding-class-in-tralee (tre, #2F6B6B) | town | 3,181 | 2.8% vs best-coding-class-in-kilkenny | names are data too | character encoding; 16 of 868 labels | (this commit) |
+| 78 | best-coding-class-in-tralee (tre, #2F6B6B) | town | 3,181 | 2.8% vs best-coding-class-in-kilkenny | names are data too | character encoding; 16 of 868 labels | 75541616 |
+| 79 | best-coding-class-in-newbridge (nwb, #2E6B8A) | town | 3,150 | 2.6% vs best-coding-class-in-tralee | a count of one is a person | small cells and disclosure risk | (this commit) |
 
 ## Skipped (kill criterion)
 

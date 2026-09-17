@@ -2850,4 +2850,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-tralee /src/pages/best-coding-class-in-tralee.html 200
 /best-coding-class-in-tralee.md /src/pages/best-coding-class-in-tralee.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-newbridge /src/pages/best-coding-class-in-newbridge.html 200
+/best-coding-class-in-newbridge.md /src/pages/best-coding-class-in-newbridge.md 200
 /* /src/pages/404.html 404
