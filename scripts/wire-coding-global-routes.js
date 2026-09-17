@@ -295,6 +295,7 @@ const MARKETS = [
   ['best-coding-class-in-malahide', 'Malahide, Fingal, Ireland'],
   ['best-coding-class-in-naas', 'Naas, County Kildare, Ireland'],
   ['best-coding-class-in-athlone', 'Athlone, County Westmeath, Ireland'],
+  ['best-coding-class-in-greystones', 'Greystones, County Wicklow, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

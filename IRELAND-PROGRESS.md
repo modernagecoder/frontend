@@ -98,7 +98,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 63 | best-coding-class-in-celbridge (clb, #4A6B7A) | cg- town | 2,960 | 3.7% vs best-coding-class-in-leixlip | what, not why | 763 cycle to school (13.3% vs 3.7% all towns): checked, not explained | a55c27c0 |
 | 64 | best-coding-class-in-malahide (mlh, #4B5566) | town | 3,380 | 1.5% vs best-coding-class-in-swords | bands of different widths | unequal bin widths; open-ended top band | 782d0e21 |
 | 65 | best-coding-class-in-naas (nas, #5C3F52) | town | 3,302 | 1.8% vs coding-classes-in-county-tipperary | the leftover column | residual categories vs non-response | b5347eb2 |
-| 66 | best-coding-class-in-athlone (ath, #6A4F3A) | town | 3,324 | 1.9% vs best-coding-class-in-naas | what the numbers on a label are for | averaging ordered labels; nominal vs ordinal vs interval | (this commit) |
+| 66 | best-coding-class-in-athlone (ath, #6A4F3A) | town | 3,324 | 1.9% vs best-coding-class-in-naas | what the numbers on a label are for | averaging ordered labels; nominal vs ordinal vs interval | f60db34f |
+| 67 | best-coding-class-in-greystones (gry, #56506A) | town | 3,161 | 1.4% vs best-coding-class-in-athlone | born where, citizen of where | conflating birthplace with citizenship | (this commit) |
 
 ## Skipped (kill criterion)
 

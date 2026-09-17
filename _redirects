@@ -2802,4 +2802,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-athlone /src/pages/best-coding-class-in-athlone.html 200
 /best-coding-class-in-athlone.md /src/pages/best-coding-class-in-athlone.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-greystones /src/pages/best-coding-class-in-greystones.html 200
+/best-coding-class-in-greystones.md /src/pages/best-coding-class-in-greystones.md 200
 /* /src/pages/404.html 404
