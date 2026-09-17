@@ -13172,5 +13172,52 @@
       "Dundalk Institute of Technology's self-description and the county figures: the County Louth page owns both.",
       "The cross-border route listed on the station page: Northern Ireland is outside this cluster's scope and is not discussed."
     ]
+  },
+  "best-coding-class-in-navan": {
+    "market": "Navan",
+    "bodyClass": "cg-nvn",
+    "pageType": "city",
+    "curriculumAuthority": "Navan, the built-up area \"Navan, Co Meath\", CSO Census 2022 Small Area Population town tables, read 18 September 2026. SAP2022T11T1TOWN22, to work, total 15,024: car driver 8,717, on foot 1,312, work mainly at or from home 1,270, bus minibus or coach 977, van 930, car passenger 824, not stated 688, bicycle 179, train DART or Luas 45, motorcycle or scooter 44, other including lorry 38. Our division of those counts gives, to two decimals, 58.02, 8.73, 8.45, 6.50, 6.19, 5.48, 4.58, 1.19, 0.30, 0.29 and 0.25, summing to 99.98, and to one decimal 58.0, 8.7, 8.5, 6.5, 6.2, 5.5, 4.6, 1.2, 0.3, 0.3 and 0.3, summing to 100.1. To school, college or childcare, total 9,738: car passenger 3,717, on foot 3,188, bus 1,463, not stated 768, bicycle 273, car driver 231, work mainly at or from home 49, train 25, van 14, other including lorry 10, motorcycle or scooter 0; the same one-decimal method on that column sums to 100.0. SAP2022T2T1TOWN22: usual residents 33,707, born in Ireland 24,319. SAP2022T15T2TOWN22: households 11,322, broadband 9,762, other 187, none 710, not stated 663. SAP2022T11T4TOWN22: 15,024 working persons, 3,865 work from home at least some of the time, 9,838 never, 1,321 not stated. SAP2022T11T5TOWN22: 2,102 children under 15 in childcare, 928 aged 0 to 4 and 1,174 aged 5 to 14. SAP2022T8T1TOWN22: at work 15,099, students 3,031, retired 2,791. Rounding behaviour checked in this session rather than recalled: Python returns 2 for round(2.5), 0 for round(0.5) and 2 for round(1.5); JavaScript Math.round returns 3, 1 and 2 for the same values; both print 0.1 + 0.2 as 0.30000000000000004. Beaufort College: \"Trim Rd, Navan, Co Meath\", \"Eircode C15PY53\", \"a multi-denominational, co-educational Post-Primary School in Navan, Co. Meath\", LMETB. Solstice Arts Centre: \"Solstice Arts Centre Railway Street Navan, Co. Meath Ireland C15 KWP1\", \"Registered Charity Number (RCN): 20065775\".",
+    "localProject": "The column that adds to 100.1. Each of the eleven rows in Navan's work travel column is divided by the 15,024 working residents and rounded on its own. At one decimal the printed shares total 100.1; at two decimals they total 99.98; the unrounded values total 100. No figure is wrong: eleven independent roundings each move a value by up to five hundredths and the movements do not cancel. The page sets out the three defensible responses and the cost of each, publishing as-is with a disclosure line, adjusting the largest remainder so that one printed figure is no longer its own rounded share, or printing more decimals and inviting comparisons a single person could flip. The control case is the town's school, college and childcare column, run through identical code, which lands on exactly 100.0, showing that a clean total is luck rather than evidence of correctness. The callout uses rounding behaviour verified in this session: Python rounds halves to even, giving 2 for round(2.5) and 0 for round(0.5), JavaScript Math.round rounds halves upward, giving 3 and 1, and both languages print 0.1 plus 0.2 as 0.30000000000000004. The learner writes a function that returns shares at a stated precision, prints the total of the printed values, applies a largest-remainder adjustment only on request and reports when it has, then repeats the calculation in both languages. New family for the cluster: rounding and false precision.",
+    "requiredMentions": [
+      "33,707",
+      "11,322",
+      "9,762",
+      "15,024",
+      "8,717",
+      "9,738",
+      "3,717",
+      "3,188",
+      "1,463",
+      "2,102",
+      "C15 KWP1",
+      "C15PY53"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T1TOWN22, means of travel, Navan, Co Meath: to work 15,024 with car driver 8,717, on foot 1,312, mainly at or from home 1,270, bus 977, van 930, car passenger 824, not stated 688, bicycle 179, train 45, motorcycle 44, other 38; to school, college or childcare 9,738 with car passenger 3,717, on foot 3,188, bus 1,463, not stated 768, bicycle 273, car driver 231, home 49, train 25, van 14, other 10, motorcycle 0.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T8T1TOWN22, Navan: usual residents 33,707, born in Ireland 24,319; households 11,322, broadband 9,762, other 187, none 710, not stated 663; 3,865 work from home at least some of the time, 9,838 never, 1,321 not stated; 2,102 children under 15 in childcare; at work 15,099, students 3,031, retired 2,791.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Beaufort College: \"Trim Rd, Navan, Co Meath\", \"Eircode C15PY53\"; \"Beaufort College is a multi-denominational, co-educational Post-Primary School in Navan, Co. Meath\" under Louth and Meath Education and Training Board.",
+        "url": "https://www.beaufortcollege.ie/"
+      },
+      {
+        "claim": "Solstice Arts Centre: \"Solstice Arts Centre Railway Street Navan, Co. Meath Ireland C15 KWP1\"; \"Registered Charity Number (RCN): 20065775\".",
+        "url": "https://www.solsticeartscentre.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any suggestion that the census table is wrong because the rounded shares total 100.1: the counts are exact and each share is correctly rounded.",
+      "Silently adjusting a row so a printed column totals a hundred: any adjustment on this page would be named, and none is made.",
+      "Any reason for the size of any travel share in Navan.",
+      "Rounding claims from memory: the Python and JavaScript behaviour quoted here was run in this session before being written.",
+      "The census town-list population of Navan and the Meath County Council eircode: the County Meath page owns both.",
+      "Solstice Arts Centre ticket prices, and any claim about either institution beyond its own published page."
+    ]
   }
 }

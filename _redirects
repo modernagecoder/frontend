@@ -2830,4 +2830,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-dundalk /src/pages/best-coding-class-in-dundalk.html 200
 /best-coding-class-in-dundalk.md /src/pages/best-coding-class-in-dundalk.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-navan /src/pages/best-coding-class-in-navan.html 200
+/best-coding-class-in-navan.md /src/pages/best-coding-class-in-navan.md 200
 /* /src/pages/404.html 404

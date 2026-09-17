@@ -936,3 +936,4 @@
 .cg-root.cg-rto  { --cg-accent: #524A7A; --cg-accent-soft: rgba(82,74,122,.10); }   /* Ratoath: a deep iris from the solver, set apart from the Meath county indigo and the Ashbourne green next door */
 .cg-root.cg-crg  { --cg-accent: #7A4A4A; --cg-accent-soft: rgba(122,74,74,.10); }   /* Carrigaline: a brick red from the solver, unlike the Cork city and County Cork accents it sits between */
 .cg-root.cg-dro  { --cg-accent: #2E5B6B; --cg-accent-soft: rgba(46,91,107,.10); }   /* Drogheda: a Boyne slate teal from the solver, distinct from the Louth county ochre and the Meath indigo either side of the town */
+.cg-root.cg-nvn  { --cg-accent: #4A4A2E; --cg-accent-soft: rgba(74,74,46,.10); }   /* Navan: a dark olive from the solver, distinct from the Meath county indigo and from the Ashbourne and Ratoath accents in the same county */
