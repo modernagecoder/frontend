@@ -2842,4 +2842,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-carlow /src/pages/best-coding-class-in-carlow.html 200
 /best-coding-class-in-carlow.md /src/pages/best-coding-class-in-carlow.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-kilkenny /src/pages/best-coding-class-in-kilkenny.html 200
+/best-coding-class-in-kilkenny.md /src/pages/best-coding-class-in-kilkenny.md 200
 /* /src/pages/404.html 404

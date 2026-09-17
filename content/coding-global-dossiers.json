@@ -13317,5 +13317,52 @@
       "Any claim about the nineteen other Carlow labels beyond their existence in the same dimension.",
       "Ticket or event prices from VISUAL: only the published opening hours, address and free gallery admission are quoted."
     ]
+  },
+  "best-coding-class-in-kilkenny": {
+    "market": "Kilkenny",
+    "bodyClass": "cg-kil",
+    "pageType": "city",
+    "curriculumAuthority": "Kilkenny, the built-up area \"Kilkenny, Co Kilkenny\", CSO Census 2022 Small Area Population town tables, read 18 September 2026. SAP2022T11T1TOWN22 to work total 11,832: car driver 6,150, on foot 2,003, work mainly at or from home 1,132, not stated 738, van 559, car passenger 543, bicycle 380, bus minibus or coach 188, train DART or Luas 75, motorcycle 38, other including lorry 26; to school, college or childcare total 6,547: car passenger 3,033, on foot 1,896, bus 594, not stated 569, car driver 225, bicycle 123, train 51, work mainly at or from home 34, van 12, other 7, motorcycle 3. SAP2022T15T2TOWN22: households 10,050, broadband 8,212, other 189, none 903, not stated 746. SAP2022T11T4TOWN22: 11,832 working persons, 3,084 work from home at least some of the time, 7,532 never, 1,216 not stated. SAP2022T2T1TOWN22: usual residents 26,697, born in Ireland 20,938. SAP2022T11T5TOWN22: 1,722 children under 15 in childcare, 788 aged 0 to 4 and 934 aged 5 to 14. SAP2022T8T1TOWN22: at work 12,058, students 2,065, retired 3,672, total aged 15 and over 21,887. Our bounds arithmetic, taking each not-stated row every way it could go: walking to work 2,003 of 11,832 is 16.93 percent at the low end and 23.17 percent if all 738 not-stated walked; cycling 380 gives 3.21 and 9.45 percent; broadband 8,212 of 10,050 households gives 81.71 and 89.13 percent on 746 not stated; education journeys on foot 1,896 of 6,547 gives 28.96 and 37.65 percent on 569 not stated. All-towns comparison for walking to work: 159,162 of 1,625,104, 9.79 percent, rising to 17.88 percent if all 131,336 not-stated walked. Irish Rail, Kilkenny MacDonagh: \"Carlow Road, Kilkenny, Co. Kilkenny\", station open \"06:00 - 23:00\", staffing \"Monday to Saturday: 06:00-23:00\", booking office \"Monday to Friday: 08:00-14:30\", \"There is free wi-fi at the station\"; the eircode is printed there with three characters after the routing key and is quoted as printed rather than corrected. Butler Gallery: \"Butler Gallery, Evans' Home, John's Quay, Kilkenny, Ireland, R95 YX3F\", \"Registered Charity No 20038977. CHY12922\", \"FREE Entry\", \"Thursdays: Late Night 10.00-20.00 Sunday: 11.00-17.00\".",
+    "localProject": "No margin of error, and still a range. The census is a complete count rather than a sample, so no sampling error exists and a confidence interval would be an invented quantity. What does exist is 738 working residents who did not state a means of travel. Taking them every way they could go, the share of Kilkenny working residents walking to work lies between 16.93 and 23.17 percent, cycling between 3.21 and 9.45, broadband households between 81.71 and 89.13 on 746 not stated, and education journeys on foot between 28.96 and 37.65 on 569 not stated. A bound is not an error bar, and the page separates four kinds of doubt: sampling error, absent here; unanswered questions, which arithmetic can bound exactly; self-reported main mode, which compresses mixed journeys; and a single reference day with definitions set by the form, neither of which any calculation improves. The learner writes a function taking counted, not stated and total, returning both bounds and the width, runs it on the four figures and then on a column with almost no missing answers to watch the range collapse. New family for the cluster: kinds of uncertainty.",
+    "requiredMentions": [
+      "26,697",
+      "10,050",
+      "8,212",
+      "11,832",
+      "2,003",
+      "6,547",
+      "3,033",
+      "1,896",
+      "3,084",
+      "1,722",
+      "738",
+      "R95 YX3F"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T1TOWN22, means of travel, Kilkenny, Co Kilkenny: to work 11,832 with car driver 6,150, on foot 2,003, mainly at or from home 1,132, van 559, car passenger 543, bicycle 380, bus 188, train 75, not stated 738; to school, college or childcare 6,547 with car passenger 3,033, on foot 1,896, bus 594, car driver 225, bicycle 123, train 51, not stated 569. All-towns row: on foot 159,162 of 1,625,104 with 131,336 not stated.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T15T2TOWN22, SAP2022T2T1TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T8T1TOWN22, Kilkenny: households 10,050, broadband 8,212, other 189, none 903, not stated 746; usual residents 26,697, born in Ireland 20,938; 3,084 work from home at least some of the time, 7,532 never, 1,216 not stated; 1,722 children under 15 in childcare; at work 12,058, students 2,065, retired 3,672.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Kilkenny MacDonagh station: \"Carlow Road, Kilkenny, Co. Kilkenny\"; station open \"06:00 - 23:00\"; staffing \"Monday to Saturday: 06:00-23:00\"; booking office \"Monday to Friday: 08:00-14:30\"; \"There is free wi-fi at the station\".",
+        "url": "https://www.irishrail.ie/en-ie/station/kilkenny-macdonagh"
+      },
+      {
+        "claim": "Butler Gallery: \"Butler Gallery, Evans' Home, John's Quay, Kilkenny, Ireland, R95 YX3F\"; \"Registered Charity No 20038977. CHY12922\"; \"FREE Entry\"; \"Thursdays: Late Night 10.00-20.00 Sunday: 11.00-17.00\".",
+        "url": "https://www.butlergallery.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any confidence interval or margin of error on a census figure: nobody was sampled, so no such quantity exists.",
+      "Quoting any of the four figures as a single percentage without the not-stated count it depends on.",
+      "Any explanation for the town's walking share: nothing on the page measures distance, compactness or habit.",
+      "Kilkenny Castle and its eircode R95 YRK1: the County Kilkenny page owns them, and the castle page carries euro admission prices we do not reproduce.",
+      "Correcting the eircode printed on the station page: sources are quoted as they stand and the discrepancy is stated instead.",
+      "Treating the bounds as a forecast or as evidence about any other day: the census records one day in April 2022."
+    ]
   }
 }
