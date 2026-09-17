@@ -12723,5 +12723,60 @@
       "Any mean or median journey time for Malahide: the top band is open-ended and no midpoint was assumed.",
       "Fingal County Council's description of the town as half an hour from the city centre: it describes a route, not the census journeys, and is not used to explain any figure here."
     ]
+  },
+  "best-coding-class-in-naas": {
+    "market": "Naas",
+    "bodyClass": "cg-nas",
+    "pageType": "city",
+    "curriculumAuthority": "Naas, the built-up area \"Naas, Co Kildare\", CSO Census 2022 Small Area Population town tables, read 18 September 2026. SAP2022T2T1TOWN22 usual residents by birthplace, total 25,991: Ireland 19,599, Rest of World 2,674, \"Other EU272020 (Exec Ireland & Poland)\" 1,211, United Kingdom 1,131, Poland 1,008, India 368. SAP2022T15T2TOWN22: households 8,817, broadband 8,019, other 102, none 332, not stated 364. SAP2022T11T1TOWN22 to work total 12,713: car driver 7,408, mainly at or from home 1,588, on foot 947, train DART or Luas 536, van 519, bus 468, car passenger 487, bicycle 269, motorcycle 63, other including lorry 32, not stated 396; to school, college or childcare total 6,924: car passenger 3,088, on foot 1,805, bus 842, bicycle 348, car driver 235, train 214, other including lorry 6, not stated 340. SAP2022T11T4TOWN22: 12,713 working persons, 4,895 work from home at least some of the time, 7,008 never, 810 not stated. SAP2022T14T1TOWN22 at work 12,802: commerce and trade 3,654, professional services 3,300, manufacturing industries 1,638, transport and communications 1,356, Other 1,356, public administration 791, building and construction 614, agriculture forestry and fishing 93, summing exactly to 12,802. SAP2022T8T1TOWN22: at work 12,802, students 2,166, retired 2,559, looking after home or family 1,324, total aged 15 and over 20,545. SAP2022T10T4TOWN22 total 16,505: honours bachelor or professional 3,124, postgraduate diploma or degree 2,731, doctorate 201, not stated 787. SAP2022T11T5TOWN22: 2,034 children under 15 in childcare, 1,044 aged 0 to 4 and 990 aged 5 to 14. SAP2022T1T1TOWN22: aged 35 to 39, 2,353; aged 40 to 44, 2,275. CSO table F7070 has no row for Naas, so no city-of-work flow is quoted. Health Service Executive: \"Naas General Hospital\", \"Craddockstown Road, Naas East, Naas, Kildare, W91 AE76\". Irish Rail, Sallins and Naas station: address \"Sallins, Co. Kildare\", \"Eircode W91 XY28\", \"This station is not staffed\", \"This station does not have a booking office\", \"Access to both platforms via ramps from car parks\", \"We have 20 lockers at the moment\", \"There are an additional 200 spaces for commuters\" in \"the Waterways Development\".",
+    "localProject": "The leftover column. In the Naas birthplace table, 19,599 of 25,991 usual residents were born in Ireland, and the largest remaining heading is the residual Rest of World at 2,674, ahead of the United Kingdom at 1,131, Poland at 1,008 and India at 368. With the regional residual of 1,211 added, 3,885 of the 6,392 residents born outside Ireland are in headings that name no country, and the residual alone is 41.8 percent of them by our arithmetic, so the table cannot supply a second most common birthplace. The page separates three kinds of heading, a named place, a residual and a non-response column, and shows the same pattern in the industry table, where Other holds 1,356 residents, exactly level with transport and communications, so any ranking of sectors places a leftover beside a real category. The travel table's leftover is labelled Other (incl. lorry) and holds 32 working residents and 6 school or college travellers, which names one thing inside it. The learner writes a program that tags each heading, totals the residual share, ranks only the named groups and states which questions the table cannot answer. New to the cluster: residual categories and their difference from non-response.",
+    "requiredMentions": [
+      "25,991",
+      "19,599",
+      "2,674",
+      "1,131",
+      "8,817",
+      "8,019",
+      "12,713",
+      "7,408",
+      "3,088",
+      "1,356",
+      "W91 XY28",
+      "W91 AE76"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T2T1TOWN22, usually resident population by birthplace, Naas, Co Kildare: total 25,991; Ireland 19,599; Rest of World 2,674; \"Other EU272020 (Exec Ireland & Poland)\" 1,211; United Kingdom 1,131; Poland 1,008; India 368.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T2T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T14T1TOWN22, persons at work, Naas, Co Kildare: commerce and trade 3,654; professional services 3,300; manufacturing industries 1,638; transport and communications 1,356; Other 1,356; public administration 791; building and construction 614; agriculture, forestry and fishing 93; total 12,802.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T14T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T11T1TOWN22 and SAP2022T11T4TOWN22, Naas, Co Kildare: to work 12,713 with car driver 7,408, mainly at or from home 1,588, on foot 947, train 536, van 519, bus 468, bicycle 269, other including lorry 32; to school, college or childcare 6,924 with car passenger 3,088, on foot 1,805, bus 842, bicycle 348, train 214; 4,895 work from home at least some of the time, 7,008 never, 810 not stated.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T15T2TOWN22, SAP2022T8T1TOWN22, SAP2022T10T4TOWN22 and SAP2022T11T5TOWN22, Naas, Co Kildare: households 8,817, broadband 8,019, no internet 332, not stated 364; students 2,166, retired 2,559, total aged 15 and over 20,545; education table 16,505 with 3,124 honours bachelor or professional, 2,731 postgraduate, 201 doctorate and 787 not stated; 2,034 children under 15 in childcare.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Health Service Executive: \"Naas General Hospital\", address \"Craddockstown Road, Naas East, Naas, Kildare, W91 AE76\".",
+        "url": "https://www2.hse.ie/services/hospitals/naas-general-hospital/"
+      },
+      {
+        "claim": "Irish Rail, Sallins and Naas station: address \"Sallins, Co. Kildare\", \"Eircode W91 XY28\"; \"This station is not staffed\"; \"This station does not have a booking office\"; \"Access to both platforms via ramps from car parks\"; \"We have 20 lockers at the moment\"; \"There are an additional 200 spaces for commuters\" in \"the Waterways Development\".",
+        "url": "https://www.irishrail.ie/en-ie/station/sallins-and-naas"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement about what the Rest of World or Other headings contain beyond what the table names: that is exactly what a residual withholds.",
+      "A reading of the abbreviated heading Other EU272020 (Exec Ireland & Poland) as a typing error: it is quoted as published and its scope is left to be checked.",
+      "The census town-list population of Naas and the Kildare County Council eircode: the County Kildare page owns both.",
+      "Any commuting flow for Naas: CSO table F7070 carries no Naas row.",
+      "Any reason for the share of Naas residents who drive to work, or for the size of any group in these tables.",
+      "Naas Racecourse: its site returned a rate-limit response rather than content, so nothing is quoted from it."
+    ]
   }
 }

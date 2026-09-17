@@ -2794,4 +2794,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-malahide /src/pages/best-coding-class-in-malahide.html 200
 /best-coding-class-in-malahide.md /src/pages/best-coding-class-in-malahide.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-naas /src/pages/best-coding-class-in-naas.html 200
+/best-coding-class-in-naas.md /src/pages/best-coding-class-in-naas.md 200
 /* /src/pages/404.html 404

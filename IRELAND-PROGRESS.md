@@ -96,7 +96,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 61 | best-coding-class-in-maynooth (myn, #265C4A) | cg- town | 3,053 | 2.2% vs best-coding-class-in-swords | who is missing from the table? | education table covers only education-ceased: 10,068 of 13,839 adults | 8c002dc8 |
 | 62 | best-coding-class-in-leixlip (lxp, #3F6B3A) | cg- town | 3,055 | 3.7% vs best-coding-class-in-maynooth | where Leixlip lives, and where it works | F7070: 3,357 residents work in Dublin; town tables describe residents not employers | b064312c |
 | 63 | best-coding-class-in-celbridge (clb, #4A6B7A) | cg- town | 2,960 | 3.7% vs best-coding-class-in-leixlip | what, not why | 763 cycle to school (13.3% vs 3.7% all towns): checked, not explained | a55c27c0 |
-| 64 | best-coding-class-in-malahide (mlh, #4B5566) | town | 3,380 | 1.5% vs best-coding-class-in-swords | bands of different widths | unequal bin widths; open-ended top band | (this commit) |
+| 64 | best-coding-class-in-malahide (mlh, #4B5566) | town | 3,380 | 1.5% vs best-coding-class-in-swords | bands of different widths | unequal bin widths; open-ended top band | 782d0e21 |
+| 65 | best-coding-class-in-naas (nas, #5C3F52) | town | 3,302 | 1.8% vs coding-classes-in-county-tipperary | the leftover column | residual categories vs non-response | (this commit) |
 
 ## Skipped (kill criterion)
 
