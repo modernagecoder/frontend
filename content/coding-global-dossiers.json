@@ -13266,5 +13266,56 @@
       "Any glor ticket price, and any claim about either named institution beyond its own published page.",
       "Presenting the four different positions as a change over time: all four come from the same April 2022 table and differ only by inclusion rule."
     ]
+  },
+  "best-coding-class-in-carlow": {
+    "market": "Carlow",
+    "bodyClass": "cg-crl",
+    "pageType": "city",
+    "curriculumAuthority": "Carlow town, the built-up area published as \"Carlow, Counties Carlow & Laois\", CSO Census 2022 Small Area Population town tables, read 18 September 2026. SAP2022T2T1TOWN22: usual residents 27,013, born in Ireland 20,470, United Kingdom 1,123. SAP2022T15T2TOWN22: households 10,053, broadband 8,015, other 191, none 760, not stated 1,087. SAP2022T11T1TOWN22 to work total 11,390: car driver 6,033, on foot 1,212, not stated 1,118, work mainly at or from home 910, car passenger 724, van 719, bicycle 256, train DART or Luas 169, bus 155, motorcycle 49, other including lorry 45; to school, college or childcare total 7,429: car passenger 3,626, on foot 1,954, not stated 794, bus 449, car driver 264, bicycle 212, train 70, van 15, motorcycle 12, other 12, work mainly at or from home 21. SAP2022T11T4TOWN22: 11,390 working persons, 2,342 work from home at least some of the time, 7,359 never, 1,689 not stated. SAP2022T11T5TOWN22: 1,617 children under 15 in childcare, 666 aged 0 to 4 and 951 aged 5 to 14. SAP2022T8T1TOWN22: at work 11,492, students 2,818, retired 2,835, total aged 15 and over 21,836. The same town dimension carries nineteen labels containing the word Carlow, among them Hacketstown, Clonegall, Kildavin, Rathvilly, Tullow, Ballon, Myshall, Borris, Muinebeag (Bagenalstown), Leighlinbridge, Bunclody, Counties Wexford & Carlow and Graiguenamanagh-Tinnahinch, Counties Kilkenny & Carlow. Our four derived figures: 8,015 of 10,053 households on broadband is 79.7 percent; 6,033 of 11,390 working residents driving is 53.0 percent; 3,626 of 7,429 education journeys as a car passenger is 48.8 percent; 7,359 of 11,390 never working from home is 64.6 percent. Irish Rail, Carlow station: \"Railway Road Carlow Co. Carlow\", \"Eircode R93 C2C4\", staffing and booking office \"Monday to Friday(including bank holidays): 05:45 - 22:00\", \"Saturday : 06:50 - 20:30\", \"Sunday : 09:30 - 20:30\". VISUAL Carlow: \"VISUAL Centre for Contemporary Art & The George Bernard Shaw Theatre\", \"Old Dublin Road, Carlow, R93 A3K1\", \"Monday Closed Tuesday - Saturday 11am - 5.30pm Sunday 2pm - 5pm\", \"Free admission to gallery exhibitions\".",
+    "localProject": "Write the recipe, not the number. The page contrasts an unreproducible claim, around eighty per cent of Carlow has broadband, with the same claim written so anybody can check it: CSO table SAP2022T15T2TOWN22, area label \"Carlow, Counties Carlow & Laois\", read 18 September 2026, broadband row 8,015 and total row 10,053, giving 79.7 percent of households by our division. The five parts of a recipe are set out as source dataset, exact selector, rows used, date read and arithmetic, with a reason for each: the town dimension carries nineteen labels containing the word Carlow, so a selector that says only Carlow identifies nothing; published tables are revised, so a read date makes a later comparison honest; and the arithmetic line answers whether households or people were counted, whether the not-stated row is in the denominator, and whether rounding happened before or after dividing. A dedicated section itemises every derived figure on the page, four in total, with its rows and result, so a reader can audit the whole page rather than one example. The learner produces figure plus recipe for everything they compute and hands the recipe to a second person, who must reach the same number without asking a question. New family for the cluster: provenance and reproducibility.",
+    "requiredMentions": [
+      "27,013",
+      "10,053",
+      "8,015",
+      "11,390",
+      "6,033",
+      "7,429",
+      "3,626",
+      "1,954",
+      "2,342",
+      "1,617",
+      "R93 C2C4",
+      "R93 A3K1"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T15T2TOWN22, household internet access, area label \"Carlow, Counties Carlow & Laois\", read 18 September 2026: broadband 8,015, other 191, no internet 760, not stated 1,087, total 10,053.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T1TOWN22, same area label: to work 11,390 with car driver 6,033, on foot 1,212, mainly at or from home 910, car passenger 724, van 719, bicycle 256, train 169, bus 155, not stated 1,118; to school, college or childcare 7,429 with car passenger 3,626, on foot 1,954, bus 449, car driver 264, bicycle 212, not stated 794.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T8T1TOWN22, same area label: usual residents 27,013, born in Ireland 20,470; 2,342 work from home at least some of the time, 7,359 never, 1,689 not stated; 1,617 children under 15 in childcare; at work 11,492, students 2,818, retired 2,835.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T4TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Carlow station: \"Railway Road Carlow Co. Carlow\", \"Eircode R93 C2C4\"; staffing and booking office \"Monday to Friday(including bank holidays): 05:45 - 22:00\", \"Saturday : 06:50 - 20:30\", \"Sunday : 09:30 - 20:30\".",
+        "url": "https://www.irishrail.ie/en-ie/station/carlow"
+      },
+      {
+        "claim": "VISUAL Carlow: \"VISUAL Centre for Contemporary Art & The George Bernard Shaw Theatre\"; \"Old Dublin Road, Carlow, R93 A3K1\"; \"Monday Closed Tuesday - Saturday 11am - 5.30pm Sunday 2pm - 5pm\"; \"Free admission to gallery exhibitions\".",
+        "url": "https://visualcarlow.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any figure on this page without its source table, area label and arithmetic: that is the one thing the page exists to rule out.",
+      "County Carlow figures: the county page owns those, with its own sources.",
+      "The cross-county town as a lesson: the County Carlow and County Louth pages own that trap, so the two-county label is stated as a fact only.",
+      "Any reason for the size of a travel share or the level of non-response in the town.",
+      "Any claim about the nineteen other Carlow labels beyond their existence in the same dimension.",
+      "Ticket or event prices from VISUAL: only the published opening hours, address and free gallery admission are quoted."
+    ]
   }
 }

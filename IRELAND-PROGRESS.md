@@ -107,7 +107,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 72 | best-coding-class-in-drogheda (dro, #2E5B6B) | town | 3,184 | 2.2% vs best-coding-class-in-bray | two honest rates, no official name | derived figure borrowing an official name | b1cc5d3a |
 | 73 | best-coding-class-in-dundalk (dnk, #6B3A2E) | town | 3,200 | 2.3% vs best-coding-class-in-drogheda | a category is not a measurement | proxy variables; measurement validity | 8ca4b0fd |
 | 74 | best-coding-class-in-navan (nvn, #4A4A2E) | town | 3,155 | 2.4% vs best-coding-class-in-carrigaline | the column that adds to 100.1 | rounding and false precision | d8234705 |
-| 75 | best-coding-class-in-ennis (enn, #8A5A2E) | town | 3,134 | 2% vs best-coding-class-in-ratoath | a rank is not a fact | ranking stability; inclusion cut | (this commit) |
+| 75 | best-coding-class-in-ennis (enn, #8A5A2E) | town | 3,134 | 2% vs best-coding-class-in-ratoath | a rank is not a fact | ranking stability; inclusion cut | a887f141 |
+| 76 | best-coding-class-in-carlow (crl, #2E4A2E) | town | 3,109 | 2.8% vs best-coding-class-in-drogheda | write the recipe, not the number | provenance and reproducibility | (this commit) |
 
 ## Skipped (kill criterion)
 

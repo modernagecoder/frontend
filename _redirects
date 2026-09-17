@@ -2838,4 +2838,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-ennis /src/pages/best-coding-class-in-ennis.html 200
 /best-coding-class-in-ennis.md /src/pages/best-coding-class-in-ennis.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-carlow /src/pages/best-coding-class-in-carlow.html 200
+/best-coding-class-in-carlow.md /src/pages/best-coding-class-in-carlow.md 200
 /* /src/pages/404.html 404
