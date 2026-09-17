@@ -13458,5 +13458,52 @@
       "The census town-list population of Newbridge and the Kildare library eircode: the County Kildare page owns both.",
       "Any reason for the town's rail or cycling shares."
     ]
+  },
+  "best-coding-class-in-balbriggan": {
+    "market": "Balbriggan",
+    "bodyClass": "cg-blb",
+    "pageType": "city",
+    "curriculumAuthority": "Balbriggan, the built-up area \"Balbriggan, Co Dublin\", CSO Census 2022 Small Area Population town tables, read 18 September 2026. SAP2022T2T1TOWN22: usual residents 24,145, born in Ireland 16,705. SAP2022T15T2TOWN22: households 8,146, broadband 6,979. SAP2022T11T1TOWN22 to work total 10,373: car driver 5,332, work mainly at or from home 1,000, train DART or Luas 903, on foot 828, bus 646, not stated 617, car passenger 461, van 431, bicycle 95, motorcycle 37, other including lorry 23; to school, college or childcare total 7,725: on foot 3,168, car passenger 2,311, bus 679, not stated 610, train 444, bicycle 343, car driver 114, work mainly at or from home 38, van 10, other 7, motorcycle 1. SAP2022T11T5TOWN22: 1,495 children under 15 in childcare, 652 aged 0 to 4 and 843 aged 5 to 14. SAP2022T8T1TOWN22: at work 10,430, students 2,433. Census date: the Central Statistics Office press statement on the Census 2022 summary results quotes its own Director General thanking \"everyone who completed their census form on 03 April 2022\". Date and time facts executed in this session rather than recalled: 3 April 2022 was a Sunday; in the Europe/Dublin zone that day ran one hour ahead of UTC, as did 27 March 2022, while 26 March 2022 and 3 January 2022 were level with UTC; JavaScript parses the string 03/04/2022 as 4 March 2022 and builds new Date(2022, 3, 3) as 3 April 2022 and new Date(2022, 4, 3) as 3 May 2022, months counting from zero; Python builds datetime(2022, 4, 3) as 3 April 2022, months counting from one. Irish Rail, Balbriggan station: \"Station Road Balbriggan Co. Dublin\", \"Eircode K32 YK59\", station and booking office \"Monday to Friday: 06:00- 20:00\", \"Saturday : 06:00- 20:00\", \"Sunday : 08:00- 20:00\". Two further Balbriggan sites returned no content on 18 September 2026 and are not quoted.",
+    "localProject": "A date is not a string. The CSO prints census day as 03 April 2022, and that one published date is enough to demonstrate the whole family of date bugs, each executed while writing the page. JavaScript parses the text 03/04/2022 as the fourth of March, reading the month first. Built from parts as new Date(2022, 3, 3) the same language gives 3 April, because months count from zero there and from one in Python, where datetime(2022, 4, 3) is the same day. The day was a Sunday. Irish clocks moved forward on 27 March 2022, so census day ran an hour ahead of UTC while a week earlier it was level, which means any local time stored without a zone is wrong for half the year. The page ties this to our own timetable, where the gap between Irish and Indian clocks is four and a half hours in summer and five and a half in winter, never a round number, and sets out the rules: exchange dates as year, month, day; test dates built from parts; store the zone rather than an offset; and run the scheduler against the last Sunday in October before it arrives. New family for the cluster: time and date handling.",
+    "requiredMentions": [
+      "24,145",
+      "16,705",
+      "8,146",
+      "6,979",
+      "10,373",
+      "5,332",
+      "903",
+      "7,725",
+      "3,168",
+      "2,311",
+      "1,495",
+      "K32 YK59"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T1TOWN22, Balbriggan, Co Dublin: to work 10,373 with car driver 5,332, mainly at or from home 1,000, train 903, on foot 828, bus 646, car passenger 461, bicycle 95, not stated 617; to school, college or childcare 7,725 with on foot 3,168, car passenger 2,311, bus 679, train 444, bicycle 343, car driver 114.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T5TOWN22 and SAP2022T8T1TOWN22, Balbriggan: usual residents 24,145, born in Ireland 16,705; households 8,146, broadband 6,979; 1,495 children under 15 in childcare; at work 10,430, students 2,433.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Central Statistics Office press statement on the Census of Population 2022 summary results, quoting its Director General thanking \"everyone who completed their census form on 03 April 2022\".",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensusofpopulation2022-summaryresultsclare/"
+      },
+      {
+        "claim": "Irish Rail, Balbriggan station: \"Station Road Balbriggan Co. Dublin\", \"Eircode K32 YK59\"; station and booking office \"Monday to Friday: 06:00- 20:00\", \"Saturday : 06:00- 20:00\", \"Sunday : 08:00- 20:00\".",
+        "url": "https://www.irishrail.ie/en-ie/station/balbriggan"
+      }
+    ],
+    "rejectedClaims": [
+      "Any date or time-zone claim quoted from memory: each was executed in this session against the published date.",
+      "Any claim about what the census form asked or how answers relate to that Sunday specifically.",
+      "The census town-list population of Balbriggan and its average age: the Fingal page owns both.",
+      "Two further Balbriggan institutions whose sites returned no content: nothing is quoted from them and no substitute was used.",
+      "Any reason for the town's rail share or for the size of its education-travel group.",
+      "Writing the summer-time abbreviation in place of the full phrase: the build rejects it, and the page says an hour ahead of UTC instead."
+    ]
   }
 }
