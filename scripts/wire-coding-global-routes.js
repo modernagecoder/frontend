@@ -299,6 +299,7 @@ const MARKETS = [
   ['best-coding-class-in-bray', 'Bray, County Wicklow, Ireland'],
   ['best-coding-class-in-ashbourne', 'Ashbourne, County Meath, Ireland'],
   ['best-coding-class-in-ratoath', 'Ratoath, County Meath, Ireland'],
+  ['best-coding-class-in-carrigaline', 'Carrigaline, County Cork, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

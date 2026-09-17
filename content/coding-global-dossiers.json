@@ -13031,5 +13031,52 @@
       "Any reason for Ratoath holding more people per household than the average town.",
       "Any Fairyhouse Racecourse price, event or attendance figure: only its published address is used."
     ]
+  },
+  "best-coding-class-in-carrigaline": {
+    "market": "Carrigaline",
+    "bodyClass": "cg-crg",
+    "pageType": "city",
+    "curriculumAuthority": "Carrigaline, the built-up area \"Carrigaline, Co Cork\", CSO Census 2022 Small Area Population town tables, read 18 September 2026. SAP2022T11T1TOWN22, three published blocks. To work, total 8,426: car driver 5,742, work mainly at or from home 1,026, van 424, car passenger 323, bus minibus or coach 314, on foot 285, not stated 197, bicycle 51, other including lorry 29, motorcycle 26, train DART or Luas 9. To school, college or childcare, total 5,583: car passenger 3,232, on foot 1,175, bus 584, car driver 293, not stated 186, bicycle 65, work mainly at or from home 28, van 10, train 4, motorcycle 3, other 3. Combined block published by the CSO, total 14,009: car driver 6,035, car passenger 3,555, on foot 1,460, mainly at or from home 1,054, bus 898, van 434, bicycle 116, other 32, motorcycle 29, train 13, not stated 383. Our division on those published rows: 3,232 of 3,555 car passengers on education journeys is 90.9 percent, and 3,232 of 5,583 education journeys by car passenger is 57.9 percent; 5,742 of 6,035 car drivers on work journeys is 95.1 percent, and 5,742 of 8,426 work journeys by car driver is 68.1 percent; on foot 1,175 of 1,460 is 80.5 percent and 1,175 of 5,583 is 21.0 percent; bus 584 of 898 is 65.0 percent and 584 of 5,583 is 10.5 percent. All-towns rows of the same table for scale: car passenger 364,345 education of 428,388 total, 85.1 percent, and 364,345 of 921,076 education journeys, 39.6 percent. SAP2022T2T1TOWN22: usual residents 18,101, born in Ireland 14,596. SAP2022T15T2TOWN22: households 6,047, broadband 5,497, other 75, none 233, not stated 242. SAP2022T11T4TOWN22: 8,426 working persons, 4,805 never work from home, 483 not stated. SAP2022T11T5TOWN22: 1,505 children under 15 in childcare, 649 aged 0 to 4 and 856 aged 5 to 14. SAP2022T8T1TOWN22: at work 8,494, students 1,802, retired 1,532, total aged 15 and over 13,899. Department of Education, 4 January 2018, first-phase Leaving Certificate Computer Science list: includes Carrigaline Community School. Cork County Council: publishes a Carrigaline Municipal District with meeting agendas and minutes under that name.",
+    "localProject": "Two percentages, one number. The Carrigaline travel table publishes work journeys, education and childcare journeys and a combined column. The cell for car passenger on education journeys is 3,232. Divided by the 3,555 car passengers in the combined column it is 90.9 percent, a statement about who the car passengers are. Divided by the 5,583 education and childcare journeys it is 57.9 percent, a statement about how those journeys are made. Same cell, two denominators, two different English sentences, and swapping them asserts something the table never said. The car driver row makes the size of the trap clear: 5,742 of 6,035 car drivers are on work journeys, 95.1 percent, while car driving is 68.1 percent of work journeys. The learner builds the cross-tabulation, prints every cell as both a column share and a row share with the denominator named in the output, writes the two sentences each cell licenses, and checks the published totals first: 8,426 plus 5,583 equals the published combined 14,009. The all-towns row is used only for scale, at 85.1 and 39.6 percent on the same pair of readings. New to the cluster: the converse error and the direction of a conditional percentage.",
+    "requiredMentions": [
+      "18,101",
+      "6,047",
+      "5,497",
+      "8,426",
+      "5,742",
+      "5,583",
+      "3,232",
+      "1,175",
+      "3,555",
+      "6,035",
+      "1,026",
+      "1,505"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T1TOWN22, means of travel, Carrigaline, Co Cork: to work 8,426 with car driver 5,742, mainly at or from home 1,026, van 424, car passenger 323, bus 314, on foot 285, bicycle 51, train 9; to school, college or childcare 5,583 with car passenger 3,232, on foot 1,175, bus 584, car driver 293, bicycle 65; published combined column 14,009 with car driver 6,035, car passenger 3,555, on foot 1,460, bus 898, mainly at or from home 1,054. All-towns rows: car passenger 428,388 combined and 364,345 on education journeys, of 921,076 education journeys.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T8T1TOWN22, Carrigaline: usual residents 18,101, born in Ireland 14,596; households 6,047, broadband 5,497, no internet 233, other 75, not stated 242; 4,805 never work from home, 483 not stated; 1,505 children under 15 in childcare; students 1,802, retired 1,532.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Department of Education press release of 4 January 2018 naming the first-phase Leaving Certificate Computer Science schools, which include Carrigaline Community School. Quoted from a copy saved on 17 September 2026 because gov.ie refuses automated requests.",
+        "url": "https://www.gov.ie/en/department-of-education/press-releases/"
+      },
+      {
+        "claim": "Cork County Council publishes a Carrigaline Municipal District, with meeting agendas and minutes filed under that name.",
+        "url": "https://www.corkcoco.ie/en/carrigaline-municipal-district"
+      }
+    ],
+    "rejectedClaims": [
+      "Any sentence that swaps the two readings of a cell, such as treating the 90.9 percent of car passengers as a share of education journeys.",
+      "Any reason for Carrigaline sitting above the all-towns figures on either reading: distance, bus provision and household timetables are not measured here.",
+      "Any claim built on Carrigaline Community School beyond its presence on the 2018 first-phase list: its own site did not respond to requests.",
+      "Any population or other figure for the Carrigaline Municipal District: the district is named only as an administrative area.",
+      "Adding the work and education columns to describe one population: they count two different sets of journeys, and only the CSO's own combined column is used.",
+      "Any percentage anywhere on the page without the group it was divided by."
+    ]
   }
 }
