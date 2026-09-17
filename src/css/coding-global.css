@@ -932,3 +932,4 @@
 .cg-root.cg-ath  { --cg-accent: #6A4F3A; --cg-accent-soft: rgba(106,79,58,.10); }   /* Athlone: a river-bank ochre from the solver, distinct from the Westmeath and Roscommon county accents on either side of the Shannon */
 .cg-root.cg-gry  { --cg-accent: #56506A; --cg-accent-soft: rgba(86,80,106,.10); }   /* Greystones: a sea-slate violet from the solver, kept clear of the Wicklow county green and the Dublin coastal blues */
 .cg-root.cg-bry  { --cg-accent: #2F4A5E; --cg-accent-soft: rgba(47,74,94,.10); }   /* Bray: a seafront steel blue from the solver, apart from the Wicklow county green and the Greystones violet */
+.cg-root.cg-asb  { --cg-accent: #3E6B55; --cg-accent-soft: rgba(62,107,85,.10); }   /* Ashbourne: a hedgerow green from the solver, held apart from the Meath county indigo and the other Leinster town accents */

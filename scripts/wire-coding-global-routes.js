@@ -297,6 +297,7 @@ const MARKETS = [
   ['best-coding-class-in-athlone', 'Athlone, County Westmeath, Ireland'],
   ['best-coding-class-in-greystones', 'Greystones, County Wicklow, Ireland'],
   ['best-coding-class-in-bray', 'Bray, County Wicklow, Ireland'],
+  ['best-coding-class-in-ashbourne', 'Ashbourne, County Meath, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
