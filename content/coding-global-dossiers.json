@@ -12613,5 +12613,56 @@
       "Calling the TOWN22 row labelled State the national figure: it is all 867 towns combined.",
       "Using the Kildare page's town-list population for Leixlip as a mention."
     ]
+  },
+  "best-coding-class-in-celbridge": {
+    "market": "Celbridge",
+    "bodyClass": "cg-clb",
+    "pageType": "city",
+    "curriculumAuthority": "Celbridge, the built-up area \"Celbridge, Co Kildare\", CSO Census 2022 Small Area Population town tables, read 18 September 2026. SAP2022T2T1TOWN22: usual residents 20,434; born Ireland 16,211, rest of world 1,372, other EU 1,130, United Kingdom 945, Poland 444, India 332. SAP2022T15T2TOWN22: households 6,869, broadband 6,256, no internet 232. SAP2022T11T1TOWN22: to work total 9,893, car driver 5,483, mainly at or from home 1,292, bus 998, van 510, on foot 391, train DART or Luas 361, car passenger 297, bicycle 140; to school, college or childcare total 5,748, car passenger 1,962, on foot 1,503, bus 958, bicycle 763, car driver 195, train 85; combined bicycle 903 and combined total 15,641. Comparison towns from the same table: Maynooth school bicycle 331 of 5,415; Leixlip 210 of 4,156; all-towns row 34,354 of 921,076 for school bicycle, 364,345 car passenger, 260,527 on foot, 119,288 bus; all-towns work bicycle 57,485 of 1,625,104. SAP2022T11T4TOWN22: 9,893 working persons, 4,029 work from home, 5,211 never. SAP2022T11T5TOWN22: 1,492 children under 15 in childcare. SAP2022T14T1TOWN22 at work 9,965: commerce and trade 2,756, professional services 2,561, manufacturing 1,115, transport and communications 1,057. SAP2022T8T1TOWN22: students 1,983. SAP2022T1T1TOWN22: aged 40 to 44, 1,863. F7070: Celbridge residents working in Dublin city and suburbs 4,038. Office of Public Works, Heritage Ireland: Castletown House and Parklands, \"Ireland's first and finest Palladian mansion\", \"set amongst beautiful eighteenth-century parklands on the banks of the Liffey in Celbridge, County Kildare\", \"built around 1722 for the speaker of the Irish House of Commons, William Conolly\", \"Celbridge, Co. Kildare W23 V9H3\".",
+    "localProject": "What, not why. In the Celbridge town travel table, 763 of 5,748 residents travelling to school, college or childcare go by bicycle, 13.3 percent by our arithmetic, against 3.7 percent across all towns combined (34,354 of 921,076), 6.1 percent in Maynooth (331 of 5,415) and 5.1 percent in Leixlip (210 of 4,156), while 140 of 9,893 Celbridge residents cycle to work, 1.4 percent. The figure is first checked for internal consistency: 140 plus 763 equals the table's combined bicycle total of 903, and 9,893 plus 5,748 equals the combined total of 15,641. The census records travel on one day and asks nothing about reasons, so no explanation is offered. The learner lists candidate explanations, such as routes, school initiatives, distances or local clubs, each paired with the evidence that would test it, for example school travel surveys, route information, other years' data or comparable towns, and states plainly that none has been investigated. New to the cluster: separating a measured finding from its cause. Residence against workplace is Leixlip's lesson, so the F7070 figure of 4,038 Celbridge residents working in Dublin city and suburbs is stated only as a fact.",
+    "requiredMentions": [
+      "20,434",
+      "16,211",
+      "6,869",
+      "6,256",
+      "9,893",
+      "5,483",
+      "5,748",
+      "4,029",
+      "5,211",
+      "1,983",
+      "W23 V9H3",
+      "1,962"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T1TOWN22, means of travel, Celbridge, Co Kildare: to school, college or childcare total 5,748, car passenger 1,962, on foot 1,503, bus 958, bicycle 763, car driver 195, train 85; to work total 9,893, car driver 5,483, mainly from home 1,292, bus 998, train 361, bicycle 140; combined bicycle 903, combined total 15,641. Same table: Maynooth school bicycle 331 of 5,415; Leixlip 210 of 4,156; all-towns row school bicycle 34,354 of 921,076.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22 and SAP2022T15T2TOWN22, Celbridge, Co Kildare: usual residents 20,434, born Ireland 16,211, rest of world 1,372, other EU 1,130, United Kingdom 945, Poland 444, India 332; households 6,869, broadband 6,256, no internet 232.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T2T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T11T4TOWN22, SAP2022T11T5TOWN22, SAP2022T14T1TOWN22, SAP2022T8T1TOWN22 and SAP2022T1T1TOWN22, Celbridge, Co Kildare: 4,029 work from home, 5,211 never; 1,492 children in childcare; at work 9,965, commerce and trade 2,756, professional services 2,561, manufacturing 1,115, transport and communications 1,057; students 1,983; aged 40 to 44, 1,863.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T4TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table F7070, town of usual residence by city of place of work: Celbridge, Co Kildare to Dublin city and suburbs 4,038.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F7070/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Office of Public Works, Heritage Ireland, Castletown House and Parklands: \"Ireland's first and finest Palladian mansion\"; \"The house was built around 1722 for the speaker of the Irish House of Commons, William Conolly\"; \"Celbridge, Co. Kildare W23 V9H3\".",
+        "url": "https://www.heritageireland.ie/places-to-visit/castletown-house-and-parklands/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any explanation for the high share of Celbridge residents cycling to school, college or childcare: the census records travel, not reasons, and nothing was investigated.",
+      "Any claim about which schools Celbridge cyclists attend or how far they travel: the table does not say.",
+      "Residence against workplace as a project: the Leixlip page owns it.",
+      "Castletown House admission prices in euro: not reproduced beside our USD fees.",
+      "Using Celbridge's total population 20,601 as a mention: the Kildare page owns it.",
+      "Any Irish Rail station details for Celbridge: the station page requested redirected without content, so none are quoted."
+    ]
   }
 }
