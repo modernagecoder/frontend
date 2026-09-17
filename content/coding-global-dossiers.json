@@ -13219,5 +13219,52 @@
       "The census town-list population of Navan and the Meath County Council eircode: the County Meath page owns both.",
       "Solstice Arts Centre ticket prices, and any claim about either institution beyond its own published page."
     ]
+  },
+  "best-coding-class-in-ennis": {
+    "market": "Ennis",
+    "bodyClass": "cg-enn",
+    "pageType": "city",
+    "curriculumAuthority": "Ennis, the built-up area \"Ennis, Co Clare\", CSO Census 2022 Small Area Population town tables, read 18 September 2026. SAP2022T11T1TOWN22 to work total 12,248: car driver 7,407, on foot 1,134, work mainly at or from home 1,031, not stated 957, van 653, car passenger 637, bicycle 164, bus 158, train DART or Luas 51, motorcycle 29, other including lorry 27; to school, college or childcare total 7,073: car passenger 4,150, on foot 1,380, not stated 703, bus 343, car driver 263, bicycle 99, train 72, work mainly at or from home 40, van 15, other 8, motorcycle 0. Rankings computed by us from the same table, using the work block only and the share whose main means is a bicycle: among towns with at least 4,000 working residents, 59 of them, Ennis is 36th at 1.3390 percent, Kildare town 35th at 1.3394 (62 of 4,629), Celbridge 34th at 1.4151 (140 of 9,893), Gorey 33rd at 1.4734 (70 of 4,751), Drogheda 32nd at 1.5157 (291 of 19,199), Castlebar 37th at 1.2962 (73 of 5,632), Arklow 38th at 1.2914 (71 of 5,498), Rush 39th at 1.2336 (61 of 4,945) and Kilcock 40th at 1.2237 (53 of 4,331). A 165th Ennis cyclist gives 1.3472 percent, above Kildare town. At other cuts Ennis is 49th of 102 towns with 2,000 or more working residents, 59th of 152 with 1,000 or more, and 83rd of 263 with 500 or more. On the share walking to work, 1,134 of 12,248, Ennis is 33rd of the same 59 towns. SAP2022T2T1TOWN22: usual residents 27,548, born in Ireland 21,231. SAP2022T15T2TOWN22: households 10,587, broadband 8,616, other 184, none 938, not stated 849. SAP2022T11T4TOWN22: 12,248 working persons, 3,279 work from home at least some of the time, 7,535 never, 1,434 not stated. SAP2022T11T5TOWN22: 1,832 children under 15 in childcare. SAP2022T8T1TOWN22: at work 12,404, students 2,281, retired 3,625, total aged 15 and over 22,301. Irish Rail, Ennis station: \"Quinn Road Ennis Co. Clare\", \"Eircode V95 WY02\", staffing \"Monday to Saturday: 05:00 - 23:30\", \"This station does not have a booking office\", \"There is free wi-fi at the station\", route \"Dublin Heuston - Limerick and Ennis\". Glor: \"Causeway Link, Ennis, Co. Clare, V95 VHP0, Ireland\", with a gallery, cafe and conference facilities listed on its own site.",
+    "localProject": "A rank is not a fact. Ranking towns by the share of working residents whose main means of travel is a bicycle, on a list we built from the published table, Ennis is 36th of the 59 towns with at least 4,000 working residents, at 1.3390 percent from 164 cyclists among 12,248. Kildare town is 35th at 1.3394 percent, a gap of four ten-thousandths of a percentage point, and a 165th cyclist in Ennis would give 1.3472 percent and reverse the order; ten more would pass Celbridge at 1.4151, seventeen would pass Gorey at 1.4734, and five fewer would drop Ennis below Castlebar at 1.2962. Changing only the inclusion rule moves the same town on the same measure to 49th of 102 at a 2,000 cut, 59th of 152 at 1,000 and 83rd of 263 at 500, and switching to the walking share puts it 33rd of the original 59. The page therefore prints the measure, the cut and the gap beside every position, and states that the ranking is ours rather than the CSO's. The learner writes a ranking function that refuses to return a position without the gap to the entry above and the number of people that would close it. New family for the cluster, chosen to avoid a further denominator lesson: ranking stability.",
+    "requiredMentions": [
+      "27,548",
+      "10,587",
+      "8,616",
+      "12,248",
+      "7,407",
+      "7,073",
+      "4,150",
+      "3,279",
+      "1,134",
+      "1.3390",
+      "V95 WY02",
+      "V95 VHP0"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T1TOWN22, means of travel: Ennis, Co Clare to work 12,248 with car driver 7,407, on foot 1,134, mainly at or from home 1,031, van 653, car passenger 637, bicycle 164, bus 158, train 51, not stated 957; to school, college or childcare 7,073 with car passenger 4,150, on foot 1,380, bus 343, car driver 263, bicycle 99. Comparison towns from the same table and block: Kildare 62 of 4,629, Celbridge 140 of 9,893, Gorey 70 of 4,751, Drogheda 291 of 19,199, Castlebar 73 of 5,632, Arklow 71 of 5,498, Rush 61 of 4,945, Kilcock 53 of 4,331.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T8T1TOWN22, Ennis: usual residents 27,548, born in Ireland 21,231; households 10,587, broadband 8,616, no internet 938, not stated 849; 3,279 work from home at least some of the time, 7,535 never, 1,434 not stated; 1,832 children under 15 in childcare; at work 12,404, students 2,281, retired 3,625.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Ennis station: \"Quinn Road Ennis Co. Clare\", \"Eircode V95 WY02\"; staffing \"Monday to Saturday: 05:00 - 23:30\"; \"This station does not have a booking office\"; \"There is free wi-fi at the station\"; route \"Dublin Heuston - Limerick and Ennis\".",
+        "url": "https://www.irishrail.ie/en-ie/station/ennis"
+      },
+      {
+        "claim": "Glor, Ennis: \"Causeway Link, Ennis, Co. Clare, V95 VHP0, Ireland\", with a gallery, cafe and conference facilities listed among its own pages.",
+        "url": "https://glor.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any verdict on Ennis or any other town implied by its position: the rankings are ours, built from one measure on one day.",
+      "Quoting any position on this page without the measure, the inclusion cut and the gap beside it.",
+      "Any reason for the cycling or walking shares in Ennis or in any comparison town.",
+      "The census town-list population of Ennis and the Clare County Council eircode: the County Clare page owns both.",
+      "Any glor ticket price, and any claim about either named institution beyond its own published page.",
+      "Presenting the four different positions as a change over time: all four come from the same April 2022 table and differ only by inclusion rule."
+    ]
   }
 }
