@@ -103,7 +103,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 68 | best-coding-class-in-bray (bry, #2F4A5E) | town | 3,187 | 2.3% vs best-coding-class-in-athlone | age is not a time series | reading a cross-section as history | 2011b262 |
 | 69 | best-coding-class-in-ashbourne (asb, #3E6B55) | town | 3,185 | 1.9% vs best-coding-class-in-malahide | biggest is not most | plurality vs majority; grouping picks the winner | 0cb3f040 |
 | 70 | best-coding-class-in-ratoath (rto, #524A7A) | town | 3,136 | 1.5% vs best-coding-class-in-ashbourne | households are not people | unit of analysis | 21614a4e |
-| 71 | best-coding-class-in-carrigaline (crg, #7A4A4A) | town | 3,107 | 1.6% vs best-coding-class-in-athlone | two percentages, one number | converse error; row vs column shares | (this commit) |
+| 71 | best-coding-class-in-carrigaline (crg, #7A4A4A) | town | 3,107 | 1.6% vs best-coding-class-in-athlone | two percentages, one number | converse error; row vs column shares | 666e9146 |
+| 72 | best-coding-class-in-drogheda (dro, #2E5B6B) | town | 3,184 | 2.2% vs best-coding-class-in-bray | two honest rates, no official name | derived figure borrowing an official name | (this commit) |
 
 ## Skipped (kill criterion)
 

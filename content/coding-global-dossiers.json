@@ -13078,5 +13078,52 @@
       "Adding the work and education columns to describe one population: they count two different sets of journeys, and only the CSO's own combined column is used.",
       "Any percentage anywhere on the page without the group it was divided by."
     ]
+  },
+  "best-coding-class-in-drogheda": {
+    "market": "Drogheda",
+    "bodyClass": "cg-dro",
+    "pageType": "city",
+    "curriculumAuthority": "Drogheda, the built-up area published as \"Drogheda, Counties Louth & Meath\", CSO Census 2022 Small Area Population town tables, read 18 September 2026. SAP2022T8T1TOWN22, principal economic status, both sexes, total 35,128: at work 19,291, retired 5,084, student 3,853, looking after home or family 2,318, unable to work due to permanent sickness or disability 1,914, long term unemployed 1,287, short term unemployed 725, looking for first regular job 438, other 218. Our arithmetic on those rows: the three job-seeking rows sum to 2,450; over 35,128 that is 7.0 percent; over 19,291 plus 2,450, which is 21,741, it is 11.3 percent; the all-towns row of the same table gives 27,967 plus 54,527 plus 83,826, which is 166,320, over 2,921,013 for 5.7 percent and over 1,810,813 for 9.2 percent. SAP2022T2T1TOWN22: usual residents 43,929, born in Ireland 33,153, rest of world 3,949, other EU 3,368, United Kingdom 1,763, Poland 1,053, India 643. SAP2022T15T2TOWN22: households 15,751, broadband 12,860, other 277, none 1,223, not stated 1,391. SAP2022T11T1TOWN22 to work total 19,199: car driver 9,508, on foot 2,739, not stated 1,578, work mainly at or from home 1,552, bus 1,126, car passenger 1,025, van 822, train DART or Luas 445, bicycle 291, motorcycle 64, other including lorry 49. SAP2022T11T4TOWN22: 19,199 working persons, 4,530 work from home at least some of the time, 12,291 never, 2,378 not stated. SAP2022T11T5TOWN22: 2,457 children under 15 in childcare, 1,057 aged 0 to 4 and 1,400 aged 5 to 14. Irish Rail, Drogheda (MacBride): \"McBride Station Dublin Road Drogheda Co. Louth\", \"Eircode A92 W422\", staffing \"Monday to Friday: 05:30 to 01:30\", booking office \"Monday to Friday: 05:40 - 12:20\", \"There is Free wi-fi at the station\", \"Coffee Cart (Monday - Friday 05:30 to 12:30)\", \"Drinks vending machine on platform 1\", \"Ecofill Triple filtered water refill unit\". Highlanes Gallery: \"Drogheda's Municipal Art Gallery\", \"36 Saint Laurence Street, A92 F7PH Drogheda, Ireland\", \"Open 10.30 am-5.00 pm, Tuesday - Saturday\", \"the gallery opened its doors on October 4, 2006\", \"the Drogheda Municipal Art Collection has grown to include more than 100 artworks\".",
+    "localProject": "Two honest rates, no official name. Drogheda's principal economic status table publishes 438 people looking for a first regular job, 725 short term unemployed and 1,287 long term unemployed, which we group into one numerator of 2,450. Divided by the 35,128 people aged fifteen and over in the same table it is 7.0 percent; divided by the 21,741 who are either at work, 19,291, or in those three rows, it is 11.3 percent. Both denominators are defensible, the gap is 4.3 percentage points, and the grouping of the three rows is itself a choice, since a stricter reading of two rows would start at 2,012. The page therefore never uses the phrase unemployment rate for either figure: that name belongs to a statistic the CSO publishes from its own series on its own definitions, and a derived figure which borrows an official name gets compared with series built differently. The learner writes a function returning both the percentage and a definition string naming the rows, the denominator and the table, printing them together or not at all, and the all-towns row gives 5.7 and 9.2 percent on the same pair of readings for scale. New to the cluster: naming and provenance of a derived figure.",
+    "requiredMentions": [
+      "43,929",
+      "15,751",
+      "12,860",
+      "19,199",
+      "9,508",
+      "1,552",
+      "2,450",
+      "21,741",
+      "35,128",
+      "2,457",
+      "A92 W422",
+      "A92 F7PH"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T8T1TOWN22, principal economic status, Drogheda, Counties Louth & Meath, both sexes: at work 19,291, retired 5,084, student 3,853, looking after home or family 2,318, unable to work due to permanent sickness or disability 1,914, long term unemployed 1,287, short term unemployed 725, looking for first regular job 438, other 218, total 35,128. All-towns row: 27,967, 54,527 and 83,826 across the same three job-seeking rows, at work 1,644,493, total 2,921,013.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T8T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T1TOWN22, SAP2022T11T4TOWN22 and SAP2022T11T5TOWN22, Drogheda: usual residents 43,929; households 15,751, broadband 12,860, no internet 1,223, not stated 1,391; to work 19,199 with car driver 9,508, on foot 2,739, mainly at or from home 1,552, bus 1,126, car passenger 1,025, van 822, train 445, bicycle 291; 4,530 work from home at least some of the time, 12,291 never, 2,378 not stated; 2,457 children under 15 in childcare.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Drogheda (MacBride) station: \"McBride Station Dublin Road Drogheda Co. Louth\", \"Eircode A92 W422\"; staffed \"Monday to Friday: 05:30 to 01:30\"; booking office \"Monday to Friday: 05:40 - 12:20\"; \"There is Free wi-fi at the station\"; \"Coffee Cart (Monday - Friday 05:30 to 12:30)\"; \"Ecofill Triple filtered water refill unit\".",
+        "url": "https://www.irishrail.ie/en-ie/station/drogheda-macbride"
+      },
+      {
+        "claim": "Highlanes Gallery: \"Drogheda's Municipal Art Gallery\"; \"36 Saint Laurence Street, A92 F7PH Drogheda, Ireland\"; \"Open 10.30 am-5.00 pm, Tuesday - Saturday\"; \"the gallery opened its doors on October 4, 2006\"; \"the Drogheda Municipal Art Collection has grown to include more than 100 artworks\".",
+        "url": "https://highlanes.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Calling either 7.0 percent or 11.3 percent an unemployment rate, or comparing either with an officially published rate.",
+      "Any explanation for the size of any row in the principal economic status table, and any advice to any reader about work, study or benefits.",
+      "The census town-list population of Drogheda and the cross-county town lesson: the County Louth page owns both, so the two-county label is stated as a fact only.",
+      "Mixing the 19,291 at work in the status table with the 19,199 in the travel table: each figure is used only with its own table.",
+      "Any Highlanes Gallery admission price, and any claim about the gallery beyond its own published description.",
+      "Any figure for the Meath side of the built-up area separately: the CSO publishes Drogheda as one area."
+    ]
   }
 }

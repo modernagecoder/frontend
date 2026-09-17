@@ -935,3 +935,4 @@
 .cg-root.cg-asb  { --cg-accent: #3E6B55; --cg-accent-soft: rgba(62,107,85,.10); }   /* Ashbourne: a hedgerow green from the solver, held apart from the Meath county indigo and the other Leinster town accents */
 .cg-root.cg-rto  { --cg-accent: #524A7A; --cg-accent-soft: rgba(82,74,122,.10); }   /* Ratoath: a deep iris from the solver, set apart from the Meath county indigo and the Ashbourne green next door */
 .cg-root.cg-crg  { --cg-accent: #7A4A4A; --cg-accent-soft: rgba(122,74,74,.10); }   /* Carrigaline: a brick red from the solver, unlike the Cork city and County Cork accents it sits between */
+.cg-root.cg-dro  { --cg-accent: #2E5B6B; --cg-accent-soft: rgba(46,91,107,.10); }   /* Drogheda: a Boyne slate teal from the solver, distinct from the Louth county ochre and the Meath indigo either side of the town */
