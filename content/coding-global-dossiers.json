@@ -12979,5 +12979,57 @@
       "The census town-list population of Ashbourne and the Meath County Council eircode: the County Meath page owns both.",
       "A figure for the Ashbourne Municipal District: the district is named as an administrative area only, with no population attached."
     ]
+  },
+  "best-coding-class-in-ratoath": {
+    "market": "Ratoath",
+    "bodyClass": "cg-rto",
+    "pageType": "city",
+    "curriculumAuthority": "Ratoath, the built-up area \"Ratoath, Co Meath\", CSO Census 2022 Small Area Population town tables, read 18 September 2026. SAP2022T15T2TOWN22: households 3,041, broadband 2,739, other 31, none 66, not stated 205. SAP2022T2T1TOWN22: usual residents 10,041, born in Ireland 8,431, rest of world 514, other EU 456, United Kingdom 438, Poland 136, India 66. SAP2022T11T1TOWN22 to work total 4,968: car driver 3,138, work mainly at or from home 634, bus 330, not stated 258, van 241, car passenger 157, on foot 132, train DART or Luas 43, motorcycle 16, bicycle 13, other including lorry 6; to school, college or childcare total 3,453: on foot 1,522, car passenger 1,006, bus 442, not stated 164, bicycle 154, car driver 133, train 15, work mainly at or from home 12, van 2, other 3, motorcycle or scooter 0. SAP2022T11T4TOWN22: 4,968 working persons, 1,977 work from home at least some of the time. SAP2022T11T5TOWN22: 792 children under 15 in childcare, 324 aged 0 to 4 and 468 aged 5 to 14. SAP2022T10T4TOWN22: total 5,908, honours bachelor or professional 937, postgraduate 778, upper secondary 1,186, technical or vocational 499, doctorate 45, not stated 279. Our division: 2,739 of 3,041 households is 90.1 percent; 10,041 residents over 3,041 households is 3.30 people per household; the all-towns rows of the same tables give 1,083,309 of 1,317,616 households on broadband, 82.2 percent, and 3,582,870 residents over 1,317,616 households, 2.72 people per household. Ratoath College: \"Address: Jamestown, Ratoath, Co. Meath, A85 TW84, Ireland\"; \"LMETB's Registered Charity Number (RCN) is CHY 20927\". Fairyhouse Racecourse: \"Ratoath, Co. Meath\" as its published address.",
+    "localProject": "Households are not people. The Ratoath internet access table counts households: 3,041 of them, 2,739 with broadband, which is 90.1 percent of households by our division. It is not a share of residents, and the published town tables carry no crossing of internet access with household size that would allow one to be derived from the other. The gap matters more here than in most towns because Ratoath holds 3.30 people per household by our division of 10,041 residents by 3,041 households, against 2.72 across all towns combined. The page therefore labels six town tables with the object each row counts, a household, a person of any age, a working resident aged 15 or over, a resident making an education or childcare journey, a child under fifteen, and a resident in the education table, and the project is a program that carries the unit with every figure and raises an error rather than dividing two figures whose units differ. It also keeps the work and education travel columns separate, notes that the education column publishes a counted zero for motorcycle or scooter against 164 not stated, and repeats that the travel rows count people by main means and not journeys. New to the cluster: the unit of analysis.",
+    "requiredMentions": [
+      "10,041",
+      "3,041",
+      "2,739",
+      "4,968",
+      "3,138",
+      "3,453",
+      "1,522",
+      "1,006",
+      "792",
+      "1,977",
+      "3.30",
+      "A85 TW84"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 tables SAP2022T15T2TOWN22 and SAP2022T2T1TOWN22, Ratoath, Co Meath: households 3,041, broadband 2,739, other 31, none 66, not stated 205; usual residents 10,041, born in Ireland 8,431. All-towns rows: households 1,317,616 with 1,083,309 on broadband, usual residents 3,582,870.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T1TOWN22, Ratoath: to work 4,968 with car driver 3,138, mainly at or from home 634, bus 330, van 241, car passenger 157, on foot 132, train 43, bicycle 13, not stated 258; to school, college or childcare 3,453 with on foot 1,522, car passenger 1,006, bus 442, bicycle 154, car driver 133, train 15, motorcycle or scooter 0, not stated 164.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T10T4TOWN22, Ratoath: 1,977 work from home at least some of the time; 792 children under 15 in childcare, 324 aged 0 to 4 and 468 aged 5 to 14; education table 5,908 with upper secondary 1,186, honours bachelor or professional 937, postgraduate 778, not stated 279.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T4TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Ratoath College: \"Address: Jamestown, Ratoath, Co. Meath, A85 TW84, Ireland\"; \"LMETB's Registered Charity Number (RCN) is CHY 20927\".",
+        "url": "https://www.ratoathcollege.ie/"
+      },
+      {
+        "claim": "Fairyhouse Racecourse, own site footer: \"Ratoath, Co. Meath\".",
+        "url": "https://www.fairyhouse.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any restatement of the 90.1 percent household broadband share as a share of residents: the crossing needed is not published for towns.",
+      "Any figure for the number of Ratoath residents living with broadband, however derived.",
+      "Adding the work and education travel columns together: they count two different groups of people.",
+      "Treating the published zero for motorcycle or scooter as a gap in the data, or the not-stated counts as zeroes.",
+      "The census town-list population of Ratoath: the County Meath page owns it, and the Ashbourne page already cites the council municipal districts.",
+      "Any reason for Ratoath holding more people per household than the average town.",
+      "Any Fairyhouse Racecourse price, event or attendance figure: only its published address is used."
+    ]
   }
 }

@@ -101,7 +101,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 66 | best-coding-class-in-athlone (ath, #6A4F3A) | town | 3,324 | 1.9% vs best-coding-class-in-naas | what the numbers on a label are for | averaging ordered labels; nominal vs ordinal vs interval | f60db34f |
 | 67 | best-coding-class-in-greystones (gry, #56506A) | town | 3,161 | 1.4% vs best-coding-class-in-athlone | born where, citizen of where | conflating birthplace with citizenship | b107cc47 |
 | 68 | best-coding-class-in-bray (bry, #2F4A5E) | town | 3,187 | 2.3% vs best-coding-class-in-athlone | age is not a time series | reading a cross-section as history | 2011b262 |
-| 69 | best-coding-class-in-ashbourne (asb, #3E6B55) | town | 3,185 | 1.9% vs best-coding-class-in-malahide | biggest is not most | plurality vs majority; grouping picks the winner | (this commit) |
+| 69 | best-coding-class-in-ashbourne (asb, #3E6B55) | town | 3,185 | 1.9% vs best-coding-class-in-malahide | biggest is not most | plurality vs majority; grouping picks the winner | 0cb3f040 |
+| 70 | best-coding-class-in-ratoath (rto, #524A7A) | town | 3,136 | 1.5% vs best-coding-class-in-ashbourne | households are not people | unit of analysis | (this commit) |
 
 ## Skipped (kill criterion)
 

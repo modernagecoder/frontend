@@ -2814,4 +2814,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-ashbourne /src/pages/best-coding-class-in-ashbourne.html 200
 /best-coding-class-in-ashbourne.md /src/pages/best-coding-class-in-ashbourne.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-ratoath /src/pages/best-coding-class-in-ratoath.html 200
+/best-coding-class-in-ratoath.md /src/pages/best-coding-class-in-ratoath.md 200
 /* /src/pages/404.html 404
