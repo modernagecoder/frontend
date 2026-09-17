@@ -927,3 +927,4 @@
 .cg-root.cg-myn  { --cg-accent: #265C4A; --cg-accent-soft: rgba(38,92,74,.10); }   /* Maynooth: a college green from the solver, set apart from the Kildare county page and from the midland greens */
 .cg-root.cg-lxp  { --cg-accent: #3F6B3A; --cg-accent-soft: rgba(63,107,58,.10); }   /* Leixlip: a Liffey valley green from the solver, distinct from the Kildare county page and from Maynooth next door */
 .cg-root.cg-clb  { --cg-accent: #4A6B7A; --cg-accent-soft: rgba(74,107,122,.10); }   /* Celbridge: a river slate from the solver, kept clear of the Kildare, Leixlip and Maynooth accents nearby */
+.cg-root.cg-mlh  { --cg-accent: #4B5566; --cg-accent-soft: rgba(75,85,102,.10); }   /* Malahide: a platform slate from the solver, set apart from the Swords estuary blue and the Fingal page */

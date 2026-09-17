@@ -12664,5 +12664,64 @@
       "Using Celbridge's total population 20,601 as a mention: the Kildare page owns it.",
       "Any Irish Rail station details for Celbridge: the station page requested redirected without content, so none are quoted."
     ]
+  },
+  "best-coding-class-in-malahide": {
+    "market": "Malahide",
+    "bodyClass": "cg-mlh",
+    "pageType": "city",
+    "curriculumAuthority": "Malahide, the built-up area \"Malahide, Co Dublin\", CSO Census 2022 Small Area Population town tables, read 18 September 2026. SAP2022T11T3TOWN22 journey time to work, school or college, total 11,031: under 15 mins 2,455; quarter to under half an hour 2,819; half to under three quarters 2,307; three quarters to under an hour 1,208; hour to under an hour and a half 1,348; an hour and a half and over 260; not stated 634. All-towns row of the same table: 641,922; 636,280; 388,959; 132,200; 135,904; 52,040; not stated 267,359 of 2,254,664. SAP2022T11T2TOWN22 time leaving home, total 11,031: before 06:30 507; 06:30 to 07:00 1,026; 07:01 to 07:30 1,386; 07:31 to 08:00 2,523; 08:01 to 08:30 3,112; 08:31 to 09:00 1,093; 09:01 to 09:30 232; after 09:30 519; not stated 633. SAP2022T2T1TOWN22 usual residents 18,305, born Ireland 14,947, United Kingdom 1,328. SAP2022T15T2TOWN22 households 6,521, broadband 6,018, other 65, none 169, not stated 269. SAP2022T11T1TOWN22 to work total 8,236: car driver 3,943, mainly at or from home 1,609, train DART or Luas 1,070, bus 498, on foot 289, van 212, car passenger 158, bicycle 146, not stated 271; to school, college or childcare total 5,044: car passenger 1,869, on foot 1,571, train 572, bus 507, car driver 166, bicycle 164. SAP2022T11T4TOWN22: 8,236 working persons, 4,700 work from home at least some of the time, 3,057 never, 479 not stated. SAP2022T10T4TOWN22 total 12,443: honours bachelor or professional 2,612, postgraduate diploma or degree 2,540, doctorate 272. SAP2022T8T1TOWN22: at work 8,400, students 1,770, retired 2,932, total aged 15 and over 14,896. SAP2022T1T1TOWN22: aged 45 to 49, 1,472; aged 40 to 44, 1,421. F7070: Malahide residents working in Dublin city and suburbs 3,553. Irish Rail station page for Malahide: Eircode K36 HC92, routes \"Dublin - Dundalk commuter\" and \"DART and Dublin Commuter\", car park operated by APCOA with 77 spaces, 4 disabled spaces and 2 electric car charging points, sheltered bicycle parking and 7 lockers, level access to platform 1 for the city centre with lift and footbridge to platform 2. Malahide Community School: \"Malahide Community School, Broomfield, Malahide, Co. Dublin. K36 PR28\"; \"A co-educational, inclusive school that welcomes pupils of all religious denominations.\"",
+    "localProject": "Bands of different widths. In the Malahide journey-time table, the band labelled an hour to under an hour and a half holds 1,348 residents against 1,208 in the three-quarters-to-an-hour band, so a chart drawn from raw counts rises at the end. That band covers thirty minutes where every band before it covers fifteen, which is 674 per quarter hour by our arithmetic, so the count per unit of time falls throughout. The all-towns row shows the same pattern, 132,200 against 135,904, which is 67,952 per quarter hour, proving the shape belongs to the table design and not to the town. The top band has no upper limit, so it has no width, no rate and no midpoint, and any mean journey time drawn from these bands depends on a value somebody assumed for it. The learner writes a program that parses each label, computes the band width in minutes, divides, refuses a rate for the open band, and redraws the chart as a frequency density. The time-leaving-home table for the same 11,031 residents is used as the contrast: its interior bands are all thirty minutes, and it writes its boundaries as clock ranges where the journey table writes them as under. New to the cluster: bin width, density and open-ended bands.",
+    "requiredMentions": [
+      "18,305",
+      "6,521",
+      "6,018",
+      "3,553",
+      "4,700",
+      "1,609",
+      "1,070",
+      "1,348",
+      "1,208",
+      "2,455",
+      "K36 HC92",
+      "K36 PR28"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T3TOWN22, journey time to work, school or college, Malahide, Co Dublin: under 15 mins 2,455; 1/4 hour to under 1/2 hour 2,819; 1/2 to under 3/4 2,307; 3/4 to under 1 hour 1,208; 1 hour to under 1 1/2 hours 1,348; 1 1/2 hours and over 260; not stated 634; total 11,031. All-towns row: 641,922; 636,280; 388,959; 132,200; 135,904; 52,040; not stated 267,359; total 2,254,664.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T3TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T2TOWN22, time leaving home, Malahide, Co Dublin: before 06:30 507; 06:30 to 07:00 1,026; 07:01 to 07:30 1,386; 07:31 to 08:00 2,523; 08:01 to 08:30 3,112; 08:31 to 09:00 1,093; 09:01 to 09:30 232; after 09:30 519; not stated 633; total 11,031.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22 and SAP2022T11T1TOWN22, Malahide, Co Dublin: usual residents 18,305, born in Ireland 14,947, born in the United Kingdom 1,328; households 6,521, broadband 6,018, no internet 169; to work 8,236 with car driver 3,943, mainly at or from home 1,609, train DART or Luas 1,070, bus 498, on foot 289, bicycle 146; to school, college or childcare 5,044 with car passenger 1,869, on foot 1,571, train 572, bus 507.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T11T4TOWN22, SAP2022T10T4TOWN22, SAP2022T8T1TOWN22 and SAP2022T1T1TOWN22, Malahide, Co Dublin: 4,700 work from home at least some of the time, 3,057 never, 479 not stated; education table 12,443 with 2,612 honours bachelor or professional, 2,540 postgraduate and 272 doctorate; 1,770 students, 2,932 retired; 1,472 aged 45 to 49 and 1,421 aged 40 to 44.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T4TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table F7070, town of usual residence by city of place of work: Malahide, Co Dublin to Dublin city and suburbs 3,553.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F7070/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Malahide station, address given as Malahide, Co. Dublin: \"Eircode K36 HC92\", routes \"Dublin - Dundalk commuter\" and \"DART and Dublin Commuter\", car park \"Spaces : 77\", \"Disabled Parking : 4\", \"Electric Car Charging : 2\", \"Sheltered bike parking is available in Malahide station\", \"7 spaces are available\" for lockers, \"Level to platform 1 (City Centre)\", \"Lift and footbridge to platform 2\".",
+        "url": "https://www.irishrail.ie/en-ie/station/malahide"
+      },
+      {
+        "claim": "Malahide Community School: \"Malahide Community School, Broomfield, Malahide, Co. Dublin. K36 PR28\"; \"A co-educational, inclusive school that welcomes pupils of all religious denominations.\"",
+        "url": "https://www.malahidecs.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reason for the share of Malahide residents with long journeys or for the rail share: the census records travel, not motives, and nothing was investigated.",
+      "Malahide Castle and its eircode: the Fingal page owns them.",
+      "The census town-list population of Malahide as a mention: the Fingal page owns that figure.",
+      "Residence against workplace as a project: the Leixlip page owns it, so the F7070 count appears here only as a fact.",
+      "Any mean or median journey time for Malahide: the top band is open-ended and no midpoint was assumed.",
+      "Fingal County Council's description of the town as half an hour from the city centre: it describes a route, not the census journeys, and is not used to explain any figure here."
+    ]
   }
 }
