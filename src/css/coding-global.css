@@ -925,3 +925,4 @@
 .cg-root.cg-uls  { --cg-accent: #6B3F7A; --cg-accent-soft: rgba(107,63,122,.10); }   /* Ulster (part of): a northern plum from the solver, distinct from the crimson, indigo and blue used on the Cavan, Donegal and Monaghan pages */
 .cg-root.cg-swd  { --cg-accent: #2E5E7E; --cg-accent-soft: rgba(46,94,126,.10); }   /* Swords: an estuary blue from the solver, kept apart from the Fingal page and from the Dublin city blues */
 .cg-root.cg-myn  { --cg-accent: #265C4A; --cg-accent-soft: rgba(38,92,74,.10); }   /* Maynooth: a college green from the solver, set apart from the Kildare county page and from the midland greens */
+.cg-root.cg-lxp  { --cg-accent: #3F6B3A; --cg-accent-soft: rgba(63,107,58,.10); }   /* Leixlip: a Liffey valley green from the solver, distinct from the Kildare county page and from Maynooth next door */

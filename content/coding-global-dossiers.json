@@ -12554,5 +12554,64 @@
       "Any claim about how many Maynooth University students live in the town: the census does not say.",
       "Any ranking of Maynooth against every Irish town on qualifications: only comparisons with all towns combined are made."
     ]
+  },
+  "best-coding-class-in-leixlip": {
+    "market": "Leixlip",
+    "bodyClass": "cg-lxp",
+    "pageType": "city",
+    "curriculumAuthority": "Leixlip, the built-up area \"Leixlip, Co Kildare\", CSO Census 2022 Small Area Population town tables, read 17 and 18 September 2026. SAP2022T2T1TOWN22: usual residents 16,587; born Ireland 13,555, United Kingdom 688, Poland 230, India 330, other EU 605, rest of world 1,179. SAP2022T15T2TOWN22: households 5,715, broadband 5,189, no internet 171, not stated 299. SAP2022T11T1TOWN22 travel to work, total 7,823: car driver 3,865, work mainly at or from home 1,111, train DART or Luas 667, bus 630, on foot 439, van 370, bicycle 159, not stated 330; travel to school, college or childcare, total 4,156: on foot 1,521, car passenger 1,348, bus 488, train 254. SAP2022T11T2TOWN22: before 06:30, 806 of 10,265 with 673 not stated. SAP2022T11T3TOWN22: 1 hour to under 1.5 hours 986, 1.5 hours and over 240. SAP2022T11T4TOWN22: 7,823 working persons, 3,328 work from home, 3,980 never, 515 not stated. SAP2022T11T5TOWN22: 1,205 children under 15 in childcare. SAP2022T14T1TOWN22 persons at work, total 7,896: commerce and trade 2,122, professional services 1,950, manufacturing 930, transport and communications 871; all-towns row manufacturing 183,909 of 1,644,493. SAP2022T8T1TOWN22 principal economic status: at work 7,896, student 1,366, retired 2,415. SAP2022T10T4TOWN22 education ceased: honours bachelor 1,916, postgraduate 1,528, doctorate 119, total 11,116. CSO table F7070, population usually resident and present in the State by town of usual residence and city of place of work, Leixlip, Co Kildare: Dublin city and suburbs 3,357, Cork city and suburbs 15, Limerick city and suburbs 13, Galway city and suburbs 5, Waterford city and suburbs 3. Irish Rail: Leixlip Louisa Bridge Station, Leixlip, Co. Kildare, Eircode W23 NH33, routes Dublin Connolly to Sligo and Dublin to Maynooth, Longford and M3 Parkway, car park 309 spaces, 3 disabled, 2 electric car charging points, 24 hours; Leixlip Confey Station, Captain's Hill, Leixlip, Co. Kildare, Eircode W23 FV59, route Dublin to Maynooth, Longford and M3 Parkway, car park 29 spaces, 1 disabled.",
+    "localProject": "The census describes where people live, not where the jobs are. Leixlip's town tables report the industries of its residents, including 930 in manufacturing of 7,896 at work, about 11.8 percent against 11.2 percent across all towns combined. CSO table F7070, town of usual residence by city of place of work, shows 3,357 Leixlip residents working in Dublin city and suburbs, which is 42.9 percent of the 7,823 working residents in the town travel table by our arithmetic, with a further 1,111, 14.2 percent, working mainly at or from home, and 36 working in the other four cities combined. By subtraction, 3,355 work somewhere other than Dublin city and suburbs or did not state a mode. Because so many residents work outside the town, the residence-based industry table cannot describe the employers located in Leixlip, which the census town tables do not measure at all. Output: a two-column note separating questions the residence tables answer from those they cannot, using the commuting table as evidence. No employer is named or sized: the website of the large manufacturer most associated with the town refused automated requests on 17 September 2026 and no figure was taken from any other source. The principal economic status table counts 7,896 at work and the travel table 7,823; the tables are titled differently and each figure is used only with its own table, with no cause asserted for the difference.",
+    "requiredMentions": [
+      "16,587",
+      "13,555",
+      "5,715",
+      "5,189",
+      "7,823",
+      "3,865",
+      "3,357",
+      "3,328",
+      "3,980",
+      "2,415",
+      "W23 FV59",
+      "W23 NH33"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table F7070, population usually resident and present in the State by town of usual residence and city of place of work: Leixlip, Co Kildare to Dublin city and suburbs 3,357; to Cork city and suburbs 15; to Limerick city and suburbs 13; to Galway city and suburbs 5; to Waterford city and suburbs 3.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F7070/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T1TOWN22, means of travel, Leixlip, Co Kildare: to work total 7,823, car driver 3,865, mainly at or from home 1,111, train DART or Luas 667, bus 630, on foot 439, bicycle 159; to school, college or childcare total 4,156, on foot 1,521, car passenger 1,348, bus 488, train 254.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T14T1TOWN22 and SAP2022T8T1TOWN22, Leixlip, Co Kildare: persons at work 7,896, commerce and trade 2,122, professional services 1,950, manufacturing 930, transport and communications 871; all-towns row manufacturing 183,909 of 1,644,493; retired 2,415, students 1,366.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T14T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22 and SAP2022T15T2TOWN22, Leixlip, Co Kildare: usual residents 16,587, born Ireland 13,555, rest of world 1,179, United Kingdom 688, other EU 605, India 330, Poland 230; households 5,715, broadband 5,189, no internet 171.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T2T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T11T2TOWN22, SAP2022T11T3TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T10T4TOWN22, Leixlip, Co Kildare: 806 leaving before 06:30; 986 travelling 1 hour to under 1.5 hours and 240 for 1.5 hours or more; 7,823 working persons, 3,328 work from home, 3,980 never; 1,205 children in childcare; honours degree 1,916, postgraduate 1,528, doctorate 119.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T4TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Leixlip Louisa Bridge: \"Iarnrod Eireann, Leixlip Louisa Bridge Station, Leixlip, Co. Kildare Eircode W23 NH33\"; routes Dublin Connolly to Sligo and Dublin to Maynooth, Longford and M3 Parkway; \"Spaces : 309 Disabled Parking : 3 Electric Car Charging : 2\".",
+        "url": "https://www.irishrail.ie/en-ie/station/leixlip-louisa-bridge"
+      },
+      {
+        "claim": "Irish Rail, Leixlip Confey: \"Iarnrod Eireann, Leixlip Confey Station, Captain's Hill Leixlip, Co.Kildare Eircode W23 FV59\"; route Dublin to Maynooth, Longford and M3 Parkway; \"Spaces : 29 Disabled Parking : 1\".",
+        "url": "https://www.irishrail.ie/en-ie/station/leixlip-confey"
+      }
+    ],
+    "rejectedClaims": [
+      "Any figure for the size or workforce of any employer in Leixlip: the most relevant company website refused automated requests and no figure was taken from elsewhere.",
+      "Reading the town industry table as a description of employers located in Leixlip: it describes residents wherever they work.",
+      "Any claim about where the 3,355 residents not working in Dublin city and suburbs or at home actually work: F7070 covers the five cities only.",
+      "Any cause for the difference between 7,896 at work and 7,823 working persons: the two tables are titled differently and no definition was checked.",
+      "Calling the TOWN22 row labelled State the national figure: it is all 867 towns combined.",
+      "Using the Kildare page's town-list population for Leixlip as a mention."
+    ]
   }
 }

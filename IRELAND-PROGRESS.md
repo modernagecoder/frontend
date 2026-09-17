@@ -93,7 +93,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 58 | coding-and-ai-classes-in-connacht (cnt, #1E6B5C) | cg- province | 2,775 | 3.5% vs coding-and-ai-classes-in-munster | what counts as a speaker | 244,788 can speak Irish; 55,826 never do; 16,966 daily outside education | 4adb6c60 |
 | 59 | coding-and-ai-classes-in-ulster (uls, #6B3F7A) | cg- province | 2,842 | 5.5% vs coding-and-ai-classes-in-munster | points or per cent | journeys 1.5 pts/76% vs birthplace 4.5 pts/5.7%: opposite rankings | b63e4f09 |
 | 60 | best-coding-class-in-swords (swd, #2E5E7E) | cg- town | 3,104 | 1.8% vs coding-and-ai-classes-in-ulster | compared with what? | TOWN22 row labelled State is all 867 towns (70.5%), not the State | d91ffad4 |
-| 61 | best-coding-class-in-maynooth (myn, #265C4A) | cg- town | 3,053 | 2.2% vs best-coding-class-in-swords | who is missing from the table? | education table covers only education-ceased: 10,068 of 13,839 adults | (this commit) |
+| 61 | best-coding-class-in-maynooth (myn, #265C4A) | cg- town | 3,053 | 2.2% vs best-coding-class-in-swords | who is missing from the table? | education table covers only education-ceased: 10,068 of 13,839 adults | 8c002dc8 |
+| 62 | best-coding-class-in-leixlip (lxp, #3F6B3A) | cg- town | 3,055 | 3.7% vs best-coding-class-in-maynooth | where Leixlip lives, and where it works | F7070: 3,357 residents work in Dublin; town tables describe residents not employers | (this commit) |
 
 ## Skipped (kill criterion)
 
