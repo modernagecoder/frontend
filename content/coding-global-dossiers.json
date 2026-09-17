@@ -13125,5 +13125,52 @@
       "Any Highlanes Gallery admission price, and any claim about the gallery beyond its own published description.",
       "Any figure for the Meath side of the built-up area separately: the CSO publishes Drogheda as one area."
     ]
+  },
+  "best-coding-class-in-dundalk": {
+    "market": "Dundalk",
+    "bodyClass": "cg-dnk",
+    "pageType": "city",
+    "curriculumAuthority": "Dundalk, the built-up area \"Dundalk, Co Louth\", CSO Census 2022 Small Area Population town tables, read 18 September 2026. SAP2022T15T2TOWN22, household internet access, total 15,923: broadband 12,686, other 310, no internet 1,454, not stated 1,473; the four answers sum to the 15,923 households. All-towns row of the same table: total 1,317,616 with broadband 1,083,309, other 24,119, none 95,677, not stated 114,511, giving 82.2, 1.8, 7.3 and 8.7 percent against Dundalk's 79.7, 1.9, 9.1 and 9.3 percent, all by our division. SAP2022T2T1TOWN22: usual residents 42,735, born in Ireland 31,283, United Kingdom 3,946, rest of world 3,719, other EU 2,821, Poland 629, India 337. SAP2022T11T4TOWN22: 17,180 working persons, 4,792 work from home at least some of the time, 10,164 never, 2,224 not stated. SAP2022T11T5TOWN22: 2,426 children under 15 in childcare, 1,053 aged 0 to 4 and 1,373 aged 5 to 14. Irish Rail, Dundalk (Clarke): \"Carrickmacross Road Dundalk Co. Louth\", \"Eircode A91 TD61\", \"Monday to Sunday : 05.00 - 01:30\", staffing \"Monday to Sunday : 24/7\", booking office open Monday to Saturday, \"Ecofill Triple filtered water refill unit\", \"Spaces : 200\", Wi-Fi listed as \"No\", routes including \"Dublin - Dundalk commuter\" and \"DART and Dublin Commuter\". An Tain Arts Centre: \"An independent arts space in Dundalk, Co. Louth\", \"a venue with two theatres, a gallery, artist studios, a production house\", \"Crowe St, Townparks, Dundalk, Co. Louth, A91 W20C\", \"CRN: 537097\".",
+    "localProject": "A category is not a measurement. The census internet access table records one answer per household chosen from four, broadband, other, no internet and not stated, about the household rather than its occupants, on one day in April 2022. For Dundalk that gives 12,686 broadband of 15,923 households, 79.7 percent by our division, with 310 other, 1,454 none and 1,473 not stated, and the four rows sum exactly to the town total. What the variable cannot carry is speed, reliability, behaviour at busy times, indoor coverage, cost or whether the household would call the connection good, none of which the census asked, so the page makes no claim about internet performance in the town. Answering that would need measurements rather than categories, recorded speeds over time for identified locations, which we have not gathered. The learner writes a data dictionary for the one variable, the question asked, the four permitted answers, the unit, the date, then three questions it cannot answer with the data that could, and finally takes a measurement of their own, the connection test from our free lesson, comparing what it tells them with what the category does not. A second table on the page lists six candidate sentences and marks which three the table supports. New family for the cluster, chosen deliberately to avoid a fourth denominator lesson: measurement validity and proxy variables.",
+    "requiredMentions": [
+      "42,735",
+      "15,923",
+      "12,686",
+      "1,473",
+      "310",
+      "17,180",
+      "4,792",
+      "10,164",
+      "2,426",
+      "3,946",
+      "A91 TD61",
+      "A91 W20C"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T15T2TOWN22, household internet access, Dundalk, Co Louth: broadband 12,686, other 310, no internet 1,454, not stated 1,473, total 15,923. All-towns row: broadband 1,083,309, other 24,119, none 95,677, not stated 114,511, total 1,317,616.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T11T4TOWN22 and SAP2022T11T5TOWN22, Dundalk: usual residents 42,735, born in Ireland 31,283, born in the United Kingdom 3,946; 17,180 working persons with 4,792 working from home at least some of the time, 10,164 never and 2,224 not stated; 2,426 children under 15 in childcare, 1,053 aged 0 to 4 and 1,373 aged 5 to 14.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T4TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Dundalk (Clarke) station: \"Carrickmacross Road Dundalk Co. Louth\", \"Eircode A91 TD61\"; \"Monday to Sunday : 05.00 - 01:30\"; staffing \"Monday to Sunday : 24/7\"; \"Ecofill Triple filtered water refill unit\"; \"Spaces : 200\"; Wi-Fi and Internet Access listed as \"No\"; routes including \"Dublin - Dundalk commuter\" and \"DART and Dublin Commuter\".",
+        "url": "https://www.irishrail.ie/en-ie/station/dundalk-clarke"
+      },
+      {
+        "claim": "An Tain Arts Centre: \"An Tain Arts Centre is an independent arts space in Dundalk, Co. Louth. We are a venue with two theatres, a gallery, artist studios, a production house\"; \"Crowe St, Townparks, Dundalk, Co. Louth, A91 W20C\"; \"CRN: 537097\".",
+        "url": "https://www.antain.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim about internet speed, reliability or quality in Dundalk: the census recorded a reported category and we have measured nothing.",
+      "Any reason for Dundalk sitting below the all-towns broadband share or above it on no internet access.",
+      "Any comparison with an earlier census, since none is made on the page.",
+      "Folding the 1,473 not-stated households into another row: the share is taken over all 15,923 and says so.",
+      "Dundalk Institute of Technology's self-description and the county figures: the County Louth page owns both.",
+      "The cross-border route listed on the station page: Northern Ireland is outside this cluster's scope and is not discussed."
+    ]
   }
 }
