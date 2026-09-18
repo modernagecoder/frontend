@@ -320,6 +320,7 @@ const MARKETS = [
   ['best-coding-class-in-killarney', 'Killarney, County Kerry, Ireland'],
   ['best-coding-class-in-cobh', 'Cobh, County Cork, Ireland'],
   ['best-coding-class-in-midleton', 'Midleton, County Cork, Ireland'],
+  ['best-coding-class-in-mallow', 'Mallow, County Cork, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

@@ -123,7 +123,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 88 | best-coding-class-in-tullamore (tlm, #314941) | town | 3,546 | 1% vs best-coding-class-in-laytown-bettystown | Rebuild a published figure end to end: CSO average age 38.1 from the 34-row age table | Completed years vs middle of year; misses on both sides mean lost detail, one side means wrong method | 967c8d5c |
 | 89 | best-coding-class-in-killarney (kly, #542646) | town | 3,311 | 1.3% vs best-coding-class-in-tullamore | A gap between two definitions is a measurement: census-night count minus usual residents, ranked across 867 towns | Signal is not cause: ranking the gap, refusing to explain Saggart, Buttevant or Killarney itself | 1da5be2c |
 | 90 | best-coding-class-in-cobh (cbh, #313349) | town | 3,258 | 1.5% vs best-coding-class-in-tullamore | Survivorship: a one-year-ago table counts arrivals, never leavers; two made-up towns with identical tables | Reading movers share as turnover or growth; emigrants invisible to any census table | 4fd6b9fe |
-| 91 | best-coding-class-in-midleton (mdt, #6B6447) | town | 3,062 | 2.5% vs best-coding-class-in-cobh | Ecological fallacy: town-level line (more farm workers, less home-working) reverses among individual workers (54.9% vs 36.3%) | Reading a places-level pattern as a people-level fact | (this commit) |
+| 91 | best-coding-class-in-midleton (mdt, #6B6447) | town | 3,062 | 2.5% vs best-coding-class-in-cobh | Ecological fallacy: town-level line (more farm workers, less home-working) reverses among individual workers (54.9% vs 36.3%) | Reading a places-level pattern as a people-level fact | e4c2e924 |
+| 92 | best-coding-class-in-mallow (mlw, #493136) | town | 3,145 | 1.7% vs best-coding-class-in-killarney | Multiple comparisons: a 73-measure standout finder gives 90 of 94 towns a headline, shuffled data all 94 | Reporting a searched-for standout as a discovery | (this commit) |
 
 ## Skipped (kill criterion)
 

@@ -14042,5 +14042,51 @@
       "The census-night population, density and average age for Midleton: the County Cork page owns them.",
       "Any claim about the Midleton rail line's history or service levels."
     ]
+  },
+  "best-coding-class-in-mallow": {
+    "market": "Mallow",
+    "bodyClass": "cg-mlw",
+    "pageType": "city",
+    "curriculumAuthority": "Mallow, Co Cork, CSO Census 2022 Small Area Population town tables, read 19 September 2026. SAP2022T2T1TOWN22: usual residents 13,370. SAP2022T15T2TOWN22: households 4,864, broadband 3,877, no internet 462, other 109, not stated 416. SAP2022T11T2TOWN22 (time leaving home, aged 5 and over): total 8,309, not stated 794, 08:01 to 08:30 2,558 (34.0 percent of 7,515 answering), 09:01 to 09:30 101 (1.34 percent). SAP2022T11T1TOWN22 to work total 5,445: car driver 3,285, on foot 509, work mainly at or from home 444, van 325, car passenger 287, train DART or Luas 118, bus 50, bicycle 39, not stated 353; to school, college or childcare total 3,768: car passenger 1,996, on foot 899, bus 241, car driver 169, train 96, not stated 313. SAP2022T11T4TOWN22: 1,321 work from home at least some of the time, 3,532 never, 592 not stated. SAP2022T11T5TOWN22: 946 children under 15 in childcare. SAP2022T1T1TOWN22 (census-night age table): ages 6 to 12 sum to 1,540, ages 13 to 18 to 1,212. Standout finder run in this session over the 94 towns with 5,000 or more usual residents (SAP2022T2T1TOWN22) and 73 shares built from SAP2022T10T4, T11T1, T11T2, T11T3, T11T4, T14T1, T15T2, T2T3 and T3T1 TOWN22, each share excluding not stated; T1T1, T2T1, T2T2, T2T4 and T8T1 excluded by design. Ten placements per measure (top five and bottom five). Towns with at least one placement 90 of 94; with three or more 70; median 6; most Malahide 29; Mallow 2 (08:01 to 08:30 fourth highest; 09:01 to 09:30 third lowest). Control: each measure shuffled independently across the 94 towns, 1,000 runs, mulberry32 seed 20220403: towns with at least one placement 93 to 94 in every run (median 94); median placements per town 8; most placements for one town median 15, range 12 to 21. Irish Rail, Mallow: \"Station Address Iarnród Éireann, Annabella, Mallow, Co. Cork\", \"Eircode P51 X622\", \"There is sheltered bike parking at the station\". HSE, Mallow General Hospital: \"Limerick Road, Kilknockan, Mallow, Cork, P51 N288\".",
+    "localProject": "Multiple comparisons, built and then tested against luck. The learner writes a standout finder that converts nine census tables into 73 shares, ranks the 94 towns of 5,000 or more on each, and records top-five and bottom-five placements. For Mallow it reports that 2,558 of 7,515 residents who answered, 34.0 percent, leave home between 08:01 and 08:30, fourth of 94, with the mirror placement of 1.34 percent leaving between 09:01 and 09:30, third lowest. Run on every town, 90 of 94 get a headline, 70 get three or more, and the median town gets six. The control shuffles every measure at random across towns, 1,000 times with a fixed seed: 93 or 94 towns get a headline in every run. Real data differ in concentration rather than frequency: Malahide collects 29 placements where the shuffled maximum never exceeds 21. Lesson: a standout found by searching is evidence of the search; fix the question first or look for patterns that luck does not produce. Sensitive measures (birthplace, citizenship, ethnicity, religion, economic status) are excluded from the search by design. New family for the cluster: multiple comparisons and the look-elsewhere effect.",
+    "requiredMentions": [
+      "13,370",
+      "4,864",
+      "3,877",
+      "5,445",
+      "3,285",
+      "1,321",
+      "3,768",
+      "1,996",
+      "946",
+      "2,558",
+      "7,515",
+      "P51 X622"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T2TOWN22, time leaving home to travel to work, school or college, all towns: used for Mallow's placements (2,558 of 7,515 answering leave between 08:01 and 08:30; 101 between 09:01 and 09:30) and, with SAP2022T10T4, T11T1, T11T3, T11T4, T14T1, T15T2, T2T3 and T3T1 TOWN22, for the 73-measure search over the 94 towns of 5,000 or more usual residents.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T1TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T1T1TOWN22, Mallow, Co Cork: usual residents 13,370; households 4,864, broadband 3,877; to work 5,445 with car driver 3,285, on foot 509, mainly at or from home 444, van 325, car passenger 287, train 118, bus 50, bicycle 39; to school, college or childcare 3,768 with car passenger 1,996, on foot 899, bus 241, car driver 169, train 96; 1,321 work from home at least some of the time, 3,532 never, 592 not stated; 946 children under 15 in childcare; 1,540 aged 6 to 12 and 1,212 aged 13 to 18 in the census-night age table.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Mallow station: \"Station Address Iarnród Éireann, Annabella, Mallow, Co. Cork\", \"Eircode P51 X622\", \"There is sheltered bike parking at the station\".",
+        "url": "https://www.irishrail.ie/en-ie/station/mallow"
+      },
+      {
+        "claim": "HSE, Mallow General Hospital: \"Limerick Road, Kilknockan, Mallow, Cork, P51 N288\".",
+        "url": "https://www2.hse.ie/services/hospitals/mallow-general-hospital/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reason why Mallow residents leave home between 08:01 and 08:30.",
+      "Any ranking of towns on the 73 measures beyond Mallow's own two placements and the count for the most-placed town.",
+      "Any search, ranking or comparison of towns by birthplace, citizenship, ethnicity, religion or economic status: excluded by design.",
+      "A composite index of towns: built while choosing this spine and dropped, because an arbitrary weighting presented as a ranking would mislead.",
+      "The census-night population, density and average age for Mallow: the County Cork page owns them."
+    ]
   }
 }
