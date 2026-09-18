@@ -14978,5 +14978,72 @@
       "The Castleknock local electoral area figure: the Fingal page owns it.",
       "Fingal's sporting superlatives (largest tennis court, one of the largest GAA clubs): promotional, not verified here."
     ]
+  },
+  "coding-classes-in-lucan-dublin": {
+    "market": "Lucan",
+    "bodyClass": "cg-lcn",
+    "pageType": "district",
+    "curriculumAuthority": "Lucan, County Dublin, named sources only (owner rule for districts), read 19 September 2026. Met Eireann, data.gov.ie dataset \"Lucan G.S. Rainfall Data\": \"Daily and monthly rainfall records for our station at Lucan G.S. in Co. Dublin. This station is now closed.\"; file dly4823.csv header \"Station Name: LUCAN G.S.\", \"Station Height: 29 M\", \"Latitude:53.356 ,Longitude: -6.450\", date 09 to 09 utc; 7,676 daily rows 1949-06-01 to 1973-10-31; indicators 0 x5,302, 1 x1,497, 4 x876, 5 x1. Indicator key (KeyDly_Rain.txt): \"0. Satisfactory\", \"1. Estimated\", \"4. Trace\", \"5. Estimated trace\". Lucan (U.C.D.) dly7623.csv: height 52 M, 53.369, -6.471, from 01-nov-1972; Lucan (Hermitage G.C.) dly9423.csv: height 46 M, 53.362, -6.437, from 01-sep-1999; both \"now closed\". Our arithmetic (dist/cdd.js) on 1950-1965, 5,844 days: satisfactory 4,255 (zero 38.8 percent, under 1 mm 57.0, median 0.5 mm, mean 2.32), estimated 848 (zero 21.0, under 1 mm 45.6, median 1.2, mean 2.93), trace 740, estimated trace 1. Estimated days by year: 1950 0, 1960 24, 1961 68, 1962 101, 1963 184, 1964 212 of 366 (57.9 percent), 1965 193. 1964 total 670.9 mm, of which 484.9 (72.3 percent) on estimated days. Longest run of days under 1 mm (ETCCDI CDD) 34 days, 1953-02-19 to 1953-03-24, 12 trace days, 0.8 mm total, largest day 0.2 mm; with estimated days treated as unknown, yearly maxima change in 1959 (21 to 16), 1962 (19 to 12), 1963 (17 to 13). From 1966, whole months absent: 1,243 days missing by 1973-10-31. ETCCDI list of 27 indices: \"CDD. Maximum length of dry spell, maximum number of consecutive days with RR < 1mm\". Met Eireann ETCCDI page lists \"CDD (Consecutive Dry Days)\". Irish Rail Adamstown: \"Adamstown, Co Dublin\", \"Eircode K78 EF64\". Lucan Community College: \"Esker Drive, Lucan, Co. Dublin, K78 TF67\". South Dublin County Council, Lucan Library: \"Lucan Shopping Centre, Newcastle Road, Dublin K78 V295\"; \"Monday to Thursday 9.45am - 8.00pm\" (source hyphen); \"Friday and Saturday: 9.45am - 4.30pm\"; \"Lucan Library is a full-time library in the SuperValu Shopping Centre in Lucan\". Fingal County Council, St Catherine's Park dataset description: \"St. Catherine's Park /Lucan Demesne is located in counties Fingal, Kildare, and South Dublin. It consists of 200 acres of woodland and grass land, with the river Liffey dividing the southern lands of South Dublin County Council from the remainder of the park.\"; \"pedestrian access between Leixlip and Lucan\"; \"The famous Liffey Descent, a 25 mile canoe race passes through this section of the river. Canoeing is popular in the vicinity of the weir due to the presence of a sluice gate.\" Fingal 2026 counter tables: pedestrian footfall January to June 3,182, 2,989, 4,391, 5,179, 5,879, 4,747, July to December 0, total \"26,367\".",
+    "localProject": "Quality flags and imputed values. Met Eireann's closed Lucan G.S. gauge publishes a code with every daily value: satisfactory, estimated, trace. Over the complete years 1950-1965 (5,844 days) the 848 estimated days behave differently from the 4,255 measured ones (dry 21.0 against 38.8 percent; median 1.2 against 0.5 mm), and estimated days rise from 0 in 1950 to 212 of 366 in 1964, when they hold 484.9 of 670.9 mm (72.3 percent). The constructive part is an ETCCDI dry-spell counter (CDD, runs under 1 mm): the longest spell is 34 days in spring 1953 with 12 trace days and 0.8 mm; treating estimates as unknown shortens the longest spell in 1959, 1962 and 1963. Every statistic is reported with and without the estimates. Distinct from Blanchardstown (coverage: data absent) and Limerick (absent rows): here every day has a value, and the flag says what kind. New family for the cluster: quality codes and imputed values.",
+    "requiredMentions": [
+      "5,844",
+      "4,255",
+      "848",
+      "740",
+      "21.0",
+      "38.8",
+      "484.9",
+      "670.9",
+      "57.9",
+      "K78 EF64",
+      "K78 TF67",
+      "K78 V295"
+    ],
+    "sources": [
+      {
+        "claim": "Met Eireann via data.gov.ie, Lucan G.S. Rainfall Data (station now closed): daily file with station height 29 M, latitude 53.356, longitude -6.450, and an indicator on every day.",
+        "url": "https://clidata.met.ie/cli/climate_data/webdatac/dly4823.csv"
+      },
+      {
+        "claim": "Met Eireann daily indicator key: 0 Satisfactory, 1 Estimated, 4 Trace, 5 Estimated trace.",
+        "url": "https://www.met.ie/cms/assets/uploads/2018/05/KeyDly_Rain.txt"
+      },
+      {
+        "claim": "Met Eireann via data.gov.ie, Lucan (U.C.D.) Climate Data: height 52 M, from November 1972; station now closed.",
+        "url": "https://clidata.met.ie/cli/climate_data/webdatac/dly7623.csv"
+      },
+      {
+        "claim": "Met Eireann via data.gov.ie, Lucan (Hermitage G.C.) Rainfall Data: height 46 M, from September 1999; station now closed.",
+        "url": "https://clidata.met.ie/cli/climate_data/webdatac/dly9423.csv"
+      },
+      {
+        "claim": "ETCCDI list of 27 core indices: \"CDD. Maximum length of dry spell, maximum number of consecutive days with RR < 1mm\"; Met Eireann lists CDD among the indices it reports.",
+        "url": "https://etccdi.pacificclimate.org/list_27_indices.shtml"
+      },
+      {
+        "claim": "Irish Rail, Adamstown station: \"Adamstown, Co Dublin\", Eircode \"K78 EF64\".",
+        "url": "https://www.irishrail.ie/en-ie/station/adamstown"
+      },
+      {
+        "claim": "Lucan Community College: \"Esker Drive, Lucan, Co. Dublin, K78 TF67\".",
+        "url": "https://www.lucancc.ie/"
+      },
+      {
+        "claim": "South Dublin County Council, Lucan Library: Lucan Shopping Centre, Newcastle Road, K78 V295; open to 8pm Monday to Thursday and to 4.30pm Friday and Saturday; a full-time library.",
+        "url": "https://www.sdcc.ie/en/services/sport-and-recreation/libraries/join-library-login/find-a-library/lucan/"
+      },
+      {
+        "claim": "Fingal County Council, St Catherine's Park dataset description: 200 acres in Fingal, Kildare and South Dublin; Liffey dividing the South Dublin lands; pedestrian bridge between Leixlip and Lucan; Liffey Descent 25-mile canoe race; canoeing near the weir and sluice gate. 2026 pedestrian counter total to June 26,367 with later months shown as 0.",
+        "url": "https://data.gov.ie/dataset/st-catherines-park-pedestrians-gates-fcc"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reason for the estimated days: the data do not say how or why values were estimated.",
+      "Any statement about Lucan's present-day climate: the gauge closed in 1973.",
+      "Absent months after 1965 as the lesson: the Limerick page owns absent rows; the page analyses 1950-1965 only.",
+      "Any population figure for Lucan and any aggregation of census small areas: owner rule for district pages.",
+      "The Lucan LEA figure, Colaiste Phadraig and Adamstown Community College: the South Dublin page owns them.",
+      "Staff names on the library page: individuals, not needed."
+    ]
   }
 }
