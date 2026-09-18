@@ -13701,5 +13701,52 @@
       "Irish Rail station details: the station page returned no content under the slugs tried, so none are quoted.",
       "Any National Opera House or Wexford Arts Centre ticket price."
     ]
+  },
+  "best-coding-class-in-sligo": {
+    "market": "Sligo",
+    "bodyClass": "cg-slt",
+    "pageType": "city",
+    "curriculumAuthority": "Sligo town, the built-up area \"Sligo, Co Sligo\", and Balbriggan, \"Balbriggan, Co Dublin\", CSO Census 2022 Small Area Population town tables, read 19 September 2026. SAP2022T11T1TOWN22, row \"Work mainly at or from home\": Sligo 831 of 8,622 working residents and 20 of 5,073 travelling to school, college or childcare, combined 851 of 13,695; Balbriggan 1,000 of 10,373 and 38 of 7,725, combined 1,038 of 18,098. Our division: Sligo 9.638, 0.394 and 6.214 percent; Balbriggan 9.640, 0.492 and 5.735 percent; education group share of travellers 37.0 percent in Sligo and 42.7 in Balbriggan; Balbriggan's two rates at Sligo's mix give 6.252 percent. Our search, run on the same date: among the 74 towns with at least 3,000 working residents and 1,500 education travellers, testing on foot, bicycle, bus, car passenger, car driver and work mainly at or from home against Sligo, exactly one reversal was found, this one. Sligo town other figures: SAP2022T2T1TOWN22 usual residents 20,238, born in Ireland 15,631; SAP2022T15T2TOWN22 households 8,208, broadband 6,322, none 805, not stated 866, other 215; SAP2022T11T1TOWN22 to work total 8,622 with car driver 3,852, on foot 1,738, not stated 989, car passenger 447, van 304, bicycle 246, bus 139, train 32; to school, college or childcare total 5,073 with car passenger 2,172, on foot 1,643, not stated 475, bus 350, car driver 286, bicycle 88; SAP2022T11T4TOWN22 1,843 work from home at least some of the time, 5,426 never, 1,353 not stated; SAP2022T11T5TOWN22 1,153 children under 15 in childcare. HSE: Sligo University Hospital, \"The Mall, Rathquarter, Sligo Town, Sligo, F91 H684\". Office of Public Works, Heritage Ireland: Sligo Abbey, \"Abbey Street, Sligo F91 K796\", \"The Dominican priory known as Sligo Abbey has dominated Sligo's eastern district since the town was founded in the mid-thirteenth century. Large parts of the church, sacristy and chapterhouse are preserved from this period, alongside the beautiful fifteenth century cloister\".",
+    "localProject": "Level, ahead, and still behind. On the census travel row labelled work mainly at or from home, Balbriggan is level with Sligo among working residents, 9.640 against 9.638 percent, and ahead among those travelling to school, college or childcare, 0.492 against 0.394 percent, yet behind on the two groups combined, 5.735 against 6.214 percent. Nothing is wrong with either town's figures: the education group has a rate near zero, and Balbriggan has 42.7 percent of its travellers in that group against 37.0 percent in Sligo, so its combined rate is pulled down by its mix rather than by anything inside either group. Standardised to Sligo's mix, Balbriggan's rates give 6.252 percent, which agrees with the group-by-group comparison. The reversal was found, not constructed: among the 74 towns with at least 3,000 working residents and 1,500 education travellers, testing six modes against Sligo returned exactly one reversal. The page states openly that the working-resident gap is only two thousandths of a point, and makes no claim that either town has more home-working in any meaningful sense. The learner reproduces the table, writes a standardisation function, and repeats the search. New family for the cluster: composition effects, Simpson's paradox and standardisation.",
+    "requiredMentions": [
+      "20,238",
+      "8,208",
+      "8,622",
+      "1,738",
+      "5,073",
+      "1,643",
+      "831",
+      "13,695",
+      "6.214",
+      "5.735",
+      "F91 H684",
+      "F91 K796"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T1TOWN22, row \"Work mainly at or from home\": Sligo, Co Sligo 831 of 8,622 working residents and 20 of 5,073 travelling to school, college or childcare; Balbriggan, Co Dublin 1,000 of 10,373 and 38 of 7,725. Sligo travel to work 8,622 with car driver 3,852, on foot 1,738, car passenger 447, van 304, bicycle 246, bus 139, not stated 989; to school, college or childcare 5,073 with car passenger 2,172, on foot 1,643, bus 350, car driver 286, bicycle 88.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T4TOWN22 and SAP2022T11T5TOWN22, Sligo, Co Sligo: usual residents 20,238; households 8,208, broadband 6,322; 1,843 work from home at least some of the time, 5,426 never; 1,153 children under 15 in childcare.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Health Service Executive: Sligo University Hospital, \"The Mall, Rathquarter, Sligo Town, Sligo, F91 H684\".",
+        "url": "https://www2.hse.ie/services/hospitals/sligo-university-hospital/"
+      },
+      {
+        "claim": "Office of Public Works, Heritage Ireland: Sligo Abbey, \"Abbey Street, Sligo F91 K796\"; \"The Dominican priory known as Sligo Abbey has dominated Sligo's eastern district since the town was founded in the mid-thirteenth century.\"",
+        "url": "https://heritageireland.ie/places-to-visit/sligo-abbey/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim that either town has more home-working or home-learning in a meaningful sense: the gaps are small and the page is about how totals behave.",
+      "A constructed or hypothetical example presented as real: the reversal was found by searching the published table, and the search is described.",
+      "Hiding the size of the working-resident gap: it is two thousandths of a percentage point and the page says so.",
+      "The census town-list population of Sligo, the station, Hawk's Well Theatre and ATU Sligo: the County Sligo page owns all of them, and its average-hides-spread lesson.",
+      "Sligo Abbey admission prices in euro: not reproduced.",
+      "Any reason for either town's travel figures."
+    ]
   }
 }

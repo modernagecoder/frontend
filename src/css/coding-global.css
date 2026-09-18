@@ -947,3 +947,4 @@
 .cg-root.cg-mgr  { --cg-accent: #3A3A6B; --cg-accent-soft: rgba(58,58,107,.10); }   /* Mullingar: a lake indigo from the solver, distinct from the Westmeath county accent and the Athlone ochre in the same county */
 .cg-root.cg-lky  { --cg-accent: #5E2E3A; --cg-accent-soft: rgba(94,46,58,.10); }   /* Letterkenny: a Swilly claret from the solver, distinct from the Donegal county accent and the other north-west pages */
 .cg-root.cg-wxt  { --cg-accent: #5E4A2E; --cg-accent-soft: rgba(94,74,46,.10); }   /* Wexford town: a harbour-timber brown from the solver, apart from the County Wexford violet and the south-east city accents */
+.cg-root.cg-slt  { --cg-accent: #6B3A6B; --cg-accent-soft: rgba(107,58,107,.10); }   /* Sligo town: a heather purple from the solver, clear of the County Sligo green and the Mayo and Leitrim accents around it */
