@@ -14499,5 +14499,55 @@
       "Any view on broadband provision or policy.",
       "The census-night population, Center Parcs and the council address: the County Longford page owns them."
     ]
+  },
+  "best-coding-class-in-rush": {
+    "market": "Rush",
+    "bodyClass": "cg-rsh",
+    "pageType": "city",
+    "curriculumAuthority": "Rush, Co Dublin, CSO Census 2022 Small Area Population town tables, read 19 September 2026. SAP2022T2T1TOWN22: usual residents 10,814. SAP2022T15T2TOWN22: households 3,472, broadband 3,059, other 36, no internet 168, not stated 209. SAP2022T11T1TOWN22 to work total 4,945: car driver 2,605, work mainly at or from home 622, bus 430, train DART or Luas 324, van 281, on foot 217, car passenger 141, bicycle 61, not stated 206; to school, college or childcare total 3,193: car passenger 1,062, on foot 974, bus 465, train 202, bicycle 198, car driver 80, not stated 188; combined train 526 of 7,744 stated (6.79 percent). SAP2022T11T4TOWN22: 1,728 work from home at least some of the time, 2,842 never, 375 not stated. SAP2022T11T5TOWN22: 749 children under 15 in childcare. SAP2022T1T1TOWN22 (census-night age table): ages 6 to 12 sum to 1,224, ages 13 to 18 to 1,094. Irish Rail public station list (api.irishrail.ie getAllStationsXML): 171 entries with StationDesc and StationAlias, including \"Rush and Lusk\", \"Navan Road Parkway\" (alias Phoenix Park), \"Carrick on Shannon\", \"Salthill and Monkstown\" (alias Monkstown ( Salthill )), \"Hazelhatch\" (alias Celbridge (Hazelhatch )), \"Sallins\". Irish Rail station pages: Rush and Lusk \"Station Address Rusk and Lusk Train Station, Station Road, Lusk, Co. Dublin\" (spelling as published), \"Eircode K45 P825\", \"You can use the sheltered bike parking in Rush and Lusk station\"; Navan Road Parkway \"Iarnród Éireann, Navan Road, Dublin 15\"; Carrick on Shannon \"Croghan Rd Carrick on Shannon Co Leitrim\"; Salthill and Monkstown \"Salthill & Monkstown DART Station, Dun Laoghaire, Co. Dublin\". Classification run in this session over the 89 towns with 5,000 or more usual residents, excluding the five city-and-suburbs rows. Feature: train share of combined work, school, college and childcare journeys, not stated removed. Label: a station whose description or alias contains every word of the town name, or of any hyphen part for multi-place names (names with -on- treated whole), with Navan, Shannon and Passage West-Monkstown corrected to no station after checking addresses; 58 automatic matches, 55 after review. Results: threshold 1 percent TP 38 FP 5 FN 17 TN 29, precision 88.4, recall 69.1, accuracy 75.3; 2 percent TP 29 FP 1 (Naas, 4.0 percent) FN 26 TN 33, precision 96.7, recall 52.7, accuracy 69.7; 5 percent TP 15 FP 0 FN 40 TN 34, precision 100, recall 27.3, accuracy 55.1; always yes, precision 61.8, recall 100, accuracy 61.8. Tralee and Castlebar 0.3 percent by train, Lusk 4.9 percent.",
+    "localProject": "Scoring a classifier honestly, answer key included. Rule: a town is a rail town if at least a chosen share of its journeys are by train; Rush sends 526 of 7,744 stated journeys by train, 6.79 percent. The answer key comes from Irish Rail's own list of 171 stations, matched on whole words in names and aliases, then checked by hand: three matches were wrong (Navan Road Parkway is in Dublin 15, Carrick on Shannon in Leitrim, Salthill and Monkstown in Dun Laoghaire) and Celbridge appears only through the alias Celbridge (Hazelhatch), leaving 55 of 89 towns with a station. At 2 percent the rule scores 29 hits, 1 false alarm (Naas) and 26 misses, precision 96.7 and recall 52.7; at 5 percent precision is 100 but recall 27.3, and accuracy 55.1 is beaten by the always-yes rule at 61.8. The misses include county towns with stations but few daily rail users, such as Tralee and Castlebar at 0.3 percent. Rush's own station is listed as Rush and Lusk with its address in Lusk, counted for both. Lessons: report the confusion matrix, choose the threshold by which error matters, and audit the labels. New family for the cluster: classifier evaluation.",
+    "requiredMentions": [
+      "10,814",
+      "3,472",
+      "3,059",
+      "4,945",
+      "1,728",
+      "3,193",
+      "1,062",
+      "749",
+      "526",
+      "7,744",
+      "96.7",
+      "K45 P825"
+    ],
+    "sources": [
+      {
+        "claim": "Irish Rail public station list, 171 entries with names and aliases, used as the answer key; includes Rush and Lusk, Navan Road Parkway (alias Phoenix Park), Carrick on Shannon, Salthill and Monkstown, Hazelhatch (alias Celbridge (Hazelhatch)) and Sallins.",
+        "url": "http://api.irishrail.ie/realtime/realtime.asmx/getAllStationsXML"
+      },
+      {
+        "claim": "Irish Rail, Rush and Lusk station page: address Station Road, Lusk, Co. Dublin; \"Eircode K45 P825\"; \"You can use the sheltered bike parking in Rush and Lusk station\".",
+        "url": "https://www.irishrail.ie/en-ie/station/rush-and-lusk"
+      },
+      {
+        "claim": "Irish Rail station pages used to check three automatic matches: Navan Road Parkway, \"Navan Road, Dublin 15\"; Carrick on Shannon, \"Croghan Rd Carrick on Shannon Co Leitrim\"; Salthill and Monkstown, \"Dun Laoghaire, Co. Dublin\".",
+        "url": "https://www.irishrail.ie/en-ie/station/navan-road-parkway"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T1TOWN22, all towns: means of travel to work, school, college or childcare, used for the train share of the 89 towns. Rush, Co Dublin: to work 4,945 with car driver 2,605, mainly at or from home 622, bus 430, train 324, van 281, on foot 217, car passenger 141, bicycle 61; to school, college or childcare 3,193 with car passenger 1,062, on foot 974, bus 465, train 202, bicycle 198; combined train 526 of 7,744 stated.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T1T1TOWN22, Rush, Co Dublin: usual residents 10,814; households 3,472, broadband 3,059; 1,728 work from home at least some of the time, 2,842 never, 375 not stated; 749 children under 15 in childcare; 1,224 aged 6 to 12 and 1,094 aged 13 to 18 in the census-night age table.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T2T1TOWN22/JSON-stat/2.0/en"
+      }
+    ],
+    "rejectedClaims": [
+      "Any rating of rail services, or any reason why towns with stations have few daily rail users.",
+      "Treating the answer key as fact: it is a stated matching rule plus three hand corrections.",
+      "Correcting Irish Rail's own spelling on its Rush and Lusk page: quoted in the dossier as published.",
+      "The census-night population, St Joseph's Secondary School and the Rush-Lusk local electoral area: the Fingal page owns them.",
+      "Any claim about Rush's market-garden history: not sourced here."
+    ]
   }
 }
