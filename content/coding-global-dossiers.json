@@ -14315,5 +14315,47 @@
       "Any claim about how often Benford checks catch real fraud.",
       "The census-night population, average age, Cavan Museum and the council site: the County Cavan page owns them."
     ]
+  },
+  "best-coding-class-in-gorey": {
+    "market": "Gorey",
+    "bodyClass": "cg-gor",
+    "pageType": "city",
+    "curriculumAuthority": "Gorey, Co Wexford, CSO Census 2022 Small Area Population town tables and CSO table F7137, read 19 September 2026. SAP2022T2T1TOWN22: usual residents 11,428. SAP2022T15T2TOWN22: households 4,150, broadband 3,473, not stated 194. SAP2022T11T1TOWN22 to work total 4,751: car driver 2,674, on foot 712, work mainly at or from home 354, van 295, car passenger 249, bus 157, bicycle 70, train 33, not stated 185; to school, college or childcare total 3,142: car passenger 1,528, on foot 1,046, bus 241, car driver 82, not stated 164. SAP2022T11T2TOWN22: before 06:30 797. SAP2022T11T3TOWN22: 1 to under 1.5 hours 652, 1.5 hours and over 355 (1,007). SAP2022T11T4TOWN22: all working persons 4,751, work from home 1,057, never 3,300, not stated 394 (1,057 of 4,357 answering, 24.3 percent). SAP2022T11T5TOWN22: 759 children under 15 in childcare. SAP2022T1T1TOWN22 (census-night age table): ages 6 to 12 sum to 1,300, ages 13 to 18 to 1,074. CSO F7137, Population Aged 15 Years and Over at Work by Number of Days Working from Home, Census 2022, Ireland, updated 5 December 2023: at work 2,320,297; do not work from home 1,313,278; work 1 day or more from home 747,961; 1 day 112,109; 2 days 124,238; 3 days 119,767; 4 days 77,316; 5 days 203,588; 6 days 7,787; 7 days 32,972; days not stated 70,184; not stated whether work from home 259,058. Our arithmetic: 747,961 of 2,061,239 answering, 36.3 percent; days stated 677,777; five days 30.0 percent; one or two days 34.9 percent; five or more 36.1 percent; days worked at home 2,324,616; mean 3.43. Borrowed estimate for Gorey: 1,057 x 3.43 = about 3,626, given as about 3,600, labelled as an assumption. Irish Rail, Gorey: \"Station Address Iarnród Éireann Gorey Co. Wexford\", \"Eircode Y25 PY58\", \"There is bike parking at the station\".",
+    "localProject": "Prevalence versus intensity. Gorey's census answer to the home-working question is a headcount: 1,057 of 4,357 working residents who answered, 24.3 percent, work from home at least some of the time, while 354 name home as their main way of travelling to work. The CSO's national table of the same question by days (F7137) shows what a headcount hides: of 677,777 home-workers who gave a number, the single most common answer is five days (203,588, 30.0 percent), one or two days make up 34.9 percent, and the average is 3.43 days, 2,324,616 home-working days a week between them. The learner computes prevalence, the mode and the weighted mean, keeps the days-not-stated group aside, and writes a borrowing function that takes the national mean as an explicit assumption, giving about 3,600 home-working days a week for Gorey as a labelled estimate. Lesson: ask how many, then ask how much, and say which one a claim rests on. New family for the cluster: prevalence and intensity.",
+    "requiredMentions": [
+      "11,428",
+      "3,473",
+      "4,751",
+      "1,057",
+      "354",
+      "1,528",
+      "759",
+      "1,007",
+      "797",
+      "203,588",
+      "2,324,616",
+      "Y25 PY58"
+    ],
+    "sources": [
+      {
+        "claim": "CSO table F7137, Population Aged 15 Years and Over at Work by Number of Days Working from Home, Census 2022, Ireland: 747,961 work from home one day or more; 1 day 112,109, 2 days 124,238, 3 days 119,767, 4 days 77,316, 5 days 203,588, 6 days 7,787, 7 days 32,972, days not stated 70,184; 1,313,278 do not work from home.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F7137/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T1TOWN22, SAP2022T11T2TOWN22, SAP2022T11T3TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T1T1TOWN22, Gorey, Co Wexford: usual residents 11,428; households 4,150, broadband 3,473; to work 4,751 with car driver 2,674, on foot 712, mainly at or from home 354, van 295, car passenger 249, bus 157, bicycle 70, train 33; to school, college or childcare 3,142 with car passenger 1,528, on foot 1,046, bus 241, car driver 82; 797 leave home before 06:30; 1,007 journeys of an hour or more; 1,057 work from home at least some of the time, 3,300 never, 394 not stated; 759 children under 15 in childcare; 1,300 aged 6 to 12 and 1,074 aged 13 to 18 in the census-night age table.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T4TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Gorey station: \"Station Address Iarnród Éireann Gorey Co. Wexford\", \"Eircode Y25 PY58\", \"There is bike parking at the station\".",
+        "url": "https://www.irishrail.ie/en-ie/station/gorey"
+      }
+    ],
+    "rejectedClaims": [
+      "Any measured number of home-working days for Gorey: the town tables have no days breakdown; the borrowed figure is an estimate on a stated assumption.",
+      "Combining Gorey's two home-working counts, which come from differently worded questions.",
+      "Any reason why five days is the most common national answer.",
+      "The census-night population, density, local electoral area figure and Creagh College: the County Wexford page owns them.",
+      "The F7140 yes-or-no total as this page's finding: Midleton quotes it; this page uses the days breakdown in F7137."
+    ]
   }
 }
