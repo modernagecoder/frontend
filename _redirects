@@ -2946,4 +2946,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-rush /src/pages/best-coding-class-in-rush.html 200
 /best-coding-class-in-rush.md /src/pages/best-coding-class-in-rush.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-portmarnock /src/pages/best-coding-class-in-portmarnock.html 200
+/best-coding-class-in-portmarnock.md /src/pages/best-coding-class-in-portmarnock.md 200
 /* /src/pages/404.html 404

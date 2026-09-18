@@ -14549,5 +14549,51 @@
       "The census-night population, St Joseph's Secondary School and the Rush-Lusk local electoral area: the Fingal page owns them.",
       "Any claim about Rush's market-garden history: not sourced here."
     ]
+  },
+  "best-coding-class-in-portmarnock": {
+    "market": "Portmarnock",
+    "bodyClass": "cg-pmk",
+    "pageType": "city",
+    "curriculumAuthority": "Portmarnock, Co Dublin, CSO Census 2022 Small Area Population town tables and CSO table F7141, read 19 September 2026. SAP2022T2T1TOWN22: usual residents 10,622. SAP2022T15T2TOWN22: households 3,827, broadband 3,531, no internet 96, not stated 174. SAP2022T11T1TOWN22 to work total 4,727: car driver 2,130, train DART or Luas 904, work mainly at or from home 866, van 160, bus 158, on foot 132, bicycle 101, car passenger 82, not stated 165; to school, college or childcare total 2,685: on foot 1,207, car passenger 844, bus 204, train 181, car driver 78, not stated 118. SAP2022T11T4TOWN22: all working persons 4,727, work from home 2,675, not stated 261 (never 1,791); 2,675 of 4,466 answering, 59.9 percent; second of the 94 towns with 5,000 or more usual residents, after Malahide at 60.6. SAP2022T11T5TOWN22: 877 children under 15 in childcare. SAP2022T1T1TOWN22 (census-night age table): ages 6 to 12 sum to 1,123, ages 13 to 18 to 732. CSO F7141, Population Aged 15 Years and Over at Work by Working from Home Days and Detailed Occupational Group, 2022, State: all occupational groups 747,961 work from home 1 or more days and 1,313,278 do not (36.3 percent of those answering). Of the 327 listed occupations (excluding \"All occupational groups\" and \"Other/not stated\"), 250 have 1,000 or more answering; their shares: under 10 percent 77, 10-20 29, 20-30 16, 30-40 16, 40-50 16, 50-60 17, 60-70 21, 70-80 22, 80-90 22, 90 or more 14. Worker-weighted over those 250 (1,999,002 answering): 37.6 percent in occupations under 10 percent, 21.7 percent over 70, 40.7 between; 19 occupations within five points of 36.3 hold 4.9 percent. Selected: Programmers and software development professionals 30,388 of 31,571 (96.3, second of 250 after IT project and programme managers 96.9); Further and higher education teaching professionals 13,008 of 15,652 (83.1); Secondary education teaching professionals 3,582 of 35,556 (10.1); Nurses and midwives 4,081 of 59,593 (6.8); Primary and nursery education teaching professionals 2,382 of 49,155 (4.8); Waiters and waitresses 229 of 11,057 (2.1). Irish Rail, Portmarnock: \"Station Address Iarnród Éireann, Station Road, Portmarnock, Co. Dublin\", \"Eircode D13 K726\", \"You can use the sheltered bike parking in Portmarnock station\".",
+    "localProject": "The average that describes almost nobody. Nationally, 36.3 percent of workers who answered work from home at least one day. The CSO's detailed occupation table shows the shape behind that figure: among the 250 occupations with 1,000 or more answering, 77 are under 10 percent and 58 over 70, and weighting by workers, 37.6 percent of workers are in occupations below 10 percent and 21.7 percent above 70, while only 19 occupations holding 4.9 percent of workers sit within five points of the average. One group, teachers, splits from 4.8 percent (primary and nursery) to 83.1 (further and higher education); programmers and software developers are second of 250 at 96.3 percent of 31,571. The learner draws occupation-count and worker-weighted histograms and finds the near-average occupations. Portmarnock's own figure, 2,675 of 4,466 answering or 59.9 percent, second of 94 larger towns after Malahide, is also an average over different working weeks: 904 take the train to work and 866 work mainly at home. Lesson: look at the shape before quoting an average; when it has two humps, report the groups. Gorey owns the days breakdown, Midleton the industry yes-or-no. New family for the cluster: bimodal distributions and the misleading mean.",
+    "requiredMentions": [
+      "10,622",
+      "3,827",
+      "3,531",
+      "4,727",
+      "2,130",
+      "904",
+      "2,675",
+      "4,466",
+      "2,685",
+      "877",
+      "31,571",
+      "D13 K726"
+    ],
+    "sources": [
+      {
+        "claim": "CSO table F7141, Population Aged 15 Years and Over at Work by Working from Home Days and Detailed Occupational Group, 2022, State: all occupational groups 747,961 working from home one day or more and 1,313,278 not; per-occupation counts used for the distribution of 250 occupations, including programmers and software development professionals 30,388 of 31,571, further and higher education teaching 13,008 of 15,652, secondary teaching 3,582 of 35,556, nurses and midwives 4,081 of 59,593, primary and nursery teaching 2,382 of 49,155, waiters and waitresses 229 of 11,057.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F7141/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T4TOWN22, all towns: working from home status, used for the 94-town comparison; Portmarnock, Co Dublin: all working persons 4,727, work from home 2,675, not stated 261; Malahide 60.6 percent of those answering.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T4TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T1TOWN22, SAP2022T11T5TOWN22 and SAP2022T1T1TOWN22, Portmarnock, Co Dublin: usual residents 10,622; households 3,827, broadband 3,531; to work 4,727 with car driver 2,130, train 904, mainly at or from home 866, van 160, bus 158, on foot 132, bicycle 101, car passenger 82; to school, college or childcare 2,685 with on foot 1,207, car passenger 844, bus 204, train 181, car driver 78; 877 children under 15 in childcare; 1,123 aged 6 to 12 and 732 aged 13 to 18 in the census-night age table.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Portmarnock station: \"Station Address Iarnród Éireann, Station Road, Portmarnock, Co. Dublin\", \"Eircode D13 K726\", \"You can use the sheltered bike parking in Portmarnock station\".",
+        "url": "https://www.irishrail.ie/en-ie/station/portmarnock"
+      }
+    ],
+    "rejectedClaims": [
+      "Which occupations Portmarnock's home-workers are in: the town tables have no occupation breakdown of home-working.",
+      "Applying national occupation shares to Portmarnock.",
+      "Any reason why occupations split as they do.",
+      "The days-per-week breakdown (Gorey owns it) and the industry-level yes-or-no (Midleton owns it).",
+      "The census-night population: the Fingal page owns it."
+    ]
   }
 }
