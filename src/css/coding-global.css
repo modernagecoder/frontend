@@ -963,3 +963,4 @@
 .cg-root.cg-gor  { --cg-accent: #624541; --cg-accent-soft: rgba(98,69,65,.10); }   /* Gorey: a cocoa brown from the solver, apart from the Wexford county, Wexford town and Enniscorthy accents and from Arklow to the north */
 .cg-root.cg-trm  { --cg-accent: #2A3A9D; --cg-accent-soft: rgba(42,58,157,.10); }   /* Tramore: a strand-and-sea blue from a widened solver search, far from the Waterford city olive and the purples of other pages */
 .cg-root.cg-aty  { --cg-accent: #6C1D20; --cg-accent-soft: rgba(108,29,32,.10); }   /* Athy: a muted oxblood from the widened solver search, apart from the Kildare county accent and the Naas, Newbridge and Maynooth pages */
+.cg-root.cg-lgt  { --cg-accent: #217329; --cg-accent-soft: rgba(33,115,41,.10); }   /* Longford town: a field green from the widened solver search, well apart from the Longford county plum and the Mullingar and Athlone pages */

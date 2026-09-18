@@ -14449,5 +14449,55 @@
       "The census-night population (11,035) and local electoral area figure: the County Kildare page owns them.",
       "Any view on housing or school planning in Athy."
     ]
+  },
+  "best-coding-class-in-longford": {
+    "market": "Longford",
+    "bodyClass": "cg-lgt",
+    "pageType": "city",
+    "curriculumAuthority": "Longford, Co Longford, CSO Census 2022 Small Area Population town tables, read 19 September 2026. SAP2022T2T1TOWN22: usual residents 10,822. SAP2022T15T2TOWN22: households 4,037, broadband 3,033, other 103, no internet 430, not stated 471 (3,136 connected of 3,566 answering, 87.9 percent; 430 of 3,566, 12.1 percent, no internet). SAP2022T11T3TOWN22: total 6,376, not stated 1,361 (21.3 percent), the highest not-stated share for journey time among the 94 towns with 5,000 or more usual residents. SAP2022T11T1TOWN22 to work total 3,996: car driver 1,923, on foot 644, car passenger 272, work mainly at or from home 180, van 160, bicycle 141, bus 58, train 50, not stated 554; to school, college or childcare total 2,833: car passenger 1,059, on foot 722, bus 322, train 56, not stated 564. SAP2022T11T4TOWN22: 571 work from home at least some of the time, 2,656 never, 769 not stated. SAP2022T11T5TOWN22: 541 children under 15 in childcare. SAP2022T1T1TOWN22 (census-night age table): ages 6 to 12 sum to 1,253, ages 13 to 18 to 979. CSO Census 2022 Profile 1 background notes: \"Census Enumerators were assigned to these Enumeration Areas and, during the five weeks before Census Night, delivered census questionnaires to all dwellings that were expected to be occupied on Sunday, 03 April 2022.\" CSO, Internet Coverage and Usage in Ireland 2025, Household Internet Connectivity: \"In 2025, 95% of households have an internet connection\"; \"Almost all households with dependent children have internet access. This compares with just 88% of sole occupancy households comprised of one adult with no dependent children.\"; \"Of the 5% of households with no internet access, the most common reason given was that they did not need the internet (59%), followed by lack of skills (17%). Just 4% of these households with no internet access stated that broadband internet was not available in their area.\" Irish Rail, Longford: \"Station Address Convent Rd, Longford, Co. Longford\", \"Eircode N39 E3T9\", \"There is sheltered bike parking at the station\".",
+    "localProject": "Coverage versus non-response, planned before any survey is run. From the census internet table, an online form in Longford town can reach at most the 3,136 connected households of the 3,566 that answered; 430, 12.1 percent, report no internet and 471 did not say, so an online question about internet access returns 100 percent against about 88. The national CSO survey for 2025 shows what such a gap tends to contain: 95 percent of homes connected, almost all households with children against 88 percent of single adults living without children, and of the unconnected 5 percent, 59 percent saying they do not need the internet, 17 percent lacking skills and 4 percent without broadband available. Non-response, the second gap, is visible separately: 1,361 of 6,376 residents left journey time blank, 21.3 percent, the highest of the 94 towns of 5,000 or more. The learner simulates three methods (online, phone and post, door to door) and a non-response step, and sees that a larger sample fixes neither gap. The census counted the offline homes because enumerators delivered questionnaires to every dwelling expected to be occupied. Distinct from Cobh's survivorship (who a table of current residents cannot see); here the collection method decides who can answer. New family for the cluster: coverage and the choice of data-collection method.",
+    "requiredMentions": [
+      "10,822",
+      "4,037",
+      "430",
+      "471",
+      "3,996",
+      "1,923",
+      "571",
+      "2,833",
+      "1,059",
+      "1,361",
+      "21.3",
+      "N39 E3T9"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T15T2TOWN22, Longford, Co Longford: households 4,037; broadband 3,033; other 103; no internet 430; not stated 471.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO, Internet Coverage and Usage in Ireland 2025, Household Internet Connectivity: 95 percent of households have an internet connection; almost all households with dependent children against 88 percent of sole occupancy households of one adult with no dependent children; of the 5 percent with no internet, 59 percent did not need it, 17 percent lacked skills, 4 percent said broadband was not available.",
+        "url": "https://www.cso.ie/en/releasesandpublications/ep/p-isshict/internetcoverageandusageinireland2025/householdinternetconnectivity/"
+      },
+      {
+        "claim": "CSO Census 2022 Profile 1 background notes: enumerators \"delivered census questionnaires to all dwellings that were expected to be occupied on Sunday, 03 April 2022\".",
+        "url": "https://www.cso.ie/en/releasesandpublications/ep/p-cpp1/censusofpopulation2022profile1-populationdistributionandmovements/backgroundnotes/"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T11T1TOWN22, SAP2022T11T3TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T1T1TOWN22, Longford, Co Longford: usual residents 10,822; to work 3,996 with car driver 1,923, on foot 644, car passenger 272, mainly at or from home 180, van 160, bicycle 141, bus 58, train 50, not stated 554; to school, college or childcare 2,833 with car passenger 1,059, on foot 722, bus 322, train 56, not stated 564; journey time not stated 1,361 of 6,376; 571 work from home at least some of the time, 2,656 never, 769 not stated; 541 children under 15 in childcare; 1,253 aged 6 to 12 and 979 aged 13 to 18 in the census-night age table.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T3TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Longford station: \"Station Address Convent Rd, Longford, Co. Longford\", \"Eircode N39 E3T9\", \"There is sheltered bike parking at the station\".",
+        "url": "https://www.irishrail.ie/en-ie/station/longford"
+      }
+    ],
+    "rejectedClaims": [
+      "Any description of who Longford's 430 offline households are: the town tables do not describe them.",
+      "Applying the 2025 national survey shares to Longford as if they were Longford figures.",
+      "Any reason for Longford's high non-response on the journey questions.",
+      "Any view on broadband provision or policy.",
+      "The census-night population, Center Parcs and the council address: the County Longford page owns them."
+    ]
   }
 }

@@ -2938,4 +2938,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-athy /src/pages/best-coding-class-in-athy.html 200
 /best-coding-class-in-athy.md /src/pages/best-coding-class-in-athy.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-longford /src/pages/best-coding-class-in-longford.html 200
+/best-coding-class-in-longford.md /src/pages/best-coding-class-in-longford.md 200
 /* /src/pages/404.html 404
