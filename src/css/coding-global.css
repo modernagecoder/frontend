@@ -958,3 +958,4 @@
 .cg-root.cg-akw  { --cg-accent: #2F2966; --cg-accent-soft: rgba(47,41,102,.10); }   /* Arklow: a deep sea-indigo from the solver, clear of the Wicklow county accent and of Greystones and Bray up the coast */
 .cg-root.cg-cbr  { --cg-accent: #74622F; --cg-accent-soft: rgba(116,98,47,.10); }   /* Castlebar: an ochre bronze from the solver, apart from the Mayo county blue and the Sligo and Galway pages nearby */
 .cg-root.cg-wkt  { --cg-accent: #572323; --cg-accent-soft: rgba(87,35,35,.10); }   /* Wicklow town: an oxblood from the solver, set apart from the Wicklow county green and the Arklow, Greystones and Bray accents on the same coast */
+.cg-root.cg-ecy  { --cg-accent: #576845; --cg-accent-soft: rgba(87,104,69,.10); }   /* Enniscorthy: a moss green from the solver, distinct from the Wexford county and Wexford town accents and from Arklow across the county line */

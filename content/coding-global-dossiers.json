@@ -14227,5 +14227,47 @@
       "Picking a best method from one backtest: the ranking changes between the two windows tested.",
       "The census-night population and the local electoral area figures for Wicklow: the County Wicklow page owns them."
     ]
+  },
+  "best-coding-class-in-enniscorthy": {
+    "market": "Enniscorthy",
+    "bodyClass": "cg-ecy",
+    "pageType": "city",
+    "curriculumAuthority": "Enniscorthy, Co Wexford, CSO Census 2022 Small Area Population town tables, read 19 September 2026. SAP2022T2T1TOWN22: usual residents 12,147. SAP2022T15T2TOWN22: households 4,656, broadband 3,508, not stated 393. SAP2022T11T1TOWN22 to work total 4,649: car driver 2,508, on foot 637, car passenger 388, van 345, work mainly at or from home 226, bus 82, bicycle 28, train 7, not stated 402; to school, college or childcare total 2,848: car passenger 1,309, on foot 804, bus 284, car driver 70, not stated 347. SAP2022T11T2TOWN22 (time leaving home, aged 5 and over): before 06:30 683, 06:30-07:00 536, 07:01-07:30 535, 07:31-08:00 965, 08:01-08:30 1,472, 08:31-09:00 1,241, 09:01-09:30 115, after 09:30 463, not stated 899, total 6,909. SAP2022T11T3TOWN22 (journey time, aged 5 and over): under 15 minutes 2,644, 15 to under 30 1,693, 30 to under 45 898, 45 to under 60 176, 1 to under 1.5 hours 284, 1.5 hours and over 269, not stated 945, total 6,909. SAP2022T11T4TOWN22: 698 work from home at least some of the time, 3,326 never, 625 not stated. SAP2022T11T5TOWN22: 677 children under 15 in childcare. SAP2022T1T1TOWN22 (census-night age table): ages 6 to 12 sum to 1,264, ages 13 to 18 to 988. Bounds computed in this session with lower = max(0, A + B - 6,909) and upper = min(A, B): left after 07:00 (4,791) and under 45 minutes (5,235), 3,117 to 4,791; left after 08:00 (3,291) and under 30 minutes (4,337), 719 to 3,291; left before 07:00 (1,219) and 45 minutes or more (729), 0 to 729; left before 07:00 and under 15 minutes (2,644), 0 to 1,219. Irish Rail, Enniscorthy: \"Station Address Iarnród Éireann Enniscorthy Co. Wexford\", \"Eircode Y21 N289\". Enniscorthy Castle and National 1798 Rebellion Centre websites: HTTP 403 to automated requests on 19 September 2026, not quoted.",
+    "localProject": "What two separately published tables can prove about the same people. For Enniscorthy's 6,909 residents aged five and over, the census publishes time leaving home and journey time as separate town tables, with no cross-table. The learner applies the overlap limits, at least A + B - n and never below zero, at most the smaller of A and B, with non-response in neither group. Left after 07:00 (4,791) and a journey under 45 minutes (5,235) must overlap by at least 3,117, 45.1 percent of all 6,909, and by at most 4,791; left after 08:00 and under 30 minutes, 719 to 3,291; left before 07:00 and 45 minutes or more, 0 to 729, which proves nothing. A second function builds 6,909 imaginary trips matching both tables at each extreme. The page warns against the product-of-shares shortcut, which assumes the two questions are unrelated, and notes that the rule needs both tables to count the same population. Clonmel owns the point that a combined figure cannot be rebuilt from two averages; here the limits are proved from two counts. New family for the cluster: bounds from margins.",
+    "requiredMentions": [
+      "12,147",
+      "4,656",
+      "3,508",
+      "4,649",
+      "2,508",
+      "698",
+      "1,309",
+      "677",
+      "6,909",
+      "3,117",
+      "4,791",
+      "Y21 N289"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 tables SAP2022T11T2TOWN22 and SAP2022T11T3TOWN22, Enniscorthy, Co Wexford: time leaving home (before 06:30 683, 06:30-07:00 536, 07:01-07:30 535, 07:31-08:00 965, 08:01-08:30 1,472, 08:31-09:00 1,241, 09:01-09:30 115, after 09:30 463, not stated 899) and journey time (under 15 minutes 2,644, 15 to under 30 1,693, 30 to under 45 898, 45 to under 60 176, 1 to under 1.5 hours 284, 1.5 hours and over 269, not stated 945), each totalling 6,909 residents aged 5 and over.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T1TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T1T1TOWN22, Enniscorthy, Co Wexford: usual residents 12,147; households 4,656, broadband 3,508; to work 4,649 with car driver 2,508, on foot 637, car passenger 388, van 345, mainly at or from home 226, bus 82, bicycle 28, train 7; to school, college or childcare 2,848 with car passenger 1,309, on foot 804, bus 284, car driver 70; 698 work from home at least some of the time, 3,326 never, 625 not stated; 677 children under 15 in childcare; 1,264 aged 6 to 12 and 988 aged 13 to 18 in the census-night age table.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Enniscorthy station: \"Station Address Iarnród Éireann Enniscorthy Co. Wexford\", \"Eircode Y21 N289\".",
+        "url": "https://www.irishrail.ie/en-ie/station/enniscorthy"
+      }
+    ],
+    "rejectedClaims": [
+      "Any exact count for any of the four overlaps: the published town tables cannot supply one.",
+      "The product of the two shares as an estimate of the overlap: it assumes the questions are unrelated.",
+      "Any reason why the CSO publishes these two questions as separate town tables.",
+      "Enniscorthy Castle and the National 1798 Rebellion Centre: both sites returned 403 to automated requests on 19 September 2026, so nothing is quoted.",
+      "The census-night population, average age and local electoral area figure for Enniscorthy, and St Mary's CBS: the County Wexford page owns them."
+    ]
   }
 }
