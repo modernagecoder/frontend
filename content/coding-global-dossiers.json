@@ -13748,5 +13748,52 @@
       "Sligo Abbey admission prices in euro: not reproduced.",
       "Any reason for either town's travel figures."
     ]
+  },
+  "best-coding-class-in-clonmel": {
+    "market": "Clonmel",
+    "bodyClass": "cg-cml",
+    "pageType": "city",
+    "curriculumAuthority": "Clonmel, the built-up area \"Clonmel, Counties Tipperary & Waterford\", CSO Census 2022 Small Area Population town tables, read 19 September 2026, and CSO table MDSI07 Average distance to the nearest service for individuals and households by Towns, year 2026, updated 21 July 2026, units kilometres to one decimal, 223 rows of which 218 are towns and five are aggregates (State, Remainder of country, and three size bands of other towns). MDSI07 persons, Clonmel: pharmacy mean 1.1, median 1.0, nearest 25 percent within 0.5, nearest 75 percent within 1.6; general practitioner 1.3, 1.3, 0.8, 1.8; HSE emergency department 2.3, 2.2, 1.7, 2.9; HSE injury unit 23.7, 23.7, 22.9, 24.3; HSE emergency department or injury unit 2.3, 2.2, 1.7, 2.9. Mean distance for persons, emergency department, injury unit and the nearer of the two: Limerick city and suburbs 4.8, 3.1, 2.5; Dublin city and suburbs 4.7, 7.4, 4.4; State 18.9, 35.3, 15.6. Our check across all 223 rows: the nearer-of-two mean is never above the smaller of the two means; it equals it in 214 rows and is strictly lower in nine, namely Dublin city and suburbs, Limerick city and suburbs, Kilmallock (by 0.1), Cahir (by 0.1), the State, Remainder of country and the three size-band aggregates. Census town tables: SAP2022T2T1TOWN22 usual residents 18,224, born in Ireland 14,627; SAP2022T15T2TOWN22 households 7,178, broadband 5,626, none 691, not stated 698, other 163; SAP2022T11T1TOWN22 to work total 7,900 with car driver 4,636, on foot 967, car passenger 544, work mainly at or from home 440, van 331, bicycle 132, bus 44, train 8, not stated 755; to school, college or childcare total 4,177 with car passenger 2,570, on foot 667, bus 334, car driver 137, not stated 398; SAP2022T11T4TOWN22 1,439 work from home at least some of the time, 5,334 never, 1,127 not stated; SAP2022T11T5TOWN22 1,207 children under 15 in childcare. Irish Rail, Clonmel station: \"Thomas Street Clonmel Co. Tipperary\", \"Eircode E91 N9C4\". HSE: Tipperary University Hospital, \"Western Road, Clonmel, Tipperary, E91 VY40\".",
+    "localProject": "The average of the nearest is not the nearest of the averages. CSO table MDSI07 gives, for every area, the mean distance from residents to an emergency department, to an injury unit, and to whichever of the two is nearer for each person. For Clonmel the three are 2.3, 23.7 and 2.3 km, so the nearer-of-two figure equals the smaller mean, because the emergency department is nearest for everybody. For Limerick city and suburbs they are 4.8, 3.1 and 2.5 km: the combined figure beats both, because different residents are nearer to different facility types and each chooses before any averaging. Mathematically the average of per-person minimums can never exceed the smaller of the two averages, and our check across all 223 rows confirms it: equal in 214, strictly lower in nine, never higher. The page generalises to any calculation that chooses or ranks per person, which must be done on individual records and summarised last. It reads the quarter columns correctly and states that the table names no facility, so no distance is attributed to any hospital. The learner builds a small simulation showing agreement when one option always wins and divergence when preferences mix, then runs the check on the real table. New family for the cluster: order of operations when aggregating.",
+    "requiredMentions": [
+      "18,224",
+      "7,178",
+      "5,626",
+      "7,900",
+      "4,636",
+      "4,177",
+      "2,570",
+      "1,439",
+      "1,207",
+      "23.7",
+      "E91 N9C4",
+      "E91 VY40"
+    ],
+    "sources": [
+      {
+        "claim": "CSO table MDSI07 Average distance to the nearest service for individuals and households by Towns, 2026, persons: Clonmel emergency department mean 2.3 km, injury unit 23.7, emergency department or injury unit 2.3; GP 1.3; pharmacy 1.1; Limerick city and suburbs 4.8, 3.1, 2.5; Dublin city and suburbs 4.7, 7.4, 4.4; State 18.9, 35.3, 15.6.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/MDSI07/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T1TOWN22, SAP2022T11T4TOWN22 and SAP2022T11T5TOWN22, Clonmel, Counties Tipperary & Waterford: usual residents 18,224; households 7,178, broadband 5,626; to work 7,900 with car driver 4,636, on foot 967, car passenger 544, mainly at or from home 440, van 331, bicycle 132; to school, college or childcare 4,177 with car passenger 2,570, on foot 667, bus 334, car driver 137; 1,439 work from home at least some of the time; 1,207 children under 15 in childcare.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Clonmel station: \"Thomas Street Clonmel Co. Tipperary\", \"Eircode E91 N9C4\".",
+        "url": "https://www.irishrail.ie/en-ie/station/clonmel"
+      },
+      {
+        "claim": "Health Service Executive: Tipperary University Hospital, \"Western Road, Clonmel, Tipperary, E91 VY40\".",
+        "url": "https://www2.hse.ie/services/hospitals/tipperary-university-hospital/"
+      }
+    ],
+    "rejectedClaims": [
+      "Attributing any MDSI07 distance to a named hospital or unit: the table names no facility.",
+      "Any comment on the adequacy of health services in Clonmel or elsewhere: the page is about arithmetic on distances, not provision.",
+      "The maternity and primary care rows for Clonmel: shown in the data, left out because they invite readings the table cannot support.",
+      "Describing how MDSI07 measures distance, road or straight line: the glossary page did not yield that text, so the method is not stated.",
+      "The census town-list population of Clonmel and the TUS Clonmel campus eircode: the County Tipperary page owns both.",
+      "Any reason for Clonmel's travel shares."
+    ]
   }
 }
