@@ -124,7 +124,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 89 | best-coding-class-in-killarney (kly, #542646) | town | 3,311 | 1.3% vs best-coding-class-in-tullamore | A gap between two definitions is a measurement: census-night count minus usual residents, ranked across 867 towns | Signal is not cause: ranking the gap, refusing to explain Saggart, Buttevant or Killarney itself | 1da5be2c |
 | 90 | best-coding-class-in-cobh (cbh, #313349) | town | 3,258 | 1.5% vs best-coding-class-in-tullamore | Survivorship: a one-year-ago table counts arrivals, never leavers; two made-up towns with identical tables | Reading movers share as turnover or growth; emigrants invisible to any census table | 4fd6b9fe |
 | 91 | best-coding-class-in-midleton (mdt, #6B6447) | town | 3,062 | 2.5% vs best-coding-class-in-cobh | Ecological fallacy: town-level line (more farm workers, less home-working) reverses among individual workers (54.9% vs 36.3%) | Reading a places-level pattern as a people-level fact | e4c2e924 |
-| 92 | best-coding-class-in-mallow (mlw, #493136) | town | 3,145 | 1.7% vs best-coding-class-in-killarney | Multiple comparisons: a 73-measure standout finder gives 90 of 94 towns a headline, shuffled data all 94 | Reporting a searched-for standout as a discovery | (this commit) |
+| 92 | best-coding-class-in-mallow (mlw, #493136) | town | 3,145 | 1.7% vs best-coding-class-in-killarney | Multiple comparisons: a 73-measure standout finder gives 90 of 94 towns a headline, shuffled data all 94 | Reporting a searched-for standout as a discovery | 14c5083e |
+| 93 | best-coding-class-in-arklow (akw, #2F2966) | town | 3,094 | 1.7% vs best-coding-class-in-midleton | Units: rebuild the wind farm's homes and carbon footnote with units attached; g vs kg label slip | Treating capacity (MW) as output (MWh); a unit label a thousand times off | (this commit) |
 
 ## Skipped (kill criterion)
 

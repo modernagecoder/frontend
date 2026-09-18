@@ -14088,5 +14088,52 @@
       "A composite index of towns: built while choosing this spine and dropped, because an arbitrary weighting presented as a ranking would mislead.",
       "The census-night population, density and average age for Mallow: the County Cork page owns them."
     ]
+  },
+  "best-coding-class-in-arklow": {
+    "market": "Arklow",
+    "bodyClass": "cg-akw",
+    "pageType": "city",
+    "curriculumAuthority": "Arklow, Co Wicklow, CSO Census 2022 Small Area Population town tables, read 19 September 2026. SAP2022T2T1TOWN22: usual residents 13,316. SAP2022T15T2TOWN22: households 5,012, broadband 4,079, no internet 472, other 98, not stated 363. SAP2022T11T1TOWN22 to work total 5,498: car driver 3,119, on foot 636, work mainly at or from home 439, van 379, car passenger 327, bus 118, bicycle 71, train DART or Luas 49, not stated 335; to school, college or childcare total 3,498: car passenger 1,718, on foot 1,069, bus 206, car driver 113, bicycle 78, train 39, not stated 247. SAP2022T11T2TOWN22: before 06:30 812. SAP2022T11T4TOWN22: 1,267 work from home at least some of the time, 3,659 never, 572 not stated. SAP2022T11T5TOWN22: 751 children under 15 in childcare. SAP2022T1T1TOWN22 (census-night age table): ages 13 to 18 sum to 1,206. SSE Renewables, Arklow Bank Wind Park project page: \"Arklow Bank Wind Park 2 is SSE's flagship offshore wind farm project in development in Ireland with a proposed installed capacity of 800MW\"; \"Between 47 - 56 wind turbines\" (printed with a dash); \"Arklow Bank 2 would create around 80 full-time, locally based jobs ... based out of a new state-of-the-art purpose-built Operations and Maintenance Facility at Arklow Harbour's South Dock\"; construction could \"commence construction towards the end of the decade\" if consented; footnote: \"834,286 homes powered based on projected installed capacity, typical projected wind load factor of 50%, and typical annual consumption 4,200kWh. Quoted 826,944,000 kilos of carbon emissions abated based on projected annual MWh output and latest average CO2 Emissions (0.236g/kWh)\". Our arithmetic: 800 MW x 8,760 h = 7,008,000 MWh; x 0.5 = 3,504,000 MWh = 3,504,000,000 kWh; / 4,200 = 834,285.7, rounds to 834,286; with 8,784 hours 836,571; at 40 percent 667,429, at 35 percent 584,000; 3,504,000,000 kWh x 0.236 g = 826,944,000 g = 826,944 kg; x 0.236 kg = 826,944,000 kg. CRU, Fuel Mix Disclosure and CO2 Emissions 2022: \"the unit of measure for emissions intensity in this information paper is g/kWh\"; \"from 258 g/kWh in 2021 to 234 g/kWh in 2022\". Irish Rail, Arklow: \"Station Address St. Mary's Road Arklow Co. Wicklow\", \"Eircode Y14 YD89\", \"Sheltered bike parking available\".",
+    "localProject": "Units in physical measurement, as a constructive check of a named claim. SSE Renewables' page for Arklow Bank Wind Park 2 prints a footnote giving its assumptions: 800MW installed capacity, a 50 percent load factor and 4,200 kWh a year per home. The learner rebuilds the homes figure with every unit attached: 800 MW x 8,760 hours = 7,008,000 MWh; at 50 percent 3,504,000 MWh, or 3,504,000,000 kWh; divided by 4,200 kWh gives 834,286, the footnote's figure exactly, which also shows a 365-day year was used (a leap year gives 836,571). The claim moves with its assumption: 667,429 homes at 40 percent, 584,000 at 35. The carbon figure, 826,944,000 kilos, reproduces only if the printed rate of 0.236g/kWh is read as 0.236 kg/kWh (236 g): at the printed unit the total is 826,944 kg, a thousand times smaller. The CRU reports the all-island average in g/kWh at that scale, 258 in 2021 and 234 in 2022, so the arithmetic is consistent and the printed unit label is the slip. The program stores value and unit together and refuses to add a power to an energy. New family for the cluster: units in physical measurement.",
+    "requiredMentions": [
+      "13,316",
+      "5,498",
+      "3,119",
+      "1,267",
+      "3,498",
+      "1,718",
+      "751",
+      "834,286",
+      "3,504,000",
+      "826,944",
+      "812",
+      "Y14 YD89"
+    ],
+    "sources": [
+      {
+        "claim": "SSE Renewables, Arklow Bank Wind Park project page: proposed installed capacity of 800MW; between 47 and 56 wind turbines; around 80 full-time local jobs at an Operations and Maintenance Facility at Arklow Harbour's South Dock; footnote \"834,286 homes powered based on projected installed capacity, typical projected wind load factor of 50%, and typical annual consumption 4,200kWh. Quoted 826,944,000 kilos of carbon emissions abated based on projected annual MWh output and latest average CO2 Emissions (0.236g/kWh)\".",
+        "url": "https://www.sserenewables.com/offshore-wind/projects/arklow-bank-wind-park/"
+      },
+      {
+        "claim": "Commission for Regulation of Utilities, Fuel Mix Disclosure and CO2 Emissions 2022: \"the unit of measure for emissions intensity in this information paper is g/kWh\"; the average all-island CO2 emissions per kWh fell \"from 258 g/kWh in 2021 to 234 g/kWh in 2022\".",
+        "url": "https://cruie-live-96ca64acab2247eca8a850a7e54b-5b34f62.divio-media.com/documents/Fuel-Mix-Disclosure-and-Emissions-2022.pdf"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T1TOWN22, SAP2022T11T2TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T1T1TOWN22, Arklow, Co Wicklow: usual residents 13,316; households 5,012, broadband 4,079; to work 5,498 with car driver 3,119, on foot 636, mainly at or from home 439, van 379, car passenger 327, bus 118, bicycle 71, train 49; to school, college or childcare 3,498 with car passenger 1,718, on foot 1,069, bus 206, car driver 113, bicycle 78, train 39; 812 leave home before 06:30; 1,267 work from home at least some of the time, 3,659 never, 572 not stated; 751 children under 15 in childcare; 1,206 aged 13 to 18 in the census-night age table.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Arklow station: \"Station Address St. Mary's Road Arklow Co. Wicklow\", \"Eircode Y14 YD89\", \"Sheltered bike parking available\".",
+        "url": "https://www.irishrail.ie/en-ie/station/arklow"
+      }
+    ],
+    "rejectedClaims": [
+      "Any judgement on whether a 50 percent load factor is realistic for the project.",
+      "Any statement that the project will or will not be built, or on its planning status beyond SSE's own wording.",
+      "Any claim that SSE's carbon total is wrong: the total is consistent with 236 g/kWh; only the printed unit label does not match.",
+      "Which year's CRU rate SSE used: the footnote says \"latest average\" and the page does not say which year.",
+      "The census-night population and local electoral area figure for Arklow: the County Wicklow page owns them.",
+      "Any figure for Arklow Bank phase 1: not on the source page."
+    ]
   }
 }
