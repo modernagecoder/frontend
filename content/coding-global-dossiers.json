@@ -14843,5 +14843,69 @@
       "Town population from F1015 and the \"largest town\" comparison: the Tramore page owns them.",
       "Birthplace, citizenship and ethnic background counts from SAP2022T2T1TOWN22 and SAP2022T2T2TOWN22: excluded from this page by rule."
     ]
+  },
+  "coding-classes-in-blanchardstown-dublin": {
+    "market": "Blanchardstown",
+    "bodyClass": "cg-bdt",
+    "pageType": "district",
+    "curriculumAuthority": "Blanchardstown, Dublin 15, named sources only (owner rule for districts), read 19 September 2026. EPA airquality.ie station EPA-29: \"The Blanchardstown site is located close to the M50/N3 Interchange. Monitoring is done using continuous monitors for nitrogen oxides and particulate matter.\" Readings page note: data \"has been collected automatically from the monitoring sites and has not yet been validated. Therefore, following validation this data may be subject to revision. Sharp spikes should be treated cautiously and may be the result of a calibration or a monitor malfunction.\" Hourly NO2 downloaded for 1 January 2025 to 30 June 2026 (three six-month requests, the site maximum): 2025 has 6,862 non-null hourly values of 8,760 hours (78.3 percent); by quarter 2,150 of 2,160 (99.5), 2,184 of 2,184 (100.0), 2,204 of 2,208 (99.8), 324 of 2,208 (14.7); no values from 2025-10-14 11:00 to 2026-02-05 03:00 (2,728 hours); highest hourly value 126.2; hours above 200: 0; days with at least 18 hourly values 285, of which 20 have a mean above 50 (highest 64.7 on 2025-02-06); mean of the available 2025 hours 24.6; monthly means January 29.9, February 24.6, March 32.7, April 35.2, May 32.0, June 15.4, July 19.1, August 17.3, September 18.5, October (324 hours) 16.5. 2026 to 30 June: 2,628 hours, 5 days above 50. Days follow the site's hour stamps. EPA air quality standards page (2008/50/EC values): NO2 1 hour 200 micrograms per cubic metre \"Not to be exceeded more than 18 times in a calendar year\"; calendar year 40, annual mean. Directive (EU) 2024/2881, Annex I Table 1, \"Limit values for the protection of human health to be attained by 1 January 2030\": NO2 1 hour 200 \"not to be exceeded more than 3 times per calendar year\", 1 day 50 \"not to be exceeded more than 18 times per calendar year\", calendar year 20. Annex V Point B: minimum data coverage for NO2 fixed measurements 85 percent for annual means and for 1-hour, 8-hour or 24-hour means, and \"the minimum data coverage requirements shall be met for specific periods (quarter, month, weekday) of the whole year\". Point C: 24-hour means need \"75 % of the 1-hour means (i.e. at least 18 hourly values during the day)\". Point D: assessment \"shall be carried out regardless of whether the data quality objectives for data coverage are achieved, provided the available data allows for a conclusive assessment\" and partial-year short-term exceedances \"may still constitute non-compliance\". TU Dublin Blanchardstown campus page: \"ten component buildings, with a total area of over 22,000 square metres, located within the IDA College Business and Technology Park on Blanchardstown Road North. The campus directly serves the greater Blanchardstown area and the north and west of Dublin city and county. It also serves students from neighbouring counties of Meath, Kildare, Cavan, Louth\". Sport Ireland National Aquatic Centre: \"Snugborough Road, Blanchardstown, Dublin 15, D15 EPN4\"; \"A 10-lane 50-metre x 25-metre international-standard swimming pool with two moveable floors which will allow it to be reconfigured for other uses\"; \"A 25-metre international standard diving pool/warm-up pool; Seating for 2,500 spectators\". Fingal County Council visitor page: \"Blanchardstown is the most populous and urban area of the county, boasting Blanchardstown Shopping Centre, one of the largest retail areas in Ireland.\" Irish Rail Clonsilla: \"Clonsilla Road, Dublin 15\", \"Eircode D15 YA36\". Draiocht own site: title \"Draiocht Blanchardstown\", programme \"D15 Youth Theatre\".",
+    "localProject": "Limits as rules and coverage as a validity gate. The learner downloads a year of provisional hourly NO2 from the EPA Blanchardstown site and writes each limit as a function of threshold, window and allowed count. On the 2025 readings: 0 hours above 200 (current rule allows 18, 2030 rule 3); 20 of 285 valid days above a daily mean of 50 (2030 rule allows 18); a mean of the available hours of 24.6 (current limit 40, 2030 limit 20). The annual figure fails the directive's own 85 percent coverage requirement (78.3 percent, with the fourth quarter at 14.7 percent and a 2,728-hour gap from 14 October 2025 to 5 February 2026), and the missing months are the higher ones, so the computable mean is more likely biased low. Exceedance counts can only grow as gaps fill; averages can move either way. Distinct from census non-response (Longford) and from spread hidden by an average (Sligo): a published rule disqualifies a number that can still be computed. New family for the cluster: rule windows and coverage validity.",
+    "requiredMentions": [
+      "6,862",
+      "78.3",
+      "126.2",
+      "24.6",
+      "64.7",
+      "285",
+      "2,728",
+      "35.2",
+      "22,000",
+      "2,500",
+      "D15 EPN4",
+      "D15 YA36"
+    ],
+    "sources": [
+      {
+        "claim": "EPA airquality.ie, Blanchardstown station EPA-29: \"The Blanchardstown site is located close to the M50/N3 Interchange. Monitoring is done using continuous monitors for nitrogen oxides and particulate matter.\"; hourly NO2 readings for 2025 and 2026 with the note that the data \"has not yet been validated\" and \"Sharp spikes should be treated cautiously\".",
+        "url": "https://airquality.ie/readings?station=EPA-29"
+      },
+      {
+        "claim": "EPA, Air Quality Standards: nitrogen dioxide 1 hour 200 micrograms per cubic metre \"Not to be exceeded more than 18 times in a calendar year\"; calendar year 40, annual mean.",
+        "url": "https://airquality.ie/information/air-quality-standards"
+      },
+      {
+        "claim": "Directive (EU) 2024/2881, Annex I Table 1 (to be attained by 1 January 2030): nitrogen dioxide 1 hour 200 not to be exceeded more than 3 times per calendar year, 1 day 50 not more than 18 times, calendar year 20. Annex V: minimum data coverage 85 percent for NO2 fixed measurements, met for specific periods of the year; 24-hour means need at least 18 hourly values; partial-year short-term exceedances may still constitute non-compliance.",
+        "url": "https://eur-lex.europa.eu/eli/dir/2024/2881/oj/eng"
+      },
+      {
+        "claim": "TU Dublin, Blanchardstown campus: \"ten component buildings, with a total area of over 22,000 square metres, located within the IDA College Business and Technology Park on Blanchardstown Road North\"; serves the greater Blanchardstown area, the north and west of Dublin city and county, and students from Meath, Kildare, Cavan and Louth.",
+        "url": "https://www.tudublin.ie/explore/our-campuses/blanchardstown/"
+      },
+      {
+        "claim": "Sport Ireland National Aquatic Centre: \"Snugborough Road, Blanchardstown, Dublin 15, D15 EPN4\"; a 10-lane 50-metre by 25-metre pool \"with two moveable floors\"; a 25-metre diving pool; \"Seating for 2,500 spectators\".",
+        "url": "https://www.nationalaquaticcentre.ie/"
+      },
+      {
+        "claim": "Fingal County Council visitor page: \"Blanchardstown is the most populous and urban area of the county, boasting Blanchardstown Shopping Centre, one of the largest retail areas in Ireland.\"",
+        "url": "https://www.fingal.ie/visitor/locations/blanchardstown"
+      },
+      {
+        "claim": "Irish Rail, Clonsilla station: \"Clonsilla Road, Dublin 15\", Eircode \"D15 YA36\".",
+        "url": "https://www.irishrail.ie/en-ie/station/clonsilla"
+      },
+      {
+        "claim": "Draiocht, own site: titled \"Draiocht Blanchardstown\", with a programme named \"D15 Youth Theatre\".",
+        "url": "https://www.draiocht.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement that Blanchardstown's air does or does not meet a limit value: compliance is assessed by the EPA on validated data by zone, and the 2030 limits apply from 1 January 2030.",
+      "Any health claim drawn from the readings.",
+      "Any population figure for Blanchardstown, and any aggregation of census small areas into a district: owner rule for district pages.",
+      "The Blanchardstown-Mulhuddart LEA and Blanchardstown-Blakestown ED figures and the three Dublin 15 LCCS schools: the Fingal page owns them.",
+      "The Dublin postal district and Eircode argument and Luttrellstown Community College: the Dublin page owns them.",
+      "Any detail for Connolly Hospital, Blanchardstown Library or a Draiocht address: their pages returned 404 on 19 September 2026.",
+      "Coolmine station as a Blanchardstown address: Irish Rail gives it as Carpenterstown."
+    ]
   }
 }

@@ -971,3 +971,4 @@
 .cg-root.cg-kdt  { --cg-accent: #9D492A; --cg-accent-soft: rgba(157,73,42,.10); }   /* Kildare town: a rust from the widened solver search, apart from the Kildare county accent and the Newbridge, Naas and Athy pages */
 .cg-root.cg-snn  { --cg-accent: #27279B; --cg-accent-soft: rgba(39,39,155,.10); }   /* Shannon: a deep ultramarine from the widened solver search, kept clear of the violet range and apart from the Clare, Ennis and Limerick accents */
 .cg-root.cg-dgv  { --cg-accent: #9B3227; --cg-accent-soft: rgba(155,50,39,.10); }   /* Dungarvan: a castle-brick red from the widened solver search, apart from the Waterford olive, the Tramore blue and the Kildare rust */
+.cg-root.cg-bdt  { --cg-accent: #354319; --cg-accent-soft: rgba(53,67,25,.10); }   /* Blanchardstown: a deep olive from the widened solver search, the most distant colour left in its band and apart from the Fingal plum and the Dublin red */

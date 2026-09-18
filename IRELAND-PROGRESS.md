@@ -140,7 +140,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 105 | best-coding-class-in-ballina (bln, #64471B) | town | 2,927 | 1.5% vs best-coding-class-in-portmarnock | Chart integrity: one comparison drawn twice; axis from 80% exaggerates a 6.8% gap nine times; complement framing | Truncated bar axes and one-sided framing | 812e28e6 |
 | 106 | best-coding-class-in-kildare (kdt, #9D492A) | town | 2,956 | 1.7% vs best-coding-class-in-midleton | Clustering stability: k-means 200 random starts; 68 groupings at k=4, 200 at k=8; report co-assignment counts | Reporting one clustering run as the grouping; letting the method choose k | a93d3acc |
 | 107 | best-coding-class-in-shannon (snn, #27279B) | town | 3,419 | 1% vs best-coding-class-in-enniscorthy | Seasonal adjustment: airport passengers +70.4% raw vs +6.6% CSO X-13 vs +8.9% by hand | Spring jump read as growth; passengers read as people | dd3883bd |
-| 108 | best-coding-class-in-dungarvan (dgv, #9B3227) | town | 3,312 | 1% vs best-coding-class-in-kildare | Multi-response decoding: 11 census combination labels back to 5 tick boxes, proved by one subtraction | An only-label read as the whole box; box totals drawn as a pie | (this commit) |
+| 108 | best-coding-class-in-dungarvan (dgv, #9B3227) | town | 3,312 | 1% vs best-coding-class-in-kildare | Multi-response decoding: 11 census combination labels back to 5 tick boxes, proved by one subtraction | An only-label read as the whole box; box totals drawn as a pie | 5f570342 |
+| 109 | coding-classes-in-blanchardstown-dublin (bdt, #354319) | district | 3,136 | 0.9% vs best-coding-class-in-dungarvan | Limits as rules and coverage as a validity gate: EPA hourly NO2, 0 hours over 200, 20 days over 50, annual 24.6 on 78.3% coverage | Averaging the readings and comparing with one number; reporting an annual mean below the 85% coverage rule | (this commit) |
 
 ## Skipped (kill criterion)
 
