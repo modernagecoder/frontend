@@ -128,7 +128,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 93 | best-coding-class-in-arklow (akw, #2F2966) | town | 3,094 | 1.7% vs best-coding-class-in-midleton | Units: rebuild the wind farm's homes and carbon footnote with units attached; g vs kg label slip | Treating capacity (MW) as output (MWh); a unit label a thousand times off | 621de039 |
 | 94 | best-coding-class-in-castlebar (cbr, #74622F) | town | 3,005 | 1.7% vs best-coding-class-in-cobh | Nearest neighbours: which towns are most like Castlebar depends on features and scaling; Ballina survives 7 of 8 | Reporting one twin without the features, scaling and stability behind it | 48b5b53e |
 | 95 | best-coding-class-in-wicklow (wkt, #572323) | town | 3,192 | 1.7% vs best-coding-class-in-midleton | Forecasting tested out of sample: four methods on NDA06 completions, winner changes by settlement and window | Trusting an untested forecast; reporting a point instead of a range | e5873b74 |
-| 96 | best-coding-class-in-enniscorthy (ecy, #576845) | town | 3,116 | 1.7% vs best-coding-class-in-mallow | Bounds from two separately published tables: departure time x journey time overlap limits (Frechet) | Inventing an exact overlap (product of shares) or giving up when limits would answer | (this commit) |
+| 96 | best-coding-class-in-enniscorthy (ecy, #576845) | town | 3,116 | 1.7% vs best-coding-class-in-mallow | Bounds from two separately published tables: departure time x journey time overlap limits (Frechet) | Inventing an exact overlap (product of shares) or giving up when limits would answer | c37e4609 |
+| 97 | best-coding-class-in-cavan (cvt, #314349) | town | 3,060 | 1.2% vs best-coding-class-in-arklow | Benford's law checker: census passes, made-up numbers fail, percentages out of scope, one town too small to judge | Treating a leading-digit failure as proof; ignoring sample-size noise | (this commit) |
 
 ## Skipped (kill criterion)
 
