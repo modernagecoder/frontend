@@ -2930,4 +2930,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-gorey /src/pages/best-coding-class-in-gorey.html 200
 /best-coding-class-in-gorey.md /src/pages/best-coding-class-in-gorey.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-tramore /src/pages/best-coding-class-in-tramore.html 200
+/best-coding-class-in-tramore.md /src/pages/best-coding-class-in-tramore.md 200
 /* /src/pages/404.html 404

@@ -14357,5 +14357,47 @@
       "The census-night population, density, local electoral area figure and Creagh College: the County Wexford page owns them.",
       "The F7140 yes-or-no total as this page's finding: Midleton quotes it; this page uses the days breakdown in F7137."
     ]
+  },
+  "best-coding-class-in-tramore": {
+    "market": "Tramore",
+    "bodyClass": "cg-trm",
+    "pageType": "city",
+    "curriculumAuthority": "Tramore, Co Waterford, CSO Census 2022, read 19 September 2026. CSO press statement, Census 2022 Results Profile 1, Population Distribution and Movements, Waterford: \"Looking at Waterford, we can see that Tramore was the largest town, with a population of 11,277 in April 2022.\"; \"Of those towns with a population of at least 500 people in April 2022, Ballinroad was the youngest with an average age of 33.6 years. The oldest was Cappoquin, with an average age of 43.1 years.\" CSO F1015 (Population, Average Age, by town): Waterford city and suburbs, Counties Waterford & Kilkenny 60,079 (38.7); Clonmel, Counties Tipperary & Waterford 18,369 (40.8); Tramore, Co Waterford 11,277 (39.6); Dungarvan, Co Waterford 10,081 (40.5); Portlaw, Co Waterford 1,881; Ballinroad 33.6; Cappoquin 43.1. Town labels naming two counties: 18. SAP2022T2T1TOWN22: usual residents 11,176. SAP2022T15T2TOWN22: households 4,176, broadband 3,512, not stated 262. SAP2022T11T1TOWN22 to work total 4,919: car driver 3,094, work mainly at or from home 525, on foot 292, van 269, car passenger 206, bus 160, bicycle 39, train 14, not stated 300; to school, college or childcare total 3,061: car passenger 1,598, on foot 734, bus 249, car driver 126, bicycle 124, not stated 185. SAP2022T11T3TOWN22: under 15 minutes 2,623, 15 to under 30 minutes 2,695. SAP2022T11T4TOWN22: 1,442 work from home at least some of the time, 2,988 never, 489 not stated. SAP2022T11T5TOWN22: 780 children under 15 in childcare. SAP2022T1T1TOWN22 (census-night age table): ages 6 to 12 sum to 1,155, ages 13 to 18 to 1,095. Tramore Racecourse website: no response on 19 September 2026. Waterford City and County Council Tramore library branch page: HTTP 404 on 19 September 2026.",
+    "localProject": "Verify a named claim and write down the rule that makes it true. The CSO's Waterford statement says Tramore was the largest town, with a population of 11,277 in April 2022. The learner filters the CSO town list three ways. Counting every row that mentions Waterford, Waterford city and suburbs comes first at 60,079; setting cities aside, Clonmel, Counties Tipperary & Waterford, comes first at 18,369; keeping only towns labelled Co Waterford alone, with the city apart, Tramore comes first at exactly 11,277. The statement is true under the third reading, which it never states. The same program reproduces the statement's youngest (Ballinroad, 33.6) and oldest (Cappoquin, 43.1) towns of 500 or more and lists the 18 town labels that name two counties. Output: each claim printed with the rule under which it holds. Distinct from Tullamore, which rebuilt a published average from its table; here the figure matches and the definition is what has to be found. New family for the cluster: verifying claims by making their definitions explicit.",
+    "requiredMentions": [
+      "11,277",
+      "11,176",
+      "4,176",
+      "3,512",
+      "4,919",
+      "3,094",
+      "525",
+      "1,442",
+      "1,598",
+      "780",
+      "2,695",
+      "33.6"
+    ],
+    "sources": [
+      {
+        "claim": "CSO press statement, Census 2022 Results Profile 1 Waterford: \"Looking at Waterford, we can see that Tramore was the largest town, with a population of 11,277 in April 2022.\"; Ballinroad youngest at 33.6 and Cappoquin oldest at 43.1 among towns of at least 500.",
+        "url": "https://www.cso.ie/en/csolatestnews/pressreleases/2023pressreleases/pressstatementcensus2022resultsprofile1-populationdistributionandmovementswaterford/"
+      },
+      {
+        "claim": "CSO table F1015, Population and Average Age by town: Waterford city and suburbs, Counties Waterford & Kilkenny 60,079; Clonmel, Counties Tipperary & Waterford 18,369; Tramore, Co Waterford 11,277; Dungarvan, Co Waterford 10,081; Portlaw 1,881; 18 labels naming two counties.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F1015/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T1TOWN22, SAP2022T11T3TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T1T1TOWN22, Tramore, Co Waterford: usual residents 11,176; households 4,176, broadband 3,512; to work 4,919 with car driver 3,094, mainly at or from home 525, on foot 292, van 269, car passenger 206, bus 160, bicycle 39, train 14; to school, college or childcare 3,061 with car passenger 1,598, on foot 734, bus 249, car driver 126, bicycle 124; 2,695 journeys of 15 to under 30 minutes; 1,442 work from home at least some of the time, 2,988 never, 489 not stated; 780 children under 15 in childcare; 1,155 aged 6 to 12 and 1,095 aged 13 to 18 in the census-night age table.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      }
+    ],
+    "rejectedClaims": [
+      "Any suggestion that the CSO statement is wrong: it is right under its natural reading.",
+      "The Waterford city commuter-town figure and the city's population as mentions: the Waterford page owns them.",
+      "Clonmel's population as a mention: the County Tipperary page owns it.",
+      "Tramore Racecourse and the Tramore library branch: the racecourse site did not respond and the library page returned 404 on 19 September 2026.",
+      "Any explanation of why the CSO labels towns across county lines as it does."
+    ]
   }
 }

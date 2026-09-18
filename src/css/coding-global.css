@@ -961,3 +961,4 @@
 .cg-root.cg-ecy  { --cg-accent: #576845; --cg-accent-soft: rgba(87,104,69,.10); }   /* Enniscorthy: a moss green from the solver, distinct from the Wexford county and Wexford town accents and from Arklow across the county line */
 .cg-root.cg-cvt  { --cg-accent: #314349; --cg-accent-soft: rgba(49,67,73,.10); }   /* Cavan town: a lake-slate blue from the solver, apart from the Cavan county accent and the Monaghan and Longford pages nearby */
 .cg-root.cg-gor  { --cg-accent: #624541; --cg-accent-soft: rgba(98,69,65,.10); }   /* Gorey: a cocoa brown from the solver, apart from the Wexford county, Wexford town and Enniscorthy accents and from Arklow to the north */
+.cg-root.cg-trm  { --cg-accent: #2A3A9D; --cg-accent-soft: rgba(42,58,157,.10); }   /* Tramore: a strand-and-sea blue from a widened solver search, far from the Waterford city olive and the purples of other pages */
