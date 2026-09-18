@@ -14907,5 +14907,76 @@
       "Any detail for Connolly Hospital, Blanchardstown Library or a Draiocht address: their pages returned 404 on 19 September 2026.",
       "Coolmine station as a Blanchardstown address: Irish Rail gives it as Carpenterstown."
     ]
+  },
+  "coding-classes-in-castleknock-dublin": {
+    "market": "Castleknock",
+    "bodyClass": "cg-cnk",
+    "pageType": "district",
+    "curriculumAuthority": "Castleknock, Dublin 15, named sources only (owner rule for districts), read 19 September 2026. Met Eireann long-term data sets, Phoenix Park Dublin: files 1831-1958 (daily max and min, both F and C), outside-observatory 1842-1847, not-corrected 1855-1857, and the metadata workbook. Metadata: \"Meteorological observations have been registered in Phoenix Park Dublin since 1829 whereas daily observations of maximum and minimum self-registering thermometers commenced in 1831\"; \"The observations were taken by staff related to the Royal Engineers at the Ordnance Survey Office in Phoenix Park, Dublin\"; readings \"were made at the window of a room on the second floor, at the west end of the main building of the Survey Office, until 1st March 1842, on which date the instruments were removed to an Observatory constructed in the grounds\"; \"The window recess ... was shut off from the rest of the room by a pair of glass folding doors, and the practice was to open the window for some minutes before reading the instruments\"; each autumn \"Fires were commenced in the room for the Winter.\"; minimum thermometer in use \"from the 4th March 1835 to the 9th November 1836, the readings of which are stated to have been too low by 2, and have accordingly been increased by that amount\"; 1831-1838 recording kept \"with some interruptions owing to breakages\"; April 1842 to December 1847 readings made \"in observatory\" and \"outside observatory\"; 1853-1854 \"No traceable handwritten registers of continuous daily maximum and minimum air temperature observations\"; 14 March 1845 \"The frost was so intense that the River Liffey was frozen over, above King's-bridge\"; since 1879/1880 in a Stevenson screen \"the data may be considered to have a high level of accuracy\". Our arithmetic (dist/pp.js): inside minus outside, minimum n 2,034, mean +0.83 C, inside higher on 92.4 percent; maximum n 1,978, mean -0.42 C. Decades 1832-1841 against 1843-1852: summer (Jun-Aug) mean minimum 11.99 against 10.51, winter (Dec-Feb) mean minimum 2.95 against 2.88. Corrected minus not-corrected maxima 1855-1857 n 881 mean -0.36 C. Minimum readings in the 1830s 2,543 of 3,287 days. Irish Rail Castleknock: \"Dublin 15\", \"Eircode D15 CX21\". St Vincent's Castleknock College: \"College Road, Castleknock, Dublin 15 D15 PD95\"; \"St Vincent's Castleknock College has 190 years experience\" in boys' education; Vincentian. Castleknock Community College: \"part of the Dublin and Dún Laoghaire Education and Training Board and was established in 1995\". Farmleigh: \"Set within seventy-eight acres of landscaped parkland on the north-west edge of Dublin's Phoenix Park\"; \"the official Irish State Guest House\"; owned by the Guinness family from 1873 to 1999 (paraphrased; the source separates the years with a dash); \"The oldest tree at Farmleigh is the great sycamore ... over 220 years in age\"; the Benjamin Iveagh Library. Phoenix Park (OPW): \"The main gates of the Park at Parkgate Street and Castleknock Gate are open 24 hours.\" Fingal County Council Castleknock page: located just inside the M50 ring road with the Phoenix Park on its doorstep; \"Castleknock Castle ... is a ruined Norman castle which was established by the Norman knight, Hugh Tyrell, who was later appointed as the first Baron of Castleknock\"; Farmleigh \"is situated on an elevated position above the River Liffey to the north-west of the Phoenix Park, in Castleknock\".",
+    "localProject": "Paired against unpaired comparison when a method changes. The Phoenix Park thermometers moved from a second-floor window to an observatory on 1 March 1842, and from April 1842 to December 1847 were read inside and outside the observatory on the same days. Paired: inside minimum +0.83 C over 2,034 days (higher on 92.4 percent), inside maximum -0.42 C over 1,978 days. Unpaired decades 1832-1841 against 1843-1852: summer minimum 11.99 against 10.51, a 1.5-degree gap that mixes the move with a decade of weather. Corrected against raw maxima 1855-1857: -0.36 C. The learner joins two files on date, keeps days with both readings, subtracts, then runs the decade comparison beside it. New family for the cluster: paired comparison and method change (homogeneity).",
+    "requiredMentions": [
+      "0.83",
+      "92.4",
+      "2,034",
+      "0.42",
+      "1,978",
+      "0.36",
+      "11.99",
+      "10.51",
+      "2,543",
+      "78 acres",
+      "D15 CX21",
+      "D15 PD95"
+    ],
+    "sources": [
+      {
+        "claim": "Met Eireann, long-term data sets, Phoenix Park Dublin: daily maximum and minimum 1831-1958; outside-observatory readings 1842-1847; not-corrected readings 1855-1857; metadata workbook with the station history quoted above.",
+        "url": "https://www.met.ie/climate/available-data/long-term-data-sets"
+      },
+      {
+        "claim": "Met Eireann data file Phoenix-Park-Dublin_1831-1958.csv (Year, Month, Day, Max and Min in Fahrenheit and Celsius).",
+        "url": "https://www.met.ie/cms/assets/uploads/2020/05/Phoenix-Park-Dublin_1831-1958.csv"
+      },
+      {
+        "claim": "Met Eireann data file Phoenix-Park-Dublin_outside-observatory_1842-1847.csv, paired with the main file by date.",
+        "url": "https://www.met.ie/cms/assets/uploads/2020/05/Phoenix-Park-Dublin_outside-observatory_1842-1847.csv"
+      },
+      {
+        "claim": "Met Eireann station metadata workbook, Phoenix Park Dublin.",
+        "url": "https://www.met.ie/cms/assets/uploads/2020/05/Phoenix-Park-Dublin_metadata.xlsx"
+      },
+      {
+        "claim": "Irish Rail, Castleknock station: \"Dublin 15\", \"Eircode D15 CX21\".",
+        "url": "https://www.irishrail.ie/en-ie/station/castleknock"
+      },
+      {
+        "claim": "St Vincent's Castleknock College: \"College Road, Castleknock, Dublin 15 D15 PD95\"; \"190 years experience\" in boys' education.",
+        "url": "https://www.castleknockcollege.ie/"
+      },
+      {
+        "claim": "Castleknock Community College: \"part of the Dublin and Dún Laoghaire Education and Training Board and was established in 1995\".",
+        "url": "https://www.castleknockcc.ie/"
+      },
+      {
+        "claim": "Farmleigh: \"seventy-eight acres of landscaped parkland on the north-west edge of Dublin's Phoenix Park\"; \"the official Irish State Guest House\"; Guinness family ownership 1873 to 1999; great sycamore over 220 years; Benjamin Iveagh Library.",
+        "url": "https://farmleigh.ie/"
+      },
+      {
+        "claim": "Phoenix Park: \"The main gates of the Park at Parkgate Street and Castleknock Gate are open 24 hours.\"",
+        "url": "https://www.phoenixpark.ie/"
+      },
+      {
+        "claim": "Fingal County Council, Castleknock: just inside the M50 ring road with the Phoenix Park on its doorstep; Castleknock Castle a ruined Norman castle established by Hugh Tyrell, later first Baron of Castleknock; Farmleigh \"to the north-west of the Phoenix Park, in Castleknock\".",
+        "url": "https://www.fingal.ie/visitor/locations/castleknock"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement that the Phoenix Park record is a Castleknock measurement: it is the park's, used as the nearest long series.",
+      "The 1953-1955 Bilham screen comparison: the rescued files disagree with the published 1954 comparison, and documentation against data belongs to the Monaghan page's family.",
+      "Any climate-trend claim from the 1831-1958 record: the page is about method changes, not warming.",
+      "Any population figure for Castleknock and any aggregation of census small areas: owner rule for district pages.",
+      "The Castleknock local electoral area figure: the Fingal page owns it.",
+      "Fingal's sporting superlatives (largest tennis court, one of the largest GAA clubs): promotional, not verified here."
+    ]
   }
 }
