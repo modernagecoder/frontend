@@ -953,3 +953,4 @@
 .cg-root.cg-tlm  { --cg-accent: #314941; --cg-accent-soft: rgba(49,73,65,.10); }   /* Tullamore: a dark canal-slate green from the solver, clear of the Offaly county green and the Carlow teal it sits nearest */
 .cg-root.cg-kly  { --cg-accent: #542646; --cg-accent-soft: rgba(84,38,70,.10); }   /* Killarney: a deep fuchsia-wine from the solver, well clear of the Kerry county green and the Tralee page nearby */
 .cg-root.cg-cbh  { --cg-accent: #313349; --cg-accent-soft: rgba(49,51,73,.10); }   /* Cobh: a harbour-night slate from the solver, apart from the Cork county and Carrigaline accents across the water */
+.cg-root.cg-mdt  { --cg-accent: #6B6447; --cg-accent-soft: rgba(107,100,71,.10); }   /* Midleton: a barley-olive from the solver, apart from the Cork county, Cobh and Carrigaline accents around the harbour */

@@ -2898,4 +2898,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-cobh /src/pages/best-coding-class-in-cobh.html 200
 /best-coding-class-in-cobh.md /src/pages/best-coding-class-in-cobh.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-midleton /src/pages/best-coding-class-in-midleton.html 200
+/best-coding-class-in-midleton.md /src/pages/best-coding-class-in-midleton.md 200
 /* /src/pages/404.html 404

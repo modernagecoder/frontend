@@ -13995,5 +13995,52 @@
       "Any reason for Cobh's share of movers being below the median.",
       "Any claim that the two made-up towns resemble Cobh: they are an illustration of the arithmetic."
     ]
+  },
+  "best-coding-class-in-midleton": {
+    "market": "Midleton",
+    "bodyClass": "cg-mdt",
+    "pageType": "city",
+    "curriculumAuthority": "Midleton, Co Cork, CSO Census 2022 Small Area Population town tables and CSO table F7140, read 19 September 2026. SAP2022T11T4TOWN22: all working persons 6,408, work from home 1,918, never 4,018, not stated 472 (1,918 of 5,936 answering, 32.3 percent). SAP2022T14T1TOWN22: persons at work 6,455, agriculture, forestry and fishing 30 (0.46 percent). SAP2022T2T1TOWN22: usual residents 13,779. SAP2022T15T2TOWN22: households 4,969, broadband 4,163, no internet 358, other 140, not stated 308. SAP2022T11T1TOWN22 to work total 6,408: car driver 4,002, work mainly at or from home 687, on foot 542, car passenger 279, van 264, train DART or Luas 186, bus 102, bicycle 66, not stated 254; to school, college or childcare total 4,013: car passenger 2,181, on foot 837, bus 386, train 173, car driver 143, not stated 193. SAP2022T11T5TOWN22: 1,019 children under 15 in childcare. SAP2022T1T1TOWN22 (census-night age table): ages 6 to 12 sum to 1,561, ages 13 to 18 to 1,414. Town-level analysis in this session over the 262 towns with 500 or more all working persons in T11T4, home-working share = work from home / (all working persons less not stated), farm share = agriculture, forestry and fishing / total at work in T14T1. Bands by farm share, towns and median home-working share: under 0.5 percent 38, 39.1; 0.5 to 1 percent 64, 30.0; 1 to 2 percent 86, 24.5; 2 to 4 percent 62, 22.3; 4 percent or more 12, 20.8. Unweighted least-squares line 33.9 percent minus 2.97 times farm share, r = -0.43, value at a farm share of 100 percent -263 percent; worker-weighted slope -6.66, r = -0.60; without the five city and suburbs rows the weighted slope is -3.83, r = -0.44, and band medians are unchanged or near-unchanged. CSO F7140, Population Aged 15 Years and Over at Work by Working from Home Days, 2022, State: total at work 1 or more days working from home 747,961, does not work from home 1,313,278 (36.3 percent of those answering); Agriculture, forestry and fishing (A) 36,996 and 30,398 (54.9 percent); Construction (F) 16.7 percent; Accommodation and food service activities (I) 10.8 percent; Information and communication (J) 87.6 percent. Irish Rail, Midleton: \"Midleton, Co.Cork\", \"Eircode P25 RX85\", \"There is sheltered bike parking at the station\".",
+    "localProject": "The ecological fallacy, found in real tables. Across the 262 towns with 500 or more working residents, the share of workers who work from home falls as the share in agriculture, forestry and fishing rises: median 39.1 percent in towns under 0.5 percent farm workers, 30.0 from 0.5 to 1, 24.5 from 1 to 2, 22.3 from 2 to 4 and 20.8 at 4 or more; the unweighted line is 33.9 minus 2.97 times the farm share, r = -0.43, and the sign holds with the cities removed and with worker weighting. Read about people, that says farm workers seldom work from home. The CSO's national table of workers by industry (F7140) says the opposite: 54.9 percent of agriculture, forestry and fishing workers who answered work from home at least one day, against 36.3 percent of all workers. Extending the town line to a town made entirely of farm workers gives -263 percent, an impossible rate for people. Midleton sits in the first band with 30 of 6,455 at work in farming and 1,918 of 5,936 working from home. The learner writes one sentence the town chart supports and one it does not, and names the table that decides each. New family for the cluster: level of analysis, places versus people.",
+    "requiredMentions": [
+      "13,779",
+      "4,969",
+      "4,163",
+      "6,408",
+      "4,002",
+      "1,918",
+      "4,013",
+      "2,181",
+      "1,019",
+      "54.9",
+      "262",
+      "P25 RX85"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 tables SAP2022T11T4TOWN22 and SAP2022T14T1TOWN22, all towns: working from home status and persons at work by industry, used for the 262-town analysis. Midleton, Co Cork: all working persons 6,408, work from home 1,918, never 4,018, not stated 472; persons at work 6,455, agriculture, forestry and fishing 30.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T14T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO table F7140, Population Aged 15 Years and Over at Work by Working from Home Days, 2022, State: total 747,961 work from home 1 or more days and 1,313,278 do not; Agriculture, forestry and fishing (A) 36,996 and 30,398; Construction (F), Accommodation and food service activities (I) and Information and communication (J) as used for the industry rates.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F7140/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T1TOWN22, SAP2022T11T5TOWN22 and SAP2022T1T1TOWN22, Midleton, Co Cork: usual residents 13,779; households 4,969, broadband 4,163; to work 6,408 with car driver 4,002, mainly at or from home 687, on foot 542, car passenger 279, van 264, train 186, bus 102, bicycle 66; to school, college or childcare 4,013 with car passenger 2,181, on foot 837, bus 386, train 173, car driver 143; 1,019 children under 15 in childcare; 1,561 aged 6 to 12 and 1,414 aged 13 to 18 in the census-night age table.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Midleton station: \"Midleton, Co.Cork\", \"Eircode P25 RX85\", \"There is sheltered bike parking at the station\".",
+        "url": "https://www.irishrail.ie/en-ie/station/midleton"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reason why towns with more farm workers have less home-working.",
+      "Any statement about farm workers drawn from the town chart.",
+      "Treating the national industry rates as rates for town residents only: F7140 covers every worker in the State.",
+      "Mapping the other seven town industry groups onto national industry sections: only agriculture, forestry and fishing carries the same name in both tables.",
+      "The census-night population, density and average age for Midleton: the County Cork page owns them.",
+      "Any claim about the Midleton rail line's history or service levels."
+    ]
   }
 }
