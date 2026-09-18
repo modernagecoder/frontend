@@ -14181,5 +14181,51 @@
       "The National Museum of Ireland, Country Life at Turlough Park: the site returned 403 to automated requests on 19 September 2026, so nothing is quoted.",
       "The census-night population, density, average age, local electoral area figure and the ATU Mayo campus: the County Mayo page owns them."
     ]
+  },
+  "best-coding-class-in-wicklow": {
+    "market": "Wicklow",
+    "bodyClass": "cg-wkt",
+    "pageType": "city",
+    "curriculumAuthority": "Wicklow, Co Wicklow, CSO Census 2022 Small Area Population town tables and CSO table NDA06, read 19 September 2026. SAP2022T2T1TOWN22: usual residents 12,862. SAP2022T15T2TOWN22: households 4,616, broadband 4,044, not stated 212. SAP2022T11T1TOWN22 to work total 5,785: car driver 3,236, work mainly at or from home 824, on foot 473, van 352, car passenger 247, bus 205, train DART or Luas 173, bicycle 53, not stated 187; to school, college or childcare total 3,399: car passenger 1,798, on foot 847, bus 330, car driver 145, train 59, bicycle 44, not stated 137. SAP2022T11T3TOWN22: 1 hour to under 1.5 hours 910, 1.5 hours and over 400 (1,310 an hour or more). SAP2022T11T4TOWN22: 2,160 work from home at least some of the time, 3,261 never, 364 not stated. SAP2022T11T5TOWN22: 891 children under 15 in childcare. SAP2022T1T1TOWN22 (census-night age table): ages 6 to 12 sum to 1,260, ages 13 to 18 to 1,158. NDA06, Number of New Dwelling Completions, settlement \"Wicklow, Co Wicklow\", 2012 to 2025: 1, 3, 15, 40, 31, 66, 58, 132, 181, 74, 133, 84, 139, 206; total 1,163. Backtest in this session: train 2012 to 2021, forecast 2022 to 2025, total absolute error: same as last year (74 each year) 266; average of last three (129) 136; least-squares line on all ten years (146, 162, 177, 193, floored at zero) 142; line on last five (144, 158, 172, 186) 138. Across the 101 settlements with 100 or more completions 2012 to 2021, wins 31, 24, 26, 20 in that order; total absolute error 36,933, 35,947, 27,094, 36,874. Window trained to 2018 and scored 2019 to 2021 over the 51 settlements with 100 or more completions 2012 to 2018: wins 15, 16, 8, 12. Forecasts from all fourteen years, 2026 to 2028: 206, 206, 206; 143, 143, 143; 183, 196, 210; 208, 235, 262. Irish Rail, Wicklow: \"Station Address Iarnród Éireann, Station Road, Wicklow, Co. Wicklow\", \"Eircode A67 TK38\", \"There is bike parking at the station\". Wicklow's Historic Gaol, own site: \"Wicklow's Historic Gaol - Reopening Soon\", \"EST. 1702\", \"KILMANTIN HILL, WICKLOW TOWN\".",
+    "localProject": "Forecasting, tested out of sample. The CSO's completions series for the settlement Wicklow runs 1, 3, 15, 40, 31, 66, 58, 132, 181, 74, 133, 84, 139 and 206 from 2012 to 2025, 1,163 in all. The learner builds four methods (same as last year, average of the last three, straight line through all years, straight line through the last five), trains each on 2012 to 2021 and scores it on 2022 to 2025: errors 266, 136, 142 and 138, so the three reasonable methods finish within six homes and the naive copy of a low 2021 trails. Across 101 settlements with 100 or more completions the wins split 31, 24, 26 and 20, while the all-years line has by far the lowest total error; trained to 2018 and scored on 2019 to 2021 across 51 settlements the wins are 15, 16, 8 and 12, so the method strongest in one test wins fewest in the other. From all fourteen years the four methods forecast 143 to 262 homes for 2028. Lessons: test a forecast on data it has not seen (the train and test split), fix methods before scoring, and report a range. New family for the cluster: forecasting and out-of-sample testing.",
+    "requiredMentions": [
+      "12,862",
+      "4,616",
+      "4,044",
+      "5,785",
+      "3,236",
+      "824",
+      "2,160",
+      "3,399",
+      "1,798",
+      "891",
+      "1,163",
+      "A67 TK38"
+    ],
+    "sources": [
+      {
+        "claim": "CSO table NDA06, Number of New Dwelling Completions by settlement, 2012 to 2025: Wicklow, Co Wicklow 1, 3, 15, 40, 31, 66, 58, 132, 181, 74, 133, 84, 139, 206 (total 1,163); the same table for every settlement is used for the backtests over 101 and 51 settlements.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/NDA06/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T1TOWN22, SAP2022T11T3TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T1T1TOWN22, Wicklow, Co Wicklow: usual residents 12,862; households 4,616, broadband 4,044; to work 5,785 with car driver 3,236, mainly at or from home 824, on foot 473, van 352, car passenger 247, bus 205, train 173, bicycle 53; to school, college or childcare 3,399 with car passenger 1,798, on foot 847, bus 330, car driver 145, train 59, bicycle 44; 1,310 journeys of an hour or more; 2,160 work from home at least some of the time, 3,261 never, 364 not stated; 891 children under 15 in childcare; 1,260 aged 6 to 12 and 1,158 aged 13 to 18 in the census-night age table.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Wicklow station: \"Station Address Iarnród Éireann, Station Road, Wicklow, Co. Wicklow\", \"Eircode A67 TK38\", \"There is bike parking at the station\".",
+        "url": "https://www.irishrail.ie/en-ie/station/wicklow"
+      },
+      {
+        "claim": "Wicklow's Historic Gaol, own site: \"Reopening Soon\", \"EST. 1702\", \"KILMANTIN HILL, WICKLOW TOWN\".",
+        "url": "https://wicklowshistoricgaol.com/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any housing forecast for Wicklow: the page reports what four methods produce and how they tested, not what will happen.",
+      "Combining the completions series with census town figures: NDA06 settlements need not share the census town boundary.",
+      "Any cause for the rises and falls in completions, including planning, prices or policy.",
+      "Picking a best method from one backtest: the ranking changes between the two windows tested.",
+      "The census-night population and the local electoral area figures for Wicklow: the County Wicklow page owns them."
+    ]
   }
 }

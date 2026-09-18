@@ -2914,4 +2914,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-castlebar /src/pages/best-coding-class-in-castlebar.html 200
 /best-coding-class-in-castlebar.md /src/pages/best-coding-class-in-castlebar.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-wicklow /src/pages/best-coding-class-in-wicklow.html 200
+/best-coding-class-in-wicklow.md /src/pages/best-coding-class-in-wicklow.md 200
 /* /src/pages/404.html 404
