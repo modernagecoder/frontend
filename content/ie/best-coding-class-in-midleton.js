@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in Midleton',
   capsuleQ: 'What is the best coding class in Midleton?',
-  capsule: 'Midleton\'s 13,779 usual residents live in 4,969 households, and 4,163 of those households have broadband, which is the only connection our lessons need. A teacher takes each lesson live on video, with a few learners at the same stage or with one learner alone, about twice a week, for ages six to sixty-seven. The first lesson is free. After it, a place in a group costs USD 100 a month and private teaching USD 150.',
+  capsule: 'Midleton\'s 13,779 usual residents live in 4,969 households, and 4,163 of those households have broadband, which is the only connection our lessons need. A teacher takes each lesson live on video, with a few learners at the same stage or with one learner alone, about twice a week, for ages six to sixty-seven. The first lesson is free. Once it is done, group lessons are USD 100 a month and one-to-one lessons USD 150.',
   lead: 'Census 2022 asked every worker whether they work from home, and in Midleton 1,918 of the 5,936 who answered said they do, at least some of the time. Put the same answer for 262 towns on a chart against the share of each town\'s workers in farming, forestry and fishing, and a clear line appears: the more farm workers a town has, the less home-working. It is tempting to read that as a fact about farm workers. The CSO also publishes the answer for workers themselves, grouped by industry, and it points the other way: 54.9 percent of workers in agriculture, forestry and fishing work from home at least one day, against 36.3 percent of all workers. This page builds both views and explains how a pattern among places can reverse among the people who live in them.',
   wa: 'Hello Modern Age Coders, I would like to book a free coding lesson for a learner in Midleton.',
 
@@ -115,10 +115,10 @@ module.exports = {
     },
     {
       id: 'town', tint: '', eyebrow: 'The town in the census',
-      h2: 'Midleton in the resident tables',
-      intro: 'Published for the town Midleton, Co Cork, in the Census 2022 small area tables.',
+      h2: 'Midleton, counted',
+      intro: 'From the Census 2022 small area tables for the town Midleton, Co Cork.',
       body: [
-        { kind: 'table', caption: 'Midleton, Co Cork, Census 2022', head: ['Counted', 'Number'], rows: [
+        { kind: 'table', caption: 'Midleton in Census 2022', head: ['Item', 'Figure'], rows: [
           ['Usual residents', '13,779'],
           ['Households', '4,969'],
           ['Households with broadband', '4,163'],
@@ -142,10 +142,10 @@ module.exports = {
       body: [
         { kind: 'grid3', cells: [
           { h3: 'Children', p: 'The census-night age table counts 1,561 children aged six to twelve in Midleton. They begin with blocks and games and learn to count and sort before they chart anything.' },
-          { h3: 'Teenagers', p: 'For the 1,414 aged thirteen to eighteen: Python, websites, AI and data work with real tables, from first year through the Leaving Cert years.' },
+          { h3: 'Teenagers', p: 'Midleton has 1,414 people aged thirteen to eighteen. At that age learners move into Python, the web, AI and analysis of real tables, alongside secondary school.' },
           { h3: 'Adults', p: 'Adults join with whatever they bring, including nothing. The opening lesson places them and the course takes it from there.' }
         ] },
-        { kind: 'p', text: 'Census counts are Central Statistics Office figures printed as published. Bands, medians, the fitted line and the industry rates were computed from the town tables and table F7140 on 19 September 2026. Irish Rail is quoted from its own station page and is not connected with us.' }
+        { kind: 'p', text: 'All census counts appear exactly as the Central Statistics Office released them. Bands, medians, the fitted line and the industry rates were computed from the town tables and table F7140 on 19 September 2026. Irish Rail is quoted from its own station page and is not connected with us.' }
       ]
     }
   ],
@@ -169,7 +169,7 @@ module.exports = {
     p1: 'Give an AI assistant the town chart and ask what it shows, and a natural-sounding summary is that farm workers are less likely to work from home. It reads well, and it is the ecological fallacy in one line. Nothing in the chart supports a claim about individuals, and the national table contradicts it.',
     p2: 'A learner who has done this project asks the assistant to label every sentence it writes as being about towns or about people, then checks each one against the table that would support it. That habit transfers to every chart they will ever be shown.',
     closer: 'An assistant can draw the chart in seconds. Knowing which kind of question it can answer is still the analyst\'s job.',
-    blogAnchor: 'why learning to code still repays the time'
+    blogAnchor: 'why the effort of learning to code pays back'
   },
 
   delivery: {
@@ -213,7 +213,7 @@ module.exports = {
       { q: 'So do farm workers work from home more or less?', a: 'More, according to the census table of individual workers: 54.9 percent at least one day a week, compared with 36.3 percent overall. The town chart cannot answer that question at all, because it describes towns, not the people in them.' },
       { q: 'How do Midleton residents get to work?', a: 'Of 6,408 working residents, 4,002 drive, 687 work mainly at or from home, 542 walk, 279 go as a car passenger, 264 by van, 186 by train and 102 by bus.' },
       { q: 'When are lessons?', a: 'After school, in the evening and at weekends. Our teachers in India are four and a half hours ahead of Midleton for the Irish summer and five and a half hours ahead in winter, and slots are picked to work for both.' },
-      { q: 'Are adults welcome?', a: 'Yes, up to sixty-seven and from any starting point. After the first lesson an adult learns either in a group at the right level or one to one.' },
+      { q: 'Are adults welcome?', a: 'Yes, up to sixty-seven and from any starting point. The opening lesson shows whether an adult is better placed in a group of similar level or with a private teacher.' },
       { q: 'Will Midleton learners be grouped together?', a: 'Only by chance. Groups are made by level, so a Midleton learner may share a lesson with others in Cobh, Cork city or another country.' },
       { q: 'Is there a Modern Age Coders classroom in Midleton?', a: 'No, and we never imply one. Teaching is live over video only, with no premises in Ireland. A learner needs a laptop or desktop, working sound and a steady connection, and the number shown here belongs to India.', boiler: true },
       { q: 'What do coding classes in Midleton cost?', a: 'The first lesson is free. After that a shared place costs USD 100 a month and brings two live lessons a week, about eight monthly, with five to ten learners; one to one on the same schedule is USD 150 a month. Everything is agreed before payment.', boiler: true },

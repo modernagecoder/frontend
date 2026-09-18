@@ -4,7 +4,7 @@ description: "Live online coding, Python, data and AI classes for Midleton learn
 canonical: https://learn.modernagecoders.com/best-coding-class-in-midleton
 source: src/pages/best-coding-class-in-midleton.html
 ---
-> Midleton's 13,779 usual residents live in 4,969 households, and 4,163 of those households have broadband, which is the only connection our lessons need. A teacher takes each lesson live on video, with a few learners at the same stage or with one learner alone, about twice a week, for ages six to sixty-seven. The first lesson is free. After it, a place in a group costs USD 100 a month and private teaching USD 150.
+> Midleton's 13,779 usual residents live in 4,969 households, and 4,163 of those households have broadband, which is the only connection our lessons need. A teacher takes each lesson live on video, with a few learners at the same stage or with one learner alone, about twice a week, for ages six to sixty-seven. The first lesson is free. Once it is done, group lessons are USD 100 a month and one-to-one lessons USD 150.
 
 [Home](/) / [Ireland](/coding-classes-in-ireland) / [County Cork](/coding-classes-in-county-cork) / Midleton
 
@@ -12,7 +12,7 @@ Midleton, County Cork / Live online
 
 # Coding classes in Midleton
 
-**What is the best coding class in Midleton?** Midleton's 13,779 usual residents live in 4,969 households, and 4,163 of those households have broadband, which is the only connection our lessons need. A teacher takes each lesson live on video, with a few learners at the same stage or with one learner alone, about twice a week, for ages six to sixty-seven. The first lesson is free. After it, a place in a group costs USD 100 a month and private teaching USD 150.
+**What is the best coding class in Midleton?** Midleton's 13,779 usual residents live in 4,969 households, and 4,163 of those households have broadband, which is the only connection our lessons need. A teacher takes each lesson live on video, with a few learners at the same stage or with one learner alone, about twice a week, for ages six to sixty-seven. The first lesson is free. Once it is done, group lessons are USD 100 a month and one-to-one lessons USD 150.
 
 Census 2022 asked every worker whether they work from home, and in Midleton 1,918 of the 5,936 who answered said they do, at least some of the time. Put the same answer for 262 towns on a chart against the share of each town's workers in farming, forestry and fishing, and a clear line appears: the more farm workers a town has, the less home-working. It is tempting to read that as a fact about farm workers. The CSO also publishes the answer for workers themselves, grouped by industry, and it points the other way: 54.9 percent of workers in agriculture, forestry and fishing work from home at least one day, against 36.3 percent of all workers. This page builds both views and explains how a pattern among places can reverse among the people who live in them.
 
@@ -96,13 +96,13 @@ Statisticians call reading a group-level pattern as an individual one the ecolog
 
 **What this page does not claim** It does not say why farm-heavy towns have less home-working. It also notes that the national table covers every worker in the State, including those who live outside towns, so it is the individual answer for all farm workers rather than for town residents alone.
 
-## Midleton in the resident tables
+## Midleton, counted
 
-Published for the town Midleton, Co Cork, in the Census 2022 small area tables.
+From the Census 2022 small area tables for the town Midleton, Co Cork.
 
-**Midleton, Co Cork, Census 2022**
+**Midleton in Census 2022**
 
-| Counted | Number |
+| Item | Figure |
 |---|---|
 | Usual residents | 13,779 |
 | Households | 4,969 |
@@ -136,13 +136,13 @@ The census-night age table counts 1,561 children aged six to twelve in Midleton.
 
 ### Teenagers
 
-For the 1,414 aged thirteen to eighteen: Python, websites, AI and data work with real tables, from first year through the Leaving Cert years.
+Midleton has 1,414 people aged thirteen to eighteen. At that age learners move into Python, the web, AI and analysis of real tables, alongside secondary school.
 
 ### Adults
 
 Adults join with whatever they bring, including nothing. The opening lesson places them and the course takes it from there.
 
-Census counts are Central Statistics Office figures printed as published. Bands, medians, the fitted line and the industry rates were computed from the town tables and table F7140 on 19 September 2026. Irish Rail is quoted from its own station page and is not connected with us.
+All census counts appear exactly as the Central Statistics Office released them. Bands, medians, the fitted line and the industry rates were computed from the town tables and table F7140 on 19 September 2026. Irish Rail is quoted from its own station page and is not connected with us.
 
 ## From sorting into groups to reading groups honestly
 
@@ -161,7 +161,7 @@ Give an AI assistant the town chart and ask what it shows, and a natural-soundin
 
 A learner who has done this project asks the assistant to label every sentence it writes as being about towns or about people, then checks each one against the table that would support it. That habit transfers to every chart they will ever be shown.
 
-An assistant can draw the chart in seconds. Knowing which kind of question it can answer is still the analyst's job. The longer argument is in [why learning to code still repays the time](/blog/is-coding-worth-learning-2026).
+An assistant can draw the chart in seconds. Knowing which kind of question it can answer is still the analyst's job. The longer argument is in [why the effort of learning to code pays back](/blog/is-coding-worth-learning-2026).
 
 ## How lessons are run for Midleton
 
@@ -210,7 +210,7 @@ After school, in the evening and at weekends. Our teachers in India are four and
 
 ### Are adults welcome?
 
-Yes, up to sixty-seven and from any starting point. After the first lesson an adult learns either in a group at the right level or one to one.
+Yes, up to sixty-seven and from any starting point. The opening lesson shows whether an adult is better placed in a group of similar level or with a private teacher.
 
 ### Will Midleton learners be grouped together?
 

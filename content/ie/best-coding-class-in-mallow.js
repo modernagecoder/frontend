@@ -15,7 +15,7 @@
 
 module.exports = {
   clusterName: 'Ireland',
-  hub: { group: 'town', tag: 'MALLOW', blurb: 'A program hunting for what makes Mallow stand out finds something. It finds something for 90 of 94 towns, and for all of them when the numbers are shuffled.' },
+  hub: { group: 'town', tag: 'MALLOW', blurb: 'A program hunting for what makes Mallow stand out finds something. It finds something for 90 of 94 towns, and for nearly all of them when the numbers are shuffled.' },
   market: { iso: 'IE', dial: '+353', name: 'Ireland', locale: 'en_IE', geoRegion: 'IE', phoneLabel: 'Irish mobile number', phonePlaceholder: '87 123 4567', gradeLabel: 'Class, year or age' },
   slug: 'best-coding-class-in-mallow',
   code: 'mlw',
@@ -55,7 +55,7 @@ module.exports = {
   h1: 'Coding classes in Mallow',
   capsuleQ: 'What is the best coding class in Mallow?',
   capsule: 'Of Mallow\'s 4,864 households, 3,877 report broadband, and a broadband line is how our lessons arrive. Each one is taught live on video by a teacher working with a few learners at the same stage, or with one learner, roughly twice a week, for any age between six and sixty-seven. The opening lesson is free. From then on a group place is USD 100 a month and one-to-one lessons USD 150.',
-  lead: 'Write a program that searches the census for what makes a town stand out, point it at Mallow, and it comes back with a real finding: 34.0 percent of Mallow people who answered leave home between 08:01 and 08:30 in the morning, the fourth highest share among the 94 towns of 5,000 or more. Now point it at every town. Ninety of the 94 get a headline of their own. Shuffle the numbers so that every difference between towns is pure luck, and every town still gets one. This page builds that program and uses it to show why a single standout statistic, found by searching, says very little, and what kind of pattern does say something.',
+  lead: 'Write a program that searches the census for what makes a town stand out, point it at Mallow, and it comes back with a real finding: 34.0 percent of Mallow people who answered leave home between 08:01 and 08:30 in the morning, the fourth highest share among the 94 towns of 5,000 or more. Now point it at every town. Ninety of the 94 get a headline of their own. Shuffle the numbers so that every difference between towns is pure luck, and 93 or 94 of them get one in every run. This page builds that program and uses it to show why a single standout statistic, found by searching, says very little, and what kind of pattern does say something.',
   wa: 'Hello Modern Age Coders, I would like to book a free coding lesson for a learner in Mallow.',
 
   picks: {
