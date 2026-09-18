@@ -139,7 +139,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 104 | best-coding-class-in-skerries (skr, #2A499D) | town | 2,853 | 1.7% vs best-coding-class-in-rush | Composite index: 66 weightings of three census shares; Skerries 3rd to 26th, four possible winners | Presenting a weighted league table without its weights and sensitivity | 9ca322f2 |
 | 105 | best-coding-class-in-ballina (bln, #64471B) | town | 2,927 | 1.5% vs best-coding-class-in-portmarnock | Chart integrity: one comparison drawn twice; axis from 80% exaggerates a 6.8% gap nine times; complement framing | Truncated bar axes and one-sided framing | 812e28e6 |
 | 106 | best-coding-class-in-kildare (kdt, #9D492A) | town | 2,956 | 1.7% vs best-coding-class-in-midleton | Clustering stability: k-means 200 random starts; 68 groupings at k=4, 200 at k=8; report co-assignment counts | Reporting one clustering run as the grouping; letting the method choose k | a93d3acc |
-| 107 | best-coding-class-in-shannon (snn, #27279B) | town | 3,419 | 1% vs best-coding-class-in-enniscorthy | Seasonal adjustment: airport passengers +70.4% raw vs +6.6% CSO X-13 vs +8.9% by hand | Spring jump read as growth; passengers read as people | (this commit) |
+| 107 | best-coding-class-in-shannon (snn, #27279B) | town | 3,419 | 1% vs best-coding-class-in-enniscorthy | Seasonal adjustment: airport passengers +70.4% raw vs +6.6% CSO X-13 vs +8.9% by hand | Spring jump read as growth; passengers read as people | dd3883bd |
+| 108 | best-coding-class-in-dungarvan (dgv, #9B3227) | town | 3,312 | 1% vs best-coding-class-in-kildare | Multi-response decoding: 11 census combination labels back to 5 tick boxes, proved by one subtraction | An only-label read as the whole box; box totals drawn as a pie | (this commit) |
 
 ## Skipped (kill criterion)
 
