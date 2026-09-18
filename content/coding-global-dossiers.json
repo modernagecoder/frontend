@@ -14399,5 +14399,55 @@
       "Tramore Racecourse and the Tramore library branch: the racecourse site did not respond and the library page returned 404 on 19 September 2026.",
       "Any explanation of why the CSO labels towns across county lines as it does."
     ]
+  },
+  "best-coding-class-in-athy": {
+    "market": "Athy",
+    "bodyClass": "cg-aty",
+    "pageType": "city",
+    "curriculumAuthority": "Athy, Co Kildare, CSO Census 2022 Small Area Population town tables, read 19 September 2026. SAP2022T1T1TOWN22 (census-night age table, total 11,035): single years 0 to 19: 154, 131, 134, 148, 139, 160, 152, 166, 157, 178, 199, 205, 196, 205, 200, 178, 164, 180, 147, 152. Ages 6 to 12 sum to 1,253; ages 0 to 6 to 1,018; ages 13 to 18 to 1,074; ages 7 to 12 to 1,101. SAP2022T2T1TOWN22: usual residents 10,992. SAP2022T2T3TOWN22: aged 1 and over 10,838; same address 10,160; elsewhere in county 366; elsewhere in Ireland 207; outside Ireland 105 (678 at a different address, 312 from outside the county or abroad). SAP2022T15T2TOWN22: households 4,045, broadband 3,206, not stated 320. SAP2022T11T1TOWN22 to work total 4,238: car driver 2,403, on foot 417, van 300, car passenger 269, work mainly at or from home 240, train 176, bicycle 67, bus 44, not stated 293; to school, college or childcare total 3,026: car passenger 1,312, on foot 759, bus 370, train 124, car driver 85, bicycle 83, not stated 274. SAP2022T11T2TOWN22: before 06:30 733. SAP2022T11T4TOWN22: 833 work from home at least some of the time, 2,921 never, 484 not stated. SAP2022T11T5TOWN22: 671 children under 15 in childcare. Cohort ageing across the 95 towns with a census-night population of 5,000 or more (F1015/T1T1): primary group (6 to 12) shrinks in 89 by 2028 under no migration, median -14.2 percent, Athy -18.8 percent, 29th steepest; teen group (13 to 18) grows in 79, median +6.8 percent. All 867 towns: 351,883 aged 6 to 12 against 303,095 aged 0 to 6 (-13.9 percent). Irish Rail, Athy: \"Station Address Church Road Athy Co. Kildare\", \"Eircode R14 XH64\", \"You can use sheltered bike parking in Athy station\". Shackleton Experience, own site: \"Emily Square, Athy, Co. Kildare, Ireland. R14 KW65\".",
+    "localProject": "Cohort ageing: a projection that needs no model, with its one assumption measured. Every child who will be six to twelve in Athy in April 2028 was aged nought to six on census night 2022; the single-year counts give 1,018 against 1,253 six-to-twelves now, down 235 or 18.8 percent, and the thirteen-to-eighteens of 2028, today's seven-to-twelves, number 1,101 against 1,074 now. Across the 95 towns of 5,000 or more the same method shrinks the primary group in 89 (median -14.2 percent, Athy 29th steepest) and grows the teen group in 79 (median +6.8); all 867 towns fall from 351,883 to 303,095. The assumption that nobody moves is set against the one-year-ago table: 678 of 10,838 residents aged one and over had a different address a year earlier, 312 from outside Kildare or abroad, and leavers are absent from every Athy table. The page names the result a baseline, to be compared with reality in 2028, and codes migration as an explicit dial. Distinct from Wicklow, which tested trend extrapolation out of sample; here nothing is extrapolated. New family for the cluster: cohort projection and demographic accounting.",
+    "requiredMentions": [
+      "10,992",
+      "3,206",
+      "4,238",
+      "2,403",
+      "833",
+      "3,026",
+      "1,312",
+      "671",
+      "733",
+      "1,018",
+      "1,253",
+      "R14 XH64"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T1T1TOWN22, population by single year of age, Athy, Co Kildare: 0 to 19 as 154, 131, 134, 148, 139, 160, 152, 166, 157, 178, 199, 205, 196, 205, 200, 178, 164, 180, 147, 152; the same table for every town is used for the 95-town comparison.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T1T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T2T3TOWN22, Athy, Co Kildare: usually resident aged 1 and over 10,838; same address 10,160; elsewhere in county 366; elsewhere in Ireland 207; outside Ireland 105.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T2T3TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T1TOWN22, SAP2022T11T2TOWN22, SAP2022T11T4TOWN22 and SAP2022T11T5TOWN22, Athy, Co Kildare: usual residents 10,992; households 4,045, broadband 3,206; to work 4,238 with car driver 2,403, on foot 417, van 300, car passenger 269, mainly at or from home 240, train 176, bicycle 67, bus 44; to school, college or childcare 3,026 with car passenger 1,312, on foot 759, bus 370, train 124, car driver 85, bicycle 83; 733 leave home before 06:30; 833 work from home at least some of the time, 2,921 never, 484 not stated; 671 children under 15 in childcare.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Athy station: \"Station Address Church Road Athy Co. Kildare\", \"Eircode R14 XH64\", \"You can use sheltered bike parking in Athy station\".",
+        "url": "https://www.irishrail.ie/en-ie/station/athy"
+      },
+      {
+        "claim": "Shackleton Experience, own site: \"Emily Square, Athy, Co. Kildare, Ireland. R14 KW65\".",
+        "url": "https://www.shackletonmuseum.com/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any forecast of school enrolments: schools draw from beyond the town, and enrolment depends on choices not in the table.",
+      "Any statement that Athy will have fewer children in 2028: the page gives a no-migration baseline only.",
+      "Any claim about Ernest Shackleton's life: the Shackleton Experience is quoted for its name and address only.",
+      "The census-night population (11,035) and local electoral area figure: the County Kildare page owns them.",
+      "Any view on housing or school planning in Athy."
+    ]
   }
 }
