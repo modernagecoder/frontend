@@ -13889,5 +13889,60 @@
       "Any reason why Tyrrellspass has so many residents aged 85 and over.",
       "The Offaly County Council eircode, the town density and area, and the county page's commuting and citizenship points: the County Offaly page owns them."
     ]
+  },
+  "best-coding-class-in-killarney": {
+    "market": "Killarney",
+    "bodyClass": "cg-kly",
+    "pageType": "city",
+    "curriculumAuthority": "Killarney, Co Kerry, CSO Census 2022, read 19 September 2026. F1013 (Population Density and Area Size, by town): Killarney total population 14,412. CSO Census 2022 Profile 1 background notes: \"The census population figures in this report relate to the de facto population meaning persons who were present in the State on the night of Sunday, 03 April 2022\"; \"The de facto measure of the population represents all persons who were present in the State on Census Night, irrespective of whether they were usually resident in the State at the time of the census\"; \"The usually resident and present measure is used when analysing topics such as country of citizenship and households and families\"; \"A non-private household is a group of persons enumerated in a boarding house, hotel, guest house, hostel, barracks, hospital, nursing home, boarding school, religious institution, welfare institution, prison or ship. A non-private household may include usual residents and/or visitors.\" SAP2022T2T1TOWN22: usually resident population 13,456. SAP2022T15T2TOWN22: households 4,866, broadband 3,809, no internet 583, other 112, not stated 362. SAP2022T11T1TOWN22 to work total 6,284: car driver 2,973, on foot 1,285, work mainly at or from home 469, car passenger 282, bicycle 272, van 270, bus 249, not stated 412; to school, college or childcare total 2,920: car passenger 1,560, on foot 565, bus 126, car driver 113, bicycle 60, not stated 450. SAP2022T11T4TOWN22: 1,202 work from home at least some of the time, 4,286 never, 796 not stated. SAP2022T11T5TOWN22: 682 children under 15 in childcare. SAP2022T3T1TOWN22: 4,596 of 13,965 aged 3 and over can speak Irish. SAP2022T1T1TOWN22 (census-night age table, total 14,412): ages 6 to 12 sum to 1,216, ages 13 to 18 to 957. Gap computation in this session, F1013 total population minus T2T1 usually resident total, joined on town code for all 867 towns (all-towns row excluded): Killarney 956, 6.63 percent; 746 towns above zero, 121 at zero, none below; all towns 3,630,501 against 3,582,870, gap 47,631, 1.31 percent; median town 0.65 percent. Towns of 1,000 or more on census night: 306, top eight by share Dingle-Daingean Uí Chúis 1,671/1,406/265/15.86, Saggart 4,573/3,890/683/14.94, Kilkee 1,214/1,067/147/12.11, Cahirciveen 1,297/1,165/132/10.18, Killarney 14,412/13,456/956/6.63, Buttevant 1,080/1,031/49/4.54, Lehinch 1,018/972/46/4.52, Westport 6,872/6,566/306/4.45. Towns of 5,000 or more: 95, Killarney first, Westport second at 4.45, median 0.82. Towns of 10,000 or more: 54, Killarney first, Galway city and suburbs second at 2.61. Largest gap in people: Dublin city and suburbs 19,941, twelfth of the 95 by share. Irish Rail, Killarney: station address \"Fair Hill, Killarney, Co. Kerry\", \"Eircode V93 HV25\", \"There is Sheltered bike parking at the station\". Killarney National Park (nationalparks.ie): \"stretching across 10,000 hectares\"; Muckross House \"via a well-signposted right turn off the N71, just over 6km south of Killarney town\".",
+    "localProject": "A gap between two definitions is a measurement, not an answer. The census counts Killarney twice: 14,412 present on census night (the de facto population on the town list) and 13,456 usual residents (the measure used for the resident tables). The learner joins the two tables on the CSO town code for all 867 towns, computes the gap and its share of the census-night count, and ranks within size bands. Killarney's 956, 6.63 percent, is the largest share of the 95 towns of 5,000 or more (Westport next at 4.45, median 0.82) and of the 54 of 10,000 or more (Galway city next at 2.61); among the 306 towns of 1,000 or more it is fifth behind Dingle, Saggart, Kilkee and Cahirciveen. 746 towns have a positive gap, 121 a gap of zero, none a negative one; all towns together hold 47,631 more people on census night, 1.31 percent. Dublin has the largest gap in people, 19,941, but is twelfth of the 95 by share, which is why the ranking uses shares. The page then refuses to explain the ranking: Saggart is second and Buttevant sixth with nothing in the tables to say why, the CSO's own list of non-private households runs from hotels to hospitals, boarding schools and prisons, and the tables record presence, not purpose. New family for the cluster: a discrepancy between two official measures used as a signal, kept separate from its cause. Swords owns the bare note that two population figures exist.",
+    "requiredMentions": [
+      "956",
+      "6.63",
+      "4,866",
+      "3,809",
+      "6,284",
+      "1,285",
+      "2,973",
+      "1,202",
+      "2,920",
+      "682",
+      "4,596",
+      "V93 HV25"
+    ],
+    "sources": [
+      {
+        "claim": "CSO table F1013, Population Density and Area Size, Census 2022: Killarney, Co Kerry total population 14,412, and the total population of each of the 867 towns used for the gap, including Dingle-Daingean Uí Chúis 1,671, Saggart 4,573, Kilkee 1,214, Cahirciveen 1,297, Buttevant 1,080, Lehinch 1,018, Westport 6,872 and Dublin city and suburbs 1,263,219.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F1013/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T2T1TOWN22, usually resident population by birthplace or citizenship: Killarney 13,456, and the usually resident total of each of the 867 towns used for the gap, including Dingle 1,406, Saggart 3,890, Kilkee 1,067, Cahirciveen 1,165, Buttevant 1,031, Lehinch 972 and Westport 6,566.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T2T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO, Census 2022 Profile 1 background notes: the de facto population is \"persons who were present in the State on the night of Sunday, 03 April 2022\"; \"The usually resident and present measure is used when analysing topics such as country of citizenship and households and families\"; a non-private household is \"a group of persons enumerated in a boarding house, hotel, guest house, hostel, barracks, hospital, nursing home, boarding school, religious institution, welfare institution, prison or ship\" and \"may include usual residents and/or visitors\".",
+        "url": "https://www.cso.ie/en/releasesandpublications/ep/p-cpp1/censusofpopulation2022profile1-populationdistributionandmovements/backgroundnotes/"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T15T2TOWN22, SAP2022T11T1TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22, SAP2022T3T1TOWN22 and SAP2022T1T1TOWN22, Killarney, Co Kerry: households 4,866, broadband 3,809; to work 6,284 with car driver 2,973, on foot 1,285, mainly at or from home 469, car passenger 282, bicycle 272, van 270, bus 249; to school, college or childcare 2,920 with car passenger 1,560, on foot 565, bus 126, car driver 113, bicycle 60; 1,202 work from home at least some of the time, 4,286 never, 796 not stated; 682 children under 15 in childcare; 4,596 of 13,965 aged 3 and over can speak Irish; 1,216 aged 6 to 12 and 957 aged 13 to 18 in the census-night age table.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Killarney station: address \"Fair Hill, Killarney, Co. Kerry\", \"Eircode V93 HV25\", \"There is Sheltered bike parking at the station\".",
+        "url": "https://www.irishrail.ie/en-ie/station/killarney"
+      },
+      {
+        "claim": "Killarney National Park, national parks site: \"stretching across 10,000 hectares, lies Killarney National Park\"; Muckross House is reached \"via a well-signposted right turn off the N71, just over 6km south of Killarney town\".",
+        "url": "https://www.nationalparks.ie/killarney/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any cause for Killarney's gap, including tourism: the tables used record who was present and who usually lives there, not why anyone was there.",
+      "Any explanation for Saggart's or Buttevant's gap.",
+      "Labelling the towns at the top of the list as tourist towns: an impression, not a finding from these tables.",
+      "The national park as evidence for the gap: it appears only as a named local fact.",
+      "The bare statement that two population figures exist for a town: the Swords page owns it; this page measures and ranks the difference.",
+      "The town density and area, the local electoral area figure and the Fexco and MTU points: the County Kerry page owns them."
+    ]
   }
 }

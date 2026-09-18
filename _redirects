@@ -2890,4 +2890,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-tullamore /src/pages/best-coding-class-in-tullamore.html 200
 /best-coding-class-in-tullamore.md /src/pages/best-coding-class-in-tullamore.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-killarney /src/pages/best-coding-class-in-killarney.html 200
+/best-coding-class-in-killarney.md /src/pages/best-coding-class-in-killarney.md 200
 /* /src/pages/404.html 404
