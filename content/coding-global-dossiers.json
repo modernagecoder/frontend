@@ -13654,5 +13654,52 @@
       "Any mention of places across the border: Northern Ireland is outside this cluster.",
       "Any reason for Letterkenny's travel shares or broadband level."
     ]
+  },
+  "best-coding-class-in-wexford": {
+    "market": "Wexford",
+    "bodyClass": "cg-wxt",
+    "pageType": "city",
+    "curriculumAuthority": "Wexford town, the built-up area \"Wexford, Co Wexford\", CSO Census 2022 Small Area Population town tables, read 19 September 2026, and CSO table NDA06 New Dwelling Completions by Settlement, updated 30 July 2026, dimensions Statistic (1), Year (14, 2012 to 2025), Settlements (873). NDA06 for the settlement \"Wexford, Co Wexford\": 2012 8, 2013 9, 2014 12, 2015 36, 2016 22, 2017 44, 2018 64, 2019 138, 2020 135, 2021 167, 2022 291, 2023 211, 2024 179, 2025 173; total 1,489; 2012 to 2016 total 87; 2021 to 2025 total 1,021; peak 291 in 2022. Our arithmetic to 2025: from 2012 up 2,062.5 percent, from 2016 up 686.4, from 2019 up 25.4, from 2021 up 3.6, from 2022 down 40.5, from 2023 down 18.0; year-on-year changes 12.5, 33.3, 200.0, minus 38.9, 100.0, 45.5, 115.6, minus 2.2, 23.7, 74.3, minus 27.5, minus 15.2, minus 3.4 percent; three-year moving averages from 2014: 9.7, 19.0, 23.3, 34.0, 43.3, 82.0, 112.3, 146.7, 197.7, 223.0, 227.0, 187.7. NDA06 settlement names differ from census town labels in places, for example Tinriland and Inniscrone against Tinryland and Enniscrone. Census town tables: SAP2022T2T1TOWN22 usual residents 21,358, born in Ireland 17,137; SAP2022T15T2TOWN22 households 8,506, broadband 6,785, other 249, none 956, not stated 516; SAP2022T11T1TOWN22 to work total 9,107 with car driver 4,928, on foot 1,437, work mainly at or from home 687, car passenger 647, bus 176, train 25; to school, college or childcare total 4,689 with car passenger 2,514, on foot 1,197, bus 314, car driver 138, not stated 408; SAP2022T11T4TOWN22 2,034 work from home at least some of the time, 6,225 never, 848 not stated; SAP2022T11T5TOWN22 1,314 children under 15 in childcare. The National Opera House: \"The National Opera House, High St, Wexford, Y35 FEP3\", \"Registered in Ireland No: 16277\", \"Charity No: CHY18140\", Wexford Festival Opera. Wexford Arts Centre: \"Cornmarket, Wexford\", \"Reg No 306536\".",
+    "localProject": "Choose the start year, choose the headline. CSO table NDA06 counts new dwelling completions in the settlement of Wexford for each year from 2012 to 2025: 8, 9, 12, 36, 22, 44, 64, 138, 135, 167, 291, 211, 179 and 173. Measured to 2025 the same series is up 2,062.5 percent from 2012, up 686.4 from 2016, up 25.4 from 2019, up 3.6 from 2021, down 40.5 from the 2022 peak and down 18.0 from 2023, every figure correct arithmetic on published numbers. The page explains why low bases explode percentages and peaks manufacture declines, prints the whole series with year-on-year changes, which swing from up 200 to down 38.9 percent on small counts, and a three-year moving average rising from 9.7 to 227.0, and recommends summaries that cannot be bent by a chosen start, such as the first and last five-year totals, 87 against 1,021, and the fourteen-year total of 1,489. It notes that NDA06 lists 873 settlements with some names spelled differently from the census towns, so no completions figure is divided by census households. The learner writes a percentage-change function, generates the six headlines, then builds the defence: full plot, moving average, five-year totals and a caption that states the range. New family for the cluster: time series, baselines and smoothing.",
+    "requiredMentions": [
+      "21,358",
+      "8,506",
+      "6,785",
+      "9,107",
+      "4,928",
+      "4,689",
+      "2,514",
+      "1,314",
+      "291",
+      "1,489",
+      "173",
+      "Y35 FEP3"
+    ],
+    "sources": [
+      {
+        "claim": "CSO table NDA06 New Dwelling Completions by Settlement, updated 30 July 2026, settlement \"Wexford, Co Wexford\": 2012 8, 2013 9, 2014 12, 2015 36, 2016 22, 2017 44, 2018 64, 2019 138, 2020 135, 2021 167, 2022 291, 2023 211, 2024 179, 2025 173. The table lists 873 settlements, including Tinriland, Co Carlow and Inniscrone, Co Sligo.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/NDA06/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T1TOWN22, SAP2022T11T4TOWN22 and SAP2022T11T5TOWN22, Wexford, Co Wexford: usual residents 21,358; households 8,506, broadband 6,785; to work 9,107 with car driver 4,928, on foot 1,437, mainly at or from home 687, car passenger 647, bus 176, train 25; to school, college or childcare 4,689 with car passenger 2,514, on foot 1,197, bus 314; 2,034 work from home at least some of the time, 6,225 never, 848 not stated; 1,314 children under 15 in childcare.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "The National Opera House: \"The National Opera House, High St, Wexford, Y35 FEP3, Ireland\"; \"Registered in Ireland No: 16277\"; \"Charity No: CHY18140\"; home of Wexford Festival Opera.",
+        "url": "https://www.nationaloperahouse.ie/"
+      },
+      {
+        "claim": "Wexford Arts Centre: \"Wexford Arts Centre, Cornmarket, Wexford. Reg No 306536\".",
+        "url": "https://www.wexfordartscentre.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any single percentage change presented as the trend without the full series beside it.",
+      "Any reason for the rise or fall in completions, including housing policy, prices or demand: nothing on the page measures them.",
+      "Dividing completions by census households or residents: NDA06 settlements are not assumed to match census town boundaries.",
+      "The census town-list population of Wexford and the SETU campus eircodes: the County Wexford page owns them.",
+      "Irish Rail station details: the station page returned no content under the slugs tried, so none are quoted.",
+      "Any National Opera House or Wexford Arts Centre ticket price."
+    ]
   }
 }

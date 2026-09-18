@@ -2870,4 +2870,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-letterkenny /src/pages/best-coding-class-in-letterkenny.html 200
 /best-coding-class-in-letterkenny.md /src/pages/best-coding-class-in-letterkenny.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-wexford /src/pages/best-coding-class-in-wexford.html 200
+/best-coding-class-in-wexford.md /src/pages/best-coding-class-in-wexford.md 200
 /* /src/pages/404.html 404
