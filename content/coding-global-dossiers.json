@@ -14725,5 +14725,68 @@
       "Nearest-neighbour similarity and the choice of features and scaling: the Castlebar page owns them.",
       "The census-night population and local electoral area figure: the County Kildare page owns them."
     ]
+  },
+  "best-coding-class-in-shannon": {
+    "market": "Shannon",
+    "bodyClass": "cg-snn",
+    "pageType": "city",
+    "curriculumAuthority": "Shannon, Co Clare, CSO Census 2022 Small Area Population town tables, read 19 September 2026. SAP2022T2T1TOWN22: usual residents 10,117. SAP2022T15T2TOWN22: households 3,877, broadband 3,346, other 63, no internet 252, not stated 216. SAP2022T11T1TOWN22 to work total 4,529: car driver 2,636, on foot 545, car passenger 383, work mainly at or from home 297, van 150, bus 147, bicycle 120, motorcycle 17, other 14, train 1, not stated 219; to school, college or childcare total 2,543: on foot 1,104 (all 867 towns combined 260,527 of 921,076, 28.3 percent), car passenger 866, bus 201, car driver 120, bicycle 86, not stated 143. SAP2022T11T2TOWN22: 387 leave before 06:30. SAP2022T11T4TOWN22: 1,045 work from home at least some of the time, 3,077 never, 407 not stated. SAP2022T11T5TOWN22: 505 children under 15 in childcare. SAP2022T14T1TOWN22 persons at work 4,590: manufacturing 1,548 (all towns 183,909 of 1,644,493, 11.2 percent), transport and communications 677 (171,726, 10.4 percent). SAP2022T1T1TOWN22 (census-night age table): ages 6 to 12 sum to 1,033, ages 13 to 18 to 859. CSO TAM08 Passengers handled by main airports, monthly, January 2019 to June 2026, updated 19 August 2026, note \"Passenger numbers refer to commercial passengers only\": Shannon 2026 Jan 131,514, Feb 127,186, Mar 168,955, Apr 220,714, May 242,836, Jun 265,104; 2025 Jan 117,909 (lowest), Aug 254,703 (highest), ratio 2.16; 2020 Apr 85, May 17, Jun 18; twelve months to June 2025 2,123,589, to June 2026 2,377,360 (+12.0 percent); all 18 months January 2025 to June 2026 above the same month a year earlier; mean share of calendar-year total 2023-2025 August 11.3, February 5.3, January 5.5 percent. CSO TAQ01, updated 2 September 2026, Shannon raw Q1 2026 427,655, Q2 728,654 (+70.4 percent, equal to TAM08 quarter sums); seasonally adjusted Q2 2025 548,780, Q1 2026 598,385, Q2 2026 637,754 (+6.6 percent); adjusted count rose in 12 of 13 quarter-on-quarter changes 2023Q2 to 2026Q2 (only 2023Q4 fell, by 0.2 percent); raw quarter changes ranged from -29.9 to +70.4 percent; trend blank for 2025Q4 to 2026Q2. Dublin raw Q1 2026 7,725,750, Q2 10,215,972 (+32.2 percent); adjusted 9,574,992 to 9,338,373 (-2.5 percent). Our ratio-to-centred-moving-average factors from 2023-2025 (Jan 0.693, Feb 0.662, Mar 0.833, Apr 1.054, May 1.140, Jun 1.237, Jul 1.312, Aug 1.348, Sep 1.108, Oct 1.058, Nov 0.758, Dec 0.797) give Q1 2026 584,620 and Q2 636,604 (+8.9 percent); Q2 raw year on year +15.0 percent. Easter Sunday by the Gregorian computus: 2019-04-21, 2023-04-09, 2024-03-31, 2025-04-20, 2026-04-05; April over March 1.28, 1.36, 1.17, 1.32, 1.31. CSO Aviation Statistics Quarter 2 2026 (2 September 2026): Table 2 Shannon Q2 2025 633,499, Q2 2026 728,654 (+15); Table 9 seasonally adjusted Shannon Q2 2025 548,780, Q1 2026 598,385, Q2 2026 637,754 (+7), Dublin 9,574,992 to 9,338,373 (-2); Table 5C Shannon top ten Q2 2026 London Heathrow arrivals 38,414 departures 37,020 total 75,434, London Stansted 70,253, New York JFK 35,283, Boston Logan 33,250, Malaga 33,141, Faro 32,794, London Gatwick 32,661, Manchester 30,263, Alicante 28,779, Reus 27,928. Aviation Statistics Quarter 1 2026, Table 5C Shannon: Heathrow 66,547, Stansted 46,094, Gatwick 30,156, Krakow 30,125, Manchester 26,315, Lanzarote 22,191, Tenerife Sur 19,961, Boston Logan 19,850, Alicante 19,409, Wroclaw 18,156. Background notes: X-13-ARIMA, models from January 2012, calendar effects such as the timing of Easter, outliers, temporary changes and level shifts, seasonal factors updated each quarter; \"passenger numbers for Shannon and Dublin airports exclude transit passengers on technical transit flights as these are fuel stop only flights\". Shannon Aviation Museum, own site: \"Link Road, Shannon, Smithstown, Co. Clare, V14 PH34\", \"Museum open Wednesday to Saturday, 10am to 4pm\", \"Aviation Camp 8+\", \"Aviation Academy 13+\". St Patrick's Comprehensive School, own site: \"St. Patrick's Comprehensive School, Shannon, Co. Clare. V14 Y434\".",
+    "localProject": "Seasonality and seasonal adjustment. Shannon Airport's raw passengers rose 70.4 percent from the first to the second quarter of 2026 (427,655 to 728,654); the statistics office's X-13 seasonally adjusted figures show 6.6 percent (598,385 to 637,754). The learner checks that the monthly TAM08 counts sum to the TAQ01 raw quarters, builds seasonal factors by the ratio to a centred twelve-month moving average over 2023-2025, and gets 584,620 and 636,604, a rise of 8.9 percent: close on the second quarter's level, 2.3 percent low on the first, two points apart on the change. Same-quarter-a-year-earlier (+15.0 percent) and rolling twelve months (+12.0 percent) are the model-free comparisons. Dublin's raw +32.2 percent is -2.5 percent adjusted. Route tables show the season is concentrated: Boston +67.5 and Stansted +52.4 percent between quarters, Heathrow +13.4. Lessons: compare like with like, name the periods, know that recent adjusted figures are revised, and that a passenger is a movement, not a person. New family for the cluster: seasonality and seasonal adjustment (Wicklow owns forecasting and backtests).",
+    "requiredMentions": [
+      "10,117",
+      "3,346",
+      "4,529",
+      "2,636",
+      "1,104",
+      "1,033",
+      "427,655",
+      "728,654",
+      "598,385",
+      "637,754",
+      "2,377,360",
+      "V14 PH34"
+    ],
+    "sources": [
+      {
+        "claim": "CSO PxStat table TAM08, Passengers handled by main airports, monthly January 2019 to June 2026, updated 19 August 2026: Shannon 2026 January 131,514, February 127,186, March 168,955, April 220,714, May 242,836, June 265,104; 2025 January 117,909, August 254,703; 2020 April 85, May 17, June 18. Note: \"Passenger numbers refer to commercial passengers only.\"",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/TAM08/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO PxStat table TAQ01, passengers, trend and seasonally adjusted, quarterly, updated 2 September 2026: Shannon raw Q1 2026 427,655, Q2 2026 728,654; seasonally adjusted Q1 2026 598,385, Q2 2026 637,754; Dublin seasonally adjusted Q1 2026 9,574,992, Q2 2026 9,338,373.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/TAQ01/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO, Aviation Statistics Quarter 2 2026, 2 September 2026: Table 9 seasonally adjusted Shannon Q1 2026 598,385, Q2 2026 637,754, change 7 percent; Table 5C Shannon London Heathrow arrivals 38,414, departures 37,020, total 75,434, with Stansted 70,253, New York JFK 35,283, Boston Logan 33,250, Malaga 33,141, Faro 32,794, Gatwick 32,661, Manchester 30,263, Alicante 28,779, Reus 27,928.",
+        "url": "https://www.cso.ie/en/releasesandpublications/ep/p-as/aviationstatisticsquarter22026/"
+      },
+      {
+        "claim": "CSO, Aviation Statistics Quarter 2 2026, background notes: seasonal adjustment by X-13-ARIMA with models from January 2012, allowing for calendar effects such as the timing of Easter and for outliers, temporary changes and level shifts, seasonal factors updated each quarter; \"passenger numbers for Shannon and Dublin airports exclude transit passengers on technical transit flights as these are fuel stop only flights\".",
+        "url": "https://www.cso.ie/en/releasesandpublications/ep/p-as/aviationstatisticsquarter22026/backgroundnotes/"
+      },
+      {
+        "claim": "CSO, Aviation Statistics Quarter 1 2026, Table 5C Shannon: London Heathrow 66,547, London Stansted 46,094, London Gatwick 30,156, Krakow 30,125, Manchester 26,315, Lanzarote 22,191, Tenerife Sur 19,961, Boston Logan 19,850, Alicante 19,409, Wroclaw 18,156.",
+        "url": "https://www.cso.ie/en/releasesandpublications/ep/p-as/aviationstatisticsquarter12026/"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T1TOWN22, SAP2022T11T2TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22, SAP2022T14T1TOWN22 and SAP2022T1T1TOWN22, Shannon, Co Clare: usual residents 10,117; households 3,877, broadband 3,346; to work 4,529 with car driver 2,636, on foot 545; to school, college or childcare 2,543 with on foot 1,104; 387 leave before 06:30; 1,045 work from home at least some of the time; 505 children under 15 in childcare; persons at work 4,590 with manufacturing 1,548 and transport and communications 677; 1,033 aged 6 to 12 and 859 aged 13 to 18 in the census-night age table.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Shannon Aviation Museum, own site: \"Link Road, Shannon, Smithstown, Co. Clare, V14 PH34, Ireland\", \"Museum open Wednesday to Saturday, 10am to 4pm\", \"Aviation Camp 8+\", \"Aviation Academy 13+\".",
+        "url": "https://www.shannonaviationmuseum.com/"
+      },
+      {
+        "claim": "St Patrick's Comprehensive School, own site: \"St. Patrick's Comprehensive School, Shannon, Co. Clare. V14 Y434\".",
+        "url": "https://www.stpatrickscomprehensive.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reading of airport passenger counts as people living in, visiting or working in Shannon town: a passenger is a movement, and a return trip counts twice.",
+      "Any reason for a route's seasonal rise: the route tables show sizes, not motives.",
+      "Any forecast of future passenger numbers: the Wicklow page owns forecasting and backtests.",
+      "The census-night population, density, local electoral area and the Shannon Group description of the airport: the County Clare page owns them.",
+      "Any claim about the museum or the school beyond name, address, opening hours and published age bands.",
+      "Birthplace and citizenship counts from SAP2022T2T1TOWN22: excluded from this page by rule."
+    ]
   }
 }
