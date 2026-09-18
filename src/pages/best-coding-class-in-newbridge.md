@@ -14,7 +14,7 @@ Newbridge, County Kildare / Live online
 
 **What is the best coding class in Newbridge?** Newbridge counts 24,253 usual residents in the census town tables and 8,308 households, 7,184 of them reporting broadband. Two evenings in a normal week, a teacher appears on video at the hour the household picked, and the learner works through the course either with a handful of others at the same stage or with nobody else present. Ages six to sixty-seven. The opening lesson is free. USD 100 a month buys a shared place after that, USD 150 a private one.
 
-Newbridge is a large town: 594 of its 11,031 working residents give a train as their main means of travel, and every figure on this page describes hundreds or thousands of people. The same column of the same table, read across all 868 towns in it, looks very different at the other end. In 260 of those towns, either the bicycle cell or the train cell holds exactly one person. The smallest town in the column has 33 working residents in total. One is not a statistic, it is somebody, and the moment a reader joins that table to anything else, or splits it by one more variable, the arithmetic stops being anonymous. That is the project on this page, and it is the part of data work most likely to matter in a learner's first job.
+Newbridge is a large town: 594 of its 11,031 working residents give a train as their main means of travel, and every figure on this page describes hundreds or thousands of people. The same column of the same table, read across all 867 towns in it, looks very different at the other end. In 260 of those towns, either the bicycle cell or the train cell holds exactly one person. The smallest town in the column has 33 working residents in total. One is not a statistic, it is somebody, and the moment a reader joins that table to anything else, or splits it by one more variable, the arithmetic stops being anonymous. That is the project on this page, and it is the part of data work most likely to matter in a learner's first job.
 
 Facts last verified 18 September 2026. Teaching is online; no Newbridge branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
 
@@ -38,7 +38,7 @@ Browse the [course atlas](/course-atlas) for more than one hundred options and t
 
 ## A count of one is a person
 
-The Newbridge column beside the smallest entries in the same table. Counts are published; the tallies across all 868 towns were computed by us on 18 September 2026.
+The Newbridge column beside the smallest entries in the same table. Counts are published; the tallies across all 867 towns were computed by us on 18 September 2026.
 
 **The two ends of one census column**
 
@@ -49,8 +49,8 @@ The Newbridge column beside the smallest entries in the same table. Counts are p
 | Ballindrait, Co Donegal | 37 | 0 | 0 |
 | Malin, Co Donegal | 39 | 0 | 0 |
 | Dromineer, Co Tipperary | 43 | 0 | 0 |
-| Towns in the column with fewer than 200 working residents | 360 of 868 |  |  |
-| Towns whose cycling or train cell is exactly one person | 260 of 868 |  |  |
+| Towns in the column with fewer than 200 working residents | 360 of 867 |  |  |
+| Towns whose cycling or train cell is exactly one person | 260 of 867 |  |  |
 
 ### What a cell of one means
 
@@ -109,7 +109,7 @@ The same column, counted at four candidate thresholds. Every figure here is our 
 |---|---|---|
 | 33 | None, this is the smallest town in the column | Nothing, and nothing is protected either |
 | 50 | A handful at the very bottom | Almost nothing, and the thinnest cells are still published |
-| 200 | 360 of 868 towns | Detail for two fifths of the places in the column |
+| 200 | 360 of 867 towns | Detail for two fifths of the places in the column |
 | 1,000 | Most of the column | Almost all small-town detail, for near-complete safety |
 
 ### There is no free threshold

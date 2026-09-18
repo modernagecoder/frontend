@@ -13,7 +13,7 @@
 
 module.exports = {
   clusterName: 'Ireland',
-  hub: { group: 'town', tag: 'TRALEE', blurb: 'Sixteen of the 868 town names in one census table break a careless pipeline. A Kerry page about text as data.' },
+  hub: { group: 'town', tag: 'TRALEE', blurb: 'Sixteen of the 867 town names in one census table break a careless pipeline. A Kerry page about text as data.' },
   market: { iso: 'IE', dial: '+353', name: 'Ireland', locale: 'en_IE', geoRegion: 'IE', phoneLabel: 'Irish mobile number', phonePlaceholder: '87 123 4567', gradeLabel: 'Class, year or age' },
   slug: 'best-coding-class-in-tralee',
   code: 'tre',
@@ -53,7 +53,7 @@ module.exports = {
   h1: 'Coding classes in Tralee',
   capsuleQ: 'What is the best coding class in Tralee?',
   capsule: 'Tralee holds 25,675 usual residents in the census town tables, living in 10,185 households, 7,622 of which report broadband. The teaching comes to the house over video, twice in most weeks, with a live teacher and either a group of five to ten learners at one stage or nobody else at all, from age six to sixty-seven. The opening lesson costs nothing. A shared place is USD 100 a month afterwards, and private teaching USD 150.',
-  lead: 'The census table we use for these pages carries 868 town names, and 16 of them contain a character that is not in the plain English alphabet. One is in this county: Dingle-Daingean Ui Chuis, which the file spells with a fada on the i. Nothing about that is exotic, and it is enough to break a data pipeline written carelessly. Read the file as though it were Latin-1 and the name comes back as mangled punctuation. Strip it to ASCII and a letter vanishes. Compare two versions that look identical on screen and the computer says they differ, because one stores the accent as part of the letter and the other keeps it separately. Every one of those was run against that exact label while writing this page. Numbers get all the attention in data work, and text is where the day is usually lost.',
+  lead: 'The census table we use for these pages carries 868 area labels, 867 towns and one all-towns row, and 16 of the town names contain a character that is not in the plain English alphabet. One is in this county: Dingle-Daingean Ui Chuis, which the file spells with a fada on the i. Nothing about that is exotic, and it is enough to break a data pipeline written carelessly. Read the file as though it were Latin-1 and the name comes back as mangled punctuation. Strip it to ASCII and a letter vanishes. Compare two versions that look identical on screen and the computer says they differ, because one stores the accent as part of the letter and the other keeps it separately. Every one of those was run against that exact label while writing this page. Numbers get all the attention in data work, and text is where the day is usually lost.',
   wa: 'Hello Modern Age Coders, I would like to book a free coding lesson for a learner in Tralee.',
 
   picks: {

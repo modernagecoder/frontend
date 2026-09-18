@@ -182,13 +182,13 @@ Three lines, complete.
 - Group tuition: USD 100 a month. A month in an ability group of five to ten, about eight live lessons.
 - Private tuition: USD 150 a month. A month of one to one teaching on the same weekly pattern.
 
-Fees are monthly, in US dollars, at the single rate for families outside India, so Balbriggan sees the same figure as Swords or Drogheda and no euro list appears beside it. The first invoice waits on two decisions, which course and which hour, both made during the lesson that costs nothing, and term breaks, an absence and a switch of format are set out on the pricing page.
+A Balbriggan household pays in US dollars, monthly, at the rate every family outside India pays, which is also what Swords and Drogheda pay, and there is no parallel price in euro. Nothing is owed for the opening hour, the month starts with the first paid lesson, and the pricing page explains what happens over school holidays, after a missed week, or on a move from a group to private lessons.
 
 ## Balbriggan coding class questions
 
 ### How many people live in Balbriggan?
 
-The Census 2022 small area tables count 24,145 usual residents in the built-up area of Balbriggan, in 8,146 households. Our Fingal page quotes the census town list, which counts town populations on a slightly different basis.
+The Census 2022 small area tables count 24,145 usual residents in the built-up area of Balbriggan, in 8,146 households. The Fingal page uses a different census product, the town list, and its figure for Balbriggan is not the same number, because the two count on different bases.
 
 ### What is the Balbriggan data project?
 
@@ -228,7 +228,7 @@ Five to ten, grouped by ability, pace and goal rather than age or address. Where
 
 ## Around Balbriggan
 
-Down the coast are [Swords](/best-coding-class-in-swords) and [Malahide](/best-coding-class-in-malahide), inside [Fingal](/coding-classes-in-fingal), with [Drogheda](/best-coding-class-in-drogheda) to the north and [Leinster](/coding-and-ai-classes-in-leinster) around them. Online schools are compared on our [comparison page](/best-online-coding-classes-ireland), and the [Ireland hub](/coding-classes-in-ireland) lists every page.
+Down the coast are [Swords](/best-coding-class-in-swords) and [Malahide](/best-coding-class-in-malahide), inside [Fingal](/coding-classes-in-fingal), with [Drogheda](/best-coding-class-in-drogheda) to the north and [Leinster](/coding-and-ai-classes-in-leinster) around them. If you are weighing us against other providers, [this comparison](/best-online-coding-classes-ireland) lays the options out, and the [Ireland hub](/coding-classes-in-ireland) links every town and county we cover.
 
 ## Contact
 

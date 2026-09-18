@@ -4,7 +4,7 @@
 // own press statement quoting census day as 03 April 2022, and the Irish Rail
 // station page for Balbriggan. Spine: a date is not a string. Every date claim on
 // the page was executed in this session: 3 April 2022 was a Sunday; Europe/Dublin
-// ran an hour ahead of UTC that day and an hour behind it on 26 March 2022;
+// ran an hour ahead of UTC that day and level with it on 26 March 2022;
 // JavaScript reads new Date(2022, 3, 3) as 3 April because months count from
 // zero, and Date.parse of 03/04/2022 as 4 March. New family for the cluster: time
 // and date handling. Fingal owns Balbriggan's town-list population 24,322 and its
@@ -189,7 +189,7 @@ module.exports = {
     first: 'The opening lesson, taught and assessed in full, at no charge.',
     group: 'A month in an ability group of five to ten, about eight live lessons.',
     private: 'A month of one to one teaching on the same weekly pattern.',
-    closer: 'Fees are monthly, in US dollars, at the single rate for families outside India, so Balbriggan sees the same figure as Swords or Drogheda and no euro list appears beside it. The first invoice waits on two decisions, which course and which hour, both made during the lesson that costs nothing, and term breaks, an absence and a switch of format are set out on the pricing page.'
+    closer: 'A Balbriggan household pays in US dollars, monthly, at the rate every family outside India pays, which is also what Swords and Drogheda pay, and there is no parallel price in euro. Nothing is owed for the opening hour, the month starts with the first paid lesson, and the pricing page explains what happens over school holidays, after a missed week, or on a move from a group to private lessons.'
   },
 
   reviewsH2: 'Six of our families, quoted from Google as written',
@@ -204,7 +204,7 @@ module.exports = {
     h2: 'Balbriggan coding class questions',
     intro: 'What Balbriggan households ask first.',
     items: [
-      { q: 'How many people live in Balbriggan?', a: 'The Census 2022 small area tables count 24,145 usual residents in the built-up area of Balbriggan, in 8,146 households. Our Fingal page quotes the census town list, which counts town populations on a slightly different basis.' },
+      { q: 'How many people live in Balbriggan?', a: 'The Census 2022 small area tables count 24,145 usual residents in the built-up area of Balbriggan, in 8,146 households. The Fingal page uses a different census product, the town list, and its figure for Balbriggan is not the same number, because the two count on different bases.' },
       { q: 'What is the Balbriggan data project?', a: 'Learners take one published date, 03 April 2022, and run it through the mistakes programs actually make: an ambiguous format, months numbered from zero in one language and one in another, a missing time zone, and a clock change the week before. Each is executed rather than described.' },
       { q: 'Why is a date harder than a number?', a: 'Because it is a number written as text with rules attached. The same six digits mean two days in different conventions, languages disagree about how months are numbered, and an hour appears or disappears twice a year in this country.' },
       { q: 'How do Balbriggan residents travel to work?', a: 'Of the 10,373 working residents in the travel table, 5,332 drive, 1,000 give working mainly at or from home, 903 take a train, DART or Luas, 828 walk, 646 take a bus, 461 travel as a car passenger and 95 cycle.' },
@@ -220,7 +220,7 @@ module.exports = {
   next: {
     eyebrow: 'Explore Ireland',
     h2: 'Around Balbriggan',
-    html: 'Down the coast are <a class="cg-inline-link" href="/best-coding-class-in-swords">Swords</a> and <a class="cg-inline-link" href="/best-coding-class-in-malahide">Malahide</a>, inside <a class="cg-inline-link" href="/coding-classes-in-fingal">Fingal</a>, with <a class="cg-inline-link" href="/best-coding-class-in-drogheda">Drogheda</a> to the north and <a class="cg-inline-link" href="/coding-and-ai-classes-in-leinster">Leinster</a> around them. Online schools are compared on our <a class="cg-inline-link" href="/best-online-coding-classes-ireland">comparison page</a>, and the <a class="cg-inline-link" href="/coding-classes-in-ireland">Ireland hub</a> lists every page.',
+    html: 'Down the coast are <a class="cg-inline-link" href="/best-coding-class-in-swords">Swords</a> and <a class="cg-inline-link" href="/best-coding-class-in-malahide">Malahide</a>, inside <a class="cg-inline-link" href="/coding-classes-in-fingal">Fingal</a>, with <a class="cg-inline-link" href="/best-coding-class-in-drogheda">Drogheda</a> to the north and <a class="cg-inline-link" href="/coding-and-ai-classes-in-leinster">Leinster</a> around them. If you are weighing us against other providers, <a class="cg-inline-link" href="/best-online-coding-classes-ireland">this comparison</a> lays the options out, and the <a class="cg-inline-link" href="/coding-classes-in-ireland">Ireland hub</a> links every town and county we cover.',
     waLabel: 'Message us on WhatsApp'
   },
 
