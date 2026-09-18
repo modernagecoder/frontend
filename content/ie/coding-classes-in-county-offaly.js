@@ -56,7 +56,7 @@ module.exports = {
 
   h1: 'Coding classes in County Offaly',
   capsuleQ: 'What are the best coding classes in County Offaly?',
-  capsule: 'There are 83,150 people in County Offaly and 17,167 of them are aged 15 or under. Tullamore is the county town with 15,598 residents, Birr is next with 4,726, and the rest of the county lives in smaller places between the two. Nearly 21,000 people here drive to work and their journeys are among the longer ones in the country. What we run is simple: live classes, one fixed hour a week, ability groups of five to ten or one to one, from age six to sixty-seven. Try the first lesson at no cost, then a group place is USD 100 a month, a private one USD 150.',
+  capsule: 'There are 83,150 people in County Offaly and 17,167 of them are aged 15 or under. Tullamore is the county town, where the census counted 15,598 people, Birr is next with 4,726, and the rest of the county lives in smaller places between the two. Nearly 21,000 people here drive to work and their journeys are among the longer ones in the country. What we run is simple: live classes, one fixed hour a week, ability groups of five to ten or one to one, from age six to sixty-seven. Try the first lesson at no cost, then a group place is USD 100 a month, a private one USD 150.',
   lead: 'For seventy years the largest telescope on earth stood in Birr, and everything a telescope does comes down to resolution: how small a thing it can separate from the thing beside it. Statistics has the same limit, and it depends on the instrument. The figure we most wanted here was the share of Offaly homes with broadband, since our classes need a connection. The source most often quoted, the statistics office\'s annual internet survey, reports no finer than the Midland region, four counties at once, and this page once said that no Offaly figure therefore existed. That was wrong. The census is a different instrument, and it publishes internet access for every county, town and small neighbourhood: in Offaly, 21,841 of 28,702 households had broadband in April 2022. The data was not missing. We had asked only one instrument.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in County Offaly.',
 
@@ -109,7 +109,7 @@ module.exports = {
           ['Able to speak Irish, aged three and over', '28,231, up by more than 400, or 37.3% of that group']
         ] },
         { kind: 'grid3', mt: true, cells: [
-          { h3: 'Tullamore', p: '15,598 people over 10.9 square kilometres, an average age of 38.1 and 20.9% of residents under 15, which makes it one of the younger towns in the midlands.' },
+          { h3: 'Tullamore', p: '15,598 people over 10.9 square kilometres, an average age of 38.1 and 20.9% of them under 15, which makes it one of the younger towns in the midlands.' },
           { h3: 'Birr', p: '4,726 people over 6.4 square kilometres at a much lower density of 738.1, with an average age of 39.8 and 18.9% under 15.' },
           { h3: 'The areas behind the names', p: 'As electoral areas, Tullamore covers 30,958 people and Birr 27,004. Both are several times the towns they are named after, which is the same resolution problem in a different costume.' }
         ] },
