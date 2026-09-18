@@ -14637,5 +14637,47 @@
       "Skerries Mills: the site returned 403 to automated requests on 19 September 2026, so nothing is quoted.",
       "The census-night population: the Fingal page owns it."
     ]
+  },
+  "best-coding-class-in-ballina": {
+    "market": "Ballina",
+    "bodyClass": "cg-bln",
+    "pageType": "city",
+    "curriculumAuthority": "Ballina, Co Mayo, CSO Census 2022 Small Area Population town tables, read 19 September 2026. SAP2022T2T1TOWN22: usual residents 10,500. SAP2022T15T2TOWN22: households 4,165, broadband 3,347, no internet 543, not stated 178 (3,987 answering; broadband 83.95 percent, no internet 13.62 percent). All-towns row of the same table (the 867 towns combined, not the State): total 1,317,616, not stated 114,511, broadband 1,083,309, no internet 95,677 (1,203,105 answering; 90.04 and 7.95 percent). Our arithmetic: Ballina lower by 6.8 percent of the all-towns share; bar-chart visual shortfall with axis starting at 0, 50, 80 and 83 percent: 6.8, 15.2, 60.7, 86.5 percent, exaggeration 1.0, 2.2, 9.0, 12.8; no-internet ratio 1.71. SAP2022T11T1TOWN22 to work total 4,009: car driver 2,447, on foot 579, car passenger 246, work mainly at or from home 242, van 222, bicycle 68, bus 47, train 2, not stated 140; to school, college or childcare total 2,578: car passenger 1,372, bus 504, on foot 393, car driver 73, not stated 174. SAP2022T11T4TOWN22: 782 work from home at least some of the time, 2,888 never, 339 not stated. SAP2022T11T5TOWN22: 667 children under 15 in childcare. SAP2022T1T1TOWN22 (census-night age table): ages 6 to 12 sum to 1,069, ages 13 to 18 to 810. Irish Rail, Ballina: \"Station Address Station Road Ballina Co.Mayo\", \"Eircode F26 EH76\", \"Bike parking available\". Jackie Clarke Collection: clarkecollection.ie did not respond and mayo.ie/jackie-clarke-collection returned 404 on 19 September 2026, not quoted.",
+    "localProject": "Honest charts and the lie factor. Ballina's broadband share is 84.0 percent of the 3,987 households that answered (3,347), against 90.0 percent across all 867 census towns together (1,083,309 of 1,203,105), a shortfall of 6.8 percent. Drawn as bars from zero, Ballina's bar is 6.8 percent shorter; with the axis starting at 50, 80 or 83 percent, it looks 15.2, 60.7 or 86.5 percent shorter, exaggerations of 2.2, 9.0 and 12.8 times, with every label still correct. Counting the other side, 543 households with no internet, 13.6 percent against 8.0, makes Ballina 1.71 times the rate: the same fact framed to look small or large. The learner draws both bar charts by changing one axis setting, writes a function that returns the exaggeration for any axis start, and ends with one honest sentence that uses both framings. Rules drawn: bars and areas start at zero; line and dot charts may use a labelled narrower axis; titles say which side is counted. Portlaoise owns linear versus logarithmic scales and Ulster percentage points versus per cent; this page is about bar baselines and complement framing. New family for the cluster: chart integrity.",
+    "requiredMentions": [
+      "10,500",
+      "4,165",
+      "3,347",
+      "3,987",
+      "543",
+      "4,009",
+      "2,447",
+      "782",
+      "2,578",
+      "1,372",
+      "667",
+      "F26 EH76"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T15T2TOWN22, households with internet access: Ballina, Co Mayo total 4,165, broadband 3,347, no internet 543, not stated 178; all-towns row (867 towns combined) total 1,317,616, broadband 1,083,309, no internet 95,677, not stated 114,511.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T15T2TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T11T1TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T1T1TOWN22, Ballina, Co Mayo: usual residents 10,500; to work 4,009 with car driver 2,447, on foot 579, car passenger 246, mainly at or from home 242, van 222, bicycle 68, bus 47, train 2; to school, college or childcare 2,578 with car passenger 1,372, bus 504, on foot 393, car driver 73; 782 work from home at least some of the time, 2,888 never, 339 not stated; 667 children under 15 in childcare; 1,069 aged 6 to 12 and 810 aged 13 to 18 in the census-night age table.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Ballina station: \"Station Address Station Road Ballina Co.Mayo\", \"Eircode F26 EH76\", \"Bike parking available\".",
+        "url": "https://www.irishrail.ie/en-ie/station/ballina"
+      }
+    ],
+    "rejectedClaims": [
+      "Presenting the all-towns row as a national figure: it is the 867 towns combined.",
+      "Any judgement on why Ballina's broadband share differs, or any ranking of Ballina against other towns.",
+      "The Jackie Clarke Collection: its site did not respond and the council page returned 404 on 19 September 2026.",
+      "Linear versus logarithmic axes (Portlaoise) and percentage points versus per cent (Ulster): owned elsewhere.",
+      "The census-night population, density and the ATU Mayo campus: the County Mayo page owns them."
+    ]
   }
 }

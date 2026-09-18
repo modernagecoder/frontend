@@ -11020,6 +11020,18 @@
   to = "/src/pages/best-coding-class-in-skerries.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-class-in-ballina"
+  to = "/src/pages/best-coding-class-in-ballina.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-ballina.md"
+  to = "/src/pages/best-coding-class-in-ballina.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
