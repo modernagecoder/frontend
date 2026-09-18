@@ -119,7 +119,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 84 | best-coding-class-in-wexford (wxt, #5E4A2E) | town | 3,183 | 1.2% vs best-coding-class-in-mullingar | choose the start year, choose the headline | time series baselines; NDA06 | e66688a6 |
 | 85 | best-coding-class-in-sligo (slt, #6B3A6B) | town | 3,140 | 1.6% vs best-coding-class-in-portlaoise | level, ahead, and still behind | Simpson's paradox; standardisation | f5ea3f64 |
 | 86 | best-coding-class-in-clonmel (cml, #4A3A2E) | town | 3,166 | 1.4% vs best-coding-class-in-wexford | the average of the nearest | order of operations when aggregating; MDSI07 | c02cf2ac |
-| 87 | best-coding-class-in-laytown-bettystown (lbt, #7A5A3A) | town | 3,071 | 1.6% vs best-coding-class-in-letterkenny | build a search box that finds Bettystown | building and testing a tool | (this commit) |
+| 87 | best-coding-class-in-laytown-bettystown (lbt, #7A5A3A) | town | 3,071 | 1.6% vs best-coding-class-in-letterkenny | build a search box that finds Bettystown | building and testing a tool | 92d0df7f |
+| 88 | best-coding-class-in-tullamore (tlm, #314941) | town | 3,546 | 1% vs best-coding-class-in-laytown-bettystown | Rebuild a published figure end to end: CSO average age 38.1 from the 34-row age table | Completed years vs middle of year; misses on both sides mean lost detail, one side means wrong method | (this commit) |
 
 ## Skipped (kill criterion)
 

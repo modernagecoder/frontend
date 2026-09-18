@@ -13838,5 +13838,56 @@
       "Presenting substring matching as a data error: it is one design that fails tests, and the Longford page owns the false positive as a trap.",
       "Any reason for the area's travel shares."
     ]
+  },
+  "best-coding-class-in-tullamore": {
+    "market": "Tullamore",
+    "bodyClass": "cg-tlm",
+    "pageType": "city",
+    "curriculumAuthority": "Tullamore, Co Offaly, CSO Census 2022 Small Area Population town tables and CSO table F1015, read 19 September 2026. F1015 (Population, Average Age, by town and sex, updated 29 June 2023): Tullamore, Co Offaly, both sexes, population 15,598, average age 38.1. SAP2022T1T1TOWN22 (population by single year of age 0 to 19, five-year bands 20-24 to 80-84, and 85 and over): Tullamore total 15,598; 85 and over 230 (82 male, 148 female); ages 6 to 12 sum to 1,581; ages 13 to 18 sum to 1,266. SAP2022T2T1TOWN22: usually resident population 15,412. SAP2022T15T2TOWN22: households 5,601, broadband 4,530, no internet 527, other 107, not stated 437. SAP2022T11T1TOWN22 to work total 6,457: car driver 3,517, on foot 859, work mainly at or from home 442, car passenger 381, van 346, bicycle 210, train DART or Luas 146, bus 57, not stated 462; to school, college or childcare total 3,833: car passenger 1,772, on foot 760, bus 580, car driver 98, bicycle 85, train 77, not stated 431. SAP2022T11T4TOWN22: 1,353 work from home at least some of the time, 4,349 never, 755 not stated. SAP2022T11T5TOWN22: 869 children under 15 in childcare. Reconstruction run in this session over all 867 towns (the all-towns row excluded), joining T1T1 to F1015 by town code: the age-table total equals the F1015 population in all 867. Middle-of-year convention (single year x counted at x + 0.5, band at its midpoint) with 85 and over at 87, 88, 89, 90: exact to one decimal 484, 517, 513, 465 towns; within 0.1: 811, 820, 825, 817. Completed-years convention (x, band lower edge + 2): 0 exact and 0 within 0.1 at every tested value. At 88: 350 misses, 170 rebuilt high and 180 low; 47 off by more than 0.1; median population of exact towns 772, of missing towns 439.5, of the 47 far misses 238. Tullamore: completed years 37.62, 37.63, 37.65, 37.66 at 87 to 90; middle of year 38.11, 38.13, 38.14, 38.16. 85-and-over average needed to round to 38.1: 82.8 to 89.6 (middle of year), 116.2 to 123.0 (completed years). Largest misses at 88: Tyrrellspass, Co Westmeath, population 480, 85 and over 51, rebuilt 49.91, published 50.3; Ballynoe, Co Cork, population 211, 85 and over 0, rebuilt 36.23, published 36.0. Irish Rail, Tullamore: \"Station Address Iarnród Éireann, Kilcruttin, Tullamore, Co. Offaly\", \"Eircode R35 RY63\", \"Sheltered bike parking is available in Tullamore station\". HSE, Midland Regional Hospital Tullamore: \"Arden Road, Tullamore, Offaly, R35 NY51\".",
+    "localProject": "Rebuild a published figure end to end. The CSO publishes an average age of 38.1 for Tullamore in table F1015; the learner rebuilds it from the 34 rows of the census age table for the same town. Step one checks totals: the age rows sum to 15,598, equal to the published population, while the birthplace table counts 15,412 usual residents and cannot be the base; the check passes in all 867 towns. Step two assigns an age to each row, including the open 85-and-over row of 230 people. Step three chooses a convention, and the rebuild decides it: completed years gives 37.62 to 37.66 for any 85-plus average from 87 to 90 and would need an impossible 116 to 123 years to reach 38.1, while counting each person at the middle of their year gives 38.11 to 38.14 and rounds correctly for any 85-plus average up to about 89.6. Step four runs all 867 towns: with the oldest row at 88, 517 reproduce exactly to one decimal, 820 within a tenth, 47 miss by more, and completed years reproduces none. The 350 misses split 170 high and 180 low, the signature of lost detail rather than a wrong method; Tyrrellspass (51 of 480 aged 85 and over) and Ballynoe (nobody over 85, still 0.23 out) show the open row and the five-year bands as the two sources. Lesson: which way a rebuilt number misses tells you why it missed. A constructive page following Laytown-Bettystown; new family for the cluster: reproducing a published statistic.",
+    "requiredMentions": [
+      "15,412",
+      "5,601",
+      "4,530",
+      "6,457",
+      "3,517",
+      "859",
+      "1,353",
+      "3,833",
+      "869",
+      "230",
+      "517",
+      "R35 RY63"
+    ],
+    "sources": [
+      {
+        "claim": "CSO table F1015, Population and Average Age by town and sex, Census 2022: Tullamore, Co Offaly, both sexes, population 15,598, average age 38.1; the same table gives Tyrrellspass, Co Westmeath 50.3 and Ballynoe, Co Cork 36.0, and an average age for each of the 867 towns used in the reconstruction.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/F1015/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 table SAP2022T1T1TOWN22, population by age: Tullamore total 15,598 in 34 age rows (single years 0 to 19, five-year bands 20 to 84, 85 and over), 230 aged 85 and over, 1,581 aged 6 to 12, 1,266 aged 13 to 18; Tyrrellspass 480 with 51 aged 85 and over; Ballynoe 211 with none.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T1T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T1TOWN22, SAP2022T11T4TOWN22 and SAP2022T11T5TOWN22, Tullamore, Co Offaly: usual residents 15,412; households 5,601, broadband 4,530; to work 6,457 with car driver 3,517, on foot 859, mainly at or from home 442, car passenger 381, van 346, bicycle 210, train 146, bus 57; to school, college or childcare 3,833 with car passenger 1,772, on foot 760, bus 580, car driver 98, bicycle 85, train 77; 1,353 work from home at least some of the time, 4,349 never, 755 not stated; 869 children under 15 in childcare.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Tullamore station: \"Station Address Iarnród Éireann, Kilcruttin, Tullamore, Co. Offaly\", \"Eircode R35 RY63\", \"Sheltered bike parking is available in Tullamore station\".",
+        "url": "https://www.irishrail.ie/en-ie/station/tullamore"
+      },
+      {
+        "claim": "HSE, Midland Regional Hospital Tullamore: \"Arden Road, Tullamore, Offaly, R35 NY51\".",
+        "url": "https://www2.hse.ie/services/hospitals/midland-regional-hospital-tullamore/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement of how the CSO computes average age: the rebuild shows only that the published figures behave like middle-of-year counting.",
+      "Any suggestion that a published average age is wrong, or any claim about the ages the CSO worked from: the misses are only shown to be consistent with grouping.",
+      "The county work-from-home headline (8,324 people, 24 percent) and the gap between it and the county SAP table: the Offaly page owns the headline, and the gap cannot be explained without the profile table behind it.",
+      "A national average-age comparison built from the TOWN22 \"State\" row: that row is all 867 towns combined, not the State.",
+      "Any reason why Tyrrellspass has so many residents aged 85 and over.",
+      "The Offaly County Council eircode, the town density and area, and the county page's commuting and citizenship points: the County Offaly page owns them."
+    ]
   }
 }

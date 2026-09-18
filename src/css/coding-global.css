@@ -950,3 +950,4 @@
 .cg-root.cg-slt  { --cg-accent: #6B3A6B; --cg-accent-soft: rgba(107,58,107,.10); }   /* Sligo town: a heather purple from the solver, clear of the County Sligo green and the Mayo and Leitrim accents around it */
 .cg-root.cg-cml  { --cg-accent: #4A3A2E; --cg-accent-soft: rgba(74,58,46,.10); }   /* Clonmel: a Suir-bank umber from the solver, distinct from the Tipperary county accent and the Waterford and Kilkenny pages nearby */
 .cg-root.cg-lbt  { --cg-accent: #7A5A3A; --cg-accent-soft: rgba(122,90,58,.10); }   /* Laytown-Bettystown: a strand-sand brown from the solver, set apart from the Meath county indigo and the Drogheda teal nearby */
+.cg-root.cg-tlm  { --cg-accent: #314941; --cg-accent-soft: rgba(49,73,65,.10); }   /* Tullamore: a dark canal-slate green from the solver, clear of the Offaly county green and the Carlow teal it sits nearest */
