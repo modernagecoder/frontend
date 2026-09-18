@@ -14595,5 +14595,47 @@
       "The days-per-week breakdown (Gorey owns it) and the industry-level yes-or-no (Midleton owns it).",
       "The census-night population: the Fingal page owns it."
     ]
+  },
+  "best-coding-class-in-skerries": {
+    "market": "Skerries",
+    "bodyClass": "cg-skr",
+    "pageType": "city",
+    "curriculumAuthority": "Skerries, Co Dublin, CSO Census 2022 Small Area Population town tables, read 19 September 2026. SAP2022T2T1TOWN22: usual residents 10,666. SAP2022T15T2TOWN22: households 3,771, broadband 3,410, no internet 162, not stated 151. SAP2022T11T1TOWN22 to work total 4,688: car driver 2,146, work mainly at or from home 841, train DART or Luas 783, on foot 265, van 187, bus 168, car passenger 93, bicycle 52, not stated 129; to school, college or childcare total 3,014: on foot 1,284, car passenger 817, train 339, bicycle 266, bus 135, car driver 66, not stated 87. SAP2022T11T3TOWN22: total 6,452, not stated 347, under 15 minutes 2,315 (37.9 percent of stated). SAP2022T11T4TOWN22: 2,311 work from home at least some of the time, 2,138 never, 239 not stated. SAP2022T11T5TOWN22: 836 children under 15 in childcare. SAP2022T1T1TOWN22 (census-night age table): ages 6 to 12 sum to 1,169, ages 13 to 18 to 919. Composite score computed in this session over the 53 towns with 10,000 or more usual residents: broadband share of households (not stated removed), honours degree, postgraduate or doctorate share of the education-ceased population aged 15+ (not stated removed, SAP2022T10T4TOWN22), share of journeys under 15 minutes (not stated removed); each min-max scaled across the 53; weights in steps of 0.1 summing to 1, 66 combinations. Skerries: 94.2, 37.2, 37.9 percent; rank alone 13th, 7th, 26th; equal weights 4th (z-scores 5th); best 3rd, worst 26th (all weight on short journeys); top five under 19 weightings, top ten under 47. First place: Maynooth 38, Shannon 18, Letterkenny 6, Portmarnock 4. Correlations across the 53: broadband with degrees 0.70, broadband with short journeys -0.74, degrees with short journeys -0.50. Median width of a town's rank range 33 places, maximum 50. Irish Rail, Skerries: \"Station Address Skerries train station, Station Road, Skerries, Co. Dublin\", \"Eircode K34 CF63\", \"You can use the sheltered bike parking in Skerries station\". Skerries Mills website: HTTP 403 to automated requests on 19 September 2026, not quoted.",
+    "localProject": "Composite indicators: the weights choose the winner. The learner builds a made-up score for the 53 towns of 10,000 or more from three census shares, broadband households, adults with an honours degree or higher, and journeys under 15 minutes, each scaled from 0 to 1, and ranks the towns under all 66 weightings in steps of a tenth. Skerries (94.2, 37.2 and 37.9 percent; 13th, 7th and 26th on each alone) comes 4th with equal weights but anywhere from 3rd to 26th across the weightings, in the top five under 19 and the top ten under 47. First place goes to Maynooth under 38 weightings, Shannon under 18, Letterkenny under 6 and Portmarnock under 4. The indicators pull against each other (broadband and short journeys correlate at -0.74), which is why the weights decide the order; the median town's rank moves across 33 places. Lessons: publish the ingredients, the weights and the sensitivity with any ranking. Lower-ranked towns are deliberately not named. New family for the cluster: composite indices and weight sensitivity.",
+    "requiredMentions": [
+      "10,666",
+      "3,410",
+      "4,688",
+      "2,146",
+      "783",
+      "3,014",
+      "1,284",
+      "2,315",
+      "836",
+      "919",
+      "1,169",
+      "K34 CF63"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 tables SAP2022T15T2TOWN22, SAP2022T10T4TOWN22 and SAP2022T11T3TOWN22, all towns: broadband households, highest level of education completed and journey time, used for the three-indicator score over the 53 towns of 10,000 or more usual residents. Skerries: broadband 3,410 of 3,771 households (151 not stated); journeys under 15 minutes 2,315 of 6,452 (347 not stated).",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T10T4TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T11T1TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T1T1TOWN22, Skerries, Co Dublin: usual residents 10,666; to work 4,688 with car driver 2,146, mainly at or from home 841, train 783, on foot 265, van 187, bus 168, car passenger 93, bicycle 52; to school, college or childcare 3,014 with on foot 1,284, car passenger 817, train 339, bicycle 266, bus 135; 2,311 work from home at least some of the time, 2,138 never, 239 not stated; 836 children under 15 in childcare; 1,169 aged 6 to 12 and 919 aged 13 to 18 in the census-night age table.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Skerries station: \"Station Address Skerries train station, Station Road, Skerries, Co. Dublin\", \"Eircode K34 CF63\", \"You can use the sheltered bike parking in Skerries station\".",
+        "url": "https://www.irishrail.ie/en-ie/station/skerries"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim that Skerries, or any town, is the best place to live: the score is made up for teaching.",
+      "Naming the towns at the bottom of any weighting.",
+      "Any single rank for Skerries presented without its weights.",
+      "Skerries Mills: the site returned 403 to automated requests on 19 September 2026, so nothing is quoted.",
+      "The census-night population: the Fingal page owns it."
+    ]
   }
 }

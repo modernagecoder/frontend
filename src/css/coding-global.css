@@ -966,3 +966,4 @@
 .cg-root.cg-lgt  { --cg-accent: #217329; --cg-accent-soft: rgba(33,115,41,.10); }   /* Longford town: a field green from the widened solver search, well apart from the Longford county plum and the Mullingar and Athlone pages */
 .cg-root.cg-rsh  { --cg-accent: #1B4B1B; --cg-accent-soft: rgba(27,75,27,.10); }   /* Rush: a deep market-garden green from the widened solver search, apart from the Fingal accent and the Swords, Malahide and Balbriggan pages */
 .cg-root.cg-pmk  { --cg-accent: #9D2A41; --cg-accent-soft: rgba(157,42,65,.10); }   /* Portmarnock: a raspberry red from the widened solver search, distinct from the Fingal, Malahide and Rush accents along the same coast */
+.cg-root.cg-skr  { --cg-accent: #2A499D; --cg-accent-soft: rgba(42,73,157,.10); }   /* Skerries: a harbour cobalt from the widened solver search, apart from the Fingal, Rush and Portmarnock accents */
