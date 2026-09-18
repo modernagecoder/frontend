@@ -14135,5 +14135,51 @@
       "The census-night population and local electoral area figure for Arklow: the County Wicklow page owns them.",
       "Any figure for Arklow Bank phase 1: not on the source page."
     ]
+  },
+  "best-coding-class-in-castlebar": {
+    "market": "Castlebar",
+    "bodyClass": "cg-cbr",
+    "pageType": "city",
+    "curriculumAuthority": "Castlebar, Co Mayo, CSO Census 2022 Small Area Population town tables, read 19 September 2026. SAP2022T2T1TOWN22: usual residents 12,907. SAP2022T15T2TOWN22: households 5,153, broadband 4,146, not stated 427. SAP2022T11T1TOWN22 to work total 5,632: car driver 3,228, on foot 874, work mainly at or from home 353, van 313, car passenger 273, bicycle 73, bus 48, train DART or Luas 10, not stated 438; to school, college or childcare total 3,142: car passenger 1,702, on foot 751, bus 182, car driver 136, bicycle 49, train 16, not stated 258. SAP2022T11T3TOWN22: under 15 minutes 3,872 of 7,107 stated (54.5 percent). SAP2022T11T4TOWN22: 1,096 work from home at least some of the time, 3,892 never, 644 not stated. SAP2022T11T5TOWN22: 769 children under 15 in childcare. SAP2022T1T1TOWN22 (census-night age table): ages 6 to 12 sum to 1,205, ages 13 to 18 to 953. Nearest-neighbour search run in this session over the 94 towns with 5,000 or more usual residents. Features, each a share with not stated removed: eight travel-to-work modes (on foot, bicycle, bus, train, car driver, car passenger, van, work mainly at or from home; Castlebar 16.8, 1.4, 0.9, 0.2, 62.1, 5.3, 6.0, 6.8 percent), six journey-time bands (Castlebar 54.5, 27.4, 10.9, 2.0, 3.1, 2.0), degree share of the education-ceased population (26.7) and broadband share of households (87.7). Euclidean distance; raw shares or standardised to mean 0 and standard deviation 1 across the 94. Top five, closest first: modes raw Ballina, Nenagh, Thurles, Tuam, Dungarvan; modes scaled Ballina, Tuam, Gorey, Thurles, Mullingar; journey raw Westport, Letterkenny, Wexford, Ballina, Clonmel; journey scaled Westport, Letterkenny, Tralee, Ballina, Clonmel; both raw Ballina, Wexford, Clonmel, Ballinasloe, Thurles; both scaled Ballina, Clonmel, Wexford, Roscommon, Tralee; all raw Clonmel (0.08893), Wexford (0.08926), Tullamore, Tralee, Roscommon, with Ballina sixth; all scaled Ballina, Clonmel, Roscommon, Wexford, Tralee. Fifteen distinct towns; appearances Ballina 7, Clonmel 6, Wexford 5, Tralee 4. Irish Rail, Castlebar: \"Station Address Station Road Castlebar Co. Mayo\", \"Eircode F23 R670\", \"There is sheltered bike parking at the station\". HSE, Mayo University Hospital: \"Westport Road, Knockaphunta, Castlebar, Mayo, F23 H529\". National Museum of Ireland, Country Life page: HTTP 403 to automated requests on 19 September 2026, not quoted.",
+    "localProject": "Nearest neighbours, and similarity as a choice. The learner asks which of the 94 towns of 5,000 or more usual residents are most like Castlebar, describing each town by census shares and measuring Euclidean distance. Eight set-ups, four feature sets (eight travel-to-work mode shares; six journey-time shares; both; both plus degree and broadband shares) each run on raw and on standardised values, give three different nearest towns (Ballina five times, Westport twice, Clonmel once, a whisker ahead of Wexford) and 15 distinct towns across the top-five lists. Ballina appears in seven lists and is sixth in the eighth; Clonmel appears in six and Wexford in five. Raw shares let the dominant driving share decide the distance; standardising gives each feature equal pull, which drops Nenagh and brings in Gorey and Mullingar on travel modes. The report names the features and the scaling and states stability (\"Ballina among the five closest in seven of eight set-ups\") rather than a single twin. The code extends directly to a k-nearest-neighbours classifier. New family for the cluster: similarity, feature choice and scaling.",
+    "requiredMentions": [
+      "12,907",
+      "5,153",
+      "4,146",
+      "5,632",
+      "3,228",
+      "874",
+      "1,096",
+      "3,142",
+      "1,702",
+      "769",
+      "3,872",
+      "F23 R670"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 tables SAP2022T11T1TOWN22, SAP2022T11T3TOWN22, SAP2022T10T4TOWN22 and SAP2022T15T2TOWN22, all towns: travel-to-work mode shares, journey-time shares, degree share and broadband share used for the 94-town nearest-neighbour search. Castlebar, Co Mayo: to work 5,632 with car driver 3,228, on foot 874, mainly at or from home 353, van 313, car passenger 273, bicycle 73, bus 48, train 10; to school, college or childcare 3,142 with car passenger 1,702, on foot 751, bus 182, car driver 136, bicycle 49, train 16; journeys under 15 minutes 3,872; households 5,153, broadband 4,146.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T1T1TOWN22, Castlebar, Co Mayo: usual residents 12,907; 1,096 work from home at least some of the time, 3,892 never, 644 not stated; 769 children under 15 in childcare; 1,205 aged 6 to 12 and 953 aged 13 to 18 in the census-night age table.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T2T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Castlebar station: \"Station Address Station Road Castlebar Co. Mayo\", \"Eircode F23 R670\", \"There is sheltered bike parking at the station\".",
+        "url": "https://www.irishrail.ie/en-ie/station/castlebar"
+      },
+      {
+        "claim": "HSE, Mayo University Hospital: \"Westport Road, Knockaphunta, Castlebar, Mayo, F23 H529\".",
+        "url": "https://www2.hse.ie/services/hospitals/mayo-university-hospital/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any single \"twin\" for Castlebar stated without its features and scaling.",
+      "Any ranking or judgement of towns: similarity here is closeness on census shares only.",
+      "Any reason why Castlebar and Ballina, Westport or Clonmel have similar shares.",
+      "The National Museum of Ireland, Country Life at Turlough Park: the site returned 403 to automated requests on 19 September 2026, so nothing is quoted.",
+      "The census-night population, density, average age, local electoral area figure and the ATU Mayo campus: the County Mayo page owns them."
+    ]
   }
 }

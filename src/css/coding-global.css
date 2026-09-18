@@ -956,3 +956,4 @@
 .cg-root.cg-mdt  { --cg-accent: #6B6447; --cg-accent-soft: rgba(107,100,71,.10); }   /* Midleton: a barley-olive from the solver, apart from the Cork county, Cobh and Carrigaline accents around the harbour */
 .cg-root.cg-mlw  { --cg-accent: #493136; --cg-accent-soft: rgba(73,49,54,.10); }   /* Mallow: a dark rosewood from the solver, clear of the Cork county, Cobh and Midleton accents and of Naas, its nearest neighbour in colour */
 .cg-root.cg-akw  { --cg-accent: #2F2966; --cg-accent-soft: rgba(47,41,102,.10); }   /* Arklow: a deep sea-indigo from the solver, clear of the Wicklow county accent and of Greystones and Bray up the coast */
+.cg-root.cg-cbr  { --cg-accent: #74622F; --cg-accent-soft: rgba(116,98,47,.10); }   /* Castlebar: an ochre bronze from the solver, apart from the Mayo county blue and the Sligo and Galway pages nearby */
