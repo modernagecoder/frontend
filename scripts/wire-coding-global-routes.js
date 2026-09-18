@@ -310,6 +310,7 @@ const MARKETS = [
   ['best-coding-class-in-newbridge', 'Newbridge, County Kildare, Ireland'],
   ['best-coding-class-in-balbriggan', 'Balbriggan, Fingal, Ireland'],
   ['best-coding-class-in-portlaoise', 'Portlaoise, County Laois, Ireland'],
+  ['best-coding-class-in-mullingar', 'Mullingar, County Westmeath, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
