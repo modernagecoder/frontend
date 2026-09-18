@@ -13795,5 +13795,48 @@
       "The census town-list population of Clonmel and the TUS Clonmel campus eircode: the County Tipperary page owns both.",
       "Any reason for Clonmel's travel shares."
     ]
+  },
+  "best-coding-class-in-laytown-bettystown": {
+    "market": "Laytown-Bettystown",
+    "bodyClass": "cg-lbt",
+    "pageType": "city",
+    "curriculumAuthority": "Laytown-Bettystown-Mornington-Donacarney, Co Meath, CSO Census 2022 Small Area Population town tables, read 19 September 2026. SAP2022T2T1TOWN22: usual residents 15,542, born in Ireland 12,028. SAP2022T15T2TOWN22: households 5,055, broadband 4,527, no internet 175, other 82, not stated 271. SAP2022T11T1TOWN22 to work total 6,985: car driver 4,050, work mainly at or from home 935, bus 560, van 411, not stated 273, train DART or Luas 278, car passenger 223, on foot 190, bicycle 29; to school, college or childcare total 4,613: car passenger 1,845, bus 1,279, on foot 904, not stated 207, train 140, bicycle 105, car driver 93. SAP2022T11T4TOWN22: 2,537 work from home at least some of the time, 3,960 never, 488 not stated. SAP2022T11T5TOWN22: 1,156 children under 15 in childcare. Search tests run in this session over the 867 town labels of SAP2022T15T2TOWN22 (the all-towns row excluded): exact label match finds 0 for every test query; substring matching, case-insensitive, finds 0 for \"Bettystown, Co Meath\", 1 for \"Bettystown\", 1 for \"laytown-bettystown\", 58 for \"Meath\" including Omeath, Co Louth, 23 for \"Kill\" and 14 for \"Ross\"; all-words matching, splitting on spaces, commas, hyphens, brackets and ampersands and requiring every query word as a whole word, finds 1 for \"Bettystown, Co Meath\", 1 for \"Bettystown\", 1 for \"laytown-bettystown\", 36 for \"Meath\" with no Omeath, 2 for \"Kill\" (Kill, Co Waterford and Kill, Co Kildare) and 1 for \"Ross\" (New Ross, Counties Wexford & Kilkenny). Each of Laytown, Bettystown, Mornington and Donacarney appears in exactly one label. Irish Rail, Laytown: \"Laytown train station, Laytown, Co. Meath\", \"Eircode A92 H102\", \"This station is not staffed\", \"This station does not have a booking office\". Meath County Council, own site navigation: \"Laytown-Bettystown Municipal District Meetings\".",
+    "localProject": "Build a search box that finds Bettystown. The census names this built-up area Laytown-Bettystown-Mornington-Donacarney, Co Meath, so a user typing one of the four names depends entirely on how the search is designed. The learner implements three designs over the 867 census town labels and runs six test queries through each, all executed while writing the page. Exact label matching finds nothing for any query, including the natural \"Bettystown, Co Meath\". Case-insensitive substring matching finds the town from \"Bettystown\" but returns 58 labels for \"Meath\", including Omeath in County Louth, 23 for \"Kill\" and 14 for \"Ross\". Whole-word matching, splitting query and label on spaces, commas, hyphens, brackets and ampersands and requiring every query word to appear whole, passes all six: the town for \"Bettystown, Co Meath\" and for the hyphenated query, 36 Meath labels with no Omeath, exactly the two towns named Kill, and only New Ross. The page adds that the council names a two-word district and Irish Rail a single-name station for the same coast, that a found place should then be held by the table's identifier rather than its words, and that a tool is finished when its tests pass rather than when it runs. A constructive lesson by design, following a run of pitfall pages; the Longford page owns substring false positives as a trap, here they are one failed test on the way to a working tool. New family for the cluster: building and testing a tool.",
+    "requiredMentions": [
+      "15,542",
+      "5,055",
+      "4,527",
+      "6,985",
+      "4,050",
+      "935",
+      "4,613",
+      "1,845",
+      "1,279",
+      "2,537",
+      "1,156",
+      "A92 H102"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T1TOWN22, SAP2022T11T4TOWN22 and SAP2022T11T5TOWN22, Laytown-Bettystown-Mornington-Donacarney, Co Meath: usual residents 15,542; households 5,055, broadband 4,527; to work 6,985 with car driver 4,050, mainly at or from home 935, bus 560, van 411, train 278, car passenger 223, on foot 190; to school, college or childcare 4,613 with car passenger 1,845, bus 1,279, on foot 904, train 140, bicycle 105; 2,537 work from home at least some of the time; 1,156 children under 15 in childcare. The same table's town dimension holds 867 towns plus the all-towns row.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Laytown station: \"Laytown train station, Laytown, Co. Meath\", \"Eircode A92 H102\"; \"This station is not staffed\"; \"This station does not have a booking office\".",
+        "url": "https://www.irishrail.ie/en-ie/station/laytown"
+      },
+      {
+        "claim": "Meath County Council, own site navigation: \"Laytown-Bettystown Municipal District Meetings\".",
+        "url": "https://www.meath.ie/council/your-council/your-elected-council/municipal-district-meetings/ashbourne-municipal-district-meetings"
+      }
+    ],
+    "rejectedClaims": [
+      "Any separate figure for Laytown, Bettystown, Mornington or Donacarney: the census publishes one label for all four.",
+      "Any search result quoted from reasoning rather than execution: all counts come from running the three designs.",
+      "A secondary school in the area: its site refused automated requests on 19 September 2026, so nothing is quoted from it.",
+      "The census town-list population and the Meath County Council eircode: the County Meath page owns both, and its commuting-time point is not repeated.",
+      "Presenting substring matching as a data error: it is one design that fails tests, and the Longford page owns the false positive as a trap.",
+      "Any reason for the area's travel shares."
+    ]
   }
 }

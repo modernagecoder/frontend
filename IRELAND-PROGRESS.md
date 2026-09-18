@@ -118,7 +118,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 83 | best-coding-class-in-letterkenny (lky, #5E2E3A) | town | 3,259 | 1.3% vs best-coding-class-in-portlaoise | a table is one long list | JSON-stat flat arrays, strides, identifiers | 42a5d92e |
 | 84 | best-coding-class-in-wexford (wxt, #5E4A2E) | town | 3,183 | 1.2% vs best-coding-class-in-mullingar | choose the start year, choose the headline | time series baselines; NDA06 | e66688a6 |
 | 85 | best-coding-class-in-sligo (slt, #6B3A6B) | town | 3,140 | 1.6% vs best-coding-class-in-portlaoise | level, ahead, and still behind | Simpson's paradox; standardisation | f5ea3f64 |
-| 86 | best-coding-class-in-clonmel (cml, #4A3A2E) | town | 3,166 | 1.4% vs best-coding-class-in-wexford | the average of the nearest | order of operations when aggregating; MDSI07 | (this commit) |
+| 86 | best-coding-class-in-clonmel (cml, #4A3A2E) | town | 3,166 | 1.4% vs best-coding-class-in-wexford | the average of the nearest | order of operations when aggregating; MDSI07 | c02cf2ac |
+| 87 | best-coding-class-in-laytown-bettystown (lbt, #7A5A3A) | town | 3,071 | 1.6% vs best-coding-class-in-letterkenny | build a search box that finds Bettystown | building and testing a tool | (this commit) |
 
 ## Skipped (kill criterion)
 
