@@ -112,7 +112,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 77 | best-coding-class-in-kilkenny (kil, #8A4A6B) | town | 3,126 | 2.3% vs best-coding-class-in-ratoath | no margin of error, and still a range | bounds under non-response; kinds of uncertainty | 5f6ebef6 |
 | 78 | best-coding-class-in-tralee (tre, #2F6B6B) | town | 3,181 | 2.8% vs best-coding-class-in-kilkenny | names are data too | character encoding; 16 of 868 labels | 75541616 |
 | 79 | best-coding-class-in-newbridge (nwb, #2E6B8A) | town | 3,150 | 2.6% vs best-coding-class-in-tralee | a count of one is a person | small cells and disclosure risk | eecec5a6 |
-| 80 | best-coding-class-in-balbriggan (blb, #8A3A5A) | town | 3,242 | 3.8% vs best-coding-class-in-newbridge | a date is not a string | date parsing, zero-based months, time zones | (this commit) |
+| 80 | best-coding-class-in-balbriggan (blb, #8A3A5A) | town | 3,242 | 3.8% vs best-coding-class-in-newbridge | a date is not a string | date parsing, zero-based months, time zones | ac42e17c |
+| 81 | best-coding-class-in-portlaoise (ptl, #4A2E5E) | town | 3,231 | 1.1% vs best-coding-class-in-tralee | one chart, two axes | scale and skew; logarithmic axis | (this commit) |
 
 ## Skipped (kill criterion)
 

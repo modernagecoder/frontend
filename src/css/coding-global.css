@@ -943,3 +943,4 @@
 .cg-root.cg-tre  { --cg-accent: #2F6B6B; --cg-accent-soft: rgba(47,107,107,.10); }   /* Tralee: a bay teal from the solver, apart from the Kerry county accent and the Limerick and Cork blues along the coast */
 .cg-root.cg-nwb  { --cg-accent: #2E6B8A; --cg-accent-soft: rgba(46,107,138,.10); }   /* Newbridge: a Liffey blue from the solver, kept apart from the Kildare county accent and the four other Kildare town pages */
 .cg-root.cg-blb  { --cg-accent: #8A3A5A; --cg-accent-soft: rgba(138,58,90,.10); }   /* Balbriggan: a harbour rose from the solver, kept apart from the Fingal page and from the Swords and Malahide accents in the same area */
+.cg-root.cg-ptl  { --cg-accent: #4A2E5E; --cg-accent-soft: rgba(74,46,94,.10); }   /* Portlaoise: a deep heather from the solver, kept clear of the Laois county accent and the Kildare and Offaly pages either side */

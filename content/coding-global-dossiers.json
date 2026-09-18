@@ -13505,5 +13505,56 @@
       "Any reason for the town's rail share or for the size of its education-travel group.",
       "Writing the summer-time abbreviation in place of the full phrase: the build rejects it, and the page says an hour ahead of UTC instead."
     ]
+  },
+  "best-coding-class-in-portlaoise": {
+    "market": "Portlaoise",
+    "bodyClass": "cg-ptl",
+    "pageType": "city",
+    "curriculumAuthority": "Portlaoise, the built-up area \"Portlaoise, Co Laois\", CSO Census 2022 Small Area Population town tables, read 19 September 2026. SAP2022T2T1TOWN22 usual residents by birthplace, total for Portlaoise 23,299, born in Ireland 16,664. Across the town dimension of the same table, 868 labels, 867 towns plus the all-towns row labelled State whose total is 3,582,870: the largest town is Dublin city and suburbs, Counties Dublin & Meath at 1,243,278, the smallest Dromineer, Co Tipperary at 92, Portlaoise is 18th, after Newbridge 24,253 and Balbriggan 24,145 and before Athlone 22,664, Mullingar 22,470 and Letterkenny 22,252; the median town, the 434th, is Glenealy, Co Wicklow at 622 and the mean is 4,132; Cork city and suburbs has 219,445. Our banding: under 1,000, 562 towns with 241,490 residents; 1,000 to 9,999, 252 towns with 715,371; 10,000 to 99,999, 50 towns with 1,062,457; 100,000 and over, 3 towns with 1,563,552, which is 43.6 percent; the bands sum exactly to 867 towns and 3,582,870 residents. Our chart arithmetic on a 1,000-pixel axis scaled to the largest town: linear positions Dromineer 0.1, Glenealy 0.5, Portlaoise 18.7, Cork 176.5; 787 towns fall below 6,216 residents and so within the first five pixels, 622 below 1,243 and so within the first pixel; logarithmic positions from 92 to 1,243,278: Glenealy 201, Portlaoise 582, Cork 818. SAP2022T15T2TOWN22: households 7,785, broadband 6,646, other 141, none 470, not stated 528. SAP2022T11T1TOWN22 to work total 9,970: car driver 5,686, not stated 1,030, on foot 750, work mainly at or from home 632, van 597, car passenger 559, train DART or Luas 264, bus 230, bicycle 166; to school, college or childcare total 6,542: car passenger 3,230, on foot 1,166, bus 848, not stated 733, bicycle 223, car driver 152, train 132. SAP2022T11T4TOWN22: 9,970 working persons, 2,106 work from home at least some of the time, 6,418 never, 1,446 not stated. SAP2022T11T5TOWN22: 1,629 children under 15 in childcare. Irish Rail, Portlaoise station: \"Station Road, Portlaoise, Co. Laois\", \"Eircode R32 P590\", staffing \"Monday to Saturday: 05:00 - 23:30\", \"Free wifi available\". Dunamaise Arts Centre: \"Church Street Portlaoise Co. Laois R32 W93P\", \"Gallery and Box Office: Tuesday to Saturday: 10am-5pm\", \"The Laois Arts Theatre CLG, t/a Dunamaise Arts Centre\". HSE, Midland Regional Hospital Portlaoise: \"Dublin Road, Portlaoise, Laois, R32 RW61\".",
+    "localProject": "One chart, two axes. The 867 towns in the census table run from 92 residents at Dromineer to 1,243,278 in Dublin city and suburbs. On a bar chart 1,000 pixels wide scaled to the largest town, Portlaoise, 18th largest at 23,299, gets 19 pixels, the median town, Glenealy at 622, half a pixel, and 787 towns fall inside the first five pixels, so the chart shows three or four bars and a smudge that is most of the country. On a logarithmic axis the same data places the median town at pixel 201, Portlaoise at 582 and Cork at 818, and every size of town becomes readable, at the cost of compressing large differences, so the axis must be labelled. The same skew appears in the banding by powers of ten, where 562 towns under 1,000 residents hold 6.7 percent of all town residents and three places over 100,000 hold 43.6 percent, and in the mean town of 4,132 against a median of 622. The learner plots the full column both ways, counts bars narrower than a pixel, computes mean and median, and writes the caption that states the scale and why it was chosen. New family for the cluster: scale and skew.",
+    "requiredMentions": [
+      "23,299",
+      "7,785",
+      "6,646",
+      "9,970",
+      "5,686",
+      "6,542",
+      "3,230",
+      "1,629",
+      "867",
+      "787",
+      "R32 P590",
+      "R32 W93P"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T2T1TOWN22, usual resident population: Portlaoise, Co Laois 23,299; Dublin city and suburbs, Counties Dublin & Meath 1,243,278; Cork city and suburbs 219,445; Dromineer, Co Tipperary 92; Glenealy, Co Wicklow 622; Newbridge 24,253; Balbriggan 24,145; Athlone 22,664; Mullingar 22,470; Letterkenny 22,252; all-towns row labelled State 3,582,870, equal to the sum of the 867 towns.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T2T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T15T2TOWN22, SAP2022T11T1TOWN22, SAP2022T11T4TOWN22 and SAP2022T11T5TOWN22, Portlaoise: households 7,785, broadband 6,646; to work 9,970 with car driver 5,686, on foot 750, mainly at or from home 632, van 597, car passenger 559, train 264, bus 230, not stated 1,030; to school, college or childcare 6,542 with car passenger 3,230, on foot 1,166, bus 848, bicycle 223, train 132; 2,106 work from home at least some of the time, 6,418 never, 1,446 not stated; 1,629 children under 15 in childcare.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Portlaoise station: \"Station Road, Portlaoise, Co. Laois\", \"Eircode R32 P590\"; staffing \"Monday to Saturday: 05:00 - 23:30\"; \"Free wifi available\".",
+        "url": "https://www.irishrail.ie/en-ie/station/portlaoise"
+      },
+      {
+        "claim": "Dunamaise Arts Centre: \"Church Street Portlaoise Co. Laois R32 W93P\"; \"Gallery and Box Office: Tuesday to Saturday: 10am-5pm\"; operated by \"The Laois Arts Theatre CLG, t/a Dunamaise Arts Centre\".",
+        "url": "https://www.dunamaise.ie/"
+      },
+      {
+        "claim": "Health Service Executive: Midland Regional Hospital Portlaoise, \"Dublin Road, Portlaoise, Laois, R32 RW61\".",
+        "url": "https://www2.hse.ie/services/hospitals/midland-regional-hospital-portlaoise/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any chart position on this page without the axis it belongs to: linear and logarithmic positions are always labelled.",
+      "Treating the mean town of 4,132 residents as typical: the median town has 622, and both are given.",
+      "Any ranking of towns as better or worse: the order is by usual residents only.",
+      "The census town-list population of Portlaoise, the Laois County Council eircode and the Rock of Dunamase: the County Laois page owns all three.",
+      "Any Dunamaise Arts Centre ticket price, and any claim about the hospital beyond its published address.",
+      "Any reason for the size of any town or for Portlaoise's travel shares."
+    ]
   }
 }
