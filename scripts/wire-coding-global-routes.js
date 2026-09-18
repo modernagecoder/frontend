@@ -318,6 +318,7 @@ const MARKETS = [
   ['best-coding-class-in-laytown-bettystown', 'Laytown-Bettystown, County Meath, Ireland'],
   ['best-coding-class-in-tullamore', 'Tullamore, County Offaly, Ireland'],
   ['best-coding-class-in-killarney', 'Killarney, County Kerry, Ireland'],
+  ['best-coding-class-in-cobh', 'Cobh, County Cork, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

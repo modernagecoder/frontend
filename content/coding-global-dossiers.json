@@ -13944,5 +13944,56 @@
       "The bare statement that two population figures exist for a town: the Swords page owns it; this page measures and ranks the difference.",
       "The town density and area, the local electoral area figure and the Fexco and MTU points: the County Kerry page owns them."
     ]
+  },
+  "best-coding-class-in-cobh": {
+    "market": "Cobh",
+    "bodyClass": "cg-cbh",
+    "pageType": "city",
+    "curriculumAuthority": "Cobh, Co Cork, CSO Census 2022 Small Area Population town tables, read 19 September 2026. SAP2022T2T3TOWN22 (usually resident population aged 1 year and over by usual residence 1 year before Census Day): Same Address 13,008, Elsewhere in county 598, Elsewhere in Ireland 92, Outside Ireland 145, Total 13,843; the four categories sum to the total in all 867 towns. Our arithmetic: 835 at a different address, 6.03 percent; 237 from outside the county. Across the 94 towns with a total of 5,000 or more in this table: median share at a different address 7.08 percent, Cobh 22nd lowest, lowest Buncrana 4.21, highest Maynooth 13.72. SAP2022T2T1TOWN22: usual residents 14,000. SAP2022T15T2TOWN22: households 5,253, broadband 4,489, no internet 377, other 137, not stated 250. SAP2022T11T1TOWN22 to work total 6,263: car driver 3,687, work mainly at or from home 651, on foot 456, car passenger 330, bus 300, van 293, train DART or Luas 213, bicycle 36, not stated 231; to school, college or childcare total 3,721: car passenger 1,740, on foot 1,171, bus 399, car driver 110, train 90, not stated 177. SAP2022T11T4TOWN22: 1,814 work from home at least some of the time, 3,999 never, 450 not stated. SAP2022T11T5TOWN22: 891 children under 15 in childcare. SAP2022T1T1TOWN22 (census-night age table): ages 6 to 12 sum to 1,488, ages 13 to 18 to 1,341. CSO Population and Migration Estimates, April 2022: \"Net migration of +61,100 comprised of 120,700 immigrants and 59,600 emigrants\". Cobh Heritage Centre, own site: \"the port where 3 million of our people left from\"; \"From 1848 to 1950, over six million adults and children emigrated from Ireland\"; the exhibition \"is situated within Cobh's beautifully restored Victorian railway station\". Irish Rail, Cobh: \"Cobh Railway Station Cobh Co. Cork\", \"Eircode P24 A462\", \"There are no bike facilities at the station\". The two made-up towns are our own illustration, stated as such on the page.",
+    "localProject": "Survivorship: who can never appear in the table. Census 2022's one-year-ago question sorts Cobh's 13,843 residents aged one and over into 13,008 at the same address, 598 elsewhere in the county, 92 elsewhere in Ireland and 145 outside Ireland, so 835, 6.03 percent, had moved; only 237 came from outside the county, and a move within Cobh sits in the county category. Against the 94 towns of 5,000 or more the median is 7.08 percent and Cobh is 22nd lowest. The row counts arrivals and can never count departures. The learner builds two made-up towns person by person, Town A with 980 people a year earlier and Town B with 1,100, each with 940 staying put, 20 moving within the town and 40 arriving (20 from the county, 12 from elsewhere in Ireland, 8 from abroad), Town A losing 20 leavers and Town B 140; both produce the identical table 940 / 40 / 12 / 8 and both now hold 1,000, one up 20 and one down 100. Internal leavers do appear, in the row for wherever they went, labelled only elsewhere; emigrants appear in no census table, and the CSO estimates them in a separate series, 59,600 emigrants and 120,700 immigrants in the year to April 2022. The Cobh Heritage Centre's statement that 3 million people left from the port is quoted as the Centre's own. New family for the cluster: survivorship and selection.",
+    "requiredMentions": [
+      "14,000",
+      "13,008",
+      "13,843",
+      "835",
+      "145",
+      "59,600",
+      "5,253",
+      "4,489",
+      "6,263",
+      "3,687",
+      "1,740",
+      "P24 A462"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T2T3TOWN22, Cobh, Co Cork, usually resident population aged 1 year and over by usual residence 1 year before Census Day: Same Address 13,008, Elsewhere in county 598, Elsewhere in Ireland 92, Outside Ireland 145, Total 13,843; the same table for every town gives the comparison (Buncrana, Maynooth and the 94 towns of 5,000 or more).",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T2T3TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T1TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T1T1TOWN22, Cobh, Co Cork: usual residents 14,000; households 5,253, broadband 4,489; to work 6,263 with car driver 3,687, mainly at or from home 651, on foot 456, car passenger 330, bus 300, van 293, train 213; to school, college or childcare 3,721 with car passenger 1,740, on foot 1,171, bus 399, car driver 110, train 90; 1,814 work from home at least some of the time, 3,999 never, 450 not stated; 891 children under 15 in childcare; 1,488 aged 6 to 12 and 1,341 aged 13 to 18 in the census-night age table.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO, Population and Migration Estimates, April 2022: \"Net migration of +61,100 comprised of 120,700 immigrants and 59,600 emigrants\".",
+        "url": "https://www.cso.ie/en/releasesandpublications/ep/p-pme/populationandmigrationestimatesapril2022/"
+      },
+      {
+        "claim": "Cobh Heritage Centre, own site: \"the port where 3 million of our people left from\"; \"From 1848 to 1950, over six million adults and children emigrated from Ireland\"; the exhibition \"is situated within Cobh's beautifully restored Victorian railway station\".",
+        "url": "https://www.cobhheritage.com/"
+      },
+      {
+        "claim": "Irish Rail, Cobh station: \"Cobh Railway Station Cobh Co. Cork\", \"Eircode P24 A462\", \"There are no bike facilities at the station\".",
+        "url": "https://www.irishrail.ie/en-ie/station/cobh"
+      }
+    ],
+    "rejectedClaims": [
+      "Any figure for the number of people who left Cobh: no table used here contains it.",
+      "Comparing the town rows with the national migration estimates as like for like: one counts residents of towns, the other estimates flows for the State.",
+      "The heritage centre's emigration figures as verified statistics: they are quoted as the Centre's own statement.",
+      "The census-night population and density for Cobh: the County Cork page owns them, and the difference between census-night and resident counts belongs to the Killarney page.",
+      "Any reason for Cobh's share of movers being below the median.",
+      "Any claim that the two made-up towns resemble Cobh: they are an illustration of the arithmetic."
+    ]
   }
 }

@@ -2894,4 +2894,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-killarney /src/pages/best-coding-class-in-killarney.html 200
 /best-coding-class-in-killarney.md /src/pages/best-coding-class-in-killarney.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-cobh /src/pages/best-coding-class-in-cobh.html 200
+/best-coding-class-in-cobh.md /src/pages/best-coding-class-in-cobh.md 200
 /* /src/pages/404.html 404
