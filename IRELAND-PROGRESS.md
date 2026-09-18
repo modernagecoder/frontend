@@ -114,7 +114,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 79 | best-coding-class-in-newbridge (nwb, #2E6B8A) | town | 3,150 | 2.6% vs best-coding-class-in-tralee | a count of one is a person | small cells and disclosure risk | eecec5a6 |
 | 80 | best-coding-class-in-balbriggan (blb, #8A3A5A) | town | 3,242 | 3.8% vs best-coding-class-in-newbridge | a date is not a string | date parsing, zero-based months, time zones | ac42e17c |
 | 81 | best-coding-class-in-portlaoise (ptl, #4A2E5E) | town | 3,231 | 1.1% vs best-coding-class-in-tralee | one chart, two axes | scale and skew; logarithmic axis | 30c6abdf |
-| 82 | best-coding-class-in-mullingar (mgr, #3A3A6B) | town | 3,211 | 0.9% vs best-coding-class-in-kilkenny | what a survey would have told you | sampling error; seeded simulation vs complete count | (this commit) |
+| 82 | best-coding-class-in-mullingar (mgr, #3A3A6B) | town | 3,211 | 0.9% vs best-coding-class-in-kilkenny | what a survey would have told you | sampling error; seeded simulation vs complete count | 0eb949a2 |
+| 83 | best-coding-class-in-letterkenny (lky, #5E2E3A) | town | 3,259 | 1.3% vs best-coding-class-in-portlaoise | a table is one long list | JSON-stat flat arrays, strides, identifiers | (this commit) |
 
 ## Skipped (kill criterion)
 

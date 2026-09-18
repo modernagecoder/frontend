@@ -945,3 +945,4 @@
 .cg-root.cg-blb  { --cg-accent: #8A3A5A; --cg-accent-soft: rgba(138,58,90,.10); }   /* Balbriggan: a harbour rose from the solver, kept apart from the Fingal page and from the Swords and Malahide accents in the same area */
 .cg-root.cg-ptl  { --cg-accent: #4A2E5E; --cg-accent-soft: rgba(74,46,94,.10); }   /* Portlaoise: a deep heather from the solver, kept clear of the Laois county accent and the Kildare and Offaly pages either side */
 .cg-root.cg-mgr  { --cg-accent: #3A3A6B; --cg-accent-soft: rgba(58,58,107,.10); }   /* Mullingar: a lake indigo from the solver, distinct from the Westmeath county accent and the Athlone ochre in the same county */
+.cg-root.cg-lky  { --cg-accent: #5E2E3A; --cg-accent-soft: rgba(94,46,58,.10); }   /* Letterkenny: a Swilly claret from the solver, distinct from the Donegal county accent and the other north-west pages */
