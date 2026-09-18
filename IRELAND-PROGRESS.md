@@ -137,7 +137,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 102 | best-coding-class-in-rush (rsh, #1B4B1B) | town | 3,096 | 1.7% vs best-coding-class-in-cavan | Classifier evaluation: rail-town rule vs Irish Rail station list; confusion matrix, precision/recall, always-yes beats accuracy; label audit | Judging a rule by accuracy alone; trusting an answer key built by name matching | e5e61bcd |
 | 103 | best-coding-class-in-portmarnock (pmk, #9D2A41) | town | 2,948 | 1.6% vs best-coding-class-in-longford | The average that describes almost nobody: 36.3% home-working vs 250 occupations in two crowds; 4.9% of workers near the mean | Quoting the mean of a two-humped distribution as typical | 11edf4a7 |
 | 104 | best-coding-class-in-skerries (skr, #2A499D) | town | 2,853 | 1.7% vs best-coding-class-in-rush | Composite index: 66 weightings of three census shares; Skerries 3rd to 26th, four possible winners | Presenting a weighted league table without its weights and sensitivity | 9ca322f2 |
-| 105 | best-coding-class-in-ballina (bln, #64471B) | town | 2,927 | 1.5% vs best-coding-class-in-portmarnock | Chart integrity: one comparison drawn twice; axis from 80% exaggerates a 6.8% gap nine times; complement framing | Truncated bar axes and one-sided framing | (this commit) |
+| 105 | best-coding-class-in-ballina (bln, #64471B) | town | 2,927 | 1.5% vs best-coding-class-in-portmarnock | Chart integrity: one comparison drawn twice; axis from 80% exaggerates a 6.8% gap nine times; complement framing | Truncated bar axes and one-sided framing | 812e28e6 |
+| 106 | best-coding-class-in-kildare (kdt, #9D492A) | town | 2,956 | 1.7% vs best-coding-class-in-midleton | Clustering stability: k-means 200 random starts; 68 groupings at k=4, 200 at k=8; report co-assignment counts | Reporting one clustering run as the grouping; letting the method choose k | (this commit) |
 
 ## Skipped (kill criterion)
 

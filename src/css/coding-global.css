@@ -968,3 +968,4 @@
 .cg-root.cg-pmk  { --cg-accent: #9D2A41; --cg-accent-soft: rgba(157,42,65,.10); }   /* Portmarnock: a raspberry red from the widened solver search, distinct from the Fingal, Malahide and Rush accents along the same coast */
 .cg-root.cg-skr  { --cg-accent: #2A499D; --cg-accent-soft: rgba(42,73,157,.10); }   /* Skerries: a harbour cobalt from the widened solver search, apart from the Fingal, Rush and Portmarnock accents */
 .cg-root.cg-bln  { --cg-accent: #64471B; --cg-accent-soft: rgba(100,71,27,.10); }   /* Ballina: a river-bronze from the widened solver search, apart from the Mayo county blue and the Castlebar ochre */
+.cg-root.cg-kdt  { --cg-accent: #9D492A; --cg-accent-soft: rgba(157,73,42,.10); }   /* Kildare town: a rust from the widened solver search, apart from the Kildare county accent and the Newbridge, Naas and Athy pages */

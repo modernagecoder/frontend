@@ -14679,5 +14679,51 @@
       "Linear versus logarithmic axes (Portlaoise) and percentage points versus per cent (Ulster): owned elsewhere.",
       "The census-night population, density and the ATU Mayo campus: the County Mayo page owns them."
     ]
+  },
+  "best-coding-class-in-kildare": {
+    "market": "Kildare",
+    "bodyClass": "cg-kdt",
+    "pageType": "city",
+    "curriculumAuthority": "Kildare, Co Kildare, CSO Census 2022 Small Area Population town tables, read 19 September 2026. SAP2022T2T1TOWN22: usual residents 10,234. SAP2022T15T2TOWN22: households 3,463, broadband 2,897, no internet 212, not stated 289. SAP2022T11T1TOWN22 to work total 4,629: car driver 2,507, on foot 382, work mainly at or from home 332, car passenger 285, van 264, train DART or Luas 251, bus 196, bicycle 62, not stated 326; to school, college or childcare total 2,897: car passenger 1,480, on foot 593, bus 310, train 111, car driver 71, not stated 249. SAP2022T11T4TOWN22: 1,147 work from home at least some of the time, 2,944 never, 538 not stated. SAP2022T11T5TOWN22: 653 children under 15 in childcare. SAP2022T1T1TOWN22 (census-night age table): ages 6 to 12 sum to 1,243, ages 13 to 18 to 1,035. Clustering run in this session: the 94 towns with 5,000 or more usual residents, eight travel-to-work shares (on foot, bicycle, bus, train, car driver, car passenger, van, work mainly at or from home; not stated removed) standardised across the 94; Kildare 8.9, 1.4, 4.6, 5.8, 58.3, 6.6, 6.1, 7.7 percent. k-means with random initial centres chosen among the towns, 200 runs per k, seed 20220403 + k. Distinct groupings: k=2 11, k=3 29, k=4 68, k=5 157, k=6 194, k=8 200. Towns grouped with Kildare in all 200 runs: 43, 1 (Ennis), 0, 0, 0, 0. Kildare's group size: 59-73, 34-55, 23-54, 10-51, 4-40, 3-38. At k=4, co-assignment with Kildare: Loughrea 198, Portlaoise 198, Mallow 197, Enniscorthy 196. Lowest within-group sum of squares over the 200 runs: 503.8, 401.6, 317.0, 275.1, 242.5, 201.7. Irish Rail, Kildare: \"Station Address Iarnród Éireann, Station Road, Kildare, Co. Kildare\", \"Eircode R51 AW63\", \"You can use the sheltered bike parking in Kildare station\". Irish National Stud, own site: \"Brallistown Little, Tully, Co. Kildare, R51 AP20\".",
+    "localProject": "Clustering and its stability. The learner writes k-means and runs it on the eight standardised travel-to-work shares of the 94 towns of 5,000 or more, 200 times for each number of groups from different random starts. The groupings multiply as k grows: 11 different results at two groups, 29 at three, 68 at four, 157 at five, 194 at six and 200 at eight, where no two runs agree. With four groups no town shares Kildare's group in every run, but Loughrea and Portlaoise do in 198 of 200, Mallow in 197 and Enniscorthy in 196; those co-assignment counts are the reportable finding. The within-group spread always falls as k rises (503.8, 401.6, 317.0, 275.1), so the method cannot choose k; the analyst must. Lessons: clusters are found, not given; report the features, scaling, k, restarts and stability counts. Castlebar owns nearest neighbours and the choice of features and scaling; this page adds random starts and the choice of k. New family for the cluster: unsupervised clustering and stability.",
+    "requiredMentions": [
+      "10,234",
+      "3,463",
+      "2,897",
+      "2,507",
+      "1,147",
+      "1,480",
+      "653",
+      "251",
+      "1,243",
+      "1,035",
+      "401.6",
+      "R51 AW63"
+    ],
+    "sources": [
+      {
+        "claim": "CSO Census 2022 table SAP2022T11T1TOWN22, all towns: means of travel to work, used for the eight shares clustered across the 94 towns of 5,000 or more. Kildare, Co Kildare: to work 4,629 with car driver 2,507, on foot 382, mainly at or from home 332, car passenger 285, van 264, train 251, bus 196, bicycle 62, not stated 326; to school, college or childcare 2,897 with car passenger 1,480, on foot 593, bus 310, train 111, car driver 71.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T11T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "CSO Census 2022 tables SAP2022T2T1TOWN22, SAP2022T15T2TOWN22, SAP2022T11T4TOWN22, SAP2022T11T5TOWN22 and SAP2022T1T1TOWN22, Kildare, Co Kildare: usual residents 10,234; households 3,463, broadband 2,897; 1,147 work from home at least some of the time, 2,944 never, 538 not stated; 653 children under 15 in childcare; 1,243 aged 6 to 12 and 1,035 aged 13 to 18 in the census-night age table.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/SAP2022T2T1TOWN22/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Irish Rail, Kildare station: \"Station Address Iarnród Éireann, Station Road, Kildare, Co. Kildare\", \"Eircode R51 AW63\", \"You can use the sheltered bike parking in Kildare station\".",
+        "url": "https://www.irishrail.ie/en-ie/station/kildare"
+      },
+      {
+        "claim": "Irish National Stud, own site: \"Brallistown Little, Tully, Co. Kildare, R51 AP20\".",
+        "url": "https://www.irishnationalstud.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any description of what the clustered groups are like as places: they reflect travel-to-work shares only.",
+      "Presenting a single k-means run as the grouping of towns.",
+      "Any claim about the Irish National Stud beyond its name and address.",
+      "Nearest-neighbour similarity and the choice of features and scaling: the Castlebar page owns them.",
+      "The census-night population and local electoral area figure: the County Kildare page owns them."
+    ]
   }
 }
