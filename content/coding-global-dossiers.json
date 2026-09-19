@@ -15169,5 +15169,64 @@
       "Any population figure for Dundrum and any aggregation of census small areas: owner rule for district pages.",
       "Grinds providers in the area: never named or ranked."
     ]
+  },
+  "coding-classes-in-ballincollig-cork": {
+    "market": "Ballincollig",
+    "bodyClass": "cg-bcg",
+    "pageType": "district",
+    "curriculumAuthority": "Ballincollig, Cork, named sources only (owner rule for districts), read 20 September 2026. OPW waterlevel.ie month files (15-minute readings 2026-08-15 06:00 to 2026-09-19 06:00): 19109 Inniscarra Tailrace water level 0001, 3,343 readings, min 0.132, max 0.872 m, 3,324 consecutive 15-minute differences, median 0.001, 99th percentile 0.031, 17 of 5 cm or more (11 up, 6 down), largest +0.154 at 2026-09-15 09:00 then +0.150 at 09:15, +0.143 at 2026-09-11 15:30, -0.088 at 2026-09-16 15:30, +0.088 at 2026-09-14 14:30; times 09-11 15:15, 15:30; 09-14 14:15, 14:30, 14:45, 17:15; 09-15 09:00, 09:15, 09:30; 09-16 09:00, 09:15, 14:15, 14:30, 14:45, 15:15, 15:30, 15:45; changes of 3 cm or more 38, of 10 cm or more 3; main minus backup sensor mean 0.000, max absolute 0.004 m over 3,337 pairs. 19103 Ovens Bridge water level 0001, 3,357 readings, min 0.113, max 0.270 m, no difference of 5 cm or more, largest 0.019 m. Station positions from waterlevel.ie geojson: Inniscarra Tailrace 51.8920 N 8.6334 W, Ovens Bridge 51.8803 N 8.6550 W; haversine from Ballincollig Library 2.80 km and 4.32 km. OPW disclaimer: \"Data is provisional, unchecked, and has not been validated to remove invalid or improbable values.\"; CC-BY, derived works should reference waterlevel.ie and the disclaimer. ESB Inniscarra hydro page: \"Capacity: 27 MW\", \"Commissioned: 1952-57\"; \"Our Lee Hydro Stations span two locations at Inniscarra and Carrigadrohid in the Lee Valley, around 14 km from Cork City. Built between 1952 and 1957\"; \"Inniscarra has two generating units: one produces 15 MW and the other produces 4 MW. Both units use Voith turbine with Brown Boveri generators, which operate under an average head of 30m.\" Cork City Council heritage page, Ballincollig Gunpowder Mills: \"Address: Lackenshoneen, Ballincollig\"; \"the second largest Gunpowder Mills in Britain and in Ireland\"; \"Located in the Ballincollig Regional Park the site covers approximately 52 hectares (130 acres) and the linear Powder Mills run along 2.4 kms of the River Lee\"; \"the remains of about 100 buildings associated with the gunpowder manufacturing process survive\"; \"The Powder Mills was originally developed in 1794 by Cork man Charles Leslie from Wilton, and his partner John Travers. They built a weir and main canal 1.5 miles long.\"; \"in 1903 the Ballincollig Powder Mills closed\"; \"In 1974 the site was bought by Cork County Council, and this facilitated the development of the highly successful Ballincollig Regional Park.\" Cork City Council library dataset: \"Ballincollig Library\", \"The Village Shopping Centre\", Eircode printed \"P31H674\", Monday \"Closed\", Tuesday to Saturday \"9:30am-5:30pm\", 51.887639, -8.593167. Ballincollig Community School: \"Inishmore, Ballincollig, Co. Cork. P31 E030\".",
+    "localProject": "Steps in a regulated series. From the OPW's 15-minute water levels, the learner compares Inniscarra Tailrace, just below the ESB's Lee hydro station, with Ovens Bridge, the nearest station not beside a power station, over 35 days to 19 September 2026. Keeping only readings exactly 15 minutes apart and differencing them, the tailrace shows 17 changes of 5 cm or more (largest 15.4 cm, two in a row on 15 September for about 30 cm in half an hour), clustered at 09:00 to 09:30 and 14:15 to 15:45 in the file's timestamps, all on 11, 14, 15 and 16 September; at 3 cm the tailrace has 38 and at 10 cm 3; Ovens Bridge shows none at any of these thresholds (largest 1.9 cm). Backup sensors rule out a single faulty instrument. Lessons: sudden changes signal switches and decisions; detect them by differencing and thresholds, check timing, compare with an uncontrolled series, and do not claim a cause the data cannot show. New family for the cluster: step detection in managed systems.",
+    "requiredMentions": [
+      "3,343",
+      "0.270",
+      "0.872",
+      "15.4",
+      "1.9 centimetres",
+      "2.80",
+      "52 hectares",
+      "27 MW",
+      "2.4 km",
+      "1794",
+      "P31 H674",
+      "P31 E030"
+    ],
+    "sources": [
+      {
+        "claim": "OPW waterlevel.ie, station 19109 Inniscarra Tailrace, water level, 15-minute readings (month file).",
+        "url": "https://waterlevel.ie/0000019109/0001/"
+      },
+      {
+        "claim": "OPW waterlevel.ie, station 19103 Ovens Bridge, water level, 15-minute readings (month file).",
+        "url": "https://waterlevel.ie/0000019103/0001/"
+      },
+      {
+        "claim": "OPW waterlevel.ie disclaimer: \"Data is provisional, unchecked, and has not been validated to remove invalid or improbable values.\"; reuse under CC-BY with reference to waterlevel.ie.",
+        "url": "https://waterlevel.ie/"
+      },
+      {
+        "claim": "ESB, Inniscarra hydro: Lee hydro stations at Inniscarra and Carrigadrohid built 1952 to 1957, combined 27 MW; Inniscarra units of 15 MW and 4 MW under an average head of 30 m.",
+        "url": "https://esb.ie/what-we-do/generation-and-trading/inniscarra---hyrdo"
+      },
+      {
+        "claim": "Cork City Council, Ballincollig Gunpowder Mills: second largest in Britain and Ireland; about 52 hectares, 2.4 km along the Lee; about 100 buildings survive; developed 1794 by Charles Leslie and John Travers with a weir and 1.5-mile canal; closed 1903; bought by Cork County Council in 1974, leading to the Regional Park.",
+        "url": "https://www.corkcity.ie/en/cork-heritage-open-day/online-buildings/ballincollig-gunpowder-mills/"
+      },
+      {
+        "claim": "Cork City Council library dataset: Ballincollig Library, The Village Shopping Centre, P31 H674 (printed without the space), closed Monday, 9:30am to 5:30pm Tuesday to Saturday.",
+        "url": "https://data.corkcity.ie/dataset/98f4a10c-7a31-49e2-bcd4-961bbbfa62d5/resource/db14a7fc-b9c8-4a24-b3f7-7987070dbb5e/download/library.csv"
+      },
+      {
+        "claim": "Ballincollig Community School: Inishmore, Ballincollig, Co. Cork, P31 E030.",
+        "url": "https://www.balcs.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim about why a particular step happened: the readings show timing, not cause.",
+      "Any flood, water-supply or safety statement: the data are provisional and the project is about method.",
+      "The river at Ovens Bridge by name: the OPW station page does not name it.",
+      "The 1805 sale price in the heritage text: a currency figure this site does not print.",
+      "The Ballincollig electoral division population, Colaiste Choilm and the city footfall counters: the Cork city page owns them; the 2019 boundary change belongs to the County Cork page.",
+      "Any population figure for Ballincollig and any aggregation of census small areas: owner rule for district pages."
+    ]
   }
 }

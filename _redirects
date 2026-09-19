@@ -2990,4 +2990,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-dundrum-dublin /src/pages/coding-classes-in-dundrum-dublin.html 200
 /coding-classes-in-dundrum-dublin.md /src/pages/coding-classes-in-dundrum-dublin.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-ballincollig-cork /src/pages/coding-classes-in-ballincollig-cork.html 200
+/coding-classes-in-ballincollig-cork.md /src/pages/coding-classes-in-ballincollig-cork.md 200
 /* /src/pages/404.html 404

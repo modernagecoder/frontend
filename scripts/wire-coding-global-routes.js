@@ -342,6 +342,7 @@ const MARKETS = [
   ['coding-classes-in-lucan-dublin', 'Lucan, County Dublin, Ireland'],
   ['coding-classes-in-sandyford-dublin', 'Sandyford, Dublin 18, Ireland'],
   ['coding-classes-in-dundrum-dublin', 'Dundrum, Dublin 14, Ireland'],
+  ['coding-classes-in-ballincollig-cork', 'Ballincollig, Cork, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
