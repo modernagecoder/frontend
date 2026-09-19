@@ -103,7 +103,7 @@ module.exports = {
           ['2. Prediction before typing', 'England\'s curriculum asks pupils to explain how algorithms work and to find their own errors, which starts with saying what code will do.', 'When a new idea arrives, does my child predict the output first or copy a template?'],
           ['3. Code read by a person', 'Schools mark finished work. Learning happens when someone reads the attempt in the middle.', 'How often does a teacher read the code, and what comes back?'],
           ['4. The right system and board', 'Key Stage 3, S3 and Year 10 in Northern Ireland are not the same, and neither are the exam boards.', 'Which curriculum, board or course will you teach towards?'],
-          ['5. UK hours and the UK calendar', 'Half terms, inset days and summer holidays that start earlier in Scotland and Northern Ireland.', 'What time is the class in UK time, and what happens in exam weeks?'],
+          ['5. UK hours and the UK calendar', 'Half terms, inset days and holidays that each council sets for its own schools.', 'What time is the class in UK time, and what happens in exam weeks?'],
           ['6. AI used in the open', 'Coursework rules require AI help to be acknowledged, and in the end the work has to be the student\'s own.', 'When may my child use AI tools, and how will they record what the tool did?'],
           ['7. Proof you can look up', 'Stars on a website say nothing until you know who gave them and how many there are.', 'Can I read your reviews somewhere independent, and sit in on a real lesson first?']
         ] },
