@@ -20,7 +20,7 @@ Per-page pipeline: research (8+ place facts at primary sources, or skip) -> less
 - [ ] IndexNow ping and re-index requests for every fixed page: ONLY AFTER the owner pushes (the pages are not live until then). Pages: the UK hub, the kids UK page, the 12 maths pages, /ai-ml-course-for-teens, /java-programming-for-kids-teens, /about, Leicester.
 - [x] Lesson-family bank and UK data licence sheet seeded (session scratchpad `uk/families.md`, `uk/licences.md`, `uk/spent_families.txt` with all 318 spent lessons)
 - [x] Ship tooling checked in: `scripts/nl/uk-ship.sh` (explicit staging, refuses to start if a shared registry is dirty, never pushes) and `scripts/nl/render-check.py` (static, no server); the hub lists every built UK page from `content/uk` at build time, so no separate hub script is needed
-- [ ] Playwright rendered audit at 1280 and 390 of the rebuilt hub and the edited live pages: deferred, the machine had 0.4 GB free
+- [x] Playwright rendered audit, 2026-09-20: UK hub clean at 1280 and 390 (check.js: classes defined, verify PASS, 3.6%); Leicester PASS at both widths. The 13 edited mp- pages and ai-ml-course-for-teens, java-programming-for-kids-teens and /about give IDENTICAL audit results before and after the Phase 0 edits (pre-edit HTML swapped in and restored), so nothing was introduced. Pre-existing on the UK maths pages, reported to the owner, NOT fixed (owner order to leave other pages' design alone): sub-12px text (9.7 to 11.8px) and near-invisible buttons, e.g. "See the secondary course" at 1.15:1 and "See the advanced course" at 1.10:1
 
 ## Queue (589)
 
@@ -61,5 +61,5 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 - Competition statuses change each season; re-verify at the organiser in the week a page is built.
 - Scottish and Northern Irish town lists are candidates until checked against NRS and NISRA settlement figures.
 - 11+ areas are candidates until each council's admissions pages confirm a selective test.
-- The cg- and ag- renderers emit a Service graph but no FAQPage JSON-LD (Dublin is the same), while spec section 7 asks for FAQPage on every page: add it as an opt-in renderer flag before Phase 1 so existing Irish output stays byte-identical.
+- (Corrected 2026-09-20) The cg- and ag- renderers DO emit FAQPage, BreadcrumbList, Course and EducationalOrganization in a second JSON-LD block; an earlier check matched only one script-tag form. The UK hub carries all 10 questions.
 - Build-time `pricing:verify` fails locally on 132 files (course pages under content/courses/generated and the other session's ten priority-demo pages) for a missing ?v= hash that `pricing:apply` adds in the Netlify build; none of the UK files fail.
