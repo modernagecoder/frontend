@@ -165,7 +165,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 130 | coding-classes-in-crumlin-dublin (crm, #3E1E31) | district | 2,942 | 0.9% vs coding-classes-in-stillorgan-dublin | circular statistics: averaging clock times that cross midnight (NTA Dublin Bus GTFS) | exclude single-trip routes first; Inchicore station not used | f153de74 |
 | 131 | coding-classes-in-terenure-dublin (trn, #1C165A) | district | 2,890 | 1.1% vs coding-classes-in-stillorgan-dublin | Jaccard set similarity and the matching rule: identifier vs name vs distance (NTA Dublin Bus GTFS) | state the matching rule; main pattern only | 980538dc |
 | 132 | coding-classes-in-bishopstown-cork (bsh, #5A3B2B) | district | 2,841 | 1.5% vs coding-classes-in-rathmines-dublin | parsing numbers out of free text, keeping exceptions; define open (Cork City library hours) | no lowest-branch naming; MTU owned by Cork page | 3ad38303 |
-| 133 | coding-classes-in-glanmire-cork (glm, #1F2F7A) | district | 2,932 | 0.9% vs coding-classes-in-finglas-dublin | standard error, square-root law and sample-size planning (Met Eireann Glanmire Northesk 1952-60) | count rows per year; no trend; no present-day claim | (this commit) |
+| 133 | coding-classes-in-glanmire-cork (glm, #1F2F7A) | district | 2,932 | 0.9% vs coding-classes-in-finglas-dublin | standard error, square-root law and sample-size planning (Met Eireann Glanmire Northesk 1952-60) | count rows per year; no trend; no present-day claim | b7adcce7 |
+| 134 | coding-classes-in-knocknacarra-galway (knc, #3F298E) | district | 2,884 | 1.5% vs coding-classes-in-finglas-dublin | method comparison: agreement is not correlation (Marine Institute Galway Port gauges) | remove impossible values first; comparison cannot say which gauge is right | (this commit) |
 
 ## Skipped (kill criterion)
 

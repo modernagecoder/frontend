@@ -362,6 +362,7 @@ const MARKETS = [
   ['coding-classes-in-terenure-dublin', 'Terenure, Dublin 6W, Ireland'],
   ['coding-classes-in-bishopstown-cork', 'Bishopstown, Cork, Ireland'],
   ['coding-classes-in-glanmire-cork', 'Glanmire, Cork, Ireland'],
+  ['coding-classes-in-knocknacarra-galway', 'Knocknacarra, Galway, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

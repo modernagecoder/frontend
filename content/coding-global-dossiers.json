@@ -16229,5 +16229,55 @@
       "Bootstrap intervals and return periods: Tallaght and Dundrum own them.",
       "Any population figure for Glanmire and any census small-area aggregation: owner rule for district pages."
     ]
+  },
+  "coding-classes-in-knocknacarra-galway": {
+    "market": "Knocknacarra",
+    "bodyClass": "cg-knc",
+    "pageType": "district",
+    "curriculumAuthority": "Knocknacarra, named sources only (owner rule for districts), read 20 September 2026. Marine Institute ERDDAP IrishNationalTideGaugeNetwork (PT5M; QC_Flag values 0, 1, 9 = unknown, good, missing): station_id \"Galway Port\" at 53.269, -9.048 and \"Galway Port 2\" at 53.26926, -9.047911 (30 m apart by haversine), Water_Level_OD_Malin, 1 January to 31 August 2026; 69,913 and 69,515 readings, all QC_Flag 0. Our arithmetic (knc/agree.js): 69,478 pairs with identical time stamps; values of -32.753 m at Galway Port 2026-07-12T14:45Z and Galway Port 2 2026-08-19T13:30Z removed, leaving 69,476 pairs (99.3% of 69,984 slots). Correlation 0.99995. Difference Galway Port minus Galway Port 2: mean -17.4 mm, standard deviation 13.1 mm, limits of agreement -43.2 to +8.3 mm (93.6% of clean differences inside); with the two impossible values standard deviation 179.5 mm and limits -369 to +334 mm. Mean difference by mean level: -3 to -1.5 m -37.9 mm (n 6,481); -1.5 to -0.5 m -20.7; -0.5 to 0.5 m -13.5; 0.5 to 1.5 m -13.2; 1.5 to 3 m -12.9 (n 8,640); regression slope of difference on mean 0.00521 (5.21 mm per metre). Median absolute difference 15.0 mm; 71.4% within 2 cm; 59 pairs beyond 10 cm; largest real difference 254 mm at 2026-04-04T16:20Z. Distance from the gauges to the Knocknacarra Community Centre point (Galway City Council data: -9.13013694732768, 53.2634599924555) 5.50 km. Galway City Council open data: Community Centre Locations \"Knocknacarra Community Centre\",\"Cappagh Road, Knocknacarra.\"; Playgrounds \"McGrath's Field Playground\",\"Shangort Road, Knocknacarra\", surface \"Rubber Wet-pour surface\", parking \"Parking along public road\", \"No restricted opening hours\"; \"Cappagh Park Playground\",\"Cappagh Road, Knockanacarra\", \"Wood Bark Surface\", \"Car park in Cappagh Park\", toilets \"Yes- At adjacent Knocknacarra Community Centre\". Gaelscoil Mhic Amhlaigh: \"Gaelscoil Mhic Amhlaigh, Lána an Mhuilleora, Cnoc na Cathrach, Gaillimh, H91 FV4D\"; \"Between 1993 - 1999 we were housed in temporary accommodation in the Knocknacarra area. In 1999 we moved into a new school building of eight classrooms\"; \"a brand new state of the art 24 classroom school ... We moved into our new school in January 2018 at Miller's Lane, Knocknacarra.\" Knocknacarra Educate Together NS: \"Knocknacarra Educate Together National School is a primary school in Galway City\"; site menu \"STEM Committee\", \"Green Schools\", \"Active School\".",
+    "localProject": "Agreement is not correlation. From the Marine Institute's two Galway Port tide gauges, 30 metres apart, the learner pairs 69,476 five-minute readings from January to August 2026 after removing two physically impossible values of -32.753 m (which alone inflate the standard deviation of differences from 13.1 to 179.5 mm). The gauges correlate at 0.99995, yet differ by -17.4 mm on average with limits of agreement -43.2 to +8.3 mm, and the gap grows to -37.9 mm at the lowest water against -12.9 mm at the highest. Lessons: correlation ignores offsets; compare methods by their differences (Bland-Altman); check whether disagreement depends on size; check physical limits before statistics; comparison cannot say which instrument is right. New family site-wide: METHOD COMPARISON / LIMITS OF AGREEMENT (Bland, limits of agreement, method comparison had no prior hits); distinct from Castletroy (identical copied channels) and Clontarf (observed minus predicted).",
+    "requiredMentions": [
+      "0.99995",
+      "17.4 millimetres",
+      "43.2",
+      "37.9",
+      "12.9",
+      "32.753",
+      "69,476",
+      "13.1 millimetres",
+      "H91 FV4D",
+      "January 2018",
+      "Shangort Road",
+      "Knockanacarra"
+    ],
+    "sources": [
+      {
+        "claim": "Marine Institute, Irish National Tide Gauge Network: Galway Port and Galway Port 2 five-minute water levels, OD Malin, January to August 2026, with positions and quality flags.",
+        "url": "https://erddap.marine.ie/erddap/tabledap/IrishNationalTideGaugeNetwork.html"
+      },
+      {
+        "claim": "Galway City Council, Community Centre Locations: Knocknacarra Community Centre, Cappagh Road, with coordinates.",
+        "url": "https://galway-city-council-opendata-galwaycityco.hub.arcgis.com/api/download/v1/items/e13246bd0f094647be1ae053c8a87034/csv?layers=0"
+      },
+      {
+        "claim": "Galway City Council, Playgrounds in Galway City: McGrath's Field Playground (Shangort Road) and Cappagh Park Playground, surfaces, parking, hours and toilets.",
+        "url": "https://galway-city-council-opendata-galwaycityco.hub.arcgis.com/api/download/v1/items/1e92e7e7ab474a06a060f5e846dbd3c5/csv?layers=0"
+      },
+      {
+        "claim": "Gaelscoil Mhic Amhlaigh: Miller's Lane, Knocknacarra, H91 FV4D; temporary accommodation 1993 to 1999; new 24-classroom school from January 2018.",
+        "url": "https://gsmhicamhlaigh.ie/en/school-history-information/"
+      },
+      {
+        "claim": "Knocknacarra Educate Together National School: a primary school in Galway City; STEM committee and school programmes.",
+        "url": "https://www.ketns.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Which gauge is correct: a two-way comparison cannot say.",
+      "Flooding or coastal risk on the Knocknacarra shore; the OPW Galway City coastal study tables are images, not data, and are not used.",
+      "Residuals and aliasing on tide data: Clontarf and Douglas own them.",
+      "Salthill parking and other Galway city facts: the Galway page owns them.",
+      "Any population figure for Knocknacarra and any census small-area aggregation: owner rule for district pages."
+    ]
   }
 }
