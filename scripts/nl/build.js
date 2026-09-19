@@ -92,6 +92,9 @@ else if (!/countryName: ?'International'/.test(html)) fail('international lead c
 // In Ireland IST means Irish Standard Time; to the teachers it means India
 // Standard Time. An Irish page must never use it unqualified.
 if (LEAD_ISO === 'IE' && /\bIST\b/.test(html.replace(/<script[\s\S]*?<\/script>/g, ' '))) fail('bare IST on an Irish page: write Irish time or India time');
+// UK: BST is also Bangladesh Standard Time and IST India Standard Time, so neither is ever written bare.
+if (LEAD_ISO === 'GB' && /\b(IST|BST)\b/.test(html.replace(/<script[\s\S]*?<\/script>/g, ' '))) fail('bare BST or IST on a UK page: write UK time or India time');
+if (LEAD_ISO === 'GB' && /(£|&pound;|&#163;|\bGBP\b)/.test(html.replace(/<script[\s\S]*?<\/script>/g, ' '))) fail('pound sign or GBP on a UK page: USD is the only currency (spec section 9)');
 
 // --- write -------------------------------------------------------------------
 const outHtml = path.join(ROOT, 'src', 'pages', slug + '.html');

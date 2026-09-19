@@ -57,7 +57,7 @@ function twin(page) {
   out.push('---');
   out.push(`> ${md(page.capsule)}`);
   out.push('');
-  out.push('[Home](/) / ' + page.parents.map(p => `[${p.name}](/${p.slug})`).join(' / ') + ` / ${page.place.name}`);
+  out.push(['[Home](/)'].concat(page.parents.map(p => `[${p.name}](/${p.slug})`), [page.place.name]).join(' / '));
   out.push('');
   out.push(`${page.place.eyebrow} / Live online`);
   out.push('');
