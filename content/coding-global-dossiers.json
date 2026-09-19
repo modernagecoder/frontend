@@ -16040,5 +16040,55 @@
       "CSO small-area tables on crime and welfare payments for Ballymun: excluded topics under the owner rules.",
       "Any population figure for Ballymun and any census small-area aggregation: owner rule for district pages."
     ]
+  },
+  "coding-classes-in-crumlin-dublin": {
+    "market": "Crumlin",
+    "bodyClass": "cg-crm",
+    "pageType": "district",
+    "curriculumAuthority": "Crumlin, named sources only (owner rule for districts), read 20 September 2026. National Transport Authority, Dublin Bus GTFS (https://www.transportforireland.ie/transitData/Data/GTFS_Dublin_Bus.zip; feed_info: National Transport Authority, feed_start_date 20260918, feed_end_date 20270918). Stops whose stop_name contains \"Crumlin\": 8220DB001409 Crumlin Road, 8220DB001424 Crumlin Hospl, 8220DB001436 Crumlin Road, 8220DB002095 Crumlin Coll, 8220DB002099 Crumlin Hospl, 8220DB002188 Crumlin Coll, 8220DB002189 Crumlin SC, 8220DB002329 Crumlin Village, 8220DB007938 Crumlin Road. Our arithmetic (crm/last.js), Tuesday 22 September 2026: 1,775 departures on 9 routes; 77X a single trip at 08:18:15, excluded by the rule of at least 10 departures; remaining 8 routes, 1,774 departures; last departures 150 23:29:27 (Crumlin Village), 122 23:30:33, 151 23:54:00, 27 23:56:00, 56A 23:58:45, S2 24:02:04, 74 24:08:45, 77A 24:16:00; mean of clock times 14:54; mean of GTFS times 23:54; circular mean 23:54, mean resultant length 0.998; first departures 05:45 to 06:35, mean 06:11 by all three methods. GTFS Schedule Reference (gtfs.org): \"For times occurring after midnight on the service day, enter the time as a value greater than 24:00:00 in HH:MM:SS. Example: 14:30:00 for 2:30PM or 25:35:00 for 1:35AM on the next day.\" Dublin City Council, Eamonn Ceannt Park: \"Eamonn Ceannt Park in Crumlin is named after one of the executed leaders of the 1916 Rising. The park has soccer pitches, a 9-a-side all weather pitch, changing facilities, tennis courts, a basketball court, running track and an outdoor gym. It is also home to Dublin City's velodrome.\"; \"237 Clogher Rd Crumlin Dublin 12 Co. Dublin D12 DP78\". Dublin City Council, Willie Pearse Park: \"Dublin City Council's Willie Pearse Park first opened in 1949. The park was named after Willie Pearse, younger brother of Padraig Pearse, a leader of the 1916 Easter Rising.\"; facilities \"All Weather Pitch Bowling Green Boxing Club Changing Facilities GAA Pitch Playground Soccer Pitch\"; \"159 Windmill Rd Crumlin Dublin Co. Dublin D12 H4C8\". City of Dublin FET College, Crumlin: \"Eir Code: D12 N921\"; \"We are 10 minutes walk from the Suir Road Luas stop and well served by buses on the Crumlin Road.\"",
+    "localProject": "Clock times live on a circle. From the National Transport Authority's Dublin Bus timetable feed, the learner finds the last weekday departure of the eight routes serving stops named Crumlin (23:29 to 00:16, three after midnight) and averages them three ways: as clock times (14:54, absurd), as the timetable writes them with times past 24:00 (23:54), and on a circle with sine and cosine (23:54, resultant length 0.998). A single-trip route is excluded by a stated rule before any averaging; first departures (05:45 to 06:35) agree under every method as a check. Lessons: averages assume a line; hours, angles and months wrap; unroll or use the circle; the resultant length shows whether an average means anything. New family site-wide: CIRCULAR STATISTICS (mean resultant, averaging on a circle); distinct from Rustaq (modular arithmetic of slots), Balbriggan (date parsing) and Blackrock (waiting times).",
+    "requiredMentions": [
+      "14:54",
+      "23:54",
+      "0.998",
+      "24:16",
+      "1,774",
+      "05:45",
+      "25:35:00",
+      "D12 DP78",
+      "D12 H4C8",
+      "D12 N921",
+      "Suir Road",
+      "velodrome"
+    ],
+    "sources": [
+      {
+        "claim": "National Transport Authority, Dublin Bus GTFS timetable feed valid from 18 September 2026: departures at stops named Crumlin on Tuesday 22 September 2026.",
+        "url": "https://www.transportforireland.ie/transitData/Data/GTFS_Dublin_Bus.zip"
+      },
+      {
+        "claim": "GTFS Schedule Reference: times after midnight on the service day are entered as values greater than 24:00:00.",
+        "url": "https://gtfs.org/documentation/schedule/reference/"
+      },
+      {
+        "claim": "Dublin City Council, Eamonn Ceannt Park: named after an executed leader of the 1916 Rising; sports facilities; home to Dublin City's velodrome; 237 Clogher Road, D12 DP78.",
+        "url": "https://www.dublincity.ie/residential/parks/dublin-city-parks/visit-park/eamonn-ceannt-park"
+      },
+      {
+        "claim": "Dublin City Council, Willie Pearse Park: opened 1949; named after Willie Pearse; bowling green, boxing club and pitches; 159 Windmill Road, D12 H4C8.",
+        "url": "https://www.dublincity.ie/residential/parks/dublin-city-parks/visit-park/willie-pearse-park"
+      },
+      {
+        "claim": "City of Dublin FET College, Crumlin: D12 N921; ten minutes' walk from the Suir Road Luas stop.",
+        "url": "https://www.crumlincollege.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "EPA station 49 as a Crumlin source: the EPA places it on Davitt Road, Inchicore; tested and not used.",
+      "Any course fee in euro from the college site.",
+      "The Crumlin swimming pool: its operator's page did not load, so no fact from it is used.",
+      "Date parsing (Balbriggan), modular slot arithmetic (Rustaq) and waiting times (Blackrock): other pages own them.",
+      "Any population figure for Crumlin and any census small-area aggregation: owner rule for district pages."
+    ]
   }
 }

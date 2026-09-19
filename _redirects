@@ -3054,4 +3054,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-ballymun-dublin /src/pages/coding-classes-in-ballymun-dublin.html 200
 /coding-classes-in-ballymun-dublin.md /src/pages/coding-classes-in-ballymun-dublin.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-crumlin-dublin /src/pages/coding-classes-in-crumlin-dublin.html 200
+/coding-classes-in-crumlin-dublin.md /src/pages/coding-classes-in-crumlin-dublin.md 200
 /* /src/pages/404.html 404

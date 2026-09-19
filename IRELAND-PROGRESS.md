@@ -161,7 +161,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 126 | coding-classes-in-clontarf-dublin (ctf, #12492A) | district | 2,823 | 1.2% vs coding-classes-in-drumcondra-dublin | residuals: observed minus predicted tide at Dublin Port (Marine Institute) | no storm names, no flood claims; QC 0 is unknown | 5ad65af1 |
 | 127 | coding-classes-in-howth-dublin (hth, #2F3922) | district | 2,927 | 1.9% vs coding-classes-in-castletroy-limerick | exact repeats in counted data as an anomaly signal (Fingal Howth walk counters) | no fabrication claims; zeros that mean no data | d797764e |
 | 128 | coding-classes-in-finglas-dublin (fgl, #453017) | district | 2,989 | 1.6% vs coding-classes-in-clondalkin-dublin | masking and hour-of-day baselines for spikes (EPA-46 Finglas PM2.5) | no causes; 2025 too sparse; Luas proposed | a0005b3f |
-| 129 | coding-classes-in-ballymun-dublin (bmn, #365659) | district | 2,863 | 0.9% vs best-coding-class-in-castlebar | percentile profiles: compare places by background (L95) and peaks (L10), not one average (DCC sound 2015) | no noise sources; CSO crime/welfare excluded | (this commit) |
+| 129 | coding-classes-in-ballymun-dublin (bmn, #365659) | district | 2,863 | 0.9% vs best-coding-class-in-castlebar | percentile profiles: compare places by background (L95) and peaks (L10), not one average (DCC sound 2015) | no noise sources; CSO crime/welfare excluded | 54a3aa27 |
+| 130 | coding-classes-in-crumlin-dublin (crm, #3E1E31) | district | 2,942 | 0.9% vs coding-classes-in-stillorgan-dublin | circular statistics: averaging clock times that cross midnight (NTA Dublin Bus GTFS) | exclude single-trip routes first; Inchicore station not used | (this commit) |
 
 ## Skipped (kill criterion)
 
