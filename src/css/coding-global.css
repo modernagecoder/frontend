@@ -977,3 +977,4 @@
 .cg-root.cg-sdf  { --cg-accent: #1E6735; --cg-accent-soft: rgba(30,103,53,.10); }   /* Sandyford: a tram-line green from the widened solver search, apart from the Dun Laoghaire-Rathdown blue and the Leixlip and Carlow greens */
 .cg-root.cg-ddr  { --cg-accent: #151B47; --cg-accent-soft: rgba(21,27,71,.10); }   /* Dundrum: a storm-sky navy from the widened solver search, the most distant colour left and apart from the Sandyford green and the DLR blue */
 .cg-root.cg-bcg  { --cg-accent: #622718; --cg-accent-soft: rgba(98,39,24,.10); }   /* Ballincollig: a gunpowder-mill brick red from the widened solver search, apart from the Cork city plum and the other district accents */
+.cg-root.cg-dgc  { --cg-accent: #173445; --cg-accent-soft: rgba(23,52,69,.10); }   /* Douglas: a deep harbour blue from the widened solver search, apart from the Cork city plum, the Ballincollig brick and the Bray slate */

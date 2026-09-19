@@ -15228,5 +15228,59 @@
       "The Ballincollig electoral division population, Colaiste Choilm and the city footfall counters: the Cork city page owns them; the 2019 boundary change belongs to the County Cork page.",
       "Any population figure for Ballincollig and any aggregation of census small areas: owner rule for district pages."
     ]
+  },
+  "coding-classes-in-douglas-cork": {
+    "market": "Douglas",
+    "bodyClass": "cg-dgc",
+    "pageType": "district",
+    "curriculumAuthority": "Douglas, Cork, named sources only (owner rule for districts), read 20 September 2026. OPW waterlevel.ie station 19160 Currach Club, water level 0001, 5-minute month file: 10,061 readings 2026-08-15 06:00 to 2026-09-19 06:15, 23 missing slots on a 5-minute grid of 10,084; min -0.052, max 4.316, mean 2.100 m. Our arithmetic (dist/tide.js): autocorrelation peak between 10 and 14 hours at 148 steps (12.33 h), 12.35 h by parabolic interpolation, r 0.992; correlation at 6.21 h -0.979, at 24 h 0.920, at 24.84 h 0.979; 67 high waters (local maxima within 2 hours either side), mean spacing 12.40 h, minimum 11.42, maximum 13.58; heights 2.824 (2026-08-21 23:25) to 4.316 (2026-08-26 16:30); autocorrelation of heights peaks at 28 high waters (about 14.5 days, r 0.71). Daily 09:00 readings: 35 values, 0.60 (2026-09-09) to 3.86 (2026-09-02) m; correlation by lag in days peaks at 15 (0.94); alias of a 12.4206-hour rhythm sampled every 24 hours: 14.77 days. Station 51.9016 N 8.4438 W; Douglas Library 51.8741 N 8.4374 W; haversine 3.09 km. OPW disclaimer: \"Data is provisional, unchecked, and has not been validated to remove invalid or improbable values.\"; CC-BY with reference to waterlevel.ie. Cork City Council library dataset: \"Douglas Library\", \"Douglas Community Centre\", Eircode printed \"T12C840\", Monday to Wednesday \"Closed\", Thursday 2.30 pm to 7.30 pm, Friday 10.00 am to 1.00 pm, Saturday 10.00 am to 4.00 pm (source uses dashes between the times). Cork City Council, Douglas Flood Relief Scheme (including Togher Culvert): works \"in the townlands of Ardarrig, Ballybrack, Castletreasure, Douglas and Togher\", \"granted planning permission by An Bord Pleanála in November 2017\"; Douglas works \"in five distinct geographical areas as follows: St. Patricks Mills, Douglas Community Park, Ravensdale, Ballybrack Woods, and upstream of Donnybrook Commercial Centre\"; \"substantial completion was granted in early March 2021\". floodinfo.ie Douglas scheme: \"the Douglas area was badly affected by flooding in June 2012\"; measures \"along the Tramore River/Ballybrack stream\". Regina Mundi College: \"Regina Mundi College, Endsleigh, Douglas Road, Cork T12 HN93\", registered charity.",
+    "localProject": "Sampling rate and aliasing. From 35 days of 5-minute OPW water levels at Currach Club, the learner finds the tidal period by autocorrelation (12.35 hours) and by spacing of the 67 high waters (12.40 hours), then keeps only the 09:00 reading of each day: those 35 values rise and fall between 0.60 and 3.86 metres over about 15 days, matching the 14.77-day alias of a 12.42-hour rhythm sampled every 24 hours. High-water heights also vary (2.824 to 4.316 m) on about a 14.5-day rhythm, so the daily series mixes timing drift with a real change and cannot separate them. Lessons: sample at least twice per cycle, and in practice far more; say what a slow series cannot see. New family for the cluster: sampling rate and aliasing.",
+    "requiredMentions": [
+      "10,061",
+      "12.35",
+      "12.40",
+      "4.316",
+      "2.824",
+      "3.86",
+      "14.77",
+      "3.09",
+      "48 minutes",
+      "14.5 days",
+      "T12 C840",
+      "T12 HN93"
+    ],
+    "sources": [
+      {
+        "claim": "OPW waterlevel.ie, station 19160 Currach Club, water level, 5-minute readings (month file).",
+        "url": "https://waterlevel.ie/0000019160/0001/"
+      },
+      {
+        "claim": "OPW waterlevel.ie disclaimer: \"Data is provisional, unchecked, and has not been validated to remove invalid or improbable values.\"; reuse under CC-BY with reference to waterlevel.ie.",
+        "url": "https://waterlevel.ie/"
+      },
+      {
+        "claim": "Cork City Council library dataset: Douglas Library, Douglas Community Centre, T12 C840 (printed without the space), closed Monday to Wednesday, Thursday 2.30pm to 7.30pm, Friday 10am to 1pm, Saturday 10am to 4pm.",
+        "url": "https://data.corkcity.ie/dataset/98f4a10c-7a31-49e2-bcd4-961bbbfa62d5/resource/db14a7fc-b9c8-4a24-b3f7-7987070dbb5e/download/library.csv"
+      },
+      {
+        "claim": "Cork City Council, Douglas Flood Relief Scheme (including Togher Culvert): An Bord Pleanála permission November 2017; Douglas works in five areas (St Patrick's Mills, Douglas Community Park, Ravensdale, Ballybrack Woods, upstream of Donnybrook Commercial Centre); substantial completion early March 2021.",
+        "url": "https://www.corkcity.ie/en/council-services/services/roads-and-traffic-management/sustainable-transport-schemes/projects-completed/douglas-flood-relief-scheme-including-togher-culvert/"
+      },
+      {
+        "claim": "floodinfo.ie, Douglas Flood Relief Scheme: the Douglas area \"was badly affected by flooding in June 2012\"; measures along the Tramore River and Ballybrack stream.",
+        "url": "https://www.floodinfo.ie/frs/en/douglas/home/"
+      },
+      {
+        "claim": "Regina Mundi College: Endsleigh, Douglas Road, Cork, T12 HN93; registered charity.",
+        "url": "https://www.reginamundicork.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any flood-risk statement or claim about the flood scheme's performance: the page teaches sampling with provisional readings.",
+      "Naming the tidal cycles (spring and neap) or giving astronomical causes: not sourced here; the page reports only what the readings show.",
+      "Douglas Community School: its site could not be reached on 20 September 2026, so no details are printed.",
+      "Christ King Girls Secondary School on the South Douglas Road: the Cork city page owns it; the 2019 boundary transfer belongs to the County Cork page.",
+      "Any population figure for Douglas and any aggregation of census small areas: owner rule for district pages."
+    ]
   }
 }
