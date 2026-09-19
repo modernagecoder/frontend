@@ -144,6 +144,8 @@ Each page below is written for its own place, exam or competition, with its own 
 
 **Cities:** [London](/best-coding-class-in-london)
 
+**London boroughs:** [Harrow](/coding-classes-in-harrow-london)
+
 ## From a rule with an edge to a program that respects it
 
 The free lesson places a learner by watching real work. The nation decides the vocabulary; the ladder underneath is the same.

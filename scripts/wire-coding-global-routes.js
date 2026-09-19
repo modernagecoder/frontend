@@ -366,6 +366,7 @@ const MARKETS = [
   // United Kingdom cluster (scripts/nl)
   ['coding-classes-in-united-kingdom', 'United Kingdom'],
   ['best-coding-class-in-london', 'London, England'],
+  ['coding-classes-in-harrow-london', 'Harrow, London'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

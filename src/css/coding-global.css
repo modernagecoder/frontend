@@ -1001,3 +1001,4 @@
 /* United Kingdom cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints, separated only from the pages each one links to. */
 .cg-root.cg-ukh  { --cg-accent: #2263A0; --cg-accent-soft: rgba(34,99,160,.10); }   /* UK hub: a deep ink blue from the solver (5.07:1 on every paper tint), clear of every Irish accent and of the Birmingham and Leicester pages it links to */
 .cg-root.cg-ldn  { --cg-accent: #A52B1D; --cg-accent-soft: rgba(165,43,29,.10); }   /* London: a deep signal red from the solver (5.75:1 on every paper tint), clear of the UK hub blue and of every Irish accent */
+.cg-root.cg-hrw  { --cg-accent: #961C9C; --cg-accent-soft: rgba(150,28,156,.10); }   /* Harrow: a deep violet from the solver (5.79:1 on every paper tint), far from the London red, the UK hub blue and the UK best-page green */

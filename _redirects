@@ -3092,4 +3092,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /best-online-coding-classes-uk /src/pages/best-online-coding-classes-uk.html 200
 /best-online-coding-classes-uk.md /src/pages/best-online-coding-classes-uk.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-harrow-london /src/pages/coding-classes-in-harrow-london.html 200
+/coding-classes-in-harrow-london.md /src/pages/coding-classes-in-harrow-london.md 200
 /* /src/pages/404.html 404

@@ -16408,5 +16408,67 @@
       "Census ethnicity or country of birth for London: excluded as a standout; used only to order the build.",
       "Anything the AI London page owns: cycle hire data, the AI Opportunities Action Plan, AI hiring figures, London clock time."
     ]
+  },
+  "coding-classes-in-harrow-london": {
+    "market": "Harrow",
+    "bodyClass": "cg-hrw",
+    "pageType": "governorate",
+    "curriculumAuthority": "Harrow. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000015): 261,203 usual residents. Harrow Council, Harrow library branches: \"There are six libraries in Harrow\": Greenhill library, Perceval Square, College Road, Harrow, HA1 1GX; Kenton library, 141 Kenton Lane, Harrow, HA3 8UJ; Pinner library, 78 Marsh Road, Pinner, HA5 5NQ; Roxeth library, Northolt Road, South Harrow, HA2 8EQ; Stanmore library, 8 Stanmore Hill, Stanmore, HA7 3BQ; Wealdstone library, The Wealdstone centre, 38/40 High Street, Wealdstone, HA3 7AE. Harrow Council, public computers: \"The first two hours: free of charge\"; \"valid for sessions of no more than 60 minutes\"; \"restricted to no more than two sessions in one day\"; \"Wi-Fi is provided free of charge in our libraries\" with library membership. Harrow Council, Headstone Manor: \"The museum was opened in 1986. After major renovations, the site reopened in 2017.\" Harrow School, John Lyon's Foundation: \"John Lyon, a land-owning farmer from the village of Preston in the London Borough of Brent\"; \"In 1572, John Lyon was granted a Royal Charter by Queen Elizabeth I to endow a parish school in Harrow on the Hill as a free grammar school for 30 local boys\"; the Harrow Family of Schools includes John Lyon School. TfL Unified API StopPoint 940GZZLUHOH, 20 September 2026: modes bus, national-rail, tube; lines Metropolitan, Chiltern Railways and 21 bus routes (114, 140, 182, 183, 223, 258, 340, 395, 483, 640, H9, H10, H11, H14, H17, H18, H19, N18, N140, SL9, SL10). ONS postal geography: \"Postcodes are alphanumeric references comprising an outward code of 2-4 characters and an inward code of three characters\"; 124 postcode areas, 3,118 districts, 12,463 sectors, approximately 1.79 million live postcodes; \"Postcode boundaries mostly do not align with other geographic boundaries.\"",
+    "localProject": "A format check is not a fact check. Three questions per input: shape (pattern from the ONS description, after trimming and upper-casing), existence (postcodes.io, serving ONS Postcode Directory data) and place (local authority returned). Run of 19 September 2026 on 16 inputs: the six Harrow library postcodes (all Harrow, wards Greenhill, Kenton East, Pinner South, Roxeth, Stanmore, Wealdstone South), three tidying cases (ha5 5nq, HA55NQ, spaced HA2 8EQ), HA1 1GXX and HAI 1GX (fail shape), HA3 0ZZ and HA99 9ZZ (shape ok, do not exist), HA1 9ZZ (looks invented, exists, Marlborough ward), HA0 4AA (Brent, Wembley Central), HA8 7AA (Barnet, Edgware). Totals 14 shape, 12 exist, 10 Harrow. AI angle: an assistant's regex answers shape only. Lesson family: input validation, shape versus existence versus meaning; checked free on 20 September 2026 against every dossier (input validation, sanitising: 0) and distinct from regex parsing (Roermond, Howth), lost leading zeros (As Suwaiq), name versus identifier (Longford, Friesland) and a moved boundary (Mahdah).",
+    "requiredMentions": [
+      "261,203",
+      "Perceval Square",
+      "Kenton Lane",
+      "Marsh Road",
+      "Stanmore Hill",
+      "Wealdstone centre",
+      "John Lyon",
+      "30 local boys",
+      "postcodes.io",
+      "HA99 9ZZ",
+      "1.79 million",
+      "12,463"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Harrow E09000015: 261,203 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?date=latest&geography=E09000015&c2021_restype_3=0&measures=20100"
+      },
+      {
+        "claim": "Harrow Council: \"There are six libraries in Harrow\", with the six addresses and postcodes.",
+        "url": "https://www.harrow.gov.uk/libraries/harrow-library-branches"
+      },
+      {
+        "claim": "Harrow Council: public computers, first two hours free, sessions of no more than 60 minutes, no more than two a day; free Wi-Fi for members.",
+        "url": "https://www.harrow.gov.uk/libraries/public-computers-harrow-libraries"
+      },
+      {
+        "claim": "Harrow Council: \"The museum was opened in 1986. After major renovations, the site reopened in 2017.\"",
+        "url": "https://www.harrow.gov.uk/health-leisure/headstone-manor"
+      },
+      {
+        "claim": "Harrow School: John Lyon, a farmer from Preston, granted a Royal Charter by Queen Elizabeth I in 1572 for a free grammar school for 30 local boys; the Harrow Family of Schools includes John Lyon School.",
+        "url": "https://www.harrowschool.org.uk/further-information/about-the-foundation-and-family"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint 940GZZLUHOH (Harrow-on-the-Hill), 20 September 2026: Metropolitan, Chiltern Railways and 21 bus routes including SL9, SL10, N18 and N140.",
+        "url": "https://api.tfl.gov.uk/StopPoint/940GZZLUHOH"
+      },
+      {
+        "claim": "ONS postal geography: outward code 2-4 characters and inward code three; 124 areas, 3,118 districts, 12,463 sectors, about 1.79 million live postcodes; postcode boundaries mostly do not align with other boundaries.",
+        "url": "https://www.ons.gov.uk/methodology/geography/ukgeographies/postalgeography"
+      },
+      {
+        "claim": "postcodes.io (ONS Postcode Directory data), bulk lookup of 19 September 2026: results as tabled on the page.",
+        "url": "https://api.postcodes.io/"
+      }
+    ],
+    "rejectedClaims": [
+      "Headstone Manor's building date (around 1310), moat and tithe barn details: found in search summaries only; the museum's buildings page returned 404 and Harrow Council's page gives only the museum dates.",
+      "Neighbouring boroughs by shared boundary: not read at a primary source; only the two test postcodes in Brent and Barnet are stated.",
+      "Individual Harrow state schools: not read at their own sites for this build, so none is named.",
+      "Library computer charges after two hours and printing charges: priced in pounds, not printed on a USD-only page.",
+      "Census ethnicity or country of birth for Harrow: never a standout; used only to order the build."
+    ]
   }
 }
