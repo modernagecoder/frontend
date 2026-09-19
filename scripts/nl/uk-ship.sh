@@ -27,7 +27,9 @@ grep -E '^(ok|FAIL|WARN)|ERROR|warn  .*[0-9]%' "$C" | cut -c1-230 | head -12
 grep -q "rendered audit clean" "$C" && grep -q "ok    uniqueness: ok" "$C" && grep -q "verify: PASS" "$C" || { echo "GATE FAIL $SL"; exit 1; }
 R=$(PYTHONIOENCODING=utf-8 python scripts/nl/render-check.py "$SL")
 BEST=$(echo "$R" | grep -o '"best" in visible text: [0-9]*' | grep -o '[0-9]*$')
-[ -n "$BEST" ] && [ "$BEST" -le 1 ] || { echo "GATE FAIL $SL: 'best' appears $BEST times in visible text (only the capsule question may use it)"; exit 1; }
+# "Best" doors use the phrase as their topic (spec section 5); every other page keeps it to the capsule question.
+case "$SL" in best-online-*|best-coding-classes-for-*|best-python-*) BESTMAX=12;; *) BESTMAX=1;; esac
+[ -n "$BEST" ] && [ "$BEST" -le "$BESTMAX" ] || { echo "GATE FAIL $SL: 'best' appears $BEST times in visible text (limit $BESTMAX for this page type)"; exit 1; }
 echo "$R" | grep -q "RESULT PASS" || { echo "$R" | grep -E "BAD|MISS|RESULT"; echo "GATE FAIL $SL: render-check"; exit 1; }
 
 # The hub lists every built UK page, so rebuild it and re-gate it.
