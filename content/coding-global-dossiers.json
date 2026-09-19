@@ -16132,5 +16132,47 @@
       "Shortest paths and graph search: Diemen and Rathfarnham own those; this page compares sets only.",
       "Any population figure for Terenure and any census small-area aggregation: owner rule for district pages."
     ]
+  },
+  "coding-classes-in-bishopstown-cork": {
+    "market": "Bishopstown",
+    "bodyClass": "cg-bsh",
+    "pageType": "district",
+    "curriculumAuthority": "Bishopstown, named sources only (owner rule for districts), read 20 September 2026. Cork City Council open data, \"Library\" (data.corkcity.ie dataset 98f4a10c..., CSV library.csv, metadata_modified 2025-05-30): columns OBJECTID, Administrative_Authority, Name, Address1, Address2, Town, Eircode, Services_Available, Contact_Phone, Contact_Email, Website, Opening_Hours_Monday to Opening_Hours_Saturday (no Sunday column), Latitude, Longitude; 10 branches. Bishopstown row: \"Bishopstown Library, Sarsfield Road, Wilton, Cork, T12RR84\"; Services_Available \"Internet, Wifi, Public Access PCs, Photocopying, Printing, Digital Scanning Facilities, PC with voice recognition software and some PCs have large keyboards and trackball mice.\"; Monday \"10.00 a.m. - 5.30 p.m\"; Wednesday \"10.00 a.m. - 5.30 p.m, 10.30 a.m. on the first Wednesday of each month\"; Thursday \"10.00 a.m. - 5.30 p.m.,with later closing at 8:00 p.m. on Thursdays (September to June)\". Our arithmetic (bsh/hours.py): 50 open day-entries in 11 format shapes; regular weekly hours 45.0 (Cork City Library and Bishopstown), 40.0 x3, 37.5, 32.5 x3, 14.0; mean 35.9; Bishopstown 47.5 in weeks with the later Thursday, 44.5 in a first week of the month without it. Cork City Libraries, Bishopstown Library page: \"Address: Bishopstown Library, Wilton, Cork T12 RR84\"; \"Staffed Hours : Monday to Saturday 10.00 am - 5.30 pm\"; \"My Open Library Access is available to registered My Open Library members Monday to Sunday 8.00 am - 10.00 pm\" (98 hours a week); \"Public Transport: Bus routes 208, 214 and 219\"; \"Bishopstown Library is closed on Public Holidays and Bank Holiday Weekends Registered My Open Library users can continue to visit Bishopstown Library on Public Holidays and Bank Holiday Weekends\"; facilities \"My Open Library ... Wheelchair Accessible Charging stations Hublets Loop System Toilet Facilities Self-service kiosks Community Rooms Wi-Fi and Public Internet ... 3D Printer\". Bishopstown Community School site: \"Westgate Road, Bishopstown, Cork\"; menu sections \"Deaf Facility\", \"ISL\", \"Adult Education\".",
+    "localProject": "Opening hours are data written as text. From Cork City Council's library file, the learner parses each weekday field with one pattern that accepts the 11 formats found, sums split sessions, converts to decimal hours and routes anything unparsed into a notes list, which catches Bishopstown's first-Wednesday late opening and September-to-June Thursday late closing. Answers: 45 regular hours, 47.5 in term-time weeks, 44.5 in a summer first week, 98 self-service hours for registered members per the library page; no Sunday column means Sunday is unknown, not closed. Lessons: parse what you can, keep what you cannot; define the question (staffed or self-service); name the source of each number when official sources differ. New family site-wide: PARSING NUMBERS OUT OF FREE TEXT WITH EXCEPTIONS (opening hours parsing had no prior hits; Roermond owns patterns matching letters not meaning, Al Qabil spelling variants, Waterford invisible characters).",
+    "requiredMentions": [
+      "45 hours",
+      "98 hours",
+      "47.5",
+      "44.5",
+      "11 different formats",
+      "T12 RR84",
+      "208, 214 and 219",
+      "8.00 am to 10.00 pm",
+      "September to June",
+      "first Wednesday",
+      "Westgate Road",
+      "3D printer"
+    ],
+    "sources": [
+      {
+        "claim": "Cork City Council, Library open data: ten branches with addresses, services and weekday opening hours as text; no Sunday field.",
+        "url": "https://data.corkcity.ie/dataset/98f4a10c-7a31-49e2-bcd4-961bbbfa62d5/resource/db14a7fc-b9c8-4a24-b3f7-7987070dbb5e/download/library.csv"
+      },
+      {
+        "claim": "Cork City Libraries, Bishopstown Library: T12 RR84; staffed hours; My Open Library 8.00 am to 10.00 pm daily for registered members; bus routes 208, 214 and 219; facilities; holiday closures.",
+        "url": "https://www.corkcitylibraries.ie/en/locations/bishopstown-library/"
+      },
+      {
+        "claim": "Bishopstown Community School: Westgate Road, Bishopstown, Cork; Deaf Facility, Irish Sign Language and adult education sections.",
+        "url": "http://www.bishopstowncs.ie"
+      }
+    ],
+    "rejectedClaims": [
+      "MTU Bishopstown campus facts: the Cork city page owns them.",
+      "Naming the branch with the fewest regular hours: not needed, and the owner rule avoids naming the bottom of a ranking.",
+      "Bishopstown GAA: its website did not load, so nothing from it is used.",
+      "Cork City Council neighbourhood profile tables: census-derived; owner rule for district pages.",
+      "Any population figure for Bishopstown."
+    ]
   }
 }

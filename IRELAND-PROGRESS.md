@@ -163,7 +163,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 128 | coding-classes-in-finglas-dublin (fgl, #453017) | district | 2,989 | 1.6% vs coding-classes-in-clondalkin-dublin | masking and hour-of-day baselines for spikes (EPA-46 Finglas PM2.5) | no causes; 2025 too sparse; Luas proposed | a0005b3f |
 | 129 | coding-classes-in-ballymun-dublin (bmn, #365659) | district | 2,863 | 0.9% vs best-coding-class-in-castlebar | percentile profiles: compare places by background (L95) and peaks (L10), not one average (DCC sound 2015) | no noise sources; CSO crime/welfare excluded | 54a3aa27 |
 | 130 | coding-classes-in-crumlin-dublin (crm, #3E1E31) | district | 2,942 | 0.9% vs coding-classes-in-stillorgan-dublin | circular statistics: averaging clock times that cross midnight (NTA Dublin Bus GTFS) | exclude single-trip routes first; Inchicore station not used | f153de74 |
-| 131 | coding-classes-in-terenure-dublin (trn, #1C165A) | district | 2,890 | 1.1% vs coding-classes-in-stillorgan-dublin | Jaccard set similarity and the matching rule: identifier vs name vs distance (NTA Dublin Bus GTFS) | state the matching rule; main pattern only | (this commit) |
+| 131 | coding-classes-in-terenure-dublin (trn, #1C165A) | district | 2,890 | 1.1% vs coding-classes-in-stillorgan-dublin | Jaccard set similarity and the matching rule: identifier vs name vs distance (NTA Dublin Bus GTFS) | state the matching rule; main pattern only | 980538dc |
+| 132 | coding-classes-in-bishopstown-cork (bsh, #5A3B2B) | district | 2,841 | 1.5% vs coding-classes-in-rathmines-dublin | parsing numbers out of free text, keeping exceptions; define open (Cork City library hours) | no lowest-branch naming; MTU owned by Cork page | (this commit) |
 
 ## Skipped (kill criterion)
 
