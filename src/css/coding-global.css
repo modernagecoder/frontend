@@ -991,3 +991,4 @@
 .cg-root.cg-ctf  { --cg-accent: #12492A; --cg-accent-soft: rgba(18,73,42,.10); }   /* Clontarf: a saltmarsh green for Bull Island from the widened solver search, clear of the Clare and Roscommon greens */
 .cg-root.cg-hth  { --cg-accent: #2F3922; --cg-accent-soft: rgba(47,57,34,.10); }   /* Howth: a dark heather green for the head, from the widened solver search, clear of the Navan and Carlow olives */
 .cg-root.cg-fgl  { --cg-accent: #453017; --cg-accent-soft: rgba(69,48,23,.10); }   /* Finglas: a smoke brown from the widened solver search, clear of the Castleknock and Castletroy browns */
+.cg-root.cg-bmn  { --cg-accent: #365659; --cg-accent-soft: rgba(54,86,89,.10); }   /* Ballymun: a slate teal from the widened solver search, clear of the Carlow and Cavan blue-greens */

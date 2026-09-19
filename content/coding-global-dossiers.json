@@ -15986,5 +15986,59 @@
       "Any statement that Luas Finglas is built or under construction: the project site calls it proposed.",
       "Any population figure for Finglas and any census small-area aggregation: owner rule for district pages."
     ]
+  },
+  "coding-classes-in-ballymun-dublin": {
+    "market": "Ballymun",
+    "bodyClass": "cg-bmn",
+    "pageType": "district",
+    "curriculumAuthority": "Ballymun, named sources only (owner rule for districts), read 20 September 2026. Dublin City Council, \"Ambient Sound Monitoring Network DCC\" (data.smartdublin.ie dataset a52fbbe2...; notes: \"The results of the sound level meter are given in Leq, which is the average sound level over the period of measurement. L95 and the L10 data is also provided. This is the sound level exceeded for 95% and 10% of the time respectively.\"), ballymun2015.zip (370 daily files from unit DCC-NOISE-001004, header \"Monitoring unit located at 53.398888N 6.264610W\" in 346 files and \"53.278938N 6.315392W\" in 24) and drumcondra2015.zip; columns \"dd/mm/yyyy hh:mm:ss, A Leq, A L10, A L95, C Leq, C L10, C L95\". Our arithmetic (bmn/sum.js), 2015, readings stamped at the end of each five-minute interval, periods by interval start: Ballymun 104,254 readings (99.2% of 105,132); all readings: energy Leq 63.02, median L10 66.54, median L95 54.65; day 07:00 to 19:00: 64.57, 67.82, 57.22; night 23:00 to 07:00: 57.98, 62.66, 46.65. Drumcondra: all 55.83, 60.07, 47.04; day 57.70, 62.13, 48.79; night 50.50, 50.17, 44.88. Night differences Ballymun minus Drumcondra: energy Leq 7.48, L10 12.49, L95 1.77. Hourly median L10 minus median L95: Ballymun 16.2 at 02:00, 16.3 at 01:00, 03:00 and 04:00, 10.0 to 10.5 from 09:00 to 16:00; Drumcondra 3.4 at 02:00, 12.3 to 13.2 midday, 15.4 at 18:00. No reading at either site has L95 above Leq or L10 below L95. DCC Ballymun Library: \"Ballymun Road Dublin 11 Co. Dublin D11 DCR7\", \"Locate 53.390431, -6.265039\", Monday to Thursday 10:00 to 20:00, \"wheelchair accessible, and an induction loop system for use with hearing aids is available\". DCC Poppintree Park: facilities \"Amphitheatre ... Feature Pond GAA Pitch Playground Rugby Pitch Soccer Pitch\"; \"Poppintree Park Native Tree Trail in English or Irish\". Axis Ballymun: \"Axis Ballymun Main Street, Ballymun, Dublin 9, D09 Y9W0\"; \"Axis Opening Hours: Monday - Friday 8am - 8pm\"; spaces \"Theatre Dance Studio Gallery Art Room Recording Studio Music Rehearsal Rooms Conference Centre\". The Rediscovery Centre: \"The National Centre for the Circular Economy The Boiler House, Ballymun Road, Dublin 9 D09 HK58\"; \"Our programs are focused on training, reconditioning, and upcycling furniture, bicycles, paint and clothing.\"",
+    "localProject": "Louder how? From Dublin City Council's 2015 five-minute sound readings at Ballymun (104,254) and Drumcondra, the learner compares the places by three summaries. At night the energy average puts Ballymun 7.48 decibels louder, the background (median L95) only 1.77, the peaks (median L10) 12.49. Hour by hour, the peak-to-background gap at Ballymun is widest in the small hours (about 16 at 2 am) and narrowest at midday (about 10), the mirror of Drumcondra (3.4 at 2 am). Checks: the background never exceeds the peaks or the average. Lessons: one number summarises, several describe; compare distributions part by part; a gap between percentiles measures steadiness. New family site-wide: PERCENTILE PROFILES / COMPARING DISTRIBUTIONS PART BY PART (box plot, interquartile, five-number, L10, L95 had no prior hits; Drumcondra owns energy averaging, Portmarnock the misleading mean of two groups).",
+    "requiredMentions": [
+      "104,254",
+      "63.02",
+      "54.65",
+      "66.54",
+      "46.65",
+      "44.88",
+      "62.66",
+      "50.17",
+      "12.49",
+      "D11 DCR7",
+      "D09 Y9W0",
+      "D09 HK58"
+    ],
+    "sources": [
+      {
+        "claim": "Dublin City Council, Ambient Sound Monitoring Network: Ballymun 2015 five-minute Leq, L10 and L95 readings; dataset note defining L10 and L95.",
+        "url": "https://data.smartdublin.ie/dataset/a52fbbe2-1bff-4897-84af-34945f6fc8de/resource/0db54d6b-7ecc-492f-a9d9-cdd883d59e11/download/ballymun2015.zip"
+      },
+      {
+        "claim": "Dublin City Council, Ambient Sound Monitoring Network: Drumcondra 2015 readings for comparison.",
+        "url": "https://data.smartdublin.ie/dataset/a52fbbe2-1bff-4897-84af-34945f6fc8de/resource/24219dc4-b933-42eb-b1c8-ce25c76d07ed/download/drumcondra2015.zip"
+      },
+      {
+        "claim": "Dublin City Council, Ballymun Library: Ballymun Road, D11 DCR7; opening hours; accessibility.",
+        "url": "https://www.dublincity.ie/libraries/find-library/ballymun-library"
+      },
+      {
+        "claim": "Dublin City Council, Poppintree Park: amphitheatre, feature pond, pitches, native tree trail in English or Irish.",
+        "url": "https://www.dublincity.ie/residential/parks/dublin-city-parks/visit-park/poppintree-park"
+      },
+      {
+        "claim": "Axis Ballymun: Main Street, D09 Y9W0; weekday opening 8am to 8pm; theatre, studios, gallery and conference centre.",
+        "url": "https://axisballymun.ie/"
+      },
+      {
+        "claim": "The Rediscovery Centre: the National Centre for the Circular Economy, The Boiler House, Ballymun Road, D09 HK58; reconditioning furniture, bicycles, paint and clothing.",
+        "url": "https://www.rediscoverycentre.ie/about/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any source of noise at either monitor: the readings record levels, not causes.",
+      "Energy averaging as the lesson: Drumcondra owns it; used here only as one of the three summaries.",
+      "The wrong header position in 24 Ballymun files: noted in the dossier only; Drumcondra owns that side lesson.",
+      "CSO small-area tables on crime and welfare payments for Ballymun: excluded topics under the owner rules.",
+      "Any population figure for Ballymun and any census small-area aggregation: owner rule for district pages."
+    ]
   }
 }
