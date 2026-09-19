@@ -16470,5 +16470,59 @@
       "Library computer charges after two hours and printing charges: priced in pounds, not printed on a USD-only page.",
       "Census ethnicity or country of birth for Harrow: never a standout; used only to order the build."
     ]
+  },
+  "coding-and-ai-classes-in-scotland": {
+    "market": "Scotland",
+    "bodyClass": "cg-sco",
+    "pageType": "city",
+    "curriculumAuthority": "Scotland. Scotland's Census 2022, rounded population estimates (National Records of Scotland): \"On Census Day, 20 March 2022\" the population \"was estimated to be 5,436,600\"; \"The population grew by 141,200 (2.7%) since the previous census in 2011\". Scottish Government, Pupil and teacher characteristics 2025, headline statistics (first published 9 December 2025): 695,923 pupils; 2,435 publicly funded schools; pupil teacher ratio 13.2. Education Scotland, broad general education: \"The broad general education begins in early learning and childcare and continues to the end of S3 (the third year of secondary school).\" Qualifications Scotland (sqa.org.uk): National 5, Higher and Advanced Higher Computing Science course pages; \"On 1 February 2026, Qualifications Scotland replaced SQA and became Scotland's new national awarding body\"; \"The documents on this page remain current\". mygov.scot, Find your local council: 32 councils, listed as Aberdeen City Council, Aberdeenshire Council, Angus Council, Argyll and Bute Council, Clackmannanshire Council, Comhairle nan Eilean Siar, Dumfries and Galloway Council, Dundee City Council, East Ayrshire Council, East Dunbartonshire Council, East Lothian Council, East Renfrewshire Council, Edinburgh Council, Falkirk Council, Fife Council, Glasgow City Council, Highland Council, Inverclyde Council, Midlothian Council, Moray Council, North Ayrshire Council, North Lanarkshire Council, Orkney Islands Council, Perth and Kinross Council, Renfrewshire Council, Scottish Borders Council, Shetland Islands Council, South Ayrshire Council, South Lanarkshire Council, Stirling Council, West Dunbartonshire Council, West Lothian Council. gov.uk List of cities (29 August 2022): Scotland 8, Aberdeen, Dundee, Dunfermline, Edinburgh, Glasgow, Inverness, Perth, Stirling.",
+    "localProject": "Thirty-two councils and a name box: edit distance (Levenshtein, dynamic programming) against the 32 council names as mygov.scot lists them, after lower-casing, ampersand to and, and dropping council. Our run of 20 September 2026: Fyfe, Anguss, Highlands at distance 1 (right); Perth & Kinross and Argyll & Bute at 0 once tidied; Glasgow ties Angus and Glasgow City at 5; Aberdeen ties both Aberdeen councils at 5; Dunbartonshire ties East and West at 5; Shetland goes to Highland (4), Orkney to Moray (4), Borders to Moray (5), Lanarkshire to Renfrewshire (5); Western Isles, Na h-Eileanan Siar and Eilean Siar never reach Comhairle nan Eilean Siar. Fixes: alias list, length-scaled threshold, ask on ties, keep the evidence. Lesson family: fuzzy matching and edit distance; checked free on 20 September 2026 against every dossier (edit distance, Levenshtein, fuzzy, string similarity: 0) and distinct from name versus identifier (Longford, Friesland), joining on a name (Liang) and bilingual placenames with a missing licence (Waterford).",
+    "requiredMentions": [
+      "5,436,600",
+      "141,200",
+      "695,923",
+      "2,435",
+      "20 March 2022",
+      "end of S3",
+      "Comhairle nan Eilean Siar",
+      "Glasgow City Council",
+      "Renfrewshire Council",
+      "East Dunbartonshire Council",
+      "Levenshtein",
+      "edit distance"
+    ],
+    "sources": [
+      {
+        "claim": "Scotland's Census 2022, rounded population estimates: 5,436,600 on Census Day, 20 March 2022; up 141,200 (2.7%) since 2011.",
+        "url": "https://www.scotlandscensus.gov.uk/2022-reports/scotlands-census-2022-rounded-population-estimates/"
+      },
+      {
+        "claim": "Scottish Government, Pupil and teacher characteristics 2025, headline statistics (9 December 2025): 695,923 pupils, 2,435 publicly funded schools, pupil teacher ratio 13.2.",
+        "url": "https://www.gov.scot/publications/pupil-and-teacher-characteristics-2025/pages/headline-statistics/"
+      },
+      {
+        "claim": "Education Scotland: the broad general education begins in early learning and childcare and continues to the end of S3.",
+        "url": "https://education.gov.scot/curriculum-for-excellence/about-curriculum-for-excellence/curriculum-stages/broad-general-education/"
+      },
+      {
+        "claim": "Qualifications Scotland, National 5 Computing Science: replaced SQA on 1 February 2026; course documents remain current.",
+        "url": "https://www.sqa.org.uk/sqa/56923.html"
+      },
+      {
+        "claim": "mygov.scot, Find your local council: the 32 councils as listed, including Comhairle nan Eilean Siar and Edinburgh Council.",
+        "url": "https://www.mygov.scot/find-your-local-council"
+      },
+      {
+        "claim": "gov.uk, List of cities (29 August 2022): eight cities in Scotland.",
+        "url": "https://www.gov.uk/government/publications/list-of-cities/list-of-cities-html"
+      }
+    ],
+    "rejectedClaims": [
+      "The school start cut-off at 1 March: owned by the UK hub, linked rather than repeated.",
+      "Teacher headcount and FTE for 2025: two different figures appeared (52,779 and 53,475) between the release and a search summary; neither is printed.",
+      "National 5 Computing Science marks and assessment structure: the course specification PDF was not read for this build; it belongs to the National 5 page.",
+      "NRS's own form of the Western Isles council area name: not read at NRS for this build; only the mygov.scot form is used.",
+      "The Scottish Index of Multiple Deprivation or any economic measure: excluded as a standout."
+    ]
   }
 }

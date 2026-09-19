@@ -142,6 +142,8 @@ Each page below is written for its own place, exam or competition, with its own 
 
 **Guides:** [Best online coding classes in the UK](/best-online-coding-classes-uk)
 
+**Nations:** [Scotland](/coding-and-ai-classes-in-scotland)
+
 **Cities:** [London](/best-coding-class-in-london)
 
 **London boroughs:** [Harrow](/coding-classes-in-harrow-london)
@@ -173,7 +175,7 @@ An online class reaches all four nations at once, with no journey and no centre 
 - **Your school words kept** Reception and Year 9, P7 and S4, Year 8 and the transfer test: teachers use the stages of the learner's own nation, and all teaching is in English.
 - **A free first lesson** A real task, then a suggested level, course and weekly hour. No card details are asked for.
 - **Groups across borders** Five to ten learners at one level, drawn from all four nations and other countries, so every stage has a group at a workable hour.
-- **Around school holidays** Two lessons a week, around eight a month, with pauses for holidays and exam weeks agreed with the family. Scottish and Northern Irish summer holidays begin earlier than English ones, and the plan allows for that.
+- **Around school holidays** Two lessons a week, around eight a month, with pauses for holidays and exam weeks agreed with the family. Each council publishes its own term dates, and the plan follows the learner's.
 - **Teaching from India** UK time runs five and a half hours behind India time in winter and four and a half in summer. The clocks go back on 25 October 2026 and forward on 28 March 2027, and lesson times are always confirmed in UK time.
 
 **Four nations, one group** A group needs five learners who match on level, subject and hour. Across four school systems that is easier to find than in any single city, which is why groups draw on learners from every part of the UK and beyond.

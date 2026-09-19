@@ -186,7 +186,7 @@ module.exports = {
       { h3: 'Your school words kept', p: 'Reception and Year 9, P7 and S4, Year 8 and the transfer test: teachers use the stages of the learner\'s own nation, and all teaching is in English.' },
       { h3: 'A free first lesson', p: 'A real task, then a suggested level, course and weekly hour. No card details are asked for.' },
       { h3: 'Groups across borders', p: 'Five to ten learners at one level, drawn from all four nations and other countries, so every stage has a group at a workable hour.' },
-      { h3: 'Around school holidays', p: 'Two lessons a week, around eight a month, with pauses for holidays and exam weeks agreed with the family. Scottish and Northern Irish summer holidays begin earlier than English ones, and the plan allows for that.' },
+      { h3: 'Around school holidays', p: 'Two lessons a week, around eight a month, with pauses for holidays and exam weeks agreed with the family. Each council publishes its own term dates, and the plan follows the learner\'s.' },
       { h3: 'Teaching from India', p: 'UK time runs five and a half hours behind India time in winter and four and a half in summer. The clocks go back on 25 October 2026 and forward on 28 March 2027, and lesson times are always confirmed in UK time.' }
     ],
     spec: { title: 'Four nations, one group', p: 'A group needs five learners who match on level, subject and hour. Across four school systems that is easier to find than in any single city, which is why groups draw on learners from every part of the UK and beyond.' }
