@@ -982,3 +982,4 @@
 .cg-root.cg-tlg  { --cg-accent: #9B276B; --cg-accent-soft: rgba(155,39,107,.10); }   /* Tallaght: a deep plum from the widened solver search, apart from the South Dublin purple, the Lucan teal and the run of dark blues on nearby districts */
 .cg-root.cg-cld  { --cg-accent: #1D1E72; --cg-accent-soft: rgba(29,30,114,.10); }   /* Clondalkin: a dusk-sky indigo from the widened solver search, the most distant colour left and apart from the South Dublin purple and the Tallaght plum */
 .cg-root.cg-rfn  { --cg-accent: #5A6827; --cg-accent-soft: rgba(90,104,39,.10); }   /* Rathfarnham: a castle-lawn moss green from the widened solver search, apart from the South Dublin purple and the Waterford and Wicklow olives */
+.cg-root.cg-dlg  { --cg-accent: #833F3F; --cg-accent-soft: rgba(131,63,63,.10); }   /* Dún Laoghaire: a Victorian-railing brick red from the widened solver search, apart from the Dún Laoghaire-Rathdown blue and the Sandyford green */
