@@ -363,6 +363,8 @@ const MARKETS = [
   ['coding-classes-in-bishopstown-cork', 'Bishopstown, Cork, Ireland'],
   ['coding-classes-in-glanmire-cork', 'Glanmire, Cork, Ireland'],
   ['coding-classes-in-knocknacarra-galway', 'Knocknacarra, Galway, Ireland'],
+  // United Kingdom cluster (scripts/nl)
+  ['coding-classes-in-united-kingdom', 'United Kingdom'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

@@ -997,3 +997,6 @@
 .cg-root.cg-bsh  { --cg-accent: #5A3B2B; --cg-accent-soft: rgba(90,59,43,.10); }   /* Bishopstown: a library-shelf brown from the widened solver search, clear of the Athlone and Castletroy browns */
 .cg-root.cg-glm  { --cg-accent: #1F2F7A; --cg-accent-soft: rgba(31,47,122,.10); }   /* Glanmire: a rain-gauge blue from the widened solver search, clear of the Arklow and Donegal blues */
 .cg-root.cg-knc  { --cg-accent: #3F298E; --cg-accent-soft: rgba(63,41,142,.10); }   /* Knocknacarra: an Atlantic violet from the widened solver search, clear of the Tramore blue */
+
+/* United Kingdom cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints, separated only from the pages each one links to. */
+.cg-root.cg-ukh  { --cg-accent: #2263A0; --cg-accent-soft: rgba(34,99,160,.10); }   /* UK hub: a deep ink blue from the solver (5.07:1 on every paper tint), clear of every Irish accent and of the Birmingham and Leicester pages it links to */

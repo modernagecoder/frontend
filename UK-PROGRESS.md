@@ -2,21 +2,21 @@
 
 Spec: `docs/superpowers/specs/2026-09-19-uk-cluster-design.md`
 Method and pipeline: the Ireland cluster (`IRELAND-PROGRESS.md`, `scripts/nl`).
-Status 2026-09-19: PLAN written, awaiting the owner's approval. Nothing built. Owner rule: commit only, the owner pushes once per phase.
+Status 2026-09-19: owner approved the defaults; Phase 0 in progress. Nothing pushed. Owner rule: commit only, the owner pushes once per phase.
 
 Per-page pipeline: research (8+ place facts at primary sources, or skip) -> lesson family checked free site-wide -> collision check (dossier strings) -> `content/uk/<slug>.js` -> build -> check (rendered audit 1280 + 390, uniqueness under 6%, verify) -> link down from hub and parent -> llms.txt entry -> tracker row -> commit (no push).
 
 ## Task 0 (pre-flight and live-page fixes)
 
-- [ ] GB market in the pipeline (`+44`, `GB`, `United Kingdom`, placeholder `7700 900123`, 10 digits, "UK time" prose), `uk_ship.sh`, `scripts/nl/uk-hubs.js`, commit prefix `UK cluster:`
-- [ ] Register every UK slug explicitly in `verify-cluster-pages.js` and `check-cluster-uniqueness.js` (no wildcard)
+- [x] GB market in the pipeline: `content/uk` read by build.js; GB market object with `stripTrunk` (07700 / +44 / 0044 all normalise to 10 digits; Irish output unchanged); build gates for bare BST/IST and any pound sign on GB pages. STILL TO DO: `uk_ship.sh` and `scripts/nl/uk-hubs.js` before the first Phase 1 page. Market: (`+44`, `GB`, `United Kingdom`, placeholder `7700 900123`, 10 digits, "UK time" prose), `uk_ship.sh`, `scripts/nl/uk-hubs.js`, commit prefix `UK cluster:`
+- [x] Register every UK slug explicitly (done per page by `scripts/nl/register.js` at build time, as in Ireland; no wildcard) in `verify-cluster-pages.js` and `check-cluster-uniqueness.js` (no wildcard)
 - [ ] Test lead "TEST DELETE ME UK" (owner confirms in admin, then deletes)
-- [ ] Leicester vs Birmingham uniqueness FAIL (12.6%) fixed
-- [ ] UK hub rebuilt in `cg-` on the same URL, with place, exam and competition link blocks (owner decision 2)
-- [ ] Pound competitor rates removed from the hub and 10 maths pages
-- [ ] "Premium" H2 renamed on `/online-coding-classes-for-kids-uk`
-- [ ] "Max 6 students" corrected to the brand fact on `/ai-ml-course-for-teens` (7 files)
-- [ ] "Oxbridge alumni" confirmed with names or removed
+- [x] Leicester vs Birmingham uniqueness FAIL (12.6%) fixed: 4.5% worst, `746a9c34d`
+- [x] UK hub rebuilt in `cg-` on the same URL (3,991 words, worst overlap 3.6%, verify PASS, static render check PASS; Playwright audit at 1280 + 390 PENDING, deferred while the machine had 0.4 GB free), with place, exam and competition link blocks (owner decision 2)
+- [x] Pound competitor rates removed from the hub, 12 maths pages and the kids UK page (`41902868d`)
+- [x] "Premium" H2 renamed on `/online-coding-classes-for-kids-uk`
+- [x] "Max 6 students" corrected (also /about "5-6" and the Java page) to the brand fact on `/ai-ml-course-for-teens` (7 files)
+- [x] "Oxbridge alumni" removed with the old hub, along with its Oxbridge, CSAT and MAT admissions claims (owner decision 6)
 - [ ] IndexNow ping and re-index requests for every fixed page
 - [ ] Lesson-family bank and UK data licence sheet seeded
 

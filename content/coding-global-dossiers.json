@@ -16279,5 +16279,76 @@
       "Salthill parking and other Galway city facts: the Galway page owns them.",
       "Any population figure for Knocknacarra and any census small-area aggregation: owner rule for district pages."
     ]
+  },
+  "coding-classes-in-united-kingdom": {
+    "market": "United Kingdom",
+    "bodyClass": "cg-ukh",
+    "pageType": "city",
+    "curriculumAuthority": "United Kingdom, four school systems. England: gov.uk \"Summer-born children starting school: advice for parents\" (updated 27 April 2023): children born from 1 April to 31 August are summer-born and do not need to start school until the September after their fifth birthday; \"Children born from 1 September in one year to 31 August the following year are normally educated together in one year group.\" gov.uk school starting age: most children start reception full time in September after their fourth birthday; compulsory school age is 31 December, 31 March or 31 August following the fifth birthday, whichever comes first. Scotland: Education Scotland, Parentzone \"Starting school\": birthdays 1 March to 31 August start in the August the year they turn 5; 1 September to the last day in February start in the August before they turn 5; a child still 4 on the start date can defer by a year. Northern Ireland: Department of Education, school starting age: aged 4 on or between 1 September and 1 July, start at the beginning of the next school year; aged 4 on or between 2 July and 31 August, start in the September following the fifth birthday; deferral under the School Age (Northern Ireland) Act 2022 for children born between 1 April and 1 July. Wales: Carmarthenshire County Council removed its Rising 4s policy from 2025/26, admitting full-time learners in the term following the fourth birthday; example, born 1 September to 31 December 2021, full time from January 2026. Qualifications: sqa.org.uk (Qualifications Scotland) \"On 1 February 2026, Qualifications Scotland replaced SQA and became Scotland's new national awarding body\", N5 Computing Science documents remain current; WJEC GCSE Computer Science (Made for Wales), teaching Sept 2025, outline version 1.4: Unit 1 Understanding Computer Science, digital exam, 50%; Unit 2 Computer Programming, on-screen exam on a pre-released brief, 50%; Python the specified language; CCEA GCSE Digital Technology and GCE Software Systems Development (names only, from CCEA page titles). Places: gov.uk List of cities, 29 August 2022, after the Platinum Jubilee Civic Honours Competition: England 55, Wales 7, Scotland 8, Northern Ireland 6 (76). ONS Towns and cities, characteristics of built-up areas, Census 2021, released 2 August 2023, tables 1c and 1d: Birmingham 1,121,375 (largest BUA in England excluding London), Cardiff 348,535 (largest in Wales); note 3, Greater London follows borough boundaries because its settlements cannot be separately identified. gov.uk clocks: back 25 October 2026 (2am), forward 28 March 2027 (1am).",
+    "localProject": "One child, one birthday, four answers: the published rules for the usual first school year in England (born 1 September to 31 August taught together), Scotland (split at 1 March; last day in February) and Northern Ireland (split between 1 July and 2 July) turned into one function with the nation as an input, then tested on the birthday either side of each cut-off. Worked table for 31 August 2021, 1 September 2021, 28 February 2022, 1 March 2022, 1 July 2022 and 2 July 2022 (England Sept 2025/2026, Scotland Aug 2026/2027, NI Sept 2026/2027), computed by script and checked by hand. Our own first draft of the NI rule was a year out for 2 July to 31 August birthdays (the September following the fifth birthday read as the next calendar year); the page reports it. Second layer, the nation is not always enough: Carmarthenshire ended Rising 4s and admits full time in the term after the fourth birthday. Third, calendar wording: the last day in February is the 29th in a leap year. Lesson family: a rule as data keyed by jurisdiction, with boundary tests; distinct from Kuwait (inclusive-range fencepost counting) and Letterkenny (zero-based indexing), and from every dossier checked on 19 September 2026 for cut-off, school year, birthday, leap year and off-by-one.",
+    "requiredMentions": [
+      "1,121,375",
+      "348,535",
+      "Platinum Jubilee",
+      "Carmarthenshire",
+      "Rising 4s",
+      "School Age (Northern Ireland) Act 2022",
+      "Qualifications Scotland",
+      "Made-for-Wales",
+      "summer-born",
+      "last day in February",
+      "Parentzone",
+      "27 April 2023"
+    ],
+    "sources": [
+      {
+        "claim": "gov.uk, Summer-born children starting school: advice for parents (updated 27 April 2023): \"Children born from 1 April to 31 August - known as summer-born children\"; \"Children born from 1 September in one year to 31 August the following year are normally educated together in one year group.\"",
+        "url": "https://www.gov.uk/government/publications/summer-born-children-school-admission/summer-born-children-starting-school-advice-for-parents"
+      },
+      {
+        "claim": "gov.uk, School starting age: \"Most children start reception full-time in September after their fourth birthday.\" Compulsory school age \"on 31 December, 31 March or 31 August following their fifth birthday - whichever comes first.\"",
+        "url": "https://www.gov.uk/schools-admissions/school-starting-age"
+      },
+      {
+        "claim": "Education Scotland, Parentzone Scotland, Starting school: \"If your child's birthday is on or between 1 March - 31 August, your child will usually start school at the beginning of the Autumn term in the August the year they turn 5.\" \"If your child's birthday is on or between 1 September - last day in February ... in the August before they turn 5.\" Deferral if still 4 on the start date.",
+        "url": "https://education.gov.scot/parentzone/my-child/transitions/starting-school"
+      },
+      {
+        "claim": "Department of Education (NI), School starting age: \"Where a child reaches the age of 4 on or between 1 September and 1 July, the child will usually start school at the beginning of the next school year.\" \"Where a child reaches the age of 4 on or between 2 July and 31 August in the same calendar year, the child will start school in the September following their fifth birthday.\" Deferral \"available on parental request to any child born between 1 April and 1 July\".",
+        "url": "https://www.education-ni.gov.uk/topics/school-starting-age"
+      },
+      {
+        "claim": "Carmarthenshire County Council, Changes to full time education start date: the decision \"to remove the Rising 4s policy and admit full time learners to primary schools in the school term following their fourth birthday\", from 2025/26; example, born 1 September to 31 December 2021, January 2026.",
+        "url": "https://www.carmarthenshire.gov.wales/council-services/education-schools/school-admissions-and-changing-schools/changes-to-full-time-education-start-date/"
+      },
+      {
+        "claim": "Qualifications Scotland, National 5 Computing Science: \"On 1 February 2026, Qualifications Scotland replaced SQA and became Scotland's new national awarding body.\" \"The documents on this page remain current and you can continue to use them.\"",
+        "url": "https://www.sqa.org.uk/sqa/56923.html"
+      },
+      {
+        "claim": "WJEC, GCSE Computer Science (Made for Wales), teaching from September 2025; qualification outline version 1.4: Unit 1 Understanding Computer Science, digital only examination, 50%; Unit 2 Computer Programming, on-screen examination based on a pre-released brief, 50%; \"using Python as the specified language\".",
+        "url": "https://www.wjec.co.uk/qualifications/gcse-computer-science-teaching-from-2025/"
+      },
+      {
+        "claim": "gov.uk, List of cities (29 August 2022), following the Platinum Jubilee Civic Honours Competition: England 55, Wales 7, Scotland 8, Northern Ireland 6.",
+        "url": "https://www.gov.uk/government/publications/list-of-cities/list-of-cities-html"
+      },
+      {
+        "claim": "ONS, Towns and cities, characteristics of built-up areas, England and Wales: Census 2021 (released 2 August 2023), tables 1c and 1d: Birmingham 1,121,375; Cardiff 348,535; note 3 on Greater London following borough boundaries.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing/datasets/townsandcitiescharacteristicsofbuiltupareasenglandandwalescensus2021"
+      },
+      {
+        "claim": "gov.uk, When do the clocks change: back 25 October 2026, forward 28 March 2027; \"forward 1 hour at 1am on the last Sunday in March, and back 1 hour at 2am on the last Sunday in October.\"",
+        "url": "https://www.gov.uk/when-do-the-clocks-change"
+      }
+    ],
+    "rejectedClaims": [
+      "CCEA GCSE Digital Technology Route A and Route B detail: ccea.org.uk refused an automated check (HTTP 403, not circumvented); only the qualification names are used.",
+      "Automatic approval of January and February deferrals in Scotland: found only in search summaries, not on the Parentzone page as read.",
+      "A single Wales-wide start rule: only Carmarthenshire's own policy was read, so no rule is stated for Wales as a whole.",
+      "Shares of the population in each ONS built-up area size class: the class definitions were not found in the workbook notes.",
+      "The old hub's \"Oxbridge alumni\" teaching claim and its Oxbridge, CSAT and MAT admissions preparation: unverified, and admissions work is excluded by owner decision 6.",
+      "Pound figures of any kind, including competitor rates the old hub printed: USD is the only currency on UK pages."
+    ]
   }
 }

@@ -1,789 +1,229 @@
 ---
-title: "Online Coding & AI Classes in the UK | GCSE & A-Level"
-description: "Live 1:1 online coding, Python & AI mentorship for UK students. GCSE Computer Science & A-Level ready, Oxbridge prep. From USD 100/mo. Book a free demo."
+title: "Coding Classes in the UK | Online Coding, Python and AI"
+description: "Live online coding, Python, AI and maths classes for children, teens and adults in England, Scotland, Wales and Northern Ireland. The first lesson is free."
 canonical: https://learn.modernagecoders.com/coding-classes-in-united-kingdom
 source: src/pages/coding-classes-in-united-kingdom.html
 ---
-> Live 1:1 online coding, Python & AI mentorship for UK students. GCSE Computer Science & A-Level ready, Oxbridge prep. From USD 100/mo. Book a free demo.
+> The right class for a UK learner starts from which of the four school systems they are in. England teaches computing through key stages and GCSEs set by several exam boards. In Scotland, National 5, Higher and Advanced Higher now come from Qualifications Scotland, which replaced SQA on 1 February 2026. Wales began teaching a Made-for-Wales GCSE in Computer Science in September 2025, and Northern Ireland sets its own qualifications through CCEA. Even the year a child starts school differs: a child born on 1 March 2022 usually starts in September 2026 in England and in August 2027 in Scotland. Modern Age Coders teaches live online from India, for ages 6 to 67, in groups of five to ten or one to one. The first lesson costs nothing; after that a group place is USD 100 a month and one-to-one teaching USD 150.
 
-### Request a callback
+[Home](/) / United Kingdom
 
-Leave your number, a UK-hours mentor calls you within 3 hours.
+England, Scotland, Wales and Northern Ireland / Live online
 
-#### We'll ring you shortly!
+# Coding classes in the UK
 
-Expect a call within 3 hours, 09:00: 21:00 UK time.
+**What are the best coding classes in the UK?** The right class for a UK learner starts from which of the four school systems they are in. England teaches computing through key stages and GCSEs set by several exam boards. In Scotland, National 5, Higher and Advanced Higher now come from Qualifications Scotland, which replaced SQA on 1 February 2026. Wales began teaching a Made-for-Wales GCSE in Computer Science in September 2025, and Northern Ireland sets its own qualifications through CCEA. Even the year a child starts school differs: a child born on 1 March 2022 usually starts in September 2026 in England and in August 2027 in Scotland. Modern Age Coders teaches live online from India, for ages 6 to 67, in groups of five to ten or one to one. The first lesson costs nothing; after that a group place is USD 100 a month and one-to-one teaching USD 150.
 
-An **Online School** · Serving the United Kingdom · +44 · GMT / BST
+Type "what school year is a child born on 1 March 2022 in" into a search box or an AI assistant and you may well get one confident answer. In the UK there are at least three. England, Scotland and Northern Ireland each publish their own rule for when a child starts school, and the rules cut the year in different places: 1 September in England, 1 March in Scotland, 2 July in Northern Ireland. A child born on the wrong side of one of those days starts school a year earlier or later than a child born the day before. Wales follows the English year, but one Welsh council has just changed the term in which children start full time. This page turns those published rules into a small program, then tries to break it, because the gap between a rule written in English and a rule written in code is where most real software goes wrong.
 
-# Britain learns to build: *with code.*
+Facts last verified 19 September 2026. Teaching is online; no United Kingdom branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
 
-Live 1:1 mentorship in real **Python**, modern web and **agentic AI**, aligned with **KS3–KS5 computing**, **GCSE Computer Science (AQA · OCR · Pearson)**, **A-Level** and the algorithmic depth Oxbridge, Imperial, UCL and the rest of the Russell Group quietly assume. **USD 150 a month**, eight live sessions, two a week, cancel any time.
+## Four courses across four school systems
 
-See what we teach by Key StageThe frontier · featured
+A Year 3 pupil in Leeds, an S3 pupil in Glasgow ready for real Python, a GCSE student in Cardiff, and an adult in Belfast tired of fixing the same spreadsheet by hand. Each one starts with a free lesson.
 
-## Vibe Coding & AI Agents: where coding is actually heading.
+- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Games in Scratch where a rule decides which level a character joins, and the first hunt for the one age where the rule goes wrong.
+- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python read before it is written, for Key Stage 3 and 4 in England and Wales, S1 to S4 in Scotland and Years 8 to 11 in Northern Ireland.
+- [GCSE Computer Science](/courses/gcse-computer-science-course) (GCSE years): The programming and theory GCSE Computer Science asks for, taught to the specification the school has chosen.
+- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Scripts that apply a rule to a sheet of dates or records, with the edge cases tested before anyone relies on the output.
 
-This is the part the National Curriculum hasn't caught up to yet. **Vibe coding**, describe what you want, the AI drafts it, and you read, refine and ship it, together with **AI coding agents** like **Codex** and **Claude Code** is how engineers across British tech, from DeepMind and the London AI scene to every serious startup, actually write software in 2026. We teach the agentic workflow *and* the Python, algorithms and computer-science fundamentals underneath it, so your child **drives the AI instead of being replaced by it**, and walks into GCSE and A-Level Computer Science, the NEA coursework project and a Russell-Group application already fluent in the tools the field now runs on.
+The four we are known for, on every market page:
 
-[Browse all courses](/courses)[New · Ages 8–12  Vibe Coding for Kids Children build real games and apps by describing ideas to AI, then learn the Scratch and Python logic underneath, a confident, modern start well before KS3 computing. Explore the course →](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Trending · Ages 13–18  Vibe Coding for Teens Python, web and AI projects built the modern way, prompt, generate, refine. Teens ship real products while genuinely mastering the concepts behind GCSE and A-Level Computer Science. Explore the course →](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Future · Ages 13–18  AI Coding Agents: Codex & Claude Code Hands-on with the exact agents real engineers use in 2026. Ideal for an ambitious OCR or AQA NEA project, plan, prompt and ship software with an AI pair-programmer, and understand every line. Explore the course →](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)[Pro · University & 18+  AI Agents for Pros & University Master Codex, Claude Code and agentic workflows to multiply your output, the exact edge London, Manchester and Cambridge employers are hiring for right now. Explore the course →](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)More on the frontier:[Vibe Coding for University](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)[Generative AI Masterclass](/courses/complete-generative-ai-masterclass-college)[AI Tools Mastery](/courses/ai-tools-mastery-complete-college)[AI & Machine Learning](/courses/ai-ml-masterclass-teens)[View all courses →](/courses)Pick a course · start this week
+- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
+- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
+- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
+- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
 
-## Seven serious tracks for British learners: primary to professional.
+Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
 
-Click any tile to open the course page. Every track is live, 1:1 (or small-group), and runs on UK time, same mentor every week, no rotation.
+## One country, four ways through school
 
-[01 Most chosen · GCSE & A-Level Coding & AI for Teens (KS3–KS5): GCSE-aware, A-Level-aligned, Oxbridge-ready. Real Python, JavaScript, Git and modern AI engineering on a 12-month arc. Maps to AQA 8525, OCR J277, Pearson 1CP2 at GCSE, and AQA 7517 / OCR H446 at A-Level. We coach BIO, Bebras and the Oxbridge interview pattern.  USD 150/ mo · 1:1 Open course →](/courses/coding/teens)[02 KS1, KS2 · Ages 6, 11 Coding for Children Scratch → real Python by month three. Tiny games, drawing apps, friendly first AI projects. USD 150/ mo→](/courses/coding/kids)[03 New · KS3: KS5 AI & Agentic-AI LLM apps, RAG, tool-using agents, the way DeepMind, Wayve and Synthesia engineers actually work. USD 150/ mo→](/ai-ml-course-for-teens)[04 Oxbridge & Russell Group Oxbridge interview prep Cambridge CSAT, Oxford admissions, Imperial, UCL, Warwick, Edinburgh, algorithmic interview depth. USD 150/ mo→](/courses/coding/college)[05 University · Top-up For University students Algorithms, system design, AI engineering top-ups for CS undergrads at any UK university. USD 150/ mo→](/courses/coding/college)[06 Adults · Career switch For Professionals: retraining into software, data & AI. For UK adults aiming at SWE, data and AI engineer roles. Builds the production-grade portfolio London, Manchester and Cambridge employers actually look at. USD 150/ moOpen course →](/courses/coding/college)[07 For girls · Ages 8: 22 Coding for girls All-female mentor pairing, women-in-tech role models from London and Cambridge. USD 150/ mo→](/courses/coding/girls)[08 Schools & companies For UK Schools / Teams State, independent, prep and grammar schools. Code-club cohorts, after-school programmes, NEA support. USD 100/ seat · group→](/courses/coding/corporate)Parent rating4.9 / 5 · 547 reviewsAligned withAQA · OCR · PearsonMentor hours09:00: 21:00 UK timeCommitmentFree trial · cancel monthlyBy Key Stage · the British way
+The UK does not have one education system. England, Scotland, Wales and Northern Ireland each run their own curriculum, name their own year groups and set or regulate their own exams, so the first question in a free lesson is which system a learner is in.
 
-## What we teach at each stage: and how it joins up with school.
+**Where computing sits in each nation, as the awarding bodies describe it**
 
-Click a Key Stage tab to see exactly what your child learns with us, and how it complements the National Curriculum & exam boards.
+| Nation | School stages | Computing qualifications | Set by |
+|---|---|---|---|
+| England | Reception, then Years 1 to 13 in key stages | GCSE and A level Computer Science | Several exam boards, including AQA, OCR and Pearson Edexcel |
+| Scotland | Primary 1 to 7, then S1 to S6 | National 5, Higher and Advanced Higher Computing Science | Qualifications Scotland, which replaced SQA on 1 February 2026 |
+| Wales | Reception, then Years 1 to 13 under the Curriculum for Wales | Made-for-Wales GCSE Computer Science, taught from September 2025 | WJEC |
+| Northern Ireland | Primary 1 to 7, then Years 8 to 14 | GCSE Digital Technology and GCE Software Systems Development | CCEA |
 
-### KS1 · The first taste of code (Y1–Y2, ages 5–7)
+### England: a board, not a single exam
 
-A gentle, mentor-led start. Sequencing, prediction, debugging: Computing at Schools' "Algorithms" strand for the youngest. Plenty of stories, very little screen time per session.
+A school in England picks one board's GCSE Computer Science, and the papers differ. Our [GCSE Computer Science page](/uk-gcse-computer-science-tutoring) sets the main specifications side by side.
 
-National Curriculum aligned
+### Scotland: a new name, the same course
 
-- **Algorithms & sequencing** through block-coding (ScratchJr, Scratch)
-- **Debugging** as a game, finding the silly bug
-- **Counting & comparing** with code, mapped to KS1 maths
-- **BBC micro:bit** warm-ups for tactile learners
-- **Output:** a tiny animated story by month two
+Qualifications Scotland became the national awarding body on 1 February 2026. Its own course page says the National 5 Computing Science documents remain current, so this year's S4 pupils work to the course last year's did.
 
-### KS2 · Scratch to real Python (Y3–Y6, ages 7–11)
+### Wales: a GCSE in two halves
 
-The bridge year. Students start in Scratch, progress to *real* Python by month three, ship a tiny project a month. We coach Bebras Challenge entries here too.
+WJEC's outline for the Made-for-Wales GCSE gives it two units worth 50 percent each: a digital exam on understanding computer science, and an on-screen programming exam built on a brief released in advance, with Python as the specified language.
 
-National Curriculum + Bebras
+In Northern Ireland, CCEA sets GCSE Digital Technology and a GCE in Software Systems Development. This page names the two qualifications and leaves their detail to CCEA's own specifications. Our classes do not replace any of these courses or their exams. They give a learner more time writing and testing real programs than a school timetable usually allows, at an hour that fits around the school day.
 
-- **Scratch** → games, animations, stories
-- **Real Python** from week 8 onwards (no fake "kid-Python")
-- **Variables · loops · functions · lists**
-- **Bebras Challenge UK** prep across Junior & Intermediate
-- **BBC micro:bit** hardware projects
-- **Output:** a real Python game on GitHub Pages by Y6
+## One child, one birthday, four answers
 
-### KS3 · Real engineering begins (Y7–Y9, ages 11–14)
+Three governments publish the rule for when a child starts school, and the rules disagree. Learners turn them into one function, then try to break it on the days the rules change.
 
-This is where school Computing often plateaus and home mentorship takes over. Students learn Python, JavaScript, HTML/CSS and Git, and ship real, deployed projects.
+### 1. Copy the rules exactly
 
-Sets up GCSE strongly
+England's summer-born advice, last updated on 27 April 2023, says children born from 1 September in one year to 31 August the following year are normally taught together. Scotland's Parentzone guidance splits birthdays at 1 March. Northern Ireland's Department of Education splits them between 1 July and 2 July.
 
-- **Python (deep)**, functions, OOP basics, files, errors
-- **HTML · CSS · JavaScript**, first real websites
-- **Git & GitHub**, version control from day one
-- **First AI projects**, friendly chat tools, intro RAG
-- **Bebras & CyberFirst** challenges coached
-- **Output:** a deployed website or game per term
+### 2. Make the nation an input
 
-### KS4 · GCSE Computer Science ready (Y10–Y11)
+A function that only knows England gives a confident wrong answer to a family in Glasgow or Belfast. The rule becomes data, one small table per nation, instead of a date buried inside an if statement.
 
-Every concept in your child's GCSE specification, covered with a 1:1 mentor, programmable, demonstrable, exam-ready. We track which exam board the school uses and adapt.
+### 3. Test the edges first
 
-AQA 8525 · OCR J277 · Pearson 1CP2
+The birthdays that matter sit either side of a cut-off: 31 August and 1 September, 28 February and 1 March, 1 July and 2 July. One test on each side of each boundary catches most of the mistakes a program can make.
 
-- **Python**, full specification, both paper-1 and paper-2 ready
-- **Algorithms**, linear/binary search, bubble/insertion/merge sort
-- **Data representation**, binary, hex, ASCII, Unicode, images, sound
-- **Computer systems**: CPU, memory, storage, networks, OS
-- **Ethical / legal / environmental**, full theory coverage
-- **Past-paper drills**, every board, every series since 2018
-- **Output:** mock grade improvement of 1.7 grades on average
+**The usual first full-time school year, by date of birth (Reception in England, Primary 1 in Scotland and Northern Ireland)**
 
-### KS5 · A-Level + Oxbridge / Russell Group (Y12–Y13)
+| Date of birth | England | Scotland | Northern Ireland |
+|---|---|---|---|
+| 31 August 2021 | September 2025 | August 2026 | September 2026 |
+| 1 September 2021 | September 2026 | August 2026 | September 2026 |
+| 28 February 2022 | September 2026 | August 2026 | September 2026 |
+| 1 March 2022 | September 2026 | August 2027 | September 2026 |
+| 1 July 2022 | September 2026 | August 2027 | September 2026 |
+| 2 July 2022 | September 2026 | August 2027 | September 2027 |
 
-The full A-Level specification, the NEA project, the British Informatics Olympiad, and the algorithmic depth Oxbridge, Imperial and UCL expect at interview. The deepest track we offer.
+Read across a row and one child starts school in two or three different years. Read down a column and a single day moves a child by a whole year: 31 August against 1 September in England, 28 February against 1 March in Scotland, 1 July against 2 July in Northern Ireland. The table shows the usual pattern, not an obligation. In England, summer-born children, those born from 1 April to 31 August, do not have to start until the September after their fifth birthday. In Scotland, a child who is still 4 on the day they are due to start can have their entry deferred by a year. In Northern Ireland, the School Age (Northern Ireland) Act 2022 lets parents of children born between 1 April and 1 July ask to defer by a year.
 
-AQA 7517 · OCR H446 + Oxbridge prep
+### The bug we made building this table
 
-- **Python & OOP (deep)**, abstract classes, inheritance, polymorphism
-- **Data structures**, stacks, queues, linked lists, trees, graphs, hash tables
-- **Algorithms**: Dijkstra, A*, recursion, DP, complexity analysis
-- **NEA project coaching**, design, build, test, evaluation
-- **British Informatics Olympiad (BIO)** rounds 1 & 2
-- **Oxbridge prep**: Cambridge CSAT, Oxford CS test, interview Q patterns
-- **Output:** A-grade A-Level performance & offers from Russell Group CS courses
+Our own first draft of the Northern Ireland rule was a year out for every child whose fourth birthday falls between 2 July and 31 August. The rule says such a child starts in the September following their fifth birthday, and the draft read that as the September of the following year. A July or August birthday is followed by the September of the same year. One test on 2 July caught it. That is the whole lesson: a rule written in English has to be pinned down before it is written in code, and the pin is a test on the boundary.
 
-Exam-board alignment
+## A Welsh council, a leap year and five habits
 
-## We match the spec your school actually uses.
+Some rules are set below the level of the nation, and some are written in words a program can misread.
 
-Tell us your school's exam board on the trial call. Your child's mentor pulls up the exact specification and aligns the term plan accordingly.
+Carmarthenshire County Council ended its Rising 4s policy from the 2025/26 school year. Children there now start full-time education in the school term following their fourth birthday, rather than the term in which they turn four, and the council's own example is a child born between 1 September and 31 December 2021, who starts full time in January 2026. A program that stores one rule for Wales is already wrong for some Welsh families, so the rule table gains a second key: the nation, then the council wherever a council publishes its own policy.
 
-AQA
+**The last day in February** Scotland's guidance does not say 28 February. It says the last day in February, which is the 29th in a leap year. A program that hard-codes 28 misfiles a child born on 29 February 2020, and it passes every test written by someone who forgot that leap years exist.
 
-### GCSE Computer Science
+**Habits for any rule that changes at a date or a border**
 
-Specification 8525 · Paper 1 + Paper 2
+| Habit | In practice | What it prevents |
+|---|---|---|
+| Quote the rule | Copy the sentence from the official page, with the date the page was updated | A remembered rule that changed last year |
+| Make place an input | Nation first, then the council where a council sets its own policy | One answer applied silently everywhere |
+| Test both sides | The day before and the day of every cut-off | An off-by-one year that looks plausible |
+| Respect the calendar | Leap years, term dates and wording such as the last day of a month | A rule that fails once every four years |
+| Separate usual from required | Keep the normal start apart from deferral and compulsory age | Advice that reads like an obligation |
 
-- Paper 1 (Computational thinking & programming), Python coverage end-to-end
-- Paper 2 (Computing concepts), networks, hardware, data, security, ethics
-- Subject content sections 3.1: 3.7 fully mapped to weekly mentor plan
-- Past papers + AQA mark schemes drilled from week 16 onward
+Modern Age Coders has no connection with any government department, council, awarding body or exam board named on this page, and nothing here suggests one. The school start rules are quoted from the official pages as read on 19 September 2026, and the table is our own reading of them. For a real decision about a child's school place, the council's admissions team is the authority.
 
-OCR
+## Places and exams we already cover
 
-### GCSE Computer Science
+The UK section of this site grows one place and one exam at a time, and each page is written for its own city or course rather than copied from this one.
 
-Specification J277 · 01 + 02
+There is more than one way to count the UK's places. The government's list of cities, published on 29 August 2022 after the Platinum Jubilee Civic Honours Competition, has 76: 55 in England, 8 in Scotland, 7 in Wales and 6 in Northern Ireland. The statistics office counts built-up areas instead of city limits. Outside London the largest at the 2021 Census was Birmingham, with 1,121,375 people, and the largest in Wales was Cardiff, with 348,535. London is the exception in that count: its settlements cannot be told apart, so its figures follow borough boundaries.
 
-- Component 01 (Computer systems): CPU, memory, networks, security
-- Component 02 (Computational thinking, algorithms & programming): Python focus
-- Pseudocode & OCR Exam Reference Language drilled to fluency
-- Past papers + examiner reports walked through
+### Cities and AI
 
-Pearson Edexcel
+[Birmingham](/coding-classes-in-birmingham) and [Leicester](/coding-classes-in-leicester) have their own coding pages, and London has one for [AI and machine learning](/ai-and-machine-learning-classes-in-london). Nationally, [AI and machine learning classes in the UK](/ai-and-machine-learning-classes-in-uk) builds its project on rail data.
 
-### GCSE Computer Science
+### Computing exams
 
-Specification 1CP2 · Paper 1 + Paper 2
+[GCSE Computer Science](/uk-gcse-computer-science-tutoring), [Cambridge IGCSE Computer Science](/cambridge-igcse-computer-science-tuition) and [Cambridge A Level Computer Science](/cambridge-a-level-computer-science-online-classes), each taught to the specification the learner sits.
 
-- Paper 1 (Principles of computer science), full theory coverage
-- Paper 2 (Application of computational thinking): Python via on-screen test
-- Pearson on-screen test environment practised live with the mentor
-- Specimen + past papers from 2022 onwards
+### Maths
 
-AQA
+[KS2](/ks2-maths-tuition-online), [KS3](/ks3-maths-tuition-online), [GCSE](/gcse-maths-tuition-online), [A level](/a-level-maths-tuition-online) and [Further Maths](/further-maths-tuition-online), the [11 plus](/11-plus-maths-tuition), [Common Entrance](/common-entrance-maths-tuition) and the [UKMT challenges](/ukmt-maths-challenge-tutoring).
 
-### A-Level Computer Science
+For younger children there is [online coding for kids in the UK](/online-coding-classes-for-kids-uk). Maths by stage of life has its own pages for [primary children](/online-maths-tuition-for-kids-in-uk), [teenagers](/online-maths-tuition-for-teens-in-uk), [sixth form and university students](/online-maths-tuition-for-college-students-in-uk) and [adults](/online-maths-classes-for-adults-in-uk).
 
-Specification 7517 · Paper 1 + Paper 2 + NEA
+## From a rule with an edge to a program that respects it
 
-- Paper 1 (on-screen), Python skeleton-program approach drilled
-- Paper 2 (written), theory, OOP, networks, databases, big-data
-- NEA (20% of marks), full project coaching from analysis to evaluation
-- BIO + Oxbridge interview problems woven in
+The free lesson places a learner by watching real work. The nation decides the vocabulary; the ladder underneath is the same.
 
-OCR
+- **Ages 6 to 10: Rules inside games** Children build games where a rule decides who plays which level, then look for the one age at which the rule goes wrong. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
+- **Ages 11 to 13: Conditions and tests** Python if statements and comparisons, and the first habit of checking the value on each side of a limit. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
+- **Ages 14 to 18: Exams and published rules** Programming for GCSE, National 5 and CCEA courses, and real published rules turned into tested functions. [GCSE Computer Science](/courses/gcse-computer-science-course), [Python for Teens](/courses/python-complete-masterclass-teens)
+- **Ages 18 to 67: Rules at work** Adults automate the rule-heavy parts of a job, such as eligibility, deadlines and date ranges, and test them before a colleague depends on them. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
 
-### A-Level Computer Science
+## An AI will say which school year a child is in within a second. Why learn to write the rule yourself?
 
-Specification H446 · 01 + 02 + 03/04
+Because the answer depends on a fact the question usually leaves out.
 
-- Component 01 (Computer systems), architecture, OS, networks, types
-- Component 02 (Algorithms & programming), algorithm depth, complexity
-- Component 03/04 (Programming project): NEA full coaching
-- OCR Exam Reference Language fluency built across both years
+Ask an assistant which year a child born on 1 March 2022 starts school and it may well give the English answer, September 2026, without saying that it assumed England. For a family in Edinburgh that answer is a year early. The assistant has not malfunctioned; it filled a gap in the question with the most common case. Noticing that there is a gap, and knowing which fact fills it, is the part that stays with the person asking.
 
-Oxbridge · Russell Group
+A learner who has written the four-nation function carries the habit into every rule-shaped problem: tax years, contract dates, age limits on apps, the closing date of a competition. Each one has an edge, each edge has a day on either side, and each can depend on where you are. An AI can write the function quickly once it is told the rules. Knowing which rules, whose rules and which dates to test is the programmer's share of the work.
 
-### University admissions
+So the case for a UK child learning to code in 2026 is not that machines cannot write code. It is that someone has to know what the code should do, and in a country with four school systems that is rarely one thing. The longer argument is in [why learning to code still pays off in 2026](/blog/is-coding-worth-learning-2026).
 
-CSAT · MAT-style CS · Interview prep
+## From Cornwall to Shetland, one class at one hour
 
-- Cambridge CSAT (Computer Science Admissions Test) drills
-- Oxford computer-science admissions paper: MAT-style problems
-- Imperial & UCL interview question patterns
-- British Informatics Olympiad rounds 1 & 2, coached by veterans
+An online class reaches all four nations at once, with no journey and no centre to find.
 
-Need maths exam prep too? We also run live GCSE, A-Level and 11 Plus maths courses.
+- **At home** A learner in Truro and a learner in Lerwick join the same group from home, and neither travels anywhere.
+- **Your school words kept** Reception and Year 9, P7 and S4, Year 8 and the transfer test: teachers use the stages of the learner's own nation, and all teaching is in English.
+- **A free first lesson** A real task, then a suggested level, course and weekly hour. No card details are asked for.
+- **Groups across borders** Five to ten learners at one level, drawn from all four nations and other countries, so every stage has a group at a workable hour.
+- **Around school holidays** Two lessons a week, around eight a month, with pauses for holidays and exam weeks agreed with the family. Scottish and Northern Irish summer holidays begin earlier than English ones, and the plan allows for that.
+- **Teaching from India** UK time runs five and a half hours behind India time in winter and four and a half in summer. The clocks go back on 25 October 2026 and forward on 28 March 2027, and lesson times are always confirmed in UK time.
 
-[A-Level Maths](/courses/a-level-maths-course-pure-mechanics-statistics)[GCSE Maths](/courses/gcse-mathematics-mastery)[11 Plus Maths](/courses/11-plus-maths-preparation-course-uk)
+**Four nations, one group** A group needs five learners who match on level, subject and hour. Across four school systems that is easier to find than in any single city, which is why groups draw on learners from every part of the UK and beyond.
 
-> My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
+## What classes cost in the UK
 
-SOSonam OswalParent of Dhairya · Verified Google review
+Three prices, stated once.
 
-> "Modern Age Coders make learning coding so simple that kids love it."
+- First class: USD 0. One lesson on a real problem, ending in a placement and a course suggestion.
+- Group tuition: USD 100 a month. A month of lessons, usually eight, with five to ten learners at the same level.
+- Private tuition: USD 150 a month. A month of lessons, usually eight, with one teacher for one learner.
 
-Ria Mukherjee · Parent
+UK families pay in US dollars, the rate used for every country outside India, with no separate price list in pounds and no difference between the four nations. Payment starts only after the free lesson has settled a course and a weekly hour. The pricing page covers pauses, format changes and missed lessons.
 
-> "Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way."
+## UK coding class questions
 
-Sonu Goyal · Parent
+### Do you teach the curriculum of every UK nation?
 
-> "Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement."
+Yes. Teachers work with England's key stages and GCSEs, Scotland's National 5, Higher and Advanced Higher courses, the Curriculum for Wales and its Made-for-Wales GCSEs, and Northern Ireland's CCEA qualifications. The classes support school work and never replace it.
 
-Shradha Saraf · Parent of MivaanThe British coding context
+### When does a child start school in each part of the UK?
 
-## Why now, in the UK, is a very serious time to learn real coding.
+It depends on the nation. A child born on 1 March 2022 usually starts Reception in England in September 2026, Primary 1 in Northern Ireland in September 2026 and Primary 1 in Scotland in August 2027. Summer-born and deferral rules can move the date, and the council's admissions team has the final word.
 
-LondonAI capital
+### Who replaced SQA in Scotland?
 
-Google DeepMind, Cohere, Anthropic UK, Mistral, Wayve, Stability, Synthesia, Octopus Energy AI, PolyAI. The densest LLM-engineering ecosystem in Europe.
+Qualifications Scotland, on 1 February 2026. Its own course page says the existing National 5 Computing Science documents remain current.
 
-CambridgeSilicon Fen
+### What is the Made-for-Wales GCSE in Computer Science?
 
-ARM, Microsoft Research, AstraZeneca AI, Cambridge AI & the Department of Computer Science & Technology. Your child's likeliest first dream.
+A WJEC GCSE taught from September 2025. WJEC's outline gives it two units of 50 percent each, a digital exam and an on-screen programming exam based on a brief released in advance, with Python as the specified language.
 
-EdinburghNorthern hub
+### What is the school start project on this page?
 
-Skyscanner, FanDuel, FreeAgent, plus the Bayes Centre at Edinburgh University. Strong Scottish-curriculum cohort for Higher Computing Science.
+Learners turn three published rules for when children start school into one function, with the nation as an input, then test it on the birthdays either side of each cut-off: 31 August and 1 September, 28 February and 1 March, 1 July and 2 July.
 
-Manchester · LeedsNorth-West
+### What time are lessons for UK learners?
 
-BBC Salford, Co-op AI, big banking-AI presence. Quietly excellent CS departments at Manchester, Leeds, Sheffield and Liverpool.
+The hour is agreed after the free lesson and depends on which groups are running. UK time is five and a half hours behind India time in winter and four and a half in summer, and every time is confirmed in UK time before any payment.
 
-National CurriculumKS1–KS4
+### Do classes fit around GCSEs, Highers and CCEA exams?
 
-Computing is statutory from KS1. But school hours are limited and the jump from "first Python" to a real shipped product still happens at home, usually with a mentor.
+Yes. Families agree pauses for exam weeks and holidays, and the course is chosen around the school year the learner is in, whichever nation that is.
 
-Exam boardsAQA · OCR · Pearson
+### Is there a Modern Age Coders centre in the UK?
 
-Three boards, six syllabuses (GCSE + A-Level), one specification per school. We map your child's mentor plan to the right one in the first lesson.
+No. All teaching is live and online, and no UK premises or office is claimed anywhere. A learner needs a laptop or desktop, working audio and a steady connection, and the phone number on this page is Indian and described as such.
 
-BIO & BebrasOlympiad
+### What do coding classes in the UK cost?
 
-British Informatics Olympiad (Y12+), Bebras Challenge UK (all years). Both are useful for Oxbridge personal statements and we coach for both.
+Nothing for the first lesson. After that, a group place costs USD 100 a month for two live lessons a week, around eight in a month, in a group of five to ten, and one-to-one teaching costs USD 150 a month on the same rhythm. Course, format and weekly hour are settled before any payment.
 
-Russell Group24 universities
+### How many learners are in a group?
 
-Oxbridge, Imperial, UCL, KCL, Edinburgh, Manchester, Bristol, Warwick, Durham, Southampton, Leeds, Sheffield: CS demand outstrips supply at every one.
+Between five and ten, matched by level, pace and goal rather than by age or postcode. If no group at the right level runs at a workable hour, one-to-one lessons are the alternative.
 
-Real shipped student projects
+## Cities, exams and the AI page
 
-## Real apps our students built: live, public, and yours to open.
+For AI and machine learning built from the ground up, see [AI and machine learning classes in the UK](/ai-and-machine-learning-classes-in-uk). The city pages so far are [Birmingham](/coding-classes-in-birmingham) and [Leicester](/coding-classes-in-leicester), and every UK exam page is listed above. For the tests any class, anywhere, should pass, read [eight tests for any coding class](/best-coding-class-in-the-world).
 
-Every project below was built by a Modern Age Coders student and is live on the internet right now. Tap any card to open the real thing. See the full wall at [Student Labs](/student-labs).
+## Contact
 
-Built by Kriti · AI & ML
-
-### HairSync: AI Hairstyle Try-On
-
-Upload a clear photo and try on any hairstyle before you commit, wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds.
-
-Vibe CodingAI ImageVirtual Try-OnLovable[Open the live project ↗](https://hairsync.lovable.app)Built by Aarush · Game
-
-### Palm Arcana: Summon the Elements
-
-Open your palms to the webcam and computer vision turns your gestures into real magic, the left palm throws a fireball, the right crackles with lightning.
-
-Vibe CodingComputer VisionJavaScriptCanvas[Open the live project ↗](https://superpawer.netlify.app)Built by Raayan · Web App
-
-### LumenFX: AR/VR Photo Effects Studio
-
-Upload a photo and transform it with cinematic filters, AR face effects and the wildest trending edits, the same looks blowing up on TikTok, Reels and Snap, with 240+ one-tap presets.
-
-Vibe CodingAR / VRWebGLLovable[Open the live project ↗](https://arvrbadestweb.lovable.app)Built by Rohan · Web App
-
-### Pracy: Coding Practice & Quiz Platform
-
-An all-in-one coding-practice site with interactive challenges, quizzes and score tracking across multiple languages to strengthen logic and problem-solving.
-
-JavaScriptNode.jsMongoDB[Open the live project ↗](https://astounding-flan-f18e08.netlify.app/)Built by Anurag · AI & ML
-
-### HugSelle: AI Smile Generator
-
-A heartwarming AI-powered web app that detects your mood and generates uplifting quotes and visuals to make you smile, a creative blend of technology and positivity.
-
-PythonMachine LearningAI[Open the live project ↗](https://hugselle.modernagecoders.com)Built by Manay · Tool
-
-### Life Span Tracker
-
-An interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.
-
-JavaScriptAPIsDate Calc[Open the live project ↗](https://lifespantracker.netlify.app/)Meet the mentor team
-
-## Working engineers, Oxbridge alumni and patient teachers.
-
-Every student is paired with one mentor for the year. Below is the kind of mentor you can expect. We match on personality, age group and exam board.
-
-AI
-
-### The AI engineer
-
-LLMs · Agents
-
-Ships LLM-powered products at a London or Cambridge AI company. Best fit for teens building real AI apps and adult career-switchers.
-
-OX
-
-### The Oxbridge alum
-
-CSAT · NEA · BIO
-
-Cambridge or Oxford CS graduate. Best for Oxbridge interview prep, BIO coaching, A-Level NEA project supervision and Russell-Group admissions.
-
-FS
-
-### The full-stack builder
-
-Web · Cloud
-
-Python, TypeScript, Next.js, AWS. Best fit for KS3 teens shipping their first deployed sites and adults retraining into UK SWE roles.
-
-KD
-
-### The kids-first mentor
-
-KS1: KS2
-
-Patient, child-development-aware, calm pace. Bridges Scratch to real Python so even Year 3 students leave able to write a working program.
-
-Also at Modern Age Coders
-
-## Maths, taught with the same depth.
-
-The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For UK students that means GCSE and IGCSE by board and tier, IB for international schools, and gaps repaired at the root. Premium 1-on-1 mentorship is a flat USD 150 a month and small-group plans are USD 100 a month, billed in USD, 8 classes a month, and every student starts with a free demo class.
-
-[GCSE Maths](/gcse-maths-tuition-online)[IGCSE Maths](/igcse-maths-tuition-online)[IB Maths (AA & AI)](/ib-maths-tuition-online)[Catch-Up Program](/math-catch-up-program)[Singapore Method](/singapore-math-method-tutoring)[The 2026 Guide](/best-online-math-tutoring-2026)
-
-UK evening slots · 4.9 across 547 Google reviews · no registration fee
-
-Plain pricing · cancel monthly
-
-## Two plans, one schedule, no fine print.
-
-USD 150 a month for 1:1 mentorship. USD 100 a month for a small-group cohort. No registration fee, no annual contract, pause for half-term or exam leave whenever you need.
-
-What's includedSmall-group cohort1:1 Private mentorNotesMonthly costUSD 100/ moUSD 150/ moBilled in USD ($100 / $150)Live sessions per month8 sessions8 sessions2 per week, same slotsSame mentor every week~ Same cohort✓ YesSwitch any timeCustom curriculum & pace: Shared✓ Fully customMapped to exam boardExam-board paper drills✓ Group drills✓ PersonalisedAQA · OCR · PearsonA-Level NEA project coaching: No✓ Yes, full project1:1 mentor requiredOxbridge interview prep: No✓ Cambridge + Oxford1:1 mentor requiredClass recordings + parent report✓ Monthly✓ WeeklyEmail or WhatsAppCancel / pause✓ Monthly✓ MonthlyNo fee, no contractFree trial lesson✓ Yes✓ Yes30 minutes, no cardHow we compare
-
-## Side-by-side with what most British families already tried.
-
-Honest comparison. State-school after-school clubs, Tutorful / MyTutor private tutors, free YouTube, big online schools. They all have a place.
-
-What mattersModern Age CodersSchool / Code ClubTutorful · MyTutorYouTube · free toolsSame mentor weekly, all year✓ Yes: No~ Sometimes: NoReal Python, real Git, real deploy✓ Week 1~ Sometimes~ Depends~ Self-drivenModern AI & agentic-AI engineering✓ Built in, No, Rare~ TutorialsExam-board specific (AQA / OCR / Pearson)✓ Mapped✓ Mapped~ Tutor-dependent: NoOxbridge / Russell-Group prep✓ Yes: No~ Rare: NoMonthly costUSD 150 (1:1) / USD 100 (group)FreeCharged by the hourFreeCancel / pause✓ Monthly✓ Term-based✓ Hourly✓ FreeWhere British families learn with us
-
-## Coding classes online: locally aware, exam-board aware.
-
-Six closer looks at the cities most of our UK families come from. Your city is supported even if it isn't listed.
-
-### London
-
-Greater London · 32 boroughs
-
-Our biggest UK cohort. Independent (Westminster, St Paul's, Highgate, City of London School), grammar (Tiffin, QE Boys, Wilson's), state (Camden School, Latymer, Mossbourne) and international (Southbank, ACS, Halcyon) families all served. Most popular slots: 17:00 and 18:30 UK time on weekdays, Saturday mornings for Year 7–9.
-
-GCSE: AQA + OCR + PearsonMost-picked: KS4 + KS5Hot slot: 18:30 GMT
-
-### Manchester & Leeds
-
-North-West · North-East
-
-Strong KS4 GCSE demand: Manchester Grammar, Bolton School, Bradford Grammar, Leeds Grammar. Co-op AI on the doorstep. Adult learners often work towards London or remote SWE roles.
-
-GCSE: AQA + OCRSlot: 17:30 GMT
-
-### Birmingham
-
-West Midlands
-
-King Edward's foundation schools heavily represented. Adult learners often retraining into Birmingham fintech / HSBC roles. We map to AQA primarily here.
-
-GCSE: AQASlot: 18:00 GMT
-
-### Edinburgh & Glasgow
-
-Scotland · Scottish curriculum
-
-Different curriculum: Scottish National 5 → Higher → Advanced Higher Computing Science. We adapt and have mentors specifically for it. Strong appetite for Edinburgh University CS prep.
-
-Scottish systemSlot: 17:00 GMT
-
-### Cambridge & Oxford
-
-Silicon Fen · Thames Valley
-
-About 35% of our Cambridge / Oxford cohort are sixth-formers aiming at the local universities themselves. Hills Road, Long Road, Magdalen College School. Oxbridge interview prep is the dominant request.
-
-A-Level + OxbridgeSlot: 18:00 GMT
-
-### Bristol
-
-South-West
-
-Bristol Grammar, Clifton College, Redmaids' High, plus a strong startup-AI scene. Family-paced learners; weekend mornings popular for KS2 cohorts.
-
-GCSE: Pearson + OCRSlot: Sat 10:00 GMT
-
-### Liverpool · Newcastle · Sheffield · Nottingham
-
-Other regional hubs
-
-Smaller cohorts but tightly served, same mentors, same exam-board mapping, full Russell-Group university prep if needed.
-
-All boardsSlot: flexible
-
-### Belfast · Cardiff
-
-Northern Ireland · Wales
-
-CCEA (NI) and WJEC / Eduqas (Wales) syllabuses are supported, mentors familiar with both. Smaller cohort means slot flexibility is excellent here.
-
-CCEA · WJEC · EduqasSlot: flexibleFree trial · 30 minutes · Zoom · UK time
-
-## Meet a mentor before you decide anything.
-
-A real 30-minute live lesson on your child's UK slot. We tailor a learning plan to where they are today and which exam board their school uses. No card, no commitment, no sales pressure.
-
-[Email us](mailto:hello@modernagecoders.com?subject=UK%20trial%20enquiry)FAQ
-
-## Everything British parents and learners ask on their first call.
-
-Is this aligned with GCSE Computer Science (AQA, OCR, Pearson)?
-
-Yes. Our KS4 track is aligned with AQA 8525, OCR J277 and Pearson Edexcel 1CP2, the Python programming, computational thinking, algorithms, data representation, computer systems, networks, and ethical / legal / environmental components. Past papers, mark schemes and examiner reports are drilled from week 16.
-
-Can it prepare my child for A-Level Computer Science?
-
-Yes. Our KS5 track covers the full AQA 7517 and OCR H446 specifications: Python, OOP, data structures, algorithms, complexity, computer systems, networks, databases and the NEA project. We've coached A* and A-grade outcomes across both boards.
-
-Can you prepare my child for Oxbridge or Russell-Group interviews?
-
-Yes. Our Oxbridge track covers Cambridge CSAT, Oxford computer-science admissions, the algorithmic depth Imperial, UCL, Edinburgh, Warwick, Manchester, Bristol and Durham expect, and BIO Round 1 & 2 problems. Mentors include Oxbridge CS graduates.
-
-What about the Scottish curriculum (Higher / Advanced Higher Computing Science)?
-
-Fully supported. We have mentors specifically familiar with SQA National 5, Higher and Advanced Higher Computing Science. The mapping to our Python track is excellent.
-
-Northern Ireland (CCEA) and Wales (WJEC / Eduqas)?
-
-Yes. Both supported. Tell us your school's exam board on the trial call; your child's mentor adapts the term plan to match.
-
-How much does it cost?
-
-Private 1:1 mentorship is **USD 150 per month**: 8 sessions, 2 per week. Small-group cohort is **USD 100 per month** on the same schedule. Billing is in USD via Stripe; your bank handles any GBP conversion on its side.
-
-What time of day are classes?
-
-Mentors work UK time (GMT in winter, BST in summer). Slots cover 09:00, 21:00, after-school, evening or weekend morning. Most KS3/KS4 families pick 17:00 or 18:30. A-Level families lean later (19:30). Year 3–6 families like Saturday morning.
-
-Will my child learn real AI, or just "use ChatGPT"?
-
-Real AI engineering. Students build LLM-powered applications end-to-end, prompting, structured output, retrieval-augmented generation, tool-calling, multi-step agents, evaluations and deployment. The same patterns engineers ship at DeepMind, Wayve, Cohere, Anthropic, Synthesia, Stability and Mistral's UK teams.
-
-How is AI safety handled for younger children?
-
-Under-13s never operate LLM APIs against the open internet without a mentor present. We use age-appropriate models, guardrailed prompts, content filters and a "sandbox-only" rule for the youngest learners. Parents see exactly what tools are introduced each month and can opt out of any.
-
-Are mentors used to British independent / state / grammar schools?
-
-Yes. We've taught students from Westminster, St Paul's, Eton, Winchester, Highgate, City of London, Manchester Grammar, Cheltenham Ladies', Wycombe Abbey, Tiffin, QE Boys, Wilson's, Hills Road, Long Road, Camden School, Mossbourne and many more. Mentors adapt vocabulary to what your child already hears at school.
-
-What is the cancellation and refund policy?
-
-The first trial is always free. After that, you can cancel or pause any time before the next billing cycle. If a month has just renewed and you'd like to stop, contact us within 7 days and we'll refund the unused portion, we'd rather you came back later than feel locked in.
-
-Do classes pause for half-term, Christmas, Easter and exam leave?
-
-You decide. Most UK families pause during half-term and the GCSE / A-Level study-leave weeks; some use them for an exam-prep sprint instead. Pause any month with one message to your mentor, no fee, no awkward conversation.
-
-What devices and tools do you teach with?
-
-VS Code, the terminal, Git and GitHub, Python 3, Node, modern browsers and a deploy target (Vercel, GitHub Pages, Hugging Face Spaces). For AI work: OpenAI, Anthropic and Google AI SDKs, plus Chroma / Pinecone for retrieval and LangGraph for agents.
-
-Inside your first month
-
-## Week by week: what actually happens for a British family.
-
-A typical first month for a Year-9 student starting from zero. Pacing adapts up or down for younger or older learners.
-
-Week 01
-
-### Trial & first contact
-
-Free 30-minute trial lesson on Zoom. Mentor candidate meets your child, gets a feel for prior Code Club / Scratch / school-Computing exposure, screen-time tolerance and any GCSE / A-Level pressure. Calendar invites for the next two UK slots.
-
-**Output:** a personalised termly planWeek 02
-
-### Foundations & computational thinking
-
-First two real sessions. Sequencing, decomposition, debugging, the joy of "the bug is mine to fix." Older students start in Python in VS Code; under-9s start in Scratch. Always real, no drag-and-drop blocks past age 9.
-
-**Output:** a tiny program, your child's ownWeek 03
-
-### Python on a real laptop
-
-VS Code installed, Python 3 running, terminal no longer scary. First original program, not from a tutorial, with input/output, variables, loops. Pushed to your child's first personal GitHub repository.
-
-**Output:** first GitHub commitWeek 04
-
-### The first deploy
-
-End-of-month checkpoint: a small project chosen by the student, a Premier-League stats lookup, an A-Level past-paper quiz, a London-weather widget, shipped to GitHub Pages or Vercel. You receive a written progress note from the mentor.
-
-**Output:** a live URL you can shareWhat families say
-
-## What families say about Modern Age Coders.
-
-We teach live and online, so students from the United Kingdom learn in the same small batches as our community. These are real, verified reviews.
-
-KBKrishnam BhatterFormer student · Verified Google review
-
-I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The most impressive part was working on real-world projects.
-
-PRPoonam RathoreParent · Verified Google review
-
-My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
-
-SMSamridho MondalStudent · Verified Google review
-
-Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease.
-
-SSShewta SinghMother of Ishan · Verified Google review
-
-My son struggled with maths for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended.
-
-Honest commitments
-
-## What we'll always do: and what we'll never do.
-
-British understatement. We'd rather lose your business than mis-sell our school.
-
-### What we always do
-
-- Keep the same mentor with your child for the year
-- Send a weekly progress note in plain English
-- Ship real Python by Week 12, not later
-- Map weekly plans to your child's GCSE / A-Level board
-- Let you pause for half-term, exam leave or any month, no fee
-- Be honest if a child isn't yet ready for a track
-- Refund unused months if you cancel within 7 days of renewal
-
-### What we never do
-
-- Lock you into an annual contract
-- Rotate mentors mid-term to balance our staffing
-- Sell "kids-Python" toys past Month 1
-- Pretend "drag-and-drop blocks" is real coding past Year 5
-- Let under-13s use AI APIs unsupervised on the open internet
-- Run high-pressure sales calls or fake "limited slots" tricks
-- Sell a course that doesn't fit just to win the month
-
-Inside a typical class
-
-## A live 45-minute lesson, minute by minute.
-
-The honest version. This is what one 1:1 session looks like for a Year-10 student in their third month with us.
-
-00:00: 02:00
-
-#### Hello + warm-up
-
-Two minutes of "how was the week", the human bit. The mentor scrolls back the chat history, cameras come on for both. Settles the student.
-
-02:00: 08:00
-
-#### Recap and tiny quiz
-
-A 6-minute recall test of last lesson's idea. Not for marks, for the brain. The mentor watches for the lightbulb moments and the cobwebs.
-
-08:00: 18:00
-
-#### New concept + live coding
-
-Ten minutes of new material. Live-shared VS Code via Zoom. Mentor types two lines, student types the next two. Wrong moves are welcomed. Errors are read aloud.
-
-18:00: 35:00
-
-#### Project work · the heart of the class
-
-The student leads. The mentor coaches. This is where most of the actual learning happens, pushing a feature, fixing a bug, refactoring a function. The mentor types nothing; only asks.
-
-35:00: 42:00
-
-#### Code review & reflection
-
-Five minutes to look back at what was written. What's good? What could be cleaner? The student names one thing they're proud of. This bit matters more than it sounds.
-
-42:00: 45:00
-
-#### Next steps + goodbye
-
-Mentor writes a 4-line note to the parent: what was covered, how the student felt, optional homework, plan for next class. Cameras off. Done.
-
-British schools we've supported
-
-## A real cross-section of UK schools we've taught students from.
-
-We're not affiliated with any of these schools. We simply mentor the students who attend them. We know each school's GCSE / A-Level board, project culture and entrance-test rhythm.
-
-Westminster SchoolLondon
-
-Independent boys' school. Demanding Computing department. Many of our students from here aim at Cambridge or Imperial CS.
-
-St Paul's SchoolLondon
-
-Independent boys' school. Strong CS culture and a steady flow of Oxbridge offers each cycle. We help with NEA project depth.
-
-Hills Road Sixth FormCambridge
-
-The most Cambridge-CS-feeding sixth form in the country. We coach CSAT prep and interview pattern problems extensively.
-
-Manchester Grammar SchoolManchester
-
-Independent boys' school with strong North-West CS pipeline. Many of our MGS students aim at Manchester, Warwick or Imperial.
-
-Tiffin / QE Boys / Wilson'sLondon / Sutton
-
-Grammar schools in London / Surrey. Heavy GCSE Computer Science enrolment. We supplement their already-strong CS departments with real shipped projects.
-
-Camden School for GirlsLondon
-
-One of London's strongest state secondary schools. Many of our students from here are women aiming at Russell-Group CS programmes.
-
-Mossbourne / Bridge / LatymerLondon
-
-State and grammar schools with serious CS departments. Excellent fit for our 1:1 mentorship model.
-
-JFK / BIS / Phorms / ISLUK international
-
-International schools in London and beyond. Our English-first delivery sits naturally alongside IB and Cambridge IGCSE programmes.
-
-Common British parent worries
-
-## Seven honest answers to the questions you don't always ask out loud.
-
-These are the questions British parents type into Google at 11 pm before their trial call. We'd rather just answer them in advance.
-
-"My child already gets too much screen time. Won't this add to it?"
-
-It's a fair worry. Our sessions are 45 minutes, twice a week, total 90 minutes, and most of that time the child is creating, not consuming. Mentors enforce screen-off breaks during the session. Many of our British parents tell us their child *chooses* to spend less time on TikTok / YouTube Shorts after a few months.
-
-"Will my child learn fake 'kids Python' rather than real programming?"
-
-No. We start in Scratch only as a bridge, and only for KS1, early KS2. By month three almost every student writes real, runnable Python that imports real libraries, handles real errors and pushes to a real GitHub repo. We deliberately avoid "Python for kids" tools that hide the real language.
-
-"What if my child loses interest? Am I locked in?"
-
-No lock-in. You can cancel any month, no fee, no awkward conversation. If your child loses interest, we'd rather hear about it early and either pause or pivot the project track (game design, music programming, AI art) than have you grit your teeth through a year you paid for.
-
-"Is AI safe for my 9-year-old?"
-
-Under-13s never interact with raw LLM APIs against the open internet without a mentor present. We use age-appropriate models, guardrailed prompts, content filters and a "sandbox-only" rule. The AI tools your child builds are educational and reviewable by you. You see every prompt and every output. We're stricter on this than most.
-
-"My child is shy, won't 1:1 video lessons be too much?"
-
-Many of our most successful students started shy. The first lesson is structured around the code, not the camera. Your child stares at VS Code, not at a stranger's face. Mentors are trained to give long pauses, no pressure. Most shy students are comfortable by lesson three.
-
-"Is this another bootcamp pretending to be a school?"
-
-No. Bootcamps compress 12 weeks of intense, transactional study aiming at a job. We're the opposite: a slow, year-round mentorship that respects how British school terms work. We don't promise jobs after 12 weeks. We promise a real codebase, real GitHub history, real mentor relationship.
-
-"My child does Computing at school already. Why would they need this?"
-
-School Computing is generally excellent at theory and group-paced learning. What's harder in a classroom is depth, individual pace and modern AI engineering, three things that need 1:1 attention. Many of our British students take school Computing AND us, and the two reinforce each other.
-
-"Will the mentor help with the GCSE / A-Level NEA controlled-assessment specifically?"
-
-Yes: NEA project coaching is one of our most-requested deliverables. We help with topic scoping, technical implementation, written report structure, code-quality review and rehearsal of the spoken viva where required. Many of our students cite the mentor in their NEA acknowledgements.
-
-"Can my child sit with their school's exam board even if our preferred mentor uses a different one?"
-
-Yes. We map the mentor plan to your child's school's exam board (AQA / OCR / Pearson / CCEA / WJEC / SQA), not the mentor's preference. The mentor's job is to learn your spec; not the other way round.
-
-"Do you support BTEC Computing alongside GCSE / A-Level?"
-
-Yes. We coach students on Pearson BTEC Level 3 IT and Computing units, particularly the programming and data units. Many of our BTEC students use us to deepen their technical portfolio for university applications.
-
-"Is it OK to start in Year 7 or is that too late?"
-
-Year 7 is perfect. The KS3 track has been designed for absolute beginners at age 11. By Year 9 your child will have a year and a half of real Python under their belt, heading into GCSE Computer Science decisions with confidence. Year 7 is also a low-pressure window, which makes the learning land deeper.
-
-"Can the mentor sit in on parents' evenings or coordinate with the school?"
-
-On request, yes, within reason. We write a one-page summary of your child's progress that you can share with their Computing teacher or Head of Year ahead of a parents' evening. We don't replace the school relationship; we complement it.
-
-"Do you coach for the UK Bebras Challenge and the British Informatics Olympiad?"
-
-Yes. Bebras is coached implicitly via our KS2 / KS3 track. Most of our students do well in their school's Bebras sitting. For BIO (Years 12–13), we have dedicated Oxbridge-alum mentors who coach Round 1 and Round 2 problems intensively.
-
-"Will the mentor work with my child during the GCSE / A-Level exam fortnight itself?"
-
-Yes, many families intensify mentor support during exam-prep windows. We can switch a normal weekly session to a focused past-paper drill, or schedule extra hours by the hour if helpful. There's no contract change; just message the mentor.
-
-"Do you accept payment in pounds via UK direct debit?"
-
-Billing is in USD via Stripe. Your Visa, Mastercard, Amex or Apple Pay card handles the GBP conversion on its side. We don't run UK direct-debit at this time but most British families find the card route simple.
-
-"What if my child wants to focus on game development rather than 'serious' coding?"
-
-Game development *is* serious coding. We have mentors who lean specifically into Pygame, Phaser, Godot and Unity. The Python, JavaScript, system-design and algorithmic skills your child builds while making games transfer one-to-one to Oxbridge applications or a job at any UK game studio.
-
-"Can siblings share a slot?"
-
-Yes. Two siblings can share a 1:1 slot at a small discount, or join the same small-group cohort. Most often we pair siblings only when their levels are close; otherwise each progresses faster in their own slot.
-
-"Is there a discount for booking the full academic year up front?"
-
-We don't usually do upfront-year discounts, we'd rather you renew because the lessons are working, not because you're locked in. If you're paying for a long stretch and want to discuss, just ask the mentor. We're reasonable people.
-
-"Will my child get a certificate at the end?"
-
-Yes. We issue a Modern Age Coders certificate of completion at the end of each curriculum milestone (typically every six months), signed by the mentor, listing the projects shipped and skills demonstrated. It's not a regulated qualification but parents and students alike find it a nice trophy.
-
-"How quickly do you respond if we email between lessons?"
-
-Mentors aim to reply within one UK working day to written questions between classes, faster if there's an exam window approaching. For anything urgent (e.g. a tech setup problem before the next class), WhatsApp tends to be quickest.
-
-"Could the mentor write a reference letter for a UCAS personal statement?"
-
-Yes, for students who have been with us at least six months, mentors are happy to write a short factual reference describing the projects shipped and skills observed. This is often cited in UCAS personal statements (especially for Russell-Group CS applications) as evidence of independent work.
-
-"Can we book a one-off catch-up before the GCSE / A-Level mock?"
-
-Yes, even families not on a monthly plan can book one-off mentor hours before mock exams. Pricing for a one-off is typically a touch higher than the per-session rate inside the monthly plan, but there's no commitment. Just message us.
-
-Last word
-
-## If you've read this far, the next step is one phone call.
-
-No quiz, no pop-up, no sales pressure. Leave a number, a UK-hours mentor rings within three hours, you decide everything from there.
-
-[Browse all courses](/courses)
-
-## Live online coding classes for students in the United Kingdom
-
-Modern Age Coders teaches students worldwide over live video, in small 4–8 batches, with timings that suit your timezone. Explore other regions or book a free demo.
-
-### Coding classes in other countries
-
-- [Coding Classes in Australia](/coding-classes-in-australia)
-- [Coding Classes in Canada](/coding-classes-in-canada)
-- [Coding Classes in Germany](/coding-classes-in-germany)
-- [Coding Classes in Ireland](/coding-classes-in-ireland)
-- [Coding Classes in New Zealand](/coding-classes-in-new-zealand)
-- [Coding Classes in Singapore](/coding-classes-in-singapore)
-- [Coding Classes in Sweden](/coding-classes-in-sweden)
-- [Coding Classes in Switzerland](/coding-classes-in-switzerland)
-- [Coding Classes in the UAE](/coding-classes-in-uae)
-- [Coding Classes in the United States](/coding-classes-in-united-states)
-
-[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)
-
-## Keep exploring Modern Age Coders
-
-### Coding classes in nearby places
-
-- [AI and Machine Learning Classes in Germany](/ai-and-machine-learning-classes-in-germany)
-- [AI and Machine Learning Classes in Ireland](/ai-and-machine-learning-classes-in-ireland)
-- [Coding & Maths Classes near Sukhobrishti](/coding-classes-in-sukhobrishti)
-- [AI and Machine Learning Classes in the Netherlands](/ai-and-machine-learning-classes-in-netherlands)
-- [Online Coding Classes in the Netherlands](/coding-classes-in-netherlands)
-- [AI and Machine Learning Classes in Switzerland](/ai-and-machine-learning-classes-in-switzerland)
-- [Online Coding & AI Classes in Switzerland](/coding-classes-in-switzerland)
-- [AI and Machine Learning Classes in the UK](/ai-and-machine-learning-classes-in-uk)
-- [AI and Machine Learning Classes in Zurich](/ai-and-machine-learning-classes-in-zurich)
-- [Coding Classes in Mahdah](/coding-classes-in-mahdah)
-
-### Learn more
-
-- [Coding for 12 Year Olds: Python, Web Dev, App Building & AI for Class 7](/coding-for-12-year-olds)
-- [Artificial Intelligence Course](/artificial-intelligence-course)
-- [Python for Data Science](/python-for-data-science)
-- [Data Science Course](/data-science-course)
-
-### Free resources
-
-- [AI & Machine Learning Tutorial: Basics to Deep Learning](/resources/ai-and-machine-learning)
-- [Recurrent Neural Networks (RNN) and LSTM](/resources/ai-and-machine-learning/recurrent-neural-networks)
-- [Unsupervised Learning](/resources/ai-and-machine-learning/unsupervised-learning-clustering)
-- [Decision Trees and Random Forests](/resources/ai-and-machine-learning/decision-trees-and-random-forests)
-
-### From the blog
-
-- [AI & Machine Learning Guides](/blog/topic/ai)
-- [Data Science, AI, and Math: Skills Every Tech Professional Must Learn](/blog/data-science-ai-math-skills-professionals)
-- [Best Data Science Courses in India for Students and](/blog/data-science-course-india)
-- [What Type of Data is Generative AI Most Suitable For? A Complete Guide](/blog/what-type-of-data-is-generative-ai-most-suitable-for)
-
-### Start here
-
-- [Real projects built by Modern Age Coders students](/student-labs)
-- [Browse every live course at Modern Age Coders](/courses)
-
-[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
-
----
-
-*Canonical: https://learn.modernagecoders.com/coding-classes-in-united-kingdom*
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-united-kingdom](https://learn.modernagecoders.com/coding-classes-in-united-kingdom#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.

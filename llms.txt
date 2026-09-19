@@ -720,7 +720,7 @@ Live online Class 10 board preparation, taught in small batches: CBSE Artificial
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states
-- United Kingdom: https://learn.modernagecoders.com/coding-classes-in-united-kingdom
+- United Kingdom (coding, Python and AI across the four school systems of England, Scotland, Wales and Northern Ireland): https://learn.modernagecoders.com/coding-classes-in-united-kingdom
 - Australia: https://learn.modernagecoders.com/coding-classes-in-australia
 - Canada: https://learn.modernagecoders.com/coding-classes-in-canada
 - Singapore: https://learn.modernagecoders.com/coding-classes-in-singapore
