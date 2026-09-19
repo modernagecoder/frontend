@@ -15769,5 +15769,56 @@
       "Any claim that Drumcondra breaches a limit: the plan's 50-decibel night line describes desirable levels for mapped areas, and the page only reports which side each average falls.",
       "Any population figure for Drumcondra and any census small-area aggregation: owner rule for district pages."
     ]
+  },
+  "coding-classes-in-glasnevin-dublin": {
+    "market": "Glasnevin",
+    "bodyClass": "cg-gln",
+    "pageType": "district",
+    "curriculumAuthority": "Glasnevin, named sources only (owner rule for districts), read 20 September 2026. Met Eireann daily data, station 1823 (https://clidata.met.ie/cli/climate_data/webdata/dly1823.csv; data.gov.ie \"Dublin (Glasnevin) Climate Data\": \"Daily and monthly climatalogical records for our station at Dublin (Glasnevin)\"): header \"Station Name: DUBLIN (Glasnevin)\", \"Station Height: 18 M\", \"Latitude:53.370 ,Longitude: -6.270\"; columns date, ind, rain, ind, maxt, ind, mint, gmin, soil; key code 4 = \"Not available\" for temperature; rows from 1941 (rain) and temperatures from 01-jan-1961; 1966 to 1988: 8,000 dates appear twice, one row with temperature indicator 4 and blank temperatures, order varying by year; merging the pair field by field finds 0 conflicting values. 2020 rows end on 30-nov-2020. Our arithmetic (gln/rec.js): complete years (>= 350 days with both max and min) 1961 to 2025 = 58, excluding 1963, 1965, 1966, 1969, 1971, 1991, 2020; keep-first 38 complete years, keep-last 42. Harmonic sum H_58 = 4.646; last 20 = 0.418. Annual mean records: 1961 10.06, 1973 10.10, 1975 10.44, 1983 10.45, 1989 10.98, 1995 11.32, 1997 11.52, 2006 11.54, 2022 11.70, 2023 11.80 (10; 3 since 2005); 100,000 seeded shuffles, 570 with >= 10. Hottest day records: 1961 24.6, 1970 25.3, 1975 25.8, 1976 26.8, 1983 28.2, 1990 31.0 (02-aug-1990); 2022 29.8 on 18-jul-2022; shuffle P(>= 6) 0.267. Warmest night records: 1961 17.8, 1977 17.9, 1983 19.4, 2006 19.8. Coldest night records: 1961 -11.0, 1972 -11.5. Annual mean record lows: 1961, 1962 (8.95). OPW Heritage Ireland, National Botanic Gardens: \"just 3 kilometres from Dublin city centre\"; \"home to over 16,000 plant species and cultivars\"; \"Richard Turner's Curvilinear Range and the Great Palm House\"; \"over 300 endangered plant species, 6 of which are already extinct in the wild\"; \"closely associated with their counterpart in Kilmacurragh, County Wicklow, since 1854\"; \"Free admission to Gardens\"; \"Glasnevin Dublin 9 D09 VY63\". Dublin Cemeteries Trust, Glasnevin: \"the final resting place for almost 1.5 million people\"; \"The grounds span 124 acres\"; \"Established ... in 1832\"; \"Glasnevin Cemetery & Crematorium Finglas Road Dublin, D11 XA32\". DCU Eircodes and Postal Addresses: \"DCU Glasnevin Campus D09 V209 The above is the default Eircode for all mail deliveries to the DCU Glasnevin Campus\"; \"DCU Mailroom John & Aileen O'Reilly Library DCU Glasnevin Campus Collins Avenue Extension Dublin 9\".",
+    "localProject": "How many records should chance set? From Met Eireann's daily file for Dublin (Glasnevin), after merging 8,000 duplicated dates field by field (keep-first leaves 38 complete years, keep-last 42, merging 58), the learner counts records in the yearly average (10), hottest day (6, last 31.0 in 1990), warmest night (4) and coldest night (2), compares them with the harmonic sum H_58 = 4.65 (0.42 for the last 20 years) and with 100,000 shuffles (10 or more records in only 570). Lessons: a record count needs an expected count beside it; the expected count is 1/k per year when nothing changes; test a formula by simulation; check that keys are unique before trusting a table. New family site-wide: RECORDS AND THE HARMONIC EXPECTATION (harmonic number, record high, number of records had no prior hits). Dundrum owns return periods, which is a different question.",
+    "requiredMentions": [
+      "11.80",
+      "4.65",
+      "58 complete years",
+      "8,000",
+      "570 times",
+      "31.0",
+      "D09 V209",
+      "D11 XA32",
+      "D09 VY63",
+      "16,000",
+      "124 acres",
+      "Kilmacurragh"
+    ],
+    "sources": [
+      {
+        "claim": "Met Éireann, daily data for station 1823, Dublin (Glasnevin): maximum and minimum temperatures from 1961; station height 18 metres.",
+        "url": "https://clidata.met.ie/cli/climate_data/webdata/dly1823.csv"
+      },
+      {
+        "claim": "Met Éireann key to the daily climate file codes (indicator 4: not available).",
+        "url": "https://www.met.ie/cms/assets/uploads/2018/05/KeyDly_Rain.txt"
+      },
+      {
+        "claim": "OPW Heritage Ireland, National Botanic Gardens: 3 kilometres from the city centre; over 16,000 plant species and cultivars; over 300 endangered species, 6 extinct in the wild; Turner's Curvilinear Range and the Great Palm House; linked with Kilmacurragh since 1854; free admission; D09 VY63.",
+        "url": "https://heritageireland.ie/places-to-visit/national-botanic-gardens/"
+      },
+      {
+        "claim": "Dublin Cemeteries Trust, Glasnevin Cemetery: established 1832; 124 acres; almost 1.5 million people buried; Finglas Road, D11 XA32.",
+        "url": "https://www.dctrust.ie/location/glasnevin.html"
+      },
+      {
+        "claim": "Dublin City University, Eircodes and Postal Addresses: DCU Glasnevin Campus default eircode D09 V209, Collins Avenue Extension.",
+        "url": "https://www.dcu.ie/ocoo/dcu-eircodes-postal-addresses"
+      }
+    ],
+    "rejectedClaims": [
+      "Any cause for the warm records: one station's file cannot establish it.",
+      "Return periods and extreme-value fits: Dundrum owns them.",
+      "Facts from botanicgardens.ie (Cloudflare 403) and the NIAH record for the Met Office building (405 human verification): not circumvented.",
+      "Met Eireann's headquarters address: found only in search summaries, not on met.ie.",
+      "Any euro price from the Heritage Ireland page (guided tours).",
+      "Any population figure for Glasnevin and any census small-area aggregation: owner rule for district pages."
+    ]
   }
 }
