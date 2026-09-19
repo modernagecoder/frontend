@@ -15874,5 +15874,63 @@
       "Treating QC flag 0 as good data: the dataset defines it as unknown.",
       "Any population figure for Clontarf and any census small-area aggregation: owner rule for district pages."
     ]
+  },
+  "coding-classes-in-howth-dublin": {
+    "market": "Howth",
+    "bodyClass": "cg-hth",
+    "pageType": "district",
+    "curriculumAuthority": "Howth, named sources only (owner rule for districts), read 20 September 2026. Fingal County Council open data (data.fingal.ie; ArcGIS items Summit 16c4298158e549908306c90cfd8a1ddb, Balscadden 08242af0aed14a64b768e758016c4334, Baily afd3f5de93fb49a9baed8195f0799009, Red Rock e66766bbf91f45fd92e6adc28a024da3; 2024-2025 items Summit 36fe5ad3fb26465daca5e991da79d974, Balscadden 2596de05117741a0bf35e66b02b18ef7, Baily b1503e1861164764ac4224e6ada73e14, Red Rock 1a9c179775c94d25aeb093b945d828c8 returned \"Up to date download file is being generated\"), CSV columns Year, Month, Total or Footfall, Yearly_Total(s), Lat, Long, (Note), OBJECTID; counter positions Summit 53.370956 -6.054537, Balscadden 53.385513 -6.049716, Baily 53.366883 -6.055968, Red Rock 53.36833 -6.091938. Dataset disclaimer: \"Please Note that figures are estimates of total 'trips' rather than individual visitors. The accuracy of the recorded counts can be affected by a number of factors including distance of pedestrians from counter beam, overgrowth of vegetation or occasional malfunctions such as accidental damage or vandalism.\" Our arithmetic (hth/rep.js), 2019 to 2023: 207 neighbouring-month pairs with a count above 1 on both sides; 13 exact repeats: Baily 2019 January-February 10,685, August-September-October 19,796, November-December 4,964, 2020 May to November 11,600 (seven months); Summit 2021 February-March 2,017; Balscadden 2019 February-March 27,316; Red Rock 2019 May-June 9,799. The other 194 changes: median 3,109, smallest 10, 7 under 100; if a tie were as likely as any change under 100 (7/194 spread over 199 values), 0.038 ties expected in 207 pairs. Baily 2020 total 128,271, of which 81,200 (63.3%) in the repeated run; Baily 2019 57.6%. Summit and Balscadden 2023: July 39,036 both, November 25,316 both, \"December 15/12\" 6,598 both; Balscadden 2023 May and August 49,489 both. Balscadden 2024-2025 file: only January 2024 filled, 24,810 (January 2019 in the earlier file: 24,810). Summit: 2021 June and July 0 with \"No figures due to gorse fires\" in the yearly-totals column; 2022 April \"N/A\", June \"N/a\"; 2023 April to June 0 with \"no data\". Red Rock 2020 April 0, May 1, June 0. Yearly totals equal the sums of months. Irish Rail, Howth station: \"Howth DART Station, Howth, Dublin 13 Eircode D13 N8K7\"; \"Monday to Friday: 05:45 - 00:21\"; \"You can use the sheltered bike parking in Howth station. There are 5 lockers at the moment\"; \"Bike Parking Available - 7\"; \"Platform Access Via gate and ramp from the road\"; \"Car Park Details Operated by Iarnrod Eireann Spaces : 10 Price : Free\". Irish Lights, Baily: \"established, 134 feet (41m) above high water, on 17th March 1814\"; \"Height of Light MHWS: 41 metres Character: Fl W 15s Range: 18 nautical miles\"; \"The Lighthouse Keepers were withdrawn from Baily on 24th March 1997\"; \"Baily was the last Irish Lighthouse to be unwatched\".",
+    "localProject": "Counted or copied? From Fingal County Council's monthly footfall for four Howth walk counters (2019 to 2023), the learner finds 13 exact repeats among 207 neighbouring-month pairs where ordinary changes have a median of 3,109 and a generous tie rate gives 0.04; seven straight months at 11,600 on the Baily path supply 63.3 percent of its 2020 total; two different counters match exactly three times in 2023; Balscadden January 2024 repeats January 2019. Side lessons: zeros that mean no data (gorse fires, \"no data\"), words in number columns, notes in the wrong column, totals with and without doubtful months. Lessons: an exact repeat is a question, not a measurement; measure how small real changes get before judging a tie; report which months were measured. New family site-wide: REPEATED VALUES AS AN ANOMALY SIGNAL (fill-down, copy-forward, repeated value had no prior hits; checked by regex on content/ie and by parsing the global dossiers). Not reconciliation (owned by Birmingham, Kuala Belait and others) and not cross-channel identity (Castletroy).",
+    "requiredMentions": [
+      "207 pairs",
+      "3,109",
+      "11,600",
+      "63.3 percent",
+      "128,271",
+      "39,036",
+      "25,316",
+      "24,810",
+      "D13 N8K7",
+      "17 March 1814",
+      "18 nautical miles",
+      "24 March 1997"
+    ],
+    "sources": [
+      {
+        "claim": "Fingal County Council, Pedestrian Footfall Baily Howth Walk (monthly, 2019 to 2023).",
+        "url": "https://data.fingal.ie/datasets/FingalCoCo::pedestrian-footfall-baily-howth-walk-2019-2020-2022"
+      },
+      {
+        "claim": "Fingal County Council, Pedestrian Footfall Summit Howth Walk (monthly, 2019 to 2023), including the gorse fire and no data notes.",
+        "url": "https://data.fingal.ie/datasets/FingalCoCo::pedestrian-footfall-summit-howth-walk-2019-2020-2022"
+      },
+      {
+        "claim": "Fingal County Council, Pedestrian Footfall Balscadden Howth Walk (monthly, 2019 to 2023) and the dataset disclaimer that figures are estimates of trips.",
+        "url": "https://data.fingal.ie/datasets/FingalCoCo::pedestrian-footfall-balscadden-howth-walk-2019-2020-2022"
+      },
+      {
+        "claim": "Fingal County Council, Pedestrian Footfall Red Rock Howth Walk (monthly, 2019 to 2023).",
+        "url": "https://data.fingal.ie/datasets/FingalCoCo::pedestrian-footfall-red-rock-howth-walk-2019-2020-2022"
+      },
+      {
+        "claim": "Fingal County Council, Pedestrian Footfall Counts Balscadden Howth Walk 2024 to 2025 (January 2024 the only filled month).",
+        "url": "https://data.fingal.ie/datasets/FingalCoCo::pedestrian-footfall-counts-balscadden-howth-walk-2024-2025-fcc"
+      },
+      {
+        "claim": "Irish Rail, Howth station: D13 N8K7; weekday staffing 05:45 to 00:21; 7 bike spaces and 5 lockers; step-free access by gate and ramp; free car park of 10 spaces.",
+        "url": "https://www.irishrail.ie/en-ie/station/howth"
+      },
+      {
+        "claim": "Irish Lights, Baily: established 17 March 1814, 41 metres above high water; Fl W 15s; range 18 nautical miles; keepers withdrawn 24 March 1997; the last Irish lighthouse to be unwatched.",
+        "url": "https://www.irishlights.ie/tourism/our-lighthouses/baily.aspx"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim about how or why the figures repeat, or that anyone made them up: the file cannot say, and the council's own disclaimer calls them estimates.",
+      "Reconciliation of totals as the lesson: owned by Birmingham, Kuala Belait and others; noted only that totals equal the sums of months.",
+      "Cross-channel identity as the lesson: Castletroy owns it; the Summit and Balscadden matches are reported as repeats.",
+      "The Howth tide gauges and residuals: Clontarf owns residuals; Douglas owns aliasing.",
+      "Any population figure for Howth and any census small-area aggregation: owner rule for district pages."
+    ]
   }
 }
