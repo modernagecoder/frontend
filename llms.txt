@@ -826,6 +826,9 @@ Each page maps the grade's real content, worked examples, honest FAQs, and a mar
 - Our Results (evidence, not adjectives; verifiable proof index): https://learn.modernagecoders.com/results
 - Zero-Risk Guarantee: https://learn.modernagecoders.com/guarantee
 - How We Teach (real recorded classes): https://learn.modernagecoders.com/how-we-teach
+- Priority Live Demo (paid, guaranteed demo slot today or tomorrow; the free demo is a waiting list): https://learn.modernagecoders.com/priority-demo
+- Why We Charge for a Priority Demo (mentors teach all day; honest reason for the fee): https://learn.modernagecoders.com/why-we-charge-for-a-priority-demo
+- We Teach You How to Think (the teaching method behind every class): https://learn.modernagecoders.com/we-teach-you-how-to-think
 - Best Age to Start Coding (honest age map): https://learn.modernagecoders.com/best-age-to-start-coding
 - Coding vs Maths (which first, answered honestly): https://learn.modernagecoders.com/coding-vs-maths
 - Free Coding Starter Kit (8-page parent field guide, free download): https://learn.modernagecoders.com/free-coding-starter-kit

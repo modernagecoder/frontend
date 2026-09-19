@@ -710,6 +710,56 @@
   status = 200
 
 [[redirects]]
+  from = "/priority-demo"
+  to = "/src/pages/priority-demo.html"
+  status = 200
+
+[[redirects]]
+  from = "/why-we-charge-for-a-priority-demo"
+  to = "/src/pages/why-we-charge-for-a-priority-demo.html"
+  status = 200
+
+[[redirects]]
+  from = "/free-demo-vs-priority-demo"
+  to = "/src/pages/free-demo-vs-priority-demo.html"
+  status = 200
+
+[[redirects]]
+  from = "/what-happens-in-a-demo-class"
+  to = "/src/pages/what-happens-in-a-demo-class.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-book-a-priority-demo"
+  to = "/src/pages/how-to-book-a-priority-demo.html"
+  status = 200
+
+[[redirects]]
+  from = "/we-teach-you-how-to-think"
+  to = "/src/pages/we-teach-you-how-to-think.html"
+  status = 200
+
+[[redirects]]
+  from = "/think-like-a-software-engineer"
+  to = "/src/pages/think-like-a-software-engineer.html"
+  status = 200
+
+[[redirects]]
+  from = "/why-coding-and-maths-together"
+  to = "/src/pages/why-coding-and-maths-together.html"
+  status = 200
+
+[[redirects]]
+  from = "/small-batches-and-1-on-1-classes"
+  to = "/src/pages/small-batches-and-1-on-1-classes.html"
+  status = 200
+
+[[redirects]]
+  from = "/why-trust-modern-age-coders"
+  to = "/src/pages/why-trust-modern-age-coders.html"
+  status = 200
+
+[[redirects]]
   from = "/free-resources"
   to = "/src/pages/free-resources.html"
   status = 200

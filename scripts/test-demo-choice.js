@@ -128,5 +128,41 @@ const tick = (ms) => new Promise((r) => setTimeout(r, ms));
     assert.ok(/\$10/.test(w2.document.querySelector('.mac-dc-overlay .mac-dc-opt--paid').textContent), '?test=intl shows dollars');
   }
 
+  // 5. Direct booking from a content page (MACDemoChoice.book): straight to the
+  //    payment form, no "request submitted" claim, and dollars outside India
+  //    even though the country picker starts on +91.
+  {
+    const w = makeWindow({ url: 'https://learn.modernagecoders.com/priority-demo', isIndian: false });
+    w.MACDemoChoice.book();
+    const ov = w.document.querySelector('.mac-dc-overlay');
+    const form = ov.querySelector('form.mac-dc-form');
+    assert.ok(form, 'book() opens on the payment form');
+    assert.ok(!ov.querySelector('.mac-dc-eyebrow'), 'no "request submitted" eyebrow without a request');
+    assert.ok(/Pay \$10/.test(form.querySelector('[data-dc-pay]').textContent), 'overseas visitor sees $10 with the default +91 code');
+    form.querySelector('#macDcName').value = 'Liam';
+    form.querySelector('#macDcEmail').value = 'liam@example.com';
+    form.querySelector('#macDcPhone').value = '9876543210';
+    w.Razorpay = function () { this.on = function () {}; this.open = function () {}; };
+    form.dispatchEvent(new w.Event('submit', { bubbles: true, cancelable: true }));
+    await tick(50);
+    const sent = JSON.parse(w.__calls.find((c) => /create-order/.test(String(c.input))).init.body);
+    assert.strictEqual(sent.amount, 10, 'charged in dollars outside India');
+    assert.strictEqual(sent.currency, 'USD');
+    assert.ok(!sent.notes.leadId, 'no lead id in direct mode');
+
+    // In India with an Indian number: rupees. In India with a foreign number: dollars.
+    const wi = makeWindow({ url: 'https://learn.modernagecoders.com/priority-demo', isIndian: true });
+    wi.MACDemoChoice.book();
+    const fi = wi.document.querySelector('.mac-dc-overlay form.mac-dc-form');
+    assert.ok(/Pay ₹499/.test(fi.querySelector('[data-dc-pay]').textContent), 'India sees rupees');
+    const ph = fi.querySelector('#macDcPhone');
+    ph.dataset.countryIso = 'AE'; ph.dataset.countryDial = '+971';
+    ph.dispatchEvent(new wi.Event('countrycodechange', { bubbles: true }));
+    assert.ok(/Pay \$10/.test(fi.querySelector('[data-dc-pay]').textContent), 'foreign number pays dollars');
+
+    // The free link in direct mode has no lead to queue, so it is not recorded.
+    assert.ok(!wi.__calls.find((c) => /demo-choice/.test(String(c.input))), 'nothing recorded in direct mode');
+  }
+
   console.log('demo-choice: all checks pass');
 })().catch((e) => { console.error(e); process.exit(1); });

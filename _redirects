@@ -150,6 +150,16 @@
 /blog /content/blog/generated/index.html 200
 /success-stories /src/pages/success-stories.html 200
 /how-we-teach /src/pages/how-we-teach.html 200
+/priority-demo /src/pages/priority-demo.html 200
+/why-we-charge-for-a-priority-demo /src/pages/why-we-charge-for-a-priority-demo.html 200
+/free-demo-vs-priority-demo /src/pages/free-demo-vs-priority-demo.html 200
+/what-happens-in-a-demo-class /src/pages/what-happens-in-a-demo-class.html 200
+/how-to-book-a-priority-demo /src/pages/how-to-book-a-priority-demo.html 200
+/we-teach-you-how-to-think /src/pages/we-teach-you-how-to-think.html 200
+/think-like-a-software-engineer /src/pages/think-like-a-software-engineer.html 200
+/why-coding-and-maths-together /src/pages/why-coding-and-maths-together.html 200
+/small-batches-and-1-on-1-classes /src/pages/small-batches-and-1-on-1-classes.html 200
+/why-trust-modern-age-coders /src/pages/why-trust-modern-age-coders.html 200
 /free-resources /src/pages/free-resources.html 200
 /summer-coding-camp /src/pages/summer-coding-camp.html 200
 /summer-coding-camp-kids /src/pages/summer-coding-camp-kids.html 200

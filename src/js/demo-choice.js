@@ -159,12 +159,26 @@
         return null;
     }
 
-    function regionIsIndia(phoneIso) {
-        if (phoneIso) return String(phoneIso).toUpperCase() === 'IN';
+    // Where the visitor is, by the same signals course pricing uses.
+    function visitorInIndia() {
         var forced = testRegion();
         if (forced !== null) return forced;
         if (typeof window.__MAC_IS_INDIAN === 'boolean') return window.__MAC_IS_INDIAN;
         return detectIndia();
+    }
+
+    /**
+     * WHO PAYS RUPEES
+     * Only a visitor in India with an Indian number (or no number yet).
+     * Everyone else pays dollars. The phone country alone used to decide,
+     * but the country picker starts on +91, so an overseas visitor who opened
+     * the form directly was shown rupees until they changed the code. Outside
+     * India it must be $10 (owner, 2026-09-19), so the visitor's region now
+     * has to agree before rupees are offered.
+     */
+    function regionIsIndia(phoneIso) {
+        if (!visitorInIndia()) return false;
+        return !phoneIso || String(phoneIso).toUpperCase() === 'IN';
     }
 
     function priceFor(isIndia) { return isIndia ? PRICES.INR : PRICES.USD; }
@@ -479,7 +493,7 @@
     var ICON_TICK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>';
     var ICON_WA = '<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>';
 
-    function chooserHtml(mode, price, paid) {
+    function chooserHtml(mode, price, paid, direct) {
         var paidCard;
         if (paid) {
             paidCard =
@@ -515,7 +529,7 @@
             '<div class="mac-dc-head">' +
                 // The thank-you hero already says "Request received" right above
                 // the inline card, so the eyebrow is for the popup only.
-                (mode === 'modal'
+                (mode === 'modal' && !direct
                     ? '<span class="mac-dc-eyebrow"><span style="display:inline-flex;width:13px;height:13px">' + ICON_TICK + '</span>Your request is submitted</span>'
                     : '') +
                 '<h2 class="mac-dc-title">Want your demo this week? Confirm your slot now.</h2>' +
@@ -533,7 +547,7 @@
                 '</section>' +
             '</div>' +
             '<div class="mac-dc-panel" hidden></div>' +
-            '<p class="mac-dc-foot">Not sure which to pick? Contact <a href="' + waLink('Hi, I just requested a demo on the website and have a question about the free waiting list vs the paid demo.') + '" target="_blank" rel="noopener noreferrer">9123366161</a> directly on WhatsApp for a faster response.</p>'
+            '<p class="mac-dc-foot">Not sure which to pick? Contact <a href="' + waLink('Hi, I just requested a demo on the website and have a question about the free waiting list vs the paid demo.') + '" target="_blank" rel="noopener noreferrer">9123366161</a> directly on WhatsApp for a faster response. <a href="/why-we-charge-for-a-priority-demo" target="_blank" rel="noopener" style="color:#8f3f08">Why is there a paid demo?</a></p>'
         );
     }
 
@@ -632,7 +646,7 @@
         this.root.className = 'mac-dc' + (this.mode === 'inline' ? ' mac-dc--inline' : '');
         this.root.setAttribute('role', this.mode === 'modal' ? 'dialog' : 'region');
         this.root.setAttribute('aria-label', 'Choose how you would like your demo');
-        this.root.innerHTML = chooserHtml(this.mode, price, paid);
+        this.root.innerHTML = chooserHtml(this.mode, price, paid, !!this.rec.direct);
         this.grid = this.root.querySelector('.mac-dc-grid');
         this.panel = this.root.querySelector('.mac-dc-panel');
         if (!this.bound) { this.bind(); this.bound = true; }
@@ -654,7 +668,10 @@
                 return;
             }
             var action = t.getAttribute('data-action');
-            if (action === 'free') self.showQueue();
+            if (action === 'free') {
+                if (self.rec.direct) { window.location.href = '/book-demo'; return; }
+                self.showQueue();
+            }
             else if (action === 'paid') self.showForm();
             else if (action === 'paid-view') self.showSuccess(readPaid());
             else if (action === 'back') self.showOptions();
@@ -1112,7 +1129,17 @@
     window.MACDemoChoice = {
         open: function (rec) { openModal(rec || readSession() || {}); },
         renderInline: function (rec) { renderInline(rec || readSession() || {}); },
+        // Opens straight on the payment form, for "Book priority demo" buttons on
+        // content pages where no form has been submitted. The payment form
+        // collects name, email and phone itself, so nothing else is needed.
+        book: function () {
+            var rec = readSession() || {};
+            if (!rec.lid) rec = { direct: true, page: window.location.pathname, at: Date.now() };
+            openModal(rec);
+            if (activeModal && !(testRegion() === null && readPaid())) activeModal.showForm();
+            track('demo_priority_direct_open', { page: window.location.pathname });
+        },
         prices: PRICES,
-        version: '20260919a'
+        version: '20260919c'
     };
 })();

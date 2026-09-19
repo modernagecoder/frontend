@@ -1,0 +1,97 @@
+/* Priority demo cluster (scripts/build-priority-demo-pages.js).
+   Sits on top of editorial-theme.css and uses its tokens only. */
+
+.pd-page { background: var(--paper); color: var(--ink); font-family: var(--font-body); }
+.pd-wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+.pd-narrow { max-width: 760px; }
+
+/* breadcrumb */
+.pd-crumbs { font-size: 13px; color: var(--muted); padding: 22px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.pd-crumbs a { color: var(--muted); text-decoration: none; }
+.pd-crumbs a:hover { color: var(--amber); }
+
+/* hero */
+.pd-hero { padding: 28px 0 36px; }
+.pd-eyebrow { display: inline-block; font-family: var(--font-mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--amber); background: var(--amber-tint); border: 1px solid var(--amber-tint-2); border-radius: 999px; padding: 6px 12px; }
+.pd-hero h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.08; letter-spacing: -.02em; margin: 16px 0 14px; max-width: 18ch; }
+.pd-hero h1 em { font-style: italic; color: var(--amber); }
+.pd-lede { font-size: clamp(1.05rem, 2vw, 1.22rem); line-height: 1.6; color: var(--ink-soft); max-width: 62ch; margin: 0; }
+.pd-cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; align-items: center; }
+.pd-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 14px 22px; border-radius: 12px; font-weight: 700; font-size: 16px; text-decoration: none; border: 1.5px solid transparent; cursor: pointer; font-family: inherit; line-height: 1.2; transition: transform .15s ease, box-shadow .15s ease; }
+.pd-btn:hover { transform: translateY(-1px); }
+.pd-btn--solid { background: linear-gradient(135deg, #f59e0b, #d97706); color: #fff; box-shadow: 0 12px 24px -12px rgba(217, 119, 6, .7); }
+.pd-btn--ghost { background: var(--surface); color: var(--ink); border-color: var(--line); }
+.pd-btn--ghost:hover { border-color: var(--ink); }
+.pd-cta-note { font-size: 13px; color: var(--muted); }
+
+/* direct answer box */
+.pd-answer { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--amber); border-radius: var(--radius); padding: 20px 22px; margin: 0 0 8px; box-shadow: var(--shadow-sm); }
+.pd-answer strong { display: block; font-family: var(--font-mono); font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--amber); margin-bottom: 8px; }
+.pd-answer p { margin: 0; font-size: 1.05rem; line-height: 1.65; color: var(--ink); }
+
+/* prose */
+.pd-section { padding: 34px 0; border-top: 1px solid var(--line-2); }
+.pd-section:first-of-type { border-top: 0; }
+.pd-section h2 { font-family: var(--font-display); font-weight: 600; font-size: clamp(1.5rem, 3vw, 2.05rem); line-height: 1.18; letter-spacing: -.015em; margin: 0 0 14px; }
+.pd-section h3 { font-size: 1.12rem; font-weight: 700; margin: 22px 0 8px; }
+.pd-section p, .pd-section li { font-size: 1.04rem; line-height: 1.75; color: var(--ink-soft); }
+.pd-section p { margin: 0 0 14px; }
+.pd-section ul, .pd-section ol { margin: 0 0 14px; padding-left: 22px; }
+.pd-section li { margin-bottom: 6px; }
+.pd-section a { color: var(--amber-deep); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.pd-section a:hover { color: var(--amber-bright); }
+.pd-pull { font-family: var(--font-display); font-size: clamp(1.25rem, 2.6vw, 1.6rem); line-height: 1.35; font-style: italic; color: var(--ink); border-left: 3px solid var(--amber); padding: 4px 0 4px 18px; margin: 22px 0; }
+
+/* promise band */
+.pd-promise { background: var(--footer-bg); color: #f3ede2; border-radius: 18px; padding: 30px 28px; margin: 10px 0; }
+.pd-promise h2 { font-family: var(--font-display); font-weight: 600; font-size: clamp(1.4rem, 3vw, 1.9rem); margin: 0 0 16px; color: #fff; }
+.pd-promise ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; }
+.pd-promise li { background: rgba(255, 255, 255, .05); border: 1px solid rgba(255, 255, 255, .1); border-radius: 12px; padding: 14px 16px; font-size: .98rem; line-height: 1.55; color: var(--footer-text); }
+.pd-promise li b { display: block; color: #fff; font-size: 1.02rem; margin-bottom: 4px; }
+
+/* comparison table */
+.pd-table-wrap { overflow-x: auto; margin: 6px 0 16px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.pd-table { width: 100%; border-collapse: collapse; min-width: 520px; font-size: .98rem; }
+.pd-table th, .pd-table td { text-align: left; padding: 13px 16px; border-bottom: 1px solid var(--line-2); vertical-align: top; line-height: 1.5; color: var(--ink-soft); }
+.pd-table thead th { font-family: var(--font-mono); font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); background: var(--paper-2); }
+.pd-table tbody th { font-weight: 700; color: var(--ink); width: 26%; }
+.pd-table td.pd-yes { color: #14653f; font-weight: 600; }
+.pd-table td.pd-no { color: var(--red); }
+.pd-table tr:last-child th, .pd-table tr:last-child td { border-bottom: 0; }
+
+/* steps */
+.pd-steps { list-style: none; counter-reset: pd; margin: 8px 0 14px; padding: 0; display: grid; gap: 12px; }
+.pd-steps li { counter-increment: pd; position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px 16px 62px; margin: 0; }
+.pd-steps li::before { content: counter(pd); position: absolute; left: 16px; top: 16px; width: 32px; height: 32px; border-radius: 50%; background: var(--amber-tint-2); color: var(--amber-deep); font-weight: 800; display: flex; align-items: center; justify-content: center; font-family: var(--font-mono); }
+.pd-steps li b { display: block; color: var(--ink); margin-bottom: 2px; }
+
+/* link cards */
+.pd-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; margin-top: 8px; }
+.pd-card { display: block; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; text-decoration: none !important; color: var(--ink) !important; transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease; }
+.pd-card:hover { transform: translateY(-2px); border-color: var(--amber); box-shadow: var(--shadow-sm); }
+.pd-card small { display: block; font-family: var(--font-mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--amber); margin-bottom: 6px; }
+.pd-card b { display: block; font-size: 1.02rem; line-height: 1.35; margin-bottom: 4px; }
+.pd-card span { display: block; font-size: .9rem; line-height: 1.5; color: var(--muted); }
+.pd-card[aria-current="page"] { border-color: var(--amber); background: var(--amber-tint); }
+
+/* faq */
+.pd-faq details { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 0 18px; margin-bottom: 10px; }
+.pd-faq summary { cursor: pointer; font-weight: 700; font-size: 1.04rem; padding: 16px 0; list-style: none; color: var(--ink); display: flex; justify-content: space-between; gap: 12px; }
+.pd-faq summary::-webkit-details-marker { display: none; }
+.pd-faq summary::after { content: "+"; color: var(--amber); font-size: 1.3rem; line-height: 1; }
+.pd-faq details[open] summary::after { content: "\2212"; }
+.pd-faq details p { margin: 0 0 16px; }
+
+/* closing band */
+.pd-close { background: linear-gradient(180deg, #fffaf0, var(--surface)); border: 1.5px solid var(--amber-bright); border-radius: 18px; padding: 30px 26px; text-align: center; margin: 12px 0 46px; }
+.pd-close h2 { font-family: var(--font-display); font-weight: 600; font-size: clamp(1.5rem, 3.2vw, 2.1rem); margin: 0 0 10px; }
+.pd-close p { margin: 0 auto 4px; max-width: 56ch; color: var(--ink-soft); font-size: 1.04rem; line-height: 1.65; }
+.pd-close .pd-cta-row { justify-content: center; }
+
+@media (max-width: 640px) {
+  .pd-hero { padding: 20px 0 26px; }
+  .pd-section { padding: 26px 0; }
+  .pd-btn { width: 100%; }
+  .pd-promise { padding: 24px 18px; }
+  .pd-steps li { padding-left: 56px; }
+}
