@@ -140,6 +140,8 @@ For younger children there is [online coding for kids in the UK](/online-coding-
 
 Each page below is written for its own place, exam or competition, with its own project and its own sources.
 
+**Guides:** [Best online coding classes in the UK](/best-online-coding-classes-uk)
+
 **Cities:** [London](/best-coding-class-in-london)
 
 ## From a rule with an edge to a program that respects it

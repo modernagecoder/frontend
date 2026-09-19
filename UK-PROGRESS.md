@@ -50,7 +50,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 
 | # | Slug | Type | Words | Worst overlap | AI H2 used | Lesson family | Commit |
 |---|------|------|-------|---------------|------------|---------------|--------|
-| 1 | best-coding-class-in-london (ldn, #A52B1D) | cg- city, hub for the London boroughs (Phase 1 preview) | 3,705 | 0.8% vs coding-classes-in-dun-laoghaire-rathdown | the loop that never ends: London Datastore package_search ignores rows and start | API that ignores its parameters; stop on the count, cap calls, deduplicate | (this commit) |
+| 1 | best-coding-class-in-london (ldn, #A52B1D) | cg- city, hub for the London boroughs (Phase 1 preview) | 3,705 | 0.8% vs coding-classes-in-dun-laoghaire-rathdown | the loop that never ends: London Datastore package_search ignores rows and start | API that ignores its parameters; stop on the count, cap calls, deduplicate | 87389c3a |
+| 2 | best-online-coding-classes-uk (bou, #3B721D) | ag- door, national best (Phase 1 preview) | 3,976 | 0.5% vs ai-and-python-academy-for-girls-ireland | 2026 Ofqual entries (GCSE computing down 7.0%, largest EBacc fall), seven checks, six routes | criteria page, no data trap | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

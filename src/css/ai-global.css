@@ -659,3 +659,6 @@
 .ag-root.ag-apr { --ag-accent: #2B5B07; --ag-accent-soft: rgba(43,91,7,.09); }   /* AI agents for professionals, Ireland: a deep olive-green from the solver, separated from the Irish flag greens and from every other Ireland page */
 .ag-root.ag-jvi { --ag-accent: #00617F; --ag-accent-soft: rgba(0,97,127,.09); }   /* Java, Ireland: a deep petrol blue from the solver, separated from both Irish greens and every other Ireland page */
 .ag-root.ag-adi { --ag-accent: #952755; --ag-accent-soft: rgba(149,39,85,.09); }   /* App development, Ireland: a deep raspberry from the solver, separated from both Irish greens and every other Ireland page */
+
+/* United Kingdom cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints. */
+.ag-root.ag-bou { --ag-accent: #3B721D; --ag-accent-soft: rgba(59,114,29,.09); }   /* Best online, UK: a deep moss green from the solver (4.72:1 on every paper tint), clear of the UK hub blue and the London red */

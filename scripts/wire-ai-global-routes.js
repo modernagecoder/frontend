@@ -163,6 +163,7 @@ const SLUGS = [
   'ai-agents-course-for-professionals-ireland',
   'java-classes-ireland',
   'app-development-course-ireland',
+  'best-online-coding-classes-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -405,6 +406,7 @@ const LLMS_LABELS = {
   'ai-agents-course-for-professionals-ireland': 'AI agents course for professionals, Ireland',
   'java-classes-ireland': 'Java classes, Ireland',
   'app-development-course-ireland': 'App development course, Ireland',
+  'best-online-coding-classes-uk': 'Best online coding classes in the UK',
 };
 
 function wireLlms(slugs) {
