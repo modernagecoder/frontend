@@ -15820,5 +15820,59 @@
       "Any euro price from the Heritage Ireland page (guided tours).",
       "Any population figure for Glasnevin and any census small-area aggregation: owner rule for district pages."
     ]
+  },
+  "coding-classes-in-clontarf-dublin": {
+    "market": "Clontarf",
+    "bodyClass": "cg-ctf",
+    "pageType": "district",
+    "curriculumAuthority": "Clontarf, named sources only (owner rule for districts), read 20 September 2026. Marine Institute ERDDAP: IrishNationalTideGaugeNetwork (\"Irish National Tide Gauge Network Real Time Data\", time_coverage_resolution PT5M), station_id \"Dublin Port\", latitude 53.3457, longitude -6.2217, variables Water_Level_LAT (\"sea level above Lowest Astronomical Tide\"), Water_Level_OD_Malin (\"sea level above Ordnance Datum Malin\"), QC_Flag (flag_values \"0, 1, 9\", flag_meanings \"unknown good missing_value\"); imiTidePrediction (\"Marine Institute Tide Prediction\"; summary: \"Tidal predictions are generated from measured data via the Irish National Tide Gauge Network and via modelled data from the MI operational hydrodynamic model\"; time coverage 2026-01-01 to 2029-01-01), stationID \"Dublin_Port\", Water_Level (\"sea surface height above local LAT\"), Water_Level_ODM (\"sea surface height relative to OD Malin\"); imiSurgePrediction summary: \"Tidal predictions and modelled surge forecasts ... The modelled surge forecasts are extracted from the NE_Atlantic operational model\", variable \"sea surface elevation due to storm surge\". Our arithmetic (cnt/res.js), 1 January to 31 August 2026 UTC, OD Malin: prediction slots 69,984; readings 68,800, all paired (98.3%), all QC_Flag 0; variance explained 97.9%; residual mean +0.072 m, standard deviation 0.144 m; median absolute residual 0.087 m, 90th percentile 0.278, 99th 0.465; 8.04% of readings more than 0.3 m from the prediction; largest excess +1.013 m at 2026-01-27T05:35Z (reading 2.03, prediction 1.02); 27 January daily mean +0.506; largest shortfall about -0.41 m on 9 January; residual autocorrelation 0.95 at 1 hour, 0.70 at 6 hours, 0.51 at 24 hours, 0.37 at 48 hours; correlation with the prediction's rate of change 0.015; best shift of the prediction within +/- 60 minutes is 0; highest high water 2.31 m on 2026-02-03T12:25Z (prediction 1.98); highest predicted high water 2.03 m on 2026-08-15T00:40Z (reading 1.88); gauge 4.04 km from the St Anne's Park coordinates. Dublin City Council, North Bull Island: \"Bull Island is man-made. It was created 200 years ago when the North Bull Wall was constructed. It continues to grow seaward, a rare natural occurrence in Ireland. It is now 5 km in length and 1 km wide; and covers an area nearly 15 km² in size, including both land and seashore. In the 1930's Bull Island became the country's first official bird sanctuary and in 1981 it achieved UNESCO Biosphere Reserve status. The causeway to the Island was built in 1962 to 1964\". Dublin City Council, St Anne's Park: \"Locate 53.3718307, -6.1793446\"; \"St Anne's Park Clontarf East Raheny Dublin 5 Co. Dublin D05 EA31\". Irish Rail, Clontarf Road: \"Station Address Clontarf Road Dublin 3 Eircode D03 K6E8\"; \"This station is not staffed\"; \"No sheltered bike parking available Number of bike spaces: 20\"; \"Lifts and footbridge to both platforms\".",
+    "localProject": "Residuals: observed minus predicted. From the Marine Institute's Dublin Port tide gauge and its tide prediction for January to August 2026 (68,800 paired five-minute readings on OD Malin), the learner finds that the prediction explains 97.9 percent of the variation, then builds the residual: mean +0.07 m, largest +1.01 m on 27 January, highest water 2.31 m on 3 February against 1.98 predicted while the highest predicted tide (2.03 m in August) arrived at 1.88. Tests: persistence (0.95 at 1 hour, 0.51 at a day) and timing (correlation 0.015 with the tide's rate of change; no better shift within an hour) show the leftover is not a timing error; the Marine Institute forecasts that part separately as storm surge. Side lessons: QC flag 0 means unknown, not good; subtract only on a shared datum. New family site-wide: RESIDUALS / OBSERVED MINUS PREDICTED (residual, surge, predicted tide had no prior hits in that sense; Naas uses residual for census catch-all categories).",
+    "requiredMentions": [
+      "68,800",
+      "97.9 percent",
+      "1.01 metres",
+      "2.31 metres",
+      "1.98",
+      "0.95",
+      "D03 K6E8",
+      "D05 EA31",
+      "15 square kilometres",
+      "1981",
+      "1962 to 1964",
+      "20 bike spaces"
+    ],
+    "sources": [
+      {
+        "claim": "Marine Institute, Irish National Tide Gauge Network: Dublin Port five-minute water levels, OD Malin, January to August 2026, with quality flags.",
+        "url": "https://erddap.marine.ie/erddap/tabledap/IrishNationalTideGaugeNetwork.html"
+      },
+      {
+        "claim": "Marine Institute Tide Prediction, station Dublin_Port, OD Malin.",
+        "url": "https://erddap.marine.ie/erddap/tabledap/imiTidePrediction.html"
+      },
+      {
+        "claim": "Marine Institute Surge Prediction: modelled storm surge from the NE Atlantic operational model, published separately from the tide.",
+        "url": "https://erddap.marine.ie/erddap/info/imiSurgePrediction/index.html"
+      },
+      {
+        "claim": "Dublin City Council, North Bull Island: man-made, created when the North Bull Wall was built, growing seaward; 5 km by 1 km, nearly 15 square kilometres; first official bird sanctuary in the 1930s; UNESCO Biosphere Reserve in 1981; causeway built 1962 to 1964.",
+        "url": "https://www.dublincity.ie/residential/parks/dublin-city-parks/visit-park/north-bull-island"
+      },
+      {
+        "claim": "Dublin City Council, St Anne's Park: Clontarf East, Raheny, D05 EA31; coordinates 53.3718307, -6.1793446.",
+        "url": "https://www.dublincity.ie/residential/parks/dublin-city-parks/visit-park/st-annes-park"
+      },
+      {
+        "claim": "Irish Rail, Clontarf Road station: D03 K6E8; not staffed; 20 bike spaces, none sheltered; lifts and footbridge to both platforms.",
+        "url": "https://www.irishrail.ie/en-ie/station/clontarf-road"
+      }
+    ],
+    "rejectedClaims": [
+      "Any named storm or weather cause for 27 January 2026: not established from these sources.",
+      "Any flood risk or flood defence claim for the Clontarf shore.",
+      "Aliasing and sampling rate on tide data: Douglas owns them; this page uses the full five-minute series.",
+      "Treating QC flag 0 as good data: the dataset defines it as unknown.",
+      "Any population figure for Clontarf and any census small-area aggregation: owner rule for district pages."
+    ]
   }
 }
