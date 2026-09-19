@@ -32,15 +32,22 @@ case "$SL" in best-online-*|best-coding-classes-for-*|best-python-*) BESTMAX=12;
 [ -n "$BEST" ] && [ "$BEST" -le "$BESTMAX" ] || { echo "GATE FAIL $SL: 'best' appears $BEST times in visible text (limit $BESTMAX for this page type)"; exit 1; }
 echo "$R" | grep -q "RESULT PASS" || { echo "$R" | grep -E "BAD|MISS|RESULT"; echo "GATE FAIL $SL: render-check"; exit 1; }
 
-# The hub lists every built UK page, so rebuild it and re-gate it.
-node scripts/nl/build.js "$HUB" > "$LOG/hub_build.txt" 2>&1 || { tail -5 "$LOG/hub_build.txt"; exit 1; }
-node scripts/verify-cluster-pages.js coding-global 2>&1 | grep -qE "^PASS .*$HUB$" || { echo "UK hub no longer passes verify"; exit 1; }
+# Pages that index other UK pages (the hub lists every one; London lists its boroughs) are rebuilt
+# after every ship and re-verified, so no index can drift from the cluster.
+INDEXES="$HUB best-coding-class-in-london"
+for P in $INDEXES; do
+  [ "$P" = "$SL" ] && continue
+  [ -f "content/uk/$P.js" ] && [ -f "src/pages/$P.html" ] || continue
+  node scripts/nl/build.js "$P" > "$LOG/index_build_$P.txt" 2>&1 || { tail -5 "$LOG/index_build_$P.txt"; exit 1; }
+  node scripts/verify-cluster-pages.js coding-global 2>&1 | grep -qE "^PASS .*$P$" || { echo "index page $P no longer passes verify"; exit 1; }
+done
 grep -q "href=\"/$SL\"" "src/pages/$HUB.html" || { echo "UK hub does not link to /$SL"; exit 1; }
 c=$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 "http://localhost:3001/$SL"); [ "$c" = 200 ] || { echo "/$SL returns $c locally"; exit 1; }
 
 node scripts/nl/finish.js --tracker UK-PROGRESS.md --slug "$SL" --row "$ROW" --type "$TYPE" --spine "$SPINE" --trap "$FAMILY" --build "$LOG/${SL}_build.txt" --check "$C" || exit 1
 
-git add -- "content/uk/$SL.js" "src/pages/$SL.html" "src/pages/$SL.md" "content/uk/$HUB.js" "src/pages/$HUB.html" "src/pages/$HUB.md" $SHARED || { echo "git add failed"; exit 1; }
+IDX=""; for P in $INDEXES; do [ -f "src/pages/$P.html" ] && IDX="$IDX content/uk/$P.js src/pages/$P.html src/pages/$P.md"; done
+git add -- "content/uk/$SL.js" "src/pages/$SL.html" "src/pages/$SL.md" $IDX $SHARED || { echo "git add failed"; exit 1; }
 git diff --cached --quiet && { echo "nothing staged"; exit 1; }
 git commit -q -F "$MSG" || { echo "commit failed"; exit 1; }
 [ "$PUSH" = 1 ] && git push -q origin main 2>&1 | tail -1
