@@ -993,3 +993,4 @@
 .cg-root.cg-fgl  { --cg-accent: #453017; --cg-accent-soft: rgba(69,48,23,.10); }   /* Finglas: a smoke brown from the widened solver search, clear of the Castleknock and Castletroy browns */
 .cg-root.cg-bmn  { --cg-accent: #365659; --cg-accent-soft: rgba(54,86,89,.10); }   /* Ballymun: a slate teal from the widened solver search, clear of the Carlow and Cavan blue-greens */
 .cg-root.cg-crm  { --cg-accent: #3E1E31; --cg-accent-soft: rgba(62,30,49,.10); }   /* Crumlin: a night-bus plum from the widened solver search, clear of the Killarney and Rathmines wines */
+.cg-root.cg-trn  { --cg-accent: #1C165A; --cg-accent-soft: rgba(28,22,90,.10); }   /* Terenure: a route-map indigo from the widened solver search, clear of the Arklow and Clondalkin blues */

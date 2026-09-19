@@ -16090,5 +16090,47 @@
       "Date parsing (Balbriggan), modular slot arithmetic (Rustaq) and waiting times (Blackrock): other pages own them.",
       "Any population figure for Crumlin and any census small-area aggregation: owner rule for district pages."
     ]
+  },
+  "coding-classes-in-terenure-dublin": {
+    "market": "Terenure",
+    "bodyClass": "cg-trn",
+    "pageType": "district",
+    "curriculumAuthority": "Terenure, named sources only (owner rule for districts), read 20 September 2026. National Transport Authority, Dublin Bus GTFS (https://www.transportforireland.ie/transitData/Data/GTFS_Dublin_Bus.zip; feed_start_date 20260918, feed_end_date 20270918). Stops whose stop_name contains \"Terenure\": 13 (Terenure Rd E x2, Terenure Road West x2, Terenure Garda Stn, Terenure Lbry x2, Terenure Coll x2, Terenure North x2, Terenure South x2). Our arithmetic (trn/jac.js), Tuesday 22 September 2026: 7 routes, 13 route-directions (15 116 and 117 trips; 15A 52 and 49; 16 78 and 89; 16D 6; 65 17 and 18, three patterns each way, main pattern 11 of 17 outbound; 65B 20 and 19; 74 37 and 38). Jaccard on main patterns, stop identifiers, same direction_id: 16 and 16D 0.896 (69 shared of 77; 6 only on 16, 2 only on 16D); 65 and 65B 0.307 (31 of 101); 15 and 65B 0.223; 15 and 15A 0.205 (18 of 88); 15 and 65 0.197 (23 of 117); 65 and 74 0.000 (0 of 141); 65B and 74 0.000 (0 of 127); 15A and 74 0.000 (0 of 107). Same route, both directions (identifier / name / within 100 m): 15 0.008 (1 of 132) / 0.859 (61 of 71) / 0.662 (53 of 80); 16 0.007 / 0.686 / 0.543; 65 0.007 / 0.793 / 0.585; 74 0.047 / 0.517 / 0.583; 15A 0.013 / 0.674 / 0.540; 65B 0.009 / 0.681 / 0.568. Feed has 4,337 stops with 2,579 distinct names. Dublin City Council, Terenure Library: \"Templeogue Road Dublin 6W Co. Dublin D6W YC59\"; \"Locate 53.308974, -6.285274\"; Monday 13:00 to 20:00, Tuesday 10:00 to 17:00, Wednesday 13:00 to 20:00, Thursday 10:00 to 17:00; \"An induction loop system for use with hearing aids is available\". Dublin City Council, Bushy Park: \"Bushy Park is in Terenure on the Southside of Dublin city. The park has scenic walks along the River Dodder, GAA pitches, tennis courts, padel and boules courts, a duck pond, a playground and a skatepark.\"; \"Bushy Park dates back to 1700 when Arthur Bushe, Secretary to the Revenue Commissioners, built the house known as \\\"Bushes House\\\" on a site of four hectares. The property was obtained by John Hobson in 1772. He changed the name to Bushy Park. In 1791, the park was purchased by Abraham Wilkinson who added almost 40 hectares to the estate.\"; \"The Shaws ... remained connected with Bushy Park until 1951, when they sold the estate to Dublin Corporation.\"; \"Bushy Park Native Tree Trail in English or Irish\".",
+    "localProject": "Jaccard similarity and what counts as the same element. From the NTA's Dublin Bus timetable feed, the learner builds the main stop pattern of each of the seven routes through Terenure's 13 named stops and computes the Jaccard index for pairs: 16 and 16D 0.896 (69 of 77 stops), 65 and 74 zero though both serve Terenure. Comparing a route with its own opposite direction exposes the definitional choice: route 15 scores 0.008 by stop identifier, 0.859 by stop name and 0.662 by location within 100 metres, and the feed has 4,337 stops but 2,579 names. Lessons: set operations; similarity is intersection over union; decide what counts as the same before counting; state the matching rule. New family site-wide: SET SIMILARITY (JACCARD) (jaccard, set similarity, intersection over union had no prior hits; Enniscorthy owns Frechet bounds on overlaps, Galway deduplication by name against identifier).",
+    "requiredMentions": [
+      "0.008",
+      "0.859",
+      "0.662",
+      "0.896",
+      "69 of the 77",
+      "4,337",
+      "2,579",
+      "D6W YC59",
+      "40 hectares",
+      "1951",
+      "13 stops",
+      "Jaccard index"
+    ],
+    "sources": [
+      {
+        "claim": "National Transport Authority, Dublin Bus GTFS timetable feed valid from 18 September 2026: stop patterns of routes serving stops named Terenure on Tuesday 22 September 2026.",
+        "url": "https://www.transportforireland.ie/transitData/Data/GTFS_Dublin_Bus.zip"
+      },
+      {
+        "claim": "Dublin City Council, Terenure Library: Templeogue Road, D6W YC59; opening hours; induction loop.",
+        "url": "https://www.dublincity.ie/libraries/find-library/terenure-library"
+      },
+      {
+        "claim": "Dublin City Council, Bushy Park: in Terenure; Dodder walks and sports facilities; history from 1700 to the sale to Dublin Corporation in 1951.",
+        "url": "https://www.dublincity.ie/residential/parks/dublin-city-parks/visit-park/bushy-park"
+      }
+    ],
+    "rejectedClaims": [
+      "Terenure College details: the Dublin page lists the college; not repeated here.",
+      "The 2012 library loan file for the Terenure branch: its location quotient lesson is owned by Rathmines and truncation by other pages.",
+      "Ridership or passenger numbers at any stop: the timetable feed does not contain them.",
+      "Shortest paths and graph search: Diemen and Rathfarnham own those; this page compares sets only.",
+      "Any population figure for Terenure and any census small-area aggregation: owner rule for district pages."
+    ]
   }
 }

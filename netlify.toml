@@ -11332,6 +11332,18 @@
   to = "/src/pages/coding-classes-in-crumlin-dublin.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-terenure-dublin"
+  to = "/src/pages/coding-classes-in-terenure-dublin.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-terenure-dublin.md"
+  to = "/src/pages/coding-classes-in-terenure-dublin.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
