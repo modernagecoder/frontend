@@ -15719,5 +15719,55 @@
       "Censored values, group-by spelling traps and Gini: owned by the DLR, Roscommon, Kilkenny and other pages.",
       "Any population figure for Rathmines and any census small-area aggregation: owner rule for district pages."
     ]
+  },
+  "coding-classes-in-drumcondra-dublin": {
+    "market": "Drumcondra",
+    "bodyClass": "cg-dcd",
+    "pageType": "district",
+    "curriculumAuthority": "Drumcondra, named sources only (owner rule for districts), read 20 September 2026. Dublin City Council, \"Ambient Sound Monitoring Network DCC\" (data.smartdublin.ie dataset a52fbbe2...; notes: \"The sound level meters store continuous 5 minute sound pressure levels\"; \"The results of the sound level meter are given in Leq, which is the average sound level over the period of measurement. L95 and the L10 data is also provided\"), drumcondra2015.zip: 370 files DCC-NOISE-001001-2015-MM-DDT..., header \"# Monitoring unit located at 53.369953N 6.259042W\" (21 files: \"51.528763N 0.093589W\"), \"# Time should be in local format (i.e. daylight savings time)\", columns \"dd/mm/yyyy hh:mm:ss, A Leq, A L10, A L95, C Leq, C L10, C L95\"; file for 4 June 2015 (named ...06-04TA00-00-00.txt) tab-separated, 287 lines; 25 October 01:00 to 01:55 appears twice with different values; 23 April 23:30 file overlaps the day file. DCC Dublin Agglomeration Noise Action Plan Volume 1 (dublincity.ie PDF, Dec 2018, July 2023 revision), Appendix A glossary: \"Sound levels are expressed in decibels (dB) on a logarithmic scale\"; \"a doubling of the sound energy results in a 3 dB increase in the sound level\"; Lden \"adding the average value for the 12 hour day time period with the average value of the 4 hour evening period plus a 5 decibel weighting or penalty, and the average value for the 8 hour night time period with a 10 decibel weighting or penalty\", formula with terms 10^((Lday)/10), 10^((Levening+5)/10), 10^((Lnight+10)/10); daytime 7am to 7pm, evening 7pm to 11pm, night 11pm to 7am; section 9: \"Desirable low sound levels are defined as areas with a night time level less than 50 decibels and\\or a daytime level less than 55 decibels.\" Our arithmetic (dcd/db.js): 104,596 of 105,132 possible readings (99.5%); year energy 55.83, plain 53.43; day 57.70/56.66; evening 54.79/53.74; night 50.50/48.38; loudest 1% hold 8.5% of energy, loudest 10% hold 34.4%; 10 September energy 62.5 (rank 1 of 361 full days) against plain 53.9 (rank 154, median 53.5), eight readings stamped 06:00 to 06:35 (71.11 to 78.64) hold 81.3% of that day's energy, 287 readings that day; maximum 78.64, energy ratio to 55.83 = 191; Lden 59.18 (energy) against 57.68 (plain). DCC Drumcondra Library page: \"Millmount Avenue Dublin 9 Co. Dublin D09 PT78\", \"Locate 53.369901, -6.259021\" (5.9 m from the unit position); hours Monday 10:00 to 17:00, Tuesday 12:45 to 20:00, Wednesday 10:00 to 17:00, Thursday 12:45 to 20:00, Friday 10:00 to 17:00, Saturday 10:00 to 17:00; ramped access; induction loop. Irish Rail Drumcondra station: \"Lower Drumcondra Road Drumcondra Dublin 9 Eircode D09 H0V5\"; \"Station Staffing Hours Monday to Sunday: 07:00 - 23:00\"; \"There are no bike facilities at the station\"; \"Platform Access Lifts to both platforms\"; routes Dublin Connolly to Sligo, Dublin to Maynooth, Longford and M3 Parkway, Grand Canal Dock and Dublin Heuston to Portlaoise. Croke Park stadium page: \"Every September, the Association's two annual marquee events - the GAA All-Ireland Football and Hurling Championship Finals - attract a capacity 82,300 fans\"; \"Croke Park, Dublin 3, D03 P6K7\"; \"Registered Office, Jones Road, Dublin 3\".",
+    "localProject": "Decibels are logarithmic: average on energy. From Dublin City Council's 2015 five-minute sound readings at Drumcondra Library (104,596 after fixing a tab-separated file, keeping the repeated clock-change hour and ignoring a wrong location header), the learner computes the plain mean (53.43) and the energy average (55.83) for the year and for day, evening and night, finds that the night flips across the council plan's 50-decibel line (48.38 plain, 50.50 energy), that one 40-minute burst makes 10 September the loudest day by energy (62.5) while it sits mid-table by plain average (53.9, rank 154 of 361), and applies the plan's Lden formula (59.18 against 57.68). Lessons: know the scale before averaging; convert, average, convert back; check file formats before trusting a parser; readings are not causes. New family site-wide: LOGARITHMIC UNITS / ENERGY AVERAGING (decibel, Leq, logarithmic, energy average had no prior hits in content/ie or the global dossiers).",
+    "requiredMentions": [
+      "104,596",
+      "53.43",
+      "55.83",
+      "81.3 percent",
+      "48.38",
+      "50.50",
+      "59.18",
+      "465 kilometres",
+      "D09 PT78",
+      "D09 H0V5",
+      "D03 P6K7",
+      "82,300"
+    ],
+    "sources": [
+      {
+        "claim": "Dublin City Council, Ambient Sound Monitoring Network: Drumcondra monitor, 2015 five-minute A-weighted Leq readings (drumcondra2015.zip).",
+        "url": "https://data.smartdublin.ie/dataset/a52fbbe2-1bff-4897-84af-34945f6fc8de/resource/24219dc4-b933-42eb-b1c8-ce25c76d07ed/download/drumcondra2015.zip"
+      },
+      {
+        "claim": "Dublin City Council, Dublin Agglomeration Noise Action Plan, Volume 1: decibels on a logarithmic scale; doubling the sound energy adds 3 dB; the Lden formula and its day, evening and night periods; night levels below 50 decibels described as desirable.",
+        "url": "https://www.dublincity.ie/sites/default/files/2021-04/dcc-volume-1-dublin-agglomeration-noise-action-plan-dec-2018_july2023.pdf"
+      },
+      {
+        "claim": "Dublin City Council, Drumcondra Library: Millmount Avenue, D09 PT78; coordinates 53.369901, -6.259021; opening hours; ramped access and induction loop.",
+        "url": "https://www.dublincity.ie/libraries/find-library/drumcondra-library"
+      },
+      {
+        "claim": "Irish Rail, Drumcondra station: Lower Drumcondra Road, D09 H0V5; staffed 07:00 to 23:00 daily; lifts to both platforms; no bike facilities; routes served.",
+        "url": "https://www.irishrail.ie/en-ie/station/drumcondra"
+      },
+      {
+        "claim": "Croke Park: capacity 82,300; All-Ireland football and hurling finals every September; Jones Road, Dublin 3, D03 P6K7.",
+        "url": "https://crokepark.ie/stadium"
+      }
+    ],
+    "rejectedClaims": [
+      "Any cause for a loud reading, including any link to Croke Park events: the monitor records level, not source.",
+      "The EU directive text for the Lden formula: shown only as an image on EUR-Lex, so the council's own plan is quoted instead.",
+      "Day-of-week, clock-change and date handling as the lesson: dates belong to the Balbriggan page; handled in code only.",
+      "Any claim that Drumcondra breaches a limit: the plan's 50-decibel night line describes desirable levels for mapped areas, and the page only reports which side each average falls.",
+      "Any population figure for Drumcondra and any census small-area aggregation: owner rule for district pages."
+    ]
   }
 }
