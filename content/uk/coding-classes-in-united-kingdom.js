@@ -9,6 +9,27 @@
 // 19 September 2026 (see dossier.sources). The old hub's Oxbridge admissions claims are not carried over
 // (owner decision 6); CCEA's site refused an automated check (403), so its qualifications are named only.
 
+// The index of built UK pages is read from content/uk at build time, so the hub can never drift from
+// the cluster: uk-ship.sh rebuilds this page after every new UK page. Only modules whose page has been
+// built (src/pages/<slug>.html exists) are listed. Groups follow each module's hub.group.
+const fs = require('fs');
+const path = require('path');
+const UK_GROUPS = [
+  ['guide', 'Guides'], ['exam', 'Exams, nation by nation'], ['competition', 'Competitions'], ['nation', 'Nations'],
+  ['city', 'Cities'], ['borough', 'London boroughs'], ['elevenplus', '11+ maths by area'], ['county', 'Counties and council areas'],
+  ['region', 'English regions'], ['town', 'Towns'], ['area', 'Neighbourhoods'], ['maths', 'Maths by city']
+];
+function ukIndex() {
+  const pages = fs.readdirSync(__dirname).filter(f => f.endsWith('.js') && f !== path.basename(__filename)).map(f => require(path.join(__dirname, f)))
+    .filter(m => m && m.slug && fs.existsSync(path.join(__dirname, '..', '..', 'src', 'pages', m.slug + '.html')));
+  const groupOf = m => (m.hub && m.hub.group) || (m.pageType === 'market' ? 'guide' : m.pageType === 'governorate' ? 'county' : m.pageType === 'district' ? 'area' : 'city');
+  const label = m => (m.hub && m.hub.label) || m.routeLabel || m.place.name;
+  const blocks = UK_GROUPS.map(([g, name]) => [name, pages.filter(m => groupOf(m) === g).sort((a, b) => label(a).localeCompare(label(b)))]).filter(([, l]) => l.length)
+    .map(([name, l]) => ({ kind: 'p', text: `<strong>${name}:</strong> ` + l.map(m => `<a class="cg-inline-link" href="/${m.slug}">${label(m)}</a>`).join(' &middot; ') }));
+  if (!blocks.length) return [];
+  return [{ id: 'uk-index', tint: 'tint', eyebrow: 'The UK, page by page', h2: 'Every UK page in this series', intro: 'Each page below is written for its own place, exam or competition, with its own project and its own sources.', body: blocks }];
+}
+
 module.exports = {
   clusterName: 'United Kingdom',
   hub: { group: 'nation', tag: 'UK', blurb: 'The national page: four school systems and the places and exams we cover.' },
@@ -133,7 +154,7 @@ module.exports = {
         { kind: 'p', text: 'For younger children there is <a class="cg-inline-link" href="/online-coding-classes-for-kids-uk">online coding for kids in the UK</a>. Maths by stage of life has its own pages for <a class="cg-inline-link" href="/online-maths-tuition-for-kids-in-uk">primary children</a>, <a class="cg-inline-link" href="/online-maths-tuition-for-teens-in-uk">teenagers</a>, <a class="cg-inline-link" href="/online-maths-tuition-for-college-students-in-uk">sixth form and university students</a> and <a class="cg-inline-link" href="/online-maths-classes-for-adults-in-uk">adults</a>.' }
       ]
     }
-  ],
+  ].concat(ukIndex()),
 
   ladder: {
     eyebrow: 'Learning ladder',
