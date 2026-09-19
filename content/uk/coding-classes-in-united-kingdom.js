@@ -20,10 +20,9 @@ const UK_GROUPS = [
   ['region', 'English regions'], ['town', 'Towns'], ['area', 'Neighbourhoods'], ['maths', 'Maths by city']
 ];
 function ukIndex() {
-  const pages = fs.readdirSync(__dirname).filter(f => f.endsWith('.js') && f !== path.basename(__filename)).map(f => require(path.join(__dirname, f)))
-    .filter(m => m && m.slug && fs.existsSync(path.join(__dirname, '..', '..', 'src', 'pages', m.slug + '.html')));
-  const groupOf = m => (m.hub && m.hub.group) || (m.pageType === 'market' ? 'guide' : m.pageType === 'governorate' ? 'county' : m.pageType === 'district' ? 'area' : 'city');
-  const label = m => (m.hub && m.hub.label) || m.routeLabel || m.place.name;
+  const pages = require('../../scripts/nl/lib/uk-index.js').builtUkPages().filter(m => m.file !== path.basename(__filename));
+  const groupOf = m => m.group || (m.pageType === 'market' ? 'guide' : m.pageType === 'governorate' ? 'county' : m.pageType === 'district' ? 'area' : 'city');
+  const label = m => m.label || m.place || m.routeLabel;
   const blocks = UK_GROUPS.map(([g, name]) => [name, pages.filter(m => groupOf(m) === g).sort((a, b) => label(a).localeCompare(label(b)))]).filter(([, l]) => l.length)
     .map(([name, l]) => ({ kind: 'p', text: `<strong>${name}:</strong> ` + l.map(m => `<a class="cg-inline-link" href="/${m.slug}">${label(m)}</a>`).join(' &middot; ') }));
   if (!blocks.length) return [];
