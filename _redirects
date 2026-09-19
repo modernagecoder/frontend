@@ -3010,4 +3010,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-clondalkin-dublin /src/pages/coding-classes-in-clondalkin-dublin.html 200
 /coding-classes-in-clondalkin-dublin.md /src/pages/coding-classes-in-clondalkin-dublin.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-rathfarnham-dublin /src/pages/coding-classes-in-rathfarnham-dublin.html 200
+/coding-classes-in-rathfarnham-dublin.md /src/pages/coding-classes-in-rathfarnham-dublin.md 200
 /* /src/pages/404.html 404
