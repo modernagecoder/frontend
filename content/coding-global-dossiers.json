@@ -15602,5 +15602,67 @@
       "The founding order and religious ethos of Blackrock College: not needed for a place fact and kept out of any standout.",
       "Any population figure for Blackrock and any aggregation of census small areas: owner rule for district pages."
     ]
+  },
+  "coding-classes-in-stillorgan-dublin": {
+    "market": "Stillorgan",
+    "bodyClass": "cg-stl",
+    "pageType": "district",
+    "curriculumAuthority": "Stillorgan, named sources only (owner rule for districts), read 20 September 2026. DLR Development Plan 2022-2028 Boundary Plan Areas on data.smartdublin.ie (dataset 70f527be...): CSV row \"Boundary of Stillorgan Local Area Plan\", Map_Number 2, Area__Ha_ 16, SHAPE_Length 3902.565451, SHAPE_Area 161513.3371, Hyperlink https://www.dlrcoco.ie/en/planning/local-area-plans/stillorgan-local-area-plan-2018-%E2%80%93-2024 (returns 404 on 20 September 2026); GeoJSON (no crs member, lon/lat) Polygon with one ring of 736 positions, first and last equal, so 735 distinct corners; shapefile .prj IRENET95_Irish_Transverse_Mercator (central meridian -8, scale 0.99982). Our arithmetic (stl/area.js): raw-degree shoelace 2.1762e-5 square degrees, positive (anticlockwise); 111,320 m per degree both ways (6,378,137 x pi/180 = 111,319.49) gives 269,680 m2, 1.670 x file, perimeter 5,294 m; sphere R 6,371,008.8 m with longitude x cos(53.28932) gives 160,846 m2 (-0.41%), perimeter 3,894.5; GRS80 at 53.28932 N: 111,291.7 m per degree of latitude, 66,687.6 m per degree of longitude (ratio 0.5992), area 161,513.82 m2 against 161,513.34 (0.48 m2), perimeter 3,902.6; ITM shapefile shoelace -161,513.3 (clockwise), perimeter 3,902.6. 1/cos(53.28932) = 1.6729; the naive factor is 1.6697 because the meridian degree (111,291.7) is not 111,320. Point in polygon (ray casting, result only): of 290 rows in DLR \"Traffic signals and SCATS sites locations\" (dlr_scats_sites-1.csv), 4 inside (6008 Stillorgan Rd @ Stillorgan Park; 6063 Kilmacud Rd Lwr/Old Stillorgan Rd; 6216 Lower Kilmacud Road; 6375 Kilmacud Road); 14 sites begin \"Stillorgan R\", 1 inside. DLR library locations CSV: \"STILLORGAN PUBLIC LIBRARY\", \"SAINT LAURENCE'S PARK\", eircode A94XT02, ITM 720232.168 728129.271, lon -6.196652528 lat 53.28981732: inside in both coordinate systems. DLR Stillorgan LAP page (https://www.dlrcoco.ie/local-area-plans/stillorgan-local-area-plan-2018-%E2%80%93-2024): \"A Local Area Plan for Stillorgan was adopted by the Council on 10th September 2018 and will be valid for a period of 6 years\"; \"On the 13th November 2023 it was extended in accordance with the legislation for a further period of 5 years from the 13th November 2023.\" Uisce Eireann Stillorgan Reservoir project page: \"The new reservoir has the capacity to store 160 million litres of treated drinking water\"; \"a safer, more secure and sustainable water supply for over 200,000 in south Dublin\"; \"the draining down of the Gray Reservoir, which had not been fully drained since it was built in 1885\"; \"The new covered reservoir was then constructed within the footprint of the Gray Reservoir\"; Vartry scheme \"two impounding reservoirs at Roundwood, County Wicklow, a water treatment plant, a four kilometre long tunnel under Callowhill and 40 kilometres of trunk mains to deliver water to the Stillorgan Reservoir\". FAQ: \"The reservoirs at Stillorgan store treated drinking water from water treatment plants at Vartry in County Wicklow and Ballymore Eustace in County Kildare\"; \"Construction commenced in November 2018.\" St Raphaela's Primary School: \"St. Raphaela's Primary School, St. Raphaela's Road, Stillorgan, Co. Dublin, A94 R7N8\"; menu item \"S.T.E.M\" under School Initiatives.",
+    "localProject": "Projection: a degree east is not a degree north. From the council's Stillorgan Local Area Plan boundary (735 corners), the learner computes the area on raw degrees (269,680 square metres with 111,320 m per degree both ways, 67 percent too big), with a round-Earth cosine correction (160,846, 0.41 percent short) and with GRS80 north and east scales (161,513.82, within half a square metre of the council's 161,513.34), then confirms against the Irish grid shapefile (161,513.3). Side findings: opposite ring orientation in the two files; the naive perimeter is stretched less than the area; four of 290 signal sites and the library fall inside the boundary; the file's own link to the plan is dead. Lessons: check what one unit of each coordinate means on the ground; correct code on the wrong units gives a wrong answer; verify against the publisher's own figure. New family for the cluster and site: PROJECTION / ANISOTROPIC DEGREES (not Arklow units, not Bahla bounding box, not Baarle even-odd).",
+    "requiredMentions": [
+      "269,680",
+      "160,846",
+      "161,513.82",
+      "0.41 percent",
+      "66,688",
+      "111,292",
+      "3,902.6",
+      "735 corners",
+      "A94 XT02",
+      "A94 R7N8",
+      "Gray Reservoir",
+      "Ballymore Eustace"
+    ],
+    "sources": [
+      {
+        "claim": "Dún Laoghaire-Rathdown County Council, Development Plan 2022-2028 Boundary Plan Areas: Stillorgan Local Area Plan boundary (GeoJSON), with SHAPE_Area 161,513.34 square metres, SHAPE_Length 3,902.57 metres and a rounded 16 hectares (CSV).",
+        "url": "https://data.smartdublin.ie/dataset/70f527be-1f31-4c37-9c88-c1e757e5140b/resource/c826ba32-1800-4e9b-996b-a62ab64278db/download/devplan2022_2028_boundary-plan-areas.geojson"
+      },
+      {
+        "claim": "The same boundary as an Irish Transverse Mercator shapefile.",
+        "url": "https://data.smartdublin.ie/dataset/70f527be-1f31-4c37-9c88-c1e757e5140b/resource/e956e4e1-f274-4ff3-8beb-1e0798b41b9c/download/boundary-plan-areas.zip"
+      },
+      {
+        "claim": "Dún Laoghaire-Rathdown County Council, Traffic signals and SCATS sites locations: 290 sites with coordinates.",
+        "url": "https://data.smartdublin.ie/dataset/9376ee85-c576-44a4-80bf-9b87f46f0682/resource/60018c00-d47e-4ea9-a960-01ec1786a150/download/dlr_scats_sites-1.csv"
+      },
+      {
+        "claim": "Dún Laoghaire-Rathdown County Council, library locations: Stillorgan Public Library, Saint Laurence's Park, A94 XT02, with coordinates.",
+        "url": "https://data.smartdublin.ie/dataset/a6d9b80d-563d-4bc7-b2db-dae2c57ba361/resource/004af97a-71c3-4d54-9cb1-71b8fa91cf03/download/librarylocationsdlr.csv"
+      },
+      {
+        "claim": "Dún Laoghaire-Rathdown County Council, Stillorgan Local Area Plan 2018-2024: adopted 10 September 2018 for six years; extended on 13 November 2023 for a further five years.",
+        "url": "https://www.dlrcoco.ie/local-area-plans/stillorgan-local-area-plan-2018-%E2%80%93-2024"
+      },
+      {
+        "claim": "Uisce Éireann, Stillorgan Reservoir Upgrade Project: 160 million litres; over 200,000 people in south Dublin; built within the footprint of the Gray Reservoir, built in 1885; the Vartry scheme's four-kilometre tunnel under Callowhill and 40 kilometres of trunk mains.",
+        "url": "https://www.water.ie/projects/local-projects/stillorgan-reservoir-upgrade-project"
+      },
+      {
+        "claim": "Uisce Éireann, Stillorgan Reservoir Project FAQs: water from treatment plants at Vartry, County Wicklow, and Ballymore Eustace, County Kildare; construction commenced November 2018.",
+        "url": "https://www.water.ie/projects/local-projects/stillorgan/faqs"
+      },
+      {
+        "claim": "St Raphaela's Primary School: St Raphaela's Road, Stillorgan, A94 R7N8; STEM listed among school initiatives.",
+        "url": "https://straphaelasns.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Bounding box against shoelace area: the Bahla page in the Oman cluster owns that comparison.",
+      "Teaching the even-odd ray-casting rule: the Netherlands cluster owns it; this page reports inside-or-outside results only.",
+      "Any euro figure from the Uisce Éireann pages.",
+      "A94 NT29 (St Raphaela's Secondary School) and A94 W7W7 (Oatlands College): not confirmed at the schools' own sites.",
+      "The plan boundary as the edge of Stillorgan, and any population figure for Stillorgan or census small-area aggregation: owner rule for district pages."
+    ]
   }
 }

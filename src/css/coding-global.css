@@ -984,3 +984,4 @@
 .cg-root.cg-rfn  { --cg-accent: #5A6827; --cg-accent-soft: rgba(90,104,39,.10); }   /* Rathfarnham: a castle-lawn moss green from the widened solver search, apart from the South Dublin purple and the Waterford and Wicklow olives */
 .cg-root.cg-dlg  { --cg-accent: #833F3F; --cg-accent-soft: rgba(131,63,63,.10); }   /* Dún Laoghaire: a Victorian-railing brick red from the widened solver search, apart from the Dún Laoghaire-Rathdown blue and the Sandyford green */
 .cg-root.cg-bkr  { --cg-accent: #1C4030; --cg-accent-soft: rgba(28,64,48,.10); }   /* Blackrock: a deep sea-green for the bay and the park pond, from the widened solver search, clear of the Dún Laoghaire brick and the Sandyford green */
+.cg-root.cg-stl  { --cg-accent: #172545; --cg-accent-soft: rgba(23,37,69,.10); }   /* Stillorgan: a survey-map navy from the widened solver search, well clear of the Dundrum indigo and the Blackrock sea-green */
