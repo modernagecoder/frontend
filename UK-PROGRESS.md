@@ -61,3 +61,5 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 - Competition statuses change each season; re-verify at the organiser in the week a page is built.
 - Scottish and Northern Irish town lists are candidates until checked against NRS and NISRA settlement figures.
 - 11+ areas are candidates until each council's admissions pages confirm a selective test.
+- The cg- and ag- renderers emit a Service graph but no FAQPage JSON-LD (Dublin is the same), while spec section 7 asks for FAQPage on every page: add it as an opt-in renderer flag before Phase 1 so existing Irish output stays byte-identical.
+- Build-time `pricing:verify` fails locally on 132 files (course pages under content/courses/generated and the other session's ten priority-demo pages) for a missing ?v= hash that `pricing:apply` adds in the Netlify build; none of the UK files fail.

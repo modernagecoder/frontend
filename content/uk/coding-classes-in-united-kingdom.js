@@ -52,7 +52,7 @@ module.exports = {
     { label: 'How we teach', href: '/how-we-teach' }
   ],
   routeLabel: 'United Kingdom',
-  title: 'Coding Classes in the UK | Online Coding, Python and AI',
+  title: 'Coding Classes in the UK | GCSE, A-Level, Python and AI',
   description: 'Live online coding, Python, AI and maths classes for children, teens and adults in England, Scotland, Wales and Northern Ireland. The first lesson is free.',
   ogDescription: 'Coding, Python and AI classes across the four UK school systems, on a page about one birthday that gives four different school start dates.',
   twitterDescription: 'UK coding classes for ages 6 to 67, live online, with the first lesson free.',

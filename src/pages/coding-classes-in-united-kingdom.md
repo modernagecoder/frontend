@@ -1,5 +1,5 @@
 ---
-title: "Coding Classes in the UK | Online Coding, Python and AI"
+title: "Coding Classes in the UK | GCSE, A-Level, Python and AI"
 description: "Live online coding, Python, AI and maths classes for children, teens and adults in England, Scotland, Wales and Northern Ireland. The first lesson is free."
 canonical: https://learn.modernagecoders.com/coding-classes-in-united-kingdom
 source: src/pages/coding-classes-in-united-kingdom.html
