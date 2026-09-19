@@ -344,6 +344,7 @@ const MARKETS = [
   ['coding-classes-in-dundrum-dublin', 'Dundrum, Dublin 14, Ireland'],
   ['coding-classes-in-ballincollig-cork', 'Ballincollig, Cork, Ireland'],
   ['coding-classes-in-douglas-cork', 'Douglas, Cork, Ireland'],
+  ['coding-classes-in-castletroy-limerick', 'Castletroy, Limerick, Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

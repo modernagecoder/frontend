@@ -15282,5 +15282,68 @@
       "Christ King Girls Secondary School on the South Douglas Road: the Cork city page owns it; the 2019 boundary transfer belongs to the County Cork page.",
       "Any population figure for Douglas and any aggregation of census small areas: owner rule for district pages."
     ]
+  },
+  "coding-classes-in-castletroy-limerick": {
+    "market": "Castletroy",
+    "bodyClass": "cg-ctr",
+    "pageType": "district",
+    "curriculumAuthority": "Castletroy, Limerick, named sources only (owner rule for districts), read 20 September 2026. OPW waterlevel.ie station 25001 Annacotty, month files 2026-08-15 06:00 to 2026-09-19 06:00: labels \"Temperature (0002)\", \"TB Turbidity (NTU) (1002)\", \"Specific conductivity (ms/cm) (1003)\", \"Salinity (psu) (1004)\", \"TB Dissolved Oxygen (% SAT) (1006)\", \"pH (1008)\"; level 0001 3,348 readings (0.288 to 1.115 m); 837 hourly readings for each quality channel (Temperature 838). Our arithmetic: of 15 channel pairs matched on timestamp, 1004 and 1008 identical at 837 of 837; 1002 and 0002 identical at 1 of 837; all other pairs 0. Ranges: salinity and pH 7.24 to 8.89; conductivity 0.167 to 0.409; turbidity 0 to 44.1; dissolved oxygen 82.9 to 107.7; Temperature 13.6 to 18.9. Station 52.6693 N 8.5291 W; Castletroy College map point on limerick.ie 52.66346 N 8.54176 W; haversine 1.07 km. OPW disclaimer: data provisional, unchecked and not validated; CC-BY with credit to waterlevel.ie. Castletroy College own site: \"Newtown, Castletroy, Co. Limerick, V94 6D85\"; \"a coeducational Community College of over 1200 students under the auspices of LCETB\". limerick.ie Gaelscoil Chaladh An Treoigh: \"a publicly funded, progressive school founded by the community in 2001. Since this time, we have grown to 438 pupils with a full-time staff of 26. Our aim is to serve the demand for primary education through the medium of Irish.\" University Concert Hall contact page: \"Foundation Building, Sreelane, Castletroy, Co. Limerick\", Eircode printed \"V94PX58\". University of Limerick venue page: opening in 1993 \"by An Taoiseach Mr. Albert Reynolds and U.S. Ambassador Mrs. Jean Kennedy Smith\"; \"1,000-seat tiered lecture theatre\".",
+    "localProject": "Checking sensor channels against each other. The learner downloads the OPW's six water-quality channels for Annacotty, 1.07 km from Castletroy College, aligns them on timestamps and counts exact matches for all 15 pairs: salinity and pH are identical at 837 of 837 hourly readings, the next pair coincides once, the rest never. Ranges then show salinity sitting at 7.24 to 8.89 like pH, while conductivity reads 0.167 to 0.409. The finding is reported without guessing its cause and the suspect column is set aside. Lessons: validate relationships between columns, not only each column alone; distinguish this from checking a file against its documentation (the Monaghan page's lesson). New family for the cluster: cross-channel validation.",
+    "requiredMentions": [
+      "837",
+      "1.07",
+      "7.24",
+      "8.89",
+      "0.409",
+      "44.1",
+      "107.7",
+      "15 pairs",
+      "438",
+      "2001",
+      "V94 6D85",
+      "V94 PX58"
+    ],
+    "sources": [
+      {
+        "claim": "OPW waterlevel.ie, station 25001 Annacotty: water level and six water-quality channels (Temperature, turbidity, specific conductivity, salinity, dissolved oxygen, pH), month files.",
+        "url": "https://waterlevel.ie/0000025001/1004/"
+      },
+      {
+        "claim": "OPW waterlevel.ie, station 25001 Annacotty, pH channel.",
+        "url": "https://waterlevel.ie/0000025001/1008/"
+      },
+      {
+        "claim": "OPW waterlevel.ie disclaimer: data provisional, unchecked and not validated; reuse under CC-BY crediting waterlevel.ie.",
+        "url": "https://waterlevel.ie/"
+      },
+      {
+        "claim": "Castletroy College: Newtown, Castletroy, V94 6D85; a co-educational community college of over 1,200 students under LCETB.",
+        "url": "https://www.castletroycollege.ie/"
+      },
+      {
+        "claim": "limerick.ie, Castletroy College page with map coordinates 52.66346, -8.54176.",
+        "url": "https://www.limerick.ie/discover/living/your-community/local-services/schools/castletroy-college"
+      },
+      {
+        "claim": "limerick.ie, Gaelscoil Chaladh an Treoigh: founded by the community in 2001, 438 pupils, 26 full-time staff, primary education through Irish.",
+        "url": "https://www.limerick.ie/discover/living/your-community/local-services/schools/gaelscoil-chaladh-treoigh"
+      },
+      {
+        "claim": "University Concert Hall: Foundation Building, Sreelane, Castletroy, V94 PX58 (printed without the space).",
+        "url": "https://www.uch.ie/contact/"
+      },
+      {
+        "claim": "University of Limerick, University Concert Hall venue page: opened 1993 by Taoiseach Albert Reynolds and US Ambassador Jean Kennedy Smith; 1,000-seat tiered lecture theatre.",
+        "url": "https://www.ul.ie/campus-life-services/conferences-sports-events/venues/university-concert-hall"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement about which channel is correct, or the cause of the duplication: the data cannot show it.",
+      "Any water-quality or safety statement about the river at Annacotty: the page is about data validation.",
+      "A computed \"true\" salinity from conductivity: not sourced here.",
+      "UL campus size, student numbers, Nexus, Kneat at Plassey, TUS Moylish and the Shannon Bridge counter: the Limerick page owns them.",
+      "Any population figure for Castletroy and any aggregation of census small areas: owner rule for district pages.",
+      "gov.ie school profiles: bot-protected (502/403) elsewhere in this session; own sites and limerick.ie used instead."
+    ]
   }
 }
