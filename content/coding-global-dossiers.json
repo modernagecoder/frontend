@@ -15544,5 +15544,63 @@
       "Bathing water, dlr LexIcon, the Kingstown name, IADT, the DART station list and County Hall's eircode: the Dún Laoghaire-Rathdown page owns them.",
       "Any population figure for Dún Laoghaire and any aggregation of census small areas: owner rule for district pages."
     ]
+  },
+  "coding-classes-in-blackrock-dublin": {
+    "market": "Blackrock",
+    "bodyClass": "cg-bkr",
+    "pageType": "district",
+    "curriculumAuthority": "Blackrock, named sources only (owner rule for districts), read 20 September 2026. National Transport Authority, Irish Rail GTFS (https://www.transportforireland.ie/transitData/Data/GTFS_Irish_Rail.zip): feed_info publisher National Transport Authority, feed_start_date 20260918, feed_end_date 20270918; stop 8250IR0030 \"Blackrock\" 53.302716 -6.178846, neighbours Booterstown 8250IR0039 and Seapoint 8250IR0029; route BRAY-HOWTH-I short name DART. Service date Tuesday 22 September 2026 (46 active services; Wednesday 23 and Thursday 24 identical northbound). Our arithmetic (br/wait.js, DART only, direction from the latitude of the next stop, no boarding counted at a terminus arrival): 96 departures each way; north first 06:01, last 24:01; south first 06:23, last 23:51. North 10:00-16:00: departures 10:02 to 16:01, 36 gaps from 9 to 12 minutes, mean 9.97, half 4.99, wait 5.02. North 19:00-23:00: 19:01 19:10 19:22 19:30 19:39 19:52 20:01 20:09 20:22 20:47 20:54 21:09 21:23 21:38 21:53 22:08 22:28 22:38 22:59 23:08; gaps 9 12 8 9 13 9 8 13 25 7 15 14 15 15 15 20 10 21 9 (sum 247, sum of squares 3,645); mean 13.00, half 6.50, wait 3,645/494 = 7.38, excess 13.5%; per-second simulation 7.39; gaps over 13 minutes 8 of 19 covering 140 minutes = 56.7%; 20:22-20:47 = 25/247 = 10.1%; even spacing saves 0.88 minutes (about 53 seconds). South 19:00-23:04: 18 gaps 8 to 20, mean 13.56, half 6.78, wait 7.23. Irish Rail DART and Commuter page: \"DART services operate every 10 minutes all day.\" Irish Rail Blackrock station page: \"Station Address Bath Place Blackrock Co. Dublin Eircode A94 E4P9\"; \"Station Staffing Hours Monday to Friday: 05:45 - 00:21 Saturday : 10:00- 22:00 Sunday : 10:00- 22:00\"; \"Car Park Details Opposite Station Pay and Display\"; \"Bikes No bike parking available\"; \"Level access to Platform 1 via station entrance (for services to City centre & Northbound) Access platform 2 via lift or stairs\". DLR Blackrock Park: \"a pleasant green area overlooking Dublin Bay\"; \"a picturesque pond containing a small island\"; \"The Peace Fountain in the pond was constructed in 1986 to mark International Year for Peace\"; \"Pedestrian Entrance - walkway beside Blackrock Dart Station\"; \"Blackrock Park, Rock Road, Blackrock, Co. Dublin\". Blackrock College: \"set in 56 acres of rolling parkland on the broad sweep of Dublin Bay\"; founded in 1860; \"Rock Road Blackrock Co. Dublin A94 FK84\". BFEI: \"Main Street, Blackrock, Co Dublin, A94 X383\"; course area \"Computing, Networks & Digital Design\". UCD Smurfit: \"Carysfort Avenue, Blackrock, Co. Dublin. A94 XF34\".",
+    "localProject": "The waiting-time paradox on the DART. From the NTA Irish Rail timetable feed, the learner lists Blackrock departures by direction (from the next stop, not the per-route direction flag), finds the gaps and compares half the average gap with the true average wait for a passenger arriving at a random moment, sum of squared gaps over twice the total. Afternoon northbound gaps of 9 to 12 minutes give 5.02 against 4.99; evening gaps of 7 to 25 minutes give 7.38 against 6.50, 13.5 percent longer, with one 25-minute gap taking a tenth of the evening. A per-second simulation checks the formula. Lessons: the average of the gaps is not the average of the waits; long intervals are over-sampled; test a formula against a simulation; a timetable is a plan, not a record. New family for the cluster: length-biased sampling / waiting-time paradox.",
+    "requiredMentions": [
+      "7.38",
+      "6.50",
+      "13.5 percent",
+      "20:47",
+      "5.02",
+      "4.99",
+      "56.7 percent",
+      "A94 E4P9",
+      "A94 FK84",
+      "A94 X383",
+      "A94 XF34",
+      "Peace Fountain"
+    ],
+    "sources": [
+      {
+        "claim": "National Transport Authority, Irish Rail GTFS timetable feed valid from 18 September 2026: DART departures at Blackrock (stop 8250IR0030) on Tuesday 22 September 2026.",
+        "url": "https://www.transportforireland.ie/transitData/Data/GTFS_Irish_Rail.zip"
+      },
+      {
+        "claim": "Irish Rail, DART and Commuter: \"DART services operate every 10 minutes all day.\"",
+        "url": "https://www.irishrail.ie/en-ie/about-us/iarnrod-eireann-services/dart-commuter"
+      },
+      {
+        "claim": "Irish Rail, Blackrock station: Bath Place, A94 E4P9; weekday staffing 05:45 to 00:21; car park opposite, pay and display; no bike parking; level access to platform 1 (city centre and northbound), lift or stairs to platform 2.",
+        "url": "https://www.irishrail.ie/en-ie/station/blackrock"
+      },
+      {
+        "claim": "Dún Laoghaire-Rathdown County Council, Blackrock Park: overlooking Dublin Bay; pond with a small island; Peace Fountain constructed in 1986 for International Year for Peace; pedestrian entrance beside the DART station; Rock Road.",
+        "url": "https://www.dlrcoco.ie/parks-outdoors/parks/blackrock-park"
+      },
+      {
+        "claim": "Blackrock College: 56 acres on Dublin Bay; founded 1860; Rock Road, A94 FK84.",
+        "url": "https://www.blackrockcollege.com/"
+      },
+      {
+        "claim": "Blackrock Further Education Institute: Main Street, Blackrock, A94 X383; course area Computing, Networks and Digital Design.",
+        "url": "https://www.bfei.ie/"
+      },
+      {
+        "claim": "UCD Michael Smurfit Graduate Business School: Carysfort Avenue, Blackrock, A94 XF34.",
+        "url": "https://www.smurfitschool.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim about real DART punctuality or bunching: the feed is planned times only.",
+      "Any claim that Irish Rail's \"every 10 minutes\" sentence is wrong: the afternoon timetable matches it; the page only shows what uneven gaps do to waits.",
+      "The Blackrock baths and the local electoral area: the Dún Laoghaire-Rathdown page owns them.",
+      "The founding order and religious ethos of Blackrock College: not needed for a place fact and kept out of any standout.",
+      "Any population figure for Blackrock and any aggregation of census small areas: owner rule for district pages."
+    ]
   }
 }
