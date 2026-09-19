@@ -185,7 +185,7 @@ An honest comparison
 | Fixes hidden primary gaps | Yes, diagnosed live | No | Sometimes |
 | Builds for GCSE, not just now | Yes | No | Varies |
 | Same tutor each time | Yes | N/A | Often |
-| Monthly price | $150 (1:1) / $100 (group) | £5–10 | £28–45/hr |
+| Monthly price | $150 (1:1) / $100 (group) | A small monthly subscription | Charged by the hour |
 
 Homework apps help with the day's task. They won't notice your child has never really understood what a variable is, which is the gap that wrecks GCSE.
 

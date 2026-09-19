@@ -185,7 +185,7 @@ An honest comparison
 | Teaches unseen problem-solving | Yes | Rarely | Varies |
 | Covers pure, mechanics & stats | All three | Usually pure | Varies |
 | Same tutor to the exam | Yes | N/A | Often |
-| Monthly price | $150 (1:1) / $100 (group) | Free–£20 | £35–60/hr |
+| Monthly price | $150 (1:1) / $100 (group) | Free, or a small fee | Charged by the hour |
 
 Revision videos are a useful supplement. They can't watch you attempt an unseen question and coach the reasoning in real time, which is what moves an A-Level grade.
 

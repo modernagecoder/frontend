@@ -185,7 +185,7 @@ An honest comparison
 | Knows Further Maths deeply | Yes | Sometimes | Not all tutors |
 | Covers your exact options | Yes | Generic | Varies |
 | STEP/MAT coaching | Yes | Rarely | Rarely |
-| Monthly price | $150 (1:1) / $100 (group) | Free–£20 | £40–70/hr |
+| Monthly price | $150 (1:1) / $100 (group) | Free, or a small fee | Charged by the hour |
 
 Many general tutors don't teach Further Maths confidently. Ours specialise in it, and in making its hardest ideas feel obvious.
 

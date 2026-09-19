@@ -185,7 +185,7 @@ An honest comparison
 | Fixes the maths underneath | Yes | No | Varies |
 | Coaches method marks & problem-solving | Yes | Limited | Varies |
 | Same tutor to the exam | Yes | N/A | Often |
-| Monthly price | $150 (1:1) / $100 (group) | £5–10 | £30–50/hr |
+| Monthly price | $150 (1:1) / $100 (group) | A small monthly subscription | Charged by the hour |
 
 Revision apps are useful for practice once gaps are known. We add the live diagnosis and the maths fix that turn revision into a higher grade.
 

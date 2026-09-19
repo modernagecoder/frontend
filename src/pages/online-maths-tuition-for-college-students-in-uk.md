@@ -185,7 +185,7 @@ An honest comparison
 | Works to your spec or module | Yes | Generic | Sometimes |
 | Same tutor all year | Yes | N/A | Rarely |
 | Handles proof & STEP | Yes | Limited | Sometimes |
-| Monthly price | $150 (1:1) / $100 (group) | Free–£15 | Free |
+| Monthly price | $150 (1:1) / $100 (group) | Free, or a small fee | Free |
 
 University drop-in help and revision sites are useful free resources. We add a dedicated tutor who knows your course and your gaps from week to week.
 

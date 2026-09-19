@@ -185,7 +185,7 @@ An honest comparison
 | Teaches heuristics, not formulas | Yes | Implicitly | Varies |
 | Same coach, long-term arc | Yes | N/A | Usually not |
 | Adapts pace to the student | Fully | You self-pace | Fixed schedule |
-| Monthly price | $150 (1:1) / $100 (group) | £15–30 | £150–400+ |
+| Monthly price | $150 (1:1) / $100 (group) | A one-off purchase | A one-off course fee |
 
 Great problem books are essential and we use them. What a book can't do is watch your child get stuck and give the single nudge that teaches them to get unstuck themselves.
 

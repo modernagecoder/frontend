@@ -185,7 +185,7 @@ An honest comparison
 | Keeps the child confident | A priority | You manage it | Often not |
 | Same tutor to the exam | Yes | N/A | Usually |
 | Strengthens school maths too | Yes | No | Sometimes |
-| Monthly price | $150 (1:1) / $100 (group) | £10–30 | £30–50/hr |
+| Monthly price | $150 (1:1) / $100 (group) | A one-off purchase | Charged by the hour |
 
 Past-paper packs are a useful part of preparation, and we use them, but only on top of the reasoning and confidence that make a child perform when a question surprises them.
 

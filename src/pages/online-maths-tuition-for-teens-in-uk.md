@@ -185,7 +185,7 @@ An honest comparison
 | Teaches reasoning | Always | Rarely | Varies |
 | Same tutor each time | Yes, throughout | N/A | Often |
 | Works to your exam board | Yes | Generic | Varies |
-| Monthly price | $150 (1:1) / $100 (group) | £5–10 | £30–50/hr |
+| Monthly price | $150 (1:1) / $100 (group) | A small monthly subscription | Charged by the hour |
 
 Revision apps are handy for practice. A local tutor is great if you can afford the hourly rate. We give the live, one-to-one attention of a tutor at a monthly price closer to an app.
 

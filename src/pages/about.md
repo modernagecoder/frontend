@@ -24,7 +24,7 @@ We teach coding and mathematics to learners aged 6-67, kids, teens, college stud
 
 - Python, JavaScript, Java, C++ courses
 - Mathematics from basics to advanced
-- Small batches (max 5-6 students)
+- Small groups (5 to 10 students)
 - Project-based learning approach
 - Weekend & weekday batches available
 
@@ -48,7 +48,7 @@ No death-by-PowerPoint. Students build real games, websites, and apps from week 
 
 ### Small Batches Only
 
-Maximum 5-6 students per batch. Every student gets personal attention. No one gets left behind or bored.
+Groups of 5 to 10 students. Every student gets personal attention. No one gets left behind or bored.
 
 ### Math + Code Together
 
@@ -192,7 +192,7 @@ Not at all! We have courses for complete beginners. We start from the basics and
 
 All classes are conducted live online via video call. You get to interact with the teacher in real-time, ask questions, and work on projects together. All sessions are recorded so you can rewatch them anytime.
 
-Group classes have 5-6 students learning together at a fixed schedule. Personalized 1-on-1 classes are just you and the teacher, with flexible timing and curriculum tailored to your specific goals. 1-on-1 is great for shy students, slow learners, or those with specific requirements.
+Group classes have 5 to 10 students learning together at a fixed schedule. Personalized 1-on-1 classes are just you and the teacher, with flexible timing and curriculum tailored to your specific goals. 1-on-1 is great for shy students, slow learners, or those with specific requirements.
 
 Yes! We offer a free demo class so you can experience our teaching style before enrolling. Just contact us to schedule one at a time that works for you.
 

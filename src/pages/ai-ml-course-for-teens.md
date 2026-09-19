@@ -10,9 +10,9 @@ India's #1 Rated AI & ML Course for Teens
 
 # AI & Machine Learning Course for Kids & Teens
 
-Live online AI & Machine Learning classes for ages 13-18. Small batches of max 6 students. Expert instructors. Real neural networks, real projects, real results, not textbook theory.
+Live online AI & Machine Learning classes for ages 13-18. Small groups of 5 to 10, or one-to-one. Expert instructors. Real neural networks, real projects, real results, not textbook theory.
 
-Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I want to know more about the AI ML course for teens)Ages 13-18Max 6 Students Per BatchRated 4.9/5 by ParentsLive Online ClassesFree Demo ClassReal AI Projects Built
+Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I want to know more about the AI ML course for teens)Ages 13-185 to 10 Students Per GroupRated 4.9/5 by ParentsLive Online ClassesFree Demo ClassReal AI Projects Built
 
 Why This Course Works
 
@@ -28,9 +28,9 @@ Teens trained in AI & ML, across India, UAE, UK, USA
 
 Average rating from parents and students: 600+ reviews
 
-6
+10
 
-Maximum students per batch, every student gets seen
+Most students in a group, and one-to-one is always an option
 
 98%
 
@@ -196,9 +196,9 @@ What Makes Us Different
 
 There are thousands of AI courses out there. Here's why parents and students consistently choose us, and why 98% of our students complete the full course.
 
-### Max 6 Students: Period
+### Groups Capped at 10
 
-Udemy has thousands. Offline coaching centres have 30+. We cap at 6. Every student gets asked questions, gets their code reviewed, and gets stuck time resolved every single class.
+Recorded courses have no teacher watching, and big coaching halls hold 30 or more. Our groups hold 5 to 10, so every student gets asked questions, gets their code reviewed and gets unstuck in every class.
 
 ### Live Coding: Every Class
 
@@ -303,7 +303,7 @@ Compare before you decide. We're confident in how we stack up.
 | Feature | Modern Age Coders | YouTube / Udemy | Offline Coaching |
 | --- | --- | --- | --- |
 | Live classes with expert instructor | ✓ Always live | ✗ Pre-recorded | ✓ (30+ students) |
-| Batch size | Max 6 students | , | 20-40 students |
+| Batch size | 5 to 10 students, or one-to-one | , | 20-40 students |
 | Real deployed AI projects | ✓ 6 projects | ✗ No guidance | ✗ Rarely |
 | Recorded sessions to re-watch | ✓ Every class | ✓ Pre-made | ✗ Usually not |
 | WhatsApp doubt support | ✓ Same-day replies | ✗ | ✗ |

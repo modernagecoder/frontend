@@ -185,7 +185,7 @@ An honest comparison
 | Pitches to the exact CE level | Yes | Generic | Sometimes |
 | Scholarship-level stretch | Yes | Rarely | Not all tutors |
 | Same tutor to the exam | Yes | N/A | Often |
-| Monthly price | $150 (1:1) / $100 (group) | £15–35 | £35–60/hr |
+| Monthly price | $150 (1:1) / $100 (group) | A one-off purchase | Charged by the hour |
 
 Past-paper packs are useful practice and we use them, but only on top of the depth and problem-solving the harder CE and scholarship papers actually test.
 

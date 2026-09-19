@@ -65,9 +65,9 @@ The jump from blocks to Python defeats many Year 7s. Crossing it early, with a g
 
 The subject rewards children who arrive fluent. A year of real Python beforehand turns maybe into confident yes, or informed no.
 
-### UK tutor prices made you blink
+### Weekly help felt out of reach
 
-£30-£50 an hour is the going rate. Our whole month of eight taught hours costs about one of those hours.
+Paying by the hour for two lessons a week adds up fast. Here a month of eight taught hours is one flat fee, and the first lesson is free.
 
 ### Screens are winning the evenings
 
@@ -125,7 +125,7 @@ The honest part
 
 • Your child is 6-14, curious about screens and games, and you want that curiosity built into a real, lasting skill.
 
-• UK tutors at £30-£50 an hour made twice-weekly help feel impossible, and the apps went stale in three weeks.
+• Paying a tutor by the hour made twice-weekly help feel impossible, and the apps went stale in three weeks.
 
 • You want one mentor who knows your child by name, not a rotating cast or a video library with a mascot.
 
@@ -141,9 +141,9 @@ The honest part
 
 Pricing
 
-## Premium teaching. One honest price.
+## A real teacher. One honest price.
 
-You are paying for a real teacher, live, for a full hour, twice a week, the format UK tutors bill £30-£50 an hour for. Our cost base is global, so the price is not.
+You are paying for a real teacher, live, for a full hour, twice a week, the format private tutors in the UK charge for by the hour. Here it is one flat monthly fee.
 
 ### 1:1 Private Mentorship
 
@@ -194,10 +194,10 @@ An honest comparison
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
 | Modern Age Coders | $100-$150 / month, billed in USD | Live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real young programmer, with the GCSE CS road open |
-| Private coding tutors | £30-£50+ / hour | Quality varies; twice-weekly runs £240-£400+ a month | Families who have found, and can keep, a proven local gem |
-| Franchise clubs and camps | £100-£200+ / month or £40+ / day | Group sessions of varying depth, plus the drive | Children who focus better out of the house |
+| Private coding tutors | Charged by the hour | Quality varies; twice-weekly sessions add up quickly | Families who have found, and can keep, a proven local gem |
+| Franchise clubs and camps | A monthly fee, or a day rate for camps | Group sessions of varying depth, plus the drive | Children who focus better out of the house |
 | Code Club / CoderDojo | Free | Volunteer-run, brilliant and brief: an hour a week while term and volunteers last | Always take these too; they complement real tuition |
-| Self-paced apps | £8-£25 / month | Gamified puzzle tracks, no teacher, no one to ask why | Extra practice between real lessons |
+| Self-paced apps | A small monthly subscription | Gamified puzzle tracks, no teacher, no one to ask why | Extra practice between real lessons |
 
 Competitor figures are typical published UK prices as of July 2026. See our full comparisons: [vs Outschool](/modern-age-coders-vs-outschool) · [vs Tynker](/modern-age-coders-vs-tynker) · [best online coding classes for kids 2026](/best-online-coding-classes-for-kids-2026).
 

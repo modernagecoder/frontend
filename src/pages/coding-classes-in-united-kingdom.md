@@ -332,7 +332,7 @@ What's includedSmall-group cohort1:1 Private mentorNotesMonthly costUSD 100/ moU
 
 Honest comparison. State-school after-school clubs, Tutorful / MyTutor private tutors, free YouTube, big online schools. They all have a place.
 
-What mattersModern Age CodersSchool / Code ClubTutorful · MyTutorYouTube · free toolsSame mentor weekly, all year✓ Yes: No~ Sometimes: NoReal Python, real Git, real deploy✓ Week 1~ Sometimes~ Depends~ Self-drivenModern AI & agentic-AI engineering✓ Built in, No, Rare~ TutorialsExam-board specific (AQA / OCR / Pearson)✓ Mapped✓ Mapped~ Tutor-dependent: NoOxbridge / Russell-Group prep✓ Yes: No~ Rare: NoMonthly costUSD 150 (1:1) / USD 100 (group)Free£25, £60 per hourFreeCancel / pause✓ Monthly✓ Term-based✓ Hourly✓ FreeWhere British families learn with us
+What mattersModern Age CodersSchool / Code ClubTutorful · MyTutorYouTube · free toolsSame mentor weekly, all year✓ Yes: No~ Sometimes: NoReal Python, real Git, real deploy✓ Week 1~ Sometimes~ Depends~ Self-drivenModern AI & agentic-AI engineering✓ Built in, No, Rare~ TutorialsExam-board specific (AQA / OCR / Pearson)✓ Mapped✓ Mapped~ Tutor-dependent: NoOxbridge / Russell-Group prep✓ Yes: No~ Rare: NoMonthly costUSD 150 (1:1) / USD 100 (group)FreeCharged by the hourFreeCancel / pause✓ Monthly✓ Term-based✓ Hourly✓ FreeWhere British families learn with us
 
 ## Coding classes online: locally aware, exam-board aware.
 

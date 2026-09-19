@@ -1,18 +1,18 @@
 ---
 title: "Java Programming for Kids & Teens: Learn Java Online | Modern Age Coders"
-description: "Java programming course for kids aged 10+ and teens. Build Android apps, learn OOP, and prepare for AP Computer Science. Live 1-on-1 classes, max 6 students, real projects. Free demo class!"
+description: "Java programming course for kids aged 10+ and teens. Build Android apps, learn OOP, and prepare for AP Computer Science. Live one-to-one or small-group classes (5 to 10 students), real projects. Free demo class!"
 canonical: https://learn.modernagecoders.com/java-programming-for-kids-teens
 source: src/pages/java-programming-for-kids-teens.html
 ---
-> Java programming course for kids aged 10+ and teens. Build Android apps, learn OOP, and prepare for AP Computer Science. Live 1-on-1 classes, max 6 students, real projects. Free demo class!
+> Java programming course for kids aged 10+ and teens. Build Android apps, learn OOP, and prepare for AP Computer Science. Live one-to-one or small-group classes (5 to 10 students), real projects. Free demo class!
 
 India's Most Loved Java Course for Kids & Teens
 
 # Java Programming for Kids & Teens: Build Real Applications
 
-Java programming for kids opens the door to Android app development, game creation, and competitive programming. Our Java course is designed for young learners aged 10+ with project-based learning. Live 1-on-1 classes, max 6 students per batch. Expert instructors. Students from 25+ countries. Free demo class.
+Java programming for kids opens the door to Android app development, game creation, and competitive programming. Our Java course is designed for young learners aged 10+ with project-based learning. Live one-to-one classes, or small groups of 5 to 10. Expert instructors. Students from 25+ countries. Free demo class.
 
-Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I want to know more about Java programming for kids and teens)Ages 8-18Max 6 Students Per BatchRated 4.9/5 by ParentsLive Online ClassesFree Demo ClassCBSE & ICSE Aligned
+Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I want to know more about Java programming for kids and teens)Ages 8-185 to 10 Students Per GroupRated 4.9/5 by ParentsLive Online ClassesFree Demo ClassCBSE & ICSE Aligned
 
 Proven Track Record
 
@@ -28,9 +28,9 @@ Kids & teens taught Java, from India, UAE, UK, USA, Canada & Singapore
 
 Average parent rating across 700+ verified reviews on Google & social media
 
-6
+10
 
-Maximum students per batch, no crowded classrooms, ever
+Most students in a group, no crowded classrooms, ever
 
 97%
 
@@ -269,9 +269,9 @@ What Makes Us Different
 
 We have one job: make your child love Java and get genuinely good at it. Here's exactly how we do that.
 
-### Max 6 Students: Every Class
+### Groups Capped at 10: Every Class
 
-Coaching centres have 25-40 kids. We have 6. Your child's name is remembered, their code is seen, their questions are answered, in every single class, not once in a while.
+Coaching centres have 25 to 40 kids. Our groups hold 5 to 10. Your child's name is remembered, their code is seen, their questions are answered, in every single class, not once in a while.
 
 ### Two Age-Specific Tracks
 
@@ -376,7 +376,7 @@ We don't ask you to trust us blindly. Compare every feature before you decide.
 | Feature | Modern Age Coders | YouTube / Udemy | Offline Coaching |
 | --- | --- | --- | --- |
 | Live classes with expert instructor | ✓ Always live | ✗ Pre-recorded | ✓ (crowded) |
-| Batch size | Max 6 students | None | 20-40 students |
+| Batch size | 5 to 10 students, or one-to-one | None | 20-40 students |
 | Separate Kids and Teens tracks | ✓ Age-appropriate | ✗ Same content | ✗ Usually mixed |
 | CBSE / ICSE curriculum aligned | ✓ Fully aligned | ✗ | Varies |
 | Recorded sessions provided | ✓ Every class | ✓ Pre-made | ✗ Rarely |

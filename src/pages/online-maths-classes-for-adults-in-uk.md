@@ -185,7 +185,7 @@ An honest comparison
 | Fills your specific gaps | Yes, diagnosed live | No | Rarely 1:1 |
 | Patient with maths anxiety | Built for it | You're on your own | Class setting |
 | Same tutor each time | Yes | N/A | Usually |
-| Monthly price | $150 (1:1) / $100 (group) | Free–£20 | Varies |
+| Monthly price | $150 (1:1) / $100 (group) | Free, or a small fee | Varies |
 
 Free courses are great if you already know what's missing. We add a tutor who finds the gaps for you and stays patient while you close them, without a fixed class to keep up with.
 

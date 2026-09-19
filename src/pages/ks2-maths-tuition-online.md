@@ -185,7 +185,7 @@ An honest comparison
 | Notices quiet confusion | Yes, live, 1:1 | No | Usually |
 | Same tutor each time | Yes | N/A | Often |
 | Builds for secondary, not just SATs | Yes | No | Varies |
-| Monthly price | $150 (1:1) / $100 (group) | £5–10 | £25–40/hr |
+| Monthly price | $150 (1:1) / $100 (group) | A small monthly subscription | Charged by the hour |
 
 SATs apps are fine for extra practice. They can't notice your child quietly guessing instead of understanding, which is precisely what we catch and fix.
 
