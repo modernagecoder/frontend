@@ -15345,5 +15345,55 @@
       "Any population figure for Castletroy and any aggregation of census small areas: owner rule for district pages.",
       "gov.ie school profiles: bot-protected (502/403) elsewhere in this session; own sites and limerick.ie used instead."
     ]
+  },
+  "coding-classes-in-tallaght-dublin": {
+    "market": "Tallaght",
+    "bodyClass": "cg-tlg",
+    "pageType": "district",
+    "curriculumAuthority": "Tallaght, Dublin 24, named sources only (owner rule for districts), read 20 September 2026. EPA airquality.ie station EPA-44: \"The Tallaght site is located on the The Old Bawn Road. This site is operated by South Dublin County Council. Monitoring is done using continuous monitors for Nitrogen Dioxide and Particulate Matter (PM10 and PM2.5).\" (source repeats \"the\"). Hourly NO2 2025 downloaded in two six-month requests: 8,207 values. Our arithmetic (dist/boot.js): days with at least 18 hourly values 339 (243 weekday, 96 weekend); mean of daily means weekday 12.20, weekend 10.05, difference 2.15, ratio 1.214; by day Sun 9.2 (48 days), Mon 10.8 (49), Tue 12.6 (49), Wed 12.6 (50), Thu 12.9 (47), Fri 12.2 (48), Sat 10.9 (48); bootstrap 10,000 resamples of days with replacement, seed 20250101, 95% interval 0.39 to 3.92, share of resampled differences at or below zero 0.0084; 44 weeks with five weekday and two weekend days measured, weekend higher in 14, most negative week of 2025-03-03 (-14.39), most positive week of 2025-03-17 (+12.21), median +2.40; January only, 23 weekdays and 8 weekend days, difference 0.69, interval -6.02 to 7.28 (seed 7). Consecutive-day daily means: 334 pairs, lag-1 correlation 0.59. Block bootstrap resampling 52 calendar weeks (seed 20250102): 95% interval 0.56 to 3.71, share at or below zero 0.0047. TII Luas stops list: Tallaght (TAL) isParkRide 1, isCycleRide 1. South Dublin County Council own site: \"County Hall Tallaght, Dublin 24, D24 A3XC\". Rua Red: \"Rua Red, South Dublin Arts Centre Plás Pharthalán Tallaght, D24 KV8N\" (also printed Parthalán); gallery \"Monday to Saturday: 10am\" to \"6pm\"; building \"Monday to Friday: 9.30am\" to \"9.30pm\", Saturday 10am to 6pm (source separates times with dashes). Old Bawn Community School: \"Dún An Óir, Old Bawn, Tallaght, Dublin 24, D24 HP38\". TII daily traffic count files (data.tii.ie/Datasets/TrafficCountData) returned 403 Access Denied on 20 September 2026 and were not used.",
+    "localProject": "Uncertainty by resampling. From a year of provisional hourly NO2 at the EPA's Tallaght station, the learner builds daily means (days with at least 18 hours), compares weekdays (243 days, 12.20) with weekends (96 days, 10.05), and bootstraps the difference 10,000 times with a fixed seed: 2.15 with a 95% interval of 0.39 to 3.92. Single weeks disagree (weekend higher in 14 of 44) and one month alone gives an interval of -6.02 to 7.28 that includes zero. Lessons: report an interval with every difference; less data means wider intervals; state the independence assumption (days are not fully independent). New family for the cluster: bootstrap and uncertainty intervals.",
+    "requiredMentions": [
+      "12.20",
+      "10.05",
+      "2.15",
+      "0.39",
+      "3.92",
+      "243",
+      "96",
+      "7.28",
+      "14 of the 44",
+      "D24 A3XC",
+      "D24 KV8N",
+      "D24 HP38"
+    ],
+    "sources": [
+      {
+        "claim": "EPA airquality.ie, Tallaght station EPA-44: on the Old Bawn Road, operated by South Dublin County Council, continuous monitors for nitrogen dioxide and particulate matter; hourly readings for 2025, provisional.",
+        "url": "https://airquality.ie/readings?station=EPA-44"
+      },
+      {
+        "claim": "TII Luas stops list: Tallaght flagged park and ride and cycle and ride.",
+        "url": "http://luasforecasts.rpa.ie/xml/get.ashx?action=stops&encrypt=false"
+      },
+      {
+        "claim": "South Dublin County Council: County Hall, Tallaght, Dublin 24, D24 A3XC.",
+        "url": "https://www.sdcc.ie/"
+      },
+      {
+        "claim": "Rua Red, South Dublin Arts Centre: Plás Pharthalán, Tallaght, D24 KV8N; gallery open Monday to Saturday 10am to 6pm; building open to 9.30pm on weekdays.",
+        "url": "https://www.ruared.ie/"
+      },
+      {
+        "claim": "Old Bawn Community School: Dún An Óir, Old Bawn, Tallaght, Dublin 24, D24 HP38.",
+        "url": "https://www.oldbawncs.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any health or legal-limit statement about Tallaght's air: the page compares weekdays with weekends only; limits belong to the Blanchardstown page.",
+      "Any cause for the weekday difference (traffic or otherwise): the data show the pattern, not its cause.",
+      "TII traffic counts: the daily files returned 403 and were not worked around.",
+      "Tallaght LEA figures, the added 79,822, TU Dublin Tallaght and Tallaght University Hospital: the South Dublin page owns them.",
+      "Any population figure for Tallaght and any aggregation of census small areas: owner rule for district pages."
+    ]
   }
 }

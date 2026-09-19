@@ -979,3 +979,4 @@
 .cg-root.cg-bcg  { --cg-accent: #622718; --cg-accent-soft: rgba(98,39,24,.10); }   /* Ballincollig: a gunpowder-mill brick red from the widened solver search, apart from the Cork city plum and the other district accents */
 .cg-root.cg-dgc  { --cg-accent: #173445; --cg-accent-soft: rgba(23,52,69,.10); }   /* Douglas: a deep harbour blue from the widened solver search, apart from the Cork city plum, the Ballincollig brick and the Bray slate */
 .cg-root.cg-ctr  { --cg-accent: #473E15; --cg-accent-soft: rgba(71,62,21,.10); }   /* Castletroy: a river-bank olive bronze from the widened solver search, apart from the Limerick rust and the Navan olive */
+.cg-root.cg-tlg  { --cg-accent: #9B276B; --cg-accent-soft: rgba(155,39,107,.10); }   /* Tallaght: a deep plum from the widened solver search, apart from the South Dublin purple, the Lucan teal and the run of dark blues on nearby districts */
