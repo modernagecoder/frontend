@@ -16350,5 +16350,63 @@
       "The old hub's \"Oxbridge alumni\" teaching claim and its Oxbridge, CSAT and MAT admissions preparation: unverified, and admissions work is excluded by owner decision 6.",
       "Pound figures of any kind, including competitor rates the old hub printed: USD is the only currency on UK pages."
     ]
+  },
+  "best-coding-class-in-london": {
+    "market": "London",
+    "bodyClass": "cg-ldn",
+    "pageType": "city",
+    "curriculumAuthority": "London. ONS Census 2021 table TS001 via Nomis (NM_2021_1), London region E12000007: 8,799,728 usual residents (8,699,834 in households, 99,894 in communal establishments). London Councils, About us: \"London Councils is the collective of London local government, the 32 boroughs and the City of London Corporation.\" London Datastore, About: \"The London Datastore has been created by the Greater London Authority (GLA)\". London Datastore API, our test at 19:07 UTC on 19 September 2026: package_search count 1,302; results returned 1,302 with no rows parameter, rows=0, 100, 1000, 1001 and 5000; start=100 onwards also returned 1,302 each; a loop of start += rows until an empty page, capped at 51 calls, collected 66,402 records, 1,302 distinct (same with rows=1000 and with sort=id asc); package_list 1,302 ids, identical to the search ids. TfL press release, 4 May 2022: \"the Elizabeth line will open on Tuesday 24 May 2022\"; \"12 trains per hour between Paddington and Abbey Wood from Monday to Saturday 06:30 to 23:00\"; \"Eight tunnel boring machines (TBM) created the new tunnels under London\"; services to Reading, Heathrow and Shenfield. The Postal Museum, Rowland Hill's Legacy (PDF): \"When Rowland became Secretary to the Post Office in 1854, he introduced postcodes to London. Rowland's plan was to divide London into 10 postal districts with letter carriers based at new District Offices. Other big cities were divided into postal regions in the 1860s, but elsewhere postcodes were not introduced until after the Second World War.\"",
+    "localProject": "The loop that never ends. The GLA's London Datastore answers a CKAN-style package_search that, in our test on 19 September 2026, reported count 1,302 and returned all 1,302 datasets whatever rows and start were sent (rows=0, 100, 1000, 1001, 5000; start=100 onwards). The standard paging loop (start += rows until an empty page) never terminates: capped at 51 calls it collected 66,402 records, 1,302 distinct; package_list gave the same 1,302 ids. Fix: read the count first, stop when distinct ids reach it, cap the calls, deduplicate by id, cross-check a second listing. AI angle: an assistant writes the standard loop, correct in general and wrong for this server. Lesson family: an API that ignores its parameters, loop termination and defensive consumption. Checked free on 20 September 2026 against every dossier (pagination, infinite loop, termination, ignored parameters, idempotency: 0) and distinct from spent neighbours: rate limiting and caching (Ibri, Apeldoorn, Haarlem), double counting after a join (Ash Sharqiyah North), many-to-many (Dhank), shortest paths (Diemen, Rathfarnham).",
+    "requiredMentions": [
+      "8,799,728",
+      "1,302",
+      "66,402",
+      "package_search",
+      "package_list",
+      "London Councils",
+      "City of London Corporation",
+      "Greater London Authority",
+      "London Datastore",
+      "Rowland Hill",
+      "Abbey Wood",
+      "tunnel boring"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), London E12000007: Total all usual residents 8,799,728.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?date=latest&geography=2013265927&measures=20100"
+      },
+      {
+        "claim": "London Councils, About us: \"London Councils is the collective of London local government, the 32 boroughs and the City of London Corporation.\"",
+        "url": "https://www.londoncouncils.gov.uk/who-we-are/about-us"
+      },
+      {
+        "claim": "London Datastore, About: \"The London Datastore has been created by the Greater London Authority (GLA)\".",
+        "url": "https://data.london.gov.uk/about/"
+      },
+      {
+        "claim": "London Datastore API, package_search, 19 September 2026: count 1302; the full catalogue returned for every rows and start value tried.",
+        "url": "https://data.london.gov.uk/api/action/package_search"
+      },
+      {
+        "claim": "London Datastore API, package_list, 19 September 2026: 1302 ids.",
+        "url": "https://data.london.gov.uk/api/action/package_list"
+      },
+      {
+        "claim": "TfL press release, 4 May 2022: the Elizabeth line opens Tuesday 24 May 2022; 12 trains per hour Paddington to Abbey Wood, Monday to Saturday 06:30 to 23:00; eight tunnel boring machines.",
+        "url": "https://tfl.gov.uk/info-for/media/press-releases/2022/may/elizabeth-line-to-open-on-24-may-2022"
+      },
+      {
+        "claim": "The Postal Museum, Rowland Hill's Legacy: Hill, Secretary to the Post Office from 1854, introduced postcodes to London, 10 postal districts; elsewhere postcodes not introduced until after the Second World War.",
+        "url": "https://www.postalmuseum.org/wp-content/uploads/2017/02/4-Rowland-Hills-Legacy.pdf"
+      }
+    ],
+    "rejectedClaims": [
+      "The 1917 numbering of London sub-districts (the head district as 1, the rest alphabetical by delivery office): found on Wikipedia and GENUKI only; the Postal Museum's HTML pages returned 403 and were not circumvented.",
+      "The year the GLA was established and the year the London Datastore launched: london.gov.uk returned 403 and the Datastore about page gives no date.",
+      "London Underground line and station counts: not found on a TfL page read for this build.",
+      "Census ethnicity or country of birth for London: excluded as a standout; used only to order the build.",
+      "Anything the AI London page owns: cycle hire data, the AI Opportunities Action Plan, AI hiring figures, London clock time."
+    ]
   }
 }

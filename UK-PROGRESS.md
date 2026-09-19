@@ -50,6 +50,7 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 
 | # | Slug | Type | Words | Worst overlap | AI H2 used | Lesson family | Commit |
 |---|------|------|-------|---------------|------------|---------------|--------|
+| 1 | best-coding-class-in-london (ldn, #A52B1D) | cg- city, hub for the London boroughs (Phase 1 preview) | 3,705 | 0.8% vs coding-classes-in-dun-laoghaire-rathdown | the loop that never ends: London Datastore package_search ignores rows and start | API that ignores its parameters; stop on the count, cap calls, deduplicate | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

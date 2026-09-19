@@ -136,6 +136,12 @@ There is more than one way to count the UK's places. The government's list of ci
 
 For younger children there is [online coding for kids in the UK](/online-coding-classes-for-kids-uk). Maths by stage of life has its own pages for [primary children](/online-maths-tuition-for-kids-in-uk), [teenagers](/online-maths-tuition-for-teens-in-uk), [sixth form and university students](/online-maths-tuition-for-college-students-in-uk) and [adults](/online-maths-classes-for-adults-in-uk).
 
+## Every UK page in this series
+
+Each page below is written for its own place, exam or competition, with its own project and its own sources.
+
+**Cities:** [London](/best-coding-class-in-london)
+
 ## From a rule with an edge to a program that respects it
 
 The free lesson places a learner by watching real work. The nation decides the vocabulary; the ladder underneath is the same.
