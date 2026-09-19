@@ -15395,5 +15395,59 @@
       "Tallaght LEA figures, the added 79,822, TU Dublin Tallaght and Tallaght University Hospital: the South Dublin page owns them.",
       "Any population figure for Tallaght and any aggregation of census small areas: owner rule for district pages."
     ]
+  },
+  "coding-classes-in-clondalkin-dublin": {
+    "market": "Clondalkin",
+    "bodyClass": "cg-cld",
+    "pageType": "district",
+    "curriculumAuthority": "Clondalkin, Dublin 22, named sources only (owner rule for districts), read 20 September 2026. South Dublin County Council, The Round Tower tourism page: \"one of only four remaining round towers in Co. Dublin\"; \"the tower stands at 27.5 metres high, still has its original cap and is thought to be the slenderest of all the round towers in Ireland\"; \"Tower Road, Clondalkin, Dublin 22, D22 DV56\". The Round Tower site and SDCC news release: \"The tower is 27.5 metres high and just four metres wide at the bottom\"; \"a raised doorway and four windows at the top, which face towards the four compass points: north, south, east and west\"; \"Inside there were once six floors ... There are now five floors\"; visitor centre \"opened its door on Monday 3rd July, 2017\". SDCC North Clondalkin Library: \"Liscarne Close Rowlagh Dublin 22 D22 E2Y2\"; \"a purpose-built modern library which opened to the public in December 2020\"; \"View our VR library experience below- compatible with a Meta Quest 2 VR headset\"; Creative Studio at NCL. SDCC Clondalkin Library: \"Monastery Road, Clondalkin, Dublin D22 XPO3\" (letter O, not a valid eircode character; not printed); \"Monday to Thursday: 9.45am - 8.00pm\". Irish Rail Clondalkin Fonthill: \"Fonthill Road Dublin 22\", \"Eircode D22Y2F9\". Our arithmetic: height = distance x tan(angle) + eye height (assumed 1.5 m, level ground); angle to a 27.5 m top and error for +/-1 degree: 5 m 79.1 degrees +2.69/-2.24; 10 m 69.0 +1.42/-1.30; 20 m 52.4 +0.96/-0.92; 26 m 45.0 +0.92/-0.89; 40 m 33.0 +1.00/-0.98; 80 m 18.0 +1.55/-1.54; 150 m 9.8 +2.71/-2.69; search 1 to 200 m in 0.5 m steps: least worst-case error 0.92 m at 26.5 m; distance misjudged 5% long at 26 m adds 1.30 m; height/base 27.5/4 = 6.88. SDCC pages give the age as \"Thought to have been built around 790 AD\" and \"about 1000 years old\": not used.",
+    "localProject": "Sensitivity to measurement error. From South Dublin County Council's height for the Round Tower (27.5 m), the learner writes a height-from-angle function, then loops over viewing distances adding and subtracting one degree of angle error: the answer moves by up to 2.69 m at 5 m, about 0.9 m at 26 m (45 degrees, the best place, found by search at 26.5 m), and about 2.7 m at 150 m; a 5% distance error at 26 m adds 1.30 m. Assumptions (eye height 1.5 m, level ground) are stated. Lessons: nudge each input to see which errors matter; choose a setup that minimises error; report a margin with the answer. New family for the cluster: sensitivity analysis and error propagation (constructive, no dataset).",
+    "requiredMentions": [
+      "27.5",
+      "0.92",
+      "2.69",
+      "2.71",
+      "6.88",
+      "1.30",
+      "26 metres",
+      "3 July 2017",
+      "December 2020",
+      "D22 DV56",
+      "D22 E2Y2",
+      "D22 Y2F9"
+    ],
+    "sources": [
+      {
+        "claim": "South Dublin County Council, The Round Tower: one of only four remaining round towers in County Dublin; 27.5 metres high with its original cap; thought to be the slenderest in Ireland; Tower Road, Clondalkin, D22 DV56.",
+        "url": "https://www.sdcc.ie/en/services/tourism/the-round-tower/"
+      },
+      {
+        "claim": "South Dublin County Council news release: 27.5 metres high and four metres wide at the bottom; raised doorway; four windows facing the compass points; once six floors; visitor centre opened Monday 3 July 2017.",
+        "url": "https://www.sdcc.ie/en/news/the-round-tower-visitor-centre-clondalkin-marks-its-second-birthday-.html"
+      },
+      {
+        "claim": "The Round Tower at Clondalkin Village: 27.5 meters high and four meters wide at the bottom; now five floors.",
+        "url": "https://www.dublinsoutdoors.ie/round-tower-clondalkin-village/about-the-round-tower/"
+      },
+      {
+        "claim": "South Dublin County Council, North Clondalkin Library: Liscarne Close, Rowlagh, D22 E2Y2; purpose-built, opened December 2020; VR library experience for Meta Quest 2.",
+        "url": "https://www.sdcc.ie/en/services/sport-and-recreation/libraries/join-library-login/find-a-library/north-clondalkin/"
+      },
+      {
+        "claim": "South Dublin County Council, Clondalkin Library: Monastery Road; open to 8pm Monday to Thursday (eircode printed with a letter O, not repeated).",
+        "url": "https://www.sdcc.ie/en/services/sport-and-recreation/libraries/join-library-login/find-a-library/clondalkin1/"
+      },
+      {
+        "claim": "Irish Rail, Clondalkin Fonthill station: Fonthill Road, Dublin 22, D22 Y2F9.",
+        "url": "https://www.irishrail.ie/en-ie/station/clondalkin-fonthill"
+      }
+    ],
+    "rejectedClaims": [
+      "Any age for the tower: the council's pages give \"around 790 AD\" and \"about 1000 years old\"; self-contradicting sources are the Kerry page's lesson.",
+      "Clondalkin Library's eircode as printed (\"XPO3\"): contains a letter eircodes do not use.",
+      "Any claim about the tower's building stone or construction method: not sourced.",
+      "The Clondalkin LEA figure and Coláiste Bríde: the South Dublin page owns them.",
+      "Any population figure for Clondalkin and any aggregation of census small areas: owner rule for district pages."
+    ]
   }
 }
