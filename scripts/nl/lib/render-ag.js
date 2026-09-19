@@ -125,7 +125,10 @@ window.${fn} = function (e) {
   var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
   var age = (form.querySelector('select[name="age"]') || {}).value || '';
   var note = form.querySelector('.ag-form-note');
-  var phoneDigits = phoneRaw.replace(/\\D/g, '');
+  var phoneDigits = phoneRaw.replace(/\\D/g, '');${m.stripTrunk ? `
+  if (phoneDigits.indexOf('00${String(m.dial).replace(/\D/g, '')}') === 0) phoneDigits = phoneDigits.slice(${String(m.dial).replace(/\D/g, '').length + 2});
+  else if (phoneDigits.indexOf('${String(m.dial).replace(/\D/g, '')}') === 0 && phoneDigits.length > ${m.minDigits}) phoneDigits = phoneDigits.slice(${String(m.dial).replace(/\D/g, '').length});
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);` : ''}
   if (phoneDigits.length < ${m.minDigits}) { if (note) note.textContent = '${m.iso ? 'Please enter a valid ' + m.name + ' phone number.' : 'Please enter a valid phone number, including your country code.'}'; return; }
   var btn = form.querySelector('button[type="submit"]');
   var oldText = btn.textContent;

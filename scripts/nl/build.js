@@ -23,7 +23,7 @@ const ROOT = path.resolve(__dirname, '..', '..');
 const slug = process.argv[2];
 if (!slug) { console.error('usage: node scripts/nl/build.js <slug>'); process.exit(2); }
 
-const MARKET_DIRS = ['nl', 'ie'];
+const MARKET_DIRS = ['nl', 'ie', 'uk'];
 const modPath = MARKET_DIRS.map(d => path.join(ROOT, 'content', d, slug + '.js')).find(p => fs.existsSync(p));
 if (!modPath) { console.error('no content module for ' + slug + ' in content/' + MARKET_DIRS.join(', content/')); process.exit(2); }
 delete require.cache[require.resolve(modPath)];

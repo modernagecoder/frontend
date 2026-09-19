@@ -302,10 +302,14 @@ function listStaticPages() {
     return out;
 }
 
-function generate() {
+function generate(only) {
     console.log('🚀 Generating markdown twins for static pages…');
 
-    const files = listStaticPages();
+    // `node scripts/generate-static-md.js <slug> [<slug>...]` regenerates just those
+    // pages' twins, so a hand edit to one page does not rewrite every other .md.
+    const files = only && only.length
+        ? only.map(s => path.join(PAGES_DIR, s.replace(/\.(html|md)$/, '') + '.html')).filter(f => fs.existsSync(f))
+        : listStaticPages();
     console.log(`📄 Found ${files.length} static pages`);
 
     let ok = 0, skipped = 0, failed = 0, injected = 0;
@@ -343,7 +347,7 @@ function generate() {
 
 if (require.main === module) {
     try {
-        generate();
+        generate(process.argv.slice(2));
     } catch (e) {
         console.error('❌ generate-static-md failed:', e.message);
         console.error(e.stack);
