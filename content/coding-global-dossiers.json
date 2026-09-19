@@ -15105,5 +15105,69 @@
       "The gov.ie school profile (502 and 403 on 19 September 2026): not worked around; the school's own site is used.",
       "Leopardstown Racecourse as a Sandyford place: its own site gives Foxrock."
     ]
+  },
+  "coding-classes-in-dundrum-dublin": {
+    "market": "Dundrum",
+    "bodyClass": "cg-ddr",
+    "pageType": "district",
+    "curriculumAuthority": "Dundrum, Dublin 14, named sources only (owner rule for districts), read 20 September 2026. Met Eireann via data.gov.ie, \"Dublin (Dundrum) Rainfall Data\": \"Daily and monthly rainfall records for our station at Dublin (Dundrum) in Co. Dublin. This station is now closed.\"; dly8023.csv header \"Station Name: DUBLIN (DUNDRUM)\", \"Station Height: 61 M\", \"Latitude:53.289 ,Longitude: -6.250\", date 09 to 09 utc; 7,305 daily rows 01-dec-1975 to 30-nov-1995; indicators 0 x6,233, 1 x64, 4 x1,007, 5 x1. Our arithmetic (dist/rp.js): complete years 1976-1994 (19); yearly maxima largest to smallest 86.3 (25/8/1986), 70.2 (11/6/1993), 51.7, 44.6, 41.8, 39.9, 36.9, 34.8, 34.5, 34.4, 33.5, 32.6, 31.5, 30.2, 28.0, 27.4, 26.1, 24.0, 20.4 mm, all indicator 0; mean 38.4, standard deviation 16.1; Gumbel by moments mu 31.1, beta 12.6; return levels 2 years 35.7, 10 years 59.4, 20 years 68.4, 50 years 80.1, 100 years 88.9 mm; without 1986, 100 years 71.7; first ten years (1976-1985) 100 years 61.3, last nine (1986-1994) 110.8; return period of 86.3 mm 82 years with all years, 509 without 1986; of 70.2 mm 23 and 85. Met Eireann \"Exceptional weather events: Storm- Hurricane Charley, August 1986\" (Aug1986_HurCharlie.pdf, scanned; read as page image): Monthly Weather Bulletin supplement to August 1986, \"Offshoot of Hurricane Charley hits Ireland on 25th\", \"Worst flooding in Dublin for 100 years\", \"New rainfall records\", photograph captioned \"The scene during the night of August 25th/26th on the bridge over the Dodder at Ballsbridge in Dublin\". Met Eireann \"Exceptional weather events: Rainfall, June 1993\" (June1993_Rain.pdf, scanned): \"Highest percentage totals were recorded in the east over parts of the Dublin\" and Kildare area \"where they exceeded 3 times normal\", \"this was due to record rainfall on 11th\". data.gov.ie search \"Dundrum\": five Met Eireann stations, Dundrum (Garryduff), Dundrum (Knockavilla), Dundrum G.S. and Dundrum (Stook W.W.) in Co. Tipperary, and Dublin (Dundrum). Airfield Estate: \"Airfield Estate, Overend Way, Dundrum, Dublin 14, Ireland, D14 EE77\", coordinates 53 17 17.5 N, 6 14 13.4 W (0.87 km from the gauge by haversine), \"38 Acres of Farm, Gardens and Family Fun\", Registered Charity No. 20012670. Holy Cross School: \"Upper Kilmacud Road, Dundrum, D14 AD66\". TII Luas stops list: Dundrum (DUN) isParkRide 0, isCycleRide 1. DLR development plan 2022-2028 boundary plan areas: \"Boundary of Dundrum Local Area Plan - Proposed\", maps \"1, 5\", 149 hectares.",
+    "localProject": "Return periods from yearly maxima and their sensitivity. From Met Eireann's closed Dublin (Dundrum) gauge, the learner takes the wettest day of each complete year 1976-1994, ranks them (the largest gets a simple return period of 20 years), fits a Gumbel curve by moments (mean 38.4, sd 16.1) and reads off the 100-year day, 88.9 mm. Leaving out 1986, the year of Hurricane Charley (86.3 mm on 25 August), gives 71.7 mm; the two decades separately give 61.3 and 110.8. Charley itself is a 1-in-82 day with 1986 in the fit and 1-in-509 without; 11 June 1993 (70.2 mm) is 1-in-23 or 1-in-85. Lessons: tail estimates beyond the record come from a stretched curve; report the record length and a leave-one-out range; a storm is part of the evidence about its own rarity. New family for the cluster: extremes and return periods.",
+    "requiredMentions": [
+      "86.3",
+      "70.2",
+      "88.9",
+      "71.7",
+      "509",
+      "61.3",
+      "110.8",
+      "82 years",
+      "38 acres",
+      "149 hectares",
+      "D14 EE77",
+      "D14 AD66"
+    ],
+    "sources": [
+      {
+        "claim": "Met Eireann via data.gov.ie, Dublin (Dundrum) Rainfall Data (station now closed): daily rainfall December 1975 to November 1995, 61 m, 53.289 N, 6.250 W, 09 to 09 UTC days, indicator on each day.",
+        "url": "https://clidata.met.ie/cli/climate_data/webdatac/dly8023.csv"
+      },
+      {
+        "claim": "Met Eireann exceptional weather events, Storm, Hurricane Charley, August 1986: Monthly Weather Bulletin supplement, \"Offshoot of Hurricane Charley hits Ireland on 25th\", \"Worst flooding in Dublin for 100 years\", photograph of the Dodder at Ballsbridge on the night of 25 to 26 August.",
+        "url": "https://www.met.ie/cms/assets/uploads/2017/08/Aug1986_HurCharlie.pdf"
+      },
+      {
+        "claim": "Met Eireann exceptional weather events, Rainfall, June 1993: totals in parts of the Dublin and Kildare area exceeded three times normal \"due to record rainfall on 11th\".",
+        "url": "https://www.met.ie/cms/assets/uploads/2017/08/June1993_Rain.pdf"
+      },
+      {
+        "claim": "Met Eireann major weather events index, listing both events.",
+        "url": "https://www.met.ie/climate/major-weather-events"
+      },
+      {
+        "claim": "Airfield Estate: Overend Way, Dundrum, Dublin 14, D14 EE77; 38 acres of farm and gardens; registered charity.",
+        "url": "https://www.airfield.ie/"
+      },
+      {
+        "claim": "Holy Cross School: Upper Kilmacud Road, Dundrum, D14 AD66.",
+        "url": "https://www.holycrossschool.ie/"
+      },
+      {
+        "claim": "TII Luas stops list: Dundrum flagged cycle and ride, not park and ride.",
+        "url": "http://luasforecasts.rpa.ie/xml/get.ashx?action=stops&encrypt=false"
+      },
+      {
+        "claim": "Dun Laoghaire-Rathdown County Council development plan 2022-2028 boundary plan areas: Dundrum Local Area Plan, proposed, 149 hectares, maps 1 and 5.",
+        "url": "https://data.smartdublin.ie/dataset/70f527be-1f31-4c37-9c88-c1e757e5140b/resource/8da69700-a03e-429a-abcf-346850a30ddf/download/devplan_2022_2028_boundary_plan_areas.csv"
+      }
+    ],
+    "rejectedClaims": [
+      "Any flood-risk statement for a street, property or area today: the gauge closed in 1995 and the page is about estimation.",
+      "Treating the bulletin's \"worst flooding in Dublin for 100 years\" as a return period for this gauge.",
+      "The four Tipperary stations named Dundrum as Dublin data; name matching as the lesson (Longford and Rush own it).",
+      "Luas passenger numbers: the Sandyford page owns them.",
+      "Dundrum Library and the shopping-complex description: the Dun Laoghaire-Rathdown page owns them.",
+      "Any population figure for Dundrum and any aggregation of census small areas: owner rule for district pages.",
+      "Grinds providers in the area: never named or ranked."
+    ]
   }
 }
