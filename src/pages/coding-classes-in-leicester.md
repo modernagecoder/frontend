@@ -14,11 +14,11 @@ Leicester / Live online
 
 The short answer
 
-At the 2021 Census Leicester's population was 368,571, with Asian or Asian British the largest group at 43.40 per cent and White at 40.88 per cent, so no group holds a majority. Modern Age Coders teaches live online coding and maths to ages 6 to 67 in Leicester, against the English national curriculum, from USD 100 a month. The first class is free.
+At the 2021 Census Leicester's population was 368,571, with Asian or Asian British the largest group at 43.40 per cent and White at 40.88 per cent, so no group holds a majority. Leicester learners aged 6 to 67 are taught coding and maths by Modern Age Coders in live online lessons that follow the English national curriculum; a month costs from USD 100, and the opening class is free.
 
 We lead with that distinction because it is the same one this page's teaching project turns on, and because getting it wrong is how providers end up making assumptions about Leicester families that are both inaccurate and rude.
 
-Modern Age Coders teaches from India. India runs five and a half hours ahead of the UK in winter and four and a half during British Summer Time, which makes an early-evening Leicester slot genuinely workable. Lessons are online and no Leicester centre is claimed.
+Our teachers are in India, where the clock reads five and a half hours later than Leicester from late October to late March and four and a half hours later through the summer, so a lesson straight after school here is still an evening lesson there. Everything happens online; there is no Leicester classroom.
 
 Book the free first class[Ask on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Leicester.)Read the Leicester figures
 
@@ -28,9 +28,9 @@ Facts last verified 17 August 2026. Teaching is online; no Leicester centre is c
 
 10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught5 to 8students per groupCourses for Leicester
 
-## Four sensible starting points, not one course for everybody
+## Where a Leicester learner starts: four doors, one placement conversation
 
-Four entry points for a city whose school-age population is more mixed than almost anywhere in England. A Key Stage 1 or 2 beginner, a learner who needs maths to become something they can run, a Key Stage 3 or 4 student moving into typed code, and an adult. Placement is by watching, never by assuming.
+Leicester's classrooms mix more backgrounds than almost any in England, so there is no single first course here. The four usual doors are a primary-age beginner at Key Stage 1 or 2, someone who wants maths turned into programs that run, a Key Stage 3 or 4 student ready to leave blocks for typed code, and an adult. We choose the door by watching a learner work, not by guessing from age.
 
 [![Kids Coding Blocks Masterclass course thumbnail](/images/kids-coding.webp)  Ages 6 to 10 Kids Coding Blocks Masterclass Sequencing, conditions and debugging before syntax becomes the distraction. See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  Ages 9 to 14 Maths Through Coding Variables, coordinates and patterns become things a learner can run and test. See the syllabus](/courses/maths-through-coding)[![Python Complete Masterclass for Teens course thumbnail](/images/python-teens.webp)  Ages 13 to 18 Python Complete Masterclass for Teens A structured move from logic to functions, data and independent programs. See the syllabus](/courses/python-complete-masterclass-teens)[![HTML and CSS for Beginners course thumbnail](/images/html-css-beginners.webp)  Teens and adults HTML and CSS for Beginners A direct route into building for the web, which is the part of computing most learners will actually keep using. See the syllabus](/courses/html-css-course-for-beginners-build-real-websites)
 
@@ -89,13 +89,13 @@ Grouping is by present ability drawn from a large intake, so a learner is not pl
 
 Placement follows a task the learner attempts in front of a teacher. Nothing about their name, school or background enters into it.
 
-Computing is part of the English national curriculum and the school is responsible for it. Nothing here appears on a report, earns a qualification, or counts toward a GCSE. Learners join from across the city and county, including Belgrave, Evington, Oadby, Wigston, Braunstone, Beaumont Leys and Birstall, without anybody travelling.
+Your child's school still owns computing under the English national curriculum. What we teach is not graded by the school, carries no qualification and adds nothing to a GCSE. Learners join from across the city and county, including Belgrave, Evington, Oadby, Wigston, Braunstone, Beaumont Leys and Birstall, without anybody travelling.
 
 Alignment
 
 ## What a Leicester family actually needs, and which course answers it
 
-Left is the situation. Right is what we would do about it.
+Each row pairs a Leicester family's starting point with the plan we would suggest.
 
 The English national curriculum
 
@@ -105,7 +105,7 @@ Frequency on the making side. Eight lessons a month on building and debugging, w
 
 Key Stage 2
 
-The years with the most room and the least assessment pressure.
+Little exam pressure and plenty of spare time: the easiest years to begin.
 
 Where we would start if given the choice. Blocks into typed code, with maths made concrete alongside it.
 
@@ -113,7 +113,7 @@ Key Stage 4
 
 GCSE years, already full, and nothing we teach appears on a certificate.
 
-Narrow and light, or wait. One lesson a week on something specific rather than a full ladder.
+Keep it small or hold off: a single weekly lesson on one clear target instead of the whole ladder.
 
 A very mixed school-age population
 
@@ -121,9 +121,9 @@ Prior experience varies enormously between children in the same class.
 
 Placement by observed ability only. In a city this varied, any other method is guessing.
 
-GMT and BST
+UK clock changes
 
-India is four and a half to five and a half hours ahead depending on the season.
+The gap to India moves between four and a half and five and a half hours when British clocks change in March and October.
 
 Early-evening Leicester slots are genuinely workable, which is not true of most markets we serve.
 
@@ -131,9 +131,9 @@ If your child is at Key Stage 2 or the start of Key Stage 3, this is the point w
 
 [Ask on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Leicester.)Book the free classPlacement
 
-## A course ladder that leaves room for school
+## A ladder that fits around the school week
 
-It starts with making something and being able to explain it. The typed and technical rungs wait until a learner can find their own error unaided. For Key Stage 4 the ladder narrows to protect GCSE time, and for a learner at Key Stage 2 it is deliberately wide, because that is the year with the most room in it. Adults enter at the point their goal and prior knowledge support.
+Step one is always building something small and saying out loud how it works. Typed code and the more technical steps come once a learner can track down their own bug without help. In the GCSE years the ladder gets narrower so it never competes with exam work; at Key Stage 2 it stays wide on purpose, because those years have time to spare. Adults join wherever their goal and what they already know put them.
 
 ### Builders
 
@@ -177,7 +177,7 @@ The student data project
 
 ## Majority and largest are not the same predicate
 
-Every market page here works through one analytical trap. Leicester's is a logic error that also teaches something real about writing functions.
+Each of our city pages is built around one reasoning mistake. For Leicester it is a logic slip that doubles as a real lesson in how to write a function.
 
 The learner gets the 2021 column from the table above and one instruction: write a function that answers whether any group holds a majority. Most people write something that finds the biggest number and returns its name.
 
@@ -205,13 +205,13 @@ You cannot tell which you have got without already knowing the answer. That is t
 
 What remains for a person is knowing that majority and largest are separate tests, that one needs the whole list, and that a table with shares and counts and a total in it can support three contradictory headlines. Those are habits of precision. They are taught by writing small programs about real numbers and being wrong in front of somebody who notices, which is what a class is for.
 
-The longer argument, with evidence: [is coding still worth learning in 2026?](/blog/is-coding-worth-learning-2026) The teaching order is on the [coding roadmap](/coding-roadmap), and what a lesson looks like is on [how we teach](/how-we-teach).
+For the full case, with sources, read [whether coding is worth learning in 2026](/blog/is-coding-worth-learning-2026). The teaching order is on the [coding roadmap](/coding-roadmap), and what a lesson looks like is on [how we teach](/how-we-teach).
 
 Live online delivery
 
 ## How this runs from Leicester
 
-Live teaching, live questions, live code review. Nothing pre-recorded.
+Every lesson is taught as it happens, with questions answered and code reviewed on the spot. None of it is pre-recorded.
 
 ### The free first class
 
@@ -313,29 +313,29 @@ Ritu Kedia
 
 Parent
 
-More, with photographs and student work, on the [wall of love](/love).
+Photographs and finished student projects sit beside many more reviews on our [wall of love](/love).
 
 FAQ
 
 ## Questions Leicester families ask before booking
 
-Starting with the one we get most, and answering it against ourselves.
+The most common question comes first, and we answer it even where the answer does not favour us.
 
 ### We are an Indian family in Leicester. Do you teach the Indian curriculum?
 
 Almost certainly not what you want, and this is worth being direct about. If your child is in a Leicester school they are following the English national curriculum and sitting English assessments, and that is what we would teach against. Plenty of providers assume Indian heritage means Indian curriculum. It is a lazy assumption and often an insulting one. Where our background genuinely helps is that our teachers work across several curricula every day, so nobody has to explain what Key Stage 3 is.
 
-### Does this replace school computing?
+### Will these classes stand in for computing at school?
 
-No. Computing is part of the English national curriculum and your child's school is responsible for it. Nothing here appears on a report, earns a qualification or counts toward a GCSE. What a weekly class adds is frequency on the making side, which is the part a timetable gives least sustained time to.
+No. Under the English national curriculum computing stays the school's job, and none of our work shows up on a school report, leads to a qualification or feeds a GCSE grade. The extra thing a weekly class gives is regular time spent building, which is exactly what a crowded timetable squeezes.
 
 ### What time are classes from Leicester?
 
-The gap is manageable, which is unusual for us. India is five and a half hours ahead in winter and four and a half during British Summer Time. An after-school or early-evening Leicester slot lands in the late evening in India, so weekday slots are realistic here in a way they are not for North America. Times are confirmed on the free call before any payment.
+Easier than for most of our families abroad. From late October to late March India is five and a half hours ahead of Leicester, and four and a half hours ahead for the rest of the year. An after-school or early-evening Leicester slot lands in the late evening in India, so weekday slots are realistic here in a way they are not for North America. Times are confirmed on the free call before any payment.
 
-### Which year groups is this best for?
+### Which school years suit this best?
 
-Key Stage 2 and the start of Key Stage 3, if you are choosing. Those years have the most room in them and the least assessment pressure, and they are early enough that a learner who turns out to like this has time to get somewhere with it. Key Stage 4 is fine but the honest advice there is narrow and light.
+If you have a choice, Year 3 to Year 7, which is Key Stage 2 and the first year of Key Stage 3. Those years carry the least exam pressure and the most spare room, and they leave time for a learner who enjoys it to get properly good. At Key Stage 4 we keep the plan short and aimed at one thing.
 
 ### How much do coding classes in Leicester cost?
 
@@ -345,21 +345,21 @@ The first class is free. Group tuition is USD 100 per month for two live lessons
 
 No. No Leicester office, centre or classroom is claimed. Every lesson is live online from India. A learner needs a laptop or desktop, stable internet, working audio and a current browser. The phone number on this page is Indian rather than a UK number.
 
-### Is coding still worth learning now that AI writes it?
+### If AI can write code, why learn it at all?
 
-The data project on this page is the answer in miniature. Given one city's census figures, an AI will tell you which group is largest and it will be right. Whether that group holds a majority is a different question with a different answer, and the two get conflated constantly by people who are not being careless so much as not being precise. Precision about what a claim actually says is the durable skill, and it is what the class trains.
+The data project on this page is the answer in miniature. Given one city's census figures, an AI will tell you which group is largest and it will be right. Whether that group holds a majority is a different question with a different answer, and the two get conflated constantly by people who are not being careless so much as not being precise. Reading a claim exactly as it is written is the skill that lasts, and it is the skill these classes practise.
 
-### What ages do you teach, and do you take adults?
+### Is there an age limit, and are adults welcome?
 
-Six to sixty-seven. Under about nine it is ordering, counting and predicting rather than typing. Adults are a real part of the intake rather than an afterthought, and in Leicester specifically a good number of them arrive wanting to automate something at work rather than to change career.
+We teach from 6 up to 67. Below roughly nine the work is sequencing, counting and predicting what a program will do, with little typing. Adults are a genuine share of our learners, and in Leicester many come wanting to automate a task at work rather than to switch careers.
 
 ### Do classes run in English?
 
 Yes, and for a Leicester family that is usually the plain answer rather than a caveat. Where it matters is vocabulary rather than fluency: a teacher will slow down on technical terms rather than assume them, whatever a learner speaks at home.
 
-### What happens after we send the form?
+### Once the form is sent, what happens next?
 
-Somebody reads it and contacts you to arrange the free session. No card, no charge, and sending the form books a conversation rather than a place in a class.
+A member of our team reads it and gets in touch to fix a time for the free class. Nothing is charged and no card is asked for; the form opens a conversation, it does not reserve a seat.
 
 ### Ask before booking
 
@@ -371,7 +371,7 @@ Book a free class
 
 The first session costs nothing. A learner attempts a single problem pitched at their age while the teacher watches how they approach it rather than whether they finish. Nothing about their school, their name or their background goes into the recommendation. What comes back is specific: this course, this format, this time.
 
-You can also use the [contact page](/contact), or read [about us](/about) first.
+Prefer another route? The [contact page](/contact) works too, and [about us](/about) explains who does the teaching.
 
 [WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Leicester.)[+91 91233 66161](tel:+919123366161)[contact@modernagecoders.com](mailto:contact@modernagecoders.com)
 
