@@ -358,7 +358,7 @@
             // Razorpay's checkout is appended to <body> later and shares the
             // maximum value, so DOM order keeps it on top of this overlay.
             '.mac-dc-overlay{position:fixed;top:0;left:0;width:100%;height:100%;height:100dvh;background:rgba(17,12,8,.7);z-index:2147483647;display:flex;align-items:center;justify-content:center;padding:16px;box-sizing:border-box;animation:macDcFade .22s ease}',
-            '.mac-dc-title:focus{outline:none}',
+            '.mac-dc .mac-dc-title:focus,.mac-dc .mac-dc-title:focus-visible{outline:none!important;box-shadow:none!important;border:0!important}',
             '.mac-dc{position:relative;box-sizing:border-box;width:100%;max-width:820px;background:#fff;color:#1c1814;border-radius:20px;padding:30px 28px 22px;font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.5;text-align:left;box-shadow:0 30px 70px -30px rgba(28,24,20,.55);border:1px solid rgba(28,24,20,.08)}',
             '.mac-dc-overlay .mac-dc{max-height:92vh;overflow:auto;animation:macDcUp .28s ease;-webkit-overflow-scrolling:touch}',
             '.mac-dc--inline{margin:26px auto 0;box-shadow:0 24px 50px -30px rgba(28,24,20,.40)}',
@@ -444,9 +444,28 @@
             '.mac-dc-queue .mac-dc-actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:14px}',
             '.mac-dc-queue .mac-dc-btn{width:auto;min-width:220px}',
             '.mac-dc-paidtag{display:inline-block;font-size:12px;font-weight:700;color:#1f8a55;background:rgba(31,138,85,.1);border-radius:999px;padding:4px 10px}',
+            // 2026-09-19: paid card is the big confident one, free card is muted.
+            '.mac-dc-grid{grid-template-columns:1.25fr 1fr;align-items:stretch}',
+            '.mac-dc-opt--paid{border-width:2px;padding:24px 22px 20px}',
+            '.mac-dc-opt--paid h3{font-size:24px}',
+            '.mac-dc-opt--paid .mac-dc-price b{font-size:44px;line-height:1}',
+            '.mac-dc-opt--paid p.mac-dc-body{font-size:15px}',
+            '.mac-dc-opt--paid .mac-dc-btn{padding:17px 18px;font-size:17.5px;font-weight:800}',
+            '.mac-dc-opt--free{background:#f6f4f0;border-style:dashed;border-color:rgba(28,24,20,.22)}',
+            '.mac-dc-opt--free .mac-dc-kicker{color:#8a8178}',
+            '.mac-dc-opt--free h3{font-size:16.5px;color:#3a332c;-webkit-text-fill-color:#3a332c}',
+            '.mac-dc-opt--free p.mac-dc-body,.mac-dc-opt--free ul{font-size:13px;color:#6b6259}',
+            '.mac-dc-opt--free li::before{background:#b0473c}',
+            '.mac-dc-warn{font-size:13px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:#8a2a22;background:#fdecea;border:1px solid rgba(176,71,60,.35);border-radius:8px;padding:8px 10px;line-height:1.35}',
+            '.mac-dc-btn--quiet{background:none;border:none;color:#6b6259;text-decoration:underline;text-underline-offset:3px;font-weight:600;font-size:13.5px;padding:8px 4px}',
+            '.mac-dc-btn--quiet:hover{transform:none;color:#1c1814}',
+            '.mac-dc-queue{border-color:rgba(28,24,20,.2);background:#f6f4f0}',
+            '.mac-dc-queue .mac-dc-tick{background:rgba(28,24,20,.07);color:#6b6259}',
+            '.mac-dc-queue .mac-dc-tiny a{color:#6b6259}',
             '@keyframes macDcFade{from{opacity:0}to{opacity:1}}',
             '@keyframes macDcUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}',
             '@media (max-width:680px){.mac-dc-overlay{padding:0;align-items:stretch}.mac-dc-overlay .mac-dc{max-height:none;height:100%;border-radius:0;border:0;padding:14px 14px 18px;animation:none;display:flex;flex-direction:column}.mac-dc--inline{padding:18px 14px 16px;border-radius:14px}.mac-dc-close{top:8px;right:8px;width:36px;height:36px;line-height:36px}.mac-dc-eyebrow{font-size:11px;padding:4px 10px}.mac-dc-title{font-size:20px;margin:8px 44px 0 0!important;line-height:1.25}.mac-dc-head .mac-dc-sub{display:none}.mac-dc-form .mac-dc-sub{font-size:13px}.mac-dc-grid{grid-template-columns:1fr;gap:10px;margin-top:12px}.mac-dc-opt{padding:14px 14px 12px;gap:6px;border-radius:14px}.mac-dc-opt h3{font-size:17px}.mac-dc-price b{font-size:22px}.mac-dc-opt p.mac-dc-body{font-size:13px;line-height:1.4}.mac-dc-opt ul{display:none}.mac-dc-badge{top:-10px;right:10px;font-size:10.5px;padding:4px 9px}.mac-dc-btn{padding:12px 14px;font-size:14.5px}.mac-dc-foot{margin-top:auto!important;padding-top:10px;font-size:12px}.mac-dc-row{grid-template-columns:1fr}.mac-dc-form{padding:14px}.mac-dc-done .mac-dc-btn,.mac-dc-queue .mac-dc-btn{width:100%;min-width:0}}',
+            '@media (max-width:680px){.mac-dc-grid{grid-template-columns:1fr}.mac-dc-opt--paid{padding:16px 14px 14px}.mac-dc-opt--paid h3{font-size:20px}.mac-dc-opt--paid .mac-dc-price b{font-size:34px}.mac-dc-opt--paid p.mac-dc-body{font-size:13.5px}.mac-dc-opt--paid .mac-dc-btn{padding:15px 14px;font-size:16px}.mac-dc-opt--free h3{font-size:15px}.mac-dc-warn{font-size:12px;padding:7px 9px}.mac-dc-opt--free p.mac-dc-body{font-size:12.5px}.mac-dc-queue .mac-dc-btn{width:100%;min-width:0}}',
             '@media (prefers-reduced-motion:reduce){.mac-dc-overlay,.mac-dc-overlay .mac-dc{animation:none}}'
         ].join('\n');
         var style = document.createElement('style');
@@ -473,18 +492,21 @@
                     '<button type="button" class="mac-dc-btn mac-dc-btn--solid" data-action="paid-view">View my booking</button>' +
                 '</section>';
         } else {
+            // Owner's brief, 2026-09-19: the paid demo is the clear, confident
+            // choice (bigger, first, guaranteed slot) and the free demo reads
+            // as what it is - a waiting list with no promised date.
             paidCard =
                 '<section class="mac-dc-opt mac-dc-opt--paid">' +
-                    '<span class="mac-dc-badge">Today or tomorrow</span>' +
-                    '<span class="mac-dc-kicker">Option 2 · Priority</span>' +
-                    '<h3>Live demo today or tomorrow</h3>' +
+                    '<span class="mac-dc-badge">Confirmed slot · today or tomorrow</span>' +
+                    '<span class="mac-dc-kicker">Recommended</span>' +
+                    '<h3>Book your live demo now</h3>' +
                     // Only the visitor's own price, the way course pricing
                     // works: rupees in India, dollars elsewhere, no mention of
                     // the other region.
                     '<p class="mac-dc-price"><b data-dc-price>' + esc(price.display) + '</b><span data-dc-price-note>one-time</span></p>' +
-                    '<p class="mac-dc-body">Skip the queue. Pick your own day and time, and a mentor teaches your live demo today or tomorrow. Confirmed on WhatsApp within the hour.</p>' +
-                    '<ul><li>Pick your own day and time</li><li>Confirmed on WhatsApp within the hour</li><li>Same live class, same mentors, just sooner</li></ul>' +
-                    '<button type="button" class="mac-dc-btn mac-dc-btn--solid" data-action="paid">Book priority demo · <span data-dc-price>' + esc(price.display) + '</span></button>' +
+                    '<p class="mac-dc-body">Pay <span data-dc-price>' + esc(price.display) + '</span> and your demo is guaranteed. You pick the day and time, and a mentor is reserved only for you. Confirmed on WhatsApp within the hour.</p>' +
+                    '<ul><li>Guaranteed slot, today or tomorrow</li><li>A mentor reserved just for your demo</li><li>Real class, real project, real feedback</li></ul>' +
+                    '<button type="button" class="mac-dc-btn mac-dc-btn--solid" data-action="paid">Pay <span data-dc-price>' + esc(price.display) + '</span> and confirm my slot</button>' +
                 '</section>';
         }
 
@@ -496,37 +518,36 @@
                 (mode === 'modal'
                     ? '<span class="mac-dc-eyebrow"><span style="display:inline-flex;width:13px;height:13px">' + ICON_TICK + '</span>Your request is submitted</span>'
                     : '') +
-                '<h2 class="mac-dc-title">Now choose: how soon do you want your demo?</h2>' +
-                '<p class="mac-dc-sub">Pick one to complete your booking. Both are the same live class with the same mentors. The only difference is how soon.</p>' +
+                '<h2 class="mac-dc-title">Want your demo this week? Confirm your slot now.</h2>' +
+                '<p class="mac-dc-sub">We teach small live batches and personal 1-on-1 classes, so mentor time is limited. Choose how you want your demo.</p>' +
             '</div>' +
             '<div class="mac-dc-grid">' +
-                '<section class="mac-dc-opt mac-dc-opt--free">' +
-                    '<span class="mac-dc-kicker">Option 1 · Free</span>' +
-                    '<h3>Free demo, in the queue</h3>' +
-                    '<p class="mac-dc-price"><b>₹0</b><span>nothing to pay</span></p>' +
-                    '<p class="mac-dc-body">Our mentors teach live classes most of the day, so free demos are scheduled in order. You are in a queue and it can take a few weeks. We call or WhatsApp you with a time.</p>' +
-                    '<ul><li>No payment, no card</li><li>Scheduled in order, usually within a few weeks</li><li>Watch a full recorded class while you wait</li></ul>' +
-                    '<button type="button" class="mac-dc-btn mac-dc-btn--ghost" data-action="free">Wait in the free queue</button>' +
-                '</section>' +
                 paidCard +
+                '<section class="mac-dc-opt mac-dc-opt--free">' +
+                    '<span class="mac-dc-kicker">Free · waiting list</span>' +
+                    '<h3>Free demo: waiting list only</h3>' +
+                    '<p class="mac-dc-warn">Wait time: several weeks. No guaranteed slot.</p>' +
+                    '<p class="mac-dc-body">Modern Age Coders gives quality education and real knowledge, so our mentors are in live classes all day. Free demos happen only if a mentor becomes free. We cannot promise a date, and we may not be able to offer one at all.</p>' +
+                    '<ul><li>No fixed date or time</li><li>Mentor replies only when available</li><li>Paid bookings are always scheduled first</li></ul>' +
+                    '<button type="button" class="mac-dc-btn mac-dc-btn--quiet" data-action="free">Join the waiting list anyway</button>' +
+                '</section>' +
             '</div>' +
             '<div class="mac-dc-panel" hidden></div>' +
-            '<p class="mac-dc-foot">Not sure which to pick? Contact <a href="' + waLink('Hi, I just requested a demo on the website and have a question about the free queue vs the priority demo.') + '" target="_blank" rel="noopener noreferrer">9123366161</a> directly on WhatsApp for a faster response.</p>'
+            '<p class="mac-dc-foot">Not sure which to pick? Contact <a href="' + waLink('Hi, I just requested a demo on the website and have a question about the free waiting list vs the paid demo.') + '" target="_blank" rel="noopener noreferrer">9123366161</a> directly on WhatsApp for a faster response.</p>'
         );
     }
 
-    function queueHtml() {
+    function queueHtml(price) {
         return (
             '<div class="mac-dc-queue">' +
                 '<span class="mac-dc-tick">' + ICON_TICK + '</span>' +
-                '<h3>Response submitted. You’re in the free queue.</h3>' +
-                '<p>Thank you for your patience. Our mentors are teaching live classes for most of the day, so free demos take time: you are in a queue and it can be a few weeks. We contact you on the number you shared, in order, and fix a time that suits you.</p>' +
-                '<p><b>While you wait, watch a full recorded class.</b> It shows exactly how we teach, and most parents say it answers their questions before the demo.</p>' +
+                '<h3>Response submitted. You are on the waiting list.</h3>' +
+                '<p>There is no confirmed slot yet. Our mentors are in live classes all day, so we will contact you only when a mentor is free, which can take several weeks.</p>' +
+                '<p><b>Want a guaranteed demo instead?</b> Pay once and pick your own day and time, today or tomorrow.</p>' +
                 '<div class="mac-dc-actions">' +
-                    '<a class="mac-dc-btn mac-dc-btn--ghost" href="/how-we-teach">Watch a recorded class</a>' +
-                    '<a class="mac-dc-btn mac-dc-btn--wa" href="' + waLink('Hi! I just booked a free demo on the website and would like to confirm my slot and timing.') + '" target="_blank" rel="noopener noreferrer">' + ICON_WA + 'Message us on WhatsApp</a>' +
+                    '<button type="button" class="mac-dc-btn mac-dc-btn--solid" data-action="paid">Pay ' + esc(price.display) + ' and confirm my slot</button>' +
                 '</div>' +
-                '<p class="mac-dc-tiny">Changed your mind? <button type="button" class="mac-dc-btn mac-dc-btn--link" data-action="back">Book the priority demo instead</button></p>' +
+                '<p class="mac-dc-tiny">While you wait: <a href="/how-we-teach">watch a full recorded class</a> · <a href="' + waLink('Hi! I joined the free demo waiting list on the website.') + '" target="_blank" rel="noopener noreferrer">message us on WhatsApp</a></p>' +
             '</div>'
         );
     }
@@ -654,7 +675,7 @@
      */
     Chooser.prototype.showQueue = function (silent) {
         this.grid.hidden = true;
-        this.panel.innerHTML = queueHtml();
+        this.panel.innerHTML = queueHtml(priceFor(regionIsIndia(this.rec.countryIso)));
         this.panel.hidden = false;
         this.scrollTop();
         if (silent) return;
@@ -1092,6 +1113,6 @@
         open: function (rec) { openModal(rec || readSession() || {}); },
         renderInline: function (rec) { renderInline(rec || readSession() || {}); },
         prices: PRICES,
-        version: '20260911a'
+        version: '20260919a'
     };
 })();
