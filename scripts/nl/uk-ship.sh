@@ -14,7 +14,8 @@ HUB=coding-classes-in-united-kingdom
 [ -f "content/uk/$SL.js" ] || { echo "no module content/uk/$SL.js"; exit 1; }
 SHARED="content/coding-global-dossiers.json src/css/coding-global.css src/css/ai-global.css scripts/verify-cluster-pages.js scripts/check-cluster-uniqueness.js scripts/wire-coding-global-routes.js scripts/wire-ai-global-routes.js _redirects netlify.toml sitemap.xml sitemap-international.xml sitemap-core.xml sitemap-topics.xml llms.txt UK-PROGRESS.md"
 # Refuse to start if a shared registry already has uncommitted edits: they could be another session's work.
-DIRTY=$(git diff --name-only -- $SHARED); [ -z "$DIRTY" ] || { echo "shared files already modified, commit or stash them first:"; echo "$DIRTY"; exit 1; }
+# ALLOW_DIRTY=1 is for re-running after a failed ship, once `git diff` shows the changes are all this page's.
+DIRTY=$(git diff --name-only -- $SHARED); [ -z "$DIRTY" ] || [ "$ALLOW_DIRTY" = 1 ] || { echo "shared files already modified, commit or stash them first (or ALLOW_DIRTY=1 after checking the diff is this page's):"; echo "$DIRTY"; exit 1; }
 
 node scripts/nl/build.js "$SL" > "$LOG/${SL}_build.txt" 2>&1
 tail -1 "$LOG/${SL}_build.txt"

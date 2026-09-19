@@ -23,7 +23,7 @@ for (let i = 2; i < process.argv.length; i += 2) args[process.argv[i].replace(/^
 for (const k of ['tracker', 'slug', 'row', 'type', 'spine', 'trap', 'build', 'check']) {
   if (!args[k]) { console.error('missing --' + k); process.exit(2); }
 }
-const page = require(['nl', 'ie'].map(d => path.join(ROOT, 'content', d, args.slug + '.js')).find(p => fs.existsSync(p)));
+const page = require(['nl', 'ie', 'uk'].map(d => path.join(ROOT, 'content', d, args.slug + '.js')).find(p => fs.existsSync(p)));
 
 const build = fs.readFileSync(args.build, 'utf8');
 const check = fs.readFileSync(args.check, 'utf8');
