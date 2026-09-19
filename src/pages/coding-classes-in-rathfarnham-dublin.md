@@ -14,7 +14,7 @@ Rathfarnham, Dublin 14 and 16 / Live online
 
 **What are the best coding classes in Rathfarnham?** Rathfarnham learners meet their teacher live on video for every lesson, sitting in a small class of learners at one level or learning solo, most weeks twice, and anyone from the age of six to sixty-seven can take part. Lessons happen at home. A first lesson is free; afterwards the monthly cost is USD 100 in a group and USD 150 for teaching one to one.
 
-Start at Rathfarnham Castle and set out to see ten of the heritage sites the Office of Public Works runs in Dublin, from the Pearse Museum down the road to Casino Marino on the north side. The obvious plan is to go to whichever site is closest, then the closest after that, and so on. Measured in straight lines, that route is 23.26 kilometres. A program that tries every possible order, all 362,880 of them, finds one of 21.74. The quick rule is 7 percent worse than the best, and with a few more sites the careful search becomes impossible. This page teaches a learner the difference between an algorithm that guesses well and one that is sure.
+Start at Rathfarnham Castle and set out to see ten of the heritage sites the Office of Public Works runs in Dublin, from the Pearse Museum down the road to Casino Marino on the north side. The obvious plan is to go to whichever site is closest, then the closest after that, and so on. Measured in straight lines, that route is 23.26 kilometres. A program that tries every possible order, all 362,880 of them, finds one of 21.74. The quick rule is 7 percent longer than the shortest, and with a few more sites the careful search becomes impossible. This page teaches a learner the difference between an algorithm that guesses well and one that is sure.
 
 Facts last verified 20 September 2026. Teaching is online; no Rathfarnham branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
 
@@ -52,7 +52,7 @@ Ten Dublin sites run by the Office of Public Works, each at the map point its He
 
 Going nearest first visits the Pearse Museum, then heads into town for St Stephen's Green, Dublin Castle and the Garden of Remembrance, swings west to Arbour Hill, Kilmainham, the War Memorial Gardens and the Phoenix Park, and only then crosses back east to Casino Marino.
 
-### The best order
+### The shortest order
 
 The shortest tour goes from the Pearse Museum straight to Kilmainham Gaol, loops the west side first through the War Memorial Gardens and the Phoenix Park, then works east through Arbour Hill, Dublin Castle, St Stephen's Green and the Garden of Remembrance to finish at Casino Marino.
 
@@ -62,7 +62,7 @@ Nearest-first grabs the cheapest step each time and never looks ahead, so it str
 
 ### A fast guess or a guaranteed answer
 
-Many real problems, from delivery rounds to school bus routes, ask for the best order in which to visit places. Checking every order guarantees the shortest, but the number of orders is a factorial: 362,880 for nine sites after the start, 479,001,600 for twelve, and more than a trillion for fifteen. So practical software mixes quick rules like nearest-first with smarter improvements, and accepts an answer that is very good rather than proven best. The skill is knowing which kind of answer you have and saying so.
+Many real problems, from delivery rounds to school bus routes, ask for the most efficient order in which to visit places. Checking every order guarantees the shortest, but the number of orders is a factorial: 362,880 for nine sites after the start, 479,001,600 for twelve, and more than a trillion for fifteen. So practical software mixes quick rules like nearest-first with smarter improvements, and accepts an answer that is very good rather than proven optimal. The skill is knowing which kind of answer you have and saying so.
 
 The learner's program stores the ten sites with their latitude and longitude, builds a table of straight-line distances with the haversine formula, and then answers the question two ways. The greedy version is a loop: from the current site, pick the nearest one not yet visited. The exhaustive version generates every ordering of the other nine sites, adds up each tour and keeps the shortest, which on an ordinary laptop takes well under a second. A final loop prints how the number of orderings grows as sites are added, which is the moment the learner sees why the exhaustive method cannot scale.
 
