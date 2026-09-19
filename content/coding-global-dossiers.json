@@ -15045,5 +15045,65 @@
       "The Lucan LEA figure, Colaiste Phadraig and Adamstown Community College: the South Dublin page owns them.",
       "Staff names on the library page: individuals, not needed."
     ]
+  },
+  "coding-classes-in-sandyford-dublin": {
+    "market": "Sandyford",
+    "bodyClass": "cg-sdf",
+    "pageType": "district",
+    "curriculumAuthority": "Sandyford, Dublin 18, named sources only (owner rule for districts), read 19 and 20 September 2026. CSO PxStat TOA11 \"Luas Passenger Numbers\", updated 21 May 2026, annual totals: Red Line 2018 21,837,268, 2019 24,045,744, 2020 9,727,187, 2021 10,040,293, 2022 20,275,074, 2023 25,393,165, 2024 28,620,698, 2025 27,689,678; Green Line 2018 19,999,700, 2019 24,301,487, 2020 9,448,869, 2021 9,441,025, 2022 18,392,801, 2023 22,812,052, 2024 25,606,901, 2025 27,441,333. Our arithmetic: 2025 as a percentage of each base year, Red and Green: 2018 126.8/137.2, 2019 115.2/112.9, 2020 284.7/290.4, 2021 275.8/290.7, 2022 136.6/149.2, 2023 109.0/120.3, 2024 96.7/107.2; Green share of all Luas journeys 47.2 to 50.3 percent, above half only in 2019 (50.3); Green 2018 to 2019 +21.5 percent, Red +10.1; 2025 monthly Green above Red in September (2,426,641 against 1,999,242), October (2,636,353 against 2,207,987) and November (2,562,702 against 2,174,702). TII trams and depots page: \"Depot facilities for the Red Line are located at Red Cow and for the Green Line at Sandyford and Broombridge.\"; \"Sandyford includes a maintenance and repair workshop building, servicing and washing facilities and a medium stabling area capable of accommodating up to 32 trams. It also contains some local control facilities and some limited office space.\"; \"The Luas Green Line is operated by 41 Alstom Citadis 502 trams.\"; \"Citadis 502 trams are 54.7m long\"; Citadis 502 \"have the capacity to carry over 400 passengers\"; \"In anticipation of the opening of the Luas Cross City project in December 2017\"; Green Line 402 trams \"extended between May 2019 and March 2021\". TII Luas stops list: Sandyford (SAN) isParkRide=\"1\" isCycleRide=\"1\". Dun Laoghaire-Rathdown County Council, development plan 2022-2028 boundary plan areas CSV: \"Boundary of Sandyford Urban Framework Plan\", Map_Number 6, Feature_Type1 \"Urban Framework Plan\", Area__Ha_ 192. St Mary's National School own site: \", Lamb's Cross, Sandyford, Dublin 18\", \"co-educational primary school\". Beacon Hospital contact page: \"Beacon Hospital\", \"Sandyford\", \"Dublin 18\", \"D18 AK68\". Nord Anglia International School Dublin: \"South County Business Park\", \"Leopardstown\", \"Dublin 18\", \"D18 T672\"; \"the only private school in Dublin, Ireland, accredited to deliver the world-renowned International Baccalaureate (IB) curriculum to students aged from 3 to 18\".",
+    "localProject": "Base-year choice. From the CSO table of Luas passenger numbers by line, the learner indexes 2025 journeys to every base year from 2018 to 2024. Six of the seven bases show the Green Line growing more; only 2019 shows the Red Line ahead (115.2 against 112.9), because 2019 was the Green Line's strongest year relative to the Red (50.3 percent of all journeys, +21.5 percent on 2018 after Luas Cross City opened in December 2017). Pandemic bases (2020, 2021) give indices near 290 that say little about growth. The program prints the full table with raw counts beside each index and counts how many bases agree. Lessons: choose and justify the base in advance, show the alternatives, and never let one row carry a headline. New family for the cluster: base-year choice and index sensitivity.",
+    "requiredMentions": [
+      "24,301,487",
+      "27,441,333",
+      "19,999,700",
+      "27,689,678",
+      "112.9",
+      "137.2",
+      "115.2",
+      "126.8",
+      "32 trams",
+      "192 hectares",
+      "D18 AK68",
+      "D18 T672"
+    ],
+    "sources": [
+      {
+        "claim": "CSO PxStat TOA11, Luas Passenger Numbers by line, 2018 to 2025, annual and monthly.",
+        "url": "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/TOA11/JSON-stat/2.0/en"
+      },
+      {
+        "claim": "Transport Infrastructure Ireland, trams and depots: Green Line depots at Sandyford and Broombridge; Sandyford stabling for up to 32 trams with workshop, servicing and washing and local control facilities; 41 Citadis 502 trams, 54.7 metres, over 400 passengers; Luas Cross City opened December 2017; Green Line trams extended May 2019 to March 2021.",
+        "url": "https://www.tii.ie/en/public-transport/luas/trams-and-depots/"
+      },
+      {
+        "claim": "TII Luas stops list: Sandyford flagged park and ride and cycle and ride.",
+        "url": "http://luasforecasts.rpa.ie/xml/get.ashx?action=stops&encrypt=false"
+      },
+      {
+        "claim": "Dun Laoghaire-Rathdown County Council, development plan 2022-2028 boundary plan areas: Sandyford Urban Framework Plan, map 6, 192 hectares.",
+        "url": "https://data.smartdublin.ie/dataset/70f527be-1f31-4c37-9c88-c1e757e5140b/resource/8da69700-a03e-429a-abcf-346850a30ddf/download/devplan_2022_2028_boundary_plan_areas.csv"
+      },
+      {
+        "claim": "St Mary's National School: Lamb's Cross, Sandyford, Dublin 18; a co-educational primary school.",
+        "url": "https://www.stmarysnssandyford.ie/"
+      },
+      {
+        "claim": "Beacon Hospital contact page: Sandyford, Dublin 18, D18 AK68.",
+        "url": "https://www.beaconhospital.ie/contact-us/"
+      },
+      {
+        "claim": "Nord Anglia International School Dublin: South County Business Park, Leopardstown, Dublin 18, D18 T672; describes itself as the only private school in Dublin accredited to deliver the IB to students aged 3 to 18.",
+        "url": "https://www.nordangliaeducation.com/nais-dublin"
+      }
+    ],
+    "rejectedClaims": [
+      "Any passenger figure for the Sandyford stop: the CSO table is by line only.",
+      "Any claim that Luas Cross City or the longer trams caused a particular change: the data show timing, not cause.",
+      "Luas fares: the TII fare calculator returns euro prices, which this site does not show.",
+      "The Sandyford Business District figures and the Luas park-and-ride list: the Dun Laoghaire-Rathdown page owns them.",
+      "Any population figure for Sandyford and any aggregation of census small areas: owner rule for district pages.",
+      "The gov.ie school profile (502 and 403 on 19 September 2026): not worked around; the school's own site is used.",
+      "Leopardstown Racecourse as a Sandyford place: its own site gives Foxrock."
+    ]
   }
 }

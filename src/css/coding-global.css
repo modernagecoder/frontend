@@ -974,3 +974,4 @@
 .cg-root.cg-bdt  { --cg-accent: #354319; --cg-accent-soft: rgba(53,67,25,.10); }   /* Blanchardstown: a deep olive from the widened solver search, the most distant colour left in its band and apart from the Fingal plum and the Dublin red */
 .cg-root.cg-cnk  { --cg-accent: #432419; --cg-accent-soft: rgba(67,36,25,.10); }   /* Castleknock: a dark castle-stone brown from the widened solver search, apart from the Blanchardstown olive, the Fingal plum and the Wicklow reds */
 .cg-root.cg-lcn  { --cg-accent: #124549; --cg-accent-soft: rgba(18,69,73,.10); }   /* Lucan: a deep river teal from the widened solver search, apart from the South Dublin purple and the Blanchardstown olive */
+.cg-root.cg-sdf  { --cg-accent: #1E6735; --cg-accent-soft: rgba(30,103,53,.10); }   /* Sandyford: a tram-line green from the widened solver search, apart from the Dun Laoghaire-Rathdown blue and the Leixlip and Carlow greens */
