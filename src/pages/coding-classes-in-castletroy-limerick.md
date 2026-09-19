@@ -54,7 +54,7 @@ Out of 15 possible pairings of the six channels, salinity and pH agree at all 83
 
 ### A second clue
 
-The salinity column runs from 7.24 to 8.89, the same range as pH, while conductivity in the same water reads between 0.167 and 0.409. Salinity and conductivity normally move together; here salinity follows pH instead.
+The salinity column runs from 7.24 to 8.89, the same range as pH, while conductivity in the same water reads between 0.167 and 0.409. Salinity's correlation with conductivity is 0.313, exactly the same as pH's, and its correlation with pH is 1.000: the column carries nothing the pH column does not.
 
 ### What it does not tell us
 
