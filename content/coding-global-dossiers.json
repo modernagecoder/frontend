@@ -15664,5 +15664,60 @@
       "A94 NT29 (St Raphaela's Secondary School) and A94 W7W7 (Oatlands College): not confirmed at the schools' own sites.",
       "The plan boundary as the edge of Stillorgan, and any population figure for Stillorgan or census small-area aggregation: owner rule for district pages."
     ]
+  },
+  "coding-classes-in-rathmines-dublin": {
+    "market": "Rathmines",
+    "bodyClass": "cg-rmn",
+    "pageType": "district",
+    "curriculumAuthority": "Rathmines, named sources only (owner rule for districts), read 20 September 2026. Dublin City Council, \"Libraries November Adult Fiction Issues & Renewals List DCC\" (data.smartdublin.ie dataset ffcc0ddd...; notes: \"All the Issues (Books borrowed by members) and renewals for Adult Fiction books in Dublin City Councils Libraries in November 2012\"), CSV header library_branch,date,author,title,transaction; 43,295 rows; transaction ISSU 28,745, RENW 14,550; 22 branches; Rathmines 3,661 rows (ISSU 2,694, RENW 967) on 26 days, none on Sundays 4, 11, 18, 25 November; title field capped at 48 characters (746 titles at the cap). Our arithmetic (rmn/lq.js, rmn/extra.js): Rathmines share 3,661/43,295 = 8.46% (0.084559), maximum location quotient 11.83. Even the dogs: 142 network loans at 18 branches, 34 at Rathmines (27 ISSU, 7 RENW), expected 12.0, LQ 2.83, P(X >= 34 | 142, 0.084559) = 2.30e-8 (1 in 43.5 million). Issues only: Rathmines 2,694 of 28,745 = 9.37%; Even the dogs 27 of 84, expected 7.9, LQ 3.43. Authors (blank excluded): 4,445 in the network, 1,383 at Rathmines; 153 with every network loan at Rathmines (LQ 11.83): 119 with one loan, 28 with two, 6 with three or more (Knausgjard Karl Ove 7 of 7: 1 renewal on 5 November, 4 issues on 12 November, 2 on 23 November; p^7 = 3.09e-8). Minimum 20 network loans: 483 authors; James Henry 11 of 22, expected 1.9, LQ 5.91 (Europeans 3, American 3, Ambassadors 2, Turn of the screw 2, Aspern papers 1); Mitchell David 14 of 29, expected 2.5, LQ 5.71 (Thousand Autumns of Jacob De Zoet 5, Black swan green 5, Cloud atlas 2, Ghostwritten 1, Number9dream 1); Austen Jane 0 of 52, expected 4.4, P(0) = 1.01e-2. Blank author: 444 network rows, 43 at Rathmines (e.g. \"Wednesday comics\", \"Pan book of horror stories\", \"Fish anthology 2010 a matter of luck and other s\"). Dublin Literary Award site: \"sponsored by Dublin City Council & administered by Dublin City Libraries\"; book page \"2012 Winner Even the Dogs Jon McGregor\". Dublin City Council, Rathmines Library: \"157 Lower Rathmines Road Dublin 6 Co. Dublin D06 K2K6\"; hours Monday to Thursday 10:00 to 20:00, Friday and Saturday 10:00 to 17:00, \"Sunday Closed\". Stella Cinema: \"First opening its doors on the 29th of January 1923, the cinema originally held 1,283 patrons, making it Ireland's largest cinema at the time\"; \"It temporarily closed in 2004 and reopened after an extensive renovation in 2017\"; \"207/209 Rathmines Road Lower, Rathmines, Dublin 6, Ireland. The Eircode is D06 W403.\" Leinster Cricket Club: \"founded as Leinster Cricket Club ... on 1st May 1852\"; \"1865 when it finally moved to its present location at Observatory Lane\"; \"In 1913 Leinster Bowling Club was added\"; \"May 1925 when the Tennis Club joined\"; \"The Squash Club was launched on 1st September 1969\". EPA AirQuality.ie Station 22: \"The Rathmines site is located in Wynnefield Road in the southern suburb of Rathmines, about 3 kilometres from the city centre. Monitoring is done using continuous monitors for sulphur dioxide, nitrogen oxides, ozone, benzene and ozone precursor compounds, PM 10 and PM 2.5.\"",
+    "localProject": "Location quotient and the small-count trap. From Dublin City Council's November 2012 adult fiction loan file, the learner computes Rathmines' share of all loans (8.46 percent) and of each book and author, and the ratio of the two. Even the dogs: 34 of 142 against 12.0 expected, ratio 2.83, about one in 43 million by chance if loans were independent; still 27 of 84 against 7.9 on new issues only. Ranking all authors by the ratio puts 153 at the maximum of 11.83, 119 of them on one loan; a minimum of 20 network loans leaves 483 and a meaningful top (Henry James 11 of 22, David Mitchell 14 of 29). Side findings: blank authors are anthologies; renewals are a third of the rows and change the denominator; a zero (Austen 0 of 52) is weak evidence. Lessons: expected before observed; show the counts beside any ratio; set a floor before ranking; state the independence assumption. New family site-wide (location quotient, expected count, binomial and over-represent had no prior hits in content/ie or the global dossiers).",
+    "requiredMentions": [
+      "43,295",
+      "3,661",
+      "8.46 percent",
+      "2.83",
+      "11.83",
+      "153 authors",
+      "5.91",
+      "9.37 percent",
+      "D06 K2K6",
+      "D06 W403",
+      "1,283",
+      "Wynnefield Road"
+    ],
+    "sources": [
+      {
+        "claim": "Dublin City Council, Libraries November Adult Fiction Issues and Renewals List: every adult fiction issue and renewal in the city's libraries in November 2012, by branch, date, author and title.",
+        "url": "https://data.smartdublin.ie/dataset/ffcc0ddd-86d2-45b6-9d1f-0d06089f2409/resource/5e506eca-7818-4aba-9fba-c9ba006feebe/download/dcclibrariesadultfictionp20130221-1553.csv"
+      },
+      {
+        "claim": "Dublin City Council, Rathmines Library: 157 Lower Rathmines Road, D06 K2K6; open Monday to Thursday 10:00 to 20:00, Friday and Saturday 10:00 to 17:00, closed Sunday.",
+        "url": "https://www.dublincity.ie/libraries/find-library/rathmines-library"
+      },
+      {
+        "claim": "Dublin Literary Award: sponsored by Dublin City Council and administered by Dublin City Libraries; Even the Dogs by Jon McGregor, 2012 winner.",
+        "url": "https://dublinliteraryaward.ie/the-library/books/even-the-dogs/"
+      },
+      {
+        "claim": "Stella Cinema: opened 29 January 1923 with 1,283 seats, then Ireland's largest cinema; closed 2004, reopened 2017; 207/209 Rathmines Road Lower, D06 W403.",
+        "url": "https://www.stellacinemas.ie/about/"
+      },
+      {
+        "claim": "Leinster Cricket Club: founded 1 May 1852; at Observatory Lane since 1865; bowling 1913, tennis 1925, squash 1969.",
+        "url": "http://lccsports.net/about/"
+      },
+      {
+        "claim": "EPA AirQuality.ie, Station 22 Rathmines: Wynnefield Road, about 3 kilometres from the city centre; continuous monitors for sulphur dioxide, nitrogen oxides, ozone, benzene, PM10 and PM2.5.",
+        "url": "https://airquality.ie/station/EPA-22"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reason why Rathmines borrowed Even the dogs more (extra copies, a reading group, the award): the file cannot say.",
+      "Anything about borrowers: the file has no borrower data.",
+      "A ranking of branches by volume that names the lowest: not needed and not made.",
+      "Multiple comparisons as the lesson: Mallow owns it.",
+      "Censored values, group-by spelling traps and Gini: owned by the DLR, Roscommon, Kilkenny and other pages.",
+      "Any population figure for Rathmines and any census small-area aggregation: owner rule for district pages."
+    ]
   }
 }
