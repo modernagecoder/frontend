@@ -15932,5 +15932,59 @@
       "The Howth tide gauges and residuals: Clontarf owns residuals; Douglas owns aliasing.",
       "Any population figure for Howth and any census small-area aggregation: owner rule for district pages."
     ]
+  },
+  "coding-classes-in-finglas-dublin": {
+    "market": "Finglas",
+    "bodyClass": "cg-fgl",
+    "pageType": "district",
+    "curriculumAuthority": "Finglas, named sources only (owner rule for districts), read 20 September 2026. EPA AirQuality.ie station list: \"EPA-46\":\"The Particulate Matter monitors are located in Finglas. They are operated by Dublin City Council.\"; readings pages https://airquality.ie/readings?station=EPA-46&dateFrom=01+Jan+2024&dateTo=30+Jun+2024 and 01+Jul+2024 to 31+Dec+2024 (also 2025 and Jan-Aug 2026), series PM10 and PM2.5 in hourly chart data. AirQuality.ie What We Monitor: \"PM are particles in the air typically measured as PM 10 and PM 2.5 with diameters of 10μm (microns) or 2.5μm. In Ireland, the main sources are solid fuel burning and vehicular traffic.\" EPA Air quality in Ireland 2023 page: \"fine particulate matter (PM 2.5 ), mainly from burning solid fuel in our homes, and nitrogen dioxide (NO 2 ), chiefly from road traffic, continue to be the main threats to good air quality.\" Our arithmetic (fgl/pm.js): 2024 PM2.5 hours 8,658 of 8,784 (98.6%); mean 7.05, standard deviation 6.40, median 5.07, median absolute deviation 2.25, maximum 84.24 at 2024-01-07 20:00 (PM10 85.95); mean + 3 sd = 26.3, 170 hours above; top 1% = 87 hours; without them sd 5.30, mean + 3 sd = 22.6, 275 hours above; hour-of-day medians 6.09 at 20:00 and 6.34 at 22:00, about 4.6 early afternoon; 7 January 20:00 = 13.8 x, 31 October 22:00 = 66.84 = 10.5 x (sixth highest hour); 162 hours above 5 x their hour median, 9 above 10 x; highest daily mean 9 March 2024 34.5, 8 to 11 March all above 23. 2025: 790 hours in total on the readings pages. PM2.5 never exceeds PM10 in 14,304 paired hours (2024 and January to August 2026). Dublin City Council, Finglas Library: \"Seamus Ennis Road Finglas Dublin 11 Co. Dublin D11 C603\"; Monday 13:00 to 20:00, Tuesday 10:00 to 17:00, Wednesday 13:00 to 20:00, Thursday 10:00 to 17:00; accessible parking bay; induction loop; \"Dyslexia-friendly C-Pens are available to borrow\". Dublin City Council, Tolka Valley Park: \"Wetlands were constructed in Tolka Valley Park in 1999 as a way of treating the incoming waters of the Finglaswood Stream\"; \"trapping pollution, reducing bad odours, making the pond more pleasant, and creating a new wetland habitat for local biodiversity, including the common frog\"; \"Tolka Valley Park Finglas South Dublin 11\". Luas Finglas project site: \"Luas Finglas is the next extension of the Luas Green Line, running from Broombridge to Charlestown through Tolka Valley and Finglas village\"; \"The proposed route is 3.9km in length and will include four new stops: St Helena's, Finglas Village, St Margaret's and Charlestown. A 350-vehicle park and ride facility will be provided near the St Margaret's Road stop, close to the M50.\"",
+    "localProject": "When is a spike a spike? From the EPA's 2024 hourly PM2.5 readings for station 46 in Finglas (8,658 hours), the learner shows that the three standard deviation rule is masked by the spikes it seeks (sd 6.40 with them, 5.30 without; 170 against 275 hours flagged), builds an hour-of-day baseline, and finds 84.24 at 20:00 on 7 January (13.8 times a normal 8 pm) and 66.84 at 22:00 on 31 October (10.5 times a normal 10 pm). Side checks: PM2.5 never exceeds PM10 in 14,304 paired hours; 2025 has only 790 hours and is not compared; a four-day March episode is a different thing from a one-hour spike. Lessons: extremes inflate the spread that judges them; compare like with like; check hard constraints first; do not compare a month with a year. New family site-wide: MASKING AND CONDITIONAL BASELINES FOR ANOMALIES (masking, median absolute deviation, Halloween had no prior hits; Tutong owns midrange against median, Hengelo purpose-relative cleaning, Blanchardstown and Tallaght the earlier EPA lessons).",
+    "requiredMentions": [
+      "8,658",
+      "84.24",
+      "13.8 times",
+      "66.84",
+      "10.5 times",
+      "6.40",
+      "5.30",
+      "14,304",
+      "D11 C603",
+      "3.9 kilometres",
+      "350-space",
+      "Finglaswood Stream"
+    ],
+    "sources": [
+      {
+        "claim": "EPA AirQuality.ie, station 46 (Finglas, Dublin City Council particulate monitors): hourly PM10 and PM2.5 readings for 2024, 2025 and January to August 2026.",
+        "url": "https://airquality.ie/readings?station=EPA-46&dateFrom=01+Jan+2024&dateTo=30+Jun+2024"
+      },
+      {
+        "claim": "EPA AirQuality.ie, What We Monitor: PM10 and PM2.5 by particle diameter; main sources in Ireland solid fuel burning and vehicular traffic.",
+        "url": "https://airquality.ie/information/what-we-monitor"
+      },
+      {
+        "claim": "EPA, Air quality in Ireland 2023: fine particulate matter mainly from burning solid fuel in homes.",
+        "url": "https://www.epa.ie/publications/monitoring--assessment/air/air-quality-in-ireland-2023.php"
+      },
+      {
+        "claim": "Dublin City Council, Finglas Library: Seamus Ennis Road, D11 C603; opening hours; accessibility.",
+        "url": "https://www.dublincity.ie/libraries/find-library/finglas-library"
+      },
+      {
+        "claim": "Dublin City Council, Tolka Valley Park: wetlands built in 1999 to treat the Finglaswood Stream.",
+        "url": "https://www.dublincity.ie/residential/parks/dublin-city-parks/visit-park/tolka-valley-park"
+      },
+      {
+        "claim": "Luas Finglas project: proposed 3.9 km Green Line extension from Broombridge to Charlestown with four new stops and a 350-vehicle park and ride.",
+        "url": "https://www.luasfinglas.ie/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any cause for a particular high hour, including Halloween bonfires or fireworks: no EPA source ties them to these readings.",
+      "Comparing 2025 with 2024: only 790 hours of 2025 are published for this station.",
+      "Rule windows, legal limits and bootstrap intervals: Blanchardstown and Tallaght own them.",
+      "Any statement that Luas Finglas is built or under construction: the project site calls it proposed.",
+      "Any population figure for Finglas and any census small-area aggregation: owner rule for district pages."
+    ]
   }
 }

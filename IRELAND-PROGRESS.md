@@ -159,7 +159,8 @@ Phase 7, towns above 10,000 (49, kill-gated): best-coding-class-in-<town> for sw
 | 124 | coding-classes-in-drumcondra-dublin (dcd, #1F6B7A) | district | 2,949 | 1.1% vs coding-classes-in-blackrock-dublin | decibels are logarithmic: average on energy, not on the numbers (DCC sound monitor 2015) | no causes for readings; tab file, repeated hour, London header handled in code | 0943a27a |
 | 125 | coding-classes-in-glasnevin-dublin (gln, #8D5235) | district | 2,888 | 1.1% vs coding-classes-in-blanchardstown-dublin | records vs the harmonic expectation H_n, checked by shuffling (Met Eireann Glasnevin) | merge duplicate date rows field by field; no causes | 5ee0d0ee |
 | 126 | coding-classes-in-clontarf-dublin (ctf, #12492A) | district | 2,823 | 1.2% vs coding-classes-in-drumcondra-dublin | residuals: observed minus predicted tide at Dublin Port (Marine Institute) | no storm names, no flood claims; QC 0 is unknown | 5ad65af1 |
-| 127 | coding-classes-in-howth-dublin (hth, #2F3922) | district | 2,927 | 1.9% vs coding-classes-in-castletroy-limerick | exact repeats in counted data as an anomaly signal (Fingal Howth walk counters) | no fabrication claims; zeros that mean no data | (this commit) |
+| 127 | coding-classes-in-howth-dublin (hth, #2F3922) | district | 2,927 | 1.9% vs coding-classes-in-castletroy-limerick | exact repeats in counted data as an anomaly signal (Fingal Howth walk counters) | no fabrication claims; zeros that mean no data | d797764e |
+| 128 | coding-classes-in-finglas-dublin (fgl, #453017) | district | 2,989 | 1.6% vs coding-classes-in-clondalkin-dublin | masking and hour-of-day baselines for spikes (EPA-46 Finglas PM2.5) | no causes; 2025 too sparse; Luas proposed | (this commit) |
 
 ## Skipped (kill criterion)
 
