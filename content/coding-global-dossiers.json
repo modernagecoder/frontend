@@ -16174,5 +16174,60 @@
       "Cork City Council neighbourhood profile tables: census-derived; owner rule for district pages.",
       "Any population figure for Bishopstown."
     ]
+  },
+  "coding-classes-in-glanmire-cork": {
+    "market": "Glanmire",
+    "bodyClass": "cg-glm",
+    "pageType": "district",
+    "curriculumAuthority": "Glanmire, named sources only (owner rule for districts), read 20 September 2026. Met Eireann daily rainfall, station 3404 (https://clidata.met.ie/cli/climate_data/webdatac/dly3404.csv; data.gov.ie \"Glanmire (Northesk) Rainfall Data\"): header \"Station Name: GLANMIRE (NORTHESK)\", \"Station Height: 5 M\", \"Latitude:51.904 ,Longitude: -8.381\"; columns date, ind, rain; 3,134 rows from 01-feb-1952 to 31-dec-1960; indicators 0 (2,855), 1 (278), 8 (1, 30-sep-1953). No rows at all for January 1952, January 1953, May 1957, June 1958 and March 1959. Our arithmetic: complete years 1954 1,008.2 mm, 1955 1,047.9, 1956 1,080.7, 1960 1,418.7; mean 1,138.9, standard deviation 188.9, standard error 94.4, 95% range with t(3) = 3.182 from 838 to 1,439 (+/- 26.4%); mean without 1960 1,045.6; naive mean of 1953 to 1960 calendar-year totals 1,079.8; at the same spread, 30 years gives standard error 34.5 and 95% half-width 68 (5.9%), sqrt(30/4) = 2.74; years for +/- 5% at 95%: (1.96 x 188.9 / (0.05 x 1,138.9))^2 = 42.3. Met Eireann, 30 Year Averages: \"Climate averages, sometimes referred to as 'climate normals', are the mean or average values of a climate variable over a standard reference period. The World Meteorological Organization (WMO) established that the length of the reference period should be 30 years\". Cork City Libraries, Glanmire Library: \"Glanmire Library, Hazelwood Shopping Centre, Glanmire, Cork City T45 E033\"; \"Staffed Hours : Tuesday to Saturday 10.00 am - 5.30 pm\"; \"My Open Library Access is available to registered My Open Library members Monday to Sunday 8.00 am - 10.00 pm\"; \"Public Transport: Bus Route 214\". Cork City Council library open data: Glanmire Tuesday to Saturday \"10am - 6pm\". Glanmire Community College: \"Glanmire Community College, Brooklodge, Glanmire, Cork T45 W965\". OPW Glashaboy Flood Relief Scheme (floodinfo.ie): \"Significant flooding occurred on June 2012 in the Glanmire/Sallybrook area\"; \"The scheme, when complete, will provide flood protection to some 103 properties; 78 residential properties and 25 commercial premises. The scheme will include defences, such as walls and embankments; culvert upgrades; channel widening and road re-grading.\"; confirmation documents sent for ministerial approval October 2018.",
+    "localProject": "How many years does an average need? From Met Eireann's daily file for the Glanmire (Northesk) gauge (1952 to 1960), the learner first counts days per year and finds five whole months absent without any flag, keeps the four complete years, and reports the average (1,138.9 mm) with its standard error (94.4) and 95% range (838 to 1,439, a quarter either way). One year (1960) moves the mean by 93 mm; the naive mean including incomplete years is 1,079.8. The square-root law: 30 years (the WMO reference period, quoted from Met Eireann) would shrink the standard error 2.74 times; about 42 years would give +/- 5%. Lessons: report uncertainty with an average; uncertainty falls with the square root of sample size; plan the sample size a claim needs; count rows against the calendar. New family site-wide: STANDARD ERROR, THE SQUARE-ROOT LAW AND SAMPLE-SIZE PLANNING (standard error, law of large numbers, running mean had no prior hits); Tallaght owns bootstrap intervals, Dundrum return periods from a short record.",
+    "requiredMentions": [
+      "1,138.9",
+      "94.4",
+      "838 to 1,439",
+      "42 years",
+      "1,079.8",
+      "2.74 times",
+      "T45 E033",
+      "T45 W965",
+      "103 properties",
+      "June 2012",
+      "four complete years",
+      "Brooklodge"
+    ],
+    "sources": [
+      {
+        "claim": "Met Éireann, Glanmire (Northesk) daily rainfall, 1952 to 1960, with station height.",
+        "url": "https://clidata.met.ie/cli/climate_data/webdatac/dly3404.csv"
+      },
+      {
+        "claim": "Met Éireann, 30 Year Averages: the WMO reference period for climate averages is 30 years.",
+        "url": "https://www.met.ie/climate/30-year-averages"
+      },
+      {
+        "claim": "Cork City Libraries, Glanmire Library: Hazelwood Shopping Centre, T45 E033; staffed and My Open Library hours; bus route 214.",
+        "url": "https://www.corkcitylibraries.ie/en/locations/glanmire-library/"
+      },
+      {
+        "claim": "Cork City Council, library open data: Glanmire hours as listed in the file.",
+        "url": "https://data.corkcity.ie/dataset/98f4a10c-7a31-49e2-bcd4-961bbbfa62d5/resource/db14a7fc-b9c8-4a24-b3f7-7987070dbb5e/download/library.csv"
+      },
+      {
+        "claim": "Glanmire Community College: Brooklodge, Glanmire, T45 W965.",
+        "url": "https://www.glanmirecc.ie/"
+      },
+      {
+        "claim": "OPW Glashaboy Flood Relief Scheme: June 2012 flooding in Glanmire and Sallybrook; protection for some 103 properties, 78 residential and 25 commercial; types of works.",
+        "url": "https://www.floodinfo.ie/frs/en/glashaboy/home/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement about present-day rainfall in Glanmire: the gauge closed in 1960.",
+      "Any trend in the 1950s rainfall: four complete years cannot support one.",
+      "The flood scheme's funding figure: given in euro.",
+      "The 2019 city boundary change: owned by the County Cork page.",
+      "Bootstrap intervals and return periods: Tallaght and Dundrum own them.",
+      "Any population figure for Glanmire and any census small-area aggregation: owner rule for district pages."
+    ]
   }
 }
