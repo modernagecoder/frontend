@@ -3148,4 +3148,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /british-mathematical-olympiad-bmo-preparation /src/pages/british-mathematical-olympiad-bmo-preparation.html 200
 /british-mathematical-olympiad-bmo-preparation.md /src/pages/british-mathematical-olympiad-bmo-preparation.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/mathematical-olympiad-for-girls-preparation /src/pages/mathematical-olympiad-for-girls-preparation.html 200
+/mathematical-olympiad-for-girls-preparation.md /src/pages/mathematical-olympiad-for-girls-preparation.md 200
 /* /src/pages/404.html 404

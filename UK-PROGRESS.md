@@ -65,7 +65,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 13 | oxford-university-computing-challenge-preparation (ouc, #570F20) | competition spoke | 3,522 | 5.3% vs bebras-computational-thinking-challenge-practice-uk | equal is not the same as identical | stable sort and the order of ties | 03464778 |
 | 14 | junior-mathematical-olympiad-preparation (jmo, #151579) | competition spoke | 3,622 | 4.4% vs scottish-mathematical-challenge-practice | forty examples are not a proof | examples versus proof | 1732f618 |
 | 15 | intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation (imk, #356E4A) | competition spoke | 3,386 | 5.5% vs junior-mathematical-olympiad-preparation | a complete answer means all of them | proving a solution list is complete | dc74cdbc |
-| 16 | british-mathematical-olympiad-bmo-preparation (bmo, #1C3754) | competition spoke | 3,740 | 4.2% vs intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation | find the thing that cannot change | invariants and parity | (this commit) |
+| 16 | british-mathematical-olympiad-bmo-preparation (bmo, #1C3754) | competition spoke | 3,740 | 4.2% vs intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation | find the thing that cannot change | invariants and parity | 7846236a |
+| 17 | mathematical-olympiad-for-girls-preparation (mog, #1A4C45) | competition spoke | 3,698 | 5.2% vs british-mathematical-olympiad-bmo-preparation | two questions want the number, three want the reason | pigeonhole and a brute-force check | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
