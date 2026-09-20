@@ -59,7 +59,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 7 | a-level-computer-science-nea-help (nea, #6F2183) | exam door | 3,409 | 0.6% vs british-informatics-olympiad-preparation | draw the states before you code | state machines | 3aad51a8 |
 | 8 | 11-plus-maths-tuition-kent (ktm, #0F4857) | maths door by area | 4,728 | 0.6% vs british-informatics-olympiad-preparation | a Year 5 paper sat in Year 6 | calendar arithmetic against the curriculum | 107a9332 |
 | 9 | coding-classes-in-surrey (sry, #0F571C) | cg- county index | 3,846 | 2.1% vs coding-classes-in-harrow-london | a counter with too few bits | integer overflow and rollover | d9c65343 |
-| 10 | primary-maths-challenge-practice (pmc, #791558) | competition spoke | 3,830 | 4.3% vs 11-plus-maths-tuition-kent | the shape of the paper is the strategy | arithmetic on a published time limit | (this commit) |
+| 10 | primary-maths-challenge-practice (pmc, #791558) | competition spoke | 3,830 | 4.3% vs 11-plus-maths-tuition-kent | the shape of the paper is the strategy | arithmetic on a published time limit | 2bac3f52 |
+| 11 | scottish-mathematical-challenge-practice (smc, #3E4E0E) | competition spoke | 3,822 | 3.2% vs primary-maths-challenge-practice | the answer is the cheap part | written mathematical argument | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

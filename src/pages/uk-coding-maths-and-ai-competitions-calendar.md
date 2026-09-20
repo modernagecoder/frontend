@@ -134,7 +134,7 @@ If a learner is not enjoying it. The skills competitions test are worth having r
 
 Each page below is written for one competition: what the organiser actually asks for, what a learner should practise, and where the real past papers live.
 
-[British Informatics Olympiad](/british-informatics-olympiad-preparation) · [Primary Maths Challenge](/primary-maths-challenge-practice)
+[British Informatics Olympiad](/british-informatics-olympiad-preparation) · [Primary Maths Challenge](/primary-maths-challenge-practice) · [Scottish Mathematical Challenge](/scottish-mathematical-challenge-practice)
 
 ## Five stages from a first puzzle to a national team
 

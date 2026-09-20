@@ -169,6 +169,7 @@ const SLUGS = [
   'a-level-computer-science-nea-help',
   '11-plus-maths-tuition-kent',
   'primary-maths-challenge-practice',
+  'scottish-mathematical-challenge-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -417,6 +418,7 @@ const LLMS_LABELS = {
   'a-level-computer-science-nea-help': 'A-level Computer Science coursework help',
   '11-plus-maths-tuition-kent': '11 plus maths tuition in Kent',
   'primary-maths-challenge-practice': 'Primary Maths Challenge practice',
+  'scottish-mathematical-challenge-practice': 'Scottish Mathematical Challenge practice',
 };
 
 function wireLlms(slugs) {

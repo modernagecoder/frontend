@@ -11550,6 +11550,18 @@
   to = "/src/pages/primary-maths-challenge-practice.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/scottish-mathematical-challenge-practice"
+  to = "/src/pages/scottish-mathematical-challenge-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/scottish-mathematical-challenge-practice.md"
+  to = "/src/pages/scottish-mathematical-challenge-practice.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
