@@ -192,6 +192,7 @@ const SLUGS = [
   'maths-olympiad-training-uk',
   'best-coding-classes-for-teens-uk',
   'best-coding-classes-for-adults-uk',
+  'best-python-classes-online-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -463,6 +464,7 @@ const LLMS_LABELS = {
   'maths-olympiad-training-uk': 'Maths olympiad training in the UK',
   'best-coding-classes-for-teens-uk': 'Best coding classes for teens in the UK',
   'best-coding-classes-for-adults-uk': 'Best coding classes for adults in the UK',
+  'best-python-classes-online-uk': 'Best Python classes online in the UK',
 };
 
 function wireLlms(slugs) {
