@@ -167,6 +167,7 @@ const SLUGS = [
   'uk-coding-maths-and-ai-competitions-calendar',
   'british-informatics-olympiad-preparation',
   'a-level-computer-science-nea-help',
+  '11-plus-maths-tuition-kent',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -413,6 +414,7 @@ const LLMS_LABELS = {
   'uk-coding-maths-and-ai-competitions-calendar': 'UK coding, maths and AI competitions calendar',
   'british-informatics-olympiad-preparation': 'British Informatics Olympiad preparation',
   'a-level-computer-science-nea-help': 'A-level Computer Science coursework help',
+  '11-plus-maths-tuition-kent': '11 plus maths tuition in Kent',
 };
 
 function wireLlms(slugs) {

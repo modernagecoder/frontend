@@ -665,3 +665,4 @@
 .ag-root.ag-ucc { --ag-accent: #72641D; --ag-accent-soft: rgba(114,100,29,.09); }   /* Competitions: a dark bronze from the solver (4.79:1 on every paper tint), a medal colour that sits apart from every other UK accent */
 .ag-root.ag-bio { --ag-accent: #9B5527; --ag-accent-soft: rgba(155,85,39,.09); }   /* BIO: a dark copper from the solver (4.58:1 on every paper tint), separated from the London red and the competitions bronze */
 .ag-root.ag-nea { --ag-accent: #6F2183; --ag-accent-soft: rgba(111,33,131,.09); }   /* A-level NEA: a deep violet from the solver (7.67:1 on every paper tint), clearly separated from the Harrow violet by distance */
+.ag-root.ag-ktm { --ag-accent: #0F4857; --ag-accent-soft: rgba(15,72,87,.09); }   /* Kent 11 plus maths: a deep teal from the solver (8.17:1 on every paper tint), the only teal in the UK set and far from the London red and the NEA violet */

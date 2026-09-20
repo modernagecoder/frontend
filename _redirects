@@ -3112,4 +3112,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /a-level-computer-science-nea-help /src/pages/a-level-computer-science-nea-help.html 200
 /a-level-computer-science-nea-help.md /src/pages/a-level-computer-science-nea-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/11-plus-maths-tuition-kent /src/pages/11-plus-maths-tuition-kent.html 200
+/11-plus-maths-tuition-kent.md /src/pages/11-plus-maths-tuition-kent.md 200
 /* /src/pages/404.html 404

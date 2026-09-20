@@ -56,7 +56,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 4 | coding-and-ai-classes-in-scotland (sco, #2B1DA5) | cg- nation, index for Scottish councils and cities (Phase 1 preview) | 3,444 | 1.9% vs coding-classes-in-harrow-london | 32 council names and a name box: edit distance fixes typos, sends Shetland to Highland | fuzzy matching and edit distance (dynamic programming) | 653d29f8 |
 | 5 | uk-coding-maths-and-ai-competitions-calendar (ucc, #72641D) | competition hub | 3,482 | 2.7% vs british-informatics-olympiad-preparation | the 2026-27 competition year, month by month | seeded differential testing | 2f33a464 |
 | 6 | british-informatics-olympiad-preparation (bio, #9B5527) | competition spoke | 3,115 | 2.7% vs uk-coding-maths-and-ai-competitions-calendar | the test you did not write | randomised differential testing | a0973103 |
-| 7 | a-level-computer-science-nea-help (nea, #6F2183) | exam door | 3,409 | 0.6% vs british-informatics-olympiad-preparation | draw the states before you code | state machines | (this commit) |
+| 7 | a-level-computer-science-nea-help (nea, #6F2183) | exam door | 3,409 | 0.6% vs british-informatics-olympiad-preparation | draw the states before you code | state machines | 3aad51a8 |
+| 8 | 11-plus-maths-tuition-kent (ktm, #0F4857) | maths door by area | 4,728 | 0.6% vs british-informatics-olympiad-preparation | a Year 5 paper sat in Year 6 | calendar arithmetic against the curriculum | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
