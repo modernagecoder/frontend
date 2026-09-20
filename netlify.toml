@@ -11586,6 +11586,18 @@
   to = "/src/pages/oxford-university-computing-challenge-preparation.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/junior-mathematical-olympiad-preparation"
+  to = "/src/pages/junior-mathematical-olympiad-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/junior-mathematical-olympiad-preparation.md"
+  to = "/src/pages/junior-mathematical-olympiad-preparation.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

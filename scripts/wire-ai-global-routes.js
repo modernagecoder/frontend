@@ -172,6 +172,7 @@ const SLUGS = [
   'scottish-mathematical-challenge-practice',
   'bebras-computational-thinking-challenge-practice-uk',
   'oxford-university-computing-challenge-preparation',
+  'junior-mathematical-olympiad-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -423,6 +424,7 @@ const LLMS_LABELS = {
   'scottish-mathematical-challenge-practice': 'Scottish Mathematical Challenge practice',
   'bebras-computational-thinking-challenge-practice-uk': 'UK Bebras Challenge practice',
   'oxford-university-computing-challenge-preparation': 'Oxford University Computing Challenge preparation',
+  'junior-mathematical-olympiad-preparation': 'Junior Mathematical Olympiad preparation',
 };
 
 function wireLlms(slugs) {

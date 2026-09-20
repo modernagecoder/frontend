@@ -3136,4 +3136,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /oxford-university-computing-challenge-preparation /src/pages/oxford-university-computing-challenge-preparation.html 200
 /oxford-university-computing-challenge-preparation.md /src/pages/oxford-university-computing-challenge-preparation.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/junior-mathematical-olympiad-preparation /src/pages/junior-mathematical-olympiad-preparation.html 200
+/junior-mathematical-olympiad-preparation.md /src/pages/junior-mathematical-olympiad-preparation.md 200
 /* /src/pages/404.html 404
