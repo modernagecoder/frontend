@@ -49,6 +49,9 @@ node scripts/nl/finish.js --tracker UK-PROGRESS.md --slug "$SL" --row "$ROW" --t
 IDX=""; for P in $INDEXES; do [ -f "src/pages/$P.html" ] && IDX="$IDX content/uk/$P.js src/pages/$P.html src/pages/$P.md"; done
 git add -- "content/uk/$SL.js" "src/pages/$SL.html" "src/pages/$SL.md" $IDX $SHARED || { echo "git add failed"; exit 1; }
 git diff --cached --quiet && { echo "nothing staged"; exit 1; }
-git commit -q -F "$MSG" || { echo "commit failed"; exit 1; }
+TMPMSG=$(mktemp); cat "$MSG" > "$TMPMSG"
+grep -q 'Co-Authored-By: Claude' "$TMPMSG" || printf '\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01FEgEigmwP4ZaMbTaSSQLXz\n' >> "$TMPMSG"
+git commit -q -F "$TMPMSG" || { echo "commit failed"; rm -f "$TMPMSG"; exit 1; }
+rm -f "$TMPMSG"
 [ "$PUSH" = 1 ] && git push -q origin main 2>&1 | tail -1
 echo "committed (not pushed) $SL as $(git log --oneline -1)"
