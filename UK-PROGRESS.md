@@ -64,7 +64,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 12 | bebras-computational-thinking-challenge-practice-uk (beb, #1C6D9C) | competition spoke | 3,761 | 3.9% vs scottish-mathematical-challenge-practice | count the answer without doing the work | inversions and adjacent swaps | f0d352ec |
 | 13 | oxford-university-computing-challenge-preparation (ouc, #570F20) | competition spoke | 3,522 | 5.3% vs bebras-computational-thinking-challenge-practice-uk | equal is not the same as identical | stable sort and the order of ties | 03464778 |
 | 14 | junior-mathematical-olympiad-preparation (jmo, #151579) | competition spoke | 3,622 | 4.4% vs scottish-mathematical-challenge-practice | forty examples are not a proof | examples versus proof | 1732f618 |
-| 15 | intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation (imk, #356E4A) | competition spoke | 3,386 | 5.5% vs junior-mathematical-olympiad-preparation | a complete answer means all of them | proving a solution list is complete | (this commit) |
+| 15 | intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation (imk, #356E4A) | competition spoke | 3,386 | 5.5% vs junior-mathematical-olympiad-preparation | a complete answer means all of them | proving a solution list is complete | dc74cdbc |
+| 16 | british-mathematical-olympiad-bmo-preparation (bmo, #1C3754) | competition spoke | 3,740 | 4.2% vs intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation | find the thing that cannot change | invariants and parity | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -3144,4 +3144,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation /src/pages/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation.html 200
 /intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation.md /src/pages/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/british-mathematical-olympiad-bmo-preparation /src/pages/british-mathematical-olympiad-bmo-preparation.html 200
+/british-mathematical-olympiad-bmo-preparation.md /src/pages/british-mathematical-olympiad-bmo-preparation.md 200
 /* /src/pages/404.html 404
