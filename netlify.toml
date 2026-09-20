@@ -11706,6 +11706,18 @@
   to = "/src/pages/astro-pi-mission-zero-and-space-lab-help.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/uk-olympiad-in-artificial-intelligence-preparation"
+  to = "/src/pages/uk-olympiad-in-artificial-intelligence-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/uk-olympiad-in-artificial-intelligence-preparation.md"
+  to = "/src/pages/uk-olympiad-in-artificial-intelligence-preparation.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

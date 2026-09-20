@@ -3176,4 +3176,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /astro-pi-mission-zero-and-space-lab-help /src/pages/astro-pi-mission-zero-and-space-lab-help.html 200
 /astro-pi-mission-zero-and-space-lab-help.md /src/pages/astro-pi-mission-zero-and-space-lab-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/uk-olympiad-in-artificial-intelligence-preparation /src/pages/uk-olympiad-in-artificial-intelligence-preparation.html 200
+/uk-olympiad-in-artificial-intelligence-preparation.md /src/pages/uk-olympiad-in-artificial-intelligence-preparation.md 200
 /* /src/pages/404.html 404
