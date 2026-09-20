@@ -188,6 +188,7 @@ const SLUGS = [
   'first-lego-league-uk-coding-help',
   'sentinus-young-innovators-coding-help',
   'student-hackathons-uk',
+  'first-competitions-for-primary-school-children-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -455,6 +456,7 @@ const LLMS_LABELS = {
   'first-lego-league-uk-coding-help': 'FIRST LEGO League UK coding help',
   'sentinus-young-innovators-coding-help': 'Sentinus Young Innovators coding help',
   'student-hackathons-uk': 'Student hackathons in the UK',
+  'first-competitions-for-primary-school-children-uk': 'First competitions for primary school children',
 };
 
 function wireLlms(slugs) {

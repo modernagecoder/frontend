@@ -78,7 +78,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 26 | big-bang-competition-project-help (bbc, #303E7E) | competition spoke | 3,587 | 4.6% vs coolest-projects-uk-project-ideas | five minutes is a word budget | arithmetic on a published limit | c4a17061 |
 | 27 | first-lego-league-uk-coding-help (fll, #4D7231) | competition spoke | 3,308 | 5.3% vs coolest-projects-uk-project-ideas | the robot runs alone | dead reckoning and accumulated drift | 1f63d198 |
 | 28 | sentinus-young-innovators-coding-help (syi, #5B115F) | competition spoke | 3,292 | 5.5% vs first-lego-league-uk-coding-help | an age rule that is a school-year rule | eligibility arithmetic against a school system | cff32195 |
-| 29 | student-hackathons-uk (hak, #223239) | competition spoke | 3,455 | 4% vs big-bang-competition-project-help | two people, one file, three in the morning | merge conflicts and integration | (this commit) |
+| 29 | student-hackathons-uk (hak, #223239) | competition spoke | 3,455 | 4% vs big-bang-competition-project-help | two people, one file, three in the morning | merge conflicts and integration | 975c6905 |
+| 30 | first-competitions-for-primary-school-children-uk (fcp, #8B5718) | competition hub | 3,467 | 5.5% vs primary-maths-challenge-practice | five need a school, two do not | entry routes compared across organisers | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

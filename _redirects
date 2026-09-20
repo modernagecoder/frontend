@@ -3200,4 +3200,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /student-hackathons-uk /src/pages/student-hackathons-uk.html 200
 /student-hackathons-uk.md /src/pages/student-hackathons-uk.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/first-competitions-for-primary-school-children-uk /src/pages/first-competitions-for-primary-school-children-uk.html 200
+/first-competitions-for-primary-school-children-uk.md /src/pages/first-competitions-for-primary-school-children-uk.md 200
 /* /src/pages/404.html 404

@@ -404,6 +404,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - FIRST LEGO League UK coding help: https://learn.modernagecoders.com/first-lego-league-uk-coding-help
 - Sentinus Young Innovators coding help: https://learn.modernagecoders.com/sentinus-young-innovators-coding-help
 - Student hackathons in the UK: https://learn.modernagecoders.com/student-hackathons-uk
+- First competitions for primary school children: https://learn.modernagecoders.com/first-competitions-for-primary-school-children-uk
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
