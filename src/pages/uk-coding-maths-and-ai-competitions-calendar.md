@@ -130,6 +130,12 @@ Enter a pupil for a school-based paper, guarantee a qualifying score, or replace
 
 If a learner is not enjoying it. The skills competitions test are worth having regardless, and a class can build them with no competition in view at all.
 
+## A preparation page for every competition we could confirm
+
+Each page below is written for one competition: what the organiser actually asks for, what a learner should practise, and where the real past papers live.
+
+[British Informatics Olympiad](/british-informatics-olympiad-preparation) · [Primary Maths Challenge](/primary-maths-challenge-practice)
+
 ## Five stages from a first puzzle to a national team
 
 Ages are rough. Learners move on when their work shows the next habit is in place.

@@ -20,6 +20,24 @@
 // described: the Oxford University Computing Challenge (bebras.uk page returns an error), TeenTech (403),
 // CyberFirst Girls (the NCSC page now shows only TechFirst), RoboCupJunior UK (not read).
 
+// The list of competition pages is read from content/uk at build time, so this hub can never drift from
+// the cluster: uk-ship.sh rebuilds it after every new UK page. Only modules whose page has been built
+// are listed, and only those whose hub.group is 'competition'.
+const path = require('path');
+function competitionIndex() {
+  const here = path.basename(__filename);
+  const pages = require('../../scripts/nl/lib/uk-index.js').builtUkPages()
+    .filter(m => m.file !== here && m.group === 'competition')
+    .sort((a, b) => (a.label || a.routeLabel).localeCompare(b.label || b.routeLabel));
+  if (!pages.length) return [];
+  return [{
+    id: 'pages', tint: 'deep', eyebrow: 'One page each',
+    h2: 'A preparation page for every competition we could confirm',
+    lede: 'Each page below is written for one competition: what the organiser actually asks for, what a learner should practise, and where the real past papers live.',
+    body: [{ kind: 'p', html: pages.map(m => `<a class="ag-inline-link" href="/${m.slug}">${m.label || m.routeLabel}</a>`).join(' &middot; ') }]
+  }];
+}
+
 module.exports = {
   cluster: 'ag',
   clusterName: 'United Kingdom',
@@ -176,7 +194,8 @@ module.exports = {
           { h3: 'When not to bother', p: 'If a learner is not enjoying it. The skills competitions test are worth having regardless, and a class can build them with no competition in view at all.' }
         ] }
       ]
-    }
+    },
+    ...competitionIndex()
   ],
 
   ladder: {
