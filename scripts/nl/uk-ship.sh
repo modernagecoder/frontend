@@ -34,12 +34,14 @@ echo "$R" | grep -q "RESULT PASS" || { echo "$R" | grep -E "BAD|MISS|RESULT"; ec
 
 # Pages that index other UK pages (the hub lists every one; London lists its boroughs) are rebuilt
 # after every ship and re-verified, so no index can drift from the cluster.
-INDEXES="$HUB best-coding-class-in-london coding-and-ai-classes-in-scotland"
+INDEXES="$HUB best-coding-class-in-london coding-and-ai-classes-in-scotland uk-coding-maths-and-ai-competitions-calendar"
 for P in $INDEXES; do
   [ "$P" = "$SL" ] && continue
   [ -f "content/uk/$P.js" ] && [ -f "src/pages/$P.html" ] || continue
   node scripts/nl/build.js "$P" > "$LOG/index_build_$P.txt" 2>&1 || { tail -5 "$LOG/index_build_$P.txt"; exit 1; }
-  node scripts/verify-cluster-pages.js coding-global 2>&1 | grep -qE "^PASS .*$P$" || { echo "index page $P no longer passes verify"; exit 1; }
+  # An index page may be cg (coding-global) or ag (build-ai); verify against its own cluster.
+  PCL=coding-global; grep -q "cluster: 'ag'" "content/uk/$P.js" && PCL=build-ai
+  node scripts/verify-cluster-pages.js "$PCL" 2>&1 | grep -qE "^PASS .*$P$" || { echo "index page $P no longer passes verify ($PCL)"; exit 1; }
 done
 grep -q "href=\"/$SL\"" "src/pages/$HUB.html" || { echo "UK hub does not link to /$SL"; exit 1; }
 c=$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 "http://localhost:3001/$SL"); [ "$c" = 200 ] || { echo "/$SL returns $c locally"; exit 1; }
