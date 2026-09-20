@@ -83,7 +83,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 31 | maths-olympiad-training-uk (mot, #201249) | competition hub | 3,455 | 5.9% vs british-mathematical-olympiad-bmo-preparation | the harder the paper, the more time per question | arithmetic across published formats | fb822cdf |
 | 32 | coding-and-ai-classes-in-wales (wal, #19763D) | nation | 3,673 | 2.5% vs coding-classes-in-harrow-london | a year with the brief, and nothing you may carry in | an assessment that separates preparation from performance | b27860a5 |
 | 33 | coding-and-ai-classes-in-northern-ireland (nir, #8D356F) | nation | 4,175 | 2.6% vs coding-and-ai-classes-in-wales | one subject name, two qualifications, and no mixing | a qualification whose name conceals a branching decision | e8da135e |
-| 34 | coding-and-ai-classes-in-england (eng, #A5411D) | nation | 3,619 | 3.3% vs coding-and-ai-classes-in-northern-ireland | the national curriculum that most English secondary schools do not have to teach | an entitlement weakened by who it binds rather than what it says | (this commit) |
+| 34 | coding-and-ai-classes-in-england (eng, #A5411D) | nation | 3,619 | 3.3% vs coding-and-ai-classes-in-northern-ireland | the national curriculum that most English secondary schools do not have to teach | an entitlement weakened by who it binds rather than what it says | ecc28161 |
+| 35 | best-coding-classes-for-teens-uk (btu, #A51D5F) | door | 3,564 | 1.3% vs best-online-coding-classes-uk | the teenagers who check | a statistic whose base line is the whole story | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

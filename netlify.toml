@@ -11838,6 +11838,18 @@
   to = "/src/pages/coding-and-ai-classes-in-england.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-classes-for-teens-uk"
+  to = "/src/pages/best-coding-classes-for-teens-uk.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-classes-for-teens-uk.md"
+  to = "/src/pages/best-coding-classes-for-teens-uk.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

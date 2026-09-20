@@ -140,7 +140,7 @@ For younger children there is [online coding for kids in the UK](/online-coding-
 
 Each page below is written for its own place, exam or competition, with its own project and its own sources.
 
-**Guides:** [Best online coding classes in the UK](/best-online-coding-classes-uk)
+**Guides:** [Best coding classes for teens in the UK](/best-coding-classes-for-teens-uk) &middot; [Best online coding classes in the UK](/best-online-coding-classes-uk)
 
 **Exams, nation by nation:** [A-level Computer Science coursework](/a-level-computer-science-nea-help)
 
