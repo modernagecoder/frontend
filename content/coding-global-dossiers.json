@@ -16633,5 +16633,50 @@
       "Entry fees for either WJEC qualification: published in pounds, and this site prices in one currency.",
       "Any claim about how Welsh schools actually teach computing: the Curriculum for Wales lets each school design its own, so no national norm is asserted."
     ]
+  },
+  "coding-and-ai-classes-in-northern-ireland": {
+    "market": "Northern Ireland",
+    "bodyClass": "cg-nir",
+    "pageType": "governorate",
+    "curriculumAuthority": "Northern Ireland. CCEA GCSE Specification in Digital Technology, subject codes 2650 and 2610, first teaching September 2017, first assessment Summer 2018, first award Summer 2019, marked \"Updated: 17 September 2019\", read from CCEA's published PDF because ccea.org.uk returns an automated-access error on its HTML subject pages. Two qualifications share the subject: \"GCSE Digital Technology (Multimedia), a digital authoring qualification focusing on multimedia; and GCSE Digital Technology (Programming), a digital development qualification focusing on programming\"; \"All students study Unit 1: Digital Technology. They then choose either the multimedia route or the programming route\"; \"Students cannot combine units from each route; they can only be entered for Units 1, 2 and 3 or Units 1, 4 and 5.\" Structure: Unit 1 external written examination 1 hour, 30 per cent, Summer from 2018; Unit 2 or Unit 4 external written examination 1 hour 30 mins, 40 per cent, Summer from 2019; Unit 3 or Unit 5 controlled assessment, 30 per cent, Summer from 2019. Terminal rule: \"Students must take at least 40 percent of the assessment (based on unit weightings) at the end of the course as terminal assessment.\" Unit 5: \"Students must use one of the following languages in their completed solution: Python, Java or C#.\" Controlled assessment: task setting control \"high. This means that we set the task\"; \"We will publish a new scenario-based task for Unit 3 and Unit 5 in June each year\"; \"The controlled assessment task is worth 60 marks and will take a maximum of 36 hours to complete\"; task taking and task marking both \"medium\"; \"Candidates can work in pairs or groups, but it is essential that the teacher can identify individual contributions\"; \"teachers mark the task and we moderate the results\"; \"Candidates must reference appropriately all the materials they use in their work, including any online resources.\" Assessment objectives overall: AO1 30, AO2 46, AO3 24, \"A tolerance of +/-3% is applicable\". Grading: \"We award GCSE qualifications on a grade scale from A* to G, with A* being the highest. The nine grades available are as follows: A* A B C* C D E F G.\" Progression: the GCSE \"provides a sound basis for further study in both GCE Digital Technology and GCE Software Systems Development\". Curriculum context: \"the statutory Northern Ireland Curriculum\", Key Stage 3 and Key Stage 4, Cross-Curricular Skills (Communication, Using Mathematics, Using ICT) and Thinking Skills and Personal Capabilities. Corroboration for the 2026 to 2027 cycle: Wallace High School GCSE Prospectus September 2026-2027, which states its students \"will follow the programming route obtaining a GCSE with the title Digital Technology (Programming)\", gives Unit 1 at 30 per cent, Unit 4 at 40 and Unit 5 at 30, teaches Python, and links to the same 2017 CCEA microsite. Population: NISRA, Census 2021 main statistics for Northern Ireland phase 1 bulletin: census day 21 March 2021; \"The usually resident population of Northern Ireland on census day, 21 March 2021, was 1,903,175\"; Table 1 rounded display figures by the 11 local government districts, Belfast 345,400 (18.1 per cent) down to Fermanagh and Omagh 116,800 (6.1 per cent), with NISRA's own note that \"for display purposes figures are appropriately rounded but full figures are available in the Census 2021 tables\".",
+    "localProject": "One subject name, two qualifications, and no mixing. The page is built on the single sentence \"Students cannot combine units from each route\", because a Northern Irish family can choose Digital Technology on a Year 10 option form and reach Year 12 with no programming assessed at all. Two further edges follow from it: CCEA names three permitted languages for the Unit 5 solution rather than one, so the decisive fact is local to a school and a parent has to ask for it; and the practical unit is 36 hours of supervised, teacher-marked, CCEA-moderated coursework from a scenario republished every June. AI angle: a teacher signs an authenticity declaration for the coursework and 70 per cent of the marks sit in two written papers, so an assistant is useful for interrogating code and useless as a substitute. Lesson family: a qualification whose name conceals a branching decision, and whose practical component is assessed inside the school rather than sealed out of it; deliberately the mirror image of the Welsh pre-release rule and distinct from the English NEA pages, which turn on acknowledgement and malpractice.",
+    "requiredMentions": [
+      "cannot combine units from each route",
+      "Python, Java or C#",
+      "36 hours",
+      "60 marks",
+      "in June each year",
+      "1,903,175",
+      "Fermanagh and Omagh",
+      "terminal assessment",
+      "C*",
+      "Software Systems Development"
+    ],
+    "sources": [
+      {
+        "claim": "CCEA GCSE Specification in Digital Technology: the two routes, the no-mixing rule, unit structure and weightings, the terminal rule, the three permitted languages, the controlled assessment rules, assessment objective weightings, the A* to G nine-grade scale and progression to GCE Software Systems Development.",
+        "url": "https://ccea.org.uk/downloads/docs/Specifications/GCSE/GCSE%20Digital%20Technology%20(2017)/GCSE%20Digital%20Technology%20(2017)-specification-Standard_1.pdf"
+      },
+      {
+        "claim": "CCEA subject microsite for GCSE Digital Technology (2017). Returns an automated-access error; the specification PDF above was used instead and no attempt was made to work around the block.",
+        "url": "https://ccea.org.uk/key-stage-4/gcse/subjects/gcse-digital-technology-2017"
+      },
+      {
+        "claim": "A Northern Irish school teaching this specification in the 2026 to 2027 cycle, with the same units, weightings and route title, using Python.",
+        "url": "https://www.wallacehigh.org/wp-content/uploads/2025/12/GCSEProspectus-2026-27-1.pdf"
+      },
+      {
+        "claim": "NISRA Census 2021 main statistics phase 1 bulletin: the 1,903,175 total, census day, and the rounded population table for the 11 local government districts.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-main-statistics-for-northern-ireland-phase-1-statistical-bulletin-demography-and-households.pdf"
+      }
+    ],
+    "rejectedClaims": [
+      "Exact Census 2021 populations for the 11 districts: the bulletin publishes rounded display figures that do not sum to the stated national total, and the exact figures live in commissioned tables not read for this build. The page reproduces the rounded figures as published and never adds them up.",
+      "That Northern Ireland grades all GCSEs A* to G: the quoted scale is CCEA grading its own qualifications, and pupils here also sit GCSEs from English boards graded 9 to 1. The claim is scoped to CCEA throughout.",
+      "The SEAG entrance assessment format, paper count, timings or scoring: only third-party tutoring sites were found stating these, and the official SEAG domain did not resolve. Left entirely to a dedicated page once a CCEA, Education Authority or gov.uk source states it.",
+      "Which language any particular Northern Irish school teaches: CCEA permits three and the choice is local, so the page tells parents to ask their department rather than asserting a national norm.",
+      "Counts of Irish-medium or integrated schools: not read at a primary source for this build, so the page says only that we teach in English.",
+      "Entry fees for the qualification: published in pounds, and this site prices in one currency."
+    ]
   }
 }
