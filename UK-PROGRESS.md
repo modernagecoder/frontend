@@ -77,7 +77,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 25 | coolest-projects-uk-project-ideas (cpr, #19765A) | competition spoke | 3,438 | 5.1% vs uk-olympiad-in-artificial-intelligence-preparation | it has to run on somebody else's machine | a program that assumes where it is run | 93c6a9ef |
 | 26 | big-bang-competition-project-help (bbc, #303E7E) | competition spoke | 3,587 | 4.6% vs coolest-projects-uk-project-ideas | five minutes is a word budget | arithmetic on a published limit | c4a17061 |
 | 27 | first-lego-league-uk-coding-help (fll, #4D7231) | competition spoke | 3,308 | 5.3% vs coolest-projects-uk-project-ideas | the robot runs alone | dead reckoning and accumulated drift | 1f63d198 |
-| 28 | sentinus-young-innovators-coding-help (syi, #5B115F) | competition spoke | 3,292 | 5.5% vs first-lego-league-uk-coding-help | an age rule that is a school-year rule | eligibility arithmetic against a school system | (this commit) |
+| 28 | sentinus-young-innovators-coding-help (syi, #5B115F) | competition spoke | 3,292 | 5.5% vs first-lego-league-uk-coding-help | an age rule that is a school-year rule | eligibility arithmetic against a school system | cff32195 |
+| 29 | student-hackathons-uk (hak, #223239) | competition spoke | 3,455 | 4% vs big-bang-competition-project-help | two people, one file, three in the morning | merge conflicts and integration | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
