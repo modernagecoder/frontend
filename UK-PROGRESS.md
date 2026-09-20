@@ -86,7 +86,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 34 | coding-and-ai-classes-in-england (eng, #A5411D) | nation | 3,619 | 3.3% vs coding-and-ai-classes-in-northern-ireland | the national curriculum that most English secondary schools do not have to teach | an entitlement weakened by who it binds rather than what it says | ecc28161 |
 | 35 | best-coding-classes-for-teens-uk (btu, #A51D5F) | door | 3,564 | 1.3% vs best-online-coding-classes-uk | the teenagers who check | a statistic whose base line is the whole story | b9a2af44 |
 | 36 | best-coding-classes-for-adults-uk (bau, #676812) | door | 3,714 | 2.3% vs best-coding-classes-for-teens-uk | age is the weaker variable | a published regression that contradicts the reader's own assumption | 035d405b |
-| 37 | best-python-classes-online-uk (bpu, #115F12) | door | 3,481 | 3.6% vs best-coding-classes-for-teens-uk | the examined Python is a published subset, eighteen pages long | a published floor a class should clear rather than occupy | (this commit) |
+| 37 | best-python-classes-online-uk (bpu, #115F12) | door | 3,481 | 3.6% vs best-coding-classes-for-teens-uk | the examined Python is a published subset, eighteen pages long | a published floor a class should clear rather than occupy | e37169b6 |
+| 38 | ai-classes-for-kids-uk (aku, #6A3D1B) | door | 3,587 | 3% vs best-python-classes-online-uk | one sentence the Government has already written down | a public commitment that has not yet reached a classroom | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
