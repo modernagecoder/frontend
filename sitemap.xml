@@ -7739,4 +7739,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/astro-pi-mission-zero-and-space-lab-help</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
 </urlset>

@@ -71,7 +71,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 19 | ukmt-team-maths-challenge-practice (tmc, #A51D4D) | competition spoke | 3,514 | 5.5% vs ukmt-kangaroo-rounds-practice | in a chain, accuracy compounds | dependent steps and compounding reliability | ed864fa4 |
 | 20 | perse-coding-team-challenge-preparation (pct, #9C1C82) | competition spoke | 3,479 | 4.9% vs ukmt-kangaroo-rounds-practice | you are told that you failed, not why | edge cases from the specification | a8d0a99a |
 | 21 | national-cipher-challenge-preparation (ncc, #3B1471) | competition spoke | 3,451 | 4.9% vs perse-coding-team-challenge-preparation | write your own tool, because the rules say so | frequency analysis from scratch | 67c9a5cf |
-| 22 | cyberfirst-girls-competition-preparation (cfg, #41676C) | competition spoke | 3,574 | 4.6% vs perse-coding-team-challenge-preparation | how many questions to find one thing | the information bound on yes/no questions | (this commit) |
+| 22 | cyberfirst-girls-competition-preparation (cfg, #41676C) | competition spoke | 3,574 | 4.6% vs perse-coding-team-challenge-preparation | how many questions to find one thing | the information bound on yes/no questions | f53eb2b3 |
+| 23 | astro-pi-mission-zero-and-space-lab-help (apz, #495979) | competition spoke | 3,607 | 4.3% vs national-cipher-challenge-preparation | the deadline is an hour earlier than it looks | a deadline in another country's local time | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

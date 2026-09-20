@@ -181,6 +181,7 @@ const SLUGS = [
   'perse-coding-team-challenge-preparation',
   'national-cipher-challenge-preparation',
   'cyberfirst-girls-competition-preparation',
+  'astro-pi-mission-zero-and-space-lab-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -441,6 +442,7 @@ const LLMS_LABELS = {
   'perse-coding-team-challenge-preparation': 'Perse Coding Team Challenge preparation',
   'national-cipher-challenge-preparation': 'National Cipher Challenge preparation',
   'cyberfirst-girls-competition-preparation': 'CyberFirst Girls Competition preparation',
+  'astro-pi-mission-zero-and-space-lab-help': 'Astro Pi Mission Zero and Space Lab help',
 };
 
 function wireLlms(slugs) {
