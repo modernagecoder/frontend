@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>British Informatics Olympiad Preparation | BIO Round One</title>
+  <meta name="description" content="Preparation for the British Informatics Olympiad: what round one asks, how to test a solution until it breaks, and weekly practice with a teacher. First class free.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/british-informatics-olympiad-preparation">
+  <link rel="alternate" type="text/markdown" href="/src/pages/british-informatics-olympiad-preparation.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#9B5527">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/british-informatics-olympiad-preparation">
+  <meta property="og:title" content="British Informatics Olympiad Preparation | BIO Round One">
+  <meta property="og:description" content="BIO round one is a 3-hour paper with three questions, sat in school. Here is what it asks, how to prepare, and the random testing habit that catches the bug you did not think of.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_GB">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="British Informatics Olympiad Preparation">
+  <meta name="twitter:description" content="British Informatics Olympiad preparation: round one explained, and how to test until your solution breaks.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="GB">
+  <meta name="geo.placename" content="United Kingdom">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-bio .ag-hero-grid { gap: clamp(1rem, 2.6vw, 2.3rem); }
+.ag-root.ag-bio .ag-hero h1 { letter-spacing: -0.022em; }
+.ag-root.ag-bio .ag-capsule { border-left-width: 5px; }
+.ag-root.ag-bio .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-bio .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-bio .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-bio .ag-spec dt { letter-spacing: 0.1em; }
+.ag-root.ag-bio .ag-slots { gap: 1.15rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United Kingdom"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/british-informatics-olympiad-preparation#page","url":"https://learn.modernagecoders.com/british-informatics-olympiad-preparation","name":"British Informatics Olympiad Preparation","description":"How to prepare for the British Informatics Olympiad: the published rules of round one, a testing method that finds hidden bugs, and live online classes in algorithms and problem solving.","inLanguage":"en-GB","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"UK competitions calendar","item":"https://learn.modernagecoders.com/uk-coding-maths-and-ai-competitions-calendar"},{"@type":"ListItem","position":4,"name":"British Informatics Olympiad","item":"https://learn.modernagecoders.com/british-informatics-olympiad-preparation"}]},{"@type":"Course","name":"British Informatics Olympiad Preparation","description":"Live online competitive programming and algorithms classes for students preparing for the British Informatics Olympiad and similar contests, taught with original practice problems.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/british-informatics-olympiad-preparation"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/british-informatics-olympiad-preparation"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/british-informatics-olympiad-preparation"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What happens in round one?","acceptedAnswer":{"@type":"Answer","text":"The organiser describes it as a 3-hour paper with three questions, answered in any programming language and taken in school on a day the school chooses, during December and January."}},{"@type":"Question","name":"Who can enter?","acceptedAnswer":{"@type":"Answer","text":"The organiser states it is open to students under 19 years of age studying full-time at an establishment of Secondary or Further, not Higher, Education in mainland Britain."}},{"@type":"Question","name":"Which programming language should my child use?","acceptedAnswer":{"@type":"Answer","text":"Whichever they write most fluently, since any language is allowed. Fluency matters more than the choice: three hours is not long enough to fight the language as well as the problems."}},{"@type":"Question","name":"What happens after round one?","acceptedAnswer":{"@type":"Answer","text":"Strong entrants are invited to a final held in Cambridge at Easter, and the top four finalists make up the UK team for the International Olympiad in Informatics, which Uzbekistan hosted in 2026."}},{"@type":"Question","name":"How should a student practise?","acceptedAnswer":{"@type":"Answer","text":"Solve problems slowly and correctly first, then test hard: write a brute force and a seeded random generator and compare. In our own run of 10,000 random cases, that method exposed a bug in 1,872 of them that reading the code had not revealed."}},{"@type":"Question","name":"Do you use past BIO papers?","acceptedAnswer":{"@type":"Answer","text":"No. Practice problems are written fresh in the same style. The organiser publishes its own past papers, and that is where students should get them."}},{"@type":"Question","name":"Can you enter my child for the competition?","acceptedAnswer":{"@type":"Answer","text":"No. Entry is arranged by the school with the organiser. We teach the preparation, and we have no role in the competition itself."}},{"@type":"Question","name":"My school has never entered. What now?","acceptedAnswer":{"@type":"Answer","text":"Ask a computing teacher to look at the organiser's site, since the paper is sat in school on a date the school picks. In the meantime, other contests on our calendar page are open to individuals."}},{"@type":"Question","name":"What do classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first class is free. After that a group place is USD 100 a month and one-to-one teaching USD 150, with no joining fee and no annual contract."}},{"@type":"Question","name":"When are lessons, in UK time?","acceptedAnswer":{"@type":"Answer","text":"A weekly slot agreed in the free class, usually a weekday evening or a weekend morning. India runs five and a half hours ahead of the UK in winter and four and a half in summer."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United Kingdom"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/british-informatics-olympiad-preparation","availableLanguage":["en"]}}
+  </script>
+</head>
+
+<body class="ag-root ag-bio">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">UK</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#what">What BIO asks</a></li>
+      <li><a href="#testing">The testing habit</a></li>
+      <li><a href="#plan">A term of practice</a></li>
+      <li><a href="#catalogue">Courses</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/uk-coding-maths-and-ai-competitions-calendar">UK competitions calendar</a> / British Informatics Olympiad
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United Kingdom &middot; Round one in school &middot; Live online preparation</p>
+        <h1>British Informatics Olympiad preparation</h1>
+        <p class="ag-lede">The British Informatics Olympiad is the national programming competition for school students, and its first round is unusual: three questions, three hours, any programming language, sat in your own school on a day the school picks. Nobody watches you type, and nothing stops a plausible-looking program from being wrong on the cases the marker will try. That is what makes preparation different from revision. You cannot memorise your way through it, and you cannot tell by reading whether your solution is right. This page sets out what the organiser says round one involves, shows a testing method that finds the bugs reading never does, and explains what weekly practice with a teacher adds.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#testing" class="ag-btn ag-btn--ghost">See the testing method</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20preparing%20for%20the%20British%20Informatics%20Olympiad." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'bio'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Original practice problems &middot; No past papers reproduced &middot; No results promised</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Round one</dt><dd>3 hours, three questions</dd>
+          <dt>Where</dt><dd>In school, date chosen by the school</dd>
+          <dt>Language</dt><dd>Any programming language</dd>
+          <dt>Who</dt><dd>Under 19, secondary or further education</dd>
+          <dt>Where from</dt><dd>Mainland Britain</dd>
+          <dt>Window</dt><dd>December and January</dd>
+          <dt>Then</dt><dd>A final in Cambridge at Easter</dd>
+          <dt>Top four</dt><dd>The team for the IOI</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>The British Informatics Olympiad sets round one as a 3-hour paper with three questions, answered in any programming language and taken in school on a day of the school's choosing, during December and January. The organiser opens it to students under 19 studying full-time at an establishment of Secondary or Further, not Higher, Education in mainland Britain. Strong entrants go to a final in Cambridge at Easter, and the top four finalists form the UK team for the International Olympiad in Informatics, which Uzbekistan hosted in 2026. Preparation is mostly two things: knowing a handful of algorithm patterns, and testing a solution hard enough to find your own mistakes. We teach both live online, with problems written fresh rather than copied from the organiser's papers. A first class is free; groups cost USD 100 a month and one-to-one USD 150.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three courses behind a BIO entry</h2>
+      <p class="ag-lede">Most entrants need two things at once: more algorithms, and better testing. These build them.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/competitive-programming-for-teens-course">
+        <div class="ag-pick-shot"><img src="/images/competitive-programming-teens.webp" alt="Competitive Programming for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BIO / 01</p>
+          <h3>Competitive programming</h3>
+          <p>Contest-shaped problems with time limits, and the discipline of trying to break your own answer before the clock does.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-dsa-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-teens.webp" alt="Problem Solving for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BIO / 02</p>
+          <h3>Algorithms and data structures</h3>
+          <p>Search, recursion, dynamic programming and the structures round one keeps reaching for.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BIO / 03</p>
+          <h3>Python from start to finish</h3>
+          <p>For entrants whose programming is not yet fluent: the language first, so the contest is about the thinking.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="what">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What the organiser says</p><h2>Round one, in the organiser's own words</h2><p class="ag-lede">Everything in this table is quoted or summarised from olympiad.org.uk, read on 20 September 2026. Check it again before entering, because arrangements change year to year.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>British Informatics Olympiad, round one</caption><thead><tr><th scope="col">Question</th><th scope="col">What the organiser states</th></tr></thead><tbody><tr><td>What is it?</td><td>A 3-hour paper with three questions</td></tr><tr><td>In what language?</td><td>Answers may be written in any programming language</td></tr><tr><td>Where is it sat?</td><td>In school, on a day of the school's choosing</td></tr><tr><td>When?</td><td>During December and January; the 2026 window ran from 8 December 2025 to 23 January 2026</td></tr><tr><td>Who may enter?</td><td>Students under 19 years of age studying full-time at an establishment of Secondary or Further, not Higher, Education in mainland Britain</td></tr><tr><td>What is submitted?</td><td>The student's computer programs, together with written answers to the problems</td></tr><tr><td>What comes next?</td><td>A final held in Cambridge at Easter</td></tr><tr><td>And after that?</td><td>The top four finalists make up the team for the International Olympiad in Informatics, hosted by Uzbekistan in 2026</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>Two details change how a student should prepare. The paper is sat in school, so a teacher has to enter the school and set a date: if nobody at school knows about it, that conversation is the first task, not the algorithms.</p>
+<p>And because answers include written work as well as programs, a solution that is half explained is worth more than a program that silently fails. Practising the writing matters.</p></div><div><p>The language freedom cuts both ways. A student may use whatever they know best, but nothing in the room will tell them their program is wrong. Under exam conditions the only judge available is the student's own testing, which is why the next section is the heart of this page.</p>
+<p>Students in Northern Ireland should check their eligibility with the organiser, since the rules quoted above say mainland Britain. The <a class="ag-inline-link" href="/uk-coding-maths-and-ai-competitions-calendar">UK competitions calendar</a> lists alternatives, including one in Belfast.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://olympiad.org.uk/2026/index.html" rel="noopener" target="_blank">British Informatics Olympiad 2026</a> and its <a class="ag-inline-link" href="https://www.olympiad.org.uk/2026/rules.html" rel="noopener" target="_blank">rules page</a>, read 20 September 2026. Modern Age Coders is not connected with the British Informatics Olympiad.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="testing">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The habit that wins marks</p><h2>The test you did not write</h2><p class="ag-lede">Contest solutions fail on cases their author never imagined. The fix is not to imagine harder; it is to let a computer find them for you.</p></div>
+    <div class="ag-grid-3"><div><h3>1. Write the slow version</h3><p>First solve the problem the obvious, stupid way: try every possibility. It will be far too slow for the real input, and that does not matter. It is your definition of the right answer.</p></div><div><h3>2. Generate small cases</h3><p>Write a generator that makes tiny random inputs, small enough for the slow version to finish instantly, and seed it so any run can be repeated exactly.</p></div><div><h3>3. Compare until they differ</h3><p>Run both on thousands of cases and stop at the first disagreement. Because the case is tiny, you can read it, work it out by hand and see the bug.</p></div></div>
+    <p>undefined</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our run of 20 September 2026: fast solution against brute force, 10,000 random grids, seed 20260920</caption><thead><tr><th scope="col">Measure</th><th scope="col">Result</th></tr></thead><tbody><tr><td>Cases tested</td><td>10,000</td></tr><tr><td>Cases where the buggy fast solution disagreed</td><td>1,872, or 18.7 per cent</td></tr><tr><td>First disagreement</td><td>Case 12, a five-row grid, brute force 0 routes against the fast solution's 1</td></tr><tr><td>Cases where the corrected solution disagreed</td><td>None</td></tr><tr><td>Time to find the first bug</td><td>Under a second</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The bug was invisible on the examples in the question, which is exactly how contest mistakes behave. It only showed itself when a wall sat in the first row, and that arrangement did not appear in the sample input. Reading the code again would not have helped; a hundred hand-written tests might have missed it too.</p></div><div><p>The seed matters more than it looks. Recording it means a failing run can be reproduced exactly, by you tomorrow or by a teacher looking at your work. Without it, a bug that appears once and vanishes is the most frustrating thing in competitive programming.</p></div></div>
+    <p>undefined</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A term of practice</p><h2>Ten weeks, one hour a week, and no cramming</h2><p class="ag-lede">A realistic shape for an autumn term before a December or January paper. It assumes a student can already write programs in one language.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A ten-week preparation shape</caption><thead><tr><th scope="col">Weeks</th><th scope="col">Focus</th><th scope="col">What the student should be able to do by the end</th></tr></thead><tbody><tr><td>1 to 2</td><td>Reading problems and brute force</td><td>Restate a problem in their own words and solve it slowly but correctly</td></tr><tr><td>3 to 4</td><td>Testing</td><td>Write a generator and a brute force, and find their own bug with a seeded run</td></tr><tr><td>5 to 6</td><td>Search and recursion</td><td>Enumerate arrangements, prune sensibly and know when recursion is the wrong tool</td></tr><tr><td>7 to 8</td><td>Dynamic programming and counting</td><td>Turn a counting problem into a table, and explain in writing why it is correct</td></tr><tr><td>9</td><td>Writing answers</td><td>Explain a method on paper clearly enough for a marker who never sees it run</td></tr><tr><td>10</td><td>Full three-hour practice</td><td>Sit three fresh questions in one sitting and manage the clock</td></tr></tbody></table></div>
+    <p>undefined</p>
+  </div>
+</section>
+
+<section class="ag-section" id="answer">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Where we fit</p><h2>What a teacher adds, and what we do not claim</h2><p class="ag-lede">Preparation is mostly practice. A teacher shortens the time between a mistake and understanding it.</p></div>
+    <div class="ag-grid-3"><div><h3>What classes add</h3><p>Problems at the right level each week, a person who reads both the program and the written explanation, and the testing habit above, taught until it is automatic.</p></div><div><h3>What we do not do</h3><p>We do not enter students, invigilate, mark, or have any role in the competition. We do not reproduce its papers and we promise no score, no place in the final and no team selection.</p></div><div><h3>Worth it anyway</h3><p>Everything on this page, from brute-force reasoning to seeded testing, is ordinary professional practice. A student who never sits the paper still keeps the skills.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Getting there</p>
+      <h2>Four steps to a serious attempt</h2>
+      <p class="ag-lede">Most students arrive somewhere in the middle. The free class finds where.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From confident coder to contest entrant</caption><thead><tr><th scope="col">Stage</th><th scope="col">Step</th><th scope="col">The evidence it is secure</th></tr></thead><tbody><tr><td>Before starting</td><td class="ag-num">1. Fluent in one language</td><td class="ag-num">Can write and debug a 50-line program without help</td></tr><tr><td>Weeks 1 to 4</td><td class="ag-num">2. Slow but right</td><td class="ag-num">Solves a contest problem by brute force and proves it on small cases</td></tr><tr><td>Weeks 3 to 6</td><td class="ag-num">3. Tests properly</td><td class="ag-num">Finds a bug with a seeded generator rather than by rereading</td></tr><tr><td>Weeks 5 to 10</td><td class="ag-num">4. Fast and explained</td><td class="ag-num">Turns the slow answer into an efficient one and writes why it works</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If a school does not enter</h3><p>Ask the organiser about arrangements before assuming there is no route. Meanwhile the skills carry over to other contests on the <a class="ag-inline-link" href="/uk-coding-maths-and-ai-competitions-calendar">UK competitions calendar</a>.</p>
+<p>Team contests such as the Perse Coding Team Challenge suit students who prefer company to silence.</p></div><div><h3>After round one</h3><p>Finalists work on harder problems and tighter limits. The path beyond is the <a class="ag-inline-link" href="/ioi-olympiad-informatics-training">International Olympiad in Informatics</a>, which the top four finalists reach.</p>
+<p>Many entrants also practise on <a class="ag-inline-link" href="/usaco-preparation-online-coaching">USACO</a>, which runs online through the year.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for contest preparation</h2>
+      <p class="ag-lede">Ordered roughly by where an entrant usually needs work. Each card opens its syllabus.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Getting fluent</h3>
+        <span class="ag-band-sub">The language stops being the obstacle</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">BIO / LANG / 01</p>
+          <h4>Python from start to finish</h4>
+          <p>Every core idea of the language, with prediction before running.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BIO / LANG / 02</p>
+          <h4>First steps in Python</h4>
+          <p>For younger entrants who are new to typed code.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BIO / LANG / 03</p>
+          <h4>Java for teens</h4>
+          <p>For students whose school teaches Java and who want to enter in it.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Algorithms</h3>
+        <span class="ag-band-sub">The patterns round one rewards</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">BIO / ALG / 01</p>
+          <h4>Algorithms and data structures</h4>
+          <p>Search, sorting, recursion and dynamic programming, reasoned on paper first.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BIO / ALG / 02</p>
+          <h4>Competitive programming</h4>
+          <p>Contest problems against the clock, with testing built into the routine.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BIO / ALG / 03</p>
+          <h4>Advanced competitive programming</h4>
+          <p>For finalists and sixth formers pushing into harder rounds.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Around the contest</h3>
+        <span class="ag-band-sub">Projects, maths and hackathons</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">BIO / EXTRA / 01</p>
+          <h4>Olympiad mathematics</h4>
+          <p>Counting, proof and case analysis, which informatics problems lean on.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BIO / EXTRA / 02</p>
+          <h4>Hackathon preparation</h4>
+          <p>Building something complete under time pressure.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BIO / EXTRA / 03</p>
+          <h4>AI and machine learning for teens</h4>
+          <p>For students whose interest runs towards the AI olympiad instead.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How preparation runs</p>
+      <h2>One hour a week, plus problems between</h2>
+      <p class="ag-lede">Teachers work from India, five and a half hours ahead of the UK in winter and four and a half in summer, so most contest students take a weekday evening or a weekend morning, agreed in UK time.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday evening</p><p class="ag-slot-l">The common choice for Years 10 to 13 during term.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend morning</p><p class="ag-slot-l">Long enough for a full practice paper and a review.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Holiday intensives</p><p class="ag-slot-l">For the weeks before a December or January sitting.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Problems written fresh</h3><p>Every practice question is our own, in the competition's style; the organiser's papers stay on the organiser's site.</p></div>
+      <div><h3>Programs read line by line</h3><p>The teacher reads the code and the written explanation, not just the final output.</p></div>
+      <div><h3>Testing every week</h3><p>A generator and a brute force are part of the routine, not an afterthought.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten students at a similar level, comparing approaches to the same problem.</p></div>
+      <div><h3>One to one before a sitting</h3><p>For a student with a date in the diary and specific gaps to close.</p></div>
+      <div><h3>Honest limits</h3><p>No promises about scores or selection, and no help during the paper itself.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students have built</h2>
+      <p class="ag-lede">Four published student projects. The <a class="ag-inline-link" href="/student-labs">student labs</a> page has more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Monthly, in US dollars, the same rate as every country outside India. No joining fee.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A real contest problem with a teacher</li><li>An honest view of the starting level</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students at one level</li><li>Weekly problems and code review</li><li>The same teacher throughout</li><li>A certificate at the end</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher for one student</li><li>Planned around the sitting date</li><li>Suited to finalists and to late starters</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from families, copied exactly.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about the BIO</p>
+      <h2>What students and parents ask about the British Informatics Olympiad</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What happens in round one?</h3>
+        <p>The organiser describes it as a 3-hour paper with three questions, answered in any programming language and taken in school on a day the school chooses, during December and January.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Who can enter?</h3>
+        <p>The organiser states it is open to students under 19 years of age studying full-time at an establishment of Secondary or Further, not Higher, Education in mainland Britain.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which programming language should my child use?</h3>
+        <p>Whichever they write most fluently, since any language is allowed. Fluency matters more than the choice: three hours is not long enough to fight the language as well as the problems.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens after round one?</h3>
+        <p>Strong entrants are invited to a final held in Cambridge at Easter, and the top four finalists make up the UK team for the International Olympiad in Informatics, which Uzbekistan hosted in 2026.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How should a student practise?</h3>
+        <p>Solve problems slowly and correctly first, then test hard: write a brute force and a seeded random generator and compare. In our own run of 10,000 random cases, that method exposed a bug in 1,872 of them that reading the code had not revealed.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you use past BIO papers?</h3>
+        <p>No. Practice problems are written fresh in the same style. The organiser publishes its own past papers, and that is where students should get them.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you enter my child for the competition?</h3>
+        <p>No. Entry is arranged by the school with the organiser. We teach the preparation, and we have no role in the competition itself.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>My school has never entered. What now?</h3>
+        <p>Ask a computing teacher to look at the organiser's site, since the paper is sat in school on a date the school picks. In the meantime, other contests on our calendar page are open to individuals.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What do classes cost?</h3>
+        <p>The first class is free. After that a group place is USD 100 a month and one-to-one teaching USD 150, with no joining fee and no annual contract.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are lessons, in UK time?</h3>
+        <p>A weekly slot agreed in the free class, usually a weekday evening or a weekend morning. India runs five and a half hours ahead of the UK in winter and four and a half in summer.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>Other contests and pages</h2>
+      <p class="ag-lede">Where the BIO sits among the rest.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/uk-coding-maths-and-ai-competitions-calendar">UK competitions calendar 2026-27</a></h3><p>Every UK coding, maths and AI contest we could confirm.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ioi-olympiad-informatics-training">International Olympiad in Informatics</a></h3><p>Where the top four finalists go next.</p></div>
+      <div><h3><a class="ag-inline-link" href="/usaco-preparation-online-coaching">USACO preparation</a></h3><p>An online contest that runs through the year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-olympiad-medal-track">The coding olympiad track</a></h3><p>How the contests build on one another.</p></div>
+      <div><h3><a class="ag-inline-link" href="/best-online-coding-classes-uk">Choosing an online class in the UK</a></h3><p>Seven checks for any provider.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-kingdom">Coding classes in the UK</a></h3><p>The four school systems, and every UK page.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Try a contest problem, free</h2>
+        <p class="ag-lede">Send a number and we will arrange a free class at a UK time that suits. The class is a real contest problem, solved slowly, then tested until it breaks.</p>
+        <p class="ag-mt-40">Prefer to read first? Each <a class="ag-inline-link" href="/courses">course page</a> lists its syllabus, <a class="ag-inline-link" href="/how-we-teach">how we teach</a> explains the method, and the <a class="ag-inline-link" href="/coding-roadmap">roadmap</a> shows the order of topics.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20preparing%20for%20the%20British%20Informatics%20Olympiad." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'bio',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp from a UK mobile costs nothing and is usually quickest. Our number is Indian and described as such; there is no UK office.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_bio(event)" novalidate>
+          <div class="ag-field">
+            <label for="gb-name">Your name</label>
+            <input id="gb-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-phone">Phone or WhatsApp, United Kingdom +44</label>
+            <input id="gb-phone" type="tel" name="phone" placeholder="7700 900123" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-age">Learner age group</label>
+            <select id="gb-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card, no obligation. One reply to arrange the class.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Competitions</h4><ul><li><a href="/uk-coding-maths-and-ai-competitions-calendar">UK competitions calendar</a></li><li><a href="/ioi-olympiad-informatics-training">Informatics olympiad</a></li><li><a href="/usaco-preparation-online-coaching">USACO preparation</a></li><li><a href="/ukmt-maths-challenge-tutoring">UKMT challenges</a></li></ul></div>
+      <div><h4>United Kingdom</h4><ul><li><a href="/coding-classes-in-united-kingdom">Coding classes in the UK</a></li><li><a href="/best-online-coding-classes-uk">Choosing a class</a></li><li><a href="/coding-and-ai-classes-in-scotland">Scotland</a></li><li><a href="/best-coding-class-in-london">London</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Preparation only: we are not connected with the competition</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitLead_bio = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0044') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('44') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United Kingdom phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+44', countryIso: 'GB', countryName: 'United Kingdom',
+      source: 'british-informatics-olympiad-preparation-inline', meta: { name: name, age: age, page: 'british-informatics-olympiad-preparation' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+</body>
+</html>
