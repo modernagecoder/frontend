@@ -80,7 +80,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 28 | sentinus-young-innovators-coding-help (syi, #5B115F) | competition spoke | 3,292 | 5.5% vs first-lego-league-uk-coding-help | an age rule that is a school-year rule | eligibility arithmetic against a school system | cff32195 |
 | 29 | student-hackathons-uk (hak, #223239) | competition spoke | 3,455 | 4% vs big-bang-competition-project-help | two people, one file, three in the morning | merge conflicts and integration | 975c6905 |
 | 30 | first-competitions-for-primary-school-children-uk (fcp, #8B5718) | competition hub | 3,467 | 5.5% vs primary-maths-challenge-practice | five need a school, two do not | entry routes compared across organisers | c161b62f |
-| 31 | maths-olympiad-training-uk (mot, #201249) | competition hub | 3,455 | 5.9% vs british-mathematical-olympiad-bmo-preparation | the harder the paper, the more time per question | arithmetic across published formats | (this commit) |
+| 31 | maths-olympiad-training-uk (mot, #201249) | competition hub | 3,455 | 5.9% vs british-mathematical-olympiad-bmo-preparation | the harder the paper, the more time per question | arithmetic across published formats | fb822cdf |
+| 32 | coding-and-ai-classes-in-wales (wal, #19763D) | nation | 3,673 | 2.5% vs coding-classes-in-harrow-london | a year with the brief, and nothing you may carry in | an assessment that separates preparation from performance | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

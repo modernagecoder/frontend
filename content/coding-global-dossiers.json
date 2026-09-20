@@ -16585,5 +16585,53 @@
       "West Molesey's built-up area figure of 47,150: the ONS area appears to cover more than the town its name suggests, so it is left out rather than printed under a misleading label.",
       "A total count of Surrey towns above five thousand residents: the ONS built-up area table does not carry the local authority, so the forty towns in our table are a list we assembled and not an exhaustive census of the county. No total is claimed."
     ]
+  },
+  "coding-and-ai-classes-in-wales": {
+    "market": "Wales",
+    "bodyClass": "cg-wal",
+    "pageType": "governorate",
+    "curriculumAuthority": "Wales. WJEC GCSE Computer Science Qualification Outline version 1.4, \"Made for Wales. Ready for the world.\", first teaching September 2025, written to Qualifications Wales approval criteria: \"This is a unitised qualification\"; Unit 1 Understanding Computer Science is a \"digital only examination, marked by WJEC\" worth 50 per cent, suggested \"no longer than 1 hour and 45 minutes\", first available 2026; Unit 2 Computer Programming is an \"on-screen examination, marked by WJEC\" worth 50 per cent, suggested \"no longer than 2 hours\", first available 2027, and \"must be completed in the final year of study\"; \"The language used in the examination will be Python\"; \"There will be no optionality and no tiering\"; assessment objectives Unit 1 AO1 30 per cent, AO2 15, AO3 5 and Unit 2 AO1 0, AO2 25, AO3 25; the pre-release brief is \"issued to centres in the academic year before the assessment is scheduled to take place (for example, September 2025 for the 2027 examination)\", \"will consist of a scenario containing a list of requirements and provides information about all tasks learners must undertake both individually and in groups\", \"Work completed on the pre-release brief prior to the assessment will not be formally assessed and nor will it contribute to the final grade\", and \"Learners may not take any work already done on the pre-release brief into the assessment\". WJEC GCSE Digital Technology: teaching from 2026, first award 2028. Hwb, Welsh Government: the Curriculum for Wales uses six Areas of Learning and Experience and progression steps rather than key stages; Science and Technology \"draws on the disciplines of biology, chemistry, computer science, design and technology, and physics\". ONS Census 2021 usual residents via Nomis for the 22 Welsh principal areas, totalling 3,107,513: Cardiff 362,310; Swansea 238,491; Rhondda Cynon Taff 237,653; Carmarthenshire 187,898; Caerphilly 175,955; Newport 159,592; Flintshire 154,960; Bridgend 145,490; Neath Port Talbot 142,290; Wrexham 135,122; Powys 133,169; Vale of Glamorgan 131,939; Pembrokeshire 123,359; Gwynedd 117,392; Conwy 114,743; Denbighshire 95,820; Monmouthshire 92,960; Torfaen 92,276; Ceredigion 71,473; Isle of Anglesey 68,879; Blaenau Gwent 66,903; Merthyr Tydfil 58,839.",
+    "localProject": "A year with the brief, and nothing you may carry in. Wales issues the Unit 2 pre-release scenario a full academic year before the examination, invites individual and group work on it, then bars every page of that work from the room and awards it no marks. The page turns that rule into a method: build the scenario, set it aside, rebuild it from memory, because only fluency survives the door. It also reads the assessment objectives across the two units to show why, Unit 1 carrying all 30 per cent of the AO1 recall and Unit 2 carrying none, so every Unit 2 mark is for applying and analysing under a clock. AI angle: an assistant can write the pre-release solution and cannot sit the examination, which makes Wales an unusually honest test of what a student can produce unaided. Lesson family: an assessment that separates preparation from performance; distinct from the English NEA pages, which concern acknowledgement and malpractice rather than confiscation.",
+    "requiredMentions": [
+      "3,107,513",
+      "no optionality and no tiering",
+      "the language used in the examination will be Python",
+      "September 2025 for the 2027 examination",
+      "may not take any work already done",
+      "digital only examination",
+      "progression steps",
+      "Areas of Learning and Experience",
+      "1 hour and 45 minutes",
+      "first award in 2028"
+    ],
+    "sources": [
+      {
+        "claim": "WJEC GCSE Computer Science qualification outline v1.4: units, weightings, digital and on-screen assessment, suggested durations, Python, no optionality or tiering, assessment objectives, and the pre-release brief rules.",
+        "url": "https://www.wjec.co.uk/media/rualogvs/gcse-computer-science-qualification-outline.pdf"
+      },
+      {
+        "claim": "WJEC: GCSE Computer Science teaching from 2025, supporting the Curriculum for Wales.",
+        "url": "https://www.wjec.co.uk/qualifications/gcse-computer-science-teaching-from-2025/"
+      },
+      {
+        "claim": "WJEC: GCSE Digital Technology, teaching from 2026, first award 2028.",
+        "url": "https://www.wjec.co.uk/qualifications/gcse-digital-technology-teaching-from-2026/"
+      },
+      {
+        "claim": "Hwb, Welsh Government: Curriculum for Wales, Areas of Learning and Experience, progression steps, and the disciplines Science and Technology draws on.",
+        "url": "https://hwb.gov.wales/curriculum-for-wales/science-and-technology/"
+      },
+      {
+        "claim": "ONS Census 2021 usual residents for the 22 Welsh principal areas, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "The exact number of Welsh-medium and bilingual schools: not read at a primary source for this build, so the page says only that we teach in English and does not quantify Welsh-medium provision.",
+      "Welsh school term dates: not read at a primary source for this build, so no term dates are printed.",
+      "The statements of what matters for Science and Technology in full: the Hwb introduction names six but lists them on a separate page we did not read, so only the disciplines sentence is quoted.",
+      "Entry fees for either WJEC qualification: published in pounds, and this site prices in one currency.",
+      "Any claim about how Welsh schools actually teach computing: the Curriculum for Wales lets each school design its own, so no national norm is asserted."
+    ]
   }
 }
