@@ -3256,4 +3256,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /learn-to-train-ai-not-just-prompt-it-uk /src/pages/learn-to-train-ai-not-just-prompt-it-uk.html 200
 /learn-to-train-ai-not-just-prompt-it-uk.md /src/pages/learn-to-train-ai-not-just-prompt-it-uk.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/aqa-gcse-computer-science-8525-help /src/pages/aqa-gcse-computer-science-8525-help.html 200
+/aqa-gcse-computer-science-8525-help.md /src/pages/aqa-gcse-computer-science-8525-help.md 200
 /* /src/pages/404.html 404

@@ -11946,6 +11946,18 @@
   to = "/src/pages/learn-to-train-ai-not-just-prompt-it-uk.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/aqa-gcse-computer-science-8525-help"
+  to = "/src/pages/aqa-gcse-computer-science-8525-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/aqa-gcse-computer-science-8525-help.md"
+  to = "/src/pages/aqa-gcse-computer-science-8525-help.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

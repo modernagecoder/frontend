@@ -694,3 +694,4 @@
 .ag-root.ag-ocu { --ag-accent: #342442; --ag-accent-soft: rgba(52,36,66,.09); }   /* Tutor, UK: a very dark plum from the solver (11.54:1 on every paper tint) and the widest separation left in the cluster, sober enough for a page about checks */
 .ag-root.ag-psc { --ag-accent: #883A88; --ag-accent-soft: rgba(136,58,136,.09); }   /* Problem solving, UK: an orchid purple from the solver (5.67:1 on every paper tint) with the widest separation in the whole cluster at dE 13.7 */
 .ag-root.ag-ltr { --ag-accent: #557114; --ag-accent-soft: rgba(85,113,20,.09); }   /* Train AI, UK: an olive lime from the solver (4.53:1 on every paper tint), clearly apart from the oxblood, claret and orchid used by the other three Think pages */
+.ag-root.ag-aqg { --ag-accent: #394060; --ag-accent-soft: rgba(57,64,96,.09); }   /* AQA 8525: a slate navy from the solver (8.21:1 on every paper tint), darker and cooler than the UK hub blue so the two never read as the same page */
