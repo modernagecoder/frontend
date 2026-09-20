@@ -416,6 +416,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Learn to think, not just use AI tools: https://learn.modernagecoders.com/learn-to-think-not-just-use-ai-tools-uk
 - Learn to train AI, not just prompt it: https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-uk
 - AQA GCSE Computer Science 8525 help: https://learn.modernagecoders.com/aqa-gcse-computer-science-8525-help
+- OCR GCSE Computer Science J277 help: https://learn.modernagecoders.com/ocr-gcse-computer-science-j277-help
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

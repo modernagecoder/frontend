@@ -3260,4 +3260,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /aqa-gcse-computer-science-8525-help /src/pages/aqa-gcse-computer-science-8525-help.html 200
 /aqa-gcse-computer-science-8525-help.md /src/pages/aqa-gcse-computer-science-8525-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ocr-gcse-computer-science-j277-help /src/pages/ocr-gcse-computer-science-j277-help.html 200
+/ocr-gcse-computer-science-j277-help.md /src/pages/ocr-gcse-computer-science-j277-help.md 200
 /* /src/pages/404.html 404
