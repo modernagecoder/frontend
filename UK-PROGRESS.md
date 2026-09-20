@@ -67,7 +67,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 15 | intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation (imk, #356E4A) | competition spoke | 3,386 | 5.5% vs junior-mathematical-olympiad-preparation | a complete answer means all of them | proving a solution list is complete | dc74cdbc |
 | 16 | british-mathematical-olympiad-bmo-preparation (bmo, #1C3754) | competition spoke | 3,740 | 4.2% vs intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation | find the thing that cannot change | invariants and parity | 7846236a |
 | 17 | mathematical-olympiad-for-girls-preparation (mog, #1A4C45) | competition spoke | 3,698 | 5.2% vs british-mathematical-olympiad-bmo-preparation | two questions want the number, three want the reason | pigeonhole and a brute-force check | 75bfbd07 |
-| 18 | ukmt-kangaroo-rounds-practice (kan, #6922A0) | competition spoke | 3,600 | 5.1% vs mathematical-olympiad-for-girls-preparation | the wrong answers are somebody's working | how multiple-choice distractors are built | (this commit) |
+| 18 | ukmt-kangaroo-rounds-practice (kan, #6922A0) | competition spoke | 3,600 | 5.1% vs mathematical-olympiad-for-girls-preparation | the wrong answers are somebody's working | how multiple-choice distractors are built | 9c8b245b |
+| 19 | ukmt-team-maths-challenge-practice (tmc, #A51D4D) | competition spoke | 3,514 | 5.5% vs ukmt-kangaroo-rounds-practice | in a chain, accuracy compounds | dependent steps and compounding reliability | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

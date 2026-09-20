@@ -3156,4 +3156,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ukmt-kangaroo-rounds-practice /src/pages/ukmt-kangaroo-rounds-practice.html 200
 /ukmt-kangaroo-rounds-practice.md /src/pages/ukmt-kangaroo-rounds-practice.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ukmt-team-maths-challenge-practice /src/pages/ukmt-team-maths-challenge-practice.html 200
+/ukmt-team-maths-challenge-practice.md /src/pages/ukmt-team-maths-challenge-practice.md 200
 /* /src/pages/404.html 404

@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>UKMT Team Maths Challenge Practice | Junior and Senior</title>
+  <meta name="description" content="Preparing for the UKMT Team Maths Challenge and Senior Team Maths Challenge: teams of four, the Crossnumber and Shuttle rounds, and how regional finals work.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ukmt-team-maths-challenge-practice">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ukmt-team-maths-challenge-practice.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#A51D4D">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ukmt-team-maths-challenge-practice">
+  <meta property="og:title" content="UKMT Team Maths Challenge Practice | Junior and Senior">
+  <meta property="og:description" content="The Shuttle round chains each answer into the next question, so accuracy compounds. Four answers at ninety per cent each hold together only two thirds of the time.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_GB">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="UKMT Team Maths Challenge Practice">
+  <meta name="twitter:description" content="UKMT team challenge preparation: teams of four, four rounds, and the arithmetic of a shuttle.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="GB">
+  <meta name="geo.placename" content="United Kingdom">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-tmc .ag-hero h1 { letter-spacing: -0.013em; }
+.ag-root.ag-tmc .ag-capsule { border-left-width: 4px; border-radius: 0 16px 16px 0; }
+.ag-root.ag-tmc .ag-section-head h2 { max-width: 33ch; }
+.ag-root.ag-tmc .ag-table caption { text-align: left; font-weight: 700; letter-spacing: 0.02em; }
+.ag-root.ag-tmc .ag-table th { font-size: 0.93em; }
+.ag-root.ag-tmc .ag-spec dt { letter-spacing: 0.1em; }
+.ag-root.ag-tmc .ag-three h3 { letter-spacing: -0.011em; }
+.ag-root.ag-tmc .ag-slots { gap: 1.2rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United Kingdom"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ukmt-team-maths-challenge-practice#page","url":"https://learn.modernagecoders.com/ukmt-team-maths-challenge-practice","name":"UKMT Team Maths Challenge Practice","description":"Preparation guidance for the UK Mathematics Trust Team Maths Challenge and Senior Team Maths Challenge, covering team composition, the rounds, the regional and national finals, and how to practise for a chained shuttle round.","inLanguage":"en-GB","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"UK competitions calendar","item":"https://learn.modernagecoders.com/uk-coding-maths-and-ai-competitions-calendar"},{"@type":"ListItem","position":4,"name":"Team Maths Challenges","item":"https://learn.modernagecoders.com/ukmt-team-maths-challenge-practice"}]},{"@type":"Course","name":"UKMT Team Maths Challenge Practice","description":"Live online mathematics classes that build the speed, accuracy and collaboration the UKMT team challenges reward, for pupils in Years 8 to 13.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ukmt-team-maths-challenge-practice"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ukmt-team-maths-challenge-practice"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ukmt-team-maths-challenge-practice"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How big is a Team Maths Challenge team?","acceptedAnswer":{"@type":"Answer","text":"Four students, with a maximum of two from the older year group. In England and Wales that means Year 8 and Year 9 with at most two Year 9 pupils; in Scotland S1 to S3; in Northern Ireland Years 9 and 10."}},{"@type":"Question","name":"What are the rounds?","acceptedAnswer":{"@type":"Answer","text":"The junior challenge has four: The Group, The Crossnumber, The Shuttle and The Relay. The Senior Team Maths Challenge has three, The Group, The Crossnumber and The Shuttle, plus starter questions that do not count towards the score."}},{"@type":"Question","name":"What is the Shuttle round?","acceptedAnswer":{"@type":"Answer","text":"A round in which each answer feeds into the next question, so a mistake early on carries forward. It is the round that makes the competition about accuracy rather than speed."}},{"@type":"Question","name":"Why does one small error matter so much?","acceptedAnswer":{"@type":"Answer","text":"Because reliability compounds when steps depend on each other. Four questions each answered correctly nine times out of ten would give 3.6 right on an ordinary paper, but chained they are all correct only about two thirds of the time."}},{"@type":"Question","name":"When are the senior regional finals?","acceptedAnswer":{"@type":"Answer","text":"UKMT says senior registration opened on Thursday 10 September 2026, regional finals run throughout November 2026, and the national final is in February 2027 with the venue to be confirmed."}},{"@type":"Question","name":"When is the junior competition?","acceptedAnswer":{"@type":"Answer","text":"UKMT's 2026-27 competitions calendar does not list team dates. The cycle the junior page describes is registration in October, regional finals from February to the Easter break, and an invite-only national final in June, so a school should check with UKMT for this season's dates."}},{"@type":"Question","name":"How does a team reach the national final?","acceptedAnswer":{"@type":"Answer","text":"The winning team from a regional final is invited, and UKMT says high scoring second place teams or teams that have shown exceptional teamwork may also be invited. At senior level, high-scoring teams from the regional finals are invited."}},{"@type":"Question","name":"Can a school enter more than one team?","acceptedAnswer":{"@type":"Answer","text":"At senior level UKMT says a school may enter only one team per regional event. The junior pages we read do not state a limit, so ask UKMT."}},{"@type":"Question","name":"How should a squad practise?","acceptedAnswer":{"@type":"Answer","text":"By running the rounds, especially the crossnumber with the clues genuinely split between pairs, and by recording where a shuttle chain broke. In practice it is usually the handover rather than the mathematics."}},{"@type":"Question","name":"What do classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. A group place is then USD 100 a month and one-to-one teaching USD 150, with nothing to pay to register."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United Kingdom"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ukmt-team-maths-challenge-practice","availableLanguage":["en"]}}
+  </script>
+</head>
+
+<body class="ag-root ag-tmc">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">UK</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#rounds">The rounds</a></li>
+      <li><a href="#chain">Why the shuttle bites</a></li>
+      <li><a href="#finals">Regionals and finals</a></li>
+      <li><a href="#catalogue">Courses</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/uk-coding-maths-and-ai-competitions-calendar">UK competitions calendar</a> / Team Maths Challenges
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United Kingdom &middot; Teams of four &middot; Years 8 to 13</p>
+        <h1>UKMT Team Maths Challenge practice</h1>
+        <p class="ag-lede">Every other competition on this site is sat alone. The Team Maths Challenges are not, and that changes what a good performance is made of. Four students share a table, one round has them working in pairs with each answer feeding the next question, another has them running answers to a marker, and the mathematics is deliberately no harder than the school course. What separates teams is accuracy and communication, in that order, and the shuttle round exists to punish anybody who has only ever been fast.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#chain" class="ag-btn ag-btn--ghost">See what a chain costs</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20a%20UKMT%20team%20maths%20challenge%20squad%20and%20I%20would%20like%20a%20free%20class." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'tmc'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Quoted from UKMT with the date we read it &middot; Our own practice material &middot; Nothing promised about a regional final</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Organiser</dt><dd>UK Mathematics Trust</dd>
+          <dt>Team</dt><dd>Four students</dd>
+          <dt>Junior years</dt><dd>Year 8 and Year 9</dd>
+          <dt>Senior years</dt><dd>Year 12 and Year 13</dd>
+          <dt>Junior rounds</dt><dd>Group, Crossnumber, Shuttle, Relay</dd>
+          <dt>Senior rounds</dt><dd>Group, Crossnumber, Shuttle</dd>
+          <dt>Regionals</dt><dd>Hosted in schools around the UK</dd>
+          <dt>National final</dt><dd>By invitation only</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>UKMT runs two team competitions. In the Team Maths Challenge "each team consists of four students, with a maximum of two students from the older year group", drawn from "Year 8 and Year 9" in England and Wales, S1 to S3 in Scotland and Years 9 and 10 in Northern Ireland, and it has four rounds: The Group, The Crossnumber, The Shuttle and The Relay. The Senior Team Maths Challenge has "teams of four students" from Years 12 and 13 in England and Wales, Years 13 and 14 in Northern Ireland and S5 and S6 in Scotland, with "three rounds - The Group, The Crossnumber and The Shuttle" plus non-scoring starters. Senior registration opened on Thursday 10 September 2026, regional finals run through November 2026 and the national final is in February 2027. Regional finals are hosted in schools, and high-scoring teams are invited to the national final. We teach the mathematics and the accuracy, live online. A first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three courses for a team squad</h2>
+      <p class="ag-lede">Team rounds reward reliable mathematics done quickly, not clever mathematics done slowly.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/mental-maths-mastery-kids">
+        <div class="ag-pick-shot"><img src="/images/mental-maths-kids.webp" alt="Mental Maths for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">TMC / 01</p>
+          <h3>Mental maths for kids</h3>
+          <p>For Year 8 and 9 squads: arithmetic that arrives, because in a relay the clock is the opponent.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/comprehensive-middle-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/middle-school-maths.webp" alt="Middle School Mathematics Mastery course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">TMC / 02</p>
+          <h3>Middle school maths mastery</h3>
+          <p>The ratio, algebra and geometry the junior rounds are built from, taught to reliability.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-high-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/high-school-maths.webp" alt="High School Mathematics course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">TMC / 03</p>
+          <h3>High school mathematics</h3>
+          <p>For senior squads: the sixth-form content the Group and Crossnumber rounds draw on.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="rounds">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The rounds</p><h2>Four rounds, and only one of them is an ordinary paper</h2><p class="ag-lede">Facts read at UKMT's own pages on 20 September 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The two team competitions as UKMT describes them</caption><thead><tr><th scope="col"></th><th scope="col">Team Maths Challenge</th><th scope="col">Senior Team Maths Challenge</th></tr></thead><tbody><tr><td>Team</td><td>"Each team consists of four students, with a maximum of two students from the older year group"</td><td>"Teams of four students", no more than two from the older year</td></tr><tr><td>England and Wales</td><td>"Year 8 and Year 9 (with a maximum of two Year 9 pupils)"</td><td>Year 12 and 13</td></tr><tr><td>Scotland</td><td>S1, S2 and S3</td><td>S5 and S6</td></tr><tr><td>Northern Ireland</td><td>Year 9 and Year 10</td><td>Year 13 and 14</td></tr><tr><td>Rounds</td><td>The Group, The Crossnumber, The Shuttle and The Relay</td><td>"three rounds - The Group, The Crossnumber and The Shuttle", plus starter questions that do not count</td></tr><tr><td>Regional finals</td><td>"Regional Finals take place in host schools"</td><td>Throughout November 2026, at venues around the UK</td></tr><tr><td>National final</td><td>In June, by invitation</td><td>February 2027, venue to be confirmed</td></tr></tbody></table></div>
+    <div class="ag-grid-3"><div><h3>The Group</h3><p>The closest thing to an ordinary paper: the team works together on a set of questions, and the only novelty is that four people have to agree.</p></div><div><h3>The Crossnumber</h3><p>A crossword with numbers, split so that two students hold the across clues and two the down. Neither pair can see the other's clues, so the grid is filled by inference and conversation.</p></div><div><h3>The Shuttle and The Relay</h3><p>The two rounds that make this a team sport. In the shuttle, answers feed forward from one question to the next; in the relay, a runner carries answers to a marker against the clock.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>UKMT's 2026-27 competitions calendar does not print dates for the team challenges, so this page gives the shape of a year rather than inventing one. For the junior challenge the published cycle is registration in October, regional finals from February to the Easter break and an invite-only national final in June. For the senior challenge UKMT has published this season: registration opened on Thursday 10 September 2026, regional finals run through November 2026 and the national final is in February 2027.</p>
+<p>Entry is a school matter and entry prices are published by UKMT in pounds, which we do not print. A teacher registers a team; nothing a family or a tutor does can put a child in one.</p></div><div><p>The team composition rule is worth reading twice. A junior team is four students with at most two from the older year group, which means a squad cannot simply be the four best mathematicians in Year 9. Building a team is itself a constrained problem, and the schools that do well at this tend to be the ones that start with Year 8 the previous year.</p>
+<p>A school may enter only one team per senior regional event, so internal selection matters more at sixth form than most pupils expect.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://ukmt.org.uk/team-challenges/team-mathematical-challenge" rel="noopener" target="_blank">UKMT, Team Maths Challenge</a> and <a class="ag-inline-link" href="https://ukmt.org.uk/team-challenges/senior-team-maths-challenge" rel="noopener" target="_blank">Senior Team Maths Challenge</a>, read 20 September 2026. We have no connection with the UK Mathematics Trust.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="chain">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The method</p><h2>In a chain, accuracy compounds</h2><p class="ag-lede">The shuttle round feeds each answer into the next question. That one design decision changes what a team should practise.</p></div>
+    <p>On an ordinary paper the questions are independent: get one wrong and you lose one mark. In a shuttle the answer to the first question is an input to the second, so a slip at the start does not cost one answer. It costs every answer after it. That sounds obvious and its arithmetic is not, because people badly underestimate how quickly reliability drains away when steps depend on each other.</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our arithmetic of 20 September 2026: four questions, chained against independent</caption><thead><tr><th scope="col">If each question is right this often</th><th scope="col">Independent: expected right out of 4</th><th scope="col">Chained: all four right</th></tr></thead><tbody><tr><td>95 per cent of the time</td><td>3.8</td><td>81.5 per cent of the time</td></tr><tr><td>90 per cent of the time</td><td>3.6</td><td>65.6 per cent of the time</td></tr><tr><td>85 per cent of the time</td><td>3.4</td><td>52.2 per cent of the time</td></tr><tr><td>80 per cent of the time</td><td>3.2</td><td>41.0 per cent of the time</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the numbers say</h3><p>A team that is right nine times out of ten, which sounds excellent, completes a four-link chain only about two thirds of the time. Drop to eight in ten, which still sounds respectable, and the chain holds in only four rounds out of ten.</p>
+<p>Now compare the two columns. Going from 80 to 95 per cent accuracy is worth about half a mark on an independent paper and doubles the chance of a clean chain. Nothing else a team can practise has that kind of leverage.</p></div><div><h3>What a team should do about it</h3><p>Check the first answer of a chain harder than the last. Teams instinctively rush the early questions because they are easier, which is exactly backwards: the early answers carry the most weight.</p>
+<p>Say the answer out loud before passing it on, and have the receiving pair repeat it back. Most shuttle failures we hear about are transcription rather than mathematics: a 6 read as a 5, a sign dropped in the handover.</p></div></div>
+    <p>None of this is exam craft dressed up. It is the same reasoning that makes engineers worry about long chains of dependent steps, and a fourteen-year-old who has felt it in a shuttle round understands something about reliability that a lot of adults do not.</p>
+    <p class="ag-source-note ag-mt-40">The figures are ours, computed on 20 September 2026 from the stated accuracies. They describe arithmetic, not any particular team.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="finals">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Regionals and finals</p><h2>Hosted in schools, and won by teams that talk</h2><p class="ag-lede">The competition is built around regional events rather than a single national paper, which changes the experience completely.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>How a team progresses, in UKMT's own terms</caption><thead><tr><th scope="col">Stage</th><th scope="col">Junior</th><th scope="col">Senior</th></tr></thead><tbody><tr><td>Registration</td><td>Opens in October</td><td>Opened Thursday 10 September 2026</td></tr><tr><td>Regional finals</td><td>February to the Easter break, in host schools</td><td>Throughout November 2026, at venues around the UK</td></tr><tr><td>Who goes through</td><td>"The winning team from the Regional Finals will be invited to participate in the National Final"</td><td>High-scoring teams from the regional finals are invited</td></tr><tr><td>Other invitations</td><td>High scoring second place teams, or teams showing exceptional teamwork</td><td>Not stated</td></tr><tr><td>National final</td><td>June, invitation only</td><td>February 2027, venue to be confirmed</td></tr><tr><td>Teams per school</td><td>Not stated</td><td>One team per regional event</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The line about "teams that have shown exceptional teamwork" is unusual enough to be worth pointing at. Most competitions promote on score alone. UKMT reserves the option to invite a team because of how it worked, which tells you what the organisers think the competition is for.</p>
+<p>A regional final in a host school is also a very different day from a paper sat at a desk. There is noise, there is a runner, there are other schools in the room, and a squad that has only ever practised quietly at lunchtime can find the atmosphere itself a surprise.</p></div><div><p>The most useful preparation, and the cheapest, is to run the rounds. A teacher with eight pupils can split them into two teams and run a crossnumber with the clues divided; nothing about that needs a tutor or a purchase.</p>
+<p>What we add is the mathematics underneath: arithmetic that does not wobble under time pressure, and the habit of checking an answer that something else depends on. The rest belongs to the school.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Getting ready</p>
+      <h2>Four rungs to a squad that holds together</h2>
+      <p class="ag-lede">Team performance is built from individual reliability, then communication, then pace.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From quick arithmetic to a chain that does not break</caption><thead><tr><th scope="col">Stage</th><th scope="col">Rung</th><th scope="col">The sign it is secure</th></tr></thead><tbody><tr><td>Year 7 to 8</td><td class="ag-num">1. Reliable arithmetic</td><td class="ag-num">Gets the ordinary questions right when hurried</td></tr><tr><td>Year 8</td><td class="ag-num">2. Working out loud</td><td class="ag-num">Can explain a step to a teammate mid-question without losing it</td></tr><tr><td>Year 8 to 9</td><td class="ag-num">3. Checking what matters</td><td class="ag-num">Checks an answer harder when something depends on it</td></tr><tr><td>Year 9 and up</td><td class="ag-num">4. Pace under noise</td><td class="ag-num">Keeps accuracy in a room with a clock and other teams in it</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If a regional is close</h3><p>Run a shuttle round in practice and record where it broke. In our experience the answer is almost always the handover, not the mathematics.</p>
+<p>Practise the crossnumber with the clues genuinely split. Doing it with all the clues visible teaches none of the skill the round is testing.</p></div><div><h3>Beyond the team rounds</h3><p>Individual papers ask for something different, and the <a class="ag-inline-link" href="/uk-coding-maths-and-ai-competitions-calendar">competitions calendar</a> lays them all out.</p>
+<p>Pupils who like the relay pace often like <a class="ag-inline-link" href="/courses/competitive-programming-for-teens-course">competitive programming</a>, which is the same sport with a compiler.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The full list</p>
+      <h2>Courses behind a reliable team</h2>
+      <p class="ag-lede">Grouped by what a squad member needs, with each syllabus a click away.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Speed and accuracy</h3>
+        <span class="ag-band-sub">The foundation of every round</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">TMC / A / 01</p>
+          <h4>Mental maths for kids</h4>
+          <p>Arithmetic that arrives rather than being worked out.</p>
+          <a class="ag-course-link" href="/courses/mental-maths-mastery-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TMC / A / 02</p>
+          <h4>Vedic maths</h4>
+          <p>Speed methods for the calculation underneath.</p>
+          <a class="ag-course-link" href="/courses/vedic-maths-course-speed-calculation-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TMC / A / 03</p>
+          <h4>Abacus and mental maths</h4>
+          <p>From first beads to calculating with none.</p>
+          <a class="ag-course-link" href="/courses/abacus-mental-maths-course-for-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Junior squads</h3>
+        <span class="ag-band-sub">Years 8 and 9</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">TMC / B / 01</p>
+          <h4>Middle school maths mastery</h4>
+          <p>Ratio, algebra and geometry taught to reliability.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TMC / B / 02</p>
+          <h4>Olympiad and competition maths</h4>
+          <p>For the questions that do not announce a method.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TMC / B / 03</p>
+          <h4>GCSE maths</h4>
+          <p>The school course, taught to the board in use.</p>
+          <a class="ag-course-link" href="/courses/gcse-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Senior squads</h3>
+        <span class="ag-band-sub">Years 12 and 13</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">TMC / C / 01</p>
+          <h4>High school mathematics</h4>
+          <p>Sixth-form content at the pace a group round needs.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TMC / C / 02</p>
+          <h4>A-level maths</h4>
+          <p>The qualification running alongside.</p>
+          <a class="ag-course-link" href="/courses/a-level-maths-course-pure-mechanics-statistics">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TMC / C / 03</p>
+          <h4>Statistics and probability</h4>
+          <p>Including how quickly reliability drains in a chain.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">IV</span>
+        <h3>Sideways</h3>
+        <span class="ag-band-sub">Same instincts, different tools</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">TMC / D / 01</p>
+          <h4>Competitive programming</h4>
+          <p>The relay round with a compiler as the marker.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TMC / D / 02</p>
+          <h4>Maths through coding</h4>
+          <p>Programs that check the answer you were about to hand over.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TMC / D / 03</p>
+          <h4>Algorithms and data structures</h4>
+          <p>Searching, sorting and how long a method takes.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Individual teaching for a team sport</h2>
+      <p class="ag-lede">Lessons are live on video from India, where the clock sits five and a half hours ahead of Britain in winter and four and a half in summer. Times are agreed and kept in UK time.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Early weekday evening</p><p class="ag-slot-l">For Year 8 and 9 squad members.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Later weekday evening</p><p class="ag-slot-l">For sixth-form squads.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend morning</p><p class="ag-slot-l">For a longer session on a full set of rounds.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Accuracy before speed</h3><p>We work on getting it right when hurried, which is the thing a chained round actually tests.</p></div>
+      <div><h3>Answers said aloud</h3><p>Every answer is stated and repeated back, which is the habit that stops shuttle handovers going wrong.</p></div>
+      <div><h3>Five to ten learners</h3><p>A group is large enough that two methods meet and small enough that every answer is heard.</p></div>
+      <div><h3>Our own material</h3><p>Practice rounds written by us. UKMT publishes its own past material and that is where the real thing lives.</p></div>
+      <div><h3>One to one when needed</h3><p>For a squad member with one specific weakness to close before a regional.</p></div>
+      <div><h3>Nothing promised</h3><p>We cannot register a team or influence selection, and we promise no result.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students build</h2>
+      <p class="ag-lede">Four published projects by students at our school, built outside any competition. More on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">One monthly rate in US dollars for families outside India. No registration fee and no minimum number of months.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A full lesson with a teacher</li><li>An honest read on where the errors come from</li><li>No card details taken</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten learners at one level</li><li>The same teacher every week</li><li>Work checked and talked through</li><li>A certificate at the end</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher working with one learner</li><li>Aimed at one specific weakness</li><li>Useful in the weeks before a regional final</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews left by families, reproduced with nothing changed.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Team challenge questions</p>
+      <h2>What teachers and parents ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>How big is a Team Maths Challenge team?</h3>
+        <p>Four students, with a maximum of two from the older year group. In England and Wales that means Year 8 and Year 9 with at most two Year 9 pupils; in Scotland S1 to S3; in Northern Ireland Years 9 and 10.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What are the rounds?</h3>
+        <p>The junior challenge has four: The Group, The Crossnumber, The Shuttle and The Relay. The Senior Team Maths Challenge has three, The Group, The Crossnumber and The Shuttle, plus starter questions that do not count towards the score.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the Shuttle round?</h3>
+        <p>A round in which each answer feeds into the next question, so a mistake early on carries forward. It is the round that makes the competition about accuracy rather than speed.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does one small error matter so much?</h3>
+        <p>Because reliability compounds when steps depend on each other. Four questions each answered correctly nine times out of ten would give 3.6 right on an ordinary paper, but chained they are all correct only about two thirds of the time.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are the senior regional finals?</h3>
+        <p>UKMT says senior registration opened on Thursday 10 September 2026, regional finals run throughout November 2026, and the national final is in February 2027 with the venue to be confirmed.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the junior competition?</h3>
+        <p>UKMT's 2026-27 competitions calendar does not list team dates. The cycle the junior page describes is registration in October, regional finals from February to the Easter break, and an invite-only national final in June, so a school should check with UKMT for this season's dates.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How does a team reach the national final?</h3>
+        <p>The winning team from a regional final is invited, and UKMT says high scoring second place teams or teams that have shown exceptional teamwork may also be invited. At senior level, high-scoring teams from the regional finals are invited.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a school enter more than one team?</h3>
+        <p>At senior level UKMT says a school may enter only one team per regional event. The junior pages we read do not state a limit, so ask UKMT.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How should a squad practise?</h3>
+        <p>By running the rounds, especially the crossnumber with the clues genuinely split between pairs, and by recording where a shuttle chain broke. In practice it is usually the handover rather than the mathematics.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What do classes cost?</h3>
+        <p>The first lesson is free. A group place is then USD 100 a month and one-to-one teaching USD 150, with nothing to pay to register.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>Papers sat alone</h2>
+      <p class="ag-lede">The individual rounds a squad member is likely to sit as well, and the whole season in one table.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/ukmt-kangaroo-rounds-practice">UKMT Kangaroo rounds</a></h3><p>Twenty-five multiple-choice questions in an hour.</p></div>
+      <div><h3><a class="ag-inline-link" href="/junior-mathematical-olympiad-preparation">Junior Mathematical Olympiad</a></h3><p>Six written questions for Year 8 and below.</p></div>
+      <div><h3><a class="ag-inline-link" href="/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation">Cayley, Hamilton and Maclaurin</a></h3><p>The intermediate olympiads, split by school year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/uk-coding-maths-and-ai-competitions-calendar">UK competitions calendar 2026-27</a></h3><p>Dates for every contest, checked with the people who run them.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-kingdom">Coding classes in the UK</a></h3><p>The four school systems, and every UK page.</p></div>
+      <div><h3><a class="ag-inline-link" href="/best-online-coding-classes-uk">Choosing an online class</a></h3><p>How to tell a serious provider from a well-designed one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free maths lesson</h2>
+        <p class="ag-lede">Tell us the year group and which round a squad member struggles with. The free lesson is a real one, and afterwards we say plainly where the errors are coming from.</p>
+        <p class="ag-mt-40">Rather read first? The syllabus for each course is on its own <a class="ag-inline-link" href="/courses">course page</a>, the approach is on <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, and the <a class="ag-inline-link" href="/coding-roadmap">roadmap</a> puts the topics in order.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20a%20UKMT%20team%20maths%20challenge%20squad%20and%20I%20would%20like%20a%20free%20class." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'tmc',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp is free from a UK mobile and tends to reach us soonest. Our number is an Indian one, which we state on every page, and no British office exists.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_tmc(event)" novalidate>
+          <div class="ag-field">
+            <label for="gb-name">Your name</label>
+            <input id="gb-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-phone">Phone or WhatsApp, United Kingdom +44</label>
+            <input id="gb-phone" type="tel" name="phone" placeholder="7700 900123" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-age">Learner age group</label>
+            <select id="gb-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card, no obligation. One reply to arrange a time.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Competitions</h4><ul><li><a href="/ukmt-kangaroo-rounds-practice">Kangaroo rounds</a></li><li><a href="/junior-mathematical-olympiad-preparation">Junior olympiad</a></li><li><a href="/uk-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li><li><a href="/primary-maths-challenge-practice">Primary Maths Challenge</a></li></ul></div>
+      <div><h4>Maths courses</h4><ul><li><a href="/courses/mental-maths-mastery-kids">Mental maths</a></li><li><a href="/courses/comprehensive-middle-school-mathematics-mastery">Middle school maths</a></li><li><a href="/courses/complete-high-school-mathematics-mastery">High school maths</a></li><li><a href="/coding-classes-in-united-kingdom">Coding classes in the UK</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>We teach the accuracy; the school builds the team</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitLead_tmc = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0044') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('44') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United Kingdom phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+44', countryIso: 'GB', countryName: 'United Kingdom',
+      source: 'ukmt-team-maths-challenge-practice-inline', meta: { name: name, age: age, page: 'ukmt-team-maths-challenge-practice' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+</body>
+</html>

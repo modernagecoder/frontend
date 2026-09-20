@@ -177,6 +177,7 @@ const SLUGS = [
   'british-mathematical-olympiad-bmo-preparation',
   'mathematical-olympiad-for-girls-preparation',
   'ukmt-kangaroo-rounds-practice',
+  'ukmt-team-maths-challenge-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -433,6 +434,7 @@ const LLMS_LABELS = {
   'british-mathematical-olympiad-bmo-preparation': 'British Mathematical Olympiad preparation',
   'mathematical-olympiad-for-girls-preparation': 'Mathematical Olympiad for Girls preparation',
   'ukmt-kangaroo-rounds-practice': 'UKMT Kangaroo rounds practice',
+  'ukmt-team-maths-challenge-practice': 'UKMT Team Maths Challenge practice',
 };
 
 function wireLlms(slugs) {
