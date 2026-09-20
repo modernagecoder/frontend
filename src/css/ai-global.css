@@ -696,3 +696,4 @@
 .ag-root.ag-ltr { --ag-accent: #557114; --ag-accent-soft: rgba(85,113,20,.09); }   /* Train AI, UK: an olive lime from the solver (4.53:1 on every paper tint), clearly apart from the oxblood, claret and orchid used by the other three Think pages */
 .ag-root.ag-aqg { --ag-accent: #394060; --ag-accent-soft: rgba(57,64,96,.09); }   /* AQA 8525: a slate navy from the solver (8.21:1 on every paper tint), darker and cooler than the UK hub blue so the two never read as the same page */
 .ag-root.ag-ocj { --ag-accent: #3D665C; --ag-accent-soft: rgba(61,102,92,.09); }   /* OCR J277: a muted teal green from the solver (5.24:1 on every paper tint), clearly apart from the slate navy used for the AQA specification page */
+.ag-root.ag-edx { --ag-accent: #4E360E; --ag-accent-soft: rgba(78,54,14,.09); }   /* Edexcel 1CP2: a dark bronze from the solver (9.17:1 on every paper tint), distinct from the slate navy and teal used for the AQA and OCR specification pages */

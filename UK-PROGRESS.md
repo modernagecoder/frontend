@@ -94,7 +94,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 42 | learn-to-think-not-just-use-ai-tools-uk (ltt, #79152E) | door | 3,705 | 2.9% vs problem-solving-skills-through-coding-uk | five assumptions that broke | a published framework whose shape makes the argument | 2ffc17dc |
 | 43 | learn-to-train-ai-not-just-prompt-it-uk (ltr, #557114) | door | 3,705 | 2.8% vs problem-solving-skills-through-coding-uk | you cannot audit a prompt | an accountability vocabulary that only applies on one side of a line | d156c157 |
 | 44 | aqa-gcse-computer-science-8525-help (aqg, #394060) | exam door | 3,499 | 3.1% vs learn-to-think-not-just-use-ai-tools-uk | three notations, one paper | an exam whose hardest requirement is notational | 692ca892 |
-| 45 | ocr-gcse-computer-science-j277-help (ocj, #3D665C) | exam door | 3,525 | 3.6% vs aqa-gcse-computer-science-8525-help | the column nobody reads | an exam board that publishes its own limits | (this commit) |
+| 45 | ocr-gcse-computer-science-j277-help (ocj, #3D665C) | exam door | 3,525 | 3.6% vs aqa-gcse-computer-science-8525-help | the column nobody reads | an exam board that publishes its own limits | 72991232 |
+| 46 | edexcel-gcse-computer-science-1cp2-help (edx, #4E360E) | exam door | 3,616 | 3.2% vs ocr-gcse-computer-science-j277-help | five questions, five topics, nowhere to hide | an assessment whose structure dictates the revision plan | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

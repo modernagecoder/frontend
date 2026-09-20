@@ -201,6 +201,7 @@ const SLUGS = [
   'learn-to-train-ai-not-just-prompt-it-uk',
   'aqa-gcse-computer-science-8525-help',
   'ocr-gcse-computer-science-j277-help',
+  'edexcel-gcse-computer-science-1cp2-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -481,6 +482,7 @@ const LLMS_LABELS = {
   'learn-to-train-ai-not-just-prompt-it-uk': 'Learn to train AI, not just prompt it',
   'aqa-gcse-computer-science-8525-help': 'AQA GCSE Computer Science 8525 help',
   'ocr-gcse-computer-science-j277-help': 'OCR GCSE Computer Science J277 help',
+  'edexcel-gcse-computer-science-1cp2-help': 'Edexcel GCSE Computer Science 1CP2 help',
 };
 
 function wireLlms(slugs) {
