@@ -662,3 +662,6 @@
 
 /* United Kingdom cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints. */
 .ag-root.ag-bou { --ag-accent: #3B721D; --ag-accent-soft: rgba(59,114,29,.09); }   /* Best online, UK: a deep moss green from the solver (4.72:1 on every paper tint), clear of the UK hub blue and the London red */
+.ag-root.ag-ucc { --ag-accent: #72641D; --ag-accent-soft: rgba(114,100,29,.09); }   /* Competitions: a dark bronze from the solver (4.79:1 on every paper tint), a medal colour that sits apart from every other UK accent */
+.ag-root.ag-bio { --ag-accent: #9B5527; --ag-accent-soft: rgba(155,85,39,.09); }   /* BIO: a dark copper from the solver (4.58:1 on every paper tint), separated from the London red and the competitions bronze */
+.ag-root.ag-nea { --ag-accent: #6F2183; --ag-accent-soft: rgba(111,33,131,.09); }   /* A-level NEA: a deep violet from the solver (7.67:1 on every paper tint), clearly separated from the Harrow violet by distance */

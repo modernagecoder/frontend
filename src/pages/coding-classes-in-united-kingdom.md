@@ -142,6 +142,10 @@ Each page below is written for its own place, exam or competition, with its own 
 
 **Guides:** [Best online coding classes in the UK](/best-online-coding-classes-uk)
 
+**Exams, nation by nation:** [A-level Computer Science coursework](/a-level-computer-science-nea-help)
+
+**Competitions:** [British Informatics Olympiad](/british-informatics-olympiad-preparation) &middot; [The 2026-27 competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+
 **Nations:** [Scotland](/coding-and-ai-classes-in-scotland)
 
 **Cities:** [London](/best-coding-class-in-london)

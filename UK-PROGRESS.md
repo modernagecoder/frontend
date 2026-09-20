@@ -53,7 +53,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 1 | best-coding-class-in-london (ldn, #A52B1D) | cg- city, hub for the London boroughs (Phase 1 preview) | 3,705 | 0.8% vs coding-classes-in-dun-laoghaire-rathdown | the loop that never ends: London Datastore package_search ignores rows and start | API that ignores its parameters; stop on the count, cap calls, deduplicate | 87389c3a |
 | 2 | best-online-coding-classes-uk (bou, #3B721D) | ag- door, national best (Phase 1 preview) | 3,976 | 0.5% vs ai-and-python-academy-for-girls-ireland | 2026 Ofqual entries (GCSE computing down 7.0%, largest EBacc fall), seven checks, six routes | criteria page, no data trap | 14116335 |
 | 3 | coding-classes-in-harrow-london (hrw, #961C9C) | cg- London borough (Phase 1 preview) | 3,605 | 1.3% vs best-coding-class-in-dublin | a format check is not a fact check: 16 postcodes, 14 shape, 12 exist, 10 in Harrow | input validation: shape vs existence vs meaning | 9ae62ac0 |
-| 4 | coding-and-ai-classes-in-scotland (sco, #2B1DA5) | cg- nation, index for Scottish councils and cities (Phase 1 preview) | 3,444 | 1.9% vs coding-classes-in-harrow-london | 32 council names and a name box: edit distance fixes typos, sends Shetland to Highland | fuzzy matching and edit distance (dynamic programming) | (this commit) |
+| 4 | coding-and-ai-classes-in-scotland (sco, #2B1DA5) | cg- nation, index for Scottish councils and cities (Phase 1 preview) | 3,444 | 1.9% vs coding-classes-in-harrow-london | 32 council names and a name box: edit distance fixes typos, sends Shetland to Highland | fuzzy matching and edit distance (dynamic programming) | 653d29f8 |
+| 5 | uk-coding-maths-and-ai-competitions-calendar (ucc, #72641D) | competition hub | 3,482 | 2.7% vs british-informatics-olympiad-preparation | the 2026-27 competition year, month by month | seeded differential testing | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -164,6 +164,9 @@ const SLUGS = [
   'java-classes-ireland',
   'app-development-course-ireland',
   'best-online-coding-classes-uk',
+  'uk-coding-maths-and-ai-competitions-calendar',
+  'british-informatics-olympiad-preparation',
+  'a-level-computer-science-nea-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -407,6 +410,9 @@ const LLMS_LABELS = {
   'java-classes-ireland': 'Java classes, Ireland',
   'app-development-course-ireland': 'App development course, Ireland',
   'best-online-coding-classes-uk': 'Best online coding classes in the UK',
+  'uk-coding-maths-and-ai-competitions-calendar': 'UK coding, maths and AI competitions calendar',
+  'british-informatics-olympiad-preparation': 'British Informatics Olympiad preparation',
+  'a-level-computer-science-nea-help': 'A-level Computer Science coursework help',
 };
 
 function wireLlms(slugs) {
