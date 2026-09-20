@@ -3128,4 +3128,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /scottish-mathematical-challenge-practice /src/pages/scottish-mathematical-challenge-practice.html 200
 /scottish-mathematical-challenge-practice.md /src/pages/scottish-mathematical-challenge-practice.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/bebras-computational-thinking-challenge-practice-uk /src/pages/bebras-computational-thinking-challenge-practice-uk.html 200
+/bebras-computational-thinking-challenge-practice-uk.md /src/pages/bebras-computational-thinking-challenge-practice-uk.md 200
 /* /src/pages/404.html 404

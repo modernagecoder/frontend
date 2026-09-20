@@ -170,6 +170,7 @@ const SLUGS = [
   '11-plus-maths-tuition-kent',
   'primary-maths-challenge-practice',
   'scottish-mathematical-challenge-practice',
+  'bebras-computational-thinking-challenge-practice-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -419,6 +420,7 @@ const LLMS_LABELS = {
   '11-plus-maths-tuition-kent': '11 plus maths tuition in Kent',
   'primary-maths-challenge-practice': 'Primary Maths Challenge practice',
   'scottish-mathematical-challenge-practice': 'Scottish Mathematical Challenge practice',
+  'bebras-computational-thinking-challenge-practice-uk': 'UK Bebras Challenge practice',
 };
 
 function wireLlms(slugs) {
