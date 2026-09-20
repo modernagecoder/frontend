@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Cayley, Hamilton and Maclaurin Preparation | UKMT Olympiads</title>
+  <meta name="description" content="Preparing for the UKMT intermediate olympiads: which paper each year group sits, six questions in two hours, and why finding one answer is rarely the answer.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation">
+  <link rel="alternate" type="text/markdown" href="/src/pages/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#356E4A">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation">
+  <meta property="og:title" content="Cayley, Hamilton and Maclaurin Preparation | UKMT Olympiads">
+  <meta property="og:description" content="Cayley, Hamilton and Maclaurin are three olympiad papers split by school year. The marks live in proving you have found every solution, not the first one.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_GB">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cayley, Hamilton and Maclaurin Preparation">
+  <meta name="twitter:description" content="UKMT intermediate olympiad preparation: Cayley, Hamilton and Maclaurin, six questions in two hours.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="GB">
+  <meta name="geo.placename" content="United Kingdom">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-imk .ag-hero h1 { letter-spacing: -0.014em; }
+.ag-root.ag-imk .ag-capsule { border-left-width: 7px; border-radius: 0 8px 8px 0; }
+.ag-root.ag-imk .ag-section-head h2 { max-width: 26ch; }
+.ag-root.ag-imk .ag-table caption { text-align: left; font-weight: 700; font-style: italic; }
+.ag-root.ag-imk .ag-table td:first-child { font-weight: 600; }
+.ag-root.ag-imk .ag-spec dt { letter-spacing: 0.12em; }
+.ag-root.ag-imk .ag-three h3 { letter-spacing: -0.006em; }
+.ag-root.ag-imk .ag-slots { gap: 1.25rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United Kingdom"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation#page","url":"https://learn.modernagecoders.com/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation","name":"Cayley, Hamilton and Maclaurin Olympiad Preparation","description":"Preparation guidance for the UK Mathematics Trust intermediate mathematical olympiads, Cayley, Hamilton and Maclaurin, covering eligibility by year group and nation, qualification from the Intermediate Mathematical Challenge, and how full written solutions are marked.","inLanguage":"en-GB","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"UK competitions calendar","item":"https://learn.modernagecoders.com/uk-coding-maths-and-ai-competitions-calendar"},{"@type":"ListItem","position":4,"name":"Cayley, Hamilton and Maclaurin","item":"https://learn.modernagecoders.com/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation"}]},{"@type":"Course","name":"Cayley, Hamilton and Maclaurin Olympiad Preparation","description":"Live online olympiad mathematics classes for pupils in Years 9 to 11 working towards the Cayley, Hamilton and Maclaurin papers, teaching complete written solutions rather than past-paper drilling.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which paper does my child sit?","acceptedAnswer":{"@type":"Answer","text":"By year group, not by score. UKMT sets Cayley for Year 9 and below, Hamilton for Year 10 and Maclaurin for Year 11 in England, Wales and overseas; S2 or below, S3 and S4 in Scotland; and Year 10 or below, Year 11 and Year 12 in Northern Ireland."}},{"@type":"Question","name":"When are the intermediate olympiads in 2027?","acceptedAnswer":{"@type":"Answer","text":"All three papers fall on 18 March 2027, the same afternoon as the Grey and Pink Kangaroo. The Intermediate Mathematical Challenge that qualifies pupils is on 27 January 2027."}},{"@type":"Question","name":"How does a pupil qualify?","acceptedAnswer":{"@type":"Answer","text":"UKMT says entry is by invitation based on a qualifying Intermediate Mathematical Challenge score, or by discretionary entry, and that around 1,800 students qualify from the IMC each year."}},{"@type":"Question","name":"What is the paper like?","acceptedAnswer":{"@type":"Answer","text":"Two hours and six olympiad-style problems, with every answer written out in full. UKMT tells candidates to \"give full written solutions, including mathematical reasons as to why your method is correct\"."}},{"@type":"Question","name":"Why did a correct answer score so little?","acceptedAnswer":{"@type":"Answer","text":"Because UKMT says so plainly: \"just stating an answer, even a correct one, will earn you very few marks; also, incomplete or poorly presented solutions will not receive full marks\". At this level the argument is the answer."}},{"@type":"Question","name":"What does \"find all\" actually require?","acceptedAnswer":{"@type":"Answer","text":"A list and a reason the list is complete. For example, 1/a + 1/b = 1/6 has exactly nine ordered solutions in positive integers, because the equation rearranges to (a minus 6)(b minus 6) = 36 and 36 has nine divisors. The sentence about the divisors is where the marks are."}},{"@type":"Question","name":"How many questions should a pupil finish?","acceptedAnswer":{"@type":"Answer","text":"Three, well. Two hours for six questions is twenty minutes each, and complete solutions score where fragments do not."}},{"@type":"Question","name":"Is the Kangaroo the same thing?","acceptedAnswer":{"@type":"Answer","text":"No. The Grey and Pink Kangaroo papers fall on the same afternoon but are multiple choice. Preparing for one is not preparing for the other."}},{"@type":"Question","name":"Do you use UKMT past papers in lessons?","acceptedAnswer":{"@type":"Answer","text":"No. UKMT publishes its own past papers and full solutions free, which is the right place for them. Our problems are written by us in the same idiom."}},{"@type":"Question","name":"What do classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. A group place is then USD 100 a month and one-to-one teaching USD 150, with nothing to join and no minimum term."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United Kingdom"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation","availableLanguage":["en"]}}
+  </script>
+</head>
+
+<body class="ag-root ag-imk">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">UK</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#papers">Three papers</a></li>
+      <li><a href="#all">Finding all of them</a></li>
+      <li><a href="#practise">How to practise</a></li>
+      <li><a href="#catalogue">Courses</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/uk-coding-maths-and-ai-competitions-calendar">UK competitions calendar</a> / Cayley, Hamilton and Maclaurin
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United Kingdom &middot; Years 9, 10 and 11 &middot; 18 March 2027</p>
+        <h1>Cayley, Hamilton and Maclaurin preparation</h1>
+        <p class="ag-lede">Three olympiad papers, sat on the same afternoon, split not by how good a pupil is but by which school year they are in. Cayley is for Year 9 and below, Hamilton for Year 10, Maclaurin for Year 11, and each is six questions in two hours with every answer written out in full. That structure has a consequence worth understanding before March: a pupil who sits Cayley this year will sit Hamilton next year and Maclaurin the year after, against the same people. Nobody gets one attempt at this. What carries between the three is not topics. It is the habit of finishing a question, which at this level almost always means finding every answer rather than an answer.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#all" class="ag-btn ag-btn--ghost">See what a complete answer looks like</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20has%20qualified%20for%20a%20UKMT%20intermediate%20olympiad%20and%20I%20would%20like%20a%20free%20maths%20class." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'imk'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Every figure quoted from UKMT &middot; Our own practice problems &middot; Nobody can promise you a paper</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Organiser</dt><dd>UK Mathematics Trust</dd>
+          <dt>Three papers</dt><dd>Cayley, Hamilton, Maclaurin</dd>
+          <dt>2027 date</dt><dd>18 March, all three</dd>
+          <dt>Paper</dt><dd>Six questions in two hours</dd>
+          <dt>Split by</dt><dd>School year, not by score</dd>
+          <dt>Qualifying from</dt><dd>The Intermediate Challenge</dd>
+          <dt>Qualifiers a year</dt><dd>Around 1,800</dd>
+          <dt>Answers</dt><dd>Full written solutions</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>The UK Mathematics Trust runs three intermediate olympiads on one day, 18 March 2027: Cayley for "England, Wales and Overseas: Year 9 and below", Hamilton for "Year 10" and Maclaurin for "Year 11", with Scotland sitting S2 or below, S3 and S4 and Northern Ireland one year higher in each case. Each is a two-hour paper of "six Olympiad style problems". Entry is "by invitation based on a qualifying IMC score, or by discretionary entry", from the Intermediate Mathematical Challenge on 27 January 2027, and UKMT says "around 1,800 students qualify from the IMC each year". Candidates "should give full written solutions, including mathematical reasons as to why your method is correct", because "just stating an answer, even a correct one, will earn you very few marks". We teach the mathematics and the writing, live online. The first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three courses for an intermediate olympiad candidate</h2>
+      <p class="ag-lede">Choose by what a pupil can finish, not by what they can start.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/olympiad-competition-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/olympiad-competition-maths.webp" alt="Maths Olympiad &amp; Competition Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IMK / 01</p>
+          <h3>Olympiad and competition maths</h3>
+          <p>Number theory, combinatorics and geometry in the olympiad idiom, with solutions written to completion.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-high-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/high-school-maths.webp" alt="High School Mathematics course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IMK / 02</p>
+          <h3>High school mathematics</h3>
+          <p>For a Year 10 or 11 pupil whose algebra needs to stop being the obstacle.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/comprehensive-middle-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/middle-school-maths.webp" alt="Middle School Mathematics Mastery course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IMK / 03</p>
+          <h3>Middle school maths mastery</h3>
+          <p>For a Year 9 Cayley candidate still consolidating the ground the paper stands on.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="papers">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The three papers</p><h2>One afternoon, three papers, split by year group</h2><p class="ag-lede">Facts read at UKMT's own pages on 20 September 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Who sits which paper, in UKMT's own words</caption><thead><tr><th scope="col">Paper</th><th scope="col">England, Wales and Overseas</th><th scope="col">Scotland</th><th scope="col">Northern Ireland</th></tr></thead><tbody><tr><td>Cayley</td><td>Year 9 and below</td><td>S2 or below</td><td>Year 10 or below</td></tr><tr><td>Hamilton</td><td>Year 10</td><td>S3</td><td>Year 11</td></tr><tr><td>Maclaurin</td><td>Year 11</td><td>S4</td><td>Year 12</td></tr></tbody></table></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The intermediate route, with the 2026-27 dates UKMT publishes</caption><thead><tr><th scope="col">Round</th><th scope="col">Date</th><th scope="col">What it is</th></tr></thead><tbody><tr><td>Intermediate Mathematical Challenge</td><td>27 January 2027</td><td>The multiple-choice paper everyone sits first</td></tr><tr><td>Cayley, Hamilton and Maclaurin</td><td>18 March 2027</td><td>Six written questions, two hours, by year group</td></tr><tr><td>Grey Kangaroo</td><td>18 March 2027</td><td>A multiple-choice follow-on, same afternoon</td></tr><tr><td>Pink Kangaroo</td><td>18 March 2027</td><td>The older multiple-choice follow-on, same afternoon</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>Four papers on one afternoon is the thing to get straight with a school. A pupil qualifies for exactly one of them from their Intermediate Challenge score and their year group, and the Kangaroo papers and the olympiad papers are different animals: multiple choice against full written solutions. Preparing for the wrong one is a wasted six weeks.</p>
+<p>UKMT says around 1,800 students qualify from the Intermediate Challenge each year, across all three olympiad papers and all four nations. It is a small room.</p></div><div><p>The split by year group rather than by score is unusual and deliberate. A brilliant Year 9 pupil is not pushed onto the Maclaurin paper; they sit Cayley against other Year 9s. It keeps the papers age-appropriate and it means the ladder repeats: Cayley, then Hamilton, then Maclaurin.</p>
+<p>Entry is a school matter. UKMT invites on a qualifying Intermediate Challenge score or accepts a discretionary entry, for which it charges a fee published on its own site in pounds. We do not print fees and we cannot enter anyone.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://ukmt.org.uk/competitions" rel="noopener" target="_blank">UKMT competitions calendar</a> and the <a class="ag-inline-link" href="https://ukmt.org.uk/intermediate-challenges/cayley-hamilton-maclaurin-olympiad-challenge" rel="noopener" target="_blank">Cayley, Hamilton and Maclaurin page</a>, read 20 September 2026. We have no connection with the UK Mathematics Trust, and nothing on this page should be read as one.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="all">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The method</p><h2>A complete answer means all of them</h2><p class="ag-lede">UKMT is explicit: "just stating an answer, even a correct one, will earn you very few marks". Here is what that looks like on a real question.</p></div>
+    <p>A question in this style: <strong>find all pairs of positive whole numbers a and b for which 1/a + 1/b = 1/6.</strong> Most pupils find one within a minute. a = 12 and b = 12 works, because a sixth is two twelfths. That is a correct answer, and on an olympiad paper it is worth almost nothing, because the question said <em>all</em>.</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our run of 20 September 2026: every solution, and where they come from</caption><thead><tr><th scope="col">a</th><th scope="col">b</th><th scope="col">Why it appears</th></tr></thead><tbody><tr><td>7</td><td>42</td><td>a &minus; 6 = 1, so b &minus; 6 = 36</td></tr><tr><td>8</td><td>24</td><td>a &minus; 6 = 2, so b &minus; 6 = 18</td></tr><tr><td>9</td><td>18</td><td>a &minus; 6 = 3, so b &minus; 6 = 12</td></tr><tr><td>10</td><td>15</td><td>a &minus; 6 = 4, so b &minus; 6 = 9</td></tr><tr><td>12</td><td>12</td><td>a &minus; 6 = 6, so b &minus; 6 = 6</td></tr><tr><td>15, 18, 24, 42</td><td>10, 9, 8, 7</td><td>The same four pairs the other way round</td></tr></tbody></table></div>
+    <div class="ag-grid-3"><div><h3>The move that finds them</h3><p>Multiply out and rearrange: ab &minus; 6a &minus; 6b = 0, so (a &minus; 6)(b &minus; 6) = 36. Now the question is about the divisors of 36, and there is nothing left to hunt for.</p></div><div><h3>Why nine and not more</h3><p>36 has exactly nine positive divisors: 1, 2, 3, 4, 6, 9, 12, 18 and 36. Each one gives one ordered pair. That sentence is the proof that the list is complete, and it is where the marks are.</p></div><div><h3>What we checked</h3><p>We searched every pair of positive integers up to 200 by computer and found exactly those nine. The search is reassurance; the divisor argument is the answer.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The difference between one solution and nine is a minute of work. The difference between nine solutions and a proof that there are only nine is the whole question, and it is the thing a pupil coming from the Intermediate Challenge has never been asked to supply.</p>
+<p>The verbal habit that fixes it is small. After finding an answer, ask out loud: could there be another? Then: how do I know there is not? Pupils who ask those two questions automatically pick up marks all over an olympiad paper.</p></div><div><p>The same trick, turning an equation into a product and then reading off divisors, comes up again and again at this level. It is worth learning as a move rather than as a fact about the number 6.</p>
+<p>And notice what the good answer is not: it is not longer. Three lines of algebra, a list of nine divisors and one sentence about why the list is complete is a full-mark solution. Olympiad marking rewards finishing, not volume.</p></div></div>
+    <p class="ag-source-note ag-mt-40">The problem, the algebra and the search are ours, written and run on 20 September 2026. UKMT publishes its own past papers and full solutions free, and none of them is reproduced here.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="practise">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How to practise</p><h2>Six weeks, one habit</h2><p class="ag-lede">The Intermediate Challenge is in January and the olympiads are in March. That gap is enough if it is spent on writing rather than on reading.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What earns marks on these papers, and what does not</caption><thead><tr><th scope="col">Habit</th><th scope="col">What it is worth</th><th scope="col">The failure it prevents</th></tr></thead><tbody><tr><td>Writing "all solutions are" and then proving it</td><td>Often the majority of a question's marks</td><td>A correct first answer scoring almost nothing</td></tr><tr><td>Stating the method before using it</td><td>Lets a marker follow a long argument</td><td>A page of algebra nobody can grade</td></tr><tr><td>Checking the boundary cases</td><td>Catches the solution that was quietly excluded</td><td>Nine solutions written as eight</td></tr><tr><td>Finishing three questions rather than starting six</td><td>Complete solutions score; fragments rarely do</td><td>Two hours spent producing no full marks</td></tr><tr><td>Reading UKMT's published solutions for style</td><td>Shows the expected standard exactly</td><td>Guessing how much detail is enough</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The commonest pattern we see in a first lesson is a pupil who can do the mathematics and has never once been told what a finished solution looks like. They are not behind. They have been rewarded for answers their whole school career, and the olympiad has changed the currency.</p>
+<p>Two hours for six questions means twenty minutes each, and nobody should aim for that. Three questions finished properly is a good paper and a realistic target for a first-time candidate.</p></div><div><p>For a Year 9 pupil sitting Cayley, the best investment is the one that pays three times. Everything learned about writing complete solutions this March is worth more on the Hamilton paper next year and more again on Maclaurin after that.</p>
+<p>A pupil who finds they enjoy this should look at the <a class="ag-inline-link" href="/uk-coding-maths-and-ai-competitions-calendar">competitions calendar</a>: the senior rounds and the British Mathematical Olympiad are the same sport played longer.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Getting ready</p>
+      <h2>Four rungs, and a ladder that repeats</h2>
+      <p class="ag-lede">The same pupil climbs this three times, in Years 9, 10 and 11. What is learned once counts three times.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From an answer to a complete, proved solution</caption><thead><tr><th scope="col">Stage</th><th scope="col">Rung</th><th scope="col">The sign it is secure</th></tr></thead><tbody><tr><td>Year 8 to 9</td><td class="ag-num">1. Algebra that does not slow you down</td><td class="ag-num">Rearranges and factorises without stopping to think</td></tr><tr><td>Year 9</td><td class="ag-num">2. One complete solution</td><td class="ag-num">Writes an argument a classmate could follow unaided</td></tr><tr><td>Year 10</td><td class="ag-num">3. All solutions</td><td class="ag-num">Asks "could there be another?" without being prompted</td></tr><tr><td>Year 11</td><td class="ag-num">4. Proof of completeness</td><td class="ag-num">Explains why the list cannot be longer, in a sentence</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If March is close</h3><p>Write up three problems the pupil has already solved, in full, and have someone read them as a stranger would. That is the highest-return evening available.</p>
+<p>Do not start new topics. Intermediate olympiad questions are built from school mathematics used unfamiliarly.</p></div><div><h3>After Maclaurin</h3><p>The senior rounds follow, and the British Mathematical Olympiad after those, where the same habit is worth far more.</p>
+<p>A pupil who enjoys closing a list of cases usually enjoys writing the program that generated it, which is what <a class="ag-inline-link" href="/courses/maths-through-coding">maths through coding</a> is for.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The full list</p>
+      <h2>What we teach a Year 9, 10 or 11 mathematician</h2>
+      <p class="ag-lede">Four groups, chosen by what is currently in the way rather than by year group.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Olympiad mathematics</h3>
+        <span class="ag-band-sub">The paper itself</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IMK / O / 01</p>
+          <h4>Olympiad and competition maths</h4>
+          <p>Divisors, invariants and arguments taken to the end.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IMK / O / 02</p>
+          <h4>Middle school maths mastery</h4>
+          <p>The ground a Cayley candidate stands on.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IMK / O / 03</p>
+          <h4>Statistics and probability</h4>
+          <p>Counting arguments, done carefully.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>School mathematics</h3>
+        <span class="ag-band-sub">Years 9 to 11</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IMK / S / 01</p>
+          <h4>High school mathematics</h4>
+          <p>The algebra a Maclaurin candidate should not be thinking about.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IMK / S / 02</p>
+          <h4>GCSE maths</h4>
+          <p>Foundation and higher, to the school's board.</p>
+          <a class="ag-course-link" href="/courses/gcse-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IMK / S / 03</p>
+          <h4>IGCSE maths</h4>
+          <p>For international and independent schools.</p>
+          <a class="ag-course-link" href="/courses/igcse-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Checking and building</h3>
+        <span class="ag-band-sub">Where maths meets code</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IMK / C / 01</p>
+          <h4>Maths through coding</h4>
+          <p>A program that lists candidates, and a proof that closes the list.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IMK / C / 02</p>
+          <h4>Python from start to finish</h4>
+          <p>Enough code to search a space of cases by hand.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IMK / C / 03</p>
+          <h4>Algorithms and data structures</h4>
+          <p>Counting, searching and proving a method terminates.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">IV</span>
+        <h3>Looking further</h3>
+        <span class="ag-band-sub">Sixth form and beyond</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IMK / N / 01</p>
+          <h4>A-level maths</h4>
+          <p>Pure, mechanics and statistics, taught properly.</p>
+          <a class="ag-course-link" href="/courses/a-level-maths-course-pure-mechanics-statistics">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IMK / N / 02</p>
+          <h4>Competitive programming</h4>
+          <p>Correctness under a clock.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IMK / N / 03</p>
+          <h4>AI and machine learning for teens</h4>
+          <p>Where the mathematics goes next.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>A weekly hour, and a reader for the write-up</h2>
+      <p class="ag-lede">Teaching is live on video from India, which sits five and a half hours ahead of Britain in winter and four and a half in summer. Slots are agreed and kept in UK time.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday evening</p><p class="ag-slot-l">The usual choice for Years 9 to 11.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend morning</p><p class="ag-slot-l">For two hours on a single question, properly.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Half term</p><p class="ag-slot-l">Short intensives in the run-up to March.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Written solutions marked</h3><p>Someone reads the argument as a stranger would and says where it stops convincing.</p></div>
+      <div><h3>Problems written by us</h3><p>In the olympiad idiom. UKMT's past papers stay on UKMT's site.</p></div>
+      <div><h3>Five to ten pupils</h3><p>Enough for two different methods to meet, small enough for every write-up to be read.</p></div>
+      <div><h3>Year groups respected</h3><p>Cayley, Hamilton and Maclaurin candidates are taught at the level their paper is set.</p></div>
+      <div><h3>One to one when useful</h3><p>For a pupil far ahead of their year or preparing for a specific paper.</p></div>
+      <div><h3>No score promised</h3><p>We cannot qualify anyone and do not claim to. Nobody honest promises a medal.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students build</h2>
+      <p class="ag-lede">Four published projects by students at our school, none of them competition entries. More on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">One monthly rate in US dollars for every country outside India. No joining fee and no term to sign.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A real lesson on one problem</li><li>An honest read on the level</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten pupils at one level</li><li>The same teacher weekly</li><li>Solutions read line by line</li><li>A certificate at the end</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>One pupil with one teacher</li><li>Aimed at a particular paper</li><li>For pupils well ahead of their year</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Six reviews left on our Google profile, printed without a word changed.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Intermediate olympiad questions</p>
+      <h2>What pupils and parents ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Which paper does my child sit?</h3>
+        <p>By year group, not by score. UKMT sets Cayley for Year 9 and below, Hamilton for Year 10 and Maclaurin for Year 11 in England, Wales and overseas; S2 or below, S3 and S4 in Scotland; and Year 10 or below, Year 11 and Year 12 in Northern Ireland.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are the intermediate olympiads in 2027?</h3>
+        <p>All three papers fall on 18 March 2027, the same afternoon as the Grey and Pink Kangaroo. The Intermediate Mathematical Challenge that qualifies pupils is on 27 January 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How does a pupil qualify?</h3>
+        <p>UKMT says entry is by invitation based on a qualifying Intermediate Mathematical Challenge score, or by discretionary entry, and that around 1,800 students qualify from the IMC each year.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the paper like?</h3>
+        <p>Two hours and six olympiad-style problems, with every answer written out in full. UKMT tells candidates to "give full written solutions, including mathematical reasons as to why your method is correct".</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why did a correct answer score so little?</h3>
+        <p>Because UKMT says so plainly: "just stating an answer, even a correct one, will earn you very few marks; also, incomplete or poorly presented solutions will not receive full marks". At this level the argument is the answer.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does "find all" actually require?</h3>
+        <p>A list and a reason the list is complete. For example, 1/a + 1/b = 1/6 has exactly nine ordered solutions in positive integers, because the equation rearranges to (a minus 6)(b minus 6) = 36 and 36 has nine divisors. The sentence about the divisors is where the marks are.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many questions should a pupil finish?</h3>
+        <p>Three, well. Two hours for six questions is twenty minutes each, and complete solutions score where fragments do not.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the Kangaroo the same thing?</h3>
+        <p>No. The Grey and Pink Kangaroo papers fall on the same afternoon but are multiple choice. Preparing for one is not preparing for the other.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you use UKMT past papers in lessons?</h3>
+        <p>No. UKMT publishes its own past papers and full solutions free, which is the right place for them. Our problems are written by us in the same idiom.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What do classes cost?</h3>
+        <p>The first lesson is free. A group place is then USD 100 a month and one-to-one teaching USD 150, with nothing to join and no minimum term.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>More for olympiad mathematicians</h2>
+      <p class="ag-lede">The rung below, the paper beside it, and the whole competition year.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/junior-mathematical-olympiad-preparation">Junior Mathematical Olympiad</a></h3><p>The rung below, for Year 8 and under.</p></div>
+      <div><h3><a class="ag-inline-link" href="/uk-coding-maths-and-ai-competitions-calendar">UK competitions calendar 2026-27</a></h3><p>The whole season in one table, organiser by organiser.</p></div>
+      <div><h3><a class="ag-inline-link" href="/scottish-mathematical-challenge-practice">Scottish Mathematical Challenge</a></h3><p>Three rounds a year, and a mug for the winners.</p></div>
+      <div><h3><a class="ag-inline-link" href="/british-informatics-olympiad-preparation">British Informatics Olympiad</a></h3><p>For pupils who would rather prove things in code.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-kingdom">Coding classes in the UK</a></h3><p>The four school systems, and where every UK page sits.</p></div>
+      <div><h3><a class="ag-inline-link" href="/best-online-coding-classes-uk">Choosing an online class</a></h3><p>Seven things to ask before a card comes out.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free olympiad lesson</h2>
+        <p class="ag-lede">Tell us the year group and which paper is coming. The free lesson takes one problem all the way to a written solution someone else can read.</p>
+        <p class="ag-mt-40">Rather read? Syllabuses are on the <a class="ag-inline-link" href="/courses">course pages</a>, the method on <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, and the order of topics on the <a class="ag-inline-link" href="/coding-roadmap">roadmap</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20has%20qualified%20for%20a%20UKMT%20intermediate%20olympiad%20and%20I%20would%20like%20a%20free%20maths%20class." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'imk',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp costs a UK mobile nothing and reaches us quickest. Our number is Indian, as we say on every page, and there is no office in Britain.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_imk(event)" novalidate>
+          <div class="ag-field">
+            <label for="gb-name">Your name</label>
+            <input id="gb-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-phone">Phone or WhatsApp, United Kingdom +44</label>
+            <input id="gb-phone" type="tel" name="phone" placeholder="7700 900123" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-age">Learner age group</label>
+            <select id="gb-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card, no obligation. One reply to settle a time.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Competitions</h4><ul><li><a href="/junior-mathematical-olympiad-preparation">Junior olympiad</a></li><li><a href="/uk-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li><li><a href="/scottish-mathematical-challenge-practice">Scottish Mathematical Challenge</a></li><li><a href="/british-informatics-olympiad-preparation">Informatics olympiad</a></li></ul></div>
+      <div><h4>Maths courses</h4><ul><li><a href="/courses/olympiad-competition-mathematics-mastery">Olympiad maths</a></li><li><a href="/courses/complete-high-school-mathematics-mastery">High school maths</a></li><li><a href="/courses/gcse-mathematics-mastery">GCSE maths</a></li><li><a href="/coding-classes-in-united-kingdom">Coding classes in the UK</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>We teach the finishing; UKMT sets the paper</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitLead_imk = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0044') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('44') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United Kingdom phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+44', countryIso: 'GB', countryName: 'United Kingdom',
+      source: 'intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation-inline', meta: { name: name, age: age, page: 'intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+</body>
+</html>

@@ -144,7 +144,7 @@ Each page below is written for its own place, exam or competition, with its own 
 
 **Exams, nation by nation:** [A-level Computer Science coursework](/a-level-computer-science-nea-help)
 
-**Competitions:** [British Informatics Olympiad](/british-informatics-olympiad-preparation) &middot; [Junior Mathematical Olympiad](/junior-mathematical-olympiad-preparation) &middot; [Oxford University Computing Challenge](/oxford-university-computing-challenge-preparation) &middot; [Primary Maths Challenge](/primary-maths-challenge-practice) &middot; [Scottish Mathematical Challenge](/scottish-mathematical-challenge-practice) &middot; [The 2026-27 competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) &middot; [UK Bebras Challenge](/bebras-computational-thinking-challenge-practice-uk)
+**Competitions:** [British Informatics Olympiad](/british-informatics-olympiad-preparation) &middot; [Cayley, Hamilton and Maclaurin](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation) &middot; [Junior Mathematical Olympiad](/junior-mathematical-olympiad-preparation) &middot; [Oxford University Computing Challenge](/oxford-university-computing-challenge-preparation) &middot; [Primary Maths Challenge](/primary-maths-challenge-practice) &middot; [Scottish Mathematical Challenge](/scottish-mathematical-challenge-practice) &middot; [The 2026-27 competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) &middot; [UK Bebras Challenge](/bebras-computational-thinking-challenge-practice-uk)
 
 **Nations:** [Scotland](/coding-and-ai-classes-in-scotland)
 

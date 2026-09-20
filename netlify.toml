@@ -11598,6 +11598,18 @@
   to = "/src/pages/junior-mathematical-olympiad-preparation.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation"
+  to = "/src/pages/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation.md"
+  to = "/src/pages/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
