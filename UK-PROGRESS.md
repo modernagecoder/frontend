@@ -84,7 +84,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 32 | coding-and-ai-classes-in-wales (wal, #19763D) | nation | 3,673 | 2.5% vs coding-classes-in-harrow-london | a year with the brief, and nothing you may carry in | an assessment that separates preparation from performance | b27860a5 |
 | 33 | coding-and-ai-classes-in-northern-ireland (nir, #8D356F) | nation | 4,175 | 2.6% vs coding-and-ai-classes-in-wales | one subject name, two qualifications, and no mixing | a qualification whose name conceals a branching decision | e8da135e |
 | 34 | coding-and-ai-classes-in-england (eng, #A5411D) | nation | 3,619 | 3.3% vs coding-and-ai-classes-in-northern-ireland | the national curriculum that most English secondary schools do not have to teach | an entitlement weakened by who it binds rather than what it says | ecc28161 |
-| 35 | best-coding-classes-for-teens-uk (btu, #A51D5F) | door | 3,564 | 1.3% vs best-online-coding-classes-uk | the teenagers who check | a statistic whose base line is the whole story | (this commit) |
+| 35 | best-coding-classes-for-teens-uk (btu, #A51D5F) | door | 3,564 | 1.3% vs best-online-coding-classes-uk | the teenagers who check | a statistic whose base line is the whole story | b9a2af44 |
+| 36 | best-coding-classes-for-adults-uk (bau, #676812) | door | 3,714 | 2.3% vs best-coding-classes-for-teens-uk | age is the weaker variable | a published regression that contradicts the reader's own assumption | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

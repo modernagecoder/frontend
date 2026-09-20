@@ -191,6 +191,7 @@ const SLUGS = [
   'first-competitions-for-primary-school-children-uk',
   'maths-olympiad-training-uk',
   'best-coding-classes-for-teens-uk',
+  'best-coding-classes-for-adults-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -461,6 +462,7 @@ const LLMS_LABELS = {
   'first-competitions-for-primary-school-children-uk': 'First competitions for primary school children',
   'maths-olympiad-training-uk': 'Maths olympiad training in the UK',
   'best-coding-classes-for-teens-uk': 'Best coding classes for teens in the UK',
+  'best-coding-classes-for-adults-uk': 'Best coding classes for adults in the UK',
 };
 
 function wireLlms(slugs) {
