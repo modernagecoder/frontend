@@ -194,6 +194,7 @@ const SLUGS = [
   'best-coding-classes-for-adults-uk',
   'best-python-classes-online-uk',
   'ai-classes-for-kids-uk',
+  'online-coding-tutor-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -467,6 +468,7 @@ const LLMS_LABELS = {
   'best-coding-classes-for-adults-uk': 'Best coding classes for adults in the UK',
   'best-python-classes-online-uk': 'Best Python classes online in the UK',
   'ai-classes-for-kids-uk': 'AI classes for kids in the UK',
+  'online-coding-tutor-uk': 'Online coding tutor in the UK',
 };
 
 function wireLlms(slugs) {

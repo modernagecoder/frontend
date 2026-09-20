@@ -140,7 +140,7 @@ For younger children there is [online coding for kids in the UK](/online-coding-
 
 Each page below is written for its own place, exam or competition, with its own project and its own sources.
 
-**Guides:** [AI classes for kids in the UK](/ai-classes-for-kids-uk) &middot; [Best coding classes for adults in the UK](/best-coding-classes-for-adults-uk) &middot; [Best coding classes for teens in the UK](/best-coding-classes-for-teens-uk) &middot; [Best online coding classes in the UK](/best-online-coding-classes-uk) &middot; [Best Python classes online in the UK](/best-python-classes-online-uk)
+**Guides:** [AI classes for kids in the UK](/ai-classes-for-kids-uk) &middot; [Best coding classes for adults in the UK](/best-coding-classes-for-adults-uk) &middot; [Best coding classes for teens in the UK](/best-coding-classes-for-teens-uk) &middot; [Best online coding classes in the UK](/best-online-coding-classes-uk) &middot; [Best Python classes online in the UK](/best-python-classes-online-uk) &middot; [Online coding tutor in the UK](/online-coding-tutor-uk)
 
 **Exams, nation by nation:** [A-level Computer Science coursework](/a-level-computer-science-nea-help)
 
