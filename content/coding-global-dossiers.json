@@ -16682,5 +16682,54 @@
       "Counts of Irish-medium or integrated schools: not read at a primary source for this build, so the page says only that we teach in English.",
       "Entry fees for the qualification: published in pounds, and this site prices in one currency."
     ]
+  },
+  "coding-and-ai-classes-in-england": {
+    "market": "England",
+    "bodyClass": "cg-eng",
+    "pageType": "governorate",
+    "curriculumAuthority": "England. GOV.UK, The national curriculum: \"The national curriculum is a set of subjects and standards used by primary and secondary schools so children learn the same things\"; \"Other types of school, like academies and private schools, do not have to follow the national curriculum. Academies must teach a broad and balanced curriculum including English, maths and science. They must also teach relationships and sex education, and religious education.\" Key stages as published: early years foundation stage, Reception, ages 4 to 5; key stage 1, Years 1 to 2, ages 5 to 7; key stage 2, Years 3 to 6, ages 7 to 11; key stage 3, Years 7 to 9, ages 11 to 14; key stage 4, Years 10 to 11, ages 14 to 16. GOV.UK, National curriculum in England: computing programmes of study, statutory for key stages 1 to 4: purpose of study \"A high-quality computing education equips pupils to use computational thinking and creativity to understand and change the world\"; key stage 3 pupils should be taught to \"use 2 or more programming languages, at least one of which is textual, to solve a variety of computational problems\", to \"make appropriate use of data structures [for example, lists, tables or arrays]\" and to \"design and develop modular programs that use procedures or functions\"; key stage 4 \"All pupils must have the opportunity to study aspects of information technology and computer science at sufficient depth to allow them to progress to higher levels of study or to a professional career.\" Department for Education, Schools, pupils and their characteristics, January 2026 school census, published 4 June 2026: 83.9 per cent of secondary schools are academies or free schools, accounting for 83.6 per cent of secondary school pupils; 48.8 per cent of primary schools, accounting for 49.9 per cent of the primary school population; 48.2 per cent of all schools are academies and 60.4 per cent of all pupils attend one. ONS, Population and household estimates, England and Wales: Census 2021: \"There were 56,489,800 people in England\" on census day 21 March 2021, published with the note that rounded figures \"may not add exactly because of this rounding\". ONS Census 2021 usual residents by region via Nomis NM_2021_1: South East 9,278,065; London 8,799,728; North West 7,417,397; East 6,335,074; West Midlands 5,950,757; South West 5,701,186; Yorkshire and The Humber 5,480,774; East Midlands 4,880,054; North East 2,647,013. Regional rows are printed as published and never summed.",
+    "localProject": "The national curriculum that most English secondary schools are not required to teach. Computing is statutory across all four key stages, and at the January 2026 census 83.9 per cent of secondary schools were academies or free schools, which GOV.UK says do not have to follow the national curriculum and whose stated obligation names English, maths and science but not computing. The page sets the two facts beside each other without treating academy freedom as a scandal, then converts the gap into something a parent can use: the key stage 3 requirement for \"2 or more programming languages, at least one of which is textual\" becomes a single question to ask a school, with a good answer and a warning answer set out. Second edge: key stage 4 guarantees an \"opportunity to study\", not a course, so a pupil can lawfully do no computing between Year 9 and Year 12. AI angle: the programmes of study ask for decomposition, data structures and modular design, and an assistant supplies none of those, so the curriculum makes the case against copying better than we could. Lesson family: an entitlement weakened by who it binds rather than by what it says; distinct from Wales (preparation barred from the room), Northern Ireland (two qualifications under one name) and the NEA pages (acknowledgement and malpractice).",
+    "requiredMentions": [
+      "83.9 per cent",
+      "do not have to follow the national curriculum",
+      "at least one of which is textual",
+      "opportunity to study",
+      "56,489,800",
+      "key stage 3",
+      "January 2026",
+      "60.4 per cent",
+      "North East",
+      "computational thinking"
+    ],
+    "sources": [
+      {
+        "claim": "GOV.UK, The national curriculum: which schools must follow it, what academies must teach instead, and the key stage, year group and age table.",
+        "url": "https://www.gov.uk/national-curriculum"
+      },
+      {
+        "claim": "GOV.UK, National curriculum in England: computing programmes of study: purpose of study, the key stage 3 programming requirements and the key stage 4 wording.",
+        "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study/national-curriculum-in-england-computing-programmes-of-study"
+      },
+      {
+        "claim": "Department for Education, Schools, pupils and their characteristics, January 2026 school census: academy and free school shares of schools and pupils.",
+        "url": "https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics/2025-26"
+      },
+      {
+        "claim": "ONS, Population and household estimates, England and Wales: Census 2021: the published England figure and the rounding note.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/populationandhouseholdestimatesenglandandwales/census2021"
+      },
+      {
+        "claim": "ONS Census 2021 usual residents by English region, via Nomis table NM_2021_1.",
+        "url": "https://www.nomisweb.co.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "A total for the nine English regions: published parts are not added up on this site, and ONS publishes its own figures with a warning that rounded numbers may not add exactly.",
+      "Any claim about how many academies actually teach computing, or how well: the census records school type, not curriculum delivery, and no source was found that measures it. The page says most do teach it and does not quantify that.",
+      "GCSE Computer Science entry numbers or the gender split: JCQ blocks automated reads and no figure was taken from a secondary summary.",
+      "The status or content of any current curriculum review: not read at a primary source for this build, so nothing is claimed about future changes.",
+      "Ofqual rules on the GCSE programming project: not read at a primary source for this build and already the subject of the A level NEA page, so this page makes no claim about them.",
+      "Examination entry fees: published in pounds, and this site prices in one currency."
+    ]
   }
 }

@@ -735,6 +735,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Surrey: https://learn.modernagecoders.com/coding-classes-in-surrey
 - Wales: https://learn.modernagecoders.com/coding-and-ai-classes-in-wales
 - Northern Ireland: https://learn.modernagecoders.com/coding-and-ai-classes-in-northern-ireland
+- England: https://learn.modernagecoders.com/coding-and-ai-classes-in-england
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).
