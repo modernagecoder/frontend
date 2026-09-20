@@ -394,6 +394,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Mathematical Olympiad for Girls preparation: https://learn.modernagecoders.com/mathematical-olympiad-for-girls-preparation
 - UKMT Kangaroo rounds practice: https://learn.modernagecoders.com/ukmt-kangaroo-rounds-practice
 - UKMT Team Maths Challenge practice: https://learn.modernagecoders.com/ukmt-team-maths-challenge-practice
+- Perse Coding Team Challenge preparation: https://learn.modernagecoders.com/perse-coding-team-challenge-preparation
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

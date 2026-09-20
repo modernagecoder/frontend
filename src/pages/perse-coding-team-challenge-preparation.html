@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Perse Coding Team Challenge Preparation | PCTC Rounds 1 and 2</title>
+  <meta name="description" content="Preparing for the Perse Coding Team Challenge: pairs on one computer for 40 minutes, teams of three for 60, six languages, and hidden test cases.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/perse-coding-team-challenge-preparation">
+  <link rel="alternate" type="text/markdown" href="/src/pages/perse-coding-team-challenge-preparation.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#9C1C82">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/perse-coding-team-challenge-preparation">
+  <meta property="og:title" content="Perse Coding Team Challenge Preparation | PCTC Rounds 1 and 2">
+  <meta property="og:description" content="The PCTC marker tells a team how many test cases failed and never which ones. The fix is a checklist you write before submitting, and it costs nothing.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_GB">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Perse Coding Team Challenge Preparation">
+  <meta name="twitter:description" content="Perse Coding Team Challenge preparation: two rounds, six languages, and hidden tests.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="GB">
+  <meta name="geo.placename" content="United Kingdom">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-pct .ag-hero h1 { letter-spacing: -0.018em; }
+.ag-root.ag-pct .ag-capsule { border-left-width: 5px; border-radius: 0 10px 10px 0; }
+.ag-root.ag-pct .ag-section-head h2 { max-width: 29ch; }
+.ag-root.ag-pct .ag-table caption { text-align: left; font-weight: 600; font-style: italic; }
+.ag-root.ag-pct .ag-table th:first-child { width: 22%; }
+.ag-root.ag-pct .ag-spec dt { letter-spacing: 0.125em; }
+.ag-root.ag-pct .ag-three h3 { letter-spacing: -0.004em; }
+.ag-root.ag-pct .ag-slots { gap: 1.15rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United Kingdom"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/perse-coding-team-challenge-preparation#page","url":"https://learn.modernagecoders.com/perse-coding-team-challenge-preparation","name":"Perse Coding Team Challenge Preparation","description":"Preparation guidance for the Perse Coding Team Challenge, covering the two rounds, team sizes, permitted languages and notes, the four difficulty levels and how automatic marking with hidden test cases changes what a team should practise.","inLanguage":"en-GB","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"UK competitions calendar","item":"https://learn.modernagecoders.com/uk-coding-maths-and-ai-competitions-calendar"},{"@type":"ListItem","position":4,"name":"Perse Coding Team Challenge","item":"https://learn.modernagecoders.com/perse-coding-team-challenge-preparation"}]},{"@type":"Course","name":"Perse Coding Team Challenge Preparation","description":"Live online programming classes in Python and other competition languages for UK pupils up to Year 11 preparing for team coding challenges.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/perse-coding-team-challenge-preparation"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/perse-coding-team-challenge-preparation"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/perse-coding-team-challenge-preparation"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Who can enter the Perse Coding Team Challenge?","acceptedAnswer":{"@type":"Answer","text":"The organiser says the competition is \"open to UK pupils up to Year 11 (S4 in Scotland) and is free to enter\". International schools may take part for certificates but cannot compete for prizes."}},{"@type":"Question","name":"When are the 2027 rounds?","acceptedAnswer":{"@type":"Answer","text":"Round 1 runs from 25 January to 5 February 2027, Round 2 from 1 to 12 March 2027, and the Sixth Form Gold Rush from 15 to 19 March 2027."}},{"@type":"Question","name":"How big is a team?","acceptedAnswer":{"@type":"Answer","text":"Round 1 is sat in pairs, or solo if necessary, sharing one computer. Round 2 is teams of up to three, with a maximum of two Year 11 students per team."}},{"@type":"Question","name":"How long is each round?","acceptedAnswer":{"@type":"Answer","text":"Forty minutes for Round 1, sixty for Round 2 and fifty for the Sixth Form Gold Rush, which takes six questions from Round 2 material."}},{"@type":"Question","name":"Which programming languages are allowed?","acceptedAnswer":{"@type":"Answer","text":"The organiser lists Python, C++, C#, Java, JavaScript and Visual Basic.Net. A team should choose the language everyone in it can debug rather than the most powerful one."}},{"@type":"Question","name":"Can students bring notes?","acceptedAnswer":{"@type":"Answer","text":"Yes. The organiser permits up to 20 A4 sides, or ten double-sided pages, of printed or digital code snippets, readable at normal zoom."}},{"@type":"Question","name":"How is it marked?","acceptedAnswer":{"@type":"Answer","text":"Automatically. Teams are told how many test cases passed or failed, but the test cases themselves are not shown, and where more than one solution is submitted the highest-scoring one counts."}},{"@type":"Question","name":"How do you debug a test you cannot see?","acceptedAnswer":{"@type":"Answer","text":"With a checklist written from the question. Empty input, one item, everything the same, duplicates at the interesting end, negatives, zero and the largest allowed size will find most failures in under a minute."}},{"@type":"Question","name":"What are the four levels in Round 2?","acceptedAnswer":{"@type":"Answer","text":"The organiser describes a four-level format running from Level 1, basic text and number processing, to Level 4, algorithmic complexity, with every question worth an equal ten points."}},{"@type":"Question","name":"What do classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. A group place is then USD 100 a month and one-to-one teaching USD 150, with nothing to pay to register."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United Kingdom"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/perse-coding-team-challenge-preparation","availableLanguage":["en"]}}
+  </script>
+</head>
+
+<body class="ag-root ag-pct">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">UK</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#rounds">The two rounds</a></li>
+      <li><a href="#hidden">Hidden tests</a></li>
+      <li><a href="#notes">The twenty sides</a></li>
+      <li><a href="#catalogue">Courses</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/uk-coding-maths-and-ai-competitions-calendar">UK competitions calendar</a> / Perse Coding Team Challenge
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United Kingdom &middot; Up to Year 11 &middot; January to March 2027</p>
+        <h1>Perse Coding Team Challenge preparation</h1>
+        <p class="ag-lede">Two pupils, one computer, forty minutes. That is the first round of the Perse Coding Team Challenge, and the shared keyboard is not a limitation the organisers apologise for: it is the competition. A pair who both type produce half a program each; a pair who talk produce one that works. Round two stretches to teams of three and an hour, and the questions climb through four levels from basic text handling to genuine algorithmic complexity. The whole thing is free, it is open to any UK pupil up to Year 11, and it is marked by a machine that will tell a team how many hidden tests they failed without ever telling them which.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#hidden" class="ag-btn ag-btn--ghost">See how to find a bug you cannot see</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20entering%20the%20Perse%20Coding%20Team%20Challenge%20and%20I%20would%20like%20a%20free%20class." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pct'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Quoted from the organiser with the date we read it &middot; Our own practice tasks &middot; Nothing promised about a result</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Organiser</dt><dd>The Perse School</dd>
+          <dt>For</dt><dd>UK pupils up to Year 11, S4 in Scotland</dd>
+          <dt>Cost</dt><dd>Free to enter</dd>
+          <dt>Round 1</dt><dd>Pairs, one computer, 40 minutes</dd>
+          <dt>Round 2</dt><dd>Teams of three, 60 minutes</dd>
+          <dt>Levels</dt><dd>Four, from text handling to complexity</dd>
+          <dt>Languages</dt><dd>Six, including Python</dd>
+          <dt>Marking</dt><dd>Automatic, on hidden tests</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>The Perse Coding Team Challenge runs from The Perse School and is "open to UK pupils up to Year 11 (S4 in Scotland) and is free to enter". Round 1 falls between 25 January and 5 February 2027 and is sat in "pairs (or solo, if necessary) sharing one computer" for "40 minutes". Round 2 runs from 1 to 12 March 2027 in "teams of up to three", with "a maximum of two Years 11 students allowed per team", for "60 minutes", across a four-level format from basic text and number processing up to algorithmic complexity, where "every question is worth an equal ten points each". A Sixth Form Gold Rush follows from 15 to 19 March 2027: six questions from Round 2 material, solo, in 50 minutes. Teams may code in "Python, C++, C#, Java, JavaScript and Visual Basic.Net" and may bring up to 20 A4 sides of code snippets. We teach the programming, live online. The first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three courses for a coding team</h2>
+      <p class="ag-lede">The level a pupil should work at is set by what they can debug alone, not by their year group.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PCT / 01</p>
+          <h3>Python and AI for kids</h3>
+          <p>For Years 6 to 8: a first typed language, taught until a program can be read back before it runs.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PCT / 02</p>
+          <h3>Python from start to finish</h3>
+          <p>The main route: strings, lists, loops and functions until they are automatic under a clock.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-dsa-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-teens.webp" alt="Problem Solving for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PCT / 03</p>
+          <h3>Algorithms and data structures</h3>
+          <p>For the Level 3 and Level 4 questions, where a working answer is not yet a fast one.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="rounds">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The two rounds</p><h2>Forty minutes in pairs, then an hour in threes</h2><p class="ag-lede">Facts read at the organiser's own pages on 20 September 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The Perse Coding Team Challenge as the organiser describes it</caption><thead><tr><th scope="col"></th><th scope="col">Round 1</th><th scope="col">Round 2</th><th scope="col">Sixth Form Gold Rush</th></tr></thead><tbody><tr><td>2027 dates</td><td>25 January to 5 February</td><td>1 to 12 March</td><td>15 to 19 March</td></tr><tr><td>Who sits it</td><td>"pairs (or solo, if necessary) sharing one computer"</td><td>"teams of up to three", with "a maximum of two Years 11 students allowed per team"</td><td>Solo, for older students</td></tr><tr><td>Length</td><td>"40 minutes"</td><td>"60 minutes"</td><td>"50 minutes"</td></tr><tr><td>Questions</td><td>Navigators: seven questions at three points each. Pathfinders: questions 1 to 5 at three points, 6 to 10 at five</td><td>A four-level format, and "every question is worth an equal ten points each"</td><td>"six questions selected from Round 2 material"</td></tr><tr><td>Levels</td><td>Two tracks by experience</td><td>Level 1 basic text and number processing, up to Level 4 algorithmic complexity</td><td>Drawn from Round 2</td></tr><tr><td>Prize eligibility</td><td>UK pupils up to Year 11, S4 in Scotland</td><td>The same</td><td>Certificates</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The two tracks in round one matter more than they look. Navigators and Pathfinders are not age bands; they are experience bands, and a school entering a Year 10 pupil who started Python in September should think hard before putting them in the harder track. The competition is free, so there is no cost to entering a pupil at the level they can actually work at.</p>
+<p>International schools may take part for certificates but cannot compete for prizes, which is worth knowing before a family abroad gets their hopes up.</p></div><div><p>Round two's four levels are the useful part of the design. Level 1 is basic text and number processing and Level 4 is genuine algorithmic complexity, with every question worth the same ten points. A team that can reliably finish the lower levels scores more than one that gambles on the top level and runs out of time.</p>
+<p>That equal scoring is a strategy in itself. In a competition where all questions are worth the same, the right order is easiest first, always, and a team that has agreed that in advance does not argue about it at minute forty.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://pctc.perse.co.uk/" rel="noopener" target="_blank">Perse Coding Team Challenge</a> and its <a class="ag-inline-link" href="https://pctc.perse.co.uk/coding-competition/" rel="noopener" target="_blank">competition information</a>, read 20 September 2026. Modern Age Coders is not connected with The Perse School or the challenge.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="hidden">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The method</p><h2>You are told that you failed, not why</h2><p class="ag-lede">The organiser marks automatically and gives "feedback regarding the number of test cases passed or failed", while "the test cases themselves are not shown". That one rule decides how a team should work.</p></div>
+    <p>Imagine a question asking for <strong>the second largest number in a list</strong>. In Python the obvious answer is one line: sort the list and take the second from the end. A team writes it in fifteen seconds, submits, and is told that it passed four of seven tests. Now what? They cannot see the three that failed. They can guess, or they can have a checklist.</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our run of 20 September 2026: the one-line answer against a checklist written from the question alone</caption><thead><tr><th scope="col">The case</th><th scope="col">The list</th><th scope="col">What the one-liner does</th></tr></thead><tbody><tr><td>The ordinary case</td><td>3, 9, 4, 1</td><td>Returns 4, correct</td></tr><tr><td>Already in order</td><td>1, 2, 3</td><td>Returns 2, correct</td></tr><tr><td>All negative</td><td>&minus;5, &minus;2, &minus;9</td><td>Returns &minus;5, correct</td></tr><tr><td>Two equal at the top</td><td>9, 9, 4</td><td>Returns 9: the largest again. Is that what the question wanted?</td></tr><tr><td>Every value the same</td><td>7, 7, 7</td><td>Returns 7, for the same reason</td></tr><tr><td>One item</td><td>4</td><td>Crashes</td></tr><tr><td>No items</td><td>empty</td><td>Crashes</td></tr></tbody></table></div>
+    <div class="ag-grid-3"><div><h3>Three found in a minute</h3><p>Two crashes and one genuine ambiguity, all discovered before submitting anything, by a checklist that took less time to run than one failed submission.</p></div><div><h3>The checklist itself</h3><p>Empty, one item, everything the same, duplicates at the interesting end, negatives, zero, and the largest size the question allows. Seven lines, and they apply to almost every task in a contest like this.</p></div><div><h3>The ambiguity is the lesson</h3><p>Is the second largest of 9, 9, 4 equal to 9 or to 4? The question decides, the judge has decided, and a team that notices the ambiguity can read the wording again instead of guessing.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>Hidden tests feel unfair to pupils and they are the honest version of programming. Nobody who writes software gets to see the inputs their program will meet, and the profession's answer is not better guessing: it is to invent the awkward cases yourself before anyone else finds them.</p>
+<p>For a forty-minute round, the practical rule is that a checklist run costs about thirty seconds and a failed submission costs a minute of confusion. The arithmetic favours the checklist every time.</p></div><div><p>It also changes how a pair should split the work. One types, one reads the question again and works out what the awkward inputs would be. That is a genuine division of labour rather than a polite way of taking turns.</p>
+<p>A pupil who enjoys this side of programming should look at the <a class="ag-inline-link" href="/british-informatics-olympiad-preparation">British Informatics Olympiad</a>, where the tests are hidden too and the programs get considerably longer.</p></div></div>
+    <p class="ag-source-note ag-mt-40">The task, the checklist and the run are ours, written and executed on 20 September 2026. No Perse Coding Team Challenge question is reproduced; the organiser publishes its own past papers and solutions.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="notes">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The twenty sides</p><h2>You may bring notes, so bring the right ones</h2><p class="ag-lede">The organiser allows "up to 20 A4 sides (10 double-sided pages) of printed or digital code snippets". Most teams either ignore that or fill it with the wrong thing.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What belongs in twenty sides of notes, and what does not</caption><thead><tr><th scope="col">Worth the space</th><th scope="col">Why</th><th scope="col">Not worth it</th></tr></thead><tbody><tr><td>Reading input and printing output in your language</td><td>Every question begins and ends with it, and it is the commonest thing to forget under pressure</td><td>Long tutorials on syntax already known</td></tr><tr><td>String handling: split, join, slice, case</td><td>Level 1 and 2 questions are mostly text manipulation</td><td>Whole language reference pages</td></tr><tr><td>Sorting with a custom key, and reversing</td><td>Appears constantly and is easy to get subtly wrong</td><td>Theory about sorting algorithms</td></tr><tr><td>A working loop template with a counter</td><td>Blanking on an off-by-one costs more minutes than anything else</td><td>Code nobody on the team has actually run</td></tr><tr><td>The edge-case checklist</td><td>It is the highest-value page in the pack and nobody thinks to include it</td><td>Anything copied without being understood</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The rule the organiser sets, code snippets readable at normal zoom, quietly tells a team what the notes are for. They are a personal library, not a textbook, and the useful version is built during practice by writing down whatever the team had to look up.</p>
+<p>Six languages are permitted: Python, C++, C#, Java, JavaScript and Visual Basic.Net. A team should pick the one everybody in it can debug, not the one that sounds most serious. In a forty-minute round, familiarity beats power comfortably.</p></div><div><p>It is worth remembering that submissions can be repeated and the highest-scoring one counts, so a team that fixes a bug and resubmits loses nothing except time. That makes the checklist even more valuable: it converts a wasted submission into a fixed one.</p>
+<p>And the whole competition is free, which is unusual enough to say plainly. A school needs a room, some computers and a teacher willing to register, and nothing else.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Getting ready</p>
+      <h2>Four rungs to a team that finishes</h2>
+      <p class="ag-lede">Level is set by what a pupil can fix alone, not by what they can write with help.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From a first program to a checked submission</caption><thead><tr><th scope="col">Stage</th><th scope="col">Rung</th><th scope="col">The sign it is secure</th></tr></thead><tbody><tr><td>Years 5 to 7</td><td class="ag-num">1. A program that runs</td><td class="ag-num">Writes and fixes twenty lines without a template</td></tr><tr><td>Years 7 to 9</td><td class="ag-num">2. Text and numbers</td><td class="ag-num">Splits, joins and converts without looking anything up</td></tr><tr><td>Years 9 to 10</td><td class="ag-num">3. The checklist habit</td><td class="ag-num">Invents awkward inputs before submitting, unprompted</td></tr><tr><td>Years 10 to 11</td><td class="ag-num">4. Complexity</td><td class="ag-num">Notices when a working answer will be too slow, and says so</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If round one is close</h3><p>Practise in pairs on one computer, with the non-typing pupil reading the question aloud and listing the awkward cases. That is the round.</p>
+<p>Build the twenty sides from whatever the team actually looks up in practice, not from a template found online.</p></div><div><h3>After the challenge</h3><p>The <a class="ag-inline-link" href="/british-informatics-olympiad-preparation">British Informatics Olympiad</a> is the next step for a pupil who liked the hidden tests.</p>
+<p>The <a class="ag-inline-link" href="/uk-coding-maths-and-ai-competitions-calendar">competitions calendar</a> has every other contest open to a UK pupil.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The full list</p>
+      <h2>Programming courses for a challenge team</h2>
+      <p class="ag-lede">Sorted by what a pupil can already do alone, with each syllabus a click away.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Before typing</h3>
+        <span class="ag-band-sub">Ages 6 to 11</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PCT / A / 01</p>
+          <h4>Scratch for kids</h4>
+          <p>Loops, conditions and variables in a visual language.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PCT / A / 02</p>
+          <h4>Coding for kids, blocks to AI</h4>
+          <p>Games and apps, then a first look at AI.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PCT / A / 03</p>
+          <h4>Maths through coding</h4>
+          <p>Programs that check whether a method works.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>The competition language</h3>
+        <span class="ag-band-sub">Ages 10 to 16</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PCT / B / 01</p>
+          <h4>Python and AI for kids</h4>
+          <p>A first typed language, taught patiently.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PCT / B / 02</p>
+          <h4>Python from start to finish</h4>
+          <p>Strings, lists and functions until they are automatic.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PCT / B / 03</p>
+          <h4>Java for teens</h4>
+          <p>For schools and teams that work in Java.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Levels three and four</h3>
+        <span class="ag-band-sub">Where speed matters</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PCT / C / 01</p>
+          <h4>Algorithms and data structures</h4>
+          <p>Searching, sorting and how long a method takes.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PCT / C / 02</p>
+          <h4>Competitive programming</h4>
+          <p>Correctness under a clock, against hidden tests.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PCT / C / 03</p>
+          <h4>GCSE Computer Science</h4>
+          <p>Taught to the board the school uses.</p>
+          <a class="ag-course-link" href="/courses/gcse-computer-science-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">IV</span>
+        <h3>Building things</h3>
+        <span class="ag-band-sub">For pupils who want more than contests</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PCT / D / 01</p>
+          <h4>Full stack web development</h4>
+          <p>A site with its own database, built in slices.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-teens-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PCT / D / 02</p>
+          <h4>AI and machine learning for teens</h4>
+          <p>Models built and evaluated honestly.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PCT / D / 03</p>
+          <h4>App development</h4>
+          <p>Interfaces, events and state.</p>
+          <a class="ag-course-link" href="/courses/complete-app-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Weekly programming, with the awkward inputs written first</h2>
+      <p class="ag-lede">Lessons are live on video from India, five and a half hours ahead of the UK in winter and four and a half in summer, at a time fixed in UK time.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Early weekday evening</p><p class="ag-slot-l">For pupils in Years 6 to 9.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Later weekday evening</p><p class="ag-slot-l">For Year 10 and 11 teams.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend morning</p><p class="ag-slot-l">For a full practice round, start to finish.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Checklist before submit</h3><p>Every task starts by listing the awkward inputs, before a line of code is written.</p></div>
+      <div><h3>One keyboard practice</h3><p>We run pair tasks the way round one does, with one pupil typing and one reading.</p></div>
+      <div><h3>Five to ten learners</h3><p>Enough for two solutions to be compared, small enough for every program to be looked at.</p></div>
+      <div><h3>Our own tasks</h3><p>Written by us in the same style. The organiser publishes its own past papers.</p></div>
+      <div><h3>One to one when useful</h3><p>For a pupil working well above their year, or one with a specific gap.</p></div>
+      <div><h3>Nothing promised</h3><p>We cannot register a team and promise no score, certificate or prize.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students build</h2>
+      <p class="ag-lede">Four published projects by students at our school, built outside any competition. More on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">A single monthly rate in US dollars for families outside India, with no registration fee and no minimum term.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A full lesson on a real task</li><li>A straight read on the right level</li><li>No card details taken</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten learners at one level</li><li>The same teacher weekly</li><li>Code read line by line</li><li>A certificate at the end</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher working with one learner</li><li>Shaped around the specific weakness</li><li>Useful in the weeks before a round</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews families have left on Google, printed as written.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Perse Coding Team Challenge questions</p>
+      <h2>What teachers and parents ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Who can enter the Perse Coding Team Challenge?</h3>
+        <p>The organiser says the competition is "open to UK pupils up to Year 11 (S4 in Scotland) and is free to enter". International schools may take part for certificates but cannot compete for prizes.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are the 2027 rounds?</h3>
+        <p>Round 1 runs from 25 January to 5 February 2027, Round 2 from 1 to 12 March 2027, and the Sixth Form Gold Rush from 15 to 19 March 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How big is a team?</h3>
+        <p>Round 1 is sat in pairs, or solo if necessary, sharing one computer. Round 2 is teams of up to three, with a maximum of two Year 11 students per team.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long is each round?</h3>
+        <p>Forty minutes for Round 1, sixty for Round 2 and fifty for the Sixth Form Gold Rush, which takes six questions from Round 2 material.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which programming languages are allowed?</h3>
+        <p>The organiser lists Python, C++, C#, Java, JavaScript and Visual Basic.Net. A team should choose the language everyone in it can debug rather than the most powerful one.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can students bring notes?</h3>
+        <p>Yes. The organiser permits up to 20 A4 sides, or ten double-sided pages, of printed or digital code snippets, readable at normal zoom.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is it marked?</h3>
+        <p>Automatically. Teams are told how many test cases passed or failed, but the test cases themselves are not shown, and where more than one solution is submitted the highest-scoring one counts.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do you debug a test you cannot see?</h3>
+        <p>With a checklist written from the question. Empty input, one item, everything the same, duplicates at the interesting end, negatives, zero and the largest allowed size will find most failures in under a minute.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What are the four levels in Round 2?</h3>
+        <p>The organiser describes a four-level format running from Level 1, basic text and number processing, to Level 4, algorithmic complexity, with every question worth an equal ten points.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What do classes cost?</h3>
+        <p>The first lesson is free. A group place is then USD 100 a month and one-to-one teaching USD 150, with nothing to pay to register.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>Other coding contests for school pupils</h2>
+      <p class="ag-lede">What comes before this one, what comes after, and where the whole year is listed.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/bebras-computational-thinking-challenge-practice-uk">UK Bebras Challenge</a></h3><p>No programming at all, and half a million entrants.</p></div>
+      <div><h3><a class="ag-inline-link" href="/oxford-university-computing-challenge-preparation">Oxford University Computing Challenge</a></h3><p>The coding round that follows Bebras.</p></div>
+      <div><h3><a class="ag-inline-link" href="/british-informatics-olympiad-preparation">British Informatics Olympiad</a></h3><p>Three hours, three questions, hidden tests.</p></div>
+      <div><h3><a class="ag-inline-link" href="/uk-coding-maths-and-ai-competitions-calendar">UK competitions calendar 2026-27</a></h3><p>Dates for every contest, checked with the people who run them.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-kingdom">Coding classes in the UK</a></h3><p>The four school systems, and every UK page.</p></div>
+      <div><h3><a class="ag-inline-link" href="/uk-gcse-computer-science-tutoring">GCSE Computer Science tutoring</a></h3><p>The qualification most of these pupils are heading for.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free programming lesson</h2>
+        <p class="ag-lede">Tell us the year group and which language the team codes in. The free lesson is a real task, checklist and all, and we say afterwards what we saw.</p>
+        <p class="ag-mt-40">Rather read first? Syllabuses sit on the <a class="ag-inline-link" href="/courses">course pages</a>, the method on <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, and the order of topics on the <a class="ag-inline-link" href="/coding-roadmap">roadmap</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20entering%20the%20Perse%20Coding%20Team%20Challenge%20and%20I%20would%20like%20a%20free%20class." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pct',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp costs a UK mobile nothing and usually reaches us first. Our number is an Indian one, which we state on every page, and there is no British office.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_pct(event)" novalidate>
+          <div class="ag-field">
+            <label for="gb-name">Your name</label>
+            <input id="gb-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-phone">Phone or WhatsApp, United Kingdom +44</label>
+            <input id="gb-phone" type="tel" name="phone" placeholder="7700 900123" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-age">Learner age group</label>
+            <select id="gb-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card, no obligation. One reply to arrange a time.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Coding contests</h4><ul><li><a href="/bebras-computational-thinking-challenge-practice-uk">UK Bebras Challenge</a></li><li><a href="/oxford-university-computing-challenge-preparation">Computing Challenge</a></li><li><a href="/british-informatics-olympiad-preparation">Informatics olympiad</a></li><li><a href="/uk-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li></ul></div>
+      <div><h4>Programming</h4><ul><li><a href="/courses/python-complete-masterclass-teens">Python for teens</a></li><li><a href="/courses/problem-solving-dsa-masterclass-teens">Algorithms and data structures</a></li><li><a href="/courses/competitive-programming-for-teens-course">Competitive programming</a></li><li><a href="/coding-classes-in-united-kingdom">Coding classes in the UK</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>We teach the checking; the judge keeps its tests</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitLead_pct = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0044') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('44') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United Kingdom phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+44', countryIso: 'GB', countryName: 'United Kingdom',
+      source: 'perse-coding-team-challenge-preparation-inline', meta: { name: name, age: age, page: 'perse-coding-team-challenge-preparation' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+</body>
+</html>

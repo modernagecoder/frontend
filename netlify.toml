@@ -11658,6 +11658,18 @@
   to = "/src/pages/ukmt-team-maths-challenge-practice.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/perse-coding-team-challenge-preparation"
+  to = "/src/pages/perse-coding-team-challenge-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/perse-coding-team-challenge-preparation.md"
+  to = "/src/pages/perse-coding-team-challenge-preparation.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -178,6 +178,7 @@ const SLUGS = [
   'mathematical-olympiad-for-girls-preparation',
   'ukmt-kangaroo-rounds-practice',
   'ukmt-team-maths-challenge-practice',
+  'perse-coding-team-challenge-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -435,6 +436,7 @@ const LLMS_LABELS = {
   'mathematical-olympiad-for-girls-preparation': 'Mathematical Olympiad for Girls preparation',
   'ukmt-kangaroo-rounds-practice': 'UKMT Kangaroo rounds practice',
   'ukmt-team-maths-challenge-practice': 'UKMT Team Maths Challenge practice',
+  'perse-coding-team-challenge-preparation': 'Perse Coding Team Challenge preparation',
 };
 
 function wireLlms(slugs) {
