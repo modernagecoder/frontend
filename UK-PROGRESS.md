@@ -88,7 +88,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 36 | best-coding-classes-for-adults-uk (bau, #676812) | door | 3,714 | 2.3% vs best-coding-classes-for-teens-uk | age is the weaker variable | a published regression that contradicts the reader's own assumption | 035d405b |
 | 37 | best-python-classes-online-uk (bpu, #115F12) | door | 3,481 | 3.6% vs best-coding-classes-for-teens-uk | the examined Python is a published subset, eighteen pages long | a published floor a class should clear rather than occupy | e37169b6 |
 | 38 | ai-classes-for-kids-uk (aku, #6A3D1B) | door | 3,587 | 3% vs best-python-classes-online-uk | one sentence the Government has already written down | a public commitment that has not yet reached a classroom | bc138037 |
-| 39 | online-coding-tutor-uk (ocu, #342442) | door | 3,644 | 3.1% vs ai-classes-for-kids-uk | the question a parent could not ask until January | a safeguarding mechanism that changed this year, applied to ourselves too | (this commit) |
+| 39 | online-coding-tutor-uk (ocu, #342442) | door | 3,644 | 3.1% vs ai-classes-for-kids-uk | the question a parent could not ask until January | a safeguarding mechanism that changed this year, applied to ourselves too | 38b709ea |
+| 40 | understand-the-code-dont-copy-paste-uk (ucp, #4E0E0E) | door | 3,798 | 2.1% vs best-coding-classes-for-teens-uk | acknowledged is not the same as rewarded | a rule whose second clause is the one that matters | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -3240,4 +3240,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /online-coding-tutor-uk /src/pages/online-coding-tutor-uk.html 200
 /online-coding-tutor-uk.md /src/pages/online-coding-tutor-uk.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/understand-the-code-dont-copy-paste-uk /src/pages/understand-the-code-dont-copy-paste-uk.html 200
+/understand-the-code-dont-copy-paste-uk.md /src/pages/understand-the-code-dont-copy-paste-uk.md 200
 /* /src/pages/404.html 404
