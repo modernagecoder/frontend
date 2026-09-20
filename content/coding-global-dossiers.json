@@ -16524,5 +16524,65 @@
       "NRS's own form of the Western Isles council area name: not read at NRS for this build; only the mygov.scot form is used.",
       "The Scottish Index of Multiple Deprivation or any economic measure: excluded as a standout."
     ]
+  },
+  "coding-classes-in-surrey": {
+    "market": "Surrey",
+    "bodyClass": "cg-sry",
+    "pageType": "governorate",
+    "curriculumAuthority": "Surrey. ONS Census 2021 usual residents via Nomis for the eleven districts: Reigate and Banstead 150,846; Guildford 143,647; Elmbridge 138,755; Waverley 128,226; Woking 103,943; Spelthorne 102,960; Surrey Heath 90,456; Runnymede 88,079; Tandridge 87,877; Mole Valley 87,387; Epsom and Ewell 80,937; total 1,203,113. ONS Census 2021 built-up areas: Guildford 77,880; Woking 75,660; Camberley 36,785; Epsom 35,850; Redhill 32,525; Egham 28,000; Ewell 27,515; Horley 27,070; Walton-on-Thames 27,020; Ash and Ash Vale 24,285; Reigate 23,780; Ashford (Spelthorne) 22,825; Caterham 22,755; Great Bookham and Fetcham 21,655; Sunbury-on-Thames 21,475; Staines-upon-Thames 21,325; Farnham 20,500; Cobham 17,505; Dorking 17,465; Weybridge 15,915; Frimley 15,100; Ashtead 14,830; Chertsey 14,560; Byfleet 14,190; Addlestone 13,745; Hersham 12,625; Haslemere 11,900; Oxted 11,490; Leatherhead 11,485; Godalming 10,450; Cranleigh 10,425; Esher 9,485; Banstead 8,925; Warlingham 8,920; Lightwater 6,535; Bagshot 5,930; Shepperton 5,915; Virginia Water 5,185. Surrey County Council term dates 2026-27, community and voluntary controlled schools: autumn term 1 September to 18 December 2026 with a two-week autumn half term 19 to 30 October 2026; \"Five days will be taken from the summer holiday in July 2027\"; spring term 4 January to 25 March 2027; summer term 12 April to 28 July 2027. Surrey County Council school organisation data: births falling in all eleven districts and boroughs; Elmbridge \"Following a 2010 peak of 1,890, births in Elmbridge have dropped by 33%\", \"Births reached a new low of 1,273 in 2025\"; Woking down 30 per cent from a 2012 peak; Epsom and Ewell down 29 per cent from a 2015 peak; Guildford down 27 per cent from a 2012 peak. Surrey Satellite Technology Ltd: Tycho House, 20 Stephenson Road, Surrey Research Park, Guildford GU2 7YE; researchers at the University of Surrey led by Martin Sweeting built satellites from commercial off-the-shelf components in the late 1970s; \"In 1985 Surrey Satellite Technology Ltd was formed as a spin-out company\"; about 70 satellites for 22 countries over the following three decades; Airbus bought the majority shareholding from the University of Surrey in 2009 and SSTL is now a wholly owned subsidiary. Surrey Space Centre, BA building, University of Surrey, Guildford GU2 7XH: small satellite activities from 1979. GPS.gov: the C/A code carries the week number as a \"10-bit code with a maximum value of 1,023 weeks\"; \"every 19.7 years\" it rolls over; \"The last GPS Week Number Rollover occurred at 23:59:42 UTC on April 6, 2019\"; \"next rollover on November 20, 2038\"; CNAV uses \"a 13-bit week number that won't roll over until 2137\".",
+    "localProject": "A counter with too few bits. From the GPS epoch at 00:00:00 UTC on 6 January 1980 and the eighteen-second GPS minus UTC offset, compute the instant each 1,024-week epoch of the 10-bit LNAV week number turns over, then compare with what GPS.gov publishes. Our run of 20 September 2026: week 1024 at 1999-08-21 23:59:42 UTC, week 2048 at 2019-04-06 23:59:42 UTC (matching GPS.gov's stated 23:59:42 UTC on 6 April 2019 to the second), week 3072 at 2038-11-20 23:59:42 UTC (GPS.gov: November 20, 2038), and the 13-bit field first wrapping on 2137-01-05 (GPS.gov: 2137). One epoch is 1,024 weeks, 7,168 days, 19.6 years. On 20 September 2026 the true count is 2,437 weeks; a 10-bit reader sees 389 and dates it to 1987-06-20, an error of 39.2 years. The same fault in signed 32-bit Unix seconds: the maximum 2,147,483,647 falls at 03:14:07 UTC on 19 January 2038 and wraps to 20:45:52 UTC on 13 December 1901. AI angle: an assistant returns the right rollover date and writes a converter that ignores both the leap-second offset and the wrap, because nothing in the prompt mentions the size of the field. Lesson family: a counter with too few bits (integer overflow and rollover); screened free on 20 September 2026 against all 322 dossiers, and distinct from the lost update on a shared counter (Assen), where a series begins (Heerlen) and a record outliving its reader (Hilversum).",
+    "requiredMentions": [
+      "1,203,113",
+      "23:59:42 UTC",
+      "2,147,483,647",
+      "Tycho House",
+      "Surrey Research Park",
+      "two-week autumn half term",
+      "1,273 in 2025",
+      "Ash and Ash Vale",
+      "7,168 days",
+      "2,437 weeks"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 usual residents for the eleven Surrey districts, totalling 1,203,113, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Surrey towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "Surrey County Council: 2026-27 term dates, two-week autumn half term 19 to 30 October 2026, five days taken from the July 2027 summer holiday.",
+        "url": "https://www.surreycc.gov.uk/schools-and-learning/schools/term-dates"
+      },
+      {
+        "claim": "Surrey County Council: school organisation data, births falling in all eleven districts; Elmbridge down 33 per cent from a 2010 peak of 1,890 to a new low of 1,273 in 2025.",
+        "url": "https://www.surreycc.gov.uk/schools-and-learning/schools/strategies-plans-policies-consultations/provision-of-school-places-and-school-expansions/School-organisation-plan-data"
+      },
+      {
+        "claim": "Surrey Satellite Technology Ltd: 1985 University of Surrey spin-out, about 70 satellites for 22 countries, Airbus majority shareholding from 2009.",
+        "url": "https://www.sstl.co.uk/about-us"
+      },
+      {
+        "claim": "Surrey Satellite Technology Ltd address: Tycho House, 20 Stephenson Road, Surrey Research Park, Guildford, GU2 7YE.",
+        "url": "https://www.sstl.co.uk/contact-us"
+      },
+      {
+        "claim": "University of Surrey, Surrey Space Centre: small satellite activities from 1979, BA building, Guildford GU2 7XH.",
+        "url": "https://www.surrey.ac.uk/surrey-space-centre"
+      },
+      {
+        "claim": "GPS.gov: 10-bit week number with a maximum of 1,023, rollover at 23:59:42 UTC on 6 April 2019, next on 20 November 2038, 13-bit CNAV week number lasting to 2137.",
+        "url": "https://www.gps.gov/news/gps-week-number-rollover"
+      }
+    ],
+    "rejectedClaims": [
+      "The number of libraries Surrey County Council runs: the libraries page lists branches in a dropdown but publishes no total we could read, so no count is printed.",
+      "Guildford as a video games cluster: not read at a primary source for this build, so no studio or industry claim is made.",
+      "Named Surrey schools and their computing provision: not read at their own sites for this build, so none is named.",
+      "Surrey commuting and rail journey times: quoted widely but not read at an operator or council source, so travel is described only in general terms.",
+      "West Molesey's built-up area figure of 47,150: the ONS area appears to cover more than the town its name suggests, so it is left out rather than printed under a misleading label."
+    ]
   }
 }
