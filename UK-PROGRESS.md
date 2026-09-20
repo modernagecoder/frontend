@@ -69,6 +69,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 
 | Slug | Facts found | Covered instead on |
 |------|-------------|--------------------|
+| robocupjunior-uk-preparation | 3, and none UK-specific. junior.robocup.org gives the three leagues (Soccer, Rescue, OnStage), an age limit of 19 and the 2026 event in Songdo, but names no national organiser. robocupjunioruk.org describes the leagues and the primary and secondary split and publishes no organiser, no entry route, no UK dates and nothing recent. A page called "UK preparation" would imply a UK pathway we cannot evidence. | first-lego-league-uk-coding-help, which names RoboCupJunior with what junior.robocup.org actually says and states plainly that we could not confirm a current UK national organiser. |
+| teentech-awards-project-help | 0. teentech.com returns HTTP 403 to every automated read, including the Awards pages, and we do not circumvent. The spec required this one to be confirmed by hand before Phase 2 and it could not be. | big-bang-competition-project-help, which covers school project competitions from a source we can read. |
 
 ## Open issues
 
