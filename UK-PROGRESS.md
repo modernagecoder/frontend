@@ -61,7 +61,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 9 | coding-classes-in-surrey (sry, #0F571C) | cg- county index | 3,846 | 2.1% vs coding-classes-in-harrow-london | a counter with too few bits | integer overflow and rollover | d9c65343 |
 | 10 | primary-maths-challenge-practice (pmc, #791558) | competition spoke | 3,830 | 4.3% vs 11-plus-maths-tuition-kent | the shape of the paper is the strategy | arithmetic on a published time limit | 2bac3f52 |
 | 11 | scottish-mathematical-challenge-practice (smc, #3E4E0E) | competition spoke | 3,822 | 3.2% vs primary-maths-challenge-practice | the answer is the cheap part | written mathematical argument | 59344ad3 |
-| 12 | bebras-computational-thinking-challenge-practice-uk (beb, #1C6D9C) | competition spoke | 3,761 | 3.9% vs scottish-mathematical-challenge-practice | count the answer without doing the work | inversions and adjacent swaps | (this commit) |
+| 12 | bebras-computational-thinking-challenge-practice-uk (beb, #1C6D9C) | competition spoke | 3,761 | 3.9% vs scottish-mathematical-challenge-practice | count the answer without doing the work | inversions and adjacent swaps | f0d352ec |
+| 13 | oxford-university-computing-challenge-preparation (ouc, #570F20) | competition spoke | 3,522 | 5.3% vs bebras-computational-thinking-challenge-practice-uk | equal is not the same as identical | stable sort and the order of ties | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

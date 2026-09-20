@@ -387,6 +387,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Primary Maths Challenge practice: https://learn.modernagecoders.com/primary-maths-challenge-practice
 - Scottish Mathematical Challenge practice: https://learn.modernagecoders.com/scottish-mathematical-challenge-practice
 - UK Bebras Challenge practice: https://learn.modernagecoders.com/bebras-computational-thinking-challenge-practice-uk
+- Oxford University Computing Challenge preparation: https://learn.modernagecoders.com/oxford-university-computing-challenge-preparation
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

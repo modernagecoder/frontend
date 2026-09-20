@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Oxford University Computing Challenge | The Round After Bebras</title>
+  <meta name="description" content="The OUCC, now run as the Raspberry Pi Foundation Coding Challenge: who is invited, the block and text tracks, 45 minutes, and how to prepare for a marked round.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/oxford-university-computing-challenge-preparation">
+  <link rel="alternate" type="text/markdown" href="/src/pages/oxford-university-computing-challenge-preparation.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#570F20">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/oxford-university-computing-challenge-preparation">
+  <meta property="og:title" content="Oxford University Computing Challenge | The Round After Bebras">
+  <meta property="og:description" content="The challenge after Bebras is invitation only, 45 minutes, and marked by a machine. What that changes about how a student should write their code.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_GB">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Oxford University Computing Challenge">
+  <meta name="twitter:description" content="Oxford University Computing Challenge preparation: the round after Bebras, block-based or text-based.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="GB">
+  <meta name="geo.placename" content="United Kingdom">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ouc .ag-hero h1 { letter-spacing: -0.017em; }
+.ag-root.ag-ouc .ag-capsule { border-left-width: 3px; padding-left: 1.3rem; }
+.ag-root.ag-ouc .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-ouc .ag-table caption { text-align: left; font-weight: 700; font-size: 0.95em; }
+.ag-root.ag-ouc .ag-table td:last-child { font-style: italic; }
+.ag-root.ag-ouc .ag-spec dt { letter-spacing: 0.1em; }
+.ag-root.ag-ouc .ag-three h3 { letter-spacing: -0.005em; }
+.ag-root.ag-ouc .ag-slots { gap: 1.4rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United Kingdom"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/oxford-university-computing-challenge-preparation#page","url":"https://learn.modernagecoders.com/oxford-university-computing-challenge-preparation","name":"Oxford University Computing Challenge Preparation","description":"Preparation guidance for the coding round that follows the UK Bebras Challenge, known to most students as the Oxford University Computing Challenge and now presented by UK Bebras as the Raspberry Pi Foundation Coding Challenge.","inLanguage":"en-GB","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"UK competitions calendar","item":"https://learn.modernagecoders.com/uk-coding-maths-and-ai-competitions-calendar"},{"@type":"ListItem","position":4,"name":"Oxford University Computing Challenge","item":"https://learn.modernagecoders.com/oxford-university-computing-challenge-preparation"}]},{"@type":"Course","name":"Oxford University Computing Challenge Preparation","description":"Live online programming classes in Blockly-style block coding and in Python for students preparing for auto-marked coding challenges, ages 10 upwards.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/oxford-university-computing-challenge-preparation"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/oxford-university-computing-challenge-preparation"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/oxford-university-computing-challenge-preparation"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is the Oxford University Computing Challenge still running?","acceptedAnswer":{"@type":"Answer","text":"We do not say, because we could not read the OUCC's own pages on 20 September 2026. What UK Bebras currently publishes is a follow-on round called the Raspberry Pi Foundation Coding Challenge, open to schools and students who took the previous UK Bebras Challenge."}},{"@type":"Question","name":"How does my child get invited?","acceptedAnswer":{"@type":"Answer","text":"By sitting the UK Bebras Challenge at school in November. UK Bebras says only schools and students who took part in the previous challenge can enter the coding round, and home-educated students are contacted directly by the UK Bebras team."}},{"@type":"Question","name":"What age is it for?","acceptedAnswer":{"@type":"Answer","text":"UK Bebras describes it as designed to be accessible to all students aged 10 and over. Historically the Raspberry Pi Foundation ran the OUCC for students aged 10 to 18 in four age groups."}},{"@type":"Question","name":"What programming language is used?","acceptedAnswer":{"@type":"Answer","text":"There are two tracks, block-based and text-based, each with two difficulty levels. Historically the two younger OUCC cohorts used Blockly and the older two could use one of the eleven programming languages Bebras supports, which covers those taught in UK schools."}},{"@type":"Question","name":"How long is the challenge?","acceptedAnswer":{"@type":"Answer","text":"UK Bebras describes a 45-minute coding challenge, supervised by a school coordinator, with instructions sent to teachers during the challenge through the Bebras emailing system."}},{"@type":"Question","name":"Why did my child's correct program fail?","acceptedAnswer":{"@type":"Answer","text":"Usually formatting rather than logic. An automatic marker compares output as text, so a trailing space, a capital letter, an extra full stop or a different order for tied entries all count as wrong even when the thinking is right."}},{"@type":"Question","name":"What is a stable sort and why does it matter?","acceptedAnswer":{"@type":"Answer","text":"A sort is stable if items with equal keys stay in the order they arrived. Two sorts of the same scores can both be correct and produce different lines, and a marker comparing text will accept only one. Sorting by score and then by name removes the ambiguity."}},{"@type":"Question","name":"How should a student prepare?","acceptedAnswer":{"@type":"Answer","text":"By writing the expected output by hand before coding, practising exact input and output, and staying in whichever track they are fluent in. Speed drilling helps far less than reading the task properly."}},{"@type":"Question","name":"Do you reproduce challenge tasks?","acceptedAnswer":{"@type":"Answer","text":"No. Our problems are written by us in the same territory, and the organisers publish their own past material."}},{"@type":"Question","name":"What do classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. After that a group place is USD 100 a month and one-to-one teaching USD 150, with no joining fee and no minimum term."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United Kingdom"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/oxford-university-computing-challenge-preparation","availableLanguage":["en"]}}
+  </script>
+</head>
+
+<body class="ag-root ag-ouc">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">UK</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#what">What it is now</a></li>
+      <li><a href="#ties">Equal is not identical</a></li>
+      <li><a href="#prepare">How to prepare</a></li>
+      <li><a href="#catalogue">Courses</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/uk-coding-maths-and-ai-competitions-calendar">UK competitions calendar</a> / Oxford University Computing Challenge
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United Kingdom &middot; Ages 10 and over &middot; Invitation only, through Bebras</p>
+        <h1>Oxford University Computing Challenge preparation</h1>
+        <p class="ag-lede">A note before anything else, because it will save you an afternoon. The round most people mean by the Oxford University Computing Challenge is now presented by UK Bebras as the Raspberry Pi Foundation Coding Challenge, and the OUCC's own pages returned errors when we checked them in September 2026. The round still exists, it still follows Bebras, and it is still the step where a young person's thinking has to survive contact with an actual program. The rest of this page is about that step: who gets in, what the two tracks are, and the particular way an auto-marked round punishes code that is nearly right.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#ties" class="ag-btn ag-btn--ghost">See how two correct answers disagree</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20has%20been%20invited%20to%20the%20coding%20challenge%20after%20Bebras%20and%20I%20would%20like%20a%20free%20class." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ouc'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Organiser facts, dated &middot; No task reproduced &middot; No promise of an invitation</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Now run as</dt><dd>Raspberry Pi Foundation Coding Challenge</dd>
+          <dt>Follows</dt><dd>The UK Bebras Challenge</dd>
+          <dt>For</dt><dd>Students aged 10 and over</dd>
+          <dt>Two tracks</dt><dd>Block-based and text-based</dd>
+          <dt>Levels</dt><dd>Two difficulty levels in each</dd>
+          <dt>Length</dt><dd>45 minutes, supervised</dd>
+          <dt>Entry</dt><dd>Only through a school that sat Bebras</dd>
+          <dt>Marked by</dt><dd>A machine, on output</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>The coding round that follows the UK Bebras Challenge is described by UK Bebras as the Raspberry Pi Foundation Coding Challenge; most students, teachers and websites still call it the Oxford University Computing Challenge. Only schools and students who took part in the previous UK Bebras Challenge can enter, and home-educated students are contacted directly by the UK Bebras team. It is "designed to be accessible to all students aged 10+", runs as a 45-minute supervised challenge, and comes in two types, block-based and text-based programming, each with two difficulty levels. Historically the Raspberry Pi Foundation invited the students with the top ten per cent of results in the UK Bebras challenge, with four age groups from 10 to 18, Blockly for the younger two and a choice of eleven languages for the older two. We teach the programming, not the entry: the first class is free, a group place is USD 100 a month and one-to-one teaching USD 150.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three courses for the round after Bebras</h2>
+      <p class="ag-lede">Choose by which track the student will sit, blocks or text.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/kids-coding-blocks-masterclass">
+        <div class="ag-pick-shot"><img src="/images/kids-coding.webp" alt="Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">OUC / 01</p>
+          <h3>Coding for kids, blocks to AI</h3>
+          <p>For the block-based track: loops, conditions and variables, in a visual language.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">OUC / 02</p>
+          <h3>Python and AI for kids</h3>
+          <p>For a ten to thirteen year old crossing from blocks to typed code.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">OUC / 03</p>
+          <h3>Python from start to finish</h3>
+          <p>For the text-based track at the older age groups, including exact output and edge cases.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="what">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What it is now</p><h2>One round, two names, and a single way in</h2><p class="ag-lede">Facts from UK Bebras and the Raspberry Pi Foundation, read on 20 September 2026. Where a source is historical we say so.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The coding round after Bebras, as the organisers describe it</caption><thead><tr><th scope="col">Part</th><th scope="col">What the organiser says</th><th scope="col">Source</th></tr></thead><tbody><tr><td>Who can enter</td><td>Only schools and students who took part in the previous UK Bebras Challenge; home-educated students are contacted directly by the UK Bebras team</td><td>UK Bebras, 2026</td></tr><tr><td>Ages</td><td>"Designed to be accessible to all students aged 10+"</td><td>UK Bebras, 2026</td></tr><tr><td>Two types</td><td>Block-based programming and text-based programming, each with two difficulty levels</td><td>UK Bebras, 2026</td></tr><tr><td>Length</td><td>A 45-minute coding challenge, supervised by school coordinators</td><td>UK Bebras, 2026</td></tr><tr><td>On the day</td><td>Teachers are contacted through the UK Bebras internal emailing system with instructions</td><td>UK Bebras, 2026</td></tr><tr><td>Historic invitation</td><td>"We invited the students with the top 10% best results in the UK Bebras challenge to take part in the OUCC"</td><td>Raspberry Pi Foundation, on the OUCC</td></tr><tr><td>Historic age groups</td><td>Students aged 10 to 18 in four age groups; Blockly for the two younger cohorts, one of eleven languages Bebras supports for the older two</td><td>Raspberry Pi Foundation, on the OUCC</td></tr><tr><td>Historic scale</td><td>"Over 20,000 Bebras participants took up the invitation to the first round", with the top 20 in each of the four age groups reaching the final</td><td>Raspberry Pi Foundation, on the OUCC</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The single most important line for a parent is the first one. There is no direct entry. A student who did not sit the UK Bebras Challenge in November cannot take this round, however good they are, and no tutor, service or payment changes that. The way in is a teacher signing a school up for Bebras.</p>
+<p>Everything else follows from that. If a child is interested in this round, the thing to do in September is ask whether the school is entering Bebras, not to buy preparation.</p></div><div><p>On the name: we could not read oucc.uk or the Bebras OUCC pages on 20 September 2026, and we do not assert that the Oxford University Computing Challenge has been renamed, retired or replaced. What we can say is what UK Bebras currently publishes, which describes the follow-on round as the Raspberry Pi Foundation Coding Challenge. Both names appear on this page so that families searching either one arrive somewhere useful.</p>
+<p>The historical rows are labelled as historical for the same reason. A top-ten-per-cent invitation was how the OUCC worked when the Foundation wrote about it; we do not claim it is this year's rule.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://bebras.uk/index.php?action=content&amp;id=132" rel="noopener" target="_blank">UK Bebras, Raspberry Pi Foundation Coding Challenge</a> and the Raspberry Pi Foundation's <a class="ag-inline-link" href="https://www.raspberrypi.org/blog/uk-bebras-oxford-university-computing-challenge-2022/" rel="noopener" target="_blank">account of the Oxford University Computing Challenge</a>, read 20 September 2026. Modern Age Coders is not connected with the Raspberry Pi Foundation, UK Bebras or the University of Oxford.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="ties">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The method</p><h2>Equal is not the same as identical</h2><p class="ag-lede">A round marked by a machine compares your output with an expected output. That makes one ordinary bug much more expensive than it is at school.</p></div>
+    <p>Suppose a task says: print the pupils in order of score, highest first. Here are seven pupils. <strong>Ben 9, Dev 9, Gus 9, Amara 7, Cara 7, Esme 7, Finn 5.</strong> Three of them share a nine and three share a seven. Sort them by score and you have a correct answer. Sort them by score a different way and you have a different correct answer. Only one of the two matches what the marker is holding.</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our run of 20 September 2026: two sorts of the same seven pupils, both by score</caption><thead><tr><th scope="col">Method</th><th scope="col">Output</th><th scope="col">Sorted by score?</th></tr></thead><tbody><tr><td>Keeps equal items in their original order</td><td>Ben Dev Gus Amara Cara Esme Finn</td><td>Yes</td></tr><tr><td>A quicksort we wrote that does not</td><td>Gus Dev Ben Esme Cara Amara Finn</td><td>Yes</td></tr><tr><td>What an automatic marker does</td><td>Compares the text, character by character</td><td>It does not care which is fairer</td></tr></tbody></table></div>
+    <div class="ag-grid-3"><div><h3>The word for it</h3><p>A sort that leaves equal items in the order they arrived is called stable. One that does not is not, and most beginners have never been told which kind their language gives them.</p></div><div><h3>Why it bites here</h3><p>At school a teacher reads the answer and sees it is sorted. A machine sees two strings that differ, and marks the second one wrong.</p></div><div><h3>The fix is one line</h3><p>Decide what happens to ties and say so: sort by score, then by name. Now there is only one correct output and nothing is left to chance.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>This is the real difference between school programming and a marked round, and it goes well beyond sorting. Trailing spaces, capital letters, a full stop the task did not ask for, printing "6.0" where the task wanted "6": all of them are correct thinking and a failed test. None of them means a student does not understand the problem.</p>
+<p>It is also the one thing that is genuinely worth practising before a 45-minute round, because it is invisible until it costs you.</p></div><div><p>The habit to build is to read the expected output as carefully as the question. What exactly does the task want printed, in what order, with what spacing, and what should happen when two things are equal? A student who asks those four questions before typing loses almost nothing to formatting.</p>
+<p>And when the task does not say what to do with ties, decide anyway, write it down, and be consistent. An arbitrary rule applied everywhere beats no rule applied differently each run.</p></div></div>
+    <p class="ag-source-note ag-mt-40">The two sorts, the seven pupils and both outputs are ours, run on 20 September 2026 to make the point. No challenge task is reproduced anywhere on this page.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="prepare">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How to prepare</p><h2>Blocks or text, and the same four questions either way</h2><p class="ag-lede">The two tracks look different and ask for the same discipline.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What to practise, by track</caption><thead><tr><th scope="col">Track</th><th scope="col">What it uses</th><th scope="col">What to practise</th></tr></thead><tbody><tr><td>Block-based</td><td>A visual language in the browser, historically Blockly for the younger age groups</td><td>Loops with a counter, conditions inside loops, and reading a block program back before running it</td></tr><tr><td>Text-based</td><td>Typed code; historically one of eleven languages Bebras supports, which covers those taught in UK schools</td><td>Input and output exactly as asked, string and number handling, and the boundary cases</td></tr><tr><td>Both</td><td>45 minutes, supervised, auto-marked</td><td>Working out what the expected output looks like before writing any code</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>For a student crossing from blocks to text, the honest advice is not to cross in the week of the round. Blocks are not a lesser track: a block program with a correct loop beats a typed program with a subtle bug, and the marker cannot tell how the answer was produced.</p>
+<p>The most useful single exercise, in either track, is to take a task description and write out the expected output by hand before writing any code. Most lost marks are decided in that first minute.</p></div><div><p>What not to do is drill speed. Forty-five minutes is not generous, but the students who run out of time are almost always the ones who started coding before they understood the output, not the ones who type slowly.</p>
+<p>If a student enjoys this round, the next step up is the <a class="ag-inline-link" href="/british-informatics-olympiad-preparation">British Informatics Olympiad</a>, sat in school in December and January, where the programs get longer and the tests get nastier.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Getting ready</p>
+      <h2>Four rungs from a first loop to a program that survives a marker</h2>
+      <p class="ag-lede">Where a student starts depends on what they can already write without help.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From blocks to text to tested code</caption><thead><tr><th scope="col">Stage</th><th scope="col">Rung</th><th scope="col">The sign it is secure</th></tr></thead><tbody><tr><td>Ages 8 to 10</td><td class="ag-num">1. Reliable blocks</td><td class="ag-num">Builds a loop with a counter and predicts what it prints</td></tr><tr><td>Ages 10 to 12</td><td class="ag-num">2. First typed code</td><td class="ag-num">Writes and fixes a twenty-line program without a template</td></tr><tr><td>Ages 12 to 15</td><td class="ag-num">3. Exact output</td><td class="ag-num">Produces output that matches a specification character for character</td></tr><tr><td>Ages 15 to 18</td><td class="ag-num">4. Own tests</td><td class="ag-num">Invents the inputs that would break the program, before anyone else does</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If the round is next week</h3><p>Practise reading task descriptions and writing the expected output by hand. Nothing else moves the needle in a week.</p>
+<p>Stay in the track the student is fluent in. Switching from blocks to text under time pressure loses more than it gains.</p></div><div><h3>If they are hooked</h3><p>Informatics olympiads are the next rung, and they reward exactly the habit this round teaches.</p>
+<p>The <a class="ag-inline-link" href="/uk-coding-maths-and-ai-competitions-calendar">competitions calendar</a> shows every contest open to a UK student, month by month.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The full list</p>
+      <h2>Programming courses by track and age</h2>
+      <p class="ag-lede">Grouped by where a student is now, with every syllabus a click away.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Block-based</h3>
+        <span class="ag-band-sub">Ages 8 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">OUC / BLK / 01</p>
+          <h4>Scratch for kids</h4>
+          <p>Loops, conditions and variables in a visual language.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">OUC / BLK / 02</p>
+          <h4>Coding for kids, blocks to AI</h4>
+          <p>From first blocks through games and apps.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">OUC / BLK / 03</p>
+          <h4>App making with blocks</h4>
+          <p>Real apps, still without typing a semicolon.</p>
+          <a class="ag-course-link" href="/courses/block-coding-app-development-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Crossing to text</h3>
+        <span class="ag-band-sub">Ages 10 to 13</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">OUC / TXT / 01</p>
+          <h4>Python and AI for kids</h4>
+          <p>The first typed language, taught patiently.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">OUC / TXT / 02</p>
+          <h4>Maths through coding</h4>
+          <p>Programs that check whether a method is right.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">OUC / TXT / 03</p>
+          <h4>Minecraft coding for kids</h4>
+          <p>From blocks to real code in a familiar world.</p>
+          <a class="ag-course-link" href="/courses/minecraft-coding-for-kids-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Text-based track</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">OUC / ADV / 01</p>
+          <h4>Python from start to finish</h4>
+          <p>Every core idea, with prediction before running.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">OUC / ADV / 02</p>
+          <h4>Algorithms and data structures</h4>
+          <p>Sorting, searching and why ties have an order.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">OUC / ADV / 03</p>
+          <h4>Competitive programming</h4>
+          <p>Correctness under a clock, against hidden tests.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">IV</span>
+        <h3>Alongside school</h3>
+        <span class="ag-band-sub">Qualifications and beyond</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">OUC / SCH / 01</p>
+          <h4>GCSE Computer Science</h4>
+          <p>Taught to the board the school uses.</p>
+          <a class="ag-course-link" href="/courses/gcse-computer-science-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">OUC / SCH / 02</p>
+          <h4>Java for teens</h4>
+          <p>For schools and students working in Java.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">OUC / SCH / 03</p>
+          <h4>AI and machine learning for teens</h4>
+          <p>Where the same discipline goes next.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Weekly programming, taught with the marker in mind</h2>
+      <p class="ag-lede">Lessons are live on video from India, where the clock runs five and a half hours ahead of Britain in winter and four and a half in summer. Times are agreed in UK time and kept.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Early weekday evening</p><p class="ag-slot-l">For students of primary and lower secondary age.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Later weekday evening</p><p class="ag-slot-l">The usual slot for GCSE-age students and above.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend morning</p><p class="ag-slot-l">For a long session on one problem, start to finish.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Output read first</h3><p>Every task begins by writing down what the program should print, before any code is typed.</p></div>
+      <div><h3>Both tracks taught</h3><p>Block-based and typed code, and we do not push a student out of the one they are fluent in.</p></div>
+      <div><h3>Groups of five to ten</h3><p>Small enough that every program gets looked at, large enough for two approaches to collide.</p></div>
+      <div><h3>Our own problems</h3><p>Written by us. No Bebras or challenge task is reproduced in a lesson.</p></div>
+      <div><h3>One to one on request</h3><p>For a student far ahead of their year, or one with a particular gap.</p></div>
+      <div><h3>Nothing promised</h3><p>We cannot get a student invited to this round, and we do not claim otherwise.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students build</h2>
+      <p class="ag-lede">Four published projects by students at our school, built outside any competition. More on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">A monthly rate in US dollars, the same for every country outside India. Nothing to join and no term to sign.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A full lesson on a real task</li><li>An honest read on the right track</li><li>No card details taken</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students at one level</li><li>The same teacher weekly</li><li>Code read line by line</li><li>A certificate at the end</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>One student with one teacher</li><li>Aimed at a specific weakness</li><li>For students far ahead of their year</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Straight from our Google profile, in the families' own words.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Coding challenge questions</p>
+      <h2>What students and parents ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Is the Oxford University Computing Challenge still running?</h3>
+        <p>We do not say, because we could not read the OUCC's own pages on 20 September 2026. What UK Bebras currently publishes is a follow-on round called the Raspberry Pi Foundation Coding Challenge, open to schools and students who took the previous UK Bebras Challenge.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How does my child get invited?</h3>
+        <p>By sitting the UK Bebras Challenge at school in November. UK Bebras says only schools and students who took part in the previous challenge can enter the coding round, and home-educated students are contacted directly by the UK Bebras team.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age is it for?</h3>
+        <p>UK Bebras describes it as designed to be accessible to all students aged 10 and over. Historically the Raspberry Pi Foundation ran the OUCC for students aged 10 to 18 in four age groups.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What programming language is used?</h3>
+        <p>There are two tracks, block-based and text-based, each with two difficulty levels. Historically the two younger OUCC cohorts used Blockly and the older two could use one of the eleven programming languages Bebras supports, which covers those taught in UK schools.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long is the challenge?</h3>
+        <p>UK Bebras describes a 45-minute coding challenge, supervised by a school coordinator, with instructions sent to teachers during the challenge through the Bebras emailing system.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why did my child's correct program fail?</h3>
+        <p>Usually formatting rather than logic. An automatic marker compares output as text, so a trailing space, a capital letter, an extra full stop or a different order for tied entries all count as wrong even when the thinking is right.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is a stable sort and why does it matter?</h3>
+        <p>A sort is stable if items with equal keys stay in the order they arrived. Two sorts of the same scores can both be correct and produce different lines, and a marker comparing text will accept only one. Sorting by score and then by name removes the ambiguity.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How should a student prepare?</h3>
+        <p>By writing the expected output by hand before coding, practising exact input and output, and staying in whichever track they are fluent in. Speed drilling helps far less than reading the task properly.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you reproduce challenge tasks?</h3>
+        <p>No. Our problems are written by us in the same territory, and the organisers publish their own past material.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What do classes cost?</h3>
+        <p>The first lesson is free. After that a group place is USD 100 a month and one-to-one teaching USD 150, with no joining fee and no minimum term.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>More for young programmers</h2>
+      <p class="ag-lede">The round before this one, the olympiad after it, and the whole year in one table.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/bebras-computational-thinking-challenge-practice-uk">UK Bebras Challenge</a></h3><p>The November challenge that is the only way in.</p></div>
+      <div><h3><a class="ag-inline-link" href="/british-informatics-olympiad-preparation">British Informatics Olympiad</a></h3><p>The next rung, sat in school in December and January.</p></div>
+      <div><h3><a class="ag-inline-link" href="/uk-coding-maths-and-ai-competitions-calendar">UK competitions calendar 2026-27</a></h3><p>Every contest we could confirm, month by month.</p></div>
+      <div><h3><a class="ag-inline-link" href="/uk-gcse-computer-science-tutoring">GCSE Computer Science tutoring</a></h3><p>The qualification most of these students are heading for.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-kingdom">Coding classes in the UK</a></h3><p>Four school systems, and every UK page.</p></div>
+      <div><h3><a class="ag-inline-link" href="/best-online-coding-classes-uk">Choosing an online class</a></h3><p>What to ask any provider before you pay.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free programming lesson</h2>
+        <p class="ag-lede">Tell us the age and whether your child works in blocks or typed code. The free lesson is a real task, and afterwards we say plainly what the programming looked like.</p>
+        <p class="ag-mt-40">Prefer reading? Syllabuses are on the <a class="ag-inline-link" href="/courses">course pages</a>, the method on <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, and the order of topics on the <a class="ag-inline-link" href="/coding-roadmap">roadmap</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20has%20been%20invited%20to%20the%20coding%20challenge%20after%20Bebras%20and%20I%20would%20like%20a%20free%20class." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ouc',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp is free from a UK mobile and reaches us quickest. Our number is an Indian one, which we say on every page, and there is no office in Britain.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ouc(event)" novalidate>
+          <div class="ag-field">
+            <label for="gb-name">Your name</label>
+            <input id="gb-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-phone">Phone or WhatsApp, United Kingdom +44</label>
+            <input id="gb-phone" type="tel" name="phone" placeholder="7700 900123" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-age">Learner age group</label>
+            <select id="gb-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card, no obligation. One reply to fix a time.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Competitions</h4><ul><li><a href="/bebras-computational-thinking-challenge-practice-uk">UK Bebras Challenge</a></li><li><a href="/british-informatics-olympiad-preparation">Informatics olympiad</a></li><li><a href="/uk-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li><li><a href="/primary-maths-challenge-practice">Primary Maths Challenge</a></li></ul></div>
+      <div><h4>Programming</h4><ul><li><a href="/courses/python-complete-masterclass-teens">Python for teens</a></li><li><a href="/courses/scratch-programming-complete-course">Scratch for kids</a></li><li><a href="/courses/problem-solving-dsa-masterclass-teens">Algorithms and data structures</a></li><li><a href="/coding-classes-in-united-kingdom">Coding classes in the UK</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>We teach the code; Bebras opens the door</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitLead_ouc = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0044') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('44') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United Kingdom phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+44', countryIso: 'GB', countryName: 'United Kingdom',
+      source: 'oxford-university-computing-challenge-preparation-inline', meta: { name: name, age: age, page: 'oxford-university-computing-challenge-preparation' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+</body>
+</html>
