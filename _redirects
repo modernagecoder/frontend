@@ -3268,4 +3268,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /edexcel-gcse-computer-science-1cp2-help /src/pages/edexcel-gcse-computer-science-1cp2-help.html 200
 /edexcel-gcse-computer-science-1cp2-help.md /src/pages/edexcel-gcse-computer-science-1cp2-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/aqa-a-level-computer-science-7517-help /src/pages/aqa-a-level-computer-science-7517-help.html 200
+/aqa-a-level-computer-science-7517-help.md /src/pages/aqa-a-level-computer-science-7517-help.md 200
 /* /src/pages/404.html 404

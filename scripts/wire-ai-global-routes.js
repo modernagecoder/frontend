@@ -202,6 +202,7 @@ const SLUGS = [
   'aqa-gcse-computer-science-8525-help',
   'ocr-gcse-computer-science-j277-help',
   'edexcel-gcse-computer-science-1cp2-help',
+  'aqa-a-level-computer-science-7517-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -483,6 +484,7 @@ const LLMS_LABELS = {
   'aqa-gcse-computer-science-8525-help': 'AQA GCSE Computer Science 8525 help',
   'ocr-gcse-computer-science-j277-help': 'OCR GCSE Computer Science J277 help',
   'edexcel-gcse-computer-science-1cp2-help': 'Edexcel GCSE Computer Science 1CP2 help',
+  'aqa-a-level-computer-science-7517-help': 'AQA A-level Computer Science 7517 help',
 };
 
 function wireLlms(slugs) {

@@ -418,6 +418,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - AQA GCSE Computer Science 8525 help: https://learn.modernagecoders.com/aqa-gcse-computer-science-8525-help
 - OCR GCSE Computer Science J277 help: https://learn.modernagecoders.com/ocr-gcse-computer-science-j277-help
 - Edexcel GCSE Computer Science 1CP2 help: https://learn.modernagecoders.com/edexcel-gcse-computer-science-1cp2-help
+- AQA A-level Computer Science 7517 help: https://learn.modernagecoders.com/aqa-a-level-computer-science-7517-help
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
