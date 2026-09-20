@@ -186,6 +186,7 @@ const SLUGS = [
   'coolest-projects-uk-project-ideas',
   'big-bang-competition-project-help',
   'first-lego-league-uk-coding-help',
+  'sentinus-young-innovators-coding-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -451,6 +452,7 @@ const LLMS_LABELS = {
   'coolest-projects-uk-project-ideas': 'Coolest Projects UK project ideas',
   'big-bang-competition-project-help': 'Big Bang Competition project help',
   'first-lego-league-uk-coding-help': 'FIRST LEGO League UK coding help',
+  'sentinus-young-innovators-coding-help': 'Sentinus Young Innovators coding help',
 };
 
 function wireLlms(slugs) {
