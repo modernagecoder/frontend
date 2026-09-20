@@ -90,7 +90,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 38 | ai-classes-for-kids-uk (aku, #6A3D1B) | door | 3,587 | 3% vs best-python-classes-online-uk | one sentence the Government has already written down | a public commitment that has not yet reached a classroom | bc138037 |
 | 39 | online-coding-tutor-uk (ocu, #342442) | door | 3,644 | 3.1% vs ai-classes-for-kids-uk | the question a parent could not ask until January | a safeguarding mechanism that changed this year, applied to ourselves too | 38b709ea |
 | 40 | understand-the-code-dont-copy-paste-uk (ucp, #4E0E0E) | door | 3,798 | 2.1% vs best-coding-classes-for-teens-uk | acknowledged is not the same as rewarded | a rule whose second clause is the one that matters | 35d9bafb |
-| 41 | problem-solving-skills-through-coding-uk (psc, #883A88) | door | 3,810 | 2.4% vs understand-the-code-dont-copy-paste-uk | the transfer claim we will not make | a marketing claim the evidence does not support | (this commit) |
+| 41 | problem-solving-skills-through-coding-uk (psc, #883A88) | door | 3,810 | 2.4% vs understand-the-code-dont-copy-paste-uk | the transfer claim we will not make | a marketing claim the evidence does not support | b87e1d12 |
+| 42 | learn-to-think-not-just-use-ai-tools-uk (ltt, #79152E) | door | 3,705 | 2.9% vs problem-solving-skills-through-coding-uk | five assumptions that broke | a published framework whose shape makes the argument | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
