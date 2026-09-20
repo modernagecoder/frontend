@@ -180,6 +180,7 @@ const SLUGS = [
   'ukmt-team-maths-challenge-practice',
   'perse-coding-team-challenge-preparation',
   'national-cipher-challenge-preparation',
+  'cyberfirst-girls-competition-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -439,6 +440,7 @@ const LLMS_LABELS = {
   'ukmt-team-maths-challenge-practice': 'UKMT Team Maths Challenge practice',
   'perse-coding-team-challenge-preparation': 'Perse Coding Team Challenge preparation',
   'national-cipher-challenge-preparation': 'National Cipher Challenge preparation',
+  'cyberfirst-girls-competition-preparation': 'CyberFirst Girls Competition preparation',
 };
 
 function wireLlms(slugs) {

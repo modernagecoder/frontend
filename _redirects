@@ -3168,4 +3168,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /national-cipher-challenge-preparation /src/pages/national-cipher-challenge-preparation.html 200
 /national-cipher-challenge-preparation.md /src/pages/national-cipher-challenge-preparation.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/cyberfirst-girls-competition-preparation /src/pages/cyberfirst-girls-competition-preparation.html 200
+/cyberfirst-girls-competition-preparation.md /src/pages/cyberfirst-girls-competition-preparation.md 200
 /* /src/pages/404.html 404
