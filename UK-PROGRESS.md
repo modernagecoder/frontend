@@ -96,7 +96,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 44 | aqa-gcse-computer-science-8525-help (aqg, #394060) | exam door | 3,499 | 3.1% vs learn-to-think-not-just-use-ai-tools-uk | three notations, one paper | an exam whose hardest requirement is notational | 692ca892 |
 | 45 | ocr-gcse-computer-science-j277-help (ocj, #3D665C) | exam door | 3,525 | 3.6% vs aqa-gcse-computer-science-8525-help | the column nobody reads | an exam board that publishes its own limits | 72991232 |
 | 46 | edexcel-gcse-computer-science-1cp2-help (edx, #4E360E) | exam door | 3,616 | 3.2% vs ocr-gcse-computer-science-j277-help | five questions, five topics, nowhere to hide | an assessment whose structure dictates the revision plan | 62e40bf6 |
-| 47 | aqa-a-level-computer-science-7517-help (aqa, #5C2E8A) | exam door | 3,417 | 4.2% vs edexcel-gcse-computer-science-1cp2-help | you meet the codebase before the exam, and you did not write it | an exam that tests navigating somebody else's work | (this commit) |
+| 47 | aqa-a-level-computer-science-7517-help (aqa, #5C2E8A) | exam door | 3,417 | 4.2% vs edexcel-gcse-computer-science-1cp2-help | you meet the codebase before the exam, and you did not write it | an exam that tests navigating somebody else's work | 00581c2e |
+| 48 | choosing-gcse-computer-science-year-9-options (yno, #A51D31) | door | 3,647 | 3.9% vs aqa-a-level-computer-science-7517-help | the form records a decision made two years earlier | a decision whose real timing sits years before the form | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -11994,6 +11994,18 @@
   to = "/src/pages/aqa-a-level-computer-science-7517-help.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/choosing-gcse-computer-science-year-9-options"
+  to = "/src/pages/choosing-gcse-computer-science-year-9-options.html"
+  status = 200
+
+[[redirects]]
+  from = "/choosing-gcse-computer-science-year-9-options.md"
+  to = "/src/pages/choosing-gcse-computer-science-year-9-options.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
