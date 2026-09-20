@@ -38,6 +38,10 @@ module.exports = {
   accent: '#2263A0',
   accentRationale: 'UK hub: a deep ink blue from the solver (5.07:1 on every paper tint), clear of every Irish accent and of the Birmingham and Leicester pages it links to',
   pageType: 'city',
+  // This page is the en-GB member of the country hreflang cluster in content/markets.json.
+  // The old cp- template carried the alternates; the cg- rebuild must too, or
+  // scripts/verify-hreflang.js fails the Netlify build, which is exactly what happened.
+  hreflangCluster: true,
   place: {
     name: 'United Kingdom',
     eyebrow: 'England, Scotland, Wales and Northern Ireland',

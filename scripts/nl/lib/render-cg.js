@@ -18,6 +18,20 @@ const { course } = require('./catalogue');
 const ROOT = path.resolve(__dirname, '..', '..', '..');
 const BRAND = JSON.parse(fs.readFileSync(path.join(ROOT, 'scripts', 'brand-facts.json'), 'utf8'));
 const SITE = 'https://learn.modernagecoders.com';
+
+// A page that belongs to the country hreflang cluster must carry the whole set, because
+// Google ignores an hreflang link that has no return link: a half-applied set is worse
+// than none, and scripts/verify-hreflang.js fails the build over it. The set is read from
+// content/markets.json rather than written into any page, so adding a market updates every
+// member at the next build. Opt in with `hreflangCluster: true` on the page module.
+function hreflangLinks(page) {
+  if (!page.hreflangCluster) return '';
+  const m = JSON.parse(fs.readFileSync(path.join(ROOT, 'content', 'markets.json'), 'utf8'));
+  const rows = m.markets.map((x) => [x.hreflang, x.path]).concat([['x-default', m.xDefault]]);
+  return rows
+    .map(([code, p]) => `  <link rel="alternate" hreflang="${code}" href="${SITE}${p === '/' ? '' : p}">`)
+    .join('\n') + '\n';
+}
 const WA = 'https://wa.me/919123366161?text=';
 
 // The six approved reviews, verbatim (build guide section 7). Never edited.
@@ -150,7 +164,7 @@ function render(page) {
   <title>${esc(page.title)}</title>
   <meta name="description" content="${esc(page.description)}">
   <link rel="canonical" href="${url}">
-  <link rel="alternate" type="text/markdown" href="/src/pages/${page.slug}.md" title="Markdown version for AI agents">
+${hreflangLinks(page)}  <link rel="alternate" type="text/markdown" href="/src/pages/${page.slug}.md" title="Markdown version for AI agents">
   <link rel="stylesheet" href="/css/coding-global.css?v=${page.cssVersion || '20260907'}">
   <style>
 ${page.personalityCss.trim()}
