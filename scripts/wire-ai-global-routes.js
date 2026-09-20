@@ -176,6 +176,7 @@ const SLUGS = [
   'intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation',
   'british-mathematical-olympiad-bmo-preparation',
   'mathematical-olympiad-for-girls-preparation',
+  'ukmt-kangaroo-rounds-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -431,6 +432,7 @@ const LLMS_LABELS = {
   'intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation': 'Cayley, Hamilton and Maclaurin olympiad preparation',
   'british-mathematical-olympiad-bmo-preparation': 'British Mathematical Olympiad preparation',
   'mathematical-olympiad-for-girls-preparation': 'Mathematical Olympiad for Girls preparation',
+  'ukmt-kangaroo-rounds-practice': 'UKMT Kangaroo rounds practice',
 };
 
 function wireLlms(slugs) {
