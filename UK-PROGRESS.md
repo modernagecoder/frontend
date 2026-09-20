@@ -91,7 +91,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 39 | online-coding-tutor-uk (ocu, #342442) | door | 3,644 | 3.1% vs ai-classes-for-kids-uk | the question a parent could not ask until January | a safeguarding mechanism that changed this year, applied to ourselves too | 38b709ea |
 | 40 | understand-the-code-dont-copy-paste-uk (ucp, #4E0E0E) | door | 3,798 | 2.1% vs best-coding-classes-for-teens-uk | acknowledged is not the same as rewarded | a rule whose second clause is the one that matters | 35d9bafb |
 | 41 | problem-solving-skills-through-coding-uk (psc, #883A88) | door | 3,810 | 2.4% vs understand-the-code-dont-copy-paste-uk | the transfer claim we will not make | a marketing claim the evidence does not support | b87e1d12 |
-| 42 | learn-to-think-not-just-use-ai-tools-uk (ltt, #79152E) | door | 3,705 | 2.9% vs problem-solving-skills-through-coding-uk | five assumptions that broke | a published framework whose shape makes the argument | (this commit) |
+| 42 | learn-to-think-not-just-use-ai-tools-uk (ltt, #79152E) | door | 3,705 | 2.9% vs problem-solving-skills-through-coding-uk | five assumptions that broke | a published framework whose shape makes the argument | 2ffc17dc |
+| 43 | learn-to-train-ai-not-just-prompt-it-uk (ltr, #557114) | door | 3,705 | 2.8% vs problem-solving-skills-through-coding-uk | you cannot audit a prompt | an accountability vocabulary that only applies on one side of a line | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

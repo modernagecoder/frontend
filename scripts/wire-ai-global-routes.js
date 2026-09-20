@@ -198,6 +198,7 @@ const SLUGS = [
   'understand-the-code-dont-copy-paste-uk',
   'problem-solving-skills-through-coding-uk',
   'learn-to-think-not-just-use-ai-tools-uk',
+  'learn-to-train-ai-not-just-prompt-it-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -475,6 +476,7 @@ const LLMS_LABELS = {
   'understand-the-code-dont-copy-paste-uk': 'Understand the code, do not copy-paste it',
   'problem-solving-skills-through-coding-uk': 'Problem-solving skills through coding',
   'learn-to-think-not-just-use-ai-tools-uk': 'Learn to think, not just use AI tools',
+  'learn-to-train-ai-not-just-prompt-it-uk': 'Learn to train AI, not just prompt it',
 };
 
 function wireLlms(slugs) {
