@@ -119,26 +119,26 @@ For us it changes how we place a learner. We do not ask which key stage a child 
 
 The same approach runs through every nation on this site. The [UK page](/coding-classes-in-united-kingdom) sets out all four school systems and what a single birthday does under each of them.
 
-## Twenty-two principal areas, 3,107,513 people, one lesson
+## Twenty-two principal areas, 3,107,500 people, one lesson
 
-Census 2021 usual residents from the Office for National Statistics. Online teaching makes all twenty-two the same distance away.
+Usual residents at Census 2021, from the Office for National Statistics. Online teaching puts all twenty-two the same distance from a teacher.
 
 **The largest Welsh principal areas at Census 2021**
 
 | Principal area | Usual residents | Principal area | Usual residents |
 |---|---|---|---|
-| Cardiff | 362,310 | Powys | 133,169 |
-| Swansea | 238,491 | Vale of Glamorgan | 131,939 |
-| Rhondda Cynon Taff | 237,653 | Pembrokeshire | 123,359 |
-| Carmarthenshire | 187,898 | Gwynedd | 117,392 |
-| Caerphilly | 175,955 | Conwy | 114,743 |
-| Newport | 159,592 | Denbighshire | 95,820 |
-| Flintshire | 154,960 | Monmouthshire | 92,960 |
-| Bridgend | 145,490 | Torfaen | 92,276 |
-| Neath Port Talbot | 142,290 | Ceredigion | 71,473 |
-| Wrexham | 135,122 | Isle of Anglesey | 68,879 |
+| Cardiff | 362,308 | Powys | 133,169 |
+| Swansea | 238,490 | Vale of Glamorgan | 131,939 |
+| Rhondda Cynon Taff | 237,651 | Pembrokeshire | 123,360 |
+| Carmarthenshire | 187,897 | Gwynedd | 117,393 |
+| Caerphilly | 175,952 | Conwy | 114,741 |
+| Newport | 159,592 | Denbighshire | 95,817 |
+| Flintshire | 154,962 | Monmouthshire | 92,957 |
+| Bridgend | 145,488 | Torfaen | 92,276 |
+| Neath Port Talbot | 142,289 | Ceredigion | 71,475 |
+| Wrexham | 135,117 | Isle of Anglesey | 68,878 |
 
-Those twenty-two areas hold 3,107,513 people between them, and the distribution is the reason online teaching suits Wales unusually well. Cardiff and Swansea together are under a fifth of the population; the rest is spread across valleys and coastline where an after-school class within reach is a real constraint rather than a preference.
+ONS puts the population of Wales at 3,107,500 on census day, 21 March 2021, and warns that its rounded figures "may not add exactly because of this rounding". The twenty principal areas above are reproduced as the census publishes them and are deliberately not totalled here, because adding published parts to assert a whole is how a tidy sentence turns into a false one. What the distribution shows is clear enough without arithmetic: Cardiff and Swansea together are under a fifth of the country, and the rest is spread down valleys and along coastline where a class within driving distance is a genuine constraint.
 
 A learner in Ceredigion or on Anglesey has the same teacher, at the same hour, as one in Cardiff. That is the whole argument, and it is a stronger one here than in most places.
 
@@ -146,7 +146,7 @@ We teach in English. Welsh-medium and bilingual education is a substantial part 
 
 Everything else about the offer is as elsewhere: [the UK page](/coding-classes-in-united-kingdom) lists every page in this series, and the [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) covers what a Welsh pupil can enter.
 
-**Source** Population figures: Office for National Statistics, Census 2021 usual residents by local authority, via Nomis. Qualification facts: WJEC's GCSE Computer Science qualification outline and its GCSE Digital Technology pages. Curriculum structure: Hwb, Welsh Government. All read 20 September 2026.
+**Source** Population: Office for National Statistics, Population and household estimates, England and Wales, Census 2021, for the figure for Wales, and ONS Census 2021 usual residents by local authority via Nomis for the principal areas. Qualification facts: WJEC's GCSE Computer Science qualification outline and its GCSE Digital Technology pages. Curriculum structure: Hwb, Welsh Government. All read 20 September 2026.
 
 ## From a first program to a Python exam sat on screen
 

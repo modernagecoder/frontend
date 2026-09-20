@@ -21,8 +21,13 @@
 //  - Hwb (Welsh Government): the Curriculum for Wales runs on six Areas of Learning and Experience and
 //    progression steps rather than key stages; Science and Technology "draws on the disciplines of
 //    biology, chemistry, computer science, design and technology, and physics".
-//  - ONS Census 2021 via Nomis: the 22 Welsh principal areas hold 3,107,513 usual residents, from
-//    Cardiff at 362,310 to Merthyr Tydfil at 58,839.
+//  - ONS, Population and household estimates, England and Wales: Census 2021: "3,107,500 people in
+//    Wales" on census day 21 March 2021, with ONS's own note that rounded figures "may not add exactly
+//    because of this rounding". Principal-area figures pulled from Nomis table NM_2021_1 on the same
+//    day: Cardiff 362,308 down to Merthyr Tydfil 58,836. Those 22 rows sum to 3,107,491, three short of
+//    the 3,107,494 the same dataset gives for Wales as a whole, because disclosure control is applied to
+//    each geography independently. The page therefore prints ONS's published Wales figure, prints the
+//    principal areas as published, and never adds them up.
 // Spine: a year with the brief, and nothing you may carry in. Wales hands Unit 2 candidates the scenario
 // a full academic year early, lets them work on it individually and in groups, and then bars every page
 // of that work from the examination room. Preparation that lives on paper is wasted; preparation that
@@ -146,26 +151,26 @@ module.exports = {
     },
     {
       id: 'wales', tint: '', eyebrow: 'Across Wales',
-      h2: 'Twenty-two principal areas, 3,107,513 people, one lesson',
-      intro: 'Census 2021 usual residents from the Office for National Statistics. Online teaching makes all twenty-two the same distance away.',
+      h2: 'Twenty-two principal areas, 3,107,500 people, one lesson',
+      intro: 'Usual residents at Census 2021, from the Office for National Statistics. Online teaching puts all twenty-two the same distance from a teacher.',
       body: [
         { kind: 'table', caption: 'The largest Welsh principal areas at Census 2021', head: ['Principal area', 'Usual residents', 'Principal area', 'Usual residents'], rows: [
-          ['Cardiff', '362,310', 'Powys', '133,169'],
-          ['Swansea', '238,491', 'Vale of Glamorgan', '131,939'],
-          ['Rhondda Cynon Taff', '237,653', 'Pembrokeshire', '123,359'],
-          ['Carmarthenshire', '187,898', 'Gwynedd', '117,392'],
-          ['Caerphilly', '175,955', 'Conwy', '114,743'],
-          ['Newport', '159,592', 'Denbighshire', '95,820'],
-          ['Flintshire', '154,960', 'Monmouthshire', '92,960'],
-          ['Bridgend', '145,490', 'Torfaen', '92,276'],
-          ['Neath Port Talbot', '142,290', 'Ceredigion', '71,473'],
-          ['Wrexham', '135,122', 'Isle of Anglesey', '68,879']
+          ['Cardiff', '362,308', 'Powys', '133,169'],
+          ['Swansea', '238,490', 'Vale of Glamorgan', '131,939'],
+          ['Rhondda Cynon Taff', '237,651', 'Pembrokeshire', '123,360'],
+          ['Carmarthenshire', '187,897', 'Gwynedd', '117,393'],
+          ['Caerphilly', '175,952', 'Conwy', '114,741'],
+          ['Newport', '159,592', 'Denbighshire', '95,817'],
+          ['Flintshire', '154,962', 'Monmouthshire', '92,957'],
+          ['Bridgend', '145,488', 'Torfaen', '92,276'],
+          ['Neath Port Talbot', '142,289', 'Ceredigion', '71,475'],
+          ['Wrexham', '135,117', 'Isle of Anglesey', '68,878']
         ] },
-        { kind: 'p', text: 'Those twenty-two areas hold 3,107,513 people between them, and the distribution is the reason online teaching suits Wales unusually well. Cardiff and Swansea together are under a fifth of the population; the rest is spread across valleys and coastline where an after-school class within reach is a real constraint rather than a preference.' },
+        { kind: 'p', text: 'ONS puts the population of Wales at 3,107,500 on census day, 21 March 2021, and warns that its rounded figures "may not add exactly because of this rounding". The twenty principal areas above are reproduced as the census publishes them and are deliberately not totalled here, because adding published parts to assert a whole is how a tidy sentence turns into a false one. What the distribution shows is clear enough without arithmetic: Cardiff and Swansea together are under a fifth of the country, and the rest is spread down valleys and along coastline where a class within driving distance is a genuine constraint.' },
         { kind: 'p', text: 'A learner in Ceredigion or on Anglesey has the same teacher, at the same hour, as one in Cardiff. That is the whole argument, and it is a stronger one here than in most places.' },
         { kind: 'p', text: 'We teach in English. Welsh-medium and bilingual education is a substantial part of Welsh schooling and we are not equipped to teach through Welsh, which we would rather say plainly than leave a family to discover.' },
         { kind: 'p', text: 'Everything else about the offer is as elsewhere: <a class="cg-inline-link" href="/coding-classes-in-united-kingdom">the UK page</a> lists every page in this series, and the <a class="cg-inline-link" href="/uk-coding-maths-and-ai-competitions-calendar">competitions calendar</a> covers what a Welsh pupil can enter.' },
-        { kind: 'spec', title: 'Source', p: 'Population figures: Office for National Statistics, Census 2021 usual residents by local authority, via Nomis. Qualification facts: WJEC\'s GCSE Computer Science qualification outline and its GCSE Digital Technology pages. Curriculum structure: Hwb, Welsh Government. All read 20 September 2026.' }
+        { kind: 'spec', title: 'Source', p: 'Population: Office for National Statistics, Population and household estimates, England and Wales, Census 2021, for the figure for Wales, and ONS Census 2021 usual residents by local authority via Nomis for the principal areas. Qualification facts: WJEC\'s GCSE Computer Science qualification outline and its GCSE Digital Technology pages. Curriculum structure: Hwb, Welsh Government. All read 20 September 2026.' }
       ]
     }
   ],
@@ -269,10 +274,10 @@ module.exports = {
 `,
 
   dossier: {
-    curriculumAuthority: 'Wales. WJEC GCSE Computer Science Qualification Outline version 1.4, "Made for Wales. Ready for the world.", first teaching September 2025, written to Qualifications Wales approval criteria: "This is a unitised qualification"; Unit 1 Understanding Computer Science is a "digital only examination, marked by WJEC" worth 50 per cent, suggested "no longer than 1 hour and 45 minutes", first available 2026; Unit 2 Computer Programming is an "on-screen examination, marked by WJEC" worth 50 per cent, suggested "no longer than 2 hours", first available 2027, and "must be completed in the final year of study"; "The language used in the examination will be Python"; "There will be no optionality and no tiering"; assessment objectives Unit 1 AO1 30 per cent, AO2 15, AO3 5 and Unit 2 AO1 0, AO2 25, AO3 25; the pre-release brief is "issued to centres in the academic year before the assessment is scheduled to take place (for example, September 2025 for the 2027 examination)", "will consist of a scenario containing a list of requirements and provides information about all tasks learners must undertake both individually and in groups", "Work completed on the pre-release brief prior to the assessment will not be formally assessed and nor will it contribute to the final grade", and "Learners may not take any work already done on the pre-release brief into the assessment". WJEC GCSE Digital Technology: teaching from 2026, first award 2028. Hwb, Welsh Government: the Curriculum for Wales uses six Areas of Learning and Experience and progression steps rather than key stages; Science and Technology "draws on the disciplines of biology, chemistry, computer science, design and technology, and physics". ONS Census 2021 usual residents via Nomis for the 22 Welsh principal areas, totalling 3,107,513: Cardiff 362,310; Swansea 238,491; Rhondda Cynon Taff 237,653; Carmarthenshire 187,898; Caerphilly 175,955; Newport 159,592; Flintshire 154,960; Bridgend 145,490; Neath Port Talbot 142,290; Wrexham 135,122; Powys 133,169; Vale of Glamorgan 131,939; Pembrokeshire 123,359; Gwynedd 117,392; Conwy 114,743; Denbighshire 95,820; Monmouthshire 92,960; Torfaen 92,276; Ceredigion 71,473; Isle of Anglesey 68,879; Blaenau Gwent 66,903; Merthyr Tydfil 58,839.',
+    curriculumAuthority: 'Wales. WJEC GCSE Computer Science Qualification Outline version 1.4, "Made for Wales. Ready for the world.", first teaching September 2025, written to Qualifications Wales approval criteria: "This is a unitised qualification"; Unit 1 Understanding Computer Science is a "digital only examination, marked by WJEC" worth 50 per cent, suggested "no longer than 1 hour and 45 minutes", first available 2026; Unit 2 Computer Programming is an "on-screen examination, marked by WJEC" worth 50 per cent, suggested "no longer than 2 hours", first available 2027, and "must be completed in the final year of study"; "The language used in the examination will be Python"; "There will be no optionality and no tiering"; assessment objectives Unit 1 AO1 30 per cent, AO2 15, AO3 5 and Unit 2 AO1 0, AO2 25, AO3 25; the pre-release brief is "issued to centres in the academic year before the assessment is scheduled to take place (for example, September 2025 for the 2027 examination)", "will consist of a scenario containing a list of requirements and provides information about all tasks learners must undertake both individually and in groups", "Work completed on the pre-release brief prior to the assessment will not be formally assessed and nor will it contribute to the final grade", and "Learners may not take any work already done on the pre-release brief into the assessment". WJEC GCSE Digital Technology: teaching from 2026, first award 2028. Hwb, Welsh Government: the Curriculum for Wales uses six Areas of Learning and Experience and progression steps rather than key stages; Science and Technology "draws on the disciplines of biology, chemistry, computer science, design and technology, and physics". ONS, Population and household estimates, England and Wales: Census 2021: "3,107,500 people in Wales" on census day 21 March 2021, published with the note that rounded figures "may not add exactly because of this rounding". ONS Census 2021 usual residents by local authority via Nomis (NM_2021_1) for the 22 Welsh principal areas: Cardiff 362,308; Swansea 238,490; Rhondda Cynon Taff 237,651; Carmarthenshire 187,897; Caerphilly 175,952; Newport 159,592; Flintshire 154,962; Bridgend 145,488; Neath Port Talbot 142,289; Wrexham 135,117; Powys 133,169; Vale of Glamorgan 131,939; Pembrokeshire 123,360; Gwynedd 117,393; Conwy 114,741; Denbighshire 95,817; Monmouthshire 92,957; Torfaen 92,276; Ceredigion 71,475; Isle of Anglesey 68,878; Blaenau Gwent 66,904; Merthyr Tydfil 58,836. Those rows sum to 3,107,491 against the 3,107,494 the same dataset returns for Wales, because disclosure control is applied per geography, so the page never totals them.',
     localProject: 'A year with the brief, and nothing you may carry in. Wales issues the Unit 2 pre-release scenario a full academic year before the examination, invites individual and group work on it, then bars every page of that work from the room and awards it no marks. The page turns that rule into a method: build the scenario, set it aside, rebuild it from memory, because only fluency survives the door. It also reads the assessment objectives across the two units to show why, Unit 1 carrying all 30 per cent of the AO1 recall and Unit 2 carrying none, so every Unit 2 mark is for applying and analysing under a clock. AI angle: an assistant can write the pre-release solution and cannot sit the examination, which makes Wales an unusually honest test of what a student can produce unaided. Lesson family: an assessment that separates preparation from performance; distinct from the English NEA pages, which concern acknowledgement and malpractice rather than confiscation.',
     requiredMentions: [
-      '3,107,513',
+      '3,107,500',
       'no optionality and no tiering',
       'the language used in the examination will be Python',
       'September 2025 for the 2027 examination',
@@ -288,7 +293,8 @@ module.exports = {
       { claim: 'WJEC: GCSE Computer Science teaching from 2025, supporting the Curriculum for Wales.', url: 'https://www.wjec.co.uk/qualifications/gcse-computer-science-teaching-from-2025/' },
       { claim: 'WJEC: GCSE Digital Technology, teaching from 2026, first award 2028.', url: 'https://www.wjec.co.uk/qualifications/gcse-digital-technology-teaching-from-2026/' },
       { claim: 'Hwb, Welsh Government: Curriculum for Wales, Areas of Learning and Experience, progression steps, and the disciplines Science and Technology draws on.', url: 'https://hwb.gov.wales/curriculum-for-wales/science-and-technology/' },
-      { claim: 'ONS Census 2021 usual residents for the 22 Welsh principal areas, via Nomis.', url: 'https://www.nomisweb.co.uk/' }
+      { claim: 'ONS Census 2021 usual residents for the 22 Welsh principal areas, via Nomis table NM_2021_1.', url: 'https://www.nomisweb.co.uk/' },
+      { claim: 'ONS published figure for Wales at Census 2021 and the rounding note.', url: 'https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/populationandhouseholdestimatesenglandandwales/census2021' }
     ],
     rejectedClaims: [
       'The exact number of Welsh-medium and bilingual schools: not read at a primary source for this build, so the page says only that we teach in English and does not quantify Welsh-medium provision.',
