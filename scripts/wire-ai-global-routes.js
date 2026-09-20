@@ -189,6 +189,7 @@ const SLUGS = [
   'sentinus-young-innovators-coding-help',
   'student-hackathons-uk',
   'first-competitions-for-primary-school-children-uk',
+  'maths-olympiad-training-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -457,6 +458,7 @@ const LLMS_LABELS = {
   'sentinus-young-innovators-coding-help': 'Sentinus Young Innovators coding help',
   'student-hackathons-uk': 'Student hackathons in the UK',
   'first-competitions-for-primary-school-children-uk': 'First competitions for primary school children',
+  'maths-olympiad-training-uk': 'Maths olympiad training in the UK',
 };
 
 function wireLlms(slugs) {
