@@ -97,7 +97,7 @@
      * purpose: only lead submissions are touched, never payments or any other
      * API call.
      */
-    var LEAD_ENDPOINT_RE = /\/api\/(contact|callback|business[-_]?solution|corporate[-_]?training)\b/i;
+    var LEAD_ENDPOINT_RE = /\/api\/(contact|callback|leads|business[-_]?solution|corporate[-_]?training)\b/i;
 
     /**
      * ADD ATTRIBUTION TO A REQUEST BODY

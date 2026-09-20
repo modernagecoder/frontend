@@ -164,5 +164,46 @@ const tick = (ms) => new Promise((r) => setTimeout(r, ms));
     assert.ok(!wi.__calls.find((c) => /demo-choice/.test(String(c.input))), 'nothing recorded in direct mode');
   }
 
+  // 6. The age and board-prep landing pages post to /api/leads; that opens the chooser too.
+  {
+    const w = makeWindow({ isIndian: true });
+    await w.fetch('https://backend-modernagecoders.vercel.app/api/leads', { method: 'POST', body: JSON.stringify({ name: 'Asha', phone: '9876543210', email: 'a@example.com', source: 'coding-for-10-year-olds' }) });
+    await tick(500);
+    const ov = w.document.querySelector('.mac-dc-overlay');
+    assert.ok(ov, '/api/leads opens the chooser');
+    ov.querySelector('[data-action="paid"]').click();
+    assert.strictEqual(ov.querySelector('#macDcPhone').value, '9876543210', 'phone prefilled from the leads body');
+    const rec = JSON.parse(w.sessionStorage.getItem('mac_demo_choice'));
+    assert.strictEqual(rec.kind, 'contact'); assert.strictEqual(rec.lid, LEAD_ID);
+  }
+
+  // 7. A WhatsApp-only demo form still saves a lead and opens the chooser.
+  {
+    const w = makeWindow({ isIndian: true, body: '<form id="demoForm"><input type="text" id="pname" value="Ravi"><input type="tel" id="pphone" value="9876543210"><select id="plevel"><option selected>Child 8-12</option></select></form>' });
+    const form = w.document.getElementById('demoForm');
+    form.addEventListener('submit', (e) => e.preventDefault());
+    form.dispatchEvent(new w.Event('submit', { bubbles: true, cancelable: true }));
+    await tick(500);
+    const call = w.__calls.find((c) => /callback\/request/.test(String(c.input)));
+    assert.ok(call, 'the number is saved as a callback request');
+    const sent = JSON.parse(call.init.body);
+    assert.strictEqual(sent.phone, '9876543210');
+    assert.ok(/Ravi/.test(sent.note) && /Child 8-12/.test(sent.note), 'note carries what they typed: ' + sent.note);
+    assert.ok(w.document.querySelector('.mac-dc-overlay'), 'chooser opens for the WhatsApp form');
+    form.dispatchEvent(new w.Event('submit', { bubbles: true, cancelable: true }));
+    await tick(50);
+    assert.strictEqual(w.__calls.filter((c) => /callback\/request/.test(String(c.input))).length, 1, 'a double submit is recorded once');
+
+    // An invalid number records nothing, and a form that posts to the API itself is left alone.
+    const w2 = makeWindow({ body: '<form id="demoForm"><input type="tel" value="123"></form>' });
+    w2.document.getElementById('demoForm').dispatchEvent(new w2.Event('submit', { bubbles: true, cancelable: true }));
+    await tick(50);
+    assert.strictEqual(w2.__calls.length, 0, 'invalid number is not sent');
+    const w3 = makeWindow({ body: '<form id="demoForm"><input type="tel" value="9876543210"></form><script>var u="/api/contact/submit";</' + 'script>' });
+    w3.document.getElementById('demoForm').dispatchEvent(new w3.Event('submit', { bubbles: true, cancelable: true }));
+    await tick(50);
+    assert.strictEqual(w3.__calls.length, 0, 'API-backed form is not double recorded');
+  }
+
   console.log('demo-choice: all checks pass');
 })().catch((e) => { console.error(e); process.exit(1); });

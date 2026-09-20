@@ -61,7 +61,9 @@
         USD: { currency: 'USD', amount: 10, display: '$10' }
     };
 
-    var LEAD_ENDPOINT_RE = /\/api\/(contact\/submit|callback\/request)\b/i;
+    // /api/leads is the demo form on the age and board-prep landing pages. The
+    // server maps it onto an ordinary enquiry and answers with a contactId.
+    var LEAD_ENDPOINT_RE = /\/api\/(contact\/submit|callback\/request|leads)\b/i;
     var WA_NUMBER = '919123366161';
     var RAZORPAY_SRC = 'https://checkout.razorpay.com/v1/checkout.js';
 
@@ -1093,9 +1095,66 @@
         };
     }
 
+    // ───────────────────────── WhatsApp-only forms ─────────────────────────
+
+    /**
+     * Some pages (the housing-society locality set) have a demo form that
+     * only opens WhatsApp with a prefilled message. Nothing reached the
+     * server, so if the parent never pressed send in WhatsApp the lead was
+     * gone, and no chooser appeared because no lead request was made.
+     *
+     * This saves the number as a callback request the moment such a form is
+     * submitted. The request goes through the hooked fetch above, so the
+     * chooser opens exactly as it does for every other form. The page's own
+     * handler still opens WhatsApp; this runs beside it and never blocks it.
+     *
+     * A form opts in by being #demoForm with a tel input, or by carrying
+     * data-mac-lead="whatsapp". Forms that already post to the API are left
+     * alone (they would otherwise be recorded twice).
+     */
+    function installWhatsAppBridge() {
+        document.addEventListener('submit', function (e) {
+            try {
+                var form = e.target;
+                if (!form || form.tagName !== 'FORM' || optedOut()) return;
+                var flagged = form.getAttribute('data-mac-lead') === 'whatsapp';
+                if (!flagged && form.id !== 'demoForm') return;
+                var tel = form.querySelector('input[type="tel"]');
+                if (!tel) return;
+                // A page whose own script posts to the API is not WhatsApp-only.
+                if (!flagged && /\/api\/(contact\/submit|callback\/request|leads)/.test(document.documentElement.innerHTML)) return;
+                if (form.__macBridged && (Date.now() - form.__macBridged) < 60000) return;
+
+                var cc = readPhone(tel);
+                if (!phoneValid(cc.digits, cc.iso)) return;
+                form.__macBridged = Date.now();
+
+                var bits = [];
+                var fields = form.querySelectorAll('input[type="text"], select, textarea');
+                for (var i = 0; i < fields.length && bits.length < 6; i++) {
+                    var v = String(fields[i].value || '').trim();
+                    if (v) bits.push(v);
+                }
+
+                fetch(apiUrl() + '/api/callback/request', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        phone: cc.digits,
+                        countryCode: cc.dial,
+                        countryIso: cc.iso,
+                        countryName: cc.name,
+                        note: ('WhatsApp demo form · ' + bits.join(' · ')).slice(0, 480)
+                    })
+                }).catch(function () { });
+            } catch (err) { /* never block the page's own submit handler */ }
+        }, false);
+    }
+
     // ───────────────────────── boot ─────────────────────────
 
     installFetchHook();
+    installWhatsAppBridge();
 
     function bootInline() {
         var mount = inlineMount();
@@ -1140,6 +1199,6 @@
             track('demo_priority_direct_open', { page: window.location.pathname });
         },
         prices: PRICES,
-        version: '20260919c'
+        version: '20260920a'
     };
 })();

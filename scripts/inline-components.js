@@ -43,7 +43,7 @@ const FOOTER_FILE = path.join(ROOT, 'components', 'footer.html');
 // copy after the price or the flow changes. Bump the date here AND in
 // src/pages/thank-you.html (the only page that references it by hand) when
 // the file changes.
-const DEMO_CHOICE_VERSION = '20260919c';
+const DEMO_CHOICE_VERSION = '20260920a';
 const GLOBAL_LEAD_SCRIPTS = [
     '/js/attribution.js',
     '/js/demo-slot-picker.js',
@@ -218,6 +218,16 @@ function inlineFile(filePath, navHtml, footerHtml) {
                 );
             }
         });
+    }
+
+    // 10. The nav's Request-a-Callback form needs callback-modal.js behind it.
+    //     Twelve pages (the category pages, /schools, /success-stories,
+    //     /free-resources, /search and others) carried the inlined form without
+    //     the script, so the phone button in the navbar could not submit at all.
+    //     Add it wherever the form exists and nothing else defines the handler.
+    if (/id=["']callbackForm["']/.test(content) && /<\/body>/i.test(content) &&
+        !/callback-modal\.js|mainbundle[^"']*\.js|function\s+submitCallback|submitCallback\s*=/.test(content)) {
+        content = content.replace(/<\/body>/i, '    <script src="/js/callback-modal.js?v=20260820a" defer></script>\n</body>');
     }
 
     // Write back if changed
