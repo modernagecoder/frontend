@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>National Cipher Challenge Preparation | Ten Challenges, A and B</title>
+  <meta name="description" content="Preparing for the National Cipher Challenge: ten challenges from September to January, who can win prizes, how accuracy is scored and why you write your own tools.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/national-cipher-challenge-preparation">
+  <link rel="alternate" type="text/markdown" href="/src/pages/national-cipher-challenge-preparation.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#3B1471">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/national-cipher-challenge-preparation">
+  <meta property="og:title" content="National Cipher Challenge Preparation | Ten Challenges, A and B">
+  <meta property="og:description" content="The National Cipher Challenge tells entrants to write their own software and not to use AI. That rule is the whole point, and it makes this a programming competition.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_GB">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="National Cipher Challenge Preparation">
+  <meta name="twitter:description" content="National Cipher Challenge preparation: ten challenges, your own tools, and no AI.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="GB">
+  <meta name="geo.placename" content="United Kingdom">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ncc .ag-hero h1 { letter-spacing: -0.02em; }
+.ag-root.ag-ncc .ag-capsule { border-left-width: 6px; border-radius: 0 3px 3px 0; }
+.ag-root.ag-ncc .ag-section-head h2 { max-width: 27ch; }
+.ag-root.ag-ncc .ag-table caption { text-align: left; font-weight: 700; font-size: 0.96em; }
+.ag-root.ag-ncc .ag-table td:first-child { font-weight: 600; }
+.ag-root.ag-ncc .ag-spec dt { letter-spacing: 0.115em; }
+.ag-root.ag-ncc .ag-three h3 { letter-spacing: -0.008em; }
+.ag-root.ag-ncc .ag-slots { gap: 1.45rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United Kingdom"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/national-cipher-challenge-preparation#page","url":"https://learn.modernagecoders.com/national-cipher-challenge-preparation","name":"National Cipher Challenge Preparation","description":"Preparation guidance for the University of Southampton National Cipher Challenge, covering the ten challenges, who qualifies for prizes, how accuracy and speed are scored, and the rules on tools and AI.","inLanguage":"en-GB","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"UK competitions calendar","item":"https://learn.modernagecoders.com/uk-coding-maths-and-ai-competitions-calendar"},{"@type":"ListItem","position":4,"name":"National Cipher Challenge","item":"https://learn.modernagecoders.com/national-cipher-challenge-preparation"}]},{"@type":"Course","name":"National Cipher Challenge Preparation","description":"Live online programming classes for school students who want to write their own cipher-breaking tools for the National Cipher Challenge.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/national-cipher-challenge-preparation"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/national-cipher-challenge-preparation"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/national-cipher-challenge-preparation"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Who runs the National Cipher Challenge?","acceptedAnswer":{"@type":"Answer","text":"The University of Southampton. The 2026-27 competition runs from September 2026 to January 2027, with prizegiving at Bletchley Park on 10 March."}},{"@type":"Question","name":"Who can enter and who can win?","acceptedAnswer":{"@type":"Answer","text":"The organiser says the competition is open to anyone, but only individuals in full-time school-level education in the UK and Channel Islands qualify for prizes. There is a separate leaderboard for teachers and alumni."}},{"@type":"Question","name":"Can my child enter alone?","acceptedAnswer":{"@type":"Answer","text":"Yes. Entries may come from individuals or from teams of any size, and the organiser only reserves the right to limit how many team members appear on the leaderboard."}},{"@type":"Question","name":"How many challenges are there?","acceptedAnswer":{"@type":"Answer","text":"Ten, each in two parts, A and B, released across the autumn term rather than sat in a single session."}},{"@type":"Question","name":"Is AI allowed?","acceptedAnswer":{"@type":"Answer","text":"No. The rules say plainly that you should not use deciphering tools found elsewhere on the web, nor use AI to decipher messages or to write software to do so, and that this can result in disqualification."}},{"@type":"Question","name":"What tools are allowed?","acceptedAnswer":{"@type":"Answer","text":"Spreadsheets, text editors, the software on the organiser's Official BOSS Deciphering Tools page, and any software the entrant writes themselves."}},{"@type":"Question","name":"How is it scored?","acceptedAnswer":{"@type":"Answer","text":"On the accuracy of an entrant's strongest submission for each challenge and the order in which submissions are received. Accuracy is measured with the Damerau-Levenshtein metric and time points come from a published schedule, and the organiser states that accuracy is more important than speed."}},{"@type":"Question","name":"Should we submit a partial decryption?","acceptedAnswer":{"@type":"Answer","text":"Yes. Because accuracy is measured as a distance from the true text rather than as right or wrong, a message that is mostly deciphered still scores."}},{"@type":"Question","name":"What is the first tool to build?","acceptedAnswer":{"@type":"Answer","text":"A letter counter. Count how often each letter appears in the ciphertext, compare with ordinary English frequencies, and try all 26 shifts. It is about fifteen lines of Python and everything later is built on top of it."}},{"@type":"Question","name":"Do you help with the live challenges?","acceptedAnswer":{"@type":"Answer","text":"No. We teach programming, and we do not decipher or assist with a live challenge message. Doing so would be against the competition's rules and against how we teach."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United Kingdom"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/national-cipher-challenge-preparation","availableLanguage":["en"]}}
+  </script>
+</head>
+
+<body class="ag-root ag-ncc">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">UK</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#challenge">The challenge</a></li>
+      <li><a href="#tools">Write your own tool</a></li>
+      <li><a href="#scoring">Accuracy and speed</a></li>
+      <li><a href="#catalogue">Courses</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/uk-coding-maths-and-ai-competitions-calendar">UK competitions calendar</a> / National Cipher Challenge
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United Kingdom &middot; School-level education &middot; September 2026 to January 2027</p>
+        <h1>National Cipher Challenge preparation</h1>
+        <p class="ag-lede">Most competitions tell you what you may not bring into the room. The National Cipher Challenge does something rarer: it tells you what to build. Entrants may use spreadsheets, text editors and the organiser's own tools, and "any software that you write yourself" &mdash; and they may not use deciphering tools found elsewhere online, or an AI to break a message or to write the software that breaks it. That single rule turns a puzzle competition into a programming one, and it is the reason this is such a rewarding way for a curious fourteen-year-old to spend an autumn term.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#tools" class="ag-btn ag-btn--ghost">See a first tool, written and run</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20doing%20the%20National%20Cipher%20Challenge%20and%20I%20would%20like%20a%20free%20coding%20class." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ncc'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Quoted from the organiser with the date we read it &middot; No challenge text reproduced &middot; Nothing promised about a placing</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Organiser</dt><dd>University of Southampton</dd>
+          <dt>Runs</dt><dd>September 2026 to January 2027</dd>
+          <dt>Challenges</dt><dd>Ten, each in parts A and B</dd>
+          <dt>Prizes open to</dt><dd>School-level education, UK and Channel Islands</dd>
+          <dt>Teams</dt><dd>Any size, or enter alone</dd>
+          <dt>Scored on</dt><dd>Accuracy first, then order received</dd>
+          <dt>AI</dt><dd>Not permitted, on pain of disqualification</dd>
+          <dt>Prizegiving</dt><dd>Bletchley Park, 10 March</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>The National Cipher Challenge is run from the University of Southampton and runs from "September 2026 - January 2027", with the prizegiving "at Bletchley Park on March 10th". There are ten challenges, each in two parts, A and B. "The competition is open to anyone but only individuals in full time school level education in the UK and Channel Islands qualify for prizes", and "entries may be received from individuals or from teams", which "may be of any size". Scoring uses the accuracy of an entrant's strongest submission for a challenge and the order in which submissions arrive, with accuracy measured by the Damerau-Levenshtein metric, and the organiser states plainly that "accuracy is more important than speed". Entrants may write their own software and may not use online deciphering tools or AI. We teach the programming that makes your own tools possible. The first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three courses for a cipher breaker</h2>
+      <p class="ag-lede">The competition is won by whoever can turn an idea into a working script the same evening.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">NCC / 01</p>
+          <h3>Python from start to finish</h3>
+          <p>The language almost every entrant uses: strings, counting, files and the loops that try every possibility.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">NCC / 02</p>
+          <h3>Python and AI for kids</h3>
+          <p>For a younger entrant meeting typed code for the first time this autumn.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-dsa-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-teens.webp" alt="Problem Solving for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">NCC / 03</p>
+          <h3>Algorithms and data structures</h3>
+          <p>For the later challenges, where a brute-force search has to be pruned before it finishes this century.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="challenge">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The competition</p><h2>Ten challenges, two parts each, one autumn term</h2><p class="ag-lede">Facts read at the organiser's own pages on 20 September 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The National Cipher Challenge as its organiser describes it</caption><thead><tr><th scope="col">Part</th><th scope="col">What the organiser says</th><th scope="col">What it means for an entrant</th></tr></thead><tbody><tr><td>Who runs it</td><td>The University of Southampton</td><td>An academic competition, not a commercial one</td></tr><tr><td>When</td><td>"September 2026 - January 2027"</td><td>A whole term, with challenges released across it</td></tr><tr><td>How many</td><td>Ten challenges, each in two parts, A and B</td><td>Part B is the harder half of each pair</td></tr><tr><td>Who can enter</td><td>"The competition is open to anyone but only individuals in full time school level education in the UK and Channel Islands qualify for prizes"</td><td>Anyone may play; prizes are for school-age entrants here</td></tr><tr><td>Alone or together</td><td>"Entries may be received from individuals or from teams. The teams may be of any size"</td><td>A club, a class or one pupil at a kitchen table</td></tr><tr><td>Adults</td><td>A teachers and alumni leaderboard exists for entrants who do not qualify for prizes</td><td>Parents and teachers can play without muddying the school table</td></tr><tr><td>The end</td><td>"Prizegiving at Bletchley Park on March 10th"</td><td>Gold and silver medals, with certificates for participants</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>A whole term is the feature. Unlike almost everything else on our <a class="ag-inline-link" href="/uk-coding-maths-and-ai-competitions-calendar">competitions calendar</a>, this is not an afternoon in a hall: challenges arrive through the autumn, and a pupil comes back to them across weeks. That suits a different sort of learner entirely, including several who do badly under a clock.</p>
+<p>It also means a school club has something to do every week from September, which is why so many computing departments build a lunchtime club around it.</p></div><div><p>Teams of any size is worth reading twice. A pupil can enter alone, with a friend, or as part of a whole class, and the organiser only reserves the right to limit how many names appear on the leaderboard. Nobody has to find three other people first.</p>
+<p>The prize fund is published by the organiser in pounds and we do not print it, as we do not print prices in two currencies anywhere. It is on the organiser's own site.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.cipherchallenge.org/" rel="noopener" target="_blank">the National Cipher Challenge</a> and its <a class="ag-inline-link" href="https://www.cipherchallenge.org/rules/" rel="noopener" target="_blank">rules</a>, read 20 September 2026. Modern Age Coders is not connected with the University of Southampton or the challenge.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="tools">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The method</p><h2>Write your own tool, because the rules say so</h2><p class="ag-lede">The tools rule is the most interesting sentence any UK competition publishes, and it deserves quoting in full.</p></div>
+    <p>"You may use spreadsheets and text editors to help you tackle the challenges and any software we provide on the Official BOSS Deciphering Tools page. You can also use any software that you write yourself. You should not use deciphering tools you find elsewhere on the web and nor should you use AI to decipher messages or to write software to do so. This can result in disqualification."</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>Read it as an instruction rather than a restriction. The organiser has drawn a line around exactly one kind of help: the kind you built. That makes the National Cipher Challenge, in practice, a programming competition with a historical costume on, and it is the only UK competition we know of that states an AI rule this plainly.</p>
+<p>It is also a rule with teeth, since it names disqualification. A pupil who pastes a message into a chatbot has not taken a shortcut; they have left the competition.</p></div><div><p>The good news is that a first useful tool is about fifteen lines long. Counting letters is enough to break the earliest challenges, and a pupil who writes that counter themselves has learned more in an evening than a term of watching videos would give them.</p>
+<p>Below is one we wrote to show what "your own tool" actually means at the start. Nothing here comes from a past challenge: the sentence is ours.</p></div></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our run of 20 September 2026: a sentence we wrote, shifted seven places, and a counter</caption><thead><tr><th scope="col">Step</th><th scope="col">What we did</th><th scope="col">What came back</th></tr></thead><tbody><tr><td>1. Make a message</td><td>Took a sentence of our own and shifted every letter seven places along the alphabet</td><td>The ciphertext begins "aol xbhspaf vm h jshzz"</td></tr><tr><td>2. Count the letters</td><td>Fifteen lines of Python counting how often each letter appears</td><td>L 15, H 15, A 13, V 11, S 10</td></tr><tr><td>3. Compare with English</td><td>Scored all 26 possible shifts against ordinary English letter frequencies</td><td>Shift 7 fits far better than any other</td></tr><tr><td>4. Undo it</td><td>Shifted back by seven</td><td>"the quality of a class is decided by the teacher in the room"</td></tr></tbody></table></div>
+    <div class="ag-grid-3"><div><h3>Why counting works</h3><p>A shift cipher moves every letter by the same amount, so the shape of the letter frequencies survives. E is still the commonest letter; it is just wearing a different hat.</p></div><div><h3>Why the computer helps</h3><p>Trying 26 shifts by hand is twenty minutes of tedium. Trying them in code takes a second and can be reused on every message for the rest of the competition.</p></div><div><h3>Where it stops working</h3><p>The later challenges use ciphers that flatten the frequencies deliberately. That is the point at which an entrant has to learn something new, which is the whole design.</p></div></div>
+    <p class="ag-source-note ag-mt-40">The sentence, the shift and the letter counts are ours, produced on 20 September 2026. No challenge text is reproduced anywhere on this page; the organiser publishes its own archive of past challenges.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="scoring">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How it is scored</p><h2>Nearly right still counts, and the organiser says so</h2><p class="ag-lede">The scoring rules are unusual, and understanding them changes what an entrant does at eleven o'clock at night.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What earns points, from the organiser's rules</caption><thead><tr><th scope="col">Element</th><th scope="col">How it works</th><th scope="col">What follows</th></tr></thead><tbody><tr><td>Accuracy</td><td>Points reflect "the accuracy of your best submission for that challenge", measured by the Damerau-Levenshtein metric</td><td>A decryption with a few wrong letters still scores; it is not all or nothing</td></tr><tr><td>Speed</td><td>"Time points will be based on a schedule published alongside the challenge"</td><td>Early submissions earn more, but not at any cost</td></tr><tr><td>The trade-off</td><td>"Accuracy is more important than speed"</td><td>Do not send a half-broken message to beat a clock</td></tr><tr><td>Multiple attempts</td><td>The score reflects the strongest attempt an entrant sends for that challenge</td><td>Send an improvement when you have one</td></tr><tr><td>Recognition</td><td>Gold and silver medals at Bletchley Park, certificates for participants, a leaderboard for schools</td><td>Most entrants finish with a certificate and a new skill</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The accuracy metric is the part worth explaining to a pupil. It measures how far your text is from the true plaintext, counting insertions, deletions, substitutions and swapped neighbours. A message that is ninety per cent deciphered scores far more than nothing, which means an entrant who is stuck should still submit what they have.</p>
+<p>That is the opposite of the instinct most pupils bring from school exams, where an incomplete answer feels like an admission. Here it is a score.</p></div><div><p>The rule that accuracy beats speed also settles the commonest argument in a school club: whether to submit now or check first. Check first. The schedule rewards being early, and the organiser has said in as many words which matters more.</p>
+<p>For a pupil who enjoys the code more than the ciphers, the <a class="ag-inline-link" href="/british-informatics-olympiad-preparation">British Informatics Olympiad</a> in December and January is a natural companion, and it runs in the same weeks.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Getting ready</p>
+      <h2>Four rungs from counting letters to breaking something hard</h2>
+      <p class="ag-lede">Each rung is a tool the entrant has written and can run again next week.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The toolkit, built one challenge at a time</caption><thead><tr><th scope="col">Stage</th><th scope="col">Rung</th><th scope="col">The tool at the end of it</th></tr></thead><tbody><tr><td>First week</td><td class="ag-num">1. Count and shift</td><td class="ag-num">A letter counter and a script that tries all 26 shifts</td></tr><tr><td>Early autumn</td><td class="ag-num">2. Substitution</td><td class="ag-num">A frequency table, a guessing loop and a way to print partial decryptions</td></tr><tr><td>Mid autumn</td><td class="ag-num">3. Transposition</td><td class="ag-num">Tools that rearrange rather than replace, and a way to test a guess quickly</td></tr><tr><td>Late autumn</td><td class="ag-num">4. Search that stops early</td><td class="ag-num">A program that prunes the possibilities instead of trying all of them</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If the term has started</h3><p>Write the letter counter tonight. Everything else in the competition is built on top of it, and it is fifteen lines.</p>
+<p>Submit partial answers. The accuracy metric means a nearly-right decryption scores, and waiting for perfection scores nothing.</p></div><div><h3>What this leads to</h3><p>Every tool an entrant writes is ordinary programming: counting, searching, testing. It is the most thoroughly disguised introduction to real software we know.</p>
+<p>The <a class="ag-inline-link" href="/uk-coding-maths-and-ai-competitions-calendar">competitions calendar</a> lists everything else open to a UK student this year.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The full list</p>
+      <h2>Courses for an entrant who wants to build the tools</h2>
+      <p class="ag-lede">Sorted by what a student can already write alone, with the syllabus on every card.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>First programs</h3>
+        <span class="ag-band-sub">Ages 9 to 13</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">NCC / A / 01</p>
+          <h4>Python and AI for kids</h4>
+          <p>A first typed language, taught patiently.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NCC / A / 02</p>
+          <h4>Maths through coding</h4>
+          <p>Counting, patterns and why a method works.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NCC / A / 03</p>
+          <h4>Scratch for kids</h4>
+          <p>The logic, before the typing.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Real Python</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">NCC / B / 01</p>
+          <h4>Python from start to finish</h4>
+          <p>Strings, files, loops and functions, to fluency.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NCC / B / 02</p>
+          <h4>Algorithms and data structures</h4>
+          <p>Searching and pruning, for the later challenges.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NCC / B / 03</p>
+          <h4>Competitive programming</h4>
+          <p>Writing correct code quickly, under pressure.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Alongside school</h3>
+        <span class="ag-band-sub">Qualifications</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">NCC / C / 01</p>
+          <h4>GCSE Computer Science</h4>
+          <p>Taught to the board the school uses.</p>
+          <a class="ag-course-link" href="/courses/gcse-computer-science-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NCC / C / 02</p>
+          <h4>Cambridge A Level 9618</h4>
+          <p>For international and independent schools.</p>
+          <a class="ag-course-link" href="/courses/cambridge-a-level-computer-science-9618-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NCC / C / 03</p>
+          <h4>Java for teens</h4>
+          <p>For students whose school teaches Java.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">IV</span>
+        <h3>Further afield</h3>
+        <span class="ag-band-sub">Where the curiosity goes next</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">NCC / D / 01</p>
+          <h4>AI and machine learning for teens</h4>
+          <p>Understanding the tools the rules forbid here.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NCC / D / 02</p>
+          <h4>Data science with Python</h4>
+          <p>Frequencies and distributions, on real data.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NCC / D / 03</p>
+          <h4>Full stack web development</h4>
+          <p>For students who would rather build than break.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-teens-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Weekly Python, aimed at tools a student can keep</h2>
+      <p class="ag-lede">Lessons are live on video from India, five and a half hours ahead of the UK in winter and four and a half in summer, at a time fixed in UK time.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday evening</p><p class="ag-slot-l">The usual slot during the autumn term.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend morning</p><p class="ag-slot-l">For a longer session building one tool properly.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Half term</p><p class="ag-slot-l">When several challenges are open at once.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Tools, not exercises</h3><p>Every lesson leaves the student with a script they can run again on the next challenge.</p></div>
+      <div><h3>We do not touch the challenges</h3><p>We teach programming. We do not decipher a live challenge message or help with one, and we say so if asked.</p></div>
+      <div><h3>Five to ten students</h3><p>Enough for two approaches to be compared, small enough for every script to be read.</p></div>
+      <div><h3>Our own examples</h3><p>Written by us. The organiser publishes an archive of past challenges for the real thing.</p></div>
+      <div><h3>One to one when useful</h3><p>For a student well ahead of their year, or one building something specific.</p></div>
+      <div><h3>No AI shortcuts</h3><p>The competition forbids AI for this work, and we teach accordingly.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students build</h2>
+      <p class="ag-lede">Four published projects by students at our school, none of them competition entries. More on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">One monthly rate in US dollars for families outside India, with nothing to pay to register and no minimum term.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A full lesson building something</li><li>A straight read on the level</li><li>No card details taken</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students at one level</li><li>The same teacher every week</li><li>Code read line by line</li><li>A certificate at the end</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher working with one student</li><li>Shaped around what they are building</li><li>Useful when a group hour will not fit</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews left by families on Google, printed unchanged.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">National Cipher Challenge questions</p>
+      <h2>What students and parents ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Who runs the National Cipher Challenge?</h3>
+        <p>The University of Southampton. The 2026-27 competition runs from September 2026 to January 2027, with prizegiving at Bletchley Park on 10 March.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Who can enter and who can win?</h3>
+        <p>The organiser says the competition is open to anyone, but only individuals in full-time school-level education in the UK and Channel Islands qualify for prizes. There is a separate leaderboard for teachers and alumni.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my child enter alone?</h3>
+        <p>Yes. Entries may come from individuals or from teams of any size, and the organiser only reserves the right to limit how many team members appear on the leaderboard.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many challenges are there?</h3>
+        <p>Ten, each in two parts, A and B, released across the autumn term rather than sat in a single session.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is AI allowed?</h3>
+        <p>No. The rules say plainly that you should not use deciphering tools found elsewhere on the web, nor use AI to decipher messages or to write software to do so, and that this can result in disqualification.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What tools are allowed?</h3>
+        <p>Spreadsheets, text editors, the software on the organiser's Official BOSS Deciphering Tools page, and any software the entrant writes themselves.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is it scored?</h3>
+        <p>On the accuracy of an entrant's strongest submission for each challenge and the order in which submissions are received. Accuracy is measured with the Damerau-Levenshtein metric and time points come from a published schedule, and the organiser states that accuracy is more important than speed.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should we submit a partial decryption?</h3>
+        <p>Yes. Because accuracy is measured as a distance from the true text rather than as right or wrong, a message that is mostly deciphered still scores.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the first tool to build?</h3>
+        <p>A letter counter. Count how often each letter appears in the ciphertext, compare with ordinary English frequencies, and try all 26 shifts. It is about fifteen lines of Python and everything later is built on top of it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you help with the live challenges?</h3>
+        <p>No. We teach programming, and we do not decipher or assist with a live challenge message. Doing so would be against the competition's rules and against how we teach.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>Other contests in the same term</h2>
+      <p class="ag-lede">What runs alongside the cipher challenge, and where the whole year is set out.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/british-informatics-olympiad-preparation">British Informatics Olympiad</a></h3><p>Sat in school in December and January.</p></div>
+      <div><h3><a class="ag-inline-link" href="/perse-coding-team-challenge-preparation">Perse Coding Team Challenge</a></h3><p>Teams, hidden tests, January and March.</p></div>
+      <div><h3><a class="ag-inline-link" href="/bebras-computational-thinking-challenge-practice-uk">UK Bebras Challenge</a></h3><p>The November challenge with no programming in it.</p></div>
+      <div><h3><a class="ag-inline-link" href="/uk-coding-maths-and-ai-competitions-calendar">UK competitions calendar 2026-27</a></h3><p>Dates for every contest, checked with the people who run them.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-kingdom">Coding classes in the UK</a></h3><p>The four school systems, and every UK page.</p></div>
+      <div><h3><a class="ag-inline-link" href="/uk-gcse-computer-science-tutoring">GCSE Computer Science tutoring</a></h3><p>The qualification most entrants are working towards.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free coding lesson</h2>
+        <p class="ag-lede">Tell us the year group and whether your child has written Python before. The free lesson builds something small and real, and we say afterwards what we saw.</p>
+        <p class="ag-mt-40">Rather read first? Each syllabus is on its own <a class="ag-inline-link" href="/courses">course page</a>, the method on <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, and the topic order on the <a class="ag-inline-link" href="/coding-roadmap">roadmap</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20doing%20the%20National%20Cipher%20Challenge%20and%20I%20would%20like%20a%20free%20coding%20class." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ncc',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp is free from a UK mobile and usually the fastest way to reach us. Our number is Indian, which we say on every page, and there is no British office.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ncc(event)" novalidate>
+          <div class="ag-field">
+            <label for="gb-name">Your name</label>
+            <input id="gb-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-phone">Phone or WhatsApp, United Kingdom +44</label>
+            <input id="gb-phone" type="tel" name="phone" placeholder="7700 900123" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-age">Learner age group</label>
+            <select id="gb-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card, no obligation. One reply to settle a time.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Coding contests</h4><ul><li><a href="/british-informatics-olympiad-preparation">Informatics olympiad</a></li><li><a href="/perse-coding-team-challenge-preparation">Perse Coding Team Challenge</a></li><li><a href="/bebras-computational-thinking-challenge-practice-uk">UK Bebras Challenge</a></li><li><a href="/uk-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li></ul></div>
+      <div><h4>Programming</h4><ul><li><a href="/courses/python-complete-masterclass-teens">Python for teens</a></li><li><a href="/courses/problem-solving-dsa-masterclass-teens">Algorithms and data structures</a></li><li><a href="/courses/gcse-computer-science-course">GCSE Computer Science</a></li><li><a href="/coding-classes-in-united-kingdom">Coding classes in the UK</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>We teach the tools; the messages are yours to break</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitLead_ncc = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0044') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('44') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United Kingdom phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+44', countryIso: 'GB', countryName: 'United Kingdom',
+      source: 'national-cipher-challenge-preparation-inline', meta: { name: name, age: age, page: 'national-cipher-challenge-preparation' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+</body>
+</html>
