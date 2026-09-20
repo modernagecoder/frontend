@@ -12018,6 +12018,18 @@
   to = "/src/pages/ocr-a-level-computer-science-h446-help.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ks2-coding-lessons-online"
+  to = "/src/pages/ks2-coding-lessons-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/ks2-coding-lessons-online.md"
+  to = "/src/pages/ks2-coding-lessons-online.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

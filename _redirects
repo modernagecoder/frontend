@@ -3280,4 +3280,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ocr-a-level-computer-science-h446-help /src/pages/ocr-a-level-computer-science-h446-help.html 200
 /ocr-a-level-computer-science-h446-help.md /src/pages/ocr-a-level-computer-science-h446-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ks2-coding-lessons-online /src/pages/ks2-coding-lessons-online.html 200
+/ks2-coding-lessons-online.md /src/pages/ks2-coding-lessons-online.md 200
 /* /src/pages/404.html 404

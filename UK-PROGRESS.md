@@ -98,7 +98,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 46 | edexcel-gcse-computer-science-1cp2-help (edx, #4E360E) | exam door | 3,616 | 3.2% vs ocr-gcse-computer-science-j277-help | five questions, five topics, nowhere to hide | an assessment whose structure dictates the revision plan | 62e40bf6 |
 | 47 | aqa-a-level-computer-science-7517-help (aqa, #5C2E8A) | exam door | 3,417 | 4.2% vs edexcel-gcse-computer-science-1cp2-help | you meet the codebase before the exam, and you did not write it | an exam that tests navigating somebody else's work | 00581c2e |
 | 48 | choosing-gcse-computer-science-year-9-options (yno, #A51D31) | door | 3,647 | 3.9% vs aqa-a-level-computer-science-7517-help | the form records a decision made two years earlier | a decision whose real timing sits years before the form | be482c2c |
-| 49 | ocr-a-level-computer-science-h446-help (och, #28471F) | exam door | 3,412 | 4.9% vs aqa-a-level-computer-science-7517-help | nobody types code in an OCR exam | an assessment architecture defined by what it does not contain | (this commit) |
+| 49 | ocr-a-level-computer-science-h446-help (och, #28471F) | exam door | 3,412 | 4.9% vs aqa-a-level-computer-science-7517-help | nobody types code in an OCR exam | an assessment architecture defined by what it does not contain | e9e79c05 |
+| 50 | ks2-coding-lessons-online (kstw, #392822) | door | 3,507 | 4.6% vs ai-classes-for-kids-uk | variables and selection are named in the primary curriculum | a published entitlement most families have never been shown | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
