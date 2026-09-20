@@ -37,7 +37,7 @@
 module.exports = {
   cluster: 'ag',
   clusterName: 'United Kingdom',
-  hub: { group: 'maths', tag: 'KENT TEST', label: '11 plus maths in Kent', blurb: 'The maths on the Kent Test is Year 5 maths, because the paper is sat in the first week of Year 6.' },
+  hub: { group: 'elevenplus', tag: 'KENT TEST', label: '11 plus maths in Kent', blurb: 'The maths on the Kent Test is Year 5 maths, because the paper is sat in the first week of Year 6.' },
   slug: '11-plus-maths-tuition-kent',
   code: 'ktm',
   accent: '#0F4857',
@@ -69,7 +69,7 @@ module.exports = {
   heroNote: 'Maths only &middot; No promises about a threshold &middot; Admissions stay with the council and the schools',
   spec: [
     ['Test', 'The Kent Test, English and Maths paper'],
-    ['Maths section', '25 minutes, plus 5 minutes practice'],
+    ['English and maths', 'One hour for the two together'],
     ['Format', 'Multiple choice, separate answer sheet'],
     ['Registered in', 'Year 5, before the summer'],
     ['Sat in', 'The first full week of Year 6'],
@@ -303,8 +303,8 @@ module.exports = {
     eyebrow: 'Kent Test maths questions',
     h2: 'What Kent parents ask us',
     items: [
-      { q: 'How long is the maths section of the Kent Test?', a: 'In Kent County Council\'s familiarisation booklet the English and Maths test takes around an hour, with 25 minutes for the English section plus 5 minutes of practice, and 25 minutes for the maths section plus 5 minutes of practice.' },
-      { q: 'What maths topics are on the Kent Test?', a: 'The council\'s booklet describes multiple-choice questions covering topics taught in most schools up to the start of Year 6, with a small number of harder questions that use those same skills on unfamiliar problems. In practice that is upper key stage 2 number, fractions, decimals, percentages, measures and shape.' },
+      { q: 'How long is the maths section of the Kent Test?', a: 'A Kent school\'s 2026 information for parents gives the English and Maths paper one hour. For the split inside that hour we can only point at Kent County Council\'s familiarisation booklet of 2015, the most recent edition we have been able to read, which gives 25 minutes for the English section plus 5 minutes of practice and 25 minutes for the maths section plus 5 minutes of practice. The council publishes the current booklet on its own site.' },
+      { q: 'What maths topics are on the Kent Test?', a: 'The council\'s 2015 familiarisation booklet describes multiple-choice questions covering topics taught in most schools up to the start of Year 6, with a small number of harder questions that use those same skills on unfamiliar problems. In practice that is upper key stage 2 number, fractions, decimals, percentages, measures and shape.' },
       { q: 'Should my child learn Year 6 algebra for the Kent Test?', a: 'It is not the best use of the time. Algebra, ratio and proportion and formal long division are introduced in Year 6 in the national curriculum, and the test is sat in the first full week of Year 6. Depth in Year 5 content beats a thin pass over Year 6 content.' },
       { q: 'When is the Kent Test sat?', a: 'For September 2027 entry, children at Kent primary schools sat it on Thursday 10 September 2026, and children elsewhere on Saturday 12 or Sunday 13 September 2026 at an allocated centre. Registration ran from 1 June to midnight on 1 July 2026, while those children were in Year 5.' },
       { q: 'What score does my child need?', a: 'We do not publish a target. Three standardised scores and an aggregate are reported, adjusted for age, and the qualifying bar is set for each cohort and published by the council in the October after the test. Anyone quoting you a certain number for next year is guessing.' },

@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Surrey famili
 canonical: https://learn.modernagecoders.com/coding-classes-in-surrey
 source: src/pages/coding-classes-in-surrey.html
 ---
-> Surrey is eleven boroughs and districts holding 1,203,113 people at the 2021 Census, and no single town anybody means when they say Surrey: Guildford and Woking are the largest at about 77,880 and 75,660, and after them it is Camberley, Epsom, Redhill, Egham and thirty more. A class that works here cannot depend on a building, because Farnham to Caterham is an hour by road at the wrong time of day. Ours are taught live over video from India, placed by what a learner can already do rather than by school year, for ages 6 to 67, in groups of five to ten or one to one. This page also carries a project with a Guildford accent: the county has built small satellites since 1985, and the clock those satellites broadcast once ran out of digits. The first lesson is free; after that a group place is USD 100 a month and one-to-one teaching USD 150.
+> Surrey is eleven boroughs and districts holding 1,203,113 people at the 2021 Census, and no single town anybody means when they say Surrey: Guildford and Woking are the largest at about 77,880 and 75,660, and after them it is Camberley, Epsom, Redhill, Egham and a long tail of towns after that. A class that works here cannot depend on a building, because Farnham to Caterham is an hour by road at the wrong time of day. Ours are taught live over video from India, placed by what a learner can already do rather than by school year, for ages 6 to 67, in groups of five to ten or one to one. This page also carries a project with a Guildford accent: the county has built small satellites since 1985, and the clock those satellites broadcast once ran out of digits. The first lesson is free; after that a group place is USD 100 a month and one-to-one teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Surrey
 
@@ -12,7 +12,7 @@ County of Surrey / Live online
 
 # Coding classes in Surrey
 
-**What are the best coding classes in Surrey?** Surrey is eleven boroughs and districts holding 1,203,113 people at the 2021 Census, and no single town anybody means when they say Surrey: Guildford and Woking are the largest at about 77,880 and 75,660, and after them it is Camberley, Epsom, Redhill, Egham and thirty more. A class that works here cannot depend on a building, because Farnham to Caterham is an hour by road at the wrong time of day. Ours are taught live over video from India, placed by what a learner can already do rather than by school year, for ages 6 to 67, in groups of five to ten or one to one. This page also carries a project with a Guildford accent: the county has built small satellites since 1985, and the clock those satellites broadcast once ran out of digits. The first lesson is free; after that a group place is USD 100 a month and one-to-one teaching USD 150.
+**What are the best coding classes in Surrey?** Surrey is eleven boroughs and districts holding 1,203,113 people at the 2021 Census, and no single town anybody means when they say Surrey: Guildford and Woking are the largest at about 77,880 and 75,660, and after them it is Camberley, Epsom, Redhill, Egham and a long tail of towns after that. A class that works here cannot depend on a building, because Farnham to Caterham is an hour by road at the wrong time of day. Ours are taught live over video from India, placed by what a learner can already do rather than by school year, for ages 6 to 67, in groups of five to ten or one to one. This page also carries a project with a Guildford accent: the county has built small satellites since 1985, and the clock those satellites broadcast once ran out of digits. The first lesson is free; after that a group place is USD 100 a month and one-to-one teaching USD 150.
 
 A field that counts weeks in ten bits can count to 1,023, and then it counts to zero. That is not a hypothetical: it is how the civil GPS signal has always carried the week number, and it is why receivers all over the world woke up in 1999 and again in 2019 believing it was nineteen years earlier. Guildford has a particular stake in this. Surrey Satellite Technology, spun out of the University of Surrey in 1985, has built around seventy satellites for twenty-two countries from the Surrey Research Park, and the Surrey Space Centre up the hill has worked on small spacecraft since 1979. So this page's project is a Surrey one: compute the rollover dates from first principles, check them against what the US government publishes, and then go looking for the same fault in the clock on your own laptop.
 
@@ -58,29 +58,30 @@ Every figure below is from the body that publishes it, named in the row. This is
 
 Add the eleven and you get 1,203,113 people, more than Birmingham, spread across a county with no obvious centre. That matters for a practical reason. A weekly class in a hall in Dorking is a real option for Dorking and a two-bus expedition for Staines, and the club that opens in Guildford closes again when the four families from Camberley stop coming in January. Distance is why so much of Surrey's teaching for children ends up being either school-based or online.
 
-**Surrey towns by built-up area population, Census 2021, the ones most often asked about**
+**Surrey towns by built-up area population, Census 2021, in descending order; there are more the table does not reach**
 
 | Town | Usual residents | Town | Usual residents |
 |---|---|---|---|
-| Guildford | 77,880 | Chertsey | 14,560 |
-| Woking | 75,660 | Byfleet | 14,190 |
-| Camberley | 36,785 | Hersham | 12,625 |
-| Epsom | 35,850 | Haslemere | 11,900 |
-| Redhill | 32,525 | Oxted | 11,490 |
-| Egham | 28,000 | Leatherhead | 11,485 |
-| Ewell | 27,515 | Godalming | 10,450 |
-| Horley | 27,070 | Cranleigh | 10,425 |
-| Walton-on-Thames | 27,020 | Esher | 9,485 |
-| Ash and Ash Vale | 24,285 | Banstead | 8,925 |
-| Reigate | 23,780 | Warlingham | 8,920 |
-| Ashford | 22,825 | Lightwater | 6,535 |
-| Caterham | 22,755 | Bagshot | 5,930 |
-| Sunbury-on-Thames | 21,475 | Shepperton | 5,915 |
-| Great Bookham and Fetcham | 21,655 | Virginia Water | 5,185 |
-| Staines-upon-Thames | 21,325 | Frimley | 15,100 |
-| Farnham | 20,500 | Ashtead | 14,830 |
-| Cobham | 17,505 | Addlestone | 13,745 |
-| Dorking | 17,465 | Weybridge | 15,915 |
+| Guildford | 77,880 | Weybridge | 15,915 |
+| Woking | 75,660 | Frimley | 15,100 |
+| Camberley | 36,785 | Ashtead | 14,830 |
+| Epsom | 35,850 | Chertsey | 14,560 |
+| Redhill | 32,525 | Byfleet | 14,190 |
+| Egham | 28,000 | Addlestone | 13,745 |
+| Ewell | 27,515 | Hersham | 12,625 |
+| Tadworth and Epsom Downs | 27,095 | Haslemere | 11,900 |
+| Horley | 27,070 | Oxted | 11,490 |
+| Walton-on-Thames | 27,020 | Leatherhead | 11,485 |
+| Ash and Ash Vale | 24,285 | Godalming | 10,450 |
+| Reigate | 23,780 | Cranleigh | 10,425 |
+| Ashford | 22,825 | South Merstham | 9,955 |
+| Caterham | 22,755 | Esher | 9,485 |
+| Great Bookham and Fetcham | 21,655 | Banstead | 8,925 |
+| Sunbury-on-Thames | 21,475 | Warlingham | 8,920 |
+| Staines-upon-Thames | 21,325 | Lightwater | 6,535 |
+| Farnham | 20,500 | Bagshot | 5,930 |
+| Cobham | 17,505 | Shepperton | 5,915 |
+| Dorking | 17,465 | Virginia Water | 5,185 |
 
 ### Surrey's school year is not England's school year
 
@@ -169,7 +170,7 @@ The county is wide and the traffic is famous. An online lesson makes both irrele
 - **Fitted to the Surrey calendar** Two lessons a week is usual, and breaks are agreed with each family, including that two-week October half term that Surrey alone among its neighbours now takes.
 - **One clock, stated clearly** Teachers work from India, five and a half hours ahead of the UK in winter and four and a half in summer. Every lesson is agreed and shown in UK time.
 
-**Thirty-four towns, one group** Surrey has thirty-odd towns above five thousand people and no single centre, so a group formed by postcode would never fill. Ours are formed by level, which is why a child in Lingfield and a child in Frimley can be in the same class.
+**A county of towns, one group** Surrey has no single centre and dozens of towns above five thousand people, so a group formed by postcode would never fill. Ours are formed by level, which is why a child in Lingfield and a child in Frimley can be in the same class.
 
 ## What classes cost in Surrey
 
@@ -189,7 +190,7 @@ The eleven Surrey boroughs and districts held 1,203,113 usual residents at the 2
 
 ### Which are the biggest towns in Surrey?
 
-By Census 2021 built-up area, Guildford at 77,880 and Woking at 75,660, then Camberley at 36,785, Epsom at 35,850 and Redhill at 32,525. Thirty-four Surrey towns have more than five thousand residents, which is why the county has no single centre.
+By Census 2021 built-up area, Guildford at 77,880 and Woking at 75,660, then Camberley at 36,785, Epsom at 35,850 and Redhill at 32,525. The table on this page lists forty Surrey towns above five thousand residents and does not reach the end of them, which is why the county has no single centre.
 
 ### When is half term in Surrey in 2026?
 

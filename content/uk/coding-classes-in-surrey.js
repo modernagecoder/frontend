@@ -27,7 +27,7 @@
 
 module.exports = {
   clusterName: 'United Kingdom',
-  hub: { group: 'county', tag: 'SURREY', blurb: 'Eleven boroughs, thirty-odd towns with a figure each, and a satellite clock that ran out of digits.' },
+  hub: { group: 'county', tag: 'SURREY', blurb: 'Eleven boroughs, forty towns with a sourced figure beside each, and a satellite clock that ran out of digits.' },
   market: { iso: 'GB', dial: '+44', name: 'United Kingdom', locale: 'en_GB', geoRegion: 'GB', phoneLabel: 'UK mobile number', phonePlaceholder: '7700 900123', gradeLabel: 'School year or age', minDigits: 10, stripTrunk: true },
   slug: 'coding-classes-in-surrey',
   code: 'sry',
@@ -52,7 +52,7 @@ module.exports = {
   routeLabel: 'Surrey',
   title: 'Coding Classes in Surrey | Live Online, Ages 6 to 67',
   description: 'Live online coding, Python, AI and maths classes for Surrey families, from Staines and Woking to Farnham, Caterham and Camberley. The first lesson is free.',
-  ogDescription: 'Coding classes for every town in Surrey, on a page about the satellite clock that ran out of digits and the thirty-odd towns the county is actually made of.',
+  ogDescription: 'Coding classes for every town in Surrey, on a page about the satellite clock that ran out of digits and the forty towns the county is actually made of.',
   twitterDescription: 'Surrey coding classes for ages 6 to 67, live online, first lesson free.',
   ogImageCourse: 'python-complete-masterclass-teens',
   verifiedOn: '20 September 2026',
@@ -63,7 +63,7 @@ module.exports = {
 
   h1: 'Coding classes in Surrey',
   capsuleQ: 'What are the best coding classes in Surrey?',
-  capsule: 'Surrey is eleven boroughs and districts holding 1,203,113 people at the 2021 Census, and no single town anybody means when they say Surrey: Guildford and Woking are the largest at about 77,880 and 75,660, and after them it is Camberley, Epsom, Redhill, Egham and thirty more. A class that works here cannot depend on a building, because Farnham to Caterham is an hour by road at the wrong time of day. Ours are taught live over video from India, placed by what a learner can already do rather than by school year, for ages 6 to 67, in groups of five to ten or one to one. This page also carries a project with a Guildford accent: the county has built small satellites since 1985, and the clock those satellites broadcast once ran out of digits. The first lesson is free; after that a group place is USD 100 a month and one-to-one teaching USD 150.',
+  capsule: 'Surrey is eleven boroughs and districts holding 1,203,113 people at the 2021 Census, and no single town anybody means when they say Surrey: Guildford and Woking are the largest at about 77,880 and 75,660, and after them it is Camberley, Epsom, Redhill, Egham and a long tail of towns after that. A class that works here cannot depend on a building, because Farnham to Caterham is an hour by road at the wrong time of day. Ours are taught live over video from India, placed by what a learner can already do rather than by school year, for ages 6 to 67, in groups of five to ten or one to one. This page also carries a project with a Guildford accent: the county has built small satellites since 1985, and the clock those satellites broadcast once ran out of digits. The first lesson is free; after that a group place is USD 100 a month and one-to-one teaching USD 150.',
   lead: 'A field that counts weeks in ten bits can count to 1,023, and then it counts to zero. That is not a hypothetical: it is how the civil GPS signal has always carried the week number, and it is why receivers all over the world woke up in 1999 and again in 2019 believing it was nineteen years earlier. Guildford has a particular stake in this. Surrey Satellite Technology, spun out of the University of Surrey in 1985, has built around seventy satellites for twenty-two countries from the Surrey Research Park, and the Surrey Space Centre up the hill has worked on small spacecraft since 1979. So this page\'s project is a Surrey one: compute the rollover dates from first principles, check them against what the US government publishes, and then go looking for the same fault in the clock on your own laptop.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Surrey.',
 
@@ -99,26 +99,27 @@ module.exports = {
           ['Epsom and Ewell', '80,937', 'Epsom, Ewell, Stoneleigh']
         ] },
         { kind: 'p', text: 'Add the eleven and you get 1,203,113 people, more than Birmingham, spread across a county with no obvious centre. That matters for a practical reason. A weekly class in a hall in Dorking is a real option for Dorking and a two-bus expedition for Staines, and the club that opens in Guildford closes again when the four families from Camberley stop coming in January. Distance is why so much of Surrey\'s teaching for children ends up being either school-based or online.' },
-        { kind: 'table', caption: 'Surrey towns by built-up area population, Census 2021, the ones most often asked about', head: ['Town', 'Usual residents', 'Town', 'Usual residents'], rows: [
-          ['Guildford', '77,880', 'Chertsey', '14,560'],
-          ['Woking', '75,660', 'Byfleet', '14,190'],
-          ['Camberley', '36,785', 'Hersham', '12,625'],
-          ['Epsom', '35,850', 'Haslemere', '11,900'],
-          ['Redhill', '32,525', 'Oxted', '11,490'],
-          ['Egham', '28,000', 'Leatherhead', '11,485'],
-          ['Ewell', '27,515', 'Godalming', '10,450'],
-          ['Horley', '27,070', 'Cranleigh', '10,425'],
-          ['Walton-on-Thames', '27,020', 'Esher', '9,485'],
-          ['Ash and Ash Vale', '24,285', 'Banstead', '8,925'],
-          ['Reigate', '23,780', 'Warlingham', '8,920'],
-          ['Ashford', '22,825', 'Lightwater', '6,535'],
-          ['Caterham', '22,755', 'Bagshot', '5,930'],
-          ['Sunbury-on-Thames', '21,475', 'Shepperton', '5,915'],
-          ['Great Bookham and Fetcham', '21,655', 'Virginia Water', '5,185'],
-          ['Staines-upon-Thames', '21,325', 'Frimley', '15,100'],
-          ['Farnham', '20,500', 'Ashtead', '14,830'],
-          ['Cobham', '17,505', 'Addlestone', '13,745'],
-          ['Dorking', '17,465', 'Weybridge', '15,915']
+        { kind: 'table', caption: 'Surrey towns by built-up area population, Census 2021, in descending order; there are more the table does not reach', head: ['Town', 'Usual residents', 'Town', 'Usual residents'], rows: [
+          ['Guildford', '77,880', 'Weybridge', '15,915'],
+          ['Woking', '75,660', 'Frimley', '15,100'],
+          ['Camberley', '36,785', 'Ashtead', '14,830'],
+          ['Epsom', '35,850', 'Chertsey', '14,560'],
+          ['Redhill', '32,525', 'Byfleet', '14,190'],
+          ['Egham', '28,000', 'Addlestone', '13,745'],
+          ['Ewell', '27,515', 'Hersham', '12,625'],
+          ['Tadworth and Epsom Downs', '27,095', 'Haslemere', '11,900'],
+          ['Horley', '27,070', 'Oxted', '11,490'],
+          ['Walton-on-Thames', '27,020', 'Leatherhead', '11,485'],
+          ['Ash and Ash Vale', '24,285', 'Godalming', '10,450'],
+          ['Reigate', '23,780', 'Cranleigh', '10,425'],
+          ['Ashford', '22,825', 'South Merstham', '9,955'],
+          ['Caterham', '22,755', 'Esher', '9,485'],
+          ['Great Bookham and Fetcham', '21,655', 'Banstead', '8,925'],
+          ['Sunbury-on-Thames', '21,475', 'Warlingham', '8,920'],
+          ['Staines-upon-Thames', '21,325', 'Lightwater', '6,535'],
+          ['Farnham', '20,500', 'Bagshot', '5,930'],
+          ['Cobham', '17,505', 'Shepperton', '5,915'],
+          ['Dorking', '17,465', 'Virginia Water', '5,185']
         ] },
         { kind: 'callout', h3: 'Surrey\'s school year is not England\'s school year', p: 'From September 2026 Surrey County Council\'s community and voluntary controlled schools take a two-week autumn half term, 19 to 30 October 2026, and five days come out of the summer holiday in July 2027. The autumn term runs 1 September to 18 December 2026. Kent, next door, keeps the usual single week at the end of October. If you are booking a weekly online lesson for a Surrey child, that fortnight is the one to plan around, and it is the reason we agree breaks with each family rather than publishing a single timetable.' },
         { kind: 'p', text: 'One more number from the council, because it shapes the next decade of Surrey classrooms: births are falling in all eleven districts and boroughs. Elmbridge peaked at 1,890 births in 2010 and reached a new low of 1,273 in 2025, a fall of a third; Woking is down 30 per cent from its 2012 peak, Epsom and Ewell 29 per cent, Guildford 27 per cent. Smaller cohorts mean fewer children of the same age in the same town wanting the same lesson at the same hour, which is precisely the problem an online group solves and a local club does not.' }
@@ -196,7 +197,7 @@ module.exports = {
       { h3: 'Fitted to the Surrey calendar', p: 'Two lessons a week is usual, and breaks are agreed with each family, including that two-week October half term that Surrey alone among its neighbours now takes.' },
       { h3: 'One clock, stated clearly', p: 'Teachers work from India, five and a half hours ahead of the UK in winter and four and a half in summer. Every lesson is agreed and shown in UK time.' }
     ],
-    spec: { title: 'Thirty-four towns, one group', p: 'Surrey has thirty-odd towns above five thousand people and no single centre, so a group formed by postcode would never fill. Ours are formed by level, which is why a child in Lingfield and a child in Frimley can be in the same class.' }
+    spec: { title: 'A county of towns, one group', p: 'Surrey has no single centre and dozens of towns above five thousand people, so a group formed by postcode would never fill. Ours are formed by level, which is why a child in Lingfield and a child in Frimley can be in the same class.' }
   },
 
   fees: {
@@ -221,7 +222,7 @@ module.exports = {
     intro: 'About the county, the project, and how lessons actually work.',
     items: [
       { q: 'How many people live in Surrey?', a: 'The eleven Surrey boroughs and districts held 1,203,113 usual residents at the 2021 Census, according to Office for National Statistics data on Nomis. Reigate and Banstead is the largest at 150,846 and Epsom and Ewell the smallest at 80,937.' },
-      { q: 'Which are the biggest towns in Surrey?', a: 'By Census 2021 built-up area, Guildford at 77,880 and Woking at 75,660, then Camberley at 36,785, Epsom at 35,850 and Redhill at 32,525. Thirty-four Surrey towns have more than five thousand residents, which is why the county has no single centre.' },
+      { q: 'Which are the biggest towns in Surrey?', a: 'By Census 2021 built-up area, Guildford at 77,880 and Woking at 75,660, then Camberley at 36,785, Epsom at 35,850 and Redhill at 32,525. The table on this page lists forty Surrey towns above five thousand residents and does not reach the end of them, which is why the county has no single centre.' },
       { q: 'When is half term in Surrey in 2026?', a: 'Surrey County Council has set a two-week autumn half term for community and voluntary controlled schools, 19 to 30 October 2026, with five days taken from the summer holiday in July 2027. The autumn term runs from 1 September to 18 December 2026.' },
       { q: 'What is the rollover project?', a: 'Learners compute when the GPS week number, a ten-bit field, runs out of values. Our run gives 21 August 1999, 6 April 2019 and 20 November 2038, each at 23:59:42 UTC, and those match the dates GPS.gov publishes. The same fault sets a 32-bit clock back to 1901 on 19 January 2038.' },
       { q: 'Why does a Surrey page talk about satellites?', a: 'Because the county makes them. Surrey Satellite Technology was formed in 1985 as a University of Surrey spin-out and has built around seventy satellites for twenty-two countries from the Surrey Research Park in Guildford, and the Surrey Space Centre has worked on small spacecraft since 1979.' },
@@ -290,7 +291,8 @@ module.exports = {
       'Guildford as a video games cluster: not read at a primary source for this build, so no studio or industry claim is made.',
       'Named Surrey schools and their computing provision: not read at their own sites for this build, so none is named.',
       'Surrey commuting and rail journey times: quoted widely but not read at an operator or council source, so travel is described only in general terms.',
-      'West Molesey\'s built-up area figure of 47,150: the ONS area appears to cover more than the town its name suggests, so it is left out rather than printed under a misleading label.'
+      'West Molesey\'s built-up area figure of 47,150: the ONS area appears to cover more than the town its name suggests, so it is left out rather than printed under a misleading label.',
+      'A total count of Surrey towns above five thousand residents: the ONS built-up area table does not carry the local authority, so the forty towns in our table are a list we assembled and not an exhaustive census of the county. No total is claimed.'
     ]
   }
 };

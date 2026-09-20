@@ -152,9 +152,9 @@ Each page below is written for its own place, exam or competition, with its own 
 
 **London boroughs:** [Harrow](/coding-classes-in-harrow-london)
 
-**Counties and council areas:** [Surrey](/coding-classes-in-surrey)
+**11+ maths by area:** [11 plus maths in Kent](/11-plus-maths-tuition-kent)
 
-**Maths by city:** [11 plus maths in Kent](/11-plus-maths-tuition-kent)
+**Counties and council areas:** [Surrey](/coding-classes-in-surrey)
 
 ## From a rule with an edge to a program that respects it
 

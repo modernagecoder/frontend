@@ -14,7 +14,7 @@ Kent · Kent Test maths · Live online, small groups or one to one
 
 There is one fact about the Kent Test that changes how a family should prepare, and almost nobody says it out loud: the paper is sat in the first full week of Year 6. A child registered in Year 5 walks into the test having had perhaps six days of Year 6 teaching. Whatever the maths section asks, it cannot be asking about a year of school that has not happened yet. So the work that pays is not racing ahead into Year 6 content. It is making Year 5 arithmetic quick and certain, then practising it on questions the child has never seen in that form before. This page sets out what Kent County Council publishes about the paper, what the maths on it can and cannot be, and how we teach it online.
 
-At a glance: Test: The Kent Test, English and Maths paper; Maths section: 25 minutes, plus 5 minutes practice; Format: Multiple choice, separate answer sheet; Registered in: Year 5, before the summer; Sat in: The first full week of Year 6; Content: Maths taught up to the start of Year 6; We teach: Fluency, then unfamiliar problems; We never: Predict a threshold or a place. Rated 4.9 across 547 Google reviews.
+At a glance: Test: The Kent Test, English and Maths paper; English and maths: One hour for the two together; Format: Multiple choice, separate answer sheet; Registered in: Year 5, before the summer; Sat in: The first full week of Year 6; Content: Maths taught up to the start of Year 6; We teach: Fluency, then unfamiliar problems; We never: Predict a threshold or a place. Rated 4.9 across 547 Google reviews.
 
 ## Three courses that carry the maths
 
@@ -246,11 +246,11 @@ A monthly rate in US dollars, the same everywhere outside India. Nothing to join
 
 ### How long is the maths section of the Kent Test?
 
-In Kent County Council's familiarisation booklet the English and Maths test takes around an hour, with 25 minutes for the English section plus 5 minutes of practice, and 25 minutes for the maths section plus 5 minutes of practice.
+A Kent school's 2026 information for parents gives the English and Maths paper one hour. For the split inside that hour we can only point at Kent County Council's familiarisation booklet of 2015, the most recent edition we have been able to read, which gives 25 minutes for the English section plus 5 minutes of practice and 25 minutes for the maths section plus 5 minutes of practice. The council publishes the current booklet on its own site.
 
 ### What maths topics are on the Kent Test?
 
-The council's booklet describes multiple-choice questions covering topics taught in most schools up to the start of Year 6, with a small number of harder questions that use those same skills on unfamiliar problems. In practice that is upper key stage 2 number, fractions, decimals, percentages, measures and shape.
+The council's 2015 familiarisation booklet describes multiple-choice questions covering topics taught in most schools up to the start of Year 6, with a small number of harder questions that use those same skills on unfamiliar problems. In practice that is upper key stage 2 number, fractions, decimals, percentages, measures and shape.
 
 ### Should my child learn Year 6 algebra for the Kent Test?
 
