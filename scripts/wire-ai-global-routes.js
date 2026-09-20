@@ -204,6 +204,7 @@ const SLUGS = [
   'edexcel-gcse-computer-science-1cp2-help',
   'aqa-a-level-computer-science-7517-help',
   'choosing-gcse-computer-science-year-9-options',
+  'ocr-a-level-computer-science-h446-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -487,6 +488,7 @@ const LLMS_LABELS = {
   'edexcel-gcse-computer-science-1cp2-help': 'Edexcel GCSE Computer Science 1CP2 help',
   'aqa-a-level-computer-science-7517-help': 'AQA A-level Computer Science 7517 help',
   'choosing-gcse-computer-science-year-9-options': 'Choosing GCSE Computer Science at Year 9 options',
+  'ocr-a-level-computer-science-h446-help': 'OCR A-level Computer Science H446 help',
 };
 
 function wireLlms(slugs) {
