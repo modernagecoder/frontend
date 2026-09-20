@@ -183,6 +183,7 @@ const SLUGS = [
   'cyberfirst-girls-competition-preparation',
   'astro-pi-mission-zero-and-space-lab-help',
   'uk-olympiad-in-artificial-intelligence-preparation',
+  'coolest-projects-uk-project-ideas',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -445,6 +446,7 @@ const LLMS_LABELS = {
   'cyberfirst-girls-competition-preparation': 'CyberFirst Girls Competition preparation',
   'astro-pi-mission-zero-and-space-lab-help': 'Astro Pi Mission Zero and Space Lab help',
   'uk-olympiad-in-artificial-intelligence-preparation': 'UK Olympiad in AI preparation',
+  'coolest-projects-uk-project-ideas': 'Coolest Projects UK project ideas',
 };
 
 function wireLlms(slugs) {

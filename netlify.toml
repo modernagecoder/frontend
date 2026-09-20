@@ -11718,6 +11718,18 @@
   to = "/src/pages/uk-olympiad-in-artificial-intelligence-preparation.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coolest-projects-uk-project-ideas"
+  to = "/src/pages/coolest-projects-uk-project-ideas.html"
+  status = 200
+
+[[redirects]]
+  from = "/coolest-projects-uk-project-ideas.md"
+  to = "/src/pages/coolest-projects-uk-project-ideas.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
