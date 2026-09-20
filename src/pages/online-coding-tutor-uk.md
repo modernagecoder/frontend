@@ -12,7 +12,7 @@ United Kingdom · Tuition · Ages 6 to 67
 
 # Online coding tutor in the UK
 
-On 21 January 2026 something changed that most parents looking for a tutor have not yet heard about. Until then, a self-employed tutor could not apply for their own DBS check, because the system was built around organisations doing the applying. Now they can, and in September the Government published a leaflet telling parents how to ask. That turns choosing a tutor from a matter of price and reviews into something with a checkable step in it. This page explains the change, sets out the four very different things the word tutor covers in the UK, and then states our own position, which includes a limitation we would rather say out loud than let you discover halfway through.
+On 21 January 2026 something changed that most parents looking for a tutor have not yet heard about. Until then, a self-employed tutor could not apply for their own DBS check, because the system was built around organisations doing the applying. Now they can, and guidance for parents from the Government, updated in September, tells them how to ask. That turns choosing a tutor from a matter of price and reviews into something with a checkable step in it. This page explains the change, sets out the four very different things the word tutor covers in the UK, and then states our own position, which includes a limitation we would rather say out loud than let you discover halfway through.
 
 At a glance: We are: A teaching company, not an agency; Teachers: Employed, in India, named to you; Lessons: Live, on a link a parent can join; Default: Small groups by level; Also: One to one where it fits better; Times: Agreed and kept in UK time; DBS: Not available for overseas staff; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
@@ -32,7 +32,7 @@ The DBS system was built around organisations. An employer applied, the certific
 
 Guidance published on 16 January 2026 changed that, and states that it "is live from 21 January 2026". Self-employed people and personal employees can now apply for an Enhanced DBS check, and where the role is eligible, one that includes the children's barred list, through a DBS Umbrella Body.
 
-In September the Government followed it with a leaflet for parents, and it goes as far as scripting the conversation. Its suggested wording is: "Before we go ahead, I'd love to see your DBS certificate. I understand you can now apply for an Enhanced one - would you be happy to share it?"
+In September the Government updated its leaflet for parents, and it goes as far as scripting the conversation. Its suggested wording is: "Before we go ahead, I'd love to see your DBS certificate. I understand you can now apply for an Enhanced one - would you be happy to share it?"
 
 The leaflet's own worked example is a maths tutor, where a parent asks about qualifications, experience and references, and the tutor also chooses to share an Enhanced with Children's Barred List certificate.
 
@@ -48,7 +48,7 @@ The leaflet's own worked example is a maths tutor, where a parent asks about qua
 
 undefined
 
-Sources, read 20 September 2026: [DBS checks for self-employed people and personal employees](https://www.gov.uk/guidance/dbs-checks-for-self-employed-people-and-personal-employees), published 16 January 2026; [A guide for parents and carers employing self-employed workers or personal employees](https://www.gov.uk/government/publications/dbs-guidance-leaflets/a-guide-for-parents-and-carers-employing-self-employed-workers-or-personal-employees), published 17 September 2026; and [DBS check requests: guidance for employers](https://www.gov.uk/guidance/dbs-check-requests-guidance-for-employers), updated 11 September 2026.
+Sources, read 20 September 2026: [DBS checks for self-employed people and personal employees](https://www.gov.uk/guidance/dbs-checks-for-self-employed-people-and-personal-employees), published 16 January 2026; [A guide for parents and carers employing self-employed workers or personal employees](https://www.gov.uk/government/publications/dbs-guidance-leaflets/a-guide-for-parents-and-carers-employing-self-employed-workers-or-personal-employees), updated 17 September 2026; and [DBS check requests: guidance for employers](https://www.gov.uk/guidance/dbs-check-requests-guidance-for-employers), updated 11 September 2026.
 
 ## The same word, four different arrangements
 

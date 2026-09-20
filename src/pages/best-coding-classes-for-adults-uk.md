@@ -69,7 +69,7 @@ If one of these fits you, take it. We would rather say so here than have you fin
 |---|---|---|
 | Skills Bootcamps | Government-funded training for adults aged 19 and over, lasting up to sixteen weeks and offering a job interview on completion | Built around moving into a job now. Intensive, and not designed for someone studying alongside full-time work |
 | School of Code | In its own words, "free, intensive Bootcamps around the UK throughout the year", including fully remote and blended courses | Places are limited and intake is periodic; the site does not publish a duration or eligibility rules, so we do not state any |
-| Lifelong Learning Entitlement | From January 2027, loan funding for full courses and modules at levels 4 to 6 and some level 7, with applications opening in September 2026 | Tuition loans are available to people up to the age of 60 at the start of a course. Those aged 60 and over can access maintenance support only |
+| Lifelong Learning Entitlement | From January 2027, loan funding for full courses and modules at levels 4 to 6 and some level 7, with applications opening in September 2026 | Tuition loans are available to people up to the age of 60 at the start of a course. Learners aged 60 or over "may still qualify for maintenance support, though not a tuition fee loan" |
 | Weekly lessons | What this page is about: one or two lessons a week with a teacher, at a pace that fits a job and a family | Not a career-change programme, and it comes with no job interview at the end |
 
 The Skills Bootcamp design is worth understanding properly, because it explains who it is for. Employers sending an existing employee contribute 10 per cent of the training cost if they have between 1 and 249 staff and 30 per cent if they have 250 or more, while recruiting someone who has already completed one costs an employer nothing. The whole structure points at employment, which is exactly why it is the right answer for a career changer and the wrong one for someone who simply wants to become capable.
@@ -199,7 +199,7 @@ A new student finance system covering full courses and modules at levels 4 to 6 
 
 ### Is there an age limit on that funding?
 
-Yes. Tuition loans under the LLE are available to people up to the age of 60 at the start of their course. Those aged 60 and over can access maintenance support only.
+Yes. Tuition loans under the LLE are available to people up to the age of 60 at the start of their course. GOV.UK adds that learners aged 60 or over may still qualify for maintenance support, though not a tuition fee loan.
 
 ### I have never written a line of code. Where do I start?
 
