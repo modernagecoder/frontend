@@ -184,6 +184,7 @@ const SLUGS = [
   'astro-pi-mission-zero-and-space-lab-help',
   'uk-olympiad-in-artificial-intelligence-preparation',
   'coolest-projects-uk-project-ideas',
+  'big-bang-competition-project-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -447,6 +448,7 @@ const LLMS_LABELS = {
   'astro-pi-mission-zero-and-space-lab-help': 'Astro Pi Mission Zero and Space Lab help',
   'uk-olympiad-in-artificial-intelligence-preparation': 'UK Olympiad in AI preparation',
   'coolest-projects-uk-project-ideas': 'Coolest Projects UK project ideas',
+  'big-bang-competition-project-help': 'Big Bang Competition project help',
 };
 
 function wireLlms(slugs) {

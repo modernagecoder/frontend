@@ -74,7 +74,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 22 | cyberfirst-girls-competition-preparation (cfg, #41676C) | competition spoke | 3,574 | 4.6% vs perse-coding-team-challenge-preparation | how many questions to find one thing | the information bound on yes/no questions | f53eb2b3 |
 | 23 | astro-pi-mission-zero-and-space-lab-help (apz, #495979) | competition spoke | 3,607 | 4.3% vs national-cipher-challenge-preparation | the deadline is an hour earlier than it looks | a deadline in another country's local time | 97d3e306 |
 | 24 | uk-olympiad-in-artificial-intelligence-preparation (uoa, #3E1E21) | competition spoke | 3,406 | 4.1% vs cyberfirst-girls-competition-preparation | the arithmetic of why deep learning costs so much | cubic and quadratic growth, timed | 694e304b |
-| 25 | coolest-projects-uk-project-ideas (cpr, #19765A) | competition spoke | 3,438 | 5.1% vs uk-olympiad-in-artificial-intelligence-preparation | it has to run on somebody else's machine | a program that assumes where it is run | (this commit) |
+| 25 | coolest-projects-uk-project-ideas (cpr, #19765A) | competition spoke | 3,438 | 5.1% vs uk-olympiad-in-artificial-intelligence-preparation | it has to run on somebody else's machine | a program that assumes where it is run | 93c6a9ef |
+| 26 | big-bang-competition-project-help (bbc, #303E7E) | competition spoke | 3,587 | 4.6% vs coolest-projects-uk-project-ideas | five minutes is a word budget | arithmetic on a published limit | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

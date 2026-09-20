@@ -400,6 +400,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Astro Pi Mission Zero and Space Lab help: https://learn.modernagecoders.com/astro-pi-mission-zero-and-space-lab-help
 - UK Olympiad in AI preparation: https://learn.modernagecoders.com/uk-olympiad-in-artificial-intelligence-preparation
 - Coolest Projects UK project ideas: https://learn.modernagecoders.com/coolest-projects-uk-project-ideas
+- Big Bang Competition project help: https://learn.modernagecoders.com/big-bang-competition-project-help
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
