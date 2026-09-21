@@ -217,6 +217,7 @@ const SLUGS = [
   'ccea-gcse-digital-technology-programming-help',
   'ccea-a-level-software-systems-development-help',
   'multiplication-tables-check-year-4-practice',
+  'national-5-maths-tuition-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -513,6 +514,7 @@ const LLMS_LABELS = {
   'ccea-gcse-digital-technology-programming-help': 'CCEA GCSE Digital Technology programming help',
   'ccea-a-level-software-systems-development-help': 'CCEA A level Software Systems Development help',
   'multiplication-tables-check-year-4-practice': 'Multiplication tables check practice',
+  'national-5-maths-tuition-online': 'National 5 Maths tuition online',
 };
 
 function wireLlms(slugs) {
