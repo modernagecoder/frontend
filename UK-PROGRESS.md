@@ -139,7 +139,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 87 | best-coding-class-in-leeds (lds, #325343) | city (UK, Phase 4) | 3,637 | 1.2% vs best-coding-class-in-coventry | a sample fair to rows is fair to reality only once each row is one real thing (Leeds footfall; 157 weeks published twice) | reservoir sampling and defining the sampling unit | 2aa72122 |
 | 88 | best-coding-class-in-wolverhampton (wlv, #711414) | city (UK, Phase 4) | 3,335 | 1.5% vs best-coding-class-in-coventry | the city's own name is its most expensive prefix (trie of 655 NaPTAN stop names) | tries and shortest unique prefixes for autocomplete | 8edc7c00 |
 | 89 | best-coding-class-in-milton-keynes (mkn, #0F2B57) | city (UK, Phase 4) | 3,557 | 1.9% vs best-coding-class-in-manchester | more darts, sharper answer, at the square-root rate (Monte Carlo bus stop coverage, 39.9%) | Monte Carlo estimation and square-root error scaling | c142f336 |
-| 90 | best-coding-class-in-cambridge (cam, #962C7A) | city (UK, Phase 4) | 3,407 | 2.5% vs best-coding-class-in-manchester | keep the top ten without sorting the lot (min-heap top-k on Met Office NIAB; July 2026 provisional) | priority queues (binary heaps) and top-k selection | (this commit) |
+| 90 | best-coding-class-in-cambridge (cam, #962C7A) | city (UK, Phase 4) | 3,407 | 2.5% vs best-coding-class-in-manchester | keep the top ten without sorting the lot (min-heap top-k on Met Office NIAB; July 2026 provisional) | priority queues (binary heaps) and top-k selection | 1c5945fb |
+| 91 | best-coding-class-in-oxford (oxf, #0F4057) | city (UK, Phase 4) | 3,695 | 0.9% vs best-coding-class-in-milton-keynes | does rain remember yesterday? (two-state Markov chain on Radcliffe daily rainfall 1853-2025; tested at longer lags and on annual spread) | Markov chains (transition counts, stationary share, out-of-fit tests) | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

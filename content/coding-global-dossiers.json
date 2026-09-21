@@ -17069,5 +17069,72 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Met Office, the University of Cambridge or its department."
     ]
+  },
+  "best-coding-class-in-oxford": {
+    "market": "Oxford",
+    "bodyClass": "cg-oxf",
+    "pageType": "city",
+    "curriculumAuthority": "Oxford, Census 2021 via Nomis: TS001 Oxford local authority district (E07000178) 162,040 usual residents, 140,818 in households, 21,222 in communal establishments (13.1 percent); TS007A 7,852 aged 5 to 9 (4.8 percent), 15,874 aged 15 to 19 (9.8 percent), 21,992 aged 20 to 24 (13.6 percent), against England 5.9, 5.7 and 6.0 percent; TS068 54,356 schoolchildren and full-time students of 154,903 residents aged 5 and over, 35.1 percent, against 20.4 percent in England. University of Oxford, Facts and figures: more than 26,000 students including 12,460 undergraduates and 13,755 postgraduates; around 3,300 undergraduate places and over 23,000 applicants to start in 2024. University history: teaching existed in Oxford in some form in 1096. School of Geography and the Environment, Radcliffe Meteorological Station: records commenced 1772, unbroken daily air temperature from November 1813 (recommenced 14 November 1813), daily rainfall from January 1827, sunshine from February 1880, the longest single-site weather records in the United Kingdom, garden of Green Templeton College, octagonal tower 33 m high, instruments and exposure fully documented, pre-1972 rainfall converted from inches, daily values before 1853 may be multi-day accumulations. Department of Computer Science, Our history: OUCL set up in 1957 under Leslie Fox; Joan Walsh first OUCL woman awarded a DPhil in 1960; Programming Research Group founded in 1965 under Christopher Strachey; became the Department of Computer Science in 2011.",
+    "localProject": "Does rain remember yesterday? Radcliffe Meteorological Station daily dataset (file daily-data-to-Dec-2025), read 21 September 2026, the file's Wet day (1.0 mm or more) flag, 1 January 1853 to 31 December 2025: 63,187 days, no blank flags, 19,763 wet (31.3 percent). Pair counts wet-wet 9,766, wet-dry 9,997, dry-wet 9,997, dry-dry 33,426; P(wet after wet) 49.4 percent, P(wet after dry) 23.0 percent; stationary share 31.3 percent (equal to observed by construction). Lags after a wet day, observed against chain: 2 days 42.8/36.1, 3 days 39.5/32.5, 5 days 36.7/31.4, 7 days 34.6/31.3. Annual wet days over 173 years: mean 114.2, sd 14.7, min 79 (1921), max 150 (1872); 34,600 chain-simulated years sd 11.6; memoryless coin sd 8.8. Winter P(W|W) 52.0 percent, summer 46.2 percent. Lesson family: Markov chains (transition counts, stationary distribution, out-of-fit tests at longer lags and on spread); distinct from run-length encoding, moving averages and bootstrap.",
+    "requiredMentions": [
+      "162,040",
+      "140,818",
+      "21,222",
+      "21,992",
+      "54,356",
+      "154,903",
+      "63,187",
+      "19,763",
+      "Radcliffe Meteorological Station",
+      "Green Templeton",
+      "Leslie Fox",
+      "Programming Research Group"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Oxford: 162,040 usual residents; 140,818 in households; 21,222 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E07000178"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Oxford and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E07000178,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Oxford 54,356 students of 154,903 aged 5 and over (35.1 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E07000178,E92000001"
+      },
+      {
+        "claim": "School of Geography and the Environment, Radcliffe Meteorological Station: longest single-site records in the UK, Green Templeton College, dates of the daily series.",
+        "url": "https://www.geog.ox.ac.uk/research/climate/rms/"
+      },
+      {
+        "claim": "School of Geography and the Environment, Overview and brief history: 14 November 1813, the 33 m octagonal tower, documented instruments.",
+        "url": "https://www.geog.ox.ac.uk/research/climate/rms/intro.html"
+      },
+      {
+        "claim": "School of Geography and the Environment, Daily data: caution before 1853, pre-1972 rainfall converted from inches, the daily dataset to December 2025.",
+        "url": "https://www.geog.ox.ac.uk/research/climate/rms/daily-data.html"
+      },
+      {
+        "claim": "University of Oxford, Facts and figures: more than 26,000 students, 12,460 undergraduates, 13,755 postgraduates, around 3,300 places and over 23,000 applicants in 2024.",
+        "url": "https://www.ox.ac.uk/about/facts-and-figures"
+      },
+      {
+        "claim": "University of Oxford, History: teaching existed in Oxford in some form in 1096.",
+        "url": "https://www.ox.ac.uk/about/organisation/history"
+      },
+      {
+        "claim": "Department of Computer Science, Our history: OUCL 1957 under Leslie Fox, Joan Walsh 1960, Programming Research Group 1965 under Christopher Strachey, renamed 2011.",
+        "url": "https://www.cs.ox.ac.uk/aboutus/cshistory.html"
+      }
+    ],
+    "rejectedClaims": [
+      "Ada Lovelace papers at the Bodleian: not read from a primary page for this build, so not stated.",
+      "Met Office monthly Oxford file: read, but not used, so the page rests on one documented daily source.",
+      "Oxford Brookes University facts: not needed, and none claimed.",
+      "That the chain forecasts Oxford weather: the page presents it as a model to test, not a forecast.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the University of Oxford, its School of Geography and the Environment or its Department of Computer Science."
+    ]
   }
 }

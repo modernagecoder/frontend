@@ -148,7 +148,7 @@ Each page below is written for its own place, exam or competition, with its own 
 
 **Nations:** [England](/coding-and-ai-classes-in-england) &middot; [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) &middot; [Scotland](/coding-and-ai-classes-in-scotland) &middot; [Wales](/coding-and-ai-classes-in-wales)
 
-**Cities:** [Cambridge](/best-coding-class-in-cambridge) &middot; [Coventry](/best-coding-class-in-coventry) &middot; [Leeds](/best-coding-class-in-leeds) &middot; [London](/best-coding-class-in-london) &middot; [Manchester](/best-coding-class-in-manchester) &middot; [Milton Keynes](/best-coding-class-in-milton-keynes) &middot; [Wolverhampton](/best-coding-class-in-wolverhampton)
+**Cities:** [Cambridge](/best-coding-class-in-cambridge) &middot; [Coventry](/best-coding-class-in-coventry) &middot; [Leeds](/best-coding-class-in-leeds) &middot; [London](/best-coding-class-in-london) &middot; [Manchester](/best-coding-class-in-manchester) &middot; [Milton Keynes](/best-coding-class-in-milton-keynes) &middot; [Oxford](/best-coding-class-in-oxford) &middot; [Wolverhampton](/best-coding-class-in-wolverhampton)
 
 **London boroughs:** [Harrow](/coding-classes-in-harrow-london)
 
