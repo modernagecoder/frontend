@@ -101,7 +101,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 49 | ocr-a-level-computer-science-h446-help (och, #28471F) | exam door | 3,412 | 4.9% vs aqa-a-level-computer-science-7517-help | nobody types code in an OCR exam | an assessment architecture defined by what it does not contain | e9e79c05 |
 | 50 | ks2-coding-lessons-online (kstw, #392822) | door | 3,507 | 4.6% vs ai-classes-for-kids-uk | variables and selection are named in the primary curriculum | a published entitlement most families have never been shown | ab9fd9ad |
 | 51 | ks3-computing-tuition-online (ksth, #1D36A5) | door | 3,651 | 3.8% vs choosing-gcse-computer-science-year-9-options | the two lines nobody teaches | statutory content that survives badly because it is invisible when taught well | 00f924dd |
-| 52 | new-computing-gcse-explained (ncg, #441249) | exam door | 3,376 | 4.9% vs aqa-a-level-computer-science-7517-help | the first cohort is in Year 6 or Year 7 right now | a reform whose practical meaning is a year-group table and a list of unknowns | (this commit) |
+| 52 | new-computing-gcse-explained (ncg, #441249) | exam door | 3,376 | 4.9% vs aqa-a-level-computer-science-7517-help | the first cohort is in Year 6 or Year 7 right now | a reform whose practical meaning is a year-group table and a list of unknowns | 8ad40537 |
+| 53 | t-level-digital-coding-help (tld, #4C1D10) | exam door | 3,376 | 3.9% vs new-computing-gcse-explained | a top grade that needs two different kinds of evidence | a qualification whose grading rule rewards being good at two different things | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

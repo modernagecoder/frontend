@@ -208,6 +208,7 @@ const SLUGS = [
   'ks2-coding-lessons-online',
   'ks3-computing-tuition-online',
   'new-computing-gcse-explained',
+  't-level-digital-coding-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -495,6 +496,7 @@ const LLMS_LABELS = {
   'ks2-coding-lessons-online': 'Key Stage 2 coding lessons online',
   'ks3-computing-tuition-online': 'Key Stage 3 computing tuition online',
   'new-computing-gcse-explained': 'The new Computing GCSE explained',
+  't-level-digital-coding-help': 'T Level digital coding help',
 };
 
 function wireLlms(slugs) {
