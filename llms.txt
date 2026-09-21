@@ -449,6 +449,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - AI agents course for students, UK: https://learn.modernagecoders.com/ai-agents-course-for-students-uk
 - Coding for university students, UK: https://learn.modernagecoders.com/coding-for-university-students-uk
 - Coding before a degree apprenticeship: https://learn.modernagecoders.com/coding-before-a-degree-apprenticeship-uk
+- Cyber security course for teens, UK: https://learn.modernagecoders.com/cyber-security-course-for-teens-uk
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

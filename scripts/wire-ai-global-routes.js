@@ -233,6 +233,7 @@ const SLUGS = [
   'ai-agents-course-for-students-uk',
   'coding-for-university-students-uk',
   'coding-before-a-degree-apprenticeship-uk',
+  'cyber-security-course-for-teens-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -545,6 +546,7 @@ const LLMS_LABELS = {
   'ai-agents-course-for-students-uk': 'AI agents course for students, UK',
   'coding-for-university-students-uk': 'Coding for university students, UK',
   'coding-before-a-degree-apprenticeship-uk': 'Coding before a degree apprenticeship',
+  'cyber-security-course-for-teens-uk': 'Cyber security course for teens, UK',
 };
 
 function wireLlms(slugs) {
