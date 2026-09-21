@@ -222,3 +222,26 @@
 .bd-watch-btn--enroll:hover{background:#8F3F08}
 .bd-watch-more a+a,.bd-watch-more a{color:#8F3F08}
 .bd-watch-note{font-size:.82rem;color:#6B6259;line-height:1.55;margin:.7rem 0 0;text-align:left}
+
+/* ── Priority Live Demo band (2026-09-21) ───────────────────────────────
+   Selectors carry body.editorial so the theme's link rules cannot recolour
+   the button text (the ".x-root a beats .x-btn" trap). */
+body.editorial .pd-home{padding-top:clamp(2rem,4vw,3.2rem);padding-bottom:clamp(2rem,4vw,3.2rem)}
+body.editorial .pd-home-inner{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(1.5rem,4vw,3rem);align-items:center;padding:clamp(1.4rem,3vw,2.4rem);background:#FFF7EB;border:1px solid rgba(180,83,9,.28);border-radius:18px}
+body.editorial .pd-home-kicker{display:inline-block;font:600 12px/1 "JetBrains Mono",ui-monospace,monospace;letter-spacing:.12em;text-transform:uppercase;color:#92400E}
+body.editorial .pd-home h2{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:clamp(1.6rem,3.2vw,2.3rem);line-height:1.15;letter-spacing:-.02em;color:#1C1814;margin:.7rem 0 .8rem}
+body.editorial .pd-home p{color:#4A423A;font-size:1rem;line-height:1.65;margin:0}
+body.editorial .pd-home-actions{display:flex;flex-wrap:wrap;align-items:center;gap:.9rem 1.2rem;margin:1.3rem 0 .8rem}
+body.editorial .pd-home a.pd-home-btn{display:inline-flex;gap:.35em;align-items:center;justify-content:center;min-height:48px;padding:.8rem 1.5rem;border-radius:10px;background:#B45309;color:#fff;font-weight:700;font-size:1rem;text-decoration:none}
+body.editorial .pd-home a.pd-home-btn:hover{background:#92400E;color:#fff}
+body.editorial .pd-home a.pd-home-link{display:inline-flex;align-items:center;min-height:44px;color:#92400E;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+body.editorial .pd-home p.pd-home-fine{font-size:.875rem;color:#6B6259}
+body.editorial .pd-home-steps{list-style:none;counter-reset:pdh;margin:0;padding:0;display:grid;gap:.9rem}
+body.editorial .pd-home-steps li{counter-increment:pdh;position:relative;padding:.95rem 1rem .95rem 3.2rem;background:#fff;border:1px solid #E7E0D4;border-radius:12px}
+body.editorial .pd-home-steps li::before{content:counter(pdh);position:absolute;left:1rem;top:1rem;width:1.6rem;height:1.6rem;border-radius:50%;background:#1C1814;color:#FBF8F2;font:600 13px/1.6rem "JetBrains Mono",ui-monospace,monospace;text-align:center}
+body.editorial .pd-home-steps b{display:block;color:#1C1814;font-size:1rem;margin-bottom:.15rem}
+body.editorial .pd-home-steps span{display:block;color:#6B6259;font-size:.92rem;line-height:1.55}
+@media (max-width:860px){
+  body.editorial .pd-home-inner{grid-template-columns:1fr}
+  body.editorial .pd-home a.pd-home-btn{width:100%}
+}

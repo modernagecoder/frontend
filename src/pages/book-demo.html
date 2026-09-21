@@ -144,7 +144,7 @@
                 "name": "How long is the demo class?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Demo classes are typically 30-45 minutes long, giving you enough time to experience our teaching style and ask questions."
+                    "text": "Free demo classes are typically 30-45 minutes long, giving you enough time to experience our teaching style and ask questions. The paid Priority Live Demo is a full class of about 45 to 60 minutes."
                 }
             },
             {
@@ -176,7 +176,7 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
     <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626g">
-    <link rel="stylesheet" href="/css/book-demo-redesign.css?v=20260907">
+    <link rel="stylesheet" href="/css/book-demo-redesign.css?v=20260921a">
 
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
@@ -485,6 +485,30 @@
                     </svg>
                     <span>10,000+ Students Trained</span>
                 </div>
+            </div>
+        </section>
+
+        <!-- ====== PRIORITY LIVE DEMO BAND (2026-09-21) ======
+             Facts from scripts/brand-facts.json (priorityDemo). The button opens the payment form
+             through /js/demo-choice.js ([data-pd-book]); without it the link goes to /book-demo.
+             One currency only: rupees static, .pd-price becomes dollars outside India. -->
+        <section class="section pd-home" aria-labelledby="pd-home-title">
+            <div class="pd-home-inner">
+                <div class="pd-home-copy">
+                    <span class="pd-home-kicker">Priority Live Demo</span>
+                    <h2 id="pd-home-title">Want your demo today or tomorrow? Reserve a mentor.</h2>
+                    <p>The free demo below is a waiting list, because our mentors teach live all day. The Priority Live Demo is a full class of about 45 to 60 minutes at a time you pick, with a mentor reserved only for you.</p>
+                    <div class="pd-home-actions">
+                        <a class="pd-home-btn" href="/book-demo" data-pd-book="book-demo">Book priority demo &middot; <span class="pd-price">₹499</span></a>
+                        <a class="pd-home-link" href="/free-demo-vs-priority-demo">Compare with the free demo</a>
+                    </div>
+                    <p class="pd-home-fine">One-time fee. No enrolment required. Rated 4.9 across 547 Google reviews.</p>
+                </div>
+                <ol class="pd-home-steps">
+                    <li><b>A real class, not a sales call</b><span>The student solves a problem and builds something that works, in coding or maths.</span></li>
+                    <li><b>A written skill report</b><span>After the class the mentor sends a skill report and a personal learning roadmap on WhatsApp.</span></li>
+                    <li><b>Fee adjusted if you enrol</b><span>Send us your demo Order ID and we take the demo fee off your first month.</span></li>
+                </ol>
             </div>
         </section>
 
@@ -990,8 +1014,9 @@
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>Demo classes typically last 30-45 minutes. This gives you enough time to experience our
-                            teaching style, understand our curriculum, and ask any questions you may have.</p>
+                        <p>Free demo classes typically last 30-45 minutes. This gives you enough time to experience our
+                            teaching style, understand our curriculum, and ask any questions you may have. The paid
+                            Priority Live Demo is a full class of about 45 to 60 minutes.</p>
                     </div>
                 </div>
 
