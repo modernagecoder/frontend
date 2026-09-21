@@ -17790,5 +17790,63 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the ONS, National Records of Scotland, the University of Glasgow or Strathclyde Partnership for Transport."
     ]
+  },
+  "best-coding-class-in-cardiff": {
+    "market": "Cardiff",
+    "bodyClass": "cg-crf",
+    "pageType": "city",
+    "curriculumAuthority": "Cardiff, Census 2021 via Nomis: TS001 Cardiff local authority (W06000015) 362,308 usual residents, 346,893 in households (95.7 percent), 15,415 in communal establishments (4.3 percent); TS007A 21,504 aged 5 to 9 (5.9 percent), 37,885 aged 20 to 24 (10.5 percent), 29,300 aged 25 to 29 (8.1 percent), against Wales 5.7, 6.0 and 6.0 percent; TS068 94,734 schoolchildren and full-time students of 343,239 residents aged 5 and over, 27.6 percent, against 19.9 percent in Wales. ONS Towns and cities, characteristics of built-up areas, Census 2021, Table 1d: 579 Welsh built-up areas, Cardiff 348,535, Swansea 170,085, Newport 130,890 (rounded to the nearest 5). Cardiff University: opened 24 October 1883 as the University College of South Wales and Monmouthshire; Royal Charter 1884; 13 academic staff, 12 departments, 102 full-time and 49 part-time students; founding institution of the University of Wales in 1893; Russell Group; 31,505 students from 142 countries. Amgueddfa Cymru: National Museum Cardiff, Cathays Park, free admission tickets.",
+    "localProject": "Is Cardiff as big as it should be? ONS built-up areas Census 2021, Table 1d, Wales: 579 BUAs (1 Major, 2 Large, 15 Medium, 87 Small, 474 Minor), rounded to 5. Zipf predictions from Cardiff 348,535: Swansea 170,085 against 174,268; Newport 130,890 against 116,178; Barry 56,605 against 87,134; Bridgend 51,760 against 69,707; Merthyr Tydfil 39,535 against 34,854. Log-log slopes: top 10 -0.999; top 50 -0.814; 54 BUAs of 10,000+ -0.809 (fitted rank one 246,650); all 579 -1.259. Lesson family: Zipf's law and power laws (rank-size, log-log fits, range, primate city); distinct from least squares trends, fractal dimension and Benford.",
+    "requiredMentions": [
+      "346,893",
+      "15,415",
+      "37,885",
+      "94,734",
+      "343,239",
+      "170,085",
+      "130,890",
+      "Zipf",
+      "24 October 1883",
+      "31,505",
+      "rank-size",
+      "University College of South Wales"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Cardiff: 362,308 usual residents; 346,893 in households; 15,415 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=W06000015"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Cardiff and Wales five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=W06000015,W92000004"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Cardiff 94,734 students of 343,239 aged 5 and over (27.6 percent); Wales 19.9 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=W06000015,W92000004"
+      },
+      {
+        "claim": "ONS, Towns and cities, characteristics of built-up areas, England and Wales: Census 2021 (Table 1d, Wales).",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing/datasets/townsandcitiescharacteristicsofbuiltupareasenglandandwalescensus2021"
+      },
+      {
+        "claim": "Cardiff University, history: opened 24 October 1883; early staff and student numbers; University of Wales 1893.",
+        "url": "https://www.cardiff.ac.uk/about/our-profile/history"
+      },
+      {
+        "claim": "Cardiff University, facts and figures: Russell Group; 31,505 students from 142 countries.",
+        "url": "https://www.cardiff.ac.uk/about/facts-and-figures"
+      },
+      {
+        "claim": "Amgueddfa Cymru, National Museum Cardiff: Cathays Park, free admission tickets.",
+        "url": "https://museum.wales/cardiff/"
+      }
+    ],
+    "rejectedClaims": [
+      "Welsh-language place-name analysis: considered and dropped because no bilingual primary dataset could be downloaded, and letter-frequency work overlaps the Caesar cipher lesson.",
+      "Cardiff Castle facts: the site did not respond, so not stated.",
+      "That proximity to Cardiff causes Barry and Bridgend to be small: presented only as a possible explanation.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the ONS, Cardiff University or Amgueddfa Cymru."
+    ]
   }
 }
