@@ -17520,5 +17520,63 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Environment Agency, the National Oceanography Centre, the National Tidal and Sea Level Facility or the University of Liverpool."
     ]
+  },
+  "best-coding-class-in-newcastle-upon-tyne": {
+    "market": "Newcastle upon Tyne",
+    "bodyClass": "cg-ncl",
+    "pageType": "city",
+    "curriculumAuthority": "Newcastle upon Tyne, Census 2021 via Nomis: TS001 Newcastle upon Tyne local authority (E08000021) 300,125 usual residents, 282,879 in households (94.3 percent), 17,246 in communal establishments (5.7 percent); TS007A 23,355 aged 15 to 19 (7.8 percent), 36,645 aged 20 to 24 (12.2 percent), 23,390 aged 25 to 29 (7.8 percent), against England 5.7, 6.0 and 6.6 percent; TS068 82,809 schoolchildren and full-time students of 284,474 residents aged 5 and over, 29.1 percent, against 20.4 percent in England. Literary and Philosophical Society of Newcastle upon Tyne: founded 1793; purpose-built library opened 1825; George Stephenson demonstrated his miners' safety lamp to the Society in 1815; Joseph Swan lit a public room with electric light for the first time there in 1881. Newcastle University, History: School of Medicine and Surgery formally established on 1 October 1834, first cohort fewer than a dozen students.",
+    "localProject": "Four colours for 26 wards. ONS Wards December 2023 (BGC and BFC agree), 26 wards inside the Newcastle local authority; adjacency by shared boundary segment: 59 pairs; four point-only contacts excluded. Wingrove 8 neighbours; Walker and Manor Park 2. Greedy alphabetical 6 colours; largest first 5; 100,000 random orders: 4 colours about 17 percent, 5 about 77, 6 about 6, 7 in 7 orders. Backtracking: 3 colours impossible (1,704 tries), 4 found (81 tries). Cliques of four: Arthur's Hill, Elswick, Monument, Wingrove; Callerton & Throckley, Chapel, Denton & Westerhope, Lemington. Colour classes 7, 7, 8, 4. 34 triangles. Lesson family: graph colouring (greedy order dependence, clique lower bounds, exact backtracking); distinct from constraint satisfaction puzzles, Voronoi and union-find.",
+    "requiredMentions": [
+      "300,125",
+      "282,879",
+      "17,246",
+      "36,645",
+      "82,809",
+      "284,474",
+      "Wingrove",
+      "Literary and Philosophical Society",
+      "Joseph Swan",
+      "four colour",
+      "1 October 1834",
+      "graph colouring"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Newcastle upon Tyne: 300,125 usual residents; 282,879 in households; 17,246 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E08000021"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Newcastle upon Tyne and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E08000021,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Newcastle upon Tyne 82,809 students of 284,474 aged 5 and over (29.1 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E08000021,E92000001"
+      },
+      {
+        "claim": "ONS Open Geography, Wards December 2023 Boundaries UK BGC: the 26 Newcastle wards.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Wards_December_2023_Boundaries_UK_BGC/FeatureServer/0"
+      },
+      {
+        "claim": "ONS Open Geography, Wards December 2023 Boundaries UK BFC: full-resolution check of the same adjacency.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Wards_December_2023_Boundaries_UK_BFC/FeatureServer/0"
+      },
+      {
+        "claim": "Literary and Philosophical Society of Newcastle upon Tyne, About us: 1793, 1825, Stephenson 1815, Swan 1881.",
+        "url": "https://www.litandphil.org.uk/about-us"
+      },
+      {
+        "claim": "Newcastle University, History: School of Medicine and Surgery established on 1 October 1834.",
+        "url": "https://www.ncl.ac.uk/who-we-are/history/"
+      }
+    ],
+    "rejectedClaims": [
+      "Newcastle University and Northumbria University student counts: no figure found on the pages read, so none stated.",
+      "The year given on the University history page for John Snow's cholera work: not used.",
+      "That any colouring shown is the only four-colouring: the page presents one example.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the ONS, the Literary and Philosophical Society of Newcastle upon Tyne or Newcastle University."
+    ]
   }
 }

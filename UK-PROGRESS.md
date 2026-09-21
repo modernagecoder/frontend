@@ -146,7 +146,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 94 | best-coding-class-in-derby (dby, #365953) | city (UK, Phase 4) | 3,402 | 2.6% vs best-coding-class-in-nottingham | the busiest minute on Derby's buses (sweep line over BODS GTFS intervals; tie rule 109 vs 117) | sweep line / interval overlap (event sorting, tie rules) | 0569071a |
 | 95 | best-coding-class-in-bradford (bfd, #5C1F3D) | city (UK, Phase 4) | 3,421 | 2.5% vs best-coding-class-in-derby | a walk through 115 years of Bradford rain (random walk against shuffled walks; no trend claimed) | random walks (cumulative steps, square-root spread, one-sided stays) | d5a77a08 |
 | 96 | best-coding-class-in-sheffield (shf, #312556) | city (UK, Phase 4) | 3,383 | 3.8% vs best-coding-class-in-bradford | one record, many straight lines (least-squares trends by start year; residuals; no forecast) | least squares linear regression | b9de76c4 |
-| 97 | best-coding-class-in-liverpool (lpl, #14545D) | city (UK, Phase 4) | 3,477 | 4.3% vs best-coding-class-in-sheffield | hearing the moon in a month of Mersey water (periodogram of EA tide gauge; M2 and S2; spring-neap beat) | Fourier analysis and periodicity (periodogram, resolution, beats) | (this commit) |
+| 97 | best-coding-class-in-liverpool (lpl, #14545D) | city (UK, Phase 4) | 3,477 | 4.3% vs best-coding-class-in-sheffield | hearing the moon in a month of Mersey water (periodogram of EA tide gauge; M2 and S2; spring-neap beat) | Fourier analysis and periodicity (periodogram, resolution, beats) | c5a9f4d2 |
+| 98 | best-coding-class-in-newcastle-upon-tyne (ncl, #1D2787) | city (UK, Phase 4) | 3,398 | 2.5% vs best-coding-class-in-derby | four colours for 26 wards (graph colouring of ONS wards; greedy order vs backtracking; K4 lower bound) | graph colouring (greedy, cliques, backtracking) | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
