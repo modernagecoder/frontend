@@ -215,6 +215,7 @@ const SLUGS = [
   'wjec-gcse-computer-science-help-wales',
   'wjec-gcse-digital-technology-help-wales',
   'ccea-gcse-digital-technology-programming-help',
+  'ccea-a-level-software-systems-development-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -509,6 +510,7 @@ const LLMS_LABELS = {
   'wjec-gcse-computer-science-help-wales': 'WJEC GCSE Computer Science help',
   'wjec-gcse-digital-technology-help-wales': 'WJEC GCSE Digital Technology help',
   'ccea-gcse-digital-technology-programming-help': 'CCEA GCSE Digital Technology programming help',
+  'ccea-a-level-software-systems-development-help': 'CCEA A level Software Systems Development help',
 };
 
 function wireLlms(slugs) {

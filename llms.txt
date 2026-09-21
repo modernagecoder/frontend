@@ -431,6 +431,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - WJEC GCSE Computer Science help: https://learn.modernagecoders.com/wjec-gcse-computer-science-help-wales
 - WJEC GCSE Digital Technology help: https://learn.modernagecoders.com/wjec-gcse-digital-technology-help-wales
 - CCEA GCSE Digital Technology programming help: https://learn.modernagecoders.com/ccea-gcse-digital-technology-programming-help
+- CCEA A level Software Systems Development help: https://learn.modernagecoders.com/ccea-a-level-software-systems-development-help
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
