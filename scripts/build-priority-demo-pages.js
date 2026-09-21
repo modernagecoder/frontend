@@ -135,7 +135,7 @@ function renderPage(p) {
   const faq = p.faqs.map(([q, a]) =>
     '          <details><summary>' + q + '</summary><p>' + priceHtml(a) + '</p></details>').join('\n');
 
-  const bookBtn = '<a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book>Book priority demo · ' + PRICE_HTML + '</a>';
+  const bookBtn = '<a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book="cluster">Book priority demo · ' + PRICE_HTML + '</a>';
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -288,14 +288,8 @@ ${faq}
             var spans = document.querySelectorAll('.pd-price');
             for (var i = 0; i < spans.length; i++) spans[i].textContent = '$10';
         }
-        // Open the payment form right here when the chooser script is loaded;
-        // otherwise the link falls through to /book-demo.
-        document.addEventListener('click', function (e) {
-            var a = e.target && e.target.closest ? e.target.closest('[data-pd-book]') : null;
-            if (!a || !window.MACDemoChoice || !window.MACDemoChoice.book) return;
-            e.preventDefault();
-            window.MACDemoChoice.book();
-        });
+        // [data-pd-book] links are opened by src/js/demo-choice.js, which is
+        // on every page; without it the link falls through to /book-demo.
     })();
     </script>
 </body>

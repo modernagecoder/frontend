@@ -8,8 +8,14 @@
  * House rules for this content
  *   - {{PRICE}} renders as the visitor's own price (rupees in India, dollars
  *     elsewhere), the same way course pricing works. Never type a price.
- *   - No invented numbers. Batch sizes, demo length, student counts and refund
- *     terms vary across the site, so these pages do not state them.
+ *   - No invented numbers. Batch sizes, student counts and refund terms vary
+ *     across the site, so these pages do not state them.
+ *   - Owner decisions, 2026-09-21 (scripts/brand-facts.json, priorityDemo):
+ *     the priority demo is a full class of about 45 to 60 minutes; the fee is
+ *     adjusted against the first month's fee on enrolment (done by staff
+ *     against the demo Order ID, not by the checkout); and every paid demo
+ *     ends with a written skill report and learning roadmap on WhatsApp.
+ *     Say these the same way on every page.
  *   - "Best in the world" is written as what we set out to do and how we work
  *     toward it, never as a ranking nobody can check.
  *   - Every internal link is validated by the build script against _redirects
@@ -84,7 +90,7 @@ const pages = [
     eyebrow: 'Priority Live Demo',
     h1: 'A guaranteed live demo, <em>today or tomorrow.</em>',
     lede: 'Our mentors spend the day teaching. A free demo waits until one of them is free. The Priority Live Demo does not wait: you choose the slot, a mentor is reserved for you, and the class happens.',
-    answer: 'The Priority Live Demo is a one-time paid demo class ({{PRICE}}). You pick the day and time, usually today or tomorrow, and a Modern Age Coders mentor is reserved for that slot. It is the same live teaching our enrolled students get, confirmed on WhatsApp within the hour. The free demo still exists, but it is a waiting list with no promised date.',
+    answer: 'The Priority Live Demo is a one-time paid demo class ({{PRICE}}). You pick the day and time, usually today or tomorrow, and a Modern Age Coders mentor is reserved for that slot. It is a full class of about 45 to 60 minutes, the same live teaching our enrolled students get, confirmed on WhatsApp within the hour. Afterwards the mentor sends a written skill report and a learning roadmap, and if you enrol the demo fee is adjusted against your first month. The free demo still exists, but it is a waiting list with no promised date.',
     sections: [
       {
         h2: 'What the Priority Live Demo is',
@@ -95,6 +101,16 @@ const pages = [
   <li><b>Guaranteed slot.</b> Today or tomorrow in most cases, at a time you pick.</li>
   <li><b>A mentor reserved for you.</b> Not whoever happens to be free.</li>
   <li><b>The same teaching as a paid class.</b> The demo is a sample of the real thing, so it has to be the real thing.</li>
+</ul>`
+      },
+      {
+        h2: 'What your fee gets you',
+        html: `
+<p>The fee pays for a mentor's reserved time, and we want it to be worth more than the wait it saves.</p>
+<ul>
+  <li><b>A full class, about 45 to 60 minutes.</b> Long enough for the student to meet a real problem, get stuck, and work their way out with the mentor.</li>
+  <li><b>A written skill report and learning roadmap.</b> After the class the mentor writes down what the student already knows, what they built, where they are strong and what to learn next. It reaches you on WhatsApp, usually within a day, and it is yours to keep whether or not you join us.</li>
+  <li><b>The fee comes off your first month.</b> If you enrol, send us your demo Order ID on WhatsApp and we adjust the demo fee against your first month's fee. For a family that joins, the priority demo ends up costing nothing extra.</li>
 </ul>`
       },
       {
@@ -126,7 +142,10 @@ const pages = [
       ['Is the priority demo a full class or a sales pitch?', 'It is a class. A mentor teaches a real topic and the student builds or solves something. Fees and batches are discussed only if you ask.'],
       ['Can I still take a free demo?', 'Yes. The free demo is a waiting list. Mentors take free demos only when they are not teaching, so we cannot promise a date.'],
       ['How soon can the priority demo happen?', 'Usually today or tomorrow. You pick the day and time when you book, and we confirm on WhatsApp within the hour.'],
-      ['Who teaches the demo?', 'A Modern Age Coders mentor who teaches our regular batches. The demo is meant to show you our real teaching.']
+      ['Who teaches the demo?', 'A Modern Age Coders mentor who teaches our regular batches. The demo is meant to show you our real teaching.'],
+      ['How long is the priority demo?', 'It is a full class of about 45 to 60 minutes. That is long enough for the student to work on a real problem with the mentor rather than watch a presentation.'],
+      ['Is the demo fee adjusted if we enrol?', 'Yes. Keep the Order ID from your booking. When you enrol, send it to us on WhatsApp and we adjust the demo fee against your first month. Our team does this for you, so you will not see it as a discount on the payment page.'],
+      ['Do we get anything in writing after the demo?', 'Yes. The mentor sends a written skill report and a personal learning roadmap on WhatsApp, usually within a day of the class. You keep it whether or not you enrol.']
     ]
   },
 
