@@ -75,7 +75,7 @@ module.exports = {
     ['Language', 'Python 3'],
     ['Ages', 'About 10 upwards'],
     ['Level', 'First program to advanced'],
-    ['Exams', 'English boards, WJEC, CCEA, SQA'],
+    ['Exams', 'English boards, WJEC, CCEA, Qualifications Scotland'],
     ['Group', 'Five to ten at one level'],
     ['Or', 'One to one'],
     ['Habit', 'Predict, run, compare'],
@@ -226,7 +226,7 @@ module.exports = {
     cells: [
       { h3: 'Predict before you run', p: 'Nothing is executed until the learner has said what they expect. It is the fastest way to find out what they actually believe.' },
       { h3: 'Code read by a person', p: 'Every week, with reasons. A recorded course cannot tell a learner why their working program is badly built.' },
-      { h3: 'Boards named, not guessed', p: 'Teachers work to the qualification a school has chosen, whether that is an English board, WJEC, CCEA or SQA.' },
+      { h3: 'Boards named, not guessed', p: 'Teachers work to the qualification a school has chosen, whether that is an English board, WJEC, CCEA or Qualifications Scotland, which replaced SQA in February 2026.' },
       { h3: 'AI used openly', p: 'Permitted once a learner can predict the answer, and logged: what the tool offered, what was kept, and why.' },
       { h3: 'Groups by level', p: 'Five to ten learners at the same stage, reading each other\'s code and disagreeing about it.' },
       { h3: 'Work kept publicly', p: 'Projects go to the learner\'s own repository, which is what a school, university or employer can actually open.' }

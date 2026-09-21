@@ -14,7 +14,7 @@ United Kingdom · Python · Primary school to adult
 
 Here is something most UK parents never discover. One of the exam boards has published a document that states exactly which parts of Python 3 its practical paper will draw on. It runs to eighteen pages, it names the library modules it will use, and the board commits in writing not to go beyond it. That changes what a Python class for a British learner should look like: there is a known floor, it is public, and the interesting work begins above it rather than inside it. This page sets out what is in that subset, which UK qualifications actually require Python and which merely allow it, and how we teach so that a learner is fluent well past the edges of any published list.
 
-At a glance: Language: Python 3; Ages: About 10 upwards; Level: First program to advanced; Exams: English boards, WJEC, CCEA, SQA; Group: Five to ten at one level; Or: One to one; Habit: Predict, run, compare; Start: One free lesson. Rated 4.9 across 547 Google reviews.
+At a glance: Language: Python 3; Ages: About 10 upwards; Level: First program to advanced; Exams: English boards, WJEC, CCEA, Qualifications Scotland; Group: Five to ten at one level; Or: One to one; Habit: Predict, run, compare; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three Python courses for UK learners
 
@@ -159,7 +159,7 @@ Teachers work from India, where the clocks do not move, so the UK is five and a 
 
 - **Predict before you run** Nothing is executed until the learner has said what they expect. It is the fastest way to find out what they actually believe.
 - **Code read by a person** Every week, with reasons. A recorded course cannot tell a learner why their working program is badly built.
-- **Boards named, not guessed** Teachers work to the qualification a school has chosen, whether that is an English board, WJEC, CCEA or SQA.
+- **Boards named, not guessed** Teachers work to the qualification a school has chosen, whether that is an English board, WJEC, CCEA or Qualifications Scotland, which replaced SQA in February 2026.
 - **AI used openly** Permitted once a learner can predict the answer, and logged: what the tool offered, what was kept, and why.
 - **Groups by level** Five to ten learners at the same stage, reading each other's code and disagreeing about it.
 - **Work kept publicly** Projects go to the learner's own repository, which is what a school, university or employer can actually open.
