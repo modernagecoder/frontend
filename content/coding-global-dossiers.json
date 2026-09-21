@@ -16949,5 +16949,67 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Department for Transport, the council, the University of Wolverhampton or any bus operator."
     ]
+  },
+  "best-coding-class-in-milton-keynes": {
+    "market": "Milton Keynes",
+    "bodyClass": "cg-mkn",
+    "pageType": "city",
+    "curriculumAuthority": "Milton Keynes, Census 2021 via Nomis: TS001 Milton Keynes local authority (E06000042) 287,060 usual residents, 284,994 in households, 2,066 in communal establishments; TS007A aged 5 to 9 20,264 (7.1 percent), 10 to 14 20,615 (7.2 percent), 35 to 39 23,020 (8.0 percent), 20 to 24 5.2 percent, against England 5.9, 6.0, 6.7 and 6.0 percent (band total 287,061, never summed on the page); TS068 59,908 schoolchildren and full-time students of 269,327 residents aged 5 and over, 22.2 percent, against 20.4 percent in England. Bletchley Park, E159 Colossus in Context Part 1: \"in January 1944, the first Colossus computer was delivered to Bletchley Park. This machine and the nine that followed it\"; built to assist breaking messages enciphered with the Lorenz machine, known at BP as Tunny; operated in the Newmanry. The National Museum of Computing, Rebuilding Colossus: information gathered in 1993 comprised eight wartime photographs taken of Colossus in 1945 and fragments of circuit diagrams; original mechanical drawings deliberately burnt in 1960; rebuild in the room in Block H where Colossus No 9 stood; the Duke of Kent formally opened the Bletchley Park Museums and inaugurated the Colossus Rebuild Project on 18 July 1994. Milton Keynes City Council, Visitor Travel Planning: over 300km of dedicated off-road walking and cycling pathways, known as the Redways.",
+    "localProject": "More darts, sharper answer, at the square-root rate. NaPTAN via the DfT API, area 049, read 21 September 2026: 1,316 active BCT and BCS stops. Boundary: ONS Local Authority Districts December 2023 generalised clipped, E06000042, British National Grid, 308.67 square kilometres on that file by our calculation, one ring. Random points in the 20.2 by 25.3 km bounding box, seed 20260921, kept when inside (about 60 percent), covered when a stop lies within 400 m (grid lookup): n 100 0.370 plus or minus 0.048; n 1,000 0.411 plus or minus 0.016; n 10,000 0.3968 plus or minus 0.0049; n 100,000 0.3991 plus or minus 0.0015; 50 m grid 123,471 points inside, 0.3978. Area is not population, as the page states. Lesson family: Monte Carlo estimation and square-root error scaling; distinct from bootstrap, point-in-polygon (Brainport) and bin width.",
+    "requiredMentions": [
+      "287,060",
+      "284,994",
+      "2,066",
+      "20,264",
+      "20,615",
+      "23,020",
+      "59,908",
+      "Block H",
+      "18 July 1994",
+      "300km",
+      "Newmanry",
+      "Tunny"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Milton Keynes: 287,060 usual residents; 284,994 in households; 2,066 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E06000042&measures=20100"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Milton Keynes and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E06000042,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Milton Keynes 59,908 students of 269,327 aged 5 and over (22.2 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E06000042,E92000001"
+      },
+      {
+        "claim": "Department for Transport, NaPTAN access nodes API, area 049: active stops and coordinates.",
+        "url": "https://naptan.api.dft.gov.uk/v1/access-nodes?dataFormat=csv&atcoAreaCodes=049"
+      },
+      {
+        "claim": "ONS Open Geography Portal, Local Authority Districts December 2023 boundaries (generalised clipped): Milton Keynes polygon.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_December_2023_Boundaries_UK_BGC/FeatureServer/0"
+      },
+      {
+        "claim": "Bletchley Park, Colossus in Context Part 1: January 1944 delivery, ten machines, Tunny, the Newmanry.",
+        "url": "https://www.bletchleypark.org.uk/our-story/e159-colossus-in-context-part-1/"
+      },
+      {
+        "claim": "The National Museum of Computing, Rebuilding Colossus: 1993 photographs, drawings burnt in 1960, Block H, 18 July 1994.",
+        "url": "https://www.tnmoc.org/rebuilding-colossus"
+      },
+      {
+        "claim": "Milton Keynes City Council, Visitor Travel Planning: over 300km of Redways.",
+        "url": "https://www.milton-keynes.gov.uk/highways/visitor-travel-planning"
+      }
+    ],
+    "rejectedClaims": [
+      "Open University facts: its facts page returned 403, so none are used.",
+      "The official area of the borough: only our calculation on a generalised boundary is given, labelled as such.",
+      "How many people live near a stop: area is not population, and the page says so.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the DfT, the ONS, the council, Bletchley Park or The National Museum of Computing."
+    ]
   }
 }
