@@ -100,7 +100,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 48 | choosing-gcse-computer-science-year-9-options (yno, #A51D31) | door | 3,647 | 3.9% vs aqa-a-level-computer-science-7517-help | the form records a decision made two years earlier | a decision whose real timing sits years before the form | be482c2c |
 | 49 | ocr-a-level-computer-science-h446-help (och, #28471F) | exam door | 3,412 | 4.9% vs aqa-a-level-computer-science-7517-help | nobody types code in an OCR exam | an assessment architecture defined by what it does not contain | e9e79c05 |
 | 50 | ks2-coding-lessons-online (kstw, #392822) | door | 3,507 | 4.6% vs ai-classes-for-kids-uk | variables and selection are named in the primary curriculum | a published entitlement most families have never been shown | ab9fd9ad |
-| 51 | ks3-computing-tuition-online (ksth, #1D36A5) | door | 3,651 | 3.8% vs choosing-gcse-computer-science-year-9-options | the two lines nobody teaches | statutory content that survives badly because it is invisible when taught well | (this commit) |
+| 51 | ks3-computing-tuition-online (ksth, #1D36A5) | door | 3,651 | 3.8% vs choosing-gcse-computer-science-year-9-options | the two lines nobody teaches | statutory content that survives badly because it is invisible when taught well | 00f924dd |
+| 52 | new-computing-gcse-explained (ncg, #441249) | exam door | 3,376 | 4.9% vs aqa-a-level-computer-science-7517-help | the first cohort is in Year 6 or Year 7 right now | a reform whose practical meaning is a year-group table and a list of unknowns | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

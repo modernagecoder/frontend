@@ -207,6 +207,7 @@ const SLUGS = [
   'ocr-a-level-computer-science-h446-help',
   'ks2-coding-lessons-online',
   'ks3-computing-tuition-online',
+  'new-computing-gcse-explained',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -493,6 +494,7 @@ const LLMS_LABELS = {
   'ocr-a-level-computer-science-h446-help': 'OCR A-level Computer Science H446 help',
   'ks2-coding-lessons-online': 'Key Stage 2 coding lessons online',
   'ks3-computing-tuition-online': 'Key Stage 3 computing tuition online',
+  'new-computing-gcse-explained': 'The new Computing GCSE explained',
 };
 
 function wireLlms(slugs) {

@@ -423,6 +423,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - OCR A-level Computer Science H446 help: https://learn.modernagecoders.com/ocr-a-level-computer-science-h446-help
 - Key Stage 2 coding lessons online: https://learn.modernagecoders.com/ks2-coding-lessons-online
 - Key Stage 3 computing tuition online: https://learn.modernagecoders.com/ks3-computing-tuition-online
+- The new Computing GCSE explained: https://learn.modernagecoders.com/new-computing-gcse-explained
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
