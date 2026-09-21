@@ -181,7 +181,7 @@ function buildKeyFacts() {
 - **Pricing (India):** ${tiers.join('. ')}. Visitors outside India see a price set for their own country, shown in their local currency.
 - **Class size:** 5 to 10 students per group batch, 3 to 4 in a mini batch, or 1-on-1 (small batches, not 100+).
 - **Format:** Live and interactive over video. Recorded for revision.
-- **Trial:** Free demo class. Book at ${SITE}/book-demo
+- **Trial:** Free demo class (a waiting list, no promised date) at ${SITE}/book-demo, or the paid Priority Live Demo at ${SITE}/priority-demo: a guaranteed full class of about 45 to 60 minutes today or tomorrow, with a written skill report afterwards, and the fee adjusted against the first month on enrolment.
 - **Audience:** Kids (6-12), Teens (13-17), College students, Working professionals, Corporate teams.
 - **Languages:** Scratch, Python, Java, JavaScript, C++, HTML/CSS, React, TypeScript, Kotlin, Swift, Go, plus AI/ML, data science, mathematics.
 - **Programs:** Coding for Kids/Teens/College, Mathematics Mastery, Vibe Coding, Girls in Tech, Summer Camps, Corporate Training.
@@ -204,7 +204,7 @@ function buildKeyFacts() {
 
 **Q: What is Vibe Coding?** AI-powered coding program, students build real projects using AI tools alongside traditional programming. Available for kids, teens, college.
 
-**Q: Free demo classes?** Yes, every student can book one before enrolling at ${SITE}/book-demo
+**Q: Free demo classes?** Yes, at ${SITE}/book-demo. The free demo is a waiting list: mentors teach live all day, so it happens when one becomes free and no date is promised. For a guaranteed class today or tomorrow there is the paid Priority Live Demo at ${SITE}/priority-demo (full class of about 45 to 60 minutes, written skill report and learning roadmap afterwards, fee adjusted against the first month on enrolment). Full recorded classes are free to watch at ${SITE}/how-we-teach.
 
 **Q: How are classes conducted?** Live over video in groups of 5 to 10 (or 1-on-1). Recorded for revision. Student dashboard at https://dashboard.modernagecoders.com
 
@@ -217,7 +217,8 @@ function buildContact() {
 - Website: ${SITE}
 - Phone / WhatsApp: +91 9123366161, https://wa.me/919123366161
 - Email: contact@modernagecoders.com
-- Book a free demo: ${SITE}/book-demo
+- Book a free demo (waiting list): ${SITE}/book-demo
+- Book a Priority Live Demo (guaranteed, today or tomorrow): ${SITE}/priority-demo
 - Instagram: https://www.instagram.com/modern_age_coders
 - YouTube: https://www.youtube.com/@ModernAgeCoders
 - LinkedIn: https://www.linkedin.com/in/shivam-khemka-modern-age-coders

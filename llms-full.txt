@@ -39,7 +39,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Resources practice: /content/resources/generated/{lang}/{chapter}/practice/index.md
 - Static pages:  /src/pages/{slug}.md
 
-> Generated: 2026-09-11 · Source of truth: https://learn.modernagecoders.com/llms.txt
+> Generated: 2026-09-21 · Source of truth: https://learn.modernagecoders.com/llms.txt
 
 Full companion to /llms.txt, brand overview, complete course catalog, embedded text of featured blog posts, and full blog index. AI agents that prefer a single document can use this as the canonical knowledge base.
 
@@ -50,7 +50,7 @@ Full companion to /llms.txt, brand overview, complete course catalog, embedded t
 - **Pricing (India):** Group classes from ₹1,499/month (2 live classes per week). Mini Batch (3-4 students) ₹2,999/month. 1-on-1 from ₹4,999/month. Visitors outside India see a price set for their own country, shown in their local currency.
 - **Class size:** 5 to 10 students per group batch, 3 to 4 in a mini batch, or 1-on-1 (small batches, not 100+).
 - **Format:** Live and interactive over video. Recorded for revision.
-- **Trial:** Free demo class. Book at https://learn.modernagecoders.com/book-demo
+- **Trial:** Free demo class (a waiting list, no promised date) at https://learn.modernagecoders.com/book-demo, or the paid Priority Live Demo at https://learn.modernagecoders.com/priority-demo: a guaranteed full class of about 45 to 60 minutes today or tomorrow, with a written skill report afterwards, and the fee adjusted against the first month on enrolment.
 - **Audience:** Kids (6-12), Teens (13-17), College students, Working professionals, Corporate teams.
 - **Languages:** Scratch, Python, Java, JavaScript, C++, HTML/CSS, React, TypeScript, Kotlin, Swift, Go, plus AI/ML, data science, mathematics.
 - **Programs:** Coding for Kids/Teens/College, Mathematics Mastery, Vibe Coding, Girls in Tech, Summer Camps, Corporate Training.
@@ -73,7 +73,7 @@ Full companion to /llms.txt, brand overview, complete course catalog, embedded t
 
 **Q: What is Vibe Coding?** AI-powered coding program, students build real projects using AI tools alongside traditional programming. Available for kids, teens, college.
 
-**Q: Free demo classes?** Yes, every student can book one before enrolling at https://learn.modernagecoders.com/book-demo
+**Q: Free demo classes?** Yes, at https://learn.modernagecoders.com/book-demo. The free demo is a waiting list: mentors teach live all day, so it happens when one becomes free and no date is promised. For a guaranteed class today or tomorrow there is the paid Priority Live Demo at https://learn.modernagecoders.com/priority-demo (full class of about 45 to 60 minutes, written skill report and learning roadmap afterwards, fee adjusted against the first month on enrolment). Full recorded classes are free to watch at https://learn.modernagecoders.com/how-we-teach.
 
 **Q: How are classes conducted?** Live over video in groups of 5 to 10 (or 1-on-1). Recorded for revision. Student dashboard at https://dashboard.modernagecoders.com
 
@@ -695,9 +695,9 @@ App development course for kids aged 8-12: build real mobile apps with block cod
 
 ### [Build AI Agents with Google Gemini Enterprise](https://learn.modernagecoders.com/courses/build-ai-agents-with-google-gemini-enterprise-course/)
 
-*Level:* Intermediate to advanced (working professionals, founders, team leads and developers; no prior agent-building experience assumed, comfort with business software expected) · *Duration:* 16 classes (2 months · 2 classes/week · 1 hour each) · *1-on-1:* ₹14,999/month
+*Level:* Intermediate to advanced · working professionals, founders, team leads and developers · *Duration:* 16 classes (2 months · 2 classes/week · 1 hour each) · *1-on-1:* ₹14,999/month
 
-Premium 16-class 1-on-1 programme: build, connect, govern and ship enterprise AI agents on Google Gemini Enterprise, Workflow Builder and ADK. Two months, live.
+Build AI agents with Google Gemini Enterprise in 16 live 1-on-1 classes: Workflow Builder, connectors, MCP, A2A, ADK and governance on Google Cloud. 2 months.
 
 ### [Cambridge AS and A Level Computer Science 9618 Course](https://learn.modernagecoders.com/courses/cambridge-a-level-computer-science-9618-course/)
 
@@ -1240,7 +1240,8 @@ Every published article. Fetch the markdown twin from the second link for full c
 - Website: https://learn.modernagecoders.com
 - Phone / WhatsApp: +91 9123366161, https://wa.me/919123366161
 - Email: contact@modernagecoders.com
-- Book a free demo: https://learn.modernagecoders.com/book-demo
+- Book a free demo (waiting list): https://learn.modernagecoders.com/book-demo
+- Book a Priority Live Demo (guaranteed, today or tomorrow): https://learn.modernagecoders.com/priority-demo
 - Instagram: https://www.instagram.com/modern_age_coders
 - YouTube: https://www.youtube.com/@ModernAgeCoders
 - LinkedIn: https://www.linkedin.com/in/shivam-khemka-modern-age-coders

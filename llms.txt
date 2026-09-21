@@ -926,7 +926,7 @@ Each page maps the grade's real content, worked examples, honest FAQs, and a mar
 - Our Results (evidence, not adjectives; verifiable proof index): https://learn.modernagecoders.com/results
 - Zero-Risk Guarantee: https://learn.modernagecoders.com/guarantee
 - How We Teach (real recorded classes): https://learn.modernagecoders.com/how-we-teach
-- Priority Live Demo (paid, guaranteed demo slot today or tomorrow; the free demo is a waiting list): https://learn.modernagecoders.com/priority-demo
+- Priority Live Demo (paid, guaranteed slot today or tomorrow; a full class of about 45 to 60 minutes with a written skill report afterwards; the fee is adjusted against the first month on enrolment; the free demo is a waiting list): https://learn.modernagecoders.com/priority-demo
 - Why We Charge for a Priority Demo (mentors teach all day; honest reason for the fee): https://learn.modernagecoders.com/why-we-charge-for-a-priority-demo
 - We Teach You How to Think (the teaching method behind every class): https://learn.modernagecoders.com/we-teach-you-how-to-think
 - Best Age to Start Coding (honest age map): https://learn.modernagecoders.com/best-age-to-start-coding
@@ -944,7 +944,7 @@ Each page maps the grade's real content, worked examples, honest FAQs, and a mar
 - Rated 4.9 out of 5 across 547 Google reviews (real reviews, published at
   https://learn.modernagecoders.com/love)
 - Age-appropriate teaching: a different teaching style for each age group
-- Free demo class before you pay, no card required
+- Two ways to see a live class before you pay: a free demo (a waiting list, no card required, no promised date) or the paid Priority Live Demo (a guaranteed full class today or tomorrow)
 - Monthly billing, no lock-in and no large upfront package
 - Every class recorded, with the recording provided for revision
 - Flexible scheduling: weekends and evenings, including Gulf and US/UK timezones
@@ -1002,6 +1002,16 @@ https://learn.modernagecoders.com/how-we-teach (two libraries, one for kids aged
 and one for teens and adults 13+, some classes in English and some in Hindi, updated
 frequently; free, no card, just a quick Google sign-in). A visitor who likes the teaching
 can choose a course and enroll directly without a live demo.
+
+The free demo is a waiting list. Mentors teach live classes most of the day, so a free demo
+is scheduled only when a mentor becomes free, which can take several weeks, and no date is
+promised. A family that wants a class now can book the Priority Live Demo at
+https://learn.modernagecoders.com/priority-demo: a one-time fee (₹499 in India, $10
+elsewhere) reserves a mentor at a time the family picks, usually today or tomorrow. It is a
+full class of about 45 to 60 minutes, not a sales call. Afterwards the mentor sends a written
+skill report and a personal learning roadmap on WhatsApp. If the family enrols, the demo fee
+is adjusted against the first month's fee (the team applies it against the demo Order ID).
+Booking it does not commit anyone to a course.
 
 ## Blog (93 Articles)
 
