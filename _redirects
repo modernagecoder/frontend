@@ -3424,4 +3424,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-manchester /src/pages/best-coding-class-in-manchester.html 200
 /best-coding-class-in-manchester.md /src/pages/best-coding-class-in-manchester.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-coventry /src/pages/best-coding-class-in-coventry.html 200
+/best-coding-class-in-coventry.md /src/pages/best-coding-class-in-coventry.md 200
 /* /src/pages/404.html 404

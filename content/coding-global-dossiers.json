@@ -16790,5 +16790,56 @@
       "Crime, school league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the University of Manchester, the Environment Agency, the Met Office or Manchester City Council."
     ]
+  },
+  "best-coding-class-in-coventry": {
+    "market": "Coventry",
+    "bodyClass": "cg-cov",
+    "pageType": "city",
+    "curriculumAuthority": "Coventry, Census 2021 via Nomis: TS001 Coventry local authority (E08000026) 345,325 usual residents, 332,606 in households, 12,719 in communal establishments; TS007A 31,584 aged 20 to 24, 9.1 percent, against 6.0 percent in England (band total 345,324, never summed on the page); TS068 89,083 schoolchildren and full-time students of 324,882 residents aged 5 and over, 27.4 percent, against 20.4 percent in England. Coventry Transport Museum about page: Millennium Place, Hales Street, Coventry CV1 1JD; \"the largest publicly owned collection of British vehicles on the planet\" (its own description); 14 fully accessible galleries; motor cars, commercial vehicles, cycles and motorcycles, with archive material at the Coventry Archives; home to Thrust SSC and Thrust 2, described as the two fastest cars in the world.",
+    "localProject": "A threshold that chains. NaPTAN via the DfT API, administrative area 430, read 21 September 2026, filtered to locality or parent locality Coventry: 1,570 active bus stops (1,539 BCT on-street, 31 BCS bus station bays) in 60 localities, most in Coventry itself 95, Cheylesmore 68, Whitmore Park 54, Binley 54, Tile Hill North 52, Holbrooks 51; 834 distinct CommonName values, 578 used exactly twice, 206 once, 50 three or more times. Union-find on British National Grid easting and northing with a grid of cells the size of the threshold: 20 m 1,390 clusters (largest 8), 40 m 1,143 (22), 60 m 1,005 (22), 100 m 774 (36), 150 m 517 (37), 200 m 314 (85), 300 m 60 (largest 1,154), 400 m 19 (largest 1,519). Lesson family: union-find (disjoint sets) and single-linkage chaining; distinct from shortest paths (Diemen, Rathfarnham), set similarity (Terenure), point-in-polygon (Brainport) and bin width.",
+    "requiredMentions": [
+      "345,325",
+      "332,606",
+      "31,584",
+      "89,083",
+      "324,882",
+      "1,570",
+      "1,154",
+      "1,519",
+      "Cheylesmore",
+      "CV1 1JD",
+      "Thrust SSC",
+      "Millennium Place"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Coventry: 345,325 usual residents; 332,606 in households; 12,719 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E08000026&measures=20100"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Coventry 31,584 aged 20 to 24 (9.1 percent); England 6.0 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E08000026,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Coventry 89,083 students of 324,882 aged 5 and over (27.4 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E08000026,E92000001"
+      },
+      {
+        "claim": "Department for Transport, NaPTAN access nodes API, administrative area 430: Coventry stops, types, status, localities, names and coordinates.",
+        "url": "https://naptan.api.dft.gov.uk/v1/access-nodes?dataFormat=csv&atcoAreaCodes=430"
+      },
+      {
+        "claim": "Coventry Transport Museum about page: address, collection description, galleries, Thrust SSC and Thrust 2.",
+        "url": "https://www.transport-museum.com/about"
+      }
+    ],
+    "rejectedClaims": [
+      "Coventry University facts: its about page returned 400, so none are used.",
+      "Coventry Cathedral history: the page returned 404, so nothing is claimed.",
+      "University of Warwick location claims: its about page does not state the campus location, so none is made.",
+      "Passenger numbers at any stop: NaPTAN does not contain them.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Department for Transport, Coventry City Council, any bus operator or the Transport Museum."
+    ]
   }
 }
