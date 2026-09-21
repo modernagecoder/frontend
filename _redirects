@@ -3300,4 +3300,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /national-5-computing-science-help /src/pages/national-5-computing-science-help.html 200
 /national-5-computing-science-help.md /src/pages/national-5-computing-science-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/higher-computing-science-help /src/pages/higher-computing-science-help.html 200
+/higher-computing-science-help.md /src/pages/higher-computing-science-help.md 200
 /* /src/pages/404.html 404

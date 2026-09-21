@@ -210,6 +210,7 @@ const SLUGS = [
   'new-computing-gcse-explained',
   't-level-digital-coding-help',
   'national-5-computing-science-help',
+  'higher-computing-science-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -499,6 +500,7 @@ const LLMS_LABELS = {
   'new-computing-gcse-explained': 'The new Computing GCSE explained',
   't-level-digital-coding-help': 'T Level digital coding help',
   'national-5-computing-science-help': 'National 5 Computing Science help',
+  'higher-computing-science-help': 'Higher Computing Science help',
 };
 
 function wireLlms(slugs) {
