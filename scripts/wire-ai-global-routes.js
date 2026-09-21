@@ -226,6 +226,7 @@ const SLUGS = [
   'after-code-club-next-step-coding-uk',
   'after-microbit-next-step-python-uk',
   'raspberry-pi-coding-projects-uk',
+  'coding-for-home-educated-children-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -531,6 +532,7 @@ const LLMS_LABELS = {
   'after-code-club-next-step-coding-uk': 'After Code Club: the next step',
   'after-microbit-next-step-python-uk': 'After the micro:bit: the step to Python',
   'raspberry-pi-coding-projects-uk': 'Raspberry Pi coding projects',
+  'coding-for-home-educated-children-uk': 'Coding for home-educated children',
 };
 
 function wireLlms(slugs) {
