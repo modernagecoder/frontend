@@ -148,7 +148,7 @@ Each page below is written for its own place, exam or competition, with its own 
 
 **Nations:** [England](/coding-and-ai-classes-in-england) &middot; [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) &middot; [Scotland](/coding-and-ai-classes-in-scotland) &middot; [Wales](/coding-and-ai-classes-in-wales)
 
-**Cities:** [London](/best-coding-class-in-london)
+**Cities:** [London](/best-coding-class-in-london) &middot; [Manchester](/best-coding-class-in-manchester)
 
 **London boroughs:** [Harrow](/coding-classes-in-harrow-london)
 

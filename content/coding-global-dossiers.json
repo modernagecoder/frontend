@@ -16731,5 +16731,64 @@
       "Ofqual rules on the GCSE programming project: not read at a primary source for this build and already the subject of the A level NEA page, so this page makes no claim about them.",
       "Examination entry fees: published in pounds, and this site prices in one currency."
     ]
+  },
+  "best-coding-class-in-manchester": {
+    "market": "Manchester",
+    "bodyClass": "cg-mcr",
+    "pageType": "city",
+    "curriculumAuthority": "Manchester, Census 2021 via Nomis: TS001 Manchester local authority (E08000003) 551,938 usual residents, 530,136 in households, 21,802 in communal establishments; TS007A 61,887 aged 20 to 24, 11.2 percent, against 6.0 percent in England (band total 551,937, one below TS001 through independent table adjustment, never summed on the page); TS068 156,241 schoolchildren and full-time students among 517,560 residents aged 5 and over, 30.2 percent, against 20.4 percent in England. University of Manchester Department of Computer Science history page: the Small-Scale Experimental Machine, the Baby, designed and built by F.C. Williams and Tom Kilburn, first successful run of a program on 21 June 1948, described as the world's first stored-program electronic digital computer; later firsts: hardware floating point unit, transistor computer, virtual memory; Alan Turing Deputy Director of the Computing Machines Laboratory 1948 to 1954; department founded 1964 with Kilburn as first professor and head; first undergraduate intake of 24 men and four women in October 1965. University of Manchester employers page: student population of over 40,000, 1,000 degree programmes, three faculties. Environment Agency station metadata: London Road (River Medlock, 690713) opened 1 March 1975, maxOnRecord 1.802 m on 1 January 2025, highestRecent dated 12 October 2012 at 1.201 m; Gurney Street, Ancoats (690715) opened 15 October 2009, maxOnRecord on 28 July 2019; Collyhurst Weir (River Irk, 690611) opened 27 April 1995. Met Office historic station data, Ringway: 69 metres amsl, records from 1946, last row October 2004, final line Site Closed.",
+    "localProject": "Correlate the changes, not the levels. From the Environment Agency flood-monitoring API, 15-minute stage readings for the River Medlock at Gurney Street (upstream) and London Road (downstream), 23 August to 21 September 2026, measured on 21 September 2026: 2,827 common timestamps, seven missing quarter-hours at the same moments at both; level correlations 0.88 at no lag, 0.96 at 45 and 60 minutes and 0.84 at 120 minutes, so the level series cannot locate the lag; correlations of first differences minus 0.24 at no lag, 0.14 at 30, 0.51 at 45, 0.53 at 60, 0.26 at 75 and minus 0.07 at 90 minutes; storm peaks (Gurney Street above 0.40 m) arrive downstream 30 or 45 minutes later in 11 of 12 storms, one within the same quarter hour; the largest storm peaked at 0.875 m at Gurney Street at 04:15 UTC (05:15 UK time) on 4 September 2026 and 0.522 m at London Road at 04:45 UTC. Heights are not compared because each gauge measures from its own zero. Lesson family: lagged cross-correlation and differencing to remove shared drift; distinct from moving averages, spikes (Finglas), the datum trap (Almere) and stale data (Ibri).",
+    "requiredMentions": [
+      "551,938",
+      "530,136",
+      "21,802",
+      "61,887",
+      "156,241",
+      "2,827",
+      "Gurney Street",
+      "Collyhurst Weir",
+      "21 June 1948",
+      "Kilburn",
+      "24 men and four women",
+      "Ringway"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Manchester local authority: 551,938 usual residents; 530,136 in households; 21,802 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E08000003&measures=20100"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Manchester 61,887 aged 20 to 24 (11.2 percent); England 6.0 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E08000003,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Manchester 156,241 students of 517,560 aged 5 and over (30.2 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E08000003,E92000001"
+      },
+      {
+        "claim": "University of Manchester, Department of Computer Science, History and heritage: the Baby, 21 June 1948, Williams and Kilburn, Turing 1948 to 1954, department founded 1964, first intake of 24 men and four women in October 1965, later firsts.",
+        "url": "https://www.cs.manchester.ac.uk/about/history-and-heritage/"
+      },
+      {
+        "claim": "University of Manchester employers page: over 40,000 students, 1,000 degree programmes, three faculties.",
+        "url": "https://www.employers.manchester.ac.uk/ourstudents/"
+      },
+      {
+        "claim": "Environment Agency flood-monitoring API, station 690713 London Road and 690715 Gurney Street (River Medlock), 690611 Collyhurst Weir (River Irk): metadata and 15-minute readings.",
+        "url": "https://environment.data.gov.uk/flood-monitoring/id/stations/690713"
+      },
+      {
+        "claim": "Met Office historic station data, Ringway: location, 1946 start, October 2004 final row, Site Closed.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/ringwaydata.txt"
+      }
+    ],
+    "rejectedClaims": [
+      "Manchester Metropolitan University and Science and Industry Museum facts: both sites returned 403 to automated checks and were not circumvented.",
+      "Any river distance between the two gauges: not published, so no speed is claimed.",
+      "Comparing the gauges' heights: each measures from its own zero, and the datum lesson belongs to another page.",
+      "Nationality, ethnicity, religion, birthplace and economic figures: excluded by the cluster rules.",
+      "Crime, school league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the University of Manchester, the Environment Agency, the Met Office or Manchester City Council."
+    ]
   }
 }
