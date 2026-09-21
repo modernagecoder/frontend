@@ -179,8 +179,10 @@ const pages = [
   <li><b>A reserved mentor.</b> Your slot is blocked in a mentor's calendar the moment you pay.</li>
   <li><b>Your choice of time.</b> You pick it. We work around you, including for families outside India.</li>
   <li><b>No cost to enrolled students.</b> We never cancel or shorten a paid class to fit a demo.</li>
+  <li><b>A full class.</b> About 45 to 60 minutes, long enough for real work on a real problem.</li>
+  <li><b>A written skill report.</b> The mentor writes up what the student knows, what they built and what to learn next, and sends it with a learning roadmap on WhatsApp.</li>
 </ul>
-<p>It is a one-time fee for one class. It is not a subscription and it does not commit you to a course. See the side by side in <a href="${C.versus}">free demo vs priority demo</a>.</p>`
+<p>It is a one-time fee for one class. It is not a subscription and it does not commit you to a course. If you do enrol, send us your demo Order ID on WhatsApp and we adjust the demo fee against your first month, so a family that joins has paid nothing extra for the certainty. See the side by side in <a href="${C.versus}">free demo vs priority demo</a>.</p>`
       },
       {
         h2: 'What stays free',
@@ -217,7 +219,10 @@ const pages = [
 <tr><th scope="row">When</th><td class="pd-no">When a mentor becomes free. Often several weeks.</td><td class="pd-yes">Today or tomorrow, at a time you pick</td></tr>
 <tr><th scope="row">Guaranteed?</th><td class="pd-no">No. We may not be able to offer one.</td><td class="pd-yes">Yes. A mentor is reserved for your slot.</td></tr>
 <tr><th scope="row">Confirmation</th><td>We contact you if a slot opens</td><td class="pd-yes">WhatsApp confirmation within the hour</td></tr>
+<tr><th scope="row">Length</th><td>A shorter session, about 30 to 45 minutes</td><td class="pd-yes">A full class, about 45 to 60 minutes</td></tr>
 <tr><th scope="row">Who teaches</th><td>A working mentor</td><td>A working mentor</td></tr>
+<tr><th scope="row">Feedback</th><td>Spoken, at the end of the class</td><td class="pd-yes">Spoken, plus a written skill report and learning roadmap on WhatsApp</td></tr>
+<tr><th scope="row">If you enrol</th><td>Nothing to adjust</td><td class="pd-yes">Demo fee adjusted against your first month</td></tr>
 <tr><th scope="row">Scheduling order</th><td>After all paid bookings</td><td class="pd-yes">First</td></tr>
 <tr><th scope="row">Commitment</th><td>None</td><td>None. One class, no enrolment required.</td></tr>
 </tbody></table></div>`
@@ -246,10 +251,10 @@ const pages = [
       }
     ],
     faqs: [
-      ['Is the free demo lower quality?', 'No. The teaching is the same. The only differences are timing and certainty.'],
+      ['Is the free demo lower quality?', 'No. The teaching approach is the same. The priority demo has a guaranteed time, runs as a full class of about 45 to 60 minutes, and ends with a written skill report.'],
       ['How long is the free demo wait?', 'It depends on mentor availability and can be several weeks. We cannot promise a date.'],
       ['Can I switch from the waiting list to a priority demo?', 'Yes, at any time. Book a priority demo and your slot is confirmed regardless of your place in the queue.'],
-      ['Is the priority fee adjusted against course fees?', 'The fee covers the reserved demo class. For current course fees, see the pricing page or ask your mentor during the demo.']
+      ['Is the priority fee adjusted against course fees?', 'Yes. If you enrol, send us your demo Order ID on WhatsApp and we adjust the demo fee against your first month. Our team applies it for you, so it does not show as a discount on the payment page. Current course fees are on the pricing page.']
     ]
   },
 
@@ -273,7 +278,7 @@ const pages = [
   <li><b>Building it.</b> The student types, drags, calculates. The mentor steers with questions and resists taking over the keyboard.</li>
   <li><b>Something breaks.</b> It always does. Finding the bug is part of the lesson, and often the best part.</li>
   <li><b>A working result.</b> A small game, a program, a solved puzzle. The student can show it to the family.</li>
-  <li><b>Straight feedback.</b> Where the student stands, what would suit them, and what would not.</li>
+  <li><b>Straight feedback.</b> Where the student stands, what would suit them, and what would not. After a Priority Live Demo the same feedback also reaches you in writing, as a skill report and a learning roadmap on WhatsApp.</li>
 </ol>`
       },
       {
@@ -341,6 +346,9 @@ const pages = [
   <li>Keep a laptop or desktop ready with Chrome and a steady connection.</li>
   <li>Tell the mentor on WhatsApp what the student is curious about: <a href="${K.pyTeens}">Python</a>, <a href="${K.webTeens}">web development</a>, <a href="${K.aiTeens}">AI</a>, <a href="${K.cppTeens}">C++</a>, <a href="${K.jee}">JEE foundation maths</a> or anything from the <a href="/courses">course list</a>.</li>
   <li>Read <a href="${C.inside}">what happens in a demo class</a> so you know what to look for.</li>
+  <li>Set aside about 45 to 60 minutes. It is a full class, not a quick call.</li>
+  <li>Keep your Order ID. If you enrol, send it to us on WhatsApp and we adjust the demo fee against your first month.</li>
+  <li>Expect the mentor's written skill report and learning roadmap on WhatsApp, usually within a day of the class.</li>
 </ul>`
       },
       {
