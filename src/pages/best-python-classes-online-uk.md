@@ -46,7 +46,7 @@ So the assessment is a person and an IDE and nothing else, which is a fair descr
 | Library modules | Random, math, time, and turtle graphics |
 | Turtle in detail | Window and canvas, creation and movement, positioning and direction, filling shapes, pen control, circles and colours |
 
-undefined
+The turtle section is the giveaway. Several pages of an eighteen-page booklet are devoted to drawing on a canvas, which tells you the paper expects visible output that a student can look at and judge. That is a good way to assess a sixteen-year-old and a poor way to prepare one, because a learner who can only draw squares has learnt the booklet rather than the language.
 
 Sources, read 20 September 2026: [Pearson Edexcel GCSE (9-1) Computer Science (1CP2)](https://qualifications.pearson.com/en/qualifications/edexcel-gcses/computer-science-2020.html), the specification and the 1CP2/02 Programming Language Subset booklet, version 6.
 
@@ -71,7 +71,7 @@ There is one more requirement in that specification that most families never hea
 
 It has to be signed by a member of the senior leadership team, and failing to send one in on time counts as "potential malpractice and/or maladministration". A board does not build a mechanism like that unless it has reason to.
 
-undefined
+That single requirement tells a parent something useful. The board considers it a real risk that a school might teach the theory and skimp the programming. If a family wants to know whether their own school is skimping, the honest test is simple: ask the child to show you something they wrote themselves this term.
 
 ## Teaching the language, not the booklet
 
@@ -95,7 +95,7 @@ For younger learners the entry point is different but the destination is not. A 
 
 For adults, the useful first target is usually automating something tedious from their own work rather than a toy exercise. The [adults page](/best-coding-classes-for-adults-uk) covers how that works alongside a job.
 
-undefined
+One honest limit. We teach Python, and we teach it well; we do not teach C# and we do not run a Java course aimed at CCEA candidates. If a school has chosen one of those, say so in the free lesson and we will tell you straight whether we are the right fit, because the constructs transfer but the syntax practice does not.
 
 ## Five steps through Python
 

@@ -46,7 +46,7 @@ The leaflet's own worked example is a maths tutor, where a parent asks about qua
 | Does a check cover everything? | No. GOV.UK states that DBS "cannot access criminal records held overseas, so a DBS check may not provide a complete view of an applicant's criminal history, if they have lived outside of the UK." |
 | Is a private arrangement regulated activity? | Not necessarily. Regulated activity "excludes any activities carried out in the course of family relationships or as part of any personal, non-commercial relationships." |
 
-undefined
+None of this is legal advice and we are not qualified to give any. It is a pointer to what the Government has published, with links below, because a parent who knows the question exists is in a better position than one who does not.
 
 Sources, read 20 September 2026: [DBS checks for self-employed people and personal employees](https://www.gov.uk/guidance/dbs-checks-for-self-employed-people-and-personal-employees), published 16 January 2026; [A guide for parents and carers employing self-employed workers or personal employees](https://www.gov.uk/government/publications/dbs-guidance-leaflets/a-guide-for-parents-and-carers-employing-self-employed-workers-or-personal-employees), updated 17 September 2026; and [DBS check requests: guidance for employers](https://www.gov.uk/guidance/dbs-check-requests-guidance-for-employers), updated 11 September 2026.
 
@@ -71,7 +71,7 @@ So the questions worth asking a coding tutor are slightly different. What will m
 
 Our answers to those are on [how we teach](/how-we-teach), and the seven checks on the [choosing a class page](/best-online-coding-classes-uk) apply to a tutor just as well.
 
-undefined
+One more practical point. Hourly tutoring is priced by the hour and adds up quickly, while a monthly class is priced by the month whether the learner takes one lesson or three. Neither is better, but they suit different families, and a parent should know which one they are buying before the first invoice.
 
 ## What we are, and the check we cannot offer
 
@@ -96,7 +96,7 @@ Lessons happen on a link. A parent can join any lesson at any time without askin
 | Can I see what my child has done? | Yes. Finished work is saved where you can open it, and the weekly feedback goes to you as well as to the learner. |
 | What if it is not working? | Stop. There is no minimum term, nothing is taken in advance, and we would rather you left after a month than stayed unhappily for a year. |
 
-undefined
+If a family would prefer a UK-based, DBS-checked individual sitting in the same time zone, that is an entirely reasonable preference and the January guidance has made it far easier to act on. We are not the right fit for it, and saying so costs us less than pretending otherwise would.
 
 ## What tuition is actually for, stage by stage
 

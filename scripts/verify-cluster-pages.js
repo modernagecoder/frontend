@@ -237,6 +237,15 @@ for (const cluster of active) {
     const html = fs.readFileSync(file, 'utf8');
     const errs = [], warns = [];
 
+    // --- 0. a template value that was never filled in ---------------------
+    // Eight UK pages shipped a literal <p>undefined</p> (2026-09-20 to 22): the
+    // page module named a field the renderer did not read, so the sentence was
+    // dropped and the word "undefined" printed in its place. Every other gate
+    // passed, because the page still had enough words, links and FAQs.
+    const unfilled = html.replace(/<script\b[\s\S]*?<\/script>|<style\b[\s\S]*?<\/style>/gi, '')
+      .match(/>\s*(undefined|null|NaN|\[object Object\])\s*</g);
+    if (unfilled) errs.push(`unfilled template value rendered as text: ${[...new Set(unfilled.map(u => u.replace(/[<>\s]/g, '')))].join(', ')} x${unfilled.length}`);
+
     // --- 1. FAQ schema vs visible ----------------------------------------
     // The tag is matched attribute-tolerantly on purpose. A sweep once added
     // data-price-scope to these tags, which silently blinded a strict regex and

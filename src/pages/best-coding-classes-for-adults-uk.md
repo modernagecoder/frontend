@@ -47,7 +47,7 @@ On age, its own conclusion is explicit: confidence "varies by age, although to a
 |  |  | 65 to 74 | 47 per cent |
 | Spread | 36 points | 75 and over | 46 per cent |
 
-undefined
+Read the two columns together. Thirty-six points separate the broadest internet users from the narrowest. Twenty-six points separate a 30-year-old from someone over 75, and the youngest adults are not even at the top of that column. If you are 58 and wondering whether it is too late, Ofcom's data says you are worrying about the smaller of the two effects, and about the one you cannot change rather than the one you can.
 
 None of which means learning is effortless at any age. It means the variable that moves is the range of things you do, and learning to write a program is about as decisive a widening of that range as exists.
 
@@ -80,7 +80,7 @@ The Lifelong Learning Entitlement is the bigger structural change, and it is mod
 
 And then there is the sentence that made this page worth writing. Tuition loans under the LLE run to the age of 60 at the start of a course. Not sixty-five, not state pension age. Sixty.
 
-undefined
+We teach people from 6 to 67, and the oldest students on our roll are past the point at which the state will lend them tuition money for a level 4 course. We are not suggesting that is a scandal, and public money has to stop somewhere. It does mean that for a substantial group of adults in this country there is no funded route at all, and what is left is paying for a weekly lesson or teaching yourself from videos.
 
 ## For the adult nobody designed a programme for
 
@@ -103,7 +103,7 @@ One group it does not fit: anyone who needs to be job-ready by a date. Go to a b
 | Twelve months | Build a small application end to end, test it, and explain every decision in it | Substitute for a computer science degree, and we would not claim otherwise |
 | Beyond | Move into data, AI or web development with a portfolio of your own work | Skip the part where you build things nobody asked for |
 
-undefined
+Every promise in that table is about capability rather than employment. We do not place anyone in jobs, we have no employer partners and we do not run a hiring pipeline, so any claim about outcomes would be one we could not stand behind. [How we teach](/how-we-teach) sets out the method in full, and the [coding roadmap](/coding-roadmap) gives the order topics come in.
 
 ## Four stages, at the pace a working week allows
 

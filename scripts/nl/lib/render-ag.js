@@ -44,6 +44,15 @@ const stars = () => '<span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;<
 
 function paras(arr) { return arr.map(p => `<p>${p}</p>`).join('\n'); }
 
+// The sibling renderer (render-cg.js) calls a paragraph's content `text`; this one calls it `html`.
+// Eight UK pages were written with `text` here and shipped a literal "undefined" paragraph, with
+// the real sentence dropped. Accept either name, and refuse to build a block that has neither.
+function blockHtml(b) {
+  const v = b.html !== undefined ? b.html : b.text;
+  if (typeof v !== 'string' || !v.trim()) throw new Error("render-ag: '" + b.kind + "' block has no html/text content");
+  return v;
+}
+
 function block(b) {
   switch (b.kind) {
     case 'two':
@@ -55,9 +64,9 @@ function block(b) {
       return `<div class="ag-table-wrap${b.mt ? ' ag-mt-40' : ''}"><table class="ag-table"><caption>${b.caption}</caption><thead><tr>` + b.head.map(h => `<th scope="col">${h}</th>`).join('') + '</tr></thead><tbody>' + b.rows.map(r => '<tr>' + r.map((c, i) => `<td${num.has(i) ? ' class="ag-num"' : ''}>${c}</td>`).join('') + '</tr>').join('') + '</tbody></table></div>';
     }
     case 'source':
-      return `<p class="ag-source-note ag-mt-40">${b.html}</p>`;
+      return `<p class="ag-source-note ag-mt-40">${blockHtml(b)}</p>`;
     case 'p':
-      return `<p${b.mt ? ' class="ag-mt-40"' : ''}>${b.html}</p>`;
+      return `<p${b.mt ? ' class="ag-mt-40"' : ''}>${blockHtml(b)}</p>`;
     case 'capsule':
       return `<div class="ag-capsule"><p class="ag-capsule-q">${b.q}</p><p>${b.p}</p></div>`;
     default:
@@ -523,8 +532,8 @@ function mdBlock(b) {
     case 'two': return [b.leftH3 ? `### ${md(b.leftH3)}` : '', ...b.left.map(md), b.rightH3 ? `### ${md(b.rightH3)}` : '', ...b.right.map(md)].filter(Boolean).join('\n\n');
     case 'three': return b.cells.map(c => `### ${md(c.h3)}\n\n${md(c.p)}`).join('\n\n');
     case 'table': return mdTable(b);
-    case 'source': return md(b.html);
-    case 'p': return md(b.html);
+    case 'source': return md(blockHtml(b));
+    case 'p': return md(blockHtml(b));
     case 'capsule': return `**${md(b.q)}** ${md(b.p)}`;
     default: return '';
   }

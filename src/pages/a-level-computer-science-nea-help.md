@@ -94,9 +94,9 @@ Every family asks this, so here is the answer from an exam board rather than fro
 | What must be kept? | A copy of the AI content in a non-editable format, such as a screenshot, with an explanation of how it was used |
 | What do teachers watch for? | Sudden changes in work production, changes in coding style and very erratic work rates |
 
-undefined
+Put plainly: an AI tool can help a student get unstuck, and it cannot earn marks for them. The safest habit is the one good engineers use anyway, which is to record what a tool suggested, what was changed and why, in an appendix. A student who can explain every line of their own project has nothing to fear from a conversation with a moderator.
 
-undefined
+Our own rule follows from the boards': we teach programming, design and testing, we discuss a student's project in general terms, and we do not write, debug, edit or review the code that will be submitted. If a student asks us to look at their NEA code, the answer is no, and we explain why. For the same reason, the practice problems in our classes are never the student's project in disguise.
 
 ## When to do what, across the project year
 
@@ -113,7 +113,7 @@ Dates vary by school, since teachers set internal deadlines. The order does not.
 | Testing | Test against the criteria, including the cases you expect to fail | Screenshots that only show things working |
 | Evaluation | Judge the project against its own criteria and the user's view | A conclusion that says it went well |
 
-undefined
+The evidence trail matters as much as the program. Dated notes, test results with dates, and a record of what changed after feedback are what let a teacher confirm the work is the student's own, which both boards require.
 
 ## Four rungs to a project that finishes
 

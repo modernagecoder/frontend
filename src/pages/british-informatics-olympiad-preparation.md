@@ -67,7 +67,7 @@ Write a generator that makes tiny random inputs, small enough for the slow versi
 
 Run both on thousands of cases and stop at the first disagreement. Because the case is tiny, you can read it, work it out by hand and see the bug.
 
-undefined
+Here is the method on a problem of exactly the kind round one likes. Count the routes from the top-left to the bottom-right of a small grid, moving only right or down, with some squares blocked. We wrote a fast solution in the usual way, with one plausible mistake in how it fills the first row, and a brute force that simply tries every route. Then we generated 10,000 random grids of up to five by five squares from a fixed seed, and compared.
 
 **Our run of 20 September 2026: fast solution against brute force, 10,000 random grids, seed 20260920**
 
@@ -83,7 +83,7 @@ The bug was invisible on the examples in the question, which is exactly how cont
 
 The seed matters more than it looks. Recording it means a failing run can be reproduced exactly, by you tomorrow or by a teacher looking at your work. Without it, a bug that appears once and vanishes is the most frustrating thing in competitive programming.
 
-undefined
+This is a habit, not a trick, and it transfers well beyond contests: every serious software team compares a fast implementation against a simple one this way. In class, learners build the generator and the brute force before they optimise anything, and a teacher reads both.
 
 ## Ten weeks, one hour a week, and no cramming
 
@@ -100,7 +100,7 @@ A realistic shape for an autumn term before a December or January paper. It assu
 | 9 | Writing answers | Explain a method on paper clearly enough for a marker who never sees it run |
 | 10 | Full three-hour practice | Sit three fresh questions in one sitting and manage the clock |
 
-undefined
+Every practice problem we set is written fresh in the style of the competition. Past papers belong to the organiser and are on its own site, which is the right place to get them. If a school has never entered, a teacher can find the entry arrangements there too.
 
 ## What a teacher adds, and what we do not claim
 

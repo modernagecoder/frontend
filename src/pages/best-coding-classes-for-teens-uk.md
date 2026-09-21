@@ -48,7 +48,7 @@ Ofcom also notes where this confidence sits relative to other judgements. Sixty-
 
 One more finding is worth a parent knowing: one in ten child AI users say they have used AI "as someone to talk to or as a friend". That is outside what a coding class addresses, and we mention it because it is in the report rather than because we have anything to sell about it.
 
-undefined
+None of this argues that teenagers should use AI less. It argues that they need a subject in which checking is normal, fast and unarguable, and in which being wrong is visible within seconds rather than invisible forever. Programming is that subject, which is a better reason to learn it in 2026 than any career forecast.
 
 Source, read 20 September 2026: [Ofcom, Children and Parents: Media Use and Attitudes Report](https://www.ofcom.org.uk/media-use-and-attitudes/media-habits-children/childrens), published 21 May 2026. Figures are quoted with the base Ofcom states for each one.
 
@@ -73,9 +73,9 @@ There is a second trap in the footnotes. Ofcom reports schoolwork use rising fro
 | 46 per cent say AI summaries are always accurate | Children who read AI summaries | Either of the two above |
 | 40 per cent would trust an AI article as much as a human one | 13 to 17s aware of AI | All three above, and any 8 to 17 figure |
 
-undefined
+Doing this properly needs Python rather than a calculator, because the honest version means recomputing each figure on a common base where that is possible and saying plainly where it is not. That is data science in its least glamorous and most useful form, and it is on our [data science course for teens](/courses/data-science-course-for-teens-python-data). It also happens to be excellent practice for the analysis sections of every UK computing qualification.
 
-undefined
+The same discipline applies to code a tool writes. A student who can state what a function should return before running it can tell, in seconds, whether the thing they were handed is right, and a student who cannot is trusting a stranger with their coursework.
 
 ## Four school systems, one timetable that bends
 
@@ -98,7 +98,7 @@ Teenagers who are ahead of their school course usually want somewhere to put it.
 
 For a student aiming higher still, the [British Informatics Olympiad](/british-informatics-olympiad-preparation) is the national round that matters, and it rewards exactly the habit above.
 
-undefined
+Exam years are handled by easing off rather than pushing harder. Lessons thin out in the weeks before papers and pick up once they are done, because a teenager revising for nine subjects does not need a tenth commitment in May.
 
 ## Four steps through the teenage years
 

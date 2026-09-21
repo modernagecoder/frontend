@@ -71,9 +71,9 @@ Then the last step, which is the whole point: the child breaks it on purpose. Fe
 | Diagnose | Work out why a wrong answer was wrong | Most failures are in the data, not the machine |
 | Break | Find the input that makes it confidently wrong | Confidence and correctness are different things |
 
-undefined
+Every stage is hands-on, every stage produces something the child can show a parent, and none of it requires them to talk to a chatbot. That is deliberate, and the next section explains why.
 
-undefined
+The same habit scales all the way up. On the [teens page](/best-coding-classes-for-teens-uk) it becomes a data project on base lines in a national report; for an adult it becomes knowing when a tool has handed you something that will not survive contact with real input.
 
 ## Why a primary-age child does not need an AI account
 
@@ -96,9 +96,9 @@ So for many British families the question is no longer whether a young child wil
 | Python, once a child is ready for typed code | Anything that needs a child to give a company personal details |
 | Work saved where the family can see it | Uploads of photographs of the child or of other children |
 
-undefined
+Older children are a different matter and we treat them differently. Once a learner is into secondary school, using AI tools openly and keeping a record of what the tool contributed is part of the teaching, because that is what school and work will expect of them. The line moves with the learner, and it moves in one direction.
 
-undefined
+If a child is younger than about eight, the right next step is usually block-based coding rather than anything labelled AI. The [coding classes for kids page](/online-coding-classes-for-kids-uk) covers that stage properly.
 
 ## Four steps, roughly eight to thirteen
 

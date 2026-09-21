@@ -75,7 +75,7 @@ The Junior Mathematical Challenge and its follow-on rounds, the Perse Coding Tea
 
 The Intermediate and Senior Challenges, the Cayley, Hamilton and Maclaurin papers, the British Mathematical Olympiad, the British Informatics Olympiad, the UK Olympiad in AI, the Big Bang Competition, and Mathématiques sans Frontières in Scotland for S4 to S6.
 
-undefined
+The step between rungs is bigger than it looks. A multiple-choice challenge rewards quick, accurate reasoning; an olympiad asks for a written argument that would convince a sceptical reader; an informatics olympiad asks for a program that is correct on inputs the author never tried. Each step up needs a different habit, and the habits can be taught.
 
 ## The rules differ by nation, age and school
 
@@ -112,7 +112,7 @@ Good preparation looks like good learning: regular, varied and honest about what
 | Work on a little each week | Problem solving grows slowly and stays | A cram in the last week |
 | Treat a low score as data | It shows which idea to learn next | Treating a result as a verdict on the child |
 
-undefined
+In our classes, practice problems are written fresh in the style of each competition, never copied from past papers, and learners are pointed to the organisers' own archives for the real thing. We teach the mathematics and programming that competitions draw on; we do not register learners, we do not have any role in any competition named here, and we make no promise of scores, medals or selection.
 
 ## What live classes add, and what they cannot
 
