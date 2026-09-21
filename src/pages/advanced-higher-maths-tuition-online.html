@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Advanced Higher Maths Tuition Online | Proof, Routines</title>
+  <meta name="description" content="Advanced Higher Maths tuition online: proof by induction, where missing words can invalidate the proof, plus the routines and notation the 2025 report flagged.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/advanced-higher-maths-tuition-online">
+  <link rel="alternate" type="text/markdown" href="/src/pages/advanced-higher-maths-tuition-online.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#5C4E1F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/advanced-higher-maths-tuition-online">
+  <meta property="og:title" content="Advanced Higher Maths Tuition Online | Proof, Routines">
+  <meta property="og:description" content="Advanced Higher is where proof enters the Scottish exam. The 2025 report warns that leaving out certain words can invalidate a proof by induction.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_GB">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Advanced Higher Maths Tuition Online">
+  <meta name="twitter:description" content="Advanced Higher Maths tuition: proof by induction, integrating factors, Maclaurin series, matrices and the notation markers need.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="GB">
+  <meta name="geo.placename" content="United Kingdom">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ahm .ag-hero h1 { letter-spacing: -0.021em; font-weight: 730; }
+.ag-root.ag-ahm .ag-capsule { border-left-width: 6px; border-top: 1px solid var(--ag-accent); }
+.ag-root.ag-ahm .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-ahm .ag-table caption { text-align: left; font-weight: 640; }
+.ag-root.ag-ahm .ag-table td:first-child { font-weight: 610; }
+.ag-root.ag-ahm .ag-band-head h3 { letter-spacing: -0.013em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United Kingdom"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/advanced-higher-maths-tuition-online#page","url":"https://learn.modernagecoders.com/advanced-higher-maths-tuition-online","name":"Advanced Higher Maths Tuition Online","description":"Live online tuition for Advanced Higher Mathematics in Scotland, built from the course specification and the 2025 course report.","inLanguage":"en-GB","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the UK","item":"https://learn.modernagecoders.com/coding-classes-in-united-kingdom"},{"@type":"ListItem","position":4,"name":"Advanced Higher Maths","item":"https://learn.modernagecoders.com/advanced-higher-maths-tuition-online"}]},{"@type":"Course","name":"Advanced Higher Maths Tuition Online","description":"Live online teaching for Advanced Higher Mathematics candidates: proof, calculus and differential equations, series, matrices, vectors and complex numbers.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/advanced-higher-maths-tuition-online"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/advanced-higher-maths-tuition-online"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/advanced-higher-maths-tuition-online"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How is Advanced Higher Maths assessed?","acceptedAnswer":{"@type":"Answer","text":"By two question papers: a non-calculator paper worth 35 marks in one hour and a calculator paper worth 80 marks in two hours and 30 minutes. There is no coursework."}},{"@type":"Question","name":"What topics does it cover?","acceptedAnswer":{"@type":"Answer","text":"Three areas: algebra, proof and number theory; calculus, including differential equations and Maclaurin series; and matrices, vectors and complex numbers, including de Moivre's theorem."}},{"@type":"Question","name":"Why does proof by induction need particular care?","acceptedAnswer":{"@type":"Answer","text":"The 2025 report warns that omitting certain words or phrases can invalidate the proof. The base case, the assumption, the inductive step and the conclusion all have to be written out."}},{"@type":"Question","name":"What did candidates find hardest in 2025?","acceptedAnswer":{"@type":"Answer","text":"Finding an inverse matrix from a given relation, completing a factorisation that needed common factors, Maclaurin series, the sign of an integrating factor, and cyclic integration by parts."}},{"@type":"Question","name":"Does handwriting really matter?","acceptedAnswer":{"@type":"Answer","text":"Yes. The report says markers can find handwriting hard to interpret, especially over-written corrections, and asks candidates to score through mistakes and rewrite clearly instead."}},{"@type":"Question","name":"What mark is needed for an A?","acceptedAnswer":{"@type":"Answer","text":"It varies. In 2025 the minimum was 83 of 115 for an A and 60 for a C, after both papers proved less demanding than expected; the next diet will be different."}},{"@type":"Question","name":"Do I need Higher Maths first?","acceptedAnswer":{"@type":"Answer","text":"Entry is at the school's discretion, but the specification expects candidates to have achieved Higher Mathematics or equivalent."}},{"@type":"Question","name":"Are there other Advanced Higher maths courses?","acceptedAnswer":{"@type":"Answer","text":"Yes. Mathematics of Mechanics and Statistics are separate Advanced Higher qualifications. This page covers Advanced Higher Mathematics."}},{"@type":"Question","name":"Who awards it now?","acceptedAnswer":{"@type":"Answer","text":"Qualifications Scotland, which replaced SQA on 1 February 2026. The course documents from the SQA period remain current."}},{"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. Ongoing lessons are a monthly fee in US dollars, lower for a group place than one to one, as set out in the fees section, and nothing is payable in advance."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United Kingdom"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/advanced-higher-maths-tuition-online","availableLanguage":["en"]}}
+  </script>
+</head>
+
+<body class="ag-root ag-ahm">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">UK</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#course">The course</a></li>
+      <li><a href="#proof">Proof</a></li>
+      <li><a href="#routines">Routines</a></li>
+      <li><a href="#writing">Writing it down</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-kingdom">Coding classes in the UK</a> / Advanced Higher Maths
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Scotland &middot; Advanced Higher &middot; S6</p>
+        <h1>Advanced Higher Maths tuition online</h1>
+        <p class="ag-lede">Advanced Higher Mathematics is where Scottish school maths starts asking students to prove things, not just calculate them. The course lists proof by contradiction, by contrapositive, direct proof and proof by induction among its skills, and the 2025 course report gave a warning that surprises students used to method marks: in an induction proof, "omitting certain words or phrases can invalidate the proof". A proof is an argument, and an argument with a missing step is not a proof, however good the algebra around it. The rest of the paper rewards something just as exacting: established routines, such as the integrating factor, done without a sign slip, and notation that leaves a marker no doubt. This page sets out the course, what the 2025 candidates did well and badly, and how we teach it.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#proof" class="ag-btn ag-btn--ghost">Proof by induction</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20lesson%20for%20Advanced%20Higher%20Maths." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ahm'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Drawn from the course specification and the 2025 report</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Course</dt><dd>Advanced Higher Mathematics C847 77</dd>
+          <dt>Paper 1</dt><dd>No calculator, 35 marks, 1 hour</dd>
+          <dt>Paper 2</dt><dd>Calculator, 80 marks, 2 hours 30 minutes</dd>
+          <dt>Content</dt><dd>Algebra and proof, calculus, matrices and complex numbers</dd>
+          <dt>Entries in 2025</dt><dd>4,469 resulted</dd>
+          <dt>Entry</dt><dd>Higher Mathematics or equivalent</dd>
+          <dt>Group</dt><dd>Five to ten at one stage</dd>
+          <dt>Start</dt><dd>One free lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Advanced Higher Mathematics is examined by a non-calculator paper worth 35 marks in one hour and a calculator paper worth 80 marks in two and a half hours, with no coursework. Its content falls into three areas: algebra, proof and number theory; calculus; and matrices, vectors and complex numbers. Candidates normally arrive with Higher Mathematics. In 2025, 4,469 received a result. The course report praised excellent answers to the hardest questions, but warned that omitting certain words can invalidate a proof by induction, and flagged sign errors with integrating factors, Maclaurin series, matrix inverses, cyclic integration by parts, missing constants, brackets and unclear handwriting. Modern Age Coders teaches Advanced Higher Maths live, with proofs written in full and checked for every necessary step, routines drilled until exact, and notation treated as part of the mark. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three courses for Advanced Higher</h2>
+      <p class="ag-lede">University-level content, the calculus bridge, and proof. We teach the Advanced Higher specification through courses built for more than one curriculum.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/college-mathematics-complete-masterclass">
+        <div class="ag-pick-shot"><img src="/images/college-level-maths.webp" alt="College Maths Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AHM / 01</p>
+          <h3>University Mathematics</h3>
+          <p>Matrices, proof by induction, Maclaurin series and differential equations, much of the Advanced Higher list.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/a-level-maths-course-pure-mechanics-statistics">
+        <div class="ag-pick-shot"><img src="/images/a-level-maths.webp" alt="A-Level Maths course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AHM / 02</p>
+          <h3>A Level Maths</h3>
+          <p>Calculus, the binomial theorem and vectors, to secure the foundations Advanced Higher builds on.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/olympiad-competition-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/olympiad-competition-maths.webp" alt="Maths Olympiad &amp; Competition Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AHM / 03</p>
+          <h3>Competition Mathematics</h3>
+          <p>Proof, induction and complex numbers, for students who want to write arguments, not only answers.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="course">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The course</p><h2>Two papers, three areas, and the step into proof</h2><p class="ag-lede">From the Advanced Higher Mathematics Course Specification, version 2.0, valid from session 2019 to 20.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Advanced Higher Mathematics at a glance</caption><thead><tr><th scope="col">Part</th><th scope="col">Marks</th><th scope="col">Length</th><th scope="col">Calculator</th></tr></thead><tbody><tr><td>Question paper 1</td><td>35</td><td>1 hour</td><td>No</td></tr><tr><td>Question paper 2</td><td>80</td><td>2 hours 30 minutes</td><td>Yes</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The three content areas</caption><thead><tr><th scope="col">Area</th><th scope="col">Includes</th></tr></thead><tbody><tr><td>Algebra, proof and number theory</td><td>Partial fractions, the binomial theorem, sequences and series, proof by contradiction, contrapositive, direct proof and induction, Euclid's algorithm</td></tr><tr><td>Calculus</td><td>Differentiation of exponential, logarithmic and inverse functions, integration by substitution and by parts, first-order differential equations, Maclaurin expansions</td></tr><tr><td>Matrices, vectors and complex numbers</td><td>Gaussian elimination for three equations, matrix algebra and inverses, lines and planes in three dimensions, de Moivre's theorem and roots of complex numbers</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Advanced Higher Mathematics results, 2025</caption><thead><tr><th scope="col">Item</th><th scope="col">Figure as published</th></tr></thead><tbody><tr><td>Resulted entries</td><td>4,469 (4,390 in 2024)</td></tr><tr><td>Grade A</td><td>41.3 per cent, minimum 83 of 115</td></tr><tr><td>Grade C minimum</td><td>60 of 115</td></tr><tr><td>No award</td><td>16.9 per cent</td></tr></tbody></table></div>
+    <p>Both 2025 papers proved less demanding than expected, and the boundaries were adjusted upward to reflect that, so those minimum marks describe 2025 and are not targets. Advanced Higher Mathematics is one of three Advanced Higher maths courses; Mathematics of Mechanics and Statistics are separate qualifications.</p>
+    <p class="ag-source-note ag-mt-40">Source: the Advanced Higher Mathematics Course Specification, version 2.0, and the Advanced Higher Mathematics course report 2025, both from sqa.org.uk. Qualifications Scotland has awarded the course since replacing SQA on 1 February 2026, and the SQA-era documents remain in force.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="proof">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Proof</p><h2>In a proof, the words carry marks</h2><p class="ag-lede">The report's advice on proof by induction, and why it matters more than students expect.</p></div>
+    <p>Question 15 on the 2025 paper 2 was a proof by induction. The report advises that candidates "should practise proof by induction", citing that question, "so that they are familiar with the vocabulary necessary to demonstrate their understanding of the process", and warns: "They should be aware that omitting certain words or phrases can invalidate the proof. They should ensure that they clearly show details such as substitution and algebraic manipulation."</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The parts of an induction proof, and what each must show</caption><thead><tr><th scope="col">Part</th><th scope="col">What it has to establish</th></tr></thead><tbody><tr><td>Base case</td><td>The statement is true for the first value, shown by substitution, not asserted</td></tr><tr><td>Assumption</td><td>The statement is assumed true for n = k, stated explicitly</td></tr><tr><td>Inductive step</td><td>Using that assumption, the statement is shown true for n = k + 1, with every piece of algebra visible</td></tr><tr><td>Conclusion</td><td>A sentence tying the three together: because it holds for the first value, and truth for k implies truth for k + 1, it holds for all the required values</td></tr></tbody></table></div>
+    <p>The conclusion is where the missing words usually are. A student who has done the algebra perfectly and then stops has not finished the proof, because the logical link that makes induction work has never been stated. The same is true of an assumption used but never written down. These are not formalities; they are the argument.</p>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Contradiction</h3><p>Assume the opposite of what is to be proved and show it leads to something impossible. The assumption has to be stated clearly at the start.</p></div><div><h3>Contrapositive</h3><p>Prove that if not Q then not P, which is logically the same as if P then Q. Students often confuse it with the converse, which is not equivalent.</p></div><div><h3>Direct proof</h3><p>A chain of reasoning from known facts to the result. In straightforward examples, each step must be justified, not just asserted.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="routines">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Routines</p><h2>Established routines, done exactly</h2><p class="ag-lede">The report's first recommendation is to revise standard techniques thoroughly. Here is where they slipped in 2025.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Routine slips in the 2025 report</caption><thead><tr><th scope="col">Topic</th><th scope="col">What went wrong</th></tr></thead><tbody><tr><td>Binomial expansion</td><td>A few gave the general term instead of the full expansion</td></tr><tr><td>Complex division</td><td>Some did not multiply numerator and denominator by the conjugate of the denominator</td></tr><tr><td>Matrices</td><td>A few gave an incorrect transpose; most did not take a suitable first step to find an inverse from a given relation</td></tr><tr><td>Rational functions</td><td>The non-vertical asymptote not stated after the function was rewritten</td></tr><tr><td>Maclaurin series</td><td>Some could not expand a simple trigonometric function; many did not square the result in the next part and restarted from first principles</td></tr><tr><td>Differential equations</td><td>Some omitted the negative sign when finding the integrating factor</td></tr><tr><td>Integration by parts</td><td>In a cyclic case, some said the reappearing integral meant no solution or infinitely many</td></tr><tr><td>Volume of revolution</td><td>Most set up the integral; fewer reached the value, and a few gave an approximation where an exact answer was required</td></tr></tbody></table></div>
+    <p>Two patterns run through that list. The first is a routine known but not finished: the expansion left at the general term, the asymptote not stated, the exact value replaced with a decimal. The second is a routine misread: in cyclic integration by parts, the original integral reappearing is the whole point of the method, a signal to rearrange and solve, not a sign that something has failed.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What candidates did well</h3><p>Most used Gaussian elimination successfully to find where three planes meet, and many handled logarithmic differentiation and rearranged to the required result.</p>
+<p>Some produced excellent, insightful answers to the hardest questions, including related rates of change with a combined increase and decrease.</p></div><div><h3>The factorisation lesson</h3><p>One question gave two expressions that already shared two common factors. Many candidates multiplied both out, making the factorisation much harder, and only a few completed it.</p>
+<p>The report's advice: "expressions can often be simplified by looking for common factors", rather than expanding first.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="writing">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Writing it down</p><h2>Notation, handwriting and working to the end</h2><p class="ag-lede">At Advanced Higher, how an answer is written can decide whether it is marked at all.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Presentation points from the report</caption><thead><tr><th scope="col">Point</th><th scope="col">The report's advice</th></tr></thead><tbody><tr><td>Brackets</td><td>Marks were lost for omitted brackets in several questions on both papers</td></tr><tr><td>Integrals</td><td>Write integrals accurately, especially where the variable is not obvious, as in substitution or volume of revolution</td></tr><tr><td>Constants</td><td>Include the constant of integration, and take care if it is later manipulated</td></tr><tr><td>Handwriting</td><td>"Candidates should not write over their original answer if they make a mistake." Score it through and rewrite legibly in a blank space</td></tr><tr><td>Units and variables</td><td>Give units in rates of change, and do not introduce undefined variables</td></tr><tr><td>Stamina</td><td>Look for accessible marks in the harder parts and persevere to the end of each paper</td></tr></tbody></table></div>
+    <p>The handwriting point is sharper than it sounds. The report notes that markers can find candidates' writing difficult to interpret, especially when an answer has been corrected by writing over it. A mark cannot be given for an answer the marker cannot read with confidence. Layout, the report says, should leave the marker in no doubt about what to mark and what to ignore.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How we teach Advanced Higher</h3><p>Proofs written in full every week, then read back for any missing step or unstated assumption, the way a marker would.</p>
+<p>Standard routines drilled to exactness, and the finishing step of each, the asymptote, the exact value, the constant, treated as part of the routine.</p></div><div><h3>What we will not claim</h3><p>That we run a course made only for Advanced Higher. Our university-level and A level courses cover the content, and we teach it against the specification.</p>
+<p>That any grade is guaranteed. The report shows how much rests on care in writing as well as on understanding.</p></div></div>
+    <p>For the level below, <a class="ag-inline-link" href="/higher-maths-tuition-online">the Higher Maths page</a> covers consistent working, and students who also take computing will find <a class="ag-inline-link" href="/advanced-higher-computing-science-project-help">the Advanced Higher Computing Science page</a> useful. Strong mathematicians may want <a class="ag-inline-link" href="/british-mathematical-olympiad-bmo-preparation">British Mathematical Olympiad preparation</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progression</p>
+      <h2>Four rungs through S6</h2>
+      <p class="ag-lede">Placement depends on how securely a student can write an argument, not only on how much calculus they know.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What an Advanced Higher candidate should be able to do</caption><thead><tr><th scope="col">Rung</th><th scope="col">When</th><th scope="col">What should be true</th></tr></thead><tbody><tr><td>1. Higher, secure</td><td class="ag-num">Start of S6</td><td class="ag-num">Differentiation, integration, logarithms and trigonometry from Higher, done fluently and consistently</td></tr><tr><td>2. New techniques</td><td class="ag-num">Autumn</td><td class="ag-num">Partial fractions, integration by parts and substitution, the binomial theorem, matrices and complex numbers</td></tr><tr><td>3. Proof</td><td class="ag-num">Winter</td><td class="ag-num">Induction, contradiction and contrapositive written in full, with every assumption and conclusion stated</td></tr><tr><td>4. The whole paper</td><td class="ag-num">Spring</td><td class="ag-num">Two-and-a-half-hour papers worked to the end, with accessible marks found in the hardest questions</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Rung three is new territory</h3><p>Few students have written a formal proof before S6. It improves quickly with weekly writing and careful feedback.</p>
+<p>Students who code may enjoy the <a class="ag-inline-link" href="/coding-roadmap">coding roadmap</a>, where the same logical care applies.</p></div><div><h3>Rung four is stamina</h3><p>Paper 2 is long. Persevering to the end, as the report asks, is a habit built with full timed papers.</p>
+<p>Lessons pause for the diet and are there afterwards for university preparation.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for S6 and beyond</h2>
+      <p class="ag-lede">Grouped by purpose. The first lesson settles the order.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Advanced Higher content</h3>
+        <span class="ag-band-sub">Proof, calculus, matrices</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UK / AHM1 / 01</p>
+          <h4>University mathematics</h4>
+          <p>Matrices, series, induction and differential equations.</p>
+          <a class="ag-course-link" href="/courses/college-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / AHM1 / 02</p>
+          <h4>A level maths</h4>
+          <p>Calculus and algebra foundations made secure.</p>
+          <a class="ag-course-link" href="/courses/a-level-maths-course-pure-mechanics-statistics">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / AHM1 / 03</p>
+          <h4>Competition mathematics</h4>
+          <p>Proof and problem solving at depth.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Other routes at this level</h3>
+        <span class="ag-band-sub">Mechanics, statistics and the IB</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UK / AHM2 / 01</p>
+          <h4>Statistics and probability</h4>
+          <p>For students also considering Advanced Higher Statistics.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / AHM2 / 02</p>
+          <h4>IB mathematics</h4>
+          <p>A rigorous parallel curriculum with strong proof content.</p>
+          <a class="ag-course-link" href="/courses/ib-mathematics-aa-ai-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / AHM2 / 03</p>
+          <h4>Mathematics for data analytics</h4>
+          <p>Where university mathematics meets data.</p>
+          <a class="ag-course-link" href="/courses/data-analytics-mathematics-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Mathematics and computing</h3>
+        <span class="ag-band-sub">For future engineers and scientists</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UK / AHM3 / 01</p>
+          <h4>Data structures and algorithms</h4>
+          <p>Proof and induction at work in computer science.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / AHM3 / 02</p>
+          <h4>Python, zero to advanced</h4>
+          <p>Numerical methods and experiments with series.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / AHM3 / 03</p>
+          <h4>Maths through coding</h4>
+          <p>Mathematical ideas explored by writing programs.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons work</p>
+      <h2>Arguments written in full</h2>
+      <p class="ag-lede">Our teachers are based in India, which never moves its clocks, so Scotland is four and a half hours behind in summer and five and a half in winter. Every slot is fixed in UK time.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">The usual slot for S6 students.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evening</p><p class="ag-slot-l">Around free periods, jobs and applications.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Time for a full paper 2 and its review.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Proofs every week</h3><p>Induction and other proofs written in full, then checked for any missing word or step.</p></div>
+      <div><h3>Routines to the finish</h3><p>Each standard technique practised through to its final step, exact values and all.</p></div>
+      <div><h3>Common factors first</h3><p>Expressions examined for shared factors before anything is expanded.</p></div>
+      <div><h3>Readable working</h3><p>Corrections scored through and rewritten, never written over.</p></div>
+      <div><h3>Full timed papers</h3><p>Two-and-a-half-hour papers in spring, worked to the end.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten S6 students, reading each other's proofs critically.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects from our older students' lessons</h2>
+      <p class="ag-lede">Four projects from classes, none of them assessed. More in <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for Advanced Higher lessons</h2>
+      <p class="ag-lede">A monthly charge in US dollars, the same for all families outside India. First lessons are free, and we invoice only after a course and a weekly time have been chosen.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A lesson on real Advanced Higher material</li><li>A frank view of how secure the proofs are</li><li>Only a phone number to book</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten S6 students on one rung</li><li>One teacher through the session</li><li>Proofs read and returned each week</li><li>Full timed papers in spring</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher for one student</li><li>A plan built back from the diet</li><li>Suits a student aiming at a mathematics degree</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents' Google reviews, word for word.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about Advanced Higher Maths</p>
+      <h2>What S6 students and parents ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>How is Advanced Higher Maths assessed?</h3>
+        <p>By two question papers: a non-calculator paper worth 35 marks in one hour and a calculator paper worth 80 marks in two hours and 30 minutes. There is no coursework.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What topics does it cover?</h3>
+        <p>Three areas: algebra, proof and number theory; calculus, including differential equations and Maclaurin series; and matrices, vectors and complex numbers, including de Moivre's theorem.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does proof by induction need particular care?</h3>
+        <p>The 2025 report warns that omitting certain words or phrases can invalidate the proof. The base case, the assumption, the inductive step and the conclusion all have to be written out.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What did candidates find hardest in 2025?</h3>
+        <p>Finding an inverse matrix from a given relation, completing a factorisation that needed common factors, Maclaurin series, the sign of an integrating factor, and cyclic integration by parts.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does handwriting really matter?</h3>
+        <p>Yes. The report says markers can find handwriting hard to interpret, especially over-written corrections, and asks candidates to score through mistakes and rewrite clearly instead.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What mark is needed for an A?</h3>
+        <p>It varies. In 2025 the minimum was 83 of 115 for an A and 60 for a C, after both papers proved less demanding than expected; the next diet will be different.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need Higher Maths first?</h3>
+        <p>Entry is at the school's discretion, but the specification expects candidates to have achieved Higher Mathematics or equivalent.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are there other Advanced Higher maths courses?</h3>
+        <p>Yes. Mathematics of Mechanics and Statistics are separate Advanced Higher qualifications. This page covers Advanced Higher Mathematics.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Who awards it now?</h3>
+        <p>Qualifications Scotland, which replaced SQA on 1 February 2026. The course documents from the SQA period remain current.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does it cost?</h3>
+        <p>The first lesson is free. Ongoing lessons are a monthly fee in US dollars, lower for a group place than one to one, as set out in the fees section, and nothing is payable in advance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Next steps for strong mathematicians</h2>
+      <p class="ag-lede">The Scottish ladder, the olympiad route, and computing at the same level.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/higher-maths-tuition-online">Higher Maths tuition</a></h3><p>The level below, where consistent working is the lesson.</p></div>
+      <div><h3><a class="ag-inline-link" href="/national-5-maths-tuition-online">National 5 Maths tuition</a></h3><p>Where the ladder starts, without a calculator.</p></div>
+      <div><h3><a class="ag-inline-link" href="/advanced-higher-computing-science-project-help">Advanced Higher Computing Science</a></h3><p>The computing course at the same level.</p></div>
+      <div><h3><a class="ag-inline-link" href="/british-mathematical-olympiad-bmo-preparation">British Mathematical Olympiad</a></h3><p>Proof-based competition for the strongest students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/maths-olympiad-training-uk">Maths olympiad training</a></h3><p>The full UK competition ladder.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-kingdom">Coding classes in the UK</a></h3><p>Where every UK page is linked.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Leave a number and we will call at a UK time of your choice. The lesson includes a short proof written in full and ends with a plan for the session.</p>
+        <p class="ag-mt-40">Would you like to read first? Each <a class="ag-inline-link" href="/courses">course page</a> gives its syllabus, <a class="ag-inline-link" href="/how-we-teach">how we teach</a> is candid about who our method suits, and <a class="ag-inline-link" href="/student-labs">student labs</a> shows what students make.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20lesson%20for%20Advanced%20Higher%20Maths." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ahm',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp is the fastest route, free from a UK phone. Messages go to our India office, so the number opens with +91.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ahm(event)" novalidate>
+          <div class="ag-field">
+            <label for="gb-name">Your name</label>
+            <input id="gb-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-phone">Phone or WhatsApp, United Kingdom +44</label>
+            <input id="gb-phone" type="tel" name="phone" placeholder="7700 900123" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-age">Learner age group</label>
+            <select id="gb-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card needed and no contract. We reply once, with a time.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Scottish maths</h4><ul><li><a href="/higher-maths-tuition-online">Higher Maths</a></li><li><a href="/national-5-maths-tuition-online">National 5 Maths</a></li><li><a href="/advanced-higher-computing-science-project-help">AH Computing Science</a></li><li><a href="/coding-and-ai-classes-in-scotland">Scotland overview</a></li></ul></div>
+      <div><h4>Competitions</h4><ul><li><a href="/british-mathematical-olympiad-bmo-preparation">British Mathematical Olympiad</a></li><li><a href="/maths-olympiad-training-uk">Olympiad training</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/courses">Course list</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Advanced Higher Maths, live on UK time</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitLead_ahm = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0044') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('44') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United Kingdom phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+44', countryIso: 'GB', countryName: 'United Kingdom',
+      source: 'advanced-higher-maths-tuition-online-inline', meta: { name: name, age: age, page: 'advanced-higher-maths-tuition-online' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+</body>
+</html>

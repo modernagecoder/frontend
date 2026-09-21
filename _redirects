@@ -3336,4 +3336,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /higher-maths-tuition-online /src/pages/higher-maths-tuition-online.html 200
 /higher-maths-tuition-online.md /src/pages/higher-maths-tuition-online.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/advanced-higher-maths-tuition-online /src/pages/advanced-higher-maths-tuition-online.html 200
+/advanced-higher-maths-tuition-online.md /src/pages/advanced-higher-maths-tuition-online.md 200
 /* /src/pages/404.html 404

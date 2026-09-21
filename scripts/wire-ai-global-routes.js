@@ -219,6 +219,7 @@ const SLUGS = [
   'multiplication-tables-check-year-4-practice',
   'national-5-maths-tuition-online',
   'higher-maths-tuition-online',
+  'advanced-higher-maths-tuition-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -517,6 +518,7 @@ const LLMS_LABELS = {
   'multiplication-tables-check-year-4-practice': 'Multiplication tables check practice',
   'national-5-maths-tuition-online': 'National 5 Maths tuition online',
   'higher-maths-tuition-online': 'Higher Maths tuition online',
+  'advanced-higher-maths-tuition-online': 'Advanced Higher Maths tuition online',
 };
 
 function wireLlms(slugs) {
