@@ -23,7 +23,7 @@
 //    A Level: "Candidates will be required to use either Java (console mode), Visual Basic* (console mode) or
 //    Python (console mode) programming languages."
 //  - OCR A level H446 specification: project language free choice ("choose any suitable programming language",
-//    verified raw for row 49 and re-read for this page).
+//    verified raw for row 49 on 20 September 2026; the re-download for this page truncated, so not re-read).
 // Spine: Java is an A level exam language in the UK, and almost never a GCSE one. No GCSE board in England or
 // Wales runs its programming paper in Java (OCR alone accepts a familiar high-level language in handwritten
 // answers), while AQA, WJEC's Unit 2, Eduqas AS and Cambridge International all offer Java at A level. So many
