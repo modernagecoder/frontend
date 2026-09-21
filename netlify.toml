@@ -12174,6 +12174,18 @@
   to = "/src/pages/national-5-maths-tuition-online.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/higher-maths-tuition-online"
+  to = "/src/pages/higher-maths-tuition-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/higher-maths-tuition-online.md"
+  to = "/src/pages/higher-maths-tuition-online.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
