@@ -205,5 +205,65 @@ const tick = (ms) => new Promise((r) => setTimeout(r, ms));
     assert.strictEqual(w3.__calls.length, 0, 'API-backed form is not double recorded');
   }
 
+  // 8. Direct entry points (2026-09-21): any [data-pd-book] link opens the payment form in
+  //    place, names its placement, shows one currency, and the chooser gives the three
+  //    reasons to pay. A demo form gets one quiet line above its submit button.
+  {
+    const body =
+      '<a id="cta" href="/book-demo" data-pd-book="course">Book priority demo · <span class="pd-price">₹499</span></a>' +
+      '<form id="contactForm"><input type="tel"><button type="submit">Send</button></form>' +
+      '<form id="searchForm"><button type="submit">Go</button></form>';
+    const w = makeWindow({ url: 'https://learn.modernagecoders.com/courses/python-ai-kids-masterclass', isIndian: false, body });
+    const events = [];
+    w.gtag = function (kind, name, params) { events.push({ name, params }); };
+    await tick(50);
+
+    assert.strictEqual(w.document.querySelector('.pd-price').textContent, '$10', 'entry price becomes dollars outside India');
+    assert.ok(!/₹/.test(w.document.getElementById('cta').textContent), 'no rupee mark left beside the dollar price');
+
+    const line = w.document.querySelector('#contactForm .mac-dc-formline');
+    assert.ok(line, 'demo form gets the priority line');
+    assert.strictEqual(line.nextElementSibling.tagName, 'BUTTON', 'the line sits directly above the submit button');
+    assert.ok(!w.document.querySelector('#searchForm .mac-dc-formline'), 'a non-demo form is left alone');
+
+    const click = new w.MouseEvent('click', { bubbles: true, cancelable: true });
+    w.document.getElementById('cta').dispatchEvent(click);
+    assert.ok(click.defaultPrevented, 'the link does not navigate when the chooser can open');
+    assert.ok(w.document.querySelector('.mac-dc-overlay form.mac-dc-form'), 'click opens straight on the payment form');
+    const opened = events.filter((e) => e.name === 'demo_priority_direct_open');
+    assert.strictEqual(opened.length, 1, 'one open event');
+    assert.strictEqual(opened[0].params.placement, 'course', 'the placement is reported');
+
+    // A page that still carries its own delegate calls book() a second time: nothing doubles.
+    w.MACDemoChoice.book();
+    assert.strictEqual(w.document.querySelectorAll('.mac-dc-overlay').length, 1, 'a second book() does not stack a popup');
+    assert.strictEqual(events.filter((e) => e.name === 'demo_priority_direct_open').length, 1, 'and is not counted twice');
+
+    // The in-form link opens it too, tagged as "form".
+    w.document.dispatchEvent(new w.KeyboardEvent('keydown', { key: 'Escape' }));
+    line.querySelector('a').dispatchEvent(new w.MouseEvent('click', { bubbles: true, cancelable: true }));
+    assert.ok(w.document.querySelector('.mac-dc-overlay'), 'in-form link opens the chooser');
+    assert.strictEqual(events.filter((e) => e.name === 'demo_priority_direct_open').pop().params.placement, 'form');
+
+    // India keeps rupees, and the chooser states the three owner-approved reasons.
+    const wi = makeWindow({ isIndian: true, body });
+    await tick(50);
+    assert.strictEqual(wi.document.querySelector('.pd-price').textContent, '₹499', 'India keeps the rupee price');
+    await wi.fetch('https://backend-modernagecoders.vercel.app/api/contact/submit', { method: 'POST', body: JSON.stringify({ name: 'Asha', contact: '9876543210' }) });
+    await tick(500);
+    const paid = wi.document.querySelector('.mac-dc-overlay .mac-dc-opt--paid').textContent;
+    assert.ok(/45 to 60 minutes/.test(paid), 'paid card states the class length');
+    assert.ok(/written skill report/i.test(paid), 'paid card promises the written report');
+    assert.ok(/adjusted against your first month/i.test(paid), 'paid card states the fee adjustment');
+
+    // A page that opts out gets neither the line nor the popup.
+    const wo = makeWindow({ head: '<meta name="mac-demo-choice" content="off">', body });
+    await tick(50);
+    assert.ok(!wo.document.querySelector('.mac-dc-formline'), 'opted-out page gets no form line');
+    const c2 = new wo.MouseEvent('click', { bubbles: true, cancelable: true });
+    wo.document.getElementById('cta').dispatchEvent(c2);
+    assert.ok(!c2.defaultPrevented && !wo.document.querySelector('.mac-dc-overlay'), 'opted-out page lets the link navigate');
+  }
+
   console.log('demo-choice: all checks pass');
 })().catch((e) => { console.error(e); process.exit(1); });
