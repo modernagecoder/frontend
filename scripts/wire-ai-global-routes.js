@@ -220,6 +220,7 @@ const SLUGS = [
   'national-5-maths-tuition-online',
   'higher-maths-tuition-online',
   'advanced-higher-maths-tuition-online',
+  'gcse-maths-and-numeracy-wales-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -519,6 +520,7 @@ const LLMS_LABELS = {
   'national-5-maths-tuition-online': 'National 5 Maths tuition online',
   'higher-maths-tuition-online': 'Higher Maths tuition online',
   'advanced-higher-maths-tuition-online': 'Advanced Higher Maths tuition online',
+  'gcse-maths-and-numeracy-wales-help': 'GCSE Mathematics and Numeracy help, Wales',
 };
 
 function wireLlms(slugs) {
