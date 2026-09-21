@@ -12066,6 +12066,18 @@
   to = "/src/pages/t-level-digital-coding-help.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/national-5-computing-science-help"
+  to = "/src/pages/national-5-computing-science-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/national-5-computing-science-help.md"
+  to = "/src/pages/national-5-computing-science-help.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

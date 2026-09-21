@@ -209,6 +209,7 @@ const SLUGS = [
   'ks3-computing-tuition-online',
   'new-computing-gcse-explained',
   't-level-digital-coding-help',
+  'national-5-computing-science-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -497,6 +498,7 @@ const LLMS_LABELS = {
   'ks3-computing-tuition-online': 'Key Stage 3 computing tuition online',
   'new-computing-gcse-explained': 'The new Computing GCSE explained',
   't-level-digital-coding-help': 'T Level digital coding help',
+  'national-5-computing-science-help': 'National 5 Computing Science help',
 };
 
 function wireLlms(slugs) {
