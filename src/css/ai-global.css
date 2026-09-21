@@ -733,3 +733,4 @@
 .ag-root.ag-adu { --ag-accent: #851DA5; --ag-accent-soft: rgba(133,29,165,.09); }   /* App development, UK: a vivid app-icon purple from the solver (6.27:1 on every paper tint, dE 9.5 from the nearest used accent) */
 .ag-root.ag-fsu { --ag-accent: #223935; --ag-accent-soft: rgba(34,57,53,.09); }   /* Full stack software development, UK: a deep slate-green from the solver (10.0:1 on every paper tint, dE 7.3 from the nearest used accent), deliberately unlike any government palette */
 .ag-root.ag-dsu { --ag-accent: #474912; --ag-accent-soft: rgba(71,73,18,.09); }   /* Data science, UK: a dark olive from the solver (7.64:1 on every paper tint, dE 7.9 from the nearest used accent), the colour of an old chart axis */
+.ag-root.ag-rap { --ag-accent: #A51D75; --ag-accent-soft: rgba(165,29,117,.09); }   /* Build real AI projects, UK: a strong magenta from the solver (5.62:1 on every paper tint, dE 8.1 from the nearest used accent), energetic for a building page */

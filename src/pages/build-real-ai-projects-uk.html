@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Build Real AI Projects in the UK | Live AI Course</title>
+  <meta name="description" content="Build real AI projects in the UK: data you may legally use, models you train and test, and evaluation with open tools. Teens and adults, first class free.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/build-real-ai-projects-uk">
+  <link rel="alternate" type="text/markdown" href="/src/pages/build-real-ai-projects-uk.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#A51D75">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/build-real-ai-projects-uk">
+  <meta property="og:title" content="Build Real AI Projects in the UK | Live AI Course">
+  <meta property="og:description" content="The UK's text and data mining exception covers non-commercial research only. A real AI project starts by asking where its data came from.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_GB">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Build Real AI Projects in the UK">
+  <meta name="twitter:description" content="Real AI projects for UK learners: lawful data, trained models, honest evaluation with open tools like Inspect. Live online, first class free.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="GB">
+  <meta name="geo.placename" content="United Kingdom">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-rap .ag-hero h1 { letter-spacing: -0.024em; font-weight: 700; }
+.ag-root.ag-rap .ag-capsule { border-left-width: 5px; border-radius: 6px; }
+.ag-root.ag-rap .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-rap .ag-table caption { text-align: left; font-weight: 660; }
+.ag-root.ag-rap .ag-table th:first-child { width: 28%; }
+.ag-root.ag-rap .ag-spec dt { letter-spacing: 0.098em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United Kingdom"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/build-real-ai-projects-uk#page","url":"https://learn.modernagecoders.com/build-real-ai-projects-uk","name":"Build Real AI Projects in the UK","description":"A live online course for UK teenagers and adults building real AI projects, covering UK data rules for training and open evaluation tools.","inLanguage":"en-GB","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the UK","item":"https://learn.modernagecoders.com/coding-classes-in-united-kingdom"},{"@type":"ListItem","position":4,"name":"Real AI projects","item":"https://learn.modernagecoders.com/build-real-ai-projects-uk"}]},{"@type":"Course","name":"Build Real AI Projects in the UK","description":"Live online AI project building for UK learners: choosing lawful data, training and fine-tuning models in Python, retrieval over licensed documents, and evaluating results with open frameworks.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/build-real-ai-projects-uk"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/build-real-ai-projects-uk"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/build-real-ai-projects-uk"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I train an AI model on anything I find online?","acceptedAnswer":{"@type":"Answer","text":"Not safely. The UK text and data mining exception covers copies made for non-commercial research from material you can lawfully access. Commercial projects need data licensed for that use. This is general information, not legal advice."}},{"@type":"Question","name":"What is the Open Government Licence?","acceptedAnswer":{"@type":"Answer","text":"A licence from The National Archives for public sector information, allowing commercial and non-commercial reuse with attribution. It excludes personal data, logos and third party rights."}},{"@type":"Question","name":"Can a website stop me text and data mining for research?","acceptedAnswer":{"@type":"Answer","text":"The IPO says contract terms that stop researchers making copies to carry out text and data mining will be unenforceable, though publishers may use reasonable measures to protect their networks."}},{"@type":"Question","name":"What is Inspect?","acceptedAnswer":{"@type":"Answer","text":"An open-source framework for large language model evaluations, developed by the UK AI Security Institute and Meridian Labs, with over 200 pre-built evaluations. We use tools like it to teach evaluation; we are not connected with either organisation."}},{"@type":"Question","name":"Do I need to be good at maths?","acceptedAnswer":{"@type":"Answer","text":"School maths is enough to start the teen course. The maths grows with the projects, and it is taught as needed."}},{"@type":"Question","name":"Which language is used?","acceptedAnswer":{"@type":"Answer","text":"Python throughout, with standard machine learning and data libraries."}},{"@type":"Question","name":"Can younger children build AI projects?","acceptedAnswer":{"@type":"Answer","text":"Younger learners start with Python and AI for Kids, which builds the ideas step by step before full projects."}},{"@type":"Question","name":"Do you help with school coursework?","acceptedAnswer":{"@type":"Answer","text":"No. We never work on coursework, NEA or anything submitted for assessment. Projects are separate and the student's own."}},{"@type":"Question","name":"How much are lessons?","acceptedAnswer":{"@type":"Answer","text":"Nothing for the first class. Then a group place is USD 100 a month and one-to-one teaching USD 150 a month, and nothing is charged for joining."}},{"@type":"Question","name":"What time of day are classes?","acceptedAnswer":{"@type":"Answer","text":"Usually a weekday evening, or a longer weekend block for training runs, set in UK time at the first class. India is four and a half hours ahead of British Summer Time and five and a half ahead in winter."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United Kingdom"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/build-real-ai-projects-uk","availableLanguage":["en"]}}
+  </script>
+</head>
+
+<body class="ag-root ag-rap">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">UK</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#data">Data you may use</a></li>
+      <li><a href="#licence">Open data</a></li>
+      <li><a href="#evaluate">Proving it works</a></li>
+      <li><a href="#projects-list">Project ideas</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-kingdom">Coding classes in the UK</a> / Real AI projects
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">UK &middot; Teens and adults &middot; Python and models</p>
+        <h1>Build real AI projects in the UK</h1>
+        <p class="ag-lede">A real AI project is mostly two questions that demos skip: where did the data come from, and how do you know it works? In the UK the first has a legal edge. The Intellectual Property Office explains that the copyright exception for text and data mining lets researchers copy material they can lawfully read for computational analysis, but "This exception only permits the making of copies for the purpose of text and data mining for non-commercial research." A school or personal research project may sit inside that; an app you plan to sell does not. Public sector data under the Open Government Licence is different again: you may "exploit the Information commercially and non-commercially", provided you credit the source. The second question has an unusual UK answer too. The UK AI Security Institute co-develops Inspect, "An open-source framework for large language model evaluations", which anyone can install. Our lessons show UK teenagers and adults how to build AI projects that answer both questions: lawful data in, a trained or grounded model in the middle, and a measured result out.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#data" class="ag-btn ag-btn--ghost">Which data you may use</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20class%20on%20building%20real%20AI%20projects%20in%20the%20UK." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'rap'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; AI projects with lawful data and measured results</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Data rule</dt><dd>TDM exception: non-commercial research only</dd>
+          <dt>Open data</dt><dd>OGL: commercial use with attribution</dd>
+          <dt>Personal data</dt><dd>A separate question, kept out</dd>
+          <dt>Models</dt><dd>Trained, fine-tuned or grounded by you</dd>
+          <dt>Evaluation</dt><dd>Open tools such as Inspect</dd>
+          <dt>For</dt><dd>Teens and adults</dd>
+          <dt>Group</dt><dd>Five to ten, or one to one</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>In the UK, copyright law includes an exception allowing copies of lawfully accessed material to be made for text and data mining, but only for non-commercial research, and contract terms that forbid such copying are unenforceable, according to the Intellectual Property Office. Public sector information under the Open Government Licence v3.0 may be used commercially and non-commercially with attribution, though the licence excludes personal data, logos and third party rights. Evaluation matters as much as data: the UK AI Security Institute co-develops Inspect, an open-source framework for large language model evaluations with over 200 pre-built evaluations. Modern Age Coders teaches UK teenagers and adults to build real AI projects live and online: choosing lawful data, training and fine-tuning models in Python, grounding assistants in licensed documents, and evaluating results. This is general information, not legal advice. Your first class costs nothing; after that, group places are USD 100 a month and one-to-one teaching USD 150 a month.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three ways into building AI</h2>
+      <p class="ag-lede">Machine learning for teenagers, generative AI engineering for adults, and a project sprint. Each card opens the full syllabus.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">RAP / 01</p>
+          <h3>AI and Machine Learning for Teens</h3>
+          <p>Python to real models, for ages 13 to 18, with school maths enough to start.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-generative-ai-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/generative-ai-college.webp" alt="Generative AI Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">RAP / 02</p>
+          <h3>Generative AI: LLMs, RAG and Agents</h3>
+          <p>Retrieval, fine-tuning and evaluation for adults, built in Python.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course">
+        <div class="ag-pick-shot"><img src="/images/hackathon-teens.webp" alt="Hackathon for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">RAP / 03</p>
+          <h3>Hackathon Prep for Teens</h3>
+          <p>Scoping, building and presenting an AI project against a clock.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="data">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Data you may use</p><h2>The first question: where did the data come from?</h2><p class="ag-lede">From the Intellectual Property Office's guidance on exceptions to copyright on gov.uk. Training data is where most student AI projects quietly go wrong.</p></div>
+    <p>The IPO describes text and data mining as "the use of automated analytical techniques to analyse text and data for patterns, trends and other useful information", and notes that it usually requires copying the work being analysed. The exception lets researchers make those copies when they already have lawful access to the work, that is, the right to read it. Two limits matter for anyone building AI: "This exception only permits the making of copies for the purpose of text and data mining for non-commercial research", and researchers still have to pay for access where access costs money.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Common data sources for a student AI project, and the question each raises</caption><thead><tr><th scope="col">Data source</th><th scope="col">The question to ask</th><th scope="col">Usual answer for a learner</th></tr></thead><tbody><tr><td>Public sector data under the Open Government Licence</td><td>Have I credited the source as the licence asks?</td><td>Usable, including commercially, with attribution</td></tr><tr><td>Texts or images you can lawfully read</td><td>Is my project non-commercial research?</td><td>Possibly within the exception; not for a product</td></tr><tr><td>Datasets published with their own licence</td><td>What does that licence allow?</td><td>Read it; many allow research, some forbid commercial use</td></tr><tr><td>Data you create yourself</td><td>Does it include anyone else's personal data?</td><td>Usually the cleanest choice</td></tr><tr><td>Social media posts and profiles</td><td>Is this personal data about real people?</td><td>Avoid for learning projects</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>A contract cannot switch it off</h3><p>The IPO adds that "Contract terms that stop researchers making copies to carry out text and data mining will be unenforceable." Publishers may still use reasonable measures to protect their networks.</p>
+<p>That protects research. It does not turn a research project into permission to build a commercial product on the same material.</p></div><div><h3>The law is still being discussed</h3><p>The Data (Use and Access) Act 2025 included "provisions requiring the government to prepare a progress update and a report on copyright works and artificial intelligence systems", which came into force in August 2025.</p>
+<p>Anyone planning to commercialise a model trained on other people's work should take proper legal advice. This page, and the course, give general information only.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 21 September 2026: <a class="ag-inline-link" href="https://www.gov.uk/guidance/exceptions-to-copyright" rel="noopener" target="_blank">Intellectual Property Office, Exceptions to copyright</a>; <a class="ag-inline-link" href="https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement" rel="noopener" target="_blank">Data Use and Access Act 2025: plans for commencement</a>. Not legal advice.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="licence">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Open data</p><h2>The Open Government Licence: data built to be reused</h2><p class="ag-lede">Much UK public sector information is published under the Open Government Licence v3.0, maintained by The National Archives. It is the most generous licence a learner is likely to meet.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What the Open Government Licence v3.0 allows and excludes</caption><thead><tr><th scope="col"></th><th scope="col">As the licence states</th></tr></thead><tbody><tr><td>The spirit</td><td>"You are encouraged to use and re-use the Information that is available under this licence freely and flexibly, with only a few conditions."</td></tr><tr><td>The grant</td><td>A worldwide, royalty-free, perpetual, non-exclusive licence</td></tr><tr><td>Commercial use</td><td>You may "exploit the Information commercially and non-commercially", including in your own product or application</td></tr><tr><td>The main condition</td><td>Acknowledge the source; the default statement is "Contains public sector information licensed under the Open Government Licence v3.0."</td></tr><tr><td>Not covered</td><td>Personal data, logos and crests, third party rights, other intellectual property such as trade marks</td></tr><tr><td>No endorsement</td><td>You may not suggest official status or that the provider endorses your use</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why it suits AI projects</h3><p>Because commercial use is allowed, a model or app trained on OGL data can keep going after the course, as long as every use keeps the attribution.</p>
+<p>Students learn to put the attribution statement in the project README and the app itself from the first commit.</p></div><div><h3>What to check first</h3><p>Not everything on a government website is OGL. Each dataset states its own licence, and some include third party material the government cannot license.</p>
+<p>And the licence never covers personal data, which brings in data protection law instead.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source, read 21 September 2026: <a class="ag-inline-link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="noopener" target="_blank">The National Archives, Open Government Licence v3.0</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="evaluate">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Proving it works</p><h2>The last question: how do you know it works?</h2><p class="ag-lede">A demo shows a model working once. An evaluation shows how often it works, on cases chosen before the results were known.</p></div>
+    <p>The UK AI Security Institute, with Meridian Labs, develops Inspect, described in its documentation as "An open-source framework for large language model evaluations". It is built from "datasets, agents, tools, and scorers", ships "A collection of over 200 pre-built evaluations ready to run on any model", and can run untrusted model code in a sandbox. It is used for serious frontier model testing, and it is free for a student to install and learn.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>An evaluation in four parts, and what a student writes for each</caption><thead><tr><th scope="col">Part</th><th scope="col">What it is</th><th scope="col">In a student project</th></tr></thead><tbody><tr><td>Dataset</td><td>The test cases, with the answers you expect</td><td>Thirty to a hundred real examples, written before looking at results</td></tr><tr><td>Solver or agent</td><td>How the model is asked, with any tools</td><td>The prompt, retrieval step or fine-tuned model being tested</td></tr><tr><td>Scorer</td><td>How each answer is marked</td><td>Exact match, a rubric, or a second model with its own checks</td></tr><tr><td>Report</td><td>The score, and where it fails</td><td>A pass rate, the failures listed, and what changed between runs</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Classical machine learning too</h3><p>For models trained from scratch, the same idea appears as a held-out test set: data the model never saw in training, used only once to measure it.</p>
+<p>Students learn why accuracy alone can mislead, and when precision, recall or a confusion matrix tell the real story.</p></div><div><h3>Honest numbers</h3><p>A project that reports 60% on a fair test is better work than one that reports 99% on the data it was trained on. The course rewards the first.</p>
+<p>How models learn and are assured is also covered on <a class="ag-inline-link" href="/learn-to-train-ai-not-just-prompt-it-uk">learn to train AI, not just prompt it</a>.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source, read 21 September 2026: <a class="ag-inline-link" href="https://inspect.aisi.org.uk/" rel="noopener" target="_blank">Inspect documentation</a>, UK AI Security Institute and Meridian Labs. We are not connected with either organisation.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="projects-list">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Project ideas</p><h2>Projects that answer both questions</h2><p class="ag-lede">Each one names its data source and its evaluation before any code is written.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Starter AI projects</caption><thead><tr><th scope="col">Project</th><th scope="col">Data</th><th scope="col">How it is evaluated</th></tr></thead><tbody><tr><td>A guidance assistant</td><td>Public guidance pages published under the Open Government Licence, credited</td><td>Fifty questions with known answers from the pages, scored for accuracy and citation</td></tr><tr><td>A handwritten digit or leaf classifier</td><td>A public benchmark dataset, or photos the student takes</td><td>A held-out test set and a confusion matrix</td></tr><tr><td>A local air quality forecaster</td><td>Public environmental monitoring data under an open licence</td><td>Error on months the model never saw</td></tr><tr><td>A study-notes quiz generator</td><td>The student's own notes</td><td>A rubric marking whether each question is answerable from the notes</td></tr><tr><td>A text classifier for research</td><td>Texts the student can lawfully read, for a non-commercial project</td><td>Precision and recall on a labelled sample</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Written before coding</h3><p>Each project starts with a one-page plan: the data, its licence, the test set and what counts as success.</p></div><div><h3>Kept in the open</h3><p>Code and results live in the student's own repository, with attribution statements where licences require them.</p></div><div><h3>Presented honestly</h3><p>Every project ends with a short write-up of what the model gets wrong, not only what it gets right.</p></div></div>
+    <p class="ag-mt-40">Younger learners start gently: our <a class="ag-inline-link" href="/ai-classes-for-kids-uk">AI classes for kids</a> build the ideas behind this. Students who want an audience can take a finished project to <a class="ag-inline-link" href="/student-hackathons-uk">a student hackathon</a> or the <a class="ag-inline-link" href="/uk-olympiad-in-artificial-intelligence-preparation">UK Olympiad in Artificial Intelligence</a>. We never work on coursework, NEA or anything submitted for assessment.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Stages</p>
+      <h2>Four stages to a real AI project</h2>
+      <p class="ag-lede">Where you begin depends on your Python and maths, not your age.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From using a model to building and measuring one</caption><thead><tr><th scope="col">Stage</th><th scope="col">What should be true</th></tr></thead><tbody><tr><td>1. Data first</td><td class="ag-num">You can find a dataset, read its licence and describe what is in it</td></tr><tr><td>2. A first model</td><td class="ag-num">You train a simple model in Python and understand every line</td></tr><tr><td>3. Grounded or fine-tuned</td><td class="ag-num">You build a retrieval assistant or fine-tune a model on lawful data</td></tr><tr><td>4. Measured</td><td class="ag-num">You evaluate on a fair test set, report the failures and improve the score honestly</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Stage one is not optional</h3><p>A brilliant model on data you may not use is not a finished project.</p>
+<p>The wider sequence of subjects is on the <a class="ag-inline-link" href="/coding-roadmap">coding roadmap</a>.</p></div><div><h3>Stage four is the proof</h3><p>The evaluation is what turns a demo into evidence.</p>
+<p>It is also what employers and competition judges look for first.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for building AI</h2>
+      <p class="ag-lede">From first models to generative AI engineering, and the data skills underneath.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Machine learning</h3>
+        <span class="ag-band-sub">By age</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">RAP / ML / 01</p>
+          <h4>Python and AI for Kids</h4>
+          <p>The first step, for younger learners.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RAP / ML / 02</p>
+          <h4>AI and Machine Learning for Teens</h4>
+          <p>Python to real models, ages 13 to 18.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RAP / ML / 03</p>
+          <h4>AI and Machine Learning for Adults</h4>
+          <p>Models, evaluation and deployment.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Generative AI</h3>
+        <span class="ag-band-sub">Engineering, not prompting</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">RAP / GEN / 01</p>
+          <h4>Generative AI: LLMs, RAG and Agents</h4>
+          <p>Retrieval, fine-tuning and evaluation.</p>
+          <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RAP / GEN / 02</p>
+          <h4>Artificial Intelligence Masterclass</h4>
+          <p>The wider field, from search to neural networks.</p>
+          <a class="ag-course-link" href="/courses/artificial-intelligence-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RAP / GEN / 03</p>
+          <h4>AI Projects for Teens</h4>
+          <p>Python, web and AI projects, reviewed line by line.</p>
+          <a class="ag-course-link" href="/courses/vibe-coding-for-teens-python-web-ai-projects-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Data and delivery</h3>
+        <span class="ag-band-sub">Under and around the model</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">RAP / DAT / 01</p>
+          <h4>Data Science for Teens</h4>
+          <p>Cleaning and exploring the data first.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RAP / DAT / 02</p>
+          <h4>Data Science for Adults</h4>
+          <p>Python, SQL and machine learning.</p>
+          <a class="ag-course-link" href="/courses/data-science-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RAP / DAT / 03</p>
+          <h4>Hackathon Prep for Teens</h4>
+          <p>Building and presenting under time pressure.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live lessons around a real project</h2>
+      <p class="ag-lede">Classes come from India, which never changes its clocks. Against the UK that means a four and a half hour gap in summer and five and a half in winter, so weekday evenings and weekends in UK time are easy to schedule.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school or work</p><p class="ag-slot-l">A weekday evening session.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Saturday</p><p class="ag-slot-l">A longer block for training runs.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Sunday</p><p class="ag-slot-l">For evaluation and write-ups.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A free first class</h3><p>We check your Python and maths and agree a first project with you.</p></div>
+      <div><h3>Small groups</h3><p>Between five and ten learners, grouped by ability.</p></div>
+      <div><h3>One to one</h3><p>For a competition deadline or a particular idea.</p></div>
+      <div><h3>Licence checked</h3><p>No dataset is used until its licence has been read and recorded.</p></div>
+      <div><h3>Evaluation built in</h3><p>A test set is written before the model is judged.</p></div>
+      <div><h3>Your own accounts</h3><p>Code, data notes and results stay in your own repository.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students have built</h2>
+      <p class="ag-lede">Four projects completed by our students. The rest, across every age group, are in <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for AI projects</h2>
+      <p class="ag-lede">Billed monthly in US dollars, at the same rate for every country outside India, with no joining charge and no commitment past the current month. Most tools used are free; any paid AI service is your own choice and your own account.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A look at your Python and maths</li><li>A first project agreed with you</li><li>Nothing to pay that day</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten learners at one level</li><li>The same teacher each week</li><li>Data and evaluation reviewed</li><li>Stop at the end of any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>One teacher, one learner</li><li>Your own project at the centre</li><li>Suits a competition deadline</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews on Google from our students and their families, shown as written.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about AI projects</p>
+      <h2>What UK learners ask about building AI</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Can I train an AI model on anything I find online?</h3>
+        <p>Not safely. The UK text and data mining exception covers copies made for non-commercial research from material you can lawfully access. Commercial projects need data licensed for that use. This is general information, not legal advice.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the Open Government Licence?</h3>
+        <p>A licence from The National Archives for public sector information, allowing commercial and non-commercial reuse with attribution. It excludes personal data, logos and third party rights.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a website stop me text and data mining for research?</h3>
+        <p>The IPO says contract terms that stop researchers making copies to carry out text and data mining will be unenforceable, though publishers may use reasonable measures to protect their networks.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is Inspect?</h3>
+        <p>An open-source framework for large language model evaluations, developed by the UK AI Security Institute and Meridian Labs, with over 200 pre-built evaluations. We use tools like it to teach evaluation; we are not connected with either organisation.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need to be good at maths?</h3>
+        <p>School maths is enough to start the teen course. The maths grows with the projects, and it is taught as needed.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which language is used?</h3>
+        <p>Python throughout, with standard machine learning and data libraries.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can younger children build AI projects?</h3>
+        <p>Younger learners start with Python and AI for Kids, which builds the ideas step by step before full projects.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you help with school coursework?</h3>
+        <p>No. We never work on coursework, NEA or anything submitted for assessment. Projects are separate and the student's own.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much are lessons?</h3>
+        <p>Nothing for the first class. Then a group place is USD 100 a month and one-to-one teaching USD 150 a month, and nothing is charged for joining.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What time of day are classes?</h3>
+        <p>Usually a weekday evening, or a longer weekend block for training runs, set in UK time at the first class. India is four and a half hours ahead of British Summer Time and five and a half ahead in winter.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Training, data and competitions around AI.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/learn-to-train-ai-not-just-prompt-it-uk">Learn to train AI, not just prompt it</a></h3><p>How models are measured and assured.</p></div>
+      <div><h3><a class="ag-inline-link" href="/data-science-course-uk">Data science course</a></h3><p>The data skills underneath every model.</p></div>
+      <div><h3><a class="ag-inline-link" href="/uk-olympiad-in-artificial-intelligence-preparation">UK Olympiad in Artificial Intelligence</a></h3><p>A competition for AI projects.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-classes-for-kids-uk">AI classes for kids</a></h3><p>Where younger learners start.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-agents-course-for-students-uk">AI agents for students</a></h3><p>Agents as portfolio evidence.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-kingdom">Coding classes in the UK</a></h3><p>All our UK pages.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Bring an AI idea to a free class</h2>
+        <p class="ag-lede">Leave a number and we will call at a UK time that suits you. Bring an idea; the class checks your level and turns it into a plan with a data source and a test.</p>
+        <p class="ag-mt-40">Reading first? Every <a class="ag-inline-link" href="/courses">course page</a> lists its syllabus, <a class="ag-inline-link" href="/how-we-teach">how we teach</a> sets out the approach, and <a class="ag-inline-link" href="/student-labs">student labs</a> gathers finished projects.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20class%20on%20building%20real%20AI%20projects%20in%20the%20UK." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'rap',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp from a UK number is usually the fastest way to reach us. We are based in India, so our number starts +91; there is no UK office.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_rap(event)" novalidate>
+          <div class="ag-field">
+            <label for="gb-name">Your name</label>
+            <input id="gb-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-phone">Phone or WhatsApp, United Kingdom +44</label>
+            <input id="gb-phone" type="tel" name="phone" placeholder="7700 900123" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-age">Learner age group</label>
+            <select id="gb-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, and only a phone number needed.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>AI</h4><ul><li><a href="/learn-to-train-ai-not-just-prompt-it-uk">Learn to train AI</a></li><li><a href="/data-science-course-uk">Data science</a></li><li><a href="/uk-olympiad-in-artificial-intelligence-preparation">UK AI Olympiad</a></li><li><a href="/coding-roadmap">The coding roadmap</a></li></ul></div>
+      <div><h4>UK</h4><ul><li><a href="/coding-classes-in-united-kingdom">UK coding classes</a></li><li><a href="/ai-classes-for-kids-uk">AI classes for kids</a></li><li><a href="/student-hackathons-uk">Student hackathons</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Lawful data in, a measured result out</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitLead_rap = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0044') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('44') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United Kingdom phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+44', countryIso: 'GB', countryName: 'United Kingdom',
+      source: 'build-real-ai-projects-uk-inline', meta: { name: name, age: age, page: 'build-real-ai-projects-uk' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+</body>
+</html>

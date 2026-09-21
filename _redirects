@@ -3412,4 +3412,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /data-science-course-uk /src/pages/data-science-course-uk.html 200
 /data-science-course-uk.md /src/pages/data-science-course-uk.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/build-real-ai-projects-uk /src/pages/build-real-ai-projects-uk.html 200
+/build-real-ai-projects-uk.md /src/pages/build-real-ai-projects-uk.md 200
 /* /src/pages/404.html 404
