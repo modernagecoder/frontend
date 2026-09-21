@@ -239,6 +239,7 @@ const SLUGS = [
   'full-stack-software-development-course-uk',
   'data-science-course-uk',
   'build-real-ai-projects-uk',
+  'ai-and-python-academy-for-girls-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -557,6 +558,7 @@ const LLMS_LABELS = {
   'full-stack-software-development-course-uk': 'Full stack software development course, UK',
   'data-science-course-uk': 'Data science course, UK',
   'build-real-ai-projects-uk': 'Build real AI projects, UK',
+  'ai-and-python-academy-for-girls-uk': 'AI and Python academy for girls, UK',
 };
 
 function wireLlms(slugs) {
