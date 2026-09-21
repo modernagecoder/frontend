@@ -17848,5 +17848,55 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the ONS, Cardiff University or Amgueddfa Cymru."
     ]
+  },
+  "best-coding-class-in-belfast": {
+    "market": "Belfast",
+    "bodyClass": "cg-bel",
+    "pageType": "city",
+    "curriculumAuthority": "Belfast, NISRA Census 2021 main statistics: MS-A01 Belfast Local Government District (N09000003) 345,418 usual residents; MS-A02 age table for the same district totals 345,417 and gives 19,788 aged 0 to 4, 21,328 aged 5 to 9 (6.17 percent), 21,213 aged 10 to 14 (6.14), 21,412 aged 15 to 19 (6.20), 28,919 aged 20 to 24 (8.37), 26,735 aged 25 to 29 (7.74), against Northern Ireland shares of 6.54, 6.67, 5.95, 5.85 and 6.12 percent. The two tables are quoted separately and never added. Queen's University Belfast: founded 1845 as Queen's College Belfast, independent university from 1908, Russell Group member. Translink Metro and Glider timetable via OpenDataNI (TransXChange, dataset updated 4 September 2026, operating period 1 September 2026 to 30 June 2027): 2,090 stops, 132 line names, 7,722 scheduled vehicle journeys.",
+    "localProject": "Which stop holds the network together? PageRank over the Translink Metro and Glider TransXChange file: 2,090 stops, 2,494 directed stop-to-stop links, 231,651 journey-weighted crossings, 7 stops with no onward link, median out-degree 1 and maximum 8. Weighted PageRank at damping 0.85: May Street (St George's Market) 0.00310, Central Library, May Street (City Hall), Donegall Place, Victoria Square (Victoria Street). Dundonald Park and Ride leads on scheduled journeys (1,321) but ranks 19th. Donegall Square West: 7th by journeys, 10th weighted, 186th unweighted. Convergence 39 passes to 1e-4 and 96 to 1e-9; top ten stable after 21; damping 0.50 to 0.95 leaves the top stop unchanged. The data is scheduled service, not passenger counts. Lesson family: PageRank and network centrality; distinct from union-find, shortest paths, Voronoi and Markov chains.",
+    "requiredMentions": [
+      "345,418",
+      "345,417",
+      "28,919",
+      "26,735",
+      "21,328",
+      "PageRank",
+      "Donegall",
+      "Dundonald",
+      "2,090",
+      "damping",
+      "Queen's College Belfast",
+      "2,494"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA, Census 2021 MS-A01: Belfast Local Government District 345,418 usual residents.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "NISRA, Census 2021 MS-A02: Belfast and Northern Ireland five-year age bands and shares.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a02.xlsx"
+      },
+      {
+        "claim": "NISRA, Census 2021 main statistics demography tables (age and sex) publication page.",
+        "url": "https://www.nisra.gov.uk/publications/census-2021-main-statistics-demography-tables-age-and-sex"
+      },
+      {
+        "claim": "Translink Metro and Glider timetable data via OpenDataNI (TransXChange, from 1 September 2026).",
+        "url": "https://www.opendatani.gov.uk/@translink/metro-timetable-data-valid-from-18-june-until-31-august-2016"
+      },
+      {
+        "claim": "Queen's University Belfast, About: founded 1845 as Queen's College Belfast, independent university in 1908, Russell Group.",
+        "url": "https://www.qub.ac.uk/about/"
+      }
+    ],
+    "rejectedClaims": [
+      "Glider route facts from Translink's own pages: those pages returned HTTP 404, so only the timetable file is used.",
+      "Passenger numbers: the timetable records scheduled journeys, not boardings, and the page says so.",
+      "Belfast LiDAR flood modelling: examined and dropped, because open water carries surface heights in the terrain model, so a flood fill could not be trusted.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Translink, OpenDataNI, NISRA or Queen's University Belfast."
+    ]
   }
 }

@@ -152,7 +152,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 100 | best-coding-class-in-preston (prs, #833F4D) | city (UK, Phase 4) | 3,368 | 2.1% vs best-coding-class-in-newcastle-upon-tyne | a trend one bad year cannot bend (Theil-Sen vs least squares on DfT M6 traffic; stress test) | robust estimation (Theil-Sen median of pairwise slopes) | 879847f0 |
 | 101 | best-coding-class-in-edinburgh (edi, #3E1F5C) | city (UK, Phase 4) | 3,449 | 3.4% vs best-coding-class-in-sheffield | why Edinburgh's summer nights never get properly dark (solar geometry checked against USNO) | solar geometry and model validation | be9a5823 |
 | 102 | best-coding-class-in-glasgow (gla, #1B4A6A) | city (UK, Phase 4) | 3,349 | 2.2% vs best-coding-class-in-newcastle-upon-tyne | how long is Glasgow's boundary? (coastline paradox: divider and box counting on ONS boundary) | fractals and the coastline paradox | 580947f7 |
-| 103 | best-coding-class-in-cardiff (crf, #0F5728) | city (UK, Phase 4) | 3,347 | 2.3% vs best-coding-class-in-newcastle-upon-tyne | is Cardiff as big as Zipf's law says? (rank-size on 579 Welsh built-up areas; primate city) | Zipf's law and power laws | (this commit) |
+| 103 | best-coding-class-in-cardiff (crf, #0F5728) | city (UK, Phase 4) | 3,347 | 2.3% vs best-coding-class-in-newcastle-upon-tyne | is Cardiff as big as Zipf's law says? (rank-size on 579 Welsh built-up areas; primate city) | Zipf's law and power laws | b498c873 |
+| 104 | best-coding-class-in-belfast (bel, #5F581C) | city (UK, Phase 4) | 3,362 | 2.8% vs best-coding-class-in-liverpool | which stop holds the network together? (PageRank on Translink Metro and Glider timetable) | PageRank and network centrality | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
