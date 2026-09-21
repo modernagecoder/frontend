@@ -237,6 +237,7 @@ const SLUGS = [
   'java-classes-uk',
   'app-development-course-uk',
   'full-stack-software-development-course-uk',
+  'data-science-course-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -553,6 +554,7 @@ const LLMS_LABELS = {
   'java-classes-uk': 'Java classes, UK',
   'app-development-course-uk': 'App development course, UK',
   'full-stack-software-development-course-uk': 'Full stack software development course, UK',
+  'data-science-course-uk': 'Data science course, UK',
 };
 
 function wireLlms(slugs) {

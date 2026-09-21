@@ -453,6 +453,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Java classes, UK: https://learn.modernagecoders.com/java-classes-uk
 - App development course, UK: https://learn.modernagecoders.com/app-development-course-uk
 - Full stack software development course, UK: https://learn.modernagecoders.com/full-stack-software-development-course-uk
+- Data science course, UK: https://learn.modernagecoders.com/data-science-course-uk
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

@@ -130,7 +130,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 78 | cyber-security-course-for-teens-uk (cyt, #325D36) | age and career door (UK) | 3,439 | 4.5% vs coding-before-a-degree-apprenticeship-uk | the same curiosity, on the legal side of the line (NCA: 20% of 10-16s breach the Computer Misuse Act) | the law and the labour market read together to steer curiosity towards legal practice | a1fac2c2 |
 | 79 | java-classes-uk (jvu, #87371D) | language and track door (UK) | 3,258 | 3.4% vs coding-for-university-students-uk | Java is an A level exam language in the UK, and almost never a GCSE one | exam-board language rules read as the reason a student switches language | a305ce64 |
 | 80 | app-development-course-uk (adu, #851DA5) | language and track door (UK) | 3,433 | 4.2% vs java-classes-uk | an app has two rulebooks before it has users (DSIT app code, ICO Children's code) | regulatory codes turned into default settings in code | 67e78711 |
-| 81 | full-stack-software-development-course-uk (fsu, #223935) | language and track door (UK) | 3,277 | 3.6% vs app-development-course-uk | the UK government publishes how it builds for the web (Service Standard; WCAG 2.2 AA) | a published public-sector standard used as a free quality bar | (this commit) |
+| 81 | full-stack-software-development-course-uk (fsu, #223935) | language and track door (UK) | 3,277 | 3.6% vs app-development-course-uk | the UK government publishes how it builds for the web (Service Standard; WCAG 2.2 AA) | a published public-sector standard used as a free quality bar | 272b9e83 |
+| 82 | data-science-course-uk (dsu, #474912) | language and track door (UK) | 3,351 | 3.7% vs app-development-course-uk | A level maths already hands every student real, uncleaned data; code is the missing middle | a qualification's data requirement read as the on-ramp to a technical skill it stops short of | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
