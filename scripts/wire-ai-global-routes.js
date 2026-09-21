@@ -229,6 +229,7 @@ const SLUGS = [
   'coding-for-home-educated-children-uk',
   'online-coding-summer-course-uk',
   'learn-to-code-over-50-uk',
+  'ai-agents-course-for-professionals-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -537,6 +538,7 @@ const LLMS_LABELS = {
   'coding-for-home-educated-children-uk': 'Coding for home-educated children',
   'online-coding-summer-course-uk': 'Online coding summer course, UK',
   'learn-to-code-over-50-uk': 'Learn to code over 50',
+  'ai-agents-course-for-professionals-uk': 'AI agents course for professionals, UK',
 };
 
 function wireLlms(slugs) {
