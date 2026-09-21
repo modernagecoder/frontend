@@ -17578,5 +17578,59 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the ONS, the Literary and Philosophical Society of Newcastle upon Tyne or Newcastle University."
     ]
+  },
+  "best-coding-class-in-southampton": {
+    "market": "Southampton",
+    "bodyClass": "cg-sot",
+    "pageType": "city",
+    "curriculumAuthority": "Southampton, Census 2021 via Nomis: TS001 Southampton local authority (E06000045) 248,922 usual residents, 238,765 in households (95.9 percent), 10,157 in communal establishments (4.1 percent); TS007A 16,752 aged 15 to 19 (6.7 percent), 26,139 aged 20 to 24 (10.5 percent), 20,718 aged 25 to 29 (8.3 percent), against England 5.7, 6.0 and 6.6 percent; TS068 60,197 schoolchildren and full-time students of 235,126 residents aged 5 and over, 25.6 percent, against 20.4 percent in England. Ordnance Survey, About: Great Britain's national mapping service; mapping since 1791; head office Explorer House, Adanac Drive, Nursling, Southampton SO16 0AS (Code-Point Open district E07000093, Test Valley). Ordnance Survey, History: 21 June 1791 recognised as its birth; 1841 Tower of London fire prompted a move to a new Southampton headquarters in an empty former barrack building; Southampton HQ bombed in the Second World War; 342 million maps for the war effort by 1945.",
+    "localProject": "Find any of 5,814 postcodes in about one step. OS Code-Point Open 2026.3.0 (RM update 17 July 2026), SO file 18,624 postcodes, 5,814 with district E06000045, outward codes SO14 to SO19. 7,919 buckets, load 0.734. Character-code sum hash: sums 473 to 536, 61 buckets used, longest chain 227, 75.61 comparisons per successful lookup; 1,417 anagram groups. FNV-1a: 3,901 buckets used (uniform expectation about 4,119), longest chain 7, 1.45 comparisons. Plain list 2,907.5. Birthday: first shared bucket after a median of 96 random postcodes in 20,000 trials (theory about 105). Lesson family: hash tables (hash quality, chaining, load factor, birthday collisions); distinct from tries, Bloom filters and binary search.",
+    "requiredMentions": [
+      "248,922",
+      "238,765",
+      "60,197",
+      "235,126",
+      "5,814",
+      "7,919",
+      "FNV-1a",
+      "Code-Point Open",
+      "21 June 1791",
+      "342 million",
+      "hash table",
+      "Explorer House"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Southampton: 248,922 usual residents; 238,765 in households; 10,157 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E06000045"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Southampton and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E06000045,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Southampton 60,197 students of 235,126 aged 5 and over (25.6 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E06000045,E92000001"
+      },
+      {
+        "claim": "Ordnance Survey, Code-Point Open download (CSV, version 2026.3.0): postcodes with district codes.",
+        "url": "https://api.os.uk/downloads/v1/products/CodePointOpen/downloads"
+      },
+      {
+        "claim": "Ordnance Survey, About: national mapping service, mapping since 1791, Explorer House address.",
+        "url": "https://www.ordnancesurvey.co.uk/about"
+      },
+      {
+        "claim": "Ordnance Survey, History: 21 June 1791, the 1841 move to Southampton, 342 million wartime maps.",
+        "url": "https://www.ordnancesurvey.co.uk/about/history"
+      }
+    ],
+    "rejectedClaims": [
+      "University of Southampton and Solent University figures: no student counts found on the pages read, so none stated.",
+      "That Ordnance Survey's current head office is inside the city boundary: its postcode falls in Test Valley, and the page says so.",
+      "Titanic, SeaCity and Spitfire facts: not read from primary pages for this build, so not stated.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Ordnance Survey or the Office for National Statistics."
+    ]
   }
 }

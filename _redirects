@@ -3476,4 +3476,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-newcastle-upon-tyne /src/pages/best-coding-class-in-newcastle-upon-tyne.html 200
 /best-coding-class-in-newcastle-upon-tyne.md /src/pages/best-coding-class-in-newcastle-upon-tyne.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-southampton /src/pages/best-coding-class-in-southampton.html 200
+/best-coding-class-in-southampton.md /src/pages/best-coding-class-in-southampton.md 200
 /* /src/pages/404.html 404
