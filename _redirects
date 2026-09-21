@@ -3372,4 +3372,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /online-coding-summer-course-uk /src/pages/online-coding-summer-course-uk.html 200
 /online-coding-summer-course-uk.md /src/pages/online-coding-summer-course-uk.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/learn-to-code-over-50-uk /src/pages/learn-to-code-over-50-uk.html 200
+/learn-to-code-over-50-uk.md /src/pages/learn-to-code-over-50-uk.md 200
 /* /src/pages/404.html 404

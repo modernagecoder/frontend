@@ -228,6 +228,7 @@ const SLUGS = [
   'raspberry-pi-coding-projects-uk',
   'coding-for-home-educated-children-uk',
   'online-coding-summer-course-uk',
+  'learn-to-code-over-50-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -535,6 +536,7 @@ const LLMS_LABELS = {
   'raspberry-pi-coding-projects-uk': 'Raspberry Pi coding projects',
   'coding-for-home-educated-children-uk': 'Coding for home-educated children',
   'online-coding-summer-course-uk': 'Online coding summer course, UK',
+  'learn-to-code-over-50-uk': 'Learn to code over 50',
 };
 
 function wireLlms(slugs) {
