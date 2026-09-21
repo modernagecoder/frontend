@@ -206,6 +206,7 @@ const SLUGS = [
   'choosing-gcse-computer-science-year-9-options',
   'ocr-a-level-computer-science-h446-help',
   'ks2-coding-lessons-online',
+  'ks3-computing-tuition-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -491,6 +492,7 @@ const LLMS_LABELS = {
   'choosing-gcse-computer-science-year-9-options': 'Choosing GCSE Computer Science at Year 9 options',
   'ocr-a-level-computer-science-h446-help': 'OCR A-level Computer Science H446 help',
   'ks2-coding-lessons-online': 'Key Stage 2 coding lessons online',
+  'ks3-computing-tuition-online': 'Key Stage 3 computing tuition online',
 };
 
 function wireLlms(slugs) {
