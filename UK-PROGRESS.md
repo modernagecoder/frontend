@@ -138,7 +138,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 86 | best-coding-class-in-coventry (cov, #3E381E) | city (UK, Phase 4) | 3,592 | 1% vs best-coding-class-in-limerick | a threshold that chains (union-find on 1,570 NaPTAN stops; 85 to 1,154 between 200 m and 300 m) | union-find and single-linkage chaining | 276db626 |
 | 87 | best-coding-class-in-leeds (lds, #325343) | city (UK, Phase 4) | 3,637 | 1.2% vs best-coding-class-in-coventry | a sample fair to rows is fair to reality only once each row is one real thing (Leeds footfall; 157 weeks published twice) | reservoir sampling and defining the sampling unit | 2aa72122 |
 | 88 | best-coding-class-in-wolverhampton (wlv, #711414) | city (UK, Phase 4) | 3,335 | 1.5% vs best-coding-class-in-coventry | the city's own name is its most expensive prefix (trie of 655 NaPTAN stop names) | tries and shortest unique prefixes for autocomplete | 8edc7c00 |
-| 89 | best-coding-class-in-milton-keynes (mkn, #0F2B57) | city (UK, Phase 4) | 3,557 | 1.9% vs best-coding-class-in-manchester | more darts, sharper answer, at the square-root rate (Monte Carlo bus stop coverage, 39.9%) | Monte Carlo estimation and square-root error scaling | (this commit) |
+| 89 | best-coding-class-in-milton-keynes (mkn, #0F2B57) | city (UK, Phase 4) | 3,557 | 1.9% vs best-coding-class-in-manchester | more darts, sharper answer, at the square-root rate (Monte Carlo bus stop coverage, 39.9%) | Monte Carlo estimation and square-root error scaling | c142f336 |
+| 90 | best-coding-class-in-cambridge (cam, #962C7A) | city (UK, Phase 4) | 3,407 | 2.5% vs best-coding-class-in-manchester | keep the top ten without sorting the lot (min-heap top-k on Met Office NIAB; July 2026 provisional) | priority queues (binary heaps) and top-k selection | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -17011,5 +17011,63 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the DfT, the ONS, the council, Bletchley Park or The National Museum of Computing."
     ]
+  },
+  "best-coding-class-in-cambridge": {
+    "market": "Cambridge",
+    "bodyClass": "cg-cam",
+    "pageType": "city",
+    "curriculumAuthority": "Cambridge, Census 2021 via Nomis: TS001 Cambridge local authority district (E07000008) 145,674 usual residents, 126,382 in households, 19,292 in communal establishments; TS007A 20,309 aged 20 to 24 (13.9 percent) and 16,272 aged 25 to 29 (11.2 percent), against England 6.0 and 6.6 percent (band total 145,676, never summed on the page); TS068 46,205 schoolchildren and full-time students of 139,327 residents aged 5 and over, 33.2 percent, against 20.4 percent in England. University of Cambridge, Cambridge at a glance: 24,927 students (2025-2026), 13,113 staff, 31 colleges, 22,513 applicants for around 4,890 undergraduate places in 2025, a cluster of over 5,000 knowledge-intensive companies. University story, Blue Plaque for EDSAC: weighed two tons, took up a whole room at the then Mathematical Laboratory (now the Department of Computer Science and Technology), came into operation in May 1949, contributed to three Nobel Prizes in the 1960s and 1970s, the Manchester Baby preceded it by 11 months. Department of Computer Science and Technology, 70 years news: EDSAC ran its first successful program on 6 May 1949.",
+    "localProject": "Keep the top ten without sorting the lot. Met Office historic station data, Cambridge NIAB, 26 m amsl, read 21 September 2026: 812 months January 1959 to August 2026 (provisional); flags: 23 estimated (*), 24 missing (---), 8 provisional months. Min-heap of size 10 on mean daily maximum: 2006-07 28.3, 2026-07 27.0 provisional, 2018-07 26.7, 2022-08 26.6, 1997-08 26.3, 2022-07 26.1, 2026-08 26.1 provisional, 1983-07, 1994-07, 1995-07 25.8; 11th value 25.7; 44 replacements after filling; comparisons about n log2 n 7,848 against n log2 10 2,697; six of ten from 2000 onward. Wettest month 2005-09 166.2 mm. Lesson family: priority queues (binary heaps) and top-k selection; distinct from stable sort (tie order), percentiles and record counting.",
+    "requiredMentions": [
+      "145,674",
+      "126,382",
+      "19,292",
+      "20,309",
+      "16,272",
+      "46,205",
+      "139,327",
+      "24,927",
+      "6 May 1949",
+      "EDSAC",
+      "NIAB",
+      "Mathematical Laboratory"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Cambridge: 145,674 usual residents; 126,382 in households; 19,292 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E07000008&measures=20100"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Cambridge and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E07000008,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Cambridge 46,205 students of 139,327 aged 5 and over (33.2 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E07000008,E92000001"
+      },
+      {
+        "claim": "Met Office historic station data, Cambridge NIAB: monthly record from 1959, flags and provisional values.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/cambridgedata.txt"
+      },
+      {
+        "claim": "University of Cambridge, Cambridge at a glance: students, staff, colleges, applications, the technology cluster.",
+        "url": "https://www.cam.ac.uk/about-the-university/cambridge-at-a-glance"
+      },
+      {
+        "claim": "University of Cambridge, Blue Plaque for EDSAC: two tons, the Mathematical Laboratory, three Nobel Prizes, the Manchester Baby 11 months earlier.",
+        "url": "https://www.cam.ac.uk/stories/edsac-cambridge-computer-blue-plaque"
+      },
+      {
+        "claim": "Department of Computer Science and Technology, 70 years since the first computer designed for practical everyday use: first program on 6 May 1949.",
+        "url": "https://www.cst.cam.ac.uk/news/70-years-first-computer-designed-practical-everyday-use"
+      }
+    ],
+    "rejectedClaims": [
+      "Raspberry Pi and Arm founding facts: not read from primary pages for this build, so not stated.",
+      "Anglia Ruskin University facts: not needed, and none claimed.",
+      "That the provisional 2026 values are final: the page marks them provisional.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Met Office, the University of Cambridge or its department."
+    ]
   }
 }

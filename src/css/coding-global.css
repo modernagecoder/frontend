@@ -1012,3 +1012,4 @@
 .cg-root.cg-lds  { --cg-accent: #325343; --cg-accent-soft: rgba(50,83,67,.10); }   /* Leeds: a deep Pennine green from the solver (6.95:1 on every paper tint, dE 7.1 from the nearest used accent), far from the Manchester purple and the Coventry olive */
 .cg-root.cg-wlv  { --cg-accent: #711414; --cg-accent-soft: rgba(113,20,20,.10); }   /* Wolverhampton: a deep claret from the solver (9.40:1 on every paper tint, dE 7.9 from the nearest used accent), strong and warm for a Black Country city */
 .cg-root.cg-mkn  { --cg-accent: #0F2B57; --cg-accent-soft: rgba(15,43,87,.10); }   /* Milton Keynes: a deep codebreaker navy from the solver (11.34:1 on every paper tint, dE 8.2 from the nearest used accent) */
+.cg-root.cg-cam  { --cg-accent: #962C7A; --cg-accent-soft: rgba(150,44,122,.10); }   /* Cambridge: a deep mulberry from the solver (5.80:1 on every paper tint, dE 8.2 from the nearest used accent); the light Cambridge blue cannot reach 4.5:1 on paper */
