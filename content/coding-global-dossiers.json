@@ -17898,5 +17898,51 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Translink, OpenDataNI, NISRA or Queen's University Belfast."
     ]
+  },
+  "best-coding-class-in-aberdeen": {
+    "market": "Aberdeen",
+    "bodyClass": "cg-abd",
+    "pageType": "city",
+    "curriculumAuthority": "Aberdeen, National Records of Scotland, Scotland's Census 2022 first results rounded population estimates (published 14 September 2023, rounded to the nearest hundred): Aberdeen City S12000033 224,000 usual residents (2011: 222,793), 109,500 households (2011: 103,371), 18,900 aged 20 to 24 and 17,100 aged 25 to 29, 14.7 percent aged 0 to 14, 68.2 percent aged 15 to 64, 17.1 percent aged 65 and over (Scotland 15.3, 64.6, 20.1), 1,207.1 residents per square kilometre (Scotland 69.8); Demography and migration chart data: 21.3 percent of households with dependent children. University of Aberdeen, History: founded 1495; King's College the UK's fifth university, first students 1505; Marischal College founded 1593, its 1906 facade the second-largest granite building in the world; five Nobel laureates associated with the University, including Frederick Soddy (Chemistry 1921) and J J R Macleod (Medicine 1923, insulin).",
+    "localProject": "Every place name in Aberdeen, in six kilobytes. Ordnance Survey Open Names (CSV, OS Downloads API, read 21 September 2026), Aberdeen City rows excluding postcodes: 3,324 features, 3,170 distinct (2,916 named roads, 74 road sections, 52 primary education, 42 suburban areas, 34 hills, 31 woodlands). Bloom filter with double hashing (FNV-1a and djb2), k = round(bits x ln 2), tested against 8,588 names from Glasgow, Edinburgh and Dundee: 4 bits 18.19 percent false positives against a theoretical 14.69 (1.5 KB); 8 bits 5.09 against 2.16 (3.1 KB); 10 bits 2.28 against 0.82 (3.9 KB); 16 bits 0.33 against 0.05 (6.2 KB). Zero false negatives at every size; a Python set of the same names is about 300 KB. Measured rates exceed theory because names share endings and two 32-bit hashes are not independent ideals. Lesson family: Bloom filters and probabilistic membership; distinct from hash tables with chaining, tries and binary search.",
+    "requiredMentions": [
+      "224,000",
+      "222,793",
+      "109,500",
+      "103,371",
+      "1,207.1",
+      "18,900",
+      "Bloom filter",
+      "Marischal",
+      "false negative",
+      "Open Names",
+      "2,916",
+      "Soddy"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 rounded population estimates: Aberdeen City population, households, age shares, density.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 demography and migration chart data: households with dependent children.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-demography-and-migration-chart-data/"
+      },
+      {
+        "claim": "Ordnance Survey Open Names (CSV download): named features with council area, used for the Aberdeen name set.",
+        "url": "https://api.os.uk/downloads/v1/products/OpenNames/downloads"
+      },
+      {
+        "claim": "University of Aberdeen, History: 1495, King's College 1505, Marischal College 1593 and its 1906 facade, five Nobel laureates.",
+        "url": "https://www.abdn.ac.uk/about/history/"
+      }
+    ],
+    "rejectedClaims": [
+      "Aberdeen City Council open data: the portal did not respond, so nothing from it is used.",
+      "Postcodes: excluded from the name set, so this page does not repeat the Southampton postcode work.",
+      "The textbook false positive formula as the answer: the page reports measured rates and explains why they are higher.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Ordnance Survey, National Records of Scotland or the University of Aberdeen."
+    ]
   }
 }
