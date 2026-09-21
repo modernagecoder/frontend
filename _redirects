@@ -3460,4 +3460,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-derby /src/pages/best-coding-class-in-derby.html 200
 /best-coding-class-in-derby.md /src/pages/best-coding-class-in-derby.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-bradford /src/pages/best-coding-class-in-bradford.html 200
+/best-coding-class-in-bradford.md /src/pages/best-coding-class-in-bradford.md 200
 /* /src/pages/404.html 404

@@ -17338,5 +17338,67 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Department for Transport, bus operators, Derby Museums, the Derwent Valley Mills partnership or the ONS."
     ]
+  },
+  "best-coding-class-in-bradford": {
+    "market": "Bradford",
+    "bodyClass": "cg-bfd",
+    "pageType": "city",
+    "curriculumAuthority": "Bradford, Census 2021 via Nomis: TS001 Bradford metropolitan district (E08000032) 546,412 usual residents, 540,549 in households (98.9 percent), 5,863 in communal establishments (1.1 percent); TS007A 36,096 aged under 5 (6.6 percent), 39,556 aged 5 to 9 (7.2 percent), 41,350 aged 10 to 14 (7.6 percent), 37,779 aged 15 to 19 (6.9 percent), against England 5.4, 5.9, 6.0 and 5.7 percent; TS068 124,422 schoolchildren and full-time students of 510,315 residents aged 5 and over, 24.4 percent, against 20.4 percent in England. Bradford UNESCO City of Film: the world's first UNESCO City of Film, with a history in film dating back to the birth of cinema. UNESCO World Heritage List 1028, Saltaire: inscribed 2001; a complete and well-preserved industrial village of the second half of the 19th century. University of Bradford: the UK's fortieth university in 1966, Harold Wilson first Chancellor; 10,887 students in 2024/25 (8,037 undergraduate). Bradford Culture Company: delivered Bradford 2025 UK City of Culture, more than 5,000 events.",
+    "localProject": "A walk through 115 years of Bradford rain. Met Office historic station data, Bradford, 134 m amsl, read 21 September 2026: 1,424 months, rain 7 estimated, 36 missing (1908 to 1910), 8 provisional. Walk January 1911 to December 2025, 1,380 months; step against each calendar month's 1911-2025 median: 684 up, 684 down, 12 level; ends at 0 by construction. Highest 28 (June 1969), lowest -12 (November 2011). Above zero 1,132 months (82.0 percent). Ten thousand shuffles of the same steps: median farthest distance 30; 62.1 percent reach 28 or more; 33.4 percent at least 82 percent on one side. sqrt(1,380) about 37. Lesson family: random walks (cumulative steps, square-root spread, long one-sided stays, shuffled comparison); distinct from Markov chains, bootstrap confidence intervals and regression to the mean.",
+    "requiredMentions": [
+      "546,412",
+      "540,549",
+      "5,863",
+      "124,422",
+      "510,315",
+      "41,350",
+      "39,556",
+      "10,887",
+      "Saltaire",
+      "City of Film",
+      "Harold Wilson",
+      "June 1969"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Bradford: 546,412 usual residents; 540,549 in households; 5,863 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E08000032"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Bradford and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E08000032,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Bradford 124,422 students of 510,315 aged 5 and over (24.4 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E08000032,E92000001"
+      },
+      {
+        "claim": "Met Office historic station data, Bradford: monthly rainfall from 1908, flags and provisional months.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/bradforddata.txt"
+      },
+      {
+        "claim": "Bradford UNESCO City of Film, About: the world's first UNESCO City of Film.",
+        "url": "https://www.bradford-city-of-film.com/about/"
+      },
+      {
+        "claim": "UNESCO World Heritage List, Saltaire: inscribed 2001.",
+        "url": "https://whc.unesco.org/en/list/1028/"
+      },
+      {
+        "claim": "University of Bradford, About: fortieth UK university in 1966; 10,887 students in 2024/25.",
+        "url": "https://www.bradford.ac.uk/about/"
+      },
+      {
+        "claim": "Bradford Culture Company, About: Bradford 2025 UK City of Culture, more than 5,000 events.",
+        "url": "https://bradford2025.co.uk/about/"
+      }
+    ],
+    "rejectedClaims": [
+      "National Science and Media Museum facts: the about page returned HTTP 405, so nothing from it is stated.",
+      "The year Bradford became a City of Film: not given on the page read, so not stated.",
+      "That Bradford is getting drier or wetter: the page shows the walk is consistent with chance and makes no trend claim.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Met Office, Bradford UNESCO City of Film, UNESCO, the University of Bradford or Bradford Culture Company."
+    ]
   }
 }
