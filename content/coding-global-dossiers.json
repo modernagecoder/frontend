@@ -17740,5 +17740,55 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with National Records of Scotland, the Royal Observatory Edinburgh, Historic Environment Scotland or the US Naval Observatory."
     ]
+  },
+  "best-coding-class-in-glasgow": {
+    "market": "Glasgow",
+    "bodyClass": "cg-gla",
+    "pageType": "city",
+    "curriculumAuthority": "Glasgow, National Records of Scotland, Scotland's Census 2022 first results rounded population estimates data (published 14 September 2023, rounded to the nearest hundred): Glasgow City S12000049 620,700 usual residents (2011: 593,245), 293,800 households (2011: 285,693), 58,900 aged 25 to 29 (Scotland 338,200), 14.5 percent aged 0 to 14, 71.5 percent 15 to 64, 14.0 percent 65 and over (Scotland 15.3, 64.6, 20.1), 3,554.5 residents per square kilometre (Scotland 69.8); Demography and migration chart data: 21.3 percent of households with dependent children. University of Glasgow: established 1451, fourth oldest university in the UK; Adam Smith entered in 1737 at 14; Lord Kelvin's fully electric-lit house on campus in 1881. SPT Subway: Inner and Outer Circle, every four minutes at peak, 24-minute circuit of fifteen stations.",
+    "localProject": "Eight rulers, eight lengths. ONS LAD December 2023 boundaries for Glasgow City S12000049: full-resolution extent (BFE) one ring, 4,078 points, 108.66 km drawn, 176.36 km2. Divider walk: 25 m 106.38 km, 50 m 104.64, 100 m 101.32, 200 m 96.47, 400 m 88.96, 800 m 83.43, 1,600 m 70.81, 3,200 m 62.49; divider dimension about 1.11 (1.14 for rulers 100 m and up). Box counting: 2,651 boxes at 50 m to 28 at 3,200 m, dimension about 1.09. Simplified versions: 112 points 95.67 km; 50 points 87.93 km. Clipped full-resolution file: two pieces, 111.16 and 63.47 km2. Lesson family: fractals and the coastline paradox; distinct from convex hull, point-in-polygon and Monte Carlo area.",
+    "requiredMentions": [
+      "620,700",
+      "593,245",
+      "293,800",
+      "285,693",
+      "3,554.5",
+      "fourth oldest",
+      "Lord Kelvin",
+      "coastline paradox",
+      "fractal dimension",
+      "box counting",
+      "Adam Smith",
+      "106.38"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 rounded population estimates: Glasgow population, households, age groups, density.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 demography and migration chart data: households with dependent children.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-demography-and-migration-chart-data/"
+      },
+      {
+        "claim": "ONS Open Geography, Local Authority Districts December 2023, full-resolution extent (BFE) and other versions: the Glasgow City boundary.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_December_2023_Boundaries_UK_BFE/FeatureServer/0"
+      },
+      {
+        "claim": "University of Glasgow, history: 1451, fourth oldest in the UK, Adam Smith 1737, Lord Kelvin 1881.",
+        "url": "https://www.gla.ac.uk/explore/history/"
+      },
+      {
+        "claim": "SPT, Subway: Inner and Outer Circle, every four minutes at peak, 24-minute circuit of fifteen stations.",
+        "url": "https://www.spt.co.uk/travel-with-spt/subway/"
+      }
+    ],
+    "rejectedClaims": [
+      "Subway fare figures on the SPT page: pound amounts, excluded by the one-currency rule.",
+      "Subway opening year: not stated on the SPT page read, so not given.",
+      "Student numbers for Glasgow: the Scotland's Census 2022 education tables are behind an interactive tool, so no student share is stated.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the ONS, National Records of Scotland, the University of Glasgow or Strathclyde Partnership for Transport."
+    ]
   }
 }
