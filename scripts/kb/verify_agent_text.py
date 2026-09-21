@@ -76,8 +76,10 @@ for b in blocks:
     slug = m.group(1)
     key = OVERRIDES.get(slug, 'maths' if cat.get(slug) == 'mathematics' else 'coding')
     ind = PLANS[key]['india']
-    want = 'group Rs {:,}, mini batch Rs {:,}, one to one Rs {:,}'.format(
-        ind['group'], ind['miniBatch'], ind['personal'])
+    # Same rule as build_agent_text.py: a one to one only course lists only that plan.
+    want = ', '.join('%s Rs %s' % (label, format(int(ind[k]), ',d'))
+                     for k, label in (('group', 'group'), ('miniBatch', 'mini batch'), ('personal', 'one to one'))
+                     if ind.get(k) is not None)
     if want not in b:
         got = re.search(r'In India, per month:\s+(.*)', b)
         wrong.append((slug, key, want, got.group(1) if got else '??'))

@@ -97,7 +97,7 @@
   "headline": "Book your priority demo in about two minutes.",
   "description": "Step by step: choose a day and time, pay once through Razorpay, and get your Priority Live Demo confirmed on WhatsApp within the hour.",
   "mainEntityOfPage": "https://learn.modernagecoders.com/how-to-book-a-priority-demo",
-  "dateModified": "2026-09-19",
+  "dateModified": "2026-09-21",
   "author": {
     "@type": "Organization",
     "name": "Modern Age Coders",
@@ -164,7 +164,7 @@
           <h1>Book your priority demo <em>in about two minutes.</em></h1>
           <p class="pd-lede">One short form, a slot you choose, one secure payment. A mentor confirms on WhatsApp within the hour.</p>
           <div class="pd-cta-row">
-            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book>Book priority demo · <span class="pd-price">₹499</span></a>
+            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book="cluster">Book priority demo · <span class="pd-price">₹499</span></a>
             <a class="pd-btn pd-btn--ghost" href="/priority-demo">What is the priority demo?</a>
           </div>
           <p class="pd-cta-note">One-time fee. No enrolment required. Confirmed on WhatsApp within the hour.</p>
@@ -195,6 +195,9 @@
   <li>Keep a laptop or desktop ready with Chrome and a steady connection.</li>
   <li>Tell the mentor on WhatsApp what the student is curious about: <a href="/courses/python-complete-masterclass-teens">Python</a>, <a href="/courses/full-stack-web-development-teens-masterclass">web development</a>, <a href="/courses/ai-ml-masterclass-teens">AI</a>, <a href="/courses/cpp-programming-masterclass-for-teens">C++</a>, <a href="/courses/jee-foundation-maths-course-class-8-10">JEE foundation maths</a> or anything from the <a href="/courses">course list</a>.</li>
   <li>Read <a href="/what-happens-in-a-demo-class">what happens in a demo class</a> so you know what to look for.</li>
+  <li>Set aside about 45 to 60 minutes. It is a full class, not a quick call.</li>
+  <li>Keep your Order ID. If you enrol, send it to us on WhatsApp and we adjust the demo fee against your first month.</li>
+  <li>Expect the mentor's written skill report and learning roadmap on WhatsApp, usually within a day of the class.</li>
 </ul>        </section>
         <section class="pd-section">
           <h2>If something goes wrong with the payment</h2>
@@ -243,7 +246,7 @@
           <h2>See a real class, this week.</h2>
           <p>Pick your slot, meet a mentor, and watch how we teach. Trusting Modern Age Coders with your child's learning is a big decision. A live class is the honest way to make it.</p>
           <div class="pd-cta-row">
-            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book>Book priority demo · <span class="pd-price">₹499</span></a>
+            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book="cluster">Book priority demo · <span class="pd-price">₹499</span></a>
             <a class="pd-btn pd-btn--ghost" href="/book-demo">Join the free waiting list</a>
           </div>
         </section>
@@ -276,14 +279,8 @@
             var spans = document.querySelectorAll('.pd-price');
             for (var i = 0; i < spans.length; i++) spans[i].textContent = '$10';
         }
-        // Open the payment form right here when the chooser script is loaded;
-        // otherwise the link falls through to /book-demo.
-        document.addEventListener('click', function (e) {
-            var a = e.target && e.target.closest ? e.target.closest('[data-pd-book]') : null;
-            if (!a || !window.MACDemoChoice || !window.MACDemoChoice.book) return;
-            e.preventDefault();
-            window.MACDemoChoice.book();
-        });
+        // [data-pd-book] links are opened by src/js/demo-choice.js, which is
+        // on every page; without it the link falls through to /book-demo.
     })();
     </script>
 </body>

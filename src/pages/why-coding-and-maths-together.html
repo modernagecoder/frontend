@@ -97,7 +97,7 @@
   "headline": "Coding and maths are the same skill in two languages.",
   "description": "Coding and maths train the same habit: precise, step by step reasoning. Why Modern Age Coders teaches both, and how each subject makes the other easier.",
   "mainEntityOfPage": "https://learn.modernagecoders.com/why-coding-and-maths-together",
-  "dateModified": "2026-09-19",
+  "dateModified": "2026-09-21",
   "author": {
     "@type": "Organization",
     "name": "Modern Age Coders",
@@ -164,7 +164,7 @@
           <h1>Coding and maths are <em>the same skill in two languages.</em></h1>
           <p class="pd-lede">Both ask you to be precise, to reason step by step and to prove that your answer is right. Learn one well and the other gets easier.</p>
           <div class="pd-cta-row">
-            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book>Book priority demo · <span class="pd-price">₹499</span></a>
+            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book="cluster">Book priority demo · <span class="pd-price">₹499</span></a>
             <a class="pd-btn pd-btn--ghost" href="/priority-demo">What is the priority demo?</a>
           </div>
           <p class="pd-cta-note">One-time fee. No enrolment required. Confirmed on WhatsApp within the hour.</p>
@@ -243,7 +243,7 @@
           <h2>See a real class, this week.</h2>
           <p>Pick your slot, meet a mentor, and watch how we teach. Trusting Modern Age Coders with your child's learning is a big decision. A live class is the honest way to make it.</p>
           <div class="pd-cta-row">
-            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book>Book priority demo · <span class="pd-price">₹499</span></a>
+            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book="cluster">Book priority demo · <span class="pd-price">₹499</span></a>
             <a class="pd-btn pd-btn--ghost" href="/book-demo">Join the free waiting list</a>
           </div>
         </section>
@@ -276,14 +276,8 @@
             var spans = document.querySelectorAll('.pd-price');
             for (var i = 0; i < spans.length; i++) spans[i].textContent = '$10';
         }
-        // Open the payment form right here when the chooser script is loaded;
-        // otherwise the link falls through to /book-demo.
-        document.addEventListener('click', function (e) {
-            var a = e.target && e.target.closest ? e.target.closest('[data-pd-book]') : null;
-            if (!a || !window.MACDemoChoice || !window.MACDemoChoice.book) return;
-            e.preventDefault();
-            window.MACDemoChoice.book();
-        });
+        // [data-pd-book] links are opened by src/js/demo-choice.js, which is
+        // on every page; without it the link falls through to /book-demo.
     })();
     </script>
 </body>

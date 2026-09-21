@@ -2,7 +2,8 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 3001;
+// PORT lets a second checkout (a git worktree) be previewed beside the main one.
+const PORT = Number(process.env.PORT) || 3001;
 
 // ── Load nav & footer for on-the-fly inlining ────────────────────
 const NAV_FILE = path.join(__dirname, '..', 'components', 'nav.html');
@@ -26,6 +27,18 @@ function inlineComponents(html) {
     if (!navHtml && !footerHtml) return html;
 
     let result = html;
+
+    // Pages committed with an already-inlined nav/footer get the current
+    // component too, the way scripts/inline-components.js refreshes them on
+    // deploy. Function replacers, so "$" in a component is never a pattern.
+    if (navHtml) {
+        result = result.replace(/<!-- BEGIN_INLINED_NAV -->[\s\S]*?<!-- END_INLINED_NAV -->/gi,
+            () => '<!-- BEGIN_INLINED_NAV -->\n' + navHtml + '\n<!-- END_INLINED_NAV -->');
+    }
+    if (footerHtml) {
+        result = result.replace(/<!-- BEGIN_INLINED_FOOTER -->[\s\S]*?<!-- END_INLINED_FOOTER -->/gi,
+            () => '<!-- BEGIN_INLINED_FOOTER -->\n' + footerHtml + '\n<!-- END_INLINED_FOOTER -->');
+    }
 
     // Replace nav placeholder
     if (navHtml) {
@@ -51,6 +64,14 @@ function inlineComponents(html) {
         })();
     </script>`;
     result = result.replace(/<\/body>/i, bootstrap + '\n</body>');
+
+    // The deploy build (scripts/inline-components.js, GLOBAL_LEAD_SCRIPTS) adds
+    // the demo chooser to every page. Mirror it here so "Book priority demo"
+    // links and the after-form chooser can be checked locally.
+    // Match a real script tag: page comments mention the file by name.
+    if (!/<script[^>]+\/js\/demo-choice\.js/i.test(result)) {
+        result = result.replace(/<\/body>/i, '    <script src="/js/demo-choice.js" defer></script>\n</body>');
+    }
 
     return result;
 }

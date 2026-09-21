@@ -97,7 +97,7 @@
   "headline": "Why a guaranteed demo costs a little.",
   "description": "Our mentors teach live classes most of the day, so free demos wait in a queue. Here is the honest reason a guaranteed demo slot carries a small fee.",
   "mainEntityOfPage": "https://learn.modernagecoders.com/why-we-charge-for-a-priority-demo",
-  "dateModified": "2026-09-19",
+  "dateModified": "2026-09-21",
   "author": {
     "@type": "Organization",
     "name": "Modern Age Coders",
@@ -164,7 +164,7 @@
           <h1>Why a guaranteed demo <em>costs a little.</em></h1>
           <p class="pd-lede">Most institutes offer a free demo and quietly staff it with a sales team. We staff ours with the mentors who actually teach. That choice is the whole story.</p>
           <div class="pd-cta-row">
-            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book>Book priority demo · <span class="pd-price">₹499</span></a>
+            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book="cluster">Book priority demo · <span class="pd-price">₹499</span></a>
             <a class="pd-btn pd-btn--ghost" href="/priority-demo">What is the priority demo?</a>
           </div>
           <p class="pd-cta-note">One-time fee. No enrolment required. Confirmed on WhatsApp within the hour.</p>
@@ -191,8 +191,10 @@
   <li><b>A reserved mentor.</b> Your slot is blocked in a mentor's calendar the moment you pay.</li>
   <li><b>Your choice of time.</b> You pick it. We work around you, including for families outside India.</li>
   <li><b>No cost to enrolled students.</b> We never cancel or shorten a paid class to fit a demo.</li>
+  <li><b>A full class.</b> About 45 to 60 minutes, long enough for real work on a real problem.</li>
+  <li><b>A written skill report.</b> The mentor writes up what the student knows, what they built and what to learn next, and sends it with a learning roadmap on WhatsApp.</li>
 </ul>
-<p>It is a one-time fee for one class. It is not a subscription and it does not commit you to a course. See the side by side in <a href="/free-demo-vs-priority-demo">free demo vs priority demo</a>.</p>        </section>
+<p>It is a one-time fee for one class. It is not a subscription and it does not commit you to a course. If you do enrol, send us your demo Order ID on WhatsApp and we adjust the demo fee against your first month, so a family that joins has paid nothing extra for the certainty. See the side by side in <a href="/free-demo-vs-priority-demo">free demo vs priority demo</a>.</p>        </section>
         <section class="pd-section">
           <h2>What stays free</h2>
 <p>Plenty. You can watch complete recorded classes on <a href="/how-we-teach">how we teach</a>, work through our <a href="/free-resources">free resources</a>, read every course syllabus under <a href="/courses">courses</a> and see real fees on the <a href="/pricing">pricing page</a>. You can join the free demo waiting list at any time from <a href="/book-demo">book a demo</a>.</p>
@@ -240,7 +242,7 @@
           <h2>See a real class, this week.</h2>
           <p>Pick your slot, meet a mentor, and watch how we teach. Trusting Modern Age Coders with your child's learning is a big decision. A live class is the honest way to make it.</p>
           <div class="pd-cta-row">
-            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book>Book priority demo · <span class="pd-price">₹499</span></a>
+            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book="cluster">Book priority demo · <span class="pd-price">₹499</span></a>
             <a class="pd-btn pd-btn--ghost" href="/book-demo">Join the free waiting list</a>
           </div>
         </section>
@@ -273,14 +275,8 @@
             var spans = document.querySelectorAll('.pd-price');
             for (var i = 0; i < spans.length; i++) spans[i].textContent = '$10';
         }
-        // Open the payment form right here when the chooser script is loaded;
-        // otherwise the link falls through to /book-demo.
-        document.addEventListener('click', function (e) {
-            var a = e.target && e.target.closest ? e.target.closest('[data-pd-book]') : null;
-            if (!a || !window.MACDemoChoice || !window.MACDemoChoice.book) return;
-            e.preventDefault();
-            window.MACDemoChoice.book();
-        });
+        // [data-pd-book] links are opened by src/js/demo-choice.js, which is
+        // on every page; without it the link falls through to /book-demo.
     })();
     </script>
 </body>

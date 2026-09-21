@@ -97,7 +97,7 @@
   "headline": "Do not take our word for it. Check us.",
   "description": "What Modern Age Coders promises students and parents, what we refuse to do, and the simple ways you can check our teaching before paying for a course.",
   "mainEntityOfPage": "https://learn.modernagecoders.com/why-trust-modern-age-coders",
-  "dateModified": "2026-09-19",
+  "dateModified": "2026-09-21",
   "author": {
     "@type": "Organization",
     "name": "Modern Age Coders",
@@ -164,7 +164,7 @@
           <h1>Do not take our word for it. <em>Check us.</em></h1>
           <p class="pd-lede">We set out to give the best coding and maths education in the world. That is a big claim, so here is how we work toward it and how you can test it yourself.</p>
           <div class="pd-cta-row">
-            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book>Book priority demo · <span class="pd-price">₹499</span></a>
+            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book="cluster">Book priority demo · <span class="pd-price">₹499</span></a>
             <a class="pd-btn pd-btn--ghost" href="/priority-demo">What is the priority demo?</a>
           </div>
           <p class="pd-cta-note">One-time fee. No enrolment required. Confirmed on WhatsApp within the hour.</p>
@@ -249,7 +249,7 @@
           <h2>See a real class, this week.</h2>
           <p>Pick your slot, meet a mentor, and watch how we teach. Trusting Modern Age Coders with your child's learning is a big decision. A live class is the honest way to make it.</p>
           <div class="pd-cta-row">
-            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book>Book priority demo · <span class="pd-price">₹499</span></a>
+            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book="cluster">Book priority demo · <span class="pd-price">₹499</span></a>
             <a class="pd-btn pd-btn--ghost" href="/book-demo">Join the free waiting list</a>
           </div>
         </section>
@@ -282,14 +282,8 @@
             var spans = document.querySelectorAll('.pd-price');
             for (var i = 0; i < spans.length; i++) spans[i].textContent = '$10';
         }
-        // Open the payment form right here when the chooser script is loaded;
-        // otherwise the link falls through to /book-demo.
-        document.addEventListener('click', function (e) {
-            var a = e.target && e.target.closest ? e.target.closest('[data-pd-book]') : null;
-            if (!a || !window.MACDemoChoice || !window.MACDemoChoice.book) return;
-            e.preventDefault();
-            window.MACDemoChoice.book();
-        });
+        // [data-pd-book] links are opened by src/js/demo-choice.js, which is
+        // on every page; without it the link falls through to /book-demo.
     })();
     </script>
 </body>

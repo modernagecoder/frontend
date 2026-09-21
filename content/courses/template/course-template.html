@@ -61,7 +61,7 @@
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
     <!-- Editorial theme (shared) + Course detail styles. No legacy CSS. -->
     <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626g">
-    <link rel="stylesheet" href="/css/course-detail-redesign.css?v=20260911f">
+    <link rel="stylesheet" href="/css/course-detail-redesign.css?v=20260921a">
     <link rel="stylesheet" href="/css/moments-strip.css?v=20260806b">
     <script src="/js/moments-strip.js?v=20260806b" defer></script>
     <meta name="theme-color" content="#B45309">
@@ -243,7 +243,13 @@
                 <div class="enrollment-cta-text">
                     <h2>Ready to Master {{COURSE_TITLE}}?</h2>
                     <p>Choose your plan and start your journey into the future of technology today.</p>
-                    <p class="enroll-trust" style="margin:.6rem 0 0;font-weight:600;">Rated 4.9 across 547 Google reviews. Enroll directly, or take a free live demo first if you like. No card needed for the demo. Monthly billing, cancel anytime.</p>
+                    <p class="enroll-trust" style="margin:.6rem auto 0;font-weight:600;">Rated 4.9 across 547 Google reviews. Enroll directly, or see a class first. The free demo is a waiting list and needs no card. Monthly billing, cancel anytime.</p>
+                    <!-- Priority demo entry (2026-09-21). Facts: scripts/brand-facts.json priorityDemo.
+                         One currency only: rupees static, /js/demo-choice.js swaps .pd-price to dollars outside India. -->
+                    <div class="cd-pdemo">
+                        <p><b>Try this course in a full live class, today or tomorrow.</b>The Priority Live Demo is a real class of about 45 to 60 minutes with a mentor reserved for you. You get a written skill report afterwards, and the fee is adjusted against your first month if you enrol.</p>
+                        <a class="cd-pdemo-btn" href="/book-demo" data-pd-book="course">Book priority demo &middot; <span class="pd-price">₹499</span></a>
+                    </div>
                 </div>
                 <div class="enrollment-options">
                     <!-- TIER:GROUP START -->

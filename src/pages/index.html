@@ -348,8 +348,8 @@
     <!-- Homepage redesign: Editorial "Ledger & Proof"                 -->
     <!-- Single stylesheet, authored from scratch. No legacy CSS.       -->
     <!-- ============================================================== -->
-    <link rel="preload" href="/css/index-redesign.css?v=20260907" as="style">
-    <link rel="stylesheet" href="/css/index-redesign.css?v=20260907">
+    <link rel="preload" href="/css/index-redesign.css?v=20260921a" as="style">
+    <link rel="stylesheet" href="/css/index-redesign.css?v=20260921a">
 
     <!-- Prefetch likely-next pages (idle bandwidth) -->
     <link rel="prefetch" href="/courses">
@@ -885,6 +885,30 @@
     </div>
 </section>
 <!-- END_SHARED:teaching-depth -->
+        </section>
+
+        <!-- ====== PRIORITY LIVE DEMO BAND (2026-09-21) ======
+             Facts from scripts/brand-facts.json (priorityDemo). The button opens the payment
+             form through /js/demo-choice.js ([data-pd-book]); without it the link goes to
+             /book-demo. One currency only: rupees static, .pd-price becomes dollars outside India. -->
+        <section class="section pd-home" aria-labelledby="pd-home-title">
+            <div class="pd-home-inner">
+                <div class="pd-home-copy">
+                    <span class="pd-home-kicker">Priority Live Demo</span>
+                    <h2 id="pd-home-title">See a real class today or tomorrow, not in a few weeks.</h2>
+                    <p>Our mentors teach live all day, so the free demo is a waiting list. The Priority Live Demo is a full class of about 45 to 60 minutes, at a time you pick, with a mentor reserved only for you.</p>
+                    <div class="pd-home-actions">
+                        <a class="pd-home-btn" href="/book-demo" data-pd-book="home">Book priority demo &middot; <span class="pd-price">₹499</span></a>
+                        <a class="pd-home-link" href="/free-demo-vs-priority-demo">Compare with the free demo</a>
+                    </div>
+                    <p class="pd-home-fine">One-time fee. No enrolment required. Rated 4.9 across 547 Google reviews.</p>
+                </div>
+                <ol class="pd-home-steps">
+                    <li><b>A real class, not a sales call</b><span>The student solves a problem and builds something that works, in coding or maths.</span></li>
+                    <li><b>A written skill report</b><span>After the class the mentor sends a skill report and a personal learning roadmap on WhatsApp.</span></li>
+                    <li><b>Fee adjusted if you enrol</b><span>Send us your demo Order ID and we take the demo fee off your first month.</span></li>
+                </ol>
+            </div>
         </section>
 
         <!-- ====== INTERNATIONAL FAMILIES STRIP (intl visitors only) ====== -->

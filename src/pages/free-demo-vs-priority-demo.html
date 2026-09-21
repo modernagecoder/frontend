@@ -97,7 +97,7 @@
   "headline": "Free demo or priority demo: an honest comparison.",
   "description": "A plain comparison of the free demo waiting list and the paid Priority Live Demo at Modern Age Coders: wait time, certainty, mentor and what you get.",
   "mainEntityOfPage": "https://learn.modernagecoders.com/free-demo-vs-priority-demo",
-  "dateModified": "2026-09-19",
+  "dateModified": "2026-09-21",
   "author": {
     "@type": "Organization",
     "name": "Modern Age Coders",
@@ -119,7 +119,7 @@
       "name": "Is the free demo lower quality?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. The teaching is the same. The only differences are timing and certainty."
+        "text": "No. The teaching approach is the same. The priority demo has a guaranteed time, runs as a full class of about 45 to 60 minutes, and ends with a written skill report."
       }
     },
     {
@@ -143,7 +143,7 @@
       "name": "Is the priority fee adjusted against course fees?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The fee covers the reserved demo class. For current course fees, see the pricing page or ask your mentor during the demo."
+        "text": "Yes. If you enrol, send us your demo Order ID on WhatsApp and we adjust the demo fee against your first month. Our team applies it for you, so it does not show as a discount on the payment page. Current course fees are on the pricing page."
       }
     }
   ]
@@ -164,7 +164,7 @@
           <h1>Free demo or priority demo: <em>an honest comparison.</em></h1>
           <p class="pd-lede">Both are taught by our mentors. Both show you real teaching. The difference is when it happens and whether it is certain to happen at all.</p>
           <div class="pd-cta-row">
-            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book>Book priority demo · <span class="pd-price">₹499</span></a>
+            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book="cluster">Book priority demo · <span class="pd-price">₹499</span></a>
             <a class="pd-btn pd-btn--ghost" href="/priority-demo">What is the priority demo?</a>
           </div>
           <p class="pd-cta-note">One-time fee. No enrolment required. Confirmed on WhatsApp within the hour.</p>
@@ -185,7 +185,10 @@
 <tr><th scope="row">When</th><td class="pd-no">When a mentor becomes free. Often several weeks.</td><td class="pd-yes">Today or tomorrow, at a time you pick</td></tr>
 <tr><th scope="row">Guaranteed?</th><td class="pd-no">No. We may not be able to offer one.</td><td class="pd-yes">Yes. A mentor is reserved for your slot.</td></tr>
 <tr><th scope="row">Confirmation</th><td>We contact you if a slot opens</td><td class="pd-yes">WhatsApp confirmation within the hour</td></tr>
+<tr><th scope="row">Length</th><td>A shorter session, about 30 to 45 minutes</td><td class="pd-yes">A full class, about 45 to 60 minutes</td></tr>
 <tr><th scope="row">Who teaches</th><td>A working mentor</td><td>A working mentor</td></tr>
+<tr><th scope="row">Feedback</th><td>Spoken, at the end of the class</td><td class="pd-yes">Spoken, plus a written skill report and learning roadmap on WhatsApp</td></tr>
+<tr><th scope="row">If you enrol</th><td>Nothing to adjust</td><td class="pd-yes">Demo fee adjusted against your first month</td></tr>
 <tr><th scope="row">Scheduling order</th><td>After all paid bookings</td><td class="pd-yes">First</td></tr>
 <tr><th scope="row">Commitment</th><td>None</td><td>None. One class, no enrolment required.</td></tr>
 </tbody></table></div>        </section>
@@ -238,17 +241,17 @@
       <div class="pd-wrap pd-narrow">
         <section class="pd-section pd-faq" aria-labelledby="pd-faq-h">
           <h2 id="pd-faq-h">Questions parents ask</h2>
-          <details><summary>Is the free demo lower quality?</summary><p>No. The teaching is the same. The only differences are timing and certainty.</p></details>
+          <details><summary>Is the free demo lower quality?</summary><p>No. The teaching approach is the same. The priority demo has a guaranteed time, runs as a full class of about 45 to 60 minutes, and ends with a written skill report.</p></details>
           <details><summary>How long is the free demo wait?</summary><p>It depends on mentor availability and can be several weeks. We cannot promise a date.</p></details>
           <details><summary>Can I switch from the waiting list to a priority demo?</summary><p>Yes, at any time. Book a priority demo and your slot is confirmed regardless of your place in the queue.</p></details>
-          <details><summary>Is the priority fee adjusted against course fees?</summary><p>The fee covers the reserved demo class. For current course fees, see the pricing page or ask your mentor during the demo.</p></details>
+          <details><summary>Is the priority fee adjusted against course fees?</summary><p>Yes. If you enrol, send us your demo Order ID on WhatsApp and we adjust the demo fee against your first month. Our team applies it for you, so it does not show as a discount on the payment page. Current course fees are on the pricing page.</p></details>
         </section>
 
         <section class="pd-close">
           <h2>See a real class, this week.</h2>
           <p>Pick your slot, meet a mentor, and watch how we teach. Trusting Modern Age Coders with your child's learning is a big decision. A live class is the honest way to make it.</p>
           <div class="pd-cta-row">
-            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book>Book priority demo · <span class="pd-price">₹499</span></a>
+            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book="cluster">Book priority demo · <span class="pd-price">₹499</span></a>
             <a class="pd-btn pd-btn--ghost" href="/book-demo">Join the free waiting list</a>
           </div>
         </section>
@@ -281,14 +284,8 @@
             var spans = document.querySelectorAll('.pd-price');
             for (var i = 0; i < spans.length; i++) spans[i].textContent = '$10';
         }
-        // Open the payment form right here when the chooser script is loaded;
-        // otherwise the link falls through to /book-demo.
-        document.addEventListener('click', function (e) {
-            var a = e.target && e.target.closest ? e.target.closest('[data-pd-book]') : null;
-            if (!a || !window.MACDemoChoice || !window.MACDemoChoice.book) return;
-            e.preventDefault();
-            window.MACDemoChoice.book();
-        });
+        // [data-pd-book] links are opened by src/js/demo-choice.js, which is
+        // on every page; without it the link falls through to /book-demo.
     })();
     </script>
 </body>

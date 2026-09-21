@@ -97,7 +97,7 @@
   "headline": "What actually happens in a demo class.",
   "description": "A step by step look inside a Modern Age Coders demo class: how the mentor starts, what the student builds, and what parents should watch for.",
   "mainEntityOfPage": "https://learn.modernagecoders.com/what-happens-in-a-demo-class",
-  "dateModified": "2026-09-19",
+  "dateModified": "2026-09-21",
   "author": {
     "@type": "Organization",
     "name": "Modern Age Coders",
@@ -164,7 +164,7 @@
           <h1>What actually happens <em>in a demo class.</em></h1>
           <p class="pd-lede">No slides about our achievements. No countdown timer on a discount. A mentor, a student, a problem, and something working by the end.</p>
           <div class="pd-cta-row">
-            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book>Book priority demo · <span class="pd-price">₹499</span></a>
+            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book="cluster">Book priority demo · <span class="pd-price">₹499</span></a>
             <a class="pd-btn pd-btn--ghost" href="/priority-demo">What is the priority demo?</a>
           </div>
           <p class="pd-cta-note">One-time fee. No enrolment required. Confirmed on WhatsApp within the hour.</p>
@@ -185,7 +185,7 @@
   <li><b>Building it.</b> The student types, drags, calculates. The mentor steers with questions and resists taking over the keyboard.</li>
   <li><b>Something breaks.</b> It always does. Finding the bug is part of the lesson, and often the best part.</li>
   <li><b>A working result.</b> A small game, a program, a solved puzzle. The student can show it to the family.</li>
-  <li><b>Straight feedback.</b> Where the student stands, what would suit them, and what would not.</li>
+  <li><b>Straight feedback.</b> Where the student stands, what would suit them, and what would not. After a Priority Live Demo the same feedback also reaches you in writing, as a skill report and a learning roadmap on WhatsApp.</li>
 </ol>        </section>
         <section class="pd-section">
           <h2>What parents should watch for</h2>
@@ -246,7 +246,7 @@
           <h2>See a real class, this week.</h2>
           <p>Pick your slot, meet a mentor, and watch how we teach. Trusting Modern Age Coders with your child's learning is a big decision. A live class is the honest way to make it.</p>
           <div class="pd-cta-row">
-            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book>Book priority demo · <span class="pd-price">₹499</span></a>
+            <a class="pd-btn pd-btn--solid" href="/book-demo" data-pd-book="cluster">Book priority demo · <span class="pd-price">₹499</span></a>
             <a class="pd-btn pd-btn--ghost" href="/book-demo">Join the free waiting list</a>
           </div>
         </section>
@@ -279,14 +279,8 @@
             var spans = document.querySelectorAll('.pd-price');
             for (var i = 0; i < spans.length; i++) spans[i].textContent = '$10';
         }
-        // Open the payment form right here when the chooser script is loaded;
-        // otherwise the link falls through to /book-demo.
-        document.addEventListener('click', function (e) {
-            var a = e.target && e.target.closest ? e.target.closest('[data-pd-book]') : null;
-            if (!a || !window.MACDemoChoice || !window.MACDemoChoice.book) return;
-            e.preventDefault();
-            window.MACDemoChoice.book();
-        });
+        // [data-pd-book] links are opened by src/js/demo-choice.js, which is
+        // on every page; without it the link falls through to /book-demo.
     })();
     </script>
 </body>
