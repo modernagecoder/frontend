@@ -225,6 +225,7 @@ const SLUGS = [
   'transfer-test-maths-practice-northern-ireland',
   'after-code-club-next-step-coding-uk',
   'after-microbit-next-step-python-uk',
+  'raspberry-pi-coding-projects-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -529,6 +530,7 @@ const LLMS_LABELS = {
   'transfer-test-maths-practice-northern-ireland': 'Transfer test maths practice, Northern Ireland',
   'after-code-club-next-step-coding-uk': 'After Code Club: the next step',
   'after-microbit-next-step-python-uk': 'After the micro:bit: the step to Python',
+  'raspberry-pi-coding-projects-uk': 'Raspberry Pi coding projects',
 };
 
 function wireLlms(slugs) {

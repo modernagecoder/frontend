@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Raspberry Pi Coding Projects for Kids and Teens, UK</title>
+  <meta name="description" content="Raspberry Pi coding projects for children and teenagers in the UK: why the 40-pin GPIO header matters, safe first circuits, Python with GPIO Zero, and the Pico.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/raspberry-pi-coding-projects-uk">
+  <link rel="alternate" type="text/markdown" href="/src/pages/raspberry-pi-coding-projects-uk.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#351943">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/raspberry-pi-coding-projects-uk">
+  <meta property="og:title" content="Raspberry Pi Coding Projects for Kids and Teens, UK">
+  <meta property="og:description" content="A Raspberry Pi is a computer with pins. The projects worth building use them, and the official docs show Python lighting an LED in a few lines.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_GB">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Raspberry Pi Coding Projects for Kids and Teens, UK">
+  <meta name="twitter:description" content="Raspberry Pi projects for young coders: GPIO pins, safe circuits, Python with GPIO Zero, and when to use a Pico instead.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="GB">
+  <meta name="geo.placename" content="United Kingdom">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-rpp .ag-hero h1 { letter-spacing: -0.024em; font-weight: 720; }
+.ag-root.ag-rpp .ag-capsule { border-left-width: 5px; border-bottom: 1px solid var(--ag-accent); }
+.ag-root.ag-rpp .ag-section-head h2 { max-width: 27ch; }
+.ag-root.ag-rpp .ag-table caption { text-align: left; font-weight: 680; }
+.ag-root.ag-rpp .ag-table td:first-child { font-weight: 620; }
+.ag-root.ag-rpp .ag-band-head h3 { letter-spacing: -0.012em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United Kingdom"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/raspberry-pi-coding-projects-uk#page","url":"https://learn.modernagecoders.com/raspberry-pi-coding-projects-uk","name":"Raspberry Pi Coding Projects","description":"Live online Python lessons for UK children and teenagers building Raspberry Pi projects, grounded in Raspberry Pi's official documentation.","inLanguage":"en-GB","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the UK","item":"https://learn.modernagecoders.com/coding-classes-in-united-kingdom"},{"@type":"ListItem","position":4,"name":"Raspberry Pi projects","item":"https://learn.modernagecoders.com/raspberry-pi-coding-projects-uk"}]},{"@type":"Course","name":"Raspberry Pi Coding Projects","description":"Live online Python teaching for young Raspberry Pi owners: GPIO Zero, sensors and outputs, safe circuits, and programs that grow into real projects.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/raspberry-pi-coding-projects-uk"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/raspberry-pi-coding-projects-uk"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/raspberry-pi-coding-projects-uk"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What can my child do with a Raspberry Pi?","acceptedAnswer":{"@type":"Answer","text":"Anything a small computer can do, but the special part is the 40-pin GPIO header, which lets Python code control lights and read buttons and sensors. The projects worth doing use those pins."}},{"@type":"Question","name":"Does it come with Python?","acceptedAnswer":{"@type":"Answer","text":"Yes. Raspberry Pi OS comes with Python 3 pre-installed, the default desktop edition includes the Thonny editor, and the GPIO Zero library for the pins is installed by default."}},{"@type":"Question","name":"What is a good first project?","acceptedAnswer":{"@type":"Answer","text":"Blinking an LED, then lighting it with a button. The official documentation shows both in Python in a handful of lines."}},{"@type":"Question","name":"Is it safe?","acceptedAnswer":{"@type":"Answer","text":"Simple circuits are safe if you follow the documentation's rules: a resistor with every LED, no 5V into 3.3V parts, and never a motor wired straight to a pin."}},{"@type":"Question","name":"Should we buy a Raspberry Pi or a Pico?","acceptedAnswer":{"@type":"Answer","text":"A Raspberry Pi is a full computer, better for projects with screens, files or the internet. A Pico is a microcontroller for small single-purpose gadgets and runs MicroPython."}},{"@type":"Question","name":"Will the Python my child learns work on a Pico?","acceptedAnswer":{"@type":"Answer","text":"Yes, largely. The documentation describes MicroPython as a full implementation of Python 3 that runs on boards like the Pico."}},{"@type":"Question","name":"Do you sell kits or boards?","acceptedAnswer":{"@type":"Answer","text":"No. We teach Python and help with projects; families buy their own hardware."}},{"@type":"Question","name":"Do you teach electronics?","acceptedAnswer":{"@type":"Answer","text":"Only the basics a project needs. Our lessons are about the programming; we do not run an electronics course."}},{"@type":"Question","name":"Are you connected with Raspberry Pi?","acceptedAnswer":{"@type":"Answer","text":"No. We are independent and describe the devices from Raspberry Pi's official documentation."}},{"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free; after that, a monthly fee in US dollars, lower in a group than one to one, as shown in the fees section, and never paid in advance."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United Kingdom"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/raspberry-pi-coding-projects-uk","availableLanguage":["en"]}}
+  </script>
+</head>
+
+<body class="ag-root ag-rpp">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">UK</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#pins">A computer with pins</a></li>
+      <li><a href="#first">First projects</a></li>
+      <li><a href="#safe">Safe circuits</a></li>
+      <li><a href="#pico">Pi or Pico</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-kingdom">Coding classes in the UK</a> / Raspberry Pi projects
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">UK &middot; Ages 10 to 17 &middot; Physical computing</p>
+        <h1>Raspberry Pi coding projects for kids and teens</h1>
+        <p class="ag-lede">Many families buy a Raspberry Pi and discover a slightly awkward truth: used with a screen and keyboard, it is a small computer that does much of what the family laptop already does. The part that makes it special sits along one edge. Raspberry Pi's official documentation puts it plainly: "You can find a 40-pin GPIO (general-purpose input/output) header on all current Raspberry Pi boards." Those pins let code reach out into the physical world, switching lights, reading buttons, measuring the room. Raspberry Pi OS comes with Python already installed, and the documentation's own example lights an LED from Python in a handful of lines using the GPIO Zero library, which is installed by default. This page is about the projects that use the pins, how to build them safely, and when a Raspberry Pi Pico is the better tool.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#first" class="ag-btn ag-btn--ghost">First projects</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20has%20a%20Raspberry%20Pi%20and%20I%20would%20like%20a%20free%20first%20Python%20lesson." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'rpp'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Grounded in Raspberry Pi's official documentation</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>What makes it special</dt><dd>The 40-pin GPIO header</dd>
+          <dt>Language</dt><dd>Python 3, pre-installed</dd>
+          <dt>Pin library</dt><dd>GPIO Zero, installed by default</dd>
+          <dt>Editor</dt><dd>Thonny, in Raspberry Pi OS</dd>
+          <dt>Smaller sibling</dt><dd>Pico, runs MicroPython</dd>
+          <dt>Hardware</dt><dd>We do not sell it</dd>
+          <dt>Group</dt><dd>Five to ten at one level</dd>
+          <dt>Start</dt><dd>One free lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>A Raspberry Pi is a small computer that runs Raspberry Pi OS, a free operating system based on Debian Linux, with Python 3 and the Thonny editor included. What sets it apart from an ordinary computer is its 40-pin GPIO header, present on all current boards, which lets programs switch outputs on and off and read inputs such as buttons and sensors. The GPIO Zero Python library, installed by default, makes that approachable: the official documentation shows an LED blinking and a button being read in a few lines. The projects most worth doing for children and teenagers use those pins, with simple safety rules: resistors for LEDs, no 5V into 3.3V parts, and no motors wired straight to a pin. For small single-purpose gadgets, the Raspberry Pi Pico microcontroller runs MicroPython instead. Modern Age Coders teaches the Python these projects need, live. We do not sell hardware. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three courses for Raspberry Pi owners</h2>
+      <p class="ag-lede">Python for younger makers, Python for teenagers, and data for logging projects. Each card opens a syllabus.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">RP / 01</p>
+          <h3>Python for Kids</h3>
+          <p>The language Raspberry Pi OS ships with, taught for ages 10 to 13.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">RP / 02</p>
+          <h3>Python for Teens</h3>
+          <p>From basics to structured programs, the foundation for bigger Pi projects.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-science-course-for-teens-python-data">
+        <div class="ag-pick-shot"><img src="/images/data-science-teens.webp" alt="Data Science for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">RP / 03</p>
+          <h3>Data Science with Python</h3>
+          <p>For teenagers logging sensor readings who want to analyse and chart them.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="pins">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A computer with pins</p><h2>What makes a Raspberry Pi different</h2><p class="ag-lede">From Raspberry Pi's official documentation, published on GitHub.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The facts that matter for young coders</caption><thead><tr><th scope="col">Feature</th><th scope="col">What the documentation says</th></tr></thead><tbody><tr><td>Operating system</td><td>Raspberry Pi OS is the official operating system, it is free, and it is based on Debian Linux</td></tr><tr><td>Python</td><td>Python 3 comes pre-installed</td></tr><tr><td>Editor</td><td>The default desktop edition includes the Thonny Python environment</td></tr><tr><td>Pins</td><td>A 40-pin GPIO header on all current Raspberry Pi boards</td></tr><tr><td>Outputs</td><td>A pin set as an output can be high, 3.3V, or low, 0V</td></tr><tr><td>Pin library</td><td>GPIO Zero is installed by default and provides the pinout command</td></tr></tbody></table></div>
+    <p>Put together, those facts mean a child can plug in a Raspberry Pi, open Thonny, and control a light or read a button from Python without installing anything. That is the Raspberry Pi's real strength for learning. A game or a website can be written on any laptop. A burglar alarm, a weather station or a reaction timer needs pins, and the Pi has them built in.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Projects that use the Pi</h3><p>Lights and buttons: traffic lights, reaction games, a doorbell. Then sensors: temperature, motion, light.</p>
+<p>Projects that log data over hours or days, which a laptop would not be left running for.</p></div><div><h3>Projects any computer could do</h3><p>Games, websites and ordinary programs run fine on a Pi, but they do not need one.</p>
+<p>A Pi used only for these is still a good cheap computer, just not the reason to buy one.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: Raspberry Pi's official documentation in the <a class="ag-inline-link" href="https://github.com/raspberrypi/documentation" rel="noopener" target="_blank">raspberrypi/documentation</a> repository: the GPIO, Python, GPIO-from-Python, Raspberry Pi OS, Pico and MicroPython pages. raspberrypi.com refused automated requests when we checked, so we read the same documentation from its public source. We have no connection with Raspberry Pi.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="first">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">First projects</p><h2>First projects, in the order they build skills</h2><p class="ag-lede">Each project adds one idea. Together they cover what most physical computing needs.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A project ladder for a new Raspberry Pi owner</caption><thead><tr><th scope="col">Project</th><th scope="col">New idea</th><th scope="col">Python it uses</th></tr></thead><tbody><tr><td>Blink an LED</td><td>An output pin</td><td>A loop, and switching an LED on and off with GPIO Zero</td></tr><tr><td>A button-controlled light</td><td>An input pin</td><td>Reading a button and an if-statement</td></tr><tr><td>Traffic lights</td><td>Timing and sequence</td><td>Several outputs and pauses in order</td></tr><tr><td>Reaction game</td><td>Measuring time</td><td>Variables, timing, and printing a score</td></tr><tr><td>Temperature logger</td><td>Sensors and files</td><td>Reading a sensor and saving readings to a file</td></tr><tr><td>Motion alarm</td><td>Events</td><td>Responding when something happens, rather than checking constantly</td></tr></tbody></table></div>
+    <p>The official documentation shows the first two almost exactly: an LED on one pin blinking once a second, and a button on another pin printing whether it is pressed, then the two combined so the button lights the LED. It even shows three ways to write the combined version, from a simple loop to an event-driven style where pressing the button calls a function. That progression, from checking in a loop to responding to events, is a genuine programming idea that transfers far beyond the Pi.</p>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Start with outputs</h3><p>An LED that obeys your code is the moment most children are hooked. It is also the simplest safe circuit.</p></div><div><h3>Then inputs</h3><p>Buttons and sensors turn a program from a show into a conversation with the world.</p></div><div><h3>Then data</h3><p>Logging readings to a file, then charting them, leads naturally into data science.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="safe">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Safe circuits</p><h2>Three safety rules from the documentation</h2><p class="ag-lede">Simple circuits are safe. A few mistakes can damage the board, and they are easy to avoid.</p></div>
+    <p>The documentation warns: "LEDs should have resistors to limit the current passing through them. Do not use 5V for 3.3V components. Do not connect motors directly to the GPIO pins". It recommends a motor controller board or an H-bridge circuit for motors. Those three rules cover almost every beginner accident.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The rules, and why</caption><thead><tr><th scope="col">Rule</th><th scope="col">Why it matters</th></tr></thead><tbody><tr><td>Use a resistor with every LED</td><td>Without one, too much current can flow and damage the LED or the pin</td></tr><tr><td>Keep 5V away from 3.3V parts</td><td>The pins work at 3.3V; a 5V signal can damage them</td></tr><tr><td>Never wire a motor straight to a pin</td><td>Motors draw far more current than a pin can supply; use a controller board</td></tr><tr><td>Check wiring before powering on</td><td>Most problems are a wire in the wrong hole, easily fixed before power flows</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Beginner kits with resistors included, a breadboard and jumper wires are enough for the first projects. An adult glance at the wiring before power goes on is a sensible habit.</p>
+<p>Nothing at this level involves mains electricity; the Pi runs from its own low-voltage power supply.</p></div><div><h3>Python housekeeping</h3><p>The documentation warns that interfering with the system Python can cause problems. Extra libraries go in through the proper tools, and pip installs into a virtual environment.</p>
+<p>For first projects, the libraries already installed are all a child needs.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="pico">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Pi or Pico</p><h2>Raspberry Pi or Raspberry Pi Pico</h2><p class="ag-lede">Two very different devices share a name. Choosing the right one saves frustration.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The two, side by side</caption><thead><tr><th scope="col"></th><th scope="col">Raspberry Pi computer</th><th scope="col">Raspberry Pi Pico</th></tr></thead><tbody><tr><td>What it is</td><td>A full computer running Linux</td><td>A microcontroller board that does not run Linux</td></tr><tr><td>Language</td><td>Python 3, and much more</td><td>MicroPython, C or C++</td></tr><tr><td>Needs a screen?</td><td>Usually, or remote access</td><td>No; programmed from another computer over USB</td></tr><tr><td>Good for</td><td>Projects mixing pins, screens, files and the internet</td><td>Small gadgets that do one job</td></tr></tbody></table></div>
+    <p>The documentation describes MicroPython as "a full implementation of the Python 3 programming language that runs directly on embedded hardware like Raspberry Pi Pico", so the Python a child learns carries straight across. A Pico is a natural choice for a single-purpose gadget, a plant monitor or a wearable light; a Raspberry Pi is better when a project needs a screen, files or a web connection.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What we offer</h3><p>Live Python lessons that teach the programming these projects need, with a teacher who reads the code and helps when a project stalls.</p>
+<p>Guidance on structuring a growing project, from a single script into functions and files.</p></div><div><h3>What we are not</h3><p>A hardware supplier or an electronics course. We do not sell or ship Raspberry Pis, Picos or kits, and we do not teach wiring in depth.</p>
+<p>Connected with Raspberry Pi. We describe the devices from their official documentation.</p></div></div>
+    <p>Children who started on a school micro:bit may like <a class="ag-inline-link" href="/after-microbit-next-step-python-uk">the step after the micro:bit</a>. Raspberry Pi computers also fly on the International Space Station through <a class="ag-inline-link" href="/astro-pi-mission-zero-and-space-lab-help">Astro Pi</a>, and ambitious builders can take projects to <a class="ag-inline-link" href="/student-hackathons-uk">student hackathons</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progression</p>
+      <h2>Four rungs for young Raspberry Pi makers</h2>
+      <p class="ag-lede">Placement follows what a child can already write in Python, not what hardware they own.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From a first LED to a real project</caption><thead><tr><th scope="col">Rung</th><th scope="col">Usually</th><th scope="col">What should be true</th></tr></thead><tbody><tr><td>1. Python basics</td><td class="ag-num">Ages 10 to 12</td><td class="ag-num">Variables, loops and if-statements written confidently</td></tr><tr><td>2. Outputs and inputs</td><td class="ag-num">Ages 11 to 13</td><td class="ag-num">LEDs and buttons controlled from Python with GPIO Zero</td></tr><tr><td>3. Sensors and data</td><td class="ag-num">Ages 12 to 15</td><td class="ag-num">Sensor readings saved to files and charted</td></tr><tr><td>4. A real build</td><td class="ag-num">Ages 13 and up</td><td class="ag-num">A multi-week project, planned, built and improved, with code reviewed</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Rung one comes first</h3><p>Hardware is exciting, but projects stall without Python basics. A few weeks of programming first saves months of frustration.</p>
+<p>The full order of topics is on the <a class="ag-inline-link" href="/coding-roadmap">coding roadmap</a>.</p></div><div><h3>Rung four is the payoff</h3><p>A finished project that does something useful at home is worth more than any number of tutorials.</p>
+<p>It can also be something real to talk about in a later application.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for young makers</h2>
+      <p class="ag-lede">By stage and interest. The first lesson places each learner.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Python first</h3>
+        <span class="ag-band-sub">Ages 10 to 17</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UK / RP1 / 01</p>
+          <h4>Python for kids</h4>
+          <p>The first typed language, for ages 10 to 13.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / RP1 / 02</p>
+          <h4>Python for teens</h4>
+          <p>Structured programs for bigger builds.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / RP1 / 03</p>
+          <h4>Problem solving and algorithms</h4>
+          <p>Logic that makes projects reliable.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Data and AI</h3>
+        <span class="ag-band-sub">For logging and smart projects</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UK / RP2 / 01</p>
+          <h4>Data science with Python</h4>
+          <p>Sensor data analysed and charted.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / RP2 / 02</p>
+          <h4>AI and machine learning</h4>
+          <p>Where projects start to recognise things.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / RP2 / 03</p>
+          <h4>Cybersecurity for teens</h4>
+          <p>Keeping connected projects safe.</p>
+          <a class="ag-course-link" href="/courses/cybersecurity-course-for-teens-ethical-defensive">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Younger makers</h3>
+        <span class="ag-band-sub">Before typed code</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UK / RP3 / 01</p>
+          <h4>Coding for kids</h4>
+          <p>Blocks, MakeCode and first inventions.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / RP3 / 02</p>
+          <h4>Scratch, complete</h4>
+          <p>Logic and design in blocks.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / RP3 / 03</p>
+          <h4>Hackathon prep for kids</h4>
+          <p>Inventing and presenting a project.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons work</p>
+      <h2>Python that makes things happen</h2>
+      <p class="ag-lede">Our teachers work from India, whose clocks stay fixed, so the UK is four and a half hours behind in summer and five and a half in winter. Lessons are timed in UK hours.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">Time to try the code on the Pi straight after.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evening</p><p class="ag-slot-l">For teenagers with busy days.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Longer sessions for build projects.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Programming first</h3><p>The Python a project needs, taught properly before the wiring gets complicated.</p></div>
+      <div><h3>Projects they choose</h3><p>Learners pick what to build; the teacher shapes the skills around it.</p></div>
+      <div><h3>Code reviewed</h3><p>A teacher reads each program and suggests the next improvement.</p></div>
+      <div><h3>Loops to events</h3><p>From checking in a loop to responding to events, as the official examples show.</p></div>
+      <div><h3>Safety habits</h3><p>The documentation's three rules repeated until they are automatic.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten learners at one level.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Builds by our students</h2>
+      <p class="ag-lede">Four projects made in lessons by the learners themselves. More in <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for Python lessons</h2>
+      <p class="ag-lede">We bill monthly in US dollars, one price for all families outside India. The first lesson has no charge, and billing waits until you have chosen a course and a weekly time. Hardware is not included.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A lesson built around your child's Raspberry Pi plans</li><li>An honest view of the Python they need first</li><li>A phone number is all we need</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten learners at one level</li><li>The same teacher every week</li><li>Code reviewed in each lesson</li><li>Projects the learners choose</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher for one learner</li><li>Paced around a specific build</li><li>Suits a teenager with an ambitious project</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews from parents on Google, word for word.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about Raspberry Pi projects</p>
+      <h2>What families ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What can my child do with a Raspberry Pi?</h3>
+        <p>Anything a small computer can do, but the special part is the 40-pin GPIO header, which lets Python code control lights and read buttons and sensors. The projects worth doing use those pins.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does it come with Python?</h3>
+        <p>Yes. Raspberry Pi OS comes with Python 3 pre-installed, the default desktop edition includes the Thonny editor, and the GPIO Zero library for the pins is installed by default.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is a good first project?</h3>
+        <p>Blinking an LED, then lighting it with a button. The official documentation shows both in Python in a handful of lines.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is it safe?</h3>
+        <p>Simple circuits are safe if you follow the documentation's rules: a resistor with every LED, no 5V into 3.3V parts, and never a motor wired straight to a pin.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should we buy a Raspberry Pi or a Pico?</h3>
+        <p>A Raspberry Pi is a full computer, better for projects with screens, files or the internet. A Pico is a microcontroller for small single-purpose gadgets and runs MicroPython.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will the Python my child learns work on a Pico?</h3>
+        <p>Yes, largely. The documentation describes MicroPython as a full implementation of Python 3 that runs on boards like the Pico.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you sell kits or boards?</h3>
+        <p>No. We teach Python and help with projects; families buy their own hardware.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you teach electronics?</h3>
+        <p>Only the basics a project needs. Our lessons are about the programming; we do not run an electronics course.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you connected with Raspberry Pi?</h3>
+        <p>No. We are independent and describe the devices from Raspberry Pi's official documentation.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does it cost?</h3>
+        <p>The first lesson is free; after that, a monthly fee in US dollars, lower in a group than one to one, as shown in the fees section, and never paid in advance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>More for UK makers</h2>
+      <p class="ag-lede">Other boards, space, and competitions.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/after-microbit-next-step-python-uk">After the micro:bit</a></h3><p>From school micro:bits to Python.</p></div>
+      <div><h3><a class="ag-inline-link" href="/after-code-club-next-step-coding-uk">After Code Club</a></h3><p>The next step once club guides run out.</p></div>
+      <div><h3><a class="ag-inline-link" href="/astro-pi-mission-zero-and-space-lab-help">Astro Pi</a></h3><p>Code that runs on Raspberry Pi computers in space.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-hackathons-uk">Student hackathons</a></h3><p>Building to a deadline with a team.</p></div>
+      <div><h3><a class="ag-inline-link" href="/best-python-classes-online-uk">Python classes online</a></h3><p>How we teach Python properly.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-kingdom">Coding classes in the UK</a></h3><p>The full list of UK pages.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Leave a number and we will call at a UK time that suits. Tell us what your child wants to build; the lesson starts there and ends with a plan.</p>
+        <p class="ag-mt-40">Reading first? Each <a class="ag-inline-link" href="/courses">course page</a> sets out its content, <a class="ag-inline-link" href="/how-we-teach">how we teach</a> explains who our lessons suit, and <a class="ag-inline-link" href="/student-labs">student labs</a> shows real projects.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20has%20a%20Raspberry%20Pi%20and%20I%20would%20like%20a%20free%20first%20Python%20lesson." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'rpp',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp gets the quickest reply and is free from a UK phone. We are in India, so the number shows +91.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_rpp(event)" novalidate>
+          <div class="ag-field">
+            <label for="gb-name">Your name</label>
+            <input id="gb-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-phone">Phone or WhatsApp, United Kingdom +44</label>
+            <input id="gb-phone" type="tel" name="phone" placeholder="7700 900123" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-age">Learner age group</label>
+            <select id="gb-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card, no contract. One reply, with a time.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Makers</h4><ul><li><a href="/after-microbit-next-step-python-uk">After the micro:bit</a></li><li><a href="/after-code-club-next-step-coding-uk">After Code Club</a></li><li><a href="/astro-pi-mission-zero-and-space-lab-help">Astro Pi</a></li><li><a href="/coding-classes-in-united-kingdom">UK coding classes</a></li></ul></div>
+      <div><h4>More</h4><ul><li><a href="/student-hackathons-uk">Student hackathons</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/courses">All courses</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Raspberry Pi Python, live on UK time</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitLead_rpp = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0044') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('44') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United Kingdom phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+44', countryIso: 'GB', countryName: 'United Kingdom',
+      source: 'raspberry-pi-coding-projects-uk-inline', meta: { name: name, age: age, page: 'raspberry-pi-coding-projects-uk' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+</body>
+</html>
