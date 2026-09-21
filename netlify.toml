@@ -12150,6 +12150,18 @@
   to = "/src/pages/ccea-a-level-software-systems-development-help.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/multiplication-tables-check-year-4-practice"
+  to = "/src/pages/multiplication-tables-check-year-4-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/multiplication-tables-check-year-4-practice.md"
+  to = "/src/pages/multiplication-tables-check-year-4-practice.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -216,6 +216,7 @@ const SLUGS = [
   'wjec-gcse-digital-technology-help-wales',
   'ccea-gcse-digital-technology-programming-help',
   'ccea-a-level-software-systems-development-help',
+  'multiplication-tables-check-year-4-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -511,6 +512,7 @@ const LLMS_LABELS = {
   'wjec-gcse-digital-technology-help-wales': 'WJEC GCSE Digital Technology help',
   'ccea-gcse-digital-technology-programming-help': 'CCEA GCSE Digital Technology programming help',
   'ccea-a-level-software-systems-development-help': 'CCEA A level Software Systems Development help',
+  'multiplication-tables-check-year-4-practice': 'Multiplication tables check practice',
 };
 
 function wireLlms(slugs) {
