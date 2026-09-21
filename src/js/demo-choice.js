@@ -480,7 +480,13 @@
             '.mac-dc-queue .mac-dc-tiny a{color:#6b6259}',
             '@keyframes macDcFade{from{opacity:0}to{opacity:1}}',
             '@keyframes macDcUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}',
-            '@media (max-width:680px){.mac-dc-overlay{padding:0;align-items:stretch}.mac-dc-overlay .mac-dc{max-height:none;height:100%;border-radius:0;border:0;padding:14px 14px 18px;animation:none;display:flex;flex-direction:column}.mac-dc--inline{padding:18px 14px 16px;border-radius:14px}.mac-dc-close{top:8px;right:8px;width:36px;height:36px;line-height:36px}.mac-dc-eyebrow{font-size:11px;padding:4px 10px}.mac-dc-title{font-size:20px;margin:8px 44px 0 0!important;line-height:1.25}.mac-dc-head .mac-dc-sub{display:none}.mac-dc-form .mac-dc-sub{font-size:13px}.mac-dc-grid{grid-template-columns:1fr;gap:10px;margin-top:12px}.mac-dc-opt{padding:14px 14px 12px;gap:6px;border-radius:14px}.mac-dc-opt h3{font-size:17px}.mac-dc-price b{font-size:22px}.mac-dc-opt p.mac-dc-body{font-size:13px;line-height:1.4}.mac-dc-opt ul{display:none}.mac-dc-badge{top:-10px;right:10px;font-size:10.5px;padding:4px 9px}.mac-dc-btn{padding:12px 14px;font-size:14.5px}.mac-dc-foot{margin-top:auto!important;padding-top:10px;font-size:12px}.mac-dc-row{grid-template-columns:1fr}.mac-dc-form{padding:14px}.mac-dc-done .mac-dc-btn,.mac-dc-queue .mac-dc-btn{width:100%;min-width:0}}',
+            // Phones drop the free card's list so both options fit one screen. The
+            // paid card keeps its list: it carries the three reasons to pay (full
+            // class, written report, fee adjusted on enrolment; owner 2026-09-21).
+            '@media (max-width:680px){.mac-dc-overlay{padding:0;align-items:stretch}.mac-dc-overlay .mac-dc{max-height:none;height:100%;border-radius:0;border:0;padding:14px 14px 18px;animation:none;display:flex;flex-direction:column}.mac-dc--inline{padding:18px 14px 16px;border-radius:14px}.mac-dc-close{top:8px;right:8px;width:36px;height:36px;line-height:36px}.mac-dc-eyebrow{font-size:11px;padding:4px 10px}.mac-dc-title{font-size:20px;margin:8px 44px 0 0!important;line-height:1.25}.mac-dc-head .mac-dc-sub{display:none}.mac-dc-form .mac-dc-sub{font-size:13px}.mac-dc-grid{grid-template-columns:1fr;gap:10px;margin-top:12px}.mac-dc-opt{padding:14px 14px 12px;gap:6px;border-radius:14px}.mac-dc-opt h3{font-size:17px}.mac-dc-price b{font-size:22px}.mac-dc-opt p.mac-dc-body{font-size:13px;line-height:1.4}.mac-dc-opt ul{display:none}.mac-dc-opt--paid ul{display:grid;gap:3px;font-size:12.5px;line-height:1.35}.mac-dc-opt--paid li{padding-left:17px}.mac-dc-opt--paid li::before{top:5px;width:9px;height:9px}.mac-dc-badge{top:-10px;right:10px;font-size:10.5px;padding:4px 9px}.mac-dc-btn{padding:12px 14px;font-size:14.5px}.mac-dc-foot{margin-top:auto!important;padding-top:10px;font-size:12px}.mac-dc-row{grid-template-columns:1fr}.mac-dc-form{padding:14px}.mac-dc-done .mac-dc-btn,.mac-dc-queue .mac-dc-btn{width:100%;min-width:0}}',
+            // Short phones: the three reasons replace the paid card's paragraph so
+            // the free option still fits on the same screen.
+            '@media (max-width:680px) and (max-height:760px){.mac-dc-opt--paid p.mac-dc-body{display:none}}',
             '@media (max-width:680px){.mac-dc-grid{grid-template-columns:1fr}.mac-dc-opt--paid{padding:16px 14px 14px}.mac-dc-opt--paid h3{font-size:20px}.mac-dc-opt--paid .mac-dc-price b{font-size:34px}.mac-dc-opt--paid p.mac-dc-body{font-size:13.5px}.mac-dc-opt--paid .mac-dc-btn{padding:15px 14px;font-size:16px}.mac-dc-opt--free h3{font-size:15px}.mac-dc-warn{font-size:12px;padding:7px 9px}.mac-dc-opt--free p.mac-dc-body{font-size:12.5px}.mac-dc-queue .mac-dc-btn{width:100%;min-width:0}}',
             '@media (prefers-reduced-motion:reduce){.mac-dc-overlay,.mac-dc-overlay .mac-dc{animation:none}}'
         ].join('\n');
@@ -521,7 +527,11 @@
                     // the other region.
                     '<p class="mac-dc-price"><b data-dc-price>' + esc(price.display) + '</b><span data-dc-price-note>one-time</span></p>' +
                     '<p class="mac-dc-body">Pay <span data-dc-price>' + esc(price.display) + '</span> and your demo is guaranteed. You pick the day and time, and a mentor is reserved only for you. Confirmed on WhatsApp within the hour.</p>' +
-                    '<ul><li>Guaranteed slot, today or tomorrow</li><li>A mentor reserved just for your demo</li><li>Real class, real project, real feedback</li></ul>' +
+                    // Owner decisions 2026-09-21 (scripts/brand-facts.json,
+                    // priorityDemo): the fee buys a full class, a written
+                    // report and is adjusted on enrolment. The adjustment is
+                    // done by staff against the Order ID, not by checkout.
+                    '<ul><li>A full live class, about 45 to 60 minutes, today or tomorrow</li><li>A written skill report and learning roadmap afterwards</li><li>Fee adjusted against your first month if you enrol</li></ul>' +
                     '<button type="button" class="mac-dc-btn mac-dc-btn--solid" data-action="paid">Pay <span data-dc-price>' + esc(price.display) + '</span> and confirm my slot</button>' +
                 '</section>';
         }
@@ -559,7 +569,7 @@
                 '<span class="mac-dc-tick">' + ICON_TICK + '</span>' +
                 '<h3>Response submitted. You are on the waiting list.</h3>' +
                 '<p>There is no confirmed slot yet. Our mentors are in live classes all day, so we will contact you only when a mentor is free, which can take several weeks.</p>' +
-                '<p><b>Want a guaranteed demo instead?</b> Pay once and pick your own day and time, today or tomorrow.</p>' +
+                '<p><b>Want a guaranteed demo instead?</b> Pay once and pick your own day and time, today or tomorrow. It is a full class with a written skill report afterwards, and the fee is adjusted against your first month if you enrol.</p>' +
                 '<div class="mac-dc-actions">' +
                     '<button type="button" class="mac-dc-btn mac-dc-btn--solid" data-action="paid">Pay ' + esc(price.display) + ' and confirm my slot</button>' +
                 '</div>' +
@@ -572,7 +582,7 @@
         return (
             '<form class="mac-dc-form" novalidate>' +
                 '<h3>Book your priority demo</h3>' +
-                '<p class="mac-dc-sub">Today or tomorrow, at a time you pick. A mentor confirms on WhatsApp within the hour.</p>' +
+                '<p class="mac-dc-sub">A full live class, about 45 to 60 minutes, at a time you pick. A mentor confirms on WhatsApp within the hour, and the fee is adjusted against your first month if you enrol.</p>' +
                 '<div class="mac-dc-row">' +
                     '<div class="mac-dc-field"><label for="macDcName">Student or parent name</label><input id="macDcName" name="name" type="text" autocomplete="name" value="' + esc(rec.name || '') + '" placeholder="Full name"></div>' +
                     '<div class="mac-dc-field"><label for="macDcEmail">Email</label><input id="macDcEmail" name="email" type="email" autocomplete="email" value="' + esc(rec.email || '') + '" placeholder="you@example.com"></div>' +
@@ -599,6 +609,7 @@
                 '<p>Paid ' + esc(paid.display) + ' · Order ID <code>' + esc(paid.orderId) + '</code></p>' +
                 '<p>A mentor confirms your demo on WhatsApp shortly. To move faster, send us the confirmation yourself:</p>' +
                 '<a class="mac-dc-btn mac-dc-btn--wa" href="' + waLink(msg) + '" target="_blank" rel="noopener noreferrer">' + ICON_WA + 'Confirm on WhatsApp</a>' +
+                '<p class="mac-dc-tiny"><b>Keep your Order ID.</b> If you enrol, send it to us on WhatsApp and we adjust ' + esc(paid.display) + ' against your first month\'s fee. Your written skill report and learning roadmap arrive on WhatsApp within a day of the class.</p>' +
                 '<p class="mac-dc-tiny">Keep a laptop or desktop ready with Chrome and a stable connection. The demo is a real class, not a sales call.</p>' +
             '</div>'
         );
@@ -1151,10 +1162,82 @@
         }, false);
     }
 
+    // ───────────────────────── direct booking entry points ─────────────────────────
+
+    /**
+     * Any element carrying data-pd-book opens the payment form right where
+     * the visitor is: the nav, the sticky phone bar, course pages, the
+     * homepage and pricing bands, and the line inside demo forms. The
+     * attribute's value names the placement ("nav", "course", ...) so each one
+     * can be measured on demo_priority_direct_open.
+     *
+     * Every such link keeps href="/book-demo", so it still works when this
+     * file is blocked. The ten priority-demo pages used to carry their own
+     * copy of this delegate; book() ignores a second call while the popup is
+     * open, so an older cached page cannot open it twice.
+     *
+     * .pd-price spans follow the one-currency rule: rupees are the static
+     * default (what crawlers see) and become dollars outside India.
+     */
+    function swapEntryPrices(scope) {
+        try {
+            if (visitorInIndia()) return;
+            var spans = (scope || document).querySelectorAll('.pd-price');
+            for (var i = 0; i < spans.length; i++) spans[i].textContent = PRICES.USD.display;
+        } catch (e) { }
+    }
+
+    function installBookDelegate() {
+        if (window.__macPdBookDelegated) return;
+        window.__macPdBookDelegated = true;
+        document.addEventListener('click', function (e) {
+            try {
+                var a = e.target && e.target.closest ? e.target.closest('[data-pd-book]') : null;
+                if (!a || optedOut()) return;
+                e.preventDefault();
+                window.MACDemoChoice.book(a.getAttribute('data-pd-book') || 'link');
+            } catch (err) { /* the href still takes the visitor to /book-demo */ }
+        });
+    }
+
+    /**
+     * One quiet line above the submit button of a demo form, for the visitor
+     * who already knows they do not want to wait. Added here rather than in
+     * the markup because more than a thousand pages carry their own form.
+     */
+    var FORM_LINE_IDS = ['callbackForm', 'contactForm', 'demoForm', 'tryCodeForm'];
+    function addFormLines() {
+        if (optedOut()) return;
+        for (var i = 0; i < FORM_LINE_IDS.length; i++) {
+            try {
+                var form = document.getElementById(FORM_LINE_IDS[i]);
+                if (!form || form.querySelector('.mac-dc-formline')) continue;
+                var btn = form.querySelector('button[type="submit"], input[type="submit"]');
+                if (!btn || !btn.parentNode) continue;
+                var p = document.createElement('p');
+                p.className = 'mac-dc-formline';
+                p.style.cssText = 'margin:0 0 12px;font-size:13px;line-height:1.45;color:inherit;opacity:.92;text-align:left';
+                p.innerHTML = 'Want it today or tomorrow? <a href="/book-demo" data-pd-book="form" style="color:inherit;font-weight:700;text-decoration:underline;text-underline-offset:2px">Book a priority slot instead</a>.';
+                btn.parentNode.insertBefore(p, btn);
+            } catch (e) { }
+        }
+    }
+
     // ───────────────────────── boot ─────────────────────────
 
     installFetchHook();
     installWhatsAppBridge();
+    installBookDelegate();
+
+    function bootEntryPoints() {
+        swapEntryPrices();
+        addFormLines();
+    }
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', bootEntryPoints);
+    } else {
+        bootEntryPoints();
+    }
 
     function bootInline() {
         var mount = inlineMount();
@@ -1191,14 +1274,15 @@
         // Opens straight on the payment form, for "Book priority demo" buttons on
         // content pages where no form has been submitted. The payment form
         // collects name, email and phone itself, so nothing else is needed.
-        book: function () {
+        book: function (placement) {
+            if (activeModal) return;
             var rec = readSession() || {};
             if (!rec.lid) rec = { direct: true, page: window.location.pathname, at: Date.now() };
             openModal(rec);
             if (activeModal && !(testRegion() === null && readPaid())) activeModal.showForm();
-            track('demo_priority_direct_open', { page: window.location.pathname });
+            track('demo_priority_direct_open', { page: window.location.pathname, placement: String(placement || 'link') });
         },
         prices: PRICES,
-        version: '20260920a'
+        version: '20260921a'
     };
 })();
