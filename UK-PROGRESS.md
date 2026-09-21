@@ -128,7 +128,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 76 | coding-for-university-students-uk (cus, #4A3659) | age and career door (UK) | 3,470 | 3.5% vs ai-agents-course-for-students-uk | two kinds of student, one gap (CS 9.7% unemployed vs 6.2% overall; digital native is a myth) | graduate destination data read as a guide to what to build during a degree | 83bf0b23 |
 | 77 | coding-before-a-degree-apprenticeship-uk (dap, #5D3432) | age and career door (UK, England) | 3,565 | 1.8% vs learn-to-code-over-50-uk | the employer is the admissions office, and the standard is published (ST0119 level 6, 48 months) | occupational standards read as a syllabus for what to learn before applying | b5356ddf |
 | 78 | cyber-security-course-for-teens-uk (cyt, #325D36) | age and career door (UK) | 3,439 | 4.5% vs coding-before-a-degree-apprenticeship-uk | the same curiosity, on the legal side of the line (NCA: 20% of 10-16s breach the Computer Misuse Act) | the law and the labour market read together to steer curiosity towards legal practice | a1fac2c2 |
-| 79 | java-classes-uk (jvu, #87371D) | language and track door (UK) | 3,258 | 3.4% vs coding-for-university-students-uk | Java is an A level exam language in the UK, and almost never a GCSE one | exam-board language rules read as the reason a student switches language | (this commit) |
+| 79 | java-classes-uk (jvu, #87371D) | language and track door (UK) | 3,258 | 3.4% vs coding-for-university-students-uk | Java is an A level exam language in the UK, and almost never a GCSE one | exam-board language rules read as the reason a student switches language | a305ce64 |
+| 80 | app-development-course-uk (adu, #851DA5) | language and track door (UK) | 3,433 | 4.2% vs java-classes-uk | an app has two rulebooks before it has users (DSIT app code, ICO Children's code) | regulatory codes turned into default settings in code | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

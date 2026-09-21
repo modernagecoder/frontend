@@ -3400,4 +3400,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /java-classes-uk /src/pages/java-classes-uk.html 200
 /java-classes-uk.md /src/pages/java-classes-uk.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/app-development-course-uk /src/pages/app-development-course-uk.html 200
+/app-development-course-uk.md /src/pages/app-development-course-uk.md 200
 /* /src/pages/404.html 404

@@ -235,6 +235,7 @@ const SLUGS = [
   'coding-before-a-degree-apprenticeship-uk',
   'cyber-security-course-for-teens-uk',
   'java-classes-uk',
+  'app-development-course-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -549,6 +550,7 @@ const LLMS_LABELS = {
   'coding-before-a-degree-apprenticeship-uk': 'Coding before a degree apprenticeship',
   'cyber-security-course-for-teens-uk': 'Cyber security course for teens, UK',
   'java-classes-uk': 'Java classes, UK',
+  'app-development-course-uk': 'App development course, UK',
 };
 
 function wireLlms(slugs) {
