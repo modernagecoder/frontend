@@ -3384,4 +3384,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ai-agents-course-for-students-uk /src/pages/ai-agents-course-for-students-uk.html 200
 /ai-agents-course-for-students-uk.md /src/pages/ai-agents-course-for-students-uk.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/coding-for-university-students-uk /src/pages/coding-for-university-students-uk.html 200
+/coding-for-university-students-uk.md /src/pages/coding-for-university-students-uk.md 200
 /* /src/pages/404.html 404
