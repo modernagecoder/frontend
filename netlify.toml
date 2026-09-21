@@ -12114,6 +12114,18 @@
   to = "/src/pages/wjec-gcse-computer-science-help-wales.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/wjec-gcse-digital-technology-help-wales"
+  to = "/src/pages/wjec-gcse-digital-technology-help-wales.html"
+  status = 200
+
+[[redirects]]
+  from = "/wjec-gcse-digital-technology-help-wales.md"
+  to = "/src/pages/wjec-gcse-digital-technology-help-wales.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
