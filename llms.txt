@@ -440,6 +440,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - CCEA GCSE Maths help: https://learn.modernagecoders.com/ccea-gcse-maths-help
 - Transfer test maths practice, Northern Ireland: https://learn.modernagecoders.com/transfer-test-maths-practice-northern-ireland
 - After Code Club: the next step: https://learn.modernagecoders.com/after-code-club-next-step-coding-uk
+- After the micro:bit: the step to Python: https://learn.modernagecoders.com/after-microbit-next-step-python-uk
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

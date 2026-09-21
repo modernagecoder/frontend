@@ -12246,6 +12246,18 @@
   to = "/src/pages/after-code-club-next-step-coding-uk.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/after-microbit-next-step-python-uk"
+  to = "/src/pages/after-microbit-next-step-python-uk.html"
+  status = 200
+
+[[redirects]]
+  from = "/after-microbit-next-step-python-uk.md"
+  to = "/src/pages/after-microbit-next-step-python-uk.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>After the micro:bit: The Next Step to Python, UK</title>
+  <meta name="description" content="Your child used a micro:bit at school and wants more. The same board runs Python, which makes it the gentlest step from blocks to typed code. How to take it.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/after-microbit-next-step-python-uk">
+  <link rel="alternate" type="text/markdown" href="/src/pages/after-microbit-next-step-python-uk.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#8B183F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/after-microbit-next-step-python-uk">
+  <meta property="og:title" content="After the micro:bit: The Next Step to Python, UK">
+  <meta property="og:description" content="Every UK primary school was offered a class set of micro:bits in 2023, and the board runs Python. That makes the next step smaller than parents expect.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_GB">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="After the micro:bit: The Next Step to Python, UK">
+  <meta name="twitter:description" content="After the micro:bit: from MakeCode blocks to Python on the same board, and then to Python on a computer.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="GB">
+  <meta name="geo.placename" content="United Kingdom">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-amb .ag-hero h1 { letter-spacing: -0.023em; font-weight: 700; }
+.ag-root.ag-amb .ag-capsule { border-left-width: 6px; border-top: 2px solid var(--ag-accent); }
+.ag-root.ag-amb .ag-section-head h2 { max-width: 26ch; }
+.ag-root.ag-amb .ag-table caption { text-align: left; font-weight: 670; }
+.ag-root.ag-amb .ag-table td:first-child { font-weight: 610; }
+.ag-root.ag-amb .ag-band-head h3 { letter-spacing: -0.009em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United Kingdom"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/after-microbit-next-step-python-uk#page","url":"https://learn.modernagecoders.com/after-microbit-next-step-python-uk","name":"After the micro:bit: The Next Step to Python","description":"Live online Python lessons for UK children who started coding on the BBC micro:bit, built on the Micro:bit Educational Foundation's published material.","inLanguage":"en-GB","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the UK","item":"https://learn.modernagecoders.com/coding-classes-in-united-kingdom"},{"@type":"ListItem","position":4,"name":"After the micro:bit","item":"https://learn.modernagecoders.com/after-microbit-next-step-python-uk"}]},{"@type":"Course","name":"After the micro:bit: The Next Step to Python","description":"Live online Python for children who started on the micro:bit: from blocks to typed code, with the concepts they met on the board carried into bigger programs.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/after-microbit-next-step-python-uk"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/after-microbit-next-step-python-uk"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/after-microbit-next-step-python-uk"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the BBC micro:bit?","acceptedAnswer":{"@type":"Answer","text":"A pocket-sized programmable board with buttons, lights, sensors and a radio, from the Micro:bit Educational Foundation, a non-profit. Children usually program it with MakeCode blocks."}},{"@type":"Question","name":"Did my child's school get micro:bits?","acceptedAnswer":{"@type":"Answer","text":"Very likely. In 2023 every UK primary school was offered a free class set of 30 through BBC micro:bit the next gen, and nearly 20,000 schools signed up."}},{"@type":"Question","name":"Can the micro:bit run Python?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Foundation has its own Python editor for the micro:bit, which had over a million uses in its first year."}},{"@type":"Question","name":"Why move from blocks to Python?","acceptedAnswer":{"@type":"Answer","text":"Python is text-based and used far beyond school, in data science and machine learning. Moving to it lets children build bigger programs, and the micro:bit makes the first step gentle."}},{"@type":"Question","name":"Does my child need a micro:bit at home?","acceptedAnswer":{"@type":"Answer","text":"No. Our lessons use Python on the computer. A home micro:bit is a nice extra for trying ideas, but not required."}},{"@type":"Question","name":"Do you teach micro:bit lessons?","acceptedAnswer":{"@type":"Answer","text":"Not as a course. Our blocks course uses a simulated micro:bit, and our Python teaching happens on the computer. We do not sell or ship boards."}},{"@type":"Question","name":"What age is right for Python?","acceptedAnswer":{"@type":"Answer","text":"Often around 10 to 12, once a child is confident in blocks and can plan a project. Some benefit from more time in blocks first."}},{"@type":"Question","name":"Are you connected with the BBC or the Foundation?","acceptedAnswer":{"@type":"Answer","text":"No. We are independent and describe the micro:bit from the Foundation's published material."}},{"@type":"Question","name":"Are lessons online?","acceptedAnswer":{"@type":"Answer","text":"Yes, live and online, in small groups or one to one, at UK times."}},{"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"A first lesson is free of charge. Continuing lessons are billed once a month in US dollars, cheaper in a group than one to one, as the fees section shows, and never paid ahead."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United Kingdom"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/after-microbit-next-step-python-uk","availableLanguage":["en"]}}
+  </script>
+</head>
+
+<body class="ag-root ag-amb">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">UK</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#board">The board at school</a></li>
+      <li><a href="#bridge">Blocks to Python</a></li>
+      <li><a href="#beyond">Beyond the board</a></li>
+      <li><a href="#home">At home</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-kingdom">Coding classes in the UK</a> / After the micro:bit
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">UK &middot; Ages 9 to 13 &middot; Physical computing</p>
+        <h1>After the micro:bit: the next step to Python</h1>
+        <p class="ag-lede">If your child is in primary school in the UK, there is a good chance they have held a BBC micro:bit. In 2023 the BBC, the Micro:bit Educational Foundation and Nominet offered a free class set of 30 to every primary school, almost 700,000 devices, and nearly 20,000 schools signed up. Most children meet it through Microsoft MakeCode, whose colour-coded blocks, the Foundation notes, "are familiar to anyone who's previously used Scratch". What fewer families know is that the same little board also runs Python. The Foundation's own Python editor had over a million uses in its first year, and the Foundation calls Python "a great way to deepen your programming skills through text-based coding". So the step from blocks to real, typed code can start on a device your child already understands. This page explains that step, and the one after it.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#bridge" class="ag-btn ag-btn--ghost">Blocks to Python</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20has%20used%20a%20micro%3Abit%20and%20I%20would%20like%20a%20free%20first%20lesson%20in%20Python." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'amb'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Built on the Micro:bit Educational Foundation's published material</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Children who started on the micro:bit</dd>
+          <dt>Usual age</dt><dd>About 9 to 13</dd>
+          <dt>UK primary giveaway</dt><dd>30 per school, almost 700,000 devices</dd>
+          <dt>Schools signed up</dt><dd>Nearly 20,000</dd>
+          <dt>Next language</dt><dd>Python, on the board and then the computer</dd>
+          <dt>Boards</dt><dd>We do not sell or ship them</dd>
+          <dt>Group</dt><dd>Five to ten at one level</dd>
+          <dt>Start</dt><dd>One free lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>The BBC micro:bit is a pocket-sized programmable board from the Micro:bit Educational Foundation, a non-profit. In 2023 the BBC micro:bit the next gen campaign offered every UK primary school a free class set of 30, almost 700,000 devices funded by Nominet, and nearly 20,000 schools signed up. Children usually program it with Microsoft MakeCode blocks, which feel like Scratch and can switch to show JavaScript. The board also runs Python through the Foundation's own Python editor, which had over a million uses in its first year. That makes the micro:bit a gentle bridge from blocks to typed code: the same sensors, buttons and display, driven by text instead of blocks. After that, Python on a computer opens up bigger programs, data and games. Modern Age Coders teaches that next step in live Python lessons. We do not run a micro:bit course or sell boards. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three courses for micro:bit graduates</h2>
+      <p class="ag-lede">Python first, blocks for the younger, and data for the curious. Each card opens its syllabus.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MB / 01</p>
+          <h3>Python for Kids</h3>
+          <p>Typed Python for ages 10 to 13, the language the micro:bit can already run.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/kids-coding-blocks-masterclass">
+        <div class="ag-pick-shot"><img src="/images/kids-coding.webp" alt="Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MB / 02</p>
+          <h3>Coding for Kids</h3>
+          <p>For younger children: Scratch, MakeCode arcade and inventions on a simulated micro:bit, before typing.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-science-course-for-teens-python-data">
+        <div class="ag-pick-shot"><img src="/images/data-science-teens.webp" alt="Data Science for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MB / 03</p>
+          <h3>Data Science with Python</h3>
+          <p>For teenagers who enjoyed logging sensor data and want to analyse real datasets.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="board">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The board at school</p><h2>The board most UK primary children have met</h2><p class="ag-lede">From the Micro:bit Educational Foundation's announcements and its review of 2023.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The micro:bit in UK schools, as published</caption><thead><tr><th scope="col">Fact</th><th scope="col">Detail</th></tr></thead><tbody><tr><td>The campaign</td><td>BBC micro:bit the next gen, announced 15 May 2023 by BBC Education, the Foundation and Nominet</td></tr><tr><td>The offer</td><td>A free class set of 30 micro:bits and teaching resources for every UK primary school</td></tr><tr><td>Devices</td><td>Almost 700,000, funded by Nominet</td></tr><tr><td>Take-up</td><td>Nearly 20,000 UK primary schools signed up for kits</td></tr><tr><td>Delivery</td><td>Between September 2023 and March 2024</td></tr><tr><td>Worldwide</td><td>73.5 million children have learnt with micro:bit, in more than 85 countries</td></tr></tbody></table></div>
+    <p>The micro:bit has buttons, a small grid of lights, and sensors that detect movement, temperature, light and sound, plus a radio that lets boards talk to each other. That is why children love it: code does something visible and physical straight away. The Foundation reports that in the UK, "88% of students taught with micro:bit say computing and technology is more fun than other subjects", a survey finding worth reading as enthusiasm rather than proof of learning.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How children usually code it</h3><p>Microsoft MakeCode, with blocks that snap together much like Scratch. It is a very good start.</p>
+<p>MakeCode can also switch to JavaScript to show the text behind the blocks, a first glimpse of typed code.</p></div><div><h3>What the board can also do</h3><p>Run Python, written in the Foundation's own Python editor, using the same buttons, lights and sensors.</p>
+<p>That means the move to typed code does not need new equipment, just a new way of instructing a familiar device.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: the <a class="ag-inline-link" href="https://microbit.org/about/overview/" rel="noopener" target="_blank">Micro:bit Educational Foundation</a> About page and Code page, its news post of 15 May 2023 announcing the campaign, and its review of 2023 published on 11 January 2024. We have no connection with the Foundation, the BBC or Nominet.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="bridge">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Blocks to Python</p><h2>The board already speaks Python</h2><p class="ag-lede">Why the micro:bit makes the jump to typed code smaller than it looks.</p></div>
+    <p>The Foundation describes Python as easy to start because of its "natural English-like structure", and says its Python editor "is designed to help teachers and learners get the most out of text-based programming on the micro:bit". The important thing for a child is continuity. A program that shows a heart when button A is pressed, or counts steps using the accelerometer, can be rebuilt in Python line by line. The idea is already understood; only the way of expressing it changes.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The same ideas, in blocks and in Python</caption><thead><tr><th scope="col">Idea met in MakeCode</th><th scope="col">What changes in Python</th></tr></thead><tbody><tr><td>On button A pressed</td><td>An if-statement checking the button, inside a loop that runs forever</td></tr><tr><td>Show icon, show number</td><td>Calling functions by name, with brackets and exact spelling</td></tr><tr><td>Variables for a score or count</td><td>Named variables, typed and updated in text</td></tr><tr><td>Forever loop</td><td>A while loop, with indentation that matters</td></tr><tr><td>Radio send and receive</td><td>Messages sent and read in code, as text or numbers</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Rebuild a favourite</h3><p>Start by rewriting a project the child already made in blocks. Familiar behaviour makes the new syntax far less frightening.</p></div><div><h3>Read the errors</h3><p>Typed code produces error messages. Learning to read them calmly is the single biggest new skill, and the board gives quick feedback.</p></div><div><h3>Peek at JavaScript</h3><p>MakeCode's JavaScript view shows text behind blocks. Some children like seeing it before switching; it is not required for Python.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="beyond">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Beyond the board</p><h2>Then Python on a computer</h2><p class="ag-lede">The micro:bit is a bridge, not a destination. Bigger programs need a full computer.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>On the board and beyond it</caption><thead><tr><th scope="col">On the micro:bit</th><th scope="col">On a computer</th></tr></thead><tbody><tr><td>Small programs that react to buttons and sensors</td><td>Programs that grow over weeks, split into functions and files</td></tr><tr><td>A five-by-five light display</td><td>Full screens: games, drawings and windows</td></tr><tr><td>Sensor readings logged on the board</td><td>Real datasets analysed and charted</td></tr><tr><td>Messages between boards by radio</td><td>Programs that talk to websites and files</td></tr></tbody></table></div>
+    <p>The Foundation notes that Python is "powerful enough to be used in areas like data science and machine learning", and that is exactly where Python on a computer leads. A child who logged temperature readings on a micro:bit is one step from analysing a real dataset; one who made a reaction game is one step from a full game with graphics. Our lessons take that step on the computer, where programs can grow.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What we offer</h3><p>Live Python lessons in small groups, starting from what children built on the micro:bit and moving to programs on the computer.</p>
+<p>Projects the children choose, with a teacher who reads their code and suggests what to try next.</p></div><div><h3>What we are not</h3><p>A micro:bit course. We do not teach MicroPython on the board as a course, and we do not sell or ship micro:bits.</p>
+<p>Connected with the BBC, the Foundation or Nominet. We describe the micro:bit from their published material.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="home">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">At home</p><h2>If your family has a micro:bit at home</h2><p class="ag-lede">Many families buy one after a child enjoys it at school. Here is how to use it well alongside lessons.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Using a home micro:bit well</caption><thead><tr><th scope="col">Idea</th><th scope="col">Why it helps</th></tr></thead><tbody><tr><td>Try each new Python idea on the board</td><td>A button or light reacting to the child's own code makes an abstract idea concrete</td></tr><tr><td>Use the official editors</td><td>The Foundation's MakeCode and Python editors are free and designed for learners</td></tr><tr><td>Build something for the house</td><td>A doorbell, a plant-watering reminder or a step counter gives a real reason to finish</td></tr><tr><td>Keep it playful</td><td>The board works well as a toy that teaches, not as homework</td></tr></tbody></table></div>
+    <p>None of this requires lessons. The Foundation's free resources are excellent for home use. Lessons help when a child wants to go further than the resources lead, gets stuck on their own idea, or is ready to move from the board to bigger programs on a computer.</p>
+    <p>For children who love community clubs, see <a class="ag-inline-link" href="/after-code-club-next-step-coding-uk">the page on life after Code Club</a>; for Raspberry Pi computers, <a class="ag-inline-link" href="/raspberry-pi-coding-projects-uk">Raspberry Pi coding projects</a>; and for the curriculum, <a class="ag-inline-link" href="/ks2-coding-lessons-online">Key Stage 2 coding</a> and <a class="ag-inline-link" href="/ks3-computing-tuition-online">Key Stage 3 computing</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progression</p>
+      <h2>Four rungs after the micro:bit</h2>
+      <p class="ag-lede">Placement follows what a child can build, which a first lesson shows quickly.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From blocks on a board to programs on a computer</caption><thead><tr><th scope="col">Rung</th><th scope="col">Usually</th><th scope="col">What should be true</th></tr></thead><tbody><tr><td>1. Confident in blocks</td><td class="ag-num">Ages 8 to 10</td><td class="ag-num">MakeCode projects with buttons, sensors, variables and loops, designed by the child</td></tr><tr><td>2. First Python</td><td class="ag-num">Ages 10 to 12</td><td class="ag-num">Familiar projects rebuilt in typed Python, errors read and fixed</td></tr><tr><td>3. Python on the computer</td><td class="ag-num">Ages 11 to 13</td><td class="ag-num">Programs with functions, lists and files that grow over several weeks</td></tr><tr><td>4. A real project</td><td class="ag-num">Ages 12 and up</td><td class="ag-num">A game, data project or tool planned and finished, reviewed by a teacher</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Rung two is the bridge</h3><p>Rebuilding a known project in Python is the gentlest way across. It works on the board or on screen.</p>
+<p>The wider sequence of topics is on the <a class="ag-inline-link" href="/coding-roadmap">coding roadmap</a>.</p></div><div><h3>Rung four is ownership</h3><p>A child who plans and finishes their own project has become a maker, not a follower.</p>
+<p>From there, GCSE computing and beyond are a natural path.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for young makers</h2>
+      <p class="ag-lede">Grouped by stage. The free lesson places each child.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>From blocks to Python</h3>
+        <span class="ag-band-sub">Ages 8 to 13</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UK / MB1 / 01</p>
+          <h4>Coding for kids</h4>
+          <p>Blocks, MakeCode and a simulated micro:bit.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / MB1 / 02</p>
+          <h4>Python for kids</h4>
+          <p>The first typed language, step by step.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / MB1 / 03</p>
+          <h4>Scratch, complete</h4>
+          <p>For younger makers still in blocks.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Making with code</h3>
+        <span class="ag-band-sub">Games and data</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UK / MB2 / 01</p>
+          <h4>Game development for kids</h4>
+          <p>Reaction games grown into real ones.</p>
+          <a class="ag-course-link" href="/courses/game-development-masterclass-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / MB2 / 02</p>
+          <h4>Maths through coding</h4>
+          <p>Number patterns and measurement, explored in programs.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / MB2 / 03</p>
+          <h4>Hackathon prep for kids</h4>
+          <p>Inventing, building and presenting a project.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Teenage makers</h3>
+        <span class="ag-band-sub">Ages 13 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UK / MB3 / 01</p>
+          <h4>Python for teens</h4>
+          <p>Programs, files and apps in Python.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / MB3 / 02</p>
+          <h4>Data science with Python</h4>
+          <p>Real data, analysed and charted.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / MB3 / 03</p>
+          <h4>AI and machine learning</h4>
+          <p>Where Python meets machine learning.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons work</p>
+      <h2>From a familiar board to bigger programs</h2>
+      <p class="ag-lede">Teaching happens from India, which does not change its clocks, leaving the UK four and a half hours behind in summer and five and a half in winter. Every lesson is booked in UK time.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">Short, practical sessions for this age.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Early evening</p><p class="ag-slot-l">Time to try code on a home board afterwards.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Longer project sessions for keen makers.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Start from their projects</h3><p>Lessons begin from what a child built on the micro:bit at school or home.</p></div>
+      <div><h3>Rebuild, then extend</h3><p>Familiar projects rewritten in Python, then pushed further.</p></div>
+      <div><h3>Errors as clues</h3><p>Error messages read together until they stop being scary.</p></div>
+      <div><h3>Code reviewed</h3><p>A teacher reads every child's program and gives specific next steps.</p></div>
+      <div><h3>Their own ideas</h3><p>Children choose projects; the teacher picks the skills each one needs.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten children at one level.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects built by our young students</h2>
+      <p class="ag-lede">Four projects from lessons, each made by the children. More in <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for Python lessons</h2>
+      <p class="ag-lede">Lessons are paid monthly in US dollars, one rate wherever you live outside India. Nothing is due for the first lesson, and no invoice follows until you pick a course and a regular weekly time. Hardware is never part of the fee; we do not sell boards.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A lesson starting from your child's micro:bit projects</li><li>A clear view of whether they are ready for Python</li><li>Only a phone number to book</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten children at one level</li><li>The same teacher each week</li><li>Code read and reviewed every lesson</li><li>Projects the children choose</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher for one child</li><li>Paced to a fast-moving maker</li><li>Suits a child with a big idea</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents' reviews on Google, reproduced as written.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about life after the micro:bit</p>
+      <h2>What parents ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is the BBC micro:bit?</h3>
+        <p>A pocket-sized programmable board with buttons, lights, sensors and a radio, from the Micro:bit Educational Foundation, a non-profit. Children usually program it with MakeCode blocks.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Did my child's school get micro:bits?</h3>
+        <p>Very likely. In 2023 every UK primary school was offered a free class set of 30 through BBC micro:bit the next gen, and nearly 20,000 schools signed up.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can the micro:bit run Python?</h3>
+        <p>Yes. The Foundation has its own Python editor for the micro:bit, which had over a million uses in its first year.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why move from blocks to Python?</h3>
+        <p>Python is text-based and used far beyond school, in data science and machine learning. Moving to it lets children build bigger programs, and the micro:bit makes the first step gentle.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child need a micro:bit at home?</h3>
+        <p>No. Our lessons use Python on the computer. A home micro:bit is a nice extra for trying ideas, but not required.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you teach micro:bit lessons?</h3>
+        <p>Not as a course. Our blocks course uses a simulated micro:bit, and our Python teaching happens on the computer. We do not sell or ship boards.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age is right for Python?</h3>
+        <p>Often around 10 to 12, once a child is confident in blocks and can plan a project. Some benefit from more time in blocks first.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you connected with the BBC or the Foundation?</h3>
+        <p>No. We are independent and describe the micro:bit from the Foundation's published material.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are lessons online?</h3>
+        <p>Yes, live and online, in small groups or one to one, at UK times.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does it cost?</h3>
+        <p>A first lesson is free of charge. Continuing lessons are billed once a month in US dollars, cheaper in a group than one to one, as the fees section shows, and never paid ahead.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>More for young makers</h2>
+      <p class="ag-lede">Clubs, computers and the curriculum.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/after-code-club-next-step-coding-uk">After Code Club</a></h3><p>The next step for children who outgrow the club guides.</p></div>
+      <div><h3><a class="ag-inline-link" href="/raspberry-pi-coding-projects-uk">Raspberry Pi coding projects</a></h3><p>What children can build with a Raspberry Pi computer.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ks2-coding-lessons-online">Key Stage 2 coding</a></h3><p>The primary computing curriculum in England.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ks3-computing-tuition-online">Key Stage 3 computing</a></h3><p>What secondary school computing asks next.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-hackathons-uk">Student hackathons</a></h3><p>Where young makers build to a deadline.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-kingdom">Coding classes in the UK</a></h3><p>All our UK pages in one place.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Leave a number and we will call at a UK time that suits. Tell us what your child made on the micro:bit; the lesson starts there and ends with a plan.</p>
+        <p class="ag-mt-40">Want to look before you book? Browse the <a class="ag-inline-link" href="/courses">courses</a> and their syllabuses, read about <a class="ag-inline-link" href="/how-we-teach">our method</a> and who it suits, or see children's finished work in <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20has%20used%20a%20micro%3Abit%20and%20I%20would%20like%20a%20free%20first%20lesson%20in%20Python." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'amb',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">For a fast answer, message us on WhatsApp, free from any UK phone. We are based in India, so our number has the +91 prefix.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_amb(event)" novalidate>
+          <div class="ag-field">
+            <label for="gb-name">Your name</label>
+            <input id="gb-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-phone">Phone or WhatsApp, United Kingdom +44</label>
+            <input id="gb-phone" type="tel" name="phone" placeholder="7700 900123" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-age">Learner age group</label>
+            <select id="gb-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card and no contract; a single reply with a time.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Young makers</h4><ul><li><a href="/after-code-club-next-step-coding-uk">After Code Club</a></li><li><a href="/raspberry-pi-coding-projects-uk">Raspberry Pi projects</a></li><li><a href="/ks2-coding-lessons-online">KS2 coding</a></li><li><a href="/coding-classes-in-united-kingdom">UK coding classes</a></li></ul></div>
+      <div><h4>More</h4><ul><li><a href="/student-hackathons-uk">Student hackathons</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/courses">All courses</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Python after the micro:bit, live on UK time</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitLead_amb = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0044') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('44') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United Kingdom phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+44', countryIso: 'GB', countryName: 'United Kingdom',
+      source: 'after-microbit-next-step-python-uk-inline', meta: { name: name, age: age, page: 'after-microbit-next-step-python-uk' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+</body>
+</html>

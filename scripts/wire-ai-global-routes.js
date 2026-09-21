@@ -224,6 +224,7 @@ const SLUGS = [
   'ccea-gcse-maths-help',
   'transfer-test-maths-practice-northern-ireland',
   'after-code-club-next-step-coding-uk',
+  'after-microbit-next-step-python-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -527,6 +528,7 @@ const LLMS_LABELS = {
   'ccea-gcse-maths-help': 'CCEA GCSE Maths help',
   'transfer-test-maths-practice-northern-ireland': 'Transfer test maths practice, Northern Ireland',
   'after-code-club-next-step-coding-uk': 'After Code Club: the next step',
+  'after-microbit-next-step-python-uk': 'After the micro:bit: the step to Python',
 };
 
 function wireLlms(slugs) {
