@@ -17272,5 +17272,71 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Nottingham Express Transit, the Department for Transport, the ONS, Green's Windmill and Science Centre or Nottingham UNESCO City of Literature."
     ]
+  },
+  "best-coding-class-in-derby": {
+    "market": "Derby",
+    "bodyClass": "cg-dby",
+    "pageType": "city",
+    "curriculumAuthority": "Derby, Census 2021 via Nomis: TS001 Derby local authority (E06000015) 261,364 usual residents, 256,961 in households (98.3 percent), 4,403 in communal establishments (1.7 percent); TS007A 16,899 aged 5 to 9 (6.5 percent), 16,978 aged 10 to 14 (6.5 percent), 18,528 aged 20 to 24 (7.1 percent), against England 5.9, 6.0 and 6.0 percent; TS068 55,701 schoolchildren and full-time students of 246,144 residents aged 5 and over, 22.6 percent, against 20.4 percent in England. Derby Museums, Museum of Making: Derwent Valley Mills, a UNESCO World Heritage Site; Derby's 300-year history of making; widely regarded as the site of the world's first factory. Derby Museums home page: the world's largest collection of works by Joseph Wright of Derby. Derwent Valley Mills World Heritage Site: inscribed by UNESCO in 2001 for the birth of the factory system; 24 km north to south from the edge of Matlock Bath and Cromford almost to the centre of Derby. Bus Open Data Service: timetable, vehicle location and fares data for every local bus service in England, free, no licence, built by the Department for Transport.",
+    "localProject": "The busiest minute on Derby's buses. BODS GTFS, East Midlands, feed version 20260921_024430, Tuesday 22 September 2026. 1,105 stops inside the ONS LAD December 2023 BGC boundary; 27,846 trips running in the feed; 2,595 trips with two or more timed stops inside Derby (417 excluded). Interval = first to last timed stop inside Derby; mean 32.4 minutes. Sweep, ends before starts: peak 109 at 08:14 (again 08:17); starts before ends: 117. All 5,190 endpoints whole minutes; 661 instants with an end and a start together. Under way: 06:00 20, 08:00 104, 12:00 86, 17:00 92, 19:00 58, 22:00 20. 21 intervals end at 24:00 or later. Pairwise 3,365,715 against 5,190 sorted events (about 64,000 steps). Scheduled passenger trips only. Lesson family: sweep line over interval endpoints (event sorting, tie rules, maximum overlap); distinct from GTFS after-midnight handling, queueing and run-length encoding.",
+    "requiredMentions": [
+      "261,364",
+      "256,961",
+      "55,701",
+      "246,144",
+      "16,899",
+      "16,978",
+      "Museum of Making",
+      "Derwent Valley Mills",
+      "Joseph Wright",
+      "Bus Open Data Service",
+      "08:14",
+      "sweep line"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Derby: 261,364 usual residents; 256,961 in households; 4,403 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E06000015"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Derby and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E06000015,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Derby 55,701 students of 246,144 aged 5 and over (22.6 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E06000015,E92000001"
+      },
+      {
+        "claim": "Bus Open Data Service: what the service provides, free and without a licence, built by the Department for Transport.",
+        "url": "https://www.bus-data.dft.gov.uk/"
+      },
+      {
+        "claim": "Bus Open Data Service, GTFS timetable download for the East Midlands (feed version 20260921_024430).",
+        "url": "https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/east_midlands/"
+      },
+      {
+        "claim": "ONS Open Geography, Local Authority Districts December 2023 BGC: the Derby boundary.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_December_2023_Boundaries_UK_BGC/FeatureServer/0"
+      },
+      {
+        "claim": "Derby Museums, Museum of Making: 300-year history of making; widely regarded as the site of the world's first factory.",
+        "url": "https://derbymuseums.org/museum-of-making/"
+      },
+      {
+        "claim": "Derby Museums: the world's largest collection of works by Joseph Wright of Derby.",
+        "url": "https://derbymuseums.org/"
+      },
+      {
+        "claim": "Derwent Valley Mills World Heritage Site: inscribed in 2001; 24 km from Matlock Bath and Cromford almost to the centre of Derby.",
+        "url": "https://www.derwentvalleymills.org/discover/derwent-valley-mills-history/"
+      }
+    ],
+    "rejectedClaims": [
+      "Bus operator names and trip counts by operator: computed but not published on the page, to avoid implying any connection.",
+      "University of Derby and Rolls-Royce facts: no figures read from primary pages for this build, so none stated.",
+      "Live fleet size: the page counts scheduled passenger trips, not vehicles on the road.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Department for Transport, bus operators, Derby Museums, the Derwent Valley Mills partnership or the ONS."
+    ]
   }
 }
