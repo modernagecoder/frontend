@@ -221,6 +221,7 @@ const SLUGS = [
   'higher-maths-tuition-online',
   'advanced-higher-maths-tuition-online',
   'gcse-maths-and-numeracy-wales-help',
+  'ccea-gcse-maths-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -521,6 +522,7 @@ const LLMS_LABELS = {
   'higher-maths-tuition-online': 'Higher Maths tuition online',
   'advanced-higher-maths-tuition-online': 'Advanced Higher Maths tuition online',
   'gcse-maths-and-numeracy-wales-help': 'GCSE Mathematics and Numeracy help, Wales',
+  'ccea-gcse-maths-help': 'CCEA GCSE Maths help',
 };
 
 function wireLlms(slugs) {
