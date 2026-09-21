@@ -17136,5 +17136,79 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the University of Oxford, its School of Geography and the Environment or its Department of Computer Science."
     ]
+  },
+  "best-coding-class-in-bristol": {
+    "market": "Bristol",
+    "bodyClass": "cg-bri",
+    "pageType": "city",
+    "curriculumAuthority": "Bristol, Census 2021 via Nomis: TS001 Bristol local authority (E06000023) 472,465 usual residents, 457,848 in households, 14,617 in communal establishments (3.1 percent); TS007A 26,764 aged 5 to 9 (5.7 percent), 47,538 aged 20 to 24 (10.1 percent), 44,399 aged 25 to 29 (9.4 percent), 43,857 aged 30 to 34 (9.3 percent), against England 5.9, 6.0, 6.6 and 7.0 percent; TS068 108,835 schoolchildren and full-time students of 446,523 residents aged 5 and over, 24.4 percent, against 20.4 percent in England. ONS Census 2021 geographies: output areas of 40 to 250 households and 100 to 625 usual residents. University of Bristol facts, 2024/25: 31,132 students, 9,055 staff, 10,903 international students; founded 1876 as University College, Bristol; first higher education institution in England to admit women on an equal basis to men. Bristol Centre for Supercomputing: Isambard-AI became in 2025 the most powerful university-based supercomputer in the world and 11th fastest globally. Clifton Suspension Bridge Trust: designed by Isambard Kingdom Brunel, spans the Avon Gorge, opened 8 December 1864. Bristol City Council library finder: 26 libraries and the Lockleaze collection point (The Hub, Gainsborough Square).",
+    "localProject": "Who is nearest? Bristol City Council GIS layer ll_leisure_and_culture/0, 27 sites (26 libraries and the Lockleaze Collection Point), read 21 September 2026; ONS LAD December 2023 BGC boundary E06000023 (109.69 km2 on that file by our calculation). Discrete Voronoi, 50 m grid, 43,888 points, 26 libraries, 1,141,088 distance checks. Cells: Avonmouth 10.98 km2 (7 output areas), Sea Mills 7.39 (48), Fishponds 6.08 (70), Wick Road 5.90 (60), St George 5.83 (112, the most), St Pauls 2.33 (70), Central 2.16 (51). 25 m grid: maximum change 0.018 km2. Output areas: ONS OA December 2021 population-weighted centroids V4, 1,405 Bristol codes from Nomis TS001 TYPE150; counted as units, never summed as people. Farthest land point from any library 5,177 m (Avonmouth), ST 533 830. OA centre distance to nearest library: median 697 m, 90th percentile 1,286 m. With the Lockleaze collection point: Horfield 4.69 to 2.56, Fishponds 6.08 to 4.99, Lockleaze 3.58. Lesson family: Voronoi diagrams and nearest-site partitions; distinct from point-in-polygon, union-find, shortest paths and k-means.",
+    "requiredMentions": [
+      "472,465",
+      "457,848",
+      "14,617",
+      "108,835",
+      "446,523",
+      "31,132",
+      "Isambard-AI",
+      "8 December 1864",
+      "Lockleaze",
+      "Avonmouth Library",
+      "St George Library",
+      "Clifton Suspension Bridge"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Bristol: 472,465 usual residents; 457,848 in households; 14,617 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E06000023"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Bristol and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E06000023,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Bristol 108,835 students of 446,523 aged 5 and over (24.4 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E06000023,E92000001"
+      },
+      {
+        "claim": "Bristol City Council library finder: 26 libraries and the Lockleaze collection point.",
+        "url": "https://www.bristol.gov.uk/residents/libraries-and-archives/find-a-library/library-finder"
+      },
+      {
+        "claim": "Bristol City Council GIS, Libraries layer: site names and coordinates used for the Voronoi cells.",
+        "url": "https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_leisure_and_culture/MapServer/0"
+      },
+      {
+        "claim": "ONS Open Geography, Local Authority Districts December 2023 BGC: the Bristol boundary.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_December_2023_Boundaries_UK_BGC/FeatureServer/0"
+      },
+      {
+        "claim": "ONS Open Geography, Output Areas December 2021 population-weighted centroids V4.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/OA_December_2021_EW_PWC_V4/FeatureServer/0"
+      },
+      {
+        "claim": "ONS, Census 2021 geographies: output areas of 100 to 625 usual residents.",
+        "url": "https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeographies/census2021geographies"
+      },
+      {
+        "claim": "University of Bristol, facts: 31,132 students, 9,055 staff and 10,903 international students in 2024/25; founded 1876.",
+        "url": "https://www.bristol.ac.uk/university/facts/"
+      },
+      {
+        "claim": "University of Bristol, Bristol Centre for Supercomputing: Isambard-AI in 2025.",
+        "url": "https://www.bristol.ac.uk/research/centres/bristol-supercomputing/"
+      },
+      {
+        "claim": "Clifton Suspension Bridge Trust: Brunel, the Avon Gorge, opening on 8 December 1864.",
+        "url": "https://cliftonbridge.org.uk/history/"
+      }
+    ],
+    "rejectedClaims": [
+      "Isambard-AI funding figure: a pound amount, excluded by the one-currency rule and not needed.",
+      "Residents per library catchment: would require summing output-area counts, so the page counts output areas as units instead.",
+      "Walking or travel-time catchments: not computed; the page states that its distances are straight lines.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Bristol City Council, the University of Bristol, the ONS or the Clifton Suspension Bridge Trust."
+    ]
   }
 }
