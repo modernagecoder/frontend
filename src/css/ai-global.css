@@ -729,3 +729,4 @@
 .ag-root.ag-cus { --ag-accent: #4A3659; --ag-accent-soft: rgba(74,54,89,.09); }   /* Coding for university students, UK: a dusky academic violet from the solver (8.68:1 on every paper tint, dE 9.1 from the nearest used accent) */
 .ag-root.ag-dap { --ag-accent: #5D3432; --ag-accent-soft: rgba(93,52,50,.09); }   /* Coding before a degree apprenticeship: a brick red-brown from the solver (8.51:1 on every paper tint, dE 8.4 from the nearest used accent), practical and workmanlike */
 .ag-root.ag-cyt { --ag-accent: #325D36; --ag-accent-soft: rgba(50,93,54,.09); }   /* Cyber security for teens, UK: a deep defensive green from the solver (6.19:1 on every paper tint, dE 7.6 from the nearest used accent) */
+.ag-root.ag-jvu { --ag-accent: #87371D; --ag-accent-soft: rgba(135,55,29,.09); }   /* Java classes, UK: a roasted-coffee orange-brown from the solver (6.57:1 on every paper tint, dE 7.7 from the nearest used accent), a quiet nod to the language's cup */

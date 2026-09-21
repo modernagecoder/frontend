@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Java Classes in the UK | Live Online Java Course</title>
+  <meta name="description" content="Live Java classes in the UK for teens and adults: which A level boards let you sit programming in Java, the jump from GCSE Python, and OOP done properly.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/java-classes-uk">
+  <link rel="alternate" type="text/markdown" href="/src/pages/java-classes-uk.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#87371D">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/java-classes-uk">
+  <meta property="og:title" content="Java Classes in the UK | Live Online Java Course">
+  <meta property="og:description" content="No GCSE board in England or Wales runs its programming paper in Java. At A level, AQA, WJEC and Cambridge International all offer it. That jump happens at 16.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_GB">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Java Classes in the UK">
+  <meta name="twitter:description" content="Java classes for UK students and adults: the A level boards that accept Java, the crossing from Python, and object-oriented design. First class free.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="GB">
+  <meta name="geo.placename" content="United Kingdom">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-jvu .ag-hero h1 { letter-spacing: -0.028em; font-weight: 700; }
+.ag-root.ag-jvu .ag-capsule { border-left-width: 6px; border-radius: 4px; }
+.ag-root.ag-jvu .ag-section-head h2 { max-width: 33ch; }
+.ag-root.ag-jvu .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-jvu .ag-table th:first-child { width: 30%; }
+.ag-root.ag-jvu .ag-spec dt { letter-spacing: 0.086em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United Kingdom"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/java-classes-uk#page","url":"https://learn.modernagecoders.com/java-classes-uk","name":"Java Classes in the UK","description":"Live online Java classes for UK teenagers and adults, with a board-by-board map of where Java is an exam language at GCSE and A level.","inLanguage":"en-GB","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the UK","item":"https://learn.modernagecoders.com/coding-classes-in-united-kingdom"},{"@type":"ListItem","position":4,"name":"Java classes","item":"https://learn.modernagecoders.com/java-classes-uk"}]},{"@type":"Course","name":"Java Classes in the UK","description":"Live online Java for UK learners: syntax and types, object-oriented design, collections, data structures and algorithms, JavaFX and APIs, and console-mode exam practice where a board requires it.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/java-classes-uk"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/java-classes-uk"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/java-classes-uk"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I take GCSE Computer Science in Java?","acceptedAnswer":{"@type":"Answer","text":"Not for the programming paper at AQA, Edexcel, Eduqas or WJEC, which use C#, Python or VB.NET. OCR's GCSE lets written algorithm answers use the high-level language a student is familiar with, which can be Java."}},{"@type":"Question","name":"Which A level boards support Java?","acceptedAnswer":{"@type":"Answer","text":"AQA supports C#, Java, Python and VB.Net; WJEC's Unit 2 and the Eduqas AS on-screen component support Visual Basic.NET, Python or Java; Cambridge International 9618 Paper 4 uses Java, Visual Basic or Python in console mode."}},{"@type":"Question","name":"Who decides which language my child uses?","acceptedAnswer":{"@type":"Answer","text":"The school. The board sets the permitted list and the centre chooses from it, usually at the start of the course."}},{"@type":"Question","name":"My child learned Python for GCSE. Will Java be hard?","acceptedAnswer":{"@type":"Answer","text":"The first few weeks feel strict, mostly because of types, classes and braces. After that, students who already think in loops and conditions usually adapt well."}},{"@type":"Question","name":"What is console mode?","acceptedAnswer":{"@type":"Answer","text":"Programs that read and print plain text in a terminal window, with no graphical interface. Cambridge requires it for Paper 4, and we practise it deliberately."}},{"@type":"Question","name":"Do you help with the A level project?","acceptedAnswer":{"@type":"Answer","text":"No. We never write, debug or review NEA projects or any assessed practical work. Lessons use separate problems."}},{"@type":"Question","name":"Is Java still worth learning?","acceptedAnswer":{"@type":"Answer","text":"Yes, for object-oriented design, for back-end and enterprise software, and as a foundation for Kotlin and Android. It also appears on several UK A level syllabuses."}},{"@type":"Question","name":"Is there a Java course for adults?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our adult Java course runs from core Java to Spring Boot, for university students, graduates and working professionals."}},{"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"The first class is free. After that, USD 100 a month for a group place or USD 150 a month one to one, with no enrolment fee."}},{"@type":"Question","name":"When are lessons?","acceptedAnswer":{"@type":"Answer","text":"After school, evenings or weekends in UK time, agreed in the free class. Our teachers are four and a half hours ahead of the UK in summer and five and a half in winter."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United Kingdom"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/java-classes-uk","availableLanguage":["en"]}}
+  </script>
+</head>
+
+<body class="ag-root ag-jvu">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">UK</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#boards">Java in UK exams</a></li>
+      <li><a href="#crossing">From Python to Java</a></li>
+      <li><a href="#objects">Objects, properly</a></li>
+      <li><a href="#adults">Java for adults</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-kingdom">Coding classes in the UK</a> / Java classes
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">UK &middot; Teens and adults &middot; Live online</p>
+        <h1>Java classes in the UK</h1>
+        <p class="ag-lede">In UK schools, Java arrives late. No GCSE board in England or Wales runs its programming paper in Java: AQA's GCSE works in C#, Python 3 or VB.NET, and Edexcel, Eduqas and WJEC all set their programming work in Python. OCR is the partial exception, because its GCSE lets written algorithm answers use "the high-level programming language they are familiar with". At A level the picture turns round. AQA supports C#, Java, Python and VB.Net for its on-screen paper; WJEC's Unit 2 in Wales and the Eduqas AS in England both offer Java alongside Python and Visual Basic.NET; and Cambridge International's 9618 Paper 4 is sat in Java, Visual Basic or Python, all in console mode. So a student who learned Python for GCSE may meet Java at 16, sometimes as the language of an exam worth a quarter of the A level. This page is built around that crossing, and also serves adults who want Java for university or work.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a href="#boards" class="ag-btn ag-btn--ghost">The board-by-board map</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20Java%20class%20in%20the%20UK." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jvu'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Java from first class to object-oriented design</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>GCSE boards using Java</dt><dd>None for the programming paper</dd>
+          <dt>OCR GCSE</dt><dd>Written answers in a familiar language</dd>
+          <dt>AQA A level</dt><dd>C#, Java, Python or VB.Net</dd>
+          <dt>WJEC and Eduqas AS</dt><dd>Python, VB.NET or Java on screen</dd>
+          <dt>Cambridge 9618 Paper 4</dt><dd>Java, VB or Python, console mode</dd>
+          <dt>For</dt><dd>Teens 13 to 18 and adults</dd>
+          <dt>Group</dt><dd>Five to ten, or one to one</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Java is rarely a GCSE exam language in the UK: AQA's GCSE uses C#, Python 3 or VB.NET, while Edexcel, Eduqas and WJEC use Python, and only OCR accepts written answers in whichever high-level language a student is familiar with. At A level, Java becomes an option: AQA supports C#, Java, Python and VB.Net; WJEC's AS Unit 2 and the Eduqas AS on-screen component support Python, Visual Basic.NET or Java; and Cambridge International AS and A Level 9618 requires Java, Visual Basic or Python, in console mode, for Paper 4, worth 25% of the A Level. Some students therefore switch from Python to Java at 16. Modern Age Coders teaches Java live and online to UK teenagers and adults, from first programs to object-oriented design, collections and algorithms, with console-mode practice for students on those boards. We never work on NEA projects or assessed code. The first class is free; afterwards a group place is USD 100 a month and one-to-one lessons USD 150 a month.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three ways into Java</h2>
+      <p class="ag-lede">Java for teenagers, Java for adults, and the Cambridge International A Level course. Each card opens the full syllabus.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/java-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/java-teens.webp" alt="Java for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JVU / 01</p>
+          <h3>Java for Teens</h3>
+          <p>From first programs to object-oriented design, JavaFX, data structures and a capstone, for ages 13 to 18.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-java-programming-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/java-college.webp" alt="Java Course for College course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JVU / 02</p>
+          <h3>Java for Adults</h3>
+          <p>Core Java to Spring Boot, for university students, graduates and working professionals.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/cambridge-a-level-computer-science-9618-course">
+        <div class="ag-pick-shot"><img src="/images/a-level-computer-science.webp" alt="Cambridge AS and A Level Computer Science 9618 Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JVU / 03</p>
+          <h3>Cambridge 9618 Computer Science</h3>
+          <p>All four papers, including the practical Paper 4 that Cambridge sits in Java, Visual Basic or Python.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="boards">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Java in UK exams</p><h2>Which UK exams let you answer in Java</h2><p class="ag-lede">Read from each board's own specification. The languages are the ones a centre may choose for the programming paper or practical tasks; schools pick one at the start of the course.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Programming languages by qualification, as each board publishes them</caption><thead><tr><th scope="col">Qualification</th><th scope="col">Languages for the programming paper or tasks</th><th scope="col">Java?</th></tr></thead><tbody><tr><td>AQA GCSE (8525)</td><td>C#, Python 3 or VB.NET</td><td>No</td></tr><tr><td>Edexcel GCSE (1CP2)</td><td>Python 3, on screen</td><td>No</td></tr><tr><td>Eduqas GCSE</td><td>Python 3, on screen</td><td>No</td></tr><tr><td>WJEC GCSE (Wales)</td><td>Python, with the IDLE editor and Tkinter</td><td>No</td></tr><tr><td>OCR GCSE (J277)</td><td>Exam Reference Language or a familiar high-level language, handwritten</td><td>Possible, on paper</td></tr><tr><td>AQA A level (7517)</td><td>C#, Java, Python or VB.Net</td><td>Yes</td></tr><tr><td>WJEC AS and A level (Wales), Unit 2</td><td>Visual Basic.NET, Python or Java, on screen</td><td>Yes</td></tr><tr><td>Eduqas AS (England), Component 2</td><td>Python, Visual Basic.NET or Java, on screen</td><td>Yes</td></tr><tr><td>Cambridge International 9618, Paper 4</td><td>Java, Visual Basic or Python, console mode</td><td>Yes</td></tr><tr><td>OCR A level (H446), project</td><td>Any suitable language</td><td>If chosen</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The GCSE side</h3><p>AQA's GCSE specification says that "In paper 1 students will be required to design, write, test and refine program code in one of the three languages above", and the three are C#, Python and VB.NET. Edexcel's says students "answer the questions onscreen using Python 3".</p>
+<p>OCR is different in kind. Its exam papers present code in the OCR Exam Reference Language, and Section B write-and-refine answers may use either that language or "the high-level programming language they are familiar with". A Java student can answer in Java, by hand.</p></div><div><h3>The A level side</h3><p>AQA lists C#, Java, Python and VB.Net for A level. WJEC says it "will support the following programming languages" for Unit 2, naming Visual Basic.NET, Python and Java, and asks centres to declare their choice of language and editor at the start of the course.</p>
+<p>Cambridge International is the strictest: for Paper 4, "Candidates will be required to use either Java (console mode), Visual Basic* (console mode) or Python (console mode) programming languages." Paper 4 is 25% of the A Level.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 21 September 2026 from each board's PDF: <a class="ag-inline-link" href="https://www.aqa.org.uk/subjects/computer-science/gcse/computer-science-8525" rel="noopener" target="_blank">AQA 8525</a>; <a class="ag-inline-link" href="https://www.aqa.org.uk/subjects/computer-science/a-level/computer-science-7517" rel="noopener" target="_blank">AQA 7517</a>; <a class="ag-inline-link" href="https://www.ocr.org.uk/qualifications/gcse/computer-science-j277-from-2020/" rel="noopener" target="_blank">OCR J277</a>; <a class="ag-inline-link" href="https://www.ocr.org.uk/qualifications/as-and-a-level/computer-science-h046-h446-from-2015/" rel="noopener" target="_blank">OCR H446</a>; <a class="ag-inline-link" href="https://www.eduqas.co.uk/qualifications/computer-science-asa-level/" rel="noopener" target="_blank">Eduqas AS and A level</a>; <a class="ag-inline-link" href="https://www.wjec.co.uk/media/wl4kj5l1/wjec-gce-computer-science-spec-from-2015.pdf" rel="noopener" target="_blank">WJEC GCE Computer Science</a>; <a class="ag-inline-link" href="https://www.cambridgeinternational.org/Images/721397-2027-2029-syllabus.pdf" rel="noopener" target="_blank">Cambridge International 9618, 2027 to 2029</a>. Check your own school's choice; the board permits, the centre decides.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="crossing">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">From Python to Java</p><h2>The jump at 16: what changes when a Python student meets Java</h2><p class="ag-lede">Most of the thinking carries over. What changes is how much the language makes you say out loud.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Python habits and their Java equivalents</caption><thead><tr><th scope="col">In Python you could</th><th scope="col">In Java you must</th><th scope="col">Why it helps in the end</th></tr></thead><tbody><tr><td>Create a variable by assigning to it</td><td>Declare its type first, such as int, double or String</td><td>Type errors are caught before the program runs</td></tr><tr><td>Write a script at the top level</td><td>Put everything inside a class, starting from main</td><td>Structure is visible from the first line</td></tr><tr><td>Use indentation to mark blocks</td><td>Use braces and semicolons</td><td>Layout mistakes stop being logic mistakes</td></tr><tr><td>Grow a list freely</td><td>Choose between a fixed array and an ArrayList</td><td>You learn what a data structure costs</td></tr><tr><td>Call input() and print()</td><td>Use a Scanner and System.out, in a console</td><td>Exactly what console-mode exams expect</td></tr><tr><td>Ignore objects for a long time</td><td>Meet classes, constructors and methods early</td><td>Object-oriented design stops being abstract</td></tr></tbody></table></div>
+    <p class="ag-mt-40">The first month is usually the hardest, and mostly because of ceremony: a program that printed a line in Python now needs a class, a method signature and a compile step. After that, students who already think in loops and conditions tend to find Java clarifying. Types force decisions that Python let them postpone, and those decisions are exactly what A level questions on data types, records and classes ask about.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Console mode, deliberately</h3><p>Cambridge requires console mode for Paper 4, and on-screen A level tasks elsewhere are text-based too. We practise reading input, printing output and handling files in a plain console, with no graphical framework to lean on.</p>
+<p>Graphical Java, through JavaFX, comes later and separately, for projects rather than exams.</p></div><div><h3>Assessed work stays yours</h3><p>We never write, debug or review NEA projects, WJEC or Eduqas practical tasks, or anything submitted for assessment. Practice uses separate problems.</p>
+<p>Our pages on <a class="ag-inline-link" href="/aqa-a-level-computer-science-7517-help">AQA A level</a>, <a class="ag-inline-link" href="/ocr-a-level-computer-science-h446-help">OCR A level</a> and the <a class="ag-inline-link" href="/a-level-computer-science-nea-help">A level NEA</a> set out those lines board by board.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="objects">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Objects, properly</p><h2>Object-oriented design is where Java earns its place</h2><p class="ag-lede">Java was designed around classes and objects, which makes it a natural language for learning them, and A level specifications expect students to understand them.</p></div>
+    <div class="ag-grid-3"><div><h3>Classes and objects</h3><p>Designing a class, choosing its fields, writing constructors and methods, and creating objects from it.</p></div><div><h3>Encapsulation</h3><p>Private fields with public methods, and why hiding data makes programs easier to change safely.</p></div><div><h3>Inheritance and polymorphism</h3><p>Building one class from another, overriding methods, and treating related objects through a shared type.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>How our Java for Teens course is sequenced</caption><thead><tr><th scope="col">Months</th><th scope="col">Focus</th></tr></thead><tbody><tr><td>1 to 3</td><td>First programs, arrays, methods, strings and files, then object-oriented programming</td></tr><tr><td>4 to 6</td><td>Collections and modern Java, desktop apps with JavaFX, games and Minecraft modding</td></tr><tr><td>7 to 8</td><td>Data structures built from scratch, then graphs, recursion and threads</td></tr><tr><td>9 to 10</td><td>APIs and AI, code quality, a capstone project and a demo day</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Students preparing for an A level do not need every month of that course, and the free first class decides which parts matter. The same objects-first approach runs through our <a class="ag-inline-link" href="/understand-the-code-dont-copy-paste-uk">understand the code</a> teaching: every class a student writes, they should be able to explain.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="adults">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Java for adults</p><h2>Java for university, work and career change</h2><p class="ag-lede">Outside school exams, Java is a mainstream language for server-side software, Android's history, and large organisations' systems.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Adult routes into Java</caption><thead><tr><th scope="col">You are</th><th scope="col">A sensible route</th></tr></thead><tbody><tr><td>A university student meeting Java in a module</td><td>Core Java alongside the module, with separate practice problems</td></tr><tr><td>A graduate preparing for technical interviews</td><td>Java plus data structures and algorithms</td></tr><tr><td>A professional moving into back-end development</td><td>Core Java, then Spring Boot and databases</td></tr><tr><td>A Python programmer adding a second language</td><td>The crossing above, at adult pace</td></tr><tr><td>A career changer starting from zero</td><td>Programming fundamentals first, in Java or Python, chosen in the free class</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the adult course covers</h3><p>Our Java course for college students and professionals runs from core Java to Spring Boot: the language, object-oriented design, collections, testing, and building web services.</p>
+<p>Version control with Git runs alongside, because nobody writes Java at work alone.</p></div><div><h3>Kotlin, and where it fits</h3><p>Modern Android development leans on Kotlin, which runs on the same platform as Java. Our app development course teaches Flutter and native routes including Kotlin; Java is a strong foundation for either.</p>
+<p>For degree apprenticeships, where software roles are common, see <a class="ag-inline-link" href="/coding-before-a-degree-apprenticeship-uk">coding before a degree apprenticeship</a>.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Stages</p>
+      <h2>Four stages in Java</h2>
+      <p class="ag-lede">Placement follows what you can already do, in any language.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From first class to confident object-oriented Java</caption><thead><tr><th scope="col">Stage</th><th scope="col">What should be true</th></tr></thead><tbody><tr><td>1. Syntax and types</td><td class="ag-num">You write, compile and run console programs with the right types, without looking everything up</td></tr><tr><td>2. Methods and arrays</td><td class="ag-num">You break programs into methods and work with arrays, strings and files</td></tr><tr><td>3. Objects</td><td class="ag-num">You design classes with encapsulation and use inheritance where it genuinely helps</td></tr><tr><td>4. Structures and projects</td><td class="ag-num">You choose collections sensibly, implement standard algorithms and finish a project</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Stage three is the heart of it</h3><p>Objects are where Java differs most from a first Python course.</p>
+<p>The wider sequence of subjects is on the <a class="ag-inline-link" href="/coding-roadmap">coding roadmap</a>.</p></div><div><h3>Exam students</h3><p>For A level candidates, console-mode practice runs through every stage.</p>
+<p>Nothing in a lesson overlaps with a project you will submit.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses around Java</h2>
+      <p class="ag-lede">Java itself, the exam and interview work around it, and where it leads.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Java itself</h3>
+        <span class="ag-band-sub">By age</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JVU / CORE / 01</p>
+          <h4>Java for Teens</h4>
+          <p>Ages 13 to 18, from first programs to a capstone.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JVU / CORE / 02</p>
+          <h4>Java for Adults</h4>
+          <p>Core Java to Spring Boot, for 18 and over.</p>
+          <a class="ag-course-link" href="/courses/complete-java-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JVU / CORE / 03</p>
+          <h4>Python for Teens</h4>
+          <p>For students who need the GCSE language first.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Exams and interviews</h3>
+        <span class="ag-band-sub">Where Java is assessed</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JVU / EXAM / 01</p>
+          <h4>Cambridge 9618</h4>
+          <p>All four papers, including Paper 4.</p>
+          <a class="ag-course-link" href="/courses/cambridge-a-level-computer-science-9618-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JVU / EXAM / 02</p>
+          <h4>Problem Solving and DSA for Teens</h4>
+          <p>Algorithms at A level depth.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JVU / EXAM / 03</p>
+          <h4>Data Structures and Algorithms</h4>
+          <p>Interview-ready, for adults.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Where Java leads</h3>
+        <span class="ag-band-sub">Beyond the language</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JVU / NEXT / 01</p>
+          <h4>App Development</h4>
+          <p>Flutter, iOS and Android, including Kotlin.</p>
+          <a class="ag-course-link" href="/courses/complete-app-development-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JVU / NEXT / 02</p>
+          <h4>MySQL Databases</h4>
+          <p>The data layer behind most Java services.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JVU / NEXT / 03</p>
+          <h4>Git and GitHub</h4>
+          <p>How Java teams share and review code.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-college-students">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live Java lessons on UK time</h2>
+      <p class="ag-lede">Our teachers are based in India, which does not change its clocks, so the UK is four and a half hours behind India in British Summer Time and five and a half in winter. After-school, evening and weekend slots in UK time all work.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">For sixth formers and younger students.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evening</p><p class="ag-slot-l">For adults after work.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Longer sessions for project work.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A free first class</h3><p>We check what you know, in any language, and where Java fits for you.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten learners at the same level and age band.</p></div>
+      <div><h3>One to one</h3><p>For exam timetables or a faster pace.</p></div>
+      <div><h3>Console first</h3><p>Plain console programs before any graphical framework.</p></div>
+      <div><h3>Code read closely</h3><p>A teacher reads your Java and explains what to change and why.</p></div>
+      <div><h3>No assessed work</h3><p>NEA and practical tasks for exam boards are never touched.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students have built</h2>
+      <p class="ag-lede">Four projects finished by our students. Many more, across all ages and languages, are in <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for Java classes</h2>
+      <p class="ag-lede">A single monthly fee in US dollars, identical outside India, with no enrolment fee and no commitment beyond the month you are in.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>Your current level, in any language</li><li>A route into Java that fits your goal</li><li>No payment details needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten learners at one level</li><li>The same teacher each week</li><li>Console practice and projects</li><li>Stop at the end of any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher for you alone</li><li>Paced around your exams or work</li><li>Suits a board-specific focus</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Straight from Google: reviews by our students and their families, unedited.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about Java</p>
+      <h2>What UK students and adults ask about Java</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Can I take GCSE Computer Science in Java?</h3>
+        <p>Not for the programming paper at AQA, Edexcel, Eduqas or WJEC, which use C#, Python or VB.NET. OCR's GCSE lets written algorithm answers use the high-level language a student is familiar with, which can be Java.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which A level boards support Java?</h3>
+        <p>AQA supports C#, Java, Python and VB.Net; WJEC's Unit 2 and the Eduqas AS on-screen component support Visual Basic.NET, Python or Java; Cambridge International 9618 Paper 4 uses Java, Visual Basic or Python in console mode.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Who decides which language my child uses?</h3>
+        <p>The school. The board sets the permitted list and the centre chooses from it, usually at the start of the course.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>My child learned Python for GCSE. Will Java be hard?</h3>
+        <p>The first few weeks feel strict, mostly because of types, classes and braces. After that, students who already think in loops and conditions usually adapt well.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is console mode?</h3>
+        <p>Programs that read and print plain text in a terminal window, with no graphical interface. Cambridge requires it for Paper 4, and we practise it deliberately.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you help with the A level project?</h3>
+        <p>No. We never write, debug or review NEA projects or any assessed practical work. Lessons use separate problems.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Java still worth learning?</h3>
+        <p>Yes, for object-oriented design, for back-end and enterprise software, and as a foundation for Kotlin and Android. It also appears on several UK A level syllabuses.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is there a Java course for adults?</h3>
+        <p>Yes. Our adult Java course runs from core Java to Spring Boot, for university students, graduates and working professionals.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does it cost?</h3>
+        <p>The first class is free. After that, USD 100 a month for a group place or USD 150 a month one to one, with no enrolment fee.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are lessons?</h3>
+        <p>After school, evenings or weekends in UK time, agreed in the free class. Our teachers are four and a half hours ahead of the UK in summer and five and a half in winter.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">The exam boards, the other big languages, and the projects around them.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/aqa-a-level-computer-science-7517-help">AQA A level Computer Science</a></h3><p>The skeleton program, in whichever language your school chose.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ocr-a-level-computer-science-h446-help">OCR A level Computer Science</a></h3><p>Where nobody types code in the exam.</p></div>
+      <div><h3><a class="ag-inline-link" href="/best-python-classes-online-uk">Python classes online</a></h3><p>The GCSE language, taught properly.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-university-students-uk">Coding for university students</a></h3><p>Java and more, alongside a degree.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-before-a-degree-apprenticeship-uk">Coding before a degree apprenticeship</a></h3><p>The software route into work.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-kingdom">Coding classes in the UK</a></h3><p>Every UK page.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first Java class</h2>
+        <p class="ag-lede">Leave a number and we will call at a UK time that suits you. Tell us your board, or your goal if you are an adult; the class checks your level and ends with a route through Java.</p>
+        <p class="ag-mt-40">Prefer to read first? Each <a class="ag-inline-link" href="/courses">course page</a> sets out its syllabus, <a class="ag-inline-link" href="/how-we-teach">how we teach</a> covers the method, and <a class="ag-inline-link" href="/student-labs">student labs</a> collects finished work.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20Java%20class%20in%20the%20UK." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jvu',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp from a UK number usually gets the quickest reply. The team is in India, so our number starts +91, and there is no UK office.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_jvu(event)" novalidate>
+          <div class="ag-field">
+            <label for="gb-name">Your name</label>
+            <input id="gb-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-phone">Phone or WhatsApp, United Kingdom +44</label>
+            <input id="gb-phone" type="tel" name="phone" placeholder="7700 900123" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-age">Learner age group</label>
+            <select id="gb-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">One call, free, no card.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Java</h4><ul><li><a href="/aqa-a-level-computer-science-7517-help">AQA A level</a></li><li><a href="/ocr-a-level-computer-science-h446-help">OCR A level</a></li><li><a href="/a-level-computer-science-nea-help">A level NEA</a></li><li><a href="/coding-roadmap">The coding roadmap</a></li></ul></div>
+      <div><h4>UK</h4><ul><li><a href="/coding-classes-in-united-kingdom">UK coding classes</a></li><li><a href="/best-python-classes-online-uk">Python classes online</a></li><li><a href="/coding-for-university-students-uk">University students</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Java arrives at 16; arrive ready for it</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitLead_jvu = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0044') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('44') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United Kingdom phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+44', countryIso: 'GB', countryName: 'United Kingdom',
+      source: 'java-classes-uk-inline', meta: { name: name, age: age, page: 'java-classes-uk' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+</body>
+</html>
