@@ -223,6 +223,7 @@ const SLUGS = [
   'gcse-maths-and-numeracy-wales-help',
   'ccea-gcse-maths-help',
   'transfer-test-maths-practice-northern-ireland',
+  'after-code-club-next-step-coding-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -525,6 +526,7 @@ const LLMS_LABELS = {
   'gcse-maths-and-numeracy-wales-help': 'GCSE Mathematics and Numeracy help, Wales',
   'ccea-gcse-maths-help': 'CCEA GCSE Maths help',
   'transfer-test-maths-practice-northern-ireland': 'Transfer test maths practice, Northern Ireland',
+  'after-code-club-next-step-coding-uk': 'After Code Club: the next step',
 };
 
 function wireLlms(slugs) {
