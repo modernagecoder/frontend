@@ -16841,5 +16841,59 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Department for Transport, Coventry City Council, any bus operator or the Transport Museum."
     ]
+  },
+  "best-coding-class-in-leeds": {
+    "market": "Leeds",
+    "bodyClass": "cg-lds",
+    "pageType": "city",
+    "curriculumAuthority": "Leeds, Census 2021 via Nomis: TS001 Leeds local authority (E08000035) 811,956 usual residents, 790,515 in households, 21,441 in communal establishments; TS007A 70,459 aged 20 to 24, 8.7 percent, against 6.0 percent in England (band total 811,952, never summed on the page); TS068 184,538 schoolchildren and full-time students of 765,154 residents aged 5 and over, 24.1 percent, against 20.4 percent in England. University of Leeds about page: established in 1904, part of the Russell Group, more than 37,000 students, LS2 9JT. Canal & River Trust: the Leeds & Liverpool Canal spans the North West and Yorkshire regions, offering 127 miles of walking, boating and wildlife watching. Data Mill North dataset 2rlld, Leeds city centre footfall data, Leeds City Council, Open Government Licence v3, maintained by City Centre Management; the notes name eight cameras (Albion Street at Bond Street, Albion Street at McDonalds, Briggate at M&S, Briggate at Swan Street, Commercial Street at Sharps, Headrow at Broadgate, Headrow at Lands Lane, Park Row) and give older names in brackets.",
+    "localProject": "A sample fair to rows is fair to reality only once each row is one real thing. From every Data Mill North resource named weekly in the Leeds footfall dataset, read 21 September 2026: 656,544 rows; 588,840 unique (camera, date, hour) keys; 157 weeks published twice as Weekly Data and Revised Weekly Data, 67,704 duplicate rows, 3 with conflicting values; seven files from 17 April to 4 June 2023 date rows as 29 May 2023 instead of 29-May-23, 9,408 rows a strict parser drops; 13 camera names, the 8 current plus Albion Street South, Briggate, Briggate at McDonalds, Dortmund Square and Headrow from June 2020 to June 2023, with Dortmund Square equal to Headrow at Broadgate in 22,124 of 26,376 shared hours and Headrow equal to Headrow at Lands Lane in 21,653. Means per camera-hour: 817.6 all rows, 833.9 unique; first 1,000 rows 134.1 (six camera names, 1 to 7 June 2020), last 1,000 rows 993.2 (final week, ending 5 July 2026); reservoir (Algorithm R, k 1,000, five seeds) raw 796.5 to 828.6, deduplicated 784.2 to 848.0; 2021 share 21 percent of raw rows, 19.3 percent of unique hours; raw reservoirs reproduce the raw mix. Lesson family: reservoir sampling and defining the sampling unit.",
+    "requiredMentions": [
+      "811,956",
+      "790,515",
+      "21,441",
+      "70,459",
+      "184,538",
+      "765,154",
+      "656,544",
+      "588,840",
+      "67,704",
+      "Dortmund Square",
+      "LS2 9JT",
+      "127 miles"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Leeds: 811,956 usual residents; 790,515 in households; 21,441 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E08000035&measures=20100"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Leeds 70,459 aged 20 to 24 (8.7 percent); England 6.0 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E08000035,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Leeds 184,538 students of 765,154 aged 5 and over (24.1 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E08000035,E92000001"
+      },
+      {
+        "claim": "Data Mill North, Leeds city centre footfall data (Leeds City Council, OGL v3): cameras, name changes, weekly resources.",
+        "url": "https://datamillnorth.org/dataset/2rlld"
+      },
+      {
+        "claim": "University of Leeds about page: established 1904, Russell Group, more than 37,000 students, LS2 9JT.",
+        "url": "https://www.leeds.ac.uk/about"
+      },
+      {
+        "claim": "Canal & River Trust, Leeds & Liverpool Canal: 127 miles.",
+        "url": "https://canalrivertrust.org.uk/enjoy-the-waterways/canal-and-river-network/leeds-and-liverpool-canal"
+      }
+    ],
+    "rejectedClaims": [
+      "Leeds Kirkgate Market facts: the council market page returned 404, so none are used.",
+      "That 588,840 is a perfect count of distinct physical camera-hours: two former camera names largely repeat current cameras, and resolving them needs the council's mapping, as the page says.",
+      "Any reason for the doubled weeks: the dataset does not explain the revised files, so no reason is given.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Leeds City Council, Data Mill North, the University of Leeds, the Canal & River Trust or businesses named in camera locations."
+    ]
   }
 }

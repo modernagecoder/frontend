@@ -135,7 +135,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 83 | build-real-ai-projects-uk (rap, #A51D75) | language and track door (UK) | 3,377 | 2.1% vs full-stack-software-development-course-uk | the first question is where the data came from, the last is how you know it works (TDM exception, OGL, Inspect) | data licensing and evaluation treated as the two halves of a real AI project | d569e455 |
 | 84 | ai-and-python-academy-for-girls-uk (agu, #591782) | language and track door (UK) | 3,105 | 3.1% vs full-stack-software-development-course-uk | girls who take computer science do well; most never take it (6% vs 20%; 35.7% vs 27.8% top grades) | participation data read as a starting-and-persisting problem, not an ability problem | 67c10e99 |
 | 85 | best-coding-class-in-manchester (mcr, #674979) | city (UK, Phase 4) | 3,786 | 2.2% vs coding-classes-in-county-wexford | correlate the changes, not the levels (River Medlock, two EA gauges, 45 to 60 minute lag) | lagged cross-correlation and differencing to remove shared drift | d9118cb8 |
-| 86 | best-coding-class-in-coventry (cov, #3E381E) | city (UK, Phase 4) | 3,592 | 1% vs best-coding-class-in-limerick | a threshold that chains (union-find on 1,570 NaPTAN stops; 85 to 1,154 between 200 m and 300 m) | union-find and single-linkage chaining | (this commit) |
+| 86 | best-coding-class-in-coventry (cov, #3E381E) | city (UK, Phase 4) | 3,592 | 1% vs best-coding-class-in-limerick | a threshold that chains (union-find on 1,570 NaPTAN stops; 85 to 1,154 between 200 m and 300 m) | union-find and single-linkage chaining | 276db626 |
+| 87 | best-coding-class-in-leeds (lds, #325343) | city (UK, Phase 4) | 3,637 | 1.2% vs best-coding-class-in-coventry | a sample fair to rows is fair to reality only once each row is one real thing (Leeds footfall; 157 weeks published twice) | reservoir sampling and defining the sampling unit | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
