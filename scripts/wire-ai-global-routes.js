@@ -212,6 +212,7 @@ const SLUGS = [
   'national-5-computing-science-help',
   'higher-computing-science-help',
   'advanced-higher-computing-science-project-help',
+  'wjec-gcse-computer-science-help-wales',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -503,6 +504,7 @@ const LLMS_LABELS = {
   'national-5-computing-science-help': 'National 5 Computing Science help',
   'higher-computing-science-help': 'Higher Computing Science help',
   'advanced-higher-computing-science-project-help': 'Advanced Higher Computing Science project help',
+  'wjec-gcse-computer-science-help-wales': 'WJEC GCSE Computer Science help',
 };
 
 function wireLlms(slugs) {
