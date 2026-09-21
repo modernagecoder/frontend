@@ -17210,5 +17210,67 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Bristol City Council, the University of Bristol, the ONS or the Clifton Suspension Bridge Trust."
     ]
+  },
+  "best-coding-class-in-nottingham": {
+    "market": "Nottingham",
+    "bodyClass": "cg-ngm",
+    "pageType": "city",
+    "curriculumAuthority": "Nottingham, Census 2021 via Nomis: TS001 Nottingham local authority (E06000018) 323,632 usual residents, 301,065 in households, 22,567 in communal establishments (7.0 percent); TS007A 31,692 aged 15 to 19 (9.8 percent), 43,635 aged 20 to 24 (13.5 percent), 24,275 aged 25 to 29 (7.5 percent), against England 5.7, 6.0 and 6.6 percent; TS068 102,350 schoolchildren and full-time students of 305,813 residents aged 5 and over, 33.5 percent, against 20.4 percent in England. Green's Windmill and Science Centre, About George Green: 14 months at school, left at ten; 1828 greatest work; Caius College, Cambridge, five years later at forty, then a Fellow; died 1841 aged 47; buried at St Stephen's; memorial plaque in Westminster Abbey in 1993; Bromley House Library his gateway to the academic world; the mill on Windmill Lane. Nottingham UNESCO City of Literature: permanent designation as a UNESCO Creative City.",
+    "localProject": "A rubber band round 50 tram stops. NaPTAN national area 940, ATCO prefix 9400ZZNO, StopType MET, status active: 50 NET stops (Station Street inactive), read 21 September 2026, British National Grid metres. Monotone chain hull: 8 corners (Toton Lane, Clifton South, Holy Trinity, Ruddington Lane, Nottingham Station, Lace Market, Butler's Hill, Hucknall), 90 pops; gift wrapping: same 8 corners, 392 orientation tests. Area 67.94 km2, perimeter 37.05 km. Single removals: Toton Lane 5.78 km2 (8.5 percent), Hucknall 5.64 (8.3), Lace Market 1.08 (1.6), Butler's Hill 0.54 (0.8), Clifton South 0.48 (0.7), Holy Trinity 0.44 (0.7), Ruddington Lane 0.43 (0.6), Nottingham Station 0.26 (0.4); not additive: removing Toton Lane and Hucknall together loses 11.01 km2 (16.2 percent) and makes Inham Road a corner. Phoenix Park, a destination on NET timetables, lies inside the hull. ONS LAD December 2023 BGC boundary: 15 of 50 stops outside; 74.0 percent of the hull inside (50 m grid). Lesson family: convex hull (orientation test, monotone chain, gift wrapping, collinear handling, sensitivity to extreme points); distinct from Voronoi, point-in-polygon and Monte Carlo coverage.",
+    "requiredMentions": [
+      "323,632",
+      "301,065",
+      "22,567",
+      "43,635",
+      "102,350",
+      "305,813",
+      "George Green",
+      "Windmill Lane",
+      "Toton Lane",
+      "Hucknall",
+      "Clifton South",
+      "Caius"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Nottingham: 323,632 usual residents; 301,065 in households; 22,567 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E06000018"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Nottingham and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E06000018,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Nottingham 102,350 students of 305,813 aged 5 and over (33.5 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E06000018,E92000001"
+      },
+      {
+        "claim": "Department for Transport, NaPTAN access nodes for national area 940: 50 active NET stops, Station Street inactive.",
+        "url": "https://naptan.api.dft.gov.uk/v1/access-nodes?dataFormat=csv&atcoAreaCodes=940"
+      },
+      {
+        "claim": "Nottingham Express Transit, timetables: trams towards Hucknall and Phoenix Park, and towards Toton Lane and Clifton South.",
+        "url": "https://www.thetram.net/timetables"
+      },
+      {
+        "claim": "ONS Open Geography, Local Authority Districts December 2023 BGC: the Nottingham boundary.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_December_2023_Boundaries_UK_BGC/FeatureServer/0"
+      },
+      {
+        "claim": "Green's Windmill and Science Centre, About George Green: schooling, 1828, Caius College, 1841, Westminster Abbey plaque.",
+        "url": "https://www.greensmill.org.uk/about/about-george-green/"
+      },
+      {
+        "claim": "Nottingham UNESCO City of Literature, About: permanent designation as a UNESCO Creative City.",
+        "url": "https://nottinghamcityofliterature.com/about/"
+      }
+    ],
+    "rejectedClaims": [
+      "University of Nottingham and Nottingham Trent University student numbers: no dated figure found on a primary page read for this build, so none stated.",
+      "University research rankings: not used; the page makes no ranking claims.",
+      "Published NET route length and opening dates: not found on a primary page read for this build, so not stated.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Nottingham Express Transit, the Department for Transport, the ONS, Green's Windmill and Science Centre or Nottingham UNESCO City of Literature."
+    ]
   }
 }
