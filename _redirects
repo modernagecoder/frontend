@@ -3464,4 +3464,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-bradford /src/pages/best-coding-class-in-bradford.html 200
 /best-coding-class-in-bradford.md /src/pages/best-coding-class-in-bradford.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-sheffield /src/pages/best-coding-class-in-sheffield.html 200
+/best-coding-class-in-sheffield.md /src/pages/best-coding-class-in-sheffield.md 200
 /* /src/pages/404.html 404

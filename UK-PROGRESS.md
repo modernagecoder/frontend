@@ -144,7 +144,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 92 | best-coding-class-in-bristol (bri, #682F12) | city (UK, Phase 4) | 3,407 | 1.7% vs best-coding-class-in-wolverhampton | who is nearest? (Voronoi cells of 26 council libraries; area versus output areas; Lockleaze collection point changes Horfield) | Voronoi diagrams and nearest-site partitions | 628f3870 |
 | 93 | best-coding-class-in-nottingham (ngm, #415936) | city (UK, Phase 4) | 3,444 | 1.6% vs best-coding-class-in-oxford | a rubber band round 50 tram stops (convex hull of NET stops; removal sensitivity; hull versus network) | convex hull (orientation test, monotone chain, gift wrapping) | 123d6220 |
 | 94 | best-coding-class-in-derby (dby, #365953) | city (UK, Phase 4) | 3,402 | 2.6% vs best-coding-class-in-nottingham | the busiest minute on Derby's buses (sweep line over BODS GTFS intervals; tie rule 109 vs 117) | sweep line / interval overlap (event sorting, tie rules) | 0569071a |
-| 95 | best-coding-class-in-bradford (bfd, #5C1F3D) | city (UK, Phase 4) | 3,421 | 2.5% vs best-coding-class-in-derby | a walk through 115 years of Bradford rain (random walk against shuffled walks; no trend claimed) | random walks (cumulative steps, square-root spread, one-sided stays) | (this commit) |
+| 95 | best-coding-class-in-bradford (bfd, #5C1F3D) | city (UK, Phase 4) | 3,421 | 2.5% vs best-coding-class-in-derby | a walk through 115 years of Bradford rain (random walk against shuffled walks; no trend claimed) | random walks (cumulative steps, square-root spread, one-sided stays) | d5a77a08 |
+| 96 | best-coding-class-in-sheffield (shf, #312556) | city (UK, Phase 4) | 3,383 | 3.8% vs best-coding-class-in-bradford | one record, many straight lines (least-squares trends by start year; residuals; no forecast) | least squares linear regression | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

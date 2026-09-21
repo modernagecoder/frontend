@@ -17400,5 +17400,67 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Met Office, Bradford UNESCO City of Film, UNESCO, the University of Bradford or Bradford Culture Company."
     ]
+  },
+  "best-coding-class-in-sheffield": {
+    "market": "Sheffield",
+    "bodyClass": "cg-shf",
+    "pageType": "city",
+    "curriculumAuthority": "Sheffield, Census 2021 via Nomis: TS001 Sheffield local authority (E08000019) 556,521 usual residents, 535,893 in households (96.3 percent), 20,628 in communal establishments (3.7 percent); TS007A 32,018 aged 5 to 9 (5.8 percent), 37,455 aged 15 to 19 (6.7 percent), 50,872 aged 20 to 24 (9.1 percent), 40,536 aged 25 to 29 (7.3 percent), against England 5.9, 5.7, 6.0 and 6.6 percent; TS068 131,048 schoolchildren and full-time students of 526,342 residents aged 5 and over, 24.9 percent, against 20.4 percent in England. University of Sheffield: Royal Charter granted in 1905; six members of staff awarded a Nobel Prize; Sir Harry Kroto (BSc Chemistry 1961, PhD 1964) shared the 1996 Nobel Prize in Chemistry for buckminsterfullerene. Sheffield Hallam University: approximately 31,000 students and nearly 4,000 staff. Sheffield FC: the world's first football club, established 1857 (its own description).",
+    "localProject": "One record, many straight lines. Met Office historic station data, Sheffield, 131 m amsl, read 21 September 2026; temperature gaps July 1918 to December 1919 and July to December 1923; 140 complete years 1883 to 2025. Annual mean of monthly (tmax + tmin) / 2. OLS slope per decade (standard error): from 1883 0.113 (0.011), r2 0.44, residual sd 0.53; 1950 0.225 (0.027); 1970 0.300 (0.040); 1990 0.313 (0.076); 2010 0.851 (0.243). Starts 1990 to 2011: 0.261 (1997) to 0.851 (2010). Residuals: 1940-1979 mean -0.19, 1980-1999 -0.23, 2000-2025 +0.27 (81 percent above). Warmest 2025 11.33, 2022 11.31, 2023 11.24. First 30 years 9.04, last 30 10.50. Extrapolated to 2100 (warning only): 11.27 and 13.17. Lesson family: least squares linear regression; distinct from moving averages, homogeneity and regression to the mean.",
+    "requiredMentions": [
+      "556,521",
+      "535,893",
+      "20,628",
+      "50,872",
+      "131,048",
+      "526,342",
+      "Kroto",
+      "buckminsterfullerene",
+      "Sheffield FC",
+      "least squares",
+      "11.33",
+      "Sheffield Hallam"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Sheffield: 556,521 usual residents; 535,893 in households; 20,628 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E08000019"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Sheffield and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E08000019,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Sheffield 131,048 students of 526,342 aged 5 and over (24.9 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E08000019,E92000001"
+      },
+      {
+        "claim": "Met Office historic station data, Sheffield: monthly temperatures from 1883, gaps and provisional months.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/sheffielddata.txt"
+      },
+      {
+        "claim": "University of Sheffield, About: Royal Charter granted in 1905.",
+        "url": "https://www.sheffield.ac.uk/about"
+      },
+      {
+        "claim": "University of Sheffield, Nobel laureates: six staff Nobel Prizes; Sir Harry Kroto, 1996 Chemistry.",
+        "url": "https://www.sheffield.ac.uk/research/people/nobel-laureates"
+      },
+      {
+        "claim": "Sheffield Hallam University, About us: approximately 31,000 students and nearly 4,000 staff.",
+        "url": "https://www.shu.ac.uk/about-us"
+      },
+      {
+        "claim": "Sheffield FC: The World's First Football Club, Est. 1857.",
+        "url": "https://www.sheffieldfc.com/"
+      }
+    ],
+    "rejectedClaims": [
+      "Stainless steel, Kelham Island and Weston Park museum facts: Museums Sheffield and Sheffield Industrial Museums Trust reset the connection, so nothing from them is stated, including the station's site name.",
+      "Peak District share of the city: the National Park Authority facts page returned HTTP 403 and the council site a 202 challenge, so not stated.",
+      "Any climate forecast: extrapolated lines are shown only to warn against extrapolation.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Met Office, the University of Sheffield, Sheffield Hallam University or Sheffield FC."
+    ]
   }
 }
