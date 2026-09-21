@@ -16895,5 +16895,59 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Leeds City Council, Data Mill North, the University of Leeds, the Canal & River Trust or businesses named in camera locations."
     ]
+  },
+  "best-coding-class-in-wolverhampton": {
+    "market": "Wolverhampton",
+    "bodyClass": "cg-wlv",
+    "pageType": "city",
+    "curriculumAuthority": "Wolverhampton, Census 2021 via Nomis: TS001 City of Wolverhampton local authority (E08000031) 263,727 usual residents, 260,321 in households, 3,406 in communal establishments; TS007A aged 5 to 9 6.7 percent against England 5.9 percent, aged 10 to 14 17,997 (6.8 percent) against 6.0 percent, aged 20 to 24 6.0 percent equal to England (band total 263,726, never summed on the page); TS068 55,885 schoolchildren and full-time students of 247,402 residents aged 5 and over, 22.6 percent, against 20.4 percent in England. University of Wolverhampton key facts: over 30,200 students and almost 2,000 staff, campuses in Wolverhampton and Walsall and courses through partners; campus page adds Telford and describes Wolverhampton City Campus as right in the centre of the city; the Springfield site, where the Springfield brewery once stood, hosts the School of Architecture, Computing and Engineering and the National Brownfield Institute.",
+    "localProject": "The city's own name is its most expensive prefix. NaPTAN, DfT API area 430, read 21 September 2026, locality or parent locality Wolverhampton: 1,363 active bus stops (1,335 BCT, 28 BCS) in 71 localities; 655 distinct CommonName values, mean 13.89 characters; lower-cased trie of 7,003 nodes against 9,095 letters; shortest unique prefix mean 5.12, median 4, maximum 15, distribution 1 letter 1, 2 letters 40, 3 letters 183, 4 letters 133, 5 letters 85, 6 letters 69; six names are proper prefixes of another name and can never be unique by typing (Bentley Bridge / Bentley Bridge Retail Park, Goldthorn Hill / Goldthorn Hill Road, Hall La / Hall Lane, Lord Street / Lord Street West, Park Lane / Park Lane Bus Garage, Parkfield / Parkfield Road); 15 letters needed for Wolverhampton Science Park, Wolverhampton Road, Wolverhampton Grammar School, Wolverhampton Bus Station, Goldthorn Hill Road and Bentley Bridge Retail Park. Lesson family: tries and shortest unique prefixes for autocomplete; distinct from union-find (Coventry, same register), fuzzy matching and Jaccard.",
+    "requiredMentions": [
+      "263,727",
+      "260,321",
+      "3,406",
+      "55,885",
+      "247,402",
+      "17,997",
+      "5.12",
+      "Springfield brewery",
+      "National Brownfield Institute",
+      "30,200",
+      "Goldthorn Hill",
+      "Bentley Bridge"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Wolverhampton: 263,727 usual residents; 260,321 in households; 3,406 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E08000031&measures=20100"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Wolverhampton and England five-year age bands (5 to 9, 10 to 14, 20 to 24).",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E08000031,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Wolverhampton 55,885 students of 247,402 aged 5 and over (22.6 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E08000031,E92000001"
+      },
+      {
+        "claim": "Department for Transport, NaPTAN access nodes API, area 430: Wolverhampton stop names, types, status and localities.",
+        "url": "https://naptan.api.dft.gov.uk/v1/access-nodes?dataFormat=csv&atcoAreaCodes=430"
+      },
+      {
+        "claim": "University of Wolverhampton key facts: over 30,200 students, almost 2,000 staff, campuses, the Springfield site and its schools.",
+        "url": "https://www.wlv.ac.uk/university-life/key-facts/"
+      },
+      {
+        "claim": "University of Wolverhampton campus page: Wolverhampton, Walsall and Telford campuses; City Campus in the city centre.",
+        "url": "https://www.wlv.ac.uk/university-life/our-campus/"
+      }
+    ],
+    "rejectedClaims": [
+      "The date Wolverhampton became a city: seen only in search summaries, so not stated.",
+      "Wolverhampton Art Gallery and Bantock House facts: their pages returned 404.",
+      "Whether Hall La and Hall Lane are the same street: not determined from the names alone, as the page says.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Department for Transport, the council, the University of Wolverhampton or any bus operator."
+    ]
   }
 }
