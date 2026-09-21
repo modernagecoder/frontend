@@ -104,7 +104,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 52 | new-computing-gcse-explained (ncg, #441249) | exam door | 3,376 | 4.9% vs aqa-a-level-computer-science-7517-help | the first cohort is in Year 6 or Year 7 right now | a reform whose practical meaning is a year-group table and a list of unknowns | 8ad40537 |
 | 53 | t-level-digital-coding-help (tld, #4C1D10) | exam door | 3,376 | 3.9% vs new-computing-gcse-explained | a top grade that needs two different kinds of evidence | a qualification whose grading rule rewards being good at two different things | 9d81babe |
 | 54 | national-5-computing-science-help (nfc, #7E1B6E) | exam door | 3,217 | 4.9% vs t-level-digital-coding-help | choose database or web, twice | an assessment whose optional parts hide a decision most candidates never notice making | 515e7e59 |
-| 55 | higher-computing-science-help (hcs, #41358D) | exam door | 3,255 | 4% vs national-5-computing-science-help | the same frame, a harder picture | a qualification whose continuity of form hides a step change in content | (this commit) |
+| 55 | higher-computing-science-help (hcs, #41358D) | exam door | 3,255 | 4% vs national-5-computing-science-help | the same frame, a harder picture | a qualification whose continuity of form hides a step change in content | 699ec2fc |
+| 56 | advanced-higher-computing-science-project-help (ahcs, #1D5AA5) | exam door (Scotland, dated) | 4,370 | 1.2% vs higher-computing-science-help | the scenario is yours, the ten requirements are not: from 2026-27 every project type has 10 set functional requirements | coursework narrowed by its awarding body; honest preparation when the assessed work must stay the candidate's | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

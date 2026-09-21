@@ -427,6 +427,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - T Level digital coding help: https://learn.modernagecoders.com/t-level-digital-coding-help
 - National 5 Computing Science help: https://learn.modernagecoders.com/national-5-computing-science-help
 - Higher Computing Science help: https://learn.modernagecoders.com/higher-computing-science-help
+- Advanced Higher Computing Science project help: https://learn.modernagecoders.com/advanced-higher-computing-science-project-help
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
