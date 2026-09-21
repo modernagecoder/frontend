@@ -17686,5 +17686,59 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Department for Transport, Highways England, National Highways or the University of Lancashire."
     ]
+  },
+  "best-coding-class-in-edinburgh": {
+    "market": "Edinburgh",
+    "bodyClass": "cg-edi",
+    "pageType": "city",
+    "curriculumAuthority": "Edinburgh, National Records of Scotland, Scotland's Census 2022 first results rounded population estimates data (published 14 September 2023, rounded to the nearest hundred): City of Edinburgh S12000036 512,700 usual residents (2011: 476,626), 238,900 households (2011: 223,051), 48,600 aged 20 to 24 (Scotland 5,436,600 and 337,000), 13.7 percent aged 0 to 14, 70.3 percent 15 to 64, 16.0 percent 65 and over (Scotland 15.3, 64.6, 20.1), 1,946.5 residents per square kilometre (Scotland 69.8); Demography and migration chart data: 21.1 percent of households with dependent children. Royal Observatory Edinburgh: astronomy taught since 1583; first Chair of Astronomy 1786; Calton Hill Royal Observatory 1822; Thomas Henderson first Astronomer Royal for Scotland 1834, first to measure parallax; Blackford Hill 1896; UK ATC, the Institute for Astronomy and a visitor centre on one site. Historic Environment Scotland: St Margaret's Chapel is Edinburgh's oldest building; Queen Margaret died at the castle in 1093.",
+    "localProject": "Why Edinburgh's summer nights never get properly dark. NOAA/Meeus solar position formulas at Edinburgh Castle (55.9486 N, 3.1999 W), every minute of 2026, sunrise and sunset at -0.833 degrees; checked against the US Naval Observatory Astronomical Applications API (12 times on six dates, largest difference 1 minute). Longest day 17 h 37 m; shortest 6 h 57 m (21 December); London 16 h 38 m and 7 h 50 m. Midsummer minimum elevation -10.61 (London -15.06). No astronomical darkness on 96 nights, 4 May to 7 August (London 60); sun above -12 on 40 nights, 1 June to 10 July (London none). Zero-degree rule shortens days by 12 to 16 minutes. Lesson family: solar geometry and model validation; distinct from Fourier analysis, datums and time-zone handling of GTFS.",
+    "requiredMentions": [
+      "512,700",
+      "476,626",
+      "238,900",
+      "48,600",
+      "1,946.5",
+      "Thomas Henderson",
+      "Blackford Hill",
+      "Calton Hill",
+      "astronomical darkness",
+      "17 hours 37 minutes",
+      "Naval Observatory",
+      "0.833"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 rounded population estimates: Edinburgh population, households, age groups, density.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 demography and migration chart data: households with dependent children.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-demography-and-migration-chart-data/"
+      },
+      {
+        "claim": "US Naval Observatory Astronomical Applications API: sunrise and sunset at Edinburgh Castle for the validation dates.",
+        "url": "https://aa.usno.navy.mil/api/rstt/oneday?date=2026-06-21&coords=55.9486,-3.1999&tz=0"
+      },
+      {
+        "claim": "Royal Observatory Edinburgh, history: 1583, 1786, Calton Hill 1822, Thomas Henderson 1834, Blackford Hill 1896.",
+        "url": "https://www.roe.ac.uk/roe/history.html"
+      },
+      {
+        "claim": "Royal Observatory Edinburgh, home: the organisations on the site.",
+        "url": "https://www.roe.ac.uk/"
+      },
+      {
+        "claim": "Historic Environment Scotland, Edinburgh Castle history: St Margaret's Chapel, Queen Margaret 1093.",
+        "url": "https://www.edinburghcastle.scot/the-castle/history/"
+      }
+    ],
+    "rejectedClaims": [
+      "Student numbers for Edinburgh: the Scotland's Census 2022 education tables are behind an interactive tool, so no student share is stated.",
+      "Shares calculated from rounded counts (for example 20 to 24 as a percentage): not computed; only published shares are quoted.",
+      "University of Edinburgh facts and One O'Clock Gun details: no primary page read for this build, so not stated.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with National Records of Scotland, the Royal Observatory Edinburgh, Historic Environment Scotland or the US Naval Observatory."
+    ]
   }
 }
