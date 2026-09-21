@@ -443,6 +443,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - After the micro:bit: the step to Python: https://learn.modernagecoders.com/after-microbit-next-step-python-uk
 - Raspberry Pi coding projects: https://learn.modernagecoders.com/raspberry-pi-coding-projects-uk
 - Coding for home-educated children: https://learn.modernagecoders.com/coding-for-home-educated-children-uk
+- Online coding summer course, UK: https://learn.modernagecoders.com/online-coding-summer-course-uk
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

@@ -227,6 +227,7 @@ const SLUGS = [
   'after-microbit-next-step-python-uk',
   'raspberry-pi-coding-projects-uk',
   'coding-for-home-educated-children-uk',
+  'online-coding-summer-course-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -533,6 +534,7 @@ const LLMS_LABELS = {
   'after-microbit-next-step-python-uk': 'After the micro:bit: the step to Python',
   'raspberry-pi-coding-projects-uk': 'Raspberry Pi coding projects',
   'coding-for-home-educated-children-uk': 'Coding for home-educated children',
+  'online-coding-summer-course-uk': 'Online coding summer course, UK',
 };
 
 function wireLlms(slugs) {
