@@ -731,3 +731,4 @@
 .ag-root.ag-cyt { --ag-accent: #325D36; --ag-accent-soft: rgba(50,93,54,.09); }   /* Cyber security for teens, UK: a deep defensive green from the solver (6.19:1 on every paper tint, dE 7.6 from the nearest used accent) */
 .ag-root.ag-jvu { --ag-accent: #87371D; --ag-accent-soft: rgba(135,55,29,.09); }   /* Java classes, UK: a roasted-coffee orange-brown from the solver (6.57:1 on every paper tint, dE 7.7 from the nearest used accent), a quiet nod to the language's cup */
 .ag-root.ag-adu { --ag-accent: #851DA5; --ag-accent-soft: rgba(133,29,165,.09); }   /* App development, UK: a vivid app-icon purple from the solver (6.27:1 on every paper tint, dE 9.5 from the nearest used accent) */
+.ag-root.ag-fsu { --ag-accent: #223935; --ag-accent-soft: rgba(34,57,53,.09); }   /* Full stack software development, UK: a deep slate-green from the solver (10.0:1 on every paper tint, dE 7.3 from the nearest used accent), deliberately unlike any government palette */

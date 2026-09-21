@@ -236,6 +236,7 @@ const SLUGS = [
   'cyber-security-course-for-teens-uk',
   'java-classes-uk',
   'app-development-course-uk',
+  'full-stack-software-development-course-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -551,6 +552,7 @@ const LLMS_LABELS = {
   'cyber-security-course-for-teens-uk': 'Cyber security course for teens, UK',
   'java-classes-uk': 'Java classes, UK',
   'app-development-course-uk': 'App development course, UK',
+  'full-stack-software-development-course-uk': 'Full stack software development course, UK',
 };
 
 function wireLlms(slugs) {
