@@ -3348,4 +3348,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ccea-gcse-maths-help /src/pages/ccea-gcse-maths-help.html 200
 /ccea-gcse-maths-help.md /src/pages/ccea-gcse-maths-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/transfer-test-maths-practice-northern-ireland /src/pages/transfer-test-maths-practice-northern-ireland.html 200
+/transfer-test-maths-practice-northern-ireland.md /src/pages/transfer-test-maths-practice-northern-ireland.md 200
 /* /src/pages/404.html 404

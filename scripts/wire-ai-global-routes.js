@@ -222,6 +222,7 @@ const SLUGS = [
   'advanced-higher-maths-tuition-online',
   'gcse-maths-and-numeracy-wales-help',
   'ccea-gcse-maths-help',
+  'transfer-test-maths-practice-northern-ireland',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -523,6 +524,7 @@ const LLMS_LABELS = {
   'advanced-higher-maths-tuition-online': 'Advanced Higher Maths tuition online',
   'gcse-maths-and-numeracy-wales-help': 'GCSE Mathematics and Numeracy help, Wales',
   'ccea-gcse-maths-help': 'CCEA GCSE Maths help',
+  'transfer-test-maths-practice-northern-ireland': 'Transfer test maths practice, Northern Ireland',
 };
 
 function wireLlms(slugs) {
