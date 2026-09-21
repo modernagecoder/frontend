@@ -17632,5 +17632,59 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Ordnance Survey or the Office for National Statistics."
     ]
+  },
+  "best-coding-class-in-preston": {
+    "market": "Preston",
+    "bodyClass": "cg-prs",
+    "pageType": "city",
+    "curriculumAuthority": "Preston, Census 2021 via Nomis: TS001 Preston local authority (E07000123) 147,835 usual residents, 141,777 in households (95.9 percent), 6,058 in communal establishments (4.1 percent); TS007A 9,241 aged 5 to 9 (6.3 percent), 12,600 aged 20 to 24 (8.5 percent), 11,012 aged 25 to 29 (7.4 percent), against England 5.9, 6.0 and 6.6 percent; TS068 34,784 schoolchildren and full-time students of 138,914 residents aged 5 and over, 25.0 percent, against 20.4 percent in England. GOV.UK, Highways England, 5 December 2018: on 5 December 1958 2,300 drivers used the eight-mile Preston bypass, the very first motorway in Britain, now part of the M6; two lanes each way, no central barrier, no electronic signs; four-lane upgrade in the 1990s replaced all original bridges; the M6 then carried one in eight of all motorway journeys. University of Lancashire: founded in 1828 as the Institution for the Diffusion of Knowledge; motto Ex solo ad solem; Preston Campus home to over 27,000 students and staff.",
+    "localProject": "A trend one bad year cannot bend. DfT road traffic statistics API, count point 36029, M6 junction 30 to 31, all motor vehicles, AADF 2000 to 2025: 24 counted (automatic counter 2018 and 2019), 2 estimated from the previous year (2001, 2016). 2019 156,190; 2020 101,388; 2025 171,079. Slopes (vehicles a day per year): least squares 979 (1,404 without 2020-21); Theil-Sen 1,054 over 325 pairs (1,292 without 2020-21); with 2020 entered as 0, least squares 459 and Theil-Sen 1,054. Lesson family: robust estimation (Theil-Sen median of pairwise slopes, stress testing, quadratic pair count); distinct from least squares trends, spike detection and median absolute deviation.",
+    "requiredMentions": [
+      "147,835",
+      "141,777",
+      "12,600",
+      "34,784",
+      "138,914",
+      "5 December 1958",
+      "2,300 drivers",
+      "Theil-Sen",
+      "Institution for the Diffusion of Knowledge",
+      "171,079",
+      "101,388",
+      "36029"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Preston: 147,835 usual residents; 141,777 in households; 6,058 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E07000123"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Preston and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E07000123,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Preston 34,784 students of 138,914 aged 5 and over (25.0 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E07000123,E92000001"
+      },
+      {
+        "claim": "Department for Transport road traffic statistics, count point 36029, annual average daily flow 2000 to 2025.",
+        "url": "https://roadtraffic.dft.gov.uk/api/average-annual-daily-flow?filter[count_point_id]=36029"
+      },
+      {
+        "claim": "GOV.UK, Highways England, England's first motorway turns 60: 5 December 1958, 2,300 drivers, eight-mile Preston bypass.",
+        "url": "https://www.gov.uk/government/news/englands-first-motorway-turns-60-with-major-technology-upgrade"
+      },
+      {
+        "claim": "University of Lancashire, About us: founded 1828 as the Institution for the Diffusion of Knowledge; Preston Campus.",
+        "url": "https://www.lancashire.ac.uk/about-us"
+      }
+    ],
+    "rejectedClaims": [
+      "Preston Guild dates: the Guild site did not load and Preston City Council returned HTTP 403, so not stated.",
+      "The upgrade cost figures in the 2018 GOV.UK article: pound amounts, excluded by the one-currency rule.",
+      "That count point 36029 lies on the original 1958 carriageway: the source does not say which junctions the bypass spanned, so the page does not claim it.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Department for Transport, Highways England, National Highways or the University of Lancashire."
+    ]
   }
 }

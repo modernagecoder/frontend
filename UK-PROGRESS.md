@@ -148,7 +148,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 96 | best-coding-class-in-sheffield (shf, #312556) | city (UK, Phase 4) | 3,383 | 3.8% vs best-coding-class-in-bradford | one record, many straight lines (least-squares trends by start year; residuals; no forecast) | least squares linear regression | b9de76c4 |
 | 97 | best-coding-class-in-liverpool (lpl, #14545D) | city (UK, Phase 4) | 3,477 | 4.3% vs best-coding-class-in-sheffield | hearing the moon in a month of Mersey water (periodogram of EA tide gauge; M2 and S2; spring-neap beat) | Fourier analysis and periodicity (periodogram, resolution, beats) | c5a9f4d2 |
 | 98 | best-coding-class-in-newcastle-upon-tyne (ncl, #1D2787) | city (UK, Phase 4) | 3,398 | 2.5% vs best-coding-class-in-derby | four colours for 26 wards (graph colouring of ONS wards; greedy order vs backtracking; K4 lower bound) | graph colouring (greedy, cliques, backtracking) | 04ea5b9a |
-| 99 | best-coding-class-in-southampton (sot, #60395C) | city (UK, Phase 4) | 3,356 | 2.6% vs best-coding-class-in-sheffield | find any of 5,814 postcodes in about one step (hash tables on OS Code-Point Open; sum hash vs FNV-1a; birthday collisions) | hash tables (hash quality, chaining, load factor) | (this commit) |
+| 99 | best-coding-class-in-southampton (sot, #60395C) | city (UK, Phase 4) | 3,356 | 2.6% vs best-coding-class-in-sheffield | find any of 5,814 postcodes in about one step (hash tables on OS Code-Point Open; sum hash vs FNV-1a; birthday collisions) | hash tables (hash quality, chaining, load factor) | 7affce98 |
+| 100 | best-coding-class-in-preston (prs, #833F4D) | city (UK, Phase 4) | 3,368 | 2.1% vs best-coding-class-in-newcastle-upon-tyne | a trend one bad year cannot bend (Theil-Sen vs least squares on DfT M6 traffic; stress test) | robust estimation (Theil-Sen median of pairwise slopes) | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
