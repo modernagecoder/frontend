@@ -17462,5 +17462,63 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Met Office, the University of Sheffield, Sheffield Hallam University or Sheffield FC."
     ]
+  },
+  "best-coding-class-in-liverpool": {
+    "market": "Liverpool",
+    "bodyClass": "cg-lpl",
+    "pageType": "city",
+    "curriculumAuthority": "Liverpool, Census 2021 via Nomis: TS001 Liverpool local authority (E08000012) 486,088 usual residents, 463,875 in households (95.4 percent), 22,213 in communal establishments (4.6 percent); TS007A 33,846 aged 15 to 19 (7.0 percent), 49,337 aged 20 to 24 (10.1 percent), 38,082 aged 25 to 29 (7.8 percent), against England 5.7, 6.0 and 6.6 percent; TS068 116,175 schoolchildren and full-time students of 459,716 residents aged 5 and over, 25.3 percent, against 20.4 percent in England. National Tidal and Sea Level Facility, Doodson-Légé Tide Predicting Machine: predictions first carried out in 1924 at Bidston Observatory (University of Liverpool Tidal Institute); machine designed by Dr Arthur T. Doodson, built 1948-49 by Légé and Co. of London, daily use until the early 1960s; up to 42 constituents on 42 pulley wheels; modern analyses 120 or more; constituents named by George Darwin; predictions from harmonic analysis of observed heights. The River Mersey: begins in Stockport, 70 miles to the Irish Sea; second highest tidal range in the UK, 4 m at neaps to 10 m at springs; river flow about 1 percent of tidal flow; first Royal Charter 1207. University of Liverpool: since 1881.",
+    "localProject": "Hearing the moon in a month of Mersey water. Environment Agency flood-monitoring API, tide gauge E70124 Liverpool (SJ 32480 95252), 15-minute tidal level on the gauge's local scale, 23 August 2026 00:00 UTC to 21 September 2026 13:45 UTC: 2,828 readings, 29.57 days, 7 gaps under an hour, no duplicates. Direct Fourier sums on actual timestamps: 12.42 h 2.86 m; 12.05 h 1.52 m (true 12.00 h; resolution 0.0014 cph against a 0.0028 cph separation); 6.21 h 0.20 m. 57 high waters, mean interval 12.42 h. Calendar-day ranges: 8.42 m (31 August) and 8.83 m (13 September) spring peaks; 4.50 m (6 September) and 2.76 m (20 September) neaps. Beat 14.77 days. Only ranges and amplitudes quoted, never absolute heights. Lesson family: Fourier analysis and periodicity (periodogram, frequency resolution, beats, overtides); distinct from least squares trends, lagged correlation and moving averages.",
+    "requiredMentions": [
+      "486,088",
+      "463,875",
+      "22,213",
+      "49,337",
+      "116,175",
+      "459,716",
+      "Doodson",
+      "Bidston",
+      "42 constituents",
+      "periodogram",
+      "Tidal Institute",
+      "8.83"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Liverpool: 486,088 usual residents; 463,875 in households; 22,213 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E08000012"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Liverpool and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E08000012,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Liverpool 116,175 students of 459,716 aged 5 and over (25.3 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E08000012,E92000001"
+      },
+      {
+        "claim": "Environment Agency flood-monitoring API, Liverpool tide gauge E70124, 15-minute tidal level readings.",
+        "url": "https://environment.data.gov.uk/flood-monitoring/id/stations/E70124"
+      },
+      {
+        "claim": "National Tidal and Sea Level Facility, Doodson-Légé Tide Predicting Machine: 1924, 1948-49, 42 constituents, harmonic analysis.",
+        "url": "https://ntslf.org/tides/about-tides/doodson-lege-tide-predicting-machine"
+      },
+      {
+        "claim": "National Tidal and Sea Level Facility, The River Mersey: 70 miles, 4 m to 10 m range, second highest in the UK, 1207 charter.",
+        "url": "https://ntslf.org/tides/about-tides/river-mersey"
+      },
+      {
+        "claim": "University of Liverpool, About: since 1881.",
+        "url": "https://www.liverpool.ac.uk/about/"
+      }
+    ],
+    "rejectedClaims": [
+      "Absolute tide heights above sea level: the gauge measure used is on a local scale, so only ranges and amplitudes are quoted.",
+      "Liverpool UNESCO City of Music: the site did not respond, so not stated.",
+      "That Bidston Observatory is in the city of Liverpool: the page names it only as the University of Liverpool Tidal Institute.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Environment Agency, the National Oceanography Centre, the National Tidal and Sea Level Facility or the University of Liverpool."
+    ]
   }
 }
