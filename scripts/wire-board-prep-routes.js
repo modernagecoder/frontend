@@ -46,7 +46,8 @@ const SLUGS = [
   'math-kangaroo-usa-preparation',
   'mathcounts-preparation',
   'australian-maths-trust-amc-aio-cat-preparation',
-  'maths-olympiad-classes-online'
+  'maths-olympiad-classes-online',
+  'cbse-icse-maths-tuition-online'
 ];
 
 const LLMS_HEADING = '## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)';

@@ -91,7 +91,7 @@ const CLUSTERS = {
   // likely to clone.
   'board-prep': {
     label: 'Class 10 board-prep cluster',
-    fileRe: /^(cbse-class-10-ai-classes-online|cbse-class-10-ai-syllabus-explained|python-for-cbse-class-10-ai|cbse-class-10-ai-board-exam-preparation|cbse-class-10-ai-project-and-practical-file|icse-class-10-java-classes-online|icse-class-10-computer-applications-syllabus-explained|icse-class-10-java-programs-practice|icse-class-10-bluej-java-coaching|icse-class-10-computer-applications-board-exam-preparation|sof-imo-preparation|sof-icso-preparation|cemc-waterloo-contests-preparation|ioqm-rmo-inmo-preparation|indian-computing-olympiad-preparation|math-kangaroo-usa-preparation|mathcounts-preparation|australian-maths-trust-amc-aio-cat-preparation|maths-olympiad-classes-online).html$/,
+    fileRe: /^(cbse-class-10-ai-classes-online|cbse-class-10-ai-syllabus-explained|python-for-cbse-class-10-ai|cbse-class-10-ai-board-exam-preparation|cbse-class-10-ai-project-and-practical-file|icse-class-10-java-classes-online|icse-class-10-computer-applications-syllabus-explained|icse-class-10-java-programs-practice|icse-class-10-bluej-java-coaching|icse-class-10-computer-applications-board-exam-preparation|sof-imo-preparation|sof-icso-preparation|cemc-waterloo-contests-preparation|ioqm-rmo-inmo-preparation|indian-computing-olympiad-preparation|math-kangaroo-usa-preparation|mathcounts-preparation|australian-maths-trust-amc-aio-cat-preparation|maths-olympiad-classes-online|cbse-icse-maths-tuition-online).html$/,
     prefix: 'bx',
     incumbents: [
       'computer-applications-icse-class-10',

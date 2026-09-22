@@ -64,6 +64,7 @@
 .bx-root.bx-mtc { --bx-accent: #1E3A6E; --bx-accent-soft: rgba(30,58,110,.09); }
 .bx-root.bx-amt { --bx-accent: #8A6A12; --bx-accent-soft: rgba(138,106,18,.09); }
 .bx-root.bx-moc { --bx-accent: #6B2F5E; --bx-accent-soft: rgba(107,47,94,.09); }
+.bx-root.bx-cim { --bx-accent: #3F5A2A; --bx-accent-soft: rgba(63,90,42,.09); }
 .bx-root.bx-ibe { --bx-accent: #8A3A20; --bx-accent-soft: rgba(138,58,32,.09); }
 
 /* ---------------------------------------------------------------- base */
