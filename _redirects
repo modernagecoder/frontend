@@ -3546,4 +3546,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-dundee /src/pages/best-coding-class-in-dundee.html 200
 /best-coding-class-in-dundee.md /src/pages/best-coding-class-in-dundee.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-swansea /src/pages/best-coding-class-in-swansea.html 200
+/best-coding-class-in-swansea.md /src/pages/best-coding-class-in-swansea.md 200
 /* /src/pages/404.html 404

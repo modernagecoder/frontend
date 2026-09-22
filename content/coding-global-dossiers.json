@@ -18363,5 +18363,67 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Met Office, National Records of Scotland, Dundee Heritage Trust or Dundee City Council."
     ]
+  },
+  "best-coding-class-in-swansea": {
+    "market": "Swansea",
+    "bodyClass": "cg-swa",
+    "pageType": "city",
+    "curriculumAuthority": "Swansea, Census 2021 via Nomis (W06000011): TS001 238,490 usual residents, 233,322 in households, 5,168 in communal establishments; TS007A 14,451 aged 15 to 19 (6.1 percent, Wales 5.7), 19,157 aged 20 to 24 (8.0 percent, Wales 6.0), 14,232 aged 25 to 29 (6.0 percent, Wales 6.0); TS068 51,845 students of 227,063 residents aged 5 and over (22.8 percent, Wales 19.9); TS006 631.5 usual residents per square kilometre (Wales 149.9). Swansea University, History: foundation stone laid by King George V on 19 July 1920; 89 students including eight women enrolled that year; 65 staff and 485 students by September 1939; two permanent buildings in 1947, Singleton Abbey and the library; finite element method developed in the 1960s by Professor Olek Zienkiewicz.",
+    "localProject": "When did the air on Carmarthen Road change? DEFRA UK-AIR Swansea Roadside (SWA1, UKA00497, urban traffic, A483 Carmarthen Road by Lyon Street), hourly nitrogen dioxide 2018 to 2021, daily means from 18 or more hours. Baseline 2018: mean 23.5 micrograms per cubic metre, weekday means Friday 27.1 to Sunday 18.1, residual sd 11.39. Lower CUSUM on weekday residuals: k 0.5 h 4, 10 false alarms in 2019, first spring 2020 alarm 14 March; k 0.5 h 5, 8 and 17 March; k 1.0 h 5, 0 and 6 July. Single-day 2 sd rule: no alarms in 2019 or 2020. Means 1 February to 15 March 2020 16.9 (2019 27.7). 23 to 26 March 2020 31.4 to 36.2. Annual means 23.5, 24.2, 17.7, 19.2. GOV.UK statement 23 March 2020 as the date anchor only. Lesson family: change-point detection with CUSUM; distinct from Brighton and Hove sliding windows and Dundee forecast evaluation.",
+    "requiredMentions": [
+      "233,322",
+      "631.5",
+      "19,157",
+      "51,845",
+      "227,063",
+      "Zienkiewicz",
+      "finite element",
+      "CUSUM",
+      "Carmarthen Road",
+      "Singleton Abbey",
+      "Lyon Street",
+      "485 students"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Swansea: 238,490 usual residents; 233,322 in households; 5,168 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=W06000011"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Swansea and Wales five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=W06000011,W92000004"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Swansea 51,845 students of 227,063 aged 5 and over (22.8 percent); Wales 19.9 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=W06000011,W92000004"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, Swansea 631.5 and Wales 149.9 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=W06000011,W92000004"
+      },
+      {
+        "claim": "DEFRA UK-AIR, Swansea Roadside site information: urban traffic, A483 Carmarthen Road, Lyon Street, 4.5 m from the kerb.",
+        "url": "https://uk-air.defra.gov.uk/networks/site-info?site_id=SWA1"
+      },
+      {
+        "claim": "DEFRA UK-AIR, hourly data files for Swansea Roadside, 2018 to 2021.",
+        "url": "https://uk-air.defra.gov.uk/data/flat_files?site_id=SWA1"
+      },
+      {
+        "claim": "GOV.UK, Prime Minister's statement on coronavirus, 23 March 2020: instruction to stay at home from that evening.",
+        "url": "https://www.gov.uk/government/speeches/pm-address-to-the-nation-on-coronavirus-23-march-2020"
+      },
+      {
+        "claim": "Swansea University, History: 1920 foundation stone, 89 students, 485 students by 1939, Singleton Abbey, finite element method.",
+        "url": "https://www.swansea.ac.uk/the-university/history/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim that lockdown caused the 2020 drop: levels were already low from February and rose again from 23 to 26 March, so the page reports timing only.",
+      "Health effects of nitrogen dioxide: excluded by the cluster rules; the page describes measurement and detection only.",
+      "Swansea Council pages on the Mumbles Railway and Swansea Museum: both returned 403, so neither is described.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables and money data: excluded by the cluster rules.",
+      "Any affiliation with DEFRA, Swansea University or Swansea Council."
+    ]
   }
 }

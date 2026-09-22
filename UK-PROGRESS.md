@@ -161,7 +161,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 109 | best-coding-class-in-york (yrk, #6F2E2A) | city (UK, Phase 4) | 3,323 | 4.1% vs best-coding-class-in-plymouth | how surprising is a York street name? (entropy of 2,785 road endings; 4.729 bits; equal-size comparison) | Shannon entropy, surprise in bits, Huffman coding, sample-size bias | 861b7a73 |
 | 110 | best-coding-class-in-norwich (nor, #775522) | city (UK, Phase 4) | 3,291 | 5.5% vs best-coding-class-in-york | clustered or evenly spaced? it depends on the frame (Clark-Evans on 34 Grade I churches: 0.453 vs 1.351) | point pattern analysis, Clark-Evans ratio, complete spatial randomness, Monte Carlo envelopes | 4648bb6d |
 | 111 | best-coding-class-in-portsmouth (pts, #18428B) | city (UK, Phase 4) | 3,312 | 5.7% vs best-coding-class-in-hull | three roads hold Portsea Island to the mainland (max-flow min-cut on OS Open Roads; M275, A3, A2030) | minimum cut and maximum flow, graph bridges | 761b6b74 |
-| 112 | best-coding-class-in-dundee (dnd, #63364D) | city (UK, Phase 4) | 3,319 | 3.2% vs best-coding-class-in-aberdeen | a forecast must beat the obvious guess, fairly (Leuchars 1957-2026; walk-forward MAE; leakage shown) | forecast baselines and walk-forward evaluation | (this commit) |
+| 112 | best-coding-class-in-dundee (dnd, #63364D) | city (UK, Phase 4) | 3,319 | 3.2% vs best-coding-class-in-aberdeen | a forecast must beat the obvious guess, fairly (Leuchars 1957-2026; walk-forward MAE; leakage shown) | forecast baselines and walk-forward evaluation | 395d55e1 |
+| 113 | best-coding-class-in-swansea (swa, #914930) | city (UK, Phase 4) | 3,332 | 3.4% vs best-coding-class-in-brighton-and-hove | a detector says when, never why (CUSUM on Swansea Roadside NO2; alarms vs false alarms; no causal claim) | change-point detection with CUSUM | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
