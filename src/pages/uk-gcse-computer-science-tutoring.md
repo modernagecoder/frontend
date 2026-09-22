@@ -581,6 +581,14 @@ A short diagnostic rather than a sales call. Usually one small programming quest
 
 A mentor calls you at a reasonable hour to arrange the free class. Nothing is charged and no card is requested. Have the exam board to hand if you can, because the honest recommendation depends on it more than on anything else you can tell us.
 
+### How do I choose a GCSE computer science tutor online?
+
+Ask four things: which board they teach and whether they teach it separately from the others; whether the student writes and runs code in every class rather than watching; how past papers are marked (against the board's mark scheme, or by feel); and whether the same tutor stays for both years. A tutor who cannot name the difference between AQA 8525 and OCR J277 is preparing your child for the wrong exam.
+
+### Do you also tutor KS3 computing, before GCSE starts?
+
+Yes. Year 7 to Year 9 students take [KS3 computing tuition online](/ks3-computing-tuition-online) on the same format: live, small batch or one-to-one, with real Python from the start, so the GCSE course begins with the programming already in place. Students who want the maths behind the computing can pair it with [KS3 maths tuition](/ks3-maths-tuition-online).
+
 Read next
 
 ## One paper rewards knowing things. The other rewards making them.

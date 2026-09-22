@@ -227,7 +227,7 @@ Yes. We prioritise high-value foundation topics, fix the costly gaps, and drill 
 
 How much does it cost?
 
-USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+A flat monthly fee, shown in your own currency in the pricing section of this page: private one-to-one with eight live lessons a month, two each week, or a small-group batch of 5 to 10 at a lower fee. No enrolment charge and no contract; stop at any month end.
 
 Is there a free trial?
 
@@ -256,6 +256,14 @@ Yes. See our [adult maths classes](/online-maths-classes-for-adults-in-uk) page 
 Do lessons fit around school and revision?
 
 Yes, after-school, evening and weekend slots in UK time, ramping up around mocks and summer exams.
+
+Do you teach KS3 maths (Years 7, 8 and 9) as well as GCSE?
+
+Yes. KS3 maths tuition online runs on the same format as GCSE: live, one-to-one or a small batch, one tutor for the year, working from the school's scheme of work. Year 7 and Year 8 students build the number, algebra and ratio fluency the GCSE papers assume; Year 9 students start meeting GCSE-style questions before the course begins. See [KS3 maths tuition online](/ks3-maths-tuition-online).
+
+Can a Year 8 or Year 9 student start GCSE maths tuition early?
+
+A Year 9 student can, and often should, because the foundation and higher tier decision is easier to make well with a year of evidence. A Year 8 student is usually better served by KS3 tuition that fixes gaps in fractions, negative numbers and early algebra, which is where most GCSE marks are lost two years later. The free first lesson tells you which applies to your child.
 
 ## Book a free GCSE maths trial lesson.
 

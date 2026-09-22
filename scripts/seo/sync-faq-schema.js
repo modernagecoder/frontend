@@ -29,12 +29,16 @@ files.forEach((rel) => {
   const vis = [];
   [...html.matchAll(/<details[^>]*>\s*<summary>([\s\S]*?)<\/summary>\s*(?:<div class="(?:faq-a|age-faq-body)">([\s\S]*?)<\/div>|<div class="a">\s*<p>([\s\S]*?)<\/p>|<p>([\s\S]*?)<\/p>)/g)].forEach((m) => vis.push([norm(dec(m[1])), norm(dec(m[2] || m[3] || m[4]))]));
   // the ag- page system: <div class="ag-faq-item"><h3>Q</h3><p>A</p></div>
-  [...html.matchAll(/<div class="ag-faq-item">\s*<h3>([\s\S]*?)<\/h3>\s*<p>([\s\S]*?)<\/p>/g)].forEach((m) => vis.push([norm(dec(m[1])), norm(dec(m[2]))]));
+  [...html.matchAll(/<div class="ag-faq-item"[^>]*>\s*<h3>([\s\S]*?)<\/h3>\s*<p>([\s\S]*?)<\/p>/g)].forEach((m) => vis.push([norm(dec(m[1])), norm(dec(m[2]))]));
+  // the maths hub: <div class="faq-item-mt"><button class="faq-q-mt">Q <svg…</button><div class="faq-a-mt"><div class="faq-a-mt-inner">A</div></div>
+  [...html.matchAll(/<div class="faq-item-mt"[^>]*>\s*<button class="faq-q-mt">([\s\S]*?)<svg[\s\S]*?<div class="faq-a-mt-inner">([\s\S]*?)<\/div>/g)].forEach((m) => vis.push([norm(dec(m[1])), norm(dec(m[2]))]));
   [...html.matchAll(/<div class="faq-item">\s*<div class="faq-question">\s*<span>([\s\S]*?)<\/span>[\s\S]*?<div class="faq-answer">\s*<p>([\s\S]*?)<\/p>/g)].forEach((m) => vis.push([norm(dec(m[1])), norm(dec(m[2]))]));
-  const start = html.indexOf('"mainEntity": [');
+  const openM = html.match(/"mainEntity":\s*\[/);
+  const OPEN = openM ? openM[0] : '"mainEntity": [';
+  const start = openM ? openM.index : -1;
   if (!vis.length || start === -1) { console.log('skip:', rel, vis.length ? 'no FAQPage block' : 'no visible FAQ'); return; }
   // find the matching close bracket of the mainEntity array
-  let i = start + '"mainEntity": ['.length, depth = 1, inStr = false, escNext = false;
+  let i = start + OPEN.length, depth = 1, inStr = false, escNext = false;
   for (; i < html.length && depth; i++) {
     const ch = html[i];
     if (inStr) { if (escNext) escNext = false; else if (ch === '\\') escNext = true; else if (ch === '"') inStr = false; continue; }
@@ -42,7 +46,7 @@ files.forEach((rel) => {
   }
   const end = i; // index after the closing ]
   const body = '\n' + vis.map(([q, a]) => '            { "@type": "Question", "name": ' + JSON.stringify(q) + ', "acceptedAnswer": { "@type": "Answer", "text": ' + JSON.stringify(a) + ' } }').join(',\n') + '\n          ]';
-  const next = html.slice(0, start + '"mainEntity": ['.length) + body + html.slice(end);
+  const next = html.slice(0, start + OPEN.length) + body + html.slice(end);
   // sanity: the block still parses
   const blocks = [...next.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => m[1]);
   blocks.forEach((b, k) => { try { JSON.parse(b); } catch (e) { throw new Error(rel + ': ld+json block ' + k + ' invalid after sync: ' + e.message); } });
