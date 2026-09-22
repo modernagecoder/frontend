@@ -155,7 +155,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 103 | best-coding-class-in-cardiff (crf, #0F5728) | city (UK, Phase 4) | 3,347 | 2.3% vs best-coding-class-in-newcastle-upon-tyne | is Cardiff as big as Zipf's law says? (rank-size on 579 Welsh built-up areas; primate city) | Zipf's law and power laws | b498c873 |
 | 104 | best-coding-class-in-belfast (bel, #5F581C) | city (UK, Phase 4) | 3,362 | 2.8% vs best-coding-class-in-liverpool | which stop holds the network together? (PageRank on Translink Metro and Glider timetable) | PageRank and network centrality | 5f8e3b75 |
 | 105 | best-coding-class-in-aberdeen (abd, #222A39) | city (UK, Phase 4) | 3,355 | 3.6% vs best-coding-class-in-edinburgh | every place name in Aberdeen in six kilobytes (Bloom filters on OS Open Names; one-sided error) | Bloom filters and probabilistic membership | 29321117 |
-| 106 | best-coding-class-in-brighton-and-hove (bhv, #157179) | city (UK, Phase 4) | 3,621 | 2% vs best-coding-class-in-liverpool | a window that slides, not a block that jumps (8-hour ozone mean at Preston Park; blocks miss 29 of 94 days) | sliding windows (carried sum, coverage rule, day assignment, rounding once) | (this commit) |
+| 106 | best-coding-class-in-brighton-and-hove (bhv, #157179) | city (UK, Phase 4) | 3,621 | 2% vs best-coding-class-in-liverpool | a window that slides, not a block that jumps (8-hour ozone mean at Preston Park; blocks miss 29 of 94 days) | sliding windows (carried sum, coverage rule, day assignment, rounding once) | c6cd2bb5 |
+| 107 | best-coding-class-in-plymouth (ply, #224F37) | city (UK, Phase 4) | 3,432 | 2.2% vs best-coding-class-in-brighton-and-hove | how wide should the blur be? (KDE of 782 listed entries; 175 m cross-validated vs 736 m rule of thumb erases Devonport) | kernel density estimation and bandwidth selection by cross-validation | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

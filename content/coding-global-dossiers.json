@@ -18014,5 +18014,67 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables and money data: excluded by the cluster rules.",
       "Any affiliation with DEFRA, the Volk's Electric Railway Association or Brighton and Hove City Council."
     ]
+  },
+  "best-coding-class-in-plymouth": {
+    "market": "Plymouth",
+    "bodyClass": "cg-ply",
+    "pageType": "city",
+    "curriculumAuthority": "Plymouth, Census 2021 via Nomis (E06000026): TS001 264,695 usual residents, 257,494 in households, 7,201 in communal establishments; TS007A 15,919 aged 15 to 19 (6.0 percent), 21,172 aged 20 to 24 (8.0 percent), 17,938 aged 25 to 29 (6.8 percent), against England 5.7, 6.0 and 6.6 percent; TS068 54,709 students of 251,490 residents aged 5 and over (21.8 percent, England 20.4); TS006 3,314.8 usual residents per square kilometre (England 433.5). The Box, Smeaton's Tower: built on the Eddystone reef in 1759, taken down in the early 1880s when the sea was found eroding the rock, about two thirds moved stone by stone to Plymouth Hoe, 72 foot high. Royal William Yard, History: designed by Sir John Rennie, built 1825, named after King William IV, Royal Navy victualling facility for over a century, Europe's largest collection of Grade I listed military buildings.",
+    "localProject": "Plymouth's listed buildings as a density map. Historic England NHLE Listed Building points (OGL, read 22 September 2026) clipped to ONS LAD E06000026: 782 entries (669 II, 91 II*, 22 I; 9 Grade I in Royal William Victualling Yard). Wards: St Peter and the Waterfront 305, Devonport 104, Plympton Erle 80, Stoke 61. Busiest 1 km cell 109, 144, 113 or 170 as the origin shifts half a cell. Gaussian KDE on a 50 m lattice, peaks above 5 percent of max: 75 m 62, 175 m 24, 300 m 12, 600 m 7, 736 m (rule of thumb) 4, 1,500 m 2. Leave-one-out likelihood cross-validation best at 175 m. At 175 m top peak about 388 entries per square km near Southside Street, second about 242 near Fore Street, Plympton; at 736 m Devonport has no peak. Lesson family: kernel density estimation and bandwidth selection by cross-validation; distinct from Bristol Voronoi, Nottingham convex hull and Milton Keynes Monte Carlo.",
+    "requiredMentions": [
+      "264,695",
+      "257,494",
+      "7,201",
+      "3,314.8",
+      "21,172",
+      "54,709",
+      "Smeaton",
+      "Royal William",
+      "kernel density",
+      "Southside Street",
+      "Rennie",
+      "Devonport"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Plymouth: 264,695 usual residents; 257,494 in households; 7,201 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E06000026"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Plymouth and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E06000026,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Plymouth 54,709 students of 251,490 aged 5 and over (21.8 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E06000026,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, Plymouth 3,314.8 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E06000026,E92000001"
+      },
+      {
+        "claim": "Historic England, National Heritage List for England open data, Listed Building points (OGL).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "ONS, Local Authority Districts December 2025 boundaries (BFC) and Wards December 2024 boundaries (BGC), OGL.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_DEC_2025_Boundaries_UK_BFC/FeatureServer"
+      },
+      {
+        "claim": "The Box, Smeaton's Tower: Eddystone reef 1759, taken down in the early 1880s, two thirds moved to Plymouth Hoe, 72 foot high.",
+        "url": "https://www.theboxplymouth.com/outside-the-box/smeatons-tower"
+      },
+      {
+        "claim": "Royal William Yard, History: Sir John Rennie, built 1825, King William IV, largest collection of Grade I listed military buildings in Europe.",
+        "url": "https://royalwilliamyard.com/history"
+      }
+    ],
+    "rejectedClaims": [
+      "Historic England list entry pages: the website returned 403, so no list entry description is quoted; only the open data fields are used.",
+      "The cost of Smeaton's Tower in 1759: money figures are excluded by the cluster rules.",
+      "Visitor numbers for Royal William Yard: not needed and not independently checked.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Historic England, The Box, Royal William Yard or Plymouth City Council."
+    ]
   }
 }
