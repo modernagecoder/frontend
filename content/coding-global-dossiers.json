@@ -18201,5 +18201,67 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Ordnance Survey, the University of York, the National Railway Museum or City of York Council."
     ]
+  },
+  "best-coding-class-in-norwich": {
+    "market": "Norwich",
+    "bodyClass": "cg-nor",
+    "pageType": "city",
+    "curriculumAuthority": "Norwich, Census 2021 via Nomis (E07000148): TS001 143,922 usual residents, 137,487 in households, 6,435 in communal establishments; TS007A 10,263 aged 15 to 19 (7.1 percent, England 5.7), 16,471 aged 20 to 24 (11.4 percent, England 6.0), 12,061 aged 25 to 29 (8.4 percent, England 6.6); TS068 35,161 students of 136,992 residents aged 5 and over (25.7 percent, England 20.4); TS006 3,688.2 usual residents per square kilometre (England 433.5). Norwich Cathedral, Our story and Cathedral highlights: founded 1096 by Herbert de Losinga, the first Bishop of Norwich, as a Benedictine monastery; spire above the city for over 900 years; most complete Norman cathedral in England; second tallest spire; largest collection of medieval roof bosses in the world.",
+    "localProject": "Are Norwich's churches clustered or evenly spaced? Historic England NHLE Listed Building points (OGL, read 22 September 2026) clipped to ONS LAD E07000148: 1,037 entries (850 II, 125 II*, 62 I); 34 Grade I named as church, chapel or cathedral. Clark-Evans ratio: council area 39.00 km2, observed mean nearest neighbour 243 m, expected 535 m, R 0.453 (z -6.10), none of 499 random layouts as clustered; convex hull 4.39 km2, expected 180 m, R 1.351 (z +3.91), about 2 percent of 499 layouts as spread. All 62 Grade I: council R 0.383, hull R 1.022. Closest pair All Saints Church and Church of St John Baptist 51 m; median nearest-church distance 134 m. Lesson family: point pattern analysis, Clark-Evans ratio, complete spatial randomness, Monte Carlo envelopes and the study-area problem; distinct from Plymouth kernel density and Bristol Voronoi.",
+    "requiredMentions": [
+      "143,922",
+      "137,487",
+      "6,435",
+      "3,688.2",
+      "16,471",
+      "35,161",
+      "136,992",
+      "Losinga",
+      "roof bosses",
+      "Clark-Evans",
+      "St Peter Mancroft",
+      "1.351"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Norwich: 143,922 usual residents; 137,487 in households; 6,435 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E07000148"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Norwich and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E07000148,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Norwich 35,161 students of 136,992 aged 5 and over (25.7 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E07000148,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, Norwich 3,688.2 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E07000148,E92000001"
+      },
+      {
+        "claim": "Historic England, National Heritage List for England open data, Listed Building points (OGL).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "ONS, Local Authority Districts December 2025 boundaries (BFC), Norwich.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_DEC_2025_Boundaries_UK_BFC/FeatureServer"
+      },
+      {
+        "claim": "Norwich Cathedral, Our story: founded 1096 by Herbert de Losinga; over 900 years of the spire.",
+        "url": "https://www.cathedral.org.uk/our-story/"
+      },
+      {
+        "claim": "Norwich Cathedral, Cathedral highlights: most complete Norman cathedral in England, second tallest spire, largest collection of medieval roof bosses.",
+        "url": "https://www.cathedral.org.uk/cathedral-highlights/"
+      }
+    ],
+    "rejectedClaims": [
+      "A count of all medieval churches in Norwich: list entry names are inconsistent (some churches are listed as museums or arts centres), so the page uses only Grade I entries named as churches, chapels or the cathedral, and says so.",
+      "Norwich Castle museum history page: returned 403, so nothing from it is used.",
+      "Any claim that the churches were deliberately spaced: the test rules out randomness within the old city; the parish explanation is offered as fitting, not as proven.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Historic England, Norwich Cathedral or Norwich City Council."
+    ]
   }
 }
