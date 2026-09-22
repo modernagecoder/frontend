@@ -1008,12 +1008,18 @@
 # Alternative landing pages (Phase 5.3)
 /cuemath-alternative /src/pages/cuemath-alternative.html 200
 /cuemath-alternative.md /src/pages/cuemath-alternative.md 200
+/vedantu-alternative /src/pages/vedantu-alternative.html 200
+/vedantu-alternative.md /src/pages/vedantu-alternative.md 200
+/bhanzu-alternative /src/pages/bhanzu-alternative.html 200
+/bhanzu-alternative.md /src/pages/bhanzu-alternative.md 200
 /whitehat-jr-alternative /src/pages/whitehat-jr-alternative.html 200
 /whitehat-jr-alternative.md /src/pages/whitehat-jr-alternative.md 200
 /byjus-coding-alternative /src/pages/byjus-coding-alternative.html 200
 /byjus-coding-alternative.md /src/pages/byjus-coding-alternative.md 200
 /codingal-alternative /src/pages/codingal-alternative.html 200
 /codingal-alternative.md /src/pages/codingal-alternative.md 200
+/codeyoung-alternative /src/pages/codeyoung-alternative.html 200
+/codeyoung-alternative.md /src/pages/codeyoung-alternative.md 200
 /brightchamps-alternative /src/pages/brightchamps-alternative.html 200
 /brightchamps-alternative.md /src/pages/brightchamps-alternative.md 200
 /tynker-alternative /src/pages/tynker-alternative.html 200
@@ -3524,4 +3530,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-hull /src/pages/best-coding-class-in-hull.html 200
 /best-coding-class-in-hull.md /src/pages/best-coding-class-in-hull.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-york /src/pages/best-coding-class-in-york.html 200
+/best-coding-class-in-york.md /src/pages/best-coding-class-in-york.md 200
 /* /src/pages/404.html 404

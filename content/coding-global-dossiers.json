@@ -18143,5 +18143,63 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Environment Agency, Ordnance Survey, KCOM or Hull City Council."
     ]
+  },
+  "best-coding-class-in-york": {
+    "market": "York",
+    "bodyClass": "cg-yrk",
+    "pageType": "city",
+    "curriculumAuthority": "York, Census 2021 via Nomis (E06000014): TS001 202,821 usual residents, 191,572 in households, 11,249 in communal establishments; TS007A 15,216 aged 15 to 19 (7.5 percent, England 5.7), 20,355 aged 20 to 24 (10.0 percent, England 6.0); TS068 48,779 students of 194,206 residents aged 5 and over (25.1 percent, England 20.4); TS006 745.8 usual residents per square kilometre (England 433.5). University of York, History of the University: plans first appeared as early as 1617; permission granted in 1960; Heslington before the Second World War a quiet rural retreat and working agricultural village. National Railway Museum, About us: York motive power depot turntable about 1950, the engine shed now the Great Hall; Leeman Road entrance 1975.",
+    "localProject": "How surprising is a York street name? OS Open Names (read 21 September 2026), Named Road rows in York: 2,785 distinct names, 151 endings (last word; -gate words grouped). Close 369 (13.2 percent, 2.92 bits), Street 247 (3.50), Avenue 235 (3.57), Lane 225 (3.63), Road 212 (3.72), -gate words 42 (6.05 bits), 80 endings used once (11.44 bits). Entropy 4.729 bits, maximum 7.238, fixed code 8 bits, Huffman 4.760. Names ending in gate: York 47 (1.7 percent), Leeds 86 of 12,005, Sheffield 31 of 6,457. Equal-size comparison (200 subsamples of 2,785): Leeds 4.940, York 4.729, Newcastle 4.410, Hull 4.117, Bristol 4.072, Sheffield 4.044, Plymouth 4.034, Nottingham 3.962; Leeds full list 4.987 with 253 endings. Lesson family: Shannon entropy, surprise in bits, Huffman coding against entropy, sample-size bias; distinct from Cardiff Zipf rank-size and Wolverhampton trie prefixes.",
+    "requiredMentions": [
+      "202,821",
+      "191,572",
+      "745.8",
+      "20,355",
+      "48,779",
+      "194,206",
+      "4.729",
+      "Shambles",
+      "Heslington",
+      "Coppergate",
+      "entropy",
+      "Leeman Road"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, York: 202,821 usual residents; 191,572 in households; 11,249 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E06000014"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: York and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E06000014,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: York 48,779 students of 194,206 aged 5 and over (25.1 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E06000014,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, York 745.8 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E06000014,E92000001"
+      },
+      {
+        "claim": "Ordnance Survey Open Names (CSV download): named roads with council area.",
+        "url": "https://api.os.uk/downloads/v1/products/OpenNames/downloads"
+      },
+      {
+        "claim": "University of York, History of the University: 1617 plans, 1960 permission, Heslington before the Second World War.",
+        "url": "https://www.york.ac.uk/about/history/"
+      },
+      {
+        "claim": "National Railway Museum, About us: York motive power depot about 1950, now the Great Hall; Leeman Road entrance 1975.",
+        "url": "https://www.railwaymuseum.org.uk/about-us"
+      }
+    ],
+    "rejectedClaims": [
+      "The Old Norse origin of -gate street names: every candidate source tried (Jorvik Viking Centre, York Archaeology, Visit York) returned 403, so the page states the count and not the etymology.",
+      "Any claim that York has the most varied street names in England: only eight cities were measured, and Leeds scored higher.",
+      "Entropy comparisons on lists of different sizes: replaced by equal-size subsamples after the full-list figures were shown to favour larger lists.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Ordnance Survey, the University of York, the National Railway Museum or City of York Council."
+    ]
   }
 }

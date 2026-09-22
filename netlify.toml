@@ -3281,6 +3281,28 @@
   from = "/cuemath-alternative.md"
   to = "/src/pages/cuemath-alternative.md"
   status = 200
+
+# Competitor comparison: Vedantu alternative
+[[redirects]]
+  from = "/vedantu-alternative"
+  to = "/src/pages/vedantu-alternative.html"
+  status = 200
+
+[[redirects]]
+  from = "/vedantu-alternative.md"
+  to = "/src/pages/vedantu-alternative.md"
+  status = 200
+
+# Competitor comparison: Bhanzu alternative
+[[redirects]]
+  from = "/bhanzu-alternative"
+  to = "/src/pages/bhanzu-alternative.html"
+  status = 200
+
+[[redirects]]
+  from = "/bhanzu-alternative.md"
+  to = "/src/pages/bhanzu-alternative.md"
+  status = 200
 [[redirects]]
   from = "/whitehat-jr-alternative"
   to = "/src/pages/whitehat-jr-alternative.html"
@@ -3307,6 +3329,17 @@
 [[redirects]]
   from = "/codingal-alternative.md"
   to = "/src/pages/codingal-alternative.md"
+  status = 200
+
+# Competitor comparison: Codeyoung alternative
+[[redirects]]
+  from = "/codeyoung-alternative"
+  to = "/src/pages/codeyoung-alternative.html"
+  status = 200
+
+[[redirects]]
+  from = "/codeyoung-alternative.md"
+  to = "/src/pages/codeyoung-alternative.md"
   status = 200
 [[redirects]]
   from = "/brightchamps-alternative"
@@ -12757,6 +12790,18 @@
 [[redirects]]
   from = "/best-coding-class-in-hull.md"
   to = "/src/pages/best-coding-class-in-hull.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-class-in-york"
+  to = "/src/pages/best-coding-class-in-york.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-york.md"
+  to = "/src/pages/best-coding-class-in-york.md"
   status = 200
 
 [[redirects]]
