@@ -1,10 +1,10 @@
 ---
-title: "Coding for 8 Year Olds: Scratch, Block Coding & Creative Projects for Kids | Modern Age Coders"
-description: "Live online coding classes built for 8 year olds. Scratch Junior, block coding, animated stories and first games. 1 hour sessions, 1:1 or small group. Book a free demo."
+title: "Coding Classes for 8 Year Olds: Scratch and First Games, Live | Modern Age Coders"
+description: "Live online coding classes for 8 year olds: Scratch and block coding, a first game in the first weeks, 1 hour classes, batch of 5 to 10 or 1-on-1. Free demo."
 canonical: https://learn.modernagecoders.com/coding-for-8-year-olds
 source: src/pages/coding-for-8-year-olds.html
 ---
-> Live online coding classes built for 8 year olds. Scratch Junior, block coding, animated stories and first games. 1 hour sessions, 1:1 or small group. Book a free demo.
+> Live online coding classes for 8 year olds: Scratch and block coding, a first game in the first weeks, 1 hour classes, batch of 5 to 10 or 1-on-1. Free demo.
 
 For parents of 8 year olds · Class 3
 
@@ -12,7 +12,11 @@ For parents of 8 year olds · Class 3
 
 At 8, kids love building tiny worlds, a bouncing cat, a colour story, a singing pumpkin. We use Scratch and gentle block coding so they build those worlds themselves, with no typing pressure and no boredom. Live, 1 hour per session.
 
-[Book a free demo class](/book-demo)See the curriculum**3,100+**8-year-olds taught live since 2020**4.9 / 5**Parent rating across Class 2–4**1 hour**Per class, 1:1 or small group**6 weeks**To their first finished Scratch project8Age cohortScratch readyAnimated storiesFirst gameCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Per class, 1:1 or small group**6 weeks**To their first finished Scratch project8Age cohortScratch readyAnimated storiesFirst gameIn short
+
+Coding classes for 8 year olds at Modern Age Coders are live, one hour long, and run in a batch of 5 to 10 children of the same age or 1-on-1. An 8 year old starts in Scratch, finishes a first game within the first weeks, and moves to typed code only when reading and typing are ready, usually at [9](/coding-for-9-year-olds) or [10](/coding-for-10-year-olds). A child who has already finished Scratch Junior, Code.org or Swift Playgrounds skips the opening weeks and gets harder projects from the first class. The [coding milestones for 8 to 10 year olds](/blog/best-coding-languages-kids-10-18-beginner-advanced) are listed in our parent guide.
+
+Courses matched for this level
 
 ## Courses made for 8-year-old fingers and minds.
 
@@ -162,7 +166,7 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 ### Live Small-Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+5 to 10 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
@@ -207,7 +211,7 @@ RRia MukherjeeParentCommon questions from parents
 
 Short, plain answers. If your question isn't here, tap the callback button at the top and a human will get back to you the same day.
 
-Is 8 too young to start coding classes?Not at all. Most children at 8 already read short paragraphs, follow multi-step instructions and love making things. Those are the only three skills Scratch asks for. We do not push typing or text code at this age. That comes later.Do you use Scratch, Code.org or something else?Primarily Scratch (MIT). It is free, proven, and the blocks read in clear English. We also use Code.org puzzles as warm-ups, and occasionally Blockly for variety.My child cannot type yet, will that be a problem?No. Scratch blocks snap together with the mouse. Typing comes naturally later. We do include light typing games as a warm-up but never pressure.How long is one class and how often per week?Every class is 1 hour. Most 8-year-olds do two classes a week, which is the sweet spot between progress and not feeling like school. Parents can pick a different frequency.Should I pick 1-on-1 or small group for an 8 year old?1-on-1 is best if your child is shy, very energetic, or has a specific learning need. Small group (4–6 kids of the same age) works beautifully for most children and adds the joy of classmates.What if my child gets distracted during an online class?That's normal at 8. Our teachers are trained to bring attention back with a change of activity, not scolding. If a class is going nowhere we pause and send you a parent note instead of pushing through.Do you give homework at this age?Tiny optional tasks. Something like "draw what you want your next game to look like" or "finish the colouring of your sprite". Nothing that feels like school.Do you offer a refund if it does not work out?Free demo, no card required. If you enrol and the fit isn't right, we refund the unused portion of the fees within the first 2 weeks.Book a free 1 hour demo class
+Is 8 too young to start coding classes?Not at all. Most children at 8 already read short paragraphs, follow multi-step instructions and love making things. Those are the only three skills Scratch asks for. We do not push typing or text code at this age. That comes later.Do you use Scratch, Code.org or something else?Primarily Scratch (MIT). It is free, proven, and the blocks read in clear English. We also use Code.org puzzles as warm-ups, and occasionally Blockly for variety.My child cannot type yet, will that be a problem?No. Scratch blocks snap together with the mouse. Typing comes naturally later. We do include light typing games as a warm-up but never pressure.How long is one class and how often per week?Every class is 1 hour. Most 8-year-olds do two classes a week, which is the sweet spot between progress and not feeling like school. Parents can pick a different frequency.Should I pick 1-on-1 or small group for an 8 year old?1-on-1 is best if your child is shy, very energetic, or has a specific learning need. Small group (5 to 10 kids of the same age) works beautifully for most children and adds the joy of classmates.What if my child gets distracted during an online class?That's normal at 8. Our teachers are trained to bring attention back with a change of activity, not scolding. If a class is going nowhere we pause and send you a parent note instead of pushing through.Do you give homework at this age?Tiny optional tasks. Something like "draw what you want your next game to look like" or "finish the colouring of your sprite". Nothing that feels like school.Do you offer a refund if it does not work out?Free demo, no card required. If you enrol and the fit isn't right, we refund the unused portion of the fees within the first 2 weeks.Is there advanced coding for an 8 year old who has already done Scratch?Yes. An 8 year old who has finished Scratch Junior, Code.org puzzles or a first Scratch course does not repeat them. The teacher checks what the child can already build in the free demo, then starts with multi-scene Scratch games, variables and broadcasting, and adds short typed Python when reading and typing are ready. In a batch of 5 to 10 the projects are set per child, and 1-on-1 the whole hour is paced to your child alone.Do you have coding mentors for an advanced 8 year old?Every class is taught live by a mentor who writes software, and an advanced 8 year old is usually best served 1-on-1, where the mentor sets harder projects each week and reviews the child's own ideas. The same mentor stays with the child term after term, so the projects build on each other instead of restarting.What coding milestones should an 8 to 10 year old reach?By the end of the first months an 8 year old should be able to plan a small Scratch project on paper, build it with events, loops and a score variable, and fix their own bugs. By 9 or 10 the milestones are a multi-level game, a first typed Python program and a simple webpage. Our guide to [coding languages and milestones by age, 6 to 18](/blog/best-coding-languages-kids-10-18-beginner-advanced) lays out each step.Book a free 1 hour demo class
 
 ### Try one session. Decide after.
 

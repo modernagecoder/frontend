@@ -1,10 +1,10 @@
 ---
-title: "Coding for 11 Year Olds: Python, Web Development & AI Projects for Class 6 | Modern Age Coders"
-description: "Live online coding classes for 11 year olds. Python, HTML/CSS, game development and AI tools, matched to CBSE/ICSE Class 6 syllabus. 1 hour classes, 1:1 or group."
+title: "Coding Classes for 11 Year Olds: Python, Web and AI Projects | Modern Age Coders"
+description: "Live online coding classes for 11 year olds: Python, HTML and CSS pages, games and beginner AI tools, matched to Class 6. 1 hour, batch of 5 to 10 or 1-on-1."
 canonical: https://learn.modernagecoders.com/coding-for-11-year-olds
 source: src/pages/coding-for-11-year-olds.html
 ---
-> Live online coding classes for 11 year olds. Python, HTML/CSS, game development and AI tools, matched to CBSE/ICSE Class 6 syllabus. 1 hour classes, 1:1 or group.
+> Live online coding classes for 11 year olds: Python, HTML and CSS pages, games and beginner AI tools, matched to Class 6. 1 hour, batch of 5 to 10 or 1-on-1.
 
 For parents of 11 year olds · Class 6
 
@@ -12,7 +12,11 @@ For parents of 11 year olds · Class 6
 
 At 11, your child meets coding formally at school for the first time (CBSE Class 6 and ICSE middle grades introduce it). Our 1 hour live classes take that school exposure and turn it into real Python, real webpages and first AI projects.
 
-[Book a free demo class](/book-demo)See the curriculum**4,800+**11-year-olds in our live classes**4.9 / 5**Parent rating · 470+ reviews**1 hour**Per class, 1:1 or small group**8 weeks**To their first Python + HTML project combo11Age cohortPython projectsWeb basicsAI explorerCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Per class, 1:1 or small group**8 weeks**To their first Python + HTML project combo11Age cohortPython projectsWeb basicsAI explorerIn short
+
+Coding classes for 11 year olds at Modern Age Coders are live, one hour long, in a batch of 5 to 10 children of the same age or 1-on-1. Eleven is the year Python stops being a puzzle: functions, lists and loops land because the child now reasons in steps. The year pairs Python with a first HTML and CSS website and a guided AI project, and it lines up with the Class 6 school computer syllabus without repeating it. Start on [Python for 11 year olds](/python-for-11-year-olds) if your child has done Scratch, or here if they are new.
+
+Courses matched for this level
 
 ## Courses that fit a sharp, curious 11 year old.
 
@@ -162,7 +166,7 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 ### Live Small-Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+5 to 10 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
@@ -207,7 +211,7 @@ RRia MukherjeeParentCommon questions from parents
 
 Short, plain answers. If your question isn't here, tap the callback button at the top and a human will get back to you the same day.
 
-Is 11 a good age to start real Python?Yes. It is arguably the ideal age. At 11, children have the reading, typing and logical fluency Python actually needs, and they still have years before board-exam pressure starts.Does this cover what CBSE Class 6 ICT teaches?Yes, fully, and then some. The Class 6 chapter covers Scratch and a brief Python intro. Our curriculum covers all of that plus real projects and a deeper Python base.How is this different from what schools teach?Schools teach theory and one-off activities. We teach continuous projects with a real teacher watching the screen. By Month 3, most students are ahead of Class 8 school computer curriculum.Will my child struggle moving from Scratch to Python?Almost never. Scratch already teaches events, variables and loops. Python just replaces blocks with typed words. Most 11 year olds transition in 2–3 sessions.1-on-1 or small group for an 11 year old?1-on-1 if you want fastest progress or have a specific goal (Olympiad, school project). Small group (4–6 same-age) if your child enjoys learning with classmates.How much screen time does this add?Two 1-hour sessions per week, plus a 15–20 minute weekly task. Active, hands-on screen time is very different from passive scrolling. Most parents say they notice the difference.Do you prepare for coding Olympiads at this age?Yes, if the child shows the appetite. We have an optional Olympiad track (CCO, NCO, CodeKraft) from Class 5 onwards. It runs alongside the regular curriculum.Is there a free demo?Yes. One full 1-hour demo with a real teacher, no card required. Refund on unused portion within 2 weeks if the fit isn't right.Book a free 1 hour demo class
+Is 11 a good age to start real Python?Yes. It is arguably the ideal age. At 11, children have the reading, typing and logical fluency Python actually needs, and they still have years before board-exam pressure starts.Does this cover what CBSE Class 6 ICT teaches?Yes, fully, and then some. The Class 6 chapter covers Scratch and a brief Python intro. Our curriculum covers all of that plus real projects and a deeper Python base.How is this different from what schools teach?Schools teach theory and one-off activities. We teach continuous projects with a real teacher watching the screen. By Month 3, most students are ahead of Class 8 school computer curriculum.Will my child struggle moving from Scratch to Python?Almost never. Scratch already teaches events, variables and loops. Python just replaces blocks with typed words. Most 11 year olds transition in 2–3 sessions.1-on-1 or small group for an 11 year old?1-on-1 if you want fastest progress or have a specific goal (Olympiad, school project). Small group (4–6 same-age) if your child enjoys learning with classmates.How much screen time does this add?Two 1-hour sessions per week, plus a 15–20 minute weekly task. Active, hands-on screen time is very different from passive scrolling. Most parents say they notice the difference.Do you prepare for coding Olympiads at this age?Yes, if the child shows the appetite. We have an optional Olympiad track (CCO, NCO, CodeKraft) from Class 5 onwards. It runs alongside the regular curriculum.Is there a free demo?Yes. One full 1-hour demo with a real teacher, no card required. Refund on unused portion within 2 weeks if the fit isn't right.What do coding classes for 11 year olds cover, and how does it fit Class 6?Python fundamentals (variables, conditions, loops, functions, lists), a first website in HTML and CSS, one game project and a guided AI project with tools that are appropriate for the age. Class 6 CBSE and ICSE computer chapters are covered on the way, so school work gets easier, but the course goes well beyond the school syllabus.Python or web development first at 11?Python first for most 11 year olds, because it teaches logic with the least syntax, then HTML and CSS a few weeks in so the child has something visible to show. A child who is mainly excited by websites can reverse the order; the teacher decides with you after the free demo.Book a free 1 hour demo class
 
 ### Try one session. Decide after.
 

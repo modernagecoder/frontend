@@ -1,10 +1,10 @@
 ---
-title: "Coding for 17 Year Olds: Class 12 CS, College Prep, Portfolio & DSA | Modern Age Coders"
-description: "Coding for 17 year olds in Class 12. CBSE/ICSE CS and IP, college-ready portfolio, DSA, competitive programming and open-source. 1 hour live classes, 1:1 or group."
+title: "Coding Classes for 17 Year Olds: Class 12 CS, DSA and Portfolio | Modern Age Coders"
+description: "Live online coding classes for 17 year olds in Class 12: CBSE and ICSE CS and IP ahead of school, DSA, and a college-ready portfolio. 1 hour, 5 to 10 or 1-on-1."
 canonical: https://learn.modernagecoders.com/coding-for-17-year-olds
 source: src/pages/coding-for-17-year-olds.html
 ---
-> Coding for 17 year olds in Class 12. CBSE/ICSE CS and IP, college-ready portfolio, DSA, competitive programming and open-source. 1 hour live classes, 1:1 or group.
+> Live online coding classes for 17 year olds in Class 12: CBSE and ICSE CS and IP ahead of school, DSA, and a college-ready portfolio. 1 hour, 5 to 10 or 1-on-1.
 
 For parents of 17 year olds · Class 12 / pre-college
 
@@ -12,7 +12,11 @@ For parents of 17 year olds · Class 12 / pre-college
 
 Class 12 is the last structured year before college. Our programme keeps CBSE/ICSE CS and IP marks safe, finishes a serious portfolio piece, and sharpens DSA or CP for college CS entry. 1 hour live, 1:1 or small group.
 
-[Book a free demo class](/book-demo)See the curriculum**2,900+**Class 12 students this year**4.9 / 5**Parent rating · 340+ reviews**1 hour**Per live class, 1:1 or group**91%**Finish with CS marks 90+17Age cohortBoard-safeCollege-readyPortfolio doneCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Per live class, 1:1 or group**5 to 10**Students in a group batch17Age cohortBoard-safeCollege-readyPortfolio doneIn short
+
+Coding classes for 17 year olds at Modern Age Coders are live, one hour per class, in a batch of 5 to 10 teens or 1-on-1, and are planned around the Class 12 board year: CS or IP taught a chapter ahead of school, DSA and competitive programming for the teen aiming at a CS degree, and a portfolio of finished projects that college applications can point to. Board-first students can start on [CBSE Class 12 CS](/computer-science-class-12-cbse) or [ISC Class 12 CS](/computer-science-class-12-icse).
+
+Courses matched for this level
 
 ## Courses that help win the Class 12 year.
 
@@ -160,7 +164,7 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 ### Live Small-Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+5 to 10 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
@@ -205,7 +209,7 @@ RRia MukherjeeParentCommon questions from parents
 
 Short, plain answers. If your question isn't here, tap the callback button at the top and a human will get back to you the same day.
 
-Is Class 12 too risky to take a coding class?Only if it is the wrong coding class. Ours is designed for Class 12 students: fewer, deeper sessions, scheduled around school exam calendars, with a full pause during pre-boards and boards.Will this help with the CBSE/ICSE CS paper?Directly. Our teachers follow the NCERT / ISC CS syllabus week by week. Most students finish Class 12 with 90+ in CS / IP.What about JEE / CUET prep conflict?Our schedule is flexible. Students prepping for JEE Advanced typically do 1 class a week; those with lighter entrance load do 2. Designed to supplement, not compete.Can my Class 12 child really finish a portfolio project?Yes, one serious project, not ten. We start it in Term 1, ship by Term 2, before pre-boards begin. Parents are often surprised how doable this is with a clear plan.Is 100 DSA problems in Class 12 realistic?Yes, at 3 problems per week with guidance. By the end of Class 12, your child has both the habit and the foundation. They will thank you in first year BTech.Do you help with college applications?We don't write essays. We do help frame the technical portfolio: GitHub clean-up, project writeups, choosing which projects to feature. That part often moves the needle.What about a gap year student?Welcome. Gap-year students often make the fastest progress in our programme because they can do 3–4 sessions a week. We design a 6–9 month intensive track.Is there a free demo?Yes. One full 1 hour live session, no card. If you enrol and it is not working in the first 2 weeks, we refund the unused portion.Book a free 1 hour demo class
+Is Class 12 too risky to take a coding class?Only if it is the wrong coding class. Ours is designed for Class 12 students: fewer, deeper sessions, scheduled around school exam calendars, with a full pause during pre-boards and boards.Will this help with the CBSE/ICSE CS paper?Directly. Our teachers follow the NCERT / ISC CS syllabus week by week. Most students finish Class 12 with 90+ in CS / IP.What about JEE / CUET prep conflict?Our schedule is flexible. Students prepping for JEE Advanced typically do 1 class a week; those with lighter entrance load do 2. Designed to supplement, not compete.Can my Class 12 child really finish a portfolio project?Yes, one serious project, not ten. We start it in Term 1, ship by Term 2, before pre-boards begin. Parents are often surprised how doable this is with a clear plan.Is 100 DSA problems in Class 12 realistic?Yes, at 3 problems per week with guidance. By the end of Class 12, your child has both the habit and the foundation. They will thank you in first year BTech.Do you help with college applications?We don't write essays. We do help frame the technical portfolio: GitHub clean-up, project writeups, choosing which projects to feature. That part often moves the needle.What about a gap year student?Welcome. Gap-year students often make the fastest progress in our programme because they can do 3–4 sessions a week. We design a 6–9 month intensive track.Is there a free demo?Yes. One full 1 hour live session, no card. If you enrol and it is not working in the first 2 weeks, we refund the unused portion.Is 17 too late to start coding?No. A 17 year old who starts from zero can reach confident Python, a first web project and DSA basics within the year, because a teen this age learns syntax quickly and can sit with a hard problem. The plan is simply paced around the board exams, lighter before them and full speed after.Can a 17 year old prepare for a CS degree while doing Class 12?Yes, and that is what most of our 17 year olds do. The year covers the Class 12 CS or IP syllabus ahead of school, then DSA and competitive programming, then a portfolio project such as a deployed web app or an open-source contribution. After the boards, a short bridge into first-year college programming is available.Book a free 1 hour demo class
 
 ### Try one session. Decide after.
 

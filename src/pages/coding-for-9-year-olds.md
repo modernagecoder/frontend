@@ -1,10 +1,10 @@
 ---
-title: "Coding for 9 Year Olds: Scratch, Python Basics & Game Projects for Kids | Modern Age Coders"
-description: "Live online coding classes for 9 year olds. Scratch games, first Python lines, HTML basics and AI tools, all in 1 hour sessions, 1:1 or small group. Free demo."
+title: "Coding Classes for 9 Year Olds: Scratch Games and First Python | Modern Age Coders"
+description: "Live online coding classes for 9 year olds: Scratch games, first Python lines, HTML basics and safe AI tools, 1 hour classes with a batch of 5 to 10 or 1-on-1."
 canonical: https://learn.modernagecoders.com/coding-for-9-year-olds
 source: src/pages/coding-for-9-year-olds.html
 ---
-> Live online coding classes for 9 year olds. Scratch games, first Python lines, HTML basics and AI tools, all in 1 hour sessions, 1:1 or small group. Free demo.
+> Live online coding classes for 9 year olds: Scratch games, first Python lines, HTML basics and safe AI tools, 1 hour classes with a batch of 5 to 10 or 1-on-1.
 
 For parents of 9 year olds · Class 4
 
@@ -12,7 +12,11 @@ For parents of 9 year olds · Class 4
 
 At 9, children have the patience for a 20-block project, enough reading to follow their first Python lines, and exactly the right amount of stubbornness to debug. Our 1 hour live classes turn that energy into finished games, animations and first webpages.
 
-[Book a free demo class](/book-demo)See the curriculum**4,200+**9-year-olds learning with us**4.9 / 5**Parent rating, 410+ reviews**1 hour**Per live class, 1:1 or group**8 weeks**From Scratch to first Python program9Age cohortGame buildingFirst PythonDebug powerCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Per live class, 1:1 or group**8 weeks**From Scratch to first Python program9Age cohortGame buildingFirst PythonDebug powerIn short
+
+Coding classes for 9 year olds at Modern Age Coders are live, one hour long, and run in a batch of 5 to 10 children of the same age or 1-on-1. At 9 most children can hold a 20-block Scratch project in their head, so the year moves from finished Scratch games to the first typed Python lines and a simple webpage. A child who is already past Scratch goes straight to [Python for 9 year olds](/python-for-9-year-olds); a child who is new to coding starts where the [8 year olds](/coding-for-8-year-olds) start, without pressure to type.
+
+Courses matched for this level
 
 ## Courses that match a 9-year-old's attention span and ambition.
 
@@ -162,7 +166,7 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 ### Live Small-Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+5 to 10 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
@@ -207,7 +211,7 @@ KKrishnam BhatterFormer studentCommon questions from parents
 
 Short, plain answers. If your question isn't here, tap the callback button at the top and a human will get back to you the same day.
 
-Is 9 the right age to start Python?For early, gentle exposure, yes. We start with 3 to 5 line programs, focused on silly outputs and small games. We do not push loops and functions at this age unless the child is clearly ready.Will coding clash with Class 4 schoolwork?Two 1-hour sessions a week is the usual schedule and parents rarely report conflict. In fact, most tell us maths problem-solving gets easier as coding progresses.What equipment do we need at home?Any laptop or desktop from the last five years. Stable internet, a webcam and headphones. Tablets don't work well for coding at this age, a proper keyboard matters.Do you teach real Python or just block coding?Both. We start with Scratch because it removes typing errors, and introduce Python as soon as typing is comfortable, usually around week 10.1-on-1 or small group, which for a 9 year old?Group works for most 9-year-olds because they enjoy classmates and the pace is gentle. 1-on-1 is better if your child is very shy, very advanced, or has a specific need.What if they lose interest after a month?We change the track before we change the child. If Scratch isn't clicking we move to AI tools, or HTML, or game dev. Interest at 9 is about finding the right door.Can coding help with CBSE/ICSE Class 4 computer subject?Yes. Class 4 computer textbooks cover Scratch, Logo and the basics of a computer. Our curriculum naturally covers all of that plus more, so school lessons feel easy.Is there a free demo class?Yes, one full 1 hour live class with a real teacher, no card required. If you enrol and the fit isn't right, we refund the unused portion within 2 weeks.Book a free 1 hour demo class
+Is 9 the right age to start Python?For early, gentle exposure, yes. We start with 3 to 5 line programs, focused on silly outputs and small games. We do not push loops and functions at this age unless the child is clearly ready.Will coding clash with Class 4 schoolwork?Two 1-hour sessions a week is the usual schedule and parents rarely report conflict. In fact, most tell us maths problem-solving gets easier as coding progresses.What equipment do we need at home?Any laptop or desktop from the last five years. Stable internet, a webcam and headphones. Tablets don't work well for coding at this age, a proper keyboard matters.Do you teach real Python or just block coding?Both. We start with Scratch because it removes typing errors, and introduce Python as soon as typing is comfortable, usually around week 10.1-on-1 or small group, which for a 9 year old?Group works for most 9-year-olds because they enjoy classmates and the pace is gentle. 1-on-1 is better if your child is very shy, very advanced, or has a specific need.What if they lose interest after a month?We change the track before we change the child. If Scratch isn't clicking we move to AI tools, or HTML, or game dev. Interest at 9 is about finding the right door.Can coding help with CBSE/ICSE Class 4 computer subject?Yes. Class 4 computer textbooks cover Scratch, Logo and the basics of a computer. Our curriculum naturally covers all of that plus more, so school lessons feel easy.Is there a free demo class?Yes, one full 1 hour live class with a real teacher, no card required. If you enrol and the fit isn't right, we refund the unused portion within 2 weeks.Can a 9 year old really start Python?Yes, in small doses. A 9 year old who reads comfortably and can type a short sentence can write a first Python program of a few lines, usually turtle graphics or a guessing game, in the second or third month. We keep Scratch alongside it so the child still finishes visible projects while the typing catches up.Coding classes for 9 year olds: group or 1-on-1?A batch of 5 to 10 children of the same age works well for most 9 year olds, because they show each other their games at the end of class and that keeps them building. 1-on-1 suits a shy child, a very energetic child, or a child who is well ahead of the class and needs harder projects each week. Both are live, one hour, with the same teacher all year.Book a free 1 hour demo class
 
 ### Try one session. Decide after.
 

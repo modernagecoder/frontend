@@ -1,10 +1,10 @@
 ---
-title: "Coding for 16 Year Olds: CS Stream, Full Stack, AI/ML & DSA for Class 11 | Modern Age Coders"
-description: "Coding for 16 year olds in Class 11. Full-stack, AI/ML with Pandas and sklearn, DSA in C++/Python, CBSE/ICSE CS alignment. Build a real portfolio for college."
+title: "Coding Classes for 16 Year Olds: Full Stack, AI and DSA, Class 11 | Modern Age Coders"
+description: "Live online coding classes for 16 year olds in Class 11: full stack web, AI with Pandas and scikit-learn, DSA in C++ or Python. Batch of 5 to 10 or 1-on-1."
 canonical: https://learn.modernagecoders.com/coding-for-16-year-olds
 source: src/pages/coding-for-16-year-olds.html
 ---
-> Coding for 16 year olds in Class 11. Full-stack, AI/ML with Pandas and sklearn, DSA in C++/Python, CBSE/ICSE CS alignment. Build a real portfolio for college.
+> Live online coding classes for 16 year olds in Class 11: full stack web, AI with Pandas and scikit-learn, DSA in C++ or Python. Batch of 5 to 10 or 1-on-1.
 
 For parents of 16 year olds · Class 11
 
@@ -12,7 +12,11 @@ For parents of 16 year olds · Class 11
 
 Class 11 is where coding stops being optional for CS-stream students. Our 1 hour live classes align with Class 11 CS / Informatics Practices, build a serious MERN + AI portfolio, and start DSA at a level that matters for JEE and college interviews.
 
-[Book a free demo class](/book-demo)See the curriculum**3,800+**Class 11 teens with us**4.9 / 5**Parent rating · 420+ reviews**1 hour**Per live class, 1:1 or group**6 projects**Portfolio-standard across Class 1116Age cohortCS stream alignedMERN + AIDSA in C++Courses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Per live class, 1:1 or group**6 projects**Portfolio-standard across Class 1116Age cohortCS stream alignedMERN + AIDSA in C++In short
+
+Coding classes for 16 year olds at Modern Age Coders are live, one hour per class, in a batch of 5 to 10 teens or 1-on-1, and are built for the Class 11 year: a full stack project, an AI course on real data with Pandas and scikit-learn, and DSA in C++ or Python for the CS stream. School CS in CBSE and ICSE is covered along the way, a chapter ahead of the school. Board-first students can start on [CBSE Class 11 CS](/computer-science-class-11-cbse) or [ICSE Class 11 CS](/computer-science-class-11-icse).
+
+Courses matched for this level
 
 ## Courses for a 16 year old in the CS stream.
 
@@ -162,7 +166,7 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 ### Live Small-Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+5 to 10 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
@@ -207,7 +211,7 @@ SSonam OswalParent of DhairyaCommon questions from parents
 
 Short, plain answers. If your question isn't here, tap the callback button at the top and a human will get back to you the same day.
 
-Does this match CBSE Class 11 CS?Yes, directly. The CBSE Class 11 CS syllabus (Python, boolean logic, number systems, emerging trends) is covered weekly. We keep the NCERT book open during class.What about CBSE Class 11 Informatics Practices?Covered fully. Pandas, matplotlib, SQL, HTML basics. Our IP track is widely used by CBSE IP students who find the Pandas sections hard.And ICSE Class 11?ICSE Class 11 CS is Java-heavy. We have a dedicated Java track that matches the ISC syllabus: OOP, arrays, strings, functions, recursion.Is DSA in C++ or Python at 16?Student's choice. C++ is the gold standard for competitive programming and JEE Advanced CS. Python is fine for portfolio-focused students. Both work for interviews.How much time does this take weekly?2 to 3 hours total, two 1-hour sessions plus about an hour of homework. Designed to fit alongside JEE / NEET / CUET prep without stress.Do you prepare for the CBSE IP practical exam?Yes. Sample datasets, likely question patterns, viva rehearsal. Most of our IP students clear the practical comfortably.Can a Class 11 student really join hackathons?Yes, smaller student hackathons are perfect. We guide project scoping, team etiquette and submission. A first-place finish is rare; a first project finished is common.Is there 1-on-1 only or is group also serious?Both are serious. Our group batches at 16 are placed by level, not just age, so a strong student is with other strong students.Book a free 1 hour demo class
+Does this match CBSE Class 11 CS?Yes, directly. The CBSE Class 11 CS syllabus (Python, boolean logic, number systems, emerging trends) is covered weekly. We keep the NCERT book open during class.What about CBSE Class 11 Informatics Practices?Covered fully. Pandas, matplotlib, SQL, HTML basics. Our IP track is widely used by CBSE IP students who find the Pandas sections hard.And ICSE Class 11?ICSE Class 11 CS is Java-heavy. We have a dedicated Java track that matches the ISC syllabus: OOP, arrays, strings, functions, recursion.Is DSA in C++ or Python at 16?Student's choice. C++ is the gold standard for competitive programming and JEE Advanced CS. Python is fine for portfolio-focused students. Both work for interviews.How much time does this take weekly?2 to 3 hours total, two 1-hour sessions plus about an hour of homework. Designed to fit alongside JEE / NEET / CUET prep without stress.Do you prepare for the CBSE IP practical exam?Yes. Sample datasets, likely question patterns, viva rehearsal. Most of our IP students clear the practical comfortably.Can a Class 11 student really join hackathons?Yes, smaller student hackathons are perfect. We guide project scoping, team etiquette and submission. A first-place finish is rare; a first project finished is common.Is there 1-on-1 only or is group also serious?Both are serious. Our group batches at 16 are placed by level, not just age, so a strong student is with other strong students.Which AI courses suit 16 year olds?At 16 the AI course is real machine learning: Pandas for data, scikit-learn for models, a neural network by the end, and a project the teen chooses, such as a price predictor, a recommender or an image classifier. It assumes Python; a teen without Python does a short foundation first. See [AI and ML masterclass for teens](/courses/ai-ml-masterclass-teens).Does a coding class for 16 year olds clash with Class 11 CS at school?No, it runs a chapter ahead of it. The teacher has the CBSE or ICSE Class 11 syllabus open and teaches each topic before the school reaches it, so school CS becomes revision, and the project work goes far beyond what the board asks.Book a free 1 hour demo class
 
 ### Try one session. Decide after.
 

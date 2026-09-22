@@ -1,10 +1,10 @@
 ---
-title: "Coding for 15 Year Olds: Full Stack, AI/ML & DSA for Class 10 Board Year | Modern Age Coders"
-description: "Coding for 15 year olds in Class 10. Full stack web, AI/ML projects, DSA and competitive programming, without hurting board preparation. 1 hour live classes."
+title: "Coding Classes for 15 Year Olds: Full Stack, AI and DSA, Class 10 | Modern Age Coders"
+description: "Live coding classes for 15 year olds in Class 10: full stack web, AI sessions, DSA and competitive programming, planned around the boards. 5 to 10 or 1-on-1."
 canonical: https://learn.modernagecoders.com/coding-for-15-year-olds
 source: src/pages/coding-for-15-year-olds.html
 ---
-> Coding for 15 year olds in Class 10. Full stack web, AI/ML projects, DSA and competitive programming, without hurting board preparation. 1 hour live classes.
+> Live coding classes for 15 year olds in Class 10: full stack web, AI sessions, DSA and competitive programming, planned around the boards. 5 to 10 or 1-on-1.
 
 For parents of 15 year olds · Class 10 board year
 
@@ -12,7 +12,11 @@ For parents of 15 year olds · Class 10 board year
 
 Class 10 is the board year. The right coding programme at 15 respects that, fewer but deeper sessions, projects timed between exam blocks, and a clear plan so your teen finishes Class 10 with both a score card and a portfolio.
 
-[Book a free demo class](/book-demo)See the curriculum**4,600+**Class 10 students with us**93%**Finish the year without any drop**1 hour**Per live class, 1:1 or group**6 projects**Finished across the year15Age cohortBoard-safePortfolio-gradeDSA basicsCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**5 to 10**Students in a group batch**1 hour**Per live class, 1:1 or group**6 projects**Finished across the year15Age cohortBoard-safePortfolio-gradeDSA basicsIn short
+
+Coding classes for 15 year olds at Modern Age Coders are live, one hour per class, in a batch of 5 to 10 teens or 1-on-1, and the plan is written around the Class 10 board year: lighter in the pre-board months, paused for the boards if you want, and back to full pace afterwards. AI sessions for 15 year olds use real data and a teacher in the room, full stack work produces a deployed site, and DSA prepares the teen for Class 11 and for competitive programming. See [coding for Class 10](/coding-for-class-10) for the exam-year version of this plan.
+
+Courses matched for this level
 
 ## Courses that fit a Class 10 schedule.
 
@@ -160,7 +164,7 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 ### Live Small-Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+5 to 10 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
@@ -205,7 +209,7 @@ PPoonam RathoreParentCommon questions from parents
 
 Short, plain answers. If your question isn't here, tap the callback button at the top and a human will get back to you the same day.
 
-Is Class 10 the wrong year to start coding?Not at all, but the pace is different. We do shorter, deeper sessions and pause during pre-boards. Starting at 15 is still a good 2 years ahead of Class 12 portfolio needs.Will coding affect board marks?Our Class 10 students finish boards with equal or better marks than their classmates in our experience. The focus coding teaches, planning, debugging, patience, often lifts academics.Do you cover Class 10 CBSE CS / IT paper directly?Yes. The teacher keeps the CBSE code 402 / 165 syllabus open and aligns weekly. Sample papers solved together, viva preparation included.What about ICSE Class 10 Computer Applications?Fully covered. Java with BlueJ, OOP, arrays, sorting. Our teachers know the exact question pattern ICSE asks. See also our [ICSE Computer Applications Class 10 page](/computer-applications-icse-class-10).Can we skip coding during pre-boards?Yes. And we suggest it. We also offer a free 1 hour "emergency" session if they are stuck on a school CS topic.Is DSA realistic in Class 10?Yes, at the easy-medium level. 50 curated LeetCode problems across the year is a very reasonable target and builds confidence for Class 11.Do you coach for the Class 10 CS project and viva?Yes. We help pick the project, write the report properly, and prepare for the viva with likely questions. Many students score full marks on the project component.Is there a free demo?Yes, one full 1 hour live class, no card. Refund on unused portion within 2 weeks.Book a free 1 hour demo class
+Is Class 10 the wrong year to start coding?Not at all, but the pace is different. We do shorter, deeper sessions and pause during pre-boards. Starting at 15 is still a good 2 years ahead of Class 12 portfolio needs.Will coding affect board marks?Our Class 10 students finish boards with equal or better marks than their classmates in our experience. The focus coding teaches, planning, debugging, patience, often lifts academics.Do you cover Class 10 CBSE CS / IT paper directly?Yes. The teacher keeps the CBSE code 402 / 165 syllabus open and aligns weekly. Sample papers solved together, viva preparation included.What about ICSE Class 10 Computer Applications?Fully covered. Java with BlueJ, OOP, arrays, sorting. Our teachers know the exact question pattern ICSE asks. See also our [ICSE Computer Applications Class 10 page](/computer-applications-icse-class-10).Can we skip coding during pre-boards?Yes. And we suggest it. We also offer a free 1 hour "emergency" session if they are stuck on a school CS topic.Is DSA realistic in Class 10?Yes, at the easy-medium level. 50 curated LeetCode problems across the year is a very reasonable target and builds confidence for Class 11.Do you coach for the Class 10 CS project and viva?Yes. We help pick the project, write the report properly, and prepare for the viva with likely questions. Many students score full marks on the project component.Is there a free demo?Yes, one full 1 hour live class, no card. Refund on unused portion within 2 weeks.Do you run AI sessions for 15 year olds?Yes. AI sessions for 15 year olds are live, one hour, and project-based: a real dataset, a first machine learning model, a chatbot or an image classifier, and an honest discussion of what the model gets wrong. Tools are chosen for the age and used with a teacher present. Our [AI classes for kids and teens](/ai-classes-for-kids) page has the details.Coding classes for 15 year olds in the board year: how do you protect exam time?The year is planned with the school calendar from the start. Classes drop to one a week or pause completely in the pre-board and board months, whichever you choose, and resume at full pace afterwards. Nothing is lost, because the same teacher continues and the project picks up where it stopped.Book a free 1 hour demo class
 
 ### Try one session. Decide after.
 

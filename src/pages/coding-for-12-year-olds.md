@@ -1,10 +1,10 @@
 ---
-title: "Coding for 12 Year Olds: Python, Web Dev, App Building & AI for Class 7 | Modern Age Coders"
-description: "Coding classes for 12 year olds. Python, HTML/CSS/JavaScript, app development and AI projects. Live 1 hour classes, 1:1 or group. Free demo with level check."
+title: "Coding Classes for 12 Year Olds: Python, Web, Apps and AI | Modern Age Coders"
+description: "Live online coding classes for 12 year olds: Python projects, HTML, CSS and JavaScript sites, first apps and AI projects. 1 hour, batch of 5 to 10 or 1-on-1."
 canonical: https://learn.modernagecoders.com/coding-for-12-year-olds
 source: src/pages/coding-for-12-year-olds.html
 ---
-> Coding classes for 12 year olds. Python, HTML/CSS/JavaScript, app development and AI projects. Live 1 hour classes, 1:1 or group. Free demo with level check.
+> Live online coding classes for 12 year olds: Python projects, HTML, CSS and JavaScript sites, first apps and AI projects. 1 hour, batch of 5 to 10 or 1-on-1.
 
 For parents of 12 year olds · Class 7
 
@@ -12,7 +12,11 @@ For parents of 12 year olds · Class 7
 
 Twelve is the bridge. Still a kid, but ready for real tools: Python with files and functions, web pages with JavaScript, a first mobile app prototype, a first real dataset for AI. One hour live, 1:1 or group.
 
-[Book a free demo class](/book-demo)See the curriculum**5,400+**12-year-olds taught to date**4.9 / 5**Parent rating · 610+ reviews**1 hour**Per live class, 1:1 or group**10 weeks**To a deployed webpage + Python project12Age cohortPython fluentJavaScript introFirst AI datasetCourses matched for this level
+[Book a free demo class](/book-demo)See the curriculum**10,000+**Students taught live since 2020**4.9 / 5**Rated across 547 Google reviews**1 hour**Per live class, 1:1 or group**10 weeks**To a deployed webpage + Python project12Age cohortPython fluentJavaScript introFirst AI datasetIn short
+
+Coding classes for 12 year olds at Modern Age Coders are live, one hour long, in a batch of 5 to 10 children of the same age or 1-on-1. Twelve is the bridge year: a child who came from Scratch finishes the move to Python, builds a website with JavaScript and ships a first mobile app, and one who is new to coding starts in Python straight away. Game projects stay in the plan because they are still the fastest way to teach logic at this age. See [Python for 12 year olds](/python-for-12-year-olds) and [coding for Class 7](/coding-for-class-7) for the two most common starting points.
+
+Courses matched for this level
 
 ## Courses for a 12-year-old ready to go beyond blocks.
 
@@ -162,7 +166,7 @@ One teacher, one learner, the full 1 hour. The teacher adapts pace in real time,
 
 ### Live Small-Group Online Class
 
-4 to 6 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
+5 to 10 students at a similar level, one teacher, 1 hour per session. Learners move faster when they see peers solve problems in different ways. Supportive, never pressured. Best if your child enjoys learning with others.
 
 - Small groups of 4 to 6 similar-level learners
 - 1 hour live session, 2 sessions per week
@@ -207,7 +211,7 @@ KKrishnam BhatterFormer studentCommon questions from parents
 
 Short, plain answers. If your question isn't here, tap the callback button at the top and a human will get back to you the same day.
 
-Is 12 too old to start from scratch?Not at all. A 12-year-old can comfortably catch up with what a 9-year-old has learned in about 6 weeks of 1-on-1 classes, because the cognitive load is no longer the limiter. They just need the right on-ramp.Do you teach JavaScript at age 12?Yes, in small doses: DOM manipulation, event listeners, simple widgets. We don't push frameworks like React until 14+.Can a 12 year old really learn AI/ML?Yes, the vocabulary, not the deep maths. Training, testing, accuracy, bias, datasets. These are within reach at 12 if taught without jargon. A real sklearn classifier is totally doable.How do you handle varying levels across 12 year olds?1-on-1 always fits the learner. In group classes we place students by level, not just age, so a beginner 12 year old is with fellow beginners, not with someone two years ahead.What about coding for CBSE Class 7 syllabus?The Class 7 CBSE ICT chapter covers Python basics, HTML intro and a brief look at AI. Our curriculum naturally covers all of that and well beyond, school lessons become easy revision.Can my 12 year old try app development?Yes. We use MIT App Inventor for first apps (no Android Studio complexity), and Flutter starter for those ready for real app dev. A finished first app usually lands in month 5–6.Is there homework pressure?15–20 minute weekly task. We design them as "finish your own project", not extra exercises. Parents rarely report stress.Is there a free demo at this age?Yes, one full 1 hour live class with a real teacher. No card required. Refund on unused portion within 2 weeks if the fit isn't right.Book a free 1 hour demo class
+Is 12 too old to start from scratch?Not at all. A 12-year-old can comfortably catch up with what a 9-year-old has learned in about 6 weeks of 1-on-1 classes, because the cognitive load is no longer the limiter. They just need the right on-ramp.Do you teach JavaScript at age 12?Yes, in small doses: DOM manipulation, event listeners, simple widgets. We don't push frameworks like React until 14+.Can a 12 year old really learn AI/ML?Yes, the vocabulary, not the deep maths. Training, testing, accuracy, bias, datasets. These are within reach at 12 if taught without jargon. A real sklearn classifier is totally doable.How do you handle varying levels across 12 year olds?1-on-1 always fits the learner. In group classes we place students by level, not just age, so a beginner 12 year old is with fellow beginners, not with someone two years ahead.What about coding for CBSE Class 7 syllabus?The Class 7 CBSE ICT chapter covers Python basics, HTML intro and a brief look at AI. Our curriculum naturally covers all of that and well beyond, school lessons become easy revision.Can my 12 year old try app development?Yes. We use MIT App Inventor for first apps (no Android Studio complexity), and Flutter starter for those ready for real app dev. A finished first app usually lands in month 5–6.Is there homework pressure?15–20 minute weekly task. We design them as "finish your own project", not extra exercises. Parents rarely report stress.Is there a free demo at this age?Yes, one full 1 hour live class with a real teacher. No card required. Refund on unused portion within 2 weeks if the fit isn't right.Are there still Scratch projects for a 12 year old, or is it time for Python?Both, briefly. A 12 year old who loves Scratch builds one or two advanced projects (a platformer with clones, a multiplayer-style game with broadcasting) as a bridge, then moves to Python within weeks. A 12 year old who has never coded starts in Python directly; Scratch is optional at this age.Do you teach coding through games for 12 year olds?Yes. Game projects are still the fastest way to teach logic at 12: a Python quiz game, a JavaScript browser game, a simple app with a score. Each one is chosen to introduce one idea (functions, lists, events, state) rather than to entertain, and the child keeps every finished game.Is this a computer course for 12 year olds or a coding course?A coding course. Computer basics (files, typing, safe use of the internet and of AI tools) are covered in the first weeks because they are needed, but the year is spent writing programs: Python, a website, an app and an AI project. For the school-syllabus route see [coding for Class 7](/coding-for-class-7).Book a free 1 hour demo class
 
 ### Try one session. Decide after.
 

@@ -2,6 +2,11 @@
 /*
  * generate-age-grade-pages.js
  *
+ * STALE (2026-09-23): the pages in src/pages have been hand-edited since generation (md twins,
+ * Organization JSON-LD, hreflang, stripped meta keywords, and the Keyword Ledger action 6 retarget
+ * in scripts/seo/retarget-age-pages.js). Re-running this generator DELETES those edits. Diff before
+ * committing anything it writes, or port the change into the HTML directly.
+ *
  * Renders unique HTML pages for age-wise, grade-wise and board-specific
  * coding-class landing pages. Reads config from
  *   scripts/age-grade-pages-config.js
