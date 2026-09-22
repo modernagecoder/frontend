@@ -12,6 +12,8 @@ Live AI classes for kids, ages 6 to 12
 
 Live, small-batch classes where a patient mentor guides your child to make real things with artificial intelligence. Safe, screen-positive and genuinely fun, with projects your child will be proud to show you. AI is already part of the world your child is growing up in, and the children who thrive will be the ones who learn to create with it, not just consume it. We make that first step gentle, joyful and completely doable for any curious kid.
 
+**Quick answer:** Modern Age Coders runs live online AI classes for kids aged 6 to 12, in batches of 5 to 10 with one mentor, two classes a week. Children start with block-based projects and move to their first Python, and every project is built in class, on the teacher's screen or classroom-safe tools, so no child needs an account on any AI service. Fees are a flat monthly amount per format, shown on our pricing page, and every family starts with a free trial class or a full Priority Live Demo.
+
 [Book a free trial class](/book-demo)[Browse all courses](/course-atlas)10,000+Happy students15+Countries4.9/5From 547 reviews70+Live coursesPick a starting point
 
 ## Courses your child will love
@@ -194,7 +196,7 @@ Yes. Early, hands-on exposure builds creativity, problem-solving and quiet confi
 
 How much do AI classes for kids cost?
 
-Group classes are ₹1499/month with two live classes a week. A small 3–4 student Mini-Batch is ₹2,999/month, and fully personalised 1-on-1 classes are ₹4,999/month. Every child can start with a free trial class before you decide.
+Three formats, each a flat monthly fee: a group batch of 5 to 10 children with two live classes a week, a mini batch of 3 to 4, and one-to-one classes. The current fees for your region are on our pricing page, one currency per visitor. Every child can start with a free trial class before you decide, or a Priority Live Demo if you want a full class today or tomorrow.
 
 ## See your child light up in a free trial class
 

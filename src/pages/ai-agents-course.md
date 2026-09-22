@@ -12,11 +12,11 @@ AI Agents • **AI that takes action**
 
 The next wave of AI doesn't just answer. It acts. Learn to build autonomous AI agents that reason, use tools and complete multi-step tasks with LLMs. The think-act-observe loop, tool use, memory and reliable agent design, built hands-on in Python, live with a mentor.
 
-Book a Free DemoSee the Roadmap**act**AI that does**5–8**Students per batch**tools**Agents use tools**Live**Mentor-led
+Book a Free DemoSee the Roadmap**act**AI that does**5 to 10**Students per batch**tools**Agents use tools**Live**Mentor-led
 
 ## Quick answer
 
-**Modern Age Coders' AI Agents Course teaches you to build autonomous AI agents with LLMs in Python.** You'll learn the think-act-observe loop, how to give an LLM tools and memory, and how to design agents that complete multi-step tasks reliably, the architecture behind modern agentic AI. It's hands-on with real agents. Classes are live in small batches of 5–8 with a mentor, group plans start at ₹1,499/month, and a free demo comes first.
+**Modern Age Coders' AI Agents Course teaches you to build autonomous AI agents with LLMs in Python.** You'll learn the think-act-observe loop, how to give an LLM tools and memory, and how to design agents that complete multi-step tasks reliably, the architecture behind modern agentic AI. It's hands-on with real agents. Classes are live in small batches of 5 to 10 with a mentor, the fee is a flat monthly amount shown below in your own currency, and a free demo comes first.
 
 Start Today
 
@@ -82,7 +82,7 @@ What's Next
 
 Tracks that power agentic AI.
 
-[Copilot Studio for TeensBuild agents, no code, 1-on-1](/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens)[Copilot Studio for CollegeBusiness-grade agents, 1-on-1](/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students)[Copilot Studio MasterclassEnterprise agents at work](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)[Large Language ModelsGPT-style models](/large-language-models-course)[Prompt EngineeringGet more from LLMs](/prompt-engineering-course)[Generative AICreate with AI](/generative-ai-course)[NLP CourseLanguage & text AI](/natural-language-processing-course)[Python for MLscikit-learn coding](/python-for-machine-learning)[How to Build AI ModelsThe build process](/how-to-build-ai-models)[Best AI & ML CourseThe full course hub](/best-ai-and-machine-learning-course-in-india)[Online AI & MLLive online format](/online-ai-and-machine-learning-classes)
+[Copilot Studio for TeensBuild agents, no code, 1-on-1](/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens)[Copilot Studio for CollegeBusiness-grade agents, 1-on-1](/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students)[Copilot Studio MasterclassEnterprise agents at work](/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals)[Gemini Enterprise AgentsGoogle Cloud agents, 1-on-1](/courses/build-ai-agents-with-google-gemini-enterprise-course)[Large Language ModelsGPT-style models](/large-language-models-course)[Prompt EngineeringGet more from LLMs](/prompt-engineering-course)[Generative AICreate with AI](/generative-ai-course)[NLP CourseLanguage & text AI](/natural-language-processing-course)[Python for MLscikit-learn coding](/python-for-machine-learning)[How to Build AI ModelsThe build process](/how-to-build-ai-models)[Best AI & ML CourseThe full course hub](/best-ai-and-machine-learning-course-in-india)[Online AI & MLLive online format](/online-ai-and-machine-learning-classes)
 
 Why This Course
 
@@ -108,7 +108,7 @@ Transparent monthly plans, no hidden charges. Start with a free demo.
 
 ₹1,499per month · 2 classes/week
 
-- 5–8 learners per batch
+- 5 to 10 learners per batch
 - Live agent building
 - Recorded class access
 - Completion certificate
@@ -117,7 +117,7 @@ Start Free DemoMost Popular
 
 ### Mini Batch
 
-₹1,499per month · 2 classes/week
+₹2,999per month · 2 classes/week
 
 - Only 3–4 learners per batch
 - More personal mentoring
@@ -128,7 +128,7 @@ Start Free Demo
 
 ### 1-on-1 Personal
 
-₹2,999per month · fully personalised
+₹4,999per month · fully personalised
 
 - Dedicated personal mentor
 - Custom pace & schedule
@@ -183,11 +183,11 @@ Yes. Every topic is hands-on in Python/Colab and you build real, mentor-reviewed
 
 How much does the course cost?+
 
-Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,999 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.
+Three formats, each a flat monthly fee: a group batch of 5 to 10 with two live classes a week, a mini batch of 3 to 4, and one-to-one mentoring. The current fees for your region are on this page and on our pricing page. Every plan starts with a free demo, or a Priority Live Demo if you want a full class today or tomorrow.
 
 Are the classes live and mentor-led?+
 
-Yes. Classes are live in small batches of 5–8 with a mentor who reviews your work, and every session is recorded so you can revise anytime. It's real-time teaching, not pre-recorded videos.
+Yes. Classes are live in small batches of 5 to 10 with a mentor who reviews your work, and every session is recorded so you can revise anytime. It's real-time teaching, not pre-recorded videos.
 
 ---
 
