@@ -45,7 +45,8 @@ function build(c) {
       </a>`).join('\n');
   const dateRows = c.dates.rows.map((r) => `        <div class="bx-tt-row"><span class="bx-tt-day">${esc(r[0])}</span><span class="bx-tt-time">${esc(r[1])}<small>${esc(r[2])}</small></span></div>`).join('\n');
   const tableHead = c.format.headers.map((h) => '<th scope="col">' + esc(h) + '</th>').join('');
-  const tableRows = c.format.rows.map((r, i) => '          <tr' + (i === c.format.rows.length - 1 && c.format.lastIsTotal ? ' class="bx-total"' : '') + '>' + r.map((cell, j) => (j === 0 ? '<td>' : '<td>') + (typeof cell === 'object' ? '<span colspan>' : '') + esc(cell) + '</td>').join('') + '</tr>').join('\n');
+  // a cell that begins with "<" is trusted HTML (a link); everything else is escaped text
+  const tableRows = c.format.rows.map((r, i) => '          <tr' + (i === c.format.rows.length - 1 && c.format.lastIsTotal ? ' class="bx-total"' : '') + '>' + r.map((cell) => '<td>' + (String(cell).startsWith('<') ? cell : esc(cell)) + '</td>').join('') + '</tr>').join('\n');
   const cards = c.sections.cards.map((k) => `      <div class="bx-card">
         <p class="bx-qlabel">${esc(k[0])}</p>
         <h3>${esc(k[1])}</h3>
