@@ -10,7 +10,7 @@ For Professionals • **upskill or switch careers**
 
 # AI & ML for Working Professionals
 
-Add AI/ML to your career, or switch into it, without quitting your job. Applied, weekend-friendly live classes take you through Python, machine learning and deep learning with real projects, built around a busy schedule and focused on skills you can use at work. Small batches, mentor-led.
+Add AI/ML to your career, or switch into it, without quitting your job. Applied, weekend-friendly live classes take you through Python, machine learning and deep learning with real projects, built around a busy schedule and focused on skills you can use at work. Small batches, mentor-led. Every adult path we teach, coding and maths, with the timetable and the fee, is gathered on the [coding classes for adults](/coding-classes-for-adults) page.
 
 Book a Free DemoSee the Roadmap**Weekend**Around your job**3–8**Small batches**Applied**Use it at work**Live**Mentor-led
 

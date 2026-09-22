@@ -27,7 +27,9 @@ files.forEach((rel) => {
   // four FAQ markups in use on the site: <details><summary>Q</summary><div class="faq-a">A</div> (class="age-faq-body" on the age/grade family),
   // <details><summary>Q</summary><p>A</p>, and <div class="faq-item"><div class="faq-question"><span>Q</span>…<div class="faq-answer"><p>A</p>
   const vis = [];
-  [...html.matchAll(/<details[^>]*>\s*<summary>([\s\S]*?)<\/summary>\s*(?:<div class="(?:faq-a|age-faq-body)">([\s\S]*?)<\/div>|<p>([\s\S]*?)<\/p>)/g)].forEach((m) => vis.push([norm(dec(m[1])), norm(dec(m[2] || m[3]))]));
+  [...html.matchAll(/<details[^>]*>\s*<summary>([\s\S]*?)<\/summary>\s*(?:<div class="(?:faq-a|age-faq-body)">([\s\S]*?)<\/div>|<div class="a">\s*<p>([\s\S]*?)<\/p>|<p>([\s\S]*?)<\/p>)/g)].forEach((m) => vis.push([norm(dec(m[1])), norm(dec(m[2] || m[3] || m[4]))]));
+  // the ag- page system: <div class="ag-faq-item"><h3>Q</h3><p>A</p></div>
+  [...html.matchAll(/<div class="ag-faq-item">\s*<h3>([\s\S]*?)<\/h3>\s*<p>([\s\S]*?)<\/p>/g)].forEach((m) => vis.push([norm(dec(m[1])), norm(dec(m[2]))]));
   [...html.matchAll(/<div class="faq-item">\s*<div class="faq-question">\s*<span>([\s\S]*?)<\/span>[\s\S]*?<div class="faq-answer">\s*<p>([\s\S]*?)<\/p>/g)].forEach((m) => vis.push([norm(dec(m[1])), norm(dec(m[2]))]));
   const start = html.indexOf('"mainEntity": [');
   if (!vis.length || start === -1) { console.log('skip:', rel, vis.length ? 'no FAQPage block' : 'no visible FAQ'); return; }

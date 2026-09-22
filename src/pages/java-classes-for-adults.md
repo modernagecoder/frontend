@@ -10,7 +10,7 @@ Ages 18+ • **Adults, Professionals & Career Switchers**
 
 # Java Classes for Adults: From Basics to Job-Ready
 
-Whether you're starting fresh, preparing for placements, or switching into a tech career, our live Java classes take you from your first program to Object-Oriented Programming, Data Structures and backend basics, at a pace that fits a working life. Mentor-led, small batches, flexible evenings and weekends.
+Whether you're starting fresh, preparing for placements, or switching into a tech career, our live Java classes take you from your first program to Object-Oriented Programming, Data Structures and backend basics, at a pace that fits a working life. Mentor-led, small batches, flexible evenings and weekends. Every adult path we teach, coding and maths, with the timetable and the fee, is gathered on the [coding classes for adults](/coding-classes-for-adults) page.
 
 Book a Free Demo ClassSee the Roadmap**4.9/5**Learner rating**5–8**Per batch**Eve/Wknd**Flexible batches**Live**Real mentor
 

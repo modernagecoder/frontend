@@ -4,34 +4,28 @@ description: "Best coding classes for adults in Ireland, live online after work:
 canonical: https://learn.modernagecoders.com/best-coding-classes-for-adults-ireland
 source: src/pages/best-coding-classes-for-adults-ireland.html
 ---
-> Adults in Ireland start coding for three reasons: to change career, to stop being stuck when work needs something technical, or out of plain curiosity. All three work, and none of them needs a degree or a maths background. Try the public routes first: eCollege is government funded and free to anyone over 18, and Springboard+ subsidises higher education courses heavily, with free places for people who are unemployed or returning to work. What a paid live class adds is a teacher in the room with you every week, a pace set to you, and no eligibility rules or fixed intake dates. Ours cost USD 100 a month in a small group and USD 150 a month one to one, after a first class that is free.
+> Best coding classes for adults in Ireland, live online after work: Python, websites, data and AI taught from the beginning, at any age. First class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Ireland](/coding-classes-in-ireland) / Coding for adults, Ireland
+In short
 
-Ireland · Adults · Beginners welcome
+Adults in Ireland start coding for three reasons: to change career, to stop being stuck when work needs something technical, or out of plain curiosity. All three work, and none of them needs a degree or a maths background. Try the public routes first: eCollege is government funded and free to anyone over 18, and Springboard+ subsidises higher education courses heavily, with free places for people who are unemployed or returning to work. What a paid live class adds is a teacher in the room with you every week, a pace set to you, and no eligibility rules or fixed intake dates. Ours cost USD 100 a month in a small group and USD 150 a month one to one, after a first class that is free.
 
-# Best coding classes for adults in Ireland
-
-Ireland is a country of confident technology users and very few programmers. Eurostat puts 82.82% of people here at basic or above basic digital skills in 2025, well ahead of the European Union average of 60.40%. Yet when the Central Statistics Office asked who had actually written code in a programming language, the answer was 18% of male internet users and 4% of female internet users. That gap is the opportunity. Using software well and making it are different skills, and the second one can be started at any age, from a standing start, in the evenings. This page is for adults in Ireland thinking about it: what the national figures really say, which free and subsidised public routes are worth trying before you pay anyone, and what a live class with a teacher adds when you want to keep going. We teach learners from 6 to 67, and a good share of our students are adults who had never written a line before their first class.
-
-At a glance: For: Adults, any starting point; Begins at: No experience at all; Learns: Python, web, data, AI; When: Evenings and weekends, Irish time; Group: Five to ten adults; Or: One to one; Pace: Set with your teacher; Start: A free first class. Rated 4.9 across 547 Google reviews.
+Start here
 
 ## Three ways in for an adult beginner
 
 Whichever you pick, the first class is a real lesson, not a sales call. Each card opens its syllabus.
 
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college): The usual first choice: a readable language that leads on to data work, automation and AI, taught from the very first line.
-- [HTML and CSS for Beginners](/courses/html-css-course-for-beginners-build-real-websites): For people who want something visible fast: a real website you built yourself, published, in a few weeks of evenings.
-- [Data and AI Analytics for Non-Programmers](/courses/data-and-ai-analytics-for-non-programmers-course): For adults whose job is drowning in spreadsheets, and who need results before they need a programming language.
+[![Python Masterclass course thumbnail](/images/python-college.webp)  ADULT / 01 Python Masterclass The usual first choice: a readable language that leads on to data work, automation and AI, taught from the very first line. Open the syllabus →](/courses/python-programming-masterclass-zero-to-advanced-college)[![HTML & CSS for Beginners course thumbnail](/images/html-css-beginners.webp)  ADULT / 02 HTML and CSS for Beginners For people who want something visible fast: a real website you built yourself, published, in a few weeks of evenings. Open the syllabus →](/courses/html-css-course-for-beginners-build-real-websites)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)  ADULT / 03 Data and AI Analytics for Non-Programmers For adults whose job is drowning in spreadsheets, and who need results before they need a programming language. Open the syllabus →](/courses/data-and-ai-analytics-for-non-programmers-course)
+
+The skills picture
 
 ## What Ireland is good at, and where the gaps are
 
 The national policy and the measurements come from different places, so here they are separately, each with its source.
 
-**Adult digital skills in Ireland**
-
 | Measure | Figure | Source |
-|---|---|---|
+| --- | --- | --- |
 | National target for adults with at least basic digital skills by 2030 | 80% | Harnessing Digital, the Digital Ireland Framework |
 | Individuals in Ireland with basic or above basic overall digital skills, 2025 | 82.82% | Eurostat |
 | The same measure in 2023 | 72.91% | Eurostat |
@@ -53,14 +47,14 @@ It shows up in who studies, too. The CSO found 35% of internet users in very aff
 
 Sources, read 16 September 2026: [Harnessing Digital: the Digital Ireland Framework](https://www.gov.ie/en/department-of-the-taoiseach/publications/harnessing-digital-the-digital-ireland-framework/); [Eurostat isoc_sk_dskl_i21](https://ec.europa.eu/eurostat/databrowser/view/isoc_sk_dskl_i21/default/table); [Digital Decade 2025 country report for Ireland](https://enterprise.gov.ie/en/publications/publication-files/digital-decade-2025-ireland-country-report.pdf); [CSO, Household Digital Consumer Behaviour 2025](https://www.cso.ie/en/releasesandpublications/ep/p-isshdcb/householddigitalconsumerbehaviour2025/onlinelearning/). The 80% target and the 82.82% measurement come from different bodies and are shown separately here for that reason.
 
+Free and subsidised routes
+
 ## Try the public routes first
 
 We would rather tell you this than have you find out later. Ireland funds adult learning generously, and for some people the right first step costs nothing at all.
 
-**Public options for adults, as the State describes them**
-
 | Route | What it is | What learners pay |
-|---|---|---|
+| --- | --- | --- |
 | eCollege | A government-funded online training service with certified courses, including software development, available any time | Currently free to anyone over 18 |
 | Springboard+ 2026 | More than 7,200 places on 244 courses from 36 education providers, at NFQ Levels 6 to 9 | Free if unemployed or returning to the workforce; typically 10% of the fee if employed |
 | Springboard+ micro-credentials | Short accredited modules within the same programme | Half the fee is subsidised, whatever your employment status |
@@ -76,14 +70,14 @@ Our classes start any week, put you in a group of five to ten at your level or w
 
 Sources: [gov.ie, Springboard+ 2026 launch](https://www.gov.ie/en/department-of-further-and-higher-education-research-innovation-and-science/press-releases/minister-lawless-launches-springboard-2026-courses/) and [gov.ie, free online courses with eCollege](https://www.gov.ie/en/department-of-further-and-higher-education-research-innovation-and-science/services/free-online-courses-with-ecollege/), read 16 September 2026. We have no connection with either programme, and eligibility rules are theirs, not ours: check them on the official sites.
 
+Adults who learn
+
 ## Adults in Ireland are already learning, in large numbers
 
 If starting something new at thirty-five or fifty-five feels unusual, the national figures say otherwise.
 
-**Adult learning in Ireland, CSO Adult Education Survey 2022 and HEA**
-
 | Measure | Figure |
-|---|---|
+| --- | --- |
 | Adults aged 25 to 69 taking part in lifelong learning, 2022 | 52%, against an EU-27 average of 44% |
 | Ireland's rank in the EU-27 for lifelong learning | 6th |
 | Participation, aged 25 to 34 | 64% |
@@ -109,14 +103,14 @@ The second is having something real to build. Adults lose patience with exercise
 
 Sources: [CSO Adult Education Survey 2022](https://www.cso.ie/en/releasesandpublications/ep/p-aes/adulteducationsurvey2022/keyfindings/) and [HEA Key Facts and Figures](https://hea.ie/statistics/data-for-download-and-visualisations/key-facts-figures-report/), read 16 September 2026.
 
+The rungs
+
 ## A realistic first year for an adult beginner
 
 Assuming one or two evening lessons a week and a few hours of practice. People with more time move faster, and nobody is moved on before the rung is solid.
 
-**From zero to useful**
-
 | Roughly | Rung | You can |
-|---|---|---|
+| --- | --- | --- |
 | Weeks 1 to 6 | 1. First programs | Write, run and fix small programs without help |
 | Months 2 to 4 | 2. Real data | Read files, clean messy data and produce a result you trust |
 | Months 4 to 7 | 3. Something that runs | Build a script or a small site that does a real job for you |
@@ -126,63 +120,293 @@ Assuming one or two evening lessons a week and a few hours of practice. People w
 ### Do you need maths?
 
 For almost everything on this page, no more than the maths you already have. Data work uses averages and percentages; the hard part is the thinking, not the arithmetic.
+
 Where maths does matter, the order of learning is on the [coding roadmap](/coding-roadmap).
 
 ### How long until a job?
 
 We make no promise about employment. What we can say is that the portfolio, not the course, is what employers look at, so we build one from the third month on.
+
 For what the labour market data actually shows, see [full stack software development in Ireland](/full-stack-software-development-course-ireland).
+
+The catalogue
 
 ## Nine live courses for adults
 
 Grouped by what you want out of it. The free first class settles which one and at what level.
 
+I
+
 ### From scratch
 
 No experience assumed
 
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college): Zero to writing real programs on your own.
-- [HTML and CSS for Beginners](/courses/html-css-course-for-beginners-build-real-websites): A published website of your own, quickly.
-- [Data and AI Analytics for Non-Programmers](/courses/data-and-ai-analytics-for-non-programmers-course): Answers from data before any language.
+ADULT / START / 01
+
+#### Python Masterclass
+
+Zero to writing real programs on your own.
+
+[Open the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
+
+ADULT / START / 02
+
+#### HTML and CSS for Beginners
+
+A published website of your own, quickly.
+
+[Open the syllabus](/courses/html-css-course-for-beginners-build-real-websites)
+
+ADULT / START / 03
+
+#### Data and AI Analytics for Non-Programmers
+
+Answers from data before any language.
+
+[Open the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)II
 
 ### For work
 
 Skills you can use on Monday
 
-- [Full Stack Web Development](/courses/full-stack-web-development-masterclass-college): The front end, the back end and the database.
-- [MySQL Masterclass](/courses/mysql-database-complete-masterclass-college): Querying data properly instead of exporting it.
-- [Git and GitHub for Professionals](/courses/git-github-advanced-version-control-masterclass-for-professionals): The habits every team expects you to have.
+ADULT / WORK / 01
+
+#### Full Stack Web Development
+
+The front end, the back end and the database.
+
+[Open the syllabus](/courses/full-stack-web-development-masterclass-college)
+
+ADULT / WORK / 02
+
+#### MySQL Masterclass
+
+Querying data properly instead of exporting it.
+
+[Open the syllabus](/courses/mysql-database-complete-masterclass-college)
+
+ADULT / WORK / 03
+
+#### Git and GitHub for Professionals
+
+The habits every team expects you to have.
+
+[Open the syllabus](/courses/git-github-advanced-version-control-masterclass-for-professionals)III
 
 ### AI, understood
 
 Past the demo
 
-- [Generative AI: LLMs, RAG and Agents](/courses/complete-generative-ai-masterclass-college): What the tools do, and where they fail.
-- [Python and AI Automation](/courses/python-ai-automation-masterclass-college): Automating the repetitive part of your week.
-- [Codex and Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals): Directing coding agents and reviewing their work.
+ADULT / AI / 01
+
+#### Generative AI: LLMs, RAG and Agents
+
+What the tools do, and where they fail.
+
+[Open the syllabus](/courses/complete-generative-ai-masterclass-college)
+
+ADULT / AI / 02
+
+#### Python and AI Automation
+
+Automating the repetitive part of your week.
+
+[Open the syllabus](/courses/python-ai-automation-masterclass-college)
+
+ADULT / AI / 03
+
+#### Codex and Claude Code
+
+Directing coding agents and reviewing their work.
+
+[Open the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
+
+How the classes run
 
 ## Lessons that survive a working week
 
 Classes are live with a teacher in India, at one fixed hour a week set in Irish time. Because India keeps a single clock and Ireland changes twice a year, our teachers sit four and a half hours ahead of you in summer and five and a half in winter, which makes Irish evenings comfortable working hours at their end.
 
-- **Early evening** The most popular slot with working adults.
-- **Late evening** For parents, after the house is quiet.
-- **Weekend** Longer sessions for project work.
+Early evening
 
-- **A free first class** You write something real with a teacher and get an honest view of where to start. No sales pitch.
-- **Adults in the group** Groups of five to ten at one level; adult beginners are placed with other adult beginners.
-- **One to one** For an unpredictable shift pattern, or when you would rather not learn in front of others.
-- **Missed weeks happen** Work travel and family come first. Slots can move, and your teacher keeps track of where you were.
-- **Your own project** From early on, the work is something you actually want: a tool for your job, a site, an analysis.
-- **No jargon for its own sake** Teachers explain in plain words first and name the technical term afterwards.
+The most popular slot with working adults.
+
+Late evening
+
+For parents, after the house is quiet.
+
+Weekend
+
+Longer sessions for project work.
+
+### A free first class
+
+You write something real with a teacher and get an honest view of where to start. No sales pitch.
+
+### Adults in the group
+
+Groups of five to ten at one level; adult beginners are placed with other adult beginners.
+
+### One to one
+
+For an unpredictable shift pattern, or when you would rather not learn in front of others.
+
+### Missed weeks happen
+
+Work travel and family come first. Slots can move, and your teacher keeps track of where you were.
+
+### Your own project
+
+From early on, the work is something you actually want: a tool for your job, a site, an analysis.
+
+### No jargon for its own sake
+
+Teachers explain in plain words first and name the technical term afterwards.
+
+Student work
+
+## Built by our students, adults among them
+
+Four projects our students published. There are plenty more, from every age group, on the [student labs](/student-labs) page.
+
+![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
+
+AI and ML
+
+#### NutriLife
+
+An AI nutrition coach that reads what you eat and works you toward a target.
+
+by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
+
+![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
+
+AI and ML
+
+#### Misti
+
+A chatbot that answers mathematics and programming questions, built and deployed by a student.
+
+by Harshit · [Open it](https://misti.modernagecoders.com)
+
+![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
+
+AI and ML
+
+#### GuardianX
+
+An assistant that helps a young person recognise unsafe situations online.
+
+by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
+
+![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
+
+Web app
+
+#### SkyCast
+
+A weather forecasting site with live conditions for any location.
+
+by Krish
+
+Fees
 
 ## Fees for adult learners
 
 One monthly price in US dollars, the same everywhere outside India and the same for every course here. No enrolment fee, no yearly contract, and you can stop at the end of a month if work gets in the way.
 
-- Free first class: USD 0. A real lesson with a teacher. An honest starting point. No card details taken.
-- Group batch: USD 100 a month. Five to ten adults at one level. The same teacher every week. Work reviewed, not just set. A certificate on completion.
-- One to one: USD 150 a month. A teacher to yourself. Slots that fit shift work. The fastest route for a focused goal.
+Free first class
+
+USD 0
+
+no card required
+
+- A real lesson with a teacher
+- An honest starting point
+- No card details taken
+
+Book it
+
+Group batch
+
+USD 100
+
+a month, billed in US dollars
+
+- Five to ten adults at one level
+- The same teacher every week
+- Work reviewed, not just set
+- A certificate on completion
+
+Start here
+
+One to one
+
+USD 150
+
+a month, billed in US dollars
+
+- A teacher to yourself
+- Slots that fit shift work
+- The fastest route for a focused goal
+
+Enquire
+
+What families say
+
+## Rated 4.9 across 547 Google reviews
+
+Reviews as posted on Google by our students and parents, none of them paid for or edited.
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent
+
+★★★★★
+
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+
+Samriddha Mondal
+
+Student
+
+★★★★★
+
+"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
+
+Vansh Agarwal
+
+Student
+
+★★★★★
+
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
+
+Sonam Oswal
+
+Parent of Dhairya
+
+★★★★★
+
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
+
+Sonu Goyal
+
+Parent
+
+★★★★★
+
+"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
+
+Ritu Kedia
+
+Parent
+
+Questions from adults
 
 ## What adults in Ireland ask before starting
 
@@ -226,15 +450,48 @@ Evenings and weekends, at a weekly hour set with your teacher. They are four and
 
 We ring you at a suitable Irish hour and arrange the free first class. You are charged nothing unless you decide to keep going.
 
+Elsewhere on this site
+
 ## More for adult learners
 
-- [Full stack software development in Ireland](/full-stack-software-development-course-ireland): What the job market data shows.
-- [Coding for college students in Ireland](/coding-for-college-students-ireland): For those studying as well.
-- [AI agents course for professionals](/ai-agents-course-for-professionals-ireland): Agents at work.
-- [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-ireland): How we teach.
-- [Best online coding classes in Ireland](/best-online-coding-classes-ireland): Choosing between classes.
-- [Coding classes in Ireland](/coding-classes-in-ireland): The national page.
+Where this leads, and what sits beside it.
 
-## Contact
+### [Full stack software development in Ireland](/full-stack-software-development-course-ireland)
 
-Book the free first class at [https://learn.modernagecoders.com/best-coding-classes-for-adults-ireland](https://learn.modernagecoders.com/best-coding-classes-for-adults-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+What the job market data shows.
+
+### [Coding for college students in Ireland](/coding-for-college-students-ireland)
+
+For those studying as well.
+
+### [AI agents course for professionals](/ai-agents-course-for-professionals-ireland)
+
+Agents at work.
+
+### [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-ireland)
+
+How we teach.
+
+### [Best online coding classes in Ireland](/best-online-coding-classes-ireland)
+
+Choosing between classes.
+
+### [Coding classes in Ireland](/coding-classes-in-ireland)
+
+The national page.
+
+Start here
+
+## Write your first program in a free class
+
+Leave a number and we will ring at a time that suits you in Ireland, evenings included. In the free class you write something real with a teacher and get a straight answer about where to start and how long it takes.
+
+Rather read first? See [how our teaching works](/how-we-teach), the [full course list](/courses), and [projects our students published](/student-labs).
+
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20an%20adult%20in%20Ireland%20and%20would%20like%20a%20free%20first%20coding%20class.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+
+WhatsApp is often easiest for adults with busy days, and it is free from an Irish number. Ours is an Indian number, because our teachers work from India; there is no Irish office.
+
+---
+
+*Canonical: https://learn.modernagecoders.com/best-coding-classes-for-adults-ireland*
