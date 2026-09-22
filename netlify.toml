@@ -3382,6 +3382,17 @@
   to = "/src/pages/online-math-tutor-cost.md"
   status = 200
 
+# Cost guide: online coding classes
+[[redirects]]
+  from = "/online-coding-classes-cost"
+  to = "/src/pages/online-coding-classes-cost.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-classes-cost.md"
+  to = "/src/pages/online-coding-classes-cost.md"
+  status = 200
+
 # Competitor comparison: Codingal
 [[redirects]]
   from = "/modern-age-coders-vs-codingal"
@@ -12734,6 +12745,18 @@
 [[redirects]]
   from = "/best-coding-class-in-plymouth.md"
   to = "/src/pages/best-coding-class-in-plymouth.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-class-in-hull"
+  to = "/src/pages/best-coding-class-in-hull.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-hull.md"
+  to = "/src/pages/best-coding-class-in-hull.md"
   status = 200
 
 [[redirects]]

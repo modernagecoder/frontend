@@ -18076,5 +18076,72 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Historic England, The Box, Royal William Yard or Plymouth City Council."
     ]
+  },
+  "best-coding-class-in-hull": {
+    "market": "Hull",
+    "bodyClass": "cg-hul",
+    "pageType": "city",
+    "curriculumAuthority": "Kingston upon Hull, Census 2021 via Nomis (E06000010): TS001 267,014 usual residents, 262,426 in households, 4,588 in communal establishments; TS007A aged 5 to 9 17,343 (6.5 percent, England 5.9), 10 to 14 16,735 (6.3, England 6.0), 20 to 24 19,426 (7.3, England 6.0), 25 to 29 20,220 (7.6, England 6.6); TS068 54,703 students of 251,060 residents aged 5 and over (21.8 percent, England 20.4); TS006 3,730.1 usual residents per square kilometre (England 433.5). KCOM, History: of 1,334 local authorities after the 1899 Telegraph Act, Hull Corporation one of 55 that went ahead; 28 of 600 local businesses in support; licence 1902; Thomas Holme manager from October 1903 aged 24, for 43 years; first exchange 28 November 1904 at 7 Wincolmlee, a former public baths, for 1,000 subscribers; by 1913 the only remaining council-owned telephone department; cream kiosks without crowns.",
+    "localProject": "A flood fill from the Humber, and what it cannot see. OS Terrain 50 (50 m, metres above Ordnance Datum, read 22 September 2026); Hull land = ONS LAD BFC E06000010, 28,633 cells (71.6 km2), median height 2.3 m; seeds = BFE minus BFC, 3,951 estuary cells. EA Hull Barrier (L3203) downstream stage, 24 August to 22 September 2026: high 4.235 mAOD at 07:00 GMT 13 September, low -0.348. Four-neighbour breadth-first fill: 2.0 m 24.06 km2 at or below (33.6 percent), 8.46 reached, 12.56 with diagonals, 15.60 isolated; 3.0 m 55.86 (78.0), 55.59 reached; 4.235 m 62.23 (86.9), 61.70 reached, 32 isolated pockets; 5.0 m 64.64 (90.3), 64.13; 6.0 m 68.03 (95.0), 68.01. 139,527 cells visited at 4.235 m (recursion would overflow). GOV.UK 2022: 2013 surge, highest tide 5.8 m at the Hull Barrier (datum unstated, not compared); frontages scheme about 7 of 12 km, 0.5 percent annual chance standard. Lesson family: flood fill and breadth-first search on a grid; distinct from Coventry union-find and Belfast PageRank.",
+    "requiredMentions": [
+      "267,014",
+      "262,426",
+      "4,588",
+      "3,730.1",
+      "19,426",
+      "20,220",
+      "251,060",
+      "4.235",
+      "Wincolmlee",
+      "Thomas Holme",
+      "Hull Barrier",
+      "139,527"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Kingston upon Hull: 267,014 usual residents; 262,426 in households; 4,588 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E06000010"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Hull and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E06000010,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Hull 54,703 students of 251,060 aged 5 and over; England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E06000010,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, Hull 3,730.1 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E06000010,E92000001"
+      },
+      {
+        "claim": "Ordnance Survey Terrain 50 (ASCII grid download): 50 m heights above Ordnance Datum.",
+        "url": "https://api.os.uk/downloads/v1/products/Terrain50/downloads"
+      },
+      {
+        "claim": "Environment Agency flood-monitoring API, Hull Barrier Victoria Pier (L3203) downstream stage in mAOD.",
+        "url": "https://environment.data.gov.uk/flood-monitoring/id/stations/L3203"
+      },
+      {
+        "claim": "ONS, Local Authority Districts December 2025 boundaries, BFC and BFE, for Kingston upon Hull.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_DEC_2025_Boundaries_UK_BFE/FeatureServer"
+      },
+      {
+        "claim": "GOV.UK, Hull's new flood defences officially opened (2022): 5 December 2013 surge, 5.8 m highest tide at the Hull Barrier, about 7 of 12 km of frontage, 0.5 percent standard.",
+        "url": "https://www.gov.uk/government/news/hull-s-new-flood-defences-officially-opened"
+      },
+      {
+        "claim": "KCOM, History: Telegraph Act, 55 of 1,334 authorities, 1904 exchange at 7 Wincolmlee, Thomas Holme, cream kiosks.",
+        "url": "https://www.kcom.com/about-us/our-history"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement that a share of Hull would flood: the fill ignores defences, the barrier, drainage and time, so the page reports low and connected land only and points readers to the Environment Agency flood maps.",
+      "The EA station record field (maxOnRecord 4.34, 2019): its datum and completeness are unclear beside the 5.8 m figure GOV.UK gives for 2013, so it is not used.",
+      "Placing the 2013 5.8 m tide on the Ordnance Datum scale: the GOV.UK article does not state the datum.",
+      "KCOM group website history page: returned 403; the kcom.com history page was used instead. Money figures from the history are excluded by the cluster rules.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Environment Agency, Ordnance Survey, KCOM or Hull City Council."
+    ]
   }
 }

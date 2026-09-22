@@ -74,6 +74,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - About Us: https://learn.modernagecoders.com/about
 - Blog (coding & math education tips): https://learn.modernagecoders.com/blog
 - Pricing (from ₹1499/month): https://learn.modernagecoders.com/pricing
+- What coding classes cost, by format (cost guide): https://learn.modernagecoders.com/online-coding-classes-cost
 - Book a Free Demo: https://learn.modernagecoders.com/book-demo
 - Student Success Stories: https://learn.modernagecoders.com/success-stories
 - Wall of Love (Testimonials): https://learn.modernagecoders.com/love
@@ -809,6 +810,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Aberdeen, Scotland: https://learn.modernagecoders.com/best-coding-class-in-aberdeen
 - Brighton and Hove, England: https://learn.modernagecoders.com/best-coding-class-in-brighton-and-hove
 - Plymouth, England: https://learn.modernagecoders.com/best-coding-class-in-plymouth
+- Hull, England: https://learn.modernagecoders.com/best-coding-class-in-hull
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).

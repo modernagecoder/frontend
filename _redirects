@@ -1038,6 +1038,8 @@
 # Cost guide: online math tutoring (US)
 /online-math-tutor-cost /src/pages/online-math-tutor-cost.html 200
 /online-math-tutor-cost.md /src/pages/online-math-tutor-cost.md 200
+/online-coding-classes-cost /src/pages/online-coding-classes-cost.html 200
+/online-coding-classes-cost.md /src/pages/online-coding-classes-cost.md 200
 
 # Competitor comparison: Codingal
 /modern-age-coders-vs-codingal /src/pages/modern-age-coders-vs-codingal.html 200
@@ -3518,4 +3520,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-plymouth /src/pages/best-coding-class-in-plymouth.html 200
 /best-coding-class-in-plymouth.md /src/pages/best-coding-class-in-plymouth.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-hull /src/pages/best-coding-class-in-hull.html 200
+/best-coding-class-in-hull.md /src/pages/best-coding-class-in-hull.md 200
 /* /src/pages/404.html 404
