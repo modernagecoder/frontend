@@ -65,7 +65,7 @@ module.exports = {
 
   h1: 'Coding classes in York',
   capsuleQ: 'What are the best coding classes in York?',
-  capsule: 'Census 2021 counted 202,821 usual residents in York, and a quarter of those aged five and over were in study, 25.1% against 20.4% for England. The University of York says plans for a university in the city go back to 1617, though permission came only in 1960. Modern Age Coders teaches York learners from six to sixty-seven in live online lessons, one to one or in a group of five to ten set by level, with teachers in India and lessons at UK times. The first lesson is free; after it a group place costs USD 100 a month and one-to-one teaching USD 150 a month.',
+  capsule: 'Census 2021 counted 202,821 usual residents in York, and a quarter of those aged five and over were in study, 25.1% against 20.4% for England. The University of York says plans for a university in the city go back to 1617, though permission came only in 1960. From six-year-olds to learners of sixty-seven, York students work with our teachers over live video, in level-based groups of five to ten or one to one, with India-based staff teaching at hours that suit the UK. The first lesson is free; after it a group place costs USD 100 a month and one-to-one teaching USD 150 a month.',
   lead: 'Ordnance Survey lists 2,785 named roads in York. Guess how one ends before you read it, and you will be right more often with Close than with anything else, since 369 of them do. You will almost never guess Coppergate, or Shambles, which is the only name in the city with that ending. Information theory turns that feeling into a number. A likely ending carries little surprise, about 2.9 bits for Close, and a rare one carries a lot, 11.4 bits for a one-off. Averaged over the whole city, a York road ending carries 4.729 bits, the second-highest of eight English cities we measured on equal terms. Our teenagers compute it, then build a code that gets within a few hundredths of a bit of it.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in York.',
 
@@ -85,7 +85,7 @@ module.exports = {
     {
       id: 'context', tint: '', eyebrow: 'York today',
       h2: 'A city of students inside and beyond the walls',
-      intro: 'Figures from the 2021 census for the City of York council area, read from Nomis and shown exactly as the Office for National Statistics released them.',
+      intro: 'These are the Office for National Statistics\' own 2021 census counts for the City of York council area, fetched from Nomis without adjustment.',
       body: [
         { kind: 'table', caption: 'York, Census 2021', head: ['Measure', 'York', 'England'], rows: [
           ['Usual residents', '202,821', '56,490,048'],
@@ -191,11 +191,11 @@ module.exports = {
     intro: 'Crossing York at school-run time can take longer than the lesson. A live online class takes the trip away.',
     cells: [
       { h3: 'Inside and outside the walls', p: 'A learner in Bishopthorpe and another in Huntington can join the same lesson without anyone driving round the ring road.' },
-      { h3: 'Stage names York uses', p: 'Reception, Key Stages 1 to 4, GCSE options and A levels, named as York schools name them, and every lesson taught in English.' },
+      { h3: 'From Reception to sixth form', p: 'We describe progress the way York schools do, in key stages, Year 9 option choices, GCSEs and A levels. All teaching is in English.' },
       { h3: 'A lesson with substance', p: 'The free session teaches something real, then recommends a level, a course and a weekly time. Booking needs no card details.' },
       { h3: 'Matched by stage', p: 'Groups of five to ten learners at one level, from York, elsewhere in the UK and abroad, so every stage has a workable time.' },
       { h3: 'Two lessons, every week', p: 'Two regular weekly lessons, around eight a month, with holidays and exam weeks settled with the teacher in advance.' },
-      { h3: 'One steady clock', p: 'India keeps one time all year, four and a half hours ahead of York during British Summer Time and five and a half in winter, which keeps UK after-school and evening lessons inside the teaching day.' }
+      { h3: 'Teaching across time zones', p: 'A 5 pm lesson in York starts at 9.30 pm in India during British Summer Time and at 10.30 pm in winter, because Indian clocks never change. Our teachers work those late hours so York learners do not have to rearrange their day.' }
     ],
     spec: { title: 'Across the Vale of York', p: 'Families in Selby, Tadcaster, Pocklington or Easingwold join exactly the same classes, since everything is online and groups are formed by level.' }
   },
@@ -222,7 +222,7 @@ module.exports = {
     intro: 'What York families ask us most often.',
     items: [
       { q: 'How many people live in York?', a: 'Census 2021 counted 202,821 usual residents in the City of York council area, with 191,572 living in households and 11,249 in communal establishments such as student halls and care homes.' },
-      { q: 'How does York compare with England?', a: 'In 2021, 10.0% of York residents were aged 20 to 24 against 6.0% in England, 25.1% of those aged five and over were students against 20.4%, and there were 745.8 residents per square kilometre against 433.5.' },
+      { q: 'How does York compare with England?', a: 'York leans young and studious but is spread out: 10.0% of residents were aged 20 to 24 in 2021, where the English share was 6.0%, and 25.1% of those aged five and over were students, against 20.4%. Because the council area takes in villages, its density was only 745.8 people per square kilometre, though that is still above the English 433.5.' },
       { q: 'What is entropy in computing?', a: 'A measure, in bits, of how unpredictable something is on average. Common outcomes carry little information and rare ones carry a lot; entropy is the average, and it sets the shortest possible average length of a code.' },
       { q: 'How unpredictable are York\'s street names?', a: 'In our analysis a York road-name ending carries 4.729 bits of information on average. On lists of equal size that is second of the eight cities we measured, behind Leeds and ahead of Newcastle, Bristol and Sheffield.' },
       { q: 'Where do the street names come from?', a: 'Ordnance Survey Open Names, free data published under the Open Government Licence. For the City of York it lists 2,785 distinct road names, 47 of which end in -gate.' },

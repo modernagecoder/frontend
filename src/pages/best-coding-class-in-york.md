@@ -4,32 +4,46 @@ description: "Live online coding, Python, AI and maths lessons for York learners
 canonical: https://learn.modernagecoders.com/best-coding-class-in-york
 source: src/pages/best-coding-class-in-york.html
 ---
-> Live online coding, Python, AI and maths lessons for York learners aged 6 to 67, from Acomb and Clifton to Heworth and Fulford. The first lesson is free.
+> Census 2021 counted 202,821 usual residents in York, and a quarter of those aged five and over were in study, 25.1% against 20.4% for England. The University of York says plans for a university in the city go back to 1617, though permission came only in 1960. From six-year-olds to learners of sixty-seven, York students work with our teachers over live video, in level-based groups of five to ten or one to one, with India-based staff teaching at hours that suit the UK. The first lesson is free; after it a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
 
-Skip to contentCourse picks for York
+[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / York
+
+York, North Yorkshire / Live online
+
+# Coding classes in York
+
+**What are the best coding classes in York?** Census 2021 counted 202,821 usual residents in York, and a quarter of those aged five and over were in study, 25.1% against 20.4% for England. The University of York says plans for a university in the city go back to 1617, though permission came only in 1960. From six-year-olds to learners of sixty-seven, York students work with our teachers over live video, in level-based groups of five to ten or one to one, with India-based staff teaching at hours that suit the UK. The first lesson is free; after it a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
+
+Ordnance Survey lists 2,785 named roads in York. Guess how one ends before you read it, and you will be right more often with Close than with anything else, since 369 of them do. You will almost never guess Coppergate, or Shambles, which is the only name in the city with that ending. Information theory turns that feeling into a number. A likely ending carries little surprise, about 2.9 bits for Close, and a rare one carries a lot, 11.4 bits for a one-off. Averaged over the whole city, a York road ending carries 4.729 bits, the second-highest of eight English cities we measured on equal terms. Our teenagers compute it, then build a code that gets within a few hundredths of a bit of it.
+
+Facts last verified 22 September 2026. Teaching is online; no York branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
 
 ## Four courses for the walled city
 
 Let the learner's interests decide. Each course starts with a live lesson that is free, and booking it takes no card.
 
-[![Problem Solving and Computational Thinking for Kids course thumbnail](/images/problem-solving-kids.webp)Ages 7 to 12Problem Solving and Computational Thinking for KidsPuzzles, patterns and twenty-questions games, where asking the question that splits the options in half is the first taste of a bit.See the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 18Python for TeensPython from a first program to full projects, including counting words and letters in a real file of names.See the syllabus](/courses/python-complete-masterclass-teens)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)Ages 13 to 18Problem Solving for TeensPriority queues, trees and greedy algorithms built by hand, the parts a Huffman code is made from.See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![Python Automation Course course thumbnail](/images/python-college.webp)University and adultPython Automation CoursePython for adults who handle text and data at work, from cleaning messy names to summarising them honestly.See the syllabus](/courses/python-ai-automation-masterclass-college)
+- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Ages 7 to 12): Puzzles, patterns and twenty-questions games, where asking the question that splits the options in half is the first taste of a bit.
+- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 18): Python from a first program to full projects, including counting words and letters in a real file of names.
+- [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens) (Ages 13 to 18): Priority queues, trees and greedy algorithms built by hand, the parts a Huffman code is made from.
+- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (University and adult): Python for adults who handle text and data at work, from cleaning messy names to summarising them honestly.
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
+The four we are known for, on every market page:
 
-The four we are known for
+- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
+- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
+- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
+- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
 
-### Python, AI, vibe coding and agentic coding
-
-These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
-
-[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)York today
+Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
 
 ## A city of students inside and beyond the walls
 
-Figures from the 2021 census for the City of York council area, read from Nomis and shown exactly as the Office for National Statistics released them.
+These are the Office for National Statistics' own 2021 census counts for the City of York council area, fetched from Nomis without adjustment.
+
+**York, Census 2021**
 
 | Measure | York | England |
-| --- | --- | --- |
+|---|---|---|
 | Usual residents | 202,821 | 56,490,048 |
 | Living in households | 191,572 | Not compared |
 | Living in communal establishments | 11,249 | Not compared |
@@ -52,8 +66,6 @@ At 745.8 residents per square kilometre, the council area takes in villages and 
 
 Our York learners reflect that spread. A Year 4 child in Haxby might be making a first game in Scratch, a Year 13 student in Fulford finishing A level Computer Science, and an adult in Acomb learning Python to tidy spreadsheets at work, each in a small group at the right level.
 
-Old plans, old sheds
-
 ## A university three centuries in the making, and a museum in an engine shed
 
 From the University of York's own history and the National Railway Museum's picture history.
@@ -72,18 +84,16 @@ The National Railway Museum's pictures show locomotives around the turntable of 
 
 We are not connected with the University of York or the National Railway Museum. Both stories are about a city that keeps its old names and buildings and gives them new jobs, which is also true of York's streets. The walled centre is full of road names nothing like those on a modern estate, and that difference can be measured.
 
-Where the names come from
-
-Ordnance Survey publishes Open Names as free data under the Open Government Licence, listing named roads with the council area they fall in. For the City of York it lists 2,785 distinct road names, from Coppergate and Fossgate inside the walls to the closes and avenues of the outer villages.
-
-Signature project
+**Where the names come from** Ordnance Survey publishes Open Names as free data under the Open Government Licence, listing named roads with the council area they fall in. For the City of York it lists 2,785 distinct road names, from Coppergate and Fossgate inside the walls to the closes and avenues of the outer villages.
 
 ## How surprising is a York street name?
 
 Claude Shannon defined the information in an event as the number of yes-or-no questions it takes to pin it down. Rare events carry more.
 
+**Endings of York's 2,785 road names, and the information each carries**
+
 | Ending | Names | Share | Surprise in bits |
-| --- | --- | --- | --- |
+|---|---|---|---|
 | Close | 369 | 13.2% | 2.92 |
 | Street | 247 | 8.9% | 3.50 |
 | Avenue | 235 | 8.4% | 3.57 |
@@ -109,14 +119,14 @@ Leeds has 12,005 road names and 253 endings, and its entropy on the full list is
 
 The ending -gate is a York signature: 47 of its road names end that way, 1.7% of the total, against 86 of 12,005 in Leeds and 31 of 6,457 in Sheffield. Bristol shows the opposite pattern. Road ends 30.1% of its names, so a Bristol ending is easier to guess and, on its full list, carries only 4.092 bits on average.
 
-Measuring information
-
 ## Five habits for anyone who counts categories
 
 Practised on street names, then used on passwords, text compression, survey answers, error messages and the language models behind AI tools.
 
+**Using entropy without fooling yourself**
+
 | Habit | On York's road names | What it prevents |
-| --- | --- | --- |
+|---|---|---|
 | Define the category first | Last word, with Stonegate and Coppergate grouped as -gate words | Two analysts getting different numbers from the same list |
 | Report the maximum too | 4.729 bits out of a possible 7.238 | A number with no sense of scale |
 | Match sample sizes | Leeds cut to 2,785 names before comparing | Rewarding the bigger list for its size |
@@ -139,37 +149,14 @@ Categorical data at work, summarised with entropy and compared across groups of 
 
 We have no link with Ordnance Survey, the University of York, the National Railway Museum or City of York Council. Open Names is published under the Open Government Licence and the census figures are public; the counts, entropies and codes on this page are our own work.
 
-Learning ladder
-
 ## From twenty questions to Shannon entropy
 
 Treat the age bands as rough. The free lesson finds the real starting point.
 
-Ages 6 to 10
-
-### Good questions
-
-Guessing games where each yes-or-no question cuts the options, and counting how many questions a guess really needs.
-
-[Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)[Scratch Coding for Kids](/courses/scratch-programming-complete-course)Ages 11 to 13
-
-### Counting and chance
-
-Tallying words in code, turning counts into fractions, and seeing that rare things are harder to guess.
-
-[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 14 to 18
-
-### Entropy and codes
-
-Logarithms in bits, Shannon entropy on real names, and a Huffman code built with a priority queue.
-
-[Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens)[Python for Teens](/courses/python-complete-masterclass-teens)Ages 18 to 67
-
-### Information at work
-
-Entropy for categorical data, compression and the cross-entropy loss used to train AI models.
-
-[Python Automation Course](/courses/python-ai-automation-masterclass-college)[Statistics & Probability](/courses/statistics-probability-maths-course)Coding and AI
+- **Ages 6 to 10: Good questions** Guessing games where each yes-or-no question cuts the options, and counting how many questions a guess really needs. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
+- **Ages 11 to 13: Counting and chance** Tallying words in code, turning counts into fractions, and seeing that rare things are harder to guess. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
+- **Ages 14 to 18: Entropy and codes** Logarithms in bits, Shannon entropy on real names, and a Huffman code built with a priority queue. [Problem Solving for Teens](/courses/problem-solving-dsa-masterclass-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
+- **Ages 18 to 67: Information at work** Entropy for categorical data, compression and the cross-entropy loss used to train AI models. [Python Automation Course](/courses/python-ai-automation-masterclass-college), [Statistics & Probability](/courses/statistics-probability-maths-course)
 
 ## Language models predict the next word for a living. Why should a York teenager learn about surprise?
 
@@ -181,133 +168,30 @@ Entropy also explains compression, from zip files to the way images and speech t
 
 So a York teenager should still learn to program in 2026, in a city whose street names have outlasted most of its buildings: AI is built on prediction, and knowing how to measure a surprise is where understanding it starts. The longer argument is in [why coding is worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
-Delivery
-
 ## Haxby, Holgate or Heslington, from home
 
 Crossing York at school-run time can take longer than the lesson. A live online class takes the trip away.
 
-### Inside and outside the walls
+- **Inside and outside the walls** A learner in Bishopthorpe and another in Huntington can join the same lesson without anyone driving round the ring road.
+- **From Reception to sixth form** We describe progress the way York schools do, in key stages, Year 9 option choices, GCSEs and A levels. All teaching is in English.
+- **A lesson with substance** The free session teaches something real, then recommends a level, a course and a weekly time. Booking needs no card details.
+- **Matched by stage** Groups of five to ten learners at one level, from York, elsewhere in the UK and abroad, so every stage has a workable time.
+- **Two lessons, every week** Two regular weekly lessons, around eight a month, with holidays and exam weeks settled with the teacher in advance.
+- **Teaching across time zones** A 5 pm lesson in York starts at 9.30 pm in India during British Summer Time and at 10.30 pm in winter, because Indian clocks never change. Our teachers work those late hours so York learners do not have to rearrange their day.
 
-A learner in Bishopthorpe and another in Huntington can join the same lesson without anyone driving round the ring road.
-
-### Stage names York uses
-
-Reception, Key Stages 1 to 4, GCSE options and A levels, named as York schools name them, and every lesson taught in English.
-
-### A lesson with substance
-
-The free session teaches something real, then recommends a level, a course and a weekly time. Booking needs no card details.
-
-### Matched by stage
-
-Groups of five to ten learners at one level, from York, elsewhere in the UK and abroad, so every stage has a workable time.
-
-### Two lessons, every week
-
-Two regular weekly lessons, around eight a month, with holidays and exam weeks settled with the teacher in advance.
-
-### One steady clock
-
-India keeps one time all year, four and a half hours ahead of York during British Summer Time and five and a half in winter, which keeps UK after-school and evening lessons inside the teaching day.
-
-Across the Vale of York
-
-Families in Selby, Tadcaster, Pocklington or Easingwold join exactly the same classes, since everything is online and groups are formed by level.
-
-Fees
+**Across the Vale of York** Families in Selby, Tadcaster, Pocklington or Easingwold join exactly the same classes, since everything is online and groups are formed by level.
 
 ## York lesson fees
 
 A free first lesson, then a single monthly fee.
 
-First class**USD 0**
-
-A full lesson at no cost, ending with a level, a course we recommend and a weekly time to consider.
-
-Group tuition**USD 100**
-
-Around eight live lessons a month in a group of five to ten learners working at one stage.
-
-Private tuition**USD 150**
-
-Around eight live lessons a month, with the teacher giving your learner all of the time.
+- First class: USD 0. A full lesson at no cost, ending with a level, a course we recommend and a weekly time to consider.
+- Group tuition: USD 100 a month. Around eight live lessons a month in a group of five to ten learners working at one stage.
+- Private tuition: USD 150 a month. Around eight live lessons a month, with the teacher giving your learner all of the time.
 
 Every family outside India pays the same US dollar fee, whether in Dringhouses or Tang Hall, and we publish no prices in pounds. No payment is taken until the free lesson has agreed a course and a slot; the pricing page covers pausing, missed lessons and moving between group and private teaching.
 
-Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20York.)Reviews
-
-## Six Google reviews from families, printed as they wrote them
-
-Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-Free placement class
-
-## Book a free lesson for a York learner
-
-The first task suits the level: a twenty-questions game for a young child, a short Python program that counts words for a beginner, or the Open Names file and an entropy calculation for a teenager ready for real data.
-
-### Contact the team directly
-
-WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [contact@modernagecoders.com](mailto:contact@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented York one.
-
-[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20York.)
-
-Submitted details are used for placement and follow-up.
-
-FAQ
-
 ## York coding class questions
-
-What York families ask us most often.
 
 ### How many people live in York?
 
@@ -315,7 +199,7 @@ Census 2021 counted 202,821 usual residents in the City of York council area, wi
 
 ### How does York compare with England?
 
-In 2021, 10.0% of York residents were aged 20 to 24 against 6.0% in England, 25.1% of those aged five and over were students against 20.4%, and there were 745.8 residents per square kilometre against 433.5.
+York leans young and studious but is spread out: 10.0% of residents were aged 20 to 24 in 2021, where the English share was 6.0%, and 25.1% of those aged five and over were students, against 20.4%. Because the council area takes in villages, its density was only 745.8 people per square kilometre, though that is still above the English 433.5.
 
 ### What is entropy in computing?
 
@@ -349,14 +233,10 @@ The first lesson is free. After that, a group place is USD 100 a month for two l
 
 By level, pace and goals rather than age or address, with five to ten learners at one stage. When no group suits the learner's week, we offer one-to-one lessons.
 
-Explore England and the UK
-
 ## Yorkshire cities and beyond
 
 Down the Ouse to the Humber, the [Hull page](/best-coding-class-in-hull) runs a flood fill across a height map of the city, and to the south-west [Leeds](/best-coding-class-in-leeds) samples a year of footfall fairly. [Newcastle](/best-coding-class-in-newcastle-upon-tyne) colours a map of its wards with as few colours as possible. The [England guide](/coding-and-ai-classes-in-england) sets out the school stages, and the [UK coding page](/coding-classes-in-united-kingdom) links every city we cover.
 
-Book the free class[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20lesson%20for%20a%20learner%20in%20York.)Free York class[Call +91 91233 66161](tel:+919123366161)
+## Contact
 
----
-
-*Canonical: https://learn.modernagecoders.com/best-coding-class-in-york*
+Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-york](https://learn.modernagecoders.com/best-coding-class-in-york#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.

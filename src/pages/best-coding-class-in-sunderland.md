@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Sunderland le
 canonical: https://learn.modernagecoders.com/best-coding-class-in-sunderland
 source: src/pages/best-coding-class-in-sunderland.html
 ---
-> Census 2021 counted 274,172 usual residents in Sunderland, and 5.9% of them were aged 65 to 69, against 4.9% for England. Sunderland Minster says its church was first built around 900 AD and served most of the area south of the Wear, which is why that side became Bishopwearmouth. Sunderland learners of any age from six to sixty-seven can join us live online, in a group of five to ten at their level or on their own with a teacher, with our teachers in India and lessons at UK times. We do not charge for the first lesson; afterwards a group place is USD 100 a month, and one-to-one teaching USD 150 a month.
+> Census 2021 counted 274,172 usual residents in Sunderland, and 5.9% of them were aged 65 to 69, against 4.9% for England. Sunderland Minster says its church was first built around 900 AD and served most of the area south of the Wear, which is why that side became Bishopwearmouth. Sunderland learners of any age from six to sixty-seven can join us live online, in a group of five to ten at their level or on their own with a teacher, with our teachers in India and lessons at UK times. The introductory lesson is free, and the monthly fee after it is USD 100 for a group place or USD 150 for private teaching.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Sunderland
 
@@ -12,7 +12,7 @@ Sunderland, Tyne and Wear / Live online
 
 # Coding classes in Sunderland
 
-**What are the best coding classes in Sunderland?** Census 2021 counted 274,172 usual residents in Sunderland, and 5.9% of them were aged 65 to 69, against 4.9% for England. Sunderland Minster says its church was first built around 900 AD and served most of the area south of the Wear, which is why that side became Bishopwearmouth. Sunderland learners of any age from six to sixty-seven can join us live online, in a group of five to ten at their level or on their own with a teacher, with our teachers in India and lessons at UK times. We do not charge for the first lesson; afterwards a group place is USD 100 a month, and one-to-one teaching USD 150 a month.
+**What are the best coding classes in Sunderland?** Census 2021 counted 274,172 usual residents in Sunderland, and 5.9% of them were aged 65 to 69, against 4.9% for England. Sunderland Minster says its church was first built around 900 AD and served most of the area south of the Wear, which is why that side became Bishopwearmouth. Sunderland learners of any age from six to sixty-seven can join us live online, in a group of five to ten at their level or on their own with a teacher, with our teachers in India and lessons at UK times. The introductory lesson is free, and the monthly fee after it is USD 100 for a group place or USD 150 for private teaching.
 
 Ordnance Survey lists 4,709 named places in Sunderland, from Roker to Washington. A map app asked what lies within 500 metres of a point has a simple way to answer: measure the distance to all 4,709 and keep the close ones. On average about 48 qualify, so almost every measurement is wasted. A quadtree splits the city into four boxes, splits any crowded box into four again, and so on, so a search can skip every box too far away to matter. With boxes of up to sixteen places, the same question needs about 90 distance checks instead of 4,709. Set the box size to one and the tree goes haywire, because three places share a single point. Our teenagers build the tree and find out why.
 
@@ -147,7 +147,7 @@ Open Names read in Python, a recursive quadtree class, pruning by distance and e
 
 Spatial indexes in databases and mapping tools at work, chosen and tuned for the questions that are actually asked.
 
-We are not connected with Ordnance Survey, Sunderland Minster or Sunderland City Council. Open Names is published under the Open Government Licence and the census tables are public; the trees, counts and timings on this page are our own work.
+We are not connected with Ordnance Survey, Sunderland Minster or Sunderland City Council. Ordnance Survey makes Open Names free under the Open Government Licence and the ONS census tables are open to all; we built every tree and measured every count and timing ourselves.
 
 ## From folding a map to a quadtree
 
@@ -177,7 +177,7 @@ From Washington in the west to the coast at Seaburn, Sunderland is spread out. A
 - **The first lesson counts** The free session teaches something real and closes with a recommended level, course and weekly time. There is no card to enter.
 - **Matched classmates** Five to ten learners at one stage, from Sunderland, elsewhere in Britain and overseas, which gives every level a usable time.
 - **Two lessons a week** A steady pair of weekly lessons, about eight a month, with holidays and exam weeks set with the teacher ahead of time.
-- **Why India's hours work** India does not use daylight saving, so it runs four and a half hours ahead of Sunderland in British Summer Time and five and a half in winter, and UK after-school or evening lessons land inside the teaching day.
+- **Teachers on a late shift** Our teachers are four and a half hours ahead of Sunderland in summer and five and a half in winter, because India keeps one time all year. They teach into their evening so that Wearside learners can join after school.
 
 **Across Wearside and beyond** Families in Seaham, South Shields, Chester-le-Street or Gateshead join exactly the same classes, since everything is online and groups are formed by level.
 
@@ -199,7 +199,7 @@ Census 2021 counted 274,172 usual residents in Sunderland, with 270,386 living i
 
 ### How does Sunderland compare with England?
 
-In 2021, 5.9% of residents were aged 65 to 69 against 4.9% in England, 18.8% of those aged five and over were students against 20.4%, and there were 1,994.6 residents per square kilometre against 433.5.
+Sunderland is older than average and has fewer students: people aged 65 to 69 were 5.9% of residents in 2021 (England 4.9%), and 18.8% of those aged five and over were in study (England 20.4%). Its density was 1,994.6 residents per square kilometre, well above the English 433.5.
 
 ### What is a quadtree?
 
@@ -235,7 +235,7 @@ By level, pace and goals rather than age or address, with five to ten learners a
 
 ## The North East and beyond
 
-Up the coast, the [Newcastle page](/best-coding-class-in-newcastle-upon-tyne) colours a map of its wards with as few colours as possible, and to the south [York](/best-coding-class-in-york) measures how surprising its street names are. [Portsmouth](/best-coding-class-in-portsmouth) finds the three roads that hold its island to the mainland. The [England guide](/coding-and-ai-classes-in-england) explains the school stages, and the [UK coding page](/coding-classes-in-united-kingdom) links every city we teach.
+Up the coast, the [Newcastle page](/best-coding-class-in-newcastle-upon-tyne) colours a map of its wards with as few colours as possible, and to the south [York](/best-coding-class-in-york) measures how surprising its street names are. [Portsmouth](/best-coding-class-in-portsmouth) finds the three roads that hold its island to the mainland. School stages in England are laid out in the [England guide](/coding-and-ai-classes-in-england), and the [UK coding page](/coding-classes-in-united-kingdom) is the index to every city.
 
 ## Contact
 

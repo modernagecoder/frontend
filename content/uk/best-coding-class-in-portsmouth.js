@@ -61,7 +61,7 @@ module.exports = {
 
   h1: 'Coding classes in Portsmouth',
   capsuleQ: 'What are the best coding classes in Portsmouth?',
-  capsule: 'The 2021 census counted 208,003 usual residents in Portsmouth, at 5,149.8 per square kilometre, which puts the city second among English council areas outside London, just behind Luton. The Mary Rose, built in 1510, sank off the city in 1545 and was raised in 1982. We teach Portsmouth learners aged six to sixty-seven in live online lessons, in a group of five to ten matched by level or one to one, with teachers based in India and times set in UK hours. The first lesson is free; after it a group place is USD 100 a month and one-to-one teaching USD 150 a month.',
+  capsule: 'The 2021 census counted 208,003 usual residents in Portsmouth, at 5,149.8 per square kilometre, which puts the city second among English council areas outside London, just behind Luton. The Mary Rose, built in 1510, sank off the city in 1545 and was raised in 1982. Portsmouth learners from six to sixty-seven join us on live video, either in a class of five to ten at the same level or with a teacher of their own; the teaching comes from India, scheduled around the UK day. There is no charge for the opening lesson. After that, a group place is USD 100 a month and individual teaching USD 150.',
   lead: 'Much of Portsmouth stands on Portsea Island. Ordnance Survey\'s road network for the area around it has 17,738 road links. How many of them would have to close before no car could drive from the Guildhall to Cosham? A program can answer that without trying every combination, using one of the most useful results in computer science: the largest number of separate routes between two places equals the smallest number of links whose removal separates them. For Portsea Island both numbers are three: the M275, London Road and Eastern Road. On the mainland, between the Fareham and Havant sides, the answer is five. Our teenagers compute both, and learn why the theorem makes the question easy.',
   wa: 'Hello Modern Age Coders, I would like to book a free coding lesson for a learner in Portsmouth.',
 
@@ -81,7 +81,7 @@ module.exports = {
     {
       id: 'context', tint: '', eyebrow: 'Portsmouth today',
       h2: 'A crowded island with a young population',
-      intro: 'Census 2021 figures for the Portsmouth council area, read from Nomis and printed as the Office for National Statistics published them.',
+      intro: 'The numbers below come straight from the Office for National Statistics\' 2021 census tables for Portsmouth, downloaded through Nomis and left exactly as released.',
       body: [
         { kind: 'table', caption: 'Portsmouth, Census 2021', head: ['Measure', 'Portsmouth', 'England'], rows: [
           ['Usual residents', '208,003', '56,490,048'],
@@ -191,7 +191,7 @@ module.exports = {
       { h3: 'The free lesson teaches', p: 'The first session covers a real task and ends by suggesting a level, a course and a weekly slot. No card details are taken.' },
       { h3: 'Right-level classmates', p: 'Groups of five to ten learners at the same stage, from Portsmouth, elsewhere in the UK and overseas, so every level can find a sensible hour.' },
       { h3: 'Twice every week', p: 'Two fixed lessons a week, around eight a month, with holidays and exam dates planned with the teacher in advance.' },
-      { h3: 'India\'s steady clock', p: 'India never changes its clocks, so it is four and a half hours ahead of Portsmouth in British Summer Time and five and a half in winter, which keeps UK after-school and evening lessons inside the teaching day.' }
+      { h3: 'Late afternoon in Southsea', p: 'When it is late afternoon in Portsmouth it is already evening in India, where our teachers are: four and a half hours ahead in the British summer, five and a half in winter. They teach through their evening so that UK learners can join after school or work.' }
     ],
     spec: { title: 'Around the harbour', p: 'Families in Gosport, Fareham, Havant or Waterlooville join exactly the same classes, since lessons are online and groups are built around level.' }
   },
@@ -202,7 +202,7 @@ module.exports = {
     first: 'A full lesson with no charge, ending with a suggested level, course and weekly time.',
     group: 'Roughly eight live lessons a month in a group of five to ten learners at the same level.',
     private: 'Roughly eight live lessons a month, with the teacher working only with your learner.',
-    closer: 'Every family outside India pays one US dollar fee, whether in Milton or Hilsea, and we do not publish prices in pounds. Nothing is charged until the free lesson has settled a course and a slot; the pricing page covers pauses, missed lessons and moving between group and private teaching.'
+    closer: 'A household in Milton pays the same as one in Hilsea or anywhere else outside India: a single fee in US dollars, with no pound prices shown. You pay nothing until after the free lesson, when a course and a time have been agreed; pausing, missed lessons and switching formats are all explained on the pricing page.'
   },
 
   reviewsH2: 'Six Google reviews from families, quoted in full',
@@ -223,7 +223,7 @@ module.exports = {
       { q: 'Which roads connect Portsea Island to the mainland?', a: 'In Ordnance Survey\'s Open Roads network, the minimum cut between the island centre and Cosham is three links: the M275, London Road (A3) and Eastern Road (A2030). Rail and foot crossings are not in that dataset.' },
       { q: 'Where does the road data come from?', a: 'Ordnance Survey Open Roads, free data under the Open Government Licence. Our study area around Portsmouth, from Fareham to Havant, contains 17,738 road links.' },
       { q: 'When did the Mary Rose sink?', a: 'The Mary Rose Trust says she sank on 19 July 1545 during the Battle of the Solent, watched by Henry VIII from Southsea Castle, and was raised in 1982. We are not connected with the Trust.' },
-      { q: 'When are Portsmouth lessons held?', a: 'Weekday afternoons and evenings or weekends, at a UK time agreed during the free lesson. India is four and a half hours ahead of Portsmouth in summer and five and a half hours ahead in winter.' },
+      { q: 'When are Portsmouth lessons held?', a: 'Lessons run after school, in the evening or at the weekend, and your slot is chosen with the teacher at the end of the free lesson. India is four and a half hours ahead of Portsmouth in summer and five and a half in winter.' },
       { q: 'Is there a Modern Age Coders centre in Portsmouth?', a: 'No. There is no Portsmouth centre and we have no premises anywhere in the UK, as every lesson is taught live online. Learners need a computer with sound and a steady connection, and our phone number is Indian.', boiler: true },
       { q: 'How much do Portsmouth lessons cost?', a: 'The first lesson is free. After it, a group place is USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one lessons on the same pattern are USD 150 a month. Course, format and time are agreed before any charge.', boiler: true },
       { q: 'How are Portsmouth groups put together?', a: 'By level, pace and goals rather than age or postcode, with five to ten learners at one stage. If no group suits the learner\'s timetable, we offer one-to-one lessons instead.', boiler: true }

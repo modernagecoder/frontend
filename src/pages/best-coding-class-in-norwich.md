@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths classes for Norwich learn
 canonical: https://learn.modernagecoders.com/best-coding-class-in-norwich
 source: src/pages/best-coding-class-in-norwich.html
 ---
-> Census 2021 found 143,922 usual residents in Norwich, and 11.4% of them were aged 20 to 24, against 6.0% across England. Norwich Cathedral was founded in 1096 by Herbert de Losinga, the first Bishop of Norwich. Modern Age Coders teaches Norwich learners aged six to sixty-seven in live online lessons, either one to one or in a group of five to ten matched by level, with teachers in India and lesson times set in UK hours. The first lesson is free; after that a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
+> Census 2021 found 143,922 usual residents in Norwich, and 11.4% of them were aged 20 to 24, against 6.0% across England. Norwich Cathedral was founded in 1096 by Herbert de Losinga, the first Bishop of Norwich. Anyone in Norwich from six to sixty-seven can learn with us live on screen, alone with a teacher or among five to ten classmates of similar ability; the teachers are in India and the timetable runs on UK time. Your first lesson costs nothing. A group place then costs USD 100 a month, and private teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Norwich
 
@@ -12,7 +12,7 @@ Norwich, Norfolk / Live online
 
 # Coding classes in Norwich
 
-**What are the best coding classes in Norwich?** Census 2021 found 143,922 usual residents in Norwich, and 11.4% of them were aged 20 to 24, against 6.0% across England. Norwich Cathedral was founded in 1096 by Herbert de Losinga, the first Bishop of Norwich. Modern Age Coders teaches Norwich learners aged six to sixty-seven in live online lessons, either one to one or in a group of five to ten matched by level, with teachers in India and lesson times set in UK hours. The first lesson is free; after that a group place costs USD 100 a month and one-to-one teaching USD 150 a month.
+**What are the best coding classes in Norwich?** Census 2021 found 143,922 usual residents in Norwich, and 11.4% of them were aged 20 to 24, against 6.0% across England. Norwich Cathedral was founded in 1096 by Herbert de Losinga, the first Bishop of Norwich. Anyone in Norwich from six to sixty-seven can learn with us live on screen, alone with a teacher or among five to ten classmates of similar ability; the teachers are in India and the timetable runs on UK time. Your first lesson costs nothing. A group place then costs USD 100 a month, and private teaching USD 150.
 
 Historic England lists 34 Grade I churches, chapels and cathedral buildings inside Norwich. Are they clustered or evenly spaced? Measure each one's distance to its nearest neighbour and compare the average with what random scattering would give. Across the whole council area the churches sit far closer together than random, a ratio of 0.453, strongly clustered. Draw the frame tightly around the churches themselves and the same 34 points become more evenly spaced than random, a ratio of 1.351, and in 499 random layouts only about one in fifty spread out as much. Nothing about the churches changed. Only the frame did. Our teenagers learn to run the test, and to say which frame they chose.
 
@@ -146,7 +146,7 @@ The heritage list in Python, a nearest-neighbour search, the Clark-Evans ratio a
 
 Spatial statistics for work with locations of any kind, reported with the frame, the definition and the test used.
 
-We have no connection with Historic England, Norwich Cathedral or Norwich City Council. The heritage list and boundaries are open data under the Open Government Licence, and the census figures are public; the distances, ratios and simulations are our own analysis.
+We have no connection with Historic England, Norwich Cathedral or Norwich City Council. Historic England and the ONS publish the list and the boundaries as open data under the Open Government Licence, and the census counts are free to use; we computed every distance, ratio and simulation shown here ourselves.
 
 ## From counters on a map to a spatial test
 
@@ -173,10 +173,10 @@ A trip across Norwich after school can eat an evening. Live online lessons keep 
 
 - **Both banks of the Wensum** A learner in Mile Cross and another in Thorpe Hamlet can share the same lesson without crossing the river.
 - **Stages Norwich schools use** Reception, Key Stages 1 to 4, GCSE options and A levels, called by the names Norwich schools use, and taught in English throughout.
-- **A free lesson that counts** The first session teaches something real, then recommends a level, a course and a weekly time. There is no card to enter.
+- **Try before paying** In the free session your learner does real work with a teacher, and at the end we suggest where to start, which course fits and a weekly slot. Card details are never requested.
 - **Grouped by level** Groups of five to ten learners at one stage, from Norwich, other parts of the UK and overseas, so every level finds a time that works.
 - **A fixed weekly pair** Two set lessons each week, about eight a month, with school holidays and exam weeks arranged with the teacher ahead of time.
-- **Clocks in two countries** India stays on one time all year, four and a half hours ahead of Norwich in British Summer Time and five and a half in winter, keeping UK after-school and evening lessons within the teaching day.
+- **Evening in Norwich, night in India** Our teachers work late by Indian time so that Norwich learners can have lessons after school or after work. The gap is four and a half hours while Britain is on summer time and five and a half from late October.
 
 **Across Norfolk** Families in Wymondham, Aylsham, Dereham or Sprowston join exactly the same classes, because every lesson is online and groups are formed by level.
 
@@ -188,7 +188,7 @@ The first lesson costs nothing, then there is one monthly fee.
 - Group tuition: USD 100 a month. About eight live lessons each month in a group of five to ten learners at one stage.
 - Private tuition: USD 150 a month. About eight live lessons each month, with a teacher focused on your learner alone.
 
-Families everywhere outside India pay the same US dollar fee, from Tuckswood to Catton Grove, and we do not show prices in pounds. We charge nothing until the free lesson has agreed a course and a slot; the pricing page explains pausing, missed lessons and switching between group and private teaching.
+Tuckswood and Catton Grove are billed identically, in US dollars, as is every family outside India; there are no pound prices on our site. Billing begins after the trial lesson, once you have accepted a course and a lesson time, and the pricing page answers the usual questions about pausing, missed lessons and changing format.
 
 ## Norwich coding class questions
 
@@ -198,7 +198,7 @@ Census 2021 counted 143,922 usual residents in the Norwich council area: 137,487
 
 ### How does Norwich compare with England?
 
-In 2021, 11.4% of residents were aged 20 to 24 against 6.0% in England, 25.7% of those aged five and over were students against 20.4%, and there were 3,688.2 residents per square kilometre against 433.5.
+It is younger and more crowded. The 20 to 24 age group was 11.4% of Norwich in 2021 but 6.0% of England; students made up 25.7% of residents aged five and over, against a national 20.4%; and there were 3,688.2 residents per square kilometre, against 433.5 nationally.
 
 ### What is the Clark-Evans ratio?
 

@@ -65,7 +65,7 @@ module.exports = {
 
   h1: 'Coding classes in Sunderland',
   capsuleQ: 'What are the best coding classes in Sunderland?',
-  capsule: 'Census 2021 counted 274,172 usual residents in Sunderland, and 5.9% of them were aged 65 to 69, against 4.9% for England. Sunderland Minster says its church was first built around 900 AD and served most of the area south of the Wear, which is why that side became Bishopwearmouth. Sunderland learners of any age from six to sixty-seven can join us live online, in a group of five to ten at their level or on their own with a teacher, with our teachers in India and lessons at UK times. We do not charge for the first lesson; afterwards a group place is USD 100 a month, and one-to-one teaching USD 150 a month.',
+  capsule: 'Census 2021 counted 274,172 usual residents in Sunderland, and 5.9% of them were aged 65 to 69, against 4.9% for England. Sunderland Minster says its church was first built around 900 AD and served most of the area south of the Wear, which is why that side became Bishopwearmouth. Sunderland learners of any age from six to sixty-seven can join us live online, in a group of five to ten at their level or on their own with a teacher, with our teachers in India and lessons at UK times. The introductory lesson is free, and the monthly fee after it is USD 100 for a group place or USD 150 for private teaching.',
   lead: 'Ordnance Survey lists 4,709 named places in Sunderland, from Roker to Washington. A map app asked what lies within 500 metres of a point has a simple way to answer: measure the distance to all 4,709 and keep the close ones. On average about 48 qualify, so almost every measurement is wasted. A quadtree splits the city into four boxes, splits any crowded box into four again, and so on, so a search can skip every box too far away to matter. With boxes of up to sixteen places, the same question needs about 90 distance checks instead of 4,709. Set the box size to one and the tree goes haywire, because three places share a single point. Our teenagers build the tree and find out why.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Sunderland.',
 
@@ -158,7 +158,7 @@ module.exports = {
           { h3: 'Teenagers', p: 'Open Names read in Python, a recursive quadtree class, pruning by distance and every answer checked against brute force.' },
           { h3: 'Adults', p: 'Spatial indexes in databases and mapping tools at work, chosen and tuned for the questions that are actually asked.' }
         ] },
-        { kind: 'p', text: 'We are not connected with Ordnance Survey, Sunderland Minster or Sunderland City Council. Open Names is published under the Open Government Licence and the census tables are public; the trees, counts and timings on this page are our own work.' }
+        { kind: 'p', text: 'We are not connected with Ordnance Survey, Sunderland Minster or Sunderland City Council. Ordnance Survey makes Open Names free under the Open Government Licence and the ONS census tables are open to all; we built every tree and measured every count and timing ourselves.' }
       ]
     }
   ],
@@ -195,7 +195,7 @@ module.exports = {
       { h3: 'The first lesson counts', p: 'The free session teaches something real and closes with a recommended level, course and weekly time. There is no card to enter.' },
       { h3: 'Matched classmates', p: 'Five to ten learners at one stage, from Sunderland, elsewhere in Britain and overseas, which gives every level a usable time.' },
       { h3: 'Two lessons a week', p: 'A steady pair of weekly lessons, about eight a month, with holidays and exam weeks set with the teacher ahead of time.' },
-      { h3: 'Why India\'s hours work', p: 'India does not use daylight saving, so it runs four and a half hours ahead of Sunderland in British Summer Time and five and a half in winter, and UK after-school or evening lessons land inside the teaching day.' }
+      { h3: 'Teachers on a late shift', p: 'Our teachers are four and a half hours ahead of Sunderland in summer and five and a half in winter, because India keeps one time all year. They teach into their evening so that Wearside learners can join after school.' }
     ],
     spec: { title: 'Across Wearside and beyond', p: 'Families in Seaham, South Shields, Chester-le-Street or Gateshead join exactly the same classes, since everything is online and groups are formed by level.' }
   },
@@ -222,7 +222,7 @@ module.exports = {
     intro: 'The questions Sunderland families most often ask.',
     items: [
       { q: 'How many people live in Sunderland?', a: 'Census 2021 counted 274,172 usual residents in Sunderland, with 270,386 living in households and 3,786 in communal establishments such as halls of residence and care homes.' },
-      { q: 'How does Sunderland compare with England?', a: 'In 2021, 5.9% of residents were aged 65 to 69 against 4.9% in England, 18.8% of those aged five and over were students against 20.4%, and there were 1,994.6 residents per square kilometre against 433.5.' },
+      { q: 'How does Sunderland compare with England?', a: 'Sunderland is older than average and has fewer students: people aged 65 to 69 were 5.9% of residents in 2021 (England 4.9%), and 18.8% of those aged five and over were in study (England 20.4%). Its density was 1,994.6 residents per square kilometre, well above the English 433.5.' },
       { q: 'What is a quadtree?', a: 'A way of storing points on a map in boxes that split into four whenever they get crowded. It lets a program answer questions like what is near here by opening only the few boxes that could contain an answer.' },
       { q: 'How much work does the quadtree save?', a: 'For searches within 500 metres, a quadtree holding up to sixteen places per box made about 90 distance checks instead of 4,709, and gave exactly the same answers in all 1,000 tests.' },
       { q: 'Where do the place names come from?', a: 'Ordnance Survey Open Names, free data under the Open Government Licence. For Sunderland, excluding postcodes, it lists 4,709 named features, most of them roads.' },
@@ -237,7 +237,7 @@ module.exports = {
   next: {
     eyebrow: 'Explore England and the UK',
     h2: 'The North East and beyond',
-    html: 'Up the coast, the <a class="cg-inline-link" href="/best-coding-class-in-newcastle-upon-tyne">Newcastle page</a> colours a map of its wards with as few colours as possible, and to the south <a class="cg-inline-link" href="/best-coding-class-in-york">York</a> measures how surprising its street names are. <a class="cg-inline-link" href="/best-coding-class-in-portsmouth">Portsmouth</a> finds the three roads that hold its island to the mainland. The <a class="cg-inline-link" href="/coding-and-ai-classes-in-england">England guide</a> explains the school stages, and the <a class="cg-inline-link" href="/coding-classes-in-united-kingdom">UK coding page</a> links every city we teach.',
+    html: 'Up the coast, the <a class="cg-inline-link" href="/best-coding-class-in-newcastle-upon-tyne">Newcastle page</a> colours a map of its wards with as few colours as possible, and to the south <a class="cg-inline-link" href="/best-coding-class-in-york">York</a> measures how surprising its street names are. <a class="cg-inline-link" href="/best-coding-class-in-portsmouth">Portsmouth</a> finds the three roads that hold its island to the mainland. School stages in England are laid out in the <a class="cg-inline-link" href="/coding-and-ai-classes-in-england">England guide</a>, and the <a class="cg-inline-link" href="/coding-classes-in-united-kingdom">UK coding page</a> is the index to every city.',
     waLabel: 'Message us on WhatsApp'
   },
 

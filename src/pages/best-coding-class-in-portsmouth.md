@@ -4,7 +4,7 @@ description: "Live online coding, Python, AI and maths lessons for Portsmouth le
 canonical: https://learn.modernagecoders.com/best-coding-class-in-portsmouth
 source: src/pages/best-coding-class-in-portsmouth.html
 ---
-> The 2021 census counted 208,003 usual residents in Portsmouth, at 5,149.8 per square kilometre, which puts the city second among English council areas outside London, just behind Luton. The Mary Rose, built in 1510, sank off the city in 1545 and was raised in 1982. We teach Portsmouth learners aged six to sixty-seven in live online lessons, in a group of five to ten matched by level or one to one, with teachers based in India and times set in UK hours. The first lesson is free; after it a group place is USD 100 a month and one-to-one teaching USD 150 a month.
+> The 2021 census counted 208,003 usual residents in Portsmouth, at 5,149.8 per square kilometre, which puts the city second among English council areas outside London, just behind Luton. The Mary Rose, built in 1510, sank off the city in 1545 and was raised in 1982. Portsmouth learners from six to sixty-seven join us on live video, either in a class of five to ten at the same level or with a teacher of their own; the teaching comes from India, scheduled around the UK day. There is no charge for the opening lesson. After that, a group place is USD 100 a month and individual teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / Portsmouth
 
@@ -12,7 +12,7 @@ Portsmouth, Hampshire / Live online
 
 # Coding classes in Portsmouth
 
-**What are the best coding classes in Portsmouth?** The 2021 census counted 208,003 usual residents in Portsmouth, at 5,149.8 per square kilometre, which puts the city second among English council areas outside London, just behind Luton. The Mary Rose, built in 1510, sank off the city in 1545 and was raised in 1982. We teach Portsmouth learners aged six to sixty-seven in live online lessons, in a group of five to ten matched by level or one to one, with teachers based in India and times set in UK hours. The first lesson is free; after it a group place is USD 100 a month and one-to-one teaching USD 150 a month.
+**What are the best coding classes in Portsmouth?** The 2021 census counted 208,003 usual residents in Portsmouth, at 5,149.8 per square kilometre, which puts the city second among English council areas outside London, just behind Luton. The Mary Rose, built in 1510, sank off the city in 1545 and was raised in 1982. Portsmouth learners from six to sixty-seven join us on live video, either in a class of five to ten at the same level or with a teacher of their own; the teaching comes from India, scheduled around the UK day. There is no charge for the opening lesson. After that, a group place is USD 100 a month and individual teaching USD 150.
 
 Much of Portsmouth stands on Portsea Island. Ordnance Survey's road network for the area around it has 17,738 road links. How many of them would have to close before no car could drive from the Guildhall to Cosham? A program can answer that without trying every combination, using one of the most useful results in computer science: the largest number of separate routes between two places equals the smallest number of links whose removal separates them. For Portsea Island both numbers are three: the M275, London Road and Eastern Road. On the mainland, between the Fareham and Havant sides, the answer is five. Our teenagers compute both, and learn why the theorem makes the question easy.
 
@@ -38,7 +38,7 @@ Browse the [course atlas](/course-atlas) for more than one hundred options and t
 
 ## A crowded island with a young population
 
-Census 2021 figures for the Portsmouth council area, read from Nomis and printed as the Office for National Statistics published them.
+The numbers below come straight from the Office for National Statistics' 2021 census tables for Portsmouth, downloaded through Nomis and left exactly as released.
 
 **Portsmouth, Census 2021**
 
@@ -177,7 +177,7 @@ With only three road links off the island, a trip across Portsmouth depends on a
 - **The free lesson teaches** The first session covers a real task and ends by suggesting a level, a course and a weekly slot. No card details are taken.
 - **Right-level classmates** Groups of five to ten learners at the same stage, from Portsmouth, elsewhere in the UK and overseas, so every level can find a sensible hour.
 - **Twice every week** Two fixed lessons a week, around eight a month, with holidays and exam dates planned with the teacher in advance.
-- **India's steady clock** India never changes its clocks, so it is four and a half hours ahead of Portsmouth in British Summer Time and five and a half in winter, which keeps UK after-school and evening lessons inside the teaching day.
+- **Late afternoon in Southsea** When it is late afternoon in Portsmouth it is already evening in India, where our teachers are: four and a half hours ahead in the British summer, five and a half in winter. They teach through their evening so that UK learners can join after school or work.
 
 **Around the harbour** Families in Gosport, Fareham, Havant or Waterlooville join exactly the same classes, since lessons are online and groups are built around level.
 
@@ -189,7 +189,7 @@ A free lesson to start, then one monthly fee.
 - Group tuition: USD 100 a month. Roughly eight live lessons a month in a group of five to ten learners at the same level.
 - Private tuition: USD 150 a month. Roughly eight live lessons a month, with the teacher working only with your learner.
 
-Every family outside India pays one US dollar fee, whether in Milton or Hilsea, and we do not publish prices in pounds. Nothing is charged until the free lesson has settled a course and a slot; the pricing page covers pauses, missed lessons and moving between group and private teaching.
+A household in Milton pays the same as one in Hilsea or anywhere else outside India: a single fee in US dollars, with no pound prices shown. You pay nothing until after the free lesson, when a course and a time have been agreed; pausing, missed lessons and switching formats are all explained on the pricing page.
 
 ## Portsmouth coding class questions
 
@@ -219,7 +219,7 @@ The Mary Rose Trust says she sank on 19 July 1545 during the Battle of the Solen
 
 ### When are Portsmouth lessons held?
 
-Weekday afternoons and evenings or weekends, at a UK time agreed during the free lesson. India is four and a half hours ahead of Portsmouth in summer and five and a half hours ahead in winter.
+Lessons run after school, in the evening or at the weekend, and your slot is chosen with the teacher at the end of the free lesson. India is four and a half hours ahead of Portsmouth in summer and five and a half in winter.
 
 ### Is there a Modern Age Coders centre in Portsmouth?
 
