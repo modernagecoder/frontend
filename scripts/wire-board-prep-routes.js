@@ -37,7 +37,9 @@ const SLUGS = [
   'icse-class-10-computer-applications-syllabus-explained',
   'icse-class-10-java-programs-practice',
   'icse-class-10-bluej-java-coaching',
-  'icse-class-10-computer-applications-board-exam-preparation'
+  'icse-class-10-computer-applications-board-exam-preparation',
+  'sof-imo-preparation',
+  'sof-icso-preparation'
 ];
 
 const LLMS_HEADING = '## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)';

@@ -53,6 +53,9 @@
 .bx-root.bx-isy { --bx-accent: #7A3B2E; --bx-accent-soft: rgba(122,59,46,.09); }
 .bx-root.bx-ipr { --bx-accent: #6E2F57; --bx-accent-soft: rgba(110,47,87,.09); }
 .bx-root.bx-ibj { --bx-accent: #5C3A7A; --bx-accent-soft: rgba(92,58,122,.09); }
+/* SOF olympiad pages (2026-09): IMO amber-brown, ICSO teal-green */
+.bx-root.bx-sim { --bx-accent: #7A4A12; --bx-accent-soft: rgba(122,74,18,.09); }
+.bx-root.bx-sic { --bx-accent: #1F5F5B; --bx-accent-soft: rgba(31,95,91,.09); }
 .bx-root.bx-ibe { --bx-accent: #8A3A20; --bx-accent-soft: rgba(138,58,32,.09); }
 
 /* ---------------------------------------------------------------- base */

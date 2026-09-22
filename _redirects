@@ -3508,4 +3508,14 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-brighton-and-hove /src/pages/best-coding-class-in-brighton-and-hove.html 200
 /best-coding-class-in-brighton-and-hove.md /src/pages/best-coding-class-in-brighton-and-hove.md 200
+
+# Class 10 board-prep cluster (board-prep.css). Inserted before the /* catch-all.
+/sof-imo-preparation /src/pages/sof-imo-preparation.html 200
+/sof-imo-preparation.md /src/pages/sof-imo-preparation.md 200
+/sof-icso-preparation /src/pages/sof-icso-preparation.html 200
+/sof-icso-preparation.md /src/pages/sof-icso-preparation.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-plymouth /src/pages/best-coding-class-in-plymouth.html 200
+/best-coding-class-in-plymouth.md /src/pages/best-coding-class-in-plymouth.md 200
 /* /src/pages/404.html 404

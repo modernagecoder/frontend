@@ -12702,6 +12702,40 @@
   to = "/src/pages/best-coding-class-in-brighton-and-hove.md"
   status = 200
 
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/sof-imo-preparation"
+  to = "/src/pages/sof-imo-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/sof-imo-preparation.md"
+  to = "/src/pages/sof-imo-preparation.md"
+  status = 200
+
+[[redirects]]
+  from = "/sof-icso-preparation"
+  to = "/src/pages/sof-icso-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/sof-icso-preparation.md"
+  to = "/src/pages/sof-icso-preparation.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-class-in-plymouth"
+  to = "/src/pages/best-coding-class-in-plymouth.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-plymouth.md"
+  to = "/src/pages/best-coding-class-in-plymouth.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
