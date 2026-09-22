@@ -18425,5 +18425,59 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables and money data: excluded by the cluster rules.",
       "Any affiliation with DEFRA, Swansea University or Swansea Council."
     ]
+  },
+  "best-coding-class-in-sunderland": {
+    "market": "Sunderland",
+    "bodyClass": "cg-sld",
+    "pageType": "city",
+    "curriculumAuthority": "Sunderland, Census 2021 via Nomis (E08000024): TS001 274,172 usual residents, 270,386 in households, 3,786 in communal establishments; TS007A 16,033 aged 10 to 14 (5.8 percent, England 6.0), 14,645 aged 15 to 19 (5.3, England 5.7), 15,142 aged 20 to 24 (5.5, England 6.0), 16,103 aged 65 to 69 (5.9, England 4.9); TS068 48,863 students of 260,323 residents aged 5 and over (18.8 percent, England 20.4); TS006 1,994.6 usual residents per square kilometre (England 433.5). Sunderland Minster, History of the Building: formerly St Michael and All Angels, Bishopwearmouth, first built around 900 AD; served most of the area south of the River Wear under the Bishop of Durham, hence Bishopwearmouth; inaugurated as Sunderland Minster 11 January 1998; renamed 1 May 2007 to include St Benedict Biscop.",
+    "localProject": "Searching 4,709 places without looking at most of them. OS Open Names (read 21 September 2026), Sunderland features excluding postcodes: 4,709 (4,141 named roads). Quadtree, 1,000 random 500 m searches (47.8 found on average; brute force 4,709 checks): capacity 1, 19,069 boxes, depth 30, 56.5 checks, 284.5 boxes visited; 4, 3,689, 8, 66.5, 96.2; 16, 989, 6, 89.7, 48.2; 64, 265, 5, 150.7, 27.6; all answers identical to brute force. Radius sweep at capacity 16: 100 m 0.4 percent of brute-force checks, 2,000 m 12.4 percent. 71 shared coordinates, at most three at one point (Grasswell, Gertrude Street, Grasswell Terrace). Smallest box 246 m, largest occupied 3,942 m. Lesson family: quadtrees and spatial indexing; distinct from Aberdeen Bloom filter, Wolverhampton trie and Southampton hash tables.",
+    "requiredMentions": [
+      "274,172",
+      "270,386",
+      "3,786",
+      "1,994.6",
+      "15,142",
+      "48,863",
+      "260,323",
+      "Bishopwearmouth",
+      "Biscop",
+      "quadtree",
+      "Grasswell",
+      "White Gates Drive"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Sunderland: 274,172 usual residents; 270,386 in households; 3,786 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E08000024"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Sunderland and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E08000024,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Sunderland 48,863 students of 260,323 aged 5 and over (18.8 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E08000024,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, Sunderland 1,994.6 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E08000024,E92000001"
+      },
+      {
+        "claim": "Ordnance Survey Open Names (CSV download): named features with district, used for the Sunderland point set.",
+        "url": "https://api.os.uk/downloads/v1/products/OpenNames/downloads"
+      },
+      {
+        "claim": "Sunderland Minster, Guide to the Minster and its history: around 900 AD, Bishopwearmouth, 11 January 1998, 2007 renaming.",
+        "url": "https://sunderlandminster.org.uk/guide-to-the-minster-and-its-history/"
+      }
+    ],
+    "rejectedClaims": [
+      "OS Open Rivers for a line-simplification project on the Wear: the river through the city has only 113 vertices, too few for the idea, so it was dropped.",
+      "Traffic on the Wear bridges before and after the Northern Spire: count points could not be matched to bridges with confidence, so the idea was dropped.",
+      "National Glass Centre as heritage: it closed permanently on 31 July 2026, so it is not presented as a place to visit.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Ordnance Survey, Sunderland Minster or Sunderland City Council."
+    ]
   }
 }
