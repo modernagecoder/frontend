@@ -1,8 +1,8 @@
 {
   "meta": {
     "slug": "coding-for-7-year-olds-what-how-kids-should-learn-programming",
-    "title": "Coding for 7-Year-Olds: What and How Kids Should Learn Programming",
-    "description": "Complete guide to coding for 7-year-olds. Learn what programming concepts kids should master, best platforms, project ideas, and how to recognize real progress.",
+    "title": "Coding for 7 Year Olds: What to Learn, Best Platforms and the First Month",
+    "description": "What a 7 year old should learn in coding: loops, conditions, events, variables, the best free platforms, a first month week by week, and real progress signs.",
     "keywords": [
       "coding for 7 year olds",
       "programming for 7 year olds",
@@ -10,14 +10,18 @@
       "scratch for 7 year olds",
       "beginner programming concepts",
       "coding platforms for kids age 7",
-      "project based coding learning"
+      "project based coding learning",
+      "beginner coding for 7 year olds",
+      "coding classes for 7 year olds",
+      "roblox or minecraft for 7 year old",
+      "coding for 7 year olds first month"
     ],
     "author": {
       "name": "Modern Age Coders",
       "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages."
     },
     "date": "2026-01-18",
-    "dateModified": "2026-07-18",
+    "dateModified": "2026-09-23",
     "category": "Education",
     "tags": [
       "Coding for Kids",
@@ -28,7 +32,8 @@
     ],
     "readTime": "16 min read",
     "featured": false,
-    "tldr": "At seven, children can move beyond simple blocks to guided projects that teach loops, events and basic logic, usually in tools like Scratch. This guide explains which concepts they should master, the best platforms, fun project ideas and how to recognise genuine progress rather than just screen time."
+    "tldr": "A 7 year old should learn four ideas in coding: loops, conditions, events and variables, in Scratch or Code.org, in 30 to 45 minute sessions three or four times a week. A complete beginner gets there in about a month of guided projects. This guide gives the concepts, the platforms, a week-by-week first month, the Roblox-or-Minecraft answer, and the signs of real progress.",
+    "retarget": "age-2026-09"
   },
   "hero": {
     "title": "Coding for 7-Year-Olds: What and How Kids Should Learn Programming",
@@ -52,7 +57,7 @@
       },
       {
         "type": "paragraph",
-        "text": "This guide explains exactly what 7-year-olds should learn in coding, how to recognize real progress, and the best approaches for teaching beginner programming concepts that build a solid foundation."
+        "text": "The short answer: coding for 7 year olds means Scratch or Code.org, four concepts (loops, conditions, events and variables), projects rather than lessons, and sessions of 30 to 45 minutes three or four times a week. A complete beginner who starts at 7 is building their own small games within a month; the <a href=\"#first-month\">week-by-week first month</a> below shows how. This guide covers what a 7 year old should learn, the best platforms, whether Roblox or Minecraft is the right door, and how to recognise real progress rather than screen time."
       },
       {
         "type": "heading",
@@ -732,6 +737,50 @@
       {
         "type": "heading",
         "level": 2,
+        "text": "Beginner Coding for 7 Year Olds: The First Month, Week by Week",
+        "id": "first-month"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most parents searching for beginner coding for 7 year olds want to know what the first weeks actually look like. This is a plan for a complete beginner at home, in Scratch, at three sessions a week of about 40 minutes. It matches the learning-curve expectations above, just with the projects named."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Week 1, the stage and the cat.</strong> Open Scratch, meet the sprite, the stage and the green flag. Build the classic first project: the cat walks, hits the edge, turns around. Add a costume change so it looks like it is walking. The concept is sequence: blocks run top to bottom. Success looks like the child dragging blocks without help by the third session."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Week 2, loops.</strong> Turn the walk into a forever loop, then a repeat-10 loop with a sound. Make an animated greeting card: a character moves, speaks, the background changes. Ask the child to predict what happens before they click the flag. Success looks like the child choosing a loop on their own instead of stacking the same block twenty times."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Week 3, events and conditions.</strong> Arrow keys move the sprite (events). A falling star, a bag at the bottom, and \"if touching star, change score by 1\" (a condition and a variable together). This is the simple catching game from the projects section, and it is the first thing most 7 year olds want to show the family."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Week 4, their own idea.</strong> The child names a project, sketches it on paper, and builds it from the pieces of weeks 1 to 3. It will be smaller than the sketch. That is fine; the point is that the ideas came from them. A short quiz with two questions, a chase game or a two-scene story are all typical, and all count."
+      },
+      {
+        "type": "paragraph",
+        "text": "After the first month the pace slows down and deepens: variables for lives and timers, broadcasting between sprites, multi-level games. A child who does this month at home can carry on alone with the project lists above; a child who wants a teacher on screen can do the same month in our <a href=\"/courses/scratch-programming-complete-course\">live Scratch course</a>, which takes children from 6 to 12 in a batch of 5 to 10 or 1-on-1, one hour per class, with a free demo first. When your child turns 8 the <a href=\"/coding-for-8-year-olds\">coding for 8 year olds</a> page shows what changes in the next year."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Roblox or Minecraft for a 7 Year Old Who Wants to Code?",
+        "id": "roblox-or-minecraft"
+      },
+      {
+        "type": "paragraph",
+        "text": "Parents ask this because both games advertise coding, and the honest answer at 7 is: play them as games, and code in Scratch. Minecraft has the gentler on-ramp. Code.org's Minecraft Hour of Code activities are block-based, free in the browser and fine for a 7 year old, and Minecraft Education Edition uses the same block approach in class settings. Roblox Studio, by contrast, is a real game engine scripted in Lua, a typed text language, and most children are not ready for it before 10 or 11; at 7 the child ends up watching a tutorial rather than coding."
+      },
+      {
+        "type": "paragraph",
+        "text": "So if your 7 year old loves Minecraft, use the Minecraft Hour of Code as a warm-up and move to Scratch for the projects in this guide. If they love Roblox, let them know that Roblox Studio is a goal for a few years from now, and that the loops, conditions and variables they learn in Scratch are exactly what Lua will ask of them later."
+      },
+      {
+        "type": "heading",
+        "level": 2,
         "text": "How Long and How Often Should 7-Year-Olds Code?",
         "id": "session-length-frequency"
       },
@@ -999,6 +1048,37 @@
       {
         "type": "paragraph",
         "text": "Start with projects that interest them, keep sessions consistent at 30-45 minutes 3-4 times weekly, and watch their logical thinking and creative problem-solving flourish."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Coding for 7 Year Olds: Questions Parents Ask",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What should a 7 year old learn in coding first?",
+            "content": "Sequence first (blocks run in order), then loops, then events (when a key is pressed), then conditions and a variable for the score. In Scratch that is roughly the first month of guided projects: a walking cat, an animated card, a catching game, and one project of the child's own."
+          },
+          {
+            "title": "Is Scratch good for a 7 year old?",
+            "content": "Yes. Scratch is designed for 8 to 16, but a 7 year old who reads short sentences manages it well, because the blocks read like English and snap together with the mouse. Scratch Junior suits a child who is not reading yet. Code.org's second-grade course is the other good starting point."
+          },
+          {
+            "title": "How long should a 7 year old code each week?",
+            "content": "Three or four sessions of 30 to 45 minutes. A 7 year old who asks for more can have more; a 7 year old who is frustrated needs a shorter session or an easier project, not more time. Ending a session while the child still wants to continue is the surest way to keep them coming back."
+          },
+          {
+            "title": "Roblox or Minecraft for a 7 year old who wants to code?",
+            "content": "Minecraft, through the block-based Hour of Code activities, is the one a 7 year old can actually code in. Roblox Studio uses Lua, a typed language, and suits children of 10 or 11 and up. At 7, let them play both and do the real coding in Scratch."
+          },
+          {
+            "title": "Can a 7 year old join live online coding classes?",
+            "content": "Yes. Our live Scratch course takes children from 6 to 12, in a batch of 5 to 10 children of a similar age or 1-on-1, one hour per class with a teacher on screen for the whole hour, and the first class is a free demo. If your child is not ready to sit for an hour yet, waiting a few months loses nothing: the course starts from zero at any age in that range."
+          }
+        ]
       },
       {
         "type": "heading",
