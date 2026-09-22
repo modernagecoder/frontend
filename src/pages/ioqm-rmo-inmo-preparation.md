@@ -68,7 +68,7 @@ Combinatorics
 
 Counting arguments, extremal ideas, invariants that never change no matter what move is made, and games with a winning strategy. The area where a student with no special training can sometimes solve an INMO problem, and the area where a memorised method is least use.
 
-Question counts, marks and the qualification cutoffs for each stage are published by HBCSE and MTA(I) on their own sites, which we send families to rather than reproduce. Every student sees the real IOQM and RMO papers for recent years in the first month, from the organisers' archives, with a clock.
+Question counts, marks and the qualification cutoffs for each stage are published by HBCSE and MTA(I) on their own sites, which we send families to rather than reproduce. Every student sees the real IOQM and RMO papers for recent years in the first month, from the organisers' archives, with a clock. A Class 8 student still building the base takes [middle school mathematics](/courses/comprehensive-middle-school-mathematics-mastery) alongside, and students who also sit the American contests use the [AMC and AIME course](/courses/olympiad-competition-mathematics-mastery).
 
 Q3. Why the proof is a different skill from the answer
 

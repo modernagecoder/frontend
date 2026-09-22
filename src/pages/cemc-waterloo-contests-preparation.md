@@ -71,7 +71,7 @@ The senior pair and the team event
 
 The Canadian Senior and Intermediate contests in November mix short answers with full solutions for Grades 9 to 12, and the Team contest in April is written as a group. CEMC also runs invitational tiers above these; the route to them runs through the contests on this page.
 
-Question counts and mark schemes per paper are on CEMC's own contest pages and past papers, which we use in class rather than reproduce here. What every student sees on the first day is the real paper for their grade, from CEMC's archive, with a clock.
+Question counts and mark schemes per paper are on CEMC's own contest pages and past papers, which we use in class rather than reproduce here. What every student sees on the first day is the real paper for their grade, from CEMC's archive, with a clock. Students who want the proof-writing side taken further sit in our [olympiad mathematics course](/courses/olympiad-mathematics-premium-course), and Grade 7 to 8 students still building the base use [elementary maths](/courses/elementary-mathematics-complete-masterclass) alongside.
 
 Q3. Why the argument is the mark on a full-solution paper
 

@@ -69,7 +69,7 @@ The camp and the IOI
 
 IOITC is a selection camp: days of contests and lectures that pick the four-student team. We do not promise it; we prepare for INOI honestly and tell you where your child stands after each rehearsal. IARCS's own page has the training material and the online judge, which we use.
 
-Question counts and marking for each stage are on IARCS's own pages and in its archive of past papers, which we use in class rather than reproduce here. Every student sees the real ZIO and ZCO papers from recent cycles in the first month.
+Question counts and marking for each stage are on IARCS's own pages and in its archive of past papers, which we use in class rather than reproduce here. Every student sees the real ZIO and ZCO papers from recent cycles in the first month. A teen who has never met a data structure starts with [problem solving and DSA for teens](/courses/problem-solving-dsa-masterclass-teens); a college student on the same road uses the [college competitive programming course](/courses/competitive-programming-masterclass-college) and the [DSA course](/courses/data-structures-algorithms-masterclass-college).
 
 Q3. Why passing the judge is a different skill from knowing the answer
 
