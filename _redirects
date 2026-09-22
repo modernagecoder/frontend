@@ -3578,4 +3578,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-newport-wales /src/pages/best-coding-class-in-newport-wales.html 200
 /best-coding-class-in-newport-wales.md /src/pages/best-coding-class-in-newport-wales.md 200
+
+# Class 10 board-prep cluster (board-prep.css). Inserted before the /* catch-all.
+/maths-olympiad-classes-online /src/pages/maths-olympiad-classes-online.html 200
+/maths-olympiad-classes-online.md /src/pages/maths-olympiad-classes-online.md 200
 /* /src/pages/404.html 404

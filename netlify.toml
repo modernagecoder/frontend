@@ -12952,6 +12952,18 @@
   to = "/src/pages/best-coding-class-in-newport-wales.md"
   status = 200
 
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/maths-olympiad-classes-online"
+  to = "/src/pages/maths-olympiad-classes-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-olympiad-classes-online.md"
+  to = "/src/pages/maths-olympiad-classes-online.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
