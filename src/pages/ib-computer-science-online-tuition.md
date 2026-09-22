@@ -14,6 +14,22 @@ The diploma course covers both themes and the internal assessment. Mathematics a
 
 [![IB Diploma Computer Science course thumbnail](/images/ib-computer-science.webp)  IB / 01 IB Diploma Computer Science The course this page describes. Both themes, the language decision taken deliberately, and the internal assessment started in DP1. Open the syllabus →](/courses/ib-diploma-computer-science-course)[![IB Mathematics AA and AI Masterclass course thumbnail](/images/ib-maths-aa-ai.webp)  IB / 02 IB Mathematics AA and AI Masterclass Taken alongside by most IB Computer Science students, and the reason the machine learning content lands or does not. Open the syllabus →](/courses/ib-mathematics-aa-ai-masterclass)[![Java Programming for Teens course thumbnail](/images/java-teens.webp)  IB / 03 Java Programming for Teens For students taking the Java route through Paper 2, and the usual choice for anyone also sitting an AP. Open the syllabus →](/courses/java-programming-masterclass-for-teens)
 
+Key dates, 2027
+
+## IB Computer Science, May 2027: the first exam of the new course
+
+The IB launched a new Diploma Programme Computer Science course for first teaching in August 2025, and May 2027 is its first assessment. The syllabus now names machine learning as a topic, and the subject has moved into group 4, which changes how it fits a student's diploma.
+
+| What | When | Where we read it |
+| --- | --- | --- |
+| New DP Computer Science course | First teaching August 2025; first assessment May 2027 | ibo.org curriculum pages (read 22 Sep 2026) |
+| Outgoing DP Computer Science course | Last assessment 2026 | ibo.org curriculum pages (read 22 Sep 2026) |
+| What the new course contains | Theme A, Concepts of computer science: computer fundamentals, networks, databases, machine learning. Theme B, Computational thinking and problem-solving: computational thinking, programming, object-oriented programming, and further topics | ibo.org curriculum pages (read 22 Sep 2026) |
+| Where it sits in the diploma | Group 4 (sciences), so it can be a student's group 4 subject rather than an extra taken alongside mathematics | ibo.org curriculum pages (read 22 Sep 2026) |
+| Our teaching calendar | DP2 students are paced backwards from the May 2027 session; DP1 students starting now are taught the new course from the first module | This page |
+
+The IB's May 2027 session dates by paper were not re-read when this table was written; ask your IB coordinator for the school's schedule.
+
 The course
 
 ## IB Computer Science, taught live across DP1 and DP2

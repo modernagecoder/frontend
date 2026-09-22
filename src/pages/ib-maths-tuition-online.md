@@ -12,7 +12,22 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
 
-[![IB Mathematics AA and AI Masterclass course thumbnail](/images/ib-maths-aa-ai.webp)Best fit  IB Mathematics AA & AI Masterclass Your exact IB course taught to a 7: paper-specific technique, GDC fluency and honest IA coaching. AA & AI · SL & HL8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ib-mathematics-aa-ai-masterclass)[![College Mathematics Masterclass course thumbnail](/images/college-level-maths.webp)  College Mathematics Masterclass Calculus, linear algebra and the mathematics behind engineering, computer science and data careers. College level8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/college-mathematics-complete-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
+[![IB Mathematics AA and AI Masterclass course thumbnail](/images/ib-maths-aa-ai.webp)Best fit  IB Mathematics AA & AI Masterclass Your exact IB course taught to a 7: paper-specific technique, GDC fluency and honest IA coaching. AA & AI · SL & HL8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ib-mathematics-aa-ai-masterclass)[![College Mathematics Masterclass course thumbnail](/images/college-level-maths.webp)  College Mathematics Masterclass Calculus, linear algebra and the mathematics behind engineering, computer science and data careers. College level8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/college-mathematics-complete-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedKey dates, 2027
+
+## IB Mathematics AA and AI: which curriculum your child is on, and until when
+
+The current Analysis and Approaches and Applications and Interpretation courses run to a final assessment in November 2028. A new mathematics curriculum is taught from 2027 for first assessment in 2029, so a student starting DP1 in August or September 2027 is on the new one.
+
+| What | When | Where we read it |
+| --- | --- | --- |
+| Current AA and AI curriculum | Final assessment November 2028 | ibo.org curriculum pages (read 22 Sep 2026) |
+| New AA and AI curriculum | Taught from 2027; first assessment 2029 | ibo.org curriculum pages (read 22 Sep 2026) |
+| Who is affected | DP1 cohorts beginning in 2027 study the new content; students already in DP1 or DP2 finish on the current one | ibo.org curriculum pages (read 22 Sep 2026) |
+| Our teaching | Both AA and AI, SL and HL, on the curriculum your child is actually sitting; ask us which one on the call | This page |
+
+What changes in the new mathematics curriculum is in the IB's subject briefs, which were not summarised here; we will update this table when we have read them in full.
+
+The 20-second answer
 
 Good IB maths tuition is **course-specific**: Analysis & Approaches and Applications & Interpretation are genuinely different subjects, each split into SL and HL, with different papers, calculator rules and emphasis. A tutor must teach *your* course, coach the Internal Assessment honestly (it is a fifth of the grade), and train paper technique on real past questions. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
 
@@ -197,7 +212,7 @@ Every mentor teaches from a structured curriculum, adapted live to your teen. If
 
 [DP core pathHigh School Mathematics Mastery Program](/courses/complete-high-school-mathematics-mastery)[Beyond the syllabusCollege Mathematics Masterclass](/courses/college-mathematics-complete-masterclass)[For the P3 mindsetOlympiad & Competition Mathematics](/courses/olympiad-competition-mathematics-mastery)Pricing
 
-## Premium teaching. One honest price.
+## Serious teaching. One honest price.
 
 You are paying for a real teacher, live, for a full hour, twice a week, the same format IB-specialist tutors bill $60 to $120 an hour for. Our cost base is global, so the price is not.
 

@@ -14,6 +14,23 @@ The GCSE course is built around your board. Mathematics and Python are the two t
 
 [![GCSE Computer Science, AQA OCR Edexcel course thumbnail](/images/gcse-computer-science.webp)  GCSE / 01 GCSE Computer Science, AQA OCR Edexcel The course this page describes. Programming and tracing first, the theory second, and the final third spent entirely on the papers this student will sit. Open the syllabus →](/courses/gcse-computer-science-course)[![GCSE Mathematics Mastery course thumbnail](/images/gcse-maths.webp)  GCSE / 02 GCSE Mathematics Mastery Taken alongside by most GCSE Computer Science students, and the reason data representation is quick or slow. Open the syllabus →](/courses/gcse-mathematics-mastery)[![Python for Teens course thumbnail](/images/python-teens.webp)  GCSE / 03 Python for Teens The language nearly every UK school uses for this GCSE, taught properly rather than as exam-only syntax. Open the syllabus →](/courses/python-complete-masterclass-teens)
 
+Key dates, 2027
+
+## GCSE Computer Science in 2027: the first sitting of the revised specification
+
+Summer 2027 is the first time the revised GCSE Computer Science content is examined. AQA says so on its own 8525 page, and the change comes from a national Department for Education review, so the other boards follow the same timeline. We teach to the revised content from the first class, not the old textbook.
+
+| What | When | Where we read it |
+| --- | --- | --- |
+| Revised GCSE Computer Science content (AQA 8525 "Updated") | First teaching September 2025, first exams Summer 2027 | aqa.org.uk, GCSE Computer Science 8525 (read 22 Sep 2026) |
+| Outgoing 8525 specification | Last exams 2026 | aqa.org.uk, GCSE Computer Science 8525 (read 22 Sep 2026) |
+| June 2027 series: first exam on the common timetable | 10 May 2027 | JCQ, Key dates in the examination cycle, June 2027 series (read 22 Sep 2026) |
+| June 2027 series: final GCSE exam | 18 June 2027 (contingency day 23 June 2027) | JCQ, Key dates in the examination cycle, June 2027 series (read 22 Sep 2026) |
+| Entries deadline for the June 2027 series | 21 February 2027 (schools enter students; ask yours) | JCQ, Key dates in the examination cycle, June 2027 series (read 22 Sep 2026) |
+| Paper-by-paper dates for Computer Science | Set in each board's own timetable; the JCQ commentary confirms no session moves for Computer Science in 2027 | JCQ, Key dates in the examination cycle, June 2027 series (read 22 Sep 2026) |
+
+OCR J277 and Edexcel 1CP2 were not individually re-read when this table was written; the revised content applies GCSE-wide under the same review. Results days for 2027 are not published in the JCQ key-dates document, so none is stated here.
+
 The course
 
 ## GCSE Computer Science, taught to your board

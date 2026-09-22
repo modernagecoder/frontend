@@ -18,6 +18,22 @@ The other quiet grade-killer is method marks. Students lose marks they'd earned 
 
 We fix all of it. We diagnose where the marks actually leak, repair the foundations the exam keeps testing, teach the reasoning the problem-solving questions need, and drill past-paper technique so the marks get banked.
 
+Key dates, 2027
+
+## GCSE Maths, June 2027 series: the dates that matter
+
+GCSE Maths sits on the shared June 2027 timetable. No change to the maths specification was found for 2026-27, so the course is the one your child's school is already teaching.
+
+| What | When | Where we read it |
+| --- | --- | --- |
+| First exam on the common timetable | 10 May 2027 | JCQ, Key dates in the examination cycle, June 2027 series (read 22 Sep 2026) |
+| Final GCSE exam on the common timetable | 18 June 2027 (contingency day 23 June 2027) | JCQ, Key dates in the examination cycle, June 2027 series (read 22 Sep 2026) |
+| Entries deadline for the June 2027 series | 21 February 2027 (schools enter students; ask yours) | JCQ, Key dates in the examination cycle, June 2027 series (read 22 Sep 2026) |
+| Paper dates for Maths (Foundation and Higher, Papers 1 to 3) | Set in each board's own timetable; no session moves for Maths in 2027 per the JCQ commentary | JCQ, Key dates in the examination cycle, June 2027 series (read 22 Sep 2026) |
+| Specification | Unchanged for 2026-27 as far as the boards' pages showed | JCQ, Key dates in the examination cycle, June 2027 series (read 22 Sep 2026) |
+
+Results days for 2027 are not published in the JCQ key-dates document, so none is stated here.
+
 How we teach
 
 ## Understanding, then exam technique: in that order.

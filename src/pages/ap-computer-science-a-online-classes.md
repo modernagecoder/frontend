@@ -14,6 +14,21 @@ Start with the AP course itself. The other two are what students take alongside 
 
 [![AP Computer Science A Exam Prep course thumbnail](/images/ap-computer-science-a.webp)  AP / 01 AP Computer Science A Exam Prep The course this page describes. Java to the four-unit specification, with collections started early and full papers marked to the published rubric. Open the syllabus →](/courses/ap-computer-science-a-java-exam-prep-course)[![AP Computer Science Principles Exam Prep course thumbnail](/images/ap-computer-science-principles.webp)  AP / 02 AP Computer Science Principles Exam Prep The broader companion. Many students take it first as an on-ramp, and taking both in that order is common and sensible. Open the syllabus →](/courses/ap-computer-science-principles-exam-prep-course)[![Java Programming for Teens course thumbnail](/images/java-teens.webp)  AP / 03 Java Programming for Teens For a student who wants the language properly before meeting the exam specification. The usual answer to starting AP CSA without Java. Open the syllabus →](/courses/java-programming-masterclass-for-teens)
 
+Key dates, 2027
+
+## AP Computer Science A, May 2027: the dates that matter
+
+The College Board has published the 2027 schedule. AP Computer Science A sits in the second week, in the afternoon session, and entry runs through your school's AP coordinator on school-set deadlines in the autumn.
+
+| What | When | Where we read it |
+| --- | --- | --- |
+| AP Computer Science A exam | Wednesday, 12 May 2027, Session 2 (afternoon) | College Board, 2027 AP Exam Dates (read 22 Sep 2026) |
+| 2027 AP exam window | Two weeks in May: 3 to 7 May and 10 to 14 May 2027 | College Board, 2027 AP Exam Dates (read 22 Sep 2026) |
+| How to enter | Through your school's AP coordinator; deadlines are set by the school in the autumn term | College Board, 2027 AP Exam Dates (read 22 Sep 2026) |
+| Our teaching calendar | Paced backwards from 12 May 2027, with the last four weeks on timed free-response practice | This page |
+
+Dates are the College Board's; we prepare students for the exam and cannot enter them for it.
+
 The course
 
 ## AP Computer Science A, taught live and paced to your entry date

@@ -14,6 +14,22 @@ The Principles course is the one this page describes. The other two are where st
 
 [![AP Computer Science Principles Exam Prep course thumbnail](/images/ap-computer-science-principles.webp)  AP / 01 AP Computer Science Principles Exam Prep The course this page describes. The seventy-question paper and the written responses about the student's own Create task, rehearsed under time. Open the syllabus →](/courses/ap-computer-science-principles-exam-prep-course)[![AP Computer Science A Exam Prep course thumbnail](/images/ap-computer-science-a.webp)  AP / 02 AP Computer Science A Exam Prep The Java programming AP, usually taken after Principles by students heading toward a computing degree. Open the syllabus →](/courses/ap-computer-science-a-java-exam-prep-course)[![AP Statistics Exam Prep course thumbnail](/images/ap-statistics.webp)  AP / 03 AP Statistics Exam Prep The other AP most often taken alongside these two, and the one that makes the data unit here considerably easier. Open the syllabus →](/courses/ap-statistics-maths-exam-prep-course)
 
+Key dates, 2027
+
+## AP Computer Science Principles, May 2027: two dates, not one
+
+AP Computer Science Principles has a portfolio deadline before the exam, and the portfolio deadline is the one families miss. Both dates are on the College Board's published 2027 schedule.
+
+| What | When | Where we read it |
+| --- | --- | --- |
+| Create performance task: digital portfolio submission deadline | 30 April 2027, 11:59 pm Eastern Time | College Board, 2027 AP Exam Dates (read 22 Sep 2026) |
+| AP Computer Science Principles exam | Friday, 14 May 2027, Session 2 (afternoon) | College Board, 2027 AP Exam Dates (read 22 Sep 2026) |
+| 2027 AP exam window | Two weeks in May: 3 to 7 May and 10 to 14 May 2027 | College Board, 2027 AP Exam Dates (read 22 Sep 2026) |
+| How to enter | Through your school's AP coordinator; deadlines are set by the school in the autumn term | College Board, 2027 AP Exam Dates (read 22 Sep 2026) |
+| Our teaching calendar | The Create task is finished and rehearsed in writing by the end of March 2027; April is for the written responses under time | This page |
+
+Dates are the College Board's; we prepare students for the exam and cannot enter them for it.
+
 The course
 
 ## AP Computer Science Principles, taught live and paced to your entry date

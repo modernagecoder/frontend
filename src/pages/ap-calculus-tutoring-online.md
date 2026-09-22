@@ -18,6 +18,21 @@ The free-response section punishes this twice. Students lose points not on the c
 
 We rebuild the meaning first, so interpretation questions become answerable, then drill the FRQ language and setup the readers actually reward. Understanding and exam technique, in that order.
 
+Key dates, 2027
+
+## AP Calculus AB and BC, May 2027: the date and the window
+
+Both calculus exams sit on the same morning in the second week of the 2027 AP window. We pace the course backwards from that Monday.
+
+| What | When | Where we read it |
+| --- | --- | --- |
+| AP Calculus AB exam | Monday, 10 May 2027, Session 1 (morning) | College Board, 2027 AP Exam Dates (read 22 Sep 2026) |
+| AP Calculus BC exam | Monday, 10 May 2027, Session 1 (morning) | College Board, 2027 AP Exam Dates (read 22 Sep 2026) |
+| 2027 AP exam window | Two weeks in May: 3 to 7 May and 10 to 14 May 2027 | College Board, 2027 AP Exam Dates (read 22 Sep 2026) |
+| How to enter | Through your school's AP coordinator; deadlines are set by the school in the autumn term | College Board, 2027 AP Exam Dates (read 22 Sep 2026) |
+
+Dates are the College Board's; we prepare students for the exam and cannot enter them for it.
+
 How we teach
 
 ## Meaning first, mechanics second, exam technique third.
