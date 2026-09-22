@@ -105,7 +105,7 @@ const ROUTE = 'If you would rather learn this with a teacher on screen than alon
   const j = load(name);
   if (j.meta.retarget === REFRESH) { console.log('skip (done):', name); return; }
   const s = j.content.sections;
-  j.meta.description = 'What vibe coding is, who coined it, how the describe-and-check loop works, the main tools compared, the security risks, and how kids, teens and adults learn it. 2026 guide.';
+  j.meta.description = 'What vibe coding is, who coined it, how the describe-and-check loop works, the main tools compared, the security risks, and how kids, teens and adults learn it.';
   checkDesc(j.meta.description, name);
   j.meta.keywords = Array.from(new Set((j.meta.keywords || []).concat(['what is vibe coding', 'vibe coding meaning', 'vibe coding explained', 'vibe coding for kids', 'vibe coding for teens'])));
   j.meta.dateModified = TODAY;
