@@ -473,6 +473,7 @@ if (c.description.length < 150 || c.description.length > 160) throw new Error('d
 const links = [...html.matchAll(/href="(\/[^"#?]+)"/g)].map((m) => m[1]).filter((v, i, a) => a.indexOf(v) === i);
 const missing = links.filter((l) => {
   if (l.startsWith('/courses/')) return !fs.existsSync(path.join(ROOT, 'content', 'courses', 'generated', l.replace('/courses/', ''), 'index.html'));
+  if (l.startsWith('/blog/')) return !fs.existsSync(path.join(ROOT, 'content', 'blog', 'generated', l.replace('/blog/', ''), 'index.html'));
   if (l.startsWith('/src/pages/') || l.startsWith('/favicon') || /\.[a-z0-9]{2,5}$/i.test(l)) return false;
   if (l.startsWith('/images/')) return !fs.existsSync(path.join(ROOT, 'public', l.replace('/images/', 'images/')));
   // a sibling contest page that is planned in this batch counts as resolved (its module exists)
