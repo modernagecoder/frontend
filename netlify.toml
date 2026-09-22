@@ -12908,6 +12908,50 @@
   to = "/src/pages/indian-computing-olympiad-preparation.md"
   status = 200
 
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/math-kangaroo-usa-preparation"
+  to = "/src/pages/math-kangaroo-usa-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/math-kangaroo-usa-preparation.md"
+  to = "/src/pages/math-kangaroo-usa-preparation.md"
+  status = 200
+
+[[redirects]]
+  from = "/mathcounts-preparation"
+  to = "/src/pages/mathcounts-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/mathcounts-preparation.md"
+  to = "/src/pages/mathcounts-preparation.md"
+  status = 200
+
+[[redirects]]
+  from = "/australian-maths-trust-amc-aio-cat-preparation"
+  to = "/src/pages/australian-maths-trust-amc-aio-cat-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/australian-maths-trust-amc-aio-cat-preparation.md"
+  to = "/src/pages/australian-maths-trust-amc-aio-cat-preparation.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-class-in-newport-wales"
+  to = "/src/pages/best-coding-class-in-newport-wales.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-newport-wales.md"
+  to = "/src/pages/best-coding-class-in-newport-wales.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

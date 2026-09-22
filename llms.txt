@@ -839,6 +839,9 @@ Live online Class 10 board preparation, taught in small batches: CBSE Artificial
 - ioqm-rmo-inmo-preparation: https://learn.modernagecoders.com/ioqm-rmo-inmo-preparation
 - indian-computing-olympiad-preparation: https://learn.modernagecoders.com/indian-computing-olympiad-preparation
 ## International Country Pages
+- math-kangaroo-usa-preparation: https://learn.modernagecoders.com/math-kangaroo-usa-preparation
+- mathcounts-preparation: https://learn.modernagecoders.com/mathcounts-preparation
+- australian-maths-trust-amc-aio-cat-preparation: https://learn.modernagecoders.com/australian-maths-trust-amc-aio-cat-preparation
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states
 - United Kingdom (coding, Python and AI across the four school systems of England, Scotland, Wales and Northern Ireland): https://learn.modernagecoders.com/coding-classes-in-united-kingdom

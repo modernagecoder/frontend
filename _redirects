@@ -3566,4 +3566,16 @@
 /ioqm-rmo-inmo-preparation.md /src/pages/ioqm-rmo-inmo-preparation.md 200
 /indian-computing-olympiad-preparation /src/pages/indian-computing-olympiad-preparation.html 200
 /indian-computing-olympiad-preparation.md /src/pages/indian-computing-olympiad-preparation.md 200
+
+# Class 10 board-prep cluster (board-prep.css). Inserted before the /* catch-all.
+/math-kangaroo-usa-preparation /src/pages/math-kangaroo-usa-preparation.html 200
+/math-kangaroo-usa-preparation.md /src/pages/math-kangaroo-usa-preparation.md 200
+/mathcounts-preparation /src/pages/mathcounts-preparation.html 200
+/mathcounts-preparation.md /src/pages/mathcounts-preparation.md 200
+/australian-maths-trust-amc-aio-cat-preparation /src/pages/australian-maths-trust-amc-aio-cat-preparation.html 200
+/australian-maths-trust-amc-aio-cat-preparation.md /src/pages/australian-maths-trust-amc-aio-cat-preparation.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-newport-wales /src/pages/best-coding-class-in-newport-wales.html 200
+/best-coding-class-in-newport-wales.md /src/pages/best-coding-class-in-newport-wales.md 200
 /* /src/pages/404.html 404
