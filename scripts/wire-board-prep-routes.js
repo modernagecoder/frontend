@@ -39,7 +39,13 @@ const SLUGS = [
   'icse-class-10-bluej-java-coaching',
   'icse-class-10-computer-applications-board-exam-preparation',
   'sof-imo-preparation',
-  'sof-icso-preparation'
+  'sof-icso-preparation',
+  'cemc-waterloo-contests-preparation',
+  'ioqm-rmo-inmo-preparation',
+  'indian-computing-olympiad-preparation',
+  'math-kangaroo-usa-preparation',
+  'mathcounts-preparation',
+  'australian-maths-trust-amc-aio-cat-preparation'
 ];
 
 const LLMS_HEADING = '## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)';

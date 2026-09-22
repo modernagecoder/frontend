@@ -56,6 +56,13 @@
 /* SOF olympiad pages (2026-09): IMO amber-brown, ICSO teal-green */
 .bx-root.bx-sim { --bx-accent: #7A4A12; --bx-accent-soft: rgba(122,74,18,.09); }
 .bx-root.bx-sic { --bx-accent: #1F5F5B; --bx-accent-soft: rgba(31,95,91,.09); }
+/* Contest pages (2026-09): Waterloo violet, IOQM rust, ICO slate, Kangaroo forest, MATHCOUNTS navy, AMT ochre */
+.bx-root.bx-cem { --bx-accent: #5B3A8A; --bx-accent-soft: rgba(91,58,138,.09); }
+.bx-root.bx-ioq { --bx-accent: #8A3A2A; --bx-accent-soft: rgba(138,58,42,.09); }
+.bx-root.bx-ico { --bx-accent: #34506B; --bx-accent-soft: rgba(52,80,107,.09); }
+.bx-root.bx-mku { --bx-accent: #2F6B3A; --bx-accent-soft: rgba(47,107,58,.09); }
+.bx-root.bx-mtc { --bx-accent: #1E3A6E; --bx-accent-soft: rgba(30,58,110,.09); }
+.bx-root.bx-amt { --bx-accent: #8A6A12; --bx-accent-soft: rgba(138,106,18,.09); }
 .bx-root.bx-ibe { --bx-accent: #8A3A20; --bx-accent-soft: rgba(138,58,32,.09); }
 
 /* ---------------------------------------------------------------- base */

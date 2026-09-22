@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Indian Computing Olympiad Prep: ZIO, ZCO and INOI, Live Online</title>
+  <meta name="description" content="Live online Indian Computing Olympiad prep: ZIO, ZCO in C++, Java or Python, then INOI in C++ only. ICO-2027 registration opens Oct 2026. Batches of 5 to 10.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/indian-computing-olympiad-preparation">
+  <link rel="alternate" type="text/markdown" href="/src/pages/indian-computing-olympiad-preparation.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#34506B">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/indian-computing-olympiad-preparation">
+  <meta property="og:title" content="Indian Computing Olympiad Prep: ZIO, ZCO and INOI, Live Online">
+  <meta property="og:description" content="The ZIO, ZCO and INOI pathway to the International Olympiad in Informatics, with the rules IARCS publishes, the C++ requirement most students discover too late, and a live batch that trains for it.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Indian Computing Olympiad Prep: ZIO, ZCO and INOI, Live Online">
+  <meta name="twitter:description" content="The ZIO, ZCO and INOI pathway to the International Olympiad in Informatics, with the rules IARCS publishes, the C++ requirement most students discover too late, and a live batch that trains for it.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20260923">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.india">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "contact@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": { "@type": "Country", "name": "India" },
+        "knowsAbout": ["Indian Computing Olympiad","Zonal Informatics Olympiad","Zonal Computing Olympiad","Indian National Olympiad in Informatics","Competitive programming","C++"]
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/indian-computing-olympiad-preparation#course",
+        "name": "Indian Computing Olympiad Preparation: Live Online ZIO, ZCO and INOI Classes",
+        "description": "Live online preparation for the Indian Computing Olympiad run by IARCS, 2026-27 cycle (ICO-2027): the Zonal Informatics Olympiad written round, the Zonal Computing Olympiad programming round in C++, Java or Python, and the Indian National Olympiad in Informatics in C++, with algorithmic problem solving, timed practice on the IARCS archives and a planned move to C++, in a batch of five to ten students.",
+        "url": "https://learn.modernagecoders.com/indian-computing-olympiad-preparation",
+        "inLanguage": "en",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "isAccessibleForFree": false,
+        "offers": { "@type": "Offer", "price": "1499", "priceCurrency": "INR", "category": "Monthly fee, group batch", "availability": "https://schema.org/InStock" },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/indian-computing-olympiad-preparation" }
+        }
+      },
+      {
+        "@type": "Service",
+        "serviceType": "Online Indian Computing Olympiad preparation coaching",
+        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+        "areaServed": { "@type": "Country", "name": "India" },
+        "audience": { "@type": "EducationalAudience", "educationalRole": "student" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Coding challenges", "item": "https://learn.modernagecoders.com/coding-challenges" },
+          { "@type": "ListItem", "position": 3, "name": "Indian Computing Olympiad preparation", "item": "https://learn.modernagecoders.com/indian-computing-olympiad-preparation" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "Is the Indian Computing Olympiad the same as the SOF cyber olympiad?", "acceptedAnswer": {"@type": "Answer", "text": "No. The Indian Computing Olympiad is the IARCS programme, ZIO and ZCO then INOI, that selects India's team for the International Olympiad in Informatics; it is a programming and algorithms contest for students up to Class 12. The SOF International Computer Science Olympiad, formerly NCO, is a school-based multiple-choice paper for Classes 1 to 10 run by a private foundation. Different organisers, different papers, different preparation; the SOF exam has its own page on this site."}},
+          {"@type": "Question", "name": "Who can take part, and how do we register?", "acceptedAnswer": {"@type": "Answer", "text": "IARCS says any student registered in school up to Class 12, from any board, with no lower age limit; a student who has completed Class 12 is not eligible even after a gap year. Registration for ICO-2027 opens in October 2026 according to the IARCS page we read on 23 September 2026. Whether a family registers directly or through the school was not stated on that page, so check the IARCS announcement when the window opens; we will update this page."}},
+          {"@type": "Question", "name": "What are the ICO-2027 dates?", "acceptedAnswer": {"@type": "Answer", "text": "IARCS had not published the stage dates when this page was written, only that registration opens in October 2026. In the 2026 cycle ZIO was on 15 November 2025, ZCO on 8 February 2026, INOI on 14 February 2026 and the camp in June 2026, and IARCS labels each cycle by the later year. Expect the same shape, and check iarcs.org.in for the exact days; we will replace the pattern with the dates as soon as they appear."}},
+          {"@type": "Question", "name": "Should my child sit ZIO or ZCO?", "acceptedAnswer": {"@type": "Answer", "text": "Both, if IARCS allows it in this cycle as it did in the last: a student \"may attempt either or both.\" ZIO is a written paper that needs no programming language and rewards careful reasoning; ZCO is a programming exam in C++, Java or Python. A student who can already code should sit both; a student who cannot yet code can sit ZIO while learning a language for the next cycle."}},
+          {"@type": "Question", "name": "Which programming language should my child learn?", "acceptedAnswer": {"@type": "Answer", "text": "For ZCO, whichever they can already write: C++, Java and Python are all accepted. For INOI, C++ is the only language allowed, so every student in our batches is moved to C++ on a fixed schedule well before the national round. A beginner can start in Python for ZCO and make the move with us; a student already in C++ simply goes deeper."}},
+          {"@type": "Question", "name": "What do the top students get from it?", "acceptedAnswer": {"@type": "Answer", "text": "A place on the four-student IOI team for the very best, and, according to IARCS's own incentives page, university routes for many more: direct admission at Chennai Mathematical Institute for INOI gold and silver medallists or camp selections in Class 11 or 12, bonus points at IIIT Delhi, olympiad-category admission at IIIT Hyderabad, IIT Gandhinagar and IIT Kanpur, SCOPE admission at IIT Kharagpur, IIT Madras and IIT Mandi, and special consideration at NUS, NTU and HKUST for medallists."}},
+          {"@type": "Question", "name": "Do you use past ZIO, ZCO and INOI papers?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. IARCS publishes its archives, study material and an online judge, and we use them for placement, weekly practice and full timed rehearsals, then send families to IARCS's own site rather than reproducing papers here. Every paper a student sits is reviewed problem by problem in the next class."}},
+          {"@type": "Question", "name": "How is this different from USACO or the Canadian Computing Competition?", "acceptedAnswer": {"@type": "Answer", "text": "The algorithms are the same family and the judge is the same kind of examiner, so the preparation overlaps heavily and many of our students sit all three as milestones. The differences are practical: USACO and the CCC have their own dates and entry routes and accept several languages throughout, while INOI is C++ only. Our USACO and CCC pages cover their rules; this batch prepares for the Indian pathway."}},
+          {"@type": "Question", "name": "We live outside India. Can my child register?", "acceptedAnswer": {"@type": "Answer", "text": "The IARCS page we read says the olympiad is \"open to all school students across the country\" and says nothing either way about students abroad, so we will not guess. Ask IARCS when ICO-2027 registration opens in October 2026. We prepare students anywhere; the batch is the same wherever you sit."}},
+          {"@type": "Question", "name": "What happens after I send the form?", "acceptedAnswer": {"@type": "Answer", "text": "A mentor calls within a few hours, asks which class your child is in and which language they can write, and books a free demo class at a time that suits you. The demo is a real session: one ZIO-style reasoning question worked out loud and one small judge problem coded together, with the teacher showing the thinking rather than the answer key. There is no card, no enrolment fee and no pressure on the call."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bx-root bx-ico">
+
+<nav class="bx-nav">
+  <div class="bx-wrap bx-nav-inner">
+    <a class="bx-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="bx-brand-tag">ICO &middot; ZIO, ZCO, INOI</span>
+    </a>
+    <div class="bx-nav-links">
+      <a href="#format">The stages</a>
+      <a href="#sections">The skills</a>
+      <a href="#plan">The plan</a>
+      <a href="#fees">Fees</a>
+      <a href="#start" class="bx-btn">Free demo class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bx-hero">
+  <div class="bx-wrap">
+    <nav class="bx-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/coding-challenges">Coding challenges</a> <span>/</span> <span>Indian Computing Olympiad preparation</span>
+    </nav>
+    <div class="bx-hero-grid">
+      <div>
+        <p class="bx-eyebrow">Indian Computing Olympiad &middot; any school board, up to Class 12 &middot; ICO-2027 registration opens October 2026</p>
+        <h1>Indian Computing Olympiad preparation, taught live online: ZIO, ZCO and INOI, the languages each stage allows, and the road to the IOI.</h1>
+        <p class="bx-lede">The Indian Computing Olympiad is how India picks its four-student team for the International Olympiad in Informatics, and the universities have noticed: IARCS lists direct admission at Chennai Mathematical Institute, olympiad-category entry at IIIT Hyderabad and several IITs, and special consideration at NUS Singapore for its medallists. The first round can be written with a pen or coded in Python, Java or C++; the national round is C++ only, which most students find out the week before. Our batches of five to ten teach algorithmic problem solving from the first month and move every student to C++ before INOI, on the IARCS archives, counting back from the dates IARCS publishes.</p>
+        <div class="bx-btn-row">
+          <a href="#start" class="bx-btn">Book the free demo class</a>
+          <a href="#format" class="bx-btn bx-btn--ghost">See the stages and rules</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20know%20about%20Indian%20Computing%20Olympiad%20preparation%20classes." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'indian-computing-olympiad-preparation'});">Ask on WhatsApp</a>
+        </div>
+        <p class="bx-hero-note">Live online &middot; 100% online &middot; batch of 5 to 10 &middot; C++ by INOI &middot; first class free</p>
+      </div>
+
+      <aside class="bx-timetable" aria-label="Indian Computing Olympiad 2026-27">
+        <p class="bx-tt-title"><span>ICO-2027 cycle</span><b>Registration opens October 2026</b></p>
+        <div class="bx-tt-row"><span class="bx-tt-day">Registration for ICO-2027</span><span class="bx-tt-time">Oct<small>2026, per IARCS</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">ZIO (written round)</span><span class="bx-tt-time">Nov<small>2026 by pattern: ZIO-2026 sat 15 Nov 2025</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">ZCO (programming round)</span><span class="bx-tt-time">Feb<small>2027 by pattern: ZCO-2026 sat 8 Feb 2026</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">INOI (national round)</span><span class="bx-tt-time">Feb<small>2027 by pattern: INOI-2026 sat 14 Feb 2026</small></span></div>
+        <p class="bx-tt-zones"><b>Read on iarcs.org.in/inoi/ on 23 September 2026:</b> &quot;Registrations for ICO-2027 will open in October, 2026.&quot; Exact ICO-2027 stage dates were not yet published; the month for each stage is taken from the 2026 cycle and will be replaced here when IARCS publishes them.</p>
+        <div class="bx-tt-foot">
+          <span class="bx-stamp">Live &middot; 100% online</span>
+          <span class="bx-stamp">5 to 10 students</span>
+        </div>
+        <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="bx-section" id="picks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Start here</p>
+      <h2>The courses the olympiad batches are built from</h2>
+      <p class="bx-lede">ZIO needs reasoning, ZCO needs a language and an algorithm, INOI needs C++ and speed. The base is our competitive programming course for teens, with C++ and Python courses underneath for students who are not there yet.</p>
+    </div>
+    <div class="bx-picks">
+      <a class="bx-pick" href="/courses/competitive-programming-for-teens-course">
+        <div class="bx-pick-shot"><img src="/images/competitive-programming-teens.webp" alt="Competitive Programming for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The core / ZCO, INOI, USACO</p>
+          <h3>Competitive Programming for Teens</h3>
+          <p>Built for exactly this track: contest-style problems, complexity, standard algorithms and data structures, with an online judge and a mentor who reads the code.</p>
+          <span class="bx-pick-go">Open the syllabus &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/cpp-programming-masterclass-for-teens">
+        <div class="bx-pick-shot"><img src="/images/cpp-teens.webp" alt="C++ for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The language INOI allows / C++</p>
+          <h3>C++ for Teens</h3>
+          <p>Fundamentals, the standard library, data structures and algorithms in the one language the national round accepts. Where a Python or Java student makes the move.</p>
+          <span class="bx-pick-go">Open the syllabus &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="bx-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">A first language / ZCO</p>
+          <h3>Python for Teens</h3>
+          <p>For the student who has not coded yet. Python is accepted at ZCO, and it is the fastest way to reach the point where algorithms, not syntax, are the problem.</p>
+          <span class="bx-pick-go">Open the syllabus &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section">
+  <div class="bx-wrap">
+    <div class="bx-capsule">
+      <p class="bx-capsule-q">Ans. The short version</p>
+      <p>The Indian Computing Olympiad, run by the Indian Association for Research in Computing Science, is India's selection route to the International Olympiad in Informatics. It is open to any school student up to Class 12 from any board, with no lower age limit; a student who has completed Class 12 is no longer eligible. The first round is the Zonal Informatics Olympiad, a written paper, or the Zonal Computing Olympiad, a programming exam in C++, Java or Python, and a student may attempt either or both. Qualifiers sit the Indian National Olympiad in Informatics, where the only language allowed is C++, and about thirty students go on to the IOI Training Camp. IARCS says registration for ICO-2027 opens in October 2026; the 2026 cycle ran ZIO in November, ZCO and INOI in February and the camp in June. Modern Age Coders prepares students live online in batches of five to ten: one class a week on algorithms and the reasoning ZIO tests, one on coding against a judge with a clock, and a planned move to C++ for every student before INOI. The first class is a free demo, and the group batch fee is shown on this page in your own currency.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="format">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q1. What are the stages, and what does each allow?</p>
+      <h2>ZIO, ZCO, INOI and the camp, straight from IARCS</h2>
+      <p class="bx-lede">Everything below is taken from the IARCS olympiad page at iarcs.org.in/inoi/, read on 22 and 23 September 2026. Where IARCS has not yet published a 2026-27 date, the table says so and gives the 2026 pattern instead.</p>
+    </div>
+
+    <div class="bx-table-wrap">
+      <table class="bx-marks">
+        <thead><tr><th scope="col">Stage</th><th scope="col">Who</th><th scope="col">Shape and language</th><th scope="col">When</th></tr></thead>
+        <tbody>
+          <tr><td>ZIO, Zonal Informatics Olympiad (first round, option one)</td><td>Any school student up to Class 12, any board</td><td>&quot;A written exam held at centres across the country.&quot; No programming language needed</td><td>ZIO-2026 sat 15 November 2025; ZIO for ICO-2027 not yet dated</td></tr>
+          <tr><td>ZCO, Zonal Computing Olympiad (first round, option two)</td><td>Same; a student may attempt ZIO, ZCO or both</td><td>&quot;A programming exam held at centres across the country. The programming languages supported are C++, Java and Python.&quot;</td><td>ZCO-2026 sat 8 February 2026; ZCO for ICO-2027 not yet dated</td></tr>
+          <tr><td>INOI, Indian National Olympiad in Informatics (second round)</td><td>ZIO and ZCO qualifiers</td><td>&quot;Involves programming. The only programming language allowed for INOI is C++.&quot;</td><td>INOI-2026 sat 14 February 2026; INOI for ICO-2027 not yet dated</td></tr>
+          <tr><td>IOITC, the IOI Training Camp</td><td>&quot;Approximately 30 students are selected from INOI&quot;</td><td>Selection camp for the four-student IOI team</td><td>IOITC-2026 ran 1 to 12 June 2026</td></tr>
+          <tr><td>Eligibility</td><td>All stages</td><td>&quot;Any student registered in school up to class 12... There is no lower age limit.&quot; A student who has completed Class 12 is not eligible, even after a gap year</td><td>IARCS</td></tr>
+          <tr><td>Registration</td><td>All</td><td>&quot;Registrations for ICO-2027 will open in October, 2026.&quot; Whether a family registers directly or through the school was not stated on the page; ask IARCS or your school when the window opens</td><td>October 2026</td></tr>
+          <tr><td>Fee</td><td>All</td><td>Not stated on the page we read; we do not guess it</td><td>Ask IARCS at registration</td></tr>
+          <tr><td>What it leads to</td><td>Medallists and camp selections</td><td>IARCS lists: direct admission at Chennai Mathematical Institute for INOI gold and silver medallists or IOITC selections in Class 11 or 12; bonus points at IIIT Delhi; olympiad-category admission at IIIT Hyderabad, IIT Gandhinagar and IIT Kanpur; SCOPE admission at IIT Kharagpur, IIT Madras and IIT Mandi; scholarships or special consideration at HKUST, NTU and NUS for medallists</td><td>IARCS incentives page</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="bx-mt-40">Three things follow. The Zonal round can be sat twice, once with a pen and once with a compiler, and a student who does both doubles their chance of reaching INOI. The national round is C++ only, so a student who trained for ZCO in Python or Java has weeks, not months, to move languages unless the move was planned from the start; ours is. And the incentives are real and dated: a Class 11 student selected for the camp has a direct line to Chennai Mathematical Institute that no entrance exam gives.</p>
+    <p>A naming trap to avoid: the Indian Computing Olympiad is not the SOF International Computer Science Olympiad, a school-based multiple-choice paper for Classes 1 to 10 that used to be called NCO. That exam has its own <a class="bx-link" href="/sof-icso-preparation">preparation page</a>. This page is about the IARCS programme that leads to the International Olympiad in Informatics.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="sections">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. What does each stage actually test?</p>
+      <h2>Three skills, in the order the stages demand them</h2>
+      <p class="bx-lede">ZIO tests whether a student can reason about an algorithm on paper. ZCO tests whether they can make one run against a judge. INOI tests whether they can do that in C++, fast, on harder problems. A student can be strong at the first and stall at the second.</p>
+    </div>
+    <div class="bx-grid-2">
+      <div class="bx-card">
+        <p class="bx-qlabel">ZIO</p>
+        <h3>Algorithmic reasoning with a pen</h3>
+        <p>No code. The paper gives a procedure or a puzzle and asks what happens: trace this, count that, find the best arrangement. The skill is careful case analysis and the patience to simulate a process by hand. Students who have coded find it oddly hard, because the compiler is not there to check them. We practise it as a written skill, every week, with past ZIO papers.</p>
+      </div>
+      <div class="bx-card">
+        <p class="bx-qlabel">ZCO</p>
+        <h3>A program that passes the judge</h3>
+        <p>Real problems, real input, a time limit, and a judge that says wrong answer without saying why. Python, Java or C++ are all accepted. The skill is reading a problem into an algorithm, choosing a data structure, and handling the largest input the constraints allow, which is where most first attempts fail on time.</p>
+      </div>
+      <div class="bx-card">
+        <p class="bx-qlabel">INOI</p>
+        <h3>The same thing, in C++, harder</h3>
+        <p>Two questions of real difficulty, C++ only. Standard library containers, complexity that fits the constraints, and the composure to move on when one problem is not yielding. Roughly thirty students go to the camp from here. Every student in our batches writes C++ by this stage, whichever language they started in.</p>
+      </div>
+      <div class="bx-card">
+        <p class="bx-qlabel">The camp and the IOI</p>
+        <h3>What the top thirty face</h3>
+        <p>IOITC is a selection camp: days of contests and lectures that pick the four-student team. We do not promise it; we prepare for INOI honestly and tell you where your child stands after each rehearsal. IARCS's own page has the training material and the online judge, which we use.</p>
+      </div>
+    </div>
+    <p class="bx-mt-40">Question counts and marking for each stage are on IARCS's own pages and in its archive of past papers, which we use in class rather than reproduce here. Every student sees the real ZIO and ZCO papers from recent cycles in the first month.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="reasoning">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. Why passing the judge is a different skill from knowing the answer</p>
+      <h2>The same problem, two submissions</h2>
+      <p class="bx-lede">A ZCO-style task: given up to 200,000 numbers, count the pairs that add up to a target. Both students know what a pair is. One of them passes.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>The obvious answer</b><span>correct, and too slow</span></figcaption>
+  <pre>count = 0
+for i in range(n):
+    for j in range(i + 1, n):
+        if a[i] + a[j] == target:
+            count += 1
+print(count)
+
+<i># Right on the samples.</i>
+<i># n = 200,000 means 20 billion pairs.</i>
+<i># Judge: Time Limit Exceeded.</i>
+<i># Zero marks for a correct idea.</i></pre>
+  <p class="bx-code-note">This student understands the problem completely and has never met the constraints line. On a school test the method earns full credit; on a judge it earns nothing.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>The answer that reads the constraints</b><span>written against the clock in class</span></figcaption>
+  <pre><b>from collections import Counter</b>
+<b>seen = Counter()</b>
+<b>count = 0</b>
+<b>for x in a:</b>
+<b>    count += seen[target - x]</b>
+<b>    seen[x] += 1</b>
+<b>print(count)</b>
+
+<i># One pass, a hash map, n operations.</i>
+<i># 200,000 is nothing. Accepted.</i>
+<b># Then the same idea in C++ with</b>
+<b># unordered_map, because INOI is C++.</b></pre>
+  <p class="bx-code-note">Same problem, one pass instead of two loops, because the student read &quot;up to 200,000&quot; as an instruction. The second class every week is for exactly this: constraints first, then code, then the C++ version.</p>
+</figure>
+    </div>
+    <p class="bx-mt-40">Every stage has a version of this. ZIO asks the student to see the slow method's cost on paper; ZCO punishes it with a time limit; INOI does both in C++. The plan below builds the habit of reading constraints before writing a line, from the first month.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="plan">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. How does the batch prepare?</p>
+      <h2>Five steps, from the first ZIO paper to the INOI hall</h2>
+      <p class="bx-lede">Two live classes a week. One on algorithms and the reasoning ZIO tests, one on coding against a judge with a clock. The C++ move is scheduled, not improvised.</p>
+    </div>
+    <ol class="bx-steps">
+      <li class="bx-step"><h4>A placement in the first week: one ZIO paper, one judge problem</h4><p>The ZIO paper from the IARCS archive, sat alone with a pen and a clock, and one ZCO-style problem submitted to a judge in whatever language the student has. Together they tell the teacher whether the gap is reasoning, coding or both, and they tell you honestly where your child stands.</p></li>
+      <li class="bx-step"><h4>Reasoning first, with past ZIO papers every week</h4><p>Simulation, case analysis, counting, greedy choices and why they are or are not safe. Written, marked, argued over. Students who cannot yet code do this in parallel with a first language; students who can code find it sharpens the coding.</p></li>
+      <li class="bx-step"><h4>Algorithms and data structures, one family at a time</h4><p>Sorting and searching, prefix sums, two pointers, hashing, stacks and queues, basic graphs, dynamic programming as a way of thinking. Each taught as an idea with the constraints that call for it, then coded against the judge in the same class.</p></li>
+      <li class="bx-step"><h4>C++ by a fixed date for every student</h4><p>A Python or Java student moves to C++ in a scheduled block well before INOI, because IARCS allows only C++ at the national round. The standard library, input speed, and the habits that keep a C++ solution within the time limit.</p></li>
+      <li class="bx-step"><h4>Timed contests from the archives, then the real one</h4><p>Past ZCO and INOI papers under contest conditions, reviewed problem by problem in the next class, including the ones nobody solved. Students walk into the centre having already sat the paper twice.</p></li>
+    </ol>
+    <p class="bx-mt-40">Timings are after-school and weekend slots in Indian Standard Time, fixed on the call once we know the class and the student's current language. Families abroad on the Indian syllabus join the same batches; whether an overseas student can register for ICO was not stated on the IARCS page, so ask IARCS when registration opens.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="fit">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q5. Is this batch right for my child?</p>
+      <h2>Who it suits, and who it does not</h2>
+    </div>
+    <div class="bx-grid-3">
+      <div class="bx-card"><h3>It suits</h3><p>A school student up to Class 12, on any board, who can write basic programs or is willing to learn, and wants to sit ZIO, ZCO or both as a prepared candidate rather than a curious one. A student who enjoyed a school coding contest and wants the national one. A family that wants the preparation to leave real algorithmic thinking behind, whatever the result.</p></div>
+      <div class="bx-card"><h3>It also suits</h3><p>A Python or Java student who has heard that INOI is C++ only and wants the move planned rather than panicked. A student on our competitive programming course who wants the Indian pathway named and dated. A Class 10 or 11 student who has read the CMI and IIIT incentives and wants a realistic shot at the camp.</p></div>
+      <div class="bx-card"><h3>It does not suit</h3><p>A Class 1 to 10 student whose school sits the SOF computer science olympiad and wants a multiple-choice paper, who needs our SOF ICSO page instead. A student who has completed Class 12, who is not eligible under IARCS's rules. A family looking for a crash session the week before ZIO.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="fees">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q6. What does it cost?</p>
+      <h2>Monthly fees, the same for every course we teach</h2>
+      <p class="bx-lede">Billed monthly, no admission fee, stop at any month end. The free demo class comes first, or book a Priority Live Demo for a full class today or tomorrow.</p>
+    </div>
+    <div class="bx-grid-3">
+      <div class="bx-price bx-price--feature">
+        <p class="bx-price-name">Group batch &middot; by level</p>
+        <p class="bx-price-amt"><span data-price="coding.india.group">₹1,499</span></p>
+        <p class="bx-price-alt">per month</p>
+        <ul><li>Five to ten students, at the same level</li><li>Two live classes a week, algorithms and judged coding practice</li><li>Placement, weekly marked ZIO work, judge problems reviewed, scheduled C++ move</li><li>Certificate on completion</li></ul>
+        <a href="#start" class="bx-btn">Book the free demo</a>
+      </div>
+      <div class="bx-price" data-india-only="true">
+        <p class="bx-price-name">Mini batch</p>
+        <p class="bx-price-amt"><span data-price="coding.india.miniBatch">₹2,999</span></p>
+        <p class="bx-price-alt">per month</p>
+        <ul><li>Three to four students</li><li>Timings agreed around the family</li><li>More code review per student</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Ask about timings</a>
+      </div>
+      <div class="bx-price">
+        <p class="bx-price-name">One to one</p>
+        <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
+        <p class="bx-price-alt">per month</p>
+        <ul><li>Private teaching on your own schedule</li><li>Pace set by the student, not the batch</li><li>The usual choice for an INOI qualifier with weeks to go</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="reviews">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="bx-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="bx-grid-3">
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="bx-review-name">Ria Mukherjee</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="bx-review-name">Samriddha Mondal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="bx-review-name">Vansh Agarwal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="bx-review-name">Sonam Oswal</p><p class="bx-review-role">Parent of Dhairya</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="bx-review-name">Sonu Goyal</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="bx-review-name">Ritu Kedia</p><p class="bx-review-role">Parent</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="more">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Related pages</p>
+      <h2>The other contests, and the code underneath</h2>
+      <p class="bx-lede">The school-based SOF exam that shares the words, the American and Canadian programming contests, the olympiad training page, and the live courses this batch is built on.</p>
+    </div>
+    <div class="bx-siblings">
+      <a class="bx-sib" href="/sof-icso-preparation"><span class="bx-sib-n">SOF ICSO preparation (formerly NCO)</span><span class="bx-sib-m">/sof-icso-preparation</span></a>
+      <a class="bx-sib" href="/ioi-olympiad-informatics-training"><span class="bx-sib-n">IOI and informatics olympiad training</span><span class="bx-sib-m">/ioi-olympiad-informatics-training</span></a>
+      <a class="bx-sib" href="/usaco-preparation-online-coaching"><span class="bx-sib-n">USACO preparation, Bronze to Platinum</span><span class="bx-sib-m">/usaco-preparation-online-coaching</span></a>
+      <a class="bx-sib" href="/canadian-computing-competition-ccc-prep"><span class="bx-sib-n">Canadian Computing Competition prep</span><span class="bx-sib-m">/canadian-computing-competition-ccc-prep</span></a>
+      <a class="bx-sib" href="/coding-challenges"><span class="bx-sib-n">Daily coding challenges</span><span class="bx-sib-m">/coding-challenges</span></a>
+      <a class="bx-sib" href="/courses/competitive-programming-for-teens-course"><span class="bx-sib-n">Competitive Programming for Teens</span><span class="bx-sib-m">/courses/competitive-programming-for-teens-course</span></a>
+      <a class="bx-sib" href="/courses/cpp-programming-masterclass-for-teens"><span class="bx-sib-n">C++ for Teens</span><span class="bx-sib-m">/courses/cpp-programming-masterclass-for-teens</span></a>
+      <a class="bx-sib" href="/c-plus-plus-for-competitive-programming"><span class="bx-sib-n">C++ for competitive programming</span><span class="bx-sib-m">/c-plus-plus-for-competitive-programming</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="faq">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Questions parents ask</p>
+      <h2>About the Indian Computing Olympiad and the preparation batch</h2>
+    </div>
+    <div class="bx-faq">
+      <div class="bx-faq-item"><h3>Is the Indian Computing Olympiad the same as the SOF cyber olympiad?</h3><p>No. The Indian Computing Olympiad is the IARCS programme, ZIO and ZCO then INOI, that selects India's team for the International Olympiad in Informatics; it is a programming and algorithms contest for students up to Class 12. The SOF International Computer Science Olympiad, formerly NCO, is a school-based multiple-choice paper for Classes 1 to 10 run by a private foundation. Different organisers, different papers, different preparation; the SOF exam has its own page on this site.</p></div>
+      <div class="bx-faq-item"><h3>Who can take part, and how do we register?</h3><p>IARCS says any student registered in school up to Class 12, from any board, with no lower age limit; a student who has completed Class 12 is not eligible even after a gap year. Registration for ICO-2027 opens in October 2026 according to the IARCS page we read on 23 September 2026. Whether a family registers directly or through the school was not stated on that page, so check the IARCS announcement when the window opens; we will update this page.</p></div>
+      <div class="bx-faq-item"><h3>What are the ICO-2027 dates?</h3><p>IARCS had not published the stage dates when this page was written, only that registration opens in October 2026. In the 2026 cycle ZIO was on 15 November 2025, ZCO on 8 February 2026, INOI on 14 February 2026 and the camp in June 2026, and IARCS labels each cycle by the later year. Expect the same shape, and check iarcs.org.in for the exact days; we will replace the pattern with the dates as soon as they appear.</p></div>
+      <div class="bx-faq-item"><h3>Should my child sit ZIO or ZCO?</h3><p>Both, if IARCS allows it in this cycle as it did in the last: a student &quot;may attempt either or both.&quot; ZIO is a written paper that needs no programming language and rewards careful reasoning; ZCO is a programming exam in C++, Java or Python. A student who can already code should sit both; a student who cannot yet code can sit ZIO while learning a language for the next cycle.</p></div>
+      <div class="bx-faq-item"><h3>Which programming language should my child learn?</h3><p>For ZCO, whichever they can already write: C++, Java and Python are all accepted. For INOI, C++ is the only language allowed, so every student in our batches is moved to C++ on a fixed schedule well before the national round. A beginner can start in Python for ZCO and make the move with us; a student already in C++ simply goes deeper.</p></div>
+      <div class="bx-faq-item"><h3>What do the top students get from it?</h3><p>A place on the four-student IOI team for the very best, and, according to IARCS's own incentives page, university routes for many more: direct admission at Chennai Mathematical Institute for INOI gold and silver medallists or camp selections in Class 11 or 12, bonus points at IIIT Delhi, olympiad-category admission at IIIT Hyderabad, IIT Gandhinagar and IIT Kanpur, SCOPE admission at IIT Kharagpur, IIT Madras and IIT Mandi, and special consideration at NUS, NTU and HKUST for medallists.</p></div>
+      <div class="bx-faq-item"><h3>Do you use past ZIO, ZCO and INOI papers?</h3><p>Yes. IARCS publishes its archives, study material and an online judge, and we use them for placement, weekly practice and full timed rehearsals, then send families to IARCS's own site rather than reproducing papers here. Every paper a student sits is reviewed problem by problem in the next class.</p></div>
+      <div class="bx-faq-item"><h3>How is this different from USACO or the Canadian Computing Competition?</h3><p>The algorithms are the same family and the judge is the same kind of examiner, so the preparation overlaps heavily and many of our students sit all three as milestones. The differences are practical: USACO and the CCC have their own dates and entry routes and accept several languages throughout, while INOI is C++ only. Our USACO and CCC pages cover their rules; this batch prepares for the Indian pathway.</p></div>
+      <div class="bx-faq-item"><h3>We live outside India. Can my child register?</h3><p>The IARCS page we read says the olympiad is &quot;open to all school students across the country&quot; and says nothing either way about students abroad, so we will not guess. Ask IARCS when ICO-2027 registration opens in October 2026. We prepare students anywhere; the batch is the same wherever you sit.</p></div>
+      <div class="bx-faq-item"><h3>What happens after I send the form?</h3><p>A mentor calls within a few hours, asks which class your child is in and which language they can write, and books a free demo class at a time that suits you. The demo is a real session: one ZIO-style reasoning question worked out loud and one small judge problem coded together, with the teacher showing the thinking rather than the answer key. There is no card, no enrolment fee and no pressure on the call.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="start">
+  <div class="bx-wrap">
+    <div class="bx-hero-grid">
+      <div>
+        <div class="bx-section-head">
+          <p class="bx-qlabel">Start</p>
+          <h2>The free demo is a real problem session</h2>
+        </div>
+        <p>Book it and your child joins a live session at their level: one ZIO-style question reasoned through on paper, one small problem coded against a judge in whatever language they have, and the honest verdict on whether reasoning, coding or C++ is the first thing to build. You watch from the next chair. If you would rather see a full 45-60 minute class today or tomorrow, book a <a class="bx-link" href="/priority-demo">Priority Live Demo</a> instead; its fee is adjusted against your first month if you enrol.</p>
+        <p>Read first instead? The <a class="bx-link" href="/coding-challenges">coding challenges guide</a> compares the contests students sit, and the <a class="bx-link" href="/ioi-olympiad-informatics-training">informatics olympiad training page</a> covers the road beyond INOI.</p>
+        <p style="margin-top:22px"><a class="bx-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20know%20about%20Indian%20Computing%20Olympiad%20preparation%20classes." target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a></p>
+        <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every session is a live video class. Sending the form books a callback and nothing else; no seat is reserved or lost by it.</p>
+      </div>
+      <div class="bx-form-panel">
+        <form id="bxLeadForm" onsubmit="return submitBxLead(event)" novalidate>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ico-parent">Parent's name</label><input id="bx-ico-parent" type="text" name="parent_name" placeholder="Your name" required></div>
+            <div class="bx-field"><label for="bx-ico-phone">Phone or WhatsApp</label><input id="bx-ico-phone" type="tel" name="phone" placeholder="98765 43210" maxlength="15" required></div>
+          </div>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ico-email">Email</label><input id="bx-ico-email" type="email" name="email" placeholder="you@example.com" required></div>
+            <div class="bx-field"><label for="bx-ico-format">Preferred format</label>
+              <select id="bx-ico-format" name="format" required>
+                <option value="group">Group batch</option>
+                <option value="mini">Mini batch</option>
+                <option value="1on1">One to one</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="bx-field"><label for="bx-ico-child">Student's class and current language if any (optional)</label><input id="bx-ico-child" type="text" name="child_name" placeholder="Class 9, some Python"></div>
+          <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
+          <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-grid-4">
+      <div><h4>Modern Age Coders</h4><p style="font-size:.9rem;opacity:.86">Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div>
+      <div><h4>Olympiads and contests</h4><ul><li><a href="/sof-icso-preparation">SOF ICSO preparation</a></li><li><a href="/ioi-olympiad-informatics-training">Informatics olympiad training</a></li><li><a href="/usaco-preparation-online-coaching">USACO preparation</a></li><li><a href="/coding-challenges">Coding challenges</a></li></ul></div>
+      <div><h4>Code by level</h4><ul><li><a href="/courses/python-complete-masterclass-teens">Python for Teens</a></li><li><a href="/courses/cpp-programming-masterclass-for-teens">C++ for Teens</a></li><li><a href="/courses/competitive-programming-for-teens-course">Competitive Programming for Teens</a></li><li><a href="/c-plus-plus-for-competitive-programming">C++ for competitive programming</a></li></ul></div>
+      <div><h4>Start</h4><ul><li><a href="/courses">The full catalogue</a></li><li><a href="/pricing">Fees</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/priority-demo">Priority Live Demo</a></li></ul></div>
+    </div>
+    <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India.</span><span>Indian Computing Olympiad · ICO-2027 cycle · not affiliated with IARCS</span></div>
+  </div>
+</footer>
+
+<script>
+window.submitBxLead = function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var phone = (f.phone.value || '').replace(/\D/g, '');
+  if (phone.length < 10) { alert('Please enter a valid phone number.'); return false; }
+  var data = { name: f.parent_name.value, phone: f.phone.value, email: f.email.value, format: f.format.value, child_name: f.child_name.value, source: 'indian-computing-olympiad-preparation', page: window.location.pathname };
+  var api = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(api + '/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
+  if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'board_prep_page', event_label: 'indian-computing-olympiad-preparation', value: 1 }); }
+  f.innerHTML = '<p class="bx-form-ok">Request received. A mentor will call you within a few hours to book the free demo class.</p>';
+  return false;
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+<script src="/js/country-code-selector.js?v=20260820a" defer></script>
+</body>
+</html>
