@@ -1,8 +1,8 @@
 {
   "meta": {
     "slug": "30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced",
-    "title": "30+ Scratch Project Ideas for Kids: Fun Coding Projects from Beginner to Advanced",
-    "description": "Discover 30+ engaging Scratch project ideas for kids organized by skill level. From beginner animations to advanced games, find the perfect coding project.",
+    "title": "30+ Scratch Project Ideas for Kids: Starter Projects to Advanced Games, Step by Step",
+    "description": "30+ Scratch project ideas for kids sorted by level: simple starter projects for first-time coders, intermediate game ideas, and advanced Scratch projects for 12 year olds and up. Each one lists what it teaches, how long it takes and the steps, plus the live Scratch course that goes with it.",
     "keywords": [
       "scratch project ideas",
       "scratch projects for kids",
@@ -10,14 +10,22 @@
       "advanced scratch projects",
       "scratch coding ideas",
       "scratch game ideas",
-      "scratch programming projects"
+      "scratch programming projects",
+      "scratch projects",
+      "scratch projects for students",
+      "scratch starter projects",
+      "simple scratch projects",
+      "scratch projects step by step",
+      "scratch project ideas for intermediate",
+      "scratch projects for 12 year olds",
+      "scratch vs python"
     ],
     "author": {
       "name": "Modern Age Coders",
       "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages."
     },
     "date": "2026-01-18",
-    "dateModified": "2026-07-18",
+    "dateModified": "2026-09-23",
     "category": "Education",
     "tags": [
       "Scratch",
@@ -28,10 +36,11 @@
     ],
     "readTime": "18 min read",
     "featured": false,
-    "tldr": "This article offers 30 plus Scratch project ideas for kids, sorted by skill level from beginner animations to advanced games. Each idea gives children something fun to build while practising real coding concepts, so parents and teachers can pick a project that matches the child's level and keeps them motivated."
+    "tldr": "Thirty-plus Scratch project ideas for kids, sorted by level: eight simple starter projects for ages 6 to 8, eight intermediate game ideas for 8 to 10, seven advanced projects for 10 and up, then creative and educational sets. Each project lists what it teaches, the time it takes and the steps, so a parent or teacher can pick one that fits today and the next one that stretches.",
+    "retarget": "near-me-2026-09"
   },
   "hero": {
-    "title": "30+ Scratch Project Ideas for Kids: Fun Coding Projects from Beginner to Advanced",
+    "title": "30+ Scratch Project Ideas for Kids: Starter Projects to Advanced Games, Step by Step",
     "featuredImage": {
       "url": "https://ik.imagekit.io/qnvuzyjls/30+%20Scratch%20Coding%20ideas%20for%20kids",
       "alt": "30+ Scratch Project Ideas for Kids"
@@ -44,11 +53,51 @@
       },
       {
         "type": "paragraph",
-        "text": "Scratch is one of the most popular platforms for kids learning to code, but after completing a few tutorials, many young programmers hit a wall: \"What should I make next?\" This comprehensive guide solves that problem with 30+ engaging Scratch project ideas organized by skill level."
+        "text": "Here are 30+ Scratch project ideas for kids, sorted by level: simple starter projects for a first-time coder, intermediate game ideas for a child with a few months of Scratch, and advanced projects for 10 to 12 year olds and up. Every project says what it teaches, how long it takes and how to build it step by step, so \"what should I make next?\" has an answer."
       },
       {
         "type": "paragraph",
-        "text": "Whether your child is a complete beginner just learning basic blocks, an intermediate coder ready for more complex challenges, or an advanced Scratch user looking to push their skills further, you'll find projects that match their abilities and interests. Each project includes what concepts kids will learn, how to create it step-by-step, and tips for making it their own."
+        "text": "Whether your child is a complete beginner, an intermediate coder ready for a real game, or an advanced Scratch user who has outgrown tutorials, start from the table below, build the project as written, then make it theirs with the ideas at the end of each one."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Level",
+          "Typical age",
+          "Projects",
+          "Time each",
+          "What it needs"
+        ],
+        "rows": [
+          [
+            "Starter",
+            "6 to 8, or any first-time coder",
+            "1 to 8: dancing sprite, greeting card, catching game, virtual pet, story, spiral, quiz, race",
+            "30 minutes to 2 hours",
+            "Motion, looks, events, simple loops"
+          ],
+          [
+            "Intermediate",
+            "8 to 10, or 3 to 6 months of Scratch",
+            "9 to 16: maze, platformer, quiz with scoring, paint program, whack-a-mole, music sequencer, Pong, Snake",
+            "2 to 4 hours over a few sessions",
+            "Variables, conditionals, collisions, broadcasts"
+          ],
+          [
+            "Advanced",
+            "10 to 12 and up, or 6+ months of Scratch",
+            "17 to 23: Flappy Bird, RPG, chatbot, calculator, Breakout, traffic simulation, two-player game",
+            "4 to 8 hours or more",
+            "Clones, lists, maths, planning on paper first"
+          ],
+          [
+            "Creative and educational",
+            "Any level",
+            "24 to 35: generative art, animated story, music visualiser, maths game, typing test, geography quiz, solar system, Tic-Tac-Toe with AI, memory game, endless runner, tower defence, weather",
+            "Varies",
+            "Pick by interest, then by the blocks it needs"
+          ]
+        ]
       },
       {
         "type": "heading",
@@ -669,7 +718,7 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Advanced Scratch Projects (Ages 10+ or 6+ Months Experience)",
+        "text": "Advanced Scratch Projects (Ages 10 to 12 and Up, or 6+ Months Experience)",
         "id": "advanced-projects"
       },
       {
@@ -1401,6 +1450,26 @@
       {
         "type": "heading",
         "level": 2,
+        "text": "How these projects are taught in a live Scratch class",
+        "id": "live-scratch-class"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every project on this list is one a child can build alone. In our live Scratch course, <a href=\"/courses/scratch-programming-complete-course\">Scratch Coding for Kids</a>, they build them with a mentor: ages 6 to 12, 3-4 months, 12-16 weeks, a batch of 5 to 10 children, two live classes a week, and a finished game or story at the end of every module."
+      },
+      {
+        "type": "paragraph",
+        "text": "The difference is not the projects, it is the feedback: a mentor who sees the child's blocks, asks \"what happens if the sprite touches the edge?\" and lets them find the answer. You can watch that for yourself in a free demo, or book a <a href=\"/priority-demo\">Priority Live Demo</a>, a full class of about 45 to 60 minutes today or tomorrow."
+      },
+      {
+        "type": "button",
+        "text": "See the live Scratch course",
+        "url": "/courses/scratch-programming-complete-course",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 2,
         "text": "Tips for Successfully Completing Scratch Projects",
         "id": "tips-success"
       },
@@ -1422,7 +1491,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Understanding <a href='https://www.modernagecoders.com/blog/problem-solving-computational-thinking' target='_blank' rel='noopener noreferrer'>problem-solving and computational thinking</a> helps kids approach projects more effectively, breaking challenges into manageable steps."
+        "text": "Understanding <a href='/blog/role-of-mathematics-programming-logical-problem-solving'>problem-solving and computational thinking</a> helps kids approach projects more effectively, breaking challenges into manageable steps."
       },
       {
         "type": "heading",
@@ -1470,7 +1539,7 @@
       },
       {
         "type": "paragraph",
-        "text": "For kids ready to explore beyond Scratch, learning about <a href='https://www.modernagecoders.com/blog/robotics-coding-stem-kits' target='_blank' rel='noopener noreferrer'>robotics, coding, and STEM kits</a> provides hands-on experiences that complement screen-based programming."
+        "text": "For kids ready to explore beyond Scratch, learning about <a href='/blog/robotics-coding-stem-kits-build-logical-thinking'>robotics, coding, and STEM kits</a> provides hands-on experiences that complement screen-based programming."
       },
       {
         "type": "heading",
@@ -1479,40 +1548,37 @@
         "id": "faq"
       },
       {
-        "type": "heading",
-        "level": 3,
-        "text": "What Scratch projects should beginners start with?"
-      },
-      {
-        "type": "paragraph",
-        "text": "Start with simple animations like dancing sprites or greeting cards that teach basic sequencing, events, and loops without overwhelming complexity. Progress to catching games or virtual pets that introduce variables and conditionals. Avoid starting with complex games like platformers, master fundamentals through projects completable in one or two sessions first."
-      },
-      {
-        "type": "heading",
-        "level": 3,
-        "text": "How long should it take to complete a Scratch project?"
-      },
-      {
-        "type": "paragraph",
-        "text": "Beginner projects: 30 minutes to 2 hours. Intermediate projects: 2-4 hours over multiple sessions. Advanced projects: 4-8+ hours. Time varies by skill level, project complexity, and customization added. Breaking multi-hour projects into several sessions prevents fatigue and allows ideas to develop between sessions."
-      },
-      {
-        "type": "heading",
-        "level": 3,
-        "text": "Can kids create original projects without copying tutorials?"
-      },
-      {
-        "type": "paragraph",
-        "text": "Yes, but tutorials teach mechanics first. Follow 2-3 tutorials to learn basics, then modify tutorials significantly to make them unique, finally create original projects using learned concepts. Most kids start combining ideas from multiple tutorials before creating fully original work. This guided-to-independent progression is natural and effective."
-      },
-      {
-        "type": "heading",
-        "level": 3,
-        "text": "What's the difference between beginner and advanced Scratch projects?"
-      },
-      {
-        "type": "paragraph",
-        "text": "Beginner projects use basic sequencing, simple loops, and few variables. Advanced projects involve multiple sprites interacting, complex conditionals, lists, cloning, mathematical calculations, and sophisticated mechanics. Advanced projects require planning, systematic debugging, and combining multiple concepts simultaneously. Progression from beginner to advanced typically takes 6-12 months of consistent practice."
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What Scratch projects should beginners start with?",
+            "content": "Start with simple animations like dancing sprites or greeting cards that teach basic sequencing, events, and loops without overwhelming complexity. Progress to catching games or virtual pets that introduce variables and conditionals. Avoid starting with complex games like platformers, master fundamentals through projects completable in one or two sessions first."
+          },
+          {
+            "title": "How long should it take to complete a Scratch project?",
+            "content": "Beginner projects: 30 minutes to 2 hours. Intermediate projects: 2-4 hours over multiple sessions. Advanced projects: 4-8+ hours. Time varies by skill level, project complexity, and customization added. Breaking multi-hour projects into several sessions prevents fatigue and allows ideas to develop between sessions."
+          },
+          {
+            "title": "Can kids create original projects without copying tutorials?",
+            "content": "Yes, but tutorials teach mechanics first. Follow 2-3 tutorials to learn basics, then modify tutorials significantly to make them unique, finally create original projects using learned concepts. Most kids start combining ideas from multiple tutorials before creating fully original work. This guided-to-independent progression is natural and effective."
+          },
+          {
+            "title": "What's the difference between beginner and advanced Scratch projects?",
+            "content": "Beginner projects use basic sequencing, simple loops, and few variables. Advanced projects involve multiple sprites interacting, complex conditionals, lists, cloning, mathematical calculations, and sophisticated mechanics. Advanced projects require planning, systematic debugging, and combining multiple concepts simultaneously. Progression from beginner to advanced typically takes 6-12 months of consistent practice."
+          },
+          {
+            "title": "What are good Scratch projects for 12 year olds?",
+            "content": "At 12, go straight to the advanced list: the Flappy Bird clone, the RPG adventure, the chatbot, the calculator, Breakout and Tic-Tac-Toe with a computer opponent. Each needs clones, lists or maths, which is what a 12 year old is ready for. When Scratch starts to feel limiting, that is the signal to begin Python."
+          },
+          {
+            "title": "Scratch or Python: which should my child learn first?",
+            "content": "Scratch first for children under about 11, because it removes typing and syntax and lets them learn loops, conditionals and variables by building games. From 11 to 13, move to Python; the concepts transfer directly. A 12 or 13 year old who has never coded and types comfortably can start with Python."
+          },
+          {
+            "title": "Where can my child learn Scratch in a live online class?",
+            "content": "Modern Age Coders runs a live Scratch course for ages 6 to 12: 3-4 months, 12-16 weeks, batches of 5 to 10, every child building the projects on this list with a mentor. You can watch a free demo first, or book a Priority Live Demo, a full class of about 45 to 60 minutes, today or tomorrow."
+          }
+        ]
       },
       {
         "type": "heading",
@@ -1544,15 +1610,15 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong><a href='https://www.modernagecoders.com/blog/minecraft-vs-roblox-which-teaches-kids-code' target='_blank' rel='noopener noreferrer'>Minecraft vs Roblox: Which Teaches Kids to Code?</a></strong> Compare game-based coding platforms and discover which environment best supports your child's programming journey beyond Scratch."
+        "text": "<strong><a href='/blog/minecraft-vs-roblox-which-teaches-kids-to-code'>Minecraft vs Roblox: Which Teaches Kids to Code?</a></strong> Compare game-based coding platforms and discover which environment best supports your child's programming journey beyond Scratch."
       },
       {
         "type": "paragraph",
-        "text": "<strong><a href='https://www.modernagecoders.com/blog/why-coding-new-literacy-kids-2025' target='_blank' rel='noopener noreferrer'>Why Coding Is the New Literacy for Kids in 2025</a></strong> Understand why programming skills are becoming as fundamental as reading and writing for children's future success."
+        "text": "<strong><a href='/blog/why-coding-is-new-literacy-kids-2025'>Why Coding Is the New Literacy for Kids in 2025</a></strong> Understand why programming skills are becoming as fundamental as reading and writing for children's future success."
       },
       {
         "type": "paragraph",
-        "text": "<strong><a href='https://www.modernagecoders.com/blog/parents-guide-starting-coding-education-home' target='_blank' rel='noopener noreferrer'>Parents' Guide to Starting Coding Education at Home</a></strong> Practical strategies for supporting your child's coding journey from first projects through advanced programming skills."
+        "text": "<strong><a href='/blog/parents-guide-starting-coding-education-home'>Parents' Guide to Starting Coding Education at Home</a></strong> Practical strategies for supporting your child's coding journey from first projects through advanced programming skills."
       },
       {
         "type": "heading",

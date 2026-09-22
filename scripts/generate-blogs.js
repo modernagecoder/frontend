@@ -616,6 +616,12 @@ class BlogGenerator {
         html = html.replace(/{{BLOG_DATE}}/g, this.formatDate(blogData.meta.date));
         html = html.replace(/{{BLOG_DATE_ISO}}/g, blogData.meta.date);
         html = html.replace(/{{BLOG_DATE_MODIFIED_ISO}}/g, blogData.meta.dateModified || blogData.meta.date);
+        // Visible "Updated" date when the post was revised after publishing: readers and AI engines
+        // both use it as the freshness signal, and it must agree with dateModified in the schema.
+        const updatedVisible = blogData.meta.dateModified && blogData.meta.dateModified !== blogData.meta.date
+            ? ' &middot; Updated ' + this.formatDate(blogData.meta.dateModified)
+            : '';
+        html = html.replace(/{{BLOG_UPDATED}}/g, updatedVisible);
 
         // Hero section replacements
         html = html.replace(/{{HERO_TITLE}}/g, blogData.hero.title || blogData.meta.title);
