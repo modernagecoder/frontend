@@ -18263,5 +18263,59 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Historic England, Norwich Cathedral or Norwich City Council."
     ]
+  },
+  "best-coding-class-in-portsmouth": {
+    "market": "Portsmouth",
+    "bodyClass": "cg-pts",
+    "pageType": "city",
+    "curriculumAuthority": "Portsmouth, Census 2021 via Nomis (E06000044): TS001 208,003 usual residents, 201,362 in households, 6,641 in communal establishments; TS007A 14,494 aged 15 to 19 (7.0 percent, England 5.7), 20,042 aged 20 to 24 (9.6 percent, England 6.0), 15,368 aged 25 to 29 (7.4 percent, England 6.6); TS068 49,106 students of 196,723 residents aged 5 and over (25.0 percent, England 20.4); TS006 5,149.8 usual residents per square kilometre (England 433.5), second among English council areas outside the London boroughs after Luton at 5,196.0 (our ranking of the published values). Mary Rose Trust, History of the Mary Rose: built 1510; sank 19 July 1545 in the Battle of the Solent, when 200 French ships attempted to invade; Henry VIII watched from Southsea Castle; John Deane explored the wreck in the 1830s; raised 1982.",
+    "localProject": "Three roads hold Portsea Island to the mainland. OS Open Roads (read 22 September 2026), box E 455000 to 475000, N 93000 to 112000: 17,738 links, 14,986 nodes; largest connected part 14,863 nodes, 17,357 merged links. Graph bridges 6,544; dead-end nodes 4,589, each on a bridge. Minimum cut between central Portsea Island (850 nodes) and Cosham, Drayton and Farlington (937 nodes): 3 links (M275; London Road A3; Eastern Road A2030), maximum flow 3, node connectivity 3; island side after the cut 2,534 nodes, 256.6 km of road. Mainland Fareham side to Havant side cut: 5. Lesson family: minimum cut and maximum flow (max-flow min-cut theorem, Menger, graph bridges); distinct from Coventry union-find, Belfast PageRank and Hull flood fill.",
+    "requiredMentions": [
+      "208,003",
+      "201,362",
+      "5,149.8",
+      "20,042",
+      "49,106",
+      "196,723",
+      "Mary Rose",
+      "Southsea Castle",
+      "M275",
+      "Eastern Road",
+      "Portsea Island",
+      "17,738"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Portsmouth: 208,003 usual residents; 201,362 in households; 6,641 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E06000044"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Portsmouth and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E06000044,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Portsmouth 49,106 students of 196,723 aged 5 and over (25.0 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E06000044,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density for all English council areas (Portsmouth 5,149.8; Luton 5,196.0).",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=TYPE154"
+      },
+      {
+        "claim": "Ordnance Survey Open Roads (shapefile download): road links and nodes for tile SU.",
+        "url": "https://api.os.uk/downloads/v1/products/OpenRoads/downloads"
+      },
+      {
+        "claim": "Mary Rose Trust, History of the Mary Rose: 1510, 19 July 1545, Battle of the Solent, Southsea Castle, John Deane, 1982.",
+        "url": "https://maryrose.org/discover/history/"
+      }
+    ],
+    "rejectedClaims": [
+      "A statement that Portsea Island has exactly three connections of any kind: rail and foot or cycle crossings are not in Open Roads, so the page limits the claim to road links in that dataset.",
+      "Portsmouth Historic Dockyard about page: returned 404, so dockyard facts come only from the Mary Rose Trust.",
+      "Portsmouth as the densest city in the UK: the published figures put Luton slightly higher among English council areas outside London, so the page says second.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Ordnance Survey, the Mary Rose Trust or Portsmouth City Council."
+    ]
   }
 }

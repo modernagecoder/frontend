@@ -3538,4 +3538,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-norwich /src/pages/best-coding-class-in-norwich.html 200
 /best-coding-class-in-norwich.md /src/pages/best-coding-class-in-norwich.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-portsmouth /src/pages/best-coding-class-in-portsmouth.html 200
+/best-coding-class-in-portsmouth.md /src/pages/best-coding-class-in-portsmouth.md 200
 /* /src/pages/404.html 404
