@@ -75,6 +75,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Blog (coding & math education tips): https://learn.modernagecoders.com/blog
 - Pricing (from ₹1499/month): https://learn.modernagecoders.com/pricing
 - What coding classes cost, by format (cost guide): https://learn.modernagecoders.com/online-coding-classes-cost
+- Live vs recorded coding classes for kids (format guide): https://learn.modernagecoders.com/live-vs-recorded-coding-classes
 - Book a Free Demo: https://learn.modernagecoders.com/book-demo
 - Student Success Stories: https://learn.modernagecoders.com/success-stories
 - Wall of Love (Testimonials): https://learn.modernagecoders.com/love
@@ -330,6 +331,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Best AI Courses for Teens 2026: https://learn.modernagecoders.com/best-ai-courses-for-teens-2026
 - AI Projects for Kids: https://learn.modernagecoders.com/ai-projects-for-kids
 - AI Classes for Adults: https://learn.modernagecoders.com/ai-classes-for-adults
+- Coding classes for adults (hub: paths, languages, timetable, fees): https://learn.modernagecoders.com/coding-classes-for-adults
 - One to One AI Classes: https://learn.modernagecoders.com/one-on-one-ai-classes
 - AI and Python Academy, Netherlands: https://learn.modernagecoders.com/ai-and-python-academy-netherlands
 - AI and Python Academy, Groningen: https://learn.modernagecoders.com/ai-and-python-academy-groningen

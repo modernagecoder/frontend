@@ -46,7 +46,7 @@
   .cc-shot{display:block;aspect-ratio:16/10;height:auto;background:var(--paper-2);overflow:hidden}
   .cc-shot img{width:100%;height:100%;object-fit:cover;display:block}
   .cc-body{display:flex;flex-direction:column;gap:6px;padding:16px 18px 18px;flex:1}
-  .cc-code{font-family:"JetBrains Mono",monospace;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
+  .cc-code{font-family:"JetBrains Mono",monospace;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
   .cc-body strong{font-family:"Source Serif 4",serif;font-size:1.12rem;line-height:1.25}
   .cc-p{font-size:.92rem;line-height:1.55;color:var(--ink-soft);flex:1}
   .cc-open{font-size:.8rem;font-weight:700;text-decoration:underline;margin-top:4px}
@@ -57,6 +57,8 @@
   .path strong{font-size:1rem}
   .path span{font-size:.9rem;color:var(--ink-soft);line-height:1.5}
   .sec-head p a,.feat p a,.answer p a,.faq-list p a{color:var(--accent);text-decoration:underline}
+  /* 12px type floor (site UI rule); the shared stylesheet sets several labels below it */
+  .kicker,.answer .tag,.sec-head .eyebrow,.range-item .fmt,.cmp-scrollhint,.badge-best,main .msu-kick,main .msu-pc,main .msu-open,main .msu-rl,main .msu-pby{font-size:.78rem}
   </style>
   <noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
 
@@ -259,7 +261,7 @@
       <h3>Our published fees</h3>
       <div class="math-row">
         <span class="math-chip">Group batch: <span data-price="coding.india.group">₹1,499</span> a month = <b><span data-price="coding.india.group" data-price-derive="perClass">₹187</span> per live class</b></span>
-        <span class="math-chip">Mini batch of 3 to 4: <span data-price="coding.india.miniBatch">₹2,999</span> a month = <b><span data-price="coding.india.miniBatch" data-price-derive="perClass">₹375</span> per live class</b></span>
+        <span class="math-chip" data-india-only="true">Mini batch of 3 to 4: <span data-price="coding.india.miniBatch">₹2,999</span> a month = <b><span data-price="coding.india.miniBatch" data-price-derive="perClass">₹375</span> per live class</b></span>
         <span class="math-chip">One to one: <span data-price="coding.india.personal">₹4,999</span> a month = <b><span data-price="coding.india.personal" data-price-derive="perClass">₹1,250</span> per private class</b></span>
         <span class="math-chip">Group formats: <b>8 one-hour live classes a month</b> &middot; one to one: <b>4</b></span>
         <span class="math-chip">Enrolment fees: <b>none</b> &middot; Stop: <b>any month end</b></span>
@@ -416,5 +418,7 @@
 })();
 </script>
 <script>window.addEventListener('load',function(){setTimeout(function(){var r=document.querySelectorAll('.reveal');for(var i=0;i<r.length;i++){r[i].classList.add('in');}},1600);});</script>
+    <script src="/js/pricing-data.generated.js?v=c1eb685613"></script>
+    <script src="/js/international-pricing.js?v=deee271610"></script>
 </body>
 </html>

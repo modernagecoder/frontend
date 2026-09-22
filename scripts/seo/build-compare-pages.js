@@ -308,7 +308,7 @@ function build(slug) {
   .cc-shot{display:block;aspect-ratio:16/10;height:auto;background:var(--paper-2);overflow:hidden}
   .cc-shot img{width:100%;height:100%;object-fit:cover;display:block}
   .cc-body{display:flex;flex-direction:column;gap:6px;padding:16px 18px 18px;flex:1}
-  .cc-code{font-family:"JetBrains Mono",monospace;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
+  .cc-code{font-family:"JetBrains Mono",monospace;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
   .cc-body strong{font-family:"Source Serif 4",serif;font-size:1.12rem;line-height:1.25}
   .cc-p{font-size:.92rem;line-height:1.55;color:var(--ink-soft);flex:1}
   .cc-open{font-size:.8rem;font-weight:700;text-decoration:underline;margin-top:4px}
@@ -319,6 +319,8 @@ function build(slug) {
   .path strong{font-size:1rem}
   .path span{font-size:.9rem;color:var(--ink-soft);line-height:1.5}
   .sec-head p a,.feat p a,.answer p a,.faq-list p a{color:var(--accent);text-decoration:underline}
+  /* 12px type floor (site UI rule); the shared stylesheet sets several labels below it */
+  .kicker,.answer .tag,.sec-head .eyebrow,.range-item .fmt,.cmp-scrollhint,.badge-best,main .msu-kick,main .msu-pc,main .msu-open,main .msu-rl,main .msu-pby{font-size:.78rem}
   </style>
   <noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
 
@@ -405,7 +407,7 @@ ${p.sections.map((s) => R[s.type](s)).join('\n\n')}
     <div class="math-band reveal">
       <h3>Our published fees</h3>
       <div class="math-row">
-${p.disclosure.chips.map((c) => '        <span class="math-chip">' + c + '</span>').join('\n')}
+${p.disclosure.chips.map((c) => '        <span class="math-chip"' + (c.includes('miniBatch') ? ' data-india-only="true"' : '') + '>' + c + '</span>').join('\n')}
       </div>
       <p class="math-note">${p.disclosure.note}</p>
     </div>

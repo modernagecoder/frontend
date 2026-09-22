@@ -1046,6 +1046,8 @@
 /online-math-tutor-cost.md /src/pages/online-math-tutor-cost.md 200
 /online-coding-classes-cost /src/pages/online-coding-classes-cost.html 200
 /online-coding-classes-cost.md /src/pages/online-coding-classes-cost.md 200
+/live-vs-recorded-coding-classes /src/pages/live-vs-recorded-coding-classes.html 200
+/live-vs-recorded-coding-classes.md /src/pages/live-vs-recorded-coding-classes.md 200
 
 # Competitor comparison: Codingal
 /modern-age-coders-vs-codingal /src/pages/modern-age-coders-vs-codingal.html 200
@@ -1988,6 +1990,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ai-classes-for-adults /src/pages/ai-classes-for-adults.html 200
 /ai-classes-for-adults.md /src/pages/ai-classes-for-adults.md 200
+/coding-classes-for-adults /src/pages/coding-classes-for-adults.html 200
+/coding-classes-for-adults.md /src/pages/coding-classes-for-adults.md 200
 
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /one-on-one-ai-classes /src/pages/one-on-one-ai-classes.html 200
