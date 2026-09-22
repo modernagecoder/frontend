@@ -3554,4 +3554,16 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-sunderland /src/pages/best-coding-class-in-sunderland.html 200
 /best-coding-class-in-sunderland.md /src/pages/best-coding-class-in-sunderland.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-exeter /src/pages/best-coding-class-in-exeter.html 200
+/best-coding-class-in-exeter.md /src/pages/best-coding-class-in-exeter.md 200
+
+# Class 10 board-prep cluster (board-prep.css). Inserted before the /* catch-all.
+/cemc-waterloo-contests-preparation /src/pages/cemc-waterloo-contests-preparation.html 200
+/cemc-waterloo-contests-preparation.md /src/pages/cemc-waterloo-contests-preparation.md 200
+/ioqm-rmo-inmo-preparation /src/pages/ioqm-rmo-inmo-preparation.html 200
+/ioqm-rmo-inmo-preparation.md /src/pages/ioqm-rmo-inmo-preparation.md 200
+/indian-computing-olympiad-preparation /src/pages/indian-computing-olympiad-preparation.html 200
+/indian-computing-olympiad-preparation.md /src/pages/indian-computing-olympiad-preparation.md 200
 /* /src/pages/404.html 404

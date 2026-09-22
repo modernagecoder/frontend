@@ -12864,6 +12864,50 @@
   to = "/src/pages/best-coding-class-in-sunderland.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-class-in-exeter"
+  to = "/src/pages/best-coding-class-in-exeter.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-exeter.md"
+  to = "/src/pages/best-coding-class-in-exeter.md"
+  status = 200
+
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/cemc-waterloo-contests-preparation"
+  to = "/src/pages/cemc-waterloo-contests-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/cemc-waterloo-contests-preparation.md"
+  to = "/src/pages/cemc-waterloo-contests-preparation.md"
+  status = 200
+
+[[redirects]]
+  from = "/ioqm-rmo-inmo-preparation"
+  to = "/src/pages/ioqm-rmo-inmo-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/ioqm-rmo-inmo-preparation.md"
+  to = "/src/pages/ioqm-rmo-inmo-preparation.md"
+  status = 200
+
+[[redirects]]
+  from = "/indian-computing-olympiad-preparation"
+  to = "/src/pages/indian-computing-olympiad-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/indian-computing-olympiad-preparation.md"
+  to = "/src/pages/indian-computing-olympiad-preparation.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
