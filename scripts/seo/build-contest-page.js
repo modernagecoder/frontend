@@ -474,6 +474,8 @@ const missing = links.filter((l) => {
   if (l.startsWith('/courses/')) return !fs.existsSync(path.join(ROOT, 'content', 'courses', 'generated', l.replace('/courses/', ''), 'index.html'));
   if (l.startsWith('/src/pages/') || l.startsWith('/favicon') || /\.[a-z0-9]{2,5}$/i.test(l)) return false;
   if (l.startsWith('/images/')) return !fs.existsSync(path.join(ROOT, 'public', l.replace('/images/', 'images/')));
+  // a sibling contest page that is planned in this batch counts as resolved (its module exists)
+  if (fs.existsSync(path.join(__dirname, 'contests', l.slice(1) + '.js'))) return false;
   return !fs.existsSync(path.join(ROOT, 'src', 'pages', l.slice(1) + '.html')) && !fs.existsSync(path.join(ROOT, 'src', 'pages', l.slice(1), 'index.html')) && l !== '/courses';
 });
 if (missing.length) throw new Error('unresolved links on ' + c.slug + ': ' + missing.join(', '));
