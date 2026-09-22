@@ -818,6 +818,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Swansea, Wales: https://learn.modernagecoders.com/best-coding-class-in-swansea
 - Sunderland, England: https://learn.modernagecoders.com/best-coding-class-in-sunderland
 - Exeter, England: https://learn.modernagecoders.com/best-coding-class-in-exeter
+- Newport, Wales: https://learn.modernagecoders.com/best-coding-class-in-newport-wales
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).
@@ -838,10 +839,10 @@ Live online Class 10 board preparation, taught in small batches: CBSE Artificial
 - cemc-waterloo-contests-preparation: https://learn.modernagecoders.com/cemc-waterloo-contests-preparation
 - ioqm-rmo-inmo-preparation: https://learn.modernagecoders.com/ioqm-rmo-inmo-preparation
 - indian-computing-olympiad-preparation: https://learn.modernagecoders.com/indian-computing-olympiad-preparation
-## International Country Pages
 - math-kangaroo-usa-preparation: https://learn.modernagecoders.com/math-kangaroo-usa-preparation
 - mathcounts-preparation: https://learn.modernagecoders.com/mathcounts-preparation
 - australian-maths-trust-amc-aio-cat-preparation: https://learn.modernagecoders.com/australian-maths-trust-amc-aio-cat-preparation
+## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states
 - United Kingdom (coding, Python and AI across the four school systems of England, Scotland, Wales and Northern Ireland): https://learn.modernagecoders.com/coding-classes-in-united-kingdom

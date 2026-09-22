@@ -18533,5 +18533,64 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Ordnance Survey, the Met Office or Exeter City Council."
     ]
+  },
+  "best-coding-class-in-newport-wales": {
+    "market": "Newport",
+    "bodyClass": "cg-npw",
+    "pageType": "city",
+    "curriculumAuthority": "Newport, Wales, Census 2021 via Nomis (W06000022): TS001 159,592 usual residents, 158,205 in households, 1,387 in communal establishments; TS007A aged 4 and under 9,733 (6.1 percent, Wales 5.0), 5 to 9 10,336 (6.5, Wales 5.7), 10 to 14 10,215 (6.4, Wales 5.9); TS068 30,401 students of 149,859 residents aged 5 and over (20.3 percent, Wales 19.9); TS006 838.1 usual residents per square kilometre (Wales 149.9). Friends of the Newport Ship: fifteenth-century merchant vessel unearthed in 2002 when building work on the Riverfront arts centre paused for excavation; preserved in sediment for around 532 years; around 1469 a repair or refit was interrupted when the supporting cradle is thought to have collapsed.",
+    "localProject": "What did scrapping the Severn tolls do? DfT road traffic API (read 22 September 2026), annual average daily flow, all motor vehicles, 2017 against 2019; tolls abolished 17 December 2018 (GOV.UK). M4 Prince of Wales Bridge (count point 99169), counted both years: 67,488 to 77,629, +15.03 percent. Six South Gloucestershire motorway points counted both years: mean +0.07, median -1.21 percent. Difference in differences about +15 points. M48 Severn Bridge: last counted 2016 (22,268); 2017 to 2019 estimated (22,437 to 22,632). M4 in Newport counted both years: J28 to J27 -7.29 percent, J29 to J28 +3.45 percent; estimated links all 1.07 to 1.11 percent. 14 of 34 values estimated. Lesson family: difference-in-differences and natural experiments; distinct from Swansea change points and Preston robust trends.",
+    "requiredMentions": [
+      "158,205",
+      "838.1",
+      "30,401",
+      "149,859",
+      "Newport Ship",
+      "Riverfront",
+      "Prince of Wales Bridge",
+      "difference-in-differences",
+      "77,629",
+      "67,488",
+      "532 years",
+      "Rogerstone"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Newport: 159,592 usual residents; 158,205 in households; 1,387 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=W06000022"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Newport and Wales five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=W06000022,W92000004"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Newport 30,401 students of 149,859 aged 5 and over (20.3 percent); Wales 19.9 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=W06000022,W92000004"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, Newport 838.1 and Wales 149.9 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=W06000022,W92000004"
+      },
+      {
+        "claim": "Department for Transport, road traffic statistics API: annual average daily flow by count point, with estimation method.",
+        "url": "https://roadtraffic.dft.gov.uk/api/average-annual-daily-flow?filter%5Bcount_point_id%5D=99169"
+      },
+      {
+        "claim": "GOV.UK, Severn Crossings to go toll-free on 17 December 2018 (2 October 2018).",
+        "url": "https://www.gov.uk/government/news/severn-crossings-to-go-toll-free-on-17-december-2018"
+      },
+      {
+        "claim": "Friends of the Newport Ship: fifteenth-century merchant vessel found in 2002, around 532 years in the sediment, repair interrupted around 1469.",
+        "url": "https://www.newportship.org/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any money figures about toll savings: excluded by the cluster rules, and not needed for the traffic question.",
+      "Using estimated DfT values in the comparison: estimates are grown from national factors and cannot show a local change, so only counted pairs are used.",
+      "A claim that the tolls caused exactly 15 percent growth: the page presents an estimate that rests on parallel trends and a possibly affected control.",
+      "Newport City Council Transporter Bridge pages: returned 403, so the bridge is not described.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Department for Transport, the Friends of the Newport Ship or Newport City Council."
+    ]
   }
 }
