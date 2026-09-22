@@ -163,7 +163,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 111 | best-coding-class-in-portsmouth (pts, #18428B) | city (UK, Phase 4) | 3,312 | 5.7% vs best-coding-class-in-hull | three roads hold Portsea Island to the mainland (max-flow min-cut on OS Open Roads; M275, A3, A2030) | minimum cut and maximum flow, graph bridges | 761b6b74 |
 | 112 | best-coding-class-in-dundee (dnd, #63364D) | city (UK, Phase 4) | 3,319 | 3.2% vs best-coding-class-in-aberdeen | a forecast must beat the obvious guess, fairly (Leuchars 1957-2026; walk-forward MAE; leakage shown) | forecast baselines and walk-forward evaluation | 395d55e1 |
 | 113 | best-coding-class-in-swansea (swa, #914930) | city (UK, Phase 4) | 3,332 | 3.4% vs best-coding-class-in-brighton-and-hove | a detector says when, never why (CUSUM on Swansea Roadside NO2; alarms vs false alarms; no causal claim) | change-point detection with CUSUM | 21e2d6ac |
-| 114 | best-coding-class-in-sunderland (sld, #4E1268) | city (UK, Phase 4) | 3,283 | 4.6% vs best-coding-class-in-york | skip the boxes that cannot matter (quadtree over 4,709 Open Names features; duplicates break capacity 1) | quadtrees and spatial indexing | (this commit) |
+| 114 | best-coding-class-in-sunderland (sld, #4E1268) | city (UK, Phase 4) | 3,283 | 4.6% vs best-coding-class-in-york | skip the boxes that cannot matter (quadtree over 4,709 Open Names features; duplicates break capacity 1) | quadtrees and spatial indexing | f2f2c9d5 |
+| 115 | best-coding-class-in-exeter (ext, #456A1B) | city (UK, Phase 4) | 3,441 | 2.7% vs best-coding-class-in-portsmouth | the right order, and the missing link (Kahn on OS Open Rivers to Exeter Quay; one 417.5 m Culm gap hides 199.1 km) | topological sort and dependency graphs | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -18479,5 +18479,59 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Ordnance Survey, Sunderland Minster or Sunderland City Council."
     ]
+  },
+  "best-coding-class-in-exeter": {
+    "market": "Exeter",
+    "bodyClass": "cg-ext",
+    "pageType": "city",
+    "curriculumAuthority": "Exeter, Census 2021 via Nomis (E07000041): TS001 130,709 usual residents, 120,940 in households, 9,769 in communal establishments; TS007A 11,766 aged 15 to 19 (9.0 percent, England 5.7), 16,349 aged 20 to 24 (12.5 percent, England 6.0), 8,958 aged 25 to 29 (6.9 percent, England 6.6); TS068 35,774 students of 124,823 residents aged 5 and over (28.7 percent, England 20.4); TS006 2,780.0 usual residents per square kilometre (England 433.5). Met Office, Our history: founded 1854 by Vice-Admiral Robert FitzRoy, captain of HMS Beagle; storm warning service from early 1861, now the shipping forecast, thought to be the longest running national forecasting service in the world; first public forecast written for 31 July 1861; headquarters moved from Bracknell to Exeter in 2003; Flood Forecasting Centre 2007.",
+    "localProject": "Putting the River Exe in order. OS Open Rivers WatercourseLink (read 22 September 2026), outlet the River Exe link ending near Exeter Quay (291373, 92510). As published: 774 links, 775 nodes, 307 sources, 712.7 km; Kahn's algorithm orders all nodes (no cycle); no flow splits; longest chain 93 links. River Culm gap: a link ends at 298034, 101020 with nothing downstream; the next begins 417.5 m away with nothing flowing in. Bridged: 1,086 links, 431 sources, 911.8 km; Culm confluence upstream length 25.0 to 224.1 km; named Culm reaching Exeter 16.3 to 56.7 km; Creedy system 186.9 km. 112 sink nodes in the wider box. Lesson family: topological sort (Kahn), cycle detection, accumulation, incomplete graphs; distinct from Hull flood fill and Portsmouth min cut.",
+    "requiredMentions": [
+      "130,709",
+      "120,940",
+      "9,769",
+      "2,780.0",
+      "16,349",
+      "35,774",
+      "124,823",
+      "FitzRoy",
+      "River Culm",
+      "topological sort",
+      "911.8",
+      "Bracknell"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Exeter: 130,709 usual residents; 120,940 in households; 9,769 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E07000041"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Exeter and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E07000041,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Exeter 35,774 students of 124,823 aged 5 and over (28.7 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E07000041,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, Exeter 2,780.0 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E07000041,E92000001"
+      },
+      {
+        "claim": "Ordnance Survey Open Rivers (shapefile download): watercourse links in the direction of flow.",
+        "url": "https://api.os.uk/downloads/v1/products/OpenRivers/downloads"
+      },
+      {
+        "claim": "Met Office, Our history: 1854 FitzRoy, 1861 storm warnings and first public forecast, 2003 move from Bracknell to Exeter, 2007 Flood Forecasting Centre.",
+        "url": "https://www.metoffice.gov.uk/about-us/who-we-are/our-history"
+      }
+    ],
+    "rejectedClaims": [
+      "The cause of the River Culm gap: the file cannot show whether it is a culvert, a leat or an omission, so the page states only that the links do not join.",
+      "Any flood risk statement for Exeter: the project measures network connectivity and channel length, not flooding.",
+      "Exeter Cathedral history page: the page returned navigation only without dated facts, so the Cathedral is not described.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Ordnance Survey, the Met Office or Exeter City Council."
+    ]
   }
 }
