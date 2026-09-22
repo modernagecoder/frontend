@@ -17944,5 +17944,75 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Ordnance Survey, National Records of Scotland or the University of Aberdeen."
     ]
+  },
+  "best-coding-class-in-brighton-and-hove": {
+    "market": "Brighton and Hove",
+    "bodyClass": "cg-bhv",
+    "pageType": "city",
+    "curriculumAuthority": "Brighton and Hove, Census 2021 via Nomis (E06000043): TS001 277,103 usual residents, 268,598 in households, 8,505 in communal establishments; TS007A 17,763 aged 15 to 19 (6.4 percent), 27,920 aged 20 to 24 (10.1 percent), 20,960 aged 25 to 29 (7.6 percent), against England 5.7, 6.0 and 6.6 percent; aged 70 to 74 3.7 percent against 5.0; TS068 62,694 students of 265,352 residents aged 5 and over (23.6 percent, England 20.4); TS006 3,345.3 usual residents per square kilometre (England 433.5). Volk's Electric Railway Association, The Railway: opened 4 August 1883 by Brighton-born inventor Magnus Volk (born 1851) between the Aquarium and the Chain Pier; first house in the town lit by electricity; gauge widened from 2 ft to 2 ft 8.5 in for the 1884 extension to Paston Place (locally Halfway); Brighton and Rottingdean Seashore Electric Railway all but destroyed by a storm on the night of 4 December 1896, running again by July 1897.",
+    "localProject": "Ozone over Preston Park, one eight-hour window at a time. DEFRA UK-AIR ratified hourly data for Brighton Preston Park (BRT3, UKA00483, urban background), 2019 to 2025, read 22 September 2026: 61,368 hours, 58,022 ozone values. Carried-sum sliding 8-hour mean, valid with at least 6 of 8 hours (DEFRA DAQI report 2013): 61,361 windows, 58,053 valid, 3,308 refused; matches a full recount within 2.04e-12. Days with top 8-hour mean above 100 micrograms per cubic metre (rounded once): 14, 30, 5, 13, 13, 6, 13 (94); above 120: 7, 14, 2, 6, 7, 1, 2. Fixed blocks find 9, 18, 5, 12, 8, 4, 9 (65), missing 29 days. Double rounding changes 2,868 windows; 120.453 (14 Aug 2022 15:00 GMT and 25 Jun 2024 19:00 GMT) goes from 120 to 121 across the DAQI band 4 and 5 boundary. Running mean passes 100 a median of 4 hours after the first hourly value above 100 (90 days). Start-day convention gives 84 days against 94. Lesson family: sliding windows with coverage, day-assignment and single-rounding rules against fixed blocks; distinct from Sheffield least squares, Preston Theil-Sen and Manchester lagged correlation.",
+    "requiredMentions": [
+      "277,103",
+      "268,598",
+      "265,352",
+      "3,345.3",
+      "27,920",
+      "62,694",
+      "Preston Park",
+      "Magnus Volk",
+      "58,022",
+      "sliding window",
+      "120.453",
+      "Paston Place"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Brighton and Hove: 277,103 usual residents; 268,598 in households; 8,505 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E06000043"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Brighton and Hove and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E06000043,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Brighton and Hove 62,694 students of 265,352 aged 5 and over (23.6 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E06000043,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, Brighton and Hove 3,345.3 and England 433.5 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E06000043,E92000001"
+      },
+      {
+        "claim": "DEFRA UK-AIR, Brighton Preston Park site information: urban background, Pavilion Building, London Road about 190 m.",
+        "url": "https://uk-air.defra.gov.uk/networks/site-info?site_id=BRT3"
+      },
+      {
+        "claim": "DEFRA UK-AIR, hourly data files for Brighton Preston Park, 2019 to 2025 (GMT, hour ending, ratified).",
+        "url": "https://uk-air.defra.gov.uk/data/flat_files?site_id=BRT3"
+      },
+      {
+        "claim": "DEFRA, National air quality objectives: ozone 100 µg/m3 as an 8 hour mean, not to be exceeded more than 10 times a year; European target 120 µg/m3.",
+        "url": "https://uk-air.defra.gov.uk/assets/documents/Air_Quality_Objectives_Update_20230403.pdf"
+      },
+      {
+        "claim": "DEFRA, Daily Air Quality Index: ozone based on the running 8-hourly mean; band 4 Moderate 101 to 120.",
+        "url": "https://uk-air.defra.gov.uk/air-pollution/daqi?view=more-info"
+      },
+      {
+        "claim": "DEFRA, Update on Implementation of the DAQI (April 2013): 6 of 8 hourly means for an 8-hour mean; round only once, as the last step; averaging delays reporting of an episode.",
+        "url": "https://uk-air.defra.gov.uk/assets/documents/reports/cat14/1304251155_Update_on_Implementation_of_the_DAQI_April_2013_Final.pdf"
+      },
+      {
+        "claim": "Volk's Electric Railway Association, The Railway: 4 August 1883, Magnus Volk, gauge change, Paston Place, the 1896 storm.",
+        "url": "https://volkselectricrailway.co.uk/about/the-railway/"
+      }
+    ],
+    "rejectedClaims": [
+      "Legislation.gov.uk and EUR-Lex text of the day-assignment rule: both returned an empty 202 challenge, so the page states our own convention and shows the alternative rather than quoting the regulation.",
+      "Any statement that Brighton and Hove failed or met the ozone objective: the counts are our arithmetic on one site, not an official compliance assessment.",
+      "Health effects of ozone: excluded by the cluster rules, so the page describes measurement only.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables and money data: excluded by the cluster rules.",
+      "Any affiliation with DEFRA, the Volk's Electric Railway Association or Brighton and Hove City Council."
+    ]
   }
 }
