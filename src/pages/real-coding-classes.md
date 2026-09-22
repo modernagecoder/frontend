@@ -14,7 +14,7 @@ Most courses teach you to *type* code. We teach you **how code actually works, h
 
 Book a free demo classSee how deep we go ↓
 
-★★★★★ **4.9/5** from 247+ reviews **10,000+** students taught **25+** countries **70+** live courses
+★★★★★ **4.9/5** from 547 reviews **10,000+** students taught **25+** countries **70+** live courses
 
 week-11/pipelines.py
 

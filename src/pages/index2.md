@@ -16,7 +16,7 @@ Live, expert-led coding & maths classes for ages 6 to 67, small batches, real pr
 
 Free 45-minute class, no credit card, no commitment. Pick a time that suits you.
 
-**4.9/5** from 247+ parents**10,000+** students taught · 25+ countries[or browse all courses](/courses)
+**4.9/5** from 547 reviews**10,000+** students taught · 25+ countries[or browse all courses](/courses)
 
 S = ∑i=1n i
 

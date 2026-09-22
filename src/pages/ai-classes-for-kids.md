@@ -12,7 +12,7 @@ Live AI classes for kids, ages 6 to 12
 
 Live, small-batch classes where a patient mentor guides your child to make real things with artificial intelligence. Safe, screen-positive and genuinely fun, with projects your child will be proud to show you. AI is already part of the world your child is growing up in, and the children who thrive will be the ones who learn to create with it, not just consume it. We make that first step gentle, joyful and completely doable for any curious kid.
 
-[Book a free trial class](/book-demo)[Browse all courses](/course-atlas)10,000+Happy students15+Countries4.9/5From 247+ reviews70+Live coursesPick a starting point
+[Book a free trial class](/book-demo)[Browse all courses](/course-atlas)10,000+Happy students15+Countries4.9/5From 547 reviews70+Live coursesPick a starting point
 
 ## Courses your child will love
 

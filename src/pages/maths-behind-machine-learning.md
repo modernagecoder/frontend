@@ -12,7 +12,7 @@ The foundation under every model
 
 The linear algebra, calculus and probability that make AI work, taught deeply and tied to code - the part most courses skip.
 
-[Book a free demo](/book-demo)See what we cover**10,000+**students taught**15+**countries**70+**live courses**4.9/5**from 247+ reviewsGradient descent over a loss surface
+[Book a free demo](/book-demo)See what we cover**10,000+**students taught**15+**countries**70+**live courses**4.9/5**from 547 reviewsGradient descent over a loss surface
 
 Each arrow is a **gradient**: the direction of steepest increase. Training takes small steps the opposite way - w := w − η∇L - until the loss reaches its minimum.
 

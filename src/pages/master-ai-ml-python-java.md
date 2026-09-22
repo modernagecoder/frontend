@@ -12,7 +12,7 @@ Mastery tracks / Est. depth
 
 Most courses stop at syntax and a certificate. We keep going, into Python's internals, the mathematics that makes machine learning work, the systems Java was built for, and how AI models actually learn. Live, small-batch tracks that build real engineering ability, not surface knowledge.
 
-[Book a free demo](/book-demo)[Browse all courses](/course-atlas)10,000+Students taught15+Countries70+Live courses4.9/5From 247+ reviewsThe track board
+[Book a free demo](/book-demo)[Browse all courses](/course-atlas)10,000+Students taught15+Countries70+Live courses4.9/5From 547 reviewsThe track board
 
 ## Four tracks. One standard: real mastery.
 

@@ -12,7 +12,7 @@ Live AI classes for complete beginners, ages 10 to 65
 
 No coding or maths background needed. Start from zero with patient mentors, follow a clear step-by-step path, and build your first real AI project in weeks.
 
-[Book a free trial class](/book-demo)[Browse all courses](/course-atlas)**10,000+**students taught**15+**countries**4.9/5**from 247+ reviews**70+**live courses
+[Book a free trial class](/book-demo)[Browse all courses](/course-atlas)**10,000+**students taught**15+**countries**4.9/5**from 547 reviews**70+**live courses
 
 ### This is a beginner-friendly start, on purpose
 

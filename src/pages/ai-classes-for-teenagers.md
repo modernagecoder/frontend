@@ -12,7 +12,7 @@ Live AI classes for teenagers, 13 to 18
 
 Live, small-batch classes where teenagers build real AI and machine learning projects, a portfolio that opens doors to college and internships, and future-proof skills - guided every step by expert mentors who know them by name. This is the difference between a teen who watches the future happen and one who helps build it.
 
-[Book a free trial class](/book-demo)[Browse all courses](/course-atlas)10,000+students taught15+countries4.9/5from 247+ reviews70+live coursesPick a track
+[Book a free trial class](/book-demo)[Browse all courses](/course-atlas)10,000+students taught15+countries4.9/5from 547 reviews70+live coursesPick a track
 
 ## Courses for teenagers
 

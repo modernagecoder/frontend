@@ -12,7 +12,7 @@ Stage 2 of 3: Data, in depth
 
 Learn data analysis in Python the way that lasts: the API you use every day, the maths working underneath it, and how each library is actually built. Not a tour of method names, an understanding you can defend.
 
-[Book a free demo](/book-demo)See the full path10,000+students taught15+countries70+live courses4.9/5from 247+ reviews
+[Book a free demo](/book-demo)See the full path10,000+students taught15+countries70+live courses4.9/5from 547 reviews
 
 The full path
 

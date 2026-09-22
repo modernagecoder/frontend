@@ -62,7 +62,7 @@ Swiss schooling, from Kindergarten through Gymnasium and Matura, rewards rigour,
 
 ### Real coding from week one
 
-Python, JavaScript, Git, the command line, not endless drag-and-drop blocks. Younger learners do start in Scratch, but they graduate to Python within 8–12 weeks.
+Python, JavaScript, Git, the command line, not endless drag-and-drop blocks. Younger learners do start in Scratch, but they graduate to Python within a few months.
 
 ### Agentic AI, not just prompts
 
@@ -456,7 +456,7 @@ Private 1:1 mentorship is **USD 150 per month**, for 8 sessions, two each week. 
 
 Do you teach real coding or just block-based tools like Scratch?
 
-We teach real coding. Children who join via Scratch graduate to Python within 8 to 12 weeks. Older students go straight into Python, JavaScript, web development, and modern AI / agentic-AI projects that they push to GitHub and run in the cloud, the way professional engineers in Zürich or Lausanne actually work.
+We teach real coding. Children who join via Scratch graduate to Python within a few months. Older students go straight into Python, JavaScript, web development, and modern AI / agentic-AI projects that they push to GitHub and run in the cloud, the way professional engineers in Zürich or Lausanne actually work.
 
 Will this help with Matura Informatik or ETH / EPFL preparation?
 

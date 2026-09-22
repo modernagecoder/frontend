@@ -12,7 +12,7 @@ Stage 3 of 3, from the maths up
 
 You implement gradient descent and the core models by hand, you understand the maths that makes them work, and only then do you master the advanced AI and ML libraries everyone else starts with.
 
- Built for college students and working professionals[Book a free demo](/book-demo)See the full path10,000+Students taught15+Countries70+Live courses4.9/5247+ reviewsThe full path
+ Built for college students and working professionals[Book a free demo](/book-demo)See the full path10,000+Students taught15+Countries70+Live courses4.9/5547 reviewsThe full path
 
 ## Three stages from your first line of Python to building real models.
 

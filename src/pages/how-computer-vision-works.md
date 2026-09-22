@@ -12,7 +12,7 @@ How machines learn to see
 
 Pixels, convolutions, feature maps and detection - **explained deeply, then built.** This is the page that takes you from a grid of numbers to a labelled bounding box, and shows you exactly how a machine gets from one to the other.
 
-[Book a free demo](/book-demo)See how it sees10,000+Students taught15+Countries70+Live courses4.9/5247+ reviewsWhat the model sees
+[Book a free demo](/book-demo)See how it sees10,000+Students taught15+Countries70+Live courses4.9/5547 reviewsWhat the model sees
 
 ## From pixels to a labelled box - the whole pipeline, one frame at a time.
 

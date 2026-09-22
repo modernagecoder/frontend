@@ -12,7 +12,7 @@ FIG. 00: A DEFINITION
 
 Anyone can learn to type code. Far fewer learn to design a solution, reason about trade-offs, debug with method, and build systems that hold up. Modern Age Coders is built to close that gap. We develop genuine programming ability and the way you think, in live small-batch classes for ages 10 to 65.
 
-[Book a free demo](/book-demo)See the full diagram10,000+Students taught15+Countries70+Live courses4.9/5From 247+ reviews
+[Book a free demo](/book-demo)See the full diagram10,000+Students taught15+Countries70+Live courses4.9/5From 547 reviews
 
 Coding and programming overlap but differ in scope: coding is writing the instructions a computer follows, while programming is the wider craft of designing, building and maintaining complete software, including logic, testing and structure. Modern Age Coders teaches both, from first code to real projects, for ages 6 to 67.
 

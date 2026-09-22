@@ -12,7 +12,7 @@ Inside the models behind modern AI
 
 Tokens, embeddings, attention and transformers - explained from the inside, then built. This is the page that turns "AI feels like magic" into "I know exactly what is happening, and I can make it do useful work."
 
-[Book a free demo](/book-demo)See inside ↓10,000+students taught15+countries70+live courses4.9/5from 247+ reviews
+[Book a free demo](/book-demo)See inside ↓10,000+students taught15+countries70+live courses4.9/5from 547 reviews
 
 The whole model in three moves
 

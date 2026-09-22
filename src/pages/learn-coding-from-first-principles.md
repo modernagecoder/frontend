@@ -12,7 +12,7 @@ Field Guide No.01: Depth
 
 Most courses teach you which buttons to press. We teach you **what actually happens when you press them**, how code runs, where data lives, and the maths behind the machines that learn.
 
-[Book a free demo](/book-demo)[Browse all courses](/course-atlas)**10,000+**Students taught**15+**Countries**70+**Live courses**4.9/5**247+ reviews
+[Book a free demo](/book-demo)[Browse all courses](/course-atlas)**10,000+**Students taught**15+**Countries**70+**Live courses**4.9/5**547 reviews
 
 Specimen 01: Exploded view
 
