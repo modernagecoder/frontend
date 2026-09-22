@@ -18317,5 +18317,51 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Ordnance Survey, the Mary Rose Trust or Portsmouth City Council."
     ]
+  },
+  "best-coding-class-in-dundee": {
+    "market": "Dundee",
+    "bodyClass": "cg-dnd",
+    "pageType": "city",
+    "curriculumAuthority": "Dundee, National Records of Scotland, Scotland's Census 2022 first results rounded population estimates (rounded to the nearest hundred): Dundee City S12000042 148,100 usual residents (2011: 147,268), 69,900 households (2011: 69,193), 13,900 aged 20 to 24 and 11,100 aged 25 to 29 (Scotland 337,000 and 338,200), 14.8 percent aged 0 to 14, 67.1 percent 15 to 64, 18.1 percent 65 and over (Scotland 15.3, 64.6, 20.1), 2,476.6 residents per square kilometre (Scotland 69.8); demography and migration chart data: 21.8 percent of households with dependent children. Dundee Heritage Trust: RRS Discovery built in Dundee, the first British commissioned scientific research ship; 1901 to 1904 British National Antarctic Expedition under Captain Scott; South Polar Times compiled on board in 1902; 1925 to 1927 oceanographic expeditions; returned home to Dundee in 1986.",
+    "localProject": "Can you forecast next month better than the obvious guess? Met Office historic station data, Leuchars (56.377 N 2.861 W, about 11.6 km from Dundee), January 1957 to August 2026 (836 months; 2026 provisional and excluded). Next month's mean daily maximum, walk-forward over 2000 to 2025 (312 months), mean absolute error: persistence 2.296 C; same month last year 1.375; climatology (earlier years only) 1.113; climatology plus 0.2 x last anomaly 1.009 (weight chosen on 1970 to 1999); 0.4 weight 0.969 (tuned on the test years, unfair); leaky climatology 1.032 (unfair). Closest method per month: anomaly 107, same month last year 94, persistence 57, climatology 54. Sunshine: climatology 20.426 h, anomaly 20.258, persistence 34.773. Lesson family: forecast baselines and walk-forward evaluation; distinct from Cambridge heap ranking, Sheffield least squares and Manchester lagged correlation.",
+    "requiredMentions": [
+      "148,100",
+      "147,268",
+      "69,900",
+      "69,193",
+      "2,476.6",
+      "13,900",
+      "Leuchars",
+      "South Polar Times",
+      "climatology",
+      "walk-forward",
+      "1.009",
+      "2.296"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 rounded population estimates: Dundee City population, households, age bands and shares, density.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 demography and migration chart data: households with dependent children.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-demography-and-migration-chart-data/"
+      },
+      {
+        "claim": "Met Office, historic station data, Leuchars: monthly maximum temperature, sunshine and more from 1957.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/leucharsdata.txt"
+      },
+      {
+        "claim": "Dundee Heritage Trust, Discovery Point: RRS Discovery, 1901 to 1904 expedition, first British commissioned scientific research ship, return to Dundee in 1986, South Polar Times 1902.",
+        "url": "https://www.dundeeheritagetrust.co.uk/attraction/discovery-point/"
+      }
+    ],
+    "rejectedClaims": [
+      "V&A Dundee building and opening facts: its information pages returned 404, so the museum is not described.",
+      "The 0.4 anomaly weight as the result: it was chosen by looking at the test years, so the page reports it only as an example of an unfair score.",
+      "Weather forecasts from the Met Office itself: the page compares simple statistical methods only and makes no claim about professional forecast skill.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Met Office, National Records of Scotland, Dundee Heritage Trust or Dundee City Council."
+    ]
   }
 }
