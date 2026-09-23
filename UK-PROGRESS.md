@@ -199,7 +199,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 147 | best-coding-class-in-st-davids (std, #722277) | city (UK, Phase 4) | 3,490 | 2.1% vs best-coding-class-in-bangor-wales | Why does GPS move the cathedral 83 metres? | Helmert transformation and coordinate systems | b4f4cd38 |
 | 148 | best-coding-class-in-wrexham (wrx, #18548B) | city (UK, Phase 4) | 3,518 | 2.4% vs best-coding-class-in-armagh | Did Wrexham's air get cleaner every year? | Isotonic regression (pool-adjacent-violators) | 18c477cc |
 | 149 | best-coding-class-in-dunfermline (dfl, #1D46A5) | city (UK, Phase 4) | 3,366 | 3% vs best-coding-class-in-st-davids | Could Carnegie's story survive a noisy line? | Hamming code (error correction) | b9a2a274 |
-| 150 | best-coding-class-in-inverness (inv, #301565) | city (UK, Phase 4) | 3,435 | 2.5% vs best-coding-class-in-dunfermline | How quickly do earthquakes get rarer? | Gutenberg-Richter law and completeness | (this commit) |
+| 150 | best-coding-class-in-inverness (inv, #301565) | city (UK, Phase 4) | 3,435 | 2.5% vs best-coding-class-in-dunfermline | How quickly do earthquakes get rarer? | Gutenberg-Richter law and completeness | 661d6de6 |
+| 151 | best-coding-class-in-perth-scotland (pth, #734561) | city (UK, Phase 4) | 3,457 | 2.2% vs best-coding-class-in-dunfermline | Can Soundex find the names in The Fair Maid of Perth? | Soundex and fuzzy name matching | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

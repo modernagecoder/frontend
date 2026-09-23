@@ -20802,5 +20802,64 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the British Geological Survey, Historic Environment Scotland, National Records of Scotland or Highland Council."
     ]
+  },
+  "best-coding-class-in-perth-scotland": {
+    "market": "Perth",
+    "bodyClass": "cg-pth",
+    "pageType": "city",
+    "curriculumAuthority": "National Records of Scotland, Scotland's Census 2022 first results, rounded to the nearest hundred: Perth and Kinross S12000048 150,800 (2011: 146,652), 70,000 households (2011: 64,777), 28.5 per square kilometre, 14.7 percent aged 0 to 14, 24.7 percent 65 and over; Scotland 5,436,600 (2011: 5,295,403), 69.8, 15.3 and 20.1 percent. HES LB39300 St John's Kirk (Category A; choir by 1448; spire by 1511, 155 feet), LB39339 Perth Bridge (Category A; John Smeaton 1766-1771; widened 1869; pink Perth sandstone; ferries before 1771); other Category A: St Ninian's Cathedral, A K Bell Library, former King James VI Hospital, Greyfriars Burial Ground, Lower City Mills. Scott: Perth 'so eminent for the beauty of its situation'; North Inch; Henbane Dwining, the apothecary.",
+    "localProject": "Can Soundex find the names in The Fair Maid of Perth? US National Archives Soundex rules; all seven worked examples reproduced. Gutenberg 7987, 185,409 words; 212 name-like spellings (5,170 uses), 180 codes, 19 shared. True: Johnston/Johnstone J523, Catharine/Catherine C365, Highland family H245. False: Dwining/Dominican D552, John/Joan J500, Craigdallie/Christian C623, London/Lundin L535, Percy/Paris P620, MacLouis/MacGillis M242. Y treated as a separator (rules silent). Lesson family: Soundex and fuzzy matching.",
+    "requiredMentions": [
+      "150,800",
+      "Soundex",
+      "Dwining",
+      "Henbane",
+      "Craigdallie",
+      "Gannochy",
+      "St John's Kirk",
+      "North Inch",
+      "Kinnoull",
+      "Cherrybank",
+      "Letham",
+      "Muirton"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data: Perth and Kinross and Scotland.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "US National Archives, The Soundex Indexing System: coding guide, rules and worked examples.",
+        "url": "https://www.archives.gov/research/census/soundex"
+      },
+      {
+        "claim": "Project Gutenberg, The Fair Maid of Perth by Walter Scott (ebook 7987).",
+        "url": "https://www.gutenberg.org/ebooks/7987"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB39300 St John's Kirk.",
+        "url": "https://portal.historicenvironment.scot/designation/LB39300"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB39339 Perth Bridge over River Tay.",
+        "url": "https://portal.historicenvironment.scot/designation/LB39339"
+      },
+      {
+        "claim": "Historic Environment Scotland, designations data (listed buildings layer): Category A listings in central Perth.",
+        "url": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer"
+      },
+      {
+        "claim": "Ordnance Survey, OS Open Names: Perth and nearby places.",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-names"
+      }
+    ],
+    "rejectedClaims": [
+      "The history of Soundex (who devised it and when): not taken from a fetched source, so the page gives none beyond the National Archives rules.",
+      "A population figure for Perth itself: the census first results are for council areas, so only Perth and Kinross is quoted.",
+      "A percentage growth since 2011: the 2022 figure is rounded, so both numbers are given without a derived rate.",
+      "Scott's historical claims in the novel's opening (Roman tradition, royal residence): quoted only as Scott's words.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the US National Archives, Project Gutenberg, Historic Environment Scotland, National Records of Scotland or Perth and Kinross Council."
+    ]
   }
 }
