@@ -19513,5 +19513,76 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Salisbury Cathedral, the Avalon Project, Wiltshire Council or Historic England."
     ]
+  },
+  "best-coding-class-in-carlisle": {
+    "market": "Carlisle",
+    "bodyClass": "cg-car",
+    "pageType": "city",
+    "curriculumAuthority": "Carlisle district as at 2021, Census 2021 via Nomis (E07000028): TS001 110,024 usual residents, 108,840 in households, 1,184 in communal establishments; TS007A 5,802 aged 20 to 24 (5.3 percent, England 6.0), 8,267 aged 55 to 59 (7.5 percent, England 6.7), 7,652 aged 60 to 64 (7.0 percent, England 5.8); TS068 18,030 students of 104,647 residents aged 5 and over (17.2 percent, England 20.4); TS006 106.0 per square kilometre (England 433.5). Carlisle Cathedral: England's only medieval Augustinian cathedral; priory founded by Henry I in 1122; cathedral 1133; east window by about 1350. NHLE 1014579 Carlisle Castle scheduled monument including part of the Roman fort Luguvalium. GOV.UK 2019: EA scheme for more than 1,600 homes and businesses; previous scheme 2005.",
+    "localProject": "How do you map rain from 99 buckets? EA Hydrology daily rainfall, rainfall day dated 5 December 2015, 126 gauges within 60 km of Carlisle, 99 graded Good. Max 264.4 mm Thirlmere St Johns Beck; median 44.2. Delaunay: 181 triangles, 279 edges (median 13.8 km, max 78.5 km), 0 circumcircle violations. Leave-one-out over 84 interior gauges: MAE TIN 17.0 mm, nearest gauge 25.1, mean 38.3; median 9.1 against 15.2; TIN closer at 58 of 84; Thirlmere predicted 163.3. Honister 188.4 against Seathwaite Farm 112.4 at 1.7 km. Sheepmount daily maximum 7.648 m on 6 December 2015, highest since 1975; previous 7.226 m on 8 January 2005. Lesson family: Delaunay triangulation and TIN interpolation.",
+    "requiredMentions": [
+      "110,024",
+      "108,840",
+      "18,030",
+      "104,647",
+      "106.0",
+      "Luguvalium",
+      "Sheepmount",
+      "Storm Desmond",
+      "Thirlmere",
+      "Delaunay",
+      "Botcherby",
+      "Stanwix"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Carlisle (E07000028): 110,024 usual residents; 108,840 in households; 1,184 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E07000028"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Carlisle and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E07000028,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Carlisle 18,030 students of 104,647 aged 5 and over (17.2 percent).",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E07000028,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: density, Carlisle 106.0 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E07000028,E92000001"
+      },
+      {
+        "claim": "Environment Agency Hydrology: rainfall stations and daily totals near Carlisle, December 2015.",
+        "url": "https://environment.data.gov.uk/hydrology/id/stations?lat=54.75&long=-2.9&dist=60&observedProperty=rainfall"
+      },
+      {
+        "claim": "Environment Agency Hydrology: River Eden at Sheepmount, daily maximum level.",
+        "url": "https://environment.data.gov.uk/hydrology/id/measures/078cbfd9-31ae-46f4-bbcc-0dbdaa191cd3-level-max-86400-m-qualified"
+      },
+      {
+        "claim": "Carlisle Cathedral, Our History: Augustinian priory 1122, cathedral 1133, east window about 1350.",
+        "url": "https://carlislecathedral.org.uk/history/"
+      },
+      {
+        "claim": "Historic England NHLE open data: Carlisle Castle scheduled monument 1014579, including part of the Roman fort Luguvalium.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1014579"
+      },
+      {
+        "claim": "GOV.UK, 31 July 2019: Environment Agency flood risk management scheme for Carlisle, more than 1,600 homes and businesses; previous scheme 2005.",
+        "url": "https://www.gov.uk/government/news/25m-flood-risk-management-scheme-for-carlisle-gets-underway"
+      },
+      {
+        "claim": "Cumberland Council website: Carlisle listed with Allerdale and Copeland.",
+        "url": "https://www.cumberland.gov.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Scheme costs quoted on GOV.UK: money data, excluded; only the number of homes and businesses is used.",
+      "Tullie House museum pages: returned 403 and were not circumvented.",
+      "Values graded suspect or not good, including 212.8 mm at Dale Head: excluded from the triangulation.",
+      "A claim that the map shows the true peak of Storm Desmond: linear interpolation cannot exceed its corners, and the page says so.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Environment Agency, Carlisle Cathedral, Cumberland Council or Historic England."
+    ]
   }
 }

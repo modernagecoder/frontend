@@ -1053,3 +1053,4 @@
 .cg-root.cg-bth  { --cg-accent: #776540; --cg-accent-soft: rgba(119,101,64,.10); }   /* Bath: a honey-stone ochre for the Georgian terraces, from the solver (4.58:1 on every paper tint, dE 7.3 from the nearest used accent) */
 .cg-root.cg-ely  { --cg-accent: #596A39; --cg-accent-soft: rgba(89,106,57,.10); }   /* Ely: a fen-reed olive for the drained marshland, from the solver (4.81:1 on every paper tint, dE 8.0 from the nearest used accent) */
 .cg-root.cg-sal  { --cg-accent: #5C1F31; --cg-accent-soft: rgba(92,31,49,.10); }   /* Salisbury: a sealing-wax crimson for the charter's seal, from the solver (10.05:1 on every paper tint, dE 7.3 from the nearest used accent) */
+.cg-root.cg-car  { --cg-accent: #8B4218; --cg-accent-soft: rgba(139,66,24,.10); }   /* Carlisle: a red sandstone for the castle and cathedral, from the solver (5.90:1 on every paper tint, dE 7.2 from the nearest used accent) */
