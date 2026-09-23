@@ -1,15 +1,22 @@
 {
   "meta": {
     "slug": "ap-csp-vs-ap-csa-which-to-take-first",
-    "title": "AP CSP vs AP CSA: Which Should You Take First?",
-    "description": "Principles sounds like the gentle one, yet it is the harder 5. Preliminary 2026 data, the real workload, and the order that wastes the least time.",
+    "title": "AP CSP vs AP CSA: Which Is Harder, and Which to Take First",
+    "description": "Is AP CSA harder than AP CSP? CSA is harder to learn but more students score a 5. The differences, 2027 exam format and dates, and which to take first.",
     "keywords": [
       "ap csp vs ap csa",
       "which ap computer science to take first",
       "ap computer science principles vs a",
       "is ap csp easier than ap csa",
       "ap csp create performance task",
-      "ap computer science principles score distribution"
+      "ap computer science principles score distribution",
+      "ap csa vs ap csp",
+      "is ap csa harder than csp",
+      "csp vs csa",
+      "difference between ap csp and ap csa",
+      "ap computer science principles vs ap computer science a",
+      "ap csa exam 2027",
+      "ap csp exam 2027"
     ],
     "author": {
       "name": "Modern Age Coders Team",
@@ -17,7 +24,7 @@
       "avatar": "/images/logo.svg"
     },
     "date": "2026-08-21",
-    "dateModified": "2026-08-21",
+    "dateModified": "2026-09-23",
     "category": "Education",
     "tags": [
       "AP Computer Science",
@@ -27,10 +34,11 @@
     ],
     "readTime": "9 min read",
     "featured": false,
-    "tldr": "AP Computer Science Principles is the easier course to sit and the harder score to top: on preliminary 2026 figures, 10 per cent of its candidates got a 5 against 25 per cent in Computer Science A. Principles is a project year, with nine hours of class time on a program you choose and two written responses about it in the exam room. Computer Science A is a programming year, four units in Java with no project at all. Take Principles first if the student has never written a program by choice, and Computer Science A first if they have."
+    "tldr": "AP Computer Science Principles is the easier course to sit and the harder score to top: on preliminary 2026 figures, 10 per cent of its candidates got a 5 against 25 per cent in Computer Science A. Principles is a project year, with nine hours of class time on a program you choose and two written responses about it in the exam room. Computer Science A is a programming year, four units in Java with no project at all. Take Principles first if the student has never written a program by choice, and Computer Science A first if they have.",
+    "retarget": "sweep-2026-09"
   },
   "hero": {
-    "title": "AP CSP vs AP CSA: Which Should You Take First?",
+    "title": "AP CSP vs AP CSA: Which Is Harder, and Which to Take First",
     "subtitle": "One is described everywhere as the introductory course. The 2026 score data says something less comfortable, and it changes the answer for a lot of families.",
     "featuredImage": {
       "url": "/images/blog/ap-csp-vs-ap-csa-which-to-take-first/00-hero.png",
@@ -41,6 +49,65 @@
     "sections": [
       {
         "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Is AP CSA harder than AP CSP?</strong> To learn, yes: Computer Science A means writing Java from memory, with a three-hour exam that is all programming. To score a 5 in, no: on College Board's preliminary 2026 figures, 25 per cent of Computer Science A candidates scored a 5 against 10 per cent in Principles. Principles is broader and gentler, a project year with multiple-choice and written responses; Computer Science A is a Java programming year."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "AP CSP vs AP CSA at a glance",
+        "id": "at-a-glance"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "",
+          "AP Computer Science Principles",
+          "AP Computer Science A"
+        ],
+        "rows": [
+          [
+            "What you learn",
+            "Five big ideas: creative development, data, algorithms and programming, computer systems and networks, the impact of computing",
+            "Programming in a subset of Java: objects and methods, selection and iteration, class creation, data collections"
+          ],
+          [
+            "Programming",
+            "Your own Create task program; exam questions on algorithms and code",
+            "Java throughout, typed in the exam"
+          ],
+          [
+            "Assessment",
+            "Create performance task (9 hours of class time) plus the end-of-course exam",
+            "End-of-course exam only"
+          ],
+          [
+            "Exam",
+            "70 multiple-choice questions in 120 minutes (70%); 60-minute written response on your Create task (30%)",
+            "42 multiple-choice questions in 1 hour 30 minutes (55%); 4 free-response questions in 1 hour 30 minutes (45%)"
+          ],
+          [
+            "2027 dates",
+            "Create task due Friday 30 April 2027, 11:59 p.m. ET; exam Friday 14 May 2027, Session 1 (typically morning)",
+            "Exam Wednesday 12 May 2027, Session 2 (typically afternoon)"
+          ],
+          [
+            "College equivalent",
+            "A first-semester introductory college course in computing",
+            "A one-semester introductory college course in computer science"
+          ],
+          [
+            "Recommended before",
+            "High school algebra",
+            "High school English and algebra, and familiarity with functions"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "All dates and formats above are from College Board's AP Students and AP Central pages, checked on 23 September 2026. Both exams are digital, taken in the Bluebook app; your AP coordinator confirms the exact start times."
       },
       {
         "type": "paragraph",
@@ -135,6 +202,10 @@
       {
         "type": "paragraph",
         "text": "<strong>Computer Science A</strong> has no project and nothing to submit. Four units, Java throughout, and a three hour exam split into 42 multiple choice questions at 55 per cent and four typed free response questions at 45 per cent. The four written questions are always the same four types: methods and control structures, class design, data analysis with ArrayList, and 2D arrays."
+      },
+      {
+        "type": "paragraph",
+        "text": "Its four units, with their share of the exam from College Board's course page: Using Objects and Methods (15 to 25 per cent), Selection and Iteration (25 to 35 per cent), Class Creation (10 to 18 per cent) and Data Collections (30 to 40 per cent)."
       },
       {
         "type": "callout",
@@ -250,7 +321,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Every class is live, one to one or in a batch of five to eight students, taught from India to students worldwide. The first class is free, no card is asked for, and the single most useful thing to bring to it is the honest answer to the question above about programs nobody asked for."
+        "text": "Every class is live, one to one, in a mini batch of three or four, or in a group of five to ten students, taught from India to students worldwide. The first class is free, no card is asked for, and the single most useful thing to bring to it is the honest answer to the question above about programs nobody asked for."
       },
       {
         "type": "button",
@@ -268,6 +339,18 @@
         "type": "accordion",
         "items": [
           {
+            "title": "Is AP CSA harder than AP CSP?",
+            "content": "Harder to learn, yes: Computer Science A is a year of Java and an exam made entirely of programming questions. Harder to get a 5 in, no: on College Board's preliminary 2026 figures, 25 per cent of Computer Science A candidates scored a 5 against 10 per cent in Principles."
+          },
+          {
+            "title": "What is the difference between AP CSP and AP CSA?",
+            "content": "Principles is a broad introduction to computing across five big ideas, with a through-year Create project and an exam of multiple-choice and written responses. Computer Science A is a programming course in Java, assessed only by an exam of 42 multiple-choice and 4 free-response questions."
+          },
+          {
+            "title": "When are the AP Computer Science exams in 2027?",
+            "content": "AP Computer Science A is on Wednesday 12 May 2027 in Session 2 (typically the afternoon). AP Computer Science Principles is on Friday 14 May 2027 in Session 1 (typically the morning), and its Create performance task must be submitted by Friday 30 April 2027 at 11:59 p.m. ET. Your AP coordinator confirms local times."
+          },
+          {
             "title": "Can a student take AP Computer Science A without taking Principles first?",
             "content": "Yes, and many do. Principles is not a prerequisite for anything. Computer Science A starts from Java syntax and assumes no prior programming, only the ability to reason through a problem in ordered steps."
           },
@@ -281,7 +364,7 @@
           },
           {
             "title": "Which programming language should we use for the Create task?",
-            "content": "Whichever one the student can debug without help. Python is the most common choice because the code stays short enough to explain in a written response, which is what actually earns the marks. The task is language agnostic and no language earns bonus credit."
+            "content": "Whichever one the student can debug without help. Python works well because the code stays short enough to explain in a written response, which is what actually earns the marks. The task is language agnostic and no language earns bonus credit."
           },
           {
             "title": "How many hours a week does each course need?",

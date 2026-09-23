@@ -461,3 +461,59 @@ function codeAndOutput(p) {
   });
   save(name, j); console.log('retargeted', name);
 })();
+
+// ────────────────────────────────────────────────────── AP CSP vs AP CSA
+// Search Console, page-filtered, 16 months to 2026-09-23 (all 0 clicks): "ap csp vs ap csa" 131 @7.0,
+// "ap csa vs ap csp" 102 @7.3, "csp vs csa" 51, "ap csa vs csp" 47, "is ap csa harder than csp" 41 @4.5,
+// "is csa harder than csp" 20, "difference between ap csp and ap csa" 12. The post (2026-08-21) argued well
+// but never answered "which is harder" plainly or set the two courses side by side. College Board pages read
+// with curl on 2026-09-23: apstudents.collegeboard.org/courses/ap-computer-science-a and -principles (units,
+// "subset of the Java programming language", college equivalents, recommended prerequisites),
+// apcentral.collegeboard.org .../exam pages (CSA: 42 MCQ, 1 hour 30 minutes, 55%; 4 FRQ, 1 hour 30 minutes,
+// 45%; CSP: 70 MCQ, 120 minutes, 70%; Create task and written response 30%, 9 hours in class, 60-minute
+// written section), apstudents.collegeboard.org/exam-dates (CSA Wednesday May 12 2027 Session 2, CSP Friday
+// May 14 2027 Session 1, sessions "typically the morning and afternoon"; Create task due April 30 2027
+// 11:59 p.m. ET). Batch size fixed to scripts/brand-facts.json (group 5 to 10, mini 3 to 4).
+(function apCspVsCsa() {
+  const name = 'ap-csp-vs-ap-csa-which-to-take-first.json';
+  const j = load(name); if (j.meta.retarget === MARK) return console.log('skip', name);
+  const s = j.content.sections;
+  const facts = require(path.join(ROOT, 'scripts', 'brand-facts.json'));
+  if (facts.batchSizes.group !== '5–10' || facts.batchSizes.miniBatch !== '3–4') throw new Error('batch sizes changed; update the wording below');
+
+  j.meta.title = 'AP CSP vs AP CSA: Which Is Harder, and Which to Take First';
+  j.hero.title = j.meta.title;
+  j.meta.description = 'Is AP CSA harder than AP CSP? CSA is harder to learn but more students score a 5. The differences, 2027 exam format and dates, and which to take first.';
+  addKeywords(j.meta, ['ap csa vs ap csp', 'is ap csa harder than csp', 'csp vs csa', 'difference between ap csp and ap csa', 'ap computer science principles vs ap computer science a', 'ap csa exam 2027', 'ap csp exam 2027']);
+  j.meta.dateModified = TODAY; j.meta.retarget = MARK;
+
+  s.splice(1, 0,
+    P('<strong>Is AP CSA harder than AP CSP?</strong> To learn, yes: Computer Science A means writing Java from memory, with a three-hour exam that is all programming. To score a 5 in, no: on College Board\'s preliminary 2026 figures, 25 per cent of Computer Science A candidates scored a 5 against 10 per cent in Principles. Principles is broader and gentler, a project year with multiple-choice and written responses; Computer Science A is a Java programming year.'),
+    H(2, 'AP CSP vs AP CSA at a glance', 'at-a-glance'),
+    T(['', 'AP Computer Science Principles', 'AP Computer Science A'], [
+      ['What you learn', 'Five big ideas: creative development, data, algorithms and programming, computer systems and networks, the impact of computing', 'Programming in a subset of Java: objects and methods, selection and iteration, class creation, data collections'],
+      ['Programming', 'Your own Create task program; exam questions on algorithms and code', 'Java throughout, typed in the exam'],
+      ['Assessment', 'Create performance task (9 hours of class time) plus the end-of-course exam', 'End-of-course exam only'],
+      ['Exam', '70 multiple-choice questions in 120 minutes (70%); 60-minute written response on your Create task (30%)', '42 multiple-choice questions in 1 hour 30 minutes (55%); 4 free-response questions in 1 hour 30 minutes (45%)'],
+      ['2027 dates', 'Create task due Friday 30 April 2027, 11:59 p.m. ET; exam Friday 14 May 2027, Session 1 (typically morning)', 'Exam Wednesday 12 May 2027, Session 2 (typically afternoon)'],
+      ['College equivalent', 'A first-semester introductory college course in computing', 'A one-semester introductory college course in computer science'],
+      ['Recommended before', 'High school algebra', 'High school English and algebra, and familiarity with functions'],
+    ]),
+    P('All dates and formats above are from College Board\'s AP Students and AP Central pages, checked on 23 September 2026. Both exams are digital, taken in the Bluebook app; your AP coordinator confirms the exact start times.'));
+
+  const units = idx(s, pStarts('<strong>Computer Science A</strong> has no project and nothing to submit.'), 'csa work paragraph');
+  s.splice(units + 1, 0, P('Its four units, with their share of the exam from College Board\'s course page: Using Objects and Methods (15 to 25 per cent), Selection and Iteration (25 to 35 per cent), Class Creation (10 to 18 per cent) and Data Collections (30 to 40 per cent).'));
+
+  const batch = idx(s, (x) => x.type === 'paragraph' && /one to one or in a batch of five to eight students/.test(x.text), 'batch paragraph');
+  s[batch].text = s[batch].text.replace('one to one or in a batch of five to eight students', 'one to one, in a mini batch of three or four, or in a group of five to ten students');
+
+  const acc = idx(s, (x) => x.type === 'accordion', 'faq');
+  s[acc].items.unshift(
+    { title: 'Is AP CSA harder than AP CSP?', content: 'Harder to learn, yes: Computer Science A is a year of Java and an exam made entirely of programming questions. Harder to get a 5 in, no: on College Board\'s preliminary 2026 figures, 25 per cent of Computer Science A candidates scored a 5 against 10 per cent in Principles.' },
+    { title: 'What is the difference between AP CSP and AP CSA?', content: 'Principles is a broad introduction to computing across five big ideas, with a through-year Create project and an exam of multiple-choice and written responses. Computer Science A is a programming course in Java, assessed only by an exam of 42 multiple-choice and 4 free-response questions.' },
+    { title: 'When are the AP Computer Science exams in 2027?', content: 'AP Computer Science A is on Wednesday 12 May 2027 in Session 2 (typically the afternoon). AP Computer Science Principles is on Friday 14 May 2027 in Session 1 (typically the morning), and its Create performance task must be submitted by Friday 30 April 2027 at 11:59 p.m. ET. Your AP coordinator confirms local times.' });
+  const lang = s[acc].items.find((it) => it.title === 'Which programming language should we use for the Create task?');
+  if (lang) lang.content = lang.content.replace('Python is the most common choice because the code stays short enough', 'Python works well because the code stays short enough');
+
+  save(name, j); console.log('retargeted', name);
+})();
