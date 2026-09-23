@@ -19176,5 +19176,73 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with DEFRA, Historic England, British History Online or Stoke-on-Trent City Council."
     ]
+  },
+  "best-coding-class-in-southend-on-sea": {
+    "market": "Southend-on-Sea",
+    "bodyClass": "cg-sos",
+    "pageType": "city",
+    "curriculumAuthority": "Southend-on-Sea, Census 2021 via Nomis (E06000033): TS001 180,686 usual residents, 178,647 in households, 2,039 in communal establishments; TS007A 11,154 aged 10 to 14 (6.2 percent, England 6.0), 9,356 aged 20 to 24 (5.2 percent, England 6.0), 4,978 aged 85 and over (2.8 percent, England 2.4); TS068 31,766 students of 170,444 residents aged 5 and over (18.6 percent, England 20.4); TS006 4,335.6 usual residents per square kilometre (England 433.5). Southend Pier website (Southend-on-Sea City Council): 1.33 miles, longest pleasure pier in the world; first Pier Act 14 May 1829 so boats could reach Southend at all tides; 600 foot wooden pier June 1830 too short at low tide; 1,800 feet by 1833; just over a mile by 1846; iron pier 1889; first pier railway in the country 1890; 1898 extension. NHLE: Pleasure Pier 1112705 and The Kursaal 1236532, Grade II. GOV.UK List of Cities 2022.",
+    "localProject": "When exactly was high water? EA flood monitoring, Southend tide gauge 0019, 15-minute mAOD, 25 August to 23 September 2026: 2,793 readings used (7 missing, 1 double-valued dropped); 56 high waters. Hourly thinning (222 cases): highest reading median 15.2 min off (max 31.6), height 0.020 m low; three-point parabola median 1.0 min (max 4.0), height 0.006 m; cubic over 4 hours with Newton 3.7 min. Newton median 2 iterations (max 3) against bisection 13 to one second. Second feed E22944: median difference 0.008 m, 4 readings over 0.2 m apart (3.013 against -1.761 at 20:30 UTC 28 August). Highest 3.343 m AOD 13 September; lowest -2.772 on 12 September; range 6.11 to 1.98 m; median interval 745.3 min. Lesson family: sub-sample peak interpolation and root finding.",
+    "requiredMentions": [
+      "180,686",
+      "178,647",
+      "4,335.6",
+      "31,766",
+      "170,444",
+      "Kursaal",
+      "Leigh-on-Sea",
+      "Shoeburyness",
+      "Westcliff",
+      "Prittlewell",
+      "pier railway",
+      "15.2 minutes"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Southend-on-Sea: 180,686 usual residents; 178,647 in households; 2,039 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E06000033"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Southend-on-Sea and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E06000033,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Southend-on-Sea 31,766 students of 170,444 aged 5 and over (18.6 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E06000033,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, Southend-on-Sea 4,335.6 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E06000033,E92000001"
+      },
+      {
+        "claim": "Environment Agency real-time flood monitoring, Southend tide gauge 0019, 15-minute tidal level in mAOD; second feed E22944.",
+        "url": "https://environment.data.gov.uk/flood-monitoring/id/measures/0019-level-tidal_level-i-15_min-mAOD"
+      },
+      {
+        "claim": "Southend Pier website, home page: longest pleasure pier in the world, 1.33 miles into the Thames Estuary; 1889, 1890, 1898.",
+        "url": "https://www.southendpier.co.uk/"
+      },
+      {
+        "claim": "Southend Pier website, Pier History: 1829 Pier Act (14 May), boats at all tides; 1830 wooden pier too short at low tide; 1833, 1846 extensions; first pier railway 1890.",
+        "url": "https://www.southendpier.co.uk/history"
+      },
+      {
+        "claim": "Historic England NHLE open data: Pleasure Pier 1112705 and The Kursaal 1236532, both Grade II.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1112705"
+      },
+      {
+        "claim": "GOV.UK, List of Cities (29 August 2022): Southend-on-Sea listed.",
+        "url": "https://www.gov.uk/government/publications/list-of-cities"
+      }
+    ],
+    "rejectedClaims": [
+      "A ground truth for the time of high water: the one-minute Southend feed stopped in November 2021, so methods are scored against the full 15-minute record after thinning.",
+      "The circumstances of the 2021 city status announcement: involve a crime and are excluded by the cluster rules; only the List of Cities is cited.",
+      "Pier construction costs quoted on the pier website: money data, excluded.",
+      "The E22944 feed as primary: 4 readings differ from station 0019 by more than 0.2 metres, including an impossible 3.013 metres near low water; station 0019 is used and the difference is reported.",
+      "Southend-on-Sea City Council pier pages under gov.uk paths: returned 404; the council-run pier website is used instead.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Environment Agency, Southend-on-Sea City Council, Southend Pier or Historic England."
+    ]
   }
 }

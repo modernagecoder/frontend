@@ -175,7 +175,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 123 | best-coding-class-in-canterbury (cby, #5C2C96) | city (UK, Phase 4) | 3,244 | 3.4% vs best-coding-class-in-salford | how many words did Chaucer know? it depends what a word is (Heaps' law and tokenisation on the Tales) | Heaps' law and tokenisation | b6fbf2d6 |
 | 124 | best-coding-class-in-chelmsford (chm, #724A31) | city (UK, Phase 4) | 3,428 | 1.9% vs best-coding-class-in-exeter | How small can a year of the River Chelmer get? | LZW dictionary compression and delta encoding | a448c08a |
 | 125 | best-coding-class-in-durham (drm, #1E3C67) | city (UK, Phase 4) | 3,582 | 1.7% vs best-coding-class-in-peterborough | Could the monks have seen the Battle of Neville's Cross? | Bresenham rasterisation and line of sight | d7c9a790 |
-| 126 | best-coding-class-in-stoke-on-trent (sot, #772B22) | city (UK, Phase 4) | 3,373 | 2.2% vs best-coding-class-in-canterbury | Is it a glitch, or is it Bonfire Night? | Median filter | (this commit) |
+| 126 | best-coding-class-in-stoke-on-trent (sot, #772B22) | city (UK, Phase 4) | 3,373 | 2.2% vs best-coding-class-in-canterbury | Is it a glitch, or is it Bonfire Night? | Median filter | 340063dd |
+| 127 | best-coding-class-in-southend-on-sea (sos, #173B45) | city (UK, Phase 4) | 3,510 | 2.3% vs best-coding-class-in-canterbury | When exactly was high water? | Sub-sample peak interpolation and root finding | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

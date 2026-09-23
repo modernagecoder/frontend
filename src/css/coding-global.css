@@ -1048,3 +1048,4 @@
 .cg-root.cg-cby  { --cg-accent: #5C2C96; --cg-accent-soft: rgba(92,44,150,.10); }   /* Canterbury: a pilgrim purple from the solver (7.56:1 on every paper tint, dE 7.5 from the nearest used accent), bluer and brighter than the Sunderland and Doncaster purples */
 .cg-root.cg-chm  { --cg-accent: #724A31; --cg-accent-soft: rgba(114,74,49,.10); }   /* Chelmsford: a copper brown for coil windings and valve-era radio, from the solver (6.22:1 on every paper tint, dE 7.4 from the nearest used accent) */
 .cg-root.cg-drm  { --cg-accent: #1E3C67; --cg-accent-soft: rgba(30,60,103,.10); }   /* Durham: a deep river blue for the Wear around the peninsula, from the solver (8.98:1 on every paper tint, dE 6.7 from the nearest used accent) */
+.cg-root.cg-sos  { --cg-accent: #173B45; --cg-accent-soft: rgba(23,59,69,.10); }   /* Southend-on-Sea: an estuary slate for the Thames at low water, from the solver (9.75:1 on every paper tint, dE 6.4 from the nearest used accent) */

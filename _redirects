@@ -3630,4 +3630,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-stoke-on-trent /src/pages/best-coding-class-in-stoke-on-trent.html 200
 /best-coding-class-in-stoke-on-trent.md /src/pages/best-coding-class-in-stoke-on-trent.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-southend-on-sea /src/pages/best-coding-class-in-southend-on-sea.html 200
+/best-coding-class-in-southend-on-sea.md /src/pages/best-coding-class-in-southend-on-sea.md 200
 /* /src/pages/404.html 404
