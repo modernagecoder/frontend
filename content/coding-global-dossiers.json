@@ -19769,5 +19769,68 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Environment Agency, Winchester Cathedral or Winchester City Council."
     ]
+  },
+  "best-coding-class-in-worcester": {
+    "market": "Worcester",
+    "bodyClass": "cg-wor",
+    "pageType": "city",
+    "curriculumAuthority": "Worcester, Census 2021 via Nomis (E07000237): TS001 103,872 usual residents, 102,059 in households, 1,813 in communal establishments; TS007A 7,439 aged 20 to 24 (7.2 percent, England 6.0), 7,438 aged 30 to 34 (7.2 percent, England 7.0); TS068 20,328 students of 98,593 residents aged 5 and over (20.6 percent, England 20.4); TS006 3,121.4 per square kilometre (England 433.5). Worcester Cathedral: first cathedral 680; Oswald 983; Wulfstan began the present building 1084; round Chapter House. King John: Christmas 1214; burial wish; will in the Cathedral Library. NHLE Grade I (22 May 1954): Cathedral, Edgar Tower, Guildhall, Commandery, Greyfriars, Old Palace.",
+    "localProject": "Can you find the shortest route without searching the whole city? OS Open Roads, box E 379000 to 391500, N 248500 to 261000: 6,953 links, 6,148 junctions, 786.9 km. Severn from OS Open Rivers (Afon Hafren), two road crossings in the box (A44, A4440). 15 suburbs and the city point from OS Open Names; west bank by geometry: Dines Green, Lower Wick, St John's. 120 journeys: routes identical 120 of 120; median junctions same bank Dijkstra 1,415, A* 235 (82 percent saved); across 2,249 and 422 (81 percent). St John's to centre 1,118 m, 307 against 26; Warndon to Dines Green 7,160 m, 4,370 against 1,382; Ronkswood to Tolladine 1,529 m against 485 m straight. Lesson family: A* search.",
+    "requiredMentions": [
+      "103,872",
+      "102,059",
+      "20,328",
+      "98,593",
+      "3,121.4",
+      "Wulfstan",
+      "Commandery",
+      "Greyfriars",
+      "Edgar Tower",
+      "Barbourne",
+      "Warndon",
+      "Ronkswood"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Worcester: 103,872 usual residents; 102,059 in households; 1,813 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E07000237"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Worcester and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E07000237,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Worcester 20,328 students of 98,593 aged 5 and over (20.6 percent).",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E07000237,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: density, Worcester 3,121.4 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E07000237,E92000001"
+      },
+      {
+        "claim": "Ordnance Survey Open Roads, Open Rivers and Open Names, OS Data Hub downloads.",
+        "url": "https://api.os.uk/downloads/v1/products/OpenRoads/downloads"
+      },
+      {
+        "claim": "Worcester Cathedral, Heritage: 680, 983, 1084, round Chapter House.",
+        "url": "https://www.worcestercathedral.org.uk/heritage/"
+      },
+      {
+        "claim": "Worcester Cathedral, King John: Christmas 1214, burial wish, will in the Cathedral Library, tomb before the High Altar.",
+        "url": "https://www.worcestercathedral.org.uk/heritage/people-of-interest/king-john/"
+      },
+      {
+        "claim": "Historic England NHLE open data: Grade I listings in central Worcester, 22 May 1954.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1389728"
+      }
+    ],
+    "rejectedClaims": [
+      "Our expectation that the Severn would erase A*'s advantage: tested and not supported (81 percent saved across the river against 82 percent); the page reports that.",
+      "Journey times: Open Roads gives lengths, not traffic, so the page measures distance only and says so.",
+      "Reasons for the largest detour (Ronkswood to Tolladine): not investigated, so no cause is claimed.",
+      "The cathedral's description of itself as possibly the most interesting of England's cathedrals: a superlative, not repeated.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Ordnance Survey, Worcester Cathedral, Worcester City Council or Historic England."
+    ]
   }
 }
