@@ -170,7 +170,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 118 | best-coding-class-in-peterborough (pbo, #68122F) | city (UK, Phase 4) | 3,225 | 2.2% vs best-coding-class-in-newport-wales | you cannot see a ceiling from the middle of a slope (logistic fits to ONS mid-year estimates; ceiling unidentifiable) | logistic growth, carrying capacity and identifiability | 64842b1c |
 | 119 | best-coding-class-in-salford (slf, #3D5971) | city (UK, Phase 4) | 3,235 | 2.8% vs best-coding-class-in-lincoln | eighteen numbers per neighbourhood, two that matter (PCA of MSOA age shares; scaling choice) | principal component analysis | 90c617ef |
 | 120 | best-coding-class-in-wakefield (wkf, #1E378F) | city (UK, Phase 4) | 3,312 | 2.8% vs best-coding-class-in-lincoln | how much water went past, and how often you have to look (trapezium rule on EA Calder flow; sampling interval) | numerical integration and sampling interval | d60a00b1 |
-| 121 | best-coding-class-in-doncaster (dnc, #4C2E46) | city (UK, Phase 4) | 3,282 | 2.8% vs best-coding-class-in-wakefield | when you cannot try every answer, search cleverly and say how (p-median on LSOA centroids; annealing vs greedy vs hill climbing) | simulated annealing and heuristic optimisation | (this commit) |
+| 121 | best-coding-class-in-doncaster (dnc, #4C2E46) | city (UK, Phase 4) | 3,282 | 2.8% vs best-coding-class-in-wakefield | when you cannot try every answer, search cleverly and say how (p-median on LSOA centroids; annealing vs greedy vs hill climbing) | simulated annealing and heuristic optimisation | db7ce385 |
+| 122 | best-coding-class-in-gloucester (glo, #931A1A) | city (UK, Phase 4) | 3,300 | 3.1% vs best-coding-class-in-peterborough | matching two curves that do not keep time (DTW on Severn gauges; most tides never reach Gloucester) | dynamic time warping and event matching | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

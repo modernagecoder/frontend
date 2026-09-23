@@ -18872,5 +18872,64 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Office for National Statistics, the National Railway Museum or City of Doncaster Council."
     ]
+  },
+  "best-coding-class-in-gloucester": {
+    "market": "Gloucester",
+    "bodyClass": "cg-glo",
+    "pageType": "city",
+    "curriculumAuthority": "Gloucester, Census 2021 via Nomis (E07000081): TS001 132,416 usual residents, 130,621 in households, 1,795 in communal establishments; TS007A 8,331 aged 5 to 9 (6.3 percent, England 5.9), 8,170 aged 10 to 14 (6.2, England 6.0), 9,807 aged 30 to 34 (7.4, England 7.0); TS068 25,155 students of 124,957 residents aged 5 and over (20.1 percent, England 20.4); TS006 3,266.6 usual residents per square kilometre (England 433.5). Gloucester Cathedral, Heritage: continuous Christian worship since 678-9 AD; architecture spanning almost 1,000 years; the tomb of a king. East Cloister Project: the Great Cloister, late fourteenth century, earliest known example of fan vaulting anywhere in the world.",
+    "localProject": "Following the tide from Sharpness to Gloucester. EA flood-monitoring levels, 25 August to 23 September 2026 (UTC), Sharpness (5-minute), Epney, Minsterworth, Gloucester (15-minute), on one 15-minute grid. 54 Sharpness high tides; 16 lifted Gloucester by 0.3 m or more (smallest such tide 7.57 m; a 7.76 m tide did not); delay to Gloucester peak 105 to 240 minutes, median 120; correlation of Sharpness peak with Gloucester rise 0.79; largest 9.69 m on 12 September, Gloucester up 1.65 m. Fixed lag best 150 minutes, gap 0.849 sd; dynamic time warping in a 4 h band, gap 0.547 sd, shifts -30 to 240 minutes including neap tides that never reach Gloucester. Lesson family: dynamic time warping and event matching; distinct from Manchester fixed-lag correlation.",
+    "requiredMentions": [
+      "132,416",
+      "130,621",
+      "3,266.6",
+      "9,807",
+      "25,155",
+      "124,957",
+      "fan vaulting",
+      "Minsterworth",
+      "Sharpness",
+      "dynamic time warping",
+      "Epney",
+      "0.849"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Gloucester: 132,416 usual residents; 130,621 in households; 1,795 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E07000081"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Gloucester and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E07000081,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Gloucester 25,155 students of 124,957 aged 5 and over (20.1 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E07000081,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, Gloucester 3,266.6 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E07000081,E92000001"
+      },
+      {
+        "claim": "Environment Agency flood-monitoring API: Sharpness, Epney, Minsterworth and Gloucester river level readings.",
+        "url": "https://environment.data.gov.uk/flood-monitoring/id/stations/2195"
+      },
+      {
+        "claim": "Gloucester Cathedral, Heritage: continuous worship since 678-9 AD, architecture spanning almost 1,000 years.",
+        "url": "https://www.gloucestercathedral.org.uk/cathedral/heritage"
+      },
+      {
+        "claim": "Gloucester Cathedral, The East Cloister Project: the Great Cloister and the earliest known fan vaulting.",
+        "url": "https://www.gloucestercathedral.org.uk/support/the-east-cloister-project"
+      }
+    ],
+    "rejectedClaims": [
+      "The Severn Bore: no source was read for it, so the page does not describe it.",
+      "Naming the king buried in the Cathedral: the Cathedral page read does not name him, so the page does not either.",
+      "A school allocation model for Gloucester (tried with DfE register data): selective, single-sex and faith admissions make any simple model misleading, so it was dropped.",
+      "Any flood forecast or risk statement: the project compares levels and timing only.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Environment Agency, Gloucester Cathedral or Gloucester City Council."
+    ]
   }
 }
