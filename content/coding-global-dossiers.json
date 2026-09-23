@@ -19832,5 +19832,68 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Ordnance Survey, Worcester Cathedral, Worcester City Council or Historic England."
     ]
+  },
+  "best-coding-class-in-st-albans": {
+    "market": "St Albans",
+    "bodyClass": "cg-sta",
+    "pageType": "city",
+    "curriculumAuthority": "St Albans, Census 2021 via Nomis (E07000240): TS001 148,167 usual residents, 146,953 in households, 1,214 in communal establishments; TS007A 10,327 aged 5 to 9 (7.0 percent, England 5.9), 11,081 aged 10 to 14 (7.5 percent, England 6.0), 5,944 aged 20 to 24 (4.0 percent, England 6.0), 11,554 aged 40 to 44 (7.8 percent, England 6.3), 11,766 aged 45 to 49 (7.9 percent, England 6.4); TS068 30,534 students of 139,508 residents aged 5 and over (21.9 percent, England 20.4); TS006 919.3 per square kilometre (England 433.5). Rothamsted Research: oldest continuing agricultural field experiments in the world (its claim); Lawes and Gilbert 1843 to 1856; weather records since the 1850s; Broadbalk 1843; Fisher 1921 dataset. NHLE: Rothamsted Manor House and Clock Tower Grade I; Verulamium scheduled monuments.",
+    "localProject": "Which matters more, the fertiliser or the year? Rothamsted Lessons from Broadbalk yields, 2016 to 2018, 8 treatments, continuous and rotational wheat. Two-way ANOVA without replication. Continuous: treatment 74.0 percent, year 9.6, residual 16.4; F treatment 9.02 (7,14) p 0.00028; F year 4.08 (2,14) p 0.040; one-way F 6.51. Rotational: 87.9, 8.5, 3.7; F 48.11 and 16.23; one-way 16.57. Largest continuous residuals N5 2016 +1.98, N6 2017 -1.83. Rotation higher in 22 of 24 cells, mean +1.98 t/ha. Nitrogen gains shrink with dose. Lesson family: analysis of variance.",
+    "requiredMentions": [
+      "148,167",
+      "146,953",
+      "30,534",
+      "139,508",
+      "919.3",
+      "Rothamsted",
+      "Broadbalk",
+      "Verulamium",
+      "Lawes",
+      "Harpenden",
+      "Clock Tower",
+      "analysis of variance"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, St Albans: 148,167 usual residents; 146,953 in households; 1,214 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E07000240"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: St Albans and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E07000240,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: St Albans 30,534 students of 139,508 aged 5 and over (21.9 percent).",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E07000240,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: density, St Albans 919.3 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E07000240,E92000001"
+      },
+      {
+        "claim": "Rothamsted Research, Long-term Experiments: oldest continuing agricultural field experiments in the world; Lawes and Gilbert 1843 to 1856; weather since the 1850s.",
+        "url": "https://www.rothamsted.ac.uk/long-term-experiments"
+      },
+      {
+        "claim": "e-RA, Lessons from Broadbalk (instructions, 2021): Broadbalk set up in 1843; yields 2016 to 2018 for eight treatments, continuous and rotational wheat.",
+        "url": "https://www.era.rothamsted.ac.uk/metadata/rbk1/OUTREACH/Lessons-from-Broadbalk-Instructions-V2-2021.pdf"
+      },
+      {
+        "claim": "e-RA dataset 01-FISHER1921: Broadbalk yields 1852 to 1918 as used by R.A. Fisher in his 1921 paper Studies in crop variation.",
+        "url": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-FISHER1921"
+      },
+      {
+        "claim": "Historic England NHLE open data: Rothamsted Manor House 1347199 and Clock Tower 1103127, Grade I; Verulamium scheduled monuments 1003515 and 1003519.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1347199"
+      }
+    ],
+    "rejectedClaims": [
+      "Analysing Fisher's own 1852 to 1918 dataset: its download sits behind an end-user agreement form asking for a name and organisation, which we did not submit on the owner's behalf; the openly published schools table is used instead.",
+      "Testing whether fertilisers act differently in different years: impossible with one plot per treatment per year, and the page says so.",
+      "St Albans Cathedral history: the cathedral's history pages did not return readable content; no cathedral history is claimed.",
+      "A claim that Fisher invented analysis of variance at Rothamsted in a particular year: not taken from a fetched source; the page says only that the method was developed by Fisher from Rothamsted's records, and cites the dataset page for his 1921 use of Broadbalk yields.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Rothamsted Research, St Albans City and District Council or Historic England."
+    ]
   }
 }

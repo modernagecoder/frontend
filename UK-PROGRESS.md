@@ -185,7 +185,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 133 | best-coding-class-in-lancaster (lan, #8E2E29) | city (UK, Phase 4) | 3,380 | 2.7% vs best-coding-class-in-ely | Is the Lune flooding more, or could it be chance? | Permutation test | c79c8f2f |
 | 134 | best-coding-class-in-chester (chs, #54246B) | city (UK, Phase 4) | 3,455 | 3.3% vs best-coding-class-in-carlisle | How fast does a river drain, and how should a computer learn it? | Gradient descent | 30fdd2bd |
 | 135 | best-coding-class-in-winchester (win, #1B6A42) | city (UK, Phase 4) | 3,427 | 2.4% vs best-coding-class-in-colchester | How much of the Itchen comes from underground? | Recursive digital filter (baseflow separation) | a5516a42 |
-| 136 | best-coding-class-in-worcester (wor, #47447E) | city (UK, Phase 4) | 3,265 | 3.9% vs best-coding-class-in-chester | Can you find the shortest route without searching the whole city? | A* search | (this commit) |
+| 136 | best-coding-class-in-worcester (wor, #47447E) | city (UK, Phase 4) | 3,265 | 3.9% vs best-coding-class-in-chester | Can you find the shortest route without searching the whole city? | A* search | 06d29955 |
+| 137 | best-coding-class-in-st-albans (sta, #655115) | city (UK, Phase 4) | 3,404 | 3.6% vs best-coding-class-in-lancaster | Which matters more, the fertiliser or the year? | Analysis of variance | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
