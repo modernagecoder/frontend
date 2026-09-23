@@ -843,3 +843,100 @@ function codeAndOutput(p) {
 
   save(name, j); console.log('retargeted', name);
 })();
+
+// ────────────────────────────────────────────────────── what is Blockly
+// Search Console, page-filtered, 16 months to 2026-09-23: "what is blockly" 236 impr @8.7 (0 clicks), "blockly coding"
+// 108, "block kids language" 88, "what language is block kids" 74, "blockly programming" 72, "blockly meaning" 49,
+// "blockly coding for kids" 51. Facts read with curl on 2026-09-23: developers.google.com/blockly ("Blockly is an open
+// source project of the Raspberry Pi Foundation, a UK registered charity (1129409), supported by Google"; "An
+// open-source, flexible library for developers to build visual programming editors with drag-and-drop blocks");
+// the repo README on its older master branch ("Google's Blockly is a library that adds a visual code editor");
+// docs.blockly.com code generation ("Blockly provides 5 built-in code generators: JavaScript ES5 Python 3 Lua 5.1
+// Dart 2 PHP 7"); blockly.games/about and scratchfoundation.org and code.org via the coding-games facts file.
+// Removed: "developed by Google" as the current maker, "technology behind Code.org and Scratch", an invented "MIT
+// study" (30% / 25%), "studies show", "powered by Blockly" for Code.org and Tynker (not stated by them),
+// Thunkable/App Inventor/Replit feature claims, "2-3 months", "join thousands of kids", and "Blockly courses" we do
+// not sell (our block-coding courses are linked instead).
+(function blockly() {
+  const name = 'blockly-for-kids.json';
+  const j = load(name); if (j.meta.retarget === MARK) return console.log('skip', name);
+  const s = j.content.sections;
+  const BLOCKS = course('kids-coding-blocks-masterclass');
+  const APPS = course('block-coding-app-development-masterclass');
+  const SCRATCH = course('scratch-programming-complete-course');
+  const PYKIDS = course('python-ai-kids-masterclass');
+  const TEENS = course('python-complete-masterclass-teens');
+  const L = (c) => `<a href='${c.url}'>${c.title}</a>`;
+
+  j.meta.title = 'What Is Blockly? Block Coding for Kids, Explained';
+  j.hero.title = j.meta.title;
+  j.meta.description = 'What is Blockly? A free, open-source block coding library that turns blocks into real JavaScript or Python. How kids use it, Blockly vs Scratch, and what next.';
+  j.meta.tldr = 'Blockly is a free, open-source library for building block-based coding editors: children drag and snap blocks together, and Blockly can turn them into real code in JavaScript, Python, Lua, Dart or PHP. It began at Google and is now a project of the Raspberry Pi Foundation, supported by Google. Children meet it through platforms such as Blockly Games; this guide explains how it works, what to build at each age, and how to move on to typed code.';
+  addKeywords(j.meta, ['what is blockly', 'blockly coding', 'blockly programming', 'blockly meaning', 'block coding for kids', 'block based coding for kids', 'blockly games', 'blockly vs scratch']);
+  j.meta.dateModified = TODAY; j.meta.retarget = MARK;
+
+  s[1] = P('<strong>What is Blockly?</strong> Blockly is a free, open-source library for building block-based coding editors. Instead of typing, children drag blocks that snap together like puzzle pieces, and Blockly can turn those blocks into real code in JavaScript, Python, Lua, Dart or PHP. It began at Google and is now an open-source project of the Raspberry Pi Foundation, supported by Google. Children usually meet it through a platform built on it, such as the free Blockly Games.');
+  s[3] = { type: 'callout', calloutType: 'info', title: 'Blockly in one line', text: 'A toolkit for making block-coding editors, not a single app: "an open-source, flexible library for developers to build visual programming editors with drag-and-drop blocks", in the words of its own site. Blockly Games (blockly.games) is the free set of puzzles that shows it off.' };
+
+  const gen = idx(s, pStarts('Each block fits in a specific way to guide correct programming structures'), 'generators paragraph');
+  s[gen].text = s[gen].text.replace('like JavaScript, Python, or PHP,', 'Blockly has five built-in code generators, JavaScript, Python, Lua, Dart and PHP,');
+  const colours = idx(s, pStarts('Blockly organizes blocks into different categories'), 'colours intro');
+  s[colours] = P('Editors built with Blockly group blocks into categories by colour. The exact colours and names vary from platform to platform, but a typical set looks like this:');
+
+  const research = idx(s, pStarts('Learning Blockly offers a ton of benefits'), 'research paragraph');
+  s[research] = P('Learning with Blockly helps children in several ways:');
+  const studies = idx(s, pStarts('With Blockly, kids aren\'t just learning how to code.'), 'studies paragraph');
+  s[studies] = P('With Blockly, kids aren\'t just learning how to code. They are learning to break a problem into steps, test an idea, and fix what does not work, habits that help in every subject.');
+  const mit = idx(s, (x) => x.type === 'callout' && x.title === 'Research-Backed Results', 'mit study');
+  s.splice(mit, 1);
+
+  const plat = s[idx(s, (x) => x.type === 'list' && x.items.some((it) => /Hour of Code activities powered by Blockly/.test(it)), 'platforms list')];
+  plat.items = plat.items.map((it) => it
+    .replace(/Blockly Games: A free set of educational games teaching basic coding concepts like loops and conditionals\./, 'Blockly Games (blockly.games): free, open-source puzzles, Puzzle, Maze, Bird, Turtle, Movie, Music, Pond Tutor and Pond, that end in real JavaScript.')
+    .replace(/Code\.org: Features famous coding challenges and Hour of Code activities powered by Blockly\./, 'CodeAI (formerly Code.org): free block-based courses for younger children, then JavaScript and Python, and the Hour of AI.')
+    .replace(/Tynker: Offers interactive coding courses for beginners using Blockly blocks\./, 'Tynker: block coding for ages 5 to 18 that leads on to Python and JavaScript (free to start, paid plans).'));
+  const start = s[idx(s, (x) => x.type === 'list' && x.items.some((it) => /Head to beginner-friendly sites like Blockly Games, Code\.org/.test(it)), 'start list')];
+  start.items = start.items.map((it) => it.replace('Blockly Games, Code.org, or Modern Age Coders.', 'Blockly Games or CodeAI (formerly Code.org), or book a free demo class with us.'));
+
+  const bridge = s[idx(s, (x) => x.type === 'list' && x.items.some((it) => /Thunkable/.test(it)), 'bridge list')];
+  bridge.items = [
+    '<strong>Blockly Games, Pond Tutor and Pond:</strong> the last games switch between blocks and real JavaScript in a text editor, so children see the same program both ways',
+    '<strong>EduBlocks:</strong> a free tool by Anaconda in which each block is one line of Python',
+    '<strong>CodeAI (formerly Code.org):</strong> free courses that move from blocks to JavaScript in Game Lab and to Python in Python Lab',
+  ];
+  s.forEach((x) => {
+    if (x.type !== 'list') return;
+    x.items = x.items
+      .filter((it) => !/^<strong>Replit:<\/strong>/.test(it))
+      .map((it) => it
+        .replace(/<strong>Join Coding Communities:<\/strong>.*/, '<strong>Share with Others:</strong> show finished projects to family, friends or a class, and ask for one idea to add next')
+        .replace(/(\d+)–(\d+)/g, '$1 to $2'));
+  });
+  if (JSON.stringify(s).includes('Replit')) throw new Error('Replit mention left');
+  const thunk = idx(s, pStarts('Platforms like Thunkable also help'), 'thunkable paragraph');
+  s[thunk] = P('Learning Blockly first makes real coding languages easier, because children already know how programming logic works. How long the move takes varies from child to child; most find it exciting rather than difficult once they see their block ideas in text.');
+
+  const learn = idx(s, pStarts('Want a guided, fun, and easy way for your child to master Blockly?'), 'learn with us');
+  s[learn] = P(`Want a teacher alongside? Our live block-coding courses cover the same ideas as Blockly: ${L(BLOCKS)} (ages 6 to 12), ${L(APPS)} (ages 8 to 12) and ${L(SCRATCH)} (ages 6 to 12). In them, kids:`);
+  s.forEach((x) => { if (x.type === 'button' && x.text === 'Enroll in Our Blockly Course') { x.text = 'Explore our block-coding courses'; x.url = BLOCKS.url; } if (x.type === 'button' && x.text === 'Start Learning Blockly Today') { x.text = 'See the Scratch course'; x.url = SCRATCH.url; } });
+  const ready = idx(s, (x) => x.type === 'callout' && x.title === 'Ready to Start?', 'ready callout');
+  s[ready] = { type: 'callout', calloutType: 'tip', title: 'From blocks to real code, with a teacher', text: `Blocks, ages 6 to 12: ${L(BLOCKS)}. Ready to type, 9 to 12: ${L(PYKIDS)}. Teens: ${L(TEENS)}. The first class is a free demo, so you can see how it is taught before you decide.` };
+
+  const acc = s[idx(s, (x) => x.type === 'accordion', 'faq')];
+  acc.items = acc.items.map((it) => {
+    if (it.title === 'What is the difference between Blockly and Scratch?') it.content = `Scratch is a complete programming environment and community, developed at the MIT Media Lab and now run by the Scratch Foundation, built for creating games, stories and animations. Blockly is a library for building block editors: it began at Google and is now a Raspberry Pi Foundation project, and many different coding platforms are built with it. Think of Scratch as one finished LEGO set and Blockly as a brick system that other sets are made from. Both teach the same core ideas. Our <a href='${SCRATCH.url}'>Scratch course</a> suits children who want the creative, sharing side.`;
+    if (it.title === 'Can kids learn real coding with Blockly?') it.content = it.content.replace('In fact, Blockly actually generates real code (JavaScript, Python, or PHP) behind the scenes!', 'In fact, Blockly has five built-in generators that turn blocks into real code: JavaScript, Python, Lua, Dart and PHP.');
+    if (it.title === 'Are there free resources to practice Blockly coding?') it.content = `Yes. Blockly Games (blockly.games) is free and open source, CodeAI (formerly Code.org) offers free courses and the Hour of AI, and Scratch (scratch.mit.edu) is free block coding with a large community. For live teaching and feedback, our <a href='${BLOCKS.url}'>block-coding</a> and <a href='${SCRATCH.url}'>Scratch</a> courses start with a free demo class.`;
+    if (it.title === 'Do kids need a powerful computer to use Blockly?') it.content = 'No. Blockly runs in a web browser, so platforms built on it, such as Blockly Games, work on an ordinary laptop or desktop with a modern browser like Chrome, Firefox, Safari or Edge. Blockly Games can even be downloaded for offline use. Younger children often find a larger screen and a mouse easier than a phone.';
+    if (it.title === 'Can Blockly help with school subjects like math and science?') it.content = it.content.replace(' Many teachers use Blockly in classrooms to make abstract concepts tangible and engaging. Students often understand math concepts better when they can see them in action through code!', ' Seeing a maths idea run as a program often makes it easier to understand.');
+    if (it.title === 'What if my child gets frustrated or stuck?') it.content = it.content.replace("5) Join our <a href='/courses'>Modern Age Coders community</a> where instructors and peers can help.", '5) Ask a teacher: in a live class, someone can look at the blocks with them.').replace("3) Use the 'Show Code' feature to see what's happening behind the scenes.", '3) Read the blocks aloud one by one and say what each should do.');
+    if (it.title === 'When should my child move from Blockly to text-based coding?') it.content = `Most children are ready somewhere between 9 and 12, but it varies. Signs: they build long programs without getting lost, use words like loop and variable, fix their own mistakes, are curious about "real code" and can type comfortably. Our <a href='${PYKIDS.url}'>${PYKIDS.title}</a> course (9 to 12) and <a href='${TEENS.url}'>${TEENS.title}</a> both start from zero, which suits children moving on from blocks.`;
+    return it;
+  });
+  acc.items.unshift(
+    { title: 'What is Blockly?', content: 'A free, open-source library for building block-based coding editors. Children snap blocks together instead of typing, and Blockly can turn the blocks into real code in JavaScript, Python, Lua, Dart or PHP. Blockly Games is a free set of puzzles built with it.' },
+    { title: 'Is Blockly made by Google?', content: 'It began at Google, and Google still supports it, but Blockly is now an open-source project of the Raspberry Pi Foundation, a UK registered charity.' },
+    { title: 'What language does Blockly use?', content: 'Children use blocks, not a typed language. Behind the blocks, Blockly can generate JavaScript, Python, Lua, Dart or PHP; Blockly Games, for example, ends with levels in real JavaScript.' });
+
+  save(name, j); console.log('retargeted', name);
+})();

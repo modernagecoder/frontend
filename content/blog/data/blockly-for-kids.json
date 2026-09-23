@@ -1,22 +1,30 @@
 {
   "meta": {
     "slug": "what-is-blockly-for-kids",
-    "title": "Introduction: What is Blockly for Kids?",
-    "description": "Blockly for kids: Learn coding by connecting colorful blocks! Age-specific activities, project ideas, and smooth transition guide to text coding.",
+    "title": "What Is Blockly? Block Coding for Kids, Explained",
+    "description": "What is Blockly? A free, open-source block coding library that turns blocks into real JavaScript or Python. How kids use it, Blockly vs Scratch, and what next.",
     "keywords": [
       "blockly for kids",
       "visual programming",
       "kids coding",
       "drag and drop coding",
       "programming logic",
-      "STEM education"
+      "STEM education",
+      "what is blockly",
+      "blockly coding",
+      "blockly programming",
+      "blockly meaning",
+      "block coding for kids",
+      "block based coding for kids",
+      "blockly games",
+      "blockly vs scratch"
     ],
     "author": {
       "name": "Modern Age Coders Team",
       "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages."
     },
     "date": "2025-11-30",
-    "dateModified": "2026-07-18",
+    "dateModified": "2026-09-23",
     "category": "Education",
     "tags": [
       "Kids",
@@ -26,10 +34,11 @@
     ],
     "readTime": "12 min read",
     "featured": true,
-    "tldr": "Blockly is a visual coding tool where children build programs by snapping colourful blocks together instead of typing, so they learn logic without worrying about syntax. It bridges block coding and real text languages. This guide covers age suitable activities, project ideas and how to move a child on to typed code."
+    "tldr": "Blockly is a free, open-source library for building block-based coding editors: children drag and snap blocks together, and Blockly can turn them into real code in JavaScript, Python, Lua, Dart or PHP. It began at Google and is now a project of the Raspberry Pi Foundation, supported by Google. Children meet it through platforms such as Blockly Games; this guide explains how it works, what to build at each age, and how to move on to typed code.",
+    "retarget": "sweep-2026-09"
   },
   "hero": {
-    "title": "Introduction: What is Blockly for Kids?",
+    "title": "What Is Blockly? Block Coding for Kids, Explained",
     "subtitle": "Coding made easy: Connect colorful blocks to build programs just like LEGO bricks.",
     "featuredImage": {
       "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_15_hero.png",
@@ -43,7 +52,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Coding might initially seem complicated, but Blockly makes it easy and fun for kids! Blockly for kids is a visual programming language where children learn to code by connecting colorful blocks rather than writing long lines of code. Imagine building with LEGO bricks, but instead of creating towers and castles, you're building programs that make characters move, games that respond to clicks, and animations that tell stories!"
+        "text": "<strong>What is Blockly?</strong> Blockly is a free, open-source library for building block-based coding editors. Instead of typing, children drag blocks that snap together like puzzle pieces, and Blockly can turn those blocks into real code in JavaScript, Python, Lua, Dart or PHP. It began at Google and is now an open-source project of the Raspberry Pi Foundation, supported by Google. Children usually meet it through a platform built on it, such as the free Blockly Games."
       },
       {
         "type": "paragraph",
@@ -52,8 +61,8 @@
       {
         "type": "callout",
         "calloutType": "info",
-        "title": "Did You Know?",
-        "text": "Blockly was developed by Google and is used by millions of children worldwide. It's the technology behind many popular coding platforms like Code.org and Scratch!"
+        "title": "Blockly in one line",
+        "text": "A toolkit for making block-coding editors, not a single app: \"an open-source, flexible library for developers to build visual programming editors with drag-and-drop blocks\", in the words of its own site. Blockly Games (blockly.games) is the free set of puzzles that shows it off."
       },
       {
         "type": "heading",
@@ -73,7 +82,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Each block fits in a specific way to guide correct programming structures such as loops, conditionals, events, and variables. When blocks are snapped together, Blockly automatically generates real code behind the scenes, like JavaScript, Python, or PHP, based on what the child built visually. This means kids are actually writing real code, they just don't see the complex syntax yet!"
+        "text": "Each block fits in a specific way to guide correct programming structures such as loops, conditionals, events, and variables. When blocks are snapped together, Blockly automatically generates real code behind the scenes, Blockly has five built-in code generators, JavaScript, Python, Lua, Dart and PHP, based on what the child built visually. This means kids are actually writing real code, they just don't see the complex syntax yet!"
       },
       {
         "type": "heading",
@@ -83,7 +92,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Blockly organizes blocks into different categories, each with a specific color and purpose:"
+        "text": "Editors built with Blockly group blocks into categories by colour. The exact colours and names vary from platform to platform, but a typical set looks like this:"
       },
       {
         "type": "list",
@@ -140,7 +149,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Learning Blockly offers a ton of benefits for children, backed by educational research and real-world results:"
+        "text": "Learning with Blockly helps children in several ways:"
       },
       {
         "type": "heading",
@@ -194,18 +203,12 @@
       },
       {
         "type": "paragraph",
-        "text": "With Blockly, kids aren't just learning how to code. They're learning how to think. Studies show that children who learn programming at a young age perform better in math, science, and problem-solving tasks across all subjects. They develop a 'computational mindset' that helps them approach challenges systematically and creatively."
-      },
-      {
-        "type": "callout",
-        "calloutType": "success",
-        "title": "Research-Backed Results",
-        "text": "A study by MIT found that students who learned visual programming showed 30% improvement in problem-solving skills and 25% better performance in math compared to peers who didn't code!"
+        "text": "With Blockly, kids aren't just learning how to code. They are learning to break a problem into steps, test an idea, and fix what does not work, habits that help in every subject."
       },
       {
         "type": "button",
-        "text": "Enroll in Our Blockly Course",
-        "url": "/courses",
+        "text": "Explore our block-coding courses",
+        "url": "/courses/kids-coding-blocks-masterclass",
         "style": "primary"
       },
       {
@@ -349,9 +352,9 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Blockly Games: A free set of educational games teaching basic coding concepts like loops and conditionals.",
-          "Code.org: Features famous coding challenges and Hour of Code activities powered by Blockly.",
-          "Tynker: Offers interactive coding courses for beginners using Blockly blocks.",
+          "Blockly Games (blockly.games): free, open-source puzzles, Puzzle, Maze, Bird, Turtle, Movie, Music, Pond Tutor and Pond, that end in real JavaScript.",
+          "CodeAI (formerly Code.org): free block-based courses for younger children, then JavaScript and Python, and the Hour of AI.",
+          "Tynker: block coding for ages 5 to 18 that leads on to Python and JavaScript (free to start, paid plans).",
           "<a href='/courses/scratch-programming-complete-course'>Modern Age Coders Scratch Course</a>: Offers structured, project-based learning with visual programming for building games, quizzes, and animations.",
           "<a href='/courses/kids-coding-blocks-masterclass'>Modern Age Coders Kids Coding</a>: Comprehensive coding program for young learners starting their programming journey."
         ]
@@ -375,7 +378,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Head to beginner-friendly sites like Blockly Games, Code.org, or Modern Age Coders.",
+          "Head to beginner-friendly sites like Blockly Games or CodeAI (formerly Code.org), or book a free demo class with us.",
           "Let kids explore basic tutorials on moving characters or solving mazes."
         ]
       },
@@ -401,7 +404,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Schedule 20–30 minutes of Blockly coding time 3 to 4 times a week.",
+          "Schedule 20 to 30 minutes of Blockly coding time 3 to 4 times a week.",
           "Avoid long marathon sessions; short, consistent practice works best."
         ]
       },
@@ -437,8 +440,8 @@
       },
       {
         "type": "button",
-        "text": "Start Learning Blockly Today",
-        "url": "/courses",
+        "text": "See the Scratch course",
+        "url": "/courses/scratch-programming-complete-course",
         "style": "primary"
       },
       {
@@ -601,10 +604,9 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<strong>Blockly Games with Code View:</strong> Many Blockly platforms have a 'Show Code' button that reveals the JavaScript or Python equivalent",
-          "<strong>Thunkable:</strong> Allows switching between block view and code view for the same project",
-          "<strong>App Inventor:</strong> Shows blocks alongside generated code, helping kids make connections",
-          "<strong>Code.org Text Mode:</strong> Some Code.org courses transition from blocks to text gradually"
+          "<strong>Blockly Games, Pond Tutor and Pond:</strong> the last games switch between blocks and real JavaScript in a text editor, so children see the same program both ways",
+          "<strong>EduBlocks:</strong> a free tool by Anaconda in which each block is one line of Python",
+          "<strong>CodeAI (formerly Code.org):</strong> free courses that move from blocks to JavaScript in Game Lab and to Python in Python Lab"
         ]
       },
       {
@@ -627,8 +629,7 @@
         "items": [
           "<strong>Python Turtle Graphics:</strong> Similar to Blockly's movement blocks but in text, perfect for beginners",
           "<strong>Codecademy Python:</strong> Interactive lessons that guide you through typing code step-by-step",
-          "<strong>Modern Age Coders Python Course:</strong> Our <a href='/courses/python-complete-masterclass-teens'>Python Masterclass</a> is designed specifically for kids transitioning from visual programming",
-          "<strong>Replit:</strong> Online coding environment where kids can write and run Python code instantly"
+          "<strong>Modern Age Coders Python Course:</strong> Our <a href='/courses/python-complete-masterclass-teens'>Python Masterclass</a> is designed specifically for kids transitioning from visual programming"
         ]
       },
       {
@@ -651,7 +652,7 @@
         "items": [
           "<strong>Recreate Favorite Blockly Projects:</strong> Rebuild games and apps they made in Blockly using Python or JavaScript",
           "<strong>Follow Tutorials:</strong> Use YouTube tutorials and coding books designed for kids",
-          "<strong>Join Coding Communities:</strong> Platforms like Replit have communities where kids can share projects and get feedback",
+          "<strong>Share with Others:</strong> show finished projects to family, friends or a class, and ask for one idea to add next",
           "<strong>Take Structured Courses:</strong> Enroll in courses like our <a href='/courses/python-complete-masterclass-teens'>Python Masterclass</a> or <a href='/courses/full-stack-web-development-teens-masterclass'>Web Development course</a> for guided learning"
         ]
       },
@@ -722,7 +723,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Platforms like Thunkable also help by combining block and text coding. Learning Blockly first makes understanding real coding languages much easier because kids already know how programming logic works. The transition typically takes 2-3 months with consistent practice, and most kids find it exciting rather than difficult!"
+        "text": "Learning Blockly first makes real coding languages easier, because children already know how programming logic works. How long the move takes varies from child to child; most find it exciting rather than difficult once they see their block ideas in text."
       },
       {
         "type": "heading",
@@ -732,7 +733,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Want a guided, fun, and easy way for your child to master Blockly? <a href='/courses'>Modern Age Coders</a> offers step-by-step Blockly courses where kids can:"
+        "text": "Want a teacher alongside? Our live block-coding courses cover the same ideas as Blockly: <a href='/courses/kids-coding-blocks-masterclass'>Coding for Kids</a> (ages 6 to 12), <a href='/courses/block-coding-app-development-masterclass'>App Making for Kids</a> (ages 8 to 12) and <a href='/courses/scratch-programming-complete-course'>Scratch Coding for Kids</a> (ages 6 to 12). In them, kids:"
       },
       {
         "type": "list",
@@ -745,8 +746,8 @@
       },
       {
         "type": "button",
-        "text": "Enroll in Our Blockly Course",
-        "url": "/courses",
+        "text": "Explore our block-coding courses",
+        "url": "/courses/kids-coding-blocks-masterclass",
         "style": "primary"
       },
       {
@@ -763,12 +764,24 @@
         "type": "accordion",
         "items": [
           {
+            "title": "What is Blockly?",
+            "content": "A free, open-source library for building block-based coding editors. Children snap blocks together instead of typing, and Blockly can turn the blocks into real code in JavaScript, Python, Lua, Dart or PHP. Blockly Games is a free set of puzzles built with it."
+          },
+          {
+            "title": "Is Blockly made by Google?",
+            "content": "It began at Google, and Google still supports it, but Blockly is now an open-source project of the Raspberry Pi Foundation, a UK registered charity."
+          },
+          {
+            "title": "What language does Blockly use?",
+            "content": "Children use blocks, not a typed language. Behind the blocks, Blockly can generate JavaScript, Python, Lua, Dart or PHP; Blockly Games, for example, ends with levels in real JavaScript."
+          },
+          {
             "title": "What is the difference between Blockly and Scratch?",
-            "content": "Great question! Scratch is a complete programming environment and community built by MIT, focused on creativity and animation. Blockly is a visual programming library created by Google that's used as the foundation for many different coding platforms. Think of it this way: Scratch is like a specific LEGO set with instructions, while Blockly is the LEGO brick system that many different sets use. Both teach the same core concepts, but Scratch has more built-in features for animation and sharing, while Blockly is more flexible and appears in many different educational tools. Our <a href='/courses/scratch-programming-complete-course'>Scratch course</a> is perfect for kids who want a creative, community-focused experience!"
+            "content": "Scratch is a complete programming environment and community, developed at the MIT Media Lab and now run by the Scratch Foundation, built for creating games, stories and animations. Blockly is a library for building block editors: it began at Google and is now a Raspberry Pi Foundation project, and many different coding platforms are built with it. Think of Scratch as one finished LEGO set and Blockly as a brick system that other sets are made from. Both teach the same core ideas. Our <a href='/courses/scratch-programming-complete-course'>Scratch course</a> suits children who want the creative, sharing side."
           },
           {
             "title": "Can kids learn real coding with Blockly?",
-            "content": "Absolutely! Blockly teaches the fundamental concepts that all programming languages share: loops, conditionals, variables, functions, and logical thinking. When kids snap blocks together, they're learning the same problem-solving approaches that professional programmers use every day. The only difference is the syntax: Blockly uses visual blocks instead of text. In fact, Blockly actually generates real code (JavaScript, Python, or PHP) behind the scenes! Kids who master Blockly find learning text-based languages much easier because they already understand how programs work."
+            "content": "Absolutely! Blockly teaches the fundamental concepts that all programming languages share: loops, conditionals, variables, functions, and logical thinking. When kids snap blocks together, they're learning the same problem-solving approaches that professional programmers use every day. The only difference is the syntax: Blockly uses visual blocks instead of text. In fact, Blockly has five built-in generators that turn blocks into real code: JavaScript, Python, Lua, Dart and PHP. Kids who master Blockly find learning text-based languages much easier because they already understand how programs work."
           },
           {
             "title": "Is Blockly good for complete beginners?",
@@ -780,23 +793,23 @@
           },
           {
             "title": "Are there free resources to practice Blockly coding?",
-            "content": "Yes! There are many excellent free resources: Blockly Games (blockly.games) offers puzzle-based learning, Code.org provides Hour of Code activities and full courses, Scratch (scratch.mit.edu) uses block-based coding with a huge community, and Modern Age Coders offers free introductory lessons. For structured, comprehensive learning with live instructors and personalized feedback, our paid <a href='/courses'>Blockly and Scratch courses</a> provide the best results, but free resources are perfect for getting started and exploring!"
+            "content": "Yes. Blockly Games (blockly.games) is free and open source, CodeAI (formerly Code.org) offers free courses and the Hour of AI, and Scratch (scratch.mit.edu) is free block coding with a large community. For live teaching and feedback, our <a href='/courses/kids-coding-blocks-masterclass'>block-coding</a> and <a href='/courses/scratch-programming-complete-course'>Scratch</a> courses start with a free demo class."
           },
           {
             "title": "Do kids need a powerful computer to use Blockly?",
-            "content": "No! Blockly runs in web browsers, so any computer, tablet, or even smartphone with internet access can run Blockly programs. You don't need to install any software, just open a web browser and visit a Blockly platform. Even older computers from 5-10 years ago work fine. Tablets with larger screens (like iPads) work well for younger children who prefer touch interfaces. The only requirement is a stable internet connection and a modern web browser like Chrome, Firefox, Safari, or Edge."
+            "content": "No. Blockly runs in a web browser, so platforms built on it, such as Blockly Games, work on an ordinary laptop or desktop with a modern browser like Chrome, Firefox, Safari or Edge. Blockly Games can even be downloaded for offline use. Younger children often find a larger screen and a mouse easier than a phone."
           },
           {
             "title": "Can Blockly help with school subjects like math and science?",
-            "content": "Definitely! Blockly naturally incorporates many academic concepts. Math: Kids work with coordinates, angles, variables, arithmetic operations, and geometry. Science: They learn about cause and effect, experimentation, hypothesis testing, and systematic problem-solving. Reading: Following instructions and understanding block descriptions improves comprehension. Logic: Conditional statements and Boolean logic strengthen reasoning skills. Many teachers use Blockly in classrooms to make abstract concepts tangible and engaging. Students often understand math concepts better when they can see them in action through code!"
+            "content": "Definitely! Blockly naturally incorporates many academic concepts. Math: Kids work with coordinates, angles, variables, arithmetic operations, and geometry. Science: They learn about cause and effect, experimentation, hypothesis testing, and systematic problem-solving. Reading: Following instructions and understanding block descriptions improves comprehension. Logic: Conditional statements and Boolean logic strengthen reasoning skills. Seeing a maths idea run as a program often makes it easier to understand."
           },
           {
             "title": "What if my child gets frustrated or stuck?",
-            "content": "Frustration is a normal part of learning to code! Here's how to help: 1) Encourage breaks, stepping away often leads to 'aha!' moments. 2) Break problems into smaller pieces, tackle one small part at a time. 3) Use the 'Show Code' feature to see what's happening behind the scenes. 4) Look for similar examples or tutorials online. 5) Join our <a href='/courses'>Modern Age Coders community</a> where instructors and peers can help. 6) Remind them that every programmer gets stuck, debugging is a skill that improves with practice. Celebrate the process of problem-solving, not just the final result!"
+            "content": "Frustration is a normal part of learning to code! Here's how to help: 1) Encourage breaks, stepping away often leads to 'aha!' moments. 2) Break problems into smaller pieces, tackle one small part at a time. 3) Read the blocks aloud one by one and say what each should do. 4) Look for similar examples or tutorials online. 5) Ask a teacher: in a live class, someone can look at the blocks with them. 6) Remind them that every programmer gets stuck, debugging is a skill that improves with practice. Celebrate the process of problem-solving, not just the final result!"
           },
           {
             "title": "When should my child move from Blockly to text-based coding?",
-            "content": "Most kids are ready to transition around ages 9-12, but it varies by individual. Look for these signs: they can build complex projects (50+ blocks), they understand and use terms like 'loop' and 'variable,' they can debug their own programs, they show curiosity about 'real code,' and they have basic typing skills. The transition usually takes 2-3 months with consistent practice. Our <a href='/courses/python-complete-masterclass-teens'>Python Masterclass</a> is specifically designed for kids transitioning from visual programming to text-based coding, making the process smooth and enjoyable!"
+            "content": "Most children are ready somewhere between 9 and 12, but it varies. Signs: they build long programs without getting lost, use words like loop and variable, fix their own mistakes, are curious about \"real code\" and can type comfortably. Our <a href='/courses/python-ai-kids-masterclass'>Python and AI for Kids</a> course (9 to 12) and <a href='/courses/python-complete-masterclass-teens'>Python for Teens</a> both start from zero, which suits children moving on from blocks."
           },
           {
             "title": "Is Blockly just for kids, or can adults learn too?",
@@ -819,14 +832,14 @@
       },
       {
         "type": "callout",
-        "calloutType": "success",
-        "title": "Ready to Start?",
-        "text": "Join thousands of kids learning to code with Blockly. Start your journey today!"
+        "calloutType": "tip",
+        "title": "From blocks to real code, with a teacher",
+        "text": "Blocks, ages 6 to 12: <a href='/courses/kids-coding-blocks-masterclass'>Coding for Kids</a>. Ready to type, 9 to 12: <a href='/courses/python-ai-kids-masterclass'>Python and AI for Kids</a>. Teens: <a href='/courses/python-complete-masterclass-teens'>Python for Teens</a>. The first class is a free demo, so you can see how it is taught before you decide."
       },
       {
         "type": "button",
-        "text": "Enroll in Our Blockly Course",
-        "url": "/courses",
+        "text": "Explore our block-coding courses",
+        "url": "/courses/kids-coding-blocks-masterclass",
         "style": "primary"
       }
     ]
