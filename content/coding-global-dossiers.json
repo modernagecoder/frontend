@@ -18592,5 +18592,59 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Department for Transport, the Friends of the Newport Ship or Newport City Council."
     ]
+  },
+  "best-coding-class-in-lincoln": {
+    "market": "Lincoln",
+    "bodyClass": "cg-lnc",
+    "pageType": "city",
+    "curriculumAuthority": "Lincoln, Census 2021 via Nomis (E07000138): TS001 103,813 usual residents, 96,559 in households, 7,254 in communal establishments; TS007A 8,835 aged 15 to 19 (8.5 percent, England 5.7), 13,598 aged 20 to 24 (13.1 percent, England 6.0), 7,943 aged 25 to 29 (7.7 percent, England 6.6); TS068 27,544 students of 98,694 residents aged 5 and over (27.9 percent, England 20.4); TS006 2,908.9 usual residents per square kilometre (England 433.5). Lincoln Castle, Magna Carta: an original 1215 Magna Carta and the 1217 Charter of the Forest in the David P J Ross Magna Carta Vault, the only place in the world where the two can be seen side by side, on permanent loan from Lincoln Cathedral; in 1217 some clauses moved into the Charter of the Forest and the original took the name Magna Carta.",
+    "localProject": "Do frosty days near Lincoln arrive at random? Met Office historic station data, Waddington (about 6 km south of Lincoln), monthly air frost days from 1947 (provisional months excluded; 24 of 948 months missing). January (77 years): mean 11.04, variance 31.30, ratio 2.84; bands 0-4, 5-9, 10-14, 15-19, 20+ observed 10, 23, 25, 15, 4 against Poisson 1.1, 24.8, 39.6, 10.7, 0.7 and negative binomial (r 6.01) 7.5, 26.6, 24.5, 12.3, 5.9; highest 27 in 1963. April: 24 with none against 10.6 expected; November 14 against 2.0. Annual (1949-2025): mean 42.61, variance 271.40; 1949-85 mean 51.6, 1986-2025 34.3. January-February correlation 0.39. Lesson family: Poisson distribution and overdispersion; distinct from Dundee forecast evaluation and Cambridge heap ranking.",
+    "requiredMentions": [
+      "103,813",
+      "96,559",
+      "2,908.9",
+      "13,598",
+      "27,544",
+      "98,694",
+      "Waddington",
+      "Charter of the Forest",
+      "Poisson",
+      "negative binomial",
+      "31.30",
+      "Steep Hill"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Lincoln: 103,813 usual residents; 96,559 in households; 7,254 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E07000138"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Lincoln and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E07000138,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Lincoln 27,544 students of 98,694 aged 5 and over (27.9 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E07000138,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, Lincoln 2,908.9 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E07000138,E92000001"
+      },
+      {
+        "claim": "Met Office, historic station data, Waddington: monthly air frost days from 1947.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/waddingtondata.txt"
+      },
+      {
+        "claim": "Lincoln Castle, Magna Carta: 1215 Magna Carta and 1217 Charter of the Forest side by side, on permanent loan from Lincoln Cathedral.",
+        "url": "https://www.lincolncastle.com/content/magna-carta"
+      }
+    ],
+    "rejectedClaims": [
+      "Lincoln Cathedral history (including height records): the Cathedral website returned 403, so the Cathedral is mentioned only as the lender of the charters.",
+      "A definition of air frost: the station file labels the column without defining it, so the page uses the term as published.",
+      "Any claim about climate change from the frost trend: the page reports the change in the average and its effect on the spread, and makes no claim about causes.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Met Office, Lincoln Castle, Lincoln Cathedral or City of Lincoln Council."
+    ]
   }
 }

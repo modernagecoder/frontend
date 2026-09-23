@@ -165,7 +165,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 113 | best-coding-class-in-swansea (swa, #914930) | city (UK, Phase 4) | 3,332 | 3.4% vs best-coding-class-in-brighton-and-hove | a detector says when, never why (CUSUM on Swansea Roadside NO2; alarms vs false alarms; no causal claim) | change-point detection with CUSUM | 21e2d6ac |
 | 114 | best-coding-class-in-sunderland (sld, #4E1268) | city (UK, Phase 4) | 3,283 | 4.6% vs best-coding-class-in-york | skip the boxes that cannot matter (quadtree over 4,709 Open Names features; duplicates break capacity 1) | quadtrees and spatial indexing | f2f2c9d5 |
 | 115 | best-coding-class-in-exeter (ext, #456A1B) | city (UK, Phase 4) | 3,441 | 2.7% vs best-coding-class-in-portsmouth | the right order, and the missing link (Kahn on OS Open Rivers to Exeter Quay; one 417.5 m Culm gap hides 199.1 km) | topological sort and dependency graphs | 80b2a9d2 |
-| 116 | best-coding-class-in-newport-wales (npw, #45356E) | city (UK, Phase 4) | 3,339 | 2.6% vs best-coding-class-in-swansea | compare the change, not the level (DiD on DfT counts around the Severn toll removal; counted vs estimated) | difference-in-differences and natural experiments | (this commit) |
+| 116 | best-coding-class-in-newport-wales (npw, #45356E) | city (UK, Phase 4) | 3,339 | 2.6% vs best-coding-class-in-swansea | compare the change, not the level (DiD on DfT counts around the Severn toll removal; counted vs estimated) | difference-in-differences and natural experiments | 773176e5 |
+| 117 | best-coding-class-in-lincoln (lnc, #2C5922) | city (UK, Phase 4) | 3,324 | 2.4% vs best-coding-class-in-norwich | when the counts refuse to be random (Poisson vs Waddington air frost days; negative binomial) | Poisson distribution and overdispersion | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -12998,6 +12998,18 @@
   to = "/src/pages/cbse-icse-maths-tuition-online.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-class-in-lincoln"
+  to = "/src/pages/best-coding-class-in-lincoln.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-lincoln.md"
+  to = "/src/pages/best-coding-class-in-lincoln.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

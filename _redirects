@@ -3590,4 +3590,8 @@
 # Class 10 board-prep cluster (board-prep.css). Inserted before the /* catch-all.
 /cbse-icse-maths-tuition-online /src/pages/cbse-icse-maths-tuition-online.html 200
 /cbse-icse-maths-tuition-online.md /src/pages/cbse-icse-maths-tuition-online.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-lincoln /src/pages/best-coding-class-in-lincoln.html 200
+/best-coding-class-in-lincoln.md /src/pages/best-coding-class-in-lincoln.md 200
 /* /src/pages/404.html 404
