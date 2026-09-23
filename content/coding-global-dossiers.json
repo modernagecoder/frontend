@@ -19584,5 +19584,64 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Environment Agency, Carlisle Cathedral, Cumberland Council or Historic England."
     ]
+  },
+  "best-coding-class-in-lancaster": {
+    "market": "Lancaster",
+    "bodyClass": "cg-lan",
+    "pageType": "city",
+    "curriculumAuthority": "Lancaster, Census 2021 via Nomis (E07000121): TS001 142,934 usual residents, 134,704 in households, 8,230 in communal establishments; TS007A 10,707 aged 15 to 19 (7.5 percent, England 5.7), 12,778 aged 20 to 24 (8.9 percent, England 6.0), 7,955 aged 70 to 74 (5.6 percent, England 5.0); TS068 33,065 students of 136,193 residents aged 5 and over (24.3 percent, England 20.4); TS006 252.1 per square kilometre (England 433.5). Lancaster Castle: beginnings in Roman times; owned by the Duchy of Lancaster; HM Prison until 2011. NHLE Grade I: Lancaster Castle 1194905, Priory 1195068, Lune Aqueduct 1362451, Ashton Memorial 1288429.",
+    "localProject": "Is the Lune flooding more, or could it be chance? EA Hydrology, Lune at Caton, daily maximum flow from 1979; water years; 42 usable (1980 to 2023; excluded 1979, 2026 incomplete; 2015, 2024, 2025 estimated peaks; 2022 suspect). Top peaks 1,740 (5 December 2015), 1,400 (31 January 1995), 1,200 (8 January 2005). Earlier 21 mean 783.2, median 773.0; later 21 mean 851.6, median 778.0; difference 68.4. Permutation, 100,000 shuffles: one-sided p 0.21, two-sided 0.42. Without December 2015 year: 24.0, p 0.37. Peaks above 1,000: 4 and 6. 26 split points tried: 1 below 0.05. Lesson family: permutation test.",
+    "requiredMentions": [
+      "142,934",
+      "134,704",
+      "33,065",
+      "136,193",
+      "252.1",
+      "Lune",
+      "Caton",
+      "Ashton Memorial",
+      "HM Prison",
+      "Duchy of Lancaster",
+      "Morecambe",
+      "permutation test"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Lancaster: 142,934 usual residents; 134,704 in households; 8,230 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E07000121"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Lancaster and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E07000121,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Lancaster 33,065 students of 136,193 aged 5 and over (24.3 percent).",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E07000121,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: density, Lancaster 252.1 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E07000121,E92000001"
+      },
+      {
+        "claim": "Environment Agency Hydrology: River Lune at Caton, daily maximum flow with quality grades.",
+        "url": "https://environment.data.gov.uk/hydrology/id/measures/9ad5d28c-7cfe-46db-b39d-58701689cd59-flow-max-86400-m3s-qualified"
+      },
+      {
+        "claim": "Lancaster Castle, History: Roman beginnings; Duchy of Lancaster; HM Prison until 2011.",
+        "url": "https://www.lancastercastle.com/history/"
+      },
+      {
+        "claim": "Historic England NHLE open data: Grade I Lancaster Castle, Priory, Lune Aqueduct and Ashton Memorial.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1194905"
+      }
+    ],
+    "rejectedClaims": [
+      "A claim that the Lune is or is not flooding more: the test cannot distinguish change from chance on this record, and the page says so.",
+      "The castle's history of trials and executions: not used, as grim crime history outside the page's purpose.",
+      "Years whose peak day was estimated or suspect (2015, 2022, 2024, 2025): excluded rather than trusted.",
+      "Lancaster City Council website: did not respond; the census and listing data are used instead.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Environment Agency, Lancaster City Council, Lancaster Castle, the Duchy of Lancaster or Historic England."
+    ]
   }
 }

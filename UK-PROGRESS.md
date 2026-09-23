@@ -181,7 +181,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 129 | best-coding-class-in-bath (bth, #776540) | city (UK, Phase 4) | 3,375 | 2.7% vs best-coding-class-in-canterbury | Do Austen's two Bath novels sound alike? | Cosine similarity and TF-IDF | 727cac20 |
 | 130 | best-coding-class-in-ely (ely, #596A39) | city (UK, Phase 4) | 3,420 | 3% vs best-coding-class-in-stoke-on-trent | How high would the water have to rise to make Ely an island again? | Percolation | 1a4b7c93 |
 | 131 | best-coding-class-in-salisbury (sal, #5C1F31) | city (UK, Phase 4) | 3,309 | 3.3% vs best-coding-class-in-bath | Can you find a sentence without reading every letter? | Rabin-Karp rolling hash and shingling | cb01e99a |
-| 132 | best-coding-class-in-carlisle (car, #8B4218) | city (UK, Phase 4) | 3,339 | 2.7% vs best-coding-class-in-colchester | How do you map rain from 99 buckets? | Delaunay triangulation and TIN interpolation | (this commit) |
+| 132 | best-coding-class-in-carlisle (car, #8B4218) | city (UK, Phase 4) | 3,339 | 2.7% vs best-coding-class-in-colchester | How do you map rain from 99 buckets? | Delaunay triangulation and TIN interpolation | ec0250b5 |
+| 133 | best-coding-class-in-lancaster (lan, #8E2E29) | city (UK, Phase 4) | 3,380 | 2.7% vs best-coding-class-in-ely | Is the Lune flooding more, or could it be chance? | Permutation test | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
