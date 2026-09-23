@@ -167,7 +167,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 115 | best-coding-class-in-exeter (ext, #456A1B) | city (UK, Phase 4) | 3,441 | 2.7% vs best-coding-class-in-portsmouth | the right order, and the missing link (Kahn on OS Open Rivers to Exeter Quay; one 417.5 m Culm gap hides 199.1 km) | topological sort and dependency graphs | 80b2a9d2 |
 | 116 | best-coding-class-in-newport-wales (npw, #45356E) | city (UK, Phase 4) | 3,339 | 2.6% vs best-coding-class-in-swansea | compare the change, not the level (DiD on DfT counts around the Severn toll removal; counted vs estimated) | difference-in-differences and natural experiments | 773176e5 |
 | 117 | best-coding-class-in-lincoln (lnc, #2C5922) | city (UK, Phase 4) | 3,324 | 2.4% vs best-coding-class-in-norwich | when the counts refuse to be random (Poisson vs Waddington air frost days; negative binomial) | Poisson distribution and overdispersion | ea74c137 |
-| 118 | best-coding-class-in-peterborough (pbo, #68122F) | city (UK, Phase 4) | 3,225 | 2.2% vs best-coding-class-in-newport-wales | you cannot see a ceiling from the middle of a slope (logistic fits to ONS mid-year estimates; ceiling unidentifiable) | logistic growth, carrying capacity and identifiability | (this commit) |
+| 118 | best-coding-class-in-peterborough (pbo, #68122F) | city (UK, Phase 4) | 3,225 | 2.2% vs best-coding-class-in-newport-wales | you cannot see a ceiling from the middle of a slope (logistic fits to ONS mid-year estimates; ceiling unidentifiable) | logistic growth, carrying capacity and identifiability | 64842b1c |
+| 119 | best-coding-class-in-salford (slf, #3D5971) | city (UK, Phase 4) | 3,235 | 2.8% vs best-coding-class-in-lincoln | eighteen numbers per neighbourhood, two that matter (PCA of MSOA age shares; scaling choice) | principal component analysis | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

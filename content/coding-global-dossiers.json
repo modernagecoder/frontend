@@ -18700,5 +18700,60 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Office for National Statistics, Peterborough Cathedral or Peterborough City Council."
     ]
+  },
+  "best-coding-class-in-salford": {
+    "market": "Salford",
+    "bodyClass": "cg-slf",
+    "pageType": "city",
+    "curriculumAuthority": "Salford, Census 2021 via Nomis (E08000006): TS001 269,923 usual residents, 264,237 in households, 5,686 in communal establishments; TS007A 22,657 aged 20 to 24 (8.4 percent, England 6.0), 26,435 aged 25 to 29 (9.8 percent, England 6.6), 24,441 aged 30 to 34 (9.1 percent, England 7.0); TS068 56,815 students of 252,666 residents aged 5 and over (22.5 percent, England 20.4); TS006 2,777.2 usual residents per square kilometre (England 433.5). Working Class Movement Library, About: independent library and archive covering 200 years of working class history; founded in the 1950s by Edmund and Ruth Frow, an engineer and a teacher; charitable trust 1971; moved in 1987 to Jubilee House, Salford, Grade II listed.",
+    "localProject": "Two numbers that summarise 612. Census 2021 TS007A for Salford's 34 MSOAs (Nomis, read 23 September 2026), 18 age bands as shares; names from the House of Commons Library MSOA Names 2.2. Standardised PCA: PC1 61.1 percent (ages 20-39 positive, 60 and over negative; highest Salford Quays, Greengate and Blackfriars, Ordsall East; lowest Worsley, Ellenbrook and Boothstown), PC2 18.9 percent (children; highest Broughton East, Broughton Park), PC3 9.1; unscaled PC1 76.3 percent dominated by 20-29. Shares aged 20-29 49.7 (Ordsall East) to 8.0 percent (Worsley); under 15 36.8 (Broughton East) to 5.1 (Salford Quays); 65 and over 22.3 (Worsley) to 2.7 (Greengate and Blackfriars). Lesson family: principal component analysis; distinct from Kildare k-means and Plymouth kernel density.",
+    "requiredMentions": [
+      "269,923",
+      "264,237",
+      "2,777.2",
+      "26,435",
+      "56,815",
+      "252,666",
+      "Jubilee House",
+      "Frow",
+      "principal component",
+      "Salford Quays",
+      "Broughton East",
+      "Ordsall East"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Salford: 269,923 usual residents; 264,237 in households; 5,686 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E08000006"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Salford, England and Salford MSOA age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E08000006TYPE152"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Salford 56,815 students of 252,666 aged 5 and over (22.5 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E08000006,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, Salford 2,777.2 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E08000006,E92000001"
+      },
+      {
+        "claim": "House of Commons Library, MSOA Names 2.2: readable names for middle layer super output areas.",
+        "url": "https://houseofcommonslibrary.github.io/msoanames/"
+      },
+      {
+        "claim": "Working Class Movement Library, About: Frows, 1950s, 1971 trust, 1987 move to Jubilee House.",
+        "url": "https://www.wcml.org.uk/about-us/"
+      }
+    ],
+    "rejectedClaims": [
+      "Reasons for the age pattern in any neighbourhood (for example why Broughton East has many children): not in the data, and faith or ethnicity figures are excluded by the cluster rules, so the page reports shares only.",
+      "The Library's mission statement: not needed for the page and not quoted.",
+      "Salford Museum history pages: returned 403, so the museum is not described.",
+      "A Salford total built by adding the 34 neighbourhood counts: published parts are never summed; the council-area figure is used instead.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Office for National Statistics, the House of Commons Library, the Working Class Movement Library or Salford City Council."
+    ]
   }
 }
