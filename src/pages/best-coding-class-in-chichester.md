@@ -14,7 +14,7 @@ Chichester, West Sussex / Live online
 
 **What are the best coding classes in Chichester?** Chichester district had 124,068 usual residents at the 2021 census, and in the College Lane and Oaklands area 24.2% of residents aged five and over were students. The Victoria County History describes the city walls as Roman in origin. Anyone from six to sixty-seven in Chichester can learn with us: a teacher based in India leads each class over a video call, either privately or with five to ten learners at one level, scheduled around English school days and working hours. Lesson one is free of charge; after that, USD 100 a month buys a group place and USD 150 a month buys one-to-one teaching.
 
-The River Lavant runs past Chichester's walls, but not always: at the Environment Agency's Graylingwell gauge, just north of the city, the daily record shows no flow at all through the whole of three water years. Our Chichester project asks whether the river now flows on more days than it did in the 1980s. Teenagers count the days with flow in each year from October to September, 44 years from 1982 to 2025, then apply the Mann-Kendall test, which asks whether later years tend to be higher than earlier ones. Counting any flow at all, the answer looks like yes. Counting only flow above 10 litres a second, the trend disappears.
+The River Lavant runs past Chichester's walls, but not always: at the Environment Agency's Graylingwell gauge, just north of the city, the daily record shows no flow at all through the whole of three water years, although 1,003 of those 1,096 days are flagged as estimated. Our Chichester project asks whether the river now flows on more days than it did in the 1980s. Teenagers count the days with flow in each year from October to September, 44 years from 1982 to 2025, then apply the Mann-Kendall test, which asks whether later years tend to be higher than earlier ones. Counting any flow at all, the answer looks like yes. Counting only flow above 10 litres a second, the trend disappears.
 
 Facts last verified 23 September 2026. Teaching is online; no Chichester branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
 
@@ -97,7 +97,7 @@ The Mann-Kendall test compares every year with every later year and counts how o
 
 ### 1. Count the days
 
-Download 16,561 daily mean flows from the Environment Agency and count, for each year from October to September, the days with flow. The record has three years with none at all: 1989, 1996 and 1997.
+Download 16,561 daily mean flows from the Environment Agency and count, for each year from October to September, the days with flow. The record has three years with none at all, 1989, 1996 and 1997, with 1,003 of their 1,096 days flagged as estimated.
 
 ### 2. Compare every pair
 
@@ -105,7 +105,7 @@ For 44 years there are 946 pairs of years. Add one when the later year had more 
 
 ### 3. Ask about chance
 
-Work out how big S would usually be if the years came in random order. For any flow, a value of 221 or more happens by chance only about 2.6% of the time.
+Work out how big S would usually be if the years came in random order. For any flow, an S this far from zero, in either direction, happens by chance only about 2.6% of the time.
 
 ### Why the answer is not simply yes
 

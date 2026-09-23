@@ -129,7 +129,7 @@ module.exports = {
         ] },
         { kind: 'grid3', mt: true, cells: [
           { h3: '1. Collect the names', p: 'Read every city, town, village, hamlet and suburb that Ordnance Survey names in Cornwall, Devon and Torbay: 2,385 places, each with its easting, the distance east on the national grid.' },
-          { h3: '2. Match with care', p: 'Count a prefix only when a lower-case letter follows, then read the matches. Devon\'s Pen- names include Pennsylvania and its only Tre- name is Trentishoe, neither of them Cornish.' },
+          { h3: '2. Match with care', p: 'Count a prefix only when a lower-case letter follows, then read the matches. Devon\'s Pen- names include Pennsylvania and its only Tre- name is Trentishoe, both of them in Devon.' },
           { h3: '3. Compare the curves', p: 'Draw the running share of Tre- names from west to east beside the running share of all other names. At the widest point the curves are 0.557 apart; none of 2,000 random groups of 183 names reached a gap that wide.' }
         ] },
         { kind: 'callout', h3: 'The test inside Cornwall', p: 'If Tre- names were simply more common the further west you go, they should sit west of other names inside Cornwall too. They do not. Comparing the 182 Cornish Tre- names with the other 939 Cornish names gives a gap of only 0.096 and a p-value of 0.113, and the middle Tre- name lies at almost the same easting as the middle of the rest. Across Cornwall, the share of names beginning Tre- rises and falls, from 7.8% to 24.3% between 20 kilometre bands, with no steady trend. The line that matters is the county boundary: 16.2% of Cornish settlement names begin Tre-, against 1 of the 1,228 in Devon.' },
@@ -142,7 +142,7 @@ module.exports = {
       intro: 'Learned on Cornish place names, then used for delivery times, exam marks, website load times, prices and any two groups whose whole spread matters, not just their average.',
       body: [
         { kind: 'table', caption: 'Decisions behind the place-name test', head: ['Question', 'For the Tre- names', 'What goes wrong if you skip it'], rows: [
-          ['Does the rule catch the right words?', 'Every match outside Cornwall read by eye', 'Pennsylvania counted as a Cornish name'],
+          ['Does the rule catch the right words?', 'Every match outside Cornwall read by eye', 'A Devon place counted with Cornwall\'s names'],
           ['Are you comparing whole spreads?', 'Kolmogorov-Smirnov on every easting', 'Two groups with the same average treated as alike'],
           ['Could chance do it?', 'P-values and 2,000 random groups', 'A gap in a small group read as real'],
           ['Is the group big enough?', 'Pol- reported as inconclusive with 16 names', 'A weak result presented as strong'],

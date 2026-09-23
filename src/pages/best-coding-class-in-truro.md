@@ -102,7 +102,7 @@ Read every city, town, village, hamlet and suburb that Ordnance Survey names in 
 
 ### 2. Match with care
 
-Count a prefix only when a lower-case letter follows, then read the matches. Devon's Pen- names include Pennsylvania and its only Tre- name is Trentishoe, neither of them Cornish.
+Count a prefix only when a lower-case letter follows, then read the matches. Devon's Pen- names include Pennsylvania and its only Tre- name is Trentishoe, both of them in Devon.
 
 ### 3. Compare the curves
 
@@ -122,7 +122,7 @@ Learned on Cornish place names, then used for delivery times, exam marks, websit
 
 | Question | For the Tre- names | What goes wrong if you skip it |
 |---|---|---|
-| Does the rule catch the right words? | Every match outside Cornwall read by eye | Pennsylvania counted as a Cornish name |
+| Does the rule catch the right words? | Every match outside Cornwall read by eye | A Devon place counted with Cornwall's names |
 | Are you comparing whole spreads? | Kolmogorov-Smirnov on every easting | Two groups with the same average treated as alike |
 | Could chance do it? | P-values and 2,000 random groups | A gap in a small group read as real |
 | Is the group big enough? | Pol- reported as inconclusive with 16 names | A weak result presented as strong |
