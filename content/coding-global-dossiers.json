@@ -18985,5 +18985,68 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules. The Cathedral is described as heritage only.",
       "Any affiliation with Canterbury Cathedral, Project Gutenberg or Canterbury City Council."
     ]
+  },
+  "best-coding-class-in-chelmsford": {
+    "market": "Chelmsford",
+    "bodyClass": "cg-chm",
+    "pageType": "city",
+    "curriculumAuthority": "Chelmsford, Census 2021 via Nomis (E07000070): TS001 181,523 usual residents, 179,087 in households, 2,436 in communal establishments; TS007A 9,107 aged 20 to 24 (5.0 percent, England 6.0), 12,147 aged 40 to 44 (6.7 percent, England 6.3), 12,449 aged 45 to 49 (6.9 percent, England 6.4); TS068 32,304 students of 171,642 residents aged 5 and over (18.8 percent, England 20.4); TS006 535.9 usual residents per square kilometre (England 433.5). Essex Record Office blog, Sharing Our History: Marconi in Chelmsford (18 October 2012): Hall Street former silk works 1898; New Street factory begun February 1912, opened June 1912, 70,000 square feet; eight years later the first experimental wireless broadcast, Dame Nellie Melba, received as far as Newfoundland. Historic England NHLE 1141330 (Grade II, listed 6 February 1974) and 1031538 (Grade II, listed 21 November 1997).",
+    "localProject": "How small can a year of the River Chelmer get? Environment Agency Hydrology, Springfield level, 15-minute, 2024: 35,136 readings, no gaps, 12,428 flagged Edited, range 0.122 to 0.874 m. Bytes (uncompressed / hand-written LZW 9 to 16 bit / zlib 9): as downloaded 6,114,054 / 313,504 / 127,285; time and level 909,576 / 158,436 / 105,627; level mm 140,544 / 34,933 / 19,398; change mm 78,964 / 11,596 / 11,970. Round trip verified. Zero change 54.0 percent; within 2 mm 93.5 percent. Longest phrases 153 and 70 bytes. 12-bit cap 12,243. Lesson family: LZW dictionary compression and delta encoding; distinct from York entropy/Huffman.",
+    "requiredMentions": [
+      "181,523",
+      "179,087",
+      "535.9",
+      "32,304",
+      "Marconi",
+      "Melba",
+      "Hall Street",
+      "LZW",
+      "11,596",
+      "Chelmer",
+      "12,428",
+      "Newfoundland"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Chelmsford: 181,523 usual residents; 179,087 in households; 2,436 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E07000070"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Chelmsford and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E07000070,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Chelmsford 32,304 students of 171,642 aged 5 and over (18.8 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E07000070,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, Chelmsford 535.9 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E07000070,E92000001"
+      },
+      {
+        "claim": "Environment Agency Hydrology API, River Chelmer at Springfield, 15-minute level readings, 2024.",
+        "url": "https://environment.data.gov.uk/hydrology/id/measures/8dfc9b31-d090-4988-acfc-562ee23bb9d7-level-i-900-m-qualified"
+      },
+      {
+        "claim": "Essex Record Office blog, Sharing Our History: Marconi in Chelmsford: Hall Street 1898, New Street 1912, Melba broadcast.",
+        "url": "https://www.essexrecordofficeblog.co.uk/sharing-our-history-marconi-in-chelmsford/"
+      },
+      {
+        "claim": "Historic England NHLE list entry 1141330, Marconi's First Radio Factory, Grade II, listed 6 February 1974 (read from the NHLE open data layer).",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1141330"
+      },
+      {
+        "claim": "Historic England NHLE list entry 1031538, Marconis, Grade II, listed 21 November 1997 (read from the NHLE open data layer).",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1031538"
+      }
+    ],
+    "rejectedClaims": [
+      "The Historic England list entry text: the Historic England website returns 403 to scripted requests and was not circumvented; names, grades, dates and grid references come from the NHLE open data layer, and the street is the nearest named road in OS Open Names.",
+      "Chelmsford City Council museum pages on Marconi: every candidate path returned 404 and chelmsfordmuseums.co.uk did not resolve; the Essex Record Office blog is used instead.",
+      "A claim that LZW beats zlib in general: it wins only on the file of changes and by a small margin; the table shows zlib ahead on the other three.",
+      "Treating the Springfield level as water depth: it is stage above the gauge datum, and the page says so.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Environment Agency, Historic England, the Essex Record Office, Chelmsford City Council or any Marconi organisation."
+    ]
   }
 }
