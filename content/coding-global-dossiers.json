@@ -20457,5 +20457,85 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Environment Agency, Ripon Cathedral, Historic England, Ordnance Survey or North Yorkshire Council."
     ]
+  },
+  "best-coding-class-in-st-asaph": {
+    "market": "St Asaph",
+    "bodyClass": "cg-asa",
+    "pageType": "city",
+    "curriculumAuthority": "Census 2021 via Nomis. St Asaph and Trefnant W02000051: TS001 5,301 usual residents, 175 communal; TS068 761 of 5,087 aged 5 and over (15.0 percent); TS006 165.8; TS007A 428 aged 70 to 74 of 5,297 (8.1 percent). Rhuddlan and Bodelwyddan W02000050 6,378, 1,032 of 6,099 (16.9 percent), 210.2. Denbighshire W06000004 95,817, 16,394 of 91,048 (18.0 percent), 114.5, 6,625 aged 70 to 74 (6.9 percent). Wales 3,107,494, 19.9 percent, 149.9, 5.8 percent aged 70 to 74. Cadw records 1460 (cathedral, Grade I, 16 November 1962; Kentigern about 560; 1143; 1391/2; Glyndwr; 1482; 2 February 1714; 1867-75), 1461 (Translator's Memorial, Grade II; 1888; 22 April 1892; 1588), 1447 and 1469 (Grade II*).",
+    "localProject": "Which way does the Vale of Clwyd face? OS Terrain 50, 30 km square, 360,000 cells; Sobel gradients checked on a plane (exact) and against central differences (median 0.12 degrees). Steep cells (over 10 degrees) 0.5 to 6 km from the River Clwyd: west 2,308, mean facing 73 degrees, 32.8 percent east, 20.8 percent west, mean height 57 m; east 12,605, mean facing 260 degrees, 13.7 percent east, 39.2 percent west, mean height 144 m. 0.5 to 3 km east: 1,217 cells, 63.3 percent facing west. Highest cell 554.5 m, 70 m from OS Open Names Moel Famau. No p-value (spatial dependence). Lesson family: Sobel operator, slope, aspect, hillshade, circular mean.",
+    "requiredMentions": [
+      "5,301",
+      "165.8",
+      "Sobel",
+      "hillshading",
+      "Moel Famau",
+      "Clwyd",
+      "Glyndwr",
+      "Trefnant",
+      "Pen-rhewl",
+      "Rhuallt",
+      "Tremeirchion",
+      "Nant-y-Patrick"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001: St Asaph and Trefnant 5,301; Rhuddlan and Bodelwyddan 6,378; Denbighshire 95,817; Wales 3,107,494.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=W02000051,W02000050,W06000004,W92000004"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=W02000051,W02000050,W06000004,W92000004"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: students among usual residents aged 5 and over.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=W02000051,W02000050,W06000004,W92000004"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=W02000051,W02000050,W06000004,W92000004"
+      },
+      {
+        "claim": "House of Commons Library, MSOA Names: St Asaph and Trefnant; Rhuddlan and Bodelwyddan.",
+        "url": "https://houseofcommonslibrary.github.io/msoanames/"
+      },
+      {
+        "claim": "Ordnance Survey, OS Terrain 50: 50 metre height grid.",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-terrain-50"
+      },
+      {
+        "claim": "Ordnance Survey, OS Open Rivers: River Clwyd and River Elwy.",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-rivers"
+      },
+      {
+        "claim": "Ordnance Survey, OS Open Names: St Asaph, nearby places and Moel Famau.",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-names"
+      },
+      {
+        "claim": "Cadw full report, listed building 1460: Cathedral Church of St Asaph.",
+        "url": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=1460"
+      },
+      {
+        "claim": "Cadw full report, listed building 1461: Translator's Memorial.",
+        "url": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=1461"
+      },
+      {
+        "claim": "DataMapWales, Cadw listed buildings layer: records 1447 and 1469.",
+        "url": "https://datamap.gov.wales/layers/inspire-wg:Cadw_ListedBuildings"
+      },
+      {
+        "claim": "DataMapWales, Cadw historic landscapes layer: The Vale of Clwyd (Dyffryn Clwyd).",
+        "url": "https://datamap.gov.wales/layers/inspire-wg:Cadw_HistoricLandscapes"
+      }
+    ],
+    "rejectedClaims": [
+      "St Asaph Cathedral's own website returned 403 for every page tried, not circumvented; cathedral history comes from Cadw.",
+      "A p-value for the difference between the two sides of the vale: neighbouring cells are not independent, so none is quoted.",
+      "Names for the upland areas on either side of the vale: not taken from a fetched source, apart from Moel Famau in OS Open Names.",
+      "The cost of the Translator's Memorial: a sum in pounds, left out under the site's currency rule.",
+      "Welsh language and national identity figures: not used, in line with the cluster rules on identity data.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Ordnance Survey, Cadw, St Asaph Cathedral or Denbighshire County Council."
+    ]
   }
 }
