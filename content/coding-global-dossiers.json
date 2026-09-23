@@ -20746,5 +20746,61 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Project Gutenberg, Historic Environment Scotland, National Records of Scotland, the Carnegie trusts or Fife Council."
     ]
+  },
+  "best-coding-class-in-inverness": {
+    "market": "Inverness",
+    "bodyClass": "cg-inv",
+    "pageType": "city",
+    "curriculumAuthority": "National Records of Scotland, Scotland's Census 2022 first results, rounded to the nearest hundred: Highland S12000017 235,400 (2011: 232,132), 111,700 households (2011: 102,091), 9.2 per square kilometre, 14.7 percent aged 0 to 14, 23.7 percent 65 and over; Scotland 5,436,600 (2011: 5,295,403), 69.8, 15.3 and 20.1 percent. HES LB35153 Town Steeple (Category A, 21 May 1971; Laing after Sibbald, 1791), LB35330 Cathedral Church of St Andrew (Category A; Alexander Ross, 1866-69); also Category A: Old High Church, Dunbar's Hospital, Town House, Balnain House. BGS database: Inverness 13 August 1816 magnitude 5.1 and 4.7; 15 November 1890 magnitude 4.5.",
+    "localProject": "How quickly do earthquakes get rarer? BGS database 1970 to 2025, 12,827 events, 489 induced left out. Within 100 km of Inverness: 883; 139 at magnitude 2 or more, 28 at 3 or more, 3 at 4 or more; largest 4.4 Kintail 1974. Completeness by decade: 3.4, 0.9, 0.3, 1.2, 1.0, 0.9; magnitude 3 or more by decade 25, 0, 1, 1, 0, 1. b-value since 2000: 0.87 +/- 0.09 (cutoff 1.5, 95 events), 1.03 +/- 0.16 (2.0, 40). UK: 0.64, 0.69, 0.72 at cutoffs 1.5, 2.0, 2.5. Pre-1970 within 100 km: 40 events from 1768, smallest 2.0, median 3.2. Lesson family: Gutenberg-Richter law and completeness.",
+    "requiredMentions": [
+      "235,400",
+      "Gutenberg-Richter",
+      "b-value",
+      "Kintail",
+      "Town Steeple",
+      "Balnain",
+      "Merkinch",
+      "Dalneigh",
+      "Culcabock",
+      "Clachnaharry",
+      "Scorguie",
+      "Lochardil"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data: Highland and Scotland.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "British Geological Survey, earthquake database search (CSV output): UK events 1970 to 2025 and historical events near Inverness.",
+        "url": "https://www.earthquakes.bgs.ac.uk/earthquakes/dataSearch.html"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB35153 Town Steeple.",
+        "url": "https://portal.historicenvironment.scot/designation/LB35153"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB35330 Cathedral Church of St Andrew (Episcopal).",
+        "url": "https://portal.historicenvironment.scot/designation/LB35330"
+      },
+      {
+        "claim": "Historic Environment Scotland, designations data (listed buildings layer): Category A listings in central Inverness.",
+        "url": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer"
+      },
+      {
+        "claim": "Ordnance Survey, OS Open Names: Inverness and nearby places.",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-names"
+      }
+    ],
+    "rejectedClaims": [
+      "The magnitude scale used by the BGS database: not stated on the fetched pages, so the page says only magnitude as listed.",
+      "Any claim that the 1816 earthquake damaged the Town Steeple, or a named fault through Inverness: not in the fetched records.",
+      "An explanation of why the UK-wide b-value is below 1: not taken from a fetched source; the page notes only that it rises with the cutoff.",
+      "A population figure for Inverness itself: the census first results are for council areas, so only Highland is quoted.",
+      "A percentage growth for Highland since 2011: the 2022 figure is rounded, so both numbers are given without a derived rate.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the British Geological Survey, Historic Environment Scotland, National Records of Scotland or Highland Council."
+    ]
   }
 }

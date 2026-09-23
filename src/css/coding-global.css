@@ -1071,3 +1071,4 @@
 .cg-root.cg-std  { --cg-accent: #722277; --cg-accent-soft: rgba(114,34,119,.10); }   /* St Davids: a plum purple, from the solver (7.71:1 on every paper tint, dE 7.6 from the nearest used accent) */
 .cg-root.cg-wrx  { --cg-accent: #18548B; --cg-accent-soft: rgba(24,84,139,.10); }   /* Wrexham: a clear mid blue, from the solver (6.36:1 on every paper tint, dE 6.8 from the nearest used accent) */
 .cg-root.cg-dfl  { --cg-accent: #1D46A5; --cg-accent-soft: rgba(29,70,165,.10); }   /* Dunfermline: a strong royal blue, from the solver (6.90:1 on every paper tint, dE 7.1 from the nearest used accent) */
+.cg-root.cg-inv  { --cg-accent: #301565; --cg-accent-soft: rgba(48,21,101,.10); }   /* Inverness: a deep violet, from the solver (12.00:1 on every paper tint, dE 7.3 from the nearest used accent) */
