@@ -19312,5 +19312,72 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Environment Agency, Colchester Museums, Historic England or Colchester City Council."
     ]
+  },
+  "best-coding-class-in-bath": {
+    "market": "Bath",
+    "bodyClass": "cg-bth",
+    "pageType": "city",
+    "curriculumAuthority": "Bath and North East Somerset, Census 2021 via Nomis (E06000022): TS001 193,409 usual residents, 185,438 in households, 7,971 in communal establishments; TS007A 14,772 aged 15 to 19 (7.6 percent, England 5.7), 18,549 aged 20 to 24 (9.6 percent, England 6.0); TS068 46,409 students of 184,389 residents aged 5 and over (25.2 percent, England 20.4); TS006 559.2 per square kilometre (England 433.5). MSOAs: E02002991 Central Bath and Lansdown 10,998 residents, 25.2 percent students, 2,928.0 per square kilometre; E02002998 Oldfield Park East 5,979 residents, 2,432 of 5,747 students (42.3 percent), 6,215.8 per square kilometre. Bath World Heritage: inscribed 1987; Great Spa Towns of Europe 24 July 2021. Roman Baths: Sulis Minerva head. NHLE: Grand Pump Room, Assembly Rooms, Nos. 1-30 Royal Crescent, Bath Abbey, Grade I.",
+    "localProject": "Do Austen's two Bath novels sound alike? Six Gutenberg novels, spellings normalised (shew, connexion, every thing). Cosine similarity, 15 pairs: raw counts closest Northanger/Mansfield 0.985, Bath pair 0.977 (11th); top 100 words removed closest Northanger/Pride and Prejudice 0.648, Bath pair 0.596 (12th); TF-IDF closest Northanger/Pride and Prejudice 0.046, Bath pair 0.003 (7th); TF-IDF with 355 name-like words removed closest Persuasion/Mansfield 0.124 (0.156 before spelling fix), Bath pair 0.073 (4th). Shared: pump, concert, buildings; Persuasion/Mansfield sailor, navy, baronet, naval and missed name grant. Bath counts 83 and 99; 76 of Persuasion's in chapters 13 to 24. Lesson family: cosine similarity and TF-IDF.",
+    "requiredMentions": [
+      "193,409",
+      "185,438",
+      "7,971",
+      "46,409",
+      "184,389",
+      "Northanger",
+      "Persuasion",
+      "Pump Room",
+      "Sulis Minerva",
+      "Great Spa Towns",
+      "Oldfield Park",
+      "cosine similarity"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001: Bath and North East Somerset 193,409 usual residents; MSOAs E02002991 and E02002998.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E06000022,E02002991,E02002998"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Bath and North East Somerset and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E06000022,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: students aged 5 and over, district 25.2 percent; Oldfield Park East 42.3 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E06000022,E02002991,E02002998,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: density, district 559.2 per square kilometre; MSOA densities.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E06000022,E02002991,E02002998,E92000001"
+      },
+      {
+        "claim": "House of Commons Library, MSOA Names: Central Bath and Lansdown; Oldfield Park East.",
+        "url": "https://houseofcommonslibrary.github.io/msoanames/"
+      },
+      {
+        "claim": "Bath World Heritage: City of Bath inscribed 1987; Great Spa Towns of Europe inscribed 24 July 2021.",
+        "url": "https://www.bathworldheritage.org.uk/"
+      },
+      {
+        "claim": "The Roman Baths: gilt bronze head of the goddess Sulis Minerva, one of the treasures of Roman Britain.",
+        "url": "https://www.romanbaths.co.uk/"
+      },
+      {
+        "claim": "Historic England NHLE open data: Grand Pump Room 1394019, Assembly Rooms 1394144, Nos. 1-30 Royal Crescent 1394736, Bath Abbey 1394015, Grade I.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1394019"
+      },
+      {
+        "claim": "Project Gutenberg eBooks 121, 105, 1342, 158, 161 and 141: six novels by Jane Austen, plain text.",
+        "url": "https://www.gutenberg.org/ebooks/author/68"
+      }
+    ],
+    "rejectedClaims": [
+      "Details of Austen's own years in Bath: the only fetchable source found was a commercial attraction's shop pages; the page relies on the novels' own text instead.",
+      "The Roman Baths' description of itself using a superlative: not quoted, to keep claims attributable and modest.",
+      "Reading the first-run Persuasion and Mansfield Park similarity as a thematic link: much of it came from edition spellings, so results are reported after normalising.",
+      "A definitive list of names: the 90 percent capitalisation rule is stated and its misses (Grant, Sophy, Hughes) acknowledged.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Bath and North East Somerset Council, the Roman Baths, Historic England or Project Gutenberg."
+    ]
   }
 }
