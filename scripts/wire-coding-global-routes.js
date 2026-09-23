@@ -443,6 +443,7 @@ const MARKETS = [
   ['best-coding-class-in-bangor-northern-ireland', 'Bangor, Northern Ireland'],
   ['best-coding-class-in-lisburn', 'Lisburn'],
   ['best-coding-class-in-derry-londonderry', 'Derry~Londonderry'],
+  ['best-coding-class-in-newry', 'Newry'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

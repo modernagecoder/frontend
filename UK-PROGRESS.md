@@ -204,7 +204,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 152 | best-coding-class-in-stirling (sti, #143071) | city (UK, Phase 4) | 3,378 | 3.6% vs best-coding-class-in-perth-scotland | How close is Stirling's formula? | Stirling's formula and asymptotic approximation | e3c452e1 |
 | 153 | best-coding-class-in-bangor-northern-ireland (bni, #826417) | city (UK, Phase 4) | 3,404 | 3.2% vs best-coding-class-in-armagh | Why is the wait longer than half the gap? | Inspection paradox (waiting time) | ca455696 |
 | 154 | best-coding-class-in-lisburn (lsb, #6B6B2E) | city (UK, Phase 4) | 3,348 | 3.8% vs best-coding-class-in-bangor-northern-ireland | Did the fire of 1707 leave a gap? | Mann-Whitney U test (rank-sum, ordinal data) | 7cadeab0 |
-| 155 | best-coding-class-in-derry-londonderry (dly, #431919) | city (UK, Phase 4) | 3,348 | 1.8% vs best-coding-class-in-bangor-northern-ireland | Where do the trains pass? | Time-distance (Marey) charts and segment intersection | (this commit) |
+| 155 | best-coding-class-in-derry-londonderry (dly, #431919) | city (UK, Phase 4) | 3,348 | 1.8% vs best-coding-class-in-bangor-northern-ireland | Where do the trains pass? | Time-distance (Marey) charts and segment intersection | eb82bb41 |
+| 156 | best-coding-class-in-newry (nwy, #604124) | city (UK, Phase 4) | 3,426 | 3.5% vs best-coding-class-in-lisburn | What is unusual about Newry's industrial heritage? | Fisher's exact test and multiple testing | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

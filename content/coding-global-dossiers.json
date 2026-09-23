@@ -21073,5 +21073,56 @@
       "Nationality, ethnicity, religion, birthplace, national identity and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Translink, NISRA, the Department for Communities or Derry City and Strabane District Council."
     ]
+  },
+  "best-coding-class-in-newry": {
+    "market": "Newry",
+    "bodyClass": "cg-nwy",
+    "pageType": "city",
+    "curriculumAuthority": "NISRA Census 2021 MS-A01: settlement NEWRY 28,530; DEAs Newry 27,913, Crotlieve 28,668, Slieve Gullion 30,744, The Mournes 30,203; LGD Newry, Mourne and Down 182,074; Northern Ireland 1,903,175. MS-A02 shares: Newry 0-4 6.6, 30-34 7.4, 90+ 0.6 percent; Northern Ireland 6.0, 6.6, 0.7. HED Listed Buildings NI: Cathedral of St Patrick and St Colman (A, 1820-1839); St Patrick's Church (B+, Pre 1600); Parish Church of St Mary (A, 1800-1819); Craigmore Viaduct (A, 1840-1859); Derrymore House (A, 1760-1779); Town Hall, Bank Parade (B1, 1880-1899).",
+    "localProject": "What is unusual about Newry's industrial heritage? HED Industrial Heritage Record (14,778 located records, 10 August 2026). Within 5 km of Newry station 281, rest 14,497. Canal, lock or quay 33 vs 222, expected 4.8, Fisher p 2.1e-18; tannery 11 vs 27, expected 0.7, Fisher 7.4e-11, chi-squared 2.3e-34; flax 0.028; corn 0.014; milepost 0.015; bridge 0.52. Six tests, threshold 0.0083: canal and tannery remain. Lesson family: Fisher's exact test.",
+    "requiredMentions": [
+      "28,530",
+      "Fisher's exact",
+      "Industrial Heritage Record",
+      "Craigmore",
+      "St Colman",
+      "Bessbrook",
+      "Camlough",
+      "Warrenpoint",
+      "Donaghmore",
+      "Goraghwood",
+      "Derrymore",
+      "Slieve Gullion"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA, Census 2021 MS-A01 usual resident population: settlement, DEA, LGD and Northern Ireland tables.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "NISRA, Census 2021 MS-A02 usual residents by age: Newry and Northern Ireland.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a02.xlsx"
+      },
+      {
+        "claim": "OpenDataNI, Industrial Heritage Record (Department for Communities, Historic Environment Division), GeoJSON of 10 August 2026.",
+        "url": "https://www.opendatani.gov.uk/@department-for-communities-historic-environment-division/industrial-heritage-record"
+      },
+      {
+        "claim": "OpenDataNI, Listed Buildings Northern Ireland (Department for Communities, Historic Environment Division), GeoJSON of 10 September 2026.",
+        "url": "https://www.opendatani.gov.uk/@department-for-communities-historic-environment-division/listed-buildings-northern-ireland"
+      },
+      {
+        "claim": "OpenDataNI, Translink rail stations: coordinates of Newry station.",
+        "url": "https://www.opendatani.gov.uk/@translink/northern-ireland-railways-stations"
+      }
+    ],
+    "rejectedClaims": [
+      "Why there were tanneries near Newry, or any history of the Newry Canal (such as claims about its age or rank): not taken from a fetched source, so no cause or history is given.",
+      "That flax and corn mills are rarer near Newry: the p-values do not survive a correction for six tests, so the page calls this unconfirmed.",
+      "Selecting records by the word Newry in their location: rejected as circular, since every Newry Canal record would be counted.",
+      "Adding the settlement and district electoral area totals, or any areas together: NISRA figures are quoted as published.",
+      "Nationality, ethnicity, religion, birthplace, national identity and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Department for Communities, Translink, NISRA or Newry, Mourne and Down District Council."
+    ]
   }
 }
