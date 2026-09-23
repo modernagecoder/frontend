@@ -1,0 +1,16 @@
+[
+  {
+    "n": 1,
+    "title": "Check a number and show the working",
+    "code": "def is_armstrong(number):\n    digits = str(number)\n    power = len(digits)\n    return sum(int(d) ** power for d in digits) == number\n\nfor number in [153, 9474, 123]:\n    digits = str(number)\n    power = len(digits)\n    working = \" + \".join(f\"{d}^{power}\" for d in digits)\n    total = sum(int(d) ** power for d in digits)\n    print(f\"{number}: {working} = {total} ->\", \"Armstrong\" if is_armstrong(number) else \"not Armstrong\")",
+    "output": "153: 1^3 + 5^3 + 3^3 = 153 -> Armstrong\n9474: 9^4 + 4^4 + 7^4 + 4^4 = 9474 -> Armstrong\n123: 1^3 + 2^3 + 3^3 = 36 -> not Armstrong",
+    "sample": false
+  },
+  {
+    "n": 2,
+    "title": "Every Armstrong number up to 7 digits",
+    "code": "from itertools import combinations_with_replacement\n\n# For n digits, only the multiset of digits matters for the sum, so try each\n# multiset once instead of every number (about 11,000 checks instead of 10 million).\nfound = []\nfor n in range(1, 8):\n    for combo in combinations_with_replacement(range(10), n):\n        total = sum(d ** n for d in combo)\n        if len(str(total)) == n and sorted(int(c) for c in str(total)) == list(combo):\n            found.append(total)\n\nfor n in range(1, 8):\n    group = sorted(x for x in found if len(str(x)) == n)\n    print(f\"{n}-digit ({len(group)}):\", \", \".join(map(str, group)) if group else \"none\")",
+    "output": "1-digit (10): 0, 1, 2, 3, 4, 5, 6, 7, 8, 9\n2-digit (0): none\n3-digit (4): 153, 370, 371, 407\n4-digit (3): 1634, 8208, 9474\n5-digit (3): 54748, 92727, 93084\n6-digit (1): 548834\n7-digit (4): 1741725, 4210818, 9800817, 9926315",
+    "sample": false
+  }
+]

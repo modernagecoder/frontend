@@ -1,8 +1,8 @@
 {
   "meta": {
     "slug": "armstrong-number-python-complete-guide-examples-code",
-    "title": "Armstrong Number in Python, Code Examples & 5-Min Tutorial",
-    "description": "Armstrong number in Python, copy-paste code, step-by-step tutorial, and 5 worked examples (3-digit & n-digit). Tested code for beginners and interview prep. Run it in 30 seconds.",
+    "title": "Armstrong Number: Definition, Full List and Python Program",
+    "description": "What an Armstrong number is, every one up to 7 digits (there are no 2-digit ones), how many exist, and Armstrong number programs in Python with real output.",
     "keywords": [
       "armstrong number python",
       "armstrong number program",
@@ -11,14 +11,22 @@
       "armstrong number code",
       "python programming",
       "coding interview questions",
-      "python exercises"
+      "python exercises",
+      "armstrong number definition",
+      "what is armstrong number",
+      "armstrong number in python",
+      "2 digit armstrong number",
+      "5 digit armstrong number",
+      "6 digit armstrong number",
+      "how many armstrong numbers are there",
+      "list of armstrong numbers"
     ],
     "author": {
       "name": "Modern Age Coders",
       "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages."
     },
     "date": "2026-01-18",
-    "dateModified": "2026-07-18",
+    "dateModified": "2026-09-23",
     "category": "Programming",
     "tags": [
       "Python",
@@ -27,15 +35,16 @@
       "Coding Exercises",
       "Algorithm"
     ],
-    "readTime": "10 min read",
+    "readTime": "12 min read",
     "featured": false,
-    "tldr": "An Armstrong number equals the sum of its own digits each raised to the power of the digit count, so 153 = 1^3 + 5^3 + 3^3. In Python you find one by counting the digits, looping through each digit, adding digit raised to that power, and checking whether the running total equals the original number."
+    "tldr": "An Armstrong number equals the sum of its digits, each raised to the power of the number of digits: 153 = 1^3 + 5^3 + 3^3. There are none with 2 digits; the 3-digit ones are 153, 370, 371 and 407, the 5-digit ones 54748, 92727 and 93084, and the only 6-digit one is 548834. The sequence is finite: 89 numbers counting 0, the largest with 39 digits. This guide lists them and gives Python programs with their output.",
+    "retarget": "sweep-2026-09"
   },
   "hero": {
-    "title": "Armstrong Number in Python, Code Examples & 5-Min Tutorial",
+    "title": "Armstrong Number: Definition, Full List and Python Program",
     "featuredImage": {
       "url": "https://ik.imagekit.io/qnvuzyjls/Armstrong%20number%20in%20python/Armstrong%20Number%20IN%20Python!",
-      "alt": "Armstrong Number in Python, Code Examples & 5-Min Tutorial"
+      "alt": "Armstrong Number: Definition, Full List and Python Program"
     }
   },
   "content": {
@@ -45,15 +54,15 @@
       },
       {
         "type": "paragraph",
-        "text": "Armstrong numbers are fascinating mathematical concepts that make excellent Python programming practice. Whether you're a student learning Python basics or preparing for coding interviews, understanding Armstrong numbers helps you master loops, mathematical operations, and algorithmic thinking."
+        "text": "An <strong>Armstrong number</strong> (also called a narcissistic number) is a number equal to the sum of its own digits, each raised to the power of the number of digits. 153 is one, because it has 3 digits and 1<sup>3</sup> + 5<sup>3</sup> + 3<sup>3</sup> = 1 + 125 + 27 = 153. So is 9474: 9<sup>4</sup> + 4<sup>4</sup> + 7<sup>4</sup> + 4<sup>4</sup> = 9474."
       },
       {
         "type": "paragraph",
-        "text": "In this comprehensive guide, you'll learn exactly what Armstrong numbers are, why they matter in programming, and how to work with them in Python. We'll walk through multiple approaches, from simple beginner-friendly code to optimized solutions."
+        "text": "There are <strong>no 2-digit Armstrong numbers</strong>. The 3-digit ones are 153, 370, 371, 407; the 4-digit ones 1634, 8208, 9474; the 5-digit ones 54748, 92727, 93084; and the only 6-digit one is 548834. The list is finite: the On-Line Encyclopedia of Integer Sequences counts 89 of them including 0, and the largest has 39 digits."
       },
       {
         "type": "paragraph",
-        "text": "No advanced math required, just basic Python knowledge and curiosity. Let's dive in!"
+        "text": "Below: the definition worked through, the full list up to 7 digits with the program that finds it, three ways to check a number in Python, and the questions students ask most."
       },
       {
         "type": "heading",
@@ -126,20 +135,18 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Important note:</strong> All single-digit numbers (0-9) are Armstrong numbers because each digit raised to the power of 1 equals itself. For example, 5¹ = 5."
+        "text": "<strong>Important note:</strong> every single-digit number from 0 to 9 is an Armstrong number, because a digit raised to the power 1 is itself: 5<sup>1</sup> = 5. Here is the same check in Python, showing the working for each number:"
       },
       {
-        "type": "heading",
-        "level": 3,
-        "text": "You May Also like:"
+        "type": "code",
+        "language": "python",
+        "code": "def is_armstrong(number):\n    digits = str(number)\n    power = len(digits)\n    return sum(int(d) ** power for d in digits) == number\n\nfor number in [153, 9474, 123]:\n    digits = str(number)\n    power = len(digits)\n    working = \" + \".join(f\"{d}^{power}\" for d in digits)\n    total = sum(int(d) ** power for d in digits)\n    print(f\"{number}: {working} = {total} ->\", \"Armstrong\" if is_armstrong(number) else \"not Armstrong\")"
       },
       {
-        "type": "list",
-        "style": "unordered",
-        "items": [
-          "<a href='https://learn.modernagecoders.com/blog/javascript-basics' target='_blank' rel='noopener noreferrer'>JavaScript Basics</a>",
-          "<a href='https://learn.modernagecoders.com/blog/data-science-ai-math-skills-professionals' target='_blank' rel='noopener noreferrer'>Data Science, AI, and Math</a>"
-        ]
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "153: 1^3 + 5^3 + 3^3 = 153 -> Armstrong\n9474: 9^4 + 4^4 + 7^4 + 4^4 = 9474 -> Armstrong\n123: 1^3 + 2^3 + 3^3 = 36 -> not Armstrong"
       },
       {
         "type": "heading",
@@ -311,27 +318,76 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "List of Armstrong Numbers (Complete Reference)",
+        "text": "List of Armstrong Numbers by Number of Digits",
         "id": "armstrong-numbers-list"
       },
       {
         "type": "paragraph",
-        "text": "Armstrong numbers become increasingly rare as digits increase. Here's a complete reference:"
+        "text": "Armstrong numbers get rarer as numbers get longer. Here is every one with up to 7 digits, followed by the program that produced this list:"
       },
       {
-        "type": "list",
-        "style": "unordered",
-        "items": [
-          "<strong>1-digit Armstrong numbers (10 total):</strong> 0, 1, 2, 3, 4, 5, 6, 7, 8, 9",
-          "<strong>3-digit Armstrong numbers (4 total):</strong> 153, 370, 371, 407",
-          "<strong>4-digit Armstrong numbers (3 total):</strong> 1634, 8208, 9474",
-          "<strong>5-digit Armstrong numbers (3 total):</strong> 54748, 92727, 93084",
-          "<strong>6-digit Armstrong numbers (1 total):</strong> 548834"
+        "type": "table",
+        "headers": [
+          "Digits",
+          "How many",
+          "Armstrong numbers"
+        ],
+        "rows": [
+          [
+            "1",
+            "10",
+            "0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
+          ],
+          [
+            "2",
+            "0",
+            "none"
+          ],
+          [
+            "3",
+            "4",
+            "153, 370, 371, 407"
+          ],
+          [
+            "4",
+            "3",
+            "1634, 8208, 9474"
+          ],
+          [
+            "5",
+            "3",
+            "54748, 92727, 93084"
+          ],
+          [
+            "6",
+            "1",
+            "548834"
+          ],
+          [
+            "7",
+            "4",
+            "1741725, 4210818, 9800817, 9926315"
+          ]
         ]
       },
       {
         "type": "paragraph",
-        "text": "<strong>Note:</strong> There are no 2-digit Armstrong numbers. There are exactly 88 Armstrong numbers in total across all digit lengths, with the largest being 39 digits long."
+        "text": "The program tries each combination of digits once rather than every number, which is why it reaches 7 digits in about a second:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from itertools import combinations_with_replacement\n\n# For n digits, only the multiset of digits matters for the sum, so try each\n# multiset once instead of every number (about 11,000 checks instead of 10 million).\nfound = []\nfor n in range(1, 8):\n    for combo in combinations_with_replacement(range(10), n):\n        total = sum(d ** n for d in combo)\n        if len(str(total)) == n and sorted(int(c) for c in str(total)) == list(combo):\n            found.append(total)\n\nfor n in range(1, 8):\n    group = sorted(x for x in found if len(str(x)) == n)\n    print(f\"{n}-digit ({len(group)}):\", \", \".join(map(str, group)) if group else \"none\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "1-digit (10): 0, 1, 2, 3, 4, 5, 6, 7, 8, 9\n2-digit (0): none\n3-digit (4): 153, 370, 371, 407\n4-digit (3): 1634, 8208, 9474\n5-digit (3): 54748, 92727, 93084\n6-digit (1): 548834\n7-digit (4): 1741725, 4210818, 9800817, 9926315"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>How many are there?</strong> A finite number. The On-Line Encyclopedia of Integer Sequences (<a href='https://oeis.org/A005188' target='_blank' rel='noopener noreferrer'>sequence A005188</a>) lists 89, counting 0, so 88 positive Armstrong numbers. The last and largest is 115132219018763992565095597973971522401, which has 39 digits. Why must the list end? From 61 digits up, even a number made entirely of 9s gives a digit-power sum (n &times; 9<sup>n</sup>) with fewer digits than the number itself, so no longer number can match; the lengths below that have been searched by computer."
       },
       {
         "type": "heading",
@@ -538,6 +594,49 @@
       {
         "type": "heading",
         "level": 2,
+        "text": "Armstrong numbers: common questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is an Armstrong number?",
+            "content": "A number equal to the sum of its digits, each raised to the power of how many digits it has. 153 is one: 1<sup>3</sup> + 5<sup>3</sup> + 3<sup>3</sup> = 153. They are also called narcissistic numbers or pluperfect digital invariants."
+          },
+          {
+            "title": "Is there any 2-digit Armstrong number?",
+            "content": "No. No number from 10 to 99 equals the sum of the squares of its digits; the program above checks every case."
+          },
+          {
+            "title": "What are the 3-digit Armstrong numbers?",
+            "content": "153, 370, 371, 407."
+          },
+          {
+            "title": "What are the 4-digit and 5-digit Armstrong numbers?",
+            "content": "4-digit: 1634, 8208, 9474. 5-digit: 54748, 92727, 93084."
+          },
+          {
+            "title": "What is the 6-digit Armstrong number?",
+            "content": "There is only one: 548834. With 7 digits there are four: 1741725, 4210818, 9800817, 9926315."
+          },
+          {
+            "title": "How many Armstrong numbers are there?",
+            "content": "89 counting 0 (88 positive ones), according to OEIS sequence A005188. The largest is 115132219018763992565095597973971522401, with 39 digits."
+          },
+          {
+            "title": "Is 0 an Armstrong number?",
+            "content": "0 has one digit and 0<sup>1</sup> = 0, so by the definition it is, and OEIS includes it. Some textbooks start their lists at 1, so check which your teacher uses."
+          },
+          {
+            "title": "How do you check an Armstrong number in Python?",
+            "content": "Turn the number into a string, count its digits, and compare the number with <code>sum(int(d) ** len(s) for d in s)</code>. Method 2 above does exactly this in five lines."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
         "text": "Final Thoughts"
       },
       {
@@ -549,6 +648,12 @@
         "text": "The techniques you've learned digit extraction, power calculations, and iterative checking, are building blocks for more advanced programming concepts. Whether you're preparing for coding interviews, completing school assignments, or simply practicing Python, Armstrong numbers offer valuable hands-on experience."
       },
       {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Learn Python live, with a teacher reading your code",
+        "text": "Programs like this are where loops, strings and maths meet. Ages 9 to 12: <a href='/courses/python-ai-kids-masterclass'>Python and AI for Kids</a>. Ages 13 to 18: <a href='/courses/python-complete-masterclass-teens'>Python for Teens</a>. College students and adults: <a href='/courses/python-programming-masterclass-zero-to-advanced-college'>Python Masterclass</a>. The first class is a free demo, so you can see how it is taught before you decide."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "Related Post:"
@@ -557,9 +662,9 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<a href='https://learn.modernagecoders.com/blog/coding-mathematics-engineering-science' target='_blank' rel='noopener noreferrer'>Coding, Mathematics, Engineering & Science</a>",
-          "<a href='https://learn.modernagecoders.com/blog/python-for-beginners' target='_blank' rel='noopener noreferrer'>Python for Beginners</a>",
-          "<a href='https://learn.modernagecoders.com/blog/cloud-computing-explained-business-owners-without-tech-jargon' target='_blank' rel='noopener noreferrer'>Cloud Computing Explained for Business Owners Without Tech Jargon</a>"
+          "<a href='/blog/coding-mathematics-engineering-science'>Coding, Mathematics, Engineering & Science</a>",
+          "<a href='/blog/python-for-beginners'>Python for Beginners</a>",
+          "<a href='/blog/cloud-computing-explained-business-owners-without-tech-jargon'>Cloud Computing Explained for Business Owners Without Tech Jargon</a>"
         ]
       }
     ]

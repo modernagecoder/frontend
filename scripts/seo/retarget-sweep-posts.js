@@ -384,3 +384,80 @@ function codeAndOutput(p) {
 
   save(name, j); console.log('retargeted', name);
 })();
+
+// ────────────────────────────────────────────────────── Armstrong numbers
+// Search Console, page-filtered, 16 months to 2026-09-23: "armstrong number in python" 462 impr @14.6,
+// many "armstrong number definition ..." phrasings (449, 348, 264, 241 ... @6-8, 0 clicks),
+// "2 digit armstrong number" 384 @8.4, "what is armstrong number in python" 328, "5 digit armstrong
+// number" 203, "armstrong number definition" 202, "how many armstrong numbers are there" 193,
+// "6 digit armstrong number" 184. The definition and the list by digit count now come first; the list is
+// the captured output of scripts/seo/code-posts/armstrong_programs.py (every Armstrong number up to 7
+// digits). Count: oeis.org/A005188 read with curl on 2026-09-23, "A finite sequence, the 89th and last
+// term being 115132219018763992565095597973971522401" (39 digits); the sequence starts at 0, so 88
+// positive ones. The post said "exactly 88" while listing 0 among them.
+(function armstrong() {
+  const name = 'armstrong.json';
+  const j = load(name); if (j.meta.retarget === MARK) return console.log('skip', name);
+  const s = j.content.sections;
+  const progs = runs('armstrong_programs');
+  const get = (n) => progs.find((p) => p.n === n);
+  const KIDS = course('python-ai-kids-masterclass');
+  const TEENS = course('python-complete-masterclass-teens');
+  const ADULTS = course('python-programming-masterclass-zero-to-advanced-college');
+  const LAST = '115132219018763992565095597973971522401';
+
+  // the list table is built from the program's own output, so page and program cannot disagree
+  const groups = get(2).output.split('\n').map((line) => { const m = line.match(/^(\d)-digit \((\d+)\): (.*)$/); if (!m) throw new Error('bad line ' + line); return m.slice(1); });
+  if (groups.length !== 7 || groups[1][1] !== '0' || groups[2][2] !== '153, 370, 371, 407') throw new Error('unexpected Armstrong output');
+  const byDigits = Object.fromEntries(groups.map(([d, c, list]) => [d, { c, list }]));
+
+  j.meta.title = 'Armstrong Number: Definition, Full List and Python Program';
+  j.hero.title = j.meta.title; j.hero.featuredImage.alt = j.meta.title;
+  j.meta.description = 'What an Armstrong number is, every one up to 7 digits (there are no 2-digit ones), how many exist, and Armstrong number programs in Python with real output.';
+  j.meta.tldr = 'An Armstrong number equals the sum of its digits, each raised to the power of the number of digits: 153 = 1^3 + 5^3 + 3^3. There are none with 2 digits; the 3-digit ones are 153, 370, 371 and 407, the 5-digit ones 54748, 92727 and 93084, and the only 6-digit one is 548834. The sequence is finite: 89 numbers counting 0, the largest with 39 digits. This guide lists them and gives Python programs with their output.';
+  addKeywords(j.meta, ['armstrong number definition', 'what is armstrong number', 'armstrong number in python', '2 digit armstrong number', '5 digit armstrong number', '6 digit armstrong number', 'how many armstrong numbers are there', 'list of armstrong numbers']);
+  j.meta.readTime = '12 min read';
+  j.meta.dateModified = TODAY; j.meta.retarget = MARK;
+
+  s[1] = P('An <strong>Armstrong number</strong> (also called a narcissistic number) is a number equal to the sum of its own digits, each raised to the power of the number of digits. 153 is one, because it has 3 digits and 1<sup>3</sup> + 5<sup>3</sup> + 3<sup>3</sup> = 1 + 125 + 27 = 153. So is 9474: 9<sup>4</sup> + 4<sup>4</sup> + 7<sup>4</sup> + 4<sup>4</sup> = 9474.');
+  s[2] = P(`There are <strong>no 2-digit Armstrong numbers</strong>. The 3-digit ones are ${byDigits['3'].list}; the 4-digit ones ${byDigits['4'].list}; the 5-digit ones ${byDigits['5'].list}; and the only 6-digit one is ${byDigits['6'].list}. The list is finite: the On-Line Encyclopedia of Integer Sequences counts 89 of them including 0, and the largest has 39 digits.`);
+  s[3] = P('Below: the definition worked through, the full list up to 7 digits with the program that finds it, three ways to check a number in Python, and the questions students ask most.');
+
+  const note = idx(s, pStarts('<strong>Important note:</strong> All single-digit numbers'), 'single digit note');
+  s[note] = P('<strong>Important note:</strong> every single-digit number from 0 to 9 is an Armstrong number, because a digit raised to the power 1 is itself: 5<sup>1</sup> = 5. Here is the same check in Python, showing the working for each number:');
+  s.splice(note + 1, 0, ...codeAndOutput(get(1)));
+
+  const also = idx(s, isH('You May Also like:'), 'you may also like');
+  s.splice(also, 2);
+
+  const listH = idx(s, isH('List of Armstrong Numbers (Complete Reference)'), 'list heading');
+  s[listH].text = 'List of Armstrong Numbers by Number of Digits';
+  s[listH + 1] = P('Armstrong numbers get rarer as numbers get longer. Here is every one with up to 7 digits, followed by the program that produced this list:');
+  s[listH + 2] = T(['Digits', 'How many', 'Armstrong numbers'], groups.map(([d, c, list]) => [d, c, list === 'none' ? 'none' : list]));
+  const oeisNote = idx(s, pStarts('<strong>Note:</strong> There are no 2-digit Armstrong numbers.'), 'oeis note');
+  s[oeisNote] = P('The program tries each combination of digits once rather than every number, which is why it reaches 7 digits in about a second:');
+  s.splice(oeisNote + 1, 0, ...codeAndOutput(get(2)),
+    P(`<strong>How many are there?</strong> A finite number. The On-Line Encyclopedia of Integer Sequences (<a href='https://oeis.org/A005188' target='_blank' rel='noopener noreferrer'>sequence A005188</a>) lists 89, counting 0, so 88 positive Armstrong numbers. The last and largest is ${LAST}, which has 39 digits. Why must the list end? From 61 digits up, even a number made entirely of 9s gives a digit-power sum (n &times; 9<sup>n</sup>) with fewer digits than the number itself, so no longer number can match; the lengths below that have been searched by computer.`));
+
+  const final = idx(s, isH('Final Thoughts'), 'final thoughts');
+  s.splice(final, 0,
+    H(2, 'Armstrong numbers: common questions', 'faq'),
+    { type: 'accordion', items: [
+      { title: 'What is an Armstrong number?', content: 'A number equal to the sum of its digits, each raised to the power of how many digits it has. 153 is one: 1<sup>3</sup> + 5<sup>3</sup> + 3<sup>3</sup> = 153. They are also called narcissistic numbers or pluperfect digital invariants.' },
+      { title: 'Is there any 2-digit Armstrong number?', content: 'No. No number from 10 to 99 equals the sum of the squares of its digits; the program above checks every case.' },
+      { title: 'What are the 3-digit Armstrong numbers?', content: `${byDigits['3'].list}.` },
+      { title: 'What are the 4-digit and 5-digit Armstrong numbers?', content: `4-digit: ${byDigits['4'].list}. 5-digit: ${byDigits['5'].list}.` },
+      { title: 'What is the 6-digit Armstrong number?', content: `There is only one: ${byDigits['6'].list}. With 7 digits there are four: ${byDigits['7'].list}.` },
+      { title: 'How many Armstrong numbers are there?', content: `89 counting 0 (88 positive ones), according to OEIS sequence A005188. The largest is ${LAST}, with 39 digits.` },
+      { title: 'Is 0 an Armstrong number?', content: '0 has one digit and 0<sup>1</sup> = 0, so by the definition it is, and OEIS includes it. Some textbooks start their lists at 1, so check which your teacher uses.' },
+      { title: 'How do you check an Armstrong number in Python?', content: 'Turn the number into a string, count its digits, and compare the number with <code>sum(int(d) ** len(s) for d in s)</code>. Method 2 above does exactly this in five lines.' },
+    ] });
+  const f2 = idx(s, isH('Final Thoughts'), 'final thoughts 2');
+  s.splice(f2 + 3, 0, { type: 'callout', calloutType: 'tip', title: 'Learn Python live, with a teacher reading your code', text: `Programs like this are where loops, strings and maths meet. Ages 9 to 12: <a href='${KIDS.url}'>${KIDS.title}</a>. Ages 13 to 18: <a href='${TEENS.url}'>${TEENS.title}</a>. College students and adults: <a href='${ADULTS.url}'>${ADULTS.title}</a>. The first class is a free demo, so you can see how it is taught before you decide.` });
+
+  s.forEach((x) => {
+    if (x.type === 'paragraph') x.text = x.text.replace(/href='https:\/\/learn\.modernagecoders\.com\//g, "href='/").replace(/(href='\/[^']*') target='_blank' rel='noopener noreferrer'/g, '$1');
+    if (x.type === 'list') x.items = x.items.map((it) => it.replace(/href='https:\/\/learn\.modernagecoders\.com\//g, "href='/").replace(/(href='\/[^']*') target='_blank' rel='noopener noreferrer'/g, '$1'));
+  });
+  save(name, j); console.log('retargeted', name);
+})();
