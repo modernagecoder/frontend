@@ -1,0 +1,30 @@
+[
+  {
+    "n": 1,
+    "title": "A loop",
+    "code": "import time\n\nfor i in range(3):          # Scratch: repeat (3)\n    print(\"Hello!\")         # Scratch: say [Hello!]\n    time.sleep(1)           # Scratch: wait (1) seconds",
+    "output": "Hello!\nHello!\nHello!",
+    "sample": false
+  },
+  {
+    "n": 2,
+    "title": "If-then-else",
+    "code": "score = 120\n\nif score > 100:             # Scratch: if <(score) > (100)> then\n    print(\"You win!\")\nelse:\n    print(\"Keep trying!\")",
+    "output": "You win!",
+    "sample": false
+  },
+  {
+    "n": 3,
+    "title": "Variables",
+    "code": "score = 0                   # Scratch: set [score] to (0)\nscore = score + 10          # Scratch: change [score] by (10)\nscore += 10                 # the short way to write the same thing\nprint(\"score:\", score)",
+    "output": "score: 20",
+    "sample": false
+  },
+  {
+    "n": 4,
+    "title": "Forever loop with a stop",
+    "code": "lives = 3\n\nwhile True:                 # Scratch: forever\n    print(\"lives left:\", lives)\n    lives -= 1\n    if lives == 0:          # Scratch: if <(lives) = (0)> then ... stop [all]\n        print(\"Game Over!\")\n        break",
+    "output": "lives left: 3\nlives left: 2\nlives left: 1\nGame Over!",
+    "sample": false
+  }
+]

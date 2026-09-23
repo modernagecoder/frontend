@@ -664,3 +664,81 @@ function codeAndOutput(p) {
   j.content.sections = s;
   save(name, j); console.log('retargeted', name);
 })();
+
+// ────────────────────────────────────────────────────── Scratch vs Python
+// Search Console, page-filtered, 16 months to 2026-09-23: "scratch vs python" 1,097 impr @7.6 (0.2% CTR),
+// "python vs scratch" 502 @7.0, "scratch python" 250, "python vs scratch for kids" 185 @10.5, "scratch vs python
+// for kids" 118 @11, "difference between scratch and python" 75, "is scratch python" 19. Scratch facts from
+// scratchfoundation.org (read 2026-09-23 for the coding-games rebuild): developed at the MIT Media Lab in 2007,
+// run by the Scratch Foundation since 2019, ages 8-13+, free, "200 million kids create on Scratch for free",
+// moderated community, offline app for Windows/macOS/ChromeOS/Android. EduBlocks from edublocks.org ("a free
+// tool by Anaconda", blocks to Python). Python examples are scratch_python_programs.py with captured output.
+// Removed: an invented "Real Scratch Success Story", "100M+ users, 900M+ projects", "works on any device",
+// "used by Google, Netflix, Instagram, NASA", "decades of research", two "research/studies show" FAQ claims,
+// and a Trinket feature claim that was not checked.
+(function scratchVsPython() {
+  const name = 'scratch-vs-python-young-learners.json';
+  const j = load(name); if (j.meta.retarget === MARK) return console.log('skip', name);
+  const s = j.content.sections;
+  const progs = runs('scratch_python_programs');
+  const get = (n) => progs.find((p) => p.n === n);
+  const SCRATCH = course('scratch-programming-complete-course');
+  const PYKIDS = course('python-ai-kids-masterclass');
+  const TEENS = course('python-complete-masterclass-teens');
+
+  j.meta.title = 'Scratch vs Python for Kids: The Difference and Which First';
+  j.hero.title = j.meta.title;
+  j.meta.description = 'Scratch vs Python: Scratch is free drag-and-drop blocks for ages 8 to 13+, Python is typed text code. The real differences, side-by-side code and which first.';
+  j.meta.tldr = 'Scratch is a free block-based language from the Scratch Foundation for ages 8 to 13+: children snap blocks together and never type. Python is a text-based language used professionally: every line is typed. Most children do best starting with Scratch at about 8 to 10 and moving to Python from about 11; a child of 11 or more who types comfortably can start with Python. Scratch is not Python, but its loops, conditions and variables carry straight over.';
+  addKeywords(j.meta, ['python vs scratch', 'scratch vs python for kids', 'difference between scratch and python', 'is scratch python', 'scratch or python', 'python vs scratch for kids']);
+  j.meta.dateModified = TODAY; j.meta.retarget = MARK;
+
+  s[1] = P('<strong>Scratch vs Python:</strong> Scratch is a free, block-based language from the Scratch Foundation, made for ages 8 to 13+, where children build programs by snapping blocks together and never type. Python is a text-based language used by professional programmers, where every line is typed. Most children do best starting with Scratch at about 8 to 10 and moving to Python from about 11; a child of 11 or older who types comfortably can start with Python directly.');
+  s[2] = P('Is Scratch Python? No. They are separate languages, but the ideas are the same: a Scratch <em>repeat</em> block is a Python <code>for</code> loop, and <em>set score to 0</em> is <code>score = 0</code>. Below we compare them honestly, show the same programs side by side with their Python output, and set out when to move from one to the other.');
+
+  const t = s[idx(s, (x) => x.type === 'table' && x.rows && x.rows[0][0] === 'Best Age Range', 'comparison table')];
+  t.rows[0][1] = '8 to 13+ (Scratch Foundation)';
+  t.rows = t.rows.map((r) => (r[0] === 'Community Size' ? ['Community', 'The Scratch Foundation says 200 million kids create on Scratch', 'Large and professional', 'Both excellent'] : r));
+
+  const origin = idx(s, pStarts('Scratch is a visual programming language developed by MIT'), 'origin');
+  s[origin] = P('Scratch is a visual programming language for children. It was developed at the MIT Media Lab in 2007 by a team led by Professor Mitchel Resnick, and since 2019 it has been run by the Scratch Foundation, an independent nonprofit. Instead of typing code, kids drag colourful blocks that snap together like puzzle pieces; each block is one instruction, such as move, turn, repeat or if-then.');
+  const special = s[idx(s, (x) => x.type === 'list' && x.items.some((it) => /Huge community/.test(it)), 'scratch list')];
+  special.items = special.items.map((it) => it
+    .replace(/<strong>Huge community:<\/strong>.*/, '<strong>Huge community:</strong> the Scratch Foundation says 200 million kids create on Scratch, and projects can be shared and remixed in a moderated online community')
+    .replace(/<strong>Completely free:<\/strong>.*/, '<strong>Completely free:</strong> runs in a web browser, with an offline app for Windows, macOS, ChromeOS and Android'));
+
+  const gameLoop = idx(s, (x) => x.type === 'callout' && x.title === 'Scratch Block Example', 'scratch game loop');
+  s.splice(gameLoop + 1, 0, P('The same idea in Python: a loop that keeps running until the game ends, then stops.'), ...codeAndOutput(get(4)));
+  const story = idx(s, (x) => x.type === 'callout' && x.title === 'Real Scratch Success Story', 'success story');
+  s.splice(story, 1);
+  const pyIntro = idx(s, pStarts('Python is a professional programming language used by companies'), 'python intro');
+  s[pyIntro] = P('Python is a professional, text-based programming language used for websites, data science, AI and automation. Don\'t let that intimidate you: it is also one of the most readable languages to start typing in, which is why so many schools teach it to teenagers.');
+
+  const loopCallout = idx(s, (x) => x.type === 'callout' && x.title === 'Scratch Version' && /repeat \(10\)/.test(x.text), 'loop callout');
+  s[loopCallout].text = s[loopCallout].text.replace('repeat (10)', 'repeat (3)');
+  const swap = (re, n) => { const c = idx(s, (x) => x.type === 'code' && re.test(x.code), 'code ' + n); s.splice(c, 1, ...codeAndOutput(get(n))); };
+  swap(/for i in range\(10\)/, 1);
+  swap(/if score > 100/, 2);
+  swap(/score = score \+ 10/, 3);
+
+  const mit = idx(s, pStarts('Scratch IS real coding.'), 'mit research');
+  s[mit] = P('Scratch IS real coding. It teaches real programming concepts. The visual interface is a feature, not a limitation: its designers built it so children can concentrate on ideas instead of typos.');
+
+  const acc = s[idx(s, (x) => x.type === 'accordion', 'faq')];
+  acc.items = acc.items.map((it) => {
+    if (it.title === 'Can my child skip Scratch and start with Python?') it.content = 'Yes, if they are 11 or older, type reasonably well and have patience for debugging. Children who start with Scratch arrive at Python already understanding loops, conditions and variables, so they only have to learn the new way of writing them.';
+    if (it.title === 'Will learning Scratch make Python harder because of different syntax?') it.content = 'No. Scratch builds the concepts, so in Python children are learning a new way to express ideas they already know, not new ideas and new syntax at once.';
+    if (it.title === 'Are there tools that combine Scratch and Python?') it.content = 'Yes. EduBlocks, a free tool by Anaconda, uses drag-and-drop blocks in which each block is a line of Python, so children see exactly how blocks turn into text code.';
+    if (it.title === 'What if my child hates Scratch but wants to code?') it.content = 'Some children find Scratch too childish or prefer text from the start. If they are motivated and 11 or older, try Python directly. As a middle ground, Blockly Games switches between blocks and JavaScript in its last levels, and CodeAI (formerly Code.org) has free text-based courses.';
+    return it;
+  });
+  acc.items.unshift(
+    { title: 'Is Scratch Python?', content: 'No. Scratch is its own block-based language from the Scratch Foundation, and Python is a separate text-based language. You cannot write Python inside Scratch, but the ideas, loops, conditions, variables and events, are the same, so moving from one to the other is mostly learning to type what you already know.' },
+    { title: 'What is the difference between Scratch and Python?', content: 'Scratch uses drag-and-drop blocks, so there is no typing and no syntax errors, and it is built for children aged 8 to 13+. Python is typed text, used by professionals, with far more depth but more room for mistakes. Scratch is for learning; Python is for learning and for real work.' },
+    { title: 'Scratch or Python: which is better for kids?', content: 'For most children under about 11, Scratch; for 11 and up who type comfortably, Python. The best path for most is Scratch first, then Python, because the concepts learned in blocks carry straight over.' });
+
+  const ready = idx(s, (x) => x.type === 'callout' && x.title === 'Ready to Start?', 'ready callout');
+  s[ready] = { type: 'callout', calloutType: 'tip', title: 'Scratch first, Python next, with a teacher', text: `Ages 6 to 12: <a href='${SCRATCH.url}'>${SCRATCH.title}</a>. Ready to type, 9 to 12: <a href='${PYKIDS.url}'>${PYKIDS.title}</a>. Ages 13 to 18: <a href='${TEENS.url}'>${TEENS.title}</a>. The first class is a free demo, so you can see how it is taught before you decide.` };
+
+  save(name, j); console.log('retargeted', name);
+})();
