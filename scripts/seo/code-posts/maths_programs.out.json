@@ -1,0 +1,58 @@
+[
+  {
+    "n": 1,
+    "title": "Variables and algebra",
+    "code": "# the equation y = 2x + 5\nx = 10\ny = 2 * x + 5\nprint(\"x = 10 gives y =\", y)\n\nx = 20                  # a variable can change\ny = 2 * x + 5\nprint(\"x = 20 gives y =\", y)\n\n# rearranged to solve for x: x = (y - 5) / 2\ny = 25\nx = (y - 5) / 2\nprint(\"y = 25 needs x =\", x)",
+    "output": "x = 10 gives y = 25\nx = 20 gives y = 45\ny = 25 needs x = 10.0",
+    "sample": false
+  },
+  {
+    "n": 2,
+    "title": "Functions in maths and in code",
+    "code": "def square(x):          # f(x) = x squared\n    return x ** 2\n\ndef double(x):          # g(x) = 2x\n    return x * 2\n\ndef absolute(x):        # a piecewise function\n    if x >= 0:\n        return x\n    return -x\n\nprint(\"f(5) =\", square(5))\nprint(\"g(f(3)) =\", double(square(3)))    # g(9) = 18\nprint(\"|-7| =\", absolute(-7))",
+    "output": "f(5) = 25\ng(f(3)) = 18\n|-7| = 7",
+    "sample": false
+  },
+  {
+    "n": 3,
+    "title": "Boolean logic",
+    "code": "age = 25\nhas_license = True\nhas_vip_pass = False\n\nprint(\"can drive:\", age >= 18 and has_license)     # AND: both must be true\nprint(\"can enter:\", age >= 21 or has_vip_pass)     # OR: at least one true\nprint(\"is minor:\", not (age >= 18))                # NOT: flips the value",
+    "output": "can drive: True\ncan enter: True\nis minor: False",
+    "sample": false
+  },
+  {
+    "n": 4,
+    "title": "Sets",
+    "code": "a = {1, 2, 3, 4}\nb = {3, 4, 5, 6}\n\nprint(\"union:       \", a | b)\nprint(\"intersection:\", a & b)\nprint(\"difference:  \", a - b)",
+    "output": "union:        {1, 2, 3, 4, 5, 6}\nintersection: {3, 4}\ndifference:   {1, 2}",
+    "sample": false
+  },
+  {
+    "n": 5,
+    "title": "Sequences and series",
+    "code": "evens = [2 * i for i in range(1, 6)]            # arithmetic sequence\nprint(\"first five even numbers:\", evens)\n\nn = 100\nprint(\"1 + 2 + ... + 100 by adding:\", sum(range(1, n + 1)))\nprint(\"by the formula n(n+1)/2:  \", n * (n + 1) // 2)\n\na, b = 0, 1                                        # Fibonacci, each term = sum of previous two\nterms = []\nfor _ in range(10):\n    terms.append(a)\n    a, b = b, a + b\nprint(\"Fibonacci:\", terms)",
+    "output": "first five even numbers: [2, 4, 6, 8, 10]\n1 + 2 + ... + 100 by adding: 5050\nby the formula n(n+1)/2:   5050\nFibonacci: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]",
+    "sample": false
+  },
+  {
+    "n": 6,
+    "title": "Modular arithmetic",
+    "code": "number = 7\nprint(number, \"is\", \"even\" if number % 2 == 0 else \"odd\")\n\nslides = [\"intro\", \"demo\", \"results\"]     # wrap around a carousel\nindex = 0\nshown = []\nfor _ in range(5):\n    shown.append(slides[index])\n    index = (index + 1) % len(slides)\nprint(\"carousel:\", shown)\n\nfor hour_24 in [0, 9, 12, 15, 23]:        # 24-hour clock to 12-hour clock\n    print(hour_24, \"->\", hour_24 % 12 or 12)",
+    "output": "7 is odd\ncarousel: ['intro', 'demo', 'results', 'intro', 'demo']\n0 -> 12\n9 -> 9\n12 -> 12\n15 -> 3\n23 -> 11",
+    "sample": false
+  },
+  {
+    "n": 7,
+    "title": "Logarithms and exponentials",
+    "code": "import math\n\nprint(\"log2 of 1,000,000 =\", round(math.log2(1_000_000), 2))\n\ndef compound(principal, rate, years):      # exponential growth\n    return principal * (1 + rate) ** years\n\nprint(\"1000 at 8% for 10 years =\", round(compound(1000, 0.08, 10), 2))\n\npower_ratio = 100                          # decibels are a logarithmic scale\nprint(\"a power ratio of 100 is\", 10 * math.log10(power_ratio), \"dB\")",
+    "output": "log2 of 1,000,000 = 19.93\n1000 at 8% for 10 years = 2158.92\na power ratio of 100 is 20.0 dB",
+    "sample": false
+  },
+  {
+    "n": 8,
+    "title": "Why binary search needs so few steps",
+    "code": "numbers = list(range(1_000_000))     # a sorted list of a million numbers\ntarget = 765_432\n\nlow, high, steps = 0, len(numbers) - 1, 0\nwhile low <= high:\n    steps += 1\n    mid = (low + high) // 2\n    if numbers[mid] == target:\n        break\n    if numbers[mid] < target:\n        low = mid + 1\n    else:\n        high = mid - 1\n\nprint(\"found\", target, \"in\", steps, \"steps\")\nprint(\"worst case for a million items:\", len(numbers).bit_length(), \"steps\")",
+    "output": "found 765432 in 17 steps\nworst case for a million items: 20 steps",
+    "sample": false
+  }
+]

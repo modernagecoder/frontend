@@ -210,3 +210,85 @@ function runJava(className, code) {
 
   save(name, j); console.log('retargeted', name);
 })();
+
+// ────────────────────────────────────────────────────── maths in programming
+// Search Console, page-filtered, 16 months to 2026-09-23: "mathematics for programming" 555 impr @7.3,
+// "math in programming" 504 @6.5, "math in coding" 308 @7.0 (0 clicks), "mathematics in programming"
+// 298, "math for programming" 295 @10.2, "math and programming" 225, "how is math used in programming" 98.
+// Every snippet was either not runnable (has_vip_pass, number, power_ratio undefined) or showed no output;
+// they are replaced by scripts/seo/code-posts/maths_programs.py with captured output. Removed: the
+// unsourced "80% of coding needs only basic math" (description, tldr, callout), named-company claims
+// (Netflix, Google Maps, Spotify, YouTube), "students report better math grades".
+function runs(mod) { return JSON.parse(fs.readFileSync(path.join(__dirname, 'code-posts', mod + '.out.json'), 'utf8')); }
+function codeAndOutput(p) {
+  return [
+    { type: 'code', language: 'python', code: p.code },
+    { type: 'code', language: 'plaintext', title: p.sample ? 'Sample output (changes on every run)' : 'Output', code: p.output },
+  ];
+}
+(function mathsInProgramming() {
+  const name = 'role-mathematics-programming-problem-solving.json';
+  const j = load(name); if (j.meta.retarget === MARK) return console.log('skip', name);
+  const s = j.content.sections;
+  const progs = runs('maths_programs');
+  const get = (n) => progs.find((p) => p.n === n);
+  const MTC = course('maths-through-coding');
+  const OLY = course('olympiad-competition-mathematics-mastery');
+
+  j.meta.title = 'Math in Programming: What You Need, Shown in Real Code';
+  j.hero.title = j.meta.title;
+  j.hero.subtitle = 'How much maths coding really needs, field by field, with every idea shown as Python you can run.';
+  j.meta.description = 'How much math do you need for programming? What each field uses, and how algebra, logic, sets, sequences and logarithms appear in real Python code with output.';
+  j.meta.tldr = 'Most programming needs school maths: arithmetic, a little algebra and the logic of true and false. Specialised fields need more: linear algebra, calculus and statistics for machine learning, trigonometry and vectors for games and graphics, discrete maths for competitive programming. This guide shows each idea as runnable Python with its output.';
+  addKeywords(j.meta, ['math in programming', 'mathematics for programming', 'math for programming', 'math in coding', 'mathematics in programming', 'how is math used in programming', 'how much math do you need for programming']);
+  j.meta.dateModified = TODAY; j.meta.retarget = MARK;
+
+  s[1] = P('How much math do you need for programming? For most programming, school maths is enough: arithmetic, a little algebra, and the logic of true and false that every <code>if</code> statement uses. Specialised fields ask for more: machine learning uses linear algebra, calculus and statistics; games and graphics use trigonometry and vectors; competitive programming uses discrete maths and number theory.');
+  s[2] = P('Maths in programming shows up less as formulas and more as a way of thinking: define the problem exactly, break it into parts, spot the pattern, and check the answer. Below, the maths each kind of programming needs, then every idea as a short Python program with the output it prints.');
+  s[3] = T(['Kind of programming', 'Maths it uses', 'Needed from the start?'], [
+    ['Websites, apps, most software', 'Arithmetic, basic algebra, Boolean logic, percentages', 'Yes, and school maths covers it'],
+    ['Algorithms and data structures', 'Logarithms, exponents, counting, recursion, graphs', 'Learn it as you meet it'],
+    ['Data science and machine learning', 'Linear algebra, calculus, probability and statistics', 'Yes, alongside the code'],
+    ['Games and graphics', 'Trigonometry, vectors and matrices, geometry', 'As soon as things move on screen'],
+    ['Competitive programming', 'Discrete maths, combinatorics, number theory', 'Yes, for harder problems'],
+  ]);
+
+  const rule = idx(s, (x) => x.type === 'callout' && x.title === 'The 80/20 Rule', '80/20 callout');
+  s[rule] = { type: 'callout', calloutType: 'info', title: 'Know which kind you are aiming at', text: 'Most programming work needs only basic maths. Machine learning, graphics and scientific computing need deeper maths, so check which of these your goal falls into before deciding what to study.' };
+  const struggle = idx(s, pStarts('Many students who struggle with traditional math'), 'struggle paragraph');
+  s[struggle] = P('Some students who find school maths dry take to programming, because it presents the same thinking in a concrete, interactive way: you change a number and see what happens.');
+
+  const swaps = [[/y = 2x \+ 5/, 1], [/def square\(x\)/, 2], [/can_drive/, 3], [/set_a \| set_b/, 4], [/Arithmetic sequence/, 5], [/number % 2/, 6], [/math\.log2/, 7]];
+  swaps.forEach(([re, n]) => { const c = idx(s, (x) => x.type === 'code' && re.test(x.code), 'code ' + n); s.splice(c, 1, ...codeAndOutput(get(n))); });
+  const seqApp = idx(s, (x) => x.type === 'paragraph' && /Netflix shows/.test(x.text), 'netflix paragraph');
+  s[seqApp] = P('<strong>Practical application:</strong> page numbers in search results, animation frames, repayment schedules and compound interest are all sequences. The formula line is worth noticing: adding up 100 numbers and using n(n+1)/2 give the same answer, but the formula takes one step however large n gets.');
+  const logApp = idx(s, (x) => x.type === 'paragraph' && /Analyzing algorithm performance, calculating compound interest/.test(x.text), 'log application');
+  s.splice(logApp + 1, 0,
+    H(3, 'Why binary search needs so few steps'),
+    P('Logarithms explain why searching a sorted list is fast. Binary search halves the range at every step, so a million items need at most 20 steps, because 2 to the power 20 is 1,048,576, just over a million. Here it is counting its steps:'),
+    ...codeAndOutput(get(8)));
+  const tip = idx(s, (x) => x.type === 'callout' && x.title === 'Learning Tip', 'learning tip');
+  s[tip].text = 'If you struggled with maths at school, try meeting it through programming. Seeing an abstract idea run, and changing it to see what happens, often makes it click.';
+  const bottom = idx(s, (x) => x.type === 'callout' && x.title === 'The Bottom Line', 'bottom line');
+  s[bottom].text = 'Do not let maths anxiety stop you from learning to code. Start programming now, and learn the maths your goal needs as you go.';
+
+  const maps = idx(s, pStarts('Google Maps and similar apps use sophisticated math'), 'maps');
+  s[maps] = P('Route-finding apps rely on geometry and graph algorithms:');
+  const stream = idx(s, pStarts('Netflix, Spotify, and YouTube use math'), 'streaming');
+  s[stream] = P('Recommendation systems in streaming and shopping apps are built on probability and linear algebra:');
+  const recH = idx(s, isH('Streaming Services: Probability and Linear Algebra'), 'streaming heading');
+  s[recH].text = 'Recommendations: Probability and Linear Algebra';
+
+  const acc = idx(s, (x) => x.type === 'accordion', 'faq accordion');
+  const items = s[acc].items.filter((it) => it.title !== 'Can programming help me get better at math?');
+  items.unshift(
+    { title: 'How is math used in programming?', content: 'Mostly as logic and structure: Boolean logic in every condition, algebra in every variable and formula, functions that map inputs to outputs, the modulo operator for cycles and even or odd checks, and logarithms when you reason about how fast an algorithm is. Specialised fields add linear algebra, calculus, statistics or trigonometry.' },
+    { title: 'How much math do you need for programming?', content: 'For websites, apps and most software, school maths is enough: arithmetic, basic algebra, percentages and true or false logic. Machine learning needs linear algebra, calculus and statistics, games need trigonometry and vectors, and competitive programming needs discrete maths and number theory.' });
+  items.push({ title: 'Can programming help me understand math?', content: 'Often, yes. Code turns an abstract idea into something you can run and change: you can watch a sequence grow, test a formula on a thousand values, or see why halving a range reaches the answer in a few steps. That makes it a good companion to maths lessons, though not a replacement for practising the maths itself.' });
+  s[acc].items = items;
+
+  const start = idx(s, (x) => x.type === 'callout' && x.title === 'Start Your Journey', 'start callout');
+  s[start] = { type: 'callout', calloutType: 'tip', title: 'Learn maths and coding together', text: `Ages 10 to 15: <a href='${MTC.url}'>${MTC.title}</a> teaches school maths by writing Python. For contest problems: <a href='${OLY.url}'>${OLY.title}</a>, or compare the olympiads on our <a href='/maths-olympiad-classes-online'>maths olympiad classes</a> page. The first class is a free demo, so you can see how it is taught before you decide.` };
+
+  save(name, j); console.log('retargeted', name);
+})();
