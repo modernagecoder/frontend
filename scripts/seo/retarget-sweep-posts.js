@@ -517,3 +517,150 @@ function codeAndOutput(p) {
 
   save(name, j); console.log('retargeted', name);
 })();
+
+// ────────────────────────────────────────────────────── best coding games for kids
+// Search Console, page-filtered, 16 months to 2026-09-23: "best coding games for kids" 5,346 impr @8.7 (1 click),
+// "coding games for kids" 1,120 @24.6, "programming games for kids" 367 @22, "kids coding games" 168 @25.
+// Rebuilt from facts checked on 2026-09-23 at each maker's own site or app store listing (raw pages saved,
+// every quote machine-matched): scratchfoundation.org (Scratch ages 8-13+, free, offline app on Windows/macOS/
+// ChromeOS/Android; ScratchJr 5-7 on iPad/Android/Amazon tablets), code.org/en-US/about ("why Code.org became
+// CodeAI", "Every CodeAI course, tool, and activity is free to use", Hour of Code became the Hour of AI),
+// code.org/en-US/tools (Sprite Lab 5-12, Game Lab 12-18 JavaScript, Python Lab 13-18), blockly.games/about
+// (open source, Pond Tutor switches to JavaScript, offline download), tynker.com (ages 5 to 18, free start plus
+// quarterly/yearly/lifetime plans, Python and JavaScript), kodable.com/parents (ages 4-10, paid subscription with
+// a 7-day free trial, real JavaScript), CodeCombat's own repo strings (Ages 8+, Junior 5-8, free introductory
+// levels, Python, JavaScript, C++, Java, Lua), Lightbot App Store listing (SpriteBox LLC, one-time paid app,
+// 50 levels; free Hour of Code demo on lightbot.com), education.minecraft.net (licence needed, MakeCode then
+// Python in Code Builder, Windows/Mac/ChromeOS/iOS/Android), create.roblox.com (free, Windows and Mac, Luau
+// derived from Lua 5.1, Roblox account needed).
+// Removed: two invented "parent reviews", a "Roblox success story", invented research statistics ("EdTech
+// Research Institute 2024", "2023 Stanford study"), "we've tested dozens", star ratings, rupee prices for
+// other companies' products, "12 best" in a post that listed 8, Lightbot Jr (only in commented-out HTML now),
+// "Kodable free tier" (home use is paid), "Created by Google" for Blockly Games (not stated by the site),
+// "Lua" for Roblox (Luau).
+(function codingGames() {
+  const name = 'top-coding-games-platforms-kids.json';
+  const j = load(name); if (j.meta.retarget === MARK) return console.log('skip', name);
+  const old = j.content.sections;
+  const SCRATCH = course('scratch-programming-complete-course');
+  const MINE = course('minecraft-coding-for-kids-course');
+  const ROBLOX = course('roblox-game-coding-for-kids-lua-course');
+  const GAMEDEV = course('game-development-masterclass-for-kids');
+  const PYKIDS = course('python-ai-kids-masterclass');
+  const link = (c) => `<a href='${c.url}'>${c.title}</a>`;
+
+  j.meta.title = 'Best Coding Games for Kids in 2026: 10 Picks by Age';
+  j.hero.title = j.meta.title;
+  j.hero.subtitle = 'Ten games and apps that teach real coding logic, sorted by age, with who makes each one, what it costs and what your child actually writes, checked at the source in September 2026.';
+  j.meta.description = 'The best coding games for kids in 2026 by age: Scratch, ScratchJr, CodeAI (formerly Code.org), Blockly Games, CodeCombat and more, free or paid, facts checked.';
+  j.meta.tldr = 'The best coding games for kids in 2026: ScratchJr for ages 5 to 7, Scratch from 8, CodeAI (the new name of Code.org) and Blockly Games as free structured options, CodeCombat for typed Python and JavaScript from 8, and Minecraft Education or Roblox Studio for fans of those games. Scratch, ScratchJr, CodeAI, Blockly Games and Roblox Studio are free; Tynker, Kodable, Lightbot, Minecraft Education and CodeCombat beyond its first levels are paid. Every fact here was checked at the maker\'s own site in September 2026.';
+  j.meta.keywords = ['best coding games for kids', 'coding games for kids', 'programming games for kids', 'kids coding games', 'free coding games for kids', 'Scratch', 'ScratchJr', 'CodeAI', 'Code.org', 'Blockly Games', 'CodeCombat', 'Tynker', 'Minecraft Education', 'Roblox Studio'];
+  j.meta.readTime = '12 min read';
+  j.meta.dateModified = TODAY; j.meta.retarget = MARK;
+
+  const game = (n, name, what, rows, note, extra) => [
+    H(3, `${n}. ${name}`),
+    P(what),
+    T(['', 'Details'], rows),
+    P(note),
+    ...(extra ? [P(extra)] : []),
+  ];
+
+  // keep the five parent tips (generic advice, no claims) exactly as they were
+  const tipsFrom = idx(old, (x) => x.type === 'heading' && x.id === 'parent-tips', 'parent tips');
+  const tipsTo = idx(old, (x) => x.type === 'divider' && old.indexOf(x) > tipsFrom, 'divider after tips');
+  const tips = old.slice(tipsFrom, tipsTo);
+
+  const s = [
+    { type: 'toc' },
+    P('The best coding games for kids in 2026, by age: <strong>ScratchJr</strong> for 5 to 7 year olds, <strong>Scratch</strong> from 8, <strong>CodeAI</strong> (the new name of Code.org) and <strong>Blockly Games</strong> as free step-by-step courses, <strong>CodeCombat</strong> when a child is ready to type real Python or JavaScript, and <strong>Minecraft Education</strong> or <strong>Roblox Studio</strong> for children who already love those worlds.'),
+    P('Five of the ten are free: Scratch, ScratchJr, CodeAI, Blockly Games and Roblox Studio. Tynker, Kodable, Lightbot and Minecraft Education are paid, and CodeCombat is free for its introductory levels. We checked every fact below on each maker\'s own website or app store listing on 23 September 2026, because this corner of the internet changes fast: Code.org renamed itself CodeAI in June 2026, and its Hour of Code is now the Hour of AI.'),
+    H(2, 'All 10 coding games at a glance', 'quick-comparison'),
+    T(['Game', 'Ages (maker)', 'Cost', 'What your child writes', 'Runs on'], [
+      ['ScratchJr', '5 to 7', 'Free', 'Picture blocks, no reading needed', 'iPad, Android and Amazon tablets'],
+      ['Scratch', '8 to 13+', 'Free', 'Drag-and-snap blocks', 'Web browser; offline app for Windows, macOS, ChromeOS, Android'],
+      ['CodeAI (formerly Code.org)', 'Kindergarten to Grade 12', 'Free', 'Blocks, then JavaScript and Python', 'Web browser'],
+      ['Blockly Games', 'Not stated (built for first-time coders)', 'Free, open source', 'Blocks, then JavaScript', 'Web browser, or downloaded for offline use'],
+      ['Tynker', '5 to 18', 'Free start, paid plans', 'Picture blocks, blocks, then Python and JavaScript', 'Web, iPad, iPhone'],
+      ['Kodable', '4 to 10', 'Paid, 7-day free trial', 'Drag-and-drop commands, then JavaScript', 'iPad, iPhone, web'],
+      ['CodeCombat', '8+ (Junior 5 to 8)', 'Free first levels, then paid', 'Typed Python or JavaScript (also C++, Java, Lua)', 'Web; Junior also on Chromebooks and tablets'],
+      ['Lightbot', 'All ages', 'Paid app (free web demo)', 'Commands that steer a robot', 'iPhone, iPad'],
+      ['Minecraft Education', 'Not stated', 'Paid licence (school or family)', 'MakeCode blocks, then Python', 'Windows, Mac, ChromeOS, iPhone, iPad, Android'],
+      ['Roblox Studio', 'Not stated (needs a Roblox account)', 'Free', 'Luau, a language based on Lua', 'Windows, Mac'],
+    ]),
+    P('"Ages (maker)" is the range each maker states itself; where a maker gives none, our suggested age is in the section below.'),
+    H(2, 'Free coding games that teach the most', 'best-free'),
+    ...game(1, 'Scratch (ages 8 to 13+, free)',
+      'Scratch is where a great many children start coding. Kids drag blocks that snap together, so there is no syntax to get wrong, and they build games, animations and interactive stories from the first session. It was developed at the MIT Media Lab in 2007, and since 2019 it has been run by the Scratch Foundation, an independent nonprofit.',
+      [['Made by', 'Scratch Foundation'], ['Cost', 'Free'], ['Ages stated by the maker', '8 to 13+'], ['Your child writes', 'Blocks, dragged and snapped together'], ['Runs on', 'Any web browser at scratch.mit.edu; an offline app for Windows 10+, macOS 10.13+, ChromeOS and Android 6.0+ (the Scratch Foundation lists no iPad app for full Scratch)']],
+      'Why it is first on most lists: children learn loops, conditions, variables and events while making something they want to show off, and projects can be shared in a moderated online community.',
+      `Want a teacher alongside? Our ${link(SCRATCH)} course takes ages 6 to 12 from their first sprite to finished games, live.`),
+    ...game(2, 'ScratchJr (ages 5 to 7, free)',
+      'ScratchJr is Scratch for young children. Its blocks are pictures rather than words, so a child can start before they can read, snapping blocks together to make characters move, jump, dance and sing.',
+      [['Made by', 'Scratch Foundation; co-created by Marina Bers and Mitchel Resnick'], ['Cost', 'Free'], ['Ages stated by the maker', '5 to 7'], ['Your child writes', 'Icon-based blocks'], ['Runs on', 'iPad (iPadOS 11+), Android tablets of 7 inches or more, Amazon tablets']],
+      'The natural first step for 5 to 7 year olds, and it leads straight into Scratch at about 8.'),
+    ...game(3, 'CodeAI, formerly Code.org (Kindergarten to Grade 12, free)',
+      'Code.org renamed itself <strong>CodeAI</strong> in June 2026; the address is still code.org. It is a nonprofit, and it states that every course, tool and activity is free. Younger children start with block-based coding such as Sprite Lab; older students move on to Game Lab (JavaScript), Web Lab (HTML, CSS and JavaScript) and Python Lab. Its famous Hour of Code is now called the <strong>Hour of AI</strong>.',
+      [['Made by', 'CodeAI (formerly Code.org), a nonprofit'], ['Cost', 'Free, with no ads'], ['Ages stated by the maker', 'Kindergarten to Grade 12: Sprite Lab 5 to 12, Game Lab 12 to 18, Python Lab 13 to 18'], ['Your child writes', 'Blocks, then JavaScript, HTML, CSS and Python'], ['Runs on', 'Web browser']],
+      'Best for children who like clear goals and step-by-step levels, and for families who want a free path from blocks to text code.'),
+    ...game(4, 'Blockly Games (first-time coders, free)',
+      'Blockly Games is a series of short browser games built on the Blockly library: Puzzle, Maze, Bird, Turtle, Movie, Music, Pond Tutor and Pond. Each introduces one idea, such as loops and conditions in Maze or functions in Music, and the last two switch between blocks and real JavaScript in a text editor.',
+      [['Made by', 'An open-source project (the site names no company)'], ['Cost', 'Free, open source'], ['Ages stated by the maker', 'None; it is designed for children with no programming experience'], ['Your child writes', 'Blocks, then JavaScript'], ['Runs on', 'Web browser, or downloaded for offline use']],
+      'We suggest it from about 8 as a quick, focused companion to Scratch, and as a gentle bridge to typed code at the end.'),
+    H(2, 'Paid coding games and apps worth considering', 'paid'),
+    ...game(5, 'Tynker (ages 5 to 18, free start and paid plans)',
+      'Tynker is a full coding curriculum: picture blocks for young children, then block coding, then courses in Python and JavaScript. A placement test puts a child on a path by age and skill, and Minecraft fans can build their own mods, skins and add-ons.',
+      [['Cost', 'Free to start; paid quarterly, yearly and lifetime plans covering up to 3 children'], ['Ages stated by the maker', '5 to 18 (Tynker Junior for the youngest)'], ['Your child writes', 'Picture blocks, blocks, then Python and JavaScript'], ['Runs on', 'Web, iPad, iPhone']],
+      'Good for a child who wants one app that keeps going for years; the free part gives a taste, so expect to pay for a plan if it clicks.'),
+    ...game(6, 'Kodable (ages 4 to 10, paid)',
+      'Kodable uses drag-and-drop commands that need no reading or typing, then moves children on to real JavaScript in its later worlds. It also includes a typing game, and it describes itself as ad-free with no messaging between users.',
+      [['Made by', 'SurfScore, Inc. (Kodable)'], ['Cost', 'Home use is a paid subscription with a 7-day free trial; teachers can create free accounts'], ['Ages stated by the maker', '4 to 10'], ['Your child writes', 'Drag-and-drop commands, then JavaScript'], ['Runs on', 'iPad, iPhone and the web']],
+      'A calm choice for 4 to 7 year olds who are not reading yet, and it grows with them into JavaScript.'),
+    ...game(7, 'CodeCombat (ages 8+, first levels free)',
+      'CodeCombat is an adventure game in which you type real code, Python or JavaScript, to move your hero through each level. Unlike most games on this list, children learn actual syntax rather than blocks. A Junior version for ages 5 to 8 uses blocks or simple text.',
+      [['Cost', 'Introductory levels free; a subscription unlocks the rest'], ['Ages stated by the maker', '8+ (CodeCombat Junior 5 to 8)'], ['Your child writes', 'Typed Python or JavaScript; C++, Java and Lua are also supported'], ['Runs on', 'Web at codecombat.com; Junior also on Chromebooks, tablets and iPads']],
+      'The best bridge we know of from blocks to typing, for a child of about 9 to 12 who loves role-playing games.',
+      `When your child wants to go further than the levels, our ${link(PYKIDS)} course (ages 9 to 12) teaches Python by building games and Turtle art.`),
+    ...game(8, 'Lightbot (all ages, paid app)',
+      'Lightbot is a puzzle game: you give a small robot commands to light up tiles, and in doing so learn procedures, loops and conditionals without typing any code. A free web demo made for the Hour of Code is on lightbot.com.',
+      [['Made by', 'SpriteBox LLC'], ['Cost', 'Paid, one-time purchase (free web demo)'], ['Ages stated by the maker', 'All ages, designed for first-time coders'], ['Your child writes', 'Commands that steer the robot'], ['Runs on', 'iPhone and iPad']],
+      'Fifty levels of pure logic; a good fit for a child who enjoys puzzles more than building their own projects.'),
+    H(2, 'Coding games for Minecraft and Roblox fans', 'minecraft-roblox'),
+    ...game(9, 'Minecraft Education (paid licence)',
+      'Minecraft Education is a separate edition of Minecraft made for schools. Its Code Builder lets children program the game world with MakeCode blocks and then Python. It needs a licence: usually through a school, or through a commercial offer for homeschools and families, so check with your child\'s school first.',
+      [['Made by', 'Mojang / Microsoft'], ['Cost', 'Paid licence (school, or a family and homeschool offer)'], ['Ages stated by the maker', 'Not stated; we suggest 7+'], ['Your child writes', 'MakeCode blocks, then Python'], ['Runs on', 'Windows, Mac, ChromeOS, iPhone, iPad, Android']],
+      'The obvious pick for a Minecraft fan, because the code changes a world they already care about.',
+      `Our ${link(MINE)} course (ages 7 to 12) takes Minecraft fans from blocks to real code with a teacher.`),
+    ...game(10, 'Roblox Studio (free, Windows and Mac)',
+      'Roblox Studio is the free tool for making Roblox games. Children script their games in <strong>Luau</strong>, Roblox\'s language derived from Lua 5.1, and can publish them to Roblox. It is the most demanding option on this list, and it needs a Roblox account, so set it up with your child.',
+      [['Made by', 'Roblox Corporation'], ['Cost', 'Free'], ['Ages stated by the maker', 'Not stated; we suggest 10+, with a parent managing the account'], ['Your child writes', 'Luau (typed code)'], ['Runs on', 'Windows 10 and macOS 10.14 or later']],
+      'Real game development with a real language, for a Roblox fan who is ready to type.',
+      `Our ${link(ROBLOX)} course (ages 8 to 14) builds real Roblox games in Luau, live with a teacher.`),
+    H(2, 'Which coding game for which age', 'age-recommendations'),
+    T(['Age', 'Start with', 'Then try', 'For fans of'], [
+      ['5 to 7', 'ScratchJr (free)', 'Kodable (paid trial), Lightbot', 'Puzzles: Lightbot'],
+      ['8 to 9', 'Scratch (free)', 'CodeAI courses, Blockly Games', 'Minecraft: Minecraft Education'],
+      ['10 to 12', 'Advanced Scratch projects', 'CodeCombat (typed Python or JavaScript)', 'Minecraft Education, Roblox Studio'],
+      ['13+', 'Python (CodeAI Python Lab, or a course)', 'CodeCombat, CodeAI Game Lab (JavaScript)', 'Roblox Studio'],
+    ]),
+    P('Ages are a starting point, not a rule: a confident 7 year old can enjoy Scratch, and a 12 year old who has never coded should still start with blocks for a few weeks.'),
+    ...tips,
+    H(2, 'Coding games for kids: common questions', 'faqs'),
+    { type: 'accordion', items: [
+      { title: 'What is the best free coding game for kids?', content: 'Scratch for children aged about 8 and up, ScratchJr for 5 to 7 year olds, and Blockly Games for short, focused puzzles. CodeAI (formerly Code.org) is also completely free and gives a step-by-step path from blocks to JavaScript and Python.' },
+      { title: 'Which coding games teach real code?', content: 'CodeCombat has children type Python or JavaScript, Roblox Studio uses Luau, and Blockly Games, Kodable and Tynker all move from blocks to JavaScript (Tynker also to Python). Block-based games still teach real programming ideas, loops, conditions and variables, which carry over to any language.' },
+      { title: 'What happened to Code.org and the Hour of Code?', content: 'Code.org renamed itself CodeAI in June 2026, and its Hour of Code became the Hour of AI. The website is still code.org, and CodeAI says every course, tool and activity remains free.' },
+      { title: 'Are free coding games as good as paid ones?', content: 'For a beginner, often yes: Scratch, ScratchJr, CodeAI and Blockly Games are enough for a year or more. Paid apps such as Tynker and Kodable add a longer structured path, progress reports and more content. Start free, and pay only once your child is hooked.' },
+      { title: 'How much time should my child spend on coding games?', content: 'Our suggestion is short, regular sessions: 20 to 30 minutes three times a week for younger children, and up to an hour for older ones, with breaks when frustration shows. Making something counts for more than time spent.' },
+      { title: 'My child just plays other people\'s projects. What should I do?', content: 'Encourage making over playing, for example one project of their own before browsing others. Platforms with levels, such as CodeAI, CodeCombat or Tynker, give more structure than open sandboxes.' },
+      { title: 'Is Roblox Studio safe for kids?', content: 'Roblox Studio is a creation tool, but it needs a Roblox account, and games can be published to the Roblox platform. Set the account up with your child, review its settings together, and agree what they will publish and share. Never share personal information in a game or its description.' },
+      { title: 'Can my child learn coding from games alone?', content: 'Games are excellent for starting and staying interested. Most children eventually benefit from structured teaching to fill gaps and to move to typed languages such as Python, which is where a course helps.' },
+      { title: 'When should we move from coding games to a course?', content: 'When your child has finished the main content of their favourite game, wants to build bigger projects of their own, is ready to type code, or keeps getting stuck on the same idea.' },
+    ] },
+    H(2, 'Start with one game this week', 'conclusion'),
+    P('Pick the game that matches your child\'s age and interests, play it with them for the first session, and ask them to show you what they made. The right coding game is the one they choose to open again tomorrow.'),
+    { type: 'callout', calloutType: 'tip', title: 'When your child is ready for a teacher', text: `Our live classes build on what these games start. Ages 6 to 12: ${link(SCRATCH)}. Ages 8 to 12: ${link(GAMEDEV)}. Minecraft fans, 7 to 12: ${link(MINE)}. Roblox fans, 8 to 14: ${link(ROBLOX)}. Ready to type, 9 to 12: ${link(PYKIDS)}. The first class is a free demo, so you can see how it is taught before you decide.` },
+  ];
+  j.content.sections = s;
+  save(name, j); console.log('retargeted', name);
+})();
