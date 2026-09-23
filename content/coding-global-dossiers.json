@@ -21018,5 +21018,60 @@
       "Nationality, ethnicity, religion, birthplace, national identity and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Department for Communities, NISRA, Lisburn Cathedral, the Irish Linen Centre or Lisburn and Castlereagh City Council."
     ]
+  },
+  "best-coding-class-in-derry-londonderry": {
+    "market": "Derry~Londonderry",
+    "bodyClass": "cg-dly",
+    "pageType": "city",
+    "curriculumAuthority": "NISRA Census 2021 MS-A01: settlement DERRY CITY 85,279; DEAs Ballyarnett 25,252, Faughan 19,234, Foyleside 17,568, Sperrin 24,720, The Moor 17,128, Waterside 29,045; LGD Derry City and Strabane 150,756; Northern Ireland 1,903,175. MS-A02 shares: Derry City 0-4 6.2, 10-14 6.8, 20-24 6.0, 70-74 4.2, 90+ 0.4 percent; Northern Ireland 6.0, 6.7, 5.9, 4.4, 0.7. HED: Guildhall (A, 1880-1899), St Columba's Church Long Tower (A, 1780-1799), Irish Society Office (A, 1760-1779), St Columb's Hall (A, 1880-1899); scheduled zones 014:033 Londonderry Town Walls, 014:072 star fortification (recorded as Ebbringtons Barracks) in Clooney.",
+    "localProject": "Where do the trains pass? Translink NI Railways TransXChange (updated 4 September 2026), Derry~Londonderry, Bellarena, Castlerock, Coleraine. Wednesday 30 September 2026: 16 trains each way; first model (no dwell) 15 meetings between Bellarena and Castlerock; with dwell times 15 meetings all at Bellarena. Saturday the same; Sunday 6 each way, no meetings. Straight-line distances 27.56 km and 11.40 km. No track claim. Lesson family: time-distance (Marey) charts and segment intersection.",
+    "requiredMentions": [
+      "85,279",
+      "time-distance",
+      "Bellarena",
+      "Castlerock",
+      "Shipquay",
+      "Long Tower",
+      "Irish Society",
+      "Foyleside",
+      "Waterside",
+      "Ballyarnett",
+      "The Moor",
+      "Derry City and Strabane"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA, Census 2021 MS-A01 usual resident population: settlement, DEA, LGD and Northern Ireland tables.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "NISRA, Census 2021 MS-A02 usual residents by age: Derry City and Northern Ireland.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a02.xlsx"
+      },
+      {
+        "claim": "OpenDataNI, Translink Northern Ireland Rail Timetable Data (TransXChange, updated 4 September 2026, Open Government Licence).",
+        "url": "https://www.opendatani.gov.uk/@translink/nir20160126v2"
+      },
+      {
+        "claim": "OpenDataNI, Translink rail stations and halts: coordinates for Derry~Londonderry, Bellarena and Castlerock.",
+        "url": "https://www.opendatani.gov.uk/@translink/northern-ireland-railways-stations"
+      },
+      {
+        "claim": "OpenDataNI, Listed Buildings Northern Ireland (Department for Communities, Historic Environment Division), GeoJSON of 10 September 2026.",
+        "url": "https://www.opendatani.gov.uk/@department-for-communities-historic-environment-division/listed-buildings-northern-ireland"
+      },
+      {
+        "claim": "Historic Environment Division GIS data, Scheduled Zones layer: 014:033 Londonderry Town Walls; 014:072.",
+        "url": "https://services2.arcgis.com/BdBkthNLO9mzGAMO/arcgis/rest/services/Historic_Environment_Division_GIS_Data/FeatureServer"
+      }
+    ],
+    "rejectedClaims": [
+      "Track layout on the line (single track, loops, double track): not in the timetable data, so the page makes no claim about why trains meet at Bellarena.",
+      "The length of the city walls: the scheduled zone's perimeter describes the protected area, not the walls, so no length is given.",
+      "The dates and history of the walls: not in the fetched records beyond the scheduling entry.",
+      "Any position on the name of the city: the page uses Translink's form, Derry~Londonderry, and quotes each source's own name for its data.",
+      "Nationality, ethnicity, religion, birthplace, national identity and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Translink, NISRA, the Department for Communities or Derry City and Strabane District Council."
+    ]
   }
 }

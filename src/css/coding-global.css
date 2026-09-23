@@ -1076,3 +1076,4 @@
 .cg-root.cg-sti  { --cg-accent: #143071; --cg-accent-soft: rgba(20,48,113,.10); }   /* Stirling: a deep navy, from the solver (10.08:1 on every paper tint, dE 6.9 from the nearest used accent) */
 .cg-root.cg-bni  { --cg-accent: #826417; --cg-accent-soft: rgba(130,100,23,.10); }   /* Bangor, Northern Ireland: a sand gold, from the solver (4.50:1 on every paper tint, dE 7.1 from the nearest used accent) */
 .cg-root.cg-lsb  { --cg-accent: #6B6B2E; --cg-accent-soft: rgba(107,107,46,.10); }   /* Lisburn: a flax olive, a nod to the Irish Linen Centre in Market Square; from the solver (4.52:1 on every paper tint, dE 7.2 from the nearest used accent) */
+.cg-root.cg-dly  { --cg-accent: #431919; --cg-accent-soft: rgba(67,25,25,.10); }   /* Derry~Londonderry: a deep oxblood, from the solver (12.25:1 on every paper tint, dE 6.8 from the nearest used accent) */
