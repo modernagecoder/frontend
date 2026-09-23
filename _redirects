@@ -3606,4 +3606,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-wakefield /src/pages/best-coding-class-in-wakefield.html 200
 /best-coding-class-in-wakefield.md /src/pages/best-coding-class-in-wakefield.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-doncaster /src/pages/best-coding-class-in-doncaster.html 200
+/best-coding-class-in-doncaster.md /src/pages/best-coding-class-in-doncaster.md 200
 /* /src/pages/404.html 404

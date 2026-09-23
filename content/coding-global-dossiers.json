@@ -18813,5 +18813,64 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Environment Agency, The Hepworth Wakefield, the National Coal Mining Museum or Wakefield Council."
     ]
+  },
+  "best-coding-class-in-doncaster": {
+    "market": "Doncaster",
+    "bodyClass": "cg-dnc",
+    "pageType": "city",
+    "curriculumAuthority": "Doncaster, Census 2021 via Nomis (E08000017): TS001 308,106 usual residents, 303,172 in households, 4,934 in communal establishments; TS007A 16,214 aged 20 to 24 (5.3 percent, England 6.0), 22,003 aged 55 to 59 (7.1 percent, England 6.7); TS068 52,064 students of 291,164 residents aged 5 and over (17.9 percent, England 20.4); TS006 542.4 usual residents per square kilometre (England 433.5). National Railway Museum: Mallard, A4 class, designed by Sir Nigel Gresley, built March 1938, 28th of 35 A4s, 126 mph down Stoke Bank on 3 July 1938, a steam record never surpassed; A4 shape honed in a wind tunnel; Gresley photographed at the Doncaster Works with the A4 named after him.",
+    "localProject": "Placing ten hubs among 199 neighbourhoods. Census 2021 LSOA populations (Nomis) and ONS LSOA 2021 population weighted centroids, read 23 September 2026; resident-weighted mean straight-line distance to nearest of ten hubs chosen among centroids; C(199,10) = 2.13e16. Random (2,000): best 2.015 km, median 2.863, worst 5.696. Greedy 1.822. Hill climbing from 10 starts: 1.767 to 1.820, 8 distinct. Simulated annealing 10 x 40,000 steps: 1.767 to 1.779; 2,000 steps: 1.781 to 1.863; cold start 1.767 to 1.799. Best set: 67.4 percent within 2 km, 96.5 within 5 km, farthest 6.47 km. Greedy by hub count: 1 6.417, 3 4.160, 5 2.973, 10 1.822, 15 1.335. Lesson family: simulated annealing and heuristic optimisation; distinct from Bristol Voronoi and Rathfarnham travelling salesman.",
+    "requiredMentions": [
+      "308,106",
+      "303,172",
+      "4,934",
+      "542.4",
+      "22,003",
+      "52,064",
+      "291,164",
+      "Mallard",
+      "Gresley",
+      "Stoke Bank",
+      "simulated annealing",
+      "1.767"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Doncaster: 308,106 usual residents; 303,172 in households; 4,934 in communal establishments; LSOA populations.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E08000017"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Doncaster and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E08000017,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Doncaster 52,064 students of 291,164 aged 5 and over (17.9 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E08000017,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, Doncaster 542.4 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E08000017,E92000001"
+      },
+      {
+        "claim": "ONS, Lower Layer Super Output Areas (December 2021) population weighted centroids.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/LSOA_PopCentroids_EW_2021_V4/FeatureServer"
+      },
+      {
+        "claim": "National Railway Museum, Mallard: the world's fastest steam locomotive (126 mph, Gresley, wind tunnel).",
+        "url": "https://www.railwaymuseum.org.uk/whats-on/mallard-worlds-fastest-steam-locomotive"
+      },
+      {
+        "claim": "National Railway Museum, Mallard 75: 3 July 1938, Stoke Bank, built March 1938, 28th of 35 A4s, Gresley at the Doncaster Works.",
+        "url": "https://www.railwaymuseum.org.uk/what-was-on/mallard-75"
+      }
+    ],
+    "rejectedClaims": [
+      "That Mallard was built in Doncaster: the museum pages used do not say so, so the page links Gresley to the Doncaster Works only through the museum photograph.",
+      "Science Museum Group collection record for Mallard: returned 429 (rate limited) and was not retried.",
+      "Any claim that the ten computed hubs are real or recommended sites: they are an exercise in search on straight-line distances.",
+      "A Doncaster total built by adding the 199 neighbourhood counts: neighbourhood populations are weights only; the council-area figure is used for totals.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Office for National Statistics, the National Railway Museum or City of Doncaster Council."
+    ]
   }
 }
