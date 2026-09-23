@@ -20304,5 +20304,77 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Environment Agency, the Victoria County History, Chichester Cathedral, Historic England or Chichester District Council."
     ]
+  },
+  "best-coding-class-in-truro": {
+    "market": "Truro",
+    "bodyClass": "cg-tru",
+    "pageType": "city",
+    "curriculumAuthority": "Census 2021 via Nomis. Cornwall E06000052: TS001 570,305 usual residents, 562,448 in households, 7,857 communal; TS068 94,591 students of 544,773 aged 5 and over (17.4 percent); TS006 160.9 per square kilometre; TS007A 40,401 aged 70 to 74 of 570,302 (7.1 percent; England 5.0). Truro East E02003908 8,458, 1,576 of 8,070 (19.5 percent), 2,364.8; Truro West E02003909 10,739, 417 communal, 1,954 of 10,203 (19.2 percent), 950.2; Truro South and Central E02003910 6,968, 1,109 of 6,650 (16.7 percent), 2,108.6, 277 aged 85 and over of 6,967 (4.0 percent). England 20.4 percent, 433.5. Truro Cathedral: diocese 1876; Benson 25 April 1877; foundation stones 20 May 1880; St Mary's last services 3 October 1880; central tower by 1905; completed 1910; Pearson died 1897; Nine Lessons and Carols sheet 1880. NHLE 1205377, Grade I, 29 December 1950.",
+    "localProject": "Where do the Tre- names stop? OS Open Names settlements in Cornwall, Devon and Torbay (2,385). Tre- 183 (182 Cornwall, Trentishoe in Devon), Pen- 39 (34, 5 incl. Pennsylvania), Pol- 16 (12, 4 around Polsloe and Poltimore). KS on eastings vs all other names: Tre- D 0.557, permutation 0 of 2,000; Pen- D 0.463; Pol- D 0.297, p 0.097. Inside Cornwall: Tre- vs other names D 0.096, p 0.113; Tre- share 16.2 percent, 7.8 to 24.3 percent by 20 km band. Lesson family: Kolmogorov-Smirnov two-sample test.",
+    "requiredMentions": [
+      "570,305",
+      "10,739",
+      "2,364.8",
+      "Kolmogorov-Smirnov",
+      "Trentishoe",
+      "Polsloe",
+      "Treliske",
+      "Tresillian",
+      "Penelewey",
+      "Trelissick",
+      "Kenwyn",
+      "Threemilestone"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001: Cornwall 570,305; Truro East 8,458; Truro West 10,739; Truro South and Central 6,968.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E02003908,E02003909,E02003910,E06000052"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: age bands for the three Truro areas and Cornwall.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E02003908,E02003909,E02003910,E06000052"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: students among usual residents aged 5 and over.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E02003908,E02003909,E02003910,E06000052,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E02003908,E02003909,E02003910,E06000052,E92000001"
+      },
+      {
+        "claim": "House of Commons Library, MSOA Names: Truro East, Truro West, Truro South and Central.",
+        "url": "https://houseofcommonslibrary.github.io/msoanames/"
+      },
+      {
+        "claim": "Ordnance Survey, OS Open Names: settlement names, types, counties and grid positions for Cornwall, Devon and Torbay.",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-names"
+      },
+      {
+        "claim": "Truro Cathedral, Cathedral Story: diocese 1876; Benson 1877; foundation stones 20 May 1880; central tower by 1905; completed 1910.",
+        "url": "https://www.trurocathedral.org.uk/history/cathedral-story"
+      },
+      {
+        "claim": "Truro Cathedral, Building the Cathedral: last services in St Mary's 3 October 1880; south aisle kept; Pearson died 1897; completed 1910.",
+        "url": "https://www.trurocathedral.org.uk/history/cathedral-story/building-the-cathedral"
+      },
+      {
+        "claim": "Truro Cathedral, Bishop Benson: consecrated 25 April 1877; Nine Lessons and Carols service sheet from 1880.",
+        "url": "https://www.trurocathedral.org.uk/history/cathedral-story/bishop-benson"
+      },
+      {
+        "claim": "Historic England, National Heritage List for England: Truro Cathedral 1205377.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1205377"
+      }
+    ],
+    "rejectedClaims": [
+      "The traditional rhyme about Tre, Pol and Pen, and any claim about the Cornish language or the meaning of the prefixes: not taken from a fetched source.",
+      "That the county boundary follows the River Tamar: not used, since no fetched source was read for it; the page speaks of the county boundary.",
+      "The length and dates of the pause in building the cathedral: the cathedral's two history pages give different accounts (1887 to 1898, and a restart eleven years after 1898), so the pause is left out.",
+      "That Tre- names grow commoner towards the west of Cornwall: the within-Cornwall test does not support it, and the page says so.",
+      "Plymouth and the Isles of Scilly: not in the Open Names extract used, so the counts cover Cornwall, Devon and Torbay only.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Ordnance Survey, Truro Cathedral, Historic England or Cornwall Council."
+    ]
   }
 }
