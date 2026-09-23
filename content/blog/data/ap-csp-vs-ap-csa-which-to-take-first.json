@@ -52,7 +52,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Is AP CSA harder than AP CSP?</strong> To learn, yes: Computer Science A means writing Java from memory, with a three-hour exam that is all programming. To score a 5 in, no: on College Board's preliminary 2026 figures, 25 per cent of Computer Science A candidates scored a 5 against 10 per cent in Principles. Principles is broader and gentler, a project year with multiple-choice and written responses; Computer Science A is a Java programming year."
+        "text": "<strong>Is AP CSA harder than AP CSP?</strong> To learn, yes: Computer Science A means writing Java from memory, with a three-hour exam that is all programming. To score a 5 in, no: in College Board's published <a href='https://apstudents.collegeboard.org/about-ap-scores/score-distributions' target='_blank' rel='noopener noreferrer'>2026 score distributions</a>, 25 per cent of Computer Science A candidates scored a 5 against 10 per cent in Principles. Principles is broader and gentler, a project year with multiple-choice and written responses; Computer Science A is a Java programming year."
       },
       {
         "type": "heading",
@@ -340,7 +340,7 @@
         "items": [
           {
             "title": "Is AP CSA harder than AP CSP?",
-            "content": "Harder to learn, yes: Computer Science A is a year of Java and an exam made entirely of programming questions. Harder to get a 5 in, no: on College Board's preliminary 2026 figures, 25 per cent of Computer Science A candidates scored a 5 against 10 per cent in Principles."
+            "content": "Harder to learn, yes: Computer Science A is a year of Java and an exam made entirely of programming questions. Harder to get a 5 in, no: in College Board's published 2026 score distributions, 25 per cent of Computer Science A candidates scored a 5 against 10 per cent in Principles."
           },
           {
             "title": "What is the difference between AP CSP and AP CSA?",
