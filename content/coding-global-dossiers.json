@@ -19958,5 +19958,56 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Met Office, Hereford Cathedral or Herefordshire Council."
     ]
+  },
+  "best-coding-class-in-armagh": {
+    "market": "Armagh",
+    "bodyClass": "cg-agh",
+    "pageType": "city",
+    "curriculumAuthority": "NISRA Census 2021 MS-A01: Armagh settlement 16,310; Armagh DEA 32,405; Armagh City, Banbridge and Craigavon 218,656; Northern Ireland 1,903,175; settlements Tandragee 3,545, Keady 3,343, Richhill 2,738, Markethill 1,912, Hamiltonsbawn 1,041. MS-A02 (LGD): 0 to 4 14,175 (6.5 percent, NI 6.0), 5 to 9 15,431 (7.1, NI 6.5), 10 to 14 15,814 (7.2, NI 6.7), 20 to 24 11,570 (5.3, NI 5.9); NI total 1,903,174 in MS-A02 by table protection, so the MS-A01 total is used. Armagh Observatory and Planetarium: opened 1790 (Archbishop Robinson); weather from 1794, daily from 1795; Night of the Big Wind 6 January 1839 and the cup anemometer; Thomas Romney Robinson director from 1823 for 59 years, died 28 February 1882; J.L.E. Dreyer; Grubb 10-inch refractor 1885; New General Catalogue the principal catalogue of nebulae and galaxies.",
+    "localProject": "How out of order is Dreyer's catalogue today? OpenNGC (CC BY-SA 4.0), 7,840 plain NGC entries with J2000 positions. Merge sort inversion count: 63,917 comparisons against 30,728,880 pairs. Raw 359,626 inversions (1.170 percent); last 40 entries (NGC 7801 to 7840) wrapped past 0h; unwrapped 47,634 (0.155 percent), wrap artefact 311,992. Adjacent descents 3,126 of 7,839. Median displacement 4 places; 90th percentile 19; max 1,923 (NGC 2573, -89 20). Bands: south of -60 0.760 percent (median displacement 16); equator band 0.076 (3); north of +60 0.343 (19). Lesson family: counting inversions with merge sort.",
+    "requiredMentions": [
+      "16,310",
+      "218,656",
+      "32,405",
+      "Dreyer",
+      "New General Catalogue",
+      "Romney Robinson",
+      "Big Wind",
+      "Richhill",
+      "Markethill",
+      "Tandragee",
+      "Keady",
+      "OpenNGC"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA, Census 2021 MS-A01 usual resident population: settlement, DEA, LGD and Northern Ireland tables.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "NISRA, Census 2021 MS-A02 usual residents by age: Armagh City, Banbridge and Craigavon and Northern Ireland.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a02.xlsx"
+      },
+      {
+        "claim": "Armagh Observatory and Planetarium, History: 1790; Thomas Romney Robinson; Dreyer and the New General Catalogue.",
+        "url": "https://armagh.space/heritage/armagh-observatory/history"
+      },
+      {
+        "claim": "Armagh Observatory and Planetarium, Weather History and Overview of Meteorology: records from 1794, daily from 1795; Night of the Big Wind 1839.",
+        "url": "https://armagh.space/weather/history"
+      },
+      {
+        "claim": "OpenNGC (Mattia Verga), NGC.csv, released under CC BY-SA 4.0.",
+        "url": "https://github.com/mattiaverga/OpenNGC"
+      }
+    ],
+    "rejectedClaims": [
+      "A claim about the epoch Dreyer used for his positions: not taken from a fetched source; the page says only that coordinates have changed since the 1880s and that the catalogue runs very nearly in position order, which our own count shows.",
+      "The Observatory's description of Robinson's 59 years as a world record for an observatory director: not repeated.",
+      "A test of the 1865 Stevenson Screen change on the Met Office Armagh file: temperatures there begin in 1865, so no before-and-after comparison is possible from that source.",
+      "OpenNGC component entries such as lettered parts: excluded so each NGC number counts once, and the page says so.",
+      "Nationality, religion, community background and other identity data: excluded by the cluster rules.",
+      "Any affiliation with Armagh Observatory and Planetarium, OpenNGC, NISRA or Armagh City, Banbridge and Craigavon Borough Council."
+    ]
   }
 }
