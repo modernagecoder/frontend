@@ -19244,5 +19244,73 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Environment Agency, Southend-on-Sea City Council, Southend Pier or Historic England."
     ]
+  },
+  "best-coding-class-in-colchester": {
+    "market": "Colchester",
+    "bodyClass": "cg-clc",
+    "pageType": "city",
+    "curriculumAuthority": "Colchester, Census 2021 via Nomis (E07000071): TS001 192,715 usual residents, 187,617 in households, 5,098 in communal establishments; TS007A 11,793 aged 5 to 9 (6.1 percent, England 5.9), 13,877 aged 20 to 24 (7.2 percent, England 6.0); TS068 40,421 students of 181,885 residents aged 5 and over (22.2 percent, England 20.4); TS006 587.2 usual residents per square kilometre (England 433.5). Colchester Museums: largest Norman keep in Europe; Roman Vaults, foundations of the Temple of Claudius; first Roman capital of Britain and site of Boudica's rebellion. NHLE scheduled monuments: Colchester Castle and the Temple of Claudius (1002217), Balkerne Gate (1002187), Colchester Roman Circus (1021426, scheduled 13 November 2007). GOV.UK List of Cities 2022.",
+    "localProject": "Once it has been dry for a week, how long will it stay dry? EA Hydrology daily rainfall, West Bergholt, 13 July 2012 to 21 September 2026: 4,376 usable of 5,184 days; wet at 1.0 mm or more. 696 spells with observed start, 686 ended, 10 censored (longest 14 days from 24 March 2025). Kaplan-Meier beyond 3/7/14/21/30 days: 37.8, 16.4, 5.7, 1.7, 0.46 percent; median 2 days. Constant hazard (P(dry|dry) 0.773): 16.5, 2.7, 0.45, 0.04 percent at 7/14/21/30. Hazard 33.2 percent day 1, 13.9 days 8-10, 10.6 beyond 21. Censoring variants at 14 days: drop 5.4, as-ended 5.3. Longest spell 58 days, 30 May to 26 July 2018. Lesson family: Kaplan-Meier survival analysis.",
+    "requiredMentions": [
+      "192,715",
+      "187,617",
+      "587.2",
+      "40,421",
+      "181,885",
+      "Temple of Claudius",
+      "Boudica",
+      "Balkerne",
+      "Norman keep",
+      "West Bergholt",
+      "Wivenhoe",
+      "Kaplan-Meier"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Colchester: 192,715 usual residents; 187,617 in households; 5,098 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E07000071"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Colchester and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E07000071,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Colchester 40,421 students of 181,885 aged 5 and over (22.2 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E07000071,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, Colchester 587.2 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E07000071,E92000001"
+      },
+      {
+        "claim": "Environment Agency Hydrology, West Bergholt daily rainfall with completeness and quality flags.",
+        "url": "https://environment.data.gov.uk/hydrology/id/measures/9aedcc0b-121b-49c5-a706-9b5cb2598f05-rainfall-t-86400-mm-qualified"
+      },
+      {
+        "claim": "Colchester Museums, Colchester Castle: largest Norman keep in Europe; Roman Vaults, foundations of the Temple of Claudius.",
+        "url": "https://colchester.cimuseums.org.uk/visit/colchester-castle/"
+      },
+      {
+        "claim": "Colchester Museums, Romans in Colchester session: first Roman capital of Britain and site of Boudica's rebellion.",
+        "url": "https://colchester.cimuseums.org.uk/learn/museum-sessions/romans-in-colchester/"
+      },
+      {
+        "claim": "Historic England NHLE open data, scheduled monuments: Colchester Castle and the Temple of Claudius (1002217), Balkerne Gate (1002187), Colchester Roman Circus (1021426, 13 November 2007).",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1021426"
+      },
+      {
+        "claim": "GOV.UK, List of Cities (29 August 2022): Colchester listed.",
+        "url": "https://www.gov.uk/government/publications/list-of-cities"
+      }
+    ],
+    "rejectedClaims": [
+      "Colchester as Britain's oldest recorded town: no fetchable primary source was found; the museum's own wording (first Roman capital of Britain) is used and attributed.",
+      "A two-state Markov chain on the same rain: already the Oxford page's project; survival analysis is used instead.",
+      "A claim that censoring changed the answer much here: only 10 of 696 spells were censored, and the page reports the small difference.",
+      "Days marked incomplete, suspect, estimated or unchecked: excluded (808 of 5,184); spells are counted only between usable days.",
+      "Visit Colchester pages: returned 403 and were not circumvented.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Environment Agency, Colchester Museums, Historic England or Colchester City Council."
+    ]
   }
 }

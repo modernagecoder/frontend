@@ -176,7 +176,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 124 | best-coding-class-in-chelmsford (chm, #724A31) | city (UK, Phase 4) | 3,428 | 1.9% vs best-coding-class-in-exeter | How small can a year of the River Chelmer get? | LZW dictionary compression and delta encoding | a448c08a |
 | 125 | best-coding-class-in-durham (drm, #1E3C67) | city (UK, Phase 4) | 3,582 | 1.7% vs best-coding-class-in-peterborough | Could the monks have seen the Battle of Neville's Cross? | Bresenham rasterisation and line of sight | d7c9a790 |
 | 126 | best-coding-class-in-stoke-on-trent (sot, #772B22) | city (UK, Phase 4) | 3,373 | 2.2% vs best-coding-class-in-canterbury | Is it a glitch, or is it Bonfire Night? | Median filter | 340063dd |
-| 127 | best-coding-class-in-southend-on-sea (sos, #173B45) | city (UK, Phase 4) | 3,510 | 2.3% vs best-coding-class-in-canterbury | When exactly was high water? | Sub-sample peak interpolation and root finding | (this commit) |
+| 127 | best-coding-class-in-southend-on-sea (sos, #173B45) | city (UK, Phase 4) | 3,510 | 2.3% vs best-coding-class-in-canterbury | When exactly was high water? | Sub-sample peak interpolation and root finding | 3678c7fa |
+| 128 | best-coding-class-in-colchester (clc, #7E279B) | city (UK, Phase 4) | 3,391 | 2.6% vs best-coding-class-in-canterbury | Once it has been dry for a week, how long will it stay dry? | Kaplan-Meier survival analysis | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
