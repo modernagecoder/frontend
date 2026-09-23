@@ -19048,5 +19048,73 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Environment Agency, Historic England, the Essex Record Office, Chelmsford City Council or any Marconi organisation."
     ]
+  },
+  "best-coding-class-in-durham": {
+    "market": "Durham",
+    "bodyClass": "cg-drm",
+    "pageType": "city",
+    "curriculumAuthority": "County Durham, Census 2021 via Nomis (E06000047): TS001 522,068 usual residents, 508,762 in households, 13,306 in communal establishments; TS068 98,781 students of 497,316 aged 5 and over (19.9 percent, England 20.4); TS006 234.5 per square kilometre (England 433.5). MSOAs (House of Commons Library names): E02004314 Durham City 12,666 residents, 6,351 in households, 6,315 communal, 10,073 students of 12,608 (79.9 percent), 5,354 aged 20 to 24 (42.2 percent), 1,787.9 per square kilometre; E02004313 Gilesgate and Old Durham 6,746 (35.6 percent students, 2,086.8); E02004315 Aykley Heads, Neville's Cross and Langley Moor 13,300 (40.1 percent, 1,052.6); E02004309 Pity Me and Framwellgate Moor 6,194 (20.0 percent, 2,439.6). Durham World Heritage Site: UNESCO inscription 1986; Towers page: 1429 repair, second strike thirty years later, new tower 1465 to 1474, second storey ten years later; 1346 monks watched the Battle of Neville's Cross from the central tower; 17 October anthems.",
+    "localProject": "Could the monks have seen the Battle of Neville's Cross? OS Terrain 50 (50 m), observer at NHLE 1161023 (cell 65.1 m), target 1.7 m, curvature and refraction k 0.13. Monument (1016622) 1,110 m away, 23 Bresenham cells, needs 10.4 m. Registered battlefield 1000024, 157 cells: visible 0 to 30 m none, 40 m 3, 50 m 4, 60 m 16, 70 m 37; per-cell needed height min 32.2, median 85.2; 14 hidden at 300 m (143 visible at some height). Bresenham vs 5 m bilinear sampling agree 157 of 157 at 20 and 40 m. 5 km viewshed (31,416 cells): 6.3, 40.4, 65.1 percent at 0, 40, 70 m; 1,854,044 cell visits. Lesson family: Bresenham rasterisation and line of sight.",
+    "requiredMentions": [
+      "522,068",
+      "12,666",
+      "10,073",
+      "234.5",
+      "Neville's Cross",
+      "1346",
+      "Cuthbert",
+      "Bresenham",
+      "1,854,044",
+      "Framwellgate",
+      "Gilesgate",
+      "1465"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001: County Durham 522,068 usual residents; MSOA E02004314 12,666 (6,315 communal); E02004313, E02004315, E02004309.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E06000047,E02004314,E02004313,E02004315,E02004309"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: students aged 5 and over, County Durham 19.9 percent; Durham City MSOA 10,073 of 12,608 (79.9 percent).",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E06000047,E02004314,E02004313,E02004315,E02004309,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: density, County Durham 234.5 per square kilometre; MSOA densities.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E06000047,E02004314,E02004313,E02004315,E02004309,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Durham City MSOA 5,354 aged 20 to 24 (42.2 percent).",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E02004314,E92000001"
+      },
+      {
+        "claim": "House of Commons Library, MSOA Names 2.2: E02004314 Durham City and neighbouring area names.",
+        "url": "https://houseofcommonslibrary.github.io/msoanames/"
+      },
+      {
+        "claim": "Durham World Heritage Site, Towers: 1346 monks on the central tower; 1429 repair; new tower 1465 to 1474; second storey.",
+        "url": "https://www.durhamworldheritagesite.com/learn/architecture/cathedral/intro/towers"
+      },
+      {
+        "claim": "Durham World Heritage Site home page: UNESCO inscribed the site in 1986; stewards.",
+        "url": "https://www.durhamworldheritagesite.com/"
+      },
+      {
+        "claim": "Historic England NHLE open data: Cathedral 1161023 Grade I; Neville's Cross 1016622 and 1323226; registered battlefield 1000024 (Battle of Neville's Cross 1346).",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1000024"
+      },
+      {
+        "claim": "Ordnance Survey Terrain 50, ASCII grid, OS Data Hub downloads.",
+        "url": "https://api.os.uk/downloads/v1/products/Terrain50/downloads"
+      }
+    ],
+    "rejectedClaims": [
+      "A verdict that the monks did or did not see the battle: the height of the 1346 tower is unknown and the answer is given across a range of eye heights.",
+      "The height of the present central tower: not found in a fetchable primary source; the present tower postdates the battle anyway.",
+      "UNESCO World Heritage Centre page for Durham: returned 403 and was not circumvented; the inscription year comes from the Durham World Heritage Site.",
+      "Historic England list entry pages: 403 to scripted requests, not circumvented; names, grades, dates and boundaries come from the NHLE open data layer.",
+      "A County Durham figure presented as the city: the page separates the unitary authority from the Durham City middle-layer area.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules. The Cathedral is described as heritage only.",
+      "Any affiliation with Durham Cathedral, Durham University, the Durham World Heritage Site, Historic England, Ordnance Survey or Durham County Council."
+    ]
   }
 }
