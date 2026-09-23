@@ -20150,5 +20150,87 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the US Naval Observatory, NASA, Wells Cathedral, Historic England or Somerset Council."
     ]
+  },
+  "best-coding-class-in-lichfield": {
+    "market": "Lichfield",
+    "bodyClass": "cg-lic",
+    "pageType": "city",
+    "curriculumAuthority": "Census 2021 via Nomis. Lichfield district E07000194: TS001 106,436 usual residents, 105,042 in households, 1,394 communal; TS068 16,756 students of 101,207 aged 5 and over (16.6 percent); TS006 321.3 per square kilometre. Lichfield Central E02006149 10,724, 1,866 students of 10,179 (18.3 percent), 3,097.1, TS007A 657 aged 10 to 14 of 10,727; Lichfield East E02006150 11,451, 1,627 of 10,994 (14.8 percent), 2,765.7, 814 aged 65 to 69 of 11,454; Lichfield West and South E02006152 10,403, 1,794 of 9,871 (18.2 percent), 1,621.1. England 20.4 percent, 433.5. VCH Staffordshire 14: Ryknild Street, Watling Street at Wall in the 70s, Letocetum, Wall bypass 1965, pools, Defoe quotation, spires by 1323, 1646, April 1666, rededication Christmas Eve 1669. Cathedral: three spires, Ladies of the Vale, St Chad 669. NHLE 1298431, 1292492, 1187355 (Grade I, 5 February 1952); scheduled 1006108 (21 May 1953).",
+    "localProject": "How straight are the roads with Roman names? OS Open Roads SK, chained links, slip roads excluded. Full chains: A38 15.65 km along, 15.53 straight, 1.008, 20 of 186 points at 10 m; A5 26.38, 25.18, 1.048, 68 of 435; A51 10.65, 9.51, 1.120, 39 of 292. 2 km windows every 250 m: A38 median 1.0009 (65 percent under 1.005, 55 windows); A5 1.0164 (12 percent, 98); A51 1.0588 (0, 35). Named pieces: A38 Rykneld Street 2.41 km 1.0002 (3 of 34); A5 Watling Street 1.0001, 1.0006, 1.0080; Hints 1.0083; Boley Park Ryknild Street 1.078 along, 0.917 straight, 1.175. Open Rivers: Curborough Brook 1.134; River Tame 1.440; Tame keeps 189 of 190 points at 1 m. Lesson family: Douglas-Peucker line simplification and sinuosity.",
+    "requiredMentions": [
+      "106,436",
+      "10,724",
+      "3,097.1",
+      "Douglas-Peucker",
+      "sinuosity",
+      "Rykneld",
+      "Letocetum",
+      "Minster Pool",
+      "Boley Park",
+      "Leomansley",
+      "Streethay",
+      "Fradley"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001: Lichfield district 106,436; Lichfield Central 10,724; Lichfield East 11,451; Lichfield West and South 10,403.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E02006149,E02006150,E02006152,E07000194"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: five-year age bands for the three Lichfield areas.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E02006149,E02006150,E02006152,E07000194"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: students among usual residents aged 5 and over.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E02006149,E02006150,E02006152,E07000194,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E02006149,E02006150,E02006152,E07000194,E92000001"
+      },
+      {
+        "claim": "House of Commons Library, MSOA Names: Lichfield Central, Lichfield East, Lichfield West and South.",
+        "url": "https://houseofcommonslibrary.github.io/msoanames/"
+      },
+      {
+        "claim": "Ordnance Survey, OS Open Roads and OS Open Rivers: road links with names and numbers; watercourse links.",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-roads"
+      },
+      {
+        "claim": "Victoria County History, Staffordshire vol. 14, Lichfield: Domestic buildings and communications (Ryknild Street; crossing of Watling Street near Wall).",
+        "url": "https://www.british-history.ac.uk/vch/staffs/vol14/pp43-47"
+      },
+      {
+        "claim": "Victoria County History, Staffordshire vol. 14, Wall with Pipehill: fort in the 50s or 60s, Watling Street in the 70s, Letocetum, bypass completed 1965.",
+        "url": "https://www.british-history.ac.uk/vch/staffs/vol14/pp283-294"
+      },
+      {
+        "claim": "Victoria County History, Staffordshire vol. 14, Introduction: Minster Pool and Stowe Pool, Defoe quotations, Curborough brook, Johnson's native Lichfield.",
+        "url": "https://www.british-history.ac.uk/vch/staffs/vol14/pp1-3"
+      },
+      {
+        "claim": "Victoria County History, Staffordshire vol. 14, The cathedral: Chad 669 to 672; spires probably by 1323; 1646 siege; central spire complete by April 1666; rededicated Christmas Eve 1669.",
+        "url": "https://www.british-history.ac.uk/vch/staffs/vol14/pp47-57"
+      },
+      {
+        "claim": "Lichfield Cathedral, History: only English medieval cathedral with three spires, Ladies of the Vale; St Chad came in 669.",
+        "url": "https://www.lichfield-cathedral.org/history"
+      },
+      {
+        "claim": "Historic England, National Heritage List for England: 1298431, 1292492, 1187355 (Grade I); scheduled monument 1006108.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1298431"
+      }
+    ],
+    "rejectedClaims": [
+      "That the A5 or A38 follow the exact Roman alignment: the page says only that Ordnance Survey names stretches after the Roman roads, and cites the county history for Wall's 1965 bypass.",
+      "That the Boley Park Ryknild Street is or is not on the Roman line: not established from a fetched source; used only to show that a name does not prove a route.",
+      "Comparing Douglas-Peucker point counts between roads and rivers: Open Rivers is drawn with far fewer points, so rivers are compared only by sinuosity.",
+      "Samuel Johnson's birth year and Erasmus Darwin biography: the Johnson Birthplace Museum and Erasmus Darwin House websites returned 403, not circumvented; the page uses only the county history's phrase and NHLE entry names.",
+      "English Heritage pages for Wall Roman Site (history and visit) returned 403, not circumvented. The Historic England list entry page returned 403; list data came from the NHLE open data service.",
+      "Gutendex did not respond; no Gutenberg text was used.",
+      "The cathedral's claims that it is one of the most elegant in the country and suffered more than any other cathedral: evaluative, not used.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Ordnance Survey, the Victoria County History, Lichfield Cathedral, Historic England or Lichfield District Council."
+    ]
   }
 }

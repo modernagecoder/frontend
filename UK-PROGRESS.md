@@ -190,7 +190,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 138 | best-coding-class-in-hereford (hfd, #6B2E51) | city (UK, Phase 4) | 3,313 | 2.8% vs best-coding-class-in-st-albans | How warm is it really, underneath the noise? | Kalman filter | 3f010b2a |
 | 139 | best-coding-class-in-armagh (agh, #153F79) | city (UK, Phase 4) | 3,246 | 3.6% vs best-coding-class-in-chester | How out of order is Dreyer's catalogue today? | Counting inversions (merge sort) | 73ec7c26 |
 | 140 | best-coding-class-in-bangor-wales (bgw, #2E3B4C) | city (UK, Phase 4) | 3,398 | 2.8% vs best-coding-class-in-lancaster | Did the sunshine change, or did the instrument? | Regression discontinuity | 68bf2e0a |
-| 141 | best-coding-class-in-wells (wel, #242239) | city (UK, Phase 4) | 3,887 | 2.2% vs best-coding-class-in-durham | Can an average month predict the full moon? | Julian day numbers and mean-lunation model | (this commit) |
+| 141 | best-coding-class-in-wells (wel, #242239) | city (UK, Phase 4) | 3,887 | 2.2% vs best-coding-class-in-durham | Can an average month predict the full moon? | Julian day numbers and mean-lunation model | e14657a7 |
+| 142 | best-coding-class-in-lichfield (lic, #93361A) | city (UK, Phase 4) | 3,682 | 3.9% vs best-coding-class-in-bangor-wales | How straight are the roads with Roman names? | Douglas-Peucker line simplification and sinuosity | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
