@@ -1,0 +1,65 @@
+[
+  {
+    "n": 1,
+    "title": "The simplest function",
+    "code": "def greet():\n    print(\"Hello! Welcome to Python.\")\n\ngreet()\ngreet()          # define once, run as often as you like",
+    "output": "Hello! Welcome to Python.\nHello! Welcome to Python.",
+    "sample": false
+  },
+  {
+    "n": 2,
+    "title": "Reusability",
+    "code": "def add_numbers(a, b):\n    return a + b\n\nprint(add_numbers(5, 3))\nprint(add_numbers(10, 20))\nprint(add_numbers(2.5, 0.5))",
+    "output": "8\n30\n3.0",
+    "sample": false
+  },
+  {
+    "n": 3,
+    "title": "Readability",
+    "code": "def update_score(current_score, points):\n    return current_score + points\n\nscore = 0\nscore = update_score(score, 10)     # the name says what happens\nscore = update_score(score, 25)\nprint(\"Total:\", score)",
+    "output": "Total: 35",
+    "sample": false
+  },
+  {
+    "n": 4,
+    "title": "Less repetition (DRY)",
+    "code": "def greet_user(name):\n    print(f\"Hello, {name}!\")\n\nfor name in [\"Aryan\", \"Priya\", \"Rohan\"]:\n    greet_user(name)",
+    "output": "Hello, Aryan!\nHello, Priya!\nHello, Rohan!",
+    "sample": false
+  },
+  {
+    "n": 5,
+    "title": "Easier testing",
+    "code": "def is_even(n):\n    return n % 2 == 0\n\n# each check runs the function on its own, away from the rest of the program\nassert is_even(4) is True\nassert is_even(7) is False\nassert is_even(0) is True\nprint(\"all 3 checks passed\")",
+    "output": "all 3 checks passed",
+    "sample": false
+  },
+  {
+    "n": 6,
+    "title": "Change it in one place",
+    "code": "def format_price(amount):\n    return f\"USD {amount:,.2f}\"      # change the format here and every caller follows\n\nprint(format_price(1500))\nprint(format_price(19.5))\nprint(format_price(1234567.891))",
+    "output": "USD 1,500.00\nUSD 19.50\nUSD 1,234,567.89",
+    "sample": false
+  },
+  {
+    "n": 7,
+    "title": "Parameters and return values",
+    "code": "def calculate_area(length, width):\n    area = length * width\n    return area\n\nresult = calculate_area(5, 4)\nprint(\"Area:\", result)\nprint(\"Twice the area:\", 2 * calculate_area(5, 4))   # a returned value can be used anywhere",
+    "output": "Area: 20\nTwice the area: 40",
+    "sample": false
+  },
+  {
+    "n": 8,
+    "title": "Forgetting return",
+    "code": "def add_without_return(a, b):\n    total = a + b          # calculated, but never sent back\n\ndef add_with_return(a, b):\n    return a + b\n\nprint(add_without_return(2, 3))\nprint(add_with_return(2, 3))",
+    "output": "None\n5",
+    "sample": false
+  },
+  {
+    "n": 9,
+    "title": "Small functions from real projects",
+    "code": "def check_answer(user_answer, correct_answer):\n    if user_answer.strip().lower() == correct_answer.lower():\n        return \"Correct!\"\n    return \"Try again.\"\n\ndef respond(message):\n    if \"hello\" in message.lower():\n        return \"Hi there! How can I help?\"\n    return \"I'm not sure what you mean.\"\n\nprint(check_answer(\" Paris \", \"paris\"))\nprint(check_answer(\"Rome\", \"paris\"))\nprint(respond(\"Hello bot\"))\nprint(respond(\"What is 2 + 2?\"))",
+    "output": "Correct!\nTry again.\nHi there! How can I help?\nI'm not sure what you mean.",
+    "sample": false
+  }
+]

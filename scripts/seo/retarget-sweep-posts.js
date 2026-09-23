@@ -292,3 +292,95 @@ function codeAndOutput(p) {
 
   save(name, j); console.log('retargeted', name);
 })();
+
+// ────────────────────────────────────────────────────── advantages of functions in Python
+// Search Console, page-filtered, 16 months to 2026-09-23: "advantages of functions in python" 1,410 impr
+// @6.8 (0.3% CTR), "advantages of function in python" 919 @7.4 (0 clicks), "benefits of functions in
+// python" 461, "why we use function in python" 384, "why do we use functions in python" 378, "why use
+// functions in python" 290, "advantages of using functions in python" 278. A textbook exam question, so the
+// answer is a numbered list first. Code now comes from scripts/seo/code-posts/functions_programs.py with
+// captured output; the built-in vs user-defined "table" was pipe characters in paragraphs; a sentence
+// attributed to the Python documentation is reworded to what the linked tutorial section actually is.
+(function functionsAdvantages() {
+  const name = 'functionadvantage.json';
+  const j = load(name); if (j.meta.retarget === MARK) return console.log('skip', name);
+  const s = j.content.sections;
+  const progs = runs('functions_programs');
+  const get = (n) => progs.find((p) => p.n === n);
+  const KIDS = course('python-ai-kids-masterclass');
+  const TEENS = course('python-complete-masterclass-teens');
+  const ADULTS = course('python-programming-masterclass-zero-to-advanced-college');
+  // same order as the numbered H3 sections below
+  const ADV = ['Reusability: write the code once and call it as often as you need', 'Readability: a well-named function says what the code does', 'Easier debugging and testing: check one small piece at a time', 'Better organisation (modularity): split a big problem into small parts', 'Less repetition: the DRY principle, Don\'t Repeat Yourself', 'Teamwork: different people can write different functions', 'Easier maintenance: fix or change the logic in one place', 'Abstraction: use a function without knowing how it works inside'];
+
+  j.meta.title = 'Advantages of Functions in Python: 8 Benefits With Examples';
+  j.hero.title = j.meta.title; j.hero.featuredImage.alt = j.meta.title;
+  j.meta.description = 'The advantages of functions in Python for students: reusability, less repetition, readability, easier testing and more, each shown with code and its output.';
+  j.meta.tldr = 'The main advantages of functions in Python are reusability, readable code, easier debugging and testing, better organisation, less repetition (DRY), easier teamwork, changes made in one place, and abstraction. We use functions so a job is written once, named clearly and called wherever it is needed. Every example here shows its real output.';
+  addKeywords(j.meta, ['advantages of function in python', 'benefits of functions in python', 'why do we use functions in python', 'why use functions in python', 'advantages of using functions in python', 'why we use function in python', 'types of functions in python']);
+  j.meta.readTime = '11 min read';
+  j.meta.dateModified = TODAY; j.meta.retarget = MARK;
+
+  s[1] = P('The main advantages of functions in Python are:');
+  s[2] = P('In short, we use functions in Python so that a job is written once, given a clear name and called wherever it is needed, instead of copying the same lines around a program. Each advantage is explained below with a short program and the output it prints.');
+  s.splice(2, 0, { type: 'list', style: 'ordered', items: ADV.map((a) => { const [head, rest] = a.split(': '); return `<strong>${head}</strong>: ${rest}`; }) });
+
+  const c1 = idx(s, (x) => x.type === 'code' && /Welcome to Python/.test(x.code), 'greet code');
+  s.splice(c1, 1, ...codeAndOutput(get(1)));
+  const docs = idx(s, (x) => x.type === 'paragraph' && /Python official documentation/.test(x.text), 'docs paragraph');
+  s[docs] = P(`Python has two types of functions. Built-in functions come ready to use, such as <code>print()</code>, <code>len()</code> and <code>input()</code>. User-defined functions are the ones you write yourself with the <code>def</code> keyword. The official Python tutorial covers them in its section on <a href='https://docs.python.org/3/tutorial/controlflow.html#defining-functions' target='_blank' rel='noopener noreferrer'>defining functions</a>.`);
+
+  const swap = (re, n) => { const c = idx(s, (x) => x.type === 'code' && re.test(x.code), 'code ' + n); s.splice(c, 1, ...codeAndOutput(get(n))); };
+  swap(/def add_numbers/, 2);
+  swap(/def update_score\(current_score, points\)/, 3);
+  swap(/def greet_user/, 4);
+  swap(/def calculate_area/, 7);
+  const same = idx(s, pStarts('Same function, different inputs'), 'same function');
+  s[same] = P('Same function, different inputs, different results, and not one line repeated.');
+  const story = idx(s, pStarts('The second version tells a story.'), 'story paragraph');
+  s[story].text = s[story].text.replace('The second version tells a story.', 'The second version tells a story, and it grows cleanly: adding 25 more points is one more readable line.');
+
+  const bulbs = idx(s, pStarts("It's like finding one broken bulb"), 'bulbs');
+  s.splice(bulbs + 1, 0, P('Because a function takes inputs and returns a result, you can check it on its own with a few known answers. Python\'s <code>assert</code> stops the program if a check fails:'), ...codeAndOutput(get(5)));
+
+  const team = idx(s, pStarts('This is how large apps are actually built'), 'team end');
+  s.splice(team + 1, 0,
+    H(3, '7. Easier Maintenance: Change It in One Place'),
+    P('If the same calculation is copied into ten places, a change means ten edits and ten chances to miss one. Inside a function, you change it once and every call follows. Here, changing the format string would change every price the program prints:'),
+    ...codeAndOutput(get(6)),
+    H(3, '8. Abstraction: Use It Without Knowing How It Works'),
+    P('You call <code>len()</code>, <code>sorted()</code> and <code>print()</code> every day without reading their code. Your own functions work the same way: once <code>calculate_area()</code> is written and tested, the rest of the program only needs its name, its inputs and what it returns. That is what lets programs grow without every part having to be understood at once.'));
+
+  const tHead = idx(s, pStarts('<strong>Type | Examples | When to Use</strong>'), 'pipe table');
+  s.splice(tHead, 3, T(['Type', 'Examples', 'When to use'], [
+    ['Built-in', '<code>print()</code>, <code>len()</code>, <code>input()</code>, <code>range()</code>', 'Everyday tasks Python already knows how to do'],
+    ['User-defined', 'Functions you write with <code>def</code>', 'Logic specific to your program'],
+    ['Lambda (anonymous)', '<code>lambda x: x * 2</code>', 'A one-line function passed to <code>sorted()</code>, <code>map()</code> or <code>filter()</code>'],
+  ]));
+
+  const rw = idx(s, pStarts('<strong>Game score calculator:</strong>'), 'real world start');
+  const rwEnd = idx(s, (x) => x.type === 'paragraph' && /Python projects for kids/.test(x.text), 'real world end');
+  s.splice(rw, rwEnd - rw, P('A quiz checker and a tiny chatbot, each a function that takes an input and returns an answer:'), ...codeAndOutput(get(9)));
+
+  const noReturn = idx(s, pStarts('<strong>Forgetting return</strong>'), 'forgetting return');
+  s[noReturn] = P('<strong>Forgetting return</strong>: the function runs but hands back nothing, which Python shows as <code>None</code>. Use <code>return</code> whenever the result is needed outside the function:');
+  s.splice(noReturn + 1, 0, ...codeAndOutput(get(8)));
+
+  const concl = idx(s, isH('Conclusion'), 'conclusion');
+  s.splice(concl, 0,
+    H(2, 'Functions in Python: common questions', 'faq'),
+    { type: 'accordion', items: [
+      { title: 'What are the advantages of functions in Python?', content: 'Reusability, readable code, easier debugging and testing, better organisation into modules, less repetition (DRY), easier teamwork, changes made in one place, and abstraction: using a function without knowing how it works inside.' },
+      { title: 'Why do we use functions in Python?', content: 'To write a piece of logic once, give it a clear name and call it wherever it is needed. That keeps programs shorter, easier to read and easier to fix, because each job lives in one place.' },
+      { title: 'What are the types of functions in Python?', content: 'Built-in functions such as <code>print()</code> and <code>len()</code>, user-defined functions written with <code>def</code>, and anonymous lambda functions written with <code>lambda</code>. Functions defined inside a class are called methods.' },
+      { title: 'What is the difference between built-in and user-defined functions?', content: 'Built-in functions come with Python and are always available. User-defined functions are written by you, with <code>def</code>, for the logic your own program needs.' },
+      { title: 'What happens if a function has no return statement?', content: 'It still runs, but it returns <code>None</code>. If you print the result of such a call, you see <code>None</code>, as in the example above.' },
+      { title: 'What is a function in Python, with an example?', content: 'A named block of code that does one job. For example, <code>def add_numbers(a, b): return a + b</code> defines a function, and <code>add_numbers(5, 3)</code> calls it and gives back 8.' },
+    ] });
+
+  const cta = idx(s, (x) => x.type === 'paragraph' && /explore our <a href='https:\/\/learn\.modernagecoders\.com\/courses\/python-ai-kids-masterclass'/.test(x.text), 'cta');
+  s[cta] = { type: 'callout', calloutType: 'tip', title: 'Learn Python live, with a teacher reading your code', text: `Functions are where programs start to feel like real software. Ages 9 to 12: <a href='${KIDS.url}'>${KIDS.title}</a>. Ages 13 to 18: <a href='${TEENS.url}'>${TEENS.title}</a>. College students and adults: <a href='${ADULTS.url}'>${ADULTS.title}</a>. The first class is a free demo, so you can see how it is taught before you decide.` };
+  s.forEach((x) => { if (x.type === 'paragraph') x.text = x.text.replace(/href='https:\/\/learn\.modernagecoders\.com\//g, "href='/").replace(/(href='\/[^']*') target='_blank' rel='noopener noreferrer'/g, '$1'); });
+
+  save(name, j); console.log('retargeted', name);
+})();
