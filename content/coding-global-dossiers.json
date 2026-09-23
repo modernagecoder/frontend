@@ -20376,5 +20376,86 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Ordnance Survey, Truro Cathedral, Historic England or Cornwall Council."
     ]
+  },
+  "best-coding-class-in-ripon": {
+    "market": "Ripon",
+    "bodyClass": "cg-rip",
+    "pageType": "city",
+    "curriculumAuthority": "Census 2021 via Nomis. Harrogate census district E07000165: TS001 162,666 usual residents, 158,140 in households, 4,526 communal; TS068 27,517 of 155,382 aged 5 and over (17.7 percent); TS006 124.4 per square kilometre. Ripon North and West E02005762 6,254, 526 communal, 1,112 of 6,008 (18.5 percent), 1,145.5; Ripon South and East E02005764 10,336, 190 communal, 1,594 of 9,908 (16.1 percent), 2,307.9, 424 aged 85 and over (4.1 percent), 685 aged 70 to 74. England 20.4 percent, 433.5, 2.4 percent aged 85 and over. Ripon Cathedral: crypt from Wilfrid's church of 672, oldest built fabric of any English cathedral (attributed); Wilfrid c634 to 710; singers from Canterbury. NHLE 1150164 and 1315492 (Grade I, 27 May 1949), 1174370 (II*); WHS 1000094, 1986, core area about 311 hectares.",
+    "localProject": "Are the floods rising faster than the ordinary flows? EA Hydrology daily mean flow, quantile regression of log flow on time at the 10th, 50th, 90th and 99th percentiles, 300 water-year bootstrap resamples. Ure at Westwick 1960 to 2025 all days: +1.2, +1.3, +4.1 (+0.5 to +7.3), +4.2 (+1.1 to +6.8) percent per decade. Ure 1982 to 2025 without Estimated and Suspect: +4.8, +0.1, +3.3 (-1.8 to +8.5), +5.9 (+0.5 to +10.9). Good-only check 99th +6.1 (-4.1 to +15.9). Laver 1979 to 2025: +2.6, -2.2, +4.9, +8.7 (-0.5 to +15.0). Lesson family: quantile regression.",
+    "requiredMentions": [
+      "1,145.5",
+      "2,307.9",
+      "162,666",
+      "quantile regression",
+      "Westwick",
+      "Skell",
+      "Wilfrid",
+      "Studley",
+      "Bishopton",
+      "Sharow",
+      "Littlethorpe",
+      "Clotherholme"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001: Harrogate census district 162,666; Ripon North and West 6,254; Ripon South and East 10,336.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E02005762,E02005764,E07000165"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: age bands for the two Ripon areas and the district.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E02005762,E02005764,E07000165"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: students among usual residents aged 5 and over.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E02005762,E02005764,E07000165,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E02005762,E02005764,E07000165,E92000001"
+      },
+      {
+        "claim": "House of Commons Library, MSOA Names: Ripon North and West, Ripon South and East.",
+        "url": "https://houseofcommonslibrary.github.io/msoanames/"
+      },
+      {
+        "claim": "Environment Agency hydrology data, River Ure at Westwick: daily mean flow with quality flags.",
+        "url": "https://environment.data.gov.uk/hydrology/id/measures/e2db454d-9cdd-43b0-b47c-6fb047bd6fb4-flow-m-86400-m3s-qualified"
+      },
+      {
+        "claim": "Environment Agency hydrology data, River Laver at Ripon Laver Weir: daily mean flow with quality flags.",
+        "url": "https://environment.data.gov.uk/hydrology/id/measures/efe53bb2-d752-4aa6-af43-e2240eae3675-flow-m-86400-m3s-qualified"
+      },
+      {
+        "claim": "Ripon Cathedral, home page: Anglo-Saxon crypt, oldest built fabric of any English cathedral; singers from Canterbury.",
+        "url": "https://www.riponcathedral.org.uk/"
+      },
+      {
+        "claim": "Ripon Cathedral, Heritage: Wilfrid c634 to 710; crypt still intact from Wilfrid's original church of 672AD.",
+        "url": "https://riponcathedral.org.uk/heritage/"
+      },
+      {
+        "claim": "Historic England, National Heritage List for England: 1150164, 1315492, 1174370; World Heritage Site 1000094.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1000094"
+      },
+      {
+        "claim": "Ordnance Survey, OS Open Names: Ripon and nearby places.",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-names"
+      },
+      {
+        "claim": "Ordnance Survey, OS Open Rivers: the Laver joins the Skell and the Skell joins the Ure within 3 km of Ripon.",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-rivers"
+      }
+    ],
+    "rejectedClaims": [
+      "That the Ure's high flows rose because of any particular cause, or that early peaks were capped by the gauge: not established from a fetched source; the page reports only the flags and the fits.",
+      "Treating the Good-only fit as the main result: it leaves out every unchecked day from 2012 to 2024, so it is reported as a check only.",
+      "The Ripon hornblower tradition: the city council websites tried did not connect, so it is not described.",
+      "A date for the change from Harrogate district to North Yorkshire Council: not taken from a fetched source; the page says only that Open Names places Ripon in North Yorkshire.",
+      "The location of the Grade I obelisk: the list entry name gives none, so the page does not place it.",
+      "A combined population for Ripon: the two middle-layer areas are given separately and not added.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Environment Agency, Ripon Cathedral, Historic England, Ordnance Survey or North Yorkshire Council."
+    ]
   }
 }

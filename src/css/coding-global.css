@@ -1066,3 +1066,4 @@
 .cg-root.cg-lic  { --cg-accent: #93361A; --cg-accent-soft: rgba(147,54,26,.10); }   /* Lichfield: a red sandstone brick, after the dark red sandstone of the cathedral, from the solver (6.12:1 on every paper tint, dE 6.9 from the nearest used accent) */
 .cg-root.cg-chi  { --cg-accent: #38753C; --cg-accent-soft: rgba(56,117,60,.10); }   /* Chichester: a chalk-stream green for a page about the River Lavant, from the solver (4.51:1 on every paper tint, dE 7.1 from the nearest used accent) */
 .cg-root.cg-tru  { --cg-accent: #174D82; --cg-accent-soft: rgba(23,77,130,.10); }   /* Truro: an estuary blue, from the solver (7.04:1 on every paper tint, dE 6.9 from the nearest used accent) */
+.cg-root.cg-rip  { --cg-accent: #4A4C24; --cg-accent-soft: rgba(74,76,36,.10); }   /* Ripon: a dark moss green, from the solver (7.25:1 on every paper tint, dE 7.0 from the nearest used accent) */
