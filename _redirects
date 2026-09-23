@@ -3682,4 +3682,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-armagh /src/pages/best-coding-class-in-armagh.html 200
 /best-coding-class-in-armagh.md /src/pages/best-coding-class-in-armagh.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-bangor-wales /src/pages/best-coding-class-in-bangor-wales.html 200
+/best-coding-class-in-bangor-wales.md /src/pages/best-coding-class-in-bangor-wales.md 200
 /* /src/pages/404.html 404

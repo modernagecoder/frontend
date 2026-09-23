@@ -1061,3 +1061,4 @@
 .cg-root.cg-sta  { --cg-accent: #655115; --cg-accent-soft: rgba(101,81,21,.10); }   /* St Albans: a ripe-wheat gold for Broadbalk, from the solver (6.22:1 on every paper tint, dE 7.2 from the nearest used accent) */
 .cg-root.cg-hfd  { --cg-accent: #6B2E51; --cg-accent-soft: rgba(107,46,81,.10); }   /* Hereford: a map-ink mulberry for the Mappa Mundi, from the solver (7.98:1 on every paper tint, dE 7.3 from the nearest used accent) */
 .cg-root.cg-agh  { --cg-accent: #153F79; --cg-accent-soft: rgba(21,63,121,.10); }   /* Armagh: a night-sky blue for the Observatory, from the solver (8.44:1 on every paper tint, dE 6.2 from the nearest used accent) */
+.cg-root.cg-bgw  { --cg-accent: #2E3B4C; --cg-accent-soft: rgba(46,59,76,.10); }   /* Bangor: a slate blue-grey, from the solver (9.23:1 on every paper tint, dE 6.3 from the nearest used accent) */

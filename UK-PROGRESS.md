@@ -188,7 +188,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 136 | best-coding-class-in-worcester (wor, #47447E) | city (UK, Phase 4) | 3,265 | 3.9% vs best-coding-class-in-chester | Can you find the shortest route without searching the whole city? | A* search | 06d29955 |
 | 137 | best-coding-class-in-st-albans (sta, #655115) | city (UK, Phase 4) | 3,404 | 3.6% vs best-coding-class-in-lancaster | Which matters more, the fertiliser or the year? | Analysis of variance | e620b606 |
 | 138 | best-coding-class-in-hereford (hfd, #6B2E51) | city (UK, Phase 4) | 3,313 | 2.8% vs best-coding-class-in-st-albans | How warm is it really, underneath the noise? | Kalman filter | 3f010b2a |
-| 139 | best-coding-class-in-armagh (agh, #153F79) | city (UK, Phase 4) | 3,246 | 3.6% vs best-coding-class-in-chester | How out of order is Dreyer's catalogue today? | Counting inversions (merge sort) | (this commit) |
+| 139 | best-coding-class-in-armagh (agh, #153F79) | city (UK, Phase 4) | 3,246 | 3.6% vs best-coding-class-in-chester | How out of order is Dreyer's catalogue today? | Counting inversions (merge sort) | 73ec7c26 |
+| 140 | best-coding-class-in-bangor-wales (bgw, #2E3B4C) | city (UK, Phase 4) | 3,398 | 2.8% vs best-coding-class-in-lancaster | Did the sunshine change, or did the instrument? | Regression discontinuity | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
