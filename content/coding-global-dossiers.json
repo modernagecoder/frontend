@@ -19379,5 +19379,76 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Bath and North East Somerset Council, the Roman Baths, Historic England or Project Gutenberg."
     ]
+  },
+  "best-coding-class-in-ely": {
+    "market": "Ely",
+    "bodyClass": "cg-ely",
+    "pageType": "city",
+    "curriculumAuthority": "East Cambridgeshire, Census 2021 via Nomis (E07000009): TS001 87,762 usual residents, 87,000 in households, 762 in communal establishments; TS007A 5,526 aged 10 to 14 (6.3 percent, England 6.0), 3,663 aged 20 to 24 (4.2 percent, England 6.0); TS068 14,966 students of 83,243 residents aged 5 and over (18.0 percent, England 20.4); TS006 134.8 per square kilometre (England 433.5). MSOAs (House of Commons Library names): E02003734 North Ely 11,960 (1,142.5 per square kilometre); E02003735 South Ely 8,613 (176.7). Ely Cathedral: island until about 400 years ago when Fen drainage began; 161 m long; West Tower c1189, 66 m, 288 steps; Octagon. St Etheldreda founded a double monastery in 673. Norman central tower collapsed 13 February 1322. Ely Museum: island of solid land surrounded by marshes. NHLE 1331690 Cathedral of the Holy Trinity, Grade I.",
+    "localProject": "When does Ely become an island again? OS Terrain 50, 50 km square (E 530000 to 580000, N 250000 to 300000), 1,000 by 1,000 cells; heights -8.3 to 130.2 m; 18.5 percent below 0 m. Water raised in 0.25 m steps; 4-connected dry components. Ely (cathedral cell 20.7 m) separates from the square's edge at 1.50 m, component 104.5 square km; 5 m 62.3; 10 m 12.3; 20 m 3.5; at 0 m 1,968.9 and 1 m 1,671.5 connected to the edge. Spanning: real terrain stops at 12.30 m with 40.8 percent dry; shuffled heights stop at 3.60 m with 59.6 percent dry (theory about 59.3). Lesson family: percolation.",
+    "requiredMentions": [
+      "87,762",
+      "14,966",
+      "83,243",
+      "11,960",
+      "Etheldreda",
+      "Octagon",
+      "Littleport",
+      "Soham",
+      "percolation",
+      "104.5",
+      "Isle of Ely",
+      "288 steps"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001: East Cambridgeshire 87,762; North Ely 11,960; South Ely 8,613.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E07000009,E02003734,E02003735"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: East Cambridgeshire and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E07000009,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: East Cambridgeshire 14,966 students of 83,243 aged 5 and over (18.0 percent).",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E07000009,E02003734,E02003735,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: density, East Cambridgeshire 134.8; North Ely 1,142.5; South Ely 176.7 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E07000009,E02003734,E02003735,E92000001"
+      },
+      {
+        "claim": "House of Commons Library, MSOA Names: North Ely, South Ely.",
+        "url": "https://houseofcommonslibrary.github.io/msoanames/"
+      },
+      {
+        "claim": "Ely Cathedral, History and Heritage: island until about 400 years ago; 161 m; West Tower c1189, 66 m, 288 steps; Octagon.",
+        "url": "https://www.elycathedral.org/about/history-heritage"
+      },
+      {
+        "claim": "Ely Cathedral, St Etheldreda: double monastery founded in 673.",
+        "url": "https://www.elycathedral.org/about/history-heritage/st-etheldreda"
+      },
+      {
+        "claim": "Ely Cathedral, The Octagon: Norman central tower collapsed on 13 February 1322.",
+        "url": "https://www.elycathedral.org/about/history-heritage/the-octagon"
+      },
+      {
+        "claim": "Ely Museum: Ely built on an island of solid land surrounded by marshes.",
+        "url": "https://www.elymuseum.org.uk/"
+      },
+      {
+        "claim": "Ordnance Survey Terrain 50, ASCII grid, OS Data Hub downloads; NHLE open data for the Cathedral of the Holy Trinity (1331690).",
+        "url": "https://api.os.uk/downloads/v1/products/Terrain50/downloads"
+      }
+    ],
+    "rejectedClaims": [
+      "A flood forecast for Ely: Terrain 50 smooths banks and embankments and shows the drained land surface; the 1.5 m figure is a model answer for one map and one square.",
+      "Ely's rank among England's smallest cities: a disputed comparison, not used.",
+      "The cathedral's claim to be the third longest medieval cathedral in England: not needed and not used; its length in metres is used instead.",
+      "Peat shrinkage figures since drainage: no fetchable primary source used; the page says only that the map shows land after centuries of drainage.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Ordnance Survey, Ely Cathedral, Ely Museum, Historic England or East Cambridgeshire District Council."
+    ]
   }
 }

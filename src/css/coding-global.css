@@ -1051,3 +1051,4 @@
 .cg-root.cg-sos  { --cg-accent: #173B45; --cg-accent-soft: rgba(23,59,69,.10); }   /* Southend-on-Sea: an estuary slate for the Thames at low water, from the solver (9.75:1 on every paper tint, dE 6.4 from the nearest used accent) */
 .cg-root.cg-clc  { --cg-accent: #7E279B; --cg-accent-soft: rgba(126,39,155,.10); }   /* Colchester: an imperial Roman purple, from the solver (6.43:1 on every paper tint, dE 8.3 from the nearest used accent) */
 .cg-root.cg-bth  { --cg-accent: #776540; --cg-accent-soft: rgba(119,101,64,.10); }   /* Bath: a honey-stone ochre for the Georgian terraces, from the solver (4.58:1 on every paper tint, dE 7.3 from the nearest used accent) */
+.cg-root.cg-ely  { --cg-accent: #596A39; --cg-accent-soft: rgba(89,106,57,.10); }   /* Ely: a fen-reed olive for the drained marshland, from the solver (4.81:1 on every paper tint, dE 8.0 from the nearest used accent) */
