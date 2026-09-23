@@ -19450,5 +19450,68 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Ordnance Survey, Ely Cathedral, Ely Museum, Historic England or East Cambridgeshire District Council."
     ]
+  },
+  "best-coding-class-in-salisbury": {
+    "market": "Salisbury",
+    "bodyClass": "cg-sal",
+    "pageType": "city",
+    "curriculumAuthority": "Wiltshire, Census 2021 via Nomis (E06000054): TS001 510,333 usual residents, 498,138 in households, 12,195 in communal establishments; TS007A 24,238 aged 20 to 24 (4.7 percent, England 6.0), 29,911 aged 70 to 74 (5.9 percent, England 5.0); TS068 84,967 students of 484,705 residents aged 5 and over (17.5 percent, England 20.4); TS006 156.8 per square kilometre (England 433.5). Salisbury MSOAs (House of Commons Library names): Bishopsdown 6,868; Bemerton 7,623; Stratford 5,889; Churchfields 6,905; Town North and Milford 6,156; Cathedral and Harnham 5,038 (2,464.8 per square kilometre); East Harnham 6,048. Salisbury Cathedral: one of only four surviving 1215 originals; agreed 15 June 1215; delivered to Old Sarum probably by Elias Dereham, who oversaw building from 1220; other originals at the British Library and Lincoln Castle. NHLE: Cathedral Church of St Mary 1023581, Grade I; Old Sarum scheduled monument 1015675.",
+    "localProject": "Can you find a sentence without reading every letter? Avalon Project English translation of Magna Carta 1215: 4,871 words, 993 distinct, 27,150 characters, 63 clauses. Clause 40 (Avalon wording, 75 characters) at character 13,980: naive 29,146 comparisons; hashing every window 2,030,700 character operations; rolling hash 54,225 plus 75 checked, one hash match. Cathedral wording not found by exact search; 3-word shingles 9 of 12 shared (Jaccard 0.60; 2-word 0.71; 4-word 0.50). 5-word phrases: 4,726 distinct, 128 repeated; top \"the five and twenty barons\" 4, \"the law of the land\" 3, \"lawful judgment of his peers\" 3. Lesson family: rolling-hash string search and shingling; distinct from Southampton hash tables.",
+    "requiredMentions": [
+      "510,333",
+      "498,138",
+      "84,967",
+      "484,705",
+      "156.8",
+      "Elias Dereham",
+      "Old Sarum",
+      "Rabin-Karp",
+      "Harnham",
+      "Bemerton",
+      "five and twenty barons",
+      "Clause 40"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001: Wiltshire 510,333 usual residents; Salisbury middle-layer areas.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E06000054,E02006666,E02006667,E02006668,E02006670,E02006671,E02006673,E02006674"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Wiltshire and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E06000054,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Wiltshire 84,967 students of 484,705 aged 5 and over (17.5 percent).",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E06000054,E02006673,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: density, Wiltshire 156.8; Salisbury Cathedral and Harnham 2,464.8 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E06000054,E02006673,E92000001"
+      },
+      {
+        "claim": "House of Commons Library, MSOA Names: Salisbury areas.",
+        "url": "https://houseofcommonslibrary.github.io/msoanames/"
+      },
+      {
+        "claim": "Salisbury Cathedral, Magna Carta: one of four surviving 1215 originals; 15 June 1215; Old Sarum; Elias Dereham; building from 1220; Clause 40 quotation.",
+        "url": "https://www.salisburycathedral.org.uk/magna-carta"
+      },
+      {
+        "claim": "The Avalon Project, Yale Law School: Magna Carta 1215, English translation.",
+        "url": "https://avalon.law.yale.edu/medieval/magna.asp"
+      },
+      {
+        "claim": "Historic England NHLE open data: Cathedral Church of St Mary 1023581, Grade I; Old Sarum scheduled monument 1015675.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1023581"
+      }
+    ],
+    "rejectedClaims": [
+      "Comparing the 1215 charter with the 1225 reissue or the 1297 statute: the 1297 text on legislation.gov.uk returned a 202 challenge and was not circumvented; the National Archives translation path returned 404.",
+      "A hash-collision table with small moduli: computed, but left out because the Southampton page owns hash collisions; the page says only that every match is checked.",
+      "The cathedral's claim that its copy is the best preserved: a superlative, not repeated.",
+      "Summing the Salisbury middle-layer areas into a city total: not a published figure, so not presented.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Salisbury Cathedral, the Avalon Project, Wiltshire Council or Historic England."
+    ]
   }
 }
