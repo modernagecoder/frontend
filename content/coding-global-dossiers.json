@@ -20861,5 +20861,64 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the US National Archives, Project Gutenberg, Historic Environment Scotland, National Records of Scotland or Perth and Kinross Council."
     ]
+  },
+  "best-coding-class-in-stirling": {
+    "market": "Stirling",
+    "bodyClass": "cg-sti",
+    "pageType": "city",
+    "curriculumAuthority": "National Records of Scotland, Scotland's Census 2022 first results, rounded to the nearest hundred: Stirling S12000030 92,600 (2011: 90,247), 40,300 households (2011: 37,566), 42.4 per square kilometre, 14.6 percent aged 0 to 14, 20.5 percent 65 and over, 6,500 aged 15 to 19, 7,500 aged 20 to 24; Scotland 5,436,600 (2011: 5,295,403), 69.8, 15.3 and 20.1 percent. HES LB41083 Church of the Holy Rude (Category A; 1456 to about 1470; St Mary's Aisle 1484; James VI crowned 29 July 1567), LB41101 Cowane's Hospital (Category A; John Mylne design, 1639). MacTutor: James Stirling born May 1692 at Garden, about 20 km west of Stirling; Methodus Differentialis 1730; formula at Example 2 to Proposition 28; correspondence with De Moivre.",
+    "localProject": "How close is Stirling's formula? Exact factorials in Python vs n ln n - n + 0.5 ln(2 pi n). Plain error: 1.65 percent at 5, 0.83 at 10, 0.0833 at 100, 0.00833 at 1,000, 0.00009 at 92,600. With 1/(12n): 0.0022, 0.000277, 0.000000278 percent at 5, 10, 100; below double precision from 1,000. 92,600!: 419,696 digits, leading 2.45888, 23,147 trailing zeros; formula gives the same digit count. 170! the largest factorial in a double. Lesson family: Stirling's formula and asymptotic approximation.",
+    "requiredMentions": [
+      "92,600",
+      "419,696",
+      "Methodus Differentialis",
+      "Holy Rude",
+      "Cowane",
+      "Raploch",
+      "Cambuskenneth",
+      "Torbrex",
+      "Causewayhead",
+      "Cambusbarron",
+      "Cornton",
+      "Borestone"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data: Stirling and Scotland.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "MacTutor History of Mathematics (University of St Andrews), James Stirling biography.",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Stirling/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB41083 Church of the Holy Rude.",
+        "url": "https://portal.historicenvironment.scot/designation/LB41083"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB41101 Cowane's Hospital (Guildhall).",
+        "url": "https://portal.historicenvironment.scot/designation/LB41101"
+      },
+      {
+        "claim": "Historic Environment Scotland, designations data (listed buildings layer): Category A listings in central Stirling.",
+        "url": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer"
+      },
+      {
+        "claim": "Ordnance Survey, OS Open Names: Stirling and nearby places.",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-names"
+      },
+      {
+        "claim": "Ordnance Survey, OS Open Rivers: River Forth passes within about 0.5 km of the Stirling point.",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-rivers"
+      }
+    ],
+    "rejectedClaims": [
+      "That Stirling the town and Stirling the mathematician share more than a name: MacTutor gives only his birthplace, Garden, about 20 km west of the town, so no further link is claimed.",
+      "Who first discovered the factorial approximation: MacTutor notes the correspondence with De Moivre; the page does not settle any priority question.",
+      "Stirling Castle: not read from a fetched listing record, so it is not described on the page.",
+      "A percentage growth since 2011: the 2022 figure is rounded, so both counts are given without a derived rate.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the University of St Andrews, Historic Environment Scotland, National Records of Scotland or Stirling Council."
+    ]
   }
 }

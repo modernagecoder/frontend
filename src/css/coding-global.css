@@ -1073,3 +1073,4 @@
 .cg-root.cg-dfl  { --cg-accent: #1D46A5; --cg-accent-soft: rgba(29,70,165,.10); }   /* Dunfermline: a strong royal blue, from the solver (6.90:1 on every paper tint, dE 7.1 from the nearest used accent) */
 .cg-root.cg-inv  { --cg-accent: #301565; --cg-accent-soft: rgba(48,21,101,.10); }   /* Inverness: a deep violet, from the solver (12.00:1 on every paper tint, dE 7.3 from the nearest used accent) */
 .cg-root.cg-pth  { --cg-accent: #734561; --cg-accent-soft: rgba(115,69,97,.10); }   /* Perth: a dusky rose, after the pink Perth sandstone Historic Environment Scotland records for Smeaton's bridge; from the solver (6.19:1 on every paper tint, dE 7.2 from the nearest used accent) */
+.cg-root.cg-sti  { --cg-accent: #143071; --cg-accent-soft: rgba(20,48,113,.10); }   /* Stirling: a deep navy, from the solver (10.08:1 on every paper tint, dE 6.9 from the nearest used accent) */
