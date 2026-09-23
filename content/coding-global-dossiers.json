@@ -20232,5 +20232,77 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Ordnance Survey, the Victoria County History, Lichfield Cathedral, Historic England or Lichfield District Council."
     ]
+  },
+  "best-coding-class-in-chichester": {
+    "market": "Chichester",
+    "bodyClass": "cg-chi",
+    "pageType": "city",
+    "curriculumAuthority": "Census 2021 via Nomis. Chichester district E07000225: TS001 124,068 usual residents, 120,153 in households, 3,915 communal; TS068 20,789 students of 118,757 aged 5 and over (17.5 percent); TS006 157.8 per square kilometre; TS007A 5,089 aged 85 and over of 124,069 (4.1 percent). College Lane and Oaklands E02006568 12,300, 534 communal, 2,823 of 11,658 students (24.2 percent), 3,696.1, 1,362 aged 20 to 24 of 12,300 (11.1 percent); Central Chichester E02006570 8,907, 1,636 of 8,574 (19.1 percent), 3,767.4, 410 aged 85 and over of 8,908 (4.6 percent); Stockbridge and Fishbourne E02006571 8,515, 1,536 of 8,141 (18.9 percent), 496.8. England 20.4 percent, 433.5, 2.4 percent aged 85 and over. VCH Sussex 3: walls Roman in origin; Stane Street by the East Gate; dean's postern to the Lavant; spire fell 1861, rebuilt by Scott from Butler's drawings of 1847-8; Market Cross. NHLE 1354261, 1026826 (Grade I, 5 July 1950), 1354262 (Grade I, 8 October 1971), 1415725 (Grade II).",
+    "localProject": "Is the Lavant flowing more often? EA Hydrology, Graylingwell daily mean flow, 30 April 1981 to 21 September 2026 (16,561 values). Water years 1982 to 2025 (44). Flowing = daily mean above zero: means 184.3 (first 22 years) and 218.3 (last 22); Mann-Kendall S 221, Z 2.23, p 0.026; lag-1 0.390; block-of-three permutation p 0.040; without 2024 p 0.061; excluding heavily estimated years p 0.055. Above 0.01 cubic metres a second: S 64, p 0.52. 1,340 of 8,857 flowing days at or below 0.01. Zero-flow years 1989, 1996, 1997; most flow 2024 (337 days). Lesson family: Mann-Kendall trend test with sensitivity checks.",
+    "requiredMentions": [
+      "124,068",
+      "12,300",
+      "3,767.4",
+      "Mann-Kendall",
+      "Graylingwell",
+      "Lavant",
+      "Stane Street",
+      "Summersdale",
+      "Whyke",
+      "Portfield",
+      "Donnington",
+      "Apuldram"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001: Chichester district 124,068; College Lane and Oaklands 12,300; Central Chichester 8,907; Stockbridge and Fishbourne 8,515.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E02006568,E02006570,E02006571,E07000225"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: age bands for the three areas and the district.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E02006568,E02006570,E02006571,E07000225"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: students among usual residents aged 5 and over.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E02006568,E02006570,E02006571,E07000225,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E02006568,E02006570,E02006571,E07000225,E92000001"
+      },
+      {
+        "claim": "House of Commons Library, MSOA Names: College Lane and Oaklands, Central Chichester, Stockbridge and Fishbourne.",
+        "url": "https://houseofcommonslibrary.github.io/msoanames/"
+      },
+      {
+        "claim": "Environment Agency hydrology data, River Lavant at Graylingwell: daily mean flow with quality flags.",
+        "url": "https://environment.data.gov.uk/hydrology/id/measures/adb38d87-5c2a-48f8-8561-af1f497b8087-flow-m-86400-m3s-qualified"
+      },
+      {
+        "claim": "Victoria County History, Sussex vol. 3, The City of Chichester: General introduction (walls, Stane Street, the Lavant, Market Cross).",
+        "url": "https://www.british-history.ac.uk/vch/sussex/vol3/pp71-82"
+      },
+      {
+        "claim": "Victoria County History, Sussex vol. 3, Chichester cathedral: Historical survey (fall of the spire in 1861; Scott; Butler).",
+        "url": "https://www.british-history.ac.uk/vch/sussex/vol3/pp105-113"
+      },
+      {
+        "claim": "Historic England, National Heritage List for England: 1354261, 1026826, 1354262, 1415725.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1354261"
+      },
+      {
+        "claim": "Ordnance Survey, OS Open Names: Chichester and nearby places.",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-names"
+      }
+    ],
+    "rejectedClaims": [
+      "A clear conclusion that the Lavant now flows more often: the trend holds only for days with any flow and vanishes above 10 litres a second, so the page says it has not clearly changed.",
+      "A reason for the change in estimated and unchecked flags: not given in a fetched source, so described only as a change in the flags.",
+      "The word winterbourne and any claim about groundwater feeding the Lavant: not taken from a fetched source; the page describes only what the gauge recorded.",
+      "The cost of rebuilding the spire in 1861: a historical sum in pounds, left out under the site's currency rule.",
+      "Chichester Cathedral's own history page: the likely URLs returned 404; cathedral facts come from the county history and the NHLE.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Environment Agency, the Victoria County History, Chichester Cathedral, Historic England or Chichester District Council."
+    ]
   }
 }

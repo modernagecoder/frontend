@@ -1064,3 +1064,4 @@
 .cg-root.cg-bgw  { --cg-accent: #2E3B4C; --cg-accent-soft: rgba(46,59,76,.10); }   /* Bangor: a slate blue-grey, from the solver (9.23:1 on every paper tint, dE 6.3 from the nearest used accent) */
 .cg-root.cg-wel  { --cg-accent: #242239; --cg-accent-soft: rgba(36,34,57,.10); }   /* Wells: a night-sky indigo for a page about the Moon, from the solver (12.51:1 on every paper tint, dE 7.6 from the nearest used accent) */
 .cg-root.cg-lic  { --cg-accent: #93361A; --cg-accent-soft: rgba(147,54,26,.10); }   /* Lichfield: a red sandstone brick, after the dark red sandstone of the cathedral, from the solver (6.12:1 on every paper tint, dE 6.9 from the nearest used accent) */
+.cg-root.cg-chi  { --cg-accent: #38753C; --cg-accent-soft: rgba(56,117,60,.10); }   /* Chichester: a chalk-stream green for a page about the River Lavant, from the solver (4.51:1 on every paper tint, dE 7.1 from the nearest used accent) */
