@@ -1,0 +1,247 @@
+[
+  {
+    "n": 1,
+    "title": "Print \"Hello, World!\"",
+    "code": "print(\"Hello, World!\")",
+    "output": "Hello, World!",
+    "sample": false
+  },
+  {
+    "n": 2,
+    "title": "Add Two Numbers",
+    "code": "a = float(input(\"First number: \"))\nb = float(input(\"Second number: \"))\nprint(f\"{a} + {b} = {a + b}\")",
+    "output": "First number: 7\nSecond number: 5.5\n7.0 + 5.5 = 12.5",
+    "sample": false
+  },
+  {
+    "n": 3,
+    "title": "Find the Square Root of a Number",
+    "code": "import math\n\nn = float(input(\"Enter a number: \"))\nprint(f\"The square root of {n} is {math.sqrt(n):.4f}\")",
+    "output": "Enter a number: 20\nThe square root of 20.0 is 4.4721",
+    "sample": false
+  },
+  {
+    "n": 4,
+    "title": "Calculate the Area of a Triangle",
+    "code": "base = float(input(\"Base: \"))\nheight = float(input(\"Height: \"))\narea = 0.5 * base * height\nprint(\"Area of the triangle:\", area)",
+    "output": "Base: 10\nHeight: 6\nArea of the triangle: 30.0",
+    "sample": false
+  },
+  {
+    "n": 5,
+    "title": "Swap Two Variables",
+    "code": "x = 5\ny = 10\n\n# the Python way: tuple unpacking\nx, y = y, x\nprint(\"After swapping: x =\", x, \"and y =\", y)\n\n# the classic way, with a temporary variable\ntemp = x\nx = y\ny = temp\nprint(\"Swapped back:   x =\", x, \"and y =\", y)",
+    "output": "After swapping: x = 10 and y = 5\nSwapped back:   x = 5 and y = 10",
+    "sample": false
+  },
+  {
+    "n": 6,
+    "title": "Generate a Random Number",
+    "code": "import random\n\nnumber = random.randint(1, 100)   # both ends included\nprint(\"Your random number is\", number)",
+    "output": "Your random number is 11",
+    "sample": true
+  },
+  {
+    "n": 7,
+    "title": "Convert Kilometres to Miles",
+    "code": "km = float(input(\"Distance in kilometres: \"))\nmiles = km * 0.621371\nprint(f\"{km} km is {miles:.2f} miles\")",
+    "output": "Distance in kilometres: 10\n10.0 km is 6.21 miles",
+    "sample": false
+  },
+  {
+    "n": 8,
+    "title": "Convert Celsius to Fahrenheit",
+    "code": "celsius = float(input(\"Temperature in Celsius: \"))\nfahrenheit = celsius * 1.8 + 32\nprint(f\"{celsius} C is {fahrenheit:.1f} F\")",
+    "output": "Temperature in Celsius: 37\n37.0 C is 98.6 F",
+    "sample": false
+  },
+  {
+    "n": 9,
+    "title": "Check if a Number is Positive, Negative or Zero",
+    "code": "num = float(input(\"Enter a number: \"))\n\nif num > 0:\n    print(\"Positive\")\nelif num < 0:\n    print(\"Negative\")\nelse:\n    print(\"Zero\")",
+    "output": "Enter a number: -4\nNegative",
+    "sample": false
+  },
+  {
+    "n": 10,
+    "title": "Check if a Number is Even or Odd",
+    "code": "num = int(input(\"Enter a whole number: \"))\n\nif num % 2 == 0:\n    print(num, \"is even\")\nelse:\n    print(num, \"is odd\")",
+    "output": "Enter a whole number: 17\n17 is odd",
+    "sample": false
+  },
+  {
+    "n": 11,
+    "title": "Check if a Year is a Leap Year",
+    "code": "def is_leap(year):\n    return (year % 4 == 0 and year % 100 != 0) or year % 400 == 0\n\nfor year in [1900, 2000, 2024, 2026]:\n    print(year, \"leap year\" if is_leap(year) else \"not a leap year\")",
+    "output": "1900 not a leap year\n2000 leap year\n2024 leap year\n2026 not a leap year",
+    "sample": false
+  },
+  {
+    "n": 12,
+    "title": "Find the Largest Among Three Numbers",
+    "code": "a = float(input(\"First: \"))\nb = float(input(\"Second: \"))\nc = float(input(\"Third: \"))\n\nif a >= b and a >= c:\n    largest = a\nelif b >= a and b >= c:\n    largest = b\nelse:\n    largest = c\n\nprint(\"Largest:\", largest)\nprint(\"Same answer with max():\", max(a, b, c))",
+    "output": "First: 12\nSecond: 45\nThird: 7\nLargest: 45.0\nSame answer with max(): 45.0",
+    "sample": false
+  },
+  {
+    "n": 13,
+    "title": "Check if a Number is Prime",
+    "code": "num = int(input(\"Enter a number: \"))\n\nis_prime = num > 1\nfor i in range(2, int(num ** 0.5) + 1):   # no factor can be bigger than the square root\n    if num % i == 0:\n        is_prime = False\n        break\n\nprint(num, \"is prime\" if is_prime else \"is not prime\")",
+    "output": "Enter a number: 29\n29 is prime",
+    "sample": false
+  },
+  {
+    "n": 14,
+    "title": "Print All Prime Numbers in an Interval",
+    "code": "lower = int(input(\"From: \"))\nupper = int(input(\"To: \"))\n\nprimes = []\nfor num in range(max(lower, 2), upper + 1):\n    for i in range(2, int(num ** 0.5) + 1):\n        if num % i == 0:\n            break\n    else:                 # runs only when the loop did not break\n        primes.append(num)\n\nprint(\"Primes:\", primes)",
+    "output": "From: 10\nTo: 50\nPrimes: [11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]",
+    "sample": false
+  },
+  {
+    "n": 15,
+    "title": "Find the Factorial of a Number",
+    "code": "n = int(input(\"Enter a number: \"))\n\nfactorial = 1\nfor i in range(1, n + 1):\n    factorial *= i\n\nprint(f\"{n}! = {factorial}\")",
+    "output": "Enter a number: 5\n5! = 120",
+    "sample": false
+  },
+  {
+    "n": 16,
+    "title": "Display the Multiplication Table",
+    "code": "num = int(input(\"Table of: \"))\n\nfor i in range(1, 11):\n    print(f\"{num} x {i} = {num * i}\")",
+    "output": "Table of: 7\n7 x 1 = 7\n7 x 2 = 14\n7 x 3 = 21\n7 x 4 = 28\n7 x 5 = 35\n7 x 6 = 42\n7 x 7 = 49\n7 x 8 = 56\n7 x 9 = 63\n7 x 10 = 70",
+    "sample": false
+  },
+  {
+    "n": 17,
+    "title": "Print the Fibonacci Sequence",
+    "code": "count = 10\na, b = 0, 1\n\nfor _ in range(count):\n    print(a, end=\" \")\n    a, b = b, a + b\nprint()",
+    "output": "0 1 1 2 3 5 8 13 21 34 ",
+    "sample": false
+  },
+  {
+    "n": 18,
+    "title": "Check if a Number is an Armstrong Number",
+    "code": "num = input(\"Enter a number: \")\npower = len(num)\ntotal = sum(int(digit) ** power for digit in num)\n\nif total == int(num):\n    print(num, \"is an Armstrong number\")\nelse:\n    print(num, \"is not an Armstrong number\")",
+    "output": "Enter a number: 153\n153 is an Armstrong number",
+    "sample": false
+  },
+  {
+    "n": 19,
+    "title": "Find the Sum of Natural Numbers",
+    "code": "n = int(input(\"Add up 1 to: \"))\n\ntotal = 0\nfor i in range(1, n + 1):\n    total += i\n\nprint(\"Sum with a loop:\", total)\nprint(\"Sum with the formula n(n+1)/2:\", n * (n + 1) // 2)",
+    "output": "Add up 1 to: 10\nSum with a loop: 55\nSum with the formula n(n+1)/2: 55",
+    "sample": false
+  },
+  {
+    "n": 20,
+    "title": "Display Powers of 2 Using an Anonymous Function",
+    "code": "terms = 8\npowers = list(map(lambda x: 2 ** x, range(terms)))\n\nfor i, value in enumerate(powers):\n    print(f\"2 raised to {i} = {value}\")",
+    "output": "2 raised to 0 = 1\n2 raised to 1 = 2\n2 raised to 2 = 4\n2 raised to 3 = 8\n2 raised to 4 = 16\n2 raised to 5 = 32\n2 raised to 6 = 64\n2 raised to 7 = 128",
+    "sample": false
+  },
+  {
+    "n": 21,
+    "title": "Find the ASCII Value of a Character",
+    "code": "ch = input(\"Enter one character: \")\nprint(f\"The ASCII value of '{ch}' is {ord(ch)}\")\nprint(\"And back again:\", chr(ord(ch)))",
+    "output": "Enter one character: p\nThe ASCII value of 'p' is 112\nAnd back again: p",
+    "sample": false
+  },
+  {
+    "n": 22,
+    "title": "Find the HCF or GCD of Two Numbers",
+    "code": "import math\n\na = int(input(\"First number: \"))\nb = int(input(\"Second number: \"))\n\n# Euclid's method: replace the pair with (b, remainder) until the remainder is 0\nx, y = a, b\nwhile y:\n    x, y = y, x % y\n\nprint(\"HCF by Euclid:\", x)\nprint(\"HCF by math.gcd:\", math.gcd(a, b))",
+    "output": "First number: 54\nSecond number: 24\nHCF by Euclid: 6\nHCF by math.gcd: 6",
+    "sample": false
+  },
+  {
+    "n": 23,
+    "title": "Make a Simple Calculator",
+    "code": "def add(x, y): return x + y\ndef subtract(x, y): return x - y\ndef multiply(x, y): return x * y\ndef divide(x, y): return \"cannot divide by zero\" if y == 0 else x / y\n\noperations = {\"1\": (\"+\", add), \"2\": (\"-\", subtract), \"3\": (\"*\", multiply), \"4\": (\"/\", divide)}\n\nprint(\"1 Add   2 Subtract   3 Multiply   4 Divide\")\nchoice = input(\"Choose 1 to 4: \")\na = float(input(\"First number: \"))\nb = float(input(\"Second number: \"))\n\nsymbol, action = operations[choice]\nprint(f\"{a} {symbol} {b} = {action(a, b)}\")",
+    "output": "1 Add   2 Subtract   3 Multiply   4 Divide\nChoose 1 to 4: 3\nFirst number: 8\nSecond number: 4\n8.0 * 4.0 = 32.0",
+    "sample": false
+  },
+  {
+    "n": 24,
+    "title": "Check Whether a String is a Palindrome",
+    "code": "word = input(\"Enter a word: \")\ncleaned = word.lower()\n\nif cleaned == cleaned[::-1]:      # [::-1] reverses a string\n    print(word, \"is a palindrome\")\nelse:\n    print(word, \"is not a palindrome\")",
+    "output": "Enter a word: Racecar\nRacecar is a palindrome",
+    "sample": false
+  },
+  {
+    "n": 25,
+    "title": "Remove Punctuation from a String",
+    "code": "import string\n\ntext = \"Hello!!! How are you, today? (Fine, thanks.)\"\ncleaned = \"\".join(ch for ch in text if ch not in string.punctuation)\nprint(cleaned)",
+    "output": "Hello How are you today Fine thanks",
+    "sample": false
+  },
+  {
+    "n": 26,
+    "title": "Sort Words in Alphabetical Order",
+    "code": "sentence = input(\"Enter a sentence: \")\nwords = sentence.lower().split()\nwords.sort()\nprint(\" \".join(words))",
+    "output": "Enter a sentence: the Quick brown fox jumps over a lazy dog\na brown dog fox jumps lazy over quick the",
+    "sample": false
+  },
+  {
+    "n": 27,
+    "title": "Count Each Vowel in a String",
+    "code": "text = \"Modern Age Coders teaches Python to every age\"\ncounts = {vowel: 0 for vowel in \"aeiou\"}\n\nfor ch in text.lower():\n    if ch in counts:\n        counts[ch] += 1\n\nprint(counts)",
+    "output": "{'a': 3, 'e': 8, 'i': 0, 'o': 4, 'u': 0}",
+    "sample": false
+  },
+  {
+    "n": 28,
+    "title": "Merge Two Dictionaries",
+    "code": "student = {\"name\": \"Asha\", \"age\": 12}\nmarks = {\"maths\": 91, \"science\": 88, \"age\": 13}\n\nmerged = {**student, **marks}      # works on every Python 3 version\nprint(merged)\n\nmerged2 = student | marks          # Python 3.9 and later\nprint(merged2 == merged)",
+    "output": "{'name': 'Asha', 'age': 13, 'maths': 91, 'science': 88}\nTrue",
+    "sample": false
+  },
+  {
+    "n": 29,
+    "title": "Catch Multiple Exceptions in One Line",
+    "code": "for value in [\"10\", \"0\", \"abc\"]:\n    try:\n        print(f\"100 / {value} =\", 100 / int(value))\n    except (ZeroDivisionError, ValueError) as error:\n        print(f\"Could not divide by {value!r}:\", type(error).__name__)",
+    "output": "100 / 10 = 10.0\nCould not divide by '0': ZeroDivisionError\nCould not divide by 'abc': ValueError",
+    "sample": false
+  },
+  {
+    "n": 30,
+    "title": "Safely Open, Read and Write a File",
+    "code": "with open(\"notes.txt\", \"w\") as file:          # \"w\" creates or overwrites\n    file.write(\"Python closes this file for me.\\n\")\n\nwith open(\"notes.txt\", \"a\") as file:          # \"a\" adds to the end\n    file.write(\"Second line, appended.\\n\")\n\nwith open(\"notes.txt\") as file:               # reading is the default\n    for number, line in enumerate(file, start=1):\n        print(number, line.strip())",
+    "output": "1 Python closes this file for me.\n2 Second line, appended.",
+    "sample": false
+  },
+  {
+    "n": 31,
+    "title": "Get the Current Date and Time",
+    "code": "from datetime import datetime\n\nnow = datetime.now()\nprint(\"Today is\", now.strftime(\"%A, %d %B %Y\"))\nprint(\"The time is\", now.strftime(\"%H:%M\"))",
+    "output": "Today is Wednesday, 23 September 2026\nThe time is 15:57",
+    "sample": true
+  },
+  {
+    "n": 32,
+    "title": "Check if Two Strings are Anagrams",
+    "code": "first = input(\"First word: \")\nsecond = input(\"Second word: \")\n\nif sorted(first.lower()) == sorted(second.lower()):\n    print(first, \"and\", second, \"are anagrams\")\nelse:\n    print(first, \"and\", second, \"are not anagrams\")",
+    "output": "First word: Listen\nSecond word: Silent\nListen and Silent are anagrams",
+    "sample": false
+  },
+  {
+    "n": 33,
+    "title": "Generate a Secure Random Password",
+    "code": "import secrets\nimport string\n\nalphabet = string.ascii_letters + string.digits + string.punctuation\n\nwhile True:\n    password = \"\".join(secrets.choice(alphabet) for _ in range(12))\n    # keep only passwords that mix all four kinds of character\n    if (any(c.islower() for c in password) and any(c.isupper() for c in password)\n            and any(c.isdigit() for c in password) and any(c in string.punctuation for c in password)):\n        break\n\nprint(\"Your new password:\", password)",
+    "output": "Your new password: [_;kQUpGoM1O",
+    "sample": true
+  },
+  {
+    "n": 34,
+    "title": "Build a Simple Countdown Timer",
+    "code": "import time\n\nseconds = int(input(\"Count down from: \"))\n\nwhile seconds > 0:\n    print(seconds)\n    time.sleep(1)       # wait one second\n    seconds -= 1\n\nprint(\"Time's up!\")",
+    "output": "Count down from: 3\n3\n2\n1\nTime's up!",
+    "sample": false
+  },
+  {
+    "n": 35,
+    "title": "Filter a List Using a List Comprehension",
+    "code": "numbers = [14, 3, 8, 21, 6, 17, 30, 9, 12, 5, 26, 11, 4, 19, 2, 27, 16, 7, 10, 23]\n\nevens = [n for n in numbers if n % 2 == 0]\nsquares_of_odds = [n * n for n in numbers if n % 2 == 1]\n\nprint(\"Evens:\", evens)\nprint(\"Squares of the odd numbers:\", squares_of_odds)",
+    "output": "Evens: [14, 8, 6, 30, 12, 26, 4, 2, 16, 10]\nSquares of the odd numbers: [9, 441, 289, 81, 25, 121, 361, 729, 49, 529]",
+    "sample": false
+  }
+]

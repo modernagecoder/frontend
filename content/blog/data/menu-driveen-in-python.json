@@ -1,8 +1,8 @@
 {
   "meta": {
     "slug": "how-to-build-menu-driven-program-in-python",
-    "title": "How to Build a Menu Driven Program in Python (Step-by-Step Guide)",
-    "description": "Learn how to build interactive menu-driven programs in Python. Complete step-by-step guide with code examples, error handling, and real-world use cases.",
+    "title": "Menu Driven Program in Python (With a Daily Menu Script)",
+    "description": "Build a menu driven program in Python with a while loop and if-elif, see its real output, stop bad input crashing it, and print today's menu with a script.",
     "keywords": [
       "menu driven program python",
       "python menu program",
@@ -10,14 +10,22 @@
       "python CLI menu",
       "python while loop menu",
       "python user input menu",
-      "build python menu"
+      "build python menu",
+      "menu driven program in python",
+      "how to make a menu in python",
+      "python menu",
+      "menu in python",
+      "python menu example",
+      "how to get daily menu using python script",
+      "daily menu python script",
+      "menu driven calculator program in python"
     ],
     "author": {
       "name": "Modern Age Coders",
       "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages."
     },
     "date": "2026-04-07",
-    "dateModified": "2026-07-18",
+    "dateModified": "2026-09-23",
     "category": "Programming",
     "tags": [
       "Python",
@@ -26,15 +34,16 @@
       "Python Tutorial",
       "CLI Development"
     ],
-    "readTime": "10 min read",
+    "readTime": "13 min read",
     "featured": false,
-    "tldr": "A menu driven program in Python shows the user a list of options and keeps running until they choose to exit, usually built with a loop, a set of choices, and a function for each action. This step by step guide covers the structure, code examples, error handling and real world uses."
+    "tldr": "A menu driven program in Python prints numbered choices inside a while True loop, reads the choice with input(), runs the matching code with if and elif, and stops with break when the user picks Exit. This guide builds a calculator menu with its output, a number reader that never crashes, and a daily menu script that prints today's dishes from a dictionary or a file.",
+    "retarget": "code-posts-2026-09"
   },
   "hero": {
-    "title": "How to Build a Menu Driven Program in Python (Step-by-Step Guide)",
+    "title": "Menu Driven Program in Python (With a Daily Menu Script)",
     "featuredImage": {
       "url": "https://ik.imagekit.io/qnvuzyjls/How%20to%20Build%20a%20Menu%20Driven%20Program%20in%20Python%20(Step-by-Step%20Guide)",
-      "alt": "How to Build a Menu Driven Program in Python (Step-by-Step Guide)"
+      "alt": "Menu Driven Program in Python (With a Daily Menu Script)"
     }
   },
   "content": {
@@ -44,11 +53,11 @@
       },
       {
         "type": "paragraph",
-        "text": "You just spent hours writing a brilliant Python script that calculates data perfectly. But there is a massive problem: to run it with new data, you have to open the actual source code, manually change the variables, and hit run again."
+        "text": "A menu driven program in Python prints a numbered list of choices inside a <code>while True</code> loop, reads the choice with <code>input()</code>, runs the matching code with <code>if</code> and <code>elif</code>, and stops with <code>break</code> when the user picks Exit. That is the whole pattern; everything else is what each choice does."
       },
       {
         "type": "paragraph",
-        "text": "That is not how real software works."
+        "text": "Below you will build a calculator menu and see exactly what it prints, make it survive bad input, and then write a script that prints today's menu, from a dictionary or from a file, and turn it into a menu driven canteen program."
       },
       {
         "type": "paragraph",
@@ -134,12 +143,18 @@
       },
       {
         "type": "paragraph",
-        "text": "Here is the complete, working code. Copy this into your editor and run it to see how it feels."
+        "text": "Here is the complete, working code, and underneath it what one run looks like: add 8 and 2, type a choice that does not exist, then exit."
       },
       {
         "type": "code",
         "language": "python",
-        "code": "def add(x, y):\n    return x + y\n\ndef subtract(x, y):\n    return x - y\n\ndef divide(x, y):\n    if y == 0:\n        return \"Error: Cannot divide by zero!\"\n    return x / y\n\nwhile True:\n    # Step 1: Displaying the Menu Options\n    print(\"\\n--- Main Menu ---\")\n    print(\"1. Add Numbers\")\n    print(\"2. Subtract Numbers\")\n    print(\"3. Divide Numbers\")\n    print(\"4. Exit Program\")\n    \n    # Step 2: Capturing User Input\n    choice = input(\"Enter your choice (1-4): \")\n    \n    # Step 3: Executing the Logic\n    if choice == '4':\n        print(\"Exiting the program. Goodbye!\")\n        break  # This kills the infinite loop\n        \n    if choice in ('1', '2', '3'):\n        num1 = float(input(\"Enter first number: \"))\n        num2 = float(input(\"Enter second number: \"))\n        \n        if choice == '1':\n            print(f\"Result: {num1} + {num2} = {add(num1, num2)}\")\n        elif choice == '2':\n            print(f\"Result: {num1} - {num2} = {subtract(num1, num2)}\")\n        elif choice == '3':\n            # Note: You can easily add options here to show remainder math\n            # if you understand what is floor division in python.\n            print(f\"Result: {num1} / {num2} = {divide(num1, num2)}\")\n            \n    else:\n        # Step 4: Catching bad inputs\n        print(\"Invalid input. Please enter a number between 1 and 4.\")"
+        "code": "def add(x, y):\n    return x + y\n\ndef subtract(x, y):\n    return x - y\n\ndef divide(x, y):\n    if y == 0:\n        return \"Error: Cannot divide by zero!\"\n    return x / y\n\nwhile True:\n    # Step 1: show the menu\n    print(\"\\n--- Main Menu ---\")\n    print(\"1. Add Numbers\")\n    print(\"2. Subtract Numbers\")\n    print(\"3. Divide Numbers\")\n    print(\"4. Exit Program\")\n\n    # Step 2: read the choice\n    choice = input(\"Enter your choice (1-4): \")\n\n    # Step 3: act on it\n    if choice == \"4\":\n        print(\"Exiting the program. Goodbye!\")\n        break                      # leaves the while loop\n\n    if choice in (\"1\", \"2\", \"3\"):\n        num1 = float(input(\"Enter first number: \"))\n        num2 = float(input(\"Enter second number: \"))\n        if choice == \"1\":\n            print(f\"Result: {num1} + {num2} = {add(num1, num2)}\")\n        elif choice == \"2\":\n            print(f\"Result: {num1} - {num2} = {subtract(num1, num2)}\")\n        else:\n            print(f\"Result: {num1} / {num2} = {divide(num1, num2)}\")\n    else:\n        # Step 4: anything else is a bad choice\n        print(\"Invalid input. Please enter a number between 1 and 4.\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "--- Main Menu ---\n1. Add Numbers\n2. Subtract Numbers\n3. Divide Numbers\n4. Exit Program\nEnter your choice (1-4): 1\nEnter first number: 8\nEnter second number: 2\nResult: 8.0 + 2.0 = 10.0\n\n--- Main Menu ---\n1. Add Numbers\n2. Subtract Numbers\n3. Divide Numbers\n4. Exit Program\nEnter your choice (1-4): 5\nInvalid input. Please enter a number between 1 and 4.\n\n--- Main Menu ---\n1. Add Numbers\n2. Subtract Numbers\n3. Divide Numbers\n4. Exit Program\nEnter your choice (1-4): 4\nExiting the program. Goodbye!"
       },
       {
         "type": "paragraph",
@@ -165,7 +180,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Instead of letting the program crash, we \"try\" to get a number. If we encounter a <code>ValueError</code>, we catch it and politely ask the user to try again."
+        "text": "Instead of letting the program crash, put the conversion in a small function that tries, catches the <code>ValueError</code>, and asks again. Use <code>read_number()</code> wherever the menu needs a number:"
       },
       {
         "type": "paragraph",
@@ -174,7 +189,13 @@
       {
         "type": "code",
         "language": "python",
-        "code": "try:\n    num1 = float(input(\"Enter first number: \"))\nexcept ValueError:\n    print(\"That is not a valid number! Please try again.\")\n    continue # Skips the rest of the loop and starts over at the menu"
+        "code": "def read_number(prompt):\n    while True:                          # keep asking until the input is a number\n        try:\n            return float(input(prompt))\n        except ValueError:\n            print(\"That is not a valid number! Please try again.\")\n\nnum = read_number(\"Enter first number: \")\nprint(\"Got\", num)"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Enter first number: A\nThat is not a valid number! Please try again.\nEnter first number: 12\nGot 12.0"
       },
       {
         "type": "paragraph",
@@ -183,6 +204,61 @@
       {
         "type": "paragraph",
         "text": "<strong>Bonus UX Upgrade:</strong> By default, your menu will just keep printing down the terminal screen, creating a massive, cluttered log. You can make it look like a real, static application interface by importing the <code>os</code> module and clearing the screen at the start of every loop using <code>os.system('cls' if os.name == 'nt' else 'clear')</code>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to get a daily menu with a Python script",
+        "id": "daily-menu"
+      },
+      {
+        "type": "paragraph",
+        "text": "A daily menu script answers one question, what is on today, and it needs two things: the menu for each day of the week, and today's day name. Python's <code>datetime</code> module gives the day name with <code>date.today().strftime(\"%A\")</code>, and a dictionary keyed by day name holds the menu."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from datetime import date\n\nWEEKLY_MENU = {\n    \"Monday\":    [\"Veg pulao\", \"Dal tadka\", \"Salad\"],\n    \"Tuesday\":   [\"Rajma chawal\", \"Jeera aloo\", \"Curd\"],\n    \"Wednesday\": [\"Pasta\", \"Garlic bread\", \"Fruit\"],\n    \"Thursday\":  [\"Chole\", \"Rice\", \"Pickle\"],\n    \"Friday\":    [\"Paneer wrap\", \"Soup\", \"Brownie\"],\n    \"Saturday\":  [\"Idli\", \"Sambar\", \"Chutney\"],\n    \"Sunday\":    [\"Poha\", \"Masala chai\"],\n}\n\ntoday = date.today().strftime(\"%A\")        # e.g. \"Wednesday\"\nprint(f\"Menu for {today}:\")\nfor dish in WEEKLY_MENU[today]:\n    print(\" -\", dish)"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Sample output (changes on every run)",
+        "code": "Menu for Wednesday:\n - Pasta\n - Garlic bread\n - Fruit"
+      },
+      {
+        "type": "paragraph",
+        "text": "The output above is from a Wednesday; run it on another day and you get that day's dishes. If a canteen, a school or a family keeps the menu in a file, read it from there instead, so changing the menu never means editing code. JSON suits this because Python reads it straight into a dictionary:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import json\nfrom datetime import date, timedelta\n\n# In real use the file already exists; this line only creates a small one to read.\nwith open(\"menu.json\", \"w\") as f:\n    json.dump({\"Monday\": [\"Veg pulao\", \"Dal\"], \"Tuesday\": [\"Rajma chawal\"],\n               \"Wednesday\": [\"Pasta\", \"Fruit\"], \"Thursday\": [\"Chole\", \"Rice\"],\n               \"Friday\": [\"Paneer wrap\"], \"Saturday\": [\"Idli\", \"Sambar\"],\n               \"Sunday\": [\"Poha\"]}, f)\n\ndef menu_for(day):\n    with open(\"menu.json\") as f:\n        menu = json.load(f)\n    return menu.get(day.strftime(\"%A\"), [\"No menu published for this day\"])\n\nwednesday = date(2026, 9, 23)\nfor offset in range(3):\n    day = wednesday + timedelta(days=offset)\n    print(day.strftime(\"%a %d %b\"), \"->\", \", \".join(menu_for(day)))"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Wed 23 Sep -> Pasta, Fruit\nThu 24 Sep -> Chole, Rice\nFri 25 Sep -> Paneer wrap"
+      },
+      {
+        "type": "paragraph",
+        "text": "Now combine the two ideas from this guide: a menu driven program whose choices show the whole week or one chosen day."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from datetime import date\n\nWEEKLY_MENU = {\n    \"Monday\": [\"Veg pulao\", \"Dal\"], \"Tuesday\": [\"Rajma chawal\"],\n    \"Wednesday\": [\"Pasta\", \"Fruit\"], \"Thursday\": [\"Chole\", \"Rice\"],\n    \"Friday\": [\"Paneer wrap\", \"Soup\"], \"Saturday\": [\"Idli\", \"Sambar\"],\n    \"Sunday\": [\"Poha\"],\n}\n\ndef show(day):\n    print(f\"{day}: \" + \", \".join(WEEKLY_MENU[day]))\n\nwhile True:\n    print(\"\\n1. Show the whole week   2. Pick a day   3. Quit\")\n    choice = input(\"Choice: \")\n    if choice == \"1\":\n        for day in WEEKLY_MENU:\n            show(day)\n    elif choice == \"2\":\n        day = input(\"Which day? \").strip().capitalize()\n        if day in WEEKLY_MENU:\n            show(day)\n        else:\n            print(\"Please type a day name, for example Monday\")\n    elif choice == \"3\":\n        print(\"Bye!\")\n        break\n    else:\n        print(\"Choose 1, 2 or 3\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "1. Show the whole week   2. Pick a day   3. Quit\nChoice: 1\nMonday: Veg pulao, Dal\nTuesday: Rajma chawal\nWednesday: Pasta, Fruit\nThursday: Chole, Rice\nFriday: Paneer wrap, Soup\nSaturday: Idli, Sambar\nSunday: Poha\n\n1. Show the whole week   2. Pick a day   3. Quit\nChoice: 2\nWhich day? Friday\nFriday: Paneer wrap, Soup\n\n1. Show the whole week   2. Pick a day   3. Quit\nChoice: 3\nBye!"
+      },
+      {
+        "type": "paragraph",
+        "text": "If the menu is only published on a website, the script first has to download the page (with <code>urllib.request</code> from the standard library, or the <code>requests</code> package) and then pick the dishes out of the HTML. Check that the site allows it, and use a JSON feed or a downloadable file if the site offers one; it is far more reliable than scraping a page whose layout can change."
       },
       {
         "type": "heading",
@@ -215,6 +291,41 @@
       {
         "type": "heading",
         "level": 2,
+        "text": "Menu driven programs in Python: common questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is a menu driven program in Python?",
+            "content": "A program that shows the user a numbered list of options, waits for a choice, runs the code for that choice and then shows the menu again, until the user chooses to exit. It is built from a <code>while True</code> loop, <code>input()</code>, <code>if</code>/<code>elif</code> and <code>break</code>."
+          },
+          {
+            "title": "How do I make a menu in Python?",
+            "content": "Print the options inside <code>while True:</code>, read the choice with <code>choice = input(\"Choice: \")</code>, compare it with <code>if choice == \"1\":</code> and so on, and call <code>break</code> on the Exit option. Put each action in its own function so the loop stays short."
+          },
+          {
+            "title": "How do I get a daily menu using a Python script?",
+            "content": "Store the menu in a dictionary keyed by day name, or in a JSON file, and look up <code>date.today().strftime(\"%A\")</code>. The <a href='#daily-menu'>daily menu section</a> above has three working versions with their output."
+          },
+          {
+            "title": "How do I stop the menu crashing when the user types a letter?",
+            "content": "Wrap the conversion in <code>try</code>/<code>except ValueError</code> inside a loop, as in <code>read_number()</code> above, so bad input prints a message and asks again instead of ending the program."
+          },
+          {
+            "title": "Can I use match-case instead of if-elif for a menu?",
+            "content": "Yes, from Python 3.10. <code>match choice:</code> with <code>case \"1\":</code>, <code>case \"2\":</code> and <code>case _:</code> for anything else reads neatly for long menus. if-elif works on every Python 3 version."
+          },
+          {
+            "title": "How do I write a menu driven calculator program in Python?",
+            "content": "Write one function per operation, show them as numbered choices, read two numbers for the chosen operation and print the result, looping until the user exits. The calculator at the top of this guide does exactly that; add multiply as a fourth operation for practice."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
         "text": "Conclusion",
         "id": "conclusion"
       },
@@ -227,8 +338,10 @@
         "text": "Don't just read the code above. Copy it into your editor and break it. Add an option for multiplication. Change it from a calculator into a daily to-do list tracker. The fastest way to learn is to build."
       },
       {
-        "type": "paragraph",
-        "text": "Ready to upgrade your problem-solving skills and leave the basics behind? Explore the complete Python masterclasses at Modern Age Coders, where we teach you how to build real-world applications that employers actually care about."
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Learn Python live, with a teacher reading your code",
+        "text": "Menus are where beginners first build something that feels like an app; our students go on from here to files, classes and their own projects. Ages 9 to 12: <a href='/courses/python-ai-kids-masterclass'>Python and AI for Kids</a>. Ages 13 to 18: <a href='/courses/python-complete-masterclass-teens'>Python for Teens</a>. College students and adults: <a href='/courses/python-programming-masterclass-zero-to-advanced-college'>Python Masterclass</a>. The first class is a free demo, so you can see how it is taught before you decide."
       }
     ]
   },

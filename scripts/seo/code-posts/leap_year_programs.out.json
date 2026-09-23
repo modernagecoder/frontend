@@ -1,0 +1,44 @@
+[
+  {
+    "n": 1,
+    "title": "The short answer",
+    "code": "def is_leap(year):\n    return (year % 4 == 0 and year % 100 != 0) or year % 400 == 0\n\nfor year in [1900, 2000, 2024, 2100]:\n    print(year, is_leap(year))",
+    "output": "1900 False\n2000 True\n2024 True\n2100 False",
+    "sample": false
+  },
+  {
+    "n": 2,
+    "title": "Leap year program in Python using a function and input()",
+    "code": "def is_leap(year):\n    \"\"\"Return True if year is a leap year in the Gregorian calendar.\"\"\"\n    return (year % 4 == 0 and year % 100 != 0) or year % 400 == 0\n\nyear = int(input(\"Enter a year: \"))\n\nif is_leap(year):\n    print(year, \"is a leap year\")\nelse:\n    print(year, \"is not a leap year\")",
+    "output": "Enter a year: 2024\n2024 is a leap year",
+    "sample": false
+  },
+  {
+    "n": 3,
+    "title": "The next leap year after a given year",
+    "code": "def is_leap(year):\n    return (year % 4 == 0 and year % 100 != 0) or year % 400 == 0\n\nyear = int(input(\"Year: \"))\n\nnext_year = year + 1          # start AFTER the year typed, even if it is a leap year\nwhile not is_leap(next_year):\n    next_year += 1\n\nprint(f\"The next leap year after {year} is {next_year}\")",
+    "output": "Year: 2024\nThe next leap year after 2024 is 2028",
+    "sample": false
+  },
+  {
+    "n": 4,
+    "title": "All leap years between two years",
+    "code": "def is_leap(year):\n    return (year % 4 == 0 and year % 100 != 0) or year % 400 == 0\n\nstart = int(input(\"From: \"))\nend = int(input(\"To: \"))\n\nleap_years = [y for y in range(start, end + 1) if is_leap(y)]\nprint(leap_years)\nprint(len(leap_years), \"leap years\")",
+    "output": "From: 1890\nTo: 1920\n[1892, 1896, 1904, 1908, 1912, 1916, 1920]\n7 leap years",
+    "sample": false
+  },
+  {
+    "n": 5,
+    "title": "How many days February has",
+    "code": "import calendar\n\nyear = int(input(\"Year: \"))\ndays = calendar.monthrange(year, 2)[1]     # (weekday of the 1st, number of days)\nprint(f\"February {year} has {days} days\")",
+    "output": "Year: 2100\nFebruary 2100 has 28 days",
+    "sample": false
+  },
+  {
+    "n": 6,
+    "title": "Test your function against Python itself",
+    "code": "import calendar\n\ndef is_leap(year):\n    return (year % 4 == 0 and year % 100 != 0) or year % 400 == 0\n\nwrong = [y for y in range(1, 3001) if is_leap(y) != calendar.isleap(y)]\nprint(\"Years checked: 3000\")\nprint(\"Disagreements:\", wrong)",
+    "output": "Years checked: 3000\nDisagreements: []",
+    "sample": false
+  }
+]

@@ -1,8 +1,8 @@
 {
   "meta": {
     "slug": "python-basic-programs-for-beginners",
-    "title": "30+ Python Basic Programs for Beginners to Practice in 2026",
-    "description": "Master coding with this list of 30+ Python basic programs for beginners. From simple math to real-world utilities, get the hands-on practice you need to level up.",
+    "title": "35 Basic Python Programs for Beginners, With Code and Output",
+    "description": "35 simple Python programs for beginners, each with complete code and the real output it prints: numbers, loops, primes, strings, lists, files and utilities.",
     "keywords": [
       "python basic programs",
       "python for beginners",
@@ -10,14 +10,23 @@
       "learn python coding",
       "python exercises",
       "beginner python projects",
-      "python programming practice"
+      "python programming practice",
+      "python programs",
+      "simple python code",
+      "basic python code",
+      "basic python programs",
+      "simple python programs",
+      "easy python code",
+      "python code examples",
+      "python programs for beginners",
+      "python programs with output"
     ],
     "author": {
       "name": "Modern Age Coders",
       "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages."
     },
     "date": "2026-03-29",
-    "dateModified": "2026-07-18",
+    "dateModified": "2026-09-23",
     "category": "Programming",
     "tags": [
       "Python",
@@ -26,15 +35,16 @@
       "Python Exercises",
       "Learn to Code"
     ],
-    "readTime": "16 min read",
+    "readTime": "22 min read",
     "featured": false,
-    "tldr": "This article gives beginners 30 plus basic Python programs to practise in 2026, from simple maths and patterns to small real world utilities. Each is short and runnable, so you build hands on fluency by writing and testing code, the fastest way to move past tutorials and start coding on your own."
+    "tldr": "Here are 35 basic Python programs for beginners, each with complete code you can copy and the exact output it prints when run. They climb in four levels, from Hello, World and adding two numbers to primes, palindromes, files and a password generator, and all of them run on Python 3.9 or later with nothing extra to install.",
+    "retarget": "code-posts-2026-09"
   },
   "hero": {
-    "title": "30+ Python Basic Programs for Beginners to Practice in 2026",
+    "title": "35 Basic Python Programs for Beginners, With Code and Output",
     "featuredImage": {
       "url": "https://ik.imagekit.io/qnvuzyjls/30+%20Python%20Basic%20Programs%20for%20Beginners%20to%20Practice%20in%202026",
-      "alt": "30+ Python Basic Programs for Beginners to Practice in 2026"
+      "alt": "35 Basic Python Programs for Beginners, With Code and Output"
     }
   },
   "content": {
@@ -44,15 +54,246 @@
       },
       {
         "type": "paragraph",
-        "text": "You can watch a hundred hours of tutorials, but until your fingers hit the keyboard, you aren't actually learning Python. Reading about coding is like reading a book on how to swim. You have to get in the water to actually figure it out."
+        "text": "Here are 35 basic Python programs for beginners, each with the complete code and the exact output it prints when you run it. They climb in four levels: the absolute basics (printing, input, arithmetic), then loops and conditions (leap years, primes, factorials), then strings, lists and functions, and finally small real utilities such as a password generator and a countdown timer."
       },
       {
         "type": "paragraph",
-        "text": "If you feel stuck in \"tutorial hell,\" freezing the second you open a blank code editor, the only way out is to start building. To help you cross that bridge, we have curated a list of 35 Python basic programs for beginners, ranging from simple math to real-world utilities."
+        "text": "Every program uses only what comes with Python 3.9 or later, so there is nothing to install. Type each one yourself rather than pasting it, run it, and compare what you see with the output block underneath. Where a program asks for input, the value after the prompt in the output is what was typed in."
       },
       {
         "type": "paragraph",
-        "text": "Let's transition you from just reading code to confidently writing your own scripts."
+        "text": "If you are stuck in \"tutorial hell\", freezing the moment you open a blank editor, this list is the way out: small programs, each teaching one idea, that you can finish in a sitting."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "All 35 Python programs at a glance",
+        "id": "at-a-glance"
+      },
+      {
+        "type": "paragraph",
+        "text": "Use this table to jump to the idea you need. Each program below has its code and its output."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "#",
+          "Program",
+          "What it teaches",
+          "Level"
+        ],
+        "rows": [
+          [
+            "1",
+            "Print &quot;Hello, World!&quot;",
+            "print()",
+            "1"
+          ],
+          [
+            "2",
+            "Add Two Numbers",
+            "input() and float()",
+            "1"
+          ],
+          [
+            "3",
+            "Find the Square Root of a Number",
+            "the math module",
+            "1"
+          ],
+          [
+            "4",
+            "Calculate the Area of a Triangle",
+            "arithmetic with variables",
+            "1"
+          ],
+          [
+            "5",
+            "Swap Two Variables",
+            "tuple unpacking",
+            "1"
+          ],
+          [
+            "6",
+            "Generate a Random Number",
+            "the random module",
+            "1"
+          ],
+          [
+            "7",
+            "Convert Kilometres to Miles",
+            "f-string formatting",
+            "1"
+          ],
+          [
+            "8",
+            "Convert Celsius to Fahrenheit",
+            "using a formula",
+            "1"
+          ],
+          [
+            "9",
+            "Check if a Number is Positive, Negative or Zero",
+            "if, elif and else",
+            "1"
+          ],
+          [
+            "10",
+            "Check if a Number is Even or Odd",
+            "the modulo operator %",
+            "1"
+          ],
+          [
+            "11",
+            "Check if a Year is a Leap Year",
+            "combining and / or",
+            "2"
+          ],
+          [
+            "12",
+            "Find the Largest Among Three Numbers",
+            "comparisons and max()",
+            "2"
+          ],
+          [
+            "13",
+            "Check if a Number is Prime",
+            "a for loop with break",
+            "2"
+          ],
+          [
+            "14",
+            "Print All Prime Numbers in an Interval",
+            "nested loops and for-else",
+            "2"
+          ],
+          [
+            "15",
+            "Find the Factorial of a Number",
+            "building a result in a loop",
+            "2"
+          ],
+          [
+            "16",
+            "Display the Multiplication Table",
+            "range()",
+            "2"
+          ],
+          [
+            "17",
+            "Print the Fibonacci Sequence",
+            "multiple assignment",
+            "2"
+          ],
+          [
+            "18",
+            "Check if a Number is an Armstrong Number",
+            "strings of digits and sum()",
+            "2"
+          ],
+          [
+            "19",
+            "Find the Sum of Natural Numbers",
+            "a loop against a formula",
+            "2"
+          ],
+          [
+            "20",
+            "Display Powers of 2 Using an Anonymous Function",
+            "lambda and map()",
+            "2"
+          ],
+          [
+            "21",
+            "Find the ASCII Value of a Character",
+            "ord() and chr()",
+            "3"
+          ],
+          [
+            "22",
+            "Find the HCF or GCD of Two Numbers",
+            "a while loop and math.gcd()",
+            "3"
+          ],
+          [
+            "23",
+            "Make a Simple Calculator",
+            "functions stored in a dictionary",
+            "3"
+          ],
+          [
+            "24",
+            "Check Whether a String is a Palindrome",
+            "slicing with [::-1]",
+            "3"
+          ],
+          [
+            "25",
+            "Remove Punctuation from a String",
+            "the string module and join()",
+            "3"
+          ],
+          [
+            "26",
+            "Sort Words in Alphabetical Order",
+            "split() and sort()",
+            "3"
+          ],
+          [
+            "27",
+            "Count Each Vowel in a String",
+            "counting with a dictionary",
+            "3"
+          ],
+          [
+            "28",
+            "Merge Two Dictionaries",
+            "merging dictionaries",
+            "3"
+          ],
+          [
+            "29",
+            "Catch Multiple Exceptions in One Line",
+            "try and except",
+            "3"
+          ],
+          [
+            "30",
+            "Safely Open, Read and Write a File",
+            "with open() for files",
+            "3"
+          ],
+          [
+            "31",
+            "Get the Current Date and Time",
+            "the datetime module",
+            "4"
+          ],
+          [
+            "32",
+            "Check if Two Strings are Anagrams",
+            "sorted()",
+            "4"
+          ],
+          [
+            "33",
+            "Generate a Secure Random Password",
+            "the secrets module",
+            "4"
+          ],
+          [
+            "34",
+            "Build a Simple Countdown Timer",
+            "time.sleep()",
+            "4"
+          ],
+          [
+            "35",
+            "Filter a List Using a List Comprehension",
+            "list comprehensions",
+            "4"
+          ]
+        ]
       },
       {
         "type": "heading",
@@ -75,7 +316,7 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Level 1: The Absolute Basics (Programs 1–10)",
+        "text": "Level 1: The Absolute Basics (Programs 1 to 10)",
         "id": "level-1"
       },
       {
@@ -89,7 +330,18 @@
       },
       {
         "type": "paragraph",
-        "text": "The classic right of passage for every programmer. Just get the computer to say hi back to you."
+        "text": "The classic rite of passage for every programmer: get the computer to say hello back to you."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "print(\"Hello, World!\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Hello, World!"
       },
       {
         "type": "heading",
@@ -98,7 +350,18 @@
       },
       {
         "type": "paragraph",
-        "text": "Write a script that asks the user to input two numbers, adds them together, and prints the total. You will learn how to use the <code>input()</code> function and convert strings to integers."
+        "text": "Ask the user for two numbers, add them and print the total. <code>input()</code> always returns text, so convert each answer with <code>float()</code> (or <code>int()</code> for whole numbers) before adding."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "a = float(input(\"First number: \"))\nb = float(input(\"Second number: \"))\nprint(f\"{a} + {b} = {a + b}\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "First number: 7\nSecond number: 5.5\n7.0 + 5.5 = 12.5"
       },
       {
         "type": "heading",
@@ -110,6 +373,17 @@
         "text": "Import the <code>math</code> module and use it to calculate the square root of any number the user provides."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "import math\n\nn = float(input(\"Enter a number: \"))\nprint(f\"The square root of {n} is {math.sqrt(n):.4f}\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Enter a number: 20\nThe square root of 20.0 is 4.4721"
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "4. Calculate the Area of a Triangle"
@@ -117,6 +391,17 @@
       {
         "type": "paragraph",
         "text": "Take the base and height as inputs and apply the standard mathematical formula (0.5 * base * height) to find the area."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "base = float(input(\"Base: \"))\nheight = float(input(\"Height: \"))\narea = 0.5 * base * height\nprint(\"Area of the triangle:\", area)"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Base: 10\nHeight: 6\nArea of the triangle: 30.0"
       },
       {
         "type": "heading",
@@ -128,6 +413,17 @@
         "text": "Create two variables, x and y. Write a program that swaps their values. Try doing it the traditional way with a temporary variable, and then try Python's incredibly clean <code>x, y = y, x</code> method."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "x = 5\ny = 10\n\n# the Python way: tuple unpacking\nx, y = y, x\nprint(\"After swapping: x =\", x, \"and y =\", y)\n\n# the classic way, with a temporary variable\ntemp = x\nx = y\ny = temp\nprint(\"Swapped back:   x =\", x, \"and y =\", y)"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "After swapping: x = 10 and y = 5\nSwapped back:   x = 5 and y = 10"
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "6. Generate a Random Number"
@@ -137,13 +433,35 @@
         "text": "Import the <code>random</code> module and write a script that prints a random number between 1 and 100 every time you run it."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "import random\n\nnumber = random.randint(1, 100)   # both ends included\nprint(\"Your random number is\", number)"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Sample output (changes on every run)",
+        "code": "Your random number is 11"
+      },
+      {
         "type": "heading",
         "level": 3,
-        "text": "7. Convert Kilometers to Miles"
+        "text": "7. Convert Kilometres to Miles"
       },
       {
         "type": "paragraph",
         "text": "A practical utility script. Take an input in kilometers and multiply it by the conversion factor (0.621371) to output miles."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "km = float(input(\"Distance in kilometres: \"))\nmiles = km * 0.621371\nprint(f\"{km} km is {miles:.2f} miles\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Distance in kilometres: 10\n10.0 km is 6.21 miles"
       },
       {
         "type": "heading",
@@ -155,13 +473,35 @@
         "text": "Similar to the previous program, but this time you will use the formula (Celsius * 1.8) + 32 to convert temperatures."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "celsius = float(input(\"Temperature in Celsius: \"))\nfahrenheit = celsius * 1.8 + 32\nprint(f\"{celsius} C is {fahrenheit:.1f} F\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Temperature in Celsius: 37\n37.0 C is 98.6 F"
+      },
+      {
         "type": "heading",
         "level": 3,
-        "text": "9. Check if a Number is Positive, Negative, or Zero"
+        "text": "9. Check if a Number is Positive, Negative or Zero"
       },
       {
         "type": "paragraph",
         "text": "This introduces control flow. Use <code>if</code>, <code>elif</code>, and <code>else</code> statements to check the state of a user's inputted number."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "num = float(input(\"Enter a number: \"))\n\nif num > 0:\n    print(\"Positive\")\nelif num < 0:\n    print(\"Negative\")\nelse:\n    print(\"Zero\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Enter a number: -4\nNegative"
       },
       {
         "type": "heading",
@@ -173,9 +513,20 @@
         "text": "You will use the modulo operator (%) to see if a number is cleanly divisible by 2. If you want to dive deeper into how Python handles division and remainders, check out our guide on <a href='https://learn.modernagecoders.com/blog/what-is-floor-division-in-python' target='_blank' rel='noopener noreferrer'>understanding operators like floor division in Python</a>."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "num = int(input(\"Enter a whole number: \"))\n\nif num % 2 == 0:\n    print(num, \"is even\")\nelse:\n    print(num, \"is odd\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Enter a whole number: 17\n17 is odd"
+      },
+      {
         "type": "heading",
         "level": 2,
-        "text": "Level 2: Loops, Conditions, and Logic (Programs 11–20)",
+        "text": "Level 2: Loops, Conditions, and Logic (Programs 11 to 20)",
         "id": "level-2"
       },
       {
@@ -192,6 +543,21 @@
         "text": "Write a program that determines if a year is a leap year based on the rules (divisible by 4, but not 100, unless it is also divisible by 400)."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "def is_leap(year):\n    return (year % 4 == 0 and year % 100 != 0) or year % 400 == 0\n\nfor year in [1900, 2000, 2024, 2026]:\n    print(year, \"leap year\" if is_leap(year) else \"not a leap year\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "1900 not a leap year\n2000 leap year\n2024 leap year\n2026 not a leap year"
+      },
+      {
+        "type": "paragraph",
+        "text": "The <a href='/blog/how-to-write-a-leap-year-program-in-python'>leap year program in Python</a> guide explains the three rules and shows four more versions."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "12. Find the Largest Among Three Numbers"
@@ -201,13 +567,35 @@
         "text": "Take three numbers as input and use <code>if/elif/else</code> blocks with <code>and</code> operators to find the largest one."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "a = float(input(\"First: \"))\nb = float(input(\"Second: \"))\nc = float(input(\"Third: \"))\n\nif a >= b and a >= c:\n    largest = a\nelif b >= a and b >= c:\n    largest = b\nelse:\n    largest = c\n\nprint(\"Largest:\", largest)\nprint(\"Same answer with max():\", max(a, b, c))"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "First: 12\nSecond: 45\nThird: 7\nLargest: 45.0\nSame answer with max(): 45.0"
+      },
+      {
         "type": "heading",
         "level": 3,
-        "text": "13. Check if a Number is a Prime Number"
+        "text": "13. Check if a Number is Prime"
       },
       {
         "type": "paragraph",
         "text": "Write a loop that checks if a number is divisible by anything other than 1 and itself. This is a classic computer science problem."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "num = int(input(\"Enter a number: \"))\n\nis_prime = num > 1\nfor i in range(2, int(num ** 0.5) + 1):   # no factor can be bigger than the square root\n    if num % i == 0:\n        is_prime = False\n        break\n\nprint(num, \"is prime\" if is_prime else \"is not prime\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Enter a number: 29\n29 is prime"
       },
       {
         "type": "heading",
@@ -219,6 +607,17 @@
         "text": "Take the logic from program 13, but wrap it in another loop to print every prime number between 1 and 100."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "lower = int(input(\"From: \"))\nupper = int(input(\"To: \"))\n\nprimes = []\nfor num in range(max(lower, 2), upper + 1):\n    for i in range(2, int(num ** 0.5) + 1):\n        if num % i == 0:\n            break\n    else:                 # runs only when the loop did not break\n        primes.append(num)\n\nprint(\"Primes:\", primes)"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "From: 10\nTo: 50\nPrimes: [11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]"
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "15. Find the Factorial of a Number"
@@ -226,6 +625,17 @@
       {
         "type": "paragraph",
         "text": "Use a <code>for</code> loop to multiply a number by every integer below it (e.g., 5! = 5 x 4 x 3 x 2 x 1)."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "n = int(input(\"Enter a number: \"))\n\nfactorial = 1\nfor i in range(1, n + 1):\n    factorial *= i\n\nprint(f\"{n}! = {factorial}\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Enter a number: 5\n5! = 120"
       },
       {
         "type": "heading",
@@ -237,6 +647,17 @@
         "text": "Ask the user for a number, then use a loop to print out its multiplication table from 1 to 10."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "num = int(input(\"Table of: \"))\n\nfor i in range(1, 11):\n    print(f\"{num} x {i} = {num * i}\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Table of: 7\n7 x 1 = 7\n7 x 2 = 14\n7 x 3 = 21\n7 x 4 = 28\n7 x 5 = 35\n7 x 6 = 42\n7 x 7 = 49\n7 x 8 = 56\n7 x 9 = 63\n7 x 10 = 70"
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "17. Print the Fibonacci Sequence"
@@ -244,6 +665,17 @@
       {
         "type": "paragraph",
         "text": "Print a sequence where the next number is found by adding up the two numbers before it (0, 1, 1, 2, 3, 5, 8...). This is a fantastic test of your variable-updating skills."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "count = 10\na, b = 0, 1\n\nfor _ in range(count):\n    print(a, end=\" \")\n    a, b = b, a + b\nprint()"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "0 1 1 2 3 5 8 13 21 34 "
       },
       {
         "type": "paragraph",
@@ -263,6 +695,21 @@
         "text": "Check if an n-digit number equals the sum of its digits raised to the power of n. This sounds complicated, but breaking it down is great practice."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "num = input(\"Enter a number: \")\npower = len(num)\ntotal = sum(int(digit) ** power for digit in num)\n\nif total == int(num):\n    print(num, \"is an Armstrong number\")\nelse:\n    print(num, \"is not an Armstrong number\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Enter a number: 153\n153 is an Armstrong number"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is a full walk-through, with the other Armstrong numbers, in <a href='/blog/armstrong-number-python-complete-guide-examples-code'>Armstrong numbers in Python</a>."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "19. Find the Sum of Natural Numbers"
@@ -270,6 +717,17 @@
       {
         "type": "paragraph",
         "text": "Write a script that adds up all positive integers up to a number provided by the user."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "n = int(input(\"Add up 1 to: \"))\n\ntotal = 0\nfor i in range(1, n + 1):\n    total += i\n\nprint(\"Sum with a loop:\", total)\nprint(\"Sum with the formula n(n+1)/2:\", n * (n + 1) // 2)"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Add up 1 to: 10\nSum with a loop: 55\nSum with the formula n(n+1)/2: 55"
       },
       {
         "type": "heading",
@@ -281,9 +739,20 @@
         "text": "Learn how to use Python's <code>lambda</code> functions paired with the <code>map()</code> function to generate a list of powers of 2."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "terms = 8\npowers = list(map(lambda x: 2 ** x, range(terms)))\n\nfor i, value in enumerate(powers):\n    print(f\"2 raised to {i} = {value}\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "2 raised to 0 = 1\n2 raised to 1 = 2\n2 raised to 2 = 4\n2 raised to 3 = 8\n2 raised to 4 = 16\n2 raised to 5 = 32\n2 raised to 6 = 64\n2 raised to 7 = 128"
+      },
+      {
         "type": "heading",
         "level": 2,
-        "text": "Level 3: Strings, Lists, and Functions (Programs 21–30)",
+        "text": "Level 3: Strings, Lists, and Functions (Programs 21 to 30)",
         "id": "level-3"
       },
       {
@@ -300,13 +769,39 @@
         "text": "Use Python's built-in <code>ord()</code> function to find the numerical value of any character on your keyboard."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "ch = input(\"Enter one character: \")\nprint(f\"The ASCII value of '{ch}' is {ord(ch)}\")\nprint(\"And back again:\", chr(ord(ch)))"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Enter one character: p\nThe ASCII value of 'p' is 112\nAnd back again: p"
+      },
+      {
         "type": "heading",
         "level": 3,
-        "text": "22. Find HCF or GCD of Two Numbers"
+        "text": "22. Find the HCF or GCD of Two Numbers"
       },
       {
         "type": "paragraph",
         "text": "Write a function that calculates the Highest Common Factor (or Greatest Common Divisor) of two numbers using a <code>while</code> loop."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import math\n\na = int(input(\"First number: \"))\nb = int(input(\"Second number: \"))\n\n# Euclid's method: replace the pair with (b, remainder) until the remainder is 0\nx, y = a, b\nwhile y:\n    x, y = y, x % y\n\nprint(\"HCF by Euclid:\", x)\nprint(\"HCF by math.gcd:\", math.gcd(a, b))"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "First number: 54\nSecond number: 24\nHCF by Euclid: 6\nHCF by math.gcd: 6"
+      },
+      {
+        "type": "paragraph",
+        "text": "For LCM as well, and why Euclid's method is fast, read <a href='/blog/how-to-find-hcf-and-lcm-in-python'>HCF and LCM in Python</a>."
       },
       {
         "type": "heading",
@@ -318,6 +813,17 @@
         "text": "Create a calculator that can add, subtract, multiply, and divide. Structure it so each math operation is its own function. If you aren't sure why this matters, read up on the <a href='https://learn.modernagecoders.com/blog/advantages-functions-python-why-every-coder-should-use-them' target='_blank' rel='noopener noreferrer'>advantages of using functions in Python</a>."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "def add(x, y): return x + y\ndef subtract(x, y): return x - y\ndef multiply(x, y): return x * y\ndef divide(x, y): return \"cannot divide by zero\" if y == 0 else x / y\n\noperations = {\"1\": (\"+\", add), \"2\": (\"-\", subtract), \"3\": (\"*\", multiply), \"4\": (\"/\", divide)}\n\nprint(\"1 Add   2 Subtract   3 Multiply   4 Divide\")\nchoice = input(\"Choose 1 to 4: \")\na = float(input(\"First number: \"))\nb = float(input(\"Second number: \"))\n\nsymbol, action = operations[choice]\nprint(f\"{a} {symbol} {b} = {action(a, b)}\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "1 Add   2 Subtract   3 Multiply   4 Divide\nChoose 1 to 4: 3\nFirst number: 8\nSecond number: 4\n8.0 * 4.0 = 32.0"
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "24. Check Whether a String is a Palindrome"
@@ -327,13 +833,35 @@
         "text": "Write a script that checks if a word is spelled the same way backward as it is forward. Hint: look into Python's string slicing <code>[::-1]</code>."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "word = input(\"Enter a word: \")\ncleaned = word.lower()\n\nif cleaned == cleaned[::-1]:      # [::-1] reverses a string\n    print(word, \"is a palindrome\")\nelse:\n    print(word, \"is not a palindrome\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Enter a word: Racecar\nRacecar is a palindrome"
+      },
+      {
         "type": "heading",
         "level": 3,
-        "text": "25. Remove Punctuations from a String"
+        "text": "25. Remove Punctuation from a String"
       },
       {
         "type": "paragraph",
         "text": "Take a messy sentence full of commas and exclamation points, and use a loop to strip them all out, leaving only the words."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import string\n\ntext = \"Hello!!! How are you, today? (Fine, thanks.)\"\ncleaned = \"\".join(ch for ch in text if ch not in string.punctuation)\nprint(cleaned)"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Hello How are you today Fine thanks"
       },
       {
         "type": "heading",
@@ -345,13 +873,35 @@
         "text": "Take a sentence from the user, split it into individual words, and use the <code>.sort()</code> method to arrange them alphabetically."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "sentence = input(\"Enter a sentence: \")\nwords = sentence.lower().split()\nwords.sort()\nprint(\" \".join(words))"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Enter a sentence: the Quick brown fox jumps over a lazy dog\na brown dog fox jumps lazy over quick the"
+      },
+      {
         "type": "heading",
         "level": 3,
-        "text": "27. Count the Number of Each Vowel"
+        "text": "27. Count Each Vowel in a String"
       },
       {
         "type": "paragraph",
         "text": "Ask the user for a string and use a dictionary to count how many times 'a', 'e', 'i', 'o', and 'u' appear."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "text = \"Modern Age Coders teaches Python to every age\"\ncounts = {vowel: 0 for vowel in \"aeiou\"}\n\nfor ch in text.lower():\n    if ch in counts:\n        counts[ch] += 1\n\nprint(counts)"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "{'a': 3, 'e': 8, 'i': 0, 'o': 4, 'u': 0}"
       },
       {
         "type": "heading",
@@ -363,6 +913,17 @@
         "text": "Create two dictionaries with fake user data and write a script to merge them into one single dictionary."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "student = {\"name\": \"Asha\", \"age\": 12}\nmarks = {\"maths\": 91, \"science\": 88, \"age\": 13}\n\nmerged = {**student, **marks}      # works on every Python 3 version\nprint(merged)\n\nmerged2 = student | marks          # Python 3.9 and later\nprint(merged2 == merged)"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "{'name': 'Asha', 'age': 13, 'maths': 91, 'science': 88}\nTrue"
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "29. Catch Multiple Exceptions in One Line"
@@ -372,18 +933,40 @@
         "text": "Write a script that intentionally causes a division-by-zero error and a value error, and use a <code>try/except</code> block to catch and handle both safely without crashing the program."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "for value in [\"10\", \"0\", \"abc\"]:\n    try:\n        print(f\"100 / {value} =\", 100 / int(value))\n    except (ZeroDivisionError, ValueError) as error:\n        print(f\"Could not divide by {value!r}:\", type(error).__name__)"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "100 / 10 = 10.0\nCould not divide by '0': ZeroDivisionError\nCould not divide by 'abc': ValueError"
+      },
+      {
         "type": "heading",
         "level": 3,
-        "text": "30. Safely Open, Read, and Write to a File"
+        "text": "30. Safely Open, Read and Write a File"
       },
       {
         "type": "paragraph",
         "text": "Create a text file using Python, write a sentence to it, close it, and then open it back up to read the contents using the <code>with open()</code> context manager."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "with open(\"notes.txt\", \"w\") as file:          # \"w\" creates or overwrites\n    file.write(\"Python closes this file for me.\\n\")\n\nwith open(\"notes.txt\", \"a\") as file:          # \"a\" adds to the end\n    file.write(\"Second line, appended.\\n\")\n\nwith open(\"notes.txt\") as file:               # reading is the default\n    for number, line in enumerate(file, start=1):\n        print(number, line.strip())"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "1 Python closes this file for me.\n2 Second line, appended."
+      },
+      {
         "type": "heading",
         "level": 2,
-        "text": "Level 4: Real-World Utilities (Programs 31–35)",
+        "text": "Level 4: Real-World Utilities (Programs 31 to 35)",
         "id": "level-4"
       },
       {
@@ -400,6 +983,17 @@
         "text": "Import the <code>datetime</code> module and format the output so it prints today's date and the current time in a readable, human-friendly way (like \"Monday, October 12, 2026\")."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "from datetime import datetime\n\nnow = datetime.now()\nprint(\"Today is\", now.strftime(\"%A, %d %B %Y\"))\nprint(\"The time is\", now.strftime(\"%H:%M\"))"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Sample output (changes on every run)",
+        "code": "Today is Wednesday, 23 September 2026\nThe time is 15:57"
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "32. Check if Two Strings are Anagrams"
@@ -409,13 +1003,35 @@
         "text": "Write a script that takes two words from the user, converts them to lowercase, sorts their letters, and checks if they contain the exact same characters."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "first = input(\"First word: \")\nsecond = input(\"Second word: \")\n\nif sorted(first.lower()) == sorted(second.lower()):\n    print(first, \"and\", second, \"are anagrams\")\nelse:\n    print(first, \"and\", second, \"are not anagrams\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "First word: Listen\nSecond word: Silent\nListen and Silent are anagrams"
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "33. Generate a Secure Random Password"
       },
       {
         "type": "paragraph",
-        "text": "Import both the <code>random</code> and <code>string</code> modules. Write a function that generates a 12-character password containing a mix of uppercase letters, lowercase letters, numbers, and symbols."
+        "text": "Build a 12-character password that mixes lowercase and uppercase letters, digits and symbols. Use the <code>secrets</code> module rather than <code>random</code>: the Python documentation warns that the generators in <code>random</code> should not be used for security purposes and points to <code>secrets</code> instead."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import secrets\nimport string\n\nalphabet = string.ascii_letters + string.digits + string.punctuation\n\nwhile True:\n    password = \"\".join(secrets.choice(alphabet) for _ in range(12))\n    # keep only passwords that mix all four kinds of character\n    if (any(c.islower() for c in password) and any(c.isupper() for c in password)\n            and any(c.isdigit() for c in password) and any(c in string.punctuation for c in password)):\n        break\n\nprint(\"Your new password:\", password)"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Sample output (changes on every run)",
+        "code": "Your new password: [_;kQUpGoM1O"
       },
       {
         "type": "heading",
@@ -427,13 +1043,35 @@
         "text": "Import the <code>time</code> module. Ask the user for a number of seconds, and use a <code>while</code> loop paired with <code>time.sleep(1)</code> to print a countdown that ends with \"Time's up!\"."
       },
       {
+        "type": "code",
+        "language": "python",
+        "code": "import time\n\nseconds = int(input(\"Count down from: \"))\n\nwhile seconds > 0:\n    print(seconds)\n    time.sleep(1)       # wait one second\n    seconds -= 1\n\nprint(\"Time's up!\")"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Count down from: 3\n3\n2\n1\nTime's up!"
+      },
+      {
         "type": "heading",
         "level": 3,
-        "text": "35. Filter a List Using List Comprehensions"
+        "text": "35. Filter a List Using a List Comprehension"
       },
       {
         "type": "paragraph",
-        "text": "Take a list of 20 random numbers. Instead of using a standard <code>for</code> loop, use Python's powerful list comprehension syntax to create a brand new list that contains only the even numbers from the original list."
+        "text": "Take a list of 20 numbers and, instead of a standard <code>for</code> loop, use a list comprehension to build new lists in one line: the even numbers, and the squares of the odd ones."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "numbers = [14, 3, 8, 21, 6, 17, 30, 9, 12, 5, 26, 11, 4, 19, 2, 27, 16, 7, 10, 23]\n\nevens = [n for n in numbers if n % 2 == 0]\nsquares_of_odds = [n * n for n in numbers if n % 2 == 1]\n\nprint(\"Evens:\", evens)\nprint(\"Squares of the odd numbers:\", squares_of_odds)"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "Evens: [14, 8, 6, 30, 12, 26, 4, 2, 16, 10]\nSquares of the odd numbers: [9, 441, 289, 81, 25, 121, 361, 729, 49, 529]"
       },
       {
         "type": "heading",
@@ -460,6 +1098,45 @@
       {
         "type": "heading",
         "level": 2,
+        "text": "Python programs: common questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What are some simple Python programs for beginners?",
+            "content": "Start with printing Hello, World, adding two numbers, checking whether a number is even or odd, converting Celsius to Fahrenheit and printing a multiplication table. Then move to loops and conditions: leap years, factorials, prime numbers and the Fibonacci sequence. All of them are on this page with code and output."
+          },
+          {
+            "title": "How do I run these Python programs?",
+            "content": "Install Python 3 from python.org, save a program in a file ending in .py, and run it from a terminal with <code>python program.py</code> (on macOS and Linux the command is often <code>python3</code>). You can also paste it into IDLE, which comes with Python, or into an online Python editor."
+          },
+          {
+            "title": "Why is my output slightly different from the page?",
+            "content": "Programs 6, 31 and 33 use randomness or the clock, so they print something new each time; their output is marked as a sample. Everywhere else your output should match exactly if you type the same input. A number read with <code>float()</code> prints with a decimal point, so 7 becomes 7.0."
+          },
+          {
+            "title": "Do I need to install any packages?",
+            "content": "No. Every program uses only the standard library that ships with Python 3.9 or later: math, random, string, datetime, secrets and time."
+          },
+          {
+            "title": "How long does it take to finish all 35 programs?",
+            "content": "At two or three programs a day, which is a pace most beginners can keep up, the list takes about two weeks. Speed matters less than typing each one yourself and changing it until you can predict what it will print."
+          },
+          {
+            "title": "Where can I find Python programs for CBSE Class 11 and 12?",
+            "content": "The Class 12 programs go further than this page, into text, binary and CSV files and the stack. We collect them in <a href='/blog/python-programs-for-cbse-class-12'>Python programs for CBSE Class 12</a>."
+          },
+          {
+            "title": "What should I learn after these basic programs?",
+            "content": "Join programs together. A <a href='/blog/how-to-build-menu-driven-program-in-python'>menu driven program in Python</a> turns several of these into one app, <a href='/blog/exception-handling-in-python'>exception handling</a> stops it crashing on bad input, and <a href='/blog/star-pattern-programs-in-python'>star pattern programs</a> are good practice for nested loops."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
         "text": "Conclusion",
         "id": "conclusion"
       },
@@ -468,8 +1145,10 @@
         "text": "Completing these 35 Python basic programs for beginners gives you a rock-solid grasp of programming fundamentals. Consistency is key, tackle two or three programs daily, and the logic will quickly click."
       },
       {
-        "type": "paragraph",
-        "text": "Ready to stop guessing and start building real-world software? Take your skills to the professional level by enrolling in Modern Age Coders' comprehensive Python courses. We will teach you how to write the clean, efficient code that employers actually want to see."
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Learn Python live, with a teacher reading your code",
+        "text": "Working through a list alone is how most people start; the jump to writing your own programs comes faster when someone reads your code and asks why it works. Ages 9 to 12: <a href='/courses/python-ai-kids-masterclass'>Python and AI for Kids</a>. Ages 13 to 18: <a href='/courses/python-complete-masterclass-teens'>Python for Teens</a>. College students and adults: <a href='/courses/python-programming-masterclass-zero-to-advanced-college'>Python Masterclass</a>. The first class is a free demo, so you can see how it is taught before you decide."
       }
     ]
   },

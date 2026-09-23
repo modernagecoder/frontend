@@ -1,0 +1,37 @@
+[
+  {
+    "n": 1,
+    "title": "The calculator menu, run once",
+    "code": "def add(x, y):\n    return x + y\n\ndef subtract(x, y):\n    return x - y\n\ndef divide(x, y):\n    if y == 0:\n        return \"Error: Cannot divide by zero!\"\n    return x / y\n\nwhile True:\n    # Step 1: show the menu\n    print(\"\\n--- Main Menu ---\")\n    print(\"1. Add Numbers\")\n    print(\"2. Subtract Numbers\")\n    print(\"3. Divide Numbers\")\n    print(\"4. Exit Program\")\n\n    # Step 2: read the choice\n    choice = input(\"Enter your choice (1-4): \")\n\n    # Step 3: act on it\n    if choice == \"4\":\n        print(\"Exiting the program. Goodbye!\")\n        break                      # leaves the while loop\n\n    if choice in (\"1\", \"2\", \"3\"):\n        num1 = float(input(\"Enter first number: \"))\n        num2 = float(input(\"Enter second number: \"))\n        if choice == \"1\":\n            print(f\"Result: {num1} + {num2} = {add(num1, num2)}\")\n        elif choice == \"2\":\n            print(f\"Result: {num1} - {num2} = {subtract(num1, num2)}\")\n        else:\n            print(f\"Result: {num1} / {num2} = {divide(num1, num2)}\")\n    else:\n        # Step 4: anything else is a bad choice\n        print(\"Invalid input. Please enter a number between 1 and 4.\")",
+    "output": "--- Main Menu ---\n1. Add Numbers\n2. Subtract Numbers\n3. Divide Numbers\n4. Exit Program\nEnter your choice (1-4): 1\nEnter first number: 8\nEnter second number: 2\nResult: 8.0 + 2.0 = 10.0\n\n--- Main Menu ---\n1. Add Numbers\n2. Subtract Numbers\n3. Divide Numbers\n4. Exit Program\nEnter your choice (1-4): 5\nInvalid input. Please enter a number between 1 and 4.\n\n--- Main Menu ---\n1. Add Numbers\n2. Subtract Numbers\n3. Divide Numbers\n4. Exit Program\nEnter your choice (1-4): 4\nExiting the program. Goodbye!",
+    "sample": false
+  },
+  {
+    "n": 2,
+    "title": "A number reader that never crashes",
+    "code": "def read_number(prompt):\n    while True:                          # keep asking until the input is a number\n        try:\n            return float(input(prompt))\n        except ValueError:\n            print(\"That is not a valid number! Please try again.\")\n\nnum = read_number(\"Enter first number: \")\nprint(\"Got\", num)",
+    "output": "Enter first number: A\nThat is not a valid number! Please try again.\nEnter first number: 12\nGot 12.0",
+    "sample": false
+  },
+  {
+    "n": 3,
+    "title": "Today's menu from a Python dictionary",
+    "code": "from datetime import date\n\nWEEKLY_MENU = {\n    \"Monday\":    [\"Veg pulao\", \"Dal tadka\", \"Salad\"],\n    \"Tuesday\":   [\"Rajma chawal\", \"Jeera aloo\", \"Curd\"],\n    \"Wednesday\": [\"Pasta\", \"Garlic bread\", \"Fruit\"],\n    \"Thursday\":  [\"Chole\", \"Rice\", \"Pickle\"],\n    \"Friday\":    [\"Paneer wrap\", \"Soup\", \"Brownie\"],\n    \"Saturday\":  [\"Idli\", \"Sambar\", \"Chutney\"],\n    \"Sunday\":    [\"Poha\", \"Masala chai\"],\n}\n\ntoday = date.today().strftime(\"%A\")        # e.g. \"Wednesday\"\nprint(f\"Menu for {today}:\")\nfor dish in WEEKLY_MENU[today]:\n    print(\" -\", dish)",
+    "output": "Menu for Wednesday:\n - Pasta\n - Garlic bread\n - Fruit",
+    "sample": true
+  },
+  {
+    "n": 4,
+    "title": "The daily menu kept in a file",
+    "code": "import json\nfrom datetime import date, timedelta\n\n# In real use the file already exists; this line only creates a small one to read.\nwith open(\"menu.json\", \"w\") as f:\n    json.dump({\"Monday\": [\"Veg pulao\", \"Dal\"], \"Tuesday\": [\"Rajma chawal\"],\n               \"Wednesday\": [\"Pasta\", \"Fruit\"], \"Thursday\": [\"Chole\", \"Rice\"],\n               \"Friday\": [\"Paneer wrap\"], \"Saturday\": [\"Idli\", \"Sambar\"],\n               \"Sunday\": [\"Poha\"]}, f)\n\ndef menu_for(day):\n    with open(\"menu.json\") as f:\n        menu = json.load(f)\n    return menu.get(day.strftime(\"%A\"), [\"No menu published for this day\"])\n\nwednesday = date(2026, 9, 23)\nfor offset in range(3):\n    day = wednesday + timedelta(days=offset)\n    print(day.strftime(\"%a %d %b\"), \"->\", \", \".join(menu_for(day)))",
+    "output": "Wed 23 Sep -> Pasta, Fruit\nThu 24 Sep -> Chole, Rice\nFri 25 Sep -> Paneer wrap",
+    "sample": false
+  },
+  {
+    "n": 5,
+    "title": "A menu driven canteen program",
+    "code": "from datetime import date\n\nWEEKLY_MENU = {\n    \"Monday\": [\"Veg pulao\", \"Dal\"], \"Tuesday\": [\"Rajma chawal\"],\n    \"Wednesday\": [\"Pasta\", \"Fruit\"], \"Thursday\": [\"Chole\", \"Rice\"],\n    \"Friday\": [\"Paneer wrap\", \"Soup\"], \"Saturday\": [\"Idli\", \"Sambar\"],\n    \"Sunday\": [\"Poha\"],\n}\n\ndef show(day):\n    print(f\"{day}: \" + \", \".join(WEEKLY_MENU[day]))\n\nwhile True:\n    print(\"\\n1. Show the whole week   2. Pick a day   3. Quit\")\n    choice = input(\"Choice: \")\n    if choice == \"1\":\n        for day in WEEKLY_MENU:\n            show(day)\n    elif choice == \"2\":\n        day = input(\"Which day? \").strip().capitalize()\n        if day in WEEKLY_MENU:\n            show(day)\n        else:\n            print(\"Please type a day name, for example Monday\")\n    elif choice == \"3\":\n        print(\"Bye!\")\n        break\n    else:\n        print(\"Choose 1, 2 or 3\")",
+    "output": "1. Show the whole week   2. Pick a day   3. Quit\nChoice: 1\nMonday: Veg pulao, Dal\nTuesday: Rajma chawal\nWednesday: Pasta, Fruit\nThursday: Chole, Rice\nFriday: Paneer wrap, Soup\nSaturday: Idli, Sambar\nSunday: Poha\n\n1. Show the whole week   2. Pick a day   3. Quit\nChoice: 2\nWhich day? Friday\nFriday: Paneer wrap, Soup\n\n1. Show the whole week   2. Pick a day   3. Quit\nChoice: 3\nBye!",
+    "sample": false
+  }
+]
