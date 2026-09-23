@@ -3718,4 +3718,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-wrexham /src/pages/best-coding-class-in-wrexham.html 200
 /best-coding-class-in-wrexham.md /src/pages/best-coding-class-in-wrexham.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-dunfermline /src/pages/best-coding-class-in-dunfermline.html 200
+/best-coding-class-in-dunfermline.md /src/pages/best-coding-class-in-dunfermline.md 200
 /* /src/pages/404.html 404

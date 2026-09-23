@@ -20690,5 +20690,61 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Welsh Air Quality Network, Cadw, St Giles' Church, the UK government or Wrexham County Borough Council."
     ]
+  },
+  "best-coding-class-in-dunfermline": {
+    "market": "Dunfermline",
+    "bodyClass": "cg-dfl",
+    "pageType": "city",
+    "curriculumAuthority": "National Records of Scotland, Scotland's Census 2022 first results, rounded to the nearest hundred: Fife S12000047 370,400 usual residents (2011: 365,198), 169,600 households (2011: 160,952), 279.5 per square kilometre, 15.6 percent aged 0 to 14, 21.6 percent 65 and over; Scotland 5,436,600 (2011: 5,295,403), 69.8, 15.3 and 20.1 percent. Carnegie autobiography: born 25 November 1835, Moodie Street and Priory Lane; damask trade; telegraph messenger; message by ear. HES: LB25961 (Category A; William Burn 1818-21; 1905; KING ROBERT THE BRUCE balustrade), LB25960 (A), LB26026 (B; 1835-1919 lintel; 25 June 1925; Louise Whitfield Carnegie; trustees 1910), LB25970 (B), LB25972 (A).",
+    "localProject": "Could Carnegie's story survive a noisy line? Gutenberg 17976, 669,829 characters. Hamming (7,4) vs plain vs triple repetition, bit-flip chance 1 in 1,000, 1 in 100, 1 in 20: plain 5,223, 51,518, 224,375 wrong; Hamming 32, 2,682, 58,266; triple 9, 1,616, 37,687. Bits: 5,358,632; 9,377,606 (+75 percent); 16,075,896 (+200 percent). Theory at 1 in 100: plain 7.73 percent, Hamming about 0.41 percent; simulated 7.69 and 0.40. Lesson family: Hamming code.",
+    "requiredMentions": [
+      "370,400",
+      "279.5",
+      "Hamming",
+      "syndrome",
+      "Moodie Street",
+      "damask",
+      "Pittencrieff",
+      "Abbey Parks",
+      "Headwell",
+      "Brucefield",
+      "Crossford",
+      "Townhill"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data: Fife and Scotland population, households, age shares and density; 2011 comparisons.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "Project Gutenberg, Autobiography of Andrew Carnegie (ebook 17976): birth, damask trade, telegraph messenger, message by ear.",
+        "url": "https://www.gutenberg.org/ebooks/17976"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB25961 Dunfermline Abbey, New Abbey Parish Church.",
+        "url": "https://portal.historicenvironment.scot/designation/LB25961"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB26026 Andrew Carnegie Birthplace Memorial.",
+        "url": "https://portal.historicenvironment.scot/designation/LB26026"
+      },
+      {
+        "claim": "Historic Environment Scotland, designations data (listed buildings layer): LB25960, LB25970, LB25972.",
+        "url": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer"
+      },
+      {
+        "claim": "Ordnance Survey, OS Open Names: Dunfermline and nearby places.",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-names"
+      }
+    ],
+    "rejectedClaims": [
+      "Who invented the Hamming code and when: not taken from a fetched source, so no history of the code is given.",
+      "That Robert the Bruce is buried at the Abbey: not stated in the fetched records; the page mentions only the lettering on the tower.",
+      "A population figure for Dunfermline itself: the census first results are published for council areas, so only Fife is quoted.",
+      "A percentage growth for Fife since 2011: the 2022 figure is rounded, so both numbers are given without a derived rate.",
+      "Carnegie's later life and wealth: not needed for the page; his own words about Dunfermline and the telegraph are used instead.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Project Gutenberg, Historic Environment Scotland, National Records of Scotland, the Carnegie trusts or Fife Council."
+    ]
   }
 }
