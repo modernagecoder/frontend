@@ -18646,5 +18646,59 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Met Office, Lincoln Castle, Lincoln Cathedral or City of Lincoln Council."
     ]
+  },
+  "best-coding-class-in-peterborough": {
+    "market": "Peterborough",
+    "bodyClass": "cg-pbo",
+    "pageType": "city",
+    "curriculumAuthority": "Peterborough, Census 2021 via Nomis (E06000031): TS001 215,671 usual residents, 213,464 in households, 2,207 in communal establishments; TS007A 14,163 aged 4 and under (6.6 percent, England 5.4), 15,730 aged 5 to 9 (7.3, England 5.9), 15,502 aged 10 to 14 (7.2, England 6.0), 17,299 aged 30 to 34 (8.0, England 7.0); TS068 43,896 students of 201,510 residents aged 5 and over (21.8 percent, England 20.4); TS006 628.1 usual residents per square kilometre (England 433.5). Peterborough Cathedral, History: a place of worship for over 1,350 years; fire in 1116; present building begun 1118; consecrated 1238 with a unique wooden ceiling largely unchanged; Katharine of Aragon buried 1536; Mary, Queen of Scots buried 1587.",
+    "localProject": "Where will Peterborough's growth level off? ONS mid-year estimates (Nomis NM_2002_1, read 23 September 2026), 1991 154,181 to 2025 224,757. Logistic curves with fixed ceiling, fitted to all 35 years (error in people; predicted 2040): 240,000 8,714 (226,811); 260,000 7,773; 300,000 6,833 (245,466); 400,000 6,026 (257,446); 600,000 5,605; 1,000,000 5,396 (270,428); 2,000,000 5,281 (273,372); straight line 6,261 (257,765). Free fits run to the parameter limits. Fitted 1991-2015, tested 2016-2025: all under-predict 2025 (best 213,218 against 224,757). Largest rises 2016 +4,845 and 2015 +4,480. Lesson family: logistic growth, carrying capacity and identifiability; distinct from Dundee forecast baselines and Sheffield least squares.",
+    "requiredMentions": [
+      "215,671",
+      "213,464",
+      "628.1",
+      "15,730",
+      "43,896",
+      "201,510",
+      "Katharine of Aragon",
+      "wooden ceiling",
+      "carrying capacity",
+      "224,757",
+      "Fotheringhay",
+      "154,181"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Peterborough: 215,671 usual residents; 213,464 in households; 2,207 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E06000031"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Peterborough and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E06000031,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Peterborough 43,896 students of 201,510 aged 5 and over (21.8 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E06000031,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, Peterborough 628.1 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E06000031,E92000001"
+      },
+      {
+        "claim": "ONS mid-year population estimates via Nomis, Peterborough, 1991 to 2025.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2002_1.data.csv?geography=E06000031&gender=0&c_age=200&measures=20100"
+      },
+      {
+        "claim": "Peterborough Cathedral, History: 1116 fire, 1118 building begun, 1238 consecration and wooden ceiling, burials of 1536 and 1587.",
+        "url": "https://www.peterborough-cathedral.org.uk/history"
+      }
+    ],
+    "rejectedClaims": [
+      "A founding year for the Cathedral: its own page gives 654 in one place and 655 in another, so neither is used.",
+      "A population ceiling or date for Peterborough: the data cannot identify one, which is the point of the page; no official projection is quoted.",
+      "Causes of Peterborough's faster growth after 2011: not established by the estimates alone, so the page reports timing only.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Office for National Statistics, Peterborough Cathedral or Peterborough City Council."
+    ]
   }
 }
