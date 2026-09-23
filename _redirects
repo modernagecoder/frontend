@@ -3734,4 +3734,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-stirling /src/pages/best-coding-class-in-stirling.html 200
 /best-coding-class-in-stirling.md /src/pages/best-coding-class-in-stirling.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-bangor-northern-ireland /src/pages/best-coding-class-in-bangor-northern-ireland.html 200
+/best-coding-class-in-bangor-northern-ireland.md /src/pages/best-coding-class-in-bangor-northern-ireland.md 200
 /* /src/pages/404.html 404

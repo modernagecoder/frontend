@@ -20920,5 +20920,52 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the University of St Andrews, Historic Environment Scotland, National Records of Scotland or Stirling Council."
     ]
+  },
+  "best-coding-class-in-bangor-northern-ireland": {
+    "market": "Bangor",
+    "bodyClass": "cg-bni",
+    "pageType": "city",
+    "curriculumAuthority": "NISRA Census 2021 MS-A01: settlement BANGOR 64,596; DEAs Bangor Central 26,637, Bangor East and Donaghadee 22,850, Bangor West 19,517; LGD Ards and North Down 163,659; Northern Ireland 1,903,175. MS-A02 shares: Bangor 0-4 5.1, 10-14 6.4, 70-74 5.8, 90+ 1.0 percent; Northern Ireland 6.0, 6.7, 4.4, 0.7. HED Listed Buildings NI (10 September 2026): Town Hall, Bangor Castle, Grade A, 1840-1859; Tower House, 34 Quay Street, B1, 1600-1649; Bangor Abbey Parish Church of Ireland, B+, 1820-1839; Helen's Bay station, A, 1860-1879; Crawfordsburn railway viaduct, A, 1860-1879; Royal Ulster Yacht Club, B+, 1880-1899.",
+    "localProject": "Why is the wait longer than half the gap? Translink NI Railways TransXChange timetable (updated 4 September 2026). Bangor to Belfast: Wednesday 30 September 2026 51 trains, mean gap 19.82 minutes, half 9.91, real wait 13.64 (simulation 13.64), long gaps 50 percent of gaps and 76.0 percent of time; Saturday 31 trains, 16.00 vs 16.88; Sunday 14 trains hourly, 30.00 vs 30.00. Lesson family: inspection paradox.",
+    "requiredMentions": [
+      "64,596",
+      "inspection paradox",
+      "TransXChange",
+      "Tower House",
+      "Bangor Castle",
+      "Helen's Bay",
+      "Crawfordsburn",
+      "Carnalea",
+      "Ballyholme",
+      "Groomsport",
+      "Seahill",
+      "Clandeboye"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA, Census 2021 MS-A01 usual resident population: settlement, DEA, LGD and Northern Ireland tables.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "NISRA, Census 2021 MS-A02 usual residents by age: Bangor settlement, Ards and North Down and Northern Ireland.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a02.xlsx"
+      },
+      {
+        "claim": "OpenDataNI, Translink Northern Ireland Rail Timetable Data (TransXChange, updated 4 September 2026, Open Government Licence).",
+        "url": "https://www.opendatani.gov.uk/@translink/nir20160126v2"
+      },
+      {
+        "claim": "OpenDataNI, Listed Buildings Northern Ireland (Department for Communities, Historic Environment Division), GeoJSON of 10 September 2026.",
+        "url": "https://www.opendatani.gov.uk/@department-for-communities-historic-environment-division/listed-buildings-northern-ireland"
+      }
+    ],
+    "rejectedClaims": [
+      "That commuters wait 13.64 minutes: the figure applies only to passengers arriving at random, and the page says most check the timetable.",
+      "Reasons for Translink's timetable pattern: not taken from a fetched source, so no reason is given.",
+      "Bangor Abbey's early history (monastic foundation): not in the fetched listing data, so only the listed church and its construction date are given.",
+      "Adding age bands or areas together: NISRA figures are quoted table by table as published.",
+      "Nationality, ethnicity, religion, birthplace, national identity and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Translink, NISRA, the Department for Communities or Ards and North Down Borough Council."
+    ]
   }
 }
