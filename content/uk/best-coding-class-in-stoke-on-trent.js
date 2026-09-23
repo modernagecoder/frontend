@@ -3,7 +3,7 @@
 // against moving averages on hourly PM2.5 from DEFRA UK-AIR, Stoke-on-Trent Centre (site STOK), flat files
 // STOK_2022 to STOK_2025 (2025 supplied 1 May 2026, ratified), read 23 September 2026 (scratchpad stk/mf.py).
 // Hours with PM2.5: 2022 8,721 of 8,760; 2023 8,751; 2024 8,773 of 8,784; 2025 8,730 of 8,760. Year's highest hour:
-// 2022 66.8 at 22:00 on 5 November; 2023 51.8 on 24 January 10:00; 2024 42.6 at 22:00 on 5 November; 2025 77.2 at
+// (times GMT, hour ending) 2022 66.8 at 22:00 on 5 November; 2023 51.8 on 24 January 10:00; 2024 42.6 at 22:00 on 5 November; 2025 77.2 at
 // 20:00 on 24 July (next hour 46.3, hours either side 21.5 and 24.5). 5 November evening (17:00 to 03:00): 2022 peak
 // 66.8, 7 of 11 hours at 30 or more, afternoon mean 4.3; 2023 single hour 33.8 at 20:00; 2024 42.6, 7 of 11 hours at
 // 30 or more; 2025 26.8. Centred filters at the peak hour, median / mean: 2022 k3 58.5/58.7, k5 57.5/53.0, k9
@@ -63,7 +63,7 @@ module.exports = {
   h1: 'Coding classes in Stoke-on-Trent',
   capsuleQ: 'What are the best coding classes in Stoke-on-Trent?',
   capsule: 'The 2021 census counted 258,366 usual residents in Stoke-on-Trent, living at 2,764.8 people per square kilometre against 433.5 across England. The Victoria County History records that the six pottery towns became one county borough on 31 March 1910, and the city dates from 1925. Our teachers in India teach Stoke-on-Trent learners from age six to sixty-seven in live video lessons, one to one or in groups of five to ten working at the same level, at times that fit around British school and work. There is no charge for the first lesson; after that a group place is USD 100 a month and one-to-one teaching USD 150.',
-  lead: 'Every hour, the Stoke-on-Trent Centre monitoring site reports how much fine dust, PM2.5, is in the air. Some hours leap far above their neighbours. Are they faults to smooth away, or real events? Our teenagers build a median filter, which replaces each hour with the middle value of a small window, and test it on four years of the city\'s data. In 2022 the highest hour of the year came at 22:00 on 5 November, Bonfire Night, and lasted all evening, so a five-hour median keeps 57.5 of its 66.8 micrograms. In 2025 the highest hour, 77.2 on a July evening, lasted barely two hours, and the same filter cuts it to 24.5. The filter cannot tell a fault from a real event; only its window length decides.',
+  lead: 'Every hour, the Stoke-on-Trent Centre monitoring site reports how much fine dust, PM2.5, is in the air. Some hours leap far above their neighbours. Are they faults to smooth away, or real events? Our teenagers build a median filter, which replaces each hour with the middle value of a small window, and test it on four years of the city\'s data. In 2022 the highest hour of the year was the one ending at 22:00 GMT on 5 November, Bonfire Night, and lasted all evening, so a five-hour median keeps 57.5 of its 66.8 micrograms. In 2025 the highest hour, 77.2 on a July evening, lasted barely two hours, and the same filter cuts it to 24.5. The filter cannot tell a fault from a real event; only its window length decides.',
   wa: 'Hello Modern Age Coders, I would like a free coding lesson for a learner in Stoke-on-Trent, please.',
 
   picks: {
@@ -112,7 +112,7 @@ module.exports = {
           { h3: '1925', p: 'Stoke-on-Trent became a city. The county history adds that local loyalties to the six towns lived on long after the merger.' }
         ] },
         { kind: 'p', text: 'The pottery industry has left its mark on the listing records too. Historic England lists surviving bottle ovens across the city, among them two bottle ovens and a chimney at Albion Works and a single bottle oven at the former Dolby Pottery, both at Grade II. We have no connection with Historic England, the Victoria County History or Stoke-on-Trent City Council; the ovens earn a place here because they recall towns whose people, the county history says, were predominantly engaged in a common industry, and today the same city measures its air every hour, which gives this page its project.' },
-        { kind: 'spec', title: 'Where the air data comes from', p: 'DEFRA\'s UK-AIR archive publishes hourly readings from the Stoke-on-Trent Centre site as open data, including PM2.5, the fine particles smaller than 2.5 thousandths of a millimetre, with each value marked as ratified or provisional.' }
+        { kind: 'spec', title: 'Where the air data comes from', p: 'DEFRA\'s UK-AIR archive publishes hourly readings from the Stoke-on-Trent Centre site as open data, including PM2.5, the fine particles smaller than 2.5 thousandths of a millimetre, with each value marked as ratified or provisional. Times are in GMT and label the end of each hour, so a July reading marked 20:00 covers 20:00 to 21:00 British Summer Time.' }
       ]
     },
     {
@@ -120,7 +120,7 @@ module.exports = {
       h2: 'Is it a glitch, or is it Bonfire Night?',
       intro: 'A median filter replaces each hour with the middle value of the hours around it. A moving average uses their mean. Both smooth the data; they fail in different ways.',
       body: [
-        { kind: 'table', caption: 'PM2.5 at Stoke-on-Trent Centre, micrograms per cubic metre, at the peak hour of two events, after centred filters of different lengths', head: ['Filter', '5 November 2022, 22:00', '24 July 2025, 20:00'], rows: [
+        { kind: 'table', caption: 'PM2.5 at Stoke-on-Trent Centre, micrograms per cubic metre, at the peak hour of two events, after centred filters of different lengths', head: ['Filter', '5 November 2022, hour ending 22:00 GMT', '24 July 2025, hour ending 20:00 GMT'], rows: [
           ['Raw reading', '66.8', '77.2'],
           ['3-hour median', '58.5', '46.3'],
           ['5-hour median', '57.5', '24.5'],
@@ -133,8 +133,8 @@ module.exports = {
           { h3: '2. Slide the window', p: 'For each hour, sort the readings in the window and take the middle one. A spike shorter than half the window can never be the middle value, so it disappears.' },
           { h3: '3. Compare the damage', p: 'Put the filtered series next to the raw one and ask what was removed. On Bonfire Night 2022, seven of eleven evening hours reached 30 or more, so a short median kept the plateau.' }
         ] },
-        { kind: 'callout', h3: 'The filter only knows about time', p: 'On 5 November 2022 the high readings lasted all evening, so the five-hour median kept 57.5 of the 66.8 peak, better than the mean\'s 53.0. On 24 July 2025 the burst lasted two hours, so the same median cut it to 24.5 while the mean smeared it into its neighbours at 37.4. Both hours are ratified data, not errors. A median filter removes anything shorter than half its window, real or not, so choosing the window is choosing which events you are willing to lose.' },
-        { kind: 'p', text: 'Longer windows make the point starker. A 25-hour median brings the 2022 Bonfire Night peak down to 16.7, and in 2023 the evening\'s single high hour, 33.8 at 20:00, is cut to 15.3 by even a three-hour median. The highest hour of 2024 also fell at 22:00 on 5 November, 42.6, and because seven evening hours were high the five-hour median barely touches it. Four years, the same evening, and a different shape every time.' }
+        { kind: 'callout', h3: 'The filter only knows about time', p: 'On 5 November 2022 the high readings lasted all evening, so the five-hour median kept 57.5 of the 66.8 peak, better than the mean\'s 53.0. On 24 July 2025 the burst lasted two hours, so the same median cut it to 24.5 while the mean smeared it into its neighbours at 37.4. Both hours passed DEFRA\'s ratification checks. A median filter removes anything shorter than half its window, real or not, so choosing the window is choosing which events you are willing to lose.' },
+        { kind: 'p', text: 'Longer windows make the point starker. A 25-hour median brings the 2022 Bonfire Night peak down to 16.7, and in 2023 the evening\'s single high hour, 33.8 in the hour ending 20:00 GMT, is cut to 15.3 by even a three-hour median. The highest hour of 2024 was also the one ending at 22:00 GMT on 5 November, 42.6, and because seven evening hours were high the five-hour median barely touches it. Four years, the same evening, and a different shape every time.' }
       ]
     },
     {
@@ -288,7 +288,7 @@ module.exports = {
     rejectedClaims: [
       'A total count of listed bottle ovens: many are listed inside entries named after whole works, so a count by entry name would be wrong; two named examples are given instead.',
       'A claim that fireworks caused the 5 November readings: the page states the dates and times only, and no source ties these readings to a cause.',
-      'A cause for the 24 July 2025 burst: none is known to us; the page says only that the hour is ratified data.',
+      'A cause for the 24 July 2025 burst: none is known to us; the page says only that the hour passed DEFRA ratification, which is a quality status, not proof of a cause.',
       'Stoke-on-Trent Museums (Gladstone Pottery Museum, Potteries Museum) pages: returned 403 and were not circumvented.',
       'Summing published census parts: TS007A total (258,369) differs from TS001 (258,366) by disclosure control, so the TS001 total is used and no parts are added.',
       'Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.',

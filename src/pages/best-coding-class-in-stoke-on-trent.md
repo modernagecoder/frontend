@@ -14,7 +14,7 @@ Stoke-on-Trent, Staffordshire / Live online
 
 **What are the best coding classes in Stoke-on-Trent?** The 2021 census counted 258,366 usual residents in Stoke-on-Trent, living at 2,764.8 people per square kilometre against 433.5 across England. The Victoria County History records that the six pottery towns became one county borough on 31 March 1910, and the city dates from 1925. Our teachers in India teach Stoke-on-Trent learners from age six to sixty-seven in live video lessons, one to one or in groups of five to ten working at the same level, at times that fit around British school and work. There is no charge for the first lesson; after that a group place is USD 100 a month and one-to-one teaching USD 150.
 
-Every hour, the Stoke-on-Trent Centre monitoring site reports how much fine dust, PM2.5, is in the air. Some hours leap far above their neighbours. Are they faults to smooth away, or real events? Our teenagers build a median filter, which replaces each hour with the middle value of a small window, and test it on four years of the city's data. In 2022 the highest hour of the year came at 22:00 on 5 November, Bonfire Night, and lasted all evening, so a five-hour median keeps 57.5 of its 66.8 micrograms. In 2025 the highest hour, 77.2 on a July evening, lasted barely two hours, and the same filter cuts it to 24.5. The filter cannot tell a fault from a real event; only its window length decides.
+Every hour, the Stoke-on-Trent Centre monitoring site reports how much fine dust, PM2.5, is in the air. Some hours leap far above their neighbours. Are they faults to smooth away, or real events? Our teenagers build a median filter, which replaces each hour with the middle value of a small window, and test it on four years of the city's data. In 2022 the highest hour of the year was the one ending at 22:00 GMT on 5 November, Bonfire Night, and lasted all evening, so a five-hour median keeps 57.5 of its 66.8 micrograms. In 2025 the highest hour, 77.2 on a July evening, lasted barely two hours, and the same filter cuts it to 24.5. The filter cannot tell a fault from a real event; only its window length decides.
 
 Facts last verified 23 September 2026. Teaching is online; no Stoke-on-Trent branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
 
@@ -84,7 +84,7 @@ Stoke-on-Trent became a city. The county history adds that local loyalties to th
 
 The pottery industry has left its mark on the listing records too. Historic England lists surviving bottle ovens across the city, among them two bottle ovens and a chimney at Albion Works and a single bottle oven at the former Dolby Pottery, both at Grade II. We have no connection with Historic England, the Victoria County History or Stoke-on-Trent City Council; the ovens earn a place here because they recall towns whose people, the county history says, were predominantly engaged in a common industry, and today the same city measures its air every hour, which gives this page its project.
 
-**Where the air data comes from** DEFRA's UK-AIR archive publishes hourly readings from the Stoke-on-Trent Centre site as open data, including PM2.5, the fine particles smaller than 2.5 thousandths of a millimetre, with each value marked as ratified or provisional.
+**Where the air data comes from** DEFRA's UK-AIR archive publishes hourly readings from the Stoke-on-Trent Centre site as open data, including PM2.5, the fine particles smaller than 2.5 thousandths of a millimetre, with each value marked as ratified or provisional. Times are in GMT and label the end of each hour, so a July reading marked 20:00 covers 20:00 to 21:00 British Summer Time.
 
 ## Is it a glitch, or is it Bonfire Night?
 
@@ -92,7 +92,7 @@ A median filter replaces each hour with the middle value of the hours around it.
 
 **PM2.5 at Stoke-on-Trent Centre, micrograms per cubic metre, at the peak hour of two events, after centred filters of different lengths**
 
-| Filter | 5 November 2022, 22:00 | 24 July 2025, 20:00 |
+| Filter | 5 November 2022, hour ending 22:00 GMT | 24 July 2025, hour ending 20:00 GMT |
 |---|---|---|
 | Raw reading | 66.8 | 77.2 |
 | 3-hour median | 58.5 | 46.3 |
@@ -115,9 +115,9 @@ Put the filtered series next to the raw one and ask what was removed. On Bonfire
 
 ### The filter only knows about time
 
-On 5 November 2022 the high readings lasted all evening, so the five-hour median kept 57.5 of the 66.8 peak, better than the mean's 53.0. On 24 July 2025 the burst lasted two hours, so the same median cut it to 24.5 while the mean smeared it into its neighbours at 37.4. Both hours are ratified data, not errors. A median filter removes anything shorter than half its window, real or not, so choosing the window is choosing which events you are willing to lose.
+On 5 November 2022 the high readings lasted all evening, so the five-hour median kept 57.5 of the 66.8 peak, better than the mean's 53.0. On 24 July 2025 the burst lasted two hours, so the same median cut it to 24.5 while the mean smeared it into its neighbours at 37.4. Both hours passed DEFRA's ratification checks. A median filter removes anything shorter than half its window, real or not, so choosing the window is choosing which events you are willing to lose.
 
-Longer windows make the point starker. A 25-hour median brings the 2022 Bonfire Night peak down to 16.7, and in 2023 the evening's single high hour, 33.8 at 20:00, is cut to 15.3 by even a three-hour median. The highest hour of 2024 also fell at 22:00 on 5 November, 42.6, and because seven evening hours were high the five-hour median barely touches it. Four years, the same evening, and a different shape every time.
+Longer windows make the point starker. A 25-hour median brings the 2022 Bonfire Night peak down to 16.7, and in 2023 the evening's single high hour, 33.8 in the hour ending 20:00 GMT, is cut to 15.3 by even a three-hour median. The highest hour of 2024 was also the one ending at 22:00 GMT on 5 November, 42.6, and because seven evening hours were high the five-hour median barely touches it. Four years, the same evening, and a different shape every time.
 
 ## Five questions before cleaning any sensor data
 

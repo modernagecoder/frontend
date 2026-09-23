@@ -116,7 +116,7 @@ module.exports = {
           { h3: '1912', p: 'Hall Street soon became too small. Work began in February 1912 on a 70,000 square foot factory in New Street, and the works opened that June.' },
           { h3: 'Eight years on', p: 'The New Street factory hosted what the Record Office calls the first experimental wireless broadcast: Dame Nellie Melba singing two arias, heard across Europe and as far away as Newfoundland.' }
         ] },
-        { kind: 'p', text: 'Historic England lists both sites at Grade II. The entry named Marconi\'s First Radio Factory, beside Hall Street, was listed on 6 February 1974, and a second entry, simply named Marconis, was added on 21 November 1997. We have no link with Historic England, the Essex Record Office or any Marconi business. Radio earns its place here because it made every bit of a signal precious, and squeezing more information into fewer bits is exactly what this page\'s project is about.' },
+        { kind: 'p', text: 'Historic England lists two Marconi entries at Grade II. The entry named Marconi\'s First Radio Factory, beside Hall Street, was listed on 6 February 1974, and a second, simply named Marconis, was added on 21 November 1997. We have no link with Historic England, the Essex Record Office or any Marconi business. Radio earns its place here because it made every bit of a signal precious, and squeezing more information into fewer bits is exactly what this page\'s project is about.' },
         { kind: 'spec', title: 'Where the river data comes from', p: 'The Environment Agency\'s Hydrology service publishes the Springfield gauge on the River Chelmer as open data: the water level, in metres above the gauge\'s own zero, every 15 minutes, with a quality grade on each reading.' }
       ]
     },
