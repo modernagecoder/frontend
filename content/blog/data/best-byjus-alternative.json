@@ -323,7 +323,7 @@
           [
             "Monthly Price",
             "Rs 4,000-12,000+",
-            "Rs 1,499-2,499",
+            "Rs 1,499-4,999",
             "Rs 5,000-10,000+",
             "Rs 2,000-8,000+",
             "Rs 3,000-7,000+",
@@ -442,7 +442,7 @@
       {
         "type": "callout",
         "style": "info",
-        "text": "Notice that <strong>Modern Age Coders is the only platform</strong> in this comparison that offers coding and maths together, live 1-on-1 classes, no long-term contracts, and a dedicated girls program. At Rs 1,499-2,499 per month, it is also the most affordable paid option."
+        "text": "Notice that <strong>Modern Age Coders is the only platform</strong> in this comparison that offers coding and maths together, live 1-on-1 classes, no long-term contracts, and a dedicated girls program. At Rs 1,499-4,999 per month, it is also the most affordable paid option."
       },
       {
         "type": "heading",

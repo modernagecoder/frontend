@@ -550,7 +550,8 @@ class BlogGenerator {
         // an INR figure there reaches every region and bypasses international-pricing.js: a
         // reader in Dubai or New Jersey asking Google, or a chatbot, what we charge was quoted
         // rupees. The accordion keeps the number; only the region-blind copy is filtered.
-        const OWN_TARIFF = /(?:Rs\.?\s*|₹\s*|INR\s*)(?:1,?499|2,?999|4,?999|7,?500|9,?999)\b/;
+        // "Rs 1,499" and "1,499 rupees" are both our tariff; the second form slipped through until 2026-09-23
+        const OWN_TARIFF = /(?:Rs\.?\s*|₹\s*|INR\s*)(?:1,?499|2,?999|4,?999|7,?500|9,?999)\b|\b(?:1,?499|2,?499|2,?999|4,?999|7,?500|9,?999)\s*rupees\b/i;
         const faqItems = this.extractFAQItems(blogData.content?.sections || [])
             .filter(item => !OWN_TARIFF.test(item.answer || ''));
         if (faqItems.length > 0) {
