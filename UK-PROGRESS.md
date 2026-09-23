@@ -202,7 +202,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 150 | best-coding-class-in-inverness (inv, #301565) | city (UK, Phase 4) | 3,435 | 2.5% vs best-coding-class-in-dunfermline | How quickly do earthquakes get rarer? | Gutenberg-Richter law and completeness | 661d6de6 |
 | 151 | best-coding-class-in-perth-scotland (pth, #734561) | city (UK, Phase 4) | 3,457 | 2.2% vs best-coding-class-in-dunfermline | Can Soundex find the names in The Fair Maid of Perth? | Soundex and fuzzy name matching | 98a270a5 |
 | 152 | best-coding-class-in-stirling (sti, #143071) | city (UK, Phase 4) | 3,378 | 3.6% vs best-coding-class-in-perth-scotland | How close is Stirling's formula? | Stirling's formula and asymptotic approximation | e3c452e1 |
-| 153 | best-coding-class-in-bangor-northern-ireland (bni, #826417) | city (UK, Phase 4) | 3,404 | 3.2% vs best-coding-class-in-armagh | Why is the wait longer than half the gap? | Inspection paradox (waiting time) | (this commit) |
+| 153 | best-coding-class-in-bangor-northern-ireland (bni, #826417) | city (UK, Phase 4) | 3,404 | 3.2% vs best-coding-class-in-armagh | Why is the wait longer than half the gap? | Inspection paradox (waiting time) | ca455696 |
+| 154 | best-coding-class-in-lisburn (lsb, #6B6B2E) | city (UK, Phase 4) | 3,348 | 3.8% vs best-coding-class-in-bangor-northern-ireland | Did the fire of 1707 leave a gap? | Mann-Whitney U test (rank-sum, ordinal data) | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

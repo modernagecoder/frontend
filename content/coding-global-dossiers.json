@@ -20967,5 +20967,56 @@
       "Nationality, ethnicity, religion, birthplace, national identity and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Translink, NISRA, the Department for Communities or Ards and North Down Borough Council."
     ]
+  },
+  "best-coding-class-in-lisburn": {
+    "market": "Lisburn",
+    "bodyClass": "cg-lsb",
+    "pageType": "city",
+    "curriculumAuthority": "NISRA Census 2021 MS-A01: settlements LISBURN CITY 51,447, METROPOLITAN LISBURN 32,643; DEAs Lisburn North 23,449, Lisburn South 24,321; LGD Lisburn and Castlereagh 149,106; Northern Ireland 1,903,175. MS-A02 shares: Lisburn City 0-4 6.5, 30-34 7.6, 90+ 0.7 percent; Northern Ireland 6.0, 6.6, 0.7. Lisburn Cathedral history: about 1609 castle at Lisnagarvey; 1623 St Thomas; 1641 destroyed; 1642 rebuilding over 23 years; 1662 Christ Church Cathedral; April 1707 fire; 20 August 1708 foundation; completed 1719. HED: Cathedral of Christ Church, Grade A, 1700-1719; Castle Gardens gateway, Record Only, 1650-1699.",
+    "localProject": "Did the fire of 1707 leave a gap? HED Listed Buildings NI (15,862 records, 10 September 2026). Lisburn post town 389 records, 275 dated; rest 9,866 dated. Before 1700: 3.27 vs 1.91 percent; before 1800: 13.45 vs 9.87. Median band 1840-1859 in both. Mann-Whitney with ties: z -0.71, p 0.48; P(Lisburn later) 0.488. No detectable gap; limits stated. Lesson family: Mann-Whitney U.",
+    "requiredMentions": [
+      "51,447",
+      "Mann-Whitney",
+      "Lisnagarvey",
+      "Castle Gardens",
+      "Christ Church Cathedral",
+      "Hilden",
+      "Lambeg",
+      "Derriaghy",
+      "Dunmurry",
+      "Lisburn and Castlereagh",
+      "tie correction",
+      "Market Square"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA, Census 2021 MS-A01 usual resident population: settlement, DEA, LGD and Northern Ireland tables.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "NISRA, Census 2021 MS-A02 usual residents by age: Lisburn City and Northern Ireland.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a02.xlsx"
+      },
+      {
+        "claim": "Lisburn Cathedral, History: Lisnagarvey, 1623, 1641, 1662, fire of April 1707, 20 August 1708, completed 1719.",
+        "url": "https://www.lisburncathedral.org/history"
+      },
+      {
+        "claim": "OpenDataNI, Listed Buildings Northern Ireland (Department for Communities, Historic Environment Division), GeoJSON of 10 September 2026.",
+        "url": "https://www.opendatani.gov.uk/@department-for-communities-historic-environment-division/listed-buildings-northern-ireland"
+      },
+      {
+        "claim": "OpenDataNI, Translink Northern Ireland Rail Timetable Data: station names Hilden, Lambeg, Derriaghy, Dunmurry, Moira.",
+        "url": "https://www.opendatani.gov.uk/@translink/nir20160126v2"
+      }
+    ],
+    "rejectedClaims": [
+      "That the fire had no effect on Lisburn's buildings: the test finds no detectable difference, which the page says is not proof of no effect.",
+      "The name of the officer who settled at Lisnagarvey: the cathedral page's spelling could not be checked against a second source, so he is described, not named.",
+      "Linen industry history: the Irish Linen Centre site was read only for its name and address, so no linen history is claimed.",
+      "Adding Lisburn City and Metropolitan Lisburn together: NISRA figures are quoted as published.",
+      "Nationality, ethnicity, religion, birthplace, national identity and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Department for Communities, NISRA, Lisburn Cathedral, the Irish Linen Centre or Lisburn and Castlereagh City Council."
+    ]
   }
 }
