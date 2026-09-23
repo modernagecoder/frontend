@@ -1059,3 +1059,4 @@
 .cg-root.cg-win  { --cg-accent: #1B6A42; --cg-accent-soft: rgba(27,106,66,.10); }   /* Winchester: a clear river green, from the solver (5.35:1 on every paper tint, dE 6.1 from the nearest used accent) */
 .cg-root.cg-wor  { --cg-accent: #47447E; --cg-accent-soft: rgba(71,68,126,.10); }   /* Worcester: a porcelain slate blue, from the solver (7.11:1 on every paper tint, dE 6.7 from the nearest used accent) */
 .cg-root.cg-sta  { --cg-accent: #655115; --cg-accent-soft: rgba(101,81,21,.10); }   /* St Albans: a ripe-wheat gold for Broadbalk, from the solver (6.22:1 on every paper tint, dE 7.2 from the nearest used accent) */
+.cg-root.cg-hfd  { --cg-accent: #6B2E51; --cg-accent-soft: rgba(107,46,81,.10); }   /* Hereford: a map-ink mulberry for the Mappa Mundi, from the solver (7.98:1 on every paper tint, dE 7.3 from the nearest used accent) */

@@ -19895,5 +19895,68 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Rothamsted Research, St Albans City and District Council or Historic England."
     ]
+  },
+  "best-coding-class-in-hereford": {
+    "market": "Hereford",
+    "bodyClass": "cg-hfd",
+    "pageType": "city",
+    "curriculumAuthority": "Herefordshire, Census 2021 via Nomis (E06000019): TS001 187,034 usual residents, 184,651 in households, 2,383 in communal establishments; TS007A 12,481 aged 65 to 69 (6.7 percent, England 4.9), 13,014 aged 70 to 74 (7.0 percent, England 5.0), 8,175 aged 20 to 24 (4.4 percent, England 6.0); TS068 28,366 students of 178,605 residents aged 5 and over (15.9 percent, England 20.4); TS006 85.8 per square kilometre (England 433.5). MSOAs: Hereford Central 9,767 (3,059.5); Hereford South West 7,862 (4,782.5); Ross-on-Wye 10,990 (1,228.2); Golden Valley 6,060 (21.9). Hereford Cathedral and the Mappa Mundi website: Richard of Haldingham or Lafford; about 1300; single sheet of vellum 1.58 by 1.33 m; Jerusalem at the centre, east at the top; about 500 drawings, around 420 cities and towns; Chained Library about 1,500 books, 227 medieval manuscripts.",
+    "localProject": "How warm is it really, underneath the noise? Met Office Ross-on-Wye monthly data, December 1930 to August 2026 (1,149 months; 125 estimated, 8 provisional). Anomaly against 1961 to 1990 calendar-month means. Local level Kalman filter, ML-tuned: measurement sd 1.34 C, level-change sd 0.089 C per month; gain 0.848 to 0.0643. Level December 2025 +1.87 C (plus or minus 0.67); smoothed low -0.79 C, January 1963. One-step RMSE: Kalman 1.376, 12-month mean 1.411, climatology 1.549, last month 1.704. Month-to-month change of estimate 0.090 against 0.162 for 12-month mean. December 2015 anomaly +5.73 C. Lesson family: Kalman filtering.",
+    "requiredMentions": [
+      "187,034",
+      "184,651",
+      "28,366",
+      "178,605",
+      "85.8",
+      "Mappa Mundi",
+      "Chained Library",
+      "Haldingham",
+      "Ross-on-Wye",
+      "Kalman",
+      "Golden Valley",
+      "vellum"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001: Herefordshire 187,034 usual residents; MSOAs Hereford Central, Hereford South West, Ross-on-Wye, Golden Valley.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E06000019,E02002916,E02002921,E02002926,E02002924"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Herefordshire and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E06000019,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Herefordshire 28,366 students of 178,605 aged 5 and over (15.9 percent).",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E06000019,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: densities.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E06000019,E02002916,E02002921,E02002926,E02002924,E92000001"
+      },
+      {
+        "claim": "House of Commons Library, MSOA Names: Herefordshire areas.",
+        "url": "https://houseofcommonslibrary.github.io/msoanames/"
+      },
+      {
+        "claim": "Met Office historic station data, Ross-on-Wye, monthly from December 1930.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/rossonwyedata.txt"
+      },
+      {
+        "claim": "Hereford Cathedral, Mappa Mundi: author, date about 1300, vellum, dimensions, Jerusalem at the centre, about 500 drawings.",
+        "url": "https://www.herefordcathedral.org/mappa-mundi"
+      },
+      {
+        "claim": "Mappa Mundi website: east at the top, British Isles bottom left; Chained Library about 1,500 books including 227 medieval manuscripts.",
+        "url": "https://www.themappamundi.co.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Causes of the warming or of any single warm month: the page measures the level and its uncertainty and does not attribute causes it has not sourced.",
+      "The Mappa Mundi website's description of the Chained Library as the largest surviving in the world: a superlative, not repeated.",
+      "Treating provisional 2026 months as final: the page says they may shift.",
+      "Hereford's 1217 Magna Carta: already a theme on other pages; not used here.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Met Office, Hereford Cathedral or Herefordshire Council."
+    ]
   }
 }
