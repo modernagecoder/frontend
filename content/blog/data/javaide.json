@@ -1,8 +1,8 @@
 {
   "meta": {
     "slug": "best-java-ides-for-beginners",
-    "title": "10 Best Java IDEs for Beginners: Complete Guide to Choosing Your First IDE",
-    "description": "Compare the 10 best Java IDEs for beginners. Find the perfect IDE with features, pros, cons, and setup guides for 2026.",
+    "title": "Best Java IDE for Beginners in 2026: 7 Free IDEs Compared",
+    "description": "The best Java IDE for beginners in 2026: IntelliJ IDEA, Eclipse, NetBeans, VS Code, BlueJ, jGRASP and Greenfoot compared, versions checked in September.",
     "keywords": [
       "java ide for beginners",
       "best java ide",
@@ -12,14 +12,22 @@
       "visual studio code java",
       "bluej",
       "java development environment",
-      "beginner java tools"
+      "beginner java tools",
+      "best ide for java",
+      "best java ide for beginners",
+      "which ide is best for java",
+      "simple java ide",
+      "best java ide for windows",
+      "java ides",
+      "intellij idea community edition",
+      "free java ide"
     ],
     "author": {
       "name": "Modern Age Coders",
       "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages."
     },
     "date": "2026-01-19",
-    "dateModified": "2026-07-18",
+    "dateModified": "2026-09-23",
     "category": "Programming",
     "tags": [
       "Java",
@@ -28,15 +36,16 @@
       "Beginner Programming",
       "Software Development"
     ],
-    "readTime": "15 min read",
+    "readTime": "12 min read",
     "featured": false,
-    "tldr": "A Java IDE is the program you write and run code in, and the best beginner choices balance simple setup with helpful features. This guide compares ten IDEs, including BlueJ for schools and IntelliJ and Eclipse for larger work, with pros, cons and setup help so you can pick your first one."
+    "tldr": "For most beginners in 2026 the best Java IDE is IntelliJ IDEA, which since its 2025.3 release is one free download (the separate Community Edition was retired; paid features need a subscription). School students usually start in BlueJ, and anyone learning several languages can use VS Code with the Extension Pack for Java. All seven IDEs compared here are free, with versions checked on 23 September 2026.",
+    "retarget": "sweep-2026-09"
   },
   "hero": {
-    "title": "10 Best Java IDEs for Beginners: Complete Guide to Choosing Your First IDE",
+    "title": "Best Java IDE for Beginners in 2026: 7 Free IDEs Compared",
     "featuredImage": {
       "url": "https://ik.imagekit.io/qnvuzyjls/10%20Best%20Java%20Ide%20for%20Beginners:%20Featured%20Image",
-      "alt": "10 Best Java IDEs for Beginners: Complete Guide to Choosing Your First IDE"
+      "alt": "Java IDEs for beginners compared"
     }
   },
   "content": {
@@ -46,11 +55,64 @@
       },
       {
         "type": "paragraph",
-        "text": "Choosing your first Java IDE (Integrated Development Environment) can feel confusing with so many options. An IDE is more than a simple text editor. It's your complete workspace for writing, testing, and running Java code. The right IDE helps beginners learn faster with helpful features like code suggestions, error warnings, and debugging tools."
+        "text": "For most beginners in 2026 the best Java IDE is <strong>IntelliJ IDEA</strong>. Since its 2025.3 release JetBrains ships one download that is free to use without a subscription, replacing the old Community Edition; only the former Ultimate features need a paid plan. If you are a school student, <strong>BlueJ</strong> is the simplest place to start, and if you want one light editor for Java, Python and web code, use <strong>VS Code</strong> with Microsoft's Extension Pack for Java."
       },
       {
         "type": "paragraph",
-        "text": "This guide covers the 10 best Java IDEs for beginners in 2026. We compare their features, how easy they are to use, and how quickly you can learn them. Whether you're a student just starting Java, learning on your own, or switching from another language, you'll find the perfect IDE for your needs."
+        "text": "All seven IDEs below are free. The table gives the version each project was offering when we checked their official sites on 23 September 2026, followed by what each one is like to learn on, and the questions beginners ask most."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "IDE",
+          "Version on 23 Sep 2026",
+          "Cost",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "IntelliJ IDEA",
+            "Single download since 2025.3",
+            "Free without a subscription; extra features paid",
+            "Beginners aiming at professional Java"
+          ],
+          [
+            "Eclipse IDE",
+            "2026-09",
+            "Free, open source",
+            "Students whose course uses Eclipse"
+          ],
+          [
+            "Apache NetBeans",
+            "31 (10 Aug 2026)",
+            "Free, open source",
+            "A tidy all-in-one start, Swing and JavaFX"
+          ],
+          [
+            "VS Code + Extension Pack for Java",
+            "Extension pack from Microsoft",
+            "Free",
+            "Learning Java alongside other languages"
+          ],
+          [
+            "BlueJ",
+            "6.0.1 (4 Sep 2026)",
+            "Free, open source",
+            "School students and first objects"
+          ],
+          [
+            "jGRASP",
+            "2.1.0_02 (22 Sep 2026)",
+            "Free download",
+            "Seeing program structure as diagrams"
+          ],
+          [
+            "Greenfoot",
+            "3.9.0 (29 Oct 2024)",
+            "Free, open source",
+            "Younger learners who want to make games"
+          ]
+        ]
       },
       {
         "type": "heading",
@@ -72,7 +134,7 @@
       },
       {
         "type": "paragraph",
-        "text": "According to <a href='https://docs.oracle.com/javase/tutorial/' target='_blank' rel='noopener noreferrer'>Oracle's Java tutorials</a>, using an IDE makes it much faster to go from writing code to seeing it work. This keeps beginners excited about learning."
+        "text": "That short loop between typing code and seeing it run, with mistakes flagged as you go, is what keeps beginners going through the first weeks."
       },
       {
         "type": "heading",
@@ -113,23 +175,17 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "10 Best Java IDEs for Beginners",
+        "text": "7 Free Java IDEs for Beginners, Compared",
         "id": "10-best-java-ides"
-      },
-      {
-        "type": "image",
-        "url": "https://ik.imagekit.io/qnvuzyjls/10%20Best%20Java%20Ide%20for%20Beginners!",
-        "alt": "10 Best Java IDEs for Beginners",
-        "caption": ""
       },
       {
         "type": "heading",
         "level": 3,
-        "text": "1. IntelliJ IDEA Community Edition"
+        "text": "1. IntelliJ IDEA (free, formerly Community Edition)"
       },
       {
         "type": "paragraph",
-        "text": "<strong>What it is:</strong> A professional IDE with a free version from JetBrains, used by developers around the world."
+        "text": "<strong>What it is:</strong> JetBrains' Java IDE. Until 2025 it came as a free Community Edition and a paid Ultimate Edition; from the 2025.3 release there is one installer, fully usable for free, with the former Ultimate features unlocked by a subscription."
       },
       {
         "type": "paragraph",
@@ -137,11 +193,11 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Pros:</strong> This is what real programmers use at work, so learning it prepares you for actual jobs. Smart code checking catches mistakes before you run programs. It teaches you good coding habits. The free version has everything you need for learning."
+        "text": "<strong>Pros:</strong> Many professional Java developers work in it, so the habits you build carry straight over. Its code inspections catch mistakes before you run the program, and the free feature set covers everything a learner needs."
       },
       {
         "type": "paragraph",
-        "text": "<strong>Cons:</strong> Needs a powerful computer, older computers might be slow. Takes more time to learn at first than simpler IDEs. Some advanced features only work in the paid version."
+        "text": "<strong>Cons:</strong> It is heavier than the other IDEs here, so older computers can feel slow, and there are more menus to learn at first. Some advanced framework features need the paid subscription."
       },
       {
         "type": "paragraph",
@@ -149,7 +205,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Price:</strong> Free (Community Edition) | <strong>Platform:</strong> Windows, Mac, Linux"
+        "text": "<strong>Price:</strong> Free to use; subscription for the extra features | <strong>Platform:</strong> Windows, macOS, Linux"
       },
       {
         "type": "heading",
@@ -166,7 +222,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Pros:</strong> Completely free with no paid versions. Huge community means lots of tutorials and help available. You can customize it with plugins. Works fine on slower computers. Used in schools and companies."
+        "text": "<strong>Pros:</strong> Completely free with no paid versions. Huge community means lots of tutorials and help available. You can customize it with plugins. Used in schools and companies."
       },
       {
         "type": "paragraph",
@@ -183,11 +239,11 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "3. NetBeans"
+        "text": "3. Apache NetBeans"
       },
       {
         "type": "paragraph",
-        "text": "<strong>What it is:</strong> An official IDE from Apache Foundation, made to be simple and beginner-friendly."
+        "text": "<strong>What it is:</strong> A free, open-source IDE from the Apache Software Foundation, released four times a year; version 31 came out on 10 August 2026."
       },
       {
         "type": "paragraph",
@@ -195,11 +251,11 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Pros:</strong> Very easy for beginners to learn. Easy to install with little setup needed. Great for learning JavaFX and Swing (tools for making programs with buttons and windows). Free and open-source. Uses less computer power than Eclipse."
+        "text": "<strong>Pros:</strong> Easy to install with little setup, and clear enough for a first project. Its visual GUI builder makes it a good place to learn Swing and JavaFX (the toolkits for programs with buttons and windows). Free and open source."
       },
       {
         "type": "paragraph",
-        "text": "<strong>Cons:</strong> Fewer add-ons than Eclipse or IntelliJ. Updates come out slowly. Not used as much in real jobs. Fewer advanced features than IntelliJ."
+        "text": "<strong>Cons:</strong> Fewer plugins than Eclipse or IntelliJ, fewer advanced refactoring tools than IntelliJ, and less common in company teams than the other two."
       },
       {
         "type": "paragraph",
@@ -216,7 +272,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>What it is:</strong> A light, fast code editor by Microsoft that becomes a Java IDE when you add the Java Extension Pack."
+        "text": "<strong>What it is:</strong> Microsoft's free, lightweight code editor. It becomes a Java IDE once you install the Extension Pack for Java, a bundle of extensions Microsoft recommends (language support by Red Hat, a debugger, a test runner, Maven and project management)."
       },
       {
         "type": "paragraph",
@@ -224,7 +280,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Pros:</strong> Super light and fast to start. Modern, clean look. Growing Java support with regular updates. Free and open-source. Perfect for learning multiple programming languages at once."
+        "text": "<strong>Pros:</strong> Fast to start, clean to look at, and the same editor works for Python, JavaScript and many other languages, which suits anyone learning more than one."
       },
       {
         "type": "paragraph",
@@ -245,7 +301,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>What it is:</strong> An educational IDE made specifically for teaching Java to students."
+        "text": "<strong>What it is:</strong> In its own words, \"a free Java Development Environment designed for beginners\". Version 6.0.1 was released on 4 September 2026."
       },
       {
         "type": "paragraph",
@@ -274,40 +330,11 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "6. DrJava"
+        "text": "6. jGRASP"
       },
       {
         "type": "paragraph",
-        "text": "<strong>What it is:</strong> A simple IDE with an interactive Java shell where you can test code instantly."
-      },
-      {
-        "type": "paragraph",
-        "text": "<strong>Key Features:</strong> Interactive window where you type Java code and see results right away, simple clean screen, quick testing without making full programs, built-in debugger."
-      },
-      {
-        "type": "paragraph",
-        "text": "<strong>Pros:</strong> Super simple, nothing confusing. Interactive shell perfect for trying out code and testing small pieces. No hard setup. Free and open-source."
-      },
-      {
-        "type": "paragraph",
-        "text": "<strong>Cons:</strong> Very few features compared to full IDEs. Can't handle big projects. Not much help available online. Looks old."
-      },
-      {
-        "type": "paragraph",
-        "text": "<strong>Best for:</strong> Beginners who want to experiment with Java code without the extra stuff."
-      },
-      {
-        "type": "paragraph",
-        "text": "<strong>Price:</strong> Free | <strong>Platform:</strong> Windows, Mac, Linux"
-      },
-      {
-        "type": "heading",
-        "level": 3,
-        "text": "7. JGrasp"
-      },
-      {
-        "type": "paragraph",
-        "text": "<strong>What it is:</strong> A simple IDE with special pictures that help you understand code structure."
+        "text": "<strong>What it is:</strong> A lightweight IDE built to show the structure of your code as diagrams, from Auburn University. Version 2.1.0_02 was released on 22 September 2026 and runs anywhere Java 11 or later runs."
       },
       {
         "type": "paragraph",
@@ -315,7 +342,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Pros:</strong> Special picture features help visual learners understand hard concepts. Light and simple to use. Free for students. Good for learning algorithms. Easy to learn."
+        "text": "<strong>Pros:</strong> Its Control Structure Diagrams and data-structure views help visual learners see how loops, branches, lists and arrays behave. Light and simple, and a free download."
       },
       {
         "type": "paragraph",
@@ -332,40 +359,11 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "8. JCreator"
+        "text": "7. Greenfoot"
       },
       {
         "type": "paragraph",
-        "text": "<strong>What it is:</strong> A fast, simple Java IDE that only works on Windows."
-      },
-      {
-        "type": "paragraph",
-        "text": "<strong>Key Features:</strong> Very fast at running code, ready-made project templates, you can change how it looks, code suggestions, built-in debugger."
-      },
-      {
-        "type": "paragraph",
-        "text": "<strong>Pros:</strong> Super fast and quick. Simple screen without too many options. Works on old Windows computers. Quick to set up."
-      },
-      {
-        "type": "paragraph",
-        "text": "<strong>Cons:</strong> Only works on Windows, no Mac or Linux. Full features cost money (free version is limited). Small group of users. Not updated often. Fewer features than Eclipse or IntelliJ."
-      },
-      {
-        "type": "paragraph",
-        "text": "<strong>Best for:</strong> Windows users who want a simple, fast IDE."
-      },
-      {
-        "type": "paragraph",
-        "text": "<strong>Price:</strong> Free (LE Edition), Paid (Pro Edition) | <strong>Platform:</strong> Windows only"
-      },
-      {
-        "type": "heading",
-        "level": 3,
-        "text": "9. Greenfoot"
-      },
-      {
-        "type": "paragraph",
-        "text": "<strong>What it is:</strong> A learning IDE for teaching Java by making games and animations."
+        "text": "<strong>What it is:</strong> A learning IDE for making games and simulations, from the team behind BlueJ. You create \"actors\" that live in \"worlds\"; version 3.9.0 was released on 29 October 2024."
       },
       {
         "type": "paragraph",
@@ -373,11 +371,11 @@
       },
       {
         "type": "paragraph",
-        "text": "<strong>Pros:</strong> Makes learning Java fun through games. Perfect for younger beginners (ages 14-16). Interactive and exciting. Free and open-source. Great learning tool with tutorials."
+        "text": "<strong>Pros:</strong> Learning Java through games is fun, which keeps younger beginners going, and there are plenty of example scenarios to learn from. Free and open source."
       },
       {
         "type": "paragraph",
-        "text": "<strong>Cons:</strong> Only for educational games, not for normal programs. You'll need another IDE for real work. Teaches a simplified version of Java. Not for serious projects."
+        "text": "<strong>Cons:</strong> Programs are written in standard Java, so everything you learn carries over, but the world-and-actor setup is made for games and simulations; for other programs you will move to another IDE."
       },
       {
         "type": "paragraph",
@@ -390,31 +388,11 @@
       {
         "type": "heading",
         "level": 3,
-        "text": "10. Apache NetBeans (Student Edition)"
+        "text": "What happened to DrJava and JCreator?"
       },
       {
         "type": "paragraph",
-        "text": "<strong>What it is:</strong> A simplified NetBeans version made just for students learning Java."
-      },
-      {
-        "type": "paragraph",
-        "text": "<strong>Key Features:</strong> Simpler screen without advanced stuff beginners don't need, built-in tutorials and learning paths, helpers that guide you through making different programs, ready-made code for common tasks."
-      },
-      {
-        "type": "paragraph",
-        "text": "<strong>Pros:</strong> Made specifically for learning. Less confusing than full NetBeans while keeping important features. Free learning materials included. Good mix of simple and capable."
-      },
-      {
-        "type": "paragraph",
-        "text": "<strong>Cons:</strong> Fewer features than professional NetBeans. Less help available online. Smaller group focused on education."
-      },
-      {
-        "type": "paragraph",
-        "text": "<strong>Best for:</strong> High school and college students in programming classes."
-      },
-      {
-        "type": "paragraph",
-        "text": "<strong>Price:</strong> Free | <strong>Platform:</strong> Windows, Mac, Linux"
+        "text": "Older lists, including an earlier version of this one, recommended DrJava and JCreator. When we checked on 23 September 2026, their old official websites no longer belonged to the projects: one showed unrelated articles and the other a gambling site. We no longer recommend them, and we suggest you do not download Java tools from those addresses."
       },
       {
         "type": "heading",
@@ -428,15 +406,15 @@
       },
       {
         "type": "paragraph",
-        "text": "Learning several programming languages? Visual Studio Code works for Java, Python, JavaScript, and more. Want to quickly test code? DrJava's interactive window lets you try code instantly."
+        "text": "Learning several programming languages? Visual Studio Code works for Java, Python, JavaScript and more. Want to try one line of Java without making a project? Every JDK since Java 9 includes <code>jshell</code>, an interactive shell: type <code>jshell</code> in a terminal and then any Java expression."
       },
       {
         "type": "paragraph",
-        "text": "Think about your computer. Fast computers handle IntelliJ IDEA and Eclipse easily. Older computers work better with NetBeans, BlueJ, or DrJava. Don't have much storage space? VS Code takes up very little room."
+        "text": "Think about your computer. IntelliJ IDEA and Eclipse are the heaviest here and like a recent machine. Older computers are happier with NetBeans, BlueJ or jGRASP, and VS Code uses little disk space."
       },
       {
         "type": "paragraph",
-        "text": "For help learning Java effectively, reading about <a href='https://learn.modernagecoders.com/blog/java-for-kids-complete-guide-learning-programming-2026' target='_blank' rel='noopener noreferrer'>Java for kids and beginners</a> gives you clear steps no matter which IDE you pick."
+        "text": "For help learning Java effectively, reading about <a href='/blog/java-for-kids-complete-guide-learning-programming-2026'>Java for kids and beginners</a> gives you clear steps no matter which IDE you pick."
       },
       {
         "type": "heading",
@@ -471,6 +449,26 @@
       },
       {
         "type": "heading",
+        "level": 3,
+        "text": "Test your new IDE with this program"
+      },
+      {
+        "type": "paragraph",
+        "text": "Create a class called <code>HelloIDE</code> (the file must be named <code>HelloIDE.java</code>), paste this in and press Run. If you see the two lines of output below, your JDK and IDE are set up correctly."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class HelloIDE {\n    public static void main(String[] args) {\n        System.out.println(\"My Java IDE works!\");\n\n        int total = 0;\n        for (int i = 1; i <= 10; i++) {\n            total += i;\n        }\n        System.out.println(\"1 + 2 + ... + 10 = \" + total);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "plaintext",
+        "title": "Output",
+        "code": "My Java IDE works!\n1 + 2 + ... + 10 = 55"
+      },
+      {
+        "type": "heading",
         "level": 2,
         "text": "Tips for Beginners Using Java IDEs",
         "id": "tips-beginners-ides"
@@ -485,7 +483,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Learning <a href='https://learn.modernagecoders.com/blog/top-10-java-programs-every-college-student-must-know' target='_blank' rel='noopener noreferrer'>essential Java programs and patterns</a> helps you practice IDE features while building real programming skills."
+        "text": "Learning <a href='/blog/top-10-java-programs-every-college-student-must-know'>essential Java programs and patterns</a> helps you practice IDE features while building real programming skills."
       },
       {
         "type": "paragraph",
@@ -511,53 +509,60 @@
       },
       {
         "type": "paragraph",
-        "text": "Learning a new IDE takes about 1-2 weeks. The screens look different, but the features are similar. Most of the time is spent finding familiar things in new places, not learning completely new ideas."
+        "text": "Moving to a new IDE is mostly a matter of finding familiar things in new places: the run button, the debugger, the project view. The Java you know does not change."
       },
       {
-        "type": "paragraph",
-        "text": "For structured learning that works with any IDE, try complete courses like the <a href='https://www.modernagecoders.com/courses/complete-java-programming-masterclass-college' target='_blank' rel='noopener noreferrer'>Java Programming Masterclass</a> which teaches language basics, not just tool usage."
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Learn Java live, in whichever IDE your school uses",
+        "text": "An IDE only helps once you know what to type. Ages 13 to 18: <a href='/courses/java-programming-masterclass-for-teens'>Java for Teens</a>. ICSE Class 9 and 10, in BlueJ: <a href='/courses/icse-computer-applications-java-bluej-course'>ICSE Computer Applications (Class 9-10)</a>. College students and adults: <a href='/courses/complete-java-programming-masterclass-college'>Java Course for College</a>. The first class is a free demo, so you can see how it is taught before you decide."
       },
       {
         "type": "heading",
         "level": 2,
-        "text": "Frequently Asked Questions",
+        "text": "Java IDEs: common questions",
         "id": "faq"
       },
       {
-        "type": "heading",
-        "level": 3,
-        "text": "Which Java IDE is best for absolute beginners?"
-      },
-      {
-        "type": "paragraph",
-        "text": "BlueJ or NetBeans are best for complete beginners. BlueJ has pictures and a simple screen perfect for understanding how objects work. NetBeans is beginner-friendly while having enough features to grow with you. Both are free, easy to install, and made for learning."
-      },
-      {
-        "type": "heading",
-        "level": 3,
-        "text": "Is IntelliJ IDEA better than Eclipse for beginners?"
-      },
-      {
-        "type": "paragraph",
-        "text": "IntelliJ IDEA has smarter code help and a modern look, making it easier to write correct code. But Eclipse is totally free and has lots of learning materials. If you want to become a professional programmer, IntelliJ Community Edition is worth the extra learning time. For students or those on a budget, Eclipse is excellent. Both are used in real jobs."
-      },
-      {
-        "type": "heading",
-        "level": 3,
-        "text": "Do I need to pay for a Java IDE?"
-      },
-      {
-        "type": "paragraph",
-        "text": "No. Excellent free options exist including Eclipse, NetBeans, IntelliJ IDEA Community Edition, Visual Studio Code, and BlueJ. Free versions have everything needed for learning Java and even professional work. Paid IDEs (IntelliJ Ultimate, JCreator Pro) have advanced features beginners don't need."
-      },
-      {
-        "type": "heading",
-        "level": 3,
-        "text": "Can I use Visual Studio Code instead of a Java IDE?"
-      },
-      {
-        "type": "paragraph",
-        "text": "Yes. With the Java Extension Pack, VS Code works well for Java. It's lighter than traditional IDEs and great if you're learning multiple languages. However, real Java IDEs (IntelliJ, Eclipse, NetBeans) have more Java-specific features and easier setup for pure Java work. VS Code needs more manual setup but rewards you with flexibility."
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Which Java IDE is best for absolute beginners?",
+            "content": "BlueJ, if you want the simplest possible start: it shows your classes as a diagram and lets you create objects and call their methods by clicking. NetBeans or IntelliJ IDEA suit a beginner who wants an IDE they can keep using as their programs grow. All three are free."
+          },
+          {
+            "title": "What is the best IDE for Java in 2026?",
+            "content": "For most learners, IntelliJ IDEA: one free download since the 2025.3 release, strong code inspections, and the IDE many professional Java developers use. Eclipse and NetBeans are good free alternatives, and VS Code with the Extension Pack for Java suits people who code in several languages."
+          },
+          {
+            "title": "Is IntelliJ IDEA Community Edition still available?",
+            "content": "Not as a separate product. From the 2025.3 release JetBrains distributes one IntelliJ IDEA installer. Without a subscription it stays fully usable for free, with the feature set that used to be the Community Edition and more; the former Ultimate features need a subscription."
+          },
+          {
+            "title": "Is IntelliJ IDEA better than Eclipse for beginners?",
+            "content": "IntelliJ IDEA usually feels more helpful out of the box, with smarter completion and clearer warnings. Eclipse is completely free and open source, lighter on some machines, and still taught on many courses. If your class uses one of them, learn that one; the Java is the same in both."
+          },
+          {
+            "title": "What is the simplest Java IDE?",
+            "content": "BlueJ. It has a small number of buttons, shows how your classes relate as a diagram, and was designed for teaching. jGRASP is also simple and adds diagrams of your code's control structure."
+          },
+          {
+            "title": "Which Java IDE is best for Windows?",
+            "content": "All seven IDEs on this page run on Windows, as well as on macOS and Linux, so choose by your stage rather than your operating system: BlueJ to start, IntelliJ IDEA or NetBeans as you grow, VS Code if you use several languages."
+          },
+          {
+            "title": "Do I need to pay for a Java IDE?",
+            "content": "No. IntelliJ IDEA (without a subscription), Eclipse, NetBeans, VS Code, BlueJ, jGRASP and Greenfoot are all free, and together they cover everything from a first program to professional work. The paid IntelliJ subscription adds advanced features that beginners do not need."
+          },
+          {
+            "title": "Can I use Visual Studio Code instead of a Java IDE?",
+            "content": "Yes. Install Microsoft's Extension Pack for Java and VS Code can edit, run, debug and test Java. Dedicated Java IDEs still set up Java projects with less effort, so pure-Java learners may find IntelliJ IDEA or NetBeans easier."
+          },
+          {
+            "title": "Do I need to install Java separately?",
+            "content": "You need a JDK (Java Development Kit). Some IDEs can download one for you during setup; otherwise install one first and check it by typing <code>java -version</code> in a terminal or command prompt."
+          }
+        ]
       },
       {
         "type": "heading",
@@ -566,11 +571,11 @@
       },
       {
         "type": "paragraph",
-        "text": "Picking the right Java IDE depends on what you want to learn, what computer you have, and your experience level. For complete beginners, BlueJ or NetBeans are easiest to learn. Students wanting to work as programmers should try IntelliJ IDEA Community Edition or Eclipse early to get familiar with professional tools. If you're learning multiple languages, Visual Studio Code works for everything."
+        "text": "Picking a Java IDE depends on what you want to learn, what computer you have and how much you already know. For a first program, BlueJ or NetBeans is the gentlest start. If you plan to work as a programmer, get used to IntelliJ IDEA or Eclipse early. If you are learning several languages, VS Code covers them all."
       },
       {
         "type": "paragraph",
-        "text": "Start with one IDE and learn its basic features before trying others. The best IDE is the one that helps you focus on learning Java instead of fighting with tools. Download 2-3 options from this list, try each for a few days, then stick with your favorite. Remember, the IDE is just a tool, what you know about Java matters most."
+        "text": "Start with one IDE and learn its basic features before trying others. The right IDE is the one that lets you think about Java instead of fighting the tool. Try two or three from this list for a few days each, then stick with the one you like; what you know about Java matters far more than where you type it."
       },
       {
         "type": "heading",
@@ -581,9 +586,9 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<a href='https://www.modernagecoders.com/courses/complete-java-programming-masterclass-college' target='_blank' rel='noopener noreferrer'>Java Programming Masterclass for Teens</a> - A complete Java course made for teenage learners, teaching basics through advanced topics with real projects.",
-          "<a href='https://learn.modernagecoders.com/blog/best-programming-languages-college-students-2026' target='_blank' rel='noopener noreferrer'>Best Programming Languages for College Students 2025</a> - Compare Java with other programming languages to see which skills are most important for school and careers.",
-          "<a href='https://learn.modernagecoders.com/blog/project-based-learning-why-theory-alone-not-enough-coding' target='_blank' rel='noopener noreferrer'>Project-Based Learning: Why Theory Alone Is Not Enough for Coding</a> - Learn why building real projects in your IDE helps you learn faster than just watching tutorials."
+          "<a href='/courses/java-programming-masterclass-for-teens'>Java for Teens</a> - A complete Java course made for teenage learners, teaching basics through advanced topics with real projects.",
+          "<a href='/blog/best-programming-languages-college-students-2026'>Best Programming Languages for College Students to Learn in 2026</a> - Compare Java with other programming languages to see which skills are most important for school and careers.",
+          "<a href='/blog/project-based-learning-why-theory-alone-not-enough-coding'>Project-Based Learning: Why Theory Alone Is Not Enough for Coding</a> - Learn why building real projects in your IDE helps you learn faster than just watching tutorials."
         ]
       }
     ]
