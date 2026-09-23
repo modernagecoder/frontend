@@ -742,3 +742,104 @@ function codeAndOutput(p) {
 
   save(name, j); console.log('retargeted', name);
 })();
+
+// ────────────────────────────────────────────────────── Minecraft vs Roblox
+// Search Console, page-filtered, 16 months to 2026-09-23 (0 clicks unless noted): "minecraft vs roblox for kids which
+// platform is better for creative learning" 638 impr @5.2, "roblox studio vs java" 467 @8.3, "java vs roblox studio"
+// 140, "is minecraft better than roblox for kids" 132, "minecraft vs roblox for kids" 120, "minecraft or roblox which
+// is better for kids" 110, "roblox y minecraft es lo mismo" 142 (+73, +38 variants), "roblox or minecraft for 7 year
+// old" 38 (1 click). Facts from education.minecraft.net and create.roblox.com read 2026-09-23 (licence needed and a
+// family/homeschool commercial offer; MakeCode blocks then Python in Code Builder; Roblox Studio free on Windows and
+// Mac, Luau derived from Lua 5.1, Roblox account needed).
+// Removed: three invented "professional developer" quotes, "some teen developers earned millions", a Developer
+// Exchange money FAQ, "300 million copies", "70 million daily active users", "$30" for Minecraft, "used in thousands
+// of schools", JavaScript in Code Builder (not on the fetched pages), "Lua is used in professional game development"
+// and the career-relevance claim, unverified detail about Roblox parental-control options and Realms.
+(function minecraftVsRoblox() {
+  const name = 'mincecraft-vs-robolox.json';
+  const j = load(name); if (j.meta.retarget === MARK) return console.log('skip', name);
+  const s = j.content.sections;
+  const MINE = course('minecraft-coding-for-kids-course');
+  const ROBLOX = course('roblox-game-coding-for-kids-lua-course');
+  const GAMEDEV = course('game-development-masterclass-for-kids');
+  const drop = (pred, label) => { const i = idx(s, pred, label); s.splice(i, 1); };
+
+  j.meta.title = 'Minecraft vs Roblox for Kids: Which Teaches Coding Better?';
+  j.hero.title = j.meta.title;
+  j.meta.description = 'Minecraft vs Roblox for kids: Minecraft Education is the gentler start from about 7, Roblox Studio is real typed code (Luau) from about 10. Which to choose.';
+  j.meta.tldr = 'For learning to code, Minecraft Education is the gentler start, from about 7: children program the world with MakeCode blocks and then Python, but it needs a licence. Roblox Studio is free and teaches real typed code in Luau, better from about 10, with a Roblox account a parent sets up. Playing either game is not coding; creating in Code Builder or Roblox Studio is. Roblox and Minecraft are different companies\' games, and Roblox Studio does not use Java: its language is Luau.';
+  addKeywords(j.meta, ['minecraft vs roblox for kids', 'is minecraft better than roblox for kids', 'roblox studio vs java', 'roblox or minecraft for 7 year old', 'minecraft or roblox which is better for kids', 'luau']);
+  j.meta.dateModified = TODAY; j.meta.retarget = MARK;
+
+  s[1] = P('<strong>Minecraft vs Roblox for kids:</strong> for learning to code, <strong>Minecraft Education</strong> is the gentler start, from about age 7, because children program the game world with MakeCode blocks before moving on to Python. <strong>Roblox Studio</strong> goes further, with real typed code in a language called Luau, and suits children from about 10. Minecraft Education needs a licence through a school or a family offer; Roblox Studio is free but needs a Roblox account that a parent should set up.');
+  s[2] = P('Neither teaches coding if your child only plays. The learning happens in Minecraft\'s Code Builder or in Roblox Studio, when they start making things. Below: how each one teaches coding, a side-by-side table, which to choose by age, and the questions parents ask most.');
+  s[3] = T(['', 'Minecraft Education', 'Roblox Studio'], [
+    ['Made by', 'Mojang / Microsoft', 'Roblox Corporation'],
+    ['Cost', 'Paid licence (school, or a family and homeschool offer)', 'Free'],
+    ['What your child writes', 'MakeCode blocks, then Python, in Code Builder', 'Luau, a typed language derived from Lua 5.1'],
+    ['Runs on', 'Windows, Mac, ChromeOS, iPhone, iPad, Android', 'Windows and Mac'],
+    ['Our suggested age', 'About 7 and up', 'About 10 and up, with a parent managing the account'],
+    ['Best for', 'A gentle start inside a world they already love', 'Making real games and learning to type code'],
+  ]);
+
+  const sold = idx(s, pStarts('Minecraft is essentially a giant digital LEGO set.'), 'minecraft sold');
+  s[sold].text = s[sold].text.replace(" It's been around since 2011 and has sold over 300 million copies, making it one of the best-selling games of all time.", '');
+  drop(pStarts('Roblox has over 70 million daily active users'), 'roblox dau');
+  const edu = idx(s, pStarts('This is where Minecraft gets serious about coding.'), 'edu paragraph');
+  s[edu] = P('This is where Minecraft gets serious about coding. Minecraft Education is a separate edition made for schools, and its Code Builder lets children program the world, starting with MakeCode blocks (similar to Scratch) and then moving on to Python. It usually comes through a school licence; homeschools and families can buy it through a commercial offer, so check with your child\'s school first.');
+  const edu2 = idx(s, pStarts('There are structured lessons, coding challenges'), 'edu paragraph 2');
+  s[edu2] = P('There are structured lessons and coding challenges, including an Hour of AI activity in which children solve puzzles with blocks or Python. It is genuinely effective for teaching programming in a setting children already love.');
+  const mod = idx(s, pStarts('Creating Minecraft mods (modifications) involves actual programming'), 'modding');
+  s[mod] = P('Creating mods for Minecraft: Java Edition, the PC version, means real programming, usually in Java. This is advanced territory for teenagers who want to add new creatures, items or mechanics, and it is a genuine introduction to software development.');
+
+  const luau = idx(s, pStarts('The scripting language is called Luau'), 'luau paragraph');
+  s[luau] = P('The scripting language is <strong>Luau</strong>, Roblox\'s own language, derived from Lua 5.1. Studio\'s script editor helps with autocompletion, syntax highlighting and error checking, and when children write scripts they are writing real code that controls how their game behaves.');
+  const motH = idx(s, isH('The Motivation Factor'), 'motivation heading');
+  const nextH = idx(s, (x) => x.type === 'heading' && x.id === 'comparison', 'comparison heading');
+  s.splice(motH, nextH - motH,
+    H(3, 'The Motivation Factor'),
+    P('Roblox games can be published for friends to play, which is a powerful reason to keep improving them. Keep the focus on making something good rather than on popularity or money, and agree with your child what they will publish and share.'));
+
+  const depth = idx(s, pStarts('Winner: Roblox. While Minecraft Education Edition offers solid coding instruction'), 'depth');
+  s[depth].text = s[depth].text.replace('Kids writing Lua scripts are genuinely learning a programming language with real-world applications.', 'Children writing Luau scripts are learning a real typed language, and the ideas carry over to any other.');
+  const career = idx(s, pStarts('Winner: Roblox. Learning Lua in Roblox translates more directly'), 'career');
+  s[career] = P('Winner: Roblox Studio, for moving on. Typing Luau builds the habits every later language needs: exact syntax, reading error messages and debugging. The next steps are usually Python, JavaScript or a larger game engine.');
+  const careerH = idx(s, isH('Career Relevance'), 'career heading');
+  s[careerH].text = 'Moving On to Other Languages';
+  const price = idx(s, pStarts('Minecraft: Requires purchase'), 'minecraft price');
+  s[price] = P('Minecraft: the game itself is paid, and Minecraft Education needs its own licence, through a school or a family and homeschool offer.');
+
+  const rs = idx(s, pStarts('Roblox has extensive parental controls.'), 'roblox safety');
+  s[rs] = P('Roblox is a platform full of games made by other users, with online chat, so set your child\'s account up with them and go through its parental controls and privacy settings together. For coding practice, Roblox Studio does not require publishing anything.');
+  const ms = idx(s, pStarts('Minecraft can be played entirely offline'), 'minecraft safety');
+  s[ms] = P('Minecraft can be played offline in single-player mode, and Minecraft Education is played with classmates on school-managed devices rather than public servers. Public multiplayer servers vary widely, so agree with your child which ones they join.');
+
+  const pro = idx(s, (x) => x.type === 'heading' && x.id === 'pro-developers', 'pro developers');
+  const start = idx(s, (x) => x.type === 'heading' && x.id === 'next-steps', 'next steps');
+  s.splice(pro, start - pro,
+    H(2, 'Roblox Studio vs Java: which language is it?', 'roblox-vs-java'),
+    P('A common mix-up. Roblox Studio does not use Java: its language is Luau, derived from Lua. Java is the language behind Minecraft: Java Edition mods. So a child who wants to script Roblox games learns Luau, and a teenager who wants to mod Minecraft on PC learns Java. The core ideas, variables, loops, conditions, functions and events, are the same in both, so time spent on either carries over.'));
+
+  const rbList = s[idx(s, (x) => x.type === 'list' && x.items.some((it) => /complete-game-development-masterclass-for-teens/.test(it)), 'roblox steps')];
+  rbList.items = rbList.items.map((it) => it.replace(/Consider enrolling in our <a href='\/courses\/complete-game-development-masterclass-for-teens'>Game Development course<\/a> for structured learning and mentorship\./, `Consider our <a href='${ROBLOX.url}'>${ROBLOX.title}</a> course (ages 8 to 14) for live, structured lessons in Luau.`));
+  const mnList = s[idx(s, (x) => x.type === 'list' && x.items.some((it) => /Redstone tutorials on YouTube/.test(it)), 'minecraft steps')];
+  mnList.items.push(`For a teacher alongside, our <a href='${MINE.url}'>${MINE.title}</a> course (ages 7 to 12) goes from blocks to real code.`);
+
+  const acc = s[idx(s, (x) => x.type === 'accordion', 'faq')];
+  acc.items = acc.items.filter((it) => it.title !== 'Can my child make money from Roblox games?').map((it) => {
+    if (it.title.startsWith('Is Lua')) { it.title = 'Is Luau (Roblox\'s language) useful outside Roblox?'; it.content = 'Luau itself is Roblox\'s own language, derived from Lua 5.1. What carries over is everything learned while using it: variables, loops, conditions, functions, events and debugging, which work the same way in Python, JavaScript or any other language.'; }
+    if (it.title === 'Is Minecraft Education Edition worth it?') it.content = 'If your child\'s school already has it, yes, use it. For home, Minecraft Education is sold to homeschools and families through a commercial offer, so compare that with a course before buying. Ordinary Minecraft with Redstone and command blocks still teaches logical thinking.';
+    if (it.title === 'Which platform do coding schools and camps use?') it.content = 'Both appear in classes: Minecraft Education is built for schools, and Roblox Studio is common for game-making courses. Ours cover both, with Minecraft for ages 7 to 12 and Roblox in Luau for 8 to 14.';
+    return it;
+  });
+  acc.items.unshift(
+    { title: 'Is Minecraft better than Roblox for kids?', content: 'For a first taste of coding, usually yes: Minecraft Education starts with blocks inside a world children know, from about 7. For real typed code and making whole games, Roblox Studio is better, from about 10. Many children do Minecraft first and move to Roblox Studio later.' },
+    { title: 'Are Roblox and Minecraft the same?', content: 'No. Minecraft is one game, made by Mojang (part of Microsoft), with a separate Minecraft Education edition for schools. Roblox, from Roblox Corporation, is a platform of games made by its users, and Roblox Studio is its free tool for making them.' },
+    { title: 'Minecraft or Roblox for a 7 year old?', content: 'Minecraft, and ideally Minecraft Education if the school has it: blocks come before typing, and the building feels natural at 7. Roblox Studio needs typed code and a Roblox account, so it usually works better from about 10.' },
+    { title: 'Does Roblox Studio use Java?', content: 'No. Roblox Studio uses Luau, a language derived from Lua 5.1. Java is used for mods in Minecraft: Java Edition.' });
+
+  const best = idx(s, (x) => x.type === 'callout' && x.title === 'The Best Platform Is...', 'best callout');
+  s.splice(best + 1, 0, { type: 'callout', calloutType: 'tip', title: 'Learn it live, in the game your child loves', text: `Minecraft fans, 7 to 12: <a href='${MINE.url}'>${MINE.title}</a>. Roblox fans, 8 to 14: <a href='${ROBLOX.url}'>${ROBLOX.title}</a>. Both, and Scratch, 8 to 12: <a href='${GAMEDEV.url}'>${GAMEDEV.title}</a>. The first class is a free demo, so you can see how it is taught before you decide.` });
+
+  save(name, j); console.log('retargeted', name);
+})();
