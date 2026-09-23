@@ -10,7 +10,11 @@
  * /thank-you. So a form is covered when it:
  *
  *   A. posts to a watched endpoint, inline or through a shared script, or
- *   B. is a Netlify form whose action is /thank-you (the dialog opens there).
+ *   B. is a Netlify form whose action is /thank-you (the dialog opens there)
+ *      AND has a phone field, which installNetlifyBridge in demo-choice.js
+ *      copies to the server. Without that copy a Netlify lead never reaches
+ *      the admin panel or the WhatsApp alert (nine pages were in that state
+ *      until 2026-09-23 while this audit reported them covered).
  *
  * Deliberately NOT covered, and reported separately: business and corporate
  * enquiries (not demos), payment/enrolment forms, login, search, tools.
@@ -48,6 +52,7 @@ function walk(dir, out) {
 }
 
 const HAS_BRIDGE = /installWhatsAppBridge\(\)/.test(choiceSrc);
+const HAS_NETLIFY_BRIDGE = /^\s*installNetlifyBridge\(\);/m.test(choiceSrc);
 const BUILD_ADDS_CALLBACK_SCRIPT = /callback-modal\.js\?v=/.test(fs.readFileSync(path.join(ROOT, 'scripts/inline-components.js'), 'utf8').split('// 10.')[1] || '');
 
 const NOT_A_DEMO = /login|search|newsletter|battle|gate-form|join-form|example|aab|quiz|calculator|playground|compiler|feedback|review|comment|filter|admin|coupon|enrol|enroll|payment|checkout/i;
@@ -68,13 +73,21 @@ for (const dir of DIRS) {
     const endpoints = [...new Set(inline.concat(...shared.map((f) => SHARED[f])))];
     const optedOut = /name="mac-demo-choice"\s+content="off"/i.test(html);
 
+    let from = 0;
     for (const tag of forms) {
+      const at = html.indexOf(tag, from);
+      from = at + tag.length;
+      const end = html.indexOf('</form>', from);
+      const formHtml = html.slice(at, end === -1 ? undefined : end);
       stats.forms++;
       const id = (tag.match(/\bid="([^"]+)"/) || tag.match(/\bname="([^"]+)"/) || tag.match(/\bclass="([^"]+)"/) || [0, '(anonymous)'])[1];
       const netlify = /data-netlify/i.test(tag);
 
       if (netlify) {
-        if (/action="\/thank-you/.test(tag)) { stats.viaThankYou++; continue; }
+        if (/action="\/thank-you/.test(tag)) {
+          if (HAS_NETLIFY_BRIDGE && /type="tel"/.test(formHtml)) { stats.viaThankYou++; continue; }
+          stats.uncovered.push([file, id, 'Netlify form with no phone field (or no bridge): the lead never reaches the server or WhatsApp']); continue;
+        }
         stats.uncovered.push([file, id, 'Netlify form that does not go to /thank-you']); continue;
       }
       if (optedOut || /biz|business|corporate|b2b/i.test(id)) { stats.business++; continue; }
@@ -107,7 +120,7 @@ console.log('watched endpoints : ' + WATCHED);
 console.log('pages scanned     : ' + stats.pages + ' (' + stats.pagesWithForms + ' with a form)');
 console.log('forms             : ' + stats.forms);
 console.log('  covered         : ' + stats.covered + '  ' + JSON.stringify(byEndpoint));
-console.log('  via /thank-you  : ' + stats.viaThankYou);
+console.log('  via /thank-you  : ' + stats.viaThankYou + '  (Netlify forms, copied to the server by installNetlifyBridge)');
 console.log('  business/opt-out: ' + stats.business + '  (not demos, by design)');
 console.log('  tools/login/etc : ' + stats.other + '  (not demos, by design)');
 console.log('  NOT COVERED     : ' + stats.uncovered.length);

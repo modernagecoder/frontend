@@ -1150,6 +1150,8 @@
                 fetch(apiUrl() + '/api/callback/request', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
+                    // Survives the page handing the visitor over to WhatsApp.
+                    keepalive: true,
                     body: JSON.stringify({
                         phone: cc.digits,
                         countryCode: cc.dial,
@@ -1159,6 +1161,89 @@
                     })
                 }).catch(function () { });
             } catch (err) { /* never block the page's own submit handler */ }
+        }, false);
+    }
+
+    /**
+     * Netlify forms (the lead-magnet pages: AI roadmap, olympiad track,
+     * screen-time plan and the like) post to Netlify and land on /thank-you.
+     * Netlify kept the entry, but nothing reached our server, so these leads
+     * sent no WhatsApp alert and never appeared in the admin panel.
+     *
+     * This copies the submission to the server as a callback request, with
+     * every answer in the note, while the browser carries on to Netlify as
+     * before. keepalive lets the request finish after the page has gone.
+     * Going through the hooked fetch also hands the name and number to the
+     * chooser on /thank-you for prefilling.
+     */
+    /**
+     * These forms have one free box, "WhatsApp number with country code", and
+     * no country picker. Read an Indian number in any of its usual spellings;
+     * send anything longer with no country, and the server reads the code
+     * off the number itself. Null for something that cannot be a phone.
+     */
+    function loosePhone(raw) {
+        var digits = String(raw || '').replace(/\D/g, '');
+        if (/^\s*00/.test(String(raw || ''))) digits = digits.replace(/^00/, '');
+        if (digits.length === 12 && digits.indexOf('91') === 0) digits = digits.slice(2);
+        else if (digits.length === 11 && digits.charAt(0) === '0') digits = digits.slice(1);
+        if (digits.length === 10) return { digits: digits, dial: '+91', iso: 'IN', name: 'India' };
+        if (digits.length > 10 && digits.length <= 15) return { digits: digits, dial: '', iso: '', name: '' };
+        return null;
+    }
+
+    function installNetlifyBridge() {
+        document.addEventListener('submit', function (e) {
+            try {
+                var form = e.target;
+                if (!form || form.tagName !== 'FORM' || !form.hasAttribute('data-netlify')) return;
+                if (form.getAttribute('data-mac-lead') === 'off') return;
+                var tel = form.querySelector('input[type="tel"]');
+                if (!tel) return;
+                var trap = form.querySelector('[name="bot-field"]');
+                if (trap && trap.value) return;       // Netlify's honeypot: a bot
+                if (form.__macBridged && (Date.now() - form.__macBridged) < 60000) return;
+
+                var cc = window.MACCountryCode ? readPhone(tel) : loosePhone(tel.value);
+                if (!cc) return;
+                form.__macBridged = Date.now();
+
+                var name = '';
+                var email = '';
+                var bits = [];
+                var fields = form.querySelectorAll('input, select, textarea');
+                for (var i = 0; i < fields.length; i++) {
+                    var f = fields[i];
+                    var key = f.name || f.id || '';
+                    var type = (f.type || '').toLowerCase();
+                    if (!key || key === 'form-name' || key === 'bot-field' || f === tel) continue;
+                    if (type === 'hidden' || type === 'submit' || type === 'button') continue;
+                    if ((type === 'checkbox' || type === 'radio') && !f.checked) continue;
+                    var v = String(f.value || '').replace(/\s+/g, ' ').trim();
+                    if (!v) continue;
+                    if (!name && /name/i.test(key)) name = v;
+                    if (!email && type === 'email') email = v;
+                    bits.push(key.replace(/[_-]+/g, ' ') + ': ' + v);
+                }
+                var formName = form.getAttribute('name') || form.id || 'form';
+
+                fetch(apiUrl() + '/api/callback/request', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    keepalive: true,
+                    body: JSON.stringify({
+                        phone: cc.digits,
+                        countryCode: cc.dial || undefined,
+                        countryIso: cc.iso || undefined,
+                        countryName: cc.name || undefined,
+                        // Not stored by the callback route; read by the fetch
+                        // hook so /thank-you can prefill the payment form.
+                        name: name.slice(0, 120),
+                        email: email.slice(0, 160),
+                        note: (formName + ' · ' + bits.join(' · ')).slice(0, 480)
+                    })
+                }).catch(function () { });
+            } catch (err) { /* never stop the form reaching Netlify */ }
         }, false);
     }
 
@@ -1227,6 +1312,7 @@
 
     installFetchHook();
     installWhatsAppBridge();
+    installNetlifyBridge();
     installBookDelegate();
 
     function bootEntryPoints() {
@@ -1283,6 +1369,6 @@
             track('demo_priority_direct_open', { page: window.location.pathname, placement: String(placement || 'link') });
         },
         prices: PRICES,
-        version: '20260921a'
+        version: '20260923a'
     };
 })();

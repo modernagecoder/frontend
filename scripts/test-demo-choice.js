@@ -205,6 +205,50 @@ const tick = (ms) => new Promise((r) => setTimeout(r, ms));
     assert.strictEqual(w3.__calls.length, 0, 'API-backed form is not double recorded');
   }
 
+  // 7b. A Netlify lead-magnet form (2026-09-23) is copied to the server as it leaves for
+  //     /thank-you, so it reaches the admin panel and the WhatsApp alert.
+  {
+    const netlify = (tel, extra) => '<form name="screen-time-lead" method="POST" data-netlify="true" action="/thank-you"' + (extra || '') + '>' +
+      '<input type="hidden" name="form-name" value="screen-time-lead">' +
+      '<input name="bot-field" value="">' +
+      '<input type="text" name="parent_name" value="Asha Rao"><input type="number" name="child_age" value="9">' +
+      '<select name="country"><option selected>United Kingdom</option></select>' +
+      '<input type="tel" name="whatsapp" value="' + tel + '"><input type="email" name="email" value="asha@example.com"></form>';
+    const submit = (w) => w.document.querySelector('form').dispatchEvent(new w.Event('submit', { bubbles: true, cancelable: true }));
+    const sentOf = (w) => w.__calls.filter((c) => /callback\/request/.test(String(c.input))).map((c) => c);
+
+    const w = makeWindow({ body: netlify('+44 7911 123456') });
+    submit(w);
+    await tick(20);
+    const calls = sentOf(w);
+    assert.strictEqual(calls.length, 1, 'the Netlify form is copied to the server once');
+    assert.strictEqual(calls[0].init.keepalive, true, 'keepalive, since the page is leaving');
+    const sent = JSON.parse(calls[0].init.body);
+    assert.strictEqual(sent.phone, '447911123456', 'intl number keeps its code for the server to read');
+    assert.strictEqual(sent.countryIso, undefined, 'no country is guessed on the client');
+    assert.ok(/^screen-time-lead · /.test(sent.note), 'note names the form: ' + sent.note);
+    assert.ok(/parent name: Asha Rao/.test(sent.note) && /child age: 9/.test(sent.note) && /United Kingdom/.test(sent.note), 'note carries the answers: ' + sent.note);
+    assert.ok(!/form-name|bot-field/.test(sent.note), 'Netlify plumbing is not in the note');
+    assert.strictEqual(sent.name, 'Asha Rao');
+    assert.strictEqual(sent.email, 'asha@example.com');
+
+    const w2 = makeWindow({ body: netlify('+91 98765 43210') });
+    submit(w2);
+    await tick(20);
+    const s2 = JSON.parse(sentOf(w2)[0].init.body);
+    assert.deepStrictEqual([s2.phone, s2.countryCode, s2.countryIso], ['9876543210', '+91', 'IN'], 'Indian number read cleanly');
+
+    const w3 = makeWindow({ body: netlify('98765') });
+    submit(w3);
+    await tick(20);
+    assert.strictEqual(sentOf(w3).length, 0, 'not a phone number: nothing sent');
+
+    const w4 = makeWindow({ body: netlify('9876543210').replace('name="bot-field" value=""', 'name="bot-field" value="spam"') });
+    submit(w4);
+    await tick(20);
+    assert.strictEqual(sentOf(w4).length, 0, 'honeypot filled: nothing sent');
+  }
+
   // 8. Direct entry points (2026-09-21): any [data-pd-book] link opens the payment form in
   //    place, names its placement, shows one currency, and the chooser gives the three
   //    reasons to pay. A demo form gets one quiet line above its submit button.
