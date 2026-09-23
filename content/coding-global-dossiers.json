@@ -20072,5 +20072,83 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Met Office, Menai Heritage or Gwynedd Council."
     ]
+  },
+  "best-coding-class-in-wells": {
+    "market": "Wells",
+    "bodyClass": "cg-wel",
+    "pageType": "city",
+    "curriculumAuthority": "Census 2021 via Nomis. Wells Town MSOA E02006054 (ONS name Mendip 008): TS001 8,317 usual residents, 8,291 in households, 26 communal; TS007A total 8,324, 448 aged 85 and over (5.4 percent; England 2.4), 648 aged 70 to 74 (7.8 percent; England 5.0); TS068 1,102 students of 7,965 aged 5 and over (13.8 percent); TS006 2,146.2 per square kilometre. Mendip 006 (Oakhill, Horrington and Chewton Mendip) 7,747, 15.5 percent students, 83.6; Mendip 005 (Draycott, Westbury and Wookey) 8,473, 18.5 percent, 76.9; Mendip census district E07000187 116,089, 17.5 percent, 157.0; England 56,490,048, 20.4 percent, 433.5. OS Open Names places Wells in the Somerset unitary authority. Wells Cathedral: about 705 King Ine; 909 diocese; about 1175; clock works about 1390; scissor arches 1338-48, William Joy; Vicars' Close. NHLE Grade I entries 1382901, 1382873, 1383197, 1383199, list date 12 November 1953.",
+    "localProject": "Can an average month predict the full moon? US Naval Observatory full moons 2000 to 2030 (383, Universal Time). Julian day numbers checked against the USNO converter (2451545 for 1 January 2000 noon; 2460926.25625 for 7 September 2025 18:09 UT). NASA mean synodic month 29.53059 days. Anchored on the first moon: 71.0 percent right UT date, 83.3 percent within 12 hours, worst 17.8 hours late (15 April 2014). Start fitted on 2000 to 2015, scored on 185 moons 2016 to 2030: 74.1 percent, 91.9 percent, worst 13.9 hours early (9 October 2022). Month length range 29.280 to 29.818 days. Fitted month 29.530627 (2000 to 2015), 29.530557 (all). 235-month pairs: 148, 85 same date, 63 one day off. Thirteen-moon years 2001, 2004, 2007, 2009, 2012, 2015, 2018 and 2020, 2023, 2026, 2028. Lesson family: Julian day numbers, mean-lunation model, 19-year cycle, train and test split.",
+    "requiredMentions": [
+      "8,317",
+      "7,965",
+      "2,146.2",
+      "29.53059",
+      "Julian day",
+      "Quarter Jack",
+      "jousting",
+      "Wookey Hole",
+      "Dulcote",
+      "Coxley",
+      "Horrington",
+      "Haybridge"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001: Wells Town 8,317; Mendip 006 7,747; Mendip 005 8,473; Mendip 116,089; England 56,490,048.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E02006054,E02006052,E02006051,E07000187,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: five-year age bands for Wells Town and England.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E02006054,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: students among usual residents aged 5 and over.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E02006054,E02006052,E02006051,E07000187,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E02006054,E02006052,E02006051,E07000187,E92000001"
+      },
+      {
+        "claim": "House of Commons Library, MSOA Names: Wells Town; Oakhill, Horrington and Chewton Mendip; Draycott, Westbury and Wookey.",
+        "url": "https://houseofcommonslibrary.github.io/msoanames/"
+      },
+      {
+        "claim": "US Naval Observatory, Astronomical Applications API: moon phases by year (times in Universal Time) and Julian date converter.",
+        "url": "https://aa.usno.navy.mil/data/api"
+      },
+      {
+        "claim": "NASA GSFC, Eclipses and the Moon's Orbit: mean synodic month 29.53059 days (29d 12h 44m 03s).",
+        "url": "https://eclipse.gsfc.nasa.gov/SEhelp/moonorbit.html"
+      },
+      {
+        "claim": "Wells Cathedral, Historical Highlights: about 1175, first English cathedral entirely Gothic; clock works about 1390; Quarter Jack; scissor arches 1338-48 by William Joy; springs; King Ine about 705.",
+        "url": "https://www.wellscathedral.org.uk/heritage-conservation/historical-highlights"
+      },
+      {
+        "claim": "Wells Cathedral Timeline: wella; 909 diocese; Vicars' Close; Bishop Ralph and forty-two houses.",
+        "url": "https://www.wellscathedral.org.uk/heritage-conservation/wells-cathedral-timeline"
+      },
+      {
+        "claim": "Historic England, National Heritage List for England: Grade I entries 1382901, 1382873, 1383197, 1383199.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1382901"
+      },
+      {
+        "claim": "Ordnance Survey, OS Open Names: Wells and nearby settlements.",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-names"
+      }
+    ],
+    "rejectedClaims": [
+      "The name Metonic cycle: no fetched raw source used it, so the page says a 19-year cycle and states only what the full-moon list shows.",
+      "A general rule that the 13-full-moon years repeat every 19 years: only the four pairs inside 2000 to 2030 were checked, and the page says so.",
+      "Accuracy figures from a month length fitted to all 383 moons: that fit was scored on its own data, so the page reports the NASA month with an out-of-sample test instead.",
+      "That the Wells clock shows the phase of the Moon: not in the fetched cathedral text, so not claimed.",
+      "The date Mendip district was replaced by Somerset Council: legislation.gov.uk returned a 202 challenge for the Somerset (Structural Changes) Order 2022, not circumvented; the page says only that OS Open Names places Wells in the Somerset unitary authority.",
+      "The number of houses in Vicars' Close today: the cathedral records that forty-two should be built; NHLE entries were not summed or compared with it.",
+      "That Wells is the smallest city in England: not taken from a fetched source.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the US Naval Observatory, NASA, Wells Cathedral, Historic England or Somerset Council."
+    ]
   }
 }

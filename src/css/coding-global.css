@@ -1062,3 +1062,4 @@
 .cg-root.cg-hfd  { --cg-accent: #6B2E51; --cg-accent-soft: rgba(107,46,81,.10); }   /* Hereford: a map-ink mulberry for the Mappa Mundi, from the solver (7.98:1 on every paper tint, dE 7.3 from the nearest used accent) */
 .cg-root.cg-agh  { --cg-accent: #153F79; --cg-accent-soft: rgba(21,63,121,.10); }   /* Armagh: a night-sky blue for the Observatory, from the solver (8.44:1 on every paper tint, dE 6.2 from the nearest used accent) */
 .cg-root.cg-bgw  { --cg-accent: #2E3B4C; --cg-accent-soft: rgba(46,59,76,.10); }   /* Bangor: a slate blue-grey, from the solver (9.23:1 on every paper tint, dE 6.3 from the nearest used accent) */
+.cg-root.cg-wel  { --cg-accent: #242239; --cg-accent-soft: rgba(36,34,57,.10); }   /* Wells: a night-sky indigo for a page about the Moon, from the solver (12.51:1 on every paper tint, dE 7.6 from the nearest used accent) */
