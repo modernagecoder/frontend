@@ -196,7 +196,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 144 | best-coding-class-in-truro (tru, #174D82) | city (UK, Phase 4) | 3,434 | 2.3% vs best-coding-class-in-lichfield | Where do the Tre- names stop? | Kolmogorov-Smirnov two-sample test | 724a9df3 |
 | 145 | best-coding-class-in-ripon (rip, #4A4C24) | city (UK, Phase 4) | 3,593 | 2.5% vs best-coding-class-in-chichester | Are the floods rising faster than the ordinary flows? | Quantile regression | 35be83f5 |
 | 146 | best-coding-class-in-st-asaph (asa, #34246B) | city (UK, Phase 4) | 3,519 | 3% vs best-coding-class-in-lichfield | Which way does the Vale of Clwyd face? | Sobel operator, slope, aspect and hillshade | 7f124cd7 |
-| 147 | best-coding-class-in-st-davids (std, #722277) | city (UK, Phase 4) | 3,490 | 2.1% vs best-coding-class-in-bangor-wales | Why does GPS move the cathedral 83 metres? | Helmert transformation and coordinate systems | (this commit) |
+| 147 | best-coding-class-in-st-davids (std, #722277) | city (UK, Phase 4) | 3,490 | 2.1% vs best-coding-class-in-bangor-wales | Why does GPS move the cathedral 83 metres? | Helmert transformation and coordinate systems | b4f4cd38 |
+| 148 | best-coding-class-in-wrexham (wrx, #18548B) | city (UK, Phase 4) | 3,518 | 2.4% vs best-coding-class-in-armagh | Did Wrexham's air get cleaner every year? | Isotonic regression (pool-adjacent-violators) | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

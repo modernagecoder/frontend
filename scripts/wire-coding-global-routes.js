@@ -435,6 +435,7 @@ const MARKETS = [
   ['best-coding-class-in-ripon', 'Ripon'],
   ['best-coding-class-in-st-asaph', 'St Asaph'],
   ['best-coding-class-in-st-davids', 'St Davids'],
+  ['best-coding-class-in-wrexham', 'Wrexham'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
