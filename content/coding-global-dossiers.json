@@ -18931,5 +18931,59 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Environment Agency, Gloucester Cathedral or Gloucester City Council."
     ]
+  },
+  "best-coding-class-in-canterbury": {
+    "market": "Canterbury",
+    "bodyClass": "cg-cby",
+    "pageType": "city",
+    "curriculumAuthority": "Canterbury, Census 2021 via Nomis (E07000106): TS001 157,432 usual residents, 148,198 in households, 9,234 in communal establishments; TS007A 12,600 aged 15 to 19 (8.0 percent, England 5.7), 15,788 aged 20 to 24 (10.0 percent, England 6.0), 9,382 aged 70 to 74 (6.0 percent, England 5.0); TS068 38,832 students of 150,606 residents aged 5 and over (25.8 percent, England 20.4); TS006 509.9 usual residents per square kilometre (England 433.5). Canterbury Cathedral, Our story: founded by St Augustine in 597 AD, sent by Pope Gregory the Great; Thomas Becket martyred 29 December 1170, canonised; his shrine made Canterbury one of the most important pilgrimage sites in medieval Christendom.",
+    "localProject": "How many words are in The Canterbury Tales? Project Gutenberg eBook 22120 (Skeat edition), Chaucer's text only, editorial notes, line numbers and page references removed (21,494 lines). Distinct words: split on spaces 23,609; lower case 22,164; punctuation removed 12,132; hyphens split 11,593; accents removed 11,567 (185,932 tokens). Heaps' law fit V = 7.63 n^0.612; full-text fitted 12,827 against 11,567 observed. Extrapolation from first 10 percent 16,538, first 25 percent 14,949, first half 13,832. Hapax 5,374 (46.5 percent). Said: seyde 370, seyd 66, sayde 26, seide 12, sayd 11, seid 1. Second-half words not in first half 3,381. Lesson family: Heaps' law and tokenisation; distinct from Cardiff Zipf and York entropy.",
+    "requiredMentions": [
+      "157,432",
+      "148,198",
+      "509.9",
+      "15,788",
+      "38,832",
+      "150,606",
+      "Becket",
+      "St Augustine",
+      "Heaps' law",
+      "seyde",
+      "11,567",
+      "Skeat"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Canterbury: 157,432 usual residents; 148,198 in households; 9,234 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E07000106"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Canterbury and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E07000106,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Canterbury 38,832 students of 150,606 aged 5 and over (25.8 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E07000106,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, Canterbury 509.9 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E07000106,E92000001"
+      },
+      {
+        "claim": "Project Gutenberg eBook 22120, Chaucer's Works Volume 4, The Canterbury Tales (Skeat edition), plain text.",
+        "url": "https://www.gutenberg.org/ebooks/22120"
+      },
+      {
+        "claim": "Canterbury Cathedral, Our story: St Augustine 597 AD, Thomas Becket 29 December 1170, pilgrimage.",
+        "url": "https://www.canterbury-cathedral.org/our-story/"
+      }
+    ],
+    "rejectedClaims": [
+      "A single definitive count of Chaucer's vocabulary: the page shows how the count depends on tokenisation rules and gives each result.",
+      "Merging Middle English spelling variants automatically: a simple rule cannot do it reliably, so variants are reported, not merged.",
+      "Canterbury Cathedral history pages under other paths: returned 404; the Our story page is used instead.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules. The Cathedral is described as heritage only.",
+      "Any affiliation with Canterbury Cathedral, Project Gutenberg or Canterbury City Council."
+    ]
   }
 }
