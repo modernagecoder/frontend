@@ -20537,5 +20537,81 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with Ordnance Survey, Cadw, St Asaph Cathedral or Denbighshire County Council."
     ]
+  },
+  "best-coding-class-in-st-davids": {
+    "market": "St Davids",
+    "bodyClass": "cg-std",
+    "pageType": "city",
+    "curriculumAuthority": "Census 2021 via Nomis. St Davids and Letterston W02000128: TS001 7,238 usual residents, 253 communal; TS068 987 of 6,978 aged 5 and over (14.1 percent); TS006 34.9; TS007A 545 aged 70 to 74 (7.5 percent) and 624 aged 65 to 69 (8.6 percent) of 7,236. Pembrokeshire W06000009 123,360, 19,834 of 117,777 (16.8 percent), 76.2, 8,825 aged 70 to 74 (7.2 percent). Wales 3,107,494, 19.9 percent, 149.9, 5.8 percent. Cadw 12537 (cathedral, Grade I: 1180-1220, Peter de Leia, tower fell 1220, rebuilt by 1250, earthquake 1248, Scott 1862-78, Nash 1793), 12558 (Bishop's Palace, Grade I: about 1200, Bek, Gower, Barlow), 12541 (Porth-y-Twr, Grade I, Caroe 1929), 12575 (City Cross, II*).",
+    "localProject": "Why does GPS move the cathedral 83 metres? OS guide v3.6: Airy 1830 inverse Transverse Mercator and Table 4 Helmert parameters, both worked examples reproduced exactly. EA hydrology stations, 9,536: Helmert vs published lat/long median 1.01 m, 95th 1.81 m, max 2.21 m; no datum change median 110.2 m, range 85.0 to 138.2 m. Cathedral 175156E 225430N: shift 44.3 m north, 70.5 m west, 83.2 m. Lesson family: coordinate systems and the Helmert transformation.",
+    "requiredMentions": [
+      "7,238",
+      "Helmert",
+      "OSTN15",
+      "Airy",
+      "Tyddewi",
+      "Letterston",
+      "Whitesands",
+      "Clegyr-Boia",
+      "Caerfarchell",
+      "Trevinert",
+      "Peter de Leia",
+      "Porth-y-Twr"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001: St Davids and Letterston 7,238; Pembrokeshire 123,360; Wales 3,107,494.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=W02000128,W06000009,W92000004"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=W02000128,W06000009,W92000004"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: students among usual residents aged 5 and over.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=W02000128,W06000009,W92000004"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=W02000128,W06000009,W92000004"
+      },
+      {
+        "claim": "House of Commons Library, MSOA Names: St Davids and Letterston.",
+        "url": "https://houseofcommonslibrary.github.io/msoanames/"
+      },
+      {
+        "claim": "Ordnance Survey, A Guide to Coordinate Systems in Great Britain (v3.6): Airy 1830, Transverse Mercator formulae, Table 4 Helmert parameters, accuracy notes, worked examples in Annexes C and D, OSTN15.",
+        "url": "https://www.ordnancesurvey.co.uk/documents/resources/guide-coordinate-systems-great-britain.pdf"
+      },
+      {
+        "claim": "Environment Agency hydrology stations: easting, northing, latitude and longitude for 9,536 stations.",
+        "url": "https://environment.data.gov.uk/hydrology/id/stations.json"
+      },
+      {
+        "claim": "Ordnance Survey, OS Open Names: Tyddewi / St Davids and nearby places.",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-names"
+      },
+      {
+        "claim": "Cadw full report, listed building 12537: Cathedral of St Davids.",
+        "url": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=12537"
+      },
+      {
+        "claim": "Cadw full report, listed building 12558: The Bishop's Palace.",
+        "url": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=12558"
+      },
+      {
+        "claim": "Cadw full report, listed building 12541: Porth-y-Twr.",
+        "url": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=12541"
+      }
+    ],
+    "rejectedClaims": [
+      "That St Davids is the smallest city in Britain: not taken from a fetched source.",
+      "That the Environment Agency coordinates were made with OSTN15: its method is not stated, so the page calls the comparison agreement with a trusted list.",
+      "An OSTN15 comparison: the OSTN15 data files were not downloaded, so the page quotes Ordnance Survey's stated accuracy instead.",
+      "Cadw's description of the palace as outstanding among the episcopal palaces of Britain: evaluative, not used.",
+      "Welsh language and national identity figures: not used, in line with the cluster rules on identity data.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with Ordnance Survey, the Environment Agency, Cadw, St Davids Cathedral or Pembrokeshire County Council."
+    ]
   }
 }

@@ -3710,4 +3710,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-st-asaph /src/pages/best-coding-class-in-st-asaph.html 200
 /best-coding-class-in-st-asaph.md /src/pages/best-coding-class-in-st-asaph.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-st-davids /src/pages/best-coding-class-in-st-davids.html 200
+/best-coding-class-in-st-davids.md /src/pages/best-coding-class-in-st-davids.md 200
 /* /src/pages/404.html 404
