@@ -19643,5 +19643,68 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Environment Agency, Lancaster City Council, Lancaster Castle, the Duchy of Lancaster or Historic England."
     ]
+  },
+  "best-coding-class-in-chester": {
+    "market": "Chester",
+    "bodyClass": "cg-chs",
+    "pageType": "city",
+    "curriculumAuthority": "Cheshire West and Chester, Census 2021 via Nomis (E06000050): TS001 357,150 usual residents, 352,087 in households, 5,063 in communal establishments; TS007A 26,045 aged 50 to 54 (7.3 percent, England 6.9), 26,572 aged 55 to 59 (7.4 percent, England 6.7), 19,681 aged 20 to 24 (5.5 percent, England 6.0); TS068 62,738 students of 339,532 residents aged 5 and over (18.5 percent, England 20.4); TS006 388.2 per square kilometre (England 433.5). MSOAs: Chester City and Garden Quarter 10,245 (38.4 percent students, 2,339.5 per square kilometre); Blacon North 6,243 (22.5, 4,208.0); Chester Handbridge Park 8,816 (17.3, 1,678.5). NHLE scheduled monuments: walls, towers, gates and posterns 1006785; Roman amphitheatre (southern part) 1004638; Chester Castle (part) 1006773; Dee Bridge 1006771; Abbey Green Roman site 1006767; Edgar's Field Roman quarry and Minerva 1014718 (13 December 1929). GOV.UK List of Cities 2022.",
+    "localProject": "How fast does the Gowy drain? EA Hydrology, Gowy at Bridge Trafford, daily mean flow 1979 to 2026, 14,855 good days. 189 recessions (peak above 1.285, 8+ falling days). Q = Q0 exp(-t/k) fitted by gradient descent. 19 January 2023, 22 days: rate 0.0001 unfinished at 20,000 (k 10.32); 0.001 5,528 steps (10.39); 0.01 642 steps (10.39); 0.05 stuck (2.15); 0.5 false convergence at 51 steps (0.04). Log-linear 15.98. All at 0.01: 182 converged, 7 not; median k 4.2 days against log-linear 6.1; log-linear longer in 181 of 182. Record good daily mean 18.034 on 24 August 1987. Lesson family: gradient descent.",
+    "requiredMentions": [
+      "357,150",
+      "352,087",
+      "62,738",
+      "339,532",
+      "388.2",
+      "Gowy",
+      "Bridge Trafford",
+      "Edgar",
+      "posterns",
+      "Blacon",
+      "Handbridge",
+      "Garden Quarter"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001: Cheshire West and Chester 357,150; MSOAs Chester City and Garden Quarter, Blacon North, Chester Handbridge Park.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E06000050,E02003803,E02003798,E02003807"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Cheshire West and Chester and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E06000050,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: students aged 5 and over; district 18.5 percent; city centre area 38.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E06000050,E02003803,E02003798,E02003807,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: densities.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E06000050,E02003803,E02003798,E02003807,E92000001"
+      },
+      {
+        "claim": "House of Commons Library, MSOA Names: Chester areas.",
+        "url": "https://houseofcommonslibrary.github.io/msoanames/"
+      },
+      {
+        "claim": "Environment Agency Hydrology: River Gowy at Bridge Trafford, daily mean flow with quality grades.",
+        "url": "https://environment.data.gov.uk/hydrology/id/measures/6078ba41-0d4f-4053-aaea-25d628b1d97f-flow-m-86400-m3s-qualified"
+      },
+      {
+        "claim": "Historic England NHLE open data, scheduled monuments: Chester walls, amphitheatre, castle, Dee Bridge, Abbey Green, Edgar's Field quarry and Minerva.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1006785"
+      },
+      {
+        "claim": "GOV.UK, List of Cities (29 August 2022): Chester listed.",
+        "url": "https://www.gov.uk/government/publications/list-of-cities"
+      }
+    ],
+    "rejectedClaims": [
+      "River Dee flows at Chester: not in the Environment Agency's open hydrology service; the Gowy is used instead and the page says why.",
+      "Chester Cathedral history: the cathedral's website pages fetched carried no historical text to cite; no cathedral history is claimed.",
+      "Superlatives about the city walls or racecourse: not sourced, not used.",
+      "A single \"true\" decay time for the Gowy: the page shows how the answer depends on the error being minimised.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Environment Agency, Historic England or Cheshire West and Chester Council."
+    ]
   }
 }

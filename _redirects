@@ -3658,4 +3658,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-lancaster /src/pages/best-coding-class-in-lancaster.html 200
 /best-coding-class-in-lancaster.md /src/pages/best-coding-class-in-lancaster.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-chester /src/pages/best-coding-class-in-chester.html 200
+/best-coding-class-in-chester.md /src/pages/best-coding-class-in-chester.md 200
 /* /src/pages/404.html 404
