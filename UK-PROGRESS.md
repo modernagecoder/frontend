@@ -174,7 +174,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 122 | best-coding-class-in-gloucester (glo, #931A1A) | city (UK, Phase 4) | 3,300 | 3.1% vs best-coding-class-in-peterborough | matching two curves that do not keep time (DTW on Severn gauges; most tides never reach Gloucester) | dynamic time warping and event matching | 85d78d7d |
 | 123 | best-coding-class-in-canterbury (cby, #5C2C96) | city (UK, Phase 4) | 3,244 | 3.4% vs best-coding-class-in-salford | how many words did Chaucer know? it depends what a word is (Heaps' law and tokenisation on the Tales) | Heaps' law and tokenisation | b6fbf2d6 |
 | 124 | best-coding-class-in-chelmsford (chm, #724A31) | city (UK, Phase 4) | 3,428 | 1.9% vs best-coding-class-in-exeter | How small can a year of the River Chelmer get? | LZW dictionary compression and delta encoding | a448c08a |
-| 125 | best-coding-class-in-durham (drm, #1E3C67) | city (UK, Phase 4) | 3,582 | 1.7% vs best-coding-class-in-peterborough | Could the monks have seen the Battle of Neville's Cross? | Bresenham rasterisation and line of sight | (this commit) |
+| 125 | best-coding-class-in-durham (drm, #1E3C67) | city (UK, Phase 4) | 3,582 | 1.7% vs best-coding-class-in-peterborough | Could the monks have seen the Battle of Neville's Cross? | Bresenham rasterisation and line of sight | d7c9a790 |
+| 126 | best-coding-class-in-stoke-on-trent (sot, #772B22) | city (UK, Phase 4) | 3,373 | 2.2% vs best-coding-class-in-canterbury | Is it a glitch, or is it Bonfire Night? | Median filter | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -19116,5 +19116,65 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules. The Cathedral is described as heritage only.",
       "Any affiliation with Durham Cathedral, Durham University, the Durham World Heritage Site, Historic England, Ordnance Survey or Durham County Council."
     ]
+  },
+  "best-coding-class-in-stoke-on-trent": {
+    "market": "Stoke-on-Trent",
+    "bodyClass": "cg-sot",
+    "pageType": "city",
+    "curriculumAuthority": "Stoke-on-Trent, Census 2021 via Nomis (E06000021): TS001 258,366 usual residents, 254,839 in households, 3,527 in communal establishments; TS007A 16,989 aged 5 to 9 (6.6 percent, England 5.9), 19,079 aged 30 to 34 (7.4 percent, England 7.0); TS068 52,769 students of 242,744 residents aged 5 and over (21.7 percent, England 20.4); TS006 2,764.8 usual residents per square kilometre (England 433.5). Victoria County History, Staffordshire vol. 8 (1963), The federation of the six towns: Burslem, Fenton, Hanley, Longton, Stoke-upon-Trent and Tunstall; unique in English local government; royal assent 21 December 1908; county borough from 31 March 1910; city 1925. NHLE: bottle ovens at Albion Works (1195804) and former Dolby Pottery (1220666), Grade II.",
+    "localProject": "Is it a glitch, or is it Bonfire Night? DEFRA UK-AIR Stoke-on-Trent Centre (STOK) hourly PM2.5, 2022 to 2025. Year tops: 2022 66.8 at 22:00 5 November; 2023 51.8 on 24 January; 2024 42.6 at 22:00 5 November; 2025 77.2 at 20:00 24 July (two-hour burst). Filters at peak, median/mean: 2022 k3 58.5/58.7, k5 57.5/53.0, k9 31.4/38.0, k25 16.7; 2025 k3 46.3, k5 24.5/37.4, k9 24.2/30.7; 2023 single hour 33.8 cut to 15.3 by k3. Hours 15+ above own 5-hour median: 6, 3, 4, 7. Missing hours 39 (2022), 30 (2025). Lesson family: median filter; distinct from Brighton sliding-window max and Swansea CUSUM.",
+    "requiredMentions": [
+      "258,366",
+      "254,839",
+      "2,764.8",
+      "52,769",
+      "Burslem",
+      "Tunstall",
+      "Longton",
+      "Fenton",
+      "31 March 1910",
+      "bottle oven",
+      "median filter",
+      "Bonfire Night"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Stoke-on-Trent: 258,366 usual residents; 254,839 in households; 3,527 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E06000021"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Stoke-on-Trent and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E06000021,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Stoke-on-Trent 52,769 students of 242,744 aged 5 and over (21.7 percent); England 20.4 percent.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E06000021,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: population density, Stoke-on-Trent 2,764.8 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E06000021,E92000001"
+      },
+      {
+        "claim": "DEFRA UK-AIR data archive, Stoke-on-Trent Centre (STOK) hourly flat files 2022 to 2025, including PM2.5.",
+        "url": "https://uk-air.defra.gov.uk/data/flat_files?site_id=STOK"
+      },
+      {
+        "claim": "Victoria County History, Staffordshire vol. 8 (1963), The federation of the six towns: six towns named; royal assent 21 December; county borough 31 March 1910; city 1925.",
+        "url": "https://www.british-history.ac.uk/vch/staffs/vol8/pp252-258"
+      },
+      {
+        "claim": "Historic England NHLE open data: Two bottle ovens and chimney at Albion Works (1195804) and Bottle oven at former Dolby Pottery (1220666), Grade II.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1195804"
+      }
+    ],
+    "rejectedClaims": [
+      "A total count of listed bottle ovens: many are listed inside entries named after whole works, so a count by entry name would be wrong; two named examples are given instead.",
+      "A claim that fireworks caused the 5 November readings: the page states the dates and times only, and no source ties these readings to a cause.",
+      "A cause for the 24 July 2025 burst: none is known to us; the page says only that the hour is ratified data.",
+      "Stoke-on-Trent Museums (Gladstone Pottery Museum, Potteries Museum) pages: returned 403 and were not circumvented.",
+      "Summing published census parts: TS007A total (258,369) differs from TS001 (258,366) by disclosure control, so the TS001 total is used and no parts are added.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with DEFRA, Historic England, British History Online or Stoke-on-Trent City Council."
+    ]
   }
 }
