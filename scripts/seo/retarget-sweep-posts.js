@@ -488,7 +488,7 @@ function codeAndOutput(p) {
   j.meta.dateModified = TODAY; j.meta.retarget = MARK;
 
   s.splice(1, 0,
-    P('<strong>Is AP CSA harder than AP CSP?</strong> To learn, yes: Computer Science A means writing Java from memory, with a three-hour exam that is all programming. To score a 5 in, no: on College Board\'s preliminary 2026 figures, 25 per cent of Computer Science A candidates scored a 5 against 10 per cent in Principles. Principles is broader and gentler, a project year with multiple-choice and written responses; Computer Science A is a Java programming year.'),
+    P('<strong>Is AP CSA harder than AP CSP?</strong> To learn, yes: Computer Science A means writing Java from memory, with a three-hour exam that is all programming. To score a 5 in, no: in College Board\'s published <a href=\'https://apstudents.collegeboard.org/about-ap-scores/score-distributions\' target=\'_blank\' rel=\'noopener noreferrer\'>2026 score distributions</a>, 25 per cent of Computer Science A candidates scored a 5 against 10 per cent in Principles. Principles is broader and gentler, a project year with multiple-choice and written responses; Computer Science A is a Java programming year.'),
     H(2, 'AP CSP vs AP CSA at a glance', 'at-a-glance'),
     T(['', 'AP Computer Science Principles', 'AP Computer Science A'], [
       ['What you learn', 'Five big ideas: creative development, data, algorithms and programming, computer systems and networks, the impact of computing', 'Programming in a subset of Java: objects and methods, selection and iteration, class creation, data collections'],
@@ -509,7 +509,7 @@ function codeAndOutput(p) {
 
   const acc = idx(s, (x) => x.type === 'accordion', 'faq');
   s[acc].items.unshift(
-    { title: 'Is AP CSA harder than AP CSP?', content: 'Harder to learn, yes: Computer Science A is a year of Java and an exam made entirely of programming questions. Harder to get a 5 in, no: on College Board\'s preliminary 2026 figures, 25 per cent of Computer Science A candidates scored a 5 against 10 per cent in Principles.' },
+    { title: 'Is AP CSA harder than AP CSP?', content: 'Harder to learn, yes: Computer Science A is a year of Java and an exam made entirely of programming questions. Harder to get a 5 in, no: in College Board\'s published 2026 score distributions, 25 per cent of Computer Science A candidates scored a 5 against 10 per cent in Principles.' },
     { title: 'What is the difference between AP CSP and AP CSA?', content: 'Principles is a broad introduction to computing across five big ideas, with a through-year Create project and an exam of multiple-choice and written responses. Computer Science A is a programming course in Java, assessed only by an exam of 42 multiple-choice and 4 free-response questions.' },
     { title: 'When are the AP Computer Science exams in 2027?', content: 'AP Computer Science A is on Wednesday 12 May 2027 in Session 2 (typically the afternoon). AP Computer Science Principles is on Friday 14 May 2027 in Session 1 (typically the morning), and its Create performance task must be submitted by Friday 30 April 2027 at 11:59 p.m. ET. Your AP coordinator confirms local times.' });
   const lang = s[acc].items.find((it) => it.title === 'Which programming language should we use for the Create task?');
