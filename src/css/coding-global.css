@@ -1056,3 +1056,4 @@
 .cg-root.cg-car  { --cg-accent: #8B4218; --cg-accent-soft: rgba(139,66,24,.10); }   /* Carlisle: a red sandstone for the castle and cathedral, from the solver (5.90:1 on every paper tint, dE 7.2 from the nearest used accent) */
 .cg-root.cg-lan  { --cg-accent: #8E2E29; --cg-accent-soft: rgba(142,46,41,.10); }   /* Lancaster: a rose red for the county town, from the solver (6.62:1 on every paper tint, dE 6.7 from the nearest used accent) */
 .cg-root.cg-chs  { --cg-accent: #54246B; --cg-accent-soft: rgba(84,36,107,.10); }   /* Chester: a deep Roman purple for the legionary fortress, from the solver (9.25:1 on every paper tint, dE 7.9 from the nearest used accent) */
+.cg-root.cg-win  { --cg-accent: #1B6A42; --cg-accent-soft: rgba(27,106,66,.10); }   /* Winchester: a clear river green, from the solver (5.35:1 on every paper tint, dE 6.1 from the nearest used accent) */

@@ -19706,5 +19706,68 @@
       "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Environment Agency, Historic England or Cheshire West and Chester Council."
     ]
+  },
+  "best-coding-class-in-winchester": {
+    "market": "Winchester",
+    "bodyClass": "cg-win",
+    "pageType": "city",
+    "curriculumAuthority": "Winchester, Census 2021 via Nomis (E07000094): TS001 127,444 usual residents, 121,804 in households, 5,640 in communal establishments; TS007A 7,742 aged 10 to 14 (6.1 percent, England 6.0), 9,213 aged 15 to 19 (7.2 percent, England 5.7), 8,167 aged 20 to 24 (6.4 percent, England 6.0), 5,362 aged 75 to 79 (4.2 percent, England 3.6); TS068 26,971 students of 121,401 residents aged 5 and over (22.2 percent, England 20.4); TS006 192.8 per square kilometre (England 433.5). Winchester Cathedral history pages: founded 1079; longest nave and greatest overall length of any Gothic cathedral in Europe (the cathedral's claim); Jane Austen buried 1817, plaque 1872; St Swithun died 863, rain legend; William Walker, diver, six years under water underpinning waterlogged foundations in the early 1900s.",
+    "localProject": "How much of the Itchen comes from underground? EA Hydrology daily mean flow, good days, runs of 365+ days; Lyne and Hollick filter alpha 0.925, three passes. Itchen at Highbridge BFI 0.875 (16,958 days), Q95 2.237, Q5 7.939, ratio 3.5, max 17.867 (12 February 2014), min 1.628 (22 July 2005). Hamble at Frogmill 0.623, ratio 12.4. Blackwater at Ower 0.427, ratio 29.7, min 0.083, max 21.020. Itchen sensitivity: alpha 0.90 0.894, 0.95 0.841, 0.98 0.742; passes 1 0.944, 5 0.823; ranking unchanged at every setting. Lesson family: recursive digital filters.",
+    "requiredMentions": [
+      "127,444",
+      "121,804",
+      "26,971",
+      "121,401",
+      "192.8",
+      "William Walker",
+      "Swithun",
+      "Highbridge",
+      "Hamble",
+      "Blackwater",
+      "baseflow",
+      "Harestock"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis, Census 2021 TS001, Winchester: 127,444 usual residents; 121,804 in households; 5,640 in communal establishments.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E07000094"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS007A: Winchester and England five-year age bands.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E07000094,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS068: Winchester 26,971 students of 121,401 aged 5 and over (22.2 percent).",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?geography=E07000094,E92000001"
+      },
+      {
+        "claim": "Nomis, Census 2021 TS006: density, Winchester 192.8 per square kilometre.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?geography=E07000094,E92000001"
+      },
+      {
+        "claim": "Environment Agency Hydrology: Itchen at Highbridge daily mean flow.",
+        "url": "https://environment.data.gov.uk/hydrology/id/measures/e9c72be8-dea1-4a5d-8af7-05dce5f419ee-flow-m-86400-m3s-qualified"
+      },
+      {
+        "claim": "Environment Agency Hydrology: Hamble at Frogmill and Blackwater at Ower daily mean flow.",
+        "url": "https://environment.data.gov.uk/hydrology/id/measures/d939b5a0-012f-4082-ad1e-eba74d1f65d5-flow-m-86400-m3s-qualified"
+      },
+      {
+        "claim": "Winchester Cathedral, Architecture: founded 1079; longest nave and greatest overall length of any Gothic cathedral in Europe.",
+        "url": "https://www.winchester-cathedral.org.uk/history/architecture/"
+      },
+      {
+        "claim": "Winchester Cathedral, Notable People: Jane Austen 1817 and 1872 plaque; St Swithun; William Walker the diver.",
+        "url": "https://www.winchester-cathedral.org.uk/history/notable-people/"
+      }
+    ],
+    "rejectedClaims": [
+      "A single true baseflow index: the value depends on filter settings, so the page reports its settings and the ranking that survives them.",
+      "Causes of the Itchen's steadiness beyond what the data shows: the page measures baseflow and swing, and does not claim geology it has not sourced.",
+      "Hampshire County Council's Great Hall page: returned 403 and was not circumvented.",
+      "Days graded suspect or unchecked, and data in runs shorter than a year: excluded from the filter.",
+      "Nationality, ethnicity, religion, birthplace and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
+      "Any affiliation with the Environment Agency, Winchester Cathedral or Winchester City Council."
+    ]
   }
 }
