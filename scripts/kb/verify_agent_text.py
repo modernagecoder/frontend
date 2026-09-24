@@ -28,13 +28,15 @@ for oid, body in re.findall(r"\{\s*\n?\s*id:\s*(\d+),(.*?)\n            \}", blk
     if m:
         cat[m.group(1).replace('/courses/', '').strip('/')] = c.group(1) if c else None
 
-slugs = set()
+slugs, one_only = set(), set()
 for f in glob.glob(os.path.join(ROOT, 'content/courses/data/*.json')):
     if os.path.basename(f) == 'courses-config.json':
         continue
     m = json.load(open(f, encoding='utf-8')).get('meta', {})
     if m.get('slug'):
         slugs.add(m['slug'])
+        if m.get('one_on_one_only') is True:
+            one_only.add(m['slug'])
 
 fails = []
 
@@ -76,6 +78,8 @@ for b in blocks:
     slug = m.group(1)
     key = OVERRIDES.get(slug, 'maths' if cat.get(slug) == 'mathematics' else 'coding')
     ind = PLANS[key]['india']
+    if slug in one_only:
+        ind = {'personal': ind.get('personal')}
     # Same rule as build_agent_text.py: a one to one only course lists only that plan.
     want = ', '.join('%s Rs %s' % (label, format(int(ind[k]), ',d'))
                      for k, label in (('group', 'group'), ('miniBatch', 'mini batch'), ('personal', 'one to one'))

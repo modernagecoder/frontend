@@ -195,10 +195,12 @@ THE ONE TO ONE (PERSONALISED) PLAN IN INDIA, EXACTLY
   - It is billed monthly like every other plan. Cancel any month.
   - Never describe the India one to one plan as two classes a week or eight a month.
 
-  The AI coding agent courses (Codex and Claude Code, and the Microsoft Copilot Studio
-  courses, which are one to one only):
+  The two AI coding agent courses (Codex and Claude Code):
     Group class:   Rs 1,499 a month, two live classes a week, eight a month
     Mini batch:    Rs 2,999 a month, two live classes a week, eight a month
+    One to one:    Rs 4,999 a month, one live class a week, four a month
+
+  The three AI Agents with Microsoft Copilot Studio courses (one to one only):
     One to one:    Rs 4,999 a month, one live class a week, four a month
 
   Build AI Agents with Google Gemini Enterprise (one to one only, its own fee):
@@ -3119,14 +3121,14 @@ Time needed: 4-5 hours/week recommended
 Certificate: Certificate from Modern Age Coders, awarded on passing the final assessment
 
 PRICE FOR THIS COURSE (quote only the one that applies to the person asking)
-  In India, per month:      group Rs 1,499, mini batch Rs 2,999, one to one Rs 4,999
-  Outside India, per month: group $100, one to one $150
-  Classes: group and mini batch two live classes a week, eight a month; one to one in India one
-  live class a week, four a month; one to one outside India two live classes a week, eight a
-  month. Each class is one hour.
-  Note: this course also needs the student to have their own Claude and ChatGPT
-  subscriptions, because the whole course is hands on with those tools. Say this
-  before enrolling anyone, so it is never a surprise later.
+  In India, per month:      one to one Rs 4,999
+  Outside India, per month: one to one $150
+  Classes: one to one in India one live class a week, four a month; one to one outside India
+  two live classes a week, eight a month. Each class is one hour.
+  Note: this course is taught one to one only. There is no group or mini batch option.
+  Note: the course length above is counted at two classes a week. In India the one to one plan
+  is one class a week, so if an Indian family asks how long it will take, hand over to Shivam
+  Sir.
 
 WHAT THIS COURSE IS
 
@@ -3919,14 +3921,14 @@ Time needed: 3-4 hours/week recommended
 Certificate: Certificate from Modern Age Coders, awarded on passing the final assessment
 
 PRICE FOR THIS COURSE (quote only the one that applies to the person asking)
-  In India, per month:      group Rs 1,499, mini batch Rs 2,999, one to one Rs 4,999
-  Outside India, per month: group $100, one to one $150
-  Classes: group and mini batch two live classes a week, eight a month; one to one in India one
-  live class a week, four a month; one to one outside India two live classes a week, eight a
-  month. Each class is one hour.
-  Note: this course also needs the student to have their own Claude and ChatGPT
-  subscriptions, because the whole course is hands on with those tools. Say this
-  before enrolling anyone, so it is never a surprise later.
+  In India, per month:      one to one Rs 4,999
+  Outside India, per month: one to one $150
+  Classes: one to one in India one live class a week, four a month; one to one outside India
+  two live classes a week, eight a month. Each class is one hour.
+  Note: this course is taught one to one only. There is no group or mini batch option.
+  Note: the course length above is counted at two classes a week. In India the one to one plan
+  is one class a week, so if an Indian family asks how long it will take, hand over to Shivam
+  Sir.
 
 WHAT THIS COURSE IS
 
@@ -29268,14 +29270,14 @@ Time needed: 4-6 hours/week recommended
 Certificate: Certificate from Modern Age Coders, awarded on passing the final assessment
 
 PRICE FOR THIS COURSE (quote only the one that applies to the person asking)
-  In India, per month:      group Rs 1,499, mini batch Rs 2,999, one to one Rs 4,999
-  Outside India, per month: group $100, one to one $150
-  Classes: group and mini batch two live classes a week, eight a month; one to one in India one
-  live class a week, four a month; one to one outside India two live classes a week, eight a
-  month. Each class is one hour.
-  Note: this course also needs the student to have their own Claude and ChatGPT
-  subscriptions, because the whole course is hands on with those tools. Say this
-  before enrolling anyone, so it is never a surprise later.
+  In India, per month:      one to one Rs 4,999
+  Outside India, per month: one to one $150
+  Classes: one to one in India one live class a week, four a month; one to one outside India
+  two live classes a week, eight a month. Each class is one hour.
+  Note: this course is taught one to one only. There is no group or mini batch option.
+  Note: the course length above is counted at two classes a week. In India the one to one plan
+  is one class a week, so if an Indian family asks how long it will take, hand over to Shivam
+  Sir.
 
 WHAT THIS COURSE IS
 

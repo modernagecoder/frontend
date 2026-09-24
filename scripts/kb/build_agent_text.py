@@ -443,9 +443,12 @@ bullets([
     'Never describe the India one to one plan as two classes a week or eight a month.',
 ])
 out()
-out('  The AI coding agent courses (Codex and Claude Code, and the Microsoft Copilot Studio')
-out('  courses, which are one to one only):')
+out('  The two AI coding agent courses (Codex and Claude Code):')
 india_rows('agents')
+out()
+out('  The three AI Agents with Microsoft Copilot Studio courses (one to one only):')
+out('    %-14s %s a month, %s' % ('One to one:', rupee(PLANS['agents']['india']['personal']),
+                                 schedule('agents', 'india', 'personal')))
 out()
 out('  Build AI Agents with Google Gemini Enterprise (one to one only, its own fee):')
 india_rows('gemini')
@@ -559,6 +562,11 @@ for idx, (slug, m, d) in enumerate(courses, 1):
     url = '%s/courses/%s' % (SITE, slug)
     pk = plan_key(slug)
     ind, intl = PLANS[pk]['india'], PLANS[pk]['international']
+    # A course flagged one_on_one_only (the Copilot Studio trio) shares the agents
+    # price row but never sells group or mini batch, so only its 1-on-1 fee is listed.
+    if m.get('one_on_one_only') is True:
+        ind = {'personal': ind.get('personal')}
+        intl = {'personal': intl.get('personal')}
     ages = ', '.join(sorted(AGE_LABEL.get(a, a) for a in ATLAS_AGE.get(slug, [])))
 
     out()
@@ -602,7 +610,7 @@ for idx, (slug, m, d) in enumerate(courses, 1):
             para('Note: the course length above is counted at two classes a week. In India the one '
                  'to one plan is one class a week, so if an Indian family asks how long it will take, '
                  'hand over to Shivam Sir.', '  ')
-    if pk == 'agents':
+    if pk == 'agents' and 'codex' in slug:
         out('  Note: this course also needs the student to have their own Claude and ChatGPT')
         out('  subscriptions, because the whole course is hands on with those tools. Say this')
         out('  before enrolling anyone, so it is never a surprise later.')
