@@ -116,7 +116,7 @@ Juni is best known for coding. Modern Age Coders runs full coding and maths prog
 
 How many classes do we get each month?
 
-Every Modern Age Coders plan is 2 live classes a week, 8 a month, whether group or 1-on-1. Juni's standard plans are weekly sessions, 4 a month. Twice-weekly rhythm keeps project momentum, which matters a lot in coding.
+Outside India, every Modern Age Coders plan is 2 live classes a week, 8 a month, whether group or 1-on-1. Juni's standard plans are weekly sessions, 4 a month. Twice-weekly rhythm keeps project momentum, which matters a lot in coding.
 
 Can we try before paying?
 

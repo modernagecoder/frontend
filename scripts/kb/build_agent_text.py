@@ -52,6 +52,25 @@ def plan_key(slug):
 def rupee(n):
     return 'Rs ' + format(int(n), ',d')
 
+# How many classes a month each plan gives, straight from the pricing config, so
+# the agent never tells an Indian family that one to one is two classes a week.
+DISPLAY = cfg.get('display', {})
+def classes_per_month(subject, region, tier):
+    key = '%s.%s.%s' % (subject, region, tier)
+    return int(DISPLAY.get('classesPerMonthOverrides', {}).get(key, DISPLAY.get('classesPerMonth', 8)))
+
+def schedule(subject, region, tier):
+    n = classes_per_month(subject, region, tier)
+    wk = n // 4
+    return '%s live class%s a week, %s a month' % (
+        {1: 'one', 2: 'two', 3: 'three'}.get(wk, str(wk)), '' if wk == 1 else 'es',
+        {4: 'four', 8: 'eight', 12: 'twelve'}.get(n, str(n)))
+
+IN_1TO1 = schedule('coding', 'india', 'personal')           # one live class a week, four a month
+IN_GROUP = schedule('coding', 'india', 'group')             # two live classes a week, eight a month
+INTL_1TO1 = schedule('coding', 'international', 'personal')
+PER_CLASS_1TO1 = round(PLANS['coding']['india']['personal'] / classes_per_month('coding', 'india', 'personal'), -1)
+
 # ---------------------------------------------------------------- helpers
 def clean(v):
     if v is None:
@@ -154,6 +173,12 @@ def usable_faqs(faqs):
         answer = strip_prices(q.get('answer'))
         if len(answer) < 40:              # nothing meaningful left once money is out
             continue
+        # Course pages say "book a free demo"; the agent must still present it as
+        # the waiting list it is (RULE 3), so the answer carries that caveat.
+        if re.search(r'free\s+(demo|trial)', answer, re.I):
+            answer += (' (Agent note: the free demo is a waiting list with no fixed date. The '
+                       'Priority Live Demo is a guaranteed class today or tomorrow, booked at '
+                       '%s/priority-demo . Offer both, as RULE 3 says.)' % SITE)
         o.append((question, answer))
     return o
 
@@ -209,7 +234,9 @@ rule()
 out('MODERN AGE CODERS - COMPLETE KNOWLEDGE BASE FOR AI AND WHATSAPP AGENTS')
 rule()
 out()
-out('PLAIN TEXT EDITION. Version 2.0. Last updated 4 August 2026.')
+import datetime as _dt
+_today = _dt.date.today()
+out('PLAIN TEXT EDITION. Version 2.1. Last updated %d %s %d.' % (_today.day, _today.strftime('%B'), _today.year))
 out('Source of truth: generated directly from the live website codebase.')
 out('Website: ' + SITE)
 out()
@@ -350,12 +377,17 @@ rule()
 out()
 bullets([
     'Every class is live with a real teacher. Nothing is pre recorded.',
-    'Two classes a week, one hour each, which is eight classes a month.',
+    'Every class is one hour long.',
+    'Group class and mini batch: %s.' % IN_GROUP,
+    'One to one in India: %s, with a dedicated mentor. This is the %s plan.' % (IN_1TO1, rupee(PLANS['coding']['india']['personal'])),
+    'One to one outside India: %s.' % INTL_1TO1,
+    'Tell the person only the schedule for their own plan and region, exactly as with price.',
     'Every class is recorded, so a missed class can be watched later.',
     'Students need a computer (Windows, Mac or Chromebook) and steady internet.',
     'Most courses run inside the browser, so nothing needs installing.',
     'A webcam and microphone are recommended. For maths, a notebook and pen.',
     'Beginner courses usually run 3 to 6 months. Advanced ones run 6 to 9 months.',
+    'Course lengths on the course pages are counted at two classes a week. A one to one student in India has one class a week and moves at their own pace, so if they ask how long a course will take, ask Shivam Sir to estimate it.',
     'Students can join mid month. We either place them in a running batch or start a new one.',
     'Classes can be paused for exams or holidays with about a week of notice.',
 ])
@@ -370,7 +402,7 @@ out()
 out('WHAT EVERY PLAN INCLUDES')
 out()
 bullets([
-    'Two live classes every week, one hour each.',
+    'Live one hour classes every week, on the schedule of the plan chosen (see above).',
     'Recordings of every class.',
     'Doubt clearing support.',
     'Project based learning, real builds rather than theory.',
@@ -388,27 +420,46 @@ para('Read RULE 1 again before you quote anything. Give only the price for the p
 out()
 out('FOR A STUDENT IN INDIA, PER MONTH')
 out()
+def india_rows(subj):
+    for key, label in (('group', 'Group class:'), ('miniBatch', 'Mini batch:'), ('personal', 'One to one:')):
+        v = PLANS[subj]['india'].get(key)
+        if v is not None:
+            out('    %-14s %s a month, %s' % (label, rupee(v), schedule(subj, 'india', key)))
 out('  Coding, and every subject except mathematics:')
-out('    Group class:   %s' % rupee(PLANS['coding']['india']['group']))
-out('    Mini batch:    %s' % rupee(PLANS['coding']['india']['miniBatch']))
-out('    One to one:    %s' % rupee(PLANS['coding']['india']['personal']))
+india_rows('coding')
 out()
 out('  Mathematics:')
-out('    Group class:   %s' % rupee(PLANS['maths']['india']['group']))
-out('    Mini batch:    %s' % rupee(PLANS['maths']['india']['miniBatch']))
-out('    One to one:    %s' % rupee(PLANS['maths']['india']['personal']))
+india_rows('maths')
 out()
-out('  The two AI coding agent courses (Codex and Claude Code):')
-out('    Group class:   %s' % rupee(PLANS['agents']['india']['group']))
-out('    Mini batch:    %s' % rupee(PLANS['agents']['india']['miniBatch']))
-out('    One to one:    %s' % rupee(PLANS['agents']['india']['personal']))
+out('THE ONE TO ONE (PERSONALISED) PLAN IN INDIA, EXACTLY')
+out()
+bullets([
+    'Fee: %s per month.' % rupee(PLANS['coding']['india']['personal']),
+    'Schedule: %s. Each class is one hour, private, with a dedicated mentor.' % IN_1TO1,
+    'That works out to about %s per class.' % rupee(PER_CLASS_1TO1),
+    'The same fee and schedule apply to coding, mathematics and the AI coding agent courses.',
+    'The class day and time are fixed around the student, and the pace and topics are set for them alone.',
+    'It is billed monthly like every other plan. Cancel any month.',
+    'Never describe the India one to one plan as two classes a week or eight a month.',
+])
+out()
+out('  The AI coding agent courses (Codex and Claude Code, and the Microsoft Copilot Studio')
+out('  courses, which are one to one only):')
+india_rows('agents')
+out()
+out('  Build AI Agents with Google Gemini Enterprise (one to one only, its own fee):')
+india_rows('gemini')
 out()
 out('FOR A STUDENT OUTSIDE INDIA, PER MONTH')
 out()
-out('    Group class:   $%s' % PLANS['coding']['international']['group'])
-out('    One to one:    $%s' % PLANS['coding']['international']['personal'])
+out('    Group class:   $%s a month, %s' % (PLANS['coding']['international']['group'],
+                                            schedule('coding', 'international', 'group')))
+out('    One to one:    $%s a month, %s' % (PLANS['coding']['international']['personal'], INTL_1TO1))
 out()
 out('  This applies to every subject including mathematics and the AI agent courses.')
+out('  The one exception is Build AI Agents with Google Gemini Enterprise: one to one only,')
+out('    $%s a month, %s.' % (PLANS['gemini']['international']['personal'],
+                             schedule('gemini', 'international', 'personal')))
 out('  Mini batch is not offered outside India. If asked, simply offer group or one to one.')
 out('  We can also bill in EUR, GBP, CAD, AUD, SGD and AED. For those, hand over to Shivam Sir.')
 out()
@@ -433,8 +484,7 @@ bullets([
     'India pays in rupees. Everywhere else pays in US dollars.',
     'We accept UPI, bank transfer and card, through secure payment links only.',
     'Billing is monthly and recurring. Cancel any month.',
-    'Instalments are available on many courses. Confirm with Shivam Sir.',
-    'Discounts for paying quarterly or yearly, and sometimes for siblings. Confirm before promising.',
+    'Never promise a discount. If asked, say you will check any current offer with Shivam Sir.',
 ])
 out()
 out('FIGURES THAT ARE NO LONGER OUR PRICES. Never quote these.')
@@ -445,10 +495,11 @@ for subj in PLANS.values():
         for v in reg.values():
             if isinstance(v, (int, float)):
                 live.add(int(v))
-for old in (2499, 4999, 40, 149.99, 374.99):
+for old in (2499, 4999, 7500, 8500, 40, 149.99, 374.99):
     if int(old) not in live:
         out('  %s' % ('Rs ' + format(int(old), ',d') if old > 500 else '$' + str(old)))
 out('  Any lifetime plan or one time payment for a monthly course.')
+out('  Any claim that the India one to one plan is two classes a week or eight a month.')
 out()
 
 # ================================================================ COURSES
@@ -537,8 +588,20 @@ for idx, (slug, m, d) in enumerate(courses, 1):
         ind, [('group', 'group'), ('miniBatch', 'mini batch'), ('personal', 'one to one')], rupee))
     out('  Outside India, per month: %s' % plan_list(
         intl, [('group', 'group'), ('personal', 'one to one')], lambda n: '$%s' % n))
+    sched_parts = []
+    if ind.get('group') is not None or ind.get('miniBatch') is not None:
+        sched_parts.append('group and mini batch %s' % schedule(pk, 'india', 'group'))
+    if ind.get('personal') is not None:
+        sched_parts.append('one to one in India %s' % schedule(pk, 'india', 'personal'))
+    if intl.get('personal') is not None:
+        sched_parts.append('one to one outside India %s' % schedule(pk, 'international', 'personal'))
+    para('Classes: %s. Each class is one hour.' % '; '.join(sched_parts), '  ')
     if ind.get('group') is None and ind.get('miniBatch') is None:
         out('  Note: this course is taught one to one only. There is no group or mini batch option.')
+        if classes_per_month(pk, 'india', 'personal') < 8 and re.search(r'2 classes|two classes', clean(m.get('duration')), re.I):
+            para('Note: the course length above is counted at two classes a week. In India the one '
+                 'to one plan is one class a week, so if an Indian family asks how long it will take, '
+                 'hand over to Shivam Sir.', '  ')
     if pk == 'agents':
         out('  Note: this course also needs the student to have their own Claude and ChatGPT')
         out('  subscriptions, because the whole course is hands on with those tools. Say this')
@@ -676,8 +739,9 @@ for idx, (slug, m, d) in enumerate(courses, 1):
             para('A: %s' % answer, '  ')
             out()
 
-    out('  To enrol or to book a free demo for this course, message Shivam Sir on')
-    out('  +91 9123366161, or send the parent this link: %s' % url)
+    out('  To enrol, message Shivam Sir on +91 9123366161 or send the parent this link: %s' % url)
+    out('  For a demo: the Priority Live Demo (guaranteed, today or tomorrow) is booked at')
+    out('  %s/priority-demo . The free demo is a waiting list with no fixed date.' % SITE)
     out()
 
 # ================================================================ PART 7
@@ -784,8 +848,9 @@ out('IF SOMEONE ASKS "WHAT IF WE ARE NOT HAPPY?"')
 out()
 para('Say: "There is a 7 day money back guarantee. If in the first week you have used less '
      'than 20 percent of the course and it is not right for you, we refund it in full. And '
-     'before any of that, the demo class is free, so you see the teaching before you pay '
-     'anything at all."', '  ')
+     'before you pay for a month you can see a full live class, either through the Priority '
+     'Live Demo, whose fee is adjusted against your first month if you join, or through the free '
+     'demo waiting list."', '  ')
 out()
 
 # ================================================================ PART 9
@@ -818,7 +883,11 @@ out('THE PAGES PARENTS ASK FOR MOST')
 out()
 for label, path in [
         ('All courses', '/courses'), ('Prices', '/pricing'),
-        ('Book a free demo', '/book-demo'), ('Free trial class', '/free-trial'),
+        ('Priority Live Demo, guaranteed today or tomorrow', '/priority-demo'),
+        ('Book a demo', '/book-demo'), ('Free demo or priority demo, compared', '/free-demo-vs-priority-demo'),
+        ('What happens in a demo class', '/what-happens-in-a-demo-class'),
+        ('Small batches and one to one classes', '/small-batches-and-1-on-1-classes'),
+        ('Free trial class', '/free-trial'),
         ('Our zero risk promise', '/guarantee'), ('How we teach', '/how-we-teach'),
         ('About us', '/about'), ('Contact us', '/contact'),
         ('Reviews from families', '/love'), ('Student success stories', '/success-stories'),
@@ -886,7 +955,13 @@ GEN = [
   'browser so nothing needs installing. A webcam and microphone help, and for maths a notebook '
   'and pen.'),
  ('How many classes a week?',
-  'Two live classes a week, one hour each, which is eight classes a month.'),
+  'Every class is one hour and live. Group class and mini batch: %s. One to one: in India '
+  '%s; outside India %s. Give the person only the line for their own plan and region.'
+  % (IN_GROUP, IN_1TO1, INTL_1TO1)),
+ ('What do we get in one to one classes?',
+  'A dedicated mentor teaching only your child, in private live one hour classes. In India that '
+  'is %s. The day and time are fixed around the student, and the pace and topics are planned '
+  'for them alone. It is billed monthly and can be cancelled any month.' % IN_1TO1),
  ('How big are the batches?',
   'Group classes are capped at 10 students. A mini batch is just 3 to 4. One to one is a '
   'single student with their own mentor.'),
@@ -977,23 +1052,27 @@ out()
 out('WHEN THEY ASK THE PRICE. Give only their own region, never both.')
 out()
 out('  If they are in India:')
-para('"Our classes are %s a month for a group class, %s for a mini batch of just 3 to 4 '
-     'students, and %s a month for fully one to one. That includes two live one hour classes '
-     'every week, recordings, doubt support and a certificate. The first class is free, would '
-     'you like me to book it?"'
+para('"Our classes are %s a month for a group class of up to 10, or %s for a mini batch of just '
+     '3 to 4 students, both with %s. Fully one to one is %s a month, which is %s with a mentor '
+     'who teaches only your child. Every plan includes recordings, doubt support and a '
+     'certificate. To see the teaching first, the Priority Live Demo is a full class today or '
+     'tomorrow for 499 rupees, adjusted against your first month if you join, or you can join '
+     'the free demo waiting list. Which would you prefer?"'
      % (rupee(PLANS['coding']['india']['group']),
-        rupee(PLANS['coding']['india']['miniBatch']),
-        rupee(PLANS['coding']['india']['personal'])), '    ')
+        rupee(PLANS['coding']['india']['miniBatch']), IN_GROUP,
+        rupee(PLANS['coding']['india']['personal']), IN_1TO1), '    ')
 out()
 out('  If they are outside India:')
-para('"Our classes are $%s a month for a group class and $%s a month for fully one to one. '
-     'That includes two live one hour classes every week, recordings, doubt support and a '
-     'certificate. The first class is free, would you like me to book it?"'
+para('"Our classes are $%s a month for a group class and $%s a month for fully one to one, '
+     'both with two live one hour classes every week, and every plan includes recordings, doubt '
+     'support and a certificate. To see the teaching first, the Priority Live Demo is a full '
+     'class today or tomorrow for 10 US dollars, adjusted against your first month if you join, '
+     'or you can join the free demo waiting list. Which would you prefer?"'
      % (PLANS['coding']['international']['group'],
         PLANS['coding']['international']['personal']), '    ')
 out()
-out('  For maths in India the one to one rate is %s a month. Everything else is the same.'
-    % rupee(PLANS['maths']['india']['personal']))
+out('  Maths and the AI coding agent courses are priced and scheduled the same way. Build AI')
+out('  Agents with Google Gemini Enterprise has its own one to one fee, shown in its course block.')
 out()
 out('WHEN THEY ASK ABOUT TIMINGS')
 out()
@@ -1004,10 +1083,11 @@ para('"We run batches on weekday evenings and on weekend mornings and afternoons
 out()
 out('WHEN THEY ASK "IS IT WORTH IT?"')
 out()
-para('"The honest answer is to try the free class. No card, no commitment, one real lesson '
-     'with an actual teacher. You will know within the hour whether it suits your child, and '
-     'the teacher will tell you honestly where they should start. Shall I book it? I just need '
-     'the student\'s name, age and your WhatsApp number."', '  ')
+para('"The honest answer is to see one real class. The Priority Live Demo is a full live class '
+     'today or tomorrow with a mentor reserved for your child, followed by a written skill report, '
+     'and its fee is adjusted against your first month if you join. If you would rather not pay '
+     'anything yet, you can join the free demo waiting list, but we cannot promise a date for '
+     'that. Which would suit you?"', '  ')
 out()
 out('WHEN THEY ASK FOR A DISCOUNT')
 out()
@@ -1017,16 +1097,18 @@ para('"Let me check the current offers with Shivam Sir. There are discounts for 
 out()
 out('WHEN THE COST WORRIES THEM')
 out()
-para('"I understand. Two things may help. The demo class is completely free and needs no card, '
-     'so you can see the teaching before spending anything. And there is no lock in, no '
-     'registration fee and no long package. You can stop any month. Would you like to try the '
-     'free class first?"', '  ')
+para('"I understand. Two things may help. There is no lock in, no registration fee and no long '
+     'package, so you pay one month at a time and can stop any month. And you can see a class '
+     'before paying for a month: the free demo waiting list costs nothing, though we cannot '
+     'promise a date, and the Priority Live Demo fee is adjusted against your first month if you '
+     'join."', '  ')
 out()
 out('CLOSING THE CONVERSATION')
 out()
-para('"Shall I book your free class? I just need three things: the student\'s name and age, '
-     'whether you want coding or maths, and your WhatsApp number with country code. Once I '
-     'have those, Shivam Sir will confirm the time."', '  ')
+para('"The fastest way to start is the Priority Live Demo, which you can book here: '
+     'https://learn.modernagecoders.com/priority-demo . If you would rather join the free demo '
+     'waiting list, I just need three things: the student\'s name and age, whether you want '
+     'coding or maths, and your WhatsApp number with country code."', '  ')
 out()
 out('WHEN YOU DO NOT KNOW THE ANSWER')
 out()

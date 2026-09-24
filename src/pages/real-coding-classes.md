@@ -476,7 +476,7 @@ Just you and the mentor
 
 ₹4,999 / month$150 USD / month
 
-- 2 private sessions every week
+- 1 private session a week, 4 a month (India); 2 private sessions every week (outside India)
 - Curriculum bent around your goals
 - Fastest route to real depth
 - Flexible scheduling, any time zone

@@ -1012,65 +1012,68 @@ ESCALATE TO SHIVAM SIR FOR:
 - **January 2026.** Terms of Service last reviewed.
 - **2020.** Modern Age Coders founded by Shivam Khemka.
 
-## APPENDIX A: EVERY COURSE PAGE (118 live courses)
+## APPENDIX A: EVERY COURSE PAGE (122 live courses)
 
 All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Every URL below was checked against the sitemap and the routing table on 4 August 2026.
 
 
-### A.1 Coding, AI and technology courses (90)
+### A.1 Coding, AI and technology courses (94)
 
 | Course | URL path | Who it is for |
 |---|---|---|
 | Advanced Git & GitHub Masterclass for Professionals | `/courses/git-github-advanced-version-control-masterclass-for-professionals` | College |
-| AI & Machine Learning for Teens: Zero to AI Expert | `/courses/ai-ml-masterclass-teens` | Teens |
-| AI & Machine Learning Masterclass: Zero to AI Expert | `/courses/ai-ml-masterclass-complete-college` | College |
 | AI Agents with Microsoft Copilot Studio for College Students | `/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students` | College |
 | AI Agents with Microsoft Copilot Studio for Teens | `/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens` | Teens |
+| AI and Machine Learning for Teens: Python to Real Models | `/courses/ai-ml-masterclass-teens` | Teens |
+| AI and ML Masterclass: Python, Deep Learning and GenAI | `/courses/ai-ml-masterclass-complete-college` | College |
 | AI Literacy for Kids (Ages 8 to 14): Understand AI, Do Not Just Use It | `/courses/ai-literacy-for-kids-course` | Kids |
-| AI Tools for Teens (13+): Prompting, Creative Projects & Safe AI Use | `/courses/teens-ai-tools-mastery-course` | Teens |
-| AI Tools Mastery: ChatGPT to Production AI Automation | `/courses/ai-tools-mastery-complete-college` | College |
-| Algorithmic Trading & Stock Market Automation Masterclass | `/courses/algorithmic-trading-automation-masterclass` | College |
-| Algorithmic Trading Masterclass: Zero to Automated Systems | `/courses/algorithmic-trading-masterclass-complete` | College |
-| Alpha Girls: Elite Tech Mastery & Leadership for Women | `/courses/alpha-girls-elite-tech-mastery` | Girls only |
+| AI Tools Course for Teens (13+): Prompting to Real Projects | `/courses/teens-ai-tools-mastery-course` | Teens |
+| AI Tools Mastery Course: ChatGPT, Claude & Automation | `/courses/ai-tools-mastery-complete-college` | College |
+| Algorithmic Trading Course: Strategy, Quant & ML | `/courses/algorithmic-trading-masterclass-complete` | College |
+| Alpha Girls: Systems at Scale for Senior Women Engineers | `/courses/alpha-girls-elite-tech-mastery` | Girls only |
 | AP Computer Science A: Java Programming and Full Exam Prep | `/courses/ap-computer-science-a-java-exam-prep-course` | Teens |
 | AP Computer Science Principles: Create Task and Exam Prep | `/courses/ap-computer-science-principles-exam-prep-course` | Teens |
-| App Development Course: Build Mobile & Web Apps From Zero | `/courses/complete-app-development-masterclass-college` | College |
-| Artificial Intelligence Course: Classical AI to AGI | `/courses/artificial-intelligence-complete-masterclass-college` | College |
-| Backend Development for Teens: APIs, Databases & Cloud | `/courses/backend-coding-masterclass-for-teens` | Teens |
-| Block-Based App Development: Build Apps With No Code | `/courses/block-coding-app-development-masterclass` | Kids |
+| App Development Course: Flutter, iOS & Android | `/courses/complete-app-development-masterclass-college` | College |
+| App Development for Teens: Build Real Apps with React Native | `/courses/complete-app-development-masterclass-for-teens` | Teens |
+| App Making for Kids: Build Real Apps with Blocks | `/courses/block-coding-app-development-masterclass` | Kids |
+| Artificial Intelligence Course: Search, Logic & Agents | `/courses/artificial-intelligence-complete-masterclass-college` | College |
+| Backend Development for Teens: Node, APIs and Databases | `/courses/backend-coding-masterclass-for-teens` | Teens |
+| Build AI Agents with Google Gemini Enterprise | `/courses/build-ai-agents-with-google-gemini-enterprise-course` | College |
 | C Programming for Beginners: Pointers, Memory & Structs | `/courses/c-programming-course-for-college-beginners` | College |
-| C++ Course for Teens Online: Games & Competitive Coding | `/courses/cpp-programming-masterclass-for-teens` | Teens |
-| C++ Programming Masterclass: Zero to System Programmer | `/courses/cpp-programming-complete-masterclass-college` | College |
-| Canva & AI Design Course: Zero to Professional Designer | `/courses/canva-ai-design-masterclass` | Kids |
+| C++ for Teens: Fundamentals, STL, DSA and Real Games | `/courses/cpp-programming-masterclass-for-teens` | Teens |
+| C++ Masterclass: Fundamentals to Modern C++ and Systems | `/courses/cpp-programming-complete-masterclass-college` | College |
+| Cambridge AS and A Level Computer Science 9618 Course | `/courses/cambridge-a-level-computer-science-9618-course` | Teens |
+| Canva and AI Design Course (13+): Real Graphic Design Skills | `/courses/canva-ai-design-masterclass` | Kids |
 | CBSE Computational Thinking & AI for Kids (Class 3-8) | `/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8` | Kids |
 | CBSE Computational Thinking & AI for Teens (Class 9-12) | `/courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843` | Teens |
 | Codex & Claude Code for Teens: AI Coding Agents Course | `/courses/codex-and-claude-code-ai-coding-agents-course-for-teens` | Teens |
 | Codex & Claude Code: AI Coding Agents for Professionals | `/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals` | College |
-| Competitive Programming Course Online: Crack Codeforces | `/courses/competitive-programming-masterclass-college` | College |
+| Coding for Kids: Scratch to Games, Apps and AI | `/courses/kids-coding-blocks-masterclass` | Kids |
+| Competitive Programming Course: Codeforces to ICPC | `/courses/competitive-programming-masterclass-college` | College |
 | Competitive Programming for Teens: ZCO, INOI and USACO Track | `/courses/competitive-programming-for-teens-course` | Teens |
 | Computer Science Class 11-12: CBSE Python & ICSE/ISC Java | `/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course` | Teens |
 | Copilot Studio Agent Masterclass for Professionals | `/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals` | College |
-| Creative Coding & Animation: Content Creator Course | `/courses/creative-coding-animation-mastery` | Kids |
-| Creative Media & Design for Teens: Photo, Video & Editing | `/courses/creative-media-design-masterclass-teens` | Teens |
+| Creative Coding and Animation: Video, Motion and p5.js | `/courses/creative-coding-animation-mastery` | Kids |
+| Creative Media for Teens: Photo, Video and Design | `/courses/creative-media-design-masterclass-teens` | Teens |
 | Cybersecurity for Teens: Online Safety & White-Hat Defense | `/courses/cybersecurity-course-for-teens-ethical-defensive` | Teens |
-| Data Analysis Course: From Excel to Machine Learning | `/courses/data-analysis-mastery-course-college` | College |
+| Data Analysis Course: Excel, SQL, Python & BI | `/courses/data-analysis-mastery-course-college` | College |
 | Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) | `/courses/data-and-ai-analytics-for-non-programmers-course` | Professionals |
-| Data Science Course: Zero to Job-Ready Data Scientist | `/courses/data-science-complete-masterclass-college` | College |
+| Data Science Course: Python, ML & Deep Learning | `/courses/data-science-complete-masterclass-college` | College |
 | Data Science for Teens: Python & Your First ML Models | `/courses/data-science-course-for-teens-python-data` | Teens |
 | Data Structures & Algorithms Course: Interview-Ready DSA | `/courses/data-structures-algorithms-masterclass-college` | College |
-| DSA & Problem Solving for Teens: Algorithms to Interviews | `/courses/problem-solving-dsa-masterclass-teens` | Teens |
-| Ethical Hacking & Cybersecurity: Zero to Pentester | `/courses/ethical-hacking-masterclass-complete` | College |
-| Flutter App Development Course: Zero to Pro Developer | `/courses/complete-flutter-app-development-masterclass-college` | College |
-| Frontend Development Course for Teens: HTML, CSS, React | `/courses/frontend-development-masterclass-for-teens` | Teens |
-| Full Stack Web Development for Teens: React & Node.js | `/courses/full-stack-web-development-teens-masterclass` | Teens |
-| Full Stack Web Development: Frontend, Backend & DevOps | `/courses/full-stack-web-development-masterclass-college` | College |
-| Game Development Course: Unity, Unreal & C++, Zero to Pro | `/courses/game-development-complete-masterclass-college` | College |
-| Game Development for Kids: Scratch, Roblox & Minecraft | `/courses/game-development-masterclass-for-kids` | Kids |
-| Game Development for Teens: Unity, Unreal & Real Games | `/courses/complete-game-development-masterclass-for-teens` | Teens |
-| Generative AI Course: LLMs, RAG & AI Agents, Zero to Pro | `/courses/complete-generative-ai-masterclass-college` | College |
+| Ethical Hacking Course: Authorized Pentesting, Zero to Pro | `/courses/ethical-hacking-masterclass-complete` | College |
+| Flutter Course: Dart to Real Cross-Platform Apps | `/courses/complete-flutter-app-development-masterclass-college` | College |
+| Frontend Development for Teens: CSS Craft to React UI | `/courses/frontend-development-masterclass-for-teens` | Teens |
+| Full Stack Developer Course: React, Node.js and DevOps Basics | `/courses/full-stack-web-development-masterclass-college` | College |
+| Full Stack Web Development for Teens: React and Node.js | `/courses/full-stack-web-development-teens-masterclass` | Teens |
+| Game Development Course: Unity, C# & Unreal Engine | `/courses/game-development-complete-masterclass-college` | College |
+| Game Development for Kids: Scratch, Roblox and Minecraft | `/courses/game-development-masterclass-for-kids` | Kids |
+| Game Development for Teens: Unity, C# and Real Shipped Games | `/courses/complete-game-development-masterclass-for-teens` | Teens |
+| GCSE Computer Science: AQA, OCR and Edexcel Exam Prep | `/courses/gcse-computer-science-course` | Teens |
+| Generative AI Course: LLMs, RAG and AI Agents | `/courses/complete-generative-ai-masterclass-college` | College |
 | Git & GitHub Course for College Students: Team-Ready Skills | `/courses/git-github-version-control-course-for-college-students` | College |
 | Git & GitHub Course for Teens: Version Control from Zero | `/courses/git-github-version-control-course-for-teens` | Teens |
-| Go (Golang) Programming: Concurrency, gRPC & Microservices | `/courses/complete-golang-programming-masterclass-college` | College |
+| Go Course: Backend Services from Zero to Production Habits | `/courses/complete-golang-programming-masterclass-college` | College |
 | Hackathon for Adults: Free Event + 12-Week Pro Prep (18+) | `/courses/hackathon-prep-for-adults-professionals-coding-ai-innovation-course` | Professionals |
 | Hackathon for Kids: Free Event + 12-Week Prep (Ages 8-12) | `/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course` | Kids |
 | Hackathon for Teens: Free Event + 12-Week Prep (Ages 13-17) | `/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course` | Teens |
@@ -1079,38 +1082,39 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | ICSE Computer Applications (Class 9-10): Java with BlueJ | `/courses/icse-computer-applications-java-bluej-course` | Teens |
 | IGCSE Computer Science (0478): Full Syllabus and Exam Prep | `/courses/igcse-computer-science-0478-course` | Teens |
 | Informatics Practices (IP) Class 11-12: CBSE Python & SQL | `/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course` | Teens |
-| Java Programming for Teens: Zero to Professional Developer | `/courses/java-programming-masterclass-for-teens` | Teens |
-| Java Programming: Core Java, Spring Boot & Microservices | `/courses/complete-java-programming-masterclass-college` | College |
+| Java Course for College: Core Java to Spring Boot | `/courses/complete-java-programming-masterclass-college` | College |
+| Java for Teens: Complete Course from Beginner to Advanced | `/courses/java-programming-masterclass-for-teens` | Teens |
 | JavaScript for Teens: Interactive Websites & Browser Games | `/courses/javascript-course-for-teens-beginners-interactive-web` | Teens |
-| Kids Coding Masterclass: Scratch, Games, Apps & AI Projects | `/courses/kids-coding-blocks-masterclass` | Kids |
-| Kotlin Programming: Zero to Android & Backend Developer | `/courses/complete-kotlin-programming-masterclass-professional` | College |
-| MERN Stack Course Online: Job-Ready Full-Stack Bootcamp | `/courses/mern-stack-development-masterclass-college` | College |
-| Microsoft Office & Windows for Kids: Digital Skills Course | `/courses/microsoft-office-kids-mastery` | Kids |
+| Kotlin and Android Course: Zero to Published-Ready Apps | `/courses/complete-kotlin-programming-masterclass-professional` | College |
+| MERN Stack Course: MongoDB, Express, React and Node | `/courses/mern-stack-development-masterclass-college` | College |
+| Microsoft Office for Kids: Word, PowerPoint and Excel | `/courses/microsoft-office-kids-mastery` | Kids |
 | Minecraft Coding for Kids: From Blocks to Real Code | `/courses/minecraft-coding-for-kids-course` | Kids |
-| Mobile App Development for Teens: Publish to App Stores | `/courses/complete-app-development-masterclass-for-teens` | Teens |
-| MySQL Database Masterclass: SQL, Design & Administration | `/courses/mysql-database-complete-masterclass-college` | College |
-| MySQL for Teens: SQL Queries, Database Design & Security | `/courses/mysql-mastery-for-teens` | Teens |
+| MySQL Course: SQL, Database Design and Real Administration | `/courses/mysql-database-complete-masterclass-college` | College |
+| MySQL for Teens: SQL from First Query to Real Apps | `/courses/mysql-mastery-for-teens` | Teens |
 | Orange Data Mining Course for College Students: Machine Learning and Analytics | `/courses/orange-data-mining-machine-learning-course-for-college-students` | College |
 | Orange Data Mining Course for Teens: Machine Learning Without Code | `/courses/orange-data-mining-visual-machine-learning-course-for-teens` | Teens |
 | PCAP Certification Prep: Certified Associate in Python Programming | `/courses/pcap-python-certification-prep-course` | Professionals |
-| Princess Coders: Complete Coding Course for Girls & Women | `/courses/princess-coders-complete-coding-masterclass` | Girls only |
-| Problem-Solving & Computational Thinking Course for Kids | `/courses/problem-solving-and-computational-thinking-for-kids` | Kids |
-| Python & AI Automation: Machine Learning, NLP & Scripting | `/courses/python-ai-automation-masterclass-college` | College |
-| Python & AI for Kids: Coding, Games, Robotics & AI Projects | `/courses/python-ai-kids-masterclass` | Kids |
-| Python Programming for Teens: Zero to Advanced in 2 Years | `/courses/python-complete-masterclass-teens` | Teens |
-| Python Programming Masterclass: Zero to Advanced Pro | `/courses/python-programming-masterclass-zero-to-advanced-college` | College |
+| PCEP and PCAP Python Certification Course | `/courses/pcep-pcap-python-certification-course` | College |
+| Princess Coders: Coding Course for Girls and Women | `/courses/princess-coders-complete-coding-masterclass` | Girls only |
+| Problem Solving and Computational Thinking for Kids | `/courses/problem-solving-and-computational-thinking-for-kids` | Kids |
+| Problem Solving for Teens: Logic, Data Structures & Algorithms | `/courses/problem-solving-dsa-masterclass-teens` | Teens |
+| Python and AI for Kids: Games, Turtle Art and Smart Projects | `/courses/python-ai-kids-masterclass` | Kids |
+| Python Automation Course: Scripting, Scraping & Applied AI | `/courses/python-ai-automation-masterclass-college` | College |
+| Python for Teens: Complete Course from Beginner to Advanced | `/courses/python-complete-masterclass-teens` | Teens |
+| Python Masterclass: Zero to Advanced, Live Online | `/courses/python-programming-masterclass-zero-to-advanced-college` | College |
 | Python Web Development with Django and Flask Course | `/courses/python-web-development-django-flask-course` | College |
-| Queen Coders: 1-Year Advanced Tech Leadership for Women | `/courses/queen-coders-advanced-tech-leadership` | Girls only |
-| React for Teens: Build Real Apps, Zero to Pro Developer | `/courses/react-for-teens-complete-masterclass` | Teens |
-| React.js Masterclass: Zero to Senior Frontend Developer | `/courses/react-js-complete-masterclass-college` | College |
+| Queen Coders: Advanced Engineering for Women Developers | `/courses/queen-coders-advanced-tech-leadership` | Girls only |
+| React Course for Teens: JavaScript to Real React Apps | `/courses/react-for-teens-complete-masterclass` | Teens |
+| React Masterclass: JavaScript to Production React | `/courses/react-js-complete-masterclass-college` | College |
 | Roblox Game Coding for Kids: Build Real Games in Luau | `/courses/roblox-game-coding-for-kids-lua-course` | Kids |
-| Scratch Programming for Kids: 3-Month Course, 50+ Projects | `/courses/scratch-programming-complete-course` | Kids |
-| Swift Programming Masterclass: Zero to iOS & macOS Pro | `/courses/complete-swift-programming-masterclass-college` | College |
-| TypeScript Programming: Zero to Enterprise Developer | `/courses/complete-typescript-programming-masterclass-college` | College |
+| Scratch Coding for Kids: Zero to Real Games in 3 Months | `/courses/scratch-programming-complete-course` | Kids |
+| Swift and iOS Course: SwiftUI Apps from Zero | `/courses/complete-swift-programming-masterclass-college` | College |
+| Trading Automation Course: Bots, Backtesting & Systems | `/courses/algorithmic-trading-automation-masterclass` | College |
+| TypeScript Course: Typed JavaScript, React and Node | `/courses/complete-typescript-programming-masterclass-college` | College |
 | Vibe Coding for College: Full Stack, AI & DSA (Ages 18+) | `/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course` | College |
 | Vibe Coding for Kids: AI, Scratch & Game Dev (Ages 8-12) | `/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev` | Kids |
 | Vibe Coding for Teens: Python, Web Dev & AI (Ages 13-17) | `/courses/vibe-coding-for-teens-python-web-ai-projects-course` | Teens |
-| Web Development for Kids: Build Websites with HTML, CSS & AI | `/courses/kids-ai-web-development-course` | Kids |
+| Web Development for Kids: Build Real Websites | `/courses/kids-ai-web-development-course` | Kids |
 
 ### A.2 Mathematics courses (28)
 
@@ -1125,16 +1129,16 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | AP Statistics: Exam Prep with the Investigative Task | `/courses/ap-statistics-maths-exam-prep-course` | High school |
 | Business & Finance Mathematics: Investment to Risk | `/courses/complete-business-finance-mathematics-mastery` | Professionals |
 | CBSE Class 10 Maths Board Prep: Case Studies & Mocks | `/courses/cbse-class-10-maths-board-exam-prep-course` | High school |
-| College Mathematics: Calculus to Real Analysis & Beyond | `/courses/college-mathematics-complete-masterclass` | College, Girls only |
-| Complete Data & Analytics Mathematics Masterclass - Statistics to Machine Learning | `/courses/data-analytics-mathematics-masterclass` | Professionals |
+| College Maths Course: Calculus, Linear Algebra to Analysis | `/courses/college-mathematics-complete-masterclass` | College, Girls only |
 | Early Math Foundations: Playful, Concrete Math (Ages 4-7) | `/courses/early-math-foundations` | Elementary |
-| Elementary Mathematics for Grade 1-5: Numbers to Geometry | `/courses/elementary-mathematics-complete-masterclass` | Elementary, Girls only |
+| Elementary Maths for Grades 1-5: Live Online Classes | `/courses/elementary-mathematics-complete-masterclass` | Elementary, Girls only |
 | GCSE Maths: Foundation & Higher (9-1), AQA, Edexcel, OCR | `/courses/gcse-mathematics-mastery` | High school |
 | GRE & GMAT Quantitative Prep: Live Maths Coaching | `/courses/gre-gmat-quant-maths-prep-course` | Professionals |
 | High School Mathematics: Algebra to Calculus (Grade 9-12) | `/courses/complete-high-school-mathematics-mastery` | Girls only, High school |
 | IB Maths AA & AI: SL & HL, Live Online with IA Coaching | `/courses/ib-mathematics-aa-ai-masterclass` | High school |
 | IGCSE Maths: Core, Extended & Additional Mathematics Online | `/courses/igcse-mathematics-mastery` | High school |
 | JEE Foundation Maths Class 8-10: Proofs & Problem Solving | `/courses/jee-foundation-maths-course-class-8-10` | High school |
+| Maths for Data Science: Statistics, Linear Algebra and ML | `/courses/data-analytics-mathematics-masterclass` | Professionals |
 | Maths Olympiad & Competition Course: AMC, AIME to IMO | `/courses/olympiad-competition-mathematics-mastery` | Elementary, Girls only, High school, Middle school |
 | Maths Through Coding: Learn Math in Python (Ages 10-15) | `/courses/maths-through-coding` | Middle school |
 | Mental Maths for Kids: Number Sense, Not Tricks (Ages 5-10) | `/courses/mental-maths-mastery-kids` | Elementary |
@@ -1147,7 +1151,7 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 
 ---
 
-## APPENDIX B: COMPLETE SITE URL INDEX (830 live URLs)
+## APPENDIX B: COMPLETE SITE URL INDEX (1458 live URLs)
 
 Every URL below is present in a sitemap **and** resolves through the routing table. Redirect-only URLs are excluded. The site-wide link check passed with 0 broken internal links across 53,903 link instances on 4 August 2026. Prefix any path with `https://learn.modernagecoders.com`.
 
@@ -1156,29 +1160,29 @@ Every URL below is present in a sitemap **and** resolves through the routing tab
 
 | URL path | Page title |
 |---|---|
-| `/` | Modern Age Coders - Online Coding & Maths Classes for All Ages |
+| `/` | Online Coding & Maths Classes, Ages 6-67 |
 | `/about` | About Modern Age Coders |
 | `/aeo-geo-optimization-services` | AEO & GEO Services |
 | `/ai-tools-age-guide` | AI Tool Age Limits: What Your Child Can Actually Use |
 | `/aura` | Aura Type - Master Your Typing Flow |
-| `/beat-the-babu` | Beat The Babu - The Fastest 90-Second Math Challenge Game |
+| `/beat-the-babu` | Beat The Babu: The Fastest 90-Second Math Challenge Game |
 | `/blog` | Blog index |
 | `/book-demo` | Book a Free Coding Demo Class |
 | `/cancellation` | Cancellation Policy |
 | `/coding-challenges` | Competitive Programming Practice: Daily Coding Challenges |
-| `/coding-fee-calculator` | Coding Class Fee Calculator - Instant Transparent Pricing for India & Global |
+| `/coding-fee-calculator` | Coding Class Fee Calculator: Instant Transparent Pricing for India & Global |
 | `/coding-roadmap` | How to Start Coding: Which Language First & The Full Roadmap (Ages 6-67) |
 | `/contact` | Contact Us |
-| `/course-atlas` | The Course Atlas - Every Coding, AI & Mathematics Course (Kids, Teens, College, Profess... |
+| `/course-atlas` | The Course Atlas: Every Coding, AI & Mathematics Course (Kids, Teens, College, Professi... |
 | `/courses` | Learn Coding & Math Online |
 | `/custom-software-development-services` | Custom Software Development Company |
-| `/faq` | FAQ |
+| `/faq` | FAQ: Online Coding and Maths Classes, Demos and Fees |
 | `/for-business` | Software Development Company for Business |
 | `/free-coding-starter-kit` | Free Coding Starter Kit |
 | `/free-resources` | Free Programming Resources |
 | `/free-trial` | Free Trial Class |
 | `/guarantee` | Our Zero-Risk Promise |
-| `/how-we-teach` | How We Teach - Watch Our Free Coding & Maths Demo Library |
+| `/how-we-teach` | How We Teach: Watch Our Free Coding & Maths Demo Library |
 | `/love` |  |
 | `/maths-challenges` | Daily Maths Challenge |
 | `/mistakes-students-make` | 11 Common Coding & Maths Mistakes Students Make |
@@ -1188,11 +1192,11 @@ Every URL below is present in a sitemap **and** resolves through the routing tab
 | `/refund` | Refund Policy |
 | `/schools` | Coding & Maths Classes for School Students |
 | `/seo-services` | SEO Services |
-| `/student-labs` | Student Labs - Real, Live Coding Projects Built by Kids, Teens & Students |
+| `/student-labs` | Student Labs: Real, Live Coding Projects Built by Kids, Teens & Students |
 | `/success-stories` | Success Stories |
 | `/terms` | Terms of Service |
 
-### B.2 Course detail pages (118)
+### B.2 Course detail pages (122)
 
 Listed with titles in Appendix A.
 
@@ -1219,7 +1223,9 @@ Listed with titles in Appendix A.
 /courses/artificial-intelligence-complete-masterclass-college
 /courses/backend-coding-masterclass-for-teens
 /courses/block-coding-app-development-masterclass
+/courses/build-ai-agents-with-google-gemini-enterprise-course
 /courses/c-programming-course-for-college-beginners
+/courses/cambridge-a-level-computer-science-9618-course
 /courses/canva-ai-design-masterclass
 /courses/cbse-class-10-maths-board-exam-prep-course
 /courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8
@@ -1263,6 +1269,7 @@ Listed with titles in Appendix A.
 /courses/full-stack-web-development-teens-masterclass
 /courses/game-development-complete-masterclass-college
 /courses/game-development-masterclass-for-kids
+/courses/gcse-computer-science-course
 /courses/gcse-mathematics-mastery
 /courses/git-github-advanced-version-control-masterclass-for-professionals
 /courses/git-github-version-control-course-for-college-students
@@ -1294,6 +1301,7 @@ Listed with titles in Appendix A.
 /courses/orange-data-mining-machine-learning-course-for-college-students
 /courses/orange-data-mining-visual-machine-learning-course-for-teens
 /courses/pcap-python-certification-prep-course
+/courses/pcep-pcap-python-certification-course
 /courses/princess-coders-complete-coding-masterclass
 /courses/problem-solving-and-computational-thinking-for-kids
 /courses/problem-solving-dsa-masterclass-teens
@@ -1317,7 +1325,7 @@ Listed with titles in Appendix A.
 /courses/vibe-coding-for-teens-python-web-ai-projects-course
 ```
 
-### B.3 Blog posts (116)
+### B.3 Blog posts (126)
 
 Listed with titles in Appendix C.
 
@@ -1330,6 +1338,7 @@ Listed with titles in Appendix C.
 /blog/agentic-terminology-in-ai
 /blog/ai-automation-transforming-small-medium-businesses
 /blog/ap-computer-science-a-changes-2026
+/blog/ap-csp-vs-ap-csa-which-to-take-first
 /blog/app-idea-to-app-store-60-days-teen-developer-roadmap
 /blog/armstrong-number-python-complete-guide-examples-code
 /blog/best-ai-coding-tools-for-students-2026
@@ -1339,6 +1348,8 @@ Listed with titles in Appendix C.
 /blog/best-free-platforms-for-vibe-coding
 /blog/best-java-ides-for-beginners
 /blog/best-programming-languages-college-students-2026
+/blog/cambridge-9618-paper-4-python-java-or-visual-basic
+/blog/canadian-computing-competition-junior-or-senior
 /blog/career-transition-guide-moving-non-tech-to-tech-roles
 /blog/cbse-icse-gap-what-schools-not-teaching-about-tech
 /blog/cbse-maths-tuition-online
@@ -1375,15 +1386,20 @@ Listed with titles in Appendix C.
 /blog/how-to-build-menu-driven-program-in-python
 /blog/how-to-choose-a-coding-class-for-your-child
 /blog/how-to-find-hcf-and-lcm-in-python
+/blog/how-to-get-a-5-in-ap-computer-science-a
 /blog/how-to-get-better-at-maths
 /blog/how-to-make-maths-fun-for-kids
 /blog/how-to-read-and-write-files-in-python
 /blog/how-to-reverse-a-string-in-python
+/blog/how-to-revise-gcse-computer-science
 /blog/how-to-teach-kids-ai-at-home
 /blog/how-to-write-a-leap-year-program-in-python
 /blog/html-css-javascript-project-ideas
+/blog/ib-computer-science-ia-client-rule-2027
 /blog/icse-class-10-computer-applications-revision
+/blog/igcse-computer-science-0478-pseudocode-guide
 /blog/igcse-computer-science-explained-for-parents
+/blog/ioi-syllabus-what-to-learn-and-what-to-skip
 /blog/is-coding-good-for-kids
 /blog/is-coding-worth-learning-2026
 /blog/is-vedic-maths-actually-useful
@@ -1399,6 +1415,7 @@ Listed with titles in Appendix C.
 /blog/modern-age-coders-certificate-earned-not-given
 /blog/outsourcing-software-development-vs-hiring-inhouse-developers
 /blog/parents-guide-starting-coding-education-home
+/blog/pcep-vs-pcap-which-python-certification
 /blog/project-based-learning-why-theory-alone-not-enough-coding
 /blog/python-basic-programs-for-beginners
 /blog/python-dictionary-complete-guide
@@ -1422,6 +1439,7 @@ Listed with titles in Appendix C.
 /blog/top-coding-games-platforms-make-learning-fun-kids
 /blog/top-emerging-tech-skills-learn-2025-ai-low-code-cloud
 /blog/uae-ai-curriculum-schools-what-it-means
+/blog/usaco-bronze-to-silver-what-blocks-most-students
 /blog/vibe-coding-vs-learning-to-code-properly
 /blog/what-is-ai-complete-beginners-guide-how-to-start
 /blog/what-is-blockly-for-kids
@@ -1450,62 +1468,118 @@ Listed with titles in Appendix C.
 | `/blog/topic/maths` | Maths Learning Guides |
 | `/blog/topic/python` | Python Tutorials & Guides |
 
-### B.6 Indian city pages (131)
+### B.6 Indian city pages (259)
 
 | URL path | Page title |
 |---|---|
+| `/best-coding-class-in-aberdeen` | Best Coding Classes in Aberdeen |
 | `/best-coding-class-in-agra` | Best Coding Classes in Agra |
-| `/best-coding-class-in-ahmedabad` | Best Coding Classes in Ahmedabad |
+| `/best-coding-class-in-ahmedabad` | Coding Classes in Ahmedabad Near Me: Live Online for Kids, Teens and Adults |
 | `/best-coding-class-in-ajmer` | Best Coding Classes in Ajmer |
 | `/best-coding-class-in-akola` | Best Coding Classes in Akola |
 | `/best-coding-class-in-aligarh` | Best Coding Classes in Aligarh |
 | `/best-coding-class-in-amravati` | Best Coding Classes in Amravati |
 | `/best-coding-class-in-amritsar` | Best Coding Classes in Amritsar |
 | `/best-coding-class-in-anand` | Best Coding Classes in Anand |
+| `/best-coding-class-in-arklow` | Best Coding Class in Arklow |
+| `/best-coding-class-in-armagh` | Best Coding Classes in Armagh |
 | `/best-coding-class-in-asansol` | Best Coding Classes in Asansol |
+| `/best-coding-class-in-ashbourne` | Best Coding Class in Ashbourne |
+| `/best-coding-class-in-athlone` | Best Coding Class in Athlone |
+| `/best-coding-class-in-athy` | Best Coding Class in Athy |
 | `/best-coding-class-in-aurangabad` | Best Coding Classes in Aurangabad |
 | `/best-coding-class-in-balasore` | Best Coding Classes in Balasore |
+| `/best-coding-class-in-balbriggan` | Best Coding Class in Balbriggan |
+| `/best-coding-class-in-ballina` | Best Coding Class in Ballina |
+| `/best-coding-class-in-bangor-northern-ireland` | Best Coding Classes in Bangor, County Down |
+| `/best-coding-class-in-bangor-wales` | Best Coding Classes in Bangor, Wales |
 | `/best-coding-class-in-bareilly` | Best Coding Classes in Bareilly |
+| `/best-coding-class-in-bath` | Best Coding Classes in Bath |
 | `/best-coding-class-in-belagavi` | Best Coding Classes in Belagavi (Belgaum) |
-| `/best-coding-class-in-bengaluru` | Best Coding Classes in Bengaluru |
+| `/best-coding-class-in-belfast` | Best Coding Classes in Belfast |
+| `/best-coding-class-in-bengaluru` | Coding Classes in Bengaluru Near Me: Live Online for Kids, Teens and Adults |
 | `/best-coding-class-in-berhampur` | Best Coding Classes in Berhampur |
 | `/best-coding-class-in-bhagalpur` | Best Coding Classes in Bhagalpur |
 | `/best-coding-class-in-bhavnagar` | Best Coding Classes in Bhavnagar |
 | `/best-coding-class-in-bhilai` | Best Coding Classes in Bhilai |
-| `/best-coding-class-in-bhopal` | Best Coding Classes in Bhopal |
+| `/best-coding-class-in-bhopal` | Coding Classes in Bhopal Near Me: Live Online for Kids, Teens and Adults |
 | `/best-coding-class-in-bhubaneswar` | Best Coding Classes in Bhubaneswar |
 | `/best-coding-class-in-bikaner` | Best Coding Classes in Bikaner |
 | `/best-coding-class-in-bokaro` | Best Coding Classes in Bokaro |
+| `/best-coding-class-in-bradford` | Best Coding Classes in Bradford |
+| `/best-coding-class-in-bray` | Best Coding Class in Bray |
+| `/best-coding-class-in-brighton-and-hove` | Best Coding Classes in Brighton and Hove |
+| `/best-coding-class-in-bristol` | Best Coding Classes in Bristol |
+| `/best-coding-class-in-cambridge` | Best Coding Classes in Cambridge |
+| `/best-coding-class-in-canterbury` | Best Coding Classes in Canterbury |
+| `/best-coding-class-in-cardiff` | Best Coding Classes in Cardiff |
+| `/best-coding-class-in-carlisle` | Best Coding Classes in Carlisle |
+| `/best-coding-class-in-carlow` | Best Coding Class in Carlow |
+| `/best-coding-class-in-carrigaline` | Best Coding Class in Carrigaline |
+| `/best-coding-class-in-castlebar` | Best Coding Class in Castlebar |
+| `/best-coding-class-in-cavan` | Best Coding Class in Cavan Town |
+| `/best-coding-class-in-celbridge` | Best Coding Class in Celbridge |
 | `/best-coding-class-in-chandigarh` | Best Coding Classes in Chandigarh |
-| `/best-coding-class-in-chennai` | Best Coding Classes in Chennai |
+| `/best-coding-class-in-chelmsford` | Best Coding Classes in Chelmsford |
+| `/best-coding-class-in-chennai` | Coding Classes in Chennai Near Me: Live Online for Kids, Teens and Adults |
+| `/best-coding-class-in-chester` | Best Coding Classes in Chester |
+| `/best-coding-class-in-chichester` | Best Coding Classes in Chichester |
+| `/best-coding-class-in-clonmel` | Best Coding Class in Clonmel |
+| `/best-coding-class-in-cobh` | Best Coding Class in Cobh |
 | `/best-coding-class-in-coimbatore` | Best Coding Classes in Coimbatore |
+| `/best-coding-class-in-colchester` | Best Coding Classes in Colchester |
+| `/best-coding-class-in-cork` | Best Coding Classes in Cork |
+| `/best-coding-class-in-coventry` | Best Coding Classes in Coventry |
 | `/best-coding-class-in-cuttack` | Best Coding Classes in Cuttack |
 | `/best-coding-class-in-darbhanga` | Best Coding Classes in Darbhanga |
 | `/best-coding-class-in-davanagere` | Best Coding Classes in Davanagere (Davangere) |
 | `/best-coding-class-in-dehradun` | Best Coding Classes in Dehradun |
-| `/best-coding-class-in-delhi` | Best Coding Classes in Delhi |
+| `/best-coding-class-in-delhi` | Coding Classes in Delhi Near Me: Live Online for Kids, Teens and Adults |
+| `/best-coding-class-in-derby` | Best Coding Classes in Derby |
+| `/best-coding-class-in-derry-londonderry` | Best Coding Classes in Derry~Londonderry |
 | `/best-coding-class-in-dhanbad` | Best Coding Classes in Dhanbad |
+| `/best-coding-class-in-doncaster` | Best Coding Classes in Doncaster |
+| `/best-coding-class-in-drogheda` | Best Coding Class in Drogheda |
+| `/best-coding-class-in-dublin` | Best Coding Classes in Dublin |
+| `/best-coding-class-in-dundalk` | Best Coding Class in Dundalk |
+| `/best-coding-class-in-dundee` | Best Coding Classes in Dundee |
+| `/best-coding-class-in-dunfermline` | Best Coding Classes in Dunfermline |
+| `/best-coding-class-in-dungarvan` | Best Coding Class in Dungarvan |
 | `/best-coding-class-in-durgapur` | Best Coding Classes in Durgapur |
+| `/best-coding-class-in-durham` | Best Coding Classes in Durham |
+| `/best-coding-class-in-edinburgh` | Best Coding Classes in Edinburgh |
+| `/best-coding-class-in-ely` | Best Coding Classes in Ely |
+| `/best-coding-class-in-ennis` | Best Coding Class in Ennis |
+| `/best-coding-class-in-enniscorthy` | Best Coding Class in Enniscorthy |
 | `/best-coding-class-in-erode` | Best Coding Classes in Erode |
+| `/best-coding-class-in-exeter` | Best Coding Classes in Exeter |
 | `/best-coding-class-in-faridabad` | Best Coding Classes in Faridabad |
+| `/best-coding-class-in-galway` | Best Coding Classes in Galway |
 | `/best-coding-class-in-gandhinagar` | Best Coding Classes in Gandhinagar |
 | `/best-coding-class-in-gangtok` | Best Coding Classes in Gangtok |
 | `/best-coding-class-in-gaya` | Best Coding Classes in Gaya |
 | `/best-coding-class-in-ghaziabad` | Best Coding Classes in Ghaziabad |
+| `/best-coding-class-in-glasgow` | Best Coding Classes in Glasgow |
+| `/best-coding-class-in-gloucester` | Best Coding Classes in Gloucester |
 | `/best-coding-class-in-goa` | Best Coding Classes in Goa |
 | `/best-coding-class-in-gorakhpur` | Best Coding Classes in Gorakhpur |
+| `/best-coding-class-in-gorey` | Best Coding Class in Gorey |
 | `/best-coding-class-in-greater-noida` | Best Coding Classes in Greater Noida |
+| `/best-coding-class-in-greystones` | Best Coding Class in Greystones |
 | `/best-coding-class-in-guntur` | Best Coding Classes in Guntur |
 | `/best-coding-class-in-gurgaon` | Best Coding Classes in Gurgaon |
 | `/best-coding-class-in-guwahati` | Best Coding Classes in Guwahati |
 | `/best-coding-class-in-gwalior` | Best Coding Classes in Gwalior |
 | `/best-coding-class-in-haldwani` | Best Coding Classes in Haldwani |
 | `/best-coding-class-in-haridwar` | Best Coding Classes in Haridwar |
+| `/best-coding-class-in-hereford` | Best Coding Classes in Hereford |
 | `/best-coding-class-in-hisar` | Best Coding Classes in Hisar |
 | `/best-coding-class-in-hubli` | Best Coding Classes in Hubli |
-| `/best-coding-class-in-hyderabad` | Best Coding Classes in Hyderabad |
+| `/best-coding-class-in-hull` | Best Coding Classes in Hull |
+| `/best-coding-class-in-hyderabad` | Coding Classes in Hyderabad Near Me: Live Online for Kids, Teens and Adults |
 | `/best-coding-class-in-imphal` | Best Coding Classes in Imphal |
-| `/best-coding-class-in-indore` | Best Coding Classes in Indore |
+| `/best-coding-class-in-indore` | Coding Classes in Indore Near Me: Live Online for Kids, Teens and Adults |
+| `/best-coding-class-in-inverness` | Best Coding Classes in Inverness |
 | `/best-coding-class-in-jabalpur` | Best Coding Classes in Jabalpur |
 | `/best-coding-class-in-jaipur` | Best Coding Classes in Jaipur |
 | `/best-coding-class-in-jalandhar` | Best Coding Classes in Jalandhar |
@@ -1520,62 +1594,124 @@ Listed with titles in Appendix C.
 | `/best-coding-class-in-karimnagar` | Best Coding Classes in Karimnagar |
 | `/best-coding-class-in-karnal` | Best Coding Classes in Karnal |
 | `/best-coding-class-in-kharagpur` | Best Coding Classes in Kharagpur |
+| `/best-coding-class-in-kildare` | Best Coding Class in Kildare Town |
+| `/best-coding-class-in-kilkenny` | Best Coding Class in Kilkenny |
+| `/best-coding-class-in-killarney` | Best Coding Class in Killarney |
 | `/best-coding-class-in-kochi` | Best Coding Classes in Kochi |
 | `/best-coding-class-in-kolhapur` | Best Coding Classes in Kolhapur |
-| `/best-coding-class-in-kolkata` | Best Coding Classes in Kolkata |
+| `/best-coding-class-in-kolkata` | Coding Classes in Kolkata Near Me: Live Online for Kids, Teens and Adults |
 | `/best-coding-class-in-kollam` | Best Coding Classes in Kollam |
 | `/best-coding-class-in-kota` | Best Coding Classes in Kota |
 | `/best-coding-class-in-kottayam` | Best Coding Classes in Kottayam |
 | `/best-coding-class-in-kozhikode` | Best Coding Classes in Kozhikode |
+| `/best-coding-class-in-lancaster` | Best Coding Classes in Lancaster |
 | `/best-coding-class-in-latur` | Best Coding Classes in Latur |
+| `/best-coding-class-in-laytown-bettystown` | Best Coding Class in Laytown and Bettystown |
+| `/best-coding-class-in-leeds` | Best Coding Classes in Leeds |
+| `/best-coding-class-in-leixlip` | Best Coding Class in Leixlip |
+| `/best-coding-class-in-letterkenny` | Best Coding Class in Letterkenny |
+| `/best-coding-class-in-lichfield` | Best Coding Classes in Lichfield |
+| `/best-coding-class-in-limerick` | Best Coding Classes in Limerick |
+| `/best-coding-class-in-lincoln` | Best Coding Classes in Lincoln |
+| `/best-coding-class-in-lisburn` | Best Coding Classes in Lisburn |
+| `/best-coding-class-in-liverpool` | Best Coding Classes in Liverpool |
+| `/best-coding-class-in-london` | Best Coding Classes in London |
+| `/best-coding-class-in-longford` | Best Coding Class in Longford Town |
 | `/best-coding-class-in-lucknow` | Best Coding Classes in Lucknow |
 | `/best-coding-class-in-ludhiana` | Best Coding Classes in Ludhiana |
 | `/best-coding-class-in-madurai` | Best Coding Classes in Madurai |
+| `/best-coding-class-in-malahide` | Best Coding Class in Malahide |
+| `/best-coding-class-in-mallow` | Best Coding Class in Mallow |
+| `/best-coding-class-in-manchester` | Best Coding Classes in Manchester |
 | `/best-coding-class-in-mangalore` | Best Coding Classes in Mangalore (Mangaluru) |
+| `/best-coding-class-in-maynooth` | Best Coding Class in Maynooth |
 | `/best-coding-class-in-meerut` | Best Coding Classes in Meerut |
+| `/best-coding-class-in-midleton` | Best Coding Class in Midleton |
+| `/best-coding-class-in-milton-keynes` | Best Coding Classes in Milton Keynes |
 | `/best-coding-class-in-mohali` | Best Coding Classes in Mohali |
 | `/best-coding-class-in-moradabad` | Best Coding Classes in Moradabad |
-| `/best-coding-class-in-mumbai` | Best Coding Classes in Mumbai |
+| `/best-coding-class-in-mullingar` | Best Coding Class in Mullingar |
+| `/best-coding-class-in-mumbai` | Coding Classes in Mumbai Near Me: Live Online for Kids, Teens and Adults |
 | `/best-coding-class-in-muzaffarpur` | Best Coding Classes in Muzaffarpur |
 | `/best-coding-class-in-mysore` | Best Coding Classes in Mysore |
+| `/best-coding-class-in-naas` | Best Coding Class in Naas |
 | `/best-coding-class-in-nagpur` | Best Coding Classes in Nagpur |
 | `/best-coding-class-in-nashik` | Best Coding Classes in Nashik |
+| `/best-coding-class-in-navan` | Best Coding Class in Navan |
 | `/best-coding-class-in-navi-mumbai` | Best Coding Classes in Navi Mumbai |
 | `/best-coding-class-in-nellore` | Best Coding Classes in Nellore |
+| `/best-coding-class-in-newbridge` | Best Coding Class in Newbridge |
+| `/best-coding-class-in-newcastle-upon-tyne` | Best Coding Classes in Newcastle upon Tyne |
+| `/best-coding-class-in-newport-wales` | Best Coding Classes in Newport, Wales |
+| `/best-coding-class-in-newry` | Best Coding Classes in Newry |
 | `/best-coding-class-in-nizamabad` | Best Coding Classes in Nizamabad |
-| `/best-coding-class-in-noida` | Best Coding Classes in Noida |
+| `/best-coding-class-in-noida` | Coding Classes in Noida Near Me: Live Online for Kids, Teens and Adults |
+| `/best-coding-class-in-norwich` | Best Coding Classes in Norwich |
+| `/best-coding-class-in-nottingham` | Best Coding Classes in Nottingham |
+| `/best-coding-class-in-oxford` | Best Coding Classes in Oxford |
 | `/best-coding-class-in-palakkad` | Best Coding Classes in Palakkad |
 | `/best-coding-class-in-panipat` | Best Coding Classes in Panipat |
 | `/best-coding-class-in-patiala` | Best Coding Classes in Patiala |
 | `/best-coding-class-in-patna` | Best Coding Classes in Patna |
+| `/best-coding-class-in-perth-scotland` | Best Coding Classes in Perth, Scotland |
+| `/best-coding-class-in-peterborough` | Best Coding Classes in Peterborough |
 | `/best-coding-class-in-pimpri-chinchwad` | Best Coding Classes in Pimpri-Chinchwad |
+| `/best-coding-class-in-plymouth` | Best Coding Classes in Plymouth |
+| `/best-coding-class-in-portlaoise` | Best Coding Class in Portlaoise |
+| `/best-coding-class-in-portmarnock` | Best Coding Class in Portmarnock |
+| `/best-coding-class-in-portsmouth` | Best Coding Classes in Portsmouth |
 | `/best-coding-class-in-prayagraj` | Best Coding Classes in Prayagraj |
-| `/best-coding-class-in-pune` | Best Coding Classes in Pune |
+| `/best-coding-class-in-preston` | Best Coding Classes in Preston |
+| `/best-coding-class-in-pune` | Coding Classes in Pune Near Me: Live Online for Kids, Teens and Adults |
 | `/best-coding-class-in-raipur` | Best Coding Classes in Raipur |
 | `/best-coding-class-in-rajahmundry` | Best Coding Classes in Rajahmundry |
 | `/best-coding-class-in-rajkot` | Best Coding Classes in Rajkot |
 | `/best-coding-class-in-ranchi` | Best Coding Classes in Ranchi |
+| `/best-coding-class-in-ratoath` | Best Coding Class in Ratoath |
+| `/best-coding-class-in-ripon` | Best Coding Classes in Ripon |
 | `/best-coding-class-in-rishikesh` | Best Coding Classes in Rishikesh |
 | `/best-coding-class-in-rohtak` | Best Coding Classes in Rohtak |
 | `/best-coding-class-in-roorkee` | Best Coding Classes in Roorkee |
 | `/best-coding-class-in-rourkela` | Best Coding Classes in Rourkela |
+| `/best-coding-class-in-rush` | Best Coding Class in Rush |
 | `/best-coding-class-in-salem` | Best Coding Classes in Salem |
+| `/best-coding-class-in-salford` | Best Coding Classes in Salford |
+| `/best-coding-class-in-salisbury` | Best Coding Classes in Salisbury |
 | `/best-coding-class-in-sambalpur` | Best Coding Classes in Sambalpur |
+| `/best-coding-class-in-shannon` | Best Coding Class in Shannon, Co Clare |
+| `/best-coding-class-in-sheffield` | Best Coding Classes in Sheffield |
 | `/best-coding-class-in-shimla` | Best Coding Classes in Shimla |
 | `/best-coding-class-in-shimoga` | Best Coding Classes in Shivamogga (Shimoga) |
 | `/best-coding-class-in-sikar` | Best Coding Classes in Sikar |
 | `/best-coding-class-in-siliguri` | Best Coding Classes in Siliguri |
+| `/best-coding-class-in-skerries` | Best Coding Class in Skerries |
+| `/best-coding-class-in-sligo` | Best Coding Class in Sligo |
 | `/best-coding-class-in-solapur` | Best Coding Classes in Solapur |
 | `/best-coding-class-in-sonipat` | Best Coding Classes in Sonipat |
+| `/best-coding-class-in-southampton` | Best Coding Classes in Southampton |
+| `/best-coding-class-in-southend-on-sea` | Best Coding Classes in Southend-on-Sea |
 | `/best-coding-class-in-srinagar` | Best Coding Classes in Srinagar |
+| `/best-coding-class-in-st-albans` | Best Coding Classes in St Albans |
+| `/best-coding-class-in-st-asaph` | Best Coding Classes in St Asaph |
+| `/best-coding-class-in-st-davids` | Best Coding Classes in St Davids |
+| `/best-coding-class-in-stirling` | Best Coding Classes in Stirling |
+| `/best-coding-class-in-stoke-on-trent` | Best Coding Classes in Stoke-on-Trent |
+| `/best-coding-class-in-sunderland` | Best Coding Classes in Sunderland |
 | `/best-coding-class-in-surat` | Best Coding Classes in Surat |
+| `/best-coding-class-in-swansea` | Best Coding Classes in Swansea |
+| `/best-coding-class-in-swords` | Best Coding Class in Swords |
 | `/best-coding-class-in-thane` | Best Coding Classes in Thane |
 | `/best-coding-class-in-thanjavur` | Best Coding Classes in Thanjavur |
+| `/best-coding-class-in-the-world` | Best Coding Class in the World? Eight Tests It Must Pass |
 | `/best-coding-class-in-thiruvananthapuram` | Coding Classes in Thiruvananthapuram |
 | `/best-coding-class-in-thrissur` | Best Coding Classes in Thrissur |
 | `/best-coding-class-in-tirunelveli` | Best Coding Classes in Tirunelveli |
 | `/best-coding-class-in-tirupati` | Best Coding Classes in Tirupati |
+| `/best-coding-class-in-tralee` | Best Coding Class in Tralee |
+| `/best-coding-class-in-tramore` | Best Coding Class in Tramore |
 | `/best-coding-class-in-trichy` | Best Coding Classes in Trichy |
+| `/best-coding-class-in-truro` | Best Coding Classes in Truro |
+| `/best-coding-class-in-tullamore` | Best Coding Class in Tullamore |
 | `/best-coding-class-in-udaipur` | Best Coding Classes in Udaipur |
 | `/best-coding-class-in-udupi` | Best Coding Classes in Udupi & Manipal |
 | `/best-coding-class-in-ujjain` | Best Coding Classes in Ujjain |
@@ -1584,7 +1720,17 @@ Listed with titles in Appendix C.
 | `/best-coding-class-in-vellore` | Best Coding Classes in Vellore |
 | `/best-coding-class-in-vijayawada` | Best Coding Classes in Vijayawada |
 | `/best-coding-class-in-visakhapatnam` | Best Coding Classes in Visakhapatnam |
+| `/best-coding-class-in-wakefield` | Best Coding Classes in Wakefield |
 | `/best-coding-class-in-warangal` | Best Coding Classes in Warangal |
+| `/best-coding-class-in-waterford` | Best Coding Classes in Waterford |
+| `/best-coding-class-in-wells` | Best Coding Classes in Wells, Somerset |
+| `/best-coding-class-in-wexford` | Best Coding Class in Wexford |
+| `/best-coding-class-in-wicklow` | Best Coding Class in Wicklow Town |
+| `/best-coding-class-in-winchester` | Best Coding Classes in Winchester |
+| `/best-coding-class-in-wolverhampton` | Best Coding Classes in Wolverhampton |
+| `/best-coding-class-in-worcester` | Best Coding Classes in Worcester |
+| `/best-coding-class-in-wrexham` | Best Coding Classes in Wrexham |
+| `/best-coding-class-in-york` | Best Coding Classes in York |
 
 ### B.7 School partnership pages (21)
 
@@ -1612,12 +1758,14 @@ Listed with titles in Appendix C.
 | `/coding-classes-for-la-martiniere-boys-kolkata` | Coding Classes for La Martiniere for Boys Students |
 | `/coding-classes-for-la-martiniere-girls-kolkata` | Coding Classes for La Martiniere for Girls Students |
 
-### B.8 Country and international pages (143)
+### B.8 Country and international pages (410)
 
 | URL path | Page title |
 |---|---|
 | `/ai-and-machine-learning-classes-in-australia` | AI and Machine Learning Classes in Australia |
+| `/ai-and-machine-learning-classes-in-bahamas` | AI and Machine Learning Classes in The Bahamas |
 | `/ai-and-machine-learning-classes-in-bahrain` | AI and Machine Learning Classes in Bahrain |
+| `/ai-and-machine-learning-classes-in-brunei` | AI and Machine Learning Classes in Brunei |
 | `/ai-and-machine-learning-classes-in-canada` | AI and Machine Learning Classes in Canada |
 | `/ai-and-machine-learning-classes-in-germany` | AI and Machine Learning Classes in Germany |
 | `/ai-and-machine-learning-classes-in-hong-kong` | AI and Machine Learning Classes in Hong Kong |
@@ -1640,78 +1788,343 @@ Listed with titles in Appendix C.
 | `/ai-classes-in-qatar` | AI Classes in Qatar |
 | `/ai-classes-in-saudi-arabia` | AI Classes in Saudi Arabia |
 | `/coding-classes-cost-india-2026` | Coding Classes Cost in India 2026: Honest Price Guide |
+| `/coding-classes-for-adults` | Coding Classes for Adults: Live, Small Batches, Ages 18 to 67 |
 | `/coding-classes-for-girls` | Coding Classes for Girls |
 | `/coding-classes-for-kids-cost` | Coding Classes for Kids Cost 2026: US Prices by Format |
 | `/coding-classes-for-kids-in-doha` | Coding Classes for Kids in Doha |
 | `/coding-classes-for-kids-in-dubai` | Coding Classes for Kids in Dubai |
+| `/coding-classes-for-kids-in-nassau` | Coding Classes for Kids in Nassau |
 | `/coding-classes-for-kids-in-riyadh` | Coding Classes for Kids in Riyadh |
+| `/coding-classes-for-kids-netherlands` | Coding Classes for Kids in the Netherlands |
+| `/coding-classes-for-teens-netherlands` | Coding Classes for Teens in the Netherlands |
 | `/coding-classes-in-abu-dhabi` | Coding Classes in Abu Dhabi |
+| `/coding-classes-in-ad-dakhiliyah` | Coding Classes in Ad Dakhiliyah |
+| `/coding-classes-in-adam` | Coding Classes in Adam |
+| `/coding-classes-in-adh-dhahirah` | Coding Classes in Adh Dhahirah |
+| `/coding-classes-in-al-amarat` | Coding Classes in Al Amarat |
+| `/coding-classes-in-al-awabi` | Coding Classes in Al Awabi |
+| `/coding-classes-in-al-batinah-north` | Coding Classes in Al Batinah North |
+| `/coding-classes-in-al-batinah-south` | Coding Classes in Al Batinah South |
+| `/coding-classes-in-al-buraimi` | Coding Classes in Al Buraimi |
+| `/coding-classes-in-al-ghubrah` | Coding Classes in Al Ghubrah |
+| `/coding-classes-in-al-hail` | Coding Classes in Al Hail |
+| `/coding-classes-in-al-hamra` | Coding Classes in Al Hamra |
+| `/coding-classes-in-al-kamil-wal-wafi` | Coding Classes in Al Kamil Wal Wafi |
+| `/coding-classes-in-al-khaburah` | Coding Classes in Al Khaburah |
+| `/coding-classes-in-al-khoudh` | Coding Classes in Al Khoudh |
+| `/coding-classes-in-al-khuwair` | Coding Classes in Al Khuwair |
+| `/coding-classes-in-al-mazyunah` | Coding Classes in Al Mazyunah |
+| `/coding-classes-in-al-mouj` | Online Coding Classes in Al Mouj |
+| `/coding-classes-in-al-mudhaibi` | Coding Classes in Al Mudhaibi |
+| `/coding-classes-in-al-musanaah` | Coding Classes in Al Musanaah |
+| `/coding-classes-in-al-qabil` | Coding Classes in Al Qabil |
+| `/coding-classes-in-al-wusta` | Coding Classes in Al Wusta |
+| `/coding-classes-in-alberta` | Online Coding Classes in Alberta |
+| `/coding-classes-in-alkmaar` | Coding Classes in Alkmaar |
+| `/coding-classes-in-almelo` | Coding Classes in Almelo |
+| `/coding-classes-in-almere` | Coding Classes in Almere |
+| `/coding-classes-in-alphen-aan-den-rijn` | Coding Classes in Alphen aan den Rijn |
+| `/coding-classes-in-amersfoort` | Coding Classes in Amersfoort |
+| `/coding-classes-in-amstelveen` | Coding Classes in Amstelveen |
+| `/coding-classes-in-amsterdam` | Coding Classes in Amsterdam |
+| `/coding-classes-in-amsterdam-centrum` | Coding Classes in Amsterdam-Centrum |
+| `/coding-classes-in-amsterdam-nieuw-west` | Coding Classes in Amsterdam Nieuw-West |
+| `/coding-classes-in-amsterdam-noord` | Coding Classes in Amsterdam-Noord |
+| `/coding-classes-in-amsterdam-oost` | Coding Classes in Amsterdam-Oost |
+| `/coding-classes-in-amsterdam-west` | Coding Classes in Amsterdam-West |
+| `/coding-classes-in-amsterdam-zuid` | Coding Classes in Amsterdam-Zuid |
+| `/coding-classes-in-amsterdam-zuidoost` | Coding Classes in Amsterdam-Zuidoost |
 | `/coding-classes-in-andhra-pradesh` | Coding Classes in Andhra Pradesh |
+| `/coding-classes-in-apeldoorn` | Coding Classes in Apeldoorn |
+| `/coding-classes-in-arnhem` | Coding Classes in Arnhem |
+| `/coding-classes-in-as-suwaiq` | Coding Classes in As Suwaiq |
+| `/coding-classes-in-ash-sharqiyah-north` | Coding Classes in Ash Sharqiyah North |
+| `/coding-classes-in-ash-sharqiyah-south` | Coding Classes in Ash Sharqiyah South |
 | `/coding-classes-in-assam` | Coding Classes in Assam |
+| `/coding-classes-in-assen` | Coding Classes in Assen |
 | `/coding-classes-in-australia` | Online Coding & AI Classes in Australia |
 | `/coding-classes-in-avani-riverside-howrah` | Coding & Maths Classes near Avani Riverside, Howrah |
 | `/coding-classes-in-avidipta-mukundapur` | Coding & Maths Classes near Avidipta |
+| `/coding-classes-in-azaiba` | Coding Classes in Azaiba |
+| `/coding-classes-in-bahla` | Coding Classes in Bahla |
+| `/coding-classes-in-bahrain` | Online Coding Classes in Bahrain |
+| `/coding-classes-in-ballincollig-cork` | Coding Classes in Ballincollig, Cork |
+| `/coding-classes-in-ballymun-dublin` | Coding Classes in Ballymun, Dublin |
+| `/coding-classes-in-bandar-seri-begawan` | Coding Classes in Bandar Seri Begawan |
+| `/coding-classes-in-barka` | Coding Classes in Barka |
+| `/coding-classes-in-bawshar` | Online Coding Classes in Bawshar |
+| `/coding-classes-in-bergen-op-zoom` | Coding Classes in Bergen op Zoom |
+| `/coding-classes-in-bidbid` | Coding Classes in Bidbid |
+| `/coding-classes-in-bidiyah` | Coding Classes in Bidiyah |
 | `/coding-classes-in-bihar` | Coding Classes in Bihar |
+| `/coding-classes-in-birmingham` | Online Coding Classes in Birmingham |
+| `/coding-classes-in-bishopstown-cork` | Coding Classes in Bishopstown, Cork |
+| `/coding-classes-in-blackrock-dublin` | Coding Classes in Blackrock, Dublin |
+| `/coding-classes-in-blanchardstown-dublin` | Coding Classes in Blanchardstown, Dublin 15 |
+| `/coding-classes-in-breda` | Coding Classes in Breda |
+| `/coding-classes-in-british-columbia` | Online Coding Classes in British Columbia |
+| `/coding-classes-in-brunei` | Online Coding Classes in Brunei |
 | `/coding-classes-in-calcutta-riverside` | Coding & Maths Classes near Calcutta Riverside |
+| `/coding-classes-in-california` | Coding Classes in California |
 | `/coding-classes-in-canada` | Coding & AI Classes in Canada |
+| `/coding-classes-in-capelle-aan-den-ijssel` | Coding Classes in Capelle aan den IJssel |
+| `/coding-classes-in-castleknock-dublin` | Coding Classes in Castleknock, Dublin 15 |
+| `/coding-classes-in-castletroy-limerick` | Coding Classes in Castletroy, Limerick |
+| `/coding-classes-in-charlois` | Coding Classes in Charlois, Rotterdam |
 | `/coding-classes-in-chhattisgarh` | Coding Classes in Chhattisgarh |
+| `/coding-classes-in-clondalkin-dublin` | Coding Classes in Clondalkin, Dublin 22 |
+| `/coding-classes-in-clontarf-dublin` | Coding Classes in Clontarf, Dublin |
+| `/coding-classes-in-county-carlow` | Coding Classes in County Carlow |
+| `/coding-classes-in-county-cavan` | Coding Classes in County Cavan |
+| `/coding-classes-in-county-clare` | Coding Classes in County Clare |
+| `/coding-classes-in-county-cork` | Coding Classes in County Cork |
+| `/coding-classes-in-county-donegal` | Coding Classes in County Donegal |
+| `/coding-classes-in-county-galway` | Coding Classes in County Galway |
+| `/coding-classes-in-county-kerry` | Coding Classes in County Kerry |
+| `/coding-classes-in-county-kildare` | Coding Classes in County Kildare |
+| `/coding-classes-in-county-kilkenny` | Coding Classes in County Kilkenny |
+| `/coding-classes-in-county-laois` | Coding Classes in County Laois |
+| `/coding-classes-in-county-leitrim` | Coding Classes in County Leitrim |
+| `/coding-classes-in-county-longford` | Coding Classes in County Longford |
+| `/coding-classes-in-county-louth` | Coding Classes in County Louth |
+| `/coding-classes-in-county-mayo` | Coding Classes in County Mayo |
+| `/coding-classes-in-county-meath` | Coding Classes in County Meath |
+| `/coding-classes-in-county-monaghan` | Coding Classes in County Monaghan |
+| `/coding-classes-in-county-offaly` | Coding Classes in County Offaly |
+| `/coding-classes-in-county-roscommon` | Coding Classes in County Roscommon |
+| `/coding-classes-in-county-sligo` | Coding Classes in County Sligo |
+| `/coding-classes-in-county-tipperary` | Coding Classes in County Tipperary |
+| `/coding-classes-in-county-westmeath` | Coding Classes in County Westmeath |
+| `/coding-classes-in-county-wexford` | Coding Classes in County Wexford |
+| `/coding-classes-in-county-wicklow` | Coding Classes in County Wicklow |
+| `/coding-classes-in-crumlin-dublin` | Coding Classes in Crumlin, Dublin |
+| `/coding-classes-in-daba-al-bayah` | Coding Classes in Daba Al Bayah |
 | `/coding-classes-in-dammam` | Coding Classes in Dammam & Khobar |
+| `/coding-classes-in-delfshaven` | Coding Classes in Delfshaven, Rotterdam |
+| `/coding-classes-in-delft` | Coding Classes in Delft |
+| `/coding-classes-in-den-bosch` | Coding Classes in Den Bosch |
+| `/coding-classes-in-deventer` | Coding Classes in Deventer |
+| `/coding-classes-in-dhank` | Coding Classes in Dhank |
+| `/coding-classes-in-dhofar` | Coding Classes in Dhofar |
 | `/coding-classes-in-diamond-city-north` | Coding & Maths Classes at Diamond City North |
 | `/coding-classes-in-diamond-city-south` | Coding & Maths Classes near Diamond City South |
+| `/coding-classes-in-diemen` | Coding Classes in Diemen |
+| `/coding-classes-in-dima-wa-attayeen` | Coding Classes in Dima Wa Attayeen |
 | `/coding-classes-in-dlf-new-town-heights` | Coding & Maths Classes at DLF New Town Heights |
 | `/coding-classes-in-doha` | Coding Classes in Doha |
+| `/coding-classes-in-dordrecht` | Coding Classes in Dordrecht |
+| `/coding-classes-in-douglas-cork` | Coding Classes in Douglas, Cork |
+| `/coding-classes-in-drenthe` | Coding Classes in Drenthe |
+| `/coding-classes-in-drumcondra-dublin` | Coding Classes in Drumcondra, Dublin |
 | `/coding-classes-in-dubai` | Coding Classes in Dubai |
+| `/coding-classes-in-dun-laoghaire-dublin` | Coding Classes in Dún Laoghaire, Dublin |
+| `/coding-classes-in-dun-laoghaire-rathdown` | Coding Classes in Dún Laoghaire-Rathdown |
+| `/coding-classes-in-dundrum-dublin` | Coding Classes in Dundrum, Dublin 14 |
+| `/coding-classes-in-duqm` | Coding Classes in Duqm |
+| `/coding-classes-in-ede` | Coding Classes in Ede |
 | `/coding-classes-in-eden-city-maheshtala` | Coding & Maths Classes in Eden City, Maheshtala |
+| `/coding-classes-in-eindhoven` | Coding Classes in Eindhoven |
+| `/coding-classes-in-eindhoven-centrum` | Coding Classes in Eindhoven Centrum |
 | `/coding-classes-in-elita-garden-vista` | Coding & Maths Classes near Elita Garden Vista |
+| `/coding-classes-in-emmen` | Coding Classes in Emmen |
+| `/coding-classes-in-enschede` | Coding Classes in Enschede |
+| `/coding-classes-in-escamp` | Coding Classes in Escamp, The Hague |
+| `/coding-classes-in-feijenoord` | Coding Classes in Feijenoord, Rotterdam |
+| `/coding-classes-in-fingal` | Coding Classes in Fingal |
+| `/coding-classes-in-finglas-dublin` | Coding Classes in Finglas, Dublin |
+| `/coding-classes-in-flevoland` | Coding Classes in Flevoland |
+| `/coding-classes-in-friesland` | Coding Classes in Friesland (Fryslân) |
+| `/coding-classes-in-gadong` | Coding Classes in Gadong, Brunei |
+| `/coding-classes-in-gelderland` | Coding Classes in Gelderland |
 | `/coding-classes-in-genexx-valley-joka` | Coding & Maths Classes in Joka |
+| `/coding-classes-in-georgia` | Coding Classes in Georgia, USA |
 | `/coding-classes-in-germany` | Coding & AI Classes in Germany |
+| `/coding-classes-in-gestel` | Coding Classes in Gestel, Eindhoven |
+| `/coding-classes-in-glanmire-cork` | Coding Classes in Glanmire, Cork |
+| `/coding-classes-in-glasnevin-dublin` | Coding Classes in Glasnevin, Dublin |
 | `/coding-classes-in-goa` | Coding Classes in Goa |
 | `/coding-classes-in-godrej-prakriti` | Coding & Maths Classes at Godrej Prakriti, Sodepur |
+| `/coding-classes-in-gouda` | Coding Classes in Gouda |
 | `/coding-classes-in-greenfield-city-behala` | Coding & Maths Classes in Greenfield City, Behala |
+| `/coding-classes-in-groningen` | Coding Classes in Groningen |
+| `/coding-classes-in-groningen-province` | Coding Classes in the Province of Groningen |
 | `/coding-classes-in-gujarat` | Coding Classes in Gujarat |
+| `/coding-classes-in-haagse-hout` | Coding Classes in Haagse Hout, The Hague |
+| `/coding-classes-in-haarlem` | Coding Classes in Haarlem |
+| `/coding-classes-in-haarlemmermeer` | Coding Classes in Haarlemmermeer, Hoofddorp |
+| `/coding-classes-in-haima` | Coding Classes in Haima |
+| `/coding-classes-in-harrow-london` | Coding Classes in Harrow, London |
 | `/coding-classes-in-haryana` | Coding Classes in Haryana |
+| `/coding-classes-in-heerlen` | Coding Classes in Heerlen |
+| `/coding-classes-in-helmond` | Coding Classes in Helmond |
+| `/coding-classes-in-hengelo` | Coding Classes in Hengelo |
 | `/coding-classes-in-hiland-park` | Coding & Maths Classes near Hiland Park |
 | `/coding-classes-in-hiland-willows` | Coding & Maths Classes near Hiland Willows |
+| `/coding-classes-in-hillegersberg-schiebroek` | Coding Classes in Hillegersberg-Schiebroek |
+| `/coding-classes-in-hilversum` | Coding Classes in Hilversum |
 | `/coding-classes-in-himachal-pradesh` | Coding Classes in Himachal Pradesh |
+| `/coding-classes-in-hong-kong` | Online Coding Classes in Hong Kong |
+| `/coding-classes-in-hoorn` | Coding Classes in Hoorn |
+| `/coding-classes-in-howth-dublin` | Coding Classes in Howth, Dublin |
+| `/coding-classes-in-ibra` | Coding Classes in Ibra |
+| `/coding-classes-in-ibri` | Coding Classes in Ibri |
 | `/coding-classes-in-ideal-niketan-tangra` | Coding & Maths Classes near Ideal Niketan, Tangra |
+| `/coding-classes-in-ijsselmonde` | Coding Classes in IJsselmonde, Rotterdam |
+| `/coding-classes-in-illinois` | Coding Classes in Illinois |
 | `/coding-classes-in-india` | Coding Classes in India |
 | `/coding-classes-in-ireland` | Online Coding & AI Classes in Ireland |
+| `/coding-classes-in-izki` | Coding Classes in Izki |
+| `/coding-classes-in-jalan-bani-bu-ali` | Coding Classes in Jalan Bani Bu Ali |
+| `/coding-classes-in-jalan-bani-bu-hassan` | Coding Classes in Jalan Bani Bu Hassan |
 | `/coding-classes-in-jeddah` | Coding Classes in Jeddah |
+| `/coding-classes-in-jerudong` | Coding Classes in Jerudong, Brunei |
 | `/coding-classes-in-jharkhand` | Coding Classes in Jharkhand |
 | `/coding-classes-in-karnataka` | Coding Classes in Karnataka |
 | `/coding-classes-in-kerala` | Coding Classes in Kerala |
+| `/coding-classes-in-khasab` | Coding Classes in Khasab |
+| `/coding-classes-in-knocknacarra-galway` | Coding Classes in Knocknacarra, Galway |
+| `/coding-classes-in-kralingen-crooswijk` | Coding Classes in Kralingen-Crooswijk |
+| `/coding-classes-in-kuala-belait` | Coding Classes in Kuala Belait and Seria |
+| `/coding-classes-in-kuwait` | Online Coding Classes in Kuwait |
+| `/coding-classes-in-laak` | Coding Classes in Laak, The Hague |
+| `/coding-classes-in-leeuwarden` | Coding Classes in Leeuwarden |
+| `/coding-classes-in-leicester` | Online Coding Classes in Leicester |
+| `/coding-classes-in-leiden` | Coding Classes in Leiden |
+| `/coding-classes-in-leidschendam-voorburg` | Coding Classes in Leidschendam-Voorburg |
+| `/coding-classes-in-leidschenveen-ypenburg` | Coding Classes in Leidschenveen-Ypenburg |
+| `/coding-classes-in-lelystad` | Coding Classes in Lelystad |
+| `/coding-classes-in-liang` | Coding Classes in Liang and Lumut, Brunei |
+| `/coding-classes-in-limburg` | Coding Classes in Limburg |
+| `/coding-classes-in-liwa` | Coding Classes in Liwa |
+| `/coding-classes-in-loosduinen` | Coding Classes in Loosduinen, The Hague |
+| `/coding-classes-in-lucan-dublin` | Coding Classes in Lucan, Dublin |
+| `/coding-classes-in-maastricht` | Coding Classes in Maastricht |
+| `/coding-classes-in-madha` | Coding Classes in Madha |
 | `/coding-classes-in-madhya-pradesh` | Coding Classes in Madhya Pradesh |
+| `/coding-classes-in-madinat-al-irfan` | Coding Classes in Madinat Al Irfan |
+| `/coding-classes-in-madinat-al-sultan-qaboos` | Coding Classes in Madinat Al Sultan Qaboos |
 | `/coding-classes-in-maharashtra` | Coding Classes in Maharashtra |
+| `/coding-classes-in-mahdah` | Coding Classes in Mahdah |
+| `/coding-classes-in-mahout` | Coding Classes in Mahout |
+| `/coding-classes-in-manah` | Coding Classes in Manah |
+| `/coding-classes-in-maryland` | Online Coding Classes in Maryland |
+| `/coding-classes-in-masirah` | Coding Classes in Masirah |
+| `/coding-classes-in-mawaleh` | Coding Classes in Mawaleh |
+| `/coding-classes-in-meierijstad` | Coding Classes in Meierijstad |
+| `/coding-classes-in-middelburg` | Coding Classes in Middelburg |
+| `/coding-classes-in-mirbat` | Coding Classes in Mirbat |
+| `/coding-classes-in-musandam` | Coding Classes in Musandam |
+| `/coding-classes-in-muscat` | Online Coding Classes in Muscat |
+| `/coding-classes-in-muttrah` | Online Coding Classes in Muttrah |
+| `/coding-classes-in-nakhal` | Coding Classes in Nakhal |
 | `/coding-classes-in-natural-city-garia` | Coding & Maths Classes in Garia, Kolkata |
+| `/coding-classes-in-netherlands` | Online Coding Classes in the Netherlands |
+| `/coding-classes-in-new-jersey` | Coding Classes in New Jersey |
+| `/coding-classes-in-new-york` | Coding Classes in New York |
 | `/coding-classes-in-new-zealand` | Online Coding & AI Classes in New Zealand |
+| `/coding-classes-in-nijmegen` | Coding Classes in Nijmegen |
+| `/coding-classes-in-nissewaard` | Coding Classes in Nissewaard |
+| `/coding-classes-in-nizwa` | Coding Classes in Nizwa |
+| `/coding-classes-in-noord-brabant` | Coding Classes in Noord-Brabant |
+| `/coding-classes-in-noord-holland` | Coding Classes in Noord-Holland |
 | `/coding-classes-in-odisha` | Coding Classes in Odisha |
+| `/coding-classes-in-oegstgeest` | Coding Classes in Oegstgeest |
+| `/coding-classes-in-oman` | Online Coding Classes in Oman |
+| `/coding-classes-in-ontario` | Coding Classes in Ontario |
+| `/coding-classes-in-oss` | Coding Classes in Oss |
+| `/coding-classes-in-overijssel` | Coding Classes in Overijssel |
+| `/coding-classes-in-prins-alexander` | Coding Classes in Prins Alexander, Rotterdam |
 | `/coding-classes-in-punjab` | Coding Classes in Punjab |
+| `/coding-classes-in-purmerend` | Coding Classes in Purmerend |
 | `/coding-classes-in-qatar` | Coding Classes in Qatar |
+| `/coding-classes-in-qurayyat` | Coding Classes in Qurayyat |
+| `/coding-classes-in-qurum` | Online Coding Classes in Qurum |
 | `/coding-classes-in-rajasthan` | Coding Classes in Rajasthan |
+| `/coding-classes-in-rathfarnham-dublin` | Coding Classes in Rathfarnham, Dublin |
+| `/coding-classes-in-rathmines-dublin` | Coding Classes in Rathmines, Dublin |
+| `/coding-classes-in-rijswijk` | Coding Classes in Rijswijk |
 | `/coding-classes-in-riyadh` | Coding Classes in Riyadh |
+| `/coding-classes-in-roermond` | Coding Classes in Roermond |
+| `/coding-classes-in-roosendaal` | Coding Classes in Roosendaal |
 | `/coding-classes-in-rosedale-garden` | Coding & Maths Classes near Rosedale Garden |
+| `/coding-classes-in-rotterdam` | Coding Classes in Rotterdam |
+| `/coding-classes-in-rotterdam-centrum` | Coding Classes in Rotterdam Centrum |
+| `/coding-classes-in-rustaq` | Coding Classes in Rustaq |
+| `/coding-classes-in-saham` | Coding Classes in Saham |
+| `/coding-classes-in-salalah` | Coding Classes in Salalah |
+| `/coding-classes-in-samail` | Coding Classes in Samail |
+| `/coding-classes-in-sandyford-dublin` | Coding Classes in Sandyford, Dublin 18 |
 | `/coding-classes-in-saudi-arabia` | Coding Classes in Saudi Arabia |
+| `/coding-classes-in-scheveningen` | Coding Classes in Scheveningen, The Hague |
+| `/coding-classes-in-schiedam` | Coding Classes in Schiedam |
+| `/coding-classes-in-seeb` | Online Coding Classes in Seeb |
+| `/coding-classes-in-segbroek` | Coding Classes in Segbroek, The Hague |
+| `/coding-classes-in-seria` | Coding Classes in Seria, Brunei |
+| `/coding-classes-in-shalim` | Coding Classes in Shalim |
 | `/coding-classes-in-sharjah` | Coding Classes in Sharjah |
 | `/coding-classes-in-sherwood-estate` | Coding & Maths Classes near Sherwood Estate |
+| `/coding-classes-in-shinas` | Coding Classes in Shinas |
 | `/coding-classes-in-siddha-town-madhyamgram` | Coding & Maths Classes in Siddha Town, Madhyamgram |
 | `/coding-classes-in-singapore` | Coding & AI Classes in Singapore |
+| `/coding-classes-in-sittard-geleen` | Coding Classes in Sittard-Geleen |
+| `/coding-classes-in-sohar` | Coding Classes in Sohar |
 | `/coding-classes-in-south-city` | Coding & Maths Classes near South City |
+| `/coding-classes-in-south-dublin` | Coding Classes in South Dublin |
+| `/coding-classes-in-stillorgan-dublin` | Coding Classes in Stillorgan, Dublin |
+| `/coding-classes-in-stratum` | Coding Classes in Stratum, Eindhoven |
+| `/coding-classes-in-strijp` | Coding Classes in Strijp, Eindhoven |
 | `/coding-classes-in-sugam-habitat` | Coding & Maths Classes near Sugam Habitat |
 | `/coding-classes-in-sukhobrishti` | Coding & Maths Classes near Sukhobrishti |
+| `/coding-classes-in-sur` | Coding Classes in Sur |
+| `/coding-classes-in-surrey` | Coding Classes in Surrey |
 | `/coding-classes-in-sweden` | Online Coding & AI Classes in Sweden |
 | `/coding-classes-in-switzerland` | Online Coding & AI Classes in Switzerland |
+| `/coding-classes-in-tallaght-dublin` | Coding Classes in Tallaght, Dublin 24 |
 | `/coding-classes-in-tamil-nadu` | Coding Classes in Tamil Nadu |
+| `/coding-classes-in-taqah` | Coding Classes in Taqah |
 | `/coding-classes-in-telangana` | Coding Classes in Telangana |
+| `/coding-classes-in-temburong` | Coding Classes in Temburong and Bangar |
+| `/coding-classes-in-terenure-dublin` | Coding Classes in Terenure, Dublin |
+| `/coding-classes-in-texas` | Coding Classes in Texas |
+| `/coding-classes-in-the-hague` | Coding Classes in The Hague |
+| `/coding-classes-in-the-hague-centrum` | Coding Classes in Den Haag Centrum |
+| `/coding-classes-in-thumrait` | Coding Classes in Thumrait |
+| `/coding-classes-in-tilburg` | Coding Classes in Tilburg |
+| `/coding-classes-in-tongelre` | Coding Classes in Tongelre, Eindhoven |
+| `/coding-classes-in-tutong` | Coding Classes in Tutong |
 | `/coding-classes-in-uae` | Online Coding & AI Classes in the UAE |
 | `/coding-classes-in-udayan-condoville-em-bypass` | Coding & Maths Classes near Udayan Condoville |
-| `/coding-classes-in-united-kingdom` | Online Coding & AI Classes in the UK |
+| `/coding-classes-in-uithoorn` | Coding Classes in Uithoorn |
+| `/coding-classes-in-united-kingdom` | Coding Classes in the UK |
 | `/coding-classes-in-united-states` | Online Coding & AI Classes in the USA |
 | `/coding-classes-in-uniworld-city` | Coding & Maths Classes near Uniworld City |
 | `/coding-classes-in-upohar` | Coding & Maths Classes near Upohar, EM Bypass |
 | `/coding-classes-in-urbana` | Coding & Maths Classes near Urbana, Anandapur |
+| `/coding-classes-in-utrecht` | Coding Classes in Utrecht |
+| `/coding-classes-in-utrecht-province` | Coding Classes in the Province of Utrecht |
 | `/coding-classes-in-uttar-pradesh` | Coding Classes in Uttar Pradesh |
 | `/coding-classes-in-uttarakhand` | Coding Classes in Uttarakhand |
+| `/coding-classes-in-veenendaal` | Coding Classes in Veenendaal |
+| `/coding-classes-in-velsen` | Coding Classes in Velsen |
+| `/coding-classes-in-venlo` | Coding Classes in Venlo |
+| `/coding-classes-in-virginia` | Coding Classes in Virginia |
+| `/coding-classes-in-vlaardingen` | Coding Classes in Vlaardingen |
+| `/coding-classes-in-voorschoten` | Coding Classes in Voorschoten |
+| `/coding-classes-in-wadi-al-maawil` | Coding Classes in Wadi Al Maawil |
+| `/coding-classes-in-wadi-bani-khalid` | Coding Classes in Wadi Bani Khalid |
+| `/coding-classes-in-washington` | Coding Classes in Washington State |
+| `/coding-classes-in-wassenaar` | Coding Classes in Wassenaar |
+| `/coding-classes-in-weesp` | Coding Classes in Weesp |
 | `/coding-classes-in-west-bengal` | Coding Classes in West Bengal |
+| `/coding-classes-in-westland` | Coding Classes in Westland |
+| `/coding-classes-in-woensel-noord` | Coding Classes in Woensel-Noord, Eindhoven |
+| `/coding-classes-in-woensel-zuid` | Coding Classes in Woensel-Zuid, Eindhoven |
+| `/coding-classes-in-yanqul` | Coding Classes in Yanqul |
+| `/coding-classes-in-zaanstad` | Coding Classes in Zaanstad and Zaandam |
+| `/coding-classes-in-zeeland` | Coding Classes in Zeeland |
+| `/coding-classes-in-zoetermeer` | Coding Classes in Zoetermeer |
+| `/coding-classes-in-zuid-holland` | Coding Classes in Zuid-Holland |
+| `/coding-classes-in-zwolle` | Coding Classes in Zwolle |
 | `/coding-classes-near-ajc-bose-road-kolkata` | Live Online Coding & Maths Classes near AJC Bose Road |
 | `/coding-classes-near-alipore-kolkata` | Live Online Coding & Maths Classes near Alipore, Kolkata |
 | `/coding-classes-near-andul-howrah` | Live Online Coding & Maths Classes near Andul, Howrah |
@@ -1764,58 +2177,62 @@ Listed with titles in Appendix C.
 
 | URL path | Page title |
 |---|---|
-| `/coding-for-10-year-olds` | Coding for 10 Year Olds |
-| `/coding-for-11-year-olds` | Coding for 11 Year Olds - Python, Web Development & AI Projects for Class 6 |
-| `/coding-for-12-year-olds` | Coding for 12 Year Olds - Python, Web Dev, App Building & AI for Class 7 |
-| `/coding-for-13-year-olds` | Coding for 13 Year Olds - Python, Full Stack Web & App Development for Teens |
-| `/coding-for-14-year-olds` | Coding for 14 Year Olds - Python OOP, Full Stack, AI/ML & DSA for Class 9 |
-| `/coding-for-15-year-olds` | Coding for 15 Year Olds - Full Stack, AI/ML & DSA for Class 10 Board Year |
-| `/coding-for-16-year-olds` | Coding for 16 Year Olds - CS Stream, Full Stack, AI/ML & DSA for Class 11 |
-| `/coding-for-17-year-olds` | Coding for 17 Year Olds - Class 12 CS, College Prep, Portfolio & DSA |
-| `/coding-for-8-year-olds` | Coding for 8 Year Olds - Scratch, Block Coding & Creative Projects for Kids |
-| `/coding-for-9-year-olds` | Coding for 9 Year Olds - Scratch, Python Basics & Game Projects for Kids |
-| `/python-for-10-year-olds` | Python for 10 Year Olds - Real Python Programs, Turtle Art & Mini Games |
-| `/python-for-11-year-olds` | Python for 11 Year Olds - Functions, Files & First AI Projects for Class 6 |
-| `/python-for-12-year-olds` | Python for 12 Year Olds - OOP, Pygame, sklearn & Real Projects for Class 7 |
-| `/python-for-13-year-olds` | Python for 13 Year Olds - OOP, Flask APIs, sklearn ML & Portfolio Projects |
-| `/python-for-14-year-olds` | Python for 14 Year Olds - Flask, Django Intro, sklearn ML & Kaggle Projects |
-| `/python-for-15-year-olds` | Python for 15 Year Olds - Board-Safe Python + Django, ML & DSA for Class 10 |
-| `/python-for-16-year-olds` | Python for 16 Year Olds - CS Stream Python, Pandas, ML, Django & DSA |
-| `/python-for-17-year-olds` | Python for 17 Year Olds - Class 12 Board CS, College Portfolio, ML & DSA |
-| `/python-for-9-year-olds` | Python for 9 Year Olds - First Python Programs, Turtle Graphics & Games |
+| `/coding-for-10-year-olds` | Coding Classes for 10 Year Olds Online: Scratch to Python |
+| `/coding-for-11-year-olds` | Coding Classes for 11 Year Olds: Python, Web and AI Projects |
+| `/coding-for-12-year-olds` | Coding Classes for 12 Year Olds: Python, Web, Apps and AI |
+| `/coding-for-13-year-olds` | Coding Classes for 13 Year Olds: Python Course, Web, Apps and AI |
+| `/coding-for-14-year-olds` | Coding Classes for 14 Year Olds: Python OOP, Full Stack and DSA |
+| `/coding-for-15-year-olds` | Coding Classes for 15 Year Olds: Full Stack, AI and DSA, Class 10 |
+| `/coding-for-16-year-olds` | Coding Classes for 16 Year Olds: Full Stack, AI and DSA, Class 11 |
+| `/coding-for-17-year-olds` | Coding Classes for 17 Year Olds: Class 12 CS, DSA and Portfolio |
+| `/coding-for-8-year-olds` | Coding Classes for 8 Year Olds: Scratch and First Games, Live |
+| `/coding-for-9-year-olds` | Coding Classes for 9 Year Olds: Scratch Games and First Python |
+| `/python-for-10-year-olds` | Python for 10 Year Olds: Real Python Programs, Turtle Art & Mini Games |
+| `/python-for-11-year-olds` | Python for 11 Year Olds: Functions, Files & First AI Projects for Class 6 |
+| `/python-for-12-year-olds` | Python for 12 Year Olds: OOP, Pygame, sklearn & Real Projects for Class 7 |
+| `/python-for-13-year-olds` | Python for 13 Year Olds: OOP, Flask APIs, sklearn ML & Portfolio Projects |
+| `/python-for-14-year-olds` | Python for 14 Year Olds: Flask, Django Intro, sklearn ML & Kaggle Projects |
+| `/python-for-15-year-olds` | Python for 15 Year Olds: Board-Safe Python + Django, ML & DSA for Class 10 |
+| `/python-for-16-year-olds` | Python for 16 Year Olds: CS Stream Python, Pandas, ML, Django & DSA |
+| `/python-for-17-year-olds` | Python for 17 Year Olds: Class 12 Board CS, College Portfolio, ML & DSA |
+| `/python-for-9-year-olds` | Python for 9 Year Olds: First Python Programs, Turtle Graphics & Games |
 
 ### B.10 Coding and Python by school class (17)
 
 | URL path | Page title |
 |---|---|
-| `/coding-for-class-10` | Coding for Class 10 - Board-Safe CS Prep, Python, Java, AI & DSA |
-| `/coding-for-class-11` | Coding for Class 11 - CS Stream, Python/Pandas, MERN, AI/ML & DSA in C++ |
-| `/coding-for-class-12` | Coding for Class 12 - Board CS, College-Ready Portfolio, DSA & Competitive Programming |
-| `/coding-for-class-3` | Coding for Class 3 - Scratch, Block Coding & First Python for 8 Year Olds |
-| `/coding-for-class-4` | Coding for Class 4 - Scratch, Block Coding & First Python for 9 Year Olds |
-| `/coding-for-class-5` | Coding for Class 5 - Python, Scratch & AI Tools for 10 Year Olds |
-| `/coding-for-class-6` | Coding for Class 6 - Python, HTML/CSS & AI Projects Matched to CBSE/ICSE Syllabus |
-| `/coding-for-class-7` | Coding for Class 7 - Python, JavaScript, App Dev & AI for CBSE/ICSE Students |
-| `/coding-for-class-8` | Coding for Class 8 - Python OOP, Full Stack, Java & AI for CBSE/ICSE Students |
-| `/coding-for-class-9` | Coding for Class 9 - CBSE/ICSE CS, Python, Java, Full Stack & DSA |
-| `/python-for-class-10` | Python for Class 10 - Board-Safe Python for CBSE IT 402 + College Prep |
-| `/python-for-class-11-cbse` | Python for Class 11 CBSE - CS 083 & IP Aligned, Pandas, SQL, Functions |
-| `/python-for-class-12-cbse` | Python for Class 12 CBSE Board Exam - Full Syllabus, Project, SQL, Sample Papers |
-| `/python-for-class-6` | Python for Class 6 - CBSE Code 166 Python, Turtle, First AI (Age 11) |
-| `/python-for-class-7` | Python for Class 7 - OOP Basics, Pygame, First sklearn for Age 12 Students |
-| `/python-for-class-8` | Python for Class 8 - OOP, Flask API, sklearn, Kaggle Datasets & DSA Intro |
-| `/python-for-class-9` | Python for Class 9 - CBSE Code 402 Python, Flask, Django Intro & Kaggle |
+| `/coding-for-class-10` | Coding for Class 10: Board-Safe CS Prep, Python, Java, AI & DSA |
+| `/coding-for-class-11` | Coding for Class 11: CS Stream, Python/Pandas, MERN, AI/ML & DSA in C++ |
+| `/coding-for-class-12` | Coding for Class 12: Board CS, College-Ready Portfolio, DSA & Competitive Programming |
+| `/coding-for-class-3` | Coding for Class 3: Scratch, Block Coding & First Python for 8 Year Olds |
+| `/coding-for-class-4` | Coding for Class 4: Scratch, Block Coding & First Python for 9 Year Olds |
+| `/coding-for-class-5` | Coding for Class 5: Python, Scratch & AI Tools for 10 Year Olds |
+| `/coding-for-class-6` | Coding for Class 6: Python, HTML/CSS & AI Projects Matched to CBSE/ICSE Syllabus |
+| `/coding-for-class-7` | Coding for Class 7: Python, JavaScript, App Dev & AI for CBSE/ICSE Students |
+| `/coding-for-class-8` | Coding for Class 8: Python OOP, Full Stack, Java & AI for CBSE/ICSE Students |
+| `/coding-for-class-9` | Coding for Class 9: CBSE/ICSE CS, Python, Java, Full Stack & DSA |
+| `/python-for-class-10` | Python for Class 10: Board-Safe Python for CBSE IT 402 + College Prep |
+| `/python-for-class-11-cbse` | Python for Class 11 CBSE: CS 083 & IP Aligned, Pandas, SQL, Functions |
+| `/python-for-class-12-cbse` | Python for Class 12 CBSE Board Exam: Full Syllabus, Project, SQL, Sample Papers |
+| `/python-for-class-6` | Python for Class 6: CBSE Code 166 Python, Turtle, First AI (Age 11) |
+| `/python-for-class-7` | Python for Class 7: OOP Basics, Pygame, First sklearn for Age 12 Students |
+| `/python-for-class-8` | Python for Class 8: OOP, Flask API, sklearn, Kaggle Datasets & DSA Intro |
+| `/python-for-class-9` | Python for Class 9: CBSE Code 402 Python, Flask, Django Intro & Kaggle |
 
-### B.11 Comparison and alternative pages (17)
+### B.11 Comparison and alternative pages (25)
 
 | URL path | Page title |
 |---|---|
+| `/bhanzu-alternative` | Bhanzu Alternative for 2026: Live Maths and Coding, Ages 6 to 67 |
 | `/brightchamps-alternative` | BrightChamps Alternative 2026: Focused Depth, Not Breadth |
 | `/byjus-coding-alternative` | BYJU'S Coding Alternative 2026: Live, Small-Batch, Honest |
+| `/codeyoung-alternative` | Codeyoung Alternative for 2026: Live Small-Batch Coding and Maths |
 | `/coding-vs-maths` | Coding vs Maths: Which Should Your Child Learn? The Honest Answer |
 | `/coding-vs-programming` | Coding vs Programming: The Real Difference & How We Build Programmers |
 | `/codingal-alternative` | Codingal Alternative 2026: Depth-First Coding and Maths |
 | `/cuemath-alternative` | Cuemath Alternative for 2026: A Live Coding and Maths School |
+| `/free-demo-vs-priority-demo` | Free Demo vs Priority Demo |
+| `/live-vs-recorded-coding-classes` | Live vs Recorded Coding Classes for Kids: Which Is Better? |
 | `/modern-age-coders-vs-codingal` | Modern Age Coders vs Codingal: Honest 2026 Comparison |
 | `/modern-age-coders-vs-cuemath` | Modern Age Coders vs Cuemath: Honest 2026 Comparison |
 | `/modern-age-coders-vs-juni-learning` | Modern Age Coders vs Juni Learning: 2026 Comparison |
@@ -1826,7 +2243,11 @@ Listed with titles in Appendix C.
 | `/modern-age-coders-vs-whitehat-jr-cuemath-codingal` | Modern Age Coders vs WhiteHat Jr, Cuemath & Codingal - Honest Comparison |
 | `/private-math-tutor-vs-online-tutoring` | Private Math Tutor vs Online Tutoring: 2026 Decision Guide |
 | `/tynker-alternative` | Tynker Alternative 2026: A Live Teacher, Not an App Alone |
+| `/vedantu-alternative` | Vedantu Alternative for 2026: Live Coding and Maths Classes |
+| `/vibe-coding-vs-building-ai-netherlands` | Vibe Coding vs Building AI in the Netherlands |
+| `/vibe-coding-vs-building-ai-oman` | Vibe Coding vs Building AI: A Guide for Parents in Oman |
 | `/whitehat-jr-alternative` | WhiteHat Jr Alternative in 2026: Real Mentors, Not Scripts |
+| `/year-round-coding-classes-vs-summer-camps-bahamas` | Year-Round Coding Classes vs Summer Camps in The Bahamas |
 
 ### B.12 Camps (summer and winter) (9)
 
@@ -1842,29 +2263,38 @@ Listed with titles in Appendix C.
 | `/winter-coding-camp-kids` | Winter Coding Camp for Kids 2026 (Ages 6-11) |
 | `/winter-coding-camp-teens` | Winter Coding Camp for Teens 2026 (Ages 12-17) |
 
-### B.13 Mathematics landing pages (68)
+### B.13 Mathematics landing pages (86)
 
 | URL path | Page title |
 |---|---|
 | `/11-plus-maths-tuition` | 11 Plus Maths Tuition Online · 1:1 GL & CEM 11+ Maths Prep |
+| `/11-plus-maths-tuition-kent` | 11 Plus Maths Tuition Kent |
 | `/a-level-maths-tuition-online` | A-Level Maths Tuition Online · 1:1 Pure, Mechanics & Statistics |
 | `/a-level-maths-tutor-uae` | A-Level Maths Tutor in the UAE · 1:1 Online Pure, Mechanics & Statistics |
 | `/act-math-tutoring-online` | ACT Math Tutoring Online · 1:1 ACT Math Prep |
+| `/advanced-higher-maths-tuition-online` | Advanced Higher Maths Tuition Online |
 | `/algebra-2-tutoring-online` | Algebra 2 Tutoring Online |
 | `/algebra-tutoring-online-usa` | Algebra Tutoring Online (USA) · 1:1 Pre-Algebra, Algebra 1 & 2 |
 | `/american-maths-tutor-uae` | American Curriculum & SAT Maths Tutor in the UAE · 1:1 Online |
 | `/ap-calculus-tutoring-online` | AP Calculus Tutoring Online · 1:1 AP Calculus AB & BC Prep |
+| `/ap-computer-science-a-online-classes` | AP Computer Science A Online Classes |
+| `/ap-computer-science-principles-online-coaching` | AP Computer Science Principles Online Coaching |
 | `/ap-statistics-tutoring-online` | AP Statistics Tutoring Online · 1:1 AP Stats Prep |
+| `/australian-maths-trust-amc-aio-cat-preparation` | Australian Maths Trust Prep: AMC, AIO and CAT, Live Online |
 | `/best-online-math-tutoring-2026` | Best Online Math Tutoring 2026: Ranked Honestly, With Sources |
 | `/best-online-maths-classes-2026` | Best Online Maths Classes for Kids 2026: Ranked Honestly |
 | `/calculus-tutoring-online` | Calculus Tutoring Online |
-| `/cbse-maths-tutor-uae` | CBSE Maths Tutor in the UAE · 1:1 Online CBSE & ICSE - Class 6 to 12 |
+| `/cbse-icse-maths-tuition-online` | CBSE and ICSE Maths Tuition Online, Class 6 to 12: Live Batches |
+| `/cbse-maths-tutor-uae` | CBSE Maths Tutor in the UAE · 1:1 Online CBSE & ICSE: Class 6 to 12 |
+| `/ccea-gcse-maths-help` | CCEA GCSE Maths Help |
 | `/common-entrance-maths-tuition` | Common Entrance Maths Tuition · 1:1 ISEB 13+ & 11+ Maths |
 | `/functional-skills-maths-tuition-online` | Functional Skills Maths Tuition Online · 1:1 Entry 3, Level 1 & Level 2 |
 | `/further-maths-tuition-online` | Further Maths Tuition Online · 1:1 A-Level Further Mathematics |
+| `/gcse-maths-and-numeracy-wales-help` | GCSE Maths and Numeracy Help, Wales |
 | `/gcse-maths-tuition-online` | GCSE Maths Tuition Online · 1:1 AQA, Edexcel & OCR |
-| `/gcse-maths-tutor-uae` | GCSE Maths Tutor in the UAE · 1:1 Online IGCSE & GCSE - AQA, Edexcel, OCR, CIE |
+| `/gcse-maths-tutor-uae` | GCSE Maths Tutor in the UAE · 1:1 Online IGCSE & GCSE: AQA, Edexcel, OCR, CIE |
 | `/geometry-tutoring-online-usa` | Geometry Tutoring Online (USA) · 1:1 High School Geometry & Proofs |
+| `/higher-maths-tuition-online` | Higher Maths Tuition Online |
 | `/homeschool-math-curriculum-usa` | Homeschool Math Curriculum (USA) · 1:1 Online Math for Homeschoolers |
 | `/ib-maths-tuition-online` | IB Maths Tuition Online |
 | `/ib-maths-tutor-uae` | IB Maths Tutor in the UAE · 1:1 Maths AA & AI (SL & HL) |
@@ -1873,15 +2303,19 @@ Listed with titles in Appendix C.
 | `/ks2-maths-tuition-online` | KS2 Maths Tuition Online · 1:1 Year 3-6 & SATs Maths |
 | `/ks3-maths-tuition-online` | KS3 Maths Tuition Online · 1:1 Year 7-9 Maths |
 | `/math-catch-up-program` | Math Catch-Up Program |
+| `/math-kangaroo-usa-preparation` | Math Kangaroo USA Preparation: Live Online, Grades 1 to 12 |
 | `/math-olympiad-amc-tutoring` | Math Olympiad & AMC Tutoring Online · 1:1 AMC 8/10/12 & MATHCOUNTS Coaching |
 | `/maths-behind-machine-learning` | The Maths Behind Machine Learning - Linear Algebra, Calculus & Probability for AI |
 | `/maths-class-10` | Maths Tuition for Class 10 |
-| `/maths-classes-for-adults-uae` | Maths Classes for Adults in the UAE · 1:1 Online - Work, Study & GMAT/GRE |
+| `/maths-classes-for-adults-uae` | Maths Classes for Adults in the UAE · 1:1 Online: Work, Study & GMAT/GRE |
+| `/maths-olympiad-classes-online` | Maths Olympiad Classes Online: Which Contest, and How to Enter |
+| `/maths-olympiad-training-uk` | Maths Olympiad Training UK |
 | `/maths-tuition-for-kids-uae` | Maths Tuition for Kids in the UAE · 1:1 Online Primary Maths |
 | `/maths-tuition-for-teens-uae` | Maths Tuition for Teens in the UAE · 1:1 Online Secondary Maths |
 | `/maths-tutor-in-abu-dhabi` | Maths Tutor in Abu Dhabi · 1:1 Online Maths Tuition, Every Curriculum |
 | `/maths-tutor-in-dubai` | Maths Tutor in Dubai · 1:1 Online Maths Tuition, Every Curriculum |
 | `/maths-tutor-in-sharjah` | Maths Tutor in Sharjah · 1:1 Online Maths Tuition, Every Curriculum |
+| `/national-5-maths-tuition-online` | National 5 Maths Tuition Online |
 | `/online-math-tutor-10th-grade` | Online Math Tutor for 10th Grade |
 | `/online-math-tutor-11th-grade` | Online Math Tutor for 11th Grade |
 | `/online-math-tutor-12th-grade` | Online Math Tutor for 12th Grade |
@@ -1910,32 +2344,66 @@ Listed with titles in Appendix C.
 | `/online-maths-tutoring-for-kids-in-usa` | Online Maths Tutoring for Kids in the USA · 1:1 Elementary Math (K-5) |
 | `/online-maths-tutoring-for-teens-in-usa` | Online Maths Tutoring for Teens in the USA · 1:1 Middle & High School Math |
 | `/precalculus-tutoring-online` | Precalculus Tutoring Online |
+| `/primary-maths-challenge-practice` | Primary Maths Challenge Practice |
 | `/sat-math-tutoring-online` | SAT Math Tutoring Online · 1:1 Digital SAT Math Prep |
 | `/singapore-math-method-tutoring` | Singapore Math Method Tutoring Online |
 | `/summer-math-program-online` | Online Summer Math Program 2026 |
+| `/transfer-test-maths-practice-northern-ireland` | Transfer Test Maths Practice, Northern Ireland |
+| `/uk-coding-maths-and-ai-competitions-calendar` | UK Coding, Maths and AI Competitions 2026-27 |
 | `/ukmt-maths-challenge-tutoring` | UKMT Maths Challenge Tutoring · 1:1 Junior, Intermediate & Senior Challenge |
+| `/ukmt-team-maths-challenge-practice` | UKMT Team Maths Challenge Practice |
+| `/why-coding-and-maths-together` | Why Coding and Maths Together |
 
-### B.14 AI and machine learning pages (30)
+### B.14 AI and machine learning pages (63)
 
 | URL path | Page title |
 |---|---|
 | `/ai-agents-and-automation` | AI Agents & Automation for Business |
 | `/ai-agents-course` | AI Agents Course |
-| `/ai-agents-explained` | AI Agents Explained - How to Actually Build One That Doesn't Hallucinate Itself Into Pi... |
+| `/ai-agents-course-for-professionals-ireland` | AI Agents Course for Professionals in Ireland |
+| `/ai-agents-course-for-professionals-netherlands` | AI Agents Course for Professionals, Netherlands |
+| `/ai-agents-course-for-professionals-uk` | AI Agents Course for Professionals in the UK |
+| `/ai-agents-course-for-students-ireland` | AI Agents Course for Students in Ireland |
+| `/ai-agents-course-for-students-netherlands` | AI Agents Course for Students in the Netherlands |
+| `/ai-agents-course-for-students-oman` | AI Agents Course for Students in Oman |
+| `/ai-agents-course-for-students-uk` | AI Agents Course for University Students in the UK |
+| `/ai-agents-explained` | AI Agents Explained: How to Actually Build One That Doesn't Hallucinate Itself Into Pieces |
+| `/ai-agents-for-teens` | AI Agents for Teens |
 | `/ai-and-machine-learning-for-working-professionals` | AI & Machine Learning for Working Professionals |
+| `/ai-and-python-academy-amsterdam` | AI and Python Academy, Amsterdam |
+| `/ai-and-python-academy-eindhoven` | AI and Python Academy, Eindhoven |
+| `/ai-and-python-academy-for-girls-ireland` | AI and Python Academy for Girls in Ireland |
+| `/ai-and-python-academy-for-girls-netherlands` | AI and Python Academy for Girls, Netherlands |
+| `/ai-and-python-academy-for-girls-oman` | Coding and AI Classes for Girls in Oman |
+| `/ai-and-python-academy-for-girls-uk` | AI and Python Classes for Girls in the UK |
+| `/ai-and-python-academy-groningen` | AI and Python Academy, Groningen |
+| `/ai-and-python-academy-netherlands` | AI and Python Academy, Netherlands |
+| `/ai-and-python-academy-nizwa` | AI and Python Academy for Students in Nizwa |
+| `/ai-and-python-academy-oman` | AI and Python Academy for Students in Oman |
+| `/ai-and-python-academy-rotterdam` | AI and Python Academy, Rotterdam |
+| `/ai-and-python-academy-salalah` | AI and Python Academy for Students in Salalah |
+| `/ai-and-python-academy-sohar` | AI and Python Academy for Students in Sohar |
+| `/ai-and-python-academy-the-hague` | AI and Python Academy, The Hague |
+| `/ai-and-python-academy-utrecht` | AI and Python Academy, Utrecht |
+| `/ai-classes-for-adults` | AI Classes for Adults |
 | `/ai-classes-for-beginners` | AI Classes for Beginners - Start From Zero, No Experience Needed |
 | `/ai-classes-for-cbse-class-6-to-8` | CBSE AI Classes for Class 6-8: Where AI Literacy Actually Begins |
 | `/ai-classes-for-kids` | AI Classes for Kids (Ages 6-12) - Fun, Live, Project-Based |
 | `/ai-classes-for-kids-in-uae` | AI Classes for Kids in UAE |
+| `/ai-classes-for-kids-uk` | AI Classes for Kids in the UK |
 | `/ai-classes-for-teenagers` | AI Classes for Teenagers (13-18) - Build Real AI Projects & a Portfolio |
+| `/ai-coding-course` | AI Coding Course |
 | `/ai-course-for-beginners` | AI Course for Beginners |
 | `/ai-development-services` | AI Development Company |
-| `/ai-engineer-roadmap-2026` | The AI Engineer Roadmap 2026 - From Python Day One to Shipping AI in Production |
+| `/ai-engineer-roadmap-2026` | The AI Engineer Roadmap 2026: From Python Day One to Shipping AI in Production |
+| `/ai-evaluations-course` | AI Evaluations Course |
+| `/ai-literacy-for-students` | AI Literacy for Students |
 | `/ai-ml-certification-course` | AI & ML Certification Course |
 | `/ai-ml-course-for-college-students` | AI & ML Course for College Students |
-| `/ai-ml-course-for-teens` | AI & ML Course for Kids & Teens - Learn Artificial Intelligence |
+| `/ai-ml-course-for-teens` | AI & ML Course for Kids & Teens: Learn Artificial Intelligence |
 | `/ai-ml-projects-for-students` | AI & ML Projects for Students |
 | `/ai-projects-for-high-school-students` | AI Projects for High School Students |
+| `/ai-projects-for-kids` | AI Projects for Kids |
 | `/artificial-intelligence-course` | Artificial Intelligence Course |
 | `/best-ai-and-machine-learning-course-in-india` | Best AI & Machine Learning Course in India |
 | `/build-machine-learning-models-in-python` | Build Machine Learning Models in Python |
@@ -1944,23 +2412,58 @@ Listed with titles in Appendix C.
 | `/deep-learning-with-tensorflow-and-pytorch` | Deep Learning with TensorFlow & PyTorch |
 | `/generative-ai-course` | Generative AI Course |
 | `/how-computer-vision-works` | How Computer Vision Works - CNNs, Feature Maps & Object Detection Explained |
+| `/how-llms-actually-work` | How LLMs Actually Work |
 | `/how-to-train-machine-learning-models` | How to Train Machine Learning Models |
 | `/machine-learning-course-for-beginners` | Machine Learning Course for Beginners |
-| `/machine-learning-from-scratch` | Machine Learning From Scratch - Build Real AI/ML Models (College & Professionals) |
+| `/machine-learning-for-school-students-netherlands` | Machine Learning for School Students, Netherlands |
+| `/machine-learning-for-school-students-oman` | Machine Learning for School Students in Oman |
+| `/machine-learning-from-scratch` | Machine Learning From Scratch: Build Real AI/ML Models (College & Professionals) |
 | `/online-ai-and-machine-learning-classes` | Online AI & Machine Learning Classes |
 | `/python-for-machine-learning` | Python for Machine Learning |
+| `/uk-olympiad-in-artificial-intelligence-preparation` | UK Olympiad in AI Preparation |
 
-### B.15 Programming language and topic pages (101)
+### B.15 Programming language and topic pages (261)
 
 | URL path | Page title |
 |---|---|
+| `/a-level-computer-science-nea-help` | A-Level Computer Science NEA Help |
+| `/advanced-higher-computing-science-project-help` | Advanced Higher Computing Science Project Help |
+| `/after-code-club-next-step-coding-uk` | After Code Club: The Next Step in Coding, UK |
+| `/after-coderdojo-next-step-coding-ireland` | After CoderDojo: The Next Step in Coding in Ireland |
+| `/after-microbit-next-step-python-uk` | After the micro:bit: The Next Step to Python, UK |
+| `/agentic-coding-classes` | Agentic Coding Classes |
+| `/app-development-course-ireland` | App Development Course in Ireland |
+| `/app-development-course-netherlands` | App Development Course in the Netherlands |
+| `/app-development-course-uk` | App Development Course in the UK |
+| `/aqa-a-level-computer-science-7517-help` | AQA A-level Computer Science 7517 Help |
+| `/aqa-gcse-computer-science-8525-help` | AQA GCSE Computer Science 8525 Help |
+| `/astro-pi-mission-zero-and-space-lab-help` | Astro Pi Mission Zero Help |
+| `/bebras-computational-thinking-challenge-practice-uk` | UK Bebras Challenge Practice |
 | `/best-age-to-start-coding` | Best Age to Start Coding? The Honest Age-by-Age Answer |
+| `/best-ai-courses-for-teens-2026` | Best AI Courses for Teens 2026 |
 | `/best-c-plus-plus-classes-in-india` | Best C++ Classes in India |
-| `/best-coding-classes-online` | Best Coding Classes for Kids in India and Worldwide |
+| `/best-coding-classes-for-adults-ireland` | Best Coding Classes for Adults in Ireland |
+| `/best-coding-classes-for-adults-uk` | Best Coding Classes for Adults in the UK |
+| `/best-coding-classes-for-kids-ireland` | Best Coding Classes for Kids in Ireland |
+| `/best-coding-classes-for-teens-ireland` | Best Coding Classes for Teens in Ireland |
+| `/best-coding-classes-for-teens-uk` | Best Coding Classes for Teens in the UK |
+| `/best-coding-classes-online` | Best Online Coding Classes for Kids, Teens and Adults |
 | `/best-java-classes-in-india` | Best Java Classes in India |
-| `/best-online-coding-classes-for-kids-2026` | Best Online Coding Classes for Kids 2026: Ranked Honestly |
+| `/best-online-coding-classes-for-kids-2026` | Online Coding Classes for Kids: Best Live Options, Ranked (2026) |
+| `/best-online-coding-classes-ireland` | Best Online Coding Classes in Ireland |
+| `/best-online-coding-classes-uk` | Best Online Coding Classes in the UK |
+| `/best-python-classes-online-ireland` | Best Python Classes Online in Ireland |
+| `/best-python-classes-online-uk` | Best Python Classes Online in the UK |
+| `/big-bang-competition-project-help` | Big Bang Competition Project Help |
 | `/bootstrap` | Complete Bootstrap 5.3 Guide - Learn Bootstrap from Scratch |
-| `/build-your-own-gpt-python` | Build Your Own GPT in Python - From Tokenizer to Trained Model in 300 Lines |
+| `/british-informatics-olympiad-preparation` | British Informatics Olympiad Preparation |
+| `/british-mathematical-olympiad-bmo-preparation` | British Mathematical Olympiad Preparation |
+| `/build-apps-with-ai` | Build Apps with AI |
+| `/build-real-ai-projects-ireland` | Build Real AI Projects in Ireland |
+| `/build-real-ai-projects-netherlands` | Build Real AI Projects in the Netherlands |
+| `/build-real-ai-projects-oman` | Build Real AI Projects: Oman Student Portfolios |
+| `/build-real-ai-projects-uk` | Build Real AI Projects in the UK |
+| `/build-your-own-gpt-python` | Build Your Own GPT in Python: From Tokenizer to Trained Model in 300 Lines |
 | `/c-plus-plus-certification-course` | C++ Certification Course |
 | `/c-plus-plus-classes-for-college-students` | C++ Classes for College Students |
 | `/c-plus-plus-classes-for-teens` | C++ Classes for Teens |
@@ -1971,170 +2474,308 @@ Listed with titles in Appendix C.
 | `/c-plus-plus-game-development` | C++ Game Development Course |
 | `/c-plus-plus-oops-concepts-course` | C++ OOP Concepts Course |
 | `/c-plus-plus-projects-for-students` | C++ Projects for Students |
+| `/cambridge-a-level-computer-science-online-classes` | Cambridge A Level Computer Science 9618 Online Classes |
+| `/cambridge-igcse-computer-science-tuition` | Cambridge IGCSE Computer Science Tuition |
+| `/canadian-computing-competition-ccc-prep` | Canadian Computing Competition Prep |
 | `/cbse-ai-curriculum-classes` | CBSE's Computational Thinking & AI Curriculum (2026-27): A Parent's Complete Guide |
+| `/cbse-class-10-ai-board-exam-preparation` | CBSE Class 10 AI Board Exam Preparation |
+| `/cbse-class-10-ai-classes-online` | CBSE Class 10 AI Classes Online (417) |
+| `/cbse-class-10-ai-project-and-practical-file` | CBSE Class 10 AI Project and Practical File |
+| `/cbse-class-10-ai-syllabus-explained` | CBSE Class 10 AI Syllabus 2026-27 (417) Explained, Unit by Unit |
 | `/cbse-computational-thinking-classes-3-to-5` | CBSE Computational Thinking for Classes 3-5: What Your Child Actually Learns |
-| `/coding-comeback-women` | Coding Comeback for Women - Return to Tech After a Career Break, Maternity Pause or Sab... |
-| `/coding-for-cbse-students` | Coding for CBSE Students - Python, CS & Informatics Practices from Class 6 to 12 |
-| `/coding-for-icse-students` | Coding for ICSE Students - Java BlueJ, Computer Applications & ISC CS |
-| `/coding-for-igcse-students` | Coding for IGCSE Students - Cambridge CS 0478, 0984, ICT & Python |
-| `/coding-lang` | Learn Programming Languages & Frameworks |
-| `/coding-olympiad-medal-track` | Coding Olympiad Medal Track - IOQI, ZIO, INOI, IOI, Bebras, Math Kangaroo Coaching |
-| `/computer-applications-icse-class-10` | Computer Applications ICSE Class 10 - Java BlueJ Tuition, Project & Viva Prep |
-| `/computer-science-class-11-cbse` | Computer Science Class 11 CBSE - Python, Boolean Logic & Full Syllabus Tuition |
-| `/computer-science-class-11-icse` | Computer Science Class 11 ICSE - Java OOP, Boolean Algebra & ISC Full Syllabus |
-| `/computer-science-class-12-cbse` | Computer Science Class 12 CBSE - Python Data Structures, SQL & Full Board Tuition |
-| `/computer-science-class-12-icse` | Computer Science Class 12 ICSE - ISC Java Data Structures, Recursion & Board Prep |
+| `/ccea-a-level-software-systems-development-help` | CCEA A Level Software Systems Development Help |
+| `/ccea-gcse-digital-technology-programming-help` | CCEA GCSE Digital Technology Programming Help |
+| `/cemc-waterloo-contests-preparation` | CEMC Waterloo Contest Preparation: Gauss to Euclid, Live Online |
+| `/choosing-gcse-computer-science-year-9-options` | Choosing GCSE Computer Science |
+| `/coding-alongside-informatica-havo-vwo-netherlands` | Coding Alongside Informatica, Havo and Vwo |
+| `/coding-and-ai-alongside-bjc-and-bgcse-bahamas` | Coding and AI Alongside BJC and BGCSE in The Bahamas |
+| `/coding-and-ai-classes-for-adults-netherlands` | Coding and AI Classes for Adults, Netherlands |
+| `/coding-and-ai-classes-in-bahamas` | Coding and AI Classes in The Bahamas |
+| `/coding-and-ai-classes-in-connacht` | Coding and AI Classes in Connacht |
+| `/coding-and-ai-classes-in-england` | Coding and AI Classes in England |
+| `/coding-and-ai-classes-in-leinster` | Coding and AI Classes in Leinster |
+| `/coding-and-ai-classes-in-munster` | Coding and AI Classes in Munster |
+| `/coding-and-ai-classes-in-nassau` | Coding and AI Classes in Nassau, Bahamas |
+| `/coding-and-ai-classes-in-northern-ireland` | Coding and AI Classes in Northern Ireland |
+| `/coding-and-ai-classes-in-scotland` | Coding and AI Classes in Scotland |
+| `/coding-and-ai-classes-in-ulster` | Coding and AI Classes in Ulster |
+| `/coding-and-ai-classes-in-wales` | Coding and AI Classes in Wales |
+| `/coding-before-a-degree-apprenticeship-uk` | Coding Before a Degree Apprenticeship, UK |
+| `/coding-comeback-women` | Coding Comeback for Women: Return to Tech After a Career Break, Maternity Pause or Sabb... |
+| `/coding-competitions-for-students-bahamas` | Coding Competitions for Students in The Bahamas |
+| `/coding-for-cbse-students` | Coding for CBSE Students: Python, CS & Informatics Practices from Class 6 to 12 |
+| `/coding-for-college-students-ireland` | Coding for College Students in Ireland |
+| `/coding-for-college-students-netherlands` | Coding for College Students in the Netherlands |
+| `/coding-for-home-educated-children-uk` | Coding for Home-Educated Children, UK |
+| `/coding-for-icse-students` | Coding for ICSE Students: Java BlueJ, Computer Applications & ISC CS |
+| `/coding-for-igcse-students` | Coding for IGCSE Students: Cambridge CS 0478, 0984, ICT & Python |
+| `/coding-for-university-students-uk` | Coding for University Students in the UK |
+| `/coding-lang` | Programming Languages, Frameworks and Tools to Learn in 2026: The Complete Guide |
+| `/coding-olympiad-medal-track` | Coding Olympiad Medal Track: IOQI, ZIO, INOI, IOI, Bebras, Math Kangaroo Coaching |
+| `/computer-applications-icse-class-10` | Computer Applications ICSE Class 10: Java BlueJ Tuition, Project & Viva Prep |
+| `/computer-science-class-11-cbse` | Computer Science Class 11 CBSE: Python, Boolean Logic & Full Syllabus Tuition |
+| `/computer-science-class-11-icse` | Computer Science Class 11 ICSE: Java OOP, Boolean Algebra & ISC Full Syllabus |
+| `/computer-science-class-12-cbse` | Computer Science Class 12 CBSE: Python Data Structures, SQL & Full Board Tuition |
+| `/computer-science-class-12-icse` | Computer Science Class 12 ICSE: ISC Java Data Structures, Recursion & Board Prep |
 | `/computer-science-extracurriculars` | Computer Science Extracurriculars, Ranked by What Actually Counts |
-| `/cpa-cpp-certification-prep` | CPA C++ Certification (CPA-21-02) - Full Exam Guide, Syllabus & Live Coaching |
+| `/context-engineering-course` | Context Engineering Course |
+| `/coolest-projects-uk-project-ideas` | Coolest Projects UK |
+| `/cpa-cpp-certification-prep` | CPA C++ Certification (CPA-21-02): Full Exam Guide, Syllabus & Live Coaching |
+| `/cyber-security-course-for-teens-uk` | Cyber Security Course for Teens in the UK |
+| `/cyberfirst-girls-competition-preparation` | CyberFirst Girls Competition Preparation |
 | `/data-analytics-course` | Data Analytics Course |
 | `/data-science-course` | Data Science Course |
-| `/data-structures-and-algorithms-course` | DSA Course - Build Your Logic with Data Structures & Algorithms |
+| `/data-science-course-ireland` | Data Science Course in Ireland |
+| `/data-science-course-netherlands` | Data Science Course in the Netherlands |
+| `/data-science-course-uk` | Data Science Course in the UK |
+| `/data-structures-and-algorithms-course` | DSA Course: Build Your Logic with Data Structures & Algorithms |
+| `/edexcel-gcse-computer-science-1cp2-help` | Edexcel GCSE Computer Science 1CP2 Help |
+| `/first-competitions-for-primary-school-children-uk` | First Competitions for Primary School Children UK |
+| `/first-lego-league-uk-coding-help` | FIRST LEGO League UK Coding Help |
+| `/full-stack-software-development-course-ireland` | Full Stack Software Development Course |
+| `/full-stack-software-development-course-netherlands` | Full Stack Software Development Course, Netherlands |
+| `/full-stack-software-development-course-uk` | Full Stack Software Development Course, UK |
 | `/gazette` | The Modern Age Coders Gazette |
-| `/hackathon` | Modern Age Coders Hackathon 1.0 (June 2026) - ₹30,000 Prize Pool |
-| `/hackathon-guide` | Hackathon 1.0 Guide (June 2026) - How It Worked, 3 Rounds, Rules & What to Build |
+| `/github-portfolio-for-students-bahamas` | GitHub Portfolios for Bahamian Students |
+| `/hackathon` | Modern Age Coders Hackathon 1.0 (June 2026): ₹30,000 Prize Pool |
+| `/hackathon-guide` | Hackathon 1.0 Guide (June 2026): How It Worked, 3 Rounds, Rules & What to Build |
 | `/hackathons-for-high-school-students` | Hackathons for High School Students |
+| `/higher-computing-science-help` | Higher Computing Science Help |
 | `/homeschool-coding-curriculum` | Homeschool Coding Curriculum |
-| `/how-ai-actually-works` | How AI Actually Works - A First-Principles Guide to LLMs, Tokens, Embeddings and Transf... |
+| `/how-ai-actually-works` | How AI Actually Works: A First-Principles Guide to LLMs, Tokens, Embeddings and Transfo... |
 | `/how-large-language-models-work` | How Large Language Models Work - Understand Tokens, Embeddings & Attention |
+| `/how-to-actually-learn-to-code` | How to Actually Learn to Code |
+| `/how-to-book-a-priority-demo` | How to Book a Priority Demo |
 | `/how-to-build-a-coding-portfolio` | How To Build a Coding Portfolio That Holds Up Under Questioning |
 | `/how-to-build-ai-models` | How to Build AI Models |
-| `/inside-neural-networks` | Inside Neural Networks - How Deep Learning Really Works, From Perceptron to Transformer |
+| `/how-to-debug-code` | How to Debug Code: Search, Do Not Guess |
+| `/how-to-read-code` | How to Read Code: A Method, Not a Talent |
+| `/how-to-think-like-a-programmer` | How to Think Like a Programmer |
+| `/ib-computer-science-online-tuition` | IB Computer Science Online Tuition |
+| `/icse-class-10-bluej-java-coaching` | ICSE Class 10 BlueJ Java Coaching |
+| `/icse-class-10-computer-applications-board-exam-preparation` | ICSE Class 10 Computer Applications Board Exam Preparation |
+| `/icse-class-10-computer-applications-syllabus-explained` | ICSE Class 10 Computer Applications Syllabus 2026-27 Explained |
+| `/icse-class-10-java-classes-online` | ICSE Class 10 Java Classes Online |
+| `/icse-class-10-java-programs-practice` | ICSE Class 10 Java Programs Practice |
+| `/indian-computing-olympiad-preparation` | Indian Computing Olympiad Prep: ZIO, ZCO and INOI, Live Online |
+| `/inside-neural-networks` | Inside Neural Networks: How Deep Learning Really Works, From Perceptron to Transformer |
+| `/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation` | Cayley, Hamilton and Maclaurin Preparation |
+| `/ioi-olympiad-informatics-training` | IOI and Informatics Olympiad Training |
+| `/ioqm-rmo-inmo-preparation` | IOQM, RMO and INMO Preparation Online: India's Olympiad Pathway |
 | `/java-certification-course` | Java Certification Course |
 | `/java-classes-for-adults` | Java Classes for Adults |
 | `/java-classes-for-teens` | Java Classes for Teens |
+| `/java-classes-ireland` | Java Classes in Ireland |
+| `/java-classes-netherlands` | Java Classes in the Netherlands |
+| `/java-classes-uk` | Java Classes in the UK |
 | `/java-dsa-course` | Java DSA Course |
 | `/java-for-beginners` | Java for Beginners |
 | `/java-oops-concepts-course` | Java OOP Concepts Course |
 | `/java-programming-for-icse-students` | Java for ICSE & ISC Students |
 | `/java-programming-for-kids-teens` | Java Programming for Kids & Teens: Learn Java Online |
 | `/java-projects-for-students` | Java Projects for Students |
-| `/jee-aspirant-coding-track` | JEE Aspirant Coding Track - Python & Computational Maths for Class 11 & 12 Without Dist... |
+| `/jee-aspirant-coding-track` | JEE Aspirant Coding Track: Python & Computational Maths for Class 11 & 12 Without Distu... |
+| `/junior-cycle-coding-short-course-help` | Junior Cycle Coding Short Course Help |
+| `/junior-mathematical-olympiad-preparation` | Junior Mathematical Olympiad Preparation |
+| `/ks2-coding-lessons-online` | Key Stage 2 Coding Lessons Online |
+| `/ks3-computing-tuition-online` | Key Stage 3 Computing Tuition Online |
 | `/large-language-models-course` | Large Language Models Course (LLMs) |
 | `/learn-coding-by-age` | Learn Coding by Age (8-17) |
 | `/learn-coding-by-class` | Learn Coding by Class (4-12) |
-| `/learn-coding-from-first-principles` | Learn Coding From First Principles - Understand How Code Actually Works |
+| `/learn-coding-from-first-principles` | Learn Coding From First Principles: Understand How Code Actually Works |
 | `/learn-to-build-ai` | Learn to Build AI, Not Just Use It |
+| `/learn-to-code-over-50-uk` | Learn to Code Over 50, UK |
+| `/learn-to-code-with-ai` | Learn to Code with AI |
+| `/learn-to-think-not-just-use-ai-tools-ireland` | Learn to Think, Not Just Use AI Tools |
+| `/learn-to-think-not-just-use-ai-tools-uk` | Learn to Think, Not Just Use AI Tools |
+| `/learn-to-train-ai-not-just-prompt-it-ireland` | Learn to Train AI, Not Just Prompt It |
+| `/learn-to-train-ai-not-just-prompt-it-uk` | Learn to Train AI, Not Just Prompt It |
+| `/leaving-cert-computer-science-grinds-online` | Leaving Cert Computer Science Grinds Online |
 | `/levels/coding-for-college-students` | Coding for College Students - Python, DSA, Web Dev & AI |
 | `/levels/coding-for-kids` | Online Coding Classes for Kids Ages 6-12 |
 | `/levels/coding-for-professionals` | Coding for Adults & Beginners: Career Switch to Tech |
 | `/levels/coding-for-teens` | Coding for Teenagers Ages 13-18 |
 | `/levels/corporate-training` | Corporate Coding Training |
-| `/master-ai-ml-python-java` | Master AI, ML, Python & Java - Go Deeper |
+| `/master-ai-ml-python-java` | Master AI, ML, Python & Java: Go Deeper |
+| `/mathcounts-preparation` | MATHCOUNTS Preparation Online: Sprint, Target, Team, Countdown |
+| `/mathematical-olympiad-for-girls-preparation` | Mathematical Olympiad for Girls Preparation |
 | `/minecraft-coding-classes-for-kids` | Minecraft Coding Classes for Kids |
 | `/mobile-app-development-services` | Mobile App Development Company |
+| `/model-context-protocol-mcp-course` | Model Context Protocol (MCP) Course |
+| `/multiplication-tables-check-year-4-practice` | Multiplication Tables Check Practice, Year 4 |
 | `/mvp-development-company` | MVP Development Company for Startups |
+| `/national-5-computing-science-help` | National 5 Computing Science Help |
+| `/national-cipher-challenge-preparation` | National Cipher Challenge Preparation |
 | `/natural-language-processing-course` | Natural Language Processing Course (NLP) |
 | `/neural-networks-course` | Neural Networks Course |
-| `/numpy-pandas-matplotlib-masterclass` | NumPy, Pandas & Matplotlib Masterclass - Python Data Analysis in Depth |
-| `/oca-java-certification-prep` | OCA Java SE 8 Certification (1Z0-808) - Full Exam Guide, Objectives & Live Coaching |
+| `/new-computing-gcse-explained` | The New Computing GCSE Explained |
+| `/numpy-pandas-matplotlib-masterclass` | NumPy, Pandas & Matplotlib Masterclass: Python Data Analysis in Depth |
+| `/oca-java-certification-prep` | OCA Java SE 8 Certification (1Z0-808): Full Exam Guide, Objectives & Live Coaching |
+| `/ocr-a-level-computer-science-h446-help` | OCR A-level Computer Science H446 Help |
+| `/ocr-gcse-computer-science-j277-help` | OCR GCSE Computer Science J277 Help |
+| `/one-on-one-ai-classes` | One to One AI Classes |
+| `/one-to-one-coding-classes-in-nassau` | One to One Coding Classes in Nassau |
+| `/one-to-one-coding-classes-netherlands` | One-to-One Coding Classes in the Netherlands |
 | `/online-c-plus-plus-classes` | Online C++ Classes |
+| `/online-coding-classes-cost` | How Much Do Coding Classes Cost in 2026? Fees by Format |
 | `/online-coding-classes-for-kids-uk` | Online Coding Classes for Kids in the UK |
 | `/online-coding-classes-for-kids-usa` | Online Coding Classes for Kids in the USA |
+| `/online-coding-summer-course-ireland` | Online Coding Summer Course in Ireland |
+| `/online-coding-summer-course-uk` | Online Coding Summer Course, UK |
+| `/online-coding-tutor-uk` | Online Coding Tutor UK |
 | `/online-java-classes` | Online Java Classes |
+| `/oxford-university-computing-challenge-preparation` | Oxford University Computing Challenge |
+| `/parents-guide-to-vibe-coding` | A Parent's Guide to Vibe Coding |
 | `/passion-project-ideas-computer-science` | Passion Project Ideas for Computer Science Students |
-| `/pcep-python-certification-prep` | PCEP Certification Preparation - Python Entry-Level Exam Guide & Live Coaching |
+| `/pcep-python-certification-prep` | PCEP Certification Preparation: Python Entry-Level Exam Guide & Live Coaching |
+| `/perse-coding-team-challenge-preparation` | Perse Coding Team Challenge Preparation |
+| `/priority-demo` | Priority Live Demo Class |
+| `/problem-solving-skills-through-coding-ireland` | Problem Solving Skills Through Coding |
+| `/problem-solving-skills-through-coding-uk` | Problem-Solving Skills Through Coding |
 | `/prompt-engineering-course` | Prompt Engineering Course |
 | `/python-and-ai-classes-for-kids-teens` | Python for Kids & Teens |
+| `/python-and-ai-track-for-students-bahamas` | The 12-Month Python and AI Track for Bahamian Students |
+| `/python-certification-pcep-pcap-course` | Python Certification Course |
 | `/python-classes-in-dubai` | Python Classes in Dubai |
 | `/python-classes-in-qatar` | Python Classes in Qatar |
 | `/python-classes-in-saudi-arabia` | Python Classes in Saudi Arabia |
-| `/python-for-beginners-kids` | Python for Beginners Kids - Absolute Zero Start, Fun Projects, Live 1-on-1 Classes |
+| `/python-classes-netherlands` | Python Classes in the Netherlands |
+| `/python-for-beginners-kids` | Python for Beginners Kids: Absolute Zero Start, Fun Projects, Live 1-on-1 Classes |
+| `/python-for-cbse-class-10-ai` | Python for CBSE Class 10 AI (417) |
 | `/python-for-data-science` | Python for Data Science |
 | `/python-for-kids-in-dubai` | Python for Kids in Dubai |
-| `/python-from-the-ground-up` | Python From the Ground Up - Complete, In-Depth Python Course (Grade 6 to Professional) |
-| `/python-projects-for-kids` | Python Projects for Kids - 20+ Finishable Python Projects (Ages 8 to 15) |
-| `/real-coding-classes` | Real Coding Classes - Learn How Code Actually Works, How to Think Like a Programmer & B... |
+| `/python-from-the-ground-up` | Python From the Ground Up: Complete, In-Depth Python Course (Grade 6 to Professional) |
+| `/python-projects-for-kids` | Python Projects for Kids: 20+ Finishable Python Projects (Ages 8 to 15) |
+| `/python-to-ai-roadmap-for-students-netherlands` | Python to AI Roadmap for Students in the Netherlands |
+| `/python-to-ai-roadmap-for-students-oman` | Python to AI Roadmap for Students in Oman |
+| `/rag-systems-course` | RAG Systems Course |
+| `/raspberry-pi-coding-projects-uk` | Raspberry Pi Coding Projects for Kids and Teens, UK |
+| `/real-coding-classes` | Real Coding Classes: Learn How Code Actually Works, How to Think Like a Programmer & Bu... |
 | `/results` | Our Results |
 | `/roblox-coding-classes-for-kids` | Roblox Coding Classes for Kids |
 | `/science-fair-project-ideas-ai` | AI Science Fair Project Ideas That Follow the Actual Rules |
+| `/scottish-mathematical-challenge-practice` | Scottish Mathematical Challenge Practice |
 | `/scratch-coding-classes-for-kids` | Scratch Coding Classes for Kids |
-| `/screen-time-to-skill` | Screen Time to Skill Calculator - Turn Your Child's YouTube Hours into Apps, Code & Income |
+| `/screen-time-to-skill` | Screen Time to Skill Calculator: Turn Your Child's YouTube Hours into Apps, Code & Income |
+| `/sentinus-young-innovators-coding-help` | Sentinus Young Innovators Coding Help |
+| `/should-my-child-learn-ai` | Should My Child Learn AI? An Honest Decision Guide |
+| `/small-batches-and-1-on-1-classes` | Small Live Batches and 1-on-1 Classes |
+| `/sof-icso-preparation` | SOF ICSO (NCO) Preparation Classes Online, Classes 1 to 10 |
+| `/sof-imo-preparation` | SOF IMO Preparation Classes Online, Classes 1 to 12 |
 | `/software-maintenance-and-support` | Bug Fixing, QA & Software Maintenance Services |
 | `/software-scaling-and-modernization` | Software Scaling & Modernization Services |
+| `/student-hackathons-uk` | Student Hackathons UK |
 | `/summer-research-programs-coding` | Summer Research Programs in Coding and AI |
+| `/t-level-digital-coding-help` | T Level Digital Software Development Help |
 | `/team` | Our Team |
+| `/think-like-a-software-engineer` | Think Like a Software Engineer |
+| `/transition-year-coding-course-ireland` | Transition Year Coding Course in Ireland |
+| `/uk-gcse-computer-science-tutoring` | GCSE Computer Science Tutoring |
+| `/ukmt-kangaroo-rounds-practice` | UKMT Kangaroo Practice |
+| `/understand-the-code-dont-copy-paste-ireland` | Understand the Code, Don't Copy-Paste |
+| `/understand-the-code-dont-copy-paste-uk` | Understand the Code, Do Not Copy-Paste It |
+| `/usaco-preparation-online-coaching` | USACO Preparation Online Coaching |
 | `/vibe-coding-classes` | Vibe Coding Classes for Kids, Teens & College |
+| `/vibe-coding-for-beginners` | Vibe Coding for Beginners |
+| `/vibe-coding-for-teens` | Vibe Coding for Teens |
+| `/vibe-coding-projects-for-students` | Vibe Coding Projects for Students |
+| `/we-teach-you-how-to-think` | We Teach You How to Think |
 | `/web-application-development-services` | Web Application Development Company |
+| `/what-happens-in-a-demo-class` | What Happens in a Demo Class |
+| `/what-is-vibe-coding` | What Is Vibe Coding? A Plain Explanation for Families |
+| `/why-trust-modern-age-coders` | Why Trust Modern Age Coders |
+| `/why-we-charge-for-a-priority-demo` | Why We Charge for a Priority Demo |
+| `/wjec-gcse-computer-science-help-wales` | WJEC GCSE Computer Science Help, Wales |
+| `/wjec-gcse-digital-technology-help-wales` | WJEC GCSE Digital Technology Help, Wales |
 
 ---
 
-## APPENDIX C: EVERY BLOG POST (116 posts)
+## APPENDIX C: EVERY BLOG POST (126 posts)
 
 All posts live at `https://learn.modernagecoders.com/blog/<slug>`. Use these when a customer asks a question a post already answers in depth.
 
 
-### Education (33)
+### Education (39)
 
 | Post | URL path |
 |---|---|
 | 10 Safe AI Tools Your Child Should Be Using for Homework in 2026 | `/blog/safe-ai-tools-for-kids-homework-2025` |
-| 12 Best Coding Games for Kids (2026), Free & Fun to Play | `/blog/top-coding-games-platforms-make-learning-fun-kids` |
-| 21 Best Coding Courses for Students 2026 (Free & Paid) | `/blog/best-free-paid-coding-courses-students` |
-| 30+ Scratch Project Ideas for Kids: Fun Coding Projects from Beginner to Advanced | `/blog/30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced` |
+| 30+ Scratch Project Ideas for Kids: Starter Projects to Advanced Games, Step by Step | `/blog/30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced` |
 | A Parent's Guide to Starting Coding Education at Home | `/blog/parents-guide-starting-coding-education-home` |
+| AP CSP vs AP CSA: Which Is Harder, and Which to Take First | `/blog/ap-csp-vs-ap-csa-which-to-take-first` |
 | Best Byju's Alternative for Kids and Teens in India (2026) - Live Classes, Coding + Maths | `/blog/best-byjus-alternative` |
-| Best Coding Languages for Kids Age 10-18-2026 Parent Guide | `/blog/best-coding-languages-kids-10-18-beginner-advanced` |
+| Best Coding Courses Online for Students 2026-27: 21 Free and Paid Options Compared | `/blog/best-free-paid-coding-courses-students` |
+| Best Coding Games for Kids in 2026: 10 Picks by Age | `/blog/top-coding-games-platforms-make-learning-fun-kids` |
+| Best Coding Languages for Kids and Teens by Age, 6 to 18: 2026-27 Parent Guide | `/blog/best-coding-languages-kids-10-18-beginner-advanced` |
 | Best WhiteHat Jr Alternative in 2026 - Why Parents Are Switching to Modern Age Coders | `/blog/whitehat-jr-alternative` |
+| Cambridge 9618 Paper 4: Python, Java or Visual Basic? | `/blog/cambridge-9618-paper-4-python-java-or-visual-basic` |
 | Coding Class Fees in India 2026: What to Pay | `/blog/coding-class-fees-india-2026` |
 | Coding for 5-Year-Olds: How Young Kids Can Start Learning Programming? | `/blog/coding-for-5-year-olds-young-kids-start-learning-programming` |
-| Coding for 6-Year-Olds: Best Ways to Introduce Programming at an Early Age | `/blog/coding-for-6-year-olds` |
-| Coding for 7-Year-Olds: What and How Kids Should Learn Programming | `/blog/coding-for-7-year-olds-what-how-kids-should-learn-programming` |
+| Coding for 6 Year Olds: How to Start, Best Tools, Session Length and a First Class | `/blog/coding-for-6-year-olds` |
+| Coding for 7 Year Olds: What to Learn, Best Platforms and the First Month | `/blog/coding-for-7-year-olds-what-how-kids-should-learn-programming` |
 | Coding is the New English: Why 2026 is the Year to Start | `/blog/coding-is-the-new-english-why-2026-is-the-year-to-start` |
 | Common Myths About Coding for School Students (And the Truth Behind Them) | `/blog/common-myths-about-coding-for-school-students` |
 | How Coding and Mathematics Work Together in Engineering & Science | `/blog/coding-mathematics-engineering-science` |
 | How Coding Education is Changing the Future of India | `/blog/how-coding-education-changing-future-india` |
 | How Learning Coding Improves Mathematical Thinking in Children | `/blog/how-coding-improves-mathematical-thinking-children` |
 | How Schools and Parents Can Prepare Children for Future Tech Careers | `/blog/how-schools-parents-prepare-children-future-tech-careers` |
-| Introduction: What is Blockly for Kids? | `/blog/what-is-blockly-for-kids` |
+| How to Get a 5 in AP Computer Science A (2026) | `/blog/how-to-get-a-5-in-ap-computer-science-a` |
+| How to Revise GCSE Computer Science (AQA and OCR) | `/blog/how-to-revise-gcse-computer-science` |
+| IGCSE 0478 Pseudocode: The Rules Examiners Mark | `/blog/igcse-computer-science-0478-pseudocode-guide` |
 | Is Coding Still Worth Learning in 2026? | `/blog/is-coding-worth-learning-2026` |
 | Java for Kids: Complete Kids Guide to Learning Java Programming in 2026 | `/blog/java-for-kids-complete-guide-learning-programming-2026` |
-| Minecraft vs. Roblox: Which One Actually Teaches Your Child to Code? | `/blog/minecraft-vs-roblox-which-teaches-kids-to-code` |
+| Math in Programming: What You Need, Shown in Real Code | `/blog/role-of-mathematics-programming-logical-problem-solving` |
+| Minecraft vs Roblox for Kids: Which Teaches Coding Better? | `/blog/minecraft-vs-roblox-which-teaches-kids-to-code` |
 | Project-Based Learning: Why Theory Alone Is Not Enough in Coding | `/blog/project-based-learning-why-theory-alone-not-enough-coding` |
 | Robotics and Coding: How STEM Kits Build Logical Thinking | `/blog/robotics-coding-stem-kits-build-logical-thinking` |
-| Scratch vs Python: Which is Better for Young Learners? | `/blog/scratch-vs-python-which-better-young-learners` |
+| Scratch vs Python for Kids: The Difference and Which First | `/blog/scratch-vs-python-which-better-young-learners` |
 | STEM Education for Girls in India: Breaking Barriers and Building Futures | `/blog/stem-education-for-girls-india` |
 | The CBSE/ICSE Gap: What Schools Aren't Teaching About Tech (And How to Fill It) | `/blog/cbse-icse-gap-what-schools-not-teaching-about-tech` |
-| The Role of Mathematics in Programming and Logical Problem Solving | `/blog/role-of-mathematics-programming-logical-problem-solving` |
+| The IB Computer Science IA No Longer Needs a Client | `/blog/ib-computer-science-ia-client-rule-2027` |
 | The Ultimate Guide to Teaching Kids Coding in 2025 | `/blog/coding-for-kids-guide` |
+| What Is Blockly? Block Coding for Kids, Explained | `/blog/what-is-blockly-for-kids` |
 | What is Coding for Kids? A Parent's Complete Guide to Getting Started in 2026 | `/blog/coding-for-kids-parents-complete-guide-2026` |
 | Why Coding is the New Literacy for Kids in 2025 | `/blog/why-coding-is-new-literacy-kids-2025` |
 | Why Early Exposure to Coding Gives Students a Competitive Advantage | `/blog/why-early-exposure-coding-gives-students-competitive-advantage` |
 | Why Every Teen Should Learn Coding: The Ultimate Guide for 2025 | `/blog/why-every-teen-should-learn-coding` |
 
-### Programming (28)
+### Programming (31)
 
 | Post | URL path |
 |---|---|
-| 10 Best Java IDEs for Beginners: Complete Guide to Choosing Your First IDE | `/blog/best-java-ides-for-beginners` |
 | 20 Python Programs for CBSE Class 12 Board Exam (083) | `/blog/python-programs-for-cbse-class-12` |
 | 30+ Best Java Programs for Class 8 Students: Easy Projects to Start Coding | `/blog/30-best-java-programs-for-class-8-students` |
-| 30+ Python Basic Programs for Beginners to Practice in 2026 | `/blog/python-basic-programs-for-beginners` |
-| Advantages of Functions in Python: Why Every Coder Should Use Them | `/blog/advantages-functions-python-why-every-coder-should-use-them` |
-| Armstrong Number in Python, Code Examples & 5-Min Tutorial | `/blog/armstrong-number-python-complete-guide-examples-code` |
+| 35 Basic Python Programs for Beginners, With Code and Output | `/blog/python-basic-programs-for-beginners` |
+| Advantages of Functions in Python: 8 Benefits With Examples | `/blog/advantages-functions-python-why-every-coder-should-use-them` |
+| Armstrong Number: Definition, Full List and Python Program | `/blog/armstrong-number-python-complete-guide-examples-code` |
+| Best Java IDE for Beginners in 2026: 7 Free IDEs Compared | `/blog/best-java-ides-for-beginners` |
+| CCC Junior or Senior? How to Choose and How to Score | `/blog/canadian-computing-competition-junior-or-senior` |
 | Exception Handling in Python: Try, Except, Finally | `/blog/exception-handling-in-python` |
 | Fibonacci Series in Python: 7 Ways to Write It | `/blog/fibonacci-series-in-python` |
 | File Built-in Methods in Python: Complete Guide for Beginners | `/blog/file-built-in-methods-python-guide` |
 | File Organization in Python: A Beginner's Guide to Managing Your Code Like a Pro | `/blog/file-organization-in-python` |
 | File Types in Python: A Complete Beginner's Guide to Working with Different Files | `/blog/file-types-in-python-complete-guide` |
-| How to Build a Menu Driven Program in Python (Step-by-Step Guide) | `/blog/how-to-build-menu-driven-program-in-python` |
 | How to Find HCF and LCM in Python (5 Easy Methods) | `/blog/how-to-find-hcf-and-lcm-in-python` |
 | How to Read and Write Files in Python (The Complete Guide) | `/blog/how-to-read-and-write-files-in-python` |
 | How to Reverse a String in Python: 5 Easy Methods | `/blog/how-to-reverse-a-string-in-python` |
-| How to Write a Leap Year Program in Python (3 Simple Methods) | `/blog/how-to-write-a-leap-year-program-in-python` |
+| Leap Year Program in Python: Logic, Code and Output | `/blog/how-to-write-a-leap-year-program-in-python` |
 | Learn Python for Beginners: Complete Step-by-Step Guide (2026) | `/blog/python-for-beginners` |
 | Learn Python Step by Step: The Free Tutorial Library | `/blog/learn-python-step-by-step` |
 | Learn Web Development with JavaScript - Basics, Projects & Hands-On Guide | `/blog/javascript-basics` |
+| Menu Driven Program in Python (With a Daily Menu Script) | `/blog/how-to-build-menu-driven-program-in-python` |
 | Python Dictionary: The Complete Guide With 20 Examples | `/blog/python-dictionary-complete-guide` |
 | Python Lambda Functions: When to Use Them, 10 Examples | `/blog/python-lambda-functions` |
 | Python List Comprehension: 15 Examples, Simple to Advanced | `/blog/python-list-comprehension-explained` |
 | Python OOP Tutorial: Classes, Objects, and Inheritance | `/blog/python-oop-tutorial-for-beginners` |
 | Python vs JavaScript: Which Should You Learn First? | `/blog/python-vs-javascript-which-to-learn-first` |
 | Star Pattern Programs in Python: 30 Patterns With Code | `/blog/star-pattern-programs-in-python` |
+| The IOI Syllabus Excludes More Than You Expect | `/blog/ioi-syllabus-what-to-learn-and-what-to-skip` |
 | Top 10 Java Programs Every College Student Must Know (With Solutions) | `/blog/top-10-java-programs-every-college-student-must-know` |
 | Top 10 Java Programs Every School Student Should Know (With Solutions) | `/blog/top-10-java-programs-for-school-students` |
+| USACO Bronze to Silver: What Actually Blocks You | `/blog/usaco-bronze-to-silver-what-blocks-most-students` |
 | What is Floor Division in Python? Complete Guide with Examples | `/blog/what-is-floor-division-in-python` |
 
-### Career (10)
+### Career (11)
 
 | Post | URL path |
 |---|---|
@@ -2146,6 +2787,7 @@ All posts live at `https://learn.modernagecoders.com/blog/<slug>`. Use these whe
 | How College Students Can Build Real-World Projects While Studying | `/blog/how-college-students-build-real-world-projects-while-studying` |
 | How Working Professionals Can Upskill with Coding Without Quitting Their Job | `/blog/working-professionals-upskill-coding-without-quitting-job` |
 | Is It Worth Learning to Code for a Career Change in 2026? | `/blog/learn-to-code-career-change-2026` |
+| PCEP vs PCAP: Which Python Certification Is Worth It? | `/blog/pcep-vs-pcap-which-python-certification` |
 | Top Emerging Tech Skills to Learn in 2025 (AI, Low-Code, Cloud) | `/blog/top-emerging-tech-skills-learn-2025-ai-low-code-cloud` |
 | Why Python is the Most Powerful Skill for Professionals Today | `/blog/why-python-most-powerful-skill-professionals-today` |
 
@@ -2228,7 +2870,7 @@ All posts live at `https://learn.modernagecoders.com/blog/<slug>`. Use these whe
 
 | Post | URL path |
 |---|---|
-| 10 Best Free Platforms for Vibe Coding to Build Software Without Syntax | `/blog/best-free-platforms-for-vibe-coding` |
+| 10 Best Free Vibe Coding Platforms and Tools in 2026 (Updated September 2026) | `/blog/best-free-platforms-for-vibe-coding` |
 | Best Data Science Courses in India for Students and Professionals in 2026 | `/blog/data-science-course-india` |
 
 ### Projects (1)
@@ -2290,9 +2932,9 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
     "one_to_one": 1,
     "custom_group": "3-10"
   },
-  "courses_live": 118,
-  "blog_posts": 116,
-  "live_urls": 830,
+  "courses_live": 122,
+  "blog_posts": 126,
+  "live_urls": 1458,
   "pricing": {
     "coding": {
       "india": {
@@ -2330,6 +2972,18 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
         "personal": 150
       }
     },
+    "gemini": {
+      "india": {
+        "group": null,
+        "miniBatch": null,
+        "personal": 14999
+      },
+      "international": {
+        "group": null,
+        "miniBatch": null,
+        "personal": 250
+      }
+    },
     "school": {
       "india": {
         "group": 1499,
@@ -2356,13 +3010,14 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
     "india": "INR",
     "international": "USD"
   },
-  "pricing_updated": "2026-08-10",
+  "pricing_updated": "2026-09-11",
   "premium_course_overrides": {
     "codex-and-claude-code-ai-coding-agents-course-for-teens": "agents",
     "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": "agents",
     "ai-agents-with-microsoft-copilot-studio-course-for-teens": "agents",
     "ai-agents-with-microsoft-copilot-studio-course-for-college-students": "agents",
-    "ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals": "agents"
+    "ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals": "agents",
+    "build-ai-agents-with-google-gemini-enterprise-course": "gemini"
   },
   "retired_never_quote": [
     "Rs 2499",
@@ -2452,7 +3107,7 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 ### A-Level Maths: Pure, Mechanics, Statistics (Edexcel/AQA)
 
-`/courses/a-level-maths-course-pure-mechanics-statistics` · 18 months (72 weeks) · A-Level students (Years 12-13 or equivalent), Edexcel, AQA and OCR
+`/courses/a-level-maths-course-pure-mechanics-statistics` · 18 months (72 weeks), joinable any month · A-Level students (Years 12-13 or equivalent), Edexcel, AQA and OCR
 
   - PHASE 1: AS Pure Mathematics (Months 1-5, Weeks 1-20)
     The pure core that every later topic stands on: algebra done properly, coordinate geometry, trigonometry, exponentials and logarithms, and the first calculus. Roughly two thirds of the A-Level is pure mathematics, and it starts here.
@@ -2601,176 +3256,6 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Trace one of your own commits end to end with git cat-file: from the commit SHA to the root tree to a specific blob, and diagram the object graph you found; Build a personal reset cheat card: run soft, mixed, and hard resets on a scratch repository and document exactly what happened to HEAD, index, and working tree in each case; Create a real commit using only plumbing commands (update-index, write-tree, commit-tree), then verify it with git log and git cat-file; Ship a dotfiles-quality global .gitconfig: identities via includeIf, five aliases you will actually use, zdiff3 conflict style, rerere enabled, and a configured mergetool; Take a deliberately messy 10-commit feature branch and rebase it into 3 clean, logical, test-passing commits using fixup, squash, reword, and an exec test line; Simulate a release: branch release/1.2 from an older commit, cherry-pick two hotfixes onto it with -x, then revert a bad feature merge on main with revert -m 1; Run a rescue drill: deliberately destroy work three different ways (reset --hard, branch -D, dropped stash) and recover all three using reflog and fsck; In a prepared repository with a hidden regression, write a small test script and let git bisect run find the first bad commit completely automatically; Answer three archaeology questions on a real open source repository (when was X introduced, who last changed Y and why, which commit removed Z) using blame, -S, and -G, citing exact SHAs; Write a one-page branching strategy proposal for a team you know: chosen model, merge strategy, branch naming, and the reasoning behind each decision; Configure a demo repository with a full ruleset: required reviews with code owners, required status checks, linear history, and a CODEOWNERS file covering two teams, then prove each rule blocks what it should; Design a complete PR playbook for a repository: template, review checklist, size guidelines, and auto-merge or merge queue settings, then run one real PR through it end to end; Rescue a bloated demo repo: move its binary assets to Git LFS with lfs migrate, set up cone-mode sparse-checkout for one team's directory, and measure clone size before and after using --filter=blob:none; Run a full release cycle on your own project: conventional commits, cut a release branch, create an annotated signed v1.0.0 tag, publish a GitHub Release with categorized auto-generated notes, then ship a v1.0.1 hotfix; Build a CI workflow from scratch for a small app: lint, test, and build on every pull request, with path filters so documentation-only changes skip CI - plus 9 more on the course page.
 
-### AI & Machine Learning for Teens: Zero to AI Expert
-
-`/courses/ai-ml-masterclass-teens` · 12 months (52 weeks) · Complete Beginner to AI Developer
-
-  - PHASE 1: Foundation & AI Basics (Months 1-3, Weeks 1-13)
-    Build strong programming foundations, understand AI concepts, and create your first intelligent programs.
-    - Month 1: Python Programming for AI
-      - Introduction to AI & Python Setup
-      - Python Data Structures & Control Flow
-      - NumPy & Mathematical Foundations
-      - Pandas & Data Manipulation
-    - Months 2-3: AI Fundamentals & First Models
-      - Introduction to Machine Learning
-      - Classification Algorithms
-      - Regression & Prediction
-      - Unsupervised Learning
-      - Phase 1 Capstone Project
-    - Month 3: Advanced ML & Introduction to Deep Learning
-      - Advanced Machine Learning Techniques
-      - Introduction to Neural Networks
-      - Deep Learning Fundamentals
-      - Data Augmentation & Preprocessing
-      - Phase 1 Final Assessment
-  - PHASE 2: Core Machine Learning Mastery (Months 4-6, Weeks 14-26)
-    Deep dive into advanced ML algorithms, feature engineering, model optimization, and real-world applications.
-    - Months 4-5: Advanced ML & Computer Vision
-      - Convolutional Neural Networks (CNNs)
-      - Advanced Computer Vision
-      - Recurrent Neural Networks (RNNs)
-      - Natural Language Processing Basics
-      - Transformers & Modern NLP
-    - Month 6: Generative AI & Creative Applications
-      - Generative Adversarial Networks (GANs)
-      - Autoencoders & Dimensionality Reduction
-      - Audio & Music AI
-      - Reinforcement Learning Introduction
-      - Phase 2 Capstone Project
-    - Phase 2 Advanced Topics
-      - Edge AI & Mobile Deployment
-      - AI in Games & Simulations
-      - MLOps & Production Systems
-      - AI Ethics & Responsible AI
-      - Phase 2 Final Project
-  - PHASE 3: Deep Learning Mastery & Specializations (Months 7-9, Weeks 27-39)
-    Master advanced deep learning, cutting-edge AI techniques, and specialized domains like robotics and healthcare AI.
-    - Months 7-8: Advanced Deep Learning
-      - Advanced CNN Architectures
-      - Advanced NLP & Language Models
-      - Multimodal AI
-      - Graph Neural Networks
-      - Time Series & Forecasting
-    - Month 8: Specialized AI Domains
-      - Robotics & Embodied AI
-      - Healthcare AI & Bioinformatics
-      - AI for Science & Research
-      - Creative AI & Art
-      - Advanced Reinforcement Learning
-    - Month 9: Cutting-Edge AI & Research
-      - Generative AI Revolution
-      - Neural Architecture Search & AutoML
-      - Explainable AI & Interpretability
-      - Federated Learning & Privacy
-      - Phase 3 Capstone Project
-  - PHASE 4: Professional AI Development & Career Launch (Months 10-12, Weeks 40-52)
-    Build production-grade AI systems, contribute to open source, prepare for AI careers, and launch your AI startup or research path.
-    - Months 10-11: Production AI Systems
-      - Scalable AI Infrastructure
-      - Real-time AI Systems
-      - AI Product Development
-      - AI Startups & Entrepreneurship
-      - Open Source Contribution
-    - Month 11: Advanced Applications & Industry
-      - AI in Finance & Trading
-      - AI for Social Media & Content
-      - AI in Education & EdTech
-      - AI for Sustainability & Climate
-      - Future of AI & Emerging Tech
-    - Month 12: Mastery & Career Launch
-      - AI Research Methods
-      - Industry Preparation
-      - Competitions & Challenges
-      - AI Community & Impact
-    - Final Month: Capstone & Graduation
-      - Final Capstone - Part 1
-      - Final Capstone - Part 2
-      - Graduation & Future Path
-
-**Projects students build:** Setup complete AI development environment; Rule-based chatbot (like early Siri); Simple recommendation system using rules; AI decision tree for game choices; Student grade predictor system; Text-based adventure game with AI NPCs; Data analyzer for social media stats; Simple expert system for diagnosis; Grade distribution analyzer; Dice probability simulator; Image manipulation with arrays; Statistical analysis dashboard; YouTube channel analytics tool; Sports statistics analyzer; Weather pattern explorer - plus 216 more on the course page.
-
-### AI & Machine Learning Masterclass: Zero to AI Expert
-
-`/courses/ai-ml-masterclass-complete-college` · 12 months (52 weeks) · Complete Beginner to AI/ML Expert
-
-  - PHASE 1: Mathematics, Programming & Data Foundations (Months 1-3, Weeks 1-13)
-    Build rock-solid mathematical and programming foundations essential for AI/ML. Master linear algebra, calculus, statistics, Python, and data manipulation.
-    - Months 1-2: Mathematics for Machine Learning
-      - Mathematics Prerequisites & Linear Algebra - Part 1
-      - Linear Algebra - Part 2 & Calculus Fundamentals
-      - Probability & Statistics - Part 1
-      - Statistics - Part 2 & Python for ML
-    - Month 3: Data Analysis & Exploratory Data Analysis
-      - Advanced NumPy & Pandas
-      - Data Visualization & EDA
-      - SQL for Data Science & Phase 1 Review
-  - PHASE 2: Classical Machine Learning (Months 4-6, Weeks 14-26)
-    Master traditional machine learning algorithms, feature engineering, model evaluation, and scikit-learn.
-    - Months 4-5: Machine Learning Fundamentals & Supervised Learning
-      - Introduction to Machine Learning
-      - Classification Algorithms - Part 1
-      - Feature Engineering & Preprocessing
-      - Unsupervised Learning
-      - Ensemble Methods & Advanced Techniques
-    - Month 6: Advanced ML & Time Series
-      - Model Evaluation & Validation
-      - Time Series Analysis & Forecasting
-      - Recommender Systems
-      - Advanced Topics & Specialized ML
-      - Phase 2 Capstone Project
-    - PHASE 2 CONTINUED - Production ML Basics
-      - ML Model Deployment Basics
-      - Introduction to Deep Learning
-      - Version Control & Experiment Tracking
-      - ML Engineering Best Practices
-      - Big Data for ML (Introduction)
-  - PHASE 3: Deep Learning & Specialized AI (Months 7-9, Weeks 27-39)
-    Master deep learning, computer vision, natural language processing, and specialized AI domains.
-    - Months 7-8: Deep Learning & Computer Vision
-      - Convolutional Neural Networks (CNN)
-      - Advanced Computer Vision
-      - Recurrent Neural Networks (RNN)
-      - Natural Language Processing (NLP) - Part 1
-      - NLP - Part 2 (Advanced)
-    - Month 9: Advanced Deep Learning & Generative AI
-      - Generative Adversarial Networks (GANs)
-      - Variational Autoencoders & Advanced Generative Models
-      - Reinforcement Learning - Part 1
-      - Reinforcement Learning - Part 2 (Deep RL)
-      - PyTorch Deep Dive
-    - PHASE 3 COMPLETION - Month 9 Final Weeks
-      - Model Optimization & Compression
-      - Audio & Speech Processing
-      - Multi-Modal Learning & Graph Neural Networks
-      - AI Ethics, Fairness & Responsible AI
-      - Phase 3 Capstone Project
-  - PHASE 4: MLOps, Production AI & Research (Months 10-12, Weeks 40-52)
-    Master MLOps, production deployment, scalable AI systems, research skills, and career preparation.
-    - Months 10-11: MLOps & Production AI Systems
-      - MLOps Fundamentals
-      - Model Serving & Deployment at Scale
-      - Monitoring & Observability for ML
-      - Scalable ML Infrastructure
-      - AutoML & Meta-Learning
-    - Month 12: Research Skills & Career Excellence
-      - Reading & Implementing Research Papers
-      - Advanced AI Topics & Frontier Research
-      - Domain-Specific AI Applications
-      - Building AI Products & Startups
-      - Interview Preparation & Career Strategy
-    - PHASE 4 COMPLETION - Final Projects
-      - Kaggle & Competitions
-      - Open Source Contribution in AI/ML
-      - Technical Writing & Teaching
-      - Continuous Learning & Specialization
-    - Final Month - Capstone & Career Launch
-      - Final Capstone Project - Part 1
-      - Final Capstone Project - Part 2
-      - Career Launch & AI/ML Professional
-
-**Projects students build:** Vector operations visualizer; Matrix calculator implementation; Linear equation solver; Geometric transformations with matrices; PCA implementation from scratch; Image compression using SVD; Gradient descent visualizer; Function optimizer using calculus; Probability calculator; Distribution visualizer; Bayes theorem applications; Monte Carlo simulations; Statistical analysis tool; Hypothesis testing framework; A/B testing simulator - plus 296 more on the course page.
-
 ### AI Agents with Microsoft Copilot Studio for College Students
 
 `/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students` · 24 classes (12 weeks · 2 classes/week) · Intermediate (college students and early-career, ages 18+; no prior agent experience needed)
@@ -2853,6 +3338,104 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Agent safari: analyse two real agents you have used (a support bot, a game helper), map what their instructions and knowledge must look like, and write a one-page teardown; Build 'Study Buddy v1': an agent with instructions for your real timetable and subjects that answers revision questions in a tone you designed; The Refusal Gauntlet: write 10 questions your Study Buddy must refuse or redirect, then tune instructions until all 10 are handled gracefully; Build your permanent 15-question test set for Study Buddy, with expected behaviour written down before you run it; Draw the journey of one question through your agent: user, harness, instructions, model, answer, and label the parts you control; Ground Study Buddy in one real source (your school's public website or a subject site) and prove three answers now cite it; Create a clean 3-document knowledge pack from your own class notes and ground a Revision Coach agent in it, with a 10-question proof test; Build 'Club Desk': an agent for a real club or activity grounded in two sources, with documented behaviour when sources conflict; Accuracy audit: score 20 answers from Revision Coach against the actual source paragraphs and publish your agent's accuracy number with examples; Build a 'Homework Planner' agent with three hand-designed topics: add a task, list this week, and what should I do first; Upgrade Homework Planner: the add-a-task topic now collects subject, due date and effort through entities and confirms with a summary using variables; Build 'Event Helper' for a real school or family event: RSVP path, question path, and organiser-escalation path, all condition-driven; Give Homework Planner a card-based weekly view: each task a card with subject, due date and a 'mark done' action; Switch Event Helper to generative orchestration, rerun your full test set, and document every behaviour change with a keep-or-fix verdict; Add a 'flashcard maker' Prompt tool to Revision Coach: paste messy notes, get clean question-answer pairs, every time - plus 9 more on the course page.
 
+### AI and Machine Learning for Teens: Python to Real Models
+
+`/courses/ai-ml-masterclass-teens` · 10-12 months (40-48 weeks) · Beginner friendly, ages 13 to 18; school maths is enough to start
+
+  - PHASE 1: Python and First Models (Months 1-3, Weeks 1-12)
+    The data stack from zero, Python through pandas, then the moment it all changes: the first real machine learning model, trained and honestly evaluated.
+    - Month 1: Python for AI
+      - Introduction to AI & Python Setup
+      - Python Data Structures & Control Flow
+    - Month 2: The Data Stack
+      - NumPy & Mathematical Foundations
+      - Pandas & Data Manipulation
+    - Month 3: First Machine Learning
+      - Introduction to Machine Learning
+      - Classification Algorithms
+  - PHASE 2: Core Machine Learning (Months 4-6, Weeks 13-24)
+    The full classical toolkit, regression to clustering, then neural networks built from a single neuron to real deep learning, with data preparation as a discipline.
+    - Month 4: Prediction and Patterns
+      - Regression & Prediction
+      - Unsupervised Learning
+    - Month 5: Neural Networks
+      - Advanced ML: Ensembles and Model Craft
+      - Introduction to Neural Networks
+    - Month 6: Deep Learning Fundamentals
+      - Deep Learning Fundamentals
+      - Data Preparation and Augmentation
+  - PHASE 3: Machines That See and Read (Months 7-8, Weeks 25-32)
+    The two great applied fields at teen-buildable depth: convolutional networks and computer vision projects, then NLP and the transformer idea that changed everything.
+    - Month 7: Computer Vision
+      - Convolutional Neural Networks (CNNs)
+      - Advanced Computer Vision
+    - Month 8: Language
+      - Natural Language Processing Basics
+      - Transformers and Modern NLP
+  - PHASE 4: Modern AI and the Capstone (Months 9-10, Weeks 33-40)
+    Generative AI understood from the inside and used safely, ethics that actually bites, an AI product built end to end, and the final exam at demo day.
+    - Month 9: The Generative Layer
+      - Generative AI from the Inside
+      - AI Ethics and Honest Evaluation
+    - Month 10: Build, Ship, Defend
+      - AI Product Week
+      - Final Capstone Build
+      - Demo Day and What Comes Next
+
+**Projects students build:** Setup complete AI development environment; Rule-based chatbot (like early Siri); Simple recommendation system using rules; AI decision tree for game choices; Student grade predictor system; Text-based adventure game with AI NPCs; Data analyzer for social media stats; Simple expert system for diagnosis; Grade distribution analyzer; Dice probability simulator; Image manipulation with arrays; Statistical analysis dashboard; YouTube channel analytics tool; Sports statistics analyzer; Weather pattern explorer - plus 60 more on the course page.
+
+### AI and ML Masterclass: Python, Deep Learning and GenAI
+
+`/courses/ai-ml-masterclass-complete-college` · 12-14 months (48-56 weeks) · Complete beginner (18+); school maths refreshed, everything else built here
+
+  - PHASE 1: Mathematics, Python and Data (Months 1-3, Weeks 1-12)
+    The load-bearing floor: linear algebra, calculus intuition, probability and statistics, built alongside Python and real exploratory data work.
+    - Month 1: The Mathematical Core I
+      - Mathematics Prerequisites & Linear Algebra - Part 1
+      - Linear Algebra - Part 2 & Calculus Fundamentals
+    - Month 2: Probability, Statistics and Python
+      - Probability & Statistics - Part 1
+      - Statistics - Part 2 & Python for ML
+    - Month 3: The Data Stack
+      - Advanced NumPy & Pandas
+      - Data Visualization & EDA
+  - PHASE 2: Classical Machine Learning (Months 4-6, Weeks 13-24)
+    The working core of applied ML: scikit-learn end to end, feature craft, unsupervised methods, ensembles, and evaluation as a discipline.
+    - Month 4: First Models Done Right
+      - Introduction to Machine Learning
+      - Classification Algorithms - Part 1
+    - Month 5: Feature Craft and Structure
+      - Feature Engineering & Preprocessing
+      - Unsupervised Learning
+    - Month 6: Ensembles, Evaluation and the Phase Capstone
+      - Model Evaluation & Validation
+      - Phase 2 Capstone
+  - PHASE 3: Deep Learning with PyTorch (Months 7-9, Weeks 25-36)
+    The modern engine room: PyTorch fluency, convolutional networks and real computer vision, NLP through the transformer.
+    - Month 7: Into Deep Learning
+      - Introduction to Deep Learning
+      - PyTorch in Depth
+    - Month 8: Computer Vision
+      - Convolutional Neural Networks (CNN)
+      - Advanced Computer Vision
+    - Month 9: Language and Transformers
+      - Natural Language Processing (NLP) - Part 1
+      - Advanced NLP and the Transformer
+  - PHASE 4: Generative AI, Shipping and the Capstone (Months 10-12, Weeks 37-48)
+    The modern layer done properly: LLM engineering and retrieval, deployment and monitoring fundamentals, responsible AI, interview craft, and the defended capstone.
+    - Month 10: Generative AI and LLM Engineering
+      - LLM Engineering
+      - Deployment and Experiment Tracking
+    - Month 11: Production Habits and Responsible AI
+      - MLOps Fundamentals, Honestly Scoped
+      - Responsible AI and Explainability
+    - Month 12: Capstone, Interviews and the Final Exam
+      - Capstone Build
+      - ML Interview Craft
+      - Demo Day and the Final Exam
+
+**Projects students build:** Vector operations visualizer; Matrix calculator implementation; Linear equation solver; Geometric transformations with matrices; PCA implementation from scratch; Image compression using SVD; Gradient descent visualizer; Function optimizer using calculus; Probability calculator; Distribution visualizer; Bayes theorem applications; Monte Carlo simulations; Statistical analysis tool; Hypothesis testing framework; A/B testing simulator - plus 112 more on the course page.
+
 ### AI Literacy for Kids (Ages 8 to 14): Understand AI, Do Not Just Use It
 
 `/courses/ai-literacy-for-kids-course` · 4 months (16 weeks), joinable any month · Ages 8 to 14; no prior coding required, everything is taught from scratch
@@ -2881,93 +3464,77 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** An AI spotting hunt: find five AI systems you used this week and explain what each one decides; Train a classmate as if they were a machine: give only examples, no rules, then test them; Train an image or sound classifier on your own examples and demonstrate it to the class; Predict outcomes from a small dataset by hand, then compare with the model's prediction; Deliberately train a model on lopsided data, then show the class exactly how it fails; Fact-check a set of teacher-provided AI answers and mark which are wrong and why; Take one homework-style problem, use AI only for hints, and explain the solution back unaided; Write a family AI agreement: what is allowed, what is not, and who to ask; Build a block-coded project that responds to your trained model's predictions; Write a one-page plan for your capstone: the person, the problem, the data, the plan; Build your working capstone project; Present your capstone to the class and to your parents.
 
-### AI Tools for Teens (13+): Prompting, Creative Projects & Safe AI Use
+### AI Tools Course for Teens (13+): Prompting to Real Projects
 
-`/courses/teens-ai-tools-mastery-course` · 6 months (26 weeks) · Complete Beginner to Confident AI User
+`/courses/teens-ai-tools-mastery-course` · 4-5 months (16-20 weeks) · Complete beginner, ages 13 to 18
 
-  - Month 1: AI Fundamentals & ChatGPT Mastery
-    Understand AI basics, master ChatGPT, and learn the art of prompt engineering.
+  - Month 1: AI Foundations and Prompt Craft
+    How AI actually works, ChatGPT used properly with a parent-approved account, and prompting practiced as a real skill.
     - Introduction to AI World
     - ChatGPT Fundamentals
     - Prompt Engineering Basics
     - Advanced ChatGPT Techniques
-  - Month 2: AI Art & Image Generation
-    Master AI image generation tools, create stunning artwork, and understand visual AI.
+  - Month 2: Creative AI, Done Legally
+    AI art and image editing with tools that genuinely permit teens, plus the copyright and ethics questions creative AI raises.
     - Introduction to AI Art
-    - AI Image Generation Mastery
-    - Midjourney and Advanced AI Art
+    - Image Generation with Teen-Legal Tools
+    - Adobe Firefly, Canva AI and Advanced Art
     - AI Photo Editing and Manipulation
-  - Month 3: AI Music, Audio & Video Creation
-    Explore AI tools for music composition, audio editing, and video creation.
-    - AI Music Generation
-    - AI Voice and Audio Tools
-    - AI Video Generation
-    - AI Animation and Motion
-  - Month 4: AI for Learning & Productivity
-    Use AI tools to enhance learning, boost productivity, and excel in academics.
-    - AI Study Assistants
+  - Month 3: AI for Media and School
+    Music, audio and video tools at teen-appropriate levels, then the serious part: AI as a study partner used ethically.
+    - AI Music and Audio
+    - AI Video and Animation
+    - AI Study Assistants, Used Ethically
     - AI Research and Writing Tools
-    - AI Productivity Tools
-    - AI for Creative Projects
-  - Month 5: AI Coding, Apps & Advanced Tools
-    Learn AI-assisted coding, app development, and explore advanced AI platforms.
+  - Month 4: The Builder’s Month and the Final Exam
+    The step from user to builder: coding assistants, training your own models, the ethics that govern it all, and the capstone exam.
     - AI Coding Assistants
-    - No-Code AI App Builders
-    - Machine Learning Platforms
-    - AI Game Development
-  - Month 6: AI Projects & Future Skills
-    Create advanced projects, understand AI's future, and prepare for AI-driven careers.
-    - AI for Social Good
-    - AI Business and Entrepreneurship
-    - AI Safety and Ethics
-    - Future of AI and Emerging Tech
-    - Capstone Project Development
-    - Graduation and Future Planning
-      - Certified AI Creator - Youth
+    - Train Your Own Models
+    - AI Safety, Ethics and the Future
+    - Capstone, Demo Day and the Final Exam
 
-**Projects students build:** My First AI Conversation; AI vs Human: Comparison chart; Draw AI's journey timeline; Play and analyze AI games; Interview ChatGPT about its capabilities; Create a story with ChatGPT; Get homework help (with citations); Plan a birthday party with AI; Create prompt template library; Before/After prompt improvements; Prompt engineering challenge; Build custom AI assistant personality; Create personalized study assistant; Build interactive quiz game; Research project on favorite topic - plus 81 more on the course page.
+**Projects students build:** My First AI Conversation; AI vs Human: Comparison chart; Draw AI's journey timeline; Play and analyze AI games; Interview ChatGPT about its capabilities; Create a story with ChatGPT; Get homework help (with citations); Plan a birthday party with AI; Create prompt template library; Before/After prompt improvements; Prompt engineering challenge; Build custom AI assistant personality; Create personalized study assistant; Build interactive quiz game; Research project on favorite topic - plus 44 more on the course page.
 
-### AI Tools Mastery: ChatGPT to Production AI Automation
+### AI Tools Mastery Course: ChatGPT, Claude & Automation
 
-`/courses/ai-tools-mastery-complete-college` · 6 months (26 weeks) · Complete Beginner to AI Tools Expert
+`/courses/ai-tools-mastery-complete-college` · 5-6 months (22-26 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
-  - PHASE 1: AI Fundamentals & ChatGPT Mastery (Months 1-2, Weeks 1-8)
+  - PHASE 1: AI Foundations and Prompt Engineering (Weeks 1-6)
     Master ChatGPT, prompt engineering, AI writing tools, and conversational AI applications.
-    - Months 1-2: ChatGPT & Prompt Engineering Excellence
+    - ChatGPT & Prompt Engineering Excellence
       - Introduction to AI Tools & ChatGPT Basics
       - Advanced Prompt Engineering
       - ChatGPT for Content Creation & Writing
       - ChatGPT for Business & Productivity
-  - PHASE 2: Advanced AI Tools & Visual AI (Months 3-4, Weeks 9-17)
+  - PHASE 2: Visual, Creative and Developer AI Tools (Weeks 7-12)
     Master Claude, Gemini, Midjourney, Stable Diffusion, and all major AI tools for images, video, and audio.
-    - Months 3-4: Visual AI & Alternative LLMs
+    - Visual AI & Alternative LLMs
       - Claude AI & Google Gemini
-      - Midjourney Mastery - Part 1
-      - Midjourney Mastery - Part 2 & Advanced Techniques
+      - Midjourney and Image Generation
       - Stable Diffusion & Other Image AI Tools
       - Video & Audio AI Tools
-    - Advanced AI Tools Ecosystem
+    - Research, Coding and Creative AI Tools
       - AI Research & Knowledge Tools
-      - AI Design & Creative Tools
       - AI Coding & Development Tools
-      - Specialized AI Tools
-      - Phase 2 Capstone Project
-  - PHASE 3: AI Automation & Monetization (Months 5-6, Weeks 22-26)
-    Master AI workflow automation, agents, integration, and monetization strategies.
-    - Months 5-6: Advanced Automation & Business Applications
+  - PHASE 3: AI Automation and Professional Applications (Weeks 13-18)
+    Turn tool fluency into leverage: workflow automation, connecting tools through their APIs, and building AI agents for multi-step work, used responsibly with verification built in.
+    - Automation, Agents and Business Applications
       - AI Workflow Automation
       - AI Agents & Advanced Automation
       - AI Integration & API Usage
-      - Monetization & Business with AI Tools
-      - AI Tools for Specific Industries
-    - Final Month: Advanced Topics & Career
+      - AI Tools for Business and Professional Work
+    - Staying Current and Responsible Use
       - Staying Current with AI Tools
       - Ethics, Safety & Responsible AI Use
-      - Teaching & Thought Leadership
-      - Building AI Tool Businesses
-      - Final Capstone & Career Launch
+  - PHASE 4: The Finale (Month 5, Weeks 19-23)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 5: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** Personal AI assistant setup; Custom instruction templates; Daily productivity workflow with ChatGPT; Meeting notes summarizer; Email response generator; Prompt template library (50+ templates); Industry-specific prompt collections; Complex task automation prompts; Creative writing prompt system; Business analysis prompts; Complete blog writing system; Social media content calendar (30 days); Email sequence (welcome, nurture, sales); E-book outline and chapters; Product descriptions generator - plus 144 more on the course page.
+**Projects students build:** Personal AI assistant setup; Custom instruction templates; Daily productivity workflow with ChatGPT; Meeting notes summarizer; Email response generator; Prompt template library (50+ templates); Industry-specific prompt collections; Complex task automation prompts; Creative writing prompt system; Business analysis prompts; Complete blog writing system; Social media content calendar (30 days); Email sequence (welcome, nurture, sales); E-book outline and chapters; Product descriptions generator - plus 93 more on the course page.
 
 ### Algebra Foundations: Pre-Algebra & Algebra 1, Live Online
 
@@ -2991,98 +3558,9 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Personal gap map for the year ahead; Integer war-stories set: temperature, bank balance and elevation problems; Fraction operation gallery: one worked picture per operation, made by the student; Real-recipe scaling project: fractions doing real work; Best-buy investigation: unit-price reasoning on real products; Phase mastery check: solve, explain and extend, per topic; Equation-sentence dictionary: twenty phrasings, twenty equations; Real-world setups: phone plans, savings goals, break-even problems; Equation-table-graph triptych for three real situations; Data modeling mini-project: fit a line, defend the interpretation; Business break-even case solved all three ways; Powers-of-ten scale tour: notation doing real scientific work; Area-model gallery for polynomial multiplication; Factoring pattern-book, built by the student; Quadratic equation gauntlet: mixed methods under light timing - plus 2 more on the course page.
 
-### Algorithmic Trading & Stock Market Automation Masterclass
+### Algorithmic Trading Course: Strategy, Quant & ML
 
-`/courses/algorithmic-trading-automation-masterclass` · 12 months (52 weeks) · Complete Beginner to Professional Quant Trader
-
-  - PHASE 1: Financial Markets & Python Foundation (Months 1-3, Weeks 1-13)
-    Build solid understanding of financial markets, trading fundamentals, and Python programming for finance.
-    - Month 1: Financial Markets Fundamentals
-      - Introduction to Financial Markets
-      - Trading Basics & Market Mechanics
-      - Python Setup for Finance
-      - Financial Data Acquisition
-    - Month 2: Technical Analysis & Indicators
-      - Classical Technical Analysis
-      - Technical Indicators Programming
-      - Fundamental Analysis Automation
-      - Market Analysis & Screening
-      - Phase 1 Assessment
-    - Month 3: Strategy Development & Backtesting
-      - Trading Strategy Design
-      - Backtesting Frameworks
-      - Performance Analytics
-      - Strategy Optimization
-      - Phase 2 Assessment
-  - PHASE 2: Advanced Strategies & Portfolio Management (Months 4-6, Weeks 14-26)
-    Master portfolio theory, risk management, advanced strategies, and quantitative methods.
-    - Months 4-5: Portfolio Theory & Risk Management
-      - Modern Portfolio Theory
-      - Risk Management Systems
-      - Advanced Trading Strategies
-      - Market Microstructure & Execution
-      - Quantitative Research Methods
-    - Month 6: Machine Learning for Trading
-      - ML Fundamentals for Trading
-      - Classification & Regression for Trading
-      - Deep Learning for Markets
-      - Alternative Data & NLP
-      - ML Model Deployment
-    - Months 7-9: Live Trading & Production Systems
-      - Broker APIs & Connectivity
-      - Paper Trading Implementation
-      - Live Trading Systems
-      - Cryptocurrency Trading
-      - Phase 3 Assessment
-  - PHASE 3: Professional Trading & Advanced Systems (Months 7-9, Weeks 27-39)
-    Master institutional-grade trading systems, advanced strategies, and professional deployment.
-    - Months 7-8: Institutional Trading Systems
-      - Options Trading Automation
-      - Futures & Derivatives Trading
-      - High-Frequency Trading Concepts
-      - Fixed Income & Forex Trading
-      - Quantitative Risk Analytics
-    - Month 9: Advanced Infrastructure & Deployment
-      - Trading Infrastructure Design
-      - Cloud Deployment for Trading
-      - Monitoring & Observability
-      - Compliance & Regulatory
-      - Testing & Quality Assurance
-    - Months 10-12: Professional Development & Advanced Topics
-      - Advanced Machine Learning Applications
-      - Market Making & Liquidity Provision
-      - Fund Management Systems
-      - Alternative Trading Venues
-      - Phase 4 Final Project - Part 1
-  - PHASE 4: Master Trader & Career Launch (Months 10-12, Weeks 40-52)
-    Complete mastery of algorithmic trading, final projects, and professional career preparation.
-    - Months 10-11: Advanced Specializations
-      - Sentiment-Driven Trading
-      - Systematic Global Macro
-      - Volatility Trading Systems
-      - Statistical Arbitrage Advanced
-      - Blockchain & DeFi Trading
-    - Month 11: Business & Operations
-      - Trading Business Setup
-      - Raising Capital & Investor Relations
-      - Team Building & Management
-      - Research & Development
-      - Performance Review & Optimization
-    - Month 12: Final Projects & Launch
-      - Final Project Development
-      - Final Project Deployment
-      - Portfolio & Career Preparation
-      - Job Search & Opportunities
-    - Month 12: Graduation & Beyond
-      - Final Assessments
-      - Industry Networking
-      - Continuous Learning & Future
-
-**Projects students build:** Market research report on major indices; Trading account setup (paper trading); Market terminology glossary; Paper trading diary with 10 trades; Risk-reward calculator; Trading cost analyzer; Python trading environment setup; Stock price data analyzer; Market statistics calculator; Multi-source data fetcher; Historical data downloader; Real-time price tracker; Financial database creator; Candlestick pattern detector; Support/resistance calculator - plus 213 more on the course page.
-
-### Algorithmic Trading Masterclass: Zero to Automated Systems
-
-`/courses/algorithmic-trading-masterclass-complete` · 12 months (52 weeks) · Complete Beginner to Professional Quant Trader
+`/courses/algorithmic-trading-masterclass-complete` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
   - PHASE 1: Financial Markets & Trading Foundations (Months 1-3, Weeks 1-13)
     Build solid understanding of financial markets, instruments, Python programming, and data analysis for trading.
@@ -3108,7 +3586,6 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Risk Management & Position Sizing
       - Multi-Asset & Portfolio Strategies
       - Cryptocurrency Trading Strategies
-      - Phase 2 Capstone Project
   - PHASE 3: Machine Learning & Advanced Quant (Months 7-9, Weeks 27-39)
     Master machine learning for trading, advanced quantitative strategies, and high-frequency concepts.
     - Months 7-8: Machine Learning for Trading
@@ -3122,117 +3599,58 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Advanced Options & Derivatives
       - Execution Algorithms & Transaction Cost Analysis
       - Quantitative Portfolio Management
-      - Phase 3 Capstone Project
-  - PHASE 4: Live Trading & Professional Quant (Months 10-12, Weeks 40-52)
-    Master live trading deployment, infrastructure, fund management, and career development.
-    - Months 10-11: Live Trading & Infrastructure
-      - Live Trading Infrastructure
-      - Deployment & Production Systems
-      - Live Trading Risk Management
-      - Performance Monitoring & Analysis
-      - Starting with Real Money
-    - Month 12: Professional Development & Career
-      - Quantitative Finance Career Paths
-      - Interview Preparation for Quant Roles
-      - Running a Proprietary Trading Desk
-      - Launching a Quant Hedge Fund
-      - Continuous Learning & Community
-    - FINAL PROJECT & CAREER LAUNCH
-      - Research & Strategy Innovation
-      - Advanced Technology Integration
-      - Regulatory & Compliance Mastery
-      - Final Capstone & Launch
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** Market research on different instruments; Paper trading practice (manual); Order type experiments; Market analysis report; Trading journal setup; Load and explore stock price data; Calculate basic statistics (mean, std, returns); Price data manipulation exercises; Simple moving average calculator; Trading signal generator (basic); Multi-asset data downloader; Returns and volatility analyzer; Correlation matrix for portfolio; Interactive price charts; Market data dashboard - plus 244 more on the course page.
+**Projects students build:** Market research on different instruments; Paper trading practice (manual); Order type experiments; Market analysis report; Trading journal setup; Load and explore stock price data; Calculate basic statistics (mean, std, returns); Price data manipulation exercises; Simple moving average calculator; Trading signal generator (basic); Multi-asset data downloader; Returns and volatility analyzer; Correlation matrix for portfolio; Interactive price charts; Market data dashboard - plus 151 more on the course page.
 
-### Alpha Girls: Elite Tech Mastery & Leadership for Women
+### Alpha Girls: Systems at Scale for Senior Women Engineers
 
-`/courses/alpha-girls-elite-tech-mastery` · 12 months (52 weeks) · Expert Developer to Industry Pioneer/Tech Mogul
+`/courses/alpha-girls-elite-tech-mastery` · 9-11 months (36-44 weeks) · Experienced women engineers (roughly 4+ years or Queen Coders graduates)
 
-  - PHASE 1: Enterprise Mastery & Billion-Scale Systems (Months 1-3, Weeks 1-13)
-    Master the architecture and engineering behind the world's largest technology systems. Build production systems for real Fortune 500 companies.
-    - Months 1-2: Fortune 500 Enterprise Architecture
-      - Ultra-Scale System Architecture
-      - Enterprise Cloud & Multi-Cloud Mastery
-      - AI/ML Systems at Enterprise Scale
-      - Financial Systems & Fintech Architecture
-    - Month 3: Critical Infrastructure & Security
-      - National Security & Defense Systems
-      - Healthcare & Biotech Systems
-      - Space Tech & Future Systems
-      - Phase 1 Enterprise Delivery
-      - Transition to Industry Leadership
-    - Months 4-6: Building Tech Empires
-      - Unicorn Startup Engineering
-      - Venture Building & Tech Investing
-      - Enterprise Consulting & $1M Contracts
-      - Tech Media Empire & Influence
-      - Phase 2 Empire Launch
-  - PHASE 2: Industry Disruption & Market Domination (Months 4-6, Weeks 14-26)
-    Build industry-disrupting products, command the market, and establish yourself as a tech mogul with multiple revenue streams.
-    - Months 4-5: Market Domination Strategies
-      - Monopoly Building & Platform Domination
-      - Deep Tech & Frontier Innovation
-      - Government & Defense Contracting
-      - Private Equity & Acquisition
-      - AI Platform & Agent Infrastructure
-    - Month 6: Global Expansion & Empire Building
-      - International Business & Expansion
-      - IPO Preparation & Public Markets
-      - Wealth Management & Asset Building
-      - Industry Influence & Power
-      - Phase 2 Global Summit
-    - Months 7-9: Tech Mogul & Industry Pioneer
-      - Billionaire Mindset & Strategies
-      - Tech Dynasty Building
-      - Philanthropy & Global Impact
-      - Historical Legacy & Immortality
-      - Phase 3 Coronation
-  - PHASE 3: Tech Mogul & Industry Revolution (Months 7-9, Weeks 27-39)
-    Ascend to the pinnacle of tech leadership. Build empires, shape industries, and leave an indelible mark on the world.
-    - Months 7-8: Empire Architecture
-      - Conglomerate Building
-      - Market Maker & Exchange Building
-      - Infrastructure Monopolies
-      - Geopolitical Technology
-      - Space Economy Leadership
-    - Month 9: Ultimate Achievement
-      - Technological Singularity Preparation
-      - Civilization Scale Systems
-      - Ultimate Wealth & Power
-      - Immortal Legacy Creation
-      - Phase 3 Ascension
-    - Months 10-12: Transcendent Leadership
-      - The Alpha Network Effect
-      - The Alpha Revolution
-      - The Alpha Sisterhood
-      - The Alpha Legacy
-      - The Final Transformation
-  - PHASE 4: Universal Domination & Eternal Legacy (Months 10-12, Weeks 40-52)
-    Transcend normal boundaries. Build empires that span industries, create technologies that define humanity's future, and establish an eternal legacy.
-    - Months 10-11: The Alpha Apex
-      - Multi-Planetary Technology Empire
-      - Quantum Supremacy & Computing Future
-      - Biological & Consciousness Engineering
-      - Reality Engineering & Simulation
-      - The Alpha Singularity
-    - Month 12: The Alpha Ascension
-      - Ultimate Preparation & Summit
-      - The Alpha Summit
-      - The Coronation
-      - The New Beginning
-      - Alpha Eternity
-    - Beyond Alpha: Infinite Dominion
-      - The Eternal Empire
-      - Universal Expansion
-      - The Alpha Multiverse
-      - Alpha Infinity
-    - The Alpha Omega
-      - Beginning and End
-      - The Final Form
-      - ALPHA ETERNAL
+  - PHASE 1: Systems at Scale (Months 1-3, Weeks 1-12)
+    The core discipline: design method under load, data at scale, cloud architecture, reliability and the economics of performance.
+    - Month 1: Design Method Under Load
+      - System Design at Scale: The Method
+      - Cloud Architecture, Judged
+    - Month 2: Data and Reliability
+      - Data Platforms and Pipelines
+      - Reliability Engineering
+    - Month 3: Performance Economics and ML Systems
+      - Performance at Scale
+      - ML Systems in Production
+  - PHASE 2: Platforms and Production Judgment (Months 4-6, Weeks 13-24)
+    Platform engineering, security and compliance leadership, and the architecture review cycle practiced as craft.
+    - Month 4: Platform Engineering
+      - Platforms and Developer Experience
+      - Security and Compliance Leadership
+    - Month 5: The Architecture Review Cycle
+      - Architecture Reviews and ADRs
+      - Build, Buy or Wait
+    - Month 6: The Mid-Course Defense
+      - Integration: An AI-Era System at Scale
+      - Phase 2 Defense
+  - PHASE 3: Technical Strategy (Months 7-8, Weeks 25-32)
+    Turning depth into direction: roadmaps, migrations, incident leadership and the influence craft of principal engineers.
+    - Month 7: Direction
+      - Technical Strategy and Roadmaps
+      - Leading Migrations
+    - Month 8: Influence
+      - Incident Leadership and Hard Weeks
+      - Mentoring, Sponsorship and the Room
+  - PHASE 4: The Finale (Month 9, Weeks 33-36)
+    The redesign capstone: one real system taken from pressure to proposal to panel.
+    - Month 9: The Redesign and the Panel
+      - Capstone Build: The Redesign Proposal
+      - Red Team Week
+      - The Final Defense
 
-**Projects students build:** Design Twitter-scale messaging system; Build Netflix-level video streaming architecture; Create Uber's global dispatch system; Implement Google-scale search infrastructure; Migrate Fortune 500 to cloud (real project); Build multi-cloud platform for enterprise; Design $10M+ cost optimization strategy; Implement global compliance framework; Build TikTok-scale recommendation system; Create enterprise fraud detection saving $100M; Implement real-time translation for 50 languages; Design autonomous vehicle ML pipeline; Build Visa-scale payment network; Create high-frequency trading platform; Design central bank digital currency system - plus 211 more on the course page.
+**Projects students build:** Design Twitter-scale messaging system; Build Netflix-level video streaming architecture; Create Uber's global dispatch system; Implement Google-scale search infrastructure; Migrate Fortune 500 to cloud (real project); Build multi-cloud platform for enterprise; Design $10M+ cost optimization strategy; Implement global compliance framework; A data platform design for a stated workload, with the decision table shown; An SLO set plus incident runbook for a chosen service; A performance investigation with before/after measurements; Build TikTok-scale recommendation system; Create enterprise fraud detection saving $100M; Implement real-time translation for 50 languages; Design autonomous vehicle ML pipeline - plus 13 more on the course page.
 
 ### AP Calculus AB & BC Exam Prep, Live Online, Score 5 Goal
 
@@ -3428,9 +3846,9 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** First distribution report: a real one-variable data set displayed, described in full shape-outliers-center-spread sentences, and checked on the calculator; Center-and-spread comparison: two real groups compared on boxplots with a full written comparison of shape, center, spread and outliers; Normal model check: a real quantitative data set tested against the 68-95-99.7 rule, with normalcdf and invNorm used to answer three context questions; First scored free response: a Unit 1 style question written under time and self-scored against a rubric, with every lost point named; Relationship study: a real two-variable data set plotted, described in full, and its correlation computed and interpreted in context; Prediction model: a regression line fit to real data, its residual plot checked for pattern, and two predictions made with their limits stated; Sampling critique: a real published survey evaluated for its sampling method, with specific bias risks named in writing; Experiment design: a full experimental design written for a given research question, naming treatments, randomisation and control; Two-way table study: a real two-way table used to compute conditional probabilities and formally test two events for independence; Combined-variable analysis: two random variables combined by sum or difference, with mean and standard deviation of the result found and interpreted; Model choice project: three real scenarios each modelled correctly as binomial or geometric, with the setting's conditions checked in writing; Timed probability free response written under exam conditions and self-scored against a rubric; Simulation build: a sampling distribution for a proportion simulated by hand or calculator, with shape, center and spread reported from the simulation; Central Limit Theorem simulation: sample means drawn repeatedly from a skewed population, with the resulting shape compared at small and large sample sizes; Distribution identification drill: ten scenarios each matched to the correct sampling distribution, with mean, standard deviation and conditions stated - plus 9 more on the course page.
 
-### App Development Course: Build Mobile & Web Apps From Zero
+### App Development Course: Flutter, iOS & Android
 
-`/courses/complete-app-development-masterclass-college` · 12 months (52 weeks) · Complete Beginner to Professional App Developer
+`/courses/complete-app-development-masterclass-college` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
   - PHASE 1: Foundations & First Apps (Months 1-3, Weeks 1-13)
     Build programming foundations, master UI/UX design principles, and create your first mobile applications.
@@ -3451,7 +3869,7 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Firebase Integration
       - Advanced App Features
       - Animations & Advanced UI
-    - Month 6: React Native & Alternative Platforms
+    - Month 6: Alternative Stacks: React Native, PWAs & App Backends
       - React Native Introduction
       - Progressive Web Apps (PWA)
       - Backend Development for Apps (Node.js/Express)
@@ -3471,31 +3889,108 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Jetpack Compose (Modern Android UI)
       - Android Data & Architecture
       - Android Advanced & Phase 3 Capstone
-  - PHASE 4: Publishing, Monetization & App Business (Months 10-12, Weeks 40-52)
-    Master app publishing, monetization strategies, marketing, analytics, and running an app business.
-    - Months 10-11: App Store Publishing & Monetization
-      - App Store Publishing (iOS)
-      - Google Play Store Publishing (Android)
-      - App Monetization Strategies
-      - Analytics & User Engagement
-      - App Performance & Optimization
-    - Month 12: Marketing, Business & Career
-      - App Marketing & User Acquisition
-      - App Maintenance & Updates
-      - Building an App Business
-      - Career Development in App Development
-      - Emerging Technologies & Future
-    - FINAL CAPSTONE & LAUNCH
-      - Final Capstone Planning
-      - Final Capstone Development
-      - Final Capstone Launch
-      - Post-Launch & Career Success
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** Environment setup checklist; Simple 'Hello World' app; App idea documentation; Wireframe sketches (paper); Git repository creation; Calculator logic; Temperature converter; Todo list logic (console); Quiz game logic; BMI calculator logic; Simple games (number guessing); Design system in Figma; App UI mockups (5 different apps); Icon set creation; User flow diagrams - plus 223 more on the course page.
+**Projects students build:** Environment setup checklist; Simple 'Hello World' app; App idea documentation; Wireframe sketches (paper); Git repository creation; Calculator logic; Temperature converter; Todo list logic (console); Quiz game logic; BMI calculator logic; Simple games (number guessing); Design system in Figma; App UI mockups (5 different apps); Icon set creation; User flow diagrams - plus 153 more on the course page.
 
-### Artificial Intelligence Course: Classical AI to AGI
+### App Development for Teens: Build Real Apps with React Native
 
-`/courses/artificial-intelligence-complete-masterclass-college` · 12 months (52 weeks) · Complete Beginner to AI Research Scientist
+`/courses/complete-app-development-masterclass-for-teens` · 10-12 months (40-48 weeks) · Absolute beginner, ages 13 to 18
+
+  - PHASE 1: Foundations to First App (Months 1-3, Weeks 1-12)
+    JavaScript learned properly, interface thinking with React, and the jump to React Native: by the end of this phase an app the student built runs on their own phone.
+    - Month 1: How Apps Are Built
+      - The App World, Honestly Mapped
+      - JavaScript Essentials
+      - UI and UX Fundamentals
+      - Modern JavaScript
+    - Month 2: React and the Backend Taste
+      - React Fundamentals
+      - State and Navigation Thinking
+      - Progressive Web Apps: Ship Before the Stores
+      - Firebase: A Backend Without a Server
+    - Month 3: React Native, and an App on Your Phone
+      - React Native with Expo
+      - Core Components and Native Feel
+      - Styling and UI Libraries
+      - Phase Capstone: First Real App
+  - PHASE 2: App Craft (Months 4-6, Weeks 13-24)
+    What separates demos from products: data that persists, device features, polish, analytics, store readiness, accessibility and AI features, ending in a polished second app.
+    - Month 4: Data and Device Powers
+      - State Management and Testing
+      - Data That Survives: Storage and Offline
+      - Camera, Location and Notifications
+      - Builds and Sharing
+    - Month 5: The Product Layer
+      - Firebase in Depth: Auth and Firestore
+      - Animations and Gestures
+      - Analytics and Performance, Honestly
+      - Store Readiness, Told Straight
+    - Month 6: The Modern App
+      - AI Features in Your App
+      - Accessibility and App Safety
+      - An Honest Week of Flutter
+      - Phase 2 Capstone: The Polished App
+  - PHASE 3: The Wider Craft and the Capstone Build (Months 7-8, Weeks 25-32)
+    The map of native development, notifications done right, professional Git workflow, and then the main event: the final capstone designed and built.
+    - Month 7: The Wider World
+      - The Native Map: Kotlin and Swift, Honestly
+      - Push Notifications and Background Work
+      - Git and Team Workflow for Apps
+      - Mini Product Sprint
+    - Month 8: The Capstone, Designed and Built
+      - Capstone Spec and Design Sprint
+      - Capstone Build
+      - User Testing and Iteration
+  - PHASE 4: Launch (Months 9-10, Weeks 33-40)
+    The last mile real developers respect: hardening, honest distribution, real users, iteration, portfolio, and the final exam at demo day.
+    - Month 9: Ship It Properly
+      - Hardening Week
+      - Distribution, For Real
+      - Launch Week
+      - Portfolio and Devlog
+    - Month 10: The Finale
+      - Iteration Sprint
+      - Final Polish and Demo Preparation
+      - Demo Day and What Comes Next
+
+**Projects students build:** Research and present your favorite app's history; Set up complete development environment; Create your first web-based calculator app; Design your dream app concept (mockup); To-do list app with local storage; Quiz game with score tracking; Weather app using API; Instagram-style photo filter app (basic); Redesign a popular app for better UX; Create complete UI kit in Figma; Design your social media app mockup; Build clickable prototype; Movie database app with TMDB API; Real-time chat app (web version); Music player with Spotify Web API - plus 73 more on the course page.
+
+### App Making for Kids: Build Real Apps with Blocks
+
+`/courses/block-coding-app-development-masterclass` · 6-8 months (26-32 weeks) · Complete beginner, ages 8 to 12
+
+  - THE COURSE: From Logic to Launched-at-Home (Months 1-6, Weeks 1-26)
+    Visual programming logic, then real mobile apps built, tested by the family and presented at demo day.
+    - Months 1-2: Visual Programming Fundamentals
+      - Introduction to Block Coding & Scratch Basics
+      - Programming Logic with Blocks
+      - Game Development in Scratch
+      - Introduction to MIT App Inventor
+    - Months 3-4: Mobile App Development
+      - Thunkable Platform Mastery
+      - Working with Device Features
+      - Data Storage and Persistence
+      - Advanced UI and User Experience
+      - Mid-Course Review and Showcase
+    - Months 5-6: Advanced Features & Publishing
+      - APIs and Web Services
+      - Game Development Advanced
+      - AI and Machine Learning Blocks
+      - IoT and Hardware Integration
+      - Capstone and the Final Exam
+
+**Projects students build:** Animated greeting card; Interactive story with characters; Simple animation sequence; Musical instrument app; Calculator with visual blocks; Quiz game with scoring; Number guessing game; Drawing app with controls; Maze navigation game; Platformer game with jumping; Space shooter with enemies; Puzzle game with levels; Hello World mobile app; Personal information form; Multi-screen navigation app - plus 38 more on the course page.
+
+### Artificial Intelligence Course: Search, Logic & Agents
+
+`/courses/artificial-intelligence-complete-masterclass-college` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
   - PHASE 1: Classical AI Foundations (Months 1-3, Weeks 1-13)
     Build deep understanding of AI foundations, search algorithms, logic, knowledge representation, and problem-solving.
@@ -3536,203 +4031,96 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Swarm Intelligence & Collective Behavior
       - Social AI & Human-AI Interaction
       - Phase 3 Capstone Project
-  - PHASE 4: Advanced AI, AGI & Research (Months 10-12, Weeks 40-52)
-    Master cognitive architectures, AGI concepts, AI philosophy, ethics, cutting-edge research, and career preparation.
-    - Months 10-11: Cognitive AI & AGI
-      - Cognitive Architectures
-      - Artificial General Intelligence (AGI) Concepts
-      - AI Philosophy & Theory of Mind
-      - AI Safety & Alignment
-      - AI Ethics & Societal Impact
-    - Month 12: Research, Innovation & Career
-      - AI Research Methodology
-      - Cutting-Edge AI Research Areas
-      - AI in Industry & Applications
-      - Career Paths in AI Research
-      - Future of AI
-    - FINAL CAPSTONE & RESEARCH LAUNCH
-      - Novel AI System Design
-      - Implementation & Experimentation
-      - Documentation & Publication
-      - Final Defense & Career Launch
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** Simple reflex agent implementation; Model-based agent for grid world; Agent environment simulator; AI timeline and evolution visualization; Turing Test chatbot (rule-based); 8-puzzle solver with BFS/DFS; Maze solver with multiple algorithms; Route finding system (city maps); N-Queens problem solver; Missionaries and Cannibals problem; Search visualization tool; Performance comparison framework; A* pathfinding implementation; 15-puzzle solver with pattern databases; Route optimization with A* - plus 262 more on the course page.
+**Projects students build:** Simple reflex agent implementation; Model-based agent for grid world; Agent environment simulator; AI timeline and evolution visualization; Turing Test chatbot (rule-based); 8-puzzle solver with BFS/DFS; Maze solver with multiple algorithms; Route finding system (city maps); N-Queens problem solver; Missionaries and Cannibals problem; Search visualization tool; Performance comparison framework; A* pathfinding implementation; 15-puzzle solver with pattern databases; Route optimization with A* - plus 172 more on the course page.
 
-### Backend Development for Teens: APIs, Databases & Cloud
+### Backend Development for Teens: Node, APIs and Databases
 
-`/courses/backend-coding-masterclass-for-teens` · 12 months (52 weeks) · Complete Beginner to Professional Backend Developer
+`/courses/backend-coding-masterclass-for-teens` · 9-11 months (36-44 weeks) · Absolute beginner, ages 13 to 18
 
-  - PHASE 1: Foundation & Programming Basics (Months 1-3, Weeks 1-13)
-    Start from absolute zero. Learn how the internet works, master programming fundamentals, and build your first servers.
-    - Months 1-2: Internet Basics & Programming Fundamentals
+  - PHASE 1: Foundations (Months 1-3, Weeks 1-12)
+    The internet demystified, JavaScript learned properly, problem-solving sharpened, then the first real servers with Node and Express.
+    - Month 1: The Internet and JavaScript
       - How The Internet Actually Works
       - JavaScript Fundamentals - The Language of Backend
-      - Python Basics - Alternative Backend Language
-      - Algorithms & Problem Solving
-    - Month 3: Your First Backend Server
+    - Month 2: Problem Solving and First Servers
+      - Algorithms and Problem Solving
       - Node.js - JavaScript on Servers
+    - Month 3: Express and REST Design
       - Express.js - Professional Backend Framework
       - RESTful API Design
-  - PHASE 2: Databases & Data Management (Months 4-6, Weeks 14-26)
-    Master databases - where all the data lives. Learn to store millions of users, posts, and manage data like tech giants.
-    - Months 4-5: Database Fundamentals
-      - Introduction to Databases
+  - PHASE 2: Data and Product Features (Months 4-6, Weeks 13-24)
+    The features every real product needs: both database families, safe authentication, hardened APIs, and file uploads done properly.
+    - Month 4: Databases, Both Families
       - MongoDB - NoSQL for Modern Apps
       - PostgreSQL - Powerful SQL Database
-      - Redis & Caching
-      - Database Integration & ORMs
-    - Month 6: Authentication & Security
+    - Month 5: Auth and Security
       - User Authentication Systems
       - API Security & Best Practices
+    - Month 6: Uploads, Media and the Phase Capstone
       - File Uploads & Media Handling
-      - Email & Notifications
-      - Payment Integration
-    - Month 6 Review & Advanced Features
+      - Phase 2 Capstone: A Product Backend
+  - PHASE 3: Real Systems (Months 7-8, Weeks 25-32)
+    What separates demos from systems: live features, background work, tests, and the modern AI-backend layer built with guardrails.
+    - Month 7: Live Features and Background Work
       - Real-time Features & WebSockets
-      - Advanced API Features
-      - Search & Analytics
-      - Background Jobs & Scheduling
-      - Phase 2 Capstone Project
-  - PHASE 3: Advanced Backend & System Design (Months 7-9, Weeks 27-39)
-    Level up to advanced backend concepts. Learn microservices, system design, and how to build scalable systems.
-    - Months 7-8: Microservices & Advanced Architecture
-      - Microservices Architecture
-      - Message Queues & Event Systems
-      - System Design Fundamentals
-      - Advanced Database Concepts
-      - Performance & Optimization
-    - Month 8: Testing & Quality Assurance
+      - Background Jobs, Scheduling and Email
+    - Month 8: Testing and AI Backends
       - Testing Fundamentals
-      - API & Integration Testing
-      - Code Quality & Best Practices
-      - Monitoring & Logging
-      - Month 8 Project Integration
-    - Month 9: Advanced Topics & Specializations
-      - Serverless & Cloud Functions
-      - AI/ML Integration for Backend
-      - AI Backends & Agent APIs
-      - Advanced Security Topics
-      - Phase 3 Capstone Project
-  - PHASE 4: DevOps, Cloud & Production (Months 10-12, Weeks 40-52)
-    Master deployment, cloud services, DevOps practices, and build production-ready systems.
-    - Months 10-11: Docker & Cloud Deployment
-      - Docker Fundamentals
-      - Kubernetes Basics
-      - AWS Cloud Services
-      - CI/CD Pipelines
-      - Alternative Cloud Providers
-    - Month 11: Infrastructure & Scaling
-      - Infrastructure as Code
-      - Scaling & Performance
-      - Site Reliability Engineering
-      - Advanced Monitoring & Observability
-      - Month 11 Integration Week
-    - Month 12: Final Projects & Career Launch
-      - Industry Best Practices
-      - Final Capstone - Planning
-      - Final Capstone - Development
-      - Final Capstone - Production
-    - Week 51-52: Career Launch & Beyond
-      - Portfolio & Personal Brand
-      - Interview Preparation
-      - Graduation & Next Steps
+      - AI Backends and Agent APIs
+  - PHASE 4: Ship (Month 9, Weeks 33-36)
+    Performance judgment, one honest week of Docker, and the capstone deployed, documented and defended.
+    - Month 9: Performance, Docker, Capstone
+      - Performance and Monitoring Basics
+      - Docker in One Honest Week
+      - Capstone Build
+      - Demo Day and the Final Exam
 
-**Projects students build:** Draw your favorite app's architecture; Set up your ultimate coding environment; Create your GitHub profile README; Discord bot message generator; Minecraft inventory manager; YouTube stats calculator; Grade calculator with GPA; Instagram follower tracker; Automated homework organizer; Game high score manager; Weather data analyzer; Build TikTok's recommendation algorithm (simplified); Create a matchmaking system for games; Implement Instagram's hashtag search; Design a tournament bracket system - plus 194 more on the course page.
+**Projects students build:** Draw your favorite app's architecture; Set up your ultimate coding environment; Create your GitHub profile README; Discord bot message generator; Minecraft inventory manager; YouTube stats calculator; Grade calculator with GPA; Build TikTok's recommendation algorithm (simplified); Create a matchmaking system for games; Implement Instagram's hashtag search; Design a tournament bracket system; File-based todo list for homework; Discord webhook notifier; Local multiplayer game server; Meme generator backend - plus 55 more on the course page.
 
-### Block-Based App Development: Build Apps With No Code
+### Build AI Agents with Google Gemini Enterprise
 
-`/courses/block-coding-app-development-masterclass` · 6 months (26 weeks) · Complete Beginner to Advanced App Creator
+`/courses/build-ai-agents-with-google-gemini-enterprise-course` · 16 classes (2 months · 2 classes/week · 1 hour each) · Intermediate to advanced · working professionals, founders, team leads and developers
 
-  - PHASE 1: Foundation & Logic Building (Months 1-2, Weeks 1-8)
-    Master the fundamentals of programming logic using visual blocks. Start with Scratch to understand core concepts, then create your first mobile apps.
-    - Months 1-2: Visual Programming Fundamentals
-      - Introduction to Block Coding & Scratch Basics
-      - Programming Logic with Blocks
-      - Game Development in Scratch
-      - Introduction to MIT App Inventor
-    - Months 3-4: Mobile App Development
-      - Thunkable Platform Mastery
-      - Working with Device Features
-      - Data Storage and Persistence
-      - Advanced UI and User Experience
-      - Month 3-4 Review & Mini Projects
-    - Months 5-6: Advanced Features & Publishing
-      - APIs and Web Services
-      - Game Development Advanced
-      - AI and Machine Learning Blocks
-      - IoT and Hardware Integration
-      - Publishing and Monetization
-  - PHASE 2: Specialized Tracks (Choose Your Path)
-    Select specialized tracks based on interest: Educational Apps, Business Tools, Games, or Creative Apps.
-    - Educational Technology Track
-      - Educational App Design
-      - STEM and Coding Education
-      - Business and Productivity Track
-      - E-commerce and Marketplace Apps
-      - Game Development Specialization
-    - Creative and Media Apps Track
-      - Creative Tools Development
-      - Social Media and Communication
-      - Health and Fitness Apps
-      - Entertainment and Lifestyle
-      - Augmented Reality with Blocks
-    - Professional Development Track
-      - Advanced Thunkable Features
-      - Cross-Platform Development
-      - App Testing and Quality
-      - Transition to Text Coding
-      - Final Capstone Project
-  - BONUS CONTENT: Advanced Topics & Emerging Technologies
-    Optional advanced modules for continued learning and specialization.
-    - Emerging Technologies
-      - AI Features in Your Apps
-      - Advanced AI Integration
-      - Virtual and Mixed Reality
-      - Enterprise and B2B Apps
-      - App Entrepreneurship
-    - Teaching and Content Creation
-      - Becoming a Block Coding Instructor
-      - Content Creation for App Developers
-      - Open Source and Community
-      - Accessibility and Inclusive Design
-      - Future of No-Code Development
-    - Specialized Industry Applications
-      - Healthcare and Medical Apps
-      - Financial Technology Apps
-      - Government and Civic Apps
-      - Real Estate and Property Apps
-      - Final Master Certification
-  - LIFETIME LEARNING: Continuous Updates & Community
-    Ongoing support, new content, and community engagement for lifetime learners.
-    - Community Projects & Collaboration
-      - Team Development Projects
-      - Advanced Workshops & Masterclasses
-      - Mentorship and Teaching Others
-      - Research and Innovation
-      - Platform Updates & New Features
-    - Professional Networking & Growth
-      - Building Professional Network
-      - Freelancing and Consulting
-      - App Business Development
-      - Industry Certifications
-      - Global Opportunities
-    - Lifetime Support & Resources
-      - Alumni Network
-      - Continuous Content Updates
-      - Special Interest Groups
-      - Future Learning Paths
-    - Success Celebration & Next Steps
-      - Portfolio Showcase
-      - Graduation & Certification
-      - Your Journey Continues
+  - Phase 1: The Gemini Enterprise Platform
+    Map Google's two-sided agent stack, get the right edition and access, learn the anatomy of a Workflow Builder agent, build instruction and testing discipline, and make the model and Skills decisions that shape cost and capability.
+    - Class 1: Google's Agent Stack in September 2026 and Where You Build
+    - Class 2: Agent Anatomy in Workflow Builder
+    - Class 3: Testing Like It Is Already in Production
+    - Class 4: Models, Skills and Projects: The Decisions Underneath
+  - Phase 2: Knowledge, Connectors and Actions
+    Ground agents in Google Workspace and third-party data at scale, understand federated versus indexed sources, give agents actions that write to real systems, add custom MCP servers under Agent Registry governance, and prove accuracy the way an auditor would.
+    - Class 5: Grounding Strategy: The Data Store Estate
+    - Class 6: Documents, Workspace and Third-Party Knowledge Done Right
+    - Class 7: Actions: Agents That Write to Real Systems
+    - Class 8: Custom MCP Servers, Agent Registry and the Accuracy Audit
+  - Phase 3: Workflows, Autonomy and Multi-Agent Systems
+    Build multi-step workflows with triggers, schedules and human approvals, run them from the Inbox, compose sub-agents and Agent Gallery agents, register agents over A2A and A2UI, then cross to the pro-code side: ADK, Agent Runtime, Agent Identity and Model Armor.
+    - Class 9: Workflows: Deterministic Automation with a Human in the Loop
+    - Class 10: Triggers, Schedules and Hardened Autonomy
+    - Class 11: Multi-Agent Systems: Sub-Agents, the Agent Gallery, A2A and A2UI
+    - Class 12: The Pro-Code Bridge: ADK, Agent Runtime, Agent Identity and Model Armor
+  - Phase 4: Observability, Cost, Governance and Capstone
+    Prove agents work and know what they cost: tracing and metrics, seat and pay-as-you-go economics, data residency and policy controls, the Professional Agentic Architect exam map, then a production capstone defended with its governance and cost pack.
+    - Class 13: Observability: Traces, Metrics and the Improvement Loop
+    - Class 14: Cost: Seats, Pay-As-You-Go, Overage and Runtime Metering
+    - Class 15: Governance: Residency, Policy Constraints, Content Policies and the Certification Map
+    - Class 16: Capstone Build and Defence
 
-**Projects students build:** Animated greeting card; Interactive story with characters; Simple animation sequence; Musical instrument app; Calculator with visual blocks; Quiz game with scoring; Number guessing game; Drawing app with controls; Maze navigation game; Platformer game with jumping; Space shooter with enemies; Puzzle game with levels; Hello World mobile app; Personal information form; Multi-screen navigation app - plus 221 more on the course page.
+**Projects students build:** Write your organisation's one-page agent opportunity memo: three candidate processes, the data and systems each needs, the risks each carries, the edition it requires, and the one that becomes your capstone; Build Policy Desk v1: an internal chat agent for one real policy area of your organisation, with a complete instruction stack, five tested refusals and a designed hand-off to a human; Build the permanent 25-question test set for Policy Desk, including five adversarial probes, and run it end to end in the testing environment with verdicts logged; Run your Policy Desk test set against two Gemini models, score the differences, and write the model decision with evidence attached; then package the agent's reusable behaviour as a Skill and put its source documents in a Project; Ground Policy Desk in a real Google Drive or SharePoint source (or a mirrored practice copy) and prove ten answers cite the correct document and passage; Rebuild one messy real document into a retrieval-optimised version, ground both versions side by side, and publish the before-and-after accuracy comparison; then add a second, structured source and document the arbitration behaviour with five conflict questions; Build Support Triage v1: a chat agent that collects an issue, searches the right knowledge, and creates the ServiceNow incident or Jira issue (or posts to the right Slack channel) with a confirmation step and tested failure messages; Connect one custom MCP server to a practice agent with only the tools you need enabled and a one-page security note, then run the full 25-answer accuracy audit on Policy Desk and publish the result with methodology and a remediation list; Build Expense Helper: a workflow that collects an expense claim, validates it against policy, pauses for a manager's approval, files the result in the right system and reports back, with tested error paths for every step; Build Weekly Reporter: a scheduled workflow that compiles a weekly status summary from real sources, drafts it into a Google Doc, and posts it for review, never directly to stakeholders; then harden it with an approval pause, an error diary and a self-report of its own actions; Refactor Support Triage into a two-agent design: a routing agent plus a specialist sub-agent, with documented hand-off contracts and a failure-mode table; then register an external A2A agent and delegate one task to it; Build and run a small ADK agent in Python that wraps one tool your capstone needs, deploy it to Agent Runtime, register it in Gemini Enterprise, and call it from a Workflow Builder agent; document the identity and Model Armor settings you applied; Observability sprint: run one agent with at least five real users for a week, review its traces and metrics, ship two data-demanded improvements, and write the before-and-after with p95 latency and error rate on the page; Build the complete cost model for your capstone: edition recommendation, seat count, pay-as-you-go versus seats comparison, Agent Runtime line if any, overage cap, and a monthly projection at three adoption levels; Write the governance pack for your capstone: region and residency decision, organisation policy and content policy plan, identity and sharing plan, Agent Registry entries, compliance notes, and the rollout runbook with rollback - plus 1 more on the course page.
 
 ### Business & Finance Mathematics: Investment to Risk
 
-`/courses/complete-business-finance-mathematics-mastery` · 12 months (52 weeks) · Complete Beginner to Advanced Professional
+`/courses/complete-business-finance-mathematics-mastery` · 12-14 months (52-60 weeks) · Complete Beginner to Advanced Professional
 
-  - PHASE 1: Business Mathematics Foundations (Months 1-3, Weeks 1-13)
+  - PHASE 1: Business Mathematics Foundations (Weeks 1-13)
     Build rock-solid foundations in business calculations, financial mathematics, and accounting principles. Master the mathematical tools used daily in business.
     - Months 1-2: Core Business Mathematics
       - Percentages & Business Applications
@@ -3743,7 +4131,7 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Accounting Mathematics Fundamentals
       - Cost Accounting & Budgeting
       - Phase 1 Assessment & Integration
-  - PHASE 2: Statistical Analysis & Economic Mathematics (Months 4-6, Weeks 14-26)
+  - PHASE 2: Statistical Analysis and Economic Mathematics (Weeks 14-26)
     Master statistical methods for business decision-making, economic analysis, and financial forecasting.
     - Months 4-5: Business Statistics & Analytics
       - Descriptive Statistics for Business
@@ -3757,7 +4145,7 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Financial Markets Mathematics
       - International Finance Mathematics
       - Phase 2 Capstone Project
-  - PHASE 3: Investment Mathematics & Risk Management (Months 7-9, Weeks 27-39)
+  - PHASE 3: Investment Mathematics and Risk Management (Weeks 27-39)
     Master investment analysis, portfolio management, risk assessment, and corporate finance decisions.
     - Months 7-8: Investment Analysis & Valuation
       - Equity Valuation Mathematics
@@ -3771,31 +4159,26 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Operational & Market Risk
       - Regulatory Capital & Compliance
       - Phase 3 Integration & Assessment
-  - PHASE 4: Advanced Finance & Quantitative Methods (Months 10-12, Weeks 40-52)
+  - PHASE 4: Advanced Finance and Final Revision (Weeks 40-52)
     Master derivatives pricing, quantitative finance, financial modeling, and advanced corporate finance.
-    - Months 10-11: Derivatives & Structured Products
+    - Month 10: Derivatives & Structured Products
       - Options Mathematics
       - Futures & Forwards
       - Swaps & Interest Rate Derivatives
       - Credit Derivatives & Structured Finance
       - Volatility & Advanced Greeks
-    - Month 11-12: Quantitative Finance & Modeling
+    - Month 11: Quantitative Finance and Modelling
       - Financial Modeling Excellence
       - Algorithmic Trading Mathematics
       - Corporate Finance Advanced
-      - Fintech & Blockchain Finance
-      - ESG & Sustainable Finance
-    - Professional Applications & Certification
+    - Month 12: Professional Applications and Revision
       - Industry Case Studies
-      - Professional Certifications Prep
       - Financial Technology Tools
-      - Career Development & Networking
-    - Final Projects & Certification
-      - Capstone Project - Part 1
+    - Month 13: Final Projects & Certification
       - Capstone Project - Part 2 & Presentation
       - Final Assessment & Certification
 
-**Projects students build:** Profit margin calculator for business; Sales commission tracker; Break-even analysis tool; Compound interest calculator; Investment growth simulator; Currency converter with live rates; Loan amortization calculator; Mortgage comparison tool; Retirement planning calculator; Financial ratio analyzer; Company comparison dashboard; Industry benchmark tool; Depreciation schedule generator; Inventory management calculator; Cash flow statement builder - plus 113 more on the course page.
+**Projects students build:** Profit margin calculator for business; Sales commission tracker; Break-even analysis tool; Compound interest calculator; Investment growth simulator; Currency converter with live rates; Loan amortization calculator; Mortgage comparison tool; Retirement planning calculator; Financial ratio analyzer; Company comparison dashboard; Industry benchmark tool; Depreciation schedule generator; Inventory management calculator; Cash flow statement builder - plus 96 more on the course page.
 
 ### C Programming for Beginners: Pointers, Memory & Structs
 
@@ -3840,98 +4223,55 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Banner program: compile, break, and fix a program five different ways to learn the error messages early; Limits explorer: a program that prints the size and range of every basic type on your machine; Grade and tax calculator: branching logic with real edge cases, negative inputs, and boundary values; Pattern engine: pyramids, diamonds, and number triangles from nested loops; Prime and perfect number finder with a hand-traced dry run submitted alongside the code; Number theory library: gcd, lcm, prime check, and digit sum as clean reusable functions in their own file; Stack tracer: a set of nested function calls with a hand-drawn stack diagram matched against actual output; Recursive toolkit: power, GCD, decimal-to-binary, and Tower of Hanoi with move printing; Unit converter suite: a menu-driven multi-file program with separate modules for length, weight, and temperature; Memory mapper: a program that prints the address and value of every variable it owns, matched to a hand-drawn diagram; Statistics engine: one function that fills min, max, and mean through pointer parameters from a single pass; Array toolkit: reverse, rotate, and search implemented twice, once with indices and once with pointers; mini_string.h: your own implementation of five standard string functions, tested against the real library; Runtime array: a program that asks the user how much data is coming, allocates exactly that, and cleans up properly; Growable list: a dynamic array module with append, insert, and remove that survives a sanitizer run cleanly - plus 10 more on the course page.
 
-### C++ Course for Teens Online: Games & Competitive Coding
+### C++ for Teens: Fundamentals, STL, DSA and Real Games
 
-`/courses/cpp-programming-masterclass-for-teens` · 12 months (52 weeks) · Complete Beginner to Advanced C++ Developer
+`/courses/cpp-programming-masterclass-for-teens` · 10-12 months (40-48 weeks) · Absolute beginner, ages 13 to 18
 
-  - PHASE 1: C++ Fundamentals & First Programs (Months 1-3, Weeks 1-13)
-    Start from absolute zero and write your first C++ programs. Build games, solve puzzles, and understand how computers really work.
-    - Month 1: C++ Basics & Setup
+  - PHASE 1: Fundamentals (Months 1-3, Weeks 1-12)
+    The language learned patiently: syntax, control flow, loops, functions, arrays and strings, each week ending with working programs.
+    - Month 1: First C++
       - Introduction to C++ & Programming
       - Variables & Data Types
+    - Month 2: Control and Repetition
       - Control Flow & Decision Making
       - Loops & Repetition
-    - Month 2: Functions & Arrays
+    - Month 3: Functions, Arrays and Strings
       - Functions - Code Reusability
       - Arrays & Strings
+  - PHASE 2: The Hard Beautiful Parts (Months 4-6, Weeks 13-24)
+    What makes C++ C++: pointers and references with pictures, dynamic memory without fear, object-oriented design, files, and the first taste of the STL.
+    - Month 4: Pointers and Memory
       - Pointers & References
       - Dynamic Memory Management
-      - Month 3: Object-Oriented Basics
-    - Month 3: Structures & File I/O
-      - Structures & Enums
-      - File Input/Output
-      - Error Handling & Debugging
-      - STL Basics - Standard Template Library
-      - Phase 1 Capstone Project
-  - PHASE 2: Object-Oriented Programming & Data Structures (Months 4-6, Weeks 14-26)
-    Master OOP concepts and build complex data structures. Create game engines and advanced applications.
-    - Months 4-5: Advanced OOP
+    - Month 5: Objects and Inheritance
+      - Object-Oriented Basics: Classes and Objects
       - Inheritance & Polymorphism
-      - Advanced Class Features
-      - Templates & Generic Programming
-      - Design Patterns
-      - Smart Pointers & Modern C++
-    - Month 6: Data Structures
+    - Month 6: Files, Errors and First STL
+      - File Input/Output
+      - STL Basics - Standard Template Library
+  - PHASE 3: Data Structures in C++ (Months 7-8, Weeks 25-32)
+    The serious core, built by hand in the language it was invented for: linear structures, trees and graphs, sorting, and STL depth.
+    - Month 7: Structures by Hand
       - Linear Data Structures
       - Trees & Graphs
-      - Hash Tables & Sets
+    - Month 8: Algorithms and STL Depth
       - Algorithms - Searching & Sorting
-      - Advanced Algorithms
-    - Phase 2 Capstone & STL Mastery
       - STL Containers Deep Dive
-      - STL Algorithms & Functional
-      - Multithreading Basics
-      - Memory Management Mastery
-      - Phase 2 Capstone Project
-  - PHASE 3: Graphics, Games & System Programming (Months 7-9, Weeks 27-39)
-    Dive into graphics programming, game development, and system-level programming.
-    - Months 7-8: Graphics Programming
+  - PHASE 4: Games, Contests and the Capstone (Months 9-10, Weeks 33-40)
+    C++ made visible and competitive: a real SFML game, contest foundations, modern C++ habits, and the capstone exam.
+    - Month 9: SFML and First Contests
       - 2D Graphics with SFML
-      - Advanced 2D Graphics
-      - OpenGL Basics
-      - Game Physics
-      - Audio Programming
-    - Month 9: System Programming
-      - Operating System Interfaces
-      - Network Programming
-      - Database Programming
-      - Embedded & Arduino
-      - Phase 3 Integration
-    - Phase 3 Capstone & Specialization
-      - Game Engine Architecture
-      - AI for Games
-      - Optimization & Performance
-      - Modern C++ Features
-      - Phase 3 Capstone Project
-  - PHASE 4: Competitive Programming & Career Launch (Months 10-12, Weeks 40-52)
-    Master competitive programming, build portfolio projects, and prepare for careers or college.
-    - Months 10-11: Competitive Programming
       - Competitive Programming Foundations
-      - Dynamic Programming
-      - Graph Algorithms Advanced
-      - Advanced Data Structures
-      - Mathematics for CP
-    - Month 11: Advanced Topics & Projects
-      - String Algorithms
-      - Computational Geometry
-      - Machine Learning with C++
-      - Cryptography Basics
-      - Compiler Design Basics
-    - Month 12: Portfolio & Career
-      - Portfolio Development
-      - Interview Preparation
-      - Open Source & Collaboration
-      - Final Project Development
-    - Week 51-52: Graduation & Launch
-      - Final Project Completion
-      - Career Launch
-      - Graduation & Celebration
+    - Month 10: Modern C++, Capstone, Demo Day
+      - Modern C++: Smart Pointers and Clean Habits
+      - Capstone Build
+      - Demo Day and the Final Exam
 
-**Projects students build:** Hello World variations; ASCII art generator; Personal introduction program; Simple conversation bot; Calculator with all operations; Temperature converter; Random dice roller for D&D; Simple RPG stat calculator; Text adventure game; Grade calculator with letter grades; Rock-Paper-Scissors game; Simple AI decision maker; Pattern generator program; Prime number finder; Multiplication table generator - plus 225 more on the course page.
+**Projects students build:** Hello World variations; ASCII art generator; Personal introduction program; Simple conversation bot; Calculator with all operations; Temperature converter; Random dice roller for D&D; Simple RPG stat calculator; Text adventure game; Grade calculator with letter grades; Rock-Paper-Scissors game; Simple AI decision maker; Pattern generator program; Prime number finder; Multiplication table generator - plus 63 more on the course page.
 
-### C++ Programming Masterclass: Zero to System Programmer
+### C++ Masterclass: Fundamentals to Modern C++ and Systems
 
-`/courses/cpp-programming-complete-masterclass-college` · 12 months (52 weeks) · Complete Beginner to Expert C++ Developer
+`/courses/cpp-programming-complete-masterclass-college` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
   - PHASE 1: C++ Fundamentals & Object-Oriented Programming (Months 1-3, Weeks 1-13)
     Build rock-solid foundations in C++ syntax, memory management, pointers, and object-oriented programming principles.
@@ -3972,116 +4312,104 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Security Programming
       - Graphics Programming Basics
       - Phase 3 Capstone Project
-  - PHASE 4: Specialization & Career Launch (Months 10-12, Weeks 40-52)
-    Choose your specialization path and prepare for professional C++ development careers.
-    - Months 10-11: Specialization Tracks
-      - Game Development with C++
-      - High-Performance Computing
-      - Financial Systems Development
-      - Modern C++ Best Practices
-      - Open Source Contribution
-    - Month 12: Career Preparation & Launch
-      - Interview Preparation
-      - Portfolio Development
-      - Career Paths & Specializations
-      - Professional Skills
-      - Final Project & Graduation
-    - Continuous Learning & Excellence
-      - Staying Current with C++
-      - Advanced Certifications
-      - Building C++ Products
-      - Mastery & Leadership
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** Hello World variations; Simple calculator with basic operations; Temperature converter; Personal information display program; Advanced calculator with bitwise operations; Data type size explorer; Number system converter (binary, decimal, hex); Bitwise flag management system; Menu-driven banking system; Number guessing game; Prime number generator; Recursive factorial and Fibonacci calculator; Pattern printing programs; Dynamic array implementation; String manipulation library - plus 185 more on the course page.
+**Projects students build:** Hello World variations; Simple calculator with basic operations; Temperature converter; Personal information display program; Advanced calculator with bitwise operations; Data type size explorer; Number system converter (binary, decimal, hex); Bitwise flag management system; Menu-driven banking system; Number guessing game; Prime number generator; Recursive factorial and Fibonacci calculator; Pattern printing programs; Dynamic array implementation; String manipulation library - plus 120 more on the course page.
 
-### Canva & AI Design Course: Zero to Professional Designer
+### Cambridge AS and A Level Computer Science 9618 Course
 
-`/courses/canva-ai-design-masterclass` · 6 months (26 weeks) · Complete Beginner to Advanced Professional
+`/courses/cambridge-a-level-computer-science-9618-course` · 9 months (36 weeks) for the full A Level, joinable any month · Cambridge AS and A Level students on 9618; an IGCSE Computer Science background helps but is not required
 
-  - PHASE 1: Design Foundation & Canva Mastery (Months 1-2, Weeks 1-8)
-    Build strong design fundamentals while mastering Canva. Learn design principles, typography, color theory, and create your first professional designs.
-    - Months 1-2: Design Fundamentals & Canva Essentials
+  - PHASE 1: AS Theory Fundamentals, Paper 1 (Months 1-3)
+    Sections 1 to 8 of the syllabus: how data is represented, how the machine works, and the vocabulary Paper 1 marks against.
+    - Month 1: Information Representation and Hardware
+      - Number Systems and Data Representation
+      - Images, Sound and Compression
+      - Computer Architecture and the Processor
+      - Input, Output and Storage
+    - Month 2: Networks, the Internet and Security
+      - Networks and Topologies
+      - Security, Privacy and Data Integrity
+      - Ethics, Ownership and Legal Context
+      - Databases and Data Modelling
+    - Month 3: Paper 1 Technique and Full Papers
+      - Command Words and Mark Schemes
+      - Boolean Logic and Logic Circuits
+      - Full Paper 1, Marked and Reviewed
+      - Targeted Repair on Sections 1 to 8
+  - PHASE 2: Paper 2, Reasoning About Programs Without Writing Them (Months 4-6)
+    Sections 9 to 12. The paper that states candidates will not be required to write programming code, and supplies an Insert of pseudocode built-in functions. A separate discipline from Paper 4, and taught as one.
+    - Month 4: Algorithm Design and Cambridge Pseudocode
+      - Pseudocode as the Language of This Paper
+      - Structure Charts, Flowcharts and Decomposition
+      - Trace Tables and Predicting Output
+      - Standard Algorithms and Data Structures
+    - Month 5: Programming Concepts Without Code
+      - Subroutines, Parameters and Scope
+      - File Handling and Exception Handling
+      - Software Development Life Cycle
+      - Full Paper 2, Marked and Reviewed
+    - Month 6: AS Level Consolidation
+      - Both AS Papers Together
+      - Cross-Topic Questions
+      - Second Full AS Set
+      - AS Readiness
+  - PHASE 3: A Level Papers 3 and 4 (Months 7-9)
+    Sections 13 to 20. Advanced theory, and then the practical paper where program code and evidence of testing are submitted.
+    - Month 7: Advanced Theory, Paper 3
+      - Data Representation and Communication, Extended
+      - Hardware, Virtual Machines and Operating Systems
+      - Security, Artificial Intelligence and Emerging Content
+      - Advanced Algorithms and Data Structures
+    - Month 8: Paper 4 Practical, Sections 19 to 20
+      - From Pseudocode to Working Code
+      - Object-Oriented Programming
+      - Files, Data Structures and Recursion in Practice
+      - Evidence of Testing
+    - Month 9: All Four Papers
+      - Full Paper 3 Under Time
+      - Full Paper 4 Under Time
+      - Second Full Set of Both
+      - Exam Readiness
+
+### Canva and AI Design Course (13+): Real Graphic Design Skills
+
+`/courses/canva-ai-design-masterclass` · 6-8 months (26-32 weeks) · Beginner friendly, ages 13 to adult
+
+  - PHASE 1: Design Foundations (Months 1-2, Weeks 1-8)
+    The principles that separate design from decoration: hierarchy, spacing, color and typography, practiced through daily Canva builds.
+    - Months 1-2: Principles into Practice
       - Introduction to Design & Canva Setup
       - Design Principles & Composition
       - Typography & Color Theory
       - Canva Advanced Features & Templates
-    - Months 1-2 Continued: Social Media & Marketing Design
+  - PHASE 2: Social and Marketing Design (Months 3-4, Weeks 9-17)
+    The formats the world actually runs on: posts, carousels, stories, decks and posters, plus one small real brand built end to end.
+    - Months 3-4: Formats and a Real Brand
       - Social Media Design Mastery
       - Marketing Materials & Print Design
       - Logo Design & Brand Identity
       - Photo Editing & Manipulation
-      - Months 1-2 Assessment & Portfolio
-    - Phase 1 Projects & Specialization
-      - Real Client Project Simulation
-      - Industry Specialization Tracks
-      - Advanced Canva Techniques
-      - Design Systems & Consistency
-      - Phase 1 Final Project
-  - PHASE 2: Advanced Design & AI Tools Integration (Months 3-4, Weeks 9-17)
-    Master advanced photo editing, video creation, and integrate cutting-edge AI design tools into your workflow.
-    - Months 3-4: AI Design Tools & Advanced Photo Editing
-      - Introduction to AI Design Tools
-      - Advanced Midjourney Mastery
-      - AI-Powered Photo Editing
-      - Video Editing Fundamentals
-      - Advanced Video & Animation
-    - Months 3-4: Professional Video & Content Creation
-      - Content Creation Workflow
-      - AI Video Generation
-      - Advanced AI Prompt Engineering
-      - 3D Design & AR Basics
-      - Phase 2 Integration Project
-    - Months 3-4: Specialization & Advanced Techniques
-      - UI/UX Design Basics
-      - Motion Design & Animation
-      - Advanced Brand Design
-      - Print Production & Specifications
-      - Phase 2 Capstone Project
-  - PHASE 3: Professional Practice & Business (Months 5-6, Weeks 18-26)
-    Launch your design career with advanced business skills, client management, and professional portfolio development.
-    - Months 5-6: Freelancing & Business Setup
-      - Freelance Business Fundamentals
-      - Pricing & Proposals
-      - Client Management & Communication
-      - Marketing Your Design Services
-      - Platform Mastery & Passive Income
-    - Months 5-6: Advanced Skills & Specialization
-      - Web Design & Development Basics
-      - Advanced AI Workflows
-      - Data Visualization & Infographics
-      - Photography for Designers
-      - Emerging Technologies
-    - Months 5-6: Portfolio & Career Launch
-      - Portfolio Development
-      - Job Search & Applications
-      - Advanced Client Projects
-      - Specialization Deep Dive
-      - Final Capstone & Graduation
-  - BONUS PHASE: Lifetime Learning & Advanced Mastery
-    Continuous updates with new tools, techniques, and industry developments. Access to masterclasses and advanced workshops.
-    - Ongoing Advanced Workshops
-      - AI Tools Updates
-      - Design Trends & Innovation
-      - Business Growth Strategies
-      - Teaching & Course Creation
-      - Community & Networking
-    - Specialized Masterclasses
-      - Entertainment Industry Design
-      - Luxury & Premium Design
-      - Cultural & Social Impact Design
-      - Technical & B2B Design
-      - Personal Brand Mastery
-    - Expert Specializations
-      - Design Psychology & Neuroscience
-      - Design Research & Strategy
-      - Global Design & Localization
-      - Future of Design
-    - Lifetime Success Program
-      - Alumni Success Program
-      - Continuous Updates
-      - Career Advancement Support
+      - Phase Review and Brand Showcase
+  - PHASE 3: AI-Assisted Design (Month 5, Weeks 18-21)
+    The honest AI layer: Canva Magic Studio and Adobe Firefly used to accelerate real work, with photo editing craft and credit habits.
+    - Month 5: Magic Studio and Firefly
+      - AI Design Tools, Age-Legal and Honest
+      - Photo Editing and Compositing
+  - PHASE 4: Video and the Finale (Month 6, Weeks 22-26)
+    Short-form video design in Canva, then the portfolio capstone and the final exam that decides the certificate.
+    - Month 6: Motion, Portfolio, Exam
+      - Short-Form Video Design
+      - Portfolio Capstone
+      - Demo Day and the Final Exam
 
-**Projects students build:** Create personal introduction card; Design simple social media post; Make basic business card; Redesign poorly designed flyer; Create balanced poster design; Design minimalist quote graphics; Build visual hierarchy infographic; Typography poster with font hierarchy; Brand color palette creation; Mood board with color themes; Restaurant menu with proper typography; Complete brand kit setup; Create reusable template set; Design animated social media post; Multi-page presentation design - plus 217 more on the course page.
+**Projects students build:** Create personal introduction card; Design simple social media post; Make basic business card; Redesign poorly designed flyer; Create balanced poster design; Design minimalist quote graphics; Build visual hierarchy infographic; Typography poster with font hierarchy; Brand color palette creation; Mood board with color themes; Restaurant menu with proper typography; Complete brand kit setup; Create reusable template set; Design animated social media post; Multi-page presentation design - plus 33 more on the course page.
 
 ### CBSE Class 10 Maths Board Prep: Case Studies & Mocks
 
@@ -4130,7 +4458,7 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 ### CBSE Computational Thinking & AI for Kids (Class 3-8)
 
-`/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8` · 9 months (40 weeks, expandable to 12-month mastery track) · Absolute Beginner (Class 3-5) to Intermediate AI Project Builder (Class 6-8)
+`/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8` · 9-12 months (40-52 weeks) · Absolute Beginner (Class 3-5) to Intermediate AI Project Builder (Class 6-8)
 
   - PHASE 1: Computational Thinking Foundations (Months 1-3, Weeks 1-13), Aligned to CBSE Classes 3-5
     Build the four pillars of Computational Thinking, Decomposition, Pattern Recognition, Abstraction and Algorithms, through unplugged activities, games, storytelling and block coding. No prior coding or computer experience required. Perfect for CBSE Classes 3, 4 and 5 students.
@@ -4159,7 +4487,7 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Data Science, Teaching Computers to Predict
       - Computer Vision, Deep Dive
       - Natural Language Processing, Making Machines Understand Us
-      - AI Ethics, Bias & Responsible AI (CBSE Mandatory Module)
+      - AI Ethics, Bias & Responsible AI (core CBSE AI themes)
     - Month 6: Modelling & Evaluation + First Python Steps
       - Modelling, How Machines Learn
       - Evaluation & Deployment
@@ -4181,13 +4509,13 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Grand Capstone Project (Full AI Lifecycle)
       - Portfolio, LinkedIn (with parental guidance) & Public Showcase
       - CBSE AI Class 9 (Code 417) Readiness Test & Beyond
-      - Graduation & Lifetime Alumni Induction
+      - Graduation & Final Showcase
 
 **Projects students build:** Create a 'How I Get Ready for School' step-by-step poster; Break down making Maggi into 10 precise steps (Decomposition); CT Thinking Diary, daily entries for a week; Decompose your favorite board game into its smallest rules; Plan a pretend birthday party using only decomposition; Create a decomposition poster for any Class subject; Pattern hunt journal, photograph 20 patterns around you; Design a Rangoli using mathematical patterns; Create a pattern-based memory game; Write the 'Perfect Algorithm' for making your favorite food; Design a flowchart adventure story; Program your family to be 'robots' and follow your algorithm; Animated birthday card for a family member; Dancing cat in 5 different backgrounds; Digital storybook cover with your name - plus 75 more on the course page.
 
 ### CBSE Computational Thinking & AI for Teens (Class 9-12)
 
-`/courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843` · 12 months intensive (extendable to 4-year board track for Class 9 → Class 12) · Complete Beginner to CBSE AI Board Topper + Industry-Ready AI Developer
+`/courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843` · 12-14 months (48-56 weeks), or the full Class 9-12 board track · Complete Beginner to CBSE AI Board Topper + Industry-Ready AI Developer
 
   - PHASE 1: CBSE AI Foundation (Code 417 syllabus, Months 1-3, Weeks 1-13)
     Complete mastery of the CBSE AI 417 syllabus - Employability Skills, Introduction to AI, AI Project Cycle basics, Neural Networks and Python for AI. This is the Class 10 board syllabus, and the right foundation for a Class 9 student now that CBSE has discontinued AI 417 at Class 9. Every student builds a rock-solid foundation regardless of prior coding experience.
@@ -4246,7 +4574,7 @@ Share this freely and in detail when a parent or student asks what a course cove
       - CBSE Class 12 AI Board Revision + Pre-Board
       - Final Board Readiness + Viva Mastery
       - College, Internship & Career Launch
-      - Graduation + Lifetime Alumni Induction
+      - Graduation & Final Showcase
 
 **Projects students build:** Write a 500-word reflective essay on 'AI in my life'; Create a SMART goals worksheet for the AI course; Group presentation: 'Barriers to communication in AI teams'; Set up a cloud backup of your AI work (Google Drive); Interview a local entrepreneur (1-page report); Green AI poster, connect 3 SDGs to AI; AI Spotter, identify 50 AI systems in daily life; AI Timeline infographic (Canva); Debate: 'Narrow AI vs General AI, will we ever reach AGI?'; Apply the full 5-stage Project Cycle to a real school problem; Write a 10-page CBSE-format AI Project Report; Present project in board-exam viva style; BMI Calculator; Temperature converter; Interactive quiz on AI concepts - plus 66 more on the course page.
 
@@ -4332,98 +4660,137 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Write a one-page internal brief: 'Codex vs Claude Code: where we'd use each' for a hypothetical team; Install Claude Code, configure a project .claude/settings.json, and run your first task in a real repo; Install Codex, create a ~/.codex/config.toml with a custom profile, and complete a task in workspace-write mode; Author a restrictive permission/approval policy for both tools and prove a blocked action is denied; Resolve the same issue with each agent and write a short comparison of edit quality and effort; Create a personal/team reference of the 12 most-used commands across both tools with examples; Use Plan Mode to design a non-trivial change (e.g., add pagination to an API) and execute the approved plan; Have an agent refactor a legacy function and review every hunk, rejecting anything out of scope; Implement a feature TDD-style with the agent: failing test → implementation → green → commit; Write production-quality CLAUDE.md and AGENTS.md for a real repo, including review guidelines; Run a risky refactor, reject the outcome, and recover cleanly via /rewind plus git; Connect a real MCP server (e.g., a database or docs server) to both agents and complete a task using it; Build a Claude Code skill that automates a repeatable workflow and a Codex profile for a project; Create code-reviewer and test-writer subagents and use them on a real change; Implement a PostToolUse format+lint hook and a PreToolUse guard that blocks force-push - plus 9 more on the course page.
 
-### College Mathematics: Calculus to Real Analysis & Beyond
+### Coding for Kids: Scratch to Games, Apps and AI
 
-`/courses/college-mathematics-complete-masterclass` · 24 months (104 weeks) · High School Graduate to Advanced Undergraduate Mathematics
+`/courses/kids-coding-blocks-masterclass` · 10-12 months (40-48 weeks) · Complete beginner, ages 6 to 12 (batches grouped by age)
 
-  - PHASE 1: Mathematical Foundations (Months 1-6, Weeks 1-26)
-    Build rock-solid foundations in calculus, linear algebra, and mathematical reasoning with proof writing.
+  - PHASE 1: Scratch from Zero to Real Games (Months 1-3, Weeks 1-12)
+    Scratch is where children discover that they can command a computer. From first animation to complete games with menus, levels and scores.
+    - Month 1: First Steps in Scratch
+      - Welcome to Coding
+      - Motion and Animation
+      - Events and Interactivity
+      - First Game Logic
+    - Month 2: Think Like a Coder
+      - Loops and Patterns
+      - Variables: Numbers That Remember
+      - Lists and Inventories
+      - Puzzle Week on Code.org
+    - Month 3: Real Games, Properly Built
+      - Clone the Classics I
+      - Clone the Classics II: Platformers
+      - What Makes Games Fun?
+      - Scratch Showcase
+  - PHASE 2: New Worlds: Arcade, micro:bit and Mobile Apps (Months 4-6, Weeks 13-24)
+    The skills from Scratch travel: arcade games in MakeCode, inventions on a simulated micro:bit, and real mobile apps built in MIT App Inventor.
+    - Month 4: MakeCode Arcade and micro:bit
+      - MakeCode Arcade Basics
+      - MakeCode Arcade: Enemies and Effects
+      - micro:bit Inventions
+      - Blockly Puzzle Gym
+    - Month 5: Build Real Mobile Apps
+      - MIT App Inventor Basics
+      - Apps with Camera, Voice and Drawing
+      - Games on the Phone
+      - App Capstone: An App for Your Family
+    - Month 6: Stories, Worlds and the Phase Capstone
+      - Digital Storytelling
+      - What Is AI, Really?
+      - Teachable Machine Projects
+      - Phase 2 Capstone and Review
+  - PHASE 3: Minecraft, Roblox and AI (Months 7-8, Weeks 25-32)
+    Coding inside the worlds kids already love: Minecraft Education, Roblox Studio with first Lua scripts, 3D design, and AI models they train themselves.
+    - Month 7: Minecraft and Roblox
+      - Coding in Minecraft Education
+      - Roblox Studio: First Worlds
+      - Roblox: First Lua Scripts
+      - Data Detective
+    - Month 8: 3D Worlds and Your Own AI
+      - Tinkercad 3D Design
+      - VR and AR Worlds in CoSpaces
+      - AI Inside Your Games
+      - Phase 3 Capstone
+  - PHASE 4: The Bridge to Real Code (Months 9-10, Weeks 33-40)
+    The step every parent asks about, done gently and properly: from blocks to first typed Python, a first web page, and a final capstone with a real exam.
+    - Month 9: First Typed Code
+      - From Blocks to Text
+      - First Python with Turtle
+      - My First Web Page
+      - Creator Habits
+    - Month 10: Capstone and Demo Day
+      - Capstone Planning
+      - Capstone Build
+      - Demo Day and What Comes Next
+
+**Projects students build:** Animated greeting card; Pet animation with sounds; Interactive 'About Me' project; Animated story with 3 scenes; Dancing party animation; Virtual pet that moves and makes sounds; Interactive quiz game; Virtual piano/musical instrument; Dress-up game with clickable items; Catch the falling objects game; Simple maze game; Whack-a-mole style game; Number guessing game; Geometric art generator; Pattern-based puzzle game - plus 97 more on the course page.
+
+### College Maths Course: Calculus, Linear Algebra to Analysis
+
+`/courses/college-mathematics-complete-masterclass` · 10-12 months per track (3 tracks, joinable any month) · College and university students; placement by current course and semester
+
+  - PHASE 1: Track 1, Calculus and Linear Algebra (One Academic Year)
+    The first-year core: limits to integrals, vectors to eigenvalues, the craft of proof, and multivariable calculus, built with intuition before rigor.
     - Months 1-2: Single Variable Calculus I
       - Limits and Continuity
       - Differentiation
       - Applications of Derivatives
       - Integration Fundamentals
-    - Months 3-4: Calculus II & Linear Algebra I
+    - Months 3-4: Calculus II and Linear Algebra I
       - Advanced Integration Techniques
       - Sequences and Series
       - Linear Algebra: Vectors and Matrices
       - Systems of Linear Equations
       - Mathematical Proof Writing
-    - Months 5-6: Advanced Linear Algebra & Vector Calculus
+    - Months 5-6: Advanced Linear Algebra and Vector Calculus
       - Eigenvalues and Eigenvectors
       - Vector Spaces and Linear Transformations
       - Multivariable Functions and Partial Derivatives
       - Optimization and Vector Fields
-      - Phase 1 Capstone Project
-  - PHASE 2: Core Mathematics (Months 7-12, Weeks 27-52)
-    Master multivariable calculus, differential equations, discrete mathematics, and probability theory.
-    - Months 7-8: Multiple Integration & ODEs
+      - Track 1 Exam
+  - PHASE 2: Track 2, Differential Equations, Discrete Maths and Probability (One Academic Year)
+    The methods year every engineering and science degree leans on: multiple integration, ODEs and Laplace transforms, discrete mathematics, and probability and statistics done properly.
+    - Months 1-2: Multiple Integration and ODEs
       - Double and Triple Integrals
       - Line and Surface Integrals
       - First-Order Differential Equations
       - Higher-Order Linear ODEs
       - Laplace Transforms
-    - Months 9-10: Discrete Mathematics
+    - Months 3-4: Discrete Mathematics
       - Set Theory and Relations
       - Combinatorics
       - Graph Theory
       - Number Theory
       - Boolean Algebra and Logic
-    - Months 11-12: Probability and Statistics
+    - Months 5-6: Probability, Statistics and the Track Exam
       - Probability Theory
       - Joint Distributions and Limit Theorems
       - Statistical Inference
       - Stochastic Processes
-      - Phase 2 Capstone Project
-  - PHASE 3: Advanced Pure Mathematics (Months 13-18, Weeks 53-78)
-    Master real analysis, abstract algebra, topology, complex analysis, and advanced mathematical theory.
-    - Months 13-14: Real Analysis
+      - Track 2 Exam
+  - PHASE 3: Track 3, Analysis, Algebra and Beyond (One Academic Year)
+    Where mathematics becomes a discipline: real analysis, abstract algebra, topology and complex analysis, rigorous but humane, intuition drawn before every epsilon.
+    - Months 1-3: Real Analysis
       - Metric Spaces and Sequences
       - Limits and Continuity in R^n
       - Differentiation Theory
       - Riemann Integration
       - Sequences and Series of Functions
-    - Months 15-16: Abstract Algebra
+    - Months 4-6: Abstract Algebra
       - Group Theory
       - Ring Theory
       - Field Theory
       - Linear Algebra (Abstract)
-      - Module Theory
-    - Months 17-18: Topology & Complex Analysis
+    - Months 7-10: Topology, Complex Analysis and the Track Exam
       - General Topology
-      - Algebraic Topology Introduction
       - Complex Analysis
       - Advanced Complex Analysis
-      - Phase 3 Capstone Project
-  - PHASE 4: Applied Mathematics & Research (Months 19-24, Weeks 79-104)
-    Master PDEs, numerical analysis, optimization, mathematical modeling, and conduct original research.
-    - Months 19-20: Partial Differential Equations
-      - First-Order PDEs
-      - Second-Order Linear PDEs
-      - Transform Methods for PDEs
-      - Numerical Methods for PDEs
-      - Nonlinear PDEs
-    - Months 21-22: Numerical Analysis & Scientific Computing
-      - Numerical Linear Algebra
-      - Interpolation and Approximation
-      - Numerical Integration and Differentiation
-      - Numerical Optimization
-      - Fast Algorithms
-    - Month 23: Mathematical Modeling & Applications
-      - Mathematical Biology
-      - Mathematical Finance
-      - Data Science Mathematics
-      - Fluid Dynamics & Continuum Mechanics
-    - Month 24: Research & Career Preparation
-      - Mathematical Research Project
-      - Advanced Topics Seminar
-      - Career Paths & Future Learning
+      - Track 3 Capstone and Exam
 
-**Projects students build:** Epsilon-delta proof visualizer; Limit calculator implementation; Continuity explorer interactive tool; Derivative visualizer application; Automatic differentiation engine; Physics motion simulator; Optimization problem solver; Curve sketching software; Newton's method visualizer; Riemann sum visualizer; Numerical integration calculator; Volume calculator for solids of revolution; Advanced integration solver; Numerical methods comparison tool; Physics applications simulator - plus 160 more on the course page.
+**Projects students build:** Epsilon-delta proof visualizer; Limit calculator implementation; Continuity explorer interactive tool; Derivative visualizer application; Automatic differentiation engine; Physics motion simulator; Optimization problem solver; Curve sketching software; Newton's method visualizer; Riemann sum visualizer; Numerical integration calculator; Volume calculator for solids of revolution; Advanced integration solver; Numerical methods comparison tool; Physics applications simulator - plus 108 more on the course page.
 
-### Competitive Programming Course Online: Crack Codeforces
+### Competitive Programming Course: Codeforces to ICPC
 
-`/courses/competitive-programming-masterclass-college` · 6 months (26 weeks) · Complete Beginner to Expert Competitive Programmer
+`/courses/competitive-programming-masterclass-college` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
   - PHASE 1: Foundation & Problem Solving Basics (Months 1-2, Weeks 1-8)
     Build strong foundations in C++ STL, basic algorithms, and develop problem-solving mindset.
@@ -4437,78 +4804,50 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Combinatorics & Probability
       - Bit Manipulation Mastery
       - Sorting & Searching Advanced
-      - Phase 1 Assessment
-    - Months 3-4: Trees, Graphs & Dynamic Programming
+    - Month 3: Trees, Graphs & Dynamic Programming
       - Tree Algorithms
       - Graph Algorithms Fundamentals
       - Shortest Paths & MST
       - Dynamic Programming Basics
-      - Phase 2 Assessment
   - PHASE 2: Advanced Algorithms & Contest Strategy (Months 3-4, Weeks 9-17)
     Master advanced algorithms, dynamic programming patterns, and develop contest-winning strategies.
-    - Month 3: Advanced Dynamic Programming
+    - Month 4: Advanced Dynamic Programming
       - DP Optimization Techniques
       - Bitmask DP & DP on Trees
       - String Algorithms
       - Advanced Graph Algorithms
       - Game Theory
-    - Month 4: Data Structures & Optimization
+    - Month 5: Data Structures & Optimization
       - Advanced Data Structures
       - Computational Geometry
       - Advanced Number Theory
       - Optimization & Heuristics
       - Interactive & Randomized
-    - Months 5-6: Contest Mastery & Peak Performance
+    - Month 6: Contest Mastery & Peak Performance
       - Contest Strategy & Time Management
       - Speed Programming & Templates
       - Team Programming (ICPC Style)
-      - Platform-Specific Mastery
-      - Phase 3 Final Assessment
-  - PHASE 3: Expert Level & Specializations (Months 5-6, Weeks 18-26)
+  - PHASE 3: Expert Techniques & Peak Performance (Months 7-9, Weeks 27-39)
     Master expert-level algorithms, specialized topics, and achieve competitive programming excellence.
-    - Month 5: Expert Algorithms & Techniques
+    - Months 7-8: Expert Algorithms & Techniques
       - FFT & Polynomial Algorithms
       - Linear Algebra in CP
       - Advanced String Structures
       - Advanced Graph Theory
       - Approximation Algorithms
-    - Month 6: Peak Performance & Competition
+    - Month 9: Peak Performance & Contests
       - Research & Cutting Edge
       - Competition Preparation
-      - Teaching & Mentoring
       - Career & Opportunities
-      - Final Graduation
-    - Lifetime Resources & Continuous Learning
-      - Advanced Problem Archives
-      - Community & Contribution
-      - Research & Innovation
-      - Specialized Domains
-      - Success Stories & Inspiration
-  - ELITE TRACK: Beyond Expert Level
-    Optional advanced paths for those aiming for the absolute top
-    - Grandmaster Path
-      - Rating 2400+ Strategy
-      - International Competition
-      - Problem Setting Mastery
-      - Research Excellence
-      - Legacy Building
-    - Professional Applications
-      - Quantitative Trading
-      - Tech Giant Excellence
-      - Startup & Innovation
-      - Education & Impact
-      - Lifetime Excellence
-    - Resources & References
-      - Book References
-      - Online Resources
-      - Tools & Utilities
-      - Templates & Libraries
-    - Final References
-      - Contest Cheat Sheets
-      - Achievement Tracking
-      - Future Roadmap
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** CP template creation; STL practice problems set; Fast I/O benchmarking; Complexity analyzer tool; Algorithm visualization; Problem approach templates; Data structure library; Custom implementations; Performance comparison tool; Backtracking solver framework; Optimization comparisons; Contest problem generator; Number theory library; Prime utilities toolkit; Modular arithmetic calculator - plus 161 more on the course page.
+**Projects students build:** CP template creation; STL practice problems set; Fast I/O benchmarking; Complexity analyzer tool; Algorithm visualization; Problem approach templates; Data structure library; Custom implementations; Performance comparison tool; Backtracking solver framework; Optimization comparisons; Contest problem generator; Number theory library; Prime utilities toolkit; Modular arithmetic calculator - plus 88 more on the course page.
 
 ### Competitive Programming for Teens: ZCO, INOI and USACO Track
 
@@ -4542,98 +4881,9 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Submit your first ten problems and read every verdict, including the failures; Solve a set of problems where binary search on the answer is the intended solution; Build a small library of your own tested helper functions; Solve a monotonic stack problem and explain why the stack is the right structure; Solve a classic constraint problem with backtracking and measure the effect of each pruning rule; Model a described real-world scenario as a graph and solve it with BFS; Solve an interval-scheduling set and write a short argument for why the greedy rule works; A full contest run with a written post-mortem of every decision; Solve the same problem both top-down and bottom-up and compare; Solve a knapsack variant and reconstruct the chosen items; Implement LIS in both the quadratic and the faster form and compare on large input; Solve a routing problem with Dijkstra and justify the data structures chosen; Implement a segment tree from scratch and use it on a real range-query problem; Complete full past sets under time and grade them honestly; A full contest every week with a written post-mortem.
 
-### Complete Data & Analytics Mathematics Masterclass - Statistics to Machine Learning
-
-`/courses/data-analytics-mathematics-masterclass` · 24 months (104 weeks) · Basic Math Knowledge to Advanced Data Science Mathematics
-
-  - PHASE 1: Mathematical Foundations for Data Science (Months 1-6, Weeks 1-26)
-    Build rock-solid foundations in statistics, probability, and linear algebra essential for data science.
-    - Months 1-2: Descriptive Statistics & Data Fundamentals
-      - Introduction to Statistical Thinking
-      - Measures of Central Tendency and Spread
-      - Data Visualization and Graphical Analysis
-      - Probability Fundamentals
-    - Months 3-4: Probability Distributions & Linear Algebra Basics
-      - Discrete Probability Distributions
-      - Continuous Probability Distributions
-      - Linear Algebra for Data Science - Vectors
-      - Linear Algebra for Data Science - Matrices
-      - Eigenvalues and PCA Foundations
-    - Months 5-6: Statistical Inference & Hypothesis Testing
-      - Sampling Distributions and CLT
-      - Confidence Intervals
-      - Hypothesis Testing Fundamentals
-      - ANOVA and Multiple Comparisons
-      - Phase 1 Capstone Project
-  - PHASE 2: Core Analytics & Machine Learning Mathematics (Months 7-12, Weeks 27-52)
-    Master regression, classification, clustering, and core machine learning mathematics.
-    - Months 7-8: Regression Analysis
-      - Simple Linear Regression
-      - Multiple Linear Regression
-      - Regularized Regression
-      - Generalized Linear Models
-      - Nonparametric Regression
-    - Months 9-10: Classification & Clustering
-      - Classification Fundamentals
-      - Tree-Based Methods
-      - Support Vector Machines
-      - Clustering Algorithms
-      - Model Evaluation and Selection
-    - Months 11-12: Optimization & Neural Network Mathematics
-      - Optimization Theory for ML
-      - Neural Network Fundamentals
-      - Convolutional Neural Networks Mathematics
-      - Recurrent Neural Networks Mathematics
-      - Phase 2 Capstone Project
-  - PHASE 3: Advanced Analytics & Deep Learning (Months 13-18, Weeks 53-78)
-    Master Bayesian methods, deep learning, reinforcement learning, and advanced statistical techniques.
-    - Months 13-14: Bayesian Statistics & Inference
-      - Bayesian Fundamentals
-      - Markov Chain Monte Carlo
-      - Bayesian Regression and Classification
-      - Hierarchical and Mixture Models
-      - Bayesian Model Selection
-    - Months 15-16: Deep Learning & Advanced Architectures
-      - Advanced Deep Learning Theory
-      - Transformers and Attention
-      - Generative Models
-      - Graph Neural Networks
-      - Reinforcement Learning Mathematics
-    - Months 17-18: Time Series & Causal Inference
-      - Time Series Analysis
-      - Advanced Time Series Methods
-      - Causal Inference
-      - Structural Equation Modeling
-      - Phase 3 Capstone Project
-  - PHASE 4: Big Data, Production Systems & Research (Months 19-24, Weeks 79-104)
-    Master big data analytics, production ML systems, experimental design, and conduct original research.
-    - Months 19-20: Big Data & Distributed Analytics
-      - Big Data Fundamentals
-      - Scalable Machine Learning
-      - Stream Processing & Real-time Analytics
-      - NoSQL and NewSQL for Analytics
-      - Cloud Analytics Platforms
-    - Months 21-22: Experimental Design & A/B Testing
-      - Design of Experiments
-      - A/B Testing at Scale
-      - Quasi-Experimental Methods
-      - Survival Analysis
-      - Longitudinal Data Analysis
-    - Month 23: Advanced Topics & Specializations
-      - Spatial Statistics & GIS
-      - Text Analytics & NLP Mathematics
-      - Computer Vision Mathematics
-      - Recommendation Systems
-    - Month 24: MLOps, Ethics & Career Preparation
-      - MLOps & Production Systems
-      - Ethics, Fairness & Interpretability
-      - Research & Career Development
-
-**Projects students build:** Design a data collection strategy; Data quality assessment tool; Sampling simulation study; Statistical calculator from scratch; Outlier detection system; Interactive visualization dashboard; Build comprehensive EDA toolkit; Create interactive data dashboard; Visualization best practices guide; Probability simulator; Bayes theorem calculator; Monte Carlo estimation tool; Distribution calculator and visualizer; A/B test simulator; Discrete event simulator - plus 162 more on the course page.
-
 ### Computer Science Class 11-12: CBSE Python & ICSE/ISC Java
 
-`/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course` · 24 months (Class 11 + Class 12 full syllabus) · Class 11 Beginner to Class 12 Board Exam Ready
+`/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course` · 24 months (Class 11 + Class 12, the full 2-year board cycle), joinable any month · Class 11 Beginner to Class 12 Board Exam Ready
 
   - PHASE 1: Class 11 Semester 1, Computer Fundamentals & Programming Foundations (Months 1-5)
     Build rock-solid fundamentals in computer science theory and start your programming journey. CBSE students begin with Python, ISC students begin with Java. Both batches cover computer organization, number systems, and Boolean logic.
@@ -4717,9 +4967,9 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Write the one-page 'agent opportunity memo' for your organisation: three candidate processes, the data each would need, the risks each carries, and which one becomes your capstone; Build 'Policy Desk v1': an internal FAQ agent for one real policy area of your workplace, with a complete instruction stack and five tested refusals; Build the permanent 25-question test set for Policy Desk, including five adversarial probes, with expected behaviour written before the first run; Run your Policy Desk test set against two GA models (one OpenAI, one Anthropic), score the differences, and write the one-paragraph model decision with evidence attached; Ground Policy Desk in a real SharePoint site (or a mirrored practice copy) and prove ten answers cite the correct policy paragraph; Rebuild one messy real document into a retrieval-optimised version, ground both versions side by side, and publish the before-and-after accuracy comparison; Add a second source type to Policy Desk (Dataverse table or connector-indexed source), then document the arbitration behaviour with five conflict questions; Run the full 25-answer accuracy audit on Policy Desk and publish the result as a one-page report with examples, methodology and a remediation list; Build 'Support Triage v1': a customer-facing agent with three designed topics (report an issue, check status, escalate to human), entities capturing the details, and an adaptive card summary; Migrate Support Triage to generative orchestration, rerun the full test set, and publish the behaviour-change log with a keep-or-fix verdict per change; Build 'Expense Helper': conversation collects an expense claim, an agent flow validates it, routes it for approval, and returns the outcome, with tested error paths for every step; Wire one real connector tool and one REST or custom connector tool into a practice agent, and demonstrate a conversation that reads and writes live data through both; Add an MCP server to a practice agent, disable every tool you do not need, and document the resulting capability surface as a one-page security note; Build a governed computer-use demo: one legacy-UI task automated with allow-lists, HTTPS enforcement and human supervision configured, plus a per-run credit cost estimate; Build 'Weekly Reporter': an autonomous agent on a Recurrence trigger that compiles a weekly status summary from real sources and posts it for review, never directly to stakeholders - plus 9 more on the course page.
 
-### Creative Coding & Animation: Content Creator Course
+### Creative Coding and Animation: Video, Motion and p5.js
 
-`/courses/creative-coding-animation-mastery` · 6 months (26 weeks) · Beginner to Professional Content Creator
+`/courses/creative-coding-animation-mastery` · 5-6 months (20-24 weeks) · Beginner friendly, ages 13 to adult
 
   - Month 1: Creative Foundations & Video Editing Basics
     Master design principles, animation fundamentals, and professional video editing.
@@ -4739,33 +4989,27 @@ Share this freely and in detail when a parent or student asks what a course cove
     - p5.js and Web-Based Creative Coding
     - Interactive Installations & Physical Computing
     - Creative Coding Applications
-  - Month 4: 3D Animation & Advanced Visual Effects
-    Master 3D animation, advanced VFX, and professional post-production.
+  - Month 4: Blender 3D and Short-Form Craft
+    Three weeks of honest Blender fundamentals, then the short-form editing craft that makes work travel.
     - 3D Animation Fundamentals with Blender
     - Character Animation & Rigging in 3D
     - Advanced VFX & Compositing
-    - Motion Capture & Virtual Production
-  - Month 5: Social Media Mastery & Platform Optimization
-    Master content creation for every platform, viral strategies, and audience growth.
-    - Instagram & Reels Mastery
-    - TikTok & Short-Form Dominance
-    - YouTube & Long-Form Content
-    - Multi-Platform Strategy & Analytics
-  - Month 6: Professional Portfolio & Client Projects
-    Build professional portfolio, work on client projects, and launch your creative career.
+    - Short-Form Video Craft
+  - Month 5: Channel, Portfolio and the Finale
+    Long-form storytelling, honest analytics, a portfolio that opens doors, and the final capstone exam.
+    - Long-Form Video and Storytelling
+    - Publishing Strategy and Honest Analytics
     - Portfolio Development & Personal Branding
-    - Client Project Management
-    - Industry Specialization
-    - Advanced Techniques & Emerging Trends
-    - Final Capstone Project
-    - Graduation & Career Launch
+    - Capstone, Demo Day and Final Exam
 
-### Creative Media & Design for Teens: Photo, Video & Editing
+**Projects students build:** Personal Brand Identity: Logo, color palette, style guide; Mood Board Collection: 5 different aesthetic mood boards; Social Media Template Set: Consistent design templates; Bouncing Ball Animation: Master timing and physics; Character Walk Cycle: Create smooth character movement; Animated Logo Reveal: Bring brand to life; Day in Life Vlog: Edit personal vlog footage; Product Commercial: 30-second product showcase; Music Video Edit: Sync video to music; Instagram Reels Series: 5 trending reels; YouTube Shorts Collection: Engaging short-form content; Animated Title Sequence: Professional title animation; Kinetic Typography: Text-driven animation; Logo Animation Pack: Brand animations; Explainer Video: 2-minute animated explainer - plus 41 more on the course page.
 
-`/courses/creative-media-design-masterclass-teens` · 12 months (52 weeks) · Complete Beginner to Advanced Professional
+### Creative Media for Teens: Photo, Video and Design
 
-  - PHASE 1: Foundation & Core Creative Skills (Months 1-6, Weeks 1-26)
-    Build solid creative foundations. Learn design principles, master photo editing, create videos, and start building your online presence.
+`/courses/creative-media-design-masterclass-teens` · 8-10 months (32-40 weeks) · Beginner friendly, ages 13 to 18
+
+  - PHASE 1: The Creative Core (Months 1-6, Weeks 1-26)
+    Photo editing, video production and graphic design, each learned to real competence with weekly critiqued builds.
     - Months 1-2: Creative Fundamentals & Photo Editing Basics
       - Introduction to Digital Creativity & Setup
       - Photoshop Fundamentals
@@ -4783,71 +5027,15 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Print Design & Merchandise
       - Web & UI Design Basics
       - Phase 1 Capstone Project
-  - PHASE 2: Advanced Creative Mastery & Professional Skills (Months 7-12, Weeks 27-52)
-    Master advanced video effects, motion graphics, 3D design, professional workflows, and build your creative business.
-    - Months 7-8: Advanced Video & Visual Effects
-      - Advanced Premiere Pro Techniques
-      - After Effects Fundamentals
-      - Visual Effects & Compositing
-      - Motion Graphics Design
-      - 3D Design Introduction
-    - Months 9-10: Professional Photography & Advanced Design
-      - Professional Photography Editing
-      - Advanced Photoshop Techniques
-      - Animation & GIF Creation
-      - Audio Production for Video
-      - Live Streaming & Real-Time Content
-    - Months 11-12: Business Skills & Career Launch
-      - Freelancing & Client Work
-      - Building Your Creative Brand
-      - Advanced Portfolio & Showreel
-      - Industry Trends & Future Skills
-      - Final Showcase & Career Launch
-  - PHASE 3: Placeholder - Structure Required by Template
-    This phase is not applicable for the 1-year creative course but included to maintain JSON structure integrity.
-    - Not Applicable
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-    - Not Applicable
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-    - Not Applicable
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-  - PHASE 4: Placeholder - Structure Required by Template
-    This phase is not applicable for the 1-year creative course but included to maintain JSON structure integrity.
-    - Not Applicable
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-    - Not Applicable
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-    - Not Applicable
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-    - Not Applicable
-      - N/A
-      - N/A
-      - N/A
+  - PHASE 2: Advanced Craft and the Finale (Months 7-8, Weeks 27-32)
+    Visual effects and real photography craft, then the portfolio capstone and the final exam.
+    - Months 7-8: Effects, Light and the Portfolio
+      - Advanced Video: Effects and Sound
+      - Photography: Real Light, Any Camera
+      - Portfolio Capstone
+      - Demo Day and the Final Exam
 
-**Projects students build:** Set up complete creative workstation; Create organized folder structure for projects; Design a personal creative brand/logo; Edit 10 personal photos to perfection; Create viral meme templates; Design custom phone wallpapers; Create surreal photo manipulation artwork; Professional portrait retouching project; Design Instagram post templates; 30-day Instagram feed makeover; Create viral TikTok photo series; Mobile photography portfolio; Shoot and plan first short film (2-3 minutes); Create a day-in-my-life vlog; Record product review video - plus 73 more on the course page.
+**Projects students build:** Set up complete creative workstation; Create organized folder structure for projects; Design a personal creative brand/logo; Edit 10 personal photos to perfection; Design custom phone wallpapers; Create surreal photo manipulation artwork; Professional portrait retouching project; Design Instagram post templates; 30-day Instagram feed makeover; Mobile photography portfolio; Shoot and plan first short film (2-3 minutes); Create a day-in-my-life vlog; Record product review video; Edit a cinematic travel video; Create YouTube video with intro/outro - plus 27 more on the course page.
 
 ### Cybersecurity for Teens: Online Safety & White-Hat Defense
 
@@ -4892,94 +5080,64 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Map the full path of a web request as an annotated diagram, from keyboard to server and back; Home network inventory: every connected device listed, with a written safety checklist for the household; Personal digital footprint audit: what is publicly findable about you, plus a written cleanup plan you execute; Full threat model for a fictional student's phone and accounts, with ranked risks and matched defenses; Password health review of your own accounts, done privately at home with a parent, with a migration plan to unique passphrases; Hashing lab worksheet: predict, test, and explain hash behavior across a set of inputs, including a tampered file; Account lockdown: 2FA enabled on your key accounts with recovery codes stored safely, checklist evidence submitted; Family security briefing: a one-page document teaching your household the month's defenses, delivered as a short talk at home; Phish anatomy poster: dissect one anonymized real phishing email into its labeled parts; Spot-the-phish gallery: grade 15 anonymized real samples as safe or suspicious, with written reasoning for each call; Case study brief: reconstruct a documented social engineering incident and identify the three points where defense could have stopped it; Phish detector field guide: an illustrated recognition and response guide, then the class phishing-recognition tournament; Malware family tree: an illustrated chart mapping each family to its behavior and its most common arrival route; Personal backup plan: design and actually implement a 3-2-1 backup for your own important files, with a test restore; Defender's timeline: reconstruct the outbreak and mark every point where standard defenses from week 14 would have changed the outcome - plus 9 more on the course page.
 
-### Data Analysis Course: From Excel to Machine Learning
+### Data Analysis Course: Excel, SQL, Python & BI
 
-`/courses/data-analysis-mastery-course-college` · 6 months (26 weeks) · Complete Beginner to Professional Analyst
+`/courses/data-analysis-mastery-course-college` · 8-10 months (35-43 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
-  - PHASE 1: Foundation & Excel Mastery (Months 1-2, Weeks 1-8)
+  - PHASE 1: Excel, Statistics & SQL (Months 1-3, Weeks 1-10)
     Build strong foundations in data concepts, statistics, and become an Excel power user.
     - Month 1: Data Fundamentals & Excel
       - Introduction to Data Analysis
       - Excel Fundamentals & Formulas
-      - Excel Data Management
       - Excel Advanced Functions
     - Month 2: Statistics & Data Visualization in Excel
       - Statistics Fundamentals
       - Excel Data Analysis Tools
       - Data Visualization in Excel
-      - Business Reporting with Excel
-      - Phase 1 Assessment
-    - Months 3-4: SQL & Python for Data Analysis
+    - Month 3: SQL & Python for Data Analysis
       - SQL Fundamentals
       - SQL Joins & Advanced Queries
       - SQL Analytics Functions
       - Python Fundamentals for Analysis
-      - Phase 2 Assessment
-  - PHASE 2: Advanced Python & Data Processing (Months 3-4, Weeks 9-17)
+  - PHASE 2: Python, Pandas & Business Intelligence (Months 3-5, Weeks 11-20)
     Master Python for data analysis, pandas, data cleaning, and exploratory data analysis.
-    - Month 3: Pandas & Data Manipulation
+    - Month 4: Pandas & Data Manipulation
       - Pandas Fundamentals
       - Data Cleaning with Pandas
       - Data Transformation & Aggregation
       - Exploratory Data Analysis (EDA)
-      - NumPy for Numerical Computing
-    - Month 4: Data Visualization & Storytelling
+    - Month 5: Data Visualization & Storytelling
       - Matplotlib & Seaborn
-      - Interactive Visualizations
       - Business Intelligence Tools
       - Data Storytelling & Presentation
-      - Advanced Analytics Techniques
-    - Months 5-6: Machine Learning & Production Analytics
+    - Month 6: Machine Learning & Automation for Analysts
       - Machine Learning Fundamentals
       - Clustering & Segmentation
-      - Web Analytics & Digital Marketing
       - APIs & Automation
-      - Phase 3 Assessment
-  - PHASE 3: Industry Applications & Career Launch (Months 5-6, Weeks 18-26)
+  - PHASE 3: Industry Analytics & the Working Analyst (Months 5-7, Weeks 21-30)
     Master industry-specific analytics, cloud platforms, and prepare for professional roles.
-    - Month 5: Industry-Specific Analytics
+    - Month 7: Industry-Specific Analytics
       - Financial Analytics
       - Healthcare Analytics
       - Retail & E-commerce Analytics
       - Supply Chain Analytics
       - HR & People Analytics
-    - Month 6: Cloud Analytics & Career Preparation
+    - Month 8: Cloud Analytics & Your Portfolio
       - Cloud Platforms for Analytics
-      - Big Data Analytics
       - Portfolio Development
-      - Interview Preparation
-      - Career Launch & Networking
-    - Advanced Topics & Specializations
+    - Month 9: Advanced Methods, Engineering & Strategy
       - Advanced Statistical Methods
-      - Deep Learning for Analysts
       - Data Engineering Basics
       - Business Strategy & Analytics
-      - Future of Analytics
-  - CONTINUOUS LEARNING: Post-Course Resources
-    Lifetime learning paths and advanced certifications
-    - Professional Certifications
-      - Microsoft Certifications
-      - Google & AWS Certifications
-      - Industry Certifications
-      - Academic Pathways
-      - Specialization Areas
-    - Career Development
-      - Freelancing & Consulting
-      - Leadership & Management
-      - Innovation & Research
-      - Entrepreneurship
-      - Lifetime Learning
-    - Resources & Tools
-      - Essential Tools
-      - Data Sources
-      - Communities & Networks
-      - Best Practices
-    - Quick References
-      - Technical References
-      - Business References
-      - Career Resources
+  - PHASE 4: The Finale (Month 8, Weeks 31-35)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 8: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** Personal data audit project; Industry analysis report; Data source catalog creation; Sales calculator dashboard; Employee timesheet system; Grade calculation spreadsheet; Customer database cleanup; Inventory management system; Survey data processor; Dynamic sales report system; Financial analysis model; HR analytics dashboard; Statistical analysis report; A/B testing simulator; Quality control dashboard - plus 159 more on the course page.
+**Projects students build:** Personal data audit project; Industry analysis report; Data source catalog creation; Sales calculator dashboard; Employee timesheet system; Grade calculation spreadsheet; Dynamic sales report system; Financial analysis model; HR analytics dashboard; Statistical analysis report; A/B testing simulator; Quality control dashboard; Sales performance dashboard; Budget optimization model; Multi-dimensional analysis cube - plus 77 more on the course page.
 
 ### Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)
 
@@ -5014,9 +5172,9 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Take a genuinely badly structured sheet and restructure it into a usable table; Build a summary sheet driven entirely by formulas from a raw data tab; Combine three separate exports into one analysable table and reconcile the mismatches; Answer five real business questions about one dataset using only pivots; Clean a genuinely messy dataset and write a short log of every decision made; Build a Power Query pipeline that cleans a monthly export automatically; Take a real claim from a report and check whether the data actually supports it; Redesign three bad charts and explain what each change fixes; Build your first working Power BI report from a real dataset; Model a multi-table dataset properly and prove the totals reconcile; Add a full measure set to your model including period comparisons; Redesign your dashboard after watching someone else try to use it; Solve a full analysis task using AI assistance and log where it helped and where it did not; Audit a set of AI-produced analyses and find the errors deliberately planted in them; Build your full capstone: question, clean data, model, dashboard, findings - plus 1 more on the course page.
 
-### Data Science Course: Zero to Job-Ready Data Scientist
+### Data Science Course: Python, ML & Deep Learning
 
-`/courses/data-science-complete-masterclass-college` · 12 months (52 weeks) · Complete Beginner to Professional Data Scientist
+`/courses/data-science-complete-masterclass-college` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
   - PHASE 1: Foundations of Data Science (Months 1-3, Weeks 1-13)
     Build rock-solid foundations in Python programming, statistics, data analysis, and SQL that form the backbone of data science.
@@ -5041,7 +5199,6 @@ Share this freely and in detail when a parent or student asks what a course cove
       - End-to-End ML Project Development
       - Industry-Specific Applications
       - ML Engineering Best Practices
-      - Advanced Kaggle Competition
       - Phase 2 Capstone Project
   - PHASE 3: Deep Learning & Advanced AI (Months 7-9, Weeks 27-39)
     Master deep learning, computer vision, NLP, and cutting-edge AI techniques.
@@ -5051,33 +5208,20 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Recurrent Neural Networks (RNNs)
       - Natural Language Processing
       - Advanced Deep Learning Topics
-    - Month 9: Specialized Domains & Research
+    - Month 9: Applied Vision, NLP & Research Practice
       - Computer Vision Projects
       - Advanced NLP Applications
-      - Reinforcement Learning
       - Research Paper Implementation
       - Phase 3 Capstone Project
-  - PHASE 4: MLOps, Big Data & Career Launch (Months 10-12, Weeks 40-52)
-    Master production deployment, big data technologies, and prepare for data science careers.
-    - Months 10-11: MLOps & Production Systems
-      - MLOps Fundamentals
-      - Big Data Technologies
-      - Cloud Platforms for Data Science
-      - Advanced Data Engineering
-      - Business & Soft Skills
-    - Month 12: Specialization & Career Launch
-      - Choose Your Specialization
-      - Portfolio & Personal Branding
-      - Interview Preparation
-      - Job Search & Freelancing
-      - Final Project & Graduation
-    - Continuous Learning & Growth
-      - Staying Current
-      - Advanced Certifications
-      - Building Data Products
-      - Giving Back
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** Python fundamentals practice notebook; Building a data science toolkit with functions; Automated data processing script; Image manipulation with NumPy arrays; Statistical calculator using NumPy; Matrix operations library; Performance comparison: NumPy vs pure Python; Complete EDA on retail sales dataset; Data cleaning pipeline for messy dataset; Time series analysis of stock prices; Customer behavior analysis; Statistical analysis of A/B test results; Hypothesis testing on real datasets; Building a statistical testing framework; Correlation analysis of multiple variables - plus 147 more on the course page.
+**Projects students build:** Python fundamentals practice notebook; Building a data science toolkit with functions; Automated data processing script; Image manipulation with NumPy arrays; Statistical calculator using NumPy; Matrix operations library; Performance comparison: NumPy vs pure Python; Complete EDA on retail sales dataset; Data cleaning pipeline for messy dataset; Time series analysis of stock prices; Customer behavior analysis; Statistical analysis of A/B test results; Hypothesis testing on real datasets; Building a statistical testing framework; Correlation analysis of multiple variables - plus 88 more on the course page.
 
 ### Data Science for Teens: Python & Your First ML Models
 
@@ -5124,7 +5268,7 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 ### Data Structures & Algorithms Course: Interview-Ready DSA
 
-`/courses/data-structures-algorithms-masterclass-college` · 6 months (26 weeks) · Beginner to Advanced Problem Solver
+`/courses/data-structures-algorithms-masterclass-college` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
   - PHASE 1: Foundation & Core Data Structures (Months 1-2, Weeks 1-8)
     Build rock-solid foundations with basic data structures, complexity analysis, and fundamental algorithms.
@@ -5138,167 +5282,50 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Sorting Algorithms Mastery
       - Hashing & Hash Tables
       - Bit Manipulation & Mathematics
-      - Phase 1 Assessment
-    - Months 3-4: Trees, Heaps & Graphs
+    - Month 3: Trees, Heaps & Graphs
       - Binary Trees Fundamentals
       - Binary Search Trees & Balanced Trees
       - Heaps & Priority Queues
       - Tries & Advanced Trees
-      - Phase 2 Assessment
   - PHASE 2: Graphs & Advanced Algorithms (Months 3-4, Weeks 9-17)
     Master graph algorithms, advanced problem-solving patterns, and complex algorithmic techniques.
-    - Month 3: Graph Algorithms Mastery
+    - Month 4: Graph Algorithms Mastery
       - Graph Fundamentals & Traversals
       - Shortest Path Algorithms
       - Minimum Spanning Trees & Network Flow
       - Advanced Graph Patterns
       - String Algorithms Advanced
-    - Month 4: Dynamic Programming Mastery
+    - Month 5: Dynamic Programming Mastery
       - Dynamic Programming Fundamentals
       - 2D Dynamic Programming
       - Advanced DP Patterns
       - Greedy Algorithms & Optimization
       - Backtracking & Branch and Bound
-    - Months 5-6: Advanced Topics & Interview Preparation
+    - Month 6: Advanced Topics & Interview Preparation
       - Advanced Algorithms
       - System Design Basics for Interviews
-      - Competitive Programming
-      - Mock Interviews & Behavioral Prep
-      - Phase 3 Final Assessment
-  - PHASE 3: Interview Mastery & Career Launch (Months 5-6, Weeks 18-26)
+  - PHASE 3: Interview Mastery (Months 7-9, Weeks 27-39)
     Master interview skills, tackle company-specific problems, and launch your tech career.
-    - Month 5: Company-Specific Preparation
+    - Months 7-8: Company-Specific Preparation
       - Google Interview Preparation
       - Amazon Interview Preparation
       - Meta (Facebook) Preparation
       - Microsoft & Apple Preparation
       - Startup & Unicorn Preparation
-    - Month 6: Final Polish & Career Launch
+    - Month 9: Final Polish & Interview Simulation
       - Advanced Problem Patterns
       - Interview Week Simulation
       - Soft Skills & Communication
       - Career Strategy & Negotiation
-      - Final Week & Graduation
-    - Bonus Content: Specialized Topics
-      - Machine Learning Algorithms
-      - Parallel & Distributed Algorithms
-      - Security & Cryptography
-      - Quantum Computing Basics
-      - Research & Innovation
-  - CONTINUOUS LEARNING: Beyond the Course
-    Lifetime learning resources and advanced pathways
-    - Competitive Programming Mastery
-      - Codeforces & TopCoder
-      - Google Competitions
-      - ICPC Preparation
-      - Open Source Contributions
-      - Teaching & Mentoring
-    - Industry Applications
-      - Algorithms in Production
-      - Research & Development
-      - Entrepreneurship Path
-      - Specialized Domains
-      - Lifetime Learning Plan
-    - Resources & Community
-      - Learning Resources
-      - Community Building
-      - Success Metrics
-      - Alumni Network
-    - Final Resources
-      - Interview Cheat Sheets
-      - Problem Categories
-      - Career Milestones
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** Complexity analyzer tool; Problem-solving template creator; Personal progress tracker; Array manipulation library; String utilities toolkit; Pattern matching visualizer; Linked list library from scratch; Recursion visualizer; Memory stack simulator; Expression evaluator; Browser history simulator; Task scheduler with priority queue; Search algorithm visualizer; Binary search template library; Search complexity analyzer - plus 162 more on the course page.
-
-### DSA & Problem Solving for Teens: Algorithms to Interviews
-
-`/courses/problem-solving-dsa-masterclass-teens` · 12 months (52 weeks) · Complete Beginner to Competition Ready
-
-  - PHASE 1: Foundation & Logic Building (Months 1-3, Weeks 1-13)
-    Build unshakeable foundations. Learn to think like a programmer, master basic syntax, and solve your first 200+ problems.
-    - Month 1: Programming Fundamentals & First Steps
-      - Introduction to Problem Solving & Setup
-      - Conditional Logic & Decision Making
-      - Loops & Iteration Mastery
-      - Functions & Modular Programming
-    - Months 2-3: Data Structures Basics & Problem Patterns
-      - Lists/Arrays Fundamentals
-      - Strings & Text Processing
-      - Dictionaries/Hash Maps & Sets
-      - Basic Algorithms & Complexity
-      - Month 2-3 Assessment & Review
-    - Month 3: Advanced Basics & Contest Preparation
-      - Stack & Queue Mastery
-      - Recursion & Backtracking Basics
-      - Mathematics for Programming
-      - Linked Lists Introduction
-      - Phase 1 Final Project
-  - PHASE 2: Core Data Structures & Algorithms (Months 4-6, Weeks 14-26)
-    Master essential data structures, dive deep into algorithms, and start solving medium-level competitive programming problems.
-    - Months 4-5: Trees & Advanced Sorting
-      - Binary Trees Fundamentals
-      - Binary Search Trees (BST)
-      - Advanced Sorting Algorithms
-      - Heaps & Priority Queues
-      - Tries & String Algorithms
-    - Month 6: Graphs & Network Algorithms
-      - Graph Fundamentals
-      - Graph Traversal Algorithms
-      - Shortest Path Algorithms
-      - Minimum Spanning Trees
-      - Advanced Graph Algorithms
-    - Phase 2 Completion & Integration
-      - Algorithm Design Paradigms
-      - Space & Time Optimization
-      - Testing & Debugging Mastery
-      - Competition Strategies
-      - Phase 2 Capstone Project
-  - PHASE 3: Advanced Algorithms & Techniques (Months 7-9, Weeks 27-39)
-    Master dynamic programming, advanced data structures, computational geometry, and complex problem-solving techniques.
-    - Months 7-8: Dynamic Programming Mastery
-      - DP Fundamentals
-      - String DP Problems
-      - Grid & Matrix DP
-      - Knapsack & Subset Problems
-      - Tree DP
-    - Month 8: Advanced DP & Optimization
-      - DP with Bitmasks
-      - Interval DP & Games
-      - DP Optimizations
-      - Probability & Expected Value DP
-      - State Space Reduction
-    - Month 9: Computational Geometry & Number Theory
-      - Computational Geometry Basics
-      - Advanced Geometry
-      - Advanced Number Theory
-      - Combinatorics & Counting
-      - Phase 3 Capstone Project
-  - PHASE 4: Competitive Programming & Interview Mastery (Months 10-12, Weeks 40-52)
-    Master competitive programming, ace technical interviews, explore advanced topics, and build your problem-solving portfolio.
-    - Months 10-11: Competitive Programming Excellence
-      - Advanced Data Structures
-      - String Algorithms Mastery
-      - Network Flow & Matching
-      - FFT & Polynomials
-      - Parallel & Distributed Algorithms
-    - Month 11: Competition Training & Practice
-      - Codeforces & Contest Strategies
-      - USACO & IOI Preparation
-      - Google Competitions
-      - Advanced Contest Techniques
-      - Platform Mastery
-    - Month 12: Interview Preparation & Career Launch
-      - Technical Interview Mastery
-      - System Design for Beginners
-      - Open Source & Portfolio
-      - Advanced Topics Exploration
-    - Final Month: Mastery & Beyond
-      - Final Project - Part 1
-      - Final Project - Part 2 & Polish
-      - Graduation & Career Launch
-
-**Projects students build:** Calculator for homework problems; Age calculator with fun facts; Simple chatbot that responds to inputs; Grade calculator with letter grades; Rock-Paper-Scissors game; Simple adventure game with choices; Password strength checker; Pattern printer (20+ patterns); Multiplication table generator; Prime number checker and generator; Number guessing game with attempts; Math helper library (GCD, LCM, factorial); Text analyzer (word count, character frequency); Recursive art generator; Unit converter with functions - plus 216 more on the course page.
+**Projects students build:** Complexity analyzer tool; Problem-solving template creator; Personal progress tracker; Array manipulation library; String utilities toolkit; Pattern matching visualizer; Linked list library from scratch; Recursion visualizer; Memory stack simulator; Expression evaluator; Browser history simulator; Task scheduler with priority queue; Search algorithm visualizer; Binary search template library; Search complexity analyzer - plus 88 more on the course page.
 
 ### Early Math Foundations: Playful, Concrete Math (Ages 4-7)
 
@@ -5350,179 +5377,134 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Shapes and Fair Shares
       - Graphs, Graduation and the Road Ahead
 
-### Elementary Mathematics for Grade 1-5: Numbers to Geometry
+### Elementary Maths for Grades 1-5: Live Online Classes
 
-`/courses/elementary-mathematics-complete-masterclass` · 24 months (104 weeks) · Complete Beginner to Advanced Elementary Mathematics
+`/courses/elementary-mathematics-complete-masterclass` · 10-12 months per level (3 levels, Grades 1-5) · Grades 1-5; every child is placed by grade and a short placement check
 
-  - PHASE 1: Mathematical Foundations (Months 1-6, Weeks 1-26)
-    Build rock-solid foundations in numbers, basic operations, shapes, and mathematical thinking.
-    - Months 1-2: Numbers and Counting Mastery
+  - PHASE 1: Level A for Grades 1-2 (One School Year)
+    The foundation year(s): numbers, place value, addition and subtraction, first multiplication, shapes, time, money and measurement, all learned with objects and pictures before symbols.
+    - Months 1-2: Numbers and Counting
       - Introduction to Numbers and Counting
       - Numbers to 100 and Place Value
       - Basic Addition (Single Digit)
       - Basic Subtraction (Single Digit)
-    - Months 3-4: Advanced Operations and Problem-Solving
+    - Months 3-4: Bigger Numbers and First Multiplication
       - Two-Digit Addition
       - Two-Digit Subtraction
       - Introduction to Multiplication
       - Geometry Basics: 2D Shapes
-      - Month 3-4 Review & Assessment
-    - Months 5-6: Measurement, Time, and Money
+      - Mid-Level Review
+    - Months 5-6: Time, Money and Measurement
       - Time and Calendar
       - Money and Financial Literacy
       - Length and Height Measurement
       - Weight and Capacity
-      - Phase 1 Capstone Project
-  - PHASE 2: Core Mathematics Skills (Months 7-12, Weeks 27-52)
-    Master multiplication, division, fractions, advanced geometry, and complex problem-solving.
-    - Months 7-8: Multiplication and Division Mastery
+      - Level A Exam and Celebration
+  - PHASE 2: Level B for Grades 3-4 (One School Year)
+    The fluency year(s): multiplication and division mastered properly, fractions and decimals understood instead of memorized, plus data, geometry, area and perimeter.
+    - Months 1-2: Multiplication and Division Mastery
       - Advanced Multiplication Facts
       - Multi-Digit Multiplication
       - Introduction to Division
       - Long Division
       - Problem-Solving with Operations
-    - Months 9-10: Fractions and Decimals Introduction
+    - Months 3-4: Fractions and Decimals
       - Understanding Fractions
       - Operations with Fractions
       - Introduction to Decimals
       - Decimal Operations
       - Data and Graphing
-    - Months 11-12: Advanced Geometry and Measurement
+    - Months 5-6: Geometry, Area and the Level Exam
       - Advanced 2D Geometry
       - 3D Shapes and Volume
       - Area and Perimeter
       - Coordinate Geometry
-      - Phase 2 Capstone Project
-  - PHASE 3: Advanced Concepts & Problem-Solving (Months 13-18, Weeks 53-78)
-    Master complex operations, advanced fractions/decimals, ratios, percentages, and sophisticated problem-solving.
-    - Months 13-14: Advanced Number Theory
+      - Level B Exam and Celebration
+  - PHASE 3: Level C for Grade 5 (One School Year)
+    The bridge year: large numbers, advanced fractions, ratios and percentages, circle geometry, first algebra, probability and money maths, everything middle school assumes.
+    - Months 1-2: Numbers and Fractions Mastery
       - Large Numbers and Place Value
       - Factors and Multiples
-      - Advanced Multiplication Strategies
-      - Advanced Division Strategies
-      - Number Patterns and Sequences
-    - Months 15-16: Advanced Fractions and Decimals
       - Complex Fraction Operations
       - Advanced Decimal Operations
+    - Months 3-4: Proportional Thinking and Geometry
       - Ratios and Proportions
       - Percentages
-      - Mixed Operations and Order
-    - Months 17-18: Advanced Geometry and Measurement
       - Advanced Angle Relationships
-      - Transformations and Symmetry
       - Circle Geometry
-      - Advanced Measurement Conversions
-      - Phase 3 Capstone Project
-  - PHASE 4: Mastery & Real-World Applications (Months 19-24, Weeks 79-104)
-    Master pre-algebra concepts, statistics, probability, mathematical reasoning, and real-world applications.
-    - Months 19-20: Pre-Algebra Foundations
+    - Months 5-6: First Algebra, Data and the Level Exam
       - Variables and Expressions
       - Simple Equations
-      - Inequalities Introduction
-      - Functions and Graphing
-      - Integer Operations
-    - Months 21-22: Statistics and Probability
       - Advanced Data Analysis
       - Probability Fundamentals
-      - Combinations and Permutations Basics
-      - Statistical Reasoning
-      - Financial Mathematics
-    - Month 23: Advanced Problem-Solving & Logic
-      - Logic and Reasoning
-      - Problem-Solving Strategies Mastery
-      - Mathematical Investigations
-      - Competition Mathematics
-    - Month 24: Culmination and Future Preparation
-      - Real-World Mathematics Applications
-      - Comprehensive Review and Integration
-      - Transition to Advanced Mathematics
+      - Money Maths, Review and the Level C Exam
 
-**Projects students build:** Create number book with illustrations; Number hunt around the house; Build counting games with everyday objects; 100 chart coloring patterns; Place value manipulative games; Create skip counting songs; Addition fact family houses; Create addition story problems book; Design addition board game; Subtraction story problems collection; Fact family triangles craft; Subtraction bowling game; Shopping mall addition game; Create addition puzzle cards; Design digital addition calculator - plus 163 more on the course page.
+**Projects students build:** Create number book with illustrations; Number hunt around the house; Build counting games with everyday objects; 100 chart coloring patterns; Place value manipulative games; Create skip counting songs; Addition fact family houses; Create addition story problems book; Design addition board game; Subtraction story problems collection; Fact family triangles craft; Subtraction bowling game; Shopping mall addition game; Create addition puzzle cards; Design digital addition calculator - plus 105 more on the course page.
 
-### Ethical Hacking & Cybersecurity: Zero to Pentester
+### Ethical Hacking Course: Authorized Pentesting, Zero to Pro
 
-`/courses/ethical-hacking-masterclass-complete` · 6 months (26 weeks) - Can be taken as 1.5 hour daily sessions · Complete Beginner to Professional Ethical Hacker
+`/courses/ethical-hacking-masterclass-complete` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
-  - PHASE 1: Networking, Linux & Security Foundations (Weeks 1-8)
+  - PHASE 1: Foundations, Ethics and Reconnaissance (Months 1-3, Weeks 1-13)
     Build rock-solid networking and Linux foundations essential for ethical hacking. Master TCP/IP, operating systems, programming basics, and security fundamentals.
-    - Weeks 1-4: Networking & Linux Fundamentals
+    - Months 1-2: Networking & Linux Fundamentals
       - Introduction to Ethical Hacking & Networking Basics
       - Linux Mastery for Hackers
       - Programming for Hackers - Python & Web Basics
       - Information Gathering & OSINT
-    - Weeks 5-8: Scanning & Enumeration
+    - Month 3: Scanning & Enumeration
       - Network Scanning & Enumeration
       - Web Application Scanning
       - Vulnerability Assessment
-  - PHASE 2: Core Hacking & Exploitation (Weeks 9-16)
+  - PHASE 2: Core Exploitation and Advanced Domains (Months 4-6, Weeks 14-26)
     Master system hacking, web application attacks, exploitation frameworks, and post-exploitation techniques.
-    - Weeks 9-12: System Hacking & Exploitation
+    - Month 4: System Hacking & Exploitation
       - System Hacking & Password Attacks
       - Metasploit Framework & Exploitation
       - Web Application Hacking - OWASP Top 10
       - Advanced Web Attacks & API Security
       - Database Hacking & NoSQL Injection
-    - Weeks 13-16: Network Attacks & Post-Exploitation
+    - Month 5: Network Attacks & Post-Exploitation
       - Network Attacks & Man-in-the-Middle
       - Wireless Network Hacking
       - Post-Exploitation & Lateral Movement
       - Malware Analysis & Reverse Engineering Basics
-      - Phase 2 Capstone Project
-    - Additional Phase 2 Content
+    - Month 6: Advanced Domains: Active Directory, Mobile and Cloud
       - Active Directory Attacks
       - Mobile Application Security
       - Cloud Security & Container Hacking
-      - IoT & ICS Security
       - Physical Security & Social Engineering
-  - PHASE 3: Advanced Security & Specialized Domains (Weeks 17-24)
+  - PHASE 3: Advanced Offensive and Defensive Security (Months 7-9, Weeks 27-39)
     Master advanced exploitation, zero-day research, exploit development, and specialized security domains.
-    - Weeks 17-20: Advanced Exploitation & Zero Days
+    - Month 7: Advanced Exploitation & Zero Days
       - Buffer Overflow Exploitation
       - Modern Exploit Mitigation Bypasses
       - Web Application Firewall Bypasses
       - Cryptography & Cryptanalysis
       - Red Team Operations
-    - Weeks 21-24: DevSecOps & Automation
+    - Month 8: DevSecOps & Automation
       - DevSecOps & CI/CD Security
       - Security Automation & Orchestration
       - Threat Hunting & Intelligence
       - Incident Response & Forensics
       - Compliance & Governance
-    - Additional Phase 3 Content
+    - Month 9: Emerging Security Domains
       - Zero Trust Architecture
-      - Advanced Malware Development
       - Blockchain & Smart Contract Security
       - AI/ML Security
-      - Phase 3 Capstone Project
-  - PHASE 4: Professional Skills & Career Development (Weeks 25-26)
-    Master bug bounty hunting, professional reporting, certification preparation, and career development.
-    - Week 25: Bug Bounty & Professional Skills
-      - Bug Bounty Hunting Mastery
-      - Professional Report Writing
-      - Security Certifications Preparation
-      - Soft Skills & Consulting
-      - Legal & Ethical Considerations
-    - Week 26: Career Launch & Final Assessment
-      - Career Strategy & Job Hunting
-      - Industry Specializations
-      - Building Security Tools & Products
-      - Advanced Career Development
-      - Continuous Learning & Growth
-    - Final Week Activities
-      - Real-World Scenarios
-      - Security Operations Center (SOC)
-      - Emerging Threats & Technologies
-      - Entrepreneurship in Security
-    - Final Assessment & Graduation
-      - Final Capstone Project - Part 1
-      - Final Capstone Project - Part 2
-      - Career Launch & Certification
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** Complete hacking lab setup with multiple VMs; Network topology design and implementation; Subnet calculator tool development; Protocol analyzer using Wireshark; Automation scripts for reconnaissance; Custom security monitoring dashboard; Log analysis automation tool; Linux hardening checklist implementation; Port scanner in Python; Password cracker for weak hashes; Web crawler for reconnaissance; Network packet sniffer; Simple vulnerability scanner; Complete OSINT profile builder; Automated reconnaissance framework - plus 252 more on the course page.
+**Projects students build:** Complete hacking lab setup with multiple VMs; Network topology design and implementation; Subnet calculator tool development; Protocol analyzer using Wireshark; Automation scripts for reconnaissance; Custom security monitoring dashboard; Log analysis automation tool; Linux hardening checklist implementation; Port scanner in Python; Password cracker for weak hashes; Web crawler for reconnaissance; Network packet sniffer; Simple vulnerability scanner; Complete OSINT profile builder; Automated reconnaissance framework - plus 158 more on the course page.
 
-### Flutter App Development Course: Zero to Pro Developer
+### Flutter Course: Dart to Real Cross-Platform Apps
 
-`/courses/complete-flutter-app-development-masterclass-college` · 12 months (52 weeks) · Complete Beginner to Advanced Professional
+`/courses/complete-flutter-app-development-masterclass-college` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
   - PHASE 1: Foundation & Core Flutter + Dart Skills (Months 1-3, Weeks 1-13)
     Build rock-solid programming and Flutter fundamentals. Learn Dart, understand Flutter’s widget tree, layout system, and create your first interactive cross‑platform apps.
@@ -5537,340 +5519,243 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Abstraction, Interfaces & PHASE 1 Mini Capstone
   - PHASE 2: Intermediate Flutter, State Management & App Architecture (Months 4-6, Weeks 14-26)
     Master advanced Dart, state management patterns, navigation, forms, local storage, and start building real-world, offline-capable Flutter apps.
-    - Months 4-5: Advanced Dart, Layouts & State Management Foundations
+    - Month 4: Advanced Dart, Layouts & State Management Foundations
       - Advanced Dart, Collections & Async Programming
       - Flutter Navigation, Routing & App Structure
       - Forms, Validation & User Input Handling
       - Flutter Layout Mastery, Lists & Responsive Design
       - Intro to State Management Patterns
-    - Month 6: Persistent Storage, Offline Apps & Advanced State
+    - Month 5: Persistent Storage, Offline Apps & Advanced State
       - Local Storage: SharedPreferences, SQLite & Object Persistence
       - State Management with Provider & Riverpod, Part 1
       - Advanced State Management: Riverpod / BLoC, Part 2
       - Flutter Animations & UX Polish
-      - Phase 2 Capstone Project
-    - PHASE 2 CONTINUED - Architecture, Packages & Best Practices
+    - Month 6: Design Systems, APIs & Testing Foundations
       - Reusable Widgets, Design Systems & Theming
-      - Clean Code, Architecture Patterns & Folder Structures
       - Networking & REST API Integration - Fundamentals
       - Intro to Testing Flutter Apps
       - Build Automation, Packages & Version Control
   - PHASE 3: Backend Integration, Firebase & Production Features (Months 7-9, Weeks 27-39)
     Master building connected apps with Firebase and REST backends, implement authentication, payments, notifications, and solid application architecture.
-    - Months 7-8: Firebase, Auth & Real-World Features
+    - Month 7: Firebase, Auth & Real-World Features
       - Firebase Fundamentals & Realtime Data
       - Authentication & User Management
       - Cloud Storage, Media & File Handling
       - Push Notifications & In-App Messaging
       - Advanced Firebase: Queries, Security & Performance
-    - Month 9: REST APIs, Payments & Robust Product Apps
+    - Month 8: REST APIs, Payments & Robust Product Apps
       - Advanced REST APIs, Error Handling & Data Layers
       - In-App Purchases & Payment Gateway Integration
       - App Architecture in Depth: Clean Architecture & Large App Design
       - Testing Connected Apps (REST + Firebase)
-      - Phase 3 Capstone Preparation & Consolidation
-    - PHASE 3 COMPLETION - Production-Ready App Delivery
+    - Month 9: Production Hardening
       - Performance Optimization & App Size Management
       - Error Reporting, Logging & Analytics
       - Security & Data Protection in Flutter Apps
-      - Phase 3 Capstone Implementation
-      - Phase 3 Review & Assessment
-  - PHASE 4: Advanced Flutter, Multi-Platform, DevOps & Career Excellence (Months 10-12, Weeks 40-52)
-    Master advanced patterns, multi-platform delivery, CI/CD, store deployment, performance engineering, and become industry-ready as a professional Flutter developer.
-    - Months 10-11: Multi-Platform, Advanced Patterns & Tooling
-      - Flutter Web & Desktop Fundamentals
-      - Modularization, Packages & Plugin Ecosystem
-      - Internationalization, Accessibility & Advanced UX
-      - CI/CD, Automation & Release Management for Flutter
-      - Store Deployment & App Store Readiness
-    - Month 12: System Design Thinking for Apps, Performance & DevOps
-      - Mobile/App System Design & Architecture
-      - Performance Engineering for Flutter Apps
-      - DevOps & Observability for Flutter-Based Products
-      - Code Quality, Refactoring & Long-Term Maintainability
-      - Phase 4 Pre-Capstone Review
-    - PHASE 4 COMPLETION - Career Preparation
-      - Advanced Flutter Topics & Specializations
-      - Code Quality & Best Practices (Flutter Edition)
-      - Open Source & Community
-      - Interview Preparation (Flutter & Mobile Roles)
-    - Final Month - Capstone & Career Launch
-      - Final Capstone Project - Part 1
-      - Final Capstone Project - Part 2
-      - Career Launch & Professional Development
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** Hello Flutter app with personalized welcome screen; Digital visiting card app (name, role, contact info); Simple profile screen with image, text and icons; Two-screen mini app using basic navigation; Kids track variant: Colorful "My Favorite Things" app; Simple console calculator (add, subtract, multiply, divide); Tip & bill split calculator (per person amount); Age & birthday countdown calculator; Unit converters: temperature, length, weight; Kids variant: Score tracker for a simple game; Number guessing game (console or Flutter dialog-based); Grade calculator with letter-grade output; To-do list data model (List operations) with console UI; Simple quiz logic engine (questions and scoring); Kids variant: Multiplication practice generator - plus 238 more on the course page.
+**Projects students build:** Hello Flutter app with personalized welcome screen; Digital visiting card app (name, role, contact info); Simple profile screen with image, text and icons; Two-screen mini app using basic navigation; Kids track variant: Colorful "My Favorite Things" app; Simple console calculator (add, subtract, multiply, divide); Tip & bill split calculator (per person amount); Age & birthday countdown calculator; Unit converters: temperature, length, weight; Kids variant: Score tracker for a simple game; Number guessing game (console or Flutter dialog-based); Grade calculator with letter-grade output; To-do list data model (List operations) with console UI; Simple quiz logic engine (questions and scoring); Kids variant: Multiplication practice generator - plus 147 more on the course page.
 
-### Frontend Development Course for Teens: HTML, CSS, React
+### Frontend Development for Teens: CSS Craft to React UI
 
-`/courses/frontend-development-masterclass-for-teens` · 12 months (52 weeks) · Complete Beginner to Professional Frontend Developer
+`/courses/frontend-development-masterclass-for-teens` · 9-11 months (36-44 weeks) · Absolute beginner, ages 13 to 18
 
-  - PHASE 1: Web Fundamentals & Design (Months 1-3, Weeks 1-13)
-    Start from absolute zero and build your first amazing websites. Learn the core technologies that power every website on the internet.
-    - Month 1: HTML & CSS Foundations
+  - PHASE 1: Foundations (Months 1-3, Weeks 1-12)
+    HTML with meaning, CSS with discipline, layouts that survive every screen, and first JavaScript.
+    - Month 1: Structure and Style
       - Introduction to Web Development
       - CSS Styling & Design
+    - Month 2: Layout Mastery
       - Flexbox & Grid Layouts
       - Responsive Design & Mobile First
-    - Month 2: JavaScript Fundamentals
+    - Month 3: First JavaScript
       - JavaScript Basics
       - Control Flow & Logic
+  - PHASE 2: The Styling Craft (Months 4-6, Weeks 13-24)
+    Where interfaces start feeling expensive: the DOM, live data, modern CSS, SASS architecture, Tailwind and animation.
+    - Month 4: Living Pages
       - DOM Manipulation
       - Asynchronous JavaScript & APIs
-      - Month 3: Advanced CSS & Animations
-    - Month 3: Modern CSS & Build Tools
+    - Month 5: Modern CSS and Architecture
       - Modern CSS Techniques
       - SASS/SCSS & CSS Architecture
-      - Build Tools & Modern Workflow
+    - Month 6: Tailwind and Motion
       - Tailwind CSS & Utility-First
-      - Phase 1 Capstone Project
-  - PHASE 2: React & Modern Frameworks (Months 4-6, Weeks 14-26)
-    Master React, the most popular frontend framework. Build complex, interactive applications like the pros.
-    - Months 4-5: React Fundamentals & Ecosystem
+      - Animation: Interfaces That Feel Alive
+  - PHASE 3: React for UI Builders (Months 7-8, Weeks 25-32)
+    React as a UI instrument: components, hooks, styling strategies, and the crowning project of the phase, a design system of your own.
+    - Month 7: React Essentials
       - React Basics
       - React Hooks Deep Dive
-      - React Router & Navigation
-      - State Management with Redux
-      - Advanced React Patterns
-    - Month 6: Advanced React & Next.js
+    - Month 8: Styling React and Design Systems
       - Styling in React
-      - Forms & Data Handling
-      - Next.js - Production React
-      - Testing React Applications
-      - TypeScript with React
-    - Phase 2 Capstone & Performance
-      - Performance Optimization
-      - Accessibility & SEO
-      - Real-time Features
-      - GraphQL with React
-      - Phase 2 Capstone Project
-  - PHASE 3: Vue.js & Alternative Frameworks (Months 7-9, Weeks 27-39)
-    Expand your skills with Vue.js and explore other modern frameworks. Become a versatile frontend developer.
-    - Months 7-8: Vue.js Mastery
-      - Vue.js Fundamentals
-      - Vue.js Advanced Features
-      - Vue Router & Vuex
-      - Nuxt.js - Vue Framework
-      - Vue.js Ecosystem
-    - Month 9: Modern Frameworks & Tools
-      - Svelte & SvelteKit
-      - Angular Basics
-      - Web Components & Lit
-      - Static Site Generators
-      - Phase 3 Integration
-    - Phase 3 Capstone & Advanced Topics
-      - Micro Frontends
-      - Advanced Animation & 3D
-      - Advanced State Management
-      - Design Systems & Component Libraries
-      - Phase 3 Capstone Project
-  - PHASE 4: Professional Skills & Career Launch (Months 10-12, Weeks 40-52)
-    Master professional development skills, build your portfolio, and launch your frontend career.
-    - Months 10-11: Professional Development
-      - Portfolio Development
-      - Freelancing Fundamentals
-      - Open Source Contribution
-      - Interview Preparation
-      - Advanced Git & Collaboration
-    - Month 11: Specialized Skills
-      - E-commerce Development
-      - CMS & Headless Solutions
-      - Mobile-First Development
-      - Deployment & DevOps
-      - Emerging Technologies
-    - Month 12: Final Project & Launch
-      - Final Project Planning
-      - Final Project Development - Part 1
-      - Final Project Development - Part 2
-      - Launch Preparation
-    - Week 51-52: Graduation & Career Launch
-      - Career Launch
-      - Final Presentations
-      - Graduation & Beyond
+      - Your Own Design System
+  - PHASE 4: The Finishing School (Month 9, Weeks 33-36)
+    The two marks of professional frontend, accessibility and performance, then the polished capstone and the final exam.
+    - Month 9: Polish, Capstone, Demo Day
+      - Accessibility and SEO Basics
+      - Performance: Measured, Then Fixed
+      - Capstone Build
+      - Demo Day and the Final Exam
 
-**Projects students build:** Personal introduction webpage; Favorite artist fan page; School project presentation site; Recipe collection page; Animated landing page; CSS art challenge; Interactive button collection; Photo gallery with effects; Instagram-style photo grid; YouTube homepage layout; Discord server layout; Pinterest-style masonry; Fully responsive portfolio; Mobile-first blog design; Responsive e-commerce page - plus 221 more on the course page.
+**Projects students build:** Personal introduction webpage; Favorite artist fan page; School project presentation site; Recipe collection page; Animated landing page; CSS art challenge; Interactive button collection; Photo gallery with effects; Instagram-style photo grid; YouTube homepage layout; Discord server layout; Pinterest-style masonry; Fully responsive portfolio; Mobile-first blog design; Responsive e-commerce page - plus 56 more on the course page.
 
-### Full Stack Web Development for Teens: React & Node.js
+### Full Stack Developer Course: React, Node.js and DevOps Basics
 
-`/courses/full-stack-web-development-teens-masterclass` · 24 months (104 weeks) · Complete Beginner to Professional Full Stack Developer
+`/courses/full-stack-web-development-masterclass-college` · 12-14 months (48-56 weeks) · Complete beginner; college students, graduates and career switchers (18+)
 
-  - PHASE 1: Web Development Foundations (Months 1-6, Weeks 1-26)
-    Start from zero and build a rock-solid foundation. Learn how the internet works, create beautiful websites, and master JavaScript - the language that powers the web.
-    - Months 1-2: HTML, CSS & Your First Websites
-      - Introduction to Web Development
-      - Advanced HTML & Forms
-      - CSS - Making Things Look Amazing
-      - Modern CSS Layouts & Responsive Design
-    - Months 3-4: JavaScript Programming Fundamentals
-      - JavaScript Basics
-      - Control Flow & Functions
-      - DOM Manipulation - Making Pages Interactive
-      - Advanced JavaScript Concepts
-      - Asynchronous JavaScript & APIs
-    - Months 5-6: Advanced Frontend & First Framework
-      - Modern JavaScript (ES6+)
-      - Build Tools & Development Workflow
-      - Introduction to React
-      - CSS Frameworks & UI Libraries
-      - Phase 1 Capstone Project
-  - PHASE 2: Advanced Frontend & Modern Frameworks (Months 7-12, Weeks 27-52)
-    Master modern frontend frameworks, build complex UIs, and create professional-grade applications that look and feel like real products.
-    - Months 7-8: React Mastery
-      - Advanced React Concepts
-      - React Router & Navigation
-      - State Management with Redux
-      - Testing React Applications
-      - React Performance & Optimization
-    - Months 9-10: Vue.js & Alternative Frameworks
-      - Vue.js Fundamentals
-      - Advanced Vue.js
-      - Angular Basics
-      - Modern Frontend Tools & Libraries
-      - TypeScript for Frontend
-    - Months 11-12: UI/UX & Professional Frontend
-      - UI/UX Design Principles
-      - Advanced CSS & Animations
-      - Mobile-First & Cross-Platform
-      - Frontend Security & Best Practices
-      - Phase 2 Capstone Project
-  - PHASE 3: Backend Development & Databases (Months 13-18, Weeks 53-78)
-    Master server-side programming, databases, APIs, authentication, and build the backend systems that power modern web applications.
-    - Months 13-14: Node.js & Express
-      - Node.js Fundamentals
-      - Express.js Framework
-      - MongoDB & Mongoose
-      - RESTful API Design
-      - Authentication & Authorization
-    - Months 15-16: Python & Advanced Databases
-      - Python Fundamentals for Web
-      - Django Framework
-      - SQL & PostgreSQL
-      - Advanced Database Topics
-      - Real-time & WebSockets
-    - Months 17-18: Advanced Backend & Cloud
-      - Microservices Architecture
-      - Cloud Services (AWS)
-      - DevOps & CI/CD
-      - API Security & Performance
-      - Phase 3 Capstone Project
-  - PHASE 4: Full Stack Mastery & Career Launch (Months 19-24, Weeks 79-104)
-    Combine everything you've learned, build production applications, master advanced topics, and prepare for your career as a professional full stack developer.
-    - Months 19-20: Full Stack Applications
-      - Full Stack Architecture
-      - Advanced Authentication Systems
-      - Real-time Applications
-      - Performance & Scalability
-      - Mobile App Development
-    - Months 21-22: Advanced Topics & Specializations
-      - Machine Learning for Web Devs
-      - AI-Powered Full-Stack Apps
-      - Game Development for Web
-      - Enterprise Development
-      - Open Source Contribution
-    - Month 23: Career Preparation
-      - Portfolio & Personal Brand
-      - Interview Preparation
-      - Freelancing & Business
-      - Startup & Entrepreneurship
-    - Month 24: Final Projects & Graduation
-      - Final Capstone Project
-      - Project Launch & Presentation
-      - Graduation & Career Launch
-
-**Projects students build:** Personal profile page; Favorite band/artist fan page; School project presentation website; Multi-page school website; Survey form for friends; Restaurant menu with ordering form; Style your HTML projects beautifully; Create a magazine-style layout; Design product cards like Amazon; Responsive portfolio website; Animated landing page; Instagram-style photo grid; Interactive calculator; Mad libs game generator; Grade calculator for school - plus 164 more on the course page.
-
-### Full Stack Web Development: Frontend, Backend & DevOps
-
-`/courses/full-stack-web-development-masterclass-college` · 24 months (104 weeks) · Complete Beginner to Advanced Professional
-
-  - PHASE 1: Foundation & Core Skills (Months 1-6, Weeks 1-26)
-    Build rock-solid fundamentals. Learn how computers work, master programming basics, and create your first websites.
-    - Months 1-2: Computer Science & Programming Fundamentals
-      - Introduction to Computing & Setup
-      - HTML5 Mastery
-      - CSS3 Fundamentals
-      - Advanced CSS Layouts
-    - Months 3-4: JavaScript Fundamentals & Programming Logic
-      - JavaScript Basics & Syntax
-      - Control Flow & Logic
-      - Functions & Scope
-      - Objects & Data Structures
-      - Month 3-4 Review & Assessment
-    - Months 5-6: DOM Manipulation & Interactive Websites
-      - Document Object Model (DOM)
-      - Events & User Interaction
-      - Advanced JavaScript Concepts
-      - Asynchronous JavaScript
-      - Phase 1 Capstone Project
-  - PHASE 2: Frontend Mastery & Modern Frameworks (Months 7-12, Weeks 27-52)
-    Master modern frontend development with React, TypeScript, state management, and advanced UI/UX patterns.
-    - Months 7-8: Modern JavaScript & ES6+
-      - ES6+ Advanced Features
-      - Object-Oriented Programming in JavaScript
-      - Functional Programming Concepts
-      - Build Tools & Module Systems
+  - PHASE 1: Foundations (Months 1-3, Weeks 1-12)
+    Computing, HTML, CSS and JavaScript built to real depth. The phase ends with an interactive, API-powered project deployed to a public URL.
+    - Month 1: How the Web Is Built
+      - Computing, the Web and Your Toolkit
+      - HTML5 Done Properly
+      - CSS Fundamentals
+      - Flexbox, Grid and Responsive Layouts
+    - Month 2: JavaScript Fundamentals
+      - JavaScript Basics and Syntax
+      - Control Flow, Loops and Arrays
+      - Functions, Scope and Closures
+      - Objects and Data Structures
+    - Month 3: The Interactive Web
+      - The DOM
+      - Events and User Interaction
+      - Practical JavaScript: Errors, Storage and Regex
+      - Async JavaScript, APIs and the First Deploy
+  - PHASE 2: TypeScript and React (Months 4-6, Weeks 13-24)
+    Modern JavaScript mastery, TypeScript from the start, and React the way production teams write it, ending in a frontend capstone.
+    - Month 4: Modern JavaScript Mastery
+      - ES6+ in Depth
+      - Object-Oriented JavaScript
+      - Functional Programming Patterns
+      - Modules, npm and Build Tools
+    - Month 5: TypeScript and React Core
       - TypeScript Fundamentals
-    - Months 9-10: React.js Mastery
       - React Fundamentals
-      - React Hooks & State Management
+      - Hooks and State
       - Advanced React Patterns
-      - State Management Libraries
+    - Month 6: State, Styling and the Frontend Capstone
+      - State Management with Redux Toolkit
       - React with TypeScript
-    - Months 11-12: Advanced Frontend & UI/UX
-      - Styling in React & CSS-in-JS
-      - Performance Optimization
-      - Testing in React
-      - Next.js & Server-Side Rendering
-      - Phase 2 Capstone Project
-  - PHASE 3: Backend Engineering & Databases (Months 13-18, Weeks 53-78)
-    Master backend development, databases, APIs, authentication, security, and server-side architecture.
-    - Months 13-14: Node.js & Express.js
+      - Styling: Tailwind and Component Libraries
+      - Frontend Capstone
+  - PHASE 3: Backend Engineering (Months 7-9, Weeks 25-36)
+    Node and Express done properly, both database families, safe authentication, OWASP security and real-time, ending with a deployed backend capstone.
+    - Month 7: Node and Express
       - Node.js Fundamentals
       - Express.js Framework
       - RESTful API Design
-      - Advanced Node.js & Async Patterns
-      - Express.js Advanced Concepts
-    - Months 15-16: Databases & Data Modeling
-      - MongoDB & NoSQL Databases
+      - Production Express: Middleware and Hardening
+    - Month 8: Both Database Families
+      - MongoDB
       - Mongoose ODM
-      - SQL & Relational Databases
-      - Advanced SQL & Database Design
-      - ORMs & Database Integration
-    - Months 17-18: Authentication, Security & Advanced Backend
-      - Authentication & Authorization
-      - API Security & Best Practices
-      - Real-time Communication
-      - Advanced Backend Patterns
-      - Phase 3 Capstone Project
-  - PHASE 4: Advanced Topics & Production Systems (Months 19-24, Weeks 79-104)
-    Master system design, microservices, DevOps, cloud infrastructure, and production-grade application development.
-    - Months 19-20: System Design & Architecture
+      - SQL and PostgreSQL
+      - Prisma and Choosing Your Database
+    - Month 9: Auth, Security and Real-Time
+      - Authentication and Authorization
+      - API Security: The OWASP Essentials
+      - Real-Time with Socket.io
+      - Backend Capstone
+  - PHASE 4: Production Engineering and the Capstone (Months 10-12, Weeks 37-48)
+    What separates course graduates from employable developers: testing, Next.js, performance, Docker, CI/CD, cloud fundamentals, system design, AI features, and a shipped capstone.
+    - Month 10: Quality and the Modern Stack
+      - Testing Across the Stack
+      - Next.js and Server-Side Rendering
+      - Performance: Measuring and Fixing
+      - Backend Patterns: Caching, Jobs and Integrations
+    - Month 11: Docker, CI/CD, Cloud and AI
+      - Docker and Containers
+      - CI/CD with GitHub Actions
       - System Design Fundamentals
-      - Microservices Architecture
-      - GraphQL
-      - Advanced System Design Patterns
-      - Performance Optimization
-    - Months 21-22: DevOps & Cloud Infrastructure
-      - Docker & Containerization
-      - Kubernetes & Orchestration
-      - AWS Cloud Services
-      - CI/CD Pipelines
-      - Infrastructure as Code
-    - Month 23: Advanced Topics & Specializations
-      - Advanced Database Topics
-      - Advanced Security Topics
+      - AI Features, End to End
+    - Month 12: The Capstone
+      - Capstone Planning and Cloud Setup
+      - Capstone Build
+      - Launch, Demo Day and What Comes Next
+
+**Projects students build:** Set up complete development environment; Create first GitHub repository; Write 'About Me' HTML page; Personal portfolio website (HTML only); Restaurant menu page with images and tables; Multi-page contact form with validation; Style your portfolio with beautiful CSS; Create a styled blog post layout; Design a product card component; Holy grail layout with Flexbox and Grid; Responsive navigation menu; Photo gallery with Grid; Complete responsive landing page; Temperature converter; Simple tip calculator - plus 146 more on the course page.
+
+### Full Stack Web Development for Teens: React and Node.js
+
+`/courses/full-stack-web-development-teens-masterclass` · 12-14 months (48-56 weeks) · Absolute beginner, ages 13 to 18
+
+  - PHASE 1: Web Foundations (Months 1-3, Weeks 1-12)
+    The real base: HTML with meaning, CSS that survives a phone, and JavaScript learned deeply enough that React will make sense instead of feeling like magic.
+    - Month 1: HTML and CSS
+      - How the Web Works, and Your First Pages
+      - Forms, Structure and Meaning
+      - CSS: Making It Look Right
+      - Flexbox, Grid and Responsive Design
+    - Month 2: JavaScript, Properly
+      - JavaScript Fundamentals
+      - Control Flow and Functions
+      - The DOM: Making Pages Interactive
+      - Interactive Projects Week
+    - Month 3: Modern JavaScript and the First Deploy
+      - Arrays, Objects and Data Thinking
+      - Async JavaScript and Real APIs
+      - ES6+, Modules and npm
+      - Phase 1 Capstone: Ship a Real Site
+  - PHASE 2: The React Frontend (Months 4-6, Weeks 13-24)
+    React the way it is actually written now: components, hooks, routing, real styling, TypeScript, a taste of Next.js, and a frontend capstone.
+    - Month 4: React Core
+      - Thinking in React
+      - Hooks and Effects
+      - Routing and Multi-Page Apps
+      - Fetching Data Like a Professional
+    - Month 5: React Craft
+      - State Management That Scales
+      - TypeScript for React
+      - UI/UX for Developers
+      - Tailwind and Component Libraries
+    - Month 6: Next.js Taste and the Frontend Capstone
+      - Performance and PWA Basics
+      - A Taste of Next.js
+      - Frontend Capstone
+  - PHASE 3: Backend and Databases (Months 7-9, Weeks 25-36)
+    The engine room: Node and Express, MongoDB and SQL, authentication done safely, and the moment the two halves connect into one deployed application.
+    - Month 7: Node, Express and MongoDB
+      - Node.js Fundamentals
+      - Express: Your First Server
+      - MongoDB and Mongoose
+      - REST API Design
+    - Month 8: Authentication, SQL and Safety
+      - Authentication Done Safely
+      - SQL and PostgreSQL Essentials
+      - API Security and Performance
+      - Backend Capstone: A Deployed API
+    - Month 9: The Two Halves Connect
+      - Full-Stack Architecture with MERN
+      - Real-Time with Socket.io
+      - Full-Stack Deployment
+      - Full-Stack Mini Build
+  - PHASE 4: AI, Quality and the Capstone (Months 10-12, Weeks 37-48)
+    The final level: uploads and integrations, AI features built with guardrails, testing across the stack, and a four-week capstone shipped like a product.
+    - Month 10: Power-Ups and AI
+      - Uploads, Email and Integrations
       - Machine Learning for Web Developers
-      - AI Integration Basics
-    - Month 24: Final Projects & Career Preparation
-      - Final Capstone Project - Part 1
-      - Final Capstone Project - Part 2 & Deployment
-      - Career Preparation & Job Readiness
+      - AI Features with Guardrails
+      - Testing Across the Stack
+    - Month 11: Ship Like a Professional
+      - Git Workflow and CI Basics
+      - Security Hardening Pass
+      - Performance and Polish Pass
+      - Capstone Planning
+    - Month 12: The Capstone
+      - Capstone Build
+      - Launch Week
+      - Demo Day and What Comes Next
 
-**Projects students build:** Set up complete development environment; Create first GitHub repository; Write 'About Me' HTML page; Personal portfolio website (HTML only); Restaurant menu page with images and tables; Multi-page contact form with validation; Style your portfolio with beautiful CSS; Create a styled blog post layout; Design a product card component; Holy grail layout with Flexbox and Grid; Responsive navigation menu; Photo gallery with Grid; Complete responsive landing page; Temperature converter; Simple tip calculator - plus 211 more on the course page.
+**Projects students build:** Personal profile page; Favorite band/artist fan page; School project presentation website; Multi-page school website; Survey form for friends; Restaurant menu with ordering form; Style your HTML projects beautifully; Create a magazine-style layout; Design product cards like Amazon; Responsive portfolio website; Animated landing page; Instagram-style photo grid; Interactive calculator; Mad libs game generator; Grade calculator for school - plus 92 more on the course page.
 
-### Game Development Course: Unity, Unreal & C++, Zero to Pro
+### Game Development Course: Unity, C# & Unreal Engine
 
-`/courses/game-development-complete-masterclass-college` · 12 months (52 weeks) · Complete Beginner to Professional Game Developer
+`/courses/game-development-complete-masterclass-college` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
   - PHASE 1: Game Fundamentals & 2D Development (Months 1-3, Weeks 1-13)
     Build solid foundations in game design theory, 2D game development, and Unity basics while creating your first playable games.
@@ -5891,9 +5776,7 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Advanced C# for Games
       - AI for Games
       - 3D Game Projects
-    - Month 6: VR/AR and Mobile Development
-      - Virtual Reality Development
-      - Augmented Reality Development
+    - Month 6: Mobile & Cross-Platform Games
       - Mobile Game Development
       - Cross-Platform Development
       - Phase 2 Capstone Project
@@ -5908,212 +5791,155 @@ Share this freely and in detail when a parent or student asks what a course cove
     - Month 9: Multiplayer & Networking
       - Multiplayer Fundamentals
       - Advanced Multiplayer Systems
-      - Live Service Games
-      - Game Monetization
       - Phase 3 Capstone Project
-  - PHASE 4: Publishing & Career Launch (Months 10-12, Weeks 40-52)
-    Master game publishing, marketing, specialized development, and launch your game development career.
-    - Months 10-11: Publishing and Marketing
-      - Game Publishing Process
-      - Game Marketing
-      - Business of Game Development
-      - Specialized Game Development
-      - Tools and Pipeline Development
-    - Month 12: Career Launch & Final Projects
-      - Portfolio Development
-      - Game Industry Careers
-      - Interview Preparation
-      - Indie Game Development
-      - Final Project & Launch
-    - Ongoing Development & Growth
-      - Staying Current
-      - Advanced Specializations
-      - Community and Teaching
-      - Studio Leadership
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** Write your first Game Design Document; Analyze 5 favorite games critically; Create paper prototype of simple game; Set up Unity and development environment; Design a complete game concept with mechanics; Create difficulty curve for a game; Design reward system for mobile game; Build paper prototype and playtest it; Create animated sprite character; Build tilemap-based level; Implement 2D platformer mechanics; Add particle effects and polish; Player movement controller; Enemy AI basic behavior; Inventory system - plus 151 more on the course page.
+**Projects students build:** Write your first Game Design Document; Analyze 5 favorite games critically; Create paper prototype of simple game; Set up Unity and development environment; Design a complete game concept with mechanics; Create difficulty curve for a game; Design reward system for mobile game; Build paper prototype and playtest it; Create animated sprite character; Build tilemap-based level; Implement 2D platformer mechanics; Add particle effects and polish; Player movement controller; Enemy AI basic behavior; Inventory system - plus 82 more on the course page.
 
-### Game Development for Kids: Scratch, Roblox & Minecraft
+### Game Development for Kids: Scratch, Roblox and Minecraft
 
-`/courses/game-development-masterclass-for-kids` · 6 months (26 weeks) · Complete Beginner to Advanced Game Creator
+`/courses/game-development-masterclass-for-kids` · 6-8 months (26-32 weeks) · Complete beginner, ages 8 to 12
 
-  - PHASE 1: Game Foundations & First Games (Months 1-2, Weeks 1-8)
-    Master game thinking and create your first games using Scratch and basic tools. Learn what makes games fun!
-    - Months 1-2: Game Logic & Scratch Mastery
+  - PHASE 1: Game Logic in Scratch (Months 1-2, Weeks 1-8)
+    The mechanics under every game, built by the child: movement, scoring, enemies, and complete first games that work.
+    - Months 1-2: Scratch Game Mastery
       - Introduction to Game Development
       - Game Mechanics & Player Control
       - Advanced Scratch Game Development
       - Introduction to GDevelop
-    - Months 3-4: 2D Game Mastery
+  - PHASE 2: 2D Game Mastery (Months 3-4, Weeks 9-17)
+    From working to wonderful: levels, polish, game feel and bigger 2D builds that friends genuinely want to play.
+    - Months 3-4: Bigger, Better 2D Games
       - Construct 3 Game Engine
       - Game Art & Animation
       - Mobile Game Development
       - GameMaker Studio Basics
-      - 2D Games Showcase
-    - Months 5-6: 3D Worlds & Multiplayer
+      - Phase Review and Showcase
+  - PHASE 3: 3D Worlds and the Finale (Months 5-6, Weeks 18-26)
+    The leap kids dream about: Roblox Studio worlds, coded Minecraft builds, first multiplayer fun, and the capstone presented at demo day.
+    - Months 5-6: Roblox, Minecraft and the Capstone
       - Roblox Studio Fundamentals
       - Advanced Roblox Development
       - Minecraft Modding & Creation
       - Unity with Visual Scripting
-      - Final Game Project & Publishing
-  - PHASE 2: Advanced Game Development (Specialized Tracks)
-    Choose specialized paths: Mobile Games, Multiplayer, VR/AR, or Competitive Gaming
-    - Mobile Game Specialization
-      - Buildbox for Mobile Games
-      - PlayCanvas Web Games
-      - Core Games Platform
-      - Stencyl 2D Games
-      - Godot Engine Basics
-    - Multiplayer & Social Games
-      - Multiplayer Game Design
-      - Among Us Style Games
-      - io Games Development
-      - Minecraft Server Creation
-      - Discord Game Bots
-    - VR/AR & Emerging Tech
-      - VR Game Development
-      - AR Games with Lens Studio
-      - AI in Games
-      - AI in Games
-      - Game Developer Portfolio
-  - SPECIALIZATION TRACKS: Choose Your Path
-    Deep dive into specialized areas of game development
-    - Esports & Competitive Gaming
-      - Esports Game Design
-      - Stream-Friendly Games
-      - Game Analytics & Metrics
-      - Game Marketing & Growth
-      - Game Monetization Strategies
-    - Educational Game Development
-      - Learning Game Design
-      - STEM Game Development
-      - Serious Games Development
-      - Classroom Integration
-      - Game Accessibility
-    - Professional Skills & Industry
-      - Game Industry Overview
-      - Game Testing & QA
-      - Game Documentation
-      - Team Collaboration
-      - Final Showcase & Graduation
-  - BONUS CONTENT: Advanced Specializations
-    Optional advanced modules for continued excellence
-    - Game Art & Sound Mastery
-      - Advanced Pixel Art
-      - 3D Modeling Basics
-      - Game Audio & Music
-      - Procedural Generation
-      - Game Narrative Design
-    - Business & Entrepreneurship
-      - Starting a Game Studio
-      - Crowdfunding Games
-      - Game Publishing
-      - Live Operations
-      - Game Franchises
-    - Cutting-Edge Technologies
-      - Cloud Gaming Development
-      - AI Game Development
-      - Multiplayer & Social Game Design
-      - Experimental Gaming
-    - Master Game Developer Path
-      - Game Development Mastery
-      - Industry Leadership
-      - Your Gaming Legacy
+      - Capstone and the Final Exam
 
-**Projects students build:** Catch the falling objects game; Simple maze game; Pet virtual game; Two-player tag game; Platformer with jumping; Racing game with timer; Shooting game with score; Puzzle with levels; Multi-level adventure game; RPG with inventory; Battle arena game; Story-driven game; Physics puzzle game; Endless runner; Tower defense game - plus 216 more on the course page.
+**Projects students build:** Catch the falling objects game; Simple maze game; Pet virtual game; Two-player tag game; Platformer with jumping; Racing game with timer; Shooting game with score; Puzzle with levels; Multi-level adventure game; RPG with inventory; Battle arena game; Story-driven game; Physics puzzle game; Endless runner; Tower defense game - plus 38 more on the course page.
 
-### Game Development for Teens: Unity, Unreal & Real Games
+### Game Development for Teens: Unity, C# and Real Shipped Games
 
-`/courses/complete-game-development-masterclass-for-teens` · 24 months (104 weeks) · Complete Beginner to Professional Game Developer
+`/courses/complete-game-development-masterclass-for-teens` · 10-12 months (40-48 weeks) · Absolute beginner, ages 13 to 18
 
-  - PHASE 1: Foundation & 2D Games (Months 1-6, Weeks 1-26)
-    Start from zero and build your first games. Master programming fundamentals through game creation and understand what makes games fun.
-    - Months 1-2: Programming Fundamentals Through Games
-      - Introduction to Game Development
-      - C# Programming for Games
-      - 2D Game Development in Unity
-      - Game Physics & Collision
-    - Months 3-4: 2D Game Mechanics & Polish
-      - Player Movement & Controls
-      - Enemy AI & Behaviors
-      - Game UI & Menus
-      - Animation & Visual Effects
-      - Audio & Music in Games
-    - Months 5-6: Complete 2D Games & Design
-      - Level Design Fundamentals
-      - Game Design Theory
-      - Mobile Game Development
-      - Save Systems & Persistence
-      - Phase 1 Capstone Project
-  - PHASE 2: 3D Games & Unity Mastery (Months 7-12, Weeks 27-52)
-    Enter the world of 3D game development. Master Unity's 3D capabilities and create games like Minecraft, Fortnite, and Fall Guys.
-    - Months 7-8: 3D Fundamentals
+  - PHASE 1: Complete 2D Games (Months 1-3, Weeks 1-12)
+    C# learned through games, Unity 2D mastered properly, and the phase ends the only way that matters: a finished game, published.
+    - Month 1: Foundations Through Games
+      - Welcome to Game Development
+      - C# for Games
+      - Unity 2D Fundamentals
+      - Game Physics and Collision
+    - Month 2: Mechanics That Feel Good
+      - Player Movement and Game Feel
+      - Enemy AI and Behaviors
+      - Game UI and Menus
+      - Animation and Visual Effects
+    - Month 3: Finish and Ship
+      - Audio and Music in Games
+      - Level Design
+      - Save Systems and Progress
+      - Phase 1 Capstone: Publish Your Game
+  - PHASE 2: 3D Worlds (Months 4-6, Weeks 13-24)
+    The jump to 3D done properly: controllers, animation, environments, your own Blender assets, shaders, procedural generation, and a finished 3D game.
+    - Month 4: 3D Fundamentals
       - 3D Basics in Unity
       - 3D Character Controllers
-      - 3D Animation & Rigging
-      - 3D Level Design & Environments
-      - 3D Modeling Basics (Blender)
-    - Months 9-10: Advanced Unity Features
-      - Advanced Physics & Mechanics
-      - Shader Programming
-      - AI & Pathfinding
+      - 3D Animation with Mixamo
+      - 3D Environments and Terrain
+    - Month 5: The Craft Around the Code
+      - Blender: Your Own 3D Assets
+      - Game Design Theory
+      - Game AI and Pathfinding
+      - Shader Graph and Visual Polish
+    - Month 6: Finish a 3D Game
       - Procedural Generation
-      - Optimization & Profiling
-    - Months 11-12: Multiplayer & Networking
+      - Optimization and Profiling
+      - 3D Game Build Week
+      - Phase 2 Capstone and Review
+  - PHASE 3: Multiplayer, Mobile and the Wider Craft (Months 7-8, Weeks 25-32)
+    The systems that make games feel modern: multiplayer basics, mobile builds, an honest week inside Unreal, AI in game development, narrative, and accessibility.
+    - Month 7: Multiplayer and Mobile
       - Multiplayer Basics
-      - Advanced Multiplayer Systems
-      - Cross-Platform Development
-      - Game Services Integration
-      - Phase 2 Capstone Project
-  - PHASE 3: Unreal Engine & Advanced Systems (Months 13-18, Weeks 53-78)
-    Master Unreal Engine, advanced graphics, VR/AR development, and AAA game production techniques.
-    - Months 13-14: Unreal Engine Fundamentals
-      - Unreal Engine Basics
-      - Unreal C++ Programming
-      - Unreal Animation System
-      - Unreal Graphics & Rendering
-      - Unreal Multiplayer Systems
-    - Months 15-16: VR/AR Development
-      - Virtual Reality Development
-      - Augmented Reality Development
-      - Mixed Reality & Future Tech
-      - Advanced AI & Machine Learning
-      - Game Audio Advanced
-    - Months 17-18: Professional Production
-      - Game Production Pipeline
-      - Tools & Editor Development
-      - Platform-Specific Development
-      - Live Service & Post-Launch
-      - Phase 3 Capstone Project
-  - PHASE 4: Studio Creation & Business (Months 19-24, Weeks 79-104)
-    Build your game studio, master the business of games, and launch commercially successful titles.
-    - Months 19-20: Game Business & Marketing
-      - Game Business Fundamentals
-      - Game Marketing & PR
-      - Monetization Strategies
-      - Publishing & Distribution
-      - Analytics & Metrics
-    - Months 21-22: Advanced Specializations
-      - Esports & Competitive Gaming
+      - Multiplayer Systems in Practice
+      - Mobile Game Builds
+      - Leaderboards, Achievements and Saves Online
+    - Month 8: The Wider Craft
+      - An Honest Week in Unreal Engine
       - AI in Game Development
-      - Cloud Gaming & Streaming
-      - Game Narrative & Writing
-      - Accessibility & Inclusion
-    - Month 23: Final Production
-      - Studio Portfolio Development
-      - Final Project Pre-Production
-      - Final Project Production
-      - Launch Preparation
-    - Month 24: Launch & Graduation
-      - Game Launch & Release
-      - Career Preparation
-      - Graduation & Future
+      - Game Narrative and Writing
+      - Accessibility and Inclusive Design
+  - PHASE 4: Production and the Capstone (Months 9-10, Weeks 33-40)
+    The final month pair runs like a small studio: pipeline, polish, publishing, and a capstone game shipped and presented at demo day.
+    - Month 9: Studio Habits
+      - How Real Games Get Made
+      - Polish and Game Feel Week
+      - Publishing on itch.io and Game Jams
+      - Portfolio and Devlog
+    - Month 10: The Capstone
+      - Capstone Pre-Production
+      - Capstone Build
+      - Launch, Demo Day and What Comes Next
 
-**Projects students build:** Pong remake; Breakout/Arkanoid clone; Simple clicker game; Text adventure game; Number guessing game; Rock Paper Scissors with AI; Simple RPG battle system; Dice rolling game; Top-down shooter; Endless runner like Temple Run; 2D platformer basics; Asteroids remake; Angry Birds clone; Pinball game; Physics puzzle game - plus 220 more on the course page.
+**Projects students build:** Pong remake; Breakout/Arkanoid clone; Simple clicker game; Text adventure game; Number guessing game; Rock Paper Scissors with AI; Simple RPG battle system; Dice rolling game; Top-down shooter; Endless runner like Temple Run; 2D platformer basics; Asteroids remake; Angry Birds clone; Pinball game; Physics puzzle game - plus 104 more on the course page.
+
+### GCSE Computer Science: AQA, OCR and Edexcel Exam Prep
+
+`/courses/gcse-computer-science-course` · 6 months (24 weeks), joinable any month · GCSE students on AQA, OCR or Edexcel Computer Science; taught from the basics, no prior coding required
+
+  - PHASE 1: Programming That Survives Paper 1 (Months 1-2)
+    Real Python, written by hand, plus the code-tracing habit that carries more marks than any single topic on the specification.
+    - Month 1: Python Fundamentals and Code Tracing
+      - Variables, Input and Output, and Reading an Error
+      - Selection, and the Conditions Examiners Set
+      - Iteration, and Two-Column Trace Tables
+      - Lists, Strings and Standard Algorithms
+    - Month 2: Subprograms, Files and Robust Programs
+      - Functions, Procedures and Parameters
+      - File Handling and Data Validation
+      - Testing, Debugging and the Language of Errors
+      - Paper 1 Under Time
+  - PHASE 2: Computing Concepts and Systems (Months 3-4)
+    The theory half, taught as systems that relate to each other rather than as vocabulary to be memorised, because that is what the longer questions reward.
+    - Month 3: Data Representation and Computer Systems
+      - Binary, Hexadecimal and Binary Arithmetic
+      - Images, Sound and Compression
+      - The CPU, the Fetch-Decode-Execute Cycle and Memory
+      - Software, Translators and Systems Architecture
+    - Month 4: Networks, Security, Databases and Impact
+      - Networks, Topologies and Protocols
+      - Cyber Security and Threats
+      - Databases and SQL
+      - Ethical, Legal and Environmental Impact
+  - PHASE 3: Board-Specific Exam Mastery (Months 5-6)
+    The half of the course that separates the three specifications, spent entirely on the papers this student will actually sit.
+    - Month 5: Your Board's Papers, In Their Own Format
+      - Knowing Your Own Specification
+      - Command Words and the Mark Scheme
+      - The Long Questions
+      - Full Paper 1, Marked and Reviewed
+    - Month 6: Full Papers and Final Preparation
+      - Full Paper 2, Marked and Reviewed
+      - Targeted Repair
+      - Second Full Set
+      - Exam Week Readiness
 
 ### GCSE Maths: Foundation & Higher (9-1), AQA, Edexcel, OCR
 
-`/courses/gcse-mathematics-mastery` · 18 months (72 weeks) · Years 9-11 GCSE students, Foundation and Higher tiers, plus resit candidates
+`/courses/gcse-mathematics-mastery` · 18 months (72 weeks), joinable any month · Years 9-11 GCSE students, Foundation and Higher tiers, plus resit candidates
 
   - PHASE 1: The Core, Built Properly (Months 1-6)
     Foundation-tier territory owned deeply is what Higher-tier grades stand on. This phase rebuilds number fluency without a calculator, teaches algebra as a language, and secures the geometry and statistics basics, with the diagnostic finding the true starting point first.
@@ -6161,86 +5987,51 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Final Cycles and Error-Log Closure
       - Peak Plan and Exam-Day Routines
 
-### Generative AI Course: LLMs, RAG & AI Agents, Zero to Pro
+### Generative AI Course: LLMs, RAG and AI Agents
 
-`/courses/complete-generative-ai-masterclass-college` · 12 months (52 weeks) · Complete Beginner to AI Engineer Professional
+`/courses/complete-generative-ai-masterclass-college` · 10-12 months (40-48 weeks) · Complete beginner (18+); Python and the maths are built inside the course
 
-  - PHASE 1: Foundation & AI Fundamentals (Months 1-3, Weeks 1-13)
-    Build rock-solid AI fundamentals. Learn Python, mathematics for AI, machine learning basics, and introduction to generative AI.
-    - Months 1-2: Python Programming & Math for AI
+  - PHASE 1: Foundations (Months 1-3, Weeks 1-12)
+    Python, the working mathematics, and enough real ML and neural-network understanding that everything generative later makes sense from the inside.
+    - Month 1: Python for AI Engineering
       - Python Fundamentals & Development Setup
       - Advanced Python & Data Manipulation
+    - Month 2: The Working Mathematics
       - Mathematics for AI - Part 1
       - Mathematics for AI - Part 2 & Statistics
-    - Month 3: Machine Learning Fundamentals
+    - Month 3: ML and Neural Networks, the Fast Honest Pass
       - Introduction to Machine Learning
       - Neural Networks & Deep Learning Basics
-      - Introduction to Generative AI
-  - PHASE 2: LLM Foundations & Prompt Engineering (Months 4-6, Weeks 14-26)
-    Master Large Language Models, transformer architecture, prompt engineering, working with AI APIs, and building LLM-powered applications.
-    - Months 4-5: Transformers, LLMs & API Integration
+  - PHASE 2: The LLM Core (Months 4-6, Weeks 13-24)
+    Transformers understood deeply enough to reason about, APIs across providers, prompt engineering with evaluation harnesses, embeddings, and RAG built for the first time.
+    - Month 4: Transformers and APIs
       - Transformer Architecture Deep Dive
-      - OpenAI API & LLM Integration
+      - LLM APIs Across Providers
+    - Month 5: Prompt Engineering and Embeddings
       - Advanced Prompt Engineering
-      - Alternative LLM APIs & Providers
-      - Vector Databases & Embeddings
-    - Month 6: LangChain & AI Application Development
+      - Embeddings and Vector Databases
+    - Month 6: Frameworks and First RAG
       - LangChain Fundamentals
-      - Advanced LangChain & Tools
       - Retrieval Augmented Generation (RAG) - Part 1
-      - Retrieval Augmented Generation (RAG) - Part 2
-      - Phase 2 Capstone Project
-    - PHASE 2 CONTINUED - Computer Vision & Multimodal AI
-      - Computer Vision Fundamentals
-      - Generative Models for Images
-      - Multimodal AI & Vision-Language Models
-      - Audio & Speech AI
-      - AI Ethics & Responsible Development
-  - PHASE 3: Fine-tuning, AI Agents & Production Systems (Months 7-9, Weeks 27-39)
-    Master model fine-tuning, build autonomous AI agents, create production-ready AI systems, and learn MLOps.
-    - Months 7-8: Model Fine-tuning & Customization
-      - Fine-tuning Fundamentals
-      - Advanced Fine-tuning Techniques
-      - Open Source LLMs & Local Deployment
+  - PHASE 3: Agents and Adaptation (Months 7-8, Weeks 25-32)
+    RAG hardened for the real world, agent architecture with tools and memory, and fine-tuning judgment: what it changes, what it costs, when it is wrong.
+    - Month 7: Hardened RAG and First Agents
+      - RAG for the Real World
       - AI Agents Architecture - Part 1
-      - AI Agents Architecture - Part 2
-    - Month 9: MLOps & Production AI Systems
-      - MLOps Fundamentals
-      - AI Application Architecture & APIs
-      - Prompt Engineering at Scale
-      - Vector Databases at Scale
-      - LLM Observability & Monitoring
-    - PHASE 3 COMPLETION - Month 9 Advanced Topics
-      - Advanced RAG Techniques
-      - AI Security & Safety
-      - AI Infrastructure & Cloud Deployment
-      - AI Product Development
-      - Phase 3 Capstone Project
-  - PHASE 4: Custom Models, Research & Professional Excellence (Months 10-12, Weeks 40-52)
-    Master custom model development, research methodologies, specialized AI domains, and career mastery.
-    - Months 10-11: Training Custom Models & Advanced Topics
-      - Training LLMs from Scratch - Theory
-      - Training LLMs from Scratch - Practice
-      - Specialized AI Domains - NLP
-      - Specialized AI Domains - Code & Reasoning
-      - Reinforcement Learning for LLMs
-    - Month 12: Research, Cutting Edge & Career Launch
-      - AI Research & Paper Implementation
-      - Cutting-Edge AI Techniques
-      - Building AI Startups & Products
-      - AI Consulting & Freelancing
-      - Career Development & Job Search
-    - PHASE 4 COMPLETION - Specialization & Mastery
-      - Choose Your Specialization
-      - AI Community & Open Source
-      - The Future of AI & Your Role
-      - Interview Mastery & Career Launch
-    - Final Month - Masterpiece Project & Career Launch
-      - Final Masterpiece Project - Part 1
-      - Final Masterpiece Project - Part 2
-      - Career Launch & AI Leadership
+    - Month 8: Agent Systems and Fine-Tuning
+      - Agent Systems: Memory, Planning and Guardrails
+      - Fine-tuning Fundamentals
+  - PHASE 4: Production and the Capstone (Months 9-10, Weeks 33-40)
+    Open-weight models run locally, production architecture with observability and security, responsible AI, and a capstone shipped behind an API and defended.
+    - Month 9: Open Weights and Production Architecture
+      - Open Source LLMs & Local Deployment
+      - Production Architecture, Observability and Security
+    - Month 10: Ethics, Capstone and the Final Exam
+      - Responsible GenAI
+      - Capstone Build
+      - Demo Day and the Final Exam
 
-**Projects students build:** Text-based calculator program; Todo list application; File organizer script; Simple data analyzer from CSV; Web scraper basics with requests; Command-line application; Personal expense tracker; Password generator and validator; Data analysis pipeline for CSV files; Student grade analyzer with Pandas; Weather data visualizer; E-commerce sales dashboard; Stock price analyzer and plotter; Text file analyzer with regex; Custom data class library - plus 381 more on the course page.
+**Projects students build:** Text-based calculator program; Todo list application; File organizer script; Simple data analyzer from CSV; Web scraper basics with requests; Command-line application; Personal expense tracker; Password generator and validator; Data analysis pipeline for CSV files; Student grade analyzer with Pandas; Weather data visualizer; E-commerce sales dashboard; Stock price analyzer and plotter; Text file analyzer with regex; Custom data class library - plus 138 more on the course page.
 
 ### Git & GitHub Course for College Students: Team-Ready Skills
 
@@ -6324,9 +6115,9 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Install Git on your own computer, run git --version to prove it works, and write a half-page version-control horror story from your own life (or a friend's) that this course will make impossible; Build a coding-projects folder tree (three nested folders and two files) entirely from the terminal, no mouse allowed, and configure your Git name and email; Create my-first-repo and build a tiny webpage across 5 separate commits, each with a clear message, so git log reads like a story of how the page grew; History detective challenge: in a prepared repo, use log, show, diff, and blame to answer five questions like 'which commit broke the page title and what did it change?'; Rescue mission: in a prepared practice repo, unstage a file, discard a bad edit with git restore, amend a commit message, revert a bad commit, and write a .gitignore that keeps secrets.txt out forever; Create your GitHub account with 2FA enabled, make your first online repository, connect your Class 3 local repo to it, and push all 5 commits so they appear on github.com; Set up a working SSH key, clone your own repository into a second folder to simulate a second computer, make a change there, push it, and pull it back into the original; Write a complete README.md for your webpage project with a heading, screenshot, run instructions, a feature table, and one code block, then push it and admire the rendered result; Create your username/username repository with a profile README introducing yourself, your current projects, and what you are learning, then pin your two best repos; Add an MIT license to your webpage project, open three well-written issues on it (one bug, two feature ideas), and close one automatically with a 'fixes #N' commit; Publish your webpage project live on GitHub Pages, fix any broken image paths, add a custom 404 page, and share your working URL with the class; On your live website repo, build a new feature (a dark theme or a new section) entirely on a feature branch while main stays untouched and your live site keeps working; Merge your dark-theme branch into main (watching your live Pages site update), then create, merge, and delete a second small feature branch using --no-ff and compare the two history shapes; Conflict laboratory: follow a script that manufactures a two-branch conflict in your repo, resolve it three ways (current, incoming, hand-crafted blend), and keep the best resolution; Ship a real feature to your website through a complete PR: branch, push, open a PR with description and screenshot, link an issue, then squash-merge it and watch the issue close - plus 9 more on the course page.
 
-### Go (Golang) Programming: Concurrency, gRPC & Microservices
+### Go Course: Backend Services from Zero to Production Habits
 
-`/courses/complete-golang-programming-masterclass-college` · 12 months (52 weeks) · Complete Beginner to Cloud Native Expert
+`/courses/complete-golang-programming-masterclass-college` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
   - PHASE 1: Foundation & Core Go Skills (Months 1-3, Weeks 1-13)
     Build rock-solid Go fundamentals. Learn programming logic, master Go syntax, understand Go's philosophy, and create your first applications.
@@ -6341,63 +6132,47 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Packages & Error Handling
   - PHASE 2: Advanced Go & Systems Programming (Months 4-6, Weeks 14-26)
     Master Go's concurrency model, advanced features, testing, performance optimization, and systems programming.
-    - Months 4-5: Concurrency & Advanced Features
+    - Month 4: Concurrency & Advanced Features
       - Goroutines & Channels Fundamentals
       - Advanced Concurrency Patterns
       - Reflection & Generics
       - Testing & Benchmarking
       - Performance Optimization & Profiling
-    - Month 6: CLI Tools & Systems Programming
+    - Month 5: CLI Tools & Systems Programming
       - Building CLI Applications
       - File I/O & System Programming
       - Networking & Protocols
       - Data Serialization & Encoding
-      - Phase 2 Capstone Project
-    - PHASE 2 CONTINUED - Tooling & Best Practices
+    - Month 6: Tooling, Quality & Debugging
       - Build Tools & Dependency Management
       - Code Quality & Best Practices
       - Debugging & Troubleshooting
-      - Open Source Contribution
-      - Advanced Topics & Specializations
   - PHASE 3: Web Development & Enterprise Applications (Months 7-9, Weeks 27-39)
     Master web development with Go, build REST APIs, GraphQL, gRPC services, work with databases, and deploy production applications.
-    - Months 7-8: Web Development & APIs
+    - Month 7: Web Development & APIs
       - HTTP & Web Fundamentals
       - Web Frameworks & REST APIs
       - Database Programming
       - NoSQL & Caching
       - GraphQL & Modern APIs
-    - Month 9: gRPC & Microservices Foundations
+    - Month 8: gRPC & Microservices Foundations
       - gRPC & Protocol Buffers
       - Message Queues & Event-Driven
       - Authentication & Security
       - Observability & Monitoring
-      - Phase 3 Capstone Project
-    - PHASE 3 COMPLETION - Deployment & DevOps
+    - Month 9: Shipping Go: Containers, CI & Production Habits
       - Containerization & Orchestration
       - CI/CD & Automation
-      - Cloud Platforms & Serverless
       - Production Best Practices
-      - Integration & Enterprise Patterns
-  - PHASE 4: Cloud Native Mastery & Professional Excellence (Months 10-12, Weeks 40-52)
-    Master cloud-native development, advanced microservices, distributed systems, and prepare for senior engineering roles.
-    - Months 10-11: Advanced Microservices & Distributed Systems
-      - Microservices Architecture Deep Dive
-      - Distributed Systems Fundamentals
-      - Service Mesh & Advanced Orchestration
-      - Advanced Kubernetes & Operators
-      - Cloud Native Security
-    - Month 12: System Design & Career Excellence
-      - System Design Mastery
-      - Performance Engineering
-      - Advanced Cloud & Edge Computing
-      - AI/ML Integration & Data Engineering
-      - Blockchain & Web3
-    - PHASE 4 COMPLETION - Career Preparation
-      - Interview Mastery
-      - Professional Portfolio
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** Hello World with command-line arguments; Personal information display program; ASCII art generator in Go; Simple text output variations; Environment variable reader; Calculator with all arithmetic operations; Temperature converter (Celsius, Fahrenheit, Kelvin); Unit converter (length, weight, volume); BMI calculator with health assessment; Currency converter with live rates simulation; Bitwise operations demonstrator; Type conversion examples program; Interest calculator (simple and compound); Number guessing game; Grade calculator with switch - plus 431 more on the course page.
+**Projects students build:** Hello World with command-line arguments; Personal information display program; ASCII art generator in Go; Simple text output variations; Environment variable reader; Calculator with all arithmetic operations; Temperature converter (Celsius, Fahrenheit, Kelvin); Unit converter (length, weight, volume); BMI calculator with health assessment; Currency converter with live rates simulation; Bitwise operations demonstrator; Type conversion examples program; Interest calculator (simple and compound); Number guessing game; Grade calculator with switch - plus 277 more on the course page.
 
 ### GRE & GMAT Quantitative Prep: Live Maths Coaching
 
@@ -6519,9 +6294,9 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 ### High School Mathematics: Algebra to Calculus (Grade 9-12)
 
-`/courses/complete-high-school-mathematics-mastery` · 12 months (52 weeks) · Complete Beginner to Advanced High School
+`/courses/complete-high-school-mathematics-mastery` · 12-14 months (52-60 weeks) · Complete Beginner to Advanced High School
 
-  - PHASE 1: Algebraic Foundations & Basic Geometry (Months 1-3, Weeks 1-13)
+  - PHASE 1: Algebraic Foundations and Basic Geometry (Weeks 1-13)
     Build strong foundations in algebraic thinking, equation solving, and geometric reasoning. Master the core concepts that form the basis of all advanced mathematics.
     - Months 1-2: Algebra I Fundamentals
       - Number Systems & Algebraic Expressions
@@ -6532,7 +6307,7 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Systems of Linear Equations
       - Introduction to Geometry
       - Phase 1 Review & Assessment
-  - PHASE 2: Advanced Algebra & Functions (Months 4-6, Weeks 14-26)
+  - PHASE 2: Advanced Algebra and Functions (Weeks 14-26)
     Master quadratic functions, advanced algebraic concepts, coordinate geometry, and function theory. Build strong analytical and graphing skills.
     - Months 4-5: Quadratics & Functions
       - Quadratic Functions & Equations
@@ -6546,7 +6321,7 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Sequences and Series
       - Complex Numbers
       - Phase 2 Capstone Assessment
-  - PHASE 3: Trigonometry & Pre-Calculus (Months 7-9, Weeks 27-39)
+  - PHASE 3: Trigonometry and Pre-Calculus (Weeks 27-39)
     Master trigonometric functions, identities, and applications. Prepare for calculus with limits, advanced functions, and analytical geometry.
     - Months 7-8: Trigonometry Mastery
       - Trigonometric Ratios & Functions
@@ -6560,31 +6335,27 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Mathematical Reasoning & Proofs
       - Matrices and Determinants
       - Phase 3 Review & Assessment
-  - PHASE 4: Calculus & Advanced Topics (Months 10-12, Weeks 40-52)
+  - PHASE 4: Calculus, Statistics and Final Revision (Weeks 40-52)
     Master differential and integral calculus, statistics, probability, and advanced problem-solving techniques for university readiness.
-    - Months 10-11: Calculus
+    - Month 10: Calculus
       - Differential Calculus
       - Applications of Derivatives
       - Integral Calculus
       - Applications of Integration
       - Series and Sequences (Calculus)
-    - Month 12: Statistics & Probability
+    - Month 11: Statistics & Probability
       - Descriptive Statistics
       - Probability Theory
       - Probability Distributions
       - Statistical Inference
       - Advanced Problem Solving
-    - Final Review & Applications
-      - Real-World Applications
-      - Technology in Mathematics
-      - Mathematical Research Project
+    - Month 12: Final Review & Applications
       - University Preparation
-    - Final Assessments & Certification
+    - Month 13: Final Assessments & Certification
       - Comprehensive Review - Part 1
       - Comprehensive Review - Part 2 & Mock Exams
-      - Final Certification & Future Planning
 
-**Projects students build:** Create a number system classification chart; Real-world scientific notation problems; Algebraic expression calculator design; Budget planning with linear equations; Distance-rate-time problem solver; Inequality graphing tool; Polynomial calculator implementation; Area and volume problems with polynomials; Pascal's triangle pattern explorer; Factoring flowchart creation; Projectile motion problems; Optimization problem solver; Supply and demand economic model; Mixture problem solver; Linear programming introduction - plus 109 more on the course page.
+**Projects students build:** Create a number system classification chart; Real-world scientific notation problems; Algebraic expression calculator design; Budget planning with linear equations; Distance-rate-time problem solver; Inequality graphing tool; Polynomial calculator implementation; Area and volume problems with polynomials; Pascal's triangle pattern explorer; Factoring flowchart creation; Projectile motion problems; Optimization problem solver; Supply and demand economic model; Mixture problem solver; Linear programming introduction - plus 100 more on the course page.
 
 ### HTML & CSS for Beginners: Build Real Responsive Websites
 
@@ -6793,7 +6564,7 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 ### IGCSE Maths: Core, Extended & Additional Mathematics Online
 
-`/courses/igcse-mathematics-mastery` · 18 months (72 weeks) · IGCSE students, years 9-11: Core, Extended and Additional Maths
+`/courses/igcse-mathematics-mastery` · 18 months (72 weeks), joinable any month · IGCSE students, years 9-11: Core, Extended and Additional Maths
 
   - PHASE 1: The Core Foundation, Built Properly (Months 1-6)
     Everything on the Extended papers stands on Core material owned deeply: number fluency without a calculator, algebra as a language rather than ritual, and the geometry and data basics. The diagnostic finds the real starting point; this phase makes it solid.
@@ -6844,7 +6615,7 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 ### Informatics Practices (IP) Class 11-12: CBSE Python & SQL
 
-`/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course` · 24 months (Class 11 + Class 12 full syllabus) · Class 11 Beginner to Class 12 Board Exam Ready
+`/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course` · 24 months (Class 11 + Class 12, the full 2-year board cycle), joinable any month · Class 11 Beginner to Class 12 Board Exam Ready
 
   - PHASE 1: Class 11 Semester 1, Computer Basics, Python Programming & SQL Introduction (Months 1-5)
     Build your foundation in computer science concepts, learn Python programming from scratch, and start with SQL database queries. By the end of this phase, you'll write Python programs confidently and run basic SQL queries on MySQL.
@@ -6902,98 +6673,9 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Computer system diagram with all components labeled; Input-output devices classification chart with 20+ devices; Research project: Latest processor technologies in 2026-27; Memory hierarchy pyramid diagram with specifications; Software classification chart, 15+ examples each category; Compare 5 open-source vs proprietary software alternatives; 10 print() variations, different data types, multiple arguments; Interactive mode exploration, test 20 expressions; Valid/invalid identifier quiz, 30 examples; Student information collector, input name, age, class, marks, display formatted; Simple interest calculator, P, R, T as input; BMI calculator with formatted output; Swap two variables, 3 methods: temp, arithmetic, Pythonic a,b = b,a; Expression evaluator worksheet, 30 complex expressions with step-by-step solutions; Electricity bill calculator with slab rates - plus 84 more on the course page.
 
-### Java Programming for Teens: Zero to Professional Developer
+### Java Course for College: Core Java to Spring Boot
 
-`/courses/java-programming-masterclass-for-teens` · 24 months (104 weeks) · Complete Beginner to Advanced Professional
-
-  - PHASE 1: Foundation & Core Programming (Months 1-6, Weeks 1-26)
-    Build rock-solid programming fundamentals. Learn to think like a programmer, master Java basics, and create your first applications.
-    - Months 1-2: Introduction to Programming & Java Basics
-      - Introduction to Programming & Setup
-      - Variables, Data Types & Basic Operations
-      - Control Flow: Making Decisions
-      - Loops: Repetition in Programming
-    - Months 3-4: Arrays, Methods & Problem Solving
-      - Arrays: Working with Collections
-      - Methods: Building Reusable Code
-      - String Manipulation & Text Processing
-      - File Handling & Exception Basics
-      - Month 3-4 Review & Mini Projects
-    - Months 5-6: Introduction to Object-Oriented Programming
-      - Classes and Objects Fundamentals
-      - Encapsulation and Access Modifiers
-      - Inheritance: Building Class Hierarchies
-      - Polymorphism and Interfaces
-      - Phase 1 Capstone Project
-  - PHASE 2: Advanced Java & Application Development (Months 7-12, Weeks 27-52)
-    Master advanced Java concepts, build desktop applications with JavaFX, explore game development, and dive into data structures and algorithms.
-    - Months 7-8: Collections Framework & Advanced Java
-      - Java Collections Framework
-      - Generics and Type Safety
-      - Exception Handling & Debugging
-      - Lambda Expressions & Stream API
-      - Multithreading Basics
-    - Months 9-10: GUI Development with JavaFX
-      - JavaFX Fundamentals
-      - Advanced JavaFX Controls
-      - MVC Pattern & Application Architecture
-      - Database Integration
-      - Game Development Basics
-    - Months 11-12: Data Structures & Algorithms
-      - Fundamental Data Structures
-      - Searching and Sorting Algorithms
-      - Graph Algorithms & Advanced Topics
-      - Performance & Optimization
-      - Phase 2 Capstone Project
-  - PHASE 3: Enterprise Java & Web Development (Months 13-18, Weeks 53-78)
-    Master enterprise Java development with Spring Framework, build RESTful APIs, microservices, and web applications.
-    - Months 13-14: Web Development & Servlets
-      - Web Fundamentals for Java Developers
-      - Java Servlets & JSP
-      - Spring Framework Fundamentals
-      - Spring Boot Essentials
-      - RESTful Web Services
-    - Months 15-16: Database & Security
-      - Spring Data JPA
-      - Advanced Database Operations
-      - Spring Security
-      - Messaging & Integration
-      - Testing Spring Applications
-    - Months 17-18: Microservices & Cloud
-      - Microservices Architecture
-      - Docker & Containerization
-      - Kubernetes & Cloud Deployment
-      - DevOps & CI/CD
-      - Phase 3 Capstone Project
-  - PHASE 4: Mobile, Advanced Topics & Career (Months 19-24, Weeks 79-104)
-    Master Android development, explore advanced Java topics, contribute to open source, and prepare for professional career.
-    - Months 19-20: Android Development
-      - Android Fundamentals
-      - Android UI & User Experience
-      - Android Data & Networking
-      - Advanced Android Development
-      - Android Testing & Publishing
-    - Months 21-22: Advanced Java & Specializations
-      - Reactive Programming
-      - Performance & JVM Internals
-      - Design Patterns & Architecture
-      - Big Data & Machine Learning
-      - AI & Emerging Tech with Java
-    - Month 23: Open Source & Advanced Projects
-      - Open Source Contribution
-      - Minecraft Modding
-      - Game Development Advanced
-      - System Design & Architecture
-    - Month 24: Final Projects & Career Launch
-      - Final Capstone Project - Part 1
-      - Final Capstone Project - Part 2
-      - Career Launch & Professional Development
-
-**Projects students build:** Set up complete Java development environment; Create and run Hello World in 3 different ways; Build a simple personal introduction program; Interactive calculator application; Temperature converter (Celsius/Fahrenheit/Kelvin); Simple cashier program with tax calculation; Mad Libs story generator; Grade calculator with letter grades; Simple adventure game with choices; Rock-Paper-Scissors game; Age-appropriate movie recommendation system; Number guessing game with attempts; Multiplication table generator; Pattern printer (pyramids, diamonds); Simple password validator with retry - plus 266 more on the course page.
-
-### Java Programming: Core Java, Spring Boot & Microservices
-
-`/courses/complete-java-programming-masterclass-college` · 12 months (52 weeks) · Complete Beginner to Enterprise Professional
+`/courses/complete-java-programming-masterclass-college` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
   - PHASE 1: Foundation & Core Java Skills (Months 1-3, Weeks 1-13)
     Build rock-solid Java fundamentals. Learn programming logic, master Java syntax, OOP principles, and create your first applications.
@@ -7008,69 +6690,113 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Abstraction & Interfaces
   - PHASE 2: Intermediate Java & Advanced Concepts (Months 4-6, Weeks 14-26)
     Master advanced Java features, Collections Framework, exception handling, file I/O, multithreading, and design patterns.
-    - Months 4-5: Advanced Java Features & Collections
+    - Month 4: Advanced Java Features & Collections
       - String Handling & Regular Expressions
       - Exception Handling & Error Management
       - Collections Framework - Part 1
       - Collections Framework - Part 2
       - Generics & Advanced Collections
-    - Month 6: File I/O, Multithreading & Modern Java
+    - Month 5: File I/O, Multithreading & Modern Java
       - File I/O & Serialization
       - Multithreading & Concurrency - Part 1
       - Multithreading & Concurrency - Part 2
       - Java 8+ Modern Features
-      - Phase 2 Capstone Project
-    - PHASE 2 CONTINUED - Design Patterns & Best Practices
+    - Month 6: Design Patterns, JDBC & Testing
       - Design Patterns - Part 1 (Creational)
       - Design Patterns - Part 2 (Structural & Behavioral)
       - JDBC & Database Programming
       - Unit Testing with JUnit
-      - Build Tools & Version Control
   - PHASE 3: Enterprise Java & Web Development (Months 7-9, Weeks 27-39)
     Master enterprise Java development with Servlets, JSP, Spring Framework, Spring Boot, Hibernate, and RESTful APIs.
-    - Months 7-8: Web Development & Spring Framework
+    - Month 7: Web Development & Spring Framework
       - Servlets & JSP Fundamentals
-      - Advanced Servlets & Web Technologies
       - Spring Framework Core
       - Spring Boot Fundamentals
       - Spring Data JPA & Hibernate
-    - Month 9: Advanced Spring Boot & Microservices Basics
+    - Month 8: Advanced Spring Boot & Microservices Basics
       - Spring Security & Authentication
       - Spring Boot Advanced Features
       - RESTful API Best Practices & Microservices Intro
       - Spring Boot with External Services
       - Testing Spring Boot Applications
-    - PHASE 3 COMPLETION - Month 9 Final Week
+    - Month 9: Production Java: Deployment, Monitoring & Security
       - Database Design & Optimization
       - Application Deployment & DevOps
       - Monitoring, Logging & Performance
       - Security Best Practices & API Standards
-      - Phase 3 Capstone Project
-  - PHASE 4: Microservices, Cloud & Professional Excellence (Months 10-12, Weeks 40-52)
-    Master microservices architecture, Spring Cloud, cloud-native development, DevOps, system design, and career preparation.
-    - Months 10-11: Microservices Architecture & Spring Cloud
-      - Microservices Fundamentals
-      - Spring Cloud Ecosystem
-      - Inter-Service Communication & Messaging
-      - Microservices Data Management
-      - Microservices Security & Observability
-    - Month 12: Cloud Native, DevOps & Career Excellence
-      - Cloud Native Java & Kubernetes
-      - AWS & Cloud Services for Java
-      - DevOps & CI/CD for Java
-      - System Design & Architecture
-      - Performance Engineering
-    - PHASE 4 COMPLETION - Career Preparation
-      - Advanced Java Topics & Specializations
-      - Code Quality & Best Practices
-      - Open Source & Community
-      - Interview Preparation
-    - Final Month - Capstone & Career Launch
-      - Final Capstone Project - Part 1
-      - Final Capstone Project - Part 2
-      - Career Launch & Professional Development
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** Hello World variations with personalized messages; Simple output programs using System.out.println; Personal information display program; ASCII art generator in Java; Simple calculator (four basic operations); Temperature converter (Celsius, Fahrenheit, Kelvin); Age calculator with detailed output; BMI calculator with health categories; Currency converter; Area and perimeter calculator for shapes; Compound interest calculator; Number guessing game with attempts limit; Grade calculator with letter grades; Even/odd checker and list generator; Prime number checker and generator - plus 368 more on the course page.
+**Projects students build:** Hello World variations with personalized messages; Simple output programs using System.out.println; Personal information display program; ASCII art generator in Java; Simple calculator (four basic operations); Temperature converter (Celsius, Fahrenheit, Kelvin); Age calculator with detailed output; BMI calculator with health categories; Currency converter; Area and perimeter calculator for shapes; Compound interest calculator; Number guessing game with attempts limit; Grade calculator with letter grades; Even/odd checker and list generator; Prime number checker and generator - plus 247 more on the course page.
+
+### Java for Teens: Complete Course from Beginner to Advanced
+
+`/courses/java-programming-masterclass-for-teens` · 10-12 months (40-48 weeks) · Absolute beginner, ages 13 to 18
+
+  - PHASE 1: Java Foundations and OOP (Months 1-3, Weeks 1-12)
+    From the first program to real object-oriented design. Java’s strictness becomes an advantage: every concept is understood, not guessed.
+    - Month 1: First Programs
+      - Introduction and Setup
+      - Variables, Types and Operations
+      - Control Flow: Making Decisions
+      - Loops: Repetition and Patterns
+    - Month 2: Arrays, Methods, Strings and Files
+      - Arrays
+      - Methods: Reusable Code
+      - Strings and Text Processing
+      - Files and Exceptions
+    - Month 3: Object-Oriented Programming
+      - Classes and Objects
+      - Encapsulation and Static
+      - Inheritance
+      - Polymorphism and Interfaces
+  - PHASE 2: Collections, Apps, Games and Minecraft (Months 4-6, Weeks 13-24)
+    Modern Java and things you can see: the collections framework, desktop apps with JavaFX, a complete 2D game, and your own Minecraft mods.
+    - Month 4: Collections and Modern Java
+      - The Collections Framework
+      - Generics
+      - Lambdas and Streams
+      - Exceptions and Debugging Like a Professional
+    - Month 5: Desktop Apps with JavaFX
+      - JavaFX Fundamentals
+      - Tables, Charts and Real Controls
+      - Structuring a Real App with MVC
+      - Databases for Desktop Apps
+    - Month 6: Games and Minecraft Modding
+      - Game Development Basics
+      - Build a Complete 2D Game
+      - Minecraft Modding
+      - Phase 2 Capstone and Review
+  - PHASE 3: Data Structures and Algorithms (Months 7-8, Weeks 25-32)
+    The serious core of computer science, built by hand in Java: structures, sorting, graphs, recursion, and a first look at threads.
+    - Month 7: Structures Built from Scratch
+      - Lists, Stacks and Queues by Hand
+      - Hash Tables and Trees
+      - Sorting, Searching and Big O
+      - Problem-Solving Patterns
+    - Month 8: Graphs, Recursion and Threads
+      - Graphs
+      - Recursion and Backtracking
+      - Multithreading, the Honest Introduction
+      - DSA Capstone
+  - PHASE 4: APIs, AI and the Capstone (Months 9-10, Weeks 33-40)
+    Where teen Java meets the real world: a REST API with Spring Boot, AI models called from Java, Git and JUnit, and a final capstone shipped properly.
+    - Month 9: APIs and AI
+      - How the Web Works, for Java Developers
+      - Your First REST API with Spring Boot
+      - Saving Data: JPA Without the Jargon
+      - Calling AI Models from Java
+    - Month 10: Quality, Capstone and Demo Day
+      - Git, GitHub and JUnit
+      - Final Capstone Build
+      - Demo Day and What Comes Next
+
+**Projects students build:** Set up complete Java development environment; Create and run Hello World in 3 different ways; Build a simple personal introduction program; Interactive calculator application; Temperature converter (Celsius/Fahrenheit/Kelvin); Simple cashier program with tax calculation; Mad Libs story generator; Grade calculator with letter grades; Simple adventure game with choices; Rock-Paper-Scissors game; Age-appropriate movie recommendation system; Number guessing game with attempts; Multiplication table generator; Pattern printer (pyramids, diamonds); Simple password validator with retry - plus 128 more on the course page.
 
 ### JavaScript for Teens: Interactive Websites & Browser Games
 
@@ -7166,98 +6892,9 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Number-line dossier: one page classifying 20 assorted numbers with a one-line justification each; Divisibility rule proof sheet: the rules for 3, 9 and 11 explained in the student's own words with examples; Simplification gauntlet: 10 layered exponent-surd expressions reduced step by step, each step justified; Identity map: every identity in the phase on one sheet with a numeric example and one exam use each; Translation drill sheet: 12 word problems converted to equations before any are solved; Personal error log opened: every phase 1 test miss classified as concept, method or slip, used all year; First proof portfolio entries: angle-sum and exterior-angle proofs written in full four-part format; Criterion sorting sheet: 12 figures matched to their congruence criterion with the given parts marked; Proof portfolio extended: BPT and the similarity proof of Pythagoras written in full; Quadrilateral family tree: the shapes and the exact conditions separating them, made by the student; Circle theorem atlas: every theorem drawn, stated and proved or justified on the student's own pages; Workshop set: 6 multi-step geometry problems solved with the construction decision written out for each; Decomposition sheet: 8 shaded-region problems with the cut lines drawn and named before any formula is used; Scaling experiment write-up: one solid scaled by 2 and by 3, with areas and volumes tabulated and the pattern stated; Two-triangle derivation page: the 30-60-90 and 45-45-90 triangles built and every standard value read off them - plus 10 more on the course page.
 
-### Kids Coding Masterclass: Scratch, Games, Apps & AI Projects
+### Kotlin and Android Course: Zero to Published-Ready Apps
 
-`/courses/kids-coding-blocks-masterclass` · 24 months (104 weeks) · Complete Beginner (Age 7+) to Advanced Creator
-
-  - PHASE 1: Foundation & Block Coding Basics (Months 1-6, Weeks 1-26)
-    Start your coding journey with fun, visual programming. Learn computational thinking, create games, animations, and interactive stories using block-based platforms.
-    - Months 1-2: Introduction to Coding & Scratch Basics
-      - Welcome to the Digital World
-      - Motion and Animation in Scratch
-      - Events and Interactivity
-      - Introduction to Game Logic
-    - Months 3-4: Advanced Scratch & Code.org
-      - Loops and Patterns
-      - Variables and Data
-      - Code.org and Hour of Code
-      - Clone Games and Complex Projects
-      - Month 3-4 Review & Showcase
-    - Months 5-6: MakeCode & Physical Computing
-      - Microsoft MakeCode Arcade
-      - Micro:bit Programming
-      - Blockly and Google Tools
-      - Game Design Principles
-      - Phase 1 Final Project
-  - PHASE 2: Advanced Blocks & Creative Computing (Months 7-12, Weeks 27-52)
-    Explore advanced platforms, AI tools, mobile app development, and creative computing with more sophisticated block-based environments.
-    - Months 7-8: MIT App Inventor & Mobile Apps
-      - App Inventor Basics
-      - Advanced App Features
-      - Game Development in App Inventor
-      - IoT and Connected Apps
-      - Roblox Studio Introduction
-    - Months 9-10: AI Tools & Creative Computing
-      - Introduction to AI for Kids
-      - Teachable Machine & AI Projects
-      - Canva Design Fundamentals
-      - Video Creation & Editing
-      - Digital Storytelling
-    - Months 11-12: Microsoft Skills & Productivity
-      - Microsoft Word Mastery
-      - Microsoft PowerPoint Excellence
-      - Microsoft Excel Basics
-      - Microsoft Teams & OneNote
-      - Phase 2 Integration Project
-  - PHASE 3: Advanced Platforms & Professional Skills (Months 13-18, Weeks 53-78)
-    Master advanced creative tools, 3D design, advanced AI, professional software, and begin transition to text-based coding.
-    - Months 13-14: 3D Design & Virtual Worlds
-      - Minecraft Education Edition
-      - CoSpaces & VR/AR Creation
-      - Tinkercad 3D Design
-      - Advanced Roblox Development
-      - Unity with Visual Scripting
-    - Months 15-16: Advanced AI & Data Science
-      - Advanced AI Tools
-      - Data Science for Kids
-      - Internet of Things (IoT)
-      - Robotics Programming
-      - Advanced Maker Projects
-    - Months 17-18: Professional Tools & Career Skills
-      - Adobe Creative Suite Basics
-      - Google Workspace Mastery
-      - Digital Marketing Basics
-      - Entrepreneurship for Kids
-      - Phase 3 Showcase Project
-  - PHASE 4: Text Coding Transition & Professional Development (Months 19-24, Weeks 79-104)
-    Transition from blocks to text-based programming, web development basics, and professional portfolio creation.
-    - Months 19-20: Python Programming Basics
-      - Introduction to Python
-      - Python Control Flow
-      - Python Data Structures
-      - Python Game Development
-      - Python for Data and AI
-    - Months 21-22: Web Development Fundamentals
-      - HTML & CSS Basics
-      - Responsive Web Design
-      - JavaScript for the Web
-      - Full Stack Basics
-      - Framework Introduction
-    - Month 23: Specialization & Advanced Projects
-      - Choose Your Specialization
-      - Advanced Project Planning
-      - Open Source Contribution
-      - Professional Skills Development
-    - Month 24: Final Projects & Graduation
-      - Final Capstone Project - Development
-      - Final Project Polish & Presentation
-      - Graduation & Future Planning
-
-**Projects students build:** Animated greeting card; Pet animation with sounds; Interactive 'About Me' project; Animated story with 3 scenes; Dancing party animation; Virtual pet that moves and makes sounds; Interactive quiz game; Virtual piano/musical instrument; Dress-up game with clickable items; Catch the falling objects game; Simple maze game; Whack-a-mole style game; Number guessing game; Geometric art generator; Pattern-based puzzle game - plus 214 more on the course page.
-
-### Kotlin Programming: Zero to Android & Backend Developer
-
-`/courses/complete-kotlin-programming-masterclass-professional` · 12 months (52 weeks) · Complete Beginner to Professional Developer
+`/courses/complete-kotlin-programming-masterclass-professional` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
   - PHASE 1: Foundation & Core Kotlin Skills (Months 1-3, Weeks 1-13)
     Build rock-solid Kotlin fundamentals. Learn programming logic, master Kotlin syntax, OOP principles, functional programming, and create your first applications.
@@ -7272,75 +6909,106 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Functional Programming in Kotlin
   - PHASE 2: Advanced Kotlin & Modern Features (Months 4-6, Weeks 14-26)
     Master advanced Kotlin features, coroutines, DSLs, delegation, generics, and professional coding patterns.
-    - Months 4-5: Advanced Language Features & Coroutines
+    - Month 4: Advanced Language Features & Coroutines
       - Generics & Type System
       - Delegation & Property Delegates
       - Collections Deep Dive
       - Coroutines Fundamentals
       - Advanced Coroutines & Flow
-    - Month 6: DSLs, Reflection & Professional Patterns
+    - Month 5: DSLs, Reflection & Professional Patterns
       - Domain-Specific Languages (DSLs)
       - Reflection & Annotations
       - Design Patterns in Kotlin
       - Testing in Kotlin
-      - Phase 2 Capstone Project
-    - PHASE 2 CONTINUED - Kotlin for Backend
+    - Month 6: Server-Side Kotlin with Ktor
       - Ktor Framework - Part 1
       - Ktor Framework - Part 2
-      - Spring Boot with Kotlin
       - Database Access with Kotlin
       - Build Tools & Kotlin Scripting
   - PHASE 3: Android Development Mastery (Months 7-9, Weeks 27-39)
     Master modern Android development with Kotlin, Jetpack Compose, Material Design, Architecture Components, and professional app development.
-    - Months 7-8: Android Fundamentals & Jetpack Compose
+    - Month 7: Android Fundamentals & Jetpack Compose
       - Android Basics & Setup
       - Jetpack Compose Fundamentals
       - Advanced Compose & Navigation
       - Android Architecture Components
       - Local Data Storage
-    - Month 9: Networking, APIs & Advanced Android
+    - Month 8: Networking, APIs & Advanced Android
       - Networking & REST APIs
       - Image Loading & Media
       - Advanced UI & Material Design
       - Background Work & Services
       - Testing Android Apps
-    - PHASE 3 COMPLETION - Month 9 Advanced Topics
+    - Month 9: Ship-Quality Android: Performance, Publishing & Security
       - Performance & Optimization
       - Publishing & Deployment
-      - Advanced Features & Libraries
       - Security Best Practices
-      - Phase 3 Capstone Project
-  - PHASE 4: Kotlin Multiplatform, Cloud & Career Excellence (Months 10-12, Weeks 40-52)
-    Master Kotlin Multiplatform, advanced backend, cloud deployment, system design, and professional career preparation.
-    - Months 10-11: Kotlin Multiplatform & Advanced Topics
-      - Kotlin Multiplatform Mobile (KMM)
-      - Kotlin Multiplatform for All Platforms
-      - Advanced Backend with Kotlin
-      - Cloud & Deployment
-      - Observability & DevOps
-    - Month 12: System Design & Career Excellence
-      - System Design Fundamentals
-      - Performance & Optimization
-      - Security & Best Practices
-      - Open Source & Community
-      - Advanced Kotlin Topics
-    - PHASE 4 COMPLETION - Career Launch
-      - Interview Preparation
-      - Professional Development
-      - Specialization & Niches
-      - Future of Kotlin
-    - Final Month - Ultimate Capstone & Launch
-      - Final Capstone Project - Part 1
-      - Final Capstone Project - Part 2
-      - Career Launch & Beyond
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** Hello World variations with string templates; Simple output programs using println; Personal information display with string interpolation; ASCII art generator in Kotlin; Interactive REPL experiments; Null-safe calculator with Kotlin operators; Temperature converter with smart casts; Age calculator with null safety; BMI calculator with safe operations; Currency converter with type-safe design; Area calculator using when expressions; Compound interest calculator with ranges; String manipulation utility; Number guessing game with when expression; Grade calculator using when - plus 369 more on the course page.
+**Projects students build:** Hello World variations with string templates; Simple output programs using println; Personal information display with string interpolation; ASCII art generator in Kotlin; Interactive REPL experiments; Null-safe calculator with Kotlin operators; Temperature converter with smart casts; Age calculator with null safety; BMI calculator with safe operations; Currency converter with type-safe design; Area calculator using when expressions; Compound interest calculator with ranges; String manipulation utility; Number guessing game with when expression; Grade calculator using when - plus 249 more on the course page.
+
+### Maths for Data Science: Statistics, Linear Algebra and ML
+
+`/courses/data-analytics-mathematics-masterclass` · 12-14 months (48-56 weeks) · School-level maths assumed; built for college students and working professionals
+
+  - PHASE 1: Statistics That Tell the Truth (Months 1-3, Weeks 1-12)
+    The bedrock: describing data honestly, visualizing without lying, and the probability language every model speaks.
+    - Month 1: Describing Data Honestly
+      - Introduction to Statistical Thinking
+      - Measures of Central Tendency and Spread
+    - Month 2: Visualization and Probability
+      - Data Visualization and Graphical Analysis
+      - Probability Fundamentals
+    - Month 3: The Great Distributions
+      - Discrete Probability Distributions
+      - Continuous Probability Distributions
+  - PHASE 2: Linear Algebra and Statistical Inference (Months 4-6, Weeks 13-24)
+    The two pillars: the vector and matrix language models are written in, and inference, how honest conclusions get drawn from samples.
+    - Month 4: Linear Algebra for Data
+      - Linear Algebra for Data Science - Vectors
+      - Linear Algebra for Data Science - Matrices
+    - Month 5: Eigenvalues, PCA and Sampling
+      - Eigenvalues, Eigenvectors and PCA
+      - Sampling Distributions and CLT
+    - Month 6: Inference Done Honestly
+      - Confidence Intervals
+      - Hypothesis Testing Fundamentals
+  - PHASE 3: The Mathematics of Machine Learning (Months 7-9, Weeks 25-36)
+    Models from first principles: regression, regularization, classification, trees and clustering, with evaluation treated as the moral core of the discipline.
+    - Month 7: Regression from First Principles
+      - Simple Linear Regression
+      - Multiple Linear Regression
+    - Month 8: Regularization and Classification
+      - Regularized Regression
+      - Classification Fundamentals
+    - Month 9: Trees, Clusters and Honest Evaluation
+      - Tree-Based Methods
+      - Clustering Algorithms
+  - PHASE 4: Optimization, Neural Networks and Modern Practice (Months 10-12, Weeks 37-48)
+    The mathematics behind modern AI and modern analytics: optimization, neural networks, Bayesian methods, time series, experiments, and a defensible capstone.
+    - Month 10: Optimization and Neural Network Mathematics
+      - Optimization Theory for ML
+      - Neural Network Fundamentals
+    - Month 11: Bayesian Methods and Time Series
+      - Bayesian Fundamentals
+      - Time Series Analysis
+    - Month 12: Experiments and the Capstone
+      - A/B Testing and Experimental Design
+      - Capstone and Final Exam
+
+**Projects students build:** Design a data collection strategy; Data quality assessment tool; Sampling simulation study; Statistical calculator from scratch; Outlier detection system; Interactive visualization dashboard; Build comprehensive EDA toolkit; Create interactive data dashboard; Visualization best practices guide; Probability simulator; Bayes theorem calculator; Monte Carlo estimation tool; Distribution calculator and visualizer; A/B test simulator; Discrete event simulator - plus 53 more on the course page.
 
 ### Maths Olympiad & Competition Course: AMC, AIME to IMO
 
-`/courses/olympiad-competition-mathematics-mastery` · 12 months (52 weeks) · Intermediate to International Competition Level
+`/courses/olympiad-competition-mathematics-mastery` · 12-14 months (52-60 weeks) · Intermediate to International Competition Level
 
-  - PHASE 1: Competition Fundamentals & Number Theory (Months 1-3, Weeks 1-13)
+  - PHASE 1: Competition Fundamentals and Number Theory (Weeks 1-13)
     Build strong foundations in competition problem-solving, master number theory, and develop combinatorial thinking.
     - Months 1-2: Competition Mathematics Basics & Number Theory
       - Introduction to Competition Mathematics
@@ -7351,7 +7019,7 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Counting Principles and Techniques
       - Graph Theory Basics
       - Phase 1 Review and Competition
-  - PHASE 2: Advanced Algebra & Polynomial Theory (Months 4-6, Weeks 14-26)
+  - PHASE 2: Advanced Algebra and Polynomial Theory (Weeks 14-26)
     Master algebraic manipulations, polynomial theory, sequences, and functional equations for competitions.
     - Months 4-5: Competition Algebra & Polynomials
       - Advanced Algebraic Techniques
@@ -7365,7 +7033,7 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Pigeonhole Principle & Extremal Problems
       - Invariants and Monovariants
       - Phase 2 Review and Competition
-  - PHASE 3: Competition Geometry & Trigonometry (Months 7-9, Weeks 27-39)
+  - PHASE 3: Competition Geometry and Trigonometry (Weeks 27-39)
     Master advanced geometric techniques, trigonometric identities, and coordinate geometry for olympiad success.
     - Months 7-8: Euclidean Geometry & Triangle Theory
       - Advanced Triangle Geometry
@@ -7379,9 +7047,9 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Vectors in Geometry
       - Area and Volume Methods
       - Phase 3 Review and Competition
-  - PHASE 4: Inequalities, Advanced Topics & IMO Preparation (Months 10-12, Weeks 40-52)
+  - PHASE 4: Inequalities, Olympiad Practice and Final Revision (Weeks 40-52)
     Master inequalities, advanced problem-solving techniques, and prepare for international competitions.
-    - Months 10-11: Inequalities & Optimization
+    - Month 10: Inequalities & Optimization
       - Classical Inequalities
       - Advanced Inequality Techniques
       - Optimization Problems
@@ -7392,18 +7060,14 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Putnam Competition Preparation
       - Asian Pacific Mathematics Olympiad
       - Competition Psychology & Peak Performance
-      - Research Mathematics Introduction
     - Month 12: Mock Competitions & Final Preparation
       - National Olympiad Simulations
       - International Competition Week
-      - Topic Integration & Problem Creation
-      - Advanced Problem-Solving Techniques
-    - Month 12: Final Assessments & Future Planning
+    - Month 13: Final Assessments & Future Planning
       - Comprehensive Review & Mastery
       - Final Competition Series
-      - Future Planning & Career Guidance
 
-**Projects students build:** Solve 50 AMC 8 problems; Create problem-solving strategy guide; Analyze past competition papers; Implement prime generation algorithms; Solve 30 number theory competition problems; Create divisibility proof portfolio; Modular arithmetic problem set; CRT application problems; Create modular arithmetic reference guide; Advanced number theory problem collection; Historical theorems exploration; IMO number theory problems analysis; Combinatorial identity proofs; Counting problems compilation; Create combinatorics formula sheet - plus 111 more on the course page.
+**Projects students build:** Solve 50 AMC 8 problems; Create problem-solving strategy guide; Analyze past competition papers; Implement prime generation algorithms; Solve 30 number theory competition problems; Create divisibility proof portfolio; Modular arithmetic problem set; CRT application problems; Create modular arithmetic reference guide; Advanced number theory problem collection; Historical theorems exploration; IMO number theory problems analysis; Combinatorial identity proofs; Counting problems compilation; Create combinatorics formula sheet - plus 102 more on the course page.
 
 ### Maths Through Coding: Learn Math in Python (Ages 10-15)
 
@@ -7497,9 +7161,9 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Beat Your Own Record
       - Graduation and the Road Ahead
 
-### MERN Stack Course Online: Job-Ready Full-Stack Bootcamp
+### MERN Stack Course: MongoDB, Express, React and Node
 
-`/courses/mern-stack-development-masterclass-college` · 12 months (52 weeks) · Complete Beginner to Full Stack Expert
+`/courses/mern-stack-development-masterclass-college` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
   - PHASE 1: Web Development Foundation (Months 1-3, Weeks 1-13)
     Build solid foundations in HTML, CSS, JavaScript, and modern web development tools.
@@ -7519,7 +7183,6 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Introduction to React
       - React Hooks & Modern Patterns
       - Component Libraries & Styling
-      - Phase 2 Assessment
   - PHASE 2: React Mastery & Advanced Frontend (Months 4-6, Weeks 14-26)
     Master React ecosystem, state management, advanced patterns, and modern frontend development.
     - Month 4: Advanced React & State Management
@@ -7533,13 +7196,10 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Advanced Next.js Features
       - GraphQL & Modern APIs
       - Progressive Web Apps
-      - Mobile Development with React Native
-    - Month 6: Full Frontend Integration
-      - Micro-Frontends & Architecture
+    - Month 6: Frontend Polish: Animation, Accessibility & Security
       - Advanced Animation & Graphics
       - Accessibility & Internationalization
       - Security & Best Practices
-      - Phase 2 Capstone
   - PHASE 3: Backend Development with Node.js (Months 7-9, Weeks 27-39)
     Master Node.js, Express, MongoDB, and build production-ready backend systems.
     - Month 7: Node.js & Express Fundamentals
@@ -7554,48 +7214,30 @@ Share this freely and in detail when a parent or student asks what a course cove
       - File Handling & Cloud Storage
       - Email & Notification Systems
       - Caching & Performance
-    - Month 9: Advanced Backend & DevOps
-      - Microservices Architecture
+    - Month 9: GraphQL, Testing & Security
       - GraphQL Backend
       - Testing & Quality Assurance
       - Security & Compliance
-      - Phase 3 Capstone
-  - PHASE 4: Full Stack Integration & Production (Months 10-12, Weeks 40-52)
-    Integrate frontend and backend, master DevOps, deployment, and build production applications.
-    - Month 10: Full Stack Integration
-      - Full Stack Architecture
-      - Payment Integration
-      - DevOps & CI/CD
-      - Cloud Deployment
-      - Kubernetes & Scaling
-    - Month 11: Advanced Topics & Optimization
-      - Performance & Optimization
-      - Advanced Security
-      - Analytics & Monitoring
-      - Machine Learning Integration
-      - AI Integration
-    - Month 12: Career Preparation & Final Projects
-      - Portfolio Development
-      - Interview Preparation
-      - Freelancing & Business
-      - Final Capstone Project
-    - Graduation & Beyond
-      - Advanced Specializations
-      - Community & Networking
-      - Lifetime Learning Path
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** Personal portfolio HTML structure; Multi-page website; Contact form with validation; Responsive portfolio design; Landing page with animations; CSS art and illustrations; Company website with Tailwind; Dashboard UI with Bootstrap; Accessible web application; Interactive calculator; Todo list application; Quiz application; Dynamic content management system; Drag-and-drop task board; Image gallery with lazy loading - plus 159 more on the course page.
+**Projects students build:** Personal portfolio HTML structure; Multi-page website; Contact form with validation; Responsive portfolio design; Landing page with animations; CSS art and illustrations; Company website with Tailwind; Dashboard UI with Bootstrap; Accessible web application; Interactive calculator; Todo list application; Quiz application; Dynamic content management system; Drag-and-drop task board; Image gallery with lazy loading - plus 101 more on the course page.
 
-### Microsoft Office & Windows for Kids: Digital Skills Course
+### Microsoft Office for Kids: Word, PowerPoint and Excel
 
-`/courses/microsoft-office-kids-mastery` · 6 months (26 weeks) · Complete Beginner to Advanced User
+`/courses/microsoft-office-kids-mastery` · 5-6 months (20-24 weeks) · Complete beginner, ages 7 to 12
 
   - Month 1: Windows Basics & Digital Art
-    Master Windows fundamentals, file management, and creative expression with Paint and Paint 3D.
+    Windows fundamentals, tidy file habits, and creative confidence with Paint, Photos and Clipchamp.
     - Introduction to Windows & Computer Basics
     - File Management & Organization
     - Microsoft Paint Fundamentals
-    - Paint 3D & Advanced Digital Art
+    - Photos, Clipchamp and Creative Projects
   - Month 2: Microsoft Word Mastery
     Become a Word expert, creating professional documents, reports, and creative writing projects.
     - Word Basics & Text Formatting
@@ -7614,28 +7256,20 @@ Share this freely and in detail when a parent or student asks what a course cove
     - Formulas & Functions
     - Charts & Data Visualization
     - Data Management & Analysis
-  - Month 5: OneNote, Teams & Collaboration Tools
-    Master digital note-taking, online collaboration, and communication tools.
+  - Month 5: OneNote, Teams and the Grand Finale
+    The organizational tools school life runs on, one integrated project that uses everything, and the final exam.
     - OneNote Digital Notebook
     - Microsoft Teams for Students
-    - Outlook & Email Skills
-    - Additional Microsoft Tools
-  - Month 6: Advanced Integration & Professional Projects
-    Combine all skills for complex projects and professional-level work.
-    - Advanced Windows Tools & Utilities
-    - Integrated Office Projects
-    - Professional Document Creation
-    - Creative Multimedia Projects
-    - Final Capstone Project
-    - Graduation & Certification
+    - The Integrated Project
+    - Final Exam and Demo Day
 
-**Projects students build:** Customize desktop wallpaper and theme; Create desktop shortcuts; Organize taskbar with favorite apps; Personal desktop setup; Create organized folder system for schoolwork; Digital filing cabinet setup; Photo organization project; Backup important files; Create pixel art characters; Design birthday card; Draw house and landscape; Make school poster; Create emoji collection; Design 3D room layout; Create 3D character - plus 83 more on the course page.
+**Projects students build:** Customize desktop wallpaper and theme; Create desktop shortcuts; Organize taskbar with favorite apps; Personal desktop setup; Create organized folder system for schoolwork; Digital filing cabinet setup; Photo organization project; Backup important files; Create pixel art characters; Design birthday card; Draw house and landscape; Make school poster; Create emoji collection; Edited photo set: before and after; A 60-second family slideshow video in Clipchamp - plus 60 more on the course page.
 
 ### Middle School Mathematics Mastery: Pre-Algebra & Geometry
 
-`/courses/comprehensive-middle-school-mathematics-mastery` · 12 months (52 weeks) · Complete Beginner to Advanced Middle School Level
+`/courses/comprehensive-middle-school-mathematics-mastery` · 12-14 months (52-60 weeks) · Complete Beginner to Advanced Middle School Level
 
-  - PHASE 1: Number Systems & Fundamental Operations (Months 1-3, Weeks 1-13)
+  - PHASE 1: Number Systems and Fundamental Operations (Weeks 1-13)
     Build unshakeable foundations in number concepts, operations, and mathematical thinking.
     - Months 1-2: Number Systems and Basic Operations
       - Introduction to Number Systems
@@ -7646,7 +7280,7 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Order of Operations (PEMDAS/BODMAS)
       - Problem-Solving Strategies
       - Phase 1 Review and Assessment
-  - PHASE 2: Fractions, Decimals, and Proportional Reasoning (Months 4-6, Weeks 14-26)
+  - PHASE 2: Fractions, Decimals and Proportional Reasoning (Weeks 14-26)
     Master rational numbers, proportional relationships, and their real-world applications.
     - Months 4-5: Fractions and Mixed Numbers
       - Understanding Fractions
@@ -7660,7 +7294,7 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Real-World Applications
       - Data with Fractions, Decimals, and Percents
       - Phase 2 Review and Assessment
-  - PHASE 3: Algebraic Thinking and Pre-Algebra (Months 7-9, Weeks 27-39)
+  - PHASE 3: Algebraic Thinking and Pre-Algebra (Weeks 27-39)
     Develop algebraic reasoning, solve equations, and understand functions and patterns.
     - Months 7-8: Introduction to Algebra
       - Variables and Expressions
@@ -7674,9 +7308,9 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Patterns and Sequences
       - Polynomials Introduction
       - Phase 3 Review and Assessment
-  - PHASE 4: Geometry, Statistics, and Advanced Problem Solving (Months 10-12, Weeks 40-52)
+  - PHASE 4: Geometry, Statistics and Final Revision (Weeks 40-52)
     Master geometric concepts, statistical analysis, probability, and complex problem-solving strategies.
-    - Months 10-11: Geometry Foundations
+    - Month 10: Geometry Foundations
       - Basic Geometric Concepts
       - Triangles and Quadrilaterals
       - Circles
@@ -7689,16 +7323,12 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Statistical Analysis and Interpretation
       - Problem Solving with Multiple Concepts
     - Month 12: Advanced Topics and Test Preparation
-      - Advanced Number Theory
-      - Mathematical Connections
       - Competition Mathematics
       - Test Preparation and Strategies
-    - Month 12: Final Projects and Comprehensive Review
+    - Month 13: Final Projects and Comprehensive Review
       - Comprehensive Review and Integration
-      - Final Capstone Projects
-      - Final Assessment and Future Planning
 
-**Projects students build:** Create a number system timeline; Design a place value game; Real-world number investigation project; Budget planning project; Distance calculation map activity; Integer game design; Multiplication strategy booklet; Area calculation for room design; Array art project; Factor tree artwork; Divisibility rule investigation; Prime number sieve project; PEMDAS puzzle creation; Expression evaluation game; Calculator investigation project - plus 111 more on the course page.
+**Projects students build:** Create a number system timeline; Design a place value game; Real-world number investigation project; Budget planning project; Distance calculation map activity; Integer game design; Multiplication strategy booklet; Area calculation for room design; Array art project; Factor tree artwork; Divisibility rule investigation; Prime number sieve project; PEMDAS puzzle creation; Expression evaluation game; Calculator investigation project - plus 105 more on the course page.
 
 ### Minecraft Coding for Kids: From Blocks to Real Code
 
@@ -7731,242 +7361,77 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Magic words: three chat commands that summon a block tower, a splash of flowers, and a chicken; Maze runner: program the agent to walk a maze you built for it, placing a torch at the exit; Wall factory: one program that builds a wall of any length, then a full square fort using nested loops; Pyramid of Giza: a layered pyramid built entirely by code, with a hollow secret chamber inside; Any-size house: one program that builds a house small, medium, or giant by changing a single number; Smart explorer: an agent that crosses rough ground by detecting obstacles and stepping around them; Trap gauntlet: a walkway with three coded surprises, from harmless confetti to a drop into a pool; Agent auto-farm: a robot farmer that tills the soil, plants crops in rows, and harvests when ready; Treasure hunt: a diamond block hidden at a random spot each round, with hot-and-cold chat hints; Collector clash: gather the glowing blocks scattered by code, one point each, first to ten wins; Build rush: players race a two-minute timer to copy a target structure, with a code-checked finish; Falling-floor arena: a coded mini-game where floor sections vanish on a timer and the last player standing wins; Village in a minute: houses, paths, and lamp posts, each a function, assembled into a whole village program; Two-view build: a fountain program written in blocks, then modified once in JavaScript view to change its size; Capstone, part one: the core of an original mini-game or automation, planned and working end to end - plus 1 more on the course page.
 
-### Mobile App Development for Teens: Publish to App Stores
+### MySQL Course: SQL, Database Design and Real Administration
 
-`/courses/complete-app-development-masterclass-for-teens` · 18 months (78 weeks) · Complete Beginner to Professional App Developer
+`/courses/mysql-database-complete-masterclass-college` · 7-8 months (28-32 weeks) · Complete beginner; college students and working professionals (18+)
 
-  - PHASE 1: Foundation & Design Thinking (Months 1-4, Weeks 1-17)
-    Build rock-solid programming fundamentals and learn to think like an app designer. Create your first apps using web technologies.
-    - Months 1-2: Programming Fundamentals & App Concepts
-      - Introduction to App Development World
-      - JavaScript Programming Essentials
-      - UI/UX Design Fundamentals
-      - Advanced JavaScript & ES6+
-    - Months 3-4: Web Apps & React Fundamentals
-      - React.js Fundamentals
-      - React State Management & Routing
-      - Progressive Web Apps (PWAs)
-      - Backend Basics & Firebase
-      - Phase 1 Capstone Project
-  - PHASE 2: Native Mobile Development (Months 5-9, Weeks 18-39)
-    Master native Android and iOS development. Build apps that feel truly native with platform-specific features.
-    - Months 5-6: Android Development with Kotlin
-      - Android Studio & Kotlin Basics
-      - Android UI Development
-      - Android Data & Storage
-      - Advanced Android Features
-      - Jetpack Compose (Modern Android UI)
-    - Months 7-8: iOS Development with Swift
-      - Xcode & Swift Fundamentals
-      - iOS UI Development with UIKit
-      - SwiftUI - Modern iOS Development
-      - iOS Data Persistence & Networking
-      - Advanced iOS Features
-    - Month 9: Publishing & App Store
-      - App Store Preparation
-      - Google Play Store Publishing
-      - App Monetization Strategies
-      - App Marketing & Growth
-      - Phase 2 Capstone
-  - PHASE 3: Cross-Platform Development (Months 10-13, Weeks 40-56)
-    Master cross-platform frameworks to build once and deploy everywhere. Learn React Native and Flutter.
-    - Months 10-11: React Native Development
-      - React Native Fundamentals
-      - React Native Advanced Features
-      - React Native UI Libraries & Styling
-      - State Management & Testing
-      - Building & Deployment
-    - Months 12-13: Flutter Development
-      - Flutter & Dart Basics
-      - Flutter UI Development
-      - Flutter State Management
-      - Flutter Backend Integration
-      - Flutter Advanced Features
-    - Month 13: Cross-Platform Mastery
-      - Advanced Cross-Platform Patterns
-      - Backend as a Service (BaaS) Mastery
-      - App Analytics & Performance
-      - Cross-Platform Game Development
-      - Phase 3 Capstone Project
-  - PHASE 4: Advanced Technologies & Launch (Months 14-18, Weeks 57-78)
-    Master cutting-edge technologies, build viral apps, and launch your startup.
-    - Months 14-15: AI, AR & Advanced Features
-      - AI Integration in Mobile Apps
-      - Augmented Reality (AR) Development
-      - Advanced Gaming Features
-      - IoT & Wearables Integration
-      - AI Features & Agents in Mobile Apps
-    - Months 16-17: Startup & Business Skills
-      - App Business Fundamentals
-      - Growth Hacking & Viral Marketing
-      - User Psychology & Retention
-      - Scaling & Team Building
-      - Advanced Monetization & Analytics
-    - Month 18: Final Projects & Launch
-      - Final Project Planning
-      - Final Project Development
-      - Launch Preparation
-      - Launch Week & Celebration
-    - Weeks 77-78: Career Launch & Beyond
-      - Portfolio & Career Preparation
-      - Future Technologies & Continued Learning
-      - Graduation & Celebration
-
-**Projects students build:** Research and present your favorite app's history; Set up complete development environment; Create your first web-based calculator app; Design your dream app concept (mockup); To-do list app with local storage; Quiz game with score tracking; Weather app using API; Instagram-style photo filter app (basic); Redesign a popular app for better UX; Create complete UI kit in Figma; Design your social media app mockup; Build clickable prototype; Movie database app with TMDB API; Real-time chat app (web version); Music player with Spotify Web API - plus 202 more on the course page.
-
-### MySQL Database Masterclass: SQL, Design & Administration
-
-`/courses/mysql-database-complete-masterclass-college` · 12 months (52 weeks) · Complete Beginner to Database Expert
-
-  - PHASE 1: SQL Fundamentals & Database Basics (Months 1-3, Weeks 1-13)
-    Build rock-solid foundations in SQL, understand relational database concepts, and master basic to intermediate queries.
-    - Months 1-2: Database Fundamentals & Basic SQL
+  - PHASE 1: SQL Foundations (Months 1-2, Weeks 1-8)
+    The language of data learned properly: definitions, manipulation and SELECT mastery on datasets that feel real.
+    - Months 1-2: The SQL Core
       - Introduction to Databases & MySQL Setup
       - SQL Basics - Data Definition Language (DDL)
       - SQL Basics - Data Manipulation Language (DML)
       - Querying Data - SELECT Mastery
-    - Month 3: Relationships & Joins
+  - PHASE 2: Design and Joins (Months 3-4, Weeks 9-16)
+    Where amateurs are separated from professionals: relationships, joins without fear, subqueries, and schema design as a deliberate craft.
+    - Months 3-4: Relationships to Real Design
       - Database Relationships
       - Mastering Joins
-      - Subqueries & Set Operations
-  - PHASE 2: Advanced SQL & Database Design (Months 4-6, Weeks 14-26)
-    Master advanced SQL features, stored procedures, triggers, and professional database design.
-    - Months 4-5: Advanced SQL Programming
+      - Subqueries and Set Operations
+      - Schema Design Done Properly
+  - PHASE 3: The Programmable Database (Months 5-6, Weeks 17-24)
+    MySQL beyond queries: views and indexes, stored procedures, triggers, transactions argued about properly, and Python integration.
+    - Months 5-6: Views to Python
       - Views & Indexes
       - Stored Procedures
-      - Functions & Triggers
       - Transactions & Concurrency
-      - Advanced Database Design
-    - Month 6: Programming Integration
       - MySQL with Python
-      - MySQL with Other Languages
-      - NoSQL Features in MySQL
-      - Testing & Version Control
-      - Phase 2 Capstone Project
-  - PHASE 3: Administration & Performance (Months 7-9, Weeks 27-39)
-    Master database administration, performance tuning, security, and maintenance.
-    - Months 7-8: Database Administration
-      - MySQL Architecture & Storage Engines
-      - User Management & Security
-      - Backup & Recovery
-      - Performance Tuning Basics
-      - Monitoring & Maintenance
-    - Month 9: Advanced Performance
-      - Advanced Performance Tuning
-      - Performance Schema & Sys Schema
-      - Scaling MySQL
-      - Troubleshooting
-      - Phase 3 Capstone Project
-  - PHASE 4: High Availability & Cloud (Months 10-12, Weeks 40-52)
-    Master replication, clustering, cloud deployment, and enterprise architecture.
-    - Months 10-11: Replication & High Availability
-      - MySQL Replication
-      - MySQL Group Replication & InnoDB Cluster
-      - Alternative HA Solutions
-      - Cloud MySQL - AWS
-      - Cloud MySQL - GCP & Azure
-    - Month 12: Enterprise & Career
-      - Enterprise Architecture
-      - Migration & Upgrades
-      - DevOps for Databases
-      - Career Development
-      - Final Project & Graduation
-    - Continuous Learning & Specialization
-      - Staying Current
-      - Specialization Options
-      - Advanced Topics
-      - Leadership & Mentorship
+  - PHASE 4: The Production Month (Month 7, Weeks 25-28)
+    What teams need before they trust you with data: security, backups, performance tuning with EXPLAIN, and the capstone exam.
+    - Month 7: Production Essentials and the Finale
+      - Users, Security and Backups
+      - Performance Tuning with EXPLAIN
+      - Capstone Build
+      - Demo Day and Final Exam
 
-**Projects students build:** Install MySQL on local machine; Set up MySQL Workbench; Create first database and tables; Configure basic security settings; Design employee database schema; Create online store database structure; Build student management system tables; Library management database design; Populate employee database with data; Create product catalog with 1000+ items; Build customer records system; Inventory management data setup; Sales reporting queries; Customer analytics dashboard queries; Product search functionality - plus 149 more on the course page.
+**Projects students build:** Install MySQL on local machine; Set up MySQL Workbench; Create first database and tables; Configure basic security settings; Design employee database schema; Create online store database structure; Build student management system tables; Library management database design; Populate employee database with data; Create product catalog with 1000+ items; Build customer records system; Inventory management data setup; Sales reporting queries; Customer analytics dashboard queries; Product search functionality - plus 43 more on the course page.
 
-### MySQL for Teens: SQL Queries, Database Design & Security
+### MySQL for Teens: SQL from First Query to Real Apps
 
-`/courses/mysql-mastery-for-teens` · 12 months (52 weeks) · Complete Beginner to Advanced Professional
+`/courses/mysql-mastery-for-teens` · 5-6 months (20-24 weeks) · Absolute beginner, ages 13 to 18
 
-  - PHASE 1: Foundation & Core MySQL Skills (Months 1-6, Weeks 1-26)
-    Build rock-solid database fundamentals. Learn what databases are, master SQL queries, and create your first real-world database applications.
-    - Months 1-2: Database Fundamentals & MySQL Basics
-      - Introduction to Databases & MySQL Setup
-      - SQL Basics: Creating and Managing Databases
-      - Data Manipulation: INSERT, SELECT Basics
-      - UPDATE, DELETE, and Data Integrity
-    - Months 3-4: Advanced Queries & Functions
-      - MySQL Functions: String and Numeric
-      - Date/Time Functions and Operations
-      - Aggregate Functions and Grouping
-      - Subqueries and Nested Queries
-      - Month 3-4 Review & Assessment
-    - Months 5-6: Relationships & Database Design
-      - Table Relationships and JOINS
-      - Advanced JOINS and Set Operations
-      - Database Design & Normalization
-      - Constraints and Data Validation
-      - Phase 1 Capstone Project
-  - PHASE 2: Advanced MySQL & Professional Skills (Months 7-12, Weeks 27-52)
-    Master advanced MySQL features, administration, optimization, and real-world applications to become a professional database developer.
-    - Months 7-8: Advanced MySQL Features
-      - Views and Virtual Tables
-      - Stored Procedures and Functions
-      - Triggers and Events
-      - Transactions and Concurrency
-      - Indexing and Query Optimization
-    - Months 9-10: Database Administration
-      - User Management and Security
-      - Backup and Recovery
-      - Performance Monitoring and Tuning
-      - Replication and High Availability
-      - MySQL with Programming Languages
-    - Months 11-12: Real-World Applications & Career Prep
-      - Big Data and Analytics
-      - Cloud Databases and Modern Deployments
-      - NoSQL and MySQL Integration
-      - Industry Best Practices and Standards
-      - Final Capstone & Career Preparation
-  - PHASE 3: Placeholder - Structure Required by Template
-    This phase is not applicable for the 1-year MySQL course but included to maintain JSON structure integrity.
-    - Not Applicable
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-    - Not Applicable
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-    - Not Applicable
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-  - PHASE 4: Placeholder - Structure Required by Template
-    This phase is not applicable for the 1-year MySQL course but included to maintain JSON structure integrity.
-    - Not Applicable
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-    - Not Applicable
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-    - Not Applicable
-      - N/A
-      - N/A
-      - N/A
-      - N/A
-    - Not Applicable
-      - N/A
-      - N/A
-      - N/A
+  - Month 1: SQL Foundations
+    Databases demystified and the four verbs of data: CREATE, INSERT, SELECT, UPDATE and DELETE, used safely from the start.
+    - Introduction to Databases & MySQL Setup
+    - SQL Basics: Creating and Managing Databases
+    - Data Manipulation: INSERT, SELECT Basics
+    - UPDATE, DELETE, and Data Integrity
+  - Month 2: Query Power
+    The everyday toolkit: string and numeric functions, dates, aggregation with GROUP BY, and first subqueries.
+    - MySQL Functions: String and Numeric
+    - Date/Time Functions and Operations
+    - Aggregate Functions and Grouping
+    - Subqueries and Nested Queries
+  - Month 3: Real Database Design
+    The part that separates users from designers: relationships, joins, ER diagrams, normalization and constraints.
+    - Table Relationships and JOINS
+    - Advanced JOINS and Set Operations
+    - Database Design & Normalization
+    - Constraints and Data Validation
+  - Month 4: Power Features
+    What professionals actually lean on: views, stored procedures, transactions with ACID honesty, and indexes that make queries fly.
+    - Views and Virtual Tables
+    - Stored Procedures and Functions
+    - Transactions and Concurrency
+    - Indexing and Query Optimization
+  - Month 5: Real Apps and the Final Exam
+    Securing the database, backing it up, driving it from Python, and the capstone defended at demo day.
+    - Users, Security and Backups
+    - MySQL from Python: Data Becomes an App
+    - Capstone Build
+    - Demo Day and Final Exam
 
-**Projects students build:** Install and configure MySQL environment; Create 'MyLife' database for personal data; Design a simple contact list database; School database with students and classes; Gaming stats tracker database; Music library database structure; Populate school database with student data; Create and query a movie ratings database; Build a sports team roster system; Grade management system with updates; Inventory system with stock updates; Social media profile manager; Username generator with string functions; Grade calculator with numeric functions; Data cleaning toolkit - plus 74 more on the course page.
+**Projects students build:** Install and configure MySQL environment; Create 'MyLife' database for personal data; Design a simple contact list database; School database with students and classes; Gaming stats tracker database; Music library database structure; Populate school database with student data; Create and query a movie ratings database; Build a sports team roster system; Grade management system with updates; Inventory system with stock updates; Social media profile manager; Username generator with string functions; Grade calculator with numeric functions; Data cleaning toolkit - plus 41 more on the course page.
 
 ### Olympiad Mathematics: IOQM, INMO and AMC Preparation
 
@@ -8111,101 +7576,91 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Write a small multi-module program and import across it every supported way; Solve a set of tasks using only the standard library, no third-party packages; Build a small package with nested sub-packages and import from it correctly; Write a text-processing utility using only string methods, no regular expressions; Take a fragile script and make it robust with correctly ordered handlers; Design a small exception hierarchy for a described domain and use it properly; Solve a data-shaping task choosing the right structure at each step and justifying it; Write functions exercising every argument form, then predict their behaviour before running them; Build a class where class and instance variables are deliberately contrasted, then predict every output; Design a class hierarchy with overriding and demonstrate the resolution order; Write a class with operator overloading and full introspection support; A full OOP-only mock section, reviewed question by question; Rewrite an eager data pipeline as a lazy generator pipeline and compare behaviour; Build a small closure-based counter and function factory; Write a program that reads, transforms and writes files with full error handling - plus 1 more on the course page.
 
-### Princess Coders: Complete Coding Course for Girls & Women
+### PCEP and PCAP Python Certification Course
 
-`/courses/princess-coders-complete-coding-masterclass` · 12 months (52 weeks) · Complete Beginner to Advanced Developer
+`/courses/pcep-pcap-python-certification-course` · 5 months (20 weeks) for PCEP then PCAP, joinable any month · Anyone from about 13 upward, including working adults; no prior programming required for the PCEP half
 
-  - PHASE 1: Foundation & Creative Coding (Months 1-3, Weeks 1-13)
-    Start your coding journey with fun, creative projects. Build confidence while learning the fundamentals of programming and web development.
-    - Months 1-2: Introduction to Coding & Web Basics
-      - Welcome to Princess Coders - Your Tech Journey Begins
-      - HTML - Building Your Digital Kingdom
-      - CSS - Styling Your Digital Creations
-      - JavaScript - Making Things Interactive
-    - Month 3: Advanced JavaScript & Creative Projects
+  - PHASE 1: PCEP Foundations (Months 1-2)
+    Entry-level Python taught properly rather than as exam trivia, with every topic implemented before it is tested.
+    - Month 1: Syntax, Data Types and Control Flow
+      - The Interpreter, Literals and Variables
+      - Operators, Precedence and Type Conversion
+      - Conditionals and Loops
+      - Lists, Tuples, Dictionaries and Sets
+    - Month 2: Functions, Scope and Exceptions
+      - Functions and Parameters
+      - Scope, Shadowing and the global Keyword
+      - Exceptions and Data Handling
+      - PCEP Timed Practice and the First Repository
+  - PHASE 2: PCAP Associate Material (Months 3-4)
+    Modules, packages, object-oriented programming, exceptions in depth, and the standard library the associate exam assumes.
+    - Month 3: Modules, Packages and Classes
+      - Modules, Packages and the Import System
+      - Classes, Objects and Attributes
+      - Inheritance and Polymorphism
+      - Exceptions as Objects
+    - Month 4: Files, Strings and the Standard Library
+      - File Handling and Streams
+      - Strings in Depth
+      - List Comprehensions, Lambdas and Closures
+      - PCAP Timed Practice and the Portfolio
+  - PHASE 3: Exam Readiness and Real Evidence (Month 5)
+    The final stretch: passing the exam, and finishing with something worth more than the certificate.
+    - Month 5: Final Preparation
+      - Full Mock Exams
+      - Targeted Repair
+      - The Repository That Outlasts the Certificate
+      - Booking, Sitting and What Comes After
+
+### Princess Coders: Coding Course for Girls and Women
+
+`/courses/princess-coders-complete-coding-masterclass` · 9-11 months (36-44 weeks) · Complete beginner; school girls, college students and women switching careers
+
+  - PHASE 1: Foundations (Months 1-3, Weeks 1-12)
+    HTML, CSS and JavaScript built properly, with creative projects deployed from the first months.
+    - Month 1: First Steps
+      - Welcome: Your Tech Journey Begins
+      - HTML: Real Structure
+    - Month 2: Style and Logic
+      - CSS: Design That Holds
+      - JavaScript: First Interactivity
+    - Month 3: JavaScript Depth
       - Advanced JavaScript Concepts
       - Creative Coding & Visual Projects
-      - Month 3 Integration Project
-      - Phase 1 Review & Assessment
-      - Bridge Week - Preparing for Advanced Topics
-    - Months 4-6: Frontend Development Mastery
-      - React.js Fundamentals
-      - Advanced React & State Management
-      - Modern CSS & UI Libraries
-      - TypeScript & Modern Tools
-      - Phase 2 Capstone Project
-  - PHASE 2: Frontend Development & Design (Months 4-6, Weeks 14-26)
-    Master modern frontend development with React, create beautiful user interfaces, and build professional web applications.
-    - Months 4-5: React & Modern Frontend
+  - PHASE 2: Modern Frontend (Months 4-6, Weeks 13-24)
+    React the way it is written now, with UI craft, TypeScript and testing.
+    - Month 4: React Foundation
       - React.js Foundation
       - Advanced React Patterns
+    - Month 5: State and UI Craft
       - State Management & Data Flow
       - UI/UX Design for Developers
-      - Modern Styling Solutions
-    - Month 6: Advanced Frontend & Portfolio
-      - Next.js & Modern Frameworks
-      - Testing & Quality Assurance
-      - Performance & Optimization
-      - TypeScript Mastery
-      - Phase 2 Final Project
-    - Months 7-9: Backend Development
-      - Node.js Fundamentals
-      - Express.js & REST APIs
-      - Databases & Data Modeling
-      - Authentication & Security
-      - Phase 3 Backend Project
-  - PHASE 3: Backend Development & Databases (Months 7-9, Weeks 27-39)
-    Master server-side development, databases, APIs, and build powerful backend systems that power modern applications.
-    - Months 7-8: Server-Side Development
-      - Introduction to Backend Development
+    - Month 6: TypeScript and Quality
+      - TypeScript in Practice
+      - Testing and Quality
+  - PHASE 3: Backend Basics (Months 7-8, Weeks 25-32)
+    The other half: Node, Express, databases, authentication and a real deployment.
+    - Month 7: Node and APIs
+      - Backend Fundamentals with Node
       - Building APIs with Express.js
+    - Month 8: Data and Auth
       - Databases - Storing Your Data
-      - Authentication & User Management
-      - Real-time Features & WebSockets
-    - Month 9: Advanced Backend & Integration
-      - Advanced API Development
-      - Cloud Services & Deployment
-      - SQL Databases & Advanced Queries
-      - Performance & Optimization
-      - Phase 3 Final Project
-    - Months 10-12: Professional Development
-      - Mobile App Development
-      - AI & Machine Learning for Web
-      - DevOps & Automation
-      - Entrepreneurship & Freelancing
-      - Advanced Topics & Specialization
-  - PHASE 4: Professional Skills & Career Launch (Months 10-12, Weeks 40-52)
-    Master professional development skills, build your portfolio, prepare for your tech career, and join the global community of women in tech.
-    - Months 10-11: Advanced Projects & Specialization
-      - Building Your Signature Project
-      - Women in Tech Leadership
-      - Specialization Tracks (Choose One)
-      - Open Source Contribution
-      - Portfolio & Personal Branding
-    - Month 12: Career Launch & Graduation
-      - Job Search Preparation
-      - Interview Mastery
-      - Negotiation & Career Planning
-      - Final Capstone Presentation
-      - Graduation & Beyond
-    - Bonus Month: Lifetime Learning
-      - Advanced Specializations
-      - Entrepreneurship Path
-      - Community Leadership
-      - Lifetime Achievement
-    - Princess Coders Forever
-      - Alumni Network & Support
-      - Giving Back Program
-      - Your Tech Journey Continues
+      - Authentication and Deployment
+  - PHASE 4: The Finale (Month 9, Weeks 33-36)
+    The signature capstone, the women-in-tech week, and the final exam at demo day.
+    - Month 9: Capstone and Community
+      - The Signature Capstone
+      - Women in Tech: Community, Mentorship, Visibility
+      - Demo Day and the Final Exam
 
-**Projects students build:** Create your Princess Coder profile page; Design your digital business card; Build an 'About Me' interactive story; Personal blog about your interests; Recipe collection website; Digital diary or journal; Online portfolio for your hobbies; Fashion lookbook website; Interactive greeting card creator; Photo gallery with filters; Animated story presentation; Interactive quiz about your favorite topic; Simple drawing application; To-do list with style; Mood tracker application - plus 202 more on the course page.
+**Projects students build:** Create your Princess Coder profile page; Design your digital business card; Build an 'About Me' interactive story; Personal blog about your interests; Recipe collection website; Digital diary or journal; Online portfolio for your hobbies; Fashion lookbook website; Interactive greeting card creator; Photo gallery with filters; Animated story presentation; Interactive quiz about your favorite topic; Simple drawing application; To-do list with style; Mood tracker application - plus 53 more on the course page.
 
-### Problem-Solving & Computational Thinking Course for Kids
+### Problem Solving and Computational Thinking for Kids
 
-`/courses/problem-solving-and-computational-thinking-for-kids` · 6 months (26 weeks) · Complete Beginner to Advanced Problem Solver
+`/courses/problem-solving-and-computational-thinking-for-kids` · 6-8 months (26-32 weeks) · Complete beginner, ages 7 to 12
 
-  - PHASE 1: Thinking Foundations (Months 1-2, Weeks 1-8)
-    Build core thinking skills through puzzles, patterns, and logical reasoning. Start with unplugged activities and gradually introduce coding concepts.
+  - THE COURSE: Thinking, Trained (Months 1-6, Weeks 1-26)
+    Logic and patterns, applied problem solving, then advanced challenges and the exam gauntlet.
     - Months 1-2: Logic and Pattern Recognition
       - Introduction to Problem Solving
       - Algorithmic Thinking Unplugged
@@ -8216,78 +7671,82 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Game Strategy & Logic
       - Real-World Problem Solving
       - Coding Challenges Platform
-      - Mid-Program Assessment
+      - Mid-Course Review and Showcase
     - Months 5-6: Advanced Problem Solving
       - Advanced Algorithms
       - Robotics Problem Solving
       - Data and Logic Problems
       - Creative Problem Solving
-      - Final Capstone Project
-  - PHASE 2: Specialized Problem-Solving Tracks
-    Choose specialized areas: Science, Technology, Engineering, Arts, or Mathematics
-    - Science Problem Solving Track
-      - Scientific Method & Experimentation
-      - Environmental Problem Solving
-      - Space and Astronomy Challenges
-      - Biology and Health Solutions
-      - Chemistry and Materials
-    - Technology Problem Solving Track
-      - App Development Problem Solving
-      - AI and Machine Learning
-      - Internet of Things (IoT)
-      - Cybersecurity Basics
-      - Web Development Logic
-    - Engineering Problem Solving Track
-      - Mechanical Engineering
-      - Electrical Engineering
-      - Civil Engineering
-      - Aerospace Engineering
-      - Final Integration Project
-  - ADVANCED TRACKS: Competitive & Specialized
-    Competition preparation and specialized problem-solving domains
-    - Competition Preparation
-      - Coding Competitions
-      - Math Olympiad Preparation
-      - Science Olympiad
-      - Robotics Competitions
-      - Hackathon Preparation
-    - Arts & Creative Problem Solving
-      - Design Thinking Mastery
-      - Music and Sound Problem Solving
-      - Visual Arts and Graphics
-      - Storytelling and Narrative
-      - Performance and Drama
-    - Mathematics Deep Dive
-      - Advanced Number Theory
-      - Geometry and Spatial Reasoning
-      - Statistics and Data Science
-      - Logic and Discrete Math
-      - Graduation & Future Path
-  - ENRICHMENT: Real-World Applications
-    Apply problem-solving skills to real-world challenges and career exploration
-    - Social Problem Solving
-      - Community Service Projects
-      - Global Challenges
-      - Entrepreneurship for Kids
-      - Innovation Lab
-      - Career Exploration
-    - Teaching & Leadership
-      - Peer Teaching
-      - Leadership Development
-      - Content Creation
-      - Community Building
-      - Research Skills
-    - Advanced Specializations
-      - Quantum Computing Basics
-      - AI Agents for Problem Solving
-      - Bioinformatics Basics
-      - Neuroscience and Brain
-    - Mastery & Graduation
-      - Portfolio Excellence
-      - Final Projects Showcase
-      - Graduation & Beyond
+      - Capstone and the Final Exam
 
-**Projects students build:** Create a puzzle book; Design a treasure hunt; Solve 20 logic puzzles; Build pattern art; Write algorithms for daily tasks; Create a board game with rules; Design a flowchart adventure; Program a 'human robot'; Complete Code.org Course A; Create digital art with code; Solve 50 coding puzzles; Design custom maze challenges; Math puzzle collection; Create a math game; Budget planning project - plus 216 more on the course page.
+**Projects students build:** Create a puzzle book; Design a treasure hunt; Solve 20 logic puzzles; Build pattern art; Write algorithms for daily tasks; Create a board game with rules; Design a flowchart adventure; Program a 'human robot'; Complete Code.org Course A; Create digital art with code; Solve 50 coding puzzles; Design custom maze challenges; Math puzzle collection; Create a math game; Budget planning project - plus 38 more on the course page.
+
+### Problem Solving for Teens: Logic, Data Structures & Algorithms
+
+`/courses/problem-solving-dsa-masterclass-teens` · 10-12 months (44-52 weeks) · Teenagers 13-18; no prior experience needed
+
+  - PHASE 1: Foundation & Logic Building (Months 1-3, Weeks 1-13)
+    Build unshakeable foundations. Learn to think like a programmer, master basic syntax, and solve your first 200+ problems.
+    - Month 1: Programming Fundamentals & First Steps
+      - Introduction to Problem Solving & Setup
+      - Conditional Logic & Decision Making
+      - Loops & Iteration Mastery
+      - Functions & Modular Programming
+    - Month 2: Data Structures Basics & Problem Patterns
+      - Lists/Arrays Fundamentals
+      - Strings & Text Processing
+      - Dictionaries/Hash Maps & Sets
+      - Basic Algorithms & Complexity
+    - Month 3: Advanced Basics & Contest Preparation
+      - Stack & Queue Mastery
+      - Recursion & Backtracking Basics
+      - Mathematics for Programming
+      - Linked Lists Introduction
+      - Phase 1 Final Project
+  - PHASE 2: Core Data Structures & Algorithms (Months 4-6, Weeks 14-26)
+    Master essential data structures, dive deep into algorithms, and start solving medium-level competitive programming problems.
+    - Month 4: Trees & Advanced Sorting
+      - Binary Trees Fundamentals
+      - Binary Search Trees (BST)
+      - Advanced Sorting Algorithms
+      - Heaps & Priority Queues
+      - Tries & String Algorithms
+    - Month 5: Graphs & Network Algorithms
+      - Graph Fundamentals
+      - Graph Traversal Algorithms
+      - Shortest Path Algorithms
+      - Minimum Spanning Trees
+    - Month 6: Phase 2 Completion & Integration
+      - Algorithm Design Paradigms
+      - Space & Time Optimization
+      - Testing & Debugging Mastery
+  - PHASE 3: Advanced Algorithms & Techniques (Months 7-9, Weeks 27-39)
+    Master dynamic programming, advanced data structures, computational geometry, and complex problem-solving techniques.
+    - Month 7: Dynamic Programming Mastery
+      - DP Fundamentals
+      - String DP Problems
+      - Grid & Matrix DP
+      - Knapsack & Subset Problems
+      - Tree DP
+    - Month 8: Advanced DP & Optimization
+      - DP with Bitmasks
+      - Interval DP & Games
+      - DP Optimizations
+      - Probability & Expected Value DP
+      - State Space Reduction
+    - Month 9: Computational Geometry & Number Theory
+      - Computational Geometry Basics
+      - Advanced Number Theory
+      - Combinatorics & Counting
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
+
+**Projects students build:** Calculator for homework problems; Age calculator with fun facts; Simple chatbot that responds to inputs; Grade calculator with letter grades; Rock-Paper-Scissors game; Simple adventure game with choices; Password strength checker; Pattern printer (20+ patterns); Multiplication table generator; Prime number checker and generator; Number guessing game with attempts; Math helper library (GCD, LCM, factorial); Text analyzer (word count, character frequency); Recursive art generator; Unit converter with functions - plus 138 more on the course page.
 
 ### PSLE Maths: Model Method, Problem Sums & MOE Syllabus
 
@@ -8339,333 +7798,214 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Weakest-Family Rotations
       - Final Cycles and the Peak-Week Plan
 
-### Python & AI Automation: Machine Learning, NLP & Scripting
+### Python and AI for Kids: Games, Turtle Art and Smart Projects
 
-`/courses/python-ai-automation-masterclass-college` · 12 months (52 weeks) · Complete Beginner to Advanced Professional
+`/courses/python-ai-kids-masterclass` · 8-10 months (32-40 weeks) · Complete beginner, ages 9 to 12
+
+  - PHASE 1: Python Basics (Months 1-2, Weeks 1-8)
+    The first real language, learned through play: printing, variables, decisions and loops, every week ending with something funny or clever to show at home.
+    - Month 1: First Code
+      - Welcome to Programming & Setup
+      - Variables & Data Types - Teaching Python to Remember
+    - Month 2: Decisions and Loops
+      - Making Decisions with If-Else
+      - Loops - Making Python Repeat
+  - PHASE 2: Turtle Art and Coder Powers (Months 3-4, Weeks 9-16)
+    The famous turtle draws what the child commands: spirals, stars and snowflakes, then lists and functions turn scripts into real programs.
+    - Month 3: The Turtle Awakens
+      - Introduction to Turtle Graphics
+      - Advanced Turtle Projects
+    - Month 4: Lists and Functions
+      - Lists & Collections
+      - Functions - Reusable Code Blocks
+  - PHASE 3: Real Games (Months 5-6, Weeks 17-24)
+    Programs that remember and games that feel real: files and saving, first object thinking, then Pygame from the game loop to finished, shareable games.
+    - Month 5: Memory and Objects
+      - File Handling & Data
+      - Object-Oriented Programming Basics
+    - Month 6: Pygame
+      - Introduction to Pygame
+      - Building Complete Games
+  - PHASE 4: Kid-Safe AI and the Finale (Months 7-8, Weeks 25-32)
+    AI learned the honest way for this age: built small, trained by the child, tested for mistakes, and finished with a capstone at demo day.
+    - Month 7: AI, Discovered Properly
+      - What is Artificial Intelligence?
+      - Data Detective Work
+    - Month 8: Camera Magic and the Capstone
+      - Camera Magic: Train Your Own Model
+      - Capstone and the Final Exam
+
+**Projects students build:** Personalized greeting program; Magic calculator with special messages; Story generator with your name; Interactive story with user input; Age calculator with birthday messages; Mad Libs game generator; Personal quiz about yourself; Adventure game with choices; Grade calculator with feedback; Virtual pet mood checker; Rock, Paper, Scissors game; Pattern art generator; Guessing game with attempts; Countdown timer with effects; ASCII art animation - plus 45 more on the course page.
+
+### Python Automation Course: Scripting, Scraping & Applied AI
+
+`/courses/python-ai-automation-masterclass-college` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
   - PHASE 1: Python Foundation & Core Programming (Months 1-3, Weeks 1-13)
     Build rock-solid Python fundamentals. Learn programming concepts, master Python syntax, and create your first automation projects.
-    - Months 1-2: Python Fundamentals & Programming Logic
+    - Month 1: Python Fundamentals & Programming Logic
       - Introduction to Python & Setup
       - Variables, Data Types & Operations
       - Control Flow & Loops
       - Data Structures in Python
-    - Month 3: Functions, Modules & OOP
+    - Month 2: Functions, Modules & OOP
       - Functions & Functional Programming
       - Object-Oriented Programming
       - Modules, Packages & Error Handling
       - File Handling & Data Processing
-      - Phase 1 Capstone Project
-    - Months 4-6: Advanced Python & Automation
+    - Month 3: Advanced Python & Automation
       - Advanced Python Concepts
       - Database Programming
       - Web Development with Python
       - Network Programming & APIs
-      - Phase 2 Capstone Project
   - PHASE 2: Web Scraping & Automation Tools (Months 4-6, Weeks 14-26)
     Master web scraping, browser automation, task automation, and building robust automation frameworks.
-    - Months 4-5: Web Scraping & Browser Automation
+    - Month 4: Web Scraping & Browser Automation
       - Web Scraping Fundamentals
       - Advanced Web Scraping
       - Selenium & Browser Automation
       - Alternative Automation Tools
       - Data Processing & Analysis
-    - Month 6: Enterprise Automation & Integration
+    - Month 5: Enterprise Automation & Integration
       - RPA & Process Automation
       - API Development & Microservices
       - Cloud Automation & DevOps
       - Testing & Quality Assurance
       - Security & Best Practices
-    - Months 7-9: AI & Machine Learning
+    - Month 6: Practical Machine Learning
       - Machine Learning Fundamentals
       - Supervised Learning Algorithms
       - Unsupervised Learning & Deep Learning Intro
-      - Deep Learning with TensorFlow/PyTorch
-      - Phase 3 Capstone Project
-  - PHASE 3: Advanced AI & Computer Vision (Months 7-9, Weeks 27-39)
+  - PHASE 3: Applied AI for Automation (Months 7-9, Weeks 27-39)
     Master advanced AI techniques, computer vision, natural language processing, and production AI systems.
-    - Months 7-8: Computer Vision & Image Processing
+    - Month 7: Computer Vision & Image Processing
       - Image Processing Fundamentals
       - Advanced Computer Vision
       - Deep Learning for Computer Vision
       - Natural Language Processing
       - Advanced NLP with Transformers
-    - Month 9: Reinforcement Learning & Advanced AI
-      - Reinforcement Learning Basics
+    - Month 8: Time Series, Ethics & Production AI
       - Time Series & Forecasting
       - AI Ethics & Explainable AI
-      - Edge AI & IoT Integration
       - MLOps & Production Systems
-    - Months 10-12: Advanced Systems & Production
-      - Distributed Computing & Big Data
-      - Advanced Deep Learning
+    - Month 9: Cloud AI Services in Automation
       - Cloud AI Services & Deployment
-      - Industry Applications & Specializations
-      - Phase 4 Final Capstone - Part 1
-  - PHASE 4: Production Systems & Career Preparation (Months 10-12, Weeks 40-52)
-    Master production deployment, advanced AI systems, and prepare for professional AI/automation engineering roles.
-    - Months 10-11: Production Systems & Enterprise AI
-      - Enterprise AI Architecture
-      - AutoML & Model Optimization
-      - Advanced Automation Frameworks
-      - Conversational AI & Chatbots
-      - AI Product Development
-    - Month 11: Integration & Advanced Topics
-      - Integration with Enterprise Systems
-      - Advanced Data Engineering
-      - Specialized AI Applications
-      - Performance & Scalability
-      - Open Source Contribution
-    - Month 12: Final Projects & Career Launch
-      - Final Capstone - Development
-      - Final Capstone - Deployment
-      - Portfolio & Personal Branding
-      - Interview Preparation
-    - Month 12: Career Launch & Continuous Learning
-      - Job Search & Applications
-      - Freelancing & Consulting
-      - Continuous Learning & Growth
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** Set up complete Python development environment; Simple calculator program; Personal information collector; Temperature converter (C/F/K); Text analyzer and formatter; Simple encryption/decryption tool; Number guessing game; Pattern generator (pyramids, diamonds); Prime number calculator; Password strength validator; Student management system; Shopping cart application; Contact book with search; Data structure performance analyzer; Modular calculator with functions - plus 215 more on the course page.
+**Projects students build:** Set up complete Python development environment; Simple calculator program; Personal information collector; Temperature converter (C/F/K); Text analyzer and formatter; Simple encryption/decryption tool; Number guessing game; Pattern generator (pyramids, diamonds); Prime number calculator; Password strength validator; Student management system; Shopping cart application; Contact book with search; Data structure performance analyzer; Modular calculator with functions - plus 123 more on the course page.
 
-### Python & AI for Kids: Coding, Games, Robotics & AI Projects
+### Python for Teens: Complete Course from Beginner to Advanced
 
-`/courses/python-ai-kids-masterclass` · 12 months (52 weeks) · Complete Beginner to Advanced Young Programmer
+`/courses/python-complete-masterclass-teens` · 10-12 months (40-48 weeks) · Absolute beginner, ages 13 to 18
 
-  - PHASE 1: Python Basics & Fun with Code (Months 1-3, Weeks 1-13)
-    Start your coding adventure! Learn Python basics through fun projects, colorful graphics, and exciting games.
-    - Months 1-2: Python Fundamentals & First Programs
-      - Welcome to Programming & Setup
-      - Variables & Data Types - Teaching Python to Remember
-      - Making Decisions with If-Else
-      - Loops - Making Python Repeat
-    - Month 3: Turtle Graphics & Visual Programming
-      - Introduction to Turtle Graphics
-      - Advanced Turtle Projects
-      - Phase 1 Showcase & Review
-  - PHASE 2: Creative Coding & Game Development (Months 4-6, Weeks 14-26)
-    Level up your Python skills! Create awesome games, work with data, and build useful applications.
-    - Months 4-5: Lists, Functions & Advanced Concepts
-      - Lists & Collections
-      - Functions - Reusable Code Blocks
-      - File Handling & Data
-      - Object-Oriented Programming Basics
-      - Error Handling & Debugging
-    - Month 6: Game Development with Pygame
-      - Introduction to Pygame
-      - Building Complete Games
-      - Advanced Game Features
-      - Creative Coding Projects
-      - Phase 2 Game Showcase
-  - PHASE 3: Introduction to AI & Machine Learning (Months 7-9, Weeks 27-39)
-    Enter the world of AI! Learn how computers can learn, recognize patterns, and make intelligent decisions.
-    - Months 7-8: AI Fundamentals & Smart Programs
-      - What is Artificial Intelligence?
-      - Smart Decision Making Programs
-      - Data Science for Kids
-      - Introduction to Machine Learning
-      - Neural Networks Basics
-    - Month 9: Computer Vision & Image AI
-      - Computer Vision Basics
-      - Advanced Computer Vision
-      - Image Recognition Projects
-      - Creative AI Art
-      - Phase 3 AI Exhibition
-  - PHASE 4: Advanced AI Projects & Future Tech (Months 10-12, Weeks 40-52)
-    Build amazing AI projects! Create chatbots, voice assistants, and your own AI-powered applications.
-    - Months 10-11: Natural Language & Chatbots
-      - Natural Language Processing Basics
-      - Building Chatbots
-      - Voice Assistants & Speech
-      - AI APIs & Cloud Services
-      - Internet of Things (IoT) Basics
-    - Month 11: Robotics & Advanced Projects
-      - Robotics with Python
-      - Game AI & Reinforcement Learning
-      - Data Visualization & Dashboards
-      - Web Development & AI Integration
-      - Mobile Apps & AI
-    - Month 12: Final Projects & Future Path
-      - Ethical AI & Future Technologies
-      - Advanced AI Topics
-      - Hackathon Preparation
-      - Open Source & Community
-    - Final Month: Capstone & Graduation
-      - Final Capstone Project - Planning
-      - Final Capstone Project - Development
-      - Showcase & Future Journey
-
-**Projects students build:** Personalized greeting program; Magic calculator with special messages; Story generator with your name; Interactive story with user input; Age calculator with birthday messages; Mad Libs game generator; Personal quiz about yourself; Adventure game with choices; Grade calculator with feedback; Virtual pet mood checker; Rock, Paper, Scissors game; Pattern art generator; Guessing game with attempts; Countdown timer with effects; ASCII art animation - plus 147 more on the course page.
-
-### Python Programming for Teens: Zero to Advanced in 2 Years
-
-`/courses/python-complete-masterclass-teens` · 24 months (104 weeks) · Absolute Beginner to Python Expert
-
-  - PHASE 1: Python Foundations & Programming Logic (Months 1-6, Weeks 1-26)
-    Master Python fundamentals, programming logic, data structures, algorithms, and object-oriented programming.
-    - Months 1-2: Python Basics & Programming Fundamentals
-      - Introduction to Python & Setup
-      - Control Flow & Logic
-      - Loops & Iterations
-      - Functions & Functional Programming
-    - Months 3-4: Data Structures & Collections
-      - Lists & Tuples Mastery
-      - Dictionaries & Sets
-      - Strings & Text Processing
-      - Advanced Data Structures
-      - Algorithms & Problem Solving
-    - Months 5-6: Object-Oriented Programming & Design Patterns
-      - OOP Fundamentals
-      - Inheritance & Polymorphism
-      - Magic Methods & Protocols
-      - Design Patterns
-      - Phase 1 Capstone Project
-  - PHASE 2: Web Development & Full-Stack Python (Months 7-12, Weeks 27-52)
-    Master web development with Django and Flask, build APIs, work with databases, and create full-stack applications.
-    - Months 7-8: Web Fundamentals & Flask
-      - Web Development Basics
-      - Flask Framework Mastery
-      - Database Programming
-      - API Development
-      - Frontend Integration
-    - Months 9-10: Django & Advanced Web Development
-      - Django Fundamentals
-      - Django Advanced Features
-      - Full-Stack Development
-      - Cloud & Deployment
-      - Testing & Quality Assurance
-    - Months 11-12: Microservices & Advanced Architecture
-      - Microservices Architecture
-      - AsyncIO & Concurrency
-      - GraphQL & Modern APIs
-      - DevOps for Python
-      - Phase 2 Capstone Project
-  - PHASE 3: Specializations & Advanced Python (Months 13-18, Weeks 53-78)
-    Master specialized domains: game development, data science, automation, machine learning, and contribute to open source.
-    - Months 13-14: Game Development & Graphics
-      - Pygame Mastery
-      - 3D Graphics & Advanced Games
-      - Game AI & Procedural Generation
-      - Mobile Game Development
-      - Game Publishing & Monetization
-    - Months 15-16: Data Science & Machine Learning
-      - Data Science with Python
+  - PHASE 1: Python Foundations and OOP (Months 1-3, Weeks 1-12)
+    From the first line of code to data structures, algorithms and object-oriented programming. Every week ends with something built.
+    - Month 1: First Programs
+      - Introduction and Setup
+      - Control Flow and Logic
+      - Loops and Iteration
+      - Functions
+    - Month 2: The Data Structures Every Program Uses
+      - Lists and Tuples
+      - Dictionaries and Sets
+      - Strings and Text
+      - Files, JSON and Errors
+    - Month 3: Algorithms and Objects
+      - Power Collections
+      - Algorithms and Problem Solving
+      - Object-Oriented Programming
+      - Inheritance and Polymorphism
+  - PHASE 2: Games, Apps and Automation (Months 4-6, Weeks 13-24)
+    Skills become products: real Pygame games shared online, desktop apps, automation that does actual chores, and a first honest look at data.
+    - Month 4: Build Real Games
+      - Pythonic Objects
+      - Pygame: The Game Loop
+      - Pygame: Juice and Polish
+      - Game AI and Shipping Your Game
+    - Month 5: Programs That Do Your Chores
+      - Desktop Apps with Tkinter
+      - Automation: Files, Sheets and Documents
+      - Web Scraping, Politely
+      - Automation Capstone
+    - Month 6: Data Tells Stories
+      - NumPy and pandas Foundations
       - Data Visualization
-      - Machine Learning Fundamentals
-      - Deep Learning with Python
-      - AI Applications
-    - Months 17-18: Automation & Advanced Tools
-      - Automation & Scripting
-      - GUI Development
-      - Network Programming
-      - Cybersecurity with Python
-      - Phase 3 Capstone Project
-  - PHASE 4: Expert Python & Professional Development (Months 19-24, Weeks 79-104)
-    Master advanced Python internals, contribute to Python itself, build frameworks, and launch your career.
-    - Months 19-20: Python Internals & Advanced Concepts
-      - Python Internals
-      - Metaprogramming & Advanced Features
-      - Performance Optimization
-      - Building Frameworks
-      - Compiler & Interpreter Design
-    - Months 21-22: Industry & Enterprise Python
-      - Enterprise Python
-      - Cloud Native Python
-      - IoT & Hardware
-      - Scientific Python
-      - AI Agents & Automation with Python
-    - Month 23: Open Source & Community
-      - Open Source Contribution
-      - Teaching & Mentoring
-      - Career Development
-      - Python Ecosystem Mastery
-    - Month 24: Final Projects & Graduation
-      - Final Capstone - Part 1
-      - Final Capstone - Part 2
-      - Graduation & Beyond
+      - A Real Data Project
+      - Phase 2 Capstone and Review
+  - PHASE 3: Python on the Web (Months 7-8, Weeks 25-32)
+    How the web really works, then Flask: routes, templates, forms, a database, user accounts, and a deployment to a public URL.
+    - Month 7: From Requests to Flask
+      - How the Web Works
+      - Consuming APIs
+      - Flask: Your First Web App
+      - Templates, Forms and Sessions
+    - Month 8: Databases, Users and Deployment
+      - Databases with SQLite and SQLAlchemy
+      - User Accounts and Web Safety
+      - Deploying to the Real Internet
+      - Web Capstone
+  - PHASE 4: AI, Quality and the Capstone (Months 9-10, Weeks 33-40)
+    Machine learning done honestly, AI features built on modern APIs, professional habits with Git and pytest, and a final capstone shipped like a product.
+    - Month 9: AI and Real-World Tools
+      - Machine Learning with scikit-learn
+      - Building on AI APIs
+      - An AI Feature in a Real App
+      - Git and GitHub for Real Projects
+    - Month 10: Quality, Capstone and Demo Day
+      - Testing and Code Quality
+      - Final Capstone Build
+      - Demo Day and What Comes Next
 
-**Projects students build:** Personal assistant chatbot; Calculator with memory; Mad libs story generator; Temperature converter with GUI preview; Rock-Paper-Scissors-Lizard-Spock game; Password strength analyzer with rules; Quiz game with scoring system; Decision tree adventure game; Pattern generator (ASCII art); Prime number visualizer; Multiplication table game; Progress bar implementation; Homework helper library; Unit converter with 50+ conversions; Function benchmark tool - plus 223 more on the course page.
+**Projects students build:** A personal greeting bot that asks questions and answers back; Calculator with memory; Mad libs story generator; Rock-Paper-Scissors-Lizard-Spock game; Password strength analyzer with rules; Choose-your-own-adventure text game; Pattern generator (ASCII art); Prime number visualizer; Multiplication table game; Progress bar implementation; Homework helper library of reusable functions; Unit converter covering 20+ conversions; Menu-driven mini app assembled from functions; Spotify playlist manager; Tic-tac-toe with AI opponent - plus 83 more on the course page.
 
-### Python Programming Masterclass: Zero to Advanced Pro
+### Python Masterclass: Zero to Advanced, Live Online
 
-`/courses/python-programming-masterclass-zero-to-advanced-college` · 12 months (52 weeks) · Complete Beginner to Advanced Professional
+`/courses/python-programming-masterclass-zero-to-advanced-college` · 9-11 months (36-44 weeks) · Complete beginner (18+); college students, graduates and professionals
 
-  - PHASE 1: Foundation & Core Python Skills (Months 1-3, Weeks 1-13)
-    Build rock-solid Python fundamentals. Learn programming logic, master Python syntax, and create your first applications.
-    - Months 1-2: Python Fundamentals & Programming Basics
+  - PHASE 1: Core Python (Months 1-3, Weeks 1-12)
+    The language itself, learned properly: syntax, control flow, functions and the core data structures, practiced through daily building.
+    - Month 1: First Python
       - Introduction to Programming & Python Setup
       - Variables, Data Types & Operators
+    - Month 2: Control Flow and Functions
       - Control Flow: Conditions & Loops
       - Functions & Modular Programming
-    - Month 3: Data Structures & String Manipulation
+    - Month 3: The Data Structures
       - Lists & List Operations
       - Tuples, Sets & Dictionaries
-      - Advanced String Manipulation
-  - PHASE 2: Intermediate Python & Algorithm Mastery (Months 4-6, Weeks 14-26)
-    Master data structures, algorithms, object-oriented programming, file handling, and testing.
-    - Months 4-5: Object-Oriented Programming & Advanced Concepts
+  - PHASE 2: Professional Python (Months 4-6, Weeks 13-24)
+    The jump from scripts to software: object-oriented design, files and exceptions, the standard library as a first resort, testing, and a real capstone.
+    - Month 4: Object-Oriented Python
       - Introduction to OOP Concepts
       - OOP Principles: Inheritance & Polymorphism
+    - Month 5: Files, Exceptions and the Standard Library
       - File Handling & Exception Handling
       - Modules, Packages & Standard Library
-      - Comprehensions & Functional Programming
-    - Month 6: Algorithms, Data Structures & Testing
-      - Algorithms & Problem Solving
-      - Advanced Data Structures
+    - Month 6: Testing and the Phase Capstone
       - Testing & Debugging
-      - Advanced Python Features
-      - Phase 2 Capstone Project
-    - PHASE 2 CONTINUED - This section adapts to Python context
+      - Phase 2 Capstone
+  - PHASE 3: The Working Toolkit (Months 7-8, Weeks 25-32)
+    What turns language skill into working capability: Git and GitHub, real APIs and polite scraping, automation that survives reality, and concurrency without folklore.
+    - Month 7: Git, GitHub and the Living Web
       - Version Control with Git & GitHub
-      - Virtual Environments & Package Management
-      - Regular Expressions & Text Processing
-      - Working with APIs & Web Scraping Basics
-      - Concurrency & Parallel Programming
-  - PHASE 3: Web Development, Databases & Automation (Months 7-9, Weeks 27-39)
-    Master web development with Django/Flask, databases, REST APIs, web scraping, and automation.
-    - Months 7-8: Web Development with Flask & Django
-      - Flask Web Framework Fundamentals
-      - Flask Advanced & REST APIs
-      - Django Web Framework Fundamentals
-      - Django Models & Database
-      - Django Forms & User Authentication
-    - Month 9: Databases, ORMs & Advanced Web Topics
-      - SQL Databases with Python
-      - NoSQL Databases & MongoDB
-      - Django REST Framework & API Development
-      - Web Scraping & Automation
-      - Task Automation & Scripting
-    - PHASE 3 COMPLETION - Month 9 Continued
-      - Deployment & Production Best Practices
-      - Security Best Practices
-      - Performance Optimization & Caching
-      - Real-time Applications & WebSockets
-      - Phase 3 Capstone Project
-  - PHASE 4: Data Science, Machine Learning & Professional Skills (Months 10-12, Weeks 40-52)
-    Master data science, machine learning, AI, cloud computing, and professional development practices.
-    - Months 10-11: Data Science & Machine Learning
-      - Data Science Fundamentals with NumPy
-      - Data Analysis with Pandas
-      - Data Visualization with Matplotlib & Seaborn
-      - Machine Learning Fundamentals
-      - Advanced Machine Learning
-    - Month 12: Deep Learning, Cloud & Professional Skills
-      - Deep Learning with TensorFlow/Keras
-      - Natural Language Processing (NLP)
-      - Cloud Computing & AWS for Python
-      - DevOps & CI/CD for Python
-      - Specialized Python Topics
-    - PHASE 4 COMPLETION - Final Month Activities
-      - Open Source Contribution
-      - Python Best Practices & Design Patterns
-      - Performance & Optimization
-      - Interview Preparation
-    - Final Projects & Career Launch
-      - Final Capstone Project - Part 1
-      - Final Capstone Project - Part 2
-      - Career Launch & Portfolio Building
+      - APIs and Web Scraping, Done Politely
+    - Month 8: Automation and Concurrency
+      - Automation and Scripting That Survives Reality
+      - Concurrency Without Folklore
+  - PHASE 4: The Three Roads and the Finale (Month 9, Weeks 33-36)
+    Web, data and AI, each tasted hands-on in real builds, then the final capstone and the exam that decides the certificate.
+    - Month 9: Choose Your Road, Then Prove the Journey
+      - The Three Roads, Tasted Honestly
+      - Final Capstone Build
+      - Demo Day and the Final Exam
 
-**Projects students build:** Hello World variations (personalized greetings); Simple calculator using print statements; About Me program (display personal information); ASCII art creator; Temperature converter (Celsius/Fahrenheit); Age calculator with days, hours, minutes; Simple interest calculator; BMI (Body Mass Index) calculator; Tip calculator with bill splitting; Number guessing game with attempts; Grade calculator with letter grades; Even/odd number checker; Multiplication table generator; Pattern printing (stars, pyramids, diamonds); Simple password validator - plus 247 more on the course page.
+**Projects students build:** Hello World variations (personalized greetings); Simple calculator using print statements; About Me program (display personal information); ASCII art creator; Temperature converter (Celsius/Fahrenheit); Age calculator with days, hours, minutes; Simple interest calculator; BMI (Body Mass Index) calculator; Tip calculator with bill splitting; Number guessing game with attempts; Grade calculator with letter grades; Even/odd number checker; Multiplication table generator; Pattern printing (stars, pyramids, diamonds); Simple password validator - plus 75 more on the course page.
 
 ### Python Web Development with Django and Flask Course
 
@@ -8710,173 +8050,96 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Request detective: a written trace of one real page load, every request annotated, plus a script that fetches and inspects three sites; Personal API: a Flask app with five routes returning text and JSON, including a dynamic greeting route; Movie catalog site: a browsable list rendered from Python data with a shared base layout and detail pages; Feedback board: a form that accepts, validates, and displays entries, with flash messages for errors and success; Query workbook: a seeded database of books and members, interrogated with fifteen handwritten SQL queries; Movie catalog, database edition: the month 1 site rebuilt on SQLAlchemy models instead of Python lists; Notes application: full CRUD with create, edit, delete, and detail pages backed by the database; Notes app with accounts: registration, hashed passwords, login, logout, and notes scoped to their owner; Django hello-world done right: a two-app project with routed pages, shared base template, and static files; Job board, part one: JobPosting and Company models, migrated, seeded, and queried from the shell; Job board, part two: public listing and detail pages, plus a configured admin where postings are managed; Job board, part three: a post-a-job form with validation, plus an application form with resume upload; Job board accounts: employer and candidate signup, login, and pages that respond to who is viewing them; Job board relationships: companies, postings, tags, and saved-jobs wired together with efficient queries; Job board, refactored: listing pages moved to generic views with pagination, search, and tag filtering - plus 9 more on the course page.
 
-### Queen Coders: 1-Year Advanced Tech Leadership for Women
+### Queen Coders: Advanced Engineering for Women Developers
 
-`/courses/queen-coders-advanced-tech-leadership` · 12 months (52 weeks) · Intermediate Developer to Tech Leader/Architect
+`/courses/queen-coders-advanced-tech-leadership` · 9-11 months (36-44 weeks) · Women developers with working experience (roughly 2+ years or a strong portfolio)
 
-  - PHASE 1: Advanced Engineering & Architecture (Months 1-3, Weeks 1-13)
-    Master advanced programming paradigms, system design, and cloud-native architecture. Build enterprise-grade applications.
-    - Months 1-2: Advanced Programming & System Design
+  - PHASE 1: Advanced Engineering (Months 1-3, Weeks 1-12)
+    The judgment layer above syntax: design principles, cloud and data architecture, performance and security.
+    - Month 1: Design and Cloud
       - Advanced Software Engineering Principles
       - Cloud Architecture & Infrastructure
+    - Month 2: Data and Performance
       - Advanced Databases & Data Architecture
       - Performance Engineering & Optimization
-    - Month 3: Security & Enterprise Architecture
+    - Month 3: Security and APIs
       - Advanced Security Engineering
       - API Design & GraphQL Mastery
-      - Enterprise Integration Patterns
-      - Phase 1 Comprehensive Project
-      - Bridge to AI/ML & Emerging Tech
-    - Months 4-6: AI/ML & Agent Specialization
+  - PHASE 2: AI Engineering (Months 4-6, Weeks 13-24)
+    The layer every senior role now assumes: ML engineering, modern AI applications, LLMs and agent development, and data engineering.
+    - Month 4: ML Engineering
       - Machine Learning Engineering
       - Advanced AI Applications
-      - AI Engineering & Agent Development
-      - Data Engineering & Analytics
-      - Phase 2 Innovation Project
-  - PHASE 2: Specialized Technologies & Innovation (Months 4-6, Weeks 14-26)
-    Master cutting-edge technologies including AI/ML, blockchain, and data engineering while building industry-changing solutions.
-    - Months 4-5: Deep Specialization
-      - Advanced Machine Learning & Deep Learning
+    - Month 5: LLMs and Agents
       - LLMs & Generative AI
-      - AI Agent Architecture at Scale
-      - Cloud-Native & Platform Engineering
-      - Quantum Computing & Future Tech
-    - Month 6: Advanced Integration & Platforms
-      - Enterprise Architecture Patterns
-      - DevOps & SRE Excellence
-      - Technical Leadership Skills
-      - Product Engineering & Strategy
-      - Phase 2 Platform Launch
-    - Months 7-9: Leadership & Management
-      - Engineering Leadership
-      - Startup Engineering & Entrepreneurship
-      - Open Source & Community Leadership
-      - Innovation & R&D Leadership
-      - Phase 3 Leadership Summit
-  - PHASE 3: Leadership & Strategic Technology (Months 7-9, Weeks 27-39)
-    Develop executive leadership skills, master strategic technology decisions, and prepare for C-level positions.
-    - Months 7-8: Technical Leadership Excellence
+      - AI Engineering & Agent Development
+    - Month 6: Data Engineering and the Phase Capstone
+      - Data Engineering & Analytics
+      - Phase 2 Capstone: An AI-Era System
+  - PHASE 3: Technical Leadership (Months 7-8, Weeks 25-32)
+    The honest skills of staff-level work: leading through decisions, reviews and people, and choosing between management and the senior IC road.
+    - Month 7: Staff-Level Craft
       - Staff/Principal Engineering Skills
-      - Engineering Management Mastery
-      - VP/Director Level Skills
-      - CTO/VP Engineering Preparation
-      - Board Readiness & Governance
-    - Month 9: Strategic Innovation & Impact
-      - Corporate Innovation Leadership
-      - Technology for Social Impact
-      - Global Technology Leadership
-      - Women Tech Leaders Network
-      - Phase 3 Executive Presentation
-    - Months 10-12: Entrepreneurship & Industry Leadership
-      - Tech Entrepreneurship Mastery
-      - Venture Capital & Investment
-      - Industry Influence & Thought Leadership
-      - Building Your Legacy
-      - Final Capstone - Industry Impact
-  - PHASE 4: Industry Leadership & Global Impact (Months 10-12, Weeks 40-52)
-    Establish yourself as an industry leader, build influential networks, and create lasting impact in the technology world.
-    - Months 10-11: Executive Excellence
-      - C-Suite Technology Leadership
-      - Global Women Tech Leaders
-      - Venture Building & Scaling
-      - Technology Policy & Regulation
-      - Personal Brand as Tech Leader
-    - Month 12: Graduation & Global Impact
-      - Final Capstone - Industry Transformation
-      - Queen Coders Summit Preparation
-      - Career Acceleration & Placement
-      - Queen Coders Global Summit
-      - Graduation & Coronation Ceremony
-    - Beyond Graduation: Lifetime Queendom
-      - Queen's Advisory Council
-      - Queen's Innovation Lab
-      - Queen's Global Network
-      - Queen's Eternal Legacy
-    - The Queen Coders Dynasty
-      - Queens Changing the World
-      - Queens Building Empires
-      - Queens Forever - Your Reign Begins
+      - Technical Leadership Skills
+    - Month 8: Leading Engineers
+      - Engineering Leadership
+      - Engineering Management vs the Senior IC Road
+  - PHASE 4: The Finale (Month 9, Weeks 33-36)
+    Community leadership, the architecture capstone, and the final defense.
+    - Month 9: Capstone and Defense
+      - Open Source and Community Leadership
+      - Capstone Build: The Architecture Dossier
+      - The Final Defense
 
-**Projects students build:** Design and implement a distributed cache system; Build a custom ORM framework; Create a microservices architecture blueprint; Implement advanced design patterns library; Multi-region Kubernetes deployment; Serverless e-commerce backend; Infrastructure automation with Terraform; Cloud cost optimization audit tool; Build a sharded database system; Real-time analytics pipeline with Kafka; Graph-based recommendation engine; Data warehouse ETL pipeline; Build a high-performance web server; Optimize a slow application (10x improvement); Implement custom load balancer - plus 205 more on the course page.
+**Projects students build:** Design and implement a distributed cache system; Build a custom ORM framework; Create a microservices architecture blueprint; Implement advanced design patterns library; Multi-region Kubernetes deployment; Serverless e-commerce backend; Infrastructure automation with Terraform; Cloud cost optimization audit tool; Build a sharded database system; Real-time analytics pipeline with Kafka; Graph-based recommendation engine; Data warehouse ETL pipeline; Build a high-performance web server; Optimize a slow application (10x improvement); Implement custom load balancer - plus 52 more on the course page.
 
-### React for Teens: Build Real Apps, Zero to Pro Developer
+### React Course for Teens: JavaScript to Real React Apps
 
-`/courses/react-for-teens-complete-masterclass` · 12 months (52 weeks) · Complete Beginner to Professional React Developer
+`/courses/react-for-teens-complete-masterclass` · 9-11 months (36-44 weeks) · Absolute beginner, ages 13 to 18
 
-  - PHASE 1: Web Foundations & JavaScript (Months 1-3, Weeks 1-13)
-    Start from absolute zero and build the foundation you need for React. Learn how websites work and master JavaScript through fun, interactive projects.
-    - Months 1-2: HTML, CSS & Web Basics
+  - PHASE 1: Web and JavaScript Foundations (Months 1-3, Weeks 1-12)
+    The real base React stands on: HTML, CSS and JavaScript learned deeply, through the DOM and modern ES6+, ending with a deployed project.
+    - Month 1: The Web, Properly
       - Your First Steps in Web Development
       - CSS - Making Things Look Amazing
+    - Month 2: Modern CSS and First JavaScript
       - Advanced CSS & Modern Web Design
       - JavaScript Fundamentals - Programming Basics
-    - Month 3: JavaScript Mastery for React
+    - Month 3: The DOM and Modern JavaScript
       - JavaScript DOM Manipulation
       - Modern JavaScript (ES6+) for React
-      - JavaScript Project Week & React Prep
-  - PHASE 2: React Fundamentals & Core Concepts (Months 4-6, Weeks 14-26)
-    Dive into React! Learn the library that powers Facebook, Instagram, Netflix, and countless other apps. Build your first React applications.
-    - Months 4-5: React Basics & Components
+  - PHASE 2: React Core (Months 4-6, Weeks 13-24)
+    React the way it is actually written: components and props, state and hooks, routing, real data with honest loading states, and styling that scales.
+    - Month 4: Components and State
       - Introduction to React
       - React State & Interactivity
+    - Month 5: Hooks and Routing
       - React Hooks Deep Dive
       - React Router & Navigation
-      - Working with APIs in React
-    - Month 6: Building Real React Applications
+    - Month 6: Real Data and Styling
+      - Data and APIs in React
       - Styling React Applications
+  - PHASE 3: React Craft (Months 7-8, Weeks 25-32)
+    What separates builders from tutorial-followers: forms done right, state at scale, TypeScript, and testing with performance judgment.
+    - Month 7: Forms and State at Scale
       - Forms & Validation in React
-      - React Performance Optimization
-      - Testing React Applications
-      - Phase 2 Capstone Project
-  - PHASE 3: Advanced React & State Management (Months 7-9, Weeks 27-39)
-    Master advanced React patterns, state management, real-time features, and start building production-ready applications.
-    - Months 7-8: State Management & Advanced Patterns
-      - Context API & Global State
-      - Redux State Management
-      - Alternative State Management
-      - Advanced React Patterns
-      - Real-time Features with WebSockets
-    - Month 9: Full Stack React Development
-      - Backend Basics for React Developers
-      - GraphQL with React
-      - Authentication & Security
-      - Deployment & DevOps Basics
-      - Phase 3 Capstone Project
-    - Month 9 (Extended): Advanced Topics
+      - State at Scale: Context and Beyond
+    - Month 8: TypeScript and Quality
       - TypeScript with React
-      - React Ecosystem & Libraries
-      - Progressive Web Apps (PWAs)
-      - React Performance Mastery
-      - Advanced Project Week
-  - PHASE 4: Professional React & Career Preparation (Months 10-12, Weeks 40-52)
-    Master React Native, Next.js, advanced architectures, and prepare for your career as a professional React developer.
-    - Months 10-11: React Native & Mobile Development
-      - React Native Fundamentals
-      - React Native Advanced Features
-      - Next.js for Production React
-      - Advanced Next.js & Full Stack
-      - Remix Framework Introduction
-    - Month 11-12: Professional Skills & Career Prep
-      - Advanced Architecture Patterns
-      - Open Source Contribution
-      - Interview Preparation
-      - Freelancing & Entrepreneurship
-      - Advanced React Ecosystem
-    - Month 12: Final Projects & Graduation
-      - Capstone Project Planning
-      - Capstone Development Sprint 1
-      - Capstone Development Sprint 2
-      - Launch Week & Presentation
-    - Final Week & Beyond
-      - Career Launch & Next Steps
-      - Graduation & Celebration
-      - Bonus Week: Emerging Technologies
+      - Testing and Performance
+  - PHASE 4: Ship (Month 9, Weeks 33-36)
+    An honest taste of Next.js, then the main event: the capstone built, deployed and defended at demo day.
+    - Month 9: Next Taste, Capstone, Demo Day
+      - A Taste of Next.js
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Demo Day and the Final Exam
 
-**Projects students build:** Personal profile page about your interests; Fan page for your favorite artist/game/show; School club or team website; Animated landing page for a fake startup; Instagram-style photo gallery; Responsive blog design with dark mode; Animated movie poster with hover effects; Spotify-inspired music player UI; Gaming website with parallax scrolling; Grade calculator for school; Simple quiz game about your interests; Password strength checker; Interactive todo list with local storage; Countdown timer for events; Simple drawing app with canvas - plus 127 more on the course page.
+**Projects students build:** Personal profile page about your interests; Fan page for your favorite artist/game/show; School club or team website; Animated landing page for a fake startup; Instagram-style photo gallery; Responsive blog design with dark mode; Animated movie poster with hover effects; Spotify-inspired music player UI; Gaming website with parallax scrolling; Grade calculator for school; Simple quiz game about your interests; Password strength checker; Interactive todo list with local storage; Countdown timer for events; Simple drawing app with canvas - plus 37 more on the course page.
 
-### React.js Masterclass: Zero to Senior Frontend Developer
+### React Masterclass: JavaScript to Production React
 
-`/courses/react-js-complete-masterclass-college` · 12 months (52 weeks) · Complete Beginner to Senior React Developer
+`/courses/react-js-complete-masterclass-college` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
   - PHASE 1: JavaScript & React Fundamentals (Months 1-3, Weeks 1-13)
     Build rock-solid foundations in JavaScript ES6+ and React core concepts, components, and hooks.
@@ -8917,27 +8180,15 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Micro-Frontends & Module Federation
       - Progressive Web Apps (PWA)
       - Phase 3 Capstone Project
-  - PHASE 4: React Native & Professional Development (Months 10-12, Weeks 40-52)
-    Master React Native, deployment, DevOps, and prepare for senior developer roles.
-    - Months 10-11: React Native & Mobile Development
-      - React Native Fundamentals
-      - Advanced React Native
-      - React Native Deployment
-      - Full-Stack React Development
-      - DevOps for React
-    - Month 12: Career Launch & Specialization
-      - Advanced Patterns & Architecture
-      - Interview Preparation
-      - Portfolio & Personal Brand
-      - Specialization Paths
-      - Final Project & Graduation
-    - Continuous Learning & Growth
-      - Staying Current with React
-      - Advanced Topics
-      - Teaching & Mentoring
-      - Leadership & Architecture
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** JavaScript utility functions library; Todo app with vanilla JavaScript; Weather app with API calls; Array manipulation exercises; First React app setup; Static website with React; Personal portfolio starter; JSX exercises and experiments; Component library creation; Blog post list component; Product card components; Navigation menu component; Interactive counter app; Form with validation; Todo list with state - plus 149 more on the course page.
+**Projects students build:** JavaScript utility functions library; Todo app with vanilla JavaScript; Weather app with API calls; Array manipulation exercises; First React app setup; Static website with React; Personal portfolio starter; JSX exercises and experiments; Component library creation; Blog post list component; Product card components; Navigation menu component; Interactive counter app; Form with validation; Todo list with state - plus 97 more on the course page.
 
 ### Roblox Game Coding for Kids: Build Real Games in Luau
 
@@ -9005,9 +8256,9 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Personal score map: your exact domains, question types and target; First timed mini-module under real Digital SAT pacing; Break-even mini-case solved by equation, table and graph; Error-log review: your system-question mistakes classified and closed; Function-transformation exploration built live in Desmos; Mixed timed set: algebra domain at full pace; Algebra checkpoint mock + personal pacing plan v1; Updated error log with closed vs open gap list; Projectile/revenue modeling mini-case solved by vertex reasoning; Timed hard-module quadratic set with full review; Growth-model comparison case: same data, linear vs exponential fits; Advanced Math domain checkpoint under timing; Data-interpretation sprint: 20 real chart questions under time; Full mixed-domain mock: first complete Digital SAT math section; Geometry domain checkpoint under timing - plus 5 more on the course page.
 
-### Scratch Programming for Kids: 3-Month Course, 50+ Projects
+### Scratch Coding for Kids: Zero to Real Games in 3 Months
 
-`/courses/scratch-programming-complete-course` · 3 months (12 weeks) · Complete Beginner to Advanced Scratch Developer
+`/courses/scratch-programming-complete-course` · 3-4 months (12-16 weeks) · Complete beginner, ages 6 to 12
 
   - Month 1: Scratch Foundations & Basic Game Development
     Master Scratch basics, create animations, and build your first games.
@@ -9024,11 +8275,12 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Advanced Game Creation
   - Month 3: Mastery and Advanced Projects
     Create professional games, master extensions, and prepare for text coding.
-    - Advanced Extensions and Hardware
+    - Extensions and AI Blocks
     - Physics and Simulation
     - Optimization and Professional Polish
     - Final Projects and Portfolio
-      - Professional Game Development
+
+**Projects students build:** THE CAPSTONE: an original game designed and built by the child, with levels, scoring and a polished start screen; Classic picks: an RPG adventure with quests, an educational quiz world, or an arcade game with increasing difficulty; A portfolio page collecting the course’s best 10 projects.
 
 ### Statistics & Probability: Data to Hypothesis Testing
 
@@ -9073,9 +8325,9 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** First dataset walk: load a real public dataset, document its variables, units and suspicious values before computing anything; Income exercise: a salary dataset summarised with mean and median, with a written note on why they disagree and which to report; Consistency study: two players or products with the same average compared on spread, with a recommendation written up; Chart audit: find one misleading chart in the wild, explain the distortion, and rebuild it honestly from the underlying data; Simulation warm-up: estimate a dice probability by simulation, compare with the exact answer, watch the gap shrink with more trials; Two-way table study: a real dataset cross-tabulated, with conditional probabilities read off and independence checked; Bayes explainer: work the medical test problem with natural frequencies and write an explanation a friend could follow; Game analysis: compute the expected value of a real lottery or carnival game and write the verdict in two sentences; Conversion study: model a marketing conversion scenario as a binomial and answer three business questions with it; Arrivals study: fit a Poisson model to real count data, compare observed and expected counts in a table; Normal check: test the 68-95-99.7 rule against a real dataset and report where it holds and where it breaks; Field guide build: your own one-page reference mapping real situations to binomial, Poisson, geometric, uniform or normal; Survey critique: take one published poll, identify its sampling method, and write three specific bias risks; CLT simulation: run the resampling experiment yourself in the spreadsheet or Python, and keep the charts as evidence; Interval report: a confidence interval for a real dataset's mean, reported in one correct sentence and one wrong-but-common sentence, labelled - plus 9 more on the course page.
 
-### Swift Programming Masterclass: Zero to iOS & macOS Pro
+### Swift and iOS Course: SwiftUI Apps from Zero
 
-`/courses/complete-swift-programming-masterclass-college` · 12 months (52 weeks) · Complete Beginner to iOS/macOS Professional
+`/courses/complete-swift-programming-masterclass-college` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
   - PHASE 1: Foundation & Core Swift Skills (Months 1-3, Weeks 1-13)
     Build rock-solid Swift fundamentals. Learn programming logic, master Swift syntax, protocol-oriented programming, and create your first iOS applications.
@@ -9090,73 +8342,120 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Protocols & Protocol-Oriented Programming
   - PHASE 2: Intermediate Swift & SwiftUI Mastery (Months 4-6, Weeks 14-26)
     Master advanced Swift features, enumerations, generics, error handling, SwiftUI fundamentals, and basic iOS app development.
-    - Months 4-5: Advanced Swift Features & SwiftUI Basics
+    - Month 4: Advanced Swift Features & SwiftUI Basics
       - Enumerations & Advanced Types
       - Error Handling & Advanced Error Management
       - Generics & Type System Deep Dive
       - SwiftUI Fundamentals - Part 1
       - SwiftUI Fundamentals - Part 2
-    - Month 6: Advanced SwiftUI & UIKit Fundamentals
+    - Month 5: Advanced SwiftUI & UIKit Fundamentals
       - SwiftUI Lists, Forms & Data Display
       - SwiftUI Animations & Custom Drawing
       - UIKit Fundamentals
       - Data Persistence - UserDefaults & File System
-      - Phase 2 Capstone Project
-    - PHASE 2 CONTINUED - Advanced Patterns & Core Data
+    - Month 6: Concurrency, Core Data & Combine
       - Swift Concurrency - Async/Await
       - Core Data Fundamentals
-      - Advanced Core Data
       - Combine Framework Fundamentals
       - Swift Package Manager & Project Organization
   - PHASE 3: Professional iOS Development (Months 7-9, Weeks 27-39)
     Master professional iOS development with networking, advanced architecture, testing, accessibility, and real-world app development patterns.
-    - Months 7-8: Networking & Architecture
+    - Month 7: Networking & Architecture
       - Networking with URLSession
       - Advanced Networking & Authentication
       - App Architecture - MVVM
       - Advanced Architecture & The Composable Architecture
       - Unit Testing & Test-Driven Development
-    - Month 9: UI Testing, Accessibility & Advanced Features
+    - Month 8: UI Testing, Accessibility & Advanced Features
       - UI Testing & Snapshot Testing
       - Accessibility & Localization
       - Maps, Location & Background Tasks
       - Push Notifications & App Extensions
       - Camera, Photos & Media
-    - PHASE 3 COMPLETION - Month 9 Final Week
+    - Month 9: Performance, Purchases & Security
       - App Performance & Optimization
       - In-App Purchases & Subscriptions
       - Security & Data Protection
-      - Design Patterns & Best Practices
-      - Phase 3 Capstone Project
-  - PHASE 4: Expert Development, Multi-Platform & Career Excellence (Months 10-12, Weeks 40-52)
-    Master advanced topics, multi-platform development, App Store publishing, CI/CD, and career preparation.
-    - Months 10-11: Multi-Platform & Advanced Topics
-      - SwiftUI Advanced Topics
-      - WidgetKit & App Intents
-      - macOS Development with SwiftUI
-      - watchOS & tvOS Development
-      - visionOS & Spatial Computing
-    - Month 12: App Store, CI/CD & Career Excellence
-      - App Store Submission & Distribution
-      - CI/CD & Automation
-      - Analytics, Crash Reporting & Monitoring
-      - Server-Side Swift & Backend Integration
-      - SwiftData & Modern Persistence (iOS 17+)
-    - PHASE 4 COMPLETION - Career Preparation
-      - Advanced Topics & Specializations
-      - Code Quality & Professional Practices
-      - Open Source & Community
-      - Interview Preparation
-    - Final Month - Capstone & Career Launch
-      - Final Capstone Project - Part 1
-      - Final Capstone Project - Part 2
-      - Career Launch & Professional Development
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** Hello World variations with personalized messages in Playground; Simple output programs using print() function; Personal information display program; ASCII art generator in Swift Playground; Interactive Playground with markdown documentation; Simple calculator (four basic operations) in Playground; Temperature converter (Celsius, Fahrenheit, Kelvin); Age calculator with optional handling; BMI calculator with health categories; Currency converter with type safety; Area and perimeter calculator for shapes; Compound interest calculator; String formatter and validator; Number guessing game with attempts limit; Grade calculator with letter grades using switch - plus 380 more on the course page.
+**Projects students build:** Hello World variations with personalized messages in Playground; Simple output programs using print() function; Personal information display program; ASCII art generator in Swift Playground; Interactive Playground with markdown documentation; Simple calculator (four basic operations) in Playground; Temperature converter (Celsius, Fahrenheit, Kelvin); Age calculator with optional handling; BMI calculator with health categories; Currency converter with type safety; Area and perimeter calculator for shapes; Compound interest calculator; String formatter and validator; Number guessing game with attempts limit; Grade calculator with letter grades using switch - plus 258 more on the course page.
 
-### TypeScript Programming: Zero to Enterprise Developer
+### Trading Automation Course: Bots, Backtesting & Systems
 
-`/courses/complete-typescript-programming-masterclass-college` · 12 months (52 weeks) · Complete Beginner to Enterprise Professional
+`/courses/algorithmic-trading-automation-masterclass` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
+
+  - PHASE 1: Financial Markets & Python Foundation (Months 1-3, Weeks 1-13)
+    Build solid understanding of financial markets, trading fundamentals, and Python programming for finance.
+    - Month 1: Financial Markets Fundamentals
+      - Introduction to Financial Markets
+      - Trading Basics & Market Mechanics
+      - Python Setup for Finance
+      - Financial Data Acquisition
+    - Month 2: Technical Analysis & Indicators
+      - Classical Technical Analysis
+      - Technical Indicators Programming
+      - Fundamental Analysis Automation
+      - Market Analysis & Screening
+    - Month 3: Strategy Development & Backtesting
+      - Trading Strategy Design
+      - Backtesting Frameworks
+      - Performance Analytics
+      - Strategy Optimization
+  - PHASE 2: Advanced Strategies & Portfolio Management (Months 4-6, Weeks 14-26)
+    Master portfolio theory, risk management, advanced strategies, and quantitative methods.
+    - Month 4: Portfolio Theory & Risk Management
+      - Modern Portfolio Theory
+      - Risk Management Systems
+      - Advanced Trading Strategies
+      - Market Microstructure & Execution
+    - Month 5: Machine Learning for Trading
+      - ML Fundamentals for Trading
+      - Classification & Regression for Trading
+      - Deep Learning for Markets
+      - Alternative Data & NLP
+      - ML Model Deployment
+    - Month 6: Live Trading & Production Systems
+      - Broker APIs & Connectivity
+      - Paper Trading Implementation
+      - Live Trading Systems
+      - Cryptocurrency Trading
+  - PHASE 3: Production Systems and Advanced Applications (Months 7-9, Weeks 27-39)
+    From working strategies to production-grade systems: advanced instruments, trading infrastructure, cloud deployment, monitoring, compliance awareness and the safeguards that reliable automation demands.
+    - Month 7: Advanced Instruments and Institutional Concepts
+      - Options Trading Automation
+      - Futures & Derivatives Trading
+      - High-Frequency Trading Concepts
+      - Fixed Income & Forex Trading
+      - Quantitative Risk Analytics
+    - Month 8: Advanced Infrastructure & Deployment
+      - Trading Infrastructure Design
+      - Cloud Deployment for Trading
+      - Monitoring & Observability
+      - Compliance & Regulatory
+      - Testing & Quality Assurance
+    - Month 9: Advanced Applications and Market Making
+      - Advanced Machine Learning Applications
+      - Market Making & Liquidity Provision
+      - Alternative Trading Venues
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
+
+**Projects students build:** Market research report on major indices; Trading account setup (paper trading); Market terminology glossary; Paper trading diary with 10 trades; Risk-reward calculator; Trading cost analyzer; Python trading environment setup; Stock price data analyzer; Market statistics calculator; Multi-source data fetcher; Historical data downloader; Real-time price tracker; Financial database creator; Candlestick pattern detector; Support/resistance calculator - plus 137 more on the course page.
+
+### TypeScript Course: Typed JavaScript, React and Node
+
+`/courses/complete-typescript-programming-masterclass-college` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
 
   - PHASE 1: Foundation & TypeScript Fundamentals (Months 1-3, Weeks 1-13)
     Build rock-solid JavaScript and TypeScript fundamentals. Learn programming logic, master TypeScript syntax, type systems, and create your first applications.
@@ -9185,49 +8484,31 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Phase 2 Capstone Project
   - PHASE 3: Backend Engineering with Node.js & TypeScript (Months 7-9, Weeks 27-39)
     Master server-side development with Node.js, Express, databases, REST APIs, authentication, and production deployment.
-    - Months 7-8: Node.js & Express Fundamentals
+    - Month 7: Node.js & Express Fundamentals
       - Node.js Fundamentals
       - Express.js Framework
       - REST API Design & Best Practices
       - Database Fundamentals - SQL
       - ORMs - Prisma & Drizzle
-    - Month 9: Authentication, NoSQL & Advanced Backend
+    - Month 8: Production Backend: Observability, Security & Deployment
       - Authentication & Authorization
       - NoSQL Databases - MongoDB
       - Caching, Sessions & Real-time
       - Email, File Storage & External Services
       - Testing Backend Applications
-    - PHASE 3 COMPLETION - Advanced Backend
-      - Background Jobs & Message Queues
+    - Month 9: Production Backend: Observability, Security & Deployment
       - Logging, Monitoring & Observability
       - Security & API Protection
       - Docker & Deployment
-      - Phase 3 Capstone Project
-  - PHASE 4: Full-Stack Mastery & Enterprise Development (Months 10-12, Weeks 40-52)
-    Master Next.js, GraphQL, microservices architecture, cloud-native development, DevOps, system design, and career preparation.
-    - Months 10-11: Next.js, GraphQL & Advanced Full-Stack
-      - Next.js Fundamentals
-      - Advanced Next.js & Server Actions
-      - GraphQL Fundamentals
-      - Advanced GraphQL & tRPC
-      - Microservices Architecture
-    - Month 12: Cloud, DevOps & Career Excellence
-      - Cloud Platforms & Serverless
-      - CI/CD & DevOps Practices
-      - System Design & Architecture
-      - Performance & Optimization
-      - Advanced TypeScript Patterns
-    - PHASE 4 COMPLETION - Career Preparation
-      - Code Quality & Best Practices
-      - Open Source & Community
-      - Interview Preparation
-      - Final Capstone Planning
-    - Final Month - Capstone & Career Launch
-      - Final Capstone Project - Part 1
-      - Final Capstone Project - Part 2
-      - Career Launch & Professional Development
+  - PHASE 4: The Finale (Month 10, Weeks 40-44)
+    The capstone month: spec, build, ship and defend, then the final exam that decides the certificate.
+    - Month 10: Capstone and the Final Exam
+      - Capstone Spec and Setup
+      - Capstone Build
+      - Ship and Polish
+      - Demo Day and the Final Exam
 
-**Projects students build:** Hello World variations with personalized messages; Simple output programs using console.log; Personal information display program; ASCII art generator in JavaScript; Interactive greeting program; Simple calculator (four basic operations); Temperature converter (Celsius, Fahrenheit, Kelvin); Age calculator with detailed output; BMI calculator with health categories; Currency converter with exchange rates; Area and perimeter calculator for shapes; Compound interest calculator; Number guessing game with attempts limit; Grade calculator with letter grades; Even/odd checker and list generator - plus 287 more on the course page.
+**Projects students build:** Hello World variations with personalized messages; Simple output programs using console.log; Personal information display program; ASCII art generator in JavaScript; Interactive greeting program; Simple calculator (four basic operations); Temperature converter (Celsius, Fahrenheit, Kelvin); Age calculator with detailed output; BMI calculator with health categories; Currency converter with exchange rates; Area and perimeter calculator for shapes; Compound interest calculator; Number guessing game with attempts limit; Grade calculator with letter grades; Even/odd checker and list generator - plus 192 more on the course page.
 
 ### Vedic Maths Mastery: Speed Calculation with All 16 Sutras
 
@@ -9347,74 +8628,44 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Personal Bio Generator, asks 5 questions and prints a formatted story about you; Simple Calculator, performs all 4 operations with user input; Mad Libs Creator, fill-in-the-blank story generator; Number Guessing Game, with hints, attempts counter, and high score; Times Table Generator, print any multiplication table on demand; Password Strength Checker, analyses a password and gives a strength rating; Dice Rolling Simulator, roll any number of sides, track statistics; Tip Calculator, restaurant bill splitter with formatted output; Word Counter, analyses a paragraph for word count, unique words, and top 5 most used; Contact Manager, add, search, update, delete contacts saved to a file; Student Grade Tracker, stores grades in JSON and calculates averages; Vocabulary Flash Card App, add words, quiz yourself, track score; Personal Portfolio Page v1, bio, skills, and contact section in pure HTML; Recipe Website, multi-page site with ingredients and instructions; Event Landing Page, HTML structure for a fictional school event - plus 19 more on the course page.
 
-### Web Development for Kids: Build Websites with HTML, CSS & AI
+### Web Development for Kids: Build Real Websites
 
-`/courses/kids-ai-web-development-course` · 12 months (52 weeks) · Complete Beginner to Advanced Young Developer
+`/courses/kids-ai-web-development-course` · 8-10 months (32-40 weeks) · Complete beginner, ages 9 to 12
 
-  - PHASE 1: HTML Foundation & AI Introduction (Months 1-3, Weeks 1-13)
-    Start your coding adventure! Learn HTML basics while using AI assistants to help you code faster and smarter.
-    - Months 1-2: HTML Basics & Your First Websites
-      - Welcome to Web Development & AI Tools Setup
+  - PHASE 1: HTML World (Months 1-2, Weeks 1-8)
+    The structure of every website, hand-typed: text, images, links, forms, tables and multimedia, each week ending with a page to show the family.
+    - Month 1: First Pages
+      - Welcome to Web Development
       - HTML Elements Zoo - Text, Images & Links
+    - Month 2: HTML Powers
       - Fun with Forms & Tables
       - Multimedia Magic - Audio, Video & Canvas
-    - Month 3: CSS Foundations & AI-Powered Styling
+  - PHASE 2: CSS Magic (Months 3-4, Weeks 9-16)
+    The art layer: colors, fonts, the box model, then the two great layout tools, flexbox and grid, used to make pages genuinely beautiful.
+    - Month 3: Style Arrives
       - CSS Basics - Making Websites Beautiful
       - CSS Box Model & Spacing Magic
-      - Phase 1 Celebration Project
-  - PHASE 2: Advanced CSS & Animation Magic (Months 4-6, Weeks 14-26)
-    Level up your design skills! Master advanced CSS, create stunning animations, and use AI to generate professional designs.
-    - Months 4-5: CSS Layouts & Responsive Design
+    - Month 4: Layout Superpowers
       - Flexbox - The Flexible Layout System
       - CSS Grid - The Ultimate Layout Tool
+  - PHASE 3: JavaScript Sparks (Months 5-6, Weeks 17-24)
+    Pages that fit every screen, then the big step: first real programming, decisions, loops and little games, in the language of the web.
+    - Month 5: Every Screen, First Code
       - Responsive Design - Mobile First!
-      - CSS Transforms & Transitions
-      - CSS Animations & Keyframes
-    - Month 6: Advanced Styling & AI Design Tools
-      - Advanced CSS Effects & Filters
-      - CSS Frameworks & Libraries
-      - AI-Powered Design Tools
-      - CSS Best Practices & Organization
-      - Phase 2 Showcase Project
-  - PHASE 3: JavaScript & AI Integration (Months 7-9, Weeks 27-39)
-    Add interactivity to your websites! Learn JavaScript basics and use AI to write complex code easily.
-    - Months 7-8: JavaScript Fundamentals
       - JavaScript Basics - Making Websites Interactive
+    - Month 6: Logic, Loops and Little Games
       - JavaScript Logic & Decisions
       - Loops & Arrays - Handling Multiple Items
+  - PHASE 4: Real Sites (Months 7-8, Weeks 25-32)
+    Functions and DOM magic, proper publishing, one honest look at how professionals use AI, and the capstone site presented at demo day.
+    - Month 7: DOM Magic
       - Functions - Reusable Code Blocks
-      - Objects - Organizing Related Data
-    - Month 9: DOM & AI-Powered Interactivity
       - DOM Manipulation - Changing Websites with JavaScript
-      - Events - Responding to User Actions
-      - Local Storage & Data Persistence
-      - APIs & External Data
-      - Phase 3 Interactive Project
-  - PHASE 4: Professional Projects & AI Mastery (Months 10-12, Weeks 40-52)
-    Build professional websites using advanced AI tools, learn modern web development practices, and create your portfolio.
-    - Months 10-11: Advanced AI Tools & Modern Development
-      - Advanced AI Coding Assistants
-      - AI Website Builders & No-Code Tools
-      - Version Control with Git & GitHub
-      - Modern JavaScript Frameworks Introduction
-      - Web Accessibility & Best Practices
-    - Month 12: Final Projects & Portfolio
-      - Portfolio Development & Personal Branding
-      - Real-World Client Projects
-      - Advanced Project: Full-Stack Application
-      - Performance & Optimization
-      - Career Preparation & Future Learning
-    - Final Month: Capstone & Graduation
-      - Final Capstone Project Planning
-      - Final Capstone Development
-      - Testing, Polish & Deployment
-      - Presentation & Celebration
-    - Bonus Content & Extended Learning
-      - Advanced AI Integration
-      - Mobile App Development Basics
-      - Lifetime Learning Resources
+    - Month 8: Publish, Look Ahead, and the Finale
+      - Publish and Shine
+      - Capstone and the Final Exam
 
-**Projects students build:** Create 'All About Me' webpage with AI suggestions; Build a digital pet profile page; Make a birthday invitation webpage; Digital photo album with captions; My favorite YouTube videos collection; Interactive storybook with multiple pages; School project presentation website; Personality quiz generator with AI questions; Friend information collector form; Class schedule table; Restaurant menu with order form; Personal video channel page; Music playlist website; Digital art gallery with canvas; Multimedia learning resource page - plus 150 more on the course page.
+**Projects students build:** Build a digital pet profile page; Make a birthday invitation webpage; Digital photo album with captions; My favorite YouTube videos collection; Interactive storybook with multiple pages; School project presentation website; Friend information collector form; Class schedule table; Restaurant menu with order form; Personal video channel page; Music playlist website; Digital art gallery with canvas; Multimedia learning resource page; Rainbow text website; Colorful mood board page - plus 40 more on the course page.
 
 ---
 

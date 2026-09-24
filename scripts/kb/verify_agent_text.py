@@ -159,6 +159,28 @@ for i in leak[:5]:
 if leak:
     fails.append('%d lines quote both regions together outside PART 4' % len(leak))
 
+# --- 8. the India one to one schedule. It is one class a week, four a month
+#        (display.classesPerMonthOverrides); saying "two a week" misleads a parent.
+disp = cfg.get('display', {})
+in_personal = int(disp.get('classesPerMonthOverrides', {}).get('coding.india.personal',
+                                                               disp.get('classesPerMonth', 8)))
+if in_personal == 4:
+    need = 'One to one: Rs %s a month, one live class a week, four a month' % format(
+        int(PLANS['coding']['india']['personal']), ',d')
+    if need not in flat:
+        fails.append('PART 4 does not state the India one to one schedule: %s' % need)
+    # Gemini Enterprise has its own row (two a week), so only the standard fee counts.
+    wrong_sched = [x for x in re.findall(r'[^.]{0,220}one to one in India (?:two|2|eight|8)[^.]{0,40}', flat, re.I)
+                   if 'Rs %s' % format(int(PLANS['coding']['india']['personal']), ',d') in x]
+    wrong_sched += [x for x in re.findall(r'[^.]{0,120}Rs 4,999[^.]{0,120}', flat)
+                    if re.search(r'\b(two|2) (private |live )?(classes|sessions)|\b(eight|8) (classes|a month)', x, re.I)
+                    and not re.search(r'mini batch|group|never describe|outside India', x, re.I)]
+    print('India one to one given a two-a-week schedule %d' % len(wrong_sched))
+    for x in wrong_sched[:5]:
+        print('    ' + x.strip()[:160])
+    if wrong_sched:
+        fails.append('%d places describe the India one to one plan as two classes a week' % len(wrong_sched))
+
 print()
 if fails:
     print('FAIL')
