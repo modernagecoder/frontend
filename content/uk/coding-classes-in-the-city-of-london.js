@@ -77,7 +77,7 @@ module.exports = {
           ['Residents at the 2021 Census', '8,583, the fewest of London\'s 33 local authorities', 'ONS table TS001'],
           ['Heritage List entries we counted inside the City', '613: 86 Grade I, 83 Grade II*, 444 Grade II', 'Historic England data, 26 September 2026'],
           ['St Paul\'s Cathedral built', '1675 to 1710, by Sir Christopher Wren', 'Historic England list entry 1079157'],
-          ['Lines at Bank', 'Central, DLR and Waterloo & City', 'TfL open data, checked 26 September 2026']
+          ['Lines at Bank', 'Central, Northern and Waterloo & City on the Underground, plus the DLR', 'TfL open data, checked 26 September 2026']
         ] },
         { kind: 'grid3', mt: true, cells: [
           { h3: 'Wren\'s City', p: 'St Paul\'s Cathedral and the Monument are both Grade I, as are many City churches such as St Mary le Bow, St Bride and St Mary Woolnoth.' },
@@ -114,7 +114,7 @@ module.exports = {
           ['Closest parabola', '35 mm', '25 mm'],
           ['Sag at the middle', 'chain 1.0055 m', 'catenary 1.0053 m']
         ] },
-        { kind: 'p', text: 'The catenary matches the computed chain to within a fifth of a millimetre over a two-metre span; the closest parabola misses by up to three and a half centimetres, over two hundred times worse. Yet when the chain hangs only slightly, 2.1 metres of chain on the same pins, the parabola comes within 1.3 millimetres, which is why the two are so easily confused. The flip side shows why the shape matters for building: a semicircular arch of the same height strays far from the ideal curve, by about a fifth of the half-span near its base.' },
+        { kind: 'p', text: 'The catenary matches the computed chain to within a fifth of a millimetre over a two-metre span; the closest parabola misses by up to three and a half centimetres, about two hundred times worse. Yet when the chain hangs only slightly, 2.1 metres of chain on the same pins, the parabola comes within 1.3 millimetres, which is why the two are so easily confused. The flip side shows why the shape matters for building: a semicircular arch of the same height strays far from the ideal curve, by about a fifth of the half-span near its base.' },
         { kind: 'callout', h3: 'Why do this when an AI can state the answer?', p: 'Ask an AI what shape a hanging chain makes and it will say "a catenary". A learner who has made a computer find that shape from nothing but energy and constraints, then measured how far a parabola misses, has seen physics emerge from a calculation. That skill, turning a principle into a program and testing the result, is how engineers and scientists work with or without AI.' }
       ]
     },
@@ -137,7 +137,7 @@ module.exports = {
       intro: 'The City is criss-crossed by Tube, DLR and rail lines. Our lessons need none of them.',
       body: [
         { kind: 'grid3', cells: [
-          { h3: 'Bank', p: 'TfL\'s open data lists the Central line, the DLR and the Waterloo & City line at Bank.' },
+          { h3: 'Bank', p: 'TfL\'s open data lists the Central, Northern and Waterloo & City lines at Bank Underground station, with the DLR alongside.' },
           { h3: 'Barbican to Aldgate', p: 'Families in the Barbican estate and near Aldgate can join the same class without stepping outside.' },
           { h3: 'Small and steady', p: 'The City has few residents, so our classes gather learners from everywhere: five to ten at one stage, two evenings a week.' }
         ] },
@@ -246,7 +246,7 @@ module.exports = {
 `,
 
   dossier: {
-    curriculumAuthority: 'City of London. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000001): 8,583 usual residents; smallest of E09000001-33. Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 26 September 2026: 613 (I 86, II* 83, II 444); Grade I include 1079157 Cathedral Church of St Paul (1675 to 1710, Sir Christopher Wren, rebuilding after the Great Fire, Portland stone, central dome), 1193901 The Monument (1671 to 77 by Wren, commemorating the Great Fire of 1666 which began nearby), 1064696 CHURCH OF ST MARY LE BOW, 1064657 CHURCH OF ST BRIDE, 1064620 CHURCH OF ST MARY WOOLNOTH, 1064675 GUILDHALL, 1064604 Mansion House, 1064713 Royal Exchange, 1079134 BANK OF ENGLAND, 1064609 MIDDLE TEMPLE HALL, 1064646 TEMPLE CHURCH (ST MARY\'S), 1180873 CHURCH OF ST BARTHOLOMEW THE GREAT, 1079115 The Gatehouse, St Bartholomew\'s Hospital. TfL HUBBAN (Bank): Central, DLR, Waterloo & City. cityoflondon.gov.uk library URLs tried returned 404 on 26 September 2026; none named.',
+    curriculumAuthority: 'City of London. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000001): 8,583 usual residents; smallest of E09000001-33. Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 26 September 2026: 613 (I 86, II* 83, II 444); Grade I include 1079157 Cathedral Church of St Paul (1675 to 1710, Sir Christopher Wren, rebuilding after the Great Fire, Portland stone, central dome), 1193901 The Monument (1671 to 77 by Wren, commemorating the Great Fire of 1666 which began nearby), 1064696 CHURCH OF ST MARY LE BOW, 1064657 CHURCH OF ST BRIDE, 1064620 CHURCH OF ST MARY WOOLNOTH, 1064675 GUILDHALL, 1064604 Mansion House, 1064713 Royal Exchange, 1079134 BANK OF ENGLAND, 1064609 MIDDLE TEMPLE HALL, 1064646 TEMPLE CHURCH (ST MARY\'S), 1180873 CHURCH OF ST BARTHOLOMEW THE GREAT, 1079115 The Gatehouse, St Bartholomew\'s Hospital. TfL HUBBAN (Bank): Underground child 940GZZLUBNK = Central, Northern, Waterloo & City; 940GZZDLBNK = DLR. cityoflondon.gov.uk library URLs tried returned 404 on 26 September 2026; none named.',
     localProject: 'Chain of n = 60 equal links, total length 3.0 m, ends pinned at (-1, 0) and (1, 0); link angles as variables; minimise gravitational potential (sum of link midpoint heights) subject to end constraints, SciPy SLSQP (ftol 1e-14): converged, sag 1.00545 m. Exact catenary a from 2a sinh(1/a) = 3: a = 0.61647, sag 1.00527. Catenary vs chain: rms 0.00011 m, max 0.00018 m. Best parabola y = k(x^2 - 1): rms 0.02482, max 0.03536 (224x catenary rms). Shallow chain length 2.1: sag 0.2786, best parabola max gap 0.00125. Rise equal to half-span (a = 0.6188): semicircle minus inverted catenary up to 0.2144 at x = -0.895. No geometric claim about any real City structure. Lesson family: catenary via constrained energy minimisation; screened 26 September 2026.',
     requiredMentions: [
       '8,583',
@@ -264,7 +264,7 @@ module.exports = {
       { claim: 'Historic England list entry 1079157, Cathedral Church of St Paul: 1675 to 1710 by Wren.', url: 'https://historicengland.org.uk/listing/the-list/list-entry/1079157' },
       { claim: 'Historic England list entry 1193901, The Monument: 1671 to 77 by Wren, commemorating the Great Fire of 1666.', url: 'https://historicengland.org.uk/listing/the-list/list-entry/1193901' },
       { claim: 'Historic England NHLE listed building points inside the ONS boundary of the City of London on 26 September 2026: 613 (86 I, 83 II*, 444 II).', url: 'https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0' },
-      { claim: 'TfL Unified API, StopPoint HUBBAN (Bank): Central, DLR, Waterloo & City.', url: 'https://api.tfl.gov.uk/StopPoint/HUBBAN' }
+      { claim: 'TfL Unified API, StopPoint HUBBAN (Bank): Central, Northern and Waterloo & City (940GZZLUBNK) plus DLR (940GZZDLBNK).', url: 'https://api.tfl.gov.uk/StopPoint/HUBBAN' }
     ],
     rejectedClaims: [
       'That St Paul\'s dome, or any City arch, follows a catenary: not in the list entries read; explicitly not claimed.',

@@ -47,7 +47,7 @@ Each number here is the named organisation's own, or our count of its open data.
 | Residents at the 2021 Census | 8,583, the fewest of London's 33 local authorities | ONS table TS001 |
 | Heritage List entries we counted inside the City | 613: 86 Grade I, 83 Grade II*, 444 Grade II | Historic England data, 26 September 2026 |
 | St Paul's Cathedral built | 1675 to 1710, by Sir Christopher Wren | Historic England list entry 1079157 |
-| Lines at Bank | Central, DLR and Waterloo & City | TfL open data, checked 26 September 2026 |
+| Lines at Bank | Central, Northern and Waterloo & City on the Underground, plus the DLR | TfL open data, checked 26 September 2026 |
 
 ### Wren's City
 
@@ -103,7 +103,7 @@ Fit the exact catenary formula and the closest parabola to the chain the compute
 | Closest parabola | 35 mm | 25 mm |
 | Sag at the middle | chain 1.0055 m | catenary 1.0053 m |
 
-The catenary matches the computed chain to within a fifth of a millimetre over a two-metre span; the closest parabola misses by up to three and a half centimetres, over two hundred times worse. Yet when the chain hangs only slightly, 2.1 metres of chain on the same pins, the parabola comes within 1.3 millimetres, which is why the two are so easily confused. The flip side shows why the shape matters for building: a semicircular arch of the same height strays far from the ideal curve, by about a fifth of the half-span near its base.
+The catenary matches the computed chain to within a fifth of a millimetre over a two-metre span; the closest parabola misses by up to three and a half centimetres, about two hundred times worse. Yet when the chain hangs only slightly, 2.1 metres of chain on the same pins, the parabola comes within 1.3 millimetres, which is why the two are so easily confused. The flip side shows why the shape matters for building: a semicircular arch of the same height strays far from the ideal curve, by about a fifth of the half-span near its base.
 
 ### Why do this when an AI can state the answer?
 
@@ -133,7 +133,7 @@ The City is criss-crossed by Tube, DLR and rail lines. Our lessons need none of 
 
 ### Bank
 
-TfL's open data lists the Central line, the DLR and the Waterloo & City line at Bank.
+TfL's open data lists the Central, Northern and Waterloo & City lines at Bank Underground station, with the DLR alongside.
 
 ### Barbican to Aldgate
 
