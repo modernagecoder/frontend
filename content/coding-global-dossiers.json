@@ -21232,5 +21232,56 @@
       "Heathrow Airport statistics: Heathrow is in Hillingdon, not Hounslow, and none are used.",
       "Census ethnicity, religion or country of birth for Hounslow: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-hillingdon-london": {
+    "market": "Hillingdon",
+    "bodyClass": "cg-hlg",
+    "pageType": "governorate",
+    "curriculumAuthority": "Hillingdon. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000017): 305,909 usual residents (300,420 households, 5,489 communal). Hillingdon Council, Library branches page, names read 25 September 2026: Botwell Green Library, Charville Library, Eastcote Library, Harefield Library, Hayes End Library, Ickenham Library, Manor Farm Library, Northwood Hills Library, Northwood Pop-up Library, Oak Farm Library, Ruislip Manor Library, South Ruislip Library, Uxbridge Library, West Drayton Library, Yeading Library, Yiewsley Library (16); mobile library page linked from the libraries page. Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 432 (I 9, II* 30, II 393); Grade I 1392556 GROUP OPERATIONS ROOM, 1194332 The Great Barn, Harmondsworth, 1080295 SWAKELEYS, 1080262 BREAKSPEAR HOUSE, 1080187 ICKENHAM MANOR; II* 1088113 Polish Air Force Memorial, 1242724 Heinz Administrative Headquarters and Former Research Laboratories. TfL Unified API StopPoint 940GZZLUUXB (Uxbridge), 25 September 2026: Metropolitan, Piccadilly. Met Office historic station data, heathrowdata.txt: \"Heathrow (London Airport) Location 507800E 176700N, Lat 51.479 Lon -0.449, 25m amsl\"; point-in-polygon: inside Hillingdon.",
+    "localProject": "LOESS on Heathrow annual mean temperature. heathrowdata.txt read 25 September 2026: 944 months 1948-01 to 2026-08; 8 provisional (2026) excluded; no estimated tmax/tmin values; complete years 1948-2025 (78). Annual mean = mean over 12 months of (tmax+tmin)/2. LOESS: local linear, tricube weights, k = ceil(span x n) nearest years. LOOCV RMSE: 0.15 0.543, 0.2 0.549, 0.25 0.542, 0.3 0.536, 0.4 0.536, 0.5 0.540, 0.6 0.541, 0.75 0.543, 0.9 0.546, 1.0 0.548; straight line 0.564; tie at 0.3/0.4 broken to the smaller span. Straight line slope 0.307 C/decade. LOESS (0.3): 1949 10.52, 1960 10.28, 1970 10.48, 1980 10.61, 1990 11.08, 2000 11.67, 2010 11.80, 2020 12.34, 2025 12.71; change 1949-1985 +0.25 (0.069/decade), 1985-2025 +1.94 (0.486/decade). Annual values: 1949 11.32, 1960 10.60, 1970 10.68, 1980 10.38, 1990 12.05, 2000 11.58, 2010 10.59, 2020 12.59, 2025 12.77. Warmest 2022 12.84, 2025 12.77, 2023 12.70; coolest 1963 9.32, 1962 9.37, 1956 9.45. Station to NHLE 1119717 (Roy base NW end, 507714,176789): about 124 m. Lesson family: LOESS with cross-validated span, screened free 25 September 2026.",
+    "requiredMentions": [
+      "305,909",
+      "Botwell Green",
+      "Charville",
+      "Yiewsley",
+      "Oak Farm Library",
+      "Group Operations Room",
+      "Great Barn",
+      "LOESS",
+      "507800E 176700N"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Hillingdon E09000017: 305,909 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000017&measures=20100"
+      },
+      {
+        "claim": "Hillingdon Council: library branches, sixteen names including Northwood Pop-up Library.",
+        "url": "https://www.hillingdon.gov.uk/library-branches"
+      },
+      {
+        "claim": "Historic England NHLE listed building points, inside the ONS boundary of Hillingdon on 25 September 2026: 432 (9 I, 30 II*, 393 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "Met Office historic station data, Heathrow: monthly tmax, tmin, air frost, rain and sun from 1948; location 507800E 176700N, 25 m amsl.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/heathrowdata.txt"
+      },
+      {
+        "claim": "ONS Local Authority Districts December 2024 boundaries (BFC), Hillingdon E09000017.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_December_2024_Boundaries_UK_BFC/FeatureServer/0"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint 940GZZLUUXB (Uxbridge), 25 September 2026: Metropolitan and Piccadilly lines.",
+        "url": "https://api.tfl.gov.uk/StopPoint/940GZZLUUXB"
+      }
+    ],
+    "rejectedClaims": [
+      "Heathrow Airport passenger or flight statistics: not read at a primary source for this build and not needed.",
+      "Any statement that the station's warming is due to airport growth or urban heat: not testable from one station's file, so the page lists it as an open question.",
+      "Library addresses: the branch page lists names; addresses were not read for every branch, so the page gives names only.",
+      "Individual Hillingdon state schools: not read at their own sites for this build, so none is named.",
+      "Census ethnicity, religion or country of birth for Hillingdon: never a standout; used only to order the build."
+    ]
   }
 }
