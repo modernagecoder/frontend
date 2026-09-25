@@ -141,7 +141,7 @@ module.exports = {
     {
       id: 'around', tint: '', eyebrow: 'Getting around',
       h2: 'Seven lines at Stratford, and none needed for class',
-      intro: 'Few corners of London have more trains than Newham. An online lesson still starts at the kitchen table.',
+      intro: 'TfL lists seven services at Stratford alone. An online lesson still starts at the kitchen table.',
       body: [
         { kind: 'grid3', cells: [
           { h3: 'Stratford', p: 'TfL\'s open data lists the Central and Jubilee lines, the DLR, the Elizabeth line, the Mildmay line, c2c and Greater Anglia at Stratford.' },
@@ -227,7 +227,7 @@ module.exports = {
   next: {
     eyebrow: 'Explore London',
     h2: 'More of London and the UK',
-    html: 'Every borough and the City appear on the <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a>, with links added as pages open, among them <a class="cg-inline-link" href="/coding-classes-in-barnet-london">Barnet</a> in the far north and <a class="cg-inline-link" href="/coding-classes-in-hillingdon-london">Hillingdon</a>, home to the other big airport, in the far west. Learners keen on prediction and machine learning can go on to our <a class="cg-inline-link" href="/ai-and-machine-learning-classes-in-london">AI and machine learning classes in London</a>, and the <a class="cg-inline-link" href="/coding-classes-in-united-kingdom">UK coding page</a> sets out how school stages differ between the four nations.',
+    html: 'Every borough and the City appear on the <a class="cg-inline-link" href="/best-coding-class-in-london">London page</a>, with links added as pages open, among them <a class="cg-inline-link" href="/coding-classes-in-barnet-london">Barnet</a> in the far north and <a class="cg-inline-link" href="/coding-classes-in-hillingdon-london">Hillingdon</a>, home to Heathrow, in the far west. Learners keen on prediction and machine learning can go on to our <a class="cg-inline-link" href="/ai-and-machine-learning-classes-in-london">AI and machine learning classes in London</a>, and the <a class="cg-inline-link" href="/coding-classes-in-united-kingdom">UK coding page</a> sets out how school stages differ between the four nations.',
     waLabel: 'Message us on WhatsApp'
   },
 

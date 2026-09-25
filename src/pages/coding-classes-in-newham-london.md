@@ -129,7 +129,7 @@ The Civil Aviation Authority, London City Airport, Newham Council, Historic Engl
 
 ## Seven lines at Stratford, and none needed for class
 
-Few corners of London have more trains than Newham. An online lesson still starts at the kitchen table.
+TfL lists seven services at Stratford alone. An online lesson still starts at the kitchen table.
 
 ### Stratford
 
@@ -231,7 +231,7 @@ By level, pace and goals rather than by age or neighbourhood, with five to ten l
 
 ## More of London and the UK
 
-Every borough and the City appear on the [London page](/best-coding-class-in-london), with links added as pages open, among them [Barnet](/coding-classes-in-barnet-london) in the far north and [Hillingdon](/coding-classes-in-hillingdon-london), home to the other big airport, in the far west. Learners keen on prediction and machine learning can go on to our [AI and machine learning classes in London](/ai-and-machine-learning-classes-in-london), and the [UK coding page](/coding-classes-in-united-kingdom) sets out how school stages differ between the four nations.
+Every borough and the City appear on the [London page](/best-coding-class-in-london), with links added as pages open, among them [Barnet](/coding-classes-in-barnet-london) in the far north and [Hillingdon](/coding-classes-in-hillingdon-london), home to Heathrow, in the far west. Learners keen on prediction and machine learning can go on to our [AI and machine learning classes in London](/ai-and-machine-learning-classes-in-london), and the [UK coding page](/coding-classes-in-united-kingdom) sets out how school stages differ between the four nations.
 
 ## Contact
 

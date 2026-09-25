@@ -21491,7 +21491,7 @@
     "bodyClass": "cg-cry",
     "pageType": "governorate",
     "curriculumAuthority": "Croydon. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000008): 390,719 usual residents (387,377 households, 3,342 communal); highest of the 33 London LADs E09000001-33 in the same table, Barnet second at 389,344. Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 180 (I 14, II* 9, II 157); Grade I include eight Old Palace Croydon entries (1079296 Great Hall, 1493512 Chapel, 1493515 southern range including long gallery, 1493514, 1493516-1493519), 1188846 HOSPITAL OF THE HOLY TRINITY (WHITGIFT HOSPITAL), 1079343 CHURCH OF ST MARY ADDINGTON, 1079319 PARISH CHURCH OF ST JOHN THE BAPTIST, 1079297, 1079341, 1188464; II* include 1188970 Airport House, 1358819 Addington Palace, 1268438 Croydon War Memorial, 1079291 Wrencote. Croydon Council find-your-library page, 25 September 2026: Ashburton, Central, Coulsdon, New Addington, Norbury, Purley, Selsdon, South Norwood, Thornton Heath libraries; Upper Norwood Library Hub \"Jointly funded by both Lambeth and Croydon councils ... run by the Upper Norwood Library Trust\". TfL Unified API StopPoint 940GZZCRWCR (West Croydon), 25 September 2026: Tram, Windrush, Southern. cpfc.co.uk/contact-us: \"Selhurst Park, Whitehorse Lane, London SE25 6PU\"; postcodes.io SE25 6PU: Croydon, South Norwood.",
-    "localProject": "football-data.co.uk mmz4281/2425/E0.csv and 2526/E0.csv, 380 results each. Points (3/1/0) and places (points, goal difference, goals for) computed by us. 2024-25: Liverpool 84, Arsenal 74, Crystal Palace 12th 53 (home W6 D7 L6, away W7 D7 L5), Southampton 20th 12. 2025-26: Arsenal 85, Liverpool 5th 60, Sunderland 7th 54, Crystal Palace 15th 45. Bradley-Terry: P(home win) = logistic(h + s_i - s_j), draw target 0.5, strengths sum to zero, scipy BFGS; 2024-25 fit h = 0.152 (equal teams 53.8%); order within one place of table for all 20 (swaps Aston Villa/Newcastle, Crystal Palace/Fulham). Test 2025-26: 276 decisive, 104 draws; home always 58.7%, higher 2024-25 finisher 59.1% (promoted ranked 17.5), BT 60.9% (promoted Burnley, Leeds, Sunderland given mean of relegated Leicester, Ipswich, Southampton). Log loss (draw 0.5): coin 0.6931, BT all 380 0.717. Shrink k grid 0-1: first 190 by date (to 01/01/2026) best k 0.5 (0.6615); last 190 (from 03/01/2026): k 1.0 0.7378, k 0.5 0.6844, coin 0.6931. Lesson family: Bradley-Terry paired comparison, calibration and shrinkage, screened free 25 September 2026.",
+    "localProject": "openfootball/football.json (CC0) 2024-25/en.1.json and 2025-26/en.1.json, 380 results each; identical score multisets to football-data.co.uk E0 CSVs (0 differences), used only as a cross-check. Points (3/1/0) and places (points, goal difference, goals for) computed by us. 2024-25: Liverpool 84, Arsenal 74, Crystal Palace 12th 53 (home W6 D7 L6, away W7 D7 L5), Southampton 20th 12. 2025-26: Arsenal 85, Liverpool 5th 60, Sunderland 7th 54, Crystal Palace 15th 45. Bradley-Terry: P(home win) = logistic(h + s_i - s_j), draw target 0.5, strengths sum to zero, scipy BFGS; 2024-25 fit h = 0.152 (equal teams 53.8%); order within one place of table for all 20 (swaps Aston Villa/Newcastle, Crystal Palace/Fulham). Test 2025-26: 276 decisive, 104 draws; home always 58.7%, higher 2024-25 finisher 59.1% (promoted ranked 17.5), BT 60.9% (promoted Burnley, Leeds, Sunderland given mean of relegated Leicester, Ipswich, Southampton). Log loss (draw 0.5): coin 0.6931, BT all 380 0.717; decisive 276 0.6703. Shrink k multiplies logit (h + s_i - s_j). Shrink k grid 0-1: first 190 by date (to 01/01/2026) best k 0.5 (0.6615); last 190 (from 03/01/2026): k 1.0 0.7378, k 0.5 0.6844, coin 0.6931; draws excluded: k 1.0 0.6989, k 0.5 0.6647. Lesson family: Bradley-Terry paired comparison, calibration and shrinkage, screened free 25 September 2026.",
     "requiredMentions": [
       "390,719",
       "Bradley-Terry",
@@ -21509,8 +21509,8 @@
         "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000008&measures=20100"
       },
       {
-        "claim": "Premier League results 2024-25 and 2025-26, one CSV per season.",
-        "url": "https://www.football-data.co.uk/englandm.php"
+        "claim": "Premier League results 2024-25 and 2025-26, openfootball football.json, CC0 public domain.",
+        "url": "https://github.com/openfootball/football.json"
       },
       {
         "claim": "Historic England NHLE listed building points inside the ONS boundary of Croydon on 25 September 2026: 180 (14 I, 9 II*, 157 II).",
@@ -21532,7 +21532,8 @@
     "rejectedClaims": [
       "Official Premier League tables (including any point deductions): not read at premierleague.com; places and points are computed from results and labelled as ours.",
       "Cup results and honours for Crystal Palace: not in the league result files and not verified at a primary source, so not mentioned.",
-      "Betting odds in the source files: deliberately unused; the project never mentions gambling prices.",
+      "Betting odds: a results site that also lists odds was used only as a cross-check and is not cited; the page never mentions gambling.",
+      "Borough of the Upper Norwood Library Hub: its own site gave no address to our reader, so the page counts nine council libraries and names the hub only as the council describes it.",
       "Croydon Airport history (first air traffic control and similar claims): not verified at a primary source; only the NHLE entry name Airport House is used.",
       "Tram stop counts inside Croydon: the TfL line list covers the whole network and was not split by borough, so no count is given.",
       "Individual Croydon schools, including Whitgift School, and admissions: not read at their own sites and not used.",

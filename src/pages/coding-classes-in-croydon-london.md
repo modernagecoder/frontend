@@ -14,7 +14,7 @@ London Borough of Croydon / Live online
 
 **What are the best coding classes in Croydon?** Croydon is the south London borough of Thornton Heath, Norbury, South Norwood, Addiscombe, Purley, Coulsdon, Selsdon and New Addington, with 390,719 residents at the 2021 Census and Selhurst Park inside its boundary. A class worth paying for should teach a learner not only to build a model but to ask how much to trust it, and this page does that with football: a ranking of Premier League teams worked out from their results, then tested on a season it never saw. Lessons run live on video with teachers based in India, for learners aged 6 to 67, either privately or in a group of five to ten at the same stage. The first lesson is on us. From then on, USD 100 a month buys a group place and USD 150 a month buys private teaching.
 
-Selhurst Park, home ground of Crystal Palace, stands in South Norwood, in the north of Croydon. Our learners start from a question every supporter argues about: how good is each team, really? The Bradley-Terry model answers with one number per team, chosen so that the stronger side of any pair is more likely to win, plus a small bonus for playing at home. Fitted to all 380 results of 2024-25, it ranks the twenty clubs almost exactly as the league table does. The interesting part comes next. Asked to predict 2025-26, it picks the winner a little more often than "the home side wins", yet it is so sure of itself that a coin toss scores better on confidence. Learners then fix that, honestly, with one extra number.
+Selhurst Park, home ground of Crystal Palace, stands in South Norwood, in the north of Croydon. Our learners start from a question every supporter argues about: how good is each team, really? The Bradley-Terry model answers with one number per team, chosen so that the stronger side of any pair is more likely to win, plus a small bonus for playing at home. Fitted to all 380 results of 2024-25, it ranks the twenty clubs almost exactly as the league table does. The interesting part comes next. Asked to predict 2025-26, it picks the winner a little more often than "the home side wins", yet it states its chances more boldly than the results justify. Learners then fix that, honestly, with one extra number.
 
 Facts last verified 25 September 2026. Teaching is online; no Croydon branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
 
@@ -36,7 +36,7 @@ The four we are known for, on every market page:
 
 Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
 
-## 390,719 residents, 180 listed buildings and ten libraries
+## 390,719 residents, 180 listed buildings and nine council libraries
 
 Each figure comes from the organisation named next to it, or was counted by us from that organisation's data.
 
@@ -48,7 +48,7 @@ Each figure comes from the organisation named next to it, or was counted by us f
 | National Heritage List entries inside the borough | 180: 14 Grade I, 9 Grade II*, 157 Grade II | Historic England data, counted 25 September 2026 |
 | Libraries on the council's list | 9 council libraries, plus the Upper Norwood Library Hub | Croydon Council, read 25 September 2026 |
 | Services at West Croydon | Tram, Windrush line and Southern | TfL open data, checked 25 September 2026 |
-| Premier League results used | 380 from 2024-25 and 380 from 2025-26 | football-data.co.uk result files |
+| Premier League results used | 380 from 2024-25 and 380 from 2025-26 | openfootball, public-domain data |
 
 ### A palace in pieces
 
@@ -80,7 +80,7 @@ Each Premier League season is a spreadsheet of 380 rows: date, home team, away t
 
 The ground's postal address on the club's own contact page is Selhurst Park, Whitehorse Lane, SE25 6PU, and the postcode directory places it in Croydon's South Norwood ward. In 2024-25 Crystal Palace won six league games at home and seven away, with seven draws in each, a small reminder that a single season is noisy.
 
-We work out places and points ourselves from the published scores rather than copying a table, so a learner can check every figure with a few lines of code. The source files also carry bookmakers' prices; this project never uses them, and neither do our lessons.
+We work out places and points ourselves from the published scores rather than copying a table, so a learner can check every figure with a few lines of code.
 
 ## One number per team: the Bradley-Terry model
 
@@ -112,7 +112,7 @@ Fitted to 2024-25, the strengths put all twenty clubs within one place of their 
 
 Ask an assistant who will win on Saturday and it will name a team with complete assurance. Our learners discover that their own model, built from a full season, is right about three times in five, and that its confidence was the weak point. Knowing that a correct pick and a well-judged probability are different things, and checking both on matches the model has never seen, is what separates a data scientist from someone pressing a button.
 
-## Worse than a coin toss, until we shrink it
+## Too sure of itself, until we shrink it
 
 A score called log loss rewards a forecaster for being confident when right and punishes it hard for being confident when wrong. A coin toss, saying 50% every time, scores 0.693. Lower is better.
 
@@ -120,16 +120,18 @@ A score called log loss rewards a forecaster for being confident when right and 
 
 | Matches scored | Coin toss | Full-strength model | Shrunk model |
 |---|---|---|---|
-| All 380 of 2025-26 | 0.693 | 0.717 | not used here |
+| All 380 of 2025-26 | 0.693 | 0.717 | not scored |
+| The 276 of 2025-26 that were not drawn | 0.693 | 0.670 | not scored |
 | Last 190 of 2025-26, from 3 January 2026 | 0.693 | 0.738 | 0.684 |
+| The same 190, draws left out | 0.693 | 0.699 | 0.665 |
 
-The fitted strengths are too spread out: a season in which one team collects 84 points and another 12 makes the gaps look larger than they will be next year. The fix is a single shrink factor that pulls every team towards the average. We chose it using only the first 190 matches of 2025-26, up to 1 January 2026, where halving the strengths gave the lowest score, and then scored the last 190 matches. The halved model beats the coin; the untouched one does not.
+Draws explain part of the first row: a draw counts as half a win, so any forecast other than 50% loses points on every one of the 104. Leave the draws out and the full model does beat the coin across the season. The rest is overconfidence. A season in which one team collects 84 points and another 12 makes the gaps between teams look larger than they will be next year. The fix is one shrink factor that scales down every gap, the home bonus included. We chose it using only the first 190 matches of 2025-26, up to 1 January 2026, where halving every gap gave the lowest score, and then scored the last 190. Halved, the model beats the coin with or without the draws; untouched, it loses to the coin either way.
 
-Three teams, Burnley, Leeds and Sunderland, had no 2024-25 results, so we gave each the average strength of the three sides that went down. Sunderland then finished seventh on 54 points. A model can only know what its data showed it, and learners are asked to say where that gap sits. The Premier League, the clubs, football-data.co.uk, Croydon Council, Historic England, TfL and the ONS have no connection with Modern Age Coders; the fitting, the tests and every percentage here are our own work.
+Three teams, Burnley, Leeds and Sunderland, had no 2024-25 results, so we gave each the average strength of the three sides that went down. Sunderland then finished seventh on 54 points. A model can only know what its data showed it, and learners are asked to say where that gap sits. The Premier League, the clubs, openfootball, Croydon Council, Historic England, TfL and the ONS have no connection with Modern Age Coders; the fitting, the tests and every percentage here are our own work.
 
 ## Trams, trains and a lesson at home
 
-Croydon has London's tram network at its heart. Our classes need a laptop instead.
+Croydon is served by trams as well as trains. Our classes need a laptop instead.
 
 ### West Croydon
 
@@ -158,7 +160,7 @@ A learner's first rung is decided in the free lesson by what they can already do
 
 Because the hardest question about any prediction is not who, but how sure.
 
-Machine learning systems are, at heart, very large versions of this page's model: numbers adjusted until past data looks likely, then used on new cases. They share its weakness too. Our Bradley-Terry fit ranked last season almost perfectly and still scored worse than a coin on confidence, until one shrink factor, chosen on data it had not been scored on, pulled it back. Medical tests, credit scores and exam predictions all need the same check.
+Machine learning systems are, at heart, very large versions of this page's model: numbers adjusted until past data looks likely, then used on new cases. They share its weakness too. Our Bradley-Terry fit ranked last season almost perfectly and still claimed more certainty than the next season allowed, until one shrink factor, chosen on data it had not been scored on, reined it in. Medical tests, credit scores and exam predictions all need the same check.
 
 A learner who has watched their own model be overconfident learns the habits that matter with any AI tool: keep a test set the model never sees, score confidence as well as correctness, and compare with the simplest rule first. Code can be generated in seconds. Judging whether its answers deserve belief is still human work.
 
@@ -207,7 +209,7 @@ It picked the winner in 60.9% of the 276 matches that were not drawn, against 58
 
 ### Why shrink the strengths?
 
-The full-strength model was overconfident and scored worse than a 50-50 coin on log loss. Halving the strengths, a factor chosen on the first half of 2025-26, gave a better score than the coin on the second half: 0.684 against 0.693.
+The full-strength model was overconfident: on the second half of 2025-26 its log loss was 0.738, worse than the 0.693 of a 50-50 coin. Halving every gap between teams, home bonus included, a factor chosen on the first half of the season, brought it to 0.684.
 
 ### When would Croydon lessons take place?
 
@@ -215,7 +217,7 @@ After the free lesson we propose a regular weekly slot in a class at the right l
 
 ### What does a learner need at home?
 
-A laptop or desktop, headphones or speakers, and a reliable internet connection. For the football project, Python and two free result files are enough.
+A laptop or desktop, headphones or speakers, and a reliable internet connection. For the football project, Python and two free public-domain result files are enough.
 
 ### Is there a Modern Age Coders centre in Croydon?
 

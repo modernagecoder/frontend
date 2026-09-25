@@ -2,21 +2,22 @@
 // Croydon (cg- London borough page, UK cluster Phase 5, row 164). Named sources only.
 // Spine: ranking is not predicting. Learners fit a Bradley-Terry model (each team one strength number, plus one home
 // advantage; P(home side beats away side) = logistic(h + s_home - s_away); a draw counts as half a win; maximum
-// likelihood by BFGS, strengths summing to zero) to all 380 Premier League results of 2024-25 (football-data.co.uk E0
-// CSV), then test it on the 380 of 2025-26. Ranking: strengths order matches the points table within one place for all
+// likelihood by BFGS, strengths summing to zero) to all 380 Premier League results of 2024-25 (openfootball
+// JSON, openfootball/football.json, CC0; all 760 scores identical to a second public copy), then test it on 2025-26. Ranking: strengths order matches the points table within one place for all
 // 20 teams. Prediction, 276 decisive 2025-26 matches: home side always 58.7%, higher last-season finisher 59.1%,
-// Bradley-Terry 60.9%. Confidence, log loss per match (draw target 0.5): coin 0.693, full model 0.717 (worse than a coin).
+// Bradley-Terry 60.9%. Log loss (draw target 0.5): coin 0.693, full model 0.717 on all 380, but 0.670 on the 276
+// decisive matches, so draws cause much of the gap. Shrink k multiplies the whole logit (team gaps and home bonus).
 // Shrink factor k on the strengths chosen on the first 190 matches of 2025-26 (to 1 January 2026) = 0.5; on the last
 // 190: full 0.738, shrunk 0.684, coin 0.693. Promoted sides get the average strength of the three relegated; Sunderland
 // then finished 7th on 54 points. Points are worked out by us from the results.
 // Selhurst Park: club contact page "Selhurst Park, Whitehorse Lane, London SE25 6PU"; postcodes.io SE25 6PU = Croydon,
 // South Norwood ward. Lesson family: Bradley-Terry paired comparison + calibration and shrinkage. Screened 25 September
 // 2026 (Bradley-Terry 0, Selhurst 0). Distinct from Elo pages (running updates) and Poisson goal models.
-// No betting odds are used or mentioned, though the source file carries them.
+// Source switched from a betting-oriented results site to openfootball (CC0) after review; odds never used.
 
 module.exports = {
   clusterName: 'United Kingdom',
-  hub: { group: 'borough', tag: 'CROYDON', blurb: 'Selhurst Park, ten libraries and a project that ranks football teams and then asks how sure it should be.' },
+  hub: { group: 'borough', tag: 'CROYDON', blurb: 'Selhurst Park, nine council libraries and a project that ranks football teams and then asks how sure it should be.' },
   market: { iso: 'GB', dial: '+44', name: 'United Kingdom', locale: 'en_GB', geoRegion: 'GB', phoneLabel: 'UK mobile number', phonePlaceholder: '7700 900123', gradeLabel: 'School year or age', minDigits: 10, stripTrunk: true },
   slug: 'coding-classes-in-croydon-london',
   code: 'cry',
@@ -53,7 +54,7 @@ module.exports = {
   h1: 'Coding classes in Croydon',
   capsuleQ: 'What are the best coding classes in Croydon?',
   capsule: 'Croydon is the south London borough of Thornton Heath, Norbury, South Norwood, Addiscombe, Purley, Coulsdon, Selsdon and New Addington, with 390,719 residents at the 2021 Census and Selhurst Park inside its boundary. A class worth paying for should teach a learner not only to build a model but to ask how much to trust it, and this page does that with football: a ranking of Premier League teams worked out from their results, then tested on a season it never saw. Lessons run live on video with teachers based in India, for learners aged 6 to 67, either privately or in a group of five to ten at the same stage. The first lesson is on us. From then on, USD 100 a month buys a group place and USD 150 a month buys private teaching.',
-  lead: 'Selhurst Park, home ground of Crystal Palace, stands in South Norwood, in the north of Croydon. Our learners start from a question every supporter argues about: how good is each team, really? The Bradley-Terry model answers with one number per team, chosen so that the stronger side of any pair is more likely to win, plus a small bonus for playing at home. Fitted to all 380 results of 2024-25, it ranks the twenty clubs almost exactly as the league table does. The interesting part comes next. Asked to predict 2025-26, it picks the winner a little more often than "the home side wins", yet it is so sure of itself that a coin toss scores better on confidence. Learners then fix that, honestly, with one extra number.',
+  lead: 'Selhurst Park, home ground of Crystal Palace, stands in South Norwood, in the north of Croydon. Our learners start from a question every supporter argues about: how good is each team, really? The Bradley-Terry model answers with one number per team, chosen so that the stronger side of any pair is more likely to win, plus a small bonus for playing at home. Fitted to all 380 results of 2024-25, it ranks the twenty clubs almost exactly as the league table does. The interesting part comes next. Asked to predict 2025-26, it picks the winner a little more often than "the home side wins", yet it states its chances more boldly than the results justify. Learners then fix that, honestly, with one extra number.',
   wa: 'Hello Modern Age Coders, I want a free coding class for a learner in Croydon.',
 
   picks: {
@@ -71,7 +72,7 @@ module.exports = {
   sections: [
     {
       id: 'croydon', tint: '', eyebrow: 'Croydon at a glance',
-      h2: '390,719 residents, 180 listed buildings and ten libraries',
+      h2: '390,719 residents, 180 listed buildings and nine council libraries',
       intro: 'Each figure comes from the organisation named next to it, or was counted by us from that organisation\'s data.',
       body: [
         { kind: 'table', caption: 'Croydon in figures, each with its publisher', head: ['Item', 'Figure', 'Published by'], rows: [
@@ -79,7 +80,7 @@ module.exports = {
           ['National Heritage List entries inside the borough', '180: 14 Grade I, 9 Grade II*, 157 Grade II', 'Historic England data, counted 25 September 2026'],
           ['Libraries on the council\'s list', '9 council libraries, plus the Upper Norwood Library Hub', 'Croydon Council, read 25 September 2026'],
           ['Services at West Croydon', 'Tram, Windrush line and Southern', 'TfL open data, checked 25 September 2026'],
-          ['Premier League results used', '380 from 2024-25 and 380 from 2025-26', 'football-data.co.uk result files']
+          ['Premier League results used', '380 from 2024-25 and 380 from 2025-26', 'openfootball, public-domain data']
         ] },
         { kind: 'grid3', mt: true, cells: [
           { h3: 'A palace in pieces', p: 'Eight of Croydon\'s fourteen Grade I entries are parts of Old Palace Croydon, among them its Great Hall, its Chapel and a southern range with a long gallery.' },
@@ -102,7 +103,7 @@ module.exports = {
           ['Southampton', '20th, 12', 'not in the league']
         ] },
         { kind: 'p', text: 'The ground\'s postal address on the club\'s own contact page is Selhurst Park, Whitehorse Lane, SE25 6PU, and the postcode directory places it in Croydon\'s South Norwood ward. In 2024-25 Crystal Palace won six league games at home and seven away, with seven draws in each, a small reminder that a single season is noisy.' },
-        { kind: 'p', text: 'We work out places and points ourselves from the published scores rather than copying a table, so a learner can check every figure with a few lines of code. The source files also carry bookmakers\' prices; this project never uses them, and neither do our lessons.' }
+        { kind: 'p', text: 'We work out places and points ourselves from the published scores rather than copying a table, so a learner can check every figure with a few lines of code.' }
       ]
     },
     {
@@ -126,21 +127,23 @@ module.exports = {
     },
     {
       id: 'confidence', tint: 'tint', eyebrow: 'How sure should it be?',
-      h2: 'Worse than a coin toss, until we shrink it',
+      h2: 'Too sure of itself, until we shrink it',
       intro: 'A score called log loss rewards a forecaster for being confident when right and punishes it hard for being confident when wrong. A coin toss, saying 50% every time, scores 0.693. Lower is better.',
       body: [
         { kind: 'table', caption: 'Log loss per match, draws counted as half, run 25 September 2026', head: ['Matches scored', 'Coin toss', 'Full-strength model', 'Shrunk model'], rows: [
-          ['All 380 of 2025-26', '0.693', '0.717', 'not used here'],
-          ['Last 190 of 2025-26, from 3 January 2026', '0.693', '0.738', '0.684']
+          ['All 380 of 2025-26', '0.693', '0.717', 'not scored'],
+          ['The 276 of 2025-26 that were not drawn', '0.693', '0.670', 'not scored'],
+          ['Last 190 of 2025-26, from 3 January 2026', '0.693', '0.738', '0.684'],
+          ['The same 190, draws left out', '0.693', '0.699', '0.665']
         ] },
-        { kind: 'p', text: 'The fitted strengths are too spread out: a season in which one team collects 84 points and another 12 makes the gaps look larger than they will be next year. The fix is a single shrink factor that pulls every team towards the average. We chose it using only the first 190 matches of 2025-26, up to 1 January 2026, where halving the strengths gave the lowest score, and then scored the last 190 matches. The halved model beats the coin; the untouched one does not.' },
-        { kind: 'p', text: 'Three teams, Burnley, Leeds and Sunderland, had no 2024-25 results, so we gave each the average strength of the three sides that went down. Sunderland then finished seventh on 54 points. A model can only know what its data showed it, and learners are asked to say where that gap sits. The Premier League, the clubs, football-data.co.uk, Croydon Council, Historic England, TfL and the ONS have no connection with Modern Age Coders; the fitting, the tests and every percentage here are our own work.' }
+        { kind: 'p', text: 'Draws explain part of the first row: a draw counts as half a win, so any forecast other than 50% loses points on every one of the 104. Leave the draws out and the full model does beat the coin across the season. The rest is overconfidence. A season in which one team collects 84 points and another 12 makes the gaps between teams look larger than they will be next year. The fix is one shrink factor that scales down every gap, the home bonus included. We chose it using only the first 190 matches of 2025-26, up to 1 January 2026, where halving every gap gave the lowest score, and then scored the last 190. Halved, the model beats the coin with or without the draws; untouched, it loses to the coin either way.' },
+        { kind: 'p', text: 'Three teams, Burnley, Leeds and Sunderland, had no 2024-25 results, so we gave each the average strength of the three sides that went down. Sunderland then finished seventh on 54 points. A model can only know what its data showed it, and learners are asked to say where that gap sits. The Premier League, the clubs, openfootball, Croydon Council, Historic England, TfL and the ONS have no connection with Modern Age Coders; the fitting, the tests and every percentage here are our own work.' }
       ]
     },
     {
       id: 'around', tint: '', eyebrow: 'Getting around',
       h2: 'Trams, trains and a lesson at home',
-      intro: 'Croydon has London\'s tram network at its heart. Our classes need a laptop instead.',
+      intro: 'Croydon is served by trams as well as trains. Our classes need a laptop instead.',
       body: [
         { kind: 'grid3', cells: [
           { h3: 'West Croydon', p: 'TfL\'s open data lists the tram, the Windrush line and Southern at West Croydon.' },
@@ -168,7 +171,7 @@ module.exports = {
     eyebrow: 'Coding and AI',
     h2: 'AI will rank teams for you. Why should a Croydon teenager build the ranking?',
     intro: 'Because the hardest question about any prediction is not who, but how sure.',
-    p1: 'Machine learning systems are, at heart, very large versions of this page\'s model: numbers adjusted until past data looks likely, then used on new cases. They share its weakness too. Our Bradley-Terry fit ranked last season almost perfectly and still scored worse than a coin on confidence, until one shrink factor, chosen on data it had not been scored on, pulled it back. Medical tests, credit scores and exam predictions all need the same check.',
+    p1: 'Machine learning systems are, at heart, very large versions of this page\'s model: numbers adjusted until past data looks likely, then used on new cases. They share its weakness too. Our Bradley-Terry fit ranked last season almost perfectly and still claimed more certainty than the next season allowed, until one shrink factor, chosen on data it had not been scored on, reined it in. Medical tests, credit scores and exam predictions all need the same check.',
     p2: 'A learner who has watched their own model be overconfident learns the habits that matter with any AI tool: keep a test set the model never sees, score confidence as well as correctness, and compare with the simplest rule first. Code can be generated in seconds. Judging whether its answers deserve belief is still human work.',
     closer: 'Every club, company and hospital now runs on ratings and predictions. A Croydon learner who can build one and then question it is ready for that world.',
     blogAnchor: 'why teenagers should still learn to code in 2026'
@@ -214,9 +217,9 @@ module.exports = {
       { q: 'Is Selhurst Park in Croydon?', a: 'Yes. The club gives the ground\'s address as Selhurst Park, Whitehorse Lane, London SE25 6PU, and the postcode directory places SE25 6PU in the London Borough of Croydon, South Norwood ward.' },
       { q: 'What is the Bradley-Terry model?', a: 'A way to rank competitors from head-to-head results. Each gets one strength number, and the chance that one beats another depends on the difference between their strengths. Our version adds a bonus for playing at home.' },
       { q: 'How well did it predict the 2025-26 season?', a: 'It picked the winner in 60.9% of the 276 matches that were not drawn, against 58.7% for always backing the home side and 59.1% for backing last season\'s higher finisher.' },
-      { q: 'Why shrink the strengths?', a: 'The full-strength model was overconfident and scored worse than a 50-50 coin on log loss. Halving the strengths, a factor chosen on the first half of 2025-26, gave a better score than the coin on the second half: 0.684 against 0.693.' },
+      { q: 'Why shrink the strengths?', a: 'The full-strength model was overconfident: on the second half of 2025-26 its log loss was 0.738, worse than the 0.693 of a 50-50 coin. Halving every gap between teams, home bonus included, a factor chosen on the first half of the season, brought it to 0.684.' },
       { q: 'When would Croydon lessons take place?', a: 'After the free lesson we propose a regular weekly slot in a class at the right level with a place free. Teachers are in India, but every time we give you is UK time.' },
-      { q: 'What does a learner need at home?', a: 'A laptop or desktop, headphones or speakers, and a reliable internet connection. For the football project, Python and two free result files are enough.' },
+      { q: 'What does a learner need at home?', a: 'A laptop or desktop, headphones or speakers, and a reliable internet connection. For the football project, Python and two free public-domain result files are enough.' },
       { q: 'Is there a Modern Age Coders centre in Croydon?', a: 'No. There is no Croydon centre and no premises anywhere in the UK, because every lesson is live online. A learner needs a computer with sound and a stable connection, and our phone number is Indian.', boiler: true },
       { q: 'What do coding classes in Croydon cost?', a: 'The first lesson is free. After that, a group place costs USD 100 a month for two live lessons a week, about eight a month, with five to ten learners, and one-to-one teaching on the same timetable costs USD 150 a month. Nothing is charged until the course, format and time are agreed.', boiler: true },
       { q: 'How are the groups made up?', a: 'By level, pace and goals rather than by age or neighbourhood, with five to ten learners at one stage. Where no group fits the learner\'s week, one-to-one lessons are offered.', boiler: true }
@@ -253,7 +256,7 @@ module.exports = {
 
   dossier: {
     curriculumAuthority: 'Croydon. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000008): 390,719 usual residents (387,377 households, 3,342 communal); highest of the 33 London LADs E09000001-33 in the same table, Barnet second at 389,344. Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 180 (I 14, II* 9, II 157); Grade I include eight Old Palace Croydon entries (1079296 Great Hall, 1493512 Chapel, 1493515 southern range including long gallery, 1493514, 1493516-1493519), 1188846 HOSPITAL OF THE HOLY TRINITY (WHITGIFT HOSPITAL), 1079343 CHURCH OF ST MARY ADDINGTON, 1079319 PARISH CHURCH OF ST JOHN THE BAPTIST, 1079297, 1079341, 1188464; II* include 1188970 Airport House, 1358819 Addington Palace, 1268438 Croydon War Memorial, 1079291 Wrencote. Croydon Council find-your-library page, 25 September 2026: Ashburton, Central, Coulsdon, New Addington, Norbury, Purley, Selsdon, South Norwood, Thornton Heath libraries; Upper Norwood Library Hub "Jointly funded by both Lambeth and Croydon councils ... run by the Upper Norwood Library Trust". TfL Unified API StopPoint 940GZZCRWCR (West Croydon), 25 September 2026: Tram, Windrush, Southern. cpfc.co.uk/contact-us: "Selhurst Park, Whitehorse Lane, London SE25 6PU"; postcodes.io SE25 6PU: Croydon, South Norwood.',
-    localProject: 'football-data.co.uk mmz4281/2425/E0.csv and 2526/E0.csv, 380 results each. Points (3/1/0) and places (points, goal difference, goals for) computed by us. 2024-25: Liverpool 84, Arsenal 74, Crystal Palace 12th 53 (home W6 D7 L6, away W7 D7 L5), Southampton 20th 12. 2025-26: Arsenal 85, Liverpool 5th 60, Sunderland 7th 54, Crystal Palace 15th 45. Bradley-Terry: P(home win) = logistic(h + s_i - s_j), draw target 0.5, strengths sum to zero, scipy BFGS; 2024-25 fit h = 0.152 (equal teams 53.8%); order within one place of table for all 20 (swaps Aston Villa/Newcastle, Crystal Palace/Fulham). Test 2025-26: 276 decisive, 104 draws; home always 58.7%, higher 2024-25 finisher 59.1% (promoted ranked 17.5), BT 60.9% (promoted Burnley, Leeds, Sunderland given mean of relegated Leicester, Ipswich, Southampton). Log loss (draw 0.5): coin 0.6931, BT all 380 0.717. Shrink k grid 0-1: first 190 by date (to 01/01/2026) best k 0.5 (0.6615); last 190 (from 03/01/2026): k 1.0 0.7378, k 0.5 0.6844, coin 0.6931. Lesson family: Bradley-Terry paired comparison, calibration and shrinkage, screened free 25 September 2026.',
+    localProject: 'openfootball/football.json (CC0) 2024-25/en.1.json and 2025-26/en.1.json, 380 results each; identical score multisets to football-data.co.uk E0 CSVs (0 differences), used only as a cross-check. Points (3/1/0) and places (points, goal difference, goals for) computed by us. 2024-25: Liverpool 84, Arsenal 74, Crystal Palace 12th 53 (home W6 D7 L6, away W7 D7 L5), Southampton 20th 12. 2025-26: Arsenal 85, Liverpool 5th 60, Sunderland 7th 54, Crystal Palace 15th 45. Bradley-Terry: P(home win) = logistic(h + s_i - s_j), draw target 0.5, strengths sum to zero, scipy BFGS; 2024-25 fit h = 0.152 (equal teams 53.8%); order within one place of table for all 20 (swaps Aston Villa/Newcastle, Crystal Palace/Fulham). Test 2025-26: 276 decisive, 104 draws; home always 58.7%, higher 2024-25 finisher 59.1% (promoted ranked 17.5), BT 60.9% (promoted Burnley, Leeds, Sunderland given mean of relegated Leicester, Ipswich, Southampton). Log loss (draw 0.5): coin 0.6931, BT all 380 0.717; decisive 276 0.6703. Shrink k multiplies logit (h + s_i - s_j). Shrink k grid 0-1: first 190 by date (to 01/01/2026) best k 0.5 (0.6615); last 190 (from 03/01/2026): k 1.0 0.7378, k 0.5 0.6844, coin 0.6931; draws excluded: k 1.0 0.6989, k 0.5 0.6647. Lesson family: Bradley-Terry paired comparison, calibration and shrinkage, screened free 25 September 2026.',
     requiredMentions: [
       '390,719',
       'Bradley-Terry',
@@ -267,7 +270,7 @@ module.exports = {
     ],
     sources: [
       { claim: 'ONS Census 2021 TS001 (Nomis NM_2021_1), Croydon E09000008: 390,719 usual residents.', url: 'https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000008&measures=20100' },
-      { claim: 'Premier League results 2024-25 and 2025-26, one CSV per season.', url: 'https://www.football-data.co.uk/englandm.php' },
+      { claim: 'Premier League results 2024-25 and 2025-26, openfootball football.json, CC0 public domain.', url: 'https://github.com/openfootball/football.json' },
       { claim: 'Historic England NHLE listed building points inside the ONS boundary of Croydon on 25 September 2026: 180 (14 I, 9 II*, 157 II).', url: 'https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0' },
       { claim: 'Croydon Council, Find your library: nine council libraries and the Upper Norwood Library Hub.', url: 'https://www.croydon.gov.uk/libraries-leisure-and-culture/libraries/find-your-library' },
       { claim: 'TfL Unified API, StopPoint 940GZZCRWCR (West Croydon), 25 September 2026: Tram, Windrush, Southern.', url: 'https://api.tfl.gov.uk/StopPoint/940GZZCRWCR' },
@@ -276,7 +279,8 @@ module.exports = {
     rejectedClaims: [
       'Official Premier League tables (including any point deductions): not read at premierleague.com; places and points are computed from results and labelled as ours.',
       'Cup results and honours for Crystal Palace: not in the league result files and not verified at a primary source, so not mentioned.',
-      'Betting odds in the source files: deliberately unused; the project never mentions gambling prices.',
+      'Betting odds: a results site that also lists odds was used only as a cross-check and is not cited; the page never mentions gambling.',
+      'Borough of the Upper Norwood Library Hub: its own site gave no address to our reader, so the page counts nine council libraries and names the hub only as the council describes it.',
       'Croydon Airport history (first air traffic control and similar claims): not verified at a primary source; only the NHLE entry name Airport House is used.',
       'Tram stop counts inside Croydon: the TfL line list covers the whole network and was not split by borough, so no count is given.',
       'Individual Croydon schools, including Whitgift School, and admissions: not read at their own sites and not used.',
