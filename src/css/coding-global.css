@@ -1090,3 +1090,4 @@
 .cg-root.cg-brm  { --cg-accent: #317259; --cg-accent-soft: rgba(49,114,89,.10); }   /* Bromley: a greenhouse green from the solver (4.63:1 on every paper tint), for Darwin's potted maize, greener than the Croydon teal next door */
 .cg-root.cg-enf  { --cg-accent: #773622; --cg-accent-soft: rgba(119,54,34,.10); }   /* Enfield: a Victorian bank-brick red from the solver (7.30:1 on every paper tint), deeper than the Brent rust and clear of any bank's brand colour */
 .cg-root.cg-kgt  { --cg-accent: #364F59; --cg-accent-soft: rgba(54,79,89,.10); }   /* Kingston: a Thames slate from the solver (7.04:1 on every paper tint), greyer and darker than the Newham steel blue */
+.cg-root.cg-rch  { --cg-accent: #141F5D; --cg-accent-soft: rgba(20,31,93,.10); }   /* Richmond: a night-sky navy from the solver (12.32:1 on every paper tint), for an observatory page, darker than any London sibling blue */

@@ -21730,5 +21730,62 @@
       "Kingston schools and 11+ admissions: left to Phase 6 maths pages; not mentioned here.",
       "Census ethnicity, religion or country of birth for Kingston: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-richmond-upon-thames-london": {
+    "market": "Richmond upon Thames",
+    "bodyClass": "cg-rch",
+    "pageType": "governorate",
+    "curriculumAuthority": "Richmond upon Thames. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000027): 195,278 usual residents (193,417 households, 1,861 communal). Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary (6 rings), 25 September 2026: 808 (I 39, II* 85, II 684); Grade I include 1193127 HAMPTON COURT PALACE, 1263073 KEW PALACE, 1080832 Ham House, 1285673 MARBLE HILL HOUSE, 1180412 ASGILL HOUSE, 1262670 THE PALM HOUSE, 1262590 TEMPERATE HOUSE, 1262593 THE PAGODA, 1357729 KEW OBSERVATORY, 1193477 Garrick's Villa, 1065456 Garrick's Shakespeare Temple, 1261987 Strawberry Hill (St Mary's Training College), 1253028 CHAPEL IN THE WOOD, STRAWBERRY HILL. List entry 1357729 text: OLD DEER PARK Kew Observatory, designed by Sir William Chambers, built 1768-9 when Dr Stephen Demainbray, a tutor to the royal family, persuaded George III to take an interest in a transit of Venus. Richmond Council /services/libraries/branch_libraries, 25 September 2026: Castelnau, East Sheen, Ham, Hampton Hill, Hampton, Hampton Wick, Kew, Richmond, Teddington, Twickenham, Whitton libraries, plus reference library and local studies collection. TfL Unified API HUBRMD (Richmond), 25 September 2026: District, Mildmay, South Western Railway.",
+    "localProject": "JPL SSD planets/approx_pos.html Table 1 (1800 AD-2050 AD): a (au) and L rate (deg/Cy): Mercury 0.38709927, 149472.67411175; Venus 0.72333566, 58517.81538729; EM Bary 1.00000261, 35999.37244981; Mars 1.52371034, 19140.30268499; Jupiter 5.20288700, 3034.74612775; Saturn 9.53667594, 1222.49362201; Uranus 19.18916464, 428.48202785; Neptune 30.06992276, 218.45945325. T = 36000/rate yr: 0.2408, 0.6152, 1.0000, 1.8808, 11.8626, 29.448, 84.0175, 164.7903; T^2/a^3 1.00003, 1.00002, 1.00003, 1.00000, 0.99914, 0.99982, 0.99901, 0.99877. log10 T on log10 a: slope 1.49986, r2 0.99999999697. Inner four only: slope 1.5000, Neptune predicted 164.89. JPL SSD sats/elem/sep.html (P = sidereal period, days): Io 421800 km 1.762732; Europa 671100 3.525463; Ganymede 1070400 7.155588; Callisto 1882700 16.690440; Moon 384400 27.322. au = 149597870700 m (JPL astro_par.html, IAU 2012). a^3/T^2 (au, 365.25-day yr): Io 1/1039.1, Europa 1/1032.0, Ganymede 1/1047.7, Callisto 1/1047.6; Moon (Earth+Moon)/Sun 1/329,815. Venus-Earth at transit (circular) 0.27666 au = 41.39 million km. Lesson family: Kepler third law, log-log fit, held-out prediction, mass from orbits; screened 25 September 2026 (Kepler 0).",
+    "requiredMentions": [
+      "195,278",
+      "Kew Observatory",
+      "Demainbray",
+      "Kepler's third law",
+      "Ganymede",
+      "Callisto",
+      "Marble Hill House",
+      "Garrick's Villa",
+      "Asgill House"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Richmond upon Thames E09000027: 195,278 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000027&measures=20100"
+      },
+      {
+        "claim": "Historic England list entry 1357729, Kew Observatory: built 1768-9, Chambers, Demainbray, George III, transit of Venus.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1357729"
+      },
+      {
+        "claim": "JPL Solar System Dynamics, Approximate Positions of the Planets, Table 1 elements and rates.",
+        "url": "https://ssd.jpl.nasa.gov/planets/approx_pos.html"
+      },
+      {
+        "claim": "JPL Solar System Dynamics, Planetary Satellite Mean Elements: Galilean moons and the Moon.",
+        "url": "https://ssd.jpl.nasa.gov/sats/elem/sep.html"
+      },
+      {
+        "claim": "JPL astrodynamic parameters: au = 149,597,870,700 m (IAU 2012).",
+        "url": "https://ssd.jpl.nasa.gov/astro_par.html"
+      },
+      {
+        "claim": "Richmond Council branch libraries list.",
+        "url": "https://www.richmond.gov.uk/services/libraries/branch_libraries"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint HUBRMD (Richmond): District, Mildmay, South Western Railway.",
+        "url": "https://api.tfl.gov.uk/StopPoint/HUBRMD"
+      }
+    ],
+    "rejectedClaims": [
+      "Which transit Kew observed and what was measured there: the list entry says only that George III took an interest in a transit of Venus; no observation results are claimed.",
+      "Why Io and Europa give slightly different Jupiter masses: not established from a primary source; posed as a question pointing to the table notes.",
+      "Solar parallax in arcseconds: needs an Earth radius from a source not captured (JPL physical parameters page is script-rendered), so omitted.",
+      "Kew Gardens as a World Heritage Site and NPL history at Teddington: not read at a primary source for this build and not used.",
+      "That Richmond is the only London borough on both banks of the Thames: commonly said but not verified at a primary source, so not stated.",
+      "Richmond schools and admissions: not read at their own sites and not used.",
+      "Census ethnicity, religion or country of birth for Richmond: never a standout; used only to order the build."
+    ]
   }
 }
