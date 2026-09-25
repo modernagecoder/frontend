@@ -22189,5 +22189,53 @@
       "Hammersmith and Fulham schools and admissions: not read at their own sites and not used.",
       "Census ethnicity, religion or country of birth: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-haringey-london": {
+    "market": "Haringey",
+    "bodyClass": "cg-hgy",
+    "pageType": "governorate",
+    "curriculumAuthority": "Haringey. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000014): 264,238 usual residents. Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 286 (I 6, II* 21, II 259); Grade I 1079183 HIGHPOINT II, 1358885 HIGHPOINT I, 1079233 CROMWELL HOUSE, 1188817 FORECOURT WALLS TO CROMWELL HOUSE, 1358861 BRUCE CASTLE, 1294388 TOWER TO SOUTH WEST OF BRUCE CASTLE; II* include 1263688 Hornsey Town Hall, 1079241 DIAL HOUSE, 1079242 PERCY HOUSE, 1358887 Byron House. List entry 1268256 (Grade II) Alexandra Palace including former Alexandra Palace Station: surviving BBC studios where the world's first high-definition television programme was transmitted in 1936; testing of two rival systems; 225 ft lattice mast, aerial height 460 ft above sea level; rebuilt 1873-5. Haringey Council /libraries/libraries-haringey, 25 September 2026: Alexandra Park, Coombes Croft, Highgate, Hornsey, Marcus Garvey, Muswell Hill, Stroud Green and Harringay, Wood Green libraries; Community and Youth Music Library. TfL 940GZZLUWOG (Wood Green): Piccadilly.",
+    "localProject": "Python 3.13.6, AMD64 Family 25; random.Random(20260925); safe primes p = 2q + 1 of 12, 16, 20, 24, 32, 40, 48 bits (p 2963; 39323; 604223; 12144347; 3096833687; 992849472899; 169229086184099); generator g with g^2 != 1 and g^q != 1. Private a uniform in [2, p-2]; A = g^a mod p. Brute force (5 trials, to 24 bits): mean steps 1,140.6; 13,277.2; 392,833.8; 5,026,774.2; mean seconds 0.00012; 0.0015; 0.048; 0.575. Baby-step giant-step (m = ceil sqrt(p-1); 5 trials to 24 bits, 3 above): mean steps 76.4; 266.4; 1,283.6; 4,927.8; 81,461.7; 1,342,885.7; 18,438,231; mean seconds 0.000017; 0.000046; 0.00046; 0.00094; 0.0357; 0.715; 13.39. Toy exchange p 23 g 5 a 6 b 15: A 8, B 19, shared 2. Lesson family: Diffie-Hellman and discrete logarithm attack scaling; screened 25 September 2026.",
+    "requiredMentions": [
+      "264,238",
+      "Diffie-Hellman",
+      "baby-step giant-step",
+      "discrete logarithm",
+      "Alexandra Palace",
+      "Highpoint",
+      "Bruce Castle",
+      "Cromwell House",
+      "Marcus Garvey"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Haringey E09000014: 264,238 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000014&measures=20100"
+      },
+      {
+        "claim": "Historic England list entry 1268256, Alexandra Palace: BBC studios, first high-definition television programme 1936; mast and aerial height.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1268256"
+      },
+      {
+        "claim": "Historic England NHLE listed building points inside the ONS boundary of Haringey on 25 September 2026: 286 (6 I, 21 II*, 259 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "Haringey Council, libraries in Haringey.",
+        "url": "https://www.haringey.gov.uk/libraries/libraries-haringey"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint 940GZZLUWOG (Wood Green): Piccadilly.",
+        "url": "https://api.tfl.gov.uk/StopPoint/940GZZLUWOG"
+      }
+    ],
+    "rejectedClaims": [
+      "Real-world key sizes and standards (bits used by browsers, NCSC guidance): not read at a primary source for this build; the page says only that real systems use far larger numbers.",
+      "Which two television systems were tested at Alexandra Palace and which won: not named in the text we used; not stated.",
+      "Brute force times above 24 bits: extrapolated, labelled as such, not run.",
+      "Football stadium and club in Tottenham: not used, to avoid any implied affiliation.",
+      "Haringey schools and admissions: not read at their own sites and not used.",
+      "Census ethnicity, religion or country of birth: never a standout; used only to order the build."
+    ]
   }
 }
