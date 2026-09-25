@@ -13478,6 +13478,18 @@
   to = "/src/pages/best-coding-class-in-newry.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-brent-london"
+  to = "/src/pages/coding-classes-in-brent-london.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-brent-london.md"
+  to = "/src/pages/coding-classes-in-brent-london.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

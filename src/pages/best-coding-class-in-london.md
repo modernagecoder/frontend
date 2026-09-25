@@ -133,7 +133,7 @@ A learner in Havering and a learner in Hillingdon sit at opposite ends of Greate
 
 Each borough gets a page of its own as this series grows, written for its own schools, libraries and streets. Linked names below are live now.
 
-Barking and Dagenham, Barnet, Bexley, Brent, Bromley, Camden, City of London, Croydon, Ealing, Enfield, Greenwich, Hackney, Hammersmith and Fulham, Haringey, [Harrow](/coding-classes-in-harrow-london), Havering, Hillingdon, Hounslow, Islington, Kensington and Chelsea, Kingston upon Thames, Lambeth, Lewisham, Merton, Newham, Redbridge, Richmond upon Thames, Southwark, Sutton, Tower Hamlets, Waltham Forest, Wandsworth, Westminster.
+Barking and Dagenham, Barnet, Bexley, [Brent](/coding-classes-in-brent-london), Bromley, Camden, City of London, Croydon, Ealing, Enfield, Greenwich, Hackney, Hammersmith and Fulham, Haringey, [Harrow](/coding-classes-in-harrow-london), Havering, Hillingdon, Hounslow, Islington, Kensington and Chelsea, Kingston upon Thames, Lambeth, Lewisham, Merton, Newham, Redbridge, Richmond upon Thames, Southwark, Sutton, Tower Hamlets, Waltham Forest, Wandsworth, Westminster.
 
 The capital also has a page on [AI and machine learning classes in London](/ai-and-machine-learning-classes-in-london), built around London cycle hire data. The whole country, with its four school systems, is on the [UK coding page](/coding-classes-in-united-kingdom).
 

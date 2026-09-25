@@ -21124,5 +21124,57 @@
       "Nationality, ethnicity, religion, birthplace, national identity and economic figures; crime, league tables, health and money data: excluded by the cluster rules.",
       "Any affiliation with the Department for Communities, Translink, NISRA or Newry, Mourne and Down District Council."
     ]
+  },
+  "coding-classes-in-brent-london": {
+    "market": "Brent",
+    "bodyClass": "cg-brt",
+    "pageType": "governorate",
+    "curriculumAuthority": "Brent. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000005): 339,816 usual residents (335,806 in households, 4,010 in communal establishments). Brent Council, Libraries page, \"Find a library in Brent\": Ealing Road Library, Coronet Parade, Ealing Rd, Wembley HA0 4BA; Harlesden Library, Craven Park Road, Harlesden NW10 8SE; Kilburn Library, 42 Salusbury Road, Kilburn NW6 6NN; Kingsbury Library, Kingsbury Road, Kingsbury NW9 9HE; Wembley Library, 32 Engineers Way, Wembley Park, Wembley HA9 0FJ; The Library at Willesden Green, 95 High Road, Willesden Green NW10 2SF; the page also names The Willesden Gallery, Brent Museum and Brent Archives. Historic England NHLE ArcGIS FeatureServer (National_Heritage_List_for_England_NHLE_v02_VIEW, layer 0 Listed Building points), queried 25 September 2026, points inside the ONS LAD December 2024 BFC boundary of Brent: 94 (Grade I 1, II* 8, II 85); II* entries include 1294594 SUDBURY TOWN UNDERGROUND STATION, 1078889 Mecca Bingo, 1078876 HUNDRED ELMS FARM OUTBUILDING. TfL Unified API StopPoint 940GZZLUWYP (Wembley Park Underground Station), 25 September 2026: lines Jubilee, Metropolitan.",
+    "localProject": "Contours are guesses between grid points. OS Terrain 50 ASCII grids TQ18 and TQ28 (50 m, release 2026-05-29) mosaicked; cell centres tested against the ONS LAD Dec 2024 BFC polygon of Brent (E09000005): 17,197 cells. Marching squares at 10 m levels with linear edge interpolation and a centre-average saddle rule; segments kept when their midpoint is inside Brent. Compared with OS Terrain 50 GML contours (OST50CONT, same release) clipped the same way: for each of our segments, distance from its midpoint to the nearest OS segment of equal height. Results: 80 m 2.81 km vs 2.74 km, median 4.6 m, p90 12.0 m; 70 m 8.44 vs 8.13, 5.8 / 17.1; 60 m 23.07 vs 23.09, 7.2 / 27.7; 50 m 40.16 vs 41.75, 9.3 / 38.6; 40 m 45.09 vs 50.58, 11.0 / 49.8; 30 m 21.2 vs 25.86, 11.8 / 79.7; 20 m 1.23 vs 2.9 (short, not tabled). At 30 m, 99 of 560 segments lie more than 50 m from the OS line; 77% of those are within 1 km of the River Brent (OS Open Rivers WatercourseLink name1 River Brent), median 678 m. No segment was more than 300 m from an OS line. 21 OS spot heights inside Brent vs bilinear grid: median difference -0.81 m, mean absolute 0.87 m, max absolute 2.56 m. Highest grid cell 89.3 m at 520725,188875; lowest 15.8 m at 519525,183725 (OS Open Names nearest suburban area Stonebridge, 410 m). Spot heights named from OS Open Names (tiles TQ08, TQ28): 90 m 520760,188890 (Mount View Road 56 m, Summit Avenue 96 m, Buck Lane 131 m; Kingsbury Library is on Kingsbury Road); 89 m 516240,186150 (Sudbury Court Road 108 m); 85 m 519310,187360 (Barn Hill, Hill Or Mountain, 2 m); 76 m 522320,186180 (Hawarden Hill 36 m, Dollis Hill Lane 91 m); 69 m 518660,185520 (Linden Lawns 36 m). Contour tiles and Open Names tiles read from the OS Downloads API zips by HTTP range requests. Lesson family: marching squares / contour interpolation uncertainty, screened free on 25 September 2026.",
+    "requiredMentions": [
+      "339,816",
+      "Coronet Parade",
+      "Craven Park Road",
+      "Salusbury Road",
+      "Engineers Way",
+      "Summit Avenue",
+      "Barn Hill",
+      "Sudbury Town",
+      "marching squares",
+      "17,197"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Brent E09000005: 339,816 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000005&measures=20100"
+      },
+      {
+        "claim": "Brent Council: six libraries with addresses; Willesden Gallery, Brent Museum and Brent Archives.",
+        "url": "https://www.brent.gov.uk/libraries-arts-and-heritage/libraries"
+      },
+      {
+        "claim": "Historic England NHLE listed building points (open data), counted inside the ONS boundary of Brent on 25 September 2026: 94, of which 1 Grade I, 8 Grade II*, 85 Grade II, including Sudbury Town Underground Station (1294594).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "ONS Local Authority Districts December 2024 boundaries (BFC), Brent E09000005.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_December_2024_Boundaries_UK_BFC/FeatureServer/0"
+      },
+      {
+        "claim": "OS Terrain 50 grid and contours (GML), release dated 29 May 2026, tiles TQ18 and TQ28; OS Open Names tiles TQ08 and TQ28. OS OpenData, Open Government Licence.",
+        "url": "https://api.os.uk/downloads/v1/products/Terrain50/downloads"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint 940GZZLUWYP (Wembley Park), 25 September 2026: Jubilee and Metropolitan lines.",
+        "url": "https://api.tfl.gov.uk/StopPoint/940GZZLUWYP"
+      }
+    ],
+    "rejectedClaims": [
+      "Whether OS derives its Terrain 50 grid from its contours or the reverse: not stated in the tile metadata we read, so the page measures agreement between the two products and calls neither the truth.",
+      "Wembley Stadium facts (capacity, arch height): not read at a primary source for this build and not needed.",
+      "Neighbouring boroughs by shared boundary beyond Harrow (linked as a live page): not asserted.",
+      "Individual Brent state schools: not read at their own sites for this build, so none is named.",
+      "Census ethnicity, religion or country of birth for Brent: never a standout; used only to order the build."
+    ]
   }
 }

@@ -3750,4 +3750,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-newry /src/pages/best-coding-class-in-newry.html 200
 /best-coding-class-in-newry.md /src/pages/best-coding-class-in-newry.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-brent-london /src/pages/coding-classes-in-brent-london.html 200
+/coding-classes-in-brent-london.md /src/pages/coding-classes-in-brent-london.md 200
 /* /src/pages/404.html 404
