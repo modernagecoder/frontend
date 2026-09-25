@@ -21787,5 +21787,57 @@
       "Richmond schools and admissions: not read at their own sites and not used.",
       "Census ethnicity, religion or country of birth for Richmond: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-wandsworth-london": {
+    "market": "Wandsworth",
+    "bodyClass": "cg-wds",
+    "pageType": "governorate",
+    "curriculumAuthority": "Wandsworth. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000032): 327,506 usual residents. Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 306 (I 5, II* 32, II 269); Grade I 1184436 MOUNT CLARE, 1357626 Church of St Mary and churchyard wall and gate, 1357675 PARKSTEAD HOUSE, 1357694 ROEHAMPTON HOUSE (AT QUEEN MARY'S HOSPITAL), and one further entry not named on the page; II* include 1357620 BATTERSEA POWER STATION, 1184293 BATTERSEA ARTS CENTRE (FORMERLY BATTERSEA TOWN HALL), 1065500 OLD BATTERSEA HOUSE, 1065496 FORMER ROYAL VICTORIA PATRIOTIC SCHOOL, 1246040 BINLEY HOUSE, 1246043 CHARCOT HOUSE, 1246044 DENMEAD HOUSE. Wandsworth Council /leisure-and-culture/libraries/find-a-library/, 25 September 2026: Balham, Battersea, Battersea Park, Earlsfield, Northcote, Putney, Roehampton, Southfields, Tooting, Wandsworth Town, York Gardens. TfL Unified API 910GCLPHMJC (Clapham Junction): Southern, South Western Railway, Mildmay, Windrush. theboatrace.org/the-course: 8 km long, from Putney to Mortlake. postcodes.io reverse lookup at the Putney riverside: SW15 1ES, SW15 1HF, SW15 1ER, all Wandsworth, Thamesfield.",
+    "localProject": "theboatrace.org/results/the-mens-boat-race table (Race, Year, Winner, Winning Distance, Winning Time), read 25 September 2026: 171 rows, race 1 1829 Oxford to race 171 2026 Cambridge; Cambridge 89, Oxford 81, Dead Heat 1 (race 34, 1877); 1849 has March and December races. Decisive sequence n = 170 (O 81, C 89), runs 66; Wald-Wolfowitz expected 85.8, z -3.05, p 0.0023. Permutation (100,000 shuffles, random.Random(20260925)): runs <= 66 in 0.145%; longest streak >= 13 in 1.55%; median longest 7, 95th percentile 11. Longest streaks: C 13 1924-1936; O 10 1976-1985; O 9 1861-1869; O 9 1890-1898. Winner repeats 104 of 169 (0.615); independence 0.501. Eras (by year): 1829-1914 70 races, repeat 0.609; 1920-1990 65, 0.672; 1991-2026 35, 0.500. Lesson family: runs test and permutation test on streaks, screened 25 September 2026.",
+    "requiredMentions": [
+      "327,506",
+      "Putney to Mortlake",
+      "runs test",
+      "Mount Clare",
+      "Parkstead House",
+      "Roehampton House",
+      "Battersea Power Station",
+      "Royal Victoria Patriotic School",
+      "York Gardens"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Wandsworth E09000032: 327,506 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000032&measures=20100"
+      },
+      {
+        "claim": "The Boat Race, men's results 1829-2026.",
+        "url": "https://www.theboatrace.org/results/the-mens-boat-race"
+      },
+      {
+        "claim": "The Boat Race, the course: 8 km from Putney to Mortlake.",
+        "url": "https://www.theboatrace.org/the-course"
+      },
+      {
+        "claim": "Historic England NHLE listed building points inside the ONS boundary of Wandsworth on 25 September 2026: 306 (5 I, 32 II*, 269 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "Wandsworth Council, find a library: eleven libraries.",
+        "url": "https://www.wandsworth.gov.uk/leisure-and-culture/libraries/find-a-library/"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint 910GCLPHMJC (Clapham Junction).",
+        "url": "https://api.tfl.gov.uk/StopPoint/910GCLPHMJC"
+      }
+    ],
+    "rejectedClaims": [
+      "Causes of Boat Race streaks (returning rowers, coaching, funding): not in the results data; the page lists them only as possibilities.",
+      "The women's and reserve races: also published, not analysed here.",
+      "That Clapham Junction is the busiest station (by any measure): not verified at ORR for this build, so not stated.",
+      "The fifth Grade I entry: a former cinema now a bingo club; not named on a page for young learners.",
+      "Wandsworth schools and admissions: not read at their own sites and not used.",
+      "Census ethnicity, religion or country of birth for Wandsworth: never a standout; used only to order the build."
+    ]
   }
 }
