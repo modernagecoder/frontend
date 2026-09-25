@@ -21587,5 +21587,53 @@
       "BedZED and other Hackbridge claims: not read at a primary source for this build and not used.",
       "Census ethnicity, religion or country of birth for Sutton: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-bromley-london": {
+    "market": "Bromley",
+    "bodyClass": "cg-brm",
+    "pageType": "governorate",
+    "curriculumAuthority": "Bromley. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000006): 329,992 usual residents (328,202 households, 1,790 communal). Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 415 (I 8, II* 23, II 384); Grade I 1038325 DOWN HOUSE, 1055809 WICKHAM COURT, 1064369 KESTON WINDMILL, 1064374 GATEWAY AT BROMLEY COLLEGE, 1067798 PREHISTORIC ANIMAL SCULPTURES, GEOLOGICAL FORMATIONS AND LEAD MINE ON ISLANDS AND ON LAND FACING THE LOWER LAKE (list entry address: CRYSTAL PALACE PARK SE19), 1281097 HOLWOOD MANSION, 1299044 SUNDRIDGE PARK, 1359324 BROMLEY COLLEGE. List entry 1038325 text: occupied by Charles Darwin from 1842-1882; Darwin died in the house on 19 April 1882. List entry 1064369: built in 1716. TfL Unified API StopPoint 910GBROMLYS (Bromley South), 25 September 2026: Southeastern, Thameslink. Bromley Council /libraries links to better.org.uk/library/london/bromley, whose branch list is script-rendered; not captured.",
+    "localProject": "Darwin, The Effects of Cross and Self Fertilisation in the Vegetable Kingdom (Project Gutenberg eBook 4346, text read 25 September 2026; archive.org identifiers effectscrossand00darwgoog and b21723916 dated 1876). Table 1/1 Zea mays (young plants) (Mr. Galton), columns 2 and 3 \"as recorded by Mr. Darwin\", 15 pairs (inches): 23 4/8-17 3/8, 12-20 3/8, 21-20, 22-20, 19 1/8-18 3/8, 21 4/8-18 5/8, 22 1/8-18 5/8, 20 3/8-15 2/8, 18 2/8-16 4/8, 21 5/8-18, 23 2/8-16 2/8, 21-18, 22 1/8-12 6/8, 23-15 4/8, 12-18 (pot assignment ambiguous in the transcription; pairs as printed). Text line 526: seeds \"sown on opposite sides of the same pots\". Galton: \"In Zea mays it is as 100 to 84\" (revised means). Our results: crossed mean 20.192, self 17.575 (100 to 87.0); differences in eighths -67, -48, 6, 8, 14, 16, 23, 24, 28, 29, 41, 49, 56, 60, 75; mean 2.617 in, median 3.0, 13 of 15 positive. Exact sign-flip 2^15 = 32,768: 863 at least observed sum (0.0263), 1,726 |sum| (0.0527). Sign test binomial 13/15 one-sided 0.00369, two-sided 0.00739. Paired t 2.148, df 14, p 0.0497. Welch unpaired t 2.437, p 0.0214. Without the two 12-inch crossed plants mean difference 4.125 in. Lesson family: exact randomisation (sign-flip) test on paired data, pre-registration of the test; screened 25 September 2026 (Zea mays 0, sign-flip 0, Galton 0).",
+    "requiredMentions": [
+      "329,992",
+      "Down House",
+      "Zea mays",
+      "32,768",
+      "Keston Windmill",
+      "Wickham Court",
+      "Holwood Mansion",
+      "Sundridge Park",
+      "Bromley College"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Bromley E09000006: 329,992 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000006&measures=20100"
+      },
+      {
+        "claim": "Darwin, The Effects of Cross and Self Fertilisation in the Vegetable Kingdom, Table 1/1 (Zea mays, Galton), public-domain text.",
+        "url": "https://www.gutenberg.org/ebooks/4346"
+      },
+      {
+        "claim": "Historic England list entry 1038325, Down House: occupied by Charles Darwin from 1842 to 1882.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1038325"
+      },
+      {
+        "claim": "Historic England NHLE listed building points inside the ONS boundary of Bromley on 25 September 2026: 415 (8 I, 23 II*, 384 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint 910GBROMLYS (Bromley South), 25 September 2026: Southeastern, Thameslink.",
+        "url": "https://api.tfl.gov.uk/StopPoint/910GBROMLYS"
+      }
+    ],
+    "rejectedClaims": [
+      "That Darwin grew this maize at Down House: the book does not say where these pots stood in the text we read, so the page links Darwin to Down House and to the book separately.",
+      "Later famous re-analyses of this table by other statisticians: not read at a primary source for this build, so not attributed; all tests are presented as our own run.",
+      "Bromley library branch list: script-rendered on the operator site and not captured; no libraries named.",
+      "Biggin Hill airfield history and Crystal Palace history: not verified at a primary source for this build beyond the list entries used.",
+      "Bromley schools and admissions: not read at their own sites and not used.",
+      "Census ethnicity, religion or country of birth for Bromley: never a standout; used only to order the build."
+    ]
   }
 }

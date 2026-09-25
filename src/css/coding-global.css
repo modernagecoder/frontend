@@ -1087,3 +1087,4 @@
 .cg-root.cg-nwh  { --cg-accent: #23638B; --cg-accent-soft: rgba(35,99,139,.10); }   /* Newham: a dockside steel blue from the solver (5.28:1 on every paper tint), cooler than the Barnet olive and well clear of the Ealing indigo */
 .cg-root.cg-cry  { --cg-accent: #31726A; --cg-accent-soft: rgba(49,114,106,.10); }   /* Croydon: a deep pitch teal from the solver (4.55:1 on every paper tint), chosen to avoid any club colours and kept apart from the Newham steel blue and the Hounslow green */
 .cg-root.cg-sut  { --cg-accent: #623A88; --cg-accent-soft: rgba(98,58,136,.10); }   /* Sutton: a clear violet from the solver (6.87:1 on every paper tint), lighter and redder than the Ealing indigo and far from the Croydon teal */
+.cg-root.cg-brm  { --cg-accent: #317259; --cg-accent-soft: rgba(49,114,89,.10); }   /* Bromley: a greenhouse green from the solver (4.63:1 on every paper tint), for Darwin's potted maize, greener than the Croydon teal next door */
