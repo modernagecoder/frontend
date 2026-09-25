@@ -3866,4 +3866,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-tower-hamlets-london /src/pages/coding-classes-in-tower-hamlets-london.html 200
 /coding-classes-in-tower-hamlets-london.md /src/pages/coding-classes-in-tower-hamlets-london.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-waltham-forest-london /src/pages/coding-classes-in-waltham-forest-london.html 200
+/coding-classes-in-waltham-forest-london.md /src/pages/coding-classes-in-waltham-forest-london.md 200
 /* /src/pages/404.html 404
