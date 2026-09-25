@@ -3790,4 +3790,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-bromley-london /src/pages/coding-classes-in-bromley-london.html 200
 /coding-classes-in-bromley-london.md /src/pages/coding-classes-in-bromley-london.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-enfield-london /src/pages/coding-classes-in-enfield-london.html 200
+/coding-classes-in-enfield-london.md /src/pages/coding-classes-in-enfield-london.md 200
 /* /src/pages/404.html 404

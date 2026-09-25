@@ -21635,5 +21635,52 @@
       "Bromley schools and admissions: not read at their own sites and not used.",
       "Census ethnicity, religion or country of birth for Bromley: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-enfield-london": {
+    "market": "Enfield",
+    "bodyClass": "cg-enf",
+    "pageType": "governorate",
+    "curriculumAuthority": "Enfield. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000010): 329,984 usual residents (328,106 households, 1,878 communal). Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 300 (I 3, II* 23, II 274); Grade I 1294469 FORTY HALL, 1079565 SCREEN WALL, GATEWAY AND NORTH PAVILIONS TO WEST OF FORTY HALL, 1078925 GROVELANDS PARK HOSPITAL (ORIGINAL BLOCK ONLY); II* include 1078930 OAKWOOD UNDERGROUND STATION, 1188692 SOUTHGATE UNDERGROUND STATION, INCLUDING SURFACE BUILDINGS AND PLATFORMS, 1078898 CAPEL HOUSE, 1078934 BROOMFIELD HOUSE BROOMFIELD PARK, 1079504 MILLFIELD HOUSE, 1188620 SALISBURY HOUSE; II include several KING GEORGE PUMPING STATION entries (sluice gates at intake from the Lea Navigation) and WRIGHT'S FLOUR MILLS entries. List entry 1484988 Barclays Bank, 20 The Town, Enfield EN2 6LS: Grade II, first listed 30-Mar-2023; historic interest \"as the site of the world's first operational automated teller machine (ATM), inaugurated on 27 June 1967\"; built 1897 for the London and Provincial Bank. TfL Unified API 940GZZLUOAK (Oakwood) and 940GZZLUSGT (Southgate), 25 September 2026: Piccadilly. enfield.gov.uk/services/libraries returned a \"Page Not Found\" body on 25 September 2026: no library list used.",
+    "localProject": "Four check schemes on 2,000 random 16-digit numbers (15 random body digits + 1 check, random.Random(20260925)); exhaustive per number: single substitutions (all positions, all 9 wrong digits: 288,000), adjacent transpositions of unequal digits (~27,000), twin errors aa->bb (~26,000), jump transpositions abc->cba with a != c (~25,000), plus 20 random two-position substitutions per number (40,000). Detected: plain sum 100 / 0.0 / 88.9 / 0.0 / 89.1; weighted 1-3 100 / 88.9 / 88.9 / 0.0 / 88.7; Luhn 100 / 97.7 / 93.3 / 0.0 / 88.8; Verhoeff (D5 tables) 100 / 100.0 / 95.5 / 94.3 / 88.9. Blind spots: Luhn adjacent {0,9} only (proved over all 45 unordered pairs), twins 22-55, 33-66, 44-77; weighted misses 5 of 45 pairs (difference 5). Luhn patent: Google Patents US2950048A \"Computer for verifying numbers\", Hans P. Luhn, assigned to International Business Machines Corporation, filed Jan. 6, 1954, Ser. No. 402,491, published 1960-08-23. Lesson family: check digits and exhaustive error enumeration (Luhn vs Verhoeff), screened 25 September 2026 (Luhn 0, Verhoeff 0); Woensel-Zuid NL used the eleven test.",
+    "requiredMentions": [
+      "329,984",
+      "20 The Town",
+      "27 June 1967",
+      "Luhn",
+      "Verhoeff",
+      "Forty Hall",
+      "Grovelands Park Hospital",
+      "King George Pumping Station",
+      "Wright's Flour Mills"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Enfield E09000010: 329,984 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000010&measures=20100"
+      },
+      {
+        "claim": "Historic England list entry 1484988, Barclays Bank, 20 The Town, Enfield: site of the first operational ATM, 27 June 1967; listed 30 March 2023.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1484988"
+      },
+      {
+        "claim": "US patent 2,950,048, Computer for verifying numbers, H. P. Luhn, IBM, filed 1954, granted 1960.",
+        "url": "https://patents.google.com/patent/US2950048A/en"
+      },
+      {
+        "claim": "Historic England NHLE listed building points inside the ONS boundary of Enfield on 25 September 2026: 300 (3 I, 23 II*, 274 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "TfL Unified API StopPoints 940GZZLUOAK (Oakwood) and 940GZZLUSGT (Southgate): Piccadilly line.",
+        "url": "https://api.tfl.gov.uk/StopPoint/940GZZLUSGT"
+      }
+    ],
+    "rejectedClaims": [
+      "Which real numbers (payment cards, IMEIs, ISBNs) use each scheme: standards documents not read at a primary source; the page names no uses, and the ISBN manual page we read gave no weights.",
+      "How the 1967 machine worked (vouchers, PINs, its inventor): not in the list entry text we read, so not stated.",
+      "Enfield library list: the council libraries URL returned a page-not-found body; no libraries named.",
+      "Enfield schools and admissions: not read at their own sites and not used.",
+      "Census ethnicity, religion or country of birth for Enfield: never a standout; used only to order the build."
+    ]
   }
 }
