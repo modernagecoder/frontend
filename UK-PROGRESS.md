@@ -209,7 +209,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 157 | coding-classes-in-brent-london (brt, #A54F1D) | London borough (UK, Phase 5) | 3,646 | 1.3% vs coding-classes-in-harrow-london | a contour is a guess between grid points | marching squares, contour interpolation uncertainty | c5ae75a2 |
 | 158 | coding-classes-in-hounslow-london (hns, #126829) | London borough (UK, Phase 5) | 3,695 | 1.6% vs coding-classes-in-harrow-london | an error budget on Roy's 1784 base | error budget, ranking the corrections to a measurement | 66e783f7 |
 | 159 | coding-classes-in-hillingdon-london (hlg, #6A4339) | London borough (UK, Phase 5) | 3,421 | 1.9% vs coding-classes-in-hounslow-london | a straight line hides when the warming happened | LOESS with cross-validated span | 97cc087f |
-| 160 | coding-classes-in-ealing-london (eal, #3B257E) | London borough (UK, Phase 5) | 3,460 | 2.5% vs coding-classes-in-brent-london | flow is calculated from level by a hidden formula | rating curve, piecewise power law | (this commit) |
+| 160 | coding-classes-in-ealing-london (eal, #3B257E) | London borough (UK, Phase 5) | 3,460 | 2.5% vs coding-classes-in-brent-london | flow is calculated from level by a hidden formula | rating curve, piecewise power law | 880e6d0d |
+| 161 | coding-classes-in-redbridge-london (rdb, #913061) | London borough (UK, Phase 5) | 3,577 | 2.4% vs coding-classes-in-hounslow-london | the geometry of the evidence decides the answer | trilateration, mirror ambiguity and first guesses | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -21335,5 +21335,56 @@
       "Individual Ealing state schools: not read at their own sites for this build, so none is named.",
       "Census ethnicity, religion or country of birth for Ealing: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-redbridge-london": {
+    "market": "Redbridge",
+    "bodyClass": "cg-rdb",
+    "pageType": "governorate",
+    "curriculumAuthority": "Redbridge. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000026): 310,260 usual residents (308,491 households, 1,769 communal). Vision Redbridge Culture and Leisure (visionrcl.org.uk), libraries index lists Aldersbrook, Fullwell Cross, Gants Hill, Goodmayes, Hainault, Redbridge Central, Seven Kings and Wanstead libraries; individual pages give: Aldersbrook 2a Park Road, London, E12 5HQ; Fullwell Cross 140 High Street, Barkingside, IG6 2EA; Gants Hill 490 Cranbrook Road, Gants Hill, IG2 6LA; Goodmayes 76 Goodmayes Lane, Ilford, IG3 9QB; Hainault 100 Manford Way, Ilford, IG7 4DD; Redbridge Central Clements Road, Ilford, Essex, IG1 1EA; Seven Kings 679 High Road, Seven Kings, IG3 8RQ; Wanstead Spratt Hall Road, Wanstead, E11 2RQ; Woodford Green Library and Gym, Snakes Lane West, Woodford Green, IG8 0DX (currently open); South Woodford Library and Gym, 116 High Road, E18 2QS: \"Following structural engineers' advice, South Woodford Library & Gym will remain closed for approximately 12 months to allow essential remedial works to take place.\" Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 139 (I 1, II* 12, II 126); Grade I 1081008 CHURCH OF ST MARY; II* 1081014 VALENTINES MANSION, 1081027 RAILINGS, GATES AND GATEPIERS TO VALENTINES PARK, 1081001 DR BARNARDO'S MEMORIAL AT BARNARDO'S, 1300587 CHAPEL, ILFORD HOSPITAL OF ST MARY AND ST THOMAS OF CANTERBURY. TfL Unified API: Line/central/StopPoints and Line/elizabeth/StopPoints; StopPoint 940GZZLUGTH (Gants Hill) lines: Central.",
+    "localProject": "Trilateration. Stations: TfL stop lat/lon (WGS84) -> GRS80 XYZ -> OS Helmert (ETRS89 to OSGB36 parameters from the OS guide, as used for St Davids) -> Airy lat/lon -> National Grid; inside Redbridge BFC: Woodford 540947,191744; Hainault 545078,191500; Fairlop 544932,190601; South Woodford 540534,190064; Barkingside 544796,189492; Snaresbrook 540160,188804; Gants Hill 543273,188431; Newbury Park 544926,188387; Redbridge 541831,188357; Wanstead 540667,188242 (Central); Chadwell Heath 547650,187610; Goodmayes 546400,187300; Seven Kings 545455,187100; Ilford 543570,186500 (Elizabeth). Elizabeth four: max offset from best-fit line 55.6 m, spread 4,228 m. Targets: postcodes.io bulk lookup, eastings/northings of the nine library postcodes (all admin_district Redbridge). Noise N(0, 50 m) on each distance, 1,000 trials, numpy default_rng(20260925), Gauss-Newton from a linearised first guess (difference-of-squares least squares). Medians / 95th / count >1 km: all fourteen 21.7-25.8 m / 46.0-58.8 m / 0; nearest four Aldersbrook 41.9, Fullwell Cross 52.5, Gants Hill 62.6, Goodmayes 40.5, Hainault 96.0 (224 >1 km), Redbridge Central 41.4, Seven Kings 47.8, Wanstead 42.3, Woodford Green 76.8; Elizabeth only >1 km: Aldersbrook 396, Fullwell Cross 121, Gants Hill 191, Goodmayes 272, Hainault 113, Redbridge Central 0, Seven Kings 2, Wanstead 267, Woodford Green 135. Centroid start (mean of all 14 stations) instead: Aldersbrook nearest four median 2,514.9 m, 1,000 of 1,000 >1 km. Lesson family: trilateration / geometry and first-guess sensitivity, screened free 25 September 2026.",
+    "requiredMentions": [
+      "310,260",
+      "Aldersbrook",
+      "Fullwell Cross",
+      "Spratt Hall Road",
+      "Snakes Lane West",
+      "Manford Way",
+      "Valentines Mansion",
+      "trilateration",
+      "Vision Redbridge Culture and Leisure"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Redbridge E09000026: 310,260 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000026&measures=20100"
+      },
+      {
+        "claim": "Vision Redbridge Culture and Leisure: libraries index and individual library pages with addresses; South Woodford Library and Gym closed for about 12 months.",
+        "url": "https://visionrcl.org.uk/libraries/"
+      },
+      {
+        "claim": "TfL Unified API: Central line and Elizabeth line stop points with positions.",
+        "url": "https://api.tfl.gov.uk/Line/central/StopPoints"
+      },
+      {
+        "claim": "Historic England NHLE listed building points, inside the ONS boundary of Redbridge on 25 September 2026: 139 (1 I, 12 II*, 126 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "postcodes.io (ONS Postcode Directory data): eastings and northings of the nine library postcodes.",
+        "url": "https://api.postcodes.io/"
+      },
+      {
+        "claim": "ONS Local Authority Districts December 2024 boundaries (BFC), Redbridge E09000026.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_December_2024_Boundaries_UK_BFC/FeatureServer/0"
+      }
+    ],
+    "rejectedClaims": [
+      "Real GPS error figures and satellite constellation details: not read at a primary source for this build; the 50 m error is a stated assumption of the simulation, not a claim about any device.",
+      "The history of the Central line Hainault loop and station architecture: not read at a primary source; the page describes only what the station positions show.",
+      "South Woodford library as a target: closed at the time of writing, so excluded.",
+      "Individual Redbridge state schools, grammar school admissions or eleven plus results: not read at their own sites for this build and not used.",
+      "Census ethnicity, religion or country of birth for Redbridge: never a standout; used only to order the build."
+    ]
   }
 }
