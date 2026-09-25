@@ -21896,5 +21896,52 @@
       "Bexley grammar schools and 11+: left to the Phase 6 maths pages.",
       "Census ethnicity, religion or country of birth for Bexley: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-havering-london": {
+    "market": "Havering",
+    "bodyClass": "cg-hav",
+    "pageType": "governorate",
+    "curriculumAuthority": "Havering. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000016): 262,052 usual residents. Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 145 (I 6, II* 15, II 124); Grade I 1079873 THE BOWER HOUSE, 1079874 STABLE BLOCK AT THE BOWER HOUSE, 1183610 CHURCH OF ST MARY MAGDALENE (558739 184867, North Ockendon), 1184679 CHURCH OF ST LAURENCE (Upminster), 1358505 CHURCH OF ST HELEN AND ST GILES (Rainham), 1358529 PARISH CHURCH OF ST ANDREW (Hornchurch); II* include 1079878 UPMINSTER WINDMILL, 1358506 RAINHAM HALL, 1079889 UPMINSTER HALL, 1079875 BRETONS, 1184797 GREAT TOMKYNS. List entry 1079878: tall octagonal smock mill, timber-framed on a brick base. TfL Unified API HUBUPM (Upminster), 25 September 2026: District, c2c, Liberty. havering.gov.uk/libraries returned HTTP 403 on 25 September 2026: not circumvented, no library list used.",
+    "localProject": "Open-Meteo archive API, models=era5, latitude 51.5578 longitude 0.2402 (returned grid 51.5, 0.25, elevation 13 m), hourly wind_speed_10m and wind_speed_100m in m/s, timezone GMT, 2016-01-01T00:00 to 2025-12-31T23:00: 87,672 hours, no missing. 100 m: mean 6.78, median 6.50, max 25.4, under 3 m/s 9.8%, over 15 m/s 1.22%; scipy weibull_min.fit(floc=0) k 2.318 c 7.648; Rayleigh sigma 5.267; KS Weibull 0.021, Rayleigh 0.073; logL difference 1,511; mean v^3 523 (Weibull 520); EPF 1.68; power density 0.5 x 1.225 x mean v^3 = 321 W/m2 vs 191 from mean speed; windiest 10% of hours 43.7% of energy, 1% 9.6%; quantiles 0.1 3.01 (W 2.90), 0.5 6.50 (6.53), 0.9 10.85 (10.96), 0.99 15.31 (14.78). 10 m: mean 4.13, median 3.83, max 16.9, under 3 m/s 32.7%; k 2.151 c 4.674; EPF 1.82; top 10% 47.0%, top 1% 10.6%. Monthly 100 m means Feb 8.26 (max), Jul 5.69 (min). Lesson family: Weibull fit and cube law, screened 25 September 2026.",
+    "requiredMentions": [
+      "262,052",
+      "Upminster Windmill",
+      "smock mill",
+      "Weibull",
+      "energy pattern factor",
+      "Bower House",
+      "Rainham Hall",
+      "Great Tomkyns",
+      "Bretons"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Havering E09000016: 262,052 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000016&measures=20100"
+      },
+      {
+        "claim": "Historic England list entry 1079878, Upminster Windmill, Grade II*: tall octagonal smock mill on a brick base.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1079878"
+      },
+      {
+        "claim": "ERA5 hourly wind at 10 m and 100 m, 2016-2025, via the Open-Meteo historical weather API (Copernicus Climate Change Service data).",
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=51.5578&longitude=0.2402&start_date=2016-01-01&end_date=2025-12-31&hourly=wind_speed_10m,wind_speed_100m&wind_speed_unit=ms&timezone=GMT&models=era5"
+      },
+      {
+        "claim": "Historic England NHLE listed building points inside the ONS boundary of Havering on 25 September 2026: 145 (6 I, 15 II*, 124 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint HUBUPM (Upminster): District, c2c, Liberty.",
+        "url": "https://api.tfl.gov.uk/StopPoint/HUBUPM"
+      }
+    ],
+    "rejectedClaims": [
+      "Measured wind at the windmill itself: no public station record there; the page uses a reanalysis grid square and says so.",
+      "Upminster Windmill build date and history: not in the list entry text we read beyond the description; not stated.",
+      "Havering library list: council page returned 403; no libraries named.",
+      "Havering schools and admissions: not read at their own sites and not used.",
+      "Census ethnicity, religion or country of birth for Havering: never a standout; used only to order the build."
+    ]
   }
 }

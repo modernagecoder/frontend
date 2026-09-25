@@ -1093,3 +1093,4 @@
 .cg-root.cg-rch  { --cg-accent: #141F5D; --cg-accent-soft: rgba(20,31,93,.10); }   /* Richmond: a night-sky navy from the solver (12.32:1 on every paper tint), for an observatory page, darker than any London sibling blue */
 .cg-root.cg-wds  { --cg-accent: #885A3A; --cg-accent-soft: rgba(136,90,58,.10); }   /* Wandsworth: an oar-wood brown from the solver (4.77:1 on every paper tint), chosen to avoid both crews' blues and any affiliation */
 .cg-root.cg-bex  { --cg-accent: #663D43; --cg-accent-soft: rgba(102,61,67,.10); }   /* Bexley: a dusky madder red from the solver (7.37:1 on every paper tint), a nod to Red House and distinct from the Enfield brick */
+.cg-root.cg-hav  { --cg-accent: #7E6225; --cg-accent-soft: rgba(126,98,37,.10); }   /* Havering: a weathered sailcloth ochre from the solver (4.66:1 on every paper tint), for a windmill page, unlike any London sibling so far */
