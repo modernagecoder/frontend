@@ -22141,5 +22141,53 @@
       "Hackney schools and admissions: not read at their own sites and not used.",
       "Census ethnicity, religion or country of birth for Hackney: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-hammersmith-and-fulham-london": {
+    "market": "Hammersmith and Fulham",
+    "bodyClass": "cg-hmf",
+    "pageType": "governorate",
+    "curriculumAuthority": "Hammersmith and Fulham. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000013): 183,157 usual residents. Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 266 (I 1, II* 25, II 240); Grade I 1286903 FULHAM PALACE; II* include 1096048 Grand Hall and Pillar Hall, Olympia Exhibition Centre, 1193040 KELMSCOTT HOUSE, 1192658 HURLINGHAM HOUSE, 1286723 SANDFORD MANOR HOUSE, 1261959 Gasholder No 2, Fulham Gasworks, 1079809 SIR WILLIAM POWELL'S ALMSHOUSES, 1191939 FULHAM TOWN HALL. Hammersmith Bridge not inside the BFC boundary points. LBHF /libraries/find-your-library, 25 September 2026: Askew Road, Fulham, Hammersmith, Shepherds Bush libraries named. TfL Unified API HUBHMS (Hammersmith): Circle, District, Hammersmith & City, Piccadilly.",
+    "localProject": "Points: 266 NHLE Easting/Northing inside the H&F BFC polygon (266 distinct). Bounding box 4.11 km (E) x 7.24 km (N). Closed tour length, Euclidean, km: random 600.0 (mean of 1,000 permutations, numpy default_rng(20260925)); sorted by easting 265.5; by northing 157.9; 8 boustrophedon strips 63.1; Hilbert index on square bbox grid g x g (ties by easting): g 2 181.2, 4 107.6, 16 61.8, 256 53.5, 1024 53.5; nearest neighbour from westernmost point 46.0; 2-opt on the g 1024 Hilbert order 41.3. Lesson family: Hilbert space-filling curve ordering as a tour heuristic, recursion; screened 25 September 2026 (famscan: Hilbert 0, space-filling 0, 2-opt 0).",
+    "requiredMentions": [
+      "183,157",
+      "Hilbert curve",
+      "Fulham Palace",
+      "Kelmscott House",
+      "Hurlingham House",
+      "Sandford Manor House",
+      "Gasholder No 2",
+      "Sir William Powell",
+      "Askew Road"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Hammersmith and Fulham E09000013: 183,157 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000013&measures=20100"
+      },
+      {
+        "claim": "Historic England NHLE listed building points inside the ONS boundary of Hammersmith and Fulham on 25 September 2026: 266 (1 I, 25 II*, 240 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "ONS Local Authority Districts December 2024 boundaries (BFC), Hammersmith and Fulham E09000013.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_December_2024_Boundaries_UK_BFC/FeatureServer/0"
+      },
+      {
+        "claim": "Hammersmith and Fulham Council, find your library.",
+        "url": "https://www.lbhf.gov.uk/libraries/find-your-library"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint HUBHMS (Hammersmith).",
+        "url": "https://api.tfl.gov.uk/StopPoint/HUBHMS"
+      }
+    ],
+    "rejectedClaims": [
+      "Walking distances along streets: not computed; all distances are straight lines and the page says so.",
+      "Hammersmith Bridge: its list point lies outside the borough's land boundary in the data used; not included.",
+      "The age claim often made for Gasholder No 2: not read in the list entry for this build; only its name and grade are used.",
+      "Football grounds and clubs in the borough: not used, to avoid any implied affiliation.",
+      "Hammersmith and Fulham schools and admissions: not read at their own sites and not used.",
+      "Census ethnicity, religion or country of birth: never a standout; used only to order the build."
+    ]
   }
 }
