@@ -1084,3 +1084,4 @@
 .cg-root.cg-eal  { --cg-accent: #3B257E; --cg-accent-soft: rgba(59,37,126,.10); }   /* Ealing: a deep river indigo from the solver (9.73:1 on every paper tint), apart from the Hillingdon brick, the Hounslow green and the Brent earth orange */
 .cg-root.cg-rdb  { --cg-accent: #913061; --cg-accent-soft: rgba(145,48,97,.10); }   /* Redbridge: a raspberry from the solver (6.09:1 on every paper tint), clear of the Ealing indigo and the west London greens and browns */
 .cg-root.cg-bnt  { --cg-accent: #6C6A41; --cg-accent-soft: rgba(108,106,65,.10); }   /* Barnet: an olive khaki from the solver (4.51:1 on every paper tint), a road-sign warmth far from the Redbridge raspberry and the Ealing indigo */
+.cg-root.cg-nwh  { --cg-accent: #23638B; --cg-accent-soft: rgba(35,99,139,.10); }   /* Newham: a dockside steel blue from the solver (5.28:1 on every paper tint), cooler than the Barnet olive and well clear of the Ealing indigo */

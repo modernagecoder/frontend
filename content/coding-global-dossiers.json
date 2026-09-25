@@ -21433,5 +21433,57 @@
       "Individual Barnet state schools and grammar school admissions: not read at their own sites for this build and not used.",
       "Census ethnicity, religion or country of birth for Barnet: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-newham-london": {
+    "market": "Newham",
+    "bodyClass": "cg-nwh",
+    "pageType": "governorate",
+    "curriculumAuthority": "Newham. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000025): 351,036 usual residents. Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 125 (I 4, II* 6, II 115); Grade I CHURCH OF ST MARY MAGDALENE, TIDE MILL (KNOWN AS THE HOUSE MILL), CHURCH OF ST MARY THE VIRGIN, CHURCH OF ALL SAINTS; II* ABBEY MILLS PUMPING STATION, THE THEATRE ROYAL, Gallions Hotel, Former St Mark's Church (Brick Lane Music Hall), NEWHAM COUNCIL OFFICES, UNIVERSITY HOUSE, UNIVERSITY OF EAST LONDON (WEST HAM PRECINCT). TfL Unified API StopPoint HUBSRA (Stratford), 25 September 2026: Central, DLR, Elizabeth line, Jubilee, Mildmay, c2c, Greater Anglia (plus buses). London City Airport homepage schema address Hartmann Road, Royal Docks, E16 2PX; postcodes.io: E16 2PX admin_district Newham, ward Royal Albert. Newham Council libraries page (newham.gov.uk/libraries) returned HTTP 403 to curl on 25 September 2026: not circumvented, no library list used.",
+    "localProject": "CAA UK airport data, monthly, Table 09 (terminal passengers by reporting airport) CSV for each month January 2016 to December 2025 (120 files, none missing), London City row, terminal_pax_this_period. Selected: 2016-01 297,157; 2019-07 493,486 (series maximum); 2020-04 0; 2020-05 0; 2020-06 103; 2021-01 6,474; 2025-07 351,402 (71.2% of July 2019); 2025-12 289,450. Holt-Winters additive trend, multiplicative season, m = 12, initial level = mean of first season, trend = difference of first two seasonal means / 12, season = first year / level; constants by least in-sample squared error over alpha, gamma in {0.05, 0.1, 0.2, 0.3, 0.5, 0.7, 0.9}, beta in {0.01, 0.05, 0.1, 0.2}. Train 2016-2018: alpha 0.5, beta 0.01, gamma 0.9; 2019 MAPE 5.3% vs seasonal naive (2018 same month) 5.9%. Train 2016-2019: April 2020 forecast 420,639, actual 0. Train 2022-2024: alpha 0.05, beta 0.01, gamma 0.9; 2025 MAPE 4.7% vs seasonal naive 4.4%; HW above actual 11/12 months, naive below 11/12; equal-weight average 2.7%. Sensitivity: alpha 0.5 (beta 0.01, gamma 0.9) gives 18.8%. Seasonal index (month / that year's monthly mean, averaged 2023-2025): Jan 0.74, Feb 0.82, Mar 0.99, Apr 1.00, May 1.06, Jun 1.12, Jul 1.10, Aug 1.05, Sep 1.08, Oct 1.09, Nov 1.01, Dec 0.95. Annual totals deliberately not printed (would be sums of published monthly parts). Lesson family: Holt-Winters exponential smoothing and forecast combination, screened free 25 September 2026.",
+    "requiredMentions": [
+      "351,036",
+      "Holt-Winters",
+      "493,486",
+      "420,639",
+      "Abbey Mills Pumping Station",
+      "House Mill",
+      "Gallions Hotel",
+      "Brick Lane Music Hall",
+      "Hartmann Road"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Newham E09000025: 351,036 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000025&measures=20100"
+      },
+      {
+        "claim": "Civil Aviation Authority UK airport data, monthly releases 2016-2025, Table 09 terminal passengers, London City.",
+        "url": "https://www.caa.co.uk/data-and-analysis/uk-aviation-market/airports/uk-airport-data/"
+      },
+      {
+        "claim": "Historic England NHLE listed building points inside the ONS boundary of Newham on 25 September 2026: 125 (4 I, 6 II*, 115 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "ONS Local Authority Districts December 2024 boundaries (BFC), Newham E09000025.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_December_2024_Boundaries_UK_BFC/FeatureServer/0"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint HUBSRA (Stratford), 25 September 2026: Central, Jubilee, DLR, Elizabeth line, Mildmay, c2c, Greater Anglia.",
+        "url": "https://api.tfl.gov.uk/StopPoint/HUBSRA"
+      },
+      {
+        "claim": "London City Airport address Hartmann Road, E16 2PX; postcodes.io places E16 2PX in Newham, Royal Albert ward.",
+        "url": "https://api.postcodes.io/postcodes/E162PX"
+      }
+    ],
+    "rejectedClaims": [
+      "Newham Council library list: newham.gov.uk returned HTTP 403 to our reader; not circumvented, so no libraries are named.",
+      "Annual passenger totals for London City: CAA monthly rows summed by us would not be a CAA-published total, so only single months are printed.",
+      "Why passengers were zero in April and May 2020 (closure dates, flight bans): not read at a primary source for this build, so the page states the CAA figures only.",
+      "Olympic Park venues and their history: not verified at a primary source for this build and not used.",
+      "Individual Newham schools and admissions: not read at their own sites for this build and not used.",
+      "Census ethnicity, religion or country of birth for Newham: never a standout; used only to order the build."
+    ]
   }
 }
