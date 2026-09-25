@@ -22431,5 +22431,53 @@
       "Lewisham schools and admissions: not read at their own sites and not used.",
       "Census ethnicity, religion or country of birth: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-merton-london": {
+    "market": "Merton",
+    "bodyClass": "cg-mrt",
+    "pageType": "governorate",
+    "curriculumAuthority": "Merton. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000024): 215,186 usual residents. Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 242 (I 3, II* 11, II 228); Grade I 1358013 EAGLE HOUSE, 1193413 FORECOURT WALLS, PIERS, RAILINGS AND GATES OF EAGLE HOUSE, 1080899 CHURCH OF ST LAWRENCE; II* include 1194026 Southside House, 1358036 THE CANONS, 1080951 THE OLD RECTORY HOUSE, 1080902 MORDEN PARK, 1358050 THE OLD WINDMILL (1817-18, hollow post mill, altered 1893). List entries 1080891 (Colour House at Messrs Liberty's Print Works: dated 1742; brick, flint, reused stone) and 1193882 (Wheel house at Messrs Liberty's Printworks: C18; C19 undershot wheel with four sets of seven cast iron arms; site of Merton Priory; used for printing textiles for the past two centuries; washing materials in the Wandle). TfL HUBWIM (Wimbledon): District, South Western Railway, Thameslink, Tram. merton.gov.uk/libraries returned HTTP 403 on 25 September 2026: not circumvented.",
+    "localProject": "Exhaustive search with Python fractions: interior angle 180(n-2)/n, n = 3..42, multisets of size 3 to 6 summing to 360: 17 (3,7,42) (3,8,24) (3,9,18) (3,10,15) (3,12,12) (4,5,20) (4,6,12) (4,8,8) (5,5,10) (6,6,6) (3,3,4,12) (3,3,6,6) (3,4,4,6) (4,4,4,4) (3,3,3,3,6) (3,3,3,4,4) (3,3,3,3,3,3); cyclic arrangements up to rotation and reflection: 21 (adds 3.4.3.12, 3.4.6.4, 3.6.3.6, 3.3.4.3.4). One-shape: 6.6.6, 4.4.4.4, 3.3.3.3.3.3. Heptagon angle 900/7 = 128.571; pentagon 108 (360/108 = 3.33). Global extendability not asserted; left as learner test. Lesson family: tessellation and exhaustive search with exact arithmetic, screened 25 September 2026.",
+    "requiredMentions": [
+      "215,186",
+      "Liberty print works",
+      "colour house",
+      "tessellation",
+      "Eagle House",
+      "Southside House",
+      "The Canons",
+      "Church of St Lawrence",
+      "undershot wheel"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Merton E09000024: 215,186 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000024&measures=20100"
+      },
+      {
+        "claim": "Historic England list entry 1080891, Colour House at Messrs Liberty's Print Works, dated 1742.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1080891"
+      },
+      {
+        "claim": "Historic England list entry 1193882, Wheel house at Messrs Liberty's Printworks: textile printing for two centuries; wheel with four sets of seven arms.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1193882"
+      },
+      {
+        "claim": "Historic England NHLE listed building points inside the ONS boundary of Merton on 25 September 2026: 242 (3 I, 11 II*, 228 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint HUBWIM (Wimbledon).",
+        "url": "https://api.tfl.gov.uk/StopPoint/HUBWIM"
+      }
+    ],
+    "rejectedClaims": [
+      "The number of complete tilings of the plane built from these arrangements: not taken from a primary source; the page asks learners to test extension and states no count.",
+      "William Morris's works at Merton Abbey: not in the list entry text read; not stated.",
+      "Tennis at Wimbledon and its club: not mentioned, to avoid any implied affiliation.",
+      "Merton library list: council page returned 403; none named.",
+      "Merton schools and admissions: not read at their own sites and not used.",
+      "Census ethnicity, religion or country of birth: never a standout; used only to order the build."
+    ]
   }
 }

@@ -231,7 +231,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 179 | coding-classes-in-islington-london (isl, #79153C) | London borough (UK, Phase 5) | 3,257 | 1.9% vs coding-classes-in-wandsworth-london | Why a perfectly tuned piano is slightly out of tune | Logarithms, cents, harmonic series vs equal temperament | 884f6bc4 |
 | 180 | coding-classes-in-kensington-and-chelsea-london (knc, #39222B) | London borough (UK, Phase 5) | 3,303 | 1.1% vs coding-classes-in-barnet-london | A 364-day staircase, leap years and continued fractions | Calendar modular arithmetic and continued fractions | 13c133ca |
 | 181 | coding-classes-in-lambeth-london (lam, #492612) | London borough (UK, Phase 5) | 3,143 | 1.3% vs coding-classes-in-richmond-upon-thames-london | The shortest network linking 58 cycle docks | Minimum spanning tree, Prim and Kruskal | 4e5962fa |
-| 182 | coding-classes-in-lewisham-london (lew, #47663D) | London borough (UK, Phase 5) | 3,313 | 1.1% vs coding-classes-in-camden-london | Teaching a computer how the Ravensbourne answers rain | Convolution kernel by non-negative least squares | (this commit) |
+| 182 | coding-classes-in-lewisham-london (lew, #47663D) | London borough (UK, Phase 5) | 3,313 | 1.1% vs coding-classes-in-camden-london | Teaching a computer how the Ravensbourne answers rain | Convolution kernel by non-negative least squares | d20a6c12 |
+| 183 | coding-classes-in-merton-london (mrt, #451740) | London borough (UK, Phase 5) | 3,215 | 1.5% vs coding-classes-in-greenwich-london | Searching every way regular shapes can tile a floor | Tessellation, exhaustive search, exact fractions | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
