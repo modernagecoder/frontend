@@ -222,7 +222,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 170 | coding-classes-in-wandsworth-london (wds, #885A3A) | London borough (UK, Phase 5) | 3,235 | 1.3% vs coding-classes-in-newham-london | Are Boat Race winning streaks more than chance? | Runs test and permutation test on streaks | 317f5e7a |
 | 171 | coding-classes-in-bexley-london (bex, #663D43) | London borough (UK, Phase 5) | 3,270 | 1.1% vs coding-classes-in-kingston-upon-thames-london | How a few storm overflows do most of the spilling | Lorenz curve and Gini coefficient | fb13df7a |
 | 172 | coding-classes-in-havering-london (hav, #7E6225) | London borough (UK, Phase 5) | 3,371 | 1.3% vs coding-classes-in-redbridge-london | Why the average wind hides most of its energy | Weibull fit and the cube law | 0c29bd25 |
-| 173 | coding-classes-in-barking-and-dagenham-london (bkd, #681257) | London borough (UK, Phase 5) | 3,298 | 1.4% vs coding-classes-in-croydon-london | Youngest by which measure? Census medians and shares | Grouped-data median, measure-dependent ranking | (this commit) |
+| 173 | coding-classes-in-barking-and-dagenham-london (bkd, #681257) | London borough (UK, Phase 5) | 3,298 | 1.4% vs coding-classes-in-croydon-london | Youngest by which measure? Census medians and shares | Grouped-data median, measure-dependent ranking | 7aa1c991 |
+| 174 | coding-classes-in-camden-london (cmd, #49642B) | London borough (UK, Phase 5) | 3,234 | 1.6% vs coding-classes-in-wandsworth-london | Did the worst hours of air improve as much as typical ones? | Absolute vs relative change by percentile, residuals | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
