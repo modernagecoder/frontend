@@ -216,7 +216,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 164 | coding-classes-in-croydon-london (cry, #31726A) | London borough (UK, Phase 5) | 3,437 | 1.2% vs coding-classes-in-newham-london | Ranking Premier League teams and testing the ranking | Bradley-Terry paired comparison | 4d23e2a3 |
 | 165 | coding-classes-in-sutton-london (sut, #623A88) | London borough (UK, Phase 5) | 3,336 | 2% vs coding-classes-in-croydon-london | Finding the yearly rhythm of the Wandle in patchy samples | Lomb-Scargle on irregular samples | c700e127 |
 | 166 | coding-classes-in-bromley-london (brm, #317259) | London borough (UK, Phase 5) | 3,456 | 1.8% vs coding-classes-in-croydon-london | Re-testing Darwin's maize with every possible outcome | Exact sign-flip randomisation test | 4975d3de |
-| 167 | coding-classes-in-enfield-london (enf, #773622) | London borough (UK, Phase 5) | 3,376 | 2.3% vs coding-classes-in-croydon-london | How one extra digit catches a typing mistake | Check digits, exhaustive error enumeration | (this commit) |
+| 167 | coding-classes-in-enfield-london (enf, #773622) | London borough (UK, Phase 5) | 3,376 | 2.3% vs coding-classes-in-croydon-london | How one extra digit catches a typing mistake | Check digits, exhaustive error enumeration | 1a2c15e8 |
+| 168 | coding-classes-in-kingston-upon-thames-london (kgt, #364F59) | London borough (UK, Phase 5) | 3,473 | 1% vs coding-classes-in-ealing-london | How the start year changes a Thames trend | Start-date sensitivity, Sen's robust slope | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

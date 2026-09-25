@@ -21682,5 +21682,53 @@
       "Enfield schools and admissions: not read at their own sites and not used.",
       "Census ethnicity, religion or country of birth for Enfield: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-kingston-upon-thames-london": {
+    "market": "Kingston upon Thames",
+    "bodyClass": "cg-kgt",
+    "pageType": "governorate",
+    "curriculumAuthority": "Kingston upon Thames. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000021): 168,063 usual residents (164,689 households, 3,374 communal); third smallest of the 33 London LADs after the City (8,583) and Kensington and Chelsea (143,375). Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 161 (I 3, II* 13, II 145); Grade I 1080064 Clattern Bridge, 1080066 Coronation Stone, 1358437 Church of All Saints; II* include 1300232 KINGSTON BRIDGE, 1358425 Lovekyn Chapel, 1358428 MARKET HOUSE, 1184584 CLEAVE'S ALMSHOUSES, 1080099 COOMBE CONDUIT HOUSE, 1080062 GALLOWS CONDUIT HOUSE (IN GROUNDS OF HAMPTON SPRING). TfL Unified API 910GKGSTON (Kingston Rail Station), 25 September 2026: South Western Railway. kingston.gov.uk/libraries returned HTTP 403 on 25 September 2026: not circumvented, no library list used.",
+    "localProject": "NRFA station-info 39001 (Thames at Kingston, TQ17786985, 517780 169850, catchment 9,948 km2, opened 1883-01-01; description: one of the longest UK flow records, WMO recognition May 2023 for more than 100 years of observations; early low flows particularly 1930s and 1940s may be underestimated; gauged flow fell to zero August 1976; 1894 flood peak reassessed 2002 at 800 cumecs; abstractions, reservoirs, effluent affect runoff). NRFA time-series gdf 39001: 52,137 days 1883-01-01 to 2025-09-30. Water years Oct-Sep, 142 complete (WY1884-WY2025). Mann-Kendall with ties, Sen slope per decade: mean flow 65.62, S -121, p 0.832, Sen -0.13; annual max 310.8, S 746, p 0.189, Sen +2.89, OLS +0.36 (without WY1895: Sen +3.33, OLS +1.62, p 0.124); lowest 7-day mean 10.22, S -1,978, p 0.0005, Sen -0.337. Start sweep (min7, starts 1884-1995 to WY2025): 1884 p 0.0005 -0.337; 1934 0.0712 -0.274; 1951 0.0002 -0.598; 1964 0.0549 -0.487; 1976 0.4124 +0.328; 1990 0.0397 +1.199; 76 of 112 starts p < 0.05. Extremes: max day 1894-11-18 800; min day 1976-08-27 0.01; driest WY1976 mean 10.8; wettest WY2001 mean 142.0. Lesson family: start-date sensitivity and robust Sen slope, screened 25 September 2026 under the reuse rule (Mann-Kendall at Chichester had a different teaching point).",
+    "requiredMentions": [
+      "168,063",
+      "Thames at Kingston",
+      "Sen's slope",
+      "Coronation Stone",
+      "Clattern Bridge",
+      "Lovekyn Chapel",
+      "Cleave's Almshouses",
+      "Coombe Conduit House",
+      "18 November 1894"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Kingston upon Thames E09000021: 168,063 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000021&measures=20100"
+      },
+      {
+        "claim": "UKCEH National River Flow Archive, station 39001 Thames at Kingston: station information and daily flows 1883-2025.",
+        "url": "https://nrfa.ceh.ac.uk/data/station/info/39001"
+      },
+      {
+        "claim": "Historic England NHLE listed building points inside the ONS boundary of Kingston upon Thames on 25 September 2026: 161 (3 I, 13 II*, 145 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "ONS Local Authority Districts December 2024 boundaries (BFC), Kingston upon Thames E09000021.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_December_2024_Boundaries_UK_BFC/FeatureServer/0"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint 910GKGSTON (Kingston), 25 September 2026: South Western Railway.",
+        "url": "https://api.tfl.gov.uk/StopPoint/910GKGSTON"
+      }
+    ],
+    "rejectedClaims": [
+      "Whether the NRFA daily series for 39001 is naturalised or gauged at each date: the station notes mention both, so the page calls it the archive's daily flow series and quotes its caveats.",
+      "Causes of the low-flow decline (climate, abstraction growth): not established by a trend test; the page lists possible causes only.",
+      "Coronation Stone history (Saxon coronations): not read beyond the list entry name for this build, so not stated.",
+      "Kingston library list: council page returned 403; no libraries named.",
+      "Kingston schools and 11+ admissions: left to Phase 6 maths pages; not mentioned here.",
+      "Census ethnicity, religion or country of birth for Kingston: never a standout; used only to order the build."
+    ]
   }
 }
