@@ -22331,5 +22331,53 @@
       "Kensington and Chelsea schools and admissions: not read at their own sites and not used.",
       "Census ethnicity, religion or country of birth: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-lambeth-london": {
+    "market": "Lambeth",
+    "bodyClass": "cg-lam",
+    "pageType": "governorate",
+    "curriculumAuthority": "Lambeth. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000022): 317,654 usual residents. Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 943 (I 6, II* 52, II 885); Grade I 1116399 LAMBETH PALACE, 1249756 Royal Festival Hall, 1064976 CHURCH OF ALL SAINTS, 1357964 CHURCH OF ST JOHN THE DIVINE, 1358233 CHRIST CHURCH, 1319925 STATUE OF ROBERT CLAYTON AT NORTH ENTRANCE TO WARD (St Thomas' Hospital). TfL Unified API HUBWAT (Waterloo): Bakerloo, Jubilee, Waterloo & City, South Western Railway. Lambeth Council /libraries-archives pages: no branch names in the text read; none named.",
+    "localProject": "TfL Unified API /BikePoint, 25 September 2026: 801 docking stations; lat/lon converted to OSGB36 grid (GRS80 -> Helmert ETRS89->OSGB36 -> Airy -> TM); 58 inside Lambeth BFC polygon; NbDocks total 1,650. Euclidean MST: Prim 17.12 km = Kruskal 17.12 km (1,653 pairs), 57 edges; min edge 14 m; top edges 1,073 m Saltoun Road, Brixton - Brockwell Lido, Brixton; 703 m Gauden Road, Clapham - Clapham Common Station, Clapham Common; 694 m Clarence Walk, Stockwell - Gauden Road, Clapham. Degrees: 1 x17, 2 x26, 3 x15. Star from Waterloo Station 1, Waterloo (nearest dock to TfL 940GZZLUWLO 51.503299,-0.11478): 128.0 km (7.5x). Greedy NN chain from that dock: 26.59 km. Lesson family: minimum spanning tree and the cut property, screened 25 September 2026.",
+    "requiredMentions": [
+      "317,654",
+      "minimum spanning tree",
+      "Kruskal",
+      "Lambeth Palace",
+      "Royal Festival Hall",
+      "Robert Clayton",
+      "St John the Divine",
+      "Brockwell Lido",
+      "Saltoun Road"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Lambeth E09000022: 317,654 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000022&measures=20100"
+      },
+      {
+        "claim": "TfL Unified API, BikePoint: all cycle hire docking stations with positions and dock counts.",
+        "url": "https://api.tfl.gov.uk/BikePoint"
+      },
+      {
+        "claim": "Historic England NHLE listed building points inside the ONS boundary of Lambeth on 25 September 2026: 943 (6 I, 52 II*, 885 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "ONS Local Authority Districts December 2024 boundaries (BFC), Lambeth E09000022.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_December_2024_Boundaries_UK_BFC/FeatureServer/0"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint HUBWAT (Waterloo).",
+        "url": "https://api.tfl.gov.uk/StopPoint/HUBWAT"
+      }
+    ],
+    "rejectedClaims": [
+      "Waterloo as the busiest station (by any measure): not verified at ORR for this build; not stated.",
+      "Road or cycle-lane distances: not computed; all links are straight lines and the page says so.",
+      "Lambeth library branch names: not present in the page text read; none named.",
+      "The Oval and cricket clubs: not used, to avoid any implied affiliation.",
+      "Lambeth schools and admissions: not read at their own sites and not used.",
+      "Census ethnicity, religion or country of birth: never a standout; used only to order the build."
+    ]
   }
 }

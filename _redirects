@@ -3846,4 +3846,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-kensington-and-chelsea-london /src/pages/coding-classes-in-kensington-and-chelsea-london.html 200
 /coding-classes-in-kensington-and-chelsea-london.md /src/pages/coding-classes-in-kensington-and-chelsea-london.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-lambeth-london /src/pages/coding-classes-in-lambeth-london.html 200
+/coding-classes-in-lambeth-london.md /src/pages/coding-classes-in-lambeth-london.md 200
 /* /src/pages/404.html 404
