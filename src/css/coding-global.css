@@ -1092,3 +1092,4 @@
 .cg-root.cg-kgt  { --cg-accent: #364F59; --cg-accent-soft: rgba(54,79,89,.10); }   /* Kingston: a Thames slate from the solver (7.04:1 on every paper tint), greyer and darker than the Newham steel blue */
 .cg-root.cg-rch  { --cg-accent: #141F5D; --cg-accent-soft: rgba(20,31,93,.10); }   /* Richmond: a night-sky navy from the solver (12.32:1 on every paper tint), for an observatory page, darker than any London sibling blue */
 .cg-root.cg-wds  { --cg-accent: #885A3A; --cg-accent-soft: rgba(136,90,58,.10); }   /* Wandsworth: an oar-wood brown from the solver (4.77:1 on every paper tint), chosen to avoid both crews' blues and any affiliation */
+.cg-root.cg-bex  { --cg-accent: #663D43; --cg-accent-soft: rgba(102,61,67,.10); }   /* Bexley: a dusky madder red from the solver (7.37:1 on every paper tint), a nod to Red House and distinct from the Enfield brick */

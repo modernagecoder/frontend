@@ -21839,5 +21839,62 @@
       "Wandsworth schools and admissions: not read at their own sites and not used.",
       "Census ethnicity, religion or country of birth for Wandsworth: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-bexley-london": {
+    "market": "Bexley",
+    "bodyClass": "cg-bex",
+    "pageType": "governorate",
+    "curriculumAuthority": "Bexley. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000004): 246,472 usual residents. Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 116 (I 6, II* 9, II 101); Grade I 1064203 RED HOUSE, 1359397 WELL HEAD TO SOUTH EAST OF RED HOUSE, 1064225 DANSON PARK MANSION, 1064241 Former Crossness Pumping Station, 1188277 HALL PLACE, 1064250 GARDEN WALL, GATEPIERS AND GATES TO NORTH AMD WEST OF HALL PLACE; II* include 1064228 FROGNAL HOUSE, 1359409 STABLES TO DANSON PARK. List entry 1064203: 1859, by Philip Webb (his first commission) for William Morris, who lived here until 1864. List entry 1064241: Opened 4 April 1865, Engineer Joseph Bazalgette. Bexley Council /discover-bexley/libraries-in-bexley, 25 September 2026: Central, Crayford, Erith, Sidcup, Thamesmead, Welling libraries named. TfL Unified API 910GBXLYHTH (Bexleyheath): Southeastern, Thameslink.",
+    "localProject": "EA EDM Storm Overflow Annual Return 2025 (zip via data.gov.uk dataset \"Event Duration Monitoring - Storm Overflows - Annual Returns\"), workbook \"all water and sewerage companies\", sheet All WaSC, header row \"Unique ID\"; columns Total Duration (hh:mm:ss) all spills, Counted spills using 12-24h count method, EDM Operation % of reporting period, Outlet Discharge NGR. 14,238 rows with parseable duration (64 unparsed). Zero-hour 2,231 (15.7%). Sorted shares of hours: top 1% (142) 16.6%, 5% (712) 46.4%, 10% (1,424) 64.6%, 20% (2,848) 82.5%, 50% (7,119) 98.3%; 80% reached at 2,567 overflows (18.0%). Gini hours 0.789; Gini counted spills 0.608; Spearman(hours, count) 0.913. Max 5,446 h; 73 over 2,000 h; EDM operation < 90%: 1,020. CROSSNESS WWTW, NGR \"TQ4857081130 and TQ4850081170\", 84.8 h, 13 spills, receiving THAMES TIDAL; both points outside the Bexley BFC polygon (clipped at the shore). No national total printed. Lesson family: Lorenz curve and Gini coefficient, screened 25 September 2026.",
+    "requiredMentions": [
+      "246,472",
+      "Crossness Pumping Station",
+      "Bazalgette",
+      "Lorenz curve",
+      "Gini coefficient",
+      "Red House",
+      "Philip Webb",
+      "Danson Park",
+      "Hall Place"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Bexley E09000004: 246,472 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000004&measures=20100"
+      },
+      {
+        "claim": "Environment Agency, Event Duration Monitoring, Storm Overflow Annual Return 2025.",
+        "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=c55e170e-3c75-49a5-8026-a961ff94c8e0&fileName=EDM_2025_Storm_Overflow_Annual_Return.zip"
+      },
+      {
+        "claim": "Historic England list entry 1064241, Former Crossness Pumping Station: opened 4 April 1865, engineer Joseph Bazalgette.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1064241"
+      },
+      {
+        "claim": "Historic England list entry 1064203, Red House: 1859, Philip Webb, for William Morris, who lived there until 1864.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1064203"
+      },
+      {
+        "claim": "Historic England NHLE listed building points inside the ONS boundary of Bexley on 25 September 2026: 116 (6 I, 9 II*, 101 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "Bexley Council, libraries in Bexley.",
+        "url": "https://www.bexley.gov.uk/discover-bexley/libraries-in-bexley"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint 910GBXLYHTH (Bexleyheath): Southeastern, Thameslink.",
+        "url": "https://api.tfl.gov.uk/StopPoint/910GBXLYHTH"
+      }
+    ],
+    "rejectedClaims": [
+      "A national total of spill hours: our sum of 14,238 published rows is not an EA-published total, so it is not printed.",
+      "Company comparisons or rankings: deliberately not made; the page treats all overflows together.",
+      "Pollution or health effects of spills: hours are not harm; not claimed.",
+      "Community-run libraries beyond the six named on the council page: not read, not listed.",
+      "William Morris designs made at Red House: not verified at a primary source; only the list entry facts are used.",
+      "Bexley grammar schools and 11+: left to the Phase 6 maths pages.",
+      "Census ethnicity, religion or country of birth for Bexley: never a standout; used only to order the build."
+    ]
   }
 }
