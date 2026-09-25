@@ -1081,3 +1081,4 @@
 .cg-root.cg-brt  { --cg-accent: #A54F1D; --cg-accent-soft: rgba(165,79,29,.10); }   /* Brent: a burnt earth orange from the solver (4.56:1 on every paper tint), for a page about hills and heights, clear of the Harrow violet and the London red */
 .cg-root.cg-hns  { --cg-accent: #126829; --cg-accent-soft: rgba(18,104,41,.10); }   /* Hounslow: a heath green from the solver (5.61:1 on every paper tint), clear of the Brent earth orange, the Harrow violet and the London red */
 .cg-root.cg-hlg  { --cg-accent: #6A4339; --cg-accent-soft: rgba(106,67,57,.10); }   /* Hillingdon: a brick brown from the solver (6.89:1 on every paper tint), well away from the Harrow violet next door and the Hounslow green */
+.cg-root.cg-eal  { --cg-accent: #3B257E; --cg-accent-soft: rgba(59,37,126,.10); }   /* Ealing: a deep river indigo from the solver (9.73:1 on every paper tint), apart from the Hillingdon brick, the Hounslow green and the Brent earth orange */

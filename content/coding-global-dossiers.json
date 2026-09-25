@@ -21283,5 +21283,57 @@
       "Individual Hillingdon state schools: not read at their own sites for this build, so none is named.",
       "Census ethnicity, religion or country of birth for Hillingdon: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-ealing-london": {
+    "market": "Ealing",
+    "bodyClass": "cg-eal",
+    "pageType": "governorate",
+    "curriculumAuthority": "Ealing. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000009): 367,115 usual residents (362,907 households, 4,208 communal). Ealing Council, Find your library page, 25 September 2026: Acton Town Hall Library, Ealing Central Library, Greenford Library, Hanwell Community Library, Jubilee Gardens Library, Northfields Community Library, Northolt Leisure Centre Library, Northolt Library, Perivale Community Library, Pitshanger Library, Southall Library and Dominion Centre, St Bernard's Hospital Library, West Ealing Community Library (13). Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 307 (I 6, II* 18, II 283); Grade I 1358811 WHARNCLIFFE VIADUCT, 1358808 Pitzhanger Manor House, 1079350 ENTRANCE ARCHWAY AND GATES AT PITZHANGER MANOR AT NORTH EAST END OF PARK; II* 1079351 BRIDGE AT NORTHERN END OF WALPOLE PARK, 1079353 MAIN FRONT BLOCK TO HOOVER FACTORY, 1079361 CANTEEN BLOCK TO HOOVER FACTORY. TfL Unified API StopPoint 940GZZLUEBY (Ealing Broadway), 25 September 2026: Central, District, Elizabeth line, Great Western Railway (plus buses).",
+    "localProject": "Rating curve at EA Hydrology Greenford, River Brent (station 77d381c3-f098-4b67-b0d5-0e08a548fe0e, 514914E 182238N, opened 1988-11-30; point-in-polygon inside Ealing). Measures level-i-900-m-qualified and flow-i-900-m3s-qualified, 2016-01-01 to 2025-12-31: level 339,813 Good / 10,883 Unchecked / 1 Estimated; flow 339,815 Good / 10,776 Unchecked / 1 Estimated; 339,813 timestamps with both Good; level 0.107 to 1.679 m, flow 0.114 to 53.151 m3/s. One curve (grid over h0, log-linear fit): Q = 25.2283 (h - 0.025)^2.1871, rms log 0.0225, median abs rel error 1.58%, 90th 3.01%; median log residual by band 0.1-0.2 -0.009, 0.2-0.3 -0.006, 0.3-0.4 +0.029, 0.4-0.5 +0.028, 0.5-0.6 -0.001, 0.6-0.8 -0.057, 0.8-1.0 -0.122, 1.0-1.2 -0.191, 1.2-1.7 -0.276; at >=1.2 m (87 readings) median overstatement 31.8%. Two segments, breakpoint searched per year 0.25-0.45: 2016-2024 at 0.31/0.32 (rms 0.0008-0.0036), 2025 at 0.29; pooled with break 0.32: low Q = 32.6783 (h + 0.003)^2.5642, high Q = 24.1224 (h - 0.101)^1.7095, rms 0.0016; median abs rel error by band <0.32 0.08% (max 1.27%), 0.32-0.6 0.03% (max 0.41%), 0.6-1.0 0.06% (max 0.20%), 1.0-1.7 0.05% (max 1.02%). Record 15-min flow 53.151 m3/s at 1.679 m, 2024-09-23T06:00:00 (EA Hydrology timestamps GMT); one curve 75.83, two segments 52.61. Same level, different flow: 662 of 1,091 distinct millimetre levels have more than one flow value, median spread 0.38%. The \"narrow low-flow channel\" explanation is labelled as what hydrologists expect, not as a fact about this station. Lesson family: rating curve / piecewise power law, screened free 25 September 2026.",
+    "requiredMentions": [
+      "367,115",
+      "Jubilee Gardens Library",
+      "Pitshanger Library",
+      "St Bernard's Hospital Library",
+      "Wharncliffe Viaduct",
+      "Pitzhanger Manor",
+      "Hoover factory",
+      "339,813",
+      "0.32 m",
+      "53.15"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Ealing E09000009: 367,115 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000009&measures=20100"
+      },
+      {
+        "claim": "Ealing Council: Find your library, thirteen libraries.",
+        "url": "https://www.ealing.gov.uk/info/201241/find_your_library"
+      },
+      {
+        "claim": "Historic England NHLE listed building points, inside the ONS boundary of Ealing on 25 September 2026: 307 (6 I, 18 II*, 283 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "Environment Agency Hydrology, River Brent at Greenford: 15-minute level and flow with quality flags, 2016 to 2025.",
+        "url": "https://environment.data.gov.uk/hydrology/id/stations/77d381c3-f098-4b67-b0d5-0e08a548fe0e"
+      },
+      {
+        "claim": "ONS Local Authority Districts December 2024 boundaries (BFC), Ealing E09000009.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_December_2024_Boundaries_UK_BFC/FeatureServer/0"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint 940GZZLUEBY (Ealing Broadway), 25 September 2026: Central, District, Elizabeth line, Great Western Railway.",
+        "url": "https://api.tfl.gov.uk/StopPoint/940GZZLUEBY"
+      }
+    ],
+    "rejectedClaims": [
+      "The station's own rating equations, gaugings and reasons for the change of shape at 0.32 m: not published with the data, so the page recovers the formula from outputs and labels the channel explanation as what hydrologists expect.",
+      "Any claim that the rating is accurate for the river in flood: not testable from published outputs, and the page says so.",
+      "Wharncliffe Viaduct construction dates and engineering detail: not read at a primary source for this build; the page names it from the Historic England list only.",
+      "Individual Ealing state schools: not read at their own sites for this build, so none is named.",
+      "Census ethnicity, religion or country of birth for Ealing: never a standout; used only to order the build."
+    ]
   }
 }

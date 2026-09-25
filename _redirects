@@ -3762,4 +3762,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-hillingdon-london /src/pages/coding-classes-in-hillingdon-london.html 200
 /coding-classes-in-hillingdon-london.md /src/pages/coding-classes-in-hillingdon-london.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-ealing-london /src/pages/coding-classes-in-ealing-london.html 200
+/coding-classes-in-ealing-london.md /src/pages/coding-classes-in-ealing-london.md 200
 /* /src/pages/404.html 404
