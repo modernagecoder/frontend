@@ -1096,3 +1096,4 @@
 .cg-root.cg-hav  { --cg-accent: #7E6225; --cg-accent-soft: rgba(126,98,37,.10); }   /* Havering: a weathered sailcloth ochre from the solver (4.66:1 on every paper tint), for a windmill page, unlike any London sibling so far */
 .cg-root.cg-bkd  { --cg-accent: #681257; --cg-accent-soft: rgba(104,18,87,.10); }   /* Barking and Dagenham: a deep damson from the solver (9.40:1 on every paper tint), far from every other London borough colour so far */
 .cg-root.cg-cmd  { --cg-accent: #49642B; --cg-accent-soft: rgba(73,100,43,.10); }   /* Camden: a Heath moss green from the solver (5.43:1 on every paper tint), yellower than the Bromley green and unlike any other London page */
+.cg-root.cg-hck  { --cg-accent: #0E4E26; --cg-accent-soft: rgba(14,78,38,.10); }   /* Hackney: a deep canopy green from the solver (7.98:1 on every paper tint), for a street-tree page, darker and cooler than the Hounslow green */

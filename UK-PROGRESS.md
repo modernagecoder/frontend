@@ -224,7 +224,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 172 | coding-classes-in-havering-london (hav, #7E6225) | London borough (UK, Phase 5) | 3,371 | 1.3% vs coding-classes-in-redbridge-london | Why the average wind hides most of its energy | Weibull fit and the cube law | 0c29bd25 |
 | 173 | coding-classes-in-barking-and-dagenham-london (bkd, #681257) | London borough (UK, Phase 5) | 3,298 | 1.4% vs coding-classes-in-croydon-london | Youngest by which measure? Census medians and shares | Grouped-data median, measure-dependent ranking | 7aa1c991 |
 | 174 | coding-classes-in-camden-london (cmd, #49642B) | London borough (UK, Phase 5) | 3,234 | 1.6% vs coding-classes-in-wandsworth-london | Did the worst hours of air improve as much as typical ones? | Absolute vs relative change by percentile, residuals | a6b9eeb4 |
-| 175 | coding-classes-in-greenwich-london (grn, #454C73) | London borough (UK, Phase 5) | 3,297 | 2.2% vs coding-classes-in-bromley-london | Rebuilding 27 leap seconds from the length of each day | Running sums of a rate vs a published total | (this commit) |
+| 175 | coding-classes-in-greenwich-london (grn, #454C73) | London borough (UK, Phase 5) | 3,297 | 2.2% vs coding-classes-in-bromley-london | Rebuilding 27 leap seconds from the length of each day | Running sums of a rate vs a published total | e57d187e |
+| 176 | coding-classes-in-hackney-london (hck, #0E4E26) | London borough (UK, Phase 5) | 3,276 | 1.1% vs coding-classes-in-richmond-upon-thames-london | Estimating how many tree species nobody has recorded | Species accumulation and Chao1 | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
