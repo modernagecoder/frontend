@@ -22527,5 +22527,52 @@
       "Southwark schools and admissions: not read at their own sites and not used.",
       "Census ethnicity, religion or country of birth: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-tower-hamlets-london": {
+    "market": "Tower Hamlets",
+    "bodyClass": "cg-twh",
+    "pageType": "governorate",
+    "curriculumAuthority": "Tower Hamlets. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000030): 310,306 usual residents. Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 906 (I 20, II* 40, II 846); Grade I include 1260258 THE WHITE TOWER, 1242062 Tower of London (Inner curtain wall with mural towers), 1242026 OUTER CURTAIN WALL WITH CASEMENTS AND MURAL TOWERS, 1065766 THE MIDDLE TOWER, 1357540 CHAPEL OF ST PETER AD VINCULA, 1357795 CHRIST CHURCH (INCLUDING GATEPIERS ...), 1357779 CHURCH OF ST GEORGE IN THE EAST, 1357808 CHURCH OF ST ANNE, 1065065 PARISH CHURCH OF ST DUNSTAN AND ALL SAINTS, 1065245 CHURCH OF ST JOHN ON BETHNAL GREEN, 1241071 TRINITY GREEN (ALMSHOUSES AND CHAPEL), 1242449 BLACKWALL BASIN, dock warehouses and quay walls. ideastore.co.uk, 25 September 2026: Idea Store Bow, Canary Wharf, Chrisp Street, Watney Market, Whitechapel. TfL HUBZWL (Whitechapel): District, Elizabeth line, Hammersmith & City, Windrush; 940GZZLUTWH (Tower Hill): Circle, District.",
+    "localProject": "Recursive Tower of Hanoi in Python 3.13 (our AMD64 machine, 25 September 2026): move count equals 2^n - 1 for n = 1, 2, 3, 4, 5, 10, 16, 20, 22; n 16: 65,535 moves 0.0178 s; n 20: 1,048,575 moves 0.261 s (4.02 M/s); n 22: 4,194,303 moves 1.04 s (4.03 M/s). 2^64 - 1 = 18,446,744,073,709,551,615; at 4.03 M/s: 1.449e5 years; at 1/s: 5.845e11 years (extrapolated). n = 10: disc moved at step k equals bit_length(k & -k) for all 1,023 k (ruler sequence); equals bit_length(g(k) xor g(k-1)) with g(k) = k xor (k >> 1) (binary reflected Gray code) for all k; first 15 discs 1,2,1,3,1,2,1,4,1,2,1,3,1,2,1; moves per disc 512, 256, ..., 1. Lesson family: recursion, exponential growth, Gray code, screened 25 September 2026.",
+    "requiredMentions": [
+      "310,306",
+      "Tower of Hanoi",
+      "Gray code",
+      "White Tower",
+      "St Peter ad Vincula",
+      "St George in the East",
+      "Trinity Green",
+      "Idea Store",
+      "Chrisp Street"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Tower Hamlets E09000030: 310,306 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000030&measures=20100"
+      },
+      {
+        "claim": "Historic England NHLE listed building points inside the ONS boundary of Tower Hamlets on 25 September 2026: 906 (20 I, 40 II*, 846 II), including the White Tower.",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "Idea Store service website: Idea Stores at Bow, Canary Wharf, Chrisp Street, Watney Market, Whitechapel.",
+        "url": "https://www.ideastore.co.uk/"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint HUBZWL (Whitechapel).",
+        "url": "https://api.tfl.gov.uk/StopPoint/HUBZWL"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint 940GZZLUTWH (Tower Hill): Circle, District.",
+        "url": "https://api.tfl.gov.uk/StopPoint/940GZZLUTWH"
+      }
+    ],
+    "rejectedClaims": [
+      "The legend of monks moving 64 golden discs: not from a primary source; not told.",
+      "Tower of London as a World Heritage Site: not read at a primary source for this build; not stated.",
+      "Uses of Gray codes in specific commercial sensors: described only in general terms as an engineering motive.",
+      "Tower Hamlets schools and admissions: not read at their own sites and not used.",
+      "Census ethnicity, religion or country of birth: never a standout; used only to order the build."
+    ]
   }
 }

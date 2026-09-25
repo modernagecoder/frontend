@@ -1104,3 +1104,4 @@
 .cg-root.cg-lew  { --cg-accent: #47663D; --cg-accent-soft: rgba(71,102,61,.10); }   /* Lewisham: a riverbank green from the solver (5.27:1 on every paper tint), greyer and cooler than the Camden moss */
 .cg-root.cg-mrt  { --cg-accent: #451740; --cg-accent-soft: rgba(69,23,64,.10); }   /* Merton: a madder-dye plum from the solver (11.76:1 on every paper tint), for a textile-printing page, redder than Kensington's aubergine */
 .cg-root.cg-swk  { --cg-accent: #57440F; --cg-accent-soft: rgba(87,68,15,.10); }   /* Southwark: a gilt-frame bronze from the solver (7.61:1 on every paper tint), for a page about pictures, browner than the Havering ochre */
+.cg-root.cg-twh  { --cg-accent: #632127; --cg-accent-soft: rgba(99,33,39,.10); }   /* Tower Hamlets: an oxblood from the solver (9.59:1 on every paper tint), a fortress-stone red darker than the Enfield brick */
