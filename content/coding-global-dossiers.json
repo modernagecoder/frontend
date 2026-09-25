@@ -22284,5 +22284,52 @@
       "Islington schools and admissions: not read at their own sites and not used.",
       "Census ethnicity, religion or country of birth: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-kensington-and-chelsea-london": {
+    "market": "Kensington and Chelsea",
+    "bodyClass": "cg-knc",
+    "pageType": "governorate",
+    "curriculumAuthority": "Kensington and Chelsea. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000020): 143,375 usual residents. Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 1,339 (I 18, II* 116, II 1,205); Grade I include 1223861 KENSINGTON PALACE, 1223783 ORANGERY AT KENSINGTON PALACE, 1190187 VICTORIA AND ALBERT MUSEUM, 1080675 Natural History Museum, Front Lodge and Gates, 1267135 HOLLAND HOUSE, 1225632 THE TOWER HOUSE, 1450124 Cosmic House, 1080783 DEBENHAM HOUSE, 1226301 THE ROYAL HOSPITAL MAIN HOSPITAL BUILDINGS, 1265915 ROYAL HOSPITAL ENTRANCE GATES AND LODGES, 1226477 STATUE OF CHARLES II, 1189649 CHELSEA OLD CHURCH (ALL SAINTS). List entry 1450124 (first listed 4 May 2018): remodelled 1979-1985 by Charles Jencks with Terry Farrell Partnership; Solar Stair represents the solar year, 52 steps one for each week, each riser seven subdivisions for the days. List entry 1080783: 1905-7 Halsey Ricardo; garden house with tiles by William de Morgan. TfL 940GZZLUSKS (South Kensington): Circle, District, Piccadilly. rbkc.gov.uk/libraries returned HTTP 403 on 25 September 2026: not circumvented, no list.",
+    "localProject": "Python 3.13 calendar/datetime: years 2001-2400: 97 leap, 146,097 days, 20,871 weeks exactly; weekday of the 13th over 4,800 months: Mon 685, Tue 685, Wed 687, Thu 684, Fri 688, Sat 684, Sun 687. Continued fraction of 97/400 = [0; 4, 8, 12]; convergents 1/4 (diff +0.0075/yr, 1 day per 133.3 yr), 8/33 (diff -0.0000758/yr, 1 day per 13,200 yr), 97/400. Julian vs Gregorian: 3 days per 400 years. 364-day year: 1.2425 days/yr behind the Gregorian mean; a quarter-year (91.31 days) in 73.5 years. 1 January weekdays 2024-2030: Mon, Wed, Thu, Fri, Sat, Mon, Tue. No tropical year value quoted (no primary source read). Lesson family: modular calendar arithmetic and continued fractions, screened 25 September 2026.",
+    "requiredMentions": [
+      "143,375",
+      "Cosmic House",
+      "Solar Stair",
+      "continued fraction",
+      "20,871 weeks",
+      "Debenham House",
+      "William de Morgan",
+      "Holland House",
+      "Chelsea Old Church"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Kensington and Chelsea E09000020: 143,375 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000020&measures=20100"
+      },
+      {
+        "claim": "Historic England list entry 1450124, Cosmic House: Solar Stair, 52 steps, seven subdivisions each.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1450124"
+      },
+      {
+        "claim": "Historic England list entry 1080783, Debenham House: 1905-7, Halsey Ricardo, tiles by William de Morgan.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1080783"
+      },
+      {
+        "claim": "Historic England NHLE listed building points inside the ONS boundary of Kensington and Chelsea on 25 September 2026: 1,339 (18 I, 116 II*, 1,205 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint 940GZZLUSKS (South Kensington): Circle, District, Piccadilly.",
+        "url": "https://api.tfl.gov.uk/StopPoint/940GZZLUSKS"
+      }
+    ],
+    "rejectedClaims": [
+      "Length of the tropical (seasonal) year: NASA's fact sheet was unreachable and no other primary source was read, so no value is quoted; comparisons are with the calendar's own average.",
+      "Babbage's Difference Engine at the Science Museum: the collection record was read, but no primary source placing the museum inside the borough was reachable (museum and group sites returned 403), so the project was not used here.",
+      "RBKC library list: council page returned 403; no libraries named.",
+      "Kensington and Chelsea schools and admissions: not read at their own sites and not used.",
+      "Census ethnicity, religion or country of birth: never a standout; used only to order the build."
+    ]
   }
 }

@@ -228,7 +228,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 176 | coding-classes-in-hackney-london (hck, #0E4E26) | London borough (UK, Phase 5) | 3,276 | 1.1% vs coding-classes-in-richmond-upon-thames-london | Estimating how many tree species nobody has recorded | Species accumulation and Chao1 | 309a5042 |
 | 177 | coding-classes-in-hammersmith-and-fulham-london (hmf, #A02293) | London borough (UK, Phase 5) | 3,236 | 2.1% vs coding-classes-in-sutton-london | A recursive curve orders a walk past 266 listed buildings | Hilbert space-filling curve ordering | eeae49f7 |
 | 178 | coding-classes-in-haringey-london (hgy, #2A4646) | London borough (UK, Phase 5) | 3,210 | 2.3% vs coding-classes-in-croydon-london | Agreeing a secret in public, then timing the eavesdropper | Diffie-Hellman and discrete log attack scaling | 76feb5ac |
-| 179 | coding-classes-in-islington-london (isl, #79153C) | London borough (UK, Phase 5) | 3,257 | 1.9% vs coding-classes-in-wandsworth-london | Why a perfectly tuned piano is slightly out of tune | Logarithms, cents, harmonic series vs equal temperament | (this commit) |
+| 179 | coding-classes-in-islington-london (isl, #79153C) | London borough (UK, Phase 5) | 3,257 | 1.9% vs coding-classes-in-wandsworth-london | Why a perfectly tuned piano is slightly out of tune | Logarithms, cents, harmonic series vs equal temperament | 884f6bc4 |
+| 180 | coding-classes-in-kensington-and-chelsea-london (knc, #39222B) | London borough (UK, Phase 5) | 3,303 | 1.1% vs coding-classes-in-barnet-london | A 364-day staircase, leap years and continued fractions | Calendar modular arithmetic and continued fractions | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
