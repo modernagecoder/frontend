@@ -21539,5 +21539,53 @@
       "Individual Croydon schools, including Whitgift School, and admissions: not read at their own sites and not used.",
       "Census ethnicity, religion or country of birth for Croydon: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-sutton-london": {
+    "market": "Sutton",
+    "bodyClass": "cg-sut",
+    "pageType": "governorate",
+    "curriculumAuthority": "Sutton. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000029): 209,639 usual residents (208,425 households, 1,214 communal). Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 209 (I 1, II* 14, II 194); Grade I 1065672 BEDDINGTON PLACE (GREAT HALL ONLY); II* include 1065627 CARSHALTON HOUSE, 1183926 WATER PAVILION AT CARSHALTON HOUSE, 1357608 HERMITAGE OR GROTTO AT CARSHALTON HOUSE, 1183440 REMAINS OF OLD CHURCH OF ST DUNSTAN, NOW KNOWN AS THE LUMLEY CHAPEL, 1357580 WHITEHALL, 1065674 PIGEON HOUSE TO NORTH WEST OF BEDDINGTON PLACE, 1183473 The Old Rectory, Carshalton. TfL Unified API StopPoint 910GSUTTON (Sutton (London) Rail Station), 25 September 2026: Southern, Thameslink. Sutton Council (sutton.gov.uk/libraries, /w/libraries, /libraries-and-leisure) returned HTTP 202 with an empty body to curl on 25 September 2026: not circumvented, no library list used.",
+    "localProject": "EA Water Quality Archive API (environment.data.gov.uk/water-quality), sampling point TH-PWAR0045 WANDLE ( CARSHALTON BRANCH ) AT BUTTER HILL BRIDGE, 528200 165128, FRESHWATER - RIVERS, OPEN; point inside Sutton BFC polygon (ray casting). Observations via /sampling-point/TH-PWAR0045/observation?limit=250&skip=n, Accept text/csv: 3,899 rows, 2000-01-06 to 2026-09-11. Temperature of Water n 232; per year 2000 11, 2001 12, 2002 11, 2003 12, 2004 12, 2005 12, 2006 12, 2007 13, 2008 12, 2009 12, 2010 4, 2013 4, 2014 4, 2015 4, 2016 4, 2017 1, 2018 11, 2019 12, 2020 3, 2021 12, 2022 12, 2023 11, 2024 10, 2025 12, 2026 9; longest gap 991 days ending 2013-01-07; min 3.65 C 2006-01-27, max 19.2 C 2022-08-17. FFT on sample index: peak 11.6 samples, mean spacing 42.2 d -> 489 d. scipy lombscargle normalised, periods 20-1,500 d (6,000 steps): temperature peak 366 d 0.604, 365 d 0.598; shuffles 500, seed 20260925, 99th pct of max 0.089, 0 exceed. Sine fit: mean 11.68, amplitude 2.88, peak day 206 (25 Jul), R2 0.60. 365-d power: DO mg/l 0.261 (n 231), TON 0.118 (n 229), pH 0.041 (n 228, peak 1,233 d 0.125), orthophosphate 0.043. Ammoniacal N: 231 results, 148 \"<0.03\", 1 \"<0.3\", 82 numeric. Era sine means: 2000-09 11.32 (n 119), 2010-19 11.75 (n 44), 2020-26 12.24 (n 69). Lesson family: Lomb-Scargle on irregular samples plus censored (below reporting limit) values, screened 25 September 2026 under the reuse rule (Liverpool Fourier on regular tide data; Wrexham periodogram rejected).",
+    "requiredMentions": [
+      "209,639",
+      "Lomb-Scargle",
+      "Butter Hill Bridge",
+      "TH-PWAR0045",
+      "Beddington Place",
+      "Carshalton House",
+      "Lumley Chapel",
+      "Hermitage or Grotto",
+      "991 days"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Sutton E09000029: 209,639 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000029&measures=20100"
+      },
+      {
+        "claim": "Environment Agency Water Quality Archive, sampling point TH-PWAR0045, all observations 2000-2026.",
+        "url": "https://environment.data.gov.uk/water-quality/sampling-point/TH-PWAR0045/observation"
+      },
+      {
+        "claim": "Historic England NHLE listed building points inside the ONS boundary of Sutton on 25 September 2026: 209 (1 I, 14 II*, 194 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "ONS Local Authority Districts December 2024 boundaries (BFC), Sutton E09000029.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_December_2024_Boundaries_UK_BFC/FeatureServer/0"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint 910GSUTTON (Sutton (London) Rail Station), 25 September 2026: Southern, Thameslink.",
+        "url": "https://api.tfl.gov.uk/StopPoint/910GSUTTON"
+      }
+    ],
+    "rejectedClaims": [
+      "Sutton Council library list: every libraries URL returned HTTP 202 with an empty body (bot challenge); not circumvented, so no libraries are named.",
+      "That the Carshalton branch is spring-fed, and the history of the Carshalton ponds: not verified at a primary source for this build, so not stated.",
+      "A warming trend in the Wandle: era means rise, but the 2010s have 44 samples and no trend test was run, so it is framed as a question only.",
+      "Sutton grammar schools and 11+ admissions: left to the Phase 6 maths pages and not mentioned here; no admissions advice.",
+      "BedZED and other Hackbridge claims: not read at a primary source for this build and not used.",
+      "Census ethnicity, religion or country of birth for Sutton: never a standout; used only to order the build."
+    ]
   }
 }
