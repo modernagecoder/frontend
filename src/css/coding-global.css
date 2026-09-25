@@ -1106,3 +1106,4 @@
 .cg-root.cg-swk  { --cg-accent: #57440F; --cg-accent-soft: rgba(87,68,15,.10); }   /* Southwark: a gilt-frame bronze from the solver (7.61:1 on every paper tint), for a page about pictures, browner than the Havering ochre */
 .cg-root.cg-twh  { --cg-accent: #632127; --cg-accent-soft: rgba(99,33,39,.10); }   /* Tower Hamlets: an oxblood from the solver (9.59:1 on every paper tint), a fortress-stone red darker than the Enfield brick */
 .cg-root.cg-wfr  { --cg-accent: #15791E; --cg-accent-soft: rgba(21,121,30,.10); }   /* Waltham Forest: a fresh leaf green from the solver (4.50:1 on every paper tint), brighter than every other London green for a page about trees */
+.cg-root.cg-col  { --cg-accent: #A33E59; --cg-accent-soft: rgba(163,62,89,.10); }   /* City of London: a muted rose-red chosen by colour distance from every accent already on the site (4.73:1 on the darkest paper tint) */

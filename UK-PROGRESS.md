@@ -236,7 +236,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 184 | coding-classes-in-southwark-london (swk, #57440F) | London borough (UK, Phase 5) | 3,177 | 1.7% vs coding-classes-in-islington-london | Does the golden ratio rule art? Not once Turner is set aside | Testing a popular claim, composition bias | 8d6f507d |
 | 185 | coding-classes-in-tower-hamlets-london (twh, #632127) | London borough (UK, Phase 5) | 3,281 | 2% vs coding-classes-in-haringey-london | Recursion, the Tower of Hanoi and hidden Gray codes | Recursion, exponential growth, Gray code | 83db937a |
 | 186 | coding-classes-in-waltham-forest-london (wfr, #15791E) | London borough (UK, Phase 5) | 3,214 | 2.3% vs coding-classes-in-haringey-london | Growing a decision tree to tell street trees apart | Decision tree by information gain | 22c5b4c5 |
-| 187 | coding-classes-in-westminster-london (wst, #8B1857) | London borough (UK, Phase 5) | 3,187 | 1.8% vs coding-classes-in-richmond-upon-thames-london | How one old penny changes the Great Clock | Pendulum period, square-root sensitivity | (this commit) |
+| 187 | coding-classes-in-westminster-london (wst, #8B1857) | London borough (UK, Phase 5) | 3,187 | 1.8% vs coding-classes-in-richmond-upon-thames-london | How one old penny changes the Great Clock | Pendulum period, square-root sensitivity | e575394a |
+| 188 | coding-classes-in-the-city-of-london (col, #A33E59) | London borough (UK, Phase 5) | 3,227 | 2.7% vs coding-classes-in-waltham-forest-london | What shape should an arch be? St Paul's and the Monument | Catenary: hanging chain vs parabola | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
