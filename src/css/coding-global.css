@@ -1101,3 +1101,4 @@
 .cg-root.cg-hgy  { --cg-accent: #2A4646; --cg-accent-soft: rgba(42,70,70,.10); }   /* Haringey: a deep cathode-ray teal from the solver (8.26:1 on every paper tint), darker and greyer than the Croydon teal */
 .cg-root.cg-isl  { --cg-accent: #79153C; --cg-accent-soft: rgba(121,21,60,.10); }   /* Islington: a deep organ-case crimson from the solver (8.58:1 on every paper tint), darker and bluer than the Redbridge raspberry */
 .cg-root.cg-lam  { --cg-accent: #492612; --cg-accent-soft: rgba(73,38,18,.10); }   /* Lambeth: a dark chestnut brown from the solver (10.86:1 on every paper tint), deeper and redder than the Wandsworth oar brown */
+.cg-root.cg-lew  { --cg-accent: #47663D; --cg-accent-soft: rgba(71,102,61,.10); }   /* Lewisham: a riverbank green from the solver (5.27:1 on every paper tint), greyer and cooler than the Camden moss */

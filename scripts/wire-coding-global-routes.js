@@ -469,6 +469,7 @@ const MARKETS = [
   ['coding-classes-in-islington-london', 'Islington, London'],
   ['coding-classes-in-kensington-and-chelsea-london', 'Kensington and Chelsea, London'],
   ['coding-classes-in-lambeth-london', 'Lambeth, London'],
+  ['coding-classes-in-lewisham-london', 'Lewisham, London'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

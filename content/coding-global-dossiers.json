@@ -22379,5 +22379,57 @@
       "Lambeth schools and admissions: not read at their own sites and not used.",
       "Census ethnicity, religion or country of birth: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-lewisham-london": {
+    "market": "Lewisham",
+    "bodyClass": "cg-lew",
+    "pageType": "governorate",
+    "curriculumAuthority": "Lewisham. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000023): 300,553 usual residents. Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 367 (I 2, II* 30, II 335); Grade I 1080003 CHURCH OF ST PAUL, 1079981 BOONE'S CHAPEL; II* include 1079996 HORNIMAN MUSEUM, 1213984 FORMER MASTER SHIPWRIGHT'S HOUSE AT ROYAL DOCKYARD, 1288808 FORMER OFFICE BUILDING OF ROYAL DOCKYARD, DEPTFORD, 1359317 BECKENHAM PLACE MANSION, 1193368 STONE HOUSE, 1079968 LEE PUBLIC LIBRARY, Albury Street houses. Lewisham Council /myservices/libraries/branches, 25 September 2026: Catford, Downham, Lewisham libraries, The Library at Deptford Lounge; community library services at Blackheath Village, Crofton Park, Forest Hill, Grove Park, Manor House, New Cross, Sydenham, Torridon Road. TfL HUBLEW (Lewisham): DLR, Southeastern, Thameslink.",
+    "localProject": "EA Hydrology stations: Catford (fc5e2495-e6bf-4b91-bf05-547b8ce5fa8c), River Ravensbourne, 537225 173255, opened 1977-12-01, inside the Lewisham BFC polygon; measure flow-i-900-m3s-qualified. Deptford (03963e57-c237-40d7-bde8-f917e116dd49), 537764 177165, OUTSIDE the polygon; rainfall-t-900-mm-qualified. 2023: flow 35,040 rows (Good 19,198; Suspect 15,842: Jan-May all Suspect, Jun 1,534 Good / 1,346 Suspect, Jul-Dec all Good); rain 34,940 rows (Good 34,858). Hourly: rain sum of 4 quarter-hours, flow mean of 4 Good quarter-hours. Rain 2023 complete hours 641.6 mm; max hourly flow 11.12 m3/s at 2023-10-20 03:00 GMT; Deptford rain 19-20 Oct 18.2 mm. Model Q(h) = b + sum_{k=0..47} w_k R(h-k), scipy nnls; train 2023-07-01 to 2023-09-30 (2,208 h), test 2023-10-01 to 2023-12-31 (2,139 h). b 0.033; w peak lag 2 h; 50% of kernel mass by 2 h, 90% by 13 h; kernel sum 1.92. NSE train 0.684, test 0.551; constant-mean NSE -0.097; unconstrained lstsq 14 of 48 negative, test NSE 0.545; test peak observed 11.12 vs predicted 4.95. Lesson family: convolution kernel learned by non-negative least squares (unit hydrograph); screened 25 September 2026 (unit hydrograph 0; convolution 1 = St Asaph images).",
+    "requiredMentions": [
+      "300,553",
+      "Ravensbourne",
+      "unit hydrograph",
+      "non-negative least squares",
+      "Nash-Sutcliffe",
+      "Horniman Museum",
+      "Boone's Chapel",
+      "Master Shipwright",
+      "Beckenham Place Mansion"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Lewisham E09000023: 300,553 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000023&measures=20100"
+      },
+      {
+        "claim": "Environment Agency Hydrology: Catford flow station (River Ravensbourne), 15-minute flow with quality flags.",
+        "url": "https://environment.data.gov.uk/hydrology/id/stations/fc5e2495-e6bf-4b91-bf05-547b8ce5fa8c"
+      },
+      {
+        "claim": "Environment Agency Hydrology: Deptford rain gauge, 15-minute rainfall.",
+        "url": "https://environment.data.gov.uk/hydrology/id/stations/03963e57-c237-40d7-bde8-f917e116dd49"
+      },
+      {
+        "claim": "Historic England NHLE listed building points inside the ONS boundary of Lewisham on 25 September 2026: 367 (2 I, 30 II*, 335 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "Lewisham Council library branches.",
+        "url": "https://lewisham.gov.uk/myservices/libraries/branches"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint HUBLEW (Lewisham).",
+        "url": "https://api.tfl.gov.uk/StopPoint/HUBLEW"
+      }
+    ],
+    "rejectedClaims": [
+      "The Deptford gauge as a Lewisham gauge: its grid reference lies just outside the borough boundary; the page says so.",
+      "Flow readings flagged Suspect (January to June 2023): excluded; only Good readings used.",
+      "The Ravensbourne catchment area and runoff percentages: catchment area not read from a primary source for this build, so no percentage is given.",
+      "Opening status of individual libraries (a temporary closure notice exists for one): the page only repeats the branches list.",
+      "Lewisham schools and admissions: not read at their own sites and not used.",
+      "Census ethnicity, religion or country of birth: never a standout; used only to order the build."
+    ]
   }
 }
