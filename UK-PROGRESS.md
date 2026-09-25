@@ -221,7 +221,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 169 | coding-classes-in-richmond-upon-thames-london (rch, #141F5D) | London borough (UK, Phase 5) | 3,456 | 1.7% vs coding-classes-in-bromley-london | Kepler's law from JPL data, then weighing Jupiter | Kepler's third law, log-log fit, mass from orbits | f9e99672 |
 | 170 | coding-classes-in-wandsworth-london (wds, #885A3A) | London borough (UK, Phase 5) | 3,235 | 1.3% vs coding-classes-in-newham-london | Are Boat Race winning streaks more than chance? | Runs test and permutation test on streaks | 317f5e7a |
 | 171 | coding-classes-in-bexley-london (bex, #663D43) | London borough (UK, Phase 5) | 3,270 | 1.1% vs coding-classes-in-kingston-upon-thames-london | How a few storm overflows do most of the spilling | Lorenz curve and Gini coefficient | fb13df7a |
-| 172 | coding-classes-in-havering-london (hav, #7E6225) | London borough (UK, Phase 5) | 3,371 | 1.3% vs coding-classes-in-redbridge-london | Why the average wind hides most of its energy | Weibull fit and the cube law | (this commit) |
+| 172 | coding-classes-in-havering-london (hav, #7E6225) | London borough (UK, Phase 5) | 3,371 | 1.3% vs coding-classes-in-redbridge-london | Why the average wind hides most of its energy | Weibull fit and the cube law | 0c29bd25 |
+| 173 | coding-classes-in-barking-and-dagenham-london (bkd, #681257) | London borough (UK, Phase 5) | 3,298 | 1.4% vs coding-classes-in-croydon-london | Youngest by which measure? Census medians and shares | Grouped-data median, measure-dependent ranking | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -3814,4 +3814,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-havering-london /src/pages/coding-classes-in-havering-london.html 200
 /coding-classes-in-havering-london.md /src/pages/coding-classes-in-havering-london.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-barking-and-dagenham-london /src/pages/coding-classes-in-barking-and-dagenham-london.html 200
+/coding-classes-in-barking-and-dagenham-london.md /src/pages/coding-classes-in-barking-and-dagenham-london.md 200
 /* /src/pages/404.html 404
