@@ -22237,5 +22237,52 @@
       "Haringey schools and admissions: not read at their own sites and not used.",
       "Census ethnicity, religion or country of birth: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-islington-london": {
+    "market": "Islington",
+    "bodyClass": "cg-isl",
+    "pageType": "governorate",
+    "curriculumAuthority": "Islington. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000019): 216,589 usual residents. Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 1,047 (I 12, II* 34, II 1,001); Grade I 1298101 THE CHARTERHOUSE, 1280100 MASTER'S LODGE, THE CHARTERHOUSE, 1208827 ST JOHN'S GATE, 1208840 PRIORY CHURCH OF ST JOHN OF JERUSALEM, 1195538 WESLEY'S CHAPEL, 1195533 JOHN WESLEY'S HOUSE, 1208365 Union Chapel, 1195700 FORMER CHURCH OF ST LUKE, 1195443 FORMER CHURCH OF ST SAVIOUR, 1298055 CLERK'S WELL, 1297993 FINSBURY HEALTH CENTRE, 1293320 52-55 NEWINGTON GREEN. List entry 1208365: Congregational chapel 1876-7 by James Cubitt, tower completed 1889; \"a notable Willis organ\"; \"an unaltered Henry Willis instrument retaining its original hydraulic bellows pumps\"; opening 5 December 1877, 3,500 present. Islington Council /libraries/your-local-libraries, 25 September 2026: Archway, Cat and Mouse, Central, Finsbury, Mildmay, North, South, West. TfL HUBHHY (Highbury & Islington): Victoria, Mildmay, Windrush, Great Northern. NPOR API (npor.org.uk/api/search) returned 401: not used.",
+    "localProject": "cents(r) = 1200 log2 r. Harmonics n = 1..16 vs nearest 100-cent step: 3 +1.96; 5 -13.69; 7 -31.17; 9 +3.91; 11 -48.68; 13 +40.53; 15 -11.73. C4 = 261.6256 Hz; ET E4 = C4 x 2^(4/12) = 329.628; pure 5/4 = 327.032 (diff 2.596 Hz); 4 x E4 - 5 x C4 = 10.38 Hz beat; ET G4 391.995 vs 3/2 392.438; 2G - 3C = -0.886 Hz. Organ footage: 16, 8, 4, 2 2/3, 2, 1 3/5, 1 1/7 ft = ratios 1/2, 1, 2, 3, 4, 5, 7 to the 8 ft rank (standard convention). Pipe: 8 ft = 2.4384 m; f = 343 / (2L) = 70.33 Hz; C2 = 65.406 Hz; effective length 343 / (2 x 65.406) = 2.622 m. Lesson family: logarithms, cents, harmonic series vs equal temperament, beats; screened 25 September 2026.",
+    "requiredMentions": [
+      "216,589",
+      "Union Chapel",
+      "Henry Willis",
+      "equal temperament",
+      "harmonic series",
+      "Charterhouse",
+      "Clerk's Well",
+      "Finsbury Health Centre",
+      "Cat and Mouse"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Islington E09000019: 216,589 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000019&measures=20100"
+      },
+      {
+        "claim": "Historic England list entry 1208365, Union Chapel: 1876-7 by James Cubitt; unaltered Henry Willis organ; opening 5 December 1877.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1208365"
+      },
+      {
+        "claim": "Historic England NHLE listed building points inside the ONS boundary of Islington on 25 September 2026: 1,047 (12 I, 34 II*, 1,001 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "Islington Council, your local libraries.",
+        "url": "https://www.islington.gov.uk/libraries-arts-and-heritage/libraries/your-local-libraries"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint HUBHHY (Highbury & Islington).",
+        "url": "https://api.tfl.gov.uk/StopPoint/HUBHHY"
+      }
+    ],
+    "rejectedClaims": [
+      "The Union Chapel organ's stoplist and pipe dimensions: the National Pipe Organ Register data service requires a login; not used, so the page uses only standard footage conventions.",
+      "The exact end-correction formula for organ pipes: not quoted; the page derives the effective length from the named note.",
+      "Arsenal and the Emirates Stadium: not used, to avoid any implied affiliation.",
+      "Islington schools and admissions: not read at their own sites and not used.",
+      "Census ethnicity, religion or country of birth: never a standout; used only to order the build."
+    ]
   }
 }

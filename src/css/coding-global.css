@@ -1099,3 +1099,4 @@
 .cg-root.cg-hck  { --cg-accent: #0E4E26; --cg-accent-soft: rgba(14,78,38,.10); }   /* Hackney: a deep canopy green from the solver (7.98:1 on every paper tint), for a street-tree page, darker and cooler than the Hounslow green */
 .cg-root.cg-hmf  { --cg-accent: #A02293; --cg-accent-soft: rgba(160,34,147,.10); }   /* Hammersmith and Fulham: a vivid magenta from the solver (5.42:1 on every paper tint), the only bright pink-violet among the London boroughs so far */
 .cg-root.cg-hgy  { --cg-accent: #2A4646; --cg-accent-soft: rgba(42,70,70,.10); }   /* Haringey: a deep cathode-ray teal from the solver (8.26:1 on every paper tint), darker and greyer than the Croydon teal */
+.cg-root.cg-isl  { --cg-accent: #79153C; --cg-accent-soft: rgba(121,21,60,.10); }   /* Islington: a deep organ-case crimson from the solver (8.58:1 on every paper tint), darker and bluer than the Redbridge raspberry */
