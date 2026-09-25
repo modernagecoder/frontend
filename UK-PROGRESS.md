@@ -212,7 +212,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 160 | coding-classes-in-ealing-london (eal, #3B257E) | London borough (UK, Phase 5) | 3,460 | 2.5% vs coding-classes-in-brent-london | flow is calculated from level by a hidden formula | rating curve, piecewise power law | 880e6d0d |
 | 161 | coding-classes-in-redbridge-london (rdb, #913061) | London borough (UK, Phase 5) | 3,577 | 2.4% vs coding-classes-in-hounslow-london | the geometry of the evidence decides the answer | trilateration, mirror ambiguity and first guesses | 59c93457 |
 | 162 | coding-classes-in-barnet-london (bnt, #6C6A41) | London borough (UK, Phase 5) | 3,575 | 1.1% vs coding-classes-in-ealing-london | jams need no crash and no bottleneck | traffic cellular automaton, fundamental diagram | f78017cb |
-| 163 | coding-classes-in-newham-london (nwh, #23638B) | London borough (UK, Phase 5) | 3,536 | 1% vs coding-classes-in-brent-london | Forecasting London City passengers in three parts | Holt-Winters exponential smoothing | (this commit) |
+| 163 | coding-classes-in-newham-london (nwh, #23638B) | London borough (UK, Phase 5) | 3,536 | 1% vs coding-classes-in-brent-london | Forecasting London City passengers in three parts | Holt-Winters exponential smoothing | 036c462b |
+| 164 | coding-classes-in-croydon-london (cry, #31726A) | London borough (UK, Phase 5) | 3,437 | 1.2% vs coding-classes-in-newham-london | Ranking Premier League teams and testing the ranking | Bradley-Terry paired comparison | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -3778,4 +3778,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-newham-london /src/pages/coding-classes-in-newham-london.html 200
 /coding-classes-in-newham-london.md /src/pages/coding-classes-in-newham-london.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-croydon-london /src/pages/coding-classes-in-croydon-london.html 200
+/coding-classes-in-croydon-london.md /src/pages/coding-classes-in-croydon-london.md 200
 /* /src/pages/404.html 404
