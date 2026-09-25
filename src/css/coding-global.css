@@ -1079,3 +1079,4 @@
 .cg-root.cg-dly  { --cg-accent: #431919; --cg-accent-soft: rgba(67,25,25,.10); }   /* Derry~Londonderry: a deep oxblood, from the solver (12.25:1 on every paper tint, dE 6.8 from the nearest used accent) */
 .cg-root.cg-nwy  { --cg-accent: #604124; --cg-accent-soft: rgba(96,65,36,.10); }   /* Newry: a leather brown, after the tanneries in its industrial heritage record; from the solver (7.48:1 on every paper tint, dE 6.6 from the nearest used accent) */
 .cg-root.cg-brt  { --cg-accent: #A54F1D; --cg-accent-soft: rgba(165,79,29,.10); }   /* Brent: a burnt earth orange from the solver (4.56:1 on every paper tint), for a page about hills and heights, clear of the Harrow violet and the London red */
+.cg-root.cg-hns  { --cg-accent: #126829; --cg-accent-soft: rgba(18,104,41,.10); }   /* Hounslow: a heath green from the solver (5.61:1 on every paper tint), clear of the Brent earth orange, the Harrow violet and the London red */

@@ -21176,5 +21176,61 @@
       "Individual Brent state schools: not read at their own sites for this build, so none is named.",
       "Census ethnicity, religion or country of birth for Brent: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-hounslow-london": {
+    "market": "Hounslow",
+    "bodyClass": "cg-hns",
+    "pageType": "governorate",
+    "curriculumAuthority": "Hounslow. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000018): 288,181 usual residents (286,381 households, 1,800 communal). Hounslow Council, Libraries and Community Hubs page, \"Find your nearest Community Hub and Library\": Beavers (Beavers Children's Centre, Salisbury Rd, Hounslow TW4 7NW), Bedfont (Staines Rd, Bedfont TW14 8DB), Brentford (Boston Manor Rd, Brentford TW8 8DW), Chiswick (Dukes Ave, Chiswick W4 2AB), Feltham (The Centre, High St, Feltham TW13 4GU), Hanworth (Hanworth Air Park Leisure Centre, Feltham TW13 5EG), Heston (New Heston Rd, Heston TW5 0LW), Hounslow (7 Bath Rd, Hounslow TW3 3EB), Isleworth (Twickenham Rd, Isleworth TW7 7EU), Meadowbank (Cranford) (Meadowbank Adult Education Centre, Cranford TW5 9SD), Osterley (St Mary's Crescent, Isleworth TW7 4NB). Historic England NHLE listed building points inside ONS LAD Dec 2024 BFC boundary, 25 September 2026: 506 (I 32, II* 28, II 446), Grade I includes 1079607 CHISWICK HOUSE, 1079603 BOSTON MANOR HOUSE, 1079568 THREE MALE STATUES FROM HADRIAN'S VILLA IN CHISWICK PARK, 1079608 OBELISK IN CHISWICK PARK; II* includes 1260598 KEMPTON PARK PUMPING STATION (INCLUDING TRIPLE EXPANSION HOUSE AND TWO ATTACHED CHIMNEYS) and 1375631 LILLESHALL ENGINE HOUSE, KEMPTON PARK PUMPING STATION. TfL Unified API StopPoint 940GZZLUHWC (Hounslow Central), 25 September 2026: Piccadilly.",
+    "localProject": "Error budget on Roy's base. Source: W. Roy, \"An Account of the Measurement of a Base on Hounslow-Heath\", Philosophical Transactions 1785 (archive.org item paper-doi-10_1098_rstl_1785_0024, djvu text): \"we began our observations at a place called King's Arbour, at the north-west extremity of the Heath\" (16 April 1784); \"finished at Hampton Poor-house, near the side of Bushy-Park\"; \"through the narrow gorge, formed by Hanworth-Park and Hanworth-Farm\"; hypotenusal length \"1369.925521 glass rods of twenty feet each +4.31 feet\" = 27402.8204; seventh-column reduction 0.0714 deducted -> 27402.7490; glass expansion excess 4.1867 inches; brass scale equation for 6 degrees between 62 and 68 = 20.3352 inches; -> 27404.7925; sea-level reduction 0.0706 -> 27404.7219; \"ultimate length of the base at 27404 feet and seven-tenths\"; \"throw away some useless decimals\". Ranked: 1.6946 ft, 0.3489 ft, 0.0714 ft, 0.0706 ft. Modern check: NHLE 1119717 (507714, 176789) and 1263302 (513720, 170985), CaptureScale 1:1250 both; grid distance 8352.15 m; OS inverse TM (Airy 1830, F0 0.9996012717) + Vincenty on Airy: 8354.23 m; grid/ellipsoid 0.999752; 27404.7219 x 0.3048 = 8352.96 m; gap 1.27 m. Straight line between list points: 56.6% of 2,001 sample points inside the Hounslow BFC polygon; both endpoints outside. Lesson family: error budget, screened free 25 September 2026.",
+    "requiredMentions": [
+      "288,181",
+      "Salisbury Rd",
+      "Dukes Ave",
+      "Bath Rd",
+      "Hanworth Air Park",
+      "King's Arbour",
+      "Hampton Poor-house",
+      "1369.925521",
+      "27,404.7219",
+      "1263302"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Hounslow E09000018: 288,181 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000018&measures=20100"
+      },
+      {
+        "claim": "Hounslow Council: eleven Community Hub and Library sites with addresses.",
+        "url": "https://www.hounslow.gov.uk/libraries/community-hubs"
+      },
+      {
+        "claim": "Historic England NHLE listed building points (open data), inside the ONS boundary of Hounslow on 25 September 2026: 506 (32 I, 28 II*, 446 II); entries 1119717 and 1263302 mark the ends of General Roy's survey base, captured at 1:1250.",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "W. Roy, An Account of the Measurement of a Base on Hounslow-Heath, Philosophical Transactions 1785: the correction chain and 27404.7219 feet at sea level (public-domain copy).",
+        "url": "https://archive.org/details/paper-doi-10_1098_rstl_1785_0024"
+      },
+      {
+        "claim": "Ordnance Survey, history: \"To begin the London/Paris triangulation, it was necessary to measure a baseline that Roy established on the flattest suitable ground on Hounslow Heath (a line that now crosses Heathrow airport).\" Roy 1785 on the soldiers: \"a party of the 12th regiment of foot, consisting of a serjeant, corporal, and 10 men\" encamped on Hounslow Heath on 26 May.",
+        "url": "https://www.ordnancesurvey.co.uk/about/history"
+      },
+      {
+        "claim": "ONS Local Authority Districts December 2024 boundaries (BFC), Hounslow E09000018.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_December_2024_Boundaries_UK_BFC/FeatureServer/0"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint 940GZZLUHWC (Hounslow Central), 25 September 2026: Piccadilly line.",
+        "url": "https://api.tfl.gov.uk/StopPoint/940GZZLUHWC"
+      }
+    ],
+    "rejectedClaims": [
+      "The Royal Society's own page for Roy's paper returned a Cloudflare challenge (403) and was not retried; the public-domain archive.org copy was used.",
+      "Dates and origin of the cannons or monuments at each end: not read at a primary source (Historic England list pages 403), so the page says only that both ends are marked by listed monuments.",
+      "The exact modern length of Roy's foot: not read at a primary source; the page says only that his foot was his own standard and uses the modern 0.3048 m for the conversion, with that caveat.",
+      "Heathrow Airport statistics: Heathrow is in Hillingdon, not Hounslow, and none are used.",
+      "Census ethnicity, religion or country of birth for Hounslow: never a standout; used only to order the build."
+    ]
   }
 }

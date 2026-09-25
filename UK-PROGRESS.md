@@ -206,7 +206,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 154 | best-coding-class-in-lisburn (lsb, #6B6B2E) | city (UK, Phase 4) | 3,348 | 3.8% vs best-coding-class-in-bangor-northern-ireland | Did the fire of 1707 leave a gap? | Mann-Whitney U test (rank-sum, ordinal data) | 7cadeab0 |
 | 155 | best-coding-class-in-derry-londonderry (dly, #431919) | city (UK, Phase 4) | 3,348 | 1.8% vs best-coding-class-in-bangor-northern-ireland | Where do the trains pass? | Time-distance (Marey) charts and segment intersection | eb82bb41 |
 | 156 | best-coding-class-in-newry (nwy, #604124) | city (UK, Phase 4) | 3,426 | 3.5% vs best-coding-class-in-lisburn | What is unusual about Newry's industrial heritage? | Fisher's exact test and multiple testing | ea55afbd |
-| 157 | coding-classes-in-brent-london (brt, #A54F1D) | London borough (UK, Phase 5) | 3,646 | 1.3% vs coding-classes-in-harrow-london | a contour is a guess between grid points | marching squares, contour interpolation uncertainty | (this commit) |
+| 157 | coding-classes-in-brent-london (brt, #A54F1D) | London borough (UK, Phase 5) | 3,646 | 1.3% vs coding-classes-in-harrow-london | a contour is a guess between grid points | marching squares, contour interpolation uncertainty | c5ae75a2 |
+| 158 | coding-classes-in-hounslow-london (hns, #126829) | London borough (UK, Phase 5) | 3,695 | 1.6% vs coding-classes-in-harrow-london | an error budget on Roy's 1784 base | error budget, ranking the corrections to a measurement | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
