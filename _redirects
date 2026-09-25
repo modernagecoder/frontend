@@ -3770,4 +3770,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-redbridge-london /src/pages/coding-classes-in-redbridge-london.html 200
 /coding-classes-in-redbridge-london.md /src/pages/coding-classes-in-redbridge-london.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-barnet-london /src/pages/coding-classes-in-barnet-london.html 200
+/coding-classes-in-barnet-london.md /src/pages/coding-classes-in-barnet-london.md 200
 /* /src/pages/404.html 404

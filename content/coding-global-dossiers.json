@@ -21386,5 +21386,52 @@
       "Individual Redbridge state schools, grammar school admissions or eleven plus results: not read at their own sites for this build and not used.",
       "Census ethnicity, religion or country of birth for Redbridge: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-barnet-london": {
+    "market": "Barnet",
+    "bodyClass": "cg-bnt",
+    "pageType": "governorate",
+    "curriculumAuthority": "Barnet. ONS Census 2021 TS001 via Nomis (NM_2021_1, E09000003): 389,344 usual residents (385,950 households, 3,394 communal). Historic England NHLE listed points inside the ONS LAD Dec 2024 BFC boundary, 25 September 2026: 649 (I 2, II* 34, II 613); Grade I 1078866 Hampstead Garden Suburb Free Church, 1294714 CHURCH OF ST JUDE; II* includes 1064889 WATERLOW COURT, 1188513 CHURCH FARMHOUSE MUSEUM, 1191239 WYLDES FARM, several SOUTH SQUARE NW11 and NORTH SQUARE NW11 houses. National Highways WebTRIS site list (api/v1.0/sites), 25 September 2026, positions converted from WGS84 with the OS Helmert and tested against the Barnet BFC polygon: 66 sites (M1 13 active, 45 inactive; A1 5 active, 2 inactive; 1 other inactive). TfL Unified API StopPoint 940GZZLUHBT (High Barnet), 25 September 2026: Northern. Barnet Council libraries pages (barnet.gov.uk/libraries, /libraries/find-library) returned an Imperva \"Pardon Our Interruption\" bot check to curl on 25 September 2026: not circumvented, no library list used.",
+    "localProject": "Nagel-Schreckenberg CA: ring L = 2,000 cells x 7.5 m, vmax 5 cells/s, p in {0, 0.3}, densities 0.03-0.45 of cells occupied, 4,000 s with 1,000 s warm-up, numpy default_rng(20260925); flow q = k x mean speed (spatial average). p = 0: 6.4/mile 540/h; 17.2 1,440; 21.5 1,800; 25.7 2,160; 32.2 2,700 (84 mph, 0 stopped); 42.9 2,880 (67.1 mph, 2.0% stopped); 64.4 2,520; 96.6 1,980. p = 0.3: 6.4 507; 17.2 1,343; 21.5 1,648 (0.4% stopped); 25.7 1,679 (8.2%); 32.2 1,627 (19.0%); 42.9 1,568 (30.6%); 64.4 1,416 (43.7%); 96.6 1,162 (55.6%). WebTRIS api/v1.0/reports/Daily, site 1429 = M1/2116B (\"MIDAS site at M1/2116B ... Southbound\", GPS ref 522416;187767), 01-31 March 2025: 2,972 rows, 2,962 with Total Volume and Avg mph; q = 4 x volume per 15 min, k = q / avg mph; medians by k band: 0-20 450/h 50 mph (n 1,546); 20-40 1,348 51 (1,103); 40-60 2,080 47 (79); 60-80 2,574 38 (28); 80-120 2,682 26 (40); 120+ 2,414 10 (166); 8.2% of intervals under 40 mph. Requests for January 2026 onward returned rows with empty values (March 2026 all 2,972 blank) and August 2026 returned 204, so March 2025 is used. Lesson family: traffic cellular automaton and the fundamental diagram, screened free 25 September 2026.",
+    "requiredMentions": [
+      "389,344",
+      "Nagel-Schreckenberg",
+      "cellular automaton",
+      "M1/2116B",
+      "WebTRIS",
+      "Hampstead Garden Suburb Free Church",
+      "Wyldes Farm",
+      "Waterlow Court",
+      "Church Farmhouse Museum"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 (Nomis NM_2021_1), Barnet E09000003: 389,344 usual residents.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2021_1.data.csv?geography=E09000003&measures=20100"
+      },
+      {
+        "claim": "National Highways WebTRIS: site list and daily 15-minute reports; site M1/2116B, March 2025.",
+        "url": "https://webtris.nationalhighways.co.uk/api/v1.0/sites"
+      },
+      {
+        "claim": "Historic England NHLE listed building points, inside the ONS boundary of Barnet on 25 September 2026: 649 (2 I, 34 II*, 613 II).",
+        "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/0"
+      },
+      {
+        "claim": "ONS Local Authority Districts December 2024 boundaries (BFC), Barnet E09000003.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_December_2024_Boundaries_UK_BFC/FeatureServer/0"
+      },
+      {
+        "claim": "TfL Unified API, StopPoint 940GZZLUHBT (High Barnet), 25 September 2026: Northern line.",
+        "url": "https://api.tfl.gov.uk/StopPoint/940GZZLUHBT"
+      }
+    ],
+    "rejectedClaims": [
+      "Barnet Council library list: the council site served a bot check (Imperva) to our reader; not circumvented, so no libraries are named.",
+      "Number of lanes at site M1/2116B and per-lane figures: not published in the data we read, so the page compares shapes, not per-lane values.",
+      "The University of London Observatory at Mill Hill: UCL pages returned 403 and it is not on the Historic England list, so it is not mentioned.",
+      "Individual Barnet state schools and grammar school admissions: not read at their own sites for this build and not used.",
+      "Census ethnicity, religion or country of birth for Barnet: never a standout; used only to order the build."
+    ]
   }
 }
