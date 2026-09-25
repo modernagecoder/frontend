@@ -3858,4 +3858,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-merton-london /src/pages/coding-classes-in-merton-london.html 200
 /coding-classes-in-merton-london.md /src/pages/coding-classes-in-merton-london.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-southwark-london /src/pages/coding-classes-in-southwark-london.html 200
+/coding-classes-in-southwark-london.md /src/pages/coding-classes-in-southwark-london.md 200
 /* /src/pages/404.html 404
