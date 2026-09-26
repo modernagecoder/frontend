@@ -25831,5 +25831,49 @@
       "Named schools and school term dates: none named or read.",
       "Distances or directions between towns: not claimed."
     ]
+  },
+  "coding-classes-in-renfrewshire": {
+    "market": "Renfrewshire",
+    "bodyClass": "cg-rfw",
+    "pageType": "governorate",
+    "curriculumAuthority": "Renfrewshire (S12000038), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 183,800 (females 95,000, males 88,800); households 86,700; density 702.9 per square kilometre (Scotland 69.8); ages 0 to 14 27,700 (15.1 per cent), 65+ 35,700 (19.4 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Paisley 77,270; Renfrew 24,270; Johnstone 15,930; Erskine 15,010; Linwood 8,450; Bishopton 7,920; Houston 6,360; Elderslie 5,480; Bridge of Weir 4,920; Kilbarchan 3,300 (Glasgow part excluded). HES LB40425 (Category A, added 13/12/1994), Rolling Lift Bridge over White Cart Water, burgh Renfrew: \"Built 1923. Single-span Scherzer rolling lift bridge, truss span with roadway on lower chord\"; \"Counterweight and control cabins at E end\"; \"by Sir William Arrol and Co. and is one of only two remaining rolling lift bridges in Scotland (the other is the Queenie Lift Bridge in Peterhead)\"; \"It first opened on 24 March 1923\"; \"refurbished in 2004\".",
+    "localProject": "Invented: leaf 20 m, rolling radius 4 m; centre back R x angle. Tips rolling vs hinge: 15 deg (19.31, 5.31) vs (19.32, 5.18); 30 (17.23, 10.54) vs (17.32, 10.00); 45 (13.83, 15.31) vs (14.14, 14.14); 60 (9.28, 19.32) vs (10.00, 17.32); 70 (5.71, 21.43) vs (6.84, 18.79); 80 (1.83, 23.00) vs (3.47, 19.70). Back: 1.05, 2.09, 3.14, 4.19, 4.89, 5.59 m. Path 0-70: 27.11 vs 24.43 m. Degrees bug: 4 x 70 = 280 m. AI angle: degrees vs radians. Lesson family: parametric curves, rolling without slipping.",
+    "requiredMentions": [
+      "183,800",
+      "86,700",
+      "702.9",
+      "Erskine",
+      "Linwood",
+      "Houston",
+      "Elderslie",
+      "Bridge of Weir",
+      "Kilbarchan",
+      "LB40425",
+      "Scherzer",
+      "rolling lift",
+      "White Cart"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB40425: Rolling Lift Bridge over White Cart Water, Renfrew.",
+        "url": "https://portal.historicenvironment.scot/designation/LB40425"
+      }
+    ],
+    "rejectedClaims": [
+      "Real span, radius, opening angle or operating details of the Renfrew bridge: not in the listing, not claimed.",
+      "Whether the bridge still opens today: not claimed.",
+      "Coats Observatory and Paisley weather records: the Met Office Paisley site is marked closed; not used.",
+      "Paisley Abbey and textile history: not researched for this page.",
+      "Named Renfrewshire schools and school term dates: none named or read.",
+      "Directions or distances between towns: not claimed."
+    ]
   }
 }
