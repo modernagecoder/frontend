@@ -25875,5 +25875,49 @@
       "Named Renfrewshire schools and school term dates: none named or read.",
       "Directions or distances between towns: not claimed."
     ]
+  },
+  "coding-classes-in-scottish-borders": {
+    "market": "Scottish Borders",
+    "bodyClass": "cg-sbo",
+    "pageType": "governorate",
+    "curriculumAuthority": "Scottish Borders (S12000026), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 116,900 (females 60,100, males 56,800); households 55,600; density 24.7 per square kilometre (Scotland 69.8); ages 0 to 14 16,800 (14.4 per cent), 65+ 30,800 (26.3 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Hawick 10,630; Galashiels 10,060; Peebles 9,000; Kelso 6,870; Selkirk 4,540; Jedburgh 3,860; Eyemouth 3,580; Langlee 3,410; Innerleithen 3,180; Burnfoot 2,990; Duns 2,820; Melrose 2,500; Tweedbank 2,020. HES SM90214 (scheduled monument), Melrose Abbey: \"founded in 1136/7 by King David I\"; \"a lade that brought water to the abbey from a weir in the River Tweed about 500m to the west-northwest\"; \"about 80m above sea level\"; \"barrel vault inserted in around 1621 when the abbey was used as a parish church after the Reformation\"; \"severely damaged by an invading English army in 1385\"; \"Unusually, Melrose's cloister lies to the north of the church to take advantage of the diverted waters of the Tweed\". Easter rule (first Sunday after the ecclesiastical full moon on or after 21 March) and Gauss authorship are general knowledge.",
+    "localProject": "Anonymous Gregorian (Meeus/Jones/Butcher) and Gauss vs python-dateutil easter(EASTER_WESTERN), 1583-4099 (2,517 years): anon 0 wrong; Gauss+exceptions 0; Gauss raw 23 wrong (1609, 1954, 1981, 2049, 2076, 2106, 2133 before 2200). 1981 raw 26 Apr vs 19 Apr; 1954 raw 25 Apr vs 18 Apr. 2026: 5 Apr; 2027: 28 Mar. 1900-2099 earliest 23 Mar 1913, latest 25 Apr 2038. 5.7M-year cycle: 35 dates; 19 Apr 3.867 per cent, 18 Apr 3.463, 15 Apr 3.383; 22 Mar 0.483, 25 Apr 0.737, 23 Mar 0.950; March 23.32 per cent. Lesson family: Easter computus, exceptions, exhaustive testing.",
+    "requiredMentions": [
+      "116,900",
+      "55,600",
+      "Hawick",
+      "Galashiels",
+      "Peebles",
+      "Kelso",
+      "Selkirk",
+      "Jedburgh",
+      "Eyemouth",
+      "Innerleithen",
+      "Tweedbank",
+      "SM90214",
+      "Melrose Abbey"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, SM90214: Melrose Abbey.",
+        "url": "https://portal.historicenvironment.scot/designation/SM90214"
+      }
+    ],
+    "rejectedClaims": [
+      "How Melrose Abbey actually calculated Easter or kept its calendar: not in the record, not claimed.",
+      "Calendar changes in Britain (Julian to Gregorian): not claimed; the source used earlier was blocked.",
+      "Orthodox or Julian Easter dates: not discussed.",
+      "Common Riding and textile history: not researched for this page.",
+      "Named Borders schools and school term dates: none named or read.",
+      "Directions or distances between Borders towns: not claimed."
+    ]
   }
 }

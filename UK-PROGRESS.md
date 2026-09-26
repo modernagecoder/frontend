@@ -325,7 +325,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 273 | coding-classes-in-north-lanarkshire (nlk, #8A1524) | cg- council area index | 2,730 | 1.7% vs coding-classes-in-fife | Are colours far apart in the computer easy to tell apart by eye? | Colour spaces, perceptual distance, contrast | 9ba8b32c |
 | 274 | coding-classes-in-orkney (ork, #223E4C) | cg- council area index | 2,613 | 2.8% vs coding-classes-in-inverclyde | How do you share out jobs so nobody has a reason to swap? | Stable matching, Gale-Shapley, blocking pairs | b2ac35cb |
 | 275 | coding-classes-in-perth-and-kinross (pkr, #30488A) | cg- council area index | 2,753 | 2.2% vs coding-classes-in-inverclyde | What day of the week was it, and how does a formula know? | Zeller's congruence, modular arithmetic, exhaustive testing | 2fab577f |
-| 276 | coding-classes-in-renfrewshire (rfw, #2A4C41) | cg- council area index | 2,636 | 4.7% vs coding-classes-in-highland | When a bridge rolls instead of swinging, where does its tip go? | Parametric curves, rolling without slipping, units | (this commit) |
+| 276 | coding-classes-in-renfrewshire (rfw, #2A4C41) | cg- council area index | 2,636 | 4.7% vs coding-classes-in-highland | When a bridge rolls instead of swinging, where does its tip go? | Parametric curves, rolling without slipping, units | 67026d8d |
+| 277 | coding-classes-in-scottish-borders (sbo, #7A5943) | cg- council area index | 2,702 | 2.1% vs coding-classes-in-falkirk | How do you work out the date of Easter, and prove the formula right? | Easter computus, rare exceptions, exhaustive testing | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

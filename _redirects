@@ -4230,4 +4230,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-renfrewshire /src/pages/coding-classes-in-renfrewshire.html 200
 /coding-classes-in-renfrewshire.md /src/pages/coding-classes-in-renfrewshire.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-scottish-borders /src/pages/coding-classes-in-scottish-borders.html 200
+/coding-classes-in-scottish-borders.md /src/pages/coding-classes-in-scottish-borders.md 200
 /* /src/pages/404.html 404
