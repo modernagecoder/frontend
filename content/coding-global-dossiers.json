@@ -24504,5 +24504,51 @@
       "Shropshire school term dates: none read.",
       "Named Shropshire schools: none named."
     ]
+  },
+  "coding-classes-in-somerset": {
+    "market": "Somerset",
+    "bodyClass": "cg-som",
+    "pageType": "governorate",
+    "curriculumAuthority": "Ceremonial Somerset: Somerset Council area (2021 Census districts Mendip, Sedgemoor, South Somerset, Somerset West and Taunton; ONS LAD April 2023 E06000066 Somerset), Bath and North East Somerset, North Somerset. ONS Census 2021 TS001 via Nomis: North Somerset 216,726; Bath and North East Somerset 193,409; South Somerset 172,671; Somerset West and Taunton 157,445; Sedgemoor 125,343; Mendip 116,089; our sum 981,683. ONS built-up areas (published; agree with our OA sums, all inside): Bath 94,080; Weston-super-Mare 84,605; Taunton 61,665; Yeovil 50,170; Bridgwater 47,860; Frome 27,905; Portishead 26,355; Clevedon 21,085; Keynsham 19,255; Burnham-on-Sea 16,320; Nailsea 15,925; Chard 14,290; Wellington 13,815; Midsomer Norton 13,745; Street 12,710; Wells 12,105; Minehead 11,750; Radstock 9,980; Shepton Mallet 9,645; Glastonbury 8,300. Historic England NHLE Scheduled Monuments inside Mendip (LAD Dec 2022 BGC): 233; entries include 1019390 \"St Michael's Church, monastic remains, and other settlement remains on Glastonbury Tor\", 1006156 \"Glastonbury lake village\", 1011925 \"Gough's Cave, Cheddar Gorge\"; 94 names begin \"Bowl barrow\".",
+    "localProject": "Alignment test with null models. Triple aligned if middle point lies between the outer two (projection) and within width w of their line. 233 monuments, 2,081,156 triples. w = 25 m: observed 14,569; uniform random by rejection sampling in Mendip (acceptance 60.6 per cent, 1.65 tries per point), 20 runs, mean 6,325.5, range 5,746 to 6,910. w = 50 m: 29,253 vs 12,938.6. Clustered null by jitter within D (10 runs, w = 25): 500 m mean 13,158.8 (12,623 to 13,479); 1 km 12,768.0; 3 km 11,217.0. Median nearest-neighbour 354 m monuments vs 844 m uniform. Page labels rule and counts as ours and makes no claim about meaning. AI angle: patterns need a fair random comparison. Lesson family: rejection sampling, null models for coincidence, clustering as confounder.",
+    "requiredMentions": [
+      "981,683",
+      "ley line",
+      "14,569",
+      "Glastonbury Tor",
+      "rejection sampling",
+      "Portishead",
+      "Nailsea",
+      "Burnham-on-Sea",
+      "Minehead",
+      "Weston-super-Mare",
+      "Gough's Cave"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the six Somerset census areas, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Somerset towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: OA21 to BUA22 lookup, LAD December 2022 boundaries (Mendip), LAD April 2023 names.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Historic England, National Heritage List for England: scheduled monuments in Mendip.",
+        "url": "https://historicengland.org.uk/listing/the-list/"
+      }
+    ],
+    "rejectedClaims": [
+      "Named ley lines through Glastonbury and who proposed them: not read from a primary source, so none are named.",
+      "What the remaining excess of alignments means: not investigated; the page lists possibilities only.",
+      "Dates or purposes of individual monuments: not read beyond their list names.",
+      "Glastonbury Festival and Hinkley Point: not researched for this page, not mentioned.",
+      "Somerset school term dates: none read.",
+      "Named Somerset schools: none named."
+    ]
   }
 }
