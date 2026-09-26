@@ -26828,5 +26828,52 @@
       "Named schools and school term dates: none named or read.",
       "Distances and travel times: not claimed."
     ]
+  },
+  "coding-classes-in-rhondda-cynon-taf": {
+    "market": "Rhondda Cynon Taf",
+    "bodyClass": "cg-rct",
+    "pageType": "governorate",
+    "curriculumAuthority": "Rhondda Cynon Taf (W06000016). ONS Census 2021 TS001 via Nomis: 237,651. ONS built-up areas (published; OA sums within 7): Aberdare 37,675; Pontypridd 31,900; Tonypandy 17,210; Church Village 14,155; Porth 13,350; Rhondda 13,265; Mountain Ash 13,000; Tonyrefail 11,440; Llanharan and Brynna 8,105; Treorchy 7,650; Beddau 7,350; Abercynon 6,375; Pontyclun 5,800; Treherbert 5,425; Ynysybwl 4,580; Ferndale 4,300; Llantrisant 4,200. Cadw listed building record 13497, Grade I, Pontypridd Bridge: \"completed in 1756 and was the last of 4 bridges designed and built in the same place by William Edwards\"; first begun 1746, \"swept away two years later\"; second \"collapsed in 1751\"; \"piercing the spandrels\"; widest span in Britain for 40 years \"until Sunderland Bridge of 1796\"; \"a single span of 42.7m\"; holes \"2.7m, 1.8m and 0.9m diameter\".",
+    "localProject": "Hole areas 5.726, 2.545, 0.636 m2; set 8.906 m2; shares 64.3/28.6/7.1%; per metre width 8.9 m3, 21.4 t at 2,400 kg/m3 (ours). d-as-r slip 35.63 m2. Square-cube from 10 m model: 20 m weight x8, section x4, stress x2; 30 m x27/x9/x3; 42.7 m x77.9/x18.2/x4.27. Galileo 1638. Lesson family: square law and square-cube law scaling.",
+    "requiredMentions": [
+      "Aberdare",
+      "Tonypandy",
+      "Church Village",
+      "Mountain Ash",
+      "Tonyrefail",
+      "Treorchy",
+      "Beddau",
+      "Abercynon",
+      "Pontyclun",
+      "Ynysybwl",
+      "Pontypridd Bridge",
+      "square-cube law"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents, Rhondda Cynon Taf, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cadw listed building full report 13497: Pontypridd Bridge.",
+        "url": "https://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=13497"
+      }
+    ],
+    "rejectedClaims": [
+      "Bridge width, stone density and number of hole sets: not in the record; our assumptions are labelled.",
+      "The structural mechanics of the 1751 collapse: not modelled or claimed.",
+      "Memorial to Evan and James James (Cadw 24841): considered, not used.",
+      "Welsh-language statistics: excluded by rule.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed."
+    ]
   }
 }

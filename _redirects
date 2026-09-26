@@ -4314,4 +4314,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-powys /src/pages/coding-classes-in-powys.html 200
 /coding-classes-in-powys.md /src/pages/coding-classes-in-powys.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-rhondda-cynon-taf /src/pages/coding-classes-in-rhondda-cynon-taf.html 200
+/coding-classes-in-rhondda-cynon-taf.md /src/pages/coding-classes-in-rhondda-cynon-taf.md 200
 /* /src/pages/404.html 404

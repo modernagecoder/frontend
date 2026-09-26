@@ -1190,3 +1190,4 @@
 .cg-root.cg-npt  { --cg-accent: #4C0B2E; --cg-accent-soft: rgba(76,11,46,.10); }   /* Neath Port Talbot: a deep red-brick maroon from the solver (12.13:1 on the darkest paper tint), for the colliery engine house */
 .cg-root.cg-pem  { --cg-accent: #4C3240; --cg-accent-soft: rgba(76,50,64,.10); }   /* Pembrokeshire: a slate-plum from the solver (9.21:1 on the darkest paper tint), like wet limestone at low water */
 .cg-root.cg-pow  { --cg-accent: #5C1757; --cg-accent-soft: rgba(92,23,87,.10); }   /* Powys: an opera-velvet plum from the solver (9.87:1 on the darkest paper tint), for a gilded private theatre */
+.cg-root.cg-rct  { --cg-accent: #5C293E; --cg-accent-soft: rgba(92,41,62,.10); }   /* Rhondda Cynon Taf: a dark pennant-stone maroon from the solver (9.19:1 on the darkest paper tint) */
