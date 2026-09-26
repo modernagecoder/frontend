@@ -23281,5 +23281,54 @@
       "How real alloys are made: other metals, melting losses and assay tolerances are outside this teaching model, and the page says so.",
       "Named West Midlands schools: none is named; the selective systems are covered on their own maths pages."
     ]
+  },
+  "coding-classes-in-bedfordshire": {
+    "market": "Bedfordshire",
+    "bodyClass": "cg-bdc",
+    "pageType": "governorate",
+    "curriculumAuthority": "Bedfordshire (three unitary councils). ONS Census 2021 TS001 via Nomis: Central Bedfordshire 294,252; Luton 225,262; Bedford 185,225; total 704,739 (our sum). ONS Census 2021 built-up areas (published; all 18 agree with our OA sums within rounding and lie inside the county): Luton 233,525 (Luton, Central Bedfordshire); Bedford 97,235; Leighton Buzzard 42,735; Dunstable 34,500; Kempston 22,785; Biggleswade 21,950; Houghton Regis 18,820; Flitwick 13,660; Stotfold 12,310; Sandy 11,375; Ampthill 8,825; Wootton 7,565; Shefford 7,310; Cranfield 7,050; Marston Moretaine 6,350; Wixams 6,050 (Bedford, Central Bedfordshire); Arlesey 6,025; Potton 5,230. London Luton Airport, Our Destinations: \"Flying to and from more than 30 countries and over 130 destinations across Europe, the Middle East and North Africa\"; the list includes Tromso, Rovaniemi, Kittila, Reykjavik, Hurghada, Sharm El-Sheikh, Tel Aviv, Larnaca, Tenerife, Gran Canaria, Lanzarote, Fuerteventura, Madeira, Jersey, Dublin, Belfast, Edinburgh, Inverness, Isle of Man, Yerevan and Tbilisi. OurAirports airports.csv (open data): LTN 51.874699, -0.368333.",
+    "localProject": "Great circles, bearings and the rhumb line. 33 destinations from the Luton list with OurAirports coordinates; haversine on a sphere of 6,371.0088 km. Distances from LTN: Hurghada 3,952 km (initial bearing 120.7), Sharm El Sheikh 3,916, Yerevan 3,627 (93.1), Tel Aviv 3,601, Tbilisi 3,568 (90.3; return bearing 304.3), Larnaca 3,288, Tenerife Sur 2,973, Kittila 2,222, Tromso 2,217 (19.7), Rovaniemi 2,179, Reykjavik Keflavik 1,862 (324.8), Jersey 323 (204.2). Rhumb line to Tbilisi 3,619 km (51 km longer than the great circle); to Yerevan 3,677. Flat grid at 111.195 km per degree: Yerevan 5,146 (42 per cent too long), Tbilisi 5,166, Hurghada 4,688, Tromso 2,919, Reykjavik 2,816. Page states distances are between airport reference points on a sphere and real flights are longer. AI angle: assistants give distances but rarely note heading change or the flat-grid error. Lesson family: great circles, initial and final bearings, rhumb line; distinct from Stillorgan (area on raw degrees).",
+    "requiredMentions": [
+      "704,739",
+      "3,952 km",
+      "304.3 degrees",
+      "5,146 km",
+      "3,619 km",
+      "1,862 km",
+      "2,217 km",
+      "over 130 destinations",
+      "Marston Moretaine",
+      "233,525"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for Bedford, Central Bedfordshire and Luton, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Bedfordshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "London Luton Airport: more than 30 countries and over 130 destinations; the published destination list.",
+        "url": "https://www.london-luton.co.uk/destinations"
+      },
+      {
+        "claim": "OurAirports open data: airport latitudes and longitudes.",
+        "url": "https://ourairports.com/data/"
+      }
+    ],
+    "rejectedClaims": [
+      "Airline schedules, flight times or passenger numbers at Luton: not read at a primary source for this build; only the destination list is used.",
+      "Actual flown distances: real routes follow airways and winds, so only sphere distances are printed and the page says so.",
+      "Bedfordshire school term dates: set by three councils and academies; none read for this build.",
+      "The Cardington airship hangars: not read at a primary source for this build, so not mentioned.",
+      "Destinations with ambiguous airports on the list (Paris, Belfast, Cairo): left out of the calculation rather than guessed.",
+      "Named Bedfordshire schools: none is named."
+    ]
   }
 }

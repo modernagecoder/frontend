@@ -1116,3 +1116,4 @@
 .cg-root.cg-cms  { --cg-accent: #4C4432; --cg-accent-soft: rgba(76,68,50,.10); }   /* Cambridgeshire: a fen-peat brown from the solver (7.76:1 on the darkest paper tint), darker and greener than the other UK browns */
 .cg-root.cg-gmc  { --cg-accent: #8A4D3E; --cg-accent-soft: rgba(138,77,62,.10); }   /* Greater Manchester: a mill-brick terracotta from the solver (5.27:1 on the darkest paper tint), redder and lighter than the other UK county browns */
 .cg-root.cg-wmd  { --cg-accent: #4C131B; --cg-accent-soft: rgba(76,19,27,.10); }   /* West Midlands: a deep garnet from the solver (11.95:1 on the lightest paper), a jewel red darker than the Berkshire claret */
+.cg-root.cg-bdc  { --cg-accent: #292D5C; --cg-accent-soft: rgba(41,45,92,.10); }   /* Bedfordshire: a night-flight indigo from the solver (10.42:1 on the lightest paper), lighter and greyer than the Kent and Oxfordshire blues */

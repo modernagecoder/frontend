@@ -4014,4 +4014,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-the-west-midlands /src/pages/coding-classes-in-the-west-midlands.html 200
 /coding-classes-in-the-west-midlands.md /src/pages/coding-classes-in-the-west-midlands.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-bedfordshire /src/pages/coding-classes-in-bedfordshire.html 200
+/coding-classes-in-bedfordshire.md /src/pages/coding-classes-in-bedfordshire.md 200
 /* /src/pages/404.html 404
