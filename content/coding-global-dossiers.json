@@ -26509,5 +26509,50 @@
       "Welsh-language statistics: excluded by rule.",
       "Named schools and school term dates: none named or read."
     ]
+  },
+  "coding-classes-in-flintshire": {
+    "market": "Flintshire",
+    "bodyClass": "cg-fls",
+    "pageType": "governorate",
+    "curriculumAuthority": "Flintshire (W06000005), Flintshire County Council. ONS Census 2021 TS001 via Nomis: 154,962. ONS built-up areas (published; OA sums within 6): Connah's Quay 16,770; Hawarden 14,280; Buckley 13,560; Flint 12,780; Mold 9,890; Holywell 7,735; Broughton 6,530; Shotton 6,500; Bagillt 5,945; Mynydd Isa 4,735; Penyffordd 3,825; Chester BUA 92,760 with 5,140 inside Flintshire (excluded); Hope 4,420 with 4,000 inside (excluded). Cadw listed building record 15025, Grade I, St Deiniol's Library, Hawarden: \"founded by W.E. Gladstone in 1890 as a centre for Christian learning and as a place for study\"; \"some 25,000 of his own books were donated and lodged initially in a temporary building on the present site\"; \"designed by Douglas and Minshull of Chester and was erected between 1899 and 1902\"; \"A further, accommodation wing was added 1904-6\"; \"Of red sandstone under a medium-pitched slate roof\". EAN-13 structure (L, G, R codes; parity pattern; 95 modules) and the 978/979 book prefix are standard published barcode facts.",
+    "localProject": "Invented 978000000001 + check digit 9 = 9780000000019. 95 modules (3+42+5+42+3). First digit 9 encoded by parity LGGLGL. L codes odd dark count, G even. Round trip OK. Reversed read rejected by our decoder. 95 single-module flips: 95 rejected by pattern, 0 reaching the check digit. Lesson family: barcode encoding (EAN-13), implicit digit via parity, error detection by structure.",
+    "requiredMentions": [
+      "Connah's Quay",
+      "Buckley",
+      "Holywell",
+      "Shotton",
+      "Bagillt",
+      "Mynydd Isa",
+      "Penyffordd",
+      "St Deiniol",
+      "EAN-13",
+      "25,000 of his own books"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents, Flintshire, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cadw listed building full report 15025: St Deiniol's Library, Hawarden.",
+        "url": "https://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=15025"
+      }
+    ],
+    "rejectedClaims": [
+      "The library's current name, catalogue, barcodes or systems: not researched, not claimed.",
+      "Any real ISBN: the number used is invented.",
+      "Religious history beyond the record's founding description: not discussed.",
+      "Flint Castle and St Winefride's Well: considered; not used.",
+      "Welsh-language statistics: excluded by rule.",
+      "Named schools and school term dates: none named or read."
+    ]
   }
 }

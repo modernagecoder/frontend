@@ -339,7 +339,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 287 | coding-classes-in-carmarthenshire (cmt, #325C5C) | cg- county index | 2,649 | 1.4% vs coding-classes-in-caerphilly-county-borough | How long is an elliptical arch when no simple formula gives the answer? | Ellipse perimeter, Ramanujan, arithmetic-geometric mean | bee3f6ae |
 | 288 | coding-classes-in-ceredigion (cdg, #0E3D5C) | cg- county index | 2,616 | 2.5% vs coding-classes-in-bridgend | If something has never happened in the record, how likely could it still be? | Rule of three, exact binomial bound | 33e8e7b3 |
 | 289 | coding-classes-in-conwy (cwy, #184C0B) | cg- county index | 2,655 | 1.7% vs coding-classes-in-bridgend | Why is a hollow iron box so stiff, and why does one extra pier matter? | Beam stiffness, second moment of area, L^4 scaling | ca484865 |
-| 290 | coding-classes-in-denbighshire (dnh, #3B416B) | cg- county index | 2,625 | 3.4% vs coding-classes-in-bridgend | Why build a weir as a curve, and how long is a curved crest? | Circle geometry, inverting a power law | (this commit) |
+| 290 | coding-classes-in-denbighshire (dnh, #3B416B) | cg- county index | 2,625 | 3.4% vs coding-classes-in-bridgend | Why build a weir as a curve, and how long is a curved crest? | Circle geometry, inverting a power law | 192660c4 |
+| 291 | coding-classes-in-flintshire (fls, #7B3E8A) | cg- county index | 2,631 | 3% vs coding-classes-in-anglesey | How does a book barcode store thirteen digits when only twelve are drawn? | Barcode encoding (EAN-13), parity, error detection | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
