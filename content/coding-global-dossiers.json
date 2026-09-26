@@ -24298,5 +24298,52 @@
       "Northamptonshire school term dates: none read.",
       "Named Northamptonshire schools: none named."
     ]
+  },
+  "coding-classes-in-northumberland": {
+    "market": "Northumberland",
+    "bodyClass": "cg-nbl",
+    "pageType": "governorate",
+    "curriculumAuthority": "Northumberland: one unitary council. ONS Census 2021 TS001 via Nomis: Northumberland 320,567. ONS built-up areas (published; agree with our OA sums, all inside): Blyth 39,730; Cramlington 28,845; Ashington 28,280; Bedlington 16,185; Morpeth 14,420; Berwick-upon-Tweed 13,175; Hexham 10,945; Prudhoe 10,280; Ponteland 10,150; Alnwick 8,435; Stakeford 8,190; Seaton Delaval 8,010; Newbiggin-by-the-Sea 5,950; Amble 5,860. Northumberland County Council, Holy Island Safe Crossing Times: \"The times provided are for those people who wish to use the Lindisfarne Causeway ROAD\"; \"Always allow 30 minutes extra time to compensate for these variables\"; walking route \"THESE TIMES DO NOT APPLY TO IT\"; \"NEVER CROSS DURING A RISING TIDE\"; \"Northumberland County Council can accept no responsibility for decisions taken on the basis of any inaccuracies\". October 2026 table: \"17:45 until 00:15 BST (Sun)\", \"00:15 BST (Sun) until 05:05 GMT (Sun)\", \"05:05 GMT until 11:40\".",
+    "localProject": "Interval data with time zones. Parsed September 2026 to August 2027 tables: 365 rows, 1,460 intervals, 50 duplicates, 1,410 distinct, 0 gaps or overlaps, labels alternate. 705 safe windows, 5,244.8 of 8,758.2 hours (59.9 per cent); min 5.42 h, median 7.33 h, max 10.42 h. Clock changes via zoneinfo Europe/London: 25 October 2026 unsafe 00:15 summer time to 05:05 GMT, naive 290 min, true 350; 27 to 28 March 2027 safe 21:00 GMT to 05:25 summer time, naive 505, true 445. Daytime visit test (4 h inside 09:00 to 18:00 local, 30 min trimmed from window end): 242 of 365 days; 259 untrimmed; monthly 18 to 22. Page says to use the council page on the day. AI angle: naive subtraction across clock changes, test rare dates on purpose. Lesson family: time intervals in code (midnight, duplicates, clock changes, UTC), interval intersection.",
+    "requiredMentions": [
+      "320,567",
+      "Holy Island",
+      "Lindisfarne",
+      "safe crossing",
+      "242 days",
+      "zoneinfo",
+      "Cramlington",
+      "Bedlington",
+      "Stakeford",
+      "Seaton Delaval",
+      "Newbiggin-by-the-Sea",
+      "Ponteland"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for Northumberland, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Northumberland towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Northumberland County Council: Holy Island safe crossing times and safety notes.",
+        "url": "https://holyislandcrossingtimes.northumberland.gov.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any advice on when to cross: the page sends readers to the council's own times and repeats its warnings.",
+      "Tide heights, causeway length or refuge box details: not read, not claimed.",
+      "January to August 2026 crossing times: the site showed no table for past months, so the analysis uses September 2026 to August 2027.",
+      "Hadrian's Wall, Kielder and Bamburgh facts: not researched for this page, not used.",
+      "Northumberland school term dates: none read.",
+      "Named Northumberland schools: none named."
+    ]
   }
 }

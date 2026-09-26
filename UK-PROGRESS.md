@@ -291,7 +291,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 239 | coding-classes-in-merseyside (mer, #6B4110) | cg- county index | 3,166 | 2.3% vs coding-classes-in-lincolnshire | specification into tests | spec to acceptance tests, ambiguity, undecidable | 66f9ea9c |
 | 240 | coding-classes-in-norfolk (nfk, #25546B) | cg- county index | 3,036 | 1.4% vs coding-classes-in-leicestershire | top of a curve in thirty tries | golden-section search, unimodality | ef2b04f4 |
 | 241 | coding-classes-in-north-yorkshire (nyk, #54205C) | cg- county index | 3,046 | 1.8% vs coding-classes-in-isle-of-wight | does commuting obey gravity | gravity model, log-linear fit, residuals | 82e8579a |
-| 242 | coding-classes-in-northamptonshire (nth, #515C0E) | cg- county index | 2,944 | 1.3% vs coding-classes-in-lincolnshire | which call should the lift answer | single-server scheduling, starvation | (this commit) |
+| 242 | coding-classes-in-northamptonshire (nth, #515C0E) | cg- county index | 2,944 | 1.3% vs coding-classes-in-lincolnshire | which call should the lift answer | single-server scheduling, starvation | d80d8b27 |
+| 243 | coding-classes-in-northumberland (nbl, #37567A) | cg- county index | 2,975 | 2.2% vs coding-classes-in-merseyside | a year of causeway times | time intervals, midnight, clock changes, UTC | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
