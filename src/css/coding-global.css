@@ -1146,3 +1146,4 @@
 .cg-root.cg-tyw  { --cg-accent: #6B5910; --cg-accent-soft: rgba(107,89,16,.10); }   /* Tyne and Wear: a deep mustard from the solver (5.53:1 on the darkest paper tint), a darkened nod to Metro yellow, greener than the Merseyside ochre */
 .cg-root.cg-wsx  { --cg-accent: #40325C; --cg-accent-soft: rgba(64,50,92,.10); }   /* West Sussex: a slate indigo from the solver (9.25:1 on the darkest paper tint), bluer than the Somerset and North Yorkshire purples */
 .cg-root.cg-wyk  { --cg-accent: #5C0E47; --cg-accent-soft: rgba(92,14,71,.10); }   /* West Yorkshire: a dark moorland berry from the solver (10.52:1 on the darkest paper tint), redder than the Somerset and North Yorkshire purples */
+.cg-root.cg-wil  { --cg-accent: #3D6B25; --cg-accent-soft: rgba(61,107,37,.10); }   /* Wiltshire: a chalk-downland green from the solver (5.08:1 on the darkest paper tint), brighter and yellower than the Nottinghamshire and South Yorkshire greens */

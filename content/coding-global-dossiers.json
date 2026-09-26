@@ -24846,5 +24846,55 @@
       "West Yorkshire school term dates: none read.",
       "Named West Yorkshire schools: none named."
     ]
+  },
+  "coding-classes-in-wiltshire": {
+    "market": "Wiltshire",
+    "bodyClass": "cg-wil",
+    "pageType": "governorate",
+    "curriculumAuthority": "Wiltshire: unitary councils Wiltshire and Swindon. ONS Census 2021 TS001 via Nomis: Wiltshire 510,333; Swindon 233,407; our sum 743,740. ONS built-up areas (published; agree with our OA sums): Swindon 183,680 (Swindon, Wiltshire); Salisbury 47,690; Trowbridge 43,750; Chippenham 36,090; Stratton St Margaret 20,690; Calne 19,725; Devizes 19,490; Melksham 18,280; Warminster 18,020; Westbury 16,395; Royal Wootton Bassett 13,005; Amesbury 12,680; Corsham 10,890; Tidworth 10,690; Bradford-on-Avon 9,865; Marlborough 8,830. Historic England NHLE 1409161 (Box Tunnel East Portal, Corsham, Grade II): \"Tall Bath stone tunnel portal constructed in 1836-41\"; \"its austere design by Isambard Kingdom Brunel\"; \"At 1.8 miles it was of unprecedented length and by far the longest of the eleven tunnels on the route. It is arrow-straight and incorporates an incline of 1/100 down towards Bath\"; \"it was the last structure to be completed, in 1841\". NHLE 1284962 West Portal of Box Tunnel, Grade II*. NHLE points: west E 382927 N 168905; east E 385800 N 169425.",
+    "localProject": "Coordinate geometry: Pythagoras distance 2,919.7 m vs 1.8 miles = 2,896.8 m (difference 23 m); atan2 grid bearing 79.74 degrees; true bearing from WGS84 points 79.53; grid-true 0.21; slope atan(0.01) = 0.573 degrees. NOAA geometric solar position (no refraction, no terrain), 2027, morning crossing of azimuth 79.53 from the west portal found by bisection: 6 April -0.17 degrees; 7 April 0.31 (06:39 UK summer time); 8 April 0.79 (06:40); 9 April 1.27; 5 September 0.48 (06:36); 6 September 0.01. Within 0.27 degrees (solar radius) of 0.573: 7 April, 8 April, 5 September. Page states refraction of roughly half a degree, terrain and point-location caveats, and claims no visible alignment. AI angle: answers without stated assumptions. Lesson family: Pythagoras and atan2 bearings, grid vs true north, solving for matching angles.",
+    "requiredMentions": [
+      "743,740",
+      "Box Tunnel",
+      "1409161",
+      "2,919.7",
+      "arrow-straight",
+      "Stratton St Margaret",
+      "Royal Wootton Bassett",
+      "Corsham",
+      "Melksham",
+      "Devizes",
+      "Calne"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for Wiltshire and Swindon, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Wiltshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Historic England, National Heritage List entry 1409161: Box Tunnel East Portal (dates, designer, length, straightness, gradient).",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1409161"
+      },
+      {
+        "claim": "Historic England, National Heritage List entry 1284962: West Portal of Box Tunnel, and NHLE coordinates for both portals.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1284962"
+      }
+    ],
+    "rejectedClaims": [
+      "The story that the sun shines through the tunnel on a particular day: not read from a primary source, so not repeated.",
+      "Stonehenge and Old Sarum facts: English Heritage pages returned 403, not retried, not used.",
+      "That sunlight can actually be seen through the tunnel: not claimed; terrain and refraction are named as reasons.",
+      "Exact refraction correction: given only as roughly half a degree, a standard figure, not computed.",
+      "Wiltshire school term dates: none read.",
+      "Named Wiltshire schools: none named."
+    ]
   }
 }
