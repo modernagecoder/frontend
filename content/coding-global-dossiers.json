@@ -23856,5 +23856,54 @@
       "Personal details of GCHQ staff beyond the published biographies: not repeated.",
       "Named Gloucestershire schools: none is named; selective schools are covered on the 11 plus page."
     ]
+  },
+  "coding-classes-in-hampshire": {
+    "market": "Hampshire",
+    "bodyClass": "cg-hmp",
+    "pageType": "governorate",
+    "curriculumAuthority": "Hampshire (eleven districts under Hampshire County Council plus Portsmouth and Southampton; Isle of Wight excluded). ONS Census 2021 TS001 via Nomis: Southampton 248,922; Portsmouth 208,003; Basingstoke and Deane 185,154; New Forest 175,785; Eastleigh 136,443; Test Valley 130,492; Winchester 127,444; East Hampshire 125,744; Havant 124,208; Fareham 114,511; Rushmoor 99,756; Hart 99,408; Gosport 81,952; total 1,857,822 (our sum). ONS Census 2021 built-up areas above 8,000 (published; checked with our OA sums): Southampton 249,620 (Southampton, Eastleigh); Portsmouth 223,305 (Portsmouth, Fareham, Havant); Basingstoke 117,210; Gosport 70,110; Farnborough 60,655; Winchester 48,480; Andover 48,480; Eastleigh 48,360; Havant 46,960; Fareham 42,625; Aldershot 39,825; Fleet 37,790; Locks Heath 35,755; Waterlooville 34,775; Horndean 34,050; Chandler's Ford 31,975; Totton 28,090; Lee-on-the-Solent 24,315; Hedge End 23,190; Romsey 19,920; Hythe and Dibden Purlieu 19,855; Alton 17,880; South Hayling 15,305; Petersfield 14,995; Lymington 14,865; Tadley 14,760; Yateley 14,685; Ringwood 12,785; New Milton 11,870; Emsworth 11,505 (9,886 inside); West End 10,870; Whiteley 9,350; Bordon 9,350; Hook 9,065; Bursledon 8,070. Verderers of the New Forest: \"The Court of Verderers is a corporate body set up under the New Forest Act of 1877. It is the last remnant of the old form of Forest government\"; \"The Verderers are charged with regulating commoning on the Forest\". New Forest NPA: \"made a National Park in 2005. Covering 220 square miles, the unique landscape is shaped by the grazing of ponies, cattle and pigs that roam freely\".",
+    "localProject": "Capture-recapture. Model herd N = 3,000 (ours), M = 300 marked, C = 300 seen, expected R = 30; 2,000 surveys (seed 20260926): R from 13 to 48. Lincoln-Petersen MC/R: mean 3,089, median 3,000, spread 542, 46.2 per cent within 10 per cent. Chapman (M+1)(C+1)/(R+1) - 1: mean 3,003, median 2,922, spread 507, 44.9 per cent within 10 per cent. Trap-shy (marked seen at half weight, 1,000 surveys): Chapman median 5,328; trap-happy (double weight): 1,708. Page states herd and behaviour values are ours, not the Verderers' or NPA's. AI angle: an assistant applies the formula without testing the equal-catchability assumption. Lesson family: capture-recapture estimation, bias correction, assumption failure.",
+    "requiredMentions": [
+      "1,857,822",
+      "New Forest Act of 1877",
+      "220 square miles",
+      "ponies, cattle and pigs",
+      "5,328",
+      "3,089",
+      "Chapman",
+      "Hythe and Dibden Purlieu",
+      "Lee-on-the-Solent",
+      "Locks Heath"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for Portsmouth, Southampton and the eleven Hampshire districts, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Hampshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Verderers of the New Forest: set up under the New Forest Act of 1877; regulate commoning.",
+        "url": "https://www.verderers.org.uk/"
+      },
+      {
+        "claim": "New Forest National Park Authority: National Park since 2005, 220 square miles, ponies, cattle and pigs roam freely.",
+        "url": "https://www.newforestnpa.gov.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "The number of ponies or cattle on the New Forest: no published count was read, so the page uses a model herd.",
+      "How New Forest animals are actually counted or marked: not described on the pages read.",
+      "Ordnance Survey grid reference lettering: the OS guide page tried returned 404, so the planned grid project was dropped; OS's Southampton headquarters is not used.",
+      "HMS Victory and the Trafalgar signal code: no primary page describing the code was reachable, so it is not used.",
+      "Hampshire school term dates: set by councils and academies; none read.",
+      "Named Hampshire schools: none is named."
+    ]
   }
 }

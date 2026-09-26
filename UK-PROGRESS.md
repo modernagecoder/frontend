@@ -282,7 +282,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 230 | coding-classes-in-county-durham (cdu, #22228A) | cg- county index | 3,223 | 1.6% vs coding-classes-in-greater-manchester | two trains, one track: naive rule deadlocks 991 of 1,000 with eight trains, token rule never | deadlock and prevention by acquiring all resources at once (single-line token) | 5aec8b00 |
 | 231 | coding-classes-in-east-riding-of-yorkshire (ery, #3B4E6B) | cg- county index | 3,047 | 2.1% vs coding-classes-in-dorset | count cleverly, not everywhere: 20 cliff sections, simple random 24.9% within 10%, Neyman stratified 93.4% | stratified sampling and Neyman allocation | ae638301 |
 | 232 | coding-classes-in-east-sussex (esu, #4E5C32) | cg- county index | 3,244 | 2.4% vs coding-classes-in-bedfordshire | the sun is not a clock: solar noon at Herstmonceux 2027, 11:42:09 to 12:12:52 GMT, NOAA formulas | equation of time and solar noon from published formulas | 5b0b8d4c |
-| 233 | coding-classes-in-gloucestershire (gls, #5C3C46) | cg- county index | 3,157 | 2.3% vs coding-classes-in-east-sussex | random-looking is not random: LCG period by Floyd, alternating low bit, three outputs predict 17 of 17 | pseudo-random generators: period, cycle detection, predictability | (this commit) |
+| 233 | coding-classes-in-gloucestershire (gls, #5C3C46) | cg- county index | 3,157 | 2.3% vs coding-classes-in-east-sussex | random-looking is not random: LCG period by Floyd, alternating low bit, three outputs predict 17 of 17 | pseudo-random generators: period, cycle detection, predictability | 66d25af9 |
+| 234 | coding-classes-in-hampshire (hmp, #3C4C32) | cg- county index | 3,194 | 2.5% vs coding-classes-in-devon | count the ones you see twice: capture-recapture on a model New Forest herd, Chapman vs Lincoln-Petersen, trap-shy bias | capture-recapture estimation, bias correction and assumption failure | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
