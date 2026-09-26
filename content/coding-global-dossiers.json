@@ -27006,5 +27006,47 @@
       "Named schools and school term dates: none named or read.",
       "Distances and travel times: not claimed."
     ]
+  },
+  "coding-classes-in-causeway-coast-and-glens": {
+    "market": "Causeway Coast and Glens",
+    "bodyClass": "cg-ccg",
+    "pageType": "governorate",
+    "curriculumAuthority": "Causeway Coast and Glens (N09000004). NISRA Census 2021 MS-A01: 141,746. DEAs (exact, not summed): Ballymoney 24,519; Bann 17,535; Benbradagh 17,818; Causeway 24,542; Coleraine 23,625; Limavady 16,230; The Glens 17,477. Settlements (NISRA approximations): Coleraine 24,483; Limavady 11,729; Ballymoney 11,048; Portstewart 7,854; Portrush 6,150; Ballycastle 5,628; Dungiven 3,346; Ballykelly 2,029; Kilrea 1,673. HED Defence Heritage 00029 Ballykelly airfield: \"opened at the start of June 1941 when the RAF established a Coastal Command Development Unit\"; \"anti-submarine patrols and air-sea rescue flights\"; runways extended 1943 for \"B-24 Liberators\"; \"three concrete runways set at angles to each other. The main runway was in line with the prevailing wind while the other two were set at sixty degrees\"; one runway 1,400 m to 1,940 m, later 2,280 m; another 1,450 m to 1,838 m; renamed Shackleton Barracks 2 June 1972; closed 2008.",
+    "localProject": "Crosswind = W sin(a), headwind = W cos(a); best end = least crosswind then most headwind. Worst crosswind: one runway W; two at 90 deg 0.707W; three at 60 deg 0.5W. Share of directions within 10 kn: 20 kn wind 1/3, 2/3, all; 30 kn 21.6, 43.3, 64.9%. 20 kn from 040: one runway hdg 000 cross 12.9 head 15.3; three runways hdg 060 cross 6.8 head 18.8. Radians slip sin(30) = -0.988. Lesson family: vector components, crosswind coverage.",
+    "requiredMentions": [
+      "Ballymoney",
+      "Portstewart",
+      "Portrush",
+      "Ballycastle",
+      "Dungiven",
+      "Ballykelly",
+      "Kilrea",
+      "Benbradagh",
+      "Shackleton Barracks",
+      "Coastal Command",
+      "crosswind"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA Census 2021 MS-A01 usual resident population by LGD, DEA and settlement.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "Department for Communities Historic Environment Division GIS data: Defence Heritage records 00029 (Ballykelly airfield) and Historic Buildings HB02/10/027.",
+        "url": "https://services2.arcgis.com/BdBkthNLO9mzGAMO/arcgis/rest/services/Historic_Environment_Division_GIS_Data/FeatureServer"
+      },
+      {
+        "claim": "Listed Buildings Northern Ireland dataset on OpenDataNI.",
+        "url": "https://www.opendatani.gov.uk/@department-for-communities-historic-environment-division/listed-buildings-northern-ireland"
+      }
+    ],
+    "rejectedClaims": [
+      "Actual runway headings, winds and aircraft crosswind limits at Ballykelly: not in the records; our numbers.",
+      "Cold War dispersal and nuclear details in the records: not used.",
+      "The present owner named in the record: not used.",
+      "Transfer test advice: excluded by rule.",
+      "Community background, religion and identity statistics: excluded by rule.",
+      "Named schools, school term dates, distances and travel times: none named, read or claimed."
+    ]
   }
 }
