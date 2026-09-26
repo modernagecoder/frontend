@@ -24105,5 +24105,52 @@
       "Lincolnshire school term dates: none read.",
       "Named Lincolnshire schools, grammar schools or selection tests: none named."
     ]
+  },
+  "coding-classes-in-merseyside": {
+    "market": "Merseyside",
+    "bodyClass": "cg-mer",
+    "pageType": "governorate",
+    "curriculumAuthority": "Merseyside metropolitan county: Liverpool, Knowsley, Sefton, St Helens, Wirral. ONS Census 2021 TS001 via Nomis: Liverpool 486,088; Wirral 320,199; Sefton 279,233; St Helens 183,248; Knowsley 154,519; our sum 1,423,287. ONS built-up areas (published; our OA sums agree except Southport 94,440 with 92,978 inside Sefton): Liverpool 506,565 (Knowsley, Liverpool, Sefton); Birkenhead 109,835; St Helens 107,680; Southport 94,440; Wallasey 85,610; Huyton with Roby 59,845; Bebington 57,600; Bootle 53,720; Crosby 50,215; Kirkby 45,560; Prescot 39,225; Heswall 29,075; Newton-le-Willows 24,650; Formby 22,890; Maghull 20,370; Litherland 18,750; Haydock 16,140; West Kirby 13,380. Ashton-in-Makerfield (26,375, 4,626 inside St Helens) excluded. ONS OA21 to PAR22 lookup: Rainhill parish in St Helens. Samuel Smiles, The Life of George Stephenson and of his Son Robert Stephenson (Project Gutenberg 46229): footnote 70 conditions 1 to 8 (smoke; six tons draws twenty tons including tender and water-tank at ten mph, steam not over fifty pounds; two safety valves; springs, six wheels, fifteen feet; not more than six tons, lighter engine preferred on a proportionate load, four and a half tons may use four wheels; mercurial gauge; delivery by 1 October 1829; a price limit). Trial: \"a level piece of railroad, about two miles in length\"; \"twenty trips, or equal to a journey of seventy miles\"; average \"not under ten miles an hour\"; start moved to 6 October; Rocket 8 October: fifty-seven minutes to raise steam, \"about thirteen tons\", 35 miles in 1 h 48 min then 2 h 3 min, max 29 mph, average fifteen; Sanspareil four hundredweight over the four-wheeled limit, eighth trip, about fourteen mph; Novelty three tons one hundredweight, bellows then pipe failed; Perseverance five or six mph; Rocket \"weighed only 4-1/2 tons when loaded with its coke and water\"; P. Ewart \"stewed engine-wheel\".",
+    "localProject": "Specification to acceptance tests. Python functions per checkable condition over Smiles's engine records, three-valued (pass, fail, cannot decide). Results: Rocket pass complete/weight/speed, literal proportional load fail (13 t vs 20/6 x 4.5 = 15.0 t); Sanspareil fail complete (trip 8) and four-wheel limit, speed pass (14), load undecided; Novelty fail complete, weight pass (3.05 t), speed undecided, load fail (about 7 t vs 10.17 t); Perseverance fail complete and speed (5.5), others undecided. Rocket speeds: 70 miles / 3 h 51 min = 18.18 mph; with 57 min steam raising 14.58 mph; first ten 19.44, second ten 17.07. Course: 20 x 2 = 40 not 70; a trip = there and back, 3.5 miles. First version crashed with KeyError on missing Novelty times. Page labels tests and readings as ours, not a verdict. AI angle: generated tests silently pick readings of ambiguous rules. Lesson family: specification to tests, ambiguity, undecidable cases, suspect the test when it fails an accepted result.",
+    "requiredMentions": [
+      "1,423,287",
+      "Rainhill",
+      "Sanspareil",
+      "consume its own smoke",
+      "mercurial gauge",
+      "stewed engine-wheel",
+      "Huyton with Roby",
+      "Newton-le-Willows",
+      "14.58",
+      "Litherland",
+      "Bebington"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the five Merseyside boroughs, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Merseyside towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area and output area to parish lookups (Rainhill in St Helens).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Samuel Smiles, The Life of George Stephenson and of his Son Robert Stephenson: Rainhill conditions, entrants, trial figures, Rocket weight.",
+        "url": "https://www.gutenberg.org/ebooks/46229"
+      }
+    ],
+    "rejectedClaims": [
+      "Science Museum Group collection pages for Rocket: 403, not retried; no museum facts are used.",
+      "The prize amount and the engine price limit in the conditions: money figures, left out.",
+      "How the judges actually set each engine's load, and whether the tender was counted: not stated by Smiles, so presented as open.",
+      "Rocket's wheel arrangement: not given in the passages read, so the wheel test is not applied to it.",
+      "Modern accounts of the trial distances (for example exact course length): not read; only Smiles's figures are used.",
+      "Merseyside school term dates: none read.",
+      "Named Merseyside schools or grammar school tests: none named on this page."
+    ]
   }
 }
