@@ -333,7 +333,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 281 | coding-classes-in-west-dunbartonshire (wdb, #20505C) | cg- council area index | 2,699 | 2.4% vs coding-classes-in-renfrewshire | How can a 4 metre model predict a 100 metre ship? | Similarity laws, Froude and Reynolds numbers | c08ca6f9 |
 | 282 | coding-classes-in-west-lothian (wlo, #7A4B43) | cg- council area index | 2,673 | 2.6% vs coding-classes-in-perth-and-kinross | How do five tipping points make a heap with five lobes? | Granular heap simulation, angle of repose, grid artefacts | aa118c50 |
 | 283 | coding-classes-in-anglesey (agy, #464C2A) | cg- county index | 2,679 | 3.4% vs coding-classes-in-renfrewshire | Is a castle plan really symmetrical, and how would a program decide? | Symmetry groups, composition, non-commuting moves | 65b3ab46 |
-| 284 | coding-classes-in-blaenau-gwent (bgt, #22364C) | cg- county index | 2,734 | 1.3% vs coding-classes-in-scottish-borders | How does a camera turn a 21 metre clock and a round street into a flat picture? | Perspective projection, pinhole camera | (this commit) |
+| 284 | coding-classes-in-blaenau-gwent (bgt, #22364C) | cg- county index | 2,734 | 1.3% vs coding-classes-in-scottish-borders | How does a camera turn a 21 metre clock and a round street into a flat picture? | Perspective projection, pinhole camera | 991630dc |
+| 285 | coding-classes-in-bridgend (bgd, #6B5A46) | cg- county index | 2,689 | 1.8% vs coding-classes-in-falkirk | How much water does it take to lift a load with gravity alone? | Atwood machine, energy bookkeeping, sign errors | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

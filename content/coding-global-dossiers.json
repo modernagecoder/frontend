@@ -26237,5 +26237,50 @@
       "Named schools and school term dates: none named or read.",
       "Phone camera specifications beyond a typical 26 mm equivalent: labelled as an assumption."
     ]
+  },
+  "coding-classes-in-bridgend": {
+    "market": "Bridgend",
+    "bodyClass": "cg-bgd",
+    "pageType": "governorate",
+    "curriculumAuthority": "Bridgend (W06000013), Bridgend County Borough Council. ONS Census 2021 TS001 via Nomis: 145,488. ONS built-up areas (published): Bridgend 51,760 (our OA sum inside the county borough 51,332); Maesteg 18,335; Porthcawl 15,795; Pyle 14,075; Sarn 11,870; Pencoed 9,115; Ogmore Vale 3,100. Cadw listed building record 20817, Grade II*, Lift Tower at Tondu Ironworks: \"Sir Robert Price developed ironworking here from 1837\"; \"John Brogden who purchased the ironworks in 1854\"; \"The lift was used to hoist materials to the charging platforms and was possibly worked by water balance, water-filled tanks beneath the tram cars being used as counter-balance, with the water being discharged as required by weight\"; \"Possibly powered by steam\"; \"Only other ironworking site in Britan still retaining a hoisting tower is Blaenafon\"; \"A tall 3 sided tower of yellow brick with stone basement\".",
+    "localProject": "Invented: cars 1,000 kg, load 800 kg, lift 15 m, friction 3 per cent of moving weight. Minimum water 911.3 kg. Water 1,000: 0.222 m/s2, 11.6 s, 2.58 m/s; 1,200: 0.687, 6.6, 4.54; 1,500: 1.303, 4.8, 6.25; 2,000: 2.158, 3.7, 8.05. 20 s trip: 940.8 kg (speed 1.5 m/s). Energy 1,000 kg: 147 kJ in, 118 kJ useful (80 per cent), 12.7 kJ to brake; 1,500 kg: 221 kJ, 53 per cent, 84.0 kJ. Sign bug: 695.1 kg. Lesson family: Atwood machine, energy bookkeeping, sign errors.",
+    "requiredMentions": [
+      "Maesteg",
+      "Porthcawl",
+      "Pyle",
+      "Sarn",
+      "Pencoed",
+      "Ogmore Vale",
+      "Tondu",
+      "Atwood",
+      "water balance",
+      "Brogden"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents, Bridgend, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cadw listed building full report 20817: Lift Tower at Tondu Ironworks.",
+        "url": "https://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=20817"
+      }
+    ],
+    "rejectedClaims": [
+      "That the Tondu lift definitely used water balance: the record says possibly; stated as such.",
+      "Real masses, height or speed of the Tondu lift: invented in the model.",
+      "Porthcawl coast and Merthyr Mawr dunes facts: not researched for this page.",
+      "Welsh-language statistics: excluded by rule.",
+      "Named schools and school term dates: none named or read.",
+      "Distances between towns: not claimed."
+    ]
   }
 }
