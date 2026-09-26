@@ -24793,5 +24793,58 @@
       "West Sussex school term dates: none read.",
       "Named West Sussex schools: none named."
     ]
+  },
+  "coding-classes-in-west-yorkshire": {
+    "market": "West Yorkshire",
+    "bodyClass": "cg-wyk",
+    "pageType": "governorate",
+    "curriculumAuthority": "West Yorkshire: metropolitan boroughs Leeds, Bradford, Kirklees, Wakefield, Calderdale. ONS Census 2021 TS001 via Nomis: Leeds 811,956; Bradford 546,412; Kirklees 433,216; Wakefield 353,368; Calderdale 206,631; our sum 2,351,583. ONS built-up areas (published; agree with our OA sums, all inside): Leeds 536,280; Bradford 333,950 (Bradford, Kirklees, Leeds); Huddersfield 141,675 (Calderdale, Kirklees); Wakefield 97,870; Halifax 88,115; Dewsbury 63,720; Keighley 48,750; Castleford 45,355; Batley 44,500; Pudsey 34,850; Brighouse 33,160; Pontefract 32,975; Morley 32,550; Shipley 29,225. Brontë Parsonage Museum: \"the West Yorkshire village of Haworth ... when the Brontës arrived here in 1820\"; \"Between them, Charlotte, Emily, and Anne Brontë wrote seven books, including 'Jane Eyre', 'Wuthering Heights', and 'The Tenant of Wildfell Hall' respectively. They penned their novels here in the Parsonage\"; \"Church Street Haworth BD22 8DR\". AFINN-165 (github.com/fnielsen/afinn), 3,382 words, Apache 2.0.",
+    "localProject": "Lexicon sentiment on Gutenberg 1260, 768, 767, 969 with AFINN-165; tokens [a-z']+. Per 1,000 words: Agnes Grey +24.56 (69,410 words, 25 chapters, coverage 7.7 per cent, negation flip +23.41); Tenant +16.13 (173,037, 53, 7.7, +15.42); Jane Eyre +12.37 (189,614, 38, 6.8, +12.31); Wuthering Heights -14.88 (119,376, 34, 7.1, -14.66). \"miss\" = -2: Jane Eyre 310 (262 before a capitalised name), -620; WH 131 (82); Agnes Grey 183 (151); Tenant 82 (74). Scored words after a negator within 3: 5.6 to 7.7 per cent. Lowest chapters: Jane Eyre 2 -48.7 (-39.4 without miss); WH 11 -44.6; highest Jane Eyre 32 +73.4. Page labels scores as ours. AI angle: dashboards hide word-sense errors. Lesson family: lexicon sentiment, coverage, negation, word sense.",
+    "requiredMentions": [
+      "2,351,583",
+      "sentiment",
+      "AFINN",
+      "Parsonage",
+      "BD22 8DR",
+      "Huddersfield",
+      "Batley",
+      "Pudsey",
+      "Agnes Grey",
+      "Wildfell Hall"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the five West Yorkshire boroughs, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for West Yorkshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Brontë Parsonage Museum: the Brontës in Haworth from 1820 and the novels written in the Parsonage.",
+        "url": "https://www.bronte.org.uk/about-the-brontes/the-bronte-novels"
+      },
+      {
+        "claim": "Project Gutenberg texts of Jane Eyre, Wuthering Heights, Agnes Grey and The Tenant of Wildfell Hall.",
+        "url": "https://www.gutenberg.org/"
+      },
+      {
+        "claim": "AFINN sentiment lexicon by Finn Arup Nielsen (AFINN-165).",
+        "url": "https://github.com/fnielsen/afinn"
+      }
+    ],
+    "rejectedClaims": [
+      "Plot descriptions of the lowest and highest scoring chapters: not needed and not given; only chapter numbers are reported.",
+      "That modern AI sentiment models would score these books a particular way: not tested, not claimed.",
+      "Dates of publication of the novels: not read from the museum pages used, so none are given.",
+      "Individual members of the Brontë family beyond the three sisters: not described.",
+      "West Yorkshire school term dates: none read.",
+      "Named West Yorkshire schools: none named."
+    ]
   }
 }

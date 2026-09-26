@@ -1145,3 +1145,4 @@
 .cg-root.cg-sfk  { --cg-accent: #6B3044; --cg-accent-soft: rgba(107,48,68,.10); }   /* Suffolk: a deep Suffolk-pink plum from the solver (7.94:1 on the darkest paper tint), browner and softer than the Somerset and Lancashire accents */
 .cg-root.cg-tyw  { --cg-accent: #6B5910; --cg-accent-soft: rgba(107,89,16,.10); }   /* Tyne and Wear: a deep mustard from the solver (5.53:1 on the darkest paper tint), a darkened nod to Metro yellow, greener than the Merseyside ochre */
 .cg-root.cg-wsx  { --cg-accent: #40325C; --cg-accent-soft: rgba(64,50,92,.10); }   /* West Sussex: a slate indigo from the solver (9.25:1 on the darkest paper tint), bluer than the Somerset and North Yorkshire purples */
+.cg-root.cg-wyk  { --cg-accent: #5C0E47; --cg-accent-soft: rgba(92,14,71,.10); }   /* West Yorkshire: a dark moorland berry from the solver (10.52:1 on the darkest paper tint), redder than the Somerset and North Yorkshire purples */
