@@ -23599,5 +23599,54 @@
       "Devon school term dates: set by councils and academies; none read.",
       "Named Devon schools: none is named."
     ]
+  },
+  "coding-classes-in-dorset": {
+    "market": "Dorset",
+    "bodyClass": "cg-dst",
+    "pageType": "governorate",
+    "curriculumAuthority": "Dorset (ceremonial: Dorset Council and Bournemouth, Christchurch and Poole). ONS Census 2021 TS001 via Nomis: BCP 400,196; Dorset 379,579; total 779,775 (our sum). ONS Census 2021 built-up areas (published; all 22 agree with our OA sums and lie in the county): Bournemouth 196,455; Poole 141,005; Weymouth 55,535; Christchurch 48,985; Dorchester 21,360; Wimborne Minster 16,630; Verwood 13,710; Ferndown 13,265; Bridport 12,295; Blandford Forum 11,800; Gillingham 11,010; West Moors 10,425; Sherborne 10,360; Corfe Mullen 10,035; Shaftesbury 9,160; Swanage 9,110; Upton 8,400 (BCP and Dorset); Ashley Heath 7,150; Wareham 5,880; Merley 5,490; Weston 5,210; Wool 5,040. Jurassic Coast website: \"In 2001 the Jurassic Coast was inscribed as a UNESCO World Heritage Site for the Outstanding Universal Value of its rocks, fossils and landforms. It remains England's only natural World Heritage Site. The Jurassic Coast Trust is no longer in operation.\" IAEA Nuclear Data Section LiveChart ground states API: 14C half_life 5700 (unc 30) Y; 40K 1.248E+9 Y; 235U 7.04E+8 Y; 238U 4.468E9 Y; 87Rb 4.97E+10 Y.",
+    "localProject": "Exponential decay, underflow and error sensitivity. Fraction left = 0.5 ^ (t / T). Teaching age t = 150 million years (ours). Half-lives in t: C-14 26,316 (fraction about 10^-7,921.84; float64 gives 0.0; underflow after about 1,074 halvings); U-235 0.2131 (0.8627); K-40 0.1202 (0.9201); U-238 0.03357 (0.9770); Rb-87 0.003018 (0.9979). C-14 remaining 50 per cent at 5,700 years, 10 per cent at 18,935, 1 per cent at 37,870, 0.1 per cent at 56,805. Age from measured fraction t = T log2(1/f): with f 1 per cent high or low, U-238 gives 85.86 to 214.78 My; K-40 132.08 to 168.10; U-235 139.89 to 160.21. Page states the age and error are teaching values and real dating uses daughter ratios. AI angle: generated decay code underflows silently to 0.0. Lesson family: exponential decay and half-life, floating-point underflow, choosing a measurement scale by error sensitivity.",
+    "requiredMentions": [
+      "779,775",
+      "5,700 years",
+      "4.468 billion",
+      "704 million",
+      "26,316",
+      "56,805",
+      "England's only natural World Heritage Site",
+      "Corfe Mullen",
+      "Ashley Heath",
+      "LiveChart"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for Dorset and BCP, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Dorset towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Jurassic Coast: UNESCO inscription in 2001; England's only natural World Heritage Site.",
+        "url": "https://jurassiccoast.org/"
+      },
+      {
+        "claim": "IAEA LiveChart of Nuclides: half-lives of carbon-14, potassium-40, uranium-235, uranium-238 and rubidium-87.",
+        "url": "https://www-nds.iaea.org/relnsd/vcharthtml/VChartHTML.html"
+      }
+    ],
+    "rejectedClaims": [
+      "The ages of specific Jurassic Coast rock formations: not read at a primary source for this build, so the 150-million-year age is labelled as our teaching value.",
+      "The length of the Jurassic Coast: not stated on the page we could read, so no length is given.",
+      "Dorset school term dates: set by two councils and academies; none read.",
+      "Radiocarbon dating details from the IAEA news pages: those returned 403; only LiveChart data is used.",
+      "Named fossil finds or collectors: not read at primary sources for this build.",
+      "Named Dorset schools: none is named."
+    ]
   }
 }

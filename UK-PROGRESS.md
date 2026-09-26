@@ -277,7 +277,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 225 | coding-classes-in-cornwall (cnw, #5B6B1B) | cg- county index | 3,219 | 1.3% vs coding-classes-in-cheshire | the silences carry the meaning: Poldhu's S, gapless CORNWALL has 6,138,768 readings, memoised count | Morse is not prefix-free; counting parses with memoisation | 47186e07 |
 | 226 | coding-classes-in-cumbria (cmb, #465F6B) | cg- county index | 3,126 | 2.2% vs coding-classes-in-warwickshire | what did the model actually learn: naive Bayes Wordsworth vs Coleridge 96.7% vs 60.7% baseline, editorial leakage | naive Bayes text classification, baselines and leakage | debfd8c9 |
 | 227 | coding-classes-in-derbyshire (dbs, #7A502B) | cg- county index | 3,254 | 2% vs coding-classes-in-kent | one extra tooth: gear contacts repeat after the lcm; 96/24 meets 4 teeth, 96/25 meets all 96 | gcd and lcm applied to gear wear (hunting tooth), simulation checked against number theory | 372c1a41 |
-| 228 | coding-classes-in-devon (dvn, #0E375C) | cg- county index | 3,247 | 1.8% vs coding-classes-in-cheshire | three local rules, one shoal: boids with an order parameter, 0.081 to 0.995 as alignment rises | agent-based emergence (boids) measured with an order parameter and rule ablation | (this commit) |
+| 228 | coding-classes-in-devon (dvn, #0E375C) | cg- county index | 3,247 | 1.8% vs coding-classes-in-cheshire | three local rules, one shoal: boids with an order parameter, 0.081 to 0.995 as alignment rises | agent-based emergence (boids) measured with an order parameter and rule ablation | 29860ccb |
+| 229 | coding-classes-in-dorset (dst, #8A4C5C) | cg- county index | 3,103 | 2.1% vs coding-classes-in-cheshire | pick the clock that fits the age: IAEA half-lives, C-14 underflows to 0.0, 1% error sensitivity by isotope | exponential decay and half-life, floating-point underflow, error sensitivity | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
