@@ -26554,5 +26554,50 @@
       "Welsh-language statistics: excluded by rule.",
       "Named schools and school term dates: none named or read."
     ]
+  },
+  "coding-classes-in-gwynedd": {
+    "market": "Gwynedd",
+    "bodyClass": "cg-gwn",
+    "pageType": "governorate",
+    "curriculumAuthority": "Gwynedd (W06000002), Cyngor Gwynedd. ONS Census 2021 TS001 via Nomis: 117,393. ONS built-up areas (published; OA sums within 4): Bangor 16,990; Caernarfon 9,835; Bethesda 3,755; Pwllheli 3,620; Blaenau Ffestiniog 3,450; Tywyn 3,135; Dolgellau 2,600; Porthmadog 2,575. Cadw listed building record 20926, Grade II*, Cwm Dyli Power Station, Beddgelert: \"built in 1906 and pioneering as the first instance in Britain of the use of Alternating Current\"; \"built by the North Wales Power and Traction Co\"; \"conceived to serve the Oakley, Dinorwic and Pen-yr-Orsedd quarries\"; \"harnessing the water from Llyn Llydaw and energy was transmitted at 10,000 volts\"; \"a 'triumph of modern transmission'\"; \"known locally as 'the chapel in the valley'\". Barmouth named as a place (Cadw record 5207 Barmouth Railway Bridge, Gwynedd).",
+    "localProject": "Invented 500 kW through 4 ohms. Simple I=P/V: 500 V 4,000 kW (800 per cent); 1,000 V 1,000 kW; 2,000 V 250 kW; 5,000 V 40 kW (8); 10,000 V 10 kW (2); 20,000 V 2.5 kW (0.5). Exact with drop: 2,000 V impossible (max 250 kW), 2,500 V impossible (390.6 kW), 5,000 V 109.6 A, 48.06 kW (8.77 per cent of sent), 10,000 V 51.0 A 10.42 kW (2.04), 20,000 V 25.1 A 2.53 kW (0.50). Max at 500 V 15.6 kW. Lesson family: I^2 R losses, model validity, quadratic.",
+    "requiredMentions": [
+      "Pwllheli",
+      "Blaenau Ffestiniog",
+      "Tywyn",
+      "Dolgellau",
+      "Porthmadog",
+      "Beddgelert",
+      "Cwm Dyli",
+      "Llyn Llydaw",
+      "10,000 volts",
+      "alternating current"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents, Gwynedd, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cadw listed building full report 20926: Cwm Dyli Power Station.",
+        "url": "https://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=20926"
+      }
+    ],
+    "rejectedClaims": [
+      "Cwm Dyli's actual output, line lengths or losses: not in the record; model invented.",
+      "Transformer details and AC theory beyond one sentence: not modelled.",
+      "Current operation of the station: not claimed.",
+      "Welsh-language statistics: excluded by rule.",
+      "Named schools and school term dates: none named or read.",
+      "Distances between towns: not claimed."
+    ]
   }
 }

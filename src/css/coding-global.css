@@ -1184,3 +1184,4 @@
 .cg-root.cg-cwy  { --cg-accent: #184C0B; --cg-accent-soft: rgba(24,76,11,.10); }   /* Conwy: a deep castle-ivy green from the solver (8.15:1 on the darkest paper tint), darker and more saturated than the Highland olive */
 .cg-root.cg-dnh  { --cg-accent: #3B416B; --cg-accent-soft: rgba(59,65,107,.10); }   /* Denbighshire: a slate blue for Dee valley stone, picked by the solver (7.85:1 on the darkest paper tint), greyer than the South Lanarkshire indigo */
 .cg-root.cg-fls  { --cg-accent: #7B3E8A; --cg-accent-soft: rgba(123,62,138,.10); }   /* Flintshire: a library-binding purple from the solver (5.84:1 on the darkest paper tint), redder and lighter than the Caerphilly purple-black */
+.cg-root.cg-gwn  { --cg-accent: #2A2F4C; --cg-accent-soft: rgba(42,47,76,.10); }   /* Gwynedd: a Welsh slate blue-grey from the solver (10.51:1 on the darkest paper tint), greyer and darker than the Denbighshire slate blue */
