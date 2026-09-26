@@ -354,7 +354,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 302 | coding-classes-in-causeway-coast-and-glens (ccg, #43127A) | cg- county index | 2,612 | 1.7% vs coding-classes-in-anglesey | One runway, two or three? | Vector components, crosswind coverage by runway layout | 47a4f035 |
 | 303 | coding-classes-in-fermanagh-and-omagh (fom, #501F7A) | cg- county index | 2,654 | 2% vs coding-classes-in-rhondda-cynon-taf | Dating a bridge from its clues | Evidence intervals, terminus post quem, conflict detection | a8db704e |
 | 304 | coding-classes-in-mid-and-east-antrim (mea, #4C0E5C) | cg- county index | 2,589 | 2.7% vs coding-classes-in-torfaen | Splitting 50 years of growth | Compound growth rates, multiplicative decomposition | a99faa07 |
-| 305 | coding-classes-in-mid-ulster (mul, #561F7A) | cg- county index | 2,603 | 2.5% vs coding-classes-in-antrim-and-newtownabbey | The slowest machine sets the pace | Production-line capacity, slowest stage, upgrade planning | (this commit) |
+| 305 | coding-classes-in-mid-ulster (mul, #561F7A) | cg- county index | 2,603 | 2.5% vs coding-classes-in-antrim-and-newtownabbey | The slowest machine sets the pace | Production-line capacity, slowest stage, upgrade planning | 072e317b |
+| 306 | coding-and-ai-classes-in-south-east-england (rse, #35127A) | cg- region index | 2,632 | 2.8% vs coding-classes-in-vale-of-glamorgan | Same average, different seasons | Seasonal lag, like-for-like normals | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

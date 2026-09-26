@@ -27171,5 +27171,58 @@
       "Named schools and school term dates: none named or read.",
       "Distances and travel times: not claimed."
     ]
+  },
+  "coding-and-ai-classes-in-south-east-england": {
+    "market": "South East England",
+    "bodyClass": "cg-rse",
+    "pageType": "governorate",
+    "curriculumAuthority": "South East region (E12000008). ONS Census 2021 TS001 via Nomis TYPE480: 9,278,065. ONS LAD22 to RGN22 lookup: 64 local authorities. ONS Census 2021 built-up areas wholly in the region (BUA22 to region lookup): Brighton and Hove 277,105; Southampton 249,620; Portsmouth 223,305; Reading 203,795; Oxford 170,805; Slough 166,855; Crawley 120,550; Basingstoke 117,210; Worthing 111,620; Maidstone 109,490; Eastbourne 99,180; Hastings 91,490. Met Office historic station data: Manston, Lat 51.346 Lon 1.337, 49m amsl, from July 1934; Oxford, Lat 51.761 Lon -1.262, 63 metres amsl, from 1853; estimated values marked *, missing months ---.",
+    "localProject": "1991-2020 monthly means ((tmax+tmin)/2). Manston: annual 11.04, Apr 9.50, May 12.49, Jul 17.88, Aug 18.07, Sep 15.51, Oct 12.13, range 12.99, warmest Aug; missing 2001-08, 2005-09. Oxford: annual 11.04, Apr 9.84, May 12.92, Jul 18.08, Aug 17.75, Sep 15.05, Oct 11.54, range 12.90, warmest Jul. Oct-Apr 2.63 vs 1.69; Sep-May 3.02 vs 2.13. Slip: Oxford 1861-1890 mean 9.68. Lesson family: seasonal lag via autumn-spring asymmetry, like-for-like normals.",
+    "requiredMentions": [
+      "Crawley",
+      "Basingstoke",
+      "Worthing",
+      "Maidstone",
+      "Slough",
+      "Eastbourne",
+      "Hastings",
+      "Guildford",
+      "Manston",
+      "seasonal lag"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by region, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Open Geography Portal lookups: LAD22 to RGN22 and BUA22 to region.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "Met Office historic station data, Manston.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/manstondata.txt"
+      },
+      {
+        "claim": "ONS Countries (December 2022) GB BFC boundaries, used for the coast distance check.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Met Office historic station data, Oxford.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/oxforddata.txt"
+      }
+    ],
+    "rejectedClaims": [
+      "Official Met Office 1991-2020 averages: not quoted; our own averages from the station files are labelled as ours.",
+      "Milton Keynes built-up area: crosses the region boundary, not tabulated.",
+      "Coast distances: our own check against the ONS Countries (December 2022) GB BFC boundary, clipped to the coastline: Manston station 3.2 km from the nearest boundary vertex, Oxford none within 60 km.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none.",
+      "London: a separate region, not covered."
+    ]
   }
 }
