@@ -1163,3 +1163,4 @@
 .cg-root.cg-ivc  { --cg-accent: #52377A; --cg-accent-soft: rgba(82,55,122,.10); }   /* Inverclyde: a muted dusk violet from the solver (7.74:1 on the darkest paper tint), well away from the blues and teals used for the other Clyde and Forth pages */
 .cg-root.cg-mlo  { --cg-accent: #4C2233; --cg-accent-soft: rgba(76,34,51,.10); }   /* Midlothian: a dark plum from the solver (10.68:1 on the darkest paper tint), redder and deeper than the West Yorkshire and Lancashire magentas */
 .cg-root.cg-mry  { --cg-accent: #1B254C; --cg-accent-soft: rgba(27,37,76,.10); }   /* Moray: a night-sea navy from the solver (11.95:1 on the darkest paper tint), darker and bluer than the Dumfries and Galloway indigo */
+.cg-root.cg-nes  { --cg-accent: #4A2A4C; --cg-accent-soft: rgba(74,42,76,.10); }   /* Western Isles: a muted heather purple from the solver (9.8:1 on the darkest paper tint), greyer and softer than the Somerset and Lancashire purples */

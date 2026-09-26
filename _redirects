@@ -4206,4 +4206,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-moray /src/pages/coding-classes-in-moray.html 200
 /coding-classes-in-moray.md /src/pages/coding-classes-in-moray.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-na-h-eileanan-siar /src/pages/coding-classes-in-na-h-eileanan-siar.html 200
+/coding-classes-in-na-h-eileanan-siar.md /src/pages/coding-classes-in-na-h-eileanan-siar.md 200
 /* /src/pages/404.html 404

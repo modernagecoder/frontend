@@ -25609,5 +25609,46 @@
       "Named Moray schools and school term dates: none named or read.",
       "Directions or distances between Moray towns: not claimed."
     ]
+  },
+  "coding-classes-in-na-h-eileanan-siar": {
+    "market": "Na h-Eileanan Siar",
+    "bodyClass": "cg-nes",
+    "pageType": "governorate",
+    "curriculumAuthority": "Na h-Eileanan Siar (S12000013), one council (Comhairle nan Eilean Siar). NRS, Scotland's Census 2022 first results, rounded population estimates: 26,200 (females 13,200, males 13,000); households 12,700; density 8.6 per square kilometre (Scotland 69.8); ages 0 to 14 3,700 (14.1 per cent), 65+ 6,900 (26.3 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Steòrnabhagh (Stornoway) 4,800; Margaidh Ùr, Lacasdal and Bruach Màiri (Newmarket, Laxdale and Marybank) 1,610; Sanndabhaig (Sandwick) 870; Baile a'Mhanaich (Balivanich) 510. Met Office historic station data, Stornoway: \"Location: 146400E 933200N, Lat 58.214 Lon -6.318, 15 metres amsl\"; \"Sunshine data taken from an automatic Kipp & Zonen sensor marked with a #, otherwise sunshine data taken from a Campbell Stokes recorder\"; data from 1873, sunshine from 1929; first # month 2002-09.",
+    "localProject": "Possible sunshine from day length at 58.214 N (sun centre -0.833 deg). Longest 18.25 h, shortest 6.40 h. 1991-2020 means (provisional excluded): Jan 31.7/223.6 (14.2); Feb 57.4/258.2 (22.2); Mar 100.7/362.5 (27.8); Apr 147.3/429.8 (34.3); May 193.1/518.9 (37.2); Jun 149.5/543.4 (27.5); Jul 126.7/540.8 (23.4); Aug 123.5/472.7 (26.1); Sep 102.1/379.4 (26.9); Oct 73.9/311.2 (23.7); Nov 42.5/232.0 (18.3); Dec 25.6/201.9 (12.7). Sunniest month May 1994 294.1; dullest Dec 2024 6.8. Instrument switch only a caveat (Bangor used it for regression discontinuity). Lesson family: rates vs counts, normalising by opportunity.",
+    "requiredMentions": [
+      "Stornoway",
+      "Balivanich",
+      "Laxdale",
+      "Marybank",
+      "Sandwick",
+      "Outer Hebrides",
+      "Benbecula",
+      "Harris",
+      "possible sunshine",
+      "Steòrnabhagh"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Met Office historic station data: Stornoway.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/stornowaydata.txt"
+      }
+    ],
+    "rejectedClaims": [
+      "Gaelic-language statistics: excluded by rule.",
+      "That the 2002 sensor change caused any change in recorded sunshine: not claimed; noted only as a caveat.",
+      "Ferry routes, crossing times or travel between islands: not claimed.",
+      "Callanish and St Kilda facts: not researched for this page.",
+      "Named island schools and school term dates: none named or read.",
+      "Exact sunshine percentages: page labels shares as a comparison from an approximate model."
+    ]
   }
 }
