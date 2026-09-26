@@ -23142,5 +23142,50 @@
       "The total plasma time across all JET pulses: pulse lengths are only described as typical, so no total is claimed.",
       "Named Oxfordshire schools: none is named."
     ]
+  },
+  "coding-classes-in-cambridgeshire": {
+    "market": "Cambridgeshire",
+    "bodyClass": "cg-cms",
+    "pageType": "governorate",
+    "curriculumAuthority": "Cambridgeshire (ceremonial: five districts under Cambridgeshire County Council plus Peterborough unitary). ONS Census 2021 TS001 via Nomis: Peterborough 215,671; Huntingdonshire 180,832; South Cambridgeshire 162,118; Cambridge 145,674; Fenland 102,462; East Cambridgeshire 87,762; total 894,519 (our sum). ONS Census 2021 built-up areas (published; checked with our OA sums): Peterborough 190,605 (Peterborough, Huntingdonshire); Cambridge 152,740 (Cambridge, South Cambridgeshire); St Neots 33,265; Wisbech 26,795 (25,533 inside the county, about 1,260 in Norfolk); Huntingdon 25,600; March 21,345; Ely 19,185; St Ives 16,820; Whittlesey 13,830; Cambourne 11,075; Chatteris 11,015; Soham 10,615; Yaxley 9,405; Littleport 9,165; Histon and Impington 7,780; Godmanchester 7,715; Sawston 7,270; Brampton 6,585; Great Shelford and Stapleford 6,160; Cottenham 6,155; Burwell 5,915; Sawtry 5,875; Ramsey 5,730; Eye 5,415; Waterbeach 5,375; Longstanton and Northstowe 5,275. Newmarket 18,855 excluded (about 2,090 in East Cambridgeshire). The National Museum of Computing, EDSAC: \"Designed in 1947 by a team lead by Maurice Wilkes, the original EDSAC computer operated for almost 10 years, starting from its first successful program run on 6th May 1949, at the Cambridge University Mathematical Laboratory\"; \"There were only 18 operation codes and initially just 512 words of memory, later extended to 1024. Instructions were executed at a rate of approximately 650 per second\"; memory \"constructed from 'delay line tanks' - metal tubes filled with mercury\"; Wilkes had \"observed research workers doing laborious computations with the aid of mechanical desk calculators\".",
+    "localProject": "The space-time trade-off under a hard memory budget. Primes below N by trial division (divide by primes up to sqrt), sieve of Eratosthenes, and segmented sieve (block 256), lists checked identical; each counted step priced at one EDSAC instruction at 650 per second as a stated simplification. N 10,000: 1,229 primes; trial 43,752 divisions (67.3 s), memory 1,229 primes; sieve 16,979 crossings (26.1 s), memory 10,000 marks; segmented 16,979 crossings, 281 words at once (256 + 25 base primes). N 100,000: 9,592 primes; trial 744,435 (1,145.3 s); sieve 193,076 (297.0 s); segmented 321 words (256 + 65). N 512: 97 primes, trial 1,277, sieve 672. Compared with EDSAC's initial 512 words. AI angle: generated sieves assume plentiful memory. Lesson family: space-time trade-off (trial division vs sieve vs segmented sieve); distinct from big-O on Hoorn and Bromley; the Cambridge city page uses EDSAC only as place history (its lesson is a top-k heap).",
+    "requiredMentions": [
+      "894,519",
+      "6th May 1949",
+      "650 per second",
+      "512 words",
+      "18 operation codes",
+      "16,979",
+      "43,752",
+      "281 words",
+      "Longstanton and Northstowe",
+      "190,605"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for Peterborough and the five Cambridgeshire districts, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Cambridgeshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "The National Museum of Computing, EDSAC: first program 6th May 1949, 18 operation codes, 512 words, about 650 instructions per second, mercury delay lines.",
+        "url": "https://www.tnmoc.org/edsac"
+      }
+    ],
+    "rejectedClaims": [
+      "Cambridgeshire County Council term dates: the URL tried returned 404 on 26 September 2026; none printed.",
+      "The Queens' College sundial: the college site has no page describing it that we could find, so the planned equation-of-time project was dropped.",
+      "How long a real EDSAC division took: not read at a primary source; the page prices every counted step at one instruction and says so.",
+      "EDSAC's word length in bits: not stated on the museum page, so memory is counted in words, one mark or prime per word.",
+      "Newmarket as a Cambridgeshire town: most of its built-up area lies in Suffolk.",
+      "Named Cambridgeshire schools or university departments' teaching: none is claimed."
+    ]
   }
 }

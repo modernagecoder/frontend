@@ -4002,4 +4002,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-oxfordshire /src/pages/coding-classes-in-oxfordshire.html 200
 /coding-classes-in-oxfordshire.md /src/pages/coding-classes-in-oxfordshire.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-cambridgeshire /src/pages/coding-classes-in-cambridgeshire.html 200
+/coding-classes-in-cambridgeshire.md /src/pages/coding-classes-in-cambridgeshire.md 200
 /* /src/pages/404.html 404
