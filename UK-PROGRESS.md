@@ -304,7 +304,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 252 | coding-classes-in-west-sussex (wsx, #40325C) | cg- county index | 2,830 | 2.1% vs coding-classes-in-shropshire | letting commuters draw the map | community detection, modularity | c79c8d62 |
 | 253 | coding-classes-in-west-yorkshire (wyk, #5C0E47) | cg- county index | 2,954 | 2.2% vs coding-classes-in-suffolk | reading the Brontes with a word list | lexicon sentiment, coverage, negation, word sense | 17d7522b |
 | 254 | coding-classes-in-wiltshire (wil, #3D6B25) | cg- county index | 2,971 | 2.4% vs coding-classes-in-west-yorkshire | sunrise down Brunel's tunnel | Pythagoras and atan2 bearings, grid vs true north | 7d4e0a8d |
-| 255 | coding-classes-in-worcestershire (wcs, #3E438A) | cg- county index | 3,002 | 1.9% vs coding-classes-in-northumberland | decoding a century of porcelain marks | number representation, unary vs binary, encodings | (this commit) |
+| 255 | coding-classes-in-worcestershire (wcs, #3E438A) | cg- county index | 3,002 | 1.9% vs coding-classes-in-northumberland | decoding a century of porcelain marks | number representation, unary vs binary, encodings | 3c4ef6dc |
+| 256 | coding-classes-in-aberdeenshire (abs, #325C51) | cg- council area index | 2,826 | 2.3% vs coding-classes-in-staffordshire | every team against every other | round robin, circle method, checker, breaks | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

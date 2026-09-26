@@ -24942,5 +24942,47 @@
       "Worcestershire school term dates: none read.",
       "Named Worcestershire schools: none named."
     ]
+  },
+  "coding-classes-in-aberdeenshire": {
+    "market": "Aberdeenshire",
+    "bodyClass": "cg-abs",
+    "pageType": "governorate",
+    "curriculumAuthority": "Aberdeenshire (S12000034), one council. NRS, Scotland's Census 2022 first results, rounded population estimates (published 14 September 2023, rounded to the nearest hundred): Aberdeenshire 263,900 (females 134,100, males 129,800); households 115,800; density 41.8 per square kilometre (Scotland 5,436,600; 69.8; 2,509,300 households); ages 0 to 14: 13,200 + 15,800 + 16,500 = 45,500 (our sum, 17.2 per cent); 65+: 55,500 (our sum, 21.0 per cent); Scotland 0 to 14 832,200 (15.3 per cent). NRS Population Estimates for Settlements and Localities in Scotland, mid-2020 (published 31 March 2022), Aberdeenshire localities: Peterhead 19,060; Inverurie 14,660; Fraserburgh 12,570; Westhill 12,110; Stonehaven 11,150; Ellon 10,070; Portlethen 8,940; Banchory 7,440; Turriff 4,700; Kintore 4,700; Huntly 4,550; Banff 4,000; Kemnay 3,890; Macduff 3,830; Laurencekirk 3,140; Oldmeldrum 3,120; Blackburn 3,050; Newtonhill 3,010; 62 localities summing to 188,130 (our sum, mid-2020). Braemar Gathering: \"Held on the first Saturday of September each year\"; \"The Gathering has been run in its present form since 1832\"; \"On 20th July, 1832, at a General Meeting held in Braemar Castle\"; \"Saturday 4th September 2027\"; \"Broombank Terrace, Braemar, Aberdeenshire, AB35 5YX\".",
+    "localProject": "Round-robin scheduling by the circle method (fix team 0, rotate the rest), with a dummy for odd n. Results: n 6: 5 rounds, 15 contests; n 7: 7 rounds, 21 contests, 7 byes; n 8: 7 rounds, 28; n 10: 9, 45; n 12: 11, 66; all pairs once, no team twice per round. Knockout for 8: 7 contests, 3 rounds. Breaks (same end in consecutive rounds): naive vs alternating: 6 teams 16 vs 4; 7 teams 32 vs 5; 8 teams 36 vs 6; 10 teams 64 vs 8; 12 teams 100 vs 10. First checker counted the resting team and wrongly failed n 7. Page labels teams as invented. AI angle: generated fixture lists need programmatic checks; tests need testing. Lesson family: round robin, invariants, byes, breaks.",
+    "requiredMentions": [
+      "263,900",
+      "115,800",
+      "Braemar",
+      "round robin",
+      "AB35 5YX",
+      "Peterhead",
+      "Fraserburgh",
+      "Ellon",
+      "Portlethen",
+      "Banchory",
+      "Turriff"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data: Aberdeenshire and Scotland.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020: Aberdeenshire localities.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Braemar Gathering: date, history since 1832, next Gathering and address.",
+        "url": "https://www.braemargathering.org/"
+      }
+    ],
+    "rejectedClaims": [
+      "Which contests the Braemar Gathering runs and how it schedules them: not read, not claimed; the teams on the page are invented.",
+      "Royal attendance details beyond the site's own words: not used.",
+      "A mathematical lower bound on breaks: not read from a source, so the page reports only our counts.",
+      "Aberdeenshire school term dates: none read.",
+      "Named Aberdeenshire schools: none named.",
+      "Oil and gas industry facts: not researched for this page."
+    ]
   }
 }
