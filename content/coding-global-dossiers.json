@@ -26053,5 +26053,49 @@
       "Named South Lanarkshire schools and school term dates: none named or read.",
       "Directions or distances between towns: not claimed."
     ]
+  },
+  "coding-classes-in-west-dunbartonshire": {
+    "market": "West Dunbartonshire",
+    "bodyClass": "cg-wdb",
+    "pageType": "governorate",
+    "curriculumAuthority": "West Dunbartonshire (S12000039), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 88,400 (females 45,900, males 42,400); households 42,600; density 556.8 per square kilometre (Scotland 69.8); ages 0 to 14 13,900 (15.7 per cent), 65+ 17,600 (19.9 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Clydebank 25,620; Dumbarton 20,480; Bonhill 9,060; Alexandria 6,710; Duntocher and Hardgate 6,680; Balloch and Haldane 6,010; Faifley 4,740; Old Kilpatrick 4,470; Renton 2,350. HES LB24873 (Category A, added 21/10/1976), Castle Street, Ship Model Experiment Tank, burgh Dumbarton: \"1882-3. E R Mumford, Superintendent of the works (Mumford, together with William Froude, naval architect (d. 1879), had previously established a tank at Torquay)\"; \"carved panel of William Froude\"; \"Long narrow brick-lined tank\"; \"Double teak walkways\"; \"contains a wavemaker\"; \"Built for Denny's of Dumbarton\"; \"Leven Ship Yard Experimental Tank\"; \"The first privately owned experimental tank built in the world, and said to now be the oldest still in existence\"; \"first experiment to 21 February 1883\".",
+    "localProject": "Invented ship 100 m, 15 kn (7.72 m/s); model 1:25, 4 m, 1.543 m/s; Fn 0.2464 both. Re ship 6.48e8 (nu 1.19e-6), model 5.42e6 (nu 1.14e-6), ratio 120; Re match needs 185 m/s. ITTC-1957 Cf ship 0.00162, model 0.00335. Model 30.0 N: friction 15.94 (53 per cent), rest 14.06. Ship rest 225.1 kN, friction 123.3 kN, total 348.4 kN; naive 480.5 kN (+38 per cent); power 2.69 vs 3.71 MW. 1:10 2.440, 1:50 1.091 m/s. Lesson family: similarity laws, Froude vs Reynolds, split before scaling.",
+    "requiredMentions": [
+      "88,400",
+      "556.8",
+      "Clydebank",
+      "Dumbarton",
+      "Bonhill",
+      "Alexandria",
+      "Duntocher",
+      "Faifley",
+      "Old Kilpatrick",
+      "Renton",
+      "LB24873",
+      "Froude",
+      "Reynolds number"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB24873: Ship Model Experiment Tank, Castle Street, Dumbarton.",
+        "url": "https://portal.historicenvironment.scot/designation/LB24873"
+      }
+    ],
+    "rejectedClaims": [
+      "Any real test, ship or result from the Denny tank: not claimed; the ship and model are invented.",
+      "Current use or opening of the tank: not claimed.",
+      "Clydebank shipbuilding and Titan crane facts: not used (statics already covered elsewhere).",
+      "Water viscosity and density figures are typical values, labelled as ours.",
+      "Named West Dunbartonshire schools and school term dates: none named or read.",
+      "Distances between towns: not claimed."
+    ]
   }
 }
