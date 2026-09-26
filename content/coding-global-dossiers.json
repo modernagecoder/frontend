@@ -27048,5 +27048,46 @@
       "Community background, religion and identity statistics: excluded by rule.",
       "Named schools, school term dates, distances and travel times: none named, read or claimed."
     ]
+  },
+  "coding-classes-in-fermanagh-and-omagh": {
+    "market": "Fermanagh and Omagh",
+    "bodyClass": "cg-fom",
+    "pageType": "governorate",
+    "curriculumAuthority": "Fermanagh and Omagh (N09000006). NISRA Census 2021 MS-A01: 116,812. DEAs (exact, not summed): Enniskillen 18,451; Erne East 15,944; Erne North 15,083; Erne West 14,661; Mid Tyrone 17,590; Omagh 18,480; West Tyrone 16,603. Settlements (NISRA approximations): Omagh Town 20,458; Enniskillen 14,086; Lisnaskea 3,020; Irvinestown 2,320; Ballinamallard 1,364; Fintona 1,212; Newtownbutler 972. Department for Communities historic building HB12/02/079, canal bridge, Cloncorrick, Newtownbutler: \"A single semicircular arch carries a one-and-a-half lane hump-backed road over the Ulster Canal\"; \"The towpath runs through the arch on the south side\"; \"span of the arch is approximately 6.12m (20ft 1in), of which the actual canal occupies 4.09m\"; \"constructed between Charlemont (Co Armagh) and Wattle Bridge (Co Fermanagh) between 1825 and 1842. The consulting engineer was William Cubitt and the principal contractor William Dargan\"; \"not depicted in the 1834 OS 6-inch map, and must therefore date to later in the same decade\"; \"The canal was closed in 1931\".",
+    "localProject": "Dating by evidence intervals: canal works 1825-1842; absent from 1834 map -> from 1834; closed 1931 -> by 1931 (no change); window 1834-1842 (8 years); record judgement same decade 1834-1839. Invented datestone 1829 -> empty; drop datestone -> 1834-1842, drop map -> 1829: two culprits. Union slip -> 1825-1931. Lesson family: terminus post quem / ante quem interval intersection and conflict detection.",
+    "requiredMentions": [
+      "Lisnaskea",
+      "Irvinestown",
+      "Newtownbutler",
+      "Ballinamallard",
+      "Fintona",
+      "Erne East",
+      "Mid Tyrone",
+      "Ulster Canal",
+      "William Cubitt",
+      "terminus post quem"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA Census 2021 MS-A01 usual resident population by LGD, DEA and settlement.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "Department for Communities Historic Buildings database, record HB12/02/079, canal bridge at Cloncorrick.",
+        "url": "https://apps.communities-ni.gov.uk/Buildings/buildview.aspx?id=13224"
+      },
+      {
+        "claim": "Department for Communities Historic Environment Division GIS data (Historic Buildings layer with council field).",
+        "url": "https://services2.arcgis.com/BdBkthNLO9mzGAMO/arcgis/rest/services/Historic_Environment_Division_GIS_Data/FeatureServer"
+      }
+    ],
+    "rejectedClaims": [
+      "A firm construction year for the bridge: not in the record; only ranges and the record judgement.",
+      "The datestone of 1829: invented for the lesson and labelled so.",
+      "The canal line across the border (aqueduct record): not used.",
+      "Transfer test advice: excluded by rule.",
+      "Community background, religion and identity statistics: excluded by rule.",
+      "Named schools, school term dates, distances and travel times: none named, read or claimed."
+    ]
   }
 }

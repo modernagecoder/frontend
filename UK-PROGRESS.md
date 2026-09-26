@@ -351,7 +351,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 299 | coding-classes-in-torfaen (tfn, #47224C) | cg- county index | 2,530 | 1.7% vs coding-classes-in-highland | Seashell or coiled rope? | Logarithmic vs Archimedean spirals, ratio vs difference | 39f8a82d |
 | 300 | coding-classes-in-vale-of-glamorgan (vog, #4C0B44) | cg- county index | 2,556 | 2.6% vs coding-classes-in-renfrewshire | 1,400 pigeons, 700 holes | Pigeonhole principle, random occupancy, sanity check | a27c091d |
 | 301 | coding-classes-in-antrim-and-newtownabbey (anb, #3C127A) | cg- county index | 2,624 | 2.3% vs coding-classes-in-vale-of-glamorgan | Last in, first out | LIFO stack storage, block relocation | 138a5966 |
-| 302 | coding-classes-in-causeway-coast-and-glens (ccg, #43127A) | cg- county index | 2,612 | 1.7% vs coding-classes-in-anglesey | One runway, two or three? | Vector components, crosswind coverage by runway layout | (this commit) |
+| 302 | coding-classes-in-causeway-coast-and-glens (ccg, #43127A) | cg- county index | 2,612 | 1.7% vs coding-classes-in-anglesey | One runway, two or three? | Vector components, crosswind coverage by runway layout | 47a4f035 |
+| 303 | coding-classes-in-fermanagh-and-omagh (fom, #501F7A) | cg- county index | 2,654 | 2% vs coding-classes-in-rhondda-cynon-taf | Dating a bridge from its clues | Evidence intervals, terminus post quem, conflict detection | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

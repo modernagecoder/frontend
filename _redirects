@@ -4334,4 +4334,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-causeway-coast-and-glens /src/pages/coding-classes-in-causeway-coast-and-glens.html 200
 /coding-classes-in-causeway-coast-and-glens.md /src/pages/coding-classes-in-causeway-coast-and-glens.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-fermanagh-and-omagh /src/pages/coding-classes-in-fermanagh-and-omagh.html 200
+/coding-classes-in-fermanagh-and-omagh.md /src/pages/coding-classes-in-fermanagh-and-omagh.md 200
 /* /src/pages/404.html 404

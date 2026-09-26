@@ -567,6 +567,7 @@ const MARKETS = [
   ['coding-classes-in-vale-of-glamorgan', 'Vale of Glamorgan'],
   ['coding-classes-in-antrim-and-newtownabbey', 'Antrim and Newtownabbey'],
   ['coding-classes-in-causeway-coast-and-glens', 'Causeway Coast and Glens'],
+  ['coding-classes-in-fermanagh-and-omagh', 'Fermanagh and Omagh'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
