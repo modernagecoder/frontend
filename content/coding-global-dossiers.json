@@ -25650,5 +25650,53 @@
       "Named island schools and school term dates: none named or read.",
       "Exact sunshine percentages: page labels shares as a comparison from an approximate model."
     ]
+  },
+  "coding-classes-in-north-ayrshire": {
+    "market": "North Ayrshire",
+    "bodyClass": "cg-nay",
+    "pageType": "governorate",
+    "curriculumAuthority": "North Ayrshire (S12000021), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 133,400 (females 69,700, males 63,800); households 64,200; density 150.7 per square kilometre (Scotland 69.8); ages 0 to 14 19,800 (14.8 per cent), 65+ 31,700 (23.8 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Irvine 34,130; Kilwinning 16,100; Saltcoats 12,250; Largs 11,030; Ardrossan 10,500; Stevenston 9,050; Kilbirnie 7,170; Beith 5,940; Dalry 5,250; West Kilbride 4,860; Dreghorn 3,450. HES LB37198 (Category A, added 14/04/1971), Skelmorlie Aisle, burgh Largs: \"Built 1636\"; \"Interior: richly painted ceiling, signed J S Stalker, and dated 1638\"; \"panels between with biblical texts and representations, zodiac signs and symbolic figures; the 4 seasons represented in the corners, 'summer' including view of Largs town and old church\"; \"Elaborate Renaissance carved stone tomb\"; \"Guardianship Monument\". Bright Star Catalogue (VizieR V/50) J2000: Polaris HR 424 02 31 48.7 +89 15 51; Aldebaran HR 1457 04 35 55.2 +16 30 33; Regulus HR 3982 10 08 22.3 +11 58 02; Spica HR 5056 13 25 11.6 -11 09 41; Antares HR 6134 16 29 24.4 -26 25 55; Vega HR 7001 18 36 56.3 +38 47 01. The Isle of Arran is part of North Ayrshire (Brodick Castle LB7507 is listed under North Ayrshire).",
+    "localProject": "IAU 1976 precession (Lieske zeta, z, theta) J2000 to 1638.5, T = -3.615; det 1.0. dRA: Polaris -30.939, Aldebaran -5.160, Regulus -4.859, Spica -4.745, Antares -5.514, Vega -3.031 deg. Dec: Polaris 89.264 to 87.353; Aldebaran 16.509 to 15.703; Regulus 11.967 to 13.705; Spica -11.161 to -9.257; Antares -26.432 to -25.568; Vega 38.784 to 38.513. Ecliptic longitude shift -5.032 to -5.063; latitude shift at most 0.007. Naive RA shift errors 0.953 to 2.014 deg. 50.29\"/yr x 361.5 = 5.05 deg; cycle 25,771 yr (ours; page says roughly 25,800). Full Moon about half a degree (general knowledge; page says four times the width at worst for 2 deg). Lesson family: rotation matrices, coordinate frames.",
+    "requiredMentions": [
+      "133,400",
+      "64,200",
+      "Kilwinning",
+      "Saltcoats",
+      "Ardrossan",
+      "Stevenston",
+      "Kilbirnie",
+      "Beith",
+      "West Kilbride",
+      "Dreghorn",
+      "Skelmorlie",
+      "LB37198",
+      "precession"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB37198: Skelmorlie Aisle, Largs.",
+        "url": "https://portal.historicenvironment.scot/designation/LB37198"
+      },
+      {
+        "claim": "Bright Star Catalogue, 5th Revised Ed. (Hoffleit and Warren), VizieR V/50.",
+        "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=V/50"
+      }
+    ],
+    "rejectedClaims": [
+      "Astrology or star signs as having any meaning: not discussed.",
+      "Which zodiac signs appear on the ceiling or how they are drawn: not in the listing, not claimed.",
+      "Sir Thomas Brisbane connections: not researched for this page.",
+      "Ferry details to Arran: not claimed.",
+      "Named North Ayrshire schools and school term dates: none named or read.",
+      "Directions or distances between North Ayrshire towns: not claimed."
+    ]
   }
 }

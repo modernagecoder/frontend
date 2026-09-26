@@ -1164,3 +1164,4 @@
 .cg-root.cg-mlo  { --cg-accent: #4C2233; --cg-accent-soft: rgba(76,34,51,.10); }   /* Midlothian: a dark plum from the solver (10.68:1 on the darkest paper tint), redder and deeper than the West Yorkshire and Lancashire magentas */
 .cg-root.cg-mry  { --cg-accent: #1B254C; --cg-accent-soft: rgba(27,37,76,.10); }   /* Moray: a night-sea navy from the solver (11.95:1 on the darkest paper tint), darker and bluer than the Dumfries and Galloway indigo */
 .cg-root.cg-nes  { --cg-accent: #4A2A4C; --cg-accent-soft: rgba(74,42,76,.10); }   /* Western Isles: a muted heather purple from the solver (9.8:1 on the darkest paper tint), greyer and softer than the Somerset and Lancashire purples */
+.cg-root.cg-nay  { --cg-accent: #306B3C; --cg-accent-soft: rgba(48,107,60,.10); }   /* North Ayrshire: a painted-ceiling green from the solver (5.14:1 on the darkest paper tint), brighter and bluer than the Highland olive and East Dunbartonshire green */
