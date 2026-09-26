@@ -262,6 +262,7 @@ const SLUGS = [
   '11-plus-maths-tuition-bournemouth-christchurch-and-poole',
   '11-plus-maths-tuition-calderdale',
   '11-plus-maths-tuition-hertfordshire',
+  '11-plus-maths-tuition-wolverhampton-and-walsall',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -603,6 +604,7 @@ const LLMS_LABELS = {
   '11-plus-maths-tuition-bournemouth-christchurch-and-poole': '11 plus maths tuition in Bournemouth, Christchurch and Poole',
   '11-plus-maths-tuition-calderdale': '11 plus maths tuition in Calderdale',
   '11-plus-maths-tuition-hertfordshire': '11 plus maths tuition in Hertfordshire',
+  '11-plus-maths-tuition-wolverhampton-and-walsall': '11 plus maths tuition in Wolverhampton and Walsall',
 };
 
 function wireLlms(slugs) {

@@ -259,7 +259,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 207 | 11-plus-maths-tuition-torbay (tbm, #8A544C) | maths door by area | 3,328 | 2.7% vs 11-plus-maths-tuition-medway | a Yes or No outcome, never a score: no weak strand | area and perimeter, composite shapes | d2513bdf |
 | 208 | 11-plus-maths-tuition-bournemouth-christchurch-and-poole (bcm, #5C180E) | maths door by area | 3,456 | 2.2% vs 11-plus-maths-tuition-medway | maths becomes a 40-minute Paper One, capped at Year 5 | regular and irregular polygons | 639ef0e6 |
 | 209 | 11-plus-maths-tuition-calderdale (cdm, #4C3C22) | maths door by area | 3,310 | 2% vs 11-plus-maths-tuition-gloucestershire | maths and English marked first; writing read only if they pass | large-number addition and subtraction, mental and written | 38f1c66a |
-| 210 | 11-plus-maths-tuition-hertfordshire (htm, #40324C) | maths door by area | 3,453 | 1.6% vs 11-plus-maths-tuition-bournemouth-christchurch-and-poole | partially selective: maths and verbal only, some two-answer questions | mental multiplication and division from known facts | (this commit) |
+| 210 | 11-plus-maths-tuition-hertfordshire (htm, #40324C) | maths door by area | 3,453 | 1.6% vs 11-plus-maths-tuition-bournemouth-christchurch-and-poole | partially selective: maths and verbal only, some two-answer questions | mental multiplication and division from known facts | 042110d9 |
+| 211 | 11-plus-maths-tuition-wolverhampton-and-walsall (wwm, #2C2A4C) | maths door by area | 3,339 | 2.1% vs 11-plus-maths-tuition-warwickshire | one section, two names; qualifying score set after the results | fraction, decimal and percentage equivalents | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

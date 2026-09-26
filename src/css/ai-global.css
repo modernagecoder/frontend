@@ -756,3 +756,4 @@
 .ag-root.ag-bcm { --ag-accent: #5C180E; --ag-accent-soft: rgba(92,24,14,.09); }   /* Bournemouth, Christchurch and Poole 11 plus maths: a deep harbour rust, chosen by colour distance from every accent on the site (10.63:1 on the darkest paper tint) */
 .ag-root.ag-cdm { --ag-accent: #4C3C22; --ag-accent-soft: rgba(76,60,34,.09); }   /* Calderdale 11 plus maths: a millstone-grit brown, chosen by colour distance from every accent on the site (8.56:1 on the darkest paper tint) */
 .ag-root.ag-htm { --ag-accent: #40324C; --ag-accent-soft: rgba(64,50,76,.09); }   /* Hertfordshire 11 plus maths: a dusk plum-grey, chosen by colour distance from every accent on the site (9.51:1 on the darkest paper tint) */
+.ag-root.ag-wwm { --ag-accent: #2C2A4C; --ag-accent-soft: rgba(44,42,76,.09); }   /* Wolverhampton and Walsall 11 plus maths: a Black Country iron-grey indigo, chosen by colour distance from every accent on the site (10.97:1 on the darkest paper tint) */
