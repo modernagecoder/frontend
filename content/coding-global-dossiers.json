@@ -24700,5 +24700,52 @@
       "Suffolk school term dates: none read.",
       "Named Suffolk schools: none named."
     ]
+  },
+  "coding-classes-in-tyne-and-wear": {
+    "market": "Tyne and Wear",
+    "bodyClass": "cg-tyw",
+    "pageType": "governorate",
+    "curriculumAuthority": "Tyne and Wear: metropolitan boroughs Newcastle upon Tyne, Gateshead, North Tyneside, South Tyneside, Sunderland. ONS Census 2021 TS001 via Nomis: Newcastle upon Tyne 300,125; Sunderland 274,172; North Tyneside 208,967; Gateshead 196,151; South Tyneside 147,776; our sum 1,127,191. ONS built-up areas (published; agree with our OA sums, all inside): Newcastle upon Tyne 286,445 (Newcastle, North Tyneside); Sunderland 168,315; Gateshead 115,280 (Gateshead, South Tyneside); South Shields 73,345; Tynemouth 60,605; Washington 51,320; Wallsend 45,355; Whitley Bay 36,880; Jarrow 29,470; Longbenton 26,880; Hebburn 21,345; Shiney Row and Penshaw 16,900; Whickham 15,685. DfT NaPTAN access-nodes, national area 940 CSV: 68 active StopType MET rows with ATCOCode prefix 9400ZZTW; 8 named \"(Edinburgh Trams)\" (9400ZZTWWJN Newhaven to 9400ZZTWWJU Picardy Place; latitudes 55.957 to 55.980; CreationDateTime 2022-11-11); other 17 Edinburgh Trams MET rows use 9400ZZED; 60 Tyne and Wear Metro stations, latitude 54.902 to 55.042.",
+    "localProject": "Coupon collector over 60 Metro stations: E = 60 H(60) = 280.8; first 30 new 41.1, last 30 239.7, last one 60. Simulation 20,000 (seed 20260926): mean 280.0, median 267, 10th 198, 90th 376, max 861. Made-up weights 1 to 10 evenly spread: mean 671.7, median 604, 90th 1,047; quietest 1 in 330 per trip. Die example: 6 H(6) = 14.7. Data cleaning: prefix filter 68 minus 8 Edinburgh = 60, confirmed by names and coordinates. Page labels model as ours and not describing travel. AI angle: a prefix-based count answers 68. Lesson family: coupon collector, harmonic numbers, long tail, unequal probabilities; data cleaning with a second field.",
+    "requiredMentions": [
+      "1,127,191",
+      "coupon collector",
+      "9400ZZTW",
+      "280.8",
+      "Longbenton",
+      "Hebburn",
+      "Shiney Row and Penshaw",
+      "Whickham",
+      "Tynemouth",
+      "Jarrow",
+      "Brockley Whins",
+      "Callerton Parkway"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the five Tyne and Wear boroughs, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Tyne and Wear towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Department for Transport, NaPTAN access nodes (national area 940), downloaded as CSV.",
+        "url": "https://naptan.api.dft.gov.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Why the Edinburgh stops carry 9400ZZTW codes: not known; the page reports what the file contained without guessing.",
+      "Metro passenger numbers or busiest stations: not read; the unequal model uses invented weights.",
+      "Tyne bridges and their history: considered for this page, but not used.",
+      "Nexus facts about the Metro: not read from Nexus; only NaPTAN is used.",
+      "Tyne and Wear school term dates: none read.",
+      "Named Tyne and Wear schools: none named."
+    ]
   }
 }

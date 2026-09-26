@@ -299,7 +299,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 247 | coding-classes-in-somerset (som, #5F106B) | cg- county index | 3,022 | 2.3% vs coding-classes-in-north-yorkshire | ley lines or arithmetic of dots | rejection sampling, null models, clustering | a2b999ee |
 | 248 | coding-classes-in-south-yorkshire (syk, #2A4C38) | cg- county index | 3,057 | 1.1% vs coding-classes-in-herefordshire | what is a snooker break worth | expected value vs median, model vs reality | 03a7b7f4 |
 | 249 | coding-classes-in-staffordshire (stf, #29415C) | cg- county index | 2,930 | 2.4% vs coding-classes-in-shropshire | opening the dictionary at the right page | interpolation search vs binary, uniformity assumption | e36d1733 |
-| 250 | coding-classes-in-suffolk (sfk, #6B3044) | cg- county index | 2,845 | 2.4% vs coding-classes-in-norfolk | how few containers will the cargo fit in | bin packing heuristics vs lower bound | (this commit) |
+| 250 | coding-classes-in-suffolk (sfk, #6B3044) | cg- county index | 2,845 | 2.4% vs coding-classes-in-norfolk | how few containers will the cargo fit in | bin packing heuristics vs lower bound | 4a60a3a4 |
+| 251 | coding-classes-in-tyne-and-wear (tyw, #6B5910) | cg- county index | 3,014 | 1.8% vs coding-classes-in-staffordshire | every Metro station by random trips | coupon collector, data cleaning by second field | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -4126,4 +4126,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-suffolk /src/pages/coding-classes-in-suffolk.html 200
 /coding-classes-in-suffolk.md /src/pages/coding-classes-in-suffolk.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-tyne-and-wear /src/pages/coding-classes-in-tyne-and-wear.html 200
+/coding-classes-in-tyne-and-wear.md /src/pages/coding-classes-in-tyne-and-wear.md 200
 /* /src/pages/404.html 404
