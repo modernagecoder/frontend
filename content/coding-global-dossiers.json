@@ -23387,5 +23387,58 @@
       "The nationality of the astronomers who recorded the 1054 guest star: not repeated on the page; the date is what the lesson uses.",
       "Named Cheshire schools: none is named."
     ]
+  },
+  "coding-classes-in-cornwall": {
+    "market": "Cornwall",
+    "bodyClass": "cg-cnw",
+    "pageType": "governorate",
+    "curriculumAuthority": "Cornwall (ceremonial: Cornwall Council and the Council of the Isles of Scilly). ONS Census 2021 TS001 via Nomis: Cornwall 570,305; Isles of Scilly 2,053; total 572,358 (our sum). ONS Census 2021 built-up areas (published; all 21 above 5,000 agree with our OA sums and lie in Cornwall): Newquay 24,545; St Austell 24,360; Falmouth 24,070; Truro 23,060; Camborne 20,450; Bodmin 16,910; Redruth 15,455; Saltash 15,435; Penzance 14,960; Helston 11,360; Penryn 11,195; Liskeard 10,900; Hayle 9,040; Pool and Illogan 8,585; Launceston 8,425; Bude 7,350; Torpoint 7,160; St Blazey 6,575; Wadebridge 5,625; St Ives 5,410; Looe 5,310. Marconi Centre Poldhu (Poldhu Amateur Radio Club, on behalf of the National Trust), History of the Site: plot \"bought in 1900, and construction work ran from October 1900 to January 1901\"; \"The transmitter operated with a power of roughly 13 kW and a wavelength usually estimated at 366 metres\"; \"On 12 December 1901, Guglielmo Marconi and his colleagues received an extremely short signal from Poldhu (three dots representing the code letter 's') whilst listening in at Signal Hill, St John's, Newfoundland\"; \"Poldhu had been instructed to transmit the Morse code letter 'S' (dot, dot, dot) daily from 3.00 pm to 6.00 pm GMT (11.30 am to 2.30 pm, St John's local time)\"; S chosen because \"the switching arrangements at Poldhu on that occasion were unable to withstand the wear that a long series of dashes would have involved\" and because atmospherics \"tended to run all the dots and dashes into each other\". ITU-R M.1677-1: \"A dash is equal to three dots\"; \"The space between the signals forming the same letter is equal to one dot\"; between two letters three dots; between two words seven dots.",
+    "localProject": "Morse as a code that is not prefix-free, counted with memoisation. Durations in dot units (dot 1, dash 3, intra-letter gap 1): E 1; I and T 3; S 5 (key-down 3); O 11 (key-down 9); J, Q, Y 13. Dot-only letters E, I, S, H. Readings of a word with letter gaps removed, counting every split into valid letters: SOS 192 (plain recursion 400 calls); MARCONI 59,364 (123,808); POLDHU 524,361 (1,089,674); CORNWALL 6,138,768 (12,759,484 calls; memoised: 26 distinct subproblems for a 25-element signal plus the empty tail). S is one flip, drop or insertion from B, D, F, H, I, L, R, U, V. Illustration: at 0.1 s per dot (our assumption), S plus letter gap repeats 13,500 times in three hours. AI angle: a decoder returns one confident reading of ambiguous input. Lesson family: Morse and prefix-freeness, parse counting with memoisation; screened 26 September 2026.",
+    "requiredMentions": [
+      "572,358",
+      "6,138,768",
+      "12,759,484",
+      "524,361",
+      "3.00 pm to 6.00 pm GMT",
+      "A dash is equal to three dots",
+      "Pool and Illogan",
+      "24,545",
+      "Signal Hill",
+      "366 metres"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for Cornwall and the Isles of Scilly, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Cornish towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Marconi Centre Poldhu, History of the Site: the S signal, its timing and the reasons for choosing it; 12 December 1901 at Signal Hill.",
+        "url": "https://marconi-centre-poldhu.org.uk/about/history/"
+      },
+      {
+        "claim": "Marconi Centre Poldhu: run by the Poldhu Amateur Radio Club on behalf of the National Trust; site bought in 1900.",
+        "url": "https://marconi-centre-poldhu.org.uk/about/poldhu-site-and-marconi-centre/"
+      },
+      {
+        "claim": "ITU-R Recommendation M.1677-1, International Morse code: dash equals three dots; spacing rules.",
+        "url": "https://www.itu.int/rec/R-REC-M.1677-1-200910-I/"
+      }
+    ],
+    "rejectedClaims": [
+      "Cornwall Council term dates: the URL tried returned 404 on 26 September 2026; none printed.",
+      "Goonhilly Earth Station history: its history URL returned 404, so it is not mentioned.",
+      "Whether the 1901 reception was genuine, a debate some historians raise: not read at a primary source for this build; the page reports the Marconi Centre's account.",
+      "The actual keying speed at Poldhu: not stated on the pages read; the 0.1 second dot in the dossier is our assumption and is not on the page.",
+      "Named Cornish schools: none is named.",
+      "Cornish language data: identity-related figures are left out of place pages."
+    ]
   }
 }
