@@ -318,7 +318,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 266 | coding-classes-in-fife (fif, #7A3512) | cg- council area index | 2,782 | 1.8% vs coding-classes-in-falkirk | How does a frame of straight bars carry a load? | Truss statics, Gaussian elimination, rank | 4f23fc36 |
 | 267 | coding-classes-in-highland (hld, #4B5C29) | cg- council area index | 2,777 | 2.4% vs coding-classes-in-fife | How does a computer draw an arch when its curves cannot make a circle? | Bezier curves, de Casteljau, approximation error | 41c26e1a |
 | 268 | coding-classes-in-inverclyde (ivc, #52377A) | cg- council area index | 2,725 | 2.3% vs coding-classes-in-highland | Why does the last metre of water take longest to fill a dock? | Torricelli filling, square-root slowdown, overshoot | fc053def |
-| 269 | coding-classes-in-midlothian (mlo, #4C2233) | cg- council area index | 2,724 | 1.5% vs coding-classes-in-east-renfrewshire | Why would a sundial need eight faces? | Vectors, dot product, sun position | (this commit) |
+| 269 | coding-classes-in-midlothian (mlo, #4C2233) | cg- council area index | 2,724 | 1.5% vs coding-classes-in-east-renfrewshire | Why would a sundial need eight faces? | Vectors, dot product, sun position | 98fe8cc6 |
+| 270 | coding-classes-in-moray (mry, #1B254C) | cg- council area index | 2,588 | 2.4% vs coding-classes-in-falkirk | What should a program do with a Roman numeral that is not quite right? | Parsing and validation, Roman numerals | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -25565,5 +25565,49 @@
       "Named Midlothian schools and school term dates: none named or read.",
       "Directions or distances between Midlothian towns: not claimed."
     ]
+  },
+  "coding-classes-in-moray": {
+    "market": "Moray",
+    "bodyClass": "cg-mry",
+    "pageType": "governorate",
+    "curriculumAuthority": "Moray (S12000020), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 93,400 (females 47,400, males 46,000); households 43,100; density 41.7 per square kilometre (Scotland 69.8); ages 0 to 14 14,500 (15.5 per cent), 65+ 21,400 (22.9 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Elgin 25,040; Forres 9,900; Buckie 9,010; Lossiemouth 6,840; Keith 4,610; Burghead 1,840; Lhanbryde 1,830; Fochabers 1,770; Hopeman 1,710; Dufftown 1,590. HES LB37605 (Category A, added 26/01/1971), Covesea Skerries Lighthouse, Keepers' Cottages and Steading, burgh Lossiemouth: \"LIGHTHOUSE: Alan Stevenson, engineer, James Smith, contractor, dated 1844\"; \"Tall circular 7-storey lighthouse/tower\"; \"pair single storey, Egyptian style cottages\"; inscription \"In salutem omnium Northern Lights. Alan Stevenson, LLB, Engineer, James Smith, Contractor, William Middlemiss, Superintendent. MDLCC XL1V\"; \"The lighthouse now with automated light, the original light in Lossiemouth Fisheries Museum\".",
+    "localProject": "Naive parser (drop unknown chars, subtractive rule) vs strict regex. MDLCC XL1V 1695/invalid; MDLCCXLIV 1694/invalid; MDCCCXLIV 1844/valid; MDCCCXLIIII 1844/invalid; IM 999/invalid; VX 5/invalid. Round trip 1..3999: 0 failures. 19,607 strings of length 1-5, 735 valid (3.7 per cent). Naive maps IV, IVX, IIII to 4. Longest: 3,888 MMMDCCCLXXXVIII (15). Page states we have not seen the stone and do not claim the inscription is wrong. AI angle: silent correction or confident misparse. Lesson family: parsing and input validation.",
+    "requiredMentions": [
+      "93,400",
+      "43,100",
+      "Elgin",
+      "Forres",
+      "Buckie",
+      "Lossiemouth",
+      "Burghead",
+      "Lhanbryde",
+      "Fochabers",
+      "Hopeman",
+      "Dufftown",
+      "Covesea",
+      "LB37605"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB37605: Covesea Skerries Lighthouse, Keepers' Cottages and Steading.",
+        "url": "https://portal.historicenvironment.scot/designation/LB37605"
+      }
+    ],
+    "rejectedClaims": [
+      "What is actually carved on the inscription stone: not seen, not claimed; only the listing transcription is used.",
+      "That the inscription or listing contains an error: not claimed; the page says the transcription is not a standard numeral.",
+      "Light characteristics, range or current operation: not in the listing, not claimed.",
+      "Whisky distillery facts: not researched for this page.",
+      "Named Moray schools and school term dates: none named or read.",
+      "Directions or distances between Moray towns: not claimed."
+    ]
   }
 }
