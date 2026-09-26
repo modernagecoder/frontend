@@ -27600,5 +27600,49 @@
       "Distances and travel times: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-class-in-reading": {
+    "market": "Reading",
+    "bodyClass": "cg-rdg",
+    "pageType": "city",
+    "curriculumAuthority": "Reading (E06000038). Nomis Census 2021 TS007A: total 174,224; 20 to 24 14,690 (8.4%, England 6.0%); 25 to 29 14,572 (8.4%, 6.6%); 30 to 34 15,640 (9.0%, 7.0%); 5 to 9 10,486 (6.0%, 5.9%); 65 to 69 5,844 (3.4%, 4.9%); 85+ 2,895 (1.7%, 2.4%). ONS 2021 BUAs: Reading 203,795 (crosses three councils), Caversham 33,040. Reading Museum, The History of Britain's Bayeux Tapestry: original \"over 70 metres long\"; \"the idea of Elizabeth Wardle\"; \"Leek Embroidery Society\"; \"visiting Bayeux in 1885\"; \"1872-74 hand-coloured photographs ... South Kensington Museum\"; \"the thirty-five women who worked on the reproduction. It was completed on Whitsuntide 1886\"; pants copied \"from the set of photographs that had been 'cleaned-up'\"; \"In 1895 ... Town Hall at Reading\"; Alderman Arthur Hill bought it and presented it to Reading.",
+    "localProject": "Simulation, 1,000 invented details, seed 1886, 5,000 trials: photo alteration 0.5% (5.02 avg), stitch slips 1% ; replica vs photos 9.99, replica vs original 14.92. Copy chain at 99%: 1 99.0, 5 95.1, 10 90.4, 30 74.0, 69 50.0. Lesson family: copy-chain error accumulation and choosing the reference.",
+    "requiredMentions": [
+      "Caversham",
+      "Elizabeth Wardle",
+      "Leek Embroidery Society",
+      "Arthur Hill",
+      "Bayeux Tapestry",
+      "Reading Museum",
+      "Whitsuntide",
+      "thirty-five",
+      "174,224"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Reading and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Reading Museum, The History of Britain's Bayeux Tapestry.",
+        "url": "https://www.readingmuseum.org.uk/collections/britains-bayeux-tapestry/history-britains-bayeux-tapestry"
+      },
+      {
+        "claim": "Reading Museum, Britain's Bayeux Tapestry.",
+        "url": "https://www.readingmuseum.org.uk/bayeux-tapestry"
+      }
+    ],
+    "rejectedClaims": [
+      "The actual number of differences between the replica and the original: not known; all counts are simulated.",
+      "Huntley and Palmers and Reading Abbey facts: considered, not used.",
+      "Named schools, admissions and term dates: none; the 11+ page is separate.",
+      "Distances and travel times: not claimed.",
+      "Opening times and visiting details: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }

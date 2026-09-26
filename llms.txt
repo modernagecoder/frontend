@@ -1019,6 +1019,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - North West England: https://learn.modernagecoders.com/coding-and-ai-classes-in-north-west-england
 - North East England: https://learn.modernagecoders.com/coding-and-ai-classes-in-north-east-england
 - Slough, England: https://learn.modernagecoders.com/best-coding-class-in-slough
+- Reading, England: https://learn.modernagecoders.com/best-coding-class-in-reading
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).

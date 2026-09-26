@@ -4382,4 +4382,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-slough /src/pages/best-coding-class-in-slough.html 200
 /best-coding-class-in-slough.md /src/pages/best-coding-class-in-slough.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-class-in-reading /src/pages/best-coding-class-in-reading.html 200
+/best-coding-class-in-reading.md /src/pages/best-coding-class-in-reading.md 200
 /* /src/pages/404.html 404

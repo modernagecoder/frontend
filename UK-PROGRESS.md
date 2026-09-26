@@ -363,7 +363,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 311 | coding-and-ai-classes-in-yorkshire-and-the-humber (ryh, #5C1F7A) | cg- region index | 2,534 | 2.2% vs coding-and-ai-classes-in-east-of-england | Adjust for height, then compare | Adjusting for a known factor before ranking (lapse rate) | a7325635 |
 | 312 | coding-and-ai-classes-in-north-west-england (rnw, #6A158A) | cg- region index | 2,533 | 2% vs coding-and-ai-classes-in-west-midlands-region | Wetter, or just less predictable? | Coefficient of variation, relative vs raw spread | 7ccddb2f |
 | 313 | coding-and-ai-classes-in-north-east-england (rne, #7A1273) | cg- region index | 2,521 | 2.5% vs coding-and-ai-classes-in-north-west-england | Cold, normal or warm, compared with when? | Tercile categories and the shifting baseline | 6720be28 |
-| 314 | best-coding-class-in-slough (slo, #210B4C) | cg- town page | 2,637 | 1.3% vs coding-classes-in-neath-port-talbot | How much light does a four-foot mirror catch? | Light-gathering area and magnitude scale | (this commit) |
+| 314 | best-coding-class-in-slough (slo, #210B4C) | cg- town page | 2,637 | 1.3% vs coding-classes-in-neath-port-talbot | How much light does a four-foot mirror catch? | Light-gathering area and magnitude scale | 5a3d343e |
+| 315 | best-coding-class-in-reading (rdg, #66466B) | cg- town page | 2,556 | 2.5% vs best-coding-class-in-slough | Whose mistake is it? | Copy-chain error accumulation, choice of reference | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
