@@ -23701,5 +23701,50 @@
       "School term dates: set by four councils and academies; none read.",
       "Named schools in the area: none is named."
     ]
+  },
+  "coding-classes-in-east-riding-of-yorkshire": {
+    "market": "East Riding of Yorkshire",
+    "bodyClass": "cg-ery",
+    "pageType": "governorate",
+    "curriculumAuthority": "East Riding of Yorkshire (ceremonial: East Riding of Yorkshire Council and Kingston upon Hull). ONS Census 2021 TS001 via Nomis: East Riding of Yorkshire 342,215; Kingston upon Hull 267,014; total 609,229 (our sum). ONS Census 2021 built-up areas (published; all 14 agree with our OA sums and lie in the county): Kingston upon Hull 270,810 (Hull and East Riding); Bridlington 34,845; Beverley 30,930; Goole 20,175; Willerby and Anlaby 19,260; Hessle 15,485; Cottingham 14,425; Brough 13,320; Driffield 13,215; Pocklington 10,120; Hornsea 8,790; Hedon 8,120; Market Weighton 7,460; Withernsea 5,765. RSPB Bempton Cliffs: \"Bempton Cliffs, on the spectacular Yorkshire coast, is home to one of the UK's top wildlife spectacles. Around half a million seabirds gather here between March and August to raise a family on the towering chalk cliffs that overlook the North Sea.\"",
+    "localProject": "Stratified sampling and Neyman allocation. Model cliff (ours, seed 20260926): 400 sections; 60 dense (normal mean 4,500, sd 900), 140 medium (1,100, 350), 200 sparse (120, 60), floored at 0; true total 447,916 (dense 272,297, medium 151,703, sparse 23,916). Surveys of 20 sections, 10,000 repeats: simple random mean 450,165 (+0.50 per cent), spread 136,088 (30.4 per cent), within 10 per cent 24.9 per cent; proportional 3/7/10 mean 448,149, spread 34,818 (7.8 per cent), within 10 per cent 80.4 per cent; weighted 12/6/2 spread 26,509 (5.9 per cent), 91.0 per cent; Neyman 9/9/2 (from N times sd: 8.7, 9.2, 2.1) mean 448,102, spread 24,597 (5.5 per cent), 93.4 per cent. Stratum sds 836, 380, 62. Page states the cliff is a model, not RSPB counts. AI angle: an assistant multiplies up a sample without questioning its design. Lesson family: stratified sampling and optimal allocation.",
+    "requiredMentions": [
+      "609,229",
+      "Around half a million seabirds",
+      "between March and August",
+      "447,916",
+      "30.4 per cent",
+      "5.5 per cent",
+      "93.4 per cent",
+      "24.9 per cent",
+      "Willerby and Anlaby",
+      "Market Weighton"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the East Riding of Yorkshire and Hull, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for East Riding towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "RSPB Bempton Cliffs: around half a million seabirds, March to August, chalk cliffs over the North Sea.",
+        "url": "https://www.rspb.org.uk/days-out/reserves/bempton-cliffs"
+      }
+    ],
+    "rejectedClaims": [
+      "Humber Bridge facts, including tower divergence from the Earth's curvature: the Humber Bridge Board site returned 403 on 26 September 2026, so that project was dropped.",
+      "Holderness coastal erosion rates: the East Riding council pages tried returned 404; no rates are printed.",
+      "How the RSPB actually counts seabirds at Bempton: not read at a primary source; the page's survey is explicitly a model.",
+      "Journey times between East Riding towns: the page uses general wording only.",
+      "East Riding and Hull school term dates: none read.",
+      "Named schools: none is named."
+    ]
   }
 }

@@ -1124,3 +1124,4 @@
 .cg-root.cg-dvn  { --cg-accent: #0E375C; --cg-accent-soft: rgba(14,55,92,.10); }   /* Devon: a deep Sound blue from the solver (9.84:1 on the lightest paper), greener than the navy county accents */
 .cg-root.cg-dst  { --cg-accent: #8A4C5C; --cg-accent-soft: rgba(138,76,92,.10); }   /* Dorset: a cliff-face rose red from the solver (5.18:1 on the darkest paper tint), pinker than the other UK red accents */
 .cg-root.cg-cdu  { --cg-accent: #22228A; --cg-accent-soft: rgba(34,34,138,.10); }   /* County Durham: a railway-livery royal blue from the solver (10.17:1 on the lightest paper), brighter than the navy county accents */
+.cg-root.cg-ery  { --cg-accent: #3B4E6B; --cg-accent-soft: rgba(59,78,107,.10); }   /* East Riding: a North Sea slate blue from the solver (6.8:1 on the darkest paper tint), bluer than the Cumbria grey-blue */
