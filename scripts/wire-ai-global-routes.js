@@ -253,6 +253,7 @@ const SLUGS = [
   '11-plus-maths-tuition-reading',
   '11-plus-maths-tuition-southend',
   '11-plus-maths-tuition-essex',
+  '11-plus-maths-tuition-wirral',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -585,6 +586,7 @@ const LLMS_LABELS = {
   '11-plus-maths-tuition-reading': '11 plus maths tuition in Reading',
   '11-plus-maths-tuition-southend': '11 plus maths tuition in Southend-on-Sea',
   '11-plus-maths-tuition-essex': '11 plus maths tuition in Essex',
+  '11-plus-maths-tuition-wirral': '11 plus maths tuition on the Wirral',
 };
 
 function wireLlms(slugs) {
