@@ -25698,5 +25698,50 @@
       "Named North Ayrshire schools and school term dates: none named or read.",
       "Directions or distances between North Ayrshire towns: not claimed."
     ]
+  },
+  "coding-classes-in-north-lanarkshire": {
+    "market": "North Lanarkshire",
+    "bodyClass": "cg-nlk",
+    "pageType": "governorate",
+    "curriculumAuthority": "North Lanarkshire (S12000050), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 341,000 (females 175,200, males 165,800); households 151,400; density 725.5 per square kilometre (Scotland 69.8); ages 0 to 14 56,200 (16.5 per cent), 65+ 61,000 (17.9 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Cumbernauld 50,530; Coatbridge 43,950; Airdrie 36,390; Motherwell 32,840; Wishaw 30,050; Bellshill 19,700; Viewpark 15,830; Kilsyth 10,380; Shotts 8,630; Chapelhall 7,140; Moodiesburn 6,830; Newarthill 6,720; New Stevenston 6,070. HES LB50013 (Category A, added 18/11/2004), Shotts, Calderhead Road, Centrelink 5 (former Cummins Engine Company Ltd): \"Ahrends, Burton & Koralek, 1975-1983. Ove Arup & Partners\"; \"Distinctive use of primary colours, coding individual units to interior and exterior\"; \"Various exposed services throughout building, painted yellow, but also green or purple\"; \"large yellow-painted crushed-coal silo\"; \"Red-painted Tubular and lattice 2-panel metal gates\"; \"approximately 50,000 square meters. Built in 5 main units along E-W axis to accommodate specific production flow\"; \"possibly Scotland's only ergonomic factory building\"; \"one of most significant and important examples of large industrial buildings in later 20th century Britain\".",
+    "localProject": "Thirteen standard web colours (plus black and white for contrast). RGB Euclidean vs CIELAB CIE76 dE (sRGB, D65). grey-teal 128.0/30.5; grey-olive 128.0/58.2; yellow-lime 255.0/66.3; lime-cyan 255.0/104.6; blue-navy 127.0/56.9; red-maroon 127.0/51.4. Greedy RGB 5-set min dE 74.1; greedy Lab 74.2; exhaustive 1,287 sets best 85.8 (red, blue, lime, cyan, olive). WCAG: black/yellow 19.56, white/yellow 1.07, black/red 5.25, white/red 4.00, white/blue 8.59, white/green 5.14, white/purple 9.42. Page says colours are not the factory paints. Lesson family: colour spaces, perceptual distance, greedy vs exhaustive, contrast.",
+    "requiredMentions": [
+      "341,000",
+      "151,400",
+      "725.5",
+      "Cumbernauld",
+      "Coatbridge",
+      "Airdrie",
+      "Motherwell",
+      "Wishaw",
+      "Bellshill",
+      "Viewpark",
+      "Kilsyth",
+      "Shotts",
+      "LB50013",
+      "CIELAB"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB50013: Shotts, Centrelink 5 (former Cummins Engine Company Ltd).",
+        "url": "https://portal.historicenvironment.scot/designation/LB50013"
+      }
+    ],
+    "rejectedClaims": [
+      "The actual paint colours used at Shotts: not in the listing beyond names; not claimed.",
+      "Colour-vision deficiency statistics or simulation: health content, excluded.",
+      "Current use or occupants of the building: not claimed.",
+      "Antonine Wall and Cumbernauld town centre facts: not researched for this page.",
+      "Named North Lanarkshire schools and school term dates: none named or read.",
+      "That North Lanarkshire is the most populous council after any other: not claimed; page says one of the most populous."
+    ]
   }
 }
