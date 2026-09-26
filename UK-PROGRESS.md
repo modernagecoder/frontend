@@ -261,7 +261,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 209 | 11-plus-maths-tuition-calderdale (cdm, #4C3C22) | maths door by area | 3,310 | 2% vs 11-plus-maths-tuition-gloucestershire | maths and English marked first; writing read only if they pass | large-number addition and subtraction, mental and written | 38f1c66a |
 | 210 | 11-plus-maths-tuition-hertfordshire (htm, #40324C) | maths door by area | 3,453 | 1.6% vs 11-plus-maths-tuition-bournemouth-christchurch-and-poole | partially selective: maths and verbal only, some two-answer questions | mental multiplication and division from known facts | 042110d9 |
 | 211 | 11-plus-maths-tuition-wolverhampton-and-walsall (wwm, #2C2A4C) | maths door by area | 3,339 | 2.1% vs 11-plus-maths-tuition-warwickshire | one section, two names; qualifying score set after the results | fraction, decimal and percentage equivalents | eaeba551 |
-| 212 | coding-classes-in-buckinghamshire (bkc, #0B184C) | cg- county index | 3,951 | 0.8% vs coding-and-ai-classes-in-england | a key used twice cancels itself: toy XOR teleprinter cipher, 37 of 37 positions key-free, crib dragging | key reuse in an XOR stream cipher (two-time pad) and crib dragging | (this commit) |
+| 212 | coding-classes-in-buckinghamshire (bkc, #0B184C) | cg- county index | 3,951 | 0.8% vs coding-and-ai-classes-in-england | a key used twice cancels itself: toy XOR teleprinter cipher, 37 of 37 positions key-free, crib dragging | key reuse in an XOR stream cipher (two-time pad) and crib dragging | aac9333f |
+| 213 | coding-classes-in-berkshire (brk, #5C0E18) | cg- county index | 3,677 | 0.8% vs coding-classes-in-buckinghamshire | a forecast is a crowd: 51 ECMWF members for Reading, 47 of 51 wet, mean never above 5.7 mm | ensemble forecasts: probability as a count, spread with lead time, mean smooths extremes | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

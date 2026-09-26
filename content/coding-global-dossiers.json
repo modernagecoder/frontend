@@ -22783,5 +22783,58 @@
       "Named Buckinghamshire schools and their computing provision: not read at the schools' own sites, so none is named.",
       "Pinewood Studios at Iver Heath and Silverstone on the county edge: not read at primary sources for this build, so neither is mentioned."
     ]
+  },
+  "coding-classes-in-berkshire": {
+    "market": "Berkshire",
+    "bodyClass": "cg-brk",
+    "pageType": "governorate",
+    "curriculumAuthority": "Berkshire (six unitary authorities, no county council). ONS Census 2021 TS001 via Nomis: Wokingham 177,503; Reading 174,224; West Berkshire 161,448; Slough 158,500; Windsor and Maidenhead 153,496; Bracknell Forest 124,607; total 949,778 (our sum). ONS Census 2021 built-up areas (published, rounded): Reading 203,795; Slough 166,855; Bracknell 78,675; Maidenhead 67,375; Wokingham 50,325; Newbury 42,260; Caversham 33,040; Windsor 31,560; Woodley 28,025; Thatcham 25,550; Ascot 23,995; Sandhurst (Bracknell Forest) 20,215; Crowthorne 15,190; Winnersh 8,905; Twyford (Wokingham) 8,070; Old Windsor and Wraysbury 7,690; Spencers Wood and Three Mile Cross 7,610; Burghfield Common 6,215; Shinfield 5,420; Cookham 5,215; Hungerford 5,185. Our OA-level split (Nomis OA counts over the ONS OA21 to BUA22 lookup): Reading BUA 203,789 = Reading 141,187 + Wokingham 37,088 + West Berkshire 25,514; Caversham 33,038 all Reading; Crowthorne Wokingham 7,384 + Bracknell Forest 7,812; Slough BUA 154,191 in Slough, remainder about 12,700 in Buckinghamshire; Maidenhead 66,811 in Windsor and Maidenhead; Ascot 23,557 inside Berkshire; residents outside any BUA: West Berkshire 11.7 per cent, Reading 0. Marlow (14,645) excluded, 163 residents in Berkshire. ECMWF Who we are: \"ECMWF is headquartered in Reading, UK, with additional sites in Bologna, Italy, and Bonn, Germany\"; supported by 35 states; \"established in 1975 and now employs around 500 staff from more than 30 countries\". ECMWF Medium-range forecasts: \"The ENS is an ensemble of 51 forecasts, all having a horizontal resolution of around 9 km. It comprises one control forecast (CNTL), plus 50 other forecasts that each have slightly altered initial conditions and slightly altered model physics\"; forecasts up to 15 days, initial conditions valid at 00 and 12 UTC. Open-Meteo Ensemble API lists \"ECMWF IFS 0.25° Ensemble\" separately from \"ECMWF IFS 9 km (O1280) Europe Ensemble\".",
+    "localProject": "Ensemble forecast as a crowd. Open-Meteo Ensemble API, model ecmwf_ifs025, grid point 51.5 N 1.0 W elevation 41 m, served 06:37 UK time 26 September 2026, 51 members (control plus member01 to member50), 14 complete days 26 September to 9 October 2026 (the 15th day empty). Daily max temperature middle 80 per cent (10th to 90th percentile of members): 26 Sep 18.8 to 20.2 (1.4); 30 Sep 19.7 to 22.8 (3.1); 3 Oct 16.4 to 19.5 (3.1); 5 Oct 14.6 to 19.3 (4.7); 9 Oct 12.9 to 18.9 (6.0). Members with 1 mm or more: 26 Sep 0 of 51; 30 Sep 47 of 51 (92 per cent); 3 Oct 5; 5 Oct 11, max member 35.2 mm; 9 Oct 12. Ensemble-mean daily rain maximum 5.7 mm (30 Sep); 38 of 51 members have at least one day above that; median member wettest day 8.8 mm; 14-day member totals 5.3 to 65.0 mm, median 18.6. AI angle: an assistant summarising the file reports the mean and loses the 35.2 mm member because the question never asked about extremes. Lesson family: ensemble forecasts (probability as a count of members, spread widening with lead time, the mean smoothing extremes); screened free 26 September 2026 and distinct from forecast baselines (Dundee), Holt-Winters (Newham) and the Markov wet-day chain (Oxford). Not verified against outcomes, stated on the page.",
+    "requiredMentions": [
+      "949,778",
+      "141,187",
+      "25,514",
+      "47 of 51",
+      "38 of 51",
+      "35.2 mm",
+      "11.7 per cent",
+      "control forecast",
+      "0.25-degree",
+      "ensemble mean"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the six Berkshire unitary authorities, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Berkshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22), used for the split of Reading across three councils.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "ECMWF Who we are: headquartered in Reading, 35 states, established 1975, around 500 staff.",
+        "url": "https://www.ecmwf.int/en/about/who-we-are"
+      },
+      {
+        "claim": "ECMWF Medium-range forecasts: 51-member ensemble, one control forecast and 50 perturbed, around 9 km, up to 15 days.",
+        "url": "https://www.ecmwf.int/en/forecasts/documentation-and-support/medium-range-forecasts"
+      },
+      {
+        "claim": "Open-Meteo Ensemble API: ECMWF IFS 0.25-degree ensemble, the free data used in the project.",
+        "url": "https://open-meteo.com/en/docs/ensemble-api"
+      }
+    ],
+    "rejectedClaims": [
+      "West Berkshire Council term dates: the council site served a Cloudflare challenge on 26 September 2026, not retried.",
+      "Reading, Wokingham and Bracknell Forest term dates: the URLs we tried returned 404 and site search gave no link, so no Berkshire school calendar is printed.",
+      "ECMWF's street address at Shinfield Park: not stated on the ECMWF pages we read, so only \"headquartered in Reading\" is used.",
+      "Marlow as a Berkshire town: its built-up area has only 163 residents in Windsor and Maidenhead by our count, so it is left to Buckinghamshire.",
+      "Any claim about whether the 26 September 2026 forecast turned out right: the weather had not happened when the data was read.",
+      "The date Berkshire County Council was abolished: not read at a primary source for this build, so the page says only that there is no county council."
+    ]
   }
 }
