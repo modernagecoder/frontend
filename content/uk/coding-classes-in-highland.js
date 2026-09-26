@@ -125,7 +125,7 @@ module.exports = {
           ['Railway', 'West Highland Extension, Fort William to Mallaig, opened 1901']
         ] },
         { kind: 'p', text: 'Bezier curves run through almost every screen people use: the letters of this sentence, logos, maps, animation paths in games, and the curves a CNC machine or 3D printer follows. Knowing that they only approximate circles, and how to measure by how much, is the difference between drawing something that looks right and something that is right. A Highland pupil who has measured 138 millimetres of bulge on a one-piece arch will not trust a curve by eye again.' },
-        { kind: 'p', text: 'We have no connection with Historic Environment Scotland, Network Rail or Highland Council. The listing\'s facts are theirs; the arch program, its numbers and any slips belong to us.' }
+        { kind: 'p', text: 'We have no connection with Historic Environment Scotland or Highland Council. The listing\'s facts are theirs; the arch program, its numbers and any slips belong to us.' }
       ]
     }
   ],

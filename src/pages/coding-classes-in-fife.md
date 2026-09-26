@@ -109,7 +109,7 @@ Figures quoted from the Historic Environment Scotland listing, each on its own t
 
 The same arithmetic that balances a classroom frame runs inside structural engineering software, crane controllers, game physics engines and the apps that check roof trusses before a builder orders timber. The step that turns a drawing into equations, and the check on whether those equations can be solved at all, is where coding meets engineering. A Fife pupil who has watched one missing bar make the maths impossible will look at bridges differently.
 
-Historic Environment Scotland, Network Rail and Fife Council have no link with us. The listing facts are theirs; the frame, the calculations and any mistakes in them are ours.
+Historic Environment Scotland and Fife Council have no link with us. The listing facts are theirs; the frame, the calculations and any mistakes in them are ours.
 
 ## From straw frames to matrices
 

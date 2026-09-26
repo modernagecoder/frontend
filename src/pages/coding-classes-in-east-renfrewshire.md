@@ -4,7 +4,7 @@ description: "Live online coding, Python and maths classes across East Renfrewsh
 canonical: https://learn.modernagecoders.com/coding-classes-in-east-renfrewshire
 source: src/pages/coding-classes-in-east-renfrewshire.html
 ---
-> East Renfrewshire is a council area on the southern edge of Glasgow with about 96,800 residents in roughly 39,700 households at the 2022 census. Newton Mearns is its largest town, ahead of Barrhead, Giffnock and Clarkston, and villages such as Neilston, Eaglesham and Busby fill out the map. We teach every lesson live on video from India, and a free first session tells us where each learner fits, from P1 to S6 or as an adult. Coding, Python and maths are open to anyone aged 6 to 67, one-to-one or in a class of five to ten. The local project comes from a Victorian reservoir in Waulkmill Glen. After the free lesson, a group place is USD 100 a month and one-to-one teaching USD 150.
+> East Renfrewshire is a council area with about 96,800 residents in roughly 39,700 households at the 2022 census. Newton Mearns is its largest town, ahead of Barrhead, Giffnock and Clarkston, and villages such as Neilston, Eaglesham and Busby fill out the map. We teach every lesson live on video from India, and a free first session tells us where each learner fits, from P1 to S6 or as an adult. Coding, Python and maths are open to anyone aged 6 to 67, one-to-one or in a class of five to ten. The local project comes from a Victorian reservoir in Waulkmill Glen. After the free lesson, a group place is USD 100 a month and one-to-one teaching USD 150.
 
 [Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / [Scotland](/coding-and-ai-classes-in-scotland) / East Renfrewshire
 
@@ -12,7 +12,7 @@ East Renfrewshire / Live online
 
 # Coding classes in East Renfrewshire
 
-**What are the best coding classes in East Renfrewshire?** East Renfrewshire is a council area on the southern edge of Glasgow with about 96,800 residents in roughly 39,700 households at the 2022 census. Newton Mearns is its largest town, ahead of Barrhead, Giffnock and Clarkston, and villages such as Neilston, Eaglesham and Busby fill out the map. We teach every lesson live on video from India, and a free first session tells us where each learner fits, from P1 to S6 or as an adult. Coding, Python and maths are open to anyone aged 6 to 67, one-to-one or in a class of five to ten. The local project comes from a Victorian reservoir in Waulkmill Glen. After the free lesson, a group place is USD 100 a month and one-to-one teaching USD 150.
+**What are the best coding classes in East Renfrewshire?** East Renfrewshire is a council area with about 96,800 residents in roughly 39,700 households at the 2022 census. Newton Mearns is its largest town, ahead of Barrhead, Giffnock and Clarkston, and villages such as Neilston, Eaglesham and Busby fill out the map. We teach every lesson live on video from India, and a free first session tells us where each learner fits, from P1 to S6 or as an adult. Coding, Python and maths are open to anyone aged 6 to 67, one-to-one or in a class of five to ten. The local project comes from a Victorian reservoir in Waulkmill Glen. After the free lesson, a group place is USD 100 a month and one-to-one teaching USD 150.
 
 Historic Environment Scotland lists Waulkmill Glen Reservoir at Category A, its highest grade. The engineer William Gale built it in 1847 and 1848 for the Gorbals Gravitation Water Company, and the listing calls its draw-off tower quite possibly the earliest such structure in Scotland. It also mentions a self-activating sluice, a device that let water through on its own, although the listing says it is unclear whether any of the machinery survives. How can a machine decide, with nobody watching, when to let water through? This page's project answers in Python, with an invented basin and three ways of controlling it, one of which makes the valve rattle open and shut thousands of times a week.
 
@@ -36,7 +36,7 @@ The four we are known for, on every market page:
 
 Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
 
-## About 96,800 people south of Glasgow
+## About 96,800 people in East Renfrewshire
 
 The council totals are 2022 census first results from National Records of Scotland, given in round hundreds. Town figures are NRS locality estimates for mid-2020.
 
@@ -107,7 +107,7 @@ Dividing the volume by the area gives an average depth of roughly 17.5 feet, or 
 
 Automatic control now runs through heating, cruise control, drones, washing machines and the servers behind every app. An East Renfrewshire pupil who has made a valve chatter, and then fixed it, understands why good controllers need a gap between on and off.
 
-We are not connected with Historic Environment Scotland, Scottish Water or East Renfrewshire Council. The facts about the reservoir are theirs to publish; the simulation, the conversions and any slips are our own.
+We are not connected with Historic Environment Scotland or East Renfrewshire Council. The facts about the reservoir are theirs to publish; the simulation, the conversions and any slips are our own.
 
 ## From a Scratch tap to a control loop
 

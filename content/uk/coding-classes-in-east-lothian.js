@@ -55,7 +55,7 @@ module.exports = {
 
   h1: 'Coding classes in East Lothian',
   capsuleQ: 'What are the best coding classes in East Lothian?',
-  capsule: 'East Lothian is one council area east of Edinburgh, home to about 112,300 people in roughly 48,800 households at the 2022 census, at 165.3 people per square kilometre. Musselburgh is the largest town, followed by Tranent, Prestonpans, Haddington and Dunbar, with North Berwick on the coast. Our teachers are in India and teach in real time on camera; a free first lesson sets the level for every learner, whether they are in Primary 1, S6 or long past school. Anyone aged 6 to 67 can study coding, Python or maths, alone with a teacher or among five to ten classmates. The East Lothian project looks out to the Bass Rock and its gannets. A first lesson is free of charge; continuing is USD 100 a month in a group or USD 150 a month one-to-one.',
+  capsule: 'East Lothian is a single council area, home to about 112,300 people in roughly 48,800 households at the 2022 census, at 165.3 people per square kilometre. Musselburgh is the largest town, followed by Tranent, Prestonpans, Haddington and Dunbar, with North Berwick on the coast. Our teachers are in India and teach in real time on camera; a free first lesson sets the level for every learner, whether they are in Primary 1, S6 or long past school. Anyone aged 6 to 67 can study coding, Python or maths, alone with a teacher or among five to ten classmates. The East Lothian project looks out to the Bass Rock and its gannets. A first lesson is free of charge; continuing is USD 100 a month in a group or USD 150 a month one-to-one.',
   lead: 'The Scottish Seabird Centre in North Berwick trains live cameras on the Bass Rock, which it calls one of the world\'s largest Northern gannet colonies, and Historic Environment Scotland lists the lighthouse David Alan Stevenson built on the rock in 1902. Gannets eat fish, and predator and prey numbers affect each other: more fish feed more birds, more birds eat down the fish, fewer fish mean fewer birds, and the cycle repeats. Two short equations, the Lotka-Volterra model, capture that loop. This page\'s project runs them in Python with invented numbers, watches the cycles and the lag between them, and uses a quantity the equations should keep constant to catch a numerical method that quietly goes wrong.',
   wa: 'Hello Modern Age Coders, we are in East Lothian and would like to book a free lesson, please.',
 
@@ -74,7 +74,7 @@ module.exports = {
   sections: [
     {
       id: 'east-lothian', tint: '', eyebrow: 'East Lothian in figures',
-      h2: 'About 112,300 people along the Forth coast',
+      h2: 'About 112,300 people in East Lothian',
       intro: 'Council-wide figures below come from the first 2022 census results, which NRS rounds to the nearest hundred. Town sizes are NRS locality estimates for mid-2020.',
       body: [
         { kind: 'table', caption: 'East Lothian localities above 2,000 people, NRS mid-2020 estimates', head: ['Locality', 'Residents', 'Locality', 'Residents'], rows: [
@@ -85,7 +85,7 @@ module.exports = {
           ['Dunbar', '10,270', 'Ormiston', '2,110'],
           ['North Berwick', '7,840', '', '']
         ] },
-        { kind: 'p', text: 'East Lothian has 165.3 residents per square kilometre, well above the Scottish 69.8, with most people living in the western towns nearest Edinburgh. Summing the age bands ourselves, we get 16.7 per cent of East Lothian residents under 15, against 15.3 per cent nationally, and 21.2 per cent aged 65 and over, against 20.1. East Linton is the next town after the table. East Lothian Council sets the school terms; we have not read its calendar and arrange breaks with each family.' },
+        { kind: 'p', text: 'East Lothian has 165.3 residents per square kilometre, well above the Scottish 69.8. Summing the age bands ourselves, we get 16.7 per cent of East Lothian residents under 15, against 15.3 per cent nationally, and 21.2 per cent aged 65 and over, against 20.1. East Linton is the next town after the table. East Lothian Council sets the school terms; we have not read its calendar and arrange breaks with each family.' },
         { kind: 'callout', h3: 'Edinburgh next door', p: 'The capital has its own page, <a class="cg-inline-link" href="/best-coding-class-in-edinburgh">Edinburgh</a>. For Scottish exams, see <a class="cg-inline-link" href="/national-5-maths-tuition-online">National 5 Maths</a> and <a class="cg-inline-link" href="/higher-maths-tuition-online">Higher Maths</a>.' }
       ]
     },
@@ -152,7 +152,7 @@ module.exports = {
   delivery: {
     eyebrow: 'How lessons work',
     h2: 'Musselburgh to Dunbar, online',
-    intro: 'East Lothian stretches along the coast and inland, and an evening class in Edinburgh means getting there and back. Lessons at home need no journey.',
+    intro: 'East Lothian has towns and villages of every size, and an evening class in Edinburgh means getting there and back. Lessons at home need no journey.',
     cells: [
       { h3: 'Right at home', p: 'A flat in Musselburgh, a house in Gullane, a cottage near East Linton. The pupil codes and the teacher follows the shared screen.' },
       { h3: 'Scottish stages spoken here', p: 'P1 to P7, S1 to S6, National 5, Higher, Advanced Higher: the terms East Lothian pupils use are the ones we use, in English.' },
