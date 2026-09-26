@@ -24152,5 +24152,60 @@
       "Merseyside school term dates: none read.",
       "Named Merseyside schools or grammar school tests: none named on this page."
     ]
+  },
+  "coding-classes-in-norfolk": {
+    "market": "Norfolk",
+    "bodyClass": "cg-nfk",
+    "pageType": "governorate",
+    "curriculumAuthority": "Norfolk: Norfolk County Council over seven districts (Breckland, Broadland, Great Yarmouth, King's Lynn and West Norfolk, North Norfolk, Norwich, South Norfolk). ONS Census 2021 TS001 via Nomis: King's Lynn and West Norfolk 154,325; Norwich 143,922; South Norfolk 141,948; Breckland 141,476; Broadland 131,721; North Norfolk 102,980; Great Yarmouth 99,748; our sum 916,120. ONS built-up areas (published; agree with our OA sums): Norwich 200,770 (Broadland, Norwich, South Norfolk); King's Lynn 47,615; Great Yarmouth 28,985; Thetford 25,510; Gorleston-on-Sea 24,470; Dereham 20,785; Wymondham 16,330; Taverham and Drayton 14,985; North Walsham 12,825; Bradwell 11,630; Watton 11,545; Downham Market 11,350; Attleborough 11,235; Diss 9,600; Caister-on-Sea 9,095; Swaffham 8,430; Fakenham 8,390; Cromer 7,525; Aylsham 7,185; Sheringham 7,090. Wisbech (26,795; 1,267 inside Norfolk) excluded. RWE Scroby Sands: \"Commissioned in March 2004, Scroby Sands is one of the UK's first commercial offshore wind farms\"; \"2.5 kilometres off the coast of Great Yarmouth\"; \"installed capacity of 60 megawatts\". Sheringham Shoal (operated by Equinor): \"The 317MW Sheringham Shoal Offshore Wind Farm, located between 17 and 23 kilometres off the coast of North Norfolk\"; \"88 wind turbines\"; \"around 1.1TWh\". Dudgeon: \"32km off the coast of the seaside town of Cromer\"; \"completion in late 2017\"; \"402MW\"; \"67 6MW wind turbine generators\".",
+    "localProject": "Golden-section search on the idealised rotor power coefficient Cp(a) = 4a(1 - a)^2, a in [0, 0.5]: optimum a = 1/3, Cp = 16/27 = 0.592593. Evaluations: tolerance 0.001 golden 15, ternary 32, grid 501; one millionth 30, 66, 500,001; one billionth 44, 100, 500,000,000. Golden result at one millionth a = 0.333333, Cp = 0.592593. Invented two-peak curve exp(-((x-0.2)/0.08)^2) + 1.3 exp(-((x-0.75)/0.05)^2): golden on [0,1] returns 0.2 (1.0); true maximum 0.75 (1.3). Our arithmetic: Sheringham Shoal 1.1 TWh / (317 MW x 8,760 h) = 39.6 per cent capacity factor; 317/88 = 3.6 MW per turbine; Dudgeon 402/67 = 6 MW. Page labels the formula as textbook and idealised and the runs as ours. AI angle: training as optimisation, local optima reported confidently. Lesson family: golden-section search, evaluation cost, unimodality assumption.",
+    "requiredMentions": [
+      "916,120",
+      "Scroby Sands",
+      "Sheringham Shoal",
+      "Dudgeon",
+      "16/27",
+      "Gorleston-on-Sea",
+      "Taverham and Drayton",
+      "Downham Market",
+      "500,001",
+      "golden-section",
+      "Caister-on-Sea"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the seven Norfolk districts, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Norfolk towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "RWE: Scroby Sands offshore wind farm, commissioning date, distance and capacity.",
+        "url": "https://uk.rwe.com/locations/scroby-sands-offshore-wind-farm/"
+      },
+      {
+        "claim": "Sheringham Shoal Offshore Wind Farm: capacity, distance, turbine count, annual output.",
+        "url": "https://sheringhamshoal.co.uk/"
+      },
+      {
+        "claim": "Dudgeon Offshore Wind Farm: distance from Cromer, completion, capacity, turbines.",
+        "url": "https://dudgeonoffshorewind.co.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Scroby Sands turbine count and households figure: shown only by script counters or not needed, so not printed.",
+      "Homes-powered and carbon figures on the operator pages: marketing equivalences, not used.",
+      "Dudgeon project cost: a money figure, left out.",
+      "How any Norfolk turbine is controlled or optimised: not read, not claimed.",
+      "Measured efficiency of real turbines against the Betz limit: not read; only \"real turbines capture less\" is said.",
+      "Norfolk school term dates: none read.",
+      "Named Norfolk schools: none named."
+    ]
   }
 }
