@@ -25164,5 +25164,55 @@
       "Named schools: none named.",
       "Light pollution measurements: not read, not claimed."
     ]
+  },
+  "coding-classes-in-east-ayrshire": {
+    "market": "East Ayrshire",
+    "bodyClass": "cg-eay",
+    "pageType": "governorate",
+    "curriculumAuthority": "East Ayrshire (S12000008), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 120,300 (females 61,900, males 58,400); households 55,400; density 95.3 per square kilometre (Scotland 69.8); ages 0 to 14 19,000 (15.8 per cent), 65+ 25,800 (21.4 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Kilmarnock 46,970; Cumnock 8,700; Stewarton 7,770; Galston 4,710; Hurlford and Crookedholm 4,400; Mauchline 3,900; Darvel 3,900; Auchinleck 3,630; Drongan 3,060; Kilmaurs 2,790; Newmilns 2,720; Crosshouse 2,690; New Cumnock 2,590; Patna 2,070; Catrine 2,020; Dalrymple 1,660. HES LB35925 (Category B), Kay Park, Burns Monument and former museum, Kilmarnock: \"Robert Samson Ingram, architect, 1878-9\"; \"Statue of Burns by W Grant Stevenson\"; unveiled \"on 9th August, 1879\"; \"Burns's Poems were first published in Kilmarnock on 31st July 1786\"; \"a museum of Burns artefacts including a first Kilmarnock Edition of his poems\"; \"Burns with a pencil in his right hand and a notebook in the other\". HES LB14473 (Category B), Nos. 2 and 4 Castle Street, Mauchline (Jean Armour Burns' House and Museum).",
+    "localProject": "Burns stanza detector on Gutenberg 1279 (CR removed): 4,042 blank-line stanzas; 688 six-line; 485 shape (lines 1, 2, 3, 5 at least 7 vowel-group syllables; 4 and 6 at most 5); 142 shape plus 2-letter end rhyme aaabab; 73 with 3-letter. Shape-only examples, Poor Mailie's Elegy: prose, nose, close, remead, woes, dead; him, him, him, speed, him, dead; sense, mense, fence, greed, spence, dead; tips, hips, ships, tweed, clips, dead; shape, raip, gape, dread, crape, dead. Page labels detector and counts as ours. AI angle: dialect and spelling-vs-sound failures. Lesson family: heuristic pattern recognition, precision and recall, spelling vs sound.",
+    "requiredMentions": [
+      "120,300",
+      "55,400",
+      "LB35925",
+      "Kay Park",
+      "Kilmarnock Edition",
+      "Burns stanza",
+      "Cumnock",
+      "Stewarton",
+      "Galston",
+      "Mauchline",
+      "Auchinleck"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB35925: Kay Park, Burns Monument and former museum, Kilmarnock.",
+        "url": "https://portal.historicenvironment.scot/designation/LB35925"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB14473: Castle Street, Mauchline, Jean Armour Burns' House and Museum.",
+        "url": "https://portal.historicenvironment.scot/designation/LB14473"
+      },
+      {
+        "claim": "Poems and Songs of Robert Burns, Project Gutenberg eBook 1279.",
+        "url": "https://www.gutenberg.org/ebooks/1279"
+      }
+    ],
+    "rejectedClaims": [
+      "Other names for the Burns stanza and its history before Burns: not read from a source, so not given.",
+      "Precision and recall figures for the detector: not measured by hand for this page, so none are claimed.",
+      "Park funding and bequest figures in the listing: money figures, left out.",
+      "East Ayrshire school term dates: none read.",
+      "Named East Ayrshire schools: none named.",
+      "Burns's birthplace at Alloway: in South Ayrshire, not used here."
+    ]
   }
 }
