@@ -24253,5 +24253,50 @@
       "North Yorkshire school term dates: none read.",
       "Named North Yorkshire schools: none named."
     ]
+  },
+  "coding-classes-in-northamptonshire": {
+    "market": "Northamptonshire",
+    "bodyClass": "cg-nth",
+    "pageType": "governorate",
+    "curriculumAuthority": "Northamptonshire: unitary councils North Northamptonshire and West Northamptonshire. ONS Census 2021 TS001 via Nomis: West Northamptonshire 425,725; North Northamptonshire 359,525; our sum 785,250. ONS built-up areas (published; agree with our OA sums, all inside): Northampton 243,520; Corby 68,160; Kettering 63,150; Wellingborough 54,425; Rushden 31,685; Daventry 27,790; Brackley 16,190; Desborough 11,900; Towcester 11,330; Burton Latimer 10,445; Raunds 10,230; Irthlingborough 9,310; Higham Ferrers 8,825; Rothwell 8,620; Thrapston 7,245. Historic England NHLE 1031518, Express Lift Tower, Tower Square, Northampton, Grade II: \"Lift testing tower. Commissioned 1978, built 1980-2 by Stimpson and Walton for the Express Lift Company Limited\"; \"127m in height, tapering from 14.6m at the bottom to 8.4m at the top\"; \"for testing lifts at speeds of up to 7 metres per second\"; \"This is the only lift testing tower in Britain and one of only two in Europe\"; \"a significant local landmark\".",
+    "localProject": "Single-lift scheduling simulation (ours, seed 20260926): 30 floors, 3.5 m at 7 m/s = 0.5 s per floor, 12 s per stop, 300 calls, 35 per cent at ground; wait = time until the lift reaches the caller. Quiet (mean gap 30 s): FCFS avg 16.7 s, 95th 54.6, max 89.5, 2,998 floors; nearest 14.1, 44.4, 109.5, 2,768; LOOK 14.0, 44.4, 109.5, 2,750. Busy (mean gap 9 s): FCFS 127.2, 278.1, 317.4, 1,640; nearest 122.4, 482.2, 734.5, 616; LOOK 98.3, 261.3, 337.4, 654. Page labels the model as ours, simplified, and not describing real lift control. AI angle: optimising the average hides the worst case. Lesson family: single-server scheduling (FCFS, shortest-seek, LOOK), starvation, testing under load.",
+    "requiredMentions": [
+      "785,250",
+      "Express Lift Tower",
+      "1031518",
+      "Stimpson and Walton",
+      "7 metres per second",
+      "734.5",
+      "Burton Latimer",
+      "Irthlingborough",
+      "Higham Ferrers",
+      "Thrapston"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for North and West Northamptonshire, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Northamptonshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Historic England, National Heritage List for England entry 1031518: Express Lift Tower, Northampton.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1031518"
+      }
+    ],
+    "rejectedClaims": [
+      "Whether the tower is still the only lift testing tower in Britain today: the list entry speaks as of listing, so the page says \"when listed\".",
+      "Current owners, uses or public access to the tower: not read, not claimed.",
+      "How real lift controllers choose calls: not researched; the page states the model says nothing about real lifts.",
+      "Silverstone, Althorp and the Daventry 1935 radar experiment: considered as anchors, no primary source read, not mentioned.",
+      "Northamptonshire school term dates: none read.",
+      "Named Northamptonshire schools: none named."
+    ]
   }
 }

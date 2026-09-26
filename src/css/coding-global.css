@@ -1135,3 +1135,4 @@
 .cg-root.cg-mer  { --cg-accent: #6B4110; --cg-accent-soft: rgba(107,65,16,.10); }   /* Merseyside: a dark ochre from the solver (7.08:1 on the darkest paper tint), a nod to Rocket's yellow darkened for text, clear of the Derbyshire and Essex browns */
 .cg-root.cg-nfk  { --cg-accent: #25546B; --cg-accent-soft: rgba(37,84,107,.10); }   /* Norfolk: a North Sea blue from the solver (6.61:1 on the darkest paper tint), greener than the Devon and Cumbria blues */
 .cg-root.cg-nyk  { --cg-accent: #54205C; --cg-accent-soft: rgba(84,32,92,.10); }   /* North Yorkshire: a moorland heather purple from the solver (9.74:1 on the darkest paper tint), far from the Lancashire rose and the Lincoln green */
+.cg-root.cg-nth  { --cg-accent: #515C0E; --cg-accent-soft: rgba(81,92,14,.10); }   /* Northamptonshire: a deep olive from the solver (5.86:1 on the darkest paper tint), far yellower than the Lincoln green and the Warwickshire olive */
