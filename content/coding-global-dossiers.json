@@ -24653,5 +24653,52 @@
       "Staffordshire school term dates: none read.",
       "Named Staffordshire schools: none named."
     ]
+  },
+  "coding-classes-in-suffolk": {
+    "market": "Suffolk",
+    "bodyClass": "cg-sfk",
+    "pageType": "governorate",
+    "curriculumAuthority": "Suffolk: Suffolk County Council over Babergh, East Suffolk, Ipswich, Mid Suffolk, West Suffolk. ONS Census 2021 TS001 via Nomis: East Suffolk 246,058; West Suffolk 179,948; Ipswich 139,642; Mid Suffolk 102,699; Babergh 92,341; our sum 760,688. ONS built-up areas (published; agree with our OA sums except Newmarket 18,855 with 16,766 inside): Ipswich 151,565 (Babergh, East Suffolk, Ipswich, Mid Suffolk); Lowestoft 71,315; Bury St Edmunds 41,280; Haverhill 26,705; Felixstowe 24,220; Sudbury 23,920; Stowmarket 21,535; Newmarket 18,855; Kesgrave 14,950; Woodbridge 10,145; Beccles 9,810; Mildenhall 9,685; Brandon 9,225; Hadleigh 8,640. DfT Port Freight Statistics PORT0203 (last updated July 2026), 2025, both directions, thousands: Felixstowe Lo-Lo units 1,959.4; Lo-Lo TEU 3,510.4; loaded units 1,250.8; loaded TEU 2,214.1; weight of goods 19,299.1 thousand tonnes; London 2,802.6 TEU; All UK major ports 10,738.9 TEU; note: \"Displayed figures might not sum up to the displayed totals due to rounding.\"",
+    "localProject": "Bin packing heuristics vs lower bound. 200 invented consignments uniform 10 to 40, capacity 60, total 4,922, lower bound ceil(4922/60) = 83. Next fit 105 (78.1 per cent), first fit 87 (94.3), best fit 87 (94.3), first fit decreasing 84 (97.7), next fit decreasing 115 (71.3). Derived from PORT0203 (ours): 1.79 TEU per unit; 63.8 per cent of units loaded; 15.4 tonnes per loaded unit; Felixstowe 32.7 per cent of the UK major-port TEU total as printed. Page labels model as ours. AI angle: judge a plan against a bound. Lesson family: bin packing, greedy heuristics, lower bounds, online vs offline, sorting harming next fit.",
+    "requiredMentions": [
+      "760,688",
+      "3,510.4",
+      "10,738.9",
+      "PORT0203",
+      "first fit decreasing",
+      "bin packing",
+      "Felixstowe",
+      "Lowestoft",
+      "Bury St Edmunds",
+      "Haverhill",
+      "Stowmarket",
+      "Kesgrave"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the five Suffolk districts, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Suffolk towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Department for Transport, Port Freight Statistics table PORT0203, unitised main freight traffic by port, 2025.",
+        "url": "https://www.gov.uk/government/statistical-data-sets/port-and-domestic-waterborne-freight-statistics-port"
+      }
+    ],
+    "rejectedClaims": [
+      "Port of Felixstowe's own claims about its size and history: its website returned 403 and was not retried, so none are quoted.",
+      "That Felixstowe is the UK's busiest container port in general terms: the page states only the 2025 DfT TEU figures and ranking within that table.",
+      "Container internal dimensions and weight limits: not read, so the model uses abstract units.",
+      "Sutton Hoo and Lowestoft's easterly position: not researched for this page, not claimed.",
+      "Suffolk school term dates: none read.",
+      "Named Suffolk schools: none named."
+    ]
   }
 }
