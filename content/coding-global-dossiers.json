@@ -24450,5 +24450,59 @@
       "Rutland school term dates: none read.",
       "Named Rutland schools: none named."
     ]
+  },
+  "coding-classes-in-shropshire": {
+    "market": "Shropshire",
+    "bodyClass": "cg-shr",
+    "pageType": "governorate",
+    "curriculumAuthority": "Shropshire: unitary councils Shropshire and Telford and Wrekin. ONS Census 2021 TS001 via Nomis: Shropshire 323,606; Telford and Wrekin 185,541; our sum 509,147. ONS built-up areas (published; agree with our OA sums, all inside): Telford 156,910; Shrewsbury 76,015; Oswestry 17,510; Newport 14,190; Bridgnorth 12,175; Market Drayton 12,060; Ludlow 10,040; Whitchurch 9,855; Shifnal 8,980; Albrighton 6,985; Wem 6,280. Darwin, Autobiography (Gutenberg 2010): \"I was born at Shrewsbury on February 12th, 1809\". Darwin, On the Origin of Species, first edition 1859 (Gutenberg 1228): \"I have called this principle, by which each slight variation, if useful, is preserved, by the term of Natural Selection\". Historic England NHLE 1246556, Grade II: \"Statue of Charles Darwin. 1897. By H Montford. Seated bronze figure on polished granite plinth\"; \"The base of the statue carries Darwin's dates and is signed with the name of the sculptor, and the founders, Broad and Son\".",
+    "localProject": "Genetic algorithm with ablation on a seeded 40-item knapsack (ours): capacity 286, total weight 859, exact DP optimum 411. GA: population 60, tournament of two, one-point crossover, mutation 1/40, elitism of one, 20,000 evaluations, 30 runs. Mean / worst / exact hits: random search 91.6 / 89.8 / 0; full GA 98.5 / 96.8 / 0; no selection (elitism kept) 94.9 / 91.7 / 0; no mutation 92.0 / 88.6 / 0; no crossover 98.7 / 97.1 / 2. Page labels puzzle and results as ours and says a GA is not a model of biology. AI angle: ablation cuts through method stories. Lesson family: genetic algorithm, ablation, exact method comparison.",
+    "requiredMentions": [
+      "509,147",
+      "born at Shrewsbury",
+      "Montford",
+      "1246556",
+      "genetic algorithm",
+      "Natural Selection",
+      "Market Drayton",
+      "Oswestry",
+      "Bridgnorth",
+      "Shifnal",
+      "Albrighton"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for Shropshire and Telford and Wrekin, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Shropshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Charles Darwin, The Autobiography of Charles Darwin, Project Gutenberg eBook 2010.",
+        "url": "https://www.gutenberg.org/ebooks/2010"
+      },
+      {
+        "claim": "Charles Darwin, On the Origin of Species, first edition, Project Gutenberg eBook 1228.",
+        "url": "https://www.gutenberg.org/ebooks/1228"
+      },
+      {
+        "claim": "Historic England, National Heritage List entry 1246556: Statue of Charles Darwin, Shrewsbury.",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1246556"
+      }
+    ],
+    "rejectedClaims": [
+      "Ironbridge and the Flaxmill Maltings: not researched from primary pages for this build, so not described.",
+      "That genetic algorithms usually need crossover: our own experiment found it did not help here; no general claim is made.",
+      "Darwin's schooling in Shrewsbury: present in the autobiography but not used, to keep the page off school naming.",
+      "Travel times across the county: not measured, so none are given.",
+      "Shropshire school term dates: none read.",
+      "Named Shropshire schools: none named."
+    ]
   }
 }
