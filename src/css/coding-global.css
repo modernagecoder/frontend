@@ -1137,3 +1137,4 @@
 .cg-root.cg-nyk  { --cg-accent: #54205C; --cg-accent-soft: rgba(84,32,92,.10); }   /* North Yorkshire: a moorland heather purple from the solver (9.74:1 on the darkest paper tint), far from the Lancashire rose and the Lincoln green */
 .cg-root.cg-nth  { --cg-accent: #515C0E; --cg-accent-soft: rgba(81,92,14,.10); }   /* Northamptonshire: a deep olive from the solver (5.86:1 on the darkest paper tint), far yellower than the Lincoln green and the Warwickshire olive */
 .cg-root.cg-nbl  { --cg-accent: #37567A; --cg-accent-soft: rgba(55,86,122,.10); }   /* Northumberland: a cold North Sea steel blue from the solver (6.1:1 on the darkest paper tint), bluer than the Norfolk and Cumbria accents */
+.cg-root.cg-ntt  { --cg-accent: #224C25; --cg-accent-soft: rgba(34,76,37,.10); }   /* Nottinghamshire: a deep Sherwood green from the solver (7.95:1 on the darkest paper tint), darker and cooler than the Lincolnshire and Northamptonshire greens */

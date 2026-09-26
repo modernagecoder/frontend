@@ -24345,5 +24345,59 @@
       "Northumberland school term dates: none read.",
       "Named Northumberland schools: none named."
     ]
+  },
+  "coding-classes-in-nottinghamshire": {
+    "market": "Nottinghamshire",
+    "bodyClass": "cg-ntt",
+    "pageType": "governorate",
+    "curriculumAuthority": "Nottinghamshire: Nottingham (unitary) plus Nottinghamshire County Council districts Ashfield, Bassetlaw, Broxtowe, Gedling, Mansfield, Newark and Sherwood, Rushcliffe. ONS Census 2021 TS001 via Nomis: Nottingham 323,632; Ashfield 126,300; Newark and Sherwood 122,956; Rushcliffe 119,077; Bassetlaw 117,804; Gedling 117,264; Broxtowe 110,940; Mansfield 110,482; our sum 1,148,455. ONS built-up areas (published; agree with our OA sums): Nottingham 299,790; Mansfield 63,445; Carlton 53,555; Beeston 52,355; Worksop 43,440; Arnold 40,010; West Bridgford 36,490; Sutton in Ashfield 36,425; Hucknall 35,840; Newark-on-Trent 29,755; Retford 23,740; Clifton 22,935; Kirkby-in-Ashfield 21,270; Mansfield Woodhouse 19,520; Forest Town 19,010; Eastwood 18,890; Stapleford 15,045; Balderton 12,875; New Ollerton and Ollerton 10,870; Bingham 10,110. South Normanton and Pinxton (16,025; 232 inside) excluded. MacTutor Lovelace: \"Born 10 December 1815\"; \"a daughter of Lord Byron\"; notes \"published in Richard Taylor's Scientific Memoirs Volume 3 in 1843 with the author's name given as AAL\"; Babbage quoted: \"having detected a grave mistake which I had made in the process\". Newstead Abbey: \"Lord Byron's study and displays of his personal items\"; \"Byron sold the Abbey in 1818 to Thomas Wildman\". Fourmilab Sketch, Note G: \"computation for B 7 (B 1 , B 3 , B 5 being supposed given)\"; \"The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform.\"",
+    "localProject": "Ada Lovelace formula (8) as a Python loop: A0 = -1/2 (2n-1)/(2n+1), A1 = n, next coefficient x (2n-j)(2n-j-1)/((j+2)(j+3)); B_{2n-1} = -(A0 + sum A B). Exact fractions: 1/6, -1/30, 1/42, -1/30 for Ada B1..B7 = modern B2..B8; 30 of 30 agree with modern recurrence. Float relative error: B7 6.0e-15; B19 2.4e-11; B29 2.5e-8; B39 2.5e-5; B49 2.6e-2; B59 26.5; first above 1e-9 at n = 13 (B25). Our bug: (j+1)(j+2) gave B5 = 4/21, B7 = -421/90 with B1, B3 correct. 17 operations for B7 in our loop. Page says no claim is made about errors in Ada's own table. AI angle: Ada's originate-anything sentence and checking numeric types and labels. Lesson family: exact rationals vs floating point, cancellation, index conventions, test against known values.",
+    "requiredMentions": [
+      "1,148,455",
+      "Newstead Abbey",
+      "Bernoulli",
+      "originate anything",
+      "Menabrea",
+      "Sutton in Ashfield",
+      "Kirkby-in-Ashfield",
+      "Mansfield Woodhouse",
+      "Forest Town",
+      "West Bridgford",
+      "Balderton"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for Nottingham and the seven Nottinghamshire districts, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Nottinghamshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "MacTutor History of Mathematics, University of St Andrews: Ada Lovelace biography.",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lovelace/"
+      },
+      {
+        "claim": "Newstead Abbey: Byron's study and the 1818 sale.",
+        "url": "https://newsteadabbey.org.uk/house-and-abbey"
+      },
+      {
+        "claim": "Menabrea, Sketch of the Analytical Engine, with notes by Ada Lovelace (Fourmilab edition): Note G, Bernoulli numbers, originate anything.",
+        "url": "https://www.fourmilab.ch/babbage/sketch.html"
+      }
+    ],
+    "rejectedClaims": [
+      "Ada Lovelace's burial at Hucknall: no primary page read this session, so not mentioned.",
+      "The widely discussed error in the Note G table: the table is an image in the edition read, so no claim is made about it.",
+      "That Ada lived at or visited Newstead Abbey: not stated; only the Byron family link is used.",
+      "Sherwood Forest and Robin Hood material: not researched, not used.",
+      "Nottinghamshire school term dates: none read.",
+      "Named Nottinghamshire schools: none named."
+    ]
   }
 }
