@@ -1180,3 +1180,4 @@
 .cg-root.cg-bgd  { --cg-accent: #6B5A46; --cg-accent-soft: rgba(107,90,70,.10); }   /* Bridgend: a weathered yellow-brick brown for the Tondu tower, picked by the solver (5.33:1 on the darkest paper tint), duller and yellower than the Borders stone */
 .cg-root.cg-cph  { --cg-accent: #32134C; --cg-accent-soft: rgba(50,19,76,.10); }   /* Caerphilly: a coal-seam purple-black from the solver (12.69:1 on the darkest paper tint), redder and darker than the Inverclyde violet */
 .cg-root.cg-cmt  { --cg-accent: #325C5C; --cg-accent-soft: rgba(50,92,92,.10); }   /* Carmarthenshire: a river-slate teal from the solver (6.0:1 on the darkest paper tint), greyer than the Shetland teal and lighter than the East Lothian one */
+.cg-root.cg-cdg  { --cg-accent: #0E3D5C; --cg-accent-soft: rgba(14,61,92,.10); }   /* Ceredigion: a deep bay blue from the solver (9.19:1 on the darkest paper tint), clearer than the Blaenau Gwent blue-black and greener than the Moray navy */

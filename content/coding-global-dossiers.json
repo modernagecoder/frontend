@@ -26374,5 +26374,50 @@
       "Named schools and school term dates: none named or read.",
       "Distances between towns: not claimed."
     ]
+  },
+  "coding-classes-in-ceredigion": {
+    "market": "Ceredigion",
+    "bodyClass": "cg-cdg",
+    "pageType": "governorate",
+    "curriculumAuthority": "Ceredigion (W06000008), Ceredigion County Council. ONS Census 2021 TS001 via Nomis: 71,475. ONS built-up areas (published; OA sums agree): Aberystwyth 14,640; Cardigan 3,765; Lampeter 2,505; Llanbadarn Fawr 1,765; Newcastle Emlyn BUA 1,840 of which 696 inside Ceredigion by our OA sum (excluded from table). Met Office historic station data, Aberporth: \"Location: 224100E 252100N, Lat 52.139 Lon -4.570, 133 metres amsl\"; monthly air frost days; complete af 1957 to 2025 (provisional excluded).",
+    "localProject": "Years with any air frost out of 69 (1957-2025): Jan 59 (356 days), Feb 55 (342), Mar 36 (163), Apr 21 (39, latest 2013), May-Sep 0, Oct 1 (1983, 1 day), Nov 27 (56), Dec 52 (253). Rule of three 3/69 = 0.043; Clopper-Pearson 1 - 0.05^(1/69) = 0.042 (about 1 in 24). n=10: 0.300 vs 0.259; n=30: 0.100 vs 0.095; n=80: 0.037 vs 0.037. October before 1983: 26 frost-free Octobers 1957-1982, rule of three 3/26 = 0.115. Lesson family: rule of three, exact binomial bound for zero events.",
+    "requiredMentions": [
+      "Aberystwyth",
+      "Cardigan",
+      "Lampeter",
+      "Llanbadarn Fawr",
+      "Aberaeron",
+      "New Quay",
+      "Tregaron",
+      "Aberporth",
+      "rule of three",
+      "Clopper-Pearson"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents, Ceredigion, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Met Office historic station data: Aberporth.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/aberporthdata.txt"
+      }
+    ],
+    "rejectedClaims": [
+      "That a summer frost at Aberporth is impossible: explicitly rejected; only an upper bound is given.",
+      "Climate trend claims: not computed; independence assumption flagged.",
+      "Devil's Bridge and Aberystwyth landmarks: not researched for this page.",
+      "Welsh-language statistics: excluded by rule.",
+      "Named schools and school term dates: none named or read.",
+      "Distances between towns: not claimed."
+    ]
   }
 }
