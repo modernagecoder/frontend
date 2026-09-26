@@ -4162,4 +4162,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-clackmannanshire /src/pages/coding-classes-in-clackmannanshire.html 200
 /coding-classes-in-clackmannanshire.md /src/pages/coding-classes-in-clackmannanshire.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-dumfries-and-galloway /src/pages/coding-classes-in-dumfries-and-galloway.html 200
+/coding-classes-in-dumfries-and-galloway.md /src/pages/coding-classes-in-dumfries-and-galloway.md 200
 /* /src/pages/404.html 404

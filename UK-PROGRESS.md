@@ -308,7 +308,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 256 | coding-classes-in-aberdeenshire (abs, #325C51) | cg- council area index | 2,826 | 2.3% vs coding-classes-in-staffordshire | every team against every other | round robin, circle method, checker, breaks | e6c5bef0 |
 | 257 | coding-classes-in-angus (ang, #5C3329) | cg- council area index | 2,849 | 1.6% vs coding-classes-in-west-yorkshire | every quotation mark, checked by a stack | stack matching, ambiguous symbols | 9382690b |
 | 258 | coding-classes-in-argyll-and-bute (agb, #3C4D5C) | cg- council area index | 2,782 | 2.1% vs coding-classes-in-aberdeenshire | how unusual was that January | normal distribution, z-scores | 1ab55781 |
-| 259 | coding-classes-in-clackmannanshire (clk, #7A2B2B) | cg- council area index | 2,845 | 2.6% vs coding-classes-in-argyll-and-bute | balancing a beam | centre of mass, moments, feasibility | (this commit) |
+| 259 | coding-classes-in-clackmannanshire (clk, #7A2B2B) | cg- council area index | 2,845 | 2.6% vs coding-classes-in-argyll-and-bute | balancing a beam | centre of mass, moments, feasibility | a9efa23a |
+| 260 | coding-classes-in-dumfries-and-galloway (dng, #28224C) | cg- council area index | 2,937 | 2% vs coding-classes-in-tyne-and-wear | how many stars can you really see | threshold counts, log scale, claim definitions | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

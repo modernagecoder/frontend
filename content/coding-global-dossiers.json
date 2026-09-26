@@ -25117,5 +25117,52 @@
       "Named Clackmannanshire schools: none named, although one appears in the HES list of Category A buildings.",
       "Coal mining employment or history beyond the listing: not researched."
     ]
+  },
+  "coding-classes-in-dumfries-and-galloway": {
+    "market": "Dumfries and Galloway",
+    "bodyClass": "cg-dng",
+    "pageType": "governorate",
+    "curriculumAuthority": "Dumfries and Galloway (S12000006), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 145,900 (females 75,300, males 70,700); households 70,600; density 22.7 per square kilometre (Scotland 69.8); ages 0 to 14 20,600 (14.1 per cent), 65+ 39,600 (27.1 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Dumfries 33,470; Stranraer 10,110; Annan 8,760; Locharbriggs 5,610; Lockerbie 4,190; Dalbeattie 4,160; Newton Stewart 4,030; Castle Douglas 4,000; Kirkcudbright 3,350; Gretna 3,110; Moffat 2,410; Lochmaben 2,180. Forestry and Land Scotland, Galloway International Dark Sky Park: \"In 2009, it became one of the first in the world to be designated an International Dark Sky Park. It was also awarded a Gold Tier Park\"; \"On a clear night, over 7000 stars and planets are visible with the naked eye, and the bright band of the Milky Way is usually easy to see arching across the sky\". Yale Bright Star Catalogue 5th revised edition (Hoffleit and others 1991), CDS VizieR V/50.",
+    "localProject": "Star counts from BSC5 (9,096 with magnitude and position): cumulative brighter than 1: 15; 2: 50; 3: 174; 4: 518; 5: 1,630; 6: 5,080; 6.5: 8,404. Ratios per magnitude 3.48, 2.98, 3.15, 3.12. Latitude 55 N: declination above -35: 6,814 (3,764 brighter than 6.0). Altitude computed for 24 sidereal times: V at most 6.5 above horizon mean 4,074 (3,918 to 4,201), above 10 degrees 3,387; V at most 6.0: 2,433 and 2,022. Page does not call the FLS figure wrong; it shows how definitions change the count. AI angle: repeated figures without definitions. Lesson family: threshold counts on a log scale, spherical altitude, testing a claim via explicit definitions.",
+    "requiredMentions": [
+      "145,900",
+      "Galloway Forest Park",
+      "Dark Sky Park",
+      "Bright Star Catalogue",
+      "4,074",
+      "Stranraer",
+      "Locharbriggs",
+      "Lockerbie",
+      "Dalbeattie",
+      "Newton Stewart",
+      "Castle Douglas",
+      "Kirkcudbright"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Forestry and Land Scotland: Galloway International Dark Sky Park (2009, Gold Tier, over 7000 visible).",
+        "url": "https://forestryandland.gov.scot/visit/forest-parks/galloway-forest-park/dark-skies"
+      },
+      {
+        "claim": "Yale Bright Star Catalogue, 5th revised edition, via CDS VizieR catalogue V/50.",
+        "url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/V/50"
+      }
+    ],
+    "rejectedClaims": [
+      "That the 7,000 figure is wrong: not claimed; the page shows how different definitions give different counts.",
+      "Robert Burns in Dumfries: not used here, reserved for another Scottish page.",
+      "Exact latitude of the Dark Sky Park: 55 degrees north used as a round figure for the region, stated as such.",
+      "Dumfries and Galloway school term dates: none read.",
+      "Named schools: none named.",
+      "Light pollution measurements: not read, not claimed."
+    ]
   }
 }

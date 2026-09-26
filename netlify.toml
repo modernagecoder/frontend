@@ -14714,6 +14714,18 @@
   to = "/src/pages/coding-classes-in-clackmannanshire.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-dumfries-and-galloway"
+  to = "/src/pages/coding-classes-in-dumfries-and-galloway.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-dumfries-and-galloway.md"
+  to = "/src/pages/coding-classes-in-dumfries-and-galloway.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
