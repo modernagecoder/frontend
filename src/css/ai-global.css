@@ -753,3 +753,4 @@
 .ag-root.ag-mdm { --ag-accent: #10226B; --ag-accent-soft: rgba(16,34,107,.09); }   /* Medway 11 plus maths: a dockyard navy, chosen by colour distance from every accent on the site (11.57:1 on the darkest paper tint) */
 .ag-root.ag-plm { --ag-accent: #37687A; --ag-accent-soft: rgba(55,104,122,.09); }   /* Plymouth 11 plus maths: a Sound sea-blue, chosen by colour distance from every accent on the site (4.94:1 on the darkest paper tint) */
 .ag-root.ag-tbm { --ag-accent: #8A544C; --ag-accent-soft: rgba(138,84,76,.09); }   /* Torbay 11 plus maths: a red-cliff sandstone, chosen by colour distance from every accent on the site (4.9:1 on the darkest paper tint) */
+.ag-root.ag-bcm { --ag-accent: #5C180E; --ag-accent-soft: rgba(92,24,14,.09); }   /* Bournemouth, Christchurch and Poole 11 plus maths: a deep harbour rust, chosen by colour distance from every accent on the site (10.63:1 on the darkest paper tint) */

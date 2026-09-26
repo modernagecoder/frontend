@@ -256,7 +256,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 204 | 11-plus-maths-tuition-warwickshire (wkm, #466B69) | maths door by area | 3,418 | 1.8% vs 11-plus-maths-tuition-essex | harder than KS2 but close to the curriculum: depth, not new topics | multi-step problems with rates and scaling | 95618717 |
 | 205 | 11-plus-maths-tuition-medway (mdm, #10226B) | maths door by area | 3,342 | 2.5% vs 11-plus-maths-tuition-essex | one unbroken 50-minute maths paper, counted twice, no watch | formal written methods with estimation checks | bd042e12 |
 | 206 | 11-plus-maths-tuition-plymouth (plm, #37687A) | maths door by area | 3,417 | 1.5% vs 11-plus-maths-tuition-wirral | maths on its own Saturday: 60 questions in 40 minutes | reflection and translation on a grid | 0da89197 |
-| 207 | 11-plus-maths-tuition-torbay (tbm, #8A544C) | maths door by area | 3,328 | 2.7% vs 11-plus-maths-tuition-medway | a Yes or No outcome, never a score: no weak strand | area and perimeter, composite shapes | (this commit) |
+| 207 | 11-plus-maths-tuition-torbay (tbm, #8A544C) | maths door by area | 3,328 | 2.7% vs 11-plus-maths-tuition-medway | a Yes or No outcome, never a score: no weak strand | area and perimeter, composite shapes | d2513bdf |
+| 208 | 11-plus-maths-tuition-bournemouth-christchurch-and-poole (bcm, #5C180E) | maths door by area | 3,456 | 2.2% vs 11-plus-maths-tuition-medway | maths becomes a 40-minute Paper One, capped at Year 5 | regular and irregular polygons | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
