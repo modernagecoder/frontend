@@ -24896,5 +24896,51 @@
       "Wiltshire school term dates: none read.",
       "Named Wiltshire schools: none named."
     ]
+  },
+  "coding-classes-in-worcestershire": {
+    "market": "Worcestershire",
+    "bodyClass": "cg-wcs",
+    "pageType": "governorate",
+    "curriculumAuthority": "Worcestershire: Worcestershire County Council over Bromsgrove, Malvern Hills, Redditch, Worcester, Wychavon, Wyre Forest. ONS Census 2021 TS001 via Nomis: Wychavon 132,492; Worcester 103,872; Wyre Forest 101,607; Bromsgrove 99,183; Redditch 87,036; Malvern Hills 79,486; our sum 603,676. ONS built-up areas (published; agree with our OA sums except Great Malvern 33,185 with 32,935 inside): Worcester 105,465 (Worcester, Wychavon); Redditch 81,635; Kidderminster 57,560; Bromsgrove 34,755; Great Malvern 33,185; Evesham 28,250; Droitwich Spa 26,420; Stourport-on-Severn 20,305; Catshill 10,170; Bewdley 8,280; Pershore 8,210. Birmingham BUA 1,121,375 with 10,068 inside Bromsgrove (excluded). Museum of Royal Worcester factory marks: \"The Worcester Royal Porcelain Co Ltd was formed in 1862\"; \"the number 51 in the centre that refers to the year 1751 when the Worcester Porcelain Company was founded by Dr John Wall\"; \"From 1867 a letter system was also used\"; letter list A = 1867 ... Z = 1888, O = 1889, a = 1890; \"1892 = One dot\"; \"until 1915 when 24 dots are arranged around the standard printed mark\"; \"1916 = * below the mark\"; 1927 11 dots; 1928 oblong to 1932 three circles; 1941 nine dots; \"Between 1942 and 1948 no date code was used\"; 1949 V; 1950 W; 1951 to 1956 W with dots; \"39-0 = 1990\", \"39-00 = 2000\" to 2006; \"The date included is the year of introduction of the design, not the date of manufacture\" (for later tableware); Severn Street, Worcester WR1 2ND; porcelain \"from 1751-2008\".",
+    "localProject": "Encoding study of Royal Worcester date marks: year-to-mark and mark-to-year dictionaries over 100 coded years (1867 to 1941, 1949 to 1956, 1990 to 2006), 0 clashes; letters skip F, J, Q and put O last; unary dots 1892 to 1915 total 300, max 24 (1915); 5-position binary total 54, max 5; resets by new symbols (star 1916, shapes 1928 to 1932) as carries; 1942 to 1948 undecodable; 1991 \"39-1\" vs 2001 \"39-01\" by digit count. Page tells readers to use museum guidance for real dating. AI angle: encodings with gaps and exceptions. Lesson family: number representation (unary, resets as carries, lookup tables with gaps, length as information).",
+    "requiredMentions": [
+      "603,676",
+      "Museum of Royal Worcester",
+      "Dr John Wall",
+      "WR1 2ND",
+      "24 dots",
+      "Kidderminster",
+      "Redditch",
+      "Droitwich Spa",
+      "Stourport-on-Severn",
+      "Catshill",
+      "Bewdley"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the six Worcestershire districts, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Worcestershire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Museum of Royal Worcester: Royal Worcester factory marks and date codes.",
+        "url": "https://www.museumofroyalworcester.org/discover-learn/royal-worcester-factory-marks/"
+      }
+    ],
+    "rejectedClaims": [
+      "Museum of Carpet facts about Kidderminster weaving: the site returned 429 and was not retried, so none are used.",
+      "Date codes for 1957 to 1989: the page gives no year-by-year rule for this period, so the decoder leaves them out.",
+      "Valuation or authentication of any piece: not offered; the page points to the museum and experts.",
+      "Elgar and Malvern radar history: not researched for this page, not mentioned.",
+      "Worcestershire school term dates: none read.",
+      "Named Worcestershire schools: none named."
+    ]
   }
 }
