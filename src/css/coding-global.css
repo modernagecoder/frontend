@@ -1199,3 +1199,4 @@
 .cg-root.cg-mea  { --cg-accent: #4C0E5C; --cg-accent-soft: rgba(76,14,92,.10); }   /* Mid and East Antrim: a gas-flame violet from the solver (11.1:1 on the darkest paper tint) */
 .cg-root.cg-mul  { --cg-accent: #561F7A; --cg-accent-soft: rgba(86,31,122,.10); }   /* Mid Ulster: a flax-flower purple from the solver (9.04:1 on the darkest paper tint) */
 .cg-root.cg-rse  { --cg-accent: #35127A; --cg-accent-soft: rgba(53,18,122,.10); }   /* South East England: a deep Channel-night indigo from the solver (11.14:1 on the darkest paper tint) */
+.cg-root.cg-ree  { --cg-accent: #2A0B4C; --cg-accent-soft: rgba(42,11,76,.10); }   /* East of England: a dark fenland-sky violet from the solver (13.53:1 on the darkest paper tint) */

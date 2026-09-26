@@ -27224,5 +27224,58 @@
       "Sterling prices: none.",
       "London: a separate region, not covered."
     ]
+  },
+  "coding-and-ai-classes-in-east-of-england": {
+    "market": "East of England",
+    "bodyClass": "cg-ree",
+    "pageType": "governorate",
+    "curriculumAuthority": "East of England region (E12000006). ONS Census 2021 TS001 via Nomis TYPE480: 6,335,074. ONS LAD22 to RGN22 lookup: 45 local authorities. ONS Census 2021 BUAs wholly in region: Luton 233,525; Norwich 200,770; Peterborough 190,605; Southend-on-Sea 182,305; Cambridge 152,740; Ipswich 151,565; Colchester 130,245; Basildon 115,955; Chelmsford 110,625; Bedford 97,235; Hemel Hempstead 95,985; Stevenage 94,470; Harlow 93,580. Met Office historic station data: Lowestoft \"25m amsl to July 2007 & from Sept 2007 ... Lat 52.483 Lon 1.727, 18m amsl\"; Cambridge \"Lat 52.245 Lon 0.102, 26 metres amsl\"; Camborne \"Lat 50.218 Lon -5.327, 87m amsl\".",
+    "localProject": "Rain 1991-2020 monthly means. Lowestoft (3 missing) 636.2 mm, Oct 67.0 wettest, Apr 36.7 driest, SI 0.150, Oct-Dec 30.2%. Cambridge 562.9, Oct 58.7, Mar 32.9, SI 0.136, Feb-Apr 18.9%. Camborne 1,076.0, Nov 129.8, May 61.2, SI 0.249. SI range 0 to 11/6. Slip: no absolute value -> 0. Lesson family: rainfall seasonality index (Walsh and Lawler 1981).",
+    "requiredMentions": [
+      "Luton",
+      "Ipswich",
+      "Basildon",
+      "Bedford",
+      "Hemel Hempstead",
+      "Stevenage",
+      "Harlow",
+      "Camborne",
+      "seasonality index",
+      "Walsh and Lawler"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by region, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Open Geography Portal lookups: LAD22 to RGN22 and BUA22 to region.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "Met Office historic station data, Lowestoft.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/lowestoftdata.txt"
+      },
+      {
+        "claim": "Met Office historic station data, Cambridge NIAB.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/cambridgedata.txt"
+      },
+      {
+        "claim": "Met Office historic station data, Camborne.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/cambornedata.txt"
+      }
+    ],
+    "rejectedClaims": [
+      "Official Met Office rainfall averages: not quoted; our averages from the station files are labelled.",
+      "Driest region in England: not claimed as a ranking.",
+      "Milton Keynes and Watford BUAs: cross the boundary, omitted.",
+      "Named schools and school term dates: none named or read.",
+      "Crop and water-supply effects: stated generally, no figures.",
+      "Sterling prices: none."
+    ]
   }
 }
