@@ -26419,5 +26419,50 @@
       "Named schools and school term dates: none named or read.",
       "Distances between towns: not claimed."
     ]
+  },
+  "coding-classes-in-conwy": {
+    "market": "Conwy county borough",
+    "bodyClass": "cg-cwy",
+    "pageType": "governorate",
+    "curriculumAuthority": "Conwy (W06000003), Conwy County Borough Council. ONS Census 2021 TS001 via Nomis: 114,741. ONS built-up areas (published; OA sums within 11): Colwyn Bay 29,275; Conwy 15,715; Llandudno 14,710; Kinmel Bay 9,020; Abergele 8,535; Penrhyn Bay 4,200; Llanfairfechan 3,545; Penmaenmawr 2,760. Cadw listed building record 3236, Grade I, Tubular Railway Bridge, Conwy: \"built 1846-49 by Robert Stephenson, in collaboration with William Fairbairn and E. Hodgkinson\"; \"The architect was Francis Thompson\"; \"originally intended to be a suspension bridge\"; \"pioneered wrought-iron box-girder construction\"; \"Intermediate piers were added in 1899\"; \"each track having its own tubular girder construction\". Llanrwst and Betws-y-Coed named as places (Cadw listings in the county borough).",
+    "localProject": "Same iron area 0.478 m2: box 4.5 x 7.5 m, 20 mm walls I 3.902 m4; solid square 0.692 m I 0.0191 (205x); plate 4.5 x 0.106 m I 0.000451 (8,659x). Sag 5wL^4/384EI, w 60 kN/m, E 190 GPa: 60 m 0.014 m; 120 m 0.219; 125 m 0.257; x16 per doubling. 120 m + middle support (superposition, R = 5wL/8): mid ~0, max 0.0057 m at 25.3 m, 38x less. Page says the record does not state why piers were added. Lesson family: beam stiffness, second moment of area.",
+    "requiredMentions": [
+      "Colwyn Bay",
+      "Kinmel Bay",
+      "Abergele",
+      "Penrhyn Bay",
+      "Llanfairfechan",
+      "Penmaenmawr",
+      "Llanrwst",
+      "Fairbairn",
+      "box girder",
+      "second moment"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents, Conwy, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cadw listed building full report 3236: Tubular Railway Bridge, Conwy.",
+        "url": "https://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=3236"
+      }
+    ],
+    "rejectedClaims": [
+      "Why the 1899 intermediate piers were added: not in the record, not claimed.",
+      "Real dimensions, loads or deflections of the Conwy tubes: invented in the model.",
+      "Conwy Castle and suspension bridge facts: not used (suspension lessons exist elsewhere).",
+      "Welsh-language statistics: excluded by rule.",
+      "Named schools and school term dates: none named or read.",
+      "Distances between towns: not claimed."
+    ]
   }
 }

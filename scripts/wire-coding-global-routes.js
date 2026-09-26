@@ -553,6 +553,7 @@ const MARKETS = [
   ['coding-classes-in-caerphilly-county-borough', 'Caerphilly'],
   ['coding-classes-in-carmarthenshire', 'Carmarthenshire'],
   ['coding-classes-in-ceredigion', 'Ceredigion'],
+  ['coding-classes-in-conwy', 'Conwy'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
