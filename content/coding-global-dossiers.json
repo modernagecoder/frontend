@@ -26097,5 +26097,55 @@
       "Named West Dunbartonshire schools and school term dates: none named or read.",
       "Distances between towns: not claimed."
     ]
+  },
+  "coding-classes-in-west-lothian": {
+    "market": "West Lothian",
+    "bodyClass": "cg-wlo",
+    "pageType": "governorate",
+    "curriculumAuthority": "West Lothian (S12000040), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 181,300 (females 92,700, males 88,700); households 79,800; density 423.9 per square kilometre (Scotland 69.8); ages 0 to 14 31,500 (17.4 per cent), 65+ 31,700 (17.5 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Livingston 56,840; Bathgate 23,600; Broxburn 15,970; Linlithgow 12,840; Armadale 12,720; Whitburn 11,490; East Calder 6,430; Blackburn 5,730; Fauldhouse 4,900; Winchburgh 3,840; Mid Calder 3,300; West Calder 3,250. HES SM6254, Five Sisters, shale bing: \"The Five Sisters bing is the best-known example of a shale bing. It is of rather unusual form, with five distinct lobes formed by the method of tipping employed\"; \"the most widely-known reminder of the important pioneering oil industry based on the mining of the West Lothian shales\"; \"'Paraffin Young' industrial heritage trail\". HES SM6186, Greendykes shale bing, Broxburn: \"a waste heap composed of residue from the destructive distillation of shale to extract oil\"; \"about 920m ... by 580m\"; \"James Young, developed refining techniques still used in the oil industry\"; \"the Broxburn Oil Co, active from the 1860s to c. 1940\".",
+    "localProject": "Grid 161 x 161, slide while step >= 2, 40,000 grains. One point: peak 62, width 61, slope 2.03, 1,918 cells; axis reach 30, diagonal 15 steps (21.2 cells) = diamond artefact. Five points 30 apart: peaks 36 x5, saddles 6, 3,252 cells. Ten apart: peaks 39/44/44/44/39, saddles 32-34. Mean slide 4.5, 16.1, 19.6 (max 31). Abelian sandpile rejected (values stay 0-3). Lesson family: granular heap simulation, angle of repose, grid artefacts.",
+    "requiredMentions": [
+      "181,300",
+      "79,800",
+      "423.9",
+      "Bathgate",
+      "Broxburn",
+      "Linlithgow",
+      "Armadale",
+      "Whitburn",
+      "East Calder",
+      "Fauldhouse",
+      "Winchburgh",
+      "Five Sisters",
+      "SM6254",
+      "shale bing",
+      "angle of repose"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, SM6254: Five Sisters, shale bing SE of Mid Breich.",
+        "url": "https://portal.historicenvironment.scot/designation/SM6254"
+      },
+      {
+        "claim": "Historic Environment Scotland, SM6186: Greendykes, shale bing, Broxburn.",
+        "url": "https://portal.historicenvironment.scot/designation/SM6186"
+      }
+    ],
+    "rejectedClaims": [
+      "Height, volume or tipping details of the real Five Sisters: not in the record, not claimed.",
+      "Current land use or access to the bings: not claimed.",
+      "Linlithgow Palace facts: not researched for this page.",
+      "Health or environmental effects of shale oil: excluded.",
+      "Named West Lothian schools and school term dates: none named or read.",
+      "Directions or distances between towns: not claimed."
+    ]
   }
 }
