@@ -241,6 +241,7 @@ const SLUGS = [
   'build-real-ai-projects-uk',
   'ai-and-python-academy-for-girls-uk',
   '11-plus-maths-tuition-buckinghamshire',
+  '11-plus-maths-tuition-birmingham',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -561,6 +562,7 @@ const LLMS_LABELS = {
   'build-real-ai-projects-uk': 'Build real AI projects, UK',
   'ai-and-python-academy-for-girls-uk': 'AI and Python academy for girls, UK',
   '11-plus-maths-tuition-buckinghamshire': '11 plus maths tuition in Buckinghamshire',
+  '11-plus-maths-tuition-birmingham': '11 plus maths tuition in Birmingham',
 };
 
 function wireLlms(slugs) {

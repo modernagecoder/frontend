@@ -238,7 +238,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 186 | coding-classes-in-waltham-forest-london (wfr, #15791E) | London borough (UK, Phase 5) | 3,214 | 2.3% vs coding-classes-in-haringey-london | Growing a decision tree to tell street trees apart | Decision tree by information gain | 22c5b4c5 |
 | 187 | coding-classes-in-westminster-london (wst, #8B1857) | London borough (UK, Phase 5) | 3,187 | 1.8% vs coding-classes-in-richmond-upon-thames-london | How one old penny changes the Great Clock | Pendulum period, square-root sensitivity | e575394a |
 | 188 | coding-classes-in-the-city-of-london (col, #A33E59) | London borough (UK, Phase 5) | 3,227 | 2.7% vs coding-classes-in-waltham-forest-london | What shape should an arch be? St Paul's and the Monument | Catenary: hanging chain vs parabola | 9d18d213 |
-| 189 | 11-plus-maths-tuition-buckinghamshire (bkm, #5C4F3C) | maths door by area | 4,609 | 1.3% vs uk-coding-maths-and-ai-competitions-calendar | maths is a quarter, asked in order to an audio file | weighted sums as Year 5 percentages | (this commit) |
+| 189 | 11-plus-maths-tuition-buckinghamshire (bkm, #5C4F3C) | maths door by area | 4,609 | 1.3% vs uk-coding-maths-and-ai-competitions-calendar | maths is a quarter, asked in order to an audio file | weighted sums as Year 5 percentages | 46a80686 |
+| 190 | 11-plus-maths-tuition-birmingham (bhm, #0E0E5C) | maths door by area | 4,257 | 0.9% vs 11-plus-maths-tuition-buckinghamshire | no ruler, no protractor: angles by reasoning | angle facts and deduction without instruments | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -736,3 +736,4 @@
 .ag-root.ag-rap { --ag-accent: #A51D75; --ag-accent-soft: rgba(165,29,117,.09); }   /* Build real AI projects, UK: a strong magenta from the solver (5.62:1 on every paper tint, dE 8.1 from the nearest used accent), energetic for a building page */
 .ag-root.ag-agu { --ag-accent: #591782; --ag-accent-soft: rgba(89,23,130,.09); }   /* Girls in coding, UK: a deep violet from the solver (9.12:1 on every paper tint, dE 8.9 from the nearest used accent) */
 .ag-root.ag-bkm { --ag-accent: #5C4F3C; --ag-accent-soft: rgba(92,79,60,.09); }   /* Buckinghamshire 11 plus maths: a beech-bark brown for the Chiltern woods, chosen by colour distance from every accent on the site (6.27:1 on the darkest paper tint) */
+.ag-root.ag-bhm { --ag-accent: #0E0E5C; --ag-accent-soft: rgba(14,14,92,.09); }   /* Birmingham 11 plus maths: a deep canal-night navy, picked by colour distance from every accent already on the site (13.7:1 on the darkest paper tint) */
