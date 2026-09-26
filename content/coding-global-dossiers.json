@@ -26735,5 +26735,51 @@
       "Welsh-language statistics: excluded by rule.",
       "Named schools and school term dates: none named or read."
     ]
+  },
+  "coding-classes-in-pembrokeshire": {
+    "market": "Pembrokeshire",
+    "bodyClass": "cg-pem",
+    "pageType": "governorate",
+    "curriculumAuthority": "Pembrokeshire (W06000009). ONS Census 2021 TS001 via Nomis: 123,360. ONS built-up areas (published; OA sums within 4): Milford Haven 14,250; Haverfordwest 12,085; Pembroke Dock 9,655; Pembroke 7,965; Tenby 4,090; Fishguard 3,420; Neyland 3,250; Saundersfoot 2,515; Narberth 2,365; Merlin's Bridge 2,220; Goodwick 2,020. Cadw listed building record 6038, Grade II*, French Mill and Tidal Barrier, Carew: mills first mentioned 1541; \"In 1615 there is mention of a causeway with floodgates\"; Rex Wailes: two undershot wheels \"both 4.8 m diameter, one 1.65 m and the other 2.1 m wide; each drove three pairs of stones\", \"semi-tidal\"; \"ceased production in 1937\"; \"the only remaining tidal mill in Wales\"; \"opened to the public in 1985 after restoration\".",
+    "localProject": "Tide mill time-stepping simulation (all invented): tide period 12.42 h; one-way gates; 2 m3/s while head >= 0.6 m; pond 20,000 m2, bed 1 m below mean. Grinding per tide: 2.5 m range 5.0 h; 4.0 m 6.7 h; 6.0 m 7.78 h (hourly steps 8.0, 15-min 7.75). Pond 60,000 m2: 7.0/8.17/8.95 h. Starts, HW midnight, range 4 m: 01:35, 14:00, 02:25, 14:50, 03:16, 15:41 (about 50 min later daily). Bug: two-way gates, pond follows the sea, no grinding. Lesson family: tide mill simulation with state, step size, lunar drift.",
+    "requiredMentions": [
+      "Milford Haven",
+      "Pembroke Dock",
+      "Tenby",
+      "Saundersfoot",
+      "Goodwick",
+      "Merlin's Bridge",
+      "Carew",
+      "French Mill",
+      "Rex Wailes",
+      "floodgates",
+      "tidal mill"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents, Pembrokeshire, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cadw listed building full report 6038: French Mill and Tidal Barrier, Carew.",
+        "url": "https://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=6038"
+      }
+    ],
+    "rejectedClaims": [
+      "Actual pond size, flow or output of the Carew mill: not in the record; model numbers are ours.",
+      "Real tidal ranges or high water times at Carew: not read; ranges and times are invented.",
+      "Opening times and who manages the mill today: not claimed beyond the record.",
+      "Milford Haven Observatory (Cadw 12922): considered, not used (telescope lesson already spent).",
+      "Welsh-language statistics: excluded by rule.",
+      "Named schools and school term dates: none named or read."
+    ]
   }
 }

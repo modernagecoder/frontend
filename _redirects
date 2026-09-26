@@ -4306,4 +4306,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-neath-port-talbot /src/pages/coding-classes-in-neath-port-talbot.html 200
 /coding-classes-in-neath-port-talbot.md /src/pages/coding-classes-in-neath-port-talbot.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-pembrokeshire /src/pages/coding-classes-in-pembrokeshire.html 200
+/coding-classes-in-pembrokeshire.md /src/pages/coding-classes-in-pembrokeshire.md 200
 /* /src/pages/404.html 404

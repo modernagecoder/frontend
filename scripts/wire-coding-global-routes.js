@@ -560,6 +560,7 @@ const MARKETS = [
   ['coding-classes-in-merthyr-tydfil-county-borough', 'Merthyr Tydfil'],
   ['coding-classes-in-monmouthshire', 'Monmouthshire'],
   ['coding-classes-in-neath-port-talbot', 'Neath Port Talbot'],
+  ['coding-classes-in-pembrokeshire', 'Pembrokeshire'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

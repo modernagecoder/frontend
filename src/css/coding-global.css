@@ -1188,3 +1188,4 @@
 .cg-root.cg-mty  { --cg-accent: #7A352B; --cg-accent-soft: rgba(122,53,43,.10); }   /* Merthyr Tydfil: an ironworks rust red from the solver (7.13:1 on the darkest paper tint), pinker than the Fife red and lighter than the Clackmannanshire one */
 .cg-root.cg-mmt  { --cg-accent: #4C4422; --cg-accent-soft: rgba(76,68,34,.10); }   /* Monmouthshire: a brass-telescope olive from the solver (7.84:1 on the darkest paper tint), browner than the Anglesey olive */
 .cg-root.cg-npt  { --cg-accent: #4C0B2E; --cg-accent-soft: rgba(76,11,46,.10); }   /* Neath Port Talbot: a deep red-brick maroon from the solver (12.13:1 on the darkest paper tint), for the colliery engine house */
+.cg-root.cg-pem  { --cg-accent: #4C3240; --cg-accent-soft: rgba(76,50,64,.10); }   /* Pembrokeshire: a slate-plum from the solver (9.21:1 on the darkest paper tint), like wet limestone at low water */
