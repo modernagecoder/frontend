@@ -246,7 +246,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 194 | 11-plus-maths-tuition-kingston (kgm, #3C5C44) | maths door by area | 3,740 | 1.4% vs 11-plus-maths-tuition-sutton | numerical answers written into digit columns | place value and digital time as answer format | b2e61f13 |
 | 195 | 11-plus-maths-tuition-barnet (btm, #3F4C1B) | maths door by area | 3,721 | 1% vs 11-plus-maths-tuition-sutton | three schools, maths at three different moments | factors, factor pairs and primes to 100 | cfb58d47 |
 | 196 | 11-plus-maths-tuition-enfield (enm, #3C465C) | maths door by area | 3,523 | 1.4% vs 11-plus-maths-tuition-bexley | the test changes for today's Year 5: maths becomes Paper One | Year 5 fractions | d7ecabbf |
-| 197 | 11-plus-maths-tuition-redbridge (rbm, #15158A) | maths door by area | 3,510 | 1.7% vs 11-plus-maths-tuition-kingston | the council warns practice papers may not match: prepare the curriculum | Year 5 measures and unit conversion | (this commit) |
+| 197 | 11-plus-maths-tuition-redbridge (rbm, #15158A) | maths door by area | 3,510 | 1.7% vs 11-plus-maths-tuition-kingston | the council warns practice papers may not match: prepare the curriculum | Year 5 measures and unit conversion | b6bef4ac |
+| 198 | 11-plus-maths-tuition-slough (slm, #6B5730) | maths door by area | 3,581 | 2% vs 11-plus-maths-tuition-redbridge | an analogue watch is allowed: the maths of time | elapsed time and timetables | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
