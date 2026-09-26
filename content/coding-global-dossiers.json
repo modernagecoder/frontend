@@ -24984,5 +24984,54 @@
       "Named Aberdeenshire schools: none named.",
       "Oil and gas industry facts: not researched for this page."
     ]
+  },
+  "coding-classes-in-angus": {
+    "market": "Angus",
+    "bodyClass": "cg-ang",
+    "pageType": "governorate",
+    "curriculumAuthority": "Angus (S12000041), one council. NRS, Scotland's Census 2022 first results, rounded population estimates (14 September 2023): Angus 114,400 (females 59,100, males 55,300); households 54,300; density 52.4 per square kilometre (Scotland 69.8); ages 0 to 14 17,000 (14.9 per cent) and 65+ 28,700 (25.1 per cent) by our addition (Scotland 832,200, 15.3 per cent; 1,091,100, 20.1 per cent). NRS Population Estimates for Settlements and Localities in Scotland, mid-2020: Arbroath 23,500; Forfar 14,120; Montrose 11,730; Carnoustie 11,310; Monifieth 8,860; Brechin 7,230; Kirriemuir 6,060; Birkhill and Muirhead 2,010; Letham 1,640; Ferryden and Inchbraoch 1,220; Hillside 1,140; Friockheim 1,130 (Dundee and Liff localities split with Dundee City, not listed). HES LB36895 (Category B, 9, 11 The Tenements, Brechin Road, Kirriemuir): \"Birthplace of Sir J.M. Barrie 1860, home of his parents to 1870\"; LB36896 (Category B, wash-house): Barrie's \"Little Theatre\"; LB36903 (Category B, Barrie Pavilion, Hill of Kirriemuir): \"Frank Thomson, dated 1929\", \"cricket pavilion with camera obsura\" [sic].",
+    "localProject": "Stack matching of quotation marks in Peter Pan (Gutenberg 16): 1,677 paragraphs; double curly marks 1,464 open, 1,464 close; 1,099 dialogue paragraphs all balanced; no nesting. Single marks: 16 left, 558 right; right marks inside words 516, after a word-final letter 19, after punctuation 15, other 8. Naive single-mark stack: 542 unmatched closers; with in-word apostrophe rule: 26. Straight-quote conversion: 2,928 identical marks, stack cannot distinguish open from close (toggle only). Page labels counts as ours on this edition. AI angle: context resolves most but not all ambiguities. Lesson family: stacks, matching, ambiguous symbols.",
+    "requiredMentions": [
+      "114,400",
+      "54,300",
+      "LB36895",
+      "Kirriemuir",
+      "Arbroath",
+      "Montrose",
+      "Brechin",
+      "Little Theatre",
+      "Peter Pan",
+      "1,099"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data: Angus and Scotland.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020: Angus localities.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB36895: birthplace of Sir J M Barrie, Kirriemuir.",
+        "url": "https://portal.historicenvironment.scot/designation/LB36895"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB36896 and LB36903: the wash-house \"Little Theatre\" and the Barrie Pavilion.",
+        "url": "https://portal.historicenvironment.scot/designation/LB36896"
+      },
+      {
+        "claim": "J M Barrie, Peter Pan, Project Gutenberg eBook 16.",
+        "url": "https://www.gutenberg.org/ebooks/16"
+      }
+    ],
+    "rejectedClaims": [
+      "National Trust for Scotland visitor details for the birthplace: the page returned 403 and was not retried.",
+      "Plot or character details beyond naming the main characters: not needed.",
+      "Arbroath Abbey and the Declaration of Arbroath: not researched for this page.",
+      "That other editions of Peter Pan match these counts: not claimed.",
+      "Angus school term dates: none read.",
+      "Named Angus schools: none named."
+    ]
   }
 }

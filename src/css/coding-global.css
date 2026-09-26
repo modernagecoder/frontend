@@ -1149,3 +1149,4 @@
 .cg-root.cg-wil  { --cg-accent: #3D6B25; --cg-accent-soft: rgba(61,107,37,.10); }   /* Wiltshire: a chalk-downland green from the solver (5.08:1 on the darkest paper tint), brighter and yellower than the Nottinghamshire and South Yorkshire greens */
 .cg-root.cg-wcs  { --cg-accent: #3E438A; --cg-accent-soft: rgba(62,67,138,.10); }   /* Worcestershire: a Worcester porcelain cobalt from the solver (7.13:1 on the darkest paper tint), brighter and more violet than the Staffordshire and Bedfordshire blues */
 .cg-root.cg-abs  { --cg-accent: #325C51; --cg-accent-soft: rgba(50,92,81,.10); }   /* Aberdeenshire: a granite-and-pine teal from the solver (6.08:1 on the darkest paper tint), greener than the Northumberland and Norfolk blues */
+.cg-root.cg-ang  { --cg-accent: #5C3329; --cg-accent-soft: rgba(92,51,41,.10); }   /* Angus: a red sandstone brown from the solver (8.63:1 on the darkest paper tint), redder than the Shropshire and Derbyshire browns */
