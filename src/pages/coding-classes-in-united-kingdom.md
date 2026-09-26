@@ -158,6 +158,8 @@ Each page below is written for its own place, exam or competition, with its own 
 
 **English regions:** [East Midlands](/coding-and-ai-classes-in-east-midlands) &middot; [East of England](/coding-and-ai-classes-in-east-of-england) &middot; [North East England](/coding-and-ai-classes-in-north-east-england) &middot; [North West England](/coding-and-ai-classes-in-north-west-england) &middot; [South East England](/coding-and-ai-classes-in-south-east-england) &middot; [South West England](/coding-and-ai-classes-in-south-west-england) &middot; [West Midlands region](/coding-and-ai-classes-in-west-midlands-region) &middot; [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber)
 
+**Towns:** [Slough](/best-coding-class-in-slough)
+
 ## From a rule with an edge to a program that respects it
 
 The free lesson places a learner by watching real work. The nation decides the vocabulary; the ladder underneath is the same.

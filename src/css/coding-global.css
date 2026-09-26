@@ -1206,3 +1206,4 @@
 .cg-root.cg-ryh  { --cg-accent: #5C1F7A; --cg-accent-soft: rgba(92,31,122,.10); }   /* Yorkshire and the Humber: a moorland-heather violet from the solver (8.76:1 on the darkest paper tint) */
 .cg-root.cg-rnw  { --cg-accent: #6A158A; --cg-accent-soft: rgba(106,21,138,.10); }   /* North West England: a wet-slate purple from the solver (8.11:1 on the darkest paper tint) */
 .cg-root.cg-rne  { --cg-accent: #7A1273; --cg-accent-soft: rgba(122,18,115,.10); }   /* North East England: a deep Tyne-bridge magenta from the solver (7.83:1 on the darkest paper tint) */
+.cg-root.cg-slo  { --cg-accent: #210B4C; --cg-accent-soft: rgba(33,11,76,.10); }   /* Slough: a deep night-sky violet from the solver (13.91:1 on the darkest paper tint) */

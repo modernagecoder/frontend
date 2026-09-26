@@ -27556,5 +27556,49 @@
       "Distances and travel times: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-class-in-slough": {
+    "market": "Slough",
+    "bodyClass": "cg-slo",
+    "pageType": "city",
+    "curriculumAuthority": "Slough (E06000039). Nomis Census 2021 TS007A: total 158,500; under 5 11,772 (7.4%, England 5.4%); 5 to 9 12,690 (8.0%, 5.9%); 10 to 14 12,823 (8.1%, 6.0%); 35 to 39 14,492 (9.1%, 6.7%); 85 and over 1,909 (1.2%, 2.4%). ONS 2021 BUAs: Slough 166,855 (crosses the boundary), Colnbrook 1,900, Poyle 1,735. Science Museum Group co56632: \"the only photograph ever taken of William Herschel's 40-foot telescope at Slough just prior to its dismantling in 1839. Completed in 1787, the massive reflecting telescope used a metal mirror four feet in diameter and weighing over a ton\"; co56400: Caroline Herschel's \"6 1/8-inch diameter speculum mirror of 7-foot focal length\", made \"around 1795 when they lived in Slough\"; \"discovered eight comets\"; \"similar to the telescope that William Herschel used to discover the planet Uranus in 1781\".",
+    "localProject": "Light-gathering = (D1/D2)^2; magnitudes = 5 log10(D1/D2). 1,219.2 mm vs 155.6 mm: x7.84, x61.4, 4.47 mag. 1,219.2 vs 7 mm pupil: x174, x30,336, 11.20. 155.6 vs 7: x22.2, x494, 6.73. Slip: width ratio only, 5.60 mag. Losses ignored. Lesson family: area scaling and the logarithmic magnitude scale.",
+    "requiredMentions": [
+      "Colnbrook",
+      "Poyle",
+      "40-foot telescope",
+      "Caroline Herschel",
+      "William Herschel",
+      "speculum",
+      "light-gathering",
+      "magnitudes",
+      "158,500"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Slough and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Science Museum Group collection, photographic print of Herschel's 40-foot telescope (co56632).",
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co56632"
+      },
+      {
+        "claim": "Science Museum Group collection, Caroline Herschel's telescope (co56400).",
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co56400"
+      }
+    ],
+    "rejectedClaims": [
+      "Limiting magnitudes actually reached by Herschel: not claimed; gains are ours and ignore losses.",
+      "The exact pupil size of any observer: a typical 7 mm figure, labelled.",
+      "Named schools, admissions and school term dates: none named or read; the 11+ page is separate.",
+      "Heathrow, trading estate and employer facts: not used.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }
