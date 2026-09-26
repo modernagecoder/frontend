@@ -258,6 +258,7 @@ const SLUGS = [
   '11-plus-maths-tuition-warwickshire',
   '11-plus-maths-tuition-medway',
   '11-plus-maths-tuition-plymouth',
+  '11-plus-maths-tuition-torbay',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -595,6 +596,7 @@ const LLMS_LABELS = {
   '11-plus-maths-tuition-warwickshire': '11 plus maths tuition in Warwickshire',
   '11-plus-maths-tuition-medway': '11 plus maths tuition in Medway',
   '11-plus-maths-tuition-plymouth': '11 plus maths tuition in Plymouth',
+  '11-plus-maths-tuition-torbay': '11 plus maths tuition in Torbay',
 };
 
 function wireLlms(slugs) {
