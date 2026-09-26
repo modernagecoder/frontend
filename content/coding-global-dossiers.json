@@ -23905,5 +23905,54 @@
       "Hampshire school term dates: set by councils and academies; none read.",
       "Named Hampshire schools: none is named."
     ]
+  },
+  "coding-classes-in-herefordshire": {
+    "market": "Herefordshire",
+    "bodyClass": "cg-hfs",
+    "pageType": "governorate",
+    "curriculumAuthority": "Herefordshire (one unitary council). ONS Census 2021 TS001 via Nomis for Herefordshire, County of (the figure is already a required mention on the Hereford city page, so it is not repeated as one here). ONS Census 2021 built-up areas (published; checked with our OA sums): Hereford 60,480; Leominster 11,205; Ross-on-Wye 10,990; Ledbury 8,345; Bromyard 3,815. Great Malvern (259 of 33,185 in Herefordshire) excluded. Hereford Cathedral, Chained Library: \"The cathedral's earliest and most important book is the 8th-century Hereford Gospels; it is one of 229 medieval manuscripts which now occupy two bays of the Chained Library\"; \"Hereford Cathedral's 17th-century Chained Library is the largest to survive with all its chains, rods and locks intact. A chain is attached at one end to the front cover of each book; the other end is slotted on to a rod running along the bottom of each shelf\"; \"the whole library can now be seen in its original arrangement as it was from 1611 to 1841\". Mappa Mundi: \"Recent research suggests a date of about 1300\"; \"drawn on a single sheet of vellum (calf skin) measuring 64 × 52 inches (1.58 × 1.33 metres)\"; \"Jerusalem at the centre of the world\"; \"These 500 or so drawings\".",
+    "localProject": "Arrays against linked lists, and gapped arrays. Ordered shelf of 229 books; 50 insertions at random positions (seed 20260926). Packed rod (array): 6,822 slides, 136.4 per insert. Linked list: 100 link changes, 5,853 nodes walked to find positions, 117.1 per insert. Gapped rod, blocks of 10 with s spare hooks, full re-spacing when a block overflows (counted as moving every book): s = 1, 2,283 slides, 8 re-spacings, 45.7 per insert; s = 2, 1,039, 3, 20.8; s = 5, 264, 0, 5.3. Page states the shelf and schemes are a model, not the cathedral's practice. AI angle: an assistant recommends a linked list for cheap insertion without costing the search. Lesson family: array versus linked list insertion cost and gapped arrays; distinct from Hereford city (Kalman filter).",
+    "requiredMentions": [
+      "229 medieval manuscripts",
+      "chains, rods and locks intact",
+      "1611 to 1841",
+      "Hereford Gospels",
+      "6,822",
+      "spare hooks",
+      "64 × 52 inches",
+      "1,039",
+      "2,283",
+      "60,480"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for Herefordshire, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Herefordshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Hereford Cathedral, Chained Library: 229 medieval manuscripts, chains, rods and locks intact, arrangement of 1611 to 1841.",
+        "url": "https://www.herefordcathedral.org/chained-library"
+      },
+      {
+        "claim": "Hereford Cathedral, Mappa Mundi: about 1300, 64 × 52 inches of vellum, Jerusalem at the centre.",
+        "url": "https://www.herefordcathedral.org/mappa-mundi"
+      }
+    ],
+    "rejectedClaims": [
+      "How the cathedral shelves or adds books in practice: not described in these terms; the shelf is our model.",
+      "Great Malvern as a Herefordshire town: almost all of it lies in Worcestershire.",
+      "The total number of books in the Chained Library: the city page cites a figure; this page uses only the 229 manuscripts count read on 26 September 2026.",
+      "Herefordshire school term dates: none read.",
+      "Named Herefordshire schools: none is named.",
+      "The Mappa Mundi drawing counts as a total: the cathedral gives category counts and \"500 or so\"; we do not add the categories up."
+    ]
   }
 }
