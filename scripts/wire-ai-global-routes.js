@@ -242,6 +242,7 @@ const SLUGS = [
   'ai-and-python-academy-for-girls-uk',
   '11-plus-maths-tuition-buckinghamshire',
   '11-plus-maths-tuition-birmingham',
+  '11-plus-maths-tuition-trafford',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -563,6 +564,7 @@ const LLMS_LABELS = {
   'ai-and-python-academy-for-girls-uk': 'AI and Python academy for girls, UK',
   '11-plus-maths-tuition-buckinghamshire': '11 plus maths tuition in Buckinghamshire',
   '11-plus-maths-tuition-birmingham': '11 plus maths tuition in Birmingham',
+  '11-plus-maths-tuition-trafford': '11 plus maths tuition in Trafford',
 };
 
 function wireLlms(slugs) {
