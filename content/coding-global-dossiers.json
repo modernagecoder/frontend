@@ -25390,5 +25390,48 @@
       "Named Falkirk schools: none named.",
       "Falkirk school term dates: none read."
     ]
+  },
+  "coding-classes-in-fife": {
+    "market": "Fife",
+    "bodyClass": "cg-fif",
+    "pageType": "governorate",
+    "curriculumAuthority": "Fife (S12000047), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 370,400 (females 190,900, males 179,500); households 169,600; density 279.5 per square kilometre (Scotland 69.8); ages 0 to 14 57,600 (15.6 per cent), 65+ 80,000 (21.6 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Dunfermline 54,990; Kirkcaldy and Dysart 50,370; Glenrothes 38,360; St Andrews 18,410; Rosyth 13,570; Cowdenbeath and Lumphinnans 12,030; Methil 10,890; Dalgety Bay and Hillend 9,710; Leven 9,420; Cupar 8,960; Lochgelly 7,300; Kelty (part) 6,760; Burntisland 6,630. HES LB9977 (Category A, added 18/06/1973), Forth Bridge, parish Inverkeithing: \"Sir John Fowler and Sir Benjamin Baker, 1883-90\"; \"2.5 kilometre, painted steel, cantilever railway bridge\"; \"3 giant, cross-braced, steel tower structures\"; \"each being 521 metres long with a 107 metre suspended span truss to centre\"; \"five thousand strong workforce seven years ... more than fifty thousand tonnes of Siemens-Martin open-hearth steel and 8 million rivets\"; \"Benjamin Baker conducted experiments on wind pressure using a set of gauges that he installed on the Forth shoreline\"; \"spans nearly four times larger than any railway bridge previously built\"; \"on 4th March 1890\"; \"around 200 trains passing over it each day (2013)\"; \"Forth Bridge Red\"; \"Similar in shade to iron oxide\".",
+    "localProject": "Invented 3-bay cantilever, bays 4 m x 4 m, pinned top and bottom at wall, 10 kN at tip bottom. 16 equations, 16 unknowns, rank 16. Top chord 20/10/0 T; bottom 30/20/10 C; diagonals 14.14 T; verticals 10/10/0 C; zero-force T2-T3, T3-B3. Hand check moments about T0: 10 x 12 / 4 = 30. Remove T1-B2: 15 unknowns, inconsistent. Add B1-T2: 17 unknowns, rank 16, one free. Height 2 m: 40 and 60. AI angle: least squares returns numbers for a mechanism. Lesson family: truss statics, Gaussian elimination, rank.",
+    "requiredMentions": [
+      "Burntisland",
+      "Kelty",
+      "Forth Bridge",
+      "LB9977",
+      "cantilever",
+      "Benjamin Baker",
+      "Kirkcaldy",
+      "Glenrothes",
+      "Cowdenbeath",
+      "Methil",
+      "Cupar",
+      "Lochgelly",
+      "Dalgety Bay"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB9977: Forth Bridge.",
+        "url": "https://portal.historicenvironment.scot/designation/LB9977"
+      }
+    ],
+    "rejectedClaims": [
+      "Member forces or loads in the real Forth Bridge: not in the listing, not claimed.",
+      "Tay Bridge disaster details: in the listing but not used on this page.",
+      "UNESCO World Heritage status: not read from a primary source today, not claimed.",
+      "Painting cycle myths: only the listing's paint facts considered; not used.",
+      "Named Fife schools and school term dates: none named or read."
+    ]
   }
 }
