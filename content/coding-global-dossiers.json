@@ -26599,5 +26599,50 @@
       "Named schools and school term dates: none named or read.",
       "Distances between towns: not claimed."
     ]
+  },
+  "coding-classes-in-merthyr-tydfil-county-borough": {
+    "market": "Merthyr Tydfil county borough",
+    "bodyClass": "cg-mty",
+    "pageType": "governorate",
+    "curriculumAuthority": "Merthyr Tydfil (W06000024), Merthyr Tydfil County Borough Council. ONS Census 2021 TS001 via Nomis: 58,836 (the smallest of the 22 Welsh principal areas in the same Nomis release: Blaenau Gwent 66,904 next). ONS built-up areas (published; OA sums within 7): Merthyr Tydfil 39,535; Treharris 5,045; Troedyrhiw and Pentrebach 3,775; Aberfan 2,430; Trelewis 2,020. Cadw listed building record 11408, Grade II*, Pont-y-Cafnau: \"Believed to date from ca 1794 (probably the earliest known iron railway bridge)\"; \"Originally carried a tramroad (4-foot gauge) from Cyfarthfa Ironworks immediately to S\"; \"a pair of A-frame trusses with braces and vertical 'king-posts'\"; \"Straight ironwork girders to deck which retains some chairs and seating from tramroad\"; \"Scheduled Ancient Monument: Gm424\". Dowlais and Quakers Yard named as communities (Cadw records 11490, 11491, 11514).",
+    "localProject": "Invented 14 m span; typical alpha cast iron 10.5e-6/K, steel 12e-6/K, E cast iron 100 GPa. Growth: -10 to 30 C 5.88 mm (steel 6.72); 0 to 20 C 2.94; -10 to 50 C 8.82 (steel 10.08). Restrained stress: 20 K 21 MPa, 40 K 42, 60 K 63. 0.9 m plate over 40 K 0.378 mm. 1 km steel rail 40 K 480 mm free. 42 MPa = about 428 kg-force per cm2 (ours). Lesson family: thermal expansion, restrained stress.",
+    "requiredMentions": [
+      "Treharris",
+      "Troedyrhiw",
+      "Pentrebach",
+      "Trelewis",
+      "Pont-y-Cafnau",
+      "Cyfarthfa",
+      "Dowlais",
+      "Quakers Yard",
+      "thermal expansion",
+      "10.5 millionths"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents, Merthyr Tydfil, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cadw listed building full report 11408: Pont-y-Cafnau.",
+        "url": "https://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=11408"
+      }
+    ],
+    "rejectedClaims": [
+      "Real span, temperatures or stresses at Pont-y-Cafnau: not in the record; invented or typical values.",
+      "Cast iron strength limits: not claimed.",
+      "The Aberfan disaster: not discussed; Aberfan appears only as a census built-up area.",
+      "Penydarren locomotive history: not used on this page.",
+      "Welsh-language statistics: excluded by rule.",
+      "Named schools and school term dates: none named or read."
+    ]
   }
 }
