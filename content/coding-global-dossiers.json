@@ -23089,5 +23089,58 @@
       "Coventry and Tamworth as Warwickshire towns: both built-up areas lie almost entirely in neighbouring counties.",
       "Named Warwickshire schools' computing provision: Rugby School is cited only for its account of the game's origin, not for any teaching claim."
     ]
+  },
+  "coding-classes-in-oxfordshire": {
+    "market": "Oxfordshire",
+    "bodyClass": "cg-oxs",
+    "pageType": "governorate",
+    "curriculumAuthority": "Oxfordshire (five districts under Oxfordshire County Council). ONS Census 2021 TS001 via Nomis: Oxford 162,040; Cherwell 161,016; South Oxfordshire 149,085; Vale of White Horse 138,913; West Oxfordshire 114,237; total 725,291 (our sum). ONS Census 2021 built-up areas (published; all 20 agree with our OA sums within rounding and lie inside the county): Oxford 170,805 (Oxford, South Oxfordshire, Vale of White Horse); Banbury 52,045; Bicester 37,755; Didcot 34,600 (South Oxfordshire, Vale of White Horse); Abingdon-on-Thames 33,175; Witney 30,165; Carterton 17,950; Kidlington 14,640; Wantage 13,105; Thame 12,945; Henley-on-Thames 11,780; Faringdon 8,625; Wallingford 8,455; Grove 7,945; Chinnor 7,265; Chipping Norton 6,985; Shrivenham and Watchfield 5,350; Eynsham 5,325; Sonning Common 5,265; Benson 5,240. GOV.UK UKAEA news 16 December 2024: JET \"achieving a world record in 2023 by producing 69 megajoules of high power over five seconds. This feat was accomplished using just 0.2. milligrams of fuel - the equivalent weight of a fruit fly\"; JET \"located at United Kingdom Atomic Energy Authority's (UKAEA) Culham Campus in Oxfordshire\". GOV.UK 23 June 2023 (JET set for its 40th birthday): \"Originally designed to run experiments for eight years\"; \"JET produced its first plasma on 25 June 1983\"; \"1997: First deuterium-tritium experiments and world record for producing 16.1 MW and 21.7 megajoules\"; \"2021: ... producing 59 megajoules over 5 seconds\"; \"over 103,000 'pulses'\"; \"Each pulse typically lasts for 40 seconds\". GOV.UK 19 January 2022 (100,000th pulse): \"1997: A world record 22.5 megajoules of fusion energy and 16 megawatts of fusion power\".",
+    "localProject": "Energy versus power and unit-checked arithmetic. Python quantity class carrying exponents of kg, m and s; addition requires identical dimensions, division and multiplication combine exponents. JET: 69 MJ / 5 s = 13.8 MW (2023); 59 MJ / 5 s = 11.8 MW (2021); 21.7 MJ / 16.1 MW = 1.35 s minimum at peak (1997, 2023 page); 22.5 MJ / 16 MW = 1.41 s (2022 page); the two 1997 energies differ by 3.7 per cent and both are printed with their sources. 69 MJ + 16.1 MW raises TypeError (J vs W). 69 MJ / 0.2 mg = 3.45 x 10^14 J/kg. Illustration (ours): 3 kW kettle would take 6.39 hours to use 69 MJ. AI angle: generated text mixes megajoules and megawatts fluently. Lesson family: energy versus power and dimensional analysis in code; screened 26 September 2026 (dimensional, megajoule: 0 hits).",
+    "requiredMentions": [
+      "725,291",
+      "69 megajoules",
+      "0.2 milligrams",
+      "13.8 megawatts",
+      "21.7 megajoules",
+      "22.5 megajoules",
+      "25 June 1983",
+      "Shrivenham and Watchfield",
+      "1.35 seconds",
+      "170,805"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the five Oxfordshire districts, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Oxfordshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "UKAEA on GOV.UK: JET 2023 record, 69 megajoules over five seconds from 0.2 milligrams of fuel; Culham Campus.",
+        "url": "https://www.gov.uk/government/news/jets-final-deuterium-tritium-results-revealed-one-year-on"
+      },
+      {
+        "claim": "UKAEA on GOV.UK: first plasma 25 June 1983, 1997 record 16.1 MW and 21.7 megajoules, 2021 record 59 megajoules, over 103,000 pulses of about 40 seconds.",
+        "url": "https://www.gov.uk/government/news/jet-set-for-its-40th-birthday"
+      },
+      {
+        "claim": "UKAEA on GOV.UK (2022): 1997 record given as 22.5 megajoules and 16 megawatts.",
+        "url": "https://www.gov.uk/government/news/watch-iconic-fusion-energy-machines-100000th-pulse"
+      }
+    ],
+    "rejectedClaims": [
+      "Oxfordshire County Council term dates: the site gave no connection on 26 September 2026 (tried twice); none printed.",
+      "Diamond Light Source figures at Harwell: the Diamond site returned 403, not retried, so the synchrotron is not mentioned.",
+      "Which 1997 figure is correct: two UKAEA pages differ and we do not know the definitions used, so both are printed with their sources and neither is chosen.",
+      "Any claim about fusion power stations, electricity prices or energy policy: out of scope for a coding page.",
+      "The total plasma time across all JET pulses: pulse lengths are only described as typical, so no total is claimed.",
+      "Named Oxfordshire schools: none is named."
+    ]
   }
 }
