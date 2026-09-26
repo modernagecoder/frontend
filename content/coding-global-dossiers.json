@@ -26965,5 +26965,46 @@
       "Named schools and school term dates: none named or read.",
       "Distances and travel times: not claimed."
     ]
+  },
+  "coding-classes-in-antrim-and-newtownabbey": {
+    "market": "Antrim and Newtownabbey",
+    "bodyClass": "cg-anb",
+    "pageType": "governorate",
+    "curriculumAuthority": "Antrim and Newtownabbey (N09000001). NISRA Census 2021 MS-A01: 145,661. DEAs (exact, not summed): Airport 22,029; Antrim 23,950; Ballyclare 19,069; Dunsilly 17,997; Glengormley Urban 21,639; Macedon 20,323; Three Mile Water 20,653. Settlements (NISRA approximations): Metropolitan Newtownabbey 67,599; Antrim 25,606; Ballyclare 10,850; Crumlin 5,366; Randalstown 5,151; Templepatrick 1,538. HED Defence Heritage 00042:000 Langford Lodge: satellite landing ground then USAAF depot; \"2,600 employees of the Lockheed Overseas Corporation\"; \"opened in August 1942 and the site renamed AAF Station 597\"; \"3,250 re-assembled or modified, 11,000 serviced and almost half a million aircraft components overhauled\"; \"returned to the RAF in 1946\". Finger dispersal: \"allowed much larger numbers of aircraft to be stored. However, the high-density parking required aircraft to be towed on an off the parks\". Runways 1,780 m and 1,440 m. Control tower HB20/14/029 Grade A.",
+    "localProject": "LIFO finger parking, 24 invented aircraft, 4,000 trials, seed 7. Random order blockers: depth 1 0; 2 5.9 (worst 11); 4 17.9 (29); 6 30.0 (49); 12 66.0 (107); 24 138.0 (202); formula N(k-1)/4. Departure-ordered parking 0. Rough plan sd 4 ranks: 5.1, 13.7, 20.5, 32.5, 40.5. Lesson family: stack storage and block relocation.",
+    "requiredMentions": [
+      "Three Mile Water",
+      "Dunsilly",
+      "Macedon",
+      "Randalstown",
+      "Templepatrick",
+      "Ballyclare",
+      "Metropolitan Newtownabbey",
+      "Langford Lodge",
+      "Lockheed",
+      "AAF Station 597"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA Census 2021 MS-A01 usual resident population by LGD, DEA and settlement.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "Department for Communities Historic Environment Division GIS data: Defence Heritage (Langford Lodge records 00042) and Historic Buildings (HB20/14/029).",
+        "url": "https://services2.arcgis.com/BdBkthNLO9mzGAMO/arcgis/rest/services/Historic_Environment_Division_GIS_Data/FeatureServer"
+      },
+      {
+        "claim": "Listed Buildings Northern Ireland dataset on OpenDataNI.",
+        "url": "https://www.opendatani.gov.uk/@department-for-communities-historic-environment-division/listed-buildings-northern-ireland"
+      }
+    ],
+    "rejectedClaims": [
+      "How aircraft were actually parked or towed at Langford Lodge: not in the records; the model is ours.",
+      "The present-day occupier and its products: in the record, not used.",
+      "Transfer test advice: excluded by rule.",
+      "Community background, religion and identity statistics: excluded by rule.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed."
+    ]
   }
 }

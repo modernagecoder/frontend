@@ -157,6 +157,8 @@ NISRA published these district figures rounded for display. They are reproduced 
 
 NISRA states the national figure precisely: "The usually resident population of Northern Ireland on census day, 21 March 2021, was 1,903,175." The district rows above are the agency's rounded display figures, published with the note that "for display purposes figures are appropriately rounded but full figures are available in the Census 2021 tables". We have reproduced them exactly and left them alone, because rounded parts do not reconcile to an exact whole and pretending otherwise would be the kind of tidy arithmetic that quietly turns into a false claim.
 
+District pages are being added one at a time, and each name links once its page is live: [Antrim and Newtownabbey](/coding-classes-in-antrim-and-newtownabbey), [Belfast](/best-coding-class-in-belfast), Causeway Coast and Glens, Fermanagh and Omagh, Mid and East Antrim, Mid Ulster.
+
 ### A small place, thinly spread
 
 Belfast holds under a fifth of the population. Fermanagh and Omagh, the largest district by area, holds the fewest people, and an evening class within driving distance is not a given there.

@@ -15206,6 +15206,18 @@
   to = "/src/pages/coding-classes-in-vale-of-glamorgan.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-antrim-and-newtownabbey"
+  to = "/src/pages/coding-classes-in-antrim-and-newtownabbey.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-antrim-and-newtownabbey.md"
+  to = "/src/pages/coding-classes-in-antrim-and-newtownabbey.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

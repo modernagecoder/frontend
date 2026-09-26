@@ -45,6 +45,15 @@
 // choice to the school. Where Wales bars a year of preparation from the room, CCEA marks 36 hours of
 // supervised coursework from a scenario it republishes every June.
 
+const AREAS = [['Antrim and Newtownabbey', 'coding-classes-in-antrim-and-newtownabbey'], ['Belfast', 'best-coding-class-in-belfast'],
+  ['Causeway Coast and Glens', 'coding-classes-in-causeway-coast-and-glens'], ['Fermanagh and Omagh', 'coding-classes-in-fermanagh-and-omagh'],
+  ['Mid and East Antrim', 'coding-classes-in-mid-and-east-antrim'], ['Mid Ulster', 'coding-classes-in-mid-ulster']];
+
+function linkedAreas() {
+  const built = new Set(require('../../scripts/nl/lib/uk-index.js').builtUkPages().map(p => p.slug));
+  return AREAS.map(([name, slug]) => built.has(slug) ? `<a class="cg-inline-link" href="/${slug}">${name}</a>` : name).join(', ');
+}
+
 module.exports = {
   clusterName: 'United Kingdom',
   hub: { group: 'nation', tag: 'NI', blurb: 'Two GCSEs share one subject name here, and a family choosing between them is choosing whether programming is assessed at all.' },
@@ -184,6 +193,7 @@ module.exports = {
           ['Fermanagh and Omagh', '116,800', '6.1 per cent']
         ] },
         { kind: 'p', text: 'NISRA states the national figure precisely: "The usually resident population of Northern Ireland on census day, 21 March 2021, was 1,903,175." The district rows above are the agency\'s rounded display figures, published with the note that "for display purposes figures are appropriately rounded but full figures are available in the Census 2021 tables". We have reproduced them exactly and left them alone, because rounded parts do not reconcile to an exact whole and pretending otherwise would be the kind of tidy arithmetic that quietly turns into a false claim.' },
+        { kind: 'p', text: 'District pages are being added one at a time, and each name links once its page is live: ' + linkedAreas() + '.' },
         { kind: 'grid3', mt: true, cells: [
           { h3: 'A small place, thinly spread', p: 'Belfast holds under a fifth of the population. Fermanagh and Omagh, the largest district by area, holds the fewest people, and an evening class within driving distance is not a given there.' },
           { h3: 'The same hour for everyone', p: 'A pupil in Enniskillen joins the same lesson, with the same teacher, as one in east Belfast. Distance stops being a variable when the classroom is a link.' },

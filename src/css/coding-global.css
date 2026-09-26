@@ -1193,3 +1193,4 @@
 .cg-root.cg-rct  { --cg-accent: #5C293E; --cg-accent-soft: rgba(92,41,62,.10); }   /* Rhondda Cynon Taf: a dark pennant-stone maroon from the solver (9.19:1 on the darkest paper tint) */
 .cg-root.cg-tfn  { --cg-accent: #47224C; --cg-accent-soft: rgba(71,34,76,.10); }   /* Torfaen: a mussel-shell violet from the solver (10.57:1 on the darkest paper tint) */
 .cg-root.cg-vog  { --cg-accent: #4C0B44; --cg-accent-soft: rgba(76,11,68,.10); }   /* Vale of Glamorgan: a deep wood-pigeon purple from the solver (11.76:1 on the darkest paper tint) */
+.cg-root.cg-anb  { --cg-accent: #3C127A; --cg-accent-soft: rgba(60,18,122,.10); }   /* Antrim and Newtownabbey: an airfield-night indigo from the solver (10.85:1 on the darkest paper tint) */
