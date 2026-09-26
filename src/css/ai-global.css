@@ -738,3 +738,4 @@
 .ag-root.ag-bkm { --ag-accent: #5C4F3C; --ag-accent-soft: rgba(92,79,60,.09); }   /* Buckinghamshire 11 plus maths: a beech-bark brown for the Chiltern woods, chosen by colour distance from every accent on the site (6.27:1 on the darkest paper tint) */
 .ag-root.ag-bhm { --ag-accent: #0E0E5C; --ag-accent-soft: rgba(14,14,92,.09); }   /* Birmingham 11 plus maths: a deep canal-night navy, picked by colour distance from every accent already on the site (13.7:1 on the darkest paper tint) */
 .ag-root.ag-tfm { --ag-accent: #4C2F2A; --ag-accent-soft: rgba(76,47,42,.09); }   /* Trafford 11 plus maths: a dark umber, chosen by colour distance from every accent on the site (9.68:1 on the darkest paper tint) */
+.ag-root.ag-stm { --ag-accent: #4C1B25; --ag-accent-soft: rgba(76,27,37,.09); }   /* Sutton 11 plus maths: a dark claret, chosen by colour distance from every accent on the site (11.35:1 on the darkest paper tint) */
