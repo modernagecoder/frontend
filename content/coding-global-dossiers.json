@@ -24056,5 +24056,54 @@
       "Lancashire school term dates: none read.",
       "Named Lancashire schools or clubs: none is named."
     ]
+  },
+  "coding-classes-in-lincolnshire": {
+    "market": "Lincolnshire",
+    "bodyClass": "cg-lsh",
+    "pageType": "governorate",
+    "curriculumAuthority": "Ceremonial Lincolnshire: Lincolnshire County Council districts (Boston, East Lindsey, Lincoln, North Kesteven, South Holland, South Kesteven, West Lindsey) plus unitaries North Lincolnshire and North East Lincolnshire. ONS Census 2021 TS001 via Nomis: North Lincolnshire 169,680; North East Lincolnshire 156,966; South Kesteven 143,404; East Lindsey 142,296; North Kesteven 118,075; Lincoln 103,813; West Lindsey 95,156; South Holland 95,122; Boston 70,502; our sum 1,095,014. ONS built-up areas (published; agree with our OA sums): Lincoln 104,555 (spans Lincoln and West Lindsey); Grimsby 85,925; Scunthorpe 81,265; Boston 45,340; Grantham 44,905; Spalding 30,550; Cleethorpes 29,670; Gainsborough 21,910; Stamford 20,750; Skegness 20,700; Sleaford 18,030; Bourne 17,495; Louth 17,420; North Hykeham 16,845; Humberston and New Waltham 14,860; Barton-upon-Humber 11,920; Immingham 9,770; Holbeach 8,755; Mablethorpe 7,630; Horncastle 7,295; Deeping St James 7,255. MacTutor (St Andrews) Boole biography: \"Born 2 November 1815 Lincoln\"; \"John opened a cobbler's shop at 34 Silver Street\"; \"Hall's Academy in Waddington, four miles from Lincoln\"; \"In 1834 he opened his own school in Lincoln although he was only 19\"; first Professor of Mathematics at Queen's College, Cork, 1849; Laws of Thought 1854. Boole, Laws of Thought (Gutenberg 15114): \"the symbols of Logic are subject to the special law, x^2 = x\"; \"of the symbols of Number there are but two, viz. 0 and 1\"; x(1 - x) = 0; \"The expression x + y seems indeed uninterpretable, unless ...\"; preface thanks \"the Rev. George Stephens Dickson, of Lincoln\", dated Cork, 30 November 1853.",
+    "localProject": "Boolean algebra as arithmetic on 0 and 1, and equivalence checking by exhaustive truth table. x*x == x for integers -5..5 only at 0 and 1. NOT = 1 - x, AND = xy, OR = x + y - xy. Invented fete rule with D dry, W warm, G marquee up, F waterlogged: committee A = D(W or G)(1 - F), true on 3 of 16; poster B = (DW or G)(1 - F), true on 5; A and B differ on (D0 W0 G1 F0) and (D0 W1 G1 F0); factored C = D(1 - F)(W or G) equals A on all 16; OR as plain + gives 2 on (D1 W1 G1 F0). Row growth: 20 facts 1,048,576; 40 facts 1,099,511,627,776. Page labels the fete as invented. AI angle: an assistant shortens a rule into the poster wording; test by truth table, not by reading. Lesson family: Boolean algebra and equivalence checking, exponential case growth.",
+    "requiredMentions": [
+      "1,095,014",
+      "34 Silver Street",
+      "George Stephens Dickson",
+      "Queen's College, Cork",
+      "Laws of Thought",
+      "Humberston and New Waltham",
+      "Barton-upon-Humber",
+      "Deeping St James",
+      "1,099,511,627,776",
+      "seems indeed uninterpretable"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the nine Lincolnshire councils, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Lincolnshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "MacTutor History of Mathematics, University of St Andrews: George Boole biography (birth, Silver Street, Lincoln school, Cork chair, 1854 book).",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Boole/"
+      },
+      {
+        "claim": "George Boole, An Investigation of the Laws of Thought (1854), Project Gutenberg eBook 15114: x^2 = x, 0 and 1, x + y interpretation, preface.",
+        "url": "https://www.gutenberg.org/ebooks/15114"
+      }
+    ],
+    "rejectedClaims": [
+      "Boole's worked example on \"clean beasts\" from Jewish law: religious content, not used.",
+      "Lincoln Cathedral memorial to Boole: not read from a primary source this session, so not mentioned.",
+      "Claims about how modern chip designers verify logic in detail: only the general point that they avoid listing every row is made.",
+      "Dates for De Morgan's laws or Boole's influence on computing pioneers: not read, not dated.",
+      "Lincolnshire school term dates: none read.",
+      "Named Lincolnshire schools, grammar schools or selection tests: none named."
+    ]
   }
 }
