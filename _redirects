@@ -3982,4 +3982,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-hertfordshire /src/pages/coding-classes-in-hertfordshire.html 200
 /coding-classes-in-hertfordshire.md /src/pages/coding-classes-in-hertfordshire.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-kent /src/pages/coding-classes-in-kent.html 200
+/coding-classes-in-kent.md /src/pages/coding-classes-in-kent.md 200
 /* /src/pages/404.html 404

@@ -22897,5 +22897,50 @@
       "Named Hertfordshire schools: the county's selective schools belong on the 11 plus page, and no school is named here.",
       "Letchworth and Welwyn Garden City as the first garden cities: not read at a primary source for this build, so no garden-city history is given."
     ]
+  },
+  "coding-classes-in-kent": {
+    "market": "Kent",
+    "bodyClass": "cg-knc",
+    "pageType": "governorate",
+    "curriculumAuthority": "Kent (ceremonial: twelve districts under Kent County Council plus Medway unitary). ONS Census 2021 TS001 via Nomis: Medway 279,773; Maidstone 175,782; Canterbury 157,432; Swale 151,676; Thanet 140,587; Ashford 132,747; Tonbridge and Malling 132,201; Sevenoaks 120,514; Dartford 116,753; Dover 116,410; Tunbridge Wells 115,311; Folkestone and Hythe 109,758; Gravesham 106,900; total 1,855,844 (our sum). ONS Census 2021 built-up areas (published; all 48 agree with our OA sums within rounding): Maidstone 109,490; Gillingham (Medway) 108,480; Ashford 82,140; Chatham 76,955; Dartford 69,130; Rochester 67,285; Margate 63,320; Gravesend 58,105; Canterbury 55,090; Sittingbourne 54,390; Folkestone 51,995; Royal Tunbridge Wells 51,220; Ramsgate 42,030; Dover 36,360; Tonbridge 36,125; Whitstable 32,195; Northfleet 29,900; Deal 28,985; Sevenoaks 26,475; Larkfield 26,150; Broadstairs 25,775; Herne Bay 24,870; Faversham 20,940; Swanley 17,210; Minster (Swale) 16,740; Longfield, New Ash Green and Hartley 16,075; Swanscombe 15,460; Herne 14,875; Hythe 14,620; Sheerness 13,250; Snodland 11,830; Kings Hill 9,970; Southborough 9,630; Hoo St Werburgh 8,760; Hawkinge 8,500; Coxheath 8,455; Bearsted 8,350; Edenbridge 7,900; Rusthall and Langton Green 7,780; Tenterden 7,775; Paddock Wood 7,610; Otford and Kemsing 7,335; Whitfield (Dover) 6,510; Stone (Dartford) 6,440; Staplehurst 6,180; Aylesham 5,785; Pembury 5,785; Littlestone-on-Sea 5,270. DfT PORT0502 (UK major port freight traffic by port, quarterly from 2009; accredited official statistics; last updated 10 September 2026; figures in thousand units; Note 1 \"Includes non freight-carrying units such as passenger vehicles and trade motor vehicles\"; Note 5 \"Data for 2026 is provisional and will be finalised in July 2027\"), Dover: units both directions 2025 Q1 760.425, 2025 Q3 1,299.856, four quarters to Q2 2026 3,830.413 (to Q2 2025 3,939.367, change -2.8 per cent); outwards 2019 Q3 751.540, 2025 Q1 389.506, 2025 Q3 663.575.",
+    "localProject": "Rates from published totals and Little's law. DfT PORT0502 Dover outward units: 2025 Q3 663,575 over 92 days (2,208 hours) = 300.5 an hour; 2025 Q1 389,506 over 90 days (2,160 hours) = 180.3; ratio 1.67; 2019 Q3 751,540 = 340.4, so 2025 Q3 is 11.7 per cent lower. Little's law L = lambda W at the Q3 2025 rate: 90 seconds extra per vehicle adds 7.5 vehicles to the average queue (Q1 rate 4.5); 5 minutes 25.0; 15 minutes 75.1. Illustrative check times are ours, not any real policy. Point: the rate averages every hour of the quarter including nights, so it cannot show peak queues; a bunched-arrivals simulation with the same mean shows the average understates the worst hour. AI angle: an assistant computes L = lambda W correctly and does not volunteer that the average hour is not the queued hour. Lesson family: rates from published totals and Little's law, averages versus peaks; distinct from Wassenaar (single-server queueing, waiting explodes near full use, toy numbers).",
+    "requiredMentions": [
+      "1,855,844",
+      "663,575",
+      "389,506",
+      "3,830,413",
+      "L = λW",
+      "7.5 vehicles",
+      "2,208 hours",
+      "Littlestone-on-Sea",
+      "Longfield, New Ash Green and Hartley",
+      "1,299,856"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the twelve Kent districts and Medway, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Kent towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22), used to confirm the towns lie inside the county.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "DfT Port Freight Statistics table PORT0502: Dover units by quarter and direction, last updated 10 September 2026.",
+        "url": "https://www.gov.uk/government/statistical-data-sets/port-and-domestic-waterborne-freight-statistics-port"
+      }
+    ],
+    "rejectedClaims": [
+      "Kent County Council term dates: the council site returned 403 on 26 September 2026, not retried, so no Kent calendar is printed.",
+      "Operation Brock and any named traffic-management scheme: not read at a primary source for this build, so no scheme is named.",
+      "Freight-only lorry counts for Dover: PORT0502 units include passenger vehicles, and the freight-only split is in a filter-driven table we did not use, so the page says units, not lorries.",
+      "Peak-hour queue lengths or waiting times at Dover: no hourly data was read, and the page says so.",
+      "Channel Tunnel traffic at Folkestone: not in the port table and not read elsewhere for this build.",
+      "Named Kent schools: the selective schools belong on the 11 plus pages, and none is named here."
+    ]
   }
 }
