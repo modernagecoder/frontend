@@ -1150,3 +1150,4 @@
 .cg-root.cg-wcs  { --cg-accent: #3E438A; --cg-accent-soft: rgba(62,67,138,.10); }   /* Worcestershire: a Worcester porcelain cobalt from the solver (7.13:1 on the darkest paper tint), brighter and more violet than the Staffordshire and Bedfordshire blues */
 .cg-root.cg-abs  { --cg-accent: #325C51; --cg-accent-soft: rgba(50,92,81,.10); }   /* Aberdeenshire: a granite-and-pine teal from the solver (6.08:1 on the darkest paper tint), greener than the Northumberland and Norfolk blues */
 .cg-root.cg-ang  { --cg-accent: #5C3329; --cg-accent-soft: rgba(92,51,41,.10); }   /* Angus: a red sandstone brown from the solver (8.63:1 on the darkest paper tint), redder than the Shropshire and Derbyshire browns */
+.cg-root.cg-agb  { --cg-accent: #3C4D5C; --cg-accent-soft: rgba(60,77,92,.10); }   /* Argyll and Bute: a sea-loch slate from the solver (7.03:1 on the darkest paper tint), greyer than the Northumberland and Staffordshire blues */

@@ -25033,5 +25033,47 @@
       "Angus school term dates: none read.",
       "Named Angus schools: none named."
     ]
+  },
+  "coding-classes-in-argyll-and-bute": {
+    "market": "Argyll and Bute",
+    "bodyClass": "cg-agb",
+    "pageType": "governorate",
+    "curriculumAuthority": "Argyll and Bute (S12000035), one council. NRS, Scotland's Census 2022 first results, rounded population estimates (14 September 2023): Argyll and Bute 86,000 (females 44,000, males 42,100; published parts rounded separately); households 41,900; density 12.5 per square kilometre (Scotland 69.8); ages 0 to 14 11,600 (13.5 per cent) and 65+ 23,300 (27.1 per cent) by our addition (Scotland 15.3, 20.1). NRS Population Estimates for Settlements and Localities in Scotland, mid-2020: Helensburgh 13,230; Oban 8,140; Dunoon 7,660; Campbeltown 4,500; Rothesay 4,310; Garelochhead 3,650; Lochgilphead 2,280; Cardross 2,070; Rhu 1,930; Sandbank 1,320; Kilcreggan 1,280; Rosneath 1,260; Ardrishaig 1,220; Innellan 1,140; Tarbert 1,120; Port Bannatyne 1,090; Tobermory 1,000. Met Office historic station data: Tiree, \"Lat 56.500 Lon -6.880, 12 metres amsl\", sunshine from 1928 (Campbell Stokes, later Kipp and Zonen marked #); Braemar station file.",
+    "localProject": "Normal distribution and z-scores on January mean temperature ((tmax + tmin) / 2), 1961 to 2025, 65 Januaries each. Tiree mean 5.52, sd 1.13; Braemar mean 1.27, sd 1.79. 1963: Tiree 2.15 (-3.37, z -2.97), Braemar -4.65 (-5.92, z -3.31). 1979: Tiree 2.70 (-2.82, z -2.49), Braemar -2.95 (-4.22, z -2.36). 2010: Tiree 3.85 (-1.67, z -1.47), Braemar -1.55 (-2.82, z -1.57). Warmest 1989: Tiree 7.95 (z +2.14), Braemar 5.40 (z +2.31). Within 1 sd 71 per cent both; within 2 sd Tiree 94, Braemar 95. Tiree May sunshine 99 Mays, mean 222.9 h, max 1975 329.1. Page labels statistics as ours. AI angle: raw differences vs z-scores. Lesson family: normal distribution, standard deviation, z-scores, checking a model.",
+    "requiredMentions": [
+      "41,900",
+      "Tiree",
+      "normal distribution",
+      "Helensburgh",
+      "Oban",
+      "Dunoon",
+      "Campbeltown",
+      "Rothesay",
+      "Lochgilphead",
+      "Garelochhead",
+      "Tobermory"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data: Argyll and Bute and Scotland.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Met Office historic station data: Tiree and Braemar monthly records.",
+        "url": "https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-station-data"
+      }
+    ],
+    "rejectedClaims": [
+      "That Tiree is the sunniest place in the UK: not read from a primary source, so not claimed; only the file's May figures are given.",
+      "Gaelic language statistics: identity data, excluded.",
+      "Ferry routes and times: not needed and not claimed.",
+      "Argyll and Bute school term dates: none read.",
+      "Named Argyll and Bute schools: none named.",
+      "Adding the rounded female and male counts to reach the total: not done, since each is rounded separately."
+    ]
   }
 }

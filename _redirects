@@ -4154,4 +4154,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-angus /src/pages/coding-classes-in-angus.html 200
 /coding-classes-in-angus.md /src/pages/coding-classes-in-angus.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-argyll-and-bute /src/pages/coding-classes-in-argyll-and-bute.html 200
+/coding-classes-in-argyll-and-bute.md /src/pages/coding-classes-in-argyll-and-bute.md 200
 /* /src/pages/404.html 404
