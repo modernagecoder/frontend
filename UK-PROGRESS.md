@@ -249,7 +249,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 197 | 11-plus-maths-tuition-redbridge (rbm, #15158A) | maths door by area | 3,510 | 1.7% vs 11-plus-maths-tuition-kingston | the council warns practice papers may not match: prepare the curriculum | Year 5 measures and unit conversion | b6bef4ac |
 | 198 | 11-plus-maths-tuition-slough (slm, #6B5730) | maths door by area | 3,581 | 2% vs 11-plus-maths-tuition-redbridge | an analogue watch is allowed: the maths of time | elapsed time and timetables | 64ad3cc6 |
 | 199 | 11-plus-maths-tuition-reading (rdm, #4C2A0B) | maths door by area | 3,755 | 1% vs 11-plus-maths-tuition-slough | two tests, two calendars; July of Year 5 and each element must reach the standard | volume by layers of cubes, 3-D shapes | a4ade516 |
-| 200 | 11-plus-maths-tuition-southend (sem, #256B1B) | maths door by area | 3,498 | 1.3% vs 11-plus-maths-tuition-redbridge | a whole hour of maths, half the total: cover every Year 5 statement | Roman numerals and place value to a million | (this commit) |
+| 200 | 11-plus-maths-tuition-southend (sem, #256B1B) | maths door by area | 3,498 | 1.3% vs 11-plus-maths-tuition-redbridge | a whole hour of maths, half the total: cover every Year 5 statement | Roman numerals and place value to a million | 4b9bb2d4 |
+| 201 | 11-plus-maths-tuition-essex (exm, #8A4C7D) | maths door by area | 3,506 | 2% vs 11-plus-maths-tuition-southend | the CSSE heads value an appreciation of numerical conventions | notation: squares, cubes, square and cubic units | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
