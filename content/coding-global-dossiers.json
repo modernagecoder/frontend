@@ -23954,5 +23954,54 @@
       "Named Herefordshire schools: none is named.",
       "The Mappa Mundi drawing counts as a total: the cathedral gives category counts and \"500 or so\"; we do not add the categories up."
     ]
+  },
+  "coding-classes-in-isle-of-wight": {
+    "market": "Isle of Wight",
+    "bodyClass": "cg-iow",
+    "pageType": "governorate",
+    "curriculumAuthority": "Isle of Wight (one unitary council). ONS Census 2021 TS001 via Nomis: Isle of Wight 140,459. ONS Census 2021 built-up areas above 3,000 (published; all agree with our OA sums): Newport 25,405; Ryde 24,105; Cowes 14,365; Sandown 11,655; Shanklin 9,120; East Cowes 8,430; Freshwater and Totland 7,520; Ventnor 5,565; Bembridge 3,560; Wootton 3,105. Cowes Week website: \"Thank you to all competitors and spectators who took part in this year's bicentenary regatta\"; \"North Sails Cowes Week 2026 wraps up at the start of its third century\"; \"31 JUL - 6 AUG 2027\". RYA Portsmouth Yardstick: \"An easy way for different classes of dinghy to be competitively race against each other\"; \"each boats elapsed time ... must be converted to a corrected time (time converted based on a boats handicap)\"; \"Handicaps are allocated and administered by clubs to suit their local factors\". RYA PY guidance: \"Corrected time = (Elapsed time x most laps x 1000) / (PN x actual laps)\". RYA PN list: 29er 900; RS Aero 7 1062; ILCA 7 / Laser 1103 (change -1); Wayfarer 1107; Solo 1139; ILCA 6 / Laser Radial 1156; RS Feva XL 1248; Mirror 1364; Topper 1369; Optimist 1629.",
+    "localProject": "Handicapping by normalisation. Model race (ours, seed 20260926): course sailed by a PN 1100 boat in one hour, elapsed = 3,600/1,100 x PN x skill, skill normal mean 1, sd 0.02. Elapsed: 29er 49:15, RS Aero 7 58:01, ILCA 7 1:00:21, Wayfarer 1:01:48, Solo 1:02:16, ILCA 6 1:03:22, RS Feva XL 1:06:28, Topper 1:15:09, Mirror 1:16:14, Optimist 1:28:07; spread 2,332 s. Corrected (elapsed x 1000 / PN): RS Feva XL 3,195.5 s, Optimist 3,245.5, RS Aero 7 3,277.8, Solo 3,280.1, ILCA 7 3,282.9, 29er 3,283.3, ILCA 6 3,288.9, Topper 3,293.6, Wayfarer 3,349.6, Mirror 3,353.4; spread 157.9 s. Sensitivity: ILCA 7 at 1104 corrects to 3,279.9 (second); at 1102, 3,285.8 (fourth). Page states the race is a model and PNs and formula are the RYA's. AI angle: an assistant ranks without flagging a five-second margin that one point reverses. Lesson family: handicapping by normalisation, ranking and sensitivity to a published constant.",
+    "requiredMentions": [
+      "140,459",
+      "bicentenary regatta",
+      "third century",
+      "31 July to 6 August 2027",
+      "Corrected time = (Elapsed time x most laps x 1000)",
+      "ILCA 7",
+      "157.9 seconds",
+      "Portsmouth Yardstick",
+      "Freshwater and Totland",
+      "2,332 seconds"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the Isle of Wight, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Isle of Wight towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cowes Week: 2026 bicentenary regatta, third century, 2027 dates.",
+        "url": "https://www.cowesweek.co.uk/"
+      },
+      {
+        "claim": "RYA Portsmouth Yardstick scheme: corrected time, club administration of handicaps, current PN list.",
+        "url": "https://www.rya.org.uk/racing/portsmouth-yardstick"
+      }
+    ],
+    "rejectedClaims": [
+      "Cowes Week entry numbers: the site shows a live counter whose year is unclear, so no entry figure is printed.",
+      "Round the Island Race facts: its site gave no connection and the Island Sailing Club site returned 406, so the race is not mentioned.",
+      "How corrected times are rounded in official results: not stated on the pages read, so no rounding rule is claimed.",
+      "Isle of Wight school term dates: none read.",
+      "Ferry times and fares: not needed and not claimed.",
+      "Named Island schools or sailing clubs' junior programmes: none is named."
+    ]
   }
 }
