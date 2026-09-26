@@ -23187,5 +23187,50 @@
       "Newmarket as a Cambridgeshire town: most of its built-up area lies in Suffolk.",
       "Named Cambridgeshire schools or university departments' teaching: none is claimed."
     ]
+  },
+  "coding-classes-in-greater-manchester": {
+    "market": "Greater Manchester",
+    "bodyClass": "cg-gmc",
+    "pageType": "governorate",
+    "curriculumAuthority": "Greater Manchester (ten metropolitan boroughs). ONS Census 2021 TS001 via Nomis: Manchester 551,938; Wigan 329,330; Bolton 295,963; Stockport 294,773; Salford 269,923; Oldham 242,088; Trafford 235,052; Tameside 231,071; Rochdale 223,773; Bury 193,851; total 2,867,762 (our sum). ONS Census 2021 built-up areas (published; checked with our OA sums): Manchester 470,405 (Manchester, Stockport, Trafford); Bolton 184,090; Stockport 117,935; Rochdale 111,255; Oldham 110,720; Salford 108,410; Wythenshawe 97,660 (90,936 inside); Wigan 81,580; Bury 81,095; Sale 62,550; Altrincham 49,680; Ashton-under-Lyne 48,600; Middleton 46,630; Leigh 45,495; Urmston 41,740; Eccles 41,125; Chadderton 37,610; Denton 35,995; Hyde 35,895; Prestwich 31,495; Radcliffe 31,115; Heywood 29,725; Farnworth 28,760; Stretford 28,015; Atherton 27,575; Stalybridge 26,830; Ashton-in-Makerfield 26,375 (21,741 inside); Little Hulton 25,825; Golborne 25,555; Cheadle Hulme 24,785; Hindley 24,490; Droylsden 23,915; Orrell 23,410 (16,549 inside); Royton 22,990; Swinton 22,885; Reddish 22,200; Whitefield 22,185; Westhoughton 21,960; Old Trafford 21,445; Dukinfield 21,155; and thirty-three more between 5,000 and 21,000 including Horwich 20,700, Hazel Grove 20,170, Failsworth 19,960, Bramhall 17,195, Ramsbottom 17,075, Bredbury and Woodley 17,040, Marple 12,970, Standish 12,940, Platt Bridge and Abram 10,590, Partington 7,710, Blackrod 5,340. Excluded: Hadfield (6,361 of 16,275 inside), Appley Bridge (3,363 of 5,130 inside). Science and Industry Museum, Baby and modern computing: \"The Small Scale Experimental Machine, nicknamed 'Baby', was the world's first stored-program computer\"; Williams and his team \"needed to test their idea that the tube could be used as a memory\"; \"17 feet in length by 7.4 feet tall, and weighed almost a ton\"; \"On 21 June 1948, Baby ran the first of its programs, which was written by Kilburn and consisted of 17 instructions, that would find the highest factor of a given number. By August, Baby was successfully running the program with numbers as high as 2 to the power 18. To get to the correct answer, Baby ran through 3.5 million calculations in 53 minutes. The answer is 131,072\".",
+    "localProject": "Reformulating a search. Highest proper factor of N by counting down from N-1 versus N divided by the smallest factor found counting up from 2 with a stop at floor(sqrt N). Candidates tested: 262,144 = 2^18, down 131,072 (answer 131,072), up 1; 262,143, down 174,762 (answer 87,381), up 2; 262,139 (largest prime below 2^18), down 262,138 (reaches 1), up 510. Rate from the museum's figures: 3.5 million in 53 minutes = about 1,100 a second (our arithmetic). Page states our counts are for our Python and do not reproduce the Baby's 3.5 million steps. AI angle: generated code follows the plain reading of the request (count down) and the cost only shows on primes or at scale. Lesson family: reformulating a search, early exit at the square root, worst-case inputs; distinct from the space-time trade-off (Cambridgeshire) and Stirling's formula (Stirling).",
+    "requiredMentions": [
+      "2,867,762",
+      "3.5 million calculations in 53 minutes",
+      "17 instructions",
+      "262,139",
+      "262,138",
+      "174,762",
+      "470,405",
+      "97,660",
+      "Platt Bridge and Abram",
+      "Williams-Kilburn tube"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the ten Greater Manchester boroughs, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Greater Manchester towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Science and Industry Museum: the Baby, its first program of 17 instructions on 21 June 1948, 3.5 million calculations in 53 minutes, answer 131,072.",
+        "url": "https://www.scienceandindustrymuseum.org.uk/objects-and-stories/baby-and-modern-computing"
+      }
+    ],
+    "rejectedClaims": [
+      "Greater Manchester school term dates: set separately by each of the ten boroughs and academies; none read for this build, none printed.",
+      "How the Baby's program actually computed each test (for example by repeated subtraction): not described on the museum page, so our step counts are for our own Python only.",
+      "Alan Turing's morphogenesis work in Manchester: the Royal Society page returned 403 and the university page does not describe it, so the planned pattern project was dropped.",
+      "Personal details of Alan Turing's life: identity matters are left out of place pages.",
+      "Hadfield and Appley Bridge as Greater Manchester towns: most of each built-up area lies outside the county.",
+      "Named Greater Manchester schools: none is named; Trafford's selective system is covered on its own maths page."
+    ]
   }
 }
