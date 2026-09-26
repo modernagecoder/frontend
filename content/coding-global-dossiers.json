@@ -25348,5 +25348,47 @@
       "Named East Renfrewshire schools or school performance: not named.",
       "East Renfrewshire school term dates: none read."
     ]
+  },
+  "coding-classes-in-falkirk": {
+    "market": "Falkirk",
+    "bodyClass": "cg-flk",
+    "pageType": "governorate",
+    "curriculumAuthority": "Falkirk (S12000014), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 158,400 (females 81,400, males 77,100); households 72,500; density 533.1 per square kilometre (Scotland 69.8); ages 0 to 14 25,300 (16.0 per cent), 65+ 31,100 (19.6 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Falkirk 35,590; Grangemouth 16,120; Bo'ness 14,840; Larbert 12,180; Stenhousemuir 9,620; Denny 8,500; Bonnybridge 5,200; Polmont 5,040; Brightons 4,270; Maddiston 3,910; Redding 3,860; Hallglen 3,080; Carronshore 2,970; Laurieston 2,650; Dunipace 2,460; Banknock 2,400; Airth 1,960. HES LB2109 (Category A, added 25/10/1972), Garden Wall and Pineapple, Dunmore Park, parish Airth: \"Dated 1761 (bothy ranges); circa 1771, pineapple crown\"; \"elaborate pineapple crown of masonry with exhuberant fronces and finial sited at head of large walled garden\"; \"acquired that year by Landmark Trust\" (1973); \"owned by National Trust for Scotland\"; \"Built by the Earl of Dunmore\".",
+    "localProject": "Vogel model, 1,000 seeds, radius sqrt(n), two nearest neighbours for seeds 600-1,000. Golden 137.5078: gaps 55/89, mean nn 1.724, min 1.678, CV 1.7 per cent. 137.0: gap 21, mean 1.516, CV 6.4. 137.3: gap 21, mean 1.658. 138.0: gap 60, mean 1.053. 140.0: gap 18, mean 0.319. 144.0: gap 5, mean 0.089. 135.0: gap 8, mean 0.142. Golden by ring: 20-60 13/21; 100-200 34/21; 300-500 55/34; 800-1,000 55/89. Fibonacci ratio 1.61803. No claim about real pineapple or masonry spirals. AI angle: wrong constant. Lesson family: phyllotaxis and golden angle.",
+    "requiredMentions": [
+      "158,400",
+      "72,500",
+      "Dunmore Pineapple",
+      "LB2109",
+      "Grangemouth",
+      "Bo'ness",
+      "Larbert",
+      "Stenhousemuir",
+      "Bonnybridge",
+      "Polmont",
+      "golden angle"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB2109: Garden Wall and Pineapple, Dunmore Park.",
+        "url": "https://portal.historicenvironment.scot/designation/LB2109"
+      }
+    ],
+    "rejectedClaims": [
+      "That real pineapples or the carved fronds show Fibonacci spiral counts: not counted, not claimed.",
+      "Falkirk Wheel and Kelpies facts: not researched for this page.",
+      "The Earl of Dunmore's colonial career: in the listing but not needed.",
+      "Grangemouth refinery or industry facts: not researched.",
+      "Named Falkirk schools: none named.",
+      "Falkirk school term dates: none read."
+    ]
   }
 }
