@@ -345,7 +345,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 293 | coding-classes-in-merthyr-tydfil-county-borough (mty, #7A352B) | cg- county index | 2,587 | 4.2% vs coding-classes-in-anglesey | How much does an iron bridge grow from winter to summer? | Thermal expansion, restrained stress | 9e18c206 |
 | 294 | coding-classes-in-monmouthshire (mmt, #4C4422) | cg- county index | 2,596 | 1.6% vs coding-classes-in-conwy | How fine can a hilltop telescope see? | Angular resolution, diffraction limit, seeing | bf84e49e |
 | 295 | coding-classes-in-neath-port-talbot (npt, #4C0B2E) | cg- county index | 2,720 | 1.2% vs coding-classes-in-flintshire | How hard does warm air push through a deep mine? | Stack effect, natural ventilation draught, ideal gas law | 0967f551 |
-| 296 | coding-classes-in-pembrokeshire (pem, #4C3240) | cg- county index | 2,604 | 1.3% vs coding-classes-in-merthyr-tydfil-county-borough | When could a tide mill grind? | Tide mill time-stepping simulation, one-way gates, lunar drift | (this commit) |
+| 296 | coding-classes-in-pembrokeshire (pem, #4C3240) | cg- county index | 2,604 | 1.3% vs coding-classes-in-merthyr-tydfil-county-borough | When could a tide mill grind? | Tide mill time-stepping simulation, one-way gates, lunar drift | d615110d |
+| 297 | coding-classes-in-powys (pow, #5C1757) | cg- county index | 2,544 | 1.6% vs coding-classes-in-ceredigion | Why does a full theatre sound drier? | Room acoustics, Sabine vs Eyring reverberation | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

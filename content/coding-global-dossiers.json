@@ -26781,5 +26781,52 @@
       "Welsh-language statistics: excluded by rule.",
       "Named schools and school term dates: none named or read."
     ]
+  },
+  "coding-classes-in-powys": {
+    "market": "Powys",
+    "bodyClass": "cg-pow",
+    "pageType": "governorate",
+    "curriculumAuthority": "Powys (W06000023). ONS Census 2021 TS001 via Nomis: 133,169. ONS built-up areas wholly inside (published; OA sums within 5): Newtown (Powys) 10,885; Brecon 8,255; Welshpool 5,455; Llandrindod Wells 5,430; Ystradgynlais 4,030; Knighton 2,910; Builth Wells 2,620; Llanidloes 2,200; Machynlleth 2,160; Crickhowell 2,110. Straddling (not tabulated): Ystalyfera, Hay-on-Wye. Cadw listed building record 7492, Grade I, Theatre at Craig-y-nos: \"constructed in 1890 by Bucknall and Jennings of Swansea\"; for \"the famous opera singer Adelina Patti following her acquisition of the property in 1879\"; \"Plan is a small version of the Bayreuth theatre and seats 150\"; \"At the opening in 1891 Madame Patti performed extracts of La Traviata and Faust\"; curtain \"depicting Madame Patti as Semiramide\".",
+    "localProject": "Sabine T = 0.161 V/A, invented hall 15 x 9 x 8 m (1,080 m3, 654 m2), coefficients plaster 0.03, wood floor 0.10, wooden chair 0.02, padded seat 0.30, person 0.45. Bare 29.1 m2 5.98 s (Eyring 5.85); wooden chairs 32.1 5.42; padded empty 74.1 2.35 (2.21); half full 85.3 2.04 (1.90); full 96.6 1.80 (1.66). All 0.6: 0.44 vs 0.29; all 1.0: Sabine 0.27 s vs true 0. Cubic-feet slip: 63.59 s. Lesson family: room acoustics, Sabine vs Eyring.",
+    "requiredMentions": [
+      "Brecon",
+      "Welshpool",
+      "Llandrindod Wells",
+      "Ystradgynlais",
+      "Knighton",
+      "Builth Wells",
+      "Llanidloes",
+      "Machynlleth",
+      "Craig-y-nos",
+      "Adelina Patti",
+      "reverberation",
+      "Sabine"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents, Powys, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cadw listed building full report 7492: Theatre at Craig-y-nos.",
+        "url": "https://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=7492"
+      }
+    ],
+    "rejectedClaims": [
+      "Real dimensions or measured acoustics of the Craig-y-nos theatre: not in the record; the model hall is ours.",
+      "Crickhowell Bridge arch counts (Cadw 7237): considered, not used.",
+      "Largest county by area and valley location: not claimed.",
+      "Welsh-language statistics: excluded by rule.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed."
+    ]
   }
 }
