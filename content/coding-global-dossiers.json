@@ -25743,5 +25743,47 @@
       "Named North Lanarkshire schools and school term dates: none named or read.",
       "That North Lanarkshire is the most populous council after any other: not claimed; page says one of the most populous."
     ]
+  },
+  "coding-classes-in-orkney": {
+    "market": "Orkney Islands",
+    "bodyClass": "cg-ork",
+    "pageType": "governorate",
+    "curriculumAuthority": "Orkney Islands (S12000023), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 22,000 (females 11,200, males 10,800); households 10,600; density 22.2 per square kilometre (Scotland 69.8); ages 0 to 14 3,300 (15.0 per cent), 65+ 5,500 (25.0 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Kirkwall 7,500; Stromness 1,790; Finstown 500. HES LB46400 (Category A, added 16/09/1999), North Ronaldsay, Sheep Dyke and Associated Punds, parish Cross and Burness: \"Circa 1832 with later alterations. 12-13 mile-long, roughly 6 foot high drystone island perimeter wall\"; \"probably the largest drystone construction conceived of as a single entity in the world\"; \"crofters being allocated numbers according to the size of the smallholding\"; \"keep the sheep, for the majority of the year, on the foreshore where they would 'graze' on seaweed\"; \"A sheep court was set up\"; \"worked out and agreed between the laird and the crofters in 1839\"; \"The nine circular 'punds'\"; \"'Punding' was carried out six times a year\"; \"each farmer took a hand in the repairs\". Hoy, Sanday and Westray are Orkney islands (HES Orkney listings include Hoy; islands named only as places).",
+    "localProject": "Invented: 9 crofters, 9 sections; crofter prefs = 0.5 x distance + section difficulty + noise; section prefs = -experience + noise + 2 x distance; seed 1832. Crofter-proposing Gale-Shapley: 32 proposals, 0 blocking, ranks 2,7,1,4,3,6,1,3,5 (sum 32, worst 7th). Section-proposing: 40 proposals, same matching. Exhaustive 362,880 matchings: 1 stable. Greedy first come: rank sum 34, worst 9th, 10 blocking pairs. Cyclic 3x3: 3 stable matchings; crofters propose all 1st choice; sections propose all 3rd. Gale-Shapley 1962 and Nobel (economics, 2012) are general knowledge. Lesson family: stable matching.",
+    "requiredMentions": [
+      "10,600",
+      "Kirkwall",
+      "Stromness",
+      "Finstown",
+      "North Ronaldsay",
+      "sheep dyke",
+      "LB46400",
+      "Gale-Shapley",
+      "stable matching",
+      "punds",
+      "Dennis Head"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB46400: North Ronaldsay, Sheep Dyke and Associated Punds.",
+        "url": "https://portal.historicenvironment.scot/designation/LB46400"
+      }
+    ],
+    "rejectedClaims": [
+      "How dyke repairs were actually allocated: not in the listing; the model is invented.",
+      "Current sheep numbers or the island's current population: not read, not claimed.",
+      "Skara Brae dates: HES visitor page gives about 5,000 years; not used here.",
+      "Ferry or air links between islands: not claimed.",
+      "Named Orkney schools and school term dates: none named or read.",
+      "That North Ronaldsay is the most northerly isle: not claimed."
+    ]
   }
 }
