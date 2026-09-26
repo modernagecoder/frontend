@@ -25919,5 +25919,46 @@
       "Named Borders schools and school term dates: none named or read.",
       "Directions or distances between Borders towns: not claimed."
     ]
+  },
+  "coding-classes-in-shetland": {
+    "market": "Shetland Islands",
+    "bodyClass": "cg-zet",
+    "pageType": "governorate",
+    "curriculumAuthority": "Shetland Islands (S12000027), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 22,900 (females 11,400, males 11,500); households 10,600; density 15.6 per square kilometre (Scotland 69.8); ages 0 to 14 3,800 (16.6 per cent), 65+ 5,000 (21.8 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Lerwick 6,760; Scalloway 1,170; Brae 750. Met Office historic station data, Lerwick: \"Location: 445300E 1139700N, Lat 60.139 Lon -1.183, 82 metres amsl\"; first month December 1930. Whalsay, Bressay, Yell, Unst, Foula, Fair Isle and Sumburgh are Shetland places named only as places.",
+    "localProject": "DMS: 60.139 = 60 08 20.4; 1.183 = 1 10 58.8. Naive split-then-round: 59.99999 -> 59 59 60.0; safe round-once: 60 00 00.0. Million values 60-61 deg: naive 828 show 60.0 s (1 dp), 8,328 (0 dp). 60.139 stored 60.13900000000000289901; (60.139-60)x60 = 8.340000000000174. Sphere 6371.0 km: 1 deg lon 111.2 km (0), 69.2 (51.5), 62.3 (55.9), 55.4 (60.139), 38.0 (70); 1 min lat 1.853 km. OS grid -> OSGB36 60.1398, -1.1843; ~94 m N-S, ~72 m E-W from file figures; rounding explains. Lesson family: sexagesimal conversion, carry, floats, longitude scale.",
+    "requiredMentions": [
+      "Scalloway",
+      "Whalsay",
+      "Fair Isle",
+      "Foula",
+      "Sumburgh",
+      "Bressay",
+      "Mainland of Shetland",
+      "60.139",
+      "55.4 km",
+      "degrees, minutes and seconds"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Met Office historic station data: Lerwick.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/lerwickdata.txt"
+      }
+    ],
+    "rejectedClaims": [
+      "That Shetland lies exactly on the 60th parallel or which isles are north of it: not claimed beyond the station figure.",
+      "Datum differences between OSGB36 and WGS84: not claimed; rounding explains the gap.",
+      "Fair Isle knitting, Up Helly Aa and Norse history: not researched for this page.",
+      "Ferry and flight details between isles: not claimed.",
+      "Named Shetland schools and school term dates: none named or read.",
+      "That a nautical mile equals exactly one minute of latitude: page says roughly."
+    ]
   }
 }
