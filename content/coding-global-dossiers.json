@@ -27466,5 +27466,50 @@
       "Distances and travel times: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "coding-and-ai-classes-in-north-west-england": {
+    "market": "North West England",
+    "bodyClass": "cg-rnw",
+    "pageType": "governorate",
+    "curriculumAuthority": "North West region (E12000002). ONS Census 2021 TS001 via Nomis TYPE480: 7,417,397. ONS LAD22 to RGN22: 39 local authorities. ONS Census 2021 BUAs wholly in region: Liverpool 506,565; Manchester 470,405; Bolton 184,090; Warrington 174,970; Blackpool 149,070; Blackburn 124,955; Stockport 117,935; Rochdale 111,255; Oldham 110,720; Birkenhead 109,835; Salford 108,410; Preston 94,490; Southport 94,440. Met Office historic station data: Newton Rigg \"Location 349300E 530800N, Lat 54.670 Lon -2.786, 169 metres amsl\", monthly from January 1959.",
+    "localProject": "Newton Rigg annual rain (population SD). 1961-1990: mean 912.0, SD 111.6, CV 0.122, driest 1964 694, wettest 1967 1,203. 1991-2020: mean 981.1, SD 162.8, CV 0.166, driest 1996 674, wettest 2020 1,326. Mean +7.6%, SD +45.9%. Sample SD 113.5 / 165.6. Lesson family: coefficient of variation, relative vs raw spread.",
+    "requiredMentions": [
+      "Blackpool",
+      "Bolton",
+      "Warrington",
+      "Stockport",
+      "Rochdale",
+      "Oldham",
+      "Birkenhead",
+      "Southport",
+      "Newton Rigg",
+      "coefficient of variation"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by region, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Open Geography Portal lookups: LAD22 to RGN22 and BUA22 to region.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "Met Office historic station data, Newton Rigg.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/newtonriggdata.txt"
+      }
+    ],
+    "rejectedClaims": [
+      "A regional rainfall trend: explicitly not claimed from one station.",
+      "Ringway (Manchester Airport) record: ends in 2004, not used.",
+      "Chester BUA: crosses the boundary, omitted.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }
