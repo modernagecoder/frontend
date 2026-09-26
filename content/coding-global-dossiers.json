@@ -25433,5 +25433,47 @@
       "Painting cycle myths: only the listing's paint facts considered; not used.",
       "Named Fife schools and school term dates: none named or read."
     ]
+  },
+  "coding-classes-in-highland": {
+    "market": "Highland",
+    "bodyClass": "cg-hld",
+    "pageType": "governorate",
+    "curriculumAuthority": "Highland (S12000017), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 235,400 (females 120,000, males 115,400); households 111,700; density 9.2 per square kilometre (Scotland 69.8); ages 0 to 14 34,700 (14.7 per cent), 65+ 55,700 (23.7 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Inverness 47,790; Nairn 10,190; Thurso 7,390; Wick 6,870; Alness 5,950; Fort William 5,600; Westhill (Highland) 5,470; Dingwall 5,360; Invergordon 3,930; Culloden 3,830; Tain 3,570; Caol 3,310; Aviemore 3,230; Milton of Leys 3,160; Muir of Ord 2,840; Grantown-on-Spey 2,510; Portree 2,310; Conon Bridge 2,190. HES LB310 (Category A, added 05/10/1971), Glenfinnan Railway Viaduct over River Finnan, parish Arisaig and Moidart: \"Opened 1901; long 21 arched concrete viaduct built on curve\"; \"Thicker pylons flank centre portion of continuous semi-circular arch rings\"; \"416 yards (380 m) long\"; \"The longest concrete viaduct in Scotland\"; \"West Highland Extension Railway opened from Ft William to Mallaig in 1901\".",
+    "localProject": "Cubic Bezier semicircle, radius 1, handle 4/3 tan(theta/4), de Casteljau at 2,001 points per piece. Max radial error: 1 piece 1.83501 per cent (handle 1.3333); 2 pieces 0.02725 (0.5523); 3 pieces 0.00239 (0.3573); 4 pieces 0.00042 (0.2652); 6 pieces 0.00004. Naive chord/3: 2 pieces 4.2893 (0.4714); 4 pieces 0.2897. Radius 7.5 m: 137.63 mm, 2.04 mm, 0.03 mm. 416 yd = 380.4 m. Bezier curves attributed to 1960s car industry (general knowledge, Bezier at Renault, de Casteljau at Citroen); page says only \"car industry of the 1960s\". Lesson family: Bezier approximation error.",
+    "requiredMentions": [
+      "Glenfinnan",
+      "LB310",
+      "de Casteljau",
+      "Thurso",
+      "Invergordon",
+      "Aviemore",
+      "Mallaig",
+      "Portree",
+      "Grantown-on-Spey",
+      "Culloden",
+      "Muir of Ord"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB310: Glenfinnan Railway Viaduct over River Finnan.",
+        "url": "https://portal.historicenvironment.scot/designation/LB310"
+      }
+    ],
+    "rejectedClaims": [
+      "Film and tourist-train associations of the viaduct: not in the listing, not used.",
+      "Arch spans, radii or curve radius of the real viaduct: not in the listing, not claimed; 7.5 m is invented.",
+      "How the viaduct was set out in 1901: not claimed.",
+      "Gaelic-language statistics: excluded by rule.",
+      "Named Highland schools and school term dates: none named or read.",
+      "Travel times between Highland towns: not claimed."
+    ]
   }
 }

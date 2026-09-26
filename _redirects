@@ -4190,4 +4190,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-fife /src/pages/coding-classes-in-fife.html 200
 /coding-classes-in-fife.md /src/pages/coding-classes-in-fife.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-highland /src/pages/coding-classes-in-highland.html 200
+/coding-classes-in-highland.md /src/pages/coding-classes-in-highland.md 200
 /* /src/pages/404.html 404
