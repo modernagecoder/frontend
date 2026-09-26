@@ -253,7 +253,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 201 | 11-plus-maths-tuition-essex (exm, #8A4C7D) | maths door by area | 3,506 | 2% vs 11-plus-maths-tuition-southend | the CSSE heads value an appreciation of numerical conventions | notation: squares, cubes, square and cubic units | 35ecfb7a |
 | 202 | 11-plus-maths-tuition-wirral (wrm, #0B3B4C) | maths door by area | 3,318 | 1.3% vs 11-plus-maths-tuition-bexley | Paper Two maths, five options; 2028 window already published | negative numbers through zero | 10836524 |
 | 203 | 11-plus-maths-tuition-gloucestershire (glm, #5C0E32) | maths door by area | 3,617 | 1.8% vs 11-plus-maths-tuition-reading | the test moves to 3 July 2027 with a short-written-answer maths paper | decimals to three places, written exactly | c84d3d18 |
-| 204 | 11-plus-maths-tuition-warwickshire (wkm, #466B69) | maths door by area | 3,418 | 1.8% vs 11-plus-maths-tuition-essex | harder than KS2 but close to the curriculum: depth, not new topics | multi-step problems with rates and scaling | (this commit) |
+| 204 | 11-plus-maths-tuition-warwickshire (wkm, #466B69) | maths door by area | 3,418 | 1.8% vs 11-plus-maths-tuition-essex | harder than KS2 but close to the curriculum: depth, not new topics | multi-step problems with rates and scaling | 95618717 |
+| 205 | 11-plus-maths-tuition-medway (mdm, #10226B) | maths door by area | 3,342 | 2.5% vs 11-plus-maths-tuition-essex | one unbroken 50-minute maths paper, counted twice, no watch | formal written methods with estimation checks | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
