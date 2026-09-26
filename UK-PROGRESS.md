@@ -328,7 +328,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 276 | coding-classes-in-renfrewshire (rfw, #2A4C41) | cg- council area index | 2,636 | 4.7% vs coding-classes-in-highland | When a bridge rolls instead of swinging, where does its tip go? | Parametric curves, rolling without slipping, units | 67026d8d |
 | 277 | coding-classes-in-scottish-borders (sbo, #7A5943) | cg- council area index | 2,702 | 2.1% vs coding-classes-in-falkirk | How do you work out the date of Easter, and prove the formula right? | Easter computus, rare exceptions, exhaustive testing | 9c623ff6 |
 | 278 | coding-classes-in-shetland (zet, #0B4C4C) | cg- council area index | 2,661 | 2.2% vs coding-classes-in-renfrewshire | Why do maps still count in sixties, and what breaks in the conversion? | Sexagesimal conversion, carry bug, longitude scale | 9e527aac |
-| 279 | coding-classes-in-south-ayrshire (say, #6B4650) | cg- council area index | 2,729 | 2.4% vs coding-classes-in-fife | How much coal does it take to boil the sea down to salt? | Energy balance, sensitivity analysis | (this commit) |
+| 279 | coding-classes-in-south-ayrshire (say, #6B4650) | cg- council area index | 2,729 | 2.4% vs coding-classes-in-fife | How much coal does it take to boil the sea down to salt? | Energy balance, sensitivity analysis | 8f3d9b50 |
+| 280 | coding-classes-in-south-lanarkshire (slk, #37377A) | cg- council area index | 2,728 | 2.4% vs coding-classes-in-highland | What is the fastest way to spread one lesson through a school, and what is lost? | Broadcast trees, fan-out vs depth | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

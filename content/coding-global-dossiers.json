@@ -26004,5 +26004,54 @@
       "Named South Ayrshire schools and school term dates: none named or read.",
       "Directions or distances between towns: not claimed."
     ]
+  },
+  "coding-classes-in-south-lanarkshire": {
+    "market": "South Lanarkshire",
+    "bodyClass": "cg-slk",
+    "pageType": "governorate",
+    "curriculumAuthority": "South Lanarkshire (S12000029), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 327,200 (females 168,900, males 158,300); households 147,800; density 184.7 per square kilometre (Scotland 69.8); ages 0 to 14 51,600 (15.8 per cent), 65+ 66,300 (20.3 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: East Kilbride 75,310; Hamilton 54,480; Rutherglen 30,950; Cambuslang 30,790; Blantyre 16,800; Larkhall 15,030; Carluke 13,810; Lanark 8,880; Strathaven 8,090; Bothwell 6,870; Uddingston 6,300; Stonehouse 5,550. HES LB37049 (Category A, added 12/01/1971), New Lanark, Visitor Centre (formerly New Institution for the Formation of Character): \"1816; Engine House 1881\"; \"ideal industrial community begun by David Dale and developed by Robert Owen\"; \"Owen's complex system of education that provided facilities for all ages\"; \"a school based on the ideas of the educational innovator, Joseph Lancaster\"; \"galleries on three sides\"; \"a library and a reading room\". HES LB37051 (Category A), Mill No 1: \"originally built in 1785 and spinning started in 1786\"; \"burnt down on 9 October 1788\"; \"a pioneering cotton-spinning village, which became a model for industrial communities\". Lancaster's use of older pupils to teach younger ones is general knowledge, stated briefly.",
+    "localProject": "Invented school of 500, hand-off fidelity 0.98. Teacher alone k=10: 50 rounds, depth 1, 98.0. Monitorial k=10: 6 rounds, depth 2, 96.0 (MC 95.99 of 200,000). Doubling k=1: 9 rounds, max depth among 500 = 8 (85.1), mean depth 4.44, mean intact 91.5. k=3: 5 rounds, depth 5, 90.4. k=10 everyone: 3 rounds, depth 3, 94.1. Lesson family: broadcast trees, fan-out vs depth.",
+    "requiredMentions": [
+      "327,200",
+      "147,800",
+      "184.7",
+      "Rutherglen",
+      "Cambuslang",
+      "Blantyre",
+      "Larkhall",
+      "Carluke",
+      "Strathaven",
+      "Bothwell",
+      "Uddingston",
+      "New Lanark",
+      "LB37049",
+      "Joseph Lancaster"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB37049: New Lanark, Visitor Centre (formerly New Institution for the Formation of Character).",
+        "url": "https://portal.historicenvironment.scot/designation/LB37049"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB37051: New Lanark, Mill No 1.",
+        "url": "https://portal.historicenvironment.scot/designation/LB37051"
+      }
+    ],
+    "rejectedClaims": [
+      "How lessons were actually organised at New Lanark, class sizes or outcomes: not in the listing, not claimed.",
+      "World Heritage status of New Lanark: not read from a primary source today, not claimed.",
+      "David Livingstone and Hunter brothers sites: not used.",
+      "Robert Owen's wider politics: not discussed.",
+      "Named South Lanarkshire schools and school term dates: none named or read.",
+      "Directions or distances between towns: not claimed."
+    ]
   }
 }
