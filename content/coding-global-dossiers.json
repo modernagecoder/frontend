@@ -23746,5 +23746,62 @@
       "East Riding and Hull school term dates: none read.",
       "Named schools: none is named."
     ]
+  },
+  "coding-classes-in-east-sussex": {
+    "market": "East Sussex",
+    "bodyClass": "cg-esu",
+    "pageType": "governorate",
+    "curriculumAuthority": "East Sussex (ceremonial: five districts under East Sussex County Council plus Brighton and Hove). ONS Census 2021 TS001 via Nomis: Brighton and Hove 277,103; Wealden 160,152; Eastbourne 101,686; Lewes 99,905; Rother 93,108; Hastings 90,995; total 822,949 (our sum). ONS Census 2021 built-up areas (published; checked with our OA sums): Brighton and Hove 277,105; Eastbourne 99,180 (Eastbourne, Wealden); Hastings 91,490 (Hastings, Rother); Bexhill-on-Sea 43,755; Seaford 23,865; Hailsham 22,550; Crowborough 21,990; Lewes 16,060; Peacehaven 15,700; Uckfield 15,035; Newhaven 12,850; Polegate 10,065; Heathfield 7,670; Lower Willingdon 6,130; Battle 5,330; Stone Cross 5,035. Excluded: Haywards Heath (407 in Lewes), Burgess Hill (863 in Lewes). Observatory Science Centre, History: \"The Royal Observatory was founded by King Charles II on 4th March 1675 when John Flamsteed was appointed by royal warrant\"; \"Over 70 possible sites for the new observatory were considered\"; shortlist of five; \"The final decision was made in April 1946 - it was announced that the Observatory would be moving to Herstmonceux\"; \"The building was constructed to house three reflecting and three refracting telescopes in the six green domes\"; \"the work was completed in 1958\"; \"in 1990, the decision was taken to move the Observatory again, this time to a new site at Cambridge\". About us: operating \"in the former home of The Royal Greenwich Observatory since 1995\". Postcode BN27 1RN (ONS postcode directory via postcodes.io): 50.869557, 0.338398. NOAA Solar Calculator details: calculations \"based on equations from Astronomical Algorithms, by Jean Meeus\"; sunrise and sunset \"theoretically accurate to within a minute\" between plus or minus 72 degrees latitude.",
+    "localProject": "Equation of time and solar noon. NOAA spreadsheet formulas (geometric mean longitude, anomaly, eccentricity, obliquity with nutation term, y = tan^2(eps/2)), evaluated at 12:00 UT for each day of 2027; solar noon (min after 0h GMT) = 720 - 4 x 0.338398 - EoT. Longitude shift 1.35 min. Earliest solar noon 3 November 11:42:09 GMT (EoT +16.49); latest 11 February 12:12:52 GMT (EoT -14.22); span 30.72 min. EoT sign changes near 16 April, 13 June, 2 September, 26 December; local extremes 14 May +3.64 (11:55:00), 26 July -6.56 (12:05:13). UK summer time (28 March to 31 October 2027): solar noon on clocks 12:42:16 (30 October) to 13:05:13 (26 July). Page states numbers come from NOAA formulas run by us, not from the observatory's instruments. AI angle: generated time code ignores the equation of time or applies summer time twice. Lesson family: equation of time and solar noon; distinct from Edinburgh (sunrise and sunset with Meeus).",
+    "requiredMentions": [
+      "822,949",
+      "4th March 1675",
+      "six green domes",
+      "April 1946",
+      "over 70 possible sites",
+      "11:42:09",
+      "12:12:52",
+      "Lower Willingdon",
+      "Stone Cross",
+      "BN27 1RN"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for Brighton and Hove and the five East Sussex districts, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for East Sussex towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Observatory Science Centre: history of the Royal Observatory and its move to Herstmonceux.",
+        "url": "https://www.the-observatory.org/history"
+      },
+      {
+        "claim": "Observatory Science Centre: operating in the former Royal Greenwich Observatory since 1995.",
+        "url": "https://www.the-observatory.org/about-us"
+      },
+      {
+        "claim": "NOAA Solar Calculator details: formulas after Meeus, stated accuracy.",
+        "url": "https://gml.noaa.gov/grad/solcalc/calcdetails.html"
+      },
+      {
+        "claim": "ONS postcode directory via postcodes.io: BN27 1RN coordinates.",
+        "url": "https://postcodes.io/"
+      }
+    ],
+    "rejectedClaims": [
+      "The exact year the observatory staff moved into Herstmonceux: the history page gives the decision date (April 1946) and the domes' completion (1958), so no move-in year is claimed.",
+      "Haywards Heath and Burgess Hill as East Sussex towns: both lie in West Sussex.",
+      "Sundial designs at the observatory: not read at a primary source; the project uses formulas only.",
+      "East Sussex school term dates: set by the county council, Brighton and Hove and academies; none read.",
+      "Named East Sussex schools: none is named.",
+      "The precise accuracy of our solar noon times: NOAA states accuracy for sunrise and sunset; our noon times are presented to the second as computed values, not as measured ones."
+    ]
   }
 }
