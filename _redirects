@@ -4266,4 +4266,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-bridgend /src/pages/coding-classes-in-bridgend.html 200
 /coding-classes-in-bridgend.md /src/pages/coding-classes-in-bridgend.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-caerphilly-county-borough /src/pages/coding-classes-in-caerphilly-county-borough.html 200
+/coding-classes-in-caerphilly-county-borough.md /src/pages/coding-classes-in-caerphilly-county-borough.md 200
 /* /src/pages/404.html 404

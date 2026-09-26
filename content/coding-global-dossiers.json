@@ -26282,5 +26282,52 @@
       "Named schools and school term dates: none named or read.",
       "Distances between towns: not claimed."
     ]
+  },
+  "coding-classes-in-caerphilly-county-borough": {
+    "market": "Caerphilly county borough",
+    "bodyClass": "cg-cph",
+    "pageType": "governorate",
+    "curriculumAuthority": "Caerphilly (W06000018), Caerphilly County Borough Council. ONS Census 2021 TS001 via Nomis: 175,952. ONS built-up areas (published; OA sums within 5): Caerphilly 33,105; Risca 15,195; Blackwood 12,620; Ystrad Mynach 11,855; Pontllanfraith 9,360; Bargod 8,035; Newbridge 7,585; Bedwas 6,460; Oakdale 6,130; Abertridwr and Senghenydd 5,640; Abercarn 5,125; Rhymney 4,995; Aberbargoed 4,415; Llanbradach 3,765; New Tredegar 3,285. Cadw listed building record 25495, Grade II*, Elliot Colliery Winding Engine House and Engine: \"the East and West Elliot pits developed during 1880s\"; \"The winding engine by Thornewill and Warham of Burton on Trent was installed 1891\"; \"two 42\" (1.4m) horizontal cylinders of 6' (1.82m) stroke\"; \"parallel drum 24' (7.3m) diameter\"; \"lift c 6000 tons (6120 tonnes) of water per day\"; \"In 1904 high pressure boilers were installed\"; \"28\" (711mm) diameter\"; \"c 2000 Hp\"; \"c 3000 tons (3060 tonnes) per day\"; \"semi-spiral drum, known as a diabolo, with a reverse taper\"; \"The pit closed in 1967\".",
+    "localProject": "Regex over record text finds 6 pairs. 42\" -> 1.067 m vs 1.4 m (+31.2 per cent, flagged); 6' -> 1.829 vs 1.82 (-0.5); 24' -> 7.315 vs 7.3 (-0.2); 28\" -> 0.711 vs 711 mm (0.0). Tons: 6000 -> long 6,096 t, short 5,443 t, stated 6,120 (1.020); 3000 -> 3,048 / 2,722 / 3,060 (1.020). No claim which figure is wrong. Lesson family: consistency checking of paired values, regex, tolerance, ton definitions.",
+    "requiredMentions": [
+      "Risca",
+      "Blackwood",
+      "Ystrad Mynach",
+      "Pontllanfraith",
+      "Bargod",
+      "Bedwas",
+      "Oakdale",
+      "Senghenydd",
+      "Elliot Colliery",
+      "Thornewill",
+      "diabolo",
+      "long ton"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents, Caerphilly, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cadw listed building full report 25495: Elliot Colliery Winding Engine House and Engine.",
+        "url": "https://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=25495"
+      }
+    ],
+    "rejectedClaims": [
+      "Which figure in the 42 inch pair is the error: not claimed.",
+      "Which ton the original description meant: not claimed.",
+      "Caerphilly Castle leaning tower: considered, not used (centre-of-mass lesson exists elsewhere).",
+      "Named mining disasters or casualties: not discussed.",
+      "Welsh-language statistics: excluded by rule.",
+      "Named schools and school term dates: none named or read."
+    ]
   }
 }

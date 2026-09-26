@@ -1178,3 +1178,4 @@
 .cg-root.cg-agy  { --cg-accent: #464C2A; --cg-accent-soft: rgba(70,76,42,.10); }   /* Anglesey: a lichen olive on castle limestone, picked by the solver (7.27:1 on the darkest paper tint), greyer than the Highland olive */
 .cg-root.cg-bgt  { --cg-accent: #22364C; --cg-accent-soft: rgba(34,54,76,.10); }   /* Blaenau Gwent: a cast-iron blue-black for the Tredegar clock, picked by the solver (9.95:1 on the darkest paper tint), greyer than the Moray navy */
 .cg-root.cg-bgd  { --cg-accent: #6B5A46; --cg-accent-soft: rgba(107,90,70,.10); }   /* Bridgend: a weathered yellow-brick brown for the Tondu tower, picked by the solver (5.33:1 on the darkest paper tint), duller and yellower than the Borders stone */
+.cg-root.cg-cph  { --cg-accent: #32134C; --cg-accent-soft: rgba(50,19,76,.10); }   /* Caerphilly: a coal-seam purple-black from the solver (12.69:1 on the darkest paper tint), redder and darker than the Inverclyde violet */

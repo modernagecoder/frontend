@@ -550,6 +550,7 @@ const MARKETS = [
   ['coding-classes-in-anglesey', 'Anglesey'],
   ['coding-classes-in-blaenau-gwent', 'Blaenau Gwent'],
   ['coding-classes-in-bridgend', 'Bridgend'],
+  ['coding-classes-in-caerphilly-county-borough', 'Caerphilly'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
