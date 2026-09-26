@@ -748,3 +748,4 @@
 .ag-root.ag-sem { --ag-accent: #256B1B; --ag-accent-soft: rgba(37,107,27,.09); }   /* Southend 11 plus maths: an estuary green, chosen by colour distance from every accent on the site (5.29:1 on the darkest paper tint) */
 .ag-root.ag-exm { --ag-accent: #8A4C7D; --ag-accent-soft: rgba(138,76,125,.09); }   /* Essex 11 plus maths: a muted mauve, chosen by colour distance from every accent on the site (4.96:1 on the darkest paper tint) */
 .ag-root.ag-wrm { --ag-accent: #0B3B4C; --ag-accent-soft: rgba(11,59,76,.09); }   /* Wirral 11 plus maths: a deep Dee-estuary teal, chosen by colour distance from every accent on the site (9.7:1 on the darkest paper tint) */
+.ag-root.ag-glm { --ag-accent: #5C0E32; --ag-accent-soft: rgba(92,14,50,.09); }   /* Gloucestershire 11 plus maths: a deep berry red, chosen by colour distance from every accent on the site (10.82:1 on the darkest paper tint) */
