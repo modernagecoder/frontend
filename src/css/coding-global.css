@@ -1202,3 +1202,4 @@
 .cg-root.cg-ree  { --cg-accent: #2A0B4C; --cg-accent-soft: rgba(42,11,76,.10); }   /* East of England: a dark fenland-sky violet from the solver (13.53:1 on the darkest paper tint) */
 .cg-root.cg-rsw  { --cg-accent: #3F0B4C; --cg-accent-soft: rgba(63,11,76,.10); }   /* South West England: a deep heather-moor purple from the solver (12.41:1 on the darkest paper tint) */
 .cg-root.cg-rwm  { --cg-accent: #43127A; --cg-accent-soft: rgba(67,18,122,.10); }   /* West Midlands region: an ironworks-dusk violet from the solver (10.54:1 on the darkest paper tint) */
+.cg-root.cg-rem  { --cg-accent: #501F7A; --cg-accent-soft: rgba(80,31,122,.10); }   /* East Midlands: a Trent-valley violet from the solver (9.31:1 on the darkest paper tint) */

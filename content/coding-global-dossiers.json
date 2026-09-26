@@ -27369,5 +27369,49 @@
       "Distances and travel times: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "coding-and-ai-classes-in-east-midlands": {
+    "market": "East Midlands",
+    "bodyClass": "cg-rem",
+    "pageType": "governorate",
+    "curriculumAuthority": "East Midlands region (E12000004). ONS Census 2021 TS001 via Nomis TYPE480: 4,880,054. ONS LAD22 to RGN22: 35 local authorities. ONS Census 2021 BUAs wholly in region: Leicester 406,580; Nottingham 299,790; Derby 275,575; Northampton 243,520; Lincoln 104,555; Chesterfield 76,420; Corby 68,160; Loughborough 64,860; Mansfield 63,445; Kettering 63,150; Wellingborough 54,425. Met Office historic station data: Sutton Bonington \"Location: 450700E 325900N, Lat 52.833 Lon -1.250, 48 metres amsl\", monthly from January 1959.",
+    "localProject": "Sutton Bonington rain 1991-2020, 30 complete years. Monthly means: Jun 63.7 largest. Wettest-month tally: Jun 8, Jul 4, Aug 4, Jan 3, Dec 3, Sep 2, Nov 2, Feb 1, Mar 1, Apr 1, Oct 1, May 0. Mean of yearly maxima 104.4 vs max of means 63.7. Lesson family: mean of the maxima vs maximum of the means, argmax distribution.",
+    "requiredMentions": [
+      "Chesterfield",
+      "Corby",
+      "Loughborough",
+      "Mansfield",
+      "Kettering",
+      "Wellingborough",
+      "Northampton",
+      "Sutton Bonington",
+      "mean of the maxima"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by region, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Open Geography Portal lookups: LAD22 to RGN22 and BUA22 to region.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "Met Office historic station data, Sutton Bonington.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/suttonboningtondata.txt"
+      }
+    ],
+    "rejectedClaims": [
+      "Official Met Office rainfall averages: not quoted; our sums are labelled.",
+      "Drain design standards: mentioned only as an illustration, no figures.",
+      "Sheffield, Milton Keynes, Nuneaton, Rugby and Burton upon Trent BUAs: cross the boundary, omitted.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }
