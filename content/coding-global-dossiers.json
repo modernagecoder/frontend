@@ -27089,5 +27089,46 @@
       "Community background, religion and identity statistics: excluded by rule.",
       "Named schools, school term dates, distances and travel times: none named, read or claimed."
     ]
+  },
+  "coding-classes-in-mid-and-east-antrim": {
+    "market": "Mid and East Antrim",
+    "bodyClass": "cg-mea",
+    "pageType": "governorate",
+    "curriculumAuthority": "Mid and East Antrim (N09000008). NISRA Census 2021 MS-A01: 138,994. DEAs (exact, not summed): Ballymena 24,295; Bannside 19,842; Braid 23,826; Carrick Castle 18,430; Coast Road 17,005; Knockagh 17,272; Larne Lough 18,324. Settlements (NISRA approximations): Ballymena 31,205; Carrickfergus 28,141; Larne 18,853; Whitehead 3,537; Ahoghill 3,537; Broughshane 3,097; Cullybackey 2,659. Department for Communities historic building HB22/08/020, Grade A, Former Gasworks, Carrickfergus: \"In 1854 a group of local businessmen came together to form the Carrickfergus Gas Company\"; lamps \"lit for the first time on 17 September 1855\"; \"During its first year of operation, the Company signed up 171 customers\"; \"242 consumers were on its books by 1905. During this period, the average amount of gas used by each customer tripled\"; horizontal retorts \"persisted for well over a century\"; \"production ceased in 1964\"; \"closed in 1987\"; museum from 2002.",
+    "localProject": "Customers x1.4152, use x3, total x4.2456. 50 years: 0.697%, 2.222%, 2.934% a year (sum 2.919). 49 years: 0.711, 2.267, 2.995. Log shares 24.0 / 76.0%. Doubling 24.0 years. Simple-rate slip 6.49%/yr, compounded 50 years about 23 times. Lesson family: compound growth rates and multiplicative decomposition.",
+    "requiredMentions": [
+      "Carrickfergus",
+      "Whitehead",
+      "Ahoghill",
+      "Broughshane",
+      "Cullybackey",
+      "Bannside",
+      "Knockagh",
+      "Larne Lough",
+      "Carrickfergus Gas Company",
+      "compound growth"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA Census 2021 MS-A01 usual resident population by LGD, DEA and settlement.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "Department for Communities Historic Buildings database, record HB22/08/020, Former Gasworks, Carrickfergus.",
+        "url": "https://apps.communities-ni.gov.uk/Buildings/buildview.aspx?id=3256"
+      },
+      {
+        "claim": "Department for Communities Historic Environment Division GIS data (Historic Buildings layer with council field).",
+        "url": "https://services2.arcgis.com/BdBkthNLO9mzGAMO/arcgis/rest/services/Historic_Environment_Division_GIS_Data/FeatureServer"
+      }
+    ],
+    "rejectedClaims": [
+      "Money figures in the record (capital raised, lighting contract): not used.",
+      "Exact gas volumes: not in the record; \"tripled\" is treated as a rounded description.",
+      "Greenisland settlement estimate: omitted, flagged by NISRA as less accurate.",
+      "Blackhead Lighthouse (HB22/05/005): considered, not used.",
+      "Transfer test advice and community background statistics: excluded by rule.",
+      "Named schools, school term dates, distances and travel times: none named, read or claimed."
+    ]
   }
 }

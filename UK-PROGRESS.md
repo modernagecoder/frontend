@@ -352,7 +352,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 300 | coding-classes-in-vale-of-glamorgan (vog, #4C0B44) | cg- county index | 2,556 | 2.6% vs coding-classes-in-renfrewshire | 1,400 pigeons, 700 holes | Pigeonhole principle, random occupancy, sanity check | a27c091d |
 | 301 | coding-classes-in-antrim-and-newtownabbey (anb, #3C127A) | cg- county index | 2,624 | 2.3% vs coding-classes-in-vale-of-glamorgan | Last in, first out | LIFO stack storage, block relocation | 138a5966 |
 | 302 | coding-classes-in-causeway-coast-and-glens (ccg, #43127A) | cg- county index | 2,612 | 1.7% vs coding-classes-in-anglesey | One runway, two or three? | Vector components, crosswind coverage by runway layout | 47a4f035 |
-| 303 | coding-classes-in-fermanagh-and-omagh (fom, #501F7A) | cg- county index | 2,654 | 2% vs coding-classes-in-rhondda-cynon-taf | Dating a bridge from its clues | Evidence intervals, terminus post quem, conflict detection | (this commit) |
+| 303 | coding-classes-in-fermanagh-and-omagh (fom, #501F7A) | cg- county index | 2,654 | 2% vs coding-classes-in-rhondda-cynon-taf | Dating a bridge from its clues | Evidence intervals, terminus post quem, conflict detection | a8db704e |
+| 304 | coding-classes-in-mid-and-east-antrim (mea, #4C0E5C) | cg- county index | 2,589 | 2.7% vs coding-classes-in-torfaen | Splitting 50 years of growth | Compound growth rates, multiplicative decomposition | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
