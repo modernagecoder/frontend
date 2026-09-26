@@ -23330,5 +23330,62 @@
       "Destinations with ambiguous airports on the list (Paris, Belfast, Cairo): left out of the calculation rather than guessed.",
       "Named Bedfordshire schools: none is named."
     ]
+  },
+  "coding-classes-in-cheshire": {
+    "market": "Cheshire",
+    "bodyClass": "cg-chc",
+    "pageType": "governorate",
+    "curriculumAuthority": "Cheshire (ceremonial: Cheshire East, Cheshire West and Chester, Halton, Warrington). ONS Census 2021 TS001 via Nomis: Cheshire East 398,772; Cheshire West and Chester 357,150; Warrington 210,974; Halton 128,478; total 1,095,374 (our sum). ONS Census 2021 built-up areas (published; checked with our OA sums): Warrington 174,970; Chester 92,760 (87,616 inside England); Crewe 74,120; Ellesmere Port 65,430; Runcorn 61,645; Widnes 59,935; Macclesfield 54,345; Winsford 32,530; Congleton 30,005; Wilmslow 25,725; Nantwich 18,740; Northwich 18,640; Alsager 15,505; Neston 14,960; Middlewich 14,425; Davenham 13,835; Knutsford 13,255; Poynton 13,010; Lymm 11,545; Sandbach 11,290; Frodsham 9,100; Elworth 7,645; Bollington 7,235; Culcheth 6,720; Hartford 6,695; Holmes Chapel 6,670; Weaverham 6,265; Barnton 6,255; Cuddington 5,860; Helsby 5,275; Haslington 5,040. Excluded: Wythenshawe (6,729 in Cheshire East), Irlam (304 in Warrington), New Mills (497 in Cheshire East). Jodrell Bank Discovery Centre: \"The Lovell telescope, with its 76 metre diameter reflecting surface, has stood over the Cheshire plain since construction was completed in 1957\"; \"In 2019 Jodrell Bank was recognised as a site of Outstanding Universal Value and inscribed on the UNESCO World Heritage Site list\". Jodrell Bank Centre for Astrophysics, Crab Pulsar Monthly Ephemeris: plain text \"Feb 1982 to Apr 1988 and May 1988 onwards\"; users asked to reference Lyne, A. G., Pritchard, R. S. and Graham-Smith, F. 1993, MNRAS, 265, 1003. NASA Messier 1: \"In 1054, Chinese astronomers took notice of a 'guest star' that was, for nearly a month, visible in the daytime sky\"; distance 6,500 light-years; \"appear to pulse 30 times per second\".",
+    "localProject": "Numerical differentiation from a long record. crab2.txt parsed: 482 dated entries, 15 May 1988 nu 29.9843723662 Hz (period 33.3507 ms) to 24 July 2026 nu 29.5357554730 Hz (33.8573 ms), 13,949 days (38.19 years). Finite differences (nu[i+1] - nu[i]) / dt over 481 pairs vs mean of the published nudot at the two dates: median relative gap 0.001 per cent. Largest excess 6.6 per cent, 4 to 11 November 2017 (glitch; nu rose relative to trend); others 1.1 per cent Feb-Mar 2004, 0.6 per cent Nov 2011, 0.5 per cent Aug-Sep 1989. Overall mean spin-down 3.7224 x 10^-10 Hz per second. Characteristic age nu / (2 |nudot|): 1,255 years (1988), 1,279 years (2026); true age 972 years (1054 supernova, NASA). Rotations in the span about 3.5865 x 10^10 (35.9 billion). AI angle: an assistant applies the age formula without testing it against the historical record. Lesson family: numerical differentiation (finite differences checked against a published derivative) and a model estimate tested against history.",
+    "requiredMentions": [
+      "1,095,374",
+      "33.3507",
+      "33.8573",
+      "1,279 years",
+      "35.9 billion",
+      "guest star",
+      "13,949 days",
+      "0.001 per cent",
+      "Lyne, Pritchard and Graham-Smith",
+      "Davenham"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the four Cheshire councils, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Cheshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Jodrell Bank Centre for Astrophysics: Crab Pulsar Monthly Ephemeris, plain text from May 1988.",
+        "url": "https://www.jb.man.ac.uk/pulsar/crab.html"
+      },
+      {
+        "claim": "Jodrell Bank Discovery Centre: Lovell Telescope, 76 metre surface, completed 1957.",
+        "url": "https://www.jodrellbank.net/visit/whats-here/lovell-telescope/"
+      },
+      {
+        "claim": "Jodrell Bank: UNESCO World Heritage inscription in 2019.",
+        "url": "https://www.jodrellbank.net/about/"
+      },
+      {
+        "claim": "NASA, Messier 1: the 1054 guest star, 6,500 light-years, pulses 30 times per second.",
+        "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-1/"
+      }
+    ],
+    "rejectedClaims": [
+      "The physical cause of pulsar glitches and braking indices: not read at a primary source for this build; the page says only that the formula's assumptions fail.",
+      "Cheshire school term dates: set by four councils and academies; none read.",
+      "Wythenshawe, Irlam and New Mills as Cheshire towns: most of each lies in Greater Manchester or Derbyshire.",
+      "Visitor numbers or admission details for Jodrell Bank: not needed and not claimed.",
+      "The nationality of the astronomers who recorded the 1054 guest star: not repeated on the page; the date is what the lesson uses.",
+      "Named Cheshire schools: none is named."
+    ]
   }
 }
