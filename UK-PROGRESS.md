@@ -268,11 +268,12 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 |------|-------------|--------------------|
 | robocupjunior-uk-preparation | 3, and none UK-specific. junior.robocup.org gives the three leagues (Soccer, Rescue, OnStage), an age limit of 19 and the 2026 event in Songdo, but names no national organiser. robocupjunioruk.org describes the leagues and the primary and secondary split and publishes no organiser, no entry route, no UK dates and nothing recent. A page called "UK preparation" would imply a UK pathway we cannot evidence. | first-lego-league-uk-coding-help, which names RoboCupJunior with what junior.robocup.org actually says and states plainly that we could not confirm a current UK national organiser. |
 | teentech-awards-project-help | 0. teentech.com returns HTTP 403 to every automated read, including the Awards pages, and we do not circumvent. The spec required this one to be confirmed by hand before Phase 2 and it could not be. | big-bang-competition-project-help, which covers school project competitions from a source we can read. |
+| 11-plus-maths-tuition-lincolnshire | Killed at Phase 6 triage, 26 September 2026: all 15 Lincolnshire grammar schools test verbal reasoning and non-verbal reasoning only (Lincolnshire Consortium of Grammar Schools key dates: "First 11+ Test - Verbal Reasoning", "Second 11+ Test - Non-Verbal Reasoning and Spatial Awareness"; Caistor, Spalding and KEVIGS Louth confirm the same), so there is no maths paper for a maths page to teach. Owner to decide whether a non-maths page is wanted. | 11-plus-maths-tuition (national page) |
 
 ## Open issues
 
 - Competition statuses change each season; re-verify at the organiser in the week a page is built.
 - Scottish and Northern Irish town lists are candidates until checked against NRS and NISRA settlement figures.
-- 11+ areas are candidates until each council's admissions pages confirm a selective test.
+- 11+ areas: Phase 6 complete 2026-09-26 (23 built, rows 189-211; Lincolnshire killed, no maths paper). Each page confirmed from council or school/consortium sources; blocked councils noted on the page.
 - (Corrected 2026-09-20) The cg- and ag- renderers DO emit FAQPage, BreadcrumbList, Course and EducationalOrganization in a second JSON-LD block; an earlier check matched only one script-tag form. The UK hub carries all 10 questions.
 - Build-time `pricing:verify` fails locally on 132 files (course pages under content/courses/generated and the other session's ten priority-demo pages) for a missing ?v= hash that `pricing:apply` adds in the Netlify build; none of the UK files fail.

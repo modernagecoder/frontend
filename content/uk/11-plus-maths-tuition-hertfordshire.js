@@ -315,7 +315,7 @@ module.exports = {
     h2: 'Book a free Hertfordshire maths lesson',
     lede: 'Tell us your child\'s year and which route you are considering. We teach a real lesson and then give you an honest account of it.',
     readFirst: 'If you would like to look around before talking to us, the <a class="ag-inline-link" href="/courses">courses</a> each carry a syllabus, <a class="ag-inline-link" href="/how-we-teach">our method</a> is written up, and a <a class="ag-inline-link" href="/coding-roadmap">roadmap</a> links primary maths to programming.',
-    note: 'WhatsApp reaches our admissions desk fastest. That desk, like our teachers and phone number, is in India; there is no Watford or Hertfordshire office.',
+    note: 'WhatsApp is the quickest way to reach us. Our team, teachers and phone number are all in India; there is no Watford or Hertfordshire office.',
     formNote: 'No card details. One reply to arrange a time.'
   },
 
