@@ -22942,5 +22942,58 @@
       "Channel Tunnel traffic at Folkestone: not in the port table and not read elsewhere for this build.",
       "Named Kent schools: the selective schools belong on the 11 plus pages, and none is named here."
     ]
+  },
+  "coding-classes-in-essex": {
+    "market": "Essex",
+    "bodyClass": "cg-exc",
+    "pageType": "governorate",
+    "curriculumAuthority": "Essex (ceremonial: twelve districts under Essex County Council plus Southend-on-Sea and Thurrock unitaries). ONS Census 2021 TS001 via Nomis: Colchester 192,715; Basildon 187,571; Chelmsford 181,523; Southend-on-Sea 180,686; Thurrock 176,001; Braintree 155,268; Tendring 148,291; Epping Forest 134,980; Harlow 93,329; Uttlesford 91,341; Castle Point 89,587; Rochford 85,661; Brentwood 77,047; Maldon 66,208; total 1,860,208 (our sum; Kent 1,855,844 by the same method). ONS Census 2021 built-up areas (published; checked by our OA sums): Southend-on-Sea 182,305 (Southend, Castle Point, Rochford); Colchester 130,245 (Colchester, Tendring); Basildon 115,955; Chelmsford 110,625; Harlow 93,580 (about 430 in Hertfordshire); Brentwood 55,340; Clacton-on-Sea 53,200; Thundersley and South Benfleet 49,885; Grays 44,345; Braintree 43,190; Canvey Island 38,010; Billericay 34,075; Loughton 33,345; Rayleigh 32,380; Stanford-le-Hope 29,525; Wickford 27,535; Witham 27,395; Chafford Hundred and West Thurrock 23,585; Maldon 23,380; South Ockendon 22,440; Harwich 20,215; Waltham Abbey 18,645; Saffron Walden 16,610; South Woodham Ferrers 16,025; Hockley and Hawkwell 15,425; Tilbury 14,185; Halstead 13,900; Rochford 12,615; Chigwell 12,250; Buckhurst Hill 11,750; Epping 10,695; Chadwell St Mary 10,685; Great Dunmow 10,395; Aveley 9,360; Tiptree 9,300; Brightlingsea 8,680; Stansted Mountfitchet 8,625; Runwell 8,085; Burnham-on-Crouch 7,805; Berechurch 7,705; and fifteen between 5,000 and 8,000 (Great Notley, Wivenhoe, West Mersea, Walton-on-the-Naze, Great Wakering, Ashingdon, Galleywood, Danbury, Kirby Cross, Purfleet-on-Thames, East Tilbury, Hullbridge, Takeley and Little Canfield, Ingatestone, Jaywick). Hoddesdon and Sawbridgeworth excluded (Hertfordshire). Southend Pier & Railway (Southend-on-Sea City Council): \"the longest pleasure pier in the world. It stretches for 1.33 miles out into the Thames Estuary\"; \"Pier trains run on a half hourly basis, at the hour and 30 minutes past the hour from 10:30am. The trains travel at 8-10mph and when travelling through the points the speed drops to 5mph. The current trains went into service in 2021\"; Train Times \"From the shore On the hour and half hour From the Pier Head Quarter to and past the hour\"; History: \"A single track electric railway starting running in 1890\"; visitor numbers \"peaking at 5.75 million in 1949-50\".",
+    "localProject": "Headway, fleet size and single-track meeting points. From the pier's published 1.33 miles and 8 to 10 mph: run time 9.98 min at 8 mph, 8.87 at 9, 7.98 at 10. Published pattern (shore :00 and :30, Pier Head :15 and :45) leaves 5.0 to 7.0 min at each end, so one train can work it (no claim about the actual fleet). Fleet = ceiling(cycle / headway), cycle = two runs plus at least 2 minutes turnaround at each end (our assumption): 30-minute headway 1 train at 8 or 10 mph; 15-minute 2 and 2; 10-minute 2 at 10 mph and 3 at 8 mph. Two trains leaving opposite ends together meet after 4.43 min; at equal speeds mid-pier, at 10 and 8 mph 119 metres from the middle, so with a fixed mid-pier passing place the faster train waits about 1.0 minute. The 5 mph points slowdown is ignored and the page says so. AI angle: a generated ten-minute timetable looks plausible whether or not the fleet exists. Lesson family: headway, fleet size and single-track meeting points; screened 26 September 2026 (headway: 0 dossier hits); the Southend city page uses the pier only as a place fact (tide peak finding).",
+    "requiredMentions": [
+      "1,860,208",
+      "5.75 million",
+      "9.98 minutes",
+      "119 metres",
+      "4.43 minutes",
+      "Chafford Hundred and West Thurrock",
+      "Takeley and Little Canfield",
+      "went into service in 2021",
+      "Thundersley and South Benfleet",
+      "Pier Head"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the twelve Essex districts, Southend-on-Sea and Thurrock, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Essex towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Southend Pier: 1.33 miles, longest pleasure pier in the world.",
+        "url": "https://www.southendpier.co.uk/"
+      },
+      {
+        "claim": "Southend Pier Railway: half-hourly trains, 8 to 10 mph, 5 mph through the points, current trains in service from 2021, departure times.",
+        "url": "https://www.southendpier.co.uk/concessions/pier-railway"
+      },
+      {
+        "claim": "Southend Pier history: single-track electric railway from 1890; visitors peaked at 5.75 million in 1949 to 1950.",
+        "url": "https://www.southendpier.co.uk/history"
+      }
+    ],
+    "rejectedClaims": [
+      "Essex County Council term dates: the council site returned 403 on 26 September 2026, not retried.",
+      "How many trains the pier railway actually operates: not stated on the pages read, so the page says only what the timetable requires.",
+      "Marconi and Chelmsford radio history: already the anchor of the Chelmsford city page, so not repeated here.",
+      "Census 2021 commuting flows from Essex to London: the flow tables were not reachable on the Nomis API during this build, and Census 2021 travel-to-work data were collected during a national lockdown, so no commuting figures are used.",
+      "Hoddesdon and Sawbridgeworth as Essex towns: both built-up areas lie mostly in Hertfordshire.",
+      "Named Essex schools: selective schools belong on the 11 plus pages, and none is named here."
+    ]
   }
 }
