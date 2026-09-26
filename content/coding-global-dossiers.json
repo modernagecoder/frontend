@@ -25214,5 +25214,48 @@
       "Named East Ayrshire schools: none named.",
       "Burns's birthplace at Alloway: in South Ayrshire, not used here."
     ]
+  },
+  "coding-classes-in-east-dunbartonshire": {
+    "market": "East Dunbartonshire",
+    "bodyClass": "cg-edb",
+    "pageType": "governorate",
+    "curriculumAuthority": "East Dunbartonshire (S12000045), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 109,000 (females 56,500, males 52,400); households 46,500; density 624.7 per square kilometre (Scotland 69.8); ages 0 to 14 17,900 (16.4 per cent), 65+ 26,200 (24.0 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Bearsden 28,470; Bishopbriggs 23,680; Kirkintilloch 21,870; Milngavie 12,840; Lenzie 8,090; Lennoxtown 4,260; Milton of Campsie 3,910; Torrance 2,320; Twechar 1,340. Official West Highland Way website: \"The West Highland Way stretches 96 miles (154 Km) from Milngavie to Fort William\"; sections: Milngavie to Drymen \"Distance 12 Miles (19 km)\"; Drymen to Rowardennan 15 Miles (22.5 km); Rowardennan to Inverarnan 14 Miles (22.5 km); Inverarnan to Tyndrum 12 Miles (19.3 km); Tyndrum to Inveroran 9 Miles (14.5 km); Inveroran to Kingshouse 10 Miles (16 km); Kingshouse to Kinlochleven 9 Miles (14.5 km); Kinlochleven to Fort William 15 Miles (24 km).",
+    "localProject": "Linear partition of 8 sections [12, 15, 14, 12, 9, 10, 9, 15] miles into k days, stops at section ends, exhaustive over C(7, k-1) plans, minimise longest day then spread: k 4: 27 (27, 26, 19, 24), 35 plans; k 5: 26 (12, 15, 26, 19, 24), 35; k 6: 21 (12, 15, 14, 21, 19, 15), 21; k 7: 19, 7; k 8: 15, 1. Greedy target 20: 7 days, max 19; target 24: 6 days, max 21; target 27: 4 days, max 27. Miles sum 96 = stated; km sum 152.3 vs stated 154 (separate rounding). C(99, 9) = 1,731,030,945,644. Page labels plans as ours and not walking advice. AI angle: plausible vs proven plan. Lesson family: linear partition, exhaustive search, greedy, combinatorial growth, rounded parts vs total.",
+    "requiredMentions": [
+      "109,000",
+      "46,500",
+      "West Highland Way",
+      "Milngavie",
+      "Rowardennan",
+      "Kinlochleven",
+      "Bishopbriggs",
+      "Kirkintilloch",
+      "Lenzie",
+      "Lennoxtown",
+      "Torrance",
+      "Twechar"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Official West Highland Way website: route length and section distances.",
+        "url": "https://www.westhighlandway.org/the-route/"
+      }
+    ],
+    "rejectedClaims": [
+      "Accommodation availability, ascent and difficulty of each section: not used; the page warns the plans ignore them.",
+      "The Antonine Wall in East Dunbartonshire: not researched for this page.",
+      "The official suggested itineraries: not read; our plans are our own.",
+      "East Dunbartonshire school term dates: none read.",
+      "Named East Dunbartonshire schools: none named.",
+      "Walking times: not claimed."
+    ]
   }
 }
