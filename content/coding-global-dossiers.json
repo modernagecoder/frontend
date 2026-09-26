@@ -25075,5 +25075,47 @@
       "Named Argyll and Bute schools: none named.",
       "Adding the rounded female and male counts to reach the total: not done, since each is rounded separately."
     ]
+  },
+  "coding-classes-in-clackmannanshire": {
+    "market": "Clackmannanshire",
+    "bodyClass": "cg-clk",
+    "pageType": "governorate",
+    "curriculumAuthority": "Clackmannanshire (S12000005), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 51,800 (females 26,400, males 25,400); households 24,100; density 325.4 per square kilometre (Scotland 69.8); ages 0 to 14 8,200 (15.8 per cent), 65+ 10,700 (20.7 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Alloa 14,440; Tullibody 8,490; Sauchie 6,310; Alva 4,630; Tillicoultry 4,620; Clackmannan 3,260; Menstrie 2,870; Dollar 2,840; Coalsnaughton 1,290. HES LB52529 (Category A, 24 October 2019), former Devon Colliery, Fishcross: \"built in 1864 by Neilson & Company of Glasgow\"; \"The cast iron pumping beam and cast iron girders of the pumping engine machinery survive in situ\"; \"No.189 / Neilson & Co. / Glasgow / 1864\"; \"operational by 1879\"; replaced \"in 1932\"; \"occasional use ... until the 1950s\"; \"one of only two surviving historic beam engine houses within Scotland\"; \"the Cornish-type pumping engine was an important advance in the development of steam power and the technology used in deep mining work\".",
+    "localProject": "Moments and centre of mass on an invented beam: 10 m, pivot 5 m, mass per metre 1 + 0.1x t/m; total 15 t, centre of mass 5.5556 m by 100,000-slice sum and exact integral. Loads 12 t at 0.5 m and 3 t at 9.5 m; net moment -32.167 t m. Counterweight 4 t: 13.042 m (off beam); bisection on [5, 10] returns 10.000000 after 23 halvings with no sign change (f(5) -32.167, f(10) -12.167). Minimum at 9.5 m: 7.148 t; 8 t at 9.021 m; 10 t at 8.217 m; 8 t with +2 t at pump end: 10.146 m (off beam). Page labels model as invented. AI angle: feasibility checks. Lesson family: centre of mass, moments, numeric vs exact, feasibility, bisection sign-change precondition.",
+    "requiredMentions": [
+      "51,800",
+      "24,100",
+      "LB52529",
+      "Neilson",
+      "Devon Colliery",
+      "Fishcross",
+      "centre of mass",
+      "Tullibody",
+      "Tillicoultry",
+      "Menstrie",
+      "Sauchie"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data: Clackmannanshire and Scotland.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB52529: beam engine house, former Devon Colliery, Fishcross.",
+        "url": "https://portal.historicenvironment.scot/designation/LB52529"
+      }
+    ],
+    "rejectedClaims": [
+      "How the Devon Colliery engine was rigged, its dimensions and loads: not in the listing, so the model is invented and says so.",
+      "Voting-system facts for Scottish council elections: official pages probed returned 404 or 403, so that idea was dropped.",
+      "That Clackmannanshire is the smallest council area in Scotland: not read from a source, not claimed.",
+      "Clackmannanshire school term dates: none read.",
+      "Named Clackmannanshire schools: none named, although one appears in the HES list of Category A buildings.",
+      "Coal mining employment or history beyond the listing: not researched."
+    ]
   }
 }

@@ -523,6 +523,7 @@ const MARKETS = [
   ['coding-classes-in-aberdeenshire', 'Aberdeenshire'],
   ['coding-classes-in-angus', 'Angus'],
   ['coding-classes-in-argyll-and-bute', 'Argyll and Bute'],
+  ['coding-classes-in-clackmannanshire', 'Clackmannanshire'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

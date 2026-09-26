@@ -1151,3 +1151,4 @@
 .cg-root.cg-abs  { --cg-accent: #325C51; --cg-accent-soft: rgba(50,92,81,.10); }   /* Aberdeenshire: a granite-and-pine teal from the solver (6.08:1 on the darkest paper tint), greener than the Northumberland and Norfolk blues */
 .cg-root.cg-ang  { --cg-accent: #5C3329; --cg-accent-soft: rgba(92,51,41,.10); }   /* Angus: a red sandstone brown from the solver (8.63:1 on the darkest paper tint), redder than the Shropshire and Derbyshire browns */
 .cg-root.cg-agb  { --cg-accent: #3C4D5C; --cg-accent-soft: rgba(60,77,92,.10); }   /* Argyll and Bute: a sea-loch slate from the solver (7.03:1 on the darkest paper tint), greyer than the Northumberland and Staffordshire blues */
+.cg-root.cg-clk  { --cg-accent: #7A2B2B; --cg-accent-soft: rgba(122,43,43,.10); }   /* Clackmannanshire: a red-sandstone brick red from the solver (7.66:1 on the darkest paper tint), for the Devon Colliery engine house, brighter than the Angus and Shropshire reds */
