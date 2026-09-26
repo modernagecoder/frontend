@@ -27277,5 +27277,53 @@
       "Crop and water-supply effects: stated generally, no figures.",
       "Sterling prices: none."
     ]
+  },
+  "coding-and-ai-classes-in-south-west-england": {
+    "market": "South West England",
+    "bodyClass": "cg-rsw",
+    "pageType": "governorate",
+    "curriculumAuthority": "South West region (E12000009). ONS Census 2021 TS001 via Nomis TYPE480: 5,701,186. ONS LAD22 to RGN22 lookup: 30 local authorities. ONS Census 2021 BUAs wholly in region: Bristol 425,215; Plymouth 266,955; Bournemouth 196,455; Swindon 183,680; Kingswood and Fishponds 160,270; Poole 141,005; Exeter 126,175; Gloucester 118,555; Cheltenham 115,940; Bath 94,080; Taunton 61,665; Torquay 52,035. Met Office historic station data: Camborne \"Location 162700E 40700N, Lat 50.218 Lon -5.327, 87m amsl\"; Yeovilton \"Location: 355100E 123200N, Lat 51.006 Lon -2.641, 20 metres amsl\".",
+    "localProject": "Diurnal range 1991-2020 (360 of 360 months at both). Camborne: Jan 4.31, May 5.72, year 5.04. Yeovilton: Jan 6.64, May 9.71, year 8.40. May-Jan 1.41 vs 3.07. Annual range of monthly means 9.29 vs 11.79; yearly means 11.11 vs 10.67. Distance to tidal water (ONS GB BFC check): 2.4 km vs 17.2 km. Lesson family: diurnal temperature range, linearity of averages, daily vs yearly range.",
+    "requiredMentions": [
+      "Bournemouth",
+      "Swindon",
+      "Poole",
+      "Cheltenham",
+      "Taunton",
+      "Torquay",
+      "Kingswood and Fishponds",
+      "Yeovilton",
+      "diurnal range"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by region, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Open Geography Portal lookups (LAD22 to RGN22, BUA22 to region) and Countries (December 2022) GB BFC boundaries.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "Met Office historic station data, Camborne.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/cambornedata.txt"
+      },
+      {
+        "claim": "Met Office historic station data, Yeovilton.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/yeoviltondata.txt"
+      }
+    ],
+    "rejectedClaims": [
+      "Official Met Office averages: not quoted; our averages are labelled as ours.",
+      "Why May peaks: explained in general terms, no cloud or sunshine figures claimed.",
+      "Distances beyond our boundary check: none claimed.",
+      "Named schools and school term dates: none named or read.",
+      "Heating demand and farming effects: stated generally, no figures.",
+      "Sterling prices: none."
+    ]
   }
 }
