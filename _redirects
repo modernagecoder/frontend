@@ -3970,4 +3970,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /11-plus-maths-tuition-wolverhampton-and-walsall /src/pages/11-plus-maths-tuition-wolverhampton-and-walsall.html 200
 /11-plus-maths-tuition-wolverhampton-and-walsall.md /src/pages/11-plus-maths-tuition-wolverhampton-and-walsall.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-buckinghamshire /src/pages/coding-classes-in-buckinghamshire.html 200
+/coding-classes-in-buckinghamshire.md /src/pages/coding-classes-in-buckinghamshire.md 200
 /* /src/pages/404.html 404

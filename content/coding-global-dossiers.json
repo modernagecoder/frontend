@@ -22718,5 +22718,70 @@
       "City schools and admissions: not read at their own sites and not used.",
       "Census ethnicity, religion or country of birth: never a standout; used only to order the build."
     ]
+  },
+  "coding-classes-in-buckinghamshire": {
+    "market": "Buckinghamshire",
+    "bodyClass": "cg-bkc",
+    "pageType": "governorate",
+    "curriculumAuthority": "Buckinghamshire (ceremonial county). ONS Census 2021 TS001 usual residents via Nomis: Buckinghamshire unitary E06000060 553,078; Milton Keynes E06000042 287,060; total 840,138 (our sum of two published figures). ONS Census 2021 built-up areas (published, rounded; confirmed inside the county by summing Nomis OA counts over the ONS OA21 to BUA22 lookup): Milton Keynes 197,340; Aylesbury 87,950; High Wycombe 83,535; Bletchley 45,010; Chesham 23,695; Hazlemere 20,005; Amersham 17,380; Newport Pagnell 15,250; Marlow 14,645; Buckingham 14,295; Beaconsfield 14,145; Chalfont St Peter 13,650; Flackwell Heath and Wooburn Green 12,435; Wendover 8,730; Gerrards Cross 8,115; Prestwood and Great Missenden 7,595; Princes Risborough 7,530; Bourne End 7,170; Farnham Common and Farnham Royal 6,715; Olney 6,600; Little Chalfont 6,505; Haddenham (Buckinghamshire) 5,605; Aston Clinton 5,510; Winslow 5,235; Iver Heath 5,150. Slough BUA (166,855) has about 12,677 residents inside Buckinghamshire by our OA sum and Maidenhead about 580, so both excluded. Buckinghamshire Council school term dates 2026-27: autumn term starts Wednesday 2 September 2026, \"There is a proposed inset day on 1 September 2026\", half term Monday 26 October to Friday 30 October 2026, ends Friday 18 December 2026; spring term 4 January to 25 March 2027; summer term 12 April to Wednesday 21 July 2027; separate section \"Exceptions for academy, voluntary aided, and foundation schools\". Bletchley Park, Lorenz: \"Messages consisted of teleprinter code encyphered with the highly complex Lorenz cypher machine\"; Tommy Flowers, GPO engineer, Colossus \"the world's first large-scale electronic digital computer\". GCHQ, John Tiltman: \"in 1941 he deciphered the message which led eventually to the solution of the German High Command's teleprinter system 'Tunny' by Bill Tutte\". GCHQ, Bill Tutte: \"the German SZ40/42 Lorenz enciphered teleprinter (called TUNNY by the Bletchley teams)\"; read Chemistry at Trinity College, Cambridge; \"squaring the square\"; \"arrived at Bletchley in May 1941\"; \"put to work on the Hagelin C38m cipher machine being used by the Italian Navy\". GCHQ, Colossus 80: \"around 2,500 valves and standing at more than two metres tall\". TNMOC: Colossus \"had a single purpose: to help decipher the Lorenz-encrypted (Tunny) messages\"; the Colossus Gallery houses the rebuild.",
+    "localProject": "A key used twice cancels itself. Toy stream cipher on 5-bit ITA2 letters-shift codes (27 of the 32 codes are A to Z and space), each symbol XORed with a random 5-bit key symbol; explicitly not a model of Lorenz. Our run of 26 September 2026 (seed 20260926): message one \"BRING THE MAPS TO AYLESBURY ON MONDAY\" and message two \"THE TRAIN FROM BLETCHLEY LEAVES AT TE\" (cut to 37), one 37-symbol key; 32^37 keys, about 4.9 x 10^55, 185 bits. C1 XOR C2 equals P1 XOR P2 in 37 of 37 positions; zeros only at positions 9 and 14, both spaces in both messages. Crib dragging with a letters-and-space filter: \" THE \" 16 of 33 offsets pass, offset 5 gives \"RAIN \"; \"BLETCHLEY\" 9 of 29, offset 15 gives \"TO AYLESB\"; \"AYLESBURY\" 12 of 29, offset 18 gives \"TCHLEY LE\". A random window passes with probability (27/32)^k: 42.8% for 5 symbols, 21.7% for 9. AI angle: a generated XOR cipher function encrypts and decrypts correctly but cannot prevent the caller reusing the key; the risk lives in use, not in the code. Lesson family: key reuse in an XOR stream cipher (the two-time pad) and crib dragging; screened free site-wide on 26 September 2026, distinct from frequency analysis from scratch (national-cipher-challenge-preparation) and from the information bound on yes/no questions (cyberfirst-girls-competition-preparation).",
+    "requiredMentions": [
+      "840,138",
+      "Flackwell Heath and Wooburn Green",
+      "proposed inset day",
+      "TO AYLESB",
+      "TCHLEY LE",
+      "2,500 valves",
+      "Hagelin C38m",
+      "27 of the 32",
+      "SZ40/42",
+      "seed 20260926"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents: Buckinghamshire 553,078 and Milton Keynes 287,060, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Buckinghamshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22), used to confirm which towns lie in the county.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Buckinghamshire Council school term dates 2026-27, including the proposed inset day on 1 September 2026 and the 26 to 30 October 2026 half term.",
+        "url": "https://www.buckinghamshire.gov.uk/schools-and-learning/schools-index/school-term-dates/"
+      },
+      {
+        "claim": "Bletchley Park: Lorenz messages were teleprinter code; Tommy Flowers built Colossus.",
+        "url": "https://www.bletchleypark.org.uk/our-story/lorenz/"
+      },
+      {
+        "claim": "GCHQ: John Tiltman deciphered in 1941 the message that led eventually to Bill Tutte's solution of Tunny.",
+        "url": "https://www.gchq.gov.uk/person/john-tiltman"
+      },
+      {
+        "claim": "GCHQ: Bill Tutte established the structure of the SZ40/42; arrived May 1941; first worked on the Hagelin C38m.",
+        "url": "https://www.gchq.gov.uk/person/bill-tutte"
+      },
+      {
+        "claim": "GCHQ, Colossus 80: around 2,500 valves, more than two metres tall.",
+        "url": "https://www.gchq.gov.uk/news/colossus-80"
+      },
+      {
+        "claim": "The National Museum of Computing: Colossus and its single purpose, the Colossus Gallery.",
+        "url": "https://www.tnmoc.org/colossus"
+      }
+    ],
+    "rejectedClaims": [
+      "The detail of how the 1941 Tunny message was broken (a message sent twice on one key setting): widely retold, but not found on a Bletchley Park, GCHQ or TNMOC page we could read, so the page says only what GCHQ says and presents the key-reuse project as our own exercise.",
+      "Milton Keynes City Council term dates: its term-dates page returned 404 on 26 September 2026, so only Buckinghamshire Council's calendar is printed.",
+      "Buckinghamshire Council's formation from four former district councils: not read at a primary source for this build, so no history of the council is given.",
+      "Slough and Maidenhead as Buckinghamshire towns: both built-up areas straddle into the county but lie almost entirely in Berkshire, so both are excluded.",
+      "Named Buckinghamshire schools and their computing provision: not read at the schools' own sites, so none is named.",
+      "Pinewood Studios at Iver Heath and Silverstone on the county edge: not read at primary sources for this build, so neither is mentioned."
+    ]
   }
 }
