@@ -25960,5 +25960,49 @@
       "Named Shetland schools and school term dates: none named or read.",
       "That a nautical mile equals exactly one minute of latitude: page says roughly."
     ]
+  },
+  "coding-classes-in-south-ayrshire": {
+    "market": "South Ayrshire",
+    "bodyClass": "cg-say",
+    "pageType": "governorate",
+    "curriculumAuthority": "South Ayrshire (S12000028), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 111,600 (females 58,100, males 53,500); households 52,500; density 91.3 per square kilometre (Scotland 69.8); ages 0 to 14 15,700 (14.1 per cent), 65+ 29,400 (26.3 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Ayr 46,260; Troon 14,950; Prestwick 14,880; Girvan 6,330; Maybole 4,580; Dundonald 2,570; Coylton 2,160; Mossblown 2,100; Tarbolton 1,860; Symington 1,510. HES LB40332 (Category A, added 20/01/1989), Salt Pan Houses at St Nicholas Golf Course, burgh Prestwick: \"Built circa 1760 for the salt boiling industry, as the Maryburgh Salt Works, probably salt pans with housing above\"; \"Pair parellel blocks\"; \"certainly the most complete upstanding remains of the (saltboiling) industry on the west coast\"; \"they appear to be most complete to survive in Scotland\"; \"records of 12th February 1480 uses the term 'salt pan hous'\"; applications \"on 25th June 1763 and 7th Sept. 1765\".",
+    "localProject": "Assumptions: salinity 35 g/kg, sea 10 C, cp 4.18 kJ/kg/K, latent heat 2,257 kJ/kg, coal 25 MJ/kg, efficiency 20 per cent. Seawater 28,571 kg; water boiled 27,571 kg; heat 73.0 GJ (10.7 warming, 62.2 boiling, 85 per cent); coal 14,595 kg; perfect pan 2,919 kg. Swings: efficiency 29,191 to 9,730 (19,461); coal energy 18,244 to 12,163 (6,081); salinity 17,103 to 13,408 (3,696); sea temp 14,715 to 14,476 (239). Bug 3.5 as g/kg: seawater 285,714 kg, coal 150,017 kg. Lesson family: energy balance and sensitivity analysis.",
+    "requiredMentions": [
+      "52,500",
+      "Troon",
+      "Prestwick",
+      "Girvan",
+      "Maybole",
+      "Coylton",
+      "Mossblown",
+      "Tarbolton",
+      "Symington",
+      "LB40332",
+      "Maryburgh",
+      "salt pan",
+      "latent heat"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB40332: Salt Pan Houses at St Nicholas Golf Course, Prestwick.",
+        "url": "https://portal.historicenvironment.scot/designation/LB40332"
+      }
+    ],
+    "rejectedClaims": [
+      "How much coal the Maryburgh Salt Works actually used, or its output: not in the listing, not claimed.",
+      "Salinity of the Firth of Clyde: not measured; 35 g/kg is labelled a typical open-sea assumption.",
+      "Burns heritage sites: avoided to keep the Burns anchor with East Ayrshire.",
+      "Golf course and Open Championship facts: not researched for this page.",
+      "Named South Ayrshire schools and school term dates: none named or read.",
+      "Directions or distances between towns: not claimed."
+    ]
   }
 }
