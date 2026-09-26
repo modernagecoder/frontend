@@ -357,7 +357,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 305 | coding-classes-in-mid-ulster (mul, #561F7A) | cg- county index | 2,603 | 2.5% vs coding-classes-in-antrim-and-newtownabbey | The slowest machine sets the pace | Production-line capacity, slowest stage, upgrade planning | 072e317b |
 | 306 | coding-and-ai-classes-in-south-east-england (rse, #35127A) | cg- region index | 2,632 | 2.8% vs coding-classes-in-vale-of-glamorgan | Same average, different seasons | Seasonal lag, like-for-like normals | 7f7036ca |
 | 307 | coding-and-ai-classes-in-east-of-england (ree, #2A0B4C) | cg- region index | 2,591 | 1.7% vs coding-and-ai-classes-in-south-east-england | How evenly does the rain fall? | Rainfall seasonality index | 848d1e5e |
-| 308 | coding-and-ai-classes-in-south-west-england (rsw, #3F0B4C) | cg- region index | 2,643 | 2.3% vs coding-and-ai-classes-in-south-east-england | Day against night at two stations | Diurnal temperature range | (this commit) |
+| 308 | coding-and-ai-classes-in-south-west-england (rsw, #3F0B4C) | cg- region index | 2,643 | 2.3% vs coding-and-ai-classes-in-south-east-england | Day against night at two stations | Diurnal temperature range | 5a173668 |
+| 309 | coding-and-ai-classes-in-west-midlands-region (rwm, #43127A) | cg- region index | 2,583 | 2.3% vs coding-and-ai-classes-in-south-east-england | Has the growing season got longer? | Threshold crossing by interpolation, growing season | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -15302,6 +15302,18 @@
   to = "/src/pages/coding-and-ai-classes-in-south-west-england.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-and-ai-classes-in-west-midlands-region"
+  to = "/src/pages/coding-and-ai-classes-in-west-midlands-region.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-and-ai-classes-in-west-midlands-region.md"
+  to = "/src/pages/coding-and-ai-classes-in-west-midlands-region.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

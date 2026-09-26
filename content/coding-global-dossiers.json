@@ -27325,5 +27325,49 @@
       "Heating demand and farming effects: stated generally, no figures.",
       "Sterling prices: none."
     ]
+  },
+  "coding-and-ai-classes-in-west-midlands-region": {
+    "market": "West Midlands region",
+    "bodyClass": "cg-rwm",
+    "pageType": "governorate",
+    "curriculumAuthority": "West Midlands region (E12000005). ONS Census 2021 TS001 via Nomis TYPE480: 5,950,757. ONS LAD22 to RGN22: 30 local authorities. ONS Census 2021 BUAs wholly in region: Birmingham 1,121,375; Coventry 344,285; Stoke-on-Trent 260,560; Wolverhampton 234,025; Telford 156,910; Solihull 107,735; Worcester 105,465; West Bromwich 103,110; Royal Sutton Coldfield 93,375; Newcastle-under-Lyme 76,505; Tamworth 76,090; Shrewsbury 76,015. Met Office historic station data: Shawbury \"Location: 355200E 322100N, Lat 52.794 Lon -2.663, 72 metres amsl\", monthly from January 1946.",
+    "localProject": "Shawbury monthly means ((tmax+tmin)/2). Growing season by mid-month linear interpolation: 5.5 C 1961-90 17 Mar-23 Nov 251 d; 1991-2020 1 Mar-3 Dec 276 d (+25). 6.0 C 236 -> 262. 10.0 C 160 -> 172. Whole-month slip: 8 months -> 9 months (March 5.36 -> 6.31). Lesson family: threshold crossing by interpolation, growing season length.",
+    "requiredMentions": [
+      "Telford",
+      "Solihull",
+      "West Bromwich",
+      "Royal Sutton Coldfield",
+      "Newcastle-under-Lyme",
+      "Tamworth",
+      "Shrewsbury",
+      "Shawbury",
+      "growing season"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by region, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Open Geography Portal lookups: LAD22 to RGN22 and BUA22 to region.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "Met Office historic station data, Shawbury.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/shawburydata.txt"
+      }
+    ],
+    "rejectedClaims": [
+      "Official growing-season statistics: not quoted; our simplified monthly estimates are labelled.",
+      "Causes of the warming: not discussed.",
+      "Nuneaton, Rugby and Burton upon Trent BUAs: cross the regional boundary, omitted.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }
