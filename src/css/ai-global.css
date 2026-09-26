@@ -751,3 +751,4 @@
 .ag-root.ag-glm { --ag-accent: #5C0E32; --ag-accent-soft: rgba(92,14,50,.09); }   /* Gloucestershire 11 plus maths: a deep berry red, chosen by colour distance from every accent on the site (10.82:1 on the darkest paper tint) */
 .ag-root.ag-wkm { --ag-accent: #466B69; --ag-accent-soft: rgba(70,107,105,.09); }   /* Warwickshire 11 plus maths: a grey-green of Avon willows, chosen by colour distance from every accent on the site (4.74:1 on the darkest paper tint) */
 .ag-root.ag-mdm { --ag-accent: #10226B; --ag-accent-soft: rgba(16,34,107,.09); }   /* Medway 11 plus maths: a dockyard navy, chosen by colour distance from every accent on the site (11.57:1 on the darkest paper tint) */
+.ag-root.ag-plm { --ag-accent: #37687A; --ag-accent-soft: rgba(55,104,122,.09); }   /* Plymouth 11 plus maths: a Sound sea-blue, chosen by colour distance from every accent on the site (4.94:1 on the darkest paper tint) */
