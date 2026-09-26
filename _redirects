@@ -4322,4 +4322,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-torfaen /src/pages/coding-classes-in-torfaen.html 200
 /coding-classes-in-torfaen.md /src/pages/coding-classes-in-torfaen.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-vale-of-glamorgan /src/pages/coding-classes-in-vale-of-glamorgan.html 200
+/coding-classes-in-vale-of-glamorgan.md /src/pages/coding-classes-in-vale-of-glamorgan.md 200
 /* /src/pages/404.html 404

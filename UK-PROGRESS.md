@@ -348,7 +348,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 296 | coding-classes-in-pembrokeshire (pem, #4C3240) | cg- county index | 2,604 | 1.3% vs coding-classes-in-merthyr-tydfil-county-borough | When could a tide mill grind? | Tide mill time-stepping simulation, one-way gates, lunar drift | d615110d |
 | 297 | coding-classes-in-powys (pow, #5C1757) | cg- county index | 2,544 | 1.6% vs coding-classes-in-ceredigion | Why does a full theatre sound drier? | Room acoustics, Sabine vs Eyring reverberation | 13e4d451 |
 | 298 | coding-classes-in-rhondda-cynon-taf (rct, #5C293E) | cg- county index | 2,656 | 1.8% vs coding-classes-in-anglesey | Twice the size, eight times the weight | Square law and square-cube law scaling | d653c215 |
-| 299 | coding-classes-in-torfaen (tfn, #47224C) | cg- county index | 2,530 | 1.7% vs coding-classes-in-highland | Seashell or coiled rope? | Logarithmic vs Archimedean spirals, ratio vs difference | (this commit) |
+| 299 | coding-classes-in-torfaen (tfn, #47224C) | cg- county index | 2,530 | 1.7% vs coding-classes-in-highland | Seashell or coiled rope? | Logarithmic vs Archimedean spirals, ratio vs difference | 39f8a82d |
+| 300 | coding-classes-in-vale-of-glamorgan (vog, #4C0B44) | cg- county index | 2,556 | 2.6% vs coding-classes-in-renfrewshire | 1,400 pigeons, 700 holes | Pigeonhole principle, random occupancy, sanity check | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

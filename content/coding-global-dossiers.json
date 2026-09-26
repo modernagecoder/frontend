@@ -26920,5 +26920,50 @@
       "Named schools and school term dates: none named or read.",
       "Distances and travel times: not claimed."
     ]
+  },
+  "coding-classes-in-vale-of-glamorgan": {
+    "market": "Vale of Glamorgan",
+    "bodyClass": "cg-vog",
+    "pageType": "governorate",
+    "curriculumAuthority": "Vale of Glamorgan (W06000014). ONS Census 2021 TS001 via Nomis: 131,939. ONS built-up areas wholly inside (published; OA sums within 16): Barry (Vale of Glamorgan) 56,605; Dinas Powis 7,890; Rhoose 6,780; Llantwit Major 5,345; Cowbridge 3,645; Eglwys-Brewis 3,300; Boverton 2,740; St Athan 1,595. Straddling (not tabulated): Cardiff, Bridgend, Penarth. Cadw listed building record 13176, Grade I, Dovecote at Cadoxton Court: \"Probably C13, restored\"; \"Domed circular stone dovecot circa 8m high, internal diameter circa 5m; buttressed walls 1.1m thick, and 4.6m high to springing\"; \"nesting holes circa 15cm square, and 45cm deep. Originally 700 nesting holes, capacity for 1400 pigeons\"; \"largest and best preserved of the medieval dovecots in Glamorgan\".",
+    "localProject": "Pigeonhole ceil(n/700): 701 -> 2, 1,401 -> 3, 2,101 -> 4. Random: expected empty 700(1-1/700)^n: 350 424.4; 700 257.3 (1/e); 1,400 94.6. Sim 2,000 seed 1: 700 257.2 empty, fullest 5.32, worst 8; 1,400 94.6, 7.69, 11. Wall: 15.71 m round, 72.3 m2, holes 15.75 m2 = 21.8%; 16 rows 43.8 per ring, 36 cm, 29 cm. Slip 2 pi d: 144.5 m2. Lesson family: pigeonhole + random occupancy + sanity check of a published count.",
+    "requiredMentions": [
+      "Dinas Powis",
+      "Rhoose",
+      "Llantwit Major",
+      "Cowbridge",
+      "Eglwys-Brewis",
+      "Boverton",
+      "St Athan",
+      "Cadoxton Court",
+      "dovecote",
+      "nesting holes"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents, Vale of Glamorgan, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cadw listed building full report 13176: Dovecote at Cadoxton Court.",
+        "url": "https://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=13176"
+      }
+    ],
+    "rejectedClaims": [
+      "How the Cadoxton pigeons chose holes, or the real row layout: not in the record; our assumptions.",
+      "Whether holes extend into the dome: not stated; the wall check uses the height to springing only.",
+      "Barry Docks sliding bridge (Cadw 16562): considered, not used.",
+      "Welsh-language statistics: excluded by rule.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed."
+    ]
   }
 }
