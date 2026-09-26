@@ -242,7 +242,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 190 | 11-plus-maths-tuition-birmingham (bhm, #0E0E5C) | maths door by area | 4,257 | 0.9% vs 11-plus-maths-tuition-buckinghamshire | no ruler, no protractor: angles by reasoning | angle facts and deduction without instruments | 03a7a374 |
 | 191 | 11-plus-maths-tuition-trafford (tfm, #4C2F2A) | maths door by area | 3,898 | 0.7% vs 11-plus-maths-tuition-buckinghamshire | four named maths areas; statistics is the skipped one | Year 5 line graph on real 2025 temperatures | cde2495d |
 | 192 | 11-plus-maths-tuition-sutton (stm, #4C1B25) | maths door by area | 3,862 | 1.6% vs 11-plus-maths-tuition-birmingham | same maths with five options, then with none | remainders in context and checking without options | 147d67fd |
-| 193 | 11-plus-maths-tuition-bexley (bxm, #8A4C50) | maths door by area | 3,685 | 1.3% vs 11-plus-maths-tuition-birmingham | numerical reasoning is Year 5 maths used on problems | the equals sign as balance, missing-number problems | (this commit) |
+| 193 | 11-plus-maths-tuition-bexley (bxm, #8A4C50) | maths door by area | 3,685 | 1.3% vs 11-plus-maths-tuition-birmingham | numerical reasoning is Year 5 maths used on problems | the equals sign as balance, missing-number problems | baa2dc0f |
+| 194 | 11-plus-maths-tuition-kingston (kgm, #3C5C44) | maths door by area | 3,740 | 1.4% vs 11-plus-maths-tuition-sutton | numerical answers written into digit columns | place value and digital time as answer format | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

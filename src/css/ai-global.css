@@ -740,3 +740,4 @@
 .ag-root.ag-tfm { --ag-accent: #4C2F2A; --ag-accent-soft: rgba(76,47,42,.09); }   /* Trafford 11 plus maths: a dark umber, chosen by colour distance from every accent on the site (9.68:1 on the darkest paper tint) */
 .ag-root.ag-stm { --ag-accent: #4C1B25; --ag-accent-soft: rgba(76,27,37,.09); }   /* Sutton 11 plus maths: a dark claret, chosen by colour distance from every accent on the site (11.35:1 on the darkest paper tint) */
 .ag-root.ag-bxm { --ag-accent: #8A4C50; --ag-accent-soft: rgba(138,76,80,.09); }   /* Bexley 11 plus maths: a dusky rose-brown, chosen by colour distance from every accent already on the site (5.24:1 on the darkest paper tint) */
+.ag-root.ag-kgm { --ag-accent: #3C5C44; --ag-accent-soft: rgba(60,92,68,.09); }   /* Kingston 11 plus maths: a Thames-bank green, chosen by colour distance from every accent on the site (6.03:1 on the darkest paper tint) */

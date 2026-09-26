@@ -245,6 +245,7 @@ const SLUGS = [
   '11-plus-maths-tuition-trafford',
   '11-plus-maths-tuition-sutton',
   '11-plus-maths-tuition-bexley',
+  '11-plus-maths-tuition-kingston',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -569,6 +570,7 @@ const LLMS_LABELS = {
   '11-plus-maths-tuition-trafford': '11 plus maths tuition in Trafford',
   '11-plus-maths-tuition-sutton': '11 plus maths tuition in Sutton',
   '11-plus-maths-tuition-bexley': '11 plus maths tuition in Bexley',
+  '11-plus-maths-tuition-kingston': '11 plus maths tuition in Kingston upon Thames',
 };
 
 function wireLlms(slugs) {
