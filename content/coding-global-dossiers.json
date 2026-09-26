@@ -25304,5 +25304,49 @@
       "Named East Lothian schools: none named.",
       "Boat trip details: not needed."
     ]
+  },
+  "coding-classes-in-east-renfrewshire": {
+    "market": "East Renfrewshire",
+    "bodyClass": "cg-ern",
+    "pageType": "governorate",
+    "curriculumAuthority": "East Renfrewshire (S12000011), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 96,800 (females 50,300, males 46,400); households 39,700; density 555.5 per square kilometre (Scotland 69.8); ages 0 to 14 18,100 (18.7 per cent), 65+ 20,900 (21.6 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Newton Mearns 28,210; Barrhead 17,890; Giffnock 12,250; Clarkston 9,800; Neilston 5,170; Netherlee 4,530; Thornliebank 4,170; Stamperland 3,630; Eaglesham 3,470; Busby 3,310; Waterfoot 1,340. HES LB51186 (Category A, added 05/11/2008), Waulkmill Glen Reservoir: \"William Gale engineer, circa 1847-8\"; embankment \"200 yards long, 60 ft high\"; \"The draw-off tower is quite possibly the earliest such structure in Scotland\"; \"The self-activating sluice is also of considerable interest, though it is unclear whether any of the machinery remains intact\"; \"covers an area of nearly 48 acres and has a capacity of roughly 36.5 million cubic feet\"; Gorbals Gravitation Water Company; supplied \"the Gorbals, Pollokshaws and Govan\"; \"In 1855 the company was bought out by Glasgow Corporation Waterworks\".",
+    "localProject": "Invented basin 400 m2, target 2.0 m, sluice 0.09 m3/s, demand daily sine plus noise, sensor noise sd 0.02 m, 1-minute steps, 7 days, seed 1848. Single threshold 5,088 switches (726.9/day), level 1.96 to 2.04. Band 1.8/2.2: 161 switches (23.0/day), level 1.77 to 2.23. Proportional (0.5 + 2.5 x error): 0 on-off switches, level 1.90 to 2.09, valve travel 582.3. Conversions ours: 1,033,565 m3; 19.42 ha; mean depth 17.5 ft / 5.32 m; 200 yd = 182.9 m; 60 ft = 18.3 m. Page disclaims how the real sluice worked. AI angle: chatter invisible unless counted. Lesson family: feedback control, chatter, hysteresis, proportional control.",
+    "requiredMentions": [
+      "96,800",
+      "Waulkmill",
+      "LB51186",
+      "Gorbals Gravitation",
+      "William Gale",
+      "Newton Mearns",
+      "Barrhead",
+      "Giffnock",
+      "Clarkston",
+      "Neilston",
+      "Eaglesham",
+      "Thornliebank",
+      "hysteresis"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB51186: Waulkmill Glen Reservoir, draw-off tower, self-activating sluice and regulating house.",
+        "url": "https://portal.historicenvironment.scot/designation/LB51186"
+      }
+    ],
+    "rejectedClaims": [
+      "How the original self-activating sluice worked: unknown to the listing, not claimed.",
+      "Whitelee Wind Farm facts: source page returned 403, logged and not retried; not used.",
+      "Current operation of the reservoir by Scottish Water: not read, not claimed.",
+      "That the population figures sum to the census total: not claimed; localities are mid-2020 estimates.",
+      "Named East Renfrewshire schools or school performance: not named.",
+      "East Renfrewshire school term dates: none read."
+    ]
   }
 }
