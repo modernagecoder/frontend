@@ -4258,4 +4258,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-anglesey /src/pages/coding-classes-in-anglesey.html 200
 /coding-classes-in-anglesey.md /src/pages/coding-classes-in-anglesey.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-blaenau-gwent /src/pages/coding-classes-in-blaenau-gwent.html 200
+/coding-classes-in-blaenau-gwent.md /src/pages/coding-classes-in-blaenau-gwent.md 200
 /* /src/pages/404.html 404

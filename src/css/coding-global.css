@@ -1176,3 +1176,4 @@
 .cg-root.cg-wdb  { --cg-accent: #20505C; --cg-accent-soft: rgba(32,80,92,.10); }   /* West Dunbartonshire: a test-tank water blue from the solver (7.16:1 on the darkest paper tint), greener than the Orkney slate and bluer than the Shetland teal */
 .cg-root.cg-wlo  { --cg-accent: #7A4B43; --cg-accent-soft: rgba(122,75,67,.10); }   /* West Lothian: a burnt-shale brown from the solver (5.81:1 on the darkest paper tint), pinker than the Borders stone and softer than the Fife red */
 .cg-root.cg-agy  { --cg-accent: #464C2A; --cg-accent-soft: rgba(70,76,42,.10); }   /* Anglesey: a lichen olive on castle limestone, picked by the solver (7.27:1 on the darkest paper tint), greyer than the Highland olive */
+.cg-root.cg-bgt  { --cg-accent: #22364C; --cg-accent-soft: rgba(34,54,76,.10); }   /* Blaenau Gwent: a cast-iron blue-black for the Tredegar clock, picked by the solver (9.95:1 on the darkest paper tint), greyer than the Moray navy */

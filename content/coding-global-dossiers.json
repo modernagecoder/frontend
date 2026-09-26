@@ -26192,5 +26192,50 @@
       "Named Anglesey schools and school term dates: none named or read.",
       "Ferry details from Holyhead: not claimed."
     ]
+  },
+  "coding-classes-in-blaenau-gwent": {
+    "market": "Blaenau Gwent",
+    "bodyClass": "cg-bgt",
+    "pageType": "governorate",
+    "curriculumAuthority": "Blaenau Gwent (W06000019), Blaenau Gwent County Borough Council. ONS Census 2021 TS001 via Nomis: 66,904. ONS built-up areas (published; OA sums within 5): Ebbw Vale 19,630; Tredegar 14,530; Abertillery 10,245; Brynmawr 5,250; Blaina 4,555; Nantyglo 4,545; Cwm 2,505; Llanhilleth 2,450. Cadw listed building record 1861, Grade II*, The Town Clock, Tredegar: \"Cast iron clock erected in 1858, cast by Charles Jordan of Newport, ironfounder\"; \"made by J. Joyce of Whitchurch, Shropshire\"; \"illuminated (by gas) and to be prominently visible, in order to be viewed by ironworkers and other townspeople day and night\"; \"struck on the quater and half-hours\"; \"The Circle originally grew as a square in the early C19, but the forceful prescence of the clock inclined later developers to follow its radius\"; \"a giant Tuscan column, 70 feet (21.34 metres) high\"; \"Listed as an extremely rare and remarkable cast iron town clock\".",
+    "localProject": "Pinhole, level camera at 1.6 m, 26 mm equiv (24 mm frame, half-angle 24.8 deg). Up/down angles: 10 m 63.1/9.09; 20 m 44.6/4.57; 40 m 26.3/2.29; 80 m 13.9/1.15; 160 m 7.0/0.57. Fits from 42.8 m. Circle radius 25 m (invented): h/w 0.051 (40 m), 0.029 (60), 0.017 (100), 0.008 (200) vs eye/d 0.027, 0.016, 0.008. Lesson family: perspective projection.",
+    "requiredMentions": [
+      "Ebbw Vale",
+      "Tredegar",
+      "Abertillery",
+      "Brynmawr",
+      "Blaina",
+      "Nantyglo",
+      "Llanhilleth",
+      "Charles Jordan",
+      "perspective projection",
+      "pinhole"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents, Blaenau Gwent, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cadw listed building full report 1861: The Town Clock, Tredegar.",
+        "url": "https://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=1861"
+      }
+    ],
+    "rejectedClaims": [
+      "Real radius of The Circle or viewing distances in Tredegar: invented in the model.",
+      "Nantyglo roundhouses and worker unrest: not used.",
+      "Ironworks and steelworks history beyond the clock record: not researched for this page.",
+      "Welsh-language statistics: excluded by rule.",
+      "Named schools and school term dates: none named or read.",
+      "Phone camera specifications beyond a typical 26 mm equivalent: labelled as an assumption."
+    ]
   }
 }
