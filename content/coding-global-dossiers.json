@@ -26875,5 +26875,50 @@
       "Named schools and school term dates: none named or read.",
       "Distances and travel times: not claimed."
     ]
+  },
+  "coding-classes-in-torfaen": {
+    "market": "Torfaen",
+    "bodyClass": "cg-tfn",
+    "pageType": "governorate",
+    "curriculumAuthority": "Torfaen (W06000020). ONS Census 2021 TS001 via Nomis: 92,276. ONS built-up areas (published; OA sums within 15): Cwmbran 47,090; Pontypool 29,070; Abersychan 7,495; Blaenavon 5,640; Ponthir 1,260. Cadw listed building record 3112, Grade II*, Shell Grotto, Trevethin: built for \"Capel Hanbury Leigh, the owner of Pontypool Park, in the 1830's when there were 85 workers unemployed on the estate\"; decoration \"designed, and partly executed, by Molly Mackworth who was Capel Hanbury Leigh's first wife\"; \"decorated in patterns of shells, and with quartz, spar, mica and other reflective crystals\"; \"a pendant with a pink conch as the finial\"; \"The teeth and bone floor\"; \"probably the most important surviving example in Wales\".",
+    "localProject": "Invented radii one turn apart. Shell 4.0, 6.1, 9.2, 13.9, 21.0, 31.4 mm: ratios 1.495 to 1.525 (CV 0.006), gaps 2.1 to 10.4 (CV 0.545). Rope 4.0, 8.1, 11.9, 16.0, 20.1, 23.9: gaps 3.8 to 4.1 (CV 0.037), ratios 2.025 to 1.189 (CV 0.205). Turn ratio 1.510, b 0.0656, angle 86.2 deg; turns 4 to 100 mm 7.81 vs 24.0. Degrees slip 1.8e10. Lesson family: logarithmic vs Archimedean spirals, ratio vs difference.",
+    "requiredMentions": [
+      "Cwmbrân",
+      "Abersychan",
+      "Blaenavon",
+      "Ponthir",
+      "Shell Grotto",
+      "Pontypool Park",
+      "Hanbury Leigh",
+      "Molly Mackworth",
+      "logarithmic spiral",
+      "Archimedean spiral"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents, Torfaen, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cadw listed building full report 3112: Shell Grotto, Trevethin.",
+        "url": "https://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=3112"
+      }
+    ],
+    "rejectedClaims": [
+      "Measurements of shells in the grotto: none taken; the numbers are invented.",
+      "Blaenavon World Heritage status: not read from a source, not claimed.",
+      "Blaenavon Balance Tower (Cadw 15292): considered, not used (water-balance lift lesson spent at Bridgend).",
+      "Welsh-language statistics: excluded by rule.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed."
+    ]
   }
 }

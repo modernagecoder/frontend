@@ -347,7 +347,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 295 | coding-classes-in-neath-port-talbot (npt, #4C0B2E) | cg- county index | 2,720 | 1.2% vs coding-classes-in-flintshire | How hard does warm air push through a deep mine? | Stack effect, natural ventilation draught, ideal gas law | 0967f551 |
 | 296 | coding-classes-in-pembrokeshire (pem, #4C3240) | cg- county index | 2,604 | 1.3% vs coding-classes-in-merthyr-tydfil-county-borough | When could a tide mill grind? | Tide mill time-stepping simulation, one-way gates, lunar drift | d615110d |
 | 297 | coding-classes-in-powys (pow, #5C1757) | cg- county index | 2,544 | 1.6% vs coding-classes-in-ceredigion | Why does a full theatre sound drier? | Room acoustics, Sabine vs Eyring reverberation | 13e4d451 |
-| 298 | coding-classes-in-rhondda-cynon-taf (rct, #5C293E) | cg- county index | 2,656 | 1.8% vs coding-classes-in-anglesey | Twice the size, eight times the weight | Square law and square-cube law scaling | (this commit) |
+| 298 | coding-classes-in-rhondda-cynon-taf (rct, #5C293E) | cg- county index | 2,656 | 1.8% vs coding-classes-in-anglesey | Twice the size, eight times the weight | Square law and square-cube law scaling | d653c215 |
+| 299 | coding-classes-in-torfaen (tfn, #47224C) | cg- county index | 2,530 | 1.7% vs coding-classes-in-highland | Seashell or coiled rope? | Logarithmic vs Archimedean spirals, ratio vs difference | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
