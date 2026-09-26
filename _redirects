@@ -3894,4 +3894,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /11-plus-maths-tuition-sutton /src/pages/11-plus-maths-tuition-sutton.html 200
 /11-plus-maths-tuition-sutton.md /src/pages/11-plus-maths-tuition-sutton.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/11-plus-maths-tuition-bexley /src/pages/11-plus-maths-tuition-bexley.html 200
+/11-plus-maths-tuition-bexley.md /src/pages/11-plus-maths-tuition-bexley.md 200
 /* /src/pages/404.html 404
