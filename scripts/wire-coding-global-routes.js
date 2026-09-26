@@ -559,6 +559,7 @@ const MARKETS = [
   ['coding-classes-in-gwynedd', 'Gwynedd'],
   ['coding-classes-in-merthyr-tydfil-county-borough', 'Merthyr Tydfil'],
   ['coding-classes-in-monmouthshire', 'Monmouthshire'],
+  ['coding-classes-in-neath-port-talbot', 'Neath Port Talbot'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

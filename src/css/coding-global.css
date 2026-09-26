@@ -1187,3 +1187,4 @@
 .cg-root.cg-gwn  { --cg-accent: #2A2F4C; --cg-accent-soft: rgba(42,47,76,.10); }   /* Gwynedd: a Welsh slate blue-grey from the solver (10.51:1 on the darkest paper tint), greyer and darker than the Denbighshire slate blue */
 .cg-root.cg-mty  { --cg-accent: #7A352B; --cg-accent-soft: rgba(122,53,43,.10); }   /* Merthyr Tydfil: an ironworks rust red from the solver (7.13:1 on the darkest paper tint), pinker than the Fife red and lighter than the Clackmannanshire one */
 .cg-root.cg-mmt  { --cg-accent: #4C4422; --cg-accent-soft: rgba(76,68,34,.10); }   /* Monmouthshire: a brass-telescope olive from the solver (7.84:1 on the darkest paper tint), browner than the Anglesey olive */
+.cg-root.cg-npt  { --cg-accent: #4C0B2E; --cg-accent-soft: rgba(76,11,46,.10); }   /* Neath Port Talbot: a deep red-brick maroon from the solver (12.13:1 on the darkest paper tint), for the colliery engine house */

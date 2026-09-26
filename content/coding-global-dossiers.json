@@ -26689,5 +26689,51 @@
       "Named schools and school term dates: none named or read.",
       "Distances between towns: not claimed."
     ]
+  },
+  "coding-classes-in-neath-port-talbot": {
+    "market": "Neath Port Talbot",
+    "bodyClass": "cg-npt",
+    "pageType": "governorate",
+    "curriculumAuthority": "Neath Port Talbot (W06000012). ONS Census 2021 TS001 via Nomis: 142,289. ONS built-up areas inside the county borough (published; OA sums within 8): Neath 40,730; Port Talbot 31,555; Baglan 10,510; Pontardawe 5,540; Cwmavon 4,525; Glyn-neath 3,925; Gwaun-Cae-Gurwen 2,745; Alltwen 2,720; Cilfrew 2,180; Resolven 2,160. Straddling (not tabulated): Swansea, Clydach, Ystalyfera, Brynamman. Cadw listed building record 11858, Grade II*, Cefn Coed Colliery No. 1 Shaft Headframe, Crynant: \"sunk in 1926-7 at that time being the deepest anthracite mine in the world with two shafts over 732m deep\"; \"employed over 900 men in 1945 and closed in 1968\"; \"some 18m high, with winding sheaves still in place\"; \"tops the upcast shaft, which was connected underground to the nearby fan house\"; \"boxed in with steel plates in order to control ventilation and cause air to be drawn in down No 2 shaft\"; museum established 1978.",
+    "localProject": "Stack effect, draught = g h (rho_down - rho_up), h 732 m, ideal gas at 101,325 Pa, dry air. 10/15 C: 155 Pa; 10/20: 305; 10/25: 450 (1.2467 vs 1.1839 kg/m3); 0/25: 778; summer 25/20: -145. 100 m: 62 Pa; 300 m: 185 Pa. Celsius bug: 35.30 and 14.12 kg/m3, draught 152,089 Pa. Lesson family: stack effect / natural ventilation draught.",
+    "requiredMentions": [
+      "Baglan",
+      "Pontardawe",
+      "Cwmavon",
+      "Glyn-neath",
+      "Gwaun-Cae-Gurwen",
+      "Cilfrew",
+      "Resolven",
+      "Cefn Coed",
+      "Crynant",
+      "upcast shaft",
+      "stack effect"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents, Neath Port Talbot, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cadw listed building full report 11858: Cefn Coed Colliery, No. 1 Shaft Headframe.",
+        "url": "https://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=11858"
+      }
+    ],
+    "rejectedClaims": [
+      "Actual shaft air temperatures or airflow at Cefn Coed: not in the record; temperatures are ours.",
+      "Colliery accidents and deaths: excluded, no disaster content.",
+      "Museum opening times or current access: not read, not claimed.",
+      "Margam Orangery \"longest in Britain\": considered, not used.",
+      "Welsh-language statistics: excluded by rule.",
+      "Named schools and school term dates: none named or read."
+    ]
   }
 }

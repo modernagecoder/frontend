@@ -15134,6 +15134,18 @@
   to = "/src/pages/coding-classes-in-monmouthshire.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-neath-port-talbot"
+  to = "/src/pages/coding-classes-in-neath-port-talbot.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-neath-port-talbot.md"
+  to = "/src/pages/coding-classes-in-neath-port-talbot.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
