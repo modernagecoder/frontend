@@ -14,7 +14,7 @@ Ceremonial county of Buckinghamshire / Live online
 
 **What are the best coding classes in Buckinghamshire?** Buckinghamshire as a county is two councils: Buckinghamshire Council, which held 553,078 people at the 2021 Census, and Milton Keynes City Council with 287,060, for 840,138 together. Its largest places are Milton Keynes, Aylesbury and High Wycombe, and after them comes a long run of Chiltern and Thames-side towns from Chesham to Marlow. We teach all of it the same way: live online, from India, with learners placed by what they can already do rather than by age, anyone from 6 to 67, in small groups of five to ten or one to one. Programming, Python, cyber security, AI and maths are all on offer. The county's project is a cipher, because Bletchley is here. You pay nothing for the first lesson. Groups then cost USD 100 a month, and a private teacher USD 150.
 
-Take a message, turn each letter into five bits of teleprinter code, and combine it with a key of random five-bit symbols. What comes out looks like noise and, used once, is as close to unbreakable as anything in cryptography. Use the same key for a second message and something strange happens: combine the two scrambled messages with each other and the key disappears completely, leaving the two original messages tangled together and waiting to be pulled apart. Buckinghamshire has a particular claim on this subject. Bletchley Park, in what is now Milton Keynes, spent the war reading German teleprinter traffic, and the machine that helped do it, Colossus, is on show there today. This page's project is a small, honest cousin of that problem, built from scratch, that a learner can break with an afternoon and a laptop.
+Take a message, turn each letter into five bits of teleprinter code, and combine it with a key of random five-bit symbols. What comes out looks like noise and, used once, is as close to unbreakable as anything in cryptography. Use the same key for a second message and something strange happens: combine the two scrambled messages with each other and the key disappears completely, leaving the two original messages tangled together and waiting to be pulled apart. Buckinghamshire has a particular claim on this subject. Bletchley Park, in what is now Milton Keynes, spent the war reading German teleprinter traffic, and a rebuild of the machine that helped do it, Colossus, is on show there today. This page's project is a small, honest cousin of that problem, built from scratch, that a learner can break with an afternoon and a laptop.
 
 Facts last verified 26 September 2026. Teaching is online; no Buckinghamshire branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 5 to 10 students per group.
 
@@ -22,10 +22,10 @@ Facts last verified 26 September 2026. Teaching is online; no Buckinghamshire br
 
 A seven-year-old in Olney who draws comics, a Year 6 pupil in Amersham who finished every puzzle book in the house, a Year 10 student in Bletchley who has just visited the huts, and a parent in Princes Risborough changing career. Four different first courses, one free first lesson.
 
-- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch stories and games, including a secret-message sprite that swaps letters, which is where cipher thinking begins.
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Typed Python with strings, lists and the first bitwise trick, taught slowly enough that the idea sticks.
-- [Cybersecurity for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive) (Ages 13 to 17): Defensive, ethical security for teenagers: how keys, passwords and ciphers fail, and how to stop them failing.
-- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python from zero for grown-ups, with real files, real errors and nothing assumed about what you already know.
+- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): Scratch stories, animations and games for young beginners; once the basics land, a letter-swapping secret message makes a good first project of their own.
+- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): Typed Python with strings, lists and files, including a unit on simple encryption for files, which leads straight into this page's project.
+- [Cybersecurity for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive) (Ages 13 to 18): Defensive, ethical security for teenagers, with encryption from paper ciphers to the HTTPS padlock and instructor-built puzzles in cryptography.
+- [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college) (Adults): Python from zero for grown-ups, going on to object-oriented design, files and exceptions, with nothing assumed at the start.
 
 The four we are known for, on every market page:
 
@@ -67,7 +67,7 @@ Two figures add up to the county, and they tell you something about lessons. Mil
 | Chalfont St Peter | 13,650 | Iver Heath | 5,150 |
 | Flackwell Heath and Wooburn Green | 12,435 |  |  |
 
-We checked every row the slow way before printing it. The ONS publishes built-up area totals without saying which council they fall in, so we summed the Census counts of every output area inside the two Buckinghamshire councils, grouped by built-up area, and compared. Twenty-three rows agree to within rounding. Marlow is slightly larger than its Buckinghamshire part, and Bletchley reaches a few dozen people over the council line. Slough came back with about twelve thousand residents on the Buckinghamshire side, out of 166,855, and Maidenhead with a few hundred, so neither is a Buckinghamshire town and neither is in the table.
+We checked every row the slow way before printing it. The ONS publishes built-up area totals without saying which council they fall in, so we summed the Census counts of every output area inside the two Buckinghamshire councils, grouped by built-up area, and compared. Twenty-four of the twenty-five rows agree to within rounding. Marlow is the exception: our count inside the county comes to about 170 fewer than the ONS total, so a sliver of it lies over the boundary. Slough came back with about 12,700 residents on the Buckinghamshire side, out of 166,855, and Maidenhead with a few hundred, so neither is a Buckinghamshire town and neither is in the table.
 
 ### The 2026-27 school year, as Buckinghamshire Council sets it
 
@@ -135,7 +135,7 @@ The reason a Buckinghamshire page teaches a cipher. Each fact comes from the org
 | GCHQ, marking Colossus at 80 | The machine used "around 2,500 valves" and stood "more than two metres tall". |
 | The National Museum of Computing | Colossus "had a single purpose: to help decipher the Lorenz-encrypted (Tunny) messages"; its rebuild is on show in the museum's Colossus Gallery at Bletchley Park. |
 
-Look at Tutte's entry for what it says about learning. He read chemistry at Cambridge, not mathematics, and spent his spare time on puzzles about squaring the square. The work that mattered came from someone trained to notice structure in things, not from someone who had studied ciphers before. That is a fair description of what a first programming course is for, at eight or at forty-eight.
+Look at Tutte's entry for what it says about learning. He read chemistry at Cambridge, not mathematics, and spent his spare time on puzzles about squaring the square. GCHQ calls him one of the foremost mathematicians of his generation, and his route there ran through chemistry and puzzles rather than a straight line. Noticing structure is a habit that can be learned somewhere else and brought along, which is a fair description of what a first programming course is for, at eight or at forty-eight.
 
 Modern Age Coders has no connection with Bletchley Park, The National Museum of Computing, GCHQ, Buckinghamshire Council or Milton Keynes City Council, and nothing on this page suggests one. The quotations are theirs; the toy cipher, the code and any mistakes in them are ours.
 
@@ -145,8 +145,8 @@ Modern Age Coders has no connection with Bletchley Park, The National Museum of 
 
 The free lesson sets the starting rung. School year is a clue, and we treat it as one.
 
-- **Ages 6 to 10: Swap and unswap** Scratch projects that hide a message and reveal it again, which teaches that every scramble needs a matching unscramble. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
-- **Ages 10 to 13: Bits you can see** Python strings, lists and binary, with XOR introduced as a switch that flips bits and flips them back. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
+- **Ages 6 to 10: Stories and games first** Scratch projects built from events, loops and variables. Children who enjoy them are ready for a scramble-and-unscramble message game they design themselves. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids)
+- **Ages 10 to 13: Text, files and first secrets** Python strings, lists and files, and simple encryption, which is the natural doorway to the XOR idea on this page. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
 - **Ages 13 to 18: Thinking like the defender** Ethical security, careful Python and the habit of asking how a design fails before trusting it with anything real. [Cybersecurity for Teens](/courses/cybersecurity-course-for-teens-ethical-defensive), [Python for Teens](/courses/python-complete-masterclass-teens)
 - **Ages 18 to 67: Code for work** Adults write Python that handles real files, real errors and real people's data, and learn where AI help ends and checking begins. [Python Masterclass](/courses/python-programming-masterclass-zero-to-advanced-college), [Python Automation Course](/courses/python-ai-automation-masterclass-college)
 
@@ -207,7 +207,7 @@ No. Lorenz was a much more complicated machine and the wartime work was far hard
 
 ### Do you teach cyber security to teenagers?
 
-Yes, as defensive and ethical security for ages 13 to 17: how passwords, keys and ciphers fail and how to protect against that. Nothing in the course involves attacking systems that belong to anyone else.
+Yes, as a defensive and ethical course for ages 13 to 18, covering safe habits, how attacks work in concept, and encryption from paper ciphers to the HTTPS padlock. Its practice puzzles are built by the instructor and self-contained, and the legal and ethical lines are taught directly.
 
 ### Is there a classroom in Aylesbury, High Wycombe or Milton Keynes?
 

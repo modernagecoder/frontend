@@ -22,7 +22,7 @@
 
 module.exports = {
   clusterName: 'United Kingdom',
-  hub: { group: 'county', tag: 'BUCKINGHAMSHIRE', blurb: 'Two councils, twenty-four towns with a census figure each, and a teleprinter cipher that falls apart when its key is used twice.' },
+  hub: { group: 'county', tag: 'BUCKINGHAMSHIRE', blurb: 'Two councils, twenty-five towns with a census figure each, and a teleprinter cipher that falls apart when its key is used twice.' },
   market: { iso: 'GB', dial: '+44', name: 'United Kingdom', locale: 'en_GB', geoRegion: 'GB', phoneLabel: 'UK mobile number', phonePlaceholder: '7700 900123', gradeLabel: 'School year or age', minDigits: 10, stripTrunk: true },
   slug: 'coding-classes-in-buckinghamshire',
   code: 'bkc',
@@ -59,7 +59,7 @@ module.exports = {
   h1: 'Coding classes in Buckinghamshire',
   capsuleQ: 'What are the best coding classes in Buckinghamshire?',
   capsule: 'Buckinghamshire as a county is two councils: Buckinghamshire Council, which held 553,078 people at the 2021 Census, and Milton Keynes City Council with 287,060, for 840,138 together. Its largest places are Milton Keynes, Aylesbury and High Wycombe, and after them comes a long run of Chiltern and Thames-side towns from Chesham to Marlow. We teach all of it the same way: live online, from India, with learners placed by what they can already do rather than by age, anyone from 6 to 67, in small groups of five to ten or one to one. Programming, Python, cyber security, AI and maths are all on offer. The county\'s project is a cipher, because Bletchley is here. You pay nothing for the first lesson. Groups then cost USD 100 a month, and a private teacher USD 150.',
-  lead: 'Take a message, turn each letter into five bits of teleprinter code, and combine it with a key of random five-bit symbols. What comes out looks like noise and, used once, is as close to unbreakable as anything in cryptography. Use the same key for a second message and something strange happens: combine the two scrambled messages with each other and the key disappears completely, leaving the two original messages tangled together and waiting to be pulled apart. Buckinghamshire has a particular claim on this subject. Bletchley Park, in what is now Milton Keynes, spent the war reading German teleprinter traffic, and the machine that helped do it, Colossus, is on show there today. This page\'s project is a small, honest cousin of that problem, built from scratch, that a learner can break with an afternoon and a laptop.',
+  lead: 'Take a message, turn each letter into five bits of teleprinter code, and combine it with a key of random five-bit symbols. What comes out looks like noise and, used once, is as close to unbreakable as anything in cryptography. Use the same key for a second message and something strange happens: combine the two scrambled messages with each other and the key disappears completely, leaving the two original messages tangled together and waiting to be pulled apart. Buckinghamshire has a particular claim on this subject. Bletchley Park, in what is now Milton Keynes, spent the war reading German teleprinter traffic, and a rebuild of the machine that helped do it, Colossus, is on show there today. This page\'s project is a small, honest cousin of that problem, built from scratch, that a learner can break with an afternoon and a laptop.',
   wa: 'Hello Modern Age Coders, I would like a free class for a learner in Buckinghamshire.',
 
   picks: {
@@ -67,10 +67,10 @@ module.exports = {
     h2: 'Where a Buckinghamshire learner usually starts',
     intro: 'A seven-year-old in Olney who draws comics, a Year 6 pupil in Amersham who finished every puzzle book in the house, a Year 10 student in Bletchley who has just visited the huts, and a parent in Princes Risborough changing career. Four different first courses, one free first lesson.',
     items: [
-      { course: 'scratch-programming-complete-course', band: 'Ages 6 to 10', note: 'Scratch stories and games, including a secret-message sprite that swaps letters, which is where cipher thinking begins.' },
-      { course: 'python-ai-kids-masterclass', band: 'Ages 10 to 13', note: 'Typed Python with strings, lists and the first bitwise trick, taught slowly enough that the idea sticks.' },
-      { course: 'cybersecurity-course-for-teens-ethical-defensive', band: 'Ages 13 to 17', note: 'Defensive, ethical security for teenagers: how keys, passwords and ciphers fail, and how to stop them failing.' },
-      { course: 'python-programming-masterclass-zero-to-advanced-college', band: 'Adults', note: 'Python from zero for grown-ups, with real files, real errors and nothing assumed about what you already know.' }
+      { course: 'scratch-programming-complete-course', band: 'Ages 6 to 10', note: 'Scratch stories, animations and games for young beginners; once the basics land, a letter-swapping secret message makes a good first project of their own.' },
+      { course: 'python-ai-kids-masterclass', band: 'Ages 10 to 13', note: 'Typed Python with strings, lists and files, including a unit on simple encryption for files, which leads straight into this page\'s project.' },
+      { course: 'cybersecurity-course-for-teens-ethical-defensive', band: 'Ages 13 to 18', note: 'Defensive, ethical security for teenagers, with encryption from paper ciphers to the HTTPS padlock and instructor-built puzzles in cryptography.' },
+      { course: 'python-programming-masterclass-zero-to-advanced-college', band: 'Adults', note: 'Python from zero for grown-ups, going on to object-oriented design, files and exceptions, with nothing assumed at the start.' }
     ]
   },
 
@@ -100,7 +100,7 @@ module.exports = {
           ['Chalfont St Peter', '13,650', 'Iver Heath', '5,150'],
           ['Flackwell Heath and Wooburn Green', '12,435', '', '']
         ] },
-        { kind: 'p', text: 'We checked every row the slow way before printing it. The ONS publishes built-up area totals without saying which council they fall in, so we summed the Census counts of every output area inside the two Buckinghamshire councils, grouped by built-up area, and compared. Twenty-three rows agree to within rounding. Marlow is slightly larger than its Buckinghamshire part, and Bletchley reaches a few dozen people over the council line. Slough came back with about twelve thousand residents on the Buckinghamshire side, out of 166,855, and Maidenhead with a few hundred, so neither is a Buckinghamshire town and neither is in the table.' },
+        { kind: 'p', text: 'We checked every row the slow way before printing it. The ONS publishes built-up area totals without saying which council they fall in, so we summed the Census counts of every output area inside the two Buckinghamshire councils, grouped by built-up area, and compared. Twenty-four of the twenty-five rows agree to within rounding. Marlow is the exception: our count inside the county comes to about 170 fewer than the ONS total, so a sliver of it lies over the boundary. Slough came back with about 12,700 residents on the Buckinghamshire side, out of 166,855, and Maidenhead with a few hundred, so neither is a Buckinghamshire town and neither is in the table.' },
         { kind: 'callout', h3: 'The 2026-27 school year, as Buckinghamshire Council sets it', p: 'Buckinghamshire Council\'s autumn term starts on Wednesday 2 September 2026, with a proposed inset day on 1 September, a half term from Monday 26 to Friday 30 October, and an end on Friday 18 December 2026. Spring term runs from 4 January to 25 March 2027, and the summer term finishes on Wednesday 21 July 2027. The council lists separate arrangements for academies, voluntary aided and foundation schools, which may differ, and Milton Keynes is a separate council with its own calendar. We agree breaks with each family rather than assuming one county timetable.' },
         { kind: 'p', text: 'Buckinghamshire Council also runs a selective secondary system with its own entrance test, which has <a class="cg-inline-link" href="/11-plus-maths-tuition-buckinghamshire">a page of its own</a>. This page is about programming, and nothing here is advice about schools.' }
       ]
@@ -146,7 +146,7 @@ module.exports = {
           ['GCHQ, marking Colossus at 80', 'The machine used "around 2,500 valves" and stood "more than two metres tall".'],
           ['The National Museum of Computing', 'Colossus "had a single purpose: to help decipher the Lorenz-encrypted (Tunny) messages"; its rebuild is on show in the museum\'s Colossus Gallery at Bletchley Park.']
         ] },
-        { kind: 'p', text: 'Look at Tutte\'s entry for what it says about learning. He read chemistry at Cambridge, not mathematics, and spent his spare time on puzzles about squaring the square. The work that mattered came from someone trained to notice structure in things, not from someone who had studied ciphers before. That is a fair description of what a first programming course is for, at eight or at forty-eight.' },
+        { kind: 'p', text: 'Look at Tutte\'s entry for what it says about learning. He read chemistry at Cambridge, not mathematics, and spent his spare time on puzzles about squaring the square. GCHQ calls him one of the foremost mathematicians of his generation, and his route there ran through chemistry and puzzles rather than a straight line. Noticing structure is a habit that can be learned somewhere else and brought along, which is a fair description of what a first programming course is for, at eight or at forty-eight.' },
         { kind: 'p', text: 'Modern Age Coders has no connection with Bletchley Park, The National Museum of Computing, GCHQ, Buckinghamshire Council or Milton Keynes City Council, and nothing on this page suggests one. The quotations are theirs; the toy cipher, the code and any mistakes in them are ours.' },
         { kind: 'spec', title: 'Neighbouring pages', p: '<a class="cg-inline-link" href="/best-coding-class-in-milton-keynes">Milton Keynes</a> has a city page of its own with a different project, <a class="cg-inline-link" href="/coding-classes-in-surrey">Surrey</a> is the county index this one follows, and the <a class="cg-inline-link" href="/coding-classes-in-united-kingdom">UK page</a> links every county as it goes live.' }
       ]
@@ -158,8 +158,8 @@ module.exports = {
     h2: 'From a secret-message sprite to code that survives an attacker',
     intro: 'The free lesson sets the starting rung. School year is a clue, and we treat it as one.',
     cols: [
-      { band: 'Ages 6 to 10', h3: 'Swap and unswap', p: 'Scratch projects that hide a message and reveal it again, which teaches that every scramble needs a matching unscramble.', courses: ['scratch-programming-complete-course', 'problem-solving-and-computational-thinking-for-kids'] },
-      { band: 'Ages 10 to 13', h3: 'Bits you can see', p: 'Python strings, lists and binary, with XOR introduced as a switch that flips bits and flips them back.', courses: ['python-ai-kids-masterclass', 'maths-through-coding'] },
+      { band: 'Ages 6 to 10', h3: 'Stories and games first', p: 'Scratch projects built from events, loops and variables. Children who enjoy them are ready for a scramble-and-unscramble message game they design themselves.', courses: ['scratch-programming-complete-course', 'problem-solving-and-computational-thinking-for-kids'] },
+      { band: 'Ages 10 to 13', h3: 'Text, files and first secrets', p: 'Python strings, lists and files, and simple encryption, which is the natural doorway to the XOR idea on this page.', courses: ['python-ai-kids-masterclass', 'maths-through-coding'] },
       { band: 'Ages 13 to 18', h3: 'Thinking like the defender', p: 'Ethical security, careful Python and the habit of asking how a design fails before trusting it with anything real.', courses: ['cybersecurity-course-for-teens-ethical-defensive', 'python-complete-masterclass-teens'] },
       { band: 'Ages 18 to 67', h3: 'Code for work', p: 'Adults write Python that handles real files, real errors and real people\'s data, and learn where AI help ends and checking begins.', courses: ['python-programming-masterclass-zero-to-advanced-college', 'python-ai-automation-masterclass-college'] }
     ]
@@ -203,7 +203,7 @@ module.exports = {
 
   book: {
     h2: 'Book the free first lesson',
-    intro: 'Tell us an age or school year and one thing the learner enjoys. The first lesson might be a Scratch secret-message game, a first Python program, or a key reused on purpose to see what breaks.',
+    intro: 'Tell us an age or school year and one thing the learner enjoys. The first lesson might be a Scratch game, a first Python program, or a key reused on purpose to see what breaks.',
     success: 'Thank you. Your Buckinghamshire request is with our team.'
   },
 
@@ -216,7 +216,7 @@ module.exports = {
       { q: 'When is October half term in Buckinghamshire in 2026?', a: 'Buckinghamshire Council lists Monday 26 to Friday 30 October 2026. Its autumn term starts on Wednesday 2 September 2026, after a proposed inset day on 1 September, and ends on Friday 18 December. Academies, voluntary aided and foundation schools, and Milton Keynes schools, may set different dates.' },
       { q: 'What is the cipher project?', a: 'Learners build a toy stream cipher on five-bit teleprinter code using XOR, encrypt two messages with one key, and show the key cancels when the two ciphertexts are combined. Then they drag guessed words across the result to recover pieces of both messages.' },
       { q: 'Is this how Bletchley Park broke Lorenz?', a: 'No. Lorenz was a much more complicated machine and the wartime work was far harder. The project is a small modern exercise inspired by the county\'s history, which demonstrates why any cipher that adds a key stream must never use the same key twice.' },
-      { q: 'Do you teach cyber security to teenagers?', a: 'Yes, as defensive and ethical security for ages 13 to 17: how passwords, keys and ciphers fail and how to protect against that. Nothing in the course involves attacking systems that belong to anyone else.' },
+      { q: 'Do you teach cyber security to teenagers?', a: 'Yes, as a defensive and ethical course for ages 13 to 18, covering safe habits, how attacks work in concept, and encryption from paper ciphers to the HTTPS padlock. Its practice puzzles are built by the instructor and self-contained, and the legal and ethical lines are taught directly.' },
       { q: 'Is there a classroom in Aylesbury, High Wycombe or Milton Keynes?', a: 'No. All teaching is live online, which is what lets a learner in a small Chiltern village join the same group as one in the middle of Milton Keynes.' },
       { q: 'What ages do you teach?', a: 'From six to sixty-seven. Younger children begin with Scratch, typed Python usually starts between ten and twelve, and teenagers and adults go on to security, data, AI and software. The free lesson decides the level.' },
       { q: 'What does it cost?', a: 'Nothing for the first lesson. After that a group place is USD 100 a month and private teaching USD 150 a month, with no joining fee and no fixed term.' },
