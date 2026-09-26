@@ -23040,5 +23040,54 @@
       "Swadlincote and Woodville as Leicestershire towns: both lie mostly in Derbyshire.",
       "Named Leicestershire schools: none is named."
     ]
+  },
+  "coding-classes-in-warwickshire": {
+    "market": "Warwickshire",
+    "bodyClass": "cg-wks",
+    "pageType": "governorate",
+    "curriculumAuthority": "Warwickshire (five districts under Warwickshire County Council; Coventry is in the West Midlands county). ONS Census 2021 TS001 via Nomis: Warwick 148,453; Stratford-on-Avon 134,725; Nuneaton and Bedworth 134,197; Rugby 114,363; North Warwickshire 65,035; total 596,773 (our sum). ONS Census 2021 built-up areas (published; the nineteen printed agree with our OA sums within rounding): Nuneaton 88,815 (North Warwickshire, Nuneaton and Bedworth); Rugby 78,120; Royal Leamington Spa 51,310; Warwick 36,680; Bedworth 31,090; Stratford-upon-Avon 28,120; Kenilworth 22,235; Whitnash 8,915; Atherstone 8,665; Southam 8,110; Polesworth and Dordon 7,555; Wellesbourne 7,020; Coleshill 6,745; Cawston 6,470; Alcester 6,425; Studley 6,040; Shipston-on-Stour 5,850; Bidford-on-Avon 5,825; Bulkington 5,670. Excluded: Coventry BUA 344,285 (2,848 in Warwick district), Tamworth BUA 76,090 (322 in North Warwickshire). Warwick Castle: \"Britain's largest working siege machine\"; \"The Warwick Castle Trebuchet weighs 22 tonnes and is almost 60 feet tall\"; \"Set on the bank of the River Avon\"; \"The trebuchet was used to hurl huge projectiles to breach the castle walls. Large rocks and stones were the main ammunition.\" Rugby School history: \"Rugby was founded in 1567 by the will of Lawrence Sheriff\"; \"In 1823, a student and foundationer, William Webb Ellis (1816-1825), with a fine disregard for the rules of football, took the ball in his arms and ran with it, originating the game of rugby football\".",
+    "localProject": "Projectile motion and the launch angle. RK4 integration at 1 ms, quadratic drag a = -k|v|v with k = 0.5 rho Cd A / m; launch speed 40 m/s (teaching value). Check: no air, ground release, best 45.0 degrees, 163.1 m = v^2/g. No air, 15 m release: best 42.6 degrees (analytic atan(v / sqrt(v^2 + 2gh)) = 42.58), 177.5 m, 45 degrees gives 176.9. Stone (15 kg, 0.25 m sphere, Cd 0.47, air 1.225 kg/m3; k 0.000942 per m): ground 44.1 degrees 146.0 m (45: 145.9); 15 m up 41.4 degrees 159.3 m (45: 158.3). Light ball (2 kg, 0.2 m): ground 41.8 degrees 107.4 m (45: 106.8); 15 m up 38.1 degrees 118.3 m (45: 116.1). Almost 60 feet = 18.29 m. Teaching values stated as ours on the page, not the castle's. AI angle: assistants repeat 45 degrees, the textbook case, without naming its assumptions. Lesson family: projectile motion and launch-angle optimisation, checked against the analytic case; distinct from Euler drift on a pendulum (Leidschendam-Voorburg).",
+    "requiredMentions": [
+      "596,773",
+      "22 tonnes",
+      "almost 60 feet",
+      "163.1 metres",
+      "42.58 degrees",
+      "38.1 degrees",
+      "fine disregard for the rules of football",
+      "Polesworth and Dordon",
+      "Shipston-on-Stour",
+      "41.4 degrees"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the five Warwickshire districts, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Warwickshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Warwick Castle: the trebuchet, 22 tonnes, almost 60 feet tall, Britain's largest working siege machine.",
+        "url": "https://www.warwick-castle.com/explore/shows/shows-attractions/the-legend-of-the-trebuchet/"
+      },
+      {
+        "claim": "Rugby School history: founded 1567; William Webb Ellis in 1823.",
+        "url": "https://www.rugbyschool.co.uk/about/history/"
+      }
+    ],
+    "rejectedClaims": [
+      "Warwickshire County Council term dates: both URLs tried returned 404 on 26 September 2026; no calendar printed.",
+      "Rugby pitch and goal dimensions: World Rugby Law 1 gives field lengths in text but the crossbar height only in a diagram, so the planned kicking project was dropped.",
+      "The trebuchet's throwing range, counterweight or projectile mass: not published on the castle page, so every speed and mass in the project is labelled as our teaching value.",
+      "Shakespeare text analysis: text similarity was already used on the Bath page, so no Stratford text project is attempted.",
+      "Coventry and Tamworth as Warwickshire towns: both built-up areas lie almost entirely in neighbouring counties.",
+      "Named Warwickshire schools' computing provision: Rugby School is cited only for its account of the game's origin, not for any teaching claim."
+    ]
   }
 }

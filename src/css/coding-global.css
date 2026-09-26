@@ -1111,3 +1111,4 @@
 .cg-root.cg-hrc  { --cg-accent: #7A6150; --cg-accent-soft: rgba(122,97,80,.10); }   /* Hertfordshire: a Martian-dust brown from the solver (4.63:1 on the darkest paper tint), warmer and greyer than any other UK county accent */
 .cg-root.cg-exc  { --cg-accent: #6B583B; --cg-accent-soft: rgba(107,88,59,.10); }   /* Essex: a weathered pier-timber brown from the solver (5.49:1 on the darkest paper tint), yellower than the other UK browns */
 .cg-root.cg-lcs  { --cg-accent: #6B5246; --cg-accent-soft: rgba(107,82,70,.10); }   /* Leicestershire: a bell-bronze brown from the solver (5.79:1 on the darkest paper tint), redder than the Essex and Hertfordshire browns */
+.cg-root.cg-wks  { --cg-accent: #585C3C; --cg-accent-soft: rgba(88,92,60,.10); }   /* Warwickshire: a castle-moss olive from the solver (5.62:1 on the darkest paper tint), the only olive among the UK county accents */
