@@ -1182,3 +1182,4 @@
 .cg-root.cg-cmt  { --cg-accent: #325C5C; --cg-accent-soft: rgba(50,92,92,.10); }   /* Carmarthenshire: a river-slate teal from the solver (6.0:1 on the darkest paper tint), greyer than the Shetland teal and lighter than the East Lothian one */
 .cg-root.cg-cdg  { --cg-accent: #0E3D5C; --cg-accent-soft: rgba(14,61,92,.10); }   /* Ceredigion: a deep bay blue from the solver (9.19:1 on the darkest paper tint), clearer than the Blaenau Gwent blue-black and greener than the Moray navy */
 .cg-root.cg-cwy  { --cg-accent: #184C0B; --cg-accent-soft: rgba(24,76,11,.10); }   /* Conwy: a deep castle-ivy green from the solver (8.15:1 on the darkest paper tint), darker and more saturated than the Highland olive */
+.cg-root.cg-dnh  { --cg-accent: #3B416B; --cg-accent-soft: rgba(59,65,107,.10); }   /* Denbighshire: a slate blue for Dee valley stone, picked by the solver (7.85:1 on the darkest paper tint), greyer than the South Lanarkshire indigo */

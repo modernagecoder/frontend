@@ -26464,5 +26464,50 @@
       "Named schools and school term dates: none named or read.",
       "Distances between towns: not claimed."
     ]
+  },
+  "coding-classes-in-denbighshire": {
+    "market": "Denbighshire",
+    "bodyClass": "cg-dnh",
+    "pageType": "governorate",
+    "curriculumAuthority": "Denbighshire (W06000004), Denbighshire County Council. ONS Census 2021 TS001 via Nomis: 95,817. ONS built-up areas (published; OA sums within 10): Rhyl 26,990; Prestatyn 16,675; Denbigh 8,075; Ruthin 5,700; Rhuddlan 3,790; St Asaph 3,485; Llangollen 3,050; Dyserth 2,040; Meliden 2,000. Cadw listed building record 19684 (Grade II), Horseshoe Falls and canal entry pounds with sluices: \"a near-crescent shaped weir placed in the abraided bed of the River Dee at a sharp bend above rapids, originally promoted by William Jessop, engineer to the Ellesmere Canal Company, in 1795, and constructed by Thomas Telford, chief engineer from 1804 to 1806 to impound water to feed, via sluices, into the head of the Llangollen Branch\"; \"controlled at distance by sluices on the headwaters of the river at Llyn Tegid\"; \"approx 54m radius\"; \"140.2m long\"; \"1.2m square stones with a capping of bullnosed cast iron sections in 2.75m lengths\". Corwen named as a place (Cadw listings, Denbighshire).",
+    "localProject": "Arc R 54 m, L 140.2 m: angle 2.596 rad (148.8 deg); chord 104.0 m; sagitta 39.5 m; L/chord 1.348. Weir Q = C L H^1.5, C 1.7 invented: head ratio (chord/L)^(2/3) = 0.82, 18.0 per cent lower; Q 5: 0.093/0.076 m; 20: 0.234/0.192; 60: 0.487/0.399; 150: 0.896/0.734. Doubling Q: head x1.587. Semicircle check chord = 2R. Record conversion slips (gallons, miles) noted, not used. Lesson family: circle geometry and inverting a power law.",
+    "requiredMentions": [
+      "Dyserth",
+      "Meliden",
+      "Corwen",
+      "Horseshoe Falls",
+      "Jessop",
+      "Llantysilio",
+      "Ellesmere Canal",
+      "Llyn Tegid",
+      "140.2",
+      "sagitta"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents, Denbighshire, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cadw listed building full report 19684: Horseshoe Falls and canal entry pounds with sluices.",
+        "url": "https://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=19684"
+      }
+    ],
+    "rejectedClaims": [
+      "Real flows over the weir: not used; flows and weir constant invented.",
+      "The record's gallons-to-litres and miles-to-km conversions: do not match standard values; not repeated on the page.",
+      "That the crest is an exact circular arc: our simplification, stated on the page.",
+      "Pontcysyllte Aqueduct and World Heritage status: not used here.",
+      "Welsh-language statistics: excluded by rule.",
+      "Named schools and school term dates: none named or read."
+    ]
   }
 }

@@ -4282,4 +4282,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-conwy /src/pages/coding-classes-in-conwy.html 200
 /coding-classes-in-conwy.md /src/pages/coding-classes-in-conwy.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-denbighshire /src/pages/coding-classes-in-denbighshire.html 200
+/coding-classes-in-denbighshire.md /src/pages/coding-classes-in-denbighshire.md 200
 /* /src/pages/404.html 404
