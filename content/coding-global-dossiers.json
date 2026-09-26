@@ -22995,5 +22995,50 @@
       "Hoddesdon and Sawbridgeworth as Essex towns: both built-up areas lie mostly in Hertfordshire.",
       "Named Essex schools: selective schools belong on the 11 plus pages, and none is named here."
     ]
+  },
+  "coding-classes-in-leicestershire": {
+    "market": "Leicestershire",
+    "bodyClass": "cg-lcs",
+    "pageType": "governorate",
+    "curriculumAuthority": "Leicestershire (ceremonial: seven districts under Leicestershire County Council plus Leicester City unitary; Rutland is separate). ONS Census 2021 TS001 via Nomis: Leicester 368,571; Charnwood 183,971; Hinckley and Bosworth 113,642; North West Leicestershire 104,706; Blaby 102,926; Harborough 97,625; Oadby and Wigston 57,747; Melton 51,752; total 1,080,940 (our sum). ONS Census 2021 built-up areas (published; all 32 agree with our OA sums within rounding): Leicester 406,580 (Leicester, Blaby, Charnwood, Harborough); Loughborough 64,860; Hinckley 50,725; Wigston 34,730 (Leicester, Oadby and Wigston); Melton Mowbray 27,450; Market Harborough 24,165; Oadby 24,030; Coalville 21,980; Ashby-de-la-Zouch 15,120; Shepshed 14,870; Birstall 14,315; Blaby and Whetstone 14,080; Leicester Forest East and Kirby Muxloe 13,850; Syston 13,620; Enderby and Narborough 13,180; Mountsorrel 12,885; Earl Shilton 10,885; Lutterworth 10,520; Whitwick 10,455; Broughton Astley 9,650; Thurmaston 9,505; Barwell 9,150; Sileby 8,955; Countesthorpe 7,670; Castle Donington 7,345; Kibworth Beauchamp and Kibworth Harcourt 7,330; Anstey 7,045; Barrow upon Soar 6,820; Ibstock 6,810; Groby 6,560; Quorndon 5,575; Measham 5,370. Swadlincote (34,565, 649 in NW Leics) and Woodville (7,255, 758) excluded. John Taylor and Co: \"Taylor's has been producing high quality bells in Loughborough since 1839\"; \"Britain's Last Bellfoundry\"; address The Bellfoundry, Freehold Street, Loughborough LE11 1AR; restoration, belfry renovations, sound control, new bells; \"from single bells to the largest rings and carillons in the world\".",
+    "localProject": "Change ringing as search through permutations. Six bells, 720 orders; a change swaps disjoint adjacent pairs, bells in the place notation stay. Plain hunt (x, 16 alternating) returns to rounds after 12 rows, all distinct. Plain Bob Minor x16x16x16x16x16x, lead end 12: first lead 123456 214365 241635 426153 462513 645231 654321 563412 536142 351624 315264 132546, next lead head 135264; plain course 60 rows, 5 leads, all distinct. Depth-first search over whole leads with lead-end calls: plain (12) and bob (14) only -> no true 720 (exhausted after 30,074 nodes, 0.6 s): proof by exhaustive search within this convention; with singles (1234) -> true 720 found at node 434: 60 leads, 43 plain, 7 bobs, 10 singles; independent checker: 720 distinct rows, each bell moves at most one place, returns to rounds. Orders: 6! = 720, 8! = 40,320, 12! = 479,001,600. AI angle: an assistant treats \"nothing found\" as a failure to retry rather than a proof, unless the user knows the search was exhaustive. Lesson family: change ringing (permutations under an adjacency rule, truth checking, exhaustive search as proof of impossibility); distinct from graph colouring by backtracking (Newcastle), inversion counting (Armagh), Stirling's formula (Stirling).",
+    "requiredMentions": [
+      "1,080,940",
+      "since 1839",
+      "Freehold Street",
+      "30,074",
+      "Plain Bob Minor",
+      "135264",
+      "Kibworth Beauchamp and Kibworth Harcourt",
+      "Leicester Forest East and Kirby Muxloe",
+      "406,580",
+      "132546"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for Leicester and the seven Leicestershire districts, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Leicestershire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "John Taylor and Co: bells in Loughborough since 1839, Britain's last bellfoundry, Freehold Street address.",
+        "url": "https://www.taylorbells.co.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Leicestershire County Council term dates: the council site returned 403 on 26 September 2026, not retried.",
+      "Richard III and the radiocarbon dating of his remains: the University of Leicester pages returned 403, so the planned half-life project was dropped and nothing about it is claimed.",
+      "Named bells cast at Loughborough (such as famous cathedral bells): not read at a primary source for this build, so none is named.",
+      "The history of change ringing and named early ringers: not read at a primary source for this build; the page describes only the rules our code implements.",
+      "Swadlincote and Woodville as Leicestershire towns: both lie mostly in Derbyshire.",
+      "Named Leicestershire schools: none is named."
+    ]
   }
 }
