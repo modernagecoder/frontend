@@ -27644,5 +27644,53 @@
       "Opening times and visiting details: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-class-in-luton": {
+    "market": "Luton",
+    "bodyClass": "cg-ltn",
+    "pageType": "city",
+    "curriculumAuthority": "Luton (E06000032). Nomis Census 2021 TS007A: total 225,261; under 5 15,960 (7.1%, England 5.4%); 5 to 9 16,731 (7.4%, 5.9%); 10 to 14 16,744 (7.4%, 6.0%); 15 to 19 15,072 (6.7%, 5.7%); 35 to 39 17,663 (7.8%, 6.7%); 85+ 3,605 (1.6%, 2.4%). ONS 2021 BUA Luton 233,525. Science Museum Group co44610 straw splint mill: \"Straw was steamed and bleached, and then passed through the splint mill several times\"; \"Luton in Bedfordshire was an important centre, and people from the surrounding area would plait straw at home and sell it to hat makers there\". Culture Trust Luton: \"spans 400 years, including over 1,900 pieces of headwear\"; Wardown House \"a Grade II listed edifice\"; \"In 2026, Luton Borough celebrates its 150th anniversary\".",
+    "localProject": "Flat plait, odd n strands, outer-left then outer-right strand to the middle. One pair = single n-cycle (3: [1,2,0]; 5: [1,2,4,0,3]; 7: [1,2,3,6,0,4,5]); return after 2n crossings: 6, 10, 14, 18, 22. Order = lcm of cycle lengths. Slips: positions vs items (inverse), move order (non-commuting). Lesson family: permutation cycles and order, as a plait.",
+    "requiredMentions": [
+      "Wardown",
+      "straw plait",
+      "splint mill",
+      "Culture Trust",
+      "150th anniversary",
+      "225,261",
+      "plaiting",
+      "strands",
+      "cycle"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Luton and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Science Museum Group collection, straw splint mill (co44610).",
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co44610"
+      },
+      {
+        "claim": "The Culture Trust Luton, Hats and Heritage.",
+        "url": "https://www.culturetrust.com/take-part/hats-heritage"
+      },
+      {
+        "claim": "The Culture Trust Luton, Wardown House, Museum and Gallery.",
+        "url": "https://www.culturetrust.com/venues/wardown-house-museum-gallery"
+      }
+    ],
+    "rejectedClaims": [
+      "The collection being \"the most complete in the world\": quoted only as the Trust's own description.",
+      "Real Luton plait patterns and strand counts: not claimed; the plaiting rule is our model.",
+      "Vauxhall and airport facts: not used.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }

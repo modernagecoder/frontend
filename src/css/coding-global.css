@@ -1208,3 +1208,4 @@
 .cg-root.cg-rne  { --cg-accent: #7A1273; --cg-accent-soft: rgba(122,18,115,.10); }   /* North East England: a deep Tyne-bridge magenta from the solver (7.83:1 on the darkest paper tint) */
 .cg-root.cg-slo  { --cg-accent: #210B4C; --cg-accent-soft: rgba(33,11,76,.10); }   /* Slough: a deep night-sky violet from the solver (13.91:1 on the darkest paper tint) */
 .cg-root.cg-rdg  { --cg-accent: #66466B; --cg-accent-soft: rgba(102,70,107,.10); }   /* Reading: a dyed-wool mulberry from the solver (6.38:1 on the darkest paper tint) */
+.cg-root.cg-ltn  { --cg-accent: #7A5072; --cg-accent-soft: rgba(122,80,114,.10); }   /* Luton: a dyed-straw plum from the solver (5.26:1 on the darkest paper tint) */
