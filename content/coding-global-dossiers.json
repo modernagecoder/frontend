@@ -22836,5 +22836,66 @@
       "Any claim about whether the 26 September 2026 forecast turned out right: the weather had not happened when the data was read.",
       "The date Berkshire County Council was abolished: not read at a primary source for this build, so the page says only that there is no county council."
     ]
+  },
+  "coding-classes-in-hertfordshire": {
+    "market": "Hertfordshire",
+    "bodyClass": "cg-hrc",
+    "pageType": "governorate",
+    "curriculumAuthority": "Hertfordshire (ten districts under Hertfordshire County Council). ONS Census 2021 TS001 via Nomis: Dacorum 155,081; East Hertfordshire 150,158; St Albans 148,167; North Hertfordshire 133,210; Welwyn Hatfield 119,836; Hertsmere 107,827; Watford 102,246; Broxbourne 99,009; Three Rivers 93,771; Stevenage 89,495; total 1,198,800 (our sum). ONS Census 2021 built-up areas (published, rounded; checked by our OA sums): Watford 131,325 (Watford, Three Rivers, Hertsmere); Hemel Hempstead 95,985; Stevenage 94,470; St Albans 75,540; Welwyn Garden City 51,505; Cheshunt 43,680; Hatfield 41,560; Bishop's Stortford 40,915; Hoddesdon 40,615 (about 860 outside); Borehamwood 39,765 (about 240 outside); Hitchin 35,220; Letchworth 33,990; Harpenden 30,965; Hertford 28,800; Bushey 28,425; Rickmansworth 26,290; Potters Bar 23,400; Berkhamsted 21,240; Ware 19,625; Abbots Langley and Kings Langley 18,205; Royston 17,445; Chorleywood 12,630; Tring 11,960; Waltham Cross 11,940; Baldock 10,615; Sawbridgeworth 10,475 (about 2,050 outside); Radlett 8,185; London Colney 7,930; Buntingford 7,875; Moor Park 5,850; Bovingdon 5,310; Redbourn 5,185. Harlow 93,580 excluded (about 420 in East Hertfordshire). Chiswell Green omitted from the page (appears on the St Albans page). Hertfordshire County Council School term dates, School year 2026-27: \"Start of term : 1 September 2026\"; \"Half term holiday : 26 October 2026 - 30 October 2026\"; \"Christmas holiday : 21 December 2026 - 1 January 2027\"; \"Half term holiday : 15 February 2027 - 19 February 2027\"; \"Easter holiday : 26 March 2027 - 9 April 2027\"; \"Half term holiday : 31 May 2027 - 4 June 2027\"; \"Summer holiday : 23 July 2027 - 31 August 2027\"; \"Academies, voluntary-aided, foundation and free schools may have different term dates\". GOV.UK news 29 March 2025 (UK firm to land Europe's first rover on Mars): \"The rover, entirely built in Stevenage by engineers from Airbus UK, is due to launch in 2028 with the support of NASA and land on Mars in 2030\"; \"drill 2 metres down into the surface to hunt for signs of ancient life\"; \"autonomous navigation technologies\". GOV.UK case study ExoMars: \"The Rosalind Franklin rover was built by Airbus Defence and Space, at the company's UK facility in Stevenage, UK\"; software \"will have a degree of 'intelligence' and autonomy to make certain decisions on the ground and will navigate using optical sensors\". ESA ExoMars: second mission carrying the Rosalind Franklin rover \"will target launch in 2028\"; \"1st European rover\"; \"2 m rover drill depth\".",
+    "localProject": "Latency and the control loop. JPL Horizons API, COMMAND 499 (Mars), CENTER 500@399 (geocentre), observer table, QUANTITIES 20 (range delta), daily 2030-01-01 to 2032-12-31 (1,096 rows), read 26 September 2026. One-way light time = delta x 149,597,870.700 km / 299,792.458 km/s. 2030-01-01 2.081 au 17.3 min (34.6 round trip); 2030-07-01 2.544 au 21.2 (42.3); 2031-01-01 1.564 au 13.0 (26.0); closest 2031-05-12 0.5534 au 82.8 million km 4.6 min (9.2); 2032-01-01 1.773 au 14.7 (29.5); farthest 2032-07-27 2.6365 au 394.4 million km 21.93 min (43.9). Round trip above 30 minutes on 700 of 1,096 days. Teaching model: one command per round trip in an eight-hour shift gives 52 commands at the closest and 10 at the farthest. Page states distances are centre to centre, the landing date is the agency's plan, relays and solar conjunction are ignored, and the one-command driver is not how missions operate. AI angle: autonomy is written by people who understood the latency; AI agents are machines acting between checks. Lesson family: latency and the control loop (autonomy forced by signal delay), light time from an ephemeris; screened free 26 September 2026 and distinct from Kepler's third law on JPL elements (Richmond) and dead reckoning drift (FIRST LEGO League spoke).",
+    "requiredMentions": [
+      "1,198,800",
+      "23 July 2027",
+      "entirely built in Stevenage",
+      "21.93 minutes",
+      "394.4 million km",
+      "82.8 million km",
+      "700 of the 1,096 days",
+      "12 May 2031",
+      "Abbots Langley and Kings Langley",
+      "131,325"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the ten Hertfordshire districts, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Hertfordshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Hertfordshire County Council school term dates 2026-27.",
+        "url": "https://www.hertfordshire.gov.uk/services/schools-and-education/at-school/school-term-dates/school-term-dates.aspx"
+      },
+      {
+        "claim": "UK Space Agency, 29 March 2025: rover entirely built in Stevenage, launch 2028, landing 2030, 2 metre drill.",
+        "url": "https://www.gov.uk/government/news/uk-firm-to-land-europes-first-rover-on-mars"
+      },
+      {
+        "claim": "UK Space Agency ExoMars case study: built at Airbus Defence and Space in Stevenage; autonomy and optical navigation.",
+        "url": "https://www.gov.uk/government/case-studies/exomars"
+      },
+      {
+        "claim": "ESA ExoMars programme: Rosalind Franklin rover to target launch in 2028; first European rover; 2 m drill depth.",
+        "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/ExoMars"
+      },
+      {
+        "claim": "JPL Horizons: Earth to Mars range, daily, 2030 to 2032.",
+        "url": "https://ssd.jpl.nasa.gov/horizons/"
+      }
+    ],
+    "rejectedClaims": [
+      "The UK's financial contribution to ExoMars and the value of Airbus contracts: money figures are left out of place pages.",
+      "The political reasons for the mission's delay: not relevant to a coding page and not repeated.",
+      "Rosalind Franklin rover driving speed per sol: ESA lists a figure but we did not read the definition of a sol at a primary source for this build, so no driving arithmetic uses it.",
+      "Harlow as a Hertfordshire town: its built-up area has only about 420 residents in East Hertfordshire, so it is excluded.",
+      "Named Hertfordshire schools: the county's selective schools belong on the 11 plus page, and no school is named here.",
+      "Letchworth and Welwyn Garden City as the first garden cities: not read at a primary source for this build, so no garden-city history is given."
+    ]
   }
 }
