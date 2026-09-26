@@ -289,7 +289,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 237 | coding-classes-in-lancashire (lcr, #8A1563) | cg- county index | 3,084 | 1.7% vs coding-classes-in-buckinghamshire | lamps only on or off | dithering / error diffusion, metric choice | ca4942c9 |
 | 238 | coding-classes-in-lincolnshire (lsh, #2E5C17) | cg- county index | 3,082 | 1.8% vs coding-classes-in-isle-of-wight | do two wordings mean the same | Boolean algebra / equivalence checking by truth table | 9a9ca3d5 |
 | 239 | coding-classes-in-merseyside (mer, #6B4110) | cg- county index | 3,166 | 2.3% vs coding-classes-in-lincolnshire | specification into tests | spec to acceptance tests, ambiguity, undecidable | 66f9ea9c |
-| 240 | coding-classes-in-norfolk (nfk, #25546B) | cg- county index | 3,036 | 1.4% vs coding-classes-in-leicestershire | top of a curve in thirty tries | golden-section search, unimodality | (this commit) |
+| 240 | coding-classes-in-norfolk (nfk, #25546B) | cg- county index | 3,036 | 1.4% vs coding-classes-in-leicestershire | top of a curve in thirty tries | golden-section search, unimodality | ef2b04f4 |
+| 241 | coding-classes-in-north-yorkshire (nyk, #54205C) | cg- county index | 3,046 | 1.8% vs coding-classes-in-isle-of-wight | does commuting obey gravity | gravity model, log-linear fit, residuals | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -24207,5 +24207,51 @@
       "Norfolk school term dates: none read.",
       "Named Norfolk schools: none named."
     ]
+  },
+  "coding-classes-in-north-yorkshire": {
+    "market": "North Yorkshire",
+    "bodyClass": "cg-nyk",
+    "pageType": "governorate",
+    "curriculumAuthority": "North Yorkshire as used here: the seven 2021 Census districts now forming North Yorkshire Council (ONS LAD April 2023: E06000065 North Yorkshire), plus York, Middlesbrough, Redcar and Cleveland; Stockton-on-Tees on the County Durham page. ONS Census 2021 TS001 via Nomis: York 202,821; Harrogate 162,666; Middlesbrough 143,926; Redcar and Cleveland 136,531; Scarborough 108,736; Selby 91,988; Hambleton 90,690; Craven 56,927; Ryedale 54,707; Richmondshire 49,776; our sum 1,098,768. ONS built-up areas (published; agree with our OA sums): Middlesbrough 148,215 (spans Redcar and Cleveland); York 141,685; Harrogate 75,515; Scarborough 59,505; Redcar 37,660; Eston 29,635; Selby 19,475; Guisborough 18,095; Ripon 16,590; Knaresborough 15,785; Skipton 15,050; Catterick Garrison 14,210; Northallerton 13,310; Whitby 12,595; Huntington 12,420; Haxby 10,180. Otley (14,540; 505 inside) excluded. 2011 Census WU01UK (Nomis NM_1203_1), all persons: Selby to York 5,093; Harrogate to York 1,837; Harrogate to Hambleton 1,920; York to Hambleton 2,915; Hambleton to York 2,158; Redcar and Cleveland to Middlesbrough 10,569; Middlesbrough to Redcar and Cleveland 5,111; Scarborough to Ryedale 2,036; Harrogate to Leeds 8,481; Selby to Leeds 6,193; York to Leeds 5,023.",
+    "localProject": "Gravity model of commuting. Ten areas, 90 ordered pairs, 1 zero; cross-area total 62,358; same-area 262,282. Masses: O = residents working in the ten, D = jobs filled from the ten. Distances: haversine between means of 2011 MSOA population-weighted centroids. OLS on logs, 89 pairs: const 6.545, O^0.427, D^0.691, d^-3.298, R^2 0.776; masses fixed at 1: d^-3.100, R^2 0.747; d^-2: R^2 0.677. Residuals: York to Hambleton 2,915 vs 552 (40.0 km); Selby to Scarborough 232 vs 46; Middlesbrough to Redcar and Cleveland 5,111 vs 26,499; Redcar and Cleveland to Middlesbrough 10,569 vs 32,225; Selby to York 5,093 vs 5,403; Middlesbrough to Craven 1 vs 18. Closed-system caveat: Harrogate to Leeds 8,481 against largest in-set 1,920. Page labels the model as ours and the data as 2011. AI angle: a fitted model cannot see what was left out of its data. Lesson family: gravity model, log-linear fit, residual analysis, closed-system bias.",
+    "requiredMentions": [
+      "1,098,768",
+      "gravity model",
+      "WU01UK",
+      "8,481",
+      "10,569",
+      "62,358",
+      "Catterick Garrison",
+      "Guisborough",
+      "Northallerton",
+      "Richmondshire",
+      "0.776"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the ten North Yorkshire areas, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for North Yorkshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS 2011 Census WU01UK location of usual residence and place of work, local authority level, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Open Geography Portal: 2011 MSOA population-weighted centroids, OA21 to BUA22 lookup, LAD April 2023 names.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Explanations for individual residuals beyond distance measurement and direction (for example road links or particular employers): not researched, not claimed.",
+      "That Hambleton borders York or where its commuters live: not checked; the page speaks only of journeys near district edges in general.",
+      "Census 2021 commuting flows: not read at this level for this page, and any pandemic effect on them is not claimed.",
+      "The date North Yorkshire Council was created beyond its presence in the ONS April 2023 list: not stated.",
+      "North Yorkshire school term dates: none read.",
+      "Named North Yorkshire schools: none named."
+    ]
   }
 }
