@@ -25785,5 +25785,51 @@
       "Named Orkney schools and school term dates: none named or read.",
       "That North Ronaldsay is the most northerly isle: not claimed."
     ]
+  },
+  "coding-classes-in-perth-and-kinross": {
+    "market": "Perth and Kinross",
+    "bodyClass": "cg-pkr",
+    "pageType": "governorate",
+    "curriculumAuthority": "Perth and Kinross (S12000048), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 150,800 (females 77,300, males 73,500); households 70,000; density 28.5 per square kilometre (Scotland 69.8); ages 0 to 14 22,100 (14.7 per cent), 65+ 37,300 (24.7 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Perth 47,350; Blairgowrie 9,240; Crieff 7,280; Kelty (part) 6,760; Auchterarder 5,840; Kinross 5,610; Scone 5,030; Bridge of Earn 2,920; Pitlochry 2,880; Alyth 2,370; Coupar Angus 2,220. HES LB4489 (Category A, added 09/06/1981), Mid Mill, Stanley Mills, parish Auchtergaven: \"Circa 1823-30\"; \"Upper floors rebuilt following fire in 1848\"; \"Floodmark, dated 7 Oct 1847, 2nd floor string course\"; \"Probably the oldest cotton spinning machinery in Scotland\"; \"Perhaps the 2nd or 3rd extant iron-framed cotton mill in Scotland\". HES LB4486 (Category A), Bell Mill: \"To designs of Sir Richard Arkwright ... 1786-7\"; tail race and wheelhouse. Aberfeldy and Dunkeld named as places only (Dunkeld Bridge LB5620 is a Perth and Kinross listing). Zeller published his congruence in the 1880s (general knowledge).",
+    "localProject": "Zeller (Gregorian, h = 0 Saturday). 1847-10-07 Thursday. 1800-01-01 to 2100-12-31: 109,938 days, 0 wrong. No Jan/Feb shift: 17,832 wrong (all Jan and Feb days, 100 per cent of them). -2J form with C-style fmod: 2,285 wrong, first 1800-03-02 (-6); with Python %: 0 wrong. 13th of month 2000-2399: Fri 688, Sun 687, Wed 687, Mon 685, Tue 685, Thu 684, Sat 684. AI angle: translating code across languages changes negative remainders. Lesson family: day-of-week algorithm, modular arithmetic, exhaustive testing.",
+    "requiredMentions": [
+      "Auchterarder",
+      "Bridge of Earn",
+      "Alyth",
+      "Coupar Angus",
+      "Aberfeldy",
+      "Dunkeld",
+      "Stanley Mills",
+      "Mid Mill",
+      "LB4489",
+      "floodmark",
+      "Zeller"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB4489: Mid Mill, Stanley Mills, including cotton machinery.",
+        "url": "https://portal.historicenvironment.scot/designation/LB4489"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB4486: Bell Mill, or West Mill, Stanley Mills.",
+        "url": "https://portal.historicenvironment.scot/designation/LB4486"
+      }
+    ],
+    "rejectedClaims": [
+      "British calendar change of 1752: legislation.gov.uk returned 202, not retried; no claim made.",
+      "Flood return periods and Tay flow records: another page owns return periods; NRFA data read but not used.",
+      "How high the 1847 flood reached or what it damaged: not in the listing, not claimed.",
+      "That Stanley Mills is open to visitors or its opening times: not claimed.",
+      "Named schools and school term dates: none named or read.",
+      "Distances or directions between towns: not claimed."
+    ]
   }
 }
