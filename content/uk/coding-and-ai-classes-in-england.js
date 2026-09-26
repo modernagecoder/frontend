@@ -35,6 +35,16 @@
 // the one line a parent can actually test a school against is the key stage 3 requirement for two
 // programming languages, at least one of them textual.
 
+const REGIONS = [['North East', 'coding-and-ai-classes-in-north-east-england'], ['North West', 'coding-and-ai-classes-in-north-west-england'],
+  ['Yorkshire and the Humber', 'coding-and-ai-classes-in-yorkshire-and-the-humber'], ['East Midlands', 'coding-and-ai-classes-in-east-midlands'],
+  ['West Midlands', 'coding-and-ai-classes-in-west-midlands-region'], ['East of England', 'coding-and-ai-classes-in-east-of-england'],
+  ['London', 'best-coding-class-in-london'], ['South East', 'coding-and-ai-classes-in-south-east-england'], ['South West', 'coding-and-ai-classes-in-south-west-england']];
+
+function linkedRegions() {
+  const built = new Set(require('../../scripts/nl/lib/uk-index.js').builtUkPages().map(p => p.slug));
+  return REGIONS.map(([name, slug]) => built.has(slug) ? `<a class="cg-inline-link" href="/${slug}">${name}</a>` : name).join(', ');
+}
+
 module.exports = {
   clusterName: 'United Kingdom',
   hub: { group: 'nation', tag: 'ENGLAND', blurb: 'Computing is statutory in the national curriculum, and most English secondary schools are not required to follow it.' },
@@ -162,6 +172,7 @@ module.exports = {
           ['West Midlands', '5,950,757', '', '']
         ] },
         { kind: 'p', text: 'The Office for National Statistics reports that "there were 56,489,800 people in England" on census day, 21 March 2021, and publishes that figure with a warning that rounded numbers "may not add exactly because of this rounding". The regional rows above come from the census tables and are printed exactly as the census gives them. They are not added together here and no total is claimed from them, because a sum of published parts is an arithmetic result rather than a published statistic, and the difference is the kind of thing that turns a careful page into an inaccurate one.' },
+        { kind: 'p', text: 'Each region has its own index of our county and city pages, with a local project of its own: ' + linkedRegions() + '.' },
         { kind: 'grid3', mt: true, cells: [
           { h3: 'Every region, same timetable', p: 'A learner in Durham joins the lesson a learner in Surrey joins. Regional differences in provision stop mattering when the teacher is on a link.' },
           { h3: 'Groups built by level', p: 'Five to ten learners at one stage, drawn from across England and beyond, which is how a group at the right level exists at a workable hour.' },

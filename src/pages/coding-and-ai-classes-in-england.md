@@ -140,6 +140,8 @@ Published census figures, reproduced as published. They are not totalled here, f
 
 The Office for National Statistics reports that "there were 56,489,800 people in England" on census day, 21 March 2021, and publishes that figure with a warning that rounded numbers "may not add exactly because of this rounding". The regional rows above come from the census tables and are printed exactly as the census gives them. They are not added together here and no total is claimed from them, because a sum of published parts is an arithmetic result rather than a published statistic, and the difference is the kind of thing that turns a careful page into an inaccurate one.
 
+Each region has its own index of our county and city pages, with a local project of its own: [North East](/coding-and-ai-classes-in-north-east-england), [North West](/coding-and-ai-classes-in-north-west-england), [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humber), [East Midlands](/coding-and-ai-classes-in-east-midlands), [West Midlands](/coding-and-ai-classes-in-west-midlands-region), [East of England](/coding-and-ai-classes-in-east-of-england), [London](/best-coding-class-in-london), [South East](/coding-and-ai-classes-in-south-east-england), [South West](/coding-and-ai-classes-in-south-west-england).
+
 ### Every region, same timetable
 
 A learner in Durham joins the lesson a learner in Surrey joins. Regional differences in provision stop mattering when the teacher is on a link.
