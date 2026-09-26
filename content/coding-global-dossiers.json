@@ -23803,5 +23803,58 @@
       "Named East Sussex schools: none is named.",
       "The precise accuracy of our solar noon times: NOAA states accuracy for sunrise and sunset; our noon times are presented to the second as computed values, not as measured ones."
     ]
+  },
+  "coding-classes-in-gloucestershire": {
+    "market": "Gloucestershire",
+    "bodyClass": "cg-gls",
+    "pageType": "governorate",
+    "curriculumAuthority": "Gloucestershire (ceremonial: Cheltenham, Cotswold, Forest of Dean, Gloucester, Stroud and Tewkesbury under Gloucestershire County Council, plus South Gloucestershire). ONS Census 2021 TS001 via Nomis: South Gloucestershire 290,424; Gloucester 132,416; Stroud 121,104; Cheltenham 118,836; Tewkesbury 94,884; Cotswold 90,832; Forest of Dean 87,004; total 935,500 (our sum). ONS Census 2021 built-up areas (published; checked with our OA sums): Kingswood and Fishponds 160,270 (114,742 inside); Gloucester 118,555 (Gloucester, Tewkesbury); Cheltenham 115,940 (Cheltenham, Tewkesbury); Yate 28,350; Stroud 26,080; Bradley Stoke 25,200; Quedgeley and Hardwicke 21,125; Cirencester 17,715; Patchway 16,520; Bishop's Cleeve 16,325; Frampton Cotterell and Winterbourne 14,970; Thornbury 14,485; Tewkesbury 14,390; Churchdown 13,480; Stoke Gifford 13,470; Brockworth 12,005; Filton 10,960; Lydney 9,660; Cinderford 8,775; Stonehouse 8,300; Chipping Sodbury 8,025; Dursley 7,935; Cam 7,730; Chalford 6,660; Tetbury 6,455; Nailsworth 5,660; Newent 5,360; Coleford 5,020; Moreton-in-Marsh 5,010. Bristol (2,180 in South Gloucestershire) excluded. GCHQ Cheltenham: \"known affectionately as the Doughnut and it's been the home of our mission since we moved here in 2003\"; \"officially opened by HM Queen Elizabeth II in 2004\"; \"the GCHQ archive which contains around 16 million historical artefacts\"; \"GCHQ first came to Cheltenham in the 1950s. The site in Oakley opened in 1952\". GCHQ, James Ellis: \"joined GCHQ in 1952\"; \"Conceived of the possibility of 'non-secret encryption'\". GCHQ, Malcolm Williamson: \"devised a method of public key exchange\".",
+    "localProject": "Pseudo-random generators: period, cycle detection, predictability. LCG x -> (a x + c) mod 65,536. a 25,173, c 13,849: period 65,536 via Floyd (262,144 function calls); c 13,848: period 16,384; a 25,172 (c 13,849) and a 4 (c 1), from seed 1: loop of length 1. From seed 20260926 mod 65,536, first outputs 20143, 21556, 4957, 15866, 32283, ...; lowest bit 1,0,1,0 for all 20; second bit period 4. Attack: with known modulus, (x3 - x2) = a (x2 - x1) mod 65,536 with gcd(x2 - x1, 65,536) = 1 gives exactly one a; c = x2 - a x1; predicts next 17 of 17. Page states the constants are ours, the attack is textbook, and it is not how GCHQ or modern systems generate keys. AI angle: generated password code uses non-cryptographic random sources. Lesson family: PRNG period, Floyd cycle detection and predictability; distinct from Haringey (Diffie-Hellman).",
+    "requiredMentions": [
+      "935,500",
+      "the Doughnut",
+      "16 million historical artefacts",
+      "opened in 1952",
+      "Malcolm Williamson",
+      "Frampton Cotterell and Winterbourne",
+      "Quedgeley and Hardwicke",
+      "17 out of 17",
+      "linear congruential",
+      "Moreton-in-Marsh"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the seven Gloucestershire councils, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Gloucestershire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "GCHQ Cheltenham: the Doughnut since 2003, opened 2004, archive of around 16 million artefacts, Oakley site 1952.",
+        "url": "https://www.gchq.gov.uk/section/locations/cheltenham"
+      },
+      {
+        "claim": "GCHQ, James Ellis: joined 1952, non-secret encryption.",
+        "url": "https://www.gchq.gov.uk/person/james-ellis"
+      },
+      {
+        "claim": "GCHQ, Malcolm Williamson: public key exchange.",
+        "url": "https://www.gchq.gov.uk/person/malcolm-williamson"
+      }
+    ],
+    "rejectedClaims": [
+      "How GCHQ generates random numbers or keys: not described on the pages read, and the page says the teaching generator is not how GCHQ works.",
+      "Bristol as a Gloucestershire place: it is a separate city and county; only a sliver of its built-up area lies in South Gloucestershire.",
+      "Gloucestershire school term dates: set by two councils and academies; none read.",
+      "Details of any intelligence operations: out of scope and not discussed.",
+      "Personal details of GCHQ staff beyond the published biographies: not repeated.",
+      "Named Gloucestershire schools: none is named; selective schools are covered on the 11 plus page."
+    ]
   }
 }
