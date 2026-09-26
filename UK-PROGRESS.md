@@ -316,7 +316,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 264 | coding-classes-in-east-renfrewshire (ern, #29375C) | cg- council area index | 2,850 | 1.4% vs coding-classes-in-east-ayrshire | How does a machine keep water at the right level by itself? | Feedback control, chatter and hysteresis | 00dffbb7 |
 | 265 | coding-classes-in-falkirk (flk, #5C4820) | cg- council area index | 2,770 | 1.5% vs coding-classes-in-somerset | Why does a plant turn each new seed by 137.5 degrees? | Phyllotaxis, golden angle, Fibonacci gaps | bd3b2615 |
 | 266 | coding-classes-in-fife (fif, #7A3512) | cg- council area index | 2,782 | 1.8% vs coding-classes-in-falkirk | How does a frame of straight bars carry a load? | Truss statics, Gaussian elimination, rank | 4f23fc36 |
-| 267 | coding-classes-in-highland (hld, #4B5C29) | cg- council area index | 2,777 | 2.4% vs coding-classes-in-fife | How does a computer draw an arch when its curves cannot make a circle? | Bezier curves, de Casteljau, approximation error | (this commit) |
+| 267 | coding-classes-in-highland (hld, #4B5C29) | cg- council area index | 2,777 | 2.4% vs coding-classes-in-fife | How does a computer draw an arch when its curves cannot make a circle? | Bezier curves, de Casteljau, approximation error | 41c26e1a |
+| 268 | coding-classes-in-inverclyde (ivc, #52377A) | cg- council area index | 2,725 | 2.3% vs coding-classes-in-highland | Why does the last metre of water take longest to fill a dock? | Torricelli filling, square-root slowdown, overshoot | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

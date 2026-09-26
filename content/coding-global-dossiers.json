@@ -25475,5 +25475,47 @@
       "Named Highland schools and school term dates: none named or read.",
       "Travel times between Highland towns: not claimed."
     ]
+  },
+  "coding-classes-in-inverclyde": {
+    "market": "Inverclyde",
+    "bodyClass": "cg-ivc",
+    "pageType": "governorate",
+    "curriculumAuthority": "Inverclyde (S12000018), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 78,400 (females 40,700, males 37,700); households 37,400; density 488.7 per square kilometre (Scotland 69.8); ages 0 to 14 11,200 (14.3 per cent), 65+ 17,600 (22.4 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Greenock 41,280; Port Glasgow 14,200; Gourock 10,210; Kilmacolm 3,930; Inverkip 3,490; Wemyss Bay 2,390. HES LB50131 (Category A, added 18/07/2005), Scott's Dry Dock with Outer Basin, burgh Greenock: \"Oblong dry dock roughly 110m long and 20m wide, with semi-octagonal S end, stepped sides, later steel gates, and outer basin to N\"; \"Remains of cast-iron operating machinery including capstan with Stothert & Pitt of Bath maker's plate\"; \"Also known as the Submarine Dock. Situated in Cartsdyke\"; \"It is believed to be the oldest surviving dry (or graving) dock in Scotland\"; \"Built for Steele's shipyard, which occupied this site until it closed in 1883, at which point it was taken over by Scott's\"; \"It is therefore possible (although unlikely) that the dry dock dates from this time\" (1796); shown on John Wood's Town Plan of 1825.",
+    "localProject": "Rectangle 110 x 20 m (ours), H 6 m constant, a 1 m2, c 0.6. V 13,200 m3; q0 6.51 m3/s; naive 33.8 min; analytic 67.6 min (T = 2V/q0); 0-3 m 19.8 min (29.3 per cent); 3-6 m 47.8; last 0.6 m 21.4 (31.6 per cent); last 10 cm 8.7. Euler 10 s: 66.5 min within 1 mm; 60 s: 6.0005 m at 65.0 min; 300 s: 6.0276 m then ValueError at 60.0 min; clamped 300 s: 60.0 min. AI angle: max(0, ...) patch hides a 7.6 minute error. Lesson family: Torricelli filling, square-root slowdown, overshoot and domain error.",
+    "requiredMentions": [
+      "78,400",
+      "Greenock",
+      "Port Glasgow",
+      "Gourock",
+      "Kilmacolm",
+      "Inverkip",
+      "Wemyss Bay",
+      "LB50131",
+      "Torricelli",
+      "Cartsdyke",
+      "graving dock"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB50131: Scott's Dry Dock with Outer Basin, Greenock.",
+        "url": "https://portal.historicenvironment.scot/designation/LB50131"
+      }
+    ],
+    "rejectedClaims": [
+      "How the dock was flooded or emptied historically, its sluice sizes or tide levels: not in the listing, not claimed.",
+      "James Watt and the Watt Institution as anchor: not used; the listing records his involvement in the slave trade.",
+      "Titan crane: considered, not used.",
+      "Council election results: source page did not connect, not retried.",
+      "Named Inverclyde schools and school term dates: none named or read.",
+      "Travel directions or distances from Inverclyde towns: not claimed."
+    ]
   }
 }
