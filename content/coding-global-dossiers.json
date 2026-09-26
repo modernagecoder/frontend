@@ -24003,5 +24003,58 @@
       "Ferry times and fares: not needed and not claimed.",
       "Named Island schools or sailing clubs' junior programmes: none is named."
     ]
+  },
+  "coding-classes-in-lancashire": {
+    "market": "Lancashire",
+    "bodyClass": "cg-lcr",
+    "pageType": "governorate",
+    "curriculumAuthority": "Ceremonial Lancashire: Lancashire County Council districts (Burnley, Chorley, Fylde, Hyndburn, Lancaster, Pendle, Preston, Ribble Valley, Rossendale, South Ribble, West Lancashire, Wyre) plus unitaries Blackpool and Blackburn with Darwen. ONS Census 2021 TS001 via Nomis: Blackburn with Darwen 154,738; Preston 147,835; Lancaster 142,934; Blackpool 141,036; Chorley 117,732; West Lancashire 117,429; Wyre 111,946; South Ribble 111,035; Pendle 95,757; Burnley 94,646; Hyndburn 82,234; Fylde 81,374; Rossendale 70,871; Ribble Valley 61,561; our sum 1,531,128. ONS built-up areas (published; agree with our OA sums): Blackpool 149,070; Blackburn 124,955; Preston 94,490; Burnley 78,255; Lancaster 52,655; Lytham St Anne's 42,695; Bamber Bridge 40,360; Chorley 39,535; Leyland 39,295; Skelmersdale 34,915; Accrington 34,895; Fulwood 34,690. Southport (94,440 published, 1,460 inside) and Orrell (23,410, 6,863 inside) straddle and are excluded. Visit Blackpool Illuminations page: \"six miles of traditional festoons, tableaux and interactive features\"; 2026 season Friday 4 September to Sunday 3 January 2027 \"from Starr Gate to Red Bank Road\". Visit Blackpool 25 facts: 1879 \"just eight arc lamps\"; May 1912 first royal visit by Princess Louise; animated tableaux by 1932 on the cliffs linking North Shore and Bispham; \"one million lamps of various types and styles, and more than 100 miles of festoon\"; \"micro controllers, LEDs, lasers and video\"; \"more than 500 designs and features\"; Lightworks depot, twenty staff all year round.",
+    "localProject": "Dithering and error diffusion, with the error measure as the lesson. Model (ours, deterministic): 48 x 96 = 4,608 lamps; brightness = 0.15 + 0.7 x (column fraction) x (0.6 + 0.4 cos(3 x row fraction)); mean 0.3665, about 1,689 lamps. Two levels: round lights 1,008, mean per-lamp error 0.308, error after 5 x 5 box blur 0.293, 48 of 96 columns fully dark; Bayer 4 x 4 lights 1,548, 0.400, 0.0563; Floyd-Steinberg (7/16, 3/16, 5/16, 1/16) lights 1,679, 0.405, 0.0280. Four levels: round 0.087 / 0.0769; Floyd-Steinberg 0.112 / 0.0094; Bayer 0.115 / 0.0162. Rankings flip between per-lamp and blurred error. Page states the model is ours and makes no claim about Illuminations design methods. AI angle: an assistant asked for the most accurate version optimises the wrong error; loss choice in machine learning. Lesson family: dithering / error diffusion and choosing the metric that matches perception.",
+    "requiredMentions": [
+      "1,531,128",
+      "eight arc lamps",
+      "one million lamps",
+      "Starr Gate to Red Bank Road",
+      "Floyd-Steinberg",
+      "error diffusion",
+      "Lytham St Anne's",
+      "Skelmersdale",
+      "Bamber Bridge",
+      "Lightworks",
+      "Princess Louise",
+      "154,738"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the fourteen Lancashire councils, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Lancashire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Visit Blackpool: Illuminations route, 2026 season dates, festoons and tableaux.",
+        "url": "https://www.visitblackpool.com/illuminations/"
+      },
+      {
+        "claim": "Visit Blackpool: 25 Illuminations facts (1879 arc lamps, 1912, 1932 tableaux, lamp count, festoon, technology, Lightworks).",
+        "url": "https://www.visitblackpool.com/things-to-do/blackpool-illuminations-and-lightpool/25-blackpool-illuminations-facts/"
+      }
+    ],
+    "rejectedClaims": [
+      "That the Illuminations use dithering or error diffusion in their designs: not stated anywhere read, so explicitly not claimed.",
+      "Illuminations running costs, electricity bills and visitor spending: money figures, left out.",
+      "The Squires Gate start named in the facts page: the 2026 season page names Starr Gate, so only the 2026 route is printed.",
+      "Visitor numbers: a single undated claim, not printed.",
+      "Dates of the Floyd-Steinberg and Bayer papers: not read from a primary source, so no years are given.",
+      "blackpool.gov.uk Illuminations page: 404, not used.",
+      "Lancashire school term dates: none read.",
+      "Named Lancashire schools or clubs: none is named."
+    ]
   }
 }

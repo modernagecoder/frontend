@@ -1130,3 +1130,4 @@
 .cg-root.cg-hmp  { --cg-accent: #3C4C32; --cg-accent-soft: rgba(60,76,50,.10); }   /* Hampshire: a New Forest heath green from the solver (7.45:1 on the darkest paper tint), darker and greyer than the Surrey and East Sussex greens */
 .cg-root.cg-hfs  { --cg-accent: #4C2A31; --cg-accent-soft: rgba(76,42,49,.10); }   /* Herefordshire: a cider-apple deep red from the solver (10.06:1 on the lightest paper), browner than the West Midlands garnet */
 .cg-root.cg-iow  { --cg-accent: #464D6B; --cg-accent-soft: rgba(70,77,107,.10); }   /* Isle of Wight: a Solent slate blue from the solver (6.68:1 on the darkest paper tint), more violet than the East Riding and Cumbria blues */
+.cg-root.cg-lcr  { --cg-accent: #8A1563; --cg-accent-soft: rgba(138,21,99,.10); }   /* Lancashire: a deep red-rose magenta from the solver (7.15:1 on the darkest paper tint), well clear of the Dorset and Greater Manchester reds */

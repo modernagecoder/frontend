@@ -285,7 +285,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 233 | coding-classes-in-gloucestershire (gls, #5C3C46) | cg- county index | 3,157 | 2.3% vs coding-classes-in-east-sussex | random-looking is not random: LCG period by Floyd, alternating low bit, three outputs predict 17 of 17 | pseudo-random generators: period, cycle detection, predictability | 66d25af9 |
 | 234 | coding-classes-in-hampshire (hmp, #3C4C32) | cg- county index | 3,194 | 2.5% vs coding-classes-in-devon | count the ones you see twice: capture-recapture on a model New Forest herd, Chapman vs Lincoln-Petersen, trap-shy bias | capture-recapture estimation, bias correction and assumption failure | bde5fa80 |
 | 235 | coding-classes-in-herefordshire (hfs, #4C2A31) | cg- county index | 3,102 | 2.2% vs coding-classes-in-east-sussex | where does the new book go: packed rod 6,822 slides, linked list 5,853 walks, gapped rod 264 | arrays against linked lists and gapped arrays (insertion cost) | d879923e |
-| 236 | coding-classes-in-isle-of-wight (iow, #464D6B) | cg- county index | 2,989 | 2.3% vs coding-classes-in-gloucestershire | a fair race between unequal boats: RYA Portsmouth Numbers, corrected time, one point reorders a close finish | handicapping by normalisation, ranking and sensitivity to a published constant | (this commit) |
+| 236 | coding-classes-in-isle-of-wight (iow, #464D6B) | cg- county index | 2,989 | 2.3% vs coding-classes-in-gloucestershire | a fair race between unequal boats: RYA Portsmouth Numbers, corrected time, one point reorders a close finish | handicapping by normalisation, ranking and sensitivity to a published constant | 4af10e03 |
+| 237 | coding-classes-in-lancashire (lcr, #8A1563) | cg- county index | 3,084 | 1.7% vs coding-classes-in-buckinghamshire | lamps only on or off | dithering / error diffusion, metric choice | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
