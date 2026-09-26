@@ -4042,4 +4042,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-dorset /src/pages/coding-classes-in-dorset.html 200
 /coding-classes-in-dorset.md /src/pages/coding-classes-in-dorset.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-county-durham /src/pages/coding-classes-in-county-durham.html 200
+/coding-classes-in-county-durham.md /src/pages/coding-classes-in-county-durham.md 200
 /* /src/pages/404.html 404

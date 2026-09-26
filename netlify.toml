@@ -14354,6 +14354,18 @@
   to = "/src/pages/coding-classes-in-dorset.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-county-durham"
+  to = "/src/pages/coding-classes-in-county-durham.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-county-durham.md"
+  to = "/src/pages/coding-classes-in-county-durham.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

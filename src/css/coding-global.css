@@ -1123,3 +1123,4 @@
 .cg-root.cg-dbs  { --cg-accent: #7A502B; --cg-accent-soft: rgba(122,80,43,.10); }   /* Derbyshire: a gritstone ochre brown from the solver (5.62:1 on the darkest paper tint), more orange than the other UK county browns */
 .cg-root.cg-dvn  { --cg-accent: #0E375C; --cg-accent-soft: rgba(14,55,92,.10); }   /* Devon: a deep Sound blue from the solver (9.84:1 on the lightest paper), greener than the navy county accents */
 .cg-root.cg-dst  { --cg-accent: #8A4C5C; --cg-accent-soft: rgba(138,76,92,.10); }   /* Dorset: a cliff-face rose red from the solver (5.18:1 on the darkest paper tint), pinker than the other UK red accents */
+.cg-root.cg-cdu  { --cg-accent: #22228A; --cg-accent-soft: rgba(34,34,138,.10); }   /* County Durham: a railway-livery royal blue from the solver (10.17:1 on the lightest paper), brighter than the navy county accents */

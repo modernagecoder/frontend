@@ -23648,5 +23648,58 @@
       "Named fossil finds or collectors: not read at primary sources for this build.",
       "Named Dorset schools: none is named."
     ]
+  },
+  "coding-classes-in-county-durham": {
+    "market": "County Durham",
+    "bodyClass": "cg-cdu",
+    "pageType": "governorate",
+    "curriculumAuthority": "County Durham page: Durham County Council plus Stockton-on-Tees (whole borough), Darlington and Hartlepool. ONS Census 2021 TS001 via Nomis: County Durham 522,068; Stockton-on-Tees 196,595; Darlington 107,799; Hartlepool 92,338; total 918,800 (our sum). ONS Census 2021 built-up areas (published; checked with our OA sums): Darlington 93,015; Hartlepool 87,995; Stockton-on-Tees 84,815; Durham 50,510; Billingham 33,920; Consett 29,885; Newton Aycliffe 25,765; Chester-le-Street 23,560; Ingleby Barwick 23,380; Bishop Auckland 23,355; Thornaby-on-Tees 23,350; Seaham 21,665; Spennymoor 20,410; Peterlee 19,750; Stanley 19,415; Egglescliffe 10,250; Crook 9,715; Shildon 9,645; Yarm 9,600; Brandon 9,505; Ferryhill 8,860; Annfield Plain 7,785; Pelton and Ouston 7,305; Murton 7,240; Easington 6,965; Horden 6,805; Ushaw Moor and Bearpark 6,480; Barnard Castle 5,785; Willington 5,685; Sacriston 5,190; Wingate 5,035. Fence Houses excluded (1,654 of 6,945 in County Durham). Locomotion (Science Museum Group), Locomotion No.1: \"On 27 September 1825 Locomotion No.1 ran the first passenger service on the brand-new Stockton & Darlington Railway - a significant milestone in railway history considered by many to be the start of the modern railway as we know it today\"; \"Built by Robert Stephenson and Co in Newcastle\". Objects and stories: \"Railway pioneer Timothy Hackworth, first locomotive superintendent of the Stockton & Darlington Railway\". Homepage: \"Shildon - the world's first railway town\"; S&DR anniversary event Saturday 26 and Sunday 27 September 2026.",
+    "localProject": "Deadlock and its prevention. Python model: six single-track sections, passing places at boundaries 0, 3 and 6 (unlimited capacity), one train per section; trains start at a random end with a random start tick (0 to 11); seeds 0 to 999 per setting. Naive rule: enter the next section whenever free; deadlock when no train moves after all have started. Token rule: at a passing place, reserve every section up to the next passing place atomically, else wait. Deadlocks (naive vs token) out of 1,000: 2 trains 304 vs 0; 3 trains 641 vs 0; 4 trains 844 vs 0; 6 trains 963 vs 0; 8 trains 991 vs 0. Mean finishing ticks, token: 13.0, 14.5, 15.8, 18.6, 21.7; naive (finished runs only): 13.0, 14.2, 14.9, 15.9, 16.2. Coffman's four conditions explained; the token rule removes hold-and-wait. Page states the model is ours and not a description of historical signalling. AI angle: generated concurrent code deadlocks under rare timings. Lesson family: deadlock, prevented by acquiring all resources at once.",
+    "requiredMentions": [
+      "918,800",
+      "27 September 1825",
+      "Robert Stephenson and Co",
+      "world's first railway town",
+      "Timothy Hackworth",
+      "991 of 1,000",
+      "304 of 1,000",
+      "Ushaw Moor and Bearpark",
+      "Pelton and Ouston",
+      "Newton Aycliffe"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for County Durham, Stockton-on-Tees, Darlington and Hartlepool, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for towns in these council areas.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Locomotion: Locomotion No.1 ran the first passenger service on the Stockton and Darlington Railway on 27 September 1825; built by Robert Stephenson and Co.",
+        "url": "https://www.locomotion.org.uk/whats-on/locomotion-no1"
+      },
+      {
+        "claim": "Locomotion: Timothy Hackworth, first locomotive superintendent of the S&DR.",
+        "url": "https://www.locomotion.org.uk/objects-and-stories"
+      },
+      {
+        "claim": "Locomotion: Shildon, the world's first railway town.",
+        "url": "https://www.locomotion.org.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Which parts of Stockton-on-Tees borough lie in ceremonial County Durham or North Yorkshire: not read at a primary source, so the whole borough is counted and the page says so.",
+      "The S&DR200 organisation's own facts: its site returned 403 on 26 September 2026.",
+      "How the Stockton and Darlington Railway was actually signalled or operated in 1825: not read at a primary source; the page's railway is explicitly a model.",
+      "Fence Houses as a County Durham town: most of it lies in Sunderland.",
+      "School term dates: set by four councils and academies; none read.",
+      "Named schools in the area: none is named."
+    ]
   }
 }
