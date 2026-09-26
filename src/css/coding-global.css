@@ -1140,3 +1140,4 @@
 .cg-root.cg-ntt  { --cg-accent: #224C25; --cg-accent-soft: rgba(34,76,37,.10); }   /* Nottinghamshire: a deep Sherwood green from the solver (7.95:1 on the darkest paper tint), darker and cooler than the Lincolnshire and Northamptonshire greens */
 .cg-root.cg-rut  { --cg-accent: #6B5425; --cg-accent-soft: rgba(107,84,37,.10); }   /* Rutland: a dark gilt bronze from the solver (5.8:1 on the darkest paper tint), for the Oakham Castle horseshoes, clear of the Essex and Merseyside browns */
 .cg-root.cg-som  { --cg-accent: #5F106B; --cg-accent-soft: rgba(95,16,107,.10); }   /* Somerset: a deep dusk purple from the solver (9.54:1 on the darkest paper tint), redder than the North Yorkshire heather */
+.cg-root.cg-syk  { --cg-accent: #2A4C38; --cg-accent-soft: rgba(42,76,56,.10); }   /* South Yorkshire: a baize green from the solver (7.73:1 on the darkest paper tint), bluer and deeper than the Nottinghamshire and Lincolnshire greens */

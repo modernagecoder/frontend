@@ -24550,5 +24550,59 @@
       "Somerset school term dates: none read.",
       "Named Somerset schools: none named."
     ]
+  },
+  "coding-classes-in-south-yorkshire": {
+    "market": "South Yorkshire",
+    "bodyClass": "cg-syk",
+    "pageType": "governorate",
+    "curriculumAuthority": "South Yorkshire: metropolitan boroughs Sheffield, Doncaster, Rotherham, Barnsley. ONS Census 2021 TS001 via Nomis: Sheffield 556,521; Doncaster 308,106; Rotherham 265,807; Barnsley 244,572; our sum 1,375,006. ONS built-up areas (published; agree with our OA sums): Sheffield 500,535 (Rotherham, Sheffield); Doncaster 87,455; Rotherham 71,535; Barnsley 71,405; Wickersley and Bramley 24,655; Chapeltown and High Green 22,180; Rawmarsh 18,895; Adwick le Street 18,325; Wath upon Dearne 16,960; Wombwell 16,765; Maltby 16,310; Swinton 15,910; Mexborough 15,555; Hoyland 15,535; Darton 15,025; Armthorpe 14,160; Thorne 12,305. World Snooker Tour 147s: \"A 147 is snooker's perfect break. The player must pot all 15 reds with blacks, then clear the colours.\" WST, The Crucible Maximums (David Hendon): \"a 147 at the Crucible\"; \"the home of the World Championship\"; \"In 46 years at the Crucible, with its many thousands of frames played, there have only been 14 maximum breaks, compiled by a total of ten players.\" Sheffield Theatres: \"We're the world-famous Crucible, a Sheffield landmark with a distinctive stage\".",
+    "localProject": "Expected value of a snooker break under an independent-pot model (ours): sequence red/black x 15 then yellow to black, 36 pots, 147. E = sum v_k p^k. p 0.80: 14.7, median 9, 147 1 in 3,081, 73.8 per cent under 20; p 0.90: 33.9, median 24, 1 in 44 (2.25 per cent), 46.9 per cent under 20; p 0.95: 63.2, median 49, 1 in 6; p 0.98: 102.0, median 134, 48.3 per cent. Simulation (200,000, p 0.9): mean 33.8, 2.23 per cent. 0.95 vs 0.90 raises 147 chance 7.0 times. Reality check: 14 Crucible maximums in 46 years contradicts 1 in 6 at 95 per cent, exposing independence and equal-difficulty assumptions. Page labels model as ours. AI angle: correct arithmetic on a wrong model. Lesson family: expected value vs median, compounding probability, model assumptions vs reality.",
+    "requiredMentions": [
+      "1,375,006",
+      "Crucible",
+      "Wickersley and Bramley",
+      "Chapeltown and High Green",
+      "Rawmarsh",
+      "Adwick le Street",
+      "Wath upon Dearne",
+      "Wombwell",
+      "Maltby",
+      "Hoyland",
+      "1 in 44"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the four South Yorkshire boroughs, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for South Yorkshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "World Snooker Tour: what a 147 is.",
+        "url": "https://www.wst.tv/147s"
+      },
+      {
+        "claim": "World Snooker Tour: The Crucible Maximums (home of the World Championship; 14 maximums in 46 years).",
+        "url": "https://www.wst.tv/147s/thecruciblemaxiums"
+      },
+      {
+        "claim": "Sheffield Theatres: the Crucible as a Sheffield landmark.",
+        "url": "https://www.sheffieldtheatres.co.uk/about"
+      }
+    ],
+    "rejectedClaims": [
+      "Names of the players who made Crucible 147s and the song lyric quoted in the WST article: not needed, and the lyric is not reproduced.",
+      "The year the World Championship moved to the Crucible: not stated explicitly on the pages read, so no year is given.",
+      "Real pot success rates of professional players: not read; the page states the pot rates are invented.",
+      "Steel, Magna and mining history facts: not researched for this page, not claimed.",
+      "South Yorkshire school term dates: none read.",
+      "Named South Yorkshire schools: none named."
+    ]
   }
 }

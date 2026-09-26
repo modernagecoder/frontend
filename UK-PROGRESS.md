@@ -296,7 +296,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 244 | coding-classes-in-nottinghamshire (ntt, #224C25) | cg- county index | 3,018 | 1.2% vs coding-classes-in-north-yorkshire | running Ada Lovelace's program | exact fractions vs floating point, cancellation | f5ebd3c4 |
 | 245 | coding-classes-in-rutland (rut, #6B5425) | cg- county index | 2,991 | 2.5% vs coding-classes-in-lincolnshire | a whole county as one tree | tree traversal, published total vs sum of parts | 8b374dd1 |
 | 246 | coding-classes-in-shropshire (shr, #5C2820) | cg- county index | 2,956 | 1.6% vs coding-classes-in-norfolk | evolve, then test which part matters | genetic algorithm with ablation | 6d484520 |
-| 247 | coding-classes-in-somerset (som, #5F106B) | cg- county index | 3,022 | 2.3% vs coding-classes-in-north-yorkshire | ley lines or arithmetic of dots | rejection sampling, null models, clustering | (this commit) |
+| 247 | coding-classes-in-somerset (som, #5F106B) | cg- county index | 3,022 | 2.3% vs coding-classes-in-north-yorkshire | ley lines or arithmetic of dots | rejection sampling, null models, clustering | a2b999ee |
+| 248 | coding-classes-in-south-yorkshire (syk, #2A4C38) | cg- county index | 3,057 | 1.1% vs coding-classes-in-herefordshire | what is a snooker break worth | expected value vs median, model vs reality | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
