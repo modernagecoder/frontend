@@ -293,7 +293,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 241 | coding-classes-in-north-yorkshire (nyk, #54205C) | cg- county index | 3,046 | 1.8% vs coding-classes-in-isle-of-wight | does commuting obey gravity | gravity model, log-linear fit, residuals | 82e8579a |
 | 242 | coding-classes-in-northamptonshire (nth, #515C0E) | cg- county index | 2,944 | 1.3% vs coding-classes-in-lincolnshire | which call should the lift answer | single-server scheduling, starvation | d80d8b27 |
 | 243 | coding-classes-in-northumberland (nbl, #37567A) | cg- county index | 2,975 | 2.2% vs coding-classes-in-merseyside | a year of causeway times | time intervals, midnight, clock changes, UTC | 9b9cef2c |
-| 244 | coding-classes-in-nottinghamshire (ntt, #224C25) | cg- county index | 3,018 | 1.2% vs coding-classes-in-north-yorkshire | running Ada Lovelace's program | exact fractions vs floating point, cancellation | (this commit) |
+| 244 | coding-classes-in-nottinghamshire (ntt, #224C25) | cg- county index | 3,018 | 1.2% vs coding-classes-in-north-yorkshire | running Ada Lovelace's program | exact fractions vs floating point, cancellation | f5ebd3c4 |
+| 245 | coding-classes-in-rutland (rut, #6B5425) | cg- county index | 2,991 | 2.5% vs coding-classes-in-lincolnshire | a whole county as one tree | tree traversal, published total vs sum of parts | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -24399,5 +24399,56 @@
       "Nottinghamshire school term dates: none read.",
       "Named Nottinghamshire schools: none named."
     ]
+  },
+  "coding-classes-in-rutland": {
+    "market": "Rutland",
+    "bodyClass": "cg-rut",
+    "pageType": "governorate",
+    "curriculumAuthority": "Rutland: one unitary council. ONS Census 2021 TS001 via Nomis: Rutland 41,049; 128 output-area counts summing to 41,048 (our sum). ONS OA21 to PAR22 lookup: 128 OAs in 39 parishes, each OA once. ONS, Protecting personal data in Census 2021 results: \"We used a cell key method to protect against disclosure by differencing by adding \"noise\" to every dataset\"; \"a typical dataset would have around 14% of cell counts perturbed by a small amount\"; \"The noise can be positive or negative and, across a dataset, should approximately balance out. However, the randomness may mean small changes to totals.\" Oakham Castle: \"The Great Hall of Oakham Castle is the finest surviving example of Norman domestic architecture in Europe. It was built between 1180 and 1190\"; \"a stunning aristocratic display of gilded horseshoes\". Discover Rutland: \"Rutland is England's smallest and arguably prettiest county\"; \"Multum in Parvo (much in little)\".",
+    "localProject": "Tree of Rutland: root county, 39 parish nodes, 128 OA leaves (168 nodes); level counts 1, 39, 128. Post-order sum 41,048 vs published 41,049, explained by ONS cell key perturbation (quoted). Parish sums: Oakham 11,165 (36 OAs), Uppingham 4,722 (15), Cottesmore 3,084 (8), Barleythorpe 2,338 (8), Ketton 1,951 (6), Ryhall 1,634 (6), Stretton 1,437 (2), Langham 1,400 (4); smallest Lyndon 117, Tixover 160, Clipsham 194; 23 single-OA parishes; OA 103 to 1,221, mean 320.7; Oakham 27.2 per cent, Oakham plus Uppingham 38.7. Page labels parish sums as ours and quotes the published total. AI angle: an assistant sums parts and offers to fix the gap. Lesson family: tree traversal (pre-order, post-order, level order, search), published totals vs sums of parts.",
+    "requiredMentions": [
+      "41,049",
+      "41,048",
+      "Multum in Parvo",
+      "Oakham Castle",
+      "Barleythorpe",
+      "Cottesmore",
+      "Ketton",
+      "Ryhall",
+      "Lyndon",
+      "Tixover",
+      "Clipsham",
+      "post-order"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for Rutland and its output areas, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to parish lookup (OA21 to PAR22 to LTLA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "ONS: Protecting personal data in Census 2021 results (cell key perturbation, small changes to totals).",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/methodologies/protectingpersonaldataincensus2021results"
+      },
+      {
+        "claim": "Oakham Castle: Great Hall dates and horseshoe display.",
+        "url": "https://www.oakhamcastle.org/"
+      },
+      {
+        "claim": "Discover Rutland: smallest county and the Multum in Parvo motto.",
+        "url": "https://www.discover-rutland.co.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Rutland Water facts: the Anglian Water page returned 403 and was not retried, so none are used.",
+      "How many civil parishes Rutland has in total: not read; the page speaks only of the 39 in the ONS output-area lookup.",
+      "Reasons for the two largest output areas: not researched, not stated.",
+      "The history of the horseshoe custom: not read beyond the display itself, not described.",
+      "Rutland school term dates: none read.",
+      "Named Rutland schools: none named."
+    ]
   }
 }
