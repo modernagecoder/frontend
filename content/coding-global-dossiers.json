@@ -26147,5 +26147,50 @@
       "Named West Lothian schools and school term dates: none named or read.",
       "Directions or distances between towns: not claimed."
     ]
+  },
+  "coding-classes-in-anglesey": {
+    "market": "Isle of Anglesey",
+    "bodyClass": "cg-agy",
+    "pageType": "governorate",
+    "curriculumAuthority": "Isle of Anglesey (W06000001), Isle of Anglesey County Council. ONS Census 2021 TS001 usual residents via Nomis: 68,878. ONS Census 2021 built-up areas (published; our output-area sums within 4): Holyhead 11,755; Llangefni 5,260; Amlwch 3,150; Menai Bridge 3,045; Llanfair Pwllgwyngyll 2,905; Benllech 2,075; Valley 2,005. Curriculum for Wales uses progression steps rather than key stages (Hwb, cited on the Wales hub page). Cadw listed building record 5574, Grade I, Beaumaris Castle: \"begun in 1295, the last of the castles built by Edward I to create a defensive ring around the N Wales coast\"; \"The master mason was probably James of St George\"; \"designed on the concentric principle to have 4 defensive rings - moat, outer curtain wall, outer ward and inner curtain wall\"; \"work ceased c1330 before the castle was complete\"; \"an inner ward, which is square in plan\"; \"an outer curtain wall which is nearly square in plan but has shallow facets to form an octagon\"; \"The main entrance was the S side, or Gate Next the Sea\"; \"On the N side, in the eastern facet, is the N or Llanfaes Gate. This was unfinished\"; \"Since 1925 it has been in the guardianship of the state\".",
+    "localProject": "Invented plan: inner towers (+-2, +-2), outer turrets on the square of side 8 (8 points). Symmetries of the square group: rings 8; plus central N and S gates 4 (identity, rotate 180, NS mirror, EW mirror), closed; north gate shifted east 1 (identity); dock added 1. Two axis mirrors compose to rotate 180. Rotate 90 after NS mirror = other diagonal mirror; NS mirror after rotate 90 = diagonal mirror (non-commuting). Lesson family: symmetry groups.",
+    "requiredMentions": [
+      "Llangefni",
+      "Amlwch",
+      "Menai Bridge",
+      "Llanfair Pwllgwyngyll",
+      "Benllech",
+      "Beaumaris",
+      "Ynys Môn",
+      "Llanfaes",
+      "Gate Next the Sea",
+      "symmetry group"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents, Isle of Anglesey, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cadw listed building full report 5574: Beaumaris Castle.",
+        "url": "https://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=5574"
+      }
+    ],
+    "rejectedClaims": [
+      "Real coordinates, tower counts or gate positions of Beaumaris Castle: model plan is invented and simplified.",
+      "World Heritage Site status: not read from a primary source today, not claimed.",
+      "Welsh-language statistics: excluded by rule.",
+      "Menai Suspension Bridge facts: not used (suspension lessons exist elsewhere).",
+      "Named Anglesey schools and school term dates: none named or read.",
+      "Ferry details from Holyhead: not claimed."
+    ]
   }
 }
