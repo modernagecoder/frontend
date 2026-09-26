@@ -23546,5 +23546,58 @@
       "Derbyshire school term dates: set by councils and academies; none read.",
       "Named Derbyshire schools: none is named."
     ]
+  },
+  "coding-classes-in-devon": {
+    "market": "Devon",
+    "bodyClass": "cg-dvn",
+    "pageType": "governorate",
+    "curriculumAuthority": "Devon (ceremonial: eight districts under Devon County Council plus Plymouth and Torbay). ONS Census 2021 TS001 via Nomis: Plymouth 264,695; East Devon 150,828; Torbay 139,324; Teignbridge 134,803; Exeter 130,709; North Devon 98,611; South Hams 88,627; Mid Devon 82,852; Torridge 68,114; West Devon 57,096; total 1,215,659 (our sum). ONS Census 2021 built-up areas (published; all 34 agree with our OA sums and lie in the county): Plymouth 266,955 (Plymouth, South Hams); Exeter 126,175; Paignton 67,520; Torquay 52,035; Exmouth 35,500; Barnstaple 31,275; Newton Abbot 29,650; Tiverton 19,710; Bideford 19,490; Brixham 17,840; Teignmouth 15,315; Sidmouth 13,265; Tavistock 12,670; Ivybridge 12,490; Honiton 12,155; Kingsteignton 11,940; Dawlish 11,800; Totnes 9,215; Ilfracombe 9,200; Okehampton 9,110; Cullompton 8,895; Crediton 7,975; Seaton 7,435; Braunton 6,610; Bovey Tracey 6,240; South Molton 6,225; Axminster 6,095; Ottery St Mary 6,045; Great Torrington 5,955; Kingsbridge 5,680; Dartmouth 5,260; Budleigh Salterton 5,235; Fremington 5,230; Northam 5,190. National Marine Aquarium, About Us: \"located in Britain's Ocean City - Plymouth. Not only are we the largest Aquarium in the UK\"; \"home to over 4,000 animals\". Marine Biological Association: The Laboratory, Citadel Hill, Plymouth, Devon PL1 2PB. Craig Reynolds, Boids: \"In 1986 I made a computer model of coordinated animal motion such as bird flocks and fish schools\"; \"Separation: steer to avoid crowding local flockmates\"; \"Alignment: steer towards the average heading of local flockmates\"; \"Cohesion: steer to move toward the average position of local flockmates\"; \"The 1992 Tim Burton film Batman Returns was the first\".",
+    "localProject": "Agent-based emergence (boids) measured with an order parameter. numpy simulation, seed 20260926: 150 boids, 100 by 100 periodic box, 600 steps, neighbour radius 10, separation radius 3, constant speed 1; weights separation 1.5, alignment 1.0, cohesion 1.0 by default. Polarisation = length of mean unit heading; random expectation 1/sqrt(150) = 0.082. Alignment weight 0: 0.081; 0.25: 0.637; 0.5: 0.995; 1.0: 0.990; 2.0: 0.990. Separation 0: polarisation 0.944, median nearest-neighbour 0.20, 90.0 per cent within 1 unit; separation 1.5: 0.990, median 2.58, 0 per cent. Seeds 1, 2, 3 at defaults: 1.000, 0.991, 0.980. Page states rules are Reynolds', parameters and results ours, and boids is not a model of a specific species. AI angle: a generated simulation that looks right is not tested until each rule is switched off and measured. Lesson family: agent-based emergence with an order parameter and ablation.",
+    "requiredMentions": [
+      "1,215,659",
+      "0.637",
+      "0.995",
+      "0.081",
+      "In 1986 I made a computer model",
+      "steer to avoid crowding local flockmates",
+      "over 4,000 animals",
+      "Citadel Hill",
+      "Budleigh Salterton",
+      "Great Torrington"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for Plymouth, Torbay and the eight Devon districts, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Devon towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Craig Reynolds, Boids: the 1986 model and its three rules.",
+        "url": "https://www.red3d.com/cwr/boids/"
+      },
+      {
+        "claim": "National Marine Aquarium: largest aquarium in the UK, in Plymouth, over 4,000 animals.",
+        "url": "https://www.national-aquarium.co.uk/about-us"
+      },
+      {
+        "claim": "Marine Biological Association: The Laboratory, Citadel Hill, Plymouth.",
+        "url": "https://www.mba.ac.uk/about-us/"
+      }
+    ],
+    "rejectedClaims": [
+      "Dartmoor letterboxing history: the Dartmoor National Park Authority pages returned 403 on 26 September 2026, so the planned collecting project was dropped.",
+      "Plymouth Marine Laboratory facts: its site returned 403, not retried.",
+      "How real fish shoals are organised: boids is a general model, and no species-specific claim is made.",
+      "Journey times between Devon towns: not read at a transport operator source, so no times are given.",
+      "Devon school term dates: set by councils and academies; none read.",
+      "Named Devon schools: none is named."
+    ]
   }
 }
