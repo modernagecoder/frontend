@@ -33,6 +33,18 @@
 // of that work from the examination room. Preparation that lives on paper is wasted; preparation that
 // lives in a student's hands is not.
 
+const AREAS = [['Blaenau Gwent', 'coding-classes-in-blaenau-gwent'], ['Bridgend', 'coding-classes-in-bridgend'], ['Caerphilly', 'coding-classes-in-caerphilly-county-borough'],
+  ['Cardiff', 'best-coding-class-in-cardiff'], ['Carmarthenshire', 'coding-classes-in-carmarthenshire'], ['Ceredigion', 'coding-classes-in-ceredigion'], ['Conwy', 'coding-classes-in-conwy'],
+  ['Denbighshire', 'coding-classes-in-denbighshire'], ['Flintshire', 'coding-classes-in-flintshire'], ['Gwynedd', 'coding-classes-in-gwynedd'], ['Isle of Anglesey', 'coding-classes-in-anglesey'],
+  ['Merthyr Tydfil', 'coding-classes-in-merthyr-tydfil-county-borough'], ['Monmouthshire', 'coding-classes-in-monmouthshire'], ['Neath Port Talbot', 'coding-classes-in-neath-port-talbot'],
+  ['Newport', 'best-coding-class-in-newport-wales'], ['Pembrokeshire', 'coding-classes-in-pembrokeshire'], ['Powys', 'coding-classes-in-powys'], ['Rhondda Cynon Taf', 'coding-classes-in-rhondda-cynon-taf'],
+  ['Swansea', 'best-coding-class-in-swansea'], ['Torfaen', 'coding-classes-in-torfaen'], ['Vale of Glamorgan', 'coding-classes-in-vale-of-glamorgan'], ['Wrexham', 'best-coding-class-in-wrexham']];
+// Name each principal area; link the ones whose UK page has been built.
+function linkedAreas() {
+  const built = new Set(require('../../scripts/nl/lib/uk-index.js').builtUkPages().map(p => p.slug));
+  return AREAS.map(([name, slug]) => built.has(slug) ? `<a class="cg-inline-link" href="/${slug}">${name}</a>` : name).join(', ');
+}
+
 module.exports = {
   clusterName: 'United Kingdom',
   hub: { group: 'nation', tag: 'WALES', blurb: 'The only UK nation that sits computing on screen, in Python, from a brief released a year early.' },
@@ -168,6 +180,7 @@ module.exports = {
         ] },
         { kind: 'p', text: 'ONS puts the population of Wales at 3,107,500 on census day, 21 March 2021, and warns that its rounded figures "may not add exactly because of this rounding". The twenty principal areas above are reproduced as the census publishes them and are deliberately not totalled here, because adding published parts to assert a whole is how a tidy sentence turns into a false one. What the distribution shows is clear enough without arithmetic: Cardiff and Swansea together are under a fifth of the country, and the rest is spread down valleys and along coastline where a class within driving distance is a genuine constraint.' },
         { kind: 'p', text: 'A learner in Ceredigion or on Anglesey has the same teacher, at the same hour, as one in Cardiff. That is the whole argument, and it is a stronger one here than in most places.' },
+        { kind: 'p', text: 'Pages for the principal areas are being added one by one; each name links once its page is live: ' + linkedAreas() + '.' },
         { kind: 'p', text: 'We teach in English. Welsh-medium and bilingual education is a substantial part of Welsh schooling and we are not equipped to teach through Welsh, which we would rather say plainly than leave a family to discover.' },
         { kind: 'p', text: 'Everything else about the offer is as elsewhere: <a class="cg-inline-link" href="/coding-classes-in-united-kingdom">the UK page</a> lists every page in this series, and the <a class="cg-inline-link" href="/uk-coding-maths-and-ai-competitions-calendar">competitions calendar</a> covers what a Welsh pupil can enter.' },
         { kind: 'spec', title: 'Source', p: 'Population: Office for National Statistics, Population and household estimates, England and Wales, Census 2021, for the figure for Wales, and ONS Census 2021 usual residents by local authority via Nomis for the principal areas. Qualification facts: WJEC\'s GCSE Computer Science qualification outline and its GCSE Digital Technology pages. Curriculum structure: Hwb, Welsh Government. All read 20 September 2026.' }

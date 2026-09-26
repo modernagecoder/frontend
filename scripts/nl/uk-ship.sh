@@ -34,7 +34,7 @@ echo "$R" | grep -q "RESULT PASS" || { echo "$R" | grep -E "BAD|MISS|RESULT"; ec
 
 # Pages that index other UK pages (the hub lists every one; London lists its boroughs) are rebuilt
 # after every ship and re-verified, so no index can drift from the cluster.
-INDEXES="$HUB best-coding-class-in-london coding-and-ai-classes-in-scotland uk-coding-maths-and-ai-competitions-calendar"
+INDEXES="$HUB best-coding-class-in-london coding-and-ai-classes-in-scotland coding-and-ai-classes-in-wales uk-coding-maths-and-ai-competitions-calendar"
 for P in $INDEXES; do
   [ "$P" = "$SL" ] && continue
   [ -f "content/uk/$P.js" ] && [ -f "src/pages/$P.html" ] || continue

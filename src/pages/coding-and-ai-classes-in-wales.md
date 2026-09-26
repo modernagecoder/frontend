@@ -142,6 +142,8 @@ ONS puts the population of Wales at 3,107,500 on census day, 21 March 2021, and 
 
 A learner in Ceredigion or on Anglesey has the same teacher, at the same hour, as one in Cardiff. That is the whole argument, and it is a stronger one here than in most places.
 
+Pages for the principal areas are being added one by one; each name links once its page is live: Blaenau Gwent, Bridgend, Caerphilly, [Cardiff](/best-coding-class-in-cardiff), Carmarthenshire, Ceredigion, Conwy, Denbighshire, Flintshire, Gwynedd, [Isle of Anglesey](/coding-classes-in-anglesey), Merthyr Tydfil, Monmouthshire, Neath Port Talbot, [Newport](/best-coding-class-in-newport-wales), Pembrokeshire, Powys, Rhondda Cynon Taf, [Swansea](/best-coding-class-in-swansea), Torfaen, Vale of Glamorgan, [Wrexham](/best-coding-class-in-wrexham).
+
 We teach in English. Welsh-medium and bilingual education is a substantial part of Welsh schooling and we are not equipped to teach through Welsh, which we would rather say plainly than leave a family to discover.
 
 Everything else about the offer is as elsewhere: [the UK page](/coding-classes-in-united-kingdom) lists every page in this series, and the [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) covers what a Welsh pupil can enter.
