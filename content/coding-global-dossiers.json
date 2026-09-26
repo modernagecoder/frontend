@@ -23232,5 +23232,54 @@
       "Hadfield and Appley Bridge as Greater Manchester towns: most of each built-up area lies outside the county.",
       "Named Greater Manchester schools: none is named; Trafford's selective system is covered on its own maths page."
     ]
+  },
+  "coding-classes-in-the-west-midlands": {
+    "market": "West Midlands",
+    "bodyClass": "cg-wmd",
+    "pageType": "governorate",
+    "curriculumAuthority": "West Midlands (metropolitan county, seven boroughs). ONS Census 2021 TS001 via Nomis: Birmingham 1,144,919; Coventry 345,325; Sandwell 341,832; Dudley 323,486; Walsall 284,124; Wolverhampton 263,727; Solihull 216,240; total 2,919,653 (our sum; Greater Manchester 2,867,762 by the same method). ONS Census 2021 built-up areas (published; checked with our OA sums): Birmingham 1,121,375 (Birmingham, Sandwell, Solihull; 1,111,299 inside the county); Coventry 344,285 (341,441 inside); Wolverhampton 234,025 (231,708 inside); Solihull 107,735; West Bromwich 103,110; Royal Sutton Coldfield 93,375; Walsall 70,775; Dudley 64,270; Halesowen 60,110; Stourbridge 56,950; Smethwick 56,340; Kingswinford 51,910; Bloxwich 51,875; Willenhall 49,580; Tipton 47,200; Oldbury 45,180; Rowley Regis 39,050; Bilston 34,640; Brierley Hill 32,305; Sedgley 31,990; Coseley 25,205 (Dudley, Sandwell, Wolverhampton); Darlaston 21,540; Brownhills 21,240; Wednesbury 20,315; Knowle and Dorridge 19,320; Cradley Heath 18,820; Streetly 16,785 (14,007 inside); Aldridge 15,835; Rushall and Shelfield 12,845; Pelsall 10,455; Pheasey 9,495; Balsall Common 7,095; Blackheath 6,950. Birmingham Assay Office: \"If you see an anchor, your item was hallmarked by Birmingham Assay Office\"; \"There are four UK Assay Offices\"; \"Other UK Assay Office marks represent London, Sheffield and Edinburgh\"; \"an archive of Birmingham date letters dating back to the Assay Office's foundation in 1773\"; fineness \"expressed in parts per thousand. This is called millesimal fineness\": 375 9ct, 585 14ct, 750 18ct, 916 22ct; gold standards also 990 and 999; \"Hallmarking is a legal requirement in the UK for gold items weighing 1 gram and over\"; \"The smallest hallmark we apply at Birmingham Assay Office is just 0.25mm\".",
+    "localProject": "Linear programming. Variables: grams of fine gold 999 (unlimited), 22ct scrap 916 (at most 20 g), 14ct scrap 585 (at most 30 g), 9ct scrap 375 (at most 40 g), base alloy 0 (unlimited); stock limits are teaching values. Constraints: total 50 g; gold at least 0.750 x 50 = 37.5 g. Objective: minimise fine gold. scipy linprog (HiGHS): 916 20.00 g, 585 26.06 g, 999 3.94 g; gold 37.500 g = 750.0 per thousand. Naive 999 plus base alloy: 37.54 g of fine gold. Scrap only: infeasible for 50 g; maximum 40.12 g of 750 (916 20 g + 585 20.12 g). Brute-force grid (0.1 g for 916 and 585, 0.5 g for 375): best 3.974 g, agreeing to grid precision. Also 50 g at 916 needs 23.99 g of 999. AI angle: fluent recipes can miss infeasibility that a solver reports. Lesson family: linear programming (variables, constraints, objective, vertex optimum, infeasibility) checked against brute force; screened 26 September 2026.",
+    "requiredMentions": [
+      "2,919,653",
+      "millesimal fineness",
+      "0.25mm",
+      "1 gram and over",
+      "3.94 g",
+      "37.54 g",
+      "40.12 g",
+      "26.06 g",
+      "Rushall and Shelfield",
+      "Knowle and Dorridge"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for the seven West Midlands boroughs, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for West Midlands towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Birmingham Assay Office: how to read a UK hallmark, millesimal fineness, the anchor, four assay offices, foundation in 1773, 0.25mm hallmark.",
+        "url": "https://www.theassayoffice.co.uk/how-to-read-a-uk-hallmark-a-beginners-guide/"
+      },
+      {
+        "claim": "Birmingham Assay Office: gold standards 375, 585, 750, 916, 990, 999; hallmarking required for gold items of 1 gram and over.",
+        "url": "https://www.theassayoffice.co.uk/our-services/hallmarking/gold-assay-and-hallmarking/"
+      }
+    ],
+    "rejectedClaims": [
+      "The Hallmarking Act 1973 text: legislation.gov.uk returned 202 with an empty body on 26 September 2026, not retried; the standards are quoted from the Birmingham Assay Office instead.",
+      "Gold prices or the value of any mix: money is left out, and the objective is grams of fine gold, not cost.",
+      "Spaghetti Junction traffic figures: read at GOV.UK but not used, because growth-rate lessons are already spent elsewhere.",
+      "West Midlands school term dates: set by each of seven boroughs and academies; none read, none printed.",
+      "How real alloys are made: other metals, melting losses and assay tolerances are outside this teaching model, and the page says so.",
+      "Named West Midlands schools: none is named; the selective systems are covered on their own maths pages."
+    ]
   }
 }
