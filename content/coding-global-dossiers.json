@@ -24604,5 +24604,54 @@
       "South Yorkshire school term dates: none read.",
       "Named South Yorkshire schools: none named."
     ]
+  },
+  "coding-classes-in-staffordshire": {
+    "market": "Staffordshire",
+    "bodyClass": "cg-stf",
+    "pageType": "governorate",
+    "curriculumAuthority": "Staffordshire: Stoke-on-Trent (unitary) plus Staffordshire County Council districts Cannock Chase, East Staffordshire, Lichfield, Newcastle-under-Lyme, South Staffordshire, Stafford, Staffordshire Moorlands, Tamworth. ONS Census 2021 TS001 via Nomis: Stoke-on-Trent 258,366; Stafford 136,867; East Staffordshire 124,020; Newcastle-under-Lyme 123,299; South Staffordshire 110,472; Lichfield 106,436; Cannock Chase 100,519; Staffordshire Moorlands 95,845; Tamworth 78,646; our sum 1,134,470. ONS built-up areas (published): Stoke-on-Trent 260,560; Newcastle-under-Lyme 76,505; Burton upon Trent 76,255 (75,066 inside); Tamworth 76,090 (75,752 inside); Stafford 71,690; Cannock 63,065; Lichfield 32,580; Burntwood 27,900; Rugeley 26,145; Leek 19,385; Great Wyrley and Cheslyn Hay 17,640; Biddulph 17,495; Stone 17,280; Kidsgrove 15,595; Uttoxeter 14,020; Wombourne 12,815; Codsall 11,865; Cheadle 11,400. Excluded as mostly outside: Wolverhampton, Royal Sutton Coldfield, Streetly. Samuel Johnson Birthplace Museum: \"Samuel Johnson (1709-1784)\"; \"Best known as the author of A Dictionary of the English Language (1755)\"; \"born in 1709, here in his parents' home in Breadmarket Street, Lichfield\"; \"opened to the public in 1901 and holds a collection of over 8,000 items\".",
+    "localProject": "Interpolation vs binary search on the sorted distinct words of Johnson's Preface (Gutenberg 5430; lower-case, length at least 2): 9,654 running, 2,376 distinct; first letters s 238, c 215, a 192, p 189, d 186, x 1, z 2, y 5, k 8. Key = first six letters as base-27 fraction. Searching every word: binary mean 10.28, max 12; interpolation mean 17.90, max 110 (courting; courtier, cotemporaries, corrupts 109; course 108); interpolation on 2,376 uniform randoms mean 3.55, max 8; linear mean 1,188.5. Page labels list, key and counts as ours. AI angle: recommended method fails on non-uniform real data. Lesson family: interpolation search, uniform-distribution assumption, worst case.",
+    "requiredMentions": [
+      "1,134,470",
+      "interpolation search",
+      "Breadmarket Street",
+      "Great Wyrley and Cheslyn Hay",
+      "Biddulph",
+      "Uttoxeter",
+      "Wombourne",
+      "Codsall",
+      "courting",
+      "Samuel Johnson Birthplace Museum"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for Stoke-on-Trent and the eight Staffordshire districts, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Staffordshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Samuel Johnson Birthplace Museum: Johnson's dates, birthplace, Dictionary, museum history.",
+        "url": "https://www.samueljohnsonbirthplace.org.uk/"
+      },
+      {
+        "claim": "Samuel Johnson, Preface to a Dictionary of the English Language, Project Gutenberg eBook 5430.",
+        "url": "https://www.gutenberg.org/ebooks/5430"
+      }
+    ],
+    "rejectedClaims": [
+      "The number of words defined in Johnson's Dictionary: not read from a primary page, so no figure is given.",
+      "Wedgwood and the Potteries history: not researched for this page, not described.",
+      "Burton upon Trent and Tamworth overspill: given only as our rounded OA differences (1,189 and 338).",
+      "That any real search engine uses interpolation search: not claimed.",
+      "Staffordshire school term dates: none read.",
+      "Named Staffordshire schools: none named."
+    ]
   }
 }

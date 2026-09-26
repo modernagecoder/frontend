@@ -297,7 +297,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 245 | coding-classes-in-rutland (rut, #6B5425) | cg- county index | 2,991 | 2.5% vs coding-classes-in-lincolnshire | a whole county as one tree | tree traversal, published total vs sum of parts | 8b374dd1 |
 | 246 | coding-classes-in-shropshire (shr, #5C2820) | cg- county index | 2,956 | 1.6% vs coding-classes-in-norfolk | evolve, then test which part matters | genetic algorithm with ablation | 6d484520 |
 | 247 | coding-classes-in-somerset (som, #5F106B) | cg- county index | 3,022 | 2.3% vs coding-classes-in-north-yorkshire | ley lines or arithmetic of dots | rejection sampling, null models, clustering | a2b999ee |
-| 248 | coding-classes-in-south-yorkshire (syk, #2A4C38) | cg- county index | 3,057 | 1.1% vs coding-classes-in-herefordshire | what is a snooker break worth | expected value vs median, model vs reality | (this commit) |
+| 248 | coding-classes-in-south-yorkshire (syk, #2A4C38) | cg- county index | 3,057 | 1.1% vs coding-classes-in-herefordshire | what is a snooker break worth | expected value vs median, model vs reality | 03a7b7f4 |
+| 249 | coding-classes-in-staffordshire (stf, #29415C) | cg- county index | 2,930 | 2.4% vs coding-classes-in-shropshire | opening the dictionary at the right page | interpolation search vs binary, uniformity assumption | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
