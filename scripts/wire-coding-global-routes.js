@@ -575,6 +575,7 @@ const MARKETS = [
   ['coding-and-ai-classes-in-south-west-england', 'South West England'],
   ['coding-and-ai-classes-in-west-midlands-region', 'West Midlands region'],
   ['coding-and-ai-classes-in-east-midlands', 'East Midlands'],
+  ['coding-and-ai-classes-in-yorkshire-and-the-humber', 'Yorkshire and the Humber'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

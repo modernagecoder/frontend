@@ -27413,5 +27413,58 @@
       "Distances and travel times: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "coding-and-ai-classes-in-yorkshire-and-the-humber": {
+    "market": "Yorkshire and the Humber",
+    "bodyClass": "cg-ryh",
+    "pageType": "governorate",
+    "curriculumAuthority": "Yorkshire and The Humber region (E12000003). ONS Census 2021 TS001 via Nomis TYPE480: 5,480,774. ONS LAD22 to RGN22: 21 local authorities. ONS Census 2021 BUAs wholly in region: Leeds 536,280; Bradford 333,950; Kingston upon Hull 270,810; York 141,685; Huddersfield 141,675; Wakefield 97,870; Halifax 88,115; Doncaster 87,455; Grimsby 85,925; Scunthorpe 81,265; Harrogate 75,515; Rotherham 71,535; Barnsley 71,405; Dewsbury 63,720. Met Office historic station data: Whitby \"Location until Dec 1999 490400E 511400N 60m amsl & from 2000 489100E 510400N, Lat 54.481 Lon -0.624 41m amsl\"; Bradford \"Lat 53.813 Lon -1.772, 134 metres amsl\"; Sheffield \"Lat 53.381 Lon -1.490, 131 metres amsl\".",
+    "localProject": "2000-2020 means ((tmax+tmin)/2): Whitby 10.06 (251 months), Bradford 9.86 (252), Sheffield 10.44 (252). Sea-level adjusted with 0.0065 C/m: 10.33, 10.74, 11.29. Raw order Sheffield, Whitby, Bradford; adjusted Sheffield, Bradford, Whitby (latitude order). Whitby 1991-99 old site 9.45. Unit slip 0.65/m: +87.1 C. Lesson family: adjusting for a known factor (lapse rate) before ranking.",
+    "requiredMentions": [
+      "Doncaster",
+      "Rotherham",
+      "Halifax",
+      "Harrogate",
+      "Barnsley",
+      "Grimsby",
+      "Scunthorpe",
+      "Dewsbury",
+      "Whitby",
+      "lapse rate"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by region, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Open Geography Portal lookups: LAD22 to RGN22 and BUA22 to region.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "Met Office historic station data, Whitby.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/whitbydata.txt"
+      },
+      {
+        "claim": "Met Office historic station data, Bradford.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/bradforddata.txt"
+      },
+      {
+        "claim": "Met Office historic station data, Sheffield.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/sheffielddata.txt"
+      }
+    ],
+    "rejectedClaims": [
+      "A measured local lapse rate: not claimed; 0.65 C per 100 m is a labelled textbook average.",
+      "Latitude as the full explanation: explicitly not claimed.",
+      "Sheffield and Darlington BUAs: cross the boundary, omitted.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }
