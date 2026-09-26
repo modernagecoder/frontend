@@ -14822,6 +14822,18 @@
   to = "/src/pages/coding-classes-in-inverclyde.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-midlothian"
+  to = "/src/pages/coding-classes-in-midlothian.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-midlothian.md"
+  to = "/src/pages/coding-classes-in-midlothian.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

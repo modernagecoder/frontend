@@ -25517,5 +25517,53 @@
       "Named Inverclyde schools and school term dates: none named or read.",
       "Travel directions or distances from Inverclyde towns: not claimed."
     ]
+  },
+  "coding-classes-in-midlothian": {
+    "market": "Midlothian",
+    "bodyClass": "cg-mlo",
+    "pageType": "governorate",
+    "curriculumAuthority": "Midlothian (S12000019), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 96,600 (females 49,900, males 46,700); households 41,000; density 273.1 per square kilometre (Scotland 69.8); ages 0 to 14 17,100 (17.7 per cent), 65+ 18,300 (18.9 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Bonnyrigg 18,320; Penicuik 16,150; Dalkeith 14,330; Mayfield 13,690; Gorebridge 8,040; Loanhead 6,820; Danderhall 3,160; Rosewell 2,020; Roslin 1,770; Bilston 1,440. HES LB14562 and LB14563 (Category A, added 22/01/1971), Newbattle Abbey Policies, North and South Sundial, parish Newbattle: \"1635. Octagonal sandstone sundial with 19th century pedestal\"; \"pedestal bears date 'A.D 1635'\"; \"carved in 2 tiers; lower tier contains bronze gnomon in each panel\"; \"initials EWL (William, Earl of Lothian) and CAL (Annie, Countess of Lothian)\"; \"Lothian sun motif\"; \"The North sundial forms an identical pair with the South sundial, both were moved from the front of the house to the rear, mid 19th century\". NGR NT 33403 66084.",
+    "localProject": "OS grid to lat/lon (Airy 1830 inverse TM): 55.883 N, 3.065 W. Faces assumed N..NW. Midsummer decl 23.44: day 17.32 h; lit h N 7.6, NE 6.8, E 8.7, SE 10.6, S 9.7, SW 10.6, W 8.7, NW 6.8; N windows 3.35-7.15 and 16.87-20.67 solar; noon alt 57.6. Equinox: day 12.02; N 0, NE 3.4, E 6.0, SE 8.7, S 12.0. Midwinter decl -23.44: day 6.68; N/NE/NW 0; E 3.3, SE 6.7, S 6.7, SW 6.7, W 3.4; noon alt 10.7. Max 4 faces lit. Page says day lengths are geometric (no refraction). AI angle: south-facing assumption. Lesson family: vectors, dot product, sun position.",
+    "requiredMentions": [
+      "96,600",
+      "273.1",
+      "Newbattle",
+      "LB14562",
+      "Bonnyrigg",
+      "Penicuik",
+      "Gorebridge",
+      "Loanhead",
+      "Danderhall",
+      "Rosewell",
+      "Roslin",
+      "gnomon",
+      "dot product"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB14562: Newbattle Abbey Policies, North Sundial.",
+        "url": "https://portal.historicenvironment.scot/designation/LB14562"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB14563: Newbattle Abbey Policies, South Sundial.",
+        "url": "https://portal.historicenvironment.scot/designation/LB14563"
+      }
+    ],
+    "rejectedClaims": [
+      "Actual compass orientation of the dial faces: not in the listings; assumed N to NW and labelled as an assumption.",
+      "Real sunrise and sunset times: not computed; page labels its day lengths as geometric.",
+      "Rosslyn Chapel legends and carvings: not researched, not used.",
+      "Mining history and colliery figures: not researched for this page.",
+      "Named Midlothian schools and school term dates: none named or read.",
+      "Directions or distances between Midlothian towns: not claimed."
+    ]
   }
 }
