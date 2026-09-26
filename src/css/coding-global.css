@@ -1155,3 +1155,4 @@
 .cg-root.cg-dng  { --cg-accent: #28224C; --cg-accent-soft: rgba(40,34,76,.10); }   /* Dumfries and Galloway: a dark-sky indigo from the solver (11.89:1 on the darkest paper tint), deeper and bluer than the Somerset and West Sussex purples */
 .cg-root.cg-eay  { --cg-accent: #5C3717; --cg-accent-soft: rgba(92,55,23,.10); }   /* East Ayrshire: a Ballochmyle red-sandstone brown from the solver (8.4:1 on the darkest paper tint), warmer than the Angus and Clackmannanshire reds */
 .cg-root.cg-edb  { --cg-accent: #295C30; --cg-accent-soft: rgba(41,92,48,.10); }   /* East Dunbartonshire: a Campsie Fells green from the solver (6.34:1 on the darkest paper tint), brighter than the South Yorkshire and Nottinghamshire greens */
+.cg-root.cg-elo  { --cg-accent: #224C4A; --cg-accent-soft: rgba(34,76,74,.10); }   /* East Lothian: a Firth of Forth teal from the solver (7.69:1 on the darkest paper tint), greener and darker than the Aberdeenshire and Norfolk sea colours */

@@ -25257,5 +25257,52 @@
       "Named East Dunbartonshire schools: none named.",
       "Walking times: not claimed."
     ]
+  },
+  "coding-classes-in-east-lothian": {
+    "market": "East Lothian",
+    "bodyClass": "cg-elo",
+    "pageType": "governorate",
+    "curriculumAuthority": "East Lothian (S12000010), one council. NRS, Scotland's Census 2022 first results, rounded population estimates: 112,300 (females 58,500, males 53,800); households 48,800; density 165.3 per square kilometre (Scotland 69.8); ages 0 to 14 18,700 (16.7 per cent), 65+ 23,800 (21.2 per cent) by our addition (Scotland 15.3, 20.1). NRS mid-2020 localities: Musselburgh 21,100; Tranent 11,910; Prestonpans 10,460; Haddington 10,360; Dunbar 10,270; North Berwick 7,840; Cockenzie 5,370; Wallyford 3,370; Gullane 2,810; Longniddry 2,340; Ormiston 2,110; East Linton 1,790. Scottish Seabird Centre: \"live panoramic views of the amazing Bass Rock, one of the world's largest Northern gannet colonies\". HES LB14738 (Category C), Bass Rock lighthouse: \"David Alan Stevenson, 1902\"; \"built on fortified outcrop contemporary with Bass Rock Castle\"; \"Erected on site of the Governor's House of Bass Rock Castle\".",
+    "localProject": "Lotka-Volterra with invented parameters a 1.0, b 0.02, d 0.01, g 0.8; start fish 60, gannets 40; equilibrium 80 and 50. RK4 dt 0.01, 50 years: fish peaks 2.86, 9.95, 17.05, 24.14 (period 7.09), gannet peaks 4.38, 11.47, 18.57, 25.66 (lag 1.52); fish 54.2 to 112.9; gannets 35.4 to 68.1; H drift 0.00 per cent. Euler dt 0.01: fish 49.6 to 120.2, gannets 33.0 to 72.4, H +0.47 per cent. Euler dt 0.05: fish 24.9 to 175.7, gannets 20.4 to 104.7, H +5.98 per cent; fish peaks 120.7 rising to 175.7. Page labels model as invented. AI angle: plausible-looking drifting simulations. Lesson family: predator-prey cycles, lag, conserved quantity as integrator test.",
+    "requiredMentions": [
+      "112,300",
+      "48,800",
+      "Bass Rock",
+      "Lotka-Volterra",
+      "LB14738",
+      "Tranent",
+      "Prestonpans",
+      "Haddington",
+      "North Berwick",
+      "Cockenzie",
+      "Wallyford",
+      "Gullane"
+    ],
+    "sources": [
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 first results, rounded population estimates data.",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      },
+      {
+        "claim": "National Records of Scotland, Population Estimates for Settlements and Localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "Scottish Seabird Centre: Bass Rock, one of the world's largest Northern gannet colonies.",
+        "url": "https://www.seabird.org/"
+      },
+      {
+        "claim": "Historic Environment Scotland, LB14738: Bass Rock lighthouse.",
+        "url": "https://portal.historicenvironment.scot/designation/LB14738"
+      }
+    ],
+    "rejectedClaims": [
+      "Gannet counts, fish stocks or disease effects at the Bass Rock: not read, not claimed; the model is invented.",
+      "John Muir and the National Museum of Flight: not researched for this page.",
+      "That real gannet and fish numbers follow Lotka-Volterra cycles: not claimed.",
+      "East Lothian school term dates: none read.",
+      "Named East Lothian schools: none named.",
+      "Boat trip details: not needed."
+    ]
   }
 }

@@ -527,6 +527,7 @@ const MARKETS = [
   ['coding-classes-in-dumfries-and-galloway', 'Dumfries and Galloway'],
   ['coding-classes-in-east-ayrshire', 'East Ayrshire'],
   ['coding-classes-in-east-dunbartonshire', 'East Dunbartonshire'],
+  ['coding-classes-in-east-lothian', 'East Lothian'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

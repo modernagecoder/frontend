@@ -311,7 +311,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 259 | coding-classes-in-clackmannanshire (clk, #7A2B2B) | cg- council area index | 2,845 | 2.6% vs coding-classes-in-argyll-and-bute | balancing a beam | centre of mass, moments, feasibility | a9efa23a |
 | 260 | coding-classes-in-dumfries-and-galloway (dng, #28224C) | cg- council area index | 2,937 | 2% vs coding-classes-in-tyne-and-wear | how many stars can you really see | threshold counts, log scale, claim definitions | f70ca526 |
 | 261 | coding-classes-in-east-ayrshire (eay, #5C3717) | cg- council area index | 2,847 | 2.6% vs coding-classes-in-argyll-and-bute | teaching a program to spot the Burns stanza | heuristic pattern recognition, precision and recall | 2038b96d |
-| 262 | coding-classes-in-east-dunbartonshire (edb, #295C30) | cg- council area index | 2,800 | 1.9% vs coding-classes-in-clackmannanshire | splitting the West Highland Way into days | linear partition, exhaustive vs greedy | (this commit) |
+| 262 | coding-classes-in-east-dunbartonshire (edb, #295C30) | cg- council area index | 2,800 | 1.9% vs coding-classes-in-clackmannanshire | splitting the West Highland Way into days | linear partition, exhaustive vs greedy | 9096b2c6 |
+| 263 | coding-classes-in-east-lothian (elo, #224C4A) | cg- council area index | 2,786 | 2% vs coding-classes-in-dumfries-and-galloway | Why do predators and prey rise and fall in cycles? | Lotka-Volterra predator-prey, invariant check | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
