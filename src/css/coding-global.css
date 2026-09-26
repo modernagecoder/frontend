@@ -1205,3 +1205,4 @@
 .cg-root.cg-rem  { --cg-accent: #501F7A; --cg-accent-soft: rgba(80,31,122,.10); }   /* East Midlands: a Trent-valley violet from the solver (9.31:1 on the darkest paper tint) */
 .cg-root.cg-ryh  { --cg-accent: #5C1F7A; --cg-accent-soft: rgba(92,31,122,.10); }   /* Yorkshire and the Humber: a moorland-heather violet from the solver (8.76:1 on the darkest paper tint) */
 .cg-root.cg-rnw  { --cg-accent: #6A158A; --cg-accent-soft: rgba(106,21,138,.10); }   /* North West England: a wet-slate purple from the solver (8.11:1 on the darkest paper tint) */
+.cg-root.cg-rne  { --cg-accent: #7A1273; --cg-accent-soft: rgba(122,18,115,.10); }   /* North East England: a deep Tyne-bridge magenta from the solver (7.83:1 on the darkest paper tint) */

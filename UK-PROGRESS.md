@@ -361,7 +361,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 309 | coding-and-ai-classes-in-west-midlands-region (rwm, #43127A) | cg- region index | 2,583 | 2.3% vs coding-and-ai-classes-in-south-east-england | Has the growing season got longer? | Threshold crossing by interpolation, growing season | 1e0bd3b0 |
 | 310 | coding-and-ai-classes-in-east-midlands (rem, #501F7A) | cg- region index | 2,543 | 2.5% vs coding-and-ai-classes-in-east-of-england | Average then maximum, or maximum then average? | Mean of maxima vs maximum of means | 4ea2478d |
 | 311 | coding-and-ai-classes-in-yorkshire-and-the-humber (ryh, #5C1F7A) | cg- region index | 2,534 | 2.2% vs coding-and-ai-classes-in-east-of-england | Adjust for height, then compare | Adjusting for a known factor before ranking (lapse rate) | a7325635 |
-| 312 | coding-and-ai-classes-in-north-west-england (rnw, #6A158A) | cg- region index | 2,533 | 2% vs coding-and-ai-classes-in-west-midlands-region | Wetter, or just less predictable? | Coefficient of variation, relative vs raw spread | (this commit) |
+| 312 | coding-and-ai-classes-in-north-west-england (rnw, #6A158A) | cg- region index | 2,533 | 2% vs coding-and-ai-classes-in-west-midlands-region | Wetter, or just less predictable? | Coefficient of variation, relative vs raw spread | 7ccddb2f |
+| 313 | coding-and-ai-classes-in-north-east-england (rne, #7A1273) | cg- region index | 2,521 | 2.5% vs coding-and-ai-classes-in-north-west-england | Cold, normal or warm, compared with when? | Tercile categories and the shifting baseline | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

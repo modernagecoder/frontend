@@ -27511,5 +27511,50 @@
       "Distances and travel times: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "coding-and-ai-classes-in-north-east-england": {
+    "market": "North East England",
+    "bodyClass": "cg-rne",
+    "pageType": "governorate",
+    "curriculumAuthority": "North East region (E12000001). ONS Census 2021 TS001 via Nomis TYPE480: 2,647,013. ONS LAD22 to RGN22: 12 local authorities. ONS Census 2021 BUAs wholly in region: Newcastle upon Tyne 286,445; Sunderland 168,315; Middlesbrough 148,215; Gateshead 115,280; Hartlepool 87,995; Stockton-on-Tees 84,815; South Shields 73,345; Tynemouth 60,605; Washington 51,320; Durham 50,510; Wallsend 45,355; Redcar 37,660. Met Office historic station data: Durham \"Location: 426700E 541500N, Lat 54.768 Lon -1.585, 102 metres amsl\", monthly from January 1880.",
+    "localProject": "Durham annual means (complete years). Terciles (midpoint rule): 1881-1910 (29 yrs) 7.90/8.44; 1961-1990 8.37/8.79; 1991-2020 9.27/9.77. 1991-2020 labelled: vs 1881-1910 28 warm 2 normal 0 cold; vs 1961-1990 25/4/1; vs itself 10/10/10. 2021-2025 all warm vs 1961-90. Warmest 2022 10.57; coldest 1892 7.23. Lesson family: tercile categories and shifting baseline.",
+    "requiredMentions": [
+      "Middlesbrough",
+      "Gateshead",
+      "Hartlepool",
+      "Stockton-on-Tees",
+      "South Shields",
+      "Washington",
+      "Wallsend",
+      "Redcar",
+      "tercile",
+      "reference period"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by region, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Open Geography Portal lookups: LAD22 to RGN22 and BUA22 to region.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "Met Office historic station data, Durham.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/durhamdata.txt"
+      }
+    ],
+    "rejectedClaims": [
+      "Met Office official year classifications: not quoted; our terciles are labelled as ours.",
+      "Causes of the warming: not discussed.",
+      "Darlington BUA: crosses the boundary, omitted.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }
