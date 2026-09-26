@@ -27130,5 +27130,46 @@
       "Transfer test advice and community background statistics: excluded by rule.",
       "Named schools, school term dates, distances and travel times: none named, read or claimed."
     ]
+  },
+  "coding-classes-in-mid-ulster": {
+    "market": "Mid Ulster",
+    "bodyClass": "cg-mul",
+    "pageType": "governorate",
+    "curriculumAuthority": "Mid Ulster (N09000009). NISRA Census 2021 MS-A01: 150,293. DEAs (exact, not summed): Carntogher 17,167; Clogher Valley 21,997; Cookstown 24,617; Dungannon 25,640; Magherafelt 19,266; Moyola 18,586; Torrent 23,020. Settlements (NISRA approximations): Dungannon 16,282; Cookstown 12,546; Magherafelt 9,648; Coalisland 6,349; Maghera 4,235; Castledawson 2,348; Moneymore 2,141; Moy 1,944; Draperstown 1,853; Fivemiletown 1,341. Department for Communities historic building HB09/04/003, Wellbrook Beetling Mill, Cookstown: \"The history of bleaching at Wellbrook began in 1764\"; memorial: \"a green, containing ten acres, which will enable them to bleach from seven to eight thousand pieces of linen annually\"; \"two wash mills, four pair of rubbing boards, two beetling engines, a buck house and boiling house\"; \"a drying loft, to contain five hundred pieces of linen\"; \"The beetles here were started for the first time in October 1765\"; National Trust ownership since 1969; present building \"no older than about 1830\".",
+    "localProject": "Invented times, 2,500 h year: wash 2 x 0.4 h -> 5/h 12,500; rub 4 x 1.0 h -> 4/h 10,000; beetle 2 x 0.8 h -> 2.5/h 6,250; loft 500 x 4 days -> 31,250. Mill 6,250. 7,500 needs beetling 3/h (0.67 h each). 3 engines 9,375; 4 engines 10,000 (rubbing limits); +5th board 12,500 three-way tie. Slips: sum 60,000, average 15,000. Lesson family: production-line capacity, slowest stage, upgrade planning.",
+    "requiredMentions": [
+      "Coalisland",
+      "Castledawson",
+      "Moneymore",
+      "Draperstown",
+      "Fivemiletown",
+      "Carntogher",
+      "Clogher Valley",
+      "Moyola",
+      "Wellbrook",
+      "beetling engines"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA Census 2021 MS-A01 usual resident population by LGD, DEA and settlement.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "Department for Communities Historic Buildings database, record HB09/04/003, Wellbrook Beetling Mill.",
+        "url": "https://apps.communities-ni.gov.uk/Buildings/buildview.aspx?id=5836"
+      },
+      {
+        "claim": "Department for Communities Historic Environment Division GIS data (Historic Buildings layer with council field).",
+        "url": "https://services2.arcgis.com/BdBkthNLO9mzGAMO/arcgis/rest/services/Historic_Environment_Division_GIS_Data/FeatureServer"
+      }
+    ],
+    "rejectedClaims": [
+      "Real processing times or output at Wellbrook: not in the record; all times are ours.",
+      "The dating dispute between guidebook and record: noted in the record, not used.",
+      "Bellaghy Bawn and Plantation history: considered, not used.",
+      "Transfer test advice and community background statistics: excluded by rule.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed."
+    ]
   }
 }
