@@ -23497,5 +23497,54 @@
       "Sellafield and nuclear topics: not relevant and left out.",
       "Named Cumbrian schools: none is named."
     ]
+  },
+  "coding-classes-in-derbyshire": {
+    "market": "Derbyshire",
+    "bodyClass": "cg-dbs",
+    "pageType": "governorate",
+    "curriculumAuthority": "Derbyshire (ceremonial: eight districts under Derbyshire County Council plus Derby unitary). ONS Census 2021 TS001 via Nomis: Derby 261,364; Amber Valley 126,206; Erewash 112,906; South Derbyshire 107,205; Chesterfield 103,569; North East Derbyshire 102,001; High Peak 90,933; Bolsover 80,272; Derbyshire Dales 71,540; total 1,055,996 (our sum). ONS Census 2021 built-up areas (published; checked with our OA sums): Derby 275,575 (Derby, Amber Valley, South Derbyshire); Chesterfield 76,420 (Chesterfield, North East Derbyshire); Ilkeston 38,725; Long Eaton 37,820; Swadlincote 34,565 (33,920 inside); Heanor 24,260; Dronfield 21,160; Ripley 20,180; Buxton 20,050; Belper 19,075; Glossop 17,820; Hadfield 16,275 (9,910 in High Peak); South Normanton and Pinxton 16,025; Staveley 15,145; Somercotes and Swanwick 15,100; Matlock 11,990; Shirebrook 11,575; Bolsover 11,225; Brimington 11,075; North Wingfield and Holmewood 9,540; Sandiacre 9,370; New Mills 9,200 (8,698 inside); Killamarsh 9,080; Clay Cross 8,920; Ashbourne 8,855; Alfreton 8,795; Hilton 8,275; Clowne 7,760; Eckington 7,435; Breaston and Draycott 7,395; Woodville 7,255 (6,497 inside); Chapel-en-le-Frith 7,240; Borrowash 7,165; Wingerworth 6,400; West Hallam 5,910; Creswell 5,795; Overseal and Castle Gresley 5,055. Burton upon Trent (1,198 of 76,255 in South Derbyshire) excluded. Cromford Mills, Our History: \"Built in 1771 by Sir Richard Arkwright Cromford Mills was the world's first successful water-powered cotton spinning mill and a cornerstone of the Industrial Revolution\"; \"the water frame\"; \"Arkwright became known as the 'Father of the Factory System' for launching the world's first production line\". Derwent Valley Mills WHS: \"Snaking 15 miles down the river valley from Matlock Bath to Derby, the World Heritage Site contains a fascinating series of historic mill complexes, including some of the world's first 'modern' factories\"; highlights Cromford Mills and Cromford Canal, Strutt's North Mill and Belper River Gardens, Darley Abbey, the Museum of Making at Derby Silk Mill.",
+    "localProject": "gcd and lcm on gear wear. Contact k touches wheel tooth k mod a and pinion tooth k mod b; the pattern repeats after lcm(a, b) contacts; each pinion tooth meets a / gcd(a, b) wheel teeth. Teaching pairs (ours): 96/24 gcd 24, lcm 96, each pinion tooth meets 4 of 96; 96/25 gcd 1, 2,400 contacts (25 wheel turns, 96 pinion turns), all 96; 96/23 2,208, all 96; 60/24 gcd 12, 120, 5 of 60; 60/23 1,380, all 60; 48/18 gcd 6, 144, 8 of 48; 48/17 816, all 48; 100/40 gcd 20, 200, 5 of 100; 100/41 4,100, all 100. Ratios: 96/24 = 4.000, 96/25 = 3.840, 96/23 = 4.174, 97/24 = 4.042, 95/24 = 3.958. Simulation checked against the formula. Page states tooth counts are ours, not any mill's. AI angle: an assistant proposes 96 and 24 for a 4:1 ratio unless wear is mentioned. Lesson family: gcd/lcm applied to gear wear (hunting tooth), simulation checked against number theory.",
+    "requiredMentions": [
+      "1,055,996",
+      "water frame",
+      "15 miles",
+      "2,400",
+      "4 of the 96",
+      "hunting tooth",
+      "North Wingfield and Holmewood",
+      "Overseal and Castle Gresley",
+      "Somercotes and Swanwick",
+      "275,575"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for Derby and the eight Derbyshire districts, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Derbyshire towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cromford Mills: built in 1771 by Richard Arkwright, first successful water-powered cotton spinning mill, water frame, first production line.",
+        "url": "https://www.cromfordmills.org.uk/about/our-history/"
+      },
+      {
+        "claim": "Derwent Valley Mills World Heritage Site: 15 miles from Matlock Bath to Derby, early modern factories.",
+        "url": "https://www.derwentvalleymills.org/"
+      }
+    ],
+    "rejectedClaims": [
+      "The actual gear tooth counts used in any Derwent Valley mill: not read at a primary source, so all counts are our teaching examples.",
+      "Working conditions and child labour at the mills: outside the scope of a coding page and not summarised here.",
+      "The UNESCO inscription details for the Derwent Valley Mills: the UNESCO page returned 403 on 26 September 2026, so no inscription date is printed.",
+      "Burton upon Trent as a Derbyshire town: almost all of it lies in Staffordshire.",
+      "Derbyshire school term dates: set by councils and academies; none read.",
+      "Named Derbyshire schools: none is named."
+    ]
   }
 }

@@ -1120,3 +1120,4 @@
 .cg-root.cg-chc  { --cg-accent: #352B7A; --cg-accent-soft: rgba(53,43,122,.10); }   /* Cheshire: a radio-night indigo from the solver (9.52:1 on the lightest paper), bluer than the UK purples and lighter than the Kent indigo */
 .cg-root.cg-cnw  { --cg-accent: #5B6B1B; --cg-accent-soft: rgba(91,107,27,.10); }   /* Cornwall: a clifftop-gorse olive green from the solver (4.75:1 on the darkest paper tint), greener than the Warwickshire olive */
 .cg-root.cg-cmb  { --cg-accent: #465F6B; --cg-accent-soft: rgba(70,95,107,.10); }   /* Cumbria: a lake-slate blue-grey from the solver (5.44:1 on the darkest paper tint), the only grey-blue among the UK county accents */
+.cg-root.cg-dbs  { --cg-accent: #7A502B; --cg-accent-soft: rgba(122,80,43,.10); }   /* Derbyshire: a gritstone ochre brown from the solver (5.62:1 on the darkest paper tint), more orange than the other UK county browns */
