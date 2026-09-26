@@ -3910,4 +3910,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /11-plus-maths-tuition-enfield /src/pages/11-plus-maths-tuition-enfield.html 200
 /11-plus-maths-tuition-enfield.md /src/pages/11-plus-maths-tuition-enfield.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/11-plus-maths-tuition-redbridge /src/pages/11-plus-maths-tuition-redbridge.html 200
+/11-plus-maths-tuition-redbridge.md /src/pages/11-plus-maths-tuition-redbridge.md 200
 /* /src/pages/404.html 404
