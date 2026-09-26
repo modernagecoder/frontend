@@ -23440,5 +23440,62 @@
       "Named Cornish schools: none is named.",
       "Cornish language data: identity-related figures are left out of place pages."
     ]
+  },
+  "coding-classes-in-cumbria": {
+    "market": "Cumbria",
+    "bodyClass": "cg-cmb",
+    "pageType": "governorate",
+    "curriculumAuthority": "Cumbria (ceremonial; 2021 Census districts Allerdale, Barrow-in-Furness, Carlisle, Copeland, Eden, South Lakeland; now Cumberland and Westmorland and Furness councils). ONS Census 2021 TS001 via Nomis: Carlisle 110,024; South Lakeland 104,450; Allerdale 96,157; Barrow-in-Furness 67,407; Copeland 67,076; Eden 54,735; total 499,849 (our sum). ONS Census 2021 built-up areas (published; all 15 agree with our OA sums and lie in the county): Carlisle 77,730; Barrow-in-Furness 55,255; Kendal 28,940; Whitehaven 22,945; Workington 21,275; Penrith 16,700; Ulverston 11,220; Cockermouth 8,860; Maryport 8,525; Dalton-in-Furness 7,555; Cleator Moor 6,670; Egremont 5,795; Millom 5,690; Wigton 5,395; Seaton 5,050. Cumberland Council website: \"moving across content from the former Allerdale, Carlisle and Copeland websites\". Project Gutenberg: ebook 29091 The Complete Poetical Works of Samuel Taylor Coleridge Vol 1 (editor Ernest Hartley Coleridge), Christabel preface: \"The first part of the following poem was written in the year 1797, at Stowey, in the county of Somerset. The second part, after my return from Germany, in the year 1800, at Keswick, Cumberland\"; ebook 10219 The Poetical Works of William Wordsworth Vol 1 (editor William Knight): \"when the brother and sister lived together at Grasmere\"; \"The 'School Exercise written at Hawkshead' in the poet's fourteenth year\"; illustrations list Cockermouth, Dame Tyson's Cottage Hawkshead, Dove Cottage, Allan Bank Grasmere; ebook 151 The Rime of the Ancient Mariner (Coleridge); ebook 9622 Lyrical Ballads 1798.",
+    "localProject": "Naive Bayes text classification, baselines and leakage. Gutenberg bodies (header/footer removed), lower-cased letter tokens, 300-word chunks: Wordsworth (10219) 342, Coleridge (29091) 572; shuffled with seed 20260926, 80/20 split: 731 train, 183 test. Majority baseline (Coleridge) 60.7 per cent. Multinomial naive Bayes, add-one smoothing, class priors: 96.7 per cent (confusion: W correct 72, C correct 105, 6 Coleridge chunks called Wordsworth). Most indicative words: Coleridge linenotes 173/0, sibylline 92/0, southey 77/0, mss 65/0, christabel 55/0; Wordsworth marmaduke 211/0, oswald 170/0, herbert 83/0, idonea 74/0, variant 436/15, footnote 151/27 (Marmaduke, Oswald, Idonea and Herbert are characters in The Borderers). Dropping 223 one-sided or editorial tokens: 94.5 per cent. Ancient Mariner (151) 13/13 chunks called Coleridge (both before and after filtering). Lyrical Ballads 1798: 54 of 74 chunks called Wordsworth (not presented as attribution). Chunk size: 10 words 79.1, 30 words 86.9, 100 words 93.1, 300 words 96.7. AI angle: accuracy without a baseline and feature inspection hides leakage. Lesson family: naive Bayes, baselines, leakage.",
+    "requiredMentions": [
+      "499,849",
+      "96.7 per cent",
+      "60.7 per cent",
+      "94.5 per cent",
+      "Marmaduke",
+      "linenotes",
+      "at Keswick, Cumberland",
+      "School Exercise written at Hawkshead",
+      "Dalton-in-Furness",
+      "13 out of 13"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for Cumbria's six former districts, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations for Cumbrian towns.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cumberland Council: content moving from the former Allerdale, Carlisle and Copeland websites.",
+        "url": "https://www.cumberland.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, The Complete Poetical Works of Samuel Taylor Coleridge, Vol 1: Christabel preface, Keswick 1800.",
+        "url": "https://www.gutenberg.org/ebooks/29091"
+      },
+      {
+        "claim": "Project Gutenberg, The Poetical Works of William Wordsworth, Vol 1, ed. William Knight: Grasmere, Hawkshead.",
+        "url": "https://www.gutenberg.org/ebooks/10219"
+      },
+      {
+        "claim": "Project Gutenberg, The Rime of the Ancient Mariner.",
+        "url": "https://www.gutenberg.org/ebooks/151"
+      }
+    ],
+    "rejectedClaims": [
+      "Wordsworth's birthplace details from the National Trust: its Wordsworth House page renders by script and could not be read; the Wordsworth Trust returned 403.",
+      "Which poems in Lyrical Ballads 1798 each poet wrote: no primary source for the attribution was readable, so the page makes no per-poem claims.",
+      "The date the two new Cumbrian councils began: not read at a primary source; the page says only that two councils now serve the county.",
+      "Cumbrian school term dates: set by two councils and academies; none read.",
+      "Sellafield and nuclear topics: not relevant and left out.",
+      "Named Cumbrian schools: none is named."
+    ]
   }
 }
