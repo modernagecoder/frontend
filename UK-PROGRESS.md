@@ -342,7 +342,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 290 | coding-classes-in-denbighshire (dnh, #3B416B) | cg- county index | 2,625 | 3.4% vs coding-classes-in-bridgend | Why build a weir as a curve, and how long is a curved crest? | Circle geometry, inverting a power law | 192660c4 |
 | 291 | coding-classes-in-flintshire (fls, #7B3E8A) | cg- county index | 2,631 | 3% vs coding-classes-in-anglesey | How does a book barcode store thirteen digits when only twelve are drawn? | Barcode encoding (EAN-13), parity, error detection | 3b30eca9 |
 | 292 | coding-classes-in-gwynedd (gwn, #2A2F4C) | cg- county index | 2,662 | 1.8% vs coding-classes-in-ceredigion | Why did a 1906 power station send electricity at 10,000 volts? | Transmission losses, model validity, quadratic | abb1ecad |
-| 293 | coding-classes-in-merthyr-tydfil-county-borough (mty, #7A352B) | cg- county index | 2,587 | 4.2% vs coding-classes-in-anglesey | How much does an iron bridge grow from winter to summer? | Thermal expansion, restrained stress | (this commit) |
+| 293 | coding-classes-in-merthyr-tydfil-county-borough (mty, #7A352B) | cg- county index | 2,587 | 4.2% vs coding-classes-in-anglesey | How much does an iron bridge grow from winter to summer? | Thermal expansion, restrained stress | 9e18c206 |
+| 294 | coding-classes-in-monmouthshire (mmt, #4C4422) | cg- county index | 2,596 | 1.6% vs coding-classes-in-conwy | How fine can a hilltop telescope see? | Angular resolution, diffraction limit, seeing | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

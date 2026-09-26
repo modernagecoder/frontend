@@ -4298,4 +4298,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-merthyr-tydfil-county-borough /src/pages/coding-classes-in-merthyr-tydfil-county-borough.html 200
 /coding-classes-in-merthyr-tydfil-county-borough.md /src/pages/coding-classes-in-merthyr-tydfil-county-borough.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-monmouthshire /src/pages/coding-classes-in-monmouthshire.html 200
+/coding-classes-in-monmouthshire.md /src/pages/coding-classes-in-monmouthshire.md 200
 /* /src/pages/404.html 404
