@@ -335,7 +335,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 283 | coding-classes-in-anglesey (agy, #464C2A) | cg- county index | 2,679 | 3.4% vs coding-classes-in-renfrewshire | Is a castle plan really symmetrical, and how would a program decide? | Symmetry groups, composition, non-commuting moves | 65b3ab46 |
 | 284 | coding-classes-in-blaenau-gwent (bgt, #22364C) | cg- county index | 2,734 | 1.3% vs coding-classes-in-scottish-borders | How does a camera turn a 21 metre clock and a round street into a flat picture? | Perspective projection, pinhole camera | 991630dc |
 | 285 | coding-classes-in-bridgend (bgd, #6B5A46) | cg- county index | 2,689 | 1.8% vs coding-classes-in-falkirk | How much water does it take to lift a load with gravity alone? | Atwood machine, energy bookkeeping, sign errors | e9ef27aa |
-| 286 | coding-classes-in-caerphilly-county-borough (cph, #32134C) | cg- county index | 2,694 | 1.4% vs coding-classes-in-south-ayrshire | Can a program read a text and catch a conversion that does not add up? | Consistency checking of paired values, regex, units | (this commit) |
+| 286 | coding-classes-in-caerphilly-county-borough (cph, #32134C) | cg- county index | 2,694 | 1.4% vs coding-classes-in-south-ayrshire | Can a program read a text and catch a conversion that does not add up? | Consistency checking of paired values, regex, units | 938bde39 |
+| 287 | coding-classes-in-carmarthenshire (cmt, #325C5C) | cg- county index | 2,649 | 1.4% vs coding-classes-in-caerphilly-county-borough | How long is an elliptical arch when no simple formula gives the answer? | Ellipse perimeter, Ramanujan, arithmetic-geometric mean | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

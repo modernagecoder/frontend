@@ -26329,5 +26329,50 @@
       "Welsh-language statistics: excluded by rule.",
       "Named schools and school term dates: none named or read."
     ]
+  },
+  "coding-classes-in-carmarthenshire": {
+    "market": "Carmarthenshire",
+    "bodyClass": "cg-cmt",
+    "pageType": "governorate",
+    "curriculumAuthority": "Carmarthenshire (W06000010), Carmarthenshire County Council. ONS Census 2021 TS001 via Nomis: 187,897. ONS built-up areas (published; OA sums within 21): Llanelli 42,155; Carmarthen 16,455; Ammanford 8,285; Cross Hands and Pen-y-groes 6,340; Burry Port 4,965; Llangennech 4,280; Tumble 4,040; Glanaman 3,865. Cadw listed building records 10964 and 16996, Grade I, Dolauhirion Bridge: \"Road bridge across the Tywi, built in 1773 by Thomas Edwards\"; \"the weight-reducing pierced spandrels that Thomas' father the Rev William Edwards introduced at Pontypridd in 1756\"; \"the very broad elliptical arch rising to a thin crown\"; \"marked 'Thomas Edward 1773'\"; \"has also been dated 1785\"; \"single arch of some 25m span and 3.6m width\"; \"pierced with large circular holes\"; \"Scheduled Ancient Monument: CM005\". Llandovery named as the community in the record; Llandeilo named as a place.",
+    "localProject": "Half-ellipse, a = 12.5 m, rise invented. AGM exact (5-6 steps). Rise 7: 31.242807 m; pi(a+b)/2 30.630528 (-1.96 per cent); RMS 31.825590 (+1.87); Ramanujan I -3.17e-5 m; Ramanujan II -2.56e-9 m; polyline 4 -0.783, 16 -0.0502, 64 -0.00314, 256 -0.000196, 1,024 -0.0000123. Rise 4: 27.668325; Ramanujan I -1.13e-3; II -1.26e-6. Rise 12.5: all 39.269908. First AGM version off by factor 2, caught by semicircle test (stated on page). Lesson family: ellipse perimeter, approximations vs AGM.",
+    "requiredMentions": [
+      "Ammanford",
+      "Cross Hands",
+      "Burry Port",
+      "Llangennech",
+      "Glanaman",
+      "Llandovery",
+      "Dolauhirion",
+      "Thomas Edwards",
+      "Ramanujan",
+      "arithmetic-geometric mean"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents, Carmarthenshire, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "ONS Open Geography Portal: output area to built-up area lookup (OA21 to BUA22).",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Cadw listed building full report 10964: Pont Dolauhirion.",
+        "url": "https://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=10964"
+      }
+    ],
+    "rejectedClaims": [
+      "Rise, true shape or arch ring length of the real bridge: not in the record; rise invented, shape idealised.",
+      "Which date or builder is correct: not decided; the record gives the alternatives.",
+      "Pontypridd bridge collapse history: not used.",
+      "Welsh-language statistics: excluded by rule.",
+      "Named schools and school term dates: none named or read.",
+      "Distances between towns: not claimed."
+    ]
   }
 }
