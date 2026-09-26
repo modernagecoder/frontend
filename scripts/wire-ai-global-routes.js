@@ -260,6 +260,7 @@ const SLUGS = [
   '11-plus-maths-tuition-plymouth',
   '11-plus-maths-tuition-torbay',
   '11-plus-maths-tuition-bournemouth-christchurch-and-poole',
+  '11-plus-maths-tuition-calderdale',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -599,6 +600,7 @@ const LLMS_LABELS = {
   '11-plus-maths-tuition-plymouth': '11 plus maths tuition in Plymouth',
   '11-plus-maths-tuition-torbay': '11 plus maths tuition in Torbay',
   '11-plus-maths-tuition-bournemouth-christchurch-and-poole': '11 plus maths tuition in Bournemouth, Christchurch and Poole',
+  '11-plus-maths-tuition-calderdale': '11 plus maths tuition in Calderdale',
 };
 
 function wireLlms(slugs) {
