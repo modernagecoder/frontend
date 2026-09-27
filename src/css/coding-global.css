@@ -1256,3 +1256,4 @@
 .cg-root.cg-bmt  { --cg-accent: #7A5055; --cg-accent-soft: rgba(122,80,85,.10); }   /* Bournemouth: a weathered brick rose (5.45:1 on the darkest paper tint) */
 .cg-root.cg-wrr  { --cg-accent: #4B3B6B; --cg-accent-soft: rgba(75,59,107,.10); }   /* Warrington: a dusk slate violet (7.92:1 on the darkest paper tint) */
 .cg-root.cg-tlf  { --cg-accent: #5B2B7A; --cg-accent-soft: rgba(91,43,122,.10); }   /* Telford: a cast-iron heather violet (8.17:1 on the darkest paper tint) */
+.cg-root.cg-ips  { --cg-accent: #8A2237; --cg-accent-soft: rgba(138,34,55,.10); }   /* Ipswich: a coaching-inn red (7.16:1 on the darkest paper tint) */

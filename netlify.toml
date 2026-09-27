@@ -16,6 +16,11 @@
   #   pricing:apply    stamp every price
   #   generate:derived .md twins, llms.txt, sitemaps
   #
+  # build:phone runs after build:inline (which adds the nav's callback form to
+  # pages) and puts the country picker on every page with a phone box, so a
+  # visitor from any country can say where their number is from. verify:phone
+  # fails the build if a page slipped through. See scripts/ensure-phone-country.js.
+  #
   # pricing:verify then fails the build if any page shows a different price from
   # the one it publishes to Google — the fault that was live on the homepage
   # before this system existed.
@@ -24,7 +29,7 @@
   # exchange-rate data, and running it on every deploy would let prices move
   # without anyone reviewing the change. It is a manual command; the committed
   # data files are what deploys.
-  command = "npm install && npm run generate:all && npm run pricing:verify && npm run build:inline && npm run minify && cd lovewall && npm install && npm run build && cd .."
+  command = "npm install && npm run generate:all && npm run pricing:verify && npm run build:inline && npm run build:phone && npm run verify:phone && npm run minify && cd lovewall && npm install && npm run build && cd .."
   publish = "."
   functions = "api"
 
@@ -15648,6 +15653,18 @@
 [[redirects]]
   from = "/ai-and-programming-classes-in-telford.md"
   to = "/src/pages/ai-and-programming-classes-in-telford.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-ipswich"
+  to = "/src/pages/best-coding-and-ai-classes-in-ipswich.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-ipswich.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-ipswich.md"
   status = 200
 
 [[redirects]]
