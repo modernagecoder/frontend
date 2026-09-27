@@ -28473,5 +28473,49 @@
       "Local employers: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-bournemouth": {
+    "market": "Bournemouth",
+    "bodyClass": "cg-bmt",
+    "pageType": "city",
+    "curriculumAuthority": "Bournemouth, Christchurch and Poole (E06000058). Nomis Census 2021 TS007A: total 400,198; 5 to 9 21,212 (5.3%, England 5.9%); 20 to 24 26,928 (6.7%, 6.0%); 30 to 34 26,161 (6.5%, 7.0%); 70 to 74 22,596 (5.6%, 5.0%); 75 to 79 17,095 (4.3%, 3.6%); 85+ 13,713 (3.4%, 2.4%). ONS 2021 BUAs: Bournemouth 196,455; Christchurch 48,985; Merley 5,490. Project Gutenberg 24332, Nellie Van de Grift Sanchez, The Life of Mrs. Robert Louis Stevenson: went \"to Bournemouth for a trial of its climate and conditions\"; house bought by \"the elder Stevenson\"; renamed \"Skerryvore, in honour of the best known of the lighthouses built by the Stevenson family\"; draft burned and rewritten \"from a different point of view\". Project Gutenberg 43, Jekyll and Hyde.",
+    "localProject": "Pronoun rates per 1,000 words (I/me/my/mine/myself), all text vs outside quotes: ch1 30.2/0.0; ch2 15.2/0.0; ch3 70.9/0.0; ch4 8.4/0.0; ch5 33.0/0.0; ch6 22.1/0.0; ch7 30.5/0.0; ch8 23.5/0.0; Lanyon 63.3/67.8; Jekyll 74.7/74.7. Lesson family: narrative voice detection (stylometry), removing a confounder.",
+    "requiredMentions": [
+      "196,455",
+      "48,985",
+      "Merley",
+      "Skerryvore",
+      "Jekyll",
+      "first-person",
+      "Lanyon",
+      "Nellie Van de Grift Sanchez",
+      "stylometry"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Bournemouth, Christchurch and Poole and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Nellie Van de Grift Sanchez, The Life of Mrs. Robert Louis Stevenson (ebook 24332).",
+        "url": "https://www.gutenberg.org/ebooks/24332"
+      },
+      {
+        "claim": "Project Gutenberg, Robert Louis Stevenson, The strange case of Dr. Jekyll and Mr. Hyde (ebook 43).",
+        "url": "https://www.gutenberg.org/ebooks/43"
+      }
+    ],
+    "rejectedClaims": [
+      "That Jekyll and Hyde was written in a particular room or year: not claimed beyond the biography.",
+      "The novella's violent episodes and chapter titles naming them: not described.",
+      "Graves and memorials in Bournemouth: not mentioned.",
+      "Poole figures: left for the Poole page.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
