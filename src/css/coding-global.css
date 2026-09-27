@@ -1214,3 +1214,4 @@
 .cg-root.cg-hwy  { --cg-accent: #8A1582; --cg-accent-soft: rgba(138,21,130,.10); }   /* High Wycombe: a beech-stain magenta from the solver (6.74:1 on the darkest paper tint) */
 .cg-root.cg-bnl  { --cg-accent: #7E308A; --cg-accent-soft: rgba(126,48,138,.10); }   /* Bracknell: a storm-cloud violet from the solver (6.32:1 on the darkest paper tint) */
 .cg-root.cg-gfd  { --cg-accent: #6C308A; --cg-accent-soft: rgba(108,48,138,.10); }   /* Guildford: a looking-glass violet from the solver (6.97:1 on the darkest paper tint) */
+.cg-root.cg-wok  { --cg-accent: #4C3022; --cg-accent-soft: rgba(76,48,34,.10); }   /* Woking: a Martian iron-oxide brown (9.65:1 on the darkest paper tint) */

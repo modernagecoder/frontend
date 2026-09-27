@@ -27957,5 +27957,53 @@
       "Distances and travel times: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-woking": {
+    "market": "Woking",
+    "bodyClass": "cg-wok",
+    "pageType": "city",
+    "curriculumAuthority": "Woking (E07000217). Nomis Census 2021 TS007A: total 103,944; 5 to 9 6,745 (6.5%, England 5.9%); 10 to 14 6,787 (6.5%, 6.0%); 20 to 24 4,890 (4.7%, 6.0%); 35 to 39 7,883 (7.6%, 6.7%); 40 to 44 8,179 (7.9%, 6.3%); 85+ 2,684 (2.6%, 2.4%). ONS 2021 BUA Woking 75,660. Project Gutenberg 36, H. G. Wells, The war of the worlds: \"a mean distance of 140,000,000 miles\"; \"barely half of that received by this world\"; \"scarcely one seventh of the volume of the earth\"; chapter \"ON HORSELL COMMON\"; \"between Horsell, Ottershaw, and Woking\"; \"my home in Maybury\". NASA JPL SSD Table 1 (1800 to 2050 AD): Mars a 1.52371034 au, e 0.09339410; EM Bary a 1.00000261 au. JPL physical parameters: mean radius Earth 6371.0084 km, Mars 3389.50 km.",
+    "localProject": "Power-law scaling: sunlight ratio (1.00000261/1.52371034)^2 = 0.4307 (linear slip 0.656); perihelion 1.3814 au 0.524, aphelion 1.6660 au 0.360, swing 1.45x (linear 1.21x); radius ratio 0.532, volume 0.1506 = 1/6.64 (square slip 0.283); 141.6 million miles via IAU au. Lesson family: inverse square vs cube scaling.",
+    "requiredMentions": [
+      "75,660",
+      "H. G. Wells",
+      "War of the Worlds",
+      "Horsell Common",
+      "inverse square",
+      "Maybury",
+      "one seventh",
+      "Jet Propulsion Laboratory",
+      "Ottershaw"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Woking and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, H. G. Wells, The War of the Worlds (ebook 36).",
+        "url": "https://www.gutenberg.org/ebooks/36"
+      },
+      {
+        "claim": "NASA JPL Solar System Dynamics, approximate positions of the planets, Table 1.",
+        "url": "https://ssd.jpl.nasa.gov/planets/approx_pos.html"
+      },
+      {
+        "claim": "NASA JPL Solar System Dynamics, planetary physical parameters.",
+        "url": "https://ssd.jpl.nasa.gov/planets/phys_par.html"
+      }
+    ],
+    "rejectedClaims": [
+      "Where Wells lived in Woking: not claimed; the local heritage page returned a bot check and was not bypassed.",
+      "The novel's violence: not described.",
+      "Byfleet, West Byfleet and Chobham built-up areas: cross the boundary, not quoted.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }
