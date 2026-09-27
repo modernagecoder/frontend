@@ -1262,3 +1262,4 @@
 .cg-root.cg-hud  { --cg-accent: #12277A; --cg-accent-soft: rgba(18,39,122,.10); }   /* Huddersfield: a deep mill-town blue (10.6:1 on the darkest paper tint) */
 .cg-root.cg-pol  { --cg-accent: #63306B; --cg-accent-soft: rgba(99,48,107,.10); }   /* Poole: a heathland heather purple (7.81:1 on the darkest paper tint) */
 .cg-root.cg-stk  { --cg-accent: #53175C; --cg-accent-soft: rgba(83,23,92,.10); }   /* Stockport: a felt-hat plum (10.29:1 on the darkest paper tint) */
+.cg-root.cg-bsn  { --cg-accent: #5F127A; --cg-accent-soft: rgba(95,18,122,.10); }   /* Basildon: a new-town violet (9.13:1 on the darkest paper tint) */

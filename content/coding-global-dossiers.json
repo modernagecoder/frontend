@@ -28861,5 +28861,45 @@
       "Distances and travel times: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-basildon": {
+    "market": "Basildon",
+    "bodyClass": "cg-bsn",
+    "pageType": "city",
+    "curriculumAuthority": "Basildon (E07000066). Nomis Census 2021 TS007A: total 187,571; under 5 12,196 (6.5%, England 5.4%); 5 to 9 12,480 (6.7%, 5.9%); 20 to 24 9,639 (5.1%, 6.0%); 30 to 34 13,991 (7.5%, 7.0%); 65 to 69 8,365 (4.5%, 4.9%); 75 to 79 6,154 (3.3%, 3.6%). ONS 2021 BUAs: Basildon 115,955; Billericay 34,075; Wickford 27,535. Nomis Census 2021 TS001 by output area (NM_2021_1, TYPE150): 584 output areas, 105 to 712 residents, median 314.5, 241 distinct values; the 584 add to 187,542 (published total 187,571 quoted instead).",
+    "localProject": "Quicksort (three-way partition) on 584 output-area counts: file order first pivot 4,520 comparisons depth 15; median of three 4,154 depth 13; sorted first pivot 68,341 depth 240; sorted median of three 3,773 depth 9; sorted random mean 4,914; reverse first 72,985. n log2 n about 5,367; n squared over 2 = 170,528. Lesson family: quicksort pivots, worst case, recursion depth, duplicates.",
+    "requiredMentions": [
+      "115,955",
+      "187,571",
+      "Billericay",
+      "Wickford",
+      "quicksort",
+      "median of three",
+      "output area",
+      "68,341",
+      "pivot"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Basildon and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "Nomis Census 2021 TS001 usual residents by output area, Basildon.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "New town history and designation date: not read from a primary source; not claimed.",
+      "Why the output-area counts do not add to the published total: not explained; the published total is quoted.",
+      "Runwell built-up area: crosses the boundary, not quoted.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }
