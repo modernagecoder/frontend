@@ -29210,5 +29210,48 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-gillingham": {
+    "market": "Gillingham",
+    "bodyClass": "cg-gil",
+    "pageType": "city",
+    "curriculumAuthority": "Medway (E06000035). Nomis Census 2021 TS007A: total 279,776; 0 to 4 17,308 (6.2%, England 5.4%); 5 to 9 18,336 (6.6%, 5.9%); 30 to 34 20,368 (7.3%, 7.0%); 75 to 79 8,934 (3.2%, 3.6%); 80 to 84 6,025 (2.2%, 2.5%); 85 and over 5,163 (1.8%, 2.4%). ONS 2021 BUAs: Gillingham (Medway) 108,480; Chatham 76,955; Rochester 67,285; Hoo St Werburgh 8,760; Cuxton 3,040. Project Gutenberg 46803, Diary of Richard Cocks vol. 1, ed. Edward Maunde Thompson: William Adams \"a Kentish man, born in a town called Gillingham, two English miles from Rochester, one mile from Chatham where the king's ships do lie\"; \"learned him some points of geometry\"; anchored in Bungo \"on the 19th of April, 1600\". OS Open Names via postcodes.io: Gillingham 51.369207, 0.578556; Rochester 51.389791, 0.503628; Chatham 51.384905, 0.525525.",
+    "localProject": "Geodesic WGS84: GR 5,697 m (3.54 mi), GC 4,085 m (2.54 mi), CR 1,618 m (1.01 mi); GC + CR - GR = 6 m (collinear, Chatham between). Ratio GR/GC 1.39 vs Adams 2.0; implied Adams mile 2.85 km vs 4.08 km (no single unit); shortfalls 1.54 and 1.54 mi (constant offset). Lesson family: systematic error diagnosis, scale vs offset, ratio vs difference test, collinearity check.",
+    "requiredMentions": [
+      "279,776",
+      "108,480",
+      "Hoo St Werburgh",
+      "Cuxton",
+      "William Adams",
+      "Richard Cocks",
+      "Kentish man",
+      "systematic error"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Medway and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Diary of Richard Cocks, Volume 1, ed. Edward Maunde Thompson (ebook 46803).",
+        "url": "https://www.gutenberg.org/ebooks/46803"
+      },
+      {
+        "claim": "OS Open Names place points for Gillingham, Rochester and Chatham, via postcodes.io.",
+        "url": "https://postcodes.io/"
+      }
+    ],
+    "rejectedClaims": [
+      "Where Gillingham's centre stood in 1611: not established; the page says only what the offset implies.",
+      "The length of an \"English mile\" in 1611: not claimed; the test shows no single unit fits.",
+      "The date of Adams's letter: October 1611, as stated in the editor's introduction (\"written in October, 1611\").",
+      "Chatham Dockyard history: not read from a source; only Adams's phrase is quoted.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
