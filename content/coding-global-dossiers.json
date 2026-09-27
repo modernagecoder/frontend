@@ -28781,5 +28781,45 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-poole": {
+    "market": "Poole",
+    "bodyClass": "cg-pol",
+    "pageType": "city",
+    "curriculumAuthority": "Bournemouth, Christchurch and Poole (E06000058). Nomis Census 2021 TS007A: total 400,198; under 5 18,878 (4.7%, England 5.4%); 10 to 14 21,342 (5.3%, 6.0%); 15 to 19 22,257 (5.6%, 5.7%); 55 to 59 26,526 (6.6%, 6.7%); 65 to 69 20,818 (5.2%, 4.9%); 80 to 84 12,204 (3.0%, 2.5%). ONS 2021 BUAs: Poole 141,005; Bearwood 4,135. Project Gutenberg 65993, Baden-Powell, Scouting for Boys: \"Brownsea Island, near Poole\"; lent by \"the late Mr. Charles Van Raalte\"; \"divided up into Patrols of five, the senior boy in each being Patrol Leader\"; \"one patrol went on duty as night picket\".",
+    "localProject": "Number partitioning on an INVENTED camp: 15 scores total 174 (58 each); list order 81/59/34 (gap 47); snake draft 59/58/57 (2); greedy strongest first 59/57/58 (2); greedy weakest first 53/58/63 (10); exhaustive 126,126 splits, perfect 58/58/58, 342 perfect; 20 scouts in 4 patrols 488,864,376 splits. Lesson family: number partitioning, greedy order dependence, combinatorial explosion.",
+    "requiredMentions": [
+      "141,005",
+      "Bearwood",
+      "Brownsea Island",
+      "Baden-Powell",
+      "Scouting for Boys",
+      "Charles Van Raalte",
+      "number partitioning",
+      "126,126",
+      "snake draft"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Bournemouth, Christchurch and Poole and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Robert Baden-Powell, Scouting for Boys (ebook 65993).",
+        "url": "https://www.gutenberg.org/ebooks/65993"
+      }
+    ],
+    "rejectedClaims": [
+      "The camp's year and the number of boys: not stated in the passage read; not claimed.",
+      "Harbour size rankings and ownership of Brownsea Island today: not claimed.",
+      "The book's remarks about social class: not repeated.",
+      "Marconi and Morse at Poole: Cornwall already uses them; not used.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

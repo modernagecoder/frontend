@@ -390,7 +390,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 338 | best-coding-and-ai-classes-in-ipswich (ips, #8A2237) | cg- town page | 2,465 | 2.6% vs ai-and-programming-classes-in-guildford | Pickwick concordance | concordance keyword in context | c0e29258 |
 | 339 | online-coding-and-python-classes-in-blackpool (bpl, #4E308A) | cg- town page | 2,525 | 1.8% vs online-coding-and-python-classes-in-crawley | Tower angle of elevation | trigonometry sensitivity optimum distance | 4383530b |
 | 340 | ai-and-programming-classes-in-middlesbrough (mbr, #6B1028) | cg- town page | 2,474 | 2.3% vs ai-and-programming-classes-in-stevenage | Cook's Marton disambiguation | gazetteer disambiguation context scoring refusal | d826ae5d |
-| 341 | best-coding-and-ai-classes-in-huddersfield (hud, #12277A) | cg- town page | 2,581 | 2.5% vs online-coding-and-python-classes-in-crawley | River Colne sensor anomalies | anomaly detection rules false alarms | (this commit) |
+| 341 | best-coding-and-ai-classes-in-huddersfield (hud, #12277A) | cg- town page | 2,581 | 2.5% vs online-coding-and-python-classes-in-crawley | River Colne sensor anomalies | anomaly detection rules false alarms | 7acb030f |
+| 342 | online-coding-and-python-classes-in-poole (pol, #63306B) | cg- town page | 2,609 | 1.8% vs best-coding-and-ai-classes-in-watford | Brownsea patrol splitting | number partitioning greedy order dependence | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
