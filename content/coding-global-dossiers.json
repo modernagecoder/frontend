@@ -28045,5 +28045,45 @@
       "Distances and travel times: not claimed.",
       "Sterling prices for our lessons: none; historic shillings appear only as Crompton's yarn prices."
     ]
+  },
+  "ai-and-programming-classes-in-blackburn": {
+    "market": "Blackburn",
+    "bodyClass": "cg-bkb",
+    "pageType": "city",
+    "curriculumAuthority": "Blackburn with Darwen (E06000008). Nomis Census 2021 TS007A: total 154,738; 5 to 9 11,162 (7.2%, England 5.9%); 10 to 14 11,733 (7.6%, 6.0%); 15 to 19 10,857 (7.0%, 5.7%); 55 to 59 9,360 (6.0%, 6.7%); 75 to 79 4,086 (2.6%, 3.6%); 85+ 2,586 (1.7%, 2.4%). ONS 2021 BUAs: Blackburn 124,955 (crosses the boundary slightly), Darwen 27,900. Project Gutenberg 70140, George W. Daniels, The early English cotton industry: founder of the Peel family at Blackburn \"employed James Hargreaves\"; first Robert Peel at \"Peel Fold near Blackburn\"; jenny eight spindles 1767, \"sixteen or more\" 1770, eighty 1784, \"as many as one hundred and twenty\"; 1788 pamphlet \"550 mule machines of ninety spindles each, and 20,070 hand-jennies of eighty spindles\" (Aikin, Manchester, p. 179).",
+    "localProject": "Interval arithmetic: jenny spindles 1,605,600 at 80 each; 321,120 to 2,408,400 at 16 to 120; mule spindles 49,500; mule share 3.0% point, 2.0% to 13.4% range; midpoint 68 slip 3.5%; dependency with mule count +/-10%: naive 2.68% to 3.30%, tight 2.70% to 3.28%. Lesson family: interval arithmetic, dependency problem.",
+    "requiredMentions": [
+      "124,955",
+      "27,900",
+      "James Hargreaves",
+      "spinning-jenny",
+      "Peel family",
+      "interval arithmetic",
+      "20,070",
+      "hand-jennies",
+      "dependency problem"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Blackburn with Darwen and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, George W. Daniels, The early English cotton industry (ebook 70140).",
+        "url": "https://www.gutenberg.org/ebooks/70140"
+      }
+    ],
+    "rejectedClaims": [
+      "Where Hargreaves lived: not claimed; the book links him to the Peel family at Blackburn only.",
+      "The attack on machinery at Peel Fold: not described.",
+      "Children working jennies: not repeated.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }

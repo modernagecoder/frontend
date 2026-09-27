@@ -1216,3 +1216,4 @@
 .cg-root.cg-gfd  { --cg-accent: #6C308A; --cg-accent-soft: rgba(108,48,138,.10); }   /* Guildford: a looking-glass violet from the solver (6.97:1 on the darkest paper tint) */
 .cg-root.cg-wok  { --cg-accent: #4C3022; --cg-accent-soft: rgba(76,48,34,.10); }   /* Woking: a Martian iron-oxide brown (9.65:1 on the darkest paper tint) */
 .cg-root.cg-bol  { --cg-accent: #6B255D; --cg-accent-soft: rgba(107,37,93,.10); }   /* Bolton: a madder-dyed cotton plum (8.26:1 on the darkest paper tint) */
+.cg-root.cg-bkb  { --cg-accent: #46256B; --cg-accent-soft: rgba(70,37,107,.10); }   /* Blackburn: an indigo-dye violet from the cotton trade (9.74:1 on the darkest paper tint) */
