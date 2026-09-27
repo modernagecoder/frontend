@@ -378,7 +378,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 326 | best-coding-and-ai-classes-in-loughborough (lgh, #3F1B4C) | cg- town page | 2,467 | 2.3% vs ai-and-programming-classes-in-guildford | Soar high-flow episode counts | peaks over threshold declustering debounce | 949c8e56 |
 | 327 | online-coding-and-python-classes-in-rugby (rgb, #53158A) | cg- town page | 2,460 | 1.7% vs best-coding-and-ai-classes-in-woking | Tom Brown dialogue parser | finite state machine parsing | 073817f9 |
 | 328 | ai-and-programming-classes-in-swindon (swn, #5C2D0E) | cg- town page | 2,472 | 1.6% vs ai-and-programming-classes-in-maidenhead | 1914 railway wage ranks | ranking with ties dense competition fractional | 834a4702 |
-| 329 | best-coding-and-ai-classes-in-northampton (nhp, #56325C) | cg- town page | 2,509 | 1.6% vs best-coding-and-ai-classes-in-watford | Nene reservoir sizing | sequent peak storage-yield critical period | (this commit) |
+| 329 | best-coding-and-ai-classes-in-northampton (nhp, #56325C) | cg- town page | 2,509 | 1.6% vs best-coding-and-ai-classes-in-watford | Nene reservoir sizing | sequent peak storage-yield critical period | 4b31b9fa |
+| 330 | online-coding-and-python-classes-in-bedford (bdd, #73127A) | cg- town page | 2,577 | 1.4% vs best-coding-and-ai-classes-in-northampton | Great Ouse double mass curve | double mass curve consistency check | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

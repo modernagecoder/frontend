@@ -15554,6 +15554,18 @@
   to = "/src/pages/best-coding-and-ai-classes-in-northampton.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-bedford"
+  to = "/src/pages/online-coding-and-python-classes-in-bedford.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-bedford.md"
+  to = "/src/pages/online-coding-and-python-classes-in-bedford.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

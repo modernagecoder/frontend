@@ -28253,5 +28253,49 @@
       "Distances and travel times: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-bedford": {
+    "market": "Bedford",
+    "bodyClass": "cg-bdd",
+    "pageType": "city",
+    "curriculumAuthority": "Bedford (E06000055). Nomis Census 2021 TS007A: total 185,231; under 5 11,163 (6.0%, England 5.4%); 5 to 9 11,742 (6.3%, 5.9%); 10 to 14 11,975 (6.5%, 6.0%); 20 to 24 9,999 (5.4%, 6.0%); 40 to 44 12,954 (7.0%, 6.3%); 70 to 74 8,337 (4.5%, 5.0%). ONS 2021 BUAs: Bedford 97,235; Kempston 22,785; Wootton 7,565; Shortstown 4,840; Bromham 4,650; Great Denham 4,360. EA Hydrology daily mean flow, Roxton (postcodes.io MK44 3EN, Bedford, Roxton parish) and Newport Pagnell Total. NRFA 33039 Roxton: 1660.0 km2, mean 11.828, \"Flat V Crump profile weir (26m broad)\", \"immediately u/s of confluence with R. Ivel\". NRFA 33037 Newport Pagnell Total: 800.0 km2, mean 4.956, \"Compound site of main weir and mill weir\".",
+    "localProject": "Double mass curve: 27 paired water years 1984 to 2023 (360+ days at both); running totals 290.0 and 142.7; slope 2.036; ratio of totals 2.032; area ratio 2.075; single-year ratio 1.718 (2020) to 3.068 (2002); best break 2002, slopes 2.055 then 1.986. Lesson family: double mass curve, consistency checking.",
+    "requiredMentions": [
+      "97,235",
+      "Kempston",
+      "Wootton",
+      "Great Denham",
+      "Roxton",
+      "Newport Pagnell",
+      "double mass",
+      "185,231",
+      "Ivel"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Bedford and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Environment Agency hydrology data, Roxton and Newport Pagnell Total daily mean flows.",
+        "url": "https://environment.data.gov.uk/hydrology/"
+      },
+      {
+        "claim": "National River Flow Archive, stations 33039 and 33037.",
+        "url": "https://nrfa.ceh.ac.uk/data/station/info/33039"
+      }
+    ],
+    "rejectedClaims": [
+      "High-flow peaks and flood events: not discussed; Roxton high flows are flagged Suspect.",
+      "That the 2002 bend is a gauge fault: not claimed; reported as a small change worth a question.",
+      "Wixams built-up area: crosses the boundary, not quoted.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }
