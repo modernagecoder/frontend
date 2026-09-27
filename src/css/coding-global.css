@@ -1264,3 +1264,4 @@
 .cg-root.cg-stk  { --cg-accent: #53175C; --cg-accent-soft: rgba(83,23,92,.10); }   /* Stockport: a felt-hat plum (10.29:1 on the darkest paper tint) */
 .cg-root.cg-bsn  { --cg-accent: #5F127A; --cg-accent-soft: rgba(95,18,122,.10); }   /* Basildon: a new-town violet (9.13:1 on the darkest paper tint) */
 .cg-root.cg-gat  { --cg-accent: #5F377A; --cg-accent-soft: rgba(95,55,122,.10); }   /* Gateshead: a night-sky violet (7.31:1 on the darkest paper tint) */
+.cg-root.cg-roc  { --cg-accent: #29555C; --cg-accent-soft: rgba(41,85,92,.10); }   /* Rochdale: a canal-water teal (6.64:1 on the darkest paper tint) */

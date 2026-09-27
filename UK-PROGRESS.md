@@ -396,7 +396,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 344 | best-coding-and-ai-classes-in-basildon (bsn, #5F127A) | cg- town page | 2,501 | 1.7% vs best-coding-and-ai-classes-in-hemel-hempstead | census quicksort | quicksort pivot worst case duplicates | 1a4c2dff |
 | 345 | online-coding-and-python-classes-in-cheltenham (chl, #5C1C17) | cg- town page | 2,538 | 1.7% vs best-coding-and-ai-classes-in-hemel-hempstead | Dorothea Beale collocations | collocation PMI thresholds tokenisation | 90e05841 |
 | 346 | ai-and-programming-classes-in-gateshead (gat, #5F377A) | cg- town page | 2,516 | 2.3% vs ai-and-programming-classes-in-basingstoke | Newall telescope focal ratio | focal ratio derived feature units | ba3dbdd5 |
-| 347 | best-coding-and-ai-classes-in-worthing (wor, #4C281B) | cg- town page | 2,675 | 2.3% vs online-coding-and-python-classes-in-bolton | who answers whom in a conversation? | successor count table from a play script (turn-taking transition matrix) | (this commit) |
+| 347 | best-coding-and-ai-classes-in-worthing (wor, #4C281B) | cg- town page | 2,675 | 2.3% vs online-coding-and-python-classes-in-bolton | who answers whom in a conversation? | successor count table from a play script (turn-taking transition matrix) | 296caf2a |
+| 348 | online-coding-and-python-classes-in-rochdale (roc, #29555C) | cg- town page | 2,648 | 1.7% vs online-coding-and-python-classes-in-bolton | how hard is a canal to climb? | number words to integers + locks per mile rate (flight vs canal) | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

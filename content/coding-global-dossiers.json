@@ -29030,5 +29030,46 @@
       "Talk-time rankings by word count: tokenisation-dependent; only the stage-direction total is given, with its rule stated.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-rochdale": {
+    "market": "Rochdale",
+    "bodyClass": "cg-roc",
+    "pageType": "city",
+    "curriculumAuthority": "Rochdale (E08000005). Nomis Census 2021 TS007A: total 223,773; 0 to 4 14,639 (6.5%, England 5.4%); 5 to 9 15,475 (6.9%, 5.9%); 10 to 14 15,728 (7.0%, 6.0%); 15 to 19 13,457 (6.0%, 5.7%); 80 to 84 4,591 (2.1%, 2.5%); 85 and over 4,105 (1.8%, 2.4%). ONS 2021 BUAs: Rochdale 111,255; Middleton 46,630; Heywood 29,725; Littleborough 12,160; Milnrow 9,235. Project Gutenberg 47435, Edwin A. Pratt, British Canals: \"between Manchester and Sowerby Bridge, on the Rochdale Canal, there are ninety-two locks in 32 miles, to enable the boats to pass over an elevation 600 feet above sea level\"; Huddersfield Narrow \"seventy-four locks in 20 miles\"; Worcester to Tardebigge 16 miles, \"fifty-eight locks\"; Grand Junction \"ninety in 100 miles\"; Birmingham to Aldersley \"forty-three in 17 miles\"; \"one lock for every 1-1/4 mile\"; Hamburg to Berlin \"230 miles ... only three locks\"; Devizes \"twenty-nine locks in a distance of 2-1/2 miles\", \"239 feet\"; Tardebigge \"about 250 feet\", \"thirty locks\"; Bingley \"59 feet 2 inches\", five locks.",
+    "localProject": "Digit-only pattern: 0 matches; words-to-number + strict pattern: 15 matches. Locks per mile: Huddersfield Narrow 3.70, Worcester to Tardebigge 3.63, Rochdale 2.88, Birmingham to Aldersley 2.53, Grand Junction 0.90, British average 0.80 (inverse of 1.25), Hamburg to Berlin 0.013; flights Devizes 11.6, Tardebigge about 10. Lift per lock: Devizes 8.2 ft, Tardebigge 8.3 ft, Bingley 11 ft 10 in; Rochdale not computable (summit height). Lesson family: number words to integers, mixed numbers, pattern recall, inverse rate, locks per mile, flight vs canal granularity.",
+    "requiredMentions": [
+      "223,773",
+      "111,255",
+      "Middleton",
+      "Heywood",
+      "Littleborough",
+      "Sowerby Bridge",
+      "Edwin A. Pratt",
+      "locks per mile",
+      "Huddersfield Narrow",
+      "Tardebigge"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Rochdale and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Edwin A. Pratt, British Canals: Is their resuscitation practicable? (ebook 47435).",
+        "url": "https://www.gutenberg.org/ebooks/47435"
+      }
+    ],
+    "rejectedClaims": [
+      "The canal route through the town, today's lock count or restoration history: not read from a source; not claimed.",
+      "The Rochdale Pioneers and co-operative history: no readable source found (Holyoake's history is not on Project Gutenberg); not claimed.",
+      "Canal share prices of 1824 in Pratt: money figures, not used.",
+      "Travel-time estimates per lock: extrapolation family already used elsewhere; not included.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
