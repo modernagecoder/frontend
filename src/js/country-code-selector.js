@@ -6,7 +6,11 @@
  * the surrounding form is light or dark and adapts colors accordingly so the
  * widget never feels glued on top of an existing design.
  *
- * Default selection: India (+91).
+ * Default selection: the visitor's own country from their device timezone,
+ * else the page's country (<meta name="mac-lead-country">), else India. See
+ * "starting country" below.
+ *
+ * Also guards every form at submit time; see "at submit time" below.
  *
  * Public API:
  *   window.MACCountryCode.read(input)  → { dial, iso, name, digits, fullPhone }
@@ -263,6 +267,27 @@
   var DEFAULT_ISO = 'IN';
   var DEFAULT_DIAL = '+91';
 
+  // Where the visitor's device clock says they are, as a country. Built from
+  // IANA zone.tab (plus the legacy names browsers still report, such as
+  // Chrome's Asia/Calcutta) by region: 'City:ISO City:ISO ...'.
+  // Regenerate from the tzdata package if a new zone ever appears; a missing
+  // zone only means no guess, never a wrong one.
+  var TZ_COUNTRY = {
+    "Africa": 'Abidjan:CI Accra:GH Addis_Ababa:ET Algiers:DZ Asmara:ER Bamako:ML Bangui:CF Banjul:GM Bissau:GW Blantyre:MW Brazzaville:CG Bujumbura:BI Cairo:EG Casablanca:MA Ceuta:ES Conakry:GN Dakar:SN Dar_es_Salaam:TZ Djibouti:DJ Douala:CM El_Aaiun:EH Freetown:SL Gaborone:BW Harare:ZW Johannesburg:ZA Juba:SS Kampala:UG Khartoum:SD Kigali:RW Kinshasa:CD Lagos:NG Libreville:GA Lome:TG Luanda:AO Lubumbashi:CD Lusaka:ZM Malabo:GQ Maputo:MZ Maseru:LS Mbabane:SZ Mogadishu:SO Monrovia:LR Nairobi:KE Ndjamena:TD Niamey:NE Nouakchott:MR Ouagadougou:BF Porto-Novo:BJ Sao_Tome:ST Tripoli:LY Tunis:TN Windhoek:NA',
+    "America": 'Adak:US Anchorage:US Anguilla:AI Antigua:AG Araguaina:BR Argentina/Buenos_Aires:AR Argentina/Catamarca:AR Argentina/ComodRivadavia:AR Argentina/Cordoba:AR Argentina/Jujuy:AR Argentina/La_Rioja:AR Argentina/Mendoza:AR Argentina/Rio_Gallegos:AR Argentina/Salta:AR Argentina/San_Juan:AR Argentina/San_Luis:AR Argentina/Tucuman:AR Argentina/Ushuaia:AR Aruba:AW Asuncion:PY Atikokan:CA Atka:US Bahia:BR Bahia_Banderas:MX Barbados:BB Belem:BR Belize:BZ Blanc-Sablon:CA Boa_Vista:BR Bogota:CO Boise:US Buenos_Aires:AR Cambridge_Bay:CA Campo_Grande:BR Cancun:MX Caracas:VE Catamarca:AR Cayenne:GF Cayman:KY Chicago:US Chihuahua:MX Ciudad_Juarez:MX Cordoba:AR Costa_Rica:CR Coyhaique:CL Creston:CA Cuiaba:BR Curacao:CW Danmarkshavn:GL Dawson:CA Dawson_Creek:CA Denver:US Detroit:US Dominica:DM Edmonton:CA Eirunepe:BR El_Salvador:SV Ensenada:MX Fort_Nelson:CA Fort_Wayne:US Fortaleza:BR Glace_Bay:CA Godthab:GL Goose_Bay:CA Grand_Turk:TC Grenada:GD Guadeloupe:GP Guatemala:GT Guayaquil:EC Guyana:GY Halifax:CA Havana:CU Hermosillo:MX Indiana/Indianapolis:US Indiana/Knox:US Indiana/Marengo:US Indiana/Petersburg:US Indiana/Tell_City:US Indiana/Vevay:US Indiana/Vincennes:US Indiana/Winamac:US Indianapolis:US Inuvik:CA Iqaluit:CA Jamaica:JM Jujuy:AR Juneau:US Kentucky/Louisville:US Kentucky/Monticello:US Knox_IN:US Kralendijk:BQ La_Paz:BO Lima:PE Los_Angeles:US Louisville:US Lower_Princes:SX Maceio:BR Managua:NI Manaus:BR Marigot:MF Martinique:MQ Matamoros:MX Mazatlan:MX Mendoza:AR Menominee:US Merida:MX Metlakatla:US Mexico_City:MX Miquelon:PM Moncton:CA Monterrey:MX Montevideo:UY Montserrat:MS Nassau:BS New_York:US Nome:US Noronha:BR North_Dakota/Beulah:US North_Dakota/Center:US North_Dakota/New_Salem:US Nuuk:GL Ojinaga:MX Panama:PA Pangnirtung:CA Paramaribo:SR Phoenix:US Port-au-Prince:HT Port_of_Spain:TT Porto_Acre:BR Porto_Velho:BR Puerto_Rico:PR Punta_Arenas:CL Rainy_River:CA Rankin_Inlet:CA Recife:BR Regina:CA Resolute:CA Rio_Branco:BR Rosario:AR Santa_Isabel:MX Santarem:BR Santiago:CL Santo_Domingo:DO Sao_Paulo:BR Scoresbysund:GL Shiprock:US Sitka:US St_Barthelemy:BL St_Johns:CA St_Kitts:KN St_Lucia:LC St_Thomas:VI St_Vincent:VC Swift_Current:CA Tegucigalpa:HN Thule:GL Tijuana:MX Toronto:CA Tortola:VG Vancouver:CA Whitehorse:CA Winnipeg:CA Yakutat:US Yellowknife:CA',
+    "Asia": 'Aden:YE Almaty:KZ Amman:JO Anadyr:RU Aqtau:KZ Aqtobe:KZ Ashgabat:TM Ashkhabad:TM Atyrau:KZ Baghdad:IQ Bahrain:BH Baku:AZ Bangkok:TH Barnaul:RU Beirut:LB Bishkek:KG Brunei:BN Calcutta:IN Chita:RU Choibalsan:MN Chongqing:CN Chungking:CN Colombo:LK Dacca:BD Damascus:SY Dhaka:BD Dili:TL Dubai:AE Dushanbe:TJ Famagusta:CY Gaza:PS Harbin:CN Hebron:PS Ho_Chi_Minh:VN Hong_Kong:HK Hovd:MN Irkutsk:RU Istanbul:TR Jakarta:ID Jayapura:ID Jerusalem:IL Kabul:AF Kamchatka:RU Karachi:PK Kashgar:CN Kathmandu:NP Katmandu:NP Khandyga:RU Kolkata:IN Krasnoyarsk:RU Kuala_Lumpur:MY Kuching:MY Kuwait:KW Macao:MO Macau:MO Magadan:RU Makassar:ID Manila:PH Muscat:OM Nicosia:CY Novokuznetsk:RU Novosibirsk:RU Omsk:RU Oral:KZ Phnom_Penh:KH Pontianak:ID Pyongyang:KP Qatar:QA Qostanay:KZ Qyzylorda:KZ Riyadh:SA Saigon:VN Sakhalin:RU Samarkand:UZ Seoul:KR Shanghai:CN Singapore:SG Srednekolymsk:RU Taipei:TW Tashkent:UZ Tbilisi:GE Tehran:IR Tel_Aviv:IL Thimbu:BT Thimphu:BT Tokyo:JP Tomsk:RU Ujung_Pandang:ID Ulaanbaatar:MN Ulan_Bator:MN Urumqi:CN Ust-Nera:RU Vientiane:LA Vladivostok:RU Yakutsk:RU Yangon:MM Yekaterinburg:RU Yerevan:AM',
+    "Atlantic": 'Azores:PT Bermuda:BM Canary:ES Cape_Verde:CV Faeroe:FO Faroe:FO Madeira:PT Reykjavik:IS South_Georgia:GS St_Helena:SH Stanley:FK',
+    "Australia": 'ACT:AU Adelaide:AU Brisbane:AU Broken_Hill:AU Canberra:AU Currie:AU Darwin:AU Eucla:AU Hobart:AU LHI:AU Lindeman:AU Lord_Howe:AU Melbourne:AU NSW:AU North:AU Perth:AU Queensland:AU South:AU Sydney:AU Tasmania:AU Victoria:AU West:AU Yancowinna:AU',
+    "Brazil": 'Acre:BR DeNoronha:BR East:BR West:BR',
+    "Canada": 'Atlantic:CA Central:CA Mountain:CA Newfoundland:CA Pacific:CA Saskatchewan:CA Yukon:CA',
+    "Chile": 'Continental:CL EasterIsland:CL',
+    "Europe": 'Amsterdam:NL Andorra:AD Astrakhan:RU Athens:GR Belgrade:RS Berlin:DE Bratislava:SK Brussels:BE Bucharest:RO Budapest:HU Busingen:DE Chisinau:MD Copenhagen:DK Dublin:IE Gibraltar:GI Guernsey:GG Helsinki:FI Isle_of_Man:IM Istanbul:TR Jersey:JE Kaliningrad:RU Kiev:UA Kirov:RU Kyiv:UA Lisbon:PT Ljubljana:SI London:GB Luxembourg:LU Madrid:ES Malta:MT Mariehamn:AX Minsk:BY Monaco:MC Moscow:RU Nicosia:CY Oslo:NO Paris:FR Podgorica:ME Prague:CZ Riga:LV Rome:IT Samara:RU San_Marino:SM Sarajevo:BA Saratov:RU Simferopol:UA Skopje:MK Sofia:BG Stockholm:SE Tallinn:EE Tirane:AL Tiraspol:MD Ulyanovsk:RU Uzhgorod:UA Vaduz:LI Vatican:VA Vienna:AT Vilnius:LT Volgograd:RU Warsaw:PL Zagreb:HR Zaporozhye:UA Zurich:CH',
+    "Indian": 'Antananarivo:MG Chagos:IO Christmas:CX Cocos:CC Comoro:KM Kerguelen:TF Mahe:SC Maldives:MV Mauritius:MU Mayotte:YT Reunion:RE',
+    "Mexico": 'BajaNorte:MX BajaSur:MX General:MX',
+    "Pacific": 'Apia:WS Auckland:NZ Bougainville:PG Chatham:NZ Chuuk:FM Easter:CL Efate:VU Enderbury:KI Fakaofo:TK Fiji:FJ Funafuti:TV Galapagos:EC Gambier:PF Guadalcanal:SB Guam:GU Honolulu:US Johnston:US Kanton:KI Kiritimati:KI Kosrae:FM Kwajalein:MH Majuro:MH Marquesas:PF Midway:UM Nauru:NR Niue:NU Norfolk:NF Noumea:NC Pago_Pago:AS Palau:PW Pitcairn:PN Pohnpei:FM Port_Moresby:PG Rarotonga:CK Saipan:MP Tahiti:PF Tarawa:KI Tongatapu:TO Wake:UM Wallis:WF',
+    "US": 'Alaska:US Aleutian:US Central:US East-Indiana:US Eastern:US Hawaii:US Indiana-Starke:US Michigan:US Mountain:US Pacific:US'
+  };
+
   var STYLE_ID = 'mac-country-code-selector-styles';
   var PROCESSED_ATTR = 'data-country-injected';
 
@@ -278,6 +303,50 @@
       if (COUNTRIES[i].iso === iso) return COUNTRIES[i];
     }
     return null;
+  }
+
+  // ───────────────────── starting country ─────────────────────
+  //
+  // Which country the picker starts on. It used to be India for everyone, and
+  // the country landing pages did not load the picker at all: they sent their
+  // own country (+31 on a Dutch page) whoever was typing. A visitor in North
+  // Carolina reading the Netherlands page was filed as "+31 252 222 8345", a
+  // number nobody can ring (27 Sep 2026).
+  //
+  // Best evidence first:
+  //   1. the visitor's device timezone, which is where their phone most
+  //      likely is (an Indian parent reading the Dutch page stays on +91);
+  //   2. the country the page is about, <meta name="mac-lead-country">,
+  //      stamped at build time by scripts/inline-components.js;
+  //   3. India, the home market.
+  function timezoneCountry() {
+    try {
+      var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+      var slash = tz.indexOf('/');
+      if (slash < 1) return null;
+      var list = TZ_COUNTRY[tz.slice(0, slash)];
+      if (!list) return null;
+      var city = tz.slice(slash + 1);
+      var at = (' ' + list + ' ').indexOf(' ' + city + ':');
+      return at === -1 ? null : getCountryByIso(list.substr(at + city.length + 1, 2));
+    } catch (e) { return null; }
+  }
+
+  function pageCountry() {
+    var meta = document.querySelector('meta[name="mac-lead-country"]');
+    var iso = meta ? String(meta.getAttribute('content') || '').trim().toUpperCase() : '';
+    return iso ? getCountryByIso(iso) : null;
+  }
+
+  var startCache = null;
+  /** { country, source } - source is 'timezone', 'page' or 'default'. */
+  function startCountry() {
+    if (startCache) return startCache;
+    var tz = timezoneCountry();
+    if (tz) return (startCache = { country: tz, source: 'timezone' });
+    var page = pageCountry();
+    if (page) return (startCache = { country: page, source: 'page' });
+    return (startCache = { country: getCountryByIso(DEFAULT_ISO), source: 'default' });
   }
 
   // Multiple countries share dial codes (+1 = US/Canada/Caribbean, +7 = RU/KZ,
@@ -319,7 +388,13 @@
       // align-items:stretch makes the button match the input's height even
       // when the input has padding/borders defined by the host page.
       '.mac-cc-wrap{position:relative;display:flex;align-items:stretch;width:100%;gap:0;}',
-      '.mac-cc-wrap > input[type="tel"]{flex:1;min-width:0;border-top-left-radius:0!important;border-bottom-left-radius:0!important;border-left:0!important;}',
+      '.mac-cc-wrap:not(.mac-cc-narrow) > input[type="tel"]{flex:1;min-width:0;border-top-left-radius:0!important;border-bottom-left-radius:0!important;border-left:0!important;}',
+      // A column too narrow for button and number side by side (two fields to
+      // a row on a phone) stacks them, so the number box is never squeezed to
+      // a sliver. The input keeps the page's own border in this layout.
+      '.mac-cc-wrap.mac-cc-narrow{flex-direction:column;}',
+      '.mac-cc-wrap.mac-cc-narrow > .mac-cc-btn{min-width:0;min-height:38px;border-right:1px solid currentColor;border-bottom:0;border-radius:8px 8px 0 0;}',
+      '.mac-cc-wrap.mac-cc-narrow > input[type="tel"]{width:100%;min-width:0;border-top-left-radius:0!important;border-top-right-radius:0!important;}',
 
       // Trigger button, picks up surrounding border color via currentColor and
       // matches the input height via align-self:stretch + align-items:center.
@@ -858,7 +933,11 @@
     return { dial: dial, iso: iso, name: name };
   }
 
-  function applyCountry(input, btn, country, hidden) {
+  // source: how we know the country - 'picked' from the list, 'typed' as a
+  // +code, or the starting guess ('timezone', 'page', 'default'). Sent with the
+  // lead so the backend knows which countries a person actually confirmed.
+  function applyCountry(input, btn, country, hidden, source) {
+    if (source) input.dataset.countrySource = source;
     input.dataset.countryDial = country.dial;
     input.dataset.countryIso = country.iso;
     input.dataset.countryName = country.name;
@@ -903,6 +982,20 @@
     } catch (e) { /* noop */ }
   }
 
+  // Stack the button above the box when the column is too narrow for both.
+  // Width 0 means hidden (a closed modal): decide once it is shown.
+  var NARROW_PX = 210;
+  function watchWidth(wrap) {
+    function check() {
+      var w = wrap.clientWidth;
+      if (w > 0) wrap.classList.toggle('mac-cc-narrow', w < NARROW_PX);
+    }
+    check();
+    if (typeof ResizeObserver === 'function') {
+      try { new ResizeObserver(check).observe(wrap); } catch (e) { /* noop */ }
+    }
+  }
+
   function attachToInput(input) {
     if (shouldSkip(input)) return;
     input.setAttribute(PROCESSED_ATTR, '1');
@@ -922,8 +1015,30 @@
       }
     }
 
-    var country = getCountryByIso(DEFAULT_ISO);
+    var start = startCountry();
+    var country = start.country;
     var btn = buildButton(country);
+
+    // A placeholder that is nothing but a dial code ("+91") contradicts the
+    // picker as soon as it shows another country, and invites typing that
+    // code again. The picker now carries the code.
+    if (/^\s*\+\d{1,4}\s*$/.test(input.getAttribute('placeholder') || '')) {
+      input.setAttribute('placeholder', 'Phone number');
+    }
+
+    // Swapping the prefix for the button in place only works when the page
+    // lays that wrapper out as a row (the city pages' pill). The country
+    // landing pages put "+353" in a plain block, where the swap left the
+    // button on a line of its own above a borderless box, so there the old
+    // prefix is dropped and the standard wrapper used instead.
+    if (inlinePrefix) {
+      var parentDisplay = '';
+      try { parentDisplay = getComputedStyle(parent).display || ''; } catch (e) { /* noop */ }
+      if (!/flex|grid/.test(parentDisplay)) {
+        parent.removeChild(inlinePrefix);
+        inlinePrefix = null;
+      }
+    }
 
     if (inlinePrefix && parent.contains(inlinePrefix)) {
       parent.classList.add('mac-cc-inline');
@@ -934,10 +1049,11 @@
       parent.insertBefore(wrap, input);
       wrap.appendChild(btn);
       wrap.appendChild(input);
+      watchWidth(wrap);
     }
 
     var hidden = ensureHiddenSiblings(input);
-    applyCountry(input, btn, country, hidden);
+    applyCountry(input, btn, country, hidden, start.source);
 
     btn.addEventListener('click', function (e) {
       e.preventDefault();
@@ -946,7 +1062,7 @@
         btn: btn,
         iso: input.dataset.countryIso || DEFAULT_ISO,
         onPick: function (picked) {
-          applyCountry(input, btn, picked, hidden);
+          applyCountry(input, btn, picked, hidden, 'picked');
         }
       });
     });
@@ -970,7 +1086,7 @@
         ? allDigits.substring(dialDigits.length)
         : allDigits;
       if (input.dataset.countryIso !== detected.iso) {
-        applyCountry(input, btn, detected, hidden);
+        applyCountry(input, btn, detected, hidden, 'typed');
       }
       if (input.value !== localPart) {
         input.value = localPart;
@@ -1027,7 +1143,7 @@
         }
         iso = detected.iso;
         if (input.dataset.countryIso !== detected.iso) {
-          applyCountry(input, btn, detected, hidden);
+          applyCountry(input, btn, detected, hidden, 'typed');
         }
       } else {
         // (2) The current country's dial code typed in as well as picked.
@@ -1079,10 +1195,27 @@
     }
   }
 
+  // About five hundred city and country pages build their phone box as a plain
+  // text input with inputmode="tel" rather than type="tel", so the picker never
+  // attached to them and they had no way to say which country a number was
+  // from. They are promoted to type="tel" (same keyboard, same value) so every
+  // rule below applies to them too.
+  var PHONE_INPUT_SELECTOR = 'input[type="tel"], input[inputmode="tel"], input[autocomplete="tel"], input[autocomplete="tel-national"]';
+
+  function promoteToTel(input) {
+    var t = (input.getAttribute('type') || 'text').toLowerCase();
+    if (t === 'tel') return;
+    if (t !== 'text' && t !== 'number') return;
+    try { input.type = 'tel'; } catch (e) { /* very old browsers */ }
+  }
+
   function scan(root) {
     var node = root || document;
-    var inputs = node.querySelectorAll ? node.querySelectorAll('input[type="tel"]') : [];
-    for (var i = 0; i < inputs.length; i++) attachToInput(inputs[i]);
+    var inputs = node.querySelectorAll ? node.querySelectorAll(PHONE_INPUT_SELECTOR) : [];
+    for (var i = 0; i < inputs.length; i++) {
+      promoteToTel(inputs[i]);
+      attachToInput(inputs[i]);
+    }
   }
 
   // ───────────────────── fetch hook (legacy pages) ─────────────────────
@@ -1164,8 +1297,126 @@
     return null;
   }
 
-  // Watch every form on the page, when a form submits, stamp it as the
-  // "recent submitter" so the fetch hook can resolve back to its tel input.
+  // ───────────────────── at submit time ─────────────────────
+  //
+  // WHY THIS IS HERE AND NOT IN EACH PAGE
+  // Around 780 landing pages submit through their own inline script, written
+  // in more than a hundred variations, and most of them hard-code the page's
+  // country into the request: countryCode '+31' on a Dutch page whatever the
+  // visitor picked. Some also check the number against that country's length
+  // (the UK 11-plus pages want ten digits), which turned away an Irish parent
+  // before any request was made. Rewriting a hundred templates would drift the
+  // day a new one is added, so the fix lives here, around every form:
+  //
+  //   1. This listener runs in the CAPTURE phase on the document, so it sees
+  //      every submit before the page's own handler. It reads the number and
+  //      the country the visitor actually chose, and records them on the form.
+  //   2. A number that does not fit that country gets a clear message beside
+  //      the box instead of being sent. Pressing send again with the same
+  //      number sends it anyway: a number we do not understand is still a
+  //      parent worth ringing, and the backend flags it for a human.
+  //   3. The fetch hook below then writes the recorded country and number into
+  //      the request, over whatever the page hard-coded.
+
+  function digitsOf(v) { return String(v == null ? '' : v).replace(/\D/g, ''); }
+
+  // Countries whose numbers keep their leading 0 after the country code
+  // (+39 06 ... is a Rome landline). Everywhere else a leading 0 is the
+  // domestic trunk prefix and must not follow the country code.
+  var KEEPS_LEADING_ZERO = { IT: 1, SM: 1, VA: 1, CI: 1 };
+
+  function fitsNational(d, iso) {
+    var r = phoneRangeFor(iso);
+    return d.length >= r[0] && d.length <= r[1] && (d.charAt(0) !== '0' || !!KEEPS_LEADING_ZERO[iso]);
+  }
+
+  /**
+   * The number in the box, as a country and a national number. Undoes the two
+   * usual mistakes, the country code typed as well as picked and the domestic
+   * trunk zero, but only when that leaves a number that fits.
+   */
+  function readLead(tel) {
+    var country = getCountryByIso(tel.dataset.countryIso || '') || startCountry().country;
+    var dial = country.dial.replace(/\D/g, '');
+    var raw = digitsOf(tel.value);
+    var national = raw;
+    if (!fitsNational(national, country.iso)) {
+      var candidates = [];
+      if (national.indexOf('00' + dial) === 0) candidates.push(national.slice(dial.length + 2));
+      if (national.indexOf(dial + '0') === 0) candidates.push(national.slice(dial.length + 1));
+      if (national.indexOf(dial) === 0) candidates.push(national.slice(dial.length));
+      if (national.charAt(0) === '0' && !KEEPS_LEADING_ZERO[country.iso]) candidates.push(national.replace(/^0+/, ''));
+      for (var i = 0; i < candidates.length; i++) {
+        if (fitsNational(candidates[i], country.iso)) { national = candidates[i]; break; }
+      }
+    }
+    return {
+      dial: country.dial,
+      iso: country.iso,
+      name: country.name,
+      national: national,
+      raw: raw,
+      source: tel.dataset.countrySource || 'default',
+      valid: fitsNational(national, country.iso)
+    };
+  }
+
+  /** The phone box a form is submitting: the first one with anything in it. */
+  function leadTelIn(form) {
+    var tels = form.querySelectorAll('input[type="tel"][data-country-dial]');
+    for (var i = 0; i < tels.length; i++) {
+      if (digitsOf(tels[i].value)) return tels[i];
+    }
+    return null;
+  }
+
+  function messageSlot(tel, create) {
+    var anchor = tel.closest('.mac-cc-wrap') || tel.closest('.mac-cc-inline') || tel;
+    var next = anchor.nextElementSibling;
+    if (next && next.classList && next.classList.contains('mac-cc-msg')) return next;
+    if (!create) return null;
+    var el = document.createElement('div');
+    el.className = 'mac-cc-msg';
+    el.setAttribute('role', 'alert');
+    el.style.cssText = 'font-size:.85rem;line-height:1.4;margin-top:6px;text-align:left;color:'
+      + (isDarkContext(tel) ? '#fca5a5' : '#b42318') + ';';
+    anchor.parentNode.insertBefore(el, anchor.nextSibling);
+    return el;
+  }
+
+  function clearProblem(tel) {
+    var el = messageSlot(tel, false);
+    if (el) el.parentNode.removeChild(el);
+  }
+
+  function showProblem(tel, lead) {
+    var r = phoneRangeFor(lead.iso);
+    var want = r[0] === r[1] ? r[0] + ' digits' : r[0] + ' to ' + r[1] + ' digits';
+    var other = ' If your number is from another country, tap '
+      + isoToFlag(lead.iso) + ' ' + lead.dial + ' to choose it.';
+    var el = messageSlot(tel, true);
+    el.textContent = (lead.national.charAt(0) === '0'
+      ? 'Please leave out the leading 0 when using the ' + lead.dial + ' country code.' + other
+      : 'Phone numbers in ' + lead.name + ' (' + lead.dial + ') have ' + want
+        + '; this one has ' + lead.national.length + '.' + other)
+      + ' To send it exactly as typed, press the button again.';
+    try { tel.focus(); } catch (e) { /* noop */ }
+  }
+
+  function forgetWarning(t) {
+    if (t && t.dataset && t.dataset.macWarned) {
+      delete t.dataset.macWarned;
+      clearProblem(t);
+    }
+  }
+  document.addEventListener('input', function (e) {
+    var t = e.target;
+    if (t && t.tagName === 'INPUT' && t.type === 'tel') forgetWarning(t);
+  }, true);
+  document.addEventListener('countrycodechange', function (e) { forgetWarning(e.target); }, true);
+
+  // Stamp the submitting form so the fetch hook can resolve back to its tel
+  // input, check the number, and record what will be sent.
   document.addEventListener('submit', function (e) {
     var form = e.target;
     if (!form || form.tagName !== 'FORM') return;
@@ -1175,14 +1426,65 @@
     window.__macRecentSubmitTimer = setTimeout(function () {
       window.__macRecentSubmitForm = null;
     }, 5000);
+
+    form.__macLead = null;
+    var tel = leadTelIn(form);
+    if (!tel) return;
+
+    var lead = readLead(tel);
+    var key = lead.iso + ':' + lead.raw;
+    if (!lead.valid && tel.dataset.macWarned !== key) {
+      tel.dataset.macWarned = key;
+      showProblem(tel, lead);
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      return;
+    }
+    clearProblem(tel);
+    lead.at = Date.now();
+    form.__macLead = lead;
+
+    // A page that hard-codes its own country (it carries the meta) checks
+    // the number against that country. When the visitor is from somewhere
+    // else, hand the page the full international number, which is long
+    // enough for any of those checks, and put their typing back once the
+    // page's handler has read it. The fetch hook sends the real values.
+    var page = pageCountry();
+    if (page && page.iso !== lead.iso) {
+      var typed = tel.value;
+      var intl = '+' + lead.dial.replace(/\D/g, '') + ' ' + lead.national;
+      tel.value = intl;
+      setTimeout(function () {
+        if (document.contains(tel) && tel.value === intl) tel.value = typed;
+      }, 0);
+    }
   }, true);
+
+  /** What the form being submitted recorded, if it was in the last 8 seconds. */
+  function recentLead() {
+    var form = window.__macRecentSubmitForm;
+    var lead = form && form.__macLead;
+    return lead && Date.now() - lead.at < 8000 ? lead : null;
+  }
+
+  /**
+   * Is this request field the number from the recorded lead? Pages reshape the
+   * digits before sending (strip a 44, a 1 or a 0), so a match on the tail of
+   * any of the forms the number could take counts.
+   */
+  function sameNumber(value, lead) {
+    var d = digitsOf(value);
+    if (d.length < 5) return false;
+    var full = lead.dial.replace(/\D/g, '') + lead.national;
+    return full.slice(-d.length) === d || lead.raw.slice(-d.length) === d
+      || d.slice(-lead.national.length) === lead.national;
+  }
 
   function augmentBody(body) {
     if (typeof body !== 'string') return body;
     var data;
     try { data = JSON.parse(body); } catch (e) { return body; }
     if (!data || typeof data !== 'object' || Array.isArray(data)) return body;
-    if (data.countryCode || data.countryIso || data.country_code) return body;
 
     var hasPhone = false;
     for (var i = 0; i < PHONE_FIELD_KEYS.length; i++) {
@@ -1190,15 +1492,78 @@
     }
     if (!hasPhone) return body;
 
-    var ref = findReferenceTel();
-    var dial = ref ? (ref.dataset.countryDial || DEFAULT_DIAL) : DEFAULT_DIAL;
-    var iso  = ref ? (ref.dataset.countryIso  || DEFAULT_ISO)  : DEFAULT_ISO;
-    var name = ref ? (ref.dataset.countryName || 'India')      : 'India';
+    // A form was just submitted and we read its number: what the visitor
+    // chose wins over whatever the page's script hard-coded.
+    var lead = recentLead();
+    if (lead) {
+      var matched = false;
+      for (var k = 0; k < PHONE_FIELD_KEYS.length; k++) {
+        var key = PHONE_FIELD_KEYS[k];
+        var v = data[key];
+        if ((typeof v === 'string' || typeof v === 'number') && sameNumber(v, lead)) {
+          data[key] = lead.national;
+          matched = true;
+        }
+      }
+      if (matched) {
+        data.countryCode = lead.dial;
+        data.countryIso = lead.iso;
+        data.countryName = lead.name;
+        data.countrySource = lead.source;
+        return JSON.stringify(data);
+      }
+    }
 
-    data.countryCode = dial;
-    data.countryIso = iso;
-    data.countryName = name;
+    if (data.countryCode || data.countryIso || data.country_code) return body;
+
+    var ref = findReferenceTel();
+    var start = startCountry();
+    data.countryCode = ref ? (ref.dataset.countryDial || start.country.dial) : start.country.dial;
+    data.countryIso = ref ? (ref.dataset.countryIso || start.country.iso) : start.country.iso;
+    data.countryName = ref ? (ref.dataset.countryName || start.country.name) : start.country.name;
+    data.countrySource = ref ? (ref.dataset.countrySource || start.source) : start.source;
     return JSON.stringify(data);
+  }
+
+  /**
+   * Some forms hand the lead to WhatsApp instead of the server: they open
+   * wa.me with a prefilled message such as "My number: +91 2522228345", and
+   * several stamp +91 onto any number typed without a code. When a form was
+   * just submitted, the number in that message is rewritten to the country the
+   * visitor actually chose. Anything that is not the submitted number is left
+   * exactly as the page wrote it.
+   */
+  var WHATSAPP_URL_RE = /^(https?:\/\/(?:wa\.me|api\.whatsapp\.com|web\.whatsapp\.com)\/[^?#]*\?)([^#]*)(#.*)?$/i;
+  var PHONE_IN_TEXT_RE = /\+?\d[\d\s().-]{5,}\d/g;
+
+  function rewriteWhatsAppUrl(url) {
+    var lead = recentLead();
+    var m = lead && typeof url === 'string' ? WHATSAPP_URL_RE.exec(url) : null;
+    if (!m) return url;
+    var changed = false;
+    var params = m[2].split('&').map(function (pair) {
+      if (pair.indexOf('text=') !== 0) return pair;
+      var text;
+      try { text = decodeURIComponent(pair.slice(5).replace(/\+/g, ' ')); } catch (e) { return pair; }
+      var next = text.replace(PHONE_IN_TEXT_RE, function (token) {
+        return sameNumber(token, lead) ? lead.dial + ' ' + lead.national : token;
+      });
+      if (next === text) return pair;
+      changed = true;
+      return 'text=' + encodeURIComponent(next);
+    });
+    return changed ? m[1] + params.join('&') + (m[3] || '') : url;
+  }
+
+  function installWhatsAppHook() {
+    if (typeof window.open !== 'function' || window.__macCcOpenHooked) return;
+    window.__macCcOpenHooked = true;
+    var origOpen = window.open;
+    window.open = function (url) {
+      var args = Array.prototype.slice.call(arguments);
+      try { args[0] = rewriteWhatsAppUrl(url); } catch (e) { /* never block the page */ }
+      return origOpen.apply(window, args);
+    };
   }
 
   function installFetchHook() {
@@ -1237,17 +1602,19 @@
     KW: [7, 8],   BH: [8, 8],   JO: [8, 9],
     SG: [8, 8],   HK: [8, 8],   MY: [7, 10],  ID: [8, 12],
     PH: [9, 10],  TH: [8, 9],   VN: [9, 10],  JP: [9, 10],
-    KR: [9, 10],  CN: [11, 11], TW: [8, 9],
+    KR: [9, 10],  CN: [10, 11], TW: [8, 9],
     AU: [9, 9],   NZ: [8, 10],
-    DE: [6, 12],  FR: [9, 9],   IT: [9, 11],  ES: [9, 9],
+    DE: [6, 13],  FR: [9, 9],   IT: [6, 11],  ES: [9, 9],
     NL: [9, 9],   BE: [8, 9],   PT: [9, 9],   CH: [9, 9],
     AT: [7, 13],  SE: [7, 13],  NO: [8, 8],   DK: [8, 8],
     FI: [5, 12],  PL: [9, 9],   GR: [10, 10],
-    NG: [10, 10], KE: [9, 9],   GH: [9, 9],   ZA: [9, 9],
-    EG: [10, 10], MA: [9, 9],   TZ: [9, 9],   UG: [9, 9],
-    PK: [10, 10], BD: [10, 10], LK: [9, 9],   NP: [10, 10],
+    NG: [8, 10], KE: [9, 9],   GH: [9, 9],   ZA: [9, 9],
+    EG: [8, 10], MA: [9, 9],   TZ: [9, 9],   UG: [9, 9],
+    PK: [9, 10], BD: [8, 10], LK: [9, 9],   NP: [8, 10],
     BR: [10, 11], MX: [10, 10], AR: [10, 11],
-    RU: [10, 10], TR: [10, 10], IL: [9, 9]
+    RU: [10, 10], TR: [10, 10], IL: [8, 9],
+    SK: [9, 9],   CZ: [9, 9],   HU: [9, 9],   RO: [9, 9],
+    CY: [8, 8],   BN: [7, 7],   KZ: [10, 10]
   };
   var E164_MIN = 7, E164_MAX = 15;
 
@@ -1358,7 +1725,7 @@
           for (var j = 0; j < added.length; j++) {
             var n = added[j];
             if (n.nodeType !== 1) continue;
-            if (n.matches && n.matches('input[type="tel"]')) attachToInput(n);
+            if (n.matches && n.matches(PHONE_INPUT_SELECTOR)) { promoteToTel(n); attachToInput(n); }
             else if (n.querySelectorAll) scan(n);
           }
         }
@@ -1367,6 +1734,7 @@
   }
 
   installFetchHook();
+  installWhatsAppHook();
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);

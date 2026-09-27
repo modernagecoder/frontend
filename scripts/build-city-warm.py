@@ -525,6 +525,13 @@ def transform(slug, dry=False):
         return m.group(0)
     h=re.sub(r'<script([^>]*)>(.*?)</script>\r?\n?', strip, h, flags=re.S)
     stats['scripts_removed']=removed_scripts[0]
+    # 6b) the new form's area dropdown is id="cityArea", but each page's kept
+    #     submit handler read document.getElementById('<city>Area').value, which
+    #     throws after preventDefault: the form sent nothing on 130 pages from
+    #     13 Jul to 27 Sep 2026. Read either id, never throw.
+    h,stats['area_ref']=re.subn(r"document\.getElementById\((['\"])(\w+Area)\1\)\.value",
+        lambda mm: mm.group(0) if mm.group(2)=='cityArea' else
+            "(document.getElementById('cityArea') || document.getElementById('"+mm.group(2)+"') || {}).value || ''", h)
     # 7) body class
     h,stats['body']=re.subn(r'<body class="([^"]*)">', r'<body class="editorial city-warm \1">', h, count=1)
     # 8) main region replacement

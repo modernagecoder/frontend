@@ -227,7 +227,7 @@ function inlineFile(filePath, navHtml, footerHtml) {
     //     Add it wherever the form exists and nothing else defines the handler.
     if (/id=["']callbackForm["']/.test(content) && /<\/body>/i.test(content) &&
         !/callback-modal\.js|mainbundle[^"']*\.js|function\s+submitCallback|submitCallback\s*=/.test(content)) {
-        content = content.replace(/<\/body>/i, '    <script src="/js/callback-modal.js?v=20260820a" defer></script>\n</body>');
+        content = content.replace(/<\/body>/i, '    <script src="/js/callback-modal.js?v=20260927a" defer></script>\n</body>');
     }
 
     // Write back if changed

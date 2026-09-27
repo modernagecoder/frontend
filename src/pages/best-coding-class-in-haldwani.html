@@ -1396,7 +1396,7 @@
                     const email = document.getElementById('contactEmail').value.trim();
                     const phone = document.getElementById('contactPhone').value.trim();
                     const childAge = document.getElementById('childAge').value;
-                    const haldwaniArea = document.getElementById('haldwaniArea').value;
+                    const haldwaniArea = (document.getElementById('cityArea') || document.getElementById('haldwaniArea') || {}).value || '';
                     const message = document.getElementById('contactMessage').value.trim();
 
                     // Validation
@@ -1489,7 +1489,7 @@
     </script>
 
     <!-- Component Loader -->
-    <script src="/js/callback-modal.js?v=20260820a"></script>
+    <script src="/js/callback-modal.js?v=20260927a"></script>
 <script src="/js/navigation.js"></script>
 
 
@@ -1569,7 +1569,7 @@
             if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
         })();
     </script>
-    <script src="/js/country-code-selector.js?v=20260820a" defer></script>
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
     <script src="/js/pricing-data.generated.js?v=c1eb685613"></script>
     <script src="/js/international-pricing.js?v=deee271610"></script>
 </body>

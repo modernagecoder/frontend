@@ -1555,6 +1555,12 @@ document.addEventListener('input', function(e) {
     // truncated result was submitted looking perfectly ordinary. This file is
     // loaded on the homepage alongside callback-modal.js and both handlers
     // run, so the stricter one won.
+    // A number being typed with its country code ("+971...", "00971...")
+    // is left for the country picker, which reads the code, switches the flag
+    // and keeps the rest. Stripping the + here, as this used to, turned
+    // "+971 50 123 4567" into the Indian-looking "9715012345".
+    if (/^\s*(\+|00)/.test(e.target.value)) return;
+
     var iso = e.target.dataset.countryIso || 'IN';
     var digits = e.target.value.replace(/[^0-9]/g, '');
 

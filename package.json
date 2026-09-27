@@ -32,6 +32,8 @@
     "validate:headings": "node scripts/validate-heading-hierarchy.js",
     "test:performance": "node scripts/simple-performance-test.js",
     "build:inline": "node scripts/inline-components.js",
+    "build:phone": "node scripts/ensure-phone-country.js",
+    "verify:phone": "node scripts/ensure-phone-country.js --check",
     "build:core-css": "node scripts/build-core-css.js",
     "minify": "node scripts/minify.js",
     "pricing:test": "node scripts/pricing/test-stamp.js && node scripts/pricing/test-rendered.js && node scripts/pricing/test-phone.js",
