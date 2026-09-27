@@ -1252,3 +1252,4 @@
 .cg-root.cg-stv  { --cg-accent: #4C2522; --cg-accent-soft: rgba(76,37,34,.10); }   /* Stevenage: a dark brick red (10.61:1 on the darkest paper tint) */
 .cg-root.cg-hhm  { --cg-accent: #321B4C; --cg-accent-soft: rgba(50,27,76,.10); }   /* Hemel Hempstead: an iron-gall ink violet (12.11:1 on the darkest paper tint) */
 .cg-root.cg-crw  { --cg-accent: #32175C; --cg-accent-soft: rgba(50,23,92,.10); }   /* Crawley: a night-sky runway violet (11.98:1 on the darkest paper tint) */
+.cg-root.cg-bsk  { --cg-accent: #7A3764; --cg-accent-soft: rgba(122,55,100,.10); }   /* Basingstoke: a Regency plum ribbon (6.62:1 on the darkest paper tint) */

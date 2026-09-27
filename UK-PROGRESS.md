@@ -382,7 +382,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 330 | online-coding-and-python-classes-in-bedford (bdd, #73127A) | cg- town page | 2,577 | 1.4% vs best-coding-and-ai-classes-in-northampton | Great Ouse double mass curve | double mass curve consistency check | 243b3ed1 |
 | 331 | ai-and-programming-classes-in-stevenage (stv, #4C2522) | cg- town page | 2,519 | 1.5% vs coding-and-ai-classes-in-yorkshire-and-the-humber | census prefix sums | prefix sums range queries off-by-one | 12ecd89b |
 | 332 | best-coding-and-ai-classes-in-hemel-hempstead (hhm, #321B4C) | cg- town page | 2,609 | 1.2% vs best-coding-and-ai-classes-in-woking | paper sizes and root 2 | aspect ratio invariance root 2 | 904be159 |
-| 333 | online-coding-and-python-classes-in-crawley (crw, #32175C) | cg- town page | 2,480 | 1.4% vs ai-and-programming-classes-in-swindon | Gatwick passengers per flight | average of averages weighting | (this commit) |
+| 333 | online-coding-and-python-classes-in-crawley (crw, #32175C) | cg- town page | 2,480 | 1.4% vs ai-and-programming-classes-in-swindon | Gatwick passengers per flight | average of averages weighting | 86ff4556 |
+| 334 | ai-and-programming-classes-in-basingstoke (bsk, #7A3764) | cg- town page | 2,551 | 1.6% vs ai-and-programming-classes-in-blackburn | Austen sentence splitter | sentence boundary detection compensating errors | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

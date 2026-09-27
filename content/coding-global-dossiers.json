@@ -28429,5 +28429,49 @@
       "Distances and travel times: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-basingstoke": {
+    "market": "Basingstoke",
+    "bodyClass": "cg-bsk",
+    "pageType": "city",
+    "curriculumAuthority": "Basingstoke and Deane (E07000084). Nomis Census 2021 TS007A: total 185,152; 5 to 9 11,550 (6.2%, England 5.9%); 15 to 19 9,089 (4.9%, 5.7%); 20 to 24 9,233 (5.0%, 6.0%); 45 to 49 12,935 (7.0%, 6.4%); 50 to 54 13,695 (7.4%, 6.9%); 85+ 3,862 (2.1%, 2.4%). ONS 2021 BUAs: Basingstoke 117,210; Tadley 14,760; Whitchurch 5,290; Oakley 5,265; Overton 4,350; Old Basing 3,835. Project Gutenberg 22536, Austen-Leigh, Jane Austen, Her Life and Letters (1913): Steventon \"about seven miles south of Basingstoke\"; birth 1775 Dec 16 at Steventon; First Impressions begun October 1796, ended August 1797; \"assemblies at Basingstoke\". postcodes.io places: Steventon, Village, Basingstoke and Deane. Project Gutenberg 1342, Pride and Prejudice.",
+    "localProject": "Sentence boundary detection: 122,978 words; naive 5,767 (mean 21.32, median 17); abbreviations protected 4,636 (26.53); abbreviations plus closing quotes 5,776 (21.29, median 17); Mr. 781, Mrs. 343, St. 7 = 1,131 false splits vs about 1,140 missed quote endings. Lesson family: sentence boundaries, abbreviations, compensating errors.",
+    "requiredMentions": [
+      "117,210",
+      "Tadley",
+      "Overton",
+      "Old Basing",
+      "Steventon",
+      "William and Richard Austen-Leigh",
+      "First Impressions",
+      "sentence boundary",
+      "5,776"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Basingstoke and Deane and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Austen-Leigh, Jane Austen, Her Life and Letters: A Family Record (ebook 22536).",
+        "url": "https://www.gutenberg.org/ebooks/22536"
+      },
+      {
+        "claim": "Project Gutenberg, Jane Austen, Pride and Prejudice (ebook 1342).",
+        "url": "https://www.gutenberg.org/ebooks/1342"
+      }
+    ],
+    "rejectedClaims": [
+      "Distances and travel times: only the 1913 book's own \"about seven miles\", quoted as the book's.",
+      "The Steventon rectory today: not claimed.",
+      "Austen's later homes and Bath years: left to the Bath page.",
+      "Named schools and school term dates: none named or read.",
+      "Local employers: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }
