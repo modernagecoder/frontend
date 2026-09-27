@@ -28337,5 +28337,53 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-hemel-hempstead": {
+    "market": "Hemel Hempstead",
+    "bodyClass": "cg-hhm",
+    "pageType": "city",
+    "curriculumAuthority": "Dacorum (E07000096). Nomis Census 2021 TS007A: total 155,081; under 5 9,581 (6.2%, England 5.4%); 5 to 9 9,929 (6.4%, 5.9%); 20 to 24 7,104 (4.6%, 6.0%); 35 to 39 11,101 (7.2%, 6.7%); 40 to 44 11,030 (7.1%, 6.3%); 85+ 4,011 (2.6%, 2.4%). ONS 2021 BUAs: Hemel Hempstead 95,985; Berkhamsted 21,240; Tring 11,960; Bovingdon 5,310. Project Gutenberg 55757, Alexander Watt, The Art of Paper-Making (1890): \"in 1804 a second machine was made and put up at Two-Waters, Herts, which was completely successful\". postcodes.io places: Two Waters, Suburban Area, Dacorum, HP3. Project Gutenberg 70338, Richard Herring, Paper & paper making (1855): fine sizes from \"Pot\" 12½ by 15 to \"Antiquarian, 53 by 31\".",
+    "localProject": "Aspect ratio under folding: fold maps r to 2/r; fixed point root 2 = 1.4142. 26 Herring sizes, only Super Royal (1.421) within 2%; Foolscap 1.259/1.588; A-series from 1 m2: 1,189 by 841 mm, fourth half 297 by 210 mm. Doubles: Double Foolscap 2.00x, Double Post 2.03x, Double Pot 4.0x, Double Elephant 1.66x Elephant. Lesson family: aspect ratio invariance, root 2.",
+    "requiredMentions": [
+      "95,985",
+      "Berkhamsted",
+      "Tring",
+      "Two Waters",
+      "Super Royal",
+      "Foolscap",
+      "Richard Herring",
+      "aspect ratio",
+      "Fourdrinier"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Dacorum and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Alexander Watt, The Art of Paper-Making (ebook 55757).",
+        "url": "https://www.gutenberg.org/ebooks/55757"
+      },
+      {
+        "claim": "Project Gutenberg, Richard Herring, Paper & paper making, ancient and modern (ebook 70338).",
+        "url": "https://www.gutenberg.org/ebooks/70338"
+      },
+      {
+        "claim": "postcodes.io places search (OS Open Names), Two Waters in Dacorum.",
+        "url": "https://api.postcodes.io/places?q=Two%20Waters"
+      }
+    ],
+    "rejectedClaims": [
+      "Which Frogmore the books mean: Hertfordshire has three; not claimed.",
+      "Any named paper company or modern mill: not claimed.",
+      "Other books give 1804 for the first successful Frogmore machine; the page follows Watt only.",
+      "The Buncefield depot: not mentioned.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
