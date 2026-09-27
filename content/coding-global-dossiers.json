@@ -27913,5 +27913,49 @@
       "Distances and travel times: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-guildford": {
+    "market": "Guildford",
+    "bodyClass": "cg-gfd",
+    "pageType": "city",
+    "curriculumAuthority": "Guildford (E07000209). Nomis Census 2021 TS007A: total 143,650; 5 to 9 7,810 (5.4%, England 5.9%); 15 to 19 10,766 (7.5%, 5.7%); 20 to 24 13,147 (9.2%, 6.0%); 25 to 29 8,578 (6.0%, 6.6%); 45 to 49 9,635 (6.7%, 6.4%); 85+ 3,817 (2.7%, 2.4%). ONS 2021 BUAs: Guildford 77,880; East Horsley 5,840; Send 4,095; Pirbright 3,920; Shalford 2,510. Surrey History Centre, Exploring Surrey's Past, Lewis Carroll: \"a frequent visitor to Guildford\"; \"He installed his sisters in a house called The Chestnuts on Castle Hill in September 1868 and he always spent Christmas with them\"; \"Occasionally he preached in St Mary's church\"; \"after Oxford, the place most associated with his adult life\"; plaque unveiled \"24 May 1933\". Project Gutenberg 28696, Symbolic Logic, problem 60 answer \"I always avoid a kangaroo\"; problem 1 answer \"Babies cannot manage crocodiles\".",
+    "localProject": "Implication graph: 10 premises + 10 contrapositives = 20 arrows; BFS kangaroo -> avoided in 10 steps (not pet, not moon, not prowl, not carnivore, not kill mice, not cat, not in house, not take to me, detest, avoid). Premises only: no path. Valid: cat -> pet in 5 steps. Converse slip: \"every pet is a cat\". Lesson family: implication chains as graph search, contrapositive vs converse.",
+    "requiredMentions": [
+      "The Chestnuts",
+      "Castle Hill",
+      "Lewis Carroll",
+      "Symbolic Logic",
+      "contrapositive",
+      "Surrey History Centre",
+      "East Horsley",
+      "Pirbright",
+      "77,880"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Guildford and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Surrey History Centre, Exploring Surrey's Past, Lewis Carroll.",
+        "url": "https://www.exploringsurreyspast.org.uk/themes/people/writers/lewis-carroll/"
+      },
+      {
+        "claim": "Project Gutenberg, Lewis Carroll, Symbolic Logic (ebook 28696).",
+        "url": "https://www.gutenberg.org/ebooks/28696"
+      }
+    ],
+    "rejectedClaims": [
+      "Carroll's photography and later controversies: not discussed; not relevant to the lesson.",
+      "University names and student numbers: not claimed; the age table is the evidence.",
+      "Ash and Ash Vale, Farncombe and Great Bookham built-up areas: cross the boundary, not tabulated.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }
