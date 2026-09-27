@@ -1249,3 +1249,4 @@
 .cg-root.cg-swn  { --cg-accent: #5C2D0E; --cg-accent-soft: rgba(92,45,14,.10); }   /* Swindon: a forge-scale rust brown (9.21:1 on the darkest paper tint) */
 .cg-root.cg-nhp  { --cg-accent: #56325C; --cg-accent-soft: rgba(86,50,92,.10); }   /* Northampton: a dark heather plum (8.43:1 on the darkest paper tint) */
 .cg-root.cg-bdd  { --cg-accent: #73127A; --cg-accent-soft: rgba(115,18,122,.10); }   /* Bedford: a deep mulberry (8.07:1 on the darkest paper tint) */
+.cg-root.cg-stv  { --cg-accent: #4C2522; --cg-accent-soft: rgba(76,37,34,.10); }   /* Stevenage: a dark brick red (10.61:1 on the darkest paper tint) */
