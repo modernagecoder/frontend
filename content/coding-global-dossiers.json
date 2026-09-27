@@ -27775,5 +27775,49 @@
       "Shirley is named only as a part of the borough, with no figures.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-maidenhead": {
+    "market": "Maidenhead",
+    "bodyClass": "cg-mdh",
+    "pageType": "city",
+    "curriculumAuthority": "Maidenhead (Royal Borough of Windsor and Maidenhead, E06000040). Nomis Census 2021 TS007A: total 153,498; 10 to 14 10,486 (6.8%, England 6.0%); 20 to 24 6,767 (4.4%, 6.0%); 25 to 29 7,981 (5.2%, 6.6%); 40 to 44 11,230 (7.3%, 6.3%); 45 to 49 11,456 (7.5%, 6.4%); 50 to 54 11,709 (7.6%, 6.9%). ONS 2021 BUAs: Maidenhead 67,375; Windsor 31,560; Old Windsor and Wraysbury 7,690; Cookham 5,215; Datchet 4,810. Network Rail, The history of the Maidenhead Bridge: \"flattest yet widest brick constructed arches in the world\"; \"1839 : 1 July, the Maidenhead Bridge is opened\"; \"widened on both sides by Sir John Fowler\" 1890-1892; \"allowing only one pier in the river\"; \"1 in 1,320, or 0.076 percent\"; \"a rise of only 24ft (7.3 meters) and an unprecedented width of 128ft (39 meters)\"; directors \"insisted the scaffolding remain in place initially\".",
+    "localProject": "Parabolic arch, invented w = 100 kN/m, L = 39 m: H = wL^2/(8f), V = wL/2 = 1,950 kN. f 7.3: 2,604 kN (1.34 V); f 19.5: 975 (0.50); f 12: 1,584 (0.81); f 3.65: 5,209 (2.67). Real vs tall 2.67x. 1 in 1,320 = 0.0758%, 0.76 m/km. Half-span slip 651 kN. Lesson family: inverse proportion, arch thrust vs rise.",
+    "requiredMentions": [
+      "Maidenhead Bridge",
+      "Network Rail",
+      "Brunel",
+      "John Fowler",
+      "horizontal thrust",
+      "Cookham",
+      "Datchet",
+      "67,375",
+      "1 in 1,320"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Windsor and Maidenhead and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Network Rail, The history of the Maidenhead Bridge.",
+        "url": "https://www.networkrail.co.uk/who-we-are/our-history/iconic-infrastructure/the-history-of-the-maidenhead-bridge/"
+      },
+      {
+        "claim": "Science Museum Group collection, The Maidenhead Bridge lithograph by J C Bourne, 1846 (co8712933).",
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8712933"
+      }
+    ],
+    "rejectedClaims": [
+      "Actual loads and forces in the real bridge: not claimed; the load is invented.",
+      "Which account of the scaffolding story is true: not decided; attributed as Network Rail tells it.",
+      "Ascot and Marlow built-up areas: cross the boundary, not tabulated.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }
