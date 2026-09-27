@@ -28945,5 +28945,45 @@
       "Named schools and school term dates beyond the historical college: none.",
       "Sterling prices: none (historic amounts in the books are not quoted)."
     ]
+  },
+  "ai-and-programming-classes-in-gateshead": {
+    "market": "Gateshead",
+    "bodyClass": "cg-gat",
+    "pageType": "city",
+    "curriculumAuthority": "Gateshead (E08000037). Nomis Census 2021 TS007A: total 196,151; 5 to 9 11,070 (5.6%, England 5.9%); 15 to 19 10,074 (5.1%, 5.7%); 20 to 24 10,411 (5.3%, 6.0%); 55 to 59 14,243 (7.3%, 6.7%); 60 to 64 12,555 (6.4%, 5.8%); 80 to 84 5,846 (3.0%, 2.5%). ONS 2021 BUAs: Gateshead 115,280; Blaydon 14,240; Birtley 13,835; Ryton 8,805; Rowlands Gill 5,255. Project Gutenberg 41538, Edward W. Byrn, The Progress of Invention in the Nineteenth Century: \"Mr. R. S. Newall's telescope, set up at Gateshead by Cookes, of York, in 1870; object glass, 25 inches, tube, 30 feet\"; Rosse \"6 feet diameter, 54 feet focal length\"; Foucault mirror \"31½ inches\", focal length \"17¾ feet\"; Common mirror \"37½ inches\", tube \"20 feet\"; Washington object glass \"26 inches\", tube \"33 feet\".",
+    "localProject": "Focal ratio (length in inches / aperture in inches): Newall 14.4, Washington 15.2 (object glass, from tube); Rosse 9.0, Foucault 6.8 (mirror, true focal length); Common 6.4 (mirror, from tube). Unconverted feet over inches: 0.53 to 1.27. Lesson family: derived feature, unit conversion, mixed field definitions, two classes.",
+    "requiredMentions": [
+      "115,280",
+      "196,151",
+      "Blaydon",
+      "Birtley",
+      "Newall",
+      "focal ratio",
+      "object glass",
+      "Cookes",
+      "Edward W. Byrn"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Gateshead and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Edward W. Byrn, The Progress of Invention in the Nineteenth Century (ebook 41538).",
+        "url": "https://www.gutenberg.org/ebooks/41538"
+      }
+    ],
+    "rejectedClaims": [
+      "Where the Newall telescope is today: not claimed.",
+      "Angel of the North and bridge facts: Gateshead Council returned 403; not claimed.",
+      "Modern telescope ratios or rankings: not claimed.",
+      "Publication year 1900: from the book's own title page (\"COPYRIGHTED, 1900, BY MUNN & CO.\").",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none (Byrn's telescope costs are not quoted)."
+    ]
   }
 }
