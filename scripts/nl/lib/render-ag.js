@@ -20,6 +20,16 @@ const BRAND = JSON.parse(fs.readFileSync(path.join(ROOT, 'scripts', 'brand-facts
 const SITE = 'https://learn.modernagecoders.com';
 const WA = 'https://wa.me/919123366161?text=';
 
+// Priority demo entry points (owner request 2026-09-27), same contract as render-cg.js:
+// data-pd-book opens the paid priority demo form through src/js/demo-choice.js, which the
+// deploy build injects everywhere; /book-demo is the no-script fallback. No price printed
+// (the popup shows the visitor's currency). Wording from brand-facts.json priorityDemo.
+// No nav button: five market links already fill the 1160px nav (tested 1280 and 1440).
+// The card sits inside .ag-form-panel, which the uniqueness gate strips;
+// the phone bar's text is under seven words, so it cannot form a shared shingle.
+const PD = BRAND.priorityDemo;
+const pdLink = (placement, cls, label) => `<a class="${cls}" href="/book-demo" data-pd-book="${placement}">${label}</a>`;
+
 const REVIEWS = [
   ['The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content.', 'Ria Mukherjee', 'Parent'],
   ['Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease.', 'Samriddha Mondal', 'Student'],
@@ -256,6 +266,7 @@ ${jsonLd(page)}
         <p class="ag-lede">${page.lede}</p>
         <div class="ag-btn-row">
           <a href="#start" class="ag-btn">Book the free first class</a>
+          ${pdLink('ag-hero', 'ag-btn ag-btn--pd', 'Book a priority demo')}
           <a href="${page.secondaryCta.href}" class="ag-btn ag-btn--ghost">${esc(page.secondaryCta.label)}</a>
           <a href="${wa}" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'${page.code}'});">Ask on WhatsApp</a>
         </div>
@@ -480,6 +491,7 @@ ${page.faq.items.map(f => `      <div class="ag-faq-item">
           <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
           <p class="ag-form-note">${page.start.formNote}</p>
         </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of ${esc(PD.length)}. ${esc(PD.report)} ${esc(PD.feeCredit)}</p>${pdLink('ag-book', 'ag-btn ag-btn--pd', 'Book a priority demo')}</div>
       </div>
     </div>
   </div>
@@ -513,7 +525,7 @@ ${page.faq.items.map(f => `      <div class="ag-faq-item">
   </div>
 </footer>`;
 
-  return [head, '', hero, '', capsule, '', picks, '', sections, '', ladder, '', catalogue, '', how, '', projects, '', fees, '', reviews, '', faq, '', elsewhere, '', start, '', footer, '', leadScript(page), '', '</body>', '</html>', ''].join('\n');
+  return [head, '', hero, '', capsule, '', picks, '', sections, '', ladder, '', catalogue, '', how, '', projects, '', fees, '', reviews, '', faq, '', elsewhere, '', start, '', footer, '', `<div class="ag-sticky"><a href="#start">Free class</a>${pdLink('ag-sticky', 'ag-sticky-pd', 'Priority demo')}<a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>`, '', leadScript(page), '', '</body>', '</html>', ''].join('\n');
 }
 
 // ---------------------------------------------------------------- md twin

@@ -204,6 +204,31 @@
 .ag-btn--ghost { background: transparent; color: var(--ag-accent); }
 .ag-btn--ghost:hover { background: var(--ag-accent-soft); opacity: 1; }
 .ag-btn-row { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 30px; }
+/* priority demo entry points (2026-09-27): ink fill marks the paid, sooner option
+   apart from the accent free-class button; .ag-root a.x beats `.ag-root a` */
+.ag-root a.ag-btn--pd { background: var(--ag-ink); border-color: var(--ag-ink); color: #fff; }
+.ag-root .ag-pd-card { margin-top: 22px; padding: 18px 20px; border: 1px solid var(--ag-ink); border-radius: 4px; background: var(--ag-paper); }
+.ag-root .ag-pd-card h3 { margin: 0 0 8px; font-size: 1.05rem; }
+.ag-root .ag-pd-card p { margin: 0 0 12px; font-size: .95rem; }
+.ag-sticky { display: none; }
+@media (max-width: 767px) {
+  .ag-sticky {
+    display: flex; gap: 8px; position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
+    background: var(--ag-paper); border-top: 1px solid var(--ag-rule);
+    box-shadow: 0 -2px 10px rgba(28,24,20,.08);
+    padding: 8px max(12px, env(safe-area-inset-left)) calc(8px + env(safe-area-inset-bottom));
+  }
+  .ag-root .ag-sticky a {
+    flex: 1 1 0; display: flex; align-items: center; justify-content: center; text-align: center;
+    min-height: 44px; padding: 8px 10px; border-radius: 4px; text-decoration: none;
+    font-family: var(--ag-sans); font-size: .88rem; font-weight: 600;
+    border: 1px solid var(--ag-accent); color: var(--ag-accent); background: transparent;
+  }
+  .ag-root .ag-sticky a:first-child { background: var(--ag-accent); color: #fff; }
+  .ag-root .ag-sticky a.ag-sticky-pd { background: var(--ag-ink); border-color: var(--ag-ink); color: #fff; }
+  .ag-root { padding-bottom: 68px; }
+}
+@media print { .ag-sticky { display: none; } }
 
 /* ---------------------------------------------------------------- hero */
 .ag-hero { padding: 64px 0 72px; border-bottom: 1px solid var(--ag-rule); }

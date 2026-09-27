@@ -658,6 +658,33 @@
 }
 .cg-root .cg-btn-wa:hover { background: var(--cg-accent-soft); color: var(--cg-accent); }
 
+/* --- priority demo entry points (2026-09-27). Ink fill so the paid, sooner
+       option reads as distinct from the accent free-class button beside it.
+       Written at .cg-root specificity so `.cg-root a` (0,1,1) cannot repaint
+       the text (the invisible-button trap noted above). --- */
+.cg-root .cg-btn--pd { background: var(--cg-ink); color: #fff; border-color: var(--cg-ink); }
+.cg-root .cg-btn--pd:hover { color: #fff; }
+.cg-nav-links a.cg-nav-pd {
+  font-weight: 600; color: var(--cg-ink); background: transparent;
+  border: 1px solid var(--cg-ink); border-radius: 2px;
+  min-height: 38px; padding: 0 0.95rem;
+  display: inline-flex; align-items: center;
+}
+.cg-nav-links a.cg-nav-pd:hover { color: #fff; background: var(--cg-ink); border-bottom-color: var(--cg-ink); }
+@media (max-width: 720px) {
+  /* the phone sticky bar carries it instead; brand + two pills do not fit at 360px */
+  .cg-nav-links a.cg-nav-pd { display: none; }
+}
+.cg-root .cg-pd-card {
+  border: 1px solid var(--cg-ink); border-radius: 2px;
+  padding: 1rem 1.1rem; margin: 0 0 1.4rem; background: var(--cg-paper);
+}
+.cg-root .cg-pd-card h3 { margin-top: 0; }
+.cg-root .cg-pd-card .cg-btn { margin-top: 0.4rem; }
+@media (max-width: 767px) {
+  .cg-root .cg-sticky a.cg-sticky-pd { background: var(--cg-ink); color: #fff; border-color: var(--cg-ink); }
+}
+
 /* --- hero --- */
 .cg-hero-actions { display: flex; flex-wrap: wrap; gap: 0.7rem; align-items: center; }
 .cg-hero-lead {
