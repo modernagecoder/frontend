@@ -28901,5 +28901,49 @@
       "Distances and travel times: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-cheltenham": {
+    "market": "Cheltenham",
+    "bodyClass": "cg-chl",
+    "pageType": "city",
+    "curriculumAuthority": "Cheltenham (E07000078). Nomis Census 2021 TS007A: total 118,833; 5 to 9 6,378 (5.4%, England 5.9%); 20 to 24 7,895 (6.6%, 6.0%); 25 to 29 8,134 (6.8%, 6.6%); 50 to 54 7,896 (6.6%, 6.9%); 80 to 84 3,337 (2.8%, 2.5%); 85+ 3,671 (3.1%, 2.4%). ONS 2021 BUA Cheltenham 115,940. Project Gutenberg 69599, Elizabeth Helen Shillito, Dorothea Beale: opened \"February 13, 1854, in Cambray House\"; \"the 100 pupils had increased to 150\"; \"at the end of 1857 the numbers had fallen to 89\". Project Gutenberg 60064, Elizabeth Raikes, Dorothea Beale of Cheltenham: \"one hundred and twenty pupils\"; \"first to ninety-three, then to eighty-nine\".",
+    "localProject": "Collocations in Raikes (146,461 words; 71,376 distinct pairs; 76.2% once): raw count of the 1,340, in the 700, to the 530, miss beale 514; raw PMI 273 pairs tie at 17.2 bits (all once, incl. editors' notes); min 5 names; min 20 boarding houses 10.7, head mistress 10.0, lady principal 8.8, old pupil 8.7; ladies college 71 (7.4). ASCII tokeniser splits Fräulein (5). Lesson family: collocation scoring, PMI, thresholds, tokenisation.",
+    "requiredMentions": [
+      "115,940",
+      "118,833",
+      "Dorothea Beale",
+      "Cambray House",
+      "Elizabeth Raikes",
+      "collocation",
+      "pointwise mutual information",
+      "146,461",
+      "Elizabeth Helen Shillito"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Cheltenham and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Elizabeth Raikes, Dorothea Beale of Cheltenham (ebook 60064).",
+        "url": "https://www.gutenberg.org/ebooks/60064"
+      },
+      {
+        "claim": "Project Gutenberg, Elizabeth Helen Shillito, Dorothea Beale (ebook 69599).",
+        "url": "https://www.gutenberg.org/ebooks/69599"
+      }
+    ],
+    "rejectedClaims": [
+      "The college today, its fees and admissions: not discussed; no admissions advice.",
+      "GCHQ and the racecourse: not mentioned.",
+      "Which biography is right about the first year: not decided; both figures shown.",
+      "Prestbury built-up area: crosses the boundary, not quoted.",
+      "Named schools and school term dates beyond the historical college: none.",
+      "Sterling prices: none (historic amounts in the books are not quoted)."
+    ]
   }
 }

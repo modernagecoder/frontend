@@ -393,7 +393,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 341 | best-coding-and-ai-classes-in-huddersfield (hud, #12277A) | cg- town page | 2,581 | 2.5% vs online-coding-and-python-classes-in-crawley | River Colne sensor anomalies | anomaly detection rules false alarms | 7acb030f |
 | 342 | online-coding-and-python-classes-in-poole (pol, #63306B) | cg- town page | 2,609 | 1.8% vs best-coding-and-ai-classes-in-watford | Brownsea patrol splitting | number partitioning greedy order dependence | dd303089 |
 | 343 | ai-and-programming-classes-in-stockport (stk, #53175C) | cg- town page | 2,524 | 2.1% vs best-coding-and-ai-classes-in-bournemouth | station turning points | turning points zigzag threshold missing values | 044464b4 |
-| 344 | best-coding-and-ai-classes-in-basildon (bsn, #5F127A) | cg- town page | 2,501 | 1.7% vs best-coding-and-ai-classes-in-hemel-hempstead | census quicksort | quicksort pivot worst case duplicates | (this commit) |
+| 344 | best-coding-and-ai-classes-in-basildon (bsn, #5F127A) | cg- town page | 2,501 | 1.7% vs best-coding-and-ai-classes-in-hemel-hempstead | census quicksort | quicksort pivot worst case duplicates | 1a4c2dff |
+| 345 | online-coding-and-python-classes-in-cheltenham (chl, #5C1C17) | cg- town page | 2,538 | 1.7% vs best-coding-and-ai-classes-in-hemel-hempstead | Dorothea Beale collocations | collocation PMI thresholds tokenisation | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
