@@ -15398,6 +15398,18 @@
   to = "/src/pages/best-coding-class-in-luton.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-watford"
+  to = "/src/pages/best-coding-and-ai-classes-in-watford.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-watford.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-watford.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

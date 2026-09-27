@@ -4390,4 +4390,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /best-coding-class-in-luton /src/pages/best-coding-class-in-luton.html 200
 /best-coding-class-in-luton.md /src/pages/best-coding-class-in-luton.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-and-ai-classes-in-watford /src/pages/best-coding-and-ai-classes-in-watford.html 200
+/best-coding-and-ai-classes-in-watford.md /src/pages/best-coding-and-ai-classes-in-watford.md 200
 /* /src/pages/404.html 404
