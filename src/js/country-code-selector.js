@@ -1499,7 +1499,9 @@
       || d.slice(-lead.national.length) === lead.national;
   }
 
-  function augmentBody(body) {
+  var LEAD_OVERRIDE_RE = /\/api\/(contact|callback|business[-_]?solution|corporate[-_]?training|book[-_]?demo|inquiry|leads?)\b/i;
+
+  function augmentBody(body, url) {
     if (typeof body !== 'string') return body;
     var data;
     try { data = JSON.parse(body); } catch (e) { return body; }
@@ -1512,8 +1514,10 @@
     if (!hasPhone) return body;
 
     // A form was just submitted and we read its number: what the visitor
-    // chose wins over whatever the page's script hard-coded.
-    var lead = recentLead();
+    // chose wins over whatever the page's script hard-coded. Lead requests
+    // only: payment and enrolment bodies (the priority-demo Razorpay order)
+    // read the picker themselves and are never rewritten.
+    var lead = LEAD_OVERRIDE_RE.test(url || '') ? recentLead() : null;
     if (lead) {
       var matched = false;
       for (var k = 0; k < PHONE_FIELD_KEYS.length; k++) {
@@ -1595,7 +1599,7 @@
       try {
         var url = typeof input === 'string' ? input : (input && input.url) || '';
         if (PHONE_ENDPOINT_RE.test(url) && init && init.body) {
-          init.body = augmentBody(init.body);
+          init.body = augmentBody(init.body, url);
         }
       } catch (e) { /* never break the original request */ }
       return origFetch(input, init);
