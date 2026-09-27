@@ -27735,5 +27735,45 @@
       "Sterling prices: none.",
       "Watford Stadium and Watford West stations: no current data, not used."
     ]
+  },
+  "online-coding-and-python-classes-in-solihull": {
+    "market": "Solihull",
+    "bodyClass": "cg-sol",
+    "pageType": "city",
+    "curriculumAuthority": "Solihull (E08000029). Nomis Census 2021 TS007A: total 216,238; 5 to 9 13,771 (6.4%, England 5.9%); 10 to 14 13,604 (6.3%, 6.0%); 20 to 24 10,755 (5.0%, 6.0%); 50 to 54 15,629 (7.2%, 6.9%); 70 to 74 12,069 (5.6%, 5.0%); 85+ 6,700 (3.1%, 2.4%). ONS 2021 BUAs: Solihull 107,735; Knowle and Dorridge 19,320; Balsall Common 7,095; Dickens Heath 4,800; 59,997 residents in the Birmingham BUA by our OA sum. Science Museum Group co26468 JET 1: \"built by the Rover Company, Solihull, England, 1946-1950\"; \"the world's first gas-turbine-powered motor car\"; \"unveiled to the public in 1950\"; \"In 1952 JET 1 was fitted with an uprated engine and achieved a world record speed (for gas turbine cars) of 152 mph (244 km/h)\"; \"poor fuel consumption and slowness to respond to the throttle\"; \"Rover continued to develop gas turbine car designs until 1965\".",
+    "localProject": "First-order lag, invented tau: piston 0.3 s (90% 0.69 s, 99% 1.38 s); turbine 3 s (90% 6.91 s, 99% 13.82 s). Euler dt 0.5 -> 90% at 6.5 s; dt 0.01 -> 6.90 s. dt 0.7 with tau 0.3: 2.33, -0.78, 3.37, -2.16, 5.21, -4.62. 152 mph = 244.6 km/h. Lesson family: time constants and step-size stability.",
+    "requiredMentions": [
+      "JET 1",
+      "Rover Company",
+      "gas turbine",
+      "time constant",
+      "216,238",
+      "Balsall Common",
+      "Dickens Heath",
+      "Shirley",
+      "throttle"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Solihull and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Science Museum Group collection, Prototype Rover gas turbine motor car, JET 1 (co26468).",
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co26468"
+      }
+    ],
+    "rejectedClaims": [
+      "Measured throttle response of JET 1: not in the record; time constants are invented.",
+      "Current car-plant facts and employment: not used.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Shirley is named only as a part of the borough, with no figures.",
+      "Sterling prices: none."
+    ]
   }
 }

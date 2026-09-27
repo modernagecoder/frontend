@@ -366,7 +366,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 314 | best-coding-class-in-slough (slo, #210B4C) | cg- town page | 2,637 | 1.3% vs coding-classes-in-neath-port-talbot | How much light does a four-foot mirror catch? | Light-gathering area and magnitude scale | 5a3d343e |
 | 315 | best-coding-class-in-reading (rdg, #66466B) | cg- town page | 2,556 | 2.5% vs best-coding-class-in-slough | Whose mistake is it? | Copy-chain error accumulation, choice of reference | edbb405f |
 | 316 | best-coding-class-in-luton (ltn, #7A5072) | cg- town page | 2,534 | 1.9% vs coding-and-ai-classes-in-north-east-england | When does a plait come home? | Permutation cycles and order, as a plait | e04b07a6 |
-| 317 | best-coding-and-ai-classes-in-watford (wat, #4C1B35) | cg- town page | 2,461 | 2.6% vs best-coding-class-in-reading | Down 80 per cent, up 313 per cent: back to normal? | Index numbers and asymmetric percentage change | (this commit) |
+| 317 | best-coding-and-ai-classes-in-watford (wat, #4C1B35) | cg- town page | 2,461 | 2.6% vs best-coding-class-in-reading | Down 80 per cent, up 313 per cent: back to normal? | Index numbers and asymmetric percentage change | 7508839d |
+| 318 | online-coding-and-python-classes-in-solihull (sol, #6B1065) | cg- town page | 2,553 | 1.5% vs best-coding-class-in-luton | How slow is slow to respond? | First-order lag, time constants, step stability | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
