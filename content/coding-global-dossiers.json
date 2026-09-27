@@ -28385,5 +28385,49 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-crawley": {
+    "market": "Crawley",
+    "bodyClass": "cg-crw",
+    "pageType": "city",
+    "curriculumAuthority": "Crawley (E07000226). Nomis Census 2021 TS007A: total 118,491; under 5 7,639 (6.4%, England 5.4%); 5 to 9 8,076 (6.8%, 5.9%); 30 to 34 9,996 (8.4%, 7.0%); 35 to 39 9,781 (8.3%, 6.7%); 65 to 69 4,632 (3.9%, 4.9%); 75 to 79 2,659 (2.2%, 3.6%). ONS 2021 BUA Crawley 120,550. CAA UK airport data 2025: annual Gatwick terminal passengers 42,769,164, air transport movements 259,391; monthly Tables 03 and 09 (August 4,661,770 passengers; January 2,541,908). OurAirports EGKK 51.148744, -0.185739; postcodes.io RH6 0PQ, RH11 0TG, Crawley.",
+    "localProject": "Average of averages: Gatwick mean of 12 monthly ratios 164.13 vs annual ratio 164.88 (Jan 157.6, Aug 177.6); July 2025, 45 UK airports: unweighted 81.6, median 81.2, weighted 150.6; Biggin Hill 0.9, Gatwick 172.1, Heathrow 192.4. Table 05 parts (19,499) do not equal Table 03 total (19,343) for December. Lesson family: mean of ratios vs ratio of totals, weighting.",
+    "requiredMentions": [
+      "120,550",
+      "118,491",
+      "Gatwick",
+      "42,769,164",
+      "259,391",
+      "164.88",
+      "average of averages",
+      "Biggin Hill",
+      "Civil Aviation Authority"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Crawley and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Civil Aviation Authority, UK airport data 2025, monthly and annual Tables 03 and 09.",
+        "url": "https://www.caa.co.uk/data-and-analysis/uk-aviation-market/airports/uk-airport-data/uk-airport-data-2025/"
+      },
+      {
+        "claim": "OurAirports open data, airports.csv, EGKK position.",
+        "url": "https://ourairports.com/data/"
+      }
+    ],
+    "rejectedClaims": [
+      "Runway capacity, rankings among world airports and expansion plans: not claimed.",
+      "Gatwick jobs or economic impact figures: not claimed.",
+      "A UK total of passengers or movements: not printed; only the weighted ratio from the 45 rows.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }
