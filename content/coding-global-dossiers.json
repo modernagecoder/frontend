@@ -28209,5 +28209,49 @@
       "Distances and travel times: not claimed.",
       "Sterling prices for lessons: none; shillings appear only as 1914 wages."
     ]
+  },
+  "best-coding-and-ai-classes-in-northampton": {
+    "market": "Northampton",
+    "bodyClass": "cg-nhp",
+    "pageType": "city",
+    "curriculumAuthority": "West Northamptonshire (E06000062). Nomis Census 2021 TS007A: total 425,725; 5 to 9 26,379 (6.2%, England 5.9%); 10 to 14 26,866 (6.3%, 6.0%); 20 to 24 24,155 (5.7%, 6.0%); 40 to 44 28,518 (6.7%, 6.3%); 45 to 49 28,796 (6.8%, 6.4%); 85+ 8,786 (2.1%, 2.4%). ONS 2021 BUAs: Northampton 243,520; Daventry 27,790; Brackley 16,190; Towcester 11,330; Brixworth 5,770. EA Hydrology Upton Mill Total daily mean flow (postcodes.io nearest NN4 9QL, West Northamptonshire). NRFA 32006 Nene/Kislingbury at Upton Total: catchment 223.0 km2; mean 1.482; start 1939-11-01; flume under mill plus Crump weir on bypass since 1969, summed; \"No major abstractions but several sewage work effluent returns\".",
+    "localProject": "Sequent peak storage (million m3), WY1941 to 2021 (4 short gaps interpolated; 2022 gap excluded), mean 1.456: 50% 19.82, 70% 43.11 (critical 1942-04 to 1946-11), 90% 120.11 (1942 to 1965). WY1992 to 2021: 12.74, 33.11, 59.05. Worst single water year (1944): 13.21, 22.42, 31.63. Lesson family: storage-yield by sequent peak, critical period, record length.",
+    "requiredMentions": [
+      "243,520",
+      "Daventry",
+      "Brackley",
+      "Towcester",
+      "Kislingbury",
+      "Upton Mill",
+      "sequent peak",
+      "425,725",
+      "43.11"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, West Northamptonshire and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Environment Agency hydrology data, Upton Mill Total daily mean flow.",
+        "url": "https://environment.data.gov.uk/hydrology/"
+      },
+      {
+        "claim": "National River Flow Archive, station 32006 Nene/Kislingbury at Upton Total.",
+        "url": "https://nrfa.ceh.ac.uk/data/station/info/32006"
+      }
+    ],
+    "rejectedClaims": [
+      "Any real reservoir, water company or supply plan: not claimed; the reservoir is imaginary.",
+      "Express Lift Tower: the Northamptonshire page anchor; not reused.",
+      "Drought impacts and hosepipe bans: not mentioned.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }

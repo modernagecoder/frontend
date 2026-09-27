@@ -1220,3 +1220,4 @@
 .cg-root.cg-lgh  { --cg-accent: #3F1B4C; --cg-accent-soft: rgba(63,27,76,.10); }   /* Loughborough: a deep damson for Charnwood (11.49:1 on the darkest paper tint) */
 .cg-root.cg-rgb  { --cg-accent: #53158A; --cg-accent-soft: rgba(83,21,138,.10); }   /* Rugby: an ink violet for a Victorian novel (9.19:1 on the darkest paper tint) */
 .cg-root.cg-swn  { --cg-accent: #5C2D0E; --cg-accent-soft: rgba(92,45,14,.10); }   /* Swindon: a forge-scale rust brown (9.21:1 on the darkest paper tint) */
+.cg-root.cg-nhp  { --cg-accent: #56325C; --cg-accent-soft: rgba(86,50,92,.10); }   /* Northampton: a dark heather plum (8.43:1 on the darkest paper tint) */
