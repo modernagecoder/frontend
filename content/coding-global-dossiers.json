@@ -28085,5 +28085,49 @@
       "Distances and travel times: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-loughborough": {
+    "market": "Loughborough",
+    "bodyClass": "cg-lgh",
+    "pageType": "city",
+    "curriculumAuthority": "Charnwood (E07000130). Nomis Census 2021 TS007A: total 183,968; 5 to 9 9,860 (5.4%, England 5.9%); 15 to 19 13,739 (7.5%, 5.7%); 20 to 24 16,048 (8.7%, 6.0%); 30 to 34 11,784 (6.4%, 7.0%); 65 to 69 9,324 (5.1%, 4.9%); 85+ 4,486 (2.4%, 2.4%). ONS 2021 BUAs: Loughborough 64,860; Shepshed 14,870; Birstall 14,315; Syston 13,620; Mountsorrel 12,885. EA Hydrology Pillings Lock daily mean flow (station 7e5119f6-fa25-41ec-bc7a-85dfab1ad3c4; postcodes.io nearest LE12 8FE Quorn, LE12 8QW Barrow upon Soar, both Charnwood). NRFA 28093 Soar at Pillings Lock: catchment 1108.36 km2; Q10 21.8; mean 9.884; \"12 cross path ultrasonic gauge set in Soar Navigation\"; \"Very substantial flow modification from WRW and reservoirs in Charnwood Forest\".",
+    "localProject": "Peaks over threshold + declustering: 12,419 days (WY 1992 to 2025, none missing); 1,268 days above 21.8 (10.2%); runs 334 (73 one-day); merge gap 3 days 264, 7 days 190, 14 days 139, 30 days 88; longest run 29 days. Flags Good 9,590, Suspect 808, Estimated 352, Unchecked 1,669. Lesson family: event definition, declustering, debounce.",
+    "requiredMentions": [
+      "64,860",
+      "Shepshed",
+      "Mountsorrel",
+      "Syston",
+      "Pillings Lock",
+      "Soar Navigation",
+      "declustering",
+      "debounce",
+      "1,268"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Charnwood and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Environment Agency hydrology data, Pillings Lock daily mean flow.",
+        "url": "https://environment.data.gov.uk/hydrology/"
+      },
+      {
+        "claim": "National River Flow Archive, station 28093 Soar at Pillings Lock.",
+        "url": "https://nrfa.ceh.ac.uk/data/station/info/28093"
+      }
+    ],
+    "rejectedClaims": [
+      "Flood dates, named storms and damage: not mentioned.",
+      "That the gauge is in Loughborough town: not claimed; it is in Charnwood borough.",
+      "University names and student numbers: not claimed; the age table is the evidence.",
+      "Taylor bellfoundry: already the Leicestershire page anchor; not reused.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
