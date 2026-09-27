@@ -17,7 +17,7 @@
 // (16 words), On Will-Making + On the Fear of Death; Wordsworth's ode (14 words, stops before flow'r/flower), On the Past
 // and Future + Why Distant Objects Please; Othello (8 words), On Genius and Common Sense (continued) + On the Knowledge of
 // Character; and one stock phrase, "so far is it from being true that", On Genius and Common Sense + On Coffee-House
-// Politicians. Only the Othello line is Elizabethan.
+// Politicians. Hazlitt signs the verse "--BUTLER." At N 8 every repeat appears in exactly two essays, none in three.
 // Lesson family: text reuse detection with an n-gram inverted index across documents, threshold choice, stock phrases vs
 // quotations, spelling variants breaking matches, editorial notes; then verifying quotations against the source poems.
 // Screened: text reuse, near-duplicate, n-gram, Hazlitt, Guiney 0 hits (Salisbury used rolling-hash substring search;
@@ -106,13 +106,13 @@ module.exports = {
       body: [
         { kind: 'p', text: 'The learner downloads Table Talk and splits it into essays by their headings, 16 in the first volume and 17 in the second. The first surprise is that every essay ends with a section headed NOTES, written by the editor rather than Hazlitt. Those notes are cut out first, which removes 7,837 words. The program then lowercases the text, splits it into words and records every run of N words in a dictionary, with the set of essays where that run appears. Any run found in two or more essays is a candidate, and overlapping candidates are joined into longer passages.' },
         { kind: 'table', caption: 'Passages shared by two Table Talk essays, runs of 8 words, our Python run, 28 September 2026', head: ['Shared passage', 'Words', 'Found in', 'What it is'], rows: [
-          ['"...will pass for learneder than he that\'s known..."', '30', 'On the Ignorance of the Learned; On the Aristocracy of Letters', 'Verse quotation'],
+          ['"...will pass for learneder than he that\'s known..."', '30', 'On the Ignorance of the Learned; On the Aristocracy of Letters', 'Verse signed BUTLER'],
           ['"...even in our ashes live their wonted fires"', '16', 'On Will-Making; On the Fear of Death', 'Gray\'s Elegy'],
           ['"...bring back the hour of glory in the grass..."', '14', 'On the Past and Future; Why Distant Objects Please', 'Wordsworth, misquoted'],
           ['"...knew all qualities with a learned spirit"', '8', 'On Genius and Common Sense (continued); On the Knowledge of Character', 'Othello, adapted'],
           ['"so far is it from being true that"', '8', 'On Genius and Common Sense; On Coffee-House Politicians', 'Just a habit of phrase']
         ] },
-        { kind: 'p', text: 'The choice of N changes everything. With runs of 6 words, 124 runs are shared, and most are ordinary phrases any writer repeats, such as "enough to show that there is no" or "tell whether you are right or wrong". With 8 words, 41 runs remain and they join into the five passages above. With 10, only three passages survive and the Othello line drops out. There is no correct N; the learner reports the answer for several and reads the matches by hand. At 8, four of the five are quotations and one is Hazlitt\'s own turn of phrase. Only one, the line from Othello, is Elizabethan, so within this book Guiney\'s "twice and thrice" is not borne out, though she may have meant his work as a whole.' },
+        { kind: 'p', text: 'The choice of N changes everything. With runs of 6 words, 124 runs are shared, and most are ordinary phrases any writer repeats, such as "enough to show that there is no" or "tell whether you are right or wrong". With 8 words, 41 runs remain and they join into the five passages above. With 10, only three passages survive and the Othello line drops out. There is no correct N; the learner reports the answer for several and reads the matches by hand. At 8, four of the five are quotations and one is Hazlitt\'s own turn of phrase. Each of them turns up in exactly two essays and none in three, so within this one book Guiney\'s "twice and thrice" is only half borne out, though she may have meant his work as a whole.' },
         { kind: 'p', text: 'Look closely at the Wordsworth match. It stops one word early, because one essay prints "flow\'r" and the other "flower", and to a program those are different words. Checking the poem itself, in Wordsworth\'s Poems in Two Volumes on Project Gutenberg, gives the real surprise: the original reads "Of splendour in the grass, of glory in the flower". Hazlitt swapped glory and splendour, and he made the same swap both times. He was quoting from memory, and his memory was consistent. The Othello line is also changed, "knows" becoming "knew". Finding a reused passage is only half the job; comparing it with its source is the other half.' },
         { kind: 'grid3', cells: [
           { h3: 'Ages 8 to 11', p: 'Find the same three-word phrase in two stories, first by eye, then with a highlighter hunt.' },
@@ -261,7 +261,7 @@ module.exports = {
       { claim: 'Project Gutenberg, William Wordsworth, Poems in Two Volumes, Volume 2 (ebook 8824).', url: 'https://www.gutenberg.org/ebooks/8824' }
     ],
     rejectedClaims: [
-      'The author of the 30-word "learneder" verse: not verified against a source; left unattributed.',
+      'The 30-word "learneder" verse: Hazlitt signs it "--BUTLER." in Table Talk; no dates or further attribution claimed, and no Elizabethan tally made.',
       'Whether Guiney\'s "twice and thrice" holds across Hazlitt\'s whole output: only Table Talk was tested.',
       'Mitre Lane today or any plaque: not read from a source; not claimed.',
       'Hazlitt\'s later life, politics and quarrels: not used.',

@@ -67,13 +67,13 @@ The learner downloads Table Talk and splits it into essays by their headings, 16
 
 | Shared passage | Words | Found in | What it is |
 |---|---|---|---|
-| "...will pass for learneder than he that's known..." | 30 | On the Ignorance of the Learned; On the Aristocracy of Letters | Verse quotation |
+| "...will pass for learneder than he that's known..." | 30 | On the Ignorance of the Learned; On the Aristocracy of Letters | Verse signed BUTLER |
 | "...even in our ashes live their wonted fires" | 16 | On Will-Making; On the Fear of Death | Gray's Elegy |
 | "...bring back the hour of glory in the grass..." | 14 | On the Past and Future; Why Distant Objects Please | Wordsworth, misquoted |
 | "...knew all qualities with a learned spirit" | 8 | On Genius and Common Sense (continued); On the Knowledge of Character | Othello, adapted |
 | "so far is it from being true that" | 8 | On Genius and Common Sense; On Coffee-House Politicians | Just a habit of phrase |
 
-The choice of N changes everything. With runs of 6 words, 124 runs are shared, and most are ordinary phrases any writer repeats, such as "enough to show that there is no" or "tell whether you are right or wrong". With 8 words, 41 runs remain and they join into the five passages above. With 10, only three passages survive and the Othello line drops out. There is no correct N; the learner reports the answer for several and reads the matches by hand. At 8, four of the five are quotations and one is Hazlitt's own turn of phrase. Only one, the line from Othello, is Elizabethan, so within this book Guiney's "twice and thrice" is not borne out, though she may have meant his work as a whole.
+The choice of N changes everything. With runs of 6 words, 124 runs are shared, and most are ordinary phrases any writer repeats, such as "enough to show that there is no" or "tell whether you are right or wrong". With 8 words, 41 runs remain and they join into the five passages above. With 10, only three passages survive and the Othello line drops out. There is no correct N; the learner reports the answer for several and reads the matches by hand. At 8, four of the five are quotations and one is Hazlitt's own turn of phrase. Each of them turns up in exactly two essays and none in three, so within this one book Guiney's "twice and thrice" is only half borne out, though she may have meant his work as a whole.
 
 Look closely at the Wordsworth match. It stops one word early, because one essay prints "flow'r" and the other "flower", and to a program those are different words. Checking the poem itself, in Wordsworth's Poems in Two Volumes on Project Gutenberg, gives the real surprise: the original reads "Of splendour in the grass, of glory in the flower". Hazlitt swapped glory and splendour, and he made the same swap both times. He was quoting from memory, and his memory was consistent. The Othello line is also changed, "knows" becoming "knew". Finding a reused passage is only half the job; comparing it with its source is the other half.
 
