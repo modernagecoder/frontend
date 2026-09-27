@@ -29116,5 +29116,50 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-birkenhead": {
+    "market": "Birkenhead",
+    "bodyClass": "cg-bkh",
+    "pageType": "city",
+    "curriculumAuthority": "Wirral (E08000015). Nomis Census 2021 TS007A: total 320,196; 20 to 24 15,076 (4.7%, England 6.0%); 25 to 29 17,866 (5.6%, 6.6%); 55 to 59 23,934 (7.5%, 6.7%); 60 to 64 21,519 (6.7%, 5.8%); 65 to 69 18,918 (5.9%, 4.9%); 70 to 74 19,103 (6.0%, 5.0%). ONS 2021 BUAs: Birkenhead 109,835; Wallasey 85,610; Bebington 57,600; Heswall 29,075; West Kirby 13,380; Hoylake 5,315. Project Gutenberg 70767, Frederick Law Olmsted, Landscape Architect (1922), reprinting Walks and Talks of an American Farmer in England (1852; 1850 visit): Paxton \"June, 1844\" to \"June of the following year\"; \"one hundred and twenty acres\"; \"The remaining sixty acres\"; \"Carriage roads, thirty-four feet wide\"; later article \"a piece of ground of 185 acres\". OpenStreetMap way 257607585 \"Birkenhead Park\" v6 (ODbL).",
+    "localProject": "Shoelace on degrees 0.0000779 sq deg; no cosine 238.0 acres; local projection (R 6,371,008.8 m, cos 53.3947) -574,279 m2 = 141.9 acres (clockwise, negative); geographiclib WGS84 576,688 m2 = 142.5 acres, perimeter 5,222 m. Olmsted 120 (1850, park and garden), 120 + 60 = 180 implied, 185 (later article). Lesson family: polygon area from map coordinates, projection/cos(latitude), ring orientation, sphere vs ellipsoid, definitional boundary.",
+    "requiredMentions": [
+      "320,196",
+      "109,835",
+      "Wallasey",
+      "Heswall",
+      "West Kirby",
+      "Hoylake",
+      "Birkenhead Park",
+      "Frederick Law Olmsted",
+      "Joseph Paxton",
+      "geodesic"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Wirral and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Frederick Law Olmsted, Landscape Architect, 1822-1903 (ebook 70767).",
+        "url": "https://www.gutenberg.org/ebooks/70767"
+      },
+      {
+        "claim": "OpenStreetMap way 257607585, Birkenhead Park outline (ODbL).",
+        "url": "https://www.openstreetmap.org/way/257607585"
+      }
+    ],
+    "rejectedClaims": [
+      "That Birkenhead Park inspired Central Park: widely repeated but not stated in the source read; the page says only that Olmsted went on to plan Central Park, which the book documents (the Olmsted and Vaux plan).",
+      "The park's official area today or listing grade: Historic England returned 403 earlier; not claimed.",
+      "Roads or features inside the OpenStreetMap outline: not checked on the ground; the page says the outline is one ring.",
+      "Olmsted's dollar figures for plots and cost: money, not used.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

@@ -398,7 +398,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 346 | ai-and-programming-classes-in-gateshead (gat, #5F377A) | cg- town page | 2,516 | 2.3% vs ai-and-programming-classes-in-basingstoke | Newall telescope focal ratio | focal ratio derived feature units | ba3dbdd5 |
 | 347 | best-coding-and-ai-classes-in-worthing (wor, #4C281B) | cg- town page | 2,675 | 2.3% vs online-coding-and-python-classes-in-bolton | who answers whom in a conversation? | successor count table from a play script (turn-taking transition matrix) | 296caf2a |
 | 348 | online-coding-and-python-classes-in-rochdale (roc, #29555C) | cg- town page | 2,648 | 1.7% vs online-coding-and-python-classes-in-bolton | how hard is a canal to climb? | number words to integers + locks per mile rate (flight vs canal) | fd0dccb5 |
-| 349 | ai-and-programming-classes-in-oldham (olh, #4C412A) | cg- town page | 2,692 | 2% vs ai-and-programming-classes-in-gateshead | how low does the Tame get, and how sure are we? | flow duration curve, exceedance vs percentile, selection bias from quality flags | (this commit) |
+| 349 | ai-and-programming-classes-in-oldham (olh, #4C412A) | cg- town page | 2,692 | 2% vs ai-and-programming-classes-in-gateshead | how low does the Tame get, and how sure are we? | flow duration curve, exceedance vs percentile, selection bias from quality flags | 74f220e2 |
+| 350 | best-coding-and-ai-classes-in-birkenhead (bkh, #3C5C4B) | cg- town page | 2,686 | 1.4% vs ai-and-programming-classes-in-maidenhead | was the park really 120 acres? | polygon area from map coordinates, cos(latitude), ring orientation, historical acreage | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
