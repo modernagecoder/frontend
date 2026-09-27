@@ -1211,3 +1211,4 @@
 .cg-root.cg-ltn  { --cg-accent: #7A5072; --cg-accent-soft: rgba(122,80,114,.10); }   /* Luton: a dyed-straw plum from the solver (5.26:1 on the darkest paper tint) */
 .cg-root.cg-wat  { --cg-accent: #4C1B35; --cg-accent-soft: rgba(76,27,53,.10); }   /* Watford: a deep claret from the solver (11.17:1 on the darkest paper tint) */
 .cg-root.cg-sol  { --cg-accent: #6B1065; --cg-accent-soft: rgba(107,16,101,.10); }   /* Solihull: a deep racing-plum from the solver (8.97:1 on the darkest paper tint) */
+.cg-root.cg-hwy  { --cg-accent: #8A1582; --cg-accent-soft: rgba(138,21,130,.10); }   /* High Wycombe: a beech-stain magenta from the solver (6.74:1 on the darkest paper tint) */

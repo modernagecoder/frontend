@@ -27819,5 +27819,52 @@
       "Distances and travel times: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-high-wycombe": {
+    "market": "High Wycombe",
+    "bodyClass": "cg-hwy",
+    "pageType": "city",
+    "curriculumAuthority": "High Wycombe, Buckinghamshire (E06000060). ONS 2021 BUAs: High Wycombe 83,535; Hazlemere 20,005; Beaconsfield 14,145; Princes Risborough 7,530. Nomis Census 2021 TS007A Buckinghamshire: total 553,078; 5 to 9 35,155 (6.4%, England 5.9%); 10 to 14 36,807 (6.7%, 6.0%); 20 to 24 25,646 (4.6%, 6.0%); 25 to 29 30,240 (5.5%, 6.6%); 45 to 49 38,481 (7.0%, 6.4%); 50 to 54 40,665 (7.4%, 6.9%). Science Museum Group co45872: \"This lathe was used for turning the legs of Windsor chairs by a 'bodger' working in the neighbourhood of High Wycombe\"; \"in use until around 1953\". Wycombe Museum: Chair Discovery Centre announced February 2026; \"holds almost 250 chairs\"; \"In 2020, about 12% (34 records) of our chair collection records were made available\"; \"In 2025, we added a further 21 chair records\".",
+    "localProject": "Our count of the online chair search page, 54 records: High Wycombe 25; blank 12; Unknown 4; other places 13. Shares: all 46.3%; known-place 65.8% (25/38); bounds 46.3% to 75.9%. Dates: 48 with year, 1685 to 1974, median 1875. Lesson family: missing-data bounds vs complete-case share, name normalising.",
+    "requiredMentions": [
+      "Wycombe Museum",
+      "Chair Discovery Centre",
+      "Windsor chair",
+      "bodger",
+      "Hazlemere",
+      "Princes Risborough",
+      "Beaconsfield",
+      "83,535"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates"
+      },
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Buckinghamshire and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "Science Museum Group collection, collection of chair-maker's tools (co45872).",
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co45872"
+      },
+      {
+        "claim": "Wycombe Museum, Chair Discovery Centre.",
+        "url": "https://wycombemuseum.org.uk/chair-discovery-centre"
+      },
+      {
+        "claim": "Wycombe Museum, Search our Chair Collection.",
+        "url": "https://wycombemuseum.org.uk/search-our-chair-collection"
+      }
+    ],
+    "rejectedClaims": [
+      "The museum's full chair catalogue: not counted; our figures describe one online page only.",
+      "Town-level age shares for High Wycombe: not used; ages are county-wide and labelled.",
+      "Industry employment and factory counts: not read, not claimed.",
+      "Named schools, admissions and term dates: none; the 11+ page is separate.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }
