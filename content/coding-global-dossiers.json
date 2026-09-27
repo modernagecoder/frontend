@@ -28129,5 +28129,45 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-rugby": {
+    "market": "Rugby",
+    "bodyClass": "cg-rgb",
+    "pageType": "city",
+    "curriculumAuthority": "Rugby (E07000220). Nomis Census 2021 TS007A: total 114,364; 5 to 9 7,112 (6.2%, England 5.9%); 20 to 24 5,570 (4.9%, 6.0%); 30 to 34 8,353 (7.3%, 7.0%); 35 to 39 8,200 (7.2%, 6.7%); 40 to 44 7,652 (6.7%, 6.3%); 75 to 79 4,470 (3.9%, 3.6%). ONS 2021 BUAs: Rugby 78,120; Cawston 6,470; Long Lawford 4,370; Wolston 2,695; Dunchurch 2,605; Binley Woods 2,570. Project Gutenberg 1480, Thomas Hughes, Tom Brown's School Days: \"CHAPTER V--RUGBY AND FOOTBALL\"; coaches \"deposited their passengers at Dunchurch, a village three miles distant on the main road\"; the Tally-ho \"passed through Rugby itself\"; \"the School-house\".",
+    "localProject": "Finite state machine: 1,424 paragraphs; 1,522 opening vs 1,513 closing double quotes; 2,538 apostrophes; 9 paragraphs unclosed (8 continuation incl. 2 verse, 1 missing close). FSM with paragraph reset 23.0% of 443,853 letters, 0 errors; toggle 54.2%; toggle with apostrophes 49.5%.",
+    "requiredMentions": [
+      "78,120",
+      "Cawston",
+      "Long Lawford",
+      "Dunchurch",
+      "Tom Brown",
+      "Thomas Hughes",
+      "finite state machine",
+      "1,513",
+      "Tally-ho"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Rugby and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Thomas Hughes, Tom Brown's School Days (ebook 1480).",
+        "url": "https://www.gutenberg.org/ebooks/1480"
+      }
+    ],
+    "rejectedClaims": [
+      "The origin of rugby football and William Webb Ellis: not in the novel, not claimed.",
+      "The school's name: the novel does not print \"Rugby School\", so the page does not quote it.",
+      "The novel's fights and bullying: not described.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: only the novel's own phrase about Dunchurch, quoted as the novel's.",
+      "Sterling prices: none."
+    ]
   }
 }

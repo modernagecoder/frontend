@@ -375,7 +375,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 323 | best-coding-and-ai-classes-in-woking (wok, #4C3022) | cg- town page | 2,484 | 1.6% vs coding-classes-in-vale-of-glamorgan | H. G. Wells Mars fact-check | power-law scaling inverse square vs cube | d76c0e0d |
 | 324 | online-coding-and-python-classes-in-bolton (bol, #6B255D) | cg- town page | 2,423 | 1.8% vs coding-and-ai-classes-in-south-east-england | Crompton yarn count prices | indirect units yarn count harmonic mean | e71e7c47 |
 | 325 | ai-and-programming-classes-in-blackburn (bkb, #46256B) | cg- town page | 2,417 | 2.1% vs best-coding-and-ai-classes-in-watford | jenny spindle estimate ranges | interval arithmetic dependency problem | 886f57b1 |
-| 326 | best-coding-and-ai-classes-in-loughborough (lgh, #3F1B4C) | cg- town page | 2,467 | 2.3% vs ai-and-programming-classes-in-guildford | Soar high-flow episode counts | peaks over threshold declustering debounce | (this commit) |
+| 326 | best-coding-and-ai-classes-in-loughborough (lgh, #3F1B4C) | cg- town page | 2,467 | 2.3% vs ai-and-programming-classes-in-guildford | Soar high-flow episode counts | peaks over threshold declustering debounce | 949c8e56 |
+| 327 | online-coding-and-python-classes-in-rugby (rgb, #53158A) | cg- town page | 2,460 | 1.7% vs best-coding-and-ai-classes-in-woking | Tom Brown dialogue parser | finite state machine parsing | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
