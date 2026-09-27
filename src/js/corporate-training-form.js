@@ -163,6 +163,11 @@ document.addEventListener('DOMContentLoaded', function () {
     var phoneInput = document.getElementById('phone');
     if (phoneInput) {
         phoneInput.addEventListener('input', function (e) {
+            // A number being typed with its country code ("+971...") is left
+            // for the country picker, which reads the code and switches the
+            // flag. Stripping the + here turned it into an Indian-looking
+            // number under +91.
+            if (/^\s*(\+|00)/.test(e.target.value)) return;
             var iso = e.target.dataset.countryIso || 'IN';
             var max = iso === 'IN' ? 10 : 15;
             var value = e.target.value.replace(/\D/g, '');

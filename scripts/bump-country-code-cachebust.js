@@ -38,6 +38,9 @@ const SCRIPTS = [
   'country-code-selector.js',
   'callback-modal.js',
   'mainbundle.js',
+  // Strips the phone box to digits as people type; must not run old code
+  // against a new picker (it would eat a typed +code).
+  'corporate-training-form.js',
 ];
 
 const FRONTEND_ROOT = path.resolve(__dirname, '..');

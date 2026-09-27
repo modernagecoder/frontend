@@ -42,7 +42,12 @@ const arg = (name, dflt) => { const i = process.argv.indexOf(name); return i > -
 const BASE = arg('--base', 'http://localhost:3001');
 const ONLY = arg('--only', '');
 const LIMIT = Number(arg('--limit', '0'));
-const WORKERS = 4;
+// Two browser contexts at a time is gentle enough for an 8 GB laptop; raise
+// it on a bigger machine. --from/--to test a slice of the templates, so a
+// long run can be split into batches.
+const WORKERS = Number(arg('--workers', '2'));
+const FROM = Number(arg('--from', '0'));
+const TO = Number(arg('--to', '0'));
 
 // A timezone and a valid national number for each country a page can declare.
 const LOCAL = {
@@ -51,7 +56,7 @@ const LOCAL = {
   QA: ['Asia/Qatar', '33123456'], OM: ['Asia/Muscat', '92123456'], KW: ['Asia/Kuwait', '50012345'],
   BH: ['Asia/Bahrain', '36001234'], SG: ['Asia/Singapore', '81234567'], HK: ['Asia/Hong_Kong', '51234567'],
   AU: ['Australia/Sydney', '412345678'], NZ: ['Pacific/Auckland', '211234567'], US: ['America/Chicago', '3125550123'],
-  CA: ['America/Toronto', '4165550123'], BS: ['America/Nassau', '2423571234'], CH: ['Europe/Zurich', '781234567'],
+  CA: ['America/Toronto', '4165550123'], BS: ['America/Nassau', '2423571234', '3571234'], CH: ['Europe/Zurich', '781234567'],
   DE: ['Europe/Berlin', '15123456789'], SE: ['Europe/Stockholm', '701234567'], BN: ['Asia/Brunei', '7123456']
 };
 
@@ -79,7 +84,7 @@ function pickPages() {
     const html = fs.readFileSync(file, 'utf8');
     if (!PHONE_INPUT.test(html)) continue;
     const slug = path.relative(path.join(ROOT, 'src/pages'), file).split(path.sep).join('/').replace(/\.html$/, '');
-    if (/^(thank-you|check-status|battle|login|admin)/.test(slug)) continue;
+    if (/^(thank-you|check-status|battle|login|admin|form-example)/.test(slug)) continue;
     const key = templateOf(html);
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key).push(slug);
@@ -104,12 +109,12 @@ async function fillOtherFields(form) {
         if (opt) set(el, opt.value);
       } else if (el.type === 'checkbox' || el.type === 'radio') {
         if (el.required && !el.checked) el.click();
-      } else if (el.type === 'email' || /email/.test(hay)) set(el, 'parent@example.com');
+      } else if (el.tagName === 'TEXTAREA') set(el, 'Looking for a free demo class for my child, thank you.');
+      else if (el.type === 'email' || /email/.test(hay)) set(el, 'parent@example.com');
       else if (el.type === 'number' || /\bage\b|grade|class/.test(hay)) set(el, el.type === 'number' ? '10' : 'Grade 5');
       else if (el.type === 'date') set(el, '2030-01-15');
       else if (el.type === 'time') set(el, '17:00');
       else if (el.type === 'url') set(el, 'https://example.com');
-      else if (el.tagName === 'TEXTAREA') set(el, 'Looking for a free demo class for my child, thank you.');
       else if (!el.value) set(el, /name/.test(hay) ? 'Test Parent' : 'Test answer');
     }
   });
@@ -247,11 +252,11 @@ async function runScenario(browser, target, sc) { // eslint-disable-line no-para
 
 function scenariosFor(pageIso) {
   const own = LOCAL[pageIso] ? pageIso : 'IN';
-  const [tz, num] = LOCAL[own];
+  const [tz, num, sent] = LOCAL[own]; // sent: what should go out, when it differs from what is typed
   const dialOf = { IN: '+91', GB: '+44', IE: '+353', NL: '+31', AE: '+971', SA: '+966', QA: '+974', OM: '+968', KW: '+965', BH: '+973', SG: '+65', HK: '+852', AU: '+61', NZ: '+64', US: '+1', CA: '+1', BS: '+1242', CH: '+41', DE: '+49', SE: '+46', BN: '+673' };
   return [
     { name: 'abroad', tz: 'America/New_York', type: '2522228345', expectStart: 'US', expect: { iso: 'US', dial: '+1', number: '2522228345' } },
-    { name: 'local', tz, type: num, expectStart: own, expect: { iso: own, dial: dialOf[own], number: num } },
+    { name: 'local', tz, type: num, expectStart: own, expect: { iso: own, dial: dialOf[own], number: sent || num } },
     { name: 'typed', tz: 'Asia/Kolkata', type: '+971501234567', expect: { iso: 'AE', dial: '+971', number: '501234567' } },
     { name: 'mismatch', tz: 'Asia/Kolkata', type: '1234567', expectStart: 'IN', expect: { iso: 'IN', dial: '+91', number: '1234567' } }
   ];
@@ -262,6 +267,7 @@ function scenariosFor(pageIso) {
   targets.push({ slug: 'coding-classes-for-kids-netherlands', siblings: 0, nav: false, label: 'reported page' });
   targets.push({ slug: 'about', siblings: 0, nav: true, label: 'navbar pop-up' });
   if (ONLY) targets = targets.filter((t) => t.slug.includes(ONLY));
+  if (FROM || TO) targets = targets.slice(FROM, TO || undefined);
   if (LIMIT) targets = targets.slice(0, LIMIT);
 
   const jobs = [];
@@ -281,7 +287,10 @@ function scenariosFor(pageIso) {
       const r = await runScenario(browser, t, sc);
       r.siblings = t.siblings;
       results.push(r);
-      process.stdout.write(r.ok ? '.' : 'F');
+      // Failures are printed as they happen, so a run that is cut short
+      // still says what it found.
+      if (r.ok) process.stdout.write('.');
+      else process.stdout.write(`\nF /${r.page} [${r.scenario}] ${r.detail}\n`);
     }
   }));
   await browser.close();

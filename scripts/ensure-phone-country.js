@@ -47,7 +47,7 @@ const CHECK = process.argv.includes('--check');
 const bumpSrc = fs.readFileSync(path.join(__dirname, 'bump-country-code-cachebust.js'), 'utf8');
 const VERSION = (bumpSrc.match(/const VERSION = '([^']+)'/) || [])[1];
 if (!VERSION) throw new Error('VERSION not found in bump-country-code-cachebust.js');
-const PHONE_SCRIPTS = ['country-code-selector.js', 'callback-modal.js', 'mainbundle.js'];
+const PHONE_SCRIPTS = ['country-code-selector.js', 'callback-modal.js', 'mainbundle.js', 'corporate-training-form.js'];
 
 // Everything that is published as a page. Components and templates are
 // partials: they reach visitors inside these files.

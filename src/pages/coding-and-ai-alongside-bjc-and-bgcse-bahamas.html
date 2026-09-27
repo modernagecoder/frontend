@@ -613,7 +613,10 @@ window.submitBahamasExamsLead = function (e) {
   // The Bahamas is in the North American Numbering Plan, so a family may type the
   // leading 1. Strip it, exactly as the US and Canada pages do, and nowhere else.
   if (d.length === 11 && d.charAt(0) === '1') { d = d.slice(1); }
-  if (d.length !== 10) { alert('Please enter a 10-digit Bahamas number, area code 242 first.'); return; }
+  // A number from another country (the picker hands over "+<code> ...")
+  // is not held to the Bahamas ten-digit rule.
+  var abroad = /^\s*\+(?!1\b)/.test(phoneRaw);
+  if (d.length !== 10 && !abroad) { alert('Please enter a 10-digit Bahamas number, area code 242 first.'); return; }
   var btn = form.querySelector('button[type="submit"]');
   var oldText = btn.textContent;
   btn.disabled = true; btn.textContent = 'Sending...';

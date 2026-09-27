@@ -1345,6 +1345,9 @@
       if (national.indexOf('00' + dial) === 0) candidates.push(national.slice(dial.length + 2));
       if (national.indexOf(dial + '0') === 0) candidates.push(national.slice(dial.length + 1));
       if (national.indexOf(dial) === 0) candidates.push(national.slice(dial.length));
+      // +1242 (Bahamas) and the other +1xxx countries: people write the
+      // number the North American way, area code first ("242 357 1234").
+      if (/^1\d{3}$/.test(dial) && national.indexOf(dial.slice(1)) === 0) candidates.push(national.slice(3));
       if (national.charAt(0) === '0' && !KEEPS_LEADING_ZERO[country.iso]) candidates.push(national.replace(/^0+/, ''));
       for (var i = 0; i < candidates.length; i++) {
         if (fitsNational(candidates[i], country.iso)) { national = candidates[i]; break; }
@@ -1389,7 +1392,7 @@
     if (el) el.parentNode.removeChild(el);
   }
 
-  function showProblem(tel, lead) {
+  function showProblem(tel, lead, canSendAnyway) {
     var r = phoneRangeFor(lead.iso);
     var want = r[0] === r[1] ? r[0] + ' digits' : r[0] + ' to ' + r[1] + ' digits';
     var other = ' If your number is from another country, tap '
@@ -1399,9 +1402,23 @@
       ? 'Please leave out the leading 0 when using the ' + lead.dial + ' country code.' + other
       : 'Phone numbers in ' + lead.name + ' (' + lead.dial + ') have ' + want
         + '; this one has ' + lead.national.length + '.' + other)
-      + ' To send it exactly as typed, press the button again.';
+      + (canSendAnyway ? ' To send it exactly as typed, press the button again.' : '');
     try { tel.focus(); } catch (e) { /* noop */ }
   }
+
+  // Many Indian pages carry pattern="[0-9]{10}" on the box. The browser then
+  // refuses the submit itself, before any script sees it, with a bubble that
+  // says only "match the requested format". Replace that with the message
+  // above, which says what is wrong and how to pick another country. (A
+  // foreign country swaps the pattern for 7-15 digits in applyCountry, so
+  // this only fires for a number that does not fit its own country.)
+  document.addEventListener('invalid', function (e) {
+    var t = e.target;
+    if (!t || t.tagName !== 'INPUT' || t.type !== 'tel' || !t.dataset.countryDial) return;
+    if (!digitsOf(t.value)) return; // empty required box: the browser's own prompt is right
+    e.preventDefault();
+    showProblem(t, readLead(t), false);
+  }, true);
 
   function forgetWarning(t) {
     if (t && t.dataset && t.dataset.macWarned) {
@@ -1435,7 +1452,7 @@
     var key = lead.iso + ':' + lead.raw;
     if (!lead.valid && tel.dataset.macWarned !== key) {
       tel.dataset.macWarned = key;
-      showProblem(tel, lead);
+      showProblem(tel, lead, true);
       e.preventDefault();
       e.stopImmediatePropagation();
       return;
@@ -1444,13 +1461,15 @@
     lead.at = Date.now();
     form.__macLead = lead;
 
-    // A page that hard-codes its own country (it carries the meta) checks
-    // the number against that country. When the visitor is from somewhere
-    // else, hand the page the full international number, which is long
-    // enough for any of those checks, and put their typing back once the
-    // page's handler has read it. The fetch hook sends the real values.
-    var page = pageCountry();
-    if (page && page.iso !== lead.iso) {
+    // A page's own script checks the number against the country it was
+    // written for: the one it hard-codes (it carries the meta), or India on
+    // every page that names none ("at least 10 digits"). When the visitor is
+    // from somewhere else, hand the page the full international number,
+    // which is long enough for any of those checks, and put their typing
+    // back once the page's handler has read it. The fetch and WhatsApp hooks
+    // send the real country and national number.
+    var assumed = pageCountry() || getCountryByIso(DEFAULT_ISO);
+    if (assumed && assumed.iso !== lead.iso) {
       var typed = tel.value;
       var intl = '+' + lead.dial.replace(/\D/g, '') + ' ' + lead.national;
       tel.value = intl;
@@ -1620,7 +1639,13 @@
 
   function phoneRangeFor(iso) {
     var r = PHONE_LENGTHS[String(iso || '').toUpperCase()];
-    return r || [E164_MIN, E164_MAX];
+    if (r) return r;
+    // The Caribbean members of the North American plan are listed with their
+    // area code in the dial code (the Bahamas is +1242), so what follows is
+    // the last seven digits.
+    var c = getCountryByIso(String(iso || '').toUpperCase());
+    if (c && /^\+1\d{3}$/.test(c.dial)) return [7, 7];
+    return [E164_MIN, E164_MAX];
   }
 
   /** The dial code for a country, digits only. '91' for India. */
