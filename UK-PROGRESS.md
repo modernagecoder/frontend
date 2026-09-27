@@ -372,7 +372,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 320 | best-coding-and-ai-classes-in-high-wycombe (hwy, #8A1582) | cg- town page | 2,591 | 1.4% vs coding-and-ai-classes-in-south-west-england | Made in High Wycombe? It depends on the gaps | Missing-data bounds vs complete-case share | 48df3a8f |
 | 321 | online-coding-and-python-classes-in-bracknell (bnl, #7E308A) | cg- town page | 2,483 | 2.6% vs best-coding-class-in-reading | Measuring rain in steps | Quantisation, carried remainders, resolution | 99d2a2b4 |
 | 322 | ai-and-programming-classes-in-guildford (gfd, #6C308A) | cg- town page | 2,480 | 2.9% vs best-coding-and-ai-classes-in-watford | Lewis Carroll logic solver | implication graph contrapositive vs converse | c3e355be |
-| 323 | best-coding-and-ai-classes-in-woking (wok, #4C3022) | cg- town page | 2,484 | 1.6% vs coding-classes-in-vale-of-glamorgan | H. G. Wells Mars fact-check | power-law scaling inverse square vs cube | (this commit) |
+| 323 | best-coding-and-ai-classes-in-woking (wok, #4C3022) | cg- town page | 2,484 | 1.6% vs coding-classes-in-vale-of-glamorgan | H. G. Wells Mars fact-check | power-law scaling inverse square vs cube | d76c0e0d |
+| 324 | online-coding-and-python-classes-in-bolton (bol, #6B255D) | cg- town page | 2,423 | 1.8% vs coding-and-ai-classes-in-south-east-england | Crompton yarn count prices | indirect units yarn count harmonic mean | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

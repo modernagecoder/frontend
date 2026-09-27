@@ -28005,5 +28005,45 @@
       "Distances and travel times: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-bolton": {
+    "market": "Bolton",
+    "bodyClass": "cg-bol",
+    "pageType": "city",
+    "curriculumAuthority": "Bolton (E08000001). Nomis Census 2021 TS007A: total 295,961; 0 to 4 18,458 (6.2%, England 5.4%); 5 to 9 20,434 (6.9%, 5.9%); 10 to 14 20,817 (7.0%, 6.0%); 15 to 19 18,319 (6.2%, 5.7%); 25 to 29 17,768 (6.0%, 6.6%); 85+ 5,794 (2.0%, 2.4%). ONS 2021 BUAs: Bolton 184,090; Farnworth 28,760; Westhoughton 21,960; Horwich 20,700. Project Gutenberg 70140, George W. Daniels, The early English cotton industry: Crompton born \"on the 3rd of December 1753\" at \"Firwood Fold, a hamlet in the township of Tonge, in the parish of Bolton\"; Hall-i-th-Wood; machine begun 1778, \"completed in 1779\"; \"14s. per lb. for 40's yarn, and as much as 25s. for 60's\"; \"numbers up to 40 hanks in the pound\".",
+    "localProject": "Indirect units and harmonic mean: 168d/40 = 4.2d per hank, 300d/60 = 5.0d per hank; per pound 1.79x, per hank 1.19x; equal-length blend of 60 hanks each = 120 hanks / 2.5 lb = count 48, equal-weight blend = 50. Lesson family: yarn count as inverse linear density; harmonic mean of rates.",
+    "requiredMentions": [
+      "184,090",
+      "Farnworth",
+      "Westhoughton",
+      "Horwich",
+      "Samuel Crompton",
+      "Firwood Fold",
+      "hanks in the pound",
+      "George W. Daniels",
+      "harmonic mean"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Bolton and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, George W. Daniels, The early English cotton industry (ebook 70140).",
+        "url": "https://www.gutenberg.org/ebooks/70140"
+      }
+    ],
+    "rejectedClaims": [
+      "Science Museum Group and Historic England records: both returned 403 on 27 September 2026; not used.",
+      "Crompton's later petitions and Parliamentary grant: not discussed.",
+      "Atherton and Clifton built-up areas: cross the boundary, not quoted.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices for our lessons: none; historic shillings appear only as Crompton's yarn prices."
+    ]
   }
 }
