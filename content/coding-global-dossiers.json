@@ -28649,5 +28649,49 @@
       "Distances and travel times: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-blackpool": {
+    "market": "Blackpool",
+    "bodyClass": "cg-bpl",
+    "pageType": "city",
+    "curriculumAuthority": "Blackpool (E06000009). Nomis Census 2021 TS007A: total 141,036; 5 to 9 7,905 (5.6%, England 5.9%); 20 to 24 7,446 (5.3%, 6.0%); 40 to 44 7,718 (5.5%, 6.3%); 55 to 59 10,993 (7.8%, 6.7%); 60 to 64 9,418 (6.7%, 5.8%); 75 to 79 5,821 (4.1%, 3.6%). ONS 2021 BUA Blackpool 149,070. The Blackpool Tower website: opened 1894; circus first opened 14 May 1894; ballroom interior by Frank Matcham completed 1900; \"Take a trip 380ft into the sky to the top of The Blackpool Tower\"; FY1 4BJ (postcodes.io: Blackpool).",
+    "localProject": "Angle of elevation: h = d tan t for h = 115.8 m (380 ft); worst error at plus or minus 0.5 degrees: 20 m 6.3 m (5.5%); 50 m 2.8 m; 115.8 m 2.0 m (1.8%); 200 m 2.3 m; 400 m 3.8 m; 1,000 m 8.9 m (7.6%); best whole-metre distance 117 m; relative error about angle error x 2 / sin(2t). Lesson family: trigonometry with sensitivity and an optimum.",
+    "requiredMentions": [
+      "149,070",
+      "141,036",
+      "380 feet",
+      "Tower Top",
+      "angle of elevation",
+      "FY1 4BJ",
+      "clinometer",
+      "115.8",
+      "Frank Matcham"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Blackpool and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "The Blackpool Tower, history page.",
+        "url": "https://www.theblackpooltower.com/history/"
+      },
+      {
+        "claim": "The Blackpool Tower, Tower Top page (380 ft).",
+        "url": "https://www.theblackpooltower.com/our-attractions/the-blackpool-tower-top/"
+      }
+    ],
+    "rejectedClaims": [
+      "The Tower's total height to the flagpole: not claimed; only the site's 380 feet for the Tower Top trip.",
+      "Illuminations: the Lancashire page anchor; not reused.",
+      "Admission prices, then or now: not repeated.",
+      "Named schools and school term dates: none named or read.",
+      "Distances between real Promenade spots and the Tower: not claimed; distances are model inputs.",
+      "Sterling prices: none."
+    ]
   }
 }
