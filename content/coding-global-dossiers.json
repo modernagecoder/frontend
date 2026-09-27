@@ -27866,5 +27866,52 @@
       "Distances and travel times: not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-bracknell": {
+    "market": "Bracknell",
+    "bodyClass": "cg-bnl",
+    "pageType": "city",
+    "curriculumAuthority": "Bracknell Forest (E06000036). Nomis Census 2021 TS007A: total 124,607; under 5 7,119 (5.7%, England 5.4%); 5 to 9 7,859 (6.3%, 5.9%); 10 to 14 8,081 (6.5%, 6.0%); 35 to 39 9,400 (7.5%, 6.7%); 40 to 44 9,155 (7.3%, 6.3%); 85+ 2,372 (1.9%, 2.4%). ONS 2021 BUAs: Bracknell 78,675; Sandhurst 20,215; Binfield 4,850. Science Museum Group co462443: \"Standard pattern Meteorological Office 5-inch rain gauge in stainless steel, devised by Martin N. Parker of the Meteorological Office's Engineering Design Services, Beaufort Park, Bracknell, UK, unsigned, 1998\"; \"a horizontal circular aperture of known diameter\"; \"stainless steel rather than previously traditional copper\". co474350: \"Met Office pattern tipping bucket rain gauge, Met Ref 9991631, 1997\". co474307: sea temperature bucket \"made by Meteorological Office Market Engineering, Bracknell, UK, 1997\".",
+    "localProject": "Tipping bucket, 0.2 mm tip (common design value, labelled). Invented showers 0.15, 3.70, 0.05, 12.35, 0.10, 0.08 (16.43). Carry-over: 0.0, 3.8, 0.0, 12.4, 0.0, 0.2 (16.4). Reset slip: 0.0, 3.6, 0.0, 12.2, 0.0, 0.0 (15.8). Rate steps 2.4 mm/h (5-min), 12 mm/h (1-min). 5-inch = 127 mm, 12,668 mm2, 12.7 ml per mm. Lesson family: quantisation, remainders, resolution.",
+    "requiredMentions": [
+      "Beaufort Park",
+      "rain gauge",
+      "tipping bucket",
+      "Sandhurst",
+      "Binfield",
+      "78,675",
+      "Martin N. Parker",
+      "quantisation"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Bracknell Forest and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Science Museum Group collection, standard Met Office 5-inch rain gauge (co462443).",
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co462443"
+      },
+      {
+        "claim": "Science Museum Group collection, Met Office tipping bucket rain gauge (co474350).",
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co474350"
+      },
+      {
+        "claim": "Science Museum Group collection, sea temperature bucket Mk 3B (co474307).",
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co474307"
+      }
+    ],
+    "rejectedClaims": [
+      "The actual tip size of the 1997 gauge: not in the record; 0.2 mm is labelled as a common value.",
+      "Dates of the Met Office move to and from Bracknell: not read from a source, not claimed.",
+      "Ascot and Crowthorne built-up areas: cross the boundary, not tabulated.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }

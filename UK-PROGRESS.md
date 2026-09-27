@@ -369,7 +369,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 317 | best-coding-and-ai-classes-in-watford (wat, #4C1B35) | cg- town page | 2,461 | 2.6% vs best-coding-class-in-reading | Down 80 per cent, up 313 per cent: back to normal? | Index numbers and asymmetric percentage change | 7508839d |
 | 318 | online-coding-and-python-classes-in-solihull (sol, #6B1065) | cg- town page | 2,553 | 1.5% vs best-coding-class-in-luton | How slow is slow to respond? | First-order lag, time constants, step stability | a65b511c |
 | 319 | ai-and-programming-classes-in-maidenhead (mdh, #82158A) | cg- town page | 2,526 | 1% vs best-coding-and-ai-classes-in-watford | Flatter arch, bigger push | Inverse proportion, arch thrust vs rise | 4c9c5591 |
-| 320 | best-coding-and-ai-classes-in-high-wycombe (hwy, #8A1582) | cg- town page | 2,591 | 1.4% vs coding-and-ai-classes-in-south-west-england | Made in High Wycombe? It depends on the gaps | Missing-data bounds vs complete-case share | (this commit) |
+| 320 | best-coding-and-ai-classes-in-high-wycombe (hwy, #8A1582) | cg- town page | 2,591 | 1.4% vs coding-and-ai-classes-in-south-west-england | Made in High Wycombe? It depends on the gaps | Missing-data bounds vs complete-case share | 48df3a8f |
+| 321 | online-coding-and-python-classes-in-bracknell (bnl, #7E308A) | cg- town page | 2,483 | 2.6% vs best-coding-class-in-reading | Measuring rain in steps | Quantisation, carried remainders, resolution | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
