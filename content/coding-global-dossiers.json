@@ -28517,5 +28517,49 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-warrington": {
+    "market": "Warrington",
+    "bodyClass": "cg-wrr",
+    "pageType": "city",
+    "curriculumAuthority": "Warrington (E06000007). Nomis Census 2021 TS007A: total 210,977; 20 to 24 10,502 (5.0%, England 6.0%); 25 to 29 12,510 (5.9%, 6.6%); 45 to 49 14,319 (6.8%, 6.4%); 50 to 54 16,074 (7.6%, 6.9%); 55 to 59 15,881 (7.5%, 6.7%); 75 to 79 8,206 (3.9%, 3.6%). ONS 2021 BUAs: Warrington 174,970; Lymm 11,545; Culcheth 6,720; Burtonwood 3,505. Project Gutenberg 75111, Memoirs of Dr. Joseph Priestley: born \"on the thirteenth of March, old style 1733\"; \"My removal to Warrington was in September, 1761\"; \"I continued six years\"; published the Chart of Biography while at Warrington. Project Gutenberg 56648, William Walker, Memoirs of the Distinguished Men of Science (1807-8): \"JOSEPH PRIESTLY, LL.D. Born March 24, 1773. Died February 26, 1804.\"; Appendix for \"Black, Cort, Ivory, and Priestly\".",
+    "localProject": "Data validation on 54 Born/Died records: died before 1807 flags 3 (Black 1799, Cort 1800, Priestly 1804), explained by the preface; age under 40 flags Priestly 31, a real error (1773 for 1733; 13 March OS = 24 March NS). Mean age at death 71.50 printed, 72.24 corrected; median 73.5 both; oldest Peter Dollond 1731 to 1820. Lesson family: validation rules, explained vs real flags, cross-source check.",
+    "requiredMentions": [
+      "174,970",
+      "Lymm",
+      "Culcheth",
+      "Burtonwood",
+      "Chart of Biography",
+      "Old Style",
+      "data validation",
+      "Henry Cort",
+      "Peter Dollond"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Warrington and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Memoirs of Dr. Joseph Priestley (ebook 75111).",
+        "url": "https://www.gutenberg.org/ebooks/75111"
+      },
+      {
+        "claim": "Project Gutenberg, William Walker, Memoirs of the Distinguished Men of Science of Great Britain Living in the Years 1807-8 (ebook 56648).",
+        "url": "https://www.gutenberg.org/ebooks/56648"
+      }
+    ],
+    "rejectedClaims": [
+      "Priestley's religious and political controversies: not discussed.",
+      "Where the Warrington academy stood today: not claimed.",
+      "The title page of this Gutenberg edition reads London, 1864; the page does not rely on the year.",
+      "Irlam built-up area: crosses the boundary, not quoted.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

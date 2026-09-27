@@ -384,7 +384,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 332 | best-coding-and-ai-classes-in-hemel-hempstead (hhm, #321B4C) | cg- town page | 2,609 | 1.2% vs best-coding-and-ai-classes-in-woking | paper sizes and root 2 | aspect ratio invariance root 2 | 904be159 |
 | 333 | online-coding-and-python-classes-in-crawley (crw, #32175C) | cg- town page | 2,480 | 1.4% vs ai-and-programming-classes-in-swindon | Gatwick passengers per flight | average of averages weighting | 86ff4556 |
 | 334 | ai-and-programming-classes-in-basingstoke (bsk, #7A3764) | cg- town page | 2,551 | 1.6% vs ai-and-programming-classes-in-blackburn | Austen sentence splitter | sentence boundary detection compensating errors | c44fda73 |
-| 335 | best-coding-and-ai-classes-in-bournemouth (bmt, #7A5055) | cg- town page | 2,470 | 2.7% vs best-coding-and-ai-classes-in-loughborough | Jekyll and Hyde narrator detector | stylometry narrative voice pronoun rates | (this commit) |
+| 335 | best-coding-and-ai-classes-in-bournemouth (bmt, #7A5055) | cg- town page | 2,470 | 2.7% vs best-coding-and-ai-classes-in-loughborough | Jekyll and Hyde narrator detector | stylometry narrative voice pronoun rates | e110f28a |
+| 336 | online-coding-and-python-classes-in-warrington (wrr, #4B3B6B) | cg- town page | 2,526 | 1.2% vs online-coding-and-python-classes-in-solihull | Priestley date validation | data validation rules explained vs real flags | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
