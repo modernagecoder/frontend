@@ -1271,3 +1271,4 @@
 .cg-root.cg-bkh  { --cg-accent: #3C5C4B; --cg-accent-soft: rgba(60,92,75,.10); }   /* Birkenhead: a park-lawn green (5.99:1 on the darkest paper tint) */
 .cg-root.cg-mds  { --cg-accent: #5C2944; --cg-accent-soft: rgba(92,41,68,.10); }   /* Maidstone: an ink-and-claret red (9.12:1 on the darkest paper tint) */
 .cg-root.cg-gil  { --cg-accent: #3E3E8A; --cg-accent-soft: rgba(62,62,138,.10); }   /* Gillingham: a dockyard navy blue (7.48:1 on the darkest paper tint) */
+.cg-root.cg-sth  { --cg-accent: #205C24; --cg-accent-soft: rgba(32,92,36,.10); }   /* St Helens: a bottle-glass green (6.46:1 on the darkest paper tint) */

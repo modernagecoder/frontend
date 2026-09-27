@@ -29253,5 +29253,46 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-st-helens": {
+    "market": "St Helens",
+    "bodyClass": "cg-sth",
+    "pageType": "city",
+    "curriculumAuthority": "St. Helens (E08000013). Nomis Census 2021 TS007A: total 183,248; 15 to 19 9,391 (5.1%, England 5.7%); 20 to 24 9,369 (5.1%, 6.0%); 55 to 59 13,290 (7.3%, 6.7%); 60 to 64 11,486 (6.3%, 5.8%); 65 to 69 9,968 (5.4%, 4.9%); 70 to 74 10,529 (5.7%, 5.0%). ONS 2021 BUAs: St Helens 107,680; Newton-le-Willows 24,650; Haydock 16,140; Rainford 5,575; Billinge 4,970. ORR Table 1415a (published 4 December 2025), ten stations with local authority St. Helens; cover sheet definitions of [x], [z], [b].",
+    "localProject": "2024-25: Newton-le-Willows 1,106,560; St Helens Central 669,452; Lea Green 400,690; Earlestown 330,956; St Helens Junction 206,320; Rainhill 186,148; Thatto Heath 148,722; Garswood 135,728; Eccleston Park 74,390; Rainford 26,220; total 3,285,186; top 33.7%, top two 54.1%, five stations for 80%. Newton/Central ratio 0.417 (1997-98), 0.881 (2007-08), 0.824 (2008-09, both jump), 0.995 (2012-13), 0.649 (2013-14, Central +62.7%), 0.620 (2017-18), 1.209 (2018-19, Central -49.5%), 1.653 (2024-25). Lesson family: rank change under level shifts, within-year ratio robustness, concentration.",
+    "requiredMentions": [
+      "183,248",
+      "107,680",
+      "Haydock",
+      "Rainford",
+      "Billinge",
+      "St Helens Central",
+      "Lea Green",
+      "Earlestown",
+      "Thatto Heath",
+      "1,106,560"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, St Helens and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Office of Rail and Road, Estimates of station usage, Table 1415 time series of entries, exits and interchanges.",
+        "url": "https://dataportal.orr.gov.uk/statistics/usage/estimates-of-station-usage/"
+      }
+    ],
+    "rejectedClaims": [
+      "Causes of the 2008-09, 2013-14 and 2018-19 jumps: not stated in the file; flagged, not explained.",
+      "The Rainhill Trials and the Rocket: already the Merseyside page's project; not used.",
+      "Glassmaking and chemical industry history: no readable source naming St Helens was found; not claimed.",
+      "Sankey Canal: Pratt's account concerns pollution and flooding; not used.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

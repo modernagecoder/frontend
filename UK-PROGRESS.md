@@ -401,7 +401,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 349 | ai-and-programming-classes-in-oldham (olh, #4C412A) | cg- town page | 2,692 | 2% vs ai-and-programming-classes-in-gateshead | how low does the Tame get, and how sure are we? | flow duration curve, exceedance vs percentile, selection bias from quality flags | 74f220e2 |
 | 350 | best-coding-and-ai-classes-in-birkenhead (bkh, #3C5C4B) | cg- town page | 2,686 | 1.4% vs ai-and-programming-classes-in-maidenhead | was the park really 120 acres? | polygon area from map coordinates, cos(latitude), ring orientation, historical acreage | ab07a57d |
 | 351 | online-coding-and-python-classes-in-maidstone (mds, #5C2944) | cg- town page | 2,785 | 1.4% vs coding-classes-in-somerset | does a writer repeat himself, and can code prove it? | text reuse detection via n-gram inverted index, threshold, source verification | 850af215 |
-| 352 | ai-and-programming-classes-in-gillingham (gil, #3E3E8A) | cg- town page | 2,680 | 2.5% vs online-coding-and-python-classes-in-rochdale | were Adams's miles wrong, or was his Gillingham elsewhere? | systematic error: scale vs offset via ratios and differences, collinearity | (this commit) |
+| 352 | ai-and-programming-classes-in-gillingham (gil, #3E3E8A) | cg- town page | 2,680 | 2.5% vs online-coding-and-python-classes-in-rochdale | were Adams's miles wrong, or was his Gillingham elsewhere? | systematic error: scale vs offset via ratios and differences, collinearity | 57b48ee9 |
+| 353 | best-coding-and-ai-classes-in-st-helens (sth, #205C24) | cg- town page | 2,671 | 2.8% vs best-coding-and-ai-classes-in-worthing | when did the busiest station really change? | rank change under level shifts, within-year ratio robustness, concentration | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
