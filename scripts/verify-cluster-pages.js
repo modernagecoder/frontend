@@ -207,7 +207,11 @@ function stripTags(h) {
     .replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'")
     .replace(/&middot;/g, '·').replace(/&rarr;/g, '→')
     .replace(/&#9733;/g, '').replace(/&nbsp;/g, ' ')
-    .replace(/&[a-z]+;|&#\d+;/gi, ' '));
+    .replace(/&[a-z]+;|&#\d+;/gi, ' '))
+    // A tag becomes a space above, so a link that ends a sentence ("...tuition</a>.")
+    // left "tuition ." and faked a schema/visible answer mismatch. Close that gap, but only
+    // when the mark ends a word, so "C# and .NET" keeps its space.
+    .replace(/ ([.,;:!?])(?=\s|$|["'”’)\]])/g, '$1');
 }
 
 let failures = 0;
@@ -221,8 +225,10 @@ for (const cluster of active) {
   // be EXACTLY "cg-faq-item", so the moment a second class was added to an item the
   // counter went blind and reported a schema/visible mismatch that did not exist.
   // The same brittleness once made the JSON-LD check miss every page in this repo.
-  const faqItemRe = new RegExp('<div class="[^"]*\\b' + P + '-faq-item\\b[^"]*">\\s*<h3>([\\s\\S]*?)<\\/h3>', 'g');
-  const faqAnsRe = new RegExp('<div class="[^"]*\\b' + P + '-faq-item\\b[^"]*">[\\s\\S]*?<p>([\\s\\S]*?)<\\/p>', 'g');
+  // Other attributes after the class are allowed too: data-retarget on two FAQ items of
+  // uk-gcse-computer-science-tutoring (2026-09-23) hid them and faked a 17 vs 15 mismatch.
+  const faqItemRe = new RegExp('<div class="[^"]*\\b' + P + '-faq-item\\b[^"]*"[^>]*>\\s*<h3>([\\s\\S]*?)<\\/h3>', 'g');
+  const faqAnsRe = new RegExp('<div class="[^"]*\\b' + P + '-faq-item\\b[^"]*"[^>]*>[\\s\\S]*?<p>([\\s\\S]*?)<\\/p>', 'g');
   const rootRe = new RegExp('\\b' + P + '-root\\b');
   const marketRe = new RegExp('\\b' + P + '-(' + cluster.markets.join('|') + ')\\b');
   const anyMarketRe = new RegExp('\\b' + P + '-(?!root)[a-z]+\\b');
