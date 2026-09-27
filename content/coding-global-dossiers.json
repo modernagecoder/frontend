@@ -28737,5 +28737,49 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-huddersfield": {
+    "market": "Huddersfield",
+    "bodyClass": "cg-hud",
+    "pageType": "city",
+    "curriculumAuthority": "Kirklees (E08000034). Nomis Census 2021 TS007A: total 433,214; 5 to 9 27,644 (6.4%, England 5.9%); 10 to 14 28,614 (6.6%, 6.0%); 15 to 19 26,867 (6.2%, 5.7%); 30 to 34 28,424 (6.6%, 7.0%); 50 to 54 30,860 (7.1%, 6.9%); 85+ 9,206 (2.1%, 2.4%). ONS 2021 BUAs: Huddersfield 141,675; Honley 14,395; Linthwaite and Slaithwaite 9,245; Meltham 8,325; Holmfirth 4,985; Marsden 3,690. EA Hydrology Huddersfield Longroyd Bridge, River Colne, 15-minute level (postcodes.io HD1 3LF, Kirklees). NRFA 27061: catchment 72.3 km2; \"Limited range flat-V weir, 12m wide\"; \"Lower catchment is urbanised (Huddersfield)\".",
+    "localProject": "Anomaly detection, 2025: 35,040 readings, all Good, none missing after fixing the min-date (exclusive) vs mineq-date (inclusive) download bug; flatline 2 h 723 runs (517 at or below median 0.275 m; 32.6% of readings), 6 h 107, 24 h 1 (0.223 m from 6 August); spike 0.05 m 13, 0.1 m 3, 0.2 m 0. Lesson family: anomaly rules, thresholds, false alarms.",
+    "requiredMentions": [
+      "141,675",
+      "433,214",
+      "Honley",
+      "Meltham",
+      "Longroyd Bridge",
+      "anomaly detection",
+      "false alarm",
+      "mineq-date",
+      "35,040"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Kirklees and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Environment Agency hydrology data, Huddersfield Longroyd Bridge 15-minute level.",
+        "url": "https://environment.data.gov.uk/hydrology/"
+      },
+      {
+        "claim": "National River Flow Archive, station 27061 Colne at Longroyd Bridge.",
+        "url": "https://nrfa.ceh.ac.uk/data/station/info/27061"
+      }
+    ],
+    "rejectedClaims": [
+      "High-water events and their dates: not described.",
+      "That the 6 August flatline was a fault: not claimed; flagged for a human look.",
+      "Textile, Luddite and rugby league history: not claimed (no primary source read; some content excluded).",
+      "Dewsbury, Batley and Mirfield figures: left for the Dewsbury page.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

@@ -1259,3 +1259,4 @@
 .cg-root.cg-ips  { --cg-accent: #8A2237; --cg-accent-soft: rgba(138,34,55,.10); }   /* Ipswich: a coaching-inn red (7.16:1 on the darkest paper tint) */
 .cg-root.cg-bpl  { --cg-accent: #4E308A; --cg-accent-soft: rgba(78,48,138,.10); }   /* Blackpool: an illumination-night indigo (8.01:1 on the darkest paper tint) */
 .cg-root.cg-mbr  { --cg-accent: #6B1028; --cg-accent-soft: rgba(107,16,40,.10); }   /* Middlesbrough: a Teesside ironstone red (9.78:1 on the darkest paper tint) */
+.cg-root.cg-hud  { --cg-accent: #12277A; --cg-accent-soft: rgba(18,39,122,.10); }   /* Huddersfield: a deep mill-town blue (10.6:1 on the darkest paper tint) */
