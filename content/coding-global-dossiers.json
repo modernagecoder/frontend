@@ -28693,5 +28693,49 @@
       "Distances between real Promenade spots and the Tower: not claimed; distances are model inputs.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-middlesbrough": {
+    "market": "Middlesbrough",
+    "bodyClass": "cg-mbr",
+    "pageType": "city",
+    "curriculumAuthority": "Middlesbrough (E06000002). Nomis Census 2021 TS007A: total 143,926; under 5 8,928 (6.2%, England 5.4%); 5 to 9 9,795 (6.8%, 5.9%); 20 to 24 10,171 (7.1%, 6.0%); 25 to 29 10,322 (7.2%, 6.6%); 45 to 49 7,930 (5.5%, 6.4%); 50 to 54 8,736 (6.1%, 6.9%). ONS 2021 BUAs: Middlesbrough 148,215; Stainton 1,815. Project Gutenberg 10842, Arthur Kitson, Life of Captain James Cook: Morton \"in the parish of Ormsby\"; \"the similarity of the two names has caused some confusion\"; \"clay biggin\"; \"born on 27th October 1728\"; sister married \"a Redcar fisherman\". postcodes.io places: Marton 25 results, 12 exact; Middlesbrough Marton = Suburban Area; Redcar town 54.6178, -1.0700; Morton 23 results, none in Middlesbrough or Redcar and Cleveland.",
+    "localProject": "Gazetteer disambiguation: 25 Marton results, 12 exact; distance from Redcar: Middlesbrough 12.8 km, North Yorkshire 43.9 and 64.9, East Riding 81.5 and 103.4, Westmorland and Furness 143.9, West Lindsey 145.2, Cheshire East 173.7, Cheshire West and Chester 185.0, Shropshire 231.9 and 258.3, Rugby 256.8. Morton: no confident match. Lesson family: disambiguation, exact vs partial matching, context scoring, refusal.",
+    "requiredMentions": [
+      "148,215",
+      "143,926",
+      "Stainton",
+      "Marton",
+      "Arthur Kitson",
+      "Ormsby",
+      "gazetteer",
+      "disambiguation",
+      "clay biggin"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Middlesbrough and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Arthur Kitson, The Life of Captain James Cook (ebook 10842).",
+        "url": "https://www.gutenberg.org/ebooks/10842"
+      },
+      {
+        "claim": "postcodes.io places search (Ordnance Survey Open Names), Marton, Morton and Redcar.",
+        "url": "https://api.postcodes.io/places?q=Marton"
+      }
+    ],
+    "rejectedClaims": [
+      "Where the Ormsby Morton lies today: not in the gazetteer; not claimed.",
+      "That the Middlesbrough Marton is certainly the birthplace: presented as the inference from the biography's clues, matching Kitson.",
+      "Cook's voyages and later life: not discussed.",
+      "Transporter Bridge and industrial history: not claimed (Historic England returned 403).",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
