@@ -1269,3 +1269,4 @@
 .cg-root.cg-wtg  { --cg-accent: #4C281B; --cg-accent-soft: rgba(76,40,27,.10); }   /* Worthing: a theatre-curtain umber (10.4:1 on the darkest paper tint) */
 .cg-root.cg-olh  { --cg-accent: #4C412A; --cg-accent-soft: rgba(76,65,42,.10); }   /* Oldham: a millstone-grit brown (8.07:1 on the darkest paper tint) */
 .cg-root.cg-bkh  { --cg-accent: #3C5C4B; --cg-accent-soft: rgba(60,92,75,.10); }   /* Birkenhead: a park-lawn green (5.99:1 on the darkest paper tint) */
+.cg-root.cg-mds  { --cg-accent: #5C2944; --cg-accent-soft: rgba(92,41,68,.10); }   /* Maidstone: an ink-and-claret red (9.12:1 on the darkest paper tint) */

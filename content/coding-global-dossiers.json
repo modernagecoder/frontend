@@ -29161,5 +29161,54 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-maidstone": {
+    "market": "Maidstone",
+    "bodyClass": "cg-mds",
+    "pageType": "city",
+    "curriculumAuthority": "Maidstone (E07000110). Nomis Census 2021 TS007A: total 175,782; 0 to 4 10,390 (5.9%, England 5.4%); 5 to 9 10,874 (6.2%, 5.9%); 15 to 19 8,920 (5.1%, 5.7%); 20 to 24 8,858 (5.0%, 6.0%); 70 to 74 9,299 (5.3%, 5.0%); 75 to 79 6,662 (3.8%, 3.6%). ONS 2021 BUAs: Maidstone 109,490; Coxheath 8,455; Bearsted 8,350; Staplehurst 6,180; Marden 3,490; Headcorn 3,295. Project Gutenberg 54219, Guiney, A Little English Gallery: Hazlitt born \"at Mitre Lane, Maidstone, Kent, on the 10th of April, in the year 1778\"; \"He cites, twice and thrice, the same passages from the Elizabethans.\" Gutenberg 3020 Hazlitt, Table Talk (33 essays). Gutenberg 8824 Wordsworth: \"Of splendour in the grass, of glory in the flower\"; \"Be now for ever taken from my sight\". Gutenberg 13535: \"Ev'n in our ashes live their wonted fires\". Gutenberg 1531 Othello: \"knows all qualities, with a learned spirit\".",
+    "localProject": "33 essays, 160,664 words, 152,827 without NOTES. Shared runs across essays: N 6 124; N 8 41 runs = 5 passages (30-word verse \"learneder\", Gray 16, Wordsworth 14 stopping at flow'r/flower, Othello 8, stock phrase \"so far is it from being true that\"); N 10 33 runs = 3 passages. Hazlitt swaps glory/splendour in both essays; \"vanish'd\" for \"taken\"; \"knew\" for \"knows\". Lesson family: text reuse detection via n-gram inverted index, threshold choice, stock phrases, spelling variants, editorial notes, source verification.",
+    "requiredMentions": [
+      "175,782",
+      "109,490",
+      "Coxheath",
+      "Bearsted",
+      "Staplehurst",
+      "Headcorn",
+      "William Hazlitt",
+      "Mitre Lane",
+      "Table Talk",
+      "splendour in the grass"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Maidstone and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Louise Imogen Guiney, A Little English Gallery (ebook 54219).",
+        "url": "https://www.gutenberg.org/ebooks/54219"
+      },
+      {
+        "claim": "Project Gutenberg, William Hazlitt, Table Talk: Essays on Men and Manners (ebook 3020).",
+        "url": "https://www.gutenberg.org/ebooks/3020"
+      },
+      {
+        "claim": "Project Gutenberg, William Wordsworth, Poems in Two Volumes, Volume 2 (ebook 8824).",
+        "url": "https://www.gutenberg.org/ebooks/8824"
+      }
+    ],
+    "rejectedClaims": [
+      "The author of the 30-word \"learneder\" verse: not verified against a source; left unattributed.",
+      "Whether Guiney's \"twice and thrice\" holds across Hazlitt's whole output: only Table Talk was tested.",
+      "Mitre Lane today or any plaque: not read from a source; not claimed.",
+      "Hazlitt's later life, politics and quarrels: not used.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

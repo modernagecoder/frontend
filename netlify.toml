@@ -15811,6 +15811,18 @@
   to = "/src/pages/best-coding-and-ai-classes-in-birkenhead.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-maidstone"
+  to = "/src/pages/online-coding-and-python-classes-in-maidstone.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-maidstone.md"
+  to = "/src/pages/online-coding-and-python-classes-in-maidstone.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
