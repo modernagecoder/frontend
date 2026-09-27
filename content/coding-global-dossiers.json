@@ -28169,5 +28169,45 @@
       "Distances and travel times: only the novel's own phrase about Dunchurch, quoted as the novel's.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-swindon": {
+    "market": "Swindon",
+    "bodyClass": "cg-swn",
+    "pageType": "city",
+    "curriculumAuthority": "Swindon (E06000030). Nomis Census 2021 TS007A: total 233,411; 5 to 9 15,156 (6.5%, England 5.9%); 20 to 24 12,028 (5.2%, 6.0%); 35 to 39 17,318 (7.4%, 6.7%); 40 to 44 16,278 (7.0%, 6.3%); 45 to 49 16,356 (7.0%, 6.4%); 70 to 74 9,838 (4.2%, 5.0%). ONS 2021 BUAs: Swindon 183,680 (small share outside the borough); Highworth 7,930; Wroughton 7,280; Broad Blunsdon 6,505. Project Gutenberg 40975, Alfred Williams, Life in a Railway Factory (First Published 1915): \"The site of the factory is the Wiltshire town of Swindon\"; \"About twelve thousand men, including clerks, are normally employed at the factory\"; appendix \"Table of average day wages per week of fifty-four hours paid to men employed at Swindon Railway Works, July 1914\", 36 trades, Foremen 70s. to Labourers, Unskilled 20s.",
+    "localProject": "Ranking with ties: 36 trades, 14 distinct wages, 8 at 28s. Carpenters row 22 (17 reversed), competition 16, dense 7, fractional 19.5; Smiths row 10, competition 9, dense 5, fractional 9.5; unskilled labourers competition 36, dense 14; ten trades have competition rank 9 or better. Per hour: 34s = 7.56d, 20s = 4.44d over 54 hours.",
+    "requiredMentions": [
+      "183,680",
+      "Highworth",
+      "Wroughton",
+      "Alfred Williams",
+      "Life in a Railway Factory",
+      "dense rank",
+      "competition rank",
+      "fifty-four hours",
+      "Swindon Railway Works"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Swindon and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Alfred Williams, Life in a Railway Factory (ebook 40975).",
+        "url": "https://www.gutenberg.org/ebooks/40975"
+      }
+    ],
+    "rejectedClaims": [
+      "The book's opinions about wages and workers: not repeated.",
+      "Numbers of men in each trade: not in the book; ranks are of trades only.",
+      "Any railway company name: not needed and not claimed.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices for lessons: none; shillings appear only as 1914 wages."
+    ]
   }
 }
