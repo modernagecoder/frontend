@@ -28985,5 +28985,50 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none (Byrn's telescope costs are not quoted)."
     ]
+  },
+  "best-coding-and-ai-classes-in-worthing": {
+    "market": "Worthing",
+    "bodyClass": "cg-wor",
+    "pageType": "city",
+    "curriculumAuthority": "Worthing (E07000229). Nomis Census 2021 TS007A: total 111,340; 15 to 19 5,440 (4.9%, England 5.7%); 20 to 24 5,193 (4.7%, 6.0%); 50 to 54 8,151 (7.3%, 6.9%); 70 to 74 6,627 (6.0%, 5.0%); 75 to 79 4,851 (4.4%, 3.6%); 85 and over 4,001 (3.6%, 2.4%). ONS 2021 BUA: Worthing 111,620 (single BUA, reaching slightly past the borough). OS Open Names (postcodes.io): Goring-by-Sea, Broadwater, West Tarring, Findon Valley, High Salvington in Worthing district. Project Gutenberg 844, Oscar Wilde, The Importance of Being Earnest: \"gave me the name of Worthing, because he happened to have a first-class ticket for Worthing in his pocket at the time. Worthing is a place in Sussex. It is a seaside resort.\"; cast list \"John Worthing, J.P.\"; Act I \"Algernon Moncrieff's Flat in Half-Moon Street, W.\"",
+    "localProject": "877 speeches (301/397/179); Jack 218, Algernon 201, Cecily 152, Gwendolen 101, Lady Bracknell 84, Chasuble 42, Miss Prism 41, Lane 21, Merriman 17. 874 within-act successor pairs; Jack to Algernon 100 (46.1% of 217), Algernon to Jack 94, Algernon to Cecily 58, Cecily to Algernon 56, Cecily to Gwendolen 53, Lady Bracknell to Jack 43 (51.2% of 84); 50 of 81 cells used; 2 self pairs; stage directions 1,608 words; \"149.\" zero words. Lesson family: successor count table (transition matrix) from a script, label mapping, act boundaries, stage directions.",
+    "requiredMentions": [
+      "111,340",
+      "111,620",
+      "Goring-by-Sea",
+      "Broadwater",
+      "High Salvington",
+      "Thomas Cardew",
+      "Importance of Being Earnest",
+      "transition matrix",
+      "Lady Bracknell",
+      "Half-Moon Street"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Worthing and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Oscar Wilde, The Importance of Being Earnest (ebook 844).",
+        "url": "https://www.gutenberg.org/ebooks/844"
+      },
+      {
+        "claim": "OS Open Names places in Worthing district, via postcodes.io.",
+        "url": "https://postcodes.io/"
+      }
+    ],
+    "rejectedClaims": [
+      "Where or when Wilde wrote the play: not in the Gutenberg text; not claimed.",
+      "First performance date: the text gives only the St James's Theatre and \"TIME: The Present\"; no year claimed.",
+      "Pier, seafront and railway facts: not read from a source; not claimed.",
+      "Named schools and school term dates: none named or read.",
+      "Talk-time rankings by word count: tokenisation-dependent; only the stage-direction total is given, with its rule stated.",
+      "Sterling prices: none."
+    ]
   }
 }
