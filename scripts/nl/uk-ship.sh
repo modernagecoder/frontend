@@ -46,6 +46,12 @@ done
 grep -q "href=\"/$SL\"" "src/pages/$HUB.html" || { echo "UK hub does not link to /$SL"; exit 1; }
 c=$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 "http://localhost:3001/$SL"); [ "$c" = 200 ] || { echo "/$SL returns $c locally"; exit 1; }
 
+# Phone country picker + mac-lead-country meta (d826ae5d5). Netlify's build:phone adds them at
+# deploy anyway; running it here keeps the committed pages identical to what ships. Idempotent:
+# it only touches pages that lack the tags, which after a rebuild are this page and the indexes.
+node scripts/ensure-phone-country.js > "$LOG/${SL}_phone.txt" 2>&1 || { tail -5 "$LOG/${SL}_phone.txt"; exit 1; }
+node scripts/ensure-phone-country.js --check > "$LOG/${SL}_phonecheck.txt" 2>&1 || { tail -5 "$LOG/${SL}_phonecheck.txt"; exit 1; }
+
 node scripts/nl/finish.js --tracker UK-PROGRESS.md --slug "$SL" --row "$ROW" --type "$TYPE" --spine "$SPINE" --trap "$FAMILY" --build "$LOG/${SL}_build.txt" --check "$C" || exit 1
 
 IDX=""; for P in $INDEXES; do [ -f "src/pages/$P.html" ] && IDX="$IDX content/uk/$P.js src/pages/$P.html src/pages/$P.md"; done
