@@ -1265,3 +1265,5 @@
 .cg-root.cg-bsn  { --cg-accent: #5F127A; --cg-accent-soft: rgba(95,18,122,.10); }   /* Basildon: a new-town violet (9.13:1 on the darkest paper tint) */
 .cg-root.cg-gat  { --cg-accent: #5F377A; --cg-accent-soft: rgba(95,55,122,.10); }   /* Gateshead: a night-sky violet (7.31:1 on the darkest paper tint) */
 .cg-root.cg-roc  { --cg-accent: #29555C; --cg-accent-soft: rgba(41,85,92,.10); }   /* Rochdale: a canal-water teal (6.64:1 on the darkest paper tint) */
+.cg-root.cg-clt  { --cg-accent: #5C1C17; --cg-accent-soft: rgba(92,28,23,.10); }   /* Cheltenham: a Regency ironwork brown-red (10.36:1 on the darkest paper tint) */
+.cg-root.cg-wtg  { --cg-accent: #4C281B; --cg-accent-soft: rgba(76,40,27,.10); }   /* Worthing: a theatre-curtain umber (10.4:1 on the darkest paper tint) */

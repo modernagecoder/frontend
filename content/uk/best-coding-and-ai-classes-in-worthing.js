@@ -28,7 +28,7 @@ module.exports = {
   hub: { group: 'town', tag: 'WORTHING', label: 'Worthing', blurb: 'Coding and AI classes for Worthing, with a project that counts who answers whom in the Oscar Wilde comedy that named its hero after the town.' },
   market: { iso: 'GB', dial: '+44', name: 'United Kingdom', locale: 'en_GB', geoRegion: 'GB', phoneLabel: 'UK mobile number', phonePlaceholder: '7700 900123', gradeLabel: 'School year or age', minDigits: 10, stripTrunk: true },
   slug: 'best-coding-and-ai-classes-in-worthing',
-  code: 'wor',
+  code: 'wtg',
   accent: '#4C281B',
   accentRationale: 'Worthing: a theatre-curtain umber (10.4:1 on the darkest paper tint)',
   pageType: 'city',
@@ -224,16 +224,16 @@ module.exports = {
   ],
 
   personalityCss: `
-.cg-root.cg-wor .cg-hero-grid { align-items: center; gap: clamp(1.1rem, 2.8vw, 2.4rem); }
-.cg-root.cg-wor .cg-hero h1 { font-weight: 720; letter-spacing: -0.022em; line-height: 1.06; font-style: italic; }
-.cg-root.cg-wor .cg-capsule { border-top: 3px double var(--cg-accent); padding-top: 0.9rem; }
-.cg-root.cg-wor .cg-eyebrow { letter-spacing: 0.22em; font-weight: 650; text-transform: uppercase; }
-.cg-root.cg-wor .cg-section-head h2 { max-width: 20ch; letter-spacing: -0.015em; }
-.cg-root.cg-wor .cg-table caption { font-weight: 500; text-align: left; letter-spacing: 0.03em; }
-.cg-root.cg-wor .cg-table td { font-variant-numeric: tabular-nums; }
-.cg-root.cg-wor .cg-table th { letter-spacing: 0.04em; font-weight: 700; font-size: 0.8rem; }
-.cg-root.cg-wor .cg-ladder-col { border-top: 3px solid var(--cg-accent); padding-top: 0.7rem; }
-.cg-root.cg-wor .cg-callout { border-left-width: 4px; border-radius: 0 14px 14px 0; }
+.cg-root.cg-wtg .cg-hero-grid { align-items: center; gap: clamp(1.1rem, 2.8vw, 2.4rem); }
+.cg-root.cg-wtg .cg-hero h1 { font-weight: 720; letter-spacing: -0.022em; line-height: 1.06; font-style: italic; }
+.cg-root.cg-wtg .cg-capsule { border-top: 3px double var(--cg-accent); padding-top: 0.9rem; }
+.cg-root.cg-wtg .cg-eyebrow { letter-spacing: 0.22em; font-weight: 650; text-transform: uppercase; }
+.cg-root.cg-wtg .cg-section-head h2 { max-width: 20ch; letter-spacing: -0.015em; }
+.cg-root.cg-wtg .cg-table caption { font-weight: 500; text-align: left; letter-spacing: 0.03em; }
+.cg-root.cg-wtg .cg-table td { font-variant-numeric: tabular-nums; }
+.cg-root.cg-wtg .cg-table th { letter-spacing: 0.04em; font-weight: 700; font-size: 0.8rem; }
+.cg-root.cg-wtg .cg-ladder-col { border-top: 3px solid var(--cg-accent); padding-top: 0.7rem; }
+.cg-root.cg-wtg .cg-callout { border-left-width: 4px; border-radius: 0 14px 14px 0; }
 `,
 
   dossier: {

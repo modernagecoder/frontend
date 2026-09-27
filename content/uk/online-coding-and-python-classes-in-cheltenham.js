@@ -27,7 +27,7 @@ module.exports = {
   hub: { group: 'town', tag: 'CHELTENHAM', label: 'Cheltenham', blurb: 'Online coding and Python classes for Cheltenham, with a project that finds the word pairs that define a biography of Dorothea Beale.' },
   market: { iso: 'GB', dial: '+44', name: 'United Kingdom', locale: 'en_GB', geoRegion: 'GB', phoneLabel: 'UK mobile number', phonePlaceholder: '7700 900123', gradeLabel: 'School year or age', minDigits: 10, stripTrunk: true },
   slug: 'online-coding-and-python-classes-in-cheltenham',
-  code: 'chl',
+  code: 'clt',
   accent: '#5C1C17',
   accentRationale: 'Cheltenham: a Regency ironwork brown-red (10.36:1 on the darkest paper tint)',
   pageType: 'city',
@@ -222,16 +222,16 @@ module.exports = {
   ],
 
   personalityCss: `
-.cg-root.cg-chl .cg-hero-grid { align-items: center; gap: clamp(1.1rem, 3vw, 2.6rem); }
-.cg-root.cg-chl .cg-hero h1 { font-weight: 720; letter-spacing: -0.024em; line-height: 1.06; font-style: italic; }
-.cg-root.cg-chl .cg-capsule { border-left: 4px solid var(--cg-accent); padding-left: 1.05rem; }
-.cg-root.cg-chl .cg-eyebrow { letter-spacing: 0.17em; font-weight: 700; text-transform: uppercase; }
-.cg-root.cg-chl .cg-section-head h2 { max-width: 22ch; letter-spacing: -0.019em; }
-.cg-root.cg-chl .cg-table caption { font-weight: 600; text-align: left; font-style: italic; }
-.cg-root.cg-chl .cg-table td { font-variant-numeric: tabular-nums; }
-.cg-root.cg-chl .cg-table th { letter-spacing: 0.05em; font-weight: 700; font-size: 0.79rem; }
-.cg-root.cg-chl .cg-ladder-col { border-top: 4px solid var(--cg-accent); padding-top: 0.8rem; }
-.cg-root.cg-chl .cg-callout { border-left-width: 5px; border-radius: 0 12px 12px 0; }
+.cg-root.cg-clt .cg-hero-grid { align-items: center; gap: clamp(1.1rem, 3vw, 2.6rem); }
+.cg-root.cg-clt .cg-hero h1 { font-weight: 720; letter-spacing: -0.024em; line-height: 1.06; font-style: italic; }
+.cg-root.cg-clt .cg-capsule { border-left: 4px solid var(--cg-accent); padding-left: 1.05rem; }
+.cg-root.cg-clt .cg-eyebrow { letter-spacing: 0.17em; font-weight: 700; text-transform: uppercase; }
+.cg-root.cg-clt .cg-section-head h2 { max-width: 22ch; letter-spacing: -0.019em; }
+.cg-root.cg-clt .cg-table caption { font-weight: 600; text-align: left; font-style: italic; }
+.cg-root.cg-clt .cg-table td { font-variant-numeric: tabular-nums; }
+.cg-root.cg-clt .cg-table th { letter-spacing: 0.05em; font-weight: 700; font-size: 0.79rem; }
+.cg-root.cg-clt .cg-ladder-col { border-top: 4px solid var(--cg-accent); padding-top: 0.8rem; }
+.cg-root.cg-clt .cg-callout { border-left-width: 5px; border-radius: 0 12px 12px 0; }
 `,
 
   dossier: {

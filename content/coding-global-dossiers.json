@@ -28904,7 +28904,7 @@
   },
   "online-coding-and-python-classes-in-cheltenham": {
     "market": "Cheltenham",
-    "bodyClass": "cg-chl",
+    "bodyClass": "cg-clt",
     "pageType": "city",
     "curriculumAuthority": "Cheltenham (E07000078). Nomis Census 2021 TS007A: total 118,833; 5 to 9 6,378 (5.4%, England 5.9%); 20 to 24 7,895 (6.6%, 6.0%); 25 to 29 8,134 (6.8%, 6.6%); 50 to 54 7,896 (6.6%, 6.9%); 80 to 84 3,337 (2.8%, 2.5%); 85+ 3,671 (3.1%, 2.4%). ONS 2021 BUA Cheltenham 115,940. Project Gutenberg 69599, Elizabeth Helen Shillito, Dorothea Beale: opened \"February 13, 1854, in Cambray House\"; \"the 100 pupils had increased to 150\"; \"at the end of 1857 the numbers had fallen to 89\". Project Gutenberg 60064, Elizabeth Raikes, Dorothea Beale of Cheltenham: \"one hundred and twenty pupils\"; \"first to ninety-three, then to eighty-nine\".",
     "localProject": "Collocations in Raikes (146,461 words; 71,376 distinct pairs; 76.2% once): raw count of the 1,340, in the 700, to the 530, miss beale 514; raw PMI 273 pairs tie at 17.2 bits (all once, incl. editors' notes); min 5 names; min 20 boarding houses 10.7, head mistress 10.0, lady principal 8.8, old pupil 8.7; ladies college 71 (7.4). ASCII tokeniser splits Fräulein (5). Lesson family: collocation scoring, PMI, thresholds, tokenisation.",
@@ -28988,7 +28988,7 @@
   },
   "best-coding-and-ai-classes-in-worthing": {
     "market": "Worthing",
-    "bodyClass": "cg-wor",
+    "bodyClass": "cg-wtg",
     "pageType": "city",
     "curriculumAuthority": "Worthing (E07000229). Nomis Census 2021 TS007A: total 111,340; 15 to 19 5,440 (4.9%, England 5.7%); 20 to 24 5,193 (4.7%, 6.0%); 50 to 54 8,151 (7.3%, 6.9%); 70 to 74 6,627 (6.0%, 5.0%); 75 to 79 4,851 (4.4%, 3.6%); 85 and over 4,001 (3.6%, 2.4%). ONS 2021 BUA: Worthing 111,620 (single BUA, reaching slightly past the borough). OS Open Names (postcodes.io): Goring-by-Sea, Broadwater, West Tarring, Findon Valley, High Salvington in Worthing district. Project Gutenberg 844, Oscar Wilde, The Importance of Being Earnest: \"gave me the name of Worthing, because he happened to have a first-class ticket for Worthing in his pocket at the time. Worthing is a place in Sussex. It is a seaside resort.\"; cast list \"John Worthing, J.P.\"; Act I \"Algernon Moncrieff's Flat in Half-Moon Street, W.\"",
     "localProject": "877 speeches (301/397/179); Jack 218, Algernon 201, Cecily 152, Gwendolen 101, Lady Bracknell 84, Chasuble 42, Miss Prism 41, Lane 21, Merriman 17. 874 within-act successor pairs; Jack to Algernon 100 (46.1% of 217), Algernon to Jack 94, Algernon to Cecily 58, Cecily to Algernon 56, Cecily to Gwendolen 53, Lady Bracknell to Jack 43 (51.2% of 84); 50 of 81 cells used; 2 self pairs; stage directions 1,608 words; \"149.\" zero words. Lesson family: successor count table (transition matrix) from a script, label mapping, act boundaries, stage directions.",
