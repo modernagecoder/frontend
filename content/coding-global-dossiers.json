@@ -28561,5 +28561,53 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-telford": {
+    "market": "Telford",
+    "bodyClass": "cg-tlf",
+    "pageType": "city",
+    "curriculumAuthority": "Telford and Wrekin (E06000020). Nomis Census 2021 TS007A: total 185,542; under 5 10,562 (5.7%, England 5.4%); 5 to 9 11,869 (6.4%, 5.9%); 10 to 14 12,142 (6.5%, 6.0%); 50 to 54 13,476 (7.3%, 6.9%); 80 to 84 4,288 (2.3%, 2.5%); 85+ 3,579 (1.9%, 2.4%). ONS 2021 BUAs: Telford 156,910; Newport 14,190. Project Gutenberg 939, Smiles, Life of Thomas Telford: project \"actively taken up in 1776\"; \"opened for traffic in 1779\"; \"one semicircular arch, of 100 feet span\"; Buildwas \"130 feet span\"; \"30 feet wider\"; \"173, whereas the other contained 378 tons\". Project Gutenberg 404, Smiles, Industrial Biography: Pritchard plan \"120 feet span\"; Thomas Gregory; abutments \"built in 1777-8\"; ironwork erected \"in the course of three months\"; Telford quoted: \"executed in 1777\". postcodes.io places: Ironbridge, Coalbrookdale, Madeley in Telford and Wrekin; Buildwas in Shropshire.",
+    "localProject": "Claims as unit tests: 130 - 100 == 30 pass; 173 < 189 pass (45.8%); span 100 vs 120 fails until the object is named (120 = Pritchard plan); year 1777 vs 1779 fails until \"work done\" and \"opened\" are separate fields. Lesson family: executable claims, unit tests, ambiguous specifications.",
+    "requiredMentions": [
+      "156,910",
+      "14,190",
+      "Coalbrookdale",
+      "Iron Bridge",
+      "Buildwas",
+      "378 tons",
+      "Madeley",
+      "unit test",
+      "Thomas Gregory"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Telford and Wrekin and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Samuel Smiles, The Life of Thomas Telford (ebook 939).",
+        "url": "https://www.gutenberg.org/ebooks/939"
+      },
+      {
+        "claim": "Project Gutenberg, Samuel Smiles, Industrial Biography: Iron Workers and Tool Makers (ebook 404).",
+        "url": "https://www.gutenberg.org/ebooks/404"
+      },
+      {
+        "claim": "postcodes.io places search (OS Open Names) for Ironbridge, Coalbrookdale, Madeley and Buildwas.",
+        "url": "https://api.postcodes.io/places?q=Coalbrookdale"
+      }
+    ],
+    "rejectedClaims": [
+      "That the town of Telford is named after Thomas Telford: not in the sources read; not claimed.",
+      "Buildwas is in Shropshire, not Telford and Wrekin; no direction or distance is claimed.",
+      "Modern measurements of the bridge: not claimed; only Smiles's figures.",
+      "World Heritage status and visitor figures: not claimed.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

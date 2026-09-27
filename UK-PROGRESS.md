@@ -385,7 +385,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 333 | online-coding-and-python-classes-in-crawley (crw, #32175C) | cg- town page | 2,480 | 1.4% vs ai-and-programming-classes-in-swindon | Gatwick passengers per flight | average of averages weighting | 86ff4556 |
 | 334 | ai-and-programming-classes-in-basingstoke (bsk, #7A3764) | cg- town page | 2,551 | 1.6% vs ai-and-programming-classes-in-blackburn | Austen sentence splitter | sentence boundary detection compensating errors | c44fda73 |
 | 335 | best-coding-and-ai-classes-in-bournemouth (bmt, #7A5055) | cg- town page | 2,470 | 2.7% vs best-coding-and-ai-classes-in-loughborough | Jekyll and Hyde narrator detector | stylometry narrative voice pronoun rates | e110f28a |
-| 336 | online-coding-and-python-classes-in-warrington (wrr, #4B3B6B) | cg- town page | 2,526 | 1.2% vs online-coding-and-python-classes-in-solihull | Priestley date validation | data validation rules explained vs real flags | (this commit) |
+| 336 | online-coding-and-python-classes-in-warrington (wrr, #4B3B6B) | cg- town page | 2,526 | 1.2% vs online-coding-and-python-classes-in-solihull | Priestley date validation | data validation rules explained vs real flags | 88b42bb5 |
+| 337 | ai-and-programming-classes-in-telford (tlf, #5B2B7A) | cg- town page | 2,521 | 2.1% vs online-coding-and-python-classes-in-crawley | Iron Bridge claims as tests | unit tests on claims ambiguous specification | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
