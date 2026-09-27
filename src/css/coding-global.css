@@ -1267,3 +1267,4 @@
 .cg-root.cg-roc  { --cg-accent: #29555C; --cg-accent-soft: rgba(41,85,92,.10); }   /* Rochdale: a canal-water teal (6.64:1 on the darkest paper tint) */
 .cg-root.cg-clt  { --cg-accent: #5C1C17; --cg-accent-soft: rgba(92,28,23,.10); }   /* Cheltenham: a Regency ironwork brown-red (10.36:1 on the darkest paper tint) */
 .cg-root.cg-wtg  { --cg-accent: #4C281B; --cg-accent-soft: rgba(76,40,27,.10); }   /* Worthing: a theatre-curtain umber (10.4:1 on the darkest paper tint) */
+.cg-root.cg-olh  { --cg-accent: #4C412A; --cg-accent-soft: rgba(76,65,42,.10); }   /* Oldham: a millstone-grit brown (8.07:1 on the darkest paper tint) */
