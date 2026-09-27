@@ -28821,5 +28821,45 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-stockport": {
+    "market": "Stockport",
+    "bodyClass": "cg-stk",
+    "pageType": "city",
+    "curriculumAuthority": "Stockport (E08000007). Nomis Census 2021 TS007A: total 294,776; 20 to 24 13,367 (4.5%, England 6.0%); 25 to 29 16,943 (5.7%, 6.6%); 40 to 44 19,504 (6.6%, 6.3%); 65 to 69 15,298 (5.2%, 4.9%); 75 to 79 11,483 (3.9%, 3.6%); 85+ 8,262 (2.8%, 2.4%). ONS 2021 BUAs: Stockport 117,935; Cheadle Hulme 24,785; Reddish 22,200; Hazel Grove 20,170; Bramhall 17,195. ORR Table 1415a, Stockport (SPT): 1997-98 1,977,369; 2003-04 [x]; 2004-05 1,608,240; 2013-14 3,505,408; 2014-15 3,411,494; 2018-19 4,437,070; 2019-20 4,305,068; 2020-21 913,096; 2024-25 4,295,970; 19 stations with local authority Stockport.",
+    "localProject": "Turning points: naive neighbour rule 9 (peaks 1999-00, 2002-03 false via gap, 2013-14, 2018-19; troughs 1998-99, 2001-02, 2004-05, 2014-15, 2020-21); zigzag 2% 10; 5%, 10%, 20%, 50% the same 3 (2004-05, 2018-19, 2020-21). 2020-21 78.8% below 2019-20; 2024-25 3.2% below 2018-19. Lesson family: turning-point detection, zigzag threshold, missing values.",
+    "requiredMentions": [
+      "117,935",
+      "294,776",
+      "Cheadle Hulme",
+      "Bramhall",
+      "zigzag",
+      "turning point",
+      "4,437,070",
+      "913,096",
+      "1,608,240"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Stockport and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Office of Rail and Road, Table 1415 time series of passenger entries and exits by station.",
+        "url": "https://dataportal.orr.gov.uk/statistics/usage/estimates-of-station-usage/"
+      }
+    ],
+    "rejectedClaims": [
+      "Stockport Viaduct facts: Network Rail page returned 403; not claimed.",
+      "Hat Works and hatting history: not used on the page.",
+      "Reasons for any rise or fall in station use: not claimed.",
+      "Named schools and school term dates: none named or read.",
+      "Distances and travel times: not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }

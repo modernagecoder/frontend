@@ -4494,4 +4494,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /online-coding-and-python-classes-in-poole /src/pages/online-coding-and-python-classes-in-poole.html 200
 /online-coding-and-python-classes-in-poole.md /src/pages/online-coding-and-python-classes-in-poole.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/ai-and-programming-classes-in-stockport /src/pages/ai-and-programming-classes-in-stockport.html 200
+/ai-and-programming-classes-in-stockport.md /src/pages/ai-and-programming-classes-in-stockport.md 200
 /* /src/pages/404.html 404
