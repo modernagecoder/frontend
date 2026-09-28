@@ -29294,5 +29294,46 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-west-bromwich": {
+    "market": "West Bromwich",
+    "bodyClass": "cg-wbr",
+    "pageType": "city",
+    "curriculumAuthority": "Sandwell (E08000028). Nomis Census 2021 TS001 total 341,832; TS007A: 0 to 4 22,176 (6.5%, England 5.4%); 5 to 9 24,566 (7.2%, 5.9%); 10 to 14 24,356 (7.1%, 6.0%); 15 to 19 22,002 (6.4%, 5.7%); 65 to 69 13,857 (4.1%, 4.9%); 70 to 74 12,657 (3.7%, 5.0%). ONS 2021 BUAs touching Sandwell (published | residents inside Sandwell by OA lookup): Birmingham 1,121,375 | 3,156; West Bromwich 103,110 | 102,822; Halesowen 60,110 | 586; Smethwick 56,340 | 56,343; Tipton 47,200 | 47,202; Oldbury 45,180 | 45,188; Rowley Regis 39,050 | 38,394; Coseley 25,205 | 180; Darlaston 21,540 | 1,882; Wednesbury 20,315 | 20,321; Cradley Heath 18,820 | 18,819; Blackheath 6,950 | 6,950.",
+    "localProject": "Vibe-coded three-tool agent (area lookup, inside count, borough total). Naive answer: sum of published figures of every touching BUA = 1,565,195 (4.58 x borough). Correct: inside counts sum to 341,843, 11 above the published 341,832; guardrails: answer <= published total, quote published total, print tool calls. Lesson family: tool-using AI agent design, spatial containment of straddling areas, total-bound guardrail, published total vs sum of parts.",
+    "requiredMentions": [
+      "341,832",
+      "103,110",
+      "Smethwick",
+      "Tipton",
+      "Wednesbury",
+      "Cradley Heath",
+      "Rowley Regis",
+      "1,565,195",
+      "tool calls",
+      "guardrail"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS001 and TS007A, Sandwell and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and output area to built-up area lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Office for National Statistics, built-up areas in England and Wales, Census 2021.",
+        "url": "https://www.ons.gov.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Who coined \"vibe coding\" and when: not needed on this page; not claimed.",
+      "Football, industrial or canal history of West Bromwich: no readable primary source found; not used.",
+      "Diversity or ethnicity figures for Sandwell: identity data excluded by the cluster rules.",
+      "Gemini Enterprise agents pricing: a different price row; not quoted.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

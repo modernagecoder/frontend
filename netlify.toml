@@ -15847,6 +15847,18 @@
   to = "/src/pages/best-coding-and-ai-classes-in-st-helens.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-west-bromwich"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-west-bromwich.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-west-bromwich.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-west-bromwich.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
