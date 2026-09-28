@@ -172,6 +172,10 @@
         ]
       },
       {
+        "type": "paragraph",
+        "text": "The distance calculation behind every game engine is Pythagoras' theorem on a grid. <a href='/blog/pythagoras-theorem-explained'>Pythagoras' theorem explained</a> shows it in Python, alongside the proof and the 3D version."
+      },
+      {
         "type": "callout",
         "calloutType": "info",
         "title": "Know which kind you are aiming at",

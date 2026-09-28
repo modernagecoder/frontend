@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "slug": "pythagoras-theorem-explained",
+    "title": "Pythagoras Theorem Explained, With a Visual Proof",
+    "description": "Pythagoras theorem explained: what a² + b² = c² means, a visual proof, when to add or subtract, the converse, triples, distance and real-life uses.",
+    "keywords": [
+      "pythagoras theorem",
+      "pythagoras theorem explained",
+      "pythagorean theorem",
+      "pythagoras theorem proof",
+      "pythagorean triples",
+      "how to use pythagoras theorem",
+      "converse of pythagoras theorem",
+      "a2 + b2 = c2"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Maths",
+    "tags": [
+      "Maths",
+      "Geometry",
+      "Pythagoras",
+      "Students"
+    ],
+    "readTime": "9 min read",
+    "featured": false,
+    "tldr": "Pythagoras' theorem says that in a right-angled triangle, the square of the hypotenuse (the longest side, opposite the right angle) equals the sum of the squares of the other two sides: a² + b² = c². To find the hypotenuse, add the squares and take the square root; to find a shorter side, subtract. It only works for right-angled triangles. The converse tests for a right angle, Pythagorean triples like 3, 4, 5 fit it exactly, and the distance formula is the same idea on a grid."
+  },
+  "hero": {
+    "title": "Pythagoras' Theorem Explained",
+    "subtitle": "What a² + b² = c² really means, a proof you can check with paper triangles, when to add and when to subtract, and where it turns up in real life.",
+    "featuredImage": {
+      "url": "/images/blog/pythagoras-theorem-explained/00-hero.png",
+      "alt": "Pythagoras theorem explained: a 3-4-5 right triangle with squares of area 9, 16 and 25 on its sides"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pythagoras' theorem is probably the most famous result in all of mathematics, and for good reason. It connects the three sides of any right-angled triangle with one short equation, it has been proved in hundreds of different ways, and it quietly powers everything from building work to the graphics in video games. It is also one of the first places in school maths where students meet a real proof, which is why it deserves more than a formula to memorise."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide explains what the theorem says, proves it with a picture you can check with scissors, shows how to use it in both directions, and covers the converse, Pythagorean triples, distance and 3D. Every numerical answer here was checked by running it in Python, and the code is included."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "In a right-angled triangle, the square of the longest side (the hypotenuse) equals the sum of the squares of the other two sides: a² + b² = c². To find the hypotenuse, add the squares and take the square root. To find a shorter side, subtract. The theorem only works for right-angled triangles, and the converse lets you test whether a triangle has a right angle."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What Pythagoras' theorem says",
+        "id": "what-it-says"
+      },
+      {
+        "type": "paragraph",
+        "text": "Take any triangle with a right angle, a 90 degree corner. The side opposite the right angle is called the <strong>hypotenuse</strong>. It is always the longest side. Call it c, and call the other two sides a and b. Then:"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>a² + b² = c²</strong>"
+      },
+      {
+        "type": "paragraph",
+        "text": "\"a²\" means a squared, a times a, and it really is the area of a square with sides of length a. So the theorem is a statement about areas: if you draw a square on each side of a right-angled triangle, the two smaller squares together have exactly the same area as the big one. For the famous 3, 4, 5 triangle, that is 9 + 16 = 25."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A proof you can check with scissors",
+        "id": "proof"
+      },
+      {
+        "type": "paragraph",
+        "text": "Plenty of students can quote a² + b² = c² without ever being shown why it is true. Here is one of the oldest and clearest proofs, and it needs no algebra at all."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/pythagoras-theorem-explained/01-proof.png",
+        "alt": "Rearrangement proof of Pythagoras' theorem: the same big square with four identical triangles arranged two ways, leaving either c squared or a squared plus b squared",
+        "caption": "Same square, same four triangles. The uncovered area must be the same in both."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "Draw a big square with sides of length a + b.",
+          "Place four copies of your right-angled triangle inside it, one in each corner, so the uncovered space in the middle is a tilted square with side c. The uncovered area is <strong>c²</strong>.",
+          "Now rearrange the same four triangles inside an identical big square, pairing them into two rectangles. The uncovered space is now two squares, one with side a and one with side b. The uncovered area is <strong>a² + b²</strong>.",
+          "The big squares are the same size and the triangles are the same four triangles. So the uncovered areas must be equal: c² = a² + b²."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Cut four triangles out of card and try it. It is one of the most satisfying ten minutes in school maths, and a child who has done it will never forget which way round the theorem goes."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Who really discovered it?",
+        "text": "The theorem is named after Pythagoras, a Greek thinker of the 6th century BCE, but the relationship was known long before him. A Babylonian clay tablet known as Plimpton 322, from roughly 1800 BCE, lists numbers closely linked to Pythagorean triples, and the Baudhayana Shulba Sutra, an Indian text on building fire altars dated to somewhere between 800 and 500 BCE, states the rule for the diagonal of a rectangle. Pythagoras' followers are credited with an early proof."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to use it: add or subtract?",
+        "id": "add-or-subtract"
+      },
+      {
+        "type": "paragraph",
+        "text": "Almost every Pythagoras question comes down to one decision. Are you finding the longest side, or one of the shorter ones?"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/pythagoras-theorem-explained/02-add-or-subtract.png",
+        "alt": "Deciding whether to add or subtract in Pythagoras' theorem: add the squares to find the hypotenuse, subtract to find a shorter side",
+        "caption": "The hypotenuse is the longest side, so its calculation always adds."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from math import sqrt\n\n# 1. find the longest side (the hypotenuse): ADD the squares\na, b = 6, 8\nprint(\"hypotenuse of a 6-8 triangle:\", sqrt(a**2 + b**2))\n\n# 2. find a shorter side: SUBTRACT the squares\nc, a = 13, 5\nprint(\"missing side when c = 13 and a = 5:\", sqrt(c**2 - a**2))\n\n# 3. a 5 m ladder with its foot 1.4 m from the wall: how high does it reach?\nprint(\"ladder reaches:\", round(sqrt(5**2 - 1.4**2), 2), \"m up the wall\")\n\n# 4. a \"55 inch\" screen is measured on the diagonal; at 16:9, how wide is it?\nwidth = 55 * 16 / sqrt(16**2 + 9**2)\nprint(\"width of a 55 inch 16:9 screen:\", round(width, 1), \"inches\")",
+        "title": "pythagoras.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "hypotenuse of a 6-8 triangle: 10.0\nmissing side when c = 13 and a = 5: 12.0\nladder reaches: 4.8 m up the wall\nwidth of a 55 inch 16:9 screen: 47.9 inches",
+        "title": "Output"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Finding the hypotenuse:</strong> square the two shorter sides, add, take the square root. 6 and 8 give √(36 + 64) = √100 = 10.",
+          "<strong>Finding a shorter side:</strong> square both known sides, subtract the smaller from the larger, take the square root. With 13 and 5, √(169 − 25) = √144 = 12.",
+          "<strong>Word problems:</strong> sketch the triangle first and mark the right angle. The ladder is the hypotenuse, because it is opposite the right angle between the wall and the ground."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "The two most common mistakes",
+        "text": "First, using the theorem on a triangle with no right angle. It only works for right-angled triangles. Second, adding when you should subtract. If your answer for a shorter side comes out longer than the hypotenuse, you have added by mistake. A quick sketch prevents both."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The converse: testing for a right angle",
+        "id": "converse"
+      },
+      {
+        "type": "paragraph",
+        "text": "The theorem also works backwards. If the sides of a triangle satisfy a² + b² = c², where c is the longest side, then the triangle must contain a right angle. This is how builders check that a corner is square: measure 3 units along one wall, 4 along the other, and if the diagonal between those points is exactly 5, the corner is 90 degrees."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def is_right_angled(x, y, z):\n    a, b, c = sorted((x, y, z))           # the longest side must be c\n    return a * a + b * b == c * c\n\nfor sides in [(3, 4, 5), (5, 12, 13), (6, 7, 9), (20, 21, 29), (7, 8, 11)]:\n    print(sides, \"right angle\" if is_right_angled(*sides) else \"not a right angle\")",
+        "title": "right_angle_test.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "(3, 4, 5) right angle\n(5, 12, 13) right angle\n(6, 7, 9) not a right angle\n(20, 21, 29) right angle\n(7, 8, 11) not a right angle",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Note that the function sorts the sides first. The longest side has to be c, and forgetting this is a common reason students get the converse wrong."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Pythagorean triples",
+        "id": "triples"
+      },
+      {
+        "type": "paragraph",
+        "text": "A Pythagorean triple is a set of three whole numbers that fit the theorem exactly, like 3, 4, 5. They are worth knowing because exam questions often use them to keep the arithmetic tidy, and spotting one saves time. More than two thousand years ago, Euclid described a formula that generates them: pick two whole numbers m and n, with m bigger, and then m² − n², 2mn and m² + n² always form a triple. Here it is, generating every primitive triple (one that is not just a multiple of a smaller one) with a hypotenuse of 50 or less:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from math import gcd\n\n# Euclid's formula: for m > n > 0, coprime and not both odd,\n# a = m^2 - n^2, b = 2mn, c = m^2 + n^2 is a primitive Pythagorean triple\ntriples = []\nfor m in range(2, 8):\n    for n in range(1, m):\n        if gcd(m, n) == 1 and (m - n) % 2 == 1:\n            a, b, c = m*m - n*n, 2*m*n, m*m + n*n\n            if c <= 50:\n                triples.append(tuple(sorted((a, b)) + [c]))\n\nfor a, b, c in sorted(triples, key=lambda t: t[2]):\n    assert a*a + b*b == c*c\n    print(f\"{a:>2}, {b:>2}, {c:>2}    {a*a:>4} + {b*b:>4} = {c*c:>4}\")\nprint(len(triples), \"primitive triples with a hypotenuse of 50 or less\")",
+        "title": "triples.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": " 3,  4,  5       9 +   16 =   25\n 5, 12, 13      25 +  144 =  169\n 8, 15, 17      64 +  225 =  289\n 7, 24, 25      49 +  576 =  625\n20, 21, 29     400 +  441 =  841\n12, 35, 37     144 + 1225 = 1369\n 9, 40, 41      81 + 1600 = 1681\n7 primitive triples with a hypotenuse of 50 or less",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/pythagoras-theorem-explained/03-triples.png",
+        "alt": "The 7 primitive Pythagorean triples with a hypotenuse of 50 or less, generated by Euclid's formula",
+        "caption": "3, 4, 5 and 5, 12, 13 appear in exam questions more than any others."
+      },
+      {
+        "type": "paragraph",
+        "text": "There are exactly 7 of them. Multiply any of these by a whole number and you get another triple, so 3, 4, 5 also gives 6, 8, 10 and 9, 12, 15. If you see two sides of 9 and 12 in a question, the third side is almost certainly 15."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Distance and 3D: Pythagoras in disguise",
+        "id": "distance-and-3d"
+      },
+      {
+        "type": "paragraph",
+        "text": "Once you know the theorem, you start seeing it everywhere. The straight-line distance between two points on a grid is the hypotenuse of a right-angled triangle whose other sides are how far across and how far up you go. That is the distance formula taught in coordinate geometry, and it is the same calculation every video game does thousands of times a second to work out how far apart two characters are."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from math import dist, sqrt\n\n# distance between two points on a map grid is Pythagoras in disguise\nhome, school = (2, 3), (8, 11)\ndx, dy = school[0] - home[0], school[1] - home[1]\nprint(\"across\", dx, \"up\", dy, \"-> straight line\", sqrt(dx**2 + dy**2))\nprint(\"math.dist agrees:\", dist(home, school))\n\n# in 3D, apply it twice: the longest rod that fits in a 3 x 4 x 12 box\nfloor_diagonal = sqrt(3**2 + 4**2)\nprint(\"space diagonal:\", sqrt(floor_diagonal**2 + 12**2))",
+        "title": "distance.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "across 6 up 8 -> straight line 10.0\nmath.dist agrees: 10.0\nspace diagonal: 13.0",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "In three dimensions, apply the theorem twice. First find the diagonal across the floor of a box, then use that as one side of a new right-angled triangle standing up inside the box. The longest rod that fits in a 3 by 4 by 12 box is exactly 13 units, and it is no coincidence that 5, 12, 13 is also a triple."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where Pythagoras is used in real life",
+        "id": "real-life"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/pythagoras-theorem-explained/04-uses.png",
+        "alt": "Real-life uses of Pythagoras' theorem: ladders, screen sizes, map and game distances, and checking square corners in building",
+        "caption": "The same equation, four very different jobs."
+      },
+      {
+        "type": "paragraph",
+        "text": "Beyond the classroom, the theorem is used in construction, navigation, surveying, computer graphics, physics and engineering. Screen sizes are a nice everyday example: a TV sold as 55 inches is measured along the diagonal, so its actual width, about 47.9 inches for a 16:9 screen as the first program shows, comes from Pythagoras. For more on how maths turns up in programming, see our guide to <a href='/blog/role-of-mathematics-programming-logical-problem-solving'>maths in programming</a>."
+      },
+      {
+        "type": "quote",
+        "text": "If a student can prove it with four paper triangles, they will never forget which side is c.",
+        "author": "Our maths teachers, most weeks"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, Pythagoras is taught proof first: students rearrange the triangles, check the areas, and only then learn the formula and the add-or-subtract decision. Older students go on to coordinates, 3D and trigonometry, which builds directly on it. We teach it for school syllabuses including <a href='/maths-class-10'>Class 10 maths</a> and <a href='/gcse-maths-tuition-online'>GCSE maths</a>, one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is Pythagoras' theorem in simple words?",
+            "content": "In a right-angled triangle, if you square the two shorter sides and add them, you get the square of the longest side. Written as a formula, a² + b² = c², where c is the hypotenuse, the side opposite the right angle."
+          },
+          {
+            "title": "Does Pythagoras' theorem work for all triangles?",
+            "content": "No. It only works for right-angled triangles. For other triangles you need the cosine rule, which is a more general version of the same idea and reduces to Pythagoras when the angle is 90 degrees."
+          },
+          {
+            "title": "How do I know which side is the hypotenuse?",
+            "content": "The hypotenuse is the side opposite the right angle, and it is always the longest side of a right-angled triangle. Find the small square marking the right angle, then look at the side that does not touch it."
+          },
+          {
+            "title": "How do you find a shorter side using Pythagoras?",
+            "content": "Square the hypotenuse, square the side you know, subtract the smaller from the larger, and take the square root. For a hypotenuse of 13 and a side of 5, the missing side is the square root of 169 minus 25, which is 12."
+          },
+          {
+            "title": "What is a Pythagorean triple?",
+            "content": "A set of three whole numbers that satisfy a² + b² = c² exactly, such as 3, 4, 5 or 5, 12, 13. Multiplying a triple by any whole number gives another triple, so 6, 8, 10 is one too."
+          },
+          {
+            "title": "What is the converse of Pythagoras' theorem?",
+            "content": "If the sides of a triangle satisfy a² + b² = c², with c as the longest side, then the triangle has a right angle. It is used to check that corners are square, for example with a 3, 4, 5 measurement."
+          },
+          {
+            "title": "Who discovered Pythagoras' theorem?",
+            "content": "It is named after the Greek thinker Pythagoras, from the 6th century BCE, but the relationship was known much earlier. Babylonian mathematicians around 1800 BCE and the Indian Baudhayana Shulba Sutra both record it. Pythagoras' school is credited with an early proof."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "role-of-mathematics-programming-logical-problem-solving",
+    "how-to-get-better-at-maths",
+    "coding-mathematics-engineering-science"
+  ]
+}

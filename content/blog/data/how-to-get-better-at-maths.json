@@ -124,6 +124,10 @@
         "text": "Most students memorise that the area of a triangle is half its base times its height, then forget it by the next term. Here is why it is actually true, which takes thirty seconds to see and is never forgotten again."
       },
       {
+        "type": "paragraph",
+        "text": "The same approach works for the most famous formula in school maths. Our guide to <a href='/blog/pythagoras-theorem-explained'>Pythagoras' theorem</a> proves a² + b² = c² with four paper triangles before any formula is written down."
+      },
+      {
         "type": "image",
         "url": "/images/blog/how-to-get-better-at-maths/01-triangle-proof.png",
         "alt": "A rectangle split diagonally into two equal triangles, showing visually why the area of a right triangle is half of base times height",
