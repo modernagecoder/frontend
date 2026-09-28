@@ -30198,5 +30198,50 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-lowestoft": {
+    "market": "Lowestoft",
+    "bodyClass": "cg-lwt",
+    "pageType": "city",
+    "curriculumAuthority": "East Suffolk (E07000244), Census 2021 TS001 usual residents 246,058. ONS 2021 BUAs (published): Lowestoft 71,315; Beccles 9,810; Bungay 5,010; Halesworth 4,925; Kessingland 4,240. postcodes.io suburban areas in East Suffolk district: Oulton Broad, Pakefield, Carlton Colville, Gunton, Kirkley. Gutenberg 51654 Gillingwater (1897 reprint): \"THIS island (lately become a peninsula)\". Gutenberg 53858 Longe ([1899]): \"lectures read before the members of St. Margaret's Institute, at Lowestoft\".",
+    "localProject": "Sentences 8 to 60 words: Gillingwater 1,922, Longe 938. Naive Bayes, test 300 per author, 200 splits. Plain vs augmented (4 copies, ~10% deletion + swaps): 5 per author 55.1/55.7; 10: 57.6/58.4; 20: 61.8/62.6 (better 133, worse 56); 50: 68.6/68.9. Controls at 20: exact copies 62.6, swaps only 62.6 (identical to exact copies in all 200 splits), deletions only 62.6, both 62.6. Leakage (95 per author, 80/20): augment then split 99.2; split then augment 71.5. Lesson family: data augmentation, copy control, order invariance, augmentation leakage.",
+    "requiredMentions": [
+      "71,315",
+      "246,058",
+      "Kessingland",
+      "Pakefield",
+      "Oulton Broad",
+      "Carlton Colville",
+      "Gillingwater",
+      "Longe",
+      "data augmentation",
+      "Domesday"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations and TS001 usual residents via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "Project Gutenberg, Gillingwater's History of Lowestoft (ebook 51654), from the 1897 Lowestoft edition.",
+        "url": "https://www.gutenberg.org/ebooks/51654"
+      },
+      {
+        "claim": "Project Gutenberg, Francis Davy Longe, Lowestoft in Olden Times (ebook 53858).",
+        "url": "https://www.gutenberg.org/ebooks/53858"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas within East Suffolk district.",
+        "url": "https://api.postcodes.io/places?q=Pakefield"
+      }
+    ],
+    "rejectedClaims": [
+      "Date of Gillingwater's first edition: not stated on the transcription's title page; only the 1897 reprint is named.",
+      "Fishing, herring or port history: not read beyond the quoted lines; not claimed.",
+      "Easternmost-town or other superlative geography: not verified; not claimed.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
