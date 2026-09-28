@@ -591,6 +591,10 @@
         "text": "Dictionaries store data in key-value pairs, like a real dictionary where you look up a word (key) to find its definition (value). They're incredibly useful for organizing related information."
       },
       {
+        "type": "paragraph",
+        "text": "Dictionaries are also the heart of a search engine. An inverted index is just a dictionary from each word to the pages that contain it, and our guide to <a href='/blog/how-do-search-engines-work'>how search engines work</a> builds one in about forty lines of Python."
+      },
+      {
         "type": "code",
         "language": "python",
         "title": "Working with Dictionaries",

@@ -108,6 +108,10 @@
       },
       {
         "type": "paragraph",
+        "text": "If you are curious what search engines actually do with your page once they find it, our guide to <a href='/blog/how-do-search-engines-work'>how search engines work</a> walks through crawling, indexing and ranking with a small working example."
+      },
+      {
+        "type": "paragraph",
         "text": "<strong>Make it yours:</strong> Add a filter bar above the projects grid with buttons like All, Web, Python, and Games. A few lines of JavaScript toggle a CSS class on each project card to instantly show or hide it, no page reload needed, which is the same filtering pattern used on e-commerce category pages."
       },
       {

@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "slug": "how-do-search-engines-work",
+    "title": "How Do Search Engines Work? Build a Tiny One in Python",
+    "description": "How search engines crawl, index and rank pages: build a tiny one in Python with TF-IDF, then run PageRank on this blog's real links.",
+    "keywords": [
+      "how do search engines work",
+      "how does google search work",
+      "what is an inverted index",
+      "tf-idf explained",
+      "what is pagerank",
+      "build a search engine in python",
+      "how search engines rank pages"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Programming",
+    "tags": [
+      "Algorithms",
+      "Python",
+      "Computer Science",
+      "Search"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "Search engines crawl the web by following links, build an inverted index from every word to the pages that use it, rank matching pages when you search, and serve the best first. A classic ranking method is TF-IDF: pages score higher for words they use often, and rare words count more. Links matter too: PageRank treats links as votes weighted by the importance of the linking page. On this blog's real links, a post with 1 inbound link made the top five while another had 18, because link quality beats quantity. Modern engines add many more signals."
+  },
+  "hero": {
+    "title": "How Do Search Engines Work? Build a Tiny One in Python",
+    "subtitle": "Crawling, indexing and ranking, explained by building a small search engine over this blog and running PageRank on its real internal links.",
+    "featuredImage": {
+      "url": "/images/blog/how-do-search-engines-work/00-hero.png",
+      "alt": "How search engines work: a search box above a list of ranked results"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "You type a few words, press Enter, and in well under a second a search engine picks the most useful pages out of billions. It feels like magic, but the core ideas are surprisingly approachable, and you can build a working miniature version in about forty lines of Python."
+      },
+      {
+        "type": "paragraph",
+        "text": "That is what this guide does. We build a small search engine over the 165 posts on this very blog, rank results with a classic formula called TF-IDF, and then run PageRank, the algorithm behind Google's early success, on the real links between our posts. The results, including the embarrassing ones, show exactly why ranking is the hard part."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The four jobs of a search engine",
+        "id": "four-jobs"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-do-search-engines-work/01-pipeline.png",
+        "alt": "Four jobs of a search engine: crawl pages by following links, index which words appear where, rank matching pages for the query, and serve the best results first",
+        "caption": "The heavy work happens before you ever search."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Crawling:</strong> programs called crawlers or spiders download a page, find its links, and follow them to more pages, again and again.",
+          "<strong>Indexing:</strong> each page's words are recorded in a giant lookup table, so the engine never has to read the pages again at search time.",
+          "<strong>Ranking:</strong> when you search, every page that matches is given a score, and the scores decide the order.",
+          "<strong>Serving:</strong> the top results are shown, usually with a title and a short description taken from the page."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 1 and 2: crawl and index",
+        "id": "index"
+      },
+      {
+        "type": "paragraph",
+        "text": "Our \"crawl\" is simple: instead of downloading the web, we read the title and description of every post on this blog. Then we build an <strong>inverted index</strong>: for every word, a list of the posts that contain it and how often. It is called inverted because it flips the pages around: instead of page to words, it goes from word to pages, exactly like the index at the back of a book."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import json, math, re, pathlib\nfrom collections import defaultdict, Counter\n\n# 1. \"Crawl\": read every blog post on this site (title and description)\ndocs = {}\nfor f in sorted(pathlib.Path(\"content/blog/data\").glob(\"*.json\")):\n    meta = json.loads(f.read_text(encoding=\"utf-8\"))[\"meta\"]\n    docs[meta[\"slug\"]] = meta[\"title\"] + \" \" + meta[\"description\"]\n\nSTOP = {\"a\", \"an\", \"and\", \"the\", \"of\", \"to\", \"in\", \"for\", \"on\", \"with\", \"is\", \"how\", \"what\", \"your\", \"you\", \"it\", \"from\", \"by\", \"or\", \"are\", \"at\"}\ndef words(text):\n    return [w for w in re.findall(r\"[a-z0-9]+\", text.lower()) if w not in STOP]\n\n# 2. Index: for every word, which documents contain it, and how often\nindex = defaultdict(dict)\nfor slug, text in docs.items():\n    for word, count in Counter(words(text)).items():\n        index[word][slug] = count\nprint(f\"indexed {len(docs)} posts, {len(index):,} distinct words\")\nprint(\"posts containing 'fractions':\", len(index[\"fractions\"]))\nprint(\"posts containing 'python':   \", len(index[\"python\"]))\n\n# 3. Rank: TF-IDF, so rare words count for more than common ones\ndef search(query, top=3):\n    scores = Counter()\n    for word in words(query):\n        postings = index.get(word, {})\n        if not postings:\n            continue\n        idf = math.log(len(docs) / len(postings))\n        for slug, tf in postings.items():\n            scores[slug] += tf * idf\n    return scores.most_common(top)\n\nfor w in words(\"fractions for children\"):\n    print(f\"idf of {w!r}: log({len(docs)} / {len(index[w])}) = {math.log(len(docs) / len(index[w])):.2f}\")\n\nfor q in [\"fractions for children\", \"python projects beginners\", \"olympiad proof\"]:\n    print(f\"\\nsearch: {q!r}\")\n    for slug, score in search(q):\n        print(f\"  {score:5.2f}  {slug}\")",
+        "title": "search.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "indexed 165 posts, 1,278 distinct words\nposts containing 'fractions': 1\nposts containing 'python':    42\nidf of 'fractions': log(165 / 1) = 5.11\nidf of 'children': log(165 / 6) = 3.31\n\nsearch: 'fractions for children'\n  10.21  how-to-help-a-child-understand-fractions\n   3.31  how-coding-improves-mathematical-thinking-children\n   3.31  how-to-make-maths-fun-for-kids\n\nsearch: 'python projects beginners'\n   9.08  30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced\n   9.04  python-for-beginners\n   7.67  file-built-in-methods-python-guide\n\nsearch: 'olympiad proof'\n   8.83  pigeonhole-principle-explained\n   8.01  how-to-write-a-maths-proof\n   8.01  pythagoras-theorem-explained",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-do-search-engines-work/02-index.png",
+        "alt": "Inverted index of this blog: the word fractions points to 1 post and the word python points to 42 posts, out of 165 posts and 1,278 distinct words",
+        "caption": "Finding every page with a word is a single lookup, not a search through every page."
+      },
+      {
+        "type": "paragraph",
+        "text": "The index holds 1,278 distinct words across 165 posts. \"fractions\" appears in just 1 post, while \"python\" appears in 42. Common words such as \"the\" and \"how\" are dropped as <em>stop words</em>, because they appear everywhere and help with nothing."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 3: rank with TF-IDF",
+        "id": "tf-idf"
+      },
+      {
+        "type": "paragraph",
+        "text": "Finding matching pages is easy. Putting them in the right order is hard. A classic starting point is <strong>TF-IDF</strong>: term frequency times inverse document frequency. A page scores higher when it uses a query word often (TF), and each word counts for more when it is rare across all pages (IDF). A word in every page tells you nothing; a word in one page tells you a lot."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-do-search-engines-work/03-tfidf.png",
+        "alt": "TF-IDF for the query fractions for children: fractions appears in 1 of 165 posts, idf 5.11; children appears in 6 posts, idf 3.31; the top result is how-to-help-a-child-understand-fractions with score 10.21",
+        "caption": "The rare word does most of the work."
+      },
+      {
+        "type": "paragraph",
+        "text": "For \"fractions for children\", the top result was our guide to helping a child understand fractions, with a score of 10.21, well clear of the rest. \"fractions\" appears in only 1 post, so its IDF is 5.11, while \"children\" appears in 6 posts and scores 3.31. That is a good result."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where the tiny search engine goes wrong",
+        "id": "limits"
+      },
+      {
+        "type": "paragraph",
+        "text": "Now look at \"python projects beginners\". The top result was <code>30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced</code>, a Scratch post, just ahead of our Python beginners guide. Why? Our engine matches exact words only. It does not know that \"project\" and \"projects\" are the same word, that Scratch is not Python, or what the searcher actually wants. It simply added up scores for the words it could match."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Word forms:</strong> real engines treat \"project\", \"projects\" and \"projecting\" as related, a technique called stemming.",
+          "<strong>Meaning:</strong> modern engines use language models to understand that \"learn to code\" and \"programming for beginners\" mean nearly the same thing.",
+          "<strong>Quality and trust:</strong> a page that matches the words is not necessarily good. That is where links come in."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "PageRank: the idea that changed search",
+        "id": "pagerank"
+      },
+      {
+        "type": "paragraph",
+        "text": "In 1998 Larry Page and Sergey Brin, then students at Stanford, described a way to measure a page's importance from the links pointing to it. The idea: a link is a vote, but votes from important pages count for more, and a page that links to many others spreads its vote thinly. Imagine a surfer clicking random links forever; PageRank is roughly the share of time they would spend on each page. We ran it on the real links between posts on this blog:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import json, re, pathlib\n\n# Build the link graph: which blog posts link to which other blog posts\nposts, links = {}, {}\nfor f in sorted(pathlib.Path(\"content/blog/data\").glob(\"*.json\")):\n    data = json.loads(f.read_text(encoding=\"utf-8\"))\n    slug = data[\"meta\"][\"slug\"]\n    posts[slug] = data[\"meta\"][\"title\"]\n    text = json.dumps(data[\"content\"][\"sections\"])\n    links[slug] = set(re.findall(r\"/blog/([a-z0-9-]+)\", text))\nfor slug in links:\n    links[slug] = {t for t in links[slug] if t in posts and t != slug}\n\n# PageRank: a page is important if important pages link to it\nn, d = len(posts), 0.85\nrank = {s: 1 / n for s in posts}\nfor _ in range(50):\n    new = {s: (1 - d) / n for s in posts}\n    for s, outs in links.items():\n        if outs:\n            share = d * rank[s] / len(outs)\n            for t in outs:\n                new[t] += share\n        else:                                  # a page with no links shares evenly\n            for t in posts:\n                new[t] += d * rank[s] / n\n    rank = new\n\ninbound = {s: sum(s in outs for outs in links.values()) for s in posts}\ntotal_links = sum(len(o) for o in links.values())\nprint(f\"{n} posts, {total_links:,} internal links between them\")\nprint(\"top 5 by PageRank:\")\nfor s in sorted(rank, key=rank.get, reverse=True)[:5]:\n    print(f\"  {rank[s] * 1000:5.2f}  {inbound[s]:>3} inbound  {s}\")",
+        "title": "pagerank.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "165 posts, 385 internal links between them\ntop 5 by PageRank:\n  51.77    6 inbound  usaco-bronze-to-silver-what-blocks-most-students\n  48.31    5 inbound  big-o-notation-explained-simply\n  33.72   18 inbound  python-for-beginners\n  31.56    5 inbound  how-to-use-chatgpt-to-study-without-cheating\n  28.09    1 inbound  how-to-teach-kids-ai-at-home",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-do-search-engines-work/04-pagerank.png",
+        "alt": "Top five posts on this blog by PageRank across 385 internal links; how-to-teach-kids-ai-at-home ranks highly with only 1 inbound link, while python-for-beginners has 18",
+        "caption": "A single link from an important page can outweigh many ordinary ones."
+      },
+      {
+        "type": "paragraph",
+        "text": "Look at the inbound counts. <code>python-for-beginners</code> has 18 posts linking to it, the most in the top five. Yet <code>how-to-teach-kids-ai-at-home</code> makes the top five with just 1. Its one link comes from a page that is itself highly ranked and links to very few other posts, so it passes on a large share of its importance. That is PageRank's key insight: the quality of links matters more than the quantity."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "How modern search differs",
+        "text": "Today's search engines use many signals beyond words and links, including how fresh a page is, whether it works well on a phone, and language models that interpret the meaning of a query. Google's own guide to its ranking systems says PageRank has evolved a lot since launch and remains part of its core ranking systems, alongside many others. The core pipeline of crawl, index and rank is still the same."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why this matters for you",
+        "id": "why-it-matters"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Searching better:</strong> knowing that rare, specific words carry the most weight helps you write sharper searches. \"Fractions for 8 year olds\" beats \"help with maths\".",
+          "<strong>Judging results:</strong> the top result is the one a formula scored highest, not a guarantee of truth.",
+          "<strong>Learning to code:</strong> a search engine uses dictionaries, loops, sorting and a little logarithm maths. It is a great project once you know the basics, and it connects naturally to <a href='/blog/how-to-start-learning-data-structures-and-algorithms'>data structures and algorithms</a>."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Finding the pages that match is easy. Deciding which one you actually wanted is the whole game."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "A search engine is a good example of learning by building, one of the principles on our <a href='/how-we-teach'>how we teach</a> page: forty lines of Python teach dictionaries, loops and sorting in a way no worksheet can. Tracing the code line by line until every step can be predicted is how a result like the Scratch post topping a Python search stops being a mystery. Our <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> runs one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How do search engines work in simple terms?",
+            "content": "They do four jobs: crawl the web by following links, index which words appear on which pages, rank the matching pages when you search, and show the best ones first. Crawling and indexing happen in advance, so searching is fast."
+          },
+          {
+            "title": "What is an inverted index?",
+            "content": "It is a lookup table from each word to the list of pages that contain it, like the index at the back of a book. It lets a search engine find every page with a word instantly instead of reading every page."
+          },
+          {
+            "title": "What is TF-IDF?",
+            "content": "Term frequency times inverse document frequency. A page scores higher for a word it uses often, and each word counts for more if it is rare across all pages. It is a classic way to rank text results."
+          },
+          {
+            "title": "What is PageRank?",
+            "content": "PageRank measures a page's importance from the links pointing to it. Links from important pages count for more, and a page with many outgoing links passes on less to each. It was described by Larry Page and Sergey Brin in 1998."
+          },
+          {
+            "title": "Does Google still use PageRank?",
+            "content": "Yes, in an evolved form. Google's guide to its ranking systems says PageRank has changed a lot since Google launched and continues to be part of its core ranking systems, alongside many other systems."
+          },
+          {
+            "title": "Why are some search results wrong?",
+            "content": "Ranking is a prediction of what you want, based on words, links and other signals. A page can match your words without answering your question, and a simple engine that matches exact words, like ours, can be fooled easily."
+          },
+          {
+            "title": "Can I build my own search engine?",
+            "content": "Yes, a small one. With Python dictionaries you can build an inverted index and rank results with TF-IDF in about forty lines, as this post shows. It is an excellent intermediate coding project."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "what-is-an-algorithm",
+    "how-to-start-learning-data-structures-and-algorithms",
+    "big-o-notation-explained-simply"
+  ]
+}
