@@ -26,7 +26,7 @@
       "Web Development",
       "Beginners"
     ],
-    "readTime": "8 min read",
+    "readTime": "9 min read",
     "featured": false,
     "tldr": "Before React, learn core JavaScript (variables, functions, loops, arrays, objects) plus eight features React uses constantly: arrow functions, destructuring and spread, immutability (never push to state), map and filter for lists, the && and ternary operators for conditional content, closures for event handlers, promises with async and await for loading data, and import and export for components. A good readiness test: build a to-do list in plain JavaScript without a tutorial."
   },
@@ -342,7 +342,7 @@
       },
       {
         "type": "paragraph",
-        "text": "On our <a href='/how-we-teach'>how we teach</a> page, two principles shape how we approach React: learning by building, and staying with one concept until it is fully understood, including tracing code line by line. So students build the plain JavaScript version of a project first and predict each output before running it, then rebuild it in React. Our <a href='/courses/react-for-teens-complete-masterclass'>React course for teens</a> and <a href='/courses/react-js-complete-masterclass-college'>React masterclass for college students and adults</a> both follow that path, one to one or in small groups of 5 to 10."
+        "text": "Two principles on our <a href='/how-we-teach'>how we teach</a> page matter most here: learning by building, and staying with one concept until it is fully understood. In code, that means tracing line by line until a student can predict every step, which is exactly how the eight concepts above are best learned. Our <a href='/courses/react-for-teens-complete-masterclass'>React course for teens</a> builds JavaScript through the DOM and modern ES6+ before the first React component, and our <a href='/courses/react-js-complete-masterclass-college'>React masterclass for college students and adults</a> starts from solid JavaScript foundations. Classes run one to one or in small groups of 5 to 10."
       },
       {
         "type": "embed",

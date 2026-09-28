@@ -233,7 +233,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Algorithms are where the principles on our <a href='/how-we-teach'>how we teach</a> page matter most. Students work out a method themselves before seeing it written, trace it line by line, and see the same problem solved more than one way, just as this post compares counting up with halving. Younger learners start with unplugged activities and <a href='/scratch-coding-classes-for-kids'>Scratch</a>, while older students write and test their algorithms in Python, one to one or in small groups of 5 to 10."
+        "text": "Algorithms are where the principles on our <a href='/how-we-teach'>how we teach</a> page matter most: working out a method before seeing it written down, tracing code line by line until every step can be predicted, and seeing the same problem solved more than one way, just as this post compares counting up with halving. Younger learners can meet algorithms through our <a href='/scratch-coding-classes-for-kids'>Scratch classes</a>, and older students through Python, one to one or in small groups of 5 to 10."
       },
       {
         "type": "embed",

@@ -297,7 +297,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Both languages suit the principles on our <a href='/how-we-teach'>how we teach</a> page: learning by building, and seeing the same problem solved more than one way, exactly as this post answers one question in SQL, Python and pandas. Students write every query and loop themselves and predict the output before running it. Our <a href='/courses/mysql-database-complete-masterclass-college'>MySQL masterclass</a> and <a href='/courses/data-analysis-mastery-course-college'>data analysis course</a> cover both sides, one to one or in small groups of 5 to 10."
+        "text": "Both languages suit the principles on our <a href='/how-we-teach'>how we teach</a> page: learning by building, tracing code line by line until every step can be predicted, and seeing the same problem solved more than one way, exactly as this post answers one question in SQL, Python and pandas. Our <a href='/courses/mysql-database-complete-masterclass-college'>MySQL masterclass</a> includes Python integration, and our <a href='/courses/data-analysis-mastery-course-college'>data analysis course</a> covers SQL and then Python with pandas. Classes run one to one or in small groups of 5 to 10."
       },
       {
         "type": "embed",
