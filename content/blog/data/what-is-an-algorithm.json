@@ -1,0 +1,288 @@
+{
+  "meta": {
+    "slug": "what-is-an-algorithm",
+    "title": "What Is an Algorithm? Simple Examples for Kids and Beginners",
+    "description": "What an algorithm is, everyday examples, and three short Python programs showing why algorithms must be correct and fast, with real outputs.",
+    "keywords": [
+      "what is an algorithm",
+      "what is an algorithm for kids",
+      "algorithm examples",
+      "algorithm examples in everyday life",
+      "algorithm vs program",
+      "properties of a good algorithm",
+      "euclid's algorithm"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Programming",
+    "tags": [
+      "Algorithms",
+      "Beginners",
+      "Python",
+      "Kids"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "An algorithm is a clear, step-by-step method that takes an input and always produces the right output, like a recipe or the method for long division. Good algorithms are precise, ordered, finite, correct and efficient. Correctness comes first: a find-the-largest algorithm that starts at 0 fails on negative numbers. Efficiency comes second: halving finds a number from 1 to 100 in at most 7 guesses instead of 100, and Euclid's 2,300-year-old algorithm finds a GCD in 3 steps instead of 442 checks."
+  },
+  "hero": {
+    "title": "What Is an Algorithm? Simple Examples for Kids and Beginners",
+    "subtitle": "A plain-English definition, everyday examples, and three short programs that show the two questions every algorithm must answer: is it correct, and is it fast?",
+    "featuredImage": {
+      "url": "/images/blog/what-is-an-algorithm/00-hero.png",
+      "alt": "What is an algorithm: an input of two numbers, three steps, and an output of their greatest common divisor"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "An algorithm is a clear, step-by-step method for solving a problem, precise enough that anyone following it, or any computer running it, gets the right answer every time. A recipe, the way you do long division, and the instructions a satnav uses to find a route are all algorithms. The word sounds technical, but the idea is one you already use every day."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide explains what makes something an algorithm, gives everyday examples, and then shows three short Python programs that reveal the two questions every algorithm has to answer: is it correct, and is it fast? One of them has a bug that looks perfectly reasonable. Every output below comes from actually running the code."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What is an algorithm? A simple definition",
+        "id": "definition"
+      },
+      {
+        "type": "paragraph",
+        "text": "An algorithm takes an <strong>input</strong>, follows a set of <strong>steps</strong>, and produces an <strong>output</strong>. To add two large numbers on paper, the input is the two numbers, the steps are \"add the rightmost column, carry if needed, move left\", and the output is the total. The steps work for any two numbers, which is what makes it an algorithm rather than a single answer."
+      },
+      {
+        "type": "paragraph",
+        "text": "The word itself comes from the name of Muhammad ibn Musa al-Khwarizmi, a ninth-century mathematician in Baghdad whose books on calculation were translated into Latin. His name became <em>algorismus</em>, the word for doing arithmetic with written numerals, and eventually algorithm."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/what-is-an-algorithm/01-properties.png",
+        "alt": "Five properties of a good algorithm: precise, ordered, finite, correct and efficient; the first three make something an algorithm, the last two make it a good one",
+        "caption": "Precise, ordered and finite define an algorithm. Correct and efficient make it a good one."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Everyday examples of algorithms",
+        "id": "everyday"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>A recipe:</strong> ingredients in, steps in order, a cake out. A good recipe says \"bake for 25 minutes at 180 degrees\", not \"bake until it seems done\".",
+          "<strong>Getting dressed:</strong> socks before shoes. Order matters, which is one of the key properties of an algorithm.",
+          "<strong>Long division:</strong> divide, multiply, subtract, bring down, repeat. Our <a href='/blog/long-division-step-by-step'>long division guide</a> walks through it step by step.",
+          "<strong>Looking up a word in a dictionary:</strong> open near the middle, decide which half, repeat. This is the same halving idea you will see in code below.",
+          "<strong>A satnav finding a route,</strong> a search engine ranking pages, a streaming app suggesting a film: these are algorithms too, just much larger."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Try this with a child",
+        "text": "Ask them to write instructions for making a jam sandwich, then follow the instructions exactly as written, and only as written. \"Put jam on the bread\" might mean putting the whole jar on the loaf. It is funny, and it teaches the most important property of an algorithm faster than any definition: every step must be precise."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Algorithm vs program: what is the difference?",
+        "id": "vs-program"
+      },
+      {
+        "type": "paragraph",
+        "text": "An algorithm is the method. A program is that method written in a particular programming language so a computer can run it. The same algorithm can be written in Python, Java, Scratch or plain English. That is why programmers often plan an algorithm first, in words or pseudocode, before writing any code. Our post on <a href='/blog/python-vs-java-which-to-learn-first'>Python and Java</a> shows the same ideas written in two languages."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Question 1: is the algorithm correct?",
+        "id": "correct"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is an algorithm to find the largest number in a list. Start with a \"biggest so far\" of 0, look at each number, and if it is bigger, remember it. Sounds sensible. Version 2 changes one line: it starts with the first number in the list instead."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def largest_v1(numbers):\n    biggest = 0\n    for n in numbers:\n        if n > biggest:\n            biggest = n\n    return biggest\n\ndef largest_v2(numbers):\n    biggest = numbers[0]\n    for n in numbers[1:]:\n        if n > biggest:\n            biggest = n\n    return biggest\n\nfor test in ([3, 9, 4], [12, 5, 30, 8], [-4, -2, -7]):\n    print(test, \"v1:\", largest_v1(test), \" v2:\", largest_v2(test))",
+        "title": "largest.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[3, 9, 4] v1: 9  v2: 9\n[12, 5, 30, 8] v1: 30  v2: 30\n[-4, -2, -7] v1: 0  v2: -2",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/what-is-an-algorithm/02-largest-bug.png",
+        "alt": "Version 1 of find the largest starts at 0 and returns 0 for the list minus 4, minus 2, minus 7, which is wrong; version 2 starts at the first item and correctly returns -2",
+        "caption": "Version 1 passes the easy tests and fails the one nobody thought of."
+      },
+      {
+        "type": "paragraph",
+        "text": "Both versions agree on the first two lists. On a list of negative numbers, version 1 answers 0, a number that is not even in the list, because no negative number is ever bigger than its starting value of 0. Version 2 correctly answers -2. This is why correctness is the first question: an algorithm must work for <em>every</em> valid input, not just the ones you tried. Testing with unusual inputs, like negatives, zero or an empty list, is how programmers find these bugs."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Question 2: is the algorithm efficient?",
+        "id": "efficient"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two correct algorithms can do very different amounts of work. Think of the game where someone picks a secret number from 1 to 100 and says \"higher\" or \"lower\" after each guess. One strategy is to count up: 1, 2, 3 and so on. Another is to always guess the middle of the numbers that are still possible:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def count_up(secret):\n    guesses = 0\n    for guess in range(1, 101):\n        guesses += 1\n        if guess == secret:\n            return guesses\n\ndef halving(secret):\n    low, high, guesses = 1, 100, 0\n    while True:\n        guesses += 1\n        guess = (low + high) // 2\n        if guess == secret:\n            return guesses\n        if guess < secret:\n            low = guess + 1\n        else:\n            high = guess - 1\n\nfor secret in (7, 50, 73, 100):\n    print(f\"secret {secret:>3}: counting up {count_up(secret):>3} guesses, halving {halving(secret)} guesses\")\nworst_up = max(count_up(s) for s in range(1, 101))\nworst_half = max(halving(s) for s in range(1, 101))\nprint(\"worst case over all 100 secrets:\", worst_up, \"vs\", worst_half)",
+        "title": "guess.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "secret   7: counting up   7 guesses, halving 6 guesses\nsecret  50: counting up  50 guesses, halving 1 guesses\nsecret  73: counting up  73 guesses, halving 6 guesses\nsecret 100: counting up 100 guesses, halving 7 guesses\nworst case over all 100 secrets: 100 vs 7",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/what-is-an-algorithm/03-halving.png",
+        "alt": "Finding the secret number 73 by halving: guesses 50, 75, 62, 68, 71 and 73 narrow the range from 1 to 100 down to one number in 6 guesses",
+        "caption": "Each guess throws away half of what is left."
+      },
+      {
+        "type": "paragraph",
+        "text": "Both strategies always find the number, so both are correct. But counting up needs up to 100 guesses, while halving never needs more than 7. The gap grows fast: for numbers up to a million, counting up could take a million guesses, while halving needs at most 20, because 2 to the power 20 is just over a million. This halving algorithm is called <strong>binary search</strong>, and it is why computers can search enormous sorted lists almost instantly. Our guide to <a href='/blog/big-o-notation-explained-simply'>Big O notation</a> shows how programmers describe this difference precisely."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "One of the oldest algorithms still in use",
+        "id": "euclid"
+      },
+      {
+        "type": "paragraph",
+        "text": "Algorithms are much older than computers. Around 300 BC, the Greek mathematician Euclid described a method for finding the greatest common divisor (GCD) of two numbers, the largest number that divides both. The slow way is to try every possible divisor. Euclid's way is to divide, keep the remainder, and repeat:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def gcd_by_trying(a, b):\n    checks = 0\n    for d in range(min(a, b), 0, -1):\n        checks += 1\n        if a % d == 0 and b % d == 0:\n            return d, checks\n\ndef gcd_euclid(a, b):\n    steps = 0\n    while b != 0:\n        steps += 1\n        print(f\"  step {steps}: {a} = {a // b} x {b} + {a % b}\")\n        a, b = b, a % b\n    return a, steps\n\nprint(\"trying every number:\", gcd_by_trying(1071, 462))\nprint(\"Euclid:\")\nprint(\"result:\", gcd_euclid(1071, 462))",
+        "title": "euclid.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "trying every number: (21, 442)\nEuclid:\n  step 1: 1071 = 2 x 462 + 147\n  step 2: 462 = 3 x 147 + 21\n  step 3: 147 = 7 x 21 + 0\nresult: (21, 3)",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/what-is-an-algorithm/04-euclid.png",
+        "alt": "Finding the GCD of 1071 and 462: trying every number takes 442 checks, while Euclid's algorithm takes 3 steps and gives 21",
+        "caption": "Same answer, a tiny fraction of the work."
+      },
+      {
+        "type": "paragraph",
+        "text": "Trying every number from 462 downwards took 442 checks to reach 21. Euclid's algorithm got there in 3 steps. It is still used today, for example in the mathematics behind RSA, a widely used form of encryption. If you want to see it applied, our guide to <a href='/blog/how-to-find-hcf-and-lcm-in-python'>finding the HCF and LCM in Python</a> builds on it, and our post on <a href='/blog/modular-arithmetic-explained'>modular arithmetic</a> explains why remainders are so powerful."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to design your own algorithm",
+        "id": "design"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Understand the problem.</strong> What is the input? What should the output be? Work through one small example by hand.",
+          "<strong>Write the steps in plain words.</strong> Be as precise as the jam sandwich test demands.",
+          "<strong>Test it on paper</strong> with a normal case, then an unusual one: zero, negatives, an empty list, the largest possible value.",
+          "<strong>Turn it into code</strong> and run the same tests.",
+          "<strong>Ask if it could do less work.</strong> Only after it is correct."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "That order, correct first and fast second, is how professional programmers work too. If you want a structured path from here, our guide on <a href='/blog/how-to-start-learning-data-structures-and-algorithms'>how to start learning data structures and algorithms</a> sets out what to learn next."
+      },
+      {
+        "type": "quote",
+        "text": "A program is only as good as the algorithm inside it. Get the steps right, and the code is the easy part."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Algorithms are where the principles on our <a href='/how-we-teach'>how we teach</a> page matter most. Students work out a method themselves before seeing it written, trace it line by line, and see the same problem solved more than one way, just as this post compares counting up with halving. Younger learners start with unplugged activities and <a href='/scratch-coding-classes-for-kids'>Scratch</a>, while older students write and test their algorithms in Python, one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is an algorithm in simple words?",
+            "content": "An algorithm is a clear, step-by-step method for solving a problem. It takes an input, follows precise steps in order, and always finishes with an output. A recipe and the method for long division are everyday examples."
+          },
+          {
+            "title": "What is an example of an algorithm for kids?",
+            "content": "Making a jam sandwich, getting dressed, or brushing your teeth are good examples, because the steps must happen in the right order. A fun activity is to write sandwich instructions and have someone follow them exactly as written."
+          },
+          {
+            "title": "What is the difference between an algorithm and a program?",
+            "content": "An algorithm is the method, and a program is that method written in a programming language so a computer can run it. The same algorithm can be written in Python, Java, Scratch or plain English."
+          },
+          {
+            "title": "What are the properties of a good algorithm?",
+            "content": "It should be precise, with each step having one meaning; ordered; finite, so it always finishes; correct for every valid input; and efficient, doing no more work than necessary."
+          },
+          {
+            "title": "Where does the word algorithm come from?",
+            "content": "It comes from the name of Muhammad ibn Musa al-Khwarizmi, a ninth-century mathematician in Baghdad. Latin translations of his books on calculation turned his name into algorismus, which became algorithm."
+          },
+          {
+            "title": "What is the oldest algorithm?",
+            "content": "Euclid's algorithm for the greatest common divisor, described around 300 BC, is one of the oldest algorithms still in everyday use. Methods for arithmetic from ancient Babylon and Egypt are older still."
+          },
+          {
+            "title": "Do you need to be good at maths to understand algorithms?",
+            "content": "No. Algorithms are about clear, logical steps, and you can learn them with everyday examples before any maths is involved. Working with algorithms often improves maths skills, not the other way round."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "big-o-notation-explained-simply",
+    "how-to-start-learning-data-structures-and-algorithms",
+    "recursion-explained-for-beginners"
+  ]
+}
