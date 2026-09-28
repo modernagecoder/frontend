@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "slug": "how-does-encryption-work",
+    "title": "How Does Encryption Work? From Caesar Ciphers to HTTPS",
+    "description": "How encryption works, from the Caesar cipher to HTTPS: build and break ciphers in Python, then see how strangers agree a secret key in public.",
+    "keywords": [
+      "how does encryption work",
+      "caesar cipher python",
+      "frequency analysis",
+      "what is encryption",
+      "diffie hellman explained simply",
+      "how https works",
+      "encryption for beginners"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Programming",
+    "tags": [
+      "Cryptography",
+      "Python",
+      "Computer Science",
+      "Security"
+    ],
+    "readTime": "9 min read",
+    "featured": false,
+    "tldr": "Encryption scrambles plaintext into ciphertext using a cipher and a secret key; only the right key reverses it. The Caesar cipher shifts letters by a fixed amount, but with only 26 keys it falls to brute force, and letter substitution falls to frequency analysis because e stays the most common letter. Modern ciphers such as AES use at least 2 to the power 128 keys and leave no patterns. Diffie-Hellman key exchange lets two strangers agree a secret key in public using one-way maths, which is how HTTPS sets up the padlock connection."
+  },
+  "hero": {
+    "title": "How Does Encryption Work? From Caesar Ciphers to HTTPS",
+    "subtitle": "Build a Caesar cipher in Python, break it two different ways, and then see the clever idea that lets your browser agree a secret key with a website while anyone could be listening.",
+    "featuredImage": {
+      "url": "/images/blog/how-does-encryption-work/00-hero.png",
+      "alt": "How encryption works: a padlock above the word HELLO shifted three letters to KHOOR"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every time you see a padlock next to a website address, send a message on most chat apps, or pay online, encryption is scrambling your data so that anyone who intercepts it sees nonsense. Only someone with the right key can turn it back into the original. The maths behind it is some of the cleverest in computing, but the core ideas can be understood with nothing more than the alphabet and a little Python."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide builds up from the oldest cipher in common use, the Caesar cipher, shows two ways to break it, and then explains the big idea that makes modern secure websites possible: two strangers agreeing a secret key while everyone is listening. Every program below was run, and the outputs are real."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What is encryption?",
+        "id": "what"
+      },
+      {
+        "type": "paragraph",
+        "text": "Encryption turns readable <strong>plaintext</strong> into scrambled <strong>ciphertext</strong> using a <strong>key</strong>. Decryption uses a key to turn it back. The method itself, the <strong>cipher</strong>, is usually public. The security comes from keeping the key secret, and from making the key impossible to guess."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Caesar cipher",
+        "id": "caesar"
+      },
+      {
+        "type": "paragraph",
+        "text": "According to the Roman historian Suetonius, Julius Caesar protected his letters by shifting every letter three places along the alphabet: A becomes D, B becomes E, and so on, with X, Y and Z wrapping round to A, B and C. The key is simply the size of the shift."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-does-encryption-work/01-shift.png",
+        "alt": "Caesar cipher with a shift of 3: the plain alphabet above the cipher alphabet starting at D, so MEET ME AT THE LIBRARY becomes PHHW PH DW WKH OLEUDUB",
+        "caption": "The whole cipher fits on one strip of paper."
+      },
+      {
+        "type": "paragraph",
+        "text": "In code, each letter is turned into a number from 0 to 25, the key is added, and the result wraps round using the remainder after dividing by 26. That wrapping is <a href='/blog/modular-arithmetic-explained'>modular arithmetic</a>, the same maths as a clock."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def shift_text(text, key):\n    out = \"\"\n    for ch in text:\n        if ch.isalpha():\n            base = ord(\"A\") if ch.isupper() else ord(\"a\")\n            out += chr((ord(ch) - base + key) % 26 + base)\n        else:\n            out += ch          # spaces and punctuation stay as they are\n    return out\n\nif __name__ == \"__main__\":\n    secret = shift_text(\"Meet me at the library at noon\", 3)\n    print(\"encrypted:\", secret)\n    print(\"decrypted:\", shift_text(secret, -3))",
+        "title": "caesar.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "encrypted: Phhw ph dw wkh oleudub dw qrrq\ndecrypted: Meet me at the library at noon",
+        "title": "Output"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Breaking it: try every key",
+        "id": "brute-force"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Caesar cipher has a fatal weakness: there are only 26 possible keys. An attacker does not need to be clever. They can just try all of them, which is called a <strong>brute-force attack</strong>:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from caesar import shift_text\n\nintercepted = \"Wkh sdvvzrug lv eoxh gudjrq\"\nfor key in range(26):\n    print(f\"{key:>2}: {shift_text(intercepted, -key)}\")",
+        "title": "brute.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "0: Wkh sdvvzrug lv eoxh gudjrq\n 1: Vjg rcuuyqtf ku dnwg ftciqp\n 2: Uif qbttxpse jt cmvf esbhpo\n 3: The password is blue dragon\n 4: Sgd ozrrvnqc hr aktd cqzfnm\n 5: Rfc nyqqumpb gq zjsc bpyeml\n 6: Qeb mxpptloa fp yirb aoxdlk\n 7: Pda lwoosknz eo xhqa znwckj\n 8: Ocz kvnnrjmy dn wgpz ymvbji\n 9: Nby jummqilx cm vfoy xluaih\n10: Max itllphkw bl uenx wktzhg\n11: Lzw hskkogjv ak tdmw vjsygf\n12: Kyv grjjnfiu zj sclv uirxfe\n13: Jxu fqiimeht yi rbku thqwed\n14: Iwt ephhldgs xh qajt sgpvdc\n15: Hvs doggkcfr wg pzis rfoucb\n16: Gur cnffjbeq vf oyhr qentba\n17: Ftq bmeeiadp ue nxgq pdmsaz\n18: Esp alddhzco td mwfp oclrzy\n19: Dro zkccgybn sc lveo nbkqyx\n20: Cqn yjbbfxam rb kudn majpxw\n21: Bpm xiaaewzl qa jtcm lziowv\n22: Aol whzzdvyk pz isbl kyhnvu\n23: Znk vgyycuxj oy hrak jxgmut\n24: Ymj ufxxbtwi nx gqzj iwflts\n25: Xli tewwasvh mw fpyi hveksr",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-does-encryption-work/02-brute.png",
+        "alt": "All 26 possible Caesar shifts of an intercepted message; only key 3 gives readable English: The password is blue dragon",
+        "caption": "25 lines of nonsense and one that makes sense."
+      },
+      {
+        "type": "paragraph",
+        "text": "Only one line is readable English, so the key was 3. A computer does this in a fraction of a second. Modern ciphers defend against brute force by having an astronomically large number of possible keys. AES, used across the internet, allows keys of 128 bits or more: that is 2<sup>128</sup> possibilities, a 39-digit number, far too many to try even with every computer on Earth."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Breaking it smarter: frequency analysis",
+        "id": "frequency"
+      },
+      {
+        "type": "paragraph",
+        "text": "In the 9th century, the scholar al-Kindi described a cleverer attack that works even on ciphers with many more keys. In English, some letters are far more common than others, with e the most common of all. A cipher that always swaps each letter for the same substitute keeps that pattern. So count the letters in the ciphertext, and the most common one probably stands for e:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from collections import Counter\nfrom caesar import shift_text\n\nmessage = (\"Every year the school science fair fills the main hall with experiments. \"\n           \"This time the winning entry was a small weather station that measured the \"\n           \"temperature, the wind speed and the rain, then sent the readings to a \"\n           \"website every ten minutes. The team spent three weeks testing it on the \"\n           \"roof, and they were delighted when the judges said it was the best entry \"\n           \"they had seen in several years.\")\nsecret = shift_text(message, 11)\n\ndef crack(ciphertext):\n    letters = [c for c in ciphertext.lower() if c.isalpha()]\n    top = Counter(letters).most_common(1)[0][0]\n    key = (ord(top) - ord(\"e\")) % 26        # guess: the most common letter stands for e\n    return key, shift_text(ciphertext, -key)\n\nkey, guess = crack(secret)\nprint(\"most common letters:\", Counter(c for c in secret.lower() if c.isalpha()).most_common(5))\nprint(\"guessed key:\", key)\nprint(\"decrypted:\", guess[:70], \"...\")\n\nshort = shift_text(\"Do not open the box\", 11)\nkey2, guess2 = crack(short)\nprint(\"short message, guessed key:\", key2, \"->\", guess2)",
+        "title": "freq.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "most common letters: [('p', 61), ('e', 41), ('s', 24), ('d', 24), ('y', 24)]\nguessed key: 11\ndecrypted: Every year the school science fair fills the main hall with experiment ...\nshort message, guessed key: 21 -> Te dej efud jxu ren",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-does-encryption-work/03-frequency.png",
+        "alt": "Letter counts in the encrypted message: the letter p appears 61 times, far more than any other, and p is 11 places after e, revealing the key 11",
+        "caption": "One tall bar gives the whole cipher away."
+      },
+      {
+        "type": "paragraph",
+        "text": "In the long message, <strong>p</strong> appeared 61 times, far ahead of any other letter. Since p is 11 places after e, the key is 11, and the whole message decrypts correctly. But look at the last line: on the short message \"Do not open the box\", the same method guessed key 21 and produced \"Te dej efud jxu ren\". Five words are not enough for the statistics to work. Frequency analysis needs plenty of text, which is one reason short messages were historically harder to crack."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "Why this matters today",
+        "text": "Frequency analysis is why modern ciphers are designed so that the same letter never turns into the same symbol twice in a predictable way. A good cipher's output looks like random noise, with no patterns left to count."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The key problem, and a brilliant solution",
+        "id": "key-exchange"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every cipher so far has the same practical problem: both people need the same secret key before they start. That is fine for spies who meet in person, but you have never met your bank's web server. How can two strangers agree a secret key over the internet, where anyone might be listening?"
+      },
+      {
+        "type": "paragraph",
+        "text": "In 1976, Whitfield Diffie and Martin Hellman published a solution now called <strong>Diffie-Hellman key exchange</strong>. It relies on a one-way calculation: raising a number to a power and taking a remainder is easy, but undoing it is extremely hard when the numbers are huge. Here it is with toy-sized numbers:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# Two people agree a secret number over a public channel (Diffie-Hellman, toy sized)\np, g = 23, 5                  # public: everyone can see these\n\nalice_secret = 6              # never sent\nbob_secret = 15               # never sent\n\nalice_sends = pow(g, alice_secret, p)     # 5^6 mod 23\nbob_sends = pow(g, bob_secret, p)         # 5^15 mod 23\nprint(\"sent in public:\", alice_sends, \"and\", bob_sends)\n\nalice_key = pow(bob_sends, alice_secret, p)\nbob_key = pow(alice_sends, bob_secret, p)\nprint(\"Alice works out:\", alice_key)\nprint(\"Bob works out:  \", bob_key)",
+        "title": "exchange.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "sent in public: 8 and 19\nAlice works out: 2\nBob works out:   2",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-does-encryption-work/04-exchange.png",
+        "alt": "Diffie-Hellman with toy numbers: public values p = 23 and g = 5; Alice's secret 6 gives 8, Bob's secret 15 gives 19; each combines the other's public number with their own secret and both get 2",
+        "caption": "The secrets 6 and 15 never travel across the network."
+      },
+      {
+        "type": "paragraph",
+        "text": "Alice keeps 6 secret and sends 8. Bob keeps 15 secret and sends 19. Each combines the number they received with their own secret, and both arrive at 2, a shared key that was never sent. An eavesdropper sees 23, 5, 8 and 19, but to find the key they would need to work backwards to a secret. With these tiny numbers that is easy to do by trial. Real systems use numbers hundreds of digits long, or a related method based on elliptic curves, where working backwards would take longer than the age of the universe."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How it all comes together in HTTPS",
+        "id": "https"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "Your browser and the website use a key exchange built on this same idea to agree a fresh secret key, even though every message between them could be seen by others.",
+          "The website proves it is genuine using a certificate, so you know you agreed the key with the real site and not an impostor.",
+          "All the data is then encrypted with a fast cipher such as AES using that shared key.",
+          "The key belongs to that connection only. A later visit normally sets up a fresh one."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "That whole process happens in a fraction of a second every time the padlock appears. Many of the ideas in it, including remainders, huge numbers and one-way functions, connect to the maths in our guides to <a href='/blog/prime-numbers-explained'>prime numbers</a> and <a href='/blog/binary-numbers-explained'>binary</a>."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Idea",
+          "Weakness or strength"
+        ],
+        "rows": [
+          [
+            "Caesar cipher",
+            "Only 26 keys, so brute force breaks it instantly"
+          ],
+          [
+            "Letter substitution",
+            "Keeps letter patterns, so frequency analysis breaks it"
+          ],
+          [
+            "AES",
+            "2 to the power 128 or more keys, and output with no usable patterns"
+          ],
+          [
+            "Diffie-Hellman",
+            "Lets strangers agree a key in public, if the numbers are huge"
+          ]
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "A cipher is only as strong as its key is hard to guess. Every advance in cryptography is really a better way to make and share keys."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Encryption is a good fit for two principles on our <a href='/how-we-teach'>how we teach</a> page. Learning by building: making a cipher, then breaking it, teaches more than any definition. And tracing code line by line until every step can be predicted, which is exactly how the wrap-round from Z back to A starts to make sense. Our <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> runs one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How does encryption work in simple terms?",
+            "content": "Encryption uses a method called a cipher and a secret key to scramble readable data into ciphertext. Only someone with the right key can reverse it. The cipher is usually public; the security comes from keeping the key secret and making it impossible to guess."
+          },
+          {
+            "title": "What is a Caesar cipher?",
+            "content": "A Caesar cipher shifts every letter a fixed number of places along the alphabet, such as A to D with a shift of 3. It is named after Julius Caesar, who is reported to have used a shift of 3. It is easy to break because there are only 26 possible shifts."
+          },
+          {
+            "title": "How do you break a Caesar cipher?",
+            "content": "Try all 26 shifts and look for readable text, which is called brute force. Or use frequency analysis: find the most common letter in the ciphertext, assume it stands for e, and work out the shift. Frequency analysis needs a reasonably long message to work."
+          },
+          {
+            "title": "What is frequency analysis?",
+            "content": "It is a code-breaking method that counts how often each symbol appears in a ciphertext and matches the most common ones to the most common letters in the language, such as e in English. It was described by the scholar al-Kindi in the 9th century."
+          },
+          {
+            "title": "How can two people share a secret key over the internet?",
+            "content": "They use a key exchange such as Diffie-Hellman. Each person keeps a secret number and sends a value calculated from it. Combining the other person's value with their own secret gives both the same key, while anyone watching cannot work it out if the numbers are large enough."
+          },
+          {
+            "title": "What does the padlock in my browser mean?",
+            "content": "It means the site uses HTTPS: your browser agreed a secret key with the website, checked the site's certificate, and is encrypting everything sent between you. It shows the connection is private, not that the website itself is trustworthy."
+          },
+          {
+            "title": "Is encryption a good topic for learning to code?",
+            "content": "Yes. A Caesar cipher is a classic early Python project that practises strings, loops and remainders, and breaking it with brute force and frequency analysis is a satisfying next step. It also appears in computer science syllabuses such as GCSE."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "modular-arithmetic-explained",
+    "binary-numbers-explained",
+    "prime-numbers-explained"
+  ]
+}

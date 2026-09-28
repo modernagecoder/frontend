@@ -299,6 +299,10 @@
         "text": "This surprises people, but cloud services are often more secure than on-premise solutions. Major cloud providers employ security experts, use advanced encryption, and maintain certifications that small businesses couldn't afford independently."
       },
       {
+        "type": "paragraph",
+        "text": "If you have ever wondered what encryption actually does to your data, our plain-English guide to <a href='/blog/how-does-encryption-work'>how encryption works</a> starts with a simple cipher, shows how it is broken, and ends with how a browser and a website agree a secret key."
+      },
+      {
         "type": "heading",
         "level": 2,
         "text": "Common Concerns (And the Reality)",

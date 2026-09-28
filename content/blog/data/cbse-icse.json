@@ -328,6 +328,10 @@
         ]
       },
       {
+        "type": "paragraph",
+        "text": "A good first step into cybersecurity for students is understanding encryption itself. Our guide to <a href='/blog/how-does-encryption-work'>how encryption works</a> has students build a Caesar cipher in Python, break it two ways, and see the idea behind the padlock in their browser."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "Soft Skills for Tech"
