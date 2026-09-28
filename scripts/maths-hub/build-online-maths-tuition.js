@@ -98,7 +98,7 @@ const LADDER = [
   ['India: CBSE, ICSE and JEE foundation', [
     ['/maths-class-10', 'Maths Tuition for Class 10'], ['/courses/cbse-class-10-maths-board-exam-prep-course', 'CBSE Class 10 Maths Board Prep'],
     ['/courses/jee-foundation-maths-course-class-8-10', 'JEE Foundation Maths, Class 8 to 10'], ['/blog/cbse-maths-tuition-online', 'CBSE Maths Tuition for Class 6 to 12: Guide'],
-    ['/courses/vedic-maths-course-speed-calculation-mastery', 'Vedic Maths'], ['/courses/maths', 'All maths courses']]],
+    ['/courses/vedic-maths-course-speed-calculation-mastery', 'Vedic Maths'], ['/course-atlas', 'Every maths course (Course Atlas)']]],
   ['UK curriculum ladder', [
     ['/ks2-maths-tuition-online', 'KS2 Maths (ages 7-11)'], ['/ks3-maths-tuition-online', 'KS3 Maths (ages 11-14)'], ['/gcse-maths-tuition-online', 'GCSE Maths'],
     ['/a-level-maths-tuition-online', 'A-Level Maths'], ['/further-maths-tuition-online', 'Further Maths'], ['/functional-skills-maths-tuition-online', 'Functional Skills Maths'],
@@ -283,7 +283,7 @@ ${COURSES.map(([slug, img, tag, title, blurb]) => `      <a class="omt-course" h
         <span class="omt-course-body"><span class="omt-course-tag">${esc(tag)}</span><span class="omt-course-title">${esc(title)}</span><span class="omt-course-blurb">${esc(blurb)}</span><span class="omt-course-more">View course ${ARROW}</span></span>
       </a>`).join('\n')}
     </div>
-    <p class="omt-more"><a class="omt-link" href="/courses/maths">See all maths courses</a>, including Vedic maths, abacus, AP, SAT, PSLE, olympiad and statistics.</p>
+    <p class="omt-more"><a class="omt-link" href="/course-atlas">See every maths course in the Course Atlas</a>, including Vedic maths, abacus, AP, SAT, PSLE, olympiad and statistics.</p>
   </div>
 </section>
 

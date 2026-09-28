@@ -1,20 +1,40 @@
 ---
-title: "Online Maths Tuition for All Ages | Class 1-12, College & Advanced | Modern Age Coders"
-description: "Expert online maths tuition for students worldwide. Personalized 1-on-1 and group classes for Class 1-12, college maths, and competitive exams. CBSE, ICSE, IB, IGCSE, and international curricula. Book a free demo today."
+title: "Online Maths Tuition for Class 1-12, CBSE & ICSE | Modern Age Coders"
+description: "Live online maths tuition for Class 1 to 12 on CBSE, ICSE, IB, IGCSE and GCSE, plus college maths and olympiads. Small batches or 1-on-1 with specialist tutors."
 canonical: https://learn.modernagecoders.com/online-maths-tuition
 source: src/pages/online-maths-tuition.html
 ---
-> Expert online maths tuition for students worldwide. Personalized 1-on-1 and group classes for Class 1-12, college maths, and competitive exams. CBSE, ICSE, IB, IGCSE, and international curricula. Book a free demo today.
+> Live online maths tuition for Class 1 to 12 on CBSE, ICSE, IB, IGCSE and GCSE, plus college maths and olympiads. Small batches or 1-on-1 with specialist tutors.
 
-Trusted by Students from 25+ Countries
+1. [Home](/)
+2. Online Maths Tuition
 
-# Online Maths Tuition for Every Level, Every Age
+Live maths classes · Class 1 to 12, college and beyond
 
-From basic arithmetic to advanced calculus, our expert tutors make maths simple, logical, and connected to real-world problem solving. Whether your child is in Class 1 or you are preparing for a competitive exam, we build understanding from the ground up. Students across India, the US, UK, UAE, Singapore, and 25+ countries learn with us every day.
+# Online Maths Tuition for *every class, board and age*
 
-[Book a Free Maths Demo](/book-demo)[View Pricing](/pricing)[WhatsApp Us](https://wa.me/919123366161?text=Hi! I'm interested in online maths tuition. Can you share more details?)**10,000+** Students Taught**25+** Countries**4.9/5** Parent Rating**92%** Grade ImprovementCBSE MathsICSE MathsIB MathematicsIGCSE MathsState Board MathsVedic MathsMental MathsOlympiad TrainingJEE MathsSAT MathCollege CalculusStatisticsLinear AlgebraCompetitive MathsClass 1-12GRE QuantitativeCBSE MathsICSE MathsIB MathematicsIGCSE MathsState Board MathsVedic MathsMental MathsOlympiad TrainingJEE MathsSAT MathCollege CalculusStatisticsLinear AlgebraCompetitive MathsClass 1-12GRE Quantitative
+Live online maths tuition with tutors who specialise in the level they teach: CBSE, ICSE and state boards in India, IB, IGCSE, GCSE and A-Level, US Common Core, college maths and olympiads. Your child learns why each method works, practises with feedback and builds real confidence.
 
-Modern Age Coders runs live online maths tuition for school and college students, covering the CBSE, ICSE and state boards in India along with UK, US and Gulf curricula. Lessons are live in small batches or one to one, taught by expert mentors with real problem solving, and start with a free demo before you pay.
+[Book a Priority Demo](/priority-demo)Find your maths course
+
+Questions? [WhatsApp +91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20online%20maths%20tuition.%20Can%20you%20share%20more%20details%3F) or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com?subject=Online%20maths%20tuition%20enquiry)
+
+- **10,000+**students taught since 2020
+- **4.9**rating across 547 Google reviews
+- **25+**countries, taught in your time zone
+- **6 to 67**every age can learn maths with us
+
+Choose your level
+
+## Maths courses for every class and exam
+
+Pick the course that matches the student's class or board. Each course page shows the full week-by-week syllabus, the plans and how to enrol.
+
+[![Elementary Maths, Grades 1 to 5 course thumbnail](/content/courses/generated/elementary-mathematics-complete-masterclass/images/elementary-maths.webp) Class 1 to 5Elementary Maths, Grades 1 to 5Number sense, place value, fractions and word problems, placed by grade.View course](/courses/elementary-mathematics-complete-masterclass)[![Middle School Maths course thumbnail](/content/courses/generated/comprehensive-middle-school-mathematics-mastery/images/middle-school-maths.webp) Class 6 to 8Middle School MathsIntegers, ratio, early algebra and geometry: the years that decide confidence.View course](/courses/comprehensive-middle-school-mathematics-mastery)[![CBSE Class 10 Maths Board Prep course thumbnail](/content/courses/generated/cbse-class-10-maths-board-exam-prep-course/images/cbse-class-10-maths.webp) CBSE Class 10CBSE Class 10 Maths Board PrepAll 14 chapters, case-study questions and full mock papers.View course](/courses/cbse-class-10-maths-board-exam-prep-course)[![JEE Foundation Maths course thumbnail](/content/courses/generated/jee-foundation-maths-course-class-8-10/images/jee-foundation-maths.webp) Class 8 to 10JEE Foundation MathsNCERT depth plus proofs and olympiad-style problem solving.View course](/courses/jee-foundation-maths-course-class-8-10)[![High School Maths course thumbnail](/content/courses/generated/complete-high-school-mathematics-mastery/images/high-school-maths.webp) Grade 9 to 12High School MathsAlgebra, trigonometry, pre-calculus and calculus, step by step.View course](/courses/complete-high-school-mathematics-mastery)[![GCSE Maths (AQA, Edexcel, OCR) course thumbnail](/content/courses/generated/gcse-mathematics-mastery/images/gcse-maths.webp) UK, Years 9 to 11GCSE Maths (AQA, Edexcel, OCR)Foundation and Higher tier, paper technique and resits.View course](/courses/gcse-mathematics-mastery)[![IB Maths AA and AI, SL and HL course thumbnail](/content/courses/generated/ib-mathematics-aa-ai-masterclass/images/ib-maths-aa-ai.webp) IB DiplomaIB Maths AA and AI, SL and HLSyllabus-exact teaching, paper technique and IA coaching.View course](/courses/ib-mathematics-aa-ai-masterclass)[![College Maths course thumbnail](/content/courses/generated/college-mathematics-complete-masterclass/images/college-level-maths.webp) CollegeCollege MathsCalculus, linear algebra, probability and analysis.View course](/courses/college-mathematics-complete-masterclass)
+
+[See every maths course in the Course Atlas](/course-atlas), including Vedic maths, abacus, AP, SAT, PSLE, olympiad and statistics.
+
+Modern Age Coders runs live online maths tuition for students aged 6 to 67: CBSE, ICSE and state boards in India, plus GCSE, IGCSE, IB, A-Level, US Common Core and the Singapore syllabus. Every class is taught live by a specialist mentor in a small group, a mini batch or one to one, and families can see a full class first with a Priority Demo.
 
 Rated 4.9 across 547 Google reviews
 
@@ -22,336 +42,231 @@ Rated 4.9 across 547 Google reviews
 
 *Shivam Khemka, Founder of Modern Age Coders*
 
-20-40%
+How we teach maths
 
-Average grade improvement within 3 months of joining
+## How live online maths tuition works
 
-8+
+From the first class to exam day, every step is built to find the real gaps and close them.
 
-Years of experience in online maths education
+1. 01
 
-1:6
+  ### Placement first
 
-Maximum student-to-teacher ratio in group classes
+  Start with a Priority Demo: a full live class of about 45 to 60 minutes where the mentor watches how the student works. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. It shows which ideas are secure and which gaps from earlier years need filling.
+2. 02
 
-50+
+  ### A plan built on the gaps
 
-Expert maths tutors with proven track records
+  If a Class 8 student is shaky on Class 6 fractions, the plan fixes that first. The plan is reviewed as the student moves forward, so time goes where it is needed.
+3. 03
+
+  ### Concept before formula
+
+  We teach why a method works before drilling how to use it. Students who understand where a formula comes from can handle unfamiliar exam questions on their own.
+4. 04
+
+  ### Practice with feedback
+
+  Every class includes live problem solving on screen. Homework and timed practice are checked, and mistakes are worked through in the next session.
+5. 05
+
+  ### Progress parents can see
+
+  Parents get regular progress updates: what was covered, what improved and what comes next. A certificate is awarded on completing a course.
+6. 06
+
+  ### Exam technique
+
+  Knowing maths and scoring well are different skills. We teach time management, question choice, clear presentation and how to stop losing marks to slips.
+
+[Watch recordings of real classes](/how-we-teach#library) to see the teaching before you decide.
 
 Curriculum
 
-## Maths Tuition for Every Class, Every Level
+## Maths tuition for every class and every level
 
-We do not believe in one-size-fits-all. Every student gets a learning plan tailored to their class, board, skill level, and goals. Here is what we cover at each stage.
+Every student gets a plan for their class, board, current level and goal. This is what we cover at each stage.
 
-### Foundation Stage
+### Foundation stage
 
-Class 1 - 5 (Ages 6-10)
+Class 1 to 5, ages 6 to 10
 
-Build a rock-solid base with numbers, shapes, and early problem solving. We make maths fun through visual learning, games, and real-world examples that kids actually enjoy.
+A solid base in numbers, shapes and early problem solving, taught with visual models and real-world examples children enjoy.
 
 - Number sense and place value
-- Addition, subtraction, multiplication, division
-- Fractions and decimals introduction
-- Basic geometry and shapes
-- Measurement, time, and money
-- Pattern recognition and logical thinking
-- Mental maths and speed calculations
-- Word problems and story-based maths
+- The four operations, with fluency
+- Fractions and decimals
+- Shapes, measurement, time and money
+- Mental maths and patterns
+- Word problems and story sums
 
-### Middle School
+### Middle school
 
-Class 6 - 8 (Ages 11-13)
+Class 6 to 8, ages 11 to 13
 
-This is where most students either fall in love with maths or start struggling. We make sure your child builds strong concepts that carry forward into higher classes without gaps.
+The years where students either fall in love with maths or start to struggle. We make sure each concept is secure before the next one builds on it.
 
-- Integers, rational numbers, exponents
+- Integers, rational numbers and exponents
 - Algebraic expressions and equations
-- Ratio, proportion, and percentages
-- Geometry: angles, triangles, quadrilaterals
-- Data handling and basic statistics
-- Mensuration: area, volume, surface area
-- Number theory and divisibility
-- Introduction to coordinate geometry
+- Ratio, proportion and percentages
+- Angles, triangles and quadrilaterals
+- Area, volume and surface area
+- Data handling and early statistics
 
-### High School (Board Exams)
+### Board exam years
 
-Class 9 - 10 (Ages 14-15)
+Class 9 to 10, ages 14 to 15
 
-Board exams are a turning point. Our tutors cover every chapter in depth, build exam strategies, and ensure your child scores confidently. We cover all major boards including CBSE, ICSE, and State Boards.
+Every chapter covered in depth for CBSE, ICSE and state boards, with exam technique built in from the start rather than crammed at the end.
 
 - Polynomials and quadratic equations
-- Coordinate geometry in depth
+- Coordinate geometry
 - Trigonometry and its applications
-- Circles, constructions, and proofs
+- Circles, constructions and proofs
 - Statistics and probability
-- Surface areas and volumes
-- Arithmetic progressions
-- Board exam paper practice and strategy
+- Board paper practice and strategy
 
-### Senior Secondary
+### Senior secondary
 
-Class 11 - 12 (Ages 16-17)
+Class 11 to 12, ages 16 to 17
 
-Class 11 and 12 maths can feel overwhelming, but with the right tutor it becomes manageable. We cover the complete syllabus for both board exams and competitive entrance preparation.
+The complete syllabus for board exams, with the extra depth that JEE and SAT preparation need.
 
-- Sets, relations, and functions
-- Limits, continuity, and differentiability
+- Sets, relations and functions
+- Limits, continuity and differentiation
 - Integral calculus and applications
 - Matrices and determinants
 - Vectors and 3D geometry
 - Probability and distributions
-- Linear programming
-- JEE / NEET / SAT Math preparation
 
-### College Mathematics
+### College maths
 
-Undergraduate & Postgraduate
+Undergraduate and beyond
 
-Struggling with college-level maths? We have tutors specialized in engineering mathematics, pure maths, applied statistics, and data science math. No topic is too advanced.
+Engineering maths, pure maths, statistics and the maths behind data science, taught by tutors who specialise in each area.
 
-- Linear algebra and matrix theory
+- Linear algebra
 - Multivariable calculus
-- Differential equations (ODE & PDE)
+- Differential equations
 - Real and complex analysis
 - Probability and statistical inference
-- Discrete mathematics
-- Numerical methods
-- Operations research
+- Discrete mathematics and numerical methods
 
-### Competitive & Olympiad
+### Competitions and advanced
 
-All Ages
+All ages
 
-For students who want to go beyond the syllabus and compete at national and international levels. Our advanced track covers olympiad-level number theory, combinatorics, and proofs.
+For students who want to go beyond the syllabus: olympiad number theory, combinatorics and proof, plus admissions tests.
 
-- IMO, RMO, IOQM preparation
-- AMC, MATHCOUNTS (US students)
+- IOQM, RMO and INMO
+- AMC and AIME
 - Number theory and combinatorics
-- Inequality proofs and techniques
-- Vedic mathematics and speed tricks
+- Inequalities and proof technique
 - SAT Math and GRE Quantitative
-- Problem-solving strategies
-- Mathematical reasoning and logic
+- Vedic maths and speed calculation
 
-Boards We Cover
+Boards we cover
 
-## Compatible with Every Board & Curriculum
+## Taught to your board and your syllabus
 
-No matter which school board or international curriculum your child follows, our tutors customize every lesson to match the exact syllabus, textbook, and exam pattern.
+- **CBSE**NCERT, chapter by chapter
+- **ICSE / ISC**Council for the Indian School Certificate
+- **State boards**Indian state syllabi
+- **IB**Maths AA and AI, SL and HL
+- **IGCSE**Core, Extended, Additional
+- **GCSE**AQA, Edexcel, OCR
+- **A-Level**Pure, Mechanics, Statistics
+- **US Common Core**Kindergarten to Grade 12, AP
+- **Singapore MOE**PSLE and the model method
+- **Australian**Australian Curriculum
 
-CBSECentral Board of Secondary EducationICSE / ISCIndian Certificate of Secondary EducationState BoardsAll Indian State Board SyllabiIBInternational Baccalaureate (SL & HL)IGCSEInternational General CertificateCambridgeCambridge International (A/AS Level)US Common CoreUS K-12 StandardsAustralianAustralian National Curriculum
+### Online maths tuition in India: CBSE and ICSE, Class 1 to 12
 
-How We Teach
+For Indian families, lessons follow the NCERT textbook chapter by chapter for CBSE, and the ICSE and ISC syllabus for Council schools, in the order your school teaches them. A Class 6 student builds fluency in integers, fractions and early algebra; a Class 10 student works through every board chapter with case-study questions and past-paper practice; Class 11 and 12 students cover calculus, vectors and probability for the boards and for JEE. Classes are scheduled in Indian time, in English or Hindi depending on the batch.
 
-## The Modern Age Coders Maths Method
+[Maths tuition for Class 10](/maths-class-10) · [CBSE Class 10 Maths Board Prep](/courses/cbse-class-10-maths-board-exam-prep-course) · [A parent's guide to CBSE maths tuition](/blog/cbse-maths-tuition-online)
 
-We do not just solve problems on a whiteboard. Our method is designed to build genuine understanding so your child never needs to memorize formulas again.
+Plans
 
-01
+## Clear monthly plans
 
-### Diagnostic Assessment
+Every plan is live with a specialist mentor, and each class runs about one hour. Billing is monthly and you can cancel any time; quarterly and yearly plans cost less.
 
-Every student starts with a free assessment. We identify exactly where the gaps are, which concepts are shaky, and what level they are truly at. No guessing, no assumptions.
+### Group batch
 
-02
+₹1,499/ month
 
-### Personalized Learning Plan
+- 2 live classes a week
+- Up to 10 students
+- Board-aligned lessons and checked practice
 
-Based on the assessment, we build a custom learning roadmap. If your child is in Class 8 but has gaps from Class 6, we fill those gaps first. The plan evolves every month based on progress.
+Most popular
 
-03
+### Mini batch
 
-### Concept-First Teaching
+₹2,999/ month
 
-We teach the "why" before the "how". Instead of memorizing formulas, students understand where they come from. This means they can solve unfamiliar problems on their own during exams.
+- 2 live classes a week
+- Just 3 to 4 students
+- Near one-to-one attention
 
-04
+### 1-on-1
 
-### Practice with Feedback
+₹4,999/ month
 
-Every class includes live problem-solving. Students get worksheets, timed tests, and homework assignments. The tutor reviews every answer and explains every mistake in the next session.
+- 1 private class a week, 4 a month
+- Your own mentor and pace
+- Timings that suit you
 
-05
+[Book a Priority Demo](/priority-demo)Choose a course and enrol[See the full pricing page](/pricing)
 
-### Monthly Progress Reports
+To enrol, open your course above and press Enrol Now on the plan you want. After payment, message us on WhatsApp with the student's name, the course and a preferred time slot, and we confirm the batch and class link.
 
-Parents receive detailed reports every month showing exactly what was covered, where the student improved, and what comes next. No surprises, complete transparency.
+What families say
 
-06
+## Rated 4.9 across 547 Google reviews
 
-### Exam Strategy Coaching
+Modern Age Coders teaches both maths and coding. These are real reviews from our families, quoted as written.
 
-Knowing maths and scoring well in exams are two different skills. We teach time management, question selection, presentation, and how to avoid silly mistakes that cost marks.
+> “Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students’ confidence, keeps them updated with technology, and inspires them to learn without hesitation.”
 
-Pricing
+***Sonu Goyal**Parent*
 
-## Transparent, Affordable Pricing
+> “What stands out most is how excited my son is before every class. He looks forward to learning, problem-solving, and sharing what he’s built. I’ve noticed a big boost in his confidence!”
 
-No hidden fees, no long-term contracts, cancel anytime. Pick the plan that works for you.
+***Poonam Rathore**Parent*
 
-Popular
+> “My child Dhairya is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it.”
 
-### Group Classes
+***Sonam Oswal**Parent of Dhairya*
 
-Learn with peers, grow together
+> “Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding… truly amazing class.”
 
-₹1,499
+***Shradha Saraf**Parent of Mivaan*
 
-per month
+[Read the full Wall of Love](/love) · [Reviews on Google](https://g.page/r/Cff_QkHNaP9yEAE/review)
 
-- 2 classes per week (1 hour each)
-- Small batch of 5-6 students max
-- Board-aligned curriculum (CBSE/ICSE/State)
-- Recorded sessions for revision
-- Practice worksheets after every class
-- Doubt clearing support
-- Monthly progress reports
-- Course completion certificate
+Our promise
 
-[Book Free Demo](/book-demo)Recommended
+## The world's best learning experience, open to *everyone*.
 
-### Personalized 1-on-1
+- **World-class instructors**Every class is taught by a tutor who specialises in that exact level of maths.
+- **No compromise on quality**Every lesson, worksheet and piece of feedback is held to the highest standard.
+- **Education for everyone**Learners aged 6 to 67, from first sums to university maths, in 25+ countries.
 
-Your pace, your goals, your schedule
+If you want the highest quality, Modern Age Coders is the right choice.
 
-₹2,499
-
-per month
-
-- 1 private session per week (1 hour each, 4 a month)
-- 100% customized to your syllabus
-- Flexible scheduling (any timezone)
-- Dedicated tutor assigned
-- Priority doubt support on WhatsApp
-- Exam preparation and strategy coaching
-- Personalized study materials
-- Lifetime recording access
-- Olympiad and competition coaching available
-
-[Book Free Demo](/book-demo)
-
-Payment via UPI, bank transfer, or card. Pay monthly or get discounts on quarterly/yearly plans.
-
-Popular
-
-### Group Classes
-
-Learn with peers, grow together
-
-$100
-
-USD / month
-
-- 2 classes per week (1 hour each)
-- Small batch of 5-6 students
-- IB, IGCSE, Cambridge, US Common Core
-- Recorded sessions access
-- Practice worksheets and homework
-- Doubt clearing support
-- Course completion certificate
-
-[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm an international student interested in Group Maths Classes ($100 USD/month). Can you share more details?)Recommended
-
-### Personalized 1-on-1
-
-Your pace, your goals, your schedule
-
-$150
-
-USD / month
-
-- 2 private sessions per week (1 hour each)
-- 100% customized to your curriculum
-- Flexible scheduling across timezones
-- Dedicated tutor + priority support
-- SAT Math, AMC, or Olympiad prep available
-- Personalized study materials
-- Lifetime recording access
-- Portfolio and career guidance
-
-[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm an international student interested in Personalized 1-on-1 Maths Classes ($150 USD/month). Can you share more details?)
-
-Also available in EUR, GBP, CAD, AUD, SGD & AED.
-Contact [+91 9123366161](tel:+919123366161) (Shivam Sir) for payment details.
-
-Our Tutors
-
-## Learn from Experienced Maths Experts
-
-Our tutors are not just qualified. They know how to explain complex topics simply, build confidence, and make students genuinely enjoy mathematics.
-
-SK
-
-#### Shivam Sir
-
-Founder & Lead Instructor
-
-Built Modern Age Coders from the ground up. Personally mentored 2,000+ students across coding and maths. Specializes in making advanced topics simple and accessible.
-
-AlgebraCalculusCompetitiveAP
-
-#### Ananya P.
-
-Senior Maths Tutor
-
-M.Sc. Mathematics with 6+ years of online teaching experience. Loved by parents for her patience with younger students. Covers Class 1-8 and Vedic Maths.
-
-PrimaryVedic MathsCBSERK
-
-#### Rahul K.
-
-Board Exam Specialist
-
-B.Tech + M.Ed. with 8 years teaching Class 9-12. His students consistently score 90+ in board exams. Expert in CBSE, ICSE, and JEE Mathematics preparation.
-
-Board ExamsJEEICSESM
-
-#### Sarah M.
-
-International Curriculum Expert
-
-Cambridge-trained tutor with experience teaching IB, IGCSE, and US Common Core. Works with students across the US, UK, UAE, and Singapore.
-
-IB MathsIGCSESAT Math
-
-What Parents Say
-
-## What Families Say About Modern Age Coders
-
-Modern Age Coders teaches both maths and coding. These are real, verified reviews from our families.
-
-★★★★★
-
-My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
-
-Sonam OswalParent of Dhairya★★★★★
-
-Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
-
-Sonu GoyalParent★★★★★
-
-I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
-
-Krishnam BhatterFormer student★★★★★
-
-The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
-
-Ria MukherjeeParent★★★★★
-
-Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
-
-Shradha SarafParent of Mivaan★★★★★
-
-My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
-
-Poonam RathoreParent
+[Book a Priority Demo](/priority-demo)
 
 Every level, every exam
 
-## Find Your Maths Programme
+## Find your maths programme
 
 One live teacher, one method, every syllabus. Choose your class, board or exam and open the programme built for it.
+
+### India: CBSE, ICSE and JEE foundation
+
+[Maths Tuition for Class 10](/maths-class-10)[CBSE Class 10 Maths Board Prep](/courses/cbse-class-10-maths-board-exam-prep-course)[JEE Foundation Maths, Class 8 to 10](/courses/jee-foundation-maths-course-class-8-10)[CBSE Maths Tuition for Class 6 to 12: Guide](/blog/cbse-maths-tuition-online)[Vedic Maths](/courses/vedic-maths-course-speed-calculation-mastery)[Every maths course (Course Atlas)](/course-atlas)
 
 ### UK curriculum ladder
 
@@ -391,38 +306,91 @@ One live teacher, one method, every syllabus. Choose your class, board or exam a
 
 FAQ
 
-## Common Questions
+## Questions parents ask about online maths tuition
 
-Quick answers to the questions parents and students ask most about our online maths tuition.
+Is online maths tuition effective?
 
-Yes. Research shows that personalized online maths tuition often outperforms classroom learning because students get individual attention, can learn at their own pace, and have access to recorded sessions for revision. Our students regularly improve their grades by 20-40% within the first 3 months.At Modern Age Coders, group maths classes start at just ₹1,499/month for Indian students or $100/month for international students. Mini Batch (3-4 students) is ₹2,999/month. Personalized 1-on-1 sessions are ₹4,999/month or $150/month. There are no hidden fees and you can cancel anytime.We cover CBSE, ICSE, all Indian State Boards, IB (International Baccalaureate), IGCSE, Cambridge (A/AS Level), US Common Core, and Australian National Curriculum. Our tutors customize lessons based on your specific syllabus and textbook.Absolutely. We have students from 25+ countries including the US, UK, UAE, Canada, Singapore, Australia, and across Europe. Classes are scheduled at times that work across different time zones. International students pay in USD, with support for EUR, GBP, CAD, AUD, SGD, and AED as well.We teach maths to students from age 6 all the way to 65. Our curriculum covers primary school (Class 1-5), middle school (Class 6-8), high school (Class 9-12), college-level mathematics, and competitive exam preparation for working professionals.Yes. We offer dedicated Olympiad preparation covering IMO, RMO, IOQM, AMC, and MATHCOUNTS. Our advanced track also covers JEE Maths, SAT Math, and GRE Quantitative preparation. These sessions focus on problem-solving techniques, proof strategies, and advanced reasoning.Book a free demo class. We will assess your current level, understand your goals, and recommend the right plan. There is no commitment required for the demo. You can start your regular classes from the very next week.That is exactly why we exist. Our tutors specialize in building confidence from the ground up. We start with foundational gaps, fill them patiently, and gradually build speed and accuracy. Many of our students went from failing grades to scoring 90+ within 6 months.Yes. Both are live and taught by an expert mentor. Group maths classes in small batches are the most affordable and add peer learning, a mini batch gives near one-to-one attention, and one-to-one gives a fully personalised pace. Start with a free demo, and you can change your plan later.Yes. Every student starts with a free demo class before paying, and you can request a refund within 7 days of your first purchase. Sessions already taken and heavily used courses are not refundable, and the full terms are on our Refund Policy page.Yes, in UK time, on the UK curriculum. [KS3 maths tuition online](/ks3-maths-tuition-online) covers Years 7 to 9, including the Year 8 fluency work in fractions, ratio and early algebra that GCSE assumes; [GCSE maths tuition online](/gcse-maths-tuition-online) covers AQA, Edexcel and OCR at foundation and higher tier; and the [UK kids](/online-maths-tuition-for-kids-in-uk) and [UK teens](/online-maths-tuition-for-teens-in-uk) pages describe the primary and secondary routes. UK students who also take computer science can pair maths with [GCSE computer science tutoring](/uk-gcse-computer-science-tutoring).
+It works when the lesson is live and the tutor can see the student’s working. Every class here is taught live, in a small group, a mini batch or one to one: the mentor watches the student solve, corrects the method on the spot and sets practice that is checked. To see it before deciding, [watch recordings of real classes](/how-we-teach#library) or book a Priority Demo.
 
-## Why Online Maths Tuition Works Better in 2026
+How much does online maths tuition cost?
 
-The days of driving to a tuition center, sitting in a crowded room, and hoping your child keeps up are over. Online maths tuition gives every student what they actually need: a qualified tutor who focuses on their specific weaknesses, a learning pace that matches their speed, and the ability to revisit any lesson through recordings.
+There are three monthly plans: a group batch, a mini batch (India only) and one to one. The plans section on this page shows the current fee in your currency, and every plan is listed on the [pricing page](/pricing). Billing is monthly and you can cancel any time; quarterly and yearly plans cost less.
 
-At Modern Age Coders, online maths tuition is not just a video call. It is a structured learning experience with live whiteboard interaction, real-time problem solving, homework assignments, monthly tests, and progress tracking that parents can follow. Our students come from India, the United States, United Kingdom, UAE, Canada, Singapore, and many more countries. The platform works across all time zones and every major school board.
+Do you teach CBSE maths online for Class 6 to Class 12?
 
-## Who Should Consider Online Maths Tuition?
+Yes. CBSE students are taught to the NCERT chapters in the order their school follows, with the same question types the board uses. Class 10 students can join the [CBSE Class 10 Maths Board Prep](/courses/cbse-class-10-maths-board-exam-prep-course) course, which covers all 14 chapters, case-study questions and full mock papers. Class 8 to 10 students who want more depth can take [JEE Foundation Maths](/courses/jee-foundation-maths-course-class-8-10). ICSE and ISC students are taught to their own syllabus the same way.
 
-- Students struggling with maths who need patient, concept-first teaching
-- High achievers preparing for Olympiads, JEE, SAT, or other competitive exams
-- Kids in Class 1-5 who need a strong foundation before maths gets harder
-- Class 9-12 students preparing for board exams (CBSE, ICSE, IB, IGCSE)
-- College students who need help with calculus, linear algebra, or statistics
-- Working professionals preparing for GRE, GMAT, or career-related maths
-- International students who want affordable, high-quality maths tutoring
-- Parents looking for an alternative to expensive local tutoring centers
+Which boards and curricula do you cover?
 
-## Maths + Coding: A Combination That Sets Students Apart
+CBSE, ICSE and ISC, Indian state boards, IB (Maths AA and AI, SL and HL), IGCSE, GCSE (AQA, Edexcel, OCR), A-Level, US Common Core and AP, the Singapore MOE syllabus including PSLE, and the Australian Curriculum. Lessons follow your syllabus, textbook and exam pattern.
 
-Modern Age Coders teaches coding and maths as one integrated curriculum. Why does this matter? Because every algorithm needs mathematical thinking and every equation becomes clearer when you can visualize it through code. Students who learn both skills develop sharper logical reasoning, better problem-solving abilities, and a competitive edge in academics and careers. When your child learns maths with us, they also get access to our coding resources, making them truly future-ready.
+Can students from outside India join?
 
-## Ready to Make Maths Your Strongest Subject?
+Yes. Students join from 25+ countries, including the US, UK, UAE, Canada, Singapore and Australia. Classes are scheduled in the student’s own time zone, and the fees on this page are shown in your currency.
 
-Book a free demo class. Meet your tutor, see our teaching style, and decide if we are the right fit. No commitment, no pressure.
+What age groups can join maths tuition?
 
-[Book a Free Demo Class](/book-demo)[WhatsApp Us](https://wa.me/919123366161?text=Hi! I want to know more about online maths tuition at Modern Age Coders.)[View Full Pricing](/pricing)
+Everyone from age 6 to 67: primary school (Class 1 to 5), middle school (Class 6 to 8), high school (Class 9 to 12), college maths, and adults preparing for exams such as the GRE or GMAT.
+
+Do you help with olympiads and competitive exams?
+
+Yes. Olympiad preparation covers IOQM, RMO, INMO, AMC and AIME, and the advanced track covers JEE maths, SAT Math and GRE Quantitative. These classes focus on problem-solving technique, proof and reasoning rather than memorised tricks.
+
+How do I get started?
+
+Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for you. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month. You can also choose a course above and enrol directly on its page.
+
+What if my child is weak in maths?
+
+That is where live teaching helps most. The mentor finds the earliest gap, often a topic from two or three years back, fixes it patiently and then builds speed and accuracy on top. Confidence usually returns once the foundations stop wobbling.
+
+Can I choose group maths classes or one to one?
+
+Yes. All three are live and taught by a specialist mentor. A group batch (up to 10 students) adds peer learning, a mini batch (3 to 4 students, India only) gives near one-to-one attention, and one to one gives a fully personal pace. You can change plan later.
+
+How do you report progress to parents?
+
+Parents receive regular progress updates on what was covered, what improved and what comes next, and can message the team on WhatsApp at any time. A certificate is awarded on completing a course.
+
+Can we pause classes for exams or holidays?
+
+Yes. Tell us in advance and classes can be paused for school exams or holidays, then resumed where you left off.
+
+Do you offer a refund for maths tuition?
+
+Yes. You can request a refund within 7 days of the original purchase date. The full terms, including what is excluded, are on our [Refund Policy](/refund) page.
+
+Do you teach UK students: KS3, Year 8 and GCSE maths?
+
+Yes, in UK time, on the UK curriculum. [KS3 maths tuition online](/ks3-maths-tuition-online) covers Years 7 to 9, including the Year 8 fluency work in fractions, ratio and early algebra that GCSE assumes; [GCSE maths tuition online](/gcse-maths-tuition-online) covers AQA, Edexcel and OCR at foundation and higher tier; and the [UK kids](/online-maths-tuition-for-kids-in-uk) and [UK teens](/online-maths-tuition-for-teens-in-uk) pages describe the primary and secondary routes. UK students who also take computer science can pair maths with [GCSE computer science tutoring](/uk-gcse-computer-science-tutoring).
+
+## Why online maths tuition works
+
+A good maths lesson is a conversation about working. Online, the mentor sees every step the student writes, stops the lesson at the exact line where the method goes wrong and fixes it there, rather than at the bottom of a marked page a week later. There is no travel, the class is at a time that suits the family, and the same specialist tutor can teach a student in Kolkata, Dubai or London.
+
+At Modern Age Coders, online maths tuition is a structured course, not a video call: a placement class, a plan built on the student's real gaps, live problem solving in every lesson, checked homework and timed practice, and regular progress updates for parents.
+
+## Who should consider online maths tuition?
+
+- Students who find maths hard and need patient, concept-first teaching
+- Strong students preparing for olympiads, JEE, the SAT or other competitive exams
+- Children in Class 1 to 5 who need a firm foundation before maths gets harder
+- Class 9 to 12 students preparing for CBSE, ICSE, IB, IGCSE or GCSE exams
+- College students who need help with calculus, linear algebra or statistics
+- Adults preparing for the GRE, GMAT or maths needed at work
+- Families outside India who want a specialist tutor in their own time zone
+
+## Maths and coding: a combination that sets students apart
+
+Modern Age Coders teaches coding and maths side by side. Every algorithm rests on mathematical thinking, and an equation often becomes clear the moment a student sees it drawn by their own code. Students who learn both develop sharper reasoning and better problem solving. See [Maths Through Coding](/courses/maths-through-coding) and [why we teach coding and maths together](/why-coding-and-maths-together).
+
+## Ready to make maths your strongest subject?
+
+Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for you. You get a written skill report afterwards, and the fee is adjusted against your first month if you enrol.
+
+[Book a Priority Demo](/priority-demo)Find your maths course
+
+Questions? [WhatsApp +91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20online%20maths%20tuition.%20Can%20you%20share%20more%20details%3F) or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com?subject=Online%20maths%20tuition%20enquiry)
 
 ---
 
