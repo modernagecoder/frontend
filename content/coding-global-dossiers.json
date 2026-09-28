@@ -30073,5 +30073,49 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-walsall": {
+    "market": "Walsall",
+    "bodyClass": "cg-wsl",
+    "pageType": "city",
+    "curriculumAuthority": "Walsall (E08000030), Census 2021 TS001 usual residents 284,124. ONS 2021 BUAs inside Walsall (published): Walsall 70,775; Bloxwich 51,875; Willenhall 49,580; Brownhills 21,240; Aldridge 15,835; Pelsall 10,455; Pheasey 9,495. Darlaston, Streetly, West Bromwich and Bilston straddle boundaries; excluded. Project Gutenberg 31675, Hackwood, The Annals of Willenhall (1908): \"the town of locks and keys\"; \"It was the Carpenter and Young invention of 1830\"; \"James Carpenter, of Willenhall\".",
+    "localProject": "Co-occurrence embeddings, window 4, vocabulary 745 words (10+ uses) from 59,238 tokens / 8,224 types. Raw nearest to lock: year, of, was, however, at, last. PPMI nearest to lock: making 0.342, carpenter 0.279, young 0.262, keys 0.255, not 0.246, key 0.242; iron: brass, founder, master, key, lock, patent; church: st, parish, collegiate. carpenter within 4 of lock 5 times; \"Young\" surname merged by lowercasing. Town test 13 words x top 5: raw 15/65 (11 willenhall/wolverhampton, 504 and 216 uses), PPMI 14/65 (3). Lesson family: word embeddings, PPMI, cosine neighbours, frequency domination, name merging, evaluation beyond the score.",
+    "requiredMentions": [
+      "284,124",
+      "70,775",
+      "51,875",
+      "Bloxwich",
+      "Brownhills",
+      "Aldridge",
+      "Pelsall",
+      "Pheasey",
+      "Hackwood",
+      "Annals of Willenhall",
+      "PPMI",
+      "co-occurrence"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Census 2021 TS001, number of usual residents, Walsall 284,124, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "Project Gutenberg, Frederick Wm. Hackwood, The Annals of Willenhall (ebook 31675), from the 1908 Whitehead Bros. edition.",
+        "url": "https://www.gutenberg.org/ebooks/31675"
+      }
+    ],
+    "rejectedClaims": [
+      "Present-day lock industry in Willenhall: not read from a current source; only Hackwood's 1908 words are quoted.",
+      "Burritt's Walks in the Black Country: cited by Hackwood, not read by us; not quoted.",
+      "Sum of the seven built-up areas: not published as a total; not added.",
+      "Darlaston and Streetly populations: built-up areas cross borough boundaries; not tabled.",
+      "How commercial embedding models are trained in detail: described only in general terms.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
