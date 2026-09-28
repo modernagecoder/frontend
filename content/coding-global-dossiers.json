@@ -29835,5 +29835,45 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-wigan": {
+    "market": "Wigan",
+    "bodyClass": "cg-wig",
+    "pageType": "city",
+    "curriculumAuthority": "Wigan (E08000010). Nomis Census 2021 TS001 329,330. TS007A: 20 to 24 17,057 (5.2%, England 6.0%); 25 to 29 20,834 (6.3%, 6.6%); 50 to 54 24,984 (7.6%, 6.9%); 55 to 59 23,248 (7.1%, 6.7%); 70 to 74 18,340 (5.6%, 5.0%); 75 to 79 13,482 (4.1%, 3.6%). ONS 2021 BUAs: Wigan 81,580; Leigh 45,495; Golborne 25,555; Hindley 24,490; Tyldesley 16,205; Standish 12,940; Shevington 5,320. TS063 Occupation (NM_2080_1): Wigan 154,614 in employment by nine SOC 2020 major groups; England 26,405,214.",
+    "localProject": "Label encoding mean of group numbers: Wigan 4.753, England 4.387; alphabetical renumbering 5.041 vs 5.047 (reverses). One-hot shares differences (pts): professional -4.1, managers -2.4, associate -0.8, admin +0.5, skilled trades +1.5, caring +1.4, sales +0.8, process +2.3, elementary +0.9. Lesson family: label vs one-hot encoding, arbitrary codes, category shares.",
+    "requiredMentions": [
+      "329,330",
+      "81,580",
+      "Golborne",
+      "Hindley",
+      "Tyldesley",
+      "Standish",
+      "Shevington",
+      "one-hot",
+      "label encoding",
+      "154,614"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS063 Occupation, Wigan and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "Nomis Census 2021 TS001 and TS007A, Wigan and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Whether SOC major groups follow a skill order: not needed; the page treats the numbers as labels only.",
+      "Pier and literary history: not read from a source; not claimed.",
+      "The tiny classifier is described as a learner exercise; no accuracy figures are claimed.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

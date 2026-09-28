@@ -415,7 +415,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 363 | online-coding-and-python-classes-in-hartlepool (hpl, #6B2538) | cg- town page | 2,685 | 1.5% vs online-coding-and-python-classes-in-blackpool | what is the average distance to work when data come in bands? | grouped data, open-ended band, bounds, median robustness | 4e9f61db |
 | 364 | ai-and-programming-classes-in-grimsby (gri, #0B4C32) | cg- town page | 2,669 | 1.6% vs ai-and-programming-classes-in-chesterfield | can AI training data be made up from published tables? | synthetic data from marginals, independence, consistency rules, joint distribution | db1421e4 |
 | 365 | best-coding-and-ai-classes-in-dartford (dfd, #5C3240) | cg- town page | 2,627 | 2.6% vs ai-and-programming-classes-in-chesterfield | how do you catch an AI that invents a quotation? | quotation verification, normalisation, exact vs fuzzy, number checks | be455070 |
-| 366 | vibe-coding-and-ai-agents-classes-in-stockton-on-tees (stt, #4C2225) | cg- town page | 2,671 | 1.5% vs best-coding-and-ai-classes-in-worthing | what should an AI agent remember when its context window is small? | context window, streaming summaries, top-k memory, labelled sums | (this commit) |
+| 366 | vibe-coding-and-ai-agents-classes-in-stockton-on-tees (stt, #4C2225) | cg- town page | 2,671 | 1.5% vs best-coding-and-ai-classes-in-worthing | what should an AI agent remember when its context window is small? | context window, streaming summaries, top-k memory, labelled sums | 5e7a9bb7 |
+| 367 | online-coding-and-python-classes-in-wigan (wig, #533C5C) | cg- town page | 2,560 | 1.7% vs online-coding-and-python-classes-in-rochdale | how should a machine learning model see a category? | label vs one-hot encoding, arbitrary codes, category shares | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
