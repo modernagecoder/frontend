@@ -35,6 +35,17 @@ const pick = (re, what) => { const m = old.match(re); if (!m) throw new Error('c
 const courseSchema = pick(/<script type="application\/ld\+json" data-price-scope="maths\.international">[\s\S]*?<\/script>/, 'Course schema')
   .replace(/"audienceType":"[^"]*"/, `"audienceType":"Students aged ${BRAND.ages.replace(/ to /, '-')}, all levels"`)
   .replace(/"courseWorkload":"[^"]*"/, '"courseWorkload":"Live classes of about one hour, 1 to 2 a week by plan"');
+// Keep ONLY the Course node from the old scoped block: it also carried an old
+// FAQPage (prices, unprovable stats) and a breadcrumb, which this page now
+// generates itself. Offers stay, so pricing:apply keeps stamping them.
+const courseSchemaClean = (() => {
+  const m = courseSchema.match(/^(<script[^>]*>)([\s\S]*)(<\/script>)$/);
+  const data = JSON.parse(m[2]);
+  const graph = (data['@graph'] || [data]).filter((n) => n['@type'] === 'Course');
+  if (!graph.length) throw new Error('no Course node in the scoped schema');
+  graph[0].description = "Live online maths tuition for students of all ages: Class 1 to 12 on CBSE, ICSE, IB, IGCSE and GCSE, college mathematics, competitive exams, Vedic maths and olympiad preparation. Small groups, mini batches or 1-on-1 with specialist tutors.";
+  return m[1] + String.fromCharCode(10) + JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }, null, 2) + String.fromCharCode(10) + m[3];
+})();
 const linkMesh = pick(/<!-- BEGIN_LINK_MESH -->[\s\S]*?<!-- END_LINK_MESH -->/, 'link mesh');
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -224,7 +235,7 @@ const html = `<!DOCTYPE html>
 <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
 
 <!-- Structured Data: Course (offers stamped by pricing:apply) -->
-${courseSchema}
+${courseSchemaClean}
 <!-- Structured Data: FAQ + breadcrumb (generated from the same FAQS list as the visible FAQ) -->
 <script type="application/ld+json">
 ${JSON.stringify(otherSchema, null, 2)}
@@ -235,7 +246,7 @@ ${JSON.stringify(otherSchema, null, 2)}
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap">
 <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626g">
-<link rel="stylesheet" href="/css/online-maths-tuition-redesign.css?v=20260928a">
+<link rel="stylesheet" href="/css/online-maths-tuition-redesign.css?v=20260928b">
 <script src="/js/ux-enhancements.js" defer></script>
 <script src="/js/hover-prefetch.js" defer></script>
 <script src="/js/components-loader.js" defer></script>

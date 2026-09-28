@@ -29,58 +29,82 @@
 <!-- Structured Data: Course (offers stamped by pricing:apply) -->
 <script type="application/ld+json" data-price-scope="maths.international">
 {
-  "@context":"https://schema.org",
-  "@graph":[
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@type":"Course",
-      "name":"Online Maths Tuition",
-      "description":"Expert online maths tuition for students of all ages. Covers Class 1-12 (CBSE, ICSE, IB, IGCSE), college-level mathematics, competitive exams, Vedic maths, and Olympiad preparation. Live 1-on-1 and group classes with experienced tutors.",
-      "provider":{
-        "@type":"Organization",
-        "name":"Modern Age Coders",
-        "@id": "https://learn.modernagecoders.com/#organization", "url": "https://learn.modernagecoders.com"
+      "@type": "Course",
+      "name": "Online Maths Tuition",
+      "description": "Live online maths tuition for students of all ages: Class 1 to 12 on CBSE, ICSE, IB, IGCSE and GCSE, college mathematics, competitive exams, Vedic maths and olympiad preparation. Small groups, mini batches or 1-on-1 with specialist tutors.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Modern Age Coders",
+        "@id": "https://learn.modernagecoders.com/#organization",
+        "url": "https://learn.modernagecoders.com"
       },
-      "educationalLevel":["Primary","Secondary","Undergraduate","Advanced"],
-      "teaches":["Arithmetic","Algebra","Geometry","Trigonometry","Calculus","Statistics","Probability","Linear Algebra","Number Theory","Vedic Mathematics"],
-      "offers":[
-        {"@type":"Offer","name":"Group Classes","price":"1499","priceCurrency":"INR","availability":"https://schema.org/InStock"},
-        {"@type":"Offer","name":"Mini Batch (3-4 students, India only)","price":"2999","priceCurrency":"INR","availability":"https://schema.org/InStock"},
-        {"@type":"Offer","name":"Personalized 1-on-1","price":"4999","priceCurrency":"INR","availability":"https://schema.org/InStock"},
-        {"@type":"Offer","name":"International Group Classes","price":"100","priceCurrency":"USD","availability":"https://schema.org/InStock"},
-        {"@type":"Offer","name":"International 1-on-1","price":"150","priceCurrency":"USD","availability":"https://schema.org/InStock"}
+      "educationalLevel": [
+        "Primary",
+        "Secondary",
+        "Undergraduate",
+        "Advanced"
       ],
-      "audience":{
-        "@type":"EducationalAudience",
-        "audienceType":"Students aged 6-67, all levels"
+      "teaches": [
+        "Arithmetic",
+        "Algebra",
+        "Geometry",
+        "Trigonometry",
+        "Calculus",
+        "Statistics",
+        "Probability",
+        "Linear Algebra",
+        "Number Theory",
+        "Vedic Mathematics"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Group Classes",
+          "price": "1499",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "name": "Mini Batch (3-4 students, India only)",
+          "price": "2999",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "name": "Personalized 1-on-1",
+          "price": "4999",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "name": "International Group Classes",
+          "price": "100",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "name": "International 1-on-1",
+          "price": "150",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        }
+      ],
+      "audience": {
+        "@type": "EducationalAudience",
+        "audienceType": "Students aged 6-67, all levels"
       },
-      "hasCourseInstance":{
-        "@type":"CourseInstance",
-        "courseMode":"online",
-        "courseWorkload":"Live classes of about one hour, 1 to 2 a week by plan"
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "online",
+        "courseWorkload": "Live classes of about one hour, 1 to 2 a week by plan"
       }
-    },
-    {
-      "@type":"FAQPage",
-      "mainEntity":[
-            { "@type": "Question", "name": "Is online maths tuition effective?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Research shows that personalized online maths tuition often outperforms classroom learning because students get individual attention, can learn at their own pace, and have access to recorded sessions for revision. Our students regularly improve their grades by 20-40% within the first 3 months." } },
-            { "@type": "Question", "name": "How much does online maths tuition cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Modern Age Coders, group maths classes start at just ₹1,499/month for Indian students or $100/month for international students. Mini Batch (3-4 students) is ₹2,999/month. Personalized 1-on-1 sessions are ₹4,999/month or $150/month. There are no hidden fees and you can cancel anytime." } },
-            { "@type": "Question", "name": "Which boards and curricula do you cover?", "acceptedAnswer": { "@type": "Answer", "text": "We cover CBSE, ICSE, all Indian State Boards, IB (International Baccalaureate), IGCSE, Cambridge (A/AS Level), US Common Core, and Australian National Curriculum. Our tutors customize lessons based on your specific syllabus and textbook." } },
-            { "@type": "Question", "name": "Can students from outside India join?", "acceptedAnswer": { "@type": "Answer", "text": "Absolutely. We have students from 25+ countries including the US, UK, UAE, Canada, Singapore, Australia, and across Europe. Classes are scheduled at times that work across different time zones. International students pay in USD, with support for EUR, GBP, CAD, AUD, SGD, and AED as well." } },
-            { "@type": "Question", "name": "What age groups can enroll for maths tuition?", "acceptedAnswer": { "@type": "Answer", "text": "We teach maths to students from age 6 all the way to 65. Our curriculum covers primary school (Class 1-5), middle school (Class 6-8), high school (Class 9-12), college-level mathematics, and competitive exam preparation for working professionals." } },
-            { "@type": "Question", "name": "Do you provide help with competitive exams and Olympiads?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We offer dedicated Olympiad preparation covering IMO, RMO, IOQM, AMC, and MATHCOUNTS. Our advanced track also covers JEE Maths, SAT Math, and GRE Quantitative preparation. These sessions focus on problem-solving techniques, proof strategies, and advanced reasoning." } },
-            { "@type": "Question", "name": "How do I get started?", "acceptedAnswer": { "@type": "Answer", "text": "Book a free demo class. We will assess your current level, understand your goals, and recommend the right plan. There is no commitment required for the demo. You can start your regular classes from the very next week." } },
-            { "@type": "Question", "name": "What if my child is weak in maths?", "acceptedAnswer": { "@type": "Answer", "text": "That is exactly why we exist. Our tutors specialize in building confidence from the ground up. We start with foundational gaps, fill them patiently, and gradually build speed and accuracy. Many of our students went from failing grades to scoring 90+ within 6 months." } },
-            { "@type": "Question", "name": "Can I choose group maths classes or one-to-one?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Both are live and taught by an expert mentor. Group maths classes in small batches are the most affordable and add peer learning, a mini batch gives near one-to-one attention, and one-to-one gives a fully personalised pace. Start with a free demo, and you can change your plan later." } },
-            { "@type": "Question", "name": "Do you offer a refund for maths tuition?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every student starts with a free demo class before paying, and you can request a refund within 7 days of your first purchase. Sessions already taken and heavily used courses are not refundable, and the full terms are on our Refund Policy page." } },
-            { "@type": "Question", "name": "Do you teach UK students: KS3, Year 8 and GCSE maths?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, in UK time, on the UK curriculum. KS3 maths tuition online covers Years 7 to 9, including the Year 8 fluency work in fractions, ratio and early algebra that GCSE assumes; GCSE maths tuition online covers AQA, Edexcel and OCR at foundation and higher tier; and the UK kids and UK teens pages describe the primary and secondary routes. UK students who also take computer science can pair maths with GCSE computer science tutoring." } }
-          ]
-    },
-    {
-      "@type":"BreadcrumbList",
-      "itemListElement":[
-        {"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com"},
-        {"@type":"ListItem","position":2,"name":"Online Maths Tuition","item":"https://learn.modernagecoders.com/online-maths-tuition"}
-      ]
     }
   ]
 }
@@ -233,7 +257,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap">
 <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626g">
-<link rel="stylesheet" href="/css/online-maths-tuition-redesign.css?v=20260928a">
+<link rel="stylesheet" href="/css/online-maths-tuition-redesign.css?v=20260928b">
 <script src="/js/ux-enhancements.js" defer></script>
 <script src="/js/hover-prefetch.js" defer></script>
 <script src="/js/components-loader.js" defer></script>

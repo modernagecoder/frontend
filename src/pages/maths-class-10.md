@@ -1,328 +1,262 @@
 ---
-title: "Maths Tuition for Class 10 | CBSE & ICSE Board Exam Prep | Modern Age Coders"
-description: "Expert online maths tuition for Class 10 students. CBSE, ICSE, and international board exam preparation with personalized 1-on-1 and group classes. Score 95+ in your board exams. Book a free demo today."
+title: "Maths Tuition for Class 10: CBSE & ICSE Board Exam Prep | Modern Age Coders"
+description: "Live online maths tuition for Class 10: all 14 NCERT chapters for CBSE, the ICSE syllabus, case-study and MCQ practice and timed mock papers. Small batches or 1-on-1."
 canonical: https://learn.modernagecoders.com/maths-class-10
 source: src/pages/maths-class-10.html
 ---
-> Expert online maths tuition for Class 10 students. CBSE, ICSE, and international board exam preparation with personalized 1-on-1 and group classes. Score 95+ in your board exams. Book a free demo today.
+> Live online maths tuition for Class 10: all 14 NCERT chapters for CBSE, the ICSE syllabus, case-study and MCQ practice and timed mock papers. Small batches or 1-on-1.
 
-Trusted by Students from 25+ Countries
+1. [Home](/)
+2. [Online Maths Tuition](/online-maths-tuition)
+3. Class 10
 
-# Maths Tuition for Class 10 Score 95+ in Board Exams
+CBSE · ICSE · State boards · IGCSE
 
-Expert online maths tuition for Class 10 students. Whether you are preparing for CBSE, ICSE, State Board, or international exams like IGCSE, our tutors build deep understanding chapter by chapter. No shortcuts, just solid maths skills that get you the marks you deserve.
+# Maths Tuition for Class 10: *board-ready, chapter by chapter*
 
-[Book a Free Demo](/book-demo)View Pricing[WhatsApp Us](https://wa.me/919123366161?text=Hi! I'm interested in Class 10 maths tuition. Can you share more details?)**10,000+** Students Taught**92%** Score 90+**25+** Countries**4.9/5** RatingClass 10 CBSE MathsICSE Board PrepIGCSE MathematicsQuadratic EquationsTrigonometryCoordinate GeometryStatistics & ProbabilityReal NumbersPolynomialsCircles & TangentsArithmetic ProgressionsSurface Areas & VolumesBoard Exam StrategyMock Test PracticeClass 10 CBSE MathsICSE Board PrepIGCSE MathematicsQuadratic EquationsTrigonometryCoordinate GeometryStatistics & ProbabilityReal NumbersPolynomialsCircles & TangentsArithmetic ProgressionsSurface Areas & VolumesBoard Exam StrategyMock Test Practice
+Live online maths tuition for Class 10 with a tutor who specialises in the board years. All 14 NCERT chapters taught properly for CBSE, the ICSE syllabus for Council schools, and every question form the board asks: case studies, MCQs and long answers, then timed mock papers until the exam holds no surprises.
 
-Full Syllabus Coverage
+[Book a Priority Demo](/priority-demo)[See the Class 10 course](/courses/cbse-class-10-maths-board-exam-prep-course)
 
-## Class 10 Maths Chapters We Cover
+Questions? [WhatsApp +91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20Class%2010%20maths%20tuition.%20Can%20you%20share%20more%20details%3F) or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com?subject=Class%2010%20maths%20tuition%20enquiry)
 
-Every chapter, every concept, every type of question. Our tutors cover the complete Class 10 maths syllabus aligned to your board, with special focus on high-weightage topics and frequently asked problems.
+- **10,000+**students taught since 2020
+- **4.9**rating across 547 Google reviews
+- **14**NCERT chapters, every one taught live
+- **25+**countries, taught in your time zone
 
-1
+Choose your course
 
-### Real Numbers
+## Class 10 maths courses
 
-- Euclid's Division Lemma and Algorithm
-- Fundamental Theorem of Arithmetic
-- Proving irrationality of surds
-- Decimal expansions of rationals
+Each course page shows the week-by-week syllabus, the plans and how to enrol.
 
-2
+[![CBSE Class 10 Maths Board Prep course thumbnail](/content/courses/generated/cbse-class-10-maths-board-exam-prep-course/images/cbse-class-10-maths.webp) CBSE Class 10CBSE Class 10 Maths Board PrepAll 14 NCERT chapters, case-study questions and a full mock cycle. Standard and Basic.View course](/courses/cbse-class-10-maths-board-exam-prep-course)[![JEE Foundation Maths course thumbnail](/content/courses/generated/jee-foundation-maths-course-class-8-10/images/jee-foundation-maths.webp) Class 8 to 10JEE Foundation MathsNCERT depth plus proofs and olympiad-style problems for students aiming higher.View course](/courses/jee-foundation-maths-course-class-8-10)[![IGCSE Maths course thumbnail](/content/courses/generated/igcse-mathematics-mastery/images/igcse-maths.webp) IGCSE, Years 9 to 11IGCSE MathsCore, Extended and Additional Maths, with paper technique.View course](/courses/igcse-mathematics-mastery)[![High School Maths course thumbnail](/content/courses/generated/complete-high-school-mathematics-mastery/images/high-school-maths.webp) Grade 9 to 12High School MathsAlgebra, geometry and trigonometry on to calculus, step by step.View course](/courses/complete-high-school-mathematics-mastery)
 
-### Polynomials
+The current CBSE Class 10 maths paper rewards more than memorised solutions: roughly half of it is competency-based (case studies, data interpretation and situational problems), about 20 percent is MCQs and about 30 percent is traditional short and long answers. This is where the 80 theory marks come from:
 
-- Zeros of a polynomial
-- Relationship between zeros and coefficients
-- Division algorithm for polynomials
+- Algebra****20**
+- Geometry****15**
+- Trigonometry****12**
+- Statistics and Probability****11**
+- Mensuration****10**
+- Number Systems****6**
+- Coordinate Geometry****6**
 
-3
+Rated 4.9 across 547 Google reviews
 
-### Linear Equations in Two Variables
+How we prepare
 
-- Graphical method of solving
-- Algebraic methods (substitution, elimination)
-- Cross-multiplication method
-- Word problems and applications
+## How Class 10 maths tuition works
 
-4
+1. 01
 
-### Quadratic Equations
+  ### Placement first
 
-- Factorization method
-- Quadratic formula method
-- Nature of roots using discriminant
-- Real-world word problems
+  Start with a Priority Demo: a full live class of about 45 to 60 minutes where the mentor sees how the student works. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp.
+2. 02
 
-5
+  ### Every chapter taught properly
 
-### Arithmetic Progressions
+  All 14 NCERT chapters in order, with the why behind each method, so an unfamiliar question in the exam is still solvable.
+3. 03
 
-- Finding the nth term of an AP
-- Sum of first n terms
-- Real-world applications of AP
+  ### Board question forms from day one
 
-6
+  Each topic closes with the forms the board actually asks: case studies, MCQs and short and long answers. By mock season the format holds no surprises.
+4. 04
 
-### Triangles
+  ### Chapter tests and a mock cycle
 
-- Similarity criteria (AA, SSS, SAS)
-- Basic Proportionality Theorem (BPT)
-- Pythagoras Theorem and converse
-- Areas of similar triangles
+  Timed chapter tests, then CBSE sample papers and previous-year papers under real timing, with an error clinic after every mock.
+5. 05
 
-7
+  ### Standard or Basic, decided with evidence
 
-### Coordinate Geometry
+  We teach both the Standard (041) and Basic (241) tracks and help each family choose from the student’s own test scores.
+6. 06
 
-- Distance formula
-- Section formula (internal division)
-- Area of a triangle using coordinates
-- Collinearity of points
+  ### Progress parents can see
 
-8
+  Regular progress updates on what was covered, what improved and what comes next. We promise preparation and honest feedback, never marks.
 
-### Trigonometry
+Full syllabus
 
-- Trigonometric ratios of standard angles
-- Trigonometric identities and proofs
-- Heights and distances applications
-- Complementary angle relationships
+## All 14 Class 10 maths chapters we teach
 
-9
+The CBSE NCERT chapters, taught in order with board-style questions at the end of each. ICSE and state-board students follow their own syllabus the same way.
 
-### Circles
+1. ### Real Numbers
 
-- Tangent to a circle properties
-- Number of tangents from a point
-- Theorems on tangents and proofs
+  Fundamental Theorem of Arithmetic · HCF and LCM by prime factorisation · Proving numbers irrational
+2. ### Polynomials
 
-10
+  Zeros of a polynomial, graphically · Relationship between zeros and coefficients
+3. ### Pair of Linear Equations in Two Variables
 
-### Areas Related to Circles
+  Graphical method · Substitution and elimination · Word problems
+4. ### Quadratic Equations
 
-- Area and perimeter of sectors
-- Area of segments
-- Combined figures and shaded regions
+  Factorisation · The quadratic formula · Nature of roots from the discriminant
+5. ### Arithmetic Progressions
 
-11
+  The nth term · Sum of the first n terms · Real-world problems
+6. ### Triangles
 
-### Surface Areas & Volumes
+  Similarity criteria · Basic Proportionality Theorem · Proof writing for board marks
+7. ### Coordinate Geometry
 
-- Combinations of solids
-- Conversion of one solid to another
-- Frustum of a cone calculations
+  Distance formula · Section formula · Points, lines and figures on the plane
+8. ### Introduction to Trigonometry
 
-12
+  Trigonometric ratios · Ratios of standard angles · Identities and proofs
+9. ### Some Applications of Trigonometry
 
-### Statistics
+  Heights and distances · Angles of elevation and depression
+10. ### Circles
 
-- Mean of grouped data (all three methods)
-- Median of grouped data
-- Mode of grouped data
-- Cumulative frequency and Ogive curves
+  Tangent properties · Tangents from an external point · Theorem proofs
+11. ### Areas Related to Circles
 
-13
+  Sectors and segments · Combined figures and shaded regions
+12. ### Surface Areas and Volumes
 
-### Probability
+  Combinations of solids · Surface area and volume problems
+13. ### Statistics
 
-- Classical definition and examples
-- Complement of an event
-- Compound events (dice, cards, coins)
-- Real-world probability problems
+  Mean, median and mode of grouped data · Choosing the right method
+14. ### Probability
 
-Why Us
+  Classical probability · Dice, coins and cards · Complementary events
 
-## Why Students Choose Our Class 10 Maths Tuition
+Exam technique
 
-Class 10 boards are one of the most important exams in a student's academic journey. Here is what makes our tuition different from the rest.
+## Board exam strategy for Class 10 maths
 
-### 1-on-1 Personalized Sessions
+Knowing maths and scoring well in the boards are different skills. We teach both.
 
-Every student learns differently. Our 1-on-1 sessions are fully customized to your child's pace, strengths, and weaknesses. The tutor focuses entirely on one student, ensuring no concept is left unclear and no doubt goes unanswered. This is not a lecture, it is a conversation.
+- Time management with section-wise practice and timed mock papers
+- Case-study and competency-based questions in every chapter
+- Sample papers and previous-year papers for CBSE and ICSE
+- Question-pattern analysis to find the high-weightage topics
+- Step-marking and presentation, so correct answers keep their marks
+- A mistake log, so the same slip is not made twice
 
-### CBSE, ICSE & International Board Aligned
+Plans
 
-We do not teach generic maths. Our tutors follow your exact board syllabus, whether that is CBSE, ICSE, a State Board, IGCSE, or Cambridge. Every lesson matches your textbook, exam pattern, and marking scheme so you practice exactly what shows up in the exam.
+## Clear monthly plans
 
-### Chapter-wise Tests + Full Mock Papers
+Every plan is live with a specialist mentor, and each class runs about one hour. Billing is monthly and you can cancel any time; quarterly and yearly plans cost less.
 
-Practice is everything in board exams. After every chapter, students take a timed test that mirrors the real exam. We also conduct full-length mock papers with proper marking and detailed feedback so students walk into the exam hall with zero surprises.
+### Group batch
 
-### Unlimited Doubt Clearing Sessions
+₹1,499/ month
 
-Doubts should not pile up until the next class. Our students can ask questions anytime through WhatsApp or scheduled doubt-clearing slots. Whether it is a tricky trigonometry proof or a confusing word problem, we make sure every question gets answered quickly.
+- 2 live classes a week
+- Up to 10 students
+- Chapter tests and mock papers
 
-### Maths + Coding Integration
+Most popular
 
-Modern Age Coders teaches maths and coding as one integrated curriculum. Class 10 students who learn both develop stronger logical reasoning and problem-solving skills. Coding concepts like algorithms and loops directly reinforce mathematical thinking.
+### Mini batch
 
-### Monthly Progress Reports for Parents
+₹2,999/ month
 
-Parents receive detailed progress reports every month that cover exactly what was taught, how the student performed on tests, which areas improved, and what comes next. Complete transparency so you always know where your child stands academically.
+- 2 live classes a week
+- Just 3 to 4 students
+- Near one-to-one attention
 
-Exam Preparation
+### 1-on-1
 
-## Board Exam Strategy for Class 10 Maths
+₹4,999/ month
 
-Knowing maths and scoring well in board exams are two very different skills. Our tutors teach both.
+- 1 private class a week, 4 a month
+- Your own mentor and pace
+- Timings that suit you
 
-Class 10 board exams carry significant weight in shaping a student's academic future. Whether it is choosing between Science and Commerce in Class 11 or applying for competitive scholarships, board exam marks matter. That is why our Class 10 maths tuition goes beyond just teaching chapters. We build a complete exam strategy that helps students perform at their absolute best on the day that counts.
+[Book a Priority Demo](/priority-demo)[Enrol in the Class 10 course](/courses/cbse-class-10-maths-board-exam-prep-course)[See the full pricing page](/pricing)
 
-Our approach is simple: understand every concept deeply, practice consistently with timed tests, and walk into the exam knowing exactly how to manage your time and present your answers for maximum marks.
+What families say
 
-- Time management training with section-wise practice and timed mock exams
-- HOTS (Higher Order Thinking Skills) questions practice for 4 and 5 mark questions
-- Sample paper solving with CBSE, ICSE, and board-specific past year papers
-- Previous year question pattern analysis to identify high-probability topics
-- Step-marking and presentation tips to avoid losing marks on correct solutions
-- Common mistake analysis so students stop losing marks on silly errors
+## Rated 4.9 across 547 Google reviews
 
-Pricing
+Modern Age Coders teaches both maths and coding. These are real reviews from our families, quoted as written.
 
-## Class 10 Maths Tuition Pricing
+> “Modern Age Coder have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students’ confidence, keeps them updated with technology, and inspires them to learn without hesitation.”
 
-No hidden fees, no long-term contracts. Pick the plan that works for you and cancel anytime.
+***Sonu Goyal**Parent*
 
-Popular
+> “What stands out most is how excited my son is before every class. He looks forward to learning, problem-solving, and sharing what he’s built. I’ve noticed a big boost in his confidence!”
 
-### Group Classes
+***Poonam Rathore**Parent*
 
-Learn with peers, grow together
+[Read the full Wall of Love](/love)
 
-₹1,499
+Our promise
 
-per month
+## The world's best learning experience, open to *everyone*.
 
-- 2 classes per week (1 hour each)
-- Small batch of 5-6 students max
-- Board-aligned (CBSE / ICSE / State)
-- Recorded sessions for revision
-- Chapter-wise tests and worksheets
-- Doubt clearing support
-- Monthly progress reports
-- Full mock papers before board exams
+- **World-class instructors**Every class is taught by a tutor who specialises in the board years.
+- **No compromise on quality**Every lesson, test and piece of feedback is held to the highest standard.
+- **Education for everyone**Learners aged 6 to 67, in 25+ countries.
 
-[Book Free Demo](/book-demo)Recommended
+If you want the highest quality, Modern Age Coders is the right choice.
 
-### Personalized 1-on-1
-
-Your pace, your goals, your schedule
-
-₹2,499
-
-per month
-
-- 1 private session per week (1 hour each, 4 a month)
-- 100% customized to your syllabus
-- Flexible scheduling (any timezone)
-- Dedicated tutor assigned
-- Priority doubt support on WhatsApp
-- Board exam strategy coaching
-- Personalized study materials
-- Lifetime recording access
-- Extra revision sessions before exams
-
-[Book Free Demo](/book-demo)
-
-Payment via UPI, bank transfer, or card. Pay monthly or get discounts on quarterly/yearly plans.
-
-Popular
-
-### Group Classes
-
-Learn with peers, grow together
-
-$100
-
-USD / month
-
-- 2 classes per week (1 hour each)
-- Small batch of 5-6 students
-- IGCSE, Cambridge, IB MYP aligned
-- Recorded sessions access
-- Practice worksheets and homework
-- Doubt clearing support
-- Course completion certificate
-
-[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm an international student interested in Class 10 Group Maths Classes ($100 USD/month). Can you share more details?)Recommended
-
-### Personalized 1-on-1
-
-Your pace, your goals, your schedule
-
-$150
-
-USD / month
-
-- 2 private sessions per week (1 hour each)
-- 100% customized to your curriculum
-- Flexible scheduling across timezones
-- Dedicated tutor + priority support
-- Board exam strategy and mock papers
-- Personalized study materials
-- Lifetime recording access
-- Monthly progress reports for parents
-
-[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm an international student interested in Class 10 Personalized 1-on-1 Maths ($150 USD/month). Can you share more details?)
-
-Also available in EUR, GBP, CAD, AUD, SGD & AED.
-Contact [+91 9123366161](tel:+919123366161) (Shivam Sir) for payment details.
-
-Student & Parent Reviews
-
-## What families say about Modern Age Coders
-
-Modern Age Coders teaches both maths and coding. These are real, verified reviews from our families.
-
-★★★★★
-
-My son struggled with maths for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended.
-
-Shewta SinghMother of Ishan, Verified Google review★★★★★
-
-Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
-
-Shradha SarafParent of Mivaan, Verified Google review★★★★★
-
-Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease.
-
-Samridho MondalStudent, Verified Google review
+[Book a Priority Demo](/priority-demo)
 
 FAQ
 
-## Frequently Asked Questions
+## Questions parents ask about Class 10 maths tuition
 
-Quick answers to the most common questions parents and students ask about our Class 10 maths tuition.
+How much does Class 10 maths tuition cost online?
 
-At Modern Age Coders, group maths classes for Class 10 start at just ₹1,499 per month for Indian students or $100 per month for international students. Mini Batch (3-4 students) is ₹2,999 per month. Personalized 1-on-1 sessions are ₹4,999 per month in India, priced per country internationally. There are no hidden fees and you can cancel anytime. We also offer discounts on quarterly and yearly plans, so you save more when you commit for longer.Absolutely. Online maths tuition for Class 10 board exams is highly effective because students receive individual attention, can learn at their own pace, and have access to recorded sessions for revision. Our Class 10 students consistently score 90+ in their board exams. In fact, 92% of our students show significant grade improvement within the first 3 months of joining. The key advantage is that online sessions allow for live whiteboard interaction, screen sharing, and instant doubt clearing, which many students find more engaging than traditional classroom tuition.We recommend 2 classes per week, each lasting 1 hour. This gives enough time to cover new chapters, revise previous concepts, and practice problem solving. During exam season, we offer additional revision sessions and mock test classes at no extra cost. Students also get unlimited doubt clearing support throughout the week via WhatsApp, so learning does not stop between classes.We cover all major boards including CBSE, ICSE, all Indian State Boards, IGCSE, Cambridge, and IB MYP. Our tutors customize every lesson to match your specific board syllabus, textbook, and exam pattern. Whether you are in India, the UAE, Singapore, the UK, or anywhere else in the world, we have a tutor who knows your exact curriculum. We currently have students from 25+ countries studying with us.Yes, you can join at any point during the academic year. If you are joining close to board exams, we create an accelerated revision plan that focuses on high-weightage chapters, previous year question patterns, and targeted practice. Many students who joined us just 3 months before their boards saw dramatic improvements in their scores. We also offer crash course options for students who need intensive preparation in a short timeframe.
+There are three monthly plans: a group batch, a mini batch (India only) and one to one. The plans section on this page shows the current fee in your currency, and every plan is on the [pricing page](/pricing). Billing is monthly and you can cancel any time; quarterly and yearly plans cost less.
 
-## Why Online Maths Tuition is the Best Choice for Class 10
+Is online maths tuition effective for board exams?
 
-Class 10 is a turning point in every student's academic life. The board exam results determine which stream a student can pursue in Class 11, which colleges become accessible, and in many cases, which scholarships are available. For a subject like mathematics, where the syllabus is vast and the exam demands both speed and accuracy, having the right tutor makes all the difference between an average score and an outstanding one.
+It works when the lesson is live and the tutor can see the student’s working. Every class here is live: the mentor watches the student solve, corrects the method on the spot, and sets board-style practice that is checked. We promise preparation and honest feedback; nobody can promise marks, and we do not.
 
-Online maths tuition for Class 10 has become the preferred choice for families around the world, and for good reason. Unlike traditional coaching centers where 30 or more students share a single teacher, online tuition offers personalized attention. In our 1-on-1 sessions, the tutor works exclusively with your child, identifying weak areas, filling conceptual gaps, and building confidence one chapter at a time. In our group classes, we keep batch sizes small, with a maximum of 5 to 6 students, so every student gets enough time to ask questions and participate.
+How many classes a week for Class 10 maths?
 
-### What Makes Class 10 Maths Challenging
+Group batches and mini batches meet twice a week for about an hour. One-to-one students in India have one private class a week, and students outside India have two. Before the boards, the plan shifts to revision and timed mock papers.
 
-The Class 10 maths syllabus introduces several topics that students encounter for the first time. Trigonometry, coordinate geometry, and quadratic equations are entirely new concepts that require a different kind of thinking compared to what students have done in Class 9. Many students find the jump from basic algebra to quadratic equations confusing, and trigonometry often feels abstract without proper visual explanations. Our tutors address these challenges by teaching the "why" behind every formula before showing the "how". When students understand where a formula comes from, they can apply it confidently to any problem, even ones they have never seen before.
+Standard or Basic maths: which should my child take?
 
-### Board Exam Preparation That Works
+We teach both the Standard (041) and Basic (241) tracks and help each family decide with evidence from the student’s own test scores, not guesswork. Students who may want maths in Class 11 and 12 usually need Standard.
 
-Scoring well in Class 10 board exams is not just about knowing the concepts. It requires exam-specific skills like time management, step-by-step presentation, and knowing which questions to attempt first. Our board exam strategy sessions teach students how to allocate their time across sections, how to write solutions that earn full step marks, and how to quickly identify which approach to use for different question types. We conduct regular mock exams using previous year papers and CBSE/ICSE sample papers so that by the time the real exam arrives, students have already practiced under exam conditions multiple times.
+Which boards do you cover for Class 10 maths?
 
-### A Global Community of Learners
+CBSE (all 14 NCERT chapters), ICSE, Indian state boards, IGCSE and Cambridge, and IB MYP. Lessons follow your syllabus, textbook and exam pattern.
 
-Modern Age Coders is not limited to students in India. We have Class 10 students from the United States, United Kingdom, UAE, Canada, Singapore, Australia, and many other countries. International students following IGCSE, Cambridge, or IB MYP curricula receive the same level of personalized attention and board-specific preparation. Our tutors are experienced across multiple curricula and know exactly how exam patterns differ between boards. Classes are scheduled flexibly to accommodate students in different time zones, and international students can pay in USD, EUR, GBP, or other major currencies.
+Can my child join mid-year or close to the exams?
 
-Whether your child needs help building a strong foundation from the beginning of the year or requires intensive last-minute revision before board exams, our Class 10 maths tuition program is designed to deliver real, measurable results. Book a free demo class today and see the difference for yourself.
+Yes. A student who joins late gets a revision plan built around the high-weightage units, previous-year question patterns and timed practice on the chapters that need it most.
 
-## Ready to Score 95+ in Class 10 Maths?
+Can we try a class before enrolling?
 
-Book a free demo class. Meet your tutor, experience our teaching method, and see why thousands of students trust us with their board exam preparation.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month’s fee.
 
-[Book a Free Demo Class](/book-demo)[WhatsApp Us](https://wa.me/919123366161?text=Hi! I want to know more about Class 10 maths tuition at Modern Age Coders.)View Pricing Plans
+Do you offer a refund?
+
+Yes. You can request a refund within 7 days of the original purchase date. The full terms, including what is excluded, are on our [Refund Policy](/refund) page.
+
+## What makes Class 10 maths challenging
+
+Class 10 is the first year the maths marks travel with the student, and it introduces several ideas at once: trigonometry, coordinate geometry and quadratic equations all arrive with a new way of thinking. A student who memorised Class 9 methods often finds the jump steep, and gaps from earlier years start to cost marks.
+
+The fix is rarely more worksheets. It is finding the earliest gap, rebuilding the idea underneath, and then practising the board's own question forms until they feel routine.
+
+## Board exam preparation that works
+
+Scoring well needs exam skills as well as maths: time management, step-by-step presentation for method marks, and knowing which questions to attempt first. Those skills are practised in timed mocks, not explained once. See [online maths tuition for every class](/online-maths-tuition) and the [CBSE Class 10 Maths Board Prep course](/courses/cbse-class-10-maths-board-exam-prep-course).
+
+## Ready to prepare properly for Class 10 maths?
+
+Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for you. You get a written skill report afterwards, and the fee is adjusted against your first month if you enrol.
+
+[Book a Priority Demo](/priority-demo)[See the Class 10 course](/courses/cbse-class-10-maths-board-exam-prep-course)
+
+Questions? [WhatsApp +91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20Class%2010%20maths%20tuition.%20Can%20you%20share%20more%20details%3F) or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com?subject=Class%2010%20maths%20tuition%20enquiry)
 
 ---
 
