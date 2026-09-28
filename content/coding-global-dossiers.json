@@ -29506,5 +29506,50 @@
       "Named schools today and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-stafford": {
+    "market": "Stafford",
+    "bodyClass": "cg-sfd",
+    "pageType": "city",
+    "curriculumAuthority": "Stafford (E07000197). Nomis Census 2021 TS007A: total 136,869; 15 to 19 6,431 (4.7%, England 5.7%); 20 to 24 6,331 (4.6%, 6.0%); 55 to 59 10,139 (7.4%, 6.7%); 70 to 74 8,410 (6.1%, 5.0%); 75 to 79 6,665 (4.9%, 3.6%); 80 to 84 4,502 (3.3%, 2.5%). ONS 2021 BUAs: Stafford 71,690; Stone 17,280; Gnosall 4,040; Eccleshall 3,230; Yarnfield 2,145; Hixon 2,080; Great Haywood 2,030. Project Gutenberg 2422, Andrew Lang: \"Izaak himself was born at Stafford, on August 9, 1593, and was baptized on September 21.\" Project Gutenberg 683, Walton: Venator \"not seen a fish stir, neither at your minnow nor your worm\"; Piscator \"you must endure worse luck sometime, or you will never make a good angler\".",
+    "localProject": "Invented bite chances minnow 10%, worm 6%, fly 14%; 200 casts/day, 2,000 seeded days; best possible 28. Random 19.94; greedy try-once 20.54 (fly 12.4%); 72.7% of days all first casts fail (tie at zero, first-listed bait kept); explore 5% 21.44 (26.1%), 10% 21.95 (35.2%), 30% 22.18 (53.9%); UCB1 21.02 (71.3%). Lesson family: multi-armed bandit, explore vs exploit, tie-breaking trap, epsilon-greedy, UCB1.",
+    "requiredMentions": [
+      "136,869",
+      "71,690",
+      "Gnosall",
+      "Eccleshall",
+      "Great Haywood",
+      "Izaak Walton",
+      "Andrew Lang",
+      "Venator",
+      "Piscator",
+      "multi-armed bandit"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Stafford and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Andrew Lang, Introduction to the Compleat Angler (ebook 2422).",
+        "url": "https://www.gutenberg.org/ebooks/2422"
+      },
+      {
+        "claim": "Project Gutenberg, Izaak Walton, The Compleat Angler (ebook 683).",
+        "url": "https://www.gutenberg.org/ebooks/683"
+      }
+    ],
+    "rejectedClaims": [
+      "Real bite rates for any bait or river: none exist in the sources; the page uses clearly invented numbers.",
+      "Walton memorials or buildings in Stafford today: not read from a source; not claimed.",
+      "Which rivers near Stafford Walton fished: not established from the sources read.",
+      "Stone is named only as an ONS built-up area; its population figure is given, nothing more.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
