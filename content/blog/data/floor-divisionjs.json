@@ -63,6 +63,10 @@
       },
       {
         "type": "paragraph",
+        "text": "Rounding down behaves differently with negative numbers: -7 // 2 is -4, not -3, because -4 is further left on the number line. If negatives still feel slippery, <a href='/blog/negative-numbers-explained'>negative numbers explained</a> covers the number line and the sign rules."
+      },
+      {
+        "type": "paragraph",
         "text": "<strong>Simple definition:</strong> Floor division gives you the whole number part of division, discarding any remainder."
       },
       {

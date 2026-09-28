@@ -202,6 +202,10 @@
         ]
       },
       {
+        "type": "paragraph",
+        "text": "Integers are where many students first lose confidence, usually over the sign rules. <a href='/blog/negative-numbers-explained'>Negative numbers explained</a> shows why -5 is less than -2, why subtracting a negative adds, and why a negative times a negative is positive, using a pattern rather than a rule."
+      },
+      {
         "type": "callout",
         "calloutType": "warning",
         "title": "Critical Stage Alert",

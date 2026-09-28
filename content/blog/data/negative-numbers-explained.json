@@ -1,0 +1,361 @@
+{
+  "meta": {
+    "slug": "negative-numbers-explained",
+    "title": "Negative Numbers Explained: Rules and Reasons",
+    "description": "Negative numbers explained: comparing them on a number line, adding and subtracting, why a negative times a negative is positive, and the squaring trap.",
+    "keywords": [
+      "negative numbers",
+      "negative numbers explained",
+      "why is a negative times a negative positive",
+      "subtracting negative numbers",
+      "adding negative numbers",
+      "negative number rules",
+      "is -5 bigger than -2"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Maths",
+    "tags": [
+      "Maths",
+      "Negative Numbers",
+      "Students",
+      "Algebra"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "Negative numbers are numbers below zero, such as temperatures below freezing or money owed. On a number line, further left is smaller, so -5 is less than -2. Adding a negative is the same as subtracting, and subtracting a negative is the same as adding: 5 - (-3) = 8. When multiplying or dividing, the same signs give a positive and different signs a negative. A negative times a negative is positive because it is the only answer that keeps multiplication patterns consistent."
+  },
+  "hero": {
+    "title": "Negative Numbers Explained",
+    "subtitle": "Why -5 is smaller than -2, why subtracting a negative adds, and why a negative times a negative really is positive, shown with number lines, money and one simple pattern.",
+    "featuredImage": {
+      "url": "/images/blog/negative-numbers-explained/00-hero.png",
+      "alt": "Negative numbers explained: a number line from -10 to 10 with zero in the middle"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Negative numbers are where maths first stops matching everyday counting. You cannot hold minus three apples. And then the rules seem to contradict each other: subtracting makes things bigger, two negatives make a positive, and -5 is smaller than -2 even though 5 is bigger than 2. Students who are told \"just learn the rules\" often get them the wrong way round in exams, and many adults still are not sure why a negative times a negative is positive."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide explains negative numbers with the pictures and stories that make them sensible: the number line, temperature, money, and a simple pattern that shows exactly why two negatives make a positive. The calculations were checked by running them in Python, and the output is shown with each one."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "Negative numbers are numbers below zero, like temperatures below freezing or money owed. On a number line, further left is always smaller, so -5 is less than -2. Subtracting a negative is the same as adding: 5 - (-3) = 8. When multiplying or dividing, the same signs give a positive answer and different signs give a negative answer."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What negative numbers are",
+        "id": "what-they-are"
+      },
+      {
+        "type": "paragraph",
+        "text": "A negative number is a number less than zero. We write it with a minus sign in front: -3, read as \"negative three\" or \"minus three\". You meet them constantly in real life, even if nobody calls them negative numbers:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Temperature:</strong> -4 degrees is four degrees below freezing.",
+          "<strong>Money:</strong> a bank balance of -150 means you owe 150.",
+          "<strong>Height:</strong> places below sea level, like the shore of the Dead Sea, have negative elevations.",
+          "<strong>Sport and games:</strong> a golf score of -2 is two under par, and a goal difference can be negative.",
+          "<strong>Floors:</strong> in many lifts, B1 or -1 is the level below the ground floor."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The single most useful picture is the <strong>number line</strong>. Zero sits in the middle, positive numbers go to the right, and negative numbers go to the left, each one a mirror image of its positive partner."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Comparing negative numbers",
+        "id": "comparing"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/negative-numbers-explained/01-number-line.png",
+        "alt": "Number line from -8 to 8 showing that -5 is less than -2, with temperature and debt examples",
+        "caption": "On a number line, left is always smaller."
+      },
+      {
+        "type": "paragraph",
+        "text": "The first confusion is ordering. Because 5 is bigger than 2, many students assume -5 is bigger than -2. It is the other way round. On the number line, -5 is further to the left, so it is smaller. Temperature makes it obvious: -5 degrees is colder than -2. So does money: owing 12 is worse than owing 1, so -12 is smaller than -1."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "temps = [-5, 3, -12, 0, -1, 7]\nprint(\"coldest to warmest:\", sorted(temps))\nprint(\"is -5 bigger than -2?\", -5 > -2)\nprint(\"is -1 bigger than -12?\", -1 > -12)\n\n# a practical one: the temperature was -4 and rose by 9 degrees\nprint(\"new temperature:\", -4 + 9)\n# a bank balance of 250 after spending 400\nprint(\"balance:\", 250 - 400)",
+        "title": "comparing.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "coldest to warmest: [-12, -5, -1, 0, 3, 7]\nis -5 bigger than -2? False\nis -1 bigger than -12? True\nnew temperature: 5\nbalance: -150",
+        "title": "Output"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Adding and subtracting negative numbers",
+        "id": "adding-subtracting"
+      },
+      {
+        "type": "paragraph",
+        "text": "Think of adding as moving right along the number line and subtracting as moving left. Adding a negative number is like adding a debt, so it moves you left, the same as subtracting. Subtracting a negative number takes away a debt, which leaves you better off, so it moves you right, the same as adding."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/negative-numbers-explained/03-subtract-negative.png",
+        "alt": "Comparing 5 minus 3 with 5 minus negative 3, showing that subtracting a negative is the same as adding",
+        "caption": "Taking away a debt makes you richer."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "print(\" 5 - 3    =\", 5 - 3)\nprint(\" 5 - (-3) =\", 5 - (-3), \"   taking away a debt of 3 leaves you 3 better off\")\nprint(\"-5 + 3    =\", -5 + 3)\nprint(\"-5 - 3    =\", -5 - 3)\nprint(\"-5 - (-3) =\", -5 - (-3))",
+        "title": "add_subtract.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": " 5 - 3    = 2\n 5 - (-3) = 8    taking away a debt of 3 leaves you 3 better off\n-5 + 3    = -2\n-5 - 3    = -8\n-5 - (-3) = -2",
+        "title": "Output"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>a + (-b) is the same as a - b.</strong> 7 + (-3) = 4.",
+          "<strong>a - (-b) is the same as a + b.</strong> 7 - (-3) = 10.",
+          "<strong>Starting below zero:</strong> -5 + 3 means start at -5 and move 3 to the right, reaching -2."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Say it in words",
+        "text": "Many mistakes disappear when students read the signs aloud as words: \"five minus negative three\" rather than \"five minus minus three\". The first version reminds them that the second sign belongs to the number, not the operation."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why a negative times a negative is positive",
+        "id": "negative-times-negative"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is the rule everyone remembers and almost nobody can explain. It is not an arbitrary convention. It is the only answer that keeps the patterns of multiplication consistent. Watch what happens when you multiply by -2 and let the first number go down by one each time:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# keep multiplying by -2, and let the first number go down by 1 each time\nfor n in range(3, -4, -1):\n    print(f\"{n:>3} x -2 = {n * -2:>3}\")",
+        "title": "pattern.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "  3 x -2 =  -6\n  2 x -2 =  -4\n  1 x -2 =  -2\n  0 x -2 =   0\n -1 x -2 =   2\n -2 x -2 =   4\n -3 x -2 =   6",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/negative-numbers-explained/02-pattern.png",
+        "alt": "Multiplication pattern from 3 x -2 down to -3 x -2, showing the answers increase by 2 each step and become positive after zero",
+        "caption": "The pattern forces negative times negative to be positive."
+      },
+      {
+        "type": "paragraph",
+        "text": "Look at the answers from the top: -6, -4, -2, 0. Each step, the answer goes up by 2. There is no reason for that pattern to suddenly change when the first number drops below zero, so the next answers must be 2, 4, 6. That means -1 x -2 = 2, -2 x -2 = 4 and -3 x -2 = 6. A negative times a negative is positive because anything else would break multiplication."
+      },
+      {
+        "type": "paragraph",
+        "text": "For comparison, here is the same pattern with a positive number, where the answers fall by 3 each time and simply continue below zero:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# the same idea with 3: watch the answers go down by 3 each step\nfor n in range(3, -4, -1):\n    print(f\"{n:>3} x 3 = {n * 3:>3}\")",
+        "title": "pattern_positive.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "  3 x 3 =   9\n  2 x 3 =   6\n  1 x 3 =   3\n  0 x 3 =   0\n -1 x 3 =  -3\n -2 x 3 =  -6\n -3 x 3 =  -9",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "A story version, if a child prefers one: if you remove (negative) three debts (negative) of 2 each from someone's account, their balance goes up by 6. Removing debts is a gain."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The sign rules, all in one place",
+        "id": "sign-rules"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/negative-numbers-explained/04-rules.png",
+        "alt": "Sign rules for multiplying and dividing: positive times positive and negative times negative give positive; mixed signs give negative",
+        "caption": "Same signs positive, different signs negative."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Operation",
+          "Rule",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Adding a negative",
+            "Same as subtracting",
+            "8 + (-3) = 5"
+          ],
+          [
+            "Subtracting a negative",
+            "Same as adding",
+            "8 - (-3) = 11"
+          ],
+          [
+            "Multiplying or dividing, same signs",
+            "Answer is positive",
+            "-4 x -3 = 12, -12 &#247; -4 = 3"
+          ],
+          [
+            "Multiplying or dividing, different signs",
+            "Answer is negative",
+            "-4 x 3 = -12, 12 &#247; -4 = -3"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A trap: squaring a negative number",
+        "id": "squaring"
+      },
+      {
+        "type": "paragraph",
+        "text": "Is -3 squared equal to 9 or -9? It depends on the brackets, and this catches students in algebra and on calculators. (-3)² means (-3) x (-3) = 9. But -3² without brackets means \"the negative of 3 squared\", which is -9, because powers are worked out before the minus sign."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "print(\"-3 ** 2   =\", -3 ** 2, \"    (the square is done first, then the minus)\")\nprint(\"(-3) ** 2 =\", (-3) ** 2, \"     (negative times negative)\")",
+        "title": "squaring.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "-3 ** 2   = -9     (the square is done first, then the minus)\n(-3) ** 2 = 9      (negative times negative)",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is the order of operations at work, and different tools do not always agree: Microsoft Excel, for example, treats =-3^2 as 9. Our guide to <a href='/blog/bodmas-rule-explained'>the BODMAS rule</a> covers this and other order-of-operations traps."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why negative numbers confuse students",
+        "id": "why-confusing"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>They break the counting intuition.</strong> For years, numbers meant quantities of things. A negative quantity has no physical form, so it needs a new mental picture, and the number line has to be taught explicitly.",
+          "<strong>The minus sign does two jobs.</strong> It means \"subtract\" and it means \"negative\". In 5 - -3 it does both at once, which is why brackets and reading aloud help.",
+          "<strong>Rules are often taught before reasons.</strong> \"Two negatives make a positive\" gets applied to addition too, giving -3 + -4 = 7 instead of -7. Understanding the pattern prevents this.",
+          "<strong>Ordering is counter-intuitive.</strong> Bigger digits after a minus sign mean smaller numbers."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Most of these are fixed by returning to the number line and a real context, temperature or money, whenever a student is unsure. For broader maths confidence, see <a href='/blog/how-to-get-better-at-maths'>how to get better at maths</a>."
+      },
+      {
+        "type": "quote",
+        "text": "If a student can place it on a number line and tell the story with temperatures, the rules follow on their own.",
+        "author": "How our maths teachers approach negatives"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, negative numbers are introduced with number lines, temperature and money before any rules, and the multiplication pattern above is shown rather than told. Students then check their answers with a few lines of code, which makes the sign rules feel less like magic. Classes are one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is a negative number?",
+            "content": "A negative number is a number less than zero, written with a minus sign, such as -3. Negative numbers describe things like temperatures below freezing, money owed and places below sea level."
+          },
+          {
+            "title": "Is -5 bigger or smaller than -2?",
+            "content": "-5 is smaller than -2. On a number line, -5 is further to the left. Temperature makes it clear: -5 degrees is colder than -2 degrees."
+          },
+          {
+            "title": "Why is a negative times a negative positive?",
+            "content": "Because it is the only answer that keeps multiplication consistent. In the pattern 2 x -2 = -4, 1 x -2 = -2, 0 x -2 = 0, each answer goes up by 2, so continuing gives -1 x -2 = 2. Any other answer would break the pattern."
+          },
+          {
+            "title": "What happens when you subtract a negative number?",
+            "content": "Subtracting a negative is the same as adding. For example, 5 - (-3) = 5 + 3 = 8. Think of it as taking away a debt, which leaves you better off."
+          },
+          {
+            "title": "Do two negatives make a positive when adding?",
+            "content": "No. That rule is only for multiplying and dividing. When adding, two negatives make a more negative number: -3 + (-4) = -7."
+          },
+          {
+            "title": "Is -3 squared 9 or -9?",
+            "content": "(-3) squared, with brackets, is 9 because (-3) x (-3) = 9. Without brackets, -3 squared usually means the negative of 3 squared, which is -9, because powers are calculated before the minus sign."
+          },
+          {
+            "title": "When do children learn negative numbers?",
+            "content": "Children often meet negative numbers through temperature at around 8 to 10, order and calculate with them at 10 to 12, and learn multiplying and dividing negatives at around 11 to 13, before algebra."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "bodmas-rule-explained",
+    "how-to-get-better-at-maths",
+    "why-is-my-child-struggling-with-maths"
+  ]
+}
