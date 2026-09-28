@@ -15943,6 +15943,18 @@
   to = "/src/pages/best-coding-and-ai-classes-in-rochester.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-darlington"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-darlington.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-darlington.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-darlington.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

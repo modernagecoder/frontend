@@ -410,7 +410,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 358 | vibe-coding-and-ai-agents-classes-in-nuneaton (nun, #34205C) | cg- town page | 2,778 | 2.3% vs ai-and-programming-classes-in-gillingham | can a retrieval AI agent be fooled by a rumour its source disproves? | retrieval-augmented agent, BM25, stop words, reported claim vs fact, citations | f1cb72ab |
 | 359 | online-coding-and-python-classes-in-stafford (sfd, #414C13) | cg- town page | 2,756 | 1.8% vs best-coding-and-ai-classes-in-harlow | explore or exploit: how should an AI agent choose? | multi-armed bandit, tie-breaking trap, epsilon-greedy, UCB1 | e5e5d28a |
 | 360 | ai-and-programming-classes-in-chesterfield (chf, #4C2E13) | cg- town page | 2,686 | 2.7% vs ai-and-programming-classes-in-gillingham | can one number explain two old measurements? | one-parameter model fitting with a loss function, conflicting data | d50e2b4e |
-| 361 | best-coding-and-ai-classes-in-rochester (rot, #6B2525) | cg- town page | 2,670 | 1.6% vs ai-and-programming-classes-in-dewsbury | what does a summary keep, and what does it lose? | extractive summarisation, length bias, lead baseline, fact-list evaluation | (this commit) |
+| 361 | best-coding-and-ai-classes-in-rochester (rot, #6B2525) | cg- town page | 2,670 | 1.6% vs ai-and-programming-classes-in-dewsbury | what does a summary keep, and what does it lose? | extractive summarisation, length bias, lead baseline, fact-list evaluation | d705404e |
+| 362 | vibe-coding-and-ai-agents-classes-in-darlington (dar, #10166B) | cg- town page | 2,675 | 2.7% vs vibe-coding-and-ai-agents-classes-in-nuneaton | how should an AI agent check its own answers? | agent verification loop, tolerance, stopping rule, same-source ratios | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

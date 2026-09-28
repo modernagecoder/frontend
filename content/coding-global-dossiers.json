@@ -29632,5 +29632,48 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-darlington": {
+    "market": "Darlington",
+    "bodyClass": "cg-dar",
+    "pageType": "city",
+    "curriculumAuthority": "Darlington (E06000005). Nomis Census 2021 TS001 usual residents 107,799; TS007A total 107,801 (bands sum 107,801); OA sum 107,815 (372 OAs). TS007A: 20 to 24 5,426 (5.0%, England 6.0%); 25 to 29 6,379 (5.9%, 6.6%); 55 to 59 7,855 (7.3%, 6.7%); 60 to 64 7,004 (6.5%, 5.8%); 65 to 69 5,958 (5.5%, 4.9%); 80 to 84 3,121 (2.9%, 2.5%); 65 and over 22,040. ONS 2021 BUAs: Darlington 93,015; Middleton St George 4,755; Hurworth-on-Tees 2,665; Heighington 1,545. ONS, Protecting personal data in Census 2021 results: \"the randomness may mean small changes to totals. Where two or more different datasets are constructed, the totals of all cells may in turn be different.\" Smiles (Gutenberg 46229): \"Tuesday, the 27th of September, 1825, was a great day for Darlington.\"",
+    "localProject": "Three-tool agent: TS001 107,799; TS007A 107,801; OA sum 107,815 (max gap 16, 0.015%). Naive: answers vary by run; exact-match verification loops forever. Fix: tolerance 0.1%, stop after N checks, headline figure + note, cite ONS. 65+ share 20.4451% (same table) vs 20.4455% (mixed). Lesson family: agent self-check / verification loop, tolerance, stopping rule, consistent-source ratios.",
+    "requiredMentions": [
+      "107,799",
+      "107,815",
+      "93,015",
+      "Middleton St George",
+      "Hurworth-on-Tees",
+      "Heighington",
+      "verification loop",
+      "tolerance",
+      "stopping rule"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS001 and TS007A, Darlington and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 output area populations and built-up area lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "ONS methodology, Protecting personal data in Census 2021 results.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/methodologies/protectingpersonaldataincensus2021results"
+      },
+      {
+        "claim": "Project Gutenberg, Samuel Smiles, The Life of George Stephenson (ebook 46229).",
+        "url": "https://www.gutenberg.org/ebooks/46229"
+      }
+    ],
+    "rejectedClaims": [
+      "Railway history beyond Smiles's one sentence: owned by the County Durham page; not repeated.",
+      "Why the output-area sum differs from TS001 by exactly 16: not explained by the ONS page beyond the general method; not claimed.",
+      "The 0.1% tolerance is our teaching choice, not an ONS rule.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
