@@ -16039,6 +16039,18 @@
   to = "/src/pages/best-coding-and-ai-classes-in-rotherham.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-burnley"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-burnley.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-burnley.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-burnley.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

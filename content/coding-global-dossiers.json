@@ -29953,5 +29953,44 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-burnley": {
+    "market": "Burnley",
+    "bodyClass": "cg-brn",
+    "pageType": "city",
+    "curriculumAuthority": "Burnley (E07000117). Nomis Census 2021 TS001 94,646. TS007A: 0 to 4 5,760 (6.1%, England 5.4%); 5 to 9 6,174 (6.5%, 5.9%); 10 to 14 6,278 (6.6%, 6.0%); 20 to 24 5,171 (5.5%, 6.0%); 80 to 84 2,148 (2.3%, 2.5%); 85 and over 1,879 (2.0%, 2.4%). ONS 2021 BUAs: Burnley 78,255; Padiham 10,125; Hapton 2,240; Worsthorne 970; Cliviger 570 (sum 92,160).",
+    "localProject": "Instruction \"make the parts add up to the total\": full access overwrites 94,646 with 92,160 (2,486 people removed) or scales parts by 1.027; sandbox (read-only original, write copy, audit log, published figures locked, human approval) proposes a derived row \"outside listed built-up areas 2,486\"; read-only reports the gap. 2,486 = 2.6% of the borough. Lesson family: agent permissions, sandbox, read-only originals, audit log, approval.",
+    "requiredMentions": [
+      "94,646",
+      "78,255",
+      "Padiham",
+      "Hapton",
+      "Worsthorne",
+      "Cliviger",
+      "sandbox",
+      "audit log",
+      "read-only"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS001 and TS007A, Burnley and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "ONS, built-up areas, Census 2021.",
+        "url": "https://www.ons.gov.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Where exactly the 2,486 people live: not analysed beyond \"outside the listed built-up areas\".",
+      "Textile and football history: not read from a source; not claimed.",
+      "Behaviour of any named commercial AI agent: not claimed; the agent is a learner-built demonstration.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
