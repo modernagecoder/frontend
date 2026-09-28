@@ -1276,3 +1276,4 @@
 .cg-root.cg-eas  { --cg-accent: #48205C; --cg-accent-soft: rgba(72,32,92,.10); }   /* Eastbourne: a late-evening violet over the Channel (10.34:1 on the darkest paper tint) */
 .cg-root.cg-dew  { --cg-accent: #4C1B2F; --cg-accent-soft: rgba(76,27,47,.10); }   /* Dewsbury: a deep blanket-wool maroon (11.24:1 on the darkest paper tint) */
 .cg-root.cg-hlw  { --cg-accent: #1B1B4C; --cg-accent-soft: rgba(27,27,76,.10); }   /* Harlow: a laboratory-night indigo (12.94:1 on the darkest paper tint) */
+.cg-root.cg-nun  { --cg-accent: #34205C; --cg-accent-soft: rgba(52,32,92,.10); }   /* Nuneaton: an ink-violet for a town of novelists (11.23:1 on the darkest paper tint) */

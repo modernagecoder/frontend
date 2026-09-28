@@ -29465,5 +29465,46 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-nuneaton": {
+    "market": "Nuneaton",
+    "bodyClass": "cg-nun",
+    "pageType": "city",
+    "curriculumAuthority": "Nuneaton and Bedworth (E07000219). Nomis Census 2021 TS007A: total 134,193; 0 to 4 7,753 (5.8%, England 5.4%); 15 to 19 6,937 (5.2%, 5.7%); 20 to 24 7,071 (5.3%, 6.0%); 50 to 54 9,554 (7.1%, 6.9%); 75 to 79 5,304 (4.0%, 3.6%); 85 and over 2,976 (2.2%, 2.4%). ONS 2021 BUAs: Nuneaton 88,815; Bedworth 31,090; Bulkington 5,670; Ash Green 2,565; Bermuda 2,070. Project Gutenberg 36847, Mathilde Blind, George Eliot (W. H. Allen, 1883): born \"November 22nd, 1819, at South Farm, a mile from Griff\"; \"Both the date and place of her birth have been incorrectly stated, hitherto\"; \"a school at Nuneaton, kept by Miss Lewis\"; Liggins; \"If I didn't, the devil did!\"; Attleborough.",
+    "localProject": "BM25 over 354 passages (59,072 words). \"Who wrote Adam Bede?\" top = Liggins passage; naive most-frequent-name answer \"Liggins\" (7). \"Where was George Eliot born?\" right passage 3rd; with stop words kept 11th. Nuneaton school question 1st. Fix: cite the passage behind every answer. Lesson family: retrieval-augmented agent, BM25, stop words, reported claim vs fact, citations.",
+    "requiredMentions": [
+      "134,193",
+      "88,815",
+      "Bulkington",
+      "Ash Green",
+      "Bermuda",
+      "Mathilde Blind",
+      "Liggins",
+      "Griff House",
+      "South Farm",
+      "BM25"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Nuneaton and Bedworth and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Mathilde Blind, George Eliot (ebook 36847).",
+        "url": "https://www.gutenberg.org/ebooks/36847"
+      }
+    ],
+    "rejectedClaims": [
+      "Where George Eliot was born according to other sources: Blind says earlier notices were wrong; only her account is quoted.",
+      "Liggins's later life: Blind's passage ends in the workhouse; not used on the page.",
+      "Present-day George Eliot memorials in Nuneaton: not read from a source; not claimed.",
+      "Chilvers Coton church details: mentioned in the source but not used.",
+      "Named schools today and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
