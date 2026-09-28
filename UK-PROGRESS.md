@@ -423,7 +423,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 371 | online-coding-and-python-classes-in-bury (bym, #320E5C) | cg- town page | 2,567 | 1.9% vs online-coding-and-python-classes-in-stafford | how many tool calls should an AI agent spend? | agent tool budget, batching (N+1), measured calls, plan before act | 93fc3ce8 |
 | 372 | ai-and-programming-classes-in-halifax (hfx, #4C461B) | cg- town page | 3,070 | 1.9% vs ai-and-programming-classes-in-dewsbury | can a model place a district by its ages? | nearest-centroid classifier, leave-one-out, baseline, confusion matrix | 9c6d11f0 |
 | 373 | best-coding-and-ai-classes-in-walsall (wsl, #6B4B3B) | cg- town page | 2,914 | 2.2% vs ai-and-programming-classes-in-dewsbury | what does a word embedding learn from one book? | word embeddings, co-occurrence, PPMI, cosine neighbours, name merging | 8d011aae |
-| 374 | vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme (nul, #8A2267) | cg- town page | 2,830 | 1.3% vs vibe-coding-and-ai-agents-classes-in-darlington | when should an AI agent ask a clarifying question? | clarifying questions, ambiguity cost, absolute vs relative tolerance | (this commit) |
+| 374 | vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme (nul, #8A2267) | cg- town page | 2,830 | 1.3% vs vibe-coding-and-ai-agents-classes-in-darlington | when should an AI agent ask a clarifying question? | clarifying questions, ambiguity cost, absolute vs relative tolerance | 8bb4ab3a |
+| 375 | online-coding-and-python-classes-in-hastings (hst, #444C32) | cg- town page | 2,861 | 2.4% vs ai-and-programming-classes-in-chesterfield | which examples should a model ask about first? | active learning, uncertainty sampling, cold start, label budget | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

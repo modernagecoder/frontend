@@ -30157,5 +30157,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-hastings": {
+    "market": "Hastings",
+    "bodyClass": "cg-hst",
+    "pageType": "city",
+    "curriculumAuthority": "Hastings (E07000062), Census 2021 TS001 usual residents 90,995. ONS 2021 Hastings BUA (published) 91,490; our OA sum inside the borough 90,438; 311 OAs, 40,476 households (TS044). postcodes.io suburban areas in Hastings district: St Leonards-on-Sea, Ore, Hollington, Silverhill, Baldslow, Bulverhythe.",
+    "localProject": "Active learning on 311 OAs: label mostly flats (>= 50% of households in flats of any kind) = 104; features no-car share, 65+ share, 20 to 39 share; logistic regression; 200 splits (93 test, 218 pool). Random vs uncertainty: 5 labels 75.7 / 74.6; 10: 79.9 / 79.7; 20: 82.1 / 83.1; 40: 83.9 / 84.8; full pool 85.4; baseline 66.6. At 40: uncertainty better 109, worse 63, tied 28. One-threshold rule (no car >= 39%) 85.2% in-sample. Lesson family: active learning, uncertainty sampling, cold start, label budget.",
+    "requiredMentions": [
+      "90,995",
+      "91,490",
+      "40,476",
+      "St Leonards-on-Sea",
+      "Hollington",
+      "Silverhill",
+      "Bulverhythe",
+      "active learning",
+      "uncertainty sampling",
+      "cold start"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Census 2021 TS001, TS007A, TS044 and TS045 for Hastings output areas, via the Nomis API.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas within Hastings district, East Sussex.",
+        "url": "https://api.postcodes.io/places?q=St%20Leonards-on-Sea"
+      }
+    ],
+    "rejectedClaims": [
+      "Battle of Hastings history: not read from a source; not claimed.",
+      "Why some areas have more flats or fewer cars: not measured; not claimed.",
+      "Fishing, seafront or pier history: not read from a source; not claimed.",
+      "Active learning always beating random choice: not true here at 5 labels; not claimed.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
