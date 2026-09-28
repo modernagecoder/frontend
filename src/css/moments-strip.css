@@ -25,7 +25,7 @@
 
 .mac-badge {
     display: inline-block;
-    background: #D97706;
+    background: #B45309; /* 5.0:1 with white text; #D97706 was 3.2:1 */
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
     font-weight: 700;

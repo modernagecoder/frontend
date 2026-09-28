@@ -2359,28 +2359,28 @@ class CourseGenerator {
                 .why-this-course-section {
                     margin-top: 3rem;
                     padding: 3rem 2rem;
-                    background: linear-gradient(145deg, rgba(10, 25, 47, 0.95), rgba(17, 34, 64, 0.9));
+                    background: var(--surface, #FFFDF8);
                     border-radius: 24px;
-                    border: 1px solid rgba(168, 85, 247, 0.2);
+                    border: 1px solid var(--line, rgba(28, 24, 20, 0.12));
                 }
                 .why-course-header { text-align: center; margin-bottom: 2rem; }
                 .why-course-badge {
                     display: inline-block;
                     padding: 0.5rem 1rem;
-                    background: linear-gradient(135deg, rgba(168, 85, 247, 0.2), rgba(236, 72, 153, 0.15));
+                    background: var(--amber-tint, #FDF1E3);
                     border-radius: 20px;
                     font-size: 0.875rem;
-                    color: #a855f7;
+                    color: var(--amber-deep, #8F3F08);
                     font-weight: 600;
                     margin-bottom: 1rem;
                 }
                 .why-course-title {
                     font-size: 2rem;
                     font-weight: 800;
-                    color: #f1f5f9;
+                    color: var(--ink, #1C1814);
                 }
                 .why-course-text p {
-                    color: rgba(203, 213, 225, 0.9);
+                    color: var(--ink-soft, #4A423A);
                     font-size: 1.05rem;
                     line-height: 1.8;
                     margin-bottom: 1.25rem;
@@ -2396,16 +2396,16 @@ class CourseGenerator {
                     align-items: flex-start;
                     gap: 0.75rem;
                     padding: 1rem;
-                    background: rgba(255, 255, 255, 0.03);
+                    background: var(--surface, #FFFDF8);
                     border-radius: 12px;
                 }
                 .why-highlight-icon {
-                    color: #4ecdc4;
+                    color: var(--amber, #B45309);
                     font-weight: bold;
                     font-size: 1.25rem;
                 }
                 .why-highlight-text {
-                    color: #e2e8f0;
+                    color: var(--ink, #1C1814);
                     font-size: 0.95rem;
                 }
             </style>
