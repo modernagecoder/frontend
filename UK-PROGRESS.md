@@ -425,7 +425,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 373 | best-coding-and-ai-classes-in-walsall (wsl, #6B4B3B) | cg- town page | 2,914 | 2.2% vs ai-and-programming-classes-in-dewsbury | what does a word embedding learn from one book? | word embeddings, co-occurrence, PPMI, cosine neighbours, name merging | 8d011aae |
 | 374 | vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme (nul, #8A2267) | cg- town page | 2,830 | 1.3% vs vibe-coding-and-ai-agents-classes-in-darlington | when should an AI agent ask a clarifying question? | clarifying questions, ambiguity cost, absolute vs relative tolerance | 8bb4ab3a |
 | 375 | online-coding-and-python-classes-in-hastings (hst, #444C32) | cg- town page | 2,861 | 2.4% vs ai-and-programming-classes-in-chesterfield | which examples should a model ask about first? | active learning, uncertainty sampling, cold start, label budget | 1f5a9076 |
-| 376 | ai-and-programming-classes-in-lowestoft (lwt, #34158A) | cg- town page | 2,909 | 1.6% vs online-coding-and-python-classes-in-stafford | does data augmentation really help? | data augmentation, exact-copy control, order invariance, augmentation leakage | (this commit) |
+| 376 | ai-and-programming-classes-in-lowestoft (lwt, #34158A) | cg- town page | 2,909 | 1.6% vs online-coding-and-python-classes-in-stafford | does data augmentation really help? | data augmentation, exact-copy control, order invariance, augmentation leakage | 5cd74093 |
+| 377 | best-coding-and-ai-classes-in-tamworth (tmw, #20485C) | cg- town page | 2,847 | 1.3% vs vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme | what does a hidden layer add, and when is bigger worse? | hidden layer, backpropagation, overfitting, random starts, neighbour baseline | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

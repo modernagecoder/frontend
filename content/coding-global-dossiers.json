@@ -30243,5 +30243,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-tamworth": {
+    "market": "Tamworth",
+    "bodyClass": "cg-tmw",
+    "pageType": "city",
+    "curriculumAuthority": "Tamworth (E07000199), Census 2021 TS001 usual residents 78,646. ONS 2021 Tamworth BUA (published) 76,090; our OA sum inside the borough 75,312; Fazeley straddles, excluded. postcodes.io suburban areas in Tamworth district: Wilnecote, Glascote, Amington, Belgrave, Kettlebrook, Stonydelph, Dosthill, Bolehall.",
+    "localProject": "TS007 single year of age (NM_2027_1), 101 ages, max 1,223 at 50, mean 860 for 0 to 90. Train even ages 0 to 90 (46), test odd 1 to 89 (45). Hand-written backprop, tanh hidden layer, Adam, 30,000 steps, 10 starts. Test RMSE: linear 207.3; 1 unit 93.1; 2: 73.1; 4: 63.6 (49.0 to 78.0); 8: 43.6 (train 34.0); 16: 45.3 (29.1); 64: 46.0 (25.4). Neighbour average 41.2. Lesson family: hidden layer, backpropagation, overfitting, initialisation, simple baseline.",
+    "requiredMentions": [
+      "78,646",
+      "76,090",
+      "Wilnecote",
+      "Glascote",
+      "Amington",
+      "Stonydelph",
+      "Dosthill",
+      "hidden layer",
+      "backpropagation",
+      "1,223"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Census 2021 TS007, age by single year, and TS001 usual residents for Tamworth, via the Nomis API.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2027_1.data.csv?geography=E07000199&measures=20100"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas within Tamworth district, Staffordshire.",
+        "url": "https://api.postcodes.io/places?q=Wilnecote"
+      }
+    ],
+    "rejectedClaims": [
+      "Anglo-Saxon or castle history of Tamworth: not read from a source; not claimed.",
+      "Why the age curve peaks at 50: not measured; not claimed.",
+      "How modern AI models are trained in detail: described only in general terms.",
+      "Fazeley population: built-up area crosses the borough boundary; not tabled.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
