@@ -223,6 +223,10 @@
         ]
       },
       {
+        "type": "paragraph",
+        "text": "Averages need the same care. A single very large order can make the mean order value look far healthier than a typical one. Our guide to <a href='/blog/mean-median-mode-explained'>mean, median and mode</a> explains when each average tells the truth."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "Example 3: Service Business Optimizes Pricing",
@@ -330,10 +334,6 @@
       {
         "type": "paragraph",
         "text": "Percentages let you compare things of different sizes. A ₹10,000 increase means different things for a ₹1 lakh business versus a ₹1 crore business. Growth rates, percentage change over time, show whether you're improving or declining."
-      },
-      {
-        "type": "paragraph",
-        "text": "Averages need the same care. A single very large order can make the mean order value look far healthier than a typical one. Our guide to <a href='/blog/mean-median-mode-explained'>mean, median and mode</a> explains when each average tells the truth."
       },
       {
         "type": "paragraph",
