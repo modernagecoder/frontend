@@ -90,6 +90,10 @@
       },
       {
         "type": "paragraph",
+        "text": "If these programs feel like a jump, step back to the roadmap first. <a href='/blog/how-to-start-learning-data-structures-and-algorithms'>How to start learning data structures and algorithms</a> sets out the order that works, with stacks, queues, hash maps and binary search running in real code."
+      },
+      {
+        "type": "paragraph",
         "text": "Master these, and you'll be ahead of 90% of your peers. Let's begin."
       },
       {

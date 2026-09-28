@@ -63,6 +63,10 @@
         "text": "According to LinkedIn's 2024 Jobs Report, 78% of software engineering job postings mention DSA/algorithm skills, while 82% require practical development experience. The most successful candidates? Those who demonstrate both. They receive 2.3x more interview callbacks than single-skill candidates."
       },
       {
+        "type": "paragraph",
+        "text": "For a structured way in, <a href='/blog/how-to-start-learning-data-structures-and-algorithms'>how to start learning DSA</a> lays out eight stages in order and a weekly routine that builds problem recognition rather than memorised answers."
+      },
+      {
         "type": "heading",
         "level": 2,
         "text": "Quick Comparison: CP vs Development at a Glance",

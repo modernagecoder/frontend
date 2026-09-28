@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "slug": "how-to-start-learning-data-structures-and-algorithms",
+    "title": "How to Start Learning Data Structures and Algorithms",
+    "description": "How to start learning DSA: an eight-stage roadmap in order, stacks, queues, hash maps and binary search in real code, and a weekly practice routine.",
+    "keywords": [
+      "how to start learning data structures and algorithms",
+      "dsa roadmap",
+      "how to learn dsa",
+      "data structures for beginners",
+      "dsa for beginners",
+      "which language is best for dsa",
+      "how long does it take to learn dsa"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Programming",
+    "tags": [
+      "DSA",
+      "Algorithms",
+      "Python",
+      "Interviews"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "Become fluent in one language first, then learn DSA in this order: Big O with arrays and strings, hash maps and sets, stacks and queues, sorting with binary search and recursion, linked lists and trees, graphs with BFS and DFS, and finally dynamic programming. Learn one idea at a time, trace it by hand, solve labelled problems and then mixed ones, and re-solve old problems from memory a week later. That builds the skill interviews test: recognising which idea a new problem needs."
+  },
+  "hero": {
+    "title": "How to Start Learning Data Structures and Algorithms",
+    "subtitle": "A roadmap in the order that works, the first four ideas running in real code, and a weekly practice routine that builds recognition rather than memorised solutions.",
+    "featuredImage": {
+      "url": "/images/blog/how-to-start-learning-data-structures-and-algorithms/00-hero.png",
+      "alt": "Data structures and algorithms roadmap: eight stages from language fluency to dynamic programming"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Data structures and algorithms, usually shortened to DSA, is the part of programming that decides whether you can solve problems you have not seen before. It is what technical interviews test, what competitive programming is built on, and what separates someone who can follow a tutorial from someone who can design a solution. It also has a reputation for being overwhelming, mostly because beginners start in the wrong place or try to learn everything at once."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is a practical roadmap: the order to learn things in, why that order works, the first four structures shown working in real code with real output, and a weekly practice routine that builds the thing interviews actually measure, which is recognising which idea a problem needs."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Before you start: one language, properly",
+        "id": "prerequisites"
+      },
+      {
+        "type": "paragraph",
+        "text": "DSA is not a language, and it is not the place to learn one. Before starting, you should be able to write loops, functions, lists and dictionaries in one language without looking things up. Python, Java and C++ are all good choices. Python lets you focus on the ideas with less code. Java and C++ are common in interviews and are faster, which matters in competitive programming. If you are still getting comfortable, our guide on <a href='/blog/how-long-does-it-take-to-learn-python'>how long it takes to learn Python</a> gives realistic milestones, and <a href='/blog/python-vs-java-which-to-learn-first'>Python vs Java</a> helps with the choice."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The roadmap, in order",
+        "id": "roadmap"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Arrays, strings and Big O.</strong> Learn to describe how fast code is before learning faster code. Our <a href='/blog/big-o-notation-explained-simply'>Big O notation guide</a> covers it with measured examples.",
+          "<strong>Hash maps and sets.</strong> The single most useful idea in interview problems. Many slow solutions become fast by remembering what you have seen.",
+          "<strong>Stacks and queues.</strong> Structures where the order of adding and removing is the whole point.",
+          "<strong>Sorting, binary search and recursion.</strong> Splitting and halving problems. Understand <a href='/blog/recursion-explained-for-beginners'>recursion</a> properly here, because trees and graphs need it.",
+          "<strong>Linked lists and trees.</strong> Data that points to other data.",
+          "<strong>Graphs.</strong> Breadth-first and depth-first search, for maps, networks and mazes.",
+          "<strong>Dynamic programming.</strong> Remembering answers to sub-problems. Leave it until last: it builds on recursion and hash maps."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Do not start with dynamic programming",
+        "text": "It is the topic people fear most, so many beginners rush at it. It depends on recursion and hash maps being second nature. Arrive there last and it is far less mysterious."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The first four ideas, working",
+        "id": "first-four"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here are four of the ideas from the roadmap in short, real programs. Each output is exactly what the code printed."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "A stack: checking brackets",
+        "id": "stack"
+      },
+      {
+        "type": "paragraph",
+        "text": "A stack is last in, first out, like a pile of plates. It is perfect for anything that must be closed in reverse order of opening, which is exactly how brackets work. Code editors do a version of this to highlight a missing bracket."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def balanced(text):\n    pairs = {\")\": \"(\", \"]\": \"[\", \"}\": \"{\"}\n    stack = []\n    for ch in text:\n        if ch in \"([{\":\n            stack.append(ch)                 # remember every opener\n        elif ch in pairs:\n            if not stack or stack.pop() != pairs[ch]:\n                return False                 # closer with no matching opener\n    return not stack                         # anything left open is unbalanced\n\nfor s in [\"(a[b]{c})\", \"(a[b)]\", \"((x)\", \"print(f(x[0]))\"]:\n    print(f\"{s:<16} {balanced(s)}\")",
+        "title": "brackets.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "(a[b]{c})        True\n(a[b)]           False\n((x)             False\nprint(f(x[0]))   True",
+        "title": "Output"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "A hash map: the two-sum problem",
+        "id": "hash-map"
+      },
+      {
+        "type": "paragraph",
+        "text": "Given a list of prices, find two that add up to a target. Checking every pair is slow. Remembering each price in a dictionary as you go makes it one pass, because for each price you only need to ask whether its partner has already been seen."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def two_sum(numbers, target):\n    seen = {}                                # value -> index where we saw it\n    for i, n in enumerate(numbers):\n        if target - n in seen:\n            return seen[target - n], i\n        seen[n] = i\n    return None\n\nprices = [12, 7, 30, 18, 5, 21]\nprint(\"two prices adding to 23 are at positions\", two_sum(prices, 23))\nprint(\"two prices adding to 100:\", two_sum(prices, 100))",
+        "title": "two_sum.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "two prices adding to 23 are at positions (3, 4)\ntwo prices adding to 100: None",
+        "title": "Output"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "A queue: the shortest way out of a maze",
+        "id": "queue"
+      },
+      {
+        "type": "paragraph",
+        "text": "A queue is first in, first out, like a line at a counter. Used for breadth-first search, it explores everything one step away, then two steps, then three, so the first time it reaches the exit it has found the shortest route."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from collections import deque\n\nmaze = [\"S.#.....\",\n        \".##.###.\",\n        \"....#...\",\n        \"#.#...#E\"]\n\ndef shortest_path(maze):\n    rows, cols = len(maze), len(maze[0])\n    start = next((r, c) for r in range(rows) for c in range(cols) if maze[r][c] == \"S\")\n    queue = deque([(start, 0)])\n    seen = {start}\n    while queue:\n        (r, c), steps = queue.popleft()      # a queue explores nearest squares first\n        if maze[r][c] == \"E\":\n            return steps\n        for dr, dc in ((1, 0), (-1, 0), (0, 1), (0, -1)):\n            nr, nc = r + dr, c + dc\n            if 0 <= nr < rows and 0 <= nc < cols and maze[nr][nc] != \"#\" and (nr, nc) not in seen:\n                seen.add((nr, nc))\n                queue.append(((nr, nc), steps + 1))\n    return None\n\nprint(\"shortest path from S to E:\", shortest_path(maze), \"steps\")",
+        "title": "maze.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "shortest path from S to E: 12 steps",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-start-learning-data-structures-and-algorithms/03-bfs-maze.png",
+        "alt": "A small maze solved by breadth-first search, with the shortest path from S to E being 12 steps",
+        "caption": "Nearest squares first, so the first arrival is the shortest path."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Binary search: halving sorted data",
+        "id": "binary-search"
+      },
+      {
+        "type": "paragraph",
+        "text": "If data is sorted, you never need to check it all. Look at the middle, throw away the half that cannot contain the target, repeat."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def binary_search(sorted_items, target):\n    low, high, checks = 0, len(sorted_items) - 1, 0\n    while low <= high:\n        checks += 1\n        mid = (low + high) // 2\n        if sorted_items[mid] == target:\n            return mid, checks\n        if sorted_items[mid] < target:\n            low = mid + 1\n        else:\n            high = mid - 1\n    return None, checks\n\nroll_numbers = list(range(1000, 101000, 3))     # 33,334 sorted roll numbers\nprint(len(roll_numbers), \"items\")\nprint(\"find 70003:\", binary_search(roll_numbers, 70003))\nprint(\"find 70004 (not there):\", binary_search(roll_numbers, 70004))",
+        "title": "binary_search.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "33334 items\nfind 70003: (23001, 13)\nfind 70004 (not there): (None, 15)",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Over thirty thousand items, and binary search needed 13 checks to find the value and only 15 to be certain a missing one was not there. Checking one by one could take over thirty thousand. That halving is where every O(log n) comes from."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Matching the structure to the job",
+        "id": "which-structure"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-start-learning-data-structures-and-algorithms/02-which-structure.png",
+        "alt": "Which data structure to use for common jobs: hash maps for lookup, stacks for undo and brackets, queues for nearest-first, binary search for sorted data, trees for hierarchies and graphs for connections",
+        "caption": "Most problems announce the structure they need, if you know what to listen for."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "If the problem involves...",
+          "Reach for"
+        ],
+        "rows": [
+          [
+            "Looking things up by name or id, counting, \"have I seen this?\"",
+            "A hash map or set"
+          ],
+          [
+            "Undo, matching pairs, going back the way you came",
+            "A stack"
+          ],
+          [
+            "Processing in arrival order, nearest first, levels",
+            "A queue"
+          ],
+          [
+            "Finding a value in sorted data, or \"the smallest x that works\"",
+            "Binary search"
+          ],
+          [
+            "Hierarchies: folders, menus, family trees",
+            "A tree"
+          ],
+          [
+            "Connections: roads, friendships, dependencies",
+            "A graph with BFS or DFS"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to practise so it actually sticks",
+        "id": "practice"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-start-learning-data-structures-and-algorithms/04-practice.png",
+        "alt": "A weekly DSA practice routine: learn one idea, solve easy problems on it, solve mixed problems, and re-solve last week's problems from memory",
+        "caption": "Mixed problems and re-solving are where recognition is built."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Trace before you type.</strong> For every new idea, work one example by hand on paper, following each step.",
+          "<strong>Do labelled problems first, then mixed.</strong> Problems grouped under a heading like \"stacks\" teach the technique. Mixed problems teach the harder skill of recognising which technique is needed.",
+          "<strong>Re-solve after a week, from a blank file.</strong> If you cannot, you understood the solution without owning it.",
+          "<strong>Explain your solution out loud.</strong> Interviews test this directly, and explaining exposes gaps quickly.",
+          "<strong>Two or three good problems a day beat ten rushed ones.</strong> Depth builds recognition. Volume without reflection mostly builds anxiety."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "The tutorial trap",
+        "text": "Watching someone solve a problem feels like progress. It is not, until you can solve a similar one yourself. After watching or reading any solution, close it and rewrite it from scratch."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How long does it take?",
+        "id": "how-long"
+      },
+      {
+        "type": "paragraph",
+        "text": "As a planning estimate from teaching, not a measured average: a student who already codes comfortably and practises about five to seven hours a week usually covers stages 1 to 4 in two to three months, and reaches a solid interview level, stages 1 to 7, in six to nine months. Competitive programming at a high level takes longer, and our post on <a href='/blog/usaco-bronze-to-silver-what-blocks-most-students'>moving from USACO Bronze to Silver</a> shows the kind of wall students meet there."
+      },
+      {
+        "type": "quote",
+        "text": "Learning DSA is not memorising solutions. It is learning to hear which idea a problem is asking for."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a> follows the principles on our <a href='/how-we-teach'>how we teach</a> page: one concept fully understood before the next, and code traced line by line until the student can predict every step. It runs live in Python, Java or C++, one to one or in small groups of 5 to 10, and there are dedicated <a href='/java-dsa-course'>Java DSA</a> and <a href='/c-plus-plus-dsa-course'>C++ DSA</a> tracks."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How do I start learning data structures and algorithms?",
+            "content": "First become fluent in one programming language. Then learn Big O, arrays and strings, hash maps, stacks and queues, sorting and binary search, recursion, trees, graphs and finally dynamic programming, in that order. Practise each with a few problems before moving on."
+          },
+          {
+            "title": "Which language is best for DSA?",
+            "content": "Python, Java and C++ are all good. Python needs the least code, so ideas are clearer. Java and C++ are common in interviews and faster, which matters in competitive programming. Use the language you already know best to start."
+          },
+          {
+            "title": "How long does it take to learn DSA?",
+            "content": "As a rough estimate, someone who already codes comfortably and practises five to seven hours a week can cover the core topics in two to three months and reach a solid interview level in six to nine months."
+          },
+          {
+            "title": "Do I need to be good at maths for DSA?",
+            "content": "Basic maths is enough to start: arithmetic, logarithms at an intuitive level, and simple counting. Some advanced topics use more maths, but most interview-level DSA relies far more on logical thinking than on formulas."
+          },
+          {
+            "title": "Should I start with arrays or linked lists?",
+            "content": "Arrays. They are simpler, more commonly used, and the basis for understanding everything else. Linked lists make more sense once you know why arrays can be slow for inserting in the middle."
+          },
+          {
+            "title": "How many problems should I solve?",
+            "content": "Quality matters more than quantity. Two or three problems a day, with time spent understanding and re-solving them, beats rushing through many. A few hundred well-understood problems across all topics is enough for most interviews."
+          },
+          {
+            "title": "Is DSA only for interviews?",
+            "content": "No. It helps you write faster, clearer code in any project, and it is the foundation of competitive programming and computer science courses. Interviews test it because it reflects general problem-solving ability."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "big-o-notation-explained-simply",
+    "recursion-explained-for-beginners",
+    "competitive-coding-vs-development-skills-what-students-focus"
+  ]
+}
