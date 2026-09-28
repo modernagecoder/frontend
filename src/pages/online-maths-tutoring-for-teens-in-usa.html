@@ -87,8 +87,8 @@
             { "@type": "Question", "name": "My teen is failing math. Where do you start?", "acceptedAnswer": { "@type": "Answer", "text": "We start by finding the exact topic where things stopped making sense. It's usually one or two missing ideas from an earlier year, not the current chapter. We fix the foundation first, then the current work gets much easier on its own." } },
             { "@type": "Question", "name": "Do you prepare students for the SAT and ACT?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The math on both tests is built on algebra, geometry and data skills we teach anyway. For students close to test day we shift into format, pacing and the specific traps each test uses. We also have dedicated SAT Math and ACT Math pages." } },
             { "@type": "Question", "name": "Is it aligned with my teen's school and Common Core?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We follow Common Core and the high-school standards your state uses, and we can work directly from your teen's current syllabus, upcoming tests and homework so tutoring supports school rather than competing with it." } },
-            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "USD 150 per month for private 1:1 tutoring, eight live classes, two each week. A small-group option is USD 100 per month for the same eight classes. No contract; cancel any time." } },
-            { "@type": "Question", "name": "Is there a free trial?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The first lesson is free. Your teen meets the mentor, we diagnose where the real gaps are, and you decide afterward, no card needed to book." } },
+            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time." } },
+            { "@type": "Question", "name": "Can we try a class before enrolling?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee." } },
             { "@type": "Question", "name": "Will my teen keep the same tutor?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. One mentor stays with your teen, which matters for older students who need to trust someone before they'll admit what they don't understand." } },
             { "@type": "Question", "name": "What time zones do mentors cover?", "acceptedAnswer": { "@type": "Answer", "text": "All six US time zones. Your teen picks two weekly slots in your own zone, after school, evenings or weekends." } },
             { "@type": "Question", "name": "Are classes live or pre-recorded?", "acceptedAnswer": { "@type": "Answer", "text": "Live, one-to-one, with a real mentor and a shared whiteboard. A recording can't catch the moment a student nods along without understanding, a live teacher can." } },
@@ -105,7 +105,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/maths-pages.css">
+    <link rel="stylesheet" href="/css/maths-pages.css?v=20260928">
 <!-- mac-org-ld -->
 <script type="application/ld+json">
 {
@@ -162,7 +162,7 @@
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
-    <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Book a free trial</button>
+    <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-online-maths-tutoring-for-teens-in-usa">Book a Priority Demo</a>
   </div>
 </nav>
 
@@ -173,14 +173,14 @@
     <h1>Online maths tutoring for teens in the USA: <span class="grad">built to actually stick.</span></h1>
     <p class="mp-lede">One-to-one online math for middle and high schoolers, grades 6–12. We don't cram your teen for Friday's test and watch it evaporate by Monday. We rebuild the reasoning underneath algebra, geometry and pre-calc so it holds up, on the SAT, in the next class, and in whatever they study after. <strong><span data-price="maths.international.personal">$150</span> a month</strong>, eight live classes, two a week.</p>
     <div class="mp-cta-row">
-      <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book a free trial lesson</button>
+      <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-online-maths-tutoring-for-teens-in-usa">Book a Priority Demo</a>
       <a href="/courses/complete-high-school-mathematics-mastery" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">See the high-school course</a>
     </div>
     <div class="mp-trust">
       <div class="item"><span class="v">4.9<span class="u">/5</span></span><span class="l">Parent &amp; learner rating · 547 Google reviews</span></div>
       <div class="item"><span class="v">6–12</span><span class="l">Grades we teach · pre-algebra to pre-calc</span></div>
       <div class="item"><span class="v">1:1</span><span class="l">Same mentor every class</span></div>
-      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">8 live classes · cancel any time</span></div>
+      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">1-on-1 plan · cancel any time</span></div>
     </div>
   </div>
 </header>
@@ -313,12 +313,12 @@
         <h3>1:1 Private Mentorship</h3>
         <p class="amt"><span data-price="maths.international.personal">$150</span><span> / month</span></p>
         <ul>
-          <li>8 live one-to-one classes a month (2 per week, 1 hour each)</li>
+          <li data-intl-default="true">8 live one-to-one classes a month (2 per week, 1 hour each)</li><li data-india-reveal="true" hidden>4 live one-to-one classes a month (1 per week, 1 hour each)</li>
           <li>The same dedicated mentor throughout</li>
           <li>Plan built from your teen's syllabus &amp; goals</li>
           <li>Notes after every class · cancel any time</li>
         </ul>
-        <button type="button" class="mp-btn mp-btn-primary mp-mt" onclick="openCallbackModal()">Book a free trial</button>
+        <a class="mp-btn mp-btn-primary mp-mt" href="/priority-demo" data-pd-book="mp-online-maths-tutoring-for-teens-in-usa">Book a Priority Demo</a>
       </div>
       <div class="mp-price">
         <h3>Small-Group Cohort</h3>
@@ -385,8 +385,8 @@
       <details><summary>My teen is failing math. Where do you start?</summary><div class="a"><p>By finding the exact topic where things stopped making sense, usually one or two missing ideas from an earlier year. We fix the foundation first, then the current work gets much easier on its own.</p></div></details>
       <details><summary>Do you prepare students for the SAT and ACT?</summary><div class="a"><p>Yes. The math on both tests builds on the algebra, geometry and data skills we teach anyway. Close to test day we shift into format, pacing and each test's traps. We also have dedicated <a href="/sat-math-tutoring-online">SAT Math</a> and <a href="/act-math-tutoring-online">ACT Math</a> pages.</p></div></details>
       <details><summary>Is it aligned with my teen's school and Common Core?</summary><div class="a"><p>Yes. We follow Common Core and your state's high-school standards, and can work directly from your teen's syllabus, tests and homework so tutoring supports school.</p></div></details>
-      <details><summary>How much does it cost?</summary><div class="a"><p>USD 150 per month for private 1:1 tutoring, eight live classes, two each week. Small-group option is USD 100 per month. No contract; cancel any time.</p></div></details>
-      <details><summary>Is there a free trial?</summary><div class="a"><p>Yes. The first lesson is free, with no card needed. Your teen meets the mentor and we diagnose the real gaps.</p></div></details>
+      <details><summary>How much does it cost?</summary><div class="a"><p>The fees for private 1-on-1 and small-group classes are shown in your own currency in the <a href="#pricing">pricing section</a> of this page. Billing is monthly, there is no contract and you can cancel any time.</p></div></details>
+      <details><summary>Can we try a class before enrolling?</summary><div class="a"><p>Yes. <a href="/priority-demo" data-pd-book="mp-faq-online-maths-tutoring-for-teens-in-usa">Book a Priority Demo</a>: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.</p></div></details>
       <details><summary>Will my teen keep the same tutor?</summary><div class="a"><p>Yes, one mentor all year, which matters for older students who need to trust someone before admitting what they don't understand.</p></div></details>
       <details><summary>What time zones do mentors cover?</summary><div class="a"><p>All six US time zones. Your teen picks two weekly slots in your own zone, after school, evenings or weekends.</p></div></details>
       <details><summary>Are classes live or pre-recorded?</summary><div class="a"><p>Live, one-to-one, with a shared whiteboard. A recording can't catch a student nodding along without understanding, a live teacher can.</p></div></details>

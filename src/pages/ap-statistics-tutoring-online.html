@@ -87,8 +87,8 @@
             { "@type": "Question", "name": "Is AP Stats more about writing than calculating?", "acceptedAnswer": { "@type": "Answer", "text": "Largely, yes, and that's where students lose points. The free-response section rewards clear interpretation in context: stating conclusions correctly, defining parameters, checking conditions and explaining what a result means. We train that writing directly, because the calculator does the arithmetic." } },
             { "@type": "Question", "name": "Can you finally explain p-values clearly?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, and getting this right is worth real points. A p-value is the probability of seeing data at least this extreme if the null hypothesis were true; it is not the probability that the hypothesis is true. We make the difference concrete, which is exactly what the exam checks." } },
             { "@type": "Question", "name": "Is the tutoring aligned with the College Board CED?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We follow the official units and skills, use the exam's interpretation language, and prepare students for both the multiple-choice section and the free-response questions, including the longer investigative task." } },
-            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "USD 150 per month for private 1:1 tutoring, eight live sessions, two each week. A small-group option is USD 100 per month for the same eight classes. No contract; cancel any time." } },
-            { "@type": "Question", "name": "Is there a free trial?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The first session is free. We see which units and which FRQ skills need work, then build a plan, no card needed to book." } },
+            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time." } },
+            { "@type": "Question", "name": "Can we try a class before enrolling?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee." } },
             { "@type": "Question", "name": "Will my student keep the same tutor?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. One mentor follows the course, learns where your student's interpretation slips, and ramps into focused FRQ practice before the May exam." } },
             { "@type": "Question", "name": "Do you train the free-response and investigative task?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Using released exams, we drill the exact structure and language AP readers reward, including the investigative task that asks students to extend an idea they haven't seen before." } },
             { "@type": "Question", "name": "Are sessions live?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, live, one-to-one, with a shared whiteboard for working through data, distributions and FRQ wording together in real time." } },
@@ -105,7 +105,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/maths-pages.css">
+    <link rel="stylesheet" href="/css/maths-pages.css?v=20260928">
 <!-- mac-org-ld -->
 <script type="application/ld+json">
 {
@@ -162,7 +162,7 @@
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
-    <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Book a free trial</button>
+    <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-ap-statistics-tutoring-online">Book a Priority Demo</a>
   </div>
 </nav>
 
@@ -173,14 +173,14 @@
     <h1>AP Statistics tutoring online: <span class="grad">where the writing wins the points.</span></h1>
     <p class="mp-lede">One-to-one AP Statistics prep that takes the exam's real challenge seriously: it's less about calculation and more about saying clearly what the data <strong>mean</strong>. We teach the concepts behind sampling, probability and inference so they actually make sense, then train the free-response interpretation that AP readers reward. <strong><span data-price="coding.international.personal">$150</span> a month</strong>, eight live classes, two a week.</p>
     <div class="mp-cta-row">
-      <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book a free trial session</button>
+      <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-ap-statistics-tutoring-online">Book a Priority Demo</a>
       <a href="/courses/data-analytics-mathematics-masterclass" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">See the data course</a>
     </div>
     <div class="mp-trust">
       <div class="item"><span class="v">4.9<span class="u">/5</span></span><span class="l">Learner rating · 547 Google reviews</span></div>
       <div class="item"><span class="v">Inference</span><span class="l">p-values &amp; intervals made clear</span></div>
       <div class="item"><span class="v">FRQ</span><span class="l">Interpretation language trained</span></div>
-      <div class="item"><span class="v"><span data-price="coding.international.personal">$150</span><span class="u">/mo</span></span><span class="l">8 live sessions · cancel any time</span></div>
+      <div class="item"><span class="v"><span data-price="coding.international.personal">$150</span><span class="u">/mo</span></span><span class="l">1-on-1 plan · cancel any time</span></div>
     </div>
   </div>
 </header>
@@ -313,12 +313,12 @@
         <h3>1:1 Private Mentorship</h3>
         <p class="amt"><span data-price="coding.international.personal">$150</span><span> / month</span></p>
         <ul>
-          <li>8 live one-to-one sessions a month (2 per week, 1 hour each)</li>
+          <li data-intl-default="true">8 live one-to-one sessions a month (2 per week, 1 hour each)</li><li data-india-reveal="true" hidden>4 live one-to-one sessions a month (1 per week, 1 hour each)</li>
           <li>The same mentor through the whole course</li>
           <li>Concept rebuilt, then FRQ writing trained</li>
           <li>Released AP material · cancel any time</li>
         </ul>
-        <button type="button" class="mp-btn mp-btn-primary mp-mt" onclick="openCallbackModal()">Book a free trial</button>
+        <a class="mp-btn mp-btn-primary mp-mt" href="/priority-demo" data-pd-book="mp-ap-statistics-tutoring-online">Book a Priority Demo</a>
       </div>
       <div class="mp-price">
         <h3>Small-Group Cohort</h3>
@@ -385,8 +385,8 @@
       <details><summary>Is AP Stats more about writing than calculating?</summary><div class="a"><p>Largely yes, the points come from clear interpretation in context. We train that writing directly, because the calculator does the arithmetic.</p></div></details>
       <details><summary>Can you finally explain p-values clearly?</summary><div class="a"><p>Yes, a p-value is the probability of data at least this extreme if the null were true, not the probability the hypothesis is true. We make the difference concrete.</p></div></details>
       <details><summary>Is the tutoring aligned with the College Board CED?</summary><div class="a"><p>Yes, official units and skills, the exam's interpretation language, both multiple-choice and free-response including the investigative task.</p></div></details>
-      <details><summary>How much does it cost?</summary><div class="a"><p>USD 150 per month for private 1:1, eight live sessions, two each week. Small-group option USD 100 per month. No contract; cancel any time.</p></div></details>
-      <details><summary>Is there a free trial?</summary><div class="a"><p>Yes, the first session is free, no card needed. We see which units and FRQ skills need work.</p></div></details>
+      <details><summary>How much does it cost?</summary><div class="a"><p>The fees for private 1-on-1 and small-group classes are shown in your own currency in the <a href="#pricing">pricing section</a> of this page. Billing is monthly, there is no contract and you can cancel any time.</p></div></details>
+      <details><summary>Can we try a class before enrolling?</summary><div class="a"><p>Yes. <a href="/priority-demo" data-pd-book="mp-faq-ap-statistics-tutoring-online">Book a Priority Demo</a>: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.</p></div></details>
       <details><summary>Will my student keep the same tutor?</summary><div class="a"><p>Yes, one mentor through the course, ramping into FRQ practice before May.</p></div></details>
       <details><summary>Do you train the free-response and investigative task?</summary><div class="a"><p>Yes, using released exams to drill the structure and language readers reward, including the investigative task.</p></div></details>
       <details><summary>Are sessions live?</summary><div class="a"><p>Yes, live, one-to-one, with a shared whiteboard.</p></div></details>

@@ -87,8 +87,8 @@
             { "@type": "Question", "name": "Can you prepare my child for the Year 6 SATs?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We prepare for both the arithmetic paper and the two reasoning papers, but by building genuine fluency and problem-solving rather than teaching narrowly to the test, which is what actually performs under pressure and carries into secondary school." } },
             { "@type": "Question", "name": "Is it aligned with the national curriculum?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We follow the KS2 national curriculum strands, number and place value, the four operations, fractions, measurement, geometry and statistics, and teach the understanding underneath each, not just the procedure." } },
             { "@type": "Question", "name": "My child has fallen behind in maths. Can you help them catch up?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. This is most of what we do. We find the earlier idea that's actually missing and rebuild from there, so the current year's work stops feeling impossible. Catching up calmly is far more effective than rushing." } },
-            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "USD 150 per month for private 1:1 tuition, eight live lessons, two each week. A small-group option is USD 100 per month for the same eight lessons. No contract; cancel any time." } },
-            { "@type": "Question", "name": "Is there a free trial?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The first lesson is free. You and your child meet the tutor, we see where your child is, and you decide afterward, no card needed to book." } },
+            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time." } },
+            { "@type": "Question", "name": "Can we try a class before enrolling?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee." } },
             { "@type": "Question", "name": "Will my child have the same tutor?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. One tutor stays with your child, which matters at this age, children build trust before they'll risk a hard problem, and that trust needs a familiar face." } },
             { "@type": "Question", "name": "Are lessons live?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, live, one-to-one, with a shared whiteboard. A real tutor can spot the moment a child goes quiet because they're lost, and stop to fix it, a recording can't." } },
             { "@type": "Question", "name": "Do lessons fit around school?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. After-school, early-evening and weekend slots in UK time (GMT/BST). You choose two weekly times that suit your family." } },
@@ -105,7 +105,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/maths-pages.css">
+    <link rel="stylesheet" href="/css/maths-pages.css?v=20260928">
 <!-- mac-org-ld -->
 <script type="application/ld+json">
 {
@@ -162,7 +162,7 @@
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
-    <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Book a free trial</button>
+    <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-ks2-maths-tuition-online">Book a Priority Demo</a>
   </div>
 </nav>
 
@@ -171,16 +171,16 @@
   <div class="mp-wrap">
     <span class="mp-pill"><span class="dot"></span>Live 1:1 · Years 3–6 · Year 6 SATs · UK time</span>
     <h1>KS2 maths tuition online: <span class="grad">understanding that lasts past the SATs.</span></h1>
-    <p class="mp-lede">One-to-one maths for Years 3 to 6. We don't teach narrowly to the SATs and watch it fade. We build the real understanding behind the national curriculum, long division, fractions, reasoning, so your child performs in the Year 6 papers <strong>and</strong> walks into secondary school genuinely strong. <strong>USD 150 a month</strong>, eight live lessons, two a week, the same tutor throughout.</p>
+    <p class="mp-lede">One-to-one maths for Years 3 to 6. We don't teach narrowly to the SATs and watch it fade. We build the real understanding behind the national curriculum, long division, fractions, reasoning, so your child performs in the Year 6 papers <strong>and</strong> walks into secondary school genuinely strong. Live one-hour lessons, billed monthly (<a href="#pricing">see the plans in your currency</a>), the same tutor throughout.</p>
     <div class="mp-cta-row">
-      <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book a free trial lesson</button>
+      <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-ks2-maths-tuition-online">Book a Priority Demo</a>
       <a href="/courses/elementary-mathematics-complete-masterclass" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">See the primary course</a>
     </div>
     <div class="mp-trust">
       <div class="item"><span class="v">4.9<span class="u">/5</span></span><span class="l">Parent &amp; learner rating · 547 Google reviews</span></div>
       <div class="item"><span class="v">Yr 3–6</span><span class="l">KS2 · arithmetic &amp; reasoning</span></div>
       <div class="item"><span class="v">1:1</span><span class="l">Same tutor every lesson</span></div>
-      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">8 live lessons · cancel any time</span></div>
+      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">1-on-1 plan · cancel any time</span></div>
     </div>
   </div>
 </header>
@@ -313,12 +313,12 @@
         <h3>1:1 Private Tuition</h3>
         <p class="amt"><span data-price="maths.international.personal">$150</span><span> / month</span></p>
         <ul>
-          <li>8 live one-to-one lessons a month (2 per week, 1 hour each)</li>
+          <li data-intl-default="true">8 live one-to-one lessons a month (2 per week, 1 hour each)</li><li data-india-reveal="true" hidden>4 live one-to-one lessons a month (1 per week, 1 hour each)</li>
           <li>The same dedicated tutor throughout</li>
           <li>National curriculum &amp; Year 6 SATs ready</li>
           <li>Notes after every lesson · cancel any time</li>
         </ul>
-        <button type="button" class="mp-btn mp-btn-primary mp-mt" onclick="openCallbackModal()">Book a free trial</button>
+        <a class="mp-btn mp-btn-primary mp-mt" href="/priority-demo" data-pd-book="mp-ks2-maths-tuition-online">Book a Priority Demo</a>
       </div>
       <div class="mp-price">
         <h3>Small-Group Cohort</h3>
@@ -385,8 +385,8 @@
       <details><summary>Can you prepare my child for the Year 6 SATs?</summary><div class="a"><p>Yes, the arithmetic and both reasoning papers, by building genuine fluency and problem-solving rather than teaching narrowly to the test.</p></div></details>
       <details><summary>Is it aligned with the national curriculum?</summary><div class="a"><p>Yes, all the KS2 strands, taught for the understanding underneath each.</p></div></details>
       <details><summary>My child has fallen behind in maths. Can you help them catch up?</summary><div class="a"><p>Yes. We find the earlier missing idea and rebuild from there, so the current year stops feeling impossible.</p></div></details>
-      <details><summary>How much does it cost?</summary><div class="a"><p>USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.</p></div></details>
-      <details><summary>Is there a free trial?</summary><div class="a"><p>Yes, the first lesson is free, no card needed.</p></div></details>
+      <details><summary>How much does it cost?</summary><div class="a"><p>The fees for private 1-on-1 and small-group classes are shown in your own currency in the <a href="#pricing">pricing section</a> of this page. Billing is monthly, there is no contract and you can cancel any time.</p></div></details>
+      <details><summary>Can we try a class before enrolling?</summary><div class="a"><p>Yes. <a href="/priority-demo" data-pd-book="mp-faq-ks2-maths-tuition-online">Book a Priority Demo</a>: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.</p></div></details>
       <details><summary>Will my child have the same tutor?</summary><div class="a"><p>Yes, one tutor throughout, so trust builds.</p></div></details>
       <details><summary>Are lessons live?</summary><div class="a"><p>Yes, live, one-to-one, with a shared whiteboard.</p></div></details>
       <details><summary>Do lessons fit around school?</summary><div class="a"><p>Yes, after-school, early-evening and weekend slots in UK time (GMT/BST).</p></div></details>

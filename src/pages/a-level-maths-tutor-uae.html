@@ -90,8 +90,8 @@
             { "@type": "Question", "name": "The jump from IGCSE to A-Level floored my child. Is that normal?", "acceptedAnswer": { "@type": "Answer", "text": "Completely normal. It's the steepest step in the British curriculum. A-Level expects algebraic fluency and reasoning that IGCSE didn't, so even strong students struggle at first. We rebuild that fluency and teach the new abstraction properly, which is usually all it takes." } },
             { "@type": "Question", "name": "Can you help me get an A or A*?", "acceptedAnswer": { "@type": "Answer", "text": "The top grades come from genuine understanding plus fluency under time pressure on the harder, unseen questions. We build both, though the result depends on your starting point and the work you put in. We won't promise a grade." } },
             { "@type": "Question", "name": "Do you cover mechanics and statistics, not just pure?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, all three. Many students are strong in pure but lose marks in mechanics or statistics; we make sure the applied content is as solid as the pure." } },
-            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "USD 150 per month for private 1:1 tutoring, eight live sessions, two each week. A small-group option is USD 100 per month. No contract; cancel any time." } },
-            { "@type": "Question", "name": "Is the first session free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The first session is free. We look at your specification and where you're stuck, build a plan, and you decide afterward. No card needed to book." } },
+            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time." } },
+            { "@type": "Question", "name": "Can we try a class before enrolling?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee." } },
             { "@type": "Question", "name": "Do you prepare for STEP, MAT or university admissions maths?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. For students aiming at the most competitive UK and global universities, we coach STEP and MAT-style problem solving alongside A-Level." } },
             { "@type": "Question", "name": "What times are lessons available?", "acceptedAnswer": { "@type": "Answer", "text": "Evening and weekend slots in Gulf Standard Time (UTC+4), around sixth-form schedules and ramping up before mock and summer exams. You choose two weekly times." } }
           ]
@@ -104,7 +104,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700;800&family=Lora:wght@500;600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/maths-pages.css">
+    <link rel="stylesheet" href="/css/maths-pages.css?v=20260928">
 <!-- mac-org-ld -->
 <script type="application/ld+json">
 {
@@ -161,7 +161,7 @@
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
-    <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Book a free trial</button>
+    <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-a-level-maths-tutor-uae">Book a Priority Demo</a>
   </div>
 </nav>
 
@@ -172,14 +172,14 @@
     <h1>A-Level maths tutor in the UAE: <span class="grad">depth that survives the exam.</span></h1>
     <p class="mp-lede">For British-curriculum sixth-formers across the UAE, A-Level maths is a steep climb. It stops rewarding memorised methods and starts demanding fluency and real reasoning. We rebuild that fluency and teach the concepts so you can tackle the unfamiliar questions A-Level is built around, across pure, mechanics and statistics, on every board used here. <strong>USD 150 a month</strong>, eight live sessions, in Gulf Standard Time.</p>
     <div class="mp-cta-row">
-      <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book a free trial session</button>
+      <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-a-level-maths-tutor-uae">Book a Priority Demo</a>
       <a href="/courses/college-mathematics-complete-masterclass" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">See the advanced course</a>
     </div>
     <div class="mp-trust">
       <div class="item"><span class="v">4.9<span class="u">/5</span></span><span class="l">Learner rating · 547 Google reviews</span></div>
       <div class="item"><span class="v">P · M · S</span><span class="l">Pure, mechanics &amp; statistics</span></div>
       <div class="item"><span class="v">1:1</span><span class="l">Same tutor · your specification</span></div>
-      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l"> · 8 live sessions</span></div>
+      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">1-on-1 plan · cancel any time</span></div>
     </div>
   </div>
 </header>
@@ -324,12 +324,12 @@
         <h3>1:1 Private Tuition</h3>
         <p class="amt"><span data-price="maths.international.personal">$150</span><span> / month</span></p>
         <ul>
-          <li>8 live one-to-one sessions a month (2 per week, 1 hour each)</li>
+          <li data-intl-default="true">8 live one-to-one sessions a month (2 per week, 1 hour each)</li><li data-india-reveal="true" hidden>4 live one-to-one sessions a month (1 per week, 1 hour each)</li>
           <li>The same tutor through to the exam</li>
           <li>Taught to your board across pure, mechanics &amp; stats</li>
           <li>Past papers &amp; technique · cancel any time</li>
         </ul>
-        <button type="button" class="mp-btn mp-btn-primary mp-mt" onclick="openCallbackModal()">Book a free trial</button>
+        <a class="mp-btn mp-btn-primary mp-mt" href="/priority-demo" data-pd-book="mp-a-level-maths-tutor-uae">Book a Priority Demo</a>
       </div>
       <div class="mp-price">
         <h3>Small-Group Cohort</h3>
@@ -396,8 +396,8 @@
       <details><summary>The jump from IGCSE to A-Level floored my child. Is that normal?</summary><div class="a"><p>Completely, the steepest step in the British curriculum. We rebuild the fluency and teach the new abstraction properly.</p></div></details>
       <details><summary>Can you help me get an A or A*?</summary><div class="a"><p>The top grades come from understanding plus fluency on unseen questions. We build both; the result depends on effort.</p></div></details>
       <details><summary>Do you cover mechanics and statistics, not just pure?</summary><div class="a"><p>Yes, all three strands, with the applied content as solid as the pure.</p></div></details>
-      <details><summary>How much does it cost?</summary><div class="a"><p>USD 150/month for 1:1, eight live sessions, two a week. Small-group option USD 100/month. No contract.</p></div></details>
-      <details><summary>Is the first session free?</summary><div class="a"><p>Yes, no card needed.</p></div></details>
+      <details><summary>How much does it cost?</summary><div class="a"><p>The fees for private 1-on-1 and small-group classes are shown in your own currency in the <a href="#pricing">pricing section</a> of this page. Billing is monthly, there is no contract and you can cancel any time.</p></div></details>
+      <details><summary>Can we try a class before enrolling?</summary><div class="a"><p>Yes. <a href="/priority-demo" data-pd-book="mp-faq-a-level-maths-tutor-uae">Book a Priority Demo</a>: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.</p></div></details>
       <details><summary>Do you prepare for STEP, MAT or university admissions maths?</summary><div class="a"><p>Yes: STEP and MAT-style problem solving alongside A-Level.</p></div></details>
       <details><summary>What times are lessons available?</summary><div class="a"><p>Evening and weekend slots in Gulf Standard Time (UTC+4), ramping up before exams.</p></div></details>
     </div>

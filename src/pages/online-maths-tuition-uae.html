@@ -87,8 +87,8 @@
           "mainEntity": [
             { "@type": "Question", "name": "Do you teach maths for UAE schools and curricula?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We tutor every major curriculum taught in the UAE: British (GCSE and A-Level), American (with SAT and AP), the International Baccalaureate (Maths AA and AI), Indian CBSE and ICSE, and the UAE Ministry of Education curriculum. We teach to your child's actual school and syllabus." } },
             { "@type": "Question", "name": "Which emirates do you cover?", "acceptedAnswer": { "@type": "Answer", "text": "All of them. Because tuition is fully online, we teach students in Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah and Umm Al Quwain, as well as across the wider GCC. Lessons run in Gulf Standard Time (GST)." } },
-            { "@type": "Question", "name": "How much does maths tuition cost in the UAE?", "acceptedAnswer": { "@type": "Answer", "text": "USD 150 per month, roughly AED 550, for private 1:1 tuition: eight live lessons, two each week. A small-group option is USD 100 per month for the same eight lessons. There is no contract and you can cancel any time." } },
-            { "@type": "Question", "name": "Is the first lesson free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The first lesson is free. You meet the tutor, we assess where your child is and which curriculum they follow, and you decide afterward, no card needed to book." } },
+            { "@type": "Question", "name": "How much does maths tuition cost in the UAE?", "acceptedAnswer": { "@type": "Answer", "text": "The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time." } },
+            { "@type": "Question", "name": "Can we try a class before enrolling?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee." } },
             { "@type": "Question", "name": "Are the lessons live or recorded?", "acceptedAnswer": { "@type": "Answer", "text": "Every lesson is live and one-to-one with a real tutor, on a shared online whiteboard. A recording cannot notice the moment a student gets quietly stuck; a live tutor can, and stops to fix it." } },
             { "@type": "Question", "name": "What times are lessons available in the UAE?", "acceptedAnswer": { "@type": "Answer", "text": "We offer after-school, evening and weekend slots in Gulf Standard Time (GST, UTC+4), built around the UAE school week. You choose two weekly times that suit your family." } },
             { "@type": "Question", "name": "What makes Modern Age Coders different from other maths tutors in the UAE?", "acceptedAnswer": { "@type": "Answer", "text": "We teach the reasoning behind the maths rather than tricks to memorise, we keep the same dedicated tutor for each student, and as a coding school we link maths to computational thinking. Many UAE families also value that one provider can cover whichever curriculum their child follows." } },
@@ -103,7 +103,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/maths-pages.css">
+    <link rel="stylesheet" href="/css/maths-pages.css?v=20260928">
 <!-- mac-org-ld -->
 <script type="application/ld+json">
 {
@@ -160,7 +160,7 @@
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
-    <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Book a free trial</button>
+    <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-online-maths-tuition-uae">Book a Priority Demo</a>
   </div>
 </nav>
 
@@ -171,14 +171,14 @@
     <h1>Online maths tuition in the UAE: <span class="grad">for every curriculum, taught to understand.</span></h1>
     <p class="mp-lede">The UAE's classrooms run on British, American, IB, CBSE and MOE curricula side by side, and Modern Age Coders teaches maths across all of them, one to one, online. We don't drill tricks to memorise; we build the reasoning underneath the maths so it holds up in exams and beyond. Same dedicated tutor, lessons in your time zone, <strong>USD 150 a month</strong>, eight live classes.</p>
     <div class="mp-cta-row">
-      <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book a free trial lesson</button>
+      <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-online-maths-tuition-uae">Book a Priority Demo</a>
       <a href="/courses" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">Explore the maths courses</a>
     </div>
     <div class="mp-trust">
       <div class="item"><span class="v">4.9<span class="u">/5</span></span><span class="l">Parent &amp; learner rating · 547 Google reviews</span></div>
       <div class="item"><span class="v">5+</span><span class="l">Curricula: British, American, IB, CBSE, MOE</span></div>
       <div class="item"><span class="v">7</span><span class="l">Emirates covered · online, GST</span></div>
-      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l"> · 8 live classes</span></div>
+      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">1-on-1 plan · cancel any time</span></div>
     </div>
   </div>
 </header>
@@ -322,12 +322,12 @@
         <h3>1:1 Private Tuition</h3>
         <p class="amt"><span data-price="maths.international.personal">$150</span><span> / month</span></p>
         <ul>
-          <li>8 live one-to-one lessons a month (2 per week, 1 hour each)</li>
+          <li data-intl-default="true">8 live one-to-one lessons a month (2 per week, 1 hour each)</li><li data-india-reveal="true" hidden>4 live one-to-one lessons a month (1 per week, 1 hour each)</li>
           <li>The same dedicated, curriculum-matched tutor</li>
           <li>Taught to your child's school &amp; syllabus</li>
           <li>Notes after every lesson · cancel any time</li>
         </ul>
-        <button type="button" class="mp-btn mp-btn-primary mp-mt" onclick="openCallbackModal()">Book a free trial</button>
+        <a class="mp-btn mp-btn-primary mp-mt" href="/priority-demo" data-pd-book="mp-online-maths-tuition-uae">Book a Priority Demo</a>
       </div>
       <div class="mp-price">
         <h3>Small-Group Cohort</h3>
@@ -392,8 +392,8 @@
     <div class="mp-faq mp-mt">
       <details open><summary>Do you teach maths for UAE schools and curricula?</summary><div class="a"><p>Yes: British (GCSE and A-Level), American (with SAT and AP), IB (Maths AA and AI), Indian CBSE and ICSE, and the UAE Ministry of Education curriculum. We teach to your child's actual school and syllabus.</p></div></details>
       <details><summary>Which emirates do you cover?</summary><div class="a"><p>All of them, Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah and Umm Al Quwain, because tuition is fully online, in Gulf Standard Time.</p></div></details>
-      <details><summary>How much does maths tuition cost in the UAE?</summary><div class="a"><p>USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.</p></div></details>
-      <details><summary>Is the first lesson free?</summary><div class="a"><p>Yes, the first lesson is free, with no card needed to book. You meet the tutor and we assess your child and curriculum.</p></div></details>
+      <details><summary>How much does maths tuition cost in the UAE?</summary><div class="a"><p>The fees for private 1-on-1 and small-group classes are shown in your own currency in the <a href="#pricing">pricing section</a> of this page. Billing is monthly, there is no contract and you can cancel any time.</p></div></details>
+      <details><summary>Can we try a class before enrolling?</summary><div class="a"><p>Yes. <a href="/priority-demo" data-pd-book="mp-faq-online-maths-tuition-uae">Book a Priority Demo</a>: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.</p></div></details>
       <details><summary>Are the lessons live or recorded?</summary><div class="a"><p>Every lesson is live and one-to-one with a real tutor on a shared whiteboard.</p></div></details>
       <details><summary>What times are lessons available in the UAE?</summary><div class="a"><p>After-school, evening and weekend slots in Gulf Standard Time (UTC+4), around the UAE school week.</p></div></details>
       <details><summary>What makes Modern Age Coders different from other maths tutors in the UAE?</summary><div class="a"><p>We teach reasoning rather than tricks, keep the same dedicated tutor, cover every UAE curriculum, and as a coding school we link maths to computational thinking.</p></div></details>

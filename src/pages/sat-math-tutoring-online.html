@@ -87,8 +87,8 @@
             { "@type": "Question", "name": "Which SAT math topics do you cover?", "acceptedAnswer": { "@type": "Answer", "text": "All of them: Heart of Algebra (linear equations and systems), Problem Solving and Data Analysis (ratios, percentages, statistics, graph reading), Passport to Advanced Math (quadratics, exponentials, functions) and the geometry, trigonometry and complex-number topics in the Additional Topics group." } },
             { "@type": "Question", "name": "How much can you raise my SAT math score?", "acceptedAnswer": { "@type": "Answer", "text": "Honestly, it depends on your starting point, how much time you have, and the practice you do between sessions. Students who genuinely fix their algebra gaps and then drill timing usually see a meaningful jump over a couple of months. We won't promise a specific number, anyone who does is guessing." } },
             { "@type": "Question", "name": "When should my child start SAT prep?", "acceptedAnswer": { "@type": "Answer", "text": "A common rhythm is to start two to four months before a test date, often in the spring of junior year or the summer before senior year. If algebra foundations are weak, starting earlier and going slower gives a better result than a last-minute cram." } },
-            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "USD 150 per month for private 1:1 tutoring, eight live sessions, two each week. A small-group option is USD 100 per month for the same eight classes. No contract; cancel any time." } },
-            { "@type": "Question", "name": "Is there a free trial?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The first session is free. We look at a recent practice score or run a quick diagnostic, then build a plan, and you decide afterward, no card needed to book." } },
+            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time." } },
+            { "@type": "Question", "name": "Can we try a class before enrolling?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee." } },
             { "@type": "Question", "name": "Will my child have the same tutor throughout?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. One mentor tracks your child's score, their recurring mistakes and their pacing across the whole prep, which is what makes the plan get sharper over time." } },
             { "@type": "Question", "name": "Do you use real practice tests?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We work from official College Board practice material and review every missed question to find whether it was a knowledge gap, a careless error or a timing problem, each of which needs a different fix." } },
             { "@type": "Question", "name": "Are sessions live?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, live, one-to-one, with a shared whiteboard. Reviewing a wrong answer in real time, where the mentor can ask 'what were you thinking here?', is where the score actually moves." } },
@@ -105,7 +105,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/maths-pages.css">
+    <link rel="stylesheet" href="/css/maths-pages.css?v=20260928">
 <!-- mac-org-ld -->
 <script type="application/ld+json">
 {
@@ -162,7 +162,7 @@
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
-    <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Book a free trial</button>
+    <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-sat-math-tutoring-online">Book a Priority Demo</a>
   </div>
 </nav>
 
@@ -173,14 +173,14 @@
     <h1>SAT Math tutoring online: <span class="grad">built for the score, not the panic.</span></h1>
     <p class="mp-lede">One-to-one prep for the Digital SAT math section. We don't just hand you 500 practice questions and wish you luck. We rebuild the algebra and data reasoning the test is actually checking, then train the pacing, the Desmos shortcuts and the specific traps that cost careful students points. <strong><span data-price="maths.international.personal">$150</span> a month</strong>, eight live classes, two a week.</p>
     <div class="mp-cta-row">
-      <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book a free trial session</button>
+      <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-sat-math-tutoring-online">Book a Priority Demo</a>
       <a href="/courses/complete-high-school-mathematics-mastery" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">See the high-school course</a>
     </div>
     <div class="mp-trust">
       <div class="item"><span class="v">4.9<span class="u">/5</span></span><span class="l">Learner rating · 547 Google reviews</span></div>
       <div class="item"><span class="v">Digital</span><span class="l">Bluebook format · Desmos technique</span></div>
       <div class="item"><span class="v">1:1</span><span class="l">Same mentor tracks your score</span></div>
-      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">8 live sessions · cancel any time</span></div>
+      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">1-on-1 plan · cancel any time</span></div>
     </div>
   </div>
 </header>
@@ -313,12 +313,12 @@
         <h3>1:1 Private Mentorship</h3>
         <p class="amt"><span data-price="maths.international.personal">$150</span><span> / month</span></p>
         <ul>
-          <li>8 live one-to-one sessions a month (2 per week, 1 hour each)</li>
+          <li data-intl-default="true">8 live one-to-one sessions a month (2 per week, 1 hour each)</li><li data-india-reveal="true" hidden>4 live one-to-one sessions a month (1 per week, 1 hour each)</li>
           <li>The same mentor tracking your score throughout</li>
           <li>A diagnostic-led plan, not a question dump</li>
           <li>Official practice material · cancel any time</li>
         </ul>
-        <button type="button" class="mp-btn mp-btn-primary mp-mt" onclick="openCallbackModal()">Book a free trial</button>
+        <a class="mp-btn mp-btn-primary mp-mt" href="/priority-demo" data-pd-book="mp-sat-math-tutoring-online">Book a Priority Demo</a>
       </div>
       <div class="mp-price">
         <h3>Small-Group Cohort</h3>
@@ -385,8 +385,8 @@
       <details><summary>Which SAT math topics do you cover?</summary><div class="a"><p>All of them: Heart of Algebra, Problem Solving and Data Analysis, Passport to Advanced Math, and the geometry, trigonometry and complex-number Additional Topics.</p></div></details>
       <details><summary>How much can you raise my SAT math score?</summary><div class="a"><p>It depends on your starting point, time and practice. Students who fix their algebra gaps and then drill timing usually see a meaningful jump over a couple of months. We won't promise a specific number.</p></div></details>
       <details><summary>When should my child start SAT prep?</summary><div class="a"><p>Often two to four months before a test date, spring of junior year or the summer before senior year. Weak foundations mean starting earlier and going slower beats a last-minute cram.</p></div></details>
-      <details><summary>How much does it cost?</summary><div class="a"><p>USD 150 per month for private 1:1, eight live sessions, two each week. Small-group option USD 100 per month. No contract; cancel any time.</p></div></details>
-      <details><summary>Is there a free trial?</summary><div class="a"><p>Yes, the first session is free, no card needed. We review a recent score or run a quick diagnostic and build a plan.</p></div></details>
+      <details><summary>How much does it cost?</summary><div class="a"><p>The fees for private 1-on-1 and small-group classes are shown in your own currency in the <a href="#pricing">pricing section</a> of this page. Billing is monthly, there is no contract and you can cancel any time.</p></div></details>
+      <details><summary>Can we try a class before enrolling?</summary><div class="a"><p>Yes. <a href="/priority-demo" data-pd-book="mp-faq-sat-math-tutoring-online">Book a Priority Demo</a>: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.</p></div></details>
       <details><summary>Will my child have the same tutor throughout?</summary><div class="a"><p>Yes, one mentor tracks the score, recurring mistakes and pacing across the whole prep.</p></div></details>
       <details><summary>Do you use real practice tests?</summary><div class="a"><p>Yes, official College Board material, with every miss reviewed as a gap, a slip or a timing problem.</p></div></details>
       <details><summary>Are sessions live?</summary><div class="a"><p>Yes, live, one-to-one, with a shared whiteboard. Reviewing wrong answers in real time is where the score moves.</p></div></details>

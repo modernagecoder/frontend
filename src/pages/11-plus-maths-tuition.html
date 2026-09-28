@@ -87,8 +87,8 @@
             { "@type": "Question", "name": "When should we start 11+ maths prep?", "acceptedAnswer": { "@type": "Answer", "text": "Starting in Year 4 or early Year 5 gives the calmest, most effective preparation, time to build genuine fluency and reasoning before adding exam technique. We also help families who start later, and we're honest about what's achievable in the time left." } },
             { "@type": "Question", "name": "Isn't 11+ prep just drilling past papers?", "acceptedAnswer": { "@type": "Answer", "text": "Drilling alone produces brittle results, children who freeze on an unfamiliar question. The 11+ rewards quick, flexible reasoning, so we build real number fluency and problem-solving first, then layer on timed practice. That's what holds up under exam pressure." } },
             { "@type": "Question", "name": "My child gets anxious about the timing. Can you help?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, and it's common. We build speed gradually on a foundation of understanding, and teach calm strategies, what to attempt first, when to move on, so the clock stops being frightening. One-to-one means we can go at exactly your child's pace." } },
-            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "USD 150 per month for private 1:1 tuition, eight live lessons, two each week. A small-group option is USD 100 per month for the same eight lessons. No contract; cancel any time." } },
-            { "@type": "Question", "name": "Is there a free trial?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The first lesson is free. We assess your child's current level and the exams they're targeting, then build a plan, no card needed to book." } },
+            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time." } },
+            { "@type": "Question", "name": "Can we try a class before enrolling?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee." } },
             { "@type": "Question", "name": "Will my child keep the same tutor?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. One tutor builds a relationship and a steady plan toward the exam date, knowing exactly which question types your child still finds hard." } },
             { "@type": "Question", "name": "Are lessons live?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, live, one-to-one, with a shared whiteboard. For this age, a real tutor who can spot a flicker of confusion and adjust immediately makes all the difference." } },
             { "@type": "Question", "name": "Does this also help with school maths?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The fluency and reasoning we build for the 11+ strengthen your child's KS2 school maths at the same time. It isn't separate, narrow exam coaching." } },
@@ -105,7 +105,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/maths-pages.css">
+    <link rel="stylesheet" href="/css/maths-pages.css?v=20260928">
 <!-- mac-org-ld -->
 <script type="application/ld+json">
 {
@@ -162,7 +162,7 @@
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
-    <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Book a free trial</button>
+    <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-11-plus-maths-tuition">Book a Priority Demo</a>
   </div>
 </nav>
 
@@ -171,16 +171,16 @@
   <div class="mp-wrap">
     <span class="mp-pill"><span class="dot"></span>Live 1:1 · GL &amp; CEM · grammar &amp; independent entry</span>
     <h1>11 Plus maths tuition online: <span class="grad">reasoning, not just drilling.</span></h1>
-    <p class="mp-lede">One-to-one 11+ maths for GL and CEM-style exams. The 11+ rewards quick, flexible thinking under time pressure, which past-paper drilling alone never builds. We grow real number fluency and problem-solving first, so your child can handle an unfamiliar question, then add the timed technique the exam demands. <strong>USD 150 a month</strong>, eight live lessons, two a week, one steady tutor to the exam.</p>
+    <p class="mp-lede">One-to-one 11+ maths for GL and CEM-style exams. The 11+ rewards quick, flexible thinking under time pressure, which past-paper drilling alone never builds. We grow real number fluency and problem-solving first, so your child can handle an unfamiliar question, then add the timed technique the exam demands. Live one-hour lessons, billed monthly (<a href="#pricing">see the plans in your currency</a>), one steady tutor to the exam.</p>
     <div class="mp-cta-row">
-      <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book a free trial lesson</button>
+      <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-11-plus-maths-tuition">Book a Priority Demo</a>
       <a href="/courses/elementary-mathematics-complete-masterclass" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">See the primary course</a>
     </div>
     <div class="mp-trust">
       <div class="item"><span class="v">4.9<span class="u">/5</span></span><span class="l">Parent &amp; learner rating · 547 Google reviews</span></div>
       <div class="item"><span class="v">GL · CEM</span><span class="l">And school-specific papers</span></div>
       <div class="item"><span class="v">1:1</span><span class="l">Same tutor to the exam</span></div>
-      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">8 live lessons · cancel any time</span></div>
+      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">1-on-1 plan · cancel any time</span></div>
     </div>
   </div>
 </header>
@@ -313,12 +313,12 @@
         <h3>1:1 Private Tuition</h3>
         <p class="amt"><span data-price="maths.international.personal">$150</span><span> / month</span></p>
         <ul>
-          <li>8 live one-to-one lessons a month (2 per week, 1 hour each)</li>
+          <li data-intl-default="true">8 live one-to-one lessons a month (2 per week, 1 hour each)</li><li data-india-reveal="true" hidden>4 live one-to-one lessons a month (1 per week, 1 hour each)</li>
           <li>The same dedicated tutor to the exam</li>
           <li>Tailored to GL, CEM or your target schools</li>
           <li>Notes after every lesson · cancel any time</li>
         </ul>
-        <button type="button" class="mp-btn mp-btn-primary mp-mt" onclick="openCallbackModal()">Book a free trial</button>
+        <a class="mp-btn mp-btn-primary mp-mt" href="/priority-demo" data-pd-book="mp-11-plus-maths-tuition">Book a Priority Demo</a>
       </div>
       <div class="mp-price">
         <h3>Small-Group Cohort</h3>
@@ -385,8 +385,8 @@
       <details><summary>When should we start 11+ maths prep?</summary><div class="a"><p>Year 4 or early Year 5 gives the calmest, most effective preparation. We also help families who start later, with an honest view of what's achievable.</p></div></details>
       <details><summary>Isn't 11+ prep just drilling past papers?</summary><div class="a"><p>Drilling alone produces brittle results. The 11+ rewards quick, flexible reasoning, so we build fluency and problem-solving first, then layer on timed practice.</p></div></details>
       <details><summary>My child gets anxious about the timing. Can you help?</summary><div class="a"><p>Yes. We build speed gradually on a foundation of understanding and teach calm strategies, going at exactly your child's pace.</p></div></details>
-      <details><summary>How much does it cost?</summary><div class="a"><p>USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.</p></div></details>
-      <details><summary>Is there a free trial?</summary><div class="a"><p>Yes, the first lesson is free, no card needed. We assess your child and the exams they're targeting.</p></div></details>
+      <details><summary>How much does it cost?</summary><div class="a"><p>The fees for private 1-on-1 and small-group classes are shown in your own currency in the <a href="#pricing">pricing section</a> of this page. Billing is monthly, there is no contract and you can cancel any time.</p></div></details>
+      <details><summary>Can we try a class before enrolling?</summary><div class="a"><p>Yes. <a href="/priority-demo" data-pd-book="mp-faq-11-plus-maths-tuition">Book a Priority Demo</a>: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.</p></div></details>
       <details><summary>Will my child keep the same tutor?</summary><div class="a"><p>Yes, one tutor to the exam who knows which question types still need work.</p></div></details>
       <details><summary>Are lessons live?</summary><div class="a"><p>Yes, live, one-to-one, with a shared whiteboard.</p></div></details>
       <details><summary>Does this also help with school maths?</summary><div class="a"><p>Yes, the fluency and reasoning strengthen KS2 school maths at the same time.</p></div></details>

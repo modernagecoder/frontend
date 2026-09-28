@@ -169,15 +169,15 @@
           "name": "How does the cost compare with Singapore tuition centres?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "1-on-1 is USD $150 a month, small group USD $100, both with 8 live one-hour classes and recordings, no registration fee. Singapore centres typically charge SGD 250 to 500 a month for group classes and private tutors SGD 40 to 90 an hour."
+            "text": "The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time. Singapore centres typically charge SGD 250 to 500 a month for group classes and private tutors SGD 40 to 90 an hour."
           }
         },
         {
           "@type": "Question",
-          "name": "Can we try before paying?",
+          "name": "Can we try a class before enrolling?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Every child starts with a free live demo class at a Singapore evening hour that doubles as the diagnostic, no card details, no obligation."
+            "text": "Yes. Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee."
           }
         }
       ]
@@ -190,7 +190,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/maths-pages.css?v=20260708">
+    <link rel="stylesheet" href="/css/maths-pages.css?v=20260928">
 <!-- mac-org-ld -->
 <script type="application/ld+json">
 {
@@ -247,7 +247,7 @@
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
-    <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Book a free demo</button>
+    <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-online-maths-tuition-singapore">Book a Priority Demo</a>
   </div>
 </nav>
 
@@ -258,14 +258,14 @@
     <h1>Online maths tuition for Singapore: <span class="grad">PSLE to A Maths, without the centre queue.</span></h1>
     <p class="mp-lede">Singapore's maths is the world's benchmark, and its exams are the world's most demanding: PSLE problem sums that humble adults, the E Maths and A Maths fork, Achievement Levels that decide postings. Our mentors teach the MOE syllabus the way it was designed to be taught, <strong>one full hour of live, interactive 1-on-1</strong>, twice a week, model method and heuristics native, at times that fit Singapore evenings.</p>
     <div class="mp-cta-row">
-      <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book a free demo class</button>
+      <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-online-maths-tuition-singapore">Book a Priority Demo</a>
       <a href="#system" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">See the exam map</a>
     </div>
     <div class="mp-trust">
       <div class="item"><span class="v">1 hr</span><span class="l">Real teaching, every class</span></div>
       <div class="item"><span class="v">8</span><span class="l">Live classes a month, 2 a week</span></div>
       <div class="item"><span class="v">4.9</span><span class="l">Across 547 Google reviews</span></div>
-      <div class="item"><span class="v">Free</span><span class="l">Demo class, no card needed</span></div>
+      <div class="item"><span class="v">45-60 min</span><span class="l">Priority Demo, today or tomorrow</span></div>
     </div>
   </div>
 </header>
@@ -283,7 +283,7 @@
         <div class="body">
           <h3>PSLE Maths Mastery</h3>
           <p class="desc">Model method as thinking, problem-sum families and Paper 1 fluency, at Singapore evening hours.</p>
-          <div class="meta"><span>P4-P6 &middot; MOE</span><span>8 live classes / month</span><span>Free demo first</span></div>
+          <div class="meta"><span>P4-P6 &middot; MOE</span><span>8 live classes / month</span><span>Priority Demo first</span></div>
           <p class="price"><strong data-price="maths.international.group">$100</strong>/mo group &middot; <strong data-price="maths.international.personal">$150</strong>/mo 1-on-1</p>
           <span class="go">View course &amp; enroll</span>
         </div>
@@ -293,7 +293,7 @@
         <div class="body">
           <h3>Elementary Mathematics Masterclass</h3>
           <p class="desc">Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first.</p>
-          <div class="meta"><span>Grades 1-5</span><span>8 live classes / month</span><span>Free demo first</span></div>
+          <div class="meta"><span>Grades 1-5</span><span>8 live classes / month</span><span>Priority Demo first</span></div>
           <p class="price"><strong data-price="maths.international.group">$100</strong>/mo group &middot; <strong data-price="maths.international.personal">$150</strong>/mo 1-on-1</p>
           <span class="go">View course &amp; enroll</span>
         </div>
@@ -303,14 +303,14 @@
         <div class="body">
           <h3>Olympiad &amp; Competition Mathematics</h3>
           <p class="desc">Contest-level problem solving for the student who wants more than the syllabus.</p>
-          <div class="meta"><span>Ambitious students</span><span>8 live classes / month</span><span>Free demo first</span></div>
+          <div class="meta"><span>Ambitious students</span><span>8 live classes / month</span><span>Priority Demo first</span></div>
           <p class="price"><strong data-price="maths.international.group">$100</strong>/mo group &middot; <strong data-price="maths.international.personal">$150</strong>/mo 1-on-1</p>
           <span class="go">View course &amp; enroll</span>
         </div>
       </a>
     </div>
     <div class="mp-cta-row mp-mt">
-      <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Not sure which fits? Book the free demo</button>
+      <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-online-maths-tuition-singapore">Not sure which fits? Book a Priority Demo</a>
       <a href="#pricing" class="mp-btn mp-btn-ghost" style="border-color:var(--mp-accent);color:var(--mp-accent)">See what is included</a>
     </div>
   </div>
@@ -382,7 +382,7 @@
     </div>
     <p class="mp-mt">Recognize your child? One free demo class, at a Singapore evening hour, shows you exactly what 1-on-1 method teaching changes.</p>
     <div class="mp-cta-row mp-mt">
-      <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Book the free demo</button>
+      <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-online-maths-tuition-singapore">Book a Priority Demo</a>
     </div>
   </div>
 </section>
@@ -445,7 +445,7 @@
     <span class="mp-eyebrow">A typical arc</span>
     <h2>From diagnostic to exam day, mapped.</h2>
     <div class="mp-steps mp-mt">
-      <div class="mp-step"><h3>Class 1 &middot; The free demo diagnostic</h3><p>A real lesson at a Singapore evening hour, plus an audit: model-method depth, Paper 1 fluency, and where the problem sums actually break.</p></div>
+      <div class="mp-step"><h3>Class 1 &middot; The Priority Demo diagnostic</h3><p>A real lesson at a Singapore evening hour, plus an audit: model-method depth, Paper 1 fluency, and where the problem sums actually break.</p></div>
       <div class="mp-step"><h3>Month 1 &middot; The method, rebuilt properly</h3><p>Models re-taught as thinking tools at your child's level, heuristics named and practised, calculator-free fluency started as a habit.</p></div>
       <div class="mp-step"><h3>Months 2-4 &middot; Problem-sum craft</h3><p>The P5/P6 canon, remainders, ratio, percentage, speed, taught by structure family, so new problems look like old friends in disguise.</p></div>
       <div class="mp-step"><h3>Exam runway &middot; Papers and pacing</h3><p>Timed past papers for your child's cohort, mark-scheme discipline, and the calm that comes from having met every question shape before.</p></div>
@@ -528,7 +528,7 @@
           <li>Diagnostic-led plan for your child's level and cohort</li>
           <li>Class recordings for revision &middot; cancel any time</li>
         </ul>
-        <button type="button" class="mp-btn mp-btn-primary mp-mt" onclick="openCallbackModal()">Book the free demo</button>
+        <a class="mp-btn mp-btn-primary mp-mt" href="/priority-demo" data-pd-book="mp-online-maths-tuition-singapore">Book a Priority Demo</a>
       </div>
       <div class="mp-price">
         <h3>Small-Group Class</h3>
@@ -542,7 +542,7 @@
         <a href="/courses/complete-high-school-mathematics-mastery" class="mp-btn mp-btn-ghost mp-mt">See the high school course</a>
       </div>
     </div>
-    <p class="mp-mt mp-center">That is <strong>$18.75 per dedicated hour</strong> of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. <a href="/guarantee">Read our zero-risk promise</a> or compare with <a href="/online-math-tutor-cost">what maths tutoring costs in 2026</a>.</p>
+    <p class="mp-mt mp-center">That is <strong><span data-price="maths.international.personal" data-price-derive="perClass">$18.75</span> per dedicated hour</strong> of 1-on-1 teaching, or <span data-price="maths.international.group" data-price-derive="perClass">$12.50</span> in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. <a href="/guarantee">Read our zero-risk promise</a> or compare with <a href="/online-math-tutor-cost">what maths tutoring costs in 2026</a>.</p>
   </div>
 </section>
 
@@ -606,10 +606,10 @@
       <details><summary>What about PSLE Paper 1, without the calculator?</summary><div class="a"><p>Every class opens with calculator-free arithmetic and estimation at exam tempo, because AL bands are protected one careless mark at a time. Fluency is a habit built in small daily doses, not a cram, and it pays again at secondary when algebraic manipulation needs clean arithmetic underneath.</p></div></details>
       <details><summary>Should my child take A Maths at upper secondary?</summary><div class="a"><p>If H2 Maths, engineering, or computing is even a possibility: yes, because A Maths is the door to them. It punishes weak algebra, which is why we treat lower-secondary algebra as A Maths insurance. And if your child is already in A Maths and struggling, the fix is almost always upstream, in the algebra, not in more A Maths drilling.</p></div></details>
       <details><summary>Is the AL scoring system something you prep for specifically?</summary><div class="a"><p>We prep for understanding first, then exam craft against the actual format: time allocation, presentation of working, and the discipline of banking secure marks before wrestling the hardest problem sums. The AL bands reward consistency, which is a trainable behavior, not a personality trait.</p></div></details>
-      <details><summary>What does it cost, honestly, compared to what we pay now?</summary><div class="a"><p>1-on-1 is USD $150 a month and small group is USD $100, both with 8 live one-hour classes (2 per week) and recordings included, no registration fee, no deposit, cancel any time. Most Singapore families currently pay more for group classes at a centre, and substantially more for private tutoring at SGD 40 to 90 an hour.</p></div></details>
+      <details><summary>What does it cost, honestly, compared to what we pay now?</summary><div class="a"><p>The fees for private 1-on-1 and small-group classes are shown in your own currency in the <a href="#pricing">pricing section</a> of this page. Billing is monthly, there is no contract and you can cancel any time. Most Singapore families currently pay more for group classes at a centre, and substantially more for private tutoring at SGD 40 to 90 an hour.</p></div></details>
       <details><summary>My child is aiming at GEP / DSA / competition maths. Do you go beyond the syllabus?</summary><div class="a"><p>Happily. Mentors extend strong students into olympiad-style problem solving, the same reasoning depth, harder puzzles, through our competition mathematics track. It is also the best preparation for the thinking-heavy questions that top schools use to separate the strong from the drilled.</p></div></details>
       <details><summary>Who teaches, and do they understand Singapore's system?</summary><div class="a"><p>Mentors who teach both mathematics and coding, trained in concrete-pictorial-abstract teaching and briefed on MOE structures, PSLE, Full SBB, E and A Maths, and who verify your child's exact cohort details rather than assuming. Meet the team on our team page, and read our 547 Google reviews.</p></div></details>
-      <details><summary>Can we try before paying anything?</summary><div class="a"><p>Yes. Every child starts with a free live demo class at a Singapore evening hour that doubles as the diagnostic, no card details, no obligation. The promise is written on our guarantee page.</p></div></details>
+      <details><summary>Can we try a class before enrolling?</summary><div class="a"><p>Yes. <a href="/priority-demo" data-pd-book="mp-faq-online-maths-tuition-singapore">Book a Priority Demo</a>: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.</p></div></details>
     </div>
   </div>
 </section>
@@ -637,7 +637,7 @@
       <h2>Watch one full hour of real teaching. Free.</h2>
       <p>Book the demo class at a Singapore evening hour. Your child gets a real lesson with a real mentor, you get a diagnostic against their level and cohort, one full hour, free, and nobody asks for a card. If your child does not leave the hour lighter about maths, walk away with our thanks.</p>
       <div class="mp-cta-row mp-mt">
-        <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book the free demo class</button>
+        <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-online-maths-tuition-singapore">Book a Priority Demo</a>
         <a href="/how-we-teach" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">Watch real classes first</a>
       </div>
     </div>

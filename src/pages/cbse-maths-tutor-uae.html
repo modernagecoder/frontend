@@ -90,8 +90,8 @@
             { "@type": "Question", "name": "Do you prepare for the Class 10 and Class 12 board exams?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We prepare students thoroughly for the CBSE Class 10 and Class 12 maths boards, including the competency-based and case-study questions, by building understanding first, then practising previous-year papers and the exam pattern." } },
             { "@type": "Question", "name": "Is the tutoring NCERT-aligned?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We work from the NCERT textbooks and your child's school approach, and we go beyond rote NCERT solutions to make sure your child genuinely understands each chapter." } },
             { "@type": "Question", "name": "Can you help with Class 11 and 12 maths, calculus, etc.?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We cover the full Class 11 and 12 syllabus, relations and functions, calculus, vectors, probability and more, and can also support competitive-exam foundations like JEE for students heading that way." } },
-            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "USD 150 per month for private 1:1 tuition, eight live sessions, two each week. A small-group option is USD 100 per month. No contract; cancel any time." } },
-            { "@type": "Question", "name": "Is the first session free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The first session is free. We assess your child's class and where they're stuck, build a plan, and you decide afterward. No card needed to book." } },
+            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time." } },
+            { "@type": "Question", "name": "Can we try a class before enrolling?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee." } },
             { "@type": "Question", "name": "Will my child keep the same tutor?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. One tutor who knows the CBSE/ICSE syllabus stays with your child, tracks weak chapters and recurring mistakes, and ramps into board preparation when it counts." } },
             { "@type": "Question", "name": "What times are lessons available?", "acceptedAnswer": { "@type": "Answer", "text": "After-school, evening and weekend slots in Gulf Standard Time (UTC+4), around the UAE Indian-school calendar. You choose two weekly times." } }
           ]
@@ -104,7 +104,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/maths-pages.css">
+    <link rel="stylesheet" href="/css/maths-pages.css?v=20260928">
 <!-- mac-org-ld -->
 <script type="application/ld+json">
 {
@@ -161,7 +161,7 @@
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
-    <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Book a free trial</button>
+    <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-cbse-maths-tutor-uae">Book a Priority Demo</a>
   </div>
 </nav>
 
@@ -172,14 +172,14 @@
     <h1>CBSE maths tutor in the UAE: <span class="grad">board success built on understanding.</span></h1>
     <p class="mp-lede">For the UAE's large Indian community, we offer live one-to-one CBSE and ICSE maths tutoring: Class 6 right through the Class 10 and 12 board exams. We're NCERT-aligned but we go beyond rote solutions: your child understands <em>why</em> each method works, which is what holds up in the boards and the competency-based questions. <strong>USD 150 a month</strong>, eight live sessions, in Gulf Standard Time.</p>
     <div class="mp-cta-row">
-      <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book a free trial session</button>
+      <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-cbse-maths-tutor-uae">Book a Priority Demo</a>
       <a href="/courses/complete-high-school-mathematics-mastery" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">See the maths course</a>
     </div>
     <div class="mp-trust">
       <div class="item"><span class="v">4.9<span class="u">/5</span></span><span class="l">Parent &amp; learner rating · 547 Google reviews</span></div>
       <div class="item"><span class="v">6–12</span><span class="l">CBSE &amp; ICSE · Class 10 &amp; 12 boards</span></div>
       <div class="item"><span class="v">1:1</span><span class="l">Same tutor · NCERT-aligned</span></div>
-      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l"> · 8 live sessions</span></div>
+      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">1-on-1 plan · cancel any time</span></div>
     </div>
   </div>
 </header>
@@ -323,12 +323,12 @@
         <h3>1:1 Private Tuition</h3>
         <p class="amt"><span data-price="maths.international.personal">$150</span><span> / month</span></p>
         <ul>
-          <li>8 live one-to-one sessions a month (2 per week, 1 hour each)</li>
+          <li data-intl-default="true">8 live one-to-one sessions a month (2 per week, 1 hour each)</li><li data-india-reveal="true" hidden>4 live one-to-one sessions a month (1 per week, 1 hour each)</li>
           <li>The same CBSE/ICSE-experienced tutor</li>
           <li>NCERT-aligned, board-pattern preparation</li>
           <li>Same tutor throughout · cancel any time</li>
         </ul>
-        <button type="button" class="mp-btn mp-btn-primary mp-mt" onclick="openCallbackModal()">Book a free trial</button>
+        <a class="mp-btn mp-btn-primary mp-mt" href="/priority-demo" data-pd-book="mp-cbse-maths-tutor-uae">Book a Priority Demo</a>
       </div>
       <div class="mp-price">
         <h3>Small-Group Cohort</h3>
@@ -395,8 +395,8 @@
       <details><summary>Do you prepare for the Class 10 and Class 12 board exams?</summary><div class="a"><p>Yes, including competency-based and case-study questions, by building understanding first, then practising previous-year papers.</p></div></details>
       <details><summary>Is the tutoring NCERT-aligned?</summary><div class="a"><p>Yes. We work from NCERT and your child's school, going beyond rote solutions to genuine understanding.</p></div></details>
       <details><summary>Can you help with Class 11 and 12 maths, calculus, etc.?</summary><div class="a"><p>Yes, the full Class 11 and 12 syllabus, and JEE foundations for students heading that way.</p></div></details>
-      <details><summary>How much does it cost?</summary><div class="a"><p>USD 150/month for 1:1, eight live sessions, two a week. Small-group option USD 100/month. No contract.</p></div></details>
-      <details><summary>Is the first session free?</summary><div class="a"><p>Yes, no card needed.</p></div></details>
+      <details><summary>How much does it cost?</summary><div class="a"><p>The fees for private 1-on-1 and small-group classes are shown in your own currency in the <a href="#pricing">pricing section</a> of this page. Billing is monthly, there is no contract and you can cancel any time.</p></div></details>
+      <details><summary>Can we try a class before enrolling?</summary><div class="a"><p>Yes. <a href="/priority-demo" data-pd-book="mp-faq-cbse-maths-tutor-uae">Book a Priority Demo</a>: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.</p></div></details>
       <details><summary>Will my child keep the same tutor?</summary><div class="a"><p>Yes, one CBSE/ICSE-experienced tutor throughout.</p></div></details>
       <details><summary>What times are lessons available?</summary><div class="a"><p>After-school, evening and weekend slots in Gulf Standard Time (UTC+4).</p></div></details>
     </div>

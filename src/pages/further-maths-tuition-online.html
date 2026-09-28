@@ -87,8 +87,8 @@
             { "@type": "Question", "name": "Is Further Maths much harder than A-Level Maths?", "acceptedAnswer": { "@type": "Answer", "text": "It's more abstract and faster-paced, and it assumes you're solid on A-Level Maths at the same time. Most students who struggle do so because a single topic, often complex numbers or matrices, never quite clicked. We make those genuinely intuitive, which usually unlocks the rest." } },
             { "@type": "Question", "name": "Which exam boards do you cover?", "acceptedAnswer": { "@type": "Answer", "text": "Edexcel, AQA and OCR (including OCR MEI). We teach to your specification and your chosen optional modules, working from your scheme of work and past papers." } },
             { "@type": "Question", "name": "Do you also help with the main A-Level Maths alongside it?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Further Maths and A-Level Maths are sat together, and the two reinforce each other. We can support both, and we have a dedicated A-Level Maths page if that's your main need." } },
-            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "USD 150 per month for private 1:1 tuition, eight live lessons, two each week. A small-group option is USD 100 per month for the same eight lessons. No contract; cancel any time." } },
-            { "@type": "Question", "name": "Is there a free trial?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The first lesson is free. We see which topics and options you're taking, find what's shaky, and build a plan, no card needed to book." } },
+            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time." } },
+            { "@type": "Question", "name": "Can we try a class before enrolling?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee." } },
             { "@type": "Question", "name": "Will I keep the same tutor?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. One tutor who knows your options, your weak spots and your target, important in a fast subject where continuity matters." } },
             { "@type": "Question", "name": "Can you prepare me for STEP, MAT or top university maths?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Further Maths students are often the ones applying to the most competitive maths and STEM courses, and we coach STEP and MAT-style problem solving alongside the A-Level content." } },
             { "@type": "Question", "name": "Are lessons live?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, live, one-to-one, with a shared whiteboard, which matters in Further Maths where the working is long and a single slip cascades." } },
@@ -105,7 +105,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/maths-pages.css">
+    <link rel="stylesheet" href="/css/maths-pages.css?v=20260928">
 <!-- mac-org-ld -->
 <script type="application/ld+json">
 {
@@ -162,7 +162,7 @@
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
-    <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Book a free trial</button>
+    <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-further-maths-tuition-online">Book a Priority Demo</a>
   </div>
 </nav>
 
@@ -171,16 +171,16 @@
   <div class="mp-wrap">
     <span class="mp-pill"><span class="dot"></span>Live 1:1 · core pure + options · Edexcel · AQA · OCR</span>
     <h1>Further Maths tuition online: <span class="grad">the deep end, made intuitive.</span></h1>
-    <p class="mp-lede">One-to-one A-Level Further Mathematics. It's the most abstract maths most students meet at school, complex numbers, matrices, induction, polar coordinates, and almost everyone who struggles is stuck on one idea that never quite landed. We make those ideas genuinely intuitive, then build the fluency and problem-solving the hardest questions demand. <strong>USD 150 a month</strong>, eight live lessons, two a week, one expert tutor.</p>
+    <p class="mp-lede">One-to-one A-Level Further Mathematics. It's the most abstract maths most students meet at school, complex numbers, matrices, induction, polar coordinates, and almost everyone who struggles is stuck on one idea that never quite landed. We make those ideas genuinely intuitive, then build the fluency and problem-solving the hardest questions demand. Live one-hour lessons, billed monthly (<a href="#pricing">see the plans in your currency</a>), one expert tutor.</p>
     <div class="mp-cta-row">
-      <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book a free trial lesson</button>
+      <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-further-maths-tuition-online">Book a Priority Demo</a>
       <a href="/courses/college-mathematics-complete-masterclass" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">See the advanced course</a>
     </div>
     <div class="mp-trust">
       <div class="item"><span class="v">4.9<span class="u">/5</span></span><span class="l">Learner rating · 547 Google reviews</span></div>
       <div class="item"><span class="v">Core + opt</span><span class="l">Pure plus mechanics, stats &amp; decision</span></div>
       <div class="item"><span class="v">1:1</span><span class="l">Expert tutor, your options</span></div>
-      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">8 live lessons · cancel any time</span></div>
+      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">1-on-1 plan · cancel any time</span></div>
     </div>
   </div>
 </header>
@@ -313,12 +313,12 @@
         <h3>1:1 Private Tuition</h3>
         <p class="amt"><span data-price="maths.international.personal">$150</span><span> / month</span></p>
         <ul>
-          <li>8 live one-to-one lessons a month (2 per week, 1 hour each)</li>
+          <li data-intl-default="true">8 live one-to-one lessons a month (2 per week, 1 hour each)</li><li data-india-reveal="true" hidden>4 live one-to-one lessons a month (1 per week, 1 hour each)</li>
           <li>An expert tutor who knows your options</li>
           <li>Concepts made intuitive, then fluency built</li>
           <li>STEP/MAT coaching available · cancel any time</li>
         </ul>
-        <button type="button" class="mp-btn mp-btn-primary mp-mt" onclick="openCallbackModal()">Book a free trial</button>
+        <a class="mp-btn mp-btn-primary mp-mt" href="/priority-demo" data-pd-book="mp-further-maths-tuition-online">Book a Priority Demo</a>
       </div>
       <div class="mp-price">
         <h3>Small-Group Cohort</h3>
@@ -385,8 +385,8 @@
       <details><summary>Is Further Maths much harder than A-Level Maths?</summary><div class="a"><p>More abstract and faster, and sat alongside A-Level Maths. Most who struggle are stuck on one topic, often complex numbers or matrices, which we make intuitive.</p></div></details>
       <details><summary>Which exam boards do you cover?</summary><div class="a"><p>Edexcel, AQA and OCR (including OCR MEI), to your specification and chosen options.</p></div></details>
       <details><summary>Do you also help with the main A-Level Maths alongside it?</summary><div class="a"><p>Yes, the two reinforce each other. See our <a href="/a-level-maths-tuition-online">A-Level Maths</a> page if that's your main need.</p></div></details>
-      <details><summary>How much does it cost?</summary><div class="a"><p>USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.</p></div></details>
-      <details><summary>Is there a free trial?</summary><div class="a"><p>Yes, the first lesson is free, no card needed.</p></div></details>
+      <details><summary>How much does it cost?</summary><div class="a"><p>The fees for private 1-on-1 and small-group classes are shown in your own currency in the <a href="#pricing">pricing section</a> of this page. Billing is monthly, there is no contract and you can cancel any time.</p></div></details>
+      <details><summary>Can we try a class before enrolling?</summary><div class="a"><p>Yes. <a href="/priority-demo" data-pd-book="mp-faq-further-maths-tuition-online">Book a Priority Demo</a>: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.</p></div></details>
       <details><summary>Will I keep the same tutor?</summary><div class="a"><p>Yes, one tutor who knows your options and target.</p></div></details>
       <details><summary>Can you prepare me for STEP, MAT or top university maths?</summary><div class="a"><p>Yes: STEP and MAT-style problem solving alongside the A-Level content.</p></div></details>
       <details><summary>Are lessons live?</summary><div class="a"><p>Yes, live, one-to-one, with a shared whiteboard, which matters where the working is long.</p></div></details>

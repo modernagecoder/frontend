@@ -88,7 +88,7 @@
             { "@type": "Question", "name": "Can you help my child reach a grade 7, 8 or 9?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, the top grades come from understanding plus problem-solving technique. We build both, with the result depending on starting point and effort." } },
             { "@type": "Question", "name": "My child needs a grade 4 'pass'. Can you focus on that?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We prioritise high-value foundation topics, fix the costly gaps, and drill technique so attainable marks are reliably banked." } },
             { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "A flat monthly fee, shown in your own currency in the pricing section of this page: private one-to-one with eight live lessons a month, two each week, or a small-group batch of 5 to 10 at a lower fee. No enrolment charge and no contract; stop at any month end." } },
-            { "@type": "Question", "name": "Is there a free trial?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, the first lesson is free, no card needed. We diagnose where marks are being lost." } },
+            { "@type": "Question", "name": "Can we try a class before enrolling?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee." } },
             { "@type": "Question", "name": "Will my child keep the same tutor?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, one tutor tracking the specification, weak topics and mistakes through to the exam." } },
             { "@type": "Question", "name": "Do you use past papers?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Your board's papers and mark schemes, with every lost mark reviewed as gap, method slip or timing." } },
             { "@type": "Question", "name": "When should we start before the exam?", "acceptedAnswer": { "@type": "Answer", "text": "The earlier the better, but we help at any stage. We'll be honest about what's achievable in your timeline." } },
@@ -107,7 +107,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Onest:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/maths-pages.css">
+    <link rel="stylesheet" href="/css/maths-pages.css?v=20260928">
 <!-- mac-org-ld -->
 <script type="application/ld+json">
 {
@@ -164,7 +164,7 @@
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
-    <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Book a free trial</button>
+    <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-gcse-maths-tuition-online">Book a Priority Demo</a>
   </div>
 </nav>
 
@@ -175,14 +175,14 @@
     <h1>GCSE maths tuition online: <span class="grad">grades that come from understanding.</span></h1>
     <p class="mp-lede">One-to-one GCSE maths for AQA, Edexcel and OCR. We don't drill past papers and hope. We rebuild the reasoning that the harder questions reward, then train past-paper technique and method marks, so your child banks the grade they're capable of, foundation or higher. <strong><span data-price="maths.international.personal">$150</span> a month</strong>, eight live lessons, two a week, a tutor who tracks the whole journey to the exam. Younger students in Years 7 to 9 start on our <a href="/ks3-maths-tuition-online">KS3 maths tuition</a>, so the GCSE course begins from a base that holds.</p>
     <div class="mp-cta-row">
-      <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book a free trial lesson</button>
+      <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-gcse-maths-tuition-online">Book a Priority Demo</a>
       <a href="/courses/complete-high-school-mathematics-mastery" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">See the GCSE course</a>
     </div>
     <div class="mp-trust">
       <div class="item"><span class="v">4.9<span class="u">/5</span></span><span class="l">Parent &amp; learner rating · 547 Google reviews</span></div>
       <div class="item"><span class="v">1–9</span><span class="l">Foundation &amp; higher · all boards</span></div>
       <div class="item"><span class="v">1:1</span><span class="l">Same tutor, your specification</span></div>
-      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">8 live lessons · cancel any time</span></div>
+      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">1-on-1 plan · cancel any time</span></div>
     </div>
   </div>
 </header>
@@ -329,12 +329,12 @@
         <h3>1:1 Private Tuition</h3>
         <p class="amt"><span data-price="maths.international.personal">$150</span><span> / month</span></p>
         <ul>
-          <li>8 live one-to-one lessons a month (2 per week, 1 hour each)</li>
+          <li data-intl-default="true">8 live one-to-one lessons a month (2 per week, 1 hour each)</li><li data-india-reveal="true" hidden>4 live one-to-one lessons a month (1 per week, 1 hour each)</li>
           <li>The same tutor tracking progress to the exam</li>
           <li>Taught to your board &amp; tier, with past papers</li>
           <li>A diagnostic-led plan · cancel any time</li>
         </ul>
-        <button type="button" class="mp-btn mp-btn-primary mp-mt" onclick="openCallbackModal()">Book a free trial</button>
+        <a class="mp-btn mp-btn-primary mp-mt" href="/priority-demo" data-pd-book="mp-gcse-maths-tuition-online">Book a Priority Demo</a>
       </div>
       <div class="mp-price">
         <h3>Small-Group Cohort</h3>
@@ -402,7 +402,7 @@
       <details><summary>Can you help my child reach a grade 7, 8 or 9?</summary><div class="a"><p>Yes, the top grades come from understanding plus problem-solving technique. We build both, with the result depending on starting point and effort.</p></div></details>
       <details><summary>My child needs a grade 4 'pass'. Can you focus on that?</summary><div class="a"><p>Yes. We prioritise high-value foundation topics, fix the costly gaps, and drill technique so attainable marks are reliably banked.</p></div></details>
       <details><summary>How much does it cost?</summary><div class="a"><p>A flat monthly fee, shown in your own currency in the pricing section of this page: private one-to-one with eight live lessons a month, two each week, or a small-group batch of 5 to 10 at a lower fee. No enrolment charge and no contract; stop at any month end.</p></div></details>
-      <details><summary>Is there a free trial?</summary><div class="a"><p>Yes, the first lesson is free, no card needed. We diagnose where marks are being lost.</p></div></details>
+      <details><summary>Can we try a class before enrolling?</summary><div class="a"><p>Yes. <a href="/priority-demo" data-pd-book="mp-faq-gcse-maths-tuition-online">Book a Priority Demo</a>: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.</p></div></details>
       <details><summary>Will my child keep the same tutor?</summary><div class="a"><p>Yes, one tutor tracking the specification, weak topics and mistakes through to the exam.</p></div></details>
       <details><summary>Do you use past papers?</summary><div class="a"><p>Yes. Your board's papers and mark schemes, with every lost mark reviewed as gap, method slip or timing.</p></div></details>
       <details><summary>When should we start before the exam?</summary><div class="a"><p>The earlier the better, but we help at any stage. We'll be honest about what's achievable in your timeline.</p></div></details>

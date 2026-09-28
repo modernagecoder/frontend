@@ -87,8 +87,8 @@
             { "@type": "Question", "name": "Can you work from my specific course and textbook?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We teach to your professor's syllabus, your textbook and your problem sets, including notation conventions your course uses, so the tutoring lines up with what you're actually graded on." } },
             { "@type": "Question", "name": "I'm not a STEM major but my course requires math. Can you help?", "acceptedAnswer": { "@type": "Answer", "text": "Absolutely. Many of our college students are in economics, psychology, business or pre-med and just need to clear a required calculus or statistics course. We teach the math at the depth your course needs, no more and no less." } },
             { "@type": "Question", "name": "Can you help before an exam or with problem sets?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We help you work through problem sets by teaching the method rather than handing over solutions, and we run focused review before midterms and finals. We don't complete graded work for you. That wouldn't help you pass the exam." } },
-            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "USD 150 per month for private 1:1 tutoring, eight live classes, two each week. A small-group option is USD 100 per month for the same eight classes. No contract; cancel any time." } },
-            { "@type": "Question", "name": "Is there a free trial?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The first session is free. We look at your current course and where you're stuck, and you decide afterward, no card needed to book." } },
+            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time." } },
+            { "@type": "Question", "name": "Can we try a class before enrolling?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee." } },
             { "@type": "Question", "name": "Do I get the same tutor each time?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. One mentor stays with you through the term, so they know your course, your gaps and how you think." } },
             { "@type": "Question", "name": "What times are available?", "acceptedAnswer": { "@type": "Answer", "text": "Mentors cover all six US time zones, with evening and weekend slots that fit around lectures and labs. You choose two weekly slots." } },
             { "@type": "Question", "name": "Are sessions live?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, live, one-to-one, with a shared whiteboard where we work problems together in real time. That's the only way to catch the precise step where your understanding breaks." } },
@@ -105,7 +105,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/maths-pages.css">
+    <link rel="stylesheet" href="/css/maths-pages.css?v=20260928">
 <!-- mac-org-ld -->
 <script type="application/ld+json">
 {
@@ -162,7 +162,7 @@
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
-    <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Book a free trial</button>
+    <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-online-maths-tutoring-for-college-students-in-usa">Book a Priority Demo</a>
   </div>
 </nav>
 
@@ -173,14 +173,14 @@
     <h1>Online maths tutoring for college students in the USA: <span class="grad">from the ideas up.</span></h1>
     <p class="mp-lede">One-to-one online tutoring in the math that decides college GPAs: calculus, linear algebra, discrete math, probability, statistics and proof writing. We don't drill you on solved examples and hope the exam looks the same. We rebuild the concepts so you can handle problems you've never seen, which is exactly what your professor tests. <strong><span data-price="maths.international.personal">$150</span> a month</strong>, eight live classes, two a week.</p>
     <div class="mp-cta-row">
-      <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book a free trial session</button>
+      <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-online-maths-tutoring-for-college-students-in-usa">Book a Priority Demo</a>
       <a href="/courses/college-mathematics-complete-masterclass" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">See the college course</a>
     </div>
     <div class="mp-trust">
       <div class="item"><span class="v">4.9<span class="u">/5</span></span><span class="l">Learner rating · 547 Google reviews</span></div>
       <div class="item"><span class="v">Calc → Proofs</span><span class="l">Single &amp; multivariable, linear algebra, stats</span></div>
       <div class="item"><span class="v">1:1</span><span class="l">Same mentor, your syllabus</span></div>
-      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">8 live sessions · cancel any time</span></div>
+      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">1-on-1 plan · cancel any time</span></div>
     </div>
   </div>
 </header>
@@ -313,12 +313,12 @@
         <h3>1:1 Private Mentorship</h3>
         <p class="amt"><span data-price="maths.international.personal">$150</span><span> / month</span></p>
         <ul>
-          <li>8 live one-to-one sessions a month (2 per week, 1 hour each)</li>
+          <li data-intl-default="true">8 live one-to-one sessions a month (2 per week, 1 hour each)</li><li data-india-reveal="true" hidden>4 live one-to-one sessions a month (1 per week, 1 hour each)</li>
           <li>The same dedicated mentor through the term</li>
           <li>Taught to your course, textbook &amp; problem sets</li>
           <li>Exam-season review · cancel any time</li>
         </ul>
-        <button type="button" class="mp-btn mp-btn-primary mp-mt" onclick="openCallbackModal()">Book a free trial</button>
+        <a class="mp-btn mp-btn-primary mp-mt" href="/priority-demo" data-pd-book="mp-online-maths-tutoring-for-college-students-in-usa">Book a Priority Demo</a>
       </div>
       <div class="mp-price">
         <h3>Small-Group Cohort</h3>
@@ -385,8 +385,8 @@
       <details><summary>Can you work from my specific course and textbook?</summary><div class="a"><p>Yes. Your professor's syllabus, your textbook, your problem sets and your course's notation, so tutoring lines up with what you're graded on.</p></div></details>
       <details><summary>I'm not a STEM major but my course requires math. Can you help?</summary><div class="a"><p>Yes. Many of our college students are in economics, psychology, business or pre-med, clearing a required calculus or statistics course. We teach to the depth your course needs.</p></div></details>
       <details><summary>Can you help before an exam or with problem sets?</summary><div class="a"><p>Yes. We teach the method on problem sets rather than handing over solutions, and run focused review before midterms and finals. We don't complete graded work for you.</p></div></details>
-      <details><summary>How much does it cost?</summary><div class="a"><p>USD 150 per month for private 1:1, eight live sessions, two each week. Small-group option USD 100 per month. No contract; cancel any time.</p></div></details>
-      <details><summary>Is there a free trial?</summary><div class="a"><p>Yes, the first session is free, no card needed. We look at your course and where you're stuck.</p></div></details>
+      <details><summary>How much does it cost?</summary><div class="a"><p>The fees for private 1-on-1 and small-group classes are shown in your own currency in the <a href="#pricing">pricing section</a> of this page. Billing is monthly, there is no contract and you can cancel any time.</p></div></details>
+      <details><summary>Can we try a class before enrolling?</summary><div class="a"><p>Yes. <a href="/priority-demo" data-pd-book="mp-faq-online-maths-tutoring-for-college-students-in-usa">Book a Priority Demo</a>: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.</p></div></details>
       <details><summary>Do I get the same tutor each time?</summary><div class="a"><p>Yes, one mentor through the term who knows your course, your gaps and how you think.</p></div></details>
       <details><summary>What times are available?</summary><div class="a"><p>All six US time zones, with evening and weekend slots around lectures and labs. You choose two weekly slots.</p></div></details>
       <details><summary>Are sessions live?</summary><div class="a"><p>Yes, live, one-to-one, with a shared whiteboard where we work problems in real time.</p></div></details>

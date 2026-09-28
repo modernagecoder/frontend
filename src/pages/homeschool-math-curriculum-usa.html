@@ -87,8 +87,8 @@
             { "@type": "Question", "name": "Do you align with Common Core or state standards?", "acceptedAnswer": { "@type": "Answer", "text": "If you want us to, yes. We can map your child's path to Common Core or your state's standards, which helps with portfolios, evaluations and a possible return to school. If you prefer a standards-independent path, we'll build that instead. It's your call." } },
             { "@type": "Question", "name": "What grade levels do you cover?", "acceptedAnswer": { "@type": "Answer", "text": "Kindergarten through grade 12, from early number sense to algebra, geometry, pre-calculus and beyond. One mentor can carry a child across several years, or different mentors can take elementary and high-school stages." } },
             { "@type": "Question", "name": "How does mastery-based pacing work?", "acceptedAnswer": { "@type": "Answer", "text": "Your child moves on when they truly understand a topic, not when a calendar says to. That means spending longer where it's needed and accelerating where it isn't, the freedom homeschooling is for, and something a 30-child classroom can't offer." } },
-            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "USD 150 per month for private 1:1 instruction, eight live classes, two each week. A small-group option is USD 100 per month for the same eight classes. No contract; cancel any time." } },
-            { "@type": "Question", "name": "Is there a free trial?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The first class is free. We assess where your child is, discuss your goals and how much of the curriculum you want us to own, then propose a plan, no card needed to book." } },
+            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time." } },
+            { "@type": "Question", "name": "Can we try a class before enrolling?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee." } },
             { "@type": "Question", "name": "Will my child have the same teacher?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. One mentor builds a long-term relationship and a coherent path, which matters even more in homeschooling, where continuity across years is part of the appeal." } },
             { "@type": "Question", "name": "Do you provide records for our portfolio or evaluation?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We keep notes on what's covered and mastered and provide plain-language progress summaries you can use for portfolios, annual evaluations, or simply your own peace of mind." } },
             { "@type": "Question", "name": "My child is gifted in math and bored. Can you stretch them?", "acceptedAnswer": { "@type": "Answer", "text": "Gladly. This is one of homeschooling's great advantages. We can accelerate well beyond grade level, add depth and competition math, and keep a fast learner genuinely challenged rather than waiting for a class." } },
@@ -105,7 +105,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/maths-pages.css">
+    <link rel="stylesheet" href="/css/maths-pages.css?v=20260928">
 <!-- mac-org-ld -->
 <script type="application/ld+json">
 {
@@ -162,7 +162,7 @@
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
-    <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Book a free trial</button>
+    <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-homeschool-math-curriculum-usa">Book a Priority Demo</a>
   </div>
 </nav>
 
@@ -173,14 +173,14 @@
     <h1>Homeschool math curriculum: <span class="grad">one child, one perfect path.</span></h1>
     <p class="mp-lede">Live one-to-one math for US homeschoolers, kindergarten through high school. We build a scope-and-sequence around <strong>your</strong> child, placing them by what they actually know, teaching for genuine understanding, moving on only when a topic is mastered, and keeping the records you need. Align to Common Core if you want it, or go your own way. <strong><span data-price="maths.international.personal">$150</span> a month</strong>, eight live classes, two a week.</p>
     <div class="mp-cta-row">
-      <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book a free trial class</button>
+      <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-homeschool-math-curriculum-usa">Book a Priority Demo</a>
       <a href="/courses/elementary-mathematics-complete-masterclass" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">See the K–5 course</a>
     </div>
     <div class="mp-trust">
       <div class="item"><span class="v">4.9<span class="u">/5</span></span><span class="l">Parent &amp; learner rating · 547 Google reviews</span></div>
       <div class="item"><span class="v">K–12</span><span class="l">A coherent path across years</span></div>
       <div class="item"><span class="v">Mastery</span><span class="l">Move on when ready, not by date</span></div>
-      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">8 live classes · cancel any time</span></div>
+      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">1-on-1 plan · cancel any time</span></div>
     </div>
   </div>
 </header>
@@ -313,12 +313,12 @@
         <h3>1:1 Private Mentorship</h3>
         <p class="amt"><span data-price="maths.international.personal">$150</span><span> / month</span></p>
         <ul>
-          <li>8 live one-to-one classes a month (2 per week, 1 hour each)</li>
+          <li data-intl-default="true">8 live one-to-one classes a month (2 per week, 1 hour each)</li><li data-india-reveal="true" hidden>4 live one-to-one classes a month (1 per week, 1 hour each)</li>
           <li>A custom scope-and-sequence for your child</li>
           <li>The same dedicated mentor across the years</li>
           <li>Progress records included · cancel any time</li>
         </ul>
-        <button type="button" class="mp-btn mp-btn-primary mp-mt" onclick="openCallbackModal()">Book a free trial</button>
+        <a class="mp-btn mp-btn-primary mp-mt" href="/priority-demo" data-pd-book="mp-homeschool-math-curriculum-usa">Book a Priority Demo</a>
       </div>
       <div class="mp-price">
         <h3>Small-Group Cohort</h3>
@@ -385,8 +385,8 @@
       <details><summary>Do you align with Common Core or state standards?</summary><div class="a"><p>If you want. We can map to Common Core or your state's standards for portfolios and evaluations, or build a standards-independent path. Your call.</p></div></details>
       <details><summary>What grade levels do you cover?</summary><div class="a"><p>Kindergarten through grade 12, from early number sense to algebra, geometry, pre-calculus and beyond.</p></div></details>
       <details><summary>How does mastery-based pacing work?</summary><div class="a"><p>Your child moves on when they truly understand a topic, not when a calendar says to, longer where needed, faster where not.</p></div></details>
-      <details><summary>How much does it cost?</summary><div class="a"><p>USD 150 per month for private 1:1, eight live classes, two each week. Small-group option USD 100 per month. No contract; cancel any time.</p></div></details>
-      <details><summary>Is there a free trial?</summary><div class="a"><p>Yes, the first class is free, no card needed. We assess your child and discuss how much of the curriculum you want us to own.</p></div></details>
+      <details><summary>How much does it cost?</summary><div class="a"><p>The fees for private 1-on-1 and small-group classes are shown in your own currency in the <a href="#pricing">pricing section</a> of this page. Billing is monthly, there is no contract and you can cancel any time.</p></div></details>
+      <details><summary>Can we try a class before enrolling?</summary><div class="a"><p>Yes. <a href="/priority-demo" data-pd-book="mp-faq-homeschool-math-curriculum-usa">Book a Priority Demo</a>: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.</p></div></details>
       <details><summary>Will my child have the same teacher?</summary><div class="a"><p>Yes, one mentor building a coherent path across years.</p></div></details>
       <details><summary>Do you provide records for our portfolio or evaluation?</summary><div class="a"><p>Yes, notes on what's covered and mastered, plus plain-language progress summaries.</p></div></details>
       <details><summary>My child is gifted in math and bored. Can you stretch them?</summary><div class="a"><p>Gladly. We accelerate well beyond grade level and add depth and competition math.</p></div></details>

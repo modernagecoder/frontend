@@ -86,8 +86,8 @@
             { "@type": "Question", "name": "Which algebra courses do you cover?", "acceptedAnswer": { "@type": "Answer", "text": "Pre-algebra, Algebra 1 and Algebra 2, the full sequence from first variables through quadratics, polynomials, functions, systems, exponentials and logarithms. We place each student by what they actually understand, not just their current class." } },
             { "@type": "Question", "name": "My child can follow examples but freezes on new problems. Why?", "acceptedAnswer": { "@type": "Answer", "text": "Because they've learned algebra as a list of steps to copy, not as a logic to reason with. When the problem looks different from the example, there's nothing to fall back on. We teach why each move is allowed, which is what lets a student adapt to a problem they've never seen." } },
             { "@type": "Question", "name": "Algebra is where my child started hating math. Can you turn that around?", "acceptedAnswer": { "@type": "Answer", "text": "Often, yes. Algebra is the usual breaking point because it's the first truly abstract math, and the first place a shaky foundation really shows. When the abstraction finally clicks, confidence usually returns with it." } },
-            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "USD 150 per month for private 1:1 tutoring, eight live sessions, two each week. A small-group option is USD 100 per month for the same eight classes. No contract; cancel any time." } },
-            { "@type": "Question", "name": "Is there a free trial?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The first session is free. We find which earlier idea is shaky, then build a plan, and you decide afterward, no card needed to book." } },
+            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time." } },
+            { "@type": "Question", "name": "Can we try a class before enrolling?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee." } },
             { "@type": "Question", "name": "Will my child have the same tutor?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. One mentor stays with your child, tracks the gaps, and works directly from your child's class and homework so tutoring supports school." } },
             { "@type": "Question", "name": "Can you work from my child's textbook and homework?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We teach to your child's actual class, their syllabus, upcoming tests and homework, while making sure the underlying reasoning is solid, not just the current assignment." } },
             { "@type": "Question", "name": "Does this prepare for the SAT or ACT?", "acceptedAnswer": { "@type": "Answer", "text": "Strong algebra is the single biggest factor in SAT and ACT math scores, so this builds the foundation directly. When test day is close, see our SAT Math and ACT Math pages for focused prep." } },
@@ -105,7 +105,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/maths-pages.css">
+    <link rel="stylesheet" href="/css/maths-pages.css?v=20260928">
 <!-- mac-org-ld -->
 <script type="application/ld+json">
 {
@@ -162,7 +162,7 @@
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
-    <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Book a free trial</button>
+    <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-algebra-tutoring-online-usa">Book a Priority Demo</a>
   </div>
 </nav>
 
@@ -173,14 +173,14 @@
     <h1>Algebra tutoring online: <span class="grad">the logic, not just the steps.</span></h1>
     <p class="mp-lede">One-to-one tutoring in pre-algebra, Algebra 1 and Algebra 2 for US students. Algebra is where math turns abstract, and where most students start to slip, because they were taught moves to copy instead of reasons to follow. We teach why every step is allowed, so your child can handle a problem they've never seen, not just repeat the example. <strong><span data-price="maths.international.personal">$150</span> a month</strong>, eight live classes, two a week.</p>
     <div class="mp-cta-row">
-      <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book a free trial lesson</button>
+      <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-algebra-tutoring-online-usa">Book a Priority Demo</a>
       <a href="/courses/complete-high-school-mathematics-mastery" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">See the high-school course</a>
     </div>
     <div class="mp-trust">
       <div class="item"><span class="v">4.9<span class="u">/5</span></span><span class="l">Learner rating · 547 Google reviews</span></div>
       <div class="item"><span class="v">Pre → 2</span><span class="l">Pre-algebra, Algebra 1 and Algebra 2</span></div>
       <div class="item"><span class="v">1:1</span><span class="l">Same mentor, your child's class</span></div>
-      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">8 live classes · cancel any time</span></div>
+      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">1-on-1 plan · cancel any time</span></div>
     </div>
   </div>
 </header>
@@ -313,12 +313,12 @@
         <h3>1:1 Private Mentorship</h3>
         <p class="amt"><span data-price="maths.international.personal">$150</span><span> / month</span></p>
         <ul>
-          <li>8 live one-to-one classes a month (2 per week, 1 hour each)</li>
+          <li data-intl-default="true">8 live one-to-one classes a month (2 per week, 1 hour each)</li><li data-india-reveal="true" hidden>4 live one-to-one classes a month (1 per week, 1 hour each)</li>
           <li>The same dedicated mentor throughout</li>
           <li>Worked from your child's class &amp; homework</li>
           <li>Notes after every class · cancel any time</li>
         </ul>
-        <button type="button" class="mp-btn mp-btn-primary mp-mt" onclick="openCallbackModal()">Book a free trial</button>
+        <a class="mp-btn mp-btn-primary mp-mt" href="/priority-demo" data-pd-book="mp-algebra-tutoring-online-usa">Book a Priority Demo</a>
       </div>
       <div class="mp-price">
         <h3>Small-Group Cohort</h3>
@@ -384,8 +384,8 @@
       <details open><summary>Which algebra courses do you cover?</summary><div class="a"><p>Pre-algebra, Algebra 1 and Algebra 2, the full sequence from first variables through quadratics, polynomials, functions, exponentials and logarithms. We place by understanding, not just current class.</p></div></details>
       <details><summary>My child can follow examples but freezes on new problems. Why?</summary><div class="a"><p>They've learned algebra as steps to copy, not logic to reason with. We teach why each move is allowed, which lets a student adapt to unfamiliar problems.</p></div></details>
       <details><summary>Algebra is where my child started hating math. Can you turn that around?</summary><div class="a"><p>Often, yes. Algebra is the usual breaking point because it's the first abstract math and exposes shaky foundations. When the abstraction clicks, confidence returns.</p></div></details>
-      <details><summary>How much does it cost?</summary><div class="a"><p>USD 150 per month for private 1:1, eight live classes, two each week. Small-group option USD 100 per month. No contract; cancel any time.</p></div></details>
-      <details><summary>Is there a free trial?</summary><div class="a"><p>Yes, the first session is free, no card needed. We find which earlier idea is shaky and build a plan.</p></div></details>
+      <details><summary>How much does it cost?</summary><div class="a"><p>The fees for private 1-on-1 and small-group classes are shown in your own currency in the <a href="#pricing">pricing section</a> of this page. Billing is monthly, there is no contract and you can cancel any time.</p></div></details>
+      <details><summary>Can we try a class before enrolling?</summary><div class="a"><p>Yes. <a href="/priority-demo" data-pd-book="mp-faq-algebra-tutoring-online-usa">Book a Priority Demo</a>: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.</p></div></details>
       <details><summary>Will my child have the same tutor?</summary><div class="a"><p>Yes, one mentor who tracks the gaps and works from your child's class and homework.</p></div></details>
       <details><summary>Can you work from my child's textbook and homework?</summary><div class="a"><p>Yes. We teach to your child's actual class while making sure the underlying reasoning is solid.</p></div></details>
       <details><summary>Does this prepare for the SAT or ACT?</summary><div class="a"><p>Strong algebra is the biggest factor in SAT/ACT math, so this builds the foundation directly. See our <a href="/sat-math-tutoring-online">SAT Math</a> and <a href="/act-math-tutoring-online">ACT Math</a> pages for focused prep.</p></div></details>

@@ -87,8 +87,8 @@
             { "@type": "Question", "name": "Do you cover 13+ and 11+ Common Entrance?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, both. We tailor to your child's exam, the 13+ levels and papers, or 11+ entry, and to the specific senior schools they're aiming for, since requirements vary." } },
             { "@type": "Question", "name": "Which CE level should my child sit?", "acceptedAnswer": { "@type": "Answer", "text": "The level is usually guided by your child's prep school and target senior school. We can assess your child and advise, and prepare for the appropriate level, including stretching toward Level 3 or scholarship standard where that's the goal." } },
             { "@type": "Question", "name": "Can you prepare for maths scholarships?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Scholarship papers reward genuine problem-solving and depth beyond the standard syllabus. We build that depth, the ability to tackle an unfamiliar, demanding question, rather than just drilling past papers." } },
-            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "USD 150 per month for private 1:1 tuition, eight live lessons, two each week. A small-group option is USD 100 per month for the same eight lessons. No contract; cancel any time." } },
-            { "@type": "Question", "name": "Is there a free trial?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The first lesson is free. We assess where your child is against the level they're sitting, build a plan, and you decide afterward, no card needed to book." } },
+            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time." } },
+            { "@type": "Question", "name": "Can we try a class before enrolling?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee." } },
             { "@type": "Question", "name": "Will my child keep the same tutor?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. One tutor builds a steady plan to the exam, knowing your child's target schools and exactly which question types still need work." } },
             { "@type": "Question", "name": "How does this fit with my child's prep school?", "acceptedAnswer": { "@type": "Answer", "text": "We complement the prep school's preparation, focusing one-to-one on the areas your child finds hardest and adding the depth or pace a class can't always provide. We're happy to work alongside school materials." } },
             { "@type": "Question", "name": "Are lessons live?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, live, one-to-one, with a shared whiteboard, which matters for the multi-step problems Common Entrance favours, where seeing the working unfold is everything." } },
@@ -105,7 +105,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/maths-pages.css">
+    <link rel="stylesheet" href="/css/maths-pages.css?v=20260928">
 <!-- mac-org-ld -->
 <script type="application/ld+json">
 {
@@ -162,7 +162,7 @@
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
-    <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Book a free trial</button>
+    <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-common-entrance-maths-tuition">Book a Priority Demo</a>
   </div>
 </nav>
 
@@ -171,16 +171,16 @@
   <div class="mp-wrap">
     <span class="mp-pill"><span class="dot"></span>Live 1:1 · ISEB 13+ &amp; 11+ · independent senior schools</span>
     <h1>Common Entrance maths tuition: <span class="grad">depth, not just drilling.</span></h1>
-    <p class="mp-lede">One-to-one ISEB Common Entrance maths for 13+ and 11+ entry to independent senior schools. The papers reward genuine understanding and multi-step problem-solving across calculator and non-calculator work, so we build that, with scholarship-level stretch where it's the goal. Your child arrives at senior school genuinely strong, not just past the exam. <strong>USD 150 a month</strong>, eight live lessons, two a week, one steady tutor.</p>
+    <p class="mp-lede">One-to-one ISEB Common Entrance maths for 13+ and 11+ entry to independent senior schools. The papers reward genuine understanding and multi-step problem-solving across calculator and non-calculator work, so we build that, with scholarship-level stretch where it's the goal. Your child arrives at senior school genuinely strong, not just past the exam. Live one-hour lessons, billed monthly (<a href="#pricing">see the plans in your currency</a>), one steady tutor.</p>
     <div class="mp-cta-row">
-      <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book a free trial lesson</button>
+      <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-common-entrance-maths-tuition">Book a Priority Demo</a>
       <a href="/courses/comprehensive-middle-school-mathematics-mastery" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">See the course</a>
     </div>
     <div class="mp-trust">
       <div class="item"><span class="v">4.9<span class="u">/5</span></span><span class="l">Parent &amp; learner rating · 547 Google reviews</span></div>
       <div class="item"><span class="v">13+ · 11+</span><span class="l">ISEB levels &amp; scholarship</span></div>
       <div class="item"><span class="v">1:1</span><span class="l">Same tutor, your target schools</span></div>
-      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">8 live lessons · cancel any time</span></div>
+      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">1-on-1 plan · cancel any time</span></div>
     </div>
   </div>
 </header>
@@ -313,12 +313,12 @@
         <h3>1:1 Private Tuition</h3>
         <p class="amt"><span data-price="maths.international.personal">$150</span><span> / month</span></p>
         <ul>
-          <li>8 live one-to-one lessons a month (2 per week, 1 hour each)</li>
+          <li data-intl-default="true">8 live one-to-one lessons a month (2 per week, 1 hour each)</li><li data-india-reveal="true" hidden>4 live one-to-one lessons a month (1 per week, 1 hour each)</li>
           <li>The same dedicated tutor to the exam</li>
           <li>Pitched to your CE level &amp; target schools</li>
           <li>Scholarship stretch available · cancel any time</li>
         </ul>
-        <button type="button" class="mp-btn mp-btn-primary mp-mt" onclick="openCallbackModal()">Book a free trial</button>
+        <a class="mp-btn mp-btn-primary mp-mt" href="/priority-demo" data-pd-book="mp-common-entrance-maths-tuition">Book a Priority Demo</a>
       </div>
       <div class="mp-price">
         <h3>Small-Group Cohort</h3>
@@ -385,8 +385,8 @@
       <details><summary>Do you cover 13+ and 11+ Common Entrance?</summary><div class="a"><p>Yes, both, tailored to your child's exam and target senior schools.</p></div></details>
       <details><summary>Which CE level should my child sit?</summary><div class="a"><p>Usually guided by the prep and target school. We can assess and advise, and prepare for the right level, including scholarship standard.</p></div></details>
       <details><summary>Can you prepare for maths scholarships?</summary><div class="a"><p>Yes, by building genuine problem-solving depth, not just drilling past papers.</p></div></details>
-      <details><summary>How much does it cost?</summary><div class="a"><p>USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.</p></div></details>
-      <details><summary>Is there a free trial?</summary><div class="a"><p>Yes, the first lesson is free, no card needed.</p></div></details>
+      <details><summary>How much does it cost?</summary><div class="a"><p>The fees for private 1-on-1 and small-group classes are shown in your own currency in the <a href="#pricing">pricing section</a> of this page. Billing is monthly, there is no contract and you can cancel any time.</p></div></details>
+      <details><summary>Can we try a class before enrolling?</summary><div class="a"><p>Yes. <a href="/priority-demo" data-pd-book="mp-faq-common-entrance-maths-tuition">Book a Priority Demo</a>: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.</p></div></details>
       <details><summary>Will my child keep the same tutor?</summary><div class="a"><p>Yes, one tutor to the exam who knows your target schools.</p></div></details>
       <details><summary>How does this fit with my child's prep school?</summary><div class="a"><p>We complement the school, focusing 1:1 on the hardest areas and adding depth or pace a class can't always provide.</p></div></details>
       <details><summary>Are lessons live?</summary><div class="a"><p>Yes, live, one-to-one, with a shared whiteboard, ideal for multi-step problems.</p></div></details>

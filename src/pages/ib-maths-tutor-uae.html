@@ -90,8 +90,8 @@
             { "@type": "Question", "name": "What's the difference between AA and AI, and which should my child take?", "acceptedAnswer": { "@type": "Answer", "text": "AA is more algebraic and proof-focused, suited to maths, engineering and physics pathways; AI is more applied and data/technology-focused, suited to social sciences, business and design. HL is required by some competitive courses. We can assess your child and advise honestly." } },
             { "@type": "Question", "name": "Can you help with the IB Maths IA (exploration)?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The Internal Assessment is worth 20% of the grade and trips up many students. We help with choosing a strong topic, the mathematical depth examiners reward, the writing and personal engagement, and meeting the assessment criteria, without ever writing it for your child." } },
             { "@type": "Question", "name": "Do you coach the GDC and exam papers?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We train efficient use of the graphic display calculator for the calculator papers, and work through Paper 1, 2 and (for HL) Paper 3 past papers, building the technique and timing the IB rewards." } },
-            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "USD 150 per month for private 1:1 tutoring, eight live sessions, two each week. A small-group option is USD 100 per month. No contract; cancel any time." } },
-            { "@type": "Question", "name": "Is the first session free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The first session is free. We see which topics and which paper are causing trouble, build a plan, and you decide afterward. No card needed to book." } },
+            { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time." } },
+            { "@type": "Question", "name": "Can we try a class before enrolling?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee." } },
             { "@type": "Question", "name": "Will my child keep the same tutor?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. One IB-experienced tutor stays through the course, knows your child's option and level, and ramps into focused exam and IA support when it counts." } },
             { "@type": "Question", "name": "What times are lessons available?", "acceptedAnswer": { "@type": "Answer", "text": "After-school, evening and weekend slots in Gulf Standard Time (UTC+4), around the UAE IB school calendar. You choose two weekly times." } }
           ]
@@ -104,7 +104,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/maths-pages.css">
+    <link rel="stylesheet" href="/css/maths-pages.css?v=20260928">
 <!-- mac-org-ld -->
 <script type="application/ld+json">
 {
@@ -161,7 +161,7 @@
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
-    <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Book a free trial</button>
+    <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-ib-maths-tutor-uae">Book a Priority Demo</a>
   </div>
 </nav>
 
@@ -172,14 +172,14 @@
     <h1>IB Maths tutor in the UAE: <span class="grad">AA or AI, taught to truly understand.</span></h1>
     <p class="mp-lede">The UAE has one of the world's largest IB communities, and IB Maths is demanding. We tutor Analysis &amp; Approaches and Applications &amp; Interpretation, SL and HL, teaching the concepts so they actually make sense, supporting the IA exploration that decides 20% of the grade, and coaching the GDC and exam papers. <strong>USD 150 a month</strong>, eight live sessions, an IB-experienced tutor throughout.</p>
     <div class="mp-cta-row">
-      <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book a free trial session</button>
+      <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-ib-maths-tutor-uae">Book a Priority Demo</a>
       <a href="/courses/college-mathematics-complete-masterclass" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">See the advanced course</a>
     </div>
     <div class="mp-trust">
       <div class="item"><span class="v">4.9<span class="u">/5</span></span><span class="l">Learner rating · 547 Google reviews</span></div>
       <div class="item"><span class="v">AA &amp; AI</span><span class="l">SL &amp; HL · plus the IA</span></div>
       <div class="item"><span class="v">1:1</span><span class="l">IB-experienced tutor</span></div>
-      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l"> · 8 live sessions</span></div>
+      <div class="item"><span class="v"><span data-price="maths.international.personal">$150</span><span class="u">/mo</span></span><span class="l">1-on-1 plan · cancel any time</span></div>
     </div>
   </div>
 </header>
@@ -323,12 +323,12 @@
         <h3>1:1 Private Tuition</h3>
         <p class="amt"><span data-price="maths.international.personal">$150</span><span> / month</span></p>
         <ul>
-          <li>8 live one-to-one sessions a month (2 per week, 1 hour each)</li>
+          <li data-intl-default="true">8 live one-to-one sessions a month (2 per week, 1 hour each)</li><li data-india-reveal="true" hidden>4 live one-to-one sessions a month (1 per week, 1 hour each)</li>
           <li>An IB-experienced tutor for your option &amp; level</li>
           <li>Concepts, IA support, GDC and past papers</li>
           <li>Same tutor throughout · cancel any time</li>
         </ul>
-        <button type="button" class="mp-btn mp-btn-primary mp-mt" onclick="openCallbackModal()">Book a free trial</button>
+        <a class="mp-btn mp-btn-primary mp-mt" href="/priority-demo" data-pd-book="mp-ib-maths-tutor-uae">Book a Priority Demo</a>
       </div>
       <div class="mp-price">
         <h3>Small-Group Cohort</h3>
@@ -395,8 +395,8 @@
       <details><summary>What's the difference between AA and AI, and which should my child take?</summary><div class="a"><p>AA is more algebraic and proof-focused (maths, engineering, physics pathways); AI is more applied and data-focused (social sciences, business, design). We can assess and advise honestly.</p></div></details>
       <details><summary>Can you help with the IB Maths IA (exploration)?</summary><div class="a"><p>Yes, topic choice, mathematical depth, writing and the assessment criteria for the 20% IA, without ever writing it for your child.</p></div></details>
       <details><summary>Do you coach the GDC and exam papers?</summary><div class="a"><p>Yes, efficient calculator use and Paper 1, 2 and (HL) Paper 3 practice.</p></div></details>
-      <details><summary>How much does it cost?</summary><div class="a"><p>USD 150/month for 1:1, eight live sessions, two a week. Small-group option USD 100/month. No contract.</p></div></details>
-      <details><summary>Is the first session free?</summary><div class="a"><p>Yes, no card needed.</p></div></details>
+      <details><summary>How much does it cost?</summary><div class="a"><p>The fees for private 1-on-1 and small-group classes are shown in your own currency in the <a href="#pricing">pricing section</a> of this page. Billing is monthly, there is no contract and you can cancel any time.</p></div></details>
+      <details><summary>Can we try a class before enrolling?</summary><div class="a"><p>Yes. <a href="/priority-demo" data-pd-book="mp-faq-ib-maths-tutor-uae">Book a Priority Demo</a>: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.</p></div></details>
       <details><summary>Will my child keep the same tutor?</summary><div class="a"><p>Yes, one IB-experienced tutor through the course.</p></div></details>
       <details><summary>What times are lessons available?</summary><div class="a"><p>After-school, evening and weekend slots in Gulf Standard Time (UTC+4).</p></div></details>
     </div>

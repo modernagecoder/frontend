@@ -189,15 +189,15 @@
           "name": "What does IGCSE maths tuition cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Pricing is a flat $100 a month for group classes and $150 for 1-on-1, billed in US dollars. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. IGCSE-specialist tutors bill $40 to $100 an hour for the same format."
+            "text": "The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time."
           }
         },
         {
           "@type": "Question",
-          "name": "Can we try before paying?",
+          "name": "Can we try a class before enrolling?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Every student starts with a free live demo class that doubles as the diagnostic covering board, tier, fluency and algebra base, no card details, no obligation."
+            "text": "Yes. Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee."
           }
         }
       ]
@@ -210,7 +210,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/maths-pages.css?v=20260708">
+    <link rel="stylesheet" href="/css/maths-pages.css?v=20260928">
 <!-- mac-org-ld -->
 <script type="application/ld+json">
 {
@@ -267,7 +267,7 @@
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
-    <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Book a free demo</button>
+    <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-igcse-maths-tuition-online">Book a Priority Demo</a>
   </div>
 </nav>
 
@@ -278,14 +278,14 @@
     <h1>IGCSE maths tuition online: <span class="grad">Core, Extended or Additional, taught to the top grade.</span></h1>
     <p class="mp-lede">IGCSE maths has forks that decide futures: Core caps the grade your child can earn, Extended opens the A-Level door, and Additional Maths (0606) is a different beast entirely. Add the newer non-calculator papers, and generic tutoring is prepping for the wrong exam. Our mentors teach <strong>one full hour of live, interactive, syllabus-exact maths</strong>, twice a week, matched to your board, tier and exam series.</p>
     <div class="mp-cta-row">
-      <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book a free demo class</button>
+      <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-igcse-maths-tuition-online">Book a Priority Demo</a>
       <a href="#tiers" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">Decode the tiers first</a>
     </div>
     <div class="mp-trust">
       <div class="item"><span class="v">1 hr</span><span class="l">Real teaching, every class</span></div>
       <div class="item"><span class="v">8</span><span class="l">Live classes a month, 2 a week</span></div>
       <div class="item"><span class="v">4.9</span><span class="l">Across 547 Google reviews</span></div>
-      <div class="item"><span class="v">Free</span><span class="l">Demo class, no card needed</span></div>
+      <div class="item"><span class="v">45-60 min</span><span class="l">Priority Demo, today or tomorrow</span></div>
     </div>
   </div>
 </header>
@@ -303,7 +303,7 @@
         <div class="body">
           <h3>IGCSE Mathematics Mastery</h3>
           <p class="desc">Cambridge and Edexcel taught syllabus-exact, with non-calculator fluency and mark-scheme craft built in.</p>
-          <div class="meta"><span>Core &middot; Extended &middot; 0606</span><span>8 live classes / month</span><span>Free demo first</span></div>
+          <div class="meta"><span>Core &middot; Extended &middot; 0606</span><span>8 live classes / month</span><span>Priority Demo first</span></div>
           <p class="price"><strong data-price="maths.international.group">$100</strong>/mo group &middot; <strong data-price="maths.international.personal">$150</strong>/mo 1-on-1</p>
           <span class="go">View course &amp; enroll</span>
         </div>
@@ -313,7 +313,7 @@
         <div class="body">
           <h3>Middle School Mathematics Mastery</h3>
           <p class="desc">Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership.</p>
-          <div class="meta"><span>Grades 6-8</span><span>8 live classes / month</span><span>Free demo first</span></div>
+          <div class="meta"><span>Grades 6-8</span><span>8 live classes / month</span><span>Priority Demo first</span></div>
           <p class="price"><strong data-price="maths.international.group">$100</strong>/mo group &middot; <strong data-price="maths.international.personal">$150</strong>/mo 1-on-1</p>
           <span class="go">View course &amp; enroll</span>
         </div>
@@ -323,14 +323,14 @@
         <div class="body">
           <h3>Olympiad &amp; Competition Mathematics</h3>
           <p class="desc">Contest-level problem solving for the student who wants more than the syllabus.</p>
-          <div class="meta"><span>Ambitious students</span><span>8 live classes / month</span><span>Free demo first</span></div>
+          <div class="meta"><span>Ambitious students</span><span>8 live classes / month</span><span>Priority Demo first</span></div>
           <p class="price"><strong data-price="maths.international.group">$100</strong>/mo group &middot; <strong data-price="maths.international.personal">$150</strong>/mo 1-on-1</p>
           <span class="go">View course &amp; enroll</span>
         </div>
       </a>
     </div>
     <div class="mp-cta-row mp-mt">
-      <button type="button" class="mp-btn mp-btn-primary" onclick="openCallbackModal()">Not sure which fits? Book the free demo</button>
+      <a class="mp-btn mp-btn-primary" href="/priority-demo" data-pd-book="mp-igcse-maths-tuition-online">Not sure which fits? Book a Priority Demo</a>
       <a href="#pricing" class="mp-btn mp-btn-ghost" style="border-color:var(--mp-accent);color:var(--mp-accent)">See what is included</a>
     </div>
   </div>
@@ -468,7 +468,7 @@
     <span class="mp-eyebrow">A typical arc</span>
     <h2>From diagnostic to exam series, mapped.</h2>
     <div class="mp-steps mp-mt">
-      <div class="mp-step"><h3>Class 1 &middot; The free demo diagnostic</h3><p>A real lesson plus an audit: board and syllabus code confirmed, tier fit assessed honestly, non-calculator fluency and algebra base checked.</p></div>
+      <div class="mp-step"><h3>Class 1 &middot; The Priority Demo diagnostic</h3><p>A real lesson plus an audit: board and syllabus code confirmed, tier fit assessed honestly, non-calculator fluency and algebra base checked.</p></div>
       <div class="mp-step"><h3>Months 1-2 &middot; Foundations that hold Extended weight</h3><p>Algebra taught as a language, number fluency rebuilt calculator-free, and the gaps behind the mock grade repaired at the root.</p></div>
       <div class="mp-step"><h3>Term 2+ &middot; The Extended reach, with settling time</h3><p>Functions, trigonometry, vectors and probability taught early enough to be owned, not crammed, the difference between a pass and a top grade.</p></div>
       <div class="mp-step"><h3>The exam runway &middot; Papers, by the mark scheme</h3><p>Past papers from your exact board and series, timed, then reviewed for where marks actually went, method, accuracy, or the missing &plusmn;.</p></div>
@@ -550,7 +550,7 @@
           <li>Diagnostic-led plan for your exact board, tier and series</li>
           <li>Class recordings for revision &middot; cancel any time</li>
         </ul>
-        <button type="button" class="mp-btn mp-btn-primary mp-mt" onclick="openCallbackModal()">Book the free demo</button>
+        <a class="mp-btn mp-btn-primary mp-mt" href="/priority-demo" data-pd-book="mp-igcse-maths-tuition-online">Book a Priority Demo</a>
       </div>
       <div class="mp-price">
         <h3>Small-Group Class</h3>
@@ -564,7 +564,7 @@
         <a href="/courses/complete-high-school-mathematics-mastery" class="mp-btn mp-btn-ghost mp-mt">See the high school course</a>
       </div>
     </div>
-    <p class="mp-mt mp-center">That is <strong>$18.75 per dedicated hour</strong> of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. <a href="/guarantee">Read our zero-risk promise</a> or compare with <a href="/online-math-tutor-cost">what maths tutoring costs in 2026</a>.</p>
+    <p class="mp-mt mp-center">That is <strong><span data-price="maths.international.personal" data-price-derive="perClass">$18.75</span> per dedicated hour</strong> of 1-on-1 teaching, or <span data-price="maths.international.group" data-price-derive="perClass">$12.50</span> in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. <a href="/guarantee">Read our zero-risk promise</a> or compare with <a href="/online-math-tutor-cost">what maths tutoring costs in 2026</a>.</p>
   </div>
 </section>
 
@@ -628,11 +628,11 @@
       <details><summary>Should my child take Additional Maths (0606)?</summary><div class="a"><p>If they are comfortable in Extended and A-Level maths is likely: strongly consider it. 0606 is the best A-Level preparation on the syllabus list, functions, identities, vectors and introductory calculus taught properly. But it is a genuine second subject, not extra credit, and it rewards starting early. We teach it alongside 0580 with the same mentor.</p></div></details>
       <details><summary>How long until the grade moves?</summary><div class="a"><p>Mark-scheme technique and non-calculator fluency show up in weeks; understanding-level movement, the kind that jumps grade boundaries, takes a term. Monthly billing means you watch the evidence and re-decide every four weeks. And if the timeline you have left only allows technique work, we will say exactly that.</p></div></details>
       <details><summary>My child does past papers endlessly but the score is stuck. Why?</summary><div class="a"><p>Because practice repeats what the student already does, including the errors. A stuck score almost always means an understanding gap upstream, algebra as memorized rules is the usual culprit, and no volume of papers repairs it. We find the gap, fix it at the root, and then past papers start converting effort into marks again.</p></div></details>
-      <details><summary>What does it cost?</summary><div class="a"><p>Pricing is a flat $100 a month for group classes and $150 for 1-on-1, billed in US dollars. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. IGCSE-specialist tutors bill $40 to $100 an hour for the same format.</p></div></details>
+      <details><summary>What does it cost?</summary><div class="a"><p>The fees for private 1-on-1 and small-group classes are shown in your own currency in the <a href="#pricing">pricing section</a> of this page. Billing is monthly, there is no contract and you can cancel any time.</p></div></details>
       <details><summary>Do you also cover GCSE (the UK domestic exam)?</summary><div class="a"><p>Yes, the overlap is large and we have a dedicated GCSE maths track that respects the UK boards' structures (AQA, Edexcel, OCR) and tiers. See our GCSE maths tuition page for the specifics.</p></div></details>
       <details><summary>We are an international school family that moves countries. Does tuition survive a move?</summary><div class="a"><p>Better than school does. The mentor, the plan and the schedule move with you, across every time zone we already teach in, and IGCSE's global standardization means the syllabus is the same on arrival. Continuity through a move is one of the quiet advantages of online tuition done properly.</p></div></details>
       <details><summary>Who teaches IGCSE maths?</summary><div class="a"><p>Mentors who teach both mathematics and programming, which IGCSE students benefit from directly: probability simulated in code, functions animated on screen, and for 0606 students, calculus met visually before it is met formally. Meet the team on our team page.</p></div></details>
-      <details><summary>Can we try before paying anything?</summary><div class="a"><p>Yes. Every student starts with a free live demo class that doubles as the diagnostic, board, tier, fluency and algebra base, no card details, no obligation. The promise is written on our guarantee page.</p></div></details>
+      <details><summary>Can we try a class before enrolling?</summary><div class="a"><p>Yes. <a href="/priority-demo" data-pd-book="mp-faq-igcse-maths-tuition-online">Book a Priority Demo</a>: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.</p></div></details>
     </div>
   </div>
 </section>
@@ -660,7 +660,7 @@
       <h2>Watch one full hour of real teaching. Free.</h2>
       <p>Book the demo class. Your teen gets a real lesson with a real mentor, you get a diagnostic against their exact board and tier, one full hour of real IGCSE maths teaching, free, and nobody asks for a card. If your teen does not leave the hour lighter about maths, walk away with our thanks.</p>
       <div class="mp-cta-row mp-mt">
-        <button type="button" class="mp-btn mp-btn-primary mp-btn-lg" onclick="openCallbackModal()">Book the free demo class</button>
+        <a class="mp-btn mp-btn-primary mp-btn-lg" href="/priority-demo" data-pd-book="mp-igcse-maths-tuition-online">Book a Priority Demo</a>
         <a href="/how-we-teach" class="mp-btn mp-btn-ghost mp-btn-lg" style="color:var(--mp-hero-ink);border-color:rgba(255,255,255,.3)">Watch real classes first</a>
       </div>
     </div>
