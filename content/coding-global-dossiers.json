@@ -29757,5 +29757,44 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-dartford": {
+    "market": "Dartford",
+    "bodyClass": "cg-dfd",
+    "pageType": "city",
+    "curriculumAuthority": "Dartford (E07000107). Nomis Census 2021 TS001 116,753. TS007A: 0 to 4 8,282 (7.1%, England 5.4%); 5 to 9 8,268 (7.1%, 5.9%); 30 to 34 9,861 (8.4%, 7.0%); 35 to 39 9,629 (8.2%, 6.7%); 70 to 74 4,252 (3.6%, 5.0%); 75 to 79 2,971 (2.5%, 3.6%). ONS 2021 BUAs: Dartford 69,130; Swanscombe 15,460; Stone 6,440; Ebbsfleet Valley 2,990; Darenth 2,585; Bean 1,635. Project Gutenberg 46634, Francis Trevithick, Life of Richard Trevithick vol. 2: \"Messrs. John Hall and Sons, of Dartford, also experimented on these two patents, and from this the tubular condenser was called Hall's Condenser. I think the boat it was first tried in was called the 'Dartford.'\"; \"In 1832 the Waterwitch Company made experiments with those plans\"; \"His high-pressure steam-engine was the pioneer of locomotion\".",
+    "localProject": "Six test quotations: raw exact search fails on a genuine line (line break); normalised exact: 2 genuine pass. Best fuzzy (difflib, word windows): year 1832->1834 0.984; one word changed 0.848; stitched 0.795; invented 0.512. Strict checker: exact after normalising, near matches shown with source wording, numbers must match. Lesson family: quotation verification / hallucination checking, normalisation, exact vs fuzzy, threshold danger, number checks.",
+    "requiredMentions": [
+      "116,753",
+      "69,130",
+      "Swanscombe",
+      "Ebbsfleet Valley",
+      "Darenth",
+      "Francis Trevithick",
+      "Hall's Condenser",
+      "Waterwitch",
+      "hallucination"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS001 and TS007A, Dartford and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Francis Trevithick, Life of Richard Trevithick, Volume 2 (ebook 46634).",
+        "url": "https://www.gutenberg.org/ebooks/46634"
+      }
+    ],
+    "rejectedClaims": [
+      "Trevithick's death and burial at Dartford: in the source but excluded under the cluster content rules.",
+      "Where the Hall works stood or what remains: not read from a source; not claimed.",
+      "The altered and invented quotations are ours, labelled as test material on the page.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
