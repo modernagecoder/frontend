@@ -53,12 +53,6 @@
         "text": "This guide answers it by showing what really happens. You will see a recursive function print every call as it is made and every answer as it comes back, a real crash when the base case is missing, the exact number of calls a badly written recursive function makes, and one problem where recursion is genuinely the best tool. All the code is Python, and every output shown is what the code actually printed."
       },
       {
-        "type": "callout",
-        "calloutType": "info",
-        "title": "The short version",
-        "text": "Recursion is when a function solves a problem by calling itself on a smaller version of the same problem. Every recursive function needs a base case, a version small enough to answer directly, and a recursive case that moves closer to it. The calls stack up until the base case is reached, then the answers are passed back up, one call at a time."
-      },
-      {
         "type": "heading",
         "level": 2,
         "text": "What recursion is",
@@ -272,8 +266,7 @@
       },
       {
         "type": "quote",
-        "text": "Recursion is not magic. It is trusting that the smaller problem will be solved, and making sure it is actually smaller.",
-        "author": "How we explain it in class"
+        "text": "Recursion is not magic. It is trusting that the smaller problem will be solved, and making sure it is actually smaller."
       },
       {
         "type": "heading",
@@ -283,11 +276,11 @@
       },
       {
         "type": "paragraph",
-        "text": "In our classes, recursion is taught by tracing before writing: students draw the call stack for small inputs until they can predict every line of the output, then they write their own recursive functions for folders, puzzles and number problems. It is part of our <a href='/python-from-the-ground-up'>Python from the ground up</a> course and our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a>, taught live, one to one or in small groups of 5 to 10."
+        "text": "One principle on our <a href='/how-we-teach'>how we teach</a> page is to trace code line by line until the student can predict every step, and recursion is where that pays off most. It is part of our <a href='/python-from-the-ground-up'>Python from the ground up</a> course and our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a>, taught live, one to one or in small groups of 5 to 10."
       },
       {
         "type": "embed",
-        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
       },
       {
         "type": "heading",

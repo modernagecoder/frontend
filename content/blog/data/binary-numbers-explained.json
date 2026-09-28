@@ -20,7 +20,7 @@
     },
     "date": "2026-09-28",
     "dateModified": "2026-09-28",
-    "category": "Computer Science",
+    "category": "Programming",
     "tags": [
       "Computer Science",
       "Binary",
@@ -51,12 +51,6 @@
       {
         "type": "paragraph",
         "text": "This guide explains binary from the ground up: why computers use it, how place value works in base 2, how to convert both ways, how to count and add in binary, what bits and bytes are, and where hexadecimal fits in. Every conversion is shown step by step by a short Python program, and checked against Python's own built-in functions."
-      },
-      {
-        "type": "callout",
-        "calloutType": "info",
-        "title": "The short version",
-        "text": "Binary is base 2: each column is worth twice the one to its right (1, 2, 4, 8, 16, 32, 64, 128). To turn binary into decimal, add up the column values that have a 1. To turn decimal into binary, keep dividing by 2 and read the remainders from the bottom up. Eight bits make a byte, which can store 256 different values, from 0 to 255."
       },
       {
         "type": "heading",
@@ -294,8 +288,7 @@
       },
       {
         "type": "quote",
-        "text": "Binary is not a different kind of maths. It is place value with a smaller multiplier.",
-        "author": "What we tell students on day one of number systems"
+        "text": "Binary is not a different kind of maths. It is place value with a smaller multiplier."
       },
       {
         "type": "heading",
@@ -305,11 +298,11 @@
       },
       {
         "type": "paragraph",
-        "text": "In our computer science classes, students learn binary by building it: flipping switches, counting on fingers, then writing the conversion programs shown here themselves. Writing the code is the best test of understanding, because a program has no way to fake a step. We teach this within our school computer science tutoring, such as <a href='/ks3-computing-tuition-online'>KS3 computing</a>, live, one to one or in small groups of 5 to 10."
+        "text": "We teach number systems within our school computer science tutoring, such as <a href='/ks3-computing-tuition-online'>KS3 computing</a>, following the principles on our <a href='/how-we-teach'>how we teach</a> page: learning by building, and one concept fully understood before the next. Writing a small conversion program is a good test of understanding, because a program cannot fake a step. Classes are live, one to one or in small groups of 5 to 10."
       },
       {
         "type": "embed",
-        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
       },
       {
         "type": "heading",

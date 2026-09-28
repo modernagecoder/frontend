@@ -20,7 +20,7 @@
     },
     "date": "2026-09-28",
     "dateModified": "2026-09-28",
-    "category": "Maths",
+    "category": "Mathematics",
     "tags": [
       "Maths",
       "Prime Numbers",
@@ -51,12 +51,6 @@
       {
         "type": "paragraph",
         "text": "This guide explains what prime numbers are, why 1 is not one of them, how to find primes with a 2,000-year-old method, how to break any number into its prime factors, why there are infinitely many primes, and where they are used in real life. Every list, count and factorisation here was produced by running the Python code shown alongside it."
-      },
-      {
-        "type": "callout",
-        "calloutType": "info",
-        "title": "The short version",
-        "text": "A prime number is a whole number greater than 1 with exactly two factors: 1 and itself. The first few are 2, 3, 5, 7, 11, 13, 17, 19, 23 and 29. 2 is the only even prime, and 1 is not prime because it has only one factor. Every whole number greater than 1 can be written as a product of primes in exactly one way, and there are infinitely many primes."
       },
       {
         "type": "heading",
@@ -267,8 +261,7 @@
       },
       {
         "type": "quote",
-        "text": "Primes are the one topic where a ten-year-old can ask a question that nobody on Earth knows the answer to.",
-        "author": "Why we love teaching them"
+        "text": "Primes are the one topic where a ten-year-old can ask a question that nobody on Earth knows the answer to."
       },
       {
         "type": "paragraph",
@@ -282,11 +275,11 @@
       },
       {
         "type": "paragraph",
-        "text": "In our classes, students sieve the first hundred numbers by hand before writing the sieve in code, and draw factor trees before automating them. Doing both is what makes the ideas stick: the hand version builds intuition, and the code version tests it. Primes appear in our <a href='/online-maths-tuition'>live maths classes</a> and in our coding courses, where they make excellent first algorithm problems, taught one to one or in small groups of 5 to 10."
+        "text": "Primes fit the first principle on our <a href='/how-we-teach'>how we teach</a> page especially well: start with a spark, a question worth wondering about, before any theory arrives. They appear in our <a href='/online-maths-tuition'>live maths classes</a> and in our coding courses, where they make excellent first algorithm problems. Classes are one to one or in small groups of 5 to 10."
       },
       {
         "type": "embed",
-        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
       },
       {
         "type": "heading",

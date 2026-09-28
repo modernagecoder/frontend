@@ -18,7 +18,7 @@
     },
     "date": "2026-09-28",
     "dateModified": "2026-09-28",
-    "category": "Python",
+    "category": "Programming",
     "tags": [
       "Python",
       "Learning to Code",
@@ -49,12 +49,6 @@
       {
         "type": "paragraph",
         "text": "So this guide does it properly. It splits \"learning Python\" into five milestones you can actually test yourself against, puts an hour estimate on each, turns those hours into calendar time for different schedules, and then shows the specific habits that make the same number of hours go much further. It applies whether you are a parent planning for a 12-year-old, a college student, or an adult starting from zero at 45."
-      },
-      {
-        "type": "callout",
-        "calloutType": "info",
-        "title": "The short version",
-        "text": "About 15 to 25 hours of real practice to write your first programs, 50 to 70 to solve small problems on your own, 100 to 150 to build a complete small project, and 600 or more to be ready for a junior developer job. At 5 hours a week, that is roughly one month, three months, six months, and two and a half years or more."
       },
       {
         "type": "heading",
@@ -237,7 +231,7 @@
       },
       {
         "type": "paragraph",
-        "text": "We teach every age from 6 to 67, and the pattern is consistent: the learners who finish are not the fastest ones. They are the ones who kept a steady weekly rhythm for long enough to reach milestone 3."
+        "text": "We teach every age from 6 to 67, and the learners who finish are rarely the fastest ones. They are the ones who kept a steady weekly rhythm for long enough to reach milestone 3."
       },
       {
         "type": "heading",
@@ -361,7 +355,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Used to write the code for you, they skip the exact struggle that builds the skill. You get working programs and no ability to write the next one. We have seen learners reach what looked like milestone 3 in a month with heavy AI help, then be unable to write a ten-line function in an interview. If you want the longer version of this argument, read <a href='/blog/vibe-coding-vs-learning-to-code-properly'>vibe coding versus learning to code properly</a>."
+        "text": "Used to write the code for you, they skip the exact struggle that builds the skill. You get working programs and no ability to write the next one. It is common for a learner to reach what looks like milestone 3 in a month with heavy AI help, then be unable to write a ten-line function in an interview. If you want the longer version of this argument, read <a href='/blog/vibe-coding-vs-learning-to-code-properly'>vibe coding versus learning to code properly</a>."
       },
       {
         "type": "callout",
@@ -371,8 +365,7 @@
       },
       {
         "type": "quote",
-        "text": "The question is not how fast you can get through Python. It is how long you can keep showing up until it gets easy.",
-        "author": "What we tell every new learner"
+        "text": "The question is not how fast you can get through Python. It is how long you can keep showing up until it gets easy."
       },
       {
         "type": "heading",
@@ -382,7 +375,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Our Python classes are live, with a real teacher, in small groups of 5 to 10 learners or one to one. Every class is built around the milestones above: learners write code in every session, get their code read and questioned, and finish projects rather than collecting topics. Beginners start with <a href='/python-from-the-ground-up'>Python from the ground up</a>, and learners heading towards AI move on to <a href='/master-ai-ml-python-java'>AI and machine learning with Python</a>."
+        "text": "Our Python classes are live, in small groups of 5 to 10 learners or one to one, and they follow the principles on our <a href='/how-we-teach'>how we teach</a> page: learning by building rather than memorising, and staying with one idea until it genuinely clicks. That is exactly what moves a learner from one milestone to the next. Beginners start with <a href='/python-from-the-ground-up'>Python from the ground up</a>, and learners heading towards AI move on to <a href='/master-ai-ml-python-java'>AI and machine learning with Python</a>."
       },
       {
         "type": "paragraph",
@@ -390,7 +383,7 @@
       },
       {
         "type": "embed",
-        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free Python class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free Python class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
       },
       {
         "type": "heading",

@@ -19,7 +19,7 @@
     },
     "date": "2026-09-28",
     "dateModified": "2026-09-28",
-    "category": "Maths",
+    "category": "Mathematics",
     "tags": [
       "Maths",
       "Fractions",
@@ -50,12 +50,6 @@
       {
         "type": "paragraph",
         "text": "The good news is that almost every fraction difficulty comes from a small number of misunderstandings, and each one can be fixed with the right picture and a few minutes of talk. This guide shows you what those misunderstandings are, the one picture that fixes most of them, the order fractions should be taught in, and activities you can do at home with things you already own. It is written for parents of children aged about 7 to 13, but it works just as well for an adult who never felt sure about fractions."
-      },
-      {
-        "type": "callout",
-        "calloutType": "info",
-        "title": "The short version",
-        "text": "Teach fractions as numbers with a place on a number line, not only as slices of a shape. Use a fraction wall to show that 1/2, 2/4 and 3/6 are the same number. Tackle the four common misconceptions head on, and follow a sensible order: fair shares, then fractions as numbers, then equivalence, then adding, then multiplying and dividing."
       },
       {
         "type": "heading",
@@ -322,8 +316,7 @@
       },
       {
         "type": "quote",
-        "text": "Most children who say they hate fractions have only ever been shown the rules. Show them the number line, and the rules start to make sense.",
-        "author": "What our maths teachers see every term"
+        "text": "Most children who say they hate fractions have only ever been shown the rules. Show them the number line, and the rules start to make sense."
       },
       {
         "type": "heading",
@@ -333,11 +326,11 @@
       },
       {
         "type": "paragraph",
-        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, fractions are taught the way this guide describes: number lines and fraction walls first, rules second, and a reasonableness check on every answer. Classes are one to one or in small groups of 5 to 10, and teachers look for the stage where understanding actually breaks down rather than drilling the topic on the page. For children who have fallen behind, the <a href='/math-catch-up-program'>maths catch-up programme</a> rebuilds foundations in order."
+        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, we would rather go deep on one idea than skim five, and we often show the same problem three ways until the understanding lands. Fractions are a topic where that matters more than almost anywhere else. The principles are set out on our <a href='/how-we-teach'>how we teach</a> page. Classes are one to one or in small groups of 5 to 10, and for children who have fallen behind, the <a href='/math-catch-up-program'>maths catch-up programme</a> rebuilds foundations in order."
       },
       {
         "type": "embed",
-        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
       },
       {
         "type": "heading",

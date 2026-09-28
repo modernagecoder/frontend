@@ -20,7 +20,7 @@
     },
     "date": "2026-09-28",
     "dateModified": "2026-09-28",
-    "category": "Maths",
+    "category": "Mathematics",
     "tags": [
       "Maths",
       "Statistics",
@@ -51,12 +51,6 @@
       {
         "type": "paragraph",
         "text": "This guide explains all three, plus the range, with worked examples calculated by Python's statistics module so every answer is checked. It covers the median with an even number of values, what to do when there is more than one mode, why one very large value can make the mean misleading, and the classic exam question where you work backwards from a mean."
-      },
-      {
-        "type": "callout",
-        "calloutType": "info",
-        "title": "The short version",
-        "text": "The mean is the total divided by how many values there are. The median is the middle value once the numbers are sorted. The mode is the value that appears most often. The range, highest minus lowest, measures spread rather than a typical value. Use the median when a few extreme values could distort the mean, as with pay or house prices."
       },
       {
         "type": "heading",
@@ -282,8 +276,7 @@
       },
       {
         "type": "quote",
-        "text": "Whenever someone quotes an average, ask which one. The answer tells you a lot about what they want you to believe.",
-        "author": "What we teach in every statistics lesson"
+        "text": "Whenever someone quotes an average, ask which one. The answer tells you a lot about what they want you to believe."
       },
       {
         "type": "heading",
@@ -293,11 +286,11 @@
       },
       {
         "type": "paragraph",
-        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, students calculate averages by hand, then check them with a few lines of Python, then look for real examples where the choice of average changes the story. That last step is what makes the topic stick. Classes are one to one or in small groups of 5 to 10, for school syllabuses from primary to <a href='/gcse-maths-tuition-online'>GCSE</a> and Class 10."
+        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, we often show the same problem more than one way until it lands, and averages are a good example: the same data, three answers, and a discussion about which one tells the truth. The approach is described on our <a href='/how-we-teach'>how we teach</a> page. Classes are one to one or in small groups of 5 to 10, for syllabuses from primary to <a href='/gcse-maths-tuition-online'>GCSE</a> and Class 10."
       },
       {
         "type": "embed",
-        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
       },
       {
         "type": "heading",

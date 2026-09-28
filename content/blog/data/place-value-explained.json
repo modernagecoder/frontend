@@ -20,7 +20,7 @@
     },
     "date": "2026-09-28",
     "dateModified": "2026-09-28",
-    "category": "Maths",
+    "category": "Mathematics",
     "tags": [
       "Maths",
       "Place Value",
@@ -51,12 +51,6 @@
       {
         "type": "paragraph",
         "text": "When teachers try to find out why a child is struggling with maths at 9, 10 or 11, place value is one of the first things they check. This guide explains what place value is, how to teach it with things you can hold, why zero matters so much, how it makes carrying and borrowing make sense, how it extends to decimals, and how the Indian lakh and crore system groups the same digits differently from the international one. The examples were produced by the small Python programs shown alongside them."
-      },
-      {
-        "type": "callout",
-        "calloutType": "info",
-        "title": "The short version",
-        "text": "In our number system each column is worth ten times the column to its right: ones, tens, hundreds, thousands. So in 4,307 the 4 means 4,000, the 3 means 300, the 0 holds the tens place empty, and the 7 means 7. Teach it with objects first (bundles of ten, base-ten blocks), then place value charts, then expanded form. Most errors in column maths and decimals come from gaps in place value."
       },
       {
         "type": "heading",
@@ -292,8 +286,7 @@
       },
       {
         "type": "quote",
-        "text": "When a child is stuck at 10, we often find the gap at 7. Place value is the usual suspect.",
-        "author": "Our maths teachers"
+        "text": "When a child is stuck at 10, the gap is often at 7. Place value is the usual suspect."
       },
       {
         "type": "heading",
@@ -303,11 +296,11 @@
       },
       {
         "type": "paragraph",
-        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, place value is taught with virtual base-ten blocks and place value charts on screen before any column method. For older students with gaps, the <a href='/math-catch-up-program'>maths catch-up programme</a> checks place value first, because so much depends on it. Classes are one to one or in small groups of 5 to 10."
+        "text": "Place value is exactly the kind of idea our <a href='/how-we-teach'>how we teach</a> page is talking about when it says we would rather go deep on one idea than skim five. It is taught in our <a href='/online-maths-tuition'>live online maths classes</a>, and for older students with gaps, the <a href='/math-catch-up-program'>maths catch-up programme</a> rebuilds foundations in order. Classes are one to one or in small groups of 5 to 10."
       },
       {
         "type": "embed",
-        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
       },
       {
         "type": "heading",

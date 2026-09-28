@@ -52,12 +52,6 @@
         "text": "This guide explains Big O without the heavy maths. Every claim is backed by code you can run: step counts measured by actually running the algorithms, and timings measured on a real machine. By the end you will be able to look at a loop and say what its Big O is, and know why it matters for exams, interviews and real programs."
       },
       {
-        "type": "callout",
-        "calloutType": "info",
-        "title": "The short version",
-        "text": "Big O describes how the work an algorithm does grows as its input grows. O(1) means the work stays the same, O(log n) grows very slowly, O(n) grows in step with the input, O(n log n) is a bit worse, and O(n²) explodes: ten times more data means a hundred times more work. You read it from the code: one loop is usually O(n), a loop inside a loop is usually O(n²)."
-      },
-      {
         "type": "heading",
         "level": 2,
         "text": "What Big O actually measures",
@@ -293,8 +287,7 @@
       },
       {
         "type": "quote",
-        "text": "Big O is not about making fast code faster. It is about not writing code that falls over when the data gets real.",
-        "author": "What we tell students before their first interview"
+        "text": "Big O is not about making fast code faster. It is about not writing code that falls over when the data gets real."
       },
       {
         "type": "heading",
@@ -304,11 +297,11 @@
       },
       {
         "type": "paragraph",
-        "text": "In our data structures and algorithms classes, students measure before they memorise: they count steps, time real programs and watch the curves bend, as in this post, before learning the notation. It sticks far better than a table of complexities. We teach it in Python, Java and C++ through our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a>, in live classes that are one to one or in small groups of 5 to 10."
+        "text": "Our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a> is taught live in Python, Java and C++, one to one or in small groups of 5 to 10. It follows the principles on our <a href='/how-we-teach'>how we teach</a> page, including tracing code line by line until a student can predict every step, which is the same skill that makes Big O intuitive rather than memorised."
       },
       {
         "type": "embed",
-        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
       },
       {
         "type": "heading",

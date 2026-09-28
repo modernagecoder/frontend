@@ -19,7 +19,7 @@
     },
     "date": "2026-09-28",
     "dateModified": "2026-09-28",
-    "category": "Maths",
+    "category": "Mathematics",
     "tags": [
       "Maths",
       "Word Problems",
@@ -50,12 +50,6 @@
       {
         "type": "paragraph",
         "text": "This guide explains why word problems are hard, why the popular \"keyword\" trick makes things worse (we tested it with a small program, and it got three out of four problems wrong), and a four-step method with bar models that works for any word problem, from Year 2 to GCSE and board exams."
-      },
-      {
-        "type": "callout",
-        "calloutType": "info",
-        "title": "The short version",
-        "text": "Word problems are hard because they add reading and reasoning to the maths. Do not teach keywords like \"more means add\", because questions are often written the other way round. Instead: read the problem twice, draw it (a bar model is ideal), decide the operation from the drawing, and check the answer by putting it back into the story."
       },
       {
         "type": "heading",
@@ -236,8 +230,7 @@
       },
       {
         "type": "quote",
-        "text": "Never ask \"what's the keyword?\" Ask \"what's happening in this story?\"",
-        "author": "What our teachers say instead"
+        "text": "Never ask \"what's the keyword?\" Ask \"what's happening in this story?\""
       },
       {
         "type": "heading",
@@ -247,11 +240,11 @@
       },
       {
         "type": "paragraph",
-        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, word problems are taught as reasoning, not as a hunt for keywords: students say the story back, draw a bar model on screen, plan, and then check. Teachers can see the drawing as it happens, which shows exactly where understanding breaks down. Classes are one to one or in small groups of 5 to 10."
+        "text": "Our <a href='/online-maths-tuition'>live online maths classes</a> treat word problems as reasoning rather than a hunt for keywords, and mistakes as useful information about where understanding stopped, in line with the principles on our <a href='/how-we-teach'>how we teach</a> page. Classes are one to one or in small groups of 5 to 10."
       },
       {
         "type": "embed",
-        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
       },
       {
         "type": "heading",

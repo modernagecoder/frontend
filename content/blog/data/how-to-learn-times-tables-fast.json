@@ -19,7 +19,7 @@
     },
     "date": "2026-09-28",
     "dateModified": "2026-09-28",
-    "category": "Maths",
+    "category": "Mathematics",
     "tags": [
       "Maths",
       "Times Tables",
@@ -50,12 +50,6 @@
       {
         "type": "paragraph",
         "text": "The fast way to learn times tables is to sort the facts first. When you do, something surprising happens: out of 144 facts on a 12 by 12 grid, only <strong>21</strong> need real memory work, and 6 of those are squares that many children find memorable anyway. This guide shows where that number comes from, the order to learn the tables in, the strategies for each one, and a five-minute daily method that makes the facts stay. It works for a 7-year-old starting out and for an adult who never quite got there."
-      },
-      {
-        "type": "callout",
-        "calloutType": "info",
-        "title": "The short version",
-        "text": "Learn the pattern tables first (1s, 10s, 2s, 5s, 11s, 9s), use the fact that 7 x 8 is the same as 8 x 7, and you are left with 21 facts. Derive those from facts you already know, then practise them for five minutes a day with spaced review. Most children get fluent in 6 to 10 weeks this way."
       },
       {
         "type": "heading",
@@ -300,8 +294,7 @@
       },
       {
         "type": "quote",
-        "text": "Nobody needs to memorise 144 facts. They need 21 facts, a way to work out the rest, and five minutes a day.",
-        "author": "How we explain it to parents"
+        "text": "Nobody needs to memorise 144 facts. They need 21 facts, a way to work out the rest, and five minutes a day."
       },
       {
         "type": "heading",
@@ -311,11 +304,11 @@
       },
       {
         "type": "paragraph",
-        "text": "Times tables are one small part of our <a href='/online-maths-tuition'>live online maths classes</a>, but they are a revealing one. When a child struggles with them, a good teacher can usually find out why in a single session: a gap in understanding, anxiety, or just no system for practice. Classes are live, one to one or in small groups of 5 to 10, and every student gets a teacher who checks understanding, not just answers. For students who have fallen behind, our <a href='/math-catch-up-program'>maths catch-up programme</a> rebuilds the foundations in order."
+        "text": "Times tables are one small part of our <a href='/online-maths-tuition'>live online maths classes</a>, and they show our approach clearly: children work out a rule for themselves before they see it written down, and mistakes are treated as information about what to practise next, not as failures. You can read more about that on <a href='/how-we-teach'>how we teach</a>. Classes are one to one or in small groups of 5 to 10. For students who have fallen behind, our <a href='/math-catch-up-program'>maths catch-up programme</a> rebuilds the foundations in order."
       },
       {
         "type": "embed",
-        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
       },
       {
         "type": "heading",

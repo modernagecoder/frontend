@@ -19,7 +19,7 @@
     },
     "date": "2026-09-28",
     "dateModified": "2026-09-28",
-    "category": "Maths",
+    "category": "Mathematics",
     "tags": [
       "Maths",
       "Negative Numbers",
@@ -50,12 +50,6 @@
       {
         "type": "paragraph",
         "text": "This guide explains negative numbers with the pictures and stories that make them sensible: the number line, temperature, money, and a simple pattern that shows exactly why two negatives make a positive. The calculations were checked by running them in Python, and the output is shown with each one."
-      },
-      {
-        "type": "callout",
-        "calloutType": "info",
-        "title": "The short version",
-        "text": "Negative numbers are numbers below zero, like temperatures below freezing or money owed. On a number line, further left is always smaller, so -5 is less than -2. Subtracting a negative is the same as adding: 5 - (-3) = 8. When multiplying or dividing, the same signs give a positive answer and different signs give a negative answer."
       },
       {
         "type": "heading",
@@ -295,8 +289,7 @@
       },
       {
         "type": "quote",
-        "text": "If a student can place it on a number line and tell the story with temperatures, the rules follow on their own.",
-        "author": "How our maths teachers approach negatives"
+        "text": "If a student can place it on a number line and tell the story with temperatures, the rules follow on their own."
       },
       {
         "type": "heading",
@@ -306,11 +299,11 @@
       },
       {
         "type": "paragraph",
-        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, negative numbers are introduced with number lines, temperature and money before any rules, and the multiplication pattern above is shown rather than told. Students then check their answers with a few lines of code, which makes the sign rules feel less like magic. Classes are one to one or in small groups of 5 to 10."
+        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, we try to show why a rule is true before asking anyone to remember it, and the sign rules for negative numbers are a clear example. Mistakes with signs are treated as clues about what to revisit, not as failures. The approach is described on our <a href='/how-we-teach'>how we teach</a> page. Classes are one to one or in small groups of 5 to 10."
       },
       {
         "type": "embed",
-        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
       },
       {
         "type": "heading",

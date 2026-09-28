@@ -20,7 +20,7 @@
     },
     "date": "2026-09-28",
     "dateModified": "2026-09-28",
-    "category": "Maths",
+    "category": "Mathematics",
     "tags": [
       "Maths",
       "Geometry",
@@ -51,12 +51,6 @@
       {
         "type": "paragraph",
         "text": "This guide explains what the theorem says, proves it with a picture you can check with scissors, shows how to use it in both directions, and covers the converse, Pythagorean triples, distance and 3D. Every numerical answer here was checked by running it in Python, and the code is included."
-      },
-      {
-        "type": "callout",
-        "calloutType": "info",
-        "title": "The short version",
-        "text": "In a right-angled triangle, the square of the longest side (the hypotenuse) equals the sum of the squares of the other two sides: a² + b² = c². To find the hypotenuse, add the squares and take the square root. To find a shorter side, subtract. The theorem only works for right-angled triangles, and the converse lets you test whether a triangle has a right angle."
       },
       {
         "type": "heading",
@@ -257,8 +251,7 @@
       },
       {
         "type": "quote",
-        "text": "If a student can prove it with four paper triangles, they will never forget which side is c.",
-        "author": "Our maths teachers, most weeks"
+        "text": "If a student can prove it with four paper triangles, they will never forget which side is c."
       },
       {
         "type": "heading",
@@ -268,11 +261,11 @@
       },
       {
         "type": "paragraph",
-        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, Pythagoras is taught proof first: students rearrange the triangles, check the areas, and only then learn the formula and the add-or-subtract decision. Older students go on to coordinates, 3D and trigonometry, which builds directly on it. We teach it for school syllabuses including <a href='/maths-class-10'>Class 10 maths</a> and <a href='/gcse-maths-tuition-online'>GCSE maths</a>, one to one or in small groups of 5 to 10."
+        "text": "Our teaching principles, set out on the <a href='/how-we-teach'>how we teach</a> page, include deriving a rule before seeing it written down, and Pythagoras is the classic case: a student who has seen why it works rarely forgets it. We teach it in our <a href='/online-maths-tuition'>live online maths classes</a> for syllabuses including <a href='/maths-class-10'>Class 10 maths</a> and <a href='/gcse-maths-tuition-online'>GCSE maths</a>, one to one or in small groups of 5 to 10."
       },
       {
         "type": "embed",
-        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
       },
       {
         "type": "heading",

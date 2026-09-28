@@ -20,7 +20,7 @@
     },
     "date": "2026-09-28",
     "dateModified": "2026-09-28",
-    "category": "Maths",
+    "category": "Mathematics",
     "tags": [
       "Maths",
       "BODMAS",
@@ -51,12 +51,6 @@
       {
         "type": "paragraph",
         "text": "This guide explains what each letter means, the one detail that causes most BODMAS mistakes, how it relates to PEMDAS and BIDMAS, and why expressions like 6 &#247; 2(1 + 2) start arguments online. Every calculation is worked through step by step, and the examples were checked by running them in Python, which follows the same rule."
-      },
-      {
-        "type": "callout",
-        "calloutType": "info",
-        "title": "The short version",
-        "text": "BODMAS means Brackets, Orders (powers and roots), Division and Multiplication, Addition and Subtraction. It has four levels, not six: division and multiplication share a level, and addition and subtraction share a level. Within a level, you work from left to right. So 10 - 3 + 2 is 9, not 5."
       },
       {
         "type": "heading",
@@ -296,11 +290,11 @@
       },
       {
         "type": "paragraph",
-        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, students learn BODMAS as four levels with a left to right rule, write one step per line, and then check their own work, sometimes with a few lines of code. Classes are one to one or in small groups of 5 to 10, for learners from 6 to 67."
+        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, students are encouraged to work out why a rule has to be the way it is before they rely on it, which is why the left to right idea gets as much attention as the acronym. Mistakes are treated as clues rather than failures. Our <a href='/how-we-teach'>how we teach</a> page explains the approach. Classes are one to one or in small groups of 5 to 10, for learners from 6 to 67."
       },
       {
         "type": "embed",
-        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
       },
       {
         "type": "heading",

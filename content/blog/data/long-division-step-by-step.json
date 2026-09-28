@@ -19,7 +19,7 @@
     },
     "date": "2026-09-28",
     "dateModified": "2026-09-28",
-    "category": "Maths",
+    "category": "Mathematics",
     "tags": [
       "Maths",
       "Division",
@@ -50,12 +50,6 @@
       {
         "type": "paragraph",
         "text": "This guide breaks long division into the four moves that repeat, walks through several examples one step at a time, shows the mistake that causes most wrong answers, and explains why the method works at all. Every worked example here was checked by a short Python program that performs long division exactly the way you do it on paper, and prints each step."
-      },
-      {
-        "type": "callout",
-        "calloutType": "info",
-        "title": "The short version",
-        "text": "Long division repeats four moves: Divide (how many whole times does the divisor go in?), Multiply (that number by the divisor), Subtract (to find what is left), and Bring down (the next digit). Repeat until there are no digits left. Whatever remains at the end is the remainder. Check by multiplying the answer by the divisor and adding the remainder."
       },
       {
         "type": "heading",
@@ -217,8 +211,7 @@
       },
       {
         "type": "quote",
-        "text": "Bringing down a digit is just trading leftover thousands for hundreds. Once a child sees that, long division stops being a ritual.",
-        "author": "Something our maths teachers say most weeks"
+        "text": "Bringing down a digit is just trading leftover thousands for hundreds. Once a child sees that, long division stops being a ritual."
       },
       {
         "type": "paragraph",
@@ -262,11 +255,11 @@
       },
       {
         "type": "paragraph",
-        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, long division is taught as place value first and procedure second: students estimate before they divide and check after they finish, every time. Teachers watch the working, not just the answer, so a missing zero or a misaligned column gets caught on the first example rather than the twentieth. Classes are one to one or in small groups of 5 to 10."
+        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, the aim is for a child to understand why a method works before practising it, and to stay with one idea until it genuinely clicks. For long division that means place value first and the procedure second. Our <a href='/how-we-teach'>how we teach</a> page describes the approach. Classes are one to one or in small groups of 5 to 10."
       },
       {
         "type": "embed",
-        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
       },
       {
         "type": "heading",

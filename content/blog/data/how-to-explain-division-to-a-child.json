@@ -19,7 +19,7 @@
     },
     "date": "2026-09-28",
     "dateModified": "2026-09-28",
-    "category": "Maths",
+    "category": "Mathematics",
     "tags": [
       "Maths",
       "Division",
@@ -50,12 +50,6 @@
       {
         "type": "paragraph",
         "text": "This guide gives you a way to explain division that a child can see and hold. It covers the two different meanings of division, which most adults have never noticed, how arrays connect division to times tables, what to do with remainders, why you cannot divide by zero, and the order to teach it in. The small Python programs along the way are optional extras for children who enjoy computers, and every output shown is real."
-      },
-      {
-        "type": "callout",
-        "calloutType": "info",
-        "title": "The short version",
-        "text": "Division answers two different questions. Sharing: 12 sweets between 3 children, how many each? Grouping: 12 sweets in bags of 3, how many bags? Show both with real objects, link division to multiplication with arrays and fact families, and treat remainders as part of the story rather than a nuisance. Written methods like long division come last."
       },
       {
         "type": "heading",
@@ -256,8 +250,7 @@
       },
       {
         "type": "quote",
-        "text": "Ask a child to share sweets fairly and they will do division perfectly. Write 12 &#247; 3 on a worksheet and many of them freeze. Start with the sweets.",
-        "author": "What our primary maths teachers see"
+        "text": "Ask a child to share sweets fairly and they will do division perfectly. Write 12 &#247; 3 on a worksheet and many of them freeze. Start with the sweets."
       },
       {
         "type": "heading",
@@ -267,11 +260,11 @@
       },
       {
         "type": "paragraph",
-        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a> for younger learners, division starts with objects and drawings on screen, moves through arrays and fact families, and only then reaches written methods. Teachers listen to how a child explains their answer, which is the quickest way to spot whether they understand sharing, grouping, or neither. Classes are one to one or in small groups of 5 to 10."
+        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a> for younger learners, we aim for a child to understand what division means before practising a method, and to stay on one idea until it genuinely clicks, as described on our <a href='/how-we-teach'>how we teach</a> page. Classes are one to one or in small groups of 5 to 10."
       },
       {
         "type": "embed",
-        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
       },
       {
         "type": "heading",

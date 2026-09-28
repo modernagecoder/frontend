@@ -20,7 +20,7 @@
     },
     "date": "2026-09-28",
     "dateModified": "2026-09-28",
-    "category": "Maths",
+    "category": "Mathematics",
     "tags": [
       "Maths",
       "Geometry",
@@ -51,12 +51,6 @@
       {
         "type": "paragraph",
         "text": "This guide explains the difference with one simple picture, shows why the units are different, works through rectangles, compound L-shapes and circles, and covers the surprising results that make the topic click, calculated by short Python programs whose real output is shown. It is written for students and for parents helping with homework."
-      },
-      {
-        "type": "callout",
-        "calloutType": "info",
-        "title": "The short version",
-        "text": "Perimeter is the total distance around the outside of a shape, measured in units of length such as cm or m. Area is the amount of surface inside, measured in square units such as cm² or m². For a rectangle, perimeter = 2 x (length + width) and area = length x width. Shapes with the same perimeter can have different areas, and a square gives the most area for a given perimeter."
       },
       {
         "type": "heading",
@@ -277,8 +271,7 @@
       },
       {
         "type": "quote",
-        "text": "Ask: could I walk along it, or could I paint it? That one question fixes most area and perimeter mistakes.",
-        "author": "How our teachers introduce the topic"
+        "text": "Ask: could I walk along it, or could I paint it? That one question fixes most area and perimeter mistakes."
       },
       {
         "type": "heading",
@@ -288,11 +281,11 @@
       },
       {
         "type": "paragraph",
-        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, students build shapes on a grid, count squares and walk the edges before using formulas, then explore the fixed-perimeter and fixed-area puzzles above. Older students go on to circles, volume and surface area, which build directly on the same two ideas. Classes are one to one or in small groups of 5 to 10."
+        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, students are encouraged to work out a formula before they are handed it, which is the heart of the approach on our <a href='/how-we-teach'>how we teach</a> page. Area and perimeter lead on to circles, volume and surface area, which build directly on the same two ideas. Classes are one to one or in small groups of 5 to 10."
       },
       {
         "type": "embed",
-        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
       },
       {
         "type": "heading",

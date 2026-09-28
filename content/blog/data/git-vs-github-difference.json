@@ -52,12 +52,6 @@
         "text": "Here is the one-line answer, then the proper explanation. <strong>Git is a tool on your computer that records every version of a project. GitHub is a website that stores Git projects online and adds tools for sharing and working together.</strong> Below you will see a real Git session, run on a real project, with the exact output it produced, and the point where GitHub enters the picture."
       },
       {
-        "type": "callout",
-        "calloutType": "info",
-        "title": "The short version",
-        "text": "Git is free, open-source version control software that runs on your own computer and works offline. GitHub is an online service, owned by Microsoft, that hosts Git repositories and adds pull requests, issues, automation and a public profile. You can use Git without GitHub. GitHub is built around Git."
-      },
-      {
         "type": "heading",
         "level": 2,
         "text": "Git and GitHub side by side",
@@ -261,8 +255,7 @@
       },
       {
         "type": "quote",
-        "text": "Git is the habit. GitHub is where other people can see that you have it.",
-        "author": "How we put it to students"
+        "text": "Git is the habit. GitHub is where other people can see that you have it."
       },
       {
         "type": "heading",
@@ -272,11 +265,11 @@
       },
       {
         "type": "paragraph",
-        "text": "We teach Git and GitHub as a short live course, taught by the same teachers who teach our programming classes, with every command typed and explained on the learner's own project. There are versions for <a href='/courses/git-github-version-control-course-for-teens'>teens</a> and for <a href='/courses/git-github-version-control-course-for-college-students'>college students</a>, and Git is also built into our longer programming courses so projects are version-controlled from the first week. Classes are one to one or in small groups of 5 to 10."
+        "text": "We teach Git and GitHub as a short live course, with every command typed on the learner's own project rather than watched on a slide, in line with the learning-by-building approach on our <a href='/how-we-teach'>how we teach</a> page. There are versions for <a href='/courses/git-github-version-control-course-for-teens'>teens</a> and for <a href='/courses/git-github-version-control-course-for-college-students'>college students</a>. Classes are one to one or in small groups of 5 to 10."
       },
       {
         "type": "embed",
-        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
       },
       {
         "type": "heading",
