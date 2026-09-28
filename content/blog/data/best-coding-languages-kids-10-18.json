@@ -793,6 +793,10 @@
       },
       {
         "type": "paragraph",
+        "text": "The jump from JavaScript to React is smaller when a few specific JavaScript features are solid first. Our guide to <a href='/blog/javascript-to-learn-before-react'>what JavaScript to learn before React</a> lists them, with a simple readiness test."
+      },
+      {
+        "type": "paragraph",
         "text": "Check out our <a href='/courses/frontend-development-masterclass-for-teens'>Web Development course for teens</a>."
       },
       {

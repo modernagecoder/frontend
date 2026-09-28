@@ -776,6 +776,10 @@
         ]
       },
       {
+        "type": "paragraph",
+        "text": "Before you start React, make sure a handful of language features feel natural, especially spread, map and filter, closures and async code. Our checklist of <a href='/blog/javascript-to-learn-before-react'>the JavaScript to learn before React</a> shows each one with a runnable example and explains the bugs that appear when they are missing."
+      },
+      {
         "type": "callout",
         "calloutType": "info",
         "title": "Learning Path Recommendation",

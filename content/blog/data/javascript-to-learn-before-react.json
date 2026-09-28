@@ -1,0 +1,397 @@
+{
+  "meta": {
+    "slug": "javascript-to-learn-before-react",
+    "title": "What JavaScript to Learn Before React (with Examples)",
+    "description": "The JavaScript React relies on: spread, map, &&, closures, async and more, each with a runnable example, plus a readiness test and a learning order.",
+    "keywords": [
+      "javascript to learn before react",
+      "what to learn before react",
+      "how much javascript before react",
+      "javascript concepts for react",
+      "react prerequisites",
+      "why is my react state not updating",
+      "react shows 0"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Programming",
+    "tags": [
+      "JavaScript",
+      "React",
+      "Web Development",
+      "Beginners"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "Before React, learn core JavaScript (variables, functions, loops, arrays, objects) plus eight features React uses constantly: arrow functions, destructuring and spread, immutability (never push to state), map and filter for lists, the && and ternary operators for conditional content, closures for event handlers, promises with async and await for loading data, and import and export for components. A good readiness test: build a to-do list in plain JavaScript without a tutorial."
+  },
+  "hero": {
+    "title": "What JavaScript to Learn Before React",
+    "subtitle": "Most React bugs are JavaScript bugs in disguise. Here are the language features React leans on, each with a runnable example and its real output.",
+    "featuredImage": {
+      "url": "/images/blog/javascript-to-learn-before-react/00-hero.png",
+      "alt": "Checklist of JavaScript concepts to learn before React: arrow functions, destructuring and spread, map and filter, && and ternary, closures, async and await, import and export"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "React is the most popular way to build web interfaces, and it is tempting to jump straight in. Many learners do, and then hit a wall of confusing bugs: a list that will not update, a stray 0 on the page, a click handler that shows an old value. Almost none of these are React problems. They are JavaScript problems wearing a React costume."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide lists the JavaScript you actually need before React, why each piece matters, and a small example of each that you can run yourself in Node or the browser console. Every output shown below comes from running the code. By the end you will know whether you are ready, and exactly what to practise if you are not."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How much JavaScript do you need before React?",
+        "id": "how-much"
+      },
+      {
+        "type": "paragraph",
+        "text": "Less than a whole textbook, but more than most people start with. You do not need to know every corner of the language. You do need to be comfortable with core JavaScript (variables, functions, if statements, loops, arrays and objects) and then eight specific features that React code uses on almost every line."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/javascript-to-learn-before-react/01-map.png",
+        "alt": "Seven React features and the JavaScript concept each relies on: props on destructuring, state updates on spread, lists on map and filter, show or hide on && and ternary, event handlers on closures, loading data on promises, components on import and export",
+        "caption": "React is a thin layer. Most of what you write is plain JavaScript."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "A quick readiness test",
+        "text": "Can you build a to-do list in plain JavaScript, with add, delete and a count of remaining items, without following a tutorial? If yes, you are ready for React. If not, that project is the best preparation there is. Our list of <a href='/blog/html-css-javascript-project-ideas'>HTML, CSS and JavaScript project ideas</a> has more to try."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "1. Arrow functions",
+        "id": "arrow-functions"
+      },
+      {
+        "type": "paragraph",
+        "text": "React code is full of short functions passed to other functions: to <code>map</code>, to <code>onClick</code>, to <code>useEffect</code>. They are almost always written as arrow functions, so you need to read <code>s =&gt; s.score &gt;= 50</code> as easily as a normal function. Know the two forms: a single expression returns its value automatically, while curly braces need an explicit <code>return</code>. Forgetting that return is one of the most common beginner bugs."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "2. Destructuring and spread",
+        "id": "destructuring-spread"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every React component receives its inputs, called props, as one object, and most components pull out the pieces they need with destructuring. State updates use the spread operator to build a new object with one value changed:"
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "// 4. Destructuring and spread, the way props and state updates use them\nconst user = { name: \"Asha\", age: 14, city: \"Pune\" };\nconst { name, ...rest } = user;\nconsole.log(name, rest);\n\nconst older = { ...user, age: user.age + 1 };\nconsole.log(user.age, older.age);",
+        "title": "destructuring.js"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Asha { age: 14, city: 'Pune' }\n14 15",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice that <code>user</code> still has age 14. Spread made a new object. That detail matters more than it looks, as the next section shows."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "3. Why you must not mutate state",
+        "id": "immutability"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is the concept that trips up the most React beginners. React decides whether to re-render by checking if the new state is a different object from the old one, using a comparison like <code>Object.is</code>. If you change an array in place with <code>push</code>, it is still the same array, so React thinks nothing happened:"
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "// 1. Mutating state keeps the same reference, so React sees \"no change\"\nconst todos = [\"read\", \"code\"];\nconst sameList = todos;\nsameList.push(\"sleep\");\nconsole.log(\"mutated, same object?\", Object.is(todos, sameList));\n\nconst newList = [...todos, \"eat\"];\nconsole.log(\"copied, same object?\", Object.is(todos, newList));\nconsole.log(newList);",
+        "title": "mutation.js"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "mutated, same object? true\ncopied, same object? false\n[ 'read', 'code', 'sleep', 'eat' ]",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/javascript-to-learn-before-react/02-reference.png",
+        "alt": "Pushing onto the same array keeps one shared reference so Object.is returns true and React skips the update, while spreading into a new array returns false and triggers a re-render",
+        "caption": "Same object means no update. A new object means React re-renders."
+      },
+      {
+        "type": "paragraph",
+        "text": "The rule to remember: in React, never change state directly. Build a new array or object with spread, <code>map</code> or <code>filter</code>, and hand that to the state setter."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "4. map and filter",
+        "id": "map-filter"
+      },
+      {
+        "type": "paragraph",
+        "text": "In React you do not write loops to show lists. You transform an array of data into an array of elements with <code>map</code>, often after narrowing it with <code>filter</code>. Both return a new array and leave the original alone, which is exactly the immutability React wants:"
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "// 3. map returns a new array, filter keeps what passes\nconst students = [\n  { id: 1, name: \"Asha\", score: 82 },\n  { id: 2, name: \"Ben\", score: 47 },\n  { id: 3, name: \"Chen\", score: 91 },\n];\nconst passed = students.filter(s => s.score >= 50);\nconst rows = passed.map(s => `<li key=${s.id}>${s.name}: ${s.score}</li>`);\nconsole.log(rows);\nconsole.log(\"original untouched:\", students.length);",
+        "title": "lists.js"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[ '<li key=1>Asha: 82</li>', '<li key=3>Chen: 91</li>' ]\noriginal untouched: 3",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "In real React code the template strings become JSX, and the <code>key</code> is an actual prop that helps React track which item is which. The thinking is identical. If <code>map</code> and <code>filter</code> feel natural, React lists will too."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "5. && and the ternary operator",
+        "id": "conditional"
+      },
+      {
+        "type": "paragraph",
+        "text": "React has no <code>if</code> inside JSX, so conditional content is written with <code>&amp;&amp;</code> or the ternary <code>condition ? a : b</code>. You need to know precisely what <code>&amp;&amp;</code> returns, because it is not always true or false:"
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "// 2. && returns the left side when it is falsy\nconst count = 0;\nconsole.log(count && \"You have messages\");\nconsole.log(count > 0 && \"You have messages\");\nconsole.log(3 && \"You have messages\");",
+        "title": "and.js"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "0\nfalse\nYou have messages",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/javascript-to-learn-before-react/03-and-trap.png",
+        "alt": "count && text returns 0 when count is 0, and React draws the number 0 on the page; count > 0 && text returns false, which React does not draw",
+        "caption": "The single most common cause of a mysterious 0 on a React page."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "The fix",
+        "text": "Make the left side a real true or false: write <code>count &gt; 0 &amp;&amp; ...</code> instead of <code>count &amp;&amp; ...</code>, or use a ternary."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "6. Closures",
+        "id": "closures"
+      },
+      {
+        "type": "paragraph",
+        "text": "A closure is a function that remembers the variables from the place it was created. Every event handler in a React component is a closure, and each render creates fresh handlers that remember that render's values. This explains the famous \"stale value\" puzzle, where a handler logs an old number:"
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "// 5. Each \"render\" creates a handler that remembers that render's value\nlet count = 0;\nfunction render() {\n  const countThisRender = count;\n  return function handleClick() {\n    console.log(\"this handler sees\", countThisRender);\n  };\n}\nconst firstHandler = render();\ncount = 5;\nconst secondHandler = render();\nfirstHandler();\nsecondHandler();",
+        "title": "closure.js"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "this handler sees 0\nthis handler sees 5",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "The first handler was created when <code>count</code> was 0, so it still sees 0, even after <code>count</code> changed. React works the same way: a handler belongs to the render that made it. Once you understand this in plain JavaScript, the React behaviour stops being mysterious."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "7. Promises, async and await",
+        "id": "async"
+      },
+      {
+        "type": "paragraph",
+        "text": "Almost every real app loads data from somewhere, usually through an <a href='/blog/what-is-an-api-explained-simply'>API</a>. That means promises and <code>async</code> functions. The key idea is order: the page does not stop and wait for the data."
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "// 6. async/await: the order things actually happen\nfunction fakeFetch(data, ms) {\n  return new Promise(resolve => setTimeout(() => resolve(data), ms));\n}\nasync function loadProfile() {\n  console.log(\"1. request sent\");\n  const profile = await fakeFetch({ name: \"Asha\" }, 100);\n  console.log(\"3. data arrived:\", profile.name);\n}\nloadProfile();\nconsole.log(\"2. page keeps rendering meanwhile\");",
+        "title": "async.js"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "1. request sent\n2. page keeps rendering meanwhile\n3. data arrived: Asha",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Line 2 prints before line 3, even though it comes later in the file. In React, this is why a component usually renders once with a loading message, then again when the data arrives."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "8. Modules: import and export",
+        "id": "modules"
+      },
+      {
+        "type": "paragraph",
+        "text": "Each React component usually lives in its own file and is shared with <code>export</code> and <code>import</code>. You should know the difference between a default export (<code>import Button from './Button'</code>) and a named export (<code>import { formatDate } from './utils'</code>). Mixing them up causes one of the most common error messages new React developers see."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What you can safely skip for now",
+        "id": "skip"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Classes and <code>this</code>.</strong> Modern React uses function components. You will meet classes in older code, but you do not need them to start.",
+          "<strong>Prototypes, generators and proxies.</strong> Useful to know eventually, rarely needed in everyday React.",
+          "<strong>Advanced DOM work.</strong> Knowing how to select an element and handle a click is enough. React takes over the DOM for you.",
+          "<strong>Every array method.</strong> <code>map</code>, <code>filter</code>, <code>find</code> and <code>some</code> cover most React needs. <code>reduce</code> can wait."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A sensible learning order",
+        "id": "roadmap"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/javascript-to-learn-before-react/04-roadmap.png",
+        "alt": "Five steps: HTML and CSS, core JavaScript, the eight React-critical concepts, one plain JavaScript project, then React",
+        "caption": "The plain JavaScript project in step 4 is where the pieces join up."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Stage",
+          "What to be able to do",
+          "Check yourself"
+        ],
+        "rows": [
+          [
+            "HTML and CSS",
+            "Build and style a simple page",
+            "A profile card that looks right on a phone"
+          ],
+          [
+            "Core JavaScript",
+            "Functions, loops, arrays, objects",
+            "Find the highest score in an array of objects"
+          ],
+          [
+            "React-critical JS",
+            "The eight concepts above",
+            "Explain each output in this guide without running it"
+          ],
+          [
+            "Plain JS project",
+            "Update the page from data",
+            "A to-do list with add, delete and a count"
+          ],
+          [
+            "React",
+            "Components, props, state",
+            "Rebuild the same to-do list in React"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Rebuilding the same project in React is a powerful exercise, because you already understand the problem and can focus entirely on how React changes the approach. If you are still deciding between languages, our comparison of <a href='/blog/python-vs-javascript-which-to-learn-first'>Python and JavaScript as a first language</a> may help."
+      },
+      {
+        "type": "quote",
+        "text": "React is easy once JavaScript is easy. Most React confusion is JavaScript confusion in disguise."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "On our <a href='/how-we-teach'>how we teach</a> page, two principles shape how we approach React: learning by building, and staying with one concept until it is fully understood, including tracing code line by line. So students build the plain JavaScript version of a project first and predict each output before running it, then rebuild it in React. Our <a href='/courses/react-for-teens-complete-masterclass'>React course for teens</a> and <a href='/courses/react-js-complete-masterclass-college'>React masterclass for college students and adults</a> both follow that path, one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What JavaScript should I learn before React?",
+            "content": "Core JavaScript first: variables, functions, conditions, loops, arrays and objects. Then eight features React relies on: arrow functions, destructuring and spread, not mutating data, map and filter, the && and ternary operators, closures, promises with async and await, and import and export."
+          },
+          {
+            "title": "How long should I learn JavaScript before starting React?",
+            "content": "It depends on your pace and prior experience, so a fixed number of weeks is less useful than a test. If you can build a small to-do list in plain JavaScript without a tutorial, you are ready to start React."
+          },
+          {
+            "title": "Can I learn React without knowing JavaScript?",
+            "content": "You can follow a tutorial, but you will struggle as soon as something goes wrong, because most React bugs are really JavaScript bugs. Learning the core language first is faster overall."
+          },
+          {
+            "title": "Do I need to learn HTML and CSS before React?",
+            "content": "Yes. React produces HTML elements and you style them with CSS, so you need the basics of both. You do not need to be an expert."
+          },
+          {
+            "title": "Why does my React page show a 0?",
+            "content": "Usually because of code like count && something. When count is 0, the && expression returns 0, and React displays numbers. Use count > 0 && something or a ternary instead."
+          },
+          {
+            "title": "Why does my React state not update when I push to an array?",
+            "content": "Because push changes the existing array instead of creating a new one. React compares the old and new state and sees the same array, so it does not re-render. Create a new array with spread, map or filter instead."
+          },
+          {
+            "title": "Should I learn TypeScript before React?",
+            "content": "No. Learn JavaScript and React first. TypeScript adds type checking on top of JavaScript and is easier to learn once you are comfortable with both."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "javascript-basics",
+    "html-css-javascript-project-ideas",
+    "python-vs-javascript-which-to-learn-first"
+  ]
+}
