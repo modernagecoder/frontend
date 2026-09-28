@@ -100,6 +100,10 @@
         "text": "Read the corners. On Paper 1, knowledge is worth 4.4 per cent of the qualification and building things is worth 25.6. On Paper 2, those numbers swap places. It is the same subject and the same student, graded on two more or less opposite abilities, in two rooms a week apart."
       },
       {
+        "type": "paragraph",
+        "text": "For the data representation questions on Paper 1, practise conversions until they are automatic. <a href='/blog/binary-numbers-explained'>Binary numbers explained</a> walks through binary to decimal, decimal to binary, binary addition and overflow step by step."
+      },
+      {
         "type": "callout",
         "calloutType": "info",
         "title": "Why this explains the pattern",

@@ -55,6 +55,10 @@
         "text": "Cambridge IGCSE Computer Science 0478 is assessed by two exam papers, each worth 50 percent: one theory paper and one practical, programming-focused paper. It splits into two broad areas, computer systems, and algorithms, programming and logic. Students write code in Python, Visual Basic or Java. Most of the marks reward understanding and applying concepts, not memorising facts, so genuine understanding is what carries a child through."
       },
       {
+        "type": "paragraph",
+        "text": "Data representation is one of the first topics on the theory paper. If your child is starting it, <a href='/blog/binary-numbers-explained'>binary numbers explained</a> covers conversion both ways, binary addition, overflow and hexadecimal, with every step worked through."
+      },
+      {
         "type": "callout",
         "text": "IGCSE Computer Science is not a memory test. Around 60 percent of the marks reward applying and reasoning about concepts rather than just recalling them. A child who truly understands how a computer works and can actually write code will always beat one who crammed definitions."
       },

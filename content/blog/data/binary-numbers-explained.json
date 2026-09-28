@@ -1,0 +1,360 @@
+{
+  "meta": {
+    "slug": "binary-numbers-explained",
+    "title": "Binary Numbers Explained: Convert, Count and Add",
+    "description": "Binary numbers explained simply: why computers use binary, how to convert binary to decimal and back, counting, bits and bytes, addition, overflow and hex.",
+    "keywords": [
+      "binary numbers explained",
+      "how does binary work",
+      "binary to decimal",
+      "decimal to binary",
+      "binary addition",
+      "bits and bytes",
+      "binary for kids",
+      "hexadecimal explained"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Computer Science",
+    "tags": [
+      "Computer Science",
+      "Binary",
+      "GCSE",
+      "Beginners"
+    ],
+    "readTime": "9 min read",
+    "featured": false,
+    "tldr": "Binary is base 2: numbers are written with only 0 and 1, and each column is worth twice the one to its right (1, 2, 4, 8, 16, 32, 64, 128). To convert binary to decimal, add the column values that hold a 1, so 01001101 is 64 + 8 + 4 + 1 = 77. To convert decimal to binary, keep dividing by 2 and read the remainders from the bottom up, so 45 is 101101. Eight bits make a byte, which holds 256 values from 0 to 255. Adding past 255 in 8 bits causes overflow."
+  },
+  "hero": {
+    "title": "Binary Numbers Explained",
+    "subtitle": "How computers count with only two digits: place value in base 2, converting both ways, counting, bits and bytes, binary addition, overflow and hexadecimal.",
+    "featuredImage": {
+      "url": "/images/blog/binary-numbers-explained/00-hero.png",
+      "alt": "Binary numbers explained: eight switches showing 01001101, with 64, 8, 4 and 1 switched on to make 77"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every photo, message, song and game on your phone is stored as a long list of 0s and 1s. That is binary, the number system computers use. It sounds alien, but binary works exactly like the decimal numbers you already use, with one change: instead of ten digits, it has only two. Once that clicks, converting between binary and decimal takes a minute, and a lot of computing suddenly makes sense."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide explains binary from the ground up: why computers use it, how place value works in base 2, how to convert both ways, how to count and add in binary, what bits and bytes are, and where hexadecimal fits in. Every conversion is shown step by step by a short Python program, and checked against Python's own built-in functions."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "Binary is base 2: each column is worth twice the one to its right (1, 2, 4, 8, 16, 32, 64, 128). To turn binary into decimal, add up the column values that have a 1. To turn decimal into binary, keep dividing by 2 and read the remainders from the bottom up. Eight bits make a byte, which can store 256 different values, from 0 to 255."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why computers use binary",
+        "id": "why-binary"
+      },
+      {
+        "type": "paragraph",
+        "text": "Inside a computer, information is stored and moved as electrical signals, and the most reliable signal to detect is a simple one: on or off, high voltage or low voltage. Telling ten different voltage levels apart would be fragile, because a small bit of electrical noise could turn a 6 into a 7. Telling on from off is robust. So computers use a number system with exactly two digits: 1 for on and 0 for off."
+      },
+      {
+        "type": "paragraph",
+        "text": "Each 0 or 1 is called a <strong>bit</strong>, short for binary digit. With enough bits, you can represent any number, and with an agreed code, any letter, colour or sound."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Place value: the same idea as decimal",
+        "id": "place-value"
+      },
+      {
+        "type": "paragraph",
+        "text": "In ordinary decimal numbers, each column is worth ten times the column to its right: ones, tens, hundreds, thousands. The number 345 means 3 hundreds, 4 tens and 5 ones. Binary uses exactly the same idea, but each column is worth <strong>two</strong> times the column to its right: 1, 2, 4, 8, 16, 32, 64, 128 and so on."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/binary-numbers-explained/01-place-values.png",
+        "alt": "Decimal place values as powers of 10 compared with binary place values as powers of 2",
+        "caption": "Every number system works this way. Only the multiplier changes."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Converting binary to decimal",
+        "id": "binary-to-decimal"
+      },
+      {
+        "type": "paragraph",
+        "text": "To read a binary number, write the column values above the bits, then add up the columns that contain a 1. Here is 01001101, done by a short program that shows each column it adds:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def binary_to_decimal(bits):\n    total = 0\n    place = 2 ** (len(bits) - 1)\n    for bit in bits:\n        if bit == \"1\":\n            print(f\"  1 in the {place:>3}s column  -> add {place}\")\n            total += place\n        place //= 2\n    return total\n\nprint(\"01001101 =\", binary_to_decimal(\"01001101\"))\nprint(\"check with Python's int():\", int(\"01001101\", 2))",
+        "title": "binary_to_decimal.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "  1 in the  64s column  -> add 64\n  1 in the   8s column  -> add 8\n  1 in the   4s column  -> add 4\n  1 in the   1s column  -> add 1\n01001101 = 77\ncheck with Python's int(): 77",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "So 01001101 is 64 + 8 + 4 + 1 = 77. The zero at the front makes no difference, just as 077 is the same as 77, but computers often write numbers with a fixed number of bits, so leading zeros are common."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Converting decimal to binary",
+        "id": "decimal-to-binary"
+      },
+      {
+        "type": "paragraph",
+        "text": "There are two methods. The first is to find the largest column value that fits, write a 1 there, subtract it, and repeat. For 45: 32 fits (leaving 13), 16 does not, 8 fits (leaving 5), 4 fits (leaving 1), 2 does not, 1 fits. That gives 101101."
+      },
+      {
+        "type": "paragraph",
+        "text": "The second method is easier to do without thinking and is exactly what computers do: divide by 2 over and over, writing down the remainder each time, then read the remainders from the bottom up."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def decimal_to_binary(n):\n    remainders = []\n    while n > 0:\n        print(f\"  {n:>3} / 2 = {n // 2:>3}  remainder {n % 2}\")\n        remainders.append(str(n % 2))\n        n //= 2\n    return \"\".join(reversed(remainders))     # read the remainders from the bottom up\n\nprint(\"45 in binary is\", decimal_to_binary(45))\nprint(\"check with Python's bin():\", bin(45))",
+        "title": "decimal_to_binary.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "   45 / 2 =  22  remainder 1\n   22 / 2 =  11  remainder 0\n   11 / 2 =   5  remainder 1\n    5 / 2 =   2  remainder 1\n    2 / 2 =   1  remainder 0\n    1 / 2 =   0  remainder 1\n45 in binary is 101101\ncheck with Python's bin(): 0b101101",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/binary-numbers-explained/02-divide-by-two.png",
+        "alt": "Converting 45 to binary by repeated division by 2, with remainders read from the bottom up to give 101101",
+        "caption": "Each remainder is one bit. The last one you write is the first bit of the answer."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Always check your answer",
+        "text": "Convert back the other way. 101101 is 32 + 8 + 4 + 1 = 45, so the answer is right. In exams this takes twenty seconds and catches the most common mistake, reading the remainders from the top instead of the bottom."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Counting in binary",
+        "id": "counting"
+      },
+      {
+        "type": "paragraph",
+        "text": "Counting in binary follows the same rule as counting in decimal: when a column is full, reset it to zero and carry one to the next column. In decimal, a column is full at 9. In binary, it is full at 1. So after 1 comes 10, after 11 comes 100, and after 111 comes 1000."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "for n in range(16):\n    print(f\"{n:>2} = {n:04b}\", end=\"    \" if n % 4 != 3 else \"\\n\")",
+        "title": "count_to_15.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": " 0 = 0000     1 = 0001     2 = 0010     3 = 0011\n 4 = 0100     5 = 0101     6 = 0110     7 = 0111\n 8 = 1000     9 = 1001    10 = 1010    11 = 1011\n12 = 1100    13 = 1101    14 = 1110    15 = 1111",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/binary-numbers-explained/03-counting.png",
+        "alt": "The numbers 0 to 15 written in decimal and as 4-bit binary",
+        "caption": "Four bits count from 0 to 15: sixteen values."
+      },
+      {
+        "type": "paragraph",
+        "text": "A fun way to practise with children: use your fingers as bits. Thumb is 1, index finger 2, middle 4, ring 8, little finger 16. Raised means 1. With one hand you can count from 0 to 31, and with two hands up to 1023."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Bits, bytes and why 255 keeps turning up",
+        "id": "bits-and-bytes"
+      },
+      {
+        "type": "paragraph",
+        "text": "A group of 8 bits is called a <strong>byte</strong>. Eight bits can make 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 = 256 different patterns, from 00000000 to 11111111, which are the numbers 0 to 255. That is why 255 appears all over computing: each red, green and blue value in a screen colour runs from 0 to 255, and each of the four numbers in an older-style IP address such as 192.168.1.1 is one byte."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Unit",
+          "Size",
+          "Different values"
+        ],
+        "rows": [
+          [
+            "Bit",
+            "1 binary digit",
+            "2"
+          ],
+          [
+            "Nibble",
+            "4 bits",
+            "16"
+          ],
+          [
+            "Byte",
+            "8 bits",
+            "256"
+          ],
+          [
+            "Two bytes",
+            "16 bits",
+            "65,536"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Bigger units follow: a kilobyte is about a thousand bytes, a megabyte about a million, a gigabyte about a billion. (Strictly, storage makers use powers of 1,000 while some operating systems count in powers of 1,024, which is why a new drive always seems slightly smaller than advertised.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Adding in binary, and overflow",
+        "id": "binary-addition"
+      },
+      {
+        "type": "paragraph",
+        "text": "Binary addition uses four facts: 0 + 0 = 0, 0 + 1 = 1, 1 + 1 = 10 (write 0, carry 1), and 1 + 1 + 1 = 11 (write 1, carry 1). You work from right to left, carrying just as in decimal column addition."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def add_8_bit(a, b):\n    total = int(a, 2) + int(b, 2)\n    result = format(total, \"b\").zfill(8)\n    overflow = total > 255\n    return result[-8:], overflow\n\nprint(\"00101101 + 00011011 =\", *add_8_bit(\"00101101\", \"00011011\"))\nprint(\"11111111 + 00000001 =\", *add_8_bit(\"11111111\", \"00000001\"))\nprint(\"biggest 8-bit number:\", int(\"11111111\", 2), \"   how many values:\", 2 ** 8)",
+        "title": "add_8_bit.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "00101101 + 00011011 = 01001000 False\n11111111 + 00000001 = 00000000 True\nbiggest 8-bit number: 255    how many values: 256",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/binary-numbers-explained/04-addition.png",
+        "alt": "Two binary additions: 45 plus 27 equals 72, and 255 plus 1 overflowing an 8-bit number",
+        "caption": "The second sum needs a ninth bit that an 8-bit register does not have."
+      },
+      {
+        "type": "paragraph",
+        "text": "The second line is important for exams and for real programming. 11111111 is 255, the largest number that fits in 8 bits. Add 1 and the true answer, 256, needs a ninth bit. If there is nowhere to put it, the extra 1 is lost and the result wraps around to 0. This is called <strong>overflow</strong>, and it has caused real bugs, including counters in games that suddenly jump from their maximum back to zero."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Hexadecimal: binary made readable",
+        "id": "hexadecimal"
+      },
+      {
+        "type": "paragraph",
+        "text": "Long strings of bits are hard for people to read, so programmers often use <strong>hexadecimal</strong>, base 16. It uses the digits 0 to 9 and then A to F for 10 to 15. Each hex digit stands for exactly four bits, so one byte is always two hex digits. FF is 255, which is 11111111. You have probably seen hex in colour codes on websites:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "for colour in [\"FF8800\", \"00B4D8\", \"1C1814\"]:\n    r, g, b = (int(colour[i:i + 2], 16) for i in (0, 2, 4))\n    print(f\"#{colour} -> red {r:>3}, green {g:>3}, blue {b:>3}\")\nprint(\"FF in hex =\", int(\"FF\", 16), \"in decimal =\", format(int(\"FF\", 16), \"08b\"), \"in binary\")",
+        "title": "colours.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "#FF8800 -> red 255, green 136, blue   0\n#00B4D8 -> red   0, green 180, blue 216\n#1C1814 -> red  28, green  24, blue  20\nFF in hex = 255 in decimal = 11111111 in binary",
+        "title": "Output"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where binary turns up in exams",
+        "id": "exams"
+      },
+      {
+        "type": "paragraph",
+        "text": "Number systems are part of most computer science courses. GCSE and IGCSE Computer Science include binary and hexadecimal conversion, binary addition and overflow. AP Computer Science Principles covers how data is represented in bits. CBSE Class 11 Computer Science covers number systems and conversions between them. If you are revising for one of these, our guides to <a href='/blog/how-to-revise-gcse-computer-science'>revising GCSE Computer Science</a> and <a href='/blog/igcse-computer-science-0478-pseudocode-guide'>IGCSE 0478 pseudocode</a> cover the programming side."
+      },
+      {
+        "type": "quote",
+        "text": "Binary is not a different kind of maths. It is place value with a smaller multiplier.",
+        "author": "What we tell students on day one of number systems"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In our computer science classes, students learn binary by building it: flipping switches, counting on fingers, then writing the conversion programs shown here themselves. Writing the code is the best test of understanding, because a program has no way to fake a step. We teach this within our school computer science tutoring, such as <a href='/ks3-computing-tuition-online'>KS3 computing</a>, live, one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is binary in simple terms?",
+            "content": "Binary is a way of writing numbers using only two digits, 0 and 1. Each column is worth twice the one to its right, so the columns are 1, 2, 4, 8, 16 and so on. Computers use binary because their circuits have two reliable states: on and off."
+          },
+          {
+            "title": "How do you convert binary to decimal?",
+            "content": "Write the column values 1, 2, 4, 8, 16, 32, 64, 128 above the bits from right to left, then add up the values in the columns that contain a 1. For example, 1011 is 8 + 2 + 1 = 11."
+          },
+          {
+            "title": "How do you convert decimal to binary?",
+            "content": "Keep dividing the number by 2 and write down the remainder each time, until you reach 0. Then read the remainders from the bottom to the top. For example, 45 gives remainders 1, 0, 1, 1, 0, 1, which read upwards is 101101."
+          },
+          {
+            "title": "What is a bit and a byte?",
+            "content": "A bit is a single binary digit, 0 or 1. A byte is 8 bits, which can represent 256 different values, from 0 to 255. Bytes are the basic unit for measuring computer memory and file sizes."
+          },
+          {
+            "title": "Why is 255 the largest number in a byte?",
+            "content": "Because 8 bits can form 2 to the power of 8, which is 256, different patterns. Starting from 0, the largest is 255, written as 11111111 in binary."
+          },
+          {
+            "title": "What is overflow in binary?",
+            "content": "Overflow happens when the result of a calculation needs more bits than are available. Adding 1 to 11111111 gives 256, which needs 9 bits. In an 8-bit system the extra bit is lost, and the result wraps around to 0."
+          },
+          {
+            "title": "What is the difference between binary and hexadecimal?",
+            "content": "Binary is base 2 and uses the digits 0 and 1. Hexadecimal is base 16 and uses 0 to 9 and A to F. Each hex digit represents exactly four binary digits, so hex is a shorter, more readable way of writing binary."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "how-to-revise-gcse-computer-science",
+    "igcse-computer-science-explained-for-parents",
+    "ap-csp-vs-ap-csa-which-to-take-first"
+  ]
+}
