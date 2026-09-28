@@ -110,6 +110,10 @@
       },
       {
         "type": "paragraph",
+        "text": "What does stay useful is elementary number theory, especially remainders. Our guide to <a href='/blog/modular-arithmetic-explained'>modular arithmetic</a> covers the essentials, including the negative-number trap where Python and C++ give different answers."
+      },
+      {
+        "type": "paragraph",
         "text": "On the algorithms side the exclusions are more surprising, because they include things competitive programming culture treats as standard equipment. String algorithms and data structures are explicitly excluded, and the syllabus names them: KMP, Rabin-Karp hashing, suffix arrays, suffix trees, suffix automata, Aho-Corasick. So are complex heap variants like binomial and Fibonacci heaps. So is using and implementing hash tables, including collision resolution strategies. So is alpha-beta pruning."
       },
       {

@@ -148,6 +148,10 @@
         "text": "If you want to understand how the HCF is actually found, the Euclidean algorithm is the classic approach and it is beautifully short. The idea is simple: keep replacing the larger number with the remainder of dividing the two, until the remainder is zero. Whatever is left is the HCF. This kind of clever, efficient trick is the heart of algorithmic thinking, which we build up step by step in our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a>."
       },
       {
+        "type": "paragraph",
+        "text": "The Euclidean algorithm runs entirely on remainders, which is modular arithmetic. If you want to see the same idea explain divisibility rules, check digits and the last digit of huge powers, read <a href='/blog/modular-arithmetic-explained'>modular arithmetic, from the clock up</a>."
+      },
+      {
         "type": "code",
         "language": "python",
         "code": "def find_hcf(a, b):\n    while b:\n        a, b = b, a % b\n    return a\n\nprint(find_hcf(48, 18))   # 6"

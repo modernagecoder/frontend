@@ -1,0 +1,333 @@
+{
+  "meta": {
+    "slug": "modular-arithmetic-explained",
+    "title": "Modular Arithmetic: Clock Maths for Olympiads and Code",
+    "description": "Modular arithmetic from the clock up: last digits of huge powers, why divisibility rules work, ISBN check digits, and the negative-mod trap.",
+    "keywords": [
+      "modular arithmetic",
+      "modular arithmetic explained",
+      "what is mod in maths",
+      "congruence modulo n",
+      "last digit of large power",
+      "why divisibility rule for 9 works",
+      "negative modulo python java"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Mathematics",
+    "tags": [
+      "Mathematics",
+      "Number Theory",
+      "Olympiad",
+      "Python"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "Modular arithmetic is arithmetic that wraps around, like a clock: a mod n is the remainder when a is divided by n, so 17 mod 5 is 2. Because remainders behave well under addition and multiplication, you can reduce at every step. That finds the last digit of 7 to the power 2026 (it is 9) without computing a 1,700-digit number, explains why the divisibility rules for 3, 9 and 11 work, powers check digits such as ISBN-10, and is the basis of encryption. Beware: -7 % 3 is 2 in Python but -1 in Java."
+  },
+  "hero": {
+    "title": "Modular Arithmetic, From the Clock Up",
+    "subtitle": "Arithmetic that wraps around like a clock, and four things it does: last digits of huge powers, divisibility rules, check digits, and a trap that catches programmers.",
+    "featuredImage": {
+      "url": "/images/blog/modular-arithmetic-explained/00-hero.png",
+      "alt": "Modular arithmetic explained: a clock showing that 9 plus 5 hours is 2 o'clock"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "If it is 9 o'clock now, what time will it be in 5 hours? Nobody says 14 o'clock. You say 2 o'clock, because clock time wraps around after 12. That everyday calculation is modular arithmetic, and it is one of the most useful ideas in mathematics. It solves olympiad problems that look impossible, explains why the divisibility rules you learned at school actually work, keeps your calendar straight, catches typing mistakes in book codes and bank numbers, and underpins the encryption that protects the internet."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide builds modular arithmetic from the clock up, then applies it to four very different problems. Every calculation was checked by running it, in Python, and in one case in Java too, because the two languages give different answers to the same modular question, which is worth knowing before it bites you."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What \"mod\" means",
+        "id": "what-it-means"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>a mod n</strong> is the remainder when a is divided by n. So 17 mod 5 is 2, because 17 = 3 x 5 + 2. Two numbers are <strong>congruent modulo n</strong> if they leave the same remainder when divided by n. We write 17 &#8801; 2 (mod 5), read \"17 is congruent to 2 mod 5\"."
+      },
+      {
+        "type": "paragraph",
+        "text": "On a clock, everything is mod 12. On a calendar, days of the week are mod 7. In programming, the % operator gives you mod directly:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "print(\"9 o'clock + 5 hours ->\", (9 + 5) % 12, \"o'clock\")\nprint(\"17 mod 5 =\", 17 % 5, \"   because 17 = 3 x 5 + 2\")\n\ndays = [\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\", \"Sunday\"]\nprint(\"100 days after a Monday is a\", days[(0 + 100) % 7])\n\nfrom datetime import date, timedelta\nstart = date(2026, 9, 28)\nprint(\"check with a calendar:\", start.strftime(\"%A\"), \"->\", (start + timedelta(days=100)).strftime(\"%A %d %B %Y\"))",
+        "title": "clock_and_calendar.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "9 o'clock + 5 hours -> 2 o'clock\n17 mod 5 = 2    because 17 = 3 x 5 + 2\n100 days after a Monday is a Wednesday\ncheck with a calendar: Monday -> Wednesday 06 January 2027",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "The calendar check confirms it: 100 days is 14 weeks and 2 days, so the weekday moves on by exactly 2. You never need to count through 100 days, only the remainder."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The rules that make it powerful",
+        "id": "rules"
+      },
+      {
+        "type": "paragraph",
+        "text": "Modular arithmetic works because remainders behave well under addition and multiplication. If you only care about the remainder at the end, you can take remainders at every step along the way:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Addition:</strong> (a + b) mod n = ((a mod n) + (b mod n)) mod n.",
+          "<strong>Multiplication:</strong> (a x b) mod n = ((a mod n) x (b mod n)) mod n.",
+          "<strong>Powers:</strong> follow from multiplication, so you can reduce as you go instead of computing a gigantic number."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "That last point is the secret behind the next problem."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Problem: the last digit of a huge power",
+        "id": "last-digit"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>What is the last digit of 7 to the power 2026?</strong> The last digit of a number is just the number mod 10. Multiplying by 7 each time, the last digits run 7, 9, 3, 1, and then repeat, because 1 x 7 brings you back to 7. The cycle has length 4, so you only need 2026 mod 4, which is 2. The answer is the same as the last digit of 7², which is 9."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "print(\"last digits of powers of 7:\", [pow(7, k) % 10 for k in range(1, 9)])\nprint(\"the pattern repeats every\", 4, \"so 7^2026 ends in the same digit as 7^\" + str(2026 % 4))\nprint(\"last digit of 7^2026:\", pow(7, 2026, 10))\nprint(\"how many digits 7^2026 has:\", len(str(7 ** 2026)))",
+        "title": "last_digit.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "last digits of powers of 7: [7, 9, 3, 1, 7, 9, 3, 1]\nthe pattern repeats every 4 so 7^2026 ends in the same digit as 7^2\nlast digit of 7^2026: 9\nhow many digits 7^2026 has: 1713",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/modular-arithmetic-explained/01-last-digit.png",
+        "alt": "Last digits of powers of 7 cycling through 7, 9, 3 and 1, so 7 to the power 2026 ends in 9",
+        "caption": "Find the cycle, then only the remainder of the exponent matters."
+      },
+      {
+        "type": "paragraph",
+        "text": "The actual number has over 1,700 digits, but you never need to see it. Python's <code>pow(7, 2026, 10)</code> uses the same idea, reducing at each step, and it is how computers work with the enormous numbers used in encryption."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "A pattern worth remembering",
+        "text": "Last digits of powers always cycle with a length of 1, 2 or 4. For example, powers of 2 end in 2, 4, 8, 6, and powers of 9 end in 9, 1. Find the cycle, reduce the exponent, done. This exact type of question appears regularly in school olympiads."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why the divisibility rules work",
+        "id": "divisibility"
+      },
+      {
+        "type": "paragraph",
+        "text": "You probably learned that a number is divisible by 9 if its digits add up to a multiple of 9. Modular arithmetic explains why. 10 leaves remainder 1 when divided by 9, so 100 does too, and 1000, and every power of 10. That means a number like 4,527, which is 4 x 1000 + 5 x 100 + 2 x 10 + 7, leaves the same remainder as 4 + 5 + 2 + 7. The digit sum and the number always agree mod 9."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/modular-arithmetic-explained/02-divisibility.png",
+        "alt": "Why divisibility rules for 9, 11 and 3 work, using 10 congruent to 1 mod 9 and 3, and 10 congruent to minus 1 mod 11",
+        "caption": "Every divisibility rule is a statement about what 10 is, modulo something."
+      },
+      {
+        "type": "paragraph",
+        "text": "For 11 the trick is that 10 behaves like &#8722;1, because it is one less than 11. So powers of 10 alternate between +1 and &#8722;1, which is why the rule for 11 uses an alternating sum of the digits. Checking both on real numbers:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "n = 987654321123456785\nprint(\"digit sum:\", sum(map(int, str(n))), \"->\", sum(map(int, str(n))) % 9, \"mod 9\")\nprint(\"the number itself:       \", n % 9, \"mod 9\")\n\n# alternating sum for 11, starting from the last digit\ndigits = list(map(int, str(918082)))[::-1]\nalternating = sum(d if i % 2 == 0 else -d for i, d in enumerate(digits))\nprint(\"918082: alternating sum\", alternating, \"->\", \"divisible by 11\" if alternating % 11 == 0 else \"not divisible\",\n      \"| check:\", 918082 % 11)",
+        "title": "divisibility.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "digit sum: 86 -> 5 mod 9\nthe number itself:        5 mod 9\n918082: alternating sum -22 -> divisible by 11 | check: 0",
+        "title": "Output"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Check digits: catching typos in real life",
+        "id": "check-digits"
+      },
+      {
+        "type": "paragraph",
+        "text": "Book codes, bank account numbers, credit cards and many ID numbers end in a <strong>check digit</strong>, chosen so that some modular calculation comes out to zero. If a digit is mistyped, the calculation almost always fails, and the system knows the number is wrong before it is used. The older 10-digit ISBN for books multiplies the digits by 10, 9, 8 and so on down to 1, and requires the total to be a multiple of 11:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def isbn10_valid(isbn):\n    digits = [10 if ch == \"X\" else int(ch) for ch in isbn if ch.isdigit() or ch == \"X\"]\n    return sum((10 - i) * d for i, d in enumerate(digits)) % 11 == 0\n\nprint(\"0-306-40615-2\", isbn10_valid(\"0-306-40615-2\"), \"  (a correctly printed ISBN)\")\nprint(\"0-306-40616-2\", isbn10_valid(\"0-306-40616-2\"), \"  (one digit mistyped)\")\nprint(\"0-306-46015-2\", isbn10_valid(\"0-306-46015-2\"), \"  (two digits swapped)\")",
+        "title": "isbn_check.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "0-306-40615-2 True   (a correctly printed ISBN)\n0-306-40616-2 False   (one digit mistyped)\n0-306-46015-2 False   (two digits swapped)",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/modular-arithmetic-explained/03-isbn.png",
+        "alt": "An ISBN-10 check digit accepting a correct number and rejecting one with a mistyped digit and one with two digits swapped",
+        "caption": "One weighted sum, and both of the most common typing mistakes are caught."
+      },
+      {
+        "type": "paragraph",
+        "text": "Because 11 is prime and the weights are all different, a single wrong digit or two neighbouring digits swapped always changes the remainder, which are exactly the two most common typing errors people make."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A trap for programmers: negative numbers",
+        "id": "negative-numbers"
+      },
+      {
+        "type": "paragraph",
+        "text": "What is &#8722;7 mod 3? Mathematicians usually say 2, because &#8722;7 = &#8722;3 x 3 + 2 and remainders are kept between 0 and 2. Python agrees. But many other languages, including Java, C and C++, give &#8722;1 for the % operator, because they round the division towards zero instead of down."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "print(-7 % 3)\nprint(7 % -3)",
+        "title": "python_mod.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "2\n-2",
+        "title": "Python output"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class Mod {\n    public static void main(String[] args) {\n        System.out.println(-7 % 3);\n        System.out.println(Math.floorMod(-7, 3));\n    }\n}",
+        "title": "Mod.java"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "-1\n2",
+        "title": "Java output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Java's <code>Math.floorMod</code> gives the mathematical answer. This difference causes real bugs, especially in code that wraps around, such as array positions or clock times going backwards. When the left side can be negative, check which rule your language uses. Our guide to <a href='/blog/what-is-floor-division-in-python'>floor division in Python</a> covers the related // operator."
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "Wrapping backwards",
+        "text": "Moving 3 steps back from position 1 on a board of 10 squares: in Python (1 - 3) % 10 gives 8, as you would hope. In Java, (1 - 3) % 10 gives -2, which will crash an array lookup. Use Math.floorMod in Java, or add the modulus before taking the remainder."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where modular arithmetic leads",
+        "id": "where-it-leads"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Olympiads.</strong> Remainders are behind a large share of number theory problems at every level, from school contests to national olympiads. Our guide to <a href='/blog/pigeonhole-principle-explained'>the pigeonhole principle</a> uses remainders as its boxes in several problems.",
+          "<strong>Primes and encryption.</strong> RSA encryption is modular arithmetic with very large <a href='/blog/prime-numbers-explained'>prime numbers</a>.",
+          "<strong>Programming.</strong> Hashing, random number generators, circular buffers and anything that wraps around use mod constantly.",
+          "<strong>Everyday life.</strong> Calendars, clocks, shift rotas and check digits all run on it."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Modular arithmetic is what happens when you decide to care only about the remainder, and it turns out the remainder is often all you need."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Number theory in our olympiad and maths classes starts from patterns students discover themselves, like the cycle of last digits here, before any notation, following the principle on our <a href='/how-we-teach'>how we teach</a> page of deriving a rule before seeing it written down. See <a href='/ioqm-rmo-inmo-preparation'>IOQM, RMO and INMO preparation</a> and our <a href='/online-maths-tuition'>live maths classes</a>, one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is modular arithmetic in simple words?",
+            "content": "It is arithmetic where numbers wrap around after reaching a certain value, called the modulus, like hours on a clock. a mod n means the remainder when a is divided by n, so 17 mod 5 is 2."
+          },
+          {
+            "title": "What does congruent modulo n mean?",
+            "content": "Two numbers are congruent modulo n if they leave the same remainder when divided by n. For example, 17 and 2 are congruent modulo 5, written 17 ≡ 2 (mod 5)."
+          },
+          {
+            "title": "How do you find the last digit of a large power?",
+            "content": "Find the cycle of last digits by multiplying repeatedly, then reduce the exponent by the cycle length. Powers of 7 end in 7, 9, 3, 1 in a cycle of 4, and 2026 leaves remainder 2 when divided by 4, so 7 to the power 2026 ends in 9."
+          },
+          {
+            "title": "Why does the divisibility rule for 9 work?",
+            "content": "Because 10 leaves a remainder of 1 when divided by 9, so every power of 10 does too. That means a number leaves the same remainder as the sum of its digits when divided by 9."
+          },
+          {
+            "title": "Why does Python give a different answer from Java for negative mod?",
+            "content": "Python's % always returns a result with the same sign as the divisor, so -7 % 3 is 2. Java, C and C++ round division towards zero, so -7 % 3 is -1. Java's Math.floorMod matches Python's behaviour."
+          },
+          {
+            "title": "Where is modular arithmetic used in real life?",
+            "content": "In clocks and calendars, check digits on book codes, bank accounts and ID numbers, hashing and random numbers in computing, and in encryption systems such as RSA."
+          },
+          {
+            "title": "Is modular arithmetic in the school syllabus?",
+            "content": "It is often taught informally through remainders and divisibility, and formally in olympiad preparation, some advanced school courses, and early university mathematics and computer science."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "prime-numbers-explained",
+    "pigeonhole-principle-explained",
+    "what-is-floor-division-in-python"
+  ]
+}
