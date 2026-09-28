@@ -181,6 +181,10 @@
         "text": "Before comparing courses, you need to understand what skills employers are actually testing for in interviews and what you'll use daily on the job. A good data science course should cover most or all of these areas. If a course skips any of these foundational skills, that's a red flag."
       },
       {
+        "type": "paragraph",
+        "text": "If the technical round includes coding problems, and many data roles do, our guide to <a href='/blog/coding-interview-preparation-for-freshers'>coding interview preparation</a> shows how to think out loud and how to explain the complexity of your solution."
+      },
+      {
         "type": "image",
         "url": "https://ik.imagekit.io/ysmxsdgmw4/blogs/blog-images/Data%20Science%20Course%20India/DataScienceSkillsMap.png",
         "alt": "Visual skill map showing essential data science skills including Python, statistics, machine learning, SQL, and visualization tools"

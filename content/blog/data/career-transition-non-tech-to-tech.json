@@ -512,6 +512,10 @@
         ]
       },
       {
+        "type": "paragraph",
+        "text": "Technical interviews reward a specific habit: clarify, state a simple solution, then improve it out loud. <a href='/blog/coding-interview-preparation-for-freshers'>Coding interview preparation for freshers</a> walks through a full example, with both solutions tested and timed, and a 12-week plan."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "Phase 4: Job Search (Months 12-18)"

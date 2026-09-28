@@ -1,0 +1,338 @@
+{
+  "meta": {
+    "slug": "coding-interview-preparation-for-freshers",
+    "title": "Coding Interview Preparation for Freshers: A Plan",
+    "description": "Coding interview preparation for freshers: what each round tests, a 12-week plan, and how to think out loud, with a worked problem timed two ways.",
+    "keywords": [
+      "coding interview preparation",
+      "coding interview preparation for freshers",
+      "how to prepare for coding interviews",
+      "technical interview tips",
+      "placement preparation",
+      "dsa for interviews",
+      "how to think out loud in coding interview"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Career",
+    "tags": [
+      "Interviews",
+      "Careers",
+      "DSA",
+      "College"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "Fresher coding interviews usually combine an online assessment, a live technical interview, questions on your projects and CS basics, and an HR round. Prepare over about 12 weeks: language fluency and Big O, then arrays and hash maps, stacks and queues, binary search, recursion, trees, graphs and basic dynamic programming, finishing with mixed problems and mock interviews. In the interview, clarify first, state a brute force with its complexity, improve it out loud, code while narrating, and test edge cases."
+  },
+  "hero": {
+    "title": "Coding Interview Preparation for Freshers",
+    "subtitle": "What the rounds test, a realistic 12-week plan, and how to think out loud, with one interview problem solved, tested and timed two ways.",
+    "featuredImage": {
+      "url": "/images/blog/coding-interview-preparation-for-freshers/00-hero.png",
+      "alt": "Coding interview preparation: an interviewer asks a question and the candidate thinks out loud about a solution"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Coding interviews can feel unfair to freshers. You have learned a language and built a few projects, and then an interviewer asks you to solve an unfamiliar problem in 30 minutes while explaining your thinking. The good news is that the skills being tested are specific and learnable, and a focused plan beats months of random practice."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide covers what the usual rounds test, a 12-week preparation plan, and the part most students never practise: thinking out loud. It includes a real interview-style problem solved two ways, with both solutions tested and timed, so you can see exactly what \"optimise your solution\" means in practice."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What the rounds usually test",
+        "id": "rounds"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/coding-interview-preparation-for-freshers/01-rounds.png",
+        "alt": "The usual rounds in a fresher hiring process: online assessment, technical interview, project and computer science basics, and HR",
+        "caption": "Every company differs, but these four elements appear in most processes."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Online assessment.</strong> Timed coding problems, often with aptitude or multiple-choice questions. Speed and accuracy on standard problems matter most here.",
+          "<strong>Technical interview.</strong> One or two problems solved live, usually in a shared editor. The interviewer watches how you think as much as what you produce.",
+          "<strong>Projects and computer science basics.</strong> Expect questions about the projects on your CV, plus object-oriented programming, databases and SQL, and sometimes operating systems and networks.",
+          "<strong>HR round.</strong> Communication, motivation and whether you would work well in the team."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Processes vary a lot between companies, so always read what a company says about its own rounds. But the preparation below covers the common core."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A 12-week preparation plan",
+        "id": "twelve-weeks"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/coding-interview-preparation-for-freshers/02-twelve-weeks.png",
+        "alt": "Twelve-week coding interview preparation plan from language and Big O to mixed problems and mock interviews",
+        "caption": "Two weeks per block, with mock interviews at the end."
+      },
+      {
+        "type": "paragraph",
+        "text": "This assumes you can already write basic programs in one language and can give 8 to 10 hours a week. It follows the same order as our <a href='/blog/how-to-start-learning-data-structures-and-algorithms'>data structures and algorithms roadmap</a>, compressed for interview preparation."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Weeks",
+          "Focus",
+          "Aim by the end"
+        ],
+        "rows": [
+          [
+            "1-2",
+            "Your chosen language, Big O",
+            "Write clean functions quickly; state the complexity of any loop"
+          ],
+          [
+            "3-4",
+            "Arrays, strings, hash maps",
+            "Solve two-pointer and counting problems in O(n)"
+          ],
+          [
+            "5-6",
+            "Stacks, queues, binary search",
+            "Recognise when order or halving is the key"
+          ],
+          [
+            "7-8",
+            "Recursion, sorting, linked lists",
+            "Trace recursive calls; reverse and merge lists"
+          ],
+          [
+            "9-10",
+            "Trees, graphs, basic dynamic programming",
+            "BFS, DFS and simple memoisation"
+          ],
+          [
+            "11-12",
+            "Mixed problems, mock interviews",
+            "Solve unseen problems out loud in 30 to 40 minutes"
+          ]
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Python, Java or C++?",
+        "text": "Use the language you are most fluent in. Most companies accept any mainstream language for coding rounds. Python is fastest to write, Java and C++ are common in many technical interviews. Our <a href='/blog/python-vs-java-which-to-learn-first'>Python vs Java comparison</a> covers the trade-offs."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A worked example: the problem, then the conversation",
+        "id": "worked-example"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Problem.</strong> Given a string, return the position of the first character that appears exactly once, or -1 if there is none."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is how the conversation should go. First, clarify: \"Is the string lowercase letters only? What should I return for an empty string?\" Then say the obvious solution out loud: \"For each character, I could count how often it appears in the whole string. That works, but counting is O(n) and I do it for each of n characters, so it is O(n²).\""
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def first_unique_slow(text):\n    for i, ch in enumerate(text):\n        # count this character by scanning the whole string again\n        if text.count(ch) == 1:\n            return i\n    return -1",
+        "title": "slow version"
+      },
+      {
+        "type": "paragraph",
+        "text": "Then improve it by spotting the repeated work: \"I am counting the same characters again and again. If I count every character once first, in a dictionary, each check becomes O(1), and the whole thing is O(n).\""
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from collections import Counter\n\ndef first_unique_fast(text):\n    counts = Counter(text)            # one pass to count every character\n    for i, ch in enumerate(text):     # one pass to find the first with count 1\n        if counts[ch] == 1:\n            return i\n    return -1",
+        "title": "fast version"
+      },
+      {
+        "type": "paragraph",
+        "text": "Finally, test it, including edge cases. We ran both versions against the same tests, and against each other:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def first_unique_slow(text):\n    for i, ch in enumerate(text):\n        # count this character by scanning the whole string again\n        if text.count(ch) == 1:\n            return i\n    return -1\n\nfrom collections import Counter\n\ndef first_unique_fast(text):\n    counts = Counter(text)            # one pass to count every character\n    for i, ch in enumerate(text):     # one pass to find the first with count 1\n        if counts[ch] == 1:\n            return i\n    return -1\n\ntests = {\"leetcode\": 0, \"loveleetcode\": 2, \"aabb\": -1, \"\": -1, \"z\": 0}\nfor text, expected in tests.items():\n    slow, fast = first_unique_slow(text), first_unique_fast(text)\n    assert slow == fast == expected\n    print(f\"{text!r:>16} -> {fast:>2}   (expected {expected})\")",
+        "title": "tests"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "      'leetcode' ->  0   (expected 0)\n  'loveleetcode' ->  2   (expected 2)\n          'aabb' -> -1   (expected -1)\n              '' -> -1   (expected -1)\n             'z' ->  0   (expected 0)",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "And the reason the improvement matters, measured on a long string:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def first_unique_slow(text):\n    for i, ch in enumerate(text):\n        # count this character by scanning the whole string again\n        if text.count(ch) == 1:\n            return i\n    return -1\n\nfrom collections import Counter\n\ndef first_unique_fast(text):\n    counts = Counter(text)            # one pass to count every character\n    for i, ch in enumerate(text):     # one pass to find the first with count 1\n        if counts[ch] == 1:\n            return i\n    return -1\n\nimport random, string\nfrom time import perf_counter\nrandom.seed(4)\n# a long string where the only unique character is near the end\ntext = \"\".join(random.choice(string.ascii_lowercase[:25]) * 2 for _ in range(20_000)) + \"z\"\nfor name, fn in ((\"slow, scan per character\", first_unique_slow), (\"fast, count once\", first_unique_fast)):\n    start = perf_counter()\n    answer = fn(text)\n    print(f\"{name:<26} answer {answer}   {perf_counter() - start:.4f} s\")",
+        "title": "timing"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "slow, scan per character   answer 40000   1.3293 s\nfast, count once           answer 40000   0.0058 s",
+        "title": "Output (on the machine this was run on)"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/coding-interview-preparation-for-freshers/04-slow-vs-fast.png",
+        "alt": "Measured time for the slow O(n squared) and fast O(n) first-unique-character solutions on the same 40,001 character string",
+        "caption": "Same answer. One of them would time out in an online assessment."
+      },
+      {
+        "type": "paragraph",
+        "text": "Both return the same answer. The slow one took 1.33 seconds and the fast one 0.006. In an online assessment with a time limit, that is the difference between passing and failing the test cases. Our guide to <a href='/blog/big-o-notation-explained-simply'>Big O notation</a> explains how to predict this before running anything."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to think out loud",
+        "id": "think-aloud"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/coding-interview-preparation-for-freshers/03-think-aloud.png",
+        "alt": "Five steps for thinking out loud in a coding interview: clarify, brute force first, improve, code it, test it",
+        "caption": "Silence is the most common reason good coders do badly in interviews."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Clarify.</strong> Restate the problem in your own words and ask about input size, edge cases and anything ambiguous. It shows care and often reveals the intended solution.",
+          "<strong>State a brute force first,</strong> with its complexity. A working slow idea beats a silent search for a perfect one.",
+          "<strong>Improve out loud.</strong> Ask yourself where work is repeated, and whether sorting, a hash map or two pointers would remove it.",
+          "<strong>Code while narrating.</strong> Short comments like \"now I build the counts\" keep the interviewer with you.",
+          "<strong>Test by hand.</strong> Walk through a small example and at least one edge case: empty input, one element, all the same."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "Practise speaking, not just solving",
+        "text": "Most students only ever practise problems silently. Then, in the interview, explaining while coding feels impossible. Practise at least a few problems a week out loud, ideally with a friend or a teacher playing interviewer."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Projects and fundamentals",
+        "id": "projects"
+      },
+      {
+        "type": "paragraph",
+        "text": "For freshers, one project you can discuss in depth is worth more than five you barely remember. Be ready to explain what it does, why you chose its design, what went wrong, and what you would change. A clean GitHub history helps. Our post on <a href='/blog/git-vs-github-difference'>Git vs GitHub</a> covers the basics, and <a href='/blog/how-college-students-build-real-world-projects-while-studying'>how college students build real-world projects</a> has ideas."
+      },
+      {
+        "type": "paragraph",
+        "text": "Also revise the fundamentals that come up again and again: object-oriented concepts such as classes, inheritance and polymorphism; SQL queries with joins and grouping; and, for some roles, the basics of operating systems and networks."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Common mistakes",
+        "id": "mistakes"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Solving hundreds of problems without reviewing them.</strong> Fewer problems, understood and re-solved later, build more skill.",
+          "<strong>Jumping into code.</strong> Two minutes of clarifying and planning saves ten minutes of rewriting.",
+          "<strong>Never stating complexity.</strong> Always say the time and space complexity of your solution before being asked.",
+          "<strong>Ignoring edge cases.</strong> Empty inputs and single elements break many otherwise correct solutions.",
+          "<strong>Freezing when stuck.</strong> Say what you are thinking. Interviewers can only give hints if they know where you are."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "An interview is not a test of whether you know the answer. It is a test of how you behave when you do not, yet."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Interview preparation with us centres on solving problems out loud with a teacher playing interviewer, and on tracing code line by line until you can predict every step, one of the principles on our <a href='/how-we-teach'>how we teach</a> page. See our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a> and <a href='/c-plus-plus-for-placement-preparation'>C++ for placement preparation</a>, taught live, one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How should a fresher prepare for coding interviews?",
+            "content": "Get fluent in one language, learn Big O, then work through arrays and strings, hash maps, stacks and queues, binary search, recursion, trees, graphs and basic dynamic programming. Practise solving problems out loud, prepare one project in depth, and revise OOP and SQL basics."
+          },
+          {
+            "title": "How long does it take to prepare for a coding interview?",
+            "content": "For a student who already codes, about 12 weeks at 8 to 10 hours a week is a realistic plan. Beginners who are still learning a language should allow longer and focus on fluency first."
+          },
+          {
+            "title": "Which language is best for coding interviews?",
+            "content": "The one you know best. Most companies accept Python, Java, C++ and other mainstream languages. Python is quickest to write; Java and C++ are also widely used. Fluency matters more than the choice."
+          },
+          {
+            "title": "How many problems should I solve before an interview?",
+            "content": "There is no magic number. Understanding and re-solving around 150 to 250 well-chosen problems across all major topics is enough for most fresher interviews. Reviewing matters more than raw volume."
+          },
+          {
+            "title": "What if I cannot solve the problem in the interview?",
+            "content": "Keep talking. State a brute force solution, explain its complexity, and describe what you would try next. Interviewers often give hints, and a clear partial solution with good reasoning can still pass."
+          },
+          {
+            "title": "Do freshers need projects for interviews?",
+            "content": "Yes, at least one or two you can explain in depth. Interviewers use projects to judge whether you can build real software and discuss design decisions, not just solve puzzles."
+          },
+          {
+            "title": "Are online assessments different from interviews?",
+            "content": "Yes. Online assessments are timed and often automatically graded against hidden test cases, so efficient solutions and handling edge cases matter most. Live interviews also weigh your communication and reasoning."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "competitive-coding-vs-development-skills-what-students-focus",
+    "top-10-java-programs-every-college-student-must-know",
+    "career-transition-guide-moving-non-tech-to-tech-roles"
+  ]
+}
