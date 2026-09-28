@@ -785,6 +785,10 @@
         "text": "<strong>Solution:</strong> Enable two-factor authentication immediately. Set up proper access controls. Encrypt sensitive data. Use the security features your cloud provider offers. They're there for a reason."
       },
       {
+        "type": "paragraph",
+        "text": "It also helps to understand what a well-run service does with your passwords behind the scenes. Our guide to <a href='/blog/how-are-passwords-stored'>how passwords are stored</a> explains hashing and salting in plain terms, with measurements of why long passphrases are so much safer."
+      },
+      {
         "type": "callout",
         "calloutType": "warning",
         "title": "Migration Mistakes to Avoid",

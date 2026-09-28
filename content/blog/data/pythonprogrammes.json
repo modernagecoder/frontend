@@ -1027,6 +1027,10 @@
         "text": "Build a 12-character password that mixes lowercase and uppercase letters, digits and symbols. Use the <code>secrets</code> module rather than <code>random</code>: the Python documentation warns that the generators in <code>random</code> should not be used for security purposes and points to <code>secrets</code> instead."
       },
       {
+        "type": "paragraph",
+        "text": "Once you can generate passwords, the natural next question is how websites keep them safe. Our guide to <a href='/blog/how-are-passwords-stored'>how passwords are stored</a> uses Python's hashlib to show hashing, salting and why slow hashes matter."
+      },
+      {
         "type": "code",
         "language": "python",
         "code": "import secrets\nimport string\n\nalphabet = string.ascii_letters + string.digits + string.punctuation\n\nwhile True:\n    password = \"\".join(secrets.choice(alphabet) for _ in range(12))\n    # keep only passwords that mix all four kinds of character\n    if (any(c.islower() for c in password) and any(c.isupper() for c in password)\n            and any(c.isdigit() for c in password) and any(c in string.punctuation for c in password)):\n        break\n\nprint(\"Your new password:\", password)"
