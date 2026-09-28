@@ -207,6 +207,10 @@ function sweep(slug, html) {
     [P('no card, no commitment,'), 'no commitment,'],
     [P(', free demo class first, and'), ', Priority Demo first, and'],
     [P('Our free demo answers it'), 'A Priority Demo answers it'],
+    // pass 6: fixes from reading every generated sentence
+    [P(', The Priority Demo'), ', the Priority Demo'],
+    [P(', and nobody asks for a card.'), '.'],
+    [/,(\s+)Live one-hour (classes|lessons|sessions), billed monthly/g, ',$1live one-hour $2, billed monthly'],
   ];
   for (const [re, rep] of TEXT) h = count('p4', h, h.replace(re, rep));
 
