@@ -168,6 +168,10 @@
         "text": "Data-driven decisions require statistical thinking. Probability helps you understand randomness, make predictions, and analyze uncertainty. According to LinkedIn's 2024 Jobs Report, statistical skills are mentioned in 67% of data-related job postings."
       },
       {
+        "type": "paragraph",
+        "text": "Code is one of the best ways to learn it, because you can run an experiment a million times and compare the result with the maths. Our guide to <a href='/blog/probability-for-beginners'>probability for beginners</a> does exactly that with dice, coins and the Monty Hall problem."
+      },
+      {
         "type": "list",
         "style": "unordered",
         "items": [

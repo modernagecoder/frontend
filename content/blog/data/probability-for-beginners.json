@@ -1,0 +1,349 @@
+{
+  "meta": {
+    "slug": "probability-for-beginners",
+    "title": "Probability for Beginners: Rules, Examples and Simulations",
+    "description": "Learn probability from scratch: two dice, the law of large numbers, the gambler's fallacy and Monty Hall, each tested by a Python simulation.",
+    "keywords": [
+      "probability for beginners",
+      "how to calculate probability",
+      "probability examples",
+      "monty hall problem",
+      "gambler's fallacy",
+      "law of large numbers",
+      "two dice probability"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Mathematics",
+    "tags": [
+      "Probability",
+      "Statistics",
+      "Python",
+      "Simulation"
+    ],
+    "readTime": "9 min read",
+    "featured": false,
+    "tldr": "Probability measures how likely something is, from 0 (impossible) to 1 (certain). With equally likely outcomes it is favourable outcomes divided by total outcomes: with two dice, 7 is most likely at 6/36. Use AND = multiply, OR = add, and NOT = 1 minus, which also solves 'at least one' questions. Small samples are noisy but large ones settle (the law of large numbers), past flips do not affect the next one (the gambler's fallacy), and in the Monty Hall problem, switching wins 2 out of 3 times. Simulations let you test every one of these ideas."
+  },
+  "hero": {
+    "title": "Probability for Beginners: Rules, Examples and Simulations",
+    "subtitle": "The basic rules of probability, and the famous puzzles where intuition goes wrong, each checked by running the experiment hundreds of thousands of times in Python.",
+    "featuredImage": {
+      "url": "/images/blog/probability-for-beginners/00-hero.png",
+      "alt": "Probability for beginners: two dice and the fraction 6 over 36, the chance of rolling a total of 7"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Probability is the maths of uncertainty: how likely something is to happen. It shows up in weather forecasts, games, medical tests, sport, insurance and machine learning. It is also the area of maths where intuition goes wrong most often, which is exactly what makes it fun to learn."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide starts from the basic definition and builds up through the rules you need, with each idea tested by a short Python simulation. Computers can repeat an experiment hundreds of thousands of times in a second, so you can check a calculation against reality instead of just trusting it. Every number below comes from running the code."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What is probability?",
+        "id": "definition"
+      },
+      {
+        "type": "paragraph",
+        "text": "When all outcomes are equally likely, the probability of an event is:"
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The basic formula",
+        "text": "<strong>probability = number of outcomes you want &#247; total number of possible outcomes</strong>, when every outcome is equally likely."
+      },
+      {
+        "type": "paragraph",
+        "text": "A fair die has 6 equally likely outcomes, so the probability of rolling a 4 is 1/6. Probabilities are always between 0 (impossible) and 1 (certain), and can be written as fractions, decimals or percentages: 1/6, about 0.167, or about 16.7%. If fractions still feel shaky, our guide on <a href='/blog/how-to-help-a-child-understand-fractions'>understanding fractions</a> is a good warm-up, and <a href='/blog/how-to-calculate-percentages'>percentages</a> covers converting between them."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Counting outcomes: two dice",
+        "id": "two-dice"
+      },
+      {
+        "type": "paragraph",
+        "text": "Roll two dice and add them. Which total is most likely? Many people guess every total is equally likely, but they are not. There are 6 &#215; 6 = 36 equally likely outcomes (a 1 and a 2 is different from a 2 and a 1), and more of them add up to 7 than to anything else. Here is the exact count next to a simulation of 100,000 rolls:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import random\nfrom collections import Counter\nfrom fractions import Fraction\n\n# Exact: count the 36 equally likely outcomes of two dice\nexact = Counter(a + b for a in range(1, 7) for b in range(1, 7))\n\n# Simulated: roll two dice 100,000 times\nrandom.seed(7)\nrolls = 100_000\nsim = Counter(random.randint(1, 6) + random.randint(1, 6) for _ in range(rolls))\n\nprint(\"sum  ways  exact   simulated\")\nfor total in range(2, 13):\n    p = Fraction(exact[total], 36)\n    print(f\"{total:>3}  {exact[total]:>4}  {float(p):.3f}   {sim[total] / rolls:.3f}\")",
+        "title": "dice.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "sum  ways  exact   simulated\n  2     1  0.028   0.028\n  3     2  0.056   0.056\n  4     3  0.083   0.085\n  5     4  0.111   0.110\n  6     5  0.139   0.138\n  7     6  0.167   0.168\n  8     5  0.139   0.139\n  9     4  0.111   0.113\n 10     3  0.083   0.083\n 11     2  0.056   0.054\n 12     1  0.028   0.027",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/probability-for-beginners/01-dice.png",
+        "alt": "Probability of each total from two dice, exact and simulated over 100,000 rolls: 7 is most likely at 6 out of 36, and 2 and 12 are least likely at 1 out of 36 each",
+        "caption": "The simulation lands almost exactly on the counted answer."
+      },
+      {
+        "type": "paragraph",
+        "text": "A total of 7 can be made 6 ways (1+6, 2+5, 3+4, 4+3, 5+2, 6+1), so its probability is 6/36, about 0.167. A total of 2 needs a double 1, just one way. The simulation agreed with the counting to within a few thousandths for every total. This is why 7 matters so much in many board games."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The law of large numbers",
+        "id": "large-numbers"
+      },
+      {
+        "type": "paragraph",
+        "text": "A fair coin lands heads with probability 1/2. That does not mean 10 flips give exactly 5 heads. It means that over many flips, the <em>proportion</em> of heads gets closer and closer to 0.5:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import random\n\nrandom.seed(3)\nheads = 0\ncheckpoints = {10, 100, 1_000, 10_000, 100_000, 1_000_000}\nfor flip in range(1, 1_000_001):\n    heads += random.random() < 0.5\n    if flip in checkpoints:\n        print(f\"{flip:>9,} flips: {heads / flip:.4f} heads\")",
+        "title": "coins.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "10 flips: 0.6000 heads\n      100 flips: 0.4300 heads\n    1,000 flips: 0.5090 heads\n   10,000 flips: 0.5054 heads\n  100,000 flips: 0.5019 heads\n1,000,000 flips: 0.4997 heads",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/probability-for-beginners/02-coins.png",
+        "alt": "Share of heads after 10, 100, 1,000, 10,000, 100,000 and 1,000,000 coin flips: 0.600, 0.430, 0.509, 0.505, 0.502, 0.500, settling towards 0.5",
+        "caption": "Wild swings early on, then a steady settle towards 0.5."
+      },
+      {
+        "type": "paragraph",
+        "text": "After 10 flips the share of heads was 0.60, and after 100 it was 0.43. By a million flips it was 0.4997. Small samples are noisy; large samples settle. This is why a survey of 20 people can be misleading, and why the <a href='/blog/mean-median-mode-explained'>average</a> of a large sample is more trustworthy than a small one."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The gambler's fallacy",
+        "id": "gamblers-fallacy"
+      },
+      {
+        "type": "paragraph",
+        "text": "If a coin lands heads five times in a row, is tails \"due\"? It feels like it should be. But a coin has no memory: each flip is independent, so the next one is still 50/50. We flipped two million simulated coins and looked at every flip that came straight after five heads in a row:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import random\n\nrandom.seed(11)\nflips = [random.random() < 0.5 for _ in range(2_000_000)]\n\nafter_streak = [flips[i] for i in range(5, len(flips)) if all(flips[i - 5:i])]\nprint(f\"times we saw 5 heads in a row: {len(after_streak):,}\")\nprint(f\"next flip was heads:           {sum(after_streak) / len(after_streak):.3f}\")",
+        "title": "streak.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "times we saw 5 heads in a row: 63,063\nnext flip was heads:           0.504",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Out of 63,063 streaks of five heads, the next flip was heads 0.504 of the time, essentially a half. The law of large numbers does not work by \"balancing out\" past results; it works because a few early streaks get swamped by millions of later flips. Believing otherwise is called the gambler's fallacy, and it has cost gamblers a great deal of money."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Three rules that do most of the work",
+        "id": "rules"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Rule",
+          "When to use it",
+          "Example"
+        ],
+        "rows": [
+          [
+            "AND: multiply",
+            "Both of two independent events happen",
+            "Two sixes on two dice: 1/6 &#215; 1/6 = 1/36"
+          ],
+          [
+            "OR: add (then subtract any overlap)",
+            "Either of two events happens",
+            "A 1 or a 2 on one die: 1/6 + 1/6 = 2/6"
+          ],
+          [
+            "NOT: 1 minus",
+            "An event does not happen, or \"at least one\" questions",
+            "No six in one roll: 1 &#8722; 1/6 = 5/6"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The last rule is the secret weapon for \"at least one\" questions. The probability of at least one six in several rolls is hard to count directly, because there are so many ways it could happen. But it is simply 1 minus the probability of <em>no</em> sixes at all, and that is easy: multiply 5/6 by itself once for each roll."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The question that started it all",
+        "id": "de-mere"
+      },
+      {
+        "type": "paragraph",
+        "text": "In 1654 a French gambler, the Chevalier de M&#233;r&#233;, brought questions about dice bets to the mathematician Blaise Pascal. Pascal's letters with Pierre de Fermat about such problems helped found probability theory. The bets were roughly these: is it good to bet on at least one six in 4 rolls of a die? And on at least one double six in 24 rolls of two dice? Both look like the same deal scaled up, since a double six is 6 times rarer and you get 6 times as many rolls."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import random\n\n# Exact, using \"at least one\" = 1 - \"none\"\none_six_in_4 = 1 - (5 / 6) ** 4\ndouble_six_in_24 = 1 - (35 / 36) ** 24\nprint(f\"at least one six in 4 rolls:        exact {one_six_in_4:.4f}\")\nprint(f\"at least one double six in 24 rolls: exact {double_six_in_24:.4f}\")\n\nrandom.seed(1654)\ntrials = 200_000\na = sum(any(random.randint(1, 6) == 6 for _ in range(4)) for _ in range(trials))\nb = sum(any(random.randint(1, 6) == 6 and random.randint(1, 6) == 6 for _ in range(24)) for _ in range(trials))\nprint(f\"simulated over {trials:,} tries:     {a / trials:.4f} and {b / trials:.4f}\")",
+        "title": "demere.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "at least one six in 4 rolls:        exact 0.5177\nat least one double six in 24 rolls: exact 0.4914\nsimulated over 200,000 tries:     0.5184 and 0.4907",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/probability-for-beginners/04-demere.png",
+        "alt": "Bet A, at least one six in 4 rolls, wins 51.8 percent of the time; bet B, at least one double six in 24 rolls of two dice, wins 49.1 percent; the simulation gives 51.8 and 49.1 percent",
+        "caption": "Scaling up a bet does not scale up the odds in the same way."
+      },
+      {
+        "type": "paragraph",
+        "text": "Bet A wins 51.8% of the time, a little better than even. Bet B wins only 49.1%, a little worse. The \"1 minus none\" rule gives both answers in one line each, and the simulation of 200,000 tries confirms them. The scaling argument failed because probabilities of \"at least one\" do not grow in proportion to the number of tries."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Monty Hall problem",
+        "id": "monty-hall"
+      },
+      {
+        "type": "paragraph",
+        "text": "This puzzle comes from the American game show <em>Let's Make a Deal</em>, and it became famous in 1990 when a magazine columnist gave the correct answer and many readers, some of them mathematicians, wrote in to insist she was wrong. There are three doors: behind one is a car, behind the others are goats. You pick a door. The host, who knows where the car is, opens a different door to show a goat, and offers you the chance to switch. Should you?"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import random\n\ndef play(switch):\n    doors = [0, 1, 2]\n    car = random.choice(doors)\n    pick = random.choice(doors)\n    # the host opens a door that is not your pick and does not hide the car\n    opened = random.choice([d for d in doors if d != pick and d != car])\n    if switch:\n        pick = next(d for d in doors if d != pick and d != opened)\n    return pick == car\n\nrandom.seed(5)\ngames = 100_000\nfor switch in (False, True):\n    wins = sum(play(switch) for _ in range(games))\n    print(f\"{'switch' if switch else 'stick ':<6}: won {wins / games:.3f} of {games:,} games\")",
+        "title": "monty.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "stick : won 0.334 of 100,000 games\nswitch: won 0.667 of 100,000 games",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/probability-for-beginners/03-monty.png",
+        "alt": "Monty Hall simulation over 100,000 games each way: sticking with the first door won 0.334 of games, switching won 0.667",
+        "caption": "Switching doubles your chance of winning."
+      },
+      {
+        "type": "paragraph",
+        "text": "Sticking won 0.334 of the time and switching won 0.667. The reason: your first pick is right only 1 time in 3. The host's choice does not change that, because he always shows a goat whatever you picked. So in the 2 out of 3 games where your first pick was wrong, the remaining closed door must hide the car, and switching wins. If it still feels wrong, imagine 100 doors: you pick one, the host opens 98 goats, and one door stays shut. Would you switch now?"
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Why simulation is so useful here",
+        "text": "When your intuition and a calculation disagree, a simulation settles it. Writing one also forces you to state the rules precisely, like the fact that the host never opens your door or the car's door. Many people get Monty Hall wrong because they never pin those rules down."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where probability is used",
+        "id": "uses"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Weather forecasts:</strong> \"70% chance of rain\" is a probability based on many similar past situations.",
+          "<strong>Medicine:</strong> how likely a positive test result is to be correct depends on how common the illness is, a question closely related to the <a href='/blog/do-ai-detectors-work'>false alarm problem with AI detectors</a>.",
+          "<strong>Games and sport:</strong> from board game strategy to deciding when to take a risk.",
+          "<strong>Machine learning:</strong> many AI models output probabilities, not certainties, which is part of <a href='/blog/why-do-machine-learning-models-make-mistakes'>why they make mistakes</a>."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "When intuition and calculation disagree, run the experiment. Probability is one of the few areas of maths you can test a million times before lunch."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Probability fits the principles on our <a href='/how-we-teach'>how we teach</a> page well. We show the same problem three ways until the aha lands, and here that means counting, a formula and a simulation, which is exactly how this post checks each idea. Students explain their thinking, which matters in a topic where first guesses are so often wrong. Our <a href='/online-maths-tuition'>live maths classes</a> run one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is probability in simple words?",
+            "content": "Probability is how likely something is to happen, on a scale from 0 (impossible) to 1 (certain). When outcomes are equally likely, it is the number of outcomes you want divided by the total number of outcomes."
+          },
+          {
+            "title": "How do you calculate probability?",
+            "content": "Count the outcomes that give the event you want, and divide by the total number of equally likely outcomes. For two independent events both happening, multiply their probabilities. For at least one of something, work out 1 minus the probability of none."
+          },
+          {
+            "title": "What is the most likely total with two dice?",
+            "content": "7. It can be made in 6 of the 36 equally likely ways, a probability of 1/6. Totals of 2 and 12 are the least likely, with 1 way each."
+          },
+          {
+            "title": "What is the gambler's fallacy?",
+            "content": "The mistaken belief that past random results change the next one, such as thinking tails is due after several heads. Each coin flip is independent. In our simulation, after five heads in a row the next flip was heads about half the time."
+          },
+          {
+            "title": "What is the Monty Hall problem answer?",
+            "content": "You should switch. Switching wins 2 out of 3 games because your first pick is only right 1 time in 3, and the host always reveals a goat. Our simulation of 100,000 games gave 0.667 for switching and 0.334 for sticking."
+          },
+          {
+            "title": "What is the law of large numbers?",
+            "content": "As you repeat a random experiment more times, the proportion of outcomes gets closer to the true probability. A few coin flips can give very uneven results, but a million flips give very close to half heads."
+          },
+          {
+            "title": "At what age do children learn probability?",
+            "content": "Children often meet simple probability words like likely and unlikely in primary school, and calculate probabilities as fractions in the early secondary years. Simulations in Scratch or Python make the ideas concrete at almost any age."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "mean-median-mode-explained",
+    "pigeonhole-principle-explained",
+    "how-to-help-a-child-understand-fractions"
+  ]
+}

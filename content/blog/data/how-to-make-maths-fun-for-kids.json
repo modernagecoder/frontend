@@ -64,6 +64,10 @@
         "text": "Theory is easy to agree with and hard to act on, so here is one specific game, ready to play at the dinner table with nothing but three dice."
       },
       {
+        "type": "paragraph",
+        "text": "Dice games are also a natural way into probability. Ask which total is most likely with two dice, let everyone guess, then roll and tally. Our <a href='/blog/probability-for-beginners'>probability for beginners</a> guide has the answer, and a simulation of 100,000 rolls that checks it."
+      },
+      {
         "type": "image",
         "url": "/images/blog/how-to-make-maths-fun-for-kids/01-dice-game.png",
         "alt": "Rules and a worked example for Race to the Target, a three dice mental maths game, showing 2 times 3 times 4 equals 24",
