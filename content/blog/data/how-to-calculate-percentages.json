@@ -271,6 +271,10 @@
         ]
       },
       {
+        "type": "paragraph",
+        "text": "The same habit works for any calculation: round, estimate, then compare. Our guide to <a href='/blog/estimation-in-maths'>estimation in maths</a> covers the method, Fermi problems and the quick check that catches most calculator mistakes."
+      },
+      {
         "type": "quote",
         "text": "Find 10%, find 1%, and you can find anything. Then ask: a percentage of what?"
       },

@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "slug": "estimation-in-maths",
+    "title": "Estimation in Maths: Rounding, Fermi Problems and Checks",
+    "description": "How to estimate in maths: round to 1 significant figure, how accurate it really is, Fermi problems, and using estimates to catch mistakes.",
+    "keywords": [
+      "estimation in maths",
+      "how to estimate answers",
+      "rounding to 1 significant figure",
+      "fermi problems examples",
+      "estimate calculations",
+      "estimation strategies",
+      "checking answers by estimation"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Mathematics",
+    "tags": [
+      "Estimation",
+      "Rounding",
+      "GCSE",
+      "Number Sense"
+    ],
+    "readTime": "7 min read",
+    "featured": false,
+    "tldr": "To estimate, round each number to 1 significant figure (its first non-zero digit) and calculate: 38 x 21 is about 40 x 20 = 800, and the exact answer is 798. In a test of 10,000 random multiplications this was within about 7% on average, though rounding both numbers far in one direction can be much worse. Estimates catch calculator mistakes: an answer 10 times the estimate usually means a slipped decimal point. Fermi problems break an unknown quantity into guessable pieces and give the right order of magnitude."
+  },
+  "hero": {
+    "title": "Estimation in Maths: Rounding, Fermi Problems and Checks",
+    "subtitle": "The rounding method, a measured test of how accurate it is, how to estimate things nobody knows exactly, and the two-second check that catches decimal-point mistakes.",
+    "featuredImage": {
+      "url": "/images/blog/estimation-in-maths/00-hero.png",
+      "alt": "Estimation in maths: 38 times 21 is approximately 40 times 20, which is 800, close to the exact 798"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Estimation means finding an answer that is roughly right, quickly, usually in your head. It is one of the most useful skills in maths, and one of the most underrated. It lets you check a calculator answer in two seconds, spot a misplaced decimal point, make sensible decisions when exact numbers are not available, and tackle questions that look impossible at first."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide covers the core technique, rounding to one significant figure, measures how accurate it really is across 10,000 calculations, shows how to estimate things nobody knows the exact answer to (Fermi problems), and explains the most practical use of all: catching mistakes."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The core technique: round to 1 significant figure",
+        "id": "rounding"
+      },
+      {
+        "type": "paragraph",
+        "text": "Round each number to its first non-zero digit, then do the easy calculation. 38 becomes 40, 21 becomes 20, 612 becomes 600, 4.87 becomes 5. The <em>significant figures</em> of a number are its digits starting from the first non-zero one, so 0.0347 rounded to 1 significant figure is 0.03."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/estimation-in-maths/01-rounding.png",
+        "alt": "Rounding to 1 significant figure: 38 times 21 is estimated as 40 times 20 = 800 (exact 798); 4.87 times 19.6 as 5 times 20 = 100 (exact 95.452); 612 times 29 as 600 times 30 = 18,000 (exact 17,748)",
+        "caption": "Each estimate takes a few seconds and lands close."
+      },
+      {
+        "type": "paragraph",
+        "text": "Division works the same way: 612 &#247; 29 is about 600 &#247; 30 = 20 (the exact answer is 21.1). Here are the multiplications in code, followed by a test of how good this method is in general:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import math, random, statistics\n\ndef one_sig_fig(x):\n    \"\"\"Round to 1 significant figure: 38 -> 40, 612 -> 600, 4.87 -> 5.\"\"\"\n    power = 10 ** math.floor(math.log10(abs(x)))\n    return round(x / power) * power\n\nfor a, b in [(38, 21), (4.87, 19.6), (612, 29)]:\n    print(f\"{a} x {b} = {a * b:g}   estimate {one_sig_fig(a):g} x {one_sig_fig(b):g} = {one_sig_fig(a) * one_sig_fig(b):g}\")\n\n# How good is this in general? Try 10,000 random multiplications of 2- and 3-digit numbers\nrng = random.Random(7)\nerrors = []\nfor _ in range(10_000):\n    a, b = rng.randint(10, 999), rng.randint(10, 999)\n    est = one_sig_fig(a) * one_sig_fig(b)\n    errors.append(abs(est - a * b) / (a * b) * 100)\nerrors.sort()\nprint(f\"median error {statistics.median(errors):.1f}%\")\nprint(f\"9 in 10 estimates within {errors[int(0.9 * len(errors))]:.0f}%\")\nprint(f\"worst error {errors[-1]:.0f}%\")",
+        "title": "rounding.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "38 x 21 = 798   estimate 40 x 20 = 800\n4.87 x 19.6 = 95.452   estimate 5 x 20 = 100\n612 x 29 = 17748   estimate 600 x 30 = 18000\nmedian error 7.1%\n9 in 10 estimates within 22%\nworst error 57%",
+        "title": "Output"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How accurate is it?",
+        "id": "accuracy"
+      },
+      {
+        "type": "paragraph",
+        "text": "Across 10,000 random multiplications of 2- and 3-digit numbers, the median error was 7.1%, and nine in ten estimates were within 22%. That is more than good enough to tell whether an answer is sensible. But the worst was 57% out."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/estimation-in-maths/02-errors.png",
+        "alt": "Histogram of errors across 10,000 rounded multiplications: most are under 10 percent, median 7.1 percent, nine in ten within 22 percent, worst 57 percent",
+        "caption": "Most estimates are close. A few are not, and it is worth knowing which."
+      },
+      {
+        "type": "paragraph",
+        "text": "The big errors come from numbers like 149 &#215; 149, where both numbers are rounded down a long way (to 100 &#215; 100 = 10,000, when the answer is 22,201). Two simple fixes: round one number up and the other down when both are near the middle, or keep two significant figures for numbers like 149 (150 &#215; 150 = 22,500). Knowing when an estimate might be rough is part of the skill."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Using estimates to catch mistakes",
+        "id": "checking"
+      },
+      {
+        "type": "paragraph",
+        "text": "The most practical use of estimation is checking. A calculator does exactly what you type, including your mistakes. A misplaced decimal point gives an answer ten times too big or too small, and it looks perfectly believable unless you know roughly what to expect:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def check(answer, estimate):\n    ratio = answer / estimate\n    if 0.5 <= ratio <= 2:\n        return \"looks right\"\n    return f\"suspicious: {ratio:.0f} times the estimate\" if ratio > 2 else f\"suspicious: 1/{1 / ratio:.0f} of the estimate\"\n\n# 3.8 x 42.5 should be about 4 x 40 = 160\nprint(\"typed 3.8 x 42.5 ->\", 3.8 * 42.5, check(3.8 * 42.5, 160))\nprint(\"typed 38 x 42.5  ->\", 38 * 42.5, check(38 * 42.5, 160))\nprint(\"typed 3.8 x 4.25 ->\", 3.8 * 4.25, check(3.8 * 4.25, 160))",
+        "title": "sanity.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "typed 3.8 x 42.5 -> 161.5 looks right\ntyped 38 x 42.5  -> 1615.0 suspicious: 10 times the estimate\ntyped 3.8 x 4.25 -> 16.15 suspicious: 1/10 of the estimate",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/estimation-in-maths/04-sanity.png",
+        "alt": "Checking against the estimate 160: 3.8 times 42.5 = 161.5 looks right; typing 38 times 42.5 gives 1615, ten times the estimate; typing 3.8 times 4.25 gives 16.15, a tenth of it",
+        "caption": "A factor of 10 away from the estimate almost always means a slipped decimal point."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Make it a habit",
+        "text": "Before pressing equals, say the estimate out loud. After, compare. Many exams give method marks for showing an estimate, and it is the fastest way to catch decimal-point and digit-swap errors. Our guide to <a href='/blog/how-to-solve-maths-word-problems'>solving maths word problems</a> uses the same check at the end of every problem."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Fermi problems: estimating the unknown",
+        "id": "fermi"
+      },
+      {
+        "type": "paragraph",
+        "text": "Some questions have no exact answer anywhere, like \"how many times does a heart beat in a lifetime?\" The physicist Enrico Fermi was famous for estimating such things by breaking them into pieces he could guess, then multiplying. Questions like this are now called <strong>Fermi problems</strong>, and some interviews and olympiads use them to see how people think."
+      },
+      {
+        "type": "paragraph",
+        "text": "A resting adult heart beats roughly 60 to 100 times a minute, so take about 70. There are 60 &#215; 24 &#215; 365 minutes in a year, and a long life is about 80 years. Multiply, and also try the extremes:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# How many times does a heart beat in a lifetime? Estimate each piece, then multiply.\nminutes_per_year = 60 * 24 * 365\n\nlow = 60 * minutes_per_year * 70     # slow heart, shorter life\nmid = 70 * minutes_per_year * 80\nhigh = 90 * minutes_per_year * 90    # fast heart, longer life\nfor name, n in [(\"low\", low), (\"middle\", mid), (\"high\", high)]:\n    print(f\"{name:<6} {n:>15,}  about {n / 1e9:.1f} billion\")",
+        "title": "fermi.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "low      2,207,520,000  about 2.2 billion\nmiddle   2,943,360,000  about 2.9 billion\nhigh     4,257,360,000  about 4.3 billion",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/estimation-in-maths/03-fermi.png",
+        "alt": "Fermi estimate of heartbeats in a lifetime: 70 beats a minute times minutes in a year times 80 years gives about 2.9 billion; the slowest and fastest guesses give 2.2 to 4.3 billion",
+        "caption": "The pieces are rough. The answer is still useful."
+      },
+      {
+        "type": "paragraph",
+        "text": "The middle estimate is about 2.9 billion, and even the most extreme guesses stay between 2.2 and 4.3 billion. That is the magic of Fermi problems: errors in the separate guesses partly cancel out, and the answer lands on the right <strong>order of magnitude</strong>, billions rather than millions or trillions. Knowing the order of magnitude is often all a decision needs."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Break it down</strong> into pieces you can reasonably guess.",
+          "<strong>Round generously</strong> to numbers that are easy to multiply.",
+          "<strong>Try a low and a high version</strong> to see how much the answer could move.",
+          "<strong>Ask if it is sensible:</strong> compare with something you already know."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Estimation in everyday life and in coding",
+        "id": "everyday"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Shopping:</strong> round every item and keep a running total in your head.",
+          "<strong>Time:</strong> 7 tasks of about 25 minutes is roughly 3 hours, not 1.",
+          "<strong>Percentages:</strong> 18% of 490 is about 20% of 500 = 100. Our guide to <a href='/blog/how-to-calculate-percentages'>calculating percentages</a> has more shortcuts like this.",
+          "<strong>Programming:</strong> before running a slow program, estimate: a loop of a million steps inside another of a million steps is a trillion steps, far too many. That estimate is the whole idea behind <a href='/blog/big-o-notation-explained-simply'>Big O notation</a>."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "An estimate is a promise about roughly what the answer will look like. When the real answer breaks that promise, look again."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Estimation matches two principles on our <a href='/how-we-teach'>how we teach</a> page. Students explain their thinking, and saying an estimate out loud before calculating is exactly that. And mistakes are data, not failures: an answer that does not match the estimate is a clue, not a disaster. Our <a href='/online-maths-tuition'>live maths classes</a> run one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is estimation in maths?",
+            "content": "Estimation is finding an approximate answer quickly, usually by rounding the numbers to make the calculation easy. It is used to check answers, make quick decisions and tackle questions where exact values are unknown."
+          },
+          {
+            "title": "How do you estimate an answer?",
+            "content": "Round each number to 1 significant figure, meaning its first non-zero digit, then calculate with the rounded numbers. For example, 38 times 21 becomes 40 times 20 = 800, close to the exact 798."
+          },
+          {
+            "title": "How accurate is estimating by rounding?",
+            "content": "Quite accurate for checking purposes. In our test of 10,000 random multiplications, the median error was 7.1% and nine in ten estimates were within 22%. It is least accurate when both numbers are rounded a long way in the same direction."
+          },
+          {
+            "title": "What is a Fermi problem?",
+            "content": "A question with no readily available exact answer, solved by breaking it into parts you can estimate and multiplying them. It is named after the physicist Enrico Fermi, who was famous for such estimates."
+          },
+          {
+            "title": "Why is estimation important?",
+            "content": "It catches mistakes, especially misplaced decimal points, and helps you judge whether an answer is sensible. It also supports quick everyday decisions about money, time and quantities."
+          },
+          {
+            "title": "What does 1 significant figure mean?",
+            "content": "It means keeping only the first non-zero digit of a number and replacing the rest with zeros in the right places: 3,847 becomes 4,000, 0.0347 becomes 0.03, and 612 becomes 600."
+          },
+          {
+            "title": "Do exams ask for estimates?",
+            "content": "Yes. GCSE, IGCSE and many other maths exams include questions that ask you to estimate by rounding to 1 significant figure and show your working, and estimation also earns marks as a check in longer problems."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "how-to-calculate-percentages",
+    "how-to-solve-maths-word-problems",
+    "place-value-explained"
+  ]
+}
