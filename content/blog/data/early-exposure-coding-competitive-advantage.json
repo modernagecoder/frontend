@@ -223,6 +223,10 @@
         "text": "Many students who struggled with abstract math concepts find them clearer through coding. When you write a loop, you're working with sequences and patterns. When you use variables, you're applying algebra. When you create functions, you're understanding mathematical functions. Coding makes abstract math concrete and interactive."
       },
       {
+        "type": "paragraph",
+        "text": "Algebra is a good example. A short program that tries every possible answer to a word problem, then agrees with the answer from elimination, makes the method feel far less abstract. Our guide to <a href='/blog/how-to-solve-simultaneous-equations'>solving simultaneous equations</a> does exactly that alongside the three standard methods."
+      },
+      {
         "type": "callout",
         "calloutType": "success",
         "title": "Real Results",

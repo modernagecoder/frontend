@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "slug": "how-to-solve-simultaneous-equations",
+    "title": "How to Solve Simultaneous Equations: 3 Methods and Examples",
+    "description": "Solve simultaneous equations by elimination, substitution and graphs, with worked examples, word problems and a Python checker.",
+    "keywords": [
+      "how to solve simultaneous equations",
+      "simultaneous equations elimination method",
+      "simultaneous equations substitution method",
+      "simultaneous equations word problems",
+      "simultaneous equations graphically",
+      "systems of equations",
+      "pair of linear equations in two variables"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Mathematics",
+    "tags": [
+      "Algebra",
+      "GCSE",
+      "Equations",
+      "Python"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "Simultaneous equations share the same unknowns and must all be true at once; the solution is the point where their lines cross. Use elimination (multiply so one unknown matches, then add if the signs differ or subtract if they match), substitution (replace one unknown using the other equation), or a graph. Always substitute back for the second unknown and check in both equations. Parallel lines give no solution, and the same line twice gives infinitely many. For word problems, choose one letter per unknown and write one equation per clue."
+  },
+  "hero": {
+    "title": "How to Solve Simultaneous Equations: 3 Methods and Examples",
+    "subtitle": "Elimination, substitution and graphs, step by step, plus the special cases, word problems and a small Python solver that checks every answer exactly.",
+    "featuredImage": {
+      "url": "/images/blog/how-to-solve-simultaneous-equations/00-hero.png",
+      "alt": "How to solve simultaneous equations: 3x + 2y = 16 and x minus y = 2 give x = 4 and y = 2"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Simultaneous equations are two (or more) equations that share the same unknowns and must all be true at the same time. You meet them in GCSE and IGCSE maths, in Class 9 and 10 in India (as pairs of linear equations in two variables), and in the US as \"systems of equations\". They are also one of the most useful tools in maths, because many real questions give you two clues about two unknown amounts."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide covers the three standard methods, elimination, substitution and graphs, with worked examples, the special cases where there is no answer or infinitely many, and how to turn a word problem into equations. A short Python solver checks every answer, including one with fractions."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What are simultaneous equations?",
+        "id": "what"
+      },
+      {
+        "type": "paragraph",
+        "text": "On its own, the equation x &#8722; y = 2 has endless solutions: x = 3 and y = 1, x = 10 and y = 8, and so on. Add a second clue, 3x + 2y = 16, and only one pair of numbers fits both: x = 4 and y = 2. Solving simultaneous equations means finding that pair."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-solve-simultaneous-equations/01-graph.png",
+        "alt": "Graph of 3x + 2y = 16 and x minus y = 2 crossing at the point 4, 2",
+        "caption": "Every point on a line satisfies its equation. The crossing point satisfies both."
+      },
+      {
+        "type": "paragraph",
+        "text": "The graph shows why. Each equation is a straight line of all the points that make it true. The solution is the one point on both lines, where they cross. That picture explains everything else in this guide, including why some pairs of equations have no solution at all."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Method 1: elimination",
+        "id": "elimination"
+      },
+      {
+        "type": "paragraph",
+        "text": "Elimination is the most common method in exams. You add or subtract the equations so that one unknown disappears, leaving an easy equation in the other."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-solve-simultaneous-equations/02-elimination.png",
+        "alt": "Elimination steps: start with 3x + 2y = 16 and x minus y = 2, multiply the second by 2 to get 2x minus 2y = 4, add to get 5x = 20 so x = 4, then substitute back to get y = 2",
+        "caption": "Match the coefficients, then add or subtract."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Line up</strong> the equations with x terms, y terms and numbers in columns: 3x + 2y = 16 and x &#8722; y = 2.",
+          "<strong>Match one unknown.</strong> The y terms are +2y and &#8722;y. Multiply the whole second equation by 2 to get 2x &#8722; 2y = 4. Now the y terms are +2y and &#8722;2y.",
+          "<strong>Add or subtract to eliminate.</strong> Opposite signs, so add: (3x + 2x) + (2y &#8722; 2y) = 16 + 4, which gives 5x = 20, so x = 4.",
+          "<strong>Substitute back</strong> into either original equation: 4 &#8722; y = 2, so y = 2.",
+          "<strong>Check</strong> in the other equation: 3 &#215; 4 + 2 &#215; 2 = 16. Correct."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Add or subtract?",
+        "text": "Same signs, subtract. Different signs, add. If +2y and &#8722;2y, adding cancels them. If +2y and +2y, subtracting cancels them. When you subtract, subtract every term, including the numbers on the right, and take care with negatives. Our guide to <a href='/blog/negative-numbers-explained'>negative numbers</a> covers the sign rules if they cause trouble."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Method 2: substitution",
+        "id": "substitution"
+      },
+      {
+        "type": "paragraph",
+        "text": "Substitution works best when one equation already says what one unknown equals. Take y = 2x + 1 and 3x + y = 11."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "The first equation tells you y is the same as 2x + 1.",
+          "Replace y in the second equation with 2x + 1: 3x + (2x + 1) = 11.",
+          "Simplify and solve: 5x + 1 = 11, so 5x = 10, so x = 2.",
+          "Substitute back: y = 2 &#215; 2 + 1 = 5.",
+          "Check: 3 &#215; 2 + 5 = 11. Correct."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Substitution is also the method you need later, when one equation is not a straight line, for example a line and a curve such as y = x&#178;. Elimination cannot handle those, so it is worth being comfortable with both."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Method 3: graphs",
+        "id": "graphs"
+      },
+      {
+        "type": "paragraph",
+        "text": "Draw both lines accurately and read off where they cross, as in the first figure. The graphical method is great for understanding, and it is quick when the answer is a pair of whole numbers. But it is only as accurate as your drawing, so when the answers are fractions it gives an estimate rather than an exact answer. That is when algebra wins."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Checking with code, including fractions",
+        "id": "code"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is a small solver that uses Python's <code>Fraction</code> type, so answers come out as exact fractions rather than rounded decimals. It also spots the two special cases:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from fractions import Fraction\n\ndef solve(a1, b1, c1, a2, b2, c2):\n    \"\"\"Solve a1*x + b1*y = c1 and a2*x + b2*y = c2 exactly.\"\"\"\n    det = a1 * b2 - a2 * b1\n    if det == 0:\n        # parallel lines: either the same line, or they never meet\n        same = a1 * c2 == a2 * c1 and b1 * c2 == b2 * c1\n        return \"infinitely many solutions\" if same else \"no solution\"\n    x = Fraction(c1 * b2 - c2 * b1, det)\n    y = Fraction(a1 * c2 - a2 * c1, det)\n    return f\"x = {x}, y = {y}\"\n\nprint(solve(3, 2, 16, 1, -1, 2))     # 3x + 2y = 16  and  x - y = 2\nprint(solve(2, 3, 7, 4, -3, 3))      # 2x + 3y = 7   and  4x - 3y = 3\nprint(solve(1, 1, 5, 2, 2, 12))      # x + y = 5     and  2x + 2y = 12\nprint(solve(1, 1, 5, 2, 2, 10))      # x + y = 5     and  2x + 2y = 10",
+        "title": "solver.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "x = 4, y = 2\nx = 5/3, y = 11/9\nno solution\ninfinitely many solutions",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "The first line confirms our worked example. The second pair, 2x + 3y = 7 and 4x &#8722; 3y = 3, has the answer x = 5/3, y = 11/9. Add the equations and the y terms cancel, giving 6x = 10, so x = 5/3. You can check it: 2 &#215; 5/3 + 3 &#215; 11/9 = 10/3 + 11/3 = 21/3 = 7. A graph could never give you 11/9 exactly."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "When there is no solution, or infinitely many",
+        "id": "special-cases"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-solve-simultaneous-equations/03-cases.png",
+        "alt": "Three cases for two straight lines: they cross once for one solution, they are parallel for no solution, or they are the same line for infinitely many solutions",
+        "caption": "In the solver, det is zero exactly when the lines are parallel or identical."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>No solution:</strong> x + y = 5 and 2x + 2y = 12. Halve the second and you get x + y = 6. Two numbers cannot add up to both 5 and 6, so the lines are parallel and never meet. In elimination, everything cancels and you are left with something false, such as 0 = 2.",
+          "<strong>Infinitely many solutions:</strong> x + y = 5 and 2x + 2y = 10. The second is just the first doubled, so it is the same line, and every point on it works. In elimination, you are left with something always true, such as 0 = 0."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Word problems: turning clues into equations",
+        "id": "word-problems"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most simultaneous equation questions in real life, and in exams, come as words. The skill is translating each clue into one equation. A classic puzzle: a farmyard has chickens and cows, with 30 heads and 74 legs altogether. How many of each?"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-solve-simultaneous-equations/04-farm.png",
+        "alt": "Word problem with 30 heads and 74 legs: let c be chickens and w cows, write c + w = 30 and 2c + 4w = 74, eliminate c to get 2w = 14, so 7 cows and 23 chickens",
+        "caption": "One unknown per thing you are asked for, one equation per clue."
+      },
+      {
+        "type": "paragraph",
+        "text": "Each animal has one head, so c + w = 30. Chickens have 2 legs and cows 4, so 2c + 4w = 74. Double the first equation to get 2c + 2w = 60, then subtract it from the second: 2w = 14, so w = 7 and c = 23. A quick brute-force check in code agrees, trying every possible number of chickens:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# 30 heads and 74 legs. How many chickens (2 legs) and cows (4 legs)?\nfor chickens in range(31):\n    cows = 30 - chickens\n    if 2 * chickens + 4 * cows == 74:\n        print(f\"{chickens} chickens and {cows} cows\")",
+        "title": "farm.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "23 chickens and 7 cows",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "For more help turning words into maths, our guide to <a href='/blog/how-to-solve-maths-word-problems'>solving maths word problems</a> has a step-by-step method that works for simultaneous equations too."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Common mistakes to avoid",
+        "id": "mistakes"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Multiplying only part of an equation.</strong> When you multiply by 2, multiply every term, including the number on the right.",
+          "<strong>Sign errors when subtracting.</strong> Subtracting &#8722;2y means adding 2y. Write each step out rather than doing it in your head.",
+          "<strong>Stopping after one unknown.</strong> Finding x is only half the answer. Substitute back to find y.",
+          "<strong>Not checking.</strong> Put both values into the equation you did <em>not</em> use to substitute back. It takes ten seconds and catches most mistakes."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Two unknowns need two clues. Each equation is a clue, and the answer is the only pair that satisfies both."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Simultaneous equations are a good fit for two principles on our <a href='/how-we-teach'>how we teach</a> page. We show the same problem three ways until the aha lands, and here that means elimination, substitution and a graph of the same pair of equations. And students derive the rule themselves before they ever see it written down, such as when to add and when to subtract. Our <a href='/gcse-maths-tuition-online'>GCSE maths tuition</a> runs one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How do you solve simultaneous equations?",
+            "content": "Use elimination, substitution or a graph. In elimination, multiply the equations so one unknown has matching coefficients, then add or subtract to remove it. In substitution, rearrange one equation for one unknown and substitute it into the other. Always check your answer in both equations."
+          },
+          {
+            "title": "Which method is best for simultaneous equations?",
+            "content": "Elimination is usually quickest when both equations are in the form ax + by = c. Substitution is best when one equation already gives y = or x =, and it is the only method that works for a line and a curve. Graphs are best for understanding and estimates."
+          },
+          {
+            "title": "When do you add and when do you subtract in elimination?",
+            "content": "If the matching terms have different signs, add the equations. If they have the same sign, subtract. The aim is always to make one unknown cancel out completely."
+          },
+          {
+            "title": "Can simultaneous equations have no solution?",
+            "content": "Yes. If the two equations describe parallel lines, such as x + y = 5 and x + y = 6, the lines never meet and there is no solution. If they describe the same line, there are infinitely many solutions."
+          },
+          {
+            "title": "What is the graphical method for simultaneous equations?",
+            "content": "Draw the straight line for each equation on the same axes. The solution is the coordinates of the point where the lines cross. It works well for whole-number answers but is less precise for fractions."
+          },
+          {
+            "title": "Are simultaneous equations the same as systems of equations?",
+            "content": "Yes. In the UK and India they are usually called simultaneous equations or pairs of linear equations, and in the US they are called systems of equations. The methods are the same."
+          },
+          {
+            "title": "What level are simultaneous equations?",
+            "content": "Linear simultaneous equations are taught at GCSE and IGCSE, in Class 10 in CBSE, and in Algebra 1 in the US. Harder versions with one linear and one quadratic equation appear at higher GCSE and beyond."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "how-to-solve-maths-word-problems",
+    "negative-numbers-explained",
+    "bodmas-rule-explained"
+  ]
+}

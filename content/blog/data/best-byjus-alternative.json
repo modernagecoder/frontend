@@ -511,6 +511,10 @@
         ]
       },
       {
+        "type": "paragraph",
+        "text": "Code can check algebra too. A few lines of Python with exact fractions will solve and verify a pair of simultaneous equations, as our guide to <a href='/blog/how-to-solve-simultaneous-equations'>how to solve simultaneous equations</a> shows next to the pencil-and-paper methods."
+      },
+      {
         "type": "image",
         "url": "https://ik.imagekit.io/ysmxsdgmw4/blogs/blog-images/Byjus%20Alternative/pricing-comparison-infographic.png",
         "alt": "Infographic showing how coding concepts like loops, variables, and coordinates map directly to mathematical concepts like sequences, algebra, and geometry",
