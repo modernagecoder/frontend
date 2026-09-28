@@ -234,6 +234,10 @@
         "text": "There is a closed formula for the nth term, built on the golden ratio. One calculation, no loop, no recursion. The catch: floating point rounding makes it drift for large n, so treat it as a curiosity beyond about the 70th term."
       },
       {
+        "type": "paragraph",
+        "text": "The reason is that most decimals cannot be stored exactly in binary, so every step carries a tiny error. Our guide to <a href='/blog/why-is-0-1-plus-0-2-not-0-3'>why 0.1 + 0.2 is not 0.3 in Python</a> shows what is really stored and how the errors add up."
+      },
+      {
         "type": "code",
         "language": "python",
         "code": "import math\n\ndef fib(n):\n    phi = (1 + math.sqrt(5)) / 2\n    return round(phi ** n / math.sqrt(5))\n\nprint([fib(i) for i in range(10)])\nprint(fib(30))"

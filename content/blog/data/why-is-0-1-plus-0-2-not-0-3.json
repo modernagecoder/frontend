@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "slug": "why-is-0-1-plus-0-2-not-0-3",
+    "title": "Why Is 0.1 + 0.2 Not 0.3? Floating Point in Python",
+    "description": "Why 0.1 + 0.2 gives 0.30000000000000004: what Python really stores for 0.1, how small errors grow, and five fixes that work.",
+    "keywords": [
+      "why is 0.1 + 0.2 not equal to 0.3",
+      "floating point error python",
+      "0.1 + 0.2 python",
+      "python compare floats",
+      "python decimal vs float",
+      "math.isclose",
+      "floating point explained"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Programming",
+    "tags": [
+      "Python",
+      "Floating Point",
+      "Computer Science",
+      "Debugging"
+    ],
+    "readTime": "7 min read",
+    "featured": false,
+    "tldr": "0.1 + 0.2 gives 0.30000000000000004 because computers store numbers in binary, where 1/10 is a never-ending repeating fraction, just like 1/3 in decimal. Python keeps 53 significant binary digits, so 0.1 is stored as a very close approximation, and the small errors in 0.1, 0.2 and 0.3 do not cancel. JavaScript, Java and C behave identically. Compare with math.isclose, round only for display, use Decimal from strings or Fraction for exact values, and keep amounts that must be exact as whole numbers."
+  },
+  "hero": {
+    "title": "Why Is 0.1 + 0.2 Not 0.3 in Python?",
+    "subtitle": "What Python really stores for 0.1, why it happens in every language, how the errors grow, and the five fixes, with every output shown.",
+    "featuredImage": {
+      "url": "/images/blog/why-is-0-1-plus-0-2-not-0-3/00-hero.png",
+      "alt": "A Python terminal showing 0.1 + 0.2 = 0.30000000000000004 and 0.1 + 0.2 == 0.3 is False"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Type <code>0.1 + 0.2</code> into Python and you get <code>0.30000000000000004</code>. Ask whether it equals 0.3 and Python says False. Almost every programmer meets this sooner or later, and the first reaction is usually that something is broken. It is not. It is a direct consequence of how computers store decimal numbers, and once you understand it you will know exactly when it matters and what to do about it."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide shows what Python actually stores for 0.1, explains why in terms of a simple analogy with 1/3, shows how small errors grow, and gives the five practical fixes. Every output below is real, including the same test in JavaScript."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The surprise",
+        "id": "surprise"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "print(0.1 + 0.2)\nprint(0.1 + 0.2 == 0.3)\nprint(f\"{0.1:.20f}\")\nprint(f\"{0.3:.20f}\")\nprint(f\"{0.1 + 0.2:.20f}\")",
+        "title": "surprise.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "0.30000000000000004\nFalse\n0.10000000000000000555\n0.29999999999999998890\n0.30000000000000004441",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Printing more digits shows what is going on. 0.1 is really stored as 0.10000000000000000555..., slightly more than 0.1. 0.3 is stored as 0.29999999999999998890..., slightly less. Their errors point in opposite directions, so 0.1 + 0.2 lands just above 0.3 while the stored 0.3 sits just below it."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is not a Python quirk. JavaScript gives exactly the same answer:"
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "console.log(0.1 + 0.2);\nconsole.log(0.1 + 0.2 === 0.3);",
+        "title": "In JavaScript"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "0.30000000000000004\nfalse",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Java, C, C++ and most other languages do too, because they all follow the same international standard for these numbers, IEEE 754, which is built into the processor itself."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why it happens: some fractions never end",
+        "id": "why"
+      },
+      {
+        "type": "paragraph",
+        "text": "Try writing 1/3 as a decimal. You get 0.3333..., and the 3s never stop. However many digits you write, you are always a little short. That is not a failing of arithmetic; it is because 3 does not divide evenly into any power of 10."
+      },
+      {
+        "type": "paragraph",
+        "text": "Computers store numbers in <a href='/blog/binary-numbers-explained'>binary</a>, base 2, and in binary the same thing happens to 1/10. Because 10 contains a factor of 5, which does not divide any power of 2, one tenth becomes a repeating pattern that never ends. Here it is, worked out digit by digit:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from fractions import Fraction\n\ndef binary_digits(x, n):\n    \"\"\"First n binary digits after the point, by repeated doubling.\"\"\"\n    digits = \"\"\n    for _ in range(n):\n        x *= 2\n        digits += \"1\" if x >= 1 else \"0\"\n        if x >= 1:\n            x -= 1\n    return digits\n\nprint(\"1/10 in binary: 0.\" + binary_digits(Fraction(1, 10), 32) + \"...\")\nprint(\"1/4  in binary: 0.\" + binary_digits(Fraction(1, 4), 8))\nprint(\"1/3  in decimal: 0.\" + \"3\" * 20 + \"...\")",
+        "title": "binary.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "1/10 in binary: 0.00011001100110011001100110011001...\n1/4  in binary: 0.01000000\n1/3  in decimal: 0.33333333333333333333...",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/why-is-0-1-plus-0-2-not-0-3/01-analogy.png",
+        "alt": "Some fractions never end: 1/3 in decimal is 0.333 repeating, 1/10 in binary is 0.0001100110011 repeating, while 1/4 in binary is exactly 0.01",
+        "caption": "0.1 is to binary what 1/3 is to decimal."
+      },
+      {
+        "type": "paragraph",
+        "text": "A standard Python float has room for 53 significant binary digits. It keeps the first 53 and rounds, so what gets stored is the closest value it can hold, not 0.1 itself. Numbers built from halves, quarters and eighths, such as 0.5, 0.25 and 0.375, are stored exactly; most other decimals are not."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What Python actually stores",
+        "id": "stored"
+      },
+      {
+        "type": "paragraph",
+        "text": "You can ask Python for the exact value hiding behind 0.1:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from decimal import Decimal\n\nprint(Decimal(0.1))                 # the exact value Python stores for 0.1\nprint((0.1).as_integer_ratio())     # the same value as a fraction\nprint(2 ** 55)",
+        "title": "exact.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "0.1000000000000000055511151231257827021181583404541015625\n(3602879701896397, 36028797018963968)\n36028797018963968",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/why-is-0-1-plus-0-2-not-0-3/02-stored.png",
+        "alt": "The binary digits of 0.1 with the repeating 0011 pattern highlighted; the stored value is the fraction 3602879701896397 over 36028797018963968, which is 2 to the 55, exactly 0.1000000000000000055511151231257827021181583404541015625",
+        "caption": "Accurate to about 17 significant digits, which is excellent, but not exact."
+      },
+      {
+        "type": "paragraph",
+        "text": "The stored value is the fraction 3602879701896397 / 36028797018963968, and that bottom number is 2<sup>55</sup>. Written out as a decimal it is 0.1000000000000000055511151231257827021181583404541015625. That is accurate to about 17 significant digits, which is more than enough for almost everything. It just is not exactly 0.1, and the == operator checks for exact equality."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Small errors can grow",
+        "id": "drift"
+      },
+      {
+        "type": "paragraph",
+        "text": "One tiny error rarely matters. Many of them, added together, can:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import math\n\ntotal = 0.0\nfor i in range(1, 1_000_001):\n    total += 0.1\n    if i in (10, 1_000, 1_000_000):\n        print(f\"adding 0.1 {i:>9,} times gives {total!r}\")\n\nprint(\"math.fsum of ten 0.1s:\", math.fsum([0.1] * 10))",
+        "title": "drift.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "adding 0.1        10 times gives 0.9999999999999999\nadding 0.1     1,000 times gives 99.9999999999986\nadding 0.1 1,000,000 times gives 100000.00000133288\nmath.fsum of ten 0.1s: 1.0",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/why-is-0-1-plus-0-2-not-0-3/03-drift.png",
+        "alt": "Adding 0.1 repeatedly: 10 times gives 0.9999999999999999, 1,000 times gives 99.9999999999986, 1,000,000 times gives 100000.00000133288",
+        "caption": "The error grows with the number of additions."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ten additions already give 0.9999999999999999, and a million give 100000.00000133288 instead of 100,000. For a game character's position or a physics simulation that runs for hours, this kind of drift is a real problem. Python's <code>math.fsum</code> keeps track of the digits that ordinary addition loses, and returns exactly 1.0 for ten 0.1s."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Five ways to handle it",
+        "id": "fixes"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import math\nfrom decimal import Decimal\nfrom fractions import Fraction\n\na = 0.1 + 0.2\nprint(\"isclose:  \", math.isclose(a, 0.3))\nprint(\"round:    \", round(a, 2) == 0.3)\nprint(\"Decimal:  \", Decimal(\"0.1\") + Decimal(\"0.2\") == Decimal(\"0.3\"))\nprint(\"Decimal from floats:\", Decimal(0.1) + Decimal(0.2) == Decimal(\"0.3\"))\nprint(\"Fraction: \", Fraction(1, 10) + Fraction(2, 10) == Fraction(3, 10))\nprint(\"integers: \", 10 + 20 == 30, \"(work in tenths, or the smallest unit)\")",
+        "title": "fixes.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "isclose:   True\nround:     True\nDecimal:   True\nDecimal from floats: False\nFraction:  True\nintegers:  True (work in tenths, or the smallest unit)",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/why-is-0-1-plus-0-2-not-0-3/04-fixes.png",
+        "alt": "What to use instead of ==: math.isclose for comparing results, round or formatting for display, Decimal from a string for exact decimal arithmetic, Fraction for exact fractions, whole numbers of the smallest unit for amounts that must be exact",
+        "caption": "Pick the fix that matches what you are doing."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Comparing:</strong> never use == on floats that came from calculations. Use <code>math.isclose(a, b)</code>, which allows a tiny tolerance.",
+          "<strong>Displaying:</strong> round when you show a number, not while you calculate. <code>f\"{x:.2f}\"</code> prints two decimal places.",
+          "<strong>Exact decimals:</strong> the <code>decimal</code> module does arithmetic in base 10. Build values from strings: <code>Decimal(\"0.1\")</code>. As the output shows, <code>Decimal(0.1)</code> copies the float's error, and the comparison fails.",
+          "<strong>Exact fractions:</strong> <code>fractions.Fraction</code> stores numerator and denominator as whole numbers, so 1/10 + 2/10 is exactly 3/10.",
+          "<strong>Amounts that must add up exactly:</strong> store them as whole numbers of the smallest unit, and only convert for display. Whole numbers are always exact in Python."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "Where this causes real bugs",
+        "text": "Loops that step by 0.1 and test for an exact end value can run one time too many or never stop. Totals of many small amounts can be off by a fraction. Tests that compare floats with == fail on one machine and pass on another. In each case, the fix is one of the five above."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Is this a problem for beginners?",
+        "id": "beginners"
+      },
+      {
+        "type": "paragraph",
+        "text": "Mostly no. For everyday calculations, printing a float shows a sensibly rounded value, and 17 significant digits is far more precision than any real measurement. It matters in three situations: comparing results with ==, adding up many small values, and anything that must be exact to the last digit. Knowing why it happens turns a baffling bug into a two-minute fix, and it is a great example of why understanding <a href='/blog/binary-numbers-explained'>how computers store numbers</a> is worth the effort."
+      },
+      {
+        "type": "quote",
+        "text": "Floats are not broken. They are extremely good approximations, and == asks for perfection."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Floating point is a good example of a principle on our <a href='/how-we-teach'>how we teach</a> page: mistakes are data, not failures. An unexpected output like 0.30000000000000004 is the start of an investigation, not a reason to give up. Tracing code line by line until every step can be predicted, including what the computer really stores, is how that investigation ends. Our <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> runs one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Why is 0.1 + 0.2 not equal to 0.3 in Python?",
+            "content": "Because 0.1, 0.2 and 0.3 cannot be stored exactly in binary, just as 1/3 cannot be written exactly in decimal. Each is stored as the nearest possible value, and the tiny errors make 0.1 + 0.2 come out as 0.30000000000000004, which is not equal to the stored 0.3."
+          },
+          {
+            "title": "Is this a bug in Python?",
+            "content": "No. It comes from the IEEE 754 standard for floating-point numbers, which is built into computer processors. JavaScript, Java, C and most other languages give exactly the same result."
+          },
+          {
+            "title": "How do I compare floats in Python?",
+            "content": "Use math.isclose(a, b) instead of ==. It checks whether the numbers are equal within a small tolerance, which is the right question for values produced by calculations."
+          },
+          {
+            "title": "How do I get exact decimal arithmetic in Python?",
+            "content": "Use the decimal module and create values from strings, such as Decimal('0.1'). Creating them from floats, as in Decimal(0.1), copies the float's small error."
+          },
+          {
+            "title": "Which decimals can a computer store exactly?",
+            "content": "Those that can be written as a whole number divided by a power of 2, such as 0.5, 0.25, 0.75 and 0.375. Most other decimals, including 0.1, 0.2 and 0.3, are stored as close approximations."
+          },
+          {
+            "title": "Does rounding fix floating point errors?",
+            "content": "Rounding is right for displaying results, for example with round(x, 2) or an f-string. It is not a good way to make calculations exact; for that, use Decimal, Fraction or whole numbers."
+          },
+          {
+            "title": "How accurate are Python floats?",
+            "content": "A standard Python float stores 53 significant binary digits, about 15 to 17 significant decimal digits. That is far more precise than almost any real-world measurement."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "binary-numbers-explained",
+    "python-vs-java-which-to-learn-first",
+    "how-do-computers-store-images"
+  ]
+}

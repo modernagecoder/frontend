@@ -205,6 +205,10 @@
         "text": "And notice the first line: 0.1 + 0.2 is slightly off in Python too. That one is not a language quirk at all, it is how computers store decimal numbers, and both languages share it equally."
       },
       {
+        "type": "paragraph",
+        "text": "If you want to see exactly what the computer stores for 0.1, and the five ways to handle it in real code, our guide to <a href='/blog/why-is-0-1-plus-0-2-not-0-3'>why 0.1 + 0.2 is not 0.3</a> walks through it with outputs from both languages."
+      },
+      {
         "type": "image",
         "url": "/images/blog/python-vs-javascript-which-to-learn-first/03-quirks.png",
         "alt": "JavaScript silently converts the text 5 plus 3 into 53 while Python raises a TypeError for the same operation",
