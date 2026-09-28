@@ -750,6 +750,10 @@
         ]
       },
       {
+        "type": "paragraph",
+        "text": "Much of asynchronous JavaScript is about waiting for APIs to answer. For the underlying idea of what an API is and what comes back from one, see <a href='/blog/what-is-an-api-explained-simply'>what is an API, explained simply</a>."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "Advanced Skills (Months 4-6)",

@@ -416,6 +416,10 @@
         "text": "<strong>Focus on:</strong> APIs, databases, authentication, scalability<br><strong>Recommended projects:</strong> RESTful API service, Authentication system, Database design project, Caching implementation, Message queue system"
       },
       {
+        "type": "paragraph",
+        "text": "If APIs are still a fuzzy idea, start with <a href='/blog/what-is-an-api-explained-simply'>what is an API, explained simply</a>. It builds a small weather API in Python, makes real requests to it, and explains endpoints, status codes and JSON."
+      },
+      {
         "type": "callout",
         "calloutType": "info",
         "title": "Full Stack Developer Path",

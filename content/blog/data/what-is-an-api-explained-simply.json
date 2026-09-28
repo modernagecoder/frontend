@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "slug": "what-is-an-api-explained-simply",
+    "title": "What Is an API? Explained Simply, With a Real One",
+    "description": "What is an API? A plain-English explanation with a restaurant analogy, a real API built and tested in Python, key vocabulary, and everyday examples.",
+    "keywords": [
+      "what is an api",
+      "api explained simply",
+      "what does api stand for",
+      "api example",
+      "how do apis work",
+      "what is json",
+      "what is an api key",
+      "rest api basics"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Programming",
+    "tags": [
+      "APIs",
+      "Web Development",
+      "Python",
+      "Beginners"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "An API (Application Programming Interface) is a defined way for one program to ask another for data or to do something, like a restaurant menu that lists what you can order and promises what comes back. Web APIs receive requests at addresses called endpoints, use verbs like GET and POST, and reply with a status code (200 for success, 404 for not found) and data, usually in JSON. Apps use APIs for maps, payments, logins, weather and AI without building those services themselves."
+  },
+  "hero": {
+    "title": "What Is an API? Explained Simply",
+    "subtitle": "What an API is, in plain words and one restaurant analogy, then a real weather API built and tested in Python, with the vocabulary you need and the APIs you already use every day.",
+    "featuredImage": {
+      "url": "/images/blog/what-is-an-api-explained-simply/00-hero.png",
+      "alt": "What is an API: an app sends a request for weather data to a service and gets a JSON response back"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "API is one of those terms that everyone in technology uses and few people explain. It turns up in job adverts, AI news, school computing lessons and conversations about apps. The idea behind it is simple, and understanding it explains a surprising amount about how modern software is built: why a small app can show maps, take payments and use AI without building any of those things itself."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide explains what an API is in plain language, with a restaurant analogy, then shows a real one. We built a tiny weather API in Python for this post, ran it, and made real requests to it, so every request and response you see below is genuine output. It is written for students, parents and anyone curious about how software talks to software."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "An API (Application Programming Interface) is a defined way for one program to ask another program for data or to do something. It works like a menu: it lists what you are allowed to request and promises what format the answer comes back in. Web APIs usually receive requests over the internet and reply with data in a format called JSON."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What an API is, in plain words",
+        "id": "what-it-is"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>API</strong> stands for <strong>Application Programming Interface</strong>. An interface is the point where two things meet and communicate. A steering wheel is the interface between you and a car's engine: you do not need to know how the engine works, only how to use the wheel and pedals. An API is the same idea for programs. It is the set of requests one program is allowed to make to another, and the rules for what comes back."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/what-is-an-api-explained-simply/01-waiter.png",
+        "alt": "Restaurant analogy for an API: the customer orders from the menu and waiter, and the kitchen does the work",
+        "caption": "You order from the menu. You never walk into the kitchen."
+      },
+      {
+        "type": "paragraph",
+        "text": "The classic analogy is a restaurant. You, the customer, know what you want to eat. The kitchen knows how to make it. You do not walk into the kitchen and start cooking. Instead there is a menu that lists what you can order, and a waiter who takes your order in a standard way and brings back the dish. The menu and the waiter are the API. The kitchen can change its recipes, its staff or its ovens, and as long as the menu stays the same, customers do not notice."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A real API, built and tested for this post",
+        "id": "real-api"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is a tiny weather API in Python. It knows the weather in three cities and answers requests for them. When asked about a city it knows, it replies with the data and the status code 200, meaning success. When asked about a city it does not know, it replies with an error message and 404, meaning not found."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import json\nfrom http.server import BaseHTTPRequestHandler, HTTPServer\nfrom urllib.parse import urlparse, parse_qs\n\nWEATHER = {\"delhi\": {\"temp_c\": 31, \"sky\": \"haze\"},\n           \"london\": {\"temp_c\": 14, \"sky\": \"cloudy\"},\n           \"dubai\": {\"temp_c\": 38, \"sky\": \"sunny\"}}\n\nclass WeatherAPI(BaseHTTPRequestHandler):\n    def do_GET(self):\n        url = urlparse(self.path)\n        city = parse_qs(url.query).get(\"city\", [\"\"])[0].lower()\n        if url.path == \"/weather\" and city in WEATHER:\n            status, body = 200, {\"city\": city, **WEATHER[city]}\n        else:\n            status, body = 404, {\"error\": f\"no weather data for '{city}'\"}\n        self.send_response(status)\n        self.send_header(\"Content-Type\", \"application/json\")\n        self.end_headers()\n        self.wfile.write(json.dumps(body).encode())\n\n    def log_message(self, *args):     # keep the terminal quiet\n        pass",
+        "title": "weather_api.py (the service)"
+      },
+      {
+        "type": "paragraph",
+        "text": "And here is a separate program that uses the API. It does not know or care how the weather data is stored. It only knows the menu: ask for <code>/weather?city=</code> and a city name, and read the JSON that comes back."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import json\nfrom urllib.request import urlopen\nfrom urllib.error import HTTPError\n\ndef ask(url):\n    try:\n        with urlopen(url) as response:\n            return response.status, json.loads(response.read())\n    except HTTPError as error:\n        return error.code, json.loads(error.read())\n\nfor city in [\"Delhi\", \"London\", \"Atlantis\"]:\n    status, data = ask(f\"http://localhost:8765/weather?city={city}\")\n    print(status, data)\n\n# the program only needs the parts it cares about\nstatus, data = ask(\"http://localhost:8765/weather?city=dubai\")\nprint(f\"It is {data['temp_c']} degrees and {data['sky']} in {data['city'].title()}.\")",
+        "title": "weather_app.py (the program using it)"
+      },
+      {
+        "type": "paragraph",
+        "text": "We ran the server and the client together. This is exactly what the client printed:"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "200 {'city': 'delhi', 'temp_c': 31, 'sky': 'haze'}\n200 {'city': 'london', 'temp_c': 14, 'sky': 'cloudy'}\n404 {'error': \"no weather data for 'atlantis'\"}\nIt is 38 degrees and sunny in Dubai.",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/what-is-an-api-explained-simply/02-request-response.png",
+        "alt": "Three real API requests and responses: Delhi and London return 200 with weather data, Atlantis returns 404 with an error message",
+        "caption": "The same format for success and failure is what makes an API easy to use."
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice three things. First, the answers come back as <strong>JSON</strong>, a simple text format for data that almost every programming language can read. Second, even the error is a proper, predictable answer, so the program can handle it gracefully instead of crashing. Third, the client program only used the parts of the answer it needed to build a friendly sentence. That is the whole idea of an API, working at a small scale."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Try a real public API",
+        "text": "Many services offer free APIs for learning, such as weather, space and public data. A good first project for a student who knows basic Python is to request data from one, print a few fields, and then turn it into something useful, like a daily summary. Most need a free sign-up and an API key."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The vocabulary of web APIs",
+        "id": "vocabulary"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/what-is-an-api-explained-simply/03-verbs-codes.png",
+        "alt": "Common web API verbs GET, POST, PUT and DELETE with examples, and common HTTP status codes such as 200, 404 and 500",
+        "caption": "Four verbs and a handful of codes cover most of what you will meet."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Endpoint:</strong> an address you can send requests to, such as /weather. Each endpoint is like one item on the menu.",
+          "<strong>Request:</strong> what you send: the endpoint, a verb, and sometimes data or parameters, like city=delhi.",
+          "<strong>Response:</strong> what comes back: a status code and usually some data.",
+          "<strong>Verbs (methods):</strong> GET to read, POST to create, PUT or PATCH to change, DELETE to remove.",
+          "<strong>Status codes:</strong> three-digit numbers that summarise the result. 2xx means success, 4xx means the request had a problem, 5xx means the server had a problem.",
+          "<strong>API key:</strong> a secret code that identifies who is making the request. Services use keys to control access and to limit how many requests each user can make.",
+          "<strong>Rate limit:</strong> the maximum number of requests allowed in a period. Exceed it and you get status 429, too many requests."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "APIs you use every day",
+        "id": "everyday"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/what-is-an-api-explained-simply/04-everyday.png",
+        "alt": "Everyday uses of APIs: maps, payments, logging in with Google, weather, AI and travel price comparison",
+        "caption": "Most apps are assembled from other companies' services, joined by APIs."
+      },
+      {
+        "type": "paragraph",
+        "text": "Most apps you use are partly built from other companies' services, connected by APIs. A food delivery app shows a map it did not draw by calling a maps API. A small online shop takes card payments through a payment company's API, so it never has to store card numbers itself. \"Log in with Google\" is an API that confirms who you are without the website ever seeing your password. And the recent wave of AI features in apps mostly works the same way: the app sends your text to a language model's API and displays the reply."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is why APIs matter so much for people learning to code. They let a single student build something that would otherwise need a whole company, by combining existing services in a new way."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why APIs are designed this way",
+        "id": "why"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Separation.</strong> The weather service can change its database, add servers or rewrite its code, and nothing breaks for the apps using it, as long as the API stays the same.",
+          "<strong>Security.</strong> Programs only get access to what the API offers, not to everything inside the service. A payments API lets a shop charge a card, not read the bank's database.",
+          "<strong>Reuse.</strong> One API can serve thousands of different apps, websites and devices.",
+          "<strong>Teamwork.</strong> Inside a company, teams agree on APIs between their parts, so they can work independently."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to start learning to use APIs",
+        "id": "learning"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Learn basic Python or JavaScript first:</strong> variables, functions, lists and dictionaries. JSON maps almost exactly onto dictionaries.",
+          "<strong>Call a public API</strong> that needs no key, print the whole response, then pick out one field.",
+          "<strong>Handle errors:</strong> what happens with a bad request or no internet? The 404 case above is the pattern.",
+          "<strong>Build something small:</strong> a weather summary, a quiz from a trivia API, or a page that shows space photos.",
+          "<strong>Then build your own API,</strong> like the one in this post, so another program, or a website you make, can use it."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "In JavaScript, the browser's fetch function does the same job as the client above. Our tutorial on <a href='/resources/javascript/fetch-api-and-working-with-apis'>the Fetch API and working with APIs</a> covers it step by step, and our <a href='/blog/html-css-javascript-project-ideas'>HTML, CSS and JavaScript project ideas</a> include projects that use APIs."
+      },
+      {
+        "type": "quote",
+        "text": "An API is a promise: ask me this way, and I will always answer that way.",
+        "author": "The one-line version we give students"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In our coding courses, students meet APIs once the basics are solid: first calling public APIs from Python or JavaScript, then building small APIs of their own, like the weather example here. It is one of the moments when coding starts to feel like building real products. Our <a href='/python-from-the-ground-up'>Python from the ground up</a> course leads naturally into it, taught live, one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is an API in simple terms?",
+            "content": "An API is a set of rules that lets one program ask another program for data or to perform an action. It works like a restaurant menu: it lists what you can request and what you will get back, without you needing to know how the work is done."
+          },
+          {
+            "title": "What does API stand for?",
+            "content": "API stands for Application Programming Interface. The interface is the point where two programs meet and communicate, following agreed rules."
+          },
+          {
+            "title": "What is an example of an API?",
+            "content": "A weather app that asks a weather service for the current temperature is using an API. Other examples include maps shown inside delivery apps, card payments in online shops, and logging in with Google."
+          },
+          {
+            "title": "What is JSON?",
+            "content": "JSON, short for JavaScript Object Notation, is a simple text format for sending structured data, such as {\"temp_c\": 31, \"sky\": \"haze\"}. Most web APIs send their responses as JSON because almost every programming language can read it."
+          },
+          {
+            "title": "What is an API key?",
+            "content": "An API key is a secret code that identifies the program making a request. Services use keys to control who can access their API, to track usage and to apply limits on how many requests can be made."
+          },
+          {
+            "title": "What does a 404 error mean in an API?",
+            "content": "Status 404 means not found: the endpoint or the thing you asked for does not exist. In the example in this post, asking for weather in a city the service does not know returns 404 with an error message."
+          },
+          {
+            "title": "Do I need to know coding to use an API?",
+            "content": "To use an API directly, yes, some basic programming helps. Python and JavaScript are the most common choices. Some no-code tools let you connect APIs without writing code, but understanding the basics makes them far easier to use well."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "javascript-basics",
+    "html-css-javascript-project-ideas",
+    "python-dictionary-complete-guide"
+  ]
+}
