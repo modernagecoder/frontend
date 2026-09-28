@@ -1281,3 +1281,4 @@
 .cg-root.cg-chf  { --cg-accent: #4C2E13; --cg-accent-soft: rgba(76,46,19,.10); }   /* Chesterfield: a timber-spire brown (9.91:1 on the darkest paper tint) */
 .cg-root.cg-rot  { --cg-accent: #6B2525; --cg-accent-soft: rgba(107,37,37,.10); }   /* Rochester: a cathedral-brick red (8.83:1 on the darkest paper tint) */
 .cg-root.cg-dar  { --cg-accent: #10166B; --cg-accent-soft: rgba(16,22,107,.10); }   /* Darlington: a deep railway-livery navy (12.54:1 on the darkest paper tint) */
+.cg-root.cg-hpl  { --cg-accent: #6B2538; --cg-accent-soft: rgba(107,37,56,.10); }   /* Hartlepool: a harbour-brick claret (8.69:1 on the darkest paper tint) */

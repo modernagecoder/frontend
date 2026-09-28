@@ -29675,5 +29675,44 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-hartlepool": {
+    "market": "Hartlepool",
+    "bodyClass": "cg-hpl",
+    "pageType": "city",
+    "curriculumAuthority": "Hartlepool (E06000001). Nomis Census 2021 TS001 usual residents 92,338. TS007A: 30 to 34 5,884 (6.4%, England 7.0%); 35 to 39 5,463 (5.9%, 6.7%); 40 to 44 5,065 (5.5%, 6.3%); 55 to 59 7,132 (7.7%, 6.7%); 60 to 64 6,297 (6.8%, 5.8%); 65 to 69 5,247 (5.7%, 4.9%). ONS 2021 BUAs: Hartlepool 87,995; Greatham 850; Hart 810. OS Open Names: Seaton Carew, Throston, Owton Manor, Elwick, Hart, Greatham. TS058 (NM_2075_1): in employment 37,749; bands 5,891 / 7,286 / 3,159 / 5,623 / 1,779 / 575 / 363 / 711 (\"60km and over\"); from home 6,570; offshore/no fixed place/outside UK 5,792. England in employment 26,405,214.",
+    "localProject": "Banded workers 25,387 (67.3%). Mean with midpoints and top value 60/80/100/150/300: Hartlepool 10.43/10.99/11.55/12.95/17.15; England 11.14/11.63/12.13/13.38/17.11 (order flips at 300). Lower bound 7.74 / 8.32; no upper bound. Median band Hartlepool 2-5 km (51.9% under 5), England 5-10 km (43.7% under 5). Lesson family: grouped data estimation, open-ended band, bounds, sensitivity, median robustness, denominator choice.",
+    "requiredMentions": [
+      "92,338",
+      "87,995",
+      "Seaton Carew",
+      "Greatham",
+      "Elwick",
+      "Throston",
+      "60km and over",
+      "open-ended",
+      "grouped data"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS058 Distance travelled to work, Hartlepool and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "OS Open Names places in Hartlepool, via postcodes.io.",
+        "url": "https://postcodes.io/"
+      }
+    ],
+    "rejectedClaims": [
+      "Why so many worked offshore or in no fixed place: not analysed; not claimed.",
+      "Effect of the date of the census on working from home: not read from a source; not claimed.",
+      "Port and shipbuilding history: not read from a source; not used.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
