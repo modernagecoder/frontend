@@ -135,7 +135,7 @@
                 <ul class="footer-links">
                     <li><address style="font-style:normal">Modern Age Coders Education<br>1B, JK Ambika Tower, Kolkata, West Bengal 700002</address></li>
                     <li><a href="tel:+919123366161">+91 9123366161</a></li>
-                    <li><a href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a></li>
+                    <li><a href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a></li>
                     <li><a href="/privacy">Privacy Policy</a></li>
                     <li><a href="/terms">Terms of Service</a></li>
                     <li><a href="/cancellation">Cancellation Policy</a></li>
@@ -294,13 +294,17 @@
 <div class="mac-sticky-cta" aria-label="Quick actions">
     <a class="mac-sticky-primary mac-sticky-v mac-sticky-v-course" href="#enroll">Enroll</a>
     <a class="mac-sticky-secondary mac-sticky-v mac-sticky-v-course mac-sticky-watch" href="/how-we-teach#library">Watch Class</a>
+    <!-- 2026-09-28: course detail pages (data-sticky="course-pd") lead with the Priority Demo. -->
+    <a class="mac-sticky-primary mac-sticky-v mac-sticky-v-coursepd" href="/book-demo" data-pd-book="sticky-course">Priority Demo</a>
+    <a class="mac-sticky-secondary mac-sticky-v mac-sticky-v-coursepd" href="#enroll">Enrol</a>
     <a class="mac-sticky-primary mac-sticky-v mac-sticky-v-demo" href="#contactForm">Book a Demo</a>
     <a class="mac-sticky-secondary mac-sticky-v mac-sticky-v-demo" href="#watch-now">Watch Class</a>
-    <button type="button" class="mac-sticky-help mac-sticky-v" aria-label="Help: WhatsApp or Misti AI" aria-expanded="false" aria-controls="mac-help-sheet">
+    <button type="button" class="mac-sticky-help mac-sticky-v" aria-label="Help: WhatsApp, email or Misti AI" aria-expanded="false" aria-controls="mac-help-sheet">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
     </button>
     <div class="mac-help-sheet" id="mac-help-sheet" hidden>
         <a href="https://wa.me/919123366161?text=Hi!%20I'm%20interested%20in%20your%20classes,%20please%20share%20the%20details." target="_blank" rel="noopener noreferrer">WhatsApp us</a>
+        <a href="mailto:connect@modernagecoders.com">Email us</a>
         <a href="https://misti.modernagecoders.com" target="_blank" rel="noopener noreferrer">Ask Misti AI</a>
     </div>
     <a class="mac-sticky-wa mac-sticky-default" href="https://wa.me/919123366161?text=Hi!%20I'm%20interested%20in%20your%20classes,%20please%20share%20the%20details." target="_blank" rel="noopener noreferrer">
@@ -350,6 +354,7 @@
         body[data-sticky] .mac-sticky-cta .mac-sticky-default { display: none; }
         body[data-sticky="course"] .mac-sticky-cta .mac-sticky-v-course,
         body[data-sticky="demo"] .mac-sticky-cta .mac-sticky-v-demo,
+        body[data-sticky="course-pd"] .mac-sticky-cta .mac-sticky-v-coursepd,
         body[data-sticky] .mac-sticky-cta .mac-sticky-help { display: flex; }
         body[data-sticky] .wa-float-btn, body[data-sticky] .misti-chat-btn { display: none !important; }
         .mac-sticky-cta .mac-sticky-primary { background: #B45309; color: #fff; }

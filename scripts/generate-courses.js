@@ -14,6 +14,7 @@ const PRICING = require('./pricing/lib/config.js');
 // the two recording/demo FAQs) generated from the course JSON + brand facts +
 // content/recordings.json, so copy, schema and markdown cannot disagree.
 const courseFacts = require('./lib/course-facts.js');
+const BRAND_FACTS = require('./brand-facts.json');
 
 // Inline SVG icon set for generated sections (stroke style matches the
 // editorial template's lucide-style icons). No emoji anywhere on course pages.
@@ -768,7 +769,7 @@ class CourseGenerator {
                     "@type": "ContactPoint",
                     "telephone": "+919123366161",
                     "contactType": "Customer Service",
-                    "email": "contact@modernagecoders.com"
+                    "email": "connect@modernagecoders.com"
                 }
             },
             "url": `https://learn.modernagecoders.com/courses/${meta.slug || ''}`,
@@ -1144,6 +1145,11 @@ class CourseGenerator {
         const watch = courseFacts.watchClass(courseData);
         html = html.replace(/{{COURSE_FACTS}}/g, courseFacts.renderFacts(courseData));
         html = html.replace(/{{COURSE_ANSWERS}}/g, courseFacts.renderAnswers(courseData));
+        html = html.replace(/{{QUALITY_PROMISE}}/g, courseFacts.renderPromise());
+        html = html.replace(/{{ENROL_STEPS}}/g, courseFacts.renderEnrolSteps(courseData));
+        html = html.replace(/{{CONTACT_CARD}}/g, courseFacts.renderContact(courseData));
+        html = html.replace(/{{HERO_CONTACT_LINE}}/g, courseFacts.renderContactLine(courseData, 'cd-hero-contact'));
+        html = html.replace(/{{FINAL_CONTACT_LINE}}/g, courseFacts.renderContactLine(courseData, 'cd-final-contact'));
         html = html.replace(/{{WATCH_CLASS_HREF}}/g, watch.href);
         html = html.replace(/{{WATCH_CLASS_ID}}/g, watch.id);
         html = html.replace(/{{WATCH_CLASS_LABEL}}/g, this.escapeHtml(watch.label));
@@ -1909,15 +1915,24 @@ class CourseGenerator {
 
         return `
             <div class="guarantees-items">
-                ${Object.entries(guarantees).map(([key, value]) => `
+                ${Object.entries(guarantees).map(([key, value]) => {
+                    // Course pages lead with the Priority Demo (owner 2026-09-28), so the
+                    // data's standard "free_demo" item renders as that offer instead.
+                    const pd = key === 'free_demo';
+                    const label = pd ? 'Priority Demo' : humanizeKey(key);
+                    const text = pd
+                        ? `See a full live class of ${(BRAND_FACTS.priorityDemo || {}).length || 'about 45 to 60 minutes'} with a mentor reserved for you before you enrol.`
+                        : value;
+                    return `
                     <div class="guarantee-item">
                         <div class="guarantee-icon">${CD_ICONS.shield}</div>
                         <div class="guarantee-content">
-                            <div class="guarantee-label">${this.escapeHtml(humanizeKey(key))}</div>
-                            <div class="guarantee-value">${this.escapeHtml(value)}</div>
+                            <div class="guarantee-label">${this.escapeHtml(label)}</div>
+                            <div class="guarantee-value">${this.escapeHtml(text)}${pd ? ' <a href="/book-demo" data-pd-book="course-guarantee">Book a Priority Demo</a>' : ''}</div>
                         </div>
                     </div>
-                `).join('')}
+                `;
+                }).join('')}
             </div>
         `;
     }

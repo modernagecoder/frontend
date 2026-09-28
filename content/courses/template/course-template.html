@@ -61,7 +61,7 @@
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
     <!-- Editorial theme (shared) + Course detail styles. No legacy CSS. -->
     <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626g">
-    <link rel="stylesheet" href="/css/course-detail-redesign.css?v=20260921a">
+    <link rel="stylesheet" href="/css/course-detail-redesign.css?v=20260928b">
     <link rel="stylesheet" href="/css/moments-strip.css?v=20260806b">
     <script src="/js/moments-strip.js?v=20260806b" defer></script>
     <meta name="theme-color" content="#B45309">
@@ -72,7 +72,7 @@
     <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
 </head>
 
-<body class="course-detail-page editorial" data-sticky="course">
+<body class="course-detail-page editorial" data-sticky="course-pd">
 
     <!-- Navigation Component Placeholder -->
     <div id="nav-placeholder"></div>
@@ -137,14 +137,16 @@
                 <!-- Visible freshness stamp (Phase 6.4). Rendered only when the course declares a real date; never a build-time date. -->
                 {{SYLLABUS_UPDATED}}
 
-                <!-- One clear CTA path: Enrol (→ pricing) + Book a free demo. Resources demoted to quiet links. -->
+                <!-- One clear CTA path: Book a Priority Demo (opens the payment form in place via
+                     /js/demo-choice.js, no price on the button) + Enrol (→ plans). Contact line under it. -->
                 <div class="hero-cta-row">
                     <div class="cd-primary-cta">
-                        <a href="#enroll" class="cd-btn-primary">Enrol Now
+                        <a href="/book-demo" class="cd-btn-primary" data-pd-book="course-hero">Book a Priority Demo
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                         </a>
-                        <a href="/contact" class="cd-btn-secondary">Book a Free Demo</a>
+                        <a href="#enroll" class="cd-btn-secondary">See plans and enrol</a>
                     </div>
+                    {{HERO_CONTACT_LINE}}
                     <div class="hero-resource-links">
                         <button type="button" id="downloadCurriculumBtn" class="download-curriculum-btn" aria-label="Download course curriculum as PDF">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
@@ -168,6 +170,9 @@
             </div>
         </section>
 
+
+        <!-- Quality promise band (owner 2026-09-28), generated in scripts/lib/course-facts.js -->
+        {{QUALITY_PROMISE}}
 
         <!-- Course duration (editorial) -->
         <section class="cd-duration">
@@ -241,16 +246,13 @@
         <section class="enrollment-cta-section" id="enroll">
             <div class="enrollment-cta-container">
                 <div class="enrollment-cta-text">
-                    <h2>Ready to Master {{COURSE_TITLE}}?</h2>
-                    <p>Choose your plan and start your journey into the future of technology today.</p>
-                    <p class="enroll-trust" style="margin:.6rem auto 0;font-weight:600;">Rated 4.9 across 547 Google reviews. Enroll directly, or see a class first. The free demo is a waiting list and needs no card. Monthly billing, cancel anytime.</p>
-                    <!-- Priority demo entry (2026-09-21). Facts: scripts/brand-facts.json priorityDemo.
-                         One currency only: rupees static, /js/demo-choice.js swaps .pd-price to dollars outside India. -->
-                    <div class="cd-pdemo">
-                        <p><b>Try this course in a full live class, today or tomorrow.</b>The Priority Live Demo is a real class of about 45 to 60 minutes with a mentor reserved for you. You get a written skill report afterwards, and the fee is adjusted against your first month if you enrol.</p>
-                        <a class="cd-pdemo-btn" href="/book-demo" data-pd-book="course">Book priority demo &middot; <span class="pd-price">₹499</span></a>
-                    </div>
+                    <h2>How to join {{COURSE_TITLE}}</h2>
+                    <p>Four steps from this page to the first class. See a full class first with a Priority Demo, or choose a plan and enrol today.</p>
+                    <p class="enroll-trust" style="margin:.6rem auto 0;font-weight:600;">Rated 4.9 across 547 Google reviews. Monthly billing, cancel any time.</p>
                 </div>
+                <!-- Enrolment steps (generated in scripts/lib/course-facts.js from brand-facts.json priorityDemo).
+                     One currency only: rupees static, /js/demo-choice.js swaps .pd-price to dollars outside India. -->
+                {{ENROL_STEPS}}
                 <div class="enrollment-options">
                     <!-- TIER:GROUP START -->
                     <div class="enrollment-option">
@@ -318,6 +320,9 @@
                 </div>
                 <p class="cd-intl-more">Billed monthly in US dollars, the same price in every country. <a href="/contact/">Contact us</a> with any questions.</p>
             </div>
+
+            <!-- Talk to a person: WhatsApp / email / call, links carry the course name -->
+            {{CONTACT_CARD}}
         </section>
 
         <!-- NEW: Program Overview Section -->
@@ -573,13 +578,14 @@
         <section class="cd-final-cta">
             <div class="cd-final-cta-inner">
                 <h2>Ready to start {{COURSE_TITLE}}?</h2>
-                <p>Book a free demo class to meet your mentor and see how we teach, with no commitment. Or enrol now and start this week.</p>
+                <p>Book a Priority Demo to see a full live class with a mentor reserved for you, today or tomorrow. Or choose a plan and enrol now.</p>
                 <div class="cd-final-cta-row">
-                    <a href="#enroll" class="cd-btn-primary">Enrol Now
+                    <a href="/book-demo" class="cd-btn-primary" data-pd-book="course-final">Book a Priority Demo
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                     </a>
-                    <a href="/contact" class="cd-btn-secondary">Book a Free Demo</a>
+                    <a href="#enroll" class="cd-btn-secondary">See plans and enrol</a>
                 </div>
+                {{FINAL_CONTACT_LINE}}
             </div>
         </section>
 

@@ -366,10 +366,11 @@ function courseToMarkdown(data) {
     }
 
     body += courseFacts.answersMarkdown(data);
+    body += courseFacts.stepsMarkdown(data);
 
     body += `\n---\n\n## Enroll\n\n`;
     body += `- Enroll directly, no demo required (plans in your currency): ${SITE}/courses/${meta.slug}/#enroll\n`;
-    body += `- Book a free live demo, optional: ${SITE}/book-demo\n`;
+    body += `- Book a Priority Demo, optional (a full live class with a mentor reserved for you): ${SITE}/book-demo\n`;
     body += `- Course page: ${SITE}/courses/${meta.slug}/\n`;
     body += `- All courses: ${SITE}/courses\n`;
     body += `\n*Source: ${SITE}/courses/${meta.slug}/*\n`;
