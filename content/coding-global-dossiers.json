@@ -29592,5 +29592,45 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-rochester": {
+    "market": "Rochester",
+    "bodyClass": "cg-rot",
+    "pageType": "city",
+    "curriculumAuthority": "Medway BUAs (ONS 2021, published): Gillingham 108,480; Chatham 76,955; Rochester 67,285; Hoo St Werburgh 8,760; Cuxton 3,040. OS Open Names: Strood, Frindsbury, Wainscott in Medway. Project Gutenberg 1392, Dickens, The Seven Poor Travellers: \"Strictly speaking, there were only six Poor Travellers\"; inscription \"RICHARD WATTS, Esq. by his Will, dated 22 Aug. 1579, founded this Charity for Six poor Travellers, who not being ROGUES, or PROCTORS, May receive gratis for one Night, Lodging, Entertainment, and Fourpence each.\"; \"the ancient little city of Rochester in Kent\"; \"upon a Christmas-eve\".",
+    "localProject": "Chapter I: 101 sentences (5+ words), mean 32.9 words, max 174; 1,553 content words; top travellers 21, watts 12. Three-sentence summaries vs 5 facts: raw sum 289 words 3/5; length-normalised 37 words 2/5; first three sentences 86 words 3/5; \"Rochester\" never kept. Bugs: heading glued to sentence one; case-sensitive fact check. Lesson family: extractive summarisation, length bias, lead baseline, evaluation against a fact list.",
+    "requiredMentions": [
+      "67,285",
+      "Strood",
+      "Frindsbury",
+      "Wainscott",
+      "Richard Watts",
+      "Seven Poor Travellers",
+      "Fourpence",
+      "summariser",
+      "extractive"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Charles Dickens, The Seven Poor Travellers (ebook 1392).",
+        "url": "https://www.gutenberg.org/ebooks/1392"
+      },
+      {
+        "claim": "OS Open Names places in Medway, via postcodes.io.",
+        "url": "https://postcodes.io/"
+      }
+    ],
+    "rejectedClaims": [
+      "Whether Watts's Charity building still stands or can be visited: not read from a source; not claimed.",
+      "Dickens's own life in Rochester or Chatham: not read from a source used here; not claimed.",
+      "Medway age table and total: owned by the Gillingham page; not repeated.",
+      "How summarisation research ranks the lead baseline: not claimed; only our own result is reported.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
