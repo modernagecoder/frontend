@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "slug": "how-to-solve-quadratic-equations",
+    "title": "How to Solve Quadratic Equations: 3 Methods with Examples",
+    "description": "Solve quadratic equations by factorising, the quadratic formula and completing the square, with the discriminant, a real example and Python checks.",
+    "keywords": [
+      "how to solve quadratic equations",
+      "quadratic formula",
+      "factorising quadratics",
+      "completing the square",
+      "discriminant",
+      "quadratic equation examples",
+      "quadratic equations gcse"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Mathematics",
+    "tags": [
+      "Algebra",
+      "GCSE",
+      "Quadratics",
+      "Python"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "A quadratic equation can be written ax squared + bx + c = 0. Factorise when two numbers multiply to c and add to b; use the quadratic formula x = (-b plus or minus the square root of b squared - 4ac) / 2a for anything; complete the square to find the turning point. The discriminant b squared - 4ac gives two solutions if positive, one if zero, none if negative. Two answers often both make sense, like a thrown ball passing 15 m at 1 second and 3 seconds. Always substitute your answers back to check."
+  },
+  "hero": {
+    "title": "How to Solve Quadratic Equations: 3 Methods with Examples",
+    "subtitle": "Factorising, the quadratic formula and completing the square, when to use each, what the discriminant tells you, and a thrown ball that shows why two answers make sense.",
+    "featuredImage": {
+      "url": "/images/blog/how-to-solve-quadratic-equations/00-hero.png",
+      "alt": "How to solve quadratic equations: the quadratic formula x equals minus b plus or minus root b squared minus 4ac over 2a"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "A quadratic equation is any equation that can be written as ax&#178; + bx + c = 0, where a is not zero. The x&#178; is what makes it quadratic, and it is why these equations usually have two answers rather than one. They turn up everywhere from the path of a thrown ball to the area of a garden, and they are a core topic in GCSE, IGCSE, Class 10 CBSE and US Algebra 1."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide covers the three standard methods, factorising, the quadratic formula and completing the square, with worked examples and a clear way to choose between them. A few lines of Python check every answer, and a real-world example shows why getting two answers makes perfect sense."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What makes an equation quadratic",
+        "id": "what"
+      },
+      {
+        "type": "paragraph",
+        "text": "In ax&#178; + bx + c = 0, the letters a, b and c are numbers, called coefficients. For x&#178; &#8722; 5x + 6 = 0, a = 1, b = &#8722;5 and c = 6. Always rearrange so one side is zero before you start; for example, x&#178; = 5x &#8722; 6 must become x&#178; &#8722; 5x + 6 = 0. The graph of y = ax&#178; + bx + c is a U-shaped curve called a parabola, and the solutions are where it crosses the x-axis."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Method 1: factorising",
+        "id": "factorising"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you can write the quadratic as two brackets multiplied together, the solutions come straight out, because if two things multiply to zero, one of them must be zero. For x&#178; + bx + c, look for two numbers that <strong>multiply to c</strong> and <strong>add to b</strong>."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-solve-quadratic-equations/02-factorise.png",
+        "alt": "Factorising x squared minus 5x plus 6: of the pairs that multiply to 6, only minus 2 and minus 3 also add to minus 5, so the equation factorises to (x minus 2)(x minus 3) and x = 2 or 3",
+        "caption": "Try the pairs that multiply to c until one also adds to b."
+      },
+      {
+        "type": "paragraph",
+        "text": "For x&#178; &#8722; 5x + 6: the pairs that multiply to 6 are 1 and 6, 2 and 3, &#8722;1 and &#8722;6, &#8722;2 and &#8722;3. Only &#8722;2 and &#8722;3 add to &#8722;5. So x&#178; &#8722; 5x + 6 = (x &#8722; 2)(x &#8722; 3) = 0, giving x = 2 or x = 3. A computer can do the same search:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from formula import show\n\n# Factorise x^2 + bx + c: find two whole numbers that multiply to c and add to b\ndef factor_pair(b, c):\n    for p in range(-abs(c), abs(c) + 1):\n        if p != 0 and c % p == 0 and p + c // p == b:\n            return p, c // p\n    return None\n\nfor b, c in [(-5, 6), (1, -12), (7, 10), (2, -4)]:\n    pair = factor_pair(b, c)\n    if pair:\n        p, q = pair\n        bracket = lambda n: f\"(x {'-' if n < 0 else '+'} {abs(n)})\"\n        print(f\"{show(1, b, c)} = {bracket(p)}{bracket(q)}   so x = {-p} or x = {-q}\")\n    else:\n        print(f\"{show(1, b, c)}: no whole-number pair, use the formula\")",
+        "title": "factor.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "x^2 - 5x + 6 = (x - 3)(x - 2)   so x = 3 or x = 2\nx^2 + x - 12 = (x - 3)(x + 4)   so x = 3 or x = -4\nx^2 + 7x + 10 = (x + 2)(x + 5)   so x = -2 or x = -5\nx^2 + 2x - 4: no whole-number pair, use the formula",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice the last line. x&#178; + 2x &#8722; 4 has no whole-number pair, because its solutions are not whole numbers. Factorising is the fastest method when it works, but it does not always work."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Method 2: the quadratic formula",
+        "id": "formula"
+      },
+      {
+        "type": "paragraph",
+        "text": "The quadratic formula works for every quadratic equation:"
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The quadratic formula",
+        "text": "For ax&#178; + bx + c = 0: <strong>x = (&#8722;b &#177; &#8730;(b&#178; &#8722; 4ac)) / 2a</strong>. The &#177; means you do the calculation twice, once with + and once with &#8722;, to get the two solutions."
+      },
+      {
+        "type": "paragraph",
+        "text": "For x&#178; + 2x &#8722; 4 = 0: a = 1, b = 2, c = &#8722;4. Then b&#178; &#8722; 4ac = 4 + 16 = 20, so x = (&#8722;2 &#177; &#8730;20) / 2 = &#8722;1 &#177; &#8730;5. That is about 1.236 and -3.236. The formula turned an equation that would not factorise into two exact answers. Here it is in code, handling every case:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import math\n\ndef show(a, b, c):\n    \"\"\"Write ax^2 + bx + c the way you would by hand.\"\"\"\n    s = (\"\" if a == 1 else str(a)) + \"x^2\"\n    s += f\" {'-' if b < 0 else '+'} \" + (\"\" if abs(b) == 1 else str(abs(b))) + \"x\" if b else \"\"\n    s += f\" {'-' if c < 0 else '+'} {abs(c)}\" if c else \"\"\n    return s\n\ndef solve_quadratic(a, b, c):\n    \"\"\"Real solutions of ax^2 + bx + c = 0.\"\"\"\n    d = b * b - 4 * a * c          # the discriminant\n    if d < 0:\n        return d, []\n    if d == 0:\n        return d, [-b / (2 * a)]\n    root = math.sqrt(d)\n    return d, sorted([(-b - root) / (2 * a), (-b + root) / (2 * a)])\n\nif __name__ == \"__main__\":\n    for a, b, c in [(1, -5, 6), (1, 2, -4), (1, 6, 9), (1, 2, 5)]:\n        d, xs = solve_quadratic(a, b, c)\n        shown = \", \".join(f\"{x:.4g}\" for x in xs) or \"no real solutions\"\n        print(f\"{show(a, b, c)} = 0\".ljust(20), f\"discriminant {d:>3}   x = {shown}\")",
+        "title": "formula.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "x^2 - 5x + 6 = 0     discriminant   1   x = 2, 3\nx^2 + 2x - 4 = 0     discriminant  20   x = -3.236, 1.236\nx^2 + 6x + 9 = 0     discriminant   0   x = -3\nx^2 + 2x + 5 = 0     discriminant -16   x = no real solutions",
+        "title": "Output"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The discriminant: how many solutions?",
+        "id": "discriminant"
+      },
+      {
+        "type": "paragraph",
+        "text": "The part under the square root, b&#178; &#8722; 4ac, is called the <strong>discriminant</strong>, and it tells you what to expect before you solve anything:"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-solve-quadratic-equations/01-discriminant.png",
+        "alt": "Three parabolas: a positive discriminant crosses the x-axis twice for two solutions, zero touches it once for one solution, and negative misses it entirely for no real solutions",
+        "caption": "The discriminant is the sign under the square root."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Positive</strong> (like 1 or 20 above): two different solutions. The parabola crosses the x-axis twice.",
+          "<strong>Zero</strong> (like x&#178; + 6x + 9): exactly one solution, x = &#8722;3. The parabola just touches the axis.",
+          "<strong>Negative</strong> (like &#8722;16 for x&#178; + 2x + 5): no real solutions, because you cannot take the square root of a negative number with ordinary numbers. The parabola never reaches the axis."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "In later maths, negative discriminants lead to complex numbers, but at GCSE and Class 10 level the answer is simply \"no real solutions\"."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Method 3: completing the square",
+        "id": "completing-the-square"
+      },
+      {
+        "type": "paragraph",
+        "text": "Completing the square rewrites the equation so that x appears only once, inside a squared bracket. It is also where the quadratic formula comes from. Take x&#178; + 6x + 2 = 0. Picture x&#178; + 6x as a square of side x with two strips of 3 by x attached: it is a bigger square with one corner missing, and that corner is 3 &#215; 3 = 9."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-solve-quadratic-equations/03-square.png",
+        "alt": "Completing the square for x squared plus 6x plus 2: x squared plus two strips of 3x form a square with a missing 3 by 3 corner of 9, so x squared plus 6x plus 9 equals (x plus 3) squared, giving (x plus 3) squared equals 7 and x = minus 3 plus or minus root 7",
+        "caption": "Half of b, squared, is the missing corner."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "Halve the x coefficient: half of 6 is 3. The missing corner is 3&#178; = 9.",
+          "Add and subtract it: x&#178; + 6x + 9 &#8722; 9 + 2 = 0, which is (x + 3)&#178; &#8722; 7 = 0.",
+          "Rearrange: (x + 3)&#178; = 7, so x + 3 = &#177;&#8730;7.",
+          "Solve: x = &#8722;3 &#177; &#8730;7, about -0.354 or -5.646."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Completing the square is also the easiest way to find the turning point of a parabola: (x + 3)&#178; &#8722; 7 has its lowest point at x = &#8722;3, y = &#8722;7."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A real example: a ball thrown upwards",
+        "id": "real-world"
+      },
+      {
+        "type": "paragraph",
+        "text": "Throw a ball straight up at 20 metres per second and its height after t seconds is roughly h = 20t &#8722; 5t&#178; (5 is about half of gravity's 9.8, rounded to keep the numbers simple). When is the ball 15 metres high?"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# A ball is thrown up at 20 m/s. Its height after t seconds is roughly h = 20t - 5t^2.\n# (Using 5 for half of gravity's 9.8 keeps the numbers simple.)\nimport math\n\ndef times_at_height(h):\n    # 20t - 5t^2 = h  becomes  5t^2 - 20t + h = 0\n    a, b, c = 5, -20, h\n    d = b * b - 4 * a * c\n    if d < 0:\n        return []\n    return sorted({(-b - math.sqrt(d)) / (2 * a), (-b + math.sqrt(d)) / (2 * a)})\n\nfor h in (0, 15, 20, 25):\n    ts = times_at_height(h)\n    print(f\"height {h:>2} m: \" + (\", \".join(f\"t = {t:g} s\" for t in ts) if ts else \"never reached\"))",
+        "title": "ball.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "height  0 m: t = 0 s, t = 4 s\nheight 15 m: t = 1 s, t = 3 s\nheight 20 m: t = 2 s\nheight 25 m: never reached",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-solve-quadratic-equations/04-ball.png",
+        "alt": "Height of a ball thrown up at 20 metres per second: it passes 15 metres at 1 second going up and 3 seconds coming down, peaks at 20 metres at 2 seconds and lands at 4 seconds",
+        "caption": "Two solutions, and both of them are real moments in the flight."
+      },
+      {
+        "type": "paragraph",
+        "text": "Both answers make sense: the ball passes 15 m at 1 second on the way up and at 3 seconds on the way down. It reaches 20 m exactly once, at the top (a zero discriminant), and never reaches 25 m (a negative one). The three cases of the discriminant are three real situations."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Which method should you use?",
+        "id": "choose"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Situation",
+          "Best method"
+        ],
+        "rows": [
+          [
+            "Small whole numbers, and a pair jumps out",
+            "Factorising"
+          ],
+          [
+            "Anything else, or the question says \"to 2 decimal places\"",
+            "The quadratic formula"
+          ],
+          [
+            "The question asks for the turning point or \"the form (x + p)&#178; + q\"",
+            "Completing the square"
+          ],
+          [
+            "Checking an answer",
+            "Substitute it back into the original equation"
+          ]
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Always check",
+        "text": "Put each solution back into the original equation. For x = 3 in x&#178; &#8722; 5x + 6: 9 &#8722; 15 + 6 = 0. It takes seconds and catches sign mistakes, which are the most common error in this topic. If negatives cause trouble, our guide to <a href='/blog/negative-numbers-explained'>negative numbers</a> helps."
+      },
+      {
+        "type": "quote",
+        "text": "Two answers are not a complication. A parabola can cross a line twice, and a ball can be at the same height twice."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Quadratics suit two principles on our <a href='/how-we-teach'>how we teach</a> page. We show the same problem three ways until the aha lands, and quadratics come with exactly three methods. And students derive the rule themselves before they ever see it written down: completing the square on a general quadratic is how the formula appears, rather than being handed over to memorise. Our <a href='/gcse-maths-tuition-online'>GCSE maths tuition</a> runs one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How do you solve a quadratic equation?",
+            "content": "Rearrange it to ax squared plus bx plus c = 0, then factorise it, use the quadratic formula, or complete the square. Factorising is quickest when it works; the formula always works; completing the square also gives the turning point."
+          },
+          {
+            "title": "What is the quadratic formula?",
+            "content": "x = (minus b plus or minus the square root of (b squared minus 4ac)) divided by 2a. It solves any quadratic equation ax squared plus bx plus c = 0 and gives both solutions at once."
+          },
+          {
+            "title": "What does the discriminant tell you?",
+            "content": "The discriminant b squared minus 4ac tells you how many real solutions there are: two if it is positive, one if it is zero, and none if it is negative."
+          },
+          {
+            "title": "Why do quadratic equations have two solutions?",
+            "content": "Because a parabola can cross the x-axis in two places. In real problems both often make sense, like a ball passing the same height once going up and once coming down."
+          },
+          {
+            "title": "How do you know if a quadratic can be factorised?",
+            "content": "For whole-number coefficients, it factorises neatly when the discriminant is a perfect square, such as 1, 4 or 9. Otherwise, use the formula."
+          },
+          {
+            "title": "What is completing the square used for?",
+            "content": "It solves quadratic equations, finds the turning point of a parabola, and is how the quadratic formula is derived. It is required in GCSE Higher and many other syllabuses."
+          },
+          {
+            "title": "Can a quadratic equation have no solution?",
+            "content": "It can have no real solutions, when the discriminant is negative and the parabola never touches the x-axis. In advanced maths these equations have complex solutions."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "how-to-solve-simultaneous-equations",
+    "negative-numbers-explained",
+    "pythagoras-theorem-explained"
+  ]
+}

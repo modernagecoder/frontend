@@ -130,6 +130,10 @@
         "text": "Substitution is also the method you need later, when one equation is not a straight line, for example a line and a curve such as y = x&#178;. Elimination cannot handle those, so it is worth being comfortable with both."
       },
       {
+        "type": "paragraph",
+        "text": "Substituting a line into a curve such as y = x&#178; produces a quadratic equation, which may have two solutions, one or none. Our guide to <a href='/blog/how-to-solve-quadratic-equations'>how to solve quadratic equations</a> covers the three methods for finishing the job."
+      },
+      {
         "type": "heading",
         "level": 2,
         "text": "Method 3: graphs",

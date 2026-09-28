@@ -82,6 +82,10 @@
         "text": "For 35 squared: the tens digit is 3, one more than 3 is 4, and 3 times 4 is 12. Write 25 after that, and you get 1,225, which is exactly 35 squared. The same pattern works for any number ending in 5: 45 squared is 4 times 5, giving 20, then 25 after it, which is 2,025. It genuinely is that fast once it is memorised, and it genuinely does not explain why it works unless someone shows you the algebra behind it separately."
       },
       {
+        "type": "paragraph",
+        "text": "The trick is algebra in disguise: (10a + 5) squared expands to 100a(a + 1) + 25, which is exactly the two parts of the answer. Expanding and factorising brackets like this is also the key to quadratic equations, covered step by step in our guide to <a href='/blog/how-to-solve-quadratic-equations'>solving quadratic equations</a>."
+      },
+      {
         "type": "heading",
         "level": 2,
         "text": "What Vedic maths is genuinely good at",
