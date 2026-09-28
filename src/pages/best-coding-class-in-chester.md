@@ -236,4 +236,4 @@ To the north, the [Liverpool page](/best-coding-class-in-liverpool) reads its ti
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-chester](https://learn.modernagecoders.com/best-coding-class-in-chester#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-chester](https://learn.modernagecoders.com/best-coding-class-in-chester#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

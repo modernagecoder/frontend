@@ -282,4 +282,4 @@ The trial lesson is free. Group lessons are then USD 100 a month and one to one 
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-trafford](https://learn.modernagecoders.com/11-plus-maths-tuition-trafford#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-trafford](https://learn.modernagecoders.com/11-plus-maths-tuition-trafford#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

@@ -227,4 +227,4 @@ The [Plymouth](/best-coding-class-in-plymouth) and [Exeter](/best-coding-class-i
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-devon](https://learn.modernagecoders.com/coding-classes-in-devon#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-devon](https://learn.modernagecoders.com/coding-classes-in-devon#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

@@ -16,7 +16,7 @@ Once fixed, this string must be identical on: site footer + /contact + /about, G
 | Legal name | Modern Age Coders Education | ✅ **owner-confirmed 2026-07-19** (the plan's "The Mahaviras Education LLP" is NOT the entity to use) |
 | Registered address | 1B, JK Ambika Tower, Kolkata, West Bengal 700002 | ✅ **owner-provided 2026-07-19** — now live in footer, /contact, /about, homepage + course + blog PostalAddress schema |
 | Phone | +91 9123366161 | ✅ consistent site-wide |
-| Email | contact@modernagecoders.com | ✅ |
+| Email | connect@modernagecoders.com | ✅ |
 | Website | https://learn.modernagecoders.com | ✅ |
 
 Once the address + legal name are provided, I will: add the address to the footer + /contact + /about + PostalAddress schema (currently only `addressCountry: IN`), and reconcile `legalName` site-wide.

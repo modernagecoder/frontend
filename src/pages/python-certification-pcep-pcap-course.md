@@ -581,7 +581,7 @@ The first class is mostly predicting output: a few unfamiliar fragments, answere
 
 Rather read first? [The full course syllabus](/courses/pcep-pcap-python-certification-course), [our PCEP breakdown](/pcep-python-certification-prep), or [how we teach](/how-we-teach).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20PCEP%20and%20PCAP%20Python%20certification%20classes.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20PCEP%20and%20PCAP%20Python%20certification%20classes.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Every class is live, one to one or in a batch of five to eight, taught from India at a time arranged with you. We sell no vouchers and no recordings. The form starts a conversation, not an enrolment.
 

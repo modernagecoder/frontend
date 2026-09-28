@@ -245,4 +245,4 @@ We phone at a convenient Irish time and book the free class. You pay only if you
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/online-coding-summer-course-ireland](https://learn.modernagecoders.com/online-coding-summer-course-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/online-coding-summer-course-ireland](https://learn.modernagecoders.com/online-coding-summer-course-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

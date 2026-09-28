@@ -404,7 +404,7 @@ Tell us what your child has built and what they are curious about. We reply with
 
 Message us with what they have done so far and we will place them honestly, including if the answer is to build fundamentals first.
 
-[WhatsApp+91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I%20want%20my%20child%20to%20build%20a%20real%20AI%20project)[Call+91 91233 66161](tel:+919123366161)[Emailcontact@modernagecoders.com](mailto:contact@modernagecoders.com?subject=AI%20and%20ML%20Portfolio%20Program%20enquiry)
+[WhatsApp+91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I%20want%20my%20child%20to%20build%20a%20real%20AI%20project)[Call+91 91233 66161](tel:+919123366161)[Emailconnect@modernagecoders.com](mailto:connect@modernagecoders.com?subject=AI%20and%20ML%20Portfolio%20Program%20enquiry)
 
 Your details are used only to reply to this enquiry and are never shared or sold. We are a coding and maths school and make no admissions promises.
 

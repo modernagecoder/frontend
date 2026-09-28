@@ -282,7 +282,7 @@ facts = {
     "website": SITE,
     "dashboard": "https://dashboard.modernagecoders.com",
     "phone_whatsapp": "+91 9123366161",
-    "email": "contact@modernagecoders.com",
+    "email": "connect@modernagecoders.com",
     "registered_office": "1B, JK Ambika Tower, Kolkata, West Bengal 700002, India",
     "phone_hours": "Mon-Sat 09:00-18:00 IST",
     "callback_sla_hours": 3,

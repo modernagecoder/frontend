@@ -32,7 +32,7 @@ Once your refund request is received and approved, we will initiate a refund to 
 
 ## 5. How to Request a Refund
 
-If you wish to request a refund, please contact our support team at [contact@modernagecoders.com](mailto:contact@modernagecoders.com) with your order details and reason for the refund.
+If you wish to request a refund, please contact our support team at [connect@modernagecoders.com](mailto:connect@modernagecoders.com) with your order details and reason for the refund.
 
 ---
 

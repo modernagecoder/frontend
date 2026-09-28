@@ -255,4 +255,4 @@ We call back at a reasonable hour in Ireland to arrange the free first class. Th
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/transition-year-coding-course-ireland](https://learn.modernagecoders.com/transition-year-coding-course-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/transition-year-coding-course-ireland](https://learn.modernagecoders.com/transition-year-coding-course-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

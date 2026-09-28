@@ -338,7 +338,7 @@ The best first session we can run starts from a project the teenager already wan
 
 Reading first? The [parents guide](/parents-guide-to-vibe-coding) covers consent and safety in depth, [student projects](/vibe-coding-projects-for-students) shows what gets built, and [AI agents for teens](/ai-agents-for-teens) is the rung after this one.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20My%20teenager%20is%20interested%20in%20vibe%20coding%20classes.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20My%20teenager%20is%20interested%20in%20vibe%20coding%20classes.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 All teaching is live video from India to families in every time zone; the number above rings in India. The form starts a conversation, nothing more, and no batch place is held or lost by sending it.
 

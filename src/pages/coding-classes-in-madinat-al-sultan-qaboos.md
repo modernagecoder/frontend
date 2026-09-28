@@ -317,7 +317,7 @@ A British year, bilingual grade or adult course gives context. The task shows wh
 
 Return to the [Oman hub](/coding-classes-in-oman), compare the wider [Muscat offer](/coding-classes-in-muscat), or read [how we teach](/how-we-teach).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Madinat%20Al%20Sultan%20Qaboos.)[+91 91233 66161](tel:+919123366161)[contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Madinat%20Al%20Sultan%20Qaboos.)[+91 91233 66161](tel:+919123366161)[connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 This Indian number reaches the online provider. It is not a Madinat Al Sultan Qaboos office.
 

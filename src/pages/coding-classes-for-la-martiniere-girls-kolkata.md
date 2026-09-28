@@ -339,7 +339,7 @@ Experience our girls-friendly coding classes absolutely free. Tell us about your
 
 Or reach us directly:
 
-[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm a La Martiniere Girls parent. I'd like to book a free demo for my daughter.)[Email Us](mailto:contact@modernagecoders.com?subject=Coding Classes for La Martiniere Girls Student)
+[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm a La Martiniere Girls parent. I'd like to book a free demo for my daughter.)[Email Us](mailto:connect@modernagecoders.com?subject=Coding Classes for La Martiniere Girls Student)
 
 ## Frequently Asked Questions
 

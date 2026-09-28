@@ -255,4 +255,4 @@ Other English cities have pages of their own, including [London](/best-coding-cl
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-manchester](https://learn.modernagecoders.com/best-coding-class-in-manchester#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-manchester](https://learn.modernagecoders.com/best-coding-class-in-manchester#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

@@ -222,4 +222,4 @@ We call a parent at a Dutch hour to arrange the free lesson. There is nothing to
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/machine-learning-for-school-students-netherlands](https://learn.modernagecoders.com/machine-learning-for-school-students-netherlands#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/machine-learning-for-school-students-netherlands](https://learn.modernagecoders.com/machine-learning-for-school-students-netherlands#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

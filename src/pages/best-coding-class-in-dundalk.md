@@ -234,4 +234,4 @@ Down the coast is [Drogheda](/best-coding-class-in-drogheda), with [County Louth
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-dundalk](https://learn.modernagecoders.com/best-coding-class-in-dundalk#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-dundalk](https://learn.modernagecoders.com/best-coding-class-in-dundalk#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

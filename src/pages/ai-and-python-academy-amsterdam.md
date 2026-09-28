@@ -226,4 +226,4 @@ We call at a Dutch hour to arrange the free lesson. Nothing is charged and no pl
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/ai-and-python-academy-amsterdam](https://learn.modernagecoders.com/ai-and-python-academy-amsterdam#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/ai-and-python-academy-amsterdam](https://learn.modernagecoders.com/ai-and-python-academy-amsterdam#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

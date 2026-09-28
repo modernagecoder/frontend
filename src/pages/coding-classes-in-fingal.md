@@ -254,4 +254,4 @@ The city itself is at [Dublin](/best-coding-class-in-dublin), and south of it [D
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-fingal](https://learn.modernagecoders.com/coding-classes-in-fingal#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-fingal](https://learn.modernagecoders.com/coding-classes-in-fingal#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

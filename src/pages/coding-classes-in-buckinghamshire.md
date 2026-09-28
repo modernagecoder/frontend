@@ -231,4 +231,4 @@ We have a separate maths page for it, but this page is about coding. We do not a
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-buckinghamshire](https://learn.modernagecoders.com/coding-classes-in-buckinghamshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-buckinghamshire](https://learn.modernagecoders.com/coding-classes-in-buckinghamshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

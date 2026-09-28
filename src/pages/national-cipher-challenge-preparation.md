@@ -244,4 +244,4 @@ No. We teach programming, and we do not decipher or assist with a live challenge
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/national-cipher-challenge-preparation](https://learn.modernagecoders.com/national-cipher-challenge-preparation#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/national-cipher-challenge-preparation](https://learn.modernagecoders.com/national-cipher-challenge-preparation#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

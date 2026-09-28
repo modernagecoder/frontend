@@ -346,7 +346,7 @@ Nothing is charged for the first hour and nothing is sold in it. The learner is 
 
 Other ways in: the [contact page](/contact) lists them all, [about us](/about) says who runs this, and the [Brunei guide](/coding-classes-in-brunei) covers the country.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Temburong.)[+91 91233 66161](tel:+919123366161)[contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Temburong.)[+91 91233 66161](tel:+919123366161)[connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 WhatsApp reaches us fastest from Brunei and costs nothing to use. The number is Indian, not a local one.
 

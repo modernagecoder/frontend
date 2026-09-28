@@ -481,7 +481,7 @@ function renderPage(p) {
   ] };
   const service = { '@context': 'https://schema.org', '@type': 'Service', name: p.serviceType, url,
     description: p.capsule[0], serviceType: p.serviceType, areaServed: 'Worldwide',
-    provider: { '@type': 'Organization', name: 'Modern Age Coders', url: `${BASE}/`, foundingDate: '2020', email: 'contact@modernagecoders.com', telephone: '+91-91233-66161' } };
+    provider: { '@type': 'Organization', name: 'Modern Age Coders', url: `${BASE}/`, foundingDate: '2020', email: 'connect@modernagecoders.com', telephone: '+91-91233-66161' } };
   const faqSchema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: p.faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) };
 
   const svcCards = p.services.map(([h, d], i) => `                <div class="svc-card"><span class="svc-card__idx">${String(i + 1).padStart(2, '0')}</span><h3>${h}</h3><p>${d}</p></div>`).join('\n');
@@ -729,9 +729,9 @@ ${engageCards}
                             <span class="ico">${I.phone}</span>
                             <span><span class="k">Call</span>+91 91233 66161</span>
                         </a>
-                        <a href="mailto:contact@modernagecoders.com?subject=${encodeURIComponent(p.dataService + ' enquiry')}">
+                        <a href="mailto:connect@modernagecoders.com?subject=${encodeURIComponent(p.dataService + ' enquiry')}">
                             <span class="ico">${I.mail}</span>
-                            <span><span class="k">Email</span>contact@modernagecoders.com</span>
+                            <span><span class="k">Email</span>connect@modernagecoders.com</span>
                         </a>
                     </div>
                     <p class="lead__assure">Your details go straight to our team and are used only to reply to your enquiry. We never share or sell your information.</p>
@@ -817,7 +817,7 @@ ${faq}
 ## Contact
 
 - WhatsApp or call: +91 91233 66161
-- Email: contact@modernagecoders.com
+- Email: connect@modernagecoders.com
 - Or send your requirement through the form at ${url.replace(BASE, '')}
 `;
 }

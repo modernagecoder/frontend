@@ -216,4 +216,4 @@ Someone rings you back at a Dutch hour to arrange the free lesson. Money only co
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/ai-and-python-academy-utrecht](https://learn.modernagecoders.com/ai-and-python-academy-utrecht#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/ai-and-python-academy-utrecht](https://learn.modernagecoders.com/ai-and-python-academy-utrecht#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

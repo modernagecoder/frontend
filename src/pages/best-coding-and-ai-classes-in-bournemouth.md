@@ -202,4 +202,4 @@ The [Dorset](/coding-classes-in-dorset) page covers the county, and the [South W
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-bournemouth](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-bournemouth#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/best-coding-and-ai-classes-in-bournemouth](https://learn.modernagecoders.com/best-coding-and-ai-classes-in-bournemouth#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

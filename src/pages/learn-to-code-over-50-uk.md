@@ -503,7 +503,7 @@ Leave a number and we will call at a UK time that suits you. Tell us why you wan
 
 Reading first? Each [course page](/courses) sets out its syllabus, [how we teach](/how-we-teach) explains our approach, and [student labs](/student-labs) shows finished projects.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20over%2050%20and%20would%20like%20a%20free%20first%20coding%20lesson.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20over%2050%20and%20would%20like%20a%20free%20first%20coding%20lesson.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 A WhatsApp message is the quickest route and free from a UK phone. We are based in India, so the number begins +91.
 

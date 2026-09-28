@@ -372,7 +372,7 @@ Tell us the event and the date. We reply within one business day with what is re
 
 Message us with the date and we will tell you honestly whether preparation time is enough to be useful.
 
-[WhatsApp+91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I%20want%20help%20preparing%20for%20a%20hackathon)[Call+91 91233 66161](tel:+919123366161)[Emailcontact@modernagecoders.com](mailto:contact@modernagecoders.com?subject=Hackathon%20Preparation%20enquiry)
+[WhatsApp+91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I%20want%20help%20preparing%20for%20a%20hackathon)[Call+91 91233 66161](tel:+919123366161)[Emailconnect@modernagecoders.com](mailto:connect@modernagecoders.com?subject=Hackathon%20Preparation%20enquiry)
 
 Your details are used only to answer your enquiry and are never shared or sold. We coach students to build their own entries and never build them.
 

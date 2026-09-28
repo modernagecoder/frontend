@@ -344,7 +344,7 @@ In the first session the learner describes a small project and watches it come t
 
 Prefer to read more first? Try the [parents guide to vibe coding](/parents-guide-to-vibe-coding), the deeper question of [how people actually learn to code](/how-to-actually-learn-to-code), or our [vibe coding classes page](/vibe-coding-classes) with the track-by-track syllabus.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20understand%20what%20vibe%20coding%20is%20and%20whether%20it%20suits%20my%20family.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20understand%20what%20vibe%20coding%20is%20and%20whether%20it%20suits%20my%20family.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Every class is a live video call taught from India to families worldwide; the phone number above is an Indian number. Submitting this form starts a conversation with a mentor and reserves nothing, so there is no seat to lose by thinking it over.
 

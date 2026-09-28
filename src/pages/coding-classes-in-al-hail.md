@@ -277,7 +277,7 @@ Share an age or grade and the goal. Modern Age Coders will use the first live ta
 
 ### Prefer a direct conversation?
 
-Use WhatsApp, call [+91 91233 66161](tel:+919123366161), or email [contact@modernagecoders.com](mailto:contact@modernagecoders.com). This is the organisation's actual contact, not a fabricated Oman number.
+Use WhatsApp, call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is the organisation's actual contact, not a fabricated Oman number.
 
 [WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Al%20Hail.)
 

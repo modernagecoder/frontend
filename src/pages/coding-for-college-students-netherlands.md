@@ -217,4 +217,4 @@ A member of the team rings you back at a Dutch hour to fix the opening lesson. P
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/coding-for-college-students-netherlands](https://learn.modernagecoders.com/coding-for-college-students-netherlands#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/coding-for-college-students-netherlands](https://learn.modernagecoders.com/coding-for-college-students-netherlands#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

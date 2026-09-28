@@ -212,4 +212,4 @@ The [Fingal](/coding-classes-in-fingal) page covers the council area around Blan
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-blanchardstown-dublin](https://learn.modernagecoders.com/coding-classes-in-blanchardstown-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-blanchardstown-dublin](https://learn.modernagecoders.com/coding-classes-in-blanchardstown-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

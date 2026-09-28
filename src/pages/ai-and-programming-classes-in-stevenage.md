@@ -201,4 +201,4 @@ For the county, read our [Hertfordshire](/coding-classes-in-hertfordshire) page;
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-stevenage](https://learn.modernagecoders.com/ai-and-programming-classes-in-stevenage#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-stevenage](https://learn.modernagecoders.com/ai-and-programming-classes-in-stevenage#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

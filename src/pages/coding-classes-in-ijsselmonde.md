@@ -245,4 +245,4 @@ West along the bank are [Feijenoord](/coding-classes-in-feijenoord) and [Charloi
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-ijsselmonde](https://learn.modernagecoders.com/coding-classes-in-ijsselmonde#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-ijsselmonde](https://learn.modernagecoders.com/coding-classes-in-ijsselmonde#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

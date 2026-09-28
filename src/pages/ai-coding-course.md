@@ -331,7 +331,7 @@ Ninety minutes, structured as the course in miniature: you direct a model at a s
 
 Comparing options first? The [ranked teen course list](/best-ai-courses-for-teens-2026) is the honest comparison page, [learn to code with AI](/learn-to-code-with-ai) covers the method, and [agentic coding](/agentic-coding-classes) goes deep on module five's subject.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20the%20AI%20coding%20course.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20the%20AI%20coding%20course.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 All sessions are live video taught from India across time zones, and the number above is an Indian line. This form requests one callback; enrolment, if it happens, happens later and on your schedule.
 

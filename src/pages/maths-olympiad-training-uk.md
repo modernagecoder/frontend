@@ -253,4 +253,4 @@ The top British Mathematical Olympiad round 2 scorers are invited to a training 
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/maths-olympiad-training-uk](https://learn.modernagecoders.com/maths-olympiad-training-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/maths-olympiad-training-uk](https://learn.modernagecoders.com/maths-olympiad-training-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

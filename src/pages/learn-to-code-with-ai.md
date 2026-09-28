@@ -315,7 +315,7 @@ The free class takes whatever the learner currently knows, from absolutely nothi
 
 Reading around first? The [beginner page](/vibe-coding-for-beginners) scripts your first hour, [how we teach](/how-we-teach) covers the class mechanics, and the [tools age guide](/ai-tools-age-guide) settles which assistants a learner may hold at all.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20learn%20coding%20using%20AI%20the%20right%20way.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20learn%20coding%20using%20AI%20the%20right%20way.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Live video teaching from India to every time zone; the number rings in India. Sending this form starts one phone conversation and obligates you to precisely nothing beyond answering it.
 

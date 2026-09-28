@@ -120,7 +120,7 @@
         }
       })
       .catch(function () {
-        feedback('error', 'Network error. Please reach us on WhatsApp at +91 91233 66161 or contact@modernagecoders.com.');
+        feedback('error', 'Network error. Please reach us on WhatsApp at +91 91233 66161 or connect@modernagecoders.com.');
         if (btn) { btn.disabled = false; }
         if (btnText) { btnText.textContent = original; }
       });

@@ -36,7 +36,7 @@ Depending on your location, you have the right to access, correct, delete, or po
 
 ## 7. Contact Us
 
-If you have any questions, concerns, or requests regarding this Privacy Policy or your personal information, please contact us at [contact@modernagecoders.com](mailto:contact@modernagecoders.com).
+If you have any questions, concerns, or requests regarding this Privacy Policy or your personal information, please contact us at [connect@modernagecoders.com](mailto:connect@modernagecoders.com).
 
 ---
 

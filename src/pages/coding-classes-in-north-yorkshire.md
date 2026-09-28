@@ -204,4 +204,4 @@ Start with [York](/best-coding-class-in-york) or [Ripon](/best-coding-class-in-r
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-north-yorkshire](https://learn.modernagecoders.com/coding-classes-in-north-yorkshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-north-yorkshire](https://learn.modernagecoders.com/coding-classes-in-north-yorkshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

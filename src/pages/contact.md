@@ -22,7 +22,7 @@ Tell us what you're looking for and we'll help you get started.
 
 ### Email
 
-[contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 ### Address
 

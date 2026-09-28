@@ -244,4 +244,4 @@ Nothing for the opening lesson. A place in a group runs at USD 100 each month af
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-uk](https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-uk](https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

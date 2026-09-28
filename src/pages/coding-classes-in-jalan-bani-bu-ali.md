@@ -278,7 +278,7 @@ The first task might be counting in baisa, writing the comparison that fails, or
 
 ### Contact the team directly
 
-WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [contact@modernagecoders.com](mailto:contact@modernagecoders.com). This is Modern Age Coders' actual contact and not an invented Jalan Bani Bu Ali number.
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact and not an invented Jalan Bani Bu Ali number.
 
 [WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Jalan%20Bani%20Bu%20Ali.)
 

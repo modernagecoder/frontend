@@ -542,7 +542,7 @@ Top track: **Flex**Slot: **flexible**Gratis demo · 30 minutes · Zoom · CET
 
 A real 30-minute live lesson on your child's CET slot. We tailor a learning plan to where they are today, in English (or Swedish if helpful). No card, no commitment, no pressure.
 
-[Skicka e-post](mailto:hello@modernagecoders.com?subject=Sweden%20demo%20enquiry)FAQ
+[Skicka e-post](mailto:connect@modernagecoders.com?subject=Sweden%20demo%20enquiry)FAQ
 
 ## Everything Swedish parents and learners ask first.
 

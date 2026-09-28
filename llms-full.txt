@@ -1239,7 +1239,7 @@ Every published article. Fetch the markdown twin from the second link for full c
 
 - Website: https://learn.modernagecoders.com
 - Phone / WhatsApp: +91 9123366161, https://wa.me/919123366161
-- Email: contact@modernagecoders.com
+- Email: connect@modernagecoders.com
 - Book a free demo (waiting list): https://learn.modernagecoders.com/book-demo
 - Book a Priority Live Demo (guaranteed, today or tomorrow): https://learn.modernagecoders.com/priority-demo
 - Instagram: https://www.instagram.com/modern_age_coders

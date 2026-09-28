@@ -255,4 +255,4 @@ The metro that Spijkenisse gained in its growth years runs to the city covered b
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-nissewaard](https://learn.modernagecoders.com/coding-classes-in-nissewaard#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-nissewaard](https://learn.modernagecoders.com/coding-classes-in-nissewaard#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

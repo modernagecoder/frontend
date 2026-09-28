@@ -249,4 +249,4 @@ East of here is [Amsterdam-Centrum](/coding-classes-in-amsterdam-centrum), where
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-amsterdam-west](https://learn.modernagecoders.com/coding-classes-in-amsterdam-west#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-amsterdam-west](https://learn.modernagecoders.com/coding-classes-in-amsterdam-west#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

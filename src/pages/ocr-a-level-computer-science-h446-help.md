@@ -242,4 +242,4 @@ The opening lesson is free of charge. Afterwards a place in a group costs USD 10
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/ocr-a-level-computer-science-h446-help](https://learn.modernagecoders.com/ocr-a-level-computer-science-h446-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/ocr-a-level-computer-science-h446-help](https://learn.modernagecoders.com/ocr-a-level-computer-science-h446-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

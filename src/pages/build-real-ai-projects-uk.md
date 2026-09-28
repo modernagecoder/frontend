@@ -267,4 +267,4 @@ Usually a weekday evening, or a longer weekend block for training runs, set in U
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/build-real-ai-projects-uk](https://learn.modernagecoders.com/build-real-ai-projects-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/build-real-ai-projects-uk](https://learn.modernagecoders.com/build-real-ai-projects-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

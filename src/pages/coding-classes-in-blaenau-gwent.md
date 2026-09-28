@@ -200,4 +200,4 @@ See [Newport](/best-coding-class-in-newport-wales), [Cardiff](/best-coding-class
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-blaenau-gwent](https://learn.modernagecoders.com/coding-classes-in-blaenau-gwent#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-blaenau-gwent](https://learn.modernagecoders.com/coding-classes-in-blaenau-gwent#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

@@ -328,7 +328,7 @@ Top track: **Teens**Slot: **17:00 AT**Free trial · 30 minutes · Zoom · your t
 
 A real 30-minute live lesson on your child's local slot. We tailor a learning plan to where they are today, in English (or French if you prefer). No card, no commitment.
 
-[Email us](mailto:hello@modernagecoders.com?subject=Canada%20trial%20enquiry)FAQ
+[Email us](mailto:connect@modernagecoders.com?subject=Canada%20trial%20enquiry)FAQ
 
 ## Everything Canadian parents and learners ask in their first call.
 

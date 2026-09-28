@@ -281,7 +281,7 @@ Pay month to month. Continue for as long as you need to master the full syllabus
 
 We've opened WhatsApp with your details. Send that message and our team will confirm your seat for the 12 July batch. If WhatsApp didn't open, message us at [+91 9123366161](https://wa.me/919123366161).
 
-[WhatsApp +91 9123366161](https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20register%20for%20the%20DSA%20course%20%2812%20July%20batch%29)[Call us](tel:+919123366161)[contact@modernagecoders.com](mailto:contact@modernagecoders.com)questions
+[WhatsApp +91 9123366161](https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20register%20for%20the%20DSA%20course%20%2812%20July%20batch%29)[Call us](tel:+919123366161)[connect@modernagecoders.com](mailto:connect@modernagecoders.com)questions
 
 ## DSA course FAQ
 

@@ -279,4 +279,4 @@ The first lesson is free. After that there is one monthly fee in US dollars, low
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/multiplication-tables-check-year-4-practice](https://learn.modernagecoders.com/multiplication-tables-check-year-4-practice#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/multiplication-tables-check-year-4-practice](https://learn.modernagecoders.com/multiplication-tables-check-year-4-practice#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

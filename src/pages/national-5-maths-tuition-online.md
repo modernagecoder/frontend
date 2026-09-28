@@ -259,4 +259,4 @@ Nothing for the first lesson. Regular lessons are then a single monthly charge i
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/national-5-maths-tuition-online](https://learn.modernagecoders.com/national-5-maths-tuition-online#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/national-5-maths-tuition-online](https://learn.modernagecoders.com/national-5-maths-tuition-online#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

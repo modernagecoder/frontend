@@ -377,7 +377,7 @@ Nothing is charged for the first session. A learner is given one small problem s
 
 You can also use the [contact page](/contact), or read [about us](/about) first.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Bahrain.)[+91 91233 66161](tel:+919123366161)[contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Bahrain.)[+91 91233 66161](tel:+919123366161)[connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 WhatsApp reaches us fastest from Bahrain and costs nothing to use. The number is Indian, not a Bahrain office.
 

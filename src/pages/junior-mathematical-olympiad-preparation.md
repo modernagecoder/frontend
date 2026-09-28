@@ -269,4 +269,4 @@ The first lesson is free. After it, a group place is USD 100 a month and one-to-
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/junior-mathematical-olympiad-preparation](https://learn.modernagecoders.com/junior-mathematical-olympiad-preparation#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/junior-mathematical-olympiad-preparation](https://learn.modernagecoders.com/junior-mathematical-olympiad-preparation#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

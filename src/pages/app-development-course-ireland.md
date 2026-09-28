@@ -246,4 +246,4 @@ We ring at a sensible Irish hour and arrange the free class. Nothing is charged 
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/app-development-course-ireland](https://learn.modernagecoders.com/app-development-course-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/app-development-course-ireland](https://learn.modernagecoders.com/app-development-course-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

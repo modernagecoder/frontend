@@ -605,7 +605,7 @@ The first class is a diagnostic: one small programming question started from a b
 
 Rather read first? [The full course syllabus](/courses/gcse-computer-science-course), [Cambridge IGCSE 0478](/cambridge-igcse-computer-science-tuition), or [how we teach](/how-we-teach).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20UK%20GCSE%20Computer%20Science%20tutoring.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20UK%20GCSE%20Computer%20Science%20tutoring.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Every class is live, one to one or a batch of five to eight, taught from India at a time arranged with you. No recordings are sold in place of teaching. The form starts a conversation, not an enrolment.
 

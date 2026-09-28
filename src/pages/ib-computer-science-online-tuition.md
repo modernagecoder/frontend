@@ -594,7 +594,7 @@ The first class is a diagnostic: one Paper 2 style question and a conversation a
 
 Rather read first? [The full course syllabus](/courses/ib-diploma-computer-science-course), [Cambridge IGCSE 0478](/cambridge-igcse-computer-science-tuition), or [how we teach](/how-we-teach).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20IB%20Diploma%20Computer%20Science%20online%20tuition.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20IB%20Diploma%20Computer%20Science%20online%20tuition.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Live classes only, one to one or a batch of five to eight, taught from India at an hour arranged with you. We do not sell recordings. The form starts a conversation, not an enrolment.
 

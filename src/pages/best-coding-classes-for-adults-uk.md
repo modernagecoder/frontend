@@ -483,7 +483,7 @@ Send a number and we will come back at a UK time that suits you. The free lesson
 
 Prefer to read first? Syllabuses are on the [course pages](/courses), the method is in [how we teach](/how-we-teach), and the topic order is on the [coding roadmap](/coding-roadmap).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20an%20adult%20in%20the%20UK%20and%20would%20like%20a%20free%20first%20coding%20class.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20an%20adult%20in%20the%20UK%20and%20would%20like%20a%20free%20first%20coding%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 A WhatsApp message from a British mobile is free to send and gets the fastest reply. The number belongs to our office in India, which we would rather state here than leave you to notice.
 

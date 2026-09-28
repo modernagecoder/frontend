@@ -262,4 +262,4 @@ The A28 runs south out of the province through Drenthe to [Overijssel](/coding-c
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-groningen-province](https://learn.modernagecoders.com/coding-classes-in-groningen-province#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-groningen-province](https://learn.modernagecoders.com/coding-classes-in-groningen-province#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

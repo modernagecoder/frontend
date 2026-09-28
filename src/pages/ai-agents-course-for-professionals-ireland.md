@@ -253,4 +253,4 @@ We call you at a suitable Irish hour and arrange the free first class. Nothing i
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/ai-agents-course-for-professionals-ireland](https://learn.modernagecoders.com/ai-agents-course-for-professionals-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/ai-agents-course-for-professionals-ireland](https://learn.modernagecoders.com/ai-agents-course-for-professionals-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

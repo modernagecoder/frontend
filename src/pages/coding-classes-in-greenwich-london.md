@@ -237,4 +237,4 @@ Every borough and the City has a place on the [London page](/best-coding-class-i
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-greenwich-london](https://learn.modernagecoders.com/coding-classes-in-greenwich-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-greenwich-london](https://learn.modernagecoders.com/coding-classes-in-greenwich-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

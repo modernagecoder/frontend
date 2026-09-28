@@ -336,7 +336,7 @@ Our instructors will reach out within hours to schedule your child's free demo c
 ⚡ Demo slots fill up fast. Book now to secure yours.
 
 - [+91 9123366161](tel:+919123366161)
-- [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+- [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 - Mon–Sun · 9 AM: 9 PM IST
 
 [WhatsApp Now](https://wa.me/919123366161?text=Hi, I want to book a free demo for Python/AI classes)[Contact Page →](/contact)
@@ -463,7 +463,7 @@ Forging the next generation of innovators.
 ### Contact & Legal
 
 - [+91 9123366161](tel:+919123366161)
-- [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+- [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 - [Privacy Policy](/privacy)
 - [Terms of Service](/terms)
 

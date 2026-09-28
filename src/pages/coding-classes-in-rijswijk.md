@@ -254,4 +254,4 @@ To the north lies the city covered by [coding classes in The Hague](/coding-clas
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-rijswijk](https://learn.modernagecoders.com/coding-classes-in-rijswijk#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-rijswijk](https://learn.modernagecoders.com/coding-classes-in-rijswijk#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

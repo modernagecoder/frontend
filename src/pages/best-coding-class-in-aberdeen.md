@@ -239,4 +239,4 @@ South along the coast, the [Edinburgh page](/best-coding-class-in-edinburgh) wor
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-aberdeen](https://learn.modernagecoders.com/best-coding-class-in-aberdeen#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-aberdeen](https://learn.modernagecoders.com/best-coding-class-in-aberdeen#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

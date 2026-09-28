@@ -600,7 +600,7 @@ The first class is a diagnostic rather than a sales call: a tracing question and
 
 Rather read first? [The full course syllabus](/courses/ap-computer-science-a-java-exam-prep-course), [AP Computer Science Principles](/ap-computer-science-principles-online-coaching), or [how we teach](/how-we-teach).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20AP%20Computer%20Science%20A%20online%20classes.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20AP%20Computer%20Science%20A%20online%20classes.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Classes are live, one to one or five to eight, taught from India at an hour that suits the student. Nothing here is a recording. Sending the form starts a conversation, not an enrolment.
 

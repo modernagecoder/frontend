@@ -197,7 +197,7 @@ def jsonld(c):
           "description": "{jstr(c['org_desc'])}",
           "url": "{url}",
           "telephone": "+919123366161",
-          "email": "contact@modernagecoders.com",
+          "email": "connect@modernagecoders.com",
           "areaServed": {{ "@type": "Country", "name": "India" }},
           "priceRange": "\\u20b9\\u20b9",
           "sameAs": [
@@ -658,7 +658,7 @@ FOOTER = r'''
                 <h3 class="footer-heading">Contact & Legal</h3>
                 <ul class="footer-links">
                     <li><a href="tel:+919123366161">+91 9123366161</a></li>
-                    <li><a href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a></li>
+                    <li><a href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a></li>
                     <li><a href="/privacy">Privacy Policy</a></li>
                     <li><a href="/terms">Terms of Service</a></li>
                     <li><a href="/cancellation">Cancellation Policy</a></li>
@@ -974,7 +974,7 @@ def build_md(c):
         lines.append("")
     lines.append("---")
     lines.append("")
-    lines.append(f"Contact: +91 9123366161 · contact@modernagecoders.com")
+    lines.append(f"Contact: +91 9123366161 · connect@modernagecoders.com")
     lines.append(f"*Canonical: {BASE}/{c['slug']}*")
     return "\n".join(lines) + "\n"
 

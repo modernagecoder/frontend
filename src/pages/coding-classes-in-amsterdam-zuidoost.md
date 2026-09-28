@@ -248,4 +248,4 @@ North-west of here is [Amsterdam-Oost](/coding-classes-in-amsterdam-oost), whose
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-amsterdam-zuidoost](https://learn.modernagecoders.com/coding-classes-in-amsterdam-zuidoost#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-amsterdam-zuidoost](https://learn.modernagecoders.com/coding-classes-in-amsterdam-zuidoost#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

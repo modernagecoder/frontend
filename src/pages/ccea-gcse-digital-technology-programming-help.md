@@ -268,4 +268,4 @@ The first lesson is free. Then a single monthly fee in US dollars, lower for a g
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/ccea-gcse-digital-technology-programming-help](https://learn.modernagecoders.com/ccea-gcse-digital-technology-programming-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/ccea-gcse-digital-technology-programming-help](https://learn.modernagecoders.com/ccea-gcse-digital-technology-programming-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

@@ -350,7 +350,7 @@ The opening session is free and it is not a sales call. A learner is handed a si
 
 You can also use the [contact page](/contact), read [about us](/about), or start from the [country page for Brunei](/coding-classes-in-brunei).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Bandar%20Seri%20Begawan.)[+91 91233 66161](tel:+919123366161)[contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Bandar%20Seri%20Begawan.)[+91 91233 66161](tel:+919123366161)[connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 WhatsApp reaches us fastest from Brunei and costs nothing to use. The number is Indian, not a local one.
 

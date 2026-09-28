@@ -270,7 +270,7 @@ The free first session establishes whether the two stages beneath machine learni
 
 Rather read first? [The twelve-month track](/python-and-ai-track-for-students-bahamas), [the Nassau page](/coding-and-ai-classes-in-nassau), or the site-wide [maths behind machine learning](/maths-behind-machine-learning).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20student%20in%20the%20Bahamas%20who%20wants%20to%20learn%20machine%20learning.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20student%20in%20the%20Bahamas%20who%20wants%20to%20learn%20machine%20learning.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 We hold no premises anywhere in the Bahamas. Every session is a live video call taught from India, and the number above rings in India.
 

@@ -232,4 +232,4 @@ We ring you at a sensible Irish hour and arrange the free first class. Nothing i
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/coding-for-college-students-ireland](https://learn.modernagecoders.com/coding-for-college-students-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/coding-for-college-students-ireland](https://learn.modernagecoders.com/coding-for-college-students-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

@@ -204,4 +204,4 @@ See [Yorkshire and the Humber](/coding-and-ai-classes-in-yorkshire-and-the-humbe
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-and-ai-classes-in-north-west-england](https://learn.modernagecoders.com/coding-and-ai-classes-in-north-west-england#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-and-ai-classes-in-north-west-england](https://learn.modernagecoders.com/coding-and-ai-classes-in-north-west-england#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

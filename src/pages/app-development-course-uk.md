@@ -269,4 +269,4 @@ After school, evenings or weekends in UK time, agreed in the free class. Teacher
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/app-development-course-uk](https://learn.modernagecoders.com/app-development-course-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/app-development-course-uk](https://learn.modernagecoders.com/app-development-course-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

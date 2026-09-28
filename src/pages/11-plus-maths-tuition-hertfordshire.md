@@ -272,4 +272,4 @@ Lesson one is on us. Continuing pupils pay USD 100 per month for a class place o
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-hertfordshire](https://learn.modernagecoders.com/11-plus-maths-tuition-hertfordshire#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-hertfordshire](https://learn.modernagecoders.com/11-plus-maths-tuition-hertfordshire#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

@@ -262,4 +262,4 @@ West down the tram line is [The Hague](/coding-classes-in-the-hague), where most
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-zoetermeer](https://learn.modernagecoders.com/coding-classes-in-zoetermeer#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-zoetermeer](https://learn.modernagecoders.com/coding-classes-in-zoetermeer#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

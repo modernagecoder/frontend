@@ -266,4 +266,4 @@ Your first lesson is free. Regular lessons are then one monthly fee in US dollar
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/gcse-maths-and-numeracy-wales-help](https://learn.modernagecoders.com/gcse-maths-and-numeracy-wales-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/gcse-maths-and-numeracy-wales-help](https://learn.modernagecoders.com/gcse-maths-and-numeracy-wales-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

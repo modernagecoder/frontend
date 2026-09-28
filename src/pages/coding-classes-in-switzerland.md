@@ -408,7 +408,7 @@ Most-picked slot17:00 CET (Mon/Wed)Most-picked trackBuilders' & Engineers'Book a
 
 A 30-minute live session, on Zoom, on your child's CET slot. You see how a real class feels. We tailor a learning plan to where your child is today. There is no card, no commitment, no sales pressure, and if it isn't a fit, we'll happily point you elsewhere.
 
-[Email us](mailto:hello@modernagecoders.com?subject=Switzerland%20demo%20enquiry)What families say about Modern Age Coders
+[Email us](mailto:connect@modernagecoders.com?subject=Switzerland%20demo%20enquiry)What families say about Modern Age Coders
 
 ## Quiet, consistent progress, week after week.
 

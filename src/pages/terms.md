@@ -36,7 +36,7 @@ Modern Age Coders is not liable for any direct, indirect, incidental, or consequ
 
 ## 7. Contact Information
 
-If you have any questions or concerns regarding these terms, please reach out to our legal support team at [contact@modernagecoders.com](mailto:contact@modernagecoders.com).
+If you have any questions or concerns regarding these terms, please reach out to our legal support team at [connect@modernagecoders.com](mailto:connect@modernagecoders.com).
 
 ---
 

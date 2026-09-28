@@ -49,7 +49,7 @@ export const Default = () => (
           heading: 'Contact & Legal',
           links: [
             { label: '+91 91233 66161', href: '#' },
-            { label: 'contact@modernagecoders.com', href: '#' },
+            { label: 'connect@modernagecoders.com', href: '#' },
             { label: 'Privacy Policy', href: '#' },
             { label: 'Terms of Service', href: '#' },
           ],

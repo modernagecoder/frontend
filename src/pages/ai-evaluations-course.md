@@ -358,7 +358,7 @@ The free first class on this topic is best spent writing the first ten evaluatio
 
 Rather read first? [RAG systems](/rag-systems-course), [context engineering](/context-engineering-course), or [how LLMs actually work](/how-llms-actually-work).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20how%20to%20evaluate%20AI%20systems%20properly.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20learning%20how%20to%20evaluate%20AI%20systems%20properly.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
 

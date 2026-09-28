@@ -348,7 +348,7 @@ The free class is the script from this page, live, with someone who has watched 
 
 Still reading around? The [definition page](/what-is-vibe-coding) explains the mechanism, [learn to code with AI](/learn-to-code-with-ai) covers using models as a tutor, and the [coding roadmap](/coding-roadmap) answers which-language-first properly.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20a%20complete%20beginner%20and%20want%20to%20start%20vibe%20coding.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20a%20complete%20beginner%20and%20want%20to%20start%20vibe%20coding.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 We teach by live video from India to every time zone, and the number above is Indian. This form asks for a callback and commits you to nothing; there is no batch place at stake while you decide.
 

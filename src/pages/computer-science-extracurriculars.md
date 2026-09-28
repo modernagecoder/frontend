@@ -404,7 +404,7 @@ Tell us the year group and what has been done so far. We reply within one busine
 
 Message us directly. We will tell you if an activity you are considering is not worth the fee somebody is quoting.
 
-[WhatsApp+91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I%20want%20advice%20on%20computer%20science%20extracurriculars)[Call+91 91233 66161](tel:+919123366161)[Emailcontact@modernagecoders.com](mailto:contact@modernagecoders.com?subject=Portfolio%20Program%20enquiry)
+[WhatsApp+91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I%20want%20advice%20on%20computer%20science%20extracurriculars)[Call+91 91233 66161](tel:+919123366161)[Emailconnect@modernagecoders.com](mailto:connect@modernagecoders.com?subject=Portfolio%20Program%20enquiry)
 
 Your details are used only to answer your enquiry and are never shared or sold. We teach coding and maths, and we do not offer admissions consulting.
 

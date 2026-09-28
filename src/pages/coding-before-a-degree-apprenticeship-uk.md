@@ -292,4 +292,4 @@ The rules on this page are for England. The other nations run apprenticeships th
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/coding-before-a-degree-apprenticeship-uk](https://learn.modernagecoders.com/coding-before-a-degree-apprenticeship-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/coding-before-a-degree-apprenticeship-uk](https://learn.modernagecoders.com/coding-before-a-degree-apprenticeship-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

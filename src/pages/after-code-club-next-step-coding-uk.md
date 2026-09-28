@@ -254,4 +254,4 @@ Nothing for the first lesson. Lessons after that cost a monthly fee in US dollar
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/after-code-club-next-step-coding-uk](https://learn.modernagecoders.com/after-code-club-next-step-coding-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/after-code-club-next-step-coding-uk](https://learn.modernagecoders.com/after-code-club-next-step-coding-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

@@ -13,7 +13,7 @@ The agent should produce: (1) a high-quality graphic rendered to a real PNG at t
 Modern Age Coders. Live, online coding and mathematics classes for ages 6 to 65, taught in depth from first principles. Real teachers, real projects, no fluff.
 - Website: learn.modernagecoders.com
 - WhatsApp / Call: +91 9123366161
-- Email: contact@modernagecoders.com
+- Email: connect@modernagecoders.com
 - Instagram: @modern_age_coders   YouTube: @modernagecoders
 - Audience shifts by post: parents of young kids, teens, college students, working professionals. Match the tone to who the post is for.
 

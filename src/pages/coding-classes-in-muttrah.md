@@ -341,7 +341,7 @@ A five-line bug can reveal more than a long course history. The teacher watches 
 
 National policies and routes are on the [Oman hub](/coding-classes-in-oman). Metropolitan comparisons are in [the Muscat guide](/coding-classes-in-muscat). You can also check [the teaching method](/how-we-teach) before sending details.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Muttrah.)[+91 91233 66161](tel:+919123366161)[contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Muttrah.)[+91 91233 66161](tel:+919123366161)[connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 This is an Indian contact number for the online teaching company, not a physical centre in Muttrah.
 

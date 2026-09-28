@@ -201,4 +201,4 @@ Region indexes also cover the [East Midlands](/coding-and-ai-classes-in-east-mid
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-and-ai-classes-in-yorkshire-and-the-humber](https://learn.modernagecoders.com/coding-and-ai-classes-in-yorkshire-and-the-humber#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-and-ai-classes-in-yorkshire-and-the-humber](https://learn.modernagecoders.com/coding-and-ai-classes-in-yorkshire-and-the-humber#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

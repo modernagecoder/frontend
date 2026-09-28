@@ -197,4 +197,4 @@ See [the Western Isles](/coding-classes-in-na-h-eileanan-siar), [the Highlands](
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-orkney](https://learn.modernagecoders.com/coding-classes-in-orkney#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-orkney](https://learn.modernagecoders.com/coding-classes-in-orkney#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

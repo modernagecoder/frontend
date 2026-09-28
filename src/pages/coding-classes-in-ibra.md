@@ -411,7 +411,7 @@ Share the learner's age or grade and intended skill. Modern Age Coders will revi
 
 **Phone:** [+91 91233 66161](tel:+919123366161)
 
-**Email:** [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+**Email:** [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 **Delivery:** Live online for Ibra and the rest of Oman.
 

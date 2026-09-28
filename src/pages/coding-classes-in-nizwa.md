@@ -295,7 +295,7 @@ The teacher will choose a short task at the appropriate level.
 
 ### Contact Modern Age Coders
 
-WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [contact@modernagecoders.com](mailto:contact@modernagecoders.com). This is the organisation's actual contact and not an invented Nizwa phone number.
+WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is the organisation's actual contact and not an invented Nizwa phone number.
 
 [WhatsApp the team](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Nizwa.)
 

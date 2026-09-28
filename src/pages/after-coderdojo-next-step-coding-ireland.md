@@ -241,4 +241,4 @@ We ring back at a suitable Irish hour to book the free first class. You pay noth
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/after-coderdojo-next-step-coding-ireland](https://learn.modernagecoders.com/after-coderdojo-next-step-coding-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/after-coderdojo-next-step-coding-ireland](https://learn.modernagecoders.com/after-coderdojo-next-step-coding-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

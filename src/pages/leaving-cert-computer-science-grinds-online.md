@@ -235,4 +235,4 @@ We ring back at a suitable Irish hour to arrange the free first class. Nothing i
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/leaving-cert-computer-science-grinds-online](https://learn.modernagecoders.com/leaving-cert-computer-science-grinds-online#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/leaving-cert-computer-science-grinds-online](https://learn.modernagecoders.com/leaving-cert-computer-science-grinds-online#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

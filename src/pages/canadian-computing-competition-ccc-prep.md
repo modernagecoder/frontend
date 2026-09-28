@@ -585,7 +585,7 @@ The first class is a real timed problem from a past paper, sat properly, followe
 
 Rather read first? [USACO preparation](/usaco-preparation-online-coaching), [informatics olympiad training](/ioi-olympiad-informatics-training), or [the full course syllabus](/courses/competitive-programming-for-teens-course).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20Canadian%20Computing%20Competition%20preparation.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20Canadian%20Computing%20Competition%20preparation.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Every class is live, one to one or in a small division-matched batch, taught from India at a time arranged with you. Nothing here is a recording. The form starts a conversation, not an enrolment.
 

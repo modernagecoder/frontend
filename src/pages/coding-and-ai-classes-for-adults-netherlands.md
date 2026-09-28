@@ -474,7 +474,7 @@ Leave your number and we will call at a Dutch hour. The first lesson is taught b
 
 Prefer to read first? See the [full course list](/courses), [how we teach](/how-we-teach), and the [coding roadmap](/coding-roadmap).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20an%20adult%20in%20the%20Netherlands%20and%20would%20like%20a%20free%20coding%20or%20AI%20class.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20an%20adult%20in%20the%20Netherlands%20and%20would%20like%20a%20free%20coding%20or%20AI%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 WhatsApp from a Dutch number is free and usually quickest. Our number is Indian; we have no office or premises in the Netherlands.
 

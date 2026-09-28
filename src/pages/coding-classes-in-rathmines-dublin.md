@@ -210,4 +210,4 @@ The [Dublin](/best-coding-class-in-dublin) page covers the city as a whole. Furt
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-rathmines-dublin](https://learn.modernagecoders.com/coding-classes-in-rathmines-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-rathmines-dublin](https://learn.modernagecoders.com/coding-classes-in-rathmines-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

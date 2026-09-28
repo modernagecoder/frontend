@@ -1203,7 +1203,7 @@ function renderPage(p) {
     isPartOf: { '@type': 'WebSite', name: 'Modern Age Coders', url: `${BASE}/` },
     publisher: {
       '@type': 'Organization', name: 'Modern Age Coders', url: `${BASE}/`,
-      foundingDate: String(FACTS.founded), email: 'contact@modernagecoders.com', telephone: '+91-91233-66161'
+      foundingDate: String(FACTS.founded), email: 'connect@modernagecoders.com', telephone: '+91-91233-66161'
     }
   };
 
@@ -1516,9 +1516,9 @@ ${proofCards}
                             <span class="ico">${I.phone}</span>
                             <span><span class="k">Call</span>+91 91233 66161</span>
                         </a>
-                        <a href="mailto:contact@modernagecoders.com?subject=${encodeURIComponent(p.dataService + ' enquiry')}">
+                        <a href="mailto:connect@modernagecoders.com?subject=${encodeURIComponent(p.dataService + ' enquiry')}">
                             <span class="ico">${I.mail}</span>
-                            <span><span class="k">Email</span>contact@modernagecoders.com</span>
+                            <span><span class="k">Email</span>connect@modernagecoders.com</span>
                         </a>
                     </div>
                     <p class="lead__assure">${p.assure}</p>
@@ -1649,7 +1649,7 @@ ${faq}
 ## Contact
 
 - WhatsApp or call: +91 91233 66161
-- Email: contact@modernagecoders.com
+- Email: connect@modernagecoders.com
 - Or send your enquiry through the form at ${url.replace(BASE, '')}
 
 ## About Modern Age Coders

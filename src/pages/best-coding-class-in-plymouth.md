@@ -240,4 +240,4 @@ Up the M5, the [Bristol page](/best-coding-class-in-bristol) divides its city in
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-plymouth](https://learn.modernagecoders.com/best-coding-class-in-plymouth#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-plymouth](https://learn.modernagecoders.com/best-coding-class-in-plymouth#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

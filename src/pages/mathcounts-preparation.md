@@ -313,7 +313,7 @@ Book it and your child joins a live session in the shape of the contest: five Sp
 
 Read first instead? Our [AMC and AIME page](/math-olympiad-amc-tutoring) covers the contest most MATHCOUNTS students also sit, and the [Math Kangaroo page](/math-kangaroo-usa-preparation) covers the one a parent can enter a child for from grade 1.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20know%20about%20MATHCOUNTS%20preparation%20classes.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20know%20about%20MATHCOUNTS%20preparation%20classes.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Every session is a live video class. Sending the form books a callback and nothing else; no seat is reserved or lost by it.
 

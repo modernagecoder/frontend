@@ -364,7 +364,7 @@ We build a moment into the first session where the learner does not know what to
 
 Rather read first? [Which language first](/coding-roadmap), [how to think like a programmer](/how-to-think-like-a-programmer), or [how we teach](/how-we-teach).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20trying%20to%20work%20out%20how%20to%20actually%20learn%20to%20code%20properly.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20trying%20to%20work%20out%20how%20to%20actually%20learn%20to%20code%20properly.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
 

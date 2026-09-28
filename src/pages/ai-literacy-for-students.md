@@ -314,7 +314,7 @@ Every first literacy class contains the engineered moment: the machine says some
 
 More reading first? The [should my child learn AI](/should-my-child-learn-ai) page tackles the wider decision, [how AI actually works](/how-ai-actually-works) explains the machinery gently, and the [tools age guide](/ai-tools-age-guide) settles what any age may hold.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20ask%20about%20AI%20literacy%20classes%20for%20a%20student.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20ask%20about%20AI%20literacy%20classes%20for%20a%20student.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Live classes taught from India to families worldwide; the number rings in India. The form invites one phone call and nothing else follows without your say-so.
 

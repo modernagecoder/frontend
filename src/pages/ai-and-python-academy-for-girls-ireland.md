@@ -243,4 +243,4 @@ A member of our team phones a parent, at a time that works in Ireland, and sets 
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/ai-and-python-academy-for-girls-ireland](https://learn.modernagecoders.com/ai-and-python-academy-for-girls-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/ai-and-python-academy-for-girls-ireland](https://learn.modernagecoders.com/ai-and-python-academy-for-girls-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

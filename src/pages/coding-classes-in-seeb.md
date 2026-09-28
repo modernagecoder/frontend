@@ -322,7 +322,7 @@ The teacher checks reasoning, independence and what happens when the first attem
 
 For a broader comparison, return to [Muscat](/coding-classes-in-muscat) or the [Oman hub](/coding-classes-in-oman). Read [how we teach](/how-we-teach) before booking if you want the full method.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Seeb.)[+91 91233 66161](tel:+919123366161)[contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Seeb.)[+91 91233 66161](tel:+919123366161)[connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 The WhatsApp number is Indian because the teaching company is in India. It is not a Seeb office number.
 

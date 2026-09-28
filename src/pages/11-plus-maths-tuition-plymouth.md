@@ -271,4 +271,4 @@ We do not charge for the trial. Continuing costs USD 100 per month in a group of
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-plymouth](https://learn.modernagecoders.com/11-plus-maths-tuition-plymouth#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-plymouth](https://learn.modernagecoders.com/11-plus-maths-tuition-plymouth#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

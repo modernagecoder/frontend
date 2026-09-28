@@ -200,4 +200,4 @@ The [Lancashire](/coding-classes-in-lancashire) page covers the county, [Bolton]
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-blackburn](https://learn.modernagecoders.com/ai-and-programming-classes-in-blackburn#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/ai-and-programming-classes-in-blackburn](https://learn.modernagecoders.com/ai-and-programming-classes-in-blackburn#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

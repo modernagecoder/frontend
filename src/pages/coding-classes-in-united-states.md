@@ -466,7 +466,7 @@ Free trial · 30 minutes · Zoom · your time zone
 
 A real 30-minute live lesson on your student's local slot. We tailor a learning plan to where they are today and what they're aiming at: AP CS, USACO, college admissions, career switch. No card, no commitment.
 
-[Email us](mailto:hello@modernagecoders.com?subject=US%20trial%20enquiry)FAQ
+[Email us](mailto:connect@modernagecoders.com?subject=US%20trial%20enquiry)FAQ
 
 ## Everything American parents and students ask in their first call.
 

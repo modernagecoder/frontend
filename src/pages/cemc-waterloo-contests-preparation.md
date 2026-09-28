@@ -314,7 +314,7 @@ Book it and your child joins a live session on a CEMC paper for their grade: a f
 
 Read first instead? The [maths challenges guide](/maths-challenges) compares the contests students sit, and the [CCC page](/canadian-computing-competition-ccc-prep) covers CEMC's programming contest on 18 February 2027.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20know%20about%20CEMC%20Waterloo%20contest%20preparation%20classes.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20know%20about%20CEMC%20Waterloo%20contest%20preparation%20classes.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Every session is a live video class. Sending the form books a callback and nothing else; no seat is reserved or lost by it.
 

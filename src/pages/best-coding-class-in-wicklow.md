@@ -240,4 +240,4 @@ For the county as a whole there is the [County Wicklow](/coding-classes-in-count
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-wicklow](https://learn.modernagecoders.com/best-coding-class-in-wicklow#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-wicklow](https://learn.modernagecoders.com/best-coding-class-in-wicklow#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

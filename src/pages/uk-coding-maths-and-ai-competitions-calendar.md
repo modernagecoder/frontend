@@ -264,4 +264,4 @@ At a fixed weekly slot agreed in the free class, usually after school or at the 
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/uk-coding-maths-and-ai-competitions-calendar](https://learn.modernagecoders.com/uk-coding-maths-and-ai-competitions-calendar#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/uk-coding-maths-and-ai-competitions-calendar](https://learn.modernagecoders.com/uk-coding-maths-and-ai-competitions-calendar#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

@@ -310,7 +310,7 @@ Tell the mentor who calls what a six-month win would look like, however roughly,
 
 Comparing formats first? The [beginner page](/vibe-coding-for-beginners) shows the group world's on-ramp, [AI agents for teens](/ai-agents-for-teens) explains the private-only requirement in depth, and [how we teach](/how-we-teach) covers the method both formats share.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20one%20to%20one%20AI%20classes.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20one%20to%20one%20AI%20classes.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 All private sessions are live video taught from India to your time zone; the number rings in India. Sending the form schedules one call, and hearing "a group would serve you better" on it costs the same as everything else here: nothing.
 

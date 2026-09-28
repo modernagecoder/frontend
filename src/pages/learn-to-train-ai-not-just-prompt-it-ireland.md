@@ -249,4 +249,4 @@ We phone you at a reasonable Irish hour and arrange the free class. There is no 
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland](https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland](https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

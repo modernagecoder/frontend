@@ -239,4 +239,4 @@ EDSAC's older sibling was the Baby, and the [Manchester page](/best-coding-class
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-cambridge](https://learn.modernagecoders.com/best-coding-class-in-cambridge#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-cambridge](https://learn.modernagecoders.com/best-coding-class-in-cambridge#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

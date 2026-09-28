@@ -329,7 +329,7 @@ A school route or job title gives context. A live explanation reveals whether th
 
 Read the nationwide terms on the [Oman hub](/coding-classes-in-oman), compare availability on the [Muscat page](/coding-classes-in-muscat), or see the teaching method in [how we teach](/how-we-teach).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Al%20Khuwair.)[+91 91233 66161](tel:+919123366161)[contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Al%20Khuwair.)[+91 91233 66161](tel:+919123366161)[connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 This is the Indian provider's number, not an Al Khuwair office or Omani branch.
 

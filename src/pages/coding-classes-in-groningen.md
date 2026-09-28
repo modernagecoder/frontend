@@ -261,4 +261,4 @@ The city sits inside the [province of Groningen](/coding-classes-in-groningen-pr
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-groningen](https://learn.modernagecoders.com/coding-classes-in-groningen#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-groningen](https://learn.modernagecoders.com/coding-classes-in-groningen#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

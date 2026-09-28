@@ -258,4 +258,4 @@ The largest city in the province and Hengelo's neighbour in Twente has a page at
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-hengelo](https://learn.modernagecoders.com/coding-classes-in-hengelo#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-hengelo](https://learn.modernagecoders.com/coding-classes-in-hengelo#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

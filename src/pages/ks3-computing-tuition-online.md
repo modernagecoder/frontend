@@ -238,4 +238,4 @@ The first lesson is free. After that a group place is USD 100 a month and one-to
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/ks3-computing-tuition-online](https://learn.modernagecoders.com/ks3-computing-tuition-online#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/ks3-computing-tuition-online](https://learn.modernagecoders.com/ks3-computing-tuition-online#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

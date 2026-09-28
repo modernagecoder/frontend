@@ -278,4 +278,4 @@ Weekday evenings or weekends in UK time, fixed in the free class. Our teachers a
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/ai-agents-course-for-students-uk](https://learn.modernagecoders.com/ai-agents-course-for-students-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/ai-agents-course-for-students-uk](https://learn.modernagecoders.com/ai-agents-course-for-students-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

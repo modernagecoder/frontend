@@ -421,7 +421,7 @@ Share the learner's age or grade, wilayat and intended skill. Modern Age Coders 
 
 **Phone:** [+91 91233 66161](tel:+919123366161)
 
-**Email:** [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+**Email:** [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 **Delivery:** Live online across Musandam and the rest of Oman.
 

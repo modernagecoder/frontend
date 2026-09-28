@@ -239,4 +239,4 @@ Nearby, the [St Asaph page](/best-coding-class-in-st-asaph) reads which way the 
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-wrexham](https://learn.modernagecoders.com/best-coding-class-in-wrexham#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-wrexham](https://learn.modernagecoders.com/best-coding-class-in-wrexham#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

@@ -201,4 +201,4 @@ The [Perth](/best-coding-class-in-perth-scotland) page tests Soundex on a Walter
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-perth-and-kinross](https://learn.modernagecoders.com/coding-classes-in-perth-and-kinross#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-perth-and-kinross](https://learn.modernagecoders.com/coding-classes-in-perth-and-kinross#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

@@ -210,4 +210,4 @@ South along the Dodder, [Rathfarnham](/coding-classes-in-rathfarnham-dublin) has
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-terenure-dublin](https://learn.modernagecoders.com/coding-classes-in-terenure-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-terenure-dublin](https://learn.modernagecoders.com/coding-classes-in-terenure-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

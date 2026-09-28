@@ -309,7 +309,7 @@ Forty-five minutes into the first session, your child will have taught a machine
 
 Reading first instead? The [deciding guide](/should-my-child-learn-ai) handles whether and when, the [literacy page](/ai-literacy-for-students) holds the full curriculum this feeds, and [coding for girls](/coding-classes-for-girls) carries the emphasis some families want.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20looking%20for%20AI%20projects%20and%20classes%20for%20my%20child%20aged%206%20to%2012.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20looking%20for%20AI%20projects%20and%20classes%20for%20my%20child%20aged%206%20to%2012.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Live classes from India to families everywhere; the number rings in India. The form books the free session only, and the ten projects above remain yours to run regardless.
 

@@ -219,4 +219,4 @@ The [Oxford](/best-coding-class-in-oxford) city page asks whether rain remembers
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-oxfordshire](https://learn.modernagecoders.com/coding-classes-in-oxfordshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-oxfordshire](https://learn.modernagecoders.com/coding-classes-in-oxfordshire#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

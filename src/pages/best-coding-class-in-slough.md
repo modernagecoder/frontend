@@ -199,4 +199,4 @@ Our [Berkshire](/coding-classes-in-berkshire) page covers the county, [Buckingha
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-slough](https://learn.modernagecoders.com/best-coding-class-in-slough#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-slough](https://learn.modernagecoders.com/best-coding-class-in-slough#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

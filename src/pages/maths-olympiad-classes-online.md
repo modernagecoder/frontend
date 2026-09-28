@@ -315,7 +315,7 @@ Book it and the mentor first settles the contest with you, then your child joins
 
 Read first instead? Each row of the chooser table links to the detailed page, and our [maths tuition page](/online-maths-tuition) covers the school mathematics underneath.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20know%20about%20maths%20olympiad%20classes%20online.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20know%20about%20maths%20olympiad%20classes%20online.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Every session is a live video class. Sending the form books a callback and nothing else; no seat is reserved or lost by it.
 

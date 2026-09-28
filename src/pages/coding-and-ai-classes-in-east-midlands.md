@@ -202,4 +202,4 @@ See the [West Midlands region](/coding-and-ai-classes-in-west-midlands-region), 
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-and-ai-classes-in-east-midlands](https://learn.modernagecoders.com/coding-and-ai-classes-in-east-midlands#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-and-ai-classes-in-east-midlands](https://learn.modernagecoders.com/coding-and-ai-classes-in-east-midlands#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

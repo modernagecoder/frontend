@@ -201,4 +201,4 @@ Elsewhere in the county, [Canterbury](/best-coding-class-in-canterbury) has a pa
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-maidstone](https://learn.modernagecoders.com/online-coding-and-python-classes-in-maidstone#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-maidstone](https://learn.modernagecoders.com/online-coding-and-python-classes-in-maidstone#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

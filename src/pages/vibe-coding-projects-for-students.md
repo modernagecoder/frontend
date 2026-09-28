@@ -314,7 +314,7 @@ The free class on this page has a specific shape: bring the project, any project
 
 More background reading: [what vibe coding actually is](/what-is-vibe-coding), the [teen track](/vibe-coding-for-teens) where the ladder lives, or [what our students have built](/student-labs).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20My%20student%20has%20a%20project%20idea%20and%20we%20want%20help%20building%20it.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20My%20student%20has%20a%20project%20idea%20and%20we%20want%20help%20building%20it.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Teaching is live video from India, worldwide, and the number above is an Indian line. Sending the form books nothing and costs nothing; it starts the phone call in which everything else gets decided by you.
 

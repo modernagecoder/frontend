@@ -133,7 +133,7 @@ function twin(page) {
   out.push('');
   out.push('## Contact');
   out.push('');
-  out.push(`Book the free class on [${url}](${url}#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated ${BRAND.rating} across ${BRAND.reviews} Google reviews.`);
+  out.push(`Book the free class on [${url}](${url}#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated ${BRAND.rating} across ${BRAND.reviews} Google reviews.`);
   out.push('');
   return out.join('\n');
 }

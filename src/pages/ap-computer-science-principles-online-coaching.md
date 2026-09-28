@@ -594,7 +594,7 @@ If your child has already started a Create task, bring it. The most useful ninet
 
 Rather read first? [The full course syllabus](/courses/ap-computer-science-principles-exam-prep-course), [AP Computer Science A](/ap-computer-science-a-online-classes), or [how we teach](/how-we-teach).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20AP%20Computer%20Science%20Principles%20online%20coaching.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20AP%20Computer%20Science%20Principles%20online%20coaching.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Live classes only, one to one or in a small batch, taught from India at a time that works for the student. We do not sell recordings. The form opens a conversation, not an enrolment.
 

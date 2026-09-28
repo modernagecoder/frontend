@@ -377,7 +377,7 @@ Fill in the form and we'll reach out within 3 hours to schedule your daughter's 
 ⭐ Code Queens demo slots are limited, secure her spot now.
 
 - [+91 9123366161](tel:+919123366161)
-- [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+- [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 - Mon–Sun · 9 AM: 9 PM IST
 
 [WhatsApp Now](https://wa.me/919123366161?text=Hi, I want to book a free demo for coding classes for girls)[Contact Page →](/contact)
@@ -460,7 +460,7 @@ Forging the next generation of innovators.
 ### Contact & Legal
 
 - [+91 9123366161](tel:+919123366161)
-- [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+- [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 - [Privacy Policy](/privacy)
 - [Terms of Service](/terms)
 

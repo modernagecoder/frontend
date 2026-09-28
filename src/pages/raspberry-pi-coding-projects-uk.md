@@ -267,4 +267,4 @@ The first lesson is free; after that, a monthly fee in US dollars, lower in a gr
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/raspberry-pi-coding-projects-uk](https://learn.modernagecoders.com/raspberry-pi-coding-projects-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/raspberry-pi-coding-projects-uk](https://learn.modernagecoders.com/raspberry-pi-coding-projects-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

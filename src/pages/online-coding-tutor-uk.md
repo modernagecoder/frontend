@@ -225,4 +225,4 @@ Tell us and stop. There is no notice period and nothing has been taken in advanc
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/online-coding-tutor-uk](https://learn.modernagecoders.com/online-coding-tutor-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/online-coding-tutor-uk](https://learn.modernagecoders.com/online-coding-tutor-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

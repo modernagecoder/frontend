@@ -244,4 +244,4 @@ No. A mentor submits an Astro Pi entry and we have no role in the challenge. We 
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/astro-pi-mission-zero-and-space-lab-help](https://learn.modernagecoders.com/astro-pi-mission-zero-and-space-lab-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/astro-pi-mission-zero-and-space-lab-help](https://learn.modernagecoders.com/astro-pi-mission-zero-and-space-lab-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

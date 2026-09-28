@@ -327,7 +327,7 @@ The teacher checks reasoning, independence and how the learner responds when the
 
 Return to [Muscat](/coding-classes-in-muscat) or the [Oman hub](/coding-classes-in-oman), or read [about us](/about).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Bawshar.)[+91 91233 66161](tel:+919123366161)[contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Bawshar.)[+91 91233 66161](tel:+919123366161)[connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 WhatsApp reaches us fastest from Bawshar and costs nothing to use. The number is Indian, not a Bawshar office.
 

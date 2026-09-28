@@ -236,4 +236,4 @@ Up the road, the [Worcester page](/best-coding-class-in-worcester) finds the sho
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-hereford](https://learn.modernagecoders.com/best-coding-class-in-hereford#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-hereford](https://learn.modernagecoders.com/best-coding-class-in-hereford#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

@@ -410,7 +410,7 @@ Tell us which fair and which date. We reply within one business day, and if the 
 
 Message us with the date. Scoping a fair project down to fit the time left is a conversation worth having early.
 
-[WhatsApp+91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I%20need%20help%20with%20an%20AI%20science%20fair%20project)[Call+91 91233 66161](tel:+919123366161)[Emailcontact@modernagecoders.com](mailto:contact@modernagecoders.com?subject=Science%20Fair%20Project%20Mentoring%20enquiry)
+[WhatsApp+91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I%20need%20help%20with%20an%20AI%20science%20fair%20project)[Call+91 91233 66161](tel:+919123366161)[Emailconnect@modernagecoders.com](mailto:connect@modernagecoders.com?subject=Science%20Fair%20Project%20Mentoring%20enquiry)
 
 Your details are used only to reply to your enquiry and are never shared or sold. We mentor students through their own work and never produce a project for them.
 

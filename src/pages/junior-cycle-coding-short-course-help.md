@@ -238,4 +238,4 @@ Someone from our team calls a parent at a sensible Irish time and books the free
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/junior-cycle-coding-short-course-help](https://learn.modernagecoders.com/junior-cycle-coding-short-course-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/junior-cycle-coding-short-course-help](https://learn.modernagecoders.com/junior-cycle-coding-short-course-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

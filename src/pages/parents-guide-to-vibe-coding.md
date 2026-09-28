@@ -329,7 +329,7 @@ Everything this page recommends you demand of a provider, we would rather show t
 
 More reading first? The [definition page](/what-is-vibe-coding) explains what is actually happening in the loop, [should my child learn AI](/should-my-child-learn-ai) tackles the bigger decision, and the [tools age guide](/ai-tools-age-guide) holds the full quoted age audit.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20a%20parent%20with%20questions%20about%20vibe%20coding%20for%20my%20child.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20a%20parent%20with%20questions%20about%20vibe%20coding%20for%20my%20child.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Classes are taught live from India to families in every time zone, and the number above rings in India. This form requests a callback only; nothing is reserved, purchased or promised by sending it.
 

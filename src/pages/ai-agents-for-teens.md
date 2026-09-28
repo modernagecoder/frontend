@@ -294,7 +294,7 @@ Sixty to ninety minutes, one teacher, one teenager, one parent welcome throughou
 
 Background reading first? [AI agents explained](/ai-agents-explained) covers the mechanism, [agentic coding](/agentic-coding-classes) covers the coding-agent world, and the [teen vibe coding track](/vibe-coding-for-teens) is the usual rung before this one.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20My%20teenager%20wants%20to%20learn%20to%20build%20AI%20agents.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20My%20teenager%20wants%20to%20learn%20to%20build%20AI%20agents.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Live one-to-one video from India, worldwide; the number rings in India. Sending the form arranges the free session and creates no account, no access and no obligation of any kind.
 

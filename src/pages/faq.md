@@ -69,7 +69,7 @@ Yes. Every class is online and families from 25+ countries study with us. Fees a
 
 How can I contact Modern Age Coders?
 
-Call or WhatsApp [+91 91233 66161](tel:+919123366161), email [contact@modernagecoders.com](mailto:contact@modernagecoders.com), or use the [contact page](/contact). If we miss your call we are probably teaching a class, so a WhatsApp message is the quickest way to reach us.
+Call or WhatsApp [+91 91233 66161](tel:+919123366161), email [connect@modernagecoders.com](mailto:connect@modernagecoders.com), or use the [contact page](/contact). If we miss your call we are probably teaching a class, so a WhatsApp message is the quickest way to reach us.
 
 02
 
@@ -265,7 +265,7 @@ We answer on WhatsApp and on the phone. If we miss your call we are probably tea
 
 [Message us on WhatsApp](https://wa.me/919123366161?text=Hi%2C%20I%20have%20a%20question%20about%20Modern%20Age%20Coders%20classes.)
 
-Or call [+91 91233 66161](tel:+919123366161), email [contact@modernagecoders.com](mailto:contact@modernagecoders.com), or [book a priority demo](/priority-demo).
+Or call [+91 91233 66161](tel:+919123366161), email [connect@modernagecoders.com](mailto:connect@modernagecoders.com), or [book a priority demo](/priority-demo).
 
 Keep reading
 

@@ -261,4 +261,4 @@ Across the IJ is [Amsterdam-Centrum](/coding-classes-in-amsterdam-centrum), whos
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-amsterdam-noord](https://learn.modernagecoders.com/coding-classes-in-amsterdam-noord#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-amsterdam-noord](https://learn.modernagecoders.com/coding-classes-in-amsterdam-noord#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

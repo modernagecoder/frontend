@@ -227,4 +227,4 @@ The first lesson is free. A group place is then USD 100 each month and one-to-on
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/ai-classes-for-kids-uk](https://learn.modernagecoders.com/ai-classes-for-kids-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/ai-classes-for-kids-uk](https://learn.modernagecoders.com/ai-classes-for-kids-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

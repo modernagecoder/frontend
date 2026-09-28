@@ -379,7 +379,7 @@ The opening class is free. The learner attempts a small, age-appropriate problem
 
 You can also use the [contact page](/contact), or read [about us](/about) first.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Oman.)[+91 91233 66161](tel:+919123366161)[contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Oman.)[+91 91233 66161](tel:+919123366161)[connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 WhatsApp reaches us fastest from Oman and costs nothing to use. The number is Indian, not an Oman office.
 

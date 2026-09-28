@@ -248,4 +248,4 @@ We contact you at a UK time that works for you and arrange the free lesson. You 
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/best-online-coding-classes-uk](https://learn.modernagecoders.com/best-online-coding-classes-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/best-online-coding-classes-uk](https://learn.modernagecoders.com/best-online-coding-classes-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

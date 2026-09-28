@@ -356,7 +356,7 @@ Tell us what exists and what state it is in. We reply within one business day wi
 
 Send us a repository link. An honest read on what is worth keeping is usually the most useful first conversation.
 
-[WhatsApp+91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I%20want%20help%20building%20a%20coding%20portfolio)[Call+91 91233 66161](tel:+919123366161)[Emailcontact@modernagecoders.com](mailto:contact@modernagecoders.com?subject=Portfolio%20Program%20enquiry)
+[WhatsApp+91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I%20want%20help%20building%20a%20coding%20portfolio)[Call+91 91233 66161](tel:+919123366161)[Emailconnect@modernagecoders.com](mailto:connect@modernagecoders.com?subject=Portfolio%20Program%20enquiry)
 
 Your details are used only to reply to your enquiry and are never shared or sold. We help students finish their own work, and we do not write code for a portfolio.
 

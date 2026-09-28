@@ -579,7 +579,7 @@ The first class has two halves. One real olympiad-level problem attempted with t
 
 Rather read first? [USACO preparation](/usaco-preparation-online-coaching), [the full course syllabus](/courses/competitive-programming-masterclass-college), or [how we teach](/how-we-teach).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20informatics%20olympiad%20and%20IOI%20training.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20informatics%20olympiad%20and%20IOI%20training.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Every class is live, one to one or in a small level-matched batch, taught from India at a time arranged with you. Nothing here is a recording. The form starts a conversation, not an enrolment.
 

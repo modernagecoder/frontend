@@ -261,4 +261,4 @@ West along the Oude Rijn is [Leiden](/coding-classes-in-leiden) and south is [Zo
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-alphen-aan-den-rijn](https://learn.modernagecoders.com/coding-classes-in-alphen-aan-den-rijn#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-alphen-aan-den-rijn](https://learn.modernagecoders.com/coding-classes-in-alphen-aan-den-rijn#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

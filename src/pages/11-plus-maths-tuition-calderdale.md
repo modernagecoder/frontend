@@ -269,4 +269,4 @@ A trial lesson is on us. Families who stay pay monthly: USD 100 for a class of f
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-calderdale](https://learn.modernagecoders.com/11-plus-maths-tuition-calderdale#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-calderdale](https://learn.modernagecoders.com/11-plus-maths-tuition-calderdale#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

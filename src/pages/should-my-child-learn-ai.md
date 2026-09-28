@@ -301,7 +301,7 @@ Everything on this page is a framework, and frameworks lose to evidence. The evi
 
 Deeper reading for the deciding weeks: the [literacy case in full](/ai-literacy-for-students), the [operational parents guide](/parents-guide-to-vibe-coding), and [turning screen time into skill](/screen-time-to-skill).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20deciding%20whether%20my%20child%20should%20learn%20AI%20and%20have%20questions.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20deciding%20whether%20my%20child%20should%20learn%20AI%20and%20have%20questions.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Live classes from India to families everywhere; the number rings in India. The form books one conversation, and "we decided to wait" is an answer our mentors accept the first time you say it.
 

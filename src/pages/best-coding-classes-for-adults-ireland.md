@@ -488,7 +488,7 @@ Leave a number and we will ring at a time that suits you in Ireland, evenings in
 
 Rather read first? See [how our teaching works](/how-we-teach), the [full course list](/courses), and [projects our students published](/student-labs).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20an%20adult%20in%20Ireland%20and%20would%20like%20a%20free%20first%20coding%20class.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20an%20adult%20in%20Ireland%20and%20would%20like%20a%20free%20first%20coding%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 WhatsApp is often easiest for adults with busy days, and it is free from an Irish number. Ours is an Indian number, because our teachers work from India; there is no Irish office.
 

@@ -241,4 +241,4 @@ Someone from our team calls or messages you, agrees a time in your time zone and
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/best-coding-class-in-the-world](https://learn.modernagecoders.com/best-coding-class-in-the-world#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/best-coding-class-in-the-world](https://learn.modernagecoders.com/best-coding-class-in-the-world#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

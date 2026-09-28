@@ -245,4 +245,4 @@ A weekly slot agreed in the free class, usually a weekday evening or a weekend m
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/british-informatics-olympiad-preparation](https://learn.modernagecoders.com/british-informatics-olympiad-preparation#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/british-informatics-olympiad-preparation](https://learn.modernagecoders.com/british-informatics-olympiad-preparation#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

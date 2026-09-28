@@ -239,4 +239,4 @@ The [Wales guide](/coding-and-ai-classes-in-wales) covers coding across the Curr
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-cardiff](https://learn.modernagecoders.com/best-coding-class-in-cardiff#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-cardiff](https://learn.modernagecoders.com/best-coding-class-in-cardiff#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

@@ -137,7 +137,7 @@ Modern Age Coders does two things and nothing else.
 |---|---|
 | **Primary phone / WhatsApp** | **+91 9123366161** |
 | Contact person (batch timings and enrolment) | **Shivam Sir** (Founder / Director) |
-| Email | contact@modernagecoders.com |
+| Email | connect@modernagecoders.com |
 | Registered office | Modern Age Coders Education, 1B, JK Ambika Tower, Kolkata, West Bengal 700002, India |
 | Phone hours | Monday to Saturday, 9:00 AM to 6:00 PM IST. Sunday closed. |
 | Callback request | Callback widget on every page. Takes a phone number, **callback within 3 hours**. |
@@ -653,7 +653,7 @@ We are **online only**. There is no campus students attend. Our registered offic
 
 **Processing.** Once approved, the refund is initiated to the original payment method. Credit appears within **7 to 10 business days**, depending on the card issuer.
 
-**How to request.** Email `contact@modernagecoders.com` with order details and reason.
+**How to request.** Email `connect@modernagecoders.com` with order details and reason.
 
 ### 13.2 Cancellation Policy (last updated February 2026)
 
@@ -661,15 +661,15 @@ We are **online only**. There is no campus students attend. Our registered offic
 - **Subscription cancellation.** Cancel anytime through the account dashboard. Cancellation takes effect at the end of the current billing cycle and you will not be charged again.
 - **Cancellation by us.** We may cancel or reschedule courses due to insufficient enrolments or unforeseen circumstances. Affected participants get a full refund or a transfer to another schedule.
 - **Impact.** After cancellation you retain access to the platform and materials until the end of the current billing period. Afterwards, premium access is suspended.
-- **How to cancel.** Account settings, or email `contact@modernagecoders.com`.
+- **How to cancel.** Account settings, or email `connect@modernagecoders.com`.
 
 ### 13.3 Terms of Service (last updated January 2026)
 
-Key points an agent may need: all fees are listed in INR unless otherwise stated · all course content is our intellectual property and may not be reproduced or redistributed · services are provided "as is" · questions to `contact@modernagecoders.com`.
+Key points an agent may need: all fees are listed in INR unless otherwise stated · all course content is our intellectual property and may not be reproduced or redistributed · services are provided "as is" · questions to `connect@modernagecoders.com`.
 
 ### 13.4 Standard answer to "What if I'm not satisfied?"
 
-> "We have a 7-day money-back guarantee. If within the first week you have consumed less than 20% of the course and you are not satisfied, we issue a full refund. Just email contact@modernagecoders.com with your order details. And remember, you get a free demo class before you pay anything at all."
+> "We have a 7-day money-back guarantee. If within the first week you have consumed less than 20% of the course and you are not satisfied, we issue a full refund. Just email connect@modernagecoders.com with your order details. And remember, you get a free demo class before you pay anything at all."
 
 ---
 
@@ -752,7 +752,7 @@ Yes, extensively: AI Literacy for Kids (8 to 14), AI/ML for teens and college, g
 **Q30. Do you teach web and app development?** Yes, full web and app development with HTML, CSS, JavaScript, React, Python and more. Students build real working products.
 
 **Q31. How do I contact you?**
-Call or WhatsApp **Shivam Sir on +91 9123366161** (Mon to Sat, 9 AM to 6 PM IST) or email contact@modernagecoders.com. You can also use the callback button on any page and we call back within 3 hours.
+Call or WhatsApp **Shivam Sir on +91 9123366161** (Mon to Sat, 9 AM to 6 PM IST) or email connect@modernagecoders.com. You can also use the callback button on any page and we call back within 3 hours.
 
 **Q32. Are there girls-only batches?** Yes: Princess Coders (beginner/intermediate), Queen Coders (advanced) and Alpha Girls (elite), plus a Coding Comeback programme for women returning to tech.
 
@@ -764,7 +764,7 @@ Call or WhatsApp **Shivam Sir on +91 9123366161** (Mon to Sat, 9 AM to 6 PM IST)
 
 **Q36. Do you offer corporate training?** Yes, for companies upskilling tech teams. Custom curricula for web dev, AI/ML, data science, cloud, DevOps, cybersecurity and more. Quote-based; contact Shivam Sir for a consultation.
 
-**Q37. Can I get a refund?** Yes, a 7-day money-back guarantee provided less than 20% of the course has been consumed. Email contact@modernagecoders.com. See §13.
+**Q37. Can I get a refund?** Yes, a 7-day money-back guarantee provided less than 20% of the course has been consumed. Email connect@modernagecoders.com. See §13.
 
 **Q38. Where is your office?**
 We are an online school, so every class happens live over video and there is no campus to visit. Our registered office is Modern Age Coders Education, 1B, JK Ambika Tower, Kolkata, West Bengal 700002.
@@ -937,7 +937,7 @@ FOUNDED .............. 2020
 FOUNDER .............. Shivam Khemka (Shivam Sir)
 PRIMARY PHONE ........ +91 9123366161   <- batch timings route HERE
 PHONE HOURS .......... Mon-Sat, 9 AM - 6 PM IST (Sun closed)
-EMAIL ................ contact@modernagecoders.com
+EMAIL ................ connect@modernagecoders.com
 WEBSITE .............. learn.modernagecoders.com
 DASHBOARD ............ dashboard.modernagecoders.com
 REGISTERED OFFICE .... 1B, JK Ambika Tower, Kolkata, West Bengal 700002

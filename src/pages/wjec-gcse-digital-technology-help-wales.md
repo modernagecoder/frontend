@@ -280,4 +280,4 @@ The first lesson is free. Afterwards one monthly fee in US dollars applies, lowe
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/wjec-gcse-digital-technology-help-wales](https://learn.modernagecoders.com/wjec-gcse-digital-technology-help-wales#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/wjec-gcse-digital-technology-help-wales](https://learn.modernagecoders.com/wjec-gcse-digital-technology-help-wales#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

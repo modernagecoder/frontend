@@ -595,7 +595,7 @@ The first class is a diagnostic: one small algorithm question and one binary con
 
 Rather read first? [The full course syllabus](/courses/igcse-computer-science-0478-course), [AP Computer Science A](/ap-computer-science-a-online-classes), or [how we teach](/how-we-teach).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20Cambridge%20IGCSE%20Computer%20Science%200478%20tuition.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20Cambridge%20IGCSE%20Computer%20Science%200478%20tuition.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Classes are live, one to one or five to eight, taught from India at an hour arranged with you. Nothing here is a recording. The form starts a conversation, not an enrolment.
 

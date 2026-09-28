@@ -240,4 +240,4 @@ To the south, the [Cambridge page](/best-coding-class-in-cambridge) ranks its wa
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-peterborough](https://learn.modernagecoders.com/best-coding-class-in-peterborough#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-peterborough](https://learn.modernagecoders.com/best-coding-class-in-peterborough#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

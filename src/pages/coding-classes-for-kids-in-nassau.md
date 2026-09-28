@@ -299,7 +299,7 @@ The free first session is a lesson, not a sales call. A child is given one probl
 
 Rather read first? [The main Nassau page](/coding-and-ai-classes-in-nassau), [a year versus a week](/year-round-coding-classes-vs-summer-camps-bahamas), or the site-wide [Python for beginners](/python-for-beginners-kids).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20child%20in%20Nassau%20who%20wants%20to%20start%20coding.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20child%20in%20Nassau%20who%20wants%20to%20start%20coding.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 We hold no premises anywhere in the Bahamas. Every session is a live video call taught from India, and the number above rings in India.
 

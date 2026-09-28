@@ -255,4 +255,4 @@ Nothing for the first lesson. From then on, a seat in a small group is USD 100 p
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-barnet](https://learn.modernagecoders.com/11-plus-maths-tuition-barnet#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-barnet](https://learn.modernagecoders.com/11-plus-maths-tuition-barnet#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

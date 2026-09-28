@@ -404,7 +404,7 @@ The opening session costs nothing and is a lesson rather than a pitch. A learner
 
 Read first if you prefer: the [academy hub for Oman](/ai-and-python-academy-oman), the [general coding guide for Salalah](/coding-classes-in-salalah), or [how we teach](/how-we-teach).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20student%20in%20Salalah%2C%20on%20the%20AI%20and%20Python%20track.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20student%20in%20Salalah%2C%20on%20the%20AI%20and%20Python%20track.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 WhatsApp reaches us fastest from Oman and costs nothing to use. The number is Indian, not a Salalah office; we hold no premises anywhere in the country.
 

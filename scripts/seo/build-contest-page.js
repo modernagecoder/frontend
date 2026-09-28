@@ -107,7 +107,7 @@ function build(c) {
         "@id": "https://learn.modernagecoders.com/#org",
         "name": "Modern Age Coders",
         "url": "https://learn.modernagecoders.com/",
-        "email": "contact@modernagecoders.com",
+        "email": "connect@modernagecoders.com",
         "telephone": "+91-91233-66161",
         "foundingDate": "2020",
         "areaServed": { "@type": "Country", "name": "${esc(c.country)}" },
@@ -395,7 +395,7 @@ ${faqHtml}
         </div>
         <p>${c.start.p1} If you would rather see a full ${PD.lengthShort} class today or tomorrow, book a <a class="bx-link" href="/priority-demo">Priority Live Demo</a> instead; its fee is adjusted against your first month if you enrol.</p>
         <p>${c.start.p2}</p>
-        <p style="margin-top:22px"><a class="bx-link" href="${wa}" target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a></p>
+        <p style="margin-top:22px"><a class="bx-link" href="${wa}" target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a></p>
         <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every session is a live video class. Sending the form books a callback and nothing else; no seat is reserved or lost by it.</p>
       </div>
       <div class="bx-form-panel">

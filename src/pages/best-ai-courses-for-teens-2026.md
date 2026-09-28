@@ -307,7 +307,7 @@ The flag guide above ends in one instrument that outranks every list: sit in a r
 
 Still mapping the territory? [Should my child learn AI](/should-my-child-learn-ai) settles the prior question, [the teen track page](/vibe-coding-for-teens) details the makers' winner, and [AI agents for teens](/ai-agents-for-teens) explains the one-to-one rungs.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20comparing%20AI%20courses%20for%20my%20teenager.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20comparing%20AI%20courses%20for%20my%20teenager.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Live classes from India, worldwide; the number rings in India. The form requests the free class only, and comparing us to alternatives afterwards is not just allowed, it is the design.
 

@@ -264,4 +264,4 @@ Emmen sits in [Drenthe](/coding-classes-in-drenthe), whose page counts the stone
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-emmen](https://learn.modernagecoders.com/coding-classes-in-emmen#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-emmen](https://learn.modernagecoders.com/coding-classes-in-emmen#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

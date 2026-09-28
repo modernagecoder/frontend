@@ -36,7 +36,7 @@ const SEO_CONFIG = {
     description: 'Innovative education platform teaching coding and mathematics to students of all ages',
 
     // Contact Information
-    email: 'contact@modernagecoders.com',
+    email: 'connect@modernagecoders.com',
     phone: '+919123366161',
 
     // Address (if available)

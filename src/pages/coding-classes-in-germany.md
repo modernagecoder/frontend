@@ -431,7 +431,7 @@ Slot (CET)DaysBest forAvailability**15:30: 16:30***nach der Schule*Mo · Mi · F
 
 A real 30-minute live session on your child's CET slot. We tailor a learning plan to where your child is today, in German if helpful. No card, no commitment, kein Verkaufsdruck.
 
-[E-Mail senden](mailto:hello@modernagecoders.com?subject=Germany%20demo%20enquiry)FAQ
+[E-Mail senden](mailto:connect@modernagecoders.com?subject=Germany%20demo%20enquiry)FAQ
 
 ## Everything German parents and learners ask in their first call.
 

@@ -577,7 +577,7 @@ The first class is a genuine timed problem from a past contest in your child's c
 
 Rather read first? [The full course syllabus](/courses/competitive-programming-for-teens-course), [how to think like a programmer](/how-to-think-like-a-programmer), or [how we teach](/how-we-teach).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20USACO%20preparation%20coaching.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20USACO%20preparation%20coaching.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Every class is live, one to one or in a small division-matched batch, taught from India at a time arranged with you. Nothing here is a recording. The form starts a conversation, not an enrolment.
 

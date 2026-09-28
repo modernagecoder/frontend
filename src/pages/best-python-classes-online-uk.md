@@ -225,4 +225,4 @@ The opening lesson is free. A group place afterwards runs at USD 100 each month,
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/best-python-classes-online-uk](https://learn.modernagecoders.com/best-python-classes-online-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/best-python-classes-online-uk](https://learn.modernagecoders.com/best-python-classes-online-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

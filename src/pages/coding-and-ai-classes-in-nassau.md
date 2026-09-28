@@ -383,7 +383,7 @@ The free first session is a lesson rather than a sales call. A learner attempts 
 
 Rather read first? [The twelve-month track in detail](/python-and-ai-track-for-students-bahamas), [coding for younger children in Nassau](/coding-classes-for-kids-in-nassau), or [how we teach](/how-we-teach).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20student%20in%20Nassau%2C%20on%20the%20Python%20and%20AI%20track.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20student%20in%20Nassau%2C%20on%20the%20Python%20and%20AI%20track.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 We hold no premises anywhere in the Bahamas. Every session is a live video call taught from India, and the number above rings in India.
 

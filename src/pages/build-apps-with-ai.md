@@ -314,7 +314,7 @@ The free class for this page is a build session. Bring the app idea, however vag
 
 Prefer more reading first? The [project ladder](/vibe-coding-projects-for-students) warms up to app scale, [the AI coding course](/ai-coding-course) is the full-syllabus version, and [student labs](/student-labs) shows what has already shipped from these classes.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20have%20an%20app%20idea%20and%20want%20to%20build%20it%20with%20AI.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20have%20an%20app%20idea%20and%20want%20to%20build%20it%20with%20AI.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Classes are live video from India to every time zone; the number rings in India. The form triggers one callback and holds nothing against your name, including the idea, which remains entirely yours.
 

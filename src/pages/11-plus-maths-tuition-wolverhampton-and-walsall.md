@@ -273,4 +273,4 @@ The first lesson is free. After that, USD 100 a month in a small group or USD 15
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-wolverhampton-and-walsall](https://learn.modernagecoders.com/11-plus-maths-tuition-wolverhampton-and-walsall#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-wolverhampton-and-walsall](https://learn.modernagecoders.com/11-plus-maths-tuition-wolverhampton-and-walsall#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

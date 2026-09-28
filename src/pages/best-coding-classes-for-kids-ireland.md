@@ -246,4 +246,4 @@ We phone you at a sensible time in Ireland and book the free first class. You pa
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/best-coding-classes-for-kids-ireland](https://learn.modernagecoders.com/best-coding-classes-for-kids-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/best-coding-classes-for-kids-ireland](https://learn.modernagecoders.com/best-coding-classes-for-kids-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

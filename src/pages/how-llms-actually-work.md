@@ -363,7 +363,7 @@ The most useful ninety minutes we can give a new learner on this topic is not an
 
 Rather read first? [Context engineering](/context-engineering-course), [RAG systems](/rag-systems-course), or [evaluations](/ai-evaluations-course).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20trying%20to%20understand%20how%20language%20models%20actually%20work.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20trying%20to%20understand%20how%20language%20models%20actually%20work.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 We hold no premises anywhere. Every session is a live video call taught from India, and the number above rings in India. Sending the form opens a conversation rather than an enrolment, and holds no place in any batch.
 

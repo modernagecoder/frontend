@@ -209,4 +209,4 @@ To the south, [Drumcondra](/coding-classes-in-drumcondra-dublin) teaches how to 
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-ballymun-dublin](https://learn.modernagecoders.com/coding-classes-in-ballymun-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-ballymun-dublin](https://learn.modernagecoders.com/coding-classes-in-ballymun-dublin#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

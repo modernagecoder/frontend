@@ -387,7 +387,7 @@ The first session costs nothing. A learner gets a single problem pitched at thei
 
 You can also use the [contact page](/contact), or read [about us](/about) first.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Hong%20Kong.)[+91 91233 66161](tel:+919123366161)[contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Hong%20Kong.)[+91 91233 66161](tel:+919123366161)[connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 WhatsApp is the quickest way to reach a person from Hong Kong and costs nothing. The number is Indian, not a Hong Kong office.
 

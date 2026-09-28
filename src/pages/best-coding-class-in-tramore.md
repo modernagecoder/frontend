@@ -233,4 +233,4 @@ The city next door has its own page, [Waterford](/best-coding-class-in-waterford
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-tramore](https://learn.modernagecoders.com/best-coding-class-in-tramore#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-tramore](https://learn.modernagecoders.com/best-coding-class-in-tramore#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

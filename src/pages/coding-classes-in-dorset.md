@@ -213,4 +213,4 @@ Dorset Council, BCP and academies set their own dates. We arrange lesson breaks 
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-dorset](https://learn.modernagecoders.com/coding-classes-in-dorset#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-dorset](https://learn.modernagecoders.com/coding-classes-in-dorset#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

@@ -271,4 +271,4 @@ The first lesson is free. After that, USD 100 a month for a group place or USD 1
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-bexley](https://learn.modernagecoders.com/11-plus-maths-tuition-bexley#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-bexley](https://learn.modernagecoders.com/11-plus-maths-tuition-bexley#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

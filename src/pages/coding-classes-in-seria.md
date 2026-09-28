@@ -350,7 +350,7 @@ The opening session costs nothing and is a lesson rather than a pitch. A learner
 
 Prefer to read first? Every way of reaching us is on the [contact page](/contact), the people behind this are described in [about us](/about), and the national picture is on the [Brunei guide](/coding-classes-in-brunei).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Seria.)[+91 91233 66161](tel:+919123366161)[contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Seria.)[+91 91233 66161](tel:+919123366161)[connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 WhatsApp reaches us fastest from Brunei and costs nothing to use. The number is Indian, not a local one.
 

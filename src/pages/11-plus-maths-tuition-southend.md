@@ -275,4 +275,4 @@ There is no charge for the first lesson. After that it is USD 100 a month in a g
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-southend](https://learn.modernagecoders.com/11-plus-maths-tuition-southend#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-southend](https://learn.modernagecoders.com/11-plus-maths-tuition-southend#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

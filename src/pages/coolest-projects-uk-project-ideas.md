@@ -245,4 +245,4 @@ No. We teach and review, the young person builds and submits, and we have no rel
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/coolest-projects-uk-project-ideas](https://learn.modernagecoders.com/coolest-projects-uk-project-ideas#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/coolest-projects-uk-project-ideas](https://learn.modernagecoders.com/coolest-projects-uk-project-ideas#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

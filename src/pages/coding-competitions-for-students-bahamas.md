@@ -273,7 +273,7 @@ The free first session establishes what a learner can currently do, which decide
 
 Rather read first? [The twelve-month track](/python-and-ai-track-for-students-bahamas), [the portfolio page](/github-portfolio-for-students-bahamas), or the site-wide [coding olympiad track](/coding-olympiad-medal-track).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20student%20in%20the%20Bahamas%20who%20wants%20to%20work%20toward%20coding%20competitions.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20student%20in%20the%20Bahamas%20who%20wants%20to%20work%20toward%20coding%20competitions.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 We hold no premises anywhere in the Bahamas. Every session is a live video call taught from India, and the number above rings in India.
 

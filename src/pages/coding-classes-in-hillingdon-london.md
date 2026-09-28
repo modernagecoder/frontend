@@ -241,4 +241,4 @@ Neighbouring [Hounslow](/coding-classes-in-hounslow-london) and [Harrow](/coding
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-hillingdon-london](https://learn.modernagecoders.com/coding-classes-in-hillingdon-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-hillingdon-london](https://learn.modernagecoders.com/coding-classes-in-hillingdon-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

@@ -251,4 +251,4 @@ The first lesson is free. A group place is then USD 100 a month and one-to-one t
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation](https://learn.modernagecoders.com/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation](https://learn.modernagecoders.com/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

@@ -218,4 +218,4 @@ We call at a Dutch hour to arrange the free lesson. There is no charge unless yo
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/python-classes-netherlands](https://learn.modernagecoders.com/python-classes-netherlands#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/python-classes-netherlands](https://learn.modernagecoders.com/python-classes-netherlands#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

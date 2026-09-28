@@ -350,7 +350,7 @@ out()
 out('CONTACT')
 out()
 out('  Phone and WhatsApp: +91 9123366161 (Shivam Sir)')
-out('  Email: contact@modernagecoders.com')
+out('  Email: connect@modernagecoders.com')
 out('  Phone hours: Monday to Saturday, 9:00 AM to 6:00 PM IST. Sunday closed.')
 out('  Callback: leave a number on the website and we call back within 3 hours.')
 out('  Contact form reply: within 48 hours on working days.')
@@ -836,7 +836,7 @@ out()
 para('Once a refund is approved it goes back to the original payment method. The credit '
      'appears within 7 to 10 business days, depending on the card issuer.', '  ')
 out()
-para('To request one, email contact@modernagecoders.com with the order details and the '
+para('To request one, email connect@modernagecoders.com with the order details and the '
      'reason.', '  ')
 out()
 out('CANCELLATION POLICY')
@@ -849,7 +849,7 @@ bullets([
     'We may cancel or reschedule a course if too few students enrol or something unforeseen '
     'happens. Those students get a full refund or a transfer to another schedule.',
     'After cancelling, access continues until the end of the billing period already paid for.',
-    'To cancel: use account settings, or email contact@modernagecoders.com.',
+    'To cancel: use account settings, or email connect@modernagecoders.com.',
 ])
 out()
 out('IF SOMEONE ASKS "WHAT IF WE ARE NOT HAPPY?"')

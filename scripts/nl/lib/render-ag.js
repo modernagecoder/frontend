@@ -470,7 +470,7 @@ ${page.faq.items.map(f => `      <div class="ag-faq-item">
         <p class="ag-mt-40">
           <a class="ag-inline-link" href="${wa}" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'${page.code}',pos:'end'});">WhatsApp us</a>
           &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
-          &middot; <a class="ag-inline-link" href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
         </p>
         <p class="ag-form-note">${page.start.note}</p>
       </div>
@@ -574,7 +574,7 @@ function twin(page) {
   for (const f of page.faq.items) out.push(`### ${md(f.q)}`, '', md(f.a), '');
   out.push(`## ${md(page.elsewhere.h2)}`, '');
   for (const i of page.elsewhere.items) out.push(`- [${i.label}](${i.href}): ${md(i.p)}`);
-  out.push('', '## Contact', '', `Book the free first class at [${url}](${url}#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.`, '');
+  out.push('', '## Contact', '', `Book the free first class at [${url}](${url}#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.`, '');
   return out.join('\n');
 }
 

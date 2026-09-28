@@ -314,7 +314,7 @@ Book it and your child joins a live session on a past paper for their grade: thr
 
 Read first instead? Our [AMC and AIME page](/math-olympiad-amc-tutoring) covers the path after Kangaroo, and the [MATHCOUNTS page](/mathcounts-preparation) covers the middle-school team contest.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20know%20about%20Math%20Kangaroo%20USA%20preparation%20classes.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20to%20know%20about%20Math%20Kangaroo%20USA%20preparation%20classes.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Every session is a live video class. Sending the form books a callback and nothing else; no seat is reserved or lost by it.
 

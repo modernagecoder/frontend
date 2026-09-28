@@ -252,4 +252,4 @@ Nothing for the first lesson. Afterwards a group place is USD 100 a month and a 
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/higher-computing-science-help](https://learn.modernagecoders.com/higher-computing-science-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/higher-computing-science-help](https://learn.modernagecoders.com/higher-computing-science-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

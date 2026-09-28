@@ -320,7 +320,7 @@ If the four questions above suggested your child is operating rather than constr
 
 Read first if you prefer: the [academy hub for Oman](/ai-and-python-academy-oman), the site-wide [vibe coding classes](/vibe-coding-classes) page, or [how we teach](/how-we-teach).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20student%20in%20Oman%2C%20and%20I%20want%20to%20know%20whether%20they%20are%20learning%20or%20just%20prompting.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20student%20in%20Oman%2C%20and%20I%20want%20to%20know%20whether%20they%20are%20learning%20or%20just%20prompting.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 There is no centre anywhere in Oman. Every session is a live video call taught from India, and the number above rings in India.
 

@@ -244,4 +244,4 @@ Nothing for the opening lesson. A group place runs at USD 100 each month afterwa
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/ocr-gcse-computer-science-j277-help](https://learn.modernagecoders.com/ocr-gcse-computer-science-j277-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/ocr-gcse-computer-science-j277-help](https://learn.modernagecoders.com/ocr-gcse-computer-science-j277-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

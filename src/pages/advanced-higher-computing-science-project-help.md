@@ -294,4 +294,4 @@ The first lesson costs nothing. After it there is one monthly fee in US dollars,
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/advanced-higher-computing-science-project-help](https://learn.modernagecoders.com/advanced-higher-computing-science-project-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/advanced-higher-computing-science-project-help](https://learn.modernagecoders.com/advanced-higher-computing-science-project-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

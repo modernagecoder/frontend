@@ -202,4 +202,4 @@ For the county see our [Gloucestershire](/coding-classes-in-gloucestershire) pag
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-cheltenham](https://learn.modernagecoders.com/online-coding-and-python-classes-in-cheltenham#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/online-coding-and-python-classes-in-cheltenham](https://learn.modernagecoders.com/online-coding-and-python-classes-in-cheltenham#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

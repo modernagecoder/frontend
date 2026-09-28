@@ -472,7 +472,7 @@ Give us a number and somebody rings it at a Brunei-friendly hour. That opening s
 
 Rather read first? See [how we teach](/how-we-teach), the [full catalogue](/courses), the thesis behind this page at [Learn to Build AI](/learn-to-build-ai), or the [Brunei coding guide](/coding-classes-in-brunei) if programming foundations come first.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20AI%20and%20machine%20learning%20class%20for%20a%20learner%20in%20Brunei.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20AI%20and%20machine%20learning%20class%20for%20a%20learner%20in%20Brunei.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 WhatsApp reaches us fastest from Brunei and costs nothing to use. The number is Indian, not a Brunei office.
 

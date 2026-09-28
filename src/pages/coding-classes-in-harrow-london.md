@@ -239,4 +239,4 @@ All 32 boroughs and the City are listed on the [London page](/best-coding-class-
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-harrow-london](https://learn.modernagecoders.com/coding-classes-in-harrow-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-harrow-london](https://learn.modernagecoders.com/coding-classes-in-harrow-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

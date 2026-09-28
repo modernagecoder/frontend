@@ -276,4 +276,4 @@ The first lesson is free. After it, one monthly fee in US dollars applies, lower
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/ccea-a-level-software-systems-development-help](https://learn.modernagecoders.com/ccea-a-level-software-systems-development-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/ccea-a-level-software-systems-development-help](https://learn.modernagecoders.com/ccea-a-level-software-systems-development-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

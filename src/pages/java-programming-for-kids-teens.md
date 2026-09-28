@@ -476,7 +476,7 @@ Fill in the form and we'll call you within 3 hours to schedule a free 60-minute 
 Batch seats are limited, demo slots fill up fast.
 
 - [+91 9123366161](tel:+919123366161)
-- [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+- [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 - Mon–Sun · 9 AM: 9 PM IST
 
 [WhatsApp Now](https://wa.me/919123366161?text=Hi, I want to book a free demo for Java programming for kids and teens)[Contact Page →](/contact)
@@ -551,7 +551,7 @@ India's most trusted live online coding institute for kids, teens & adults.
 ### Contact
 
 - [+91 9123366161](tel:+919123366161)
-- [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+- [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 - [Privacy Policy](/privacy)
 - [Terms of Service](/terms)
 

@@ -355,7 +355,7 @@ The free first session works either way. If your child already has code, we go t
 
 Read first if you prefer: the [academy hub for Oman](/ai-and-python-academy-oman), [Student Labs](/student-labs) for more shipped work, or the general [guide to building a coding portfolio](/how-to-build-a-coding-portfolio).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20student%20in%20Oman%20who%20wants%20to%20build%20a%20real%20AI%20project.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20student%20in%20Oman%20who%20wants%20to%20build%20a%20real%20AI%20project.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 There is no centre anywhere in Oman. Every session is a live video call taught from India, and the number above rings in India.
 

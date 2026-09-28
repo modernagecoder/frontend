@@ -183,7 +183,7 @@ Tell us your website and category. We reply within one business day with where y
 
 Reach us directly. We answer questions before you commit to anything.
 
-[WhatsApp+91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I%20want%20AEO%20and%20GEO%20for%20my%20brand)[Call+91 91233 66161](tel:+919123366161)[Emailcontact@modernagecoders.com](mailto:contact@modernagecoders.com?subject=AEO%20and%20GEO%20enquiry)
+[WhatsApp+91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I%20want%20AEO%20and%20GEO%20for%20my%20brand)[Call+91 91233 66161](tel:+919123366161)[Emailconnect@modernagecoders.com](mailto:connect@modernagecoders.com?subject=AEO%20and%20GEO%20enquiry)
 
 Your details go straight to our team and are used only to reply to your enquiry. We never share or sell your information.
 

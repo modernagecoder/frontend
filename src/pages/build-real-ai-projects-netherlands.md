@@ -214,4 +214,4 @@ We phone at a Dutch hour to set up the first project lesson. It costs nothing, a
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/build-real-ai-projects-netherlands](https://learn.modernagecoders.com/build-real-ai-projects-netherlands#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/build-real-ai-projects-netherlands](https://learn.modernagecoders.com/build-real-ai-projects-netherlands#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

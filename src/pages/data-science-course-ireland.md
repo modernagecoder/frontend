@@ -233,4 +233,4 @@ We call you at a sensible Irish hour and set up the free class. Nothing is charg
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/data-science-course-ireland](https://learn.modernagecoders.com/data-science-course-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/data-science-course-ireland](https://learn.modernagecoders.com/data-science-course-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

@@ -312,4 +312,4 @@ The first lesson is free. After that it is USD 100 a month in a group or USD 150
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-buckinghamshire](https://learn.modernagecoders.com/11-plus-maths-tuition-buckinghamshire#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-buckinghamshire](https://learn.modernagecoders.com/11-plus-maths-tuition-buckinghamshire#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

@@ -303,7 +303,7 @@ The adult free class works on your material: a sales file, a chore you resent, a
 
 Prefer to read further first? The [beginner page](/vibe-coding-for-beginners) scripts a first hour you can run alone tonight, the [professionals track](/ai-and-machine-learning-for-working-professionals) covers the career-change journey, and [the coding comeback](/coding-comeback-women) speaks to returners directly.
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20an%20adult%20interested%20in%20AI%20classes.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20an%20adult%20interested%20in%20AI%20classes.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 Live classes taught from India across every time zone; the number above rings in India. The form requests one callback at an hour you choose, and choosing "never mind" on that call is a complete sentence.
 

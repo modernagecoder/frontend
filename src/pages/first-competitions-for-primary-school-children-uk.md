@@ -247,4 +247,4 @@ The first is free. A group place is then USD 100 a month and one-to-one teaching
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/first-competitions-for-primary-school-children-uk](https://learn.modernagecoders.com/first-competitions-for-primary-school-children-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/first-competitions-for-primary-school-children-uk](https://learn.modernagecoders.com/first-competitions-for-primary-school-children-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

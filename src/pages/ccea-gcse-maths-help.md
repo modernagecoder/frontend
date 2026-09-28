@@ -265,4 +265,4 @@ The first lesson is free. Then one monthly fee in US dollars, less for a group p
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/ccea-gcse-maths-help](https://learn.modernagecoders.com/ccea-gcse-maths-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/ccea-gcse-maths-help](https://learn.modernagecoders.com/ccea-gcse-maths-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

@@ -249,4 +249,4 @@ We ring at a reasonable Irish hour and arrange the free class. There is no charg
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/java-classes-ireland](https://learn.modernagecoders.com/java-classes-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/java-classes-ireland](https://learn.modernagecoders.com/java-classes-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

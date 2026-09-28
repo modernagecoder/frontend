@@ -238,4 +238,4 @@ We call at a reasonable Irish hour and arrange the free class. You pay nothing u
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/full-stack-software-development-course-ireland](https://learn.modernagecoders.com/full-stack-software-development-course-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/full-stack-software-development-course-ireland](https://learn.modernagecoders.com/full-stack-software-development-course-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

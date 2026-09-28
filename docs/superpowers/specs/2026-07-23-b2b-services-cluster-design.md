@@ -41,7 +41,7 @@ Every page is a standalone editorial ("Ledger & Proof") HTML file in `src/pages/
 8. **Who it's for** — industries / company sizes.
 9. **Why Modern Age Coders** — capability + real education trust; explicitly no fabricated client proof.
 10. **How we engage** — engagement models (fixed-scope / retainer / dedicated team). No prices; "free consultation, custom quote."
-11. **Lead form** (`#lead-form`) — name, work email, phone, company, message (+ hidden service tag). Posts to the backend; on 201 fires Meta Pixel `Lead` and redirects to `/thank-you?src=<page-key>`. Alongside: WhatsApp +91 91233 66161, Call, Email contact@modernagecoders.com.
+11. **Lead form** (`#lead-form`) — name, work email, phone, company, message (+ hidden service tag). Posts to the backend; on 201 fires Meta Pixel `Lead` and redirects to `/thank-you?src=<page-key>`. Alongside: WhatsApp +91 91233 66161, Call, Email connect@modernagecoders.com.
 12. **FAQ** — matches FAQPage schema.
 13. **Related services** — interlinks to sibling spokes + hub.
 14. **Footer** — `<div id="footer-placeholder"></div>`.

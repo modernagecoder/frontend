@@ -28,7 +28,7 @@ Upon cancellation, you will retain access to the platform and materials until th
 
 ## 5. How to Cancel
 
-To cancel a subscription or live course enrollment, please navigate to your account settings or contact our support team at [contact@modernagecoders.com](mailto:contact@modernagecoders.com).
+To cancel a subscription or live course enrollment, please navigate to your account settings or contact our support team at [connect@modernagecoders.com](mailto:connect@modernagecoders.com).
 
 ---
 

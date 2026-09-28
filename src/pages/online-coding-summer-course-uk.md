@@ -254,4 +254,4 @@ The first lesson is free. Then USD 100 a month in a group or USD 150 one to one,
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/online-coding-summer-course-uk](https://learn.modernagecoders.com/online-coding-summer-course-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/online-coding-summer-course-uk](https://learn.modernagecoders.com/online-coding-summer-course-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

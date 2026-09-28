@@ -246,4 +246,4 @@ Almost everything a student takes away, including the version control they will 
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/student-hackathons-uk](https://learn.modernagecoders.com/student-hackathons-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/student-hackathons-uk](https://learn.modernagecoders.com/student-hackathons-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

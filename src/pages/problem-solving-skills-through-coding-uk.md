@@ -246,4 +246,4 @@ The opening lesson is free. After that a group place is USD 100 a month and a te
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/problem-solving-skills-through-coding-uk](https://learn.modernagecoders.com/problem-solving-skills-through-coding-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/problem-solving-skills-through-coding-uk](https://learn.modernagecoders.com/problem-solving-skills-through-coding-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

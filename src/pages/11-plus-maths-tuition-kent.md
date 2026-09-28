@@ -295,4 +295,4 @@ The first lesson is free. After that a place in a group is USD 100 a month and o
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-kent](https://learn.modernagecoders.com/11-plus-maths-tuition-kent#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-kent](https://learn.modernagecoders.com/11-plus-maths-tuition-kent#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

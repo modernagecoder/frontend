@@ -92,7 +92,7 @@ REQUIRED = [
     ('$100', 'international group'), ('$150', 'international 1-on-1'),
     ('10,000+', 'student count'), ('547', 'review count'),
     ('6 to 67', 'age range'), ('25+', 'country count'),
-    ('+91 9123366161', 'phone'), ('contact@modernagecoders.com', 'email'),
+    ('+91 9123366161', 'phone'), ('connect@modernagecoders.com', 'email'),
     ('teens-ai-tools-mastery-course', 'replacement course URL'),
     ('JK Ambika Tower', 'registered office'),
     ('APPENDIX A', 'appendix A'), ('APPENDIX B', 'appendix B'),

@@ -484,7 +484,7 @@ Leave a number and a mentor calls you back at an Omani hour. The first session i
 
 Rather read first? The [full catalogue](/courses), [how we teach](/how-we-teach), and the argument behind this family of pages at [Learn to Build AI](/learn-to-build-ai).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20student%20in%20Oman%2C%20on%20the%20AI%20and%20Python%20track.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20student%20in%20Oman%2C%20on%20the%20AI%20and%20Python%20track.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 WhatsApp reaches us fastest from Oman and costs nothing to use. The number is Indian, not an Oman office; we hold no premises in the country.
 

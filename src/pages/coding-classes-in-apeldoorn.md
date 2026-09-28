@@ -262,4 +262,4 @@ South across the Veluwe are [Arnhem](/coding-classes-in-arnhem), the provincial 
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-apeldoorn](https://learn.modernagecoders.com/coding-classes-in-apeldoorn#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-apeldoorn](https://learn.modernagecoders.com/coding-classes-in-apeldoorn#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

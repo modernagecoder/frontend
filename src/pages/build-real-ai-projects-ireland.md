@@ -237,4 +237,4 @@ We phone you at a reasonable Irish hour and arrange the free class. You are char
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/build-real-ai-projects-ireland](https://learn.modernagecoders.com/build-real-ai-projects-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/build-real-ai-projects-ireland](https://learn.modernagecoders.com/build-real-ai-projects-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

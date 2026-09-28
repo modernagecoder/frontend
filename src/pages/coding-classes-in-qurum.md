@@ -320,7 +320,7 @@ A program, chart or maths solution gives the teacher something concrete to test.
 
 Review national context on the [Oman hub](/coding-classes-in-oman), compare the wider city through [Muscat coding classes](/coding-classes-in-muscat), or read [how the lessons work](/how-we-teach).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Qurum.)[+91 91233 66161](tel:+919123366161)[contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Qurum.)[+91 91233 66161](tel:+919123366161)[connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 The contact number is Indian because the provider teaches from India. There is no Qurum branch.
 

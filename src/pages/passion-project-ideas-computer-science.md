@@ -410,7 +410,7 @@ Tell us the idea and the deadline. We reply within one business day with an hone
 
 Reach us directly. We are happy to say an idea is too big before you spend six months on it.
 
-[WhatsApp+91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I%20want%20help%20with%20a%20computer%20science%20passion%20project)[Call+91 91233 66161](tel:+919123366161)[Emailcontact@modernagecoders.com](mailto:contact@modernagecoders.com?subject=Portfolio%20Program%20enquiry)
+[WhatsApp+91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I%20want%20help%20with%20a%20computer%20science%20passion%20project)[Call+91 91233 66161](tel:+919123366161)[Emailconnect@modernagecoders.com](mailto:connect@modernagecoders.com?subject=Portfolio%20Program%20enquiry)
 
 Your details go straight to our team and are used only to reply to your enquiry. We never share or sell your information. We are a coding and maths school, not an admissions consultancy.
 

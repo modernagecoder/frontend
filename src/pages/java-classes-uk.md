@@ -266,4 +266,4 @@ After school, evenings or weekends in UK time, agreed in the free class. Our tea
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/java-classes-uk](https://learn.modernagecoders.com/java-classes-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/java-classes-uk](https://learn.modernagecoders.com/java-classes-uk#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

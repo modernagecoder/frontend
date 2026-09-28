@@ -216,7 +216,7 @@ function buildContact() {
 
 - Website: ${SITE}
 - Phone / WhatsApp: +91 9123366161, https://wa.me/919123366161
-- Email: contact@modernagecoders.com
+- Email: connect@modernagecoders.com
 - Book a free demo (waiting list): ${SITE}/book-demo
 - Book a Priority Live Demo (guaranteed, today or tomorrow): ${SITE}/priority-demo
 - Instagram: https://www.instagram.com/modern_age_coders

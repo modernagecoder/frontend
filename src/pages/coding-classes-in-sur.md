@@ -433,7 +433,7 @@ Share the learner's age or grade and the skill they want to build. Modern Age Co
 
 **Phone:** [+91 91233 66161](tel:+919123366161)
 
-**Email:** [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+**Email:** [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 **Delivery:** Live online for Sur and the rest of Oman.
 

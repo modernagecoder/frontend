@@ -233,4 +233,4 @@ Swords sits in [Fingal](/coding-classes-in-fingal), which has its own page, as d
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-swords](https://learn.modernagecoders.com/best-coding-class-in-swords#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/best-coding-class-in-swords](https://learn.modernagecoders.com/best-coding-class-in-swords#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

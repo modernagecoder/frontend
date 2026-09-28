@@ -324,7 +324,7 @@ The free first session establishes whether the two rungs beneath machine learnin
 
 Read first if you prefer: the [academy hub for Oman](/ai-and-python-academy-oman), the [five-rung roadmap](/python-to-ai-roadmap-for-students-oman), or [the maths behind machine learning](/maths-behind-machine-learning).
 
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20school-age%20student%20in%20Oman%20who%20wants%20to%20learn%20machine%20learning.) · [+91 91233 66161](tel:+919123366161) · [contact@modernagecoders.com](mailto:contact@modernagecoders.com)
+[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20class%20for%20a%20school-age%20student%20in%20Oman%20who%20wants%20to%20learn%20machine%20learning.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
 There is no centre anywhere in Oman. Every session is a live video call taught from India, and the number above rings in India.
 

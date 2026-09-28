@@ -238,4 +238,4 @@ Next door, [Hillingdon](/coding-classes-in-hillingdon-london), [Hounslow](/codin
 
 ## Contact
 
-Book the free class on [https://learn.modernagecoders.com/coding-classes-in-ealing-london](https://learn.modernagecoders.com/coding-classes-in-ealing-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com. Rated 4.9 across 547 Google reviews.
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-ealing-london](https://learn.modernagecoders.com/coding-classes-in-ealing-london#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

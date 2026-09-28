@@ -399,7 +399,7 @@ Experience our coding and maths classes firsthand, absolutely free. Tell us abou
 
 Or reach us directly:
 
-[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm a DPS R.K. Puram parent interested in coding classes for my child. Please share details.)[Email Us](mailto:contact@modernagecoders.com?subject=Inquiry - DPS R.K. Puram Coding Classes)
+[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm a DPS R.K. Puram parent interested in coding classes for my child. Please share details.)[Email Us](mailto:connect@modernagecoders.com?subject=Inquiry - DPS R.K. Puram Coding Classes)
 
 ## Frequently Asked Questions
 

@@ -286,4 +286,4 @@ There is no charge for lesson one. After that, USD 100 per month buys a group pl
 
 ## Contact
 
-Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-wirral](https://learn.modernagecoders.com/11-plus-maths-tuition-wirral#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email contact@modernagecoders.com.
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-wirral](https://learn.modernagecoders.com/11-plus-maths-tuition-wirral#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
