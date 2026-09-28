@@ -1289,3 +1289,4 @@
 .cg-root.cg-bns  { --cg-accent: #3A2A4C; --cg-accent-soft: rgba(58,42,76,.10); }   /* Barnsley: a deep coal-seam violet (10.47:1 on the darkest paper tint) */
 .cg-root.cg-rhm  { --cg-accent: #17325C; --cg-accent-soft: rgba(23,50,92,.10); }   /* Rotherham: a deep steel blue (10.27:1 on the darkest paper tint) */
 .cg-root.cg-brn  { --cg-accent: #314C2A; --cg-accent-soft: rgba(49,76,42,.10); }   /* Burnley: a moorland green (7.70:1 on the darkest paper tint) */
+.cg-root.cg-bym  { --cg-accent: #320E5C; --cg-accent-soft: rgba(50,14,92,.10); }   /* Bury: a deep mill-town violet (12.51:1 on the darkest paper tint) */

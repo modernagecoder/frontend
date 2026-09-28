@@ -29992,5 +29992,44 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-bury": {
+    "market": "Bury",
+    "bodyClass": "cg-bym",
+    "pageType": "city",
+    "curriculumAuthority": "Bury (E08000002). Nomis Census 2021 TS001 193,851 (TS007A 193,850). TS007A: 0 to 4 11,159 (5.8%, England 5.4%); 5 to 9 12,490 (6.4%, 5.9%); 10 to 14 12,851 (6.6%, 6.0%); 20 to 24 9,545 (4.9%, 6.0%); 25 to 29 11,534 (5.9%, 6.6%); 85 and over 4,224 (2.2%, 2.4%). ONS 2021 BUAs: Bury 81,095; Prestwich 31,495; Radcliffe 31,115; Whitefield 22,185; Ramsbottom 17,075.",
+    "localProject": "Nomis API NM_2020_1, Bury + England, 19 values each. Plan A: 38 calls, 718 bytes, 80.0 s. Plan B: 1 batched call, 932 bytes, 1.0 s, 38 rows, identical numbers. Budget of 5 calls: plan A fails, planning step groups needs into 1 call. Lesson family: agent tool budget, batching (N+1), measuring calls/time, plan before act.",
+    "requiredMentions": [
+      "193,851",
+      "81,095",
+      "Prestwich",
+      "Radcliffe",
+      "Whitefield",
+      "Ramsbottom",
+      "N+1",
+      "tool budget",
+      "batched"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A via the Nomis API, Bury and England.",
+        "url": "https://www.nomisweb.co.uk/api/v01/help"
+      },
+      {
+        "claim": "Nomis Census 2021 TS001, Bury.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Typical response times of Nomis: not claimed; only our single run is reported.",
+      "Costs of any commercial AI agent: not claimed.",
+      "Textile and market history: not read from a source; not claimed.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
