@@ -421,8 +421,9 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 369 | best-coding-and-ai-classes-in-rotherham (rhm, #17325C) | cg- town page | 2,607 | 1.5% vs coding-and-ai-classes-in-west-midlands-region | what does a chatbot's temperature setting do? | softmax with temperature, greedy vs sampled, top-k, output entropy | f1791866 |
 | 370 | vibe-coding-and-ai-agents-classes-in-burnley (brn, #314C2A) | cg- town page | 2,619 | 2.1% vs vibe-coding-and-ai-agents-classes-in-stockton-on-tees | what should an AI agent be allowed to change? | agent permissions, sandbox, read-only originals, audit log, approval | 8746ea39 |
 | 371 | online-coding-and-python-classes-in-bury (bym, #320E5C) | cg- town page | 2,567 | 1.9% vs online-coding-and-python-classes-in-stafford | how many tool calls should an AI agent spend? | agent tool budget, batching (N+1), measured calls, plan before act | 93fc3ce8 |
-| 372 | ai-and-programming-classes-in-halifax (hfx, #4C461B) | cg- town page | 3,070 | 1.9% vs ai-and-programming-classes-in-dewsbury | can a model place a district by its ages? | nearest-centroid classifier, leave-one-out, baseline, confusion matrix | ea285380 |
-| 373 | best-coding-and-ai-classes-in-walsall (wsl, #6B4B3B) | cg- town page | 2,914 | 2.2% vs ai-and-programming-classes-in-dewsbury | what does a word embedding learn from one book? | word embeddings, co-occurrence, PPMI, cosine neighbours, name merging | (this commit) |
+| 372 | ai-and-programming-classes-in-halifax (hfx, #4C461B) | cg- town page | 3,070 | 1.9% vs ai-and-programming-classes-in-dewsbury | can a model place a district by its ages? | nearest-centroid classifier, leave-one-out, baseline, confusion matrix | 9c6d11f0 |
+| 373 | best-coding-and-ai-classes-in-walsall (wsl, #6B4B3B) | cg- town page | 2,914 | 2.2% vs ai-and-programming-classes-in-dewsbury | what does a word embedding learn from one book? | word embeddings, co-occurrence, PPMI, cosine neighbours, name merging | 8d011aae |
+| 374 | vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme (nul, #8A2267) | cg- town page | 2,830 | 1.3% vs vibe-coding-and-ai-agents-classes-in-darlington | when should an AI agent ask a clarifying question? | clarifying questions, ambiguity cost, absolute vs relative tolerance | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

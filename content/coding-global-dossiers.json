@@ -30117,5 +30117,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme": {
+    "market": "Newcastle-under-Lyme",
+    "bodyClass": "cg-nul",
+    "pageType": "city",
+    "curriculumAuthority": "Newcastle-under-Lyme (E07000195), Census 2021 TS001 usual residents 123,299. ONS 2021 BUAs (published): Newcastle-under-Lyme 76,505; Kidsgrove 15,595; Talke and Talke Pits 3,435; Madeley 3,290; Bignall End 3,185. Stoke-on-Trent and Harriseahead, Mow Cop and Newchapel straddle; excluded.",
+    "localProject": "Nomis Census 2021, Newcastle upon Tyne E08000021 vs Newcastle-under-Lyme E07000195: residents 300,125 / 123,299; 65+ 14.83% / 21.69%; no car 36.61% / 19.42%; from home 30.00% / 22.95%; bicycle 2.30% / 1.07%; train 0.63% / 0.39%; under 2 km 11.59% / 11.66%; 30 to 40 km 596 / 608; motorcycle 235 / 256. Rule: ask if shares differ > 1 point or counts > 10%: ask on 5 of 9. Lesson family: clarifying questions, ambiguity cost, tolerance design.",
+    "requiredMentions": [
+      "123,299",
+      "76,505",
+      "15,595",
+      "Kidsgrove",
+      "Talke",
+      "Bignall End",
+      "clarifying question",
+      "Newcastle upon Tyne",
+      "motorcycle"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Census 2021 TS001, TS007A, TS045, TS058 and TS061 for Newcastle upon Tyne and Newcastle-under-Lyme, via the Nomis API.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS, cell key perturbation applied to Census 2021 counts to protect confidentiality.",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/methodologies/protectingpersonaldataincensus2021results"
+      }
+    ],
+    "rejectedClaims": [
+      "Why the two districts differ on cars, age or home working: not measured; not claimed.",
+      "Keele University or any named institution: not read; not named.",
+      "Pottery or mining history: not read from a source; not claimed.",
+      "Sum of the five built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
