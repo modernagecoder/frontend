@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "slug": "touch-typing-for-kids",
+    "title": "Touch Typing for Kids: When to Start and How to Practise",
+    "description": "When children are ready for touch typing, the home row, a week-by-week plan, why accuracy beats speed, and which keys coders need most.",
+    "keywords": [
+      "touch typing for kids",
+      "how to learn touch typing",
+      "best age to learn touch typing",
+      "home row keys",
+      "typing practice plan",
+      "does typing speed matter for programming",
+      "how to calculate words per minute"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Kids Coding",
+    "tags": [
+      "Typing",
+      "Kids",
+      "Study Skills",
+      "Python"
+    ],
+    "readTime": "9 min read",
+    "featured": false,
+    "tldr": "Touch typing means typing with all ten fingers without looking, starting from the home row (A S D F and J K L ;). Many children are ready around 7 or 8. Practise 10 to 15 minutes a day, learn one row at a time, never look down, and move on only at about 95% accuracy, because accuracy builds speed, not the other way round. For coders, symbols matter: we measured about four times as many symbols in Python code as in English prose, with the underscore most common."
+  },
+  "hero": {
+    "title": "Touch Typing for Kids: When to Start and How to Practise",
+    "subtitle": "The home row, a week-by-week plan, why accuracy comes before speed, and a measurement of which keys programmers actually use, with a typing tester you can build in Python.",
+    "featuredImage": {
+      "url": "/images/blog/touch-typing-for-kids/00-hero.png",
+      "alt": "Touch typing for kids: a keyboard with each finger's keys coloured and the home row outlined"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Touch typing means typing without looking at the keyboard, using all ten fingers, each responsible for its own keys. It is one of the few skills that pays off every single day for the rest of a child's life: in homework, in exams taken on screen, in writing, and in coding. It also takes only a few weeks of short practice to get started."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide covers when children are ready to start, how the home row works, a week-by-week practice plan, and the mistake almost everyone makes. There is also a section for coders, with a measurement we made of which keys programming actually uses, and a small typing speed tester you can build in Python."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What is touch typing?",
+        "id": "what-is"
+      },
+      {
+        "type": "paragraph",
+        "text": "In touch typing, your fingers rest on a fixed set of keys called the <strong>home row</strong>, and each finger moves up or down its own column to reach other keys. Because every finger always starts from the same place, your hands learn the positions and your eyes can stay on the screen. Compare that with hunt and peck typing, where two fingers search for each key while you look down, then back up, then down again."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/touch-typing-for-kids/01-home-row.png",
+        "alt": "QWERTY keyboard coloured by finger: little fingers take the outer columns, then ring, middle, and index fingers, which each cover two columns; the home row keys A S D F J K L and semicolon are outlined, with bumps on F and J",
+        "caption": "Index fingers work hardest, covering two columns each."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Left hand</strong> rests on A, S, D, F. <strong>Right hand</strong> rests on J, K, L and the semicolon key.",
+          "<strong>The bumps</strong> on F and J let your index fingers find home by touch.",
+          "<strong>Thumbs</strong> share the space bar.",
+          "<strong>Index fingers</strong> each cover two columns, which is why the middle of the keyboard (T, G, B and Y, H, N) feels hardest at first."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What age should children learn touch typing?",
+        "id": "age"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is no single correct age, but two things need to be in place: the child can read and spell simple words, and their hands are big enough to rest across the home row comfortably. For many children, that is around 7 or 8. Younger children aged 6 can enjoy keyboard games and learn where letters are, but formal ten-finger practice is often more frustrating than useful at that stage."
+      },
+      {
+        "type": "paragraph",
+        "text": "If your young child is starting to code, typing does not need to come first. Block-based tools like Scratch involve almost no typing, which is one reason they suit younger learners. Our guide to <a href='/blog/coding-for-7-year-olds-what-how-kids-should-learn-programming'>coding for 7 year olds</a> explains the usual path. Touch typing becomes much more valuable when a child moves to typed languages like Python, usually from around 10 to 12."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "Hunt and peck habits are harder to undo later",
+        "text": "A child who types a lot with two fingers gets quite fast at it, and then touch typing feels slower for the first few weeks. That dip is normal and temporary. Starting before hunt and peck is firmly set makes the switch easier."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to practise: a week-by-week plan",
+        "id": "plan"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/touch-typing-for-kids/04-plan.png",
+        "alt": "Practice plan: weeks 1 to 2 home row, weeks 3 to 4 top row, weeks 5 to 6 bottom row, weeks 7 to 8 shift and capitals, then numbers and symbols; 10 to 15 minutes a day, moving on at about 95 percent accuracy",
+        "caption": "Short daily practice beats long weekly sessions."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Keep sessions short and daily.</strong> 10 to 15 minutes a day works far better than an hour on Saturday. Motor skills build through frequent repetition.",
+          "<strong>Learn a few keys at a time.</strong> Start with the home row only, then add the top row, then the bottom row. Adding everything at once overwhelms the fingers.",
+          "<strong>Never look down.</strong> This is the whole skill. Some families lay a light cloth over the hands. If a child has to look, they should look at a keyboard picture on screen, not the real keys.",
+          "<strong>Return to home after every key.</strong> Fingers reach up or down, then come back to rest on the home row.",
+          "<strong>Sit well.</strong> Feet flat, wrists straight and floating, screen at eye level. Posture habits formed now last.",
+          "<strong>Move on by accuracy, not by feel.</strong> About 95% accuracy without looking is a good sign a row is ready."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Accuracy first, speed second",
+        "id": "accuracy"
+      },
+      {
+        "type": "paragraph",
+        "text": "The most common mistake is pushing for speed too early. Fast typing with errors is slower overall, because every mistake has to be found and fixed, and the finger learns the wrong movement. To show this clearly, we built a small scorer and gave it two attempts at the same sentence:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from typer import score\ntarget = \"the quick brown fox jumps over the lazy dog\"\nprint(len(target), \"characters\")\nprint(score(target, \"the quick brown fox jumps over the lazy dog\", 12.0))\nprint(score(target, \"the quick brwon fox jumps over teh lazy dog\", 9.0))\nprint(score(target, \"the quick brown fox jumps over the lazy dog\", 30.0))",
+        "title": "demo.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "43 characters\n(43, 100, [])\n(52, 91, [12, 13, 32, 33])\n(17, 100, [])",
+        "title": "Output: (words per minute, accuracy %, mistake positions)"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/touch-typing-for-kids/03-accuracy.png",
+        "alt": "Attempt A typed the sentence correctly in 12 seconds for 43 words per minute and 100 percent accuracy; attempt B took 9 seconds but swapped letters, giving 52 words per minute and 91 percent accuracy",
+        "caption": "Two swapped pairs cost four characters."
+      },
+      {
+        "type": "paragraph",
+        "text": "Attempt B finished three seconds sooner, but typed \"brwon\" and \"teh\". Each swapped pair counts as two wrong characters, so its accuracy fell to 91%, and in real writing those words would still need fixing. The third line shows a beginner: slow (17 words per minute) but perfectly accurate. That is exactly where a beginner should be. Speed grows naturally from accurate repetition."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Does typing speed matter for coding?",
+        "id": "coding"
+      },
+      {
+        "type": "paragraph",
+        "text": "Honestly, typing speed is not what makes a good programmer. Most programming time goes into thinking, reading code and fixing problems, not typing. But slow hunt and peck typing does get in the way: every time you look down for a bracket, you lose your train of thought. And code uses the keyboard very differently from English."
+      },
+      {
+        "type": "paragraph",
+        "text": "To measure how differently, we counted every character in the 152 top-level modules of the Python 3.13.6 standard library, over 3,019,425 characters, and compared them with the paragraphs of 200 blog posts on this site, spaces excluded in both. Here is the script:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import sys, sysconfig, collections, pathlib, json, re, html\n\n# 1. Every top-level module of the Python standard library\nlib = pathlib.Path(sysconfig.get_paths()[\"stdlib\"])\nfiles = sorted(lib.glob(\"*.py\"))\ncode = \"\".join(p.read_text(encoding=\"utf-8\", errors=\"ignore\") for p in files)\n\n# 2. The paragraphs of 200 blog posts on this site, HTML tags removed\nprose = []\nfor f in sorted(pathlib.Path(\"content/blog/data\").glob(\"*.json\"))[:200]:\n    d = json.loads(f.read_text(encoding=\"utf-8\"))\n    for s in d.get(\"sections\") or d.get(\"content\", {}).get(\"sections\", []):\n        if s.get(\"type\") == \"paragraph\":\n            prose.append(html.unescape(re.sub(r\"<[^>]+>\", \"\", s[\"text\"])))\nprose = \" \".join(prose)\n\nSHIFT_US = set('~!@#$%^&*()_+{}|:\"<>?ABCDEFGHIJKLMNOPQRSTUVWXYZ')\n\ndef shares(text):\n    chars = [c for c in text if not c.isspace()]\n    counts = collections.Counter(chars)\n    n = len(chars)\n    symbols = sum(k for c, k in counts.items() if not c.isalnum())\n    shift = sum(k for c, k in counts.items() if c in SHIFT_US)\n    return n, counts, symbols / n, shift / n\n\ncn, cc, csym, csh = shares(code)\npn, pc, psym, psh = shares(prose)\nprint(f\"python {sys.version.split()[0]}, {len(files)} files\")\nprint(f\"code:  {cn:,} characters, symbols {csym:.1%}, need shift {csh:.1%}\")\nprint(f\"prose: {pn:,} characters, symbols {psym:.1%}, need shift {psh:.1%}\")\nprint(\"symbol  code    prose\")\ntop = [c for c, _ in cc.most_common() if not c.isalnum()][:10]\nfor c in top:\n    print(f\"  {c}    {cc[c] / cn:.3%}  {pc[c] / pn:.3%}\")",
+        "title": "keys.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "python 3.13.6, 152 files\ncode:  3,019,425 characters, symbols 16.8%, need shift 14.1%\nprose: 961,533 characters, symbols 3.9%, need shift 3.4%\nsymbol  code    prose\n  _    2.491%  0.007%\n  .    1.813%  1.312%\n  )    1.578%  0.085%\n  (    1.577%  0.085%\n  ,    1.496%  1.239%\n  \"    1.294%  0.086%\n  =    1.198%  0.014%\n  '    1.197%  0.358%\n  :    1.118%  0.310%\n  #    0.605%  0.001%",
+        "title": "Output (shares of all characters, spaces excluded)"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/touch-typing-for-kids/02-symbols.png",
+        "alt": "Bar chart of the ten most common symbols in Python code compared with English prose; the underscore is most common in code at 2.5 percent, and symbols make up 16.8 percent of code versus 3.9 percent of prose",
+        "caption": "Measured on this machine. The prose sample is the blog paragraphs on this site."
+      },
+      {
+        "type": "paragraph",
+        "text": "Symbols made up 16.8% of the characters in code and only 3.9% in prose, roughly 4 times as many. The most common were <code>_</code>, <code>.</code>, <code>)</code>, <code>(</code>, <code>,</code>. The underscore, which almost never appears in normal writing, was the single most frequent symbol in Python, because Python names like <code>file_name</code> and <code>__init__</code> use it constantly. Code also needed the Shift key for 14.1% of characters, against 3.4% for prose."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "What this means for coders",
+        "text": "Once letters are comfortable, deliberately practise the symbol keys: the underscore, brackets, quotes, the equals sign and the colon. Most typing courses spend little time on them, but they are a large part of what you type as a programmer."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Build your own typing speed tester",
+        "id": "build"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the full tester behind the scores above. It shows a sentence, times you with <code>time.perf_counter()</code>, and reports words per minute and accuracy. By convention, one \"word\" is five characters, so words per minute is correct characters divided by five, per minute. Save it as <code>typer.py</code> and run it:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import time\n\ndef score(target, typed, seconds):\n    \"\"\"Words per minute (a word = 5 characters) and accuracy.\"\"\"\n    correct = sum(1 for a, b in zip(target, typed) if a == b)\n    minutes = seconds / 60\n    wpm = (correct / 5) / minutes\n    accuracy = correct / len(target)\n    mistakes = [i for i, (a, b) in enumerate(zip(target, typed)) if a != b]\n    return round(wpm), round(accuracy * 100), mistakes\n\ndef play(target):\n    print(\"Type this, then press Enter:\\n\")\n    print(\"   \", target, \"\\n\")\n    start = time.perf_counter()\n    typed = input(\"    \")\n    seconds = time.perf_counter() - start\n    wpm, acc, mistakes = score(target, typed, seconds)\n    print(f\"\\n{wpm} words per minute, {acc}% accurate\")\n    if mistakes:\n        print(\"Check positions:\", mistakes)\n\nif __name__ == \"__main__\":\n    play(\"the quick brown fox jumps over the lazy dog\")",
+        "title": "typer.py"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ideas to extend it: pick a random sentence from a list, keep a history of scores in a file, or add lines of code as targets so you practise symbols too. It is a good first project for anyone learning Python, and our <a href='/blog/python-basic-programs-for-beginners'>basic Python programs</a> list has more at the same level."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Signs of progress, and when to stop worrying",
+        "id": "progress"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Stage",
+          "What it looks like",
+          "What to do"
+        ],
+        "rows": [
+          [
+            "First week",
+            "Slower than hunt and peck, lots of looking down",
+            "Normal. Keep sessions short and cover the hands"
+          ],
+          [
+            "Weeks 2 to 4",
+            "Home and top rows without looking, still slow",
+            "Add the bottom row once accuracy is steady"
+          ],
+          [
+            "Weeks 5 to 8",
+            "All letters by touch, speed starting to climb",
+            "Add capitals, punctuation and real sentences"
+          ],
+          [
+            "After that",
+            "Faster than before, eyes on the screen",
+            "Practise numbers and symbols, and use it daily"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Everyone progresses at a different pace, and the timings above are a guide, not a test. The most reliable sign of progress is not the speed number. It is the moment a child types a whole sentence while looking at the screen, without thinking about the keys at all."
+      },
+      {
+        "type": "quote",
+        "text": "Touch typing is the rare skill you learn once and use every day for the rest of your life."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Typing matters most at the moment a student moves from blocks to typed code. The principles on our <a href='/how-we-teach'>how we teach</a> page, starting with a spark and learning by building, apply to typing too: a small project like the tester above turns practice into something a child made. For younger children still on blocks, our <a href='/scratch-coding-classes-for-kids'>Scratch classes</a> need very little typing, and typed languages like Python come when they are ready."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is the best age to learn touch typing?",
+            "content": "Many children are ready around 7 or 8, once they can read simple words and their hands rest comfortably across the home row. Younger children can play keyboard games, and adults of any age can learn touch typing too."
+          },
+          {
+            "title": "How long does it take to learn touch typing?",
+            "content": "With 10 to 15 minutes of daily practice, many learners can type all the letters without looking within about six to eight weeks. Speed keeps improving for months after that with regular use."
+          },
+          {
+            "title": "What are the home row keys?",
+            "content": "A, S, D and F for the left hand, and J, K, L and the semicolon for the right hand. The bumps on F and J help your index fingers find home without looking. Thumbs rest on the space bar."
+          },
+          {
+            "title": "Should I focus on speed or accuracy?",
+            "content": "Accuracy first. Aim for about 95% accuracy without looking before pushing for speed. Fast typing with mistakes is slower overall and trains the wrong finger movements."
+          },
+          {
+            "title": "Does typing speed matter for programming?",
+            "content": "Not as much as thinking skills, but slow typing that makes you look down for every bracket breaks your concentration. Code uses far more symbols than English, so coders benefit from practising symbol keys specifically."
+          },
+          {
+            "title": "How is words per minute calculated?",
+            "content": "By convention, a word is counted as five characters. Words per minute is the number of correctly typed characters divided by five, divided by the time in minutes."
+          },
+          {
+            "title": "My child types fast with two fingers. Should they switch?",
+            "content": "Usually yes, especially if they will be typing a lot for school or coding. Expect a few weeks where they feel slower. With daily practice, touch typing soon overtakes two-finger typing."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "coding-for-7-year-olds-what-how-kids-should-learn-programming",
+    "python-basic-programs-for-beginners",
+    "30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced"
+  ]
+}

@@ -140,6 +140,10 @@
         "text": "Children can begin as young as 6 with visual, block-based tools like Scratch, where they build programs by snapping colourful blocks together and never have to worry about typing or syntax. This teaches the logic of coding through play. Around the ages of 11 to 13, most children are ready to move to a real text language such as Python. The right starting point depends on the child, not just the birthday, which is why a good teacher matches the level to the learner rather than the age on a form."
       },
       {
+        "type": "paragraph",
+        "text": "Because blocks need almost no typing, keyboard skills can wait. Many children are ready to learn <a href='/blog/touch-typing-for-kids'>touch typing</a> around 7 or 8, which fits well with the later move to typed code."
+      },
+      {
         "type": "heading",
         "level": 2,
         "text": "Is it just more screen time?",

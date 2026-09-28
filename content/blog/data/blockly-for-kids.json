@@ -82,6 +82,10 @@
       },
       {
         "type": "paragraph",
+        "text": "Typing becomes important later, when children move from blocks to languages like Python. When that time comes, our guide to <a href='/blog/touch-typing-for-kids'>touch typing for kids</a> covers when to start, the home row, and a week-by-week practice plan."
+      },
+      {
+        "type": "paragraph",
         "text": "Each block fits in a specific way to guide correct programming structures such as loops, conditionals, events, and variables. When blocks are snapped together, Blockly automatically generates real code behind the scenes, Blockly has five built-in code generators, JavaScript, Python, Lua, Dart and PHP, based on what the child built visually. This means kids are actually writing real code, they just don't see the complex syntax yet!"
       },
       {
