@@ -441,6 +441,10 @@
       },
       {
         "type": "paragraph",
+        "text": "Before any route can be planned, the phone has to know where it is, and that part is pure maths: timing signals from satellites and solving for the one point that fits. Our guide to <a href='/blog/how-does-gps-work'>how GPS works</a> does the calculation in a few lines of Python."
+      },
+      {
+        "type": "paragraph",
         "text": "This flexibility makes goal-based agents much more powerful than reflex agents, which can only respond to immediate conditions."
       },
       {

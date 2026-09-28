@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "slug": "how-does-gps-work",
+    "title": "How Does GPS Work? Trilateration, Clocks and Relativity",
+    "description": "How GPS finds your location: distance from signal timing, trilateration in Python, why four satellites are needed, and the relativity correction.",
+    "keywords": [
+      "how does gps work",
+      "how does gps work for kids",
+      "trilateration",
+      "how many satellites does gps need",
+      "gps relativity",
+      "how gps calculates position",
+      "gps explained simply"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Mathematics",
+    "tags": [
+      "GPS",
+      "Physics",
+      "Python",
+      "Equations"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "GPS satellites broadcast their position and the exact time. Your phone measures how long each signal took, multiplies by the speed of light to get distances, and finds the one place that is those distances from several satellites, a method called trilateration. Timing must be precise: a one microsecond error means about 300 m. Your phone solves for its own clock error too, so it needs at least four satellites. Satellite clocks gain about 38 microseconds a day from relativity, about 11 km a day of error if uncorrected."
+  },
+  "hero": {
+    "title": "How Does GPS Work? Trilateration, Clocks and Relativity",
+    "subtitle": "Distances from timing, positions from circles, why four satellites are needed, and why Einstein matters to the blue dot on your map, with the maths done in Python.",
+    "featuredImage": {
+      "url": "/images/blog/how-does-gps-work/00-hero.png",
+      "alt": "How GPS works: three satellites sending signals down to a point on the Earth's surface"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Open a map on your phone and a blue dot shows where you are, usually to within a few metres. There is no signal from your phone to space, and the satellites do not know you exist. Your phone works out its own position by listening to satellites more than 20,000 km overhead and timing how long their signals take to arrive."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide explains how that works, step by step: distances from timing, finding a position from distances (called trilateration), why tiny clock errors matter so much, and why Einstein's relativity has to be built into the system. A short Python program does the same calculation your phone does, in two dimensions."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The satellites",
+        "id": "satellites"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Global Positioning System, run by the United States, has around 31 operational satellites orbiting at a height of about 20,180 km, each going round the Earth in just under 12 hours. They are arranged so that almost anywhere on Earth, several are above the horizon at any time. Each carries very precise atomic clocks and continuously broadcasts its position and the exact time the signal left it. Other countries run similar systems, such as Europe's Galileo, and most phones use several at once."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 1: distance from time",
+        "id": "distance"
+      },
+      {
+        "type": "paragraph",
+        "text": "Radio signals travel at the speed of light, 299,792,458 metres per second. If your phone knows when a signal left the satellite and when it arrived, it can work out the distance: distance = speed &#215; time. A signal that took 0.07 seconds came from about 21,000 km away. But this means the timing has to be astonishingly accurate:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "c = 299_792_458          # speed of light in metres per second\n\nfor name, seconds in [(\"1 nanosecond\", 1e-9), (\"1 microsecond\", 1e-6), (\"1 millisecond\", 1e-3)]:\n    print(f\"a clock error of {name:<14} -> {c * seconds:>12,.1f} m of distance error\")\n\n# satellite clocks run fast by about 38 microseconds a day (relativity)\nprint(f\"38 microseconds a day uncorrected -> {c * 38e-6 / 1000:.1f} km a day\")",
+        "title": "timing.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "a clock error of 1 nanosecond   ->          0.3 m of distance error\na clock error of 1 microsecond  ->        299.8 m of distance error\na clock error of 1 millisecond  ->    299,792.5 m of distance error\n38 microseconds a day uncorrected -> 11.4 km a day",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-does-gps-work/02-timing.png",
+        "alt": "Clock errors turned into distance: 1 nanosecond gives 0.3 metres, 1 microsecond 299.8 metres, 1 millisecond 299,792.5 metres; relativity's 38 microseconds a day would add about 11.4 km a day",
+        "caption": "Every nanosecond counts."
+      },
+      {
+        "type": "paragraph",
+        "text": "An error of just one millionth of a second puts you 299.8 m out. That is why the satellites carry atomic clocks, and why the fourth satellite in the next section matters so much."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 2: position from distances (trilateration)",
+        "id": "trilateration"
+      },
+      {
+        "type": "paragraph",
+        "text": "Knowing you are exactly 5 km from one tower does not tell you where you are: you could be anywhere on a circle of radius 5 km around it. A second distance narrows it to the two points where two circles cross. A third picks the right one. This is <strong>trilateration</strong>, and here it is in two dimensions, with three towers and a phone at a secret position:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import math\n\n# Three towers at known positions (in km) and a phone somewhere between them\ntowers = [(0, 0), (10, 0), (4, 8)]\ntrue_position = (6, 3)\ndistances = [math.dist(t, true_position) for t in towers]\nif __name__ == \"__main__\":\n    print(\"measured distances:\", \", \".join(f\"{d:.3f} km\" for d in distances))\n\ndef locate(towers, d):\n    \"\"\"Subtract the circle equations to get two straight-line equations, then solve.\"\"\"\n    (x1, y1), (x2, y2), (x3, y3) = towers\n    a1, b1 = 2 * (x2 - x1), 2 * (y2 - y1)\n    c1 = d[0]**2 - d[1]**2 - x1**2 + x2**2 - y1**2 + y2**2\n    a2, b2 = 2 * (x3 - x1), 2 * (y3 - y1)\n    c2 = d[0]**2 - d[2]**2 - x1**2 + x3**2 - y1**2 + y3**2\n    det = a1 * b2 - a2 * b1\n    return (c1 * b2 - c2 * b1) / det, (a1 * c2 - a2 * c1) / det\n\nif __name__ == \"__main__\":\n    x, y = locate(towers, distances)\n    print(f\"position found: ({x:.3f}, {y:.3f})\")",
+        "title": "trilat.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "measured distances: 6.708 km, 5.000 km, 5.385 km\nposition found: (6.000, 3.000)",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-does-gps-work/01-circles.png",
+        "alt": "Trilateration: three circles centred on three towers, with radii equal to the measured distances, all cross at the phone's position (6, 3)",
+        "caption": "One distance gives a circle. Three give a point."
+      },
+      {
+        "type": "paragraph",
+        "text": "The neat trick in <code>locate</code> is that subtracting one circle's equation from another cancels the x&#178; and y&#178; terms, leaving a straight-line equation. Two such lines give two ordinary <a href='/blog/how-to-solve-simultaneous-equations'>simultaneous equations</a>, which the last three lines solve. The program recovers the position exactly. In three dimensions, circles become spheres, but the idea is identical."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Real measurements are never perfect",
+        "id": "noise"
+      },
+      {
+        "type": "paragraph",
+        "text": "Signals are slowed slightly by the atmosphere, bounce off buildings and arrive a little late. So in practice each distance is a bit wrong. We added errors of 100 to 300 metres to the three distances:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import math\nfrom trilat import towers, true_position, distances, locate\n\nerrors = [0.2, -0.3, 0.1]                 # each distance off by a few hundred metres\nnoisy = [d + e for d, e in zip(distances, errors)]\nx, y = locate(towers, noisy)\nprint(f\"with noisy distances: ({x:.3f}, {y:.3f})\")\nprint(f\"off by {math.dist((x, y), true_position) * 1000:.0f} m\")",
+        "title": "noise.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "with noisy distances: (6.282, 2.961)\noff by 284 m",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-does-gps-work/03-noise.png",
+        "alt": "With distance errors of a few hundred metres, the three circles no longer meet at one point; the calculated position is 284 metres from the true one",
+        "caption": "Errors in the inputs become errors in the answer."
+      },
+      {
+        "type": "paragraph",
+        "text": "Now the three circles do not meet at a single point, and the calculated position is 284 m from the truth. Real receivers use more satellites than the minimum and combine all the measurements in a best-fit calculation, which averages out much of the error. That is one reason your position is usually far better than this toy example."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why the positions of the satellites matter",
+        "id": "geometry"
+      },
+      {
+        "type": "paragraph",
+        "text": "Trilateration works best when the reference points are spread out. Put the three towers in a straight line and something strange happens: a point above the line and its mirror image below it are exactly the same distances from all three."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import math\nfrom trilat import locate\n\n# Three towers in a straight line: a phone above the line and its mirror image below\ntowers = [(0, 0), (5, 0), (10, 0)]\nabove, below = (6, 3), (6, -3)\nprint(\"distances from above:\", [round(math.dist(t, above), 3) for t in towers])\nprint(\"distances from below:\", [round(math.dist(t, below), 3) for t in towers])\ntry:\n    locate(towers, [math.dist(t, above) for t in towers])\nexcept ZeroDivisionError:\n    print(\"locate() fails: the equations cannot tell the two points apart\")",
+        "title": "line.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "distances from above: [6.708, 3.162, 5.0]\ndistances from below: [6.708, 3.162, 5.0]\nlocate() fails: the equations cannot tell the two points apart",
+        "title": "Output"
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "Satellite geometry",
+        "text": "The same thing happens, more gently, with satellites. When the satellites your phone can see are bunched together in one part of the sky, small timing errors turn into much bigger position errors. When they are spread across the sky, the circles cross at sharp angles and the position is much more precise. Receivers take this into account when choosing which satellites to use."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why four satellites, not three",
+        "id": "four"
+      },
+      {
+        "type": "paragraph",
+        "text": "Your phone does not have an atomic clock. Its clock is cheap and can be off by far more than a microsecond, which on its own would ruin every distance. The solution is elegant: treat the phone's clock error as an unknown to solve for, alongside the three coordinates of your position."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-does-gps-work/04-four.png",
+        "alt": "Four unknowns in GPS: x, y and z for position and t for the phone's clock error, which is why at least four satellites are needed",
+        "caption": "The phone solves for its own clock error."
+      },
+      {
+        "type": "paragraph",
+        "text": "Four unknowns need four equations, so a receiver needs signals from at least four satellites. With four or more, it can work out both where it is and exactly what time it is. This is why GPS is also used to synchronise clocks in phone networks and power grids."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The relativity correction",
+        "id": "relativity"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the part that surprises most people. According to Einstein's theories of relativity, clocks moving fast run slow, and clocks in weaker gravity run fast. The satellites are moving at several kilometres per second, which slows their clocks, but they are far from Earth's gravity, which speeds them up more. Overall, the satellite clocks gain about 38 microseconds a day compared with clocks on the ground. From the timing table, that would add up to roughly 11.4 km of error every day if nobody corrected for it. The system is designed with the correction built in, so relativity is not just theory: it is part of every map you open."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "GPS in your phone, today",
+        "id": "today"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Several systems at once:</strong> most phones combine GPS with Galileo, GLONASS and BeiDou, so there are more satellites to use.",
+          "<strong>Help from the network:</strong> phones use nearby Wi-Fi and mobile masts to get a first rough fix quickly.",
+          "<strong>Indoors and in cities:</strong> signals are blocked or bounce off buildings, which is why the blue dot sometimes jumps around.",
+          "<strong>One-way:</strong> your phone only receives. The satellites never know you are there."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Your phone finds itself by timing light, solving simultaneous equations and allowing for relativity, many times a second."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "GPS is a good example of a principle on our <a href='/how-we-teach'>how we teach</a> page: learning by building. Coding trilateration yourself turns circles, distances and simultaneous equations into something you can see working, and students explain their thinking as they connect each step to the maths behind it. Our <a href='/online-maths-tuition'>live maths classes</a> and coding courses run one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How does GPS work in simple terms?",
+            "content": "Satellites broadcast their position and the exact time. Your phone measures how long each signal took to arrive, turns that into a distance using the speed of light, and works out where it must be to be those distances from several satellites. This is called trilateration."
+          },
+          {
+            "title": "How many satellites does GPS need?",
+            "content": "At least four. Three give your position in three dimensions, and the fourth lets the receiver correct its own clock, which is not accurate enough on its own. More satellites improve accuracy."
+          },
+          {
+            "title": "What is trilateration?",
+            "content": "Finding a position from distances to known points. One distance puts you on a circle or sphere; combining three or more narrows it down to a single point where they all meet."
+          },
+          {
+            "title": "How high are GPS satellites?",
+            "content": "About 20,180 km above the Earth, orbiting roughly twice a day. The system has around 31 operational satellites."
+          },
+          {
+            "title": "Does GPS use data or send my location?",
+            "content": "GPS itself only receives signals and sends nothing. Apps on your phone may use the location they calculate and send it over the internet, which is a separate matter."
+          },
+          {
+            "title": "Why does GPS need relativity?",
+            "content": "Because the satellite clocks gain about 38 microseconds a day relative to clocks on the ground, due to their speed and weaker gravity. Uncorrected, this would build up to around 11 km of position error per day."
+          },
+          {
+            "title": "Why is GPS less accurate indoors or in cities?",
+            "content": "Signals are blocked by roofs and walls, and in cities they bounce off buildings and arrive late, which makes the distances wrong. Phones use Wi-Fi and mobile masts to help in these places."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "how-to-solve-simultaneous-equations",
+    "pythagoras-theorem-explained",
+    "sohcahtoa-trigonometry-for-beginners"
+  ]
+}

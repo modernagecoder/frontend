@@ -288,6 +288,10 @@
       },
       {
         "type": "paragraph",
+        "text": "GPS itself works mostly with distances rather than angles: your phone times signals from several satellites and finds the one point that fits them all. Our guide to <a href='/blog/how-does-gps-work'>how GPS works</a> explains the method, called trilateration."
+      },
+      {
+        "type": "paragraph",
         "text": "If you are learning to code games, trigonometry stops being abstract very quickly. Moving a sprite 5 steps at 30&#176; means moving 5 &#215; cos 30&#176; across and 5 &#215; sin 30&#176; up."
       },
       {
