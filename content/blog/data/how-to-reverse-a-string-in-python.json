@@ -196,6 +196,10 @@
         "text": "Honest note: you would not use this in real code. Every call creates a new slice, and Python limits how deep recursive calls can go, so a very long string would crash it. But as a thinking exercise it is gold, and this style of breaking a problem into a smaller copy of itself is the foundation of the algorithms you meet later in a <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a>."
       },
       {
+        "type": "paragraph",
+        "text": "To see why Python limits recursion depth, and what the call stack looks like while a recursive function runs, read <a href='/blog/recursion-explained-for-beginners'>recursion explained for beginners</a>. It shows a real RecursionError and how to avoid one."
+      },
+      {
         "type": "heading",
         "level": 2,
         "text": "Which Method Should You Use?",

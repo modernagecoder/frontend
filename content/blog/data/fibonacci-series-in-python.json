@@ -188,6 +188,10 @@
         "text": "How much does that one cache line matter? We timed both versions computing fib(30) on an ordinary laptop while writing this post. Plain recursion took about 121 milliseconds because it makes over 2.6 million calls. The memoized version answered in well under a millisecond, thousands of times faster, because it makes just 31 real calls and remembers each one."
       },
       {
+        "type": "paragraph",
+        "text": "If the recursive version still feels like magic, <a href='/blog/recursion-explained-for-beginners'>recursion explained for beginners</a> prints every call and every return, draws the fib(5) call tree, and counts exactly how many calls plain recursion makes."
+      },
+      {
         "type": "image",
         "url": "/images/blog/fibonacci-series-in-python/03-memo-timing.png",
         "alt": "Measured timing comparison for fib(30): plain recursion versus recursion with lru_cache memoization",

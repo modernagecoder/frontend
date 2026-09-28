@@ -1,0 +1,338 @@
+{
+  "meta": {
+    "slug": "recursion-explained-for-beginners",
+    "title": "Recursion Explained for Beginners, With a Call Trace",
+    "description": "Recursion explained for beginners: base case, recursive case, the call stack traced line by line, RecursionError, memoisation, and when to use it.",
+    "keywords": [
+      "recursion explained",
+      "what is recursion",
+      "recursion in python",
+      "base case recursion",
+      "recursion for beginners",
+      "recursionerror python",
+      "recursion vs loop",
+      "call stack"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Programming",
+    "tags": [
+      "Python",
+      "Recursion",
+      "Algorithms",
+      "Beginners"
+    ],
+    "readTime": "9 min read",
+    "featured": false,
+    "tldr": "Recursion is when a function solves a problem by calling itself on a smaller version of the same problem. It needs a base case that can be answered directly, and a recursive case that moves towards it. The calls stack up until the base case is reached, then the answers are passed back up one at a time. Without a base case, Python raises a RecursionError. Recursion is ideal for tree-shaped problems like folders and menus, while plain loops are better for straight-line repetition."
+  },
+  "hero": {
+    "title": "Recursion Explained for Beginners",
+    "subtitle": "What really happens when a function calls itself: every call traced, a real crash, the hidden cost of repeated work, and where recursion is the best tool.",
+    "featuredImage": {
+      "url": "/images/blog/recursion-explained-for-beginners/00-hero.png",
+      "alt": "Recursion explained: nested calls of factorial(4) down to the base case factorial(1)"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Recursion is the moment many beginner programmers get stuck. Loops make sense: do this, then do it again. Recursion seems to ask you to trust a function that has not finished being written yet, calling itself, somehow producing an answer. Most explanations jump straight to a definition and a factorial function, and the \"how does it actually know?\" question never gets answered."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide answers it by showing what really happens. You will see a recursive function print every call as it is made and every answer as it comes back, a real crash when the base case is missing, the exact number of calls a badly written recursive function makes, and one problem where recursion is genuinely the best tool. All the code is Python, and every output shown is what the code actually printed."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "Recursion is when a function solves a problem by calling itself on a smaller version of the same problem. Every recursive function needs a base case, a version small enough to answer directly, and a recursive case that moves closer to it. The calls stack up until the base case is reached, then the answers are passed back up, one call at a time."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What recursion is",
+        "id": "what-it-is"
+      },
+      {
+        "type": "paragraph",
+        "text": "Imagine you are in a long queue and want to know your position, but you can only see the person in front of you. You ask them, \"What number are you?\" They do not know either, so they ask the person in front of them, and so on to the front. The first person says \"I am number 1\". The answer comes back down the line, each person adding one, until it reaches you. Nobody needed to see the whole queue. Each person only solved a slightly smaller version of the same question."
+      },
+      {
+        "type": "paragraph",
+        "text": "That is recursion. A recursive function handles a problem by handing a smaller version of it to another call of the same function, then doing one small piece of work with the answer it gets back."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/recursion-explained-for-beginners/01-anatomy.png",
+        "alt": "The two parts of a recursive function: the base case that returns 1, and the recursive case that calls factorial(n - 1)",
+        "caption": "Base case to stop, recursive case to shrink the problem. Both are essential."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>The base case</strong> is the version of the problem so small that you can answer it immediately, like the person at the front of the queue. For factorial, factorial(1) is simply 1.",
+          "<strong>The recursive case</strong> breaks the problem into a smaller copy of itself. factorial(4) is 4 x factorial(3), and factorial(3) is 3 x factorial(2)."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Watching recursion happen",
+        "id": "watching-it-happen"
+      },
+      {
+        "type": "paragraph",
+        "text": "The best way to understand recursion is to make it show its working. This version of factorial prints a line every time it is called and every time it returns, indented by how deep it is:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def factorial(n, depth=0):\n    indent = \"    \" * depth\n    print(f\"{indent}factorial({n}) called\")\n    if n == 1:                                   # base case: stop here\n        print(f\"{indent}factorial(1) returns 1\")\n        return 1\n    result = n * factorial(n - 1, depth + 1)     # recursive case: a smaller copy\n    print(f\"{indent}factorial({n}) returns {n} x factorial({n - 1}) = {result}\")\n    return result\n\nprint(\"answer:\", factorial(4))",
+        "title": "factorial_trace.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "factorial(4) called\n    factorial(3) called\n        factorial(2) called\n            factorial(1) called\n            factorial(1) returns 1\n        factorial(2) returns 2 x factorial(1) = 2\n    factorial(3) returns 3 x factorial(2) = 6\nfactorial(4) returns 4 x factorial(3) = 24\nanswer: 24",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/recursion-explained-for-beginners/02-call-stack.png",
+        "alt": "Call stack for factorial(4): calls go down to factorial(1), then answers return back up as 1, 2, 6 and 24",
+        "caption": "Every call waits for the one below it. The base case starts the chain of answers back up."
+      },
+      {
+        "type": "paragraph",
+        "text": "Read the output from top to bottom. The calls go <strong>down</strong>: factorial(4) cannot finish until factorial(3) does, which is waiting on factorial(2), which is waiting on factorial(1). Then factorial(1) hits the base case and returns 1, and the answers come back <strong>up</strong>: 2 x 1 = 2, then 3 x 2 = 6, then 4 x 6 = 24. Each unfinished call is kept on a structure called the <strong>call stack</strong> until the call it is waiting for returns."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "How to trace recursion in an exam",
+        "text": "Draw a box for each call, one under the other, writing the argument in each. When you reach the base case, write its answer, then work back up filling in each box using the answer from the box below. AP Computer Science A and ISC Class 12 both test exactly this skill: tracing recursive calls by hand."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What happens without a base case",
+        "id": "no-base-case"
+      },
+      {
+        "type": "paragraph",
+        "text": "Forget the base case, and the function calls itself forever. Or rather, until Python stops it. This countdown has no stopping point. Here is what really happens when you run it:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def countdown(n):\n    print(n)\n    countdown(n - 1)        # no base case, so it never stops\n\ncountdown(3)",
+        "title": "countdown.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "3\n2\n1\n0\n...\nTraceback (most recent call last):\n  File \"countdown.py\", line 5, in <module>\n    countdown(3)\n    ~~~~~~~~~^^^\n  File \"countdown.py\", line 3, in countdown\n  [... the same frames repeat hundreds of times ...]\nRecursionError: maximum recursion depth exceeded",
+        "title": "Output (shortened: the real traceback is hundreds of lines long)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every call adds a frame to the call stack, and the stack is not infinite. Python sets a limit, which on this machine is 1000 calls deep, and raises RecursionError when it is reached. Other languages crash with a \"stack overflow\", which is where the famous programming website got its name. The fix is always the same: add a base case, and make sure every call moves towards it."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def countdown(n):\n    if n == 0:              # base case\n        print(\"Lift off!\")\n        return\n    print(n)\n    countdown(n - 1)        # each call moves one step closer to the base case\n\ncountdown(3)",
+        "title": "countdown_fixed.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "3\n2\n1\nLift off!",
+        "title": "Output"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The hidden cost: repeated work",
+        "id": "repeated-work"
+      },
+      {
+        "type": "paragraph",
+        "text": "Recursion can be elegant and still be terribly slow. The classic example is the Fibonacci sequence, where each number is the sum of the two before it. The recursive definition is beautiful: fib(n) = fib(n - 1) + fib(n - 2). But look at how many calls it makes, counted by the program itself:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "calls = 0\n\ndef fib(n):\n    global calls\n    calls += 1\n    if n < 2:\n        return n\n    return fib(n - 1) + fib(n - 2)\n\nfrom functools import lru_cache\n\n@lru_cache(maxsize=None)\ndef fib_memo(n):\n    if n < 2:\n        return n\n    return fib_memo(n - 1) + fib_memo(n - 2)\n\nfor n in (10, 20, 30):\n    calls = 0\n    value = fib(n)\n    fib_memo.cache_clear()\n    assert fib_memo(n) == value\n    print(f\"fib({n}) = {value:>6}   plain recursion made {calls:>9,} calls   memoised made {fib_memo.cache_info().misses} calls\")",
+        "title": "fib_calls.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "fib(10) =     55   plain recursion made       177 calls   memoised made 11 calls\nfib(20) =   6765   plain recursion made    21,891 calls   memoised made 21 calls\nfib(30) = 832040   plain recursion made 2,692,537 calls   memoised made 31 calls",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/recursion-explained-for-beginners/03-fib-tree.png",
+        "alt": "Call tree for fib(5) showing fib(3) computed twice and fib(2) computed three times",
+        "caption": "Each branch recomputes answers another branch already found."
+      },
+      {
+        "type": "paragraph",
+        "text": "To compute fib(30), plain recursion made well over a million calls, because it keeps solving the same small problems again and again. The fix is <strong>memoisation</strong>: remember each answer the first time it is computed. Python's lru_cache does this with one line, and the call count drops to just 31. Our guide to the <a href='/blog/fibonacci-series-in-python'>Fibonacci series in Python</a> compares seven ways of writing it, with timings."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where recursion is genuinely the best tool",
+        "id": "where-it-shines"
+      },
+      {
+        "type": "paragraph",
+        "text": "If loops can do everything recursion can, why bother? Because some data is shaped like a tree, and recursion matches that shape perfectly. Folders contain files and other folders, which contain more folders. A website menu has submenus. A family tree has branches. Writing a loop for these needs you to manage your own list of \"places still to visit\". Recursion does that bookkeeping for you."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is a program that works out the size of every folder in a small file tree. The recursive idea fits in one sentence: the size of a file is its size, and the size of a folder is the total of the sizes of everything inside it."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "folder = {\n    \"notes.txt\": 12,\n    \"photos\": {\"beach.jpg\": 2400, \"party.jpg\": 1800, \"old\": {\"2019.jpg\": 900}},\n    \"school\": {\"maths.pdf\": 350, \"project\": {\"report.docx\": 120, \"data.csv\": 40}},\n}\n\ndef total_size(item):\n    if isinstance(item, int):                          # base case: a file has a size\n        return item\n    return sum(total_size(child) for child in item.values())   # a folder: add up its contents\n\ndef show(item, name=\"my folder\", depth=0):\n    print(\"    \" * depth + f\"{name}  ({total_size(item):,} KB)\")\n    if isinstance(item, dict):\n        for child_name, child in item.items():\n            show(child, child_name, depth + 1)\n\nshow(folder)",
+        "title": "folder_sizes.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "my folder  (5,622 KB)\n    notes.txt  (12 KB)\n    photos  (5,100 KB)\n        beach.jpg  (2,400 KB)\n        party.jpg  (1,800 KB)\n        old  (900 KB)\n            2019.jpg  (900 KB)\n    school  (510 KB)\n        maths.pdf  (350 KB)\n        project  (160 KB)\n            report.docx  (120 KB)\n            data.csv  (40 KB)",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice that the function never needs to know how deep the folders go. It would work unchanged on a tree ten levels deep. That is the real power of recursion, and it is why it appears everywhere in computer science: searching trees, sorting (merge sort and quicksort are both recursive), parsing code, and solving puzzles by trying possibilities one branch at a time."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Loop or recursion: how to choose",
+        "id": "loop-or-recursion"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/recursion-explained-for-beginners/04-loop-vs-recursion.png",
+        "alt": "When to use a loop and when to use recursion",
+        "caption": "Match the tool to the shape of the problem."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "",
+          "Loop",
+          "Recursion"
+        ],
+        "rows": [
+          [
+            "Best for",
+            "Straight-line repetition",
+            "Tree-shaped data and problems that split into smaller copies"
+          ],
+          [
+            "Memory",
+            "Constant",
+            "One stack frame per level of depth"
+          ],
+          [
+            "Risk",
+            "Infinite loop if the condition never changes",
+            "RecursionError if the base case is missing or too deep"
+          ],
+          [
+            "Readability",
+            "Clearer for counting and totals",
+            "Clearer for trees, nesting and divide-and-conquer"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "A good rule for beginners: if you can describe the solution as \"the answer for this is built from the answer for a smaller one\", recursion is worth trying. If you are just repeating something a known number of times, use a loop."
+      },
+      {
+        "type": "quote",
+        "text": "Recursion is not magic. It is trusting that the smaller problem will be solved, and making sure it is actually smaller.",
+        "author": "How we explain it in class"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In our classes, recursion is taught by tracing before writing: students draw the call stack for small inputs until they can predict every line of the output, then they write their own recursive functions for folders, puzzles and number problems. It is part of our <a href='/python-from-the-ground-up'>Python from the ground up</a> course and our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a>, taught live, one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is recursion in simple words?",
+            "content": "Recursion is when a function solves a problem by calling itself on a smaller version of the same problem. It keeps doing this until it reaches a version small enough to answer directly, called the base case, and then builds the full answer on the way back."
+          },
+          {
+            "title": "What is a base case in recursion?",
+            "content": "The base case is the simplest version of the problem, which the function can answer without calling itself again. It is what stops the recursion. Without a base case, the function would call itself forever, and in Python it would crash with a RecursionError."
+          },
+          {
+            "title": "What is a RecursionError in Python?",
+            "content": "It is the error Python raises when a function calls itself too many times without returning, usually because the base case is missing or never reached. Python limits how deep the call stack can go, by default around a thousand calls, to stop a program using up all its memory."
+          },
+          {
+            "title": "Is recursion faster than a loop?",
+            "content": "Usually not. Each recursive call has a small overhead and uses memory on the call stack, so an equivalent loop is often slightly faster. Recursion is chosen because it makes certain problems, especially tree-shaped ones, much simpler to write and read."
+          },
+          {
+            "title": "Why is recursive Fibonacci so slow?",
+            "content": "Because it solves the same smaller problems over and over. Computing fib(30) with plain recursion makes more than a million calls. Memoisation, which stores each answer the first time it is computed, reduces that to about thirty."
+          },
+          {
+            "title": "What is the call stack?",
+            "content": "The call stack is where a program keeps track of function calls that have started but not yet finished. In recursion, each call waits on the stack for the call it made to return, and the calls are finished in reverse order once the base case is reached."
+          },
+          {
+            "title": "Do I need recursion for exams?",
+            "content": "Often yes. AP Computer Science A, ISC Class 12 Computer Science and A level Computer Science all include recursion, usually as tracing questions where you work out what a recursive method returns. Practising by drawing the call stack is the best preparation."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "fibonacci-series-in-python",
+    "advantages-functions-python-why-every-coder-should-use-them",
+    "how-to-reverse-a-string-in-python"
+  ]
+}
