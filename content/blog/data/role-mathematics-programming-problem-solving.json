@@ -581,6 +581,10 @@
       },
       {
         "type": "paragraph",
+        "text": "Operator precedence in code is the same order of operations taught in school, so a solid grasp of <a href='/blog/bodmas-rule-explained'>the BODMAS rule</a> saves a surprising number of beginner bugs."
+      },
+      {
+        "type": "paragraph",
         "text": "<strong>What You'll Build:</strong> Simple calculators, basic games, form validators, simple data processing"
       },
       {

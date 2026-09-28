@@ -496,6 +496,10 @@
         "text": "<strong>Order of operations:</strong> Floor division has the same precedence as multiplication, division, and modulo. Operations are evaluated left to right at the same precedence level."
       },
       {
+        "type": "paragraph",
+        "text": "This is the programming version of the BODMAS rule from school maths. If the left to right part ever feels shaky, <a href='/blog/bodmas-rule-explained'>BODMAS explained</a> works through it one step at a time, with the mistakes that the acronym itself causes."
+      },
+      {
         "type": "heading",
         "level": 2,
         "text": "Frequently Asked Questions",

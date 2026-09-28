@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "slug": "bodmas-rule-explained",
+    "title": "BODMAS Rule Explained: The Left to Right Step",
+    "description": "BODMAS explained with worked examples: what each letter means, the left to right rule most people miss, PEMDAS vs BIDMAS, and why 6/2(1+2) is argued.",
+    "keywords": [
+      "bodmas rule",
+      "bodmas",
+      "what does bodmas stand for",
+      "pemdas",
+      "bidmas",
+      "order of operations",
+      "bodmas questions with answers",
+      "6/2(1+2)"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Maths",
+    "tags": [
+      "Maths",
+      "BODMAS",
+      "Order of Operations",
+      "Students"
+    ],
+    "readTime": "9 min read",
+    "featured": false,
+    "tldr": "BODMAS stands for Brackets, Orders (powers and roots), Division, Multiplication, Addition and Subtraction, and it tells you which part of a calculation to do first. It has four levels, not six: division and multiplication share a level, as do addition and subtraction, and within a level you work left to right. So 10 - 3 + 2 is 9 and 24 / 4 x 2 is 12. PEMDAS, BIDMAS and BEDMAS are the same rule under different names."
+  },
+  "hero": {
+    "title": "BODMAS Rule Explained, With Worked Examples",
+    "subtitle": "What each letter means, the left to right rule that causes most mistakes, and why 6 / 2(1 + 2) keeps going viral.",
+    "featuredImage": {
+      "url": "/images/blog/bodmas-rule-explained/00-hero.png",
+      "alt": "BODMAS rule shown as four levels: brackets, orders, division and multiplication, addition and subtraction"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "BODMAS is the rule that tells you which part of a calculation to do first. Without it, 3 + 4 x 2 could be 14 or 11 depending on who is reading. With it, everyone gets 11. It is one of the first \"rules\" children meet in maths, and one of the most commonly misunderstood, including by adults who learned it years ago."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide explains what each letter means, the one detail that causes most BODMAS mistakes, how it relates to PEMDAS and BIDMAS, and why expressions like 6 &#247; 2(1 + 2) start arguments online. Every calculation is worked through step by step, and the examples were checked by running them in Python, which follows the same rule."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "BODMAS means Brackets, Orders (powers and roots), Division and Multiplication, Addition and Subtraction. It has four levels, not six: division and multiplication share a level, and addition and subtraction share a level. Within a level, you work from left to right. So 10 - 3 + 2 is 9, not 5."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What BODMAS stands for",
+        "id": "what-it-stands-for"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>B: Brackets.</strong> Anything inside brackets is worked out first. If brackets are nested, start with the innermost.",
+          "<strong>O: Orders.</strong> Powers and roots, such as 3 squared or the square root of 16. Some teachers say \"Of\", as in \"half of 20\", which is really a multiplication.",
+          "<strong>D and M: Division and Multiplication.</strong> These are one level. Do whichever comes first, reading from left to right.",
+          "<strong>A and S: Addition and Subtraction.</strong> Also one level. Again, left to right."
+        ]
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/bodmas-rule-explained/01-names.png",
+        "alt": "BODMAS, BIDMAS, PEMDAS and BEDMAS compared, with the countries that use each and what the letters stand for",
+        "caption": "Different countries, different acronyms, identical rule."
+      },
+      {
+        "type": "paragraph",
+        "text": "If you went to school in the United States you probably learned PEMDAS (Parentheses, Exponents, Multiplication, Division, Addition, Subtraction), sometimes remembered as \"Please Excuse My Dear Aunt Sally\". In Canada it is often BEDMAS, and in the UK both BODMAS and BIDMAS (I for Indices) are common. They all describe the same rule. The different letter orders, D before M or M before D, change nothing, because those two operations share a level."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The detail that causes most mistakes: left to right",
+        "id": "left-to-right"
+      },
+      {
+        "type": "paragraph",
+        "text": "An acronym is a list, and a list suggests an order. So many students read BODMAS as six steps: first all the division, then all the multiplication, then all the addition, then all the subtraction. That reading gives wrong answers."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/bodmas-rule-explained/02-left-to-right.png",
+        "alt": "Two ways of working out 10 - 3 + 2: doing addition first gives 5, which is wrong; working left to right gives 9, which is correct",
+        "caption": "The acronym lists A before S. The rule treats them as equals."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here are two pairs that show the difference. Python follows the real rule, so its output shows the correct answers next to the answers the six-step reading would give:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "print(\"10 - 3 + 2      =\", 10 - 3 + 2)      # left to right\nprint(\"10 - (3 + 2)    =\", 10 - (3 + 2))    # what you get if + wrongly goes first\nprint(\"24 / 4 * 2      =\", 24 / 4 * 2)      # left to right\nprint(\"24 / (4 * 2)    =\", 24 / (4 * 2))    # what you get if x wrongly goes first",
+        "title": "left_to_right.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "10 - 3 + 2      = 9\n10 - (3 + 2)    = 5\n24 / 4 * 2      = 12.0\n24 / (4 * 2)    = 3.0",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "The first line of each pair is right. 10 - 3 + 2 means \"start with 10, take away 3, then add 2\", which is 9. Subtraction is really adding a negative number: 10 + (-3) + 2. Seen that way, it is obvious that the order does not matter and there is no reason to do the + first. The same goes for division and multiplication: 24 &#247; 4 x 2 is 24 x 1/4 x 2, which is 12."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "A better way to remember it",
+        "text": "Draw BODMAS as four steps, not six: B, then O, then DM together, then AS together. Write \"left to right\" next to the last two. Children who learn it this way almost never make the 10 - 3 + 2 mistake."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A worked example, one step at a time",
+        "id": "worked-example"
+      },
+      {
+        "type": "paragraph",
+        "text": "Let us work through 3 + 4 x 2&#178; - (6 - 1) &#247; 5. It has every level in it. Rather than just claim the answer, here is a short Python program that performs one operation at a time, choosing the next step using exactly the BODMAS rule, and prints the expression after each one. In Python, ** means \"to the power of\"."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import ast\n\nRANK = {ast.Pow: 3, ast.Mult: 2, ast.Div: 2, ast.Add: 1, ast.Sub: 1}\n\ndef ready(node):\n    return isinstance(node, ast.BinOp) and all(isinstance(x, ast.Constant) for x in (node.left, node.right))\n\ndef pick(tree):\n    \"\"\"Brackets first, then powers, then x and / from the left, then + and - from the left.\"\"\"\n    best = None\n    parent = {child: node for node in ast.walk(tree) for child in ast.iter_child_nodes(node)}\n    for node in ast.walk(tree):\n        if ready(node):\n            up = parent.get(node)\n            in_brackets = isinstance(up, ast.BinOp) and RANK[type(up.op)] > RANK[type(node.op)]\n            key = (-(4 if in_brackets else RANK[type(node.op)]), node.col_offset)\n            if best is None or key < best[0]:\n                best = (key, node)\n    return best[1] if best else None\n\nclass Fold(ast.NodeTransformer):\n    def __init__(self, target): self.target = target\n    def visit_BinOp(self, node):\n        self.generic_visit(node)\n        if node is self.target:\n            value = eval(compile(ast.Expression(node), \"\", \"eval\"))\n            if isinstance(value, float) and value.is_integer():\n                value = int(value)\n            return ast.copy_location(ast.Constant(value), node)\n        return node\n\ndef show_steps(expression):\n    tree = ast.parse(expression, mode=\"eval\")\n    print(expression)\n    while (node := pick(tree)) is not None:\n        tree = ast.fix_missing_locations(Fold(node).visit(tree))\n        tree = ast.parse(ast.unparse(tree), mode=\"eval\")   # re-parse so positions stay honest\n        print(\"=\", ast.unparse(tree))\n\nshow_steps(\"3 + 4 * 2 ** 2 - (6 - 1) / 5\")",
+        "title": "bodmas_steps.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "3 + 4 * 2 ** 2 - (6 - 1) / 5\n= 3 + 4 * 2 ** 2 - 5 / 5\n= 3 + 4 * 4 - 5 / 5\n= 3 + 16 - 5 / 5\n= 3 + 16 - 1\n= 19 - 1\n= 18",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/bodmas-rule-explained/03-worked.png",
+        "alt": "Step by step BODMAS evaluation of 3 + 4 x 2 squared minus (6 - 1) divided by 5, reaching 18",
+        "caption": "Brackets, then the power, then x and / from the left, then + and - from the left."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Brackets:</strong> (6 - 1) becomes 5.",
+          "<strong>Orders:</strong> 2 squared becomes 4.",
+          "<strong>Division and multiplication, left to right:</strong> 4 x 4 is 16, then 5 &#247; 5 is 1.",
+          "<strong>Addition and subtraction, left to right:</strong> 3 + 16 is 19, then 19 - 1 is 18."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Writing one line per step, as the program does, is the single best habit for avoiding BODMAS mistakes by hand. Most errors happen when a student tries to do two steps in their head at once."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why 6 &#247; 2(1 + 2) starts arguments",
+        "id": "viral-question"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every few months a picture goes viral asking for the answer to 6 &#247; 2(1 + 2), and people split between 9 and 1. Both camps are following a rule. The disagreement is about how to read the expression, not about BODMAS."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/bodmas-rule-explained/04-viral.png",
+        "alt": "The viral expression 6 divided by 2(1 + 2) read two ways: as (6 divided by 2) times 3, giving 9, or as 6 divided by (2 times 3), giving 1",
+        "caption": "Both readings are rule-following. The expression itself is the problem."
+      },
+      {
+        "type": "paragraph",
+        "text": "Under the standard rule, the brackets give 3, and then 6 &#247; 2 x 3 is worked left to right, giving 9. That is what Python gives, and it is what most modern calculators and textbooks would give too. But some people treat a number written directly against a bracket, 2(1 + 2), as a single glued-together term that should be worked out before the division. Read that way, the answer is 1. Some older textbooks and some calculators follow that convention."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "print(\"6 / 2 * (1 + 2) =\", 6 / 2 * (1 + 2))\nprint(\"6 / (2 * (1 + 2)) =\", 6 / (2 * (1 + 2)))\nprint(\"-3 ** 2 =\", -3 ** 2, \"   (the power happens before the minus sign)\")\nprint(\"(-3) ** 2 =\", (-3) ** 2)",
+        "title": "viral.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "6 / 2 * (1 + 2) = 9.0\n6 / (2 * (1 + 2)) = 1.0\n-3 ** 2 = -9    (the power happens before the minus sign)\n(-3) ** 2 = 9",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "The honest answer is that the expression is badly written. No mathematician, scientist or programmer would write it that way when it mattered. They would write (6 &#247; 2)(1 + 2) or use a fraction bar so there is nothing to argue about. That is the real lesson for students: when your own working could be read two ways, add brackets."
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "Spreadsheets do not always agree either",
+        "text": "The last two lines of the output show a related trap. In Python and in standard maths, -3 squared means -(3 squared), which is -9. In Microsoft Excel, typing =-3^2 gives 9, because Excel applies the minus sign before the power. If you use spreadsheets for schoolwork or at work, write =-(3^2) or =(-3)^2 so the meaning is clear."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BODMAS in programming",
+        "id": "in-programming"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every programming language has its own version of BODMAS, called operator precedence, and for ordinary arithmetic it matches the maths rule. That is why code written by beginners so often has too few brackets: it works most of the time, until it does not. Two differences are worth knowing early. Python uses ** for powers rather than ^, which means something else entirely. And Python has extra operators, such as // for floor division and % for remainders, that sit on the same level as multiplication and division. Our guide to <a href='/blog/what-is-floor-division-in-python'>floor division in Python</a> covers those."
+      },
+      {
+        "type": "paragraph",
+        "text": "It is one of many places where learning to code sharpens maths and the other way round, which is the idea behind <a href='/why-coding-and-maths-together'>teaching coding and maths together</a>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Practice questions with answers",
+        "id": "practice"
+      },
+      {
+        "type": "paragraph",
+        "text": "Try these without a calculator, writing one line per step. The answers below were checked by Python."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Question",
+          "Answer",
+          "Why"
+        ],
+        "rows": [
+          [
+            "8 + 2 x 5",
+            "18",
+            "Multiply before adding"
+          ],
+          [
+            "(8 + 2) x 5",
+            "50",
+            "Brackets first"
+          ],
+          [
+            "20 - 6 &#247; 3",
+            "18",
+            "Divide before subtracting"
+          ],
+          [
+            "18 &#247; 3 x 2",
+            "12",
+            "Same level, left to right"
+          ],
+          [
+            "2 + 3&#178;",
+            "11",
+            "The power before the addition"
+          ],
+          [
+            "50 - 10 - 5",
+            "35",
+            "Left to right, not 50 - 5"
+          ],
+          [
+            "4 x (6 - 2)&#178;",
+            "64",
+            "Brackets, then the power, then multiply"
+          ],
+          [
+            "100 &#247; 10 &#247; 2",
+            "5",
+            "Left to right, not 100 &#247; 5"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "If your child gets question 4, 6 or 8 wrong, they are almost certainly using the six-step reading. Go back to the four-level ladder. For more ways to build confidence with numbers, see our <a href='/blog/mental-maths-tricks-for-kids'>mental maths tricks with worked examples</a>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, students learn BODMAS as four levels with a left to right rule, write one step per line, and then check their own work, sometimes with a few lines of code. Classes are one to one or in small groups of 5 to 10, for learners from 6 to 67."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What does BODMAS stand for?",
+            "content": "Brackets, Orders, Division, Multiplication, Addition and Subtraction. Orders means powers and roots. Division and multiplication share one level, and addition and subtraction share another, so within each level you work from left to right."
+          },
+          {
+            "title": "Is it BODMAS or PEMDAS?",
+            "content": "They are the same rule with different names. PEMDAS is used mainly in the United States and stands for Parentheses, Exponents, Multiplication, Division, Addition, Subtraction. BODMAS and BIDMAS are common in India and the UK, and BEDMAS in Canada."
+          },
+          {
+            "title": "Does multiplication come before division?",
+            "content": "No. Multiplication and division have equal priority. You do whichever appears first when reading from left to right. The order of the letters in BODMAS or PEMDAS is just to make a word you can say."
+          },
+          {
+            "title": "Does addition come before subtraction?",
+            "content": "No. They also have equal priority and are worked from left to right. So 10 - 3 + 2 equals 9. Doing the addition first would give 5, which is a very common mistake."
+          },
+          {
+            "title": "What is the answer to 6 / 2(1 + 2)?",
+            "content": "Under the standard left to right rule it is 9, which is what most calculators and programming languages give. Some people read 2(1 + 2) as a single term and get 1. The expression is ambiguous as written, which is why careful writers add brackets."
+          },
+          {
+            "title": "What does the O in BODMAS mean?",
+            "content": "Usually Orders, meaning powers such as squares and cubes, and roots such as square roots. Some teachers explain it as Of, as in half of 10, which is a multiplication. BIDMAS uses I for Indices, which means the same as Orders."
+          },
+          {
+            "title": "Why do we need an order of operations?",
+            "content": "So that a written calculation has exactly one meaning. Without an agreed rule, 3 + 4 x 2 could be 14 or 11 depending on the reader. Scientists, engineers, calculators and programming languages all rely on the same convention."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "mental-maths-tricks-for-kids",
+    "floor-divisionjs",
+    "role-mathematics-programming-problem-solving"
+  ]
+}
