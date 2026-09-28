@@ -129,8 +129,92 @@ function sweep(slug, html) {
     [/One free trial settles/g, 'One Priority Demo settles'],
     [/That is what the free trial reads/g, 'That is what a Priority Demo reads'],
     [/ The diagnostic demo is free, no card needed\./g, ''],
+    // pass 3: variants found by the leftover inventory
+    [/<button type="button" class="([^"]*)" onclick="openCallbackModal\(\)">Get the free placement demo<\/button>/g, `<a class="$1" href="/priority-demo" data-pd-book="mp-${slug}">Book a Priority Demo</a>`],
+    [/<strong>USD 150 a month<\/strong>, eight live (lessons|sessions|classes)(?:, two a week)?/g, 'Live one-hour $1, billed monthly (<a href="#pricing">see the plans in your currency</a>)'],
+    [/Pricing is USD 150 per month for eight 1:1 lessons, or USD 100 per month in a small group\. The first lesson is free\./g, 'The monthly plans for 1-on-1 and small-group lessons are shown in your currency in the pricing section, and you can see a full class first with a Priority Demo.'],
+    [/Pricing is USD 150 per month for eight 1:1 (?:sessions|lessons), lessons run in Gulf Standard Time(?:,)? and the first (?:session|lesson) is free\./g,
+      'Lessons run in Gulf Standard Time, the monthly plans are shown in your currency in the pricing section, and you can see a full class first with a Priority Demo.'],
+    [/Lessons run in Gulf Standard Time and the first lesson is free\./g, 'Lessons run in Gulf Standard Time, and you can see a full class first with a Priority Demo.'],
+    [/(?:, )?(?:and )?pay USD 150 per month for eight 1:1 lessons, typically well below/g, ' and pay a monthly fee typically well below'],
+    [/ for eight 1:1 lessons\. Lessons run in Gulf/g, '. Lessons run in Gulf'],
+    [/one flat fee, and the first lesson is free\./g, 'one flat fee, and you can see a full class first with a Priority Demo.'],
+    [/The first class is a free live demo with the actual teacher, no card needed\./g, 'You can see a full class first with a Priority Demo, taught by the actual teacher.'],
+    [/(\w+) class, a full live demo with the actual teacher, is free and needs no card\./g, '$1 step can be a Priority Demo: a full live class with the actual teacher.'],
+    [/, and every student starts with a free demo class\./g, '. To see a class first, book a Priority Demo.'],
+    [/Modern Age Coders<\/th>(\s*)<td>USD \$100-\$150 \/ month(?: \(&asymp; [A-Z]{1,2}\$\d+-\$\d+\))?(?:, billed in USD)?<\/td>(\s*)<td>8 live one-hour 1-on-1 classes/g,
+      'Modern Age Coders</th>$1<td><span data-price="maths.international.group">$100</span>-<span data-price="maths.international.personal">$150</span> / month</td>$2<td>Live one-hour 1-on-1 classes'],
+    [/(?:with one dedicated mentor|mentor) for \$100-\$150(?: a month)?/g, (m) => m.replace(/ for \$100-\$150(?: a month)?/, ' at our regular monthly fee')],
+    [/teaching for \$100-\$150 a month/g, 'teaching at our regular monthly fee'],
+    [/\b[Aa] free demo(?: class)? doubles as/g, 'A Priority Demo doubles as'],
+    [/\b(?:[Tt])he free demo(?: class)? (doubles as|exists so)/g, 'The Priority Demo $1'],
+    [/our free demo answers it/g, 'a Priority Demo answers it'],
+    [/the entry point in the free demo/g, 'the entry point in the Priority Demo'],
+    [/, and no card details are required\./g, '.'],
+    [/, the free demo doubles as/g, ', the Priority Demo doubles as'],
   ];
-  for (const [re, rep] of PHRASES) h = count('p2', h, h.replace(re, rep));
+  // pass 4: plain phrases that may carry <strong>/<em> tags or line breaks between words
+  const T = '(?:\\s|</?(?:strong|em)>)+';
+  const P = (phrase) => new RegExp(phrase.split(' ').map((w) => escRe(w)).join(T), 'g');
+  const PD_LINK = `<a href="/priority-demo" data-pd-book="mp-${slug}">Priority Demo</a>`;
+  const TEXT = [
+    [P('start with the free demo class'), 'start with a <strong>Priority Demo</strong>'],
+    [P('Pricing is USD 150 per month for eight 1:1 lessons, or USD 100 per month in a small group. The first lesson is free.'), 'The monthly plans for 1-on-1 and small-group lessons are shown in your currency in the <a href="#pricing">pricing section</a>, and you can see a full class first with a Priority Demo.'],
+    [new RegExp(P('Pricing is USD 150 per month for eight 1:1').source + T + '(?:sessions|lessons),' + T + P('lessons run in Gulf Standard Time, and the first').source + T + '(?:session|lesson|class)' + T + 'is' + T + 'free\\.', 'g'),
+      'Lessons run in Gulf Standard Time, the monthly plans are shown in your currency in the <a href="#pricing">pricing section</a>, and you can see a full class first with a Priority Demo.'],
+    [P('the price is USD 150 per month .'), 'the price is one flat monthly fee (<a href="#pricing">see it in your currency</a>).'],
+    [P('the price is USD 150 per month.'), 'the price is one flat monthly fee (<a href="#pricing">see it in your currency</a>).'],
+    [P('pay USD 150 per month for eight 1:1 lessons, typically well below'), 'pay one monthly fee, typically well below'],
+    [P('USD 150 per month for eight 1:1 lessons, typically well below'), 'one flat monthly fee, typically well below'],
+    [P('Our 1-on-1 is USD $150 a month, not because'), 'Our 1-on-1 plan costs less, not because'],
+    [P('a month of eight live classes costs $100 in a small group or $150 fully 1-on-1,'), 'a month of eight live classes costs'],
+    [P('Eight full hours for $100-$150 changes the decision entirely.'), 'Eight full hours for one monthly fee changes the decision entirely.'],
+    [P('from $100 for the month.'), 'for one monthly fee.'],
+    [P('at $100 a month each.'), 'at the small-group monthly fee each.'],
+    [P('That is $12.50 per dedicated 1-on-1 hour,'), `That is <span data-price="coding.international.personal" data-price-derive="perClass">$12.50</span> per dedicated 1-on-1 hour,`],
+    [P('The free demo starts this.'), 'The Priority Demo starts this.'],
+    [P('the free demo reads which case is yours.'), 'a Priority Demo reads which case is yours.'],
+    [P('The free demo lets you watch it happen.'), 'A Priority Demo lets you watch it happen.'],
+    [P('That is the point of the free demo.'), 'That is the point of a Priority Demo.'],
+    [P('the free demo class will show you'), 'a Priority Demo will show you'],
+    [P('One free demo class, at a Singapore evening hour, shows you'), 'One Priority Demo, at a Singapore evening hour, shows you'],
+    [P('The free diagnostic demo maps'), 'The Priority Demo maps'],
+    [P('with a free demo class first.'), 'with a Priority Demo first.'],
+    [P('Free trial class first, always:'), 'A Priority Demo first, always:'],
+    [P('Free trial class first:'), 'A Priority Demo first:'],
+    [P('Book the free trial.'), 'Book a Priority Demo.'],
+    [P('Book the free trial:'), 'Book a Priority Demo:'],
+    [P('Book a free trial session.'), 'Book a Priority Demo.'],
+    [P('Book a free trial lesson.'), 'Book a Priority Demo.'],
+    [P('or the free trial class ,'), `or a ${PD_LINK},`],
+    [P('or the free trial class,'), `or a ${PD_LINK},`],
+    [P('The free demo A real class, a track placement, and your questions answered, no card, no commitment,'), 'The Priority Demo A real class, a track placement, and your questions answered, no commitment,'],
+    [P('A free trial with an honest placement read,'), 'A Priority Demo with an honest placement read,'],
+    [P('One real hour, an honest placement read, no card details,'), 'One real hour, an honest placement read,'],
+    [P('no card needed before you decide.'), 'nothing to pay before you decide to enrol.'],
+    [P('Every child starts with a free live demo class that doubles as the placement'), 'A Priority Demo doubles as the placement'],
+    [P('to set up the free class.'), 'to answer your questions.'],
+    [/<span class="v">Free<\/span><span class="l">Diagnostic demo, no card<\/span>/g, '<span class="v">45-60 min</span><span class="l">Priority Demo, today or tomorrow</span>'],
+    [/<a class="mp-link-card" href="\/free-trial"><span class="k">([^<]*)<\/span><span class="t">The Free Trial Class<\/span><\/a>/g, '<a class="mp-link-card" href="/priority-demo"><span class="k">$1</span><span class="t">The Priority Demo</span></a>'],
+    [/<a class="mp-link-card" href="\/free-trial"><span class="k">([^<]*)<\/span><span class="t">The Free Trial Class<\/span>/g, '<a class="mp-link-card" href="/priority-demo"><span class="k">$1</span><span class="t">The Priority Demo</span>'],
+    [P('Before camp &middot; The free demo'), 'Before camp &middot; The Priority Demo'],
+    // pass 5: the last one-offs
+    [/<td class="us">USD \$100-\$150 \/ month(?: \(&asymp; [A-Z]{1,2}\$\d+-\$\d+\))?<\/td><td class="us">8 live one-hour 1-on-1 classes/g,
+      '<td class="us"><span data-price="maths.international.group">$100</span>-<span data-price="maths.international.personal">$150</span> / month</td><td class="us">Live one-hour 1-on-1 classes'],
+    [/<td class="us">\$100-\$150 \/ month, billed in USD<\/td>/g, '<td class="us"><span data-price="coding.international.group">$100</span>-<span data-price="coding.international.personal">$150</span> / month</td>'],
+    [/<p class="price"><strong>\$100<\/strong>\/mo group &middot; <strong>\$150<\/strong>\/mo 1-on-1<\/p>/g,
+      '<p class="price"><strong data-price="coding.international.group">$100</strong>/mo group &middot; <strong data-price="coding.international.personal">$150</strong>/mo 1-on-1</p>'],
+    [P('no card, no commitment,'), 'no commitment,'],
+    [P(', free demo class first, and'), ', Priority Demo first, and'],
+    [P('Our free demo answers it'), 'A Priority Demo answers it'],
+  ];
+  for (const [re, rep] of TEXT) h = count('p4', h, h.replace(re, rep));
+
+  for (const [re, rep] of PHRASES) {
+    // prose in these files wraps lines: let every literal space match any whitespace run
+    const tolerant = new RegExp(re.source.replace(/(?<!\\) /g, '\\s+'), re.flags);
+    h = count('p2', h, h.replace(tolerant, rep));
+  }
   // meta / og descriptions: no fee, no free-trial promise in the snippet
   h = count('meta', h, h.replace(/(<meta (?:name="description"|property="og:description"|name="twitter:description") content=")([^"]*)(")/g, (m, a, c, z) =>
     a + c.replace(/ USD 150\/month, 8 classes\. Book a free trial\./, ' Book a Priority Demo.').replace(/ 8 classes a month from USD 100\./, ' 8 classes a month.')
