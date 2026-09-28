@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "slug": "how-does-file-compression-work",
+    "title": "How Does File Compression Work? RLE and Huffman in Python",
+    "description": "How compression works: build run-length encoding and Huffman coding in Python, measure zlib on real data, and see why random data won't shrink.",
+    "keywords": [
+      "how does file compression work",
+      "huffman coding",
+      "run length encoding",
+      "lossless vs lossy compression",
+      "how does zip work",
+      "huffman coding python",
+      "why can't random data be compressed"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Programming",
+    "tags": [
+      "Computer Science",
+      "Algorithms",
+      "Python",
+      "Compression"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "Compression finds patterns in data and describes them more briefly. Run-length encoding stores runs as a count and a value, great for long runs but it can double the size of changing data. Huffman coding gives common characters short codes: abracadabra fits in 23 bits instead of 88. zlib, inside zip and PNG, shrank Python source code to about a quarter of its size, but random bytes came out slightly bigger. A counting argument proves no lossless compressor can shrink every file."
+  },
+  "hero": {
+    "title": "How Does File Compression Work? RLE and Huffman in Python",
+    "subtitle": "Build two classic compression methods, measure real zlib compression on three kinds of data, and see the counting argument that proves some files can never be made smaller.",
+    "featuredImage": {
+      "url": "/images/blog/how-does-file-compression-work/00-hero.png",
+      "alt": "How file compression works: a large block of data squeezed into a smaller one"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Zip a folder and it gets smaller. Unzip it and every file comes back exactly as it was, down to the last bit. That seems impossible at first: how can you store the same information in less space? The answer is that most files are full of patterns and repetition, and compression is the art of describing those patterns more briefly."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide builds two classic compression methods in Python, run-length encoding and Huffman coding, then measures real compression with zlib, the method inside zip files and PNG images. It ends with a simple counting argument that proves no compressor can shrink every file, which explains why some files barely compress at all."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The core idea: say it more briefly",
+        "id": "idea"
+      },
+      {
+        "type": "paragraph",
+        "text": "If someone asked you to read out a row of 12 white squares, 3 black and 12 white, you would not say \"white, white, white...\" 27 times. You would say \"12 white, 3 black, 12 white\". That is compression. It works whenever data has a pattern you can describe in fewer symbols than the data itself."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Lossless</strong> compression, the subject of this post, gives back exactly the original: zip files, PNG images and most document formats work this way. <strong>Lossy</strong> compression, like JPEG photos and streaming video, throws away detail you are unlikely to notice. Our guide to <a href='/blog/how-do-computers-store-images'>how computers store images</a> compares the two with real measurements."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Method 1: run-length encoding",
+        "id": "rle"
+      },
+      {
+        "type": "paragraph",
+        "text": "Run-length encoding (RLE) replaces each run of repeated characters with a count and the character. It is one of the simplest compression methods, and it was used in early image formats and fax machines, where pages are mostly long runs of white."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def rle_encode(text):\n    \"\"\"Run-length encoding: WWWWBBB becomes 4W3B.\"\"\"\n    out, i = \"\", 0\n    while i < len(text):\n        run = 1\n        while i + run < len(text) and text[i + run] == text[i]:\n            run += 1\n        out += f\"{run}{text[i]}\"\n        i += run\n    return out\n\nfor row in [\"WWWWWWWWWWWWBBBWWWWWWWWWWWW\", \"WBWBWBWBWBWB\", \"hello world\"]:\n    packed = rle_encode(row)\n    print(f\"{row:<28} -> {packed:<26} {len(row):>2} chars -> {len(packed):>2}\")",
+        "title": "rle.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "WWWWWWWWWWWWBBBWWWWWWWWWWWW  -> 12W3B12W                   27 chars ->  8\nWBWBWBWBWBWB                 -> 1W1B1W1B1W1B1W1B1W1B1W1B   12 chars -> 24\nhello world                  -> 1h1e2l1o1 1w1o1r1l1d       11 chars -> 20",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-does-file-compression-work/01-rle.png",
+        "alt": "Run-length encoding: a row of 12 white, 3 black and 12 white squares becomes 12W3B12W, shrinking 27 characters to 8; an alternating row becomes 1W1B1W1B1W1B1W1B1W1B1W1B, growing from 12 to 24",
+        "caption": "RLE is brilliant for long runs and terrible for constant change."
+      },
+      {
+        "type": "paragraph",
+        "text": "The pixel row shrank from 27 characters to 8. But the alternating row doubled from 12 to 24, and ordinary text like \"hello world\" nearly doubled too, because it has almost no runs. That is the first lesson of compression: every method is built around a particular kind of pattern, and it can make other data bigger."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Method 2: Huffman coding",
+        "id": "huffman"
+      },
+      {
+        "type": "paragraph",
+        "text": "Normal text uses 8 bits for every character, whether it is a common letter like e or a rare one like z. In 1952, David Huffman, then a student at MIT, published a way to build the best possible codes of this kind: give the most common characters the shortest codes and the rarest the longest. The algorithm repeatedly merges the two rarest groups of characters, adding a 0 to one side and a 1 to the other:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import heapq\nfrom collections import Counter\n\ndef huffman_codes(text):\n    # Start with one leaf per character, weighted by how often it appears\n    heap = [(count, i, {ch: \"\"}) for i, (ch, count) in enumerate(Counter(text).items())]\n    heapq.heapify(heap)\n    tiebreak = len(heap)\n    # Repeatedly merge the two rarest groups; one side gets a 0, the other a 1\n    while len(heap) > 1:\n        c1, _, left = heapq.heappop(heap)\n        c2, _, right = heapq.heappop(heap)\n        merged = {ch: \"0\" + code for ch, code in left.items()}\n        merged.update({ch: \"1\" + code for ch, code in right.items()})\n        heapq.heappush(heap, (c1 + c2, tiebreak, merged))\n        tiebreak += 1\n    return heap[0][2]\n\ntext = \"abracadabra\"\ncodes = huffman_codes(text)\nfor ch, count in Counter(text).most_common():\n    print(f\"'{ch}' appears {count} time{'s' if count > 1 else ''} -> code {codes[ch]}\")\n\nbits = \"\".join(codes[ch] for ch in text)\nprint(f\"compressed: {bits} ({len(bits)} bits)\")\nprint(f\"plain 8-bit text: {len(text) * 8} bits\")\n\ndecode = {v: k for k, v in codes.items()}\nout, buf = \"\", \"\"\nfor b in bits:\n    buf += b\n    if buf in decode:\n        out, buf = out + decode[buf], \"\"\nprint(\"decoded back:\", out)",
+        "title": "huffman.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "'a' appears 5 times -> code 0\n'b' appears 2 times -> code 110\n'r' appears 2 times -> code 111\n'c' appears 1 time -> code 100\n'd' appears 1 time -> code 101\ncompressed: 01101110100010101101110 (23 bits)\nplain 8-bit text: 88 bits\ndecoded back: abracadabra",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-does-file-compression-work/02-huffman.png",
+        "alt": "Huffman codes for abracadabra: a appears 5 times and gets a 1-bit code, b and r 2 times with 3-bit codes, c and d once with 3-bit codes; the word takes 23 bits instead of 88",
+        "caption": "Common letters get short codes, rare letters get long ones."
+      },
+      {
+        "type": "paragraph",
+        "text": "The letter a, which appears 5 times, gets a 1-bit code. The rarer letters get 3-bit codes. \"abracadabra\" fits in 23 bits instead of 88, and the decoder gets every letter back. There is a clever detail that makes decoding possible: no code is the beginning of another code, so the decoder always knows where one letter ends and the next begins. This is called a <strong>prefix code</strong>."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "Morse code had the same idea",
+        "text": "Morse code gives E, the most common letter in English, a single dot, and rare letters like Q and J longer patterns. Huffman coding is the same principle, worked out so the codes are as short as they can possibly be."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Real compression: zlib",
+        "id": "zlib"
+      },
+      {
+        "type": "paragraph",
+        "text": "Real tools combine several ideas. zlib uses a method called DEFLATE, which first replaces repeated sequences with short references back to where they appeared earlier, then Huffman-codes the result. It is the method inside zip files and PNG images, and it is built into Python. We measured it on three very different kinds of data:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import random, sysconfig, zlib, pathlib\n\nsamples = {\n    \"Python source code\": pathlib.Path(sysconfig.get_paths()[\"stdlib\"], \"os.py\").read_bytes(),\n    \"the same line 2,000 times\": b\"The quick brown fox jumps over the lazy dog.\\n\" * 2000,\n    \"random bytes\": random.Random(42).randbytes(100_000),\n}\nfor name, data in samples.items():\n    packed = zlib.compress(data, 9)\n    assert zlib.decompress(packed) == data          # lossless: exactly the same back\n    print(f\"{name:<26} {len(data):>7,} -> {len(packed):>6,} bytes  ({len(packed) / len(data):.2%} of original)\")",
+        "title": "zlib_test.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Python source code          42,811 -> 11,322 bytes  (26.45% of original)\nthe same line 2,000 times   90,000 ->    333 bytes  (0.37% of original)\nrandom bytes               100,000 -> 100,041 bytes  (100.04% of original)",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-does-file-compression-work/03-zlib.png",
+        "alt": "zlib compression results: Python source code shrank to 26.45 percent of its size, a repeated line to 0.37 percent, and random bytes came out at 100.04 percent, slightly bigger",
+        "caption": "Measured with Python's zlib at its highest setting."
+      },
+      {
+        "type": "paragraph",
+        "text": "Python's own <code>os.py</code> source code shrank to 26.45% of its size, because code repeats words like <code>def</code>, <code>return</code> and variable names constantly. The same line repeated 2,000 times collapsed to 0.37%: after the first copy, everything else is \"repeat that again\". But 100,000 random bytes came out at 100.04%, slightly <em>bigger</em> than the original. Random data has no patterns to exploit, and the compressed format adds a little bookkeeping."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why no compressor can shrink everything",
+        "id": "limit"
+      },
+      {
+        "type": "paragraph",
+        "text": "Could a cleverer program compress random data too? No, and the proof is a simple counting argument:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# Why no compressor can shrink every file: count the possibilities\nn = 8\nfiles_of_n_bits = 2 ** n\nshorter_files = sum(2 ** k for k in range(n))      # every length from 0 to n - 1 bits\nprint(f\"files exactly {n} bits long: {files_of_n_bits}\")\nprint(f\"all possible shorter files:  {shorter_files}\")\nprint(\"so at least two files would have to share a compressed version\")",
+        "title": "counting.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "files exactly 8 bits long: 256\nall possible shorter files:  255\nso at least two files would have to share a compressed version",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-does-file-compression-work/04-limit.png",
+        "alt": "There are 256 different 8-bit files but only 255 possible shorter files, so no lossless compressor can make every 8-bit file shorter",
+        "caption": "The same counting works for files of any length."
+      },
+      {
+        "type": "paragraph",
+        "text": "There are 256 different files exactly 8 bits long, but only 255 possible files that are shorter, even counting every length from 0 bits upwards. If a compressor made every 8-bit file shorter, at least two would have to end up as the same compressed file, and then it could not know which one to give back. This is the <a href='/blog/pigeonhole-principle-explained'>pigeonhole principle</a> at work, and the same argument works for files of any size. Every lossless compressor must make some files bigger. The good ones only shrink files with patterns, which is almost every file people actually use."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where you meet compression every day",
+        "id": "everyday"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Zip files</strong> and most software downloads: lossless, usually DEFLATE or newer methods.",
+          "<strong>PNG images:</strong> lossless, with zlib inside. JPEG photos are lossy.",
+          "<strong>Web pages:</strong> servers usually compress text before sending it, and your browser unpacks it, which makes pages load faster.",
+          "<strong>Music and video streaming:</strong> lossy, carefully discarding what ears and eyes are least likely to notice."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "A good exercise after reading this: compress a file you already compressed. It barely changes, because the patterns are already gone, which is the counting argument in action. The idea connects closely to <a href='/blog/binary-numbers-explained'>binary</a> and to <a href='/blog/how-does-encryption-work'>encryption</a>, where good output is designed to look like pattern-free noise."
+      },
+      {
+        "type": "quote",
+        "text": "Compression is finding the pattern and describing it once. Where there is no pattern, there is nothing to compress."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Compression is a good fit for two principles on our <a href='/how-we-teach'>how we teach</a> page. Learning by building: a working Huffman coder teaches dictionaries and priority queues better than any definition. And tracing code line by line until every step can be predicted, which is how the merge-the-two-rarest step becomes clear. Our <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> runs one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How does file compression work?",
+            "content": "It finds patterns and repetition in data and describes them more briefly, for example replacing a run of identical values with a count, or giving common characters shorter codes. Lossless compression lets you get back exactly the original data."
+          },
+          {
+            "title": "What is the difference between lossless and lossy compression?",
+            "content": "Lossless compression, used in zip files and PNG images, restores every bit of the original. Lossy compression, used in JPEG photos and streaming video, discards detail people are unlikely to notice, which makes files much smaller but not identical."
+          },
+          {
+            "title": "What is Huffman coding?",
+            "content": "A method that gives each character a code whose length depends on how often it appears: common characters get short codes and rare ones long codes. It was published by David Huffman in 1952 and is still used inside zip and PNG compression."
+          },
+          {
+            "title": "What is run-length encoding?",
+            "content": "It replaces runs of the same value with a count and the value, so WWWWBBB becomes 4W3B. It works very well for data with long runs, such as simple images, and badly for data that changes constantly."
+          },
+          {
+            "title": "Why can't you compress a zip file again?",
+            "content": "Because compression has already removed the patterns. What is left looks close to random, and random data cannot be made smaller; compressing it again usually makes it very slightly bigger."
+          },
+          {
+            "title": "Can any file be compressed?",
+            "content": "No. A counting argument shows that no lossless method can make every file smaller: there are more files of a given length than there are shorter files. Compressors only shrink files that contain patterns."
+          },
+          {
+            "title": "Is compression a good topic for learning to code?",
+            "content": "Yes. Run-length encoding is a good early exercise with loops and strings, and Huffman coding is a satisfying intermediate project using dictionaries and a priority queue. Both appear in computer science syllabuses."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "how-do-computers-store-images",
+    "pigeonhole-principle-explained",
+    "binary-numbers-explained"
+  ]
+}

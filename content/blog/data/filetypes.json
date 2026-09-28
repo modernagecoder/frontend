@@ -67,6 +67,10 @@
       },
       {
         "type": "paragraph",
+        "text": "Compressed files such as zip archives are binary files too. If you are curious how they store the same data in less space, our guide to <a href='/blog/how-does-file-compression-work'>how file compression works</a> builds two classic methods in Python."
+      },
+      {
+        "type": "paragraph",
         "text": "File extensions (.txt, .csv, .json) tell you the type. Understanding <a href='https://learn.modernagecoders.com/blog/file-organization-in-python' target='_blank' rel='noopener noreferrer'>how to organize different file types in your Python projects</a> keeps your code clean and maintainable."
       },
       {

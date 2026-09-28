@@ -476,6 +476,10 @@
       },
       {
         "type": "paragraph",
+        "text": "When large files need to be stored or sent, compression often helps as well. Python's built-in zlib module can shrink typical text and source code to around a quarter of its size, as our guide to <a href='/blog/how-does-file-compression-work'>how file compression works</a> measures."
+      },
+      {
+        "type": "paragraph",
         "text": "<strong>Handle errors gracefully:</strong>"
       },
       {
