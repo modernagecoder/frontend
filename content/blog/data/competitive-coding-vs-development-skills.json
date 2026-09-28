@@ -612,6 +612,10 @@
         "text": "Projects demonstrate that you can build things, not just solve puzzles. A GitHub portfolio with real, deployed applications speaks louder than a LeetCode rating for many employers, especially startups. 68% of startup CTOs say they weight portfolio projects more heavily than algorithm test scores."
       },
       {
+        "type": "paragraph",
+        "text": "New to version control? Our explainer on <a href='/blog/git-vs-github-difference'>the difference between Git and GitHub</a> covers commits, branches and pushing to a remote, using a real session rather than diagrams alone."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "3. Broader, More Transferable Skill Set"

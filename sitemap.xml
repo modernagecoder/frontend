@@ -3520,6 +3520,13 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/git-vs-github-difference</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Legal Pages -->
   <url>
     <loc>https://learn.modernagecoders.com/terms</loc>

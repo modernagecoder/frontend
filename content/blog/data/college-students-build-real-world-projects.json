@@ -57,6 +57,10 @@
       },
       {
         "type": "paragraph",
+        "text": "If \"put it on GitHub\" still sounds vague, start with <a href='/blog/git-vs-github-difference'>Git vs GitHub</a>. It walks through a real Git session, with the exact output, and shows the point where your laptop's history becomes a public project."
+      },
+      {
+        "type": "paragraph",
         "text": "But you're also juggling classes, assignments, exams, and maybe a social life. How do you find time to build projects on top of everything else? This comprehensive guide will show you exactly how, with 50+ project ideas organized by difficulty, detailed GitHub strategies, portfolio optimization techniques, and a realistic approach to balancing it all."
       },
       {

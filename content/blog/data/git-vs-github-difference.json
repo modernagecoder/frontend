@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "slug": "git-vs-github-difference",
+    "title": "Git vs GitHub: The Difference, With a Real Session",
+    "description": "Git vs GitHub explained: Git tracks versions on your computer, GitHub hosts them online. See a real Git session, branches, and where GitHub fits in.",
+    "keywords": [
+      "git vs github",
+      "difference between git and github",
+      "what is git",
+      "what is github",
+      "git and github for beginners",
+      "git commit vs push",
+      "can i use git without github"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Programming",
+    "tags": [
+      "Git",
+      "GitHub",
+      "Version Control",
+      "Beginners"
+    ],
+    "readTime": "9 min read",
+    "featured": false,
+    "tldr": "Git is free, open-source version control software that runs on your own computer, works offline, and records every version of a project through commits, branches and merges. GitHub is a website, owned by Microsoft since 2018, that hosts Git repositories online and adds pull requests, issues, automation and a public profile. A GitHub repository is simply a remote: another copy of your Git repository that you push to and pull from. You can use Git without GitHub, but GitHub is built around Git."
+  },
+  "hero": {
+    "title": "Git vs GitHub: What Is the Difference?",
+    "subtitle": "Git is a tool on your computer. GitHub is a website that stores what it makes. Here is a real Git session, with real output, showing exactly where one ends and the other begins.",
+    "featuredImage": {
+      "url": "/images/blog/git-vs-github-difference/00-hero.png",
+      "alt": "Git vs GitHub: Git on your laptop saves versions, GitHub on the internet hosts them, connected by git push and git pull"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you are new to coding, you will hear \"Git\" and \"GitHub\" in the same sentence so often that they start to sound like one thing. They are not. Mixing them up is one of the most common beginner confusions, and it causes real problems: people think they need an internet connection to save versions of their work, or that uploading files on the GitHub website is the same as using Git."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the one-line answer, then the proper explanation. <strong>Git is a tool on your computer that records every version of a project. GitHub is a website that stores Git projects online and adds tools for sharing and working together.</strong> Below you will see a real Git session, run on a real project, with the exact output it produced, and the point where GitHub enters the picture."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "Git is free, open-source version control software that runs on your own computer and works offline. GitHub is an online service, owned by Microsoft, that hosts Git repositories and adds pull requests, issues, automation and a public profile. You can use Git without GitHub. GitHub is built around Git."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Git and GitHub side by side",
+        "id": "side-by-side"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/git-vs-github-difference/01-compare.png",
+        "alt": "Comparison table of Git and GitHub: what each is, where it runs, whether it needs internet, who made it, and alternatives",
+        "caption": "Git is the engine. GitHub is one of several places to park what it builds."
+      },
+      {
+        "type": "paragraph",
+        "text": "A useful analogy: Git is like a camera that takes a snapshot of your whole project every time you ask it to, and remembers every snapshot forever. GitHub is like an online photo album where you can store those snapshots, share them, and let other people suggest edits. You can take photos without ever uploading them. And the album is only useful because a camera made the photos."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "",
+          "Git",
+          "GitHub"
+        ],
+        "rows": [
+          [
+            "Type",
+            "Software you install",
+            "Website and cloud service"
+          ],
+          [
+            "Works offline",
+            "Yes, completely",
+            "No"
+          ],
+          [
+            "Created",
+            "2005, by Linus Torvalds for the Linux kernel",
+            "2008, acquired by Microsoft in 2018"
+          ],
+          [
+            "Cost",
+            "Free and open source",
+            "Free plan, with paid plans for teams"
+          ],
+          [
+            "Main job",
+            "Track changes, branch, merge, undo",
+            "Host repositories, review code, collaborate"
+          ],
+          [
+            "Can you use one without the other?",
+            "Yes, many teams use GitLab or Bitbucket instead",
+            "Only in a limited way, through the web editor"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What Git actually does, shown with a real session",
+        "id": "what-git-does"
+      },
+      {
+        "type": "paragraph",
+        "text": "The easiest way to understand Git is to watch it work. The commands below were run on a tiny quiz program, in a fresh folder, and the output is exactly what Git printed. There is no GitHub anywhere in this part, and no internet connection is needed."
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "$ git init --quiet\n$ git status --short\n?? quiz.py\n$ git add quiz.py\n$ git commit -m \"Add first question\"\n[main (root-commit) bdfa4db] Add first question\n 1 file changed, 1 insertion(+)\n create mode 100644 quiz.py\n$ git commit -am \"Add second question\"\n[main 08722c1] Add second question\n 1 file changed, 1 insertion(+)\n$ git log --oneline\n08722c1 Add second question\nbdfa4db Add first question",
+        "title": "Terminal: saving versions with Git"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is what just happened, line by line:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>git init</strong> turned an ordinary folder into a Git repository. Git creates a hidden .git folder where it keeps the entire history.",
+          "<strong>git status</strong> showed ?? next to quiz.py, meaning Git can see the file but is not tracking it yet.",
+          "<strong>git add</strong> picked the file for the next snapshot. This middle step, called staging, lets you choose exactly which changes go into each save.",
+          "<strong>git commit</strong> took the snapshot and gave it an ID, bdfa4db. The -am version on the second commit stages and commits changed files in one go.",
+          "<strong>git log</strong> listed the history, newest first. Every one of those snapshots can be restored at any time."
+        ]
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/git-vs-github-difference/02-four-places.png",
+        "alt": "Four places code lives in Git: working folder, staging area, local repository and the remote on GitHub, with git add, git commit and git push between them",
+        "caption": "Only the last arrow needs GitHub, or the internet."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Commit little and often",
+        "text": "A good commit is one small, complete change with a message that says what it does, like \"Add second question\". Future you will search these messages when something breaks. \"Updated stuff\" helps nobody."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Branches: trying ideas without breaking what works",
+        "id": "branches"
+      },
+      {
+        "type": "paragraph",
+        "text": "Branches are the feature that makes Git worth learning properly. A branch is a separate line of work. You can build something experimental on a branch while the main version stays safe, then merge the two when you are happy. Here is the same project, continued:"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "$ git switch -c scoring\nSwitched to a new branch 'scoring'\n$ git add score.py\n$ git commit -m \"Start keeping score\"\n[scoring 32194f2] Start keeping score\n 1 file changed, 1 insertion(+)\n create mode 100644 score.py\n$ git switch main\nSwitched to branch 'main'\n$ git add README.md\n$ git commit -m \"Add a README\"\n[main 9972571] Add a README\n 1 file changed, 1 insertion(+)\n create mode 100644 README.md\n$ git merge scoring -m \"Merge the scoring branch\"\nMerge made by the 'ort' strategy.\n score.py | 1 +\n 1 file changed, 1 insertion(+)\n create mode 100644 score.py\n$ git log --oneline --graph\n*   4c927b0 Merge the scoring branch\n|\\  \n| * 32194f2 Start keeping score\n* | 9972571 Add a README\n|/  \n* 08722c1 Add second question\n* bdfa4db Add first question",
+        "title": "Terminal: a branch and a merge"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/git-vs-github-difference/03-branches.png",
+        "alt": "Commit graph from the real Git session: main branch with three commits, a scoring branch with one commit, and a merge commit joining them",
+        "caption": "The same history as the git log --graph output above, drawn out."
+      },
+      {
+        "type": "paragraph",
+        "text": "While the scoring feature was being built on its own branch, someone added a README on main. Git combined both lines of work automatically with a merge commit. On a real team, dozens of people do this every day on the same project, and it is Git, running on each person's laptop, that makes it possible."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where GitHub comes in",
+        "id": "where-github-comes-in"
+      },
+      {
+        "type": "paragraph",
+        "text": "So far everything has lived on one computer. That is fine for a solo project, but it has two problems: if the laptop dies, the history dies with it, and nobody else can work on the code. The fix is a <strong>remote</strong>: another copy of the repository somewhere else, which you push your commits to and pull other people's commits from."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the key idea most tutorials skip. A remote is just another Git repository. To prove it, this session uses a folder next door as the remote instead of GitHub:"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "$ git remote add origin ../quiz-app-remote.git\n$ git push -u origin main\nbranch 'main' set up to track 'origin/main'.\nTo ../quiz-app-remote.git\n * [new branch]      main -> main\n$ git remote -v\norigin\t../quiz-app-remote.git (fetch)\norigin\t../quiz-app-remote.git (push)",
+        "title": "Terminal: pushing to a remote"
+      },
+      {
+        "type": "paragraph",
+        "text": "That is the entire relationship. If you replace ../quiz-app-remote.git with a GitHub address, such as https://github.com/your-name/quiz-app.git, the commands are identical. GitHub is a very good, very popular place to keep that remote copy. It is not Git itself."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "What GitHub adds that Git does not have"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/git-vs-github-difference/04-github-extras.png",
+        "alt": "Features GitHub adds on top of Git: pull requests, issues, Actions, Pages, forks and stars, and a public profile",
+        "caption": "None of these exist in Git itself. They are GitHub's layer on top."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Pull requests:</strong> a way to propose a change and have it discussed and reviewed before it is merged. This is how most professional teams work.",
+          "<strong>Issues:</strong> a shared list of bugs, ideas and tasks attached to the project.",
+          "<strong>GitHub Actions:</strong> automation that runs tests or deploys a website every time code is pushed.",
+          "<strong>GitHub Pages:</strong> free hosting for simple websites, straight from a repository.",
+          "<strong>Your profile:</strong> a public record of projects and contributions, which is why students and job seekers are told to \"put it on GitHub\"."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Five confusions this clears up",
+        "id": "confusions"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>\"I need the internet to use Git.\"</strong> No. Commit, branch, merge and view history all work offline. Only push, pull and clone talk to a remote.",
+          "<strong>\"I committed, so it is on GitHub.\"</strong> Not yet. A commit saves a snapshot on your laptop. It reaches GitHub only when you push.",
+          "<strong>\"Uploading files on the GitHub website is using Git.\"</strong> It creates a commit, but you skip everything that makes Git useful locally: staging, branches and meaningful history. Fine for a quick fix, not a way to learn.",
+          "<strong>\"GitHub Desktop is Git.\"</strong> GitHub Desktop is an app that runs Git commands for you with buttons. Useful, but learning the commands first makes the buttons make sense.",
+          "<strong>\"Downloading the ZIP is the same as cloning.\"</strong> A ZIP gives you the files. git clone gives you the files and the entire history, connected to the remote so you can pull updates."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Should students learn Git and GitHub?",
+        "id": "should-students-learn"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes, and earlier than most do. Git is used by virtually every software team, and knowing it well is one of the clearest differences between someone who has done coding exercises and someone who has built software. For school and college students, a GitHub profile with a few real projects is also a practical way to show work to universities, internship programmes and employers. Our page on <a href='/how-to-build-a-coding-portfolio'>how to build a coding portfolio</a> explains what makes one convincing."
+      },
+      {
+        "type": "paragraph",
+        "text": "A sensible order is: learn enough of one language to build a small project, then learn Git on that project, then put it on GitHub. Learning Git with nothing to track is abstract and quickly forgotten. Learning it on your own project, where losing work would actually hurt, makes it stick."
+      },
+      {
+        "type": "quote",
+        "text": "Git is the habit. GitHub is where other people can see that you have it.",
+        "author": "How we put it to students"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach Git",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "We teach Git and GitHub as a short live course, taught by the same teachers who teach our programming classes, with every command typed and explained on the learner's own project. There are versions for <a href='/courses/git-github-version-control-course-for-teens'>teens</a> and for <a href='/courses/git-github-version-control-course-for-college-students'>college students</a>, and Git is also built into our longer programming courses so projects are version-controlled from the first week. Classes are one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is the main difference between Git and GitHub?",
+            "content": "Git is version control software that runs on your computer and records every version of a project. GitHub is a website that hosts Git repositories online and adds collaboration tools like pull requests and issues. Git does the tracking. GitHub stores and shares what Git tracks."
+          },
+          {
+            "title": "Can I use Git without GitHub?",
+            "content": "Yes. Git works entirely on your own computer, offline, with no account anywhere. You only need a remote such as GitHub, GitLab or Bitbucket when you want a backup elsewhere or want to work with other people."
+          },
+          {
+            "title": "Can I use GitHub without Git?",
+            "content": "Partly. You can create files and make simple edits through the GitHub website, and each edit becomes a commit. But branching, merging and working locally all need Git, so for anything beyond small edits you will want to learn Git itself."
+          },
+          {
+            "title": "Is GitHub free?",
+            "content": "GitHub has a free plan that includes unlimited public and private repositories for individuals, along with paid plans for teams and companies that need extra features. Git itself is free and open source."
+          },
+          {
+            "title": "What is the difference between commit and push?",
+            "content": "A commit saves a snapshot of your changes in your local repository, on your computer. A push sends your commits to a remote repository such as GitHub. You can make many commits and push them all together later."
+          },
+          {
+            "title": "Who owns GitHub?",
+            "content": "GitHub has been owned by Microsoft since 2018. Git is an independent open-source project, originally created by Linus Torvalds in 2005 to manage development of the Linux kernel."
+          },
+          {
+            "title": "What should I learn first, Git or GitHub?",
+            "content": "Learn the basic Git commands first, on a small project of your own: init, add, commit, log, branch and merge. Then create a GitHub account and push that project. GitHub makes much more sense once you understand what Git is doing underneath."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "html-css-javascript-project-ideas",
+    "college-students-build-real-world-projects",
+    "best-ai-coding-tools-for-students-2026"
+  ]
+}
