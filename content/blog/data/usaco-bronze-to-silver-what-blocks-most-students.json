@@ -152,6 +152,10 @@
       },
       {
         "type": "paragraph",
+        "text": "Breadth-first search finds the route with the fewest steps. When steps have different costs, you need Dijkstra's algorithm instead, and our guide to <a href='/blog/dijkstras-algorithm-fastest-route'>how maps find the fastest route</a> shows on one small map how the two give different answers."
+      },
+      {
+        "type": "paragraph",
         "text": "That is a short list, and it is short on purpose. Silver is not a wide syllabus. It is four or five ideas, each of which has to be recognised in an unfamiliar disguise under time pressure, which is a different skill from knowing them."
       },
       {

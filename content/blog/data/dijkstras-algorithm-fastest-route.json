@@ -1,0 +1,288 @@
+{
+  "meta": {
+    "slug": "dijkstras-algorithm-fastest-route",
+    "title": "How Do Maps Find the Fastest Route? Dijkstra's Algorithm",
+    "description": "Dijkstra's algorithm step by step on a small town map, why greedy shortcuts fail, and how A* checks far fewer places, all run in Python.",
+    "keywords": [
+      "dijkstra's algorithm",
+      "shortest path algorithm",
+      "how does google maps find the fastest route",
+      "dijkstra algorithm python",
+      "a star algorithm",
+      "graph algorithms for beginners",
+      "how do map apps work"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Programming",
+    "tags": [
+      "Algorithms",
+      "Graphs",
+      "Python",
+      "Computer Science"
+    ],
+    "readTime": "7 min read",
+    "featured": false,
+    "tldr": "Map apps model roads as a weighted graph and find the fastest route with shortest-path algorithms based on Dijkstra's algorithm, devised in 1956. It repeatedly settles the closest unsettled place, whose time can then never improve, and updates its neighbours. On our town map it found a 7-minute route, while always taking the quickest next road gave 11 minutes and the fewest-roads route 16. A* adds an estimate of the distance to go: on a 10,000-place grid it checked 467 places instead of 6,420 for the same answer."
+  },
+  "hero": {
+    "title": "How Do Maps Find the Fastest Route? Dijkstra's Algorithm",
+    "subtitle": "Dijkstra's algorithm step by step on a small town, two shortcuts that give the wrong answer, and A*, the variant that aims at the goal, all run and measured in Python.",
+    "featuredImage": {
+      "url": "/images/blog/dijkstras-algorithm-fastest-route/00-hero.png",
+      "alt": "How maps find the fastest route: a dotted route line from a start point to a map pin"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ask a map app for directions and it picks the fastest route from millions of possible roads in a moment. The classic method behind route finding is Dijkstra's algorithm, and it is simple enough to follow by hand on a small map, and to write in about twenty lines of Python."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide runs Dijkstra's algorithm on a small town, step by step, then compares it with two tempting shortcuts that give the wrong answer. It ends with A*, the faster variant used in games and navigation, measured on a 10,000-place grid. Every result below comes from running the code."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The problem: a map is a graph",
+        "id": "graph"
+      },
+      {
+        "type": "paragraph",
+        "text": "To a computer, a road map is a <strong>graph</strong>: places are <em>nodes</em>, roads are <em>edges</em>, and each edge has a <em>weight</em>, here the travel time in minutes. Finding the fastest route means finding the path between two nodes with the smallest total weight. Here is our town:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# A small town: travel times in minutes along each road (roads go both ways)\nroads = [\n    (\"Home\", \"Shop\", 2), (\"Home\", \"Park\", 4), (\"Home\", \"Library\", 13),\n    (\"Shop\", \"Park\", 1), (\"Shop\", \"Market\", 3), (\"Park\", \"Library\", 5),\n    (\"Library\", \"Market\", 4), (\"Library\", \"School\", 3), (\"Market\", \"School\", 2),\n]\ngraph = {}\nfor a, b, minutes in roads:\n    graph.setdefault(a, {})[b] = minutes\n    graph.setdefault(b, {})[a] = minutes",
+        "title": "town.py"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/dijkstras-algorithm-fastest-route/01-town.png",
+        "alt": "A small town with six places and nine roads labelled with travel times; the fastest route from Home to School is Home -> Shop -> Market -> School, 7 minutes, highlighted",
+        "caption": "Six places, nine roads, and one fastest route."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Dijkstra's algorithm, step by step",
+        "id": "steps"
+      },
+      {
+        "type": "paragraph",
+        "text": "In 1956, the Dutch computer scientist Edsger Dijkstra wanted a problem that non-programmers could understand, to show off a new computer in Amsterdam. He later said he designed the shortest-path algorithm \"in about twenty minutes\", sitting on a caf&#233; terrace, and it was published in 1959. The idea:"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "Give the start a time of 0 and every other place a time of infinity (not yet reached).",
+          "Pick the unsettled place with the smallest time and <strong>settle</strong> it: its time is now final.",
+          "For each road out of it, see if going that way reaches a neighbour faster than its current best time. If so, update it.",
+          "Repeat until the destination is settled."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The key insight is step 2. Because all travel times are positive, once a place is the closest unsettled one, no other route can ever reach it more quickly, so its time is final. In code, a <em>priority queue</em> (Python's <code>heapq</code>) hands back the closest place each time:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import heapq\nfrom town import graph\n\ndef dijkstra(graph, start, goal):\n    best = {start: 0}               # fastest known time to each place\n    came_from = {}\n    queue = [(0, start)]\n    settled = []\n    while queue:\n        time, place = heapq.heappop(queue)     # always expand the closest unsettled place\n        if place in settled:\n            continue\n        settled.append(place)\n        if place == goal:\n            break\n        for nxt, minutes in graph[place].items():\n            new_time = time + minutes\n            if new_time < best.get(nxt, float(\"inf\")):\n                best[nxt] = new_time\n                came_from[nxt] = place\n                heapq.heappush(queue, (new_time, nxt))\n    route = [goal]\n    while route[-1] != start:\n        route.append(came_from[route[-1]])\n    return best[goal], route[::-1], settled\n\nif __name__ == \"__main__\":\n    minutes, route, settled = dijkstra(graph, \"Home\", \"School\")\n    print(\"settled in this order:\", \" -> \".join(settled))\n    print(f\"fastest route: {' -> '.join(route)} ({minutes} minutes)\")",
+        "title": "dijkstra.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "settled in this order: Home -> Shop -> Park -> Market -> School\nfastest route: Home -> Shop -> Market -> School (7 minutes)",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/dijkstras-algorithm-fastest-route/02-steps.png",
+        "alt": "Table of Dijkstra's algorithm on the town: it settles Home at 0, Shop at 2, Park at 3, Market at 5 and School at 7, updating the best known times after each step",
+        "caption": "Each row is one settle. Times only ever go down until they are final."
+      },
+      {
+        "type": "paragraph",
+        "text": "Dijkstra settled Home, Shop, Park, Market and then School, in order of distance from Home, and found Home -> Shop -> Market -> School in 7 minutes. Notice that it never settled the Library: by the time School was reached, the Library was known to be further away, so it was not needed."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Two tempting shortcuts, and why they fail",
+        "id": "shortcuts"
+      },
+      {
+        "type": "paragraph",
+        "text": "It is worth seeing why a smarter method is needed. The first shortcut: from wherever you are, take the quickest road you have not used yet. This is a <strong>greedy</strong> strategy:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from town import graph\n\n# A tempting shortcut: always take the quickest road from where you are now\nplace, route, total = \"Home\", [\"Home\"], 0\nwhile place != \"School\":\n    options = {p: m for p, m in graph[place].items() if p not in route}\n    place = min(options, key=options.get)\n    total += options[place]\n    route.append(place)\nprint(f\"greedy route: {' -> '.join(route)} ({total} minutes)\")",
+        "title": "greedy.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "greedy route: Home -> Shop -> Park -> Library -> School (11 minutes)",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "The second: take the route with the fewest roads, which is what a <strong>breadth-first search</strong> finds when it ignores travel times:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from collections import deque\nfrom town import graph\n\n# Fewest roads (ignoring how long each one takes): breadth-first search\nqueue, seen = deque([[\"Home\"]]), {\"Home\"}\nwhile queue:\n    path = queue.popleft()\n    if path[-1] == \"School\":\n        break\n    for nxt in graph[path[-1]]:\n        if nxt not in seen:\n            seen.add(nxt)\n            queue.append(path + [nxt])\nminutes = sum(graph[a][b] for a, b in zip(path, path[1:]))\nprint(f\"fewest roads: {' -> '.join(path)} ({len(path) - 1} roads, {minutes} minutes)\")",
+        "title": "fewest.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "fewest roads: Home -> Library -> School (2 roads, 16 minutes)",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/dijkstras-algorithm-fastest-route/03-three.png",
+        "alt": "Three strategies on the same town: Dijkstra's fastest route takes 7 minutes, always taking the quickest next road takes 11 minutes, and the route with fewest roads takes 16 minutes",
+        "caption": "Only Dijkstra looks at the whole picture."
+      },
+      {
+        "type": "paragraph",
+        "text": "The greedy route took 11 minutes: the 1-minute road from the Shop to the Park looked attractive, but it led the wrong way. The fewest-roads route used only 2 roads but took 16 minutes, because one of them is a long 13-minute road. Dijkstra's 7 minutes beats both, because it compares every possibility in order of total time rather than trusting one step at a time."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The limits of Dijkstra",
+        "text": "Dijkstra's algorithm needs every weight to be zero or positive, which is true for travel times. If some edges could have negative weights, a different method such as Bellman-Ford is needed. Our guide to <a href='/blog/how-to-start-learning-data-structures-and-algorithms'>learning data structures and algorithms</a> covers where graph algorithms fit in."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A*: aiming at the goal",
+        "id": "astar"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dijkstra explores outwards evenly in every direction, like ripples in a pond, even away from where you are going. <strong>A*</strong> (pronounced A-star) adds an estimate of the time still to go, such as the straight-line or grid distance to the goal, and explores the places that look most promising first. As long as the estimate never overestimates, A* still finds the fastest route. We compared them on a 100 &#215; 100 grid town:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import heapq, random\n\n# A 100 x 100 grid of streets: most blocks take 1 minute, some busy ones take 4\nN = 100\nrng = random.Random(3)\ncost = [[1 if rng.random() < 0.8 else 4 for _ in range(N)] for _ in range(N)]\nstart, goal = (50, 20), (50, 80)                # across the middle of town\n\ndef search(use_estimate):\n    best, queue, settled = {start: 0}, [(0, 0, start)], set()\n    while queue:\n        _, time, (r, c) = heapq.heappop(queue)\n        if (r, c) in settled:\n            continue\n        settled.add((r, c))\n        if (r, c) == goal:\n            return time, len(settled)\n        for dr, dc in ((1, 0), (-1, 0), (0, 1), (0, -1)):\n            nr, nc = r + dr, c + dc\n            if 0 <= nr < N and 0 <= nc < N:\n                t = time + cost[nr][nc]\n                if t < best.get((nr, nc), float(\"inf\")):\n                    best[(nr, nc)] = t\n                    # A*: add a lower bound on the time still to go (every step costs at least 1)\n                    guess = (abs(goal[0] - nr) + abs(goal[1] - nc)) if use_estimate else 0\n                    heapq.heappush(queue, (t + guess, t, (nr, nc)))\n\nfor name, flag in [(\"Dijkstra\", False), (\"A*\", True)]:\n    time, visited = search(flag)\n    print(f\"{name:<9} fastest time {time} minutes, places settled {visited:,} of {N * N:,}\")",
+        "title": "astar.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Dijkstra  fastest time 72 minutes, places settled 6,420 of 10,000\nA*        fastest time 72 minutes, places settled 467 of 10,000",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/dijkstras-algorithm-fastest-route/04-astar.png",
+        "alt": "On a 100 by 100 grid, Dijkstra settled 6,420 places and A* settled 467 places, and both found the same 72-minute route",
+        "caption": "Same answer, a fraction of the work."
+      },
+      {
+        "type": "paragraph",
+        "text": "Both found the same 72-minute route, but A* settled 467 places while Dijkstra settled 6,420, about 14 times fewer. How much A* helps depends on how good the estimate is. When we first tried a grid where every street took 1 to 5 minutes at random, corner to corner, the estimate was weak and A* settled 9,994 places against Dijkstra's 10,000. Real navigation apps go further still, using live traffic data and precomputed shortcuts across the road network, but Dijkstra's idea is at the heart of it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where shortest paths are used",
+        "id": "uses"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Navigation apps</strong> for driving, walking and public transport.",
+          "<strong>Games:</strong> characters finding their way round obstacles, usually with A*.",
+          "<strong>The internet:</strong> routers choosing paths for data. A widely used routing protocol, OSPF, uses Dijkstra's algorithm.",
+          "<strong>Deliveries and logistics:</strong> planning routes for vans and couriers."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Settle the closest place first, and never look back. That one rule finds the fastest route."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dijkstra's algorithm suits a principle on our <a href='/how-we-teach'>how we teach</a> page: trace line by line until the student can predict every step. Filling in the settle table by hand on a small map, then checking it against the code, is exactly that. Seeing the same problem solved three ways, greedy, fewest roads and Dijkstra, makes clear why the algorithm works. Our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a> runs one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How do map apps find the fastest route?",
+            "content": "They treat the road network as a graph of places and roads weighted by travel time, and use shortest-path algorithms built on Dijkstra's algorithm or A*, combined with live traffic data and precomputed shortcuts to make it fast on huge maps."
+          },
+          {
+            "title": "What is Dijkstra's algorithm?",
+            "content": "An algorithm for finding the shortest or fastest path in a graph with non-negative weights. It repeatedly settles the closest unsettled node and updates its neighbours, until the destination is settled. It was devised by Edsger Dijkstra in 1956."
+          },
+          {
+            "title": "Why doesn't always taking the shortest next road work?",
+            "content": "Because a quick road can lead in the wrong direction. In our example, always taking the quickest next road gave an 11-minute route, while Dijkstra found a 7-minute one."
+          },
+          {
+            "title": "What is the difference between Dijkstra and A*?",
+            "content": "A* adds an estimate of the remaining distance to the goal, so it explores promising directions first. With a good estimate it checks far fewer places: in our grid test, 467 instead of 6,420, for the same answer."
+          },
+          {
+            "title": "Does Dijkstra's algorithm work with negative weights?",
+            "content": "No. It relies on every weight being zero or positive. Graphs with negative weights need other algorithms, such as Bellman-Ford."
+          },
+          {
+            "title": "What is a graph in computer science?",
+            "content": "A set of nodes connected by edges. Maps, social networks, the internet and many other things can be modelled as graphs, which is why graph algorithms are so widely used."
+          },
+          {
+            "title": "Is Dijkstra's algorithm hard to learn?",
+            "content": "The idea is simple enough to follow by hand on a small map. Coding it needs loops, dictionaries and a priority queue, which makes it a good intermediate project and a common topic in olympiads and interviews."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "how-to-start-learning-data-structures-and-algorithms",
+    "what-is-an-algorithm",
+    "big-o-notation-explained-simply"
+  ]
+}

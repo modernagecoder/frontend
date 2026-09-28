@@ -151,6 +151,10 @@
         "text": "A queue is first in, first out, like a line at a counter. Used for breadth-first search, it explores everything one step away, then two steps, then three, so the first time it reaches the exit it has found the shortest route."
       },
       {
+        "type": "paragraph",
+        "text": "Swap the queue for a priority queue that always hands back the closest place, and breadth-first search becomes Dijkstra's algorithm, the basis of route finding. Our guide to <a href='/blog/dijkstras-algorithm-fastest-route'>how maps find the fastest route</a> builds it step by step."
+      },
+      {
         "type": "code",
         "language": "python",
         "code": "from collections import deque\n\nmaze = [\"S.#.....\",\n        \".##.###.\",\n        \"....#...\",\n        \"#.#...#E\"]\n\ndef shortest_path(maze):\n    rows, cols = len(maze), len(maze[0])\n    start = next((r, c) for r in range(rows) for c in range(cols) if maze[r][c] == \"S\")\n    queue = deque([(start, 0)])\n    seen = {start}\n    while queue:\n        (r, c), steps = queue.popleft()      # a queue explores nearest squares first\n        if maze[r][c] == \"E\":\n            return steps\n        for dr, dc in ((1, 0), (-1, 0), (0, 1), (0, -1)):\n            nr, nc = r + dr, c + dc\n            if 0 <= nr < rows and 0 <= nc < cols and maze[nr][nc] != \"#\" and (nr, nc) not in seen:\n                seen.add((nr, nc))\n                queue.append(((nr, nc), steps + 1))\n    return None\n\nprint(\"shortest path from S to E:\", shortest_path(maze), \"steps\")",
