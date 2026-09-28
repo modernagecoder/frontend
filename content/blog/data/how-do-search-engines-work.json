@@ -49,7 +49,7 @@
       },
       {
         "type": "paragraph",
-        "text": "That is what this guide does. We build a small search engine over the 165 posts on this very blog, rank results with a classic formula called TF-IDF, and then run PageRank, the algorithm behind Google's early success, on the real links between our posts. The results, including the embarrassing ones, show exactly why ranking is the hard part."
+        "text": "That is what this guide does. We build a small search engine over this very blog (it had 165 posts when we ran the code in September 2026), rank results with a classic formula called TF-IDF, and then run PageRank, the algorithm behind Google's early success, on the real links between our posts. The results, including the embarrassing ones, show exactly why ranking is the hard part."
       },
       {
         "type": "heading",
@@ -152,7 +152,7 @@
       },
       {
         "type": "paragraph",
-        "text": "In 1998 Larry Page and Sergey Brin, then students at Stanford, described a way to measure a page's importance from the links pointing to it. The idea: a link is a vote, but votes from important pages count for more, and a page that links to many others spreads its vote thinly. Imagine a surfer clicking random links forever; PageRank is roughly the share of time they would spend on each page. We ran it on the real links between posts on this blog:"
+        "text": "In 1998 Larry Page and Sergey Brin, then students at Stanford, described a way to measure a page's importance from the links pointing to it. The idea: a link is a vote, but votes from important pages count for more, and a page that links to many others spreads its vote thinly. Imagine a surfer clicking random links forever; PageRank is roughly the share of time they would spend on each page. We ran it on the real links between posts on this blog, as they stood in September 2026:"
       },
       {
         "type": "code",
