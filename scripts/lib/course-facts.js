@@ -194,7 +194,7 @@ function renderAnswers(courseData) {
     ['Can I watch the teaching before deciding?',
       `Yes. <a href="${esc(lib.url)}" target="_blank" rel="noopener" data-recording-library="${esc(lib.id)}" onclick="try{gtag('event','watch_library_click',{library:'${esc(lib.id)}',page:'course'})}catch(e){}">Full recordings of real ${esc(lib.ages)} classes</a> are free to watch, ${esc(lc(RECORDINGS.accessShort))}. ${esc(RECORDINGS.sample_note)} ${esc(RECORDINGS.languages)} ${esc(RECORDINGS.watchTip)}`],
     ['Can I enroll without a live demo?',
-      'Yes. Choose a plan on this page and enrol directly; a demo is not required. If you would like to see a full class with a mentor first, <a href="/book-demo" data-pd-book="course-answers">book a Priority Demo</a>. Outside India, our team confirms the plan and completes payment with you over WhatsApp, so allow a little time for that step.'],
+      'Yes. Choose a plan on this page and enrol directly; a demo is not required. If you would like to see a full class with a mentor first, <a href="/book-demo" data-pd-book="course-answers">book a Priority Demo</a>.'],
     ['How do I reach you with a question?',
       `<a href="${esc(contactLinks(courseData).wa)}" target="_blank" rel="noopener">WhatsApp ${CONTACT.phone}</a>, email <a href="${esc(contactLinks(courseData).mail)}">${CONTACT.email}</a>, or call ${CONTACT.phone}. Tell us the student's age and what they have learned so far, and we will point you to the right plan and batch.`],
   ];
@@ -257,7 +257,7 @@ function enrolSteps(courseData) {
     },
     {
       title: 'Enrol and pay the first month',
-      body: 'Press Enrol Now on your plan. Choose Pay online for secure Razorpay checkout (you fill in your name, email and phone), or WhatsApp enrolment to talk to our team first. Outside India, our team completes payment with you on WhatsApp by PayPal, Wise or bank transfer.',
+      body: 'Press Enrol Now on your plan. Choose Pay online for secure Razorpay checkout (you fill in your name, email and phone), or WhatsApp enrolment to talk to our team first.',
     },
     {
       title: 'Fix your class timings',
@@ -353,7 +353,7 @@ function augmentFaqs(courseData) {
   if (!has('without a live demo')) {
     courseData.faqs.push({
       question: 'Can I enroll without a live demo?',
-      answer: `Yes. Choose a plan on this page and enrol directly. A demo is optional: if you would like to see a full class with a mentor first, book a Priority Demo, a live class of ${(BRAND.priorityDemo || {}).length || 'about 45 to 60 minutes'}. Outside India, our team confirms the plan and completes payment with you over WhatsApp, so allow a little time for that step. Questions: WhatsApp ${CONTACT.phone} or email ${CONTACT.email}.`,
+      answer: `Yes. Choose a plan on this page and enrol directly. A demo is optional: if you would like to see a full class with a mentor first, book a Priority Demo, a live class of ${(BRAND.priorityDemo || {}).length || 'about 45 to 60 minutes'}. Questions: WhatsApp ${CONTACT.phone} or email ${CONTACT.email}.`,
     });
   }
   return courseData;

@@ -61,7 +61,7 @@
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
     <!-- Editorial theme (shared) + Course detail styles. No legacy CSS. -->
     <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626g">
-    <link rel="stylesheet" href="/css/course-detail-redesign.css?v=20260928b">
+    <link rel="stylesheet" href="/css/course-detail-redesign.css?v=20260928c">
     <link rel="stylesheet" href="/css/moments-strip.css?v=20260806b">
     <script src="/js/moments-strip.js?v=20260806b" defer></script>
     <meta name="theme-color" content="#B45309">
@@ -147,11 +147,14 @@
                         <a href="#enroll" class="cd-btn-secondary">See plans and enrol</a>
                     </div>
                     {{HERO_CONTACT_LINE}}
+                    <!-- Clear download (2026-09-28): builds the PDF in the browser from the
+                         inlined curriculum JSON, no form. /src/js/download-curriculum.js binds
+                         every [data-download-curriculum]. -->
+                    <button type="button" id="downloadCurriculumBtn" class="cd-dl-btn" data-download-curriculum aria-label="Download the full course curriculum as a PDF">
+                        <span class="cd-dl-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></span>
+                        <span class="cd-dl-text"><span class="dl-label">Download full curriculum (PDF)</span><small>Every week and topic, free, no sign-up</small></span>
+                    </button>
                     <div class="hero-resource-links">
-                        <button type="button" id="downloadCurriculumBtn" class="download-curriculum-btn" aria-label="Download course curriculum as PDF">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                        <span class="dl-label">Download syllabus</span>
-                        </button>
                         <a href="{{WATCH_CLASS_HREF}}" target="_blank" rel="noopener" class="hero-proof-btn hero-proof-btn--teach" data-recording-library="{{WATCH_CLASS_ID}}" aria-label="{{WATCH_CLASS_ARIA}}" onclick="try{gtag('event','watch_library_click',{library:'{{WATCH_CLASS_ID}}',page:'course-hero'})}catch(e){}">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg> {{WATCH_CLASS_LABEL}}
                         </a>
@@ -377,6 +380,10 @@
                         <h2>Detailed Course Curriculum</h2>
                         <p class="curriculum-intro">Explore the complete week-by-week breakdown of what you'll learn in
                             this comprehensive program.</p>
+                        <button type="button" class="cd-dl-btn cd-dl-btn--inline" data-download-curriculum aria-label="Download the full course curriculum as a PDF">
+                            <span class="cd-dl-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></span>
+                            <span class="cd-dl-text"><span class="dl-label">Download this curriculum (PDF)</span><small>Save or print it to read later</small></span>
+                        </button>
 
                         <!-- Nested Accordion Structure: Phase > Month > Week -->
                         <div class="curriculum-accordion">
@@ -595,7 +602,7 @@
     <script id="course-curriculum-data" type="application/json">{{CURRICULUM_DATA_JSON}}</script>
 
     <script src="/content/courses/generated/{{COURSE_SLUG}}/course-navigation.js"></script>
-    <script src="/src/js/download-curriculum.js" defer></script>
+    <script src="/src/js/download-curriculum.js?v=20260928" defer></script>
 
 
     <!-- Footer Component Placeholder -->

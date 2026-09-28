@@ -612,3 +612,16 @@ body.editorial .cd-promise-close a.cd-promise-btn{display:inline-flex;align-item
 body.editorial .cd-promise-close a.cd-promise-btn:hover{background:#D97706;border-color:#D97706;color:#fff}
 @media (max-width:760px){body.editorial .cd-promise-pillars{grid-template-columns:1fr}}
 @media (max-width:600px){body.editorial .cd-promise-close a.cd-promise-btn{width:100%}}
+
+/* =====================  DOWNLOAD CURRICULUM, clear button (2026-09-28)  ===================== */
+body.editorial button.cd-dl-btn{display:inline-flex;align-items:center;gap:.8rem;min-height:56px;padding:.6rem 1.2rem .6rem .65rem;background:var(--amber-tint);border:1.5px solid var(--amber);border-radius:12px;color:var(--ink);font-family:var(--font-body);text-align:left;cursor:pointer;transition:background .2s,transform .2s,box-shadow .2s}
+body.editorial button.cd-dl-btn:hover{background:#FDE7C8;transform:translateY(-1px);box-shadow:0 10px 24px -16px rgba(180,83,9,.6)}
+body.editorial button.cd-dl-btn:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+body.editorial button.cd-dl-btn .cd-dl-icon{flex:0 0 auto;width:40px;height:40px;border-radius:10px;background:var(--amber);color:#fff;display:flex;align-items:center;justify-content:center}
+body.editorial button.cd-dl-btn .cd-dl-icon svg{width:20px;height:20px}
+body.editorial button.cd-dl-btn .cd-dl-text{display:flex;flex-direction:column;line-height:1.25}
+body.editorial button.cd-dl-btn .dl-label{font-weight:700;font-size:1rem;color:var(--ink)}
+body.editorial button.cd-dl-btn small{font-size:.8rem;color:var(--ink-soft);margin-top:.15rem}
+body.editorial button.cd-dl-btn.is-loading,body.editorial button.cd-dl-btn:disabled{opacity:.7;cursor:progress;transform:none}
+body.editorial button.cd-dl-btn--inline{margin:0 0 1.4rem}
+@media (max-width:600px){body.editorial button.cd-dl-btn{width:100%}}

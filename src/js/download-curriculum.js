@@ -400,9 +400,11 @@
   }
 
   function init() {
-    var btn = document.getElementById('downloadCurriculumBtn');
-    if (!btn) return;
-    btn.addEventListener('click', function () { handleClick(btn); });
+    // Course pages carry two buttons (hero + curriculum tab); older pages only the id.
+    var btns = document.querySelectorAll('#downloadCurriculumBtn, [data-download-curriculum]');
+    Array.prototype.forEach.call(btns, function (btn) {
+      btn.addEventListener('click', function () { handleClick(btn); });
+    });
   }
 
   if (document.readyState === 'loading') {
