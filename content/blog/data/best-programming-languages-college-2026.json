@@ -325,6 +325,10 @@
       },
       {
         "type": "paragraph",
+        "text": "If you are deciding which to pick up first, our guide to <a href='/blog/sql-or-python-first'>SQL or Python first</a> answers the same question in both languages, times them on a million rows, and recommends a starting point for each goal."
+      },
+      {
+        "type": "paragraph",
         "text": "Why SQL is non-negotiable in 2026:"
       },
       {

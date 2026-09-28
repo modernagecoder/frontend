@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "slug": "sql-or-python-first",
+    "title": "SQL or Python First? How to Choose for Your Goal",
+    "description": "SQL or Python first? The same question in both, a million-row timing test with a surprise, and which to start with for your goal.",
+    "keywords": [
+      "sql or python first",
+      "should i learn sql or python first",
+      "sql vs python",
+      "sql vs python for data analysis",
+      "is sql easier than python",
+      "learn sql and python together",
+      "sql vs pandas"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Programming",
+    "tags": [
+      "SQL",
+      "Python",
+      "Data Analysis",
+      "Databases"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "Start with SQL if your goal is data analysis or business reporting: its core is small and quickly useful. Start with Python if you want to build software, automate tasks, work in AI, or are learning your first language. SQL is declarative (you describe the result) and Python is imperative (you write the steps). In a million-row test, SQLite without an index was slower than a Python loop, but one index made it about as fast as pandas. For a data career, learn both: SQL fetches the data, Python does the rest."
+  },
+  "hero": {
+    "title": "SQL or Python First? How to Choose for Your Goal",
+    "subtitle": "What each language is for, the same question answered in both, a timing test on a million rows, and a clear recommendation for your situation.",
+    "featuredImage": {
+      "url": "/images/blog/sql-or-python-first/00-hero.png",
+      "alt": "SQL or Python first: an SQL query that describes the result next to a Python loop that builds it step by step"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "If your goal is working with data, you will hear two names constantly: SQL and Python. Both are worth learning, and many jobs ask for both. But you have to start somewhere, and the right first choice depends on what you want to do. Choosing well can save you months of learning things you do not need yet."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide explains what each language is actually for, answers the same question in both so you can see the difference, and shares a timing test on a million rows that produced a surprising result. Every output below comes from running the code. At the end is a simple guide to which one to start with for your goal."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Which should you learn first?",
+        "id": "which-first"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Start with SQL</strong> if your goal is data analysis, business reporting, or you already work a lot in spreadsheets. SQL is smaller, and you can be useful with it quickly.",
+          "<strong>Start with Python</strong> if you want to build software, automate tasks, work in AI or machine learning, or if you are a school student learning your first language.",
+          "<strong>Learn both</strong> if you want a data career. They are partners, and the order matters less than people think."
+        ]
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/sql-or-python-first/03-decision.png",
+        "alt": "Which to learn first by goal: data analyst, SQL first then Python; software developer, Python or JavaScript first; AI and machine learning, Python first with SQL alongside; school student, Python first; spreadsheet user, SQL first",
+        "caption": "Match your first language to the work you want to do most."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What SQL and Python actually are",
+        "id": "what-they-are"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>SQL</strong> (Structured Query Language) is the language of databases. Almost every app, website and company stores its data in a database, and SQL is how you ask that database questions: which customers ordered last week, what the average score is per subject, which students have not submitted work. It is a specialist language. You cannot build a game or a website in SQL alone."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Python</strong> is a general-purpose programming language. You can use it to build websites, automate boring tasks, analyse data, train AI models, and much more. It can also talk to databases, so a lot of Python code sends SQL queries and then works with the results."
+      },
+      {
+        "type": "paragraph",
+        "text": "The biggest difference is in how you think. SQL is <strong>declarative</strong>: you describe the result you want, and the database works out how to get it. Python is <strong>imperative</strong>: you write the steps yourself. The example below makes this concrete."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The same question in SQL and in Python",
+        "id": "same-question"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is a small set of student scores. The data is invented for this example. Our question: what is the average score in each subject, highest first? And which students have no scores yet?"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "students = [(1, \"Asha\"), (2, \"Ben\"), (3, \"Chen\"), (4, \"Dara\"), (5, \"Eli\")]\nscores = [\n    (1, \"Maths\", 88), (1, \"Science\", 74), (1, \"English\", 69),\n    (2, \"Maths\", 55), (2, \"Science\", 81), (2, \"English\", 77),\n    (3, \"Maths\", 93), (3, \"Science\", 90), (3, \"English\", 62),\n    (4, \"Maths\", 71), (4, \"Science\", 58), (4, \"English\", 84),\n]",
+        "title": "data.py"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "With SQL",
+        "id": "with-sql"
+      },
+      {
+        "type": "paragraph",
+        "text": "Python has a small database engine, SQLite, built in, so we can run real SQL without installing anything:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import sqlite3\nfrom data import students, scores\n\ndb = sqlite3.connect(\":memory:\")\ndb.execute(\"CREATE TABLE students (id INTEGER, name TEXT)\")\ndb.execute(\"CREATE TABLE scores (student_id INTEGER, subject TEXT, score INTEGER)\")\ndb.executemany(\"INSERT INTO students VALUES (?, ?)\", students)\ndb.executemany(\"INSERT INTO scores VALUES (?, ?, ?)\", scores)\n\nquery = \"\"\"\nSELECT subject, ROUND(AVG(score), 1) AS average\nFROM scores\nGROUP BY subject\nORDER BY average DESC\n\"\"\"\nfor row in db.execute(query):\n    print(row)\n\nmissing = \"\"\"\nSELECT name FROM students\nLEFT JOIN scores ON scores.student_id = students.id\nWHERE scores.student_id IS NULL\n\"\"\"\nprint(\"no scores yet:\", [r[0] for r in db.execute(missing)])",
+        "title": "with_sql.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "('Maths', 76.8)\n('Science', 75.8)\n('English', 73.0)\nno scores yet: ['Eli']",
+        "title": "Output"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "With plain Python",
+        "id": "with-python"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from data import students, scores\n\ntotals = {}\nfor student_id, subject, score in scores:\n    total, count = totals.get(subject, (0, 0))\n    totals[subject] = (total + score, count + 1)\n\naverages = {s: round(t / c, 1) for s, (t, c) in totals.items()}\nfor subject, avg in sorted(averages.items(), key=lambda x: x[1], reverse=True):\n    print((subject, avg))\n\nhas_scores = {student_id for student_id, _, _ in scores}\nprint(\"no scores yet:\", [name for sid, name in students if sid not in has_scores])",
+        "title": "with_python.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "('Maths', 76.8)\n('Science', 75.8)\n('English', 73.0)\nno scores yet: ['Eli']",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/sql-or-python-first/01-same-question.png",
+        "alt": "The same question in SQL, five lines describing the result, and in Python, a loop that builds totals and counts step by step; both print Maths 76.8, Science 75.8, English 73.0",
+        "caption": "SQL describes the answer. Python describes the steps."
+      },
+      {
+        "type": "paragraph",
+        "text": "Both give identical results, including that Eli has no scores yet. The SQL version reads almost like English: select, from, group by, order by. The Python version is longer because you manage the totals and counts yourself. That is the trade-off in a nutshell. For questions about tables of data, SQL is shorter and clearer. For anything that is not a table question, Python can do it and SQL cannot."
+      },
+      {
+        "type": "paragraph",
+        "text": "There is also a third option many analysts use: <strong>pandas</strong>, a Python library that brings table operations into Python:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import pandas as pd\nfrom data import students, scores\n\ndf = pd.DataFrame(scores, columns=[\"student_id\", \"subject\", \"score\"])\nprint(df.groupby(\"subject\")[\"score\"].mean().round(1).sort_values(ascending=False))",
+        "title": "with_pandas.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "subject\nMaths      76.8\nScience    75.8\nEnglish    73.0\nName: score, dtype: float64",
+        "title": "Output"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Which is faster? A test on a million rows",
+        "id": "speed"
+      },
+      {
+        "type": "paragraph",
+        "text": "We generated one million random scores and timed the same average-by-subject question four ways. Each timing is the best of five runs on one laptop, and the script checks that all four approaches give the same answer:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import random, sqlite3, time\nimport pandas as pd\n\nrandom.seed(1)\nsubjects = [\"Maths\", \"Science\", \"English\", \"History\", \"Art\"]\nrows = [(random.randint(1, 50_000), random.choice(subjects), random.randint(0, 100))\n        for _ in range(1_000_000)]\n\ndb = sqlite3.connect(\":memory:\")\ndb.execute(\"CREATE TABLE scores (student_id INTEGER, subject TEXT, score INTEGER)\")\ndb.executemany(\"INSERT INTO scores VALUES (?, ?, ?)\", rows)\ndf = pd.DataFrame(rows, columns=[\"student_id\", \"subject\", \"score\"])\n\ndef with_sql():\n    return sorted(db.execute(\"SELECT subject, AVG(score) FROM scores GROUP BY subject\"))\n\ndef with_loops():\n    totals = {}\n    for _, subject, score in rows:\n        t, c = totals.get(subject, (0, 0))\n        totals[subject] = (t + score, c + 1)\n    return sorted((s, t / c) for s, (t, c) in totals.items())\n\ndef with_pandas():\n    return sorted(df.groupby(\"subject\")[\"score\"].mean().items())\n\ndef time_it(name, fn, runs=5):\n    times = []\n    for _ in range(runs):\n        start = time.perf_counter()\n        result = fn()\n        times.append(time.perf_counter() - start)\n    print(f\"{name:<14} {min(times) * 1000:6.0f} ms\")\n    return [round(v, 3) for _, v in result]\n\nanswers = [time_it(\"SQL, no index\", with_sql),\n           time_it(\"Python loops\", with_loops),\n           time_it(\"pandas\", with_pandas)]\ndb.execute(\"CREATE INDEX idx_subject_score ON scores (subject, score)\")\nanswers.append(time_it(\"SQL + index\", with_sql))\nprint(\"all four agree:\", all(a == answers[0] for a in answers))",
+        "title": "timing.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "SQL, no index     485 ms\nPython loops      148 ms\npandas             84 ms\nSQL + index        81 ms\nall four agree: True",
+        "title": "Output (measured on one laptop)"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/sql-or-python-first/02-timing.png",
+        "alt": "Time to average one million scores by subject: SQL without an index 485 ms, Python loops 148 ms, pandas 84 ms, SQL with an index 81 ms",
+        "caption": "Best of five runs on one laptop. Your numbers will differ, the pattern should not."
+      },
+      {
+        "type": "paragraph",
+        "text": "The surprise is the first line. Without any help, SQLite took 485 ms, slower than a plain Python loop at 148 ms. After adding one index on the subject and score columns, the same query took 81 ms, about 6 times faster, in the same range as pandas. An index lets the database read the data already sorted by subject, instead of sorting it every time."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "What this really teaches",
+        "text": "Speed is not the reason to choose SQL or Python. In real work the data lives in a database on a server, often far too large to load into Python at all, and SQL sends only the rows you need. The lesson is that knowing how a database works, including indexes, matters as much as knowing the syntax. Our free <a href='/resources/sql/indexes-and-performance'>SQL guide to indexes</a> explains how they work."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "They work best together",
+        "id": "together"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/sql-or-python-first/04-jobs.png",
+        "alt": "SQL is best at filtering millions of rows, grouping and totalling, joining tables and keeping data safe and shared; Python is best at cleaning messy files, fetching data from the web, charts, automation and machine learning",
+        "caption": "In most data work, SQL fetches and Python does everything else."
+      },
+      {
+        "type": "paragraph",
+        "text": "In most real data work, the two are used together. SQL pulls exactly the rows you need from a database. Python then cleans them, draws charts, sends reports or trains a model. That is why the question is really about order, not about choosing one forever."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Is SQL easier than Python?",
+        "id": "easier"
+      },
+      {
+        "type": "paragraph",
+        "text": "For most beginners, yes, at the start. The core of SQL, selecting, filtering, sorting, grouping and joining, is a small set of ideas, and you can answer useful questions within your first few sessions. Python has more to learn before you are productive, because it is a full programming language with variables, loops, functions and much more."
+      },
+      {
+        "type": "paragraph",
+        "text": "But SQL has its own hard parts later: joins across many tables, window functions, and thinking in sets rather than steps. And Python's early learning pays off far more widely. If you are unsure how long Python takes, our guide to <a href='/blog/how-long-does-it-take-to-learn-python'>how long it takes to learn Python</a> gives realistic estimates by goal."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A learning path for both",
+        "id": "path"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Stage",
+          "SQL",
+          "Python"
+        ],
+        "rows": [
+          [
+            "Basics",
+            "SELECT, WHERE, ORDER BY",
+            "Variables, lists, loops, functions"
+          ],
+          [
+            "Working with data",
+            "GROUP BY, aggregate functions",
+            "Dictionaries, reading CSV files"
+          ],
+          [
+            "Combining",
+            "JOINs across tables",
+            "pandas for tables"
+          ],
+          [
+            "Connecting them",
+            "Writing queries Python will run",
+            "sqlite3 or a database library"
+          ],
+          [
+            "Going further",
+            "Window functions, indexes, design",
+            "Charts, automation, machine learning"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Our free <a href='/resources/sql/'>SQL tutorial</a> covers every SQL stage in the table, from your first SELECT to window functions, with practice questions. For Python, our <a href='/blog/python-basic-programs-for-beginners'>basic Python programs</a> are a good place to practise the first two stages."
+      },
+      {
+        "type": "quote",
+        "text": "SQL asks the database a question. Python does something with the answer. Most data careers need both."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Both languages suit the principles on our <a href='/how-we-teach'>how we teach</a> page: learning by building, and seeing the same problem solved more than one way, exactly as this post answers one question in SQL, Python and pandas. Students write every query and loop themselves and predict the output before running it. Our <a href='/courses/mysql-database-complete-masterclass-college'>MySQL masterclass</a> and <a href='/courses/data-analysis-mastery-course-college'>data analysis course</a> cover both sides, one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Should I learn SQL or Python first?",
+            "content": "It depends on your goal. For data analysis and business reporting, start with SQL because it is smaller and immediately useful. For software development, automation, AI or as a first programming language, start with Python. For a data career, learn both."
+          },
+          {
+            "title": "Is SQL easier than Python?",
+            "content": "For beginners, SQL is usually easier to start because its core is a small set of ideas: selecting, filtering, sorting, grouping and joining. Python takes longer to become productive in, but it can do far more."
+          },
+          {
+            "title": "Can I learn SQL and Python at the same time?",
+            "content": "Yes. Many learners do, and the two reinforce each other. A good approach is to learn Python basics and SQL basics in parallel, then connect them using Python's built-in sqlite3 module."
+          },
+          {
+            "title": "Is SQL a programming language?",
+            "content": "SQL is a query language designed for databases. It is declarative, meaning you describe the result you want rather than the steps to get it. It is not used to build general software on its own."
+          },
+          {
+            "title": "Do data analysts need Python?",
+            "content": "Many data analyst roles ask for SQL first and Python as a strong advantage. SQL gets the data, and Python helps clean it, analyse it and automate reports."
+          },
+          {
+            "title": "Is Python faster than SQL?",
+            "content": "Neither is simply faster. In our test on a million rows, SQLite without an index was slower than a Python loop, but adding one index made it about as fast as pandas. In real systems, SQL runs inside the database and returns only the rows you need, which usually matters more than raw speed."
+          },
+          {
+            "title": "Should a school student learn SQL?",
+            "content": "Python is usually the better first language for a school student because it teaches general programming. SQL is a useful, quick second step, and it appears in some school syllabuses alongside Python."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "how-long-does-it-take-to-learn-python",
+    "python-vs-java-which-to-learn-first",
+    "what-is-an-api-explained-simply"
+  ]
+}

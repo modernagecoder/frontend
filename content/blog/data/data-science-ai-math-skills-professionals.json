@@ -304,6 +304,10 @@
         "text": "Programming is how you implement data science and AI solutions. Python dominates the field, but SQL and other tools are equally important for practical work."
       },
       {
+        "type": "paragraph",
+        "text": "Not sure which to learn first? <a href='/blog/sql-or-python-first'>SQL or Python first</a> shows how the two differ with real code, and why one database index made a query about six times faster in our test."
+      },
+      {
         "type": "callout",
         "calloutType": "info",
         "title": "Programming Skills Checklist",
