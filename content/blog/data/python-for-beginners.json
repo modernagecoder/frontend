@@ -172,6 +172,10 @@
         "text": "These milestones are guidelines, not strict deadlines. Some learners move faster, others take more time to practice. The key is consistent daily practice, even if it's just 30 minutes!"
       },
       {
+        "type": "paragraph",
+        "text": "If you want the timeline in real numbers, our guide to <a href='/blog/how-long-does-it-take-to-learn-python'>how long it takes to learn Python</a> turns these milestones into hour estimates and shows what they mean in weeks at two, four, seven and ten hours of practice a week."
+      },
+      {
         "type": "heading",
         "level": 2,
         "text": "Setting Up Python",

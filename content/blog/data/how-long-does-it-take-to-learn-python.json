@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "slug": "how-long-does-it-take-to-learn-python",
+    "title": "How Long Does It Take to Learn Python? (Real Hours)",
+    "description": "How long it takes to learn Python, split into five milestones with hour estimates, calendar time by schedule, age and goal, and self-tests.",
+    "keywords": [
+      "how long does it take to learn python",
+      "how long to learn python",
+      "learn python in a month",
+      "how many hours to learn python",
+      "how long to learn python for data science",
+      "python learning timeline"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Python",
+    "tags": [
+      "Python",
+      "Learning to Code",
+      "Beginners",
+      "Study Plan"
+    ],
+    "readTime": "13 min read",
+    "featured": false,
+    "tldr": "It depends on the finish line. About 15 to 25 hours of real practice gets you writing your first programs, 50 to 70 hours to solving small problems on your own, 100 to 150 to building a complete small project, 200 to 300 to being useful in one field such as data or automation, and 600 to 1,000 to being ready for a junior developer job. At five hours a week that is roughly one month, three months, six months, a year, and two and a half years or more. Short, frequent sessions and someone reading your code shorten every one of those."
+  },
+  "hero": {
+    "title": "How Long Does It Take to Learn Python?",
+    "subtitle": "An honest answer in hours, split into five milestones you can test yourself against, with calendar time for every schedule, age and goal.",
+    "featuredImage": {
+      "url": "/images/blog/how-long-does-it-take-to-learn-python/00-hero.png",
+      "alt": "How long does it take to learn Python: five milestones from first programs to job-ready, with hour estimates"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most people who type this question want a number, and most answers give one without saying what it measures. \"Six weeks\" is true if you mean writing a working program that asks for your name and prints a greeting. \"Two years\" is true if you mean getting hired as a developer. Both answers are honest. Neither is useful until you know which finish line you are aiming at."
+      },
+      {
+        "type": "paragraph",
+        "text": "So this guide does it properly. It splits \"learning Python\" into five milestones you can actually test yourself against, puts an hour estimate on each, turns those hours into calendar time for different schedules, and then shows the specific habits that make the same number of hours go much further. It applies whether you are a parent planning for a 12-year-old, a college student, or an adult starting from zero at 45."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "About 15 to 25 hours of real practice to write your first programs, 50 to 70 to solve small problems on your own, 100 to 150 to build a complete small project, and 600 or more to be ready for a junior developer job. At 5 hours a week, that is roughly one month, three months, six months, and two and a half years or more."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why \"how long\" has five different answers",
+        "id": "five-answers"
+      },
+      {
+        "type": "paragraph",
+        "text": "Python is a small language with an enormous ecosystem around it. You can learn the core language, the part every Python programmer uses, in a few months. What takes years is everything built on top of it: web frameworks, data libraries, machine learning, testing, databases, working in a team. When someone says they \"know Python\" they might mean any point on that line."
+      },
+      {
+        "type": "paragraph",
+        "text": "The milestones below are the ones we use when planning a learner's path. Each one is defined by what you can <strong>do</strong>, not by which topics you have seen, because seeing a topic and being able to use it without help are very different things."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-long-does-it-take-to-learn-python/01-milestones.png",
+        "alt": "Five Python learning milestones with cumulative hour estimates: first programs 15 to 25 hours, small problems 50 to 70, a complete project 100 to 150, useful in one field 200 to 300, job-ready 600 to 1,000",
+        "caption": "Each bar is cumulative. The last one includes much more than Python itself."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Milestone",
+          "You can...",
+          "Cumulative hours"
+        ],
+        "rows": [
+          [
+            "1. First programs",
+            "Write and run short programs with variables, input, if/else and loops",
+            "15 to 25"
+          ],
+          [
+            "2. Small problems, unaided",
+            "Solve a new small problem with functions, lists, strings and dictionaries, without copying a solution",
+            "50 to 70"
+          ],
+          [
+            "3. A complete small project",
+            "Plan and finish a program that reads files, handles errors and is split into functions",
+            "100 to 150"
+          ],
+          [
+            "4. Useful in one field",
+            "Do real work in one area, such as automation, data analysis, web back ends or beginner AI",
+            "200 to 300"
+          ],
+          [
+            "5. Job-ready",
+            "Build, test and explain projects with Git, SQL and a framework, well enough to pass an interview",
+            "600 to 1,000"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "These are planning estimates from teaching, not measured averages, and we would rather give you a range we believe than a precise figure that is invented. They assume <strong>focused practice</strong>: typing code, getting it wrong, fixing it. An hour of watching a video counts for much less than an hour of that."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "From hours to calendar time",
+        "id": "calendar-time"
+      },
+      {
+        "type": "paragraph",
+        "text": "Hours are the honest unit, but you live in weeks and months. The conversion is simple enough to do in Python, which is a nice first taste of why the language is useful. This takes the middle of each range and divides by a weekly schedule:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "milestones = {\n    \"Writes first programs\": 20,\n    \"Solves small problems alone\": 60,\n    \"Builds a complete small project\": 125,\n    \"Useful in one field\": 250,\n    \"Job-ready junior developer\": 800,\n}\n\nprint(f\"{'hours per week':<34}\" + \"\".join(f\"{h:>8}\" for h in (2, 4, 7, 10)))\nfor name, hours in milestones.items():\n    row = \"\"\n    for per_week in (2, 4, 7, 10):\n        weeks = hours / per_week\n        row += f\"{round(weeks):>7}w\"\n    print(f\"{name:<34}{row}\")",
+        "title": "weeks_to_learn.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "hours per week                           2       4       7      10\nWrites first programs                  10w      5w      3w      2w\nSolves small problems alone            30w     15w      9w      6w\nBuilds a complete small project        62w     31w     18w     12w\nUseful in one field                   125w     62w     36w     25w\nJob-ready junior developer            400w    200w    114w     80w",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-long-does-it-take-to-learn-python/02-calendar.png",
+        "alt": "Grid converting Python learning milestones into calendar time at 2, 4, 7 and 10 hours per week",
+        "caption": "The same 125 hours is three months for one person and over a year for another."
+      },
+      {
+        "type": "paragraph",
+        "text": "Two things jump out. First, the early milestones are reachable on almost any schedule. Even at two hours a week, which is one class plus a little homework, a learner writes real programs within about ten weeks. Second, the job-ready row is not a realistic target at low weekly hours. At four hours a week it works out to nearly four years, and in that time the gaps between sessions cost you more than the sessions teach. If employment is the goal, the schedule has to be closer to ten hours a week or more."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Schedule shape matters as much as total hours",
+        "text": "Three 40-minute sessions beat one two-hour session, even though the total is the same. Spacing practice out is one of the best-supported findings in learning research: a 2013 review of study techniques by Dunlosky and colleagues rated distributed practice as one of only two techniques with high utility. Forgetting a little between sessions and then recalling it is exactly what makes it stick."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to know you have reached each milestone",
+        "id": "self-tests"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the part most guides skip. You do not need a certificate to know where you are. You need a task that only someone at that level can do without help. Close every tab, set a timer, and try these."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Milestone 2 test: count the words in a sentence",
+        "id": "test-two"
+      },
+      {
+        "type": "paragraph",
+        "text": "Write a function that takes a sentence and returns how many times each word appears, ignoring capital letters and punctuation. If you can do this in under twenty minutes without searching, you are at milestone 2. Here is one solution and what it prints:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def word_counts(sentence):\n    counts = {}\n    for word in sentence.lower().split():\n        word = word.strip(\".,!?\")\n        counts[word] = counts.get(word, 0) + 1\n    return counts\n\nresult = word_counts(\"The cat sat. The cat ran! A dog sat.\")\nfor word, n in sorted(result.items(), key=lambda pair: (-pair[1], pair[0])):\n    print(word, n)",
+        "title": "word_counts.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "cat 2\nsat 2\nthe 2\na 1\ndog 1\nran 1",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nothing in it is advanced. What it tests is whether you can combine a loop, a string method, a dictionary and a function into one working idea, which is exactly the skill that separates someone who has <em>seen</em> Python from someone who can <em>use</em> it. If you want more tasks at this level, our <a href='/blog/python-basic-programs-for-beginners'>35 basic Python programs</a> are graded from easy to hard."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Milestone 3 test: a class report from a file",
+        "id": "test-three"
+      },
+      {
+        "type": "paragraph",
+        "text": "Read a CSV file of student marks, print each student's average and best subject, and name the top student. It is small, but it has the shape of real work: data comes in from outside, gets cleaned into the right types, and turns into an answer somebody wanted."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import csv, io\n\n# In a real project this would be open(\"marks.csv\"); a string keeps the example self-contained\ndata = io.StringIO(\"\"\"name,maths,science,english\nAarav,78,85,69\nMeera,92,88,95\nKabir,55,61,72\n\"\"\")\n\nrows = list(csv.DictReader(data))\nsubjects = [\"maths\", \"science\", \"english\"]\n\nfor row in rows:\n    marks = [int(row[s]) for s in subjects]\n    average = sum(marks) / len(marks)\n    best = subjects[marks.index(max(marks))]\n    print(f\"{row['name']:<6} average {average:5.1f}  best subject: {best}\")\n\ntop = max(rows, key=lambda r: sum(int(r[s]) for s in subjects))\nprint(\"Top of the class:\", top[\"name\"])",
+        "title": "class_report.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Aarav  average  77.3  best subject: science\nMeera  average  91.7  best subject: english\nKabir  average  62.7  best subject: english\nTop of the class: Meera",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you can write something like this from a blank file, and then extend it when asked (\"now add a pass or fail column\") without starting over, you have reached milestone 3. Most self-taught learners who feel stuck are sitting between milestones 2 and 3, and the missing piece is almost always finishing a project rather than learning another topic."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How long it takes by age",
+        "id": "by-age"
+      },
+      {
+        "type": "paragraph",
+        "text": "Age changes the pace less than people expect and the <em>shape</em> of learning more. The estimates below are for reaching milestone 2, solving small problems alone, with regular live classes."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Ages 8 to 11:</strong> usually 6 to 9 months after some block coding. Children this age learn Python well, but typing speed and reading long error messages slow them down, so sessions of 45 to 60 minutes work better than longer ones. If your child has not coded before, our guide to <a href='/blog/scratch-vs-python-which-better-young-learners'>Scratch versus Python</a> explains when to switch.",
+          "<strong>Ages 12 to 17:</strong> about 3 to 5 months. Teenagers can handle abstract ideas like functions and dictionaries quickly, and school maths helps. The usual obstacle is consistency around exams, not ability.",
+          "<strong>College students:</strong> 2 to 4 months, often faster if they already know another language. The risk here is rushing to libraries and frameworks before the core is solid.",
+          "<strong>Working adults:</strong> 3 to 5 months on 4 to 6 hours a week. Adults are good at seeing why something matters and bad at protecting their practice time. Fixed class slots help more than motivation does. Our <a href='/coding-classes-for-adults'>coding classes for adults</a> are built around that."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "We teach every age from 6 to 67, and the pattern is consistent: the learners who finish are not the fastest ones. They are the ones who kept a steady weekly rhythm for long enough to reach milestone 3."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How long it takes by goal",
+        "id": "by-goal"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you know why you are learning, you can stop at the right milestone instead of guessing. This table maps common goals to what you actually need."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Your goal",
+          "What you need beyond core Python",
+          "Stop at"
+        ],
+        "rows": [
+          [
+            "CBSE Class 11 and 12 Computer Science",
+            "Functions, file handling (text, binary, CSV), a stack, and connecting Python to MySQL",
+            "Milestone 3"
+          ],
+          [
+            "Automating spreadsheets and files at work",
+            "The csv and os modules, then openpyxl or pandas",
+            "Milestone 3 to 4"
+          ],
+          [
+            "Data analysis",
+            "pandas, matplotlib, basic statistics",
+            "Milestone 4"
+          ],
+          [
+            "Machine learning and AI",
+            "NumPy, pandas, scikit-learn, and school-level algebra and statistics",
+            "Milestone 4, then more"
+          ],
+          [
+            "Web back ends",
+            "Flask or Django, HTML basics, SQL",
+            "Milestone 4"
+          ],
+          [
+            "A junior developer job",
+            "Git, SQL, a framework, testing, three finished projects you can explain",
+            "Milestone 5"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "A note for Indian families: ICSE Computer Applications is taught in Java, not Python, while CBSE uses Python in Classes 11 and 12. If exams are the goal, match the language to the board. Our <a href='/python-for-class-12-cbse'>Python for CBSE Class 12</a> course follows the 083 syllabus directly."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A 12-week plan for complete beginners",
+        "id": "twelve-week-plan"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you are starting from nothing and can give about five hours a week, this is a realistic first quarter. It reaches milestone 2 and gets you started on milestone 3."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-long-does-it-take-to-learn-python/03-twelve-weeks.png",
+        "alt": "Twelve-week Python plan in four blocks: foundations, thinking in pieces, real data, and one project",
+        "caption": "Each block builds on the one before. Resist skipping to the project."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Weeks 1 to 3, foundations.</strong> print, variables, input, if and else, while and for loops. Write at least one small program every session, even if it is only a times table printer.",
+          "<strong>Weeks 4 to 6, thinking in pieces.</strong> Functions first, then lists, strings and dictionaries. The goal is to stop writing one long script and start writing small named pieces.",
+          "<strong>Weeks 7 to 9, real data.</strong> Reading and writing files, CSV, handling errors with try and except, and importing modules. This is where programs start to feel useful.",
+          "<strong>Weeks 10 to 12, one project.</strong> Choose something small you actually want, like a marks tracker, a quiz, or an expense log. Plan it on paper, build a rough version, then rebuild it cleanly. Finishing matters more than ambition."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "For the free material to go with it, our <a href='/blog/learn-python-step-by-step'>step-by-step Python library</a> lists every tutorial in order, from variables to object-oriented programming."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What makes it take longer, and what makes it faster",
+        "id": "speed"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-long-does-it-take-to-learn-python/04-speed.png",
+        "alt": "Habits that slow down learning Python compared with habits that speed it up",
+        "caption": "Most delays come from habits, not from the difficulty of Python."
+      },
+      {
+        "type": "paragraph",
+        "text": "Python is not a hard language. When learning it takes much longer than the estimates above, the cause is almost always one of a handful of habits."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Tutorial loops.</strong> Watching someone else code feels like progress and mostly is not. The rule we use: never watch more than ten minutes without typing something yourself.",
+          "<strong>Long gaps.</strong> A two-week break costs more than two weeks. You spend the next session relearning instead of moving forward.",
+          "<strong>No feedback.</strong> Code that works can still be badly built, and nobody learns that alone. A teacher or experienced friend reading your code and asking \"why did you do it this way?\" speeds things up more than any resource.",
+          "<strong>Switching courses.</strong> Every new course restarts at variables. Finishing one mediocre course beats starting five good ones."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Does AI make learning Python faster?",
+        "id": "ai"
+      },
+      {
+        "type": "paragraph",
+        "text": "It can, and it can also make it much slower while feeling faster. AI coding tools are excellent at explaining an error message, suggesting why a loop runs one time too many, or giving you three more practice problems like the one you just solved. Used that way, they are a patient tutor available at midnight."
+      },
+      {
+        "type": "paragraph",
+        "text": "Used to write the code for you, they skip the exact struggle that builds the skill. You get working programs and no ability to write the next one. We have seen learners reach what looked like milestone 3 in a month with heavy AI help, then be unable to write a ten-line function in an interview. If you want the longer version of this argument, read <a href='/blog/vibe-coding-vs-learning-to-code-properly'>vibe coding versus learning to code properly</a>."
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "A simple rule for AI while learning",
+        "text": "Ask it to explain, never to fix. Paste the error, ask what it means and where to look, then fix it yourself. If you ever paste code you could not have written, rewrite it from memory the next day."
+      },
+      {
+        "type": "quote",
+        "text": "The question is not how fast you can get through Python. It is how long you can keep showing up until it gets easy.",
+        "author": "What we tell every new learner"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach Python",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Our Python classes are live, with a real teacher, in small groups of 5 to 10 learners or one to one. Every class is built around the milestones above: learners write code in every session, get their code read and questioned, and finish projects rather than collecting topics. Beginners start with <a href='/python-from-the-ground-up'>Python from the ground up</a>, and learners heading towards AI move on to <a href='/master-ai-ml-python-java'>AI and machine learning with Python</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "If you are not sure where you or your child would start, a free trial class is the quickest way to find out. The teacher will set a short task, see which milestone you are at, and suggest a realistic schedule."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free Python class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Can I learn Python in a month?",
+            "content": "You can reach the first milestone in a month, writing short programs with variables, conditions and loops, at around five hours a week. Solving new problems on your own usually takes two to three months, and building complete projects takes longer. A month is a good start, not a finish."
+          },
+          {
+            "title": "How many hours a day should I study Python?",
+            "content": "For most people, 30 to 60 minutes a day of hands-on practice works better than long weekend sessions. Short, frequent practice keeps what you learned yesterday fresh and fits around school or work. Consistency beats intensity."
+          },
+          {
+            "title": "Is Python hard to learn for a complete beginner?",
+            "content": "No. Python has simple, readable syntax and is one of the most common first languages in schools and universities. The difficult part is not the language but learning to break a problem into steps, and that skill takes practice in any language."
+          },
+          {
+            "title": "How long does it take to learn Python for data science?",
+            "content": "Plan on roughly 200 to 300 hours: core Python first, then pandas, charts and basic statistics. At five to seven hours a week that is about eight to twelve months. Machine learning on top of that takes longer and needs school-level algebra and statistics."
+          },
+          {
+            "title": "Can a 10 year old learn Python?",
+            "content": "Yes. Many children aged 9 to 11 learn Python well, especially after some block coding. Expect slower progress than an adult because of typing and reading error messages, and keep sessions to 45 to 60 minutes."
+          },
+          {
+            "title": "How long does it take to get a job with Python?",
+            "content": "Usually 600 to 1,000 hours in total, because a job needs more than Python: Git, SQL, a framework, testing and several finished projects. At ten hours a week that is roughly 14 to 23 months. At four hours a week it is not realistic."
+          },
+          {
+            "title": "Should I learn Python or JavaScript first?",
+            "content": "Python is usually the easier first language, and JavaScript is the language of the web. Both are good choices. We compare them with real code in our Python versus JavaScript guide."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "learn-python-step-by-step",
+    "python-for-beginners",
+    "pythonprogrammes"
+  ]
+}
