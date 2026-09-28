@@ -594,6 +594,10 @@
       },
       {
         "type": "paragraph",
+        "text": "A satisfying way to put nested dictionaries to work is a game. In <a href='/blog/how-to-make-a-text-adventure-game-in-python'>how to make a text adventure game in Python</a>, the whole world, every room, exit and item, is a single dictionary, and the game loop just reads it."
+      },
+      {
+        "type": "paragraph",
         "text": "And when you are ready to use dictionaries on real data and real projects, the path from here runs through our <a href='/master-ai-ml-python-java'>Python, AI and ML track</a>, with live <a href='/courses'>courses</a> for learners aged 6 to 67 and a teacher who reads every line you write."
       },
       {

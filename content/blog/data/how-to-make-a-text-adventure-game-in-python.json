@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "slug": "how-to-make-a-text-adventure-game-in-python",
+    "title": "How to Make a Text Adventure Game in Python",
+    "description": "Build a text adventure game in Python: rooms in a dictionary, the game loop, items, a locked door and a win condition, with a real tested playthrough.",
+    "keywords": [
+      "text adventure game python",
+      "how to make a text adventure game in python",
+      "python text based game",
+      "python game project for beginners",
+      "python projects for kids",
+      "python adventure game code"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Programming",
+    "tags": [
+      "Python",
+      "Projects",
+      "Games",
+      "Beginners"
+    ],
+    "readTime": "7 min read",
+    "featured": false,
+    "tldr": "Store the game world in a dictionary: each room has a description, exits and an optional item. Then write a loop that reads a command, splits it into a verb and a noun, updates the current room or inventory, and prints what happened, until the player wins or quits. The complete game here has four rooms, a lamp, a key and a locked vault in 50 lines of plain Python, and suits learners of about 11 and up who know loops, if statements and dictionaries."
+  },
+  "hero": {
+    "title": "How to Make a Text Adventure Game in Python",
+    "subtitle": "Build a complete, playable adventure with rooms, items, a locked door and a win condition in 50 lines, with a real playthrough to test it.",
+    "featuredImage": {
+      "url": "/images/blog/how-to-make-a-text-adventure-game-in-python/00-hero.png",
+      "alt": "Map of a Python text adventure game: hall, library with a lamp, kitchen with a key, and a locked vault"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "A text adventure is one of the best first real projects in Python. The player types commands like \"go north\" or \"take key\", and the game describes what happens. There are no graphics to wrestle with, so all the effort goes into the parts of programming that matter: storing information, making decisions and repeating a loop until something ends it. And unlike most beginner exercises, the result is a game someone else can actually play."
+      },
+      {
+        "type": "paragraph",
+        "text": "This tutorial builds a small but complete adventure: four rooms, two items, a locked door and a win condition, in 50 lines. It suits anyone who knows the basics of Python, variables, if statements, loops and a little about dictionaries, which usually means learners of about 11 and up. We also played the finished game with a script of moves, and the transcript shown later is what it really printed."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What you need to know first",
+        "id": "prerequisites"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Variables and strings:</strong> storing the current room and the player's command.",
+          "<strong>if, elif and else:</strong> deciding what each command does.",
+          "<strong>A while loop:</strong> keeping the game running until the player wins or quits.",
+          "<strong>Dictionaries and lists:</strong> describing the rooms and holding the inventory. If dictionaries are new to you, our <a href='/blog/python-dictionary-complete-guide'>Python dictionary guide</a> covers everything used here."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 1: describe the world as data",
+        "id": "world-as-data"
+      },
+      {
+        "type": "paragraph",
+        "text": "The most important design decision comes before any game logic: put the world in a dictionary. Each room has its description, its exits and any item lying in it. The code that runs the game never mentions a specific room by name, apart from where the player starts and the room that wins."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rooms = {\n    \"hall\":    {\"text\": \"A dusty hall. Doors lead north and east.\",\n                \"exits\": {\"north\": \"library\", \"east\": \"kitchen\"}, \"item\": None},\n    \"library\": {\"text\": \"Shelves of old books. A door leads south.\",\n                \"exits\": {\"south\": \"hall\"}, \"item\": \"lamp\"},\n    \"kitchen\": {\"text\": \"A cold kitchen. Doors lead west and north.\",\n                \"exits\": {\"west\": \"hall\", \"north\": \"vault\"}, \"item\": \"key\"},\n    \"vault\":   {\"text\": \"Gold glitters in the lamplight. You found the treasure!\",\n                \"exits\": {}, \"item\": None, \"locked\": True},\n}",
+        "title": "rooms.py"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-make-a-text-adventure-game-in-python/01-rooms-as-data.png",
+        "alt": "One room of the text adventure stored as a Python dictionary with text, exits and item keys",
+        "caption": "The world is data. The game is the code that reads it."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is a quick test that moving works, following an exit from the hall the way the full game will:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rooms = {\n    \"hall\":    {\"text\": \"A dusty hall. Doors lead north and east.\",\n                \"exits\": {\"north\": \"library\", \"east\": \"kitchen\"}, \"item\": None},\n    \"library\": {\"text\": \"Shelves of old books. A door leads south.\",\n                \"exits\": {\"south\": \"hall\"}, \"item\": \"lamp\"},\n    \"kitchen\": {\"text\": \"A cold kitchen. Doors lead west and north.\",\n                \"exits\": {\"west\": \"hall\", \"north\": \"vault\"}, \"item\": \"key\"},\n    \"vault\":   {\"text\": \"Gold glitters in the lamplight. You found the treasure!\",\n                \"exits\": {}, \"item\": None, \"locked\": True},\n}\n\nroom = \"hall\"\nprint(rooms[room][\"text\"])\nroom = rooms[room][\"exits\"][\"east\"]      # move east, the way the game will\nprint(rooms[room][\"text\"])",
+        "title": "test_move.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "A dusty hall. Doors lead north and east.\nA cold kitchen. Doors lead west and north.",
+        "title": "Output"
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Why data first matters",
+        "text": "Because the rooms are data, adding a new room means adding one entry to the dictionary. You never touch the game loop. Professional games and apps are built on exactly the same principle: code that follows rules, and content that can change without breaking it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 2: the game loop",
+        "id": "game-loop"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-make-a-text-adventure-game-in-python/02-game-loop.png",
+        "alt": "The four-step loop behind every text game: read input, split it into a verb and noun, update the game state, describe what happened",
+        "caption": "Read, split, update, describe, repeat."
+      },
+      {
+        "type": "paragraph",
+        "text": "Every text game, from 1970s classics to a beginner's first project, runs the same loop:"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Read</strong> a command with <code>input()</code>.",
+          "<strong>Split</strong> it into a verb and a noun: \"go north\" becomes \"go\" and \"north\".",
+          "<strong>Update</strong> the game: change the current room, or add an item to the inventory.",
+          "<strong>Describe</strong> what happened, then go round again."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Using <code>.strip().lower().split()</code> on the input means \"  Go North\" and \"go north\" are treated the same, which saves players a lot of frustration."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 3: the complete game",
+        "id": "complete-game"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the full program. The only new ideas are the inventory list and the two conditions that guard the vault: the door is locked without the key, and it is too dark to enter without the lamp."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rooms = {\n    \"hall\":    {\"text\": \"A dusty hall. Doors lead north and east.\",\n                \"exits\": {\"north\": \"library\", \"east\": \"kitchen\"}, \"item\": None},\n    \"library\": {\"text\": \"Shelves of old books. A door leads south.\",\n                \"exits\": {\"south\": \"hall\"}, \"item\": \"lamp\"},\n    \"kitchen\": {\"text\": \"A cold kitchen. Doors lead west and north.\",\n                \"exits\": {\"west\": \"hall\", \"north\": \"vault\"}, \"item\": \"key\"},\n    \"vault\":   {\"text\": \"Gold glitters in the lamplight. You found the treasure!\",\n                \"exits\": {}, \"item\": None, \"locked\": True},\n}\n\ndef play():\n    room, inventory = \"hall\", []\n    print(rooms[room][\"text\"])\n    while True:\n        command = input(\"> \").strip().lower().split()\n        if not command:\n            continue\n        verb, noun = command[0], (command[1] if len(command) > 1 else \"\")\n\n        if verb == \"go\":\n            target = rooms[room][\"exits\"].get(noun)\n            if target is None:\n                print(\"You cannot go that way.\")\n            elif rooms[target].get(\"locked\") and \"key\" not in inventory:\n                print(\"The door is locked. You need a key.\")\n            elif target == \"vault\" and \"lamp\" not in inventory:\n                print(\"It is pitch dark in there. You need a lamp.\")\n            else:\n                room = target\n                print(rooms[room][\"text\"])\n                if room == \"vault\":\n                    print(\"You win!\")\n                    return\n        elif verb == \"take\":\n            if rooms[room][\"item\"] == noun:\n                inventory.append(noun)\n                rooms[room][\"item\"] = None\n                print(f\"You take the {noun}.\")\n            else:\n                print(\"There is nothing like that here.\")\n        elif verb == \"look\":\n            item = rooms[room][\"item\"]\n            print(rooms[room][\"text\"] + (f\" You see a {item}.\" if item else \"\"))\n        elif verb == \"inventory\":\n            print(\"You carry:\", \", \".join(inventory) or \"nothing\")\n        elif verb == \"quit\":\n            print(\"Goodbye.\")\n            return\n        else:\n            print(\"Try: go <direction>, take <item>, look, inventory, quit\")\n\nplay()",
+        "title": "adventure.py"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A real playthrough",
+        "id": "playthrough"
+      },
+      {
+        "type": "paragraph",
+        "text": "To test the game properly, we fed it a sequence of moves automatically and captured everything it printed. This is the exact output, including an attempt to open the vault before finding the key:"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "A dusty hall. Doors lead north and east.\n> look\nA dusty hall. Doors lead north and east.\n> go north\nShelves of old books. A door leads south.\n> look\nShelves of old books. A door leads south. You see a lamp.\n> take lamp\nYou take the lamp.\n> go south\nA dusty hall. Doors lead north and east.\n> go east\nA cold kitchen. Doors lead west and north.\n> go north\nThe door is locked. You need a key.\n> take key\nYou take the key.\n> inventory\nYou carry: lamp, key\n> go north\nGold glitters in the lamplight. You found the treasure!\nYou win!",
+        "title": "Playthrough"
+      },
+      {
+        "type": "paragraph",
+        "text": "Testing like this, with a fixed list of moves, is a genuinely professional habit. Every time you change the game, you can replay the same moves and check nothing broke. You can do it yourself by replacing <code>input</code> with a function that returns the next move from a list."
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "The most common bug",
+        "text": "Forgetting to update the room variable after a successful move, so the player keeps seeing the same room. If your game seems stuck, print the value of <code>room</code> at the top of the loop. That single line of debugging solves most text-game problems."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Make it your own",
+        "id": "extensions"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-make-a-text-adventure-game-in-python/03-extensions.png",
+        "alt": "Six ideas to extend a Python text adventure: a score, save and load, random events, a map command, enemies and a new story",
+        "caption": "Each extension practises a new Python skill."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Keep score:</strong> add points for each item and print the total at the end.",
+          "<strong>Save and load:</strong> write the room and inventory to a file so a game can be continued. Our guide to <a href='/blog/how-to-read-and-write-files-in-python'>reading and writing files in Python</a> shows how.",
+          "<strong>Random events:</strong> use the random module so a bat sometimes blows out your lamp.",
+          "<strong>A map command:</strong> keep a list of visited rooms and print it.",
+          "<strong>Enemies:</strong> a room the player must leave within three moves.",
+          "<strong>Your own world:</strong> keep the loop, replace the dictionary with your own story. This is where it stops being our game and starts being yours."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Once a text adventure works, the natural next step is a game with graphics, using a library such as Pygame, or a web version in JavaScript. For more ideas at every level, see our <a href='/blog/python-basic-programs-for-beginners'>basic Python programs</a> and <a href='/blog/html-css-javascript-project-ideas'>HTML, CSS and JavaScript project ideas</a>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What this project teaches",
+        "id": "what-it-teaches"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Skill",
+          "Where it appears in the game"
+        ],
+        "rows": [
+          [
+            "Dictionaries inside dictionaries",
+            "The rooms and their exits"
+          ],
+          [
+            "Loops that end on a condition",
+            "The game loop, ending on a win or quit"
+          ],
+          [
+            "Branching logic",
+            "The if and elif chain for each command"
+          ],
+          [
+            "State",
+            "The current room and the inventory, changing as you play"
+          ],
+          [
+            "Input cleaning",
+            "strip, lower and split on every command"
+          ],
+          [
+            "Testing",
+            "Replaying a fixed list of moves"
+          ]
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "A text adventure is the smallest program that feels like a real game, which is exactly why beginners finish it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Projects like this one sit at the centre of our Python classes, following the learning-by-building principle on our <a href='/how-we-teach'>how we teach</a> page: students make something that works in the same lesson they learn the idea behind it. Beginners start with <a href='/python-from-the-ground-up'>Python from the ground up</a>, taught live, one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free coding class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How do you make a text adventure game in Python?",
+            "content": "Store the rooms in a dictionary with a description, exits and items, then write a loop that reads a command with input, splits it into a verb and a noun, updates the current room or inventory, and prints what happened. Repeat until the player wins or quits."
+          },
+          {
+            "title": "What age can a child make a text adventure in Python?",
+            "content": "Children of around 11 and up who know variables, if statements, loops and basic dictionaries can build one, often over two or three sessions. Younger children can build a simpler version with only rooms and movement."
+          },
+          {
+            "title": "How long does it take to make a text adventure game?",
+            "content": "The version in this tutorial takes a beginner roughly two to four hours spread over a few sessions. Adding your own rooms, items and puzzles can take as long as you want."
+          },
+          {
+            "title": "Do I need any libraries to make a text game?",
+            "content": "No. The game here uses only built-in Python: dictionaries, lists, input, print and a while loop. The random module, also built in, is useful for surprises."
+          },
+          {
+            "title": "How do I add more rooms?",
+            "content": "Add another entry to the rooms dictionary with its text, exits and item, and add an exit pointing to it from an existing room. The game loop does not need to change."
+          },
+          {
+            "title": "How can I test my text game automatically?",
+            "content": "Replace input with a function that returns the next move from a list, run the game, and check the output. Keeping that list of moves lets you retest the whole game every time you change something."
+          },
+          {
+            "title": "What should I build after a text adventure?",
+            "content": "Good next steps are a quiz game that reads questions from a file, a graphical game with Pygame, or a web game in JavaScript. Each builds on the loop and state ideas from the text adventure."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "python-dictionary-complete-guide",
+    "python-basic-programs-for-beginners",
+    "html-css-javascript-project-ideas"
+  ]
+}

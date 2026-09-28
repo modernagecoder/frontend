@@ -760,6 +760,10 @@
         "text": "The third tier introduces data structures like lists and dictionaries, and forces you to modularize your code by writing your own functions. If you haven't set up a local coding environment yet, skip the headache of manual installations. You can use a vibe coding platform like <a href='https://replit.com/' target='_blank' rel='noopener noreferrer'>Replit</a> to practice these modular programs right in your browser, and even collaborate with their AI agent when you get stuck."
       },
       {
+        "type": "paragraph",
+        "text": "When the third tier feels comfortable, a text adventure is a good capstone: it combines a dictionary of rooms, an inventory list and a game loop in 50 lines. The full build is in <a href='/blog/how-to-make-a-text-adventure-game-in-python'>how to make a text adventure game in Python</a>."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "21. Find the ASCII Value of a Character"
