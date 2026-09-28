@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "slug": "how-to-learn-times-tables-fast",
+    "title": "How to Learn Times Tables Fast: The 21-Fact Method",
+    "description": "How to learn times tables fast: why only 21 facts are really hard, the best order to learn them, strategies for each table, and a 5-minute daily method.",
+    "keywords": [
+      "how to learn times tables fast",
+      "easy way to learn times tables",
+      "times tables tricks",
+      "best order to learn times tables",
+      "how to teach times tables",
+      "multiplication tables check",
+      "9 times table trick"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Maths",
+    "tags": [
+      "Maths",
+      "Times Tables",
+      "Parents",
+      "Primary Maths"
+    ],
+    "readTime": "13 min read",
+    "featured": false,
+    "tldr": "Sort the facts before memorising them. Once 7 x 8 and 8 x 7 count as one fact and the pattern tables (1s, 10s, 2s, 5s, 11s, 9s) are learned by their rules, only 21 of the 144 facts on a 12 by 12 grid need real memory work, and 6 of those are squares. Learn the tables in an order where each builds on the last, derive the hard facts from known ones (6 x 7 is 5 x 7 plus 7), and practise them for five minutes a day using spaced review. Most children become fluent in 6 to 10 weeks."
+  },
+  "hero": {
+    "title": "How to Learn Times Tables Fast",
+    "subtitle": "Out of 144 facts, only 21 are genuinely hard. Here is where that number comes from, the order to learn tables in, and a five-minute daily method that makes them stick.",
+    "featuredImage": {
+      "url": "/images/blog/how-to-learn-times-tables-fast/00-hero.png",
+      "alt": "Times tables grid with only the 21 hard facts highlighted, showing how to learn times tables fast"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most children learn times tables the slow way: start at the 1s, recite up to the 12s, and repeat until it sticks. It works eventually, but it treats 10 x 4 and 7 x 8 as the same kind of problem, and they are not. One is a pattern a child can see in a second. The other is a genuinely hard fact that needs its own plan."
+      },
+      {
+        "type": "paragraph",
+        "text": "The fast way to learn times tables is to sort the facts first. When you do, something surprising happens: out of 144 facts on a 12 by 12 grid, only <strong>21</strong> need real memory work, and 6 of those are squares that many children find memorable anyway. This guide shows where that number comes from, the order to learn the tables in, the strategies for each one, and a five-minute daily method that makes the facts stay. It works for a 7-year-old starting out and for an adult who never quite got there."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "Learn the pattern tables first (1s, 10s, 2s, 5s, 11s, 9s), use the fact that 7 x 8 is the same as 8 x 7, and you are left with 21 facts. Derive those from facts you already know, then practise them for five minutes a day with spaced review. Most children get fluent in 6 to 10 weeks this way."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why only 21 facts are really hard",
+        "id": "only-21"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the count, done properly. The code below lists every fact on the grid, merges pairs like 7 x 8 and 8 x 7, then removes the tables that follow an easy visible rule. The printout is its real output."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "all_facts = [(a, b) for a in range(1, 13) for b in range(1, 13)]\nprint(\"Facts on a 12 by 12 grid:\", len(all_facts))\n\n# 7 x 8 and 8 x 7 are the same fact, so keep one of each pair\nunique = {tuple(sorted(f)) for f in all_facts}\nprint(\"Different facts once order stops mattering:\", len(unique))\n\neasy_tables = {1, 2, 5, 10, 11, 9}   # each has a rule a child can see\nleft = {f for f in unique if not (set(f) & easy_tables)}\nprint(\"Facts left after the six pattern tables:\", len(left))\n\nsquares = {f for f in left if f[0] == f[1]}\nprint(\"  of which squares (3x3, 4x4 ...):\", len(squares))\nhard = sorted(left - squares)\nprint(\"  the rest:\", len(hard))\nprint(\" \", \", \".join(f\"{a}x{b}\" for a, b in hard))",
+        "title": "count_the_facts.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Facts on a 12 by 12 grid: 144\nDifferent facts once order stops mattering: 78\nFacts left after the six pattern tables: 21\n  of which squares (3x3, 4x4 ...): 6\n  the rest: 15\n  3x4, 3x6, 3x7, 3x8, 3x12, 4x6, 4x7, 4x8, 4x12, 6x7, 6x8, 6x12, 7x8, 7x12, 8x12",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-learn-times-tables-fast/02-funnel.png",
+        "alt": "Funnel showing 144 times tables facts reduced to 78 unique facts, then 21 after the six pattern tables, then 15 once the six squares are set aside",
+        "caption": "Nothing here is a trick. It is just refusing to learn the same fact twice."
+      },
+      {
+        "type": "paragraph",
+        "text": "Look at the last line. Those fifteen, plus six squares (3 x 3, 4 x 4, 6 x 6, 7 x 7, 8 x 8 and 12 x 12), are the whole problem. Every other fact on the grid either follows a rule a child can see or is a mirror image of one they already know."
+      },
+      {
+        "type": "paragraph",
+        "text": "This matters for motivation as much as speed. A child told \"learn your tables\" faces 144 things. A child told \"you already know most of these, and here are the 21 we are working on\" faces a list that fits on one card."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The best order to learn times tables",
+        "id": "best-order"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-learn-times-tables-fast/01-strategy-grid.png",
+        "alt": "A 12 by 12 multiplication grid coloured by learning strategy: 1s and 10s, doubles, 5s, 11s, 9s, squares, and the hard 15",
+        "caption": "Colour tells you which strategy covers each fact."
+      },
+      {
+        "type": "paragraph",
+        "text": "Order matters because each table should lean on the ones before it. This is the sequence we use with children aged 6 to 11, and with adults relearning:"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>1s and 10s.</strong> The 1s are the number itself. The 10s put a zero on the end. Most children can do both within a day.",
+          "<strong>2s.</strong> Doubles. If a child can double numbers up to 12, they know the 2s already.",
+          "<strong>5s.</strong> Half of the 10s. 5 x 8 is half of 80, so 40. They also end in 0 or 5, which is a built-in check.",
+          "<strong>11s.</strong> Up to 11 x 9 the answer repeats the digit: 11 x 6 is 66. Only 11 x 11 = 121 and 11 x 12 = 132 need learning.",
+          "<strong>9s.</strong> Ten lots minus one lot: 9 x 7 is 70 minus 7, which is 63. The digits of every answer up to 9 x 10 also add up to 9, which makes a good check.",
+          "<strong>4s and 8s.</strong> 4 is double double. 8 is double double double. 4 x 7: double 7 is 14, double 14 is 28.",
+          "<strong>3s and 6s.</strong> 3 is double plus one more. 6 is double the 3s, or the 5s plus one more group.",
+          "<strong>12s.</strong> Ten lots plus two lots: 12 x 7 is 70 plus 14, which is 84.",
+          "<strong>7s last.</strong> By now almost every 7s fact is known from another table. Only 7 x 7 is new."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Why the 7s go last",
+        "text": "Children often dread the 7s. By the time you reach them in this order, 7 x 2, 7 x 3, 7 x 4, 7 x 5, 7 x 6, 7 x 8, 7 x 9, 7 x 10, 7 x 11 and 7 x 12 have already been learned from the other side. Showing a child that they only have one new 7s fact left is one of the most satisfying moments in the whole process."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Derive first, memorise second",
+        "id": "derive-first"
+      },
+      {
+        "type": "paragraph",
+        "text": "A common worry is that strategies are a crutch, and a child who works out 6 x 7 will never just know it. The research and our experience point the other way. Derived facts are how memory gets built. The first twenty times a child works out 6 x 7 as 35 plus 7, it takes a few seconds. By the fiftieth time, the answer arrives before the working does. The strategy is scaffolding that comes down on its own."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-learn-times-tables-fast/03-derive.png",
+        "alt": "Four worked examples of derived times tables facts: 6 x 7 from the 5s, 9 x 8 from the 10s, 8 x 7 by doubling three times, 12 x 6 by splitting 12",
+        "caption": "Each hard fact is reached through one the child already owns."
+      },
+      {
+        "type": "paragraph",
+        "text": "What does not work is memorising answers with no way back to them. A child who has learned \"7 x 8 = 56\" as a sound, not as a quantity, is stuck the moment memory slips. A child who knows 7 x 8 is double 7 x 4, which is double 28, can always recover it. That is the difference between knowing tables and understanding multiplication, and it shows up later in fractions, division and algebra."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Near a 5 or 10:</strong> use the 5s or 10s and adjust. 6 x 8 = 5 x 8 + 8 = 48.",
+          "<strong>An even number:</strong> halve and double. 8 x 6 = 4 x 12 = 48.",
+          "<strong>A 4 or 8:</strong> keep doubling. 4 x 9: 18, 36.",
+          "<strong>A 12:</strong> split into 10 and 2. 12 x 8 = 80 + 16 = 96."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The five-minute daily method",
+        "id": "daily-method"
+      },
+      {
+        "type": "paragraph",
+        "text": "Once strategies are in place, the job is to move facts from \"work it out\" to \"just know it\". Two ideas from learning research do most of that work: <strong>retrieval practice</strong> (recalling an answer, not reading it) and <strong>spacing</strong> (reviewing a fact just as it is starting to fade). A three-box card system, often called the Leitner system after the German science writer who described it, combines both in something a family can run at the kitchen table."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-learn-times-tables-fast/04-three-boxes.png",
+        "alt": "Three-box Leitner system for times tables: box 1 daily, box 2 every two days, box 3 every five days, with missed facts returning to box 1",
+        "caption": "The boxes do the scheduling so you do not have to."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "Write each of the 21 hard facts on a card, question on the front and answer on the back.",
+          "Everything starts in box 1. Each day, go through box 1. Every second day add box 2. Every fifth day add box 3.",
+          "A quick, confident right answer moves the card up one box. A miss, or an answer that needed counting, sends it back to box 1.",
+          "Stop at five minutes even if the box is not finished. Short and daily is the whole point."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Children who enjoy computers can build the system themselves, which is a small, real first program. This version simulates two days, with a random stand-in for the child's answers:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import random\n\n# three boxes: new or missed facts, getting there, known\nboxes = {1: [(6, 7), (7, 8), (8, 6), (12, 7)], 2: [(4, 6), (3, 8)], 3: [(6, 6)]}\nreview_every = {1: 1, 2: 2, 3: 5}          # box 1 daily, box 2 every 2 days, box 3 every 5\n\ndef todays_cards(day):\n    return [f for box, facts in boxes.items() if day % review_every[box] == 0 for f in facts]\n\ndef answer(fact, correct):\n    for box, facts in boxes.items():\n        if fact in facts:\n            facts.remove(fact)\n            new_box = min(box + 1, 3) if correct else 1   # a miss always goes back to box 1\n            boxes[new_box].append(fact)\n            return new_box\n\nrandom.seed(4)\nfor day in (1, 2):\n    cards = todays_cards(day)\n    print(f\"Day {day}: {len(cards)} cards\")\n    for a, b in cards:\n        correct = random.random() < 0.7         # stand-in for the child's answer\n        moved_to = answer((a, b), correct)\n        print(f\"  {a} x {b} = {a*b:<3} {'right' if correct else 'missed'} -> box {moved_to}\")",
+        "title": "three_boxes.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Day 1: 4 cards\n  6 x 7 = 42  right -> box 2\n  7 x 8 = 56  right -> box 2\n  8 x 6 = 48  right -> box 2\n  12 x 7 = 84  right -> box 2\nDay 2: 6 cards\n  4 x 6 = 24  right -> box 3\n  3 x 8 = 24  right -> box 3\n  6 x 7 = 42  missed -> box 1\n  7 x 8 = 56  missed -> box 1\n  8 x 6 = 48  missed -> box 1\n  12 x 7 = 84  right -> box 3",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice how the facts sort themselves. Anything answered correctly stops appearing every day, so practice time goes to the facts that need it. That is exactly why this beats reciting a whole table top to bottom, which spends most of its time on facts the child already knows. If your child likes this kind of thing, it is a good sign they would enjoy <a href='/why-coding-and-maths-together'>learning coding and maths together</a>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Games that practise tables without worksheets",
+        "id": "games"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cards and boxes cover the memory side. Games cover the fun, and they are especially good for younger children or anyone who has come to dread maths. All of these need nothing more than a deck of cards or two dice."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Multiplication war.</strong> Each player turns over two cards and multiplies them. The biggest product wins all four cards. Take out the picture cards, or count them as 10, 11 and 12.",
+          "<strong>Dice race.</strong> Roll two dice, multiply, and move that many squares on a 100 square. First to 100 wins. Use two 12-sided dice later on.",
+          "<strong>Fact of the day.</strong> One hard fact goes on the fridge. Anyone in the family can ask it at any moment, and the child can ask it back.",
+          "<strong>Beat yesterday.</strong> One minute on the clock, as many facts from box 1 as possible. The only score that counts is yesterday's."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "For more ideas in the same spirit, see our guides to <a href='/blog/how-to-make-maths-fun-for-kids'>making maths fun for kids</a> and <a href='/blog/mental-maths-tricks-for-kids'>mental maths tricks with worked examples</a>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How fast is fast enough?",
+        "id": "how-fast"
+      },
+      {
+        "type": "paragraph",
+        "text": "\"Fluent\" means the answer comes from memory, not from counting. A useful benchmark comes from England, where every Year 4 pupil in a state school takes the Multiplication Tables Check in June: 25 questions on tables up to 12 x 12, with 6 seconds to answer each one. There is no pass mark, but the design tells you what fluency looks like. Six seconds is enough to recall and type an answer and not enough to count up in 7s."
+      },
+      {
+        "type": "paragraph",
+        "text": "In the United States, the Common Core standards set a similar goal: by the end of Grade 3, students should know from memory all products of two one-digit numbers. In India, most schools introduce tables around Classes 2 and 3 and expect them to be secure before Class 5, when long multiplication and division lean on them heavily."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Stage",
+          "What it looks like",
+          "What to do"
+        ],
+        "rows": [
+          [
+            "Counting",
+            "Counts up in 7s on fingers to find 7 x 6",
+            "Teach a strategy for that table"
+          ],
+          [
+            "Deriving",
+            "Says \"5 x 7 is 35, plus 7 is 42\" in a few seconds",
+            "Keep practising. This is progress, not a problem"
+          ],
+          [
+            "Recalling",
+            "Answers 42 in under 3 seconds without visible working",
+            "Move the card to the next box"
+          ],
+          [
+            "Automatic",
+            "Uses 6 x 7 inside bigger problems without slowing down",
+            "Check occasionally, then leave it alone"
+          ]
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "Speed pressure has a cost",
+        "text": "Timed tests help some children and badly hurt others. If your child freezes, cries, or starts saying they are \"bad at maths\" when the clock comes out, drop the timer for a few weeks and focus on derived facts. Anxiety blocks recall far more than a missing fact does. Our guide on <a href='/blog/help-child-with-maths-anxiety'>helping a child with maths anxiety</a> covers this in detail."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How long it takes, and when to worry",
+        "id": "how-long"
+      },
+      {
+        "type": "paragraph",
+        "text": "With the order above and five minutes a day, most children get the whole grid fluent in roughly 6 to 10 weeks. That is a planning estimate from teaching, and it assumes the child already understands what multiplication means, groups of things, rather than treating it as a list of words to remember."
+      },
+      {
+        "type": "paragraph",
+        "text": "It is worth a closer look if a child of 9 or 10 still counts on fingers for most facts after a term of steady practice, cannot say whether 6 x 7 is closer to 40 or 70, or mixes up addition and multiplication facts often. None of that means something is wrong, but it usually points to a gap underneath the tables, such as place value or number sense, and drilling harder will not fix it. Our article on <a href='/blog/why-is-my-child-struggling-with-maths'>why children struggle with maths</a> goes through the common causes."
+      },
+      {
+        "type": "quote",
+        "text": "Nobody needs to memorise 144 facts. They need 21 facts, a way to work out the rest, and five minutes a day.",
+        "author": "How we explain it to parents"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Times tables are one small part of our <a href='/online-maths-tuition'>live online maths classes</a>, but they are a revealing one. When a child struggles with them, a good teacher can usually find out why in a single session: a gap in understanding, anxiety, or just no system for practice. Classes are live, one to one or in small groups of 5 to 10, and every student gets a teacher who checks understanding, not just answers. For students who have fallen behind, our <a href='/math-catch-up-program'>maths catch-up programme</a> rebuilds the foundations in order."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is the fastest way to learn times tables?",
+            "content": "Learn the pattern tables first (1s, 10s, 2s, 5s, 11s and 9s), treat 7 x 8 and 8 x 7 as one fact, and derive the remaining 21 facts from ones you already know. Then practise those for five minutes a day with a spaced review system like three boxes of flashcards. Most children are fluent in 6 to 10 weeks."
+          },
+          {
+            "title": "What order should times tables be learned in?",
+            "content": "A good order is 1s and 10s, then 2s, 5s, 11s and 9s, then 4s and 8s by doubling, 3s and 6s, 12s, and the 7s last. Each table then builds on the ones before, and by the time you reach the 7s only 7 x 7 is new."
+          },
+          {
+            "title": "At what age should a child know their times tables?",
+            "content": "In England, children are expected to know tables up to 12 x 12 by Year 4, around age 8 or 9, when they take the Multiplication Tables Check. In the US, Common Core expects all single-digit products by the end of Grade 3. Children who get there later can catch up quickly with the right method."
+          },
+          {
+            "title": "What is the trick for the 9 times table?",
+            "content": "Multiply by 10 and subtract the number once: 9 x 7 is 70 minus 7, which is 63. Up to 9 x 10, the digits of each answer also add up to 9, which gives a quick way to check."
+          },
+          {
+            "title": "How do I help my child who keeps forgetting times tables?",
+            "content": "Forgetting usually means the facts were memorised as sounds without a way to work them out. Teach a strategy for each hard fact, then use short daily retrieval practice with spacing, reviewing missed facts more often than known ones. Five minutes daily beats half an hour at the weekend."
+          },
+          {
+            "title": "Should children still learn times tables when calculators exist?",
+            "content": "Yes. Tables are not really about getting a single answer. They are the base for fractions, division, factors, percentages and algebra, and a child who has to stop and calculate every product loses track of the bigger problem they are solving."
+          },
+          {
+            "title": "Are times tables apps useful?",
+            "content": "They can be, if they make the child recall answers rather than choose from options, and if they revisit missed facts more often. Many apps reward speed on facts a child already knows, which feels good and teaches little. Cards and a three-box system often work as well or better."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "mental-maths-tricks-for-kids",
+    "how-to-make-maths-fun-for-kids",
+    "help-child-with-maths-anxiety"
+  ]
+}
