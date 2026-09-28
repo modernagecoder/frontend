@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "slug": "prime-numbers-explained",
+    "title": "Prime Numbers Explained: Sieve, Factors and Proof",
+    "description": "Prime numbers explained: what they are, why 1 is not prime, the sieve of Eratosthenes, prime factorisation, why primes never run out, and real uses.",
+    "keywords": [
+      "prime numbers",
+      "what is a prime number",
+      "prime numbers 1 to 100",
+      "why is 1 not a prime number",
+      "prime factorisation",
+      "sieve of eratosthenes",
+      "how to check if a number is prime",
+      "are there infinitely many primes"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Maths",
+    "tags": [
+      "Maths",
+      "Prime Numbers",
+      "Number Theory",
+      "Python"
+    ],
+    "readTime": "9 min read",
+    "featured": false,
+    "tldr": "A prime number is a whole number greater than 1 whose only factors are 1 and itself, such as 2, 3, 5, 7, 11 and 13. 2 is the only even prime and 1 is not prime. There are 25 primes below 100, found with the sieve of Eratosthenes by crossing out multiples. Every whole number above 1 is a product of primes in exactly one way, which is why primes are called the building blocks of arithmetic. Euclid proved there are infinitely many, and large primes secure online encryption."
+  },
+  "hero": {
+    "title": "Prime Numbers Explained",
+    "subtitle": "What primes are, why 1 is not one of them, how to find them with a 2,000-year-old sieve, why they never run out, and how they protect the internet.",
+    "featuredImage": {
+      "url": "/images/blog/prime-numbers-explained/00-hero.png",
+      "alt": "Prime numbers explained: a 1 to 100 grid with the 25 primes highlighted"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Prime numbers are the building blocks of arithmetic. Every whole number bigger than 1 is either a prime or can be made by multiplying primes together, in exactly one way. That simple fact sits underneath fractions, HCF and LCM, and the encryption that protects every online payment you have ever made. Primes are also one of the few topics where a 10-year-old and a professional mathematician can be interested in the same question."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide explains what prime numbers are, why 1 is not one of them, how to find primes with a 2,000-year-old method, how to break any number into its prime factors, why there are infinitely many primes, and where they are used in real life. Every list, count and factorisation here was produced by running the Python code shown alongside it."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "A prime number is a whole number greater than 1 with exactly two factors: 1 and itself. The first few are 2, 3, 5, 7, 11, 13, 17, 19, 23 and 29. 2 is the only even prime, and 1 is not prime because it has only one factor. Every whole number greater than 1 can be written as a product of primes in exactly one way, and there are infinitely many primes."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What a prime number is",
+        "id": "what-is-a-prime"
+      },
+      {
+        "type": "paragraph",
+        "text": "A <strong>prime number</strong> is a whole number greater than 1 that can only be divided exactly by 1 and by itself. 7 is prime: the only whole numbers that divide it are 1 and 7. 8 is not: it can also be divided by 2 and 4. Numbers greater than 1 that are not prime are called <strong>composite</strong>."
+      },
+      {
+        "type": "paragraph",
+        "text": "A helpful way to picture it: try to arrange a number of counters into a rectangle with more than one row. 12 counters make a 3 by 4 rectangle, so 12 is composite. 7 counters can only make a single line, 1 by 7, so 7 is prime."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>2 is the only even prime.</strong> Every other even number can be divided by 2, so it has at least three factors.",
+          "<strong>1 is not prime.</strong> It has only one factor, itself. Mathematicians exclude it on purpose, because including it would break the rule that every number has only one prime factorisation (you could add as many 1s as you liked).",
+          "<strong>0 is not prime</strong>, and negative numbers are not counted as prime either."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Finding primes: the sieve of Eratosthenes",
+        "id": "sieve"
+      },
+      {
+        "type": "paragraph",
+        "text": "Over two thousand years ago, the Greek scholar Eratosthenes described a method for finding every prime up to a limit, and it is still one of the best. Write out the numbers, then cross out every multiple of 2 except 2, every multiple of 3 except 3, and so on. Whatever survives is prime."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/prime-numbers-explained/01-sieve.png",
+        "alt": "The sieve of Eratosthenes applied to the numbers 1 to 100, with the 25 primes highlighted and the steps listed",
+        "caption": "Cross out multiples, and the primes are what survive."
+      },
+      {
+        "type": "paragraph",
+        "text": "You only need to sieve with primes up to the square root of your limit. For 100 that means 2, 3, 5 and 7, because any composite number below 100 must have a factor of 7 or less. Here is the sieve in Python, used to list the primes below 100 and to count them further out:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def primes_up_to(n):\n    is_prime = [True] * (n + 1)\n    is_prime[0] = is_prime[1] = False           # 0 and 1 are not prime\n    for p in range(2, int(n ** 0.5) + 1):\n        if is_prime[p]:\n            for multiple in range(p * p, n + 1, p):\n                is_prime[multiple] = False       # cross out every multiple of p\n    return [x for x in range(n + 1) if is_prime[x]]\n\nprint(primes_up_to(100))\nfor limit in (100, 1_000, 10_000, 100_000):\n    print(f\"primes below {limit:>7,}: {len(primes_up_to(limit)):>5,}\")",
+        "title": "sieve.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]\nprimes below     100:    25\nprimes below   1,000:   168\nprimes below  10,000: 1,229\nprimes below 100,000: 9,592",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Look at how the counts thin out. A quarter of the numbers below 100 are prime, but only about one in ten below 100,000. Primes get rarer as numbers get bigger, but, as we will see, they never stop."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Below",
+          "Number of primes",
+          "Share of numbers"
+        ],
+        "rows": [
+          [
+            "100",
+            "25",
+            "25.0%"
+          ],
+          [
+            "1,000",
+            "168",
+            "16.8%"
+          ],
+          [
+            "10,000",
+            "1,229",
+            "12.3%"
+          ],
+          [
+            "100,000",
+            "9,592",
+            "9.6%"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Prime factorisation and factor trees",
+        "id": "factorisation"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every whole number greater than 1 can be written as a product of primes, and there is only one way to do it, apart from the order. This is called the <strong>fundamental theorem of arithmetic</strong>, and it is why primes are described as the atoms of arithmetic."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/prime-numbers-explained/02-factor-tree.png",
+        "alt": "Factor tree for 360 splitting into 2, 2, 2 and 45, with 360 written as 2 cubed times 3 squared times 5",
+        "caption": "Whichever way you split 360, the primes at the ends of the branches are the same."
+      },
+      {
+        "type": "paragraph",
+        "text": "To find the prime factors by hand, draw a factor tree: split the number into any two factors, then keep splitting each branch until every branch ends in a prime. The program below does the same thing by dividing by 2 as many times as it can, then 3, then 5, and so on:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def prime_factors(n):\n    factors, p = [], 2\n    while n > 1:\n        while n % p == 0:          # divide by p as many times as it goes\n            factors.append(p)\n            n //= p\n        p += 1\n    return factors\n\nfor n in (60, 84, 97, 360, 1001, 2026):\n    f = prime_factors(n)\n    print(f\"{n:>5} = {' x '.join(map(str, f))}\" + (\"   (prime)\" if len(f) == 1 else \"\"))",
+        "title": "prime_factors.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "   60 = 2 x 2 x 3 x 5\n   84 = 2 x 2 x 3 x 7\n   97 = 97   (prime)\n  360 = 2 x 2 x 2 x 3 x 3 x 5\n 1001 = 7 x 11 x 13\n 2026 = 2 x 1013",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Prime factorisation is how HCF and LCM are found in school maths: the HCF uses the primes two numbers share, and the LCM uses every prime either needs. Our guide to <a href='/blog/how-to-find-hcf-and-lcm-in-python'>finding HCF and LCM in Python</a> shows five methods, including this one."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A faster way to test whether a number is prime",
+        "id": "testing"
+      },
+      {
+        "type": "paragraph",
+        "text": "To check whether a number is prime, you might try dividing by every number below it. That works but is wasteful. Factors come in pairs, and in every pair one factor is at most the square root of the number. So if nothing up to the square root divides it, nothing will. For a number around a million, that means trying about a thousand divisors instead of a million."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from time import perf_counter\n\ndef is_prime_slow(n):            # try every number below n\n    return n > 1 and all(n % d for d in range(2, n))\n\ndef is_prime_fast(n):            # only try up to the square root\n    return n > 1 and all(n % d for d in range(2, int(n ** 0.5) + 1))\n\nn = 999_983                       # the largest prime below one million\nfor name, test in ((\"every divisor\", is_prime_slow), (\"up to square root\", is_prime_fast)):\n    start = perf_counter()\n    result = test(n)\n    print(f\"{name:<18} prime={result}   {perf_counter() - start:.4f} s\")",
+        "title": "prime_test.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "every divisor      prime=True   0.0684 s\nup to square root  prime=True   0.0001 s",
+        "title": "Output (timings from the machine this was run on)"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/prime-numbers-explained/04-square-root.png",
+        "alt": "Why testing divisors up to the square root is enough, with measured times for testing 999,983 both ways",
+        "caption": "The same answer, a small fraction of the work."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Quick divisibility checks",
+        "text": "Before dividing, rule out the easy ones. Even numbers (except 2) are not prime. If the digits add up to a multiple of 3, the number is divisible by 3. If it ends in 0 or 5, it is divisible by 5. These three checks catch most composite numbers instantly."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why there are infinitely many primes",
+        "id": "infinite"
+      },
+      {
+        "type": "paragraph",
+        "text": "Around 300 BCE, Euclid proved that the primes never run out, and his argument is short enough for a curious 12-year-old to follow. Suppose you had a complete list of all the primes. Multiply them all together and add 1. The new number leaves a remainder of 1 when divided by every prime on your list, so none of them divides it. But every number above 1 has at least one prime factor, so there must be a prime that is not on your list. The list was not complete after all, and that is true of every list."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from math import prod\n\n# Euclid's idea: multiply some primes together and add 1.\n# The result is not divisible by any of them, so a new prime must exist.\nfor primes in ([2, 3], [2, 3, 5], [2, 3, 5, 7], [2, 3, 5, 7, 11, 13]):\n    n = prod(primes) + 1\n    leftovers = [n % p for p in primes]\n    print(f\"{' x '.join(map(str, primes))} + 1 = {n:>5}   remainders: {leftovers}\")",
+        "title": "euclid.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "2 x 3 + 1 =     7   remainders: [1, 1]\n2 x 3 x 5 + 1 =    31   remainders: [1, 1, 1]\n2 x 3 x 5 x 7 + 1 =   211   remainders: [1, 1, 1, 1]\n2 x 3 x 5 x 7 x 11 x 13 + 1 = 30031   remainders: [1, 1, 1, 1, 1, 1]",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/prime-numbers-explained/03-infinite.png",
+        "alt": "Euclid's argument that there are infinitely many primes: products of primes plus 1 leave remainder 1 when divided by each prime",
+        "caption": "Remainder 1 every time, so a new prime factor must exist."
+      },
+      {
+        "type": "paragraph",
+        "text": "One subtlety worth noticing: the new number is not always prime itself. 2 x 3 x 5 x 7 x 11 x 13 + 1 = 30031, which equals 59 x 509. But 59 and 509 are both primes that were not on the list, which is exactly what the proof needs."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where prime numbers are used",
+        "id": "real-life"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Online security.</strong> The RSA encryption system, used for decades to protect websites and payments, relies on the fact that multiplying two very large primes is easy, but splitting the result back into those primes is extremely hard. Your browser relies on problems like this every time you see a padlock.",
+          "<strong>Hashing and computing.</strong> Programmers often use prime sizes for hash tables and in random number generators, because primes help spread values evenly.",
+          "<strong>Nature.</strong> Some species of periodical cicadas in North America emerge every 13 or 17 years, both primes. One explanation biologists have proposed is that prime cycles make it harder for predators with shorter cycles to sync up with them.",
+          "<strong>Puzzles and competitions.</strong> Primes appear constantly in maths olympiad problems, from the simplest divisibility question to deep number theory."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Primes are the one topic where a ten-year-old can ask a question that nobody on Earth knows the answer to.",
+        "author": "Why we love teaching them"
+      },
+      {
+        "type": "paragraph",
+        "text": "That quote is literally true. Nobody knows whether there are infinitely many twin primes, pairs like 11 and 13 that differ by 2, even though mathematicians have been trying to prove it for centuries."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In our classes, students sieve the first hundred numbers by hand before writing the sieve in code, and draw factor trees before automating them. Doing both is what makes the ideas stick: the hand version builds intuition, and the code version tests it. Primes appear in our <a href='/online-maths-tuition'>live maths classes</a> and in our coding courses, where they make excellent first algorithm problems, taught one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is a prime number?",
+            "content": "A prime number is a whole number greater than 1 that has exactly two factors: 1 and itself. Examples are 2, 3, 5, 7, 11 and 13. A number with more than two factors, such as 12, is called composite."
+          },
+          {
+            "title": "Why is 1 not a prime number?",
+            "content": "Because it has only one factor, itself, and a prime needs exactly two. Excluding 1 also keeps the rule that every whole number has only one prime factorisation. If 1 were prime, you could add any number of 1s to a factorisation."
+          },
+          {
+            "title": "Is 2 a prime number?",
+            "content": "Yes. 2 is the smallest prime and the only even prime. Its only factors are 1 and 2. Every other even number is divisible by 2, so it cannot be prime."
+          },
+          {
+            "title": "How many prime numbers are there between 1 and 100?",
+            "content": "There are 25 prime numbers below 100: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89 and 97."
+          },
+          {
+            "title": "How do you check if a large number is prime?",
+            "content": "Divide it by each prime up to its square root. If none of them divides it exactly, the number is prime. For example, to test 97 you only need to try 2, 3, 5 and 7, because the square root of 97 is just under 10."
+          },
+          {
+            "title": "What is prime factorisation?",
+            "content": "Writing a number as a product of prime numbers, for example 360 = 2 x 2 x 2 x 3 x 3 x 5. Every whole number greater than 1 has exactly one prime factorisation, which is called the fundamental theorem of arithmetic."
+          },
+          {
+            "title": "Are there infinitely many prime numbers?",
+            "content": "Yes. Euclid proved it around 300 BCE: multiply any list of primes together and add 1, and the result must have a prime factor that is not on the list. So no list of primes can ever be complete."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "how-to-find-hcf-and-lcm-in-python",
+    "armstrong-number-python-complete-guide-examples-code",
+    "how-to-get-better-at-maths"
+  ]
+}

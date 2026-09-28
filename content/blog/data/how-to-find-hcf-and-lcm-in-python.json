@@ -50,6 +50,10 @@
       },
       {
         "type": "paragraph",
+        "text": "Both are easiest to understand through prime factorisation, which is explained step by step, with factor trees and working code, in <a href='/blog/prime-numbers-explained'>prime numbers explained</a>."
+      },
+      {
+        "type": "paragraph",
         "text": "The good news is that Python gives you more than one path to the answer. You can let a built-in function do the whole job in a single line, or you can write the logic yourself and understand exactly what is happening under the hood. Both are worth knowing: one for real work, one for learning."
       },
       {

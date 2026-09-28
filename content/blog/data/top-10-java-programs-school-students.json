@@ -397,6 +397,10 @@
         "text": "Prime numbers are special. They're only divisible by 1 and themselves. This program teaches you to check mathematical properties."
       },
       {
+        "type": "paragraph",
+        "text": "Before writing the program, it helps to know why the loop only needs to run up to the square root, and why 1 is not prime at all. <a href='/blog/prime-numbers-explained'>Prime numbers explained</a> covers both, with the sieve of Eratosthenes and factor trees."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "What You'll Learn"
