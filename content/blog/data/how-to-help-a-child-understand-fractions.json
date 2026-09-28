@@ -1,0 +1,388 @@
+{
+  "meta": {
+    "slug": "how-to-help-a-child-understand-fractions",
+    "title": "How to Help a Child Understand Fractions",
+    "description": "How to help a child understand fractions: the 4 misconceptions behind most mistakes, the number line, fraction walls, the right order, and home activities.",
+    "keywords": [
+      "how to help a child understand fractions",
+      "how to explain fractions to a child",
+      "teaching fractions to kids",
+      "equivalent fractions explained",
+      "why is 1/8 smaller than 1/4",
+      "adding fractions with different denominators",
+      "fraction wall"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Maths",
+    "tags": [
+      "Maths",
+      "Fractions",
+      "Parents",
+      "Primary Maths"
+    ],
+    "readTime": "12 min read",
+    "featured": false,
+    "tldr": "Teach fractions as numbers, not just slices of a shape. Place them on a number line so a child sees each fraction has a size and a position, use a fraction wall to show that 1/2, 2/4 and 3/6 are the same number, and tackle the four beliefs behind most mistakes: that a bigger denominator means a bigger fraction, that you add tops and bottoms, that fractions are only parts of shapes, and that multiplying always makes things bigger. Follow the usual order of fair shares, fractions as numbers, equivalence, adding, then multiplying and dividing."
+  },
+  "hero": {
+    "title": "How to Help a Child Understand Fractions",
+    "subtitle": "The four misunderstandings behind most fraction mistakes, the one picture that fixes them, and the order fractions should be taught in.",
+    "featuredImage": {
+      "url": "/images/blog/how-to-help-a-child-understand-fractions/00-hero.png",
+      "alt": "Number line from 0 to beyond 1 with fractions placed on it, illustrating how to help a child understand fractions"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Fractions are where a lot of children decide they are \"not a maths person\". Up to that point, bigger numbers meant bigger amounts and adding meant putting things together. Then, suddenly, 1/8 is smaller than 1/4, adding 1/2 and 1/3 does not give 2/5, and multiplying can make something smaller. If nobody explains why, it feels like the rules have changed for no reason."
+      },
+      {
+        "type": "paragraph",
+        "text": "The good news is that almost every fraction difficulty comes from a small number of misunderstandings, and each one can be fixed with the right picture and a few minutes of talk. This guide shows you what those misunderstandings are, the one picture that fixes most of them, the order fractions should be taught in, and activities you can do at home with things you already own. It is written for parents of children aged about 7 to 13, but it works just as well for an adult who never felt sure about fractions."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "Teach fractions as numbers with a place on a number line, not only as slices of a shape. Use a fraction wall to show that 1/2, 2/4 and 3/6 are the same number. Tackle the four common misconceptions head on, and follow a sensible order: fair shares, then fractions as numbers, then equivalence, then adding, then multiplying and dividing."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why fractions matter more than almost any other topic",
+        "id": "why-it-matters"
+      },
+      {
+        "type": "paragraph",
+        "text": "It is tempting to treat fractions as one topic among many. The evidence says otherwise. A 2012 study led by the psychologist Robert Siegler followed children in the United States and the United Kingdom and found that knowledge of fractions and division in the last years of primary school predicted algebra and overall maths achievement in high school, five or six years later, even after accounting for other maths knowledge, general intellectual ability, working memory, and family income and education. Fractions are a gateway. Ratios, percentages, probability, algebra and most of secondary school maths are built directly on top of them."
+      },
+      {
+        "type": "paragraph",
+        "text": "So if your child is struggling with fractions now, it is worth fixing properly rather than hoping it resolves itself. It usually does not, and the gap shows up again two years later dressed as an algebra problem."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The four beliefs behind most fraction mistakes",
+        "id": "misconceptions"
+      },
+      {
+        "type": "paragraph",
+        "text": "When a child gets fractions wrong, they are rarely being careless. They are applying a rule that worked perfectly with whole numbers to a place where it no longer holds. Finding which rule they are applying is most of the work."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-help-a-child-understand-fractions/01-misconceptions.png",
+        "alt": "Four common fraction misconceptions in children, each shown with the correct idea",
+        "caption": "Each mistake is a whole-number rule used in the wrong place."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. \"Bigger bottom number, bigger fraction\""
+      },
+      {
+        "type": "paragraph",
+        "text": "A child who has only ever seen bigger numbers mean more will say 1/8 is bigger than 1/4. The fix is physical: cut one strip of paper into 4 equal parts and another the same length into 8. Ask which pieces are bigger. More pieces from the same whole means smaller pieces. Once a child sees it, they rarely forget it."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. \"Add the tops, add the bottoms\""
+      },
+      {
+        "type": "paragraph",
+        "text": "1/2 + 1/3 = 2/5 is the most common fraction error there is, and it comes from treating a fraction as two separate numbers stacked on top of each other. The quickest way to shake it is a reasonableness check: 2/5 is less than 1/2, so adding something to 1/2 cannot possibly give 2/5. Children who estimate before calculating catch this themselves."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. \"A fraction is a piece of a shape\""
+      },
+      {
+        "type": "paragraph",
+        "text": "Pizza and cake pictures are fine to start with, but if they are the only picture a child has, fractions never become numbers. They cannot say where 3/4 sits compared with 2/3, and a fraction bigger than 1, like 5/4, makes no sense at all (how can you have more than the whole pizza?). The fix is the number line, below."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. \"Multiplying makes things bigger\""
+      },
+      {
+        "type": "paragraph",
+        "text": "With whole numbers it always does. With fractions it often does not: 10 x 1/2 = 5. Link it to language the child already uses. \"Half of 10\" and \"10 times a half\" are the same question. Multiplying by a number less than 1 means taking only part of something, so of course the answer shrinks."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The picture that fixes most of it: the number line",
+        "id": "number-line"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you do only one thing from this guide, make it this. Draw a line, mark 0 and 1, and start placing fractions on it. Where does 1/2 go? What about 1/4? Is 2/3 to the left or right of 3/4? Where would 5/4 be?"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-help-a-child-understand-fractions/02-number-line.png",
+        "alt": "Number line from 0 to beyond 1 with 1/4, 1/3, 1/2, 2/3, 3/4, 5/6 and 5/4 marked in their exact positions",
+        "caption": "The number line turns fractions into numbers with an order and a size."
+      },
+      {
+        "type": "paragraph",
+        "text": "This matters because a number line forces a child to think of each fraction as a single amount, with a size you can compare. It also makes fractions greater than 1 perfectly natural, and it connects smoothly to decimals later, because 0.75 and 3/4 are just two labels for the same point. Guidance for teachers from the US Institute of Education Sciences on fraction teaching makes the number line a central recommendation for exactly this reason."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "A two-minute game",
+        "text": "Put masking tape on the floor as a number line from 0 to 2. Call out a fraction and your child stands where it belongs. Then swap roles and let them call one for you, and get it slightly wrong so they can correct you. Children remember the positions surprisingly well because they have physically stood there."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Equivalent fractions: same number, different names",
+        "id": "equivalent"
+      },
+      {
+        "type": "paragraph",
+        "text": "Equivalent fractions are where many children start memorising rules (\"do the same to the top and bottom\") without understanding them. The rule is correct, but it is much easier to trust once you have seen why. A fraction wall shows it directly."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-help-a-child-understand-fractions/03-fraction-wall.png",
+        "alt": "Fraction wall showing wholes, halves, thirds, quarters, sixths, eighths and twelfths, with the blocks that make one half outlined in each row",
+        "caption": "In every row with an even number of pieces, half of them make exactly one half."
+      },
+      {
+        "type": "paragraph",
+        "text": "Draw or print a wall like this and ask your child to find all the fractions equal to one half. Then one third. Then three quarters. They discover the pattern themselves: 3/4 = 6/8 = 9/12. Once they have found it, the \"multiply top and bottom by the same number\" rule stops being magic. It is just a way of cutting every piece into equal smaller pieces, which changes the name and not the amount."
+      },
+      {
+        "type": "paragraph",
+        "text": "A useful way to say it at home: 3/4 and 6/8 are the same number wearing different clothes."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Adding fractions: why the denominators must match",
+        "id": "adding"
+      },
+      {
+        "type": "paragraph",
+        "text": "Once equivalence makes sense, adding fractions with different denominators becomes logical rather than a procedure to memorise. You can only add pieces once they are the same size, the same way you cannot add 3 metres and 20 centimetres until you write both in centimetres."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-help-a-child-understand-fractions/04-adding.png",
+        "alt": "Bar model showing 1/2 as 3/6 and 1/3 as 2/6, added together to make 5/6",
+        "caption": "Change both fractions into sixths, then count the pieces."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "Ask what size of piece both fractions can be cut into. For halves and thirds, sixths work.",
+          "Rename each fraction: 1/2 becomes 3/6 and 1/3 becomes 2/6.",
+          "Now the pieces match, so count them: 3 sixths plus 2 sixths is 5 sixths.",
+          "Check it makes sense: 5/6 is a bit less than 1, and 1/2 plus a bit more than a quarter should be a bit less than 1. It is."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "That last step, checking the answer is sensible, is the habit that protects children from the add-the-tops mistake for good. Make it part of every fraction question, not an extra."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Checking fraction answers with a few lines of Python",
+        "id": "check-with-python"
+      },
+      {
+        "type": "paragraph",
+        "text": "If your child is learning to code, fractions are a lovely place to connect the two subjects. Python has a built-in fractions module that does exact fraction arithmetic, so a child can test their own reasoning. This short program checks each of the misconceptions above. The output below is its real output."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from fractions import Fraction\n\n# the mistake almost every child makes once: add the tops, add the bottoms\nwrong = Fraction(1 + 1, 2 + 3)\nright = Fraction(1, 2) + Fraction(1, 3)\nprint(\"1/2 + 1/3, adding tops and bottoms:\", wrong)\nprint(\"1/2 + 1/3, done properly:          \", right)\nprint(\"Is 2/5 even bigger than 1/2?       \", wrong > Fraction(1, 2))\n\n# bigger denominator does not mean bigger fraction\nfor f in [Fraction(1, 3), Fraction(1, 4), Fraction(1, 8)]:\n    print(f\"{str(f):>4} = {float(f):.3f}\")\n\n# the same number wearing different clothes\nprint(\"Equal to 3/4:\", [f\"{3*k}/{4*k}\" for k in range(1, 5)], Fraction(9, 12) == Fraction(3, 4))",
+        "title": "fraction_check.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "1/2 + 1/3, adding tops and bottoms: 2/5\n1/2 + 1/3, done properly:           5/6\nIs 2/5 even bigger than 1/2?        False\n 1/3 = 0.333\n 1/4 = 0.250\n 1/8 = 0.125\nEqual to 3/4: ['3/4', '6/8', '9/12', '12/16'] True",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "The point is not to let the computer do the homework. It is to let a child make a prediction, test it, and see for themselves that 2/5 is smaller than 1/2. That kind of self-checking is exactly why we believe in <a href='/why-coding-and-maths-together'>teaching coding and maths together</a>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The order fractions should be learned in",
+        "id": "order"
+      },
+      {
+        "type": "paragraph",
+        "text": "Many fraction problems at age 11 come from a skipped step at age 8. If your child is stuck, look one stage earlier than the topic they are stuck on."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-help-a-child-understand-fractions/05-sequence.png",
+        "alt": "Six-stage fraction learning sequence from fair shares at ages 5 to 7 to dividing fractions and algebra at ages 11 to 14",
+        "caption": "A typical order. Most gaps sit one stage below where they show up."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Stage",
+          "Typical age",
+          "Your child can..."
+        ],
+        "rows": [
+          [
+            "Fair shares",
+            "5 to 7",
+            "Split a shape or a group of objects into equal halves and quarters"
+          ],
+          [
+            "Fractions as numbers",
+            "7 to 8",
+            "Place 1/2, 1/4 and 1/3 on a number line and say which is bigger"
+          ],
+          [
+            "Equivalence",
+            "8 to 9",
+            "Explain why 2/4 = 1/2 and find other names for the same fraction"
+          ],
+          [
+            "Adding and subtracting",
+            "9 to 11",
+            "Add fractions with different denominators and check the answer is sensible"
+          ],
+          [
+            "Connecting ideas",
+            "10 to 12",
+            "Find 3/5 of 40, and convert between fractions, decimals and percentages"
+          ],
+          [
+            "Towards algebra",
+            "11 to 14",
+            "Divide by a fraction and explain why dividing by 1/2 doubles a number"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Everyday activities that teach fractions",
+        "id": "at-home"
+      },
+      {
+        "type": "paragraph",
+        "text": "You do not need worksheets. Fractions are everywhere at home, and children learn them faster when they are useful."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Cooking.</strong> Measuring cups and spoons are fractions you can hold. Ask how many quarter cups make a whole cup, or how to make half a recipe. Halving 3/4 of a cup is a real problem with a real answer.",
+          "<strong>Chocolate bars.</strong> Better than pizza because the pieces are genuinely equal. A bar of 12 squares shows halves, thirds, quarters, sixths and twelfths all at once.",
+          "<strong>Folding paper.</strong> Fold a strip in half, then half again. Unfold it and count. Now fold another strip into thirds and compare. This is the fraction wall, made by hand.",
+          "<strong>Money and time.</strong> A quarter of an hour, half of the pocket money, a third off in a sale. Each one is a fraction of an amount.",
+          "<strong>Sport.</strong> Two out of three shots scored, halves of a match, a quarter of the pitch."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "For more ideas like these, our guide to <a href='/blog/how-to-make-maths-fun-for-kids'>making maths fun for kids</a> has a game you can play tonight. And if homework time turns into a battle, read <a href='/blog/help-child-with-maths-homework'>how to help with maths homework without solving it</a>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "When to get extra help",
+        "id": "extra-help"
+      },
+      {
+        "type": "paragraph",
+        "text": "Some confusion is normal and part of learning. It is worth getting help if, after a few weeks of patient practice, your child still cannot say whether 1/3 or 1/4 is bigger, still adds tops and bottoms after being shown why it fails, or has started to avoid maths altogether. The first two usually mean a stage was skipped. The third means confidence has taken a hit, and that is worth addressing before it spreads to other topics. Our article on <a href='/blog/why-is-my-child-struggling-with-maths'>why children struggle with maths</a> explains how to tell these apart."
+      },
+      {
+        "type": "quote",
+        "text": "Most children who say they hate fractions have only ever been shown the rules. Show them the number line, and the rules start to make sense.",
+        "author": "What our maths teachers see every term"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach fractions",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, fractions are taught the way this guide describes: number lines and fraction walls first, rules second, and a reasonableness check on every answer. Classes are one to one or in small groups of 5 to 10, and teachers look for the stage where understanding actually breaks down rather than drilling the topic on the page. For children who have fallen behind, the <a href='/math-catch-up-program'>maths catch-up programme</a> rebuilds foundations in order."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is the best way to explain fractions to a child?",
+            "content": "Start with fair shares of real objects, then move quickly to a number line so the child sees each fraction as a single number with a position and a size. Use a fraction wall to show that different fractions can be equal. Avoid relying only on pizza pictures, which make fractions bigger than 1 confusing."
+          },
+          {
+            "title": "Why is 1/8 smaller than 1/4?",
+            "content": "Because the whole is cut into more pieces. When you cut the same whole into 8 equal parts instead of 4, each part is half the size. A strip of paper folded into quarters and another into eighths shows this in seconds."
+          },
+          {
+            "title": "At what age should children understand fractions?",
+            "content": "Children usually meet halves and quarters at 5 to 7, place fractions on a number line and compare them at 7 to 9, and add fractions with different denominators at around 9 to 11. Every child moves at their own pace, and a gap at one stage is easy to fix once it is found."
+          },
+          {
+            "title": "Why can't you add the numerators and denominators?",
+            "content": "Because fractions are single numbers, not two separate numbers stacked together. Adding 1/2 and 1/3 that way gives 2/5, which is less than 1/2, so it cannot be right. You first rename both fractions using the same size pieces, like sixths, and then add the pieces."
+          },
+          {
+            "title": "How do I help my child with equivalent fractions?",
+            "content": "Use a fraction wall or folded paper strips and ask your child to find every fraction equal to one half, then one third. Once they see that 3/4 and 6/8 line up exactly, the rule of multiplying top and bottom by the same number makes sense instead of feeling like a trick."
+          },
+          {
+            "title": "Is a number line better than a pie chart for fractions?",
+            "content": "For understanding fractions as numbers, yes. Pie and pizza pictures are fine for early fair sharing, but the number line shows order, size, fractions greater than 1 and the link to decimals. Most fraction teaching guidance now puts the number line at the centre."
+          },
+          {
+            "title": "My child is 11 and still confused by fractions. Is it too late?",
+            "content": "Not at all. Older children often fix fraction gaps quickly because they can reason about why the rules work. The key is to find the stage where understanding broke down, usually equivalence or fractions as numbers, and rebuild from there rather than repeating the current topic."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "why-is-my-child-struggling-with-maths",
+    "help-child-with-maths-homework",
+    "how-to-make-maths-fun-for-kids"
+  ]
+}
