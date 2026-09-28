@@ -58,6 +58,10 @@
         "text": "Each program includes complete working code, detailed explanations, time/space complexity analysis, and practical applications. Let's dive in."
       },
       {
+        "type": "paragraph",
+        "text": "New to complexity analysis? Read <a href='/blog/big-o-notation-explained-simply'>Big O notation explained simply</a> first. It covers O(1), O(log n), O(n) and O(n squared) with real measurements, so the analysis under each program below will make more sense."
+      },
+      {
         "type": "callout",
         "calloutType": "info",
         "title": "Difficulty Progression",

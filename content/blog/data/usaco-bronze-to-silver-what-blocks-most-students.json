@@ -131,6 +131,10 @@
         "text": "This is what the phrase know your complexity actually means in practice. Not being able to recite that this is O(n) per query and that is O(1). Being able to look at the constraint line in the statement, see n up to two hundred thousand, and know before writing anything that the obvious approach is dead."
       },
       {
+        "type": "paragraph",
+        "text": "If the notation itself is still hazy, <a href='/blog/big-o-notation-explained-simply'>Big O notation explained simply</a> builds it up from step counts measured by running real searches, then shows how to read the complexity straight off a loop."
+      },
+      {
         "type": "heading",
         "level": 2,
         "text": "The four ideas that carry Silver",

@@ -1,0 +1,359 @@
+{
+  "meta": {
+    "slug": "big-o-notation-explained-simply",
+    "title": "Big O Notation Explained Simply, With Real Code",
+    "description": "Big O notation explained simply: what O(1), O(log n), O(n) and O(n squared) mean, how to read them from code, with step counts and timings measured.",
+    "keywords": [
+      "big o notation explained",
+      "big o notation",
+      "what is big o notation",
+      "time complexity explained",
+      "o(n) vs o(log n)",
+      "big o notation python",
+      "how to calculate big o"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Programming",
+    "tags": [
+      "Algorithms",
+      "Big O",
+      "Python",
+      "Data Structures"
+    ],
+    "readTime": "10 min read",
+    "featured": false,
+    "tldr": "Big O notation describes how the work an algorithm does grows as its input grows, not how many seconds it takes. O(1) stays the same, O(log n) grows very slowly because each step halves the problem, O(n) grows in step with the input, O(n log n) is typical of good sorting, and O(n squared) explodes: ten times more data means about a hundred times more work. You can read it from code: one loop over the input is O(n), a loop inside a loop is O(n squared), then drop constants and smaller terms."
+  },
+  "hero": {
+    "title": "Big O Notation Explained Simply",
+    "subtitle": "What O(1), O(log n), O(n) and O(n²) actually mean, how to read them straight from code, and real measurements that show why they matter.",
+    "featuredImage": {
+      "url": "/images/blog/big-o-notation-explained-simply/00-hero.png",
+      "alt": "Big O notation explained: growth curves for O(1), O(log n), O(n), O(n log n) and O(n squared)"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Big O notation sounds like advanced maths, and most explanations make it look that way. It is actually one simple idea: <strong>as the amount of data grows, how much more work does your code have to do?</strong> A program that handles 100 items instantly might take a second with 100,000 items, or an hour, and Big O is the language programmers use to predict which."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide explains Big O without the heavy maths. Every claim is backed by code you can run: step counts measured by actually running the algorithms, and timings measured on a real machine. By the end you will be able to look at a loop and say what its Big O is, and know why it matters for exams, interviews and real programs."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "Big O describes how the work an algorithm does grows as its input grows. O(1) means the work stays the same, O(log n) grows very slowly, O(n) grows in step with the input, O(n log n) is a bit worse, and O(n²) explodes: ten times more data means a hundred times more work. You read it from the code: one loop is usually O(n), a loop inside a loop is usually O(n²)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What Big O actually measures",
+        "id": "what-it-measures"
+      },
+      {
+        "type": "paragraph",
+        "text": "Big O does not tell you how many seconds a program takes. That depends on the computer, the language, and what else is running. Instead, it tells you the <strong>shape</strong> of the growth. If you double the input, does the work stay the same, double, or quadruple?"
+      },
+      {
+        "type": "paragraph",
+        "text": "That is why it is written with n, the size of the input. O(n) reads as \"order n\" and means the work grows roughly in proportion to n. O(n²) means it grows with n times n. The O is just a label saying \"we are describing the growth, not the exact count\"."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>O(1), constant.</strong> Looking up the first item in a list, or a value in a dictionary. The same work whether there are 10 items or 10 million.",
+          "<strong>O(log n), logarithmic.</strong> Binary search in a sorted list. Each step throws away half of what is left, so a million items need only about 20 steps.",
+          "<strong>O(n), linear.</strong> Checking every item once, like finding the largest number in an unsorted list.",
+          "<strong>O(n log n).</strong> Good sorting algorithms, including the one Python's sorted() uses.",
+          "<strong>O(n²), quadratic.</strong> Comparing every item with every other item. Fine for 100 items, painful for 100,000."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Watching the growth: steps counted by running the code",
+        "id": "step-counts"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here are three real algorithms, each with a counter that adds one for every basic step. The program runs them on lists of increasing size and prints the counts. Nothing here is estimated."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def linear_search(items, target):\n    steps = 0\n    for item in items:\n        steps += 1\n        if item == target:\n            break\n    return steps\n\ndef binary_search(items, target):\n    steps, low, high = 0, 0, len(items) - 1\n    while low <= high:\n        steps += 1\n        mid = (low + high) // 2\n        if items[mid] == target:\n            break\n        if items[mid] < target:\n            low = mid + 1\n        else:\n            high = mid - 1\n    return steps\n\ndef compare_all_pairs(items):\n    steps = 0\n    for i in range(len(items)):\n        for j in range(i + 1, len(items)):\n            steps += 1\n    return steps\n\nprint(f\"{'n':>9} {'linear':>9} {'binary':>7} {'all pairs':>14}\")\nfor n in (10, 100, 1_000, 10_000):\n    data = list(range(n))\n    worst = n - 1                      # the last item: the worst case for a linear search\n    print(f\"{n:>9,} {linear_search(data, worst):>9,} {binary_search(data, worst):>7,} {compare_all_pairs(data):>14,}\")",
+        "title": "count_steps.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "        n    linear  binary      all pairs\n       10        10       4             45\n      100       100       7          4,950\n    1,000     1,000      10        499,500\n   10,000    10,000      14     49,995,000",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/big-o-notation-explained-simply/01-step-counts.png",
+        "alt": "Table of worst-case steps for linear search, binary search and comparing all pairs at 10, 100, 1,000 and 10,000 items",
+        "caption": "Linear grows with n. Binary barely moves. All pairs explodes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Read down each column. Every time n gets ten times bigger, linear search does ten times more work. Binary search adds only three or four steps. Comparing all pairs does about a hundred times more work, because ten times more items means ten times more items to compare, each against ten times more others. At 10,000 items that is nearly fifty million comparisons, for a list that fits comfortably in memory."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Why binary search is so fast",
+        "text": "Binary search only works on sorted data. It looks at the middle item, decides which half the target must be in, and throws the other half away. Halving 10,000 repeatedly reaches 1 in about 14 steps, which is exactly what the counter shows. That halving is where every O(log n) comes from."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to read Big O from code",
+        "id": "reading-code"
+      },
+      {
+        "type": "paragraph",
+        "text": "You do not need to count steps every time. A few rules of thumb cover most code you will see in school, college and interviews."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/big-o-notation-explained-simply/02-reading-code.png",
+        "alt": "Four rules of thumb for reading Big O from code: one loop is O(n), a nested loop is O(n squared), halving is O(log n), no loop is O(1)",
+        "caption": "Most code you will meet can be classified with these four patterns."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Find the loops that depend on the input.</strong> A loop that runs once per item is O(n). A loop that always runs 10 times, whatever the input, is O(1).",
+          "<strong>Nested loops multiply.</strong> A loop over n inside another loop over n is O(n × n) = O(n²). Three levels deep is O(n³).",
+          "<strong>Loops one after another add.</strong> Two separate loops over the input are O(n + n) = O(2n), which is still O(n).",
+          "<strong>Drop constants and smaller terms.</strong> Big O cares about what dominates when n is huge. 3n + 5 becomes O(n). n² + 100n becomes O(n²), because at large n the n² part swamps everything else.",
+          "<strong>Watch for hidden loops.</strong> <code>x in my_list</code> looks like one step but is a loop inside Python. Put it inside your own loop and you have written O(n²) without noticing."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A real example: list or set?",
+        "id": "list-vs-set"
+      },
+      {
+        "type": "paragraph",
+        "text": "That last rule causes more slow beginner programs than anything else, so it is worth seeing properly. Checking whether a value is in a Python list means looking at items one by one: O(n). Checking whether it is in a set uses a hash table to jump straight to where the value would be: O(1) on average. This program measures both, with the same data and the same thousand lookups:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import random\nfrom time import perf_counter\n\nrandom.seed(1)\nfor n in (10_000, 100_000, 1_000_000):\n    numbers = list(range(n))\n    as_set = set(numbers)\n    lookups = [random.randrange(n) for _ in range(1_000)]\n\n    start = perf_counter()\n    for x in lookups:\n        x in numbers              # a list checks items one by one: O(n)\n    list_time = perf_counter() - start\n\n    start = perf_counter()\n    for x in lookups:\n        x in as_set               # a set jumps straight to the item: O(1) on average\n    set_time = perf_counter() - start\n\n    print(f\"n = {n:>9,}   list {list_time*1000:9.2f} ms   set {set_time*1000:6.3f} ms\")",
+        "title": "list_vs_set.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "n =    10,000   list     67.94 ms   set  0.536 ms\nn =   100,000   list   1115.18 ms   set  0.607 ms\nn = 1,000,000   list  11211.89 ms   set  3.188 ms",
+        "title": "Output (timings from the machine this was run on)"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/big-o-notation-explained-simply/03-list-vs-set.png",
+        "alt": "Measured time for 1,000 lookups in a list compared with a set, at 10,000, 100,000 and 1,000,000 items",
+        "caption": "The list's time grows with n. The set's stays almost flat."
+      },
+      {
+        "type": "paragraph",
+        "text": "At a million items the list took about 11,212 milliseconds for a thousand lookups, and the set took about 3.2. Your exact numbers will differ, but the shape will not: the list's time grows with the size of the list, and the set's does not. That is exactly what O(n) versus O(1) predicts."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "The same idea, fixing a slow program"
+      },
+      {
+        "type": "paragraph",
+        "text": "A classic beginner task is checking whether a list contains any duplicate. The obvious solution compares every pair, which is O(n²). The better one remembers what it has already seen in a set, which is O(n). Both give the same answer:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import random\nfrom time import perf_counter\n\ndef has_duplicate_slow(items):          # O(n^2): compare every pair\n    for i in range(len(items)):\n        for j in range(i + 1, len(items)):\n            if items[i] == items[j]:\n                return True\n    return False\n\ndef has_duplicate_fast(items):          # O(n): remember what you have seen\n    seen = set()\n    for item in items:\n        if item in seen:\n            return True\n        seen.add(item)\n    return False\n\nrandom.seed(2)\ndata = random.sample(range(10_000_000), 5_000)    # 5,000 different numbers, so no duplicate\n\nstart = perf_counter(); slow = has_duplicate_slow(data); t_slow = perf_counter() - start\nstart = perf_counter(); fast = has_duplicate_fast(data); t_fast = perf_counter() - start\nprint(\"same answer:\", slow == fast)\nprint(f\"compare every pair: {t_slow:.3f} s\")\nprint(f\"use a set:          {t_fast:.4f} s\")\nprint(f\"about {t_slow / t_fast:,.0f} times faster\")",
+        "title": "duplicates.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "same answer: True\ncompare every pair: 1.137 s\nuse a set:          0.0022 s\nabout 513 times faster",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nothing clever happened. The fast version simply avoided doing the same work over and over. That is what most Big O improvements look like in practice: not a genius algorithm, but noticing that a loop inside a loop can become a lookup."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Big O of everyday Python operations",
+        "id": "python-cheatsheet"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/big-o-notation-explained-simply/04-python-cheatsheet.png",
+        "alt": "Cheat sheet of Big O for common Python operations: list append, membership tests, insert at the front, indexing, set and dictionary lookups, sorting, min and sum",
+        "caption": "Worth memorising. The two in orange cause most slow programs."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Operation",
+          "Big O",
+          "Note"
+        ],
+        "rows": [
+          [
+            "list.append(x)",
+            "O(1) on average",
+            "Occasionally the list resizes, but averaged over many appends it is constant"
+          ],
+          [
+            "list[i]",
+            "O(1)",
+            "Jumping to a position is instant"
+          ],
+          [
+            "x in list",
+            "O(n)",
+            "Checks items one by one"
+          ],
+          [
+            "list.insert(0, x)",
+            "O(n)",
+            "Every other item has to shift along"
+          ],
+          [
+            "x in set, dict[key]",
+            "O(1) on average",
+            "Hash tables jump straight to the right place"
+          ],
+          [
+            "sorted(list)",
+            "O(n log n)",
+            "About as fast as a general sort can be"
+          ],
+          [
+            "min(), max(), sum()",
+            "O(n)",
+            "Each has to look at every item once"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Best, worst and average case",
+        "id": "cases"
+      },
+      {
+        "type": "paragraph",
+        "text": "You will sometimes see Big O described as the worst case. Linear search is O(n) because in the worst case the item is at the end, or missing, and every item gets checked. If the item happens to be first, it takes one step, but you cannot plan around luck. Interviewers and exam questions almost always mean the worst case unless they say otherwise."
+      },
+      {
+        "type": "paragraph",
+        "text": "Dictionaries and sets are the main place where the average case matters. Their lookups are O(1) on average, which is what you get in practice, though a deliberately badly-behaved input can make them slower. For everyday programming you can treat them as constant time."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why it matters for exams, interviews and real code",
+        "id": "why-it-matters"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>School and college exams.</strong> AP Computer Science, A level and university data structures courses all expect you to compare algorithms like linear and binary search, and bubble sort against merge sort, by their growth.",
+          "<strong>Competitive programming.</strong> Contest problems are designed so the obvious O(n²) solution runs out of time. Our post on <a href='/blog/usaco-bronze-to-silver-what-blocks-most-students'>moving from USACO Bronze to Silver</a> shows exactly this wall, measured.",
+          "<strong>Technical interviews.</strong> After you solve a problem, the next question is almost always \"what is the time complexity, and can you do better?\"",
+          "<strong>Real software.</strong> Code that works on your test file of 50 rows can fall over on a real file of 5 million. Knowing Big O is how you spot that before your users do."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Big O is not about making fast code faster. It is about not writing code that falls over when the data gets real.",
+        "author": "What we tell students before their first interview"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In our data structures and algorithms classes, students measure before they memorise: they count steps, time real programs and watch the curves bend, as in this post, before learning the notation. It sticks far better than a table of complexities. We teach it in Python, Java and C++ through our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a>, in live classes that are one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is Big O notation in simple terms?",
+            "content": "Big O notation describes how much more work an algorithm has to do as its input grows. O(n) means the work grows in proportion to the input, O(n squared) means it grows with the square of the input, and O(1) means it stays the same no matter how big the input gets."
+          },
+          {
+            "title": "What does O(n) mean?",
+            "content": "O(n) means linear time: the work grows in direct proportion to the size of the input. If you double the number of items, the work roughly doubles. Looking at every item in a list once, such as finding the largest number, is O(n)."
+          },
+          {
+            "title": "What is O(log n)?",
+            "content": "O(log n) means the work grows very slowly, because each step cuts the remaining problem in half. Binary search is the classic example: searching a sorted list of a million items takes only about 20 steps."
+          },
+          {
+            "title": "Is O(1) always faster than O(n)?",
+            "content": "Not for every input size. O(1) means the time does not grow with the input, but that constant time could still be large. For big inputs, O(1) wins, which is why Big O focuses on growth rather than exact speed."
+          },
+          {
+            "title": "How do you calculate Big O of a program?",
+            "content": "Look at the loops that depend on the input size. One loop over the input is O(n), a loop inside a loop is O(n squared), and repeatedly halving the problem is O(log n). Add loops that run one after another, multiply loops that are nested, then drop constants and smaller terms."
+          },
+          {
+            "title": "Why do we drop constants in Big O?",
+            "content": "Because Big O describes what happens as the input becomes very large. At that scale, doing 3n steps instead of n steps matters far less than whether the work grows like n or like n squared. Constants depend on the computer and language, while the growth rate does not."
+          },
+          {
+            "title": "Do I need Big O for coding interviews?",
+            "content": "Yes. Almost every technical interview asks for the time complexity of your solution and whether it can be improved. Knowing the common patterns, such as replacing a nested loop with a set or dictionary lookup, is one of the most useful interview skills."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "usaco-bronze-to-silver-what-blocks-most-students",
+    "competitive-coding-vs-development-skills-what-students-focus",
+    "python-dictionary-complete-guide"
+  ]
+}
