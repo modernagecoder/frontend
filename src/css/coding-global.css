@@ -1275,3 +1275,4 @@
 .cg-root.cg-wbr  { --cg-accent: #6B4030; --cg-accent-soft: rgba(107,64,48,.10); }   /* West Bromwich: a Black Country iron brown (7.05:1 on the darkest paper tint) */
 .cg-root.cg-eas  { --cg-accent: #48205C; --cg-accent-soft: rgba(72,32,92,.10); }   /* Eastbourne: a late-evening violet over the Channel (10.34:1 on the darkest paper tint) */
 .cg-root.cg-dew  { --cg-accent: #4C1B2F; --cg-accent-soft: rgba(76,27,47,.10); }   /* Dewsbury: a deep blanket-wool maroon (11.24:1 on the darkest paper tint) */
+.cg-root.cg-hlw  { --cg-accent: #1B1B4C; --cg-accent-soft: rgba(27,27,76,.10); }   /* Harlow: a laboratory-night indigo (12.94:1 on the darkest paper tint) */

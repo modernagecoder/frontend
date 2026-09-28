@@ -29420,5 +29420,50 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-harlow": {
+    "market": "Harlow",
+    "bodyClass": "cg-hlw",
+    "pageType": "city",
+    "curriculumAuthority": "Harlow (E07000073). Nomis Census 2021 TS007A: total 93,328; 0 to 4 6,251 (6.7%, England 5.4%); 5 to 9 6,564 (7.0%, 5.9%); 30 to 34 7,742 (8.3%, 7.0%); 35 to 39 7,447 (8.0%, 6.7%); 70 to 74 3,406 (3.6%, 5.0%); 75 to 79 2,439 (2.6%, 3.6%). ONS 2021 BUA Harlow 93,580. OS Open Names: Old Harlow, Church Langley, Great Parndon, Potter Street, Netteswell. nobelprize.org, Physics 2009: Kao at \"Standard Telecommunication Laboratories, Harlow, UK\"; \"after just 20 meters, only 1 percent of the light\"; goal \"1 percent ... after it had travelled 1 kilometer\"; \"Today 95 percent of the light remains after having been transmitted a full kilometer\"; \"100 kilometers, compared to only 20 meters\"; Corning 1971; Hockham; January 1966.",
+    "localProject": "Loss dB = -10 log10(fraction). 1960s 1,000 dB/km (1% at 20 m); Kao goal 20 dB/km (1% at 1 km); today 0.223 dB/km (1% at 89.8 km); today over 100 km 22.3 dB, 0.59% left; linear misreading gives zero at 20 km; 1960s over 40 m 0.01%. Lesson family: optical link budget in decibels, multiplicative loss vs linear misreading.",
+    "requiredMentions": [
+      "93,328",
+      "93,580",
+      "Old Harlow",
+      "Church Langley",
+      "Great Parndon",
+      "Potter Street",
+      "Standard Telecommunication Laboratories",
+      "Charles K. Kao",
+      "Hockham",
+      "link budget"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Harlow and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Nobel Prize in Physics 2009, press release.",
+        "url": "https://www.nobelprize.org/prizes/physics/2009/press-release/"
+      },
+      {
+        "claim": "Nobel Prize in Physics 2009, popular information.",
+        "url": "https://www.nobelprize.org/prizes/physics/2009/popular-information/"
+      }
+    ],
+    "rejectedClaims": [
+      "Blue plaques, memorials or the present use of the laboratory site: not read from a source; not claimed.",
+      "Harlow new town history: not read from a source; not claimed.",
+      "Kao's personal life details beyond the Nobel pages: not used.",
+      "Modern fibre loss figures other than the Nobel Foundation's 95 percent: not claimed.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
