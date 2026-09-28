@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "slug": "how-to-use-chatgpt-to-study-without-cheating",
+    "title": "How to Use ChatGPT to Study Without Cheating",
+    "description": "How to use ChatGPT to study without cheating: what research found, six prompts that make AI a tutor, where the line is, and how to catch wrong answers.",
+    "keywords": [
+      "how to use chatgpt to study",
+      "is using chatgpt cheating",
+      "chatgpt for homework",
+      "ai for studying",
+      "chatgpt study prompts",
+      "how to use ai for school",
+      "can teachers tell if you used chatgpt",
+      "chatgpt age limit"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "AI",
+      "Study Skills",
+      "Students",
+      "Parents"
+    ],
+    "readTime": "9 min read",
+    "featured": false,
+    "tldr": "Use AI to make you think, not to think for you. A 2025 randomised trial with nearly 1,000 high school students found that those who practised maths with a standard ChatGPT-style assistant scored 17% lower on the exam than students with no AI, while a tutor version that gave hints instead of answers largely avoided that harm. So ask chatbots to quiz you, give hints and find mistakes in your own work, never submit AI writing as your own, and check facts and maths yourself because chatbots can be confidently wrong."
+  },
+  "hero": {
+    "title": "How to Use ChatGPT to Study Without Cheating",
+    "subtitle": "What the research says, six prompts that turn a chatbot into a tutor, where the line between help and cheating usually falls, and how to catch confident wrong answers.",
+    "featuredImage": {
+      "url": "/images/blog/how-to-use-chatgpt-to-study-without-cheating/00-hero.png",
+      "alt": "Using ChatGPT to study: asking for the answer compared with asking for a hint and a check of your own working"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Almost every student now has access to an AI chatbot that can answer homework questions in seconds. That is a problem and an opportunity at the same time. Used one way, ChatGPT and tools like it do your thinking for you, and you arrive at the exam knowing less than when you started. Used another way, they are a patient tutor available at midnight, which is something students never had before."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide is about the second way. It explains what the research says actually happens to students who study with AI, gives you six prompts you can copy that make a chatbot teach rather than tell, shows where the line between help and cheating usually falls, and covers how to catch the confident wrong answers these tools sometimes give. It is written for students and for the parents trying to set sensible rules."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "Use AI to make you think, not to think for you. Ask for hints instead of answers, ask it to quiz you, and ask it to find mistakes in your own work without fixing them. Never submit AI-written work as your own or use it where your school does not allow it. Check facts and maths against your textbook, because chatbots can be confidently wrong."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What the research says happens when students use AI",
+        "id": "research"
+      },
+      {
+        "type": "paragraph",
+        "text": "The best evidence so far comes from a randomised trial published in the Proceedings of the National Academy of Sciences in 2025 by researchers at the University of Pennsylvania. Working with a high school in Turkey, they gave nearly 1,000 students in grades 9 to 11 access to GPT-4 during maths practice sessions. Some students got a standard ChatGPT-style assistant. Others got a version with guardrails that gave teacher-designed hints instead of answers."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-use-chatgpt-to-study-without-cheating/01-study.png",
+        "alt": "Results of a randomised trial of GPT-4 in high school maths: practice grades rose 48% with a standard assistant and 127% with a guardrailed tutor, but exam grades fell 17% for the standard assistant group once AI was removed",
+        "caption": "Better practice scores did not mean better learning, unless the AI was designed to hold back answers."
+      },
+      {
+        "type": "paragraph",
+        "text": "During practice, both groups did far better than students without AI: grades rose 48% with the standard assistant and 127% with the guardrailed tutor. But then the AI was taken away for the exam. Students who had used the standard assistant scored 17% lower than students who never had AI at all. They had practised with answers in front of them and learned less as a result. The students who used the tutor that only gave hints largely avoided that harm."
+      },
+      {
+        "type": "paragraph",
+        "text": "The lesson is not that AI is bad for learning. It is that <strong>how</strong> you use it decides whether it helps. Getting the answer and understanding the answer are different things, and only one of them is still there on exam day."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Why struggling a little is good for you",
+        "text": "Learning research has shown for decades that recalling and working things out yourself, even slowly and with mistakes, builds much stronger memory than reading a correct answer. When AI removes all the struggle, it removes the part that did the teaching. The goal is to use it to keep the struggle productive, not to skip it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Six prompts that make a chatbot teach instead of tell",
+        "id": "prompts"
+      },
+      {
+        "type": "paragraph",
+        "text": "The single most useful change you can make is to tell the AI what kind of help you want. By default, chatbots are built to be helpful, which usually means giving you the full answer. Ask for something different and most of them will do it."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-use-chatgpt-to-study-without-cheating/02-prompts.png",
+        "alt": "Six study prompts for ChatGPT: quiz me, hint not answer, check my working, explain it differently, find my gaps, and mark my essay plan",
+        "caption": "Each prompt keeps you doing the thinking."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Quiz me.</strong> \"Ask me 5 questions on photosynthesis, one at a time, and wait for my answer before the next.\" This is retrieval practice, one of the most effective study techniques there is, with a quizmaster who never gets bored.",
+          "<strong>Hint, not answer.</strong> \"I am stuck on this problem. Give me the smallest hint that gets me moving. Do not solve it.\" This is essentially the guardrail from the study, applied by you.",
+          "<strong>Check my working.</strong> \"Here is my solution. Tell me where the first mistake is, but not how to fix it.\" You still do the fixing, which is where the learning happens.",
+          "<strong>Explain it differently.</strong> \"Explain this like I am 12, then give me an example I would not have thought of.\" Useful when your textbook's explanation is not landing.",
+          "<strong>Find my gaps.</strong> \"Ask me questions to work out what I do not understand about fractions.\" A good way to start revising a topic you are unsure about.",
+          "<strong>Mark my plan.</strong> \"Here is my essay plan. What would an examiner say is missing? Do not rewrite it.\" Feedback on your ideas without the ideas becoming the AI's."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "A good rule of thumb: <strong>if you finish a session with AI and could not do the same task alone tomorrow, the session did not work</strong>, however good the answers looked."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where the line between help and cheating usually is",
+        "id": "where-the-line-is"
+      },
+      {
+        "type": "paragraph",
+        "text": "Schools, exam boards and individual teachers have different rules, and they are still changing, so there is no single answer. But most policies agree on the extremes, and the grey area in the middle is exactly where you should ask."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-use-chatgpt-to-study-without-cheating/03-where-the-line-is.png",
+        "alt": "Three zones of AI use for students: usually fine, ask your teacher, and cheating",
+        "caption": "The extremes are clear. The middle depends on your school."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Usually fine:</strong> using AI to understand a topic, quiz yourself, get practice questions or find a mistake you then fix yourself. These are all things a good tutor or study guide would do.",
+          "<strong>Ask first:</strong> brainstorming essay ideas, improving the grammar of your own writing, planning a project or reviewing code you wrote. Some teachers welcome this. Others do not.",
+          "<strong>Cheating:</strong> handing in AI-written work as your own, using AI in a test, copying its answers into homework, or letting it complete graded work. In coursework and exams this can have serious consequences."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "When in doubt, be open about it",
+        "text": "If you used AI and are not sure whether it was allowed, say how you used it. Most teachers treat honest disclosure very differently from hidden use. Many schools now ask students to note any AI use at the end of an assignment, and it is a good habit even where they do not."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to catch a confident wrong answer",
+        "id": "checking"
+      },
+      {
+        "type": "paragraph",
+        "text": "AI chatbots do not look facts up the way a search engine does. They generate text that sounds right, and most of the time it is right, but sometimes they state a wrong date, invent a quote, misremember a formula or slip on arithmetic, all in the same confident tone. Students who trust every answer will eventually learn something false."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-use-chatgpt-to-study-without-cheating/04-checking.png",
+        "alt": "Four ways to check an AI chatbot's answer: test it on something you know, check facts against a textbook, redo the maths yourself, and ask it to show its reasoning",
+        "caption": "Treat every answer as a claim to check, not a fact to copy."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Test it on something you know well.</strong> If it gets your strongest topic wrong, be more careful with the rest.",
+          "<strong>Check facts against your textbook or class notes,</strong> especially names, dates, formulas, definitions and quotations.",
+          "<strong>Redo calculations yourself.</strong> For maths and science, the working matters more than the final number anyway.",
+          "<strong>Ask for step-by-step reasoning.</strong> A wrong step is much easier to spot than a wrong final answer."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Age limits and settings parents should know",
+        "id": "age-limits"
+      },
+      {
+        "type": "paragraph",
+        "text": "AI chatbots are not designed for young children, and each company sets its own minimum age. OpenAI's terms require ChatGPT users to be at least 13, or older where local law requires, and users under 18 need a parent's or guardian's permission. Anthropic's consumer terms set a minimum of 18 for Claude. Google sets 13 for Gemini in many countries, with higher ages in some. These rules change and vary by country, so our <a href='/ai-tools-age-guide'>AI tools age guide</a> lists the current terms for over a hundred tools, with the wording from each company's own policy."
+      },
+      {
+        "type": "paragraph",
+        "text": "For younger children, the question is less about which chatbot to use and more about what they should understand about AI first. Our guides on <a href='/blog/how-to-teach-kids-ai-at-home'>teaching kids about AI at home</a> and <a href='/should-my-child-learn-ai'>whether your child should learn AI</a> cover that."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A simple study routine with AI",
+        "id": "routine"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Try first, alone,</strong> for at least ten or fifteen minutes. Write down where exactly you got stuck.",
+          "<strong>Ask for a hint,</strong> not a solution, using the prompts above.",
+          "<strong>Finish it yourself,</strong> then ask the AI to check your working.",
+          "<strong>End with a quiz:</strong> ask it for three questions on what you just did, and answer them without looking back.",
+          "<strong>Tomorrow, try a similar problem with no AI.</strong> If you can do it, the session worked."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "AI should be the friend who asks you good questions, not the friend who does your homework.",
+        "author": "What we tell every student who asks about ChatGPT"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach students to use AI well",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In our classes, students use AI tools openly, with a teacher beside them, and learn exactly the habits in this guide: ask for hints, check everything, and prove understanding without the tool. For coding in particular, our <a href='/learn-to-code-with-ai'>learn to code with AI</a> approach treats the model as a tutor, not a ghostwriter. Classes are live, one to one or in small groups of 5 to 10, for ages 6 to 67."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Is using ChatGPT for homework cheating?",
+            "content": "It depends on how you use it and on your school's rules. Using it to understand a topic, quiz yourself or find a mistake you then fix is usually fine. Copying its answers or submitting its writing as your own is cheating. If you are unsure, ask your teacher and be open about how you used it."
+          },
+          {
+            "title": "Can ChatGPT help me study?",
+            "content": "Yes, if you ask it to make you think. Ask it to quiz you, give hints instead of answers, and check your working without fixing it. Research has found that students who used AI only to get answers learned less than students who never used it."
+          },
+          {
+            "title": "What is the best prompt for studying with ChatGPT?",
+            "content": "One of the most effective is: \"Quiz me on this topic, one question at a time, and wait for my answer before giving the next.\" Recalling answers yourself is one of the strongest ways to build memory, and the AI becomes a quizmaster rather than an answer key."
+          },
+          {
+            "title": "Can teachers tell if I used ChatGPT?",
+            "content": "Sometimes, and AI detection tools are unreliable in both directions, so some honest students are wrongly flagged. The better question is whether you learned anything. Work you cannot explain in your own words will usually show up in class or in the exam."
+          },
+          {
+            "title": "How old do you have to be to use ChatGPT?",
+            "content": "OpenAI's terms say users must be at least 13, or older if the law in their country requires it, and users under 18 need a parent's or guardian's permission. Other chatbots set different ages, for example Anthropic sets 18 for Claude."
+          },
+          {
+            "title": "Why does ChatGPT sometimes give wrong answers?",
+            "content": "Because it generates text that sounds likely rather than looking up verified facts. Most answers are correct, but it can state wrong dates, invent quotes or make arithmetic slips confidently. Always check important facts and calculations against a reliable source."
+          },
+          {
+            "title": "Should parents ban AI for homework?",
+            "content": "A ban is hard to enforce and misses a chance to teach good habits. It usually works better to agree rules together: try first alone, ask for hints not answers, check facts, and be open with teachers about AI use."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "safe-ai-tools-for-kids-homework-2025",
+    "how-to-teach-kids-ai-at-home",
+    "vibe-coding-vs-learning-to-code-properly"
+  ]
+}
