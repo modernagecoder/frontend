@@ -29875,5 +29875,44 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-barnsley": {
+    "market": "Barnsley",
+    "bodyClass": "cg-bns",
+    "pageType": "city",
+    "curriculumAuthority": "Barnsley (E08000016). Nomis Census 2021 TS001 244,572. TS007A: 15 to 19 12,256 (5.0%, England 5.7%); 20 to 24 12,450 (5.1%, 6.0%); 40 to 44 13,825 (5.7%, 6.3%); 50 to 54 18,720 (7.7%, 6.9%); 55 to 59 17,962 (7.3%, 6.7%); 60 to 64 15,603 (6.4%, 5.8%). ONS 2021 BUAs: Barnsley 71,405; Wombwell 16,765; Hoyland 15,535; Cudworth and Shafton 12,470; Royston 10,755; Thurnscoe 9,135; Worsbrough 8,835; Penistone 8,540. TS045 (NM_2063_1) households: Barnsley 108,054 (24,580 / 44,800 / 29,576 / 9,098); England 23,436,085; Camden 92,759 (59,037 / 27,983 / 4,809 / 930).",
+    "localProject": "Bits per Barnsley household: own entropy 1.8248; England model 1.8259 (KL 0.00107, about 116 bits over all households); uniform 2.0000; Camden model 2.5929 (KL 0.7681). KL(Camden||England) 0.6242 vs KL(England||Camden) 0.7467. Model without \"three or more\": infinite; eps 0.001 smoothing 2.2495. Mixing England->Barnsley: 1.82587 -> 1.8248. Lesson family: cross-entropy, KL divergence, distribution shift, zero-probability smoothing, fine-tuning by mixing.",
+    "requiredMentions": [
+      "244,572",
+      "71,405",
+      "Penistone",
+      "Royston",
+      "Thurnscoe",
+      "Worsbrough",
+      "108,054",
+      "cross-entropy",
+      "KL divergence"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS045 Car or van availability, Barnsley, England and Camden.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "Nomis Census 2021 TS001 and TS007A, Barnsley and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Reasons for car ownership differences between places: not analysed; not claimed.",
+      "Mining and industrial history: not read from a source; not claimed.",
+      "Loss values of any real AI product: not claimed; only our toy models are measured.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

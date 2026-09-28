@@ -1286,3 +1286,4 @@
 .cg-root.cg-dfd  { --cg-accent: #5C3240; --cg-accent-soft: rgba(92,50,64,.10); }   /* Dartford: a deep engine-room maroon (8.52:1 on the darkest paper tint) */
 .cg-root.cg-stt  { --cg-accent: #4C2225; --cg-accent-soft: rgba(76,34,37,.10); }   /* Stockton-on-Tees: a dark riverside brick (10.83:1 on the darkest paper tint) */
 .cg-root.cg-wig  { --cg-accent: #533C5C; --cg-accent-soft: rgba(83,60,92,.10); }   /* Wigan: a muted slate plum (7.80:1 on the darkest paper tint) */
+.cg-root.cg-bns  { --cg-accent: #3A2A4C; --cg-accent-soft: rgba(58,42,76,.10); }   /* Barnsley: a deep coal-seam violet (10.47:1 on the darkest paper tint) */
