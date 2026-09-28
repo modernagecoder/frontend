@@ -209,6 +209,10 @@
         "text": "<strong>Practical Example:</strong> A child drawing a square in Scratch writes 'move 100 steps, turn 90 degrees' four times. Then they realize: 'Wait, I'm repeating the same thing!' They create a loop: 'repeat 4 times: move 100, turn 90.' This pattern recognition transfers directly to seeing that 4 × 25 and 25 + 25 + 25 + 25 are the same thing."
       },
       {
+        "type": "paragraph",
+        "text": "That square has a perimeter of 400 steps, the distance the sprite walked, and an area it encloses, which is a different thing entirely. Our guide to <a href='/blog/area-and-perimeter-difference'>area and perimeter</a> shows why the two are independent, with every rectangle that shares the same perimeter."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "3. Logical Reasoning: If-Then Thinking"

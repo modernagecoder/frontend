@@ -1,0 +1,343 @@
+{
+  "meta": {
+    "slug": "area-and-perimeter-difference",
+    "title": "Area and Perimeter: The Difference, Explained Simply",
+    "description": "Area vs perimeter explained: what each measures, formulas and units, why one perimeter can give different areas, L-shapes, circles and common mistakes.",
+    "keywords": [
+      "area and perimeter",
+      "difference between area and perimeter",
+      "area vs perimeter",
+      "how to find perimeter",
+      "how to find area of a rectangle",
+      "area of l shape",
+      "same perimeter different area",
+      "circumference and area of a circle"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Maths",
+    "tags": [
+      "Maths",
+      "Geometry",
+      "Students",
+      "Parents"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "Perimeter is the distance around a shape, measured in units of length; area is the surface inside it, measured in square units. For a rectangle, perimeter = 2 x (length + width) and area = length x width. The two are independent: rectangles with a perimeter of 24 can have areas anywhere from 11 to 36, and a square encloses the most. For an L-shape, split it into rectangles for the area and add every outside edge for the perimeter. For a circle, circumference is 2 x pi x r and area is pi x r squared."
+  },
+  "hero": {
+    "title": "Area vs Perimeter: What Is the Difference?",
+    "subtitle": "The fence and the carpet: what each one measures, why the units differ, and the surprising results that show they really are two different things.",
+    "featuredImage": {
+      "url": "/images/blog/area-and-perimeter-difference/00-hero.png",
+      "alt": "Area vs perimeter: a 6 by 4 rectangle with its 20 unit perimeter outlined and its 24 unit squares of area filled in"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Area and perimeter are taught together, measured with similar numbers, and confused by almost every child at some point, and by quite a few adults. The formulas are easy to memorise. What is harder is knowing which one a question is asking for, and understanding that the two are genuinely independent: two shapes can have exactly the same perimeter and very different areas."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide explains the difference with one simple picture, shows why the units are different, works through rectangles, compound L-shapes and circles, and covers the surprising results that make the topic click, calculated by short Python programs whose real output is shown. It is written for students and for parents helping with homework."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "Perimeter is the total distance around the outside of a shape, measured in units of length such as cm or m. Area is the amount of surface inside, measured in square units such as cm² or m². For a rectangle, perimeter = 2 x (length + width) and area = length x width. Shapes with the same perimeter can have different areas, and a square gives the most area for a given perimeter."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The difference in one picture",
+        "id": "the-difference"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/area-and-perimeter-difference/01-fence-carpet.png",
+        "alt": "Perimeter as the fence around a garden and area as the grass inside it, with the rectangle formulas for each",
+        "caption": "Fence goes round the edge. Grass covers the inside."
+      },
+      {
+        "type": "paragraph",
+        "text": "Imagine a rectangular garden. The <strong>perimeter</strong> is how much fence you need to go all the way round it. The <strong>area</strong> is how much grass you need to cover it. They are two different questions about the same garden, and they have different answers in different units."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Perimeter is a length.</strong> Add up all the sides. A 6 m by 4 m garden needs 6 + 4 + 6 + 4 = 20 m of fence.",
+          "<strong>Area is a surface.</strong> Count the unit squares that cover the inside. The same garden is 6 x 4 = 24 square metres, written 24 m²."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "A quick test for any question: if the answer is something you could walk along, like a fence, a border or a frame, it is perimeter. If it is something you could paint, tile or cover, like a floor, a wall or a field, it is area."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Why the units are different",
+        "text": "Perimeter counts lengths, so it is in cm or m. Area counts squares, each 1 cm by 1 cm or 1 m by 1 m, so it is in cm² or m². Writing the right unit is not a formality: it tells you, and the examiner, which question you have answered."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The formulas for rectangles and squares",
+        "id": "formulas"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Shape",
+          "Perimeter",
+          "Area"
+        ],
+        "rows": [
+          [
+            "Rectangle",
+            "2 x (length + width)",
+            "length x width"
+          ],
+          [
+            "Square with side s",
+            "4 x s",
+            "s x s = s²"
+          ],
+          [
+            "Triangle",
+            "add the three sides",
+            "½ x base x height"
+          ],
+          [
+            "Circle with radius r",
+            "2 x π x r (called the circumference)",
+            "π x r²"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "For children, it is worth building the rectangle area formula from counting before using it. Draw a 6 by 4 rectangle on squared paper and count the squares: 4 rows of 6 is 24. Once they see it is really rows of squares, length x width stops being a rule and becomes obvious."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Same perimeter, different areas",
+        "id": "same-perimeter"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the result that surprises most students, and it is the best way to show that area and perimeter really are different things. Take a fixed length of fence, 24 units, and make every possible rectangle with it:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# every whole-number rectangle with a perimeter of 24\nprint(\"width x height   perimeter   area\")\nfor width in range(1, 12):\n    height = 12 - width                 # width + height must be half of 24\n    if width <= height:\n        print(f\"{width:>5} x {height:<5}   {2 * (width + height):>9}   {width * height:>4}\")",
+        "title": "same_perimeter.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "width x height   perimeter   area\n    1 x 11             24     11\n    2 x 10             24     20\n    3 x 9              24     27\n    4 x 8              24     32\n    5 x 7              24     35\n    6 x 6              24     36",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/area-and-perimeter-difference/02-same-perimeter.png",
+        "alt": "Six rectangles drawn to scale, each with a perimeter of 24, with areas from 11 to 36",
+        "caption": "The same length of fence can enclose very different amounts of space."
+      },
+      {
+        "type": "paragraph",
+        "text": "Every one of those rectangles uses exactly 24 units of fence, but the space inside ranges from 11 to 36. The long thin 1 by 11 rectangle wastes most of its fence on the two long sides. The more square the shape, the more area it encloses, and the square, 6 by 6, gives the most. (If you allow any shape at all, a circle does even better, which is one reason bubbles, pipes and many tanks are round.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Same area, different perimeters",
+        "id": "same-area"
+      },
+      {
+        "type": "paragraph",
+        "text": "It works the other way round too. Fix the area at 36 square units and look at the perimeters:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# every whole-number rectangle with an area of 36\nprint(\"width x height   area   perimeter\")\nfor width in range(1, 37):\n    if 36 % width == 0 and width <= 36 // width:\n        height = 36 // width\n        print(f\"{width:>5} x {height:<5}   {width * height:>4}   {2 * (width + height):>9}\")",
+        "title": "same_area.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "width x height   area   perimeter\n    1 x 36        36          74\n    2 x 18        36          40\n    3 x 12        36          30\n    4 x 9         36          26\n    6 x 6         36          24",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/area-and-perimeter-difference/03-same-area.png",
+        "alt": "Five rectangles each with an area of 36, with perimeters from 24 to 74",
+        "caption": "Same carpet, very different lengths of skirting board."
+      },
+      {
+        "type": "paragraph",
+        "text": "The same 36 squares of carpet could need 24 units of edging or 74, depending on the shape. Again the square is the most efficient. This matters in real life: builders, farmers and packaging designers all use this to save material."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Compound shapes: the L-shaped room",
+        "id": "compound-shapes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Exam questions love L-shaped rooms, because they test whether you understand both ideas rather than just the formulas. For the <strong>area</strong>, split the shape into rectangles, or take the area of the full rectangle and subtract the missing corner. For the <strong>perimeter</strong>, walk all the way round the outside and add every edge, working out any missing lengths from the ones you know."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/area-and-perimeter-difference/04-l-shape.png",
+        "alt": "An L-shaped room made from a 10 by 8 rectangle with a 4 by 3 corner removed, with area 68 and perimeter 36",
+        "caption": "Removing a corner reduces the area but, here, not the perimeter."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# an L-shaped room: a 10 x 8 rectangle with a 4 x 3 corner cut away\nbig_area = 10 * 8\ncut_area = 4 * 3\nprint(\"area:\", big_area - cut_area, \"square metres\")\n\n# walk round the outside: the cut corner does not change the perimeter\nsides = [10, 5, 4, 3, 6, 8]          # going clockwise from the top-left corner\nprint(\"sides:\", sides, \"-> perimeter:\", sum(sides), \"metres\")\nprint(\"same as the full rectangle:\", 2 * (10 + 8))",
+        "title": "l_shape.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "area: 68 square metres\nsides: [10, 5, 4, 3, 6, 8] -> perimeter: 36 metres\nsame as the full rectangle: 36",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "The last line is a lovely surprise. Cutting a rectangular corner out of a rectangle reduces the area, but the perimeter stays exactly the same, because the two new inside edges are the same total length as the two outside edges they replaced. Many students add or subtract edges here and get it wrong, so it is worth showing on squared paper."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Circles: circumference and area",
+        "id": "circles"
+      },
+      {
+        "type": "paragraph",
+        "text": "For a circle, the perimeter has a special name, the <strong>circumference</strong>. Both formulas use π (pi), which is about 3.14159: the number of times a circle's diameter fits around its circumference."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from math import pi\n\nr = 5\nprint(f\"circle of radius {r}: circumference = 2 x pi x r = {2 * pi * r:.2f}\")\nprint(f\"                     area          = pi x r^2  = {pi * r ** 2:.2f}\")",
+        "title": "circle.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "circle of radius 5: circumference = 2 x pi x r = 31.42\n                     area          = pi x r^2  = 78.54",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "A common mistake is mixing the two formulas up. One way to remember: area is measured in square units, so its formula has a square in it, r². Circumference is a length, so it does not."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The most common mistakes",
+        "id": "mistakes"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Using the wrong one.</strong> Always ask \"fence or carpet?\" before calculating.",
+          "<strong>Adding only two sides for perimeter.</strong> A rectangle has four sides: length + width is only half the perimeter.",
+          "<strong>Forgetting square units.</strong> 24 cm is a perimeter. 24 cm² is an area. They are not interchangeable.",
+          "<strong>Mixing units.</strong> A garden measured as 3 m by 50 cm must be converted first: 3 m x 0.5 m = 1.5 m².",
+          "<strong>Assuming a bigger perimeter means a bigger area.</strong> The rectangles above show it does not."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "If geometry homework is where things go wrong, our guides to <a href='/blog/pythagoras-theorem-explained'>Pythagoras' theorem</a> and <a href='/blog/help-child-with-maths-homework'>helping with maths homework without solving it</a> may help too."
+      },
+      {
+        "type": "quote",
+        "text": "Ask: could I walk along it, or could I paint it? That one question fixes most area and perimeter mistakes.",
+        "author": "How our teachers introduce the topic"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, students build shapes on a grid, count squares and walk the edges before using formulas, then explore the fixed-perimeter and fixed-area puzzles above. Older students go on to circles, volume and surface area, which build directly on the same two ideas. Classes are one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is the difference between area and perimeter?",
+            "content": "Perimeter is the total distance around the outside of a shape, like the length of a fence. Area is the amount of surface inside the shape, like the amount of grass or carpet. Perimeter is measured in units of length, and area in square units."
+          },
+          {
+            "title": "How do you find the perimeter of a rectangle?",
+            "content": "Add all four sides, or use perimeter = 2 x (length + width). A rectangle 6 cm long and 4 cm wide has a perimeter of 2 x (6 + 4) = 20 cm."
+          },
+          {
+            "title": "How do you find the area of a rectangle?",
+            "content": "Multiply the length by the width. A rectangle 6 cm by 4 cm has an area of 24 cm², which is the number of 1 cm squares that would cover it."
+          },
+          {
+            "title": "Can two shapes have the same perimeter but different areas?",
+            "content": "Yes. Rectangles with a perimeter of 24 can have areas from 11 (1 by 11) to 36 (6 by 6). For a fixed perimeter, the closer a rectangle is to a square, the larger its area."
+          },
+          {
+            "title": "Why is area measured in square units?",
+            "content": "Because area counts how many unit squares fit inside a shape. Each unit square is, for example, 1 cm by 1 cm, which is 1 square centimetre, written 1 cm²."
+          },
+          {
+            "title": "How do you find the area of an L-shape?",
+            "content": "Split it into two rectangles and add their areas, or find the area of the full rectangle around it and subtract the missing corner. For the perimeter, add the length of every outside edge."
+          },
+          {
+            "title": "What is the perimeter of a circle called?",
+            "content": "The circumference. It equals 2 x π x radius, or π x diameter. The area of a circle is π x radius squared."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "pythagoras-theorem-explained",
+    "how-to-get-better-at-maths",
+    "help-child-with-maths-homework"
+  ]
+}
