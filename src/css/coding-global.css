@@ -1274,3 +1274,4 @@
 .cg-root.cg-sth  { --cg-accent: #205C24; --cg-accent-soft: rgba(32,92,36,.10); }   /* St Helens: a bottle-glass green (6.46:1 on the darkest paper tint) */
 .cg-root.cg-wbr  { --cg-accent: #6B4030; --cg-accent-soft: rgba(107,64,48,.10); }   /* West Bromwich: a Black Country iron brown (7.05:1 on the darkest paper tint) */
 .cg-root.cg-eas  { --cg-accent: #48205C; --cg-accent-soft: rgba(72,32,92,.10); }   /* Eastbourne: a late-evening violet over the Channel (10.34:1 on the darkest paper tint) */
+.cg-root.cg-dew  { --cg-accent: #4C1B2F; --cg-accent-soft: rgba(76,27,47,.10); }   /* Dewsbury: a deep blanket-wool maroon (11.24:1 on the darkest paper tint) */

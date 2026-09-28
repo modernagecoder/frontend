@@ -29379,5 +29379,46 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-dewsbury": {
+    "market": "Dewsbury",
+    "bodyClass": "cg-dew",
+    "pageType": "city",
+    "curriculumAuthority": "Kirklees (E08000034). ONS 2021 BUAs (published): Dewsbury 63,720; Batley 44,500; Mirfield 19,610; Liversedge 17,525; Heckmondwike 13,370; Cleckheaton 11,605; Huddersfield 141,675 (largest). Project Gutenberg 1827 and 1700, Gaskell, The Life of Charlotte Bronte: \"Mr. Bronte remained for five years at Hartshead, in the parish of Dewsbury\"; \"Roe Head, to Dewsbury Moor\"; \"In the village of Heckmondwike, at one end of which Roe Head is situated\".",
+    "localProject": "Bigram model, Volume 1 train (98,792 tokens, 9,978 types, 54,305 pairs), Volume 2 test (89,743 pairs, 40,656 = 45.3% unseen). \"mr\" -> sentence end 208/208 before abbreviation fix, -> \"bronte\" 55 after. roe->head 24/24; dewsbury->moor 9/11. Greedy loop \"she was a little more than i have been a little more than i have\". Perplexity: unigram add-one 824.6; bigram add-one 3,819.6; add-0.01 1,202.8; 0.5 blend 483.0 (weight tried on test). Lesson family: n-gram language model, next-word prediction, greedy decoding, smoothing, perplexity, held-out evaluation.",
+    "requiredMentions": [
+      "63,720",
+      "19,610",
+      "Heckmondwike",
+      "Liversedge",
+      "Cleckheaton",
+      "Roe Head",
+      "Dewsbury Moor",
+      "bigram",
+      "perplexity",
+      "Hartshead"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Elizabeth Cleghorn Gaskell, The Life of Charlotte Bronte, Volume 1 (ebook 1827).",
+        "url": "https://www.gutenberg.org/ebooks/1827"
+      },
+      {
+        "claim": "Project Gutenberg, Elizabeth Cleghorn Gaskell, The Life of Charlotte Bronte, Volume 2 (ebook 1700).",
+        "url": "https://www.gutenberg.org/ebooks/1700"
+      }
+    ],
+    "rejectedClaims": [
+      "Kirklees total and age table: owned by the Huddersfield page; not repeated.",
+      "Woollen and shoddy trade history: not read from a source; not claimed.",
+      "Sum of the six towns: not published by the ONS; deliberately not added.",
+      "How modern chatbots are trained in detail: described only in general terms.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
