@@ -414,7 +414,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 362 | vibe-coding-and-ai-agents-classes-in-darlington (dar, #10166B) | cg- town page | 2,675 | 2.7% vs vibe-coding-and-ai-agents-classes-in-nuneaton | how should an AI agent check its own answers? | agent verification loop, tolerance, stopping rule, same-source ratios | 05f5a539 |
 | 363 | online-coding-and-python-classes-in-hartlepool (hpl, #6B2538) | cg- town page | 2,685 | 1.5% vs online-coding-and-python-classes-in-blackpool | what is the average distance to work when data come in bands? | grouped data, open-ended band, bounds, median robustness | 4e9f61db |
 | 364 | ai-and-programming-classes-in-grimsby (gri, #0B4C32) | cg- town page | 2,669 | 1.6% vs ai-and-programming-classes-in-chesterfield | can AI training data be made up from published tables? | synthetic data from marginals, independence, consistency rules, joint distribution | db1421e4 |
-| 365 | best-coding-and-ai-classes-in-dartford (dfd, #5C3240) | cg- town page | 2,627 | 2.6% vs ai-and-programming-classes-in-chesterfield | how do you catch an AI that invents a quotation? | quotation verification, normalisation, exact vs fuzzy, number checks | (this commit) |
+| 365 | best-coding-and-ai-classes-in-dartford (dfd, #5C3240) | cg- town page | 2,627 | 2.6% vs ai-and-programming-classes-in-chesterfield | how do you catch an AI that invents a quotation? | quotation verification, normalisation, exact vs fuzzy, number checks | be455070 |
+| 366 | vibe-coding-and-ai-agents-classes-in-stockton-on-tees (stt, #4C2225) | cg- town page | 2,671 | 1.5% vs best-coding-and-ai-classes-in-worthing | what should an AI agent remember when its context window is small? | context window, streaming summaries, top-k memory, labelled sums | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

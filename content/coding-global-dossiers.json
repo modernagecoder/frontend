@@ -29796,5 +29796,44 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-stockton-on-tees": {
+    "market": "Stockton-on-Tees",
+    "bodyClass": "cg-stt",
+    "pageType": "city",
+    "curriculumAuthority": "Stockton-on-Tees (E06000004). Nomis Census 2021 TS001 196,595. TS007A: 5 to 9 12,429 (6.3%, England 5.9%); 10 to 14 13,021 (6.6%, 6.0%); 20 to 24 9,689 (4.9%, 6.0%); 25 to 29 11,918 (6.1%, 6.6%); 60 to 64 12,734 (6.5%, 5.8%); 65 to 69 10,793 (5.5%, 4.9%). ONS 2021 BUAs: Stockton-on-Tees 84,815; Billingham 33,920; Ingleby Barwick 23,380; Thornaby-on-Tees 23,350; Egglescliffe 10,250; Yarm 9,600; Wynyard 4,040 (2,799 inside); Stillington 1,405.",
+    "localProject": "Streamed largest first. Last-3 memory: largest -> Yarm (wrong), sum 15,045. Running summary (top 2, count, sum): correct largest/second; third unanswerable (Ingleby Barwick 23,380 vs Thornaby 23,350). Top-3 summary answers it. Sum of listed areas 190,760 vs borough 196,595 (small places missing, Wynyard counted whole). Lesson family: context window, streaming summaries, top-k memory, labelling sums of parts.",
+    "requiredMentions": [
+      "196,595",
+      "84,815",
+      "Billingham",
+      "Ingleby Barwick",
+      "Thornaby-on-Tees",
+      "Egglescliffe",
+      "Yarm",
+      "context window",
+      "scratchpad memory"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS001 and TS007A, Stockton-on-Tees and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "ONS, built-up areas, Census 2021.",
+        "url": "https://www.ons.gov.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Which ceremonial county the borough belongs to: it spans two; not claimed.",
+      "Railway history: owned by the County Durham and Darlington pages; not used.",
+      "Real context window sizes of named AI products: change often; not claimed.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
