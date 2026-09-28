@@ -29551,5 +29551,46 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-chesterfield": {
+    "market": "Chesterfield",
+    "bodyClass": "cg-chf",
+    "pageType": "city",
+    "curriculumAuthority": "Chesterfield (E07000034). Nomis Census 2021 TS007A: total 103,569; 15 to 19 4,917 (4.7%, England 5.7%); 20 to 24 5,312 (5.1%, 6.0%); 55 to 59 7,929 (7.7%, 6.7%); 60 to 64 6,912 (6.7%, 5.8%); 65 to 69 6,046 (5.8%, 4.9%); 75 to 79 4,481 (4.3%, 3.6%). ONS 2021 BUAs: Chesterfield 76,420; Staveley 15,145; Brimington 11,075 (8,932 inside). Project Gutenberg 46229, Samuel Smiles: \"a coal-mining adventure at Chesterfield\"; Tapton House \"continued his home until the close of his life\"; \"about a mile to the northeast of the town of Chesterfield\"; \"its church and crooked spire\"; \"the engine expends half its power in overcoming a rising gradient of 1 in 260, which is about 20 feet in the mile\"; \"when the gradient is so steep as 1 in 100, not less than three fourths of its power is sacrificed\".",
+    "localProject": "Model share = G/(G + r). r = 1/260 from sentence 1 -> 0.722 at 1 in 100; r = 1/300 from sentence 2 -> 0.536 at 1 in 260; least squares r = 0.003645 (about 1 in 274) -> 0.513 and 0.733, loss 0.00047; 1 in 50 -> about 0.846. Unit check 20.3 ft/mile, 52.8 ft/mile. Lesson family: one-parameter model fitting with a loss function, conflicting data, inequality statement, extrapolation caution.",
+    "requiredMentions": [
+      "103,569",
+      "76,420",
+      "Staveley",
+      "Brimington",
+      "Tapton House",
+      "crooked spire",
+      "Killingworth",
+      "1 in 260",
+      "loss function",
+      "Samuel Smiles"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Chesterfield and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Project Gutenberg, Samuel Smiles, The Life of George Stephenson and of his Son Robert Stephenson (ebook 46229).",
+        "url": "https://www.gutenberg.org/ebooks/46229"
+      }
+    ],
+    "rejectedClaims": [
+      "Stephenson's illness and death details: in the source but excluded under the cluster content rules.",
+      "Why the spire is crooked: not read from a source; not claimed.",
+      "The physics of real locomotives beyond the one-number model: not claimed; the model is a teaching simplification.",
+      "Present-day Tapton House use: not read from a source; not claimed.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
