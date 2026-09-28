@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "slug": "why-can-i-understand-solutions-but-not-solve-problems",
+    "title": "Why Can I Understand Solutions but Not Solve Problems?",
+    "description": "Understanding a solution and solving one are different skills. Why the gap happens, and a close-the-book method that fixes it in maths and coding.",
+    "keywords": [
+      "why can i understand solutions but not solve problems",
+      "understand in class but cant do homework",
+      "illusion of competence",
+      "how to get better at problem solving",
+      "worked examples fading",
+      "how to study maths effectively",
+      "active recall for maths"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Education",
+    "tags": [
+      "Study Skills",
+      "Problem Solving",
+      "Maths",
+      "Coding"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "Understanding a worked solution is recognition: the method has been chosen for you and every step is on the page. Solving a problem is recall: you must choose a method from a blank page. Most study habits, such as rereading and watching solutions, only train recognition, which creates an illusion of competence. To build real problem solving, attempt first for 10 to 15 minutes, read the solution, close it, recreate it from memory, and return to a similar problem days later. Faded worked examples and mixed practice help bridge the gap."
+  },
+  "hero": {
+    "title": "Why Can I Understand Solutions but Not Solve Problems?",
+    "subtitle": "Understanding and solving are two different skills, and most study habits only train one of them. Here is why, and a method that builds the other, for maths and coding alike.",
+    "featuredImage": {
+      "url": "/images/blog/why-can-i-understand-solutions-but-not-solve-problems/00-hero.png",
+      "alt": "Understanding a solution feels easy while solving from a blank page feels hard, because they are different skills"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "It is one of the most common and most frustrating experiences in learning maths or coding. You read a worked solution, and every step makes sense. You watch a teacher solve a problem, and you follow all of it. Then you face a similar problem on your own, and your mind goes blank. It feels like you understood, so why can you not do it?"
+      },
+      {
+        "type": "paragraph",
+        "text": "The answer is not that you are bad at the subject. It is that understanding a solution and producing one are two different skills, and most study habits only train the first. This guide explains the difference, why it catches almost everyone, and a practical method to build the second skill, with examples from both maths and programming."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why understanding is not the same as solving",
+        "id": "two-skills"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/why-can-i-understand-solutions-but-not-solve-problems/01-two-skills.png",
+        "alt": "Understanding a solution compared with solving a problem: someone else chose the method versus choosing it yourself from a blank page",
+        "caption": "They feel like the same skill. They are not."
+      },
+      {
+        "type": "paragraph",
+        "text": "When you read a solution, someone else has already made all the hard decisions: which method to use, what to do first, what to ignore. You only need to check that each step follows from the last. That is recognition, and it is much easier than recall. When you solve a problem yourself, you have to make those decisions from nothing, with a blank page and no hints, while holding the whole plan in your head."
+      },
+      {
+        "type": "paragraph",
+        "text": "Psychologists have studied this gap for decades. Asher Koriat and Robert Bjork described \"illusions of competence\", where people judge how well they have learned something by how easy it feels while studying, and those judgements are often wrong. Reading a clear solution feels easy, so it feels like learning. But the ease comes from the solution being in front of you, not from anything you could now do alone."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "A simple test",
+        "text": "After reading any solution, close it and try to write it out again from a blank page. If you cannot, you recognised it but did not learn it. That is not failure. It is information about what to practise."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why it happens so often",
+        "id": "why-so-often"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Most studying is reading.</strong> Rereading notes, watching videos and going through solutions are all recognition. They are comfortable, which is why they are so popular.",
+          "<strong>Solutions hide the search.</strong> A finished solution shows the path that worked, not the three dead ends the expert tried first. So you never practise the part that is hard: choosing a direction when you do not know which is right.",
+          "<strong>Practice is often labelled.</strong> A worksheet headed \"quadratic equations\" tells you the method before you start. Exams and real problems do not.",
+          "<strong>AI and answer keys make it worse.</strong> When the solution is one click away, it is tempting to look after thirty seconds instead of struggling for ten minutes. Our guide on <a href='/blog/how-to-use-chatgpt-to-study-without-cheating'>using ChatGPT to study without cheating</a> covers how to avoid this."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The close-the-book method",
+        "id": "close-the-book"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/why-can-i-understand-solutions-but-not-solve-problems/02-close-the-book.png",
+        "alt": "Five steps of the close-the-book method: attempt first, read the solution, close it, recreate it from a blank page, return to a similar problem later",
+        "caption": "Step 4 is the one that turns recognition into skill."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Attempt first, for real.</strong> Give it 10 to 15 minutes before looking at anything, even if you get nowhere. Research on the testing effect, including a well-known 2006 study by Henry Roediger and Jeffrey Karpicke, found that students who practised recalling material remembered much more of it a week later than students who spent the same time rereading it. Struggling first also makes the solution more meaningful when you see it.",
+          "<strong>Read the solution carefully,</strong> asking at each step: why this, and why now? What would have made me think of it?",
+          "<strong>Close it completely.</strong> Not face down on the desk. Away.",
+          "<strong>Recreate it from a blank page.</strong> Write out the whole solution from memory. Where you get stuck is exactly the part you had not really learned. Look back only at that point, then close it again.",
+          "<strong>Return later.</strong> A day or a week later, try a similar but different problem. This is where recognition finally becomes the ability to produce."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The method is slower than reading ten solutions. It is also the reason it works. Robert Bjork calls effort like this a \"desirable difficulty\": practice that feels harder in the moment but leads to much better long-term learning."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Fading: a bridge between reading and solving",
+        "id": "fading"
+      },
+      {
+        "type": "paragraph",
+        "text": "When a topic is completely new, jumping straight to blank-page solving can be too much. Learning researchers such as Alexander Renkl have studied a gentler approach called <strong>fading</strong>: start with a full worked example, then hide the last step, then the last two, and so on, until you are solving the whole thing yourself. Here is a tiny program that does exactly that for an equation, which you can adapt to any subject:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "solution = [\n    \"Problem: solve 3x + 7 = 25\",\n    \"Subtract 7 from both sides: 3x = 18\",\n    \"Divide both sides by 3: x = 6\",\n    \"Check: 3 x 6 + 7 = 25, correct\",\n]\n\ndef faded(steps, hidden):\n    \"\"\"Show a worked solution with the last `hidden` steps blanked out.\"\"\"\n    shown = len(steps) - hidden\n    return [s if i < shown else \"  ...  (your turn)\" for i, s in enumerate(steps)]\n\nfor hidden in (0, 1, 2, 3):\n    print(f\"--- stage {hidden + 1}: {hidden} step(s) hidden\")\n    for line in faded(solution, hidden):\n        print(\"   \", line)",
+        "title": "fading.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "--- stage 1: 0 step(s) hidden\n    Problem: solve 3x + 7 = 25\n    Subtract 7 from both sides: 3x = 18\n    Divide both sides by 3: x = 6\n    Check: 3 x 6 + 7 = 25, correct\n--- stage 2: 1 step(s) hidden\n    Problem: solve 3x + 7 = 25\n    Subtract 7 from both sides: 3x = 18\n    Divide both sides by 3: x = 6\n      ...  (your turn)\n--- stage 3: 2 step(s) hidden\n    Problem: solve 3x + 7 = 25\n    Subtract 7 from both sides: 3x = 18\n      ...  (your turn)\n      ...  (your turn)\n--- stage 4: 3 step(s) hidden\n    Problem: solve 3x + 7 = 25\n      ...  (your turn)\n      ...  (your turn)\n      ...  (your turn)",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/why-can-i-understand-solutions-but-not-solve-problems/03-fading.png",
+        "alt": "Four stages of a faded worked example for solving 3x + 7 = 25, with one more step hidden at each stage",
+        "caption": "Each stage asks for a little more of the solution."
+      },
+      {
+        "type": "paragraph",
+        "text": "You can do the same thing on paper with a sheet of card, covering one more line each time. It works just as well for code: read a complete program, then rewrite it with the last function missing, then the last two."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Examples: maths and coding",
+        "id": "examples"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "In maths",
+        "id": "maths-example"
+      },
+      {
+        "type": "paragraph",
+        "text": "Say you read a worked solution for finding the area of an L-shaped room and it all makes sense. Close it. On a blank page, draw a different L-shape with different measurements and solve it. If you get stuck deciding how to split the shape, that decision is the real lesson, far more than the multiplication. Our guide to <a href='/blog/area-and-perimeter-difference'>area and perimeter</a> has worked examples to practise on."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "In coding",
+        "id": "coding-example"
+      },
+      {
+        "type": "paragraph",
+        "text": "Say you follow a tutorial that reverses a list, and every line makes sense. Close it. Open an empty file and write it again. Then change the problem slightly: reverse only the first half, or reverse words in a sentence. The moment you cannot continue without looking is the moment you are learning. Our <a href='/blog/python-basic-programs-for-beginners'>basic Python programs</a> are graded so you can practise this way."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to tell which skill you are practising",
+        "id": "signs"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/why-can-i-understand-solutions-but-not-solve-problems/04-signs.png",
+        "alt": "Study habits that feel productive but mostly train recognition, compared with habits that feel hard but build problem solving",
+        "caption": "If it feels easy, it is probably recognition."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Feels productive, mostly recognition",
+          "Feels harder, builds solving"
+        ],
+        "rows": [
+          [
+            "Rereading notes and solutions",
+            "Recreating a solution from a blank page"
+          ],
+          [
+            "Watching someone solve problems",
+            "Attempting before looking"
+          ],
+          [
+            "Practice sheets labelled by topic",
+            "Mixed problems where you choose the method"
+          ],
+          [
+            "Nodding along to an explanation",
+            "Explaining it yourself, out loud"
+          ]
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Mix your practice",
+        "text": "Once you know several methods, practise with mixed problem sets where the topic is not labelled. Choosing which method to use is a skill of its own, and it is exactly what exams test. Our post on <a href='/blog/usaco-bronze-to-silver-what-blocks-most-students'>moving from USACO Bronze to Silver</a> shows the same idea in competitive programming."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A note for parents",
+        "id": "parents"
+      },
+      {
+        "type": "paragraph",
+        "text": "If your child says \"I understood it in class but couldn't do the homework\", believe them. It is a real and common experience, not an excuse. The most helpful response is not to explain the solution again, which trains recognition, but to ask them to try the first step and talk through what they are thinking. Our guide to <a href='/blog/help-child-with-maths-homework'>helping with maths homework without solving it</a> has questions that work well here."
+      },
+      {
+        "type": "quote",
+        "text": "Understanding a solution is watching someone else drive. Solving a problem is being handed the keys."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is the gap our classes are built around. The principles on our <a href='/how-we-teach'>how we teach</a> page include deriving a rule yourself before seeing it written down, and staying with one idea until it genuinely clicks, which in practice means students attempt first and explain their own thinking. That applies in our <a href='/online-maths-tuition'>live maths classes</a> and our coding courses alike, one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Why can I understand maths solutions but not solve problems myself?",
+            "content": "Because understanding a given solution and producing one are different skills. Reading a solution is recognition: the method is chosen for you. Solving requires recall and choosing a method from a blank page. Practising by attempting first and recreating solutions from memory builds the second skill."
+          },
+          {
+            "title": "Is it normal to understand in class but struggle with homework?",
+            "content": "Yes, very. In class the teacher chooses the method and shows each step, so it feels clear. At home you must choose the method yourself. This gap is a normal part of learning and closes with the right kind of practice."
+          },
+          {
+            "title": "How long should I try a problem before looking at the solution?",
+            "content": "About 10 to 15 minutes of genuine effort is a good guide for most homework and practice problems. Struggling first makes the solution more meaningful and improves memory, as long as you do not give up in frustration."
+          },
+          {
+            "title": "What is the illusion of competence?",
+            "content": "It is the feeling that you have learned something because it seems easy while you are studying it, for example when rereading notes or following a solution. That ease comes from the material being in front of you, so it often overestimates what you can do alone."
+          },
+          {
+            "title": "What is a faded worked example?",
+            "content": "It is a worked solution where later steps are progressively hidden, so you complete more of the solution yourself each time. It is a gentle bridge between reading full solutions and solving problems independently."
+          },
+          {
+            "title": "Does watching tutorials help me learn coding?",
+            "content": "Only a little on its own. Tutorials build recognition. To build the ability to write code, close the tutorial and rewrite the program from memory, then change it and solve the new version yourself."
+          },
+          {
+            "title": "How can I stop going blank in exams?",
+            "content": "Practise the way exams work: mixed problems, no notes, a blank page and a time limit. The more often you have produced solutions from nothing during practice, the less unfamiliar that feeling is in the exam."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "how-to-get-better-at-maths",
+    "help-child-with-maths-homework",
+    "how-to-solve-maths-word-problems"
+  ]
+}

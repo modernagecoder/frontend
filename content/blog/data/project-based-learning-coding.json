@@ -824,6 +824,10 @@
         "text": "Tutorial hell is when you can complete tutorials but freeze when trying to build something independently. It's caused by passive consumption rather than active learning."
       },
       {
+        "type": "paragraph",
+        "text": "Psychologists call the feeling behind it an illusion of competence: following along feels like learning because every step is in front of you. <a href='/blog/why-can-i-understand-solutions-but-not-solve-problems'>Why you can understand solutions but not solve them</a> shows how to practise the producing skill instead, with examples in maths and code."
+      },
+      {
         "type": "list",
         "style": "unordered",
         "items": [

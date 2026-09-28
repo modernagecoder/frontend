@@ -246,6 +246,10 @@
         "text": "This is where most people get stuck. They complete tutorials but never actually build anything on their own. The secret to real learning is projects. Start small, a personal website, a simple calculator, a to-do list app. It doesn't have to be revolutionary. It just has to be yours."
       },
       {
+        "type": "paragraph",
+        "text": "Part of the reason is that following a finished program and producing one are different skills. Our guide on <a href='/blog/why-can-i-understand-solutions-but-not-solve-problems'>why you can understand solutions but not solve problems</a> explains the gap and a simple close-the-book method that closes it."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "Step 4: Join a Community"
