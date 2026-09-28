@@ -856,6 +856,10 @@
         "text": "<strong>What you can do:</strong> Always examine your training data for bias. Test your models across different demographics. Consider who might be harmed by your AI system. Diverse teams build better, fairer AI."
       },
       {
+        "type": "paragraph",
+        "text": "To see how quickly this happens, we trained a simple model where one group made up only 5% of the data: it was right 99% of the time for the majority and 64% for the minority. That experiment, and four other causes of AI mistakes, are in <a href='/blog/why-do-machine-learning-models-make-mistakes'>why machine learning models make mistakes</a>."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "2. Privacy and Data Protection",

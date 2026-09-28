@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "slug": "why-do-machine-learning-models-make-mistakes",
+    "title": "Why Do AI Models Make Mistakes? 5 Reasons, Tested",
+    "description": "Why machine learning models make mistakes: overfitting, too little data, misleading accuracy, new situations and biased data, each tested in code.",
+    "keywords": [
+      "why do machine learning models make mistakes",
+      "overfitting explained",
+      "why does ai make mistakes",
+      "accuracy paradox",
+      "overfitting vs underfitting",
+      "biased training data",
+      "distribution shift machine learning"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Machine Learning",
+      "AI",
+      "Python",
+      "Data Science"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "Machine learning models make predictable kinds of mistakes. They overfit, memorising noise so they do well on training data and worse on new data. They learn poorly from too little data. They can look excellent on a misleading score, such as 95% accuracy from always predicting the common answer. They fail on situations unlike their training data. And they do worse for groups under-represented in training. Each of these is shown with a real, reproducible Python experiment in this post."
+  },
+  "hero": {
+    "title": "Why Do Machine Learning Models Make Mistakes?",
+    "subtitle": "Five common causes, each demonstrated with a small experiment you can reproduce: overfitting, too little data, misleading scores, unfamiliar situations and unbalanced data.",
+    "featuredImage": {
+      "url": "/images/blog/why-do-machine-learning-models-make-mistakes/00-hero.png",
+      "alt": "Three machine learning models fitted to the same points: too simple, about right, and overfitted to noise"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Machine learning models recommend videos, flag fraud, read medical scans and power chatbots, and every one of them sometimes gets things wrong. Often the mistakes are not random. They follow from how the model learned, and once you know the patterns, you can predict when a model is likely to fail, and avoid building one that will."
+      },
+      {
+        "type": "paragraph",
+        "text": "Rather than describe these failures in the abstract, we ran five small experiments with Python and scikit-learn, one for each common cause. Every number below comes from actually running the code, with fixed random seeds so anyone can reproduce it. You do not need to follow the code to follow the ideas, but it is there for students who want to try it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How a model learns, in one paragraph",
+        "id": "how-it-learns"
+      },
+      {
+        "type": "paragraph",
+        "text": "A machine learning model is a mathematical function with adjustable settings. Training means showing it many examples, inputs with the right answers, and adjusting the settings until its outputs match those answers as closely as possible. The hope is that it has learned the underlying pattern, so it will also be right about new examples it has never seen. Almost every mistake comes from that hope not quite coming true."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "1. Overfitting: memorising instead of learning",
+        "id": "overfitting"
+      },
+      {
+        "type": "paragraph",
+        "text": "Imagine a student who memorises the answers to last year's paper instead of understanding the topic. They score perfectly on that paper and badly on the real exam. Models do the same thing. Here, fifteen noisy measurements of a smooth wave are fitted with three models of increasing flexibility:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import numpy as np\nfrom numpy.polynomial import Polynomial\n\nrng = np.random.default_rng(0)\ndef truth(x):\n    return np.sin(x)                                  # the real pattern\n\nx_train = np.sort(rng.uniform(0, 6, 15))\ny_train = truth(x_train) + rng.normal(0, 0.25, 15)    # 15 noisy measurements\nx_test = np.linspace(0.2, 5.8, 200)\ny_test = truth(x_test) + rng.normal(0, 0.25, 200)     # new data the model never saw\n\ndef rmse(a, b):\n    return float(np.sqrt(np.mean((a - b) ** 2)))\n\nfor degree in (1, 4, 12):\n    model = Polynomial.fit(x_train, y_train, degree)\n    print(f\"degree {degree:>2}: error on training data {rmse(model(x_train), y_train):.2f}\"\n          f\"   error on new data {rmse(model(x_test), y_test):.2f}\")",
+        "title": "overfitting.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "degree  1: error on training data 0.43   error on new data 0.65\ndegree  4: error on training data 0.13   error on new data 0.28\ndegree 12: error on training data 0.04   error on new data 9.61",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/why-do-machine-learning-models-make-mistakes/01-overfitting.png",
+        "alt": "Training error and new-data error for polynomial models of degree 1, 4 and 12, showing the degree 12 model fits training data best but new data worse",
+        "caption": "The most flexible model wins on old data and loses on new data."
+      },
+      {
+        "type": "paragraph",
+        "text": "The straight line is too simple to follow the wave, so it is wrong everywhere, a problem called <strong>underfitting</strong>. The most flexible model has the lowest error on the training data, because it bends to pass close to every noisy point, but its error on new data is by far the worst of the three: between and beyond the training points it swings wildly. It learned the noise, not the wave. That is <strong>overfitting</strong>, and it is the single most common reason a model that looked brilliant in testing disappoints in real use."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "The rule every data scientist follows",
+        "text": "Never judge a model on the data it was trained on. Always hold back data it has never seen and measure it there. A model that is much better on training data than on new data is overfitting."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "2. Not enough data",
+        "id": "not-enough-data"
+      },
+      {
+        "type": "paragraph",
+        "text": "A model can only learn patterns that appear in its examples. With too few, it learns accidents of the particular examples it happened to see. Here is the same model trained on more and more examples, and always tested on the same two thousand new ones:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from sklearn.datasets import make_classification\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.tree import DecisionTreeClassifier\n\nX, y = make_classification(n_samples=6000, n_features=10, n_informative=5, random_state=1)\nX_pool, X_test, y_pool, y_test = train_test_split(X, y, test_size=2000, random_state=1)\n\nfor n in (20, 100, 500, 4000):\n    model = DecisionTreeClassifier(max_depth=5, random_state=1).fit(X_pool[:n], y_pool[:n])\n    print(f\"trained on {n:>4} examples: accuracy on new data {model.score(X_test, y_test):.0%}\")",
+        "title": "data_size.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "trained on   20 examples: accuracy on new data 71%\ntrained on  100 examples: accuracy on new data 76%\ntrained on  500 examples: accuracy on new data 85%\ntrained on 4000 examples: accuracy on new data 86%",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/why-do-machine-learning-models-make-mistakes/02-data-size.png",
+        "alt": "Accuracy on new data rising as a decision tree is trained on 20, 100, 500 and 4,000 examples",
+        "caption": "Nothing changed but the amount of data."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nothing about the model changed. Only the amount of data did. This is why companies value data so highly, and why a model trained on a small, narrow set of examples should always be treated with suspicion."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "3. A high score that hides failure",
+        "id": "accuracy-paradox"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sometimes the model is fine but the way it is being judged is not. Suppose 5% of transactions are fraudulent. A \"model\" that simply says \"not fraud\" every time will be right about 95% of the time, and completely useless:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import numpy as np\nfrom sklearn.metrics import accuracy_score, recall_score\n\nrng = np.random.default_rng(3)\ny_true = (rng.random(1000) < 0.05).astype(int)       # 5% of 1,000 cases are real positives\nlazy_prediction = np.zeros(1000, dtype=int)          # a \"model\" that always says no\n\nprint(\"positives in the data:\", y_true.sum())\nprint(f\"accuracy: {accuracy_score(y_true, lazy_prediction):.1%}\")\nprint(f\"positives it caught (recall): {recall_score(y_true, lazy_prediction):.0%}\")",
+        "title": "accuracy_paradox.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "positives in the data: 47\naccuracy: 95.3%\npositives it caught (recall): 0%",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/why-do-machine-learning-models-make-mistakes/03-accuracy-paradox.png",
+        "alt": "A model that always predicts no reaching 95.3% accuracy while catching none of the real positive cases",
+        "caption": "Accuracy sounds great and means nothing here."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is called the accuracy paradox. For rare events such as fraud, disease or equipment failure, you have to measure how many of the real cases the model catches (called recall) and how many of its alarms are real (called precision). A headline accuracy number on its own can hide a model that never does its actual job."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "4. Questions outside its experience",
+        "id": "distribution-shift"
+      },
+      {
+        "type": "paragraph",
+        "text": "Models are generally reliable only for inputs similar to the ones they trained on. Ask about something outside that range and they extrapolate, often confidently and wrongly. Here a simple model learns how ice cream sales rise with temperature, using only spring days between 10 and 25 degrees:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import numpy as np\nfrom sklearn.linear_model import LinearRegression\n\n# ice cream sales rise with temperature, but not in a straight line forever\ndef sales(temp):\n    return 20 * temp - 0.4 * temp ** 2\n\ntrain_temps = np.arange(10, 26).reshape(-1, 1)        # trained on a mild spring, 10 to 25 degrees\nmodel = LinearRegression().fit(train_temps, sales(train_temps.ravel()))\n\nfor t in (15, 25, 35, 45):\n    predicted = model.predict([[t]])[0]\n    print(f\"{t} degrees: predicted {predicted:6.0f}   actual {sales(t):6.0f}\"\n          + (\"   (inside training range)\" if 10 <= t <= 25 else \"   (outside training range)\"))",
+        "title": "distribution_shift.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "15 degrees: predicted    204   actual    210   (inside training range)\n25 degrees: predicted    264   actual    250   (inside training range)\n35 degrees: predicted    324   actual    210   (outside training range)\n45 degrees: predicted    384   actual     90   (outside training range)",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Inside its training range, the model is close. Far outside it, it predicts sales will keep climbing, when in reality they level off and fall as it gets too hot to go out. The model was never shown a heatwave, so it had no way to know. The same thing happens when a model trained before a big change, a new product, a pandemic, a different country, is used after it. Data scientists call this <strong>distribution shift</strong>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "5. Unbalanced training data",
+        "id": "biased-data"
+      },
+      {
+        "type": "paragraph",
+        "text": "If one group dominates the training data, the model learns the pattern that fits that group, and can do noticeably worse for everyone else, even when nobody intended it. Here, 95% of the training examples come from group A and 5% from group B, whose pattern is slightly different:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import numpy as np\nfrom sklearn.linear_model import LogisticRegression\n\nrng = np.random.default_rng(7)\ndef group(n, shift):\n    X = rng.normal(0, 1, (n, 2))\n    y = (X[:, 0] + shift * X[:, 1] > 0).astype(int)  # the right rule differs a little by group\n    return X, y\n\nXA, yA = group(1900, 0.2)       # group A: 95% of the training data\nXB, yB = group(100, -1.5)       # group B: only 5%\nmodel = LogisticRegression().fit(np.vstack([XA, XB]), np.concatenate([yA, yB]))\n\nXA_new, yA_new = group(1000, 0.2)\nXB_new, yB_new = group(1000, -1.5)\nprint(f\"accuracy for group A: {model.score(XA_new, yA_new):.0%}\")\nprint(f\"accuracy for group B: {model.score(XB_new, yB_new):.0%}\")",
+        "title": "unbalanced_data.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "accuracy for group A: 99%\naccuracy for group B: 64%",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "The same model is right 99% of the time for the group it saw most, and 64% for the group it barely saw. In real systems this is how face recognition, speech recognition or medical tools can work well for some people and poorly for others. It is also why testing a model separately for different groups, not just overall, matters so much."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/why-do-machine-learning-models-make-mistakes/04-five-reasons.png",
+        "alt": "Five reasons machine learning models make mistakes, each measured in this post: overfitting, too little data, misleading scores, new situations, and unbalanced data",
+        "caption": "Every one of these is visible in the experiments above."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What this means for chatbots and everyday AI",
+        "id": "chatbots"
+      },
+      {
+        "type": "paragraph",
+        "text": "Large language models such as ChatGPT are far bigger than these examples, but related problems appear in them too. They can state wrong facts confidently, especially about topics that were rare in their training data, and they can do worse on questions unlike anything they were trained on. That is why checking AI answers matters, and why our guide on <a href='/blog/how-to-use-chatgpt-to-study-without-cheating'>using ChatGPT to study without cheating</a> spends a whole section on catching confident wrong answers. For how language models work underneath, see <a href='/how-ai-actually-works'>how AI actually works</a>."
+      },
+      {
+        "type": "quote",
+        "text": "A model is only as good as the examples it learned from and the test it was judged by."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In our AI and machine learning classes, students run experiments like these themselves before learning the theory, in line with the learning-by-building principle on our <a href='/how-we-teach'>how we teach</a> page. Seeing a model overfit on your own screen teaches more than a definition. See <a href='/master-ai-ml-python-java'>AI and machine learning with Python</a>, taught live, one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Why do machine learning models make mistakes?",
+            "content": "Common reasons are overfitting (memorising training examples instead of learning the pattern), too little data, being judged by a misleading score, being asked about situations unlike their training data, and training data that under-represents some groups. Each of these can be measured and reduced."
+          },
+          {
+            "title": "What is overfitting in simple terms?",
+            "content": "Overfitting is when a model memorises its training examples, including their noise, instead of learning the general pattern. It performs very well on the data it was trained on and worse on new data, like a student who memorised last year's answers."
+          },
+          {
+            "title": "How do you know if a model is overfitting?",
+            "content": "Compare its performance on training data with its performance on data it has never seen. If it is much better on the training data, it is overfitting. That is why data is always split into training and test sets."
+          },
+          {
+            "title": "Why is accuracy sometimes misleading?",
+            "content": "When one outcome is rare, a model can achieve high accuracy by always predicting the common outcome. With 5% fraud, always saying \"not fraud\" is 95% accurate but catches nothing. Precision and recall show whether the model finds the rare cases."
+          },
+          {
+            "title": "Can more data fix a bad model?",
+            "content": "Often it helps a lot, as the experiment in this post shows, but not always. More data does not fix a misleading score, and more of the same biased data does not fix unbalanced data. The data has to cover the situations the model will face."
+          },
+          {
+            "title": "Why does AI give different results for different groups of people?",
+            "content": "Usually because some groups were under-represented in the training data, so the model learned patterns that fit the majority better. Testing performance separately for each group, and collecting more balanced data, are the main ways to find and reduce this."
+          },
+          {
+            "title": "Do I need advanced maths to understand machine learning mistakes?",
+            "content": "No. The ideas in this post need only an intuitive understanding of patterns and averages. Building and tuning models well does use more maths, especially statistics and linear algebra, which can be learned step by step."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "what-is-ai-complete-beginners-guide-how-to-start",
+    "what-type-of-data-is-generative-ai-most-suitable-for",
+    "data-science-ai-math-skills-professionals"
+  ]
+}

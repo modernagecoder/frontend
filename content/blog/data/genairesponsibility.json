@@ -256,6 +256,10 @@
       },
       {
         "type": "paragraph",
+        "text": "Testing across groups matters because overall accuracy can hide large gaps. Our post on <a href='/blog/why-do-machine-learning-models-make-mistakes'>why machine learning models make mistakes</a> measures exactly this, alongside overfitting and the accuracy paradox."
+      },
+      {
+        "type": "paragraph",
         "text": "Question AI suggestions that seem to make assumptions about users. For example, if AI generates form validation that assumes everyone has a middle name, or that all phone numbers follow US formatting, push back and make it more inclusive."
       },
       {
