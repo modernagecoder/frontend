@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "slug": "how-to-solve-maths-word-problems",
+    "title": "How to Solve Maths Word Problems (Without Keywords)",
+    "description": "How to solve maths word problems: why children struggle, why the keyword trick fails (tested in code), a four-step method with bar models, and checks.",
+    "keywords": [
+      "how to solve maths word problems",
+      "why does my child struggle with word problems",
+      "math word problems strategies",
+      "bar model maths",
+      "word problem keywords",
+      "steps to solve word problems",
+      "how to help child with word problems"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Maths",
+    "tags": [
+      "Maths",
+      "Word Problems",
+      "Parents",
+      "Problem Solving"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "Word problems are hard because they add reading and reasoning to the maths, and the operation is not given. The popular keyword trick (more means add, left means subtract) fails whenever a question is phrased the other way round: a keyword program we wrote got three of four problems wrong. Instead, read the problem twice, draw it (a bar model works for almost every problem), decide the calculation from the drawing, and check the answer by putting it back into the story."
+  },
+  "hero": {
+    "title": "How to Solve Maths Word Problems",
+    "subtitle": "Why children who can calculate still freeze at word problems, why the keyword trick makes it worse, and a four-step method with bar models that works at every age.",
+    "featuredImage": {
+      "url": "/images/blog/how-to-solve-maths-word-problems/00-hero.png",
+      "alt": "How to solve maths word problems: a problem where the word more means subtract, not add"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Many children who can do a page of sums perfectly freeze when the same maths is written as a story. \"Priya has 5 more stickers than Arjun\" suddenly feels harder than 12 &#8722; 5. That is not a sign of weak maths. It is a sign that the child has not yet learned how to turn words into a picture of what is happening, and that is a separate skill that needs to be taught on purpose."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide explains why word problems are hard, why the popular \"keyword\" trick makes things worse (we tested it with a small program, and it got three out of four problems wrong), and a four-step method with bar models that works for any word problem, from Year 2 to GCSE and board exams."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "Word problems are hard because they add reading and reasoning to the maths. Do not teach keywords like \"more means add\", because questions are often written the other way round. Instead: read the problem twice, draw it (a bar model is ideal), decide the operation from the drawing, and check the answer by putting it back into the story."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why word problems are hard",
+        "id": "why-hard"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>They load reading on top of maths.</strong> A child has to decode the sentence, hold the story in mind and then calculate. If any one of those is shaky, the whole thing falls over.",
+          "<strong>The operation is hidden.</strong> A page of sums tells you to add or subtract. A word problem makes you decide, and deciding is the real skill being tested.",
+          "<strong>The order of information is not the order of the maths.</strong> The number you need first is often mentioned last.",
+          "<strong>Extra information.</strong> Some problems include numbers you do not need, which catches children who use every number they see."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The keyword trap",
+        "id": "keyword-trap"
+      },
+      {
+        "type": "paragraph",
+        "text": "A common shortcut is to teach keywords: \"more\" or \"altogether\" means add, \"left\" or \"fewer\" means subtract, \"each\" means multiply. It works on simple problems, which is why it is popular. But it fails as soon as a question is phrased the other way round, which exam questions often deliberately are."
+      },
+      {
+        "type": "paragraph",
+        "text": "To show how badly it goes wrong, here is the keyword strategy written as a Python program. It finds a keyword, grabs the numbers and applies the operation, exactly as a child following the rule would:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import re, math\n\n# the \"keyword\" strategy many children are taught, written as a program\nKEYWORDS = {\"more\": \"+\", \"altogether\": \"+\", \"total\": \"+\",\n            \"left\": \"-\", \"gave away\": \"-\", \"fewer\": \"-\",\n            \"each\": \"x\", \"times\": \"x\", \"shared\": \"/\"}\n\ndef keyword_solver(problem):\n    numbers = [int(n) for n in re.findall(r\"\\d+\", problem)]\n    for word, op in KEYWORDS.items():\n        if word in problem.lower():\n            a, b = sorted(numbers, reverse=True)[:2]\n            return eval(f\"{a} {op.replace('x', '*')} {b}\")\n    return None\n\nproblems = [\n    (\"Priya has 5 more stickers than Arjun. Priya has 12. How many does Arjun have?\", 12 - 5),\n    (\"Sam gave away 8 marbles and has 15 left. How many did he have at the start?\", 15 + 8),\n    (\"Each box holds 6 eggs. How many boxes are needed for 45 eggs?\", math.ceil(45 / 6)),\n    (\"Mia read 14 pages on Monday and 9 on Tuesday. How many pages altogether?\", 14 + 9),\n]\nfor text, correct in problems:\n    guess = keyword_solver(text)\n    verdict = \"right\" if guess == correct else \"WRONG\"\n    print(f\"keyword answer {guess:>5}   correct {correct:>3}   {verdict}\")",
+        "title": "keyword_solver.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "keyword answer    17   correct   7   WRONG\nkeyword answer     7   correct  23   WRONG\nkeyword answer   270   correct   8   WRONG\nkeyword answer    23   correct  23   right",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-solve-maths-word-problems/01-keyword-trap.png",
+        "alt": "Results of a keyword-based program solving four word problems: three wrong answers and one right one",
+        "caption": "Keywords worked once in four. Understanding the story works every time."
+      },
+      {
+        "type": "paragraph",
+        "text": "It got three out of four wrong. \"5 more than Arjun\" made it add, but Arjun has 5 fewer, so you subtract. \"Left\" made it subtract, but the question asks for the starting amount, so you add. \"Each\" made it multiply, but you need to divide, and round up. The only one it got right was the problem written in the most obvious way. Children taught keywords make exactly these mistakes, for exactly the same reason: they are reacting to words rather than understanding the situation."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A four-step method that works for any word problem",
+        "id": "four-steps"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-solve-maths-word-problems/02-four-steps.png",
+        "alt": "Four steps for solving maths word problems: read it twice, draw it, plan the sum, check it in the story",
+        "caption": "The drawing step is where most of the thinking happens."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Read it twice.</strong> The first read is just for the story: who is involved and what is happening. The second read is for the numbers and the question. Then ask the child to say the problem back in their own words, without numbers. If they cannot, they are not ready to calculate.",
+          "<strong>Draw it.</strong> A quick sketch, a table, or best of all a bar model. The drawing turns the words into something you can look at, and the operation usually becomes obvious.",
+          "<strong>Plan the sum.</strong> Decide what to calculate from the drawing, not from the words. Write the calculation before doing it.",
+          "<strong>Check it in the story.</strong> Put the answer back into the problem and ask whether it makes sense. Is the size sensible? Does it need to be a whole number? Is it the thing the question actually asked for?"
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Take the numbers out",
+        "text": "A powerful trick for children who panic: read the problem with the numbers replaced by \"some\". \"Sam gave away some marbles and has some left. How many did he have at the start?\" Without numbers to grab, the child has to think about the story, and usually realises the answer is the two amounts added together."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Bar models: the drawing that does the work",
+        "id": "bar-models"
+      },
+      {
+        "type": "paragraph",
+        "text": "Bar models, used widely in Singapore maths and now in many schools around the world, represent amounts as rectangles. They work for almost every kind of word problem because they show the relationship between the numbers, which is exactly what keywords hide."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-solve-maths-word-problems/03-bar-models.png",
+        "alt": "Two bar models: a comparison model showing Priya has 5 more than Arjun, and a part-whole model showing 8 given away and 15 left",
+        "caption": "Once it is drawn, the question \"add or subtract?\" answers itself."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Part-whole models</strong> show a total split into parts. If you know the parts, add. If you know the total and one part, subtract.",
+          "<strong>Comparison models</strong> show two bars side by side, with the difference marked. \"5 more than\" becomes a visible extra piece on the longer bar.",
+          "<strong>Equal-parts models</strong> show a bar divided into equal sections, which makes multiplication, division and fractions of amounts visible."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Our <a href='/singapore-math-method-tutoring'>Singapore maths method tutoring</a> is built around bar models for exactly this reason."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Checking the answer",
+        "id": "checking"
+      },
+      {
+        "type": "paragraph",
+        "text": "The last step is the one most often skipped, and it catches the most mistakes. Putting the answer back into the story is quick, and a program can show what it looks like:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# checking answers by putting them back into the story\narjun = 12 - 5\nprint(\"Arjun has\", arjun, \"-> Priya has 5 more:\", arjun + 5, \"(matches 12)\")\n\nstart = 15 + 8\nprint(\"Sam started with\", start, \"-> gave away 8, left with:\", start - 8, \"(matches 15)\")\n\nboxes = 8\nprint(boxes, \"boxes hold\", boxes * 6, \"eggs (enough for 45);\", boxes - 1, \"boxes hold only\", (boxes - 1) * 6)",
+        "title": "check_answers.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Arjun has 7 -> Priya has 5 more: 12 (matches 12)\nSam started with 23 -> gave away 8, left with: 15 (matches 15)\n8 boxes hold 48 eggs (enough for 45); 7 boxes hold only 42",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-solve-maths-word-problems/04-checks.png",
+        "alt": "Four checks for word problem answers: put it back in the story, check the size, check for whole numbers, and check it answers the question asked",
+        "caption": "Thirty seconds of checking saves most lost marks."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Word problems by age",
+        "id": "by-age"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Age",
+          "Typical problems",
+          "What to focus on"
+        ],
+        "rows": [
+          [
+            "6 to 8",
+            "One step: adding, taking away, sharing",
+            "Acting out stories with objects, then drawing them"
+          ],
+          [
+            "8 to 10",
+            "Two steps, comparison, remainders",
+            "Bar models, saying the story back, rounding remainders sensibly"
+          ],
+          [
+            "10 to 12",
+            "Fractions, percentages, ratio, several steps",
+            "Planning before calculating, checking units"
+          ],
+          [
+            "12 and up",
+            "Algebra from words, rates, geometry",
+            "Defining unknowns, writing equations from the bar model"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Word problems are also where maths anxiety often shows up, because a child who reads slowly can feel stuck before they even reach the maths. If that sounds familiar, see our guide to <a href='/blog/help-child-with-maths-anxiety'>helping a child with maths anxiety</a>, and for division stories in particular, <a href='/blog/how-to-explain-division-to-a-child'>how to explain division to a child</a>."
+      },
+      {
+        "type": "quote",
+        "text": "Never ask \"what's the keyword?\" Ask \"what's happening in this story?\"",
+        "author": "What our teachers say instead"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, word problems are taught as reasoning, not as a hunt for keywords: students say the story back, draw a bar model on screen, plan, and then check. Teachers can see the drawing as it happens, which shows exactly where understanding breaks down. Classes are one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Why does my child struggle with word problems?",
+            "content": "Usually because word problems add reading and reasoning on top of the maths, and the operation is not given. Many children can calculate well but have not learned to turn a story into a picture of what is happening. Drawing the problem, especially with bar models, helps most."
+          },
+          {
+            "title": "Should I teach my child keywords for word problems?",
+            "content": "It is better not to rely on them. Keywords such as \"more means add\" fail whenever a question is phrased the other way round, for example \"Priya has 5 more than Arjun, how many does Arjun have?\", which needs subtraction. Teach children to understand and draw the story instead."
+          },
+          {
+            "title": "What is a bar model in maths?",
+            "content": "A bar model is a drawing that represents quantities as rectangles, showing how they relate: parts of a whole, a comparison between two amounts, or equal groups. It makes the right operation visible and is widely used in Singapore maths."
+          },
+          {
+            "title": "What are the steps to solve a word problem?",
+            "content": "Read the problem twice, first for the story and then for the numbers. Draw it, ideally as a bar model. Decide the calculation from the drawing. Then check the answer by putting it back into the story and making sure it answers the question asked."
+          },
+          {
+            "title": "How can I help my child with maths word problems at home?",
+            "content": "Ask them to tell you the story in their own words before calculating, and to draw it. Try reading problems with the numbers replaced by \"some\" so they focus on the situation. Praise sensible reasoning, not just the right answer."
+          },
+          {
+            "title": "Are word problems important for exams?",
+            "content": "Yes. Most maths exams, from primary tests to GCSE and board exams, use word problems to test whether students can apply maths, and they carry a large share of the marks. The skill also matters for everyday life."
+          },
+          {
+            "title": "My child reads slowly. Is that why word problems are hard?",
+            "content": "It can be a big part of it. Reading the problem aloud together, or having the child read it twice, separates the reading from the maths. If reading is the main barrier, that deserves attention in its own right."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "help-child-with-maths-anxiety",
+    "how-to-explain-division-to-a-child",
+    "why-is-my-child-struggling-with-maths"
+  ]
+}
