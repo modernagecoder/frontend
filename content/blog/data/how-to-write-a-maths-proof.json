@@ -1,0 +1,348 @@
+{
+  "meta": {
+    "slug": "how-to-write-a-maths-proof",
+    "title": "How to Write a Maths Proof: A Beginner's Guide with Examples",
+    "description": "What a proof is, why examples are not enough, and four methods (direct, contradiction, induction, counterexample) with worked examples.",
+    "keywords": [
+      "how to write a proof",
+      "how to write a maths proof",
+      "types of proof",
+      "proof by induction examples",
+      "proof by contradiction examples",
+      "what is a mathematical proof",
+      "olympiad proof writing"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Mathematics",
+    "tags": [
+      "Proof",
+      "Olympiad",
+      "Number Theory",
+      "Python"
+    ],
+    "readTime": "9 min read",
+    "featured": false,
+    "tldr": "A proof shows a statement is true in every case, not just the ones you checked. Examples are never enough: n squared plus n plus 41 is prime for 40 values in a row, then fails at n = 40 with 1681 = 41 x 41. Most beginner proofs use four methods: direct proof (reason step by step, often writing odd numbers as 2k + 1), contradiction (assume it is false and reach something impossible, as in the proof that the square root of 2 is not a fraction), induction (prove the first case and that each case gives the next), and counterexample (one failing case disproves an always claim)."
+  },
+  "hero": {
+    "title": "How to Write a Maths Proof: A Beginner's Guide with Examples",
+    "subtitle": "Why checking examples is never enough, and the four methods that cover most beginner proofs, each with a worked example and a little code to show where checking ends and proof begins.",
+    "featuredImage": {
+      "url": "/images/blog/how-to-write-a-maths-proof/00-hero.png",
+      "alt": "How to write a maths proof: a short proof that the sum of two odd numbers is even, ending with a proof square"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "A proof is an argument that shows a statement is true in every case, not just the ones you happened to check. It is the heart of mathematics, the main skill tested in maths olympiads, and a big step for anyone moving from school maths to university maths. It also feels strange at first, because most school maths asks you to calculate an answer, not to explain why something must always be true."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide explains what a proof is, why checking examples is never enough, and the four methods that cover most beginner proofs: direct proof, proof by contradiction, proof by induction and counterexamples. Each comes with a worked example, and a few short Python programs show where checking stops and proving has to take over."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why checking examples is not a proof",
+        "id": "examples"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is a formula studied by Leonhard Euler in the 18th century: n&#178; + n + 41. Try n = 0 and you get 41, a prime. n = 1 gives 43, also prime. n = 2 gives 47. It looks as if this formula always makes primes. Let a computer check:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def is_prime(n):\n    if n < 2:\n        return False\n    d = 2\n    while d * d <= n:\n        if n % d == 0:\n            return False\n        d += 1\n    return True\n\nstreak = 0\nfor n in range(100):\n    value = n * n + n + 41\n    if not is_prime(value):\n        print(f\"n = {n}: {value} is NOT prime ({value} = 41 x {value // 41})\")\n        break\n    streak += 1\nprint(f\"prime for every n from 0 to {streak - 1}: {streak} cases in a row\")",
+        "title": "euler.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "n = 40: 1681 is NOT prime (1681 = 41 x 41)\nprime for every n from 0 to 39: 40 cases in a row",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-write-a-maths-proof/01-euler.png",
+        "alt": "Values of n squared plus n plus 41 for n from 0 to 40: all prime from 41 up to 1601, then at n equals 40 the value is 1681, which is 41 times 41",
+        "caption": "Forty cases in a row, and the claim is still false."
+      },
+      {
+        "type": "paragraph",
+        "text": "It gives a prime 40 times in a row, then fails at n = 40: 1681 is 41 &#215; 41. And you can see why without a computer: when n = 40, n&#178; + n + 41 = 40 &#215; 41 + 41 = 41 &#215; 41. Forty examples felt like overwhelming evidence, and they proved nothing. That is exactly why mathematicians insist on proof."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The four main methods",
+        "id": "methods"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-write-a-maths-proof/02-methods.png",
+        "alt": "Four proof methods: direct proof, reasoning from what you know; contradiction, assuming the claim is false and reaching something impossible; induction, proving the first case and that each case forces the next; and counterexample, one failing case disproves an always claim",
+        "caption": "Most beginner proofs use one of these four."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Direct proof",
+        "id": "direct"
+      },
+      {
+        "type": "paragraph",
+        "text": "Start from what you know and reason, one justified step at a time, to what you want to show. The trick is usually to write the objects in a useful form. Every odd number can be written as 2m + 1 for some whole number m, so:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Claim:</strong> the sum of two odd numbers is even.",
+          "<strong>Proof:</strong> let the odd numbers be 2m + 1 and 2n + 1, where m and n are whole numbers. Their sum is 2m + 2n + 2 = 2(m + n + 1). That is 2 times a whole number, so it is even."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice that this covers <em>every</em> pair of odd numbers at once, because m and n can be anything. The same style shows that the square of an odd number is odd: (2k + 1)&#178; = 4k&#178; + 4k + 1 = 2(2k&#178; + 2k) + 1, which is 2 times a whole number plus 1. We will need that fact in a moment."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Proof by contradiction",
+        "id": "contradiction"
+      },
+      {
+        "type": "paragraph",
+        "text": "Assume the statement you want to prove is false, then show that this assumption leads to something impossible. If the assumption breaks mathematics, it must be wrong, so the statement is true. The classic example, known since ancient Greece, shows that the square root of 2 cannot be written as a fraction:"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-write-a-maths-proof/04-sqrt2.png",
+        "alt": "Proof that the square root of 2 is not a fraction: assume it equals a over b in lowest terms, so a squared equals 2 b squared, so a is even, then b is even, so both are even, contradicting lowest terms",
+        "caption": "Each line follows from the one before. The last line contradicts the first."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "Suppose &#8730;2 = a / b, where a and b are whole numbers and the fraction is in lowest terms, so a and b have no common factor.",
+          "Squaring both sides gives 2 = a&#178; / b&#178;, so a&#178; = 2b&#178;. That means a&#178; is even.",
+          "If a were odd, a&#178; would be odd, as we just proved. So a must be even. Write a = 2k.",
+          "Then (2k)&#178; = 2b&#178;, so 4k&#178; = 2b&#178;, so b&#178; = 2k&#178;. So b&#178; is even, and by the same argument, b is even.",
+          "Now a and b are both even, so they share the factor 2. But we said the fraction was in lowest terms. Contradiction. So &#8730;2 is not a fraction."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Another famous contradiction proof is Euclid's argument that the primes never run out, which our <a href='/blog/prime-numbers-explained'>prime numbers guide</a> walks through."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Proof by induction",
+        "id": "induction"
+      },
+      {
+        "type": "paragraph",
+        "text": "Induction proves a statement for every whole number n. You prove two things: the <strong>base case</strong>, that it is true for n = 1, and the <strong>inductive step</strong>, that whenever it is true for some number k, it is also true for k + 1. Together, these knock over every case, like dominoes."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-write-a-maths-proof/03-induction.png",
+        "alt": "Induction as dominoes: the base case knocks over the first domino, the inductive step shows each domino knocks over the next, so they all fall and the claim is true for every n",
+        "caption": "Two small proofs give you infinitely many cases."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Claim:</strong> 1 + 2 + 3 + ... + n = n(n + 1) / 2 for every whole number n of at least 1. A computer can check lots of cases:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# Check the formula 1 + 2 + ... + n = n(n + 1) / 2 for the first 10,000 values of n\ntotal = 0\nfor n in range(1, 10_001):\n    total += n\n    assert total == n * (n + 1) // 2, n\nprint(\"formula matches for n = 1 to 10,000\")\nprint(\"but that is 10,000 cases, not all of them. Induction covers the rest.\")",
+        "title": "gauss.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "formula matches for n = 1 to 10,000\nbut that is 10,000 cases, not all of them. Induction covers the rest.",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ten thousand cases is encouraging, but after the Euler example we know that is not enough. Here is the proof:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Base case:</strong> for n = 1, the left side is 1 and the right side is 1 &#215; 2 / 2 = 1. True.",
+          "<strong>Inductive step:</strong> assume 1 + 2 + ... + k = k(k + 1) / 2. Add k + 1 to both sides: 1 + 2 + ... + k + (k + 1) = k(k + 1) / 2 + (k + 1) = (k + 1)(k / 2 + 1) = (k + 1)(k + 2) / 2. That is exactly the formula with n = k + 1.",
+          "<strong>Conclusion:</strong> the formula holds for n = 1, and each case gives the next, so it holds for every n."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Disproof by counterexample",
+        "id": "counterexample"
+      },
+      {
+        "type": "paragraph",
+        "text": "To show that an \"always\" statement is false, you need only one case where it fails. Consider the claim: \"if p is prime, then 2<sup>p</sup> &#8722; 1 is prime.\" Numbers of this form are named after Marin Mersenne, a 17th-century French scholar. It works for the first few primes:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# Claim to test: \"if p is prime, then 2^p - 1 is prime\"\ndef smallest_factor(m):\n    d = 2\n    while d * d <= m:\n        if m % d == 0:\n            return d\n        d += 1\n    return None   # no factor found, so m is prime\n\nfor p in [2, 3, 5, 7, 11, 13]:\n    m = 2 ** p - 1\n    f = smallest_factor(m)\n    if f is None:\n        print(f\"p = {p:>2}: 2^p - 1 = {m} is prime\")\n    else:\n        print(f\"p = {p:>2}: 2^p - 1 = {m} = {f} x {m // f}, NOT prime\")",
+        "title": "mersenne.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "p =  2: 2^p - 1 = 3 is prime\np =  3: 2^p - 1 = 7 is prime\np =  5: 2^p - 1 = 31 is prime\np =  7: 2^p - 1 = 127 is prime\np = 11: 2^p - 1 = 2047 = 23 x 89, NOT prime\np = 13: 2^p - 1 = 8191 is prime",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "p = 11 gives 2047 = 23 &#215; 89. That single counterexample disproves the claim for good, even though p = 13 works again. Computers are excellent at hunting for counterexamples, which is one reason coding and proof make good partners."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to write a proof up",
+        "id": "write-up"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>State exactly what you are proving.</strong> Write the claim in full, including what kind of numbers it is about.",
+          "<strong>Say what you assume.</strong> \"Let n be an odd number\", \"Suppose, for contradiction, that...\".",
+          "<strong>Give a reason for every step.</strong> Each line should follow from earlier lines, known facts, or the assumptions. If you write \"clearly\", check that it really is clear.",
+          "<strong>Use words, not just symbols.</strong> \"So\", \"therefore\", \"because\" and \"which means\" carry the logic. A proof is a piece of writing.",
+          "<strong>End by saying what you have shown,</strong> and, for contradiction or induction, why the method finishes the job."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "The most common beginner mistakes",
+        "text": "Checking examples and calling it a proof. Assuming the thing you are trying to prove. Proving the converse by accident (showing \"if B then A\" when asked for \"if A then B\"). In induction, forgetting the base case, or proving the step only for one particular k."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "When the claim says...",
+          "Try first"
+        ],
+        "rows": [
+          [
+            "for all odd or even numbers",
+            "Direct proof, writing numbers as 2k or 2k + 1"
+          ],
+          [
+            "something is impossible, or is not a fraction",
+            "Contradiction"
+          ],
+          [
+            "for every whole number n, with a formula in n",
+            "Induction"
+          ],
+          [
+            "is always true, and you suspect it is not",
+            "Search for a counterexample, by hand or with code"
+          ],
+          [
+            "some box must contain two objects",
+            "The <a href='/blog/pigeonhole-principle-explained'>pigeonhole principle</a>"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to get better at proofs",
+        "id": "practice"
+      },
+      {
+        "type": "paragraph",
+        "text": "Proof writing improves with practice and feedback, like any writing. Start with short claims about odd and even numbers, divisibility and sums, then move on. Try each proof yourself before reading one, and after reading a proof, close the book and rewrite it from memory. Our post on <a href='/blog/why-can-i-understand-solutions-but-not-solve-problems'>why you can understand solutions but not solve problems</a> explains why that last step matters so much. Remainders turn up in many proofs, so <a href='/blog/modular-arithmetic-explained'>modular arithmetic</a> is a good next topic."
+      },
+      {
+        "type": "quote",
+        "text": "A calculation tells you what is true. A proof tells you why it could not be otherwise."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Proof is where two principles on our <a href='/how-we-teach'>how we teach</a> page matter most: students derive the rule themselves before they ever see it written down, and students explain their thinking. A proof is exactly that, a rule you have reasoned out and can explain. Our <a href='/maths-olympiad-classes-online'>maths olympiad classes</a> run one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is a mathematical proof?",
+            "content": "A proof is a logical argument that shows a statement is true in every case it covers. Each step follows from definitions, known facts or earlier steps, so no example, however many you check, can replace it."
+          },
+          {
+            "title": "What are the main types of proof?",
+            "content": "For beginners, the four main methods are direct proof, proof by contradiction, proof by induction and disproof by counterexample. Other methods, such as the pigeonhole principle and proof by cases, build on these."
+          },
+          {
+            "title": "Why are examples not enough to prove something?",
+            "content": "Because a pattern can hold for many cases and then fail. The formula n squared plus n plus 41 gives a prime for every n from 0 to 39, then gives 1681, which is 41 times 41, at n = 40."
+          },
+          {
+            "title": "How do you start a proof?",
+            "content": "Write down exactly what you are proving and what you are allowed to assume. Then rewrite the objects in a useful form, for example an odd number as 2k + 1, and look for a chain of steps from the assumptions to the claim."
+          },
+          {
+            "title": "What is proof by induction in simple words?",
+            "content": "You show a statement is true for the first case, then show that whenever it is true for one case, it must also be true for the next. Like dominoes, the first falls and each knocks over the next, so all of them fall."
+          },
+          {
+            "title": "What is proof by contradiction?",
+            "content": "You assume the statement is false and show that this assumption leads to something impossible. Since the assumption cannot be right, the statement must be true. The proof that the square root of 2 is not a fraction is a classic example."
+          },
+          {
+            "title": "At what age can students learn to write proofs?",
+            "content": "Simple proofs about odd and even numbers suit many students from around 11 or 12, especially those preparing for maths olympiads. Formal proof writing is usually developed further in later secondary school and at university."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "pigeonhole-principle-explained",
+    "prime-numbers-explained",
+    "modular-arithmetic-explained"
+  ]
+}

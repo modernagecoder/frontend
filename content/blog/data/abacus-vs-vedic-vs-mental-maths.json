@@ -165,6 +165,10 @@
         "text": "That is 97 x 96 = 9,312, worked out in a few seconds once the pattern is familiar, versus the longer written multiplication a calculator-free exam would otherwise demand. This is a genuinely useful shortcut. What it does not teach is why the trick works, which is the algebra of (100-a)(100-b), or how to approach a word problem that never mentions multiplication at all. That gap is the whole point of this article."
       },
       {
+        "type": "paragraph",
+        "text": "Why does the trick always work? Write the numbers as 100 - a and 100 - b. Then (100 - a)(100 - b) = 100(100 - a - b) + ab, which is exactly the two parts of the answer. That one line is a proof: it covers every pair of numbers at once, not just the ones you tried. Our guide to <a href='/blog/how-to-write-a-maths-proof'>how to write a maths proof</a> explains the idea further."
+      },
+      {
         "type": "heading",
         "level": 2,
         "text": "What none of them teaches",

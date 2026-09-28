@@ -71,6 +71,10 @@
       },
       {
         "type": "paragraph",
+        "text": "Code is also a good way to see why mathematicians insist on proof. A computer can confirm that n squared plus n plus 41 is prime forty times in a row, then find the case where it fails. Our beginner's guide to <a href='/blog/how-to-write-a-maths-proof'>how to write a maths proof</a> uses examples like this to show where checking ends and proof begins."
+      },
+      {
+        "type": "paragraph",
         "text": "Dr. Jeannette Wing, former Vice President of Microsoft Research, coined the term 'computational thinking' to describe this overlap. Her research shows that students who learn to think computationally perform 23% better in mathematics and 31% better in problem-solving tasks across all subjects."
       },
       {
