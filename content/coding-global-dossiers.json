@@ -29714,5 +29714,48 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-grimsby": {
+    "market": "Grimsby",
+    "bodyClass": "cg-gri",
+    "pageType": "city",
+    "curriculumAuthority": "North East Lincolnshire (E06000012). TS001 156,966. TS007A: 20 to 24 7,968 (5.1%, England 6.0%); 40 to 44 8,416 (5.4%, 6.3%); 55 to 59 11,803 (7.5%, 6.7%); 60 to 64 10,218 (6.5%, 5.8%); 70 to 74 8,856 (5.6%, 5.0%); 80 to 84 4,660 (3.0%, 2.5%). ONS 2021 BUAs: Grimsby 85,925; Cleethorpes 29,670; Humberston and New Waltham 14,860; Immingham 9,770; Waltham 6,200; Laceby 3,285; Healing 3,200. TS061 (NM_2078_1) total 68,850; TS058 (NM_2075_1) total 68,849.",
+    "localProject": "68,850 synthetic workers, seed 20260928, method and distance drawn independently: 16,446 (23.9%) home-working contradictions (expected 16,530); walk 60km+ 124; cycle 60km+ 76; walk 20km+ 460; drive under 2km 6,848. With home rule: walk 60km+ 132, walk 20km+ 547. Lesson family: synthetic data from marginals, independence assumption, consistency rules, realism checks, joint distribution.",
+    "requiredMentions": [
+      "156,966",
+      "85,925",
+      "Cleethorpes",
+      "Immingham",
+      "Laceby",
+      "Healing",
+      "synthetic data",
+      "joint distribution",
+      "68,850"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS061 Method used to travel to work and TS058 Distance travelled to work, North East Lincolnshire.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "Nomis Census 2021 TS001 and TS007A, North East Lincolnshire and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "ONS methodology, Protecting personal data in Census 2021 results (why table totals can differ slightly).",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/methodologies/protectingpersonaldataincensus2021results"
+      }
+    ],
+    "rejectedClaims": [
+      "Fishing and docks history: not read from a source; not claimed.",
+      "The real joint distribution of method by distance: not downloaded; the page says it would be needed.",
+      "Why 11,066 work offshore or in no fixed place: not analysed; not claimed.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
