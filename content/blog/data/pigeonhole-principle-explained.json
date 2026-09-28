@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "slug": "pigeonhole-principle-explained",
+    "title": "The Pigeonhole Principle: 4 Olympiad Problems Solved",
+    "description": "The pigeonhole principle explained with four olympiad-style problems, the general version, and results checked in Python across 59,049 cases.",
+    "keywords": [
+      "pigeonhole principle",
+      "pigeonhole principle explained",
+      "pigeonhole principle problems",
+      "generalized pigeonhole principle",
+      "pigeonhole principle olympiad",
+      "pigeonhole principle examples",
+      "birthday problem vs pigeonhole"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Mathematics",
+    "tags": [
+      "Mathematics",
+      "Olympiad",
+      "Problem Solving",
+      "Proof"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "The pigeonhole principle says that if more objects than boxes are placed into boxes, some box holds at least two, and more generally n objects in k boxes means some box has at least n divided by k, rounded up. It proves that something must exist without finding it, which makes it a core olympiad technique. The skill is choosing the boxes: remainders, colours, regions of a shape or ranges of values. It gives certainty, unlike probability arguments such as the birthday problem."
+  },
+  "hero": {
+    "title": "The Pigeonhole Principle, With Olympiad Problems",
+    "subtitle": "A one-sentence idea that solves surprisingly hard problems: the principle, its general form, four classic problems with full solutions, and the results checked in code.",
+    "featuredImage": {
+      "url": "/images/blog/pigeonhole-principle-explained/00-hero.png",
+      "alt": "The pigeonhole principle: five objects placed into four boxes, so one box holds two"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "The pigeonhole principle sounds almost too obvious to be useful: if you put more pigeons than holes into a set of pigeonholes, some hole gets at least two pigeons. Yet it is one of the most powerful ideas in competition maths, and it turns up in olympiads at every level, from school contests to the International Mathematical Olympiad. The trick is never the principle itself. It is spotting what the pigeons and the holes should be."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide explains the principle, its general form, and works through four classic competition-style problems. Because some of these results are genuinely surprising, we checked them in Python, including one claim verified against every one of 59,049 possible cases, and ran simulations to show the difference between what is likely and what is guaranteed."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The principle",
+        "id": "the-principle"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>If n + 1 or more objects are placed into n boxes, at least one box contains at least two objects.</strong> That is all. You do not know which box, and you do not know which two objects. You only know it must happen. That kind of existence argument, proving something is there without finding it, is exactly what makes the principle so useful in proofs."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "In any group of 13 people, at least two were born in the same month. (13 people, 12 months.)",
+          "Pull 3 socks from a drawer of black and white socks, and you are guaranteed a matching pair. (3 socks, 2 colours.)",
+          "In a city of a million people, at least two have exactly the same number of hairs on their head, because nobody has anywhere near a million hairs."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The general version",
+        "id": "general-version"
+      },
+      {
+        "type": "paragraph",
+        "text": "A stronger form tells you how full the fullest box must be: <strong>if n objects go into k boxes, at least one box contains at least n &#247; k objects, rounded up.</strong> With 50 socks in 3 colours, some colour appears at least 17 times, because 50 &#247; 3 is 16.67, which rounds up to 17."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/pigeonhole-principle-explained/01-general.png",
+        "alt": "The general pigeonhole principle: n items into k boxes means some box has at least n divided by k rounded up, with three examples",
+        "caption": "The formula is easy. Choosing the boxes is the real skill."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "The question to ask every time",
+        "text": "When a problem says \"prove that there must be...\" or \"show that at least two...\", ask: what could the boxes be? Remainders, colours, regions of a shape, ranges of numbers and days of the week are the most common answers."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Problem 1: remainders",
+        "id": "remainders"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Problem.</strong> Show that among any 8 whole numbers, two of them differ by a multiple of 7."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Solution.</strong> Every whole number leaves one of 7 remainders when divided by 7: 0, 1, 2, 3, 4, 5 or 6. Those are the boxes. With 8 numbers and 7 boxes, two numbers share a remainder. Two numbers with the same remainder differ by a multiple of 7. Done."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here it is with 8 random three-digit numbers, grouped by remainder:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import random\n\n# any 8 whole numbers: at least two leave the same remainder when divided by 7,\n# so their difference is a multiple of 7\nrandom.seed(11)\nnumbers = random.sample(range(100, 1000), 8)\nby_remainder = {}\nfor n in numbers:\n    by_remainder.setdefault(n % 7, []).append(n)\n\nprint(\"numbers:\", numbers)\nfor r, group in sorted(by_remainder.items()):\n    if len(group) > 1:\n        a, b = group[:2]\n        print(f\"remainder {r}: {a} and {b}, difference {abs(a - b)} = 7 x {abs(a - b) // 7}\")",
+        "title": "remainders.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "numbers: [563, 986, 673, 977, 899, 576, 562, 620]\nremainder 2: 576 and 562, difference 14 = 7 x 2\nremainder 3: 563 and 899, difference 336 = 7 x 48\nremainder 4: 977 and 620, difference 357 = 7 x 51",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Whatever 8 numbers you choose, at least one remainder box will contain two of them. This remainder trick is behind a large share of olympiad number theory problems."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Problem 2: a block that sums to a multiple of n",
+        "id": "consecutive-block"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Problem.</strong> Show that any list of n whole numbers contains a block of consecutive numbers whose sum is a multiple of n."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Solution.</strong> Write down the running totals: the first number, the first two added, the first three, and so on, n totals in all, plus a starting total of 0, making n + 1 totals. Divide each by n. There are only n possible remainders, so two totals share a remainder. Their difference, which is exactly the sum of the numbers between them, is a multiple of n."
+      },
+      {
+        "type": "paragraph",
+        "text": "This one is surprising enough to be worth checking completely. The program below tries every possible list of 5 numbers from 1 to 9, all 59,049 of them:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from itertools import product\n\ndef has_block_divisible(nums):\n    # prefix sums: if two share a remainder mod n, the numbers between them sum to a multiple of n\n    n, total, seen = len(nums), 0, {0: -1}\n    for i, x in enumerate(nums):\n        total += x\n        if total % n in seen:\n            return nums[seen[total % n] + 1: i + 1]\n        seen[total % n] = i\n    return None\n\n# check EVERY list of 5 numbers taken from 1..9: 9^5 = 59,049 lists\nfailures = [nums for nums in product(range(1, 10), repeat=5) if has_block_divisible(list(nums)) is None]\nprint(\"lists checked:\", 9 ** 5, \"  lists with no block summing to a multiple of 5:\", len(failures))\nprint(\"example: [3, 9, 1, 8, 6] ->\", has_block_divisible([3, 9, 1, 8, 6]))",
+        "title": "consecutive_block.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "lists checked: 59049   lists with no block summing to a multiple of 5: 0\nexample: [3, 9, 1, 8, 6] -> [9, 1]",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Not a single failure, exactly as the proof guarantees. Notice that checking cases is not a proof in general, because there are infinitely many possible lists. The pigeonhole argument covers all of them at once. The computer check is what mathematicians call evidence, and the argument is what makes it certain."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Problem 3: five points in a square",
+        "id": "points-in-square"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Problem.</strong> Five points are placed anywhere inside a square with side 1. Show that two of them are at most &#8730;2 &#247; 2, about 0.707, apart."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/pigeonhole-principle-explained/02-square.png",
+        "alt": "Five points in a unit square divided into four smaller squares, with two points forced into the same small square",
+        "caption": "Four regions, five points: two must share a region."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Solution.</strong> Divide the square into four smaller squares with side 1/2. Five points, four small squares: two points lie in the same small square. The farthest apart two points in a square of side 1/2 can be is its diagonal, which is &#8730;2 &#247; 2. So those two points are at most that far apart."
+      },
+      {
+        "type": "paragraph",
+        "text": "A simulation agrees. Placing five random points twenty thousand times, the closest pair was never further apart than the guarantee:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import random, math\nfrom itertools import combinations\n\nrandom.seed(2)\nworst = 0\nfor trial in range(20_000):\n    points = [(random.random(), random.random()) for _ in range(5)]\n    closest = min(math.dist(p, q) for p, q in combinations(points, 2))\n    worst = max(worst, closest)\nprint(f\"largest 'closest pair' distance seen in 20,000 random tries: {worst:.3f}\")\nprint(f\"the guarantee from the pigeonhole principle:                 {math.sqrt(2) / 2:.3f}\")",
+        "title": "five_points.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "largest 'closest pair' distance seen in 20,000 random tries: 0.541\nthe guarantee from the pigeonhole principle:                 0.707",
+        "title": "Output"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Likely versus guaranteed: the birthday puzzle",
+        "id": "birthdays"
+      },
+      {
+        "type": "paragraph",
+        "text": "It is worth being clear about what the principle does not do. It gives certainty, not likelihood. The famous birthday problem shows the difference: in a group of just 23 people, there is roughly a 50% chance that two share a birthday. That is probability. For a guarantee, you need one more person than there are possible birthdays, 367 including 29 February."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import random\n\ndef shared_birthday(people):\n    days = [random.randrange(366) for _ in range(people)]   # include 29 February\n    return len(set(days)) < people\n\nrandom.seed(5)\nfor people in (10, 23, 50, 367):\n    trials = 20_000\n    share = sum(shared_birthday(people) for _ in range(trials)) / trials\n    print(f\"{people:>3} people: two share a birthday in {share:.1%} of {trials:,} simulated groups\")",
+        "title": "birthdays.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": " 10 people: two share a birthday in 11.5% of 20,000 simulated groups\n 23 people: two share a birthday in 50.4% of 20,000 simulated groups\n 50 people: two share a birthday in 96.9% of 20,000 simulated groups\n367 people: two share a birthday in 100.0% of 20,000 simulated groups",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/pigeonhole-principle-explained/03-birthdays.png",
+        "alt": "Simulated chance of a shared birthday for groups of 10, 23, 50 and 367 people",
+        "caption": "Probability rises quickly. Certainty needs the pigeonhole principle."
+      },
+      {
+        "type": "paragraph",
+        "text": "Olympiad problems ask for certainty, which is why they are about pigeonholes rather than probability. If you enjoy the probability side too, it is a whole topic of its own."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to get better at pigeonhole problems",
+        "id": "getting-better"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Look for the words \"must\", \"at least\" and \"always\".</strong> They usually mean an existence proof, and pigeonhole is the first tool to try.",
+          "<strong>Count first.</strong> How many objects are there, and how many boxes would make the argument work? Often the numbers in the question tell you: 8 numbers and 7 remainders is not a coincidence.",
+          "<strong>Try common boxes:</strong> remainders, parity (odd or even), colours, regions of a shape, ranges of values.",
+          "<strong>Write the argument in three sentences:</strong> what the boxes are, why there are more objects than boxes, and what sharing a box gives you.",
+          "<strong>Check small cases with code</strong> when a claim surprises you, as we did above. It builds confidence and sometimes reveals a pattern for the proof."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "For how pigeonhole fits into olympiad preparation more broadly, see our guides to <a href='/ioqm-rmo-inmo-preparation'>IOQM, RMO and INMO preparation</a> and <a href='/maths-olympiad-training-uk'>maths olympiad training</a>. For the computer science side, number theory like this appears in contests such as <a href='/blog/usaco-bronze-to-silver-what-blocks-most-students'>USACO</a>."
+      },
+      {
+        "type": "quote",
+        "text": "The principle takes a sentence to state. The skill is seeing which boxes the problem is quietly offering you."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In our olympiad preparation, students attempt a problem before seeing any method, in line with the approach on our <a href='/how-we-teach'>how we teach</a> page of deriving a rule before it is written down, and they write every proof in their own words. See <a href='/ioqm-rmo-inmo-preparation'>IOQM, RMO and INMO preparation</a> and <a href='/math-olympiad-amc-tutoring'>maths olympiad and AMC tutoring</a>, taught live, one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is the pigeonhole principle?",
+            "content": "If you put more objects into boxes than there are boxes, at least one box must contain more than one object. For example, among 13 people at least two share a birth month, because there are only 12 months."
+          },
+          {
+            "title": "What is the generalised pigeonhole principle?",
+            "content": "If n objects are placed into k boxes, at least one box contains at least n divided by k objects, rounded up. With 50 socks in 3 colours, some colour appears at least 17 times."
+          },
+          {
+            "title": "Why is the pigeonhole principle useful in olympiads?",
+            "content": "It proves that something must exist without finding it. Many olympiad problems ask you to show that two numbers, points or people must share a property, and choosing the right boxes turns a hard-looking problem into a short proof."
+          },
+          {
+            "title": "How do you choose the pigeonholes?",
+            "content": "Look at what the problem wants two objects to share. Common choices are remainders when dividing by a number, odd or even, colours, regions of a shape, and ranges of values. The numbers in the problem often hint at how many boxes you need."
+          },
+          {
+            "title": "Is the pigeonhole principle the same as the birthday problem?",
+            "content": "No. The birthday problem is about probability: 23 people share a birthday about half the time. The pigeonhole principle gives certainty: 367 people guarantee a shared birthday, counting 29 February."
+          },
+          {
+            "title": "At what level does the pigeonhole principle appear?",
+            "content": "It appears in junior olympiads and school challenges as simple puzzles, in national olympiads such as RMO and BMO as a key proof technique, and at the International Mathematical Olympiad in more subtle forms."
+          },
+          {
+            "title": "Can a computer prove the pigeonhole principle?",
+            "content": "A computer can check many cases, like the 59,049 lists in this post, which is useful evidence. But a proof covers every possible case at once, including infinitely many, which is why the pigeonhole argument itself is needed."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "prime-numbers-explained",
+    "how-to-get-better-at-maths",
+    "usaco-bronze-to-silver-what-blocks-most-students"
+  ]
+}

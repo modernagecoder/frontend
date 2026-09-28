@@ -168,6 +168,10 @@
         "text": "None of the methods above work if you believe maths ability is fixed. It is not. Getting stuck is not a sign you cannot do maths; it is the normal, expected part of learning it. The students who improve are not the ones who never struggle, they are the ones who treat struggle as the work rather than as proof they should quit. Change that belief and the methods do the rest."
       },
       {
+        "type": "paragraph",
+        "text": "For students who enjoy a challenge, olympiad-style problems are a good way to practise that kind of productive struggle. <a href='/blog/pigeonhole-principle-explained'>The pigeonhole principle</a> is a friendly place to start: one simple idea, four problems that look much harder than they are."
+      },
+      {
         "type": "heading",
         "level": 2,
         "text": "How coding helps",

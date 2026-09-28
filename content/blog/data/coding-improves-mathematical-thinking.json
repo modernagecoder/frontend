@@ -226,6 +226,10 @@
         "text": "This if-then thinking is the foundation of mathematical reasoning. Proofs, equations, and problem-solving all rely on logical chains: if this is true, then that must follow."
       },
       {
+        "type": "paragraph",
+        "text": "A good first taste of real proof is the pigeonhole principle, where a one-line idea proves surprising results. Our guide to <a href='/blog/pigeonhole-principle-explained'>the pigeonhole principle</a> pairs each proof with a Python check, including one claim tested against all 59,049 possible cases."
+      },
+      {
         "type": "code",
         "language": "python",
         "code": "# Coding logic mirrors mathematical logic\nif score >= 100:\n    print('You win!')\nelif score >= 50:\n    print('Good job!')\nelse:\n    print('Keep trying!')\n\n# This is the same logical structure as:\n# If x ≥ 100, then outcome A\n# Else if x ≥ 50, then outcome B\n# Else outcome C"
