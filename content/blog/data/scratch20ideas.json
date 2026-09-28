@@ -1256,6 +1256,10 @@
       },
       {
         "type": "paragraph",
+        "text": "The maths behind a circular orbit is trigonometry: a planet at angle a on a circle of radius r sits at x = r times cos a and y = r times sin a. Older students can learn where those ratios come from in our beginner's guide to <a href='/blog/sohcahtoa-trigonometry-for-beginners'>SOH CAH TOA</a>."
+      },
+      {
+        "type": "paragraph",
         "text": "<strong>Make it yours:</strong> Add moons, asteroid belt, zoom controls, time speed options."
       },
       {

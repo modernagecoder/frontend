@@ -1,0 +1,357 @@
+{
+  "meta": {
+    "slug": "sohcahtoa-trigonometry-for-beginners",
+    "title": "SOH CAH TOA: Trigonometry for Beginners with Examples",
+    "description": "Learn SOH CAH TOA step by step: labelling sides, choosing sin, cos or tan, finding sides and angles, and the calculator mode mistake.",
+    "keywords": [
+      "sohcahtoa",
+      "soh cah toa",
+      "trigonometry for beginners",
+      "how to find a missing side trigonometry",
+      "how to find an angle using trigonometry",
+      "sin cos tan",
+      "angle of elevation"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Mathematics",
+    "tags": [
+      "Trigonometry",
+      "GCSE",
+      "Geometry",
+      "Python"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "SOH CAH TOA is a memory aid for right-angled triangles: sin = opposite / hypotenuse, cos = adjacent / hypotenuse, tan = opposite / adjacent. First mark your angle, then label the sides from it (the hypotenuse is always opposite the right angle; opposite and adjacent depend on your angle). Choose the ratio that uses the two sides in the question. To find a side, multiply or divide; to find an angle, use the inverse function. If you get a negative sine in a triangle question, your calculator is in radian mode."
+  },
+  "hero": {
+    "title": "SOH CAH TOA: Trigonometry for Beginners with Examples",
+    "subtitle": "How to label a triangle, what sin, cos and tan mean, how to choose between them, and how to find missing sides and angles, with every answer checked in Python.",
+    "featuredImage": {
+      "url": "/images/blog/sohcahtoa-trigonometry-for-beginners/00-hero.png",
+      "alt": "SOH CAH TOA: sine is opposite over hypotenuse, cosine is adjacent over hypotenuse, tangent is opposite over adjacent"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Trigonometry sounds intimidating, but at the beginner level it comes down to one idea: in a right-angled triangle, the angles and the side lengths are linked, so if you know enough of one you can work out the other. SOH CAH TOA is the memory aid that tells you exactly how."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide explains how to label a triangle correctly (the step most mistakes come from), what sin, cos and tan actually mean, how to choose the right one, and how to find a missing side or a missing angle. Every calculation is also run in Python, which is a quick way to check your answers and a good warning about the calculator mistake that catches almost everyone."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 1: label the sides",
+        "id": "labels"
+      },
+      {
+        "type": "paragraph",
+        "text": "Trigonometry at this level only works in right-angled triangles. Pick the angle you are working with, usually called &#952; (theta). Then name the three sides:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Hypotenuse:</strong> the longest side, opposite the right angle. It never changes.",
+          "<strong>Opposite:</strong> the side directly across from your angle &#952;. It does not touch &#952;.",
+          "<strong>Adjacent:</strong> the side next to &#952; that is not the hypotenuse."
+        ]
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/sohcahtoa-trigonometry-for-beginners/01-labels.png",
+        "alt": "Two copies of the same right-angled triangle: with the angle at the bottom left, the vertical side is opposite and the base is adjacent; with the angle at the top, they swap",
+        "caption": "Opposite and adjacent depend on which angle you use. The hypotenuse never changes."
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "The most common mistake",
+        "text": "Opposite and adjacent are not fixed sides of the triangle. They depend on which angle you are using. Always mark your angle first, then label the sides from it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 2: what SOH CAH TOA means",
+        "id": "sohcahtoa"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Mnemonic",
+          "Ratio",
+          "Meaning"
+        ],
+        "rows": [
+          [
+            "SOH",
+            "sin &#952; = opposite / hypotenuse",
+            "Sine is opposite over hypotenuse"
+          ],
+          [
+            "CAH",
+            "cos &#952; = adjacent / hypotenuse",
+            "Cosine is adjacent over hypotenuse"
+          ],
+          [
+            "TOA",
+            "tan &#952; = opposite / adjacent",
+            "Tangent is opposite over adjacent"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "These ratios depend only on the angle, not on the size of the triangle. Every right-angled triangle with a 30&#176; angle has the side opposite it exactly half the length of the hypotenuse, whether the triangle is drawn on paper or measured across a field. That is why sin 30&#176; is always 0.5. Here are the ratios for the famous 3-4-5 triangle:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import math\n\n# A 3-4-5 right-angled triangle. The angle A is opposite the side of length 3.\nopposite, adjacent, hypotenuse = 3, 4, 5\n\nsin_a = opposite / hypotenuse\ncos_a = adjacent / hypotenuse\ntan_a = opposite / adjacent\nprint(f\"sin A = {sin_a}, cos A = {cos_a}, tan A = {tan_a}\")\n\nangle = math.degrees(math.atan(tan_a))\nprint(f\"A = {angle:.2f} degrees\")\nprint(f\"sin A squared + cos A squared = {sin_a**2 + cos_a**2}\")",
+        "title": "ratios.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "sin A = 0.6, cos A = 0.8, tan A = 0.75\nA = 36.87 degrees\nsin A squared + cos A squared = 1.0",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "The angle opposite the side of length 3 is about 36.87&#176;. The last line shows a neat fact: sin&#178; + cos&#178; always equals 1, because it is really <a href='/blog/pythagoras-theorem-explained'>Pythagoras' theorem</a> in disguise (divide a&#178; + b&#178; = c&#178; by c&#178;)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 3: choose the right ratio",
+        "id": "choose"
+      },
+      {
+        "type": "paragraph",
+        "text": "Look at the two sides involved in the question: the one you know and the one you want to find. If you want an angle, use the two sides you know. Then pick the ratio that uses exactly those two."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/sohcahtoa-trigonometry-for-beginners/02-choose.png",
+        "alt": "Choosing the ratio: if you know or want the opposite and hypotenuse use sin (SOH), adjacent and hypotenuse use cos (CAH), opposite and adjacent use tan (TOA)",
+        "caption": "The two sides in the question decide the ratio."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Finding a missing side",
+        "id": "missing-side"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two worked examples:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>A ladder:</strong> a 6 m ladder leans against a wall at 70&#176; to the ground. How high up the wall does it reach? You know the hypotenuse (6) and want the opposite side. That is SOH: opposite = sin 70&#176; &#215; 6 = 5.64 m.",
+          "<strong>A tree:</strong> standing 20 m from a tree, you look up at its top at an angle of 35&#176;, called the <em>angle of elevation</em>. You know the adjacent side (20) and want the opposite (the height). That is TOA: height = tan 35&#176; &#215; 20 = 14.00 m."
+        ]
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/sohcahtoa-trigonometry-for-beginners/03-tree.png",
+        "alt": "Finding a tree's height: 20 metres away with a 35 degree angle of elevation, height = 20 times tan 35 degrees = 14.00 metres",
+        "caption": "Surveyors, builders and game developers use exactly this calculation."
+      },
+      {
+        "type": "paragraph",
+        "text": "When the unknown side is on the bottom of the ratio, rearrange before calculating. For example, if cos 40&#176; = 8 / h, then h = 8 / cos 40&#176;. A quick check: the hypotenuse must always be the longest side, so if your answer for the hypotenuse is shorter than another side, something has gone wrong."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Finding a missing angle",
+        "id": "missing-angle"
+      },
+      {
+        "type": "paragraph",
+        "text": "To find an angle, use the <strong>inverse</strong> functions, written sin&#8315;&#185;, cos&#8315;&#185; and tan&#8315;&#185; (or arcsin, arccos, arctan). They take a ratio and give back the angle. A ramp rises 1.2 m over 10 m of ground: you know the opposite and adjacent sides, so use TOA, and the angle is tan&#8315;&#185;(1.2 / 10) = 6.84&#176;. Here are all three examples in code:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import math\n\n# A 6 m ladder leans against a wall at 70 degrees to the ground. How high does it reach?\n# We know the hypotenuse and want the opposite side: SOH, so opposite = sin(angle) x hypotenuse\nheight = 6 * math.sin(math.radians(70))\nprint(f\"ladder reaches {height:.2f} m up the wall\")\n\n# From 20 m away, the top of a tree is 35 degrees above the ground. How tall is it?\n# We know the adjacent side and want the opposite: TOA, so opposite = tan(angle) x adjacent\ntree = 20 * math.tan(math.radians(35))\nprint(f\"tree is {tree:.2f} m tall\")\n\n# A ramp rises 1.2 m over 10 m of ground. What angle is it?\n# Opposite and adjacent are known: TOA, so angle = inverse tan(opposite / adjacent)\nramp = math.degrees(math.atan(1.2 / 10))\nprint(f\"ramp angle is {ramp:.2f} degrees\")",
+        "title": "sides.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "ladder reaches 5.64 m up the wall\ntree is 14.00 m tall\nramp angle is 6.84 degrees",
+        "title": "Output"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The calculator mistake: degrees and radians",
+        "id": "radians"
+      },
+      {
+        "type": "paragraph",
+        "text": "Angles can be measured in degrees or in <strong>radians</strong>, a unit used in higher maths where a full turn is 2&#960; instead of 360. Calculators have a mode for each, and Python's <code>math</code> functions always use radians. Get the mode wrong and your answers are nonsense:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import math\n\nprint(\"math.sin(30)               =\", round(math.sin(30), 4))\nprint(\"math.sin(math.radians(30)) =\", round(math.sin(math.radians(30)), 4))\nprint(\"30 degrees in radians      =\", round(math.radians(30), 4))",
+        "title": "radians.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "math.sin(30)               = -0.988\nmath.sin(math.radians(30)) = 0.5\n30 degrees in radians      = 0.5236",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/sohcahtoa-trigonometry-for-beginners/04-radians.png",
+        "alt": "sin 30 in radian mode gives -0.988 because 30 is treated as radians; in degree mode sin 30 degrees gives 0.5, and 30 degrees is 0.5236 radians",
+        "caption": "If a sine comes out negative in a triangle question, check the mode first."
+      },
+      {
+        "type": "paragraph",
+        "text": "<code>math.sin(30)</code> gave -0.988, because Python read 30 as 30 radians, well over four full turns. Converting first with <code>math.radians(30)</code> gives the expected 0.5. On a school calculator, look for a small D or DEG on the screen before any triangle question."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Exact values worth knowing",
+        "id": "exact-values"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Angle",
+          "sin",
+          "cos",
+          "tan"
+        ],
+        "rows": [
+          [
+            "30&#176;",
+            "1/2 = 0.5",
+            "&#8730;3/2 &#8776; 0.866",
+            "1/&#8730;3 &#8776; 0.577"
+          ],
+          [
+            "45&#176;",
+            "&#8730;2/2 &#8776; 0.707",
+            "&#8730;2/2 &#8776; 0.707",
+            "1"
+          ],
+          [
+            "60&#176;",
+            "&#8730;3/2 &#8776; 0.866",
+            "1/2 = 0.5",
+            "&#8730;3 &#8776; 1.732"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "These come from two simple triangles: half of a square (giving 45&#176;) and half of an equilateral triangle (giving 30&#176; and 60&#176;). Many exams, including non-calculator GCSE papers, expect you to know them. Notice sin 30&#176; = cos 60&#176;: the sine of an angle equals the cosine of the angle that makes it up to 90&#176;."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where trigonometry is used",
+        "id": "uses"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Building and surveying:</strong> heights of buildings, slopes of roofs and ramps, distances across rivers.",
+          "<strong>Navigation:</strong> working out bearings and distances for ships, planes and GPS.",
+          "<strong>Games and animation:</strong> moving a character at an angle, rotating objects and aiming. Every 2D game with rotation uses sin and cos.",
+          "<strong>Physics and engineering:</strong> forces on slopes, waves, sound and electricity."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "If you are learning to code games, trigonometry stops being abstract very quickly. Moving a sprite 5 steps at 30&#176; means moving 5 &#215; cos 30&#176; across and 5 &#215; sin 30&#176; up."
+      },
+      {
+        "type": "quote",
+        "text": "Label the angle, name the sides, pick the ratio. Almost every trigonometry question follows those three steps."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Trigonometry is a good fit for a principle on our <a href='/how-we-teach'>how we teach</a> page: students derive the rule themselves before they ever see it written down. Measure the sides of a few right-angled triangles with the same angle, and the ratios turn out to be the same every time, which is what sin, cos and tan are. Students also explain their thinking, including why they chose a ratio. Our <a href='/gcse-maths-tuition-online'>GCSE maths tuition</a> runs one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What does SOH CAH TOA stand for?",
+            "content": "It is a memory aid for the three trigonometric ratios: Sine = Opposite / Hypotenuse, Cosine = Adjacent / Hypotenuse, and Tangent = Opposite / Adjacent. It applies to right-angled triangles."
+          },
+          {
+            "title": "How do I know whether to use sin, cos or tan?",
+            "content": "Label the sides from your angle, then look at the two sides in the question: the one you know and the one you want. Opposite and hypotenuse means sin, adjacent and hypotenuse means cos, and opposite and adjacent means tan."
+          },
+          {
+            "title": "How do you find a missing angle with trigonometry?",
+            "content": "Use the two sides you know to form the ratio, then apply the inverse function: sin to the power minus 1, cos to the power minus 1 or tan to the power minus 1 on a calculator. For example, if tan of the angle is 0.12, the angle is inverse tan of 0.12, about 6.84 degrees."
+          },
+          {
+            "title": "Why does my calculator give the wrong answer for sin 30?",
+            "content": "It is probably in radian mode. In degree mode, sin 30 degrees is 0.5. In radian mode, the calculator treats 30 as 30 radians and gives about minus 0.988. Look for D or DEG on the screen."
+          },
+          {
+            "title": "What is the hypotenuse?",
+            "content": "The hypotenuse is the longest side of a right-angled triangle, the side opposite the right angle. Unlike the opposite and adjacent sides, it does not depend on which angle you use."
+          },
+          {
+            "title": "Does SOH CAH TOA work for all triangles?",
+            "content": "No, only for right-angled triangles. For other triangles you use the sine rule and the cosine rule, which are usually taught after SOH CAH TOA."
+          },
+          {
+            "title": "When do students learn trigonometry?",
+            "content": "Right-angled trigonometry is usually taught around ages 13 to 15: in Key Stage 3 and GCSE in the UK, Class 10 in CBSE, and geometry courses in the US."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "pythagoras-theorem-explained",
+    "area-and-perimeter-difference",
+    "how-to-solve-simultaneous-equations"
+  ]
+}
