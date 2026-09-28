@@ -71,6 +71,10 @@
         ]
       },
       {
+        "type": "paragraph",
+        "text": "An abacus is really a place value machine: each rod is worth ten times the one to its right. If that idea is shaky, it is worth fixing before any method. <a href='/blog/place-value-explained'>Place value explained</a> shows how to teach it with objects, why zero matters, and how lakhs and crores compare with millions."
+      },
+      {
         "type": "heading",
         "level": 2,
         "text": "A quick comparison",

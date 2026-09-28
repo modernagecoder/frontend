@@ -221,6 +221,10 @@
         "author": "Something our maths teachers say most weeks"
       },
       {
+        "type": "paragraph",
+        "text": "If that trade does not make sense yet, the gap is place value rather than division. <a href='/blog/place-value-explained'>Place value explained</a> rebuilds it with base-ten blocks and shows how exchanging works in addition and subtraction too."
+      },
+      {
         "type": "heading",
         "level": 2,
         "text": "Short division, long division and chunking",

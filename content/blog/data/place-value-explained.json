@@ -1,0 +1,358 @@
+{
+  "meta": {
+    "slug": "place-value-explained",
+    "title": "Place Value Explained: Blocks, Zero and Lakhs",
+    "description": "Place value explained for parents and students: teaching it with objects, why zero matters, regrouping, decimals, and Indian vs international numbering.",
+    "keywords": [
+      "place value",
+      "place value explained",
+      "how to teach place value",
+      "what is place value",
+      "face value and place value",
+      "indian and international number system",
+      "lakh crore million",
+      "decimal place value"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Maths",
+    "tags": [
+      "Maths",
+      "Place Value",
+      "Parents",
+      "Primary Maths"
+    ],
+    "readTime": "9 min read",
+    "featured": false,
+    "tldr": "Place value means a digit's value depends on its position: in 4,307 the 4 is worth 4,000, the 3 is worth 300, the 0 holds the empty tens place and the 7 is worth 7. Each place is worth ten times the one to its right, and the pattern continues into tenths and hundredths after the decimal point. Teach it with bundles of ten or base-ten blocks before charts and written methods. The Indian system groups digits as thousands, lakhs and crores, while the international system uses thousands, millions and billions."
+  },
+  "hero": {
+    "title": "Place Value Explained",
+    "subtitle": "Why a digit's position decides its value, how to teach it with things you can hold, why zero matters, and how lakhs and crores compare with millions.",
+    "featuredImage": {
+      "url": "/images/blog/place-value-explained/00-hero.png",
+      "alt": "Place value explained: a thousands, hundreds, tens and ones chart showing 4,307"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Place value is the idea that a digit's value depends on its position. The 5 in 5,000 and the 5 in 50 are the same symbol but very different amounts. It sounds too simple to need explaining, and that is exactly the problem: because adults use it without thinking, it often gets rushed at school, and children end up doing column addition, subtraction and decimals on top of a foundation that is not quite there."
+      },
+      {
+        "type": "paragraph",
+        "text": "When teachers try to find out why a child is struggling with maths at 9, 10 or 11, place value is one of the first things they check. This guide explains what place value is, how to teach it with things you can hold, why zero matters so much, how it makes carrying and borrowing make sense, how it extends to decimals, and how the Indian lakh and crore system groups the same digits differently from the international one. The examples were produced by the small Python programs shown alongside them."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "In our number system each column is worth ten times the column to its right: ones, tens, hundreds, thousands. So in 4,307 the 4 means 4,000, the 3 means 300, the 0 holds the tens place empty, and the 7 means 7. Teach it with objects first (bundles of ten, base-ten blocks), then place value charts, then expanded form. Most errors in column maths and decimals come from gaps in place value."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What place value is",
+        "id": "what-it-is"
+      },
+      {
+        "type": "paragraph",
+        "text": "We write numbers using only ten digits, 0 to 9. To write bigger numbers, we reuse the same digits in different positions, and each position is worth ten times more than the one to its right. That is why our number system is called base ten."
+      },
+      {
+        "type": "paragraph",
+        "text": "The clearest way to see it is to take one digit and move it:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# the number 5555: four identical digits in four different places\nfor i, place in enumerate([\"thousands\", \"hundreds\", \"tens\", \"ones\"]):\n    value = 5 * 10 ** (3 - i)\n    print(f\"the 5 in the {place:<9} is worth {value:>5,}\")",
+        "title": "same_digit.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "the 5 in the thousands is worth 5,000\nthe 5 in the hundreds  is worth   500\nthe 5 in the tens      is worth    50\nthe 5 in the ones      is worth     5",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Four identical 5s, four completely different values. When a child really understands that, they understand place value. The words to use are <strong>digit</strong> (the symbol), <strong>place</strong> (its position) and <strong>value</strong> (what it is worth in that position)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Teach it with things you can hold",
+        "id": "hands-on"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/place-value-explained/01-blocks.png",
+        "alt": "The number 243 shown as base-ten blocks: two hundred squares, four ten rods and three single cubes",
+        "caption": "Ten ones make a ten. Ten tens make a hundred. The blocks make that visible."
+      },
+      {
+        "type": "paragraph",
+        "text": "Place value is abstract on paper and obvious with objects. Some ways to make it physical:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Bundles of ten.</strong> Lolly sticks or straws with elastic bands. Count out 43 by making four bundles of ten and three loose sticks. Children physically feel that the 4 in 43 means four tens.",
+          "<strong>Base-ten blocks.</strong> Small cubes for ones, rods of ten, flats of a hundred. Schools use them because they show that a rod is exactly ten cubes and a flat is exactly ten rods.",
+          "<strong>Money.</strong> Notes and coins in ones, tens and hundreds make the same point with something children care about.",
+          "<strong>Place value charts.</strong> Columns labelled thousands, hundreds, tens and ones. Once the objects make sense, digits go in the columns."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "A two-minute check",
+        "text": "Ask your child: \"In 352, what is the 5 worth?\" If they say 5, they know the digit but not its value. If they say 50, or \"five tens\", place value is secure. It is a better test than any worksheet."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Zero, the placeholder",
+        "id": "zero"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/place-value-explained/02-zero.png",
+        "alt": "Comparing 37 and 307 on a place value chart to show zero holding the empty tens place",
+        "caption": "The zero keeps every other digit in the right column."
+      },
+      {
+        "type": "paragraph",
+        "text": "Zero is the hardest digit to understand, because it seems to mean nothing. In 307, it does something essential: it shows that there are no tens, and keeps the 3 in the hundreds column. Without it the number collapses to 37. Children who write \"three hundred and seven\" as 37 or 3007 are not being careless. They have not yet seen what the zero is for."
+      },
+      {
+        "type": "paragraph",
+        "text": "Expanded form makes the job of each digit, including the zeros, explicit:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def expanded_form(n):\n    digits = str(n)\n    parts = []\n    for i, d in enumerate(digits):\n        place = 10 ** (len(digits) - i - 1)\n        if d != \"0\":\n            parts.append(f\"{d} x {place:,}\")\n    return \" + \".join(parts)\n\nfor n in (4307, 25016, 900050):\n    print(f\"{n:>7,} = {expanded_form(n)}\")",
+        "title": "expanded_form.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "  4,307 = 4 x 1,000 + 3 x 100 + 7 x 1\n 25,016 = 2 x 10,000 + 5 x 1,000 + 1 x 10 + 6 x 1\n900,050 = 9 x 100,000 + 5 x 10",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice that the zeros disappear from the expanded form. They contribute nothing to the total, but they are what put every other digit in the right place."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How place value makes carrying and borrowing make sense",
+        "id": "regrouping"
+      },
+      {
+        "type": "paragraph",
+        "text": "Column addition and subtraction are place value in action. \"Carrying\" in addition is really exchanging ten ones for one ten, or ten tens for one hundred. \"Borrowing\" in subtraction is the reverse: breaking a ten into ten ones. Many schools now call both <strong>regrouping</strong> or <strong>exchanging</strong>, because those words describe what is actually happening."
+      },
+      {
+        "type": "paragraph",
+        "text": "Take 42 &#8722; 17. You cannot take 7 ones from 2 ones, so you exchange one of the 4 tens for ten ones. Now you have 3 tens and 12 ones. 12 &#8722; 7 = 5 ones, and 3 &#8722; 1 = 2 tens, giving 25. Children who learn borrowing as a rule (\"cross out, put a 1 next to it\") often get lost with zeros, as in 402 &#8722; 157. Children who understand exchanging with bundles of ten can work it out, because they know what they are doing and why."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Place value in decimals",
+        "id": "decimals"
+      },
+      {
+        "type": "paragraph",
+        "text": "The same pattern continues to the right of the decimal point, dividing by ten each time: tenths, hundredths, thousandths. This is where a very common misconception appears: that a decimal with more digits is bigger."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/place-value-explained/04-decimals.png",
+        "alt": "Comparing 0.3 and 0.25 using tenths and hundredths, showing that 0.3 is bigger",
+        "caption": "More digits after the point does not mean a bigger number."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "pairs = [(0.3, 0.25), (0.5, 0.125), (0.7, 0.69), (2.05, 2.5)]\nfor a, b in pairs:\n    bigger = a if a > b else b\n    print(f\"{a} vs {b}: bigger is {bigger}    as hundredths/thousandths: {a:.3f} vs {b:.3f}\")",
+        "title": "compare_decimals.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "0.3 vs 0.25: bigger is 0.3    as hundredths/thousandths: 0.300 vs 0.250\n0.5 vs 0.125: bigger is 0.5    as hundredths/thousandths: 0.500 vs 0.125\n0.7 vs 0.69: bigger is 0.7    as hundredths/thousandths: 0.700 vs 0.690\n2.05 vs 2.5: bigger is 2.5    as hundredths/thousandths: 2.050 vs 2.500",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "A child who thinks 0.25 is bigger than 0.3 is treating the digits after the point as a whole number. Writing both to the same number of places, 0.30 and 0.25, and comparing column by column from the left, fixes it. So does money: 30 cents or paise is more than 25. This is closely linked to fractions, and our guide to <a href='/blog/how-to-help-a-child-understand-fractions'>helping a child understand fractions</a> uses the number line for exactly this reason."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Indian and international number systems",
+        "id": "indian-international"
+      },
+      {
+        "type": "paragraph",
+        "text": "Place value is the same everywhere, but the way large numbers are grouped and named is not. The international system puts a comma every three digits and uses thousand, million and billion. The Indian system groups the first three digits, then every two, and uses thousand, lakh and crore. Children in India learn both, and it is a frequent source of confusion in exams."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def indian_format(n):\n    s = str(n)\n    last3, rest = s[-3:], s[:-3]\n    groups = []\n    while len(rest) > 2:\n        groups.insert(0, rest[-2:])\n        rest = rest[:-2]\n    if rest:\n        groups.insert(0, rest)\n    return \",\".join(groups + [last3]) if groups else last3\n\nfor n in (100000, 2500000, 10000000, 123456789):\n    print(f\"international {n:>13,}    Indian {indian_format(n):>14}\")",
+        "title": "indian_format.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "international       100,000    Indian       1,00,000\ninternational     2,500,000    Indian      25,00,000\ninternational    10,000,000    Indian    1,00,00,000\ninternational   123,456,789    Indian   12,34,56,789",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/place-value-explained/03-indian-international.png",
+        "alt": "The same numbers written in the international system with commas every three digits and in the Indian system with lakhs and crores",
+        "caption": "Same digits, same values. Only the commas and the names change."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Indian name",
+          "Indian format",
+          "International format",
+          "International name"
+        ],
+        "rows": [
+          [
+            "One lakh",
+            "1,00,000",
+            "100,000",
+            "One hundred thousand"
+          ],
+          [
+            "Ten lakh",
+            "10,00,000",
+            "1,000,000",
+            "One million"
+          ],
+          [
+            "One crore",
+            "1,00,00,000",
+            "10,000,000",
+            "Ten million"
+          ],
+          [
+            "Hundred crore",
+            "1,00,00,00,000",
+            "1,000,000,000",
+            "One billion"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The digits and their values never change. Only the grouping and the names do. A useful way to convert: one lakh is one hundred thousand, one crore is ten million, and ten lakh is one million."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to tell if place value is the problem",
+        "id": "diagnosis"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Writing numbers read aloud incorrectly, such as \"four thousand and six\" as 46 or 40006.",
+          "Column addition and subtraction answers that are wildly off, especially with zeros.",
+          "Not being able to say what a digit is worth in a number.",
+          "Thinking 0.25 is bigger than 0.3, or 3.14 is bigger than 3.2.",
+          "Multiplying by 10 by \"adding a zero\" and then doing it to decimals (2.5 x 10 = 2.50)."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "If you recognise several of these, place value is worth rebuilding with objects before moving on, however old the child is. It is usually a quick fix and it makes almost every other topic easier. Our article on <a href='/blog/why-is-my-child-struggling-with-maths'>why children struggle with maths</a> explains how to find this kind of gap."
+      },
+      {
+        "type": "quote",
+        "text": "When a child is stuck at 10, we often find the gap at 7. Place value is the usual suspect.",
+        "author": "Our maths teachers"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, place value is taught with virtual base-ten blocks and place value charts on screen before any column method. For older students with gaps, the <a href='/math-catch-up-program'>maths catch-up programme</a> checks place value first, because so much depends on it. Classes are one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is place value in simple words?",
+            "content": "Place value means that a digit's value depends on its position in a number. In 352, the 3 is worth 300, the 5 is worth 50 and the 2 is worth 2. Each place is worth ten times the place to its right."
+          },
+          {
+            "title": "How do you teach place value to a child?",
+            "content": "Start with objects: bundles of ten sticks, base-ten blocks or coins. Count out numbers in tens and ones, then move to a place value chart, then to expanded form such as 352 = 300 + 50 + 2. Ask what each digit is worth, not just what it is."
+          },
+          {
+            "title": "Why is zero important in place value?",
+            "content": "Zero holds an empty place so that the other digits stay in the correct columns. In 307, the 0 shows there are no tens and keeps the 3 in the hundreds place. Without it the number would be 37."
+          },
+          {
+            "title": "What is the difference between face value and place value?",
+            "content": "Face value is the digit itself. Place value is what the digit is worth in its position. In 352, the face value of 5 is 5, but its place value is 50."
+          },
+          {
+            "title": "What is the difference between the Indian and international number systems?",
+            "content": "The values are the same, but the grouping differs. The international system puts commas every three digits and uses thousand, million and billion. The Indian system groups the first three digits and then every two, using thousand, lakh and crore. One lakh is 100,000 and one crore is 10,000,000."
+          },
+          {
+            "title": "Why does my child think 0.25 is bigger than 0.3?",
+            "content": "Because they are reading the digits after the decimal point as whole numbers, so 25 looks bigger than 3. Writing both to the same number of places, 0.30 and 0.25, and comparing tenths first, usually fixes it."
+          },
+          {
+            "title": "At what age do children learn place value?",
+            "content": "Children start with tens and ones at around 5 to 6, hundreds at around 7, thousands at around 8, and decimal place value at around 9 to 11. Understanding usually needs revisiting at each step, especially when zeros appear."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "how-to-help-a-child-understand-fractions",
+    "why-is-my-child-struggling-with-maths",
+    "long-division-step-by-step"
+  ]
+}
