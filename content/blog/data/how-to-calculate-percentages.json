@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "slug": "how-to-calculate-percentages",
+    "title": "How to Calculate Percentages: Every Method Explained",
+    "description": "How to calculate percentages: in your head with 10% and 1%, the swap trick, percentage change, reverse percentages, exam marks and common traps.",
+    "keywords": [
+      "how to calculate percentages",
+      "how to calculate percentage",
+      "percentage formula",
+      "how to work out percentages",
+      "percentage increase formula",
+      "reverse percentage",
+      "percentage of a number",
+      "percentage trick"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Maths",
+    "tags": [
+      "Maths",
+      "Percentages",
+      "Students",
+      "Everyday Maths"
+    ],
+    "readTime": "9 min read",
+    "featured": false,
+    "tldr": "A percentage is a number out of 100. To find a percentage of a number, multiply by the percentage and divide by 100. In your head, find 10% (divide by 10) and 1% (divide by 100) and build any percentage from them. x% of y always equals y% of x, so 8% of 50 is 50% of 8, which is 4. Percentage change is (new minus old) divided by old, times 100. To reverse a discount, divide the sale price by the fraction you paid: 1,800 after 25% off was 1,800 / 0.75 = 2,400."
+  },
+  "hero": {
+    "title": "How to Calculate Percentages",
+    "subtitle": "Every percentage calculation you are likely to need: in your head, on paper and in code, including the swap trick, reverse percentages and the traps that catch adults too.",
+    "featuredImage": {
+      "url": "/images/blog/how-to-calculate-percentages/00-hero.png",
+      "alt": "How to calculate percentages: a 10 by 10 grid with 37 squares shaded, showing 37 out of 100 is 37%"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Percentages are the part of school maths that follows you into adult life. Exam marks, discounts, interest rates, tax, pay rises, battery levels and statistics in the news are all percentages. Yet many adults reach for a calculator for 15% of something, and most people get at least one of the classic percentage questions wrong: what was the price before the discount, or why a 20% rise followed by a 20% fall does not bring you back to where you started."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide covers every percentage calculation you are likely to need, in the order that builds understanding: what a percentage is, how to find any percentage in your head, a shortcut that makes some awkward ones easy, percentage change, reverse percentages, and the traps that catch students and adults alike. Every calculation was checked by running it in Python, and the code is included so you can check your own answers the same way."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "Per cent means per hundred. To find a percentage of a number, multiply by the percentage and divide by 100. In your head, find 10% (divide by 10) and 1% (divide by 100), then build the rest from those. Percentage change is (new minus old) divided by old, times 100. For a reverse percentage, divide the final amount by what fraction of the original it represents."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What a percentage actually is",
+        "id": "what-it-is"
+      },
+      {
+        "type": "paragraph",
+        "text": "The word comes from the Latin <em>per centum</em>, meaning \"by the hundred\". A percentage is a fraction with 100 on the bottom. 37% means 37 out of every 100, or 37/100, or 0.37. That is all it is."
+      },
+      {
+        "type": "paragraph",
+        "text": "The reason percentages are so useful is that they let you compare things of different sizes. Scoring 42 out of 50 and 68 out of 80 is hard to compare at a glance. As percentages, 84% and 85%, it is easy. Turning everything into \"out of 100\" puts it on the same scale."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Percentage to decimal:</strong> divide by 100. 37% = 0.37, 5% = 0.05, 150% = 1.5.",
+          "<strong>Percentage to fraction:</strong> write it over 100 and simplify. 25% = 25/100 = 1/4.",
+          "<strong>Fraction to percentage:</strong> divide, then multiply by 100. 3/8 = 0.375 = 37.5%."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to find a percentage of a number",
+        "id": "percentage-of-a-number"
+      },
+      {
+        "type": "paragraph",
+        "text": "The formula is simple: <strong>percentage &#247; 100 &#215; the number</strong>. So 17% of 240 is 17 &#247; 100 &#215; 240 = 40.8. On a calculator, that is all you need."
+      },
+      {
+        "type": "paragraph",
+        "text": "In your head, there is a much friendlier method. Find two building blocks, 10% and 1%, and make everything else from them:"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-calculate-percentages/01-building-blocks.png",
+        "alt": "Building any percentage of 240 from 10% and 1%: 10% is 24, 5% is 12, 20% is 48, 1% is 2.4, 15% is 36 and 17% is 40.8",
+        "caption": "Two quick divisions give you every percentage you need."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "amount = 240\nten = amount / 10          # 10%: divide by 10\none = amount / 100         # 1%: divide by 100\nprint(\"10% of 240 =\", ten)\nprint(\" 5% of 240 =\", ten / 2)          # half of 10%\nprint(\"20% of 240 =\", ten * 2)          # double 10%\nprint(\"15% of 240 =\", ten + ten / 2)    # 10% + 5%\nprint(\" 1% of 240 =\", one)\nprint(\"17% of 240 =\", ten + ten / 2 + 2 * one)   # 10% + 5% + 1% + 1%\nprint(\"check:     \", 240 * 17 / 100)",
+        "title": "building_blocks.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "10% of 240 = 24.0\n 5% of 240 = 12.0\n20% of 240 = 48.0\n15% of 240 = 36.0\n 1% of 240 = 2.4\n17% of 240 = 40.8\ncheck:      40.8",
+        "title": "Output"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>10%:</strong> divide by 10. 10% of 240 is 24.",
+          "<strong>5%:</strong> half of 10%. That is 12.",
+          "<strong>20%, 30%, 40%:</strong> double, triple or quadruple 10%.",
+          "<strong>1%:</strong> divide by 100. 1% of 240 is 2.4.",
+          "<strong>Anything else:</strong> add pieces together. 15% is 10% + 5%. 17% is 10% + 5% + 1% + 1%.",
+          "<strong>50%, 25%, 75%:</strong> half, a quarter, three quarters. No building blocks needed."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Working out a tip or tax in your head",
+        "text": "For 15% of a bill of 480: 10% is 48, 5% is 24, so 15% is 72. For 18%: 20% is 96, take away 2% (9.6), leaving 86.4. Going over and coming back is often quicker than building up."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The swap trick that makes awkward percentages easy",
+        "id": "swap-trick"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is a genuine shortcut that most people are never taught. <strong>x% of y is always equal to y% of x.</strong> So 8% of 50, which sounds fiddly, is the same as 50% of 8, which is obviously 4."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-calculate-percentages/02-swap-trick.png",
+        "alt": "The percentage swap trick: 8% of 50 equals 50% of 8, 4% of 75 equals 75% of 4, and 16% of 25 equals 25% of 16",
+        "caption": "Swap the numbers whenever one of them is a friendlier percentage."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "examples = [(8, 50), (4, 75), (16, 25), (3, 200)]\nfor a, b in examples:\n    print(f\"{a}% of {b} = {a * b / 100:g}    and    {b}% of {a} = {b * a / 100:g}\")\n\n# does it always work? check every pair of whole numbers from 1 to 200\nalways = all(a * b / 100 == b * a / 100 for a in range(1, 201) for b in range(1, 201))\nprint(\"true for all 40,000 pairs:\", always)",
+        "title": "swap_trick.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "8% of 50 = 4    and    50% of 8 = 4\n4% of 75 = 3    and    75% of 4 = 3\n16% of 25 = 4    and    25% of 16 = 4\n3% of 200 = 6    and    200% of 3 = 6\ntrue for all 40,000 pairs: True",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "It works because both are really the same multiplication: x &#215; y &#247; 100. Multiplication gives the same answer in either order, so you can choose whichever version is easier to do in your head. The program checks it for all forty thousand pairs of whole numbers from 1 to 200, and it holds every time. It is not a coincidence. It is a property of multiplication."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Percentage increase and decrease",
+        "id": "percentage-change"
+      },
+      {
+        "type": "paragraph",
+        "text": "Percentage change tells you how much something has grown or shrunk, compared with where it started:"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Percentage change = (new value &#8722; old value) &#247; old value &#215; 100</strong>"
+      },
+      {
+        "type": "paragraph",
+        "text": "A positive answer is an increase and a negative answer is a decrease. The part people get wrong is dividing by the wrong number. Always divide by the <strong>old</strong> value, the one you are comparing from. If marks go from 60 to 72, the change is 12, and 12 out of the original 60 is 20%."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-calculate-percentages/03-change.png",
+        "alt": "Formulas for percentage change and reverse percentage with worked examples: 60 to 72 is a 20% increase, and 1800 after 25% off was originally 2400",
+        "caption": "Percentage change divides by the old value. A reverse percentage divides by what is left."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Reverse percentages: finding the original amount",
+        "id": "reverse-percentages"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is the question that catches almost everyone. A jacket costs 1,800 in a sale that takes 25% off. What was the original price? Many people add 25% of 1,800 back on, getting 2,250. That is wrong."
+      },
+      {
+        "type": "paragraph",
+        "text": "The trick is to ask what the 1,800 represents. After 25% off, you are paying 75% of the original. So 1,800 is 75% of the original, and the original is 1,800 &#247; 0.75 = 2,400. Check: 25% of 2,400 is 600, and 2,400 &#8722; 600 = 1,800. It works."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def percent_change(old, new):\n    return (new - old) / old * 100\n\nprint(f\"Marks 60 -> 72:   {percent_change(60, 72):+.1f}%\")\nprint(f\"Price 2400 -> 1800: {percent_change(2400, 1800):+.1f}%\")\n\n# reverse percentage: the price AFTER 25% off is 1800. What was it before?\nafter, discount = 1800, 25\nbefore = after / (1 - discount / 100)\nprint(\"original price:\", before)\n\n# the trap: up 20%, then down 20%\nprice = 1000\nprice = price * 1.20\nprint(\"after +20%:\", price)\nprice = price * 0.80\nprint(\"after -20%:\", price, \"(not back to 1000)\")",
+        "title": "change_and_reverse.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Marks 60 -> 72:   +20.0%\nPrice 2400 -> 1800: -25.0%\noriginal price: 2400.0\nafter +20%: 1200.0\nafter -20%: 960.0 (not back to 1000)",
+        "title": "Output"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Three traps that catch adults too",
+        "id": "traps"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-calculate-percentages/04-trap.png",
+        "alt": "Bar chart showing 1000 increased by 20% to 1200, then decreased by 20% to 960, not back to 1000",
+        "caption": "Each percentage is taken of a different starting amount."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Up and down by the same percentage.</strong> The last lines of the program above show it: 1,000 up 20% is 1,200, but down 20% from 1,200 is 960. The two 20%s are of different amounts. This is why a share that falls 50% needs to rise 100% to recover.",
+          "<strong>Adding percentages that are of different things.</strong> A 20% discount followed by a further 10% off is not 30% off. The second 10% is taken from the already reduced price, so the total is 28% off.",
+          "<strong>Percent versus percentage points.</strong> If an interest rate rises from 4% to 5%, it has gone up by one percentage point, but by 25% of its old value. News headlines mix these up constantly, sometimes on purpose."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Working out exam marks as a percentage",
+        "id": "exam-marks"
+      },
+      {
+        "type": "paragraph",
+        "text": "For students, the most common percentage calculation is marks. Divide the marks scored by the maximum, then multiply by 100. The trap is working out an overall percentage when subjects are marked out of different totals:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "scores = {\"Maths\": (88, 100), \"Science\": (71, 80), \"English\": (46, 60), \"Computer Science\": (97, 100)}\ntotal, out_of = 0, 0\nfor subject, (got, maximum) in scores.items():\n    total += got\n    out_of += maximum\n    print(f\"{subject:<17} {got:>3}/{maximum:<3} = {got / maximum * 100:5.1f}%\")\nprint(f\"{'Overall':<17} {total:>3}/{out_of:<3} = {total / out_of * 100:5.1f}%\")\naverage_of_percents = sum(g / m * 100 for g, m in scores.values()) / len(scores)\nprint(f\"Average of the four percentages = {average_of_percents:.1f}%  (not the same thing)\")",
+        "title": "marks.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Maths              88/100 =  88.0%\nScience            71/80  =  88.8%\nEnglish            46/60  =  76.7%\nComputer Science   97/100 =  97.0%\nOverall           302/340 =  88.8%\nAverage of the four percentages = 87.6%  (not the same thing)",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "The overall percentage adds up all the marks and divides by all the maximums. Averaging the four subject percentages gives a slightly different number, because it treats a paper out of 60 as if it counted the same as one out of 100. Which one is \"right\" depends on how your school or board calculates it, so always check the rule before comparing results."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to practise percentages",
+        "id": "practice"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Shopping:</strong> estimate every discount before the till does. 30% off 1,450? 10% is 145, so 30% is 435.",
+          "<strong>Restaurant bills:</strong> work out 10%, 15% and 20% of the total at the table.",
+          "<strong>News:</strong> when a headline quotes a percentage, ask \"of what?\" and whether it means percent or percentage points.",
+          "<strong>Code:</strong> write a tiny program, like the ones above, that checks your mental answers. It is also a gentle introduction to programming. Our guide to <a href='/blog/mental-maths-tricks-for-kids'>mental maths tricks</a> has more number-sense techniques."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Find 10%, find 1%, and you can find anything. Then ask: a percentage of what?",
+        "author": "The two questions we teach for every percentage problem"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, percentages are taught through the building-block method and real problems, discounts, marks and data, before formulas are introduced. Students also learn to check their answers with estimation and, when they are ready, with a few lines of code, which is the idea behind <a href='/why-coding-and-maths-together'>learning coding and maths together</a>. Classes are one to one or in small groups of 5 to 10, for ages 6 to 67."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How do you calculate a percentage of a number?",
+            "content": "Multiply the number by the percentage and divide by 100. For example, 17% of 240 is 17 x 240 / 100 = 40.8. In your head, find 10% by dividing by 10 and 1% by dividing by 100, then add the pieces you need."
+          },
+          {
+            "title": "How do you work out what percentage one number is of another?",
+            "content": "Divide the part by the whole and multiply by 100. For example, 42 out of 50 is 42 / 50 x 100 = 84%."
+          },
+          {
+            "title": "What is the formula for percentage increase?",
+            "content": "Percentage increase = (new value - old value) / old value x 100. Always divide by the original value. A rise from 60 to 72 is 12 / 60 x 100 = 20%."
+          },
+          {
+            "title": "How do you find the original price before a discount?",
+            "content": "Divide the sale price by the fraction of the original you actually paid. After 25% off you pay 75%, so divide by 0.75. A sale price of 1,800 means an original price of 1,800 / 0.75 = 2,400."
+          },
+          {
+            "title": "Why does a 20% increase and then a 20% decrease not cancel out?",
+            "content": "Because the two percentages are taken of different amounts. 20% of 1,000 is 200, taking you to 1,200. 20% of 1,200 is 240, taking you down to 960. You end 4% below where you started."
+          },
+          {
+            "title": "Is x% of y really the same as y% of x?",
+            "content": "Yes, always. Both equal x times y divided by 100, and multiplication gives the same answer in either order. So 8% of 50 is the same as 50% of 8, which is 4."
+          },
+          {
+            "title": "What is the difference between percent and percentage points?",
+            "content": "Percentage points measure the simple difference between two percentages, while percent measures the relative change. A rate rising from 4% to 5% has risen by 1 percentage point, which is a 25% increase in the rate itself."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "mental-maths-tricks-for-kids",
+    "how-to-get-better-at-maths",
+    "data-analytics-math-help-businesses-better-decisions"
+  ]
+}

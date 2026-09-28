@@ -332,6 +332,10 @@
         "text": "Percentages let you compare things of different sizes. A ₹10,000 increase means different things for a ₹1 lakh business versus a ₹1 crore business. Growth rates, percentage change over time, show whether you're improving or declining."
       },
       {
+        "type": "paragraph",
+        "text": "If percentage change, reverse percentages or the difference between percent and percentage points need a refresher, <a href='/blog/how-to-calculate-percentages'>how to calculate percentages</a> covers every method with worked examples, including the up 20% then down 20% trap."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "Correlation vs. Causation"
