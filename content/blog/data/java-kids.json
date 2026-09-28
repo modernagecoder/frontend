@@ -163,6 +163,10 @@
       },
       {
         "type": "paragraph",
+        "text": "How much steeper? We ran the same word counter in both languages: 6 lines of Python against 14 of Java, with identical output. <a href='/blog/python-vs-java-which-to-learn-first'>Python vs Java: which to learn first</a> also compares error messages and measured speed."
+      },
+      {
+        "type": "paragraph",
         "text": "<strong>More verbose code:</strong> Java programs require more lines of code to accomplish tasks compared to Python. This can feel tedious for beginners."
       },
       {

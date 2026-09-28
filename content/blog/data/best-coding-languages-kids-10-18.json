@@ -590,6 +590,10 @@
         "text": "Java is one of the most widely used languages in the world, powering enterprise applications, Android apps, and backend systems. It's also the language of AP Computer Science A, making it essential for college-bound students."
       },
       {
+        "type": "paragraph",
+        "text": "Choosing between Java and Python for a teenager? Our head-to-head, <a href='/blog/python-vs-java-which-to-learn-first'>Python vs Java: which to learn first</a>, runs the same programs in both and gives a recommendation by school board and goal."
+      },
+      {
         "type": "list",
         "style": "unordered",
         "items": [
