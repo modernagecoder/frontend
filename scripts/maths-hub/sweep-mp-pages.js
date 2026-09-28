@@ -99,6 +99,43 @@ function sweep(slug, html) {
       `<li data-intl-default="true">${li.slice(4, -5)}</li><li data-india-reveal="true" hidden>4 live ${kind || 'one-hour '}${noun || 'classes'} a month (1 per week, 1 hour each)</li>`);
   }));
 
+  // 4e. second layer: phrase-level copy (pass 2, 2026-09-28). Each pattern is
+  // the old wording only, so a re-run is a no-op.
+  const PHRASES = [
+    [/<button type="button" class="([^"]*)" onclick="openCallbackModal\(\)">(?:Get|Book) the free diagnostic demo<\/button>/g, `<a class="$1" href="/priority-demo" data-pd-book="mp-${slug}">Book a Priority Demo</a>`],
+    [/Our <strong>demo class doubles as that diagnostic<\/strong>, and it is free\./g, 'A <strong>Priority Demo doubles as that diagnostic</strong>: a full live class, with a written skill report afterwards.'],
+    [/<p>Meet the tutor, see how we teach, and watch your child explain a piece of maths back to you\. No card needed, no pressure afterwards\.<\/p>/g,
+      `<p>Meet the tutor in a full live class of ${PD.length}, see how we teach, and watch your child explain a piece of maths back to you. You get a written skill report afterwards, and the fee is adjusted against your first month if you enrol.</p>`],
+    [/<h2>Book a free trial lesson for your (teen|child)\.<\/h2>/g, '<h2>Book a Priority Demo for your $1.</h2>'],
+    [/<h2>Book a free trial class\.<\/h2>/g, '<h2>Book a Priority Demo.</h2>'],
+    [/<p>Book the free trial class\. /g, '<p>Book a Priority Demo. '],
+    [/ No card, no pressure, and the honest answer either way\./g, ' No pressure, and the honest answer either way.'],
+    [/<span class="v">Free<\/span><span class="l">Trial doubles as placement<\/span>/g, '<span class="v">45-60 min</span><span class="l">Priority Demo doubles as placement</span>'],
+    // UAE family: fee + schedule in one sentence -> no number
+    [/<strong>USD 150 a month<\/strong>, eight live sessions, (in Gulf Standard Time|around your work)\./g, 'Live one-hour sessions $1, billed monthly (<a href="#pricing">see the plans in your currency</a>).'],
+    [/Pricing is USD 150 per month for eight 1:1 (?:sessions|lessons), lessons run in Gulf Standard Time, and the first (?:session|lesson) is free\./g,
+      'Lessons run in Gulf Standard Time, the monthly plans are shown in your currency in the pricing section, and you can see a full class first with a Priority Demo.'],
+    [/1-on-1 for (?:USD )?\$150 a month(?: \(about [A-Z]{1,2}\$\d+\))? or small group for \$100(?: \(about [A-Z]{1,2}\$\d+\))?/g, '1-on-1 or small group, priced in your currency'],
+    // "free demo" as a noun phrase in prose
+    [/, free (?:diagnostic )?demo(?: class)? first\./g, ', Priority Demo first.'],
+    [/start with the free demo class and let the/g, 'start with a Priority Demo and let the'],
+    [/Our free demo class doubles as (exactly )?this diagnostic/g, 'A Priority Demo doubles as $1this diagnostic'],
+    [/Our free demo doubles as/g, 'A Priority Demo doubles as'],
+    [/The free demo (doubles as|maps|places)/g, 'The Priority Demo $1'],
+    [/the free demo shows it/g, 'a Priority Demo shows it'],
+    [/judge the real thing in the free demo class/g, 'judge the real thing in a Priority Demo'],
+    [/the free trial reads it honestly/g, 'a Priority Demo reads it honestly'],
+    [/the free trial exists precisely for this experiment/g, 'a Priority Demo is built for exactly this experiment'],
+    [/One free trial settles/g, 'One Priority Demo settles'],
+    [/That is what the free trial reads/g, 'That is what a Priority Demo reads'],
+    [/ The diagnostic demo is free, no card needed\./g, ''],
+  ];
+  for (const [re, rep] of PHRASES) h = count('p2', h, h.replace(re, rep));
+  // meta / og descriptions: no fee, no free-trial promise in the snippet
+  h = count('meta', h, h.replace(/(<meta (?:name="description"|property="og:description"|name="twitter:description") content=")([^"]*)(")/g, (m, a, c, z) =>
+    a + c.replace(/ USD 150\/month, 8 classes\. Book a free trial\./, ' Book a Priority Demo.').replace(/ 8 classes a month from USD 100\./, ' 8 classes a month.')
+      .replace(/[.,]? ?[Ff]ree demo\.$/, '. Priority Demo available.').replace(/ Book a free (?:trial|demo)(?: class| lesson)?(?: today)?[.!]/g, ' Book a Priority Demo.') + z));
+
   // 5. FAQs (visible + schema together)
   const changes = []; // {oldQ, newQ, newA}
   h = h.replace(/<details([^>]*)>\s*<summary([^>]*)>([\s\S]*?)<\/summary>\s*<div class="a">([\s\S]*?)<\/div>\s*<\/details>/g, (m, dAttr, sAttr, qHtml, aHtml) => {
