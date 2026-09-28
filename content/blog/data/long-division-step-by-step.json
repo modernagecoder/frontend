@@ -1,0 +1,313 @@
+{
+  "meta": {
+    "slug": "long-division-step-by-step",
+    "title": "Long Division Step by Step: The Four-Move Method",
+    "description": "Long division step by step: the four moves, worked examples with remainders, the missing zero mistake, two-digit divisors, and why the method works.",
+    "keywords": [
+      "long division step by step",
+      "how to do long division",
+      "long division method",
+      "long division with remainders",
+      "long division with two digit divisor",
+      "divide multiply subtract bring down",
+      "long division for kids"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Maths",
+    "tags": [
+      "Maths",
+      "Division",
+      "Parents",
+      "Primary Maths"
+    ],
+    "readTime": "10 min read",
+    "featured": false,
+    "tldr": "Long division repeats four moves until no digits are left: divide the current number by the divisor, multiply that result by the divisor, subtract to find what is left, and bring down the next digit. Whatever is left at the end is the remainder. The most common mistake is leaving out a zero in the answer when the divisor does not go in, so estimate first (612 divided by 3 must be about 200, not 24) and check by multiplying the answer by the divisor and adding the remainder."
+  },
+  "hero": {
+    "title": "Long Division Step by Step",
+    "subtitle": "The four moves that repeat, worked examples with and without remainders, the mistake behind most wrong answers, and why the method works.",
+    "featuredImage": {
+      "url": "/images/blog/long-division-step-by-step/00-hero.png",
+      "alt": "Long division step by step: 8472 divided by 6 laid out with the quotient 1412"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Long division is the written method for dividing big numbers, and it has a reputation for being the point where maths stops making sense. The procedure has a lot of moving parts, and children are often taught the steps without being told why they work. Parents who learned it thirty years ago, sometimes in a different country with a different layout, then find they cannot explain it either."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide breaks long division into the four moves that repeat, walks through several examples one step at a time, shows the mistake that causes most wrong answers, and explains why the method works at all. Every worked example here was checked by a short Python program that performs long division exactly the way you do it on paper, and prints each step."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "Long division repeats four moves: Divide (how many whole times does the divisor go in?), Multiply (that number by the divisor), Subtract (to find what is left), and Bring down (the next digit). Repeat until there are no digits left. Whatever remains at the end is the remainder. Check by multiplying the answer by the divisor and adding the remainder."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The words you need",
+        "id": "vocabulary"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Dividend:</strong> the number being divided. In 8472 &#247; 6, it is 8472.",
+          "<strong>Divisor:</strong> the number you are dividing by. Here, 6.",
+          "<strong>Quotient:</strong> the answer, written above the dividend in most layouts.",
+          "<strong>Remainder:</strong> what is left over when the divisor does not go in exactly."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The four moves: divide, multiply, subtract, bring down",
+        "id": "four-moves"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/long-division-step-by-step/01-four-moves.png",
+        "alt": "The four moves of long division: divide, multiply, subtract and bring down, shown with the first step of 8472 divided by 6",
+        "caption": "Every long division problem is these four moves, repeated."
+      },
+      {
+        "type": "paragraph",
+        "text": "Let us work through 8472 &#247; 6 slowly. Look at the first digit, 8."
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Divide:</strong> how many whole times does 6 go into 8? Once. Write 1 above the 8.",
+          "<strong>Multiply:</strong> 1 x 6 = 6. Write 6 under the 8.",
+          "<strong>Subtract:</strong> 8 - 6 = 2. This 2 is what is left over so far.",
+          "<strong>Bring down:</strong> the next digit, 4, comes down next to the 2, making 24."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Now repeat with 24. 6 goes into 24 exactly 4 times; 4 x 6 = 24; 24 - 24 = 0; bring down the 7. Then 6 goes into 7 once, leaving 1; bring down the 2 to make 12; 6 goes into 12 twice with nothing left. The answer is 1412."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the same thing done by a program that follows exactly those four moves for each digit. It also checks its own answer at the end, which is a habit worth copying on paper:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def long_division(dividend, divisor):\n    digits = str(dividend)\n    quotient, remainder = \"\", 0\n    print(f\"{dividend} / {divisor}\")\n    for position, digit in enumerate(digits):\n        current = remainder * 10 + int(digit)          # bring down the next digit\n        q = current // divisor                          # divide: how many whole times?\n        product = q * divisor                           # multiply back\n        remainder = current - product                   # subtract\n        quotient += str(q)\n        print(f\"  bring down {digit}: {current:>3} / {divisor} = {q}, {q} x {divisor} = {product:>3}, remainder {remainder}\")\n    answer = int(quotient)                              # drop leading zeros\n    print(f\"answer: {answer} remainder {remainder}\")\n    print(f\"check:  {answer} x {divisor} + {remainder} = {answer * divisor + remainder}\")\n\nlong_division(8472, 6)\nprint()\nlong_division(612, 3)\nprint()\nlong_division(9437, 7)",
+        "title": "long_division.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "8472 / 6\n  bring down 8:   8 / 6 = 1, 1 x 6 =   6, remainder 2\n  bring down 4:  24 / 6 = 4, 4 x 6 =  24, remainder 0\n  bring down 7:   7 / 6 = 1, 1 x 6 =   6, remainder 1\n  bring down 2:  12 / 6 = 2, 2 x 6 =  12, remainder 0\nanswer: 1412 remainder 0\ncheck:  1412 x 6 + 0 = 8472\n\n612 / 3\n  bring down 6:   6 / 3 = 2, 2 x 3 =   6, remainder 0\n  bring down 1:   1 / 3 = 0, 0 x 3 =   0, remainder 1\n  bring down 2:  12 / 3 = 4, 4 x 3 =  12, remainder 0\nanswer: 204 remainder 0\ncheck:  204 x 3 + 0 = 612\n\n9437 / 7\n  bring down 9:   9 / 7 = 1, 1 x 7 =   7, remainder 2\n  bring down 4:  24 / 7 = 3, 3 x 7 =  21, remainder 3\n  bring down 3:  33 / 7 = 4, 4 x 7 =  28, remainder 5\n  bring down 7:  57 / 7 = 8, 8 x 7 =  56, remainder 1\nanswer: 1348 remainder 1\ncheck:  1348 x 7 + 1 = 9437",
+        "title": "Output"
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "A memory hook children like",
+        "text": "Divide, Multiply, Subtract, Bring down: \"Does McDonald's Sell Burgers?\" Some teachers add a fifth step, R for Repeat or Remainder, so it becomes \"Does McDonald's Sell Burgers Raw?\" Silly sentences are remembered far better than lists."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A worked example with a remainder",
+        "id": "with-remainder"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/long-division-step-by-step/02-worked.png",
+        "alt": "Long division of 9437 by 7 laid out in full, with the four steps listed, giving 1348 remainder 1 and a multiplication check",
+        "caption": "The layout is generated from the actual division, digit by digit."
+      },
+      {
+        "type": "paragraph",
+        "text": "Not every division comes out exactly. In 9437 &#247; 7, after the last digit is brought down and divided, 1 is left over. That is the remainder: the answer is 1348 remainder 1. The check at the end of the program's output is the important part: 1348 x 7 + 1 = 9437. If the check does not give you back the number you started with, there is a mistake somewhere, and you can find it by comparing each step."
+      },
+      {
+        "type": "paragraph",
+        "text": "Depending on the question, a remainder can be left as it is, written as a fraction (1348 and 1/7), or turned into a decimal by adding a decimal point and zeros to the dividend and continuing to bring down zeros. Real-world questions sometimes need you to round up instead: 9437 people on buses that hold 7 need 1349 buses, not 1348."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The mistake that causes most wrong answers",
+        "id": "missing-zero"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/long-division-step-by-step/03-zero-trap.png",
+        "alt": "Long division of 612 by 3, highlighting the zero in the quotient that students often leave out, turning 204 into 24",
+        "caption": "When the divisor does not go in, the quotient still needs a digit: zero."
+      },
+      {
+        "type": "paragraph",
+        "text": "Look at 612 &#247; 3 in the program's output above. 3 goes into 6 twice. Then the next digit is 1, and 3 does not go into 1. At this point a lot of students simply move on, and the answer comes out as 24. The correct answer is 204, because the quotient needs a digit in every column after it starts, and when the divisor does not go in, that digit is 0."
+      },
+      {
+        "type": "paragraph",
+        "text": "The best protection is an estimate before you start. 612 is about 600, and 600 &#247; 3 is 200, so the answer has to be somewhere around 200. An answer of 24 is obviously wrong the moment you compare it. This takes ten seconds and catches most long division errors, not just this one."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Misaligned columns.</strong> Write each quotient digit directly above the digit you just brought down. Squared paper helps enormously.",
+          "<strong>A guess that is too big.</strong> If the multiply step gives a number larger than what you are dividing, your guess was one too high.",
+          "<strong>A remainder that is too big.</strong> If the remainder is equal to or larger than the divisor, the divisor could have gone in one more time.",
+          "<strong>Weak times tables.</strong> Every divide step is a times tables fact in reverse. If your child hesitates on 7 x 8, long division will feel impossible. Our guide to <a href='/blog/how-to-learn-times-tables-fast'>learning times tables fast</a> fixes that first."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Dividing by a two-digit number",
+        "id": "two-digit-divisors"
+      },
+      {
+        "type": "paragraph",
+        "text": "With a divisor like 27, the four moves are exactly the same. The only hard part is the divide step, because you probably do not know the 27 times table. The trick is to estimate using a rounded divisor, then adjust. To divide by 27, think \"about 30\"; to divide by 42, think \"about 40\". Your estimate will sometimes be one too big or too small, and the multiply and subtract steps will tell you."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def long_division_two_digit(dividend, divisor):\n    remainder, quotient = 0, \"\"\n    for digit in str(dividend):\n        current = remainder * 10 + int(digit)\n        q = current // divisor\n        remainder = current - q * divisor\n        quotient += str(q)\n        if quotient.lstrip(\"0\"):\n            # estimate by rounding the divisor, the way you would on paper\n            guess = current // (round(divisor, -1) or 10)\n            print(f\"{current:>4} / {divisor}: estimate {guess} from {round(divisor, -1)}, actual {q}, remainder {remainder}\")\n    print(\"answer:\", int(quotient), \"remainder\", remainder)\n\nlong_division_two_digit(6453, 27)",
+        "title": "two_digit_divisor.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "  64 / 27: estimate 2 from 30, actual 2, remainder 10\n 105 / 27: estimate 3 from 30, actual 3, remainder 24\n 243 / 27: estimate 8 from 30, actual 9, remainder 0\nanswer: 239 remainder 0",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Look at the last line of working. Rounding 27 up to 30 suggested that 243 contains 8 lots, but the real answer is 9, because 27 is smaller than 30. On paper you would find this at the subtract step: 243 - 8 x 27 leaves 27, which is not smaller than the divisor, so the divisor goes in one more time. That is exactly what happens in real long division, and it is normal. Correcting an estimate by one is part of the method, not a sign of getting it wrong."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why long division works",
+        "id": "why-it-works"
+      },
+      {
+        "type": "paragraph",
+        "text": "Long division can feel like a magic trick. It is not. It is a way of dividing a number one place value at a time, from the biggest place downwards."
+      },
+      {
+        "type": "paragraph",
+        "text": "Take 8472 &#247; 6 again. When we said \"6 into 8 goes once\", the 8 is really 8 thousands. Six thousands go into 8 thousands once, with 2 thousands left over. Those 2 thousands become 20 hundreds, and together with the 4 hundreds already there, that is the 24 we \"brought down\". Every \"bring down\" is really converting what is left over into the next smaller place value. Children who understand this stop making column mistakes, because they can see what each digit means."
+      },
+      {
+        "type": "quote",
+        "text": "Bringing down a digit is just trading leftover thousands for hundreds. Once a child sees that, long division stops being a ritual.",
+        "author": "Something our maths teachers say most weeks"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Short division, long division and chunking",
+        "id": "methods"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/long-division-step-by-step/04-methods.png",
+        "alt": "Three written division methods compared: short division, long division and chunking",
+        "caption": "Schools in different countries teach different layouts. The underlying steps are identical."
+      },
+      {
+        "type": "paragraph",
+        "text": "You may see several methods in your child's homework. <strong>Short division</strong>, often called the bus stop method in the UK, does the same four moves but writes only the carried remainders, as small digits. It is quick for single-digit divisors. <strong>Long division</strong> writes every multiply and subtract step, which makes it easier with two-digit divisors and easier to check. <strong>Chunking</strong> subtracts big, easy multiples of the divisor, such as 100 lots or 10 lots, and adds up how many chunks were taken. It is slower but builds real understanding of what division means."
+      },
+      {
+        "type": "paragraph",
+        "text": "Layouts also differ between countries. Many Indian textbooks write the divisor on the left and the quotient on the right of the dividend, while the UK and US write the quotient above. If you learned one way and your child is learning another, the four moves are identical, so talk about the moves rather than the drawing."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "When should children learn long division?",
+        "id": "when"
+      },
+      {
+        "type": "paragraph",
+        "text": "Children usually meet written division with single-digit divisors at around 8 to 10, and long division with two-digit divisors at around 10 to 11. In England, formal long division with two-digit divisors is part of the Year 6 curriculum. Before starting, a child should be secure on times tables, place value and subtraction with exchanging. If any of those is shaky, long division will feel much harder than it is, and the fastest fix is usually to go back a step. Our <a href='/online-math-tutor-4th-grade'>4th grade maths tutoring</a> and <a href='/ks2-maths-tuition-online'>KS2 maths tuition</a> pages describe how we cover these foundations."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, long division is taught as place value first and procedure second: students estimate before they divide and check after they finish, every time. Teachers watch the working, not just the answer, so a missing zero or a misaligned column gets caught on the first example rather than the twentieth. Classes are one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What are the steps of long division?",
+            "content": "Divide, multiply, subtract and bring down. Divide the current number by the divisor, multiply the result by the divisor, subtract to find what is left, and bring down the next digit. Repeat until no digits are left. Whatever is left at the end is the remainder."
+          },
+          {
+            "title": "How do you check a long division answer?",
+            "content": "Multiply the answer by the divisor and add the remainder. You should get back the number you started with. For example, 1348 remainder 1 for 9437 divided by 7 checks because 1348 x 7 + 1 = 9437."
+          },
+          {
+            "title": "Why do I sometimes need a zero in the answer?",
+            "content": "Once the answer has started, every digit you bring down needs a digit in the quotient. If the divisor does not go into the current number, that digit is 0. Leaving it out is the most common long division mistake, for example writing 24 instead of 204 for 612 divided by 3."
+          },
+          {
+            "title": "How do you do long division with a two-digit divisor?",
+            "content": "Use the same four steps, but estimate the divide step by rounding the divisor. To divide by 23, think of 20; to divide by 47, think of 50. If your estimate is one too big or small, the multiply and subtract steps will show it, and you adjust by one."
+          },
+          {
+            "title": "What is the difference between short and long division?",
+            "content": "They use the same steps. Short division writes only the carried remainders and suits single-digit divisors. Long division writes out every multiplication and subtraction, which makes larger divisors easier to handle and mistakes easier to find."
+          },
+          {
+            "title": "What age do children learn long division?",
+            "content": "Most children learn written division with single-digit divisors around ages 8 to 10, and long division with two-digit divisors around 10 to 11. In England, long division with two-digit divisors is taught in Year 6. Secure times tables and place value should come first."
+          },
+          {
+            "title": "What do I do with the remainder?",
+            "content": "It depends on the question. You can leave it as a remainder, write it as a fraction over the divisor, or continue dividing after a decimal point to get a decimal. In word problems, think about the context: you might need to round up, as with buses or boxes."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "how-to-learn-times-tables-fast",
+    "help-child-with-maths-homework",
+    "mental-maths-tricks-for-kids"
+  ]
+}
