@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "slug": "do-ai-detectors-work",
+    "title": "Do AI Detectors Work? What Students and Parents Should Know",
+    "description": "What OpenAI and a Stanford study found about AI detectors, why they flag plain human writing, and what to do if you are wrongly accused.",
+    "keywords": [
+      "do ai detectors work",
+      "are ai detectors accurate",
+      "ai detector false positive",
+      "falsely accused of using ai",
+      "how to prove you didn't use ai",
+      "turnitin ai detection accuracy",
+      "ai detectors non-native english"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "AI Literacy",
+      "Students",
+      "Parents",
+      "ChatGPT"
+    ],
+    "readTime": "9 min read",
+    "featured": false,
+    "tldr": "Not reliably. OpenAI's own detector caught only 26% of AI-written text and wrongly flagged 9% of human writing, and OpenAI withdrew it in July 2023 for low accuracy. A 2023 Stanford study found seven detectors wrongly flagged non-native English essays as AI with an average false positive rate of 61.22%, largely because plain wording looks predictable. Even small error rates produce many false accusations when most students are honest. Keep drafts and version history, be ready to explain your work, and treat any detector score as a reason to talk, not proof."
+  },
+  "hero": {
+    "title": "Do AI Detectors Work? What Students and Parents Should Know",
+    "subtitle": "The published evidence from OpenAI and Stanford, how detectors make their guesses, two calculations that show the problem, and what to do if you are wrongly flagged.",
+    "featuredImage": {
+      "url": "/images/blog/do-ai-detectors-work/00-hero.png",
+      "alt": "An essay stamped likely AI with a question mark, illustrating whether AI detectors actually work"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "AI detectors promise to tell whether a piece of writing came from a person or from a tool like ChatGPT. Many schools and universities have used them, and some students have been accused of cheating because a detector said so. So it is fair to ask: do they actually work?"
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide looks at the published evidence, including figures from OpenAI itself and a Stanford study, explains in plain terms how detectors make their guesses, and shows two small calculations that make the problem obvious. It ends with practical advice for students who want to protect themselves, for parents, and for anyone who has been wrongly flagged."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What OpenAI found about its own detector",
+        "id": "openai"
+      },
+      {
+        "type": "paragraph",
+        "text": "In January 2023, OpenAI, the company behind ChatGPT, released its own AI text classifier. In its announcement it was unusually frank: on its test set, the classifier correctly identified 26% of AI-written text as \"likely AI-written\", while incorrectly labelling human-written text as AI-written 9% of the time. OpenAI also noted that reliability improves as texts get longer, so short answers are even harder to judge."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/do-ai-detectors-work/01-openai.png",
+        "alt": "OpenAI's classifier flagged 26 in 100 AI-written texts as likely AI-written, and wrongly flagged 9 in 100 human-written texts; it was withdrawn on 20 July 2023 due to its low rate of accuracy",
+        "caption": "Figures from OpenAI's own announcement."
+      },
+      {
+        "type": "paragraph",
+        "text": "On 20 July 2023, OpenAI withdrew the tool, stating that it was \"no longer available due to its low rate of accuracy\". If the company that makes ChatGPT could not build a reliable detector for its own model's writing, that tells you something about how hard the problem is."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Stanford study: detectors and non-native writers",
+        "id": "stanford"
+      },
+      {
+        "type": "paragraph",
+        "text": "In 2023, researchers at Stanford University (Weixin Liang, James Zou and colleagues) tested seven widely used detectors on two sets of human writing: 91 essays written for the TOEFL English test by non-native speakers, and 88 essays by US 8th-grade students. The detectors were near-perfect on the US essays. But they misclassified over half of the TOEFL essays as AI-generated, with an average false positive rate of 61.22%. Of the 91 TOEFL essays, 89 were flagged by at least one detector."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/do-ai-detectors-work/02-stanford.png",
+        "alt": "Average false positive rates across seven detectors: US 8th-grade essays 5.19 percent, the same essays with words simplified 56.65 percent, TOEFL essays by non-native writers 61.22 percent, and TOEFL essays with enhanced vocabulary 11.77 percent",
+        "caption": "Every essay in this chart was written by a person."
+      },
+      {
+        "type": "paragraph",
+        "text": "Then the researchers ran a revealing experiment. When they used ChatGPT to make the non-native essays sound more like a native speaker, the false positive rate dropped from 61.22% to 11.77%. When they made the US essays use simpler words, the rate jumped from 5.19% to 56.65%. In other words, the detectors were largely reacting to how <em>simple</em> the vocabulary was, not to whether AI wrote it. The researchers cautioned against using these detectors in educational settings."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How AI detectors make their guess",
+        "id": "how-they-work"
+      },
+      {
+        "type": "paragraph",
+        "text": "Many detectors lean on a measure called <strong>perplexity</strong>: roughly, how surprised a language model is by each word in a passage. AI tools tend to choose likely, predictable words, so their text has low perplexity. The problem is that plenty of human writing is predictable too: short sentences, common words, a young writer, or someone writing in their second language. To show this, we built a tiny toy version. It learns how common each word is from the paragraphs of 150 posts on this blog, then scores two passages with the same meaning, both written for this demo:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import json, math, re, collections, pathlib\n\n# 1. Learn how common each word is, from the paragraphs of 150 blog posts\nwords = []\nfor f in sorted(pathlib.Path(\"content/blog/data\").glob(\"*.json\"))[:150]:\n    post = json.loads(f.read_text(encoding=\"utf-8\"))\n    for s in post.get(\"sections\") or post.get(\"content\", {}).get(\"sections\", []):\n        if s.get(\"type\") == \"paragraph\":\n            words += re.findall(r\"[a-z']+\", re.sub(r\"<[^>]+>\", \" \", s[\"text\"]).lower())\ncounts = collections.Counter(words)\ntotal, vocab = len(words), len(counts)\n\n# 2. Perplexity: how \"surprised\" the model is by a passage (lower = more predictable)\ndef perplexity(text):\n    ws = re.findall(r\"[a-z']+\", text.lower())\n    log_p = sum(math.log2((counts[w] + 1) / (total + vocab)) for w in ws)\n    return 2 ** (-log_p / len(ws))\n\nsimple = (\"My school has a big library. I go there every day after class. \"\n          \"I like to read books about space. The books are very good and I learn a lot.\")\nvaried = (\"Our school's cavernous library has become my after-class refuge, where I devour \"\n          \"dog-eared volumes about nebulae, pulsars and the eerie physics of black holes.\")\n\nprint(f\"trained on {total:,} words\")\nprint(f\"simple wording: perplexity {perplexity(simple):,.0f}\")\nprint(f\"varied wording: perplexity {perplexity(varied):,.0f}\")",
+        "title": "toy_detector.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "trained on 176,424 words\nsimple wording: perplexity 971\nvaried wording: perplexity 7,239",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/do-ai-detectors-work/04-toy.png",
+        "alt": "Two passages with the same meaning: simple wording scored perplexity 971, varied wording scored 7,239; a detector that flags low perplexity would flag the simple one",
+        "caption": "Same content. Only the word choice changed."
+      },
+      {
+        "type": "paragraph",
+        "text": "The simple passage scored 971, the varied one 7,239. A detector that flags low perplexity would flag the simple passage first, even though the only difference is vocabulary. Real detectors use much larger models than our toy, but the Stanford researchers found the same pattern in theirs: the essays every detector flagged had significantly lower perplexity than the rest."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "Why detectors are easy to fool",
+        "text": "The same study had ChatGPT write 31 college admission essays, then asked it to rewrite each one using more literary language. Detection rates fell from up to 100% to up to 13%. So detectors tend to catch careless users and plain writers, while careful cheaters slip through."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The maths problem: false alarms add up",
+        "id": "base-rates"
+      },
+      {
+        "type": "paragraph",
+        "text": "Even a detector that sounds accurate can produce many false accusations, because most students are honest. Here is the arithmetic for a class of 30, using OpenAI's published rates and supposing 5 students used AI:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# OpenAI's own published figures for its 2023 classifier\ncatch_rate = 0.26        # share of AI-written text it flagged\nfalse_alarm = 0.09       # share of human-written text it wrongly flagged\n\nclass_size = 30\nused_ai = 5              # suppose 5 of 30 students used AI\nhonest = class_size - used_ai\n\ncaught = used_ai * catch_rate\nwrongly_flagged = honest * false_alarm\nflagged = caught + wrongly_flagged\n\nprint(f\"AI users caught:        {caught:.2f}\")\nprint(f\"Honest students flagged: {wrongly_flagged:.2f}\")\nprint(f\"Share of flags that are innocent: {wrongly_flagged / flagged:.0%}\")\n\n# Even a 1% false positive rate adds up at scale\npapers = 75_000\nprint(f\"1% of {papers:,} papers = {papers * 0.01:,.0f} wrongly flagged\")",
+        "title": "base_rate.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "AI users caught:        1.30\nHonest students flagged: 2.25\nShare of flags that are innocent: 63%\n1% of 75,000 papers = 750 wrongly flagged",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/do-ai-detectors-work/03-class.png",
+        "alt": "In a class of 30 where 5 used AI, OpenAI's published rates would on average catch 1.3 AI users and wrongly flag 2.25 honest students, so 63 percent of flagged students did nothing wrong",
+        "caption": "Averages, so the numbers are not whole students. The proportion is the point."
+      },
+      {
+        "type": "paragraph",
+        "text": "On average, the detector catches 1.3 of the 5 AI users but flags 2.25 honest students, so about 63% of the students it flags did nothing wrong. Better detectors shrink the problem but do not remove it. When Vanderbilt University disabled Turnitin's AI detection in August 2023, it noted that Turnitin had claimed a 1% false positive rate, and that of the 75,000 papers Vanderbilt submitted in 2022, around 750 could have been wrongly labelled. The last line of the output is that same calculation."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How students can protect themselves",
+        "id": "students"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Write in a tool that keeps version history,</strong> such as Google Docs or Word with autosave. A document that grows over several sessions, with edits and changes of mind, is strong evidence of your own work.",
+          "<strong>Keep your notes, outlines and rough drafts.</strong> Photos of handwritten plans count too.",
+          "<strong>Know your own work.</strong> If you can explain your argument, why you chose each source, and how your draft changed, that is more convincing than any detector score.",
+          "<strong>Follow your school's AI policy, and be open about any use that is allowed.</strong> Our guide to <a href='/blog/how-to-use-chatgpt-to-study-without-cheating'>using ChatGPT to study without cheating</a> shows how to use AI in ways that build your skills rather than replace them.",
+          "<strong>Do not run your own writing through a paraphrasing tool</strong> to lower a detector score. It can make genuine work look less like yours."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What to do if you are wrongly flagged",
+        "id": "wrongly-flagged"
+      },
+      {
+        "type": "paragraph",
+        "text": "Stay calm, and treat it as a conversation rather than a verdict. Ask exactly what the concern is based on. Share your version history, notes and drafts. Offer to talk through the work, or to write something similar under supervision. It is reasonable to point out, politely, that OpenAI withdrew its own detector for low accuracy, that some universities have disabled AI detection for the same reason, and that research shows detectors unfairly flag plain and non-native writing. If you are a parent, ask the school what its policy says about detector evidence, and whether a detector score alone can lead to a penalty."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "For teachers",
+        "text": "Evidence of the writing process is more reliable than any detector: drafts, in-class writing, short conversations about the work, and assignments that ask students to connect ideas to their own experience or to class discussions."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The bigger lesson: understanding how AI works",
+        "id": "bigger-lesson"
+      },
+      {
+        "type": "paragraph",
+        "text": "Detectors are a good example of why everyone, not only programmers, benefits from understanding how AI actually works. A tool that outputs a confident percentage can still be guessing. Knowing about training data, probabilities and error rates helps you question an AI result instead of simply trusting it. Our post on <a href='/blog/why-do-machine-learning-models-make-mistakes'>why machine learning models make mistakes</a> explores this with small experiments, and our <a href='/ai-tools-age-guide'>AI tools age guide</a> covers which tools are meant for which ages."
+      },
+      {
+        "type": "quote",
+        "text": "A detector score is a guess about probability, not proof about a person."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two principles on our <a href='/how-we-teach'>how we teach</a> page fit this topic closely. Learning by building: a small model like the toy detector above teaches more about how AI guesses than any definition. And mistakes are data, not failures, which is exactly the right way to think about a detector's errors. Our <a href='/ai-literacy-for-students'>AI literacy classes for students</a> focus on knowing when the machine is wrong, one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Do AI detectors actually work?",
+            "content": "Not reliably enough to prove anything on their own. OpenAI's own classifier caught 26% of AI-written text while wrongly flagging 9% of human writing, and OpenAI withdrew it in July 2023 for low accuracy. Detectors can give a signal, but they should never be the only evidence."
+          },
+          {
+            "title": "Can AI detectors be wrong about human writing?",
+            "content": "Yes. A 2023 Stanford study found seven widely used detectors wrongly flagged non-native English speakers' essays as AI-generated with an average false positive rate of 61.22%, while being near-perfect on US 8th-grade essays."
+          },
+          {
+            "title": "Why do AI detectors flag my writing when I did not use AI?",
+            "content": "Many detectors rely on how predictable the words are. Plain, simple or formulaic writing is predictable, so it can look like AI output even when a person wrote it. This affects younger writers and people writing in a second language most."
+          },
+          {
+            "title": "How can I prove I did not use AI?",
+            "content": "Show your process: version history in Google Docs or Word, notes, outlines and drafts. Offer to explain your work or write something similar under supervision. Evidence of how the work developed is far stronger than a detector score."
+          },
+          {
+            "title": "Is Turnitin's AI detector accurate?",
+            "content": "Turnitin has claimed a low false positive rate, but even small rates add up. Vanderbilt University disabled Turnitin's AI detection in August 2023, noting that a 1% false positive rate could have wrongly labelled around 750 of its 75,000 papers from 2022."
+          },
+          {
+            "title": "Can AI detectors be fooled?",
+            "content": "Yes. The Stanford researchers found that one extra prompt asking ChatGPT to use more literary language cut detection rates on its essays from up to 100% to up to 13%. This is one reason detector results should not be treated as proof."
+          },
+          {
+            "title": "What should parents do if their child is accused of using AI?",
+            "content": "Stay calm, ask what evidence the concern is based on, and help your child gather drafts, notes and version history. Ask whether school policy allows a penalty based on a detector score alone, and request a conversation about the work itself."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "how-to-use-chatgpt-to-study-without-cheating",
+    "why-do-machine-learning-models-make-mistakes",
+    "coding-vs-ai-what-should-my-child-learn"
+  ]
+}
