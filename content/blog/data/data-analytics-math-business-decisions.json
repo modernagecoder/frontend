@@ -333,6 +333,10 @@
       },
       {
         "type": "paragraph",
+        "text": "Averages need the same care. A single very large order can make the mean order value look far healthier than a typical one. Our guide to <a href='/blog/mean-median-mode-explained'>mean, median and mode</a> explains when each average tells the truth."
+      },
+      {
+        "type": "paragraph",
         "text": "If percentage change, reverse percentages or the difference between percent and percentage points need a refresher, <a href='/blog/how-to-calculate-percentages'>how to calculate percentages</a> covers every method with worked examples, including the up 20% then down 20% trap."
       },
       {

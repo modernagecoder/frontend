@@ -1,0 +1,348 @@
+{
+  "meta": {
+    "slug": "mean-median-mode-explained",
+    "title": "Mean, Median and Mode Explained, With Examples",
+    "description": "Mean, median and mode explained with worked examples: how to find each, the median of an even set, multiple modes, outliers, frequency tables.",
+    "keywords": [
+      "mean median mode",
+      "mean median and mode explained",
+      "how to find the median",
+      "how to find the mean",
+      "what is the mode in maths",
+      "mean median mode range",
+      "median of even numbers",
+      "which average to use"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Maths",
+    "tags": [
+      "Maths",
+      "Statistics",
+      "Students",
+      "Averages"
+    ],
+    "readTime": "9 min read",
+    "featured": false,
+    "tldr": "The mean is the total of the values divided by how many there are. The median is the middle value once the values are sorted, or halfway between the two middle values if there is an even number. The mode is the value that appears most often, and there can be several or none. The range, highest minus lowest, measures spread. Use the median when a few extreme values would distort the mean, which is why pay and house prices are usually reported as medians."
+  },
+  "hero": {
+    "title": "Mean, Median and Mode Explained",
+    "subtitle": "Three ways to describe a typical value, each worked through with checked examples, plus the range, frequency tables, and why one extreme value can make the mean misleading.",
+    "featuredImage": {
+      "url": "/images/blog/mean-median-mode-explained/00-hero.png",
+      "alt": "Mean, median and mode explained: a dot plot of nine quiz scores with each average marked"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Mean, median and mode are three different ways of answering the same question: what is a typical value in this set of numbers? Each gives a different answer, and each is the right one in different situations. Students often learn the three definitions, get them muddled in exams, and never learn the more useful part: which one to trust when you see an \"average\" in the news, a pay report or a school result."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide explains all three, plus the range, with worked examples calculated by Python's statistics module so every answer is checked. It covers the median with an even number of values, what to do when there is more than one mode, why one very large value can make the mean misleading, and the classic exam question where you work backwards from a mean."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The short version",
+        "text": "The mean is the total divided by how many values there are. The median is the middle value once the numbers are sorted. The mode is the value that appears most often. The range, highest minus lowest, measures spread rather than a typical value. Use the median when a few extreme values could distort the mean, as with pay or house prices."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The three averages, with one set of numbers",
+        "id": "three-averages"
+      },
+      {
+        "type": "paragraph",
+        "text": "Take nine quiz scores out of 10: 7, 9, 6, 9, 5, 8, 9, 4, 3. Here are all three averages and the range, worked out by Python:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from statistics import mean, median, mode, multimode\n\nscores = [7, 9, 6, 9, 5, 8, 9, 4, 3]\nprint(\"sorted:\", sorted(scores))\nprint(\"mean:  \", round(mean(scores), 2), \"  (total\", sum(scores), \"/\", len(scores), \"scores)\")\nprint(\"median:\", median(scores), \"     (the middle one of 9)\")\nprint(\"mode:  \", mode(scores), \"     (appears\", scores.count(mode(scores)), \"times)\")\nprint(\"range: \", max(scores) - min(scores), \"     (highest minus lowest)\")",
+        "title": "averages.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "sorted: [3, 4, 5, 6, 7, 8, 9, 9, 9]\nmean:   6.67   (total 60 / 9 scores)\nmedian: 7      (the middle one of 9)\nmode:   9      (appears 3 times)\nrange:  6      (highest minus lowest)",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/mean-median-mode-explained/01-definitions.png",
+        "alt": "Mean, median, mode and range calculated for the scores 7, 9, 6, 9, 5, 8, 9, 4, 3",
+        "caption": "One data set, three different typical values."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Mean:</strong> add all the values and divide by how many there are. The nine scores add up to 60, and 60 &#247; 9 = 6.67. This is what most people mean by \"the average\".",
+          "<strong>Median:</strong> sort the values into order and take the middle one. Sorted, the scores are 3, 4, 5, 6, 7, 8, 9, 9, 9. With nine values the middle is the 5th, which is 7.",
+          "<strong>Mode:</strong> the value that appears most often. 9 appears three times, more than any other score.",
+          "<strong>Range:</strong> the highest value minus the lowest. 9 &#8722; 3 = 6. The range is not an average. It tells you how spread out the data is."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "A rhyme that helps in exams",
+        "text": "\"Hey diddle diddle, the median's the middle; you add and divide for the mean. The mode is the one that appears the most, and the range is the difference between.\" Silly, but students who learn it rarely mix the definitions up."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Finding the median with an even number of values",
+        "id": "median-even"
+      },
+      {
+        "type": "paragraph",
+        "text": "When there is an odd number of values, the median is simply the middle one. When there is an even number, there are two middle values, and the median is halfway between them."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from statistics import median, multimode\n\neven = [3, 8, 5, 12, 10, 6]\nprint(\"sorted:\", sorted(even))\nprint(\"median:\", median(even), \"  (halfway between the two middle values, 6 and 8)\")\n\nprint(\"modes of [2, 3, 3, 5, 5, 7]:\", multimode([2, 3, 3, 5, 5, 7]))\nprint(\"modes of [1, 2, 4, 9]:      \", multimode([1, 2, 4, 9]), \"  (every value once: no useful mode)\")",
+        "title": "median_and_modes.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "sorted: [3, 5, 6, 8, 10, 12]\nmedian: 7.0   (halfway between the two middle values, 6 and 8)\nmodes of [2, 3, 3, 5, 5, 7]: [3, 5]\nmodes of [1, 2, 4, 9]:       [1, 2, 4, 9]   (every value once: no useful mode)",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/mean-median-mode-explained/03-median-even.png",
+        "alt": "Finding the median of an odd-length list and an even-length list, where the median is halfway between the two middle values",
+        "caption": "With an even count, average the two middle values."
+      },
+      {
+        "type": "paragraph",
+        "text": "A quick way to find the middle position: add one to the number of values and halve it. For 9 values, (9 + 1) &#247; 2 = 5, so the 5th value. For 6 values, (6 + 1) &#247; 2 = 3.5, which tells you the median sits between the 3rd and 4th values."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "When there is more than one mode, or none",
+        "id": "modes"
+      },
+      {
+        "type": "paragraph",
+        "text": "A data set can have one mode, several modes, or no useful mode at all. The output above shows [2, 3, 3, 5, 5, 7] has two modes, 3 and 5, because both appear twice. This is called bimodal. If every value appears exactly once, there is no meaningful mode. Some textbooks say \"no mode\" in that case, and it is worth checking which convention your exam board uses."
+      },
+      {
+        "type": "paragraph",
+        "text": "The mode is also the only average that works for data that is not numbers. You cannot find the mean of favourite colours, but you can say the most popular one is blue."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why one extreme value can make the mean misleading",
+        "id": "outliers"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is the most useful idea in the whole topic, because it explains how \"average\" figures in the news can mislead. Imagine eight people working in a small company, and then the owner's pay is added to the list. Salaries are in thousands per year:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from statistics import mean, median\n\nsalaries = [28, 30, 31, 32, 33, 35, 36, 38]        # yearly pay, in thousands\nprint(f\"8 staff:          mean {mean(salaries):6.1f}   median {median(salaries):5.1f}\")\nsalaries.append(400)                               # the owner joins the list\nprint(f\"owner added:      mean {mean(salaries):6.1f}   median {median(salaries):5.1f}\")\nbelow = sum(s < mean(salaries) for s in salaries)\nprint(f\"people earning less than the new mean: {below} of {len(salaries)}\")",
+        "title": "outlier.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "8 staff:          mean   32.9   median  32.5\nowner added:      mean   73.7   median  33.0\npeople earning less than the new mean: 8 of 9",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/mean-median-mode-explained/02-outlier.png",
+        "alt": "Effect of one very large salary on the mean and median: the mean jumps while the median barely moves",
+        "caption": "An outlier drags the mean towards it. The median only cares about the middle."
+      },
+      {
+        "type": "paragraph",
+        "text": "One very large value, an <strong>outlier</strong>, pulled the mean from 32.9 to 73.7, while the median only moved from 32.5 to 33.0. After the owner is added, 8 of the 9 people earn less than the mean. Calling 73.7 the \"average salary\" is technically true and practically useless. This is why official statistics on pay and house prices usually report the median, and why it is worth asking \"which average?\" whenever you see one quoted."
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "Mean or median: always ask",
+        "text": "When a figure is described as \"the average\", it is usually the mean. If the data could contain a few very large values, such as incomes, company sizes or property prices, the median is almost always a better picture of a typical case."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Working backwards from the mean",
+        "id": "working-backwards"
+      },
+      {
+        "type": "paragraph",
+        "text": "A classic exam question gives you the mean and all but one of the values, and asks for the missing one. The trick is to turn the mean back into a total: if the mean of 5 numbers is 12, their total must be 5 &#215; 12 = 60."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# The mean of five numbers is 12. Four of them are 9, 15, 10 and 14. What is the fifth?\nknown = [9, 15, 10, 14]\ntotal_needed = 12 * 5\nfifth = total_needed - sum(known)\nprint(\"total must be\", total_needed, \"-> the fifth number is\", fifth)\nprint(\"check:\", sum(known + [fifth]) / 5)",
+        "title": "missing_value.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "total must be 60 -> the fifth number is 12\ncheck: 12.0",
+        "title": "Output"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Averages from a frequency table",
+        "id": "frequency-tables"
+      },
+      {
+        "type": "paragraph",
+        "text": "Exam questions often give data as a frequency table rather than a list. The idea is the same, but you multiply each value by how often it occurs before adding. Here are the goals scored in 20 football matches:"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Goals in a match",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "rows": [
+          [
+            "Number of matches",
+            "3",
+            "6",
+            "7",
+            "3",
+            "1"
+          ]
+        ]
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# how many goals were scored in 20 matches\ngoals =   [0, 1, 2, 3, 4]\nmatches = [3, 6, 7, 3, 1]\n\ntotal_goals = sum(g * m for g, m in zip(goals, matches))\ntotal_matches = sum(matches)\nprint(\"total goals:\", total_goals, \" matches:\", total_matches)\nprint(\"mean goals per match:\", total_goals / total_matches)\n\n# the median is the average of the 10th and 11th match in order\nin_order = [g for g, m in zip(goals, matches) for _ in range(m)]\nprint(\"10th and 11th values:\", in_order[9], in_order[10], \"-> median\", (in_order[9] + in_order[10]) / 2)\nprint(\"mode:\", goals[matches.index(max(matches))], \"goals (7 matches)\")",
+        "title": "frequency_table.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "total goals: 33  matches: 20\nmean goals per match: 1.65\n10th and 11th values: 2 2 -> median 2.0\nmode: 2 goals (7 matches)",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "For the mean, multiply each number of goals by its frequency and add: 0 + 6 + 14 + 9 + 4 = 33 goals, over 20 matches, so 1.65. For the median, find the 10th and 11th matches in order by counting through the frequencies. For the mode, find the highest frequency: 7 matches had 2 goals."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Which average should you use?",
+        "id": "which-average"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/mean-median-mode-explained/04-which-average.png",
+        "alt": "Table comparing when to use the mean, median and mode, with the strength and weakness of each",
+        "caption": "Each average answers a slightly different question."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Use the mean</strong> when the data has no extreme values and you want every value to count, such as test scores in a class or daily temperatures.",
+          "<strong>Use the median</strong> when a few very large or very small values could distort the picture, such as pay, house prices or waiting times.",
+          "<strong>Use the mode</strong> for categories, or when you want the most common single value, such as the most popular shoe size to stock."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "In data science, analysts check all three routinely, because the gap between the mean and the median is itself a clue that the data is lopsided. It is one of many places where school statistics leads straight into real analytics, as our post on <a href='/blog/data-analytics-math-help-businesses-better-decisions'>how data analytics helps businesses decide</a> explains."
+      },
+      {
+        "type": "quote",
+        "text": "Whenever someone quotes an average, ask which one. The answer tells you a lot about what they want you to believe.",
+        "author": "What we teach in every statistics lesson"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In our <a href='/online-maths-tuition'>live online maths classes</a>, students calculate averages by hand, then check them with a few lines of Python, then look for real examples where the choice of average changes the story. That last step is what makes the topic stick. Classes are one to one or in small groups of 5 to 10, for school syllabuses from primary to <a href='/gcse-maths-tuition-online'>GCSE</a> and Class 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free maths class</a><a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is the difference between mean, median and mode?",
+            "content": "The mean is the total of the values divided by how many there are. The median is the middle value when the values are sorted. The mode is the value that appears most often. They are three different ways of describing a typical value."
+          },
+          {
+            "title": "How do you find the median of an even set of numbers?",
+            "content": "Sort the numbers, find the two values in the middle, add them together and divide by 2. For 3, 5, 6, 8, 10, 12, the middle values are 6 and 8, so the median is 7."
+          },
+          {
+            "title": "Can there be more than one mode?",
+            "content": "Yes. If two or more values share the highest frequency, they are all modes. A data set with two modes is called bimodal. If every value appears only once, there is no useful mode."
+          },
+          {
+            "title": "Which average is best?",
+            "content": "It depends on the data. The mean uses every value but is pulled by extreme values. The median is better when there are outliers, such as pay or house prices. The mode is best for categories and the most common single value."
+          },
+          {
+            "title": "Is the range an average?",
+            "content": "No. The range is the highest value minus the lowest value. It measures how spread out the data is, not what a typical value is, but it is usually taught alongside the averages."
+          },
+          {
+            "title": "How do you find a missing number when you know the mean?",
+            "content": "Multiply the mean by the number of values to get the total, then subtract the values you know. If the mean of five numbers is 12, the total is 60, so the missing number is 60 minus the sum of the other four."
+          },
+          {
+            "title": "Why do news reports use the median for house prices?",
+            "content": "Because a small number of very expensive homes would pull the mean upwards and make typical prices look higher than they are. The median shows the price of the home in the middle, which is closer to what most people pay."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "data-analytics-math-help-businesses-better-decisions",
+    "how-to-get-better-at-maths",
+    "data-science-ai-math-skills-professionals"
+  ]
+}

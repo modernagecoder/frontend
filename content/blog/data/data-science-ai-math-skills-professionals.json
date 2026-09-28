@@ -465,6 +465,10 @@
         "text": "Focus on intuition over computation. You'll rarely calculate derivatives by hand, computers do that. But understanding what a derivative means, why gradient descent works, and how probability distributions behave will make you a better data scientist than memorizing formulas. Start with Khan Academy for foundations, then move to 3Blue1Brown for visual intuition."
       },
       {
+        "type": "paragraph",
+        "text": "Statistics intuition starts with something as simple as choosing the right average. <a href='/blog/mean-median-mode-explained'>Mean, median and mode explained</a> shows, with real numbers, how one outlier can drag a mean while the median barely moves, which is the first thing to check in any new data set."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "Python: The Swiss Army Knife of Data Science"
