@@ -242,6 +242,10 @@
         "text": "Coding helps students understand scientific concepts through simulation and modeling. They can visualize physics, model biological systems, and analyze data, making abstract science concrete."
       },
       {
+        "type": "paragraph",
+        "text": "A classic first simulation is Conway's Game of Life, where four simple rules produce patterns that move and grow. Our guide to <a href='/blog/conways-game-of-life-python'>the Game of Life in Python</a> builds it in about ten lines and uses it to check a famous result from 1970."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "Writing and Communication"

@@ -367,6 +367,10 @@
       },
       {
         "type": "paragraph",
+        "text": "A grid simulation such as Conway's Game of Life is a natural first project in a tool like this. If you want to see the idea first, our guide to <a href='/blog/conways-game-of-life-python'>Conway's Game of Life</a> explains the rules and builds it in Python."
+      },
+      {
+        "type": "paragraph",
         "text": "<strong>Key Features:</strong> Visual, interactive screen with instant feedback, simple way to make objects interact, built-in examples to learn from, easy game and animation creation."
       },
       {

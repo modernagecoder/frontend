@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "slug": "conways-game-of-life-python",
+    "title": "Conway's Game of Life in Python: Rules, Patterns and Code",
+    "description": "Conway's Game of Life: the four rules, a ten-line Python simulation, gliders and oscillators, and the R-pentomino's 1,103 generations, verified.",
+    "keywords": [
+      "conway's game of life",
+      "game of life python",
+      "game of life rules",
+      "cellular automaton",
+      "game of life glider",
+      "r-pentomino",
+      "python projects for beginners"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Programming",
+    "tags": [
+      "Python",
+      "Simulation",
+      "Projects",
+      "Mathematics"
+    ],
+    "readTime": "7 min read",
+    "featured": false,
+    "tldr": "Conway's Game of Life is a grid of cells updated by four rules: a live cell with 2 or 3 live neighbours survives, a dead cell with exactly 3 comes alive, and all others die. Storing live cells in a Python set, the whole simulation fits in about ten lines. Simple rules produce still lifes, oscillators and gliders that walk across the grid. Our simulation confirms the famous result that the 5-cell R-pentomino takes 1,103 generations to settle, ending with 116 cells. The Game of Life is even Turing complete."
+  },
+  "hero": {
+    "title": "Conway's Game of Life in Python: Rules, Patterns and Code",
+    "subtitle": "Four rules, a ten-line simulation, patterns that stay still, pulse and walk, and a five-cell pattern whose chaos lasts 1,103 generations, checked with our own code.",
+    "featuredImage": {
+      "url": "/images/blog/conways-game-of-life-python/00-hero.png",
+      "alt": "Conway's Game of Life: a grid with a glider, a block, a blinker and a small pattern"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Game of Life is not really a game. There are no players and no winning. You set up a grid of cells, some alive and some dead, and then four simple rules decide what happens next, generation after generation. What makes it famous is how much comes out of so little: patterns that stay still, patterns that pulse, patterns that walk across the grid, and patterns that grow chaotically for over a thousand generations before settling down."
+      },
+      {
+        "type": "paragraph",
+        "text": "It was invented by the mathematician John Conway and first shared with the public in Martin Gardner's \"Mathematical Games\" column in <em>Scientific American</em> in October 1970. This guide explains the rules, builds the whole simulation in about ten lines of Python, and uses it to check some of the Game of Life's most famous results for ourselves."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The rules",
+        "id": "rules"
+      },
+      {
+        "type": "paragraph",
+        "text": "Each cell on the grid has eight neighbours: the cells above, below, to the sides and on the diagonals. Every generation, all cells update at the same time:"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Survival:</strong> a live cell with 2 or 3 live neighbours stays alive.",
+          "<strong>Birth:</strong> a dead cell with exactly 3 live neighbours comes alive.",
+          "<strong>Loneliness:</strong> a live cell with fewer than 2 live neighbours dies.",
+          "<strong>Overcrowding:</strong> a live cell with more than 3 live neighbours dies."
+        ]
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/conways-game-of-life-python/01-rules.png",
+        "alt": "The four rules shown on 3 by 3 grids: survival with 2 or 3 neighbours, birth with exactly 3 neighbours, death by loneliness with fewer than 2, death by overcrowding with more than 3",
+        "caption": "The centre cell is outlined in each example."
+      },
+      {
+        "type": "paragraph",
+        "text": "That is the entire rule book. Conway chose these rules carefully, after trying many others, so that patterns would be hard to predict: not so strict that everything dies, and not so generous that everything fills up."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The whole simulation in Python",
+        "id": "code"
+      },
+      {
+        "type": "paragraph",
+        "text": "A neat way to code it is to store only the live cells, as a set of (x, y) coordinates, so the grid can be unlimited in size. For each live cell, count one \"vote\" for each of its eight neighbours. A cell is alive in the next generation if it got exactly 3 votes, or 2 votes and was already alive:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from collections import Counter\n\ndef step(alive):\n    \"\"\"One generation. `alive` is a set of (x, y) cells on an unlimited grid.\"\"\"\n    counts = Counter((x + dx, y + dy)\n                     for x, y in alive\n                     for dx in (-1, 0, 1) for dy in (-1, 0, 1)\n                     if (dx, dy) != (0, 0))\n    return {cell for cell, n in counts.items()\n            if n == 3 or (n == 2 and cell in alive)}",
+        "title": "life.py"
+      },
+      {
+        "type": "paragraph",
+        "text": "The last two lines are the four rules compressed into one condition. Exactly 3 neighbours means birth or survival; 2 neighbours means survival only for cells that were already alive; any other count means dead. Python's <code>Counter</code>, <code>set</code> and a comprehension do all the work, which makes this a lovely example of how much a few well-chosen data structures can express."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Still lifes, oscillators and spaceships",
+        "id": "patterns"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/conways-game-of-life-python/02-gallery.png",
+        "alt": "Three kinds of Game of Life pattern: the block, a still life that never changes; the blinker, an oscillator that flips between horizontal and vertical; and the glider, a spaceship that moves across the grid",
+        "caption": "The three families of patterns people look for."
+      },
+      {
+        "type": "paragraph",
+        "text": "Some patterns never change (<strong>still lifes</strong>), some repeat after a fixed number of steps (<strong>oscillators</strong>), and some repeat in a new position, so they travel across the grid (<strong>spaceships</strong>). We can test three famous examples:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from life import step\n\nblock = {(0, 0), (1, 0), (0, 1), (1, 1)}\nblinker = {(0, 1), (1, 1), (2, 1)}\nglider = {(1, 0), (2, 1), (0, 2), (1, 2), (2, 2)}\n\nprint(\"block unchanged after 1 step:  \", step(block) == block)\nprint(\"blinker back after 2 steps:    \", step(step(blinker)) == blinker, \"(but not after 1:\", step(blinker) == blinker, \")\")\ng = glider\nfor _ in range(4):\n    g = step(g)\nmoved = {(x + 1, y + 1) for x, y in glider}\nprint(\"glider after 4 steps = same shape moved one square diagonally:\", g == moved)",
+        "title": "patterns.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "block unchanged after 1 step:   True\nblinker back after 2 steps:     True (but not after 1: False )\nglider after 4 steps = same shape moved one square diagonally: True",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/conways-game-of-life-python/03-glider.png",
+        "alt": "The glider over five generations: its shape changes through four phases and at generation 4 it is the original shape moved one square down and to the right",
+        "caption": "A shape that walks, though no rule mentions movement."
+      },
+      {
+        "type": "paragraph",
+        "text": "The glider is the star. After four generations it has returned to its original shape, one square further along diagonally, and it will keep going forever on an empty grid. Nothing in the rules mentions movement. Motion simply <em>emerges</em> from cells following local rules, which is the big idea the Game of Life is famous for."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Five cells, 1,103 generations",
+        "id": "r-pentomino"
+      },
+      {
+        "type": "paragraph",
+        "text": "Some tiny starting patterns behave wildly. The R-pentomino has just five cells, and Conway's early experiments found it did not settle down quickly. Let the simulation run and track the population:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from life import step\n\ncells = {(1, 0), (2, 0), (0, 1), (1, 1), (1, 2)}      # the R-pentomino: just 5 cells\nhistory = [len(cells)]\nfor gen in range(1, 1500):\n    cells = step(cells)\n    history.append(len(cells))\n\n# the first generation after which the population never changes again (up to 1,500)\nsettled = next(g for g in range(len(history)) if len(set(history[g:])) == 1)\nprint(f\"starts with {history[0]} cells\")\nprint(f\"largest population: {max(history)} cells, at generation {history.index(max(history))}\")\nprint(f\"population stops changing at generation {settled}, with {history[settled]} cells\")",
+        "title": "rpent.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "starts with 5 cells\nlargest population: 319 cells, at generation 821\npopulation stops changing at generation 1103, with 116 cells",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/conways-game-of-life-python/04-rpent.png",
+        "alt": "Population of the R-pentomino over 1,300 generations: it grows from 5 cells to a peak of 319 at generation 821, fluctuates, and stops changing at generation 1103 with 116 cells",
+        "caption": "Chaos for over a thousand generations, from a starting pattern of five cells."
+      },
+      {
+        "type": "paragraph",
+        "text": "From 5 cells, the population rises to a peak of 319 at generation 821, swings up and down, and only stops changing at generation 1103, with 116 cells. That matches the published account exactly: the R-pentomino takes 1,103 generations to stabilise, ending with a population of 116, and along the way it throws out six gliders that fly off forever. The gliders it produced were the first spaceships ever discovered. Being able to reproduce a famous result with ten lines of your own code is one of the most satisfying things in programming."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "A computer inside the game",
+        "text": "The Game of Life has been proved to be Turing complete: with the right starting pattern, it can in principle compute anything an ordinary computer can. People have built working logic gates, counters and even a pattern that runs Tetris, all from the same four rules. Our guide to <a href='/blog/logic-gates-for-beginners'>logic gates</a> explains the building blocks such machines use."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Ideas to try",
+        "id": "try-it"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "Print the grid as text after each generation, using <code>#</code> for live cells, and watch a glider walk.",
+          "Start from random cells and count how many generations until the population stops changing.",
+          "Find the smallest pattern that keeps growing. (Hint: search online for the Gosper glider gun, which fires a new glider every 30 generations.)",
+          "Change the rules: what happens if birth needs 3 or 6 neighbours? This variant is called HighLife.",
+          "Draw it with a graphics library such as Pygame or turtle so you can watch it animate."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The Game of Life makes a superb coding project at almost any level, because the rules take a minute to learn and the patterns take a lifetime to explore. If you are starting out, our list of <a href='/blog/python-basic-programs-for-beginners'>basic Python programs</a> covers the skills you need first, and our <a href='/blog/how-to-make-a-text-adventure-game-in-python'>text adventure game guide</a> is another good first project."
+      },
+      {
+        "type": "quote",
+        "text": "Four rules, no players, and a universe of behaviour. The Game of Life is the best argument there is for simple rules applied many times."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Game of Life is learning by building at its best, one of the principles on our <a href='/how-we-teach'>how we teach</a> page: students can ship a working simulation in the same lesson they meet the rules. Tracing one generation by hand until every cell can be predicted, then checking against the code, is how the rules really sink in. Our <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> runs one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is Conway's Game of Life?",
+            "content": "A cellular automaton invented by the mathematician John Conway: a grid of cells that are alive or dead, updated each generation by four rules based on how many of each cell's eight neighbours are alive. It has no players; the starting pattern decides everything."
+          },
+          {
+            "title": "What are the rules of the Game of Life?",
+            "content": "A live cell with 2 or 3 live neighbours survives; a dead cell with exactly 3 live neighbours comes alive; every other live cell dies, from loneliness with fewer than 2 neighbours or overcrowding with more than 3."
+          },
+          {
+            "title": "How do you code the Game of Life in Python?",
+            "content": "Store the live cells as a set of coordinates, count how many live neighbours each nearby cell has with a Counter, and keep the cells with exactly 3 neighbours, or 2 if they were already alive. The whole update fits in about ten lines."
+          },
+          {
+            "title": "What is a glider in the Game of Life?",
+            "content": "A five-cell pattern that returns to its original shape every four generations, shifted one square diagonally, so it travels across the grid. It is the most famous spaceship in the Game of Life."
+          },
+          {
+            "title": "Why is the Game of Life famous?",
+            "content": "Because extremely simple rules produce complex, unpredictable behaviour, including moving patterns and even structures that can compute. It is a classic example of emergence, studied in mathematics, computer science and biology."
+          },
+          {
+            "title": "Is the Game of Life Turing complete?",
+            "content": "Yes. It has been shown that suitable patterns can perform any computation a normal computer can, given enough space and time, and people have built working computers and a Tetris game inside it."
+          },
+          {
+            "title": "Is the Game of Life a good coding project for beginners?",
+            "content": "Yes. It uses loops, lists or sets and simple conditions, gives immediate visual results, and can be extended endlessly with graphics, new rules and pattern searches. It suits learners from their early teens upwards."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "logic-gates-for-beginners",
+    "how-to-make-a-text-adventure-game-in-python",
+    "python-basic-programs-for-beginners"
+  ]
+}
