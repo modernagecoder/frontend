@@ -361,7 +361,7 @@ Keep exploring
 
 ## Watch one full hour of real teaching. Free.
 
-Book the demo class. Your child gets a real lesson with a real mentor, you get a stage diagnostic and a live look at CPA teaching, one full hour, free, and nobody asks for a card. If your child does not leave the hour lighter about math, walk away with our thanks.
+Book the demo class. Your child gets a real lesson with a real mentor, you get a stage diagnostic and a live look at CPA teaching, one full hour, free. If your child does not leave the hour lighter about math, walk away with our thanks.
 
 [Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 

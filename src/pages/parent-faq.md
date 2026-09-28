@@ -174,7 +174,7 @@ Still deciding?
 
 ## The unanswered questions? The trial class answers them.
 
-Book a Priority Demo: your child gets a real one-hour lesson, you get every remaining question answered live by the mentor, and nobody asks for a card. The fastest FAQ we have.
+Book a Priority Demo: your child gets a real one-hour lesson, you get every remaining question answered live by the mentor. The fastest FAQ we have.
 
 [Book a Priority Demo](/priority-demo)[WhatsApp a human instead](https://wa.me/919123366161?text=Hi%2C%20I%20have%20a%20question%20about%20your%20classes)
 

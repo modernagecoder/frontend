@@ -334,7 +334,7 @@ Keep exploring
 
 ## Watch one full hour of real teaching. Free.
 
-Book the demo class. Your teen gets a real lesson with a real mentor, you get a diagnostic and an honest course-fit read, one full hour of real IB maths teaching, free, and nobody asks for a card. If your teen does not leave the hour lighter about maths, walk away with our thanks.
+Book the demo class. Your teen gets a real lesson with a real mentor, you get a diagnostic and an honest course-fit read, one full hour of real IB maths teaching, free. If your teen does not leave the hour lighter about maths, walk away with our thanks.
 
 [Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 

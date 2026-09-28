@@ -332,7 +332,7 @@ Keep exploring
 
 ## Watch one full hour of real teaching. Free.
 
-Book the demo class at a Singapore evening hour. Your child gets a real lesson with a real mentor, you get a diagnostic against their level and cohort, one full hour, free, and nobody asks for a card. If your child does not leave the hour lighter about maths, walk away with our thanks.
+Book the demo class at a Singapore evening hour. Your child gets a real lesson with a real mentor, you get a diagnostic against their level and cohort, one full hour, free. If your child does not leave the hour lighter about maths, walk away with our thanks.
 
 [Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 

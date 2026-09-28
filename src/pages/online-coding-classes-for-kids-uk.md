@@ -255,7 +255,7 @@ Keep exploring
 
 ## Watch one full hour of real teaching. Free.
 
-Book the demo class. Your child gets a real lesson with a real mentor, builds something real inside the hour at a UK evening slot, and you get an honest placement on the ladder, and nobody asks for a card. If your child does not leave the hour asking when the next class is, walk away with our thanks.
+Book the demo class. Your child gets a real lesson with a real mentor, builds something real inside the hour at a UK evening slot, and you get an honest placement on the ladder. If your child does not leave the hour asking when the next class is, walk away with our thanks.
 
 [Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 

@@ -26,7 +26,7 @@ The other kindergarten risk is the opposite one: pushing formal, worksheet-shape
 
 Our kindergarten classes thread this needle deliberately. Every idea arrives as a game with real objects, dice, blocks, snacks held up to the camera, and the hour runs as short playful segments: a counting game, a build, a story problem acted out, a movement break with skip-counting. The child experiences play; the mentor is quietly running a curriculum.
 
-And because readiness varies wildly at five, The Priority Demo doubles as an honest readiness read. Some children are ready to fly; some need six more months of unstructured play first, and we say so plainly, because a wrong-time start costs a child more than it earns us.
+And because readiness varies wildly at five, the Priority Demo doubles as an honest readiness read. Some children are ready to fly; some need six more months of unstructured play first, and we say so plainly, because a wrong-time start costs a child more than it earns us.
 
 The complete map
 
@@ -263,7 +263,7 @@ Keep exploring
 
 ## Watch one full hour of real teaching. Free.
 
-Book the demo class. Your child gets a real lesson with a real mentor, you get a diagnostic against the full kindergarten map, and nobody asks for a card. If your child does not leave the hour lighter about math, walk away with our thanks.
+Book the demo class. Your child gets a real lesson with a real mentor, you get a diagnostic against the full kindergarten map. If your child does not leave the hour lighter about math, walk away with our thanks.
 
 [Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
