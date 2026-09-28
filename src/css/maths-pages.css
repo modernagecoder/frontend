@@ -1132,7 +1132,12 @@ html body.mp-root .mp-cta-band .mp-btn-ghost:hover { background: #FBF8F2; color:
 html body.mp-root #callbackSubmitBtn { background: #B45309 !important; }
 html body.mp-root #callbackSubmitBtn:hover { background: #8F3F08 !important; }
 /* small accent text and links: deep amber keeps 4.5:1 on the tinted sections too */
-html body.mp-root a:not(.mp-btn) { color: var(--mp-accent-2); }
+html body.mp-root :is(p, td, dd, .a, .mp-faq .a) a:not(.mp-btn),
+html body.mp-root :is(.mp-section, .mp-answer, .mp-worked) li > a:not(.mp-btn) { color: var(--mp-accent-2); }
+/* components keep their own ink colours */
+html body.mp-root .mp-nav-links a { color: var(--mp-ink-soft); }
+html body.mp-root .mp-nav-links a:hover { color: var(--mp-accent-2); }
+html body.mp-root a.mp-brand, html body.mp-root a.mp-link-card, html body.mp-root a.msu-proj { color: var(--mp-ink); }
 html body.mp-root .mp-worked .tag, html body.mp-root .mp-answer .q, html body.mp-root .mp-eyebrow, html body.mp-root .mp-compare .us { color: var(--mp-accent-2); }
 /* real-proof strip (.msu) faded its text with opacity; give it real colours */
 html body.mp-root .msu-kick { opacity: 1; color: var(--mp-accent-2); }
@@ -1140,3 +1145,6 @@ html body.mp-root .msu-sub, html body.mp-root .msu-pc, html body.mp-root .msu-pb
 html body.mp-root .msu-sub a, html body.mp-root .msu-more a { color: var(--mp-accent-2); }
 html body.mp-root .msu-stars { color: var(--mp-accent); }
 html body.mp-root .msu-card, html body.mp-root .msu-proj { background: var(--mp-surface); border-color: var(--mp-line); }
+/* link cards: label on its own line above the title */
+html body.mp-root .mp-link-card .k { display: block; margin-bottom: .3rem; color: var(--mp-accent-2); }
+html body.mp-root .mp-link-card .t { display: block; font-family: var(--mp-font-head); font-size: 1.05rem; line-height: 1.3; }
