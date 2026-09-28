@@ -1290,3 +1290,4 @@
 .cg-root.cg-rhm  { --cg-accent: #17325C; --cg-accent-soft: rgba(23,50,92,.10); }   /* Rotherham: a deep steel blue (10.27:1 on the darkest paper tint) */
 .cg-root.cg-brn  { --cg-accent: #314C2A; --cg-accent-soft: rgba(49,76,42,.10); }   /* Burnley: a moorland green (7.70:1 on the darkest paper tint) */
 .cg-root.cg-bym  { --cg-accent: #320E5C; --cg-accent-soft: rgba(50,14,92,.10); }   /* Bury: a deep mill-town violet (12.51:1 on the darkest paper tint) */
+.cg-root.cg-hfx  { --cg-accent: #4C461B; --cg-accent-soft: rgba(76,70,27,.10); }   /* Halifax: a dark moorland olive (7.69:1 contrast), chosen by colour distance from recent accents */

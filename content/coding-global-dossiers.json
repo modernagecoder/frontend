@@ -30031,5 +30031,47 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-halifax": {
+    "market": "Halifax",
+    "bodyClass": "cg-hfx",
+    "pageType": "city",
+    "curriculumAuthority": "Calderdale (E08000033), Census 2021 TS001 usual residents 206,631. ONS 2021 BUAs (published): Halifax 88,115; Brighouse 33,160; Elland 15,785; Todmorden 12,970; Shelf and Northowram 9,195; Hebden Bridge 5,225. Huddersfield BUA straddles (366 inside Calderdale) and is excluded.",
+    "localProject": "Nomis TS007A (NM_2020_1) for all 296 England LADs as of April 2023 (TYPE424), 9 calls, bands sum exactly to totals. Nearest centroid on 18 age shares, Euclidean: training 98/296 = 33.1%; leave-one-out 86/296 = 29.1%; majority South East 64/296 = 21.6%; population-weighted LOO 77/296 = 26.0%. LOO recall: London 27/33, SW 16/27, SE 16/64, East 9/45, NW 7/35, EM 5/35, NE 3/12, Yorks 2/15 (Hull, Sheffield), WM 1/30. Calderdale -> SE (12.73) vs Yorks 18.40 (7th of 9). Leeds -> London; Bradford, Kirklees, Wakefield -> NW. 20 to 24 share: York 10.04%, Sheffield 9.14%, Leeds 8.68%, Calderdale 4.90%, Yorks plain centroid 6.08%. Max one-district centroid shift x1000: Yorks 3.59, SE 1.82. Lesson family: nearest-centroid classifier, leave-one-out, baseline, confusion matrix, small-class instability.",
+    "requiredMentions": [
+      "206,631",
+      "88,115",
+      "Brighouse",
+      "Elland",
+      "Todmorden",
+      "Hebden Bridge",
+      "Shelf and Northowram",
+      "centroid",
+      "leave-one-out",
+      "confusion matrix"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Census 2021 TS007A, age by five-year bands, for every English local authority district as of April 2023, via the Nomis API.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?geography=E08000033&measures=20100"
+      },
+      {
+        "claim": "Census 2021 TS001, number of usual residents, Calderdale 206,631, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      }
+    ],
+    "rejectedClaims": [
+      "Why York, Sheffield and Leeds have larger 20 to 24 shares: not measured; not claimed.",
+      "Halifax as the largest town in Calderdale: Huddersfield BUA straddles the boundary; no ranking claimed.",
+      "Sum of the six built-up areas: not published as a total; not added.",
+      "Calderdale rank on any age measure: not claimed.",
+      "Textile, building society or other local history: not read from a source; not claimed.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

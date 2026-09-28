@@ -419,8 +419,9 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 367 | online-coding-and-python-classes-in-wigan (wig, #533C5C) | cg- town page | 2,560 | 1.7% vs online-coding-and-python-classes-in-rochdale | how should a machine learning model see a category? | label vs one-hot encoding, arbitrary codes, category shares | c29ce2bf |
 | 368 | ai-and-programming-classes-in-barnsley (bns, #3A2A4C) | cg- town page | 2,587 | 2.3% vs ai-and-programming-classes-in-grimsby | how surprised is an AI model by data from a different place? | cross-entropy, KL divergence, distribution shift, smoothing, fine-tuning | 044bd609 |
 | 369 | best-coding-and-ai-classes-in-rotherham (rhm, #17325C) | cg- town page | 2,607 | 1.5% vs coding-and-ai-classes-in-west-midlands-region | what does a chatbot's temperature setting do? | softmax with temperature, greedy vs sampled, top-k, output entropy | f1791866 |
-| 370 | vibe-coding-and-ai-agents-classes-in-burnley (brn, #314C2A) | cg- town page | 2,619 | 2.1% vs vibe-coding-and-ai-agents-classes-in-stockton-on-tees | what should an AI agent be allowed to change? | agent permissions, sandbox, read-only originals, audit log, approval | 87abbfd4 |
-| 371 | online-coding-and-python-classes-in-bury (bym, #320E5C) | cg- town page | 2,567 | 1.9% vs online-coding-and-python-classes-in-stafford | how many tool calls should an AI agent spend? | agent tool budget, batching (N+1), measured calls, plan before act | (this commit) |
+| 370 | vibe-coding-and-ai-agents-classes-in-burnley (brn, #314C2A) | cg- town page | 2,619 | 2.1% vs vibe-coding-and-ai-agents-classes-in-stockton-on-tees | what should an AI agent be allowed to change? | agent permissions, sandbox, read-only originals, audit log, approval | 8746ea39 |
+| 371 | online-coding-and-python-classes-in-bury (bym, #320E5C) | cg- town page | 2,567 | 1.9% vs online-coding-and-python-classes-in-stafford | how many tool calls should an AI agent spend? | agent tool budget, batching (N+1), measured calls, plan before act | 93fc3ce8 |
+| 372 | ai-and-programming-classes-in-halifax (hfx, #4C461B) | cg- town page | 3,070 | 1.9% vs ai-and-programming-classes-in-dewsbury | can a model place a district by its ages? | nearest-centroid classifier, leave-one-out, baseline, confusion matrix | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
