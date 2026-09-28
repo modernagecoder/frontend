@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "slug": "how-do-spam-filters-work",
+    "title": "How Do Spam Filters Work? Build a Simple One in Python",
+    "description": "How spam filters work: build a Naive Bayes filter in Python, see what it learns, the mistake it makes, and the false alarm trade-off.",
+    "keywords": [
+      "how do spam filters work",
+      "naive bayes spam filter python",
+      "how does email spam detection work",
+      "machine learning spam filter",
+      "bayesian spam filtering",
+      "laplace smoothing",
+      "false positive spam"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Artificial Intelligence",
+    "tags": [
+      "Machine Learning",
+      "Python",
+      "AI Literacy",
+      "Probability"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "Spam filters learn from labelled examples which words are common in spam and which in normal messages, then combine the evidence from every word in a new message into a spam probability. The classic method, Naive Bayes, needs only word counts and fits in about forty lines of Python. Add-one smoothing stops a single unseen word from wiping out all the evidence. Filters make mistakes when normal messages share words with spam, and choosing the threshold trades false alarms against missed spam."
+  },
+  "hero": {
+    "title": "How Do Spam Filters Work? Build a Simple One in Python",
+    "subtitle": "Train a Naive Bayes filter from scratch, look inside at what it learned, and see the mistake it makes and the trade-off every filter has to choose.",
+    "featuredImage": {
+      "url": "/images/blog/how-do-spam-filters-work/00-hero.png",
+      "alt": "How spam filters work: an envelope with a spam probability meter reading 97 percent"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every day, spam filters quietly move enormous numbers of junk messages out of inboxes without anyone noticing. They are one of the oldest and most successful uses of machine learning, and the classic method behind them is simple enough to build from scratch in about forty lines of Python, using nothing but word counts and a little probability."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide does exactly that. We train a small filter on example messages, test it on messages it has never seen, and look at what it learned, including one genuine mistake it makes and why. Along the way you will meet three ideas that apply to almost every machine learning system: learning from examples, the zero-probability trap, and the trade-off between false alarms and misses."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The idea: learn which words give spam away",
+        "id": "idea"
+      },
+      {
+        "type": "paragraph",
+        "text": "Look at a few spam messages and patterns jump out: \"free\", \"click\", \"claim\", \"winner\", \"now\". Normal messages talk about lunch, homework and football. A spam filter turns that intuition into numbers. For every word, it learns how often it appears in spam and how often in normal messages. For a new message, it combines the evidence from all its words into one probability."
+      },
+      {
+        "type": "paragraph",
+        "text": "The method is called <strong>Naive Bayes</strong>, after Thomas Bayes, whose rule for updating probabilities with new evidence it uses. It is called naive because it treats every word as independent, ignoring word order and context. That is obviously not true of language, yet it works surprisingly well. An influential 2002 essay by the programmer Paul Graham, <em>A Plan for Spam</em>, did much to popularise this approach for email."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 1: examples to learn from",
+        "id": "data"
+      },
+      {
+        "type": "paragraph",
+        "text": "Machine learning starts with labelled examples. Here are 24 short training messages, 12 spam and 12 normal, plus 8 test messages kept separate so we can check the filter honestly. They were written for this example; real filters learn from millions of real messages."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# Short messages written for this example. 1 = spam, 0 = normal (\"ham\").\ntrain = [\n    (\"Congratulations you have won a free prize claim it now\", 1),\n    (\"You are a winner click here to claim your cash prize\", 1),\n    (\"Free gift card waiting click the link now\", 1),\n    (\"Urgent your account is locked click here to verify now\", 1),\n    (\"Claim your free holiday winner selected today\", 1),\n    (\"Earn cash fast from home click now limited offer\", 1),\n    (\"Limited offer free phone for the first 100 winners\", 1),\n    (\"Your parcel is waiting click the link to pay the fee\", 1),\n    (\"Act now to claim your reward before it expires\", 1),\n    (\"Hot deal free trial click here today only\", 1),\n    (\"Verify your password now or your account will close\", 1),\n    (\"You won cash click to collect your prize today\", 1),\n    (\"Are we still meeting for lunch tomorrow\", 0),\n    (\"Can you send me the notes from maths class\", 0),\n    (\"Mum says dinner is at seven tonight\", 0),\n    (\"The coding club meets in room 4 after school\", 0),\n    (\"Thanks for the help with my homework yesterday\", 0),\n    (\"Do not forget your football kit tomorrow\", 0),\n    (\"I finished the Python project, want to see it\", 0),\n    (\"Happy birthday, hope you have a great day\", 0),\n    (\"The bus is late, I will be there in ten minutes\", 0),\n    (\"Can you check my essay before I submit it\", 0),\n    (\"Our team won the match today\", 0),\n    (\"Please bring the library book back on Monday\", 0),\n]\ntest = [\n    (\"Click here now to claim your free prize\", 1),\n    (\"Winner selected claim your cash today\", 1),\n    (\"Your account will close, verify your password here\", 1),\n    (\"Limited free offer for winners click now\", 1),\n    (\"Can we meet after school to finish the project\", 0),\n    (\"See you at football practice tomorrow\", 0),\n    (\"I won the maths quiz today\", 0),\n    (\"Dinner is ready, come home now\", 0),\n]",
+        "title": "messages.py"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 2: train and test the filter",
+        "id": "build"
+      },
+      {
+        "type": "paragraph",
+        "text": "Training is just counting. Classifying multiplies the chances of each word appearing in spam, and compares with the same for normal messages. To avoid numbers so small the computer rounds them to zero, the code adds logarithms instead of multiplying, which gives the same answer safely."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import math, re\nfrom collections import Counter\nfrom messages import train, test\n\ndef words(text):\n    return re.findall(r\"[a-z]+\", text.lower())\n\n# Training: count how often each word appears in spam and in normal messages\ncounts = {1: Counter(), 0: Counter()}\ndocs = Counter()\nfor text, label in train:\n    counts[label].update(words(text))\n    docs[label] += 1\nvocab = set(counts[1]) | set(counts[0])\n\ndef p_word(word, label):\n    # add-one smoothing: a word never seen in this class still gets a small chance\n    return (counts[label][word] + 1) / (sum(counts[label].values()) + len(vocab))\n\ndef spam_probability(text):\n    log_score = {}\n    for label in (1, 0):\n        log_score[label] = math.log(docs[label] / len(train))\n        for w in words(text):\n            log_score[label] += math.log(p_word(w, label))\n    # turn the two scores back into a probability between 0 and 1\n    top = max(log_score.values())\n    s, h = math.exp(log_score[1] - top), math.exp(log_score[0] - top)\n    return s / (s + h)\n\nif __name__ == \"__main__\":\n    print(f\"trained on {len(train)} messages, {len(vocab)} different words\")\n    spammy = sorted(vocab, key=lambda w: p_word(w, 1) / p_word(w, 0), reverse=True)[:6]\n    print(\"most spam-like words:\", \", \".join(spammy))\n\n    correct = 0\n    for text, label in test:\n        p = spam_probability(text)\n        guess = 1 if p > 0.5 else 0\n        correct += guess == label\n        print(f\"{p:6.3f}  {'SPAM' if guess else 'ok  '}  {'right' if guess == label else 'WRONG'}  {text}\")\n    print(f\"test accuracy: {correct} of {len(test)}\")",
+        "title": "bayes.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "trained on 24 messages, 121 different words\nmost spam-like words: click, now, free, claim, your, prize\n 1.000  SPAM  right  Click here now to claim your free prize\n 0.999  SPAM  right  Winner selected claim your cash today\n 0.999  SPAM  right  Your account will close, verify your password here\n 1.000  SPAM  right  Limited free offer for winners click now\n 0.024  ok    right  Can we meet after school to finish the project\n 0.029  ok    right  See you at football practice tomorrow\n 0.145  ok    right  I won the maths quiz today\n 0.835  SPAM  WRONG  Dinner is ready, come home now\ntest accuracy: 7 of 8",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-do-spam-filters-work/01-words.png",
+        "alt": "Words the filter found most spam-like: click, now, free, claim, your, prize, each shown with how often it appears in spam versus normal messages",
+        "caption": "The filter was never told these words matter. It worked it out from the examples."
+      },
+      {
+        "type": "paragraph",
+        "text": "From just 24 examples the filter picked out <strong>click, now, free, claim, your</strong> as the strongest signs of spam. Nobody told it; it counted. On the 8 test messages it got 7 of 8 right."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-do-spam-filters-work/02-results.png",
+        "alt": "Spam probabilities for eight unseen messages: the four spam messages score above 0.99, three normal messages score low, and \"Dinner is ready, come home now\" wrongly scores 0.83",
+        "caption": "The highlighted message is a false alarm, and it is an instructive one."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The mistake, and what it teaches",
+        "id": "mistake"
+      },
+      {
+        "type": "paragraph",
+        "text": "The filter marked \"Dinner is ready, come home now\" as spam with a probability of 0.83. Why? The word \"now\" appeared in many spam training messages (\"click now\", \"act now\") and never in a normal one. The filter has no idea that \"come home now\" is a perfectly ordinary thing to say. It only knows word counts."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is how machine learning goes wrong in general: the model learns patterns from its training data, including accidental ones. More varied training data would fix this particular mistake, because real normal messages use \"now\" all the time. Our post on <a href='/blog/why-do-machine-learning-models-make-mistakes'>why machine learning models make mistakes</a> explores this with more experiments."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The zero-probability trap",
+        "id": "smoothing"
+      },
+      {
+        "type": "paragraph",
+        "text": "One detail in the code matters more than it looks: the <code>+ 1</code> in <code>p_word</code>. Without it, a word that never appeared in spam during training gets a probability of exactly zero, and multiplying by zero wipes out every other piece of evidence:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import re\nfrom collections import Counter\nfrom messages import train\n\ncounts = {1: Counter(), 0: Counter()}\nfor text, label in train:\n    counts[label].update(re.findall(r\"[a-z]+\", text.lower()))\nvocab = set(counts[1]) | set(counts[0])\n\ndef p_raw(word, label):          # no smoothing\n    return counts[label][word] / sum(counts[label].values())\n\ndef p_smooth(word, label):       # add-one smoothing\n    return (counts[label][word] + 1) / (sum(counts[label].values()) + len(vocab))\n\nmessage = \"click here to claim your free prize for your homework\"\nfor name, p in [(\"without smoothing\", p_raw), (\"with smoothing\", p_smooth)]:\n    spam = ham = 0.5\n    for w in message.split():\n        spam *= p(w, 1)\n        ham *= p(w, 0)\n    verdict = \"SPAM\" if spam > ham else \"ok\"\n    print(f\"{name:<18} spam score {spam:.3g}  normal score {ham:.3g}  -> {verdict}\")\nprint(\"'homework' seen in spam:\", counts[1][\"homework\"], \"times\")",
+        "title": "smoothing.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "without smoothing  spam score 0  normal score 0  -> ok\nwith smoothing     spam score 4.5e-18  normal score 9.9e-23  -> SPAM\n'homework' seen in spam: 0 times",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-do-spam-filters-work/03-smoothing.png",
+        "alt": "Without smoothing, the word homework, never seen in spam, makes the spam score exactly zero and wipes out every other clue; with add-one smoothing every word keeps a small chance and the message is correctly marked spam",
+        "caption": "One unfamiliar word should weaken the evidence, not erase it."
+      },
+      {
+        "type": "paragraph",
+        "text": "Without smoothing, both scores collapse to zero and the filter cannot decide, so a spam message slips through just by mentioning homework. Adding one imaginary sighting of every word to each class, called <strong>add-one</strong> or <strong>Laplace smoothing</strong>, fixes it. The same trick appears throughout machine learning whenever a model meets something it has never seen."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "False alarms versus misses",
+        "id": "threshold"
+      },
+      {
+        "type": "paragraph",
+        "text": "A filter outputs a probability, but it still has to decide: above what value do we call it spam? That choice is a trade-off:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from bayes import spam_probability\nfrom messages import test\n\nfor threshold in (0.5, 0.9, 0.999):\n    false_alarms = sum(spam_probability(t) > threshold and label == 0 for t, label in test)\n    missed = sum(spam_probability(t) <= threshold and label == 1 for t, label in test)\n    print(f\"threshold {threshold}: {false_alarms} normal message(s) flagged, {missed} spam missed\")",
+        "title": "threshold.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "threshold 0.5: 1 normal message(s) flagged, 0 spam missed\nthreshold 0.9: 0 normal message(s) flagged, 0 spam missed\nthreshold 0.999: 0 normal message(s) flagged, 1 spam missed",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-do-spam-filters-work/04-threshold.png",
+        "alt": "Effect of the spam threshold on the test messages: at 0.5 one normal message is flagged and no spam missed; at 0.9 nothing is flagged wrongly and nothing missed; at 0.999 no false alarms but one spam missed",
+        "caption": "On a real inbox, losing a real message is usually worse than letting one spam through."
+      },
+      {
+        "type": "paragraph",
+        "text": "At 0.5 the dinner message is wrongly flagged. At 0.9 everything is right on this small test set. Push the bar to 0.999 and a real spam message slips through. Real email services lean towards caution, because a lost job offer or school message costs far more than one extra junk email. It is the same false alarm problem that makes <a href='/blog/do-ai-detectors-work'>AI detectors</a> unreliable, and it comes straight from <a href='/blog/probability-for-beginners'>basic probability</a>."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "How real spam filters differ",
+        "text": "Modern email services use much larger machine learning models, trained on huge numbers of messages, and combine the words with other signals such as the sender's reputation, links in the message and how other users have reported similar mail. The ideas in this post, learning from labelled examples and balancing false alarms against misses, still sit at the core."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Try it yourself",
+        "id": "try-it"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "Copy the three files and run <code>bayes.py</code>.",
+          "Add a few normal messages that use \"now\" and retrain. Does the dinner message stop being flagged?",
+          "Write a spam message designed to fool the filter, using only normal-looking words. What does that tell you about spammers?",
+          "Print the 6 most <em>normal</em> words, the ones most likely in normal messages."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "A spam filter does not understand language. It counts, and it is very good at counting."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "A spam filter is a good example of two principles on our <a href='/how-we-teach'>how we teach</a> page. Learning by building: forty lines of code teach more about machine learning than a page of definitions. And mistakes are data, not failures, which is exactly how the dinner-message false alarm should be read. Our <a href='/ai-ml-course-for-teens'>AI and machine learning course for teens</a> runs one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How do spam filters work?",
+            "content": "They learn from labelled examples which words and features are common in spam and which are common in normal messages. For a new message, they combine the evidence into a probability of spam and move it to the spam folder if that probability is above a threshold."
+          },
+          {
+            "title": "What is a Naive Bayes spam filter?",
+            "content": "It is a classic filter that uses Bayes' rule to combine the probability of each word appearing in spam and in normal messages. It is called naive because it treats every word as independent, ignoring order and context, yet it works well in practice."
+          },
+          {
+            "title": "Why do real emails sometimes end up in spam?",
+            "content": "Because the filter judges patterns, not meaning. A normal message that happens to use words common in spam, like our example with the word now, can get a high spam score. That is called a false positive."
+          },
+          {
+            "title": "What is Laplace smoothing?",
+            "content": "It adds one imaginary count of every word to each class, so no word ever has a probability of exactly zero. Without it, one word the filter has not seen in spam would wipe out all the other evidence."
+          },
+          {
+            "title": "Is a spam filter artificial intelligence?",
+            "content": "Yes, a spam filter is a classic example of machine learning, a branch of AI where a system learns patterns from examples rather than following rules written by hand."
+          },
+          {
+            "title": "Can I build a spam filter in Python?",
+            "content": "Yes. A simple Naive Bayes filter needs only word counts, a dictionary and some probability, about forty lines of Python, as shown in this post. It is a good first machine learning project."
+          },
+          {
+            "title": "Why do spam filters use probabilities instead of rules?",
+            "content": "Spammers constantly change their wording, so fixed rules go out of date quickly. A probability-based filter can be retrained on new examples and weighs many clues together instead of relying on any single word."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "why-do-machine-learning-models-make-mistakes",
+    "probability-for-beginners",
+    "do-ai-detectors-work"
+  ]
+}

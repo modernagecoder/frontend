@@ -113,6 +113,10 @@
       },
       {
         "type": "paragraph",
+        "text": "A spam filter is the classic first example of such a system. Our guide to <a href='/blog/how-do-spam-filters-work'>how spam filters work</a> builds one from word counts and probability, then tunes the balance between false alarms and missed spam."
+      },
+      {
+        "type": "paragraph",
         "text": "Their typical work includes:"
       },
       {
