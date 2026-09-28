@@ -403,7 +403,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 351 | online-coding-and-python-classes-in-maidstone (mds, #5C2944) | cg- town page | 2,785 | 1.4% vs coding-classes-in-somerset | does a writer repeat himself, and can code prove it? | text reuse detection via n-gram inverted index, threshold, source verification | 850af215 |
 | 352 | ai-and-programming-classes-in-gillingham (gil, #3E3E8A) | cg- town page | 2,680 | 2.5% vs online-coding-and-python-classes-in-rochdale | were Adams's miles wrong, or was his Gillingham elsewhere? | systematic error: scale vs offset via ratios and differences, collinearity | 57b48ee9 |
 | 353 | best-coding-and-ai-classes-in-st-helens (sth, #205C24) | cg- town page | 2,671 | 2.8% vs best-coding-and-ai-classes-in-worthing | when did the busiest station really change? | rank change under level shifts, within-year ratio robustness, concentration | 33d207ed |
-| 354 | vibe-coding-and-ai-agents-classes-in-west-bromwich (wbr, #6B4030) | cg- town page | 2,846 | 1.2% vs ai-and-programming-classes-in-gateshead | can you trust an AI agent you vibe coded? | tool-using agent, straddling areas, total-bound guardrail | (this commit) |
+| 354 | vibe-coding-and-ai-agents-classes-in-west-bromwich (wbr, #6B4030) | cg- town page | 2,846 | 1.2% vs ai-and-programming-classes-in-gateshead | can you trust an AI agent you vibe coded? | tool-using agent, straddling areas, total-bound guardrail | 1764cb11 |
+| 355 | online-coding-and-python-classes-in-eastbourne (eas, #48205C) | cg- town page | 2,764 | 2.4% vs best-coding-and-ai-classes-in-worthing | can one artificial neuron learn which months bring frost? | perceptron, feature scaling, non-separability, baseline, time split | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

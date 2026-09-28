@@ -29335,5 +29335,49 @@
       "Named schools and school term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-eastbourne": {
+    "market": "Eastbourne",
+    "bodyClass": "cg-eas",
+    "pageType": "city",
+    "curriculumAuthority": "Eastbourne (E07000061). Nomis Census 2021 TS007A: total 101,685; 20 to 24 5,225 (5.1%, England 6.0%); 25 to 29 5,639 (5.5%, 6.6%); 70 to 74 6,529 (6.4%, 5.0%); 75 to 79 4,876 (4.8%, 3.6%); 80 to 84 3,680 (3.6%, 2.5%); 85 and over 4,045 (4.0%, 2.4%). ONS 2021 BUAs: Eastbourne 99,180; Crumbles 3,055. OS Open Names: Hampden Park, Langney, Meads in Eastbourne district. Met Office historic station data, Eastbourne: \"Location: 561100E 98300N, Lat 50.762 Lon 0.285, 7 metres amsl\"; monthly from 1959; * estimated; Provisional; # Kipp & Zonen sensor.",
+    "localProject": "812 months (1959-01 to 2026-08), 8 provisional dropped, 88 estimate-marked, 804 usable; frost month = af >= 1. Train 1959-2004 552 (173 frost; baseline 68.7%); test 2005-2025 252 (62 frost; baseline 75.4%). Perceptron tmin+sun raw 81.9/79.4, scaled 91.8/89.7, never converges (62 errors on pass 100, min 56). Rule tmin <= 5.2 degC 90.0/91.3. Lesson family: perceptron, feature scaling, non-separability, baseline, simple-rule comparison, time split.",
+    "requiredMentions": [
+      "101,685",
+      "99,180",
+      "Crumbles",
+      "Hampden Park",
+      "Langney",
+      "Meads",
+      "perceptron",
+      "air frost",
+      "artificial neuron"
+    ],
+    "sources": [
+      {
+        "claim": "Nomis Census 2021 TS007A age by five-year bands, Eastbourne and England.",
+        "url": "https://www.nomisweb.co.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area populations and OA to BUA lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Met Office historic station data, Eastbourne.",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/eastbournedata.txt"
+      },
+      {
+        "claim": "OS Open Names places in Eastbourne district, via postcodes.io.",
+        "url": "https://postcodes.io/"
+      }
+    ],
+    "rejectedClaims": [
+      "Beachy Head: excluded under the cluster content rules; not mentioned.",
+      "Sunshine records or \"sunniest town\" claims: not read from a source; not claimed.",
+      "Why the test years have fewer frost months: not analysed; not claimed.",
+      "Pier, bandstand and tennis history: not read from a source; not claimed.",
+      "Named schools and school term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
