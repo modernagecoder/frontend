@@ -168,6 +168,10 @@
       },
       {
         "type": "paragraph",
+        "text": "Those Redstone circuits are built from the same logic gates as a real computer: AND, OR and NOT. Our guide to <a href='/blog/logic-gates-for-beginners'>logic gates for beginners</a> shows how a few of them combine into a circuit that adds binary numbers, the same idea behind Redstone calculators."
+      },
+      {
+        "type": "paragraph",
         "text": "Kids who get deep into Redstone start thinking like engineers. They troubleshoot why their contraption isn't working, optimize their designs, and learn concepts like AND gates, OR gates, and signal delays. It's basically electronics without the soldering iron."
       },
       {

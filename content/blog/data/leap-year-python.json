@@ -133,6 +133,10 @@
         "text": "We can use Python's logical operators, <code>and</code> and <code>or</code>, to combine all three calendar rules into a single, clean line of code."
       },
       {
+        "type": "paragraph",
+        "text": "These operators are the software version of the logic gates inside every processor. If you want to see how AND, OR and NOT work in hardware, and how they add numbers, read our guide to <a href='/blog/logic-gates-for-beginners'>logic gates for beginners</a>."
+      },
+      {
         "type": "code",
         "language": "python",
         "code": "def is_leap_year(year):\n    # A year is a leap year if it is divisible by 4 AND NOT 100, OR if it is divisible by 400.\n    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):\n        return True\n    else:\n        return False\n\n# You can even shrink the function down to just returning the evaluated boolean:\n# return (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)"

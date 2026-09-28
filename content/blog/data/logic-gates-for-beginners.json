@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "slug": "logic-gates-for-beginners",
+    "title": "Logic Gates for Beginners: AND, OR, NOT and a Binary Adder",
+    "description": "Logic gates and truth tables for beginners, then a working binary adder built from gates in Python and checked against all 256 pairs.",
+    "keywords": [
+      "logic gates",
+      "logic gates for beginners",
+      "truth tables",
+      "and or not gates",
+      "half adder",
+      "full adder",
+      "how do computers add numbers",
+      "nand universal gate",
+      "gcse logic gates"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Programming",
+    "tags": [
+      "Computer Science",
+      "GCSE",
+      "Binary",
+      "Python"
+    ],
+    "readTime": "7 min read",
+    "featured": false,
+    "tldr": "Logic gates take inputs of 0 or 1 and output 0 or 1 by a simple rule: AND needs both inputs to be 1, OR needs at least one, NOT flips its input, and XOR needs the inputs to differ. A truth table lists every input combination. An XOR gate and an AND gate together make a half adder, which adds two bits; chaining full adders adds whole binary numbers, and our 4-bit adder built from gates was correct for all 256 pairs. NAND alone can build every other gate."
+  },
+  "hero": {
+    "title": "Logic Gates for Beginners: AND, OR, NOT and a Binary Adder",
+    "subtitle": "The basic gates and their truth tables, then a real circuit that adds binary numbers, built from gates in Python and tested against every possible input.",
+    "featuredImage": {
+      "url": "/images/blog/logic-gates-for-beginners/00-hero.png",
+      "alt": "Logic gates for beginners: symbols for the AND, OR and NOT gates"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every calculation a computer does, from adding two numbers to running a game, comes down to billions of tiny switches called transistors, wired together into <strong>logic gates</strong>. A logic gate takes one or two inputs that are either 1 (on, true) or 0 (off, false) and produces a single output according to a simple rule. Put enough of them together and you get arithmetic, memory and, eventually, a whole processor."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide covers the basic gates and their truth tables, then builds something real from them: a circuit that adds binary numbers. Every gate and circuit is written in Python and tested, including an adder checked against all 256 possible pairs of 4-bit numbers. Logic gates are part of GCSE, IGCSE and Class 11 computer science, and this is a good way to understand them rather than just memorise the tables."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The basic gates",
+        "id": "gates"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>AND:</strong> the output is 1 only if both inputs are 1. \"I will go out if it is sunny AND I have finished my homework.\"",
+          "<strong>OR:</strong> the output is 1 if at least one input is 1. \"The alarm sounds if the door OR the window opens.\"",
+          "<strong>NOT:</strong> one input, and the output is the opposite. 1 becomes 0 and 0 becomes 1.",
+          "<strong>XOR (exclusive OR):</strong> the output is 1 if the inputs are different. \"Either one, but not both.\""
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "A <strong>truth table</strong> lists every possible combination of inputs and the output for each. With two inputs there are only four combinations, so a whole gate fits in four rows. Python's <code>&amp;</code>, <code>|</code> and <code>^</code> operators work on 0s and 1s exactly like AND, OR and XOR:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from itertools import product\n\ndef AND(a, b): return a & b\ndef OR(a, b):  return a | b\ndef NOT(a):    return 1 - a\ndef XOR(a, b): return a ^ b\n\nprint(\" A B | AND OR XOR\")\nfor a, b in product([0, 1], repeat=2):\n    print(f\" {a} {b} |  {AND(a, b)}   {OR(a, b)}   {XOR(a, b)}\")",
+        "title": "gates.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "A B | AND OR XOR\n 0 0 |  0   0   0\n 0 1 |  0   1   1\n 1 0 |  0   1   1\n 1 1 |  1   1   0",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/logic-gates-for-beginners/01-tables.png",
+        "alt": "Truth tables for AND, OR, XOR and NOT: AND outputs 1 only for inputs 1 and 1; OR outputs 1 unless both inputs are 0; XOR outputs 1 when the inputs differ; NOT flips its single input",
+        "caption": "Four rows describe a two-input gate completely."
+      },
+      {
+        "type": "paragraph",
+        "text": "The same logic appears in every programming language as <code>and</code>, <code>or</code> and <code>not</code> in if statements. Boolean logic is named after George Boole, who described this algebra of true and false in the mid-1800s. In 1937, Claude Shannon showed that electrical switching circuits could carry it out, which is the idea every digital computer is built on."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Adding two bits: the half adder",
+        "id": "half-adder"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is where gates become arithmetic. In <a href='/blog/binary-numbers-explained'>binary</a>, adding two single bits gives: 0 + 0 = 0, 0 + 1 = 1, 1 + 0 = 1, and 1 + 1 = 10 (that is 2, written as a 0 with a 1 carried). Look at the two output columns: the sum bit is 1 exactly when the inputs differ, which is XOR, and the carry is 1 only when both are 1, which is AND."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/logic-gates-for-beginners/02-half-adder.png",
+        "alt": "Half adder circuit: inputs A and B feed an XOR gate producing the sum bit and an AND gate producing the carry bit; 1 plus 1 gives sum 0 carry 1",
+        "caption": "Two gates are enough to add two bits."
+      },
+      {
+        "type": "paragraph",
+        "text": "That pair of gates is called a <strong>half adder</strong>. It is \"half\" because it cannot accept a carry coming in from the column to its right. A <strong>full adder</strong> fixes that by using two half adders and an OR gate, so it adds three bits: A, B and the incoming carry."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Adding whole numbers: the ripple-carry adder",
+        "id": "adder"
+      },
+      {
+        "type": "paragraph",
+        "text": "Line up four full adders, one per column, and pass each carry to the next column on the left, exactly like column addition on paper. The code below builds this adder from nothing but AND, OR and XOR, then checks it against Python's own addition for every pair of numbers from 0 to 15:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def AND(a, b): return a & b\ndef OR(a, b):  return a | b\ndef XOR(a, b): return a ^ b\n\ndef half_adder(a, b):\n    return XOR(a, b), AND(a, b)                  # (sum bit, carry)\n\ndef full_adder(a, b, carry_in):\n    s1, c1 = half_adder(a, b)\n    s2, c2 = half_adder(s1, carry_in)\n    return s2, OR(c1, c2)\n\ndef add_4bit(x, y):\n    \"\"\"Add two 4-bit numbers using only the gates above.\"\"\"\n    carry, result = 0, 0\n    for i in range(4):                           # rightmost bit first\n        bit, carry = full_adder((x >> i) & 1, (y >> i) & 1, carry)\n        result |= bit << i\n    return result, carry\n\ntotal, overflow = add_4bit(6, 7)\nprint(f\"0110 + 0111 = {total:04b} (that is 6 + 7 = {total}), carry out {overflow}\")\n\ntotal, overflow = add_4bit(9, 8)\nprint(f\"1001 + 1000 = {total:04b} with carry out {overflow}: 17 does not fit in 4 bits\")\n\nwrong = [(x, y) for x in range(16) for y in range(16)\n         if add_4bit(x, y)[0] + 16 * add_4bit(x, y)[1] != x + y]\nprint(f\"checked all 256 pairs of 4-bit numbers: {len(wrong)} wrong\")",
+        "title": "adder.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "0110 + 0111 = 1101 (that is 6 + 7 = 13), carry out 0\n1001 + 1000 = 0001 with carry out 1: 17 does not fit in 4 bits\nchecked all 256 pairs of 4-bit numbers: 0 wrong",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/logic-gates-for-beginners/03-ripple.png",
+        "alt": "Ripple-carry addition of 6 (0110) and 7 (0111): each column's full adder produces a sum bit and passes its carry left, giving 1101, which is 13",
+        "caption": "The carry ripples from right to left, one full adder at a time."
+      },
+      {
+        "type": "paragraph",
+        "text": "6 + 7 comes out as 1101, which is 13, and all 256 pairs are correct. The second example shows <strong>overflow</strong>: 9 + 8 = 17 needs 5 bits, so a 4-bit adder keeps only 0001 and sets the carry-out flag. Real processors add 64-bit numbers with faster designs than this, but the building blocks are the same gates."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "Overflow is a real bug",
+        "text": "When a result is too big for the number of bits available, it wraps around. That is why many programming languages have maximum values for whole numbers. Python hides this by growing its numbers automatically, but languages like C, Java and many games do not, which occasionally causes famous glitches such as scores or counters wrapping back to zero or to a negative number."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "NAND: one gate to build them all",
+        "id": "nand"
+      },
+      {
+        "type": "paragraph",
+        "text": "A NAND gate (NOT AND) outputs 0 only when both inputs are 1. Remarkably, every other gate can be built from NAND gates alone, which makes it a <strong>universal gate</strong>. That matters in practice, because chip makers can build whole circuits from one very efficient design."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from itertools import product\n\ndef NAND(a, b):\n    return 1 - (a & b)\n\n# Every other gate, built from NAND alone\ndef NOT(a):    return NAND(a, a)\ndef AND(a, b): return NOT(NAND(a, b))\ndef OR(a, b):  return NAND(NOT(a), NOT(b))\ndef XOR(a, b):\n    n = NAND(a, b)\n    return NAND(NAND(a, n), NAND(b, n))\n\nok = all(AND(a, b) == (a & b) and OR(a, b) == (a | b) and XOR(a, b) == (a ^ b)\n         for a, b in product([0, 1], repeat=2)) and NOT(0) == 1 and NOT(1) == 0\nprint(\"NOT, AND, OR and XOR built only from NAND:\", \"all correct\" if ok else \"WRONG\")",
+        "title": "nand.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "NOT, AND, OR and XOR built only from NAND: all correct",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/logic-gates-for-beginners/04-nand.png",
+        "alt": "Every gate built from NAND alone: NOT needs 1 NAND gate, AND needs 2, OR needs 3 and XOR needs 4",
+        "caption": "Our construction; circuit designers sometimes find cheaper ones."
+      },
+      {
+        "type": "paragraph",
+        "text": "NOT is a NAND with both inputs joined together. AND is NAND followed by NOT. OR uses NOT on each input, then NAND. XOR takes four NANDs. The code tests every one against its truth table. NOR (NOT OR) is also universal."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Exam tips",
+        "id": "exam-tips"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Learn the rules, not just the tables.</strong> \"AND needs both, OR needs at least one, XOR needs exactly one\" lets you rebuild any table in seconds.",
+          "<strong>Work through circuits one gate at a time</strong>, writing the output of each gate before moving on. Add a column to the truth table for each intermediate result.",
+          "<strong>Count the rows:</strong> 2 inputs means 4 rows, 3 inputs means 8, n inputs means 2<sup>n</sup>.",
+          "<strong>Know the symbols</strong> used by your exam board, and the notation for expressions such as A AND (NOT B)."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "A computer is billions of switches following three simple rules. Everything else is how they are wired together."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Logic gates reward a principle on our <a href='/how-we-teach'>how we teach</a> page: tracing line by line until every step can be predicted. Working through a circuit gate by gate, writing each output before moving on, is exactly that. Learning by building helps too: a working adder made from gates makes binary arithmetic concrete. Our <a href='/uk-gcse-computer-science-tutoring'>GCSE computer science tutoring</a> runs one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What are logic gates?",
+            "content": "Logic gates are tiny circuits that take one or two inputs, each 0 or 1, and produce an output by a fixed rule. AND, OR and NOT are the basic ones. Combined in large numbers, they let computers do arithmetic and make decisions."
+          },
+          {
+            "title": "What is a truth table?",
+            "content": "A table listing every possible combination of inputs to a gate or circuit, and the output for each. A two-input gate has 4 rows; a circuit with n inputs has 2 to the power n rows."
+          },
+          {
+            "title": "What is the difference between OR and XOR?",
+            "content": "OR outputs 1 if at least one input is 1, including when both are. XOR outputs 1 only when the inputs are different, so it gives 0 when both inputs are 1."
+          },
+          {
+            "title": "How do computers add numbers using logic gates?",
+            "content": "A half adder uses an XOR gate for the sum bit and an AND gate for the carry. Full adders also accept an incoming carry, and chaining one per bit, passing each carry to the next, adds whole binary numbers."
+          },
+          {
+            "title": "Why is NAND called a universal gate?",
+            "content": "Because any other logic gate, and therefore any digital circuit, can be built using only NAND gates. NOR gates are universal too."
+          },
+          {
+            "title": "Are logic gates in the GCSE computer science syllabus?",
+            "content": "Yes. GCSE computer science specifications from the major exam boards include logic gates, truth tables and simple logic circuits, and they also appear in IGCSE and Class 11 CBSE and ICSE computer science."
+          },
+          {
+            "title": "How are logic gates made?",
+            "content": "In modern chips, each gate is made from a few transistors, microscopic electronic switches. A modern processor contains billions of transistors."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "binary-numbers-explained",
+    "how-do-computers-store-images",
+    "what-is-an-algorithm"
+  ]
+}
