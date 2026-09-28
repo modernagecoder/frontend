@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap");
 /* ============================================================
    maths-pages.css, shared base for Modern Age Coders maths
    landing pages. Theme-neutral. Each page sets a body theme
@@ -1055,3 +1056,87 @@ ul, ol { color: var(--mp-ink-soft); }
 .mp-grade12 .mp-hero { background:
   radial-gradient(700px 460px at 88% -6%, #10b981 0%, transparent 44%),
   radial-gradient(640px 420px at 4% 110%, #1e3a8a 0%, transparent 52%), var(--mp-hero-bg); }
+
+
+/* ============================================================
+   BRAND UNIFICATION (owner, 2026-09-28)
+   Every maths-template page now wears the site brand: warm paper,
+   ink, amber, Fraunces + Inter (see editorial-theme.css tokens).
+   "html body.mp-root" (0,1,2) outranks every per-page theme above
+   (.mp-xxx at 0,1,0 and .mp-xxx .mp-hero at 0,2,0), so the themes
+   stay in the file as history but no longer paint anything.
+   To bring a page's own palette back, delete this block.
+   ============================================================ */
+html body.mp-root {
+  --mp-bg: #FBF8F2; --mp-bg-alt: #F4EEE3; --mp-surface: #FFFFFF;
+  --mp-ink: #1C1814; --mp-ink-soft: #3A332C; --mp-muted: #6B6259; --mp-line: rgba(28,24,20,.12);
+  --mp-accent: #B45309; --mp-accent-2: #8F3F08; --mp-accent-soft: #FDF1E3; --mp-on-accent: #FFFFFF;
+  --mp-hero-bg: #FBF8F2; --mp-hero-ink: #1C1814; --mp-hero-muted: #3A332C;
+  --mp-font-head: "Fraunces", Georgia, "Times New Roman", serif;
+  --mp-font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mp-font-mono: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+  --mp-radius: 16px; --mp-radius-sm: 12px;
+  --mp-shadow: 0 1px 2px rgba(28,24,20,.04), 0 8px 24px -16px rgba(28,24,20,.22);
+  --mp-shadow-lg: 0 24px 50px -30px rgba(28,24,20,.40);
+  background: var(--mp-bg); color: var(--mp-ink);
+}
+/* one heading voice everywhere */
+html body.mp-root h1, html body.mp-root h2, html body.mp-root h3, html body.mp-root h4 {
+  font-family: var(--mp-font-head); font-weight: 600; letter-spacing: -.02em; color: var(--mp-ink);
+}
+html body.mp-root h1 { font-size: clamp(2.2rem, 1.4rem + 3.4vw, 3.7rem); line-height: 1.05; letter-spacing: -.03em; }
+html body.mp-root .mp-eyebrow { color: var(--mp-accent-2); }
+
+/* hero: light paper like the homepage, no per-page gradients or glyphs */
+html body.mp-root .mp-hero { background: var(--mp-bg); color: var(--mp-ink); border-bottom: 1px solid var(--mp-line); }
+html body.mp-root .mp-hero::before, html body.mp-root .mp-hero::after { content: none; display: none; }
+html body.mp-root .mp-hero h1 { color: var(--mp-ink); }
+html body.mp-root .mp-hero .mp-lede { color: var(--mp-ink-soft); }
+html body.mp-root .mp-hero .grad { color: var(--mp-accent); font-style: italic; }
+html body.mp-root .mp-pill { background: var(--mp-accent-soft); color: var(--mp-accent-2); border: 1px solid rgba(180,83,9,.2); }
+html body.mp-root .mp-trust { background: var(--mp-line); border: 1px solid var(--mp-line); }
+html body.mp-root .mp-trust .item { background: var(--mp-surface); }
+html body.mp-root .mp-trust .v { color: var(--mp-ink); }
+html body.mp-root .mp-trust .v .u, html body.mp-root .mp-trust .l { color: var(--mp-muted); }
+
+/* nav: calm paper bar */
+html body.mp-root .mp-nav { background: rgba(251,248,242,.92); border-bottom-color: var(--mp-line); }
+html body.mp-root .mp-brand { color: var(--mp-ink); }
+
+/* buttons: brand shape (12px radius, flat amber) */
+html body.mp-root .mp-btn { border-radius: 12px; min-height: 48px; justify-content: center; }
+html body.mp-root .mp-btn-primary { background: var(--mp-accent); color: #fff; box-shadow: none; }
+html body.mp-root .mp-btn-primary:hover { background: var(--mp-accent-2); color: #fff; box-shadow: none; }
+html body.mp-root .mp-btn-ghost { color: var(--mp-ink); border-color: var(--mp-ink); }
+html body.mp-root .mp-btn-ghost:hover { background: var(--mp-ink); color: var(--mp-bg); border-color: var(--mp-ink); }
+
+/* worked examples, steps and callouts all use the one amber accent */
+html body.mp-root .mp-worked { border-left-color: var(--mp-accent); }
+html body.mp-root .mp-step::before { background: var(--mp-accent-soft); color: var(--mp-accent-2); border-radius: 50%; }
+
+/* CTA band: dark ink card like the course pages, paper text */
+html body.mp-root .mp-cta-band { background: var(--mp-ink); color: #FBF8F2; border-radius: 24px; }
+html body.mp-root .mp-cta-band h2, html body.mp-root .mp-cta-band strong { color: #FBF8F2; }
+html body.mp-root .mp-cta-band p { color: rgba(251,248,242,.8); }
+html body.mp-root .mp-cta-band a:not(.mp-btn) { color: #FCD34D; }
+html body.mp-root .mp-cta-band .mp-btn-ghost { color: #FBF8F2; border-color: rgba(251,248,242,.5); }
+html body.mp-root .mp-cta-band .mp-btn-ghost:hover { background: #FBF8F2; color: var(--mp-ink); }
+
+html body.mp-root .mp-footer { background: var(--mp-bg-alt); }
+/* page markup carries inline white borders meant for the old dark hero */
+html body.mp-root .mp-hero .mp-btn-ghost { color: var(--mp-ink) !important; border-color: var(--mp-ink) !important; }
+html body.mp-root .mp-hero .mp-btn-ghost:hover { background: var(--mp-ink); color: var(--mp-bg) !important; }
+html body.mp-root .mp-cta-band .mp-btn-ghost { color: #FBF8F2 !important; border-color: rgba(251,248,242,.5) !important; }
+html body.mp-root .mp-cta-band .mp-btn-ghost:hover { background: #FBF8F2; color: var(--mp-ink) !important; }
+/* callback modal submit (inline gradient from the old per-page palettes) */
+html body.mp-root #callbackSubmitBtn { background: #B45309 !important; }
+html body.mp-root #callbackSubmitBtn:hover { background: #8F3F08 !important; }
+/* small accent text and links: deep amber keeps 4.5:1 on the tinted sections too */
+html body.mp-root a:not(.mp-btn) { color: var(--mp-accent-2); }
+html body.mp-root .mp-worked .tag, html body.mp-root .mp-answer .q, html body.mp-root .mp-eyebrow, html body.mp-root .mp-compare .us { color: var(--mp-accent-2); }
+/* real-proof strip (.msu) faded its text with opacity; give it real colours */
+html body.mp-root .msu-kick { opacity: 1; color: var(--mp-accent-2); }
+html body.mp-root .msu-sub, html body.mp-root .msu-pc, html body.mp-root .msu-pby, html body.mp-root .msu-rl, html body.mp-root .msu-more, html body.mp-root .msu-pd { opacity: 1; color: var(--mp-muted); }
+html body.mp-root .msu-sub a, html body.mp-root .msu-more a { color: var(--mp-accent-2); }
+html body.mp-root .msu-stars { color: var(--mp-accent); }
+html body.mp-root .msu-card, html body.mp-root .msu-proj { background: var(--mp-surface); border-color: var(--mp-line); }
