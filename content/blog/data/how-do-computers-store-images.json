@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "slug": "how-do-computers-store-images",
+    "title": "How Do Computers Store Images? Pixels, RGB and File Size",
+    "description": "How computers store pictures: pixels, RGB and hex colours, greyscale, and a measured comparison of PNG and JPEG file sizes in Python.",
+    "keywords": [
+      "how do computers store images",
+      "what is a pixel",
+      "rgb colour explained",
+      "png vs jpeg",
+      "how does image compression work",
+      "hex colour codes",
+      "convert image to greyscale python"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators making coding and maths clear for ages 6 to 67.",
+      "avatar": "/images/logo.svg"
+    },
+    "date": "2026-09-28",
+    "dateModified": "2026-09-28",
+    "category": "Programming",
+    "tags": [
+      "Computer Science",
+      "Python",
+      "Images",
+      "Beginners"
+    ],
+    "readTime": "8 min read",
+    "featured": false,
+    "tldr": "Computers store an image as a grid of pixels, and each pixel as three numbers from 0 to 255 for red, green and blue light, giving over 16.7 million colours; hex codes like #FF0000 write the same numbers in base 16. Raw pixels take 3 bytes each, so images are compressed. PNG is lossless and ideal for graphics: a flat graphic shrank to about 2 KB. JPEG is lossy and ideal for photos: our 512 by 600 photo fell from 922 KB raw to 86 KB at quality 90, but low quality shows 8 by 8 blocks."
+  },
+  "hero": {
+    "title": "How Do Computers Store Images? Pixels, RGB and File Size",
+    "subtitle": "Open a real photo in Python, read its pixels, turn it grey with one formula, and measure what PNG and JPEG compression actually do to the file size.",
+    "featuredImage": {
+      "url": "/images/blog/how-do-computers-store-images/00-hero.png",
+      "alt": "How computers store images: a heart drawn on a grid of pixels, with one pixel's RGB value shown as three numbers"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every photo on your phone, every game sprite and every emoji is stored the same basic way: as a grid of tiny coloured squares called <strong>pixels</strong>, with each pixel saved as numbers. Understanding this explains a lot: why zooming in too far makes a picture blocky, why some image files are huge and others tiny, and how an app can turn a photo black and white in an instant."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide opens a real photo in Python and looks inside it, explains how three numbers make any colour, and measures how PNG and JPEG compression change the file size. The photo is the official US Navy portrait of Grace Hopper, the computing pioneer who helped create some of the first programming languages. It is in the public domain and comes bundled with the matplotlib library, so you can run every example yourself."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "An image is a grid of pixels",
+        "id": "pixels"
+      },
+      {
+        "type": "paragraph",
+        "text": "A digital image is a rectangle of pixels arranged in rows and columns. Our photo is 512 pixels wide and 600 tall, which makes 307,200 pixels in total. Each one shows a single colour. From a normal distance your eyes blend them into a smooth picture. Zoom in far enough and the squares appear:"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-do-computers-store-images/01-zoom.png",
+        "alt": "The Grace Hopper photo at 512 by 600 pixels, a zoomed-in patch of 24 by 18 pixels showing individual squares, and one pixel's values: red 231, green 157, blue 120",
+        "caption": "Official US Navy portrait of Grace Hopper, public domain, from matplotlib's sample data."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is how to read the size and individual pixels in Python with the Pillow library:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from PIL import Image\nimport matplotlib.cbook\n\npath = matplotlib.cbook.get_sample_data(\"grace_hopper.jpg\", asfileobj=False)\nphoto = Image.open(path).convert(\"RGB\")\n\nwidth, height = photo.size\nprint(f\"size: {width} x {height} = {width * height:,} pixels\")\nprint(f\"raw size: {width * height * 3:,} bytes (3 bytes per pixel)\")\n\nfor x, y in [(10, 10), (256, 170), (256, 560)]:\n    r, g, b = photo.getpixel((x, y))\n    print(f\"pixel ({x}, {y}): red {r}, green {g}, blue {b}  hex #{r:02X}{g:02X}{b:02X}\")",
+        "title": "pixels.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "size: 512 x 600 = 307,200 pixels\nraw size: 921,600 bytes (3 bytes per pixel)\npixel (10, 10): red 13, green 14, blue 70  hex #0D0E46\npixel (256, 170): red 231, green 157, blue 120  hex #E79D78\npixel (256, 560): red 20, green 20, blue 22  hex #141416",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pixel (10, 10), in the top-left corner, is in the flag and comes out dark blue. Pixel (256, 170) is on the face: red 231, green 157, blue 120. The coordinates count from the top-left corner, with y increasing downwards, which surprises many people used to maths graphs."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How three numbers make any colour",
+        "id": "rgb"
+      },
+      {
+        "type": "paragraph",
+        "text": "Screens make colour by mixing red, green and blue light. Each pixel stores how much of each, usually as a number from 0 (none) to 255 (full). That is one <a href='/blog/binary-numbers-explained'>byte</a> per colour, because 8 bits can hold 256 values. Three bytes per pixel gives 256 &#215; 256 &#215; 256, which is 16,777,216 possible colours."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-do-computers-store-images/02-rgb.png",
+        "alt": "RGB colour examples: (255, 0, 0) is red, (0, 255, 0) green, (0, 0, 255) blue, (255, 255, 0) yellow, (255, 255, 255) white, (0, 0, 0) black, (128, 128, 128) grey, each with its hex code",
+        "caption": "Mixing light is not like mixing paint: red plus green light makes yellow."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>(255, 0, 0)</strong> is pure red, <strong>(0, 255, 0)</strong> pure green and <strong>(0, 0, 255)</strong> pure blue.",
+          "<strong>(255, 255, 0)</strong> is yellow. Red and green light together make yellow, which surprises anyone used to mixing paint.",
+          "<strong>(255, 255, 255)</strong> is white (all light) and <strong>(0, 0, 0)</strong> is black (no light). Equal amounts of all three give a grey."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The same colours are often written as <strong>hex codes</strong> in web design, such as #FF0000 for red. Each pair of hex digits is one of the three numbers written in base 16: FF is 255. If you have written CSS, you have been writing pixel colours all along. Our <a href='/blog/html-css-javascript-project-ideas'>HTML, CSS and JavaScript project ideas</a> use them throughout."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Turning a photo black and white",
+        "id": "greyscale"
+      },
+      {
+        "type": "paragraph",
+        "text": "To make a colour pixel grey, you replace it with one brightness value. The obvious approach, averaging the three numbers, looks slightly wrong, because our eyes are much more sensitive to green than to blue. The standard formula weights them differently, and it is the one Pillow's own documentation gives for converting to greyscale:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "from PIL import Image\nimport matplotlib.cbook\n\nphoto = Image.open(matplotlib.cbook.get_sample_data(\"grace_hopper.jpg\", asfileobj=False)).convert(\"RGB\")\nr, g, b = photo.getpixel((256, 170))\n\n# Our eyes are most sensitive to green and least to blue, so the weights differ\nby_hand = round((r * 299 + g * 587 + b * 114) / 1000)\nby_pillow = photo.convert(\"L\").getpixel((256, 170))\nprint(f\"colour ({r}, {g}, {b}) -> grey {by_hand} by hand, {by_pillow} by Pillow\")\nprint(f\"plain average would give {(r + g + b) // 3}\")",
+        "title": "gray.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "colour (231, 157, 120) -> grey 175 by hand, 175 by Pillow\nplain average would give 169",
+        "title": "Output"
+      },
+      {
+        "type": "paragraph",
+        "text": "The weighted formula gives 175, exactly matching Pillow. A plain average would have given 169, a slightly darker grey for this skin tone. Every photo filter on your phone is doing arithmetic like this on every pixel, millions of times, in a fraction of a second."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why image files are different sizes",
+        "id": "file-sizes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Stored raw, every pixel takes 3 bytes, so our photo needs 921,600 bytes, and a 12-megapixel phone photo would need about 36 million. That is why images are almost always <strong>compressed</strong>. We saved the photo, and a flat graphic of the same size made of a few solid shapes, in different formats and measured the results:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import io\nfrom PIL import Image, ImageDraw\nimport matplotlib.cbook\n\nphoto = Image.open(matplotlib.cbook.get_sample_data(\"grace_hopper.jpg\", asfileobj=False)).convert(\"RGB\")\n\n# A flat graphic the same size: a few solid shapes, like a logo or diagram\ngraphic = Image.new(\"RGB\", photo.size, (251, 248, 242))\ndraw = ImageDraw.Draw(graphic)\ndraw.rectangle([60, 80, 450, 300], fill=(37, 99, 168))\ndraw.ellipse([120, 330, 400, 560], fill=(209, 96, 61))\n\ndef saved_size(image, fmt, **options):\n    buffer = io.BytesIO()\n    image.save(buffer, fmt, **options)\n    return buffer.tell()\n\nw, h = photo.size\nprint(f\"raw pixels:        {w * h * 3:>8,} bytes\")\nfor name, image in [(\"photo\", photo), (\"graphic\", graphic)]:\n    print(f\"{name:<8} PNG:      {saved_size(image, 'PNG', optimize=True):>8,} bytes\")\n    for q in (90, 50, 10):\n        print(f\"{name:<8} JPEG q{q:<3}: {saved_size(image, 'JPEG', quality=q):>8,} bytes\")",
+        "title": "sizes.py"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "raw pixels:         921,600 bytes\nphoto    PNG:       452,018 bytes\nphoto    JPEG q90 :   86,089 bytes\nphoto    JPEG q50 :   30,498 bytes\nphoto    JPEG q10 :   12,001 bytes\ngraphic  PNG:         2,281 bytes\ngraphic  JPEG q90 :   13,559 bytes\ngraphic  JPEG q50 :    9,289 bytes\ngraphic  JPEG q10 :    6,745 bytes",
+        "title": "Output"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-do-computers-store-images/03-sizes.png",
+        "alt": "File sizes: raw pixels 921.6 KB; the photo as PNG 452.0 KB and as JPEG at quality 90, 50 and 10 86.1 KB, 30.5 KB, 12.0 KB; the flat graphic as PNG 2.3 KB and JPEG quality 90 13.6 KB",
+        "caption": "Measured with Pillow. The right format depends on what is in the picture."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>PNG is lossless.</strong> It keeps every pixel exactly, and shrinks files by spotting repeated patterns. The flat graphic has huge areas of identical pixels, so it fell to 2.3 KB. The photo has almost no exact repeats, so PNG only got it to 452.0 KB.",
+          "<strong>JPEG is lossy.</strong> It throws away detail your eye is unlikely to notice. At quality 90 the photo dropped to 86.1 KB, about a tenth of the raw size. But for the flat graphic, JPEG was worse than PNG (13.6 KB against 2.3 KB), and can blur sharp edges."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Which format should you use?",
+        "text": "Photos: JPEG (or the newer WebP). Logos, diagrams, screenshots and anything with sharp edges or text: PNG. That one rule makes websites faster and images crisper."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What lossy compression throws away",
+        "id": "jpeg-artifacts"
+      },
+      {
+        "type": "paragraph",
+        "text": "Turn JPEG quality right down and you can see its method. JPEG works on blocks of 8 by 8 pixels, keeping the broad shape of each block and discarding fine detail. At quality 10 the whole photo is just 12.0 KB, but the blocks become visible:"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-do-computers-store-images/04-jpeg.png",
+        "alt": "The same close-up of the photo saved as JPEG at quality 90, which looks smooth, and quality 10, which shows blocky 8 by 8 squares; whole-photo sizes 86.1 KB and 12.0 KB",
+        "caption": "Lower quality means smaller files and more visible blocks."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is also why an image that has been shared, screenshotted and re-saved many times gets steadily worse: each JPEG save throws a little more away. PNG never does, which is why it is the right choice for anything you will edit repeatedly."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Try it yourself",
+        "id": "try-it"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "Install Pillow with <code>pip install pillow</code> and open any photo of your own with <code>Image.open</code>.",
+          "Print its size and a few pixels. Can you find the brightest pixel?",
+          "Turn it greyscale using the formula above, pixel by pixel, then compare with <code>convert(\"L\")</code>.",
+          "Invert the colours: replace each value v with 255 minus v.",
+          "Save it at different JPEG qualities and find the lowest quality where you cannot see a difference."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Projects like this are a great way into programming, because the results are visual and immediate. If you are just starting, our list of <a href='/blog/python-basic-programs-for-beginners'>basic Python programs</a> builds the skills you need first."
+      },
+      {
+        "type": "quote",
+        "text": "Every image is a grid, every pixel is three numbers, and every photo filter is arithmetic."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How we teach it",
+        "id": "how-we-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "Images suit two principles on our <a href='/how-we-teach'>how we teach</a> page. Learning by building: a working photo filter, however small, turns pixels and loops into something you can see. And tracing code line by line until every step can be predicted, such as what happens to one pixel in a greyscale loop. Our <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> runs one to one or in small groups of 5 to 10."
+      },
+      {
+        "type": "embed",
+        "html": "<div class=\"blog-button-wrapper\" style=\"display:flex;flex-wrap:wrap;gap:12px;justify-content:center\"><a href=\"/book-demo\" class=\"blog-button blog-button-primary\">Book a free class</a> <a href=\"/book-demo\" data-pd-book=\"blog-close\" class=\"blog-button blog-button-secondary\">Book a priority demo</a></div>"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently asked questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How do computers store images?",
+            "content": "As a grid of pixels. Each pixel usually stores three numbers from 0 to 255 for the amount of red, green and blue light. The file format then compresses those numbers, either losslessly like PNG or lossily like JPEG."
+          },
+          {
+            "title": "What is a pixel?",
+            "content": "A pixel is the smallest square of colour in a digital image. Images are grids of pixels, for example 1920 wide by 1080 tall. From a normal viewing distance your eyes blend them into a smooth picture."
+          },
+          {
+            "title": "What does RGB mean?",
+            "content": "RGB stands for red, green and blue, the three colours of light a screen mixes to make every other colour. Each is stored as a value from 0 to 255, giving over 16.7 million possible colours."
+          },
+          {
+            "title": "What is the difference between PNG and JPEG?",
+            "content": "PNG is lossless: it keeps every pixel exactly and is best for graphics, logos and screenshots. JPEG is lossy: it discards detail you are unlikely to notice and is much smaller for photos. In our test the photo was 452 KB as PNG but 86 KB as JPEG at quality 90."
+          },
+          {
+            "title": "Why do images get blurry when you zoom in?",
+            "content": "Because an image has a fixed number of pixels. Zooming in makes each pixel cover more of the screen, so the individual squares become visible or the software smooths them into a blur."
+          },
+          {
+            "title": "What is a hex colour code?",
+            "content": "A hex code such as #FF8800 writes the red, green and blue values in base 16. Each pair of digits is one value from 00 to FF, which is 0 to 255 in ordinary numbers."
+          },
+          {
+            "title": "How do you convert an image to greyscale?",
+            "content": "Replace each pixel with a single brightness value. A common formula weights green most and blue least: grey = 0.299 red + 0.587 green + 0.114 blue, which matches how sensitive our eyes are to each colour."
+          }
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "binary-numbers-explained",
+    "python-basic-programs-for-beginners",
+    "how-does-encryption-work"
+  ]
+}

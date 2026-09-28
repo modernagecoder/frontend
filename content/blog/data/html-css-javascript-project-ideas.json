@@ -517,6 +517,10 @@
         "text": "The final six ask more of you: an algorithm that thinks several moves ahead, a canvas you paint on pixel by pixel, a drag gesture you have to track by hand. These are the projects that make an interviewer stop skimming your portfolio and start asking questions."
       },
       {
+        "type": "paragraph",
+        "text": "If you want to know what those pixels actually are, and why a colour like #FF8800 is really three numbers, our guide to <a href='/blog/how-do-computers-store-images'>how computers store images</a> explains pixels, RGB and hex codes with examples you can run."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "15. Drum Kit / Sound Board"

@@ -279,6 +279,10 @@
         "text": "<strong>Best for:</strong> Image processing, working with media files, custom binary formats."
       },
       {
+        "type": "paragraph",
+        "text": "Images are a good example of what a binary file really holds. Our guide to <a href='/blog/how-do-computers-store-images'>how computers store images</a> opens a real photo in Python, reads individual pixels, and measures how PNG and JPEG shrink the same data."
+      },
+      {
         "type": "heading",
         "level": 2,
         "text": "Choosing the Right File Type",
