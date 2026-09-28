@@ -1,16 +1,16 @@
 ---
 title: "Maths Tutor in Dubai · 1:1 Online Maths Tuition, Every Curriculum | Modern Age Coders"
-description: "Looking for a maths tutor in Dubai? Live 1:1 online maths tuition for British, American, IB and CBSE schools across Dubai, no traffic, no driving. We teach the reasoning, not rote. Mentors in Gulf Standard Time. USD 150/month, 8 classes. Book a free trial."
+description: "Looking for a maths tutor in Dubai? Live 1:1 online maths tuition for British, American, IB and CBSE schools across Dubai, no traffic, no driving. We teach the reasoning, not rote. Mentors in Gulf Standard Time. Book a Priority Demo."
 canonical: https://learn.modernagecoders.com/maths-tutor-in-dubai
 source: src/pages/maths-tutor-in-dubai.html
 ---
-> Looking for a maths tutor in Dubai? Live 1:1 online maths tuition for British, American, IB and CBSE schools across Dubai, no traffic, no driving. We teach the reasoning, not rote. Mentors in Gulf Standard Time. USD 150/month, 8 classes. Book a free trial.
+> Looking for a maths tutor in Dubai? Live 1:1 online maths tuition for British, American, IB and CBSE schools across Dubai, no traffic, no driving. We teach the reasoning, not rote. Mentors in Gulf Standard Time. Book a Priority Demo.
 
 In short
 
 **Modern Age Coders is an online maths tutor serving all of Dubai**, Marina, Downtown, JLT, Jumeirah, Arabian Ranches, Mirdif and every other area, with live one-to-one lessons for British, American, IB and CBSE schools, all ages.
 
-You skip Dubai traffic entirely, keep the same tutor each week, and pay **USD 150 per month** for eight 1:1 lessons, typically well below in-person centre rates. Lessons run in Gulf Standard Time and the first lesson is free.
+You skip Dubai traffic entirely, keep the same tutor each week, and pay one monthly fee, typically well below in-person centre rates. Lessons run in Gulf Standard Time, and you can see a full class first with a Priority Demo.
 
 Why finding a maths tutor in Dubai is harder than it should be
 
@@ -156,6 +156,8 @@ $150 / month
 - No commute, no Dubai traffic
 - Notes after every lesson · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Cohort
 
 $100 / month
@@ -213,11 +215,11 @@ Every area: Marina, Downtown, JLT, Jumeirah, Arabian Ranches, Mirdif, Dubai Hill
 
 How much does a maths tutor in Dubai cost?
 
-USD 150/month for 1:1, eight live lessons, two a week, typically well below in-person centre rates. Small-group option USD 100/month. No contract.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
-Is the first lesson free?
+Can we try a class before enrolling?
 
-Yes, the first lesson is free, no card needed.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Will my child have the same tutor every time?
 

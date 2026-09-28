@@ -150,6 +150,8 @@ $150 / month
 - A plan built entirely around your goal
 - Flexible times · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Cohort
 
 $100 / month
@@ -211,11 +213,11 @@ The one-to-one setting helps, no audience, no being put on the spot. Most people
 
 How much does it cost?
 
-USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
-Is there a free trial?
+Can we try a class before enrolling?
 
-Yes, the first class is free, no card needed.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Will I have the same tutor each time?
 
@@ -241,7 +243,7 @@ Can I change focus partway through?
 
 Of course. Your tutor re-points the plan when your goal shifts.
 
-## Book a free trial class.
+## Book a Priority Demo.
 
 Tell us your goal, a GCSE resit, Functional Skills, a work skill, or just confidence. We'll show you how we'd get you there, and you decide. No card needed, no pressure.
 

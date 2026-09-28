@@ -1,20 +1,20 @@
 ---
 title: "Online Math Tutor for 11th Grade | Algebra 2 + SAT, One Campaign | Modern Age Coders"
-description: "Live 1:1 junior-year math tutoring run as one campaign: Algebra 2 taught for ownership, SAT and PSAT craft layered in season, the calendar planned backward from real test dates, and the GPA protected live. One-hour classes twice a week, free demo."
+description: "Live 1:1 junior-year math tutoring run as one campaign: Algebra 2 taught for ownership, SAT and PSAT craft layered in season, the calendar planned backward from real test dates, and the GPA protected live. One-hour classes twice a week. Priority Demo available."
 canonical: https://learn.modernagecoders.com/online-math-tutor-11th-grade
 source: src/pages/online-math-tutor-11th-grade.html
 ---
-> Live 1:1 junior-year math tutoring run as one campaign: Algebra 2 taught for ownership, SAT and PSAT craft layered in season, the calendar planned backward from real test dates, and the GPA protected live. One-hour classes twice a week, free demo.
+> Live 1:1 junior-year math tutoring run as one campaign: Algebra 2 taught for ownership, SAT and PSAT craft layered in season, the calendar planned backward from real test dates, and the GPA protected live. One-hour classes twice a week. Priority Demo available.
 
 Enroll now
 
 ## Pick the course. The junior calendar is unforgiving.
 
-Every mentor teaches from a structured programme, adapted live to your teen and their test dates. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic build the plan.
+Every mentor teaches from a structured programme, adapted live to your teen and their test dates. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic build the plan.
 
-[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery The course-and-tests-as-one-skill approach this page describes, run by a dedicated mentor. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![SAT Math 800 Prep course thumbnail](/images/sat-math-prep.webp)  SAT Math 800 Prep Course The junior-year test machine: Desmos strategy, adaptive pacing and full mock cycles. Grades 10-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/sat-math-prep-course)[![AP Calculus Exam Prep course thumbnail](/images/ap-calculus-prep.webp)  AP Calculus AB & BC Exam Prep For juniors already in calculus: the FRQ-rubric track with a score-5 goal. AP AB & BC8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ap-calculus-exam-prep)See what is includedThe 20-second answer
+[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery The course-and-tests-as-one-skill approach this page describes, run by a dedicated mentor. Grades 9-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![SAT Math 800 Prep course thumbnail](/images/sat-math-prep.webp)  SAT Math 800 Prep Course The junior-year test machine: Desmos strategy, adaptive pacing and full mock cycles. Grades 10-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/sat-math-prep-course)[![AP Calculus Exam Prep course thumbnail](/images/ap-calculus-prep.webp)  AP Calculus AB & BC Exam Prep For juniors already in calculus: the FRQ-rubric track with a score-5 goal. AP AB & BC8 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ap-calculus-exam-prep)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-Good 11th grade math tutoring treats the junior year as **one campaign, not three emergencies**: Algebra 2 taught for ownership (it is the SAT's core content anyway), the test calendar planned backward from application season, and every study hour engineered to pay both the GPA and the score. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
+Good 11th grade math tutoring treats the junior year as **one campaign, not three emergencies**: Algebra 2 taught for ownership (it is the SAT's core content anyway), the test calendar planned backward from application season, and every study hour engineered to pay both the GPA and the score. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
 
 Why junior year crushes
 
@@ -85,7 +85,7 @@ The year, mapped
 
 ## From September to sitting, without the chaos.
 
-### Class 1 · The free demo diagnostic
+### Class 1 · The Priority Demo diagnostic
 
 Course position, gap inventory, test dates on the table, and the backward calendar drafted before any teaching begins.
 
@@ -164,6 +164,8 @@ $150 / month
 - Diagnostic-led plan against the full 11th grade map
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -175,7 +177,7 @@ $100 / month
 
 [See the SAT course](/courses/sat-math-prep-course)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your teen
 
@@ -241,15 +243,15 @@ Structurally, not with pep talks: a visible plan (chaos is the real stressor), t
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract, and no separate "SAT package" upsell, the campaign is the product.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract, and no separate "SAT package" upsell, the campaign is the product.
 
 What about SAT Subject-style depth or AP exams in May?
 
 AP-track juniors get the rubric-and-mock machinery of our AP Calculus prep alongside course work, sequenced so May and the SAT sittings do not collide blindly. It is exactly the kind of calendar conflict the backward plan exists to solve.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every student starts with a free live demo class that doubles as the diagnostic and calendar-planning session, no card details, no obligation. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -261,7 +263,7 @@ Keep exploring
 
 Book the demo class. Your teen gets a real lesson with a real mentor, you get a diagnostic against the full 11th grade map, and nobody asks for a card. If your teen does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

@@ -10,11 +10,11 @@ Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick the level for you.
 
-[![PSLE Maths Mastery course thumbnail](/images/psle-maths.webp)Best fit  PSLE Maths Mastery Model method as thinking, problem-sum families and Paper 1 fluency, at Singapore evening hours. P4-P6 · MOE8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/psle-maths-mastery)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
+[![PSLE Maths Mastery course thumbnail](/images/psle-maths.webp)Best fit  PSLE Maths Mastery Model method as thinking, problem-sum families and Paper 1 fluency, at Singapore evening hours. P4-P6 · MOE8 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/psle-maths-mastery)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-Good online maths tuition for a Singapore student is **MOE-syllabus exact**: model method and heuristics for primary, PSLE paper technique (including the no-calculator Paper 1), the E Maths versus A Maths reality at secondary, and understanding-first teaching throughout, the way the syllabus was designed. That is what we do: 8 live one-hour classes a month in Singapore-friendly evening slots, 1-on-1 for USD $150 a month or small group for $100, free demo class first.
+Good online maths tuition for a Singapore student is **MOE-syllabus exact**: model method and heuristics for primary, PSLE paper technique (including the no-calculator Paper 1), the E Maths versus A Maths reality at secondary, and understanding-first teaching throughout, the way the syllabus was designed. That is what we do: 8 live one-hour classes a month in Singapore-friendly evening slots, 1-on-1 or small group, priced in your currency, Priority Demo first.
 
 Why Singapore families look beyond the centre
 
@@ -26,7 +26,7 @@ Singapore's answer has been tuition at industrial scale: centres with waitlists,
 
 Here is what we bring that is genuinely different: **the method, taught 1-on-1, without the commute.** Our mentors teach concrete-pictorial-abstract natively, the philosophy underneath the MOE syllabus, with model drawing and heuristics as living tools rather than memorized templates. One full hour, twice a week, where your child does the thinking aloud and the mentor adapts in real time, at Singapore evening hours that fit around school and CCA.
 
-And the honest economics: Singapore centre tuition commonly runs SGD 250 to 500 a month for group classes, and private tutors SGD 40 to 90 an hour. Our 1-on-1 is USD $150 a month, not because the teaching is lighter, but because our cost base is global. Quality first; the price is simply what lets you verify that claim without risk.
+And the honest economics: Singapore centre tuition commonly runs SGD 250 to 500 a month for group classes, and private tutors SGD 40 to 90 an hour. Our 1-on-1 plan costs less, not because the teaching is lighter, but because our cost base is global. Quality first; the price is simply what lets you verify that claim without risk.
 
 Know the road
 
@@ -78,9 +78,9 @@ School, CCA, commute, centre, homework. An online hour at home gives back two ho
 
 "I am just bad at maths" said at ten predicts the next six years, unless someone rebuilds the understanding underneath.
 
-Recognize your child? One free demo class, at a Singapore evening hour, shows you exactly what 1-on-1 method teaching changes.
+Recognize your child? One Priority Demo, at a Singapore evening hour, shows you exactly what 1-on-1 method teaching changes.
 
-Watch the method work
+[Book a Priority Demo](/priority-demo)Watch the method work
 
 ## A PSLE-style problem sum, solved the way examiners intend.
 
@@ -140,7 +140,7 @@ A typical arc
 
 ## From diagnostic to exam day, mapped.
 
-### Class 1 · The free demo diagnostic
+### Class 1 · The Priority Demo diagnostic
 
 A real lesson at a Singapore evening hour, plus an audit: model-method depth, Paper 1 fluency, and where the problem sums actually break.
 
@@ -227,6 +227,8 @@ $150 / month
 - Diagnostic-led plan for your child's level and cohort
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -238,7 +240,7 @@ $100 / month
 
 [See the high school course](/courses/complete-high-school-mathematics-mastery)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what maths tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what maths tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your child
 
@@ -266,7 +268,7 @@ An honest comparison
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | USD $100-$150 / month | 8 live one-hour 1-on-1 classes, MOE-syllabus exact, model method taught as thinking, no commute | A child who needs teaching aimed at them, not at a batch |
+| Modern Age Coders | $100-$150 / month | Live one-hour 1-on-1 classes, MOE-syllabus exact, model method taught as thinking, no commute | A child who needs teaching aimed at them, not at a batch |
 | Tuition centres | SGD 250-500+ / month | Group classes of 8-15, fixed pace, waitlists at the famous ones, plus the weekly commute | Children who thrive on batch energy and are near the class's exact level |
 | Private home tutors | SGD 40-90+ / hour | Quality varies widely; twice weekly runs SGD 320-720+ a month | Families who have found, and can keep, a proven tutor |
 | Star "super tutors" | SGD 100-300+ / hour | Famous names with waitlists and premium rates | Final-sprint polish for students already near the top |
@@ -308,7 +310,7 @@ We prep for understanding first, then exam craft against the actual format: time
 
 What does it cost, honestly, compared to what we pay now?
 
-1-on-1 is USD $150 a month and small group is USD $100, both with 8 live one-hour classes (2 per week) and recordings included, no registration fee, no deposit, cancel any time. Most Singapore families currently pay more for group classes at a centre, and substantially more for private tutoring at SGD 40 to 90 an hour.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time. Most Singapore families currently pay more for group classes at a centre, and substantially more for private tutoring at SGD 40 to 90 an hour.
 
 My child is aiming at GEP / DSA / competition maths. Do you go beyond the syllabus?
 
@@ -318,9 +320,9 @@ Who teaches, and do they understand Singapore's system?
 
 Mentors who teach both mathematics and coding, trained in concrete-pictorial-abstract teaching and briefed on MOE structures, PSLE, Full SBB, E and A Maths, and who verify your child's exact cohort details rather than assuming. Meet the team on our team page, and read our 547 Google reviews.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every child starts with a free live demo class at a Singapore evening hour that doubles as the diagnostic, no card details, no obligation. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -332,7 +334,7 @@ Keep exploring
 
 Book the demo class at a Singapore evening hour. Your child gets a real lesson with a real mentor, you get a diagnostic against their level and cohort, one full hour, free, and nobody asks for a card. If your child does not leave the hour lighter about maths, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

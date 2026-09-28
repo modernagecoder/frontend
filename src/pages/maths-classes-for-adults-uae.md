@@ -10,7 +10,7 @@ In short
 
 **Modern Age Coders offers live one-to-one online maths classes for adults across the UAE**, for rebuilding the basics, the statistics and financial maths of work, and GMAT/GRE quant preparation for MBA and graduate study.
 
-Teaching is patient and judgment-free, with the same mentor each session, shaped around your goal and your working hours. Pricing is **USD 150 per month** for eight 1:1 sessions, lessons run in Gulf Standard Time, and the first class is free.
+Teaching is patient and judgment-free, with the same mentor each session, shaped around your goal and your working hours. Lessons run in Gulf Standard Time, the monthly plans are shown in your currency in the pricing section, and you can see a full class first with a Priority Demo.
 
 Why maths feels closed off to adults
 
@@ -156,6 +156,8 @@ $150 / month
 - A plan built entirely around your goal
 - Flexible times · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Cohort
 
 $100 / month
@@ -217,11 +219,11 @@ The one-to-one setting helps, no audience, no being put on the spot. Most people
 
 How much does it cost?
 
-USD 150/month for 1:1, eight live sessions, two a week. Small-group option USD 100/month. No contract.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
-Is the first class free?
+Can we try a class before enrolling?
 
-Yes, no card needed.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 When can I take classes? I work full time.
 

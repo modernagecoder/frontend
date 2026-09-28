@@ -1,20 +1,20 @@
 ---
 title: "Online Math Tutor for 7th Grade | Live 1:1 Classes | Modern Age Coders"
-description: "Live 1:1 online math tutoring for 7th graders: proportional reasoning, rational-number arithmetic and two-step equations built from reasons, before algebra placement. One-hour classes twice a week, free demo."
+description: "Live 1:1 online math tutoring for 7th graders: proportional reasoning, rational-number arithmetic and two-step equations built from reasons, before algebra placement. One-hour classes twice a week. Priority Demo available."
 canonical: https://learn.modernagecoders.com/online-math-tutor-7th-grade
 source: src/pages/online-math-tutor-7th-grade.html
 ---
-> Live 1:1 online math tutoring for 7th graders: proportional reasoning, rational-number arithmetic and two-step equations built from reasons, before algebra placement. One-hour classes twice a week, free demo.
+> Live 1:1 online math tutoring for 7th graders: proportional reasoning, rational-number arithmetic and two-step equations built from reasons, before algebra placement. One-hour classes twice a week. Priority Demo available.
 
 Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick the level for you.
 
-[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Algebra Foundations Masterclass course thumbnail](/images/algebra-foundations.webp)  Algebra Foundations Masterclass Pre-Algebra and Algebra 1 taught as a language, the most consequential stretch in school math. Grades 7-98 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/algebra-foundations-masterclass)See what is includedThe 20-second answer
+[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Algebra Foundations Masterclass course thumbnail](/images/algebra-foundations.webp)  Algebra Foundations Masterclass Pre-Algebra and Algebra 1 taught as a language, the most consequential stretch in school math. Grades 7-98 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/algebra-foundations-masterclass)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-A good online math tutor for a 7th grader does three things: **builds proportional reasoning as one idea**, so percent, scale, rates and later slope all click into the same slot; **derives the sign rules** for negative arithmetic from patterns the child can rebuild, instead of chants that scramble; and **gets two-step equations fluent** before algebra makes them assumed knowledge. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
+A good online math tutor for a 7th grader does three things: **builds proportional reasoning as one idea**, so percent, scale, rates and later slope all click into the same slot; **derives the sign rules** for negative arithmetic from patterns the child can rebuild, instead of chants that scramble; and **gets two-step equations fluent** before algebra makes them assumed knowledge. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
 
 Why grade 7 predicts algebra
 
@@ -68,9 +68,9 @@ A correct answer that dissolves under one "why?" was pattern-matched, not reason
 
 If your district decides grade 8 algebra this year and you are unsure of readiness, that is a diagnostic question with a deadline.
 
-Three or more of these? A diagnostic hour finds the exact gaps. Our **demo class doubles as that diagnostic**, and it is free.
+Three or more of these? A diagnostic hour finds the exact gaps. A **Priority Demo doubles as that diagnostic**: a full live class, with a written skill report afterwards.
 
-How we teach grade 7
+[Book a Priority Demo](/priority-demo)How we teach grade 7
 
 ## One idea, many costumes.
 
@@ -187,7 +187,7 @@ The first three months
 
 ### Weeks 1-2 · Diagnose and win
 
-The free demo doubles as a diagnostic against the grade 7 map and grade 6 foundations. Early classes bank wins where the child is nearly solid.
+The Priority Demo doubles as a diagnostic against the grade 7 map and grade 6 foundations. Early classes bank wins where the child is nearly solid.
 
 ### Month 1 · The number system, completed
 
@@ -369,6 +369,8 @@ $150 / month
 - Diagnostic-led plan against the full grade 7 map
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -380,7 +382,7 @@ $100 / month
 
 [See the middle school course](/courses/comprehensive-middle-school-mathematics-mastery)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your child
 
@@ -422,7 +424,7 @@ Parent questions
 
 How do I know if my 7th grader is actually behind?
 
-Four markers: can they explain why 25% off means times 0.75, solve 3x + 7 = 22 and check it, say why negative times negative is positive with a pattern, and recognize whether a table is proportional with a reason? Wobbly on two or more matters this year more than most, because algebra placement is often decided on grade 7. Our free demo doubles as this diagnostic.
+Four markers: can they explain why 25% off means times 0.75, solve 3x + 7 = 22 and check it, say why negative times negative is positive with a pattern, and recognize whether a table is proportional with a reason? Wobbly on two or more matters this year more than most, because algebra placement is often decided on grade 7. A Priority Demo doubles as this diagnostic.
 
 Is grade 7 really the year that decides algebra placement?
 
@@ -446,7 +448,7 @@ A dedicated mentor, the same one every class, tracking your child against the fu
 
 What does it cost, exactly?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract, cancel any month. The first class is a free live demo, no card needed.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract, cancel any month.
 
 Is this aligned with my child's school?
 
@@ -464,9 +466,9 @@ Can you also help with the science-class math?
 
 Yes. Grade 7 science quietly demands unit conversion, rates and proportional reasoning, the same engine we build. Mentors happily use science homework as applied practice.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every family starts with a free live demo class, no card details, no obligation, and it doubles as the diagnostic. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Speak grade 7
 
@@ -530,7 +532,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, you get a diagnostic against the complete grade 7 map, and nobody asks for a card. If your child does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 ---
 

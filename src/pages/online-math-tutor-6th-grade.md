@@ -10,11 +10,11 @@ Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick the level for you.
 
-[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  Maths Through Coding Learn math by building it in Python: fraction machines, turtle geometry and probability simulators. Ages 10-158 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/maths-through-coding)See what is includedThe 20-second answer
+[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  Maths Through Coding Learn math by building it in Python: fraction machines, turtle geometry and probability simulators. Ages 10-158 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/maths-through-coding)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-A good online math tutor for a 6th grader does three things: **makes ratios and rates visual** with tables and tape diagrams before they become mechanical cross-multiplication; **builds negative numbers on the number line** so minus seven versus minus three never becomes a coin flip; and **turns variables into numbers-in-waiting** instead of mysterious letters. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
+A good online math tutor for a 6th grader does three things: **makes ratios and rates visual** with tables and tape diagrams before they become mechanical cross-multiplication; **builds negative numbers on the number line** so minus seven versus minus three never becomes a coin flip; and **turns variables into numbers-in-waiting** instead of mysterious letters. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
 
 Why grade 6 feels like a different subject
 
@@ -68,9 +68,9 @@ The abstraction feels pointless because nobody connected it to anything real. Ra
 
 The first B or C after years of As does disproportionate damage at this age. Early wins repair it fast.
 
-Three or more of these? A diagnostic hour finds the exact gaps, new and inherited. Our **demo class doubles as that diagnostic**, and it is free.
+Three or more of these? A diagnostic hour finds the exact gaps, new and inherited. A **Priority Demo doubles as that diagnostic**: a full live class, with a written skill report afterwards.
 
-How we teach grade 6
+[Book a Priority Demo](/priority-demo)How we teach grade 6
 
 ## New abstractions, made concrete first.
 
@@ -190,7 +190,7 @@ The first three months
 
 ### Weeks 1-2 · Diagnose and stabilize
 
-The free demo doubles as a diagnostic against the grade 6 map and the elementary foundations beneath it. If the middle-school transition itself is the wound, structure and early wins come first.
+The Priority Demo doubles as a diagnostic against the grade 6 map and the elementary foundations beneath it. If the middle-school transition itself is the wound, structure and early wins come first.
 
 ### Month 1 · Ratios and rates, properly
 
@@ -372,6 +372,8 @@ $150 / month
 - Diagnostic-led plan against the full grade 6 map
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -383,7 +385,7 @@ $100 / month
 
 [See the middle school course](/courses/comprehensive-middle-school-mathematics-mastery)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your child
 
@@ -425,7 +427,7 @@ Parent questions
 
 How do I know if my 6th grader is actually behind?
 
-Four markers: can they solve a ratio problem with a table and explain it, order -7, -3 and 0 correctly with a reason, translate "5 less than double a number" into symbols the right way round, and divide 3/4 by 1/8 with a picture as well as the rule? Wobbly on two or more means the new abstractions are not landing. Our free demo class doubles as this diagnostic.
+Four markers: can they solve a ratio problem with a table and explain it, order -7, -3 and 0 correctly with a reason, translate "5 less than double a number" into symbols the right way round, and divide 3/4 by 1/8 with a picture as well as the rule? Wobbly on two or more means the new abstractions are not landing. A Priority Demo doubles as this diagnostic.
 
 My child was fine in elementary school and suddenly is not. What happened?
 
@@ -449,7 +451,7 @@ A dedicated mentor, the same one every class, tracking your child against the fu
 
 What does it cost, exactly?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract, cancel any month. The first class is a free live demo, no card needed.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract, cancel any month.
 
 Is this aligned with my child's school?
 
@@ -467,9 +469,9 @@ Do you prepare students for advanced-track placement?
 
 Yes. Accelerated middle-school tracks are decided around grades 6-7, and the assessments test exactly what we build: ratio reasoning, integer sense and early algebra. We will be honest about readiness either way.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every family starts with a free live demo class, no card details, no obligation, and it doubles as the diagnostic. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Speak grade 6
 
@@ -533,7 +535,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, you get a diagnostic against the complete grade 6 map, and nobody asks for a card. If your child does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 ---
 

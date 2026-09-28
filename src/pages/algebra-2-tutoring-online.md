@@ -10,11 +10,11 @@ Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick the level for you.
 
-[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![SAT Math 800 Prep Course course thumbnail](/images/sat-math-prep.webp)  SAT Math 800 Prep Course The algebra core rebuilt, Desmos strategy and full adaptive mock cycles for the Digital SAT. Grades 10-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/sat-math-prep-course)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
+[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![SAT Math 800 Prep Course course thumbnail](/images/sat-math-prep.webp)  SAT Math 800 Prep Course The algebra core rebuilt, Desmos strategy and full adaptive mock cycles for the Digital SAT. Grades 10-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/sat-math-prep-course)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-A good Algebra 2 tutor does three things: **organizes the course around function families**, linear, quadratic, polynomial, exponential, logarithmic, rational, trigonometric, so fifteen "units" become one repeating story; **rebuilds the Algebra 1 machinery** the course silently assumes; and **connects every topic to the SAT and ACT**, which draw most of their hardest math from exactly this course. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
+A good Algebra 2 tutor does three things: **organizes the course around function families**, linear, quadratic, polynomial, exponential, logarithmic, rational, trigonometric, so fifteen "units" become one repeating story; **rebuilds the Algebra 1 machinery** the course silently assumes; and **connects every topic to the SAT and ACT**, which draw most of their hardest math from exactly this course. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
 
 Why Algebra 2 breaks students
 
@@ -68,9 +68,9 @@ Most "SAT math problems" are Algebra 2 gaps wearing a timer. Prep without repair
 
 Working harder at memorizing an un-memorizable course produces exactly this curve. Method, not effort, is the problem.
 
-Three or more of these? A diagnostic hour finds whether the gaps live in Algebra 2, Algebra 1 or both. Our **demo class doubles as that diagnostic**, and it is free.
+Three or more of these? A diagnostic hour finds whether the gaps live in Algebra 2, Algebra 1 or both. A **Priority Demo doubles as that diagnostic**: a full live class, with a written skill report afterwards.
 
-How we teach Algebra 2
+[Book a Priority Demo](/priority-demo)How we teach Algebra 2
 
 ## One story, seven function families.
 
@@ -154,7 +154,7 @@ The first three months
 
 ### Weeks 1-2 · Diagnose and win
 
-The free demo maps your teen against the Algebra 2 units and the Algebra 1 machinery underneath. Early classes bank wins where they are nearly solid.
+The Priority Demo maps your teen against the Algebra 2 units and the Algebra 1 machinery underneath. Early classes bank wins where they are nearly solid.
 
 ### Month 1 · The function framework + quadratics
 
@@ -215,6 +215,8 @@ $150 / month
 - Diagnostic-led plan against the full Algebra 2 plan
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -226,7 +228,7 @@ $100 / month
 
 [See the middle school course](/courses/comprehensive-middle-school-mathematics-mastery)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your teen
 
@@ -288,7 +290,7 @@ Honestly: the current-unit grade usually stabilizes within two to four weeks, be
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. Compare with US test-prep and tutoring rates of $60 to $150 per hour for the same seniority of content.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
 Who teaches Algebra 2?
 
@@ -302,9 +304,9 @@ Can you support honors or accelerated Algebra 2?
 
 Yes, including the proof-flavored and precalculus-preview versions honors tracks add. Strong students also get our Olympiad and competition problems for stretch.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every student starts with a free live demo class that doubles as the diagnostic, no card details, no obligation. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -316,7 +318,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, you get a diagnostic against one full hour of real Algebra 2 teaching, free, and nobody asks for a card. If your teen does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

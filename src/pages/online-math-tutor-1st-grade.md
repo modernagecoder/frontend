@@ -1,20 +1,20 @@
 ---
 title: "Online Math Tutor for 1st Grade | Strategies, Not Drills | Modern Age Coders"
-description: "Live 1:1 first grade math tutoring: counting-on and make-ten built as discoveries, fact fluency through games, place value as real bundles, word problems as stories. One-hour classes twice a week, free demo."
+description: "Live 1:1 first grade math tutoring: counting-on and make-ten built as discoveries, fact fluency through games, place value as real bundles, word problems as stories. One-hour classes twice a week. Priority Demo available."
 canonical: https://learn.modernagecoders.com/online-math-tutor-1st-grade
 source: src/pages/online-math-tutor-1st-grade.html
 ---
-> Live 1:1 first grade math tutoring: counting-on and make-ten built as discoveries, fact fluency through games, place value as real bundles, word problems as stories. One-hour classes twice a week, free demo.
+> Live 1:1 first grade math tutoring: counting-on and make-ten built as discoveries, fact fluency through games, place value as real bundles, word problems as stories. One-hour classes twice a week. Priority Demo available.
 
 Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the placement pick for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the placement pick for you.
 
-[![Early Math Foundations course thumbnail](/images/early-math-k2.webp)Best fit  Early Math Foundations (K-2) The K-2 arc this year sits inside: bonds, stories and place-value beginnings, taught playfully. Ages 4-78 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/early-math-foundations)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids The fluency engine: bonds and strategies through games, exactly what first grade runs on. Ages 5-108 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass The full grades 1-5 road, with the same mentor carrying your child rung by rung. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)See what is includedThe 20-second answer
+[![Early Math Foundations course thumbnail](/images/early-math-k2.webp)Best fit  Early Math Foundations (K-2) The K-2 arc this year sits inside: bonds, stories and place-value beginnings, taught playfully. Ages 4-78 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/early-math-foundations)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids The fluency engine: bonds and strategies through games, exactly what first grade runs on. Ages 5-108 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass The full grades 1-5 road, with the same mentor carrying your child rung by rung. Grades 1-58 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-Good 1st grade math tutoring builds three things: **strategies to replace counting-everything** (counting on, making ten, using doubles), **fact fluency within 10 through games** rather than flashcard grind, and **place value that means something**, tens and ones as bundles, not columns. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
+Good 1st grade math tutoring builds three things: **strategies to replace counting-everything** (counting on, making ten, using doubles), **fact fluency within 10 through games** rather than flashcard grind, and **place value that means something**, tens and ones as bundles, not columns. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
 
 Why first grade wobbles
 
@@ -83,7 +83,7 @@ The year, mapped
 
 ## From counting-all to strategy-strong.
 
-### Class 1 · The free demo
+### Class 1 · The Priority Demo
 
 Games that double as diagnostics: computation stage, bond fluency, story-problem instincts, and an honest placement.
 
@@ -162,6 +162,8 @@ $150 / month
 - Diagnostic-led plan against the full 1st grade map
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -173,7 +175,7 @@ $100 / month
 
 [See the K-2 course](/courses/early-math-foundations)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your child
 
@@ -235,7 +237,7 @@ Yes, the map covers standard first-grade territory (operations within 20, place 
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. US tutoring centers charge $300 to $450 a month for less individual attention.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract. US tutoring centers charge $300 to $450 a month for less individual attention.
 
 Group or 1-on-1 at this age?
 
@@ -245,9 +247,9 @@ What happens after first grade?
 
 The same mentor carries your child up the grades 1-5 road, our Elementary Mathematics Masterclass, with second grade's regrouping wall already prepared for. Continuity is half the value.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every child starts with a free live demo class that doubles as the stage diagnostic, no card details, no obligation. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -259,7 +261,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, you get a diagnostic against the full 1st grade map, and nobody asks for a card. If your child does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

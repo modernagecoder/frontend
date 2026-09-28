@@ -10,11 +10,11 @@ Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the placement pick for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the placement pick for you.
 
-[![Early Math Foundations course thumbnail](/images/early-math-k2.webp)Best fit  Early Math Foundations (K-2) Counting with meaning, number bonds and shapes, taught playfully in the years that decide everything. Ages 4-78 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/early-math-foundations)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids Number sense, not tricks: bonds and strategies built through games, from age 5. Ages 5-108 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass The grades 1-5 road this year opens onto, with the same mentor carrying your child forward. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)See what is includedThe 20-second answer
+[![Early Math Foundations course thumbnail](/images/early-math-k2.webp)Best fit  Early Math Foundations (K-2) Counting with meaning, number bonds and shapes, taught playfully in the years that decide everything. Ages 4-78 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/early-math-foundations)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids Number sense, not tricks: bonds and strategies built through games, from age 5. Ages 5-108 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass The grades 1-5 road this year opens onto, with the same mentor carrying your child forward. Grades 1-58 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-Good kindergarten math tutoring is **play with a spine**: counting that means something (not just reciting), quantities handled and compared with real objects, and number bonds beginning as games, taught in short varied segments that respect a five-year-old's attention. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first, and an honest "wait six months" when that is the right answer.
+Good kindergarten math tutoring is **play with a spine**: counting that means something (not just reciting), quantities handled and compared with real objects, and number bonds beginning as games, taught in short varied segments that respect a five-year-old's attention. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first, and an honest "wait six months" when that is the right answer.
 
 Why this year matters
 
@@ -26,7 +26,7 @@ The other kindergarten risk is the opposite one: pushing formal, worksheet-shape
 
 Our kindergarten classes thread this needle deliberately. Every idea arrives as a game with real objects, dice, blocks, snacks held up to the camera, and the hour runs as short playful segments: a counting game, a build, a story problem acted out, a movement break with skip-counting. The child experiences play; the mentor is quietly running a curriculum.
 
-And because readiness varies wildly at five, the free demo doubles as an honest readiness read. Some children are ready to fly; some need six more months of unstructured play first, and we say so plainly, because a wrong-time start costs a child more than it earns us.
+And because readiness varies wildly at five, The Priority Demo doubles as an honest readiness read. Some children are ready to fly; some need six more months of unstructured play first, and we say so plainly, because a wrong-time start costs a child more than it earns us.
 
 The complete map
 
@@ -166,6 +166,8 @@ $150 / month
 - Diagnostic-led plan against the full kindergarten map
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -177,7 +179,7 @@ $100 / month
 
 [See the K-2 course](/courses/early-math-foundations)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your child
 
@@ -219,7 +221,7 @@ Parent questions
 
 Does a kindergartner really need a math tutor?
 
-Most do not "need" one, and we say that first. The honest cases for starting: invisible gaps behind cheerful counting (cardinality, quantity sense), a child already hungry for more than school offers, or parents who want the foundation built playfully and right. The case against: any child not yet ready, for whom waiting is the better teaching, and the free demo reads which case is yours.
+Most do not "need" one, and we say that first. The honest cases for starting: invisible gaps behind cheerful counting (cardinality, quantity sense), a child already hungry for more than school offers, or parents who want the foundation built playfully and right. The case against: any child not yet ready, for whom waiting is the better teaching, and a Priority Demo reads which case is yours.
 
 Can a five-year-old handle a full online hour?
 
@@ -239,7 +241,7 @@ Maybe! Counting far is memory; the advanced signals are different: instant "how 
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. US math tutoring for young children commonly runs $200 to $400 a month for less contact time.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract. US math tutoring for young children commonly runs $200 to $400 a month for less contact time.
 
 Group or 1-on-1 for a kindergartner?
 
@@ -249,9 +251,9 @@ What happens after kindergarten?
 
 The same mentor carries your child into the grades 1-5 road, our Elementary Mathematics Masterclass, with the foundation already sound. No re-onboarding, no starting over: that continuity is half the value.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every child starts with a free live demo class that doubles as the playful readiness read, no card details, no obligation. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -263,7 +265,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, you get a diagnostic against the full kindergarten map, and nobody asks for a card. If your child does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

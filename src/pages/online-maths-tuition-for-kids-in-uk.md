@@ -150,6 +150,8 @@ $150 / month
 - A learning plan built around your child
 - Notes after every lesson · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Cohort
 
 $100 / month
@@ -211,11 +213,11 @@ This is the most common reason families come to us. One-to-one attention and a p
 
 How much does it cost?
 
-USD 150 per month for private 1:1 tuition, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
-Is there a free trial?
+Can we try a class before enrolling?
 
-Yes, the first lesson is free, no card needed to book.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Will my child have the same tutor each time?
 
@@ -241,9 +243,9 @@ Can we start partway through the school year?
 
 Yes. We start wherever your child is.
 
-## Book a free trial lesson for your child.
+## Book a Priority Demo for your child.
 
-Meet the tutor, see how we teach, and watch your child explain a piece of maths back to you. No card needed, no pressure afterwards.
+Meet the tutor in a full live class of about 45 to 60 minutes, see how we teach, and watch your child explain a piece of maths back to you. You get a written skill report afterwards, and the fee is adjusted against your first month if you enrol.
 
 [See the full course](/courses/elementary-mathematics-complete-masterclass)Keep exploring
 

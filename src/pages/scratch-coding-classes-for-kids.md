@@ -1,20 +1,20 @@
 ---
 title: "Scratch Coding Classes for Kids | Live 1:1, Ages 6-11 | Modern Age Coders"
-description: "Live online Scratch coding classes for kids ages 6-11: real computer-science ideas inside games and stories your child builds, taught 1-on-1 by a dedicated mentor, with a deliberate Scratch-to-Python path. One-hour classes twice a week, free demo."
+description: "Live online Scratch coding classes for kids ages 6-11: real computer-science ideas inside games and stories your child builds, taught 1-on-1 by a dedicated mentor, with a deliberate Scratch-to-Python path. One-hour classes twice a week. Priority Demo available."
 canonical: https://learn.modernagecoders.com/scratch-coding-classes-for-kids
 source: src/pages/scratch-coding-classes-for-kids.html
 ---
-> Live online Scratch coding classes for kids ages 6-11: real computer-science ideas inside games and stories your child builds, taught 1-on-1 by a dedicated mentor, with a deliberate Scratch-to-Python path. One-hour classes twice a week, free demo.
+> Live online Scratch coding classes for kids ages 6-11: real computer-science ideas inside games and stories your child builds, taught 1-on-1 by a dedicated mentor, with a deliberate Scratch-to-Python path. One-hour classes twice a week. Priority Demo available.
 
 Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the placement pick for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the placement pick for you.
 
-[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)Best fit  Scratch Programming Complete The full blocks-to-mastery arc: games, animations and stories carrying real computer-science ideas. Ages 6-118 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Scratch plus AI tools: kids build games and apps with blocks and modern AI builders, side by side. Ages 8-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The graduation destination: real text code, taught gently, with AI projects that make eyes go wide. Ages 9-138 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)See what is includedThe 20-second answer
+[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)Best fit  Scratch Programming Complete The full blocks-to-mastery arc: games, animations and stories carrying real computer-science ideas. Ages 6-118 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Scratch plus AI tools: kids build games and apps with blocks and modern AI builders, side by side. Ages 6-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The graduation destination: real text code, taught gently, with AI projects that make eyes go wide. Ages 9-138 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-Good Scratch classes do three things: **teach the ideas inside the blocks** (loops, events, conditionals, variables), not just block-snapping recipes; **let the child build their own projects**, because ownership is where learning lives; and **graduate the child on purpose**, into Python, when they are ready. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
+Good Scratch classes do three things: **teach the ideas inside the blocks** (loops, events, conditionals, variables), not just block-snapping recipes; **let the child build their own projects**, because ownership is where learning lives; and **graduate the child on purpose**, into Python, when they are ready. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
 
 Why Scratch, and why taught live
 
@@ -39,9 +39,9 @@ Which starting point?
 | Ages 10-11 | Scratch fast-track, Python in sight | A compressed Scratch arc builds the concepts in weeks, then the Python bridge crosses while motivation is high |
 | Ages 12+ | Usually straight to Python | Most 12-year-olds find Scratch babyish within a term; text code with real results respects them more, and we teach it gently |
 
-Not sure where your child lands? The free demo class doubles as a placement: one hour with a mentor settles it with evidence, not age-chart guesswork.
+Not sure where your child lands? The Priority Demo doubles as a placement: one hour with a mentor settles it with evidence, not age-chart guesswork.
 
-Is your child ready?
+[Book a Priority Demo](/priority-demo)Is your child ready?
 
 ## Eight signs Scratch classes will land right now.
 
@@ -131,7 +131,7 @@ The learning path
 
 ## From first sprite to Python-ready, mapped.
 
-### Class 1 · The free demo
+### Class 1 · The Priority Demo
 
 A real lesson: your child builds and runs something in the first hour, and the mentor reads readiness, pace and spark.
 
@@ -212,6 +212,8 @@ $150 / month
 - Projects chosen with, and built by, your child
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -223,7 +225,7 @@ $100 / month
 
 [See the Scratch course](/courses/scratch-programming-complete-course)
 
-That is **$12.50 per dedicated hour** of 1-on-1 teaching, or $5 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US kids coding costs in 2026](/coding-classes-for-kids-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US kids coding costs in 2026](/coding-classes-for-kids-cost).
 
 Who teaches your child
 
@@ -265,7 +267,7 @@ Parent questions
 
 What age is right for Scratch?
 
-Ages 6-11 is the sweet spot: old enough to read blocks, young enough that the instant feedback feels like magic. Ages 5-6 start with ScratchJr-style picture-block work; most 12-year-olds go straight to Python. The free demo doubles as a placement, so you never have to guess from an age chart.
+Ages 6-11 is the sweet spot: old enough to read blocks, young enough that the instant feedback feels like magic. Ages 5-6 start with ScratchJr-style picture-block work; most 12-year-olds go straight to Python. The Priority Demo doubles as a placement, so you never have to guess from an age chart.
 
 Is Scratch real coding or just a toy?
 
@@ -293,7 +295,7 @@ Not when the child is building the whole time. Our hours are hands-on and varied
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. US kids-coding programs typically run $175 to $350 a month for less contact time.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract. US kids-coding programs typically run $175 to $350 a month for less contact time.
 
 What equipment does my child need?
 
@@ -303,9 +305,9 @@ Is this affiliated with MIT or the Scratch Foundation?
 
 No, and we say so plainly: Scratch is a free platform created by MIT's Lifelong Kindergarten group and now stewarded by the Scratch Foundation. We are an independent school that teaches with it, the way a piano teacher is independent of the piano maker.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every child starts with a free live demo class that doubles as the placement, they will build and run something in that first hour, and nobody asks for a card. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -317,7 +319,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, builds and runs something of their own inside the hour, and nobody asks for a card. If your child does not leave the hour asking when the next class is, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 ---
 

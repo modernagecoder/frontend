@@ -1,20 +1,20 @@
 ---
 title: "Online Coding Classes for Kids in the USA | Live 1:1, Ages 6-14 | Modern Age Coders"
-description: "Live online coding classes for American kids ages 6-14: the Scratch-to-Python-to-AI ladder taught by one dedicated mentor, after-school slots in every US time zone, AP CS runway built in. 8 one-hour classes a month from USD 100. Free demo."
+description: "Live online coding classes for American kids ages 6-14: the Scratch-to-Python-to-AI ladder taught by one dedicated mentor, after-school slots in every US time zone, AP CS runway built in. 8 one-hour classes a month from USD 100. Priority Demo available."
 canonical: https://learn.modernagecoders.com/online-coding-classes-for-kids-usa
 source: src/pages/online-coding-classes-for-kids-usa.html
 ---
-> Live online coding classes for American kids ages 6-14: the Scratch-to-Python-to-AI ladder taught by one dedicated mentor, after-school slots in every US time zone, AP CS runway built in. 8 one-hour classes a month from USD 100. Free demo.
+> Live online coding classes for American kids ages 6-14: the Scratch-to-Python-to-AI ladder taught by one dedicated mentor, after-school slots in every US time zone, AP CS runway built in. 8 one-hour classes a month from USD 100. Priority Demo available.
 
 Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the placement pick for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the placement pick for you.
 
-[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Best fit  Python & AI for Kids Real text code taught gently, with AI projects on top: the ladder's central rung for ages 9-13. Ages 9-138 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)  Scratch Programming Complete The ages 6-9 starting rung: real ideas in friendly blocks, from first sprite to shipped game. Ages 6-98 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Blocks, game builds and AI tools in one arc: the bridge years, ages 8-12, covered joyfully. Ages 6-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)See what is includedThe 20-second answer
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Best fit  Python & AI for Kids Real text code taught gently, with AI projects on top: the ladder's central rung for ages 9-13. Ages 9-138 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)  Scratch Programming Complete The ages 6-9 starting rung: real ideas in friendly blocks, from first sprite to shipped game. Ages 6-98 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Blocks, game builds and AI tools in one arc: the bridge years, ages 8-12, covered joyfully. Ages 6-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-Good online coding classes for an American child give you **a real teacher, live, on a schedule that fits US after-school life**; a ladder that runs from Scratch (age 6) through Python and AI (age 14) and eventually to AP Computer Science; and depth, projects the child builds and explains, not videos with quizzes. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
+Good online coding classes for an American child give you **a real teacher, live, on a schedule that fits US after-school life**; a ladder that runs from Scratch (age 6) through Python and AI (age 14) and eventually to AP Computer Science; and depth, projects the child builds and explains, not videos with quizzes. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
 
 The American CS gap
 
@@ -39,9 +39,9 @@ The age ladder
 | 11-13 | Real Python: apps, games, generative art, plus honest AI literacy | The general-programming road that AP CS and every tech field assumes |
 | 13-14+ | Deeper Python, AI/ML projects, web development, and contest tastes | AP Computer Science readiness, USACO for the ambitious, portfolio for everyone |
 
-Every rung is taught by the same school, so climbing never means starting over. The free demo places your child on the ladder by evidence, and our teen and AP-track pages take over where this one ends.
+Every rung is taught by the same school, so climbing never means starting over. The Priority Demo places your child on the ladder by evidence, and our teen and AP-track pages take over where this one ends.
 
-Is this your family?
+[Book a Priority Demo](/priority-demo)Is this your family?
 
 ## Eight signs it is time for real coding classes.
 
@@ -55,7 +55,7 @@ Demand outruns supply in most districts. A live online mentor has no waitlist an
 
 ### Juni-style quotes gave you pause
 
-$250 a month for two short sessions is real money. Eight full hours for $100-$150 changes the decision entirely.
+$250 a month for two short sessions is real money. Eight full hours for one monthly fee changes the decision entirely.
 
 ### The app subscription went stale
 
@@ -154,6 +154,8 @@ $150 / month
 - Projects chosen with, and built by, your child
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -165,7 +167,7 @@ $100 / month
 
 [See the Python course](/courses/python-ai-kids-masterclass)
 
-That is **$12.50 per dedicated hour** of 1-on-1 teaching, or $5 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US kids coding costs in 2026](/coding-classes-for-kids-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US kids coding costs in 2026](/coding-classes-for-kids-cost).
 
 Who teaches your child
 
@@ -215,7 +217,7 @@ Ages 6-14 on this ladder: Scratch (6-8), game building and first text code (9-11
 
 How is this different from Juni, Outschool or Code Ninjas?
 
-Contact time, continuity and price. We give 8 full one-hour live classes a month with the same dedicated mentor for $100-$150; Juni-style platforms run $200-$300 for fewer, shorter sessions, marketplaces sell one-off classes with no continuity, and centers add a commute. The teaching method, ideas before recipes, child explaining aloud, is the deeper difference, and the free demo shows it.
+Contact time, continuity and price. We give 8 full one-hour live classes a month with the same dedicated mentor at our regular monthly fee; Juni-style platforms run $200-$300 for fewer, shorter sessions, marketplaces sell one-off classes with no continuity, and centers add a commute. The teaching method, ideas before recipes, child explaining aloud, is the deeper difference, and a Priority Demo shows it.
 
 Will this help with school and AP Computer Science later?
 
@@ -227,7 +229,7 @@ Yes, US families are one of our largest cohorts. Mentors teach across US time zo
 
 What does it cost, honestly?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. That is $12.50 per dedicated 1-on-1 hour, against a US market where $175-$350 a month is normal.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract. That is $18.75 per dedicated 1-on-1 hour, against a US market where $175-$350 a month is normal.
 
 Is the screen time worth it?
 
@@ -241,9 +243,9 @@ Do you also teach math?
 
 Yes, it is half of what we do, with the same mentors and method. Many US families run one coding and one math slot per week; our grade-level math pages cover 3rd through 8th grade and beyond.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every child starts with a free live demo class that doubles as the placement, a real lesson, a real read on your child, no card details. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -255,7 +257,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, builds something real inside the hour, and you get an honest placement on the ladder, and nobody asks for a card. If your child does not leave the hour asking when the next class is, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

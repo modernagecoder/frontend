@@ -1,20 +1,20 @@
 ---
 title: "Online Coding Classes for Kids in the UK | Live 1:1, Ages 6-14 | Modern Age Coders"
-description: "Live online coding classes for British kids ages 6-14: KS2 Scratch depth, the blocks-to-Python bridge before KS3, and the GCSE Computer Science runway, taught at UK evening slots. 8 one-hour classes a month from USD 100. Free demo."
+description: "Live online coding classes for British kids ages 6-14: KS2 Scratch depth, the blocks-to-Python bridge before KS3, and the GCSE Computer Science runway, taught at UK evening slots. 8 one-hour classes a month from USD 100. Priority Demo available."
 canonical: https://learn.modernagecoders.com/online-coding-classes-for-kids-uk
 source: src/pages/online-coding-classes-for-kids-uk.html
 ---
-> Live online coding classes for British kids ages 6-14: KS2 Scratch depth, the blocks-to-Python bridge before KS3, and the GCSE Computer Science runway, taught at UK evening slots. 8 one-hour classes a month from USD 100. Free demo.
+> Live online coding classes for British kids ages 6-14: KS2 Scratch depth, the blocks-to-Python bridge before KS3, and the GCSE Computer Science runway, taught at UK evening slots. 8 one-hour classes a month from USD 100. Priority Demo available.
 
 Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the placement pick for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the placement pick for you.
 
-[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)Best fit  Scratch Programming Complete KS1-KS2 depth: the ideas school Scratch never has time for, from first sprite to shipped game. Ages 6-118 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The KS3 bridge and beyond: real Python taught gently, with the GCSE CS runway in sight. Ages 9-138 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Blocks, game builds and AI tools in one joyful arc: the KS2-to-KS3 bridge years, covered. Ages 6-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)See what is includedThe 20-second answer
+[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)Best fit  Scratch Programming Complete KS1-KS2 depth: the ideas school Scratch never has time for, from first sprite to shipped game. Ages 6-118 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The KS3 bridge and beyond: real Python taught gently, with the GCSE CS runway in sight. Ages 9-138 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Blocks, game builds and AI tools in one joyful arc: the KS2-to-KS3 bridge years, covered. Ages 6-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-Good online coding classes for a British child work **with the national curriculum, not around it**: they deepen the Scratch years of KS2, carry the child properly into text-based programming before KS3 demands it, and build the runway to GCSE Computer Science for those who want it. That is what we do: 8 live one-hour classes a month with a dedicated mentor, at UK-friendly evening and weekend slots, 1-on-1 for $150 a month or small group for $100, billed in USD, free demo class first.
+Good online coding classes for a British child work **with the national curriculum, not around it**: they deepen the Scratch years of KS2, carry the child properly into text-based programming before KS3 demands it, and build the runway to GCSE Computer Science for those who want it. That is what we do: 8 live one-hour classes a month with a dedicated mentor, at UK-friendly evening and weekend slots, 1-on-1 or small group, priced in your currency, billed in USD, Priority Demo first.
 
 The British computing paradox
 
@@ -39,9 +39,9 @@ The age ladder
 | 11-13 (KS3) | Real Python, ahead of the curriculum's text-language requirement, plus honest AI literacy | KS3 computing becomes easy; the GCSE choice becomes informed instead of intimidating |
 | 13-14+ (pre-GCSE) | Deeper Python, projects and problem-solving in the GCSE Computer Science style | A confident GCSE CS candidate, and our teen tracks take over from here |
 
-Every rung taught by the same school, so climbing never means starting over. The free demo places your child by evidence, not year group alone.
+Every rung taught by the same school, so climbing never means starting over. The Priority Demo places your child by evidence, not year group alone.
 
-Is this your family?
+[Book a Priority Demo](/priority-demo)Is this your family?
 
 ## Eight signs it is time for proper coding classes.
 
@@ -67,7 +67,7 @@ The subject rewards children who arrive fluent. A year of real Python beforehand
 
 ### Weekly help felt out of reach
 
-Paying by the hour for two lessons a week adds up fast. Here a month of eight taught hours is one flat fee, and the first lesson is free.
+Paying by the hour for two lessons a week adds up fast. Here a month of eight taught hours is one flat fee, and you can see a full class first with a Priority Demo.
 
 ### Screens are winning the evenings
 
@@ -154,6 +154,8 @@ $150 / month
 - Projects chosen with, and built by, your child
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -165,7 +167,7 @@ $100 / month
 
 [See the Python course](/courses/python-ai-kids-masterclass)
 
-That is **$12.50 per dedicated hour** of 1-on-1 teaching, or $5 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US kids coding costs in 2026](/coding-classes-for-kids-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US kids coding costs in 2026](/coding-classes-for-kids-cost).
 
 Who teaches your child
 
@@ -193,7 +195,7 @@ An honest comparison
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | $100-$150 / month, billed in USD | Live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real young programmer, with the GCSE CS road open |
+| Modern Age Coders | $100-$150 / month | Live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real young programmer, with the GCSE CS road open |
 | Private coding tutors | Charged by the hour | Quality varies; twice-weekly sessions add up quickly | Families who have found, and can keep, a proven local gem |
 | Franchise clubs and camps | A monthly fee, or a day rate for camps | Group sessions of varying depth, plus the drive | Children who focus better out of the house |
 | Code Club / CoderDojo | Free | Volunteer-run, brilliant and brief: an hour a week while term and volunteers last | Always take these too; they complement real tuition |
@@ -227,7 +229,7 @@ Code Club and CoderDojo are brilliant, and we say so without reservation, but th
 
 What does it cost in pounds?
 
-Billing is in USD: $150 a month for 1-on-1 and $100 for small group, both with 8 live one-hour classes and recordings, no registration fee, no contract. For calibration: one hour with a typical UK private tutor costs about the same as our entire month of group classes.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time. For calibration: one hour with a typical UK private tutor costs about the same as our entire month of group classes.
 
 Are the mentors comfortable teaching British kids?
 
@@ -241,9 +243,9 @@ Do you also teach maths?
 
 Yes, it is half of what we do, same mentors and method, including GCSE and IGCSE maths tracks. Plenty of UK families run one coding and one maths slot per week.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every child starts with a free live demo class that doubles as the placement, a real lesson at a UK evening hour, no card details. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -255,7 +257,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, builds something real inside the hour at a UK evening slot, and you get an honest placement on the ladder, and nobody asks for a card. If your child does not leave the hour asking when the next class is, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

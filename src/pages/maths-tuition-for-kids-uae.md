@@ -10,7 +10,7 @@ In short
 
 **Modern Age Coders offers live one-to-one online maths tuition for children across the UAE, ages 5–11**, matched to their British, American, IB (PYP) or CBSE primary curriculum.
 
-We teach the reasoning behind the maths, number sense, times tables, fractions, so it sticks, with the same patient tutor each lesson. Pricing is **USD 150 per month** for eight 1:1 lessons, lessons run in Gulf Standard Time, and the first lesson is free.
+We teach the reasoning behind the maths, number sense, times tables, fractions, so it sticks, with the same patient tutor each lesson. Lessons run in Gulf Standard Time, the monthly plans are shown in your currency in the pricing section, and you can see a full class first with a Priority Demo.
 
 Why so many UAE children stall in primary maths
 
@@ -156,6 +156,8 @@ $150 / month
 - A learning plan built around your child
 - Notes after every lesson · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Cohort
 
 $100 / month
@@ -213,11 +215,11 @@ This is the most common reason families come to us. Patient one-to-one attention
 
 How much does it cost?
 
-USD 150/month for 1:1, eight live lessons, two a week. Small-group option USD 100/month. No contract.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
-Is the first lesson free?
+Can we try a class before enrolling?
 
-Yes, no card needed to book.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Will my child have the same tutor each time?
 
@@ -233,7 +235,7 @@ After-school, early-evening and weekend slots in Gulf Standard Time (UTC+4).
 
 ## Book a free maths trial lesson for your child.
 
-Meet the tutor, see how we teach, and watch your child explain a piece of maths back to you. No card needed, no pressure afterwards.
+Meet the tutor in a full live class of about 45 to 60 minutes, see how we teach, and watch your child explain a piece of maths back to you. You get a written skill report afterwards, and the fee is adjusted against your first month if you enrol.
 
 [See the full course](/courses/elementary-mathematics-complete-masterclass)Keep exploring
 

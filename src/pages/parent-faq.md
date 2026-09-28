@@ -10,13 +10,13 @@ Start here
 
 ## The three doors most families walk through.
 
-[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Most popular  Python & AI for Kids Real text code taught gently, with AI projects on top: coding's central on-ramp. Coding · Ages 9-138 live classes / monthFree trial first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)  Scratch Programming Complete The youngest start here: real computer-science ideas in friendly blocks. Coding · Ages 6-98 live classes / monthFree trial first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery The make-or-break maths years, taught for genuine ownership: our premium track. Maths · Grades 6-88 live classes / monthFree trial first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[Browse all 80+ courses](/courses)Section 1
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Most popular  Python & AI for Kids Real text code taught gently, with AI projects on top: coding's central on-ramp. Coding · Ages 9-138 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)  Scratch Programming Complete The youngest start here: real computer-science ideas in friendly blocks. Coding · Ages 6-98 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery The make-or-break maths years, taught for genuine ownership: our premium track. Maths · Grades 6-88 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[Book a Priority Demo](/priority-demo)[Browse all 80+ courses](/courses)Section 1
 
 ## Getting started.
 
 How does enrollment actually work, start to finish?
 
-Free trial class first, always: one real hour with a mentor, ending in an honest placement read. If you enroll, you pick a course and two weekly slots, pay for the first month, and classes begin, usually within the same week. No registration fee, no contract, no card needed before you decide.
+A Priority Demo first, always: one real hour with a mentor, ending in an honest placement read. If you enroll, you pick a course and two weekly slots, pay for the first month, and classes begin, usually within the same week. No registration fee, no contract, nothing to pay before you decide to enrol.
 
 What ages do you teach?
 
@@ -72,7 +72,7 @@ Section 3
 
 What do classes cost?
 
-Every course, coding or mathematics: $100 a month for small group, $150 for 1-on-1. Every price includes 8 live one-hour classes a month plus recordings. Indian families see equivalent INR pricing on course pages.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the [pricing section](/pricing). Billing is monthly, there is no contract and you can cancel any time.
 
 Why is maths priced higher than coding?
 
@@ -170,13 +170,13 @@ Still deciding?
 
 ## The proof pages, in one place.
 
-[Start hereThe Free Trial Class](/free-trial)[Real recorded classesHow We Teach](/how-we-teach)[Proof, not adjectivesOur Results](/results)[Real student projectsStudent Labs Showcase](/student-labs)[The promise in writingZero-Risk Guarantee](/guarantee)[Public for everyonePricing](/pricing)
+[Start hereThe Priority Demo](/priority-demo)[Real recorded classesHow We Teach](/how-we-teach)[Proof, not adjectivesOur Results](/results)[Real student projectsStudent Labs Showcase](/student-labs)[The promise in writingZero-Risk Guarantee](/guarantee)[Public for everyonePricing](/pricing)
 
 ## The unanswered questions? The trial class answers them.
 
-Book the free trial: your child gets a real one-hour lesson, you get every remaining question answered live by the mentor, and nobody asks for a card. The fastest FAQ we have.
+Book a Priority Demo: your child gets a real one-hour lesson, you get every remaining question answered live by the mentor, and nobody asks for a card. The fastest FAQ we have.
 
-[WhatsApp a human instead](https://wa.me/919123366161?text=Hi%2C%20I%20have%20a%20question%20about%20your%20classes)
+[Book a Priority Demo](/priority-demo)[WhatsApp a human instead](https://wa.me/919123366161?text=Hi%2C%20I%20have%20a%20question%20about%20your%20classes)
 
 Parent & student voices
 

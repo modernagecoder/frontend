@@ -10,7 +10,7 @@ In short
 
 **Modern Age Coders provides live one-to-one online A-Level and AS maths tutoring for British-curriculum sixth-form students across the UAE**, Edexcel, AQA, OCR and Cambridge International, covering pure, mechanics and statistics.
 
-We rebuild the fluency A-Level assumes and teach concepts from first principles, then train exam technique, with the same tutor to the exam. Pricing is **USD 150 per month** for eight 1:1 sessions, lessons run in Gulf Standard Time, and the first session is free.
+We rebuild the fluency A-Level assumes and teach concepts from first principles, then train exam technique, with the same tutor to the exam. Lessons run in Gulf Standard Time, the monthly plans are shown in your currency in the pricing section, and you can see a full class first with a Priority Demo.
 
 Why A-Level maths catches students out
 
@@ -158,6 +158,8 @@ $150 / month
 - Taught to your board across pure, mechanics & stats
 - Past papers & technique · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Cohort
 
 $100 / month
@@ -219,11 +221,11 @@ Yes, all three strands, with the applied content as solid as the pure.
 
 How much does it cost?
 
-USD 150/month for 1:1, eight live sessions, two a week. Small-group option USD 100/month. No contract.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
-Is the first session free?
+Can we try a class before enrolling?
 
-Yes, no card needed.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Do you prepare for STEP, MAT or university admissions maths?
 

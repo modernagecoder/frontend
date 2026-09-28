@@ -1,20 +1,20 @@
 ---
 title: "Homeschool Coding Curriculum | Live Mentor, Records Included | Modern Age Coders"
-description: "A live-taught homeschool coding curriculum for ages 6-16: the Scratch-to-Python-to-AI ladder with a dedicated mentor, daytime slots, and filing-ready records - curriculum maps, progress notes and a project portfolio. 8 classes a month from USD 100. Free demo."
+description: "A live-taught homeschool coding curriculum for ages 6-16: the Scratch-to-Python-to-AI ladder with a dedicated mentor, daytime slots, and filing-ready records - curriculum maps, progress notes and a project portfolio. 8 classes a month. Priority Demo available."
 canonical: https://learn.modernagecoders.com/homeschool-coding-curriculum
 source: src/pages/homeschool-coding-curriculum.html
 ---
-> A live-taught homeschool coding curriculum for ages 6-16: the Scratch-to-Python-to-AI ladder with a dedicated mentor, daytime slots, and filing-ready records - curriculum maps, progress notes and a project portfolio. 8 classes a month from USD 100. Free demo.
+> A live-taught homeschool coding curriculum for ages 6-16: the Scratch-to-Python-to-AI ladder with a dedicated mentor, daytime slots, and filing-ready records - curriculum maps, progress notes and a project portfolio. 8 classes a month. Priority Demo available.
 
 Enroll now
 
 ## Pick the level. Start this week.
 
-Every level runs on a structured course, adapted live to your child and your homeschool's pace. Open one to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the placement pick for you.
+Every level runs on a structured course, adapted live to your child and your homeschool's pace. Open one to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the placement pick for you.
 
-[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Best fit  Python & AI for Kids Level 3 of the ladder: real Python with AI literacy, the heart of a serious homeschool CS block. Ages 9-138 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)  Scratch Programming Complete Level 1: the foundations, taught for ideas, from first sprite to shipped game, ages 6-9. Ages 6-98 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Level 2 energy: blocks, game builds and AI tools for the 8-12 bridge years. Ages 8-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)See what is includedThe 20-second answer
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Best fit  Python & AI for Kids Level 3 of the ladder: real Python with AI literacy, the heart of a serious homeschool CS block. Ages 9-138 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)  Scratch Programming Complete Level 1: the foundations, taught for ideas, from first sprite to shipped game, ages 6-9. Ages 6-98 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Level 2 energy: blocks, game builds and AI tools for the 8-12 bridge years. Ages 6-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-A good homeschool coding curriculum gives you three things most curricula cannot: **a live teacher** (so you never have to learn Python a chapter ahead of your child), **a real sequence** (Scratch to Python to AI, each level building on the last), and **records you can file**, curriculum maps, progress notes and a project portfolio for your homeschool documentation. That is what we do: 8 live one-hour classes a month with a dedicated mentor, daytime or afternoon slots, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first.
+A good homeschool coding curriculum gives you three things most curricula cannot: **a live teacher** (so you never have to learn Python a chapter ahead of your child), **a real sequence** (Scratch to Python to AI, each level building on the last), and **records you can file**, curriculum maps, progress notes and a project portfolio for your homeschool documentation. That is what we do: 8 live one-hour classes a month with a dedicated mentor, daytime or afternoon slots, 1-on-1 or small group, priced for your country and shown in your local currency, Priority Demo first.
 
 The homeschool CS wall
 
@@ -41,7 +41,7 @@ The curriculum map
 
 Honesty about credentials: we issue course completion certificates and detailed records; we are not an accredited school and do not claim to be. For most US homeschool documentation, parent-filed curriculum maps, portfolios and instructor progress notes, which we provide, are exactly what is needed; your state's requirements are your call, and our records are built to slot into them.
 
-Is this your homeschool?
+[Book a Priority Demo](/priority-demo)Is this your homeschool?
 
 ## Eight signs this curriculum slots right in.
 
@@ -152,6 +152,8 @@ $150 / month
 - Projects chosen with, and built by, your child
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -163,7 +165,7 @@ $100 / month
 
 [See the Python course](/courses/python-ai-kids-masterclass)
 
-That is **$12.50 per dedicated hour** of 1-on-1 teaching, or $5 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US kids coding costs in 2026](/coding-classes-for-kids-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US kids coding costs in 2026](/coding-classes-for-kids-cost).
 
 Who teaches your child
 
@@ -225,7 +227,7 @@ Completely, ages on the ladder are typical, not rules, and homeschoolers scatter
 
 Can our co-op form a group?
 
-Yes, and it is one of our favorite arrangements: three or four children from co-op families in one small group, same class, same projects, at $100 a month each. Mentors will happily align project demos with your co-op showcase days.
+Yes, and it is one of our favorite arrangements: three or four children from co-op families in one small group, same class, same projects, at the small-group monthly fee each. Mentors will happily align project demos with your co-op showcase days.
 
 Does this lead anywhere for college admissions?
 
@@ -233,7 +235,7 @@ Two places: a genuine project portfolio (shipped work a transcript line can poin
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract, pause any month your homeschool calendar demands it.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract, pause any month your homeschool calendar demands it.
 
 Do you teach homeschool math too?
 
@@ -243,9 +245,9 @@ What equipment does my child need?
 
 A computer with a browser and stable internet. Scratch and Python need nothing else; optional game-platform tracks (Roblox, Minecraft) need a machine that runs those tools, confirmed at the demo. Nothing to purchase.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every child starts with a free live demo class that doubles as the placement, a real lesson at a daytime hour if you like, no card details. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -257,7 +259,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, builds something real inside the hour, and you get an honest placement plus a look at the records you would receive, and nobody asks for a card. If your child does not leave the hour asking when the next class is, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 ---
 

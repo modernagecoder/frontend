@@ -10,11 +10,11 @@ Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick the level for you.
 
-[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![Algebra Foundations Masterclass course thumbnail](/images/algebra-foundations.webp)  Algebra Foundations Masterclass Pre-Algebra and Algebra 1 taught as a language, the most consequential stretch in school math. Grades 7-98 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/algebra-foundations-masterclass)See what is includedThe 20-second answer
+[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![Algebra Foundations Masterclass course thumbnail](/images/algebra-foundations.webp)  Algebra Foundations Masterclass Pre-Algebra and Algebra 1 taught as a language, the most consequential stretch in school math. Grades 7-98 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/algebra-foundations-masterclass)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-A good online math tutor for an 8th grader does three things: **builds slope as a rate the child can see**, growing straight out of grade 7 proportionality; **makes functions concrete**, a machine with inputs and outputs, before the notation abstracts them; and **gets equation-solving industrial-strength**, variables on both sides, no fear. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
+A good online math tutor for an 8th grader does three things: **builds slope as a rate the child can see**, growing straight out of grade 7 proportionality; **makes functions concrete**, a machine with inputs and outputs, before the notation abstracts them; and **gets equation-solving industrial-strength**, variables on both sides, no fear. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
 
 Why grade 8 is the densest year
 
@@ -68,9 +68,9 @@ Whether this year or next, the track decision is here, and guessing at readiness
 
 The density of grade 8 makes even strong students feel behind. Unaddressed, that feeling walks into high school with them.
 
-Three or more of these? A diagnostic hour finds the exact gaps. Our **demo class doubles as that diagnostic**, and it is free.
+Three or more of these? A diagnostic hour finds the exact gaps. A **Priority Demo doubles as that diagnostic**: a full live class, with a written skill report afterwards.
 
-How we teach grade 8
+[Book a Priority Demo](/priority-demo)How we teach grade 8
 
 ## Meaning first. Notation second. Fluency third.
 
@@ -187,7 +187,7 @@ The first three months
 
 ### Weeks 1-2 · Diagnose and win
 
-The free demo doubles as a diagnostic against the grade 8 map and the grade 6-7 engines beneath it. Early classes bank wins to steady confidence in the densest year.
+The Priority Demo doubles as a diagnostic against the grade 8 map and the grade 6-7 engines beneath it. Early classes bank wins to steady confidence in the densest year.
 
 ### Month 1 · Equations, industrial strength
 
@@ -369,6 +369,8 @@ $150 / month
 - Diagnostic-led plan against the full grade 8 map
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -380,7 +382,7 @@ $100 / month
 
 [See the middle school course](/courses/comprehensive-middle-school-mathematics-mastery)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your child
 
@@ -422,7 +424,7 @@ Parent questions
 
 How do I know if my 8th grader is ready for Algebra 1?
 
-Four markers: can they solve 3x + 5 = x + 13 and check it, explain what a slope of 3 means in a story, tell a function from a non-function with a reason, and use exponent laws with the expansion proof available on demand? Solid on all four is ready. Wobbly on two or more means readiness work beats forcing the track. Our free demo doubles as this diagnostic, and we will give you an honest read either way.
+Four markers: can they solve 3x + 5 = x + 13 and check it, explain what a slope of 3 means in a story, tell a function from a non-function with a reason, and use exponent laws with the expansion proof available on demand? Solid on all four is ready. Wobbly on two or more means readiness work beats forcing the track. A Priority Demo doubles as this diagnostic, and we will give you an honest read either way.
 
 My child computes slope fine but bombed the word problems. Why?
 
@@ -446,7 +448,7 @@ A dedicated mentor, the same one every class, tracking your teen against the gra
 
 What does it cost, exactly?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract, cancel any month. The first class is a free live demo, no card needed.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract, cancel any month.
 
 Is this aligned with my child's school?
 
@@ -464,9 +466,9 @@ Do you prepare for high-school placement exams?
 
 Yes. Placement exams test equation fluency, linear reasoning and function sense, exactly what we build, with format practice folded in before the date.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every family starts with a free live demo class, no card details, no obligation, and it doubles as the diagnostic. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Speak grade 8
 
@@ -530,7 +532,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, you get a diagnostic against the complete grade 8 map, and nobody asks for a card. If your child does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 ---
 

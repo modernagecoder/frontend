@@ -1,20 +1,20 @@
 ---
 title: "Online Math Tutor for 10th Grade | Geometry & Proof, Taught Right | Modern Age Coders"
-description: "Live 1:1 tenth grade math tutoring: proofs taught as detective work before notation, right-triangle trig from meaning, algebra kept warm for Algebra 2, and the PSAT framed calmly. One-hour classes twice a week, free demo."
+description: "Live 1:1 tenth grade math tutoring: proofs taught as detective work before notation, right-triangle trig from meaning, algebra kept warm for Algebra 2, and the PSAT framed calmly. One-hour classes twice a week. Priority Demo available."
 canonical: https://learn.modernagecoders.com/online-math-tutor-10th-grade
 source: src/pages/online-math-tutor-10th-grade.html
 ---
-> Live 1:1 tenth grade math tutoring: proofs taught as detective work before notation, right-triangle trig from meaning, algebra kept warm for Algebra 2, and the PSAT framed calmly. One-hour classes twice a week, free demo.
+> Live 1:1 tenth grade math tutoring: proofs taught as detective work before notation, right-triangle trig from meaning, algebra kept warm for Algebra 2, and the PSAT framed calmly. One-hour classes twice a week. Priority Demo available.
 
 Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your teen. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick for you.
+Every mentor teaches from a structured programme, adapted live to your teen. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick for you.
 
-[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery The grades 9-12 road: Geometry's reasoning plus the algebra that must stay warm underneath it. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![SAT Math 800 Prep course thumbnail](/images/sat-math-prep.webp)  SAT Math 800 Prep Course The PSAT is this year; the SAT is next. Sophomore starts get the calm, full runway. Grades 10-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/sat-math-prep-course)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Geometry's proofs done for joy: the contest track where deductive minds catch fire. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
+[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery The grades 9-12 road: Geometry's reasoning plus the algebra that must stay warm underneath it. Grades 9-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![SAT Math 800 Prep course thumbnail](/images/sat-math-prep.webp)  SAT Math 800 Prep Course The PSAT is this year; the SAT is next. Sophomore starts get the calm, full runway. Grades 10-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/sat-math-prep-course)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Geometry's proofs done for joy: the contest track where deductive minds catch fire. Ambitious students8 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-Good 10th grade math tutoring does three things: **teaches proof as detective work**, seeing why before writing two columns, **keeps the algebra warm**, because Geometry's coordinate and similarity problems still run on it and Algebra 2 arrives next year, and **starts the test-year runway**, with the PSAT this fall and the SAT on next year's calendar. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
+Good 10th grade math tutoring does three things: **teaches proof as detective work**, seeing why before writing two columns, **keeps the algebra warm**, because Geometry's coordinate and similarity problems still run on it and Algebra 2 arrives next year, and **starts the test-year runway**, with the PSAT this fall and the SAT on next year's calendar. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
 
 Why tenth grade surprises
 
@@ -85,7 +85,7 @@ The year, mapped
 
 ## From proof-shock to reasoning-strong.
 
-### Class 1 · The free demo diagnostic
+### Class 1 · The Priority Demo diagnostic
 
 A real lesson plus an audit: proof instincts, algebra warmth, and an honest read on the year ahead.
 
@@ -164,6 +164,8 @@ $150 / month
 - Diagnostic-led plan against the full 10th grade map
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -175,7 +177,7 @@ $100 / month
 
 [See the high school course](/courses/complete-high-school-mathematics-mastery)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your teen
 
@@ -237,7 +239,7 @@ The course, not the grade label: our 11th grade page describes the Algebra 2 roa
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. US tutoring centers charge $300 to $450 a month for the same format.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract. US tutoring centers charge $300 to $450 a month for the same format.
 
 Can you stretch a strong Geometry student?
 
@@ -247,9 +249,9 @@ How does this fit around sports seasons and the sophomore schedule?
 
 Slots flex around practice schedules and exam weeks, recordings cover the occasional miss, and mentors adjust intensity rather than guilt-tripping. Consistency wins the year, and we engineer for it rather than demand it.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every student starts with a free live demo class that doubles as the diagnostic, no card details, no obligation. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -261,7 +263,7 @@ Keep exploring
 
 Book the demo class. Your teen gets a real lesson with a real mentor, you get a diagnostic against the full 10th grade map, and nobody asks for a card. If your teen does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

@@ -10,11 +10,11 @@ Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick the level for you.
 
-[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)See what is includedThe 20-second answer
+[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-A real math catch-up program does three things a regular tutor rarely does: **diagnoses backward down the grade ladder** to find where solid ground actually is; **rebuilds the missing ideas properly** instead of re-explaining this week's homework louder; and **runs two clocks at once**, repairing the past while keeping your child from drowning in the present. That is what we do: 8 live one-hour classes a month with one dedicated mentor, 1-on-1 for $150 a month or small group for $100, free diagnostic demo first.
+A real math catch-up program does three things a regular tutor rarely does: **diagnoses backward down the grade ladder** to find where solid ground actually is; **rebuilds the missing ideas properly** instead of re-explaining this week's homework louder; and **runs two clocks at once**, repairing the past while keeping your child from drowning in the present. That is what we do: 8 live one-hour classes a month with one dedicated mentor, 1-on-1 or small group, priced in your currency, Priority Demo first.
 
 The anatomy of "behind"
 
@@ -68,9 +68,9 @@ Schools under-flag. By the time a teacher says it out loud, the gap is usually d
 
 "Just... behind" is exactly what an un-diagnosed gap feels like from the outside. Naming it is the first fix.
 
-Three or more of these? Stop guessing. The **free diagnostic demo** maps your child against the grade ladder and names the real gaps in one hour.
+Three or more of these? Stop guessing. The Priority Demo maps your child against the grade ladder and names the real gaps in one hour.
 
-How catching up actually works
+[Book a Priority Demo](/priority-demo)How catching up actually works
 
 ## Five stages, two clocks, one mentor.
 
@@ -108,7 +108,7 @@ Presenting problem: grade 7 proportionsActual gap: grade 4 fraction equivalence 
 
 The point is not this particular boy. The point is the shape: **the presenting problem is almost never the actual gap**, and teaching to the presenting problem is why so much tutoring money buys so little movement. Diagnose first. It is why our first hour is free.
 
-[Watch real recorded classes](/how-we-teach)Honest timelines
+[Book a Priority Demo](/priority-demo)[Watch real recorded classes](/how-we-teach)Honest timelines
 
 ## How long catching up really takes.
 
@@ -166,6 +166,8 @@ $150 / month
 - Diagnostic-led plan against the full catch-up plan
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -177,7 +179,7 @@ $100 / month
 
 [See the middle school course](/courses/comprehensive-middle-school-mathematics-mastery)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your child
 
@@ -243,7 +245,7 @@ After the diagnostic we will tell you which shape your child is: one term behind
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no packs, no long contracts sold on a worried evening. The diagnostic demo is free, no card needed.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no packs, no long contracts sold on a worried evening.
 
 Who teaches, and is it the same person throughout?
 
@@ -253,9 +255,9 @@ My child is embarrassed about being behind. How do classes feel?
 
 Private, patient and judgment-free. In 1-on-1 there is no audience, and our mentors never treat a gap as a character flaw, because it is not one. Many students who arrive silent are explaining answers out loud within three weeks. That shift is the program working.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. The first hour is a free live diagnostic demo with a real mentor: you get the gap map in plain language and an honest recommendation, even if the recommendation is that you do not need us. No card details, no obligation. The promise is on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -267,7 +269,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, you get a diagnostic against the gap map for your child, free, and nobody asks for a card. If your child does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

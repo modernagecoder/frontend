@@ -150,6 +150,8 @@ $150 / month
 - Tailored to GL, CEM or your target schools
 - Notes after every lesson · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Cohort
 
 $100 / month
@@ -211,11 +213,11 @@ Yes. We build speed gradually on a foundation of understanding and teach calm st
 
 How much does it cost?
 
-USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
-Is there a free trial?
+Can we try a class before enrolling?
 
-Yes, the first lesson is free, no card needed. We assess your child and the exams they're targeting.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Will my child keep the same tutor?
 

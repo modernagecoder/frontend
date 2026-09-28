@@ -1,20 +1,20 @@
 ---
 title: "Precalculus Tutoring Online | Live 1:1 Classes | Modern Age Coders"
-description: "Live 1:1 precalculus tutoring: the unit circle rebuilt from three triangles, function behavior made visual, identities derived not memorized, AP readiness tracked. One-hour classes twice a week, free demo."
+description: "Live 1:1 precalculus tutoring: the unit circle rebuilt from three triangles, function behavior made visual, identities derived not memorized, AP readiness tracked. One-hour classes twice a week. Priority Demo available."
 canonical: https://learn.modernagecoders.com/precalculus-tutoring-online
 source: src/pages/precalculus-tutoring-online.html
 ---
-> Live 1:1 precalculus tutoring: the unit circle rebuilt from three triangles, function behavior made visual, identities derived not memorized, AP readiness tracked. One-hour classes twice a week, free demo.
+> Live 1:1 precalculus tutoring: the unit circle rebuilt from three triangles, function behavior made visual, identities derived not memorized, AP readiness tracked. One-hour classes twice a week. Priority Demo available.
 
 Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick the level for you.
 
-[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![AP Calculus AB and BC Exam Prep course thumbnail](/images/ap-calculus-prep.webp)  AP Calculus AB & BC Exam Prep Three ideas taught like ideas, then trained against real FRQ rubrics. Score 5 goal. AP AB & BC8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ap-calculus-exam-prep)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
+[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![AP Calculus AB and BC Exam Prep course thumbnail](/images/ap-calculus-prep.webp)  AP Calculus AB & BC Exam Prep Three ideas taught like ideas, then trained against real FRQ rubrics. Score 5 goal. AP AB & BC8 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ap-calculus-exam-prep)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-A good precalculus tutor does three things: **teaches the unit circle as three triangles, not thirty memorized points**, so trigonometry becomes reconstruction instead of recall; **makes function behavior visual**, asymptotes, end behavior, composition, inverses, because calculus is entirely about function behavior; and **keeps the AP or college placement target in view** from week one. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
+A good precalculus tutor does three things: **teaches the unit circle as three triangles, not thirty memorized points**, so trigonometry becomes reconstruction instead of recall; **makes function behavior visual**, asymptotes, end behavior, composition, inverses, because calculus is entirely about function behavior; and **keeps the AP or college placement target in view** from week one. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
 
 Why precalculus feels like two courses
 
@@ -68,9 +68,9 @@ Falling one unit behind in precalculus compounds weekly, because every unit lean
 
 If readiness for the fall is a guess, that is a diagnostic question, and it deserves a real answer before schedules lock.
 
-Three or more of these? A diagnostic hour maps the gaps against both pillars. Our **demo class doubles as that diagnostic**, and it is free.
+Three or more of these? A diagnostic hour maps the gaps against both pillars. A **Priority Demo doubles as that diagnostic**: a full live class, with a written skill report afterwards.
 
-How we teach precalculus
+[Book a Priority Demo](/priority-demo)How we teach precalculus
 
 ## Two pillars, everything else derived.
 
@@ -152,7 +152,7 @@ The first three months
 
 ### Weeks 1-2 · Diagnose and win
 
-The free demo maps both pillars, function behavior and trig readiness, plus the Algebra 2 machinery underneath. Early wins first.
+The Priority Demo maps both pillars, function behavior and trig readiness, plus the Algebra 2 machinery underneath. Early wins first.
 
 ### Month 1 · Function behavior, mastered
 
@@ -213,6 +213,8 @@ $150 / month
 - Diagnostic-led plan against the full precalculus plan
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -224,7 +226,7 @@ $100 / month
 
 [See the middle school course](/courses/comprehensive-middle-school-mathematics-mastery)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your teen
 
@@ -286,7 +288,7 @@ Yes. We track both pillars against AP-readiness explicitly, preview limits hones
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. US tutoring at this level commonly runs $60 to $150 per hour.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
 Who teaches precalculus?
 
@@ -300,9 +302,9 @@ My teen is strong. Can you stretch them instead?
 
 Happily: deeper identity work, BC-flavored parametrics and polar, competition trigonometry, and early differential calculus for the genuinely ready.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every student starts with a free live demo class that doubles as the two-pillar diagnostic, no card details, no obligation. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -314,7 +316,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, you get a diagnostic against one full hour of real precalculus teaching, free, and nobody asks for a card. If your teen does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

@@ -1,16 +1,16 @@
 ---
 title: "Online Maths Tuition in the UAE · 1:1 Across Every Curriculum & Emirate | Modern Age Coders"
-description: "Live 1:1 online maths tuition across the UAE, for British, American, IB, CBSE and MOE curricula, all ages, in every emirate. We teach the reasoning behind the maths, not rote memorising. Mentors in Gulf Standard Time. USD 150/month, 8 classes. Book a free trial."
+description: "Live 1:1 online maths tuition across the UAE, for British, American, IB, CBSE and MOE curricula, all ages, in every emirate. We teach the reasoning behind the maths, not rote memorising. Mentors in Gulf Standard Time. Book a Priority Demo."
 canonical: https://learn.modernagecoders.com/online-maths-tuition-uae
 source: src/pages/online-maths-tuition-uae.html
 ---
-> Live 1:1 online maths tuition across the UAE, for British, American, IB, CBSE and MOE curricula, all ages, in every emirate. We teach the reasoning behind the maths, not rote memorising. Mentors in Gulf Standard Time. USD 150/month, 8 classes. Book a free trial.
+> Live 1:1 online maths tuition across the UAE, for British, American, IB, CBSE and MOE curricula, all ages, in every emirate. We teach the reasoning behind the maths, not rote memorising. Mentors in Gulf Standard Time. Book a Priority Demo.
 
 In short
 
 **Modern Age Coders provides live, one-to-one online maths tuition across the UAE**, in Dubai, Abu Dhabi, Sharjah and every emirate, for the British (GCSE, A-Level), American (SAT, AP), IB (Maths AA & AI), CBSE and UAE MOE curricula, for all ages from primary to adult.
 
-Lessons run in Gulf Standard Time with a dedicated tutor who teaches the reasoning behind the maths, not rote memorising. Pricing is **USD 150 per month** for eight 1:1 lessons, or USD 100 per month in a small group. The first lesson is free.
+Lessons run in Gulf Standard Time with a dedicated tutor who teaches the reasoning behind the maths, not rote memorising. The monthly plans for 1-on-1 and small-group lessons are shown in your currency in the pricing section, and you can see a full class first with a Priority Demo.
 
 Why UAE families struggle to find the right maths help
 
@@ -156,6 +156,8 @@ $150 / month
 - Taught to your child's school & syllabus
 - Notes after every lesson · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Cohort
 
 $100 / month
@@ -209,11 +211,11 @@ All of them, Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah and Umm 
 
 How much does maths tuition cost in the UAE?
 
-USD 150 per month for private 1:1, eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
-Is the first lesson free?
+Can we try a class before enrolling?
 
-Yes, the first lesson is free, with no card needed to book. You meet the tutor and we assess your child and curriculum.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Are the lessons live or recorded?
 

@@ -1,10 +1,10 @@
 ---
 title: "Online Maths Tutoring for Kids in the USA · 1:1 Elementary Math (K–5) | Modern Age Coders"
-description: "Live 1:1 online math tutoring for kids in the USA, ages 6–11. We teach the reasoning behind the math, place value, fractions and word problems, not tricks to memorize. Aligned to Common Core, mentors in every US time zone. $150/month, 8 classes. Book a free trial."
+description: "Live 1:1 online math tutoring for kids in the USA, ages 6–11. We teach the reasoning behind the math, place value, fractions and word problems, not tricks to memorize. Aligned to Common Core, mentors in every US time zone. $150/month, 8 classes. Book a Priority Demo."
 canonical: https://learn.modernagecoders.com/online-maths-tutoring-for-kids-in-usa
 source: src/pages/online-maths-tutoring-for-kids-in-usa.html
 ---
-> Live 1:1 online math tutoring for kids in the USA, ages 6–11. We teach the reasoning behind the math, place value, fractions and word problems, not tricks to memorize. Aligned to Common Core, mentors in every US time zone. $150/month, 8 classes. Book a free trial.
+> Live 1:1 online math tutoring for kids in the USA, ages 6–11. We teach the reasoning behind the math, place value, fractions and word problems, not tricks to memorize. Aligned to Common Core, mentors in every US time zone. $150/month, 8 classes. Book a Priority Demo.
 
 Why so many kids stall
 
@@ -150,6 +150,8 @@ $150 / month
 - A learning plan built around your child
 - Notes after every class · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Cohort
 
 $100 / month
@@ -207,11 +209,11 @@ This is the most common reason families come to us. Most kids don't dislike math
 
 How much does it cost?
 
-USD 150 per month for private 1:1 tutoring, eight live classes, two each week. A small-group option is USD 100 per month for the same eight classes. No contract; cancel any time.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
-Is there a free trial?
+Can we try a class before enrolling?
 
-Yes. The first lesson is free. You and your child meet the mentor, we look at where your child is, and you decide afterward, no card needed to book it.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Will my child have the same tutor every time?
 
@@ -241,7 +243,7 @@ Can we start in the middle of the school year?
 
 Yes. We start wherever your child is. Many families come to us mid-year because something specific stopped making sense, and we begin exactly there.
 
-## Book a free trial lesson for your child.
+## Book a Priority Demo for your child.
 
 Meet the mentor, see how we teach, and watch your child explain a piece of math back to you. No card needed, no pressure afterward.
 

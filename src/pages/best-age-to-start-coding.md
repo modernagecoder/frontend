@@ -10,9 +10,13 @@ Start at the right rung
 
 ## The age-matched courses. The trial confirms the rung.
 
-[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)Ages 6-9  Scratch Programming Complete The classic first rung: real computer-science ideas in friendly blocks, no typing burden. Ages 6-98 live classes / monthFree trial first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids The bridge years: blocks, game builds and AI tools for the 8-12 crowd warming up to text. Ages 8-128 live classes / monthFree trial first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids Text code, gently: the right first language for the 9-13 starter, and the graduation for younger ones. Ages 9-138 live classes / monthFree trial first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[See teen and adult tracks too](/courses)The 20-second answer
+[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)Ages 6-9  Scratch Programming Complete The classic first rung: real computer-science ideas in friendly blocks, no typing burden. Ages 6-98 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids The bridge years: blocks, game builds and AI tools for the 8-12 crowd warming up to text. Ages 8-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids Text code, gently: the right first language for the 9-13 starter, and the graduation for younger ones. Ages 9-138 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[Book a Priority Demo](/priority-demo)[See teen and adult tracks too](/courses)
 
-**Ages 6-9 is the sweet spot to start**, with block coding (Scratch) carrying real ideas without typing or syntax in the way. **Ages 9-12 start beautifully in text code** (Python) directly. Before 6, coding-flavored play beats formal classes. And later is never too late: a motivated 14-year-old catches a casual 8-year-start within months. The variable that outweighs age every time: **readiness signals**, curiosity about how things work, tolerance for tinkering, and enough reading fluency for the tool in question.
+## What is the best age to start coding?
+
+The best age to start coding is **6 to 9** for block coding like Scratch, which carries real ideas without typing or syntax in the way. From **9 to 12**, children can start directly in text code such as Python. Before 6, coding-flavored play beats formal classes.
+
+And later is never too late: a motivated 14-year-old catches a casual 8-year-start within months. The variable that outweighs age every time is **readiness**, curiosity about how things work, tolerance for tinkering, and enough reading fluency for the tool in question.
 
 The age map
 
@@ -21,7 +25,7 @@ The age map
 | Age | The honest recommendation | Why |
 | --- | --- | --- |
 | 4-5 | Not formal classes yet: puzzle play, pattern games, following-instructions games | Pre-readers gain little from structured coding; the thinking skills build better through play. We say "wait" to these families, and mean it |
-| 5-6 | Borderline: ScratchJr-style picture blocks IF the signals are strong | Some children are ready, most gain more by waiting a year; the free trial reads it honestly |
+| 5-6 | Borderline: ScratchJr-style picture blocks IF the signals are strong | Some children are ready, most gain more by waiting a year; a Priority Demo reads it honestly |
 | 6-9 | The sweet spot: Scratch, taught for ideas | Reading arrives, abstract play flourishes, and instant visual feedback matches the age's need for quick wins. Ideas learned now compound for a decade |
 | 9-12 | Either door: fast-tracked Scratch or straight into Python | Typing and abstraction mature; motivation platforms (Roblox, Minecraft) peak. The single best age range for a text-code start |
 | 13-16 | Python directly, with real projects fast | Teens need to be respected: real language, real builds, visible results. Blocks feel babyish and rightly so |
@@ -107,7 +111,7 @@ Indirectly: early starts buy pressure-free runway toward AP Computer Science, po
 
 My child tried coding and hated it. Wrong age or wrong child?
 
-Usually wrong format: an app with no teacher, a boring curriculum, a batch class at the wrong pace. Before concluding "not my kid", try one hour of genuinely interactive 1-on-1 teaching, the free trial exists precisely for this experiment, and the result surprises parents weekly.
+Usually wrong format: an app with no teacher, a boring curriculum, a batch class at the wrong pace. Before concluding "not my kid", try one hour of genuinely interactive 1-on-1 teaching, a Priority Demo is built for exactly this experiment, and the result surprises parents weekly.
 
 What about maths readiness: should maths come first?
 
@@ -125,7 +129,7 @@ Keep exploring
 
 ## The readiness question has a one-hour answer.
 
-Book the free trial class. A mentor reads your child's actual readiness, level, temperament, spark, and tells you plainly: start now, start here, or wait. No card, no pressure, and the honest answer either way.
+Book a Priority Demo. A mentor reads your child's actual readiness, level, temperament, spark, and tells you plainly: start now, start here, or wait. No pressure, and the honest answer either way.
 
 [Watch real classes first](/how-we-teach)
 

@@ -18,7 +18,7 @@ One door for each answer
 
 ## Coding, maths, or the course that refuses to choose.
 
-[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)The fusion  Maths Through Coding The thesis as a course: learn maths by building it in Python, fraction machines, turtle geometry, probability sims. Ages 10-158 live classes / monthFree trial first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/maths-through-coding)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The coding-first door: real text code taught gently, with the maths smuggled in through projects. Coding · Ages 9-138 live classes / monthFree trial first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery The maths-first door: the make-or-break school years taught for ownership, coding connections included. Maths · Grades 6-88 live classes / monthFree trial first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[Browse all 80+ courses](/courses)The 20-second answer
+[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)The fusion  Maths Through Coding The thesis as a course: learn maths by building it in Python, fraction machines, turtle geometry, probability sims. Ages 10-158 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/maths-through-coding)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The coding-first door: real text code taught gently, with the maths smuggled in through projects. Coding · Ages 9-138 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery The maths-first door: the make-or-break school years taught for ownership, coding connections included. Maths · Grades 6-88 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[Book a Priority Demo](/priority-demo)[Browse all 80+ courses](/courses)The 20-second answer
 
 Neither "wins": **coding and maths train the same underlying muscle**, structured, logical, creative problem-solving, from two directions. Coding makes ideas touchable and motivating; maths makes them rigorous and general. Which first? Follow the current need: school maths hurting means maths first (confidence there lifts everything); curiosity burning means coding first (the motivation engine is free). Best of all worlds: both, or our fusion course where children learn maths by programming it.
 
@@ -61,7 +61,7 @@ The sequencing decision
 | Strong at both, hungry for more | Both, one slot each | Two hours a week, two subjects, one mentor style; this is our most common two-slot pattern |
 | Exam year approaching (SAT, GCSE, boards) | Maths first, coding after the exam | Sequencing honesty: the exam calendar wins, and coding makes a great post-exam reward that keeps momentum |
 
-Unsure which row is yours? That is what the free trial reads: one hour with a mentor who teaches both, ending in a straight recommendation.
+Unsure which row is yours? That is what a Priority Demo reads: one hour with a mentor who teaches both, ending in a straight recommendation.
 
 The overlap, live
 
@@ -93,7 +93,7 @@ Do not force, smuggle. This exact child is who our fusion approach exists for: t
 
 My child is great at maths but shows no interest in coding. Is that fine?
 
-Completely, and also worth one experiment: mathematically strong children often light up when they discover code is the best maths toy ever built, proofs they can run, patterns they can generate. One free trial settles whether the spark exists; if not, deeper maths (competition tracks, advanced courses) is a wonderful road on its own.
+Completely, and also worth one experiment: mathematically strong children often light up when they discover code is the best maths toy ever built, proofs they can run, patterns they can generate. One Priority Demo settles whether the spark exists; if not, deeper maths (competition tracks, advanced courses) is a wonderful road on its own.
 
 Is coding just maths in disguise? My child is young and weak at maths.
 
@@ -101,7 +101,7 @@ Starting coding does not require strong maths, Scratch at age 6-9 needs no more 
 
 What do the two tracks cost, and why the difference?
 
-Both tracks cost the same outside India: $100 a month group, $150 1-on-1, still well under the $200-$425 US tutoring norm. Maths carries deeper diagnostics and school-system alignment; in India both tracks now share one 1-on-1 rate, ₹4,999 a month for 4 private classes. Group plans run 8 live one-hour classes a month. Both: recordings, no registration fee, free trial first.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the [pricing section](/pricing). Billing is monthly, there is no contract and you can cancel any time.
 
 Can one child do both without overload?
 
@@ -115,13 +115,13 @@ Keep exploring
 
 ## Both roads, and the bridge between them.
 
-[The fusion courseMaths Through Coding](/courses/maths-through-coding)[The other big questionBest Age to Start Coding](/best-age-to-start-coding)[The coding manifestoReal Coding Classes](/real-coding-classes)[The maths guideBest Online Math Tutoring 2026](/best-online-math-tutoring-2026)[Maths hurting now?Math Catch-Up Program](/math-catch-up-program)[Let evidence decideThe Free Trial Class](/free-trial)
+[The fusion courseMaths Through Coding](/courses/maths-through-coding)[The other big questionBest Age to Start Coding](/best-age-to-start-coding)[The coding manifestoReal Coding Classes](/real-coding-classes)[The maths guideBest Online Math Tutoring 2026](/best-online-math-tutoring-2026)[Maths hurting now?Math Catch-Up Program](/math-catch-up-program)[Let evidence decideThe Priority Demo](/priority-demo)
 
 ## One hour with a mentor who teaches both. Then you will know.
 
-Book the free trial class. The mentor reads your child across both subjects and recommends a door plainly, coding first, maths first, or the fusion. No card, no pressure, and the honest answer either way.
+Book a Priority Demo. The mentor reads your child across both subjects and recommends a door plainly, coding first, maths first, or the fusion. No pressure, and the honest answer either way.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

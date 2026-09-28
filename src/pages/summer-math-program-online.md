@@ -1,20 +1,20 @@
 ---
 title: "Online Summer Math Program 2026 | Catch Up or Get Ahead"
-description: "Live online summer math for grades 3-9: a diagnostic finds what last year left broken, then a dedicated mentor repairs it or previews next year. One-hour classes twice a week, vacation-friendly. Free demo."
+description: "Live online summer math for grades 3-9: a diagnostic finds what last year left broken, then a dedicated mentor repairs it or previews next year. One-hour classes twice a week, vacation-friendly. Priority Demo available."
 canonical: https://learn.modernagecoders.com/summer-math-program-online
 source: src/pages/summer-math-program-online.html
 ---
-> Live online summer math for grades 3-9: a diagnostic finds what last year left broken, then a dedicated mentor repairs it or previews next year. One-hour classes twice a week, vacation-friendly. Free demo.
+> Live online summer math for grades 3-9: a diagnostic finds what last year left broken, then a dedicated mentor repairs it or previews next year. One-hour classes twice a week, vacation-friendly. Priority Demo available.
 
 Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick the level for you.
 
-[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)Best fit  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
+[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)Best fit  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-A good online summer math program is **live teaching, not a workbook with a subscription fee**: a real mentor, a diagnostic that finds exactly what last year left broken, and a plan that repairs it before previewing what September will assume. Ours runs **8 live one-hour classes a month, twice a week**, scheduled around family trips, 1-on-1 for $150 a month or small group for $100, with a free demo class first. Even a mid-summer start changes how the fall opens.
+A good online summer math program is **live teaching, not a workbook with a subscription fee**: a real mentor, a diagnostic that finds exactly what last year left broken, and a plan that repairs it before previewing what September will assume. Ours runs **8 live one-hour classes a month, twice a week**, scheduled around family trips, 1-on-1 or small group, priced in your currency, with a Priority Demo first. Even a mid-summer start changes how the fall opens.
 
 Why summer decides September
 
@@ -34,7 +34,7 @@ Choose your summer
 
 ### The Catch-Up Track
 
-For the child who ended the year behind, or shakier than the report card admits. The free demo doubles as a diagnostic against their grade's full map; then we rebuild the two or three broken ideas properly, multiplication meaning, the fraction number line, sign rules, whatever the diagnostic actually finds, with no school-year clock forcing us to move on before it holds.
+For the child who ended the year behind, or shakier than the report card admits. The Priority Demo doubles as a diagnostic against their grade's full map; then we rebuild the two or three broken ideas properly, multiplication meaning, the fraction number line, sign rules, whatever the diagnostic actually finds, with no school-year clock forcing us to move on before it holds.
 
 **Typical arc:** weeks 1-2 diagnose and stabilize, weeks 3-6 rebuild the core gaps, weeks 7-8 reconnect and preview September's first units so the year opens warm.
 
@@ -44,9 +44,9 @@ For the child who ended the year solid and could own September. We preview the c
 
 **Typical arc:** weeks 1-2 consolidate this year's peaks, weeks 3-7 build next year's two big ideas from meaning, week 8 hard problems for the joy of it, including competition-style challenges for the hungry.
 
-Not sure which fits? That is exactly what the free diagnostic demo answers, honestly, including "your child is fine, enjoy the pool."
+Not sure which fits? That is exactly what a Priority Demo answers, honestly, including "your child is fine, enjoy the pool."
 
-How summer classes work
+[Book a Priority Demo](/priority-demo)How summer classes work
 
 ## Serious teaching that does not feel like summer school.
 
@@ -88,7 +88,7 @@ Diagnosis: fraction-as-position missing (a grade 3 idea)Plan: 2 weeks rebuilding
 
 Six summer weeks later she is not "caught up on grade 5"; she is standing on ground that finally holds, which is a different and better thing. This is why the diagnostic comes first and why it is free: neither you nor we should guess.
 
-[Watch real recorded classes](/how-we-teach)The summer map, grade by grade
+[Book a Priority Demo](/priority-demo)[Watch real recorded classes](/how-we-teach)The summer map, grade by grade
 
 ## What to repair, and what to preview, entering each grade.
 
@@ -168,6 +168,8 @@ $150 / month
 - Diagnostic-led plan against the full summer plan
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -179,7 +181,7 @@ $100 / month
 
 [See the middle school course](/courses/comprehensive-middle-school-mathematics-mastery)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your child
 
@@ -233,7 +235,7 @@ Flexibly. Slots move around family trips, missed classes are covered by recordin
 
 Which track does my child need?
 
-The free demo doubles as a diagnostic that answers exactly this. Behind-the-scenes truth: many "get ahead" requests turn out to need two weeks of repair first, and many "catch up" children are closer to solid than their report card suggested. We will tell you honestly, including if the answer is "enjoy the pool".
+The Priority Demo doubles as a diagnostic that answers exactly this. Behind-the-scenes truth: many "get ahead" requests turn out to need two weeks of repair first, and many "catch up" children are closer to solid than their report card suggested. We will tell you honestly, including if the answer is "enjoy the pool".
 
 How many weeks does a real result take?
 
@@ -241,7 +243,7 @@ One properly rebuilt idea: about four weeks at twice a week. A full catch-up arc
 
 What does it cost?
 
-The same transparent pricing as the rest of the year: Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no summer surcharge, cancel any month. Compare that with US summer math camps and intensives, which commonly run several hundred dollars a week.
+The same transparent pricing as the rest of the year: Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no summer surcharge, cancel any month. Compare that with US summer math camps and intensives, which commonly run several hundred dollars a week.
 
 Who teaches?
 
@@ -255,9 +257,9 @@ Can my child do coding too?
 
 Yes, and summer is the perfect season for it. Many students pair math with our coding track, or take the coding-flavored math classes where the week's concept becomes a small program. One school, one bill, both skills.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every family starts with a free live demo class that doubles as the diagnostic, no card details, no obligation. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -269,7 +271,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, you get a diagnostic against a plan for the weeks you have left, and nobody asks for a card. If your child does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

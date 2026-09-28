@@ -1,20 +1,20 @@
 ---
 title: "Online Math Tutor for 12th Grade | Finish Strong, Land Ready | Modern Age Coders"
-description: "Live 1:1 senior-year math tutoring: the mid-year report protected, AP May taken seriously, a placement-test audit through spring, and an optional college-math bridge. One-hour classes twice a week, free demo."
+description: "Live 1:1 senior-year math tutoring: the mid-year report protected, AP May taken seriously, a placement-test audit through spring, and an optional college-math bridge. One-hour classes twice a week. Priority Demo available."
 canonical: https://learn.modernagecoders.com/online-math-tutor-12th-grade
 source: src/pages/online-math-tutor-12th-grade.html
 ---
-> Live 1:1 senior-year math tutoring: the mid-year report protected, AP May taken seriously, a placement-test audit through spring, and an optional college-math bridge. One-hour classes twice a week, free demo.
+> Live 1:1 senior-year math tutoring: the mid-year report protected, AP May taken seriously, a placement-test audit through spring, and an optional college-math bridge. One-hour classes twice a week. Priority Demo available.
 
 Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your senior's actual course and calendar. Open one to see the syllabus and enroll in minutes, or start with the **free demo class**.
+Every mentor teaches from a structured programme, adapted live to your senior's actual course and calendar. Open one to see the syllabus and enroll in minutes, or start with a **Priority Demo**.
 
-[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery Whatever the senior course is, precalc, calc, stats, taught for the grade now and the readiness after. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![AP Calculus Exam Prep course thumbnail](/images/ap-calculus-prep.webp)  AP Calculus AB & BC Exam Prep For seniors in AP Calc: the rubric-and-mock machine, aimed at May and the college credit behind it. AP AB & BC8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ap-calculus-exam-prep)[![College Mathematics Masterclass course thumbnail](/images/college-level-maths.webp)  College Mathematics Masterclass The bridge across the summer: calculus and linear algebra met early, so freshman year starts ahead. College level8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/college-mathematics-complete-masterclass)See what is includedThe 20-second answer
+[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery Whatever the senior course is, precalc, calc, stats, taught for the grade now and the readiness after. Grades 9-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![AP Calculus Exam Prep course thumbnail](/images/ap-calculus-prep.webp)  AP Calculus AB & BC Exam Prep For seniors in AP Calc: the rubric-and-mock machine, aimed at May and the college credit behind it. AP AB & BC8 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ap-calculus-exam-prep)[![College Mathematics Masterclass course thumbnail](/images/college-level-maths.webp)  College Mathematics Masterclass The bridge across the summer: calculus and linear algebra met early, so freshman year starts ahead. College level8 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/college-mathematics-complete-masterclass)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-Good 12th grade math tutoring plays both halves of the year honestly: **fall protects the transcript**, because colleges read mid-year reports and can revisit offers after a collapsed spring, and **the whole year builds what college will actually test**: placement exams, freshman calculus, and the quantitative footing every major now assumes. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
+Good 12th grade math tutoring plays both halves of the year honestly: **fall protects the transcript**, because colleges read mid-year reports and can revisit offers after a collapsed spring, and **the whole year builds what college will actually test**: placement exams, freshman calculus, and the quantitative footing every major now assumes. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
 
 The senior paradox
 
@@ -82,7 +82,7 @@ The year, mapped
 
 ## From application season to freshman-ready.
 
-### Class 1 · The free demo diagnostic
+### Class 1 · The Priority Demo diagnostic
 
 Course position, college list realities, AP commitments, and the two-half plan drafted honestly.
 
@@ -161,6 +161,8 @@ $150 / month
 - Diagnostic-led plan against the full 12th grade map
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -172,7 +174,7 @@ $100 / month
 
 [See the college bridge course](/courses/college-mathematics-complete-masterclass)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your senior
 
@@ -238,15 +240,15 @@ Of course, "pass the course, protect the offer" is a perfectly honorable brief, 
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract, and the flexibility a senior calendar demands.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract, and the flexibility a senior calendar demands.
 
 Is it too late to start mid-year?
 
 No, each senior goal has its own runway: a spring AP push, a placement audit, or a final-semester rescue all work from a winter start. The demo reads which goals are live and what the honest plan looks like.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every student starts with a free live demo class that doubles as the diagnostic, no card details, no obligation. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -258,7 +260,7 @@ Keep exploring
 
 Book the demo class. Your senior gets a real lesson with a real mentor, you get a diagnostic against the full 12th grade map, and nobody asks for a card. If your senior does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

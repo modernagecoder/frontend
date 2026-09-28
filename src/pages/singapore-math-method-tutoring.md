@@ -1,20 +1,20 @@
 ---
 title: "Singapore Math Method Tutoring Online | Bar Models, Live 1:1 | Modern Age Coders"
-description: "Live 1:1 Singapore Math method tutoring: the full Concrete-Pictorial-Abstract progression, bar models and number bonds taught by real teachers, your workbooks folded in. One-hour classes twice a week, free demo."
+description: "Live 1:1 Singapore Math method tutoring: the full Concrete-Pictorial-Abstract progression, bar models and number bonds taught by real teachers, your workbooks folded in. One-hour classes twice a week. Priority Demo available."
 canonical: https://learn.modernagecoders.com/singapore-math-method-tutoring
 source: src/pages/singapore-math-method-tutoring.html
 ---
-> Live 1:1 Singapore Math method tutoring: the full Concrete-Pictorial-Abstract progression, bar models and number bonds taught by real teachers, your workbooks folded in. One-hour classes twice a week, free demo.
+> Live 1:1 Singapore Math method tutoring: the full Concrete-Pictorial-Abstract progression, bar models and number bonds taught by real teachers, your workbooks folded in. One-hour classes twice a week. Priority Demo available.
 
 Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick the level for you.
 
-[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)Best fit  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids Number sense, not tricks: bonds, strategies and estimation built into speed that never expires. Ages 5-108 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)See what is includedThe 20-second answer
+[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)Best fit  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids Number sense, not tricks: bonds, strategies and estimation built into speed that never expires. Ages 5-108 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-The Singapore Math method teaches every idea three times: with **objects** (concrete), with **drawings, especially bar models** (pictorial), and only then with **symbols** (abstract). It covers fewer topics per year and takes each to mastery. It works, Singapore's students have topped international math rankings for decades, but it needs a teacher trained to run the progression, not just a workbook. We provide that teacher: live 1-on-1 for $150 a month or small group for $100, 8 one-hour classes, free demo first.
+The Singapore Math method teaches every idea three times: with **objects** (concrete), with **drawings, especially bar models** (pictorial), and only then with **symbols** (abstract). It covers fewer topics per year and takes each to mastery. It works, Singapore's students have topped international math rankings for decades, but it needs a teacher trained to run the progression, not just a workbook. We provide that teacher: live 1-on-1 or small group, priced in your currency, 8 one-hour classes, Priority Demo first.
 
 Why parents come looking for this
 
@@ -106,9 +106,9 @@ Your child needs to join, or smoothly leave, a system that assumes bar models an
 
 The method's depth, one problem, many routes, explain your thinking, is exactly what under-challenged children are missing.
 
-If several of these landed, the free demo class will show you, not tell you, whether this teaching fits your child.
+If several of these landed, a Priority Demo will show you, not tell you, whether this teaching fits your child.
 
-How we run the method online
+[Book a Priority Demo](/priority-demo)How we run the method online
 
 ## The CPA progression, live on a shared screen.
 
@@ -169,7 +169,7 @@ A typical first term
 
 ## From diagnostic to visible mastery.
 
-### Class 1 · The free demo diagnostic
+### Class 1 · The Priority Demo diagnostic
 
 A real lesson that doubles as a stage check: where is number sense, where do word problems break, has the child ever met a bar model?
 
@@ -211,7 +211,7 @@ Word problems where today's model does real work, attempted solo, then unpicked 
 
 The child teaches the idea back, then meets one twist. What survives explaining is what is actually learned.
 
-Children **wait for these classes**. Not because math became easy, but because understanding feels good and the hour is genuinely theirs. The free demo lets you watch it happen. [See exactly how we teach →](/how-we-teach)
+Children **wait for these classes**. Not because math became easy, but because understanding feels good and the hour is genuinely theirs. A Priority Demo lets you watch it happen. [See exactly how we teach →](/how-we-teach)
 
 The honest part
 
@@ -256,6 +256,8 @@ $150 / month
 - Diagnostic-led plan up the full mastery ladder
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -267,7 +269,7 @@ $100 / month
 
 [See the elementary course](/courses/elementary-mathematics-complete-masterclass)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your child
 
@@ -341,15 +343,15 @@ Honestly, not by much, which is exactly why we offer it. Understanding before pr
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. Singapore-brand online programs alone run $100 to $300 a month without a live teacher.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
 Do you follow the actual Singapore MOE syllabus?
 
 For families in or moving to Singapore, yes, we align with MOE syllabus stages and PSLE expectations on our dedicated Singapore tuition track. For everyone else, we teach the method mapped to your school system’s grades, which is what most international families actually need.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every child starts with a free live demo class that doubles as the stage diagnostic, no card details, no obligation. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -361,7 +363,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, you get a stage diagnostic and a live look at CPA teaching, one full hour, free, and nobody asks for a card. If your child does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

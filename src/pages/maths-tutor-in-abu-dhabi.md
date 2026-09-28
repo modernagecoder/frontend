@@ -10,7 +10,7 @@ In short
 
 **Modern Age Coders is an online maths tutor serving all of Abu Dhabi**: Al Reem Island, Khalifa City, Saadiyat, Yas Island, Al Raha, the Corniche, Mussafah and Al Ain, with live one-to-one lessons for British, American, IB and CBSE schools, all ages.
 
-Your child is matched to a tutor by curriculum and fit rather than postcode, keeps that tutor each week, and the price is **USD 150 per month** for eight 1:1 lessons. Lessons run in Gulf Standard Time and the first lesson is free.
+Your child is matched to a tutor by curriculum and fit rather than postcode, keeps that tutor each week, and the price is one flat monthly fee (see it in your currency). Lessons run in Gulf Standard Time, and you can see a full class first with a Priority Demo.
 
 Why the capital's families turn to online tuition
 
@@ -156,6 +156,8 @@ $150 / month
 - No commute across the capital
 - Notes after every lesson · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Cohort
 
 $100 / month
@@ -213,11 +215,11 @@ Yes, focused one-to-one attention on a shared whiteboard, no travel, and access 
 
 How much does a maths tutor in Abu Dhabi cost?
 
-USD 150/month for 1:1, eight live lessons, two a week. Small-group option USD 100/month. No contract.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
-Is the first lesson free?
+Can we try a class before enrolling?
 
-Yes, no card needed.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Will my child keep the same tutor?
 

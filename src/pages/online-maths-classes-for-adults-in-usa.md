@@ -150,6 +150,8 @@ $150 / month
 - A plan built entirely around your goal
 - Flexible times · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Cohort
 
 $100 / month
@@ -211,11 +213,11 @@ Yes. We rebuild the underlying arithmetic, algebra and data skills, then train t
 
 How much does it cost?
 
-USD 150 per month for private 1:1, eight live sessions, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
-Is there a free trial?
+Can we try a class before enrolling?
 
-Yes, the first class is free, no card needed. We talk through your goal and see where you are.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Will I have the same teacher each time?
 
@@ -241,7 +243,7 @@ Can I change focus partway through?
 
 Of course. Finish a course requirement, then pivot to the GMAT. Your mentor simply re-points the plan.
 
-## Book a free trial class.
+## Book a Priority Demo.
 
 Tell us your goal, a course, a test, a work skill, or just confidence. We'll show you how we'd get you there, and you decide. No card needed, no pressure.
 

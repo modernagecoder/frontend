@@ -10,7 +10,7 @@ Where results get made
 
 ## The courses behind the evidence.
 
-[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Most popular  Python & AI for Kids Where many Student Labs projects were born: real text code, gently taught, ages 9-13. Coding · Ages 9-138 live classes / monthFree trial first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery The premium maths track where the school-mark stories in our reviews tend to start. Maths · Grades 6-88 live classes / monthFree trial first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Blocks, games and AI tools: the joyful arc where young makers ship their first projects. Coding · Ages 6-128 live classes / monthFree trial first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Browse all 80+ courses](/courses)The proof index
+[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Most popular  Python & AI for Kids Where many Student Labs projects were born: real text code, gently taught, ages 9-13. Coding · Ages 9-138 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery The premium maths track where the school-mark stories in our reviews tend to start. Maths · Grades 6-88 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Blocks, games and AI tools: the joyful arc where young makers ship their first projects. Coding · Ages 6-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Book a Priority Demo](/priority-demo)[Browse all 80+ courses](/courses)The proof index
 
 ## Four kinds of evidence. All inspectable. None on our servers alone.
 
@@ -80,7 +80,7 @@ The honest part
 
 ### What we promise instead
 
-• A free trial with an honest placement read, including "not yet" and "not us".
+• A Priority Demo with an honest placement read, including "not yet" and "not us".
 
 • Monthly billing with no lock-in, so we re-earn every family every four weeks, the strongest accountability structure we know.
 
@@ -130,13 +130,13 @@ Inspect further
 
 ## The evidence, one click each.
 
-[Off our servers547 Google Reviews](https://g.page/r/Cff_QkHNaP9yEAE/review)[Click the projectsStudent Labs Showcase](/student-labs)[Audit the teachingHow We Teach](/how-we-teach)[In their wordsWall of Love](/love)[The longer arcsSuccess Stories](/success-stories)[Your own evidenceThe Free Trial Class](/free-trial)
+[Off our servers547 Google Reviews](https://g.page/r/Cff_QkHNaP9yEAE/review)[Click the projectsStudent Labs Showcase](/student-labs)[Audit the teachingHow We Teach](/how-we-teach)[In their wordsWall of Love](/love)[The longer arcsSuccess Stories](/success-stories)[Your own evidenceThe Priority Demo](/priority-demo)
 
 ## The best evidence is your own child, in a real class.
 
-Book the free trial. One real hour, an honest placement read, no card details, and you will know more about us than any results page could tell you.
+Book a Priority Demo. One real hour, an honest placement read, and you will know more about us than any results page could tell you.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 ---
 

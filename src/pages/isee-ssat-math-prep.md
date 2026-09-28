@@ -10,11 +10,11 @@ Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick the level for you.
 
-[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
+[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-Good ISEE or SSAT math prep does three things: **builds calculator-free number sense**, because neither test allows one and both punish slow arithmetic; **trains the reasoning sections separately from the achievement sections**, they measure different things; and **teaches strategy honestly**, when to reason, when to estimate, when to move on. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
+Good ISEE or SSAT math prep does three things: **builds calculator-free number sense**, because neither test allows one and both punish slow arithmetic; **trains the reasoning sections separately from the achievement sections**, they measure different things; and **teaches strategy honestly**, when to reason, when to estimate, when to move on. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
 
 Why these tests are different
 
@@ -79,9 +79,9 @@ Strong students used to finishing comfortably meet a test built so almost nobody
 
 Mid-percentiles against a private-school cohort are normal starting points, and very movable, taught the right way.
 
-Recognize your child? A diagnostic hour against their actual test level shows exactly where the points are. Our **demo class doubles as that diagnostic**, and it is free.
+Recognize your child? A diagnostic hour against their actual test level shows exactly where the points are. A **Priority Demo doubles as that diagnostic**: a full live class, with a written skill report afterwards.
 
-Watch the method work
+[Book a Priority Demo](/priority-demo)Watch the method work
 
 ## A quantitative comparison, answered in ten seconds without computing.
 
@@ -129,7 +129,7 @@ A typical prep arc
 
 ### Weeks 1-2 · Diagnose against the real test
 
-A timed section at your child's level, reviewed for reasoning, sets the baseline and the plan. The free demo starts this.
+A timed section at your child's level, reviewed for reasoning, sets the baseline and the plan. The Priority Demo starts this.
 
 ### Month 1 · Number sense and content gaps
 
@@ -197,7 +197,7 @@ Real-format questions on a real clock, then the review that matters: not "right 
 
 Skip decisions reviewed, pacing checked against target, and the week's practice set assigned with a purpose your child can state.
 
-Parents tell us their children **wait for these classes**, which sounds impossible for test prep until you watch one. That is the point of the free demo. [See exactly how we teach →](/how-we-teach)
+Parents tell us their children **wait for these classes**, which sounds impossible for test prep until you watch one. That is the point of a Priority Demo. [See exactly how we teach →](/how-we-teach)
 
 The honest part
 
@@ -242,6 +242,8 @@ $150 / month
 - Diagnostic-led plan against the full map for their test level
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -253,7 +255,7 @@ $100 / month
 
 [See the core course](/courses/comprehensive-middle-school-mathematics-mastery)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your child
 
@@ -327,7 +329,7 @@ We will not invent a number; movement depends on the starting gap, the weeks ava
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no package lock-in, which matters in a market where admissions-prep packages routinely run $1,000 to $3,000.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no package lock-in, which matters in a market where admissions-prep packages routinely run $1,000 to $3,000.
 
 Is the prep useful if my child ends up not sitting the test?
 
@@ -337,9 +339,9 @@ My child is anxious about this test. How do you handle that?
 
 Gently and structurally. Anxiety on these tests usually traces to pacing panic and above-grade questions, both of which have taught answers: skip discipline turns "I could not finish" into a plan, and stretch topics are framed as bonus territory rather than expectations. The same mentor every class, in an interactive hour that children genuinely enjoy, does the rest.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every student starts with a free live demo class that doubles as the diagnostic against their actual test level, no card details, no obligation. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -351,7 +353,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, you get a diagnostic against their actual ISEE or SSAT level, one full hour of real prep teaching, free, and nobody asks for a card. If your child does not leave the hour lighter about the test, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

@@ -1,20 +1,20 @@
 ---
 title: "Calculus Tutoring Online | Live 1:1 Classes | Modern Age Coders"
-description: "Live 1:1 calculus tutoring: limits, derivatives and integrals taught as ideas before technique, precalculus repaired inline. School, honors, AP and college Calc 1. One-hour classes twice a week, free demo."
+description: "Live 1:1 calculus tutoring: limits, derivatives and integrals taught as ideas before technique, precalculus repaired inline. School, honors, AP and college Calc 1. One-hour classes twice a week. Priority Demo available."
 canonical: https://learn.modernagecoders.com/calculus-tutoring-online
 source: src/pages/calculus-tutoring-online.html
 ---
-> Live 1:1 calculus tutoring: limits, derivatives and integrals taught as ideas before technique, precalculus repaired inline. School, honors, AP and college Calc 1. One-hour classes twice a week, free demo.
+> Live 1:1 calculus tutoring: limits, derivatives and integrals taught as ideas before technique, precalculus repaired inline. School, honors, AP and college Calc 1. One-hour classes twice a week. Priority Demo available.
 
 Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick the level for you.
 
-[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![College Mathematics Masterclass course thumbnail](/images/college-level-maths.webp)  College Mathematics Masterclass Calculus, linear algebra and the mathematics behind engineering, computer science and data careers. College level8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/college-mathematics-complete-masterclass)[![AP Calculus AB and BC Exam Prep course thumbnail](/images/ap-calculus-prep.webp)  AP Calculus AB & BC Exam Prep Three ideas taught like ideas, then trained against real FRQ rubrics. Score 5 goal. AP AB & BC8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ap-calculus-exam-prep)See what is includedThe 20-second answer
+[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![College Mathematics Masterclass course thumbnail](/images/college-level-maths.webp)  College Mathematics Masterclass Calculus, linear algebra and the mathematics behind engineering, computer science and data careers. College level8 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/college-mathematics-complete-masterclass)[![AP Calculus AB and BC Exam Prep course thumbnail](/images/ap-calculus-prep.webp)  AP Calculus AB & BC Exam Prep Three ideas taught like ideas, then trained against real FRQ rubrics. Score 5 goal. AP AB & BC8 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ap-calculus-exam-prep)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-A good calculus tutor does three things: **teaches the three ideas as ideas**, the limit as approach, the derivative as instantaneous rate, the integral as accumulated change, before any rule tables; **repairs the precalculus the course silently assumes**, especially function composition and the unit circle; and **meets your student's actual course**, school calculus, honors, AP AB or BC, or college Calc 1. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first. Preparing specifically for the AP exam? See our dedicated [AP Calculus AB and BC page](/ap-calculus-tutoring-online).
+A good calculus tutor does three things: **teaches the three ideas as ideas**, the limit as approach, the derivative as instantaneous rate, the integral as accumulated change, before any rule tables; **repairs the precalculus the course silently assumes**, especially function composition and the unit circle; and **meets your student's actual course**, school calculus, honors, AP AB or BC, or college Calc 1. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first. Preparing specifically for the AP exam? See our dedicated [AP Calculus AB and BC page](/ap-calculus-tutoring-online).
 
 Why calculus defeats prepared students
 
@@ -68,9 +68,9 @@ dy/dx, f prime, Leibniz versus Lagrange: if the notations feel like different su
 
 Homework fine, exam disastrous is the signature of pattern-matching without ideas, and it is fixable fast once named.
 
-Three or more of these? A diagnostic hour finds whether the gaps live in calculus, precalculus or algebra. Our **demo class doubles as that diagnostic**, and it is free.
+Three or more of these? A diagnostic hour finds whether the gaps live in calculus, precalculus or algebra. A **Priority Demo doubles as that diagnostic**: a full live class, with a written skill report afterwards.
 
-How we teach calculus
+[Book a Priority Demo](/priority-demo)How we teach calculus
 
 ## Ideas, repair, then speed. In that order.
 
@@ -151,7 +151,7 @@ The first three months
 
 ### Weeks 1-2 · Diagnose and stabilize
 
-The free demo maps the three ideas and the precalculus underneath. If a test is imminent, we stabilize for it first, then rebuild.
+The Priority Demo maps the three ideas and the precalculus underneath. If a test is imminent, we stabilize for it first, then rebuild.
 
 ### Month 1 · Limits and the derivative idea
 
@@ -212,6 +212,8 @@ $150 / month
 - Diagnostic-led plan against the full calculus plan
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -223,7 +225,7 @@ $100 / month
 
 [See the middle school course](/courses/comprehensive-middle-school-mathematics-mastery)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your teen
 
@@ -285,7 +287,7 @@ Yes: series, parametrics and polar for BC; and the proof-adjacent rigor college 
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. US calculus tutoring commonly runs $70 to $150 per hour.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
 Who teaches calculus?
 
@@ -299,9 +301,9 @@ Can you rescue a student mid-semester before the final?
 
 Usually, yes. Calculus finals reward the three ideas plus technique, and a focused six-to-eight week arc, ideas first, targeted technique second, past-paper pacing last, moves grades meaningfully. The honest exception: if the algebra base is deeply broken, we will tell you what is achievable by the final and what needs the summer.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every student starts with a free live demo class that doubles as the diagnostic, no card details, no obligation. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -313,7 +315,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, you get a diagnostic against one full hour of real calculus teaching, free, and nobody asks for a card. If your teen does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

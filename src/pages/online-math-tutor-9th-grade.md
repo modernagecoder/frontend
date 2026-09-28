@@ -1,20 +1,20 @@
 ---
 title: "Online Math Tutor for 9th Grade | Algebra 1, Taught to Own | Modern Age Coders"
-description: "Live 1:1 ninth grade math tutoring: Algebra 1 as a language, middle-school gaps repaired inline, and pacing tied to your school's test calendar in the first year colleges see. One-hour classes twice a week, free demo."
+description: "Live 1:1 ninth grade math tutoring: Algebra 1 as a language, middle-school gaps repaired inline, and pacing tied to your school's test calendar in the first year colleges see. One-hour classes twice a week. Priority Demo available."
 canonical: https://learn.modernagecoders.com/online-math-tutor-9th-grade
 source: src/pages/online-math-tutor-9th-grade.html
 ---
-> Live 1:1 ninth grade math tutoring: Algebra 1 as a language, middle-school gaps repaired inline, and pacing tied to your school's test calendar in the first year colleges see. One-hour classes twice a week, free demo.
+> Live 1:1 ninth grade math tutoring: Algebra 1 as a language, middle-school gaps repaired inline, and pacing tied to your school's test calendar in the first year colleges see. One-hour classes twice a week. Priority Demo available.
 
 Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your teen. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick for you.
+Every mentor teaches from a structured programme, adapted live to your teen. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick for you.
 
-[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery The grades 9-12 road: Algebra 1 through calculus readiness, with exam craft when it counts. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![Algebra Foundations Masterclass course thumbnail](/images/algebra-foundations.webp)  Algebra Foundations Masterclass For the ninth grader whose real gap is middle-school algebra: the base, rebuilt properly. Grades 7-98 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/algebra-foundations-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics For the ninth grader who finds class easy: AMC-style reasoning and the stretch that builds mathematicians. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedThe 20-second answer
+[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)Best fit  High School Mathematics Mastery The grades 9-12 road: Algebra 1 through calculus readiness, with exam craft when it counts. Grades 9-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![Algebra Foundations Masterclass course thumbnail](/images/algebra-foundations.webp)  Algebra Foundations Masterclass For the ninth grader whose real gap is middle-school algebra: the base, rebuilt properly. Grades 7-98 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/algebra-foundations-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics For the ninth grader who finds class easy: AMC-style reasoning and the stretch that builds mathematicians. Ambitious students8 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-Good 9th grade math tutoring does three things: **teaches Algebra 1 as a language** (equations as sentences, functions as machines, graphs as stories), **repairs the middle-school debt inline**, fractions, negatives and equation habits that the year silently assumes, and **respects the new stakes**, because this grade is the first one colleges see. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
+Good 9th grade math tutoring does three things: **teaches Algebra 1 as a language** (equations as sentences, functions as machines, graphs as stories), **repairs the middle-school debt inline**, fractions, negatives and equation habits that the year silently assumes, and **respects the new stakes**, because this grade is the first one colleges see. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
 
 Why ninth grade is different
 
@@ -87,7 +87,7 @@ The year, mapped
 
 ## From shaky start to strong transcript.
 
-### Class 1 · The free demo diagnostic
+### Class 1 · The Priority Demo diagnostic
 
 A real lesson plus an audit: current course position, the middle-school debt inventory, and an honest read on the semester ahead.
 
@@ -166,6 +166,8 @@ $150 / month
 - Diagnostic-led plan against the full 9th grade map
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -177,7 +179,7 @@ $100 / month
 
 [See the high school course](/courses/complete-high-school-mathematics-mastery)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your teen
 
@@ -239,7 +241,7 @@ Privately, respectfully, and with fast wins: 1-on-1 means no audience, and the f
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. US tutoring centers charge $300 to $450 a month for the same format.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract. US tutoring centers charge $300 to $450 a month for the same format.
 
 Can you also stretch a strong ninth grader?
 
@@ -249,9 +251,9 @@ How does this fit with school homework load?
 
 The classes largely absorb the homework struggle rather than adding to it: current units get taught properly, so assignments shrink from battles to practice. Mentors also flex around exam weeks, sports seasons and the general chaos of being fourteen.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every student starts with a free live demo class that doubles as the diagnostic, no card details, no obligation. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -263,7 +265,7 @@ Keep exploring
 
 Book the demo class. Your teen gets a real lesson with a real mentor, you get a diagnostic against the full 9th grade map, and nobody asks for a card. If your teen does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

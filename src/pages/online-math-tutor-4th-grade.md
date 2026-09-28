@@ -10,11 +10,11 @@ Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick the level for you.
 
-[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)Best fit  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids Number sense, not tricks: bonds, strategies and estimation built into speed that never expires. Ages 5-108 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)See what is includedThe 20-second answer
+[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)Best fit  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids Number sense, not tricks: bonds, strategies and estimation built into speed that never expires. Ages 5-108 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-A good online math tutor for a 4th grader does three things: **rebuilds place value deeply enough that multi-digit multiplication and long division make sense** instead of being memorized dances; **teaches fractions as numbers**, not pizza slices, before fraction arithmetic arrives; and **stays with your child**, the same mentor, class after class. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
+A good online math tutor for a 4th grader does three things: **rebuilds place value deeply enough that multi-digit multiplication and long division make sense** instead of being memorized dances; **teaches fractions as numbers**, not pizza slices, before fraction arithmetic arrives; and **stays with your child**, the same mentor, class after class. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
 
 Why grade 4 breaks memorizers
 
@@ -68,9 +68,9 @@ Grade 4 tests are longer and stricter. One bad score can start the "I'm not a ma
 
 Hiding the working usually hides guessing. A child sure of their method shows it off.
 
-Three or more of these? A diagnostic hour finds the exact gaps. Our **demo class doubles as that diagnostic**, and it is free.
+Three or more of these? A diagnostic hour finds the exact gaps. A **Priority Demo doubles as that diagnostic**: a full live class, with a written skill report afterwards.
 
-How we teach grade 4
+[Book a Priority Demo](/priority-demo)How we teach grade 4
 
 ## Understand the machine before you operate it.
 
@@ -188,7 +188,7 @@ The first three months
 
 ### Weeks 1-2 · Diagnose and win
 
-The free demo doubles as a diagnostic against the full grade 4 map, including the grade 3 foundations underneath it. Early classes bank quick wins to rebuild momentum.
+The Priority Demo doubles as a diagnostic against the full grade 4 map, including the grade 3 foundations underneath it. Early classes bank quick wins to rebuild momentum.
 
 ### Month 1 · Place value and the big procedures
 
@@ -370,6 +370,8 @@ $150 / month
 - Diagnostic-led plan against the full grade 4 map
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -381,7 +383,7 @@ $100 / month
 
 [See the elementary course](/courses/elementary-mathematics-complete-masterclass)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your child
 
@@ -423,7 +425,7 @@ Parent questions
 
 How do I know if my 4th grader is actually behind?
 
-Four quick markers: are multiplication facts automatic, can they explain the area model for 23 x 14, can they compare 2/3 and 3/5 with a reason, and do they interpret a remainder in a word problem sensibly? Wobbly on two or more means gaps, usually inherited from grade 3, are compounding. Our free demo class doubles as this diagnostic.
+Four quick markers: are multiplication facts automatic, can they explain the area model for 23 x 14, can they compare 2/3 and 3/5 with a reason, and do they interpret a remainder in a word problem sensibly? Wobbly on two or more means gaps, usually inherited from grade 3, are compounding. A Priority Demo doubles as this diagnostic.
 
 My child knew their tables last year and seems to have forgotten them. Is that normal?
 
@@ -447,7 +449,7 @@ A dedicated mentor, the same one every class, tracking your child against the fu
 
 What does it cost, exactly?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract, cancel any month. The first class is a free live demo with the actual teacher, no card needed.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract, cancel any month. You can see a full class first with a Priority Demo, taught by the actual teacher.
 
 Is this aligned with my child's school?
 
@@ -465,9 +467,9 @@ Do you cover state test prep?
 
 We prepare the child rather than drill the test: full understanding plus word-problem method plus estimation checking is what grade 4 state tests actually measure. In the weeks before testing, mentors fold in test-format practice naturally.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every family starts with a free live demo class, no card details, no obligation, and it doubles as the diagnostic. Our zero-risk promise is written down on the guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Speak grade 4
 
@@ -531,7 +533,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, you get a diagnostic against the complete grade 4 map, and nobody asks for a card. If your child does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 ---
 

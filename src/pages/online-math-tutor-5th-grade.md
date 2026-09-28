@@ -1,20 +1,20 @@
 ---
 title: "Online Math Tutor for 5th Grade | Live 1:1 Classes | Modern Age Coders"
-description: "Live 1:1 online math tutoring for 5th graders: fraction arithmetic, decimals to thousandths, volume and the coordinate plane, built from understanding before middle school. One-hour classes twice a week, free demo."
+description: "Live 1:1 online math tutoring for 5th graders: fraction arithmetic, decimals to thousandths, volume and the coordinate plane, built from understanding before middle school. One-hour classes twice a week. Priority Demo available."
 canonical: https://learn.modernagecoders.com/online-math-tutor-5th-grade
 source: src/pages/online-math-tutor-5th-grade.html
 ---
-> Live 1:1 online math tutoring for 5th graders: fraction arithmetic, decimals to thousandths, volume and the coordinate plane, built from understanding before middle school. One-hour classes twice a week, free demo.
+> Live 1:1 online math tutoring for 5th graders: fraction arithmetic, decimals to thousandths, volume and the coordinate plane, built from understanding before middle school. One-hour classes twice a week. Priority Demo available.
 
 Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick the level for you.
 
-[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)Best fit  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids Number sense, not tricks: bonds, strategies and estimation built into speed that never expires. Ages 5-108 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)See what is includedThe 20-second answer
+[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)Best fit  Elementary Mathematics Masterclass Counting to advanced problem solving: number sense, fractions, geometry and word problems, built concrete-first. Grades 1-58 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids Number sense, not tricks: bonds, strategies and estimation built into speed that never expires. Ages 5-108 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-A good online math tutor for a 5th grader does three things: **completes the fraction story**, adding, subtracting, multiplying and dividing, built on the number line rather than on rules; **extends place value through decimals** so 0.3 × 0.4 stops producing 1.2; and **closes elementary gaps before middle school**, where ratios and negative numbers assume all of this is solid. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
+A good online math tutor for a 5th grader does three things: **completes the fraction story**, adding, subtracting, multiplying and dividing, built on the number line rather than on rules; **extends place value through decimals** so 0.3 × 0.4 stops producing 1.2; and **closes elementary gaps before middle school**, where ratios and negative numbers assume all of this is solid. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
 
 Why grade 5 is the hinge
 
@@ -68,9 +68,9 @@ Your child hears grade 6 math is hard and believes they will not cope. Confidenc
 
 Scores hold while problems match the pattern taught, and drop the moment a test asks the same idea sideways.
 
-Three or more of these? A diagnostic hour finds the exact gaps. Our **demo class doubles as that diagnostic**, and it is free.
+Three or more of these? A diagnostic hour finds the exact gaps. A **Priority Demo doubles as that diagnostic**: a full live class, with a written skill report afterwards.
 
-How we teach grade 5
+[Book a Priority Demo](/priority-demo)How we teach grade 5
 
 ## Reasons made load-bearing.
 
@@ -186,7 +186,7 @@ The first three months
 
 ### Weeks 1-2 · Diagnose and win
 
-The free demo doubles as a diagnostic against the grade 5 map and the grade 3-4 foundations beneath it. Early classes bank wins where the child is nearly solid.
+The Priority Demo doubles as a diagnostic against the grade 5 map and the grade 3-4 foundations beneath it. Early classes bank wins where the child is nearly solid.
 
 ### Month 1 · Fractions, completed properly
 
@@ -368,6 +368,8 @@ $150 / month
 - Diagnostic-led plan against the full grade 5 map
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -379,7 +381,7 @@ $100 / month
 
 [See the elementary course](/courses/elementary-mathematics-complete-masterclass)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your child
 
@@ -421,7 +423,7 @@ Parent questions
 
 How do I know if my 5th grader is ready for middle school math?
 
-Four markers: can they add 2/3 + 1/4 and explain why twelfths appear, say why 3 divided by 1/2 is 6 with a picture, place 0.4 versus 0.35 correctly with a reason, and translate "3 more than twice a number" into symbols? Solid on all four means grade 6 will open well. Wobbly on two or more means the summer or fall needs real teaching, not worksheets. Our free demo doubles as this diagnostic.
+Four markers: can they add 2/3 + 1/4 and explain why twelfths appear, say why 3 divided by 1/2 is 6 with a picture, place 0.4 versus 0.35 correctly with a reason, and translate "3 more than twice a number" into symbols? Solid on all four means grade 6 will open well. Wobbly on two or more means the summer or fall needs real teaching, not worksheets. A Priority Demo doubles as this diagnostic.
 
 My child uses the butterfly method for fractions. Is that bad?
 
@@ -445,7 +447,7 @@ A dedicated mentor, the same one every class, tracking your child against the fu
 
 What does it cost, exactly?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract, cancel any month. The first class is a free live demo, no card needed.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract, cancel any month.
 
 Is this aligned with my child's school?
 
@@ -463,9 +465,9 @@ Do you cover state test prep?
 
 We build the understanding and the word-problem method the tests actually measure, then fold in test-format practice in the weeks before testing. Preparing the child beats drilling the test.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every family starts with a free live demo class, no card details, no obligation, and it doubles as the diagnostic. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Speak grade 5
 
@@ -529,7 +531,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, you get a diagnostic against the complete grade 5 map, and nobody asks for a card. If your child does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 ---
 

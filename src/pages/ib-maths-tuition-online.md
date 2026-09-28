@@ -1,18 +1,18 @@
 ---
 title: "IB Maths Tuition Online | AA & AI, SL & HL | Modern Age Coders"
-description: "Live 1:1 IB maths tuition matched to your exact course: AA or AI, SL or HL. Paper-specific technique, GDC fluency, honest IA coaching within IB integrity rules, MYP gap repair. One-hour classes twice a week, free demo."
+description: "Live 1:1 IB maths tuition matched to your exact course: AA or AI, SL or HL. Paper-specific technique, GDC fluency, honest IA coaching within IB integrity rules, MYP gap repair. One-hour classes twice a week. Priority Demo available."
 canonical: https://learn.modernagecoders.com/ib-maths-tuition-online
 source: src/pages/ib-maths-tuition-online.html
 ---
-> Live 1:1 IB maths tuition matched to your exact course: AA or AI, SL or HL. Paper-specific technique, GDC fluency, honest IA coaching within IB integrity rules, MYP gap repair. One-hour classes twice a week, free demo.
+> Live 1:1 IB maths tuition matched to your exact course: AA or AI, SL or HL. Paper-specific technique, GDC fluency, honest IA coaching within IB integrity rules, MYP gap repair. One-hour classes twice a week. Priority Demo available.
 
 Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick the level for you.
 
-[![IB Mathematics AA and AI Masterclass course thumbnail](/images/ib-maths-aa-ai.webp)Best fit  IB Mathematics AA & AI Masterclass Your exact IB course taught to a 7: paper-specific technique, GDC fluency and honest IA coaching. AA & AI · SL & HL8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ib-mathematics-aa-ai-masterclass)[![College Mathematics Masterclass course thumbnail](/images/college-level-maths.webp)  College Mathematics Masterclass Calculus, linear algebra and the mathematics behind engineering, computer science and data careers. College level8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/college-mathematics-complete-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)See what is includedKey dates, 2027
+[![IB Mathematics AA and AI Masterclass course thumbnail](/images/ib-maths-aa-ai.webp)Best fit  IB Mathematics AA & AI Masterclass Your exact IB course taught to a 7: paper-specific technique, GDC fluency and honest IA coaching. AA & AI · SL & HL8 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/ib-mathematics-aa-ai-masterclass)[![College Mathematics Masterclass course thumbnail](/images/college-level-maths.webp)  College Mathematics Masterclass Calculus, linear algebra and the mathematics behind engineering, computer science and data careers. College level8 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/college-mathematics-complete-masterclass)[![Olympiad and Competition Mathematics course thumbnail](/images/olympiad-competition-maths.webp)  Olympiad & Competition Mathematics Contest-level problem solving for the student who wants more than the syllabus. Ambitious students8 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/olympiad-competition-mathematics-mastery)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedKey dates, 2027
 
 ## IB Mathematics AA and AI: which curriculum your child is on, and until when
 
@@ -29,7 +29,7 @@ What changes in the new mathematics curriculum is in the IB's subject briefs, wh
 
 The 20-second answer
 
-Good IB maths tuition is **course-specific**: Analysis & Approaches and Applications & Interpretation are genuinely different subjects, each split into SL and HL, with different papers, calculator rules and emphasis. A tutor must teach *your* course, coach the Internal Assessment honestly (it is a fifth of the grade), and train paper technique on real past questions. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
+Good IB maths tuition is **course-specific**: Analysis & Approaches and Applications & Interpretation are genuinely different subjects, each split into SL and HL, with different papers, calculator rules and emphasis. A tutor must teach *your* course, coach the Internal Assessment honestly (it is a fifth of the grade), and train paper technique on real past questions. That is what we do: live one-hour classes in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
 
 Why IB maths needs IB-specific help
 
@@ -57,7 +57,7 @@ Decode the fork
 
 Both courses share five topic areas, number & algebra, functions, geometry & trigonometry, statistics & probability, and calculus, weighted very differently. Course structures and assessment details evolve; we verify against current IBO documentation and your school's IB coordinator for your exam session.
 
-Still choosing, or suspecting the wrong choice was made? The free demo class doubles as an honest course-fit consultation, including when the honest answer is "stay where you are and repair the base".
+Still choosing, or suspecting the wrong choice was made? The Priority Demo doubles as an honest course-fit consultation, including when the honest answer is "stay where you are and repair the base".
 
 Is this your student?
 
@@ -138,7 +138,7 @@ The two-year arc
 
 ## From diagnostic to exam session, mapped.
 
-### Class 1 · The free demo diagnostic
+### Class 1 · The Priority Demo diagnostic
 
 A real lesson plus an audit: course fit, level fit, MYP-era gaps, GDC habits, and where the IA stands if it has started.
 
@@ -225,6 +225,8 @@ $150 / month
 - Diagnostic-led plan for your exact course, level and session
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -236,7 +238,7 @@ $100 / month
 
 [See the high school course](/courses/complete-high-school-mathematics-mastery)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what maths tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what maths tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your teen
 
@@ -278,7 +280,7 @@ Parent and student questions
 
 Should my teen take AA or AI, and at which level?
 
-Follow the degree, then the strengths. Maths-heavy degrees (engineering, mathematics, physics, computer science) often expect AA, frequently at HL, check target universities' actual requirements. Business, economics, social sciences and design lean AI. Then be honest about strengths: AA HL without a solid algebra base is the most common self-inflicted wound in DP maths. The free demo doubles as a course-fit consult, and we will say "stay at SL" when that is the truth.
+Follow the degree, then the strengths. Maths-heavy degrees (engineering, mathematics, physics, computer science) often expect AA, frequently at HL, check target universities' actual requirements. Business, economics, social sciences and design lean AI. Then be honest about strengths: AA HL without a solid algebra base is the most common self-inflicted wound in DP maths. The Priority Demo doubles as a course-fit consult, and we will say "stay at SL" when that is the truth.
 
 Can my teen switch courses or drop from HL to SL after starting?
 
@@ -306,7 +308,7 @@ Often, yes, and this is the highest-leverage timing in the IB. Predicted grades 
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. IB-specialist agencies bill $60 to $120 an hour for the same format.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract. IB-specialist agencies bill $60 to $120 an hour for the same format.
 
 Do you cover MYP maths too?
 
@@ -320,9 +322,9 @@ Who teaches IB maths?
 
 Mentors who teach both mathematics and programming, which IB students get real value from: AI's models come alive in a spreadsheet or a few lines of Python, AA's calculus becomes visual, and Paper 3-style investigation is basically what programmers do all day. Meet the team on our team page.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every student starts with a free live demo class that doubles as the diagnostic and course-fit consult, no card details, no obligation. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -334,7 +336,7 @@ Keep exploring
 
 Book the demo class. Your teen gets a real lesson with a real mentor, you get a diagnostic and an honest course-fit read, one full hour of real IB maths teaching, free, and nobody asks for a card. If your teen does not leave the hour lighter about maths, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

@@ -1,20 +1,20 @@
 ---
 title: "Minecraft Coding Classes for Kids | MakeCode & Python, Live 1:1 | Modern Age Coders"
-description: "Live online Minecraft coding classes for kids ages 7-13: MakeCode blocks, then real Python commanding the world - loops that build, traps that trigger - in safe class worlds with a dedicated mentor. One-hour classes twice a week, free demo."
+description: "Live online Minecraft coding classes for kids ages 7-13: MakeCode blocks, then real Python commanding the world - loops that build, traps that trigger - in safe class worlds with a dedicated mentor. One-hour classes twice a week. Priority Demo available."
 canonical: https://learn.modernagecoders.com/minecraft-coding-classes-for-kids
 source: src/pages/minecraft-coding-classes-for-kids.html
 ---
-> Live online Minecraft coding classes for kids ages 7-13: MakeCode blocks, then real Python commanding the world - loops that build, traps that trigger - in safe class worlds with a dedicated mentor. One-hour classes twice a week, free demo.
+> Live online Minecraft coding classes for kids ages 7-13: MakeCode blocks, then real Python commanding the world - loops that build, traps that trigger - in safe class worlds with a dedicated mentor. One-hour classes twice a week. Priority Demo available.
 
 Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the placement pick for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the placement pick for you.
 
-[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Best fit  Vibe Coding for Kids Blocks, game builds and AI tools for ages 8-12: the perfect Minecraft-kid on-ramp to real coding. Ages 8-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Game Development Masterclass for Kids course thumbnail](/images/game-dev-kids.webp)  Game Development Masterclass for Kids Design, scripting and shipping real playable games, for the child ready to build beyond one world. Ages 9-148 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/game-development-masterclass-for-kids)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The same Python your child meets in Minecraft, grown into apps, games and AI projects. Ages 9-138 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)See what is includedThe 20-second answer
+[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Best fit  Vibe Coding for Kids Blocks, game builds and AI tools for ages 8-12: the perfect Minecraft-kid on-ramp to real coding. Ages 6-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Game Development Masterclass for Kids course thumbnail](/images/game-dev-kids.webp)  Game Development Masterclass for Kids Design, scripting and shipping real playable games, for the child ready to build beyond one world. Ages 9-148 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/game-development-masterclass-for-kids)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids The same Python your child meets in Minecraft, grown into apps, games and AI projects. Ages 9-138 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-Good Minecraft coding classes use the game as a **doorway into real programming**: block-based MakeCode for the youngest, then genuine Python commanding the Minecraft world, loops that build towers, conditionals that trigger traps, functions that raise castles. Not gameplay coaching, not server drama: code. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first. Independent classes, not affiliated with Mojang or Microsoft.
+Good Minecraft coding classes use the game as a **doorway into real programming**: block-based MakeCode for the youngest, then genuine Python commanding the Minecraft world, loops that build towers, conditionals that trigger traps, functions that raise castles. Not gameplay coaching, not server drama: code. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first. Independent classes, not affiliated with Mojang or Microsoft.
 
 The builder instinct, upgraded
 
@@ -39,9 +39,9 @@ The routes in
 | Python for Minecraft | Genuine Python scripts commanding blocks, positions and events in the world | Ages 9-13: the real language, learned where motivation lives; transfers whole to general programming |
 | Java mods (later) | Modding Minecraft Java Edition itself: professional-grade territory | The ambitious teen destination after Python fluency, via our Java track, not the starting line |
 
-The mentor picks the entry point in the free demo, by keyboard fluency and age, not guesswork, and the destination is always the same: a child who can program anywhere, not just in Minecraft.
+The mentor picks the entry point in the Priority Demo, by keyboard fluency and age, not guesswork, and the destination is always the same: a child who can program anywhere, not just in Minecraft.
 
-Is this your child?
+[Book a Priority Demo](/priority-demo)Is this your child?
 
 ## Eight signs Minecraft coding will land right now.
 
@@ -131,7 +131,7 @@ The learning path
 
 ## From block placer to world programmer, mapped.
 
-### Class 1 · The free demo
+### Class 1 · The Priority Demo
 
 Your child commands the world with code in the first hour, MakeCode or Python by keyboard fluency, and the mentor reads level and spark.
 
@@ -212,6 +212,8 @@ $150 / month
 - Projects chosen with, and built by, your child
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -223,7 +225,7 @@ $100 / month
 
 [See the kids course](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
 
-That is **$12.50 per dedicated hour** of 1-on-1 teaching, or $5 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US kids coding costs in 2026](/coding-classes-for-kids-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US kids coding costs in 2026](/coding-classes-for-kids-cost).
 
 Who teaches your child
 
@@ -265,7 +267,7 @@ Parent questions
 
 What age is right for Minecraft coding classes?
 
-Ages 7-13. The youngest (7-9) start with MakeCode blocks, real loops and conditionals acting on the world, no typing burden; ages 9-13 write genuine Python. The free demo doubles as placement by keyboard fluency, not just age.
+Ages 7-13. The youngest (7-9) start with MakeCode blocks, real loops and conditionals acting on the world, no typing burden; ages 9-13 write genuine Python. The Priority Demo doubles as placement by keyboard fluency, not just age.
 
 Is this playing Minecraft or learning to code?
 
@@ -293,7 +295,7 @@ Most Minecraft camps are supervised gameplay with a coding garnish, a week of fu
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. US kids-coding programs typically run $175 to $350 a month for less contact time.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract. US kids-coding programs typically run $175 to $350 a month for less contact time.
 
 What equipment does my child need?
 
@@ -303,9 +305,9 @@ Is this affiliated with Mojang or Microsoft?
 
 No. Minecraft is a trademark of Mojang Synergies AB, a Microsoft company; we are an independent school that teaches programming using the game and its free coding tools, and we say so plainly.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every child starts with a free live demo class that doubles as the placement, they will command the world with code inside that hour, and nobody asks for a card. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -317,7 +319,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, commands the Minecraft world with real code inside the hour, and nobody asks for a card. If your child does not leave the hour asking when the next class is, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

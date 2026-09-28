@@ -18,6 +18,27 @@ What actually works is learning the moves that generate insight, trying small ca
 
 That's what we coach. We give your child hard problems, watch how they attack them, and build the problem-solving toolkit and the patience that competition math is genuinely made of.
 
+How entry works, and the 2026-27 dates
+
+## The part of the AMC nobody tells international families
+
+We coach the mathematics. We cannot enter your child for the competition, and neither can anyone else outside the MAA's own route. Here is that route, and every published 2026-27 date, from the MAA's pages as read in September 2026.
+
+| What | When or how | Where we read it |
+| --- | --- | --- |
+| AMC 10 A and AMC 12 A | Thursday 5 November 2026 | maa.org, read via archived copies of 5 to 21 Sep 2026 |
+| AMC 10 B and AMC 12 B | Friday 13 November 2026 | maa.org, read via archived copies of 5 to 21 Sep 2026 |
+| AMC 8 | 21 to 27 January 2027, the school picks a day in the window | maa.org, read via archived copies of 5 to 21 Sep 2026 |
+| AIME (invitation only) | 5 or 6 February 2027; new for 2027: 15 questions in two parts of 90 minutes each, integer answers from 0 to 999, taken at a Pearson testing centre, $85 plus tax paid by the family, and only students aged 13 and over are eligible | maa.org, read via archived copies of 5 to 21 Sep 2026 |
+| USAMO and USAJMO (invitation only) | 20 to 21 March 2027; qualification "will be primarily based on AIME scores" | maa.org, read via archived copies of 5 to 21 Sep 2026 |
+| Who qualifies for AIME | Set scores rather than percentages: 100 or above on AMC 10, 85 or above on AMC 12. AMC 8 does not lead to AIME | maa.org, read via archived copies of 5 to 21 Sep 2026 |
+| Age and grade limits | AMC 8: grade 8 and below, under 15.5 on the day. AMC 10: grade 10 and below, under 17.5. AMC 12: grade 12 and below, under 19.5 | maa.org, read via archived copies of 5 to 21 Sep 2026 |
+| Entry in the United States and Canada | Through a school, university, math circle or learning centre registered as a competition manager. "Students and parents do not register directly with the MAA." A family without a participating school is told to check local colleges, math circles or learning centres | maa.org, read via archived copies of 5 to 21 Sep 2026 |
+| Entry everywhere else | The MAA states the competitions "will only be offered to schools with USA, Canada, APO/FPO/DPO mailing addresses, and schools registered with one of our AMC international partners." Families in India, the UAE and the Gulf, the UK and Europe, Singapore and South-East Asia, and Australia and New Zealand enter through the International Group Leader the MAA names for their region on its AMC International page, never through the MAA directly and never through us | maa.org, read via archived copies of 5 to 21 Sep 2026 |
+| Fees | Paid by the school or competition manager, not the family, for AMC 8, 10 and 12 in the US and Canada: $55 early bird, $75 regular, $115 late per competition, plus per-student bundles. AIME: $85 plus tax, paid by the family to Pearson. International group leaders set their own fees, which the MAA does not control | maa.org, read via archived copies of 5 to 21 Sep 2026 |
+
+A naming trap: the AMC on this page is the MAA's American Mathematics Competitions. Australia's AMC is the Australian Mathematics Competition, a different contest from a different organiser with its own page on this site. Never mix their dates or rules.
+
 How we coach
 
 ## We teach how to attack a problem, not which formula to recall.
@@ -150,6 +171,8 @@ $150 / month
 - Pitched to your child's contest and division
 - Past-paper practice · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Cohort
 
 $100 / month
@@ -211,11 +234,11 @@ We coach toward it honestly. It's realistic for many committed students over tim
 
 How much does it cost?
 
-USD 150 per month for private 1:1, eight live sessions, two each week. Small-group option USD 100 per month. No contract; cancel any time.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
-Is there a free trial?
+Can we try a class before enrolling?
 
-Yes, the first session is free, no card needed. We give a couple of problems to see how your child thinks.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 What ages and grades is this for?
 

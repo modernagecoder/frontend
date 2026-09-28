@@ -1,20 +1,20 @@
 ---
 title: "Online Math Tutor for 2nd Grade | Regrouping That Makes Sense | Modern Age Coders"
-description: "Live 1:1 second grade math tutoring: regrouping as real bundling (not a borrowing ritual), fact fluency within 20 finished through games, and the grade-3 multiplication runway laid on time. One-hour classes twice a week, free demo."
+description: "Live 1:1 second grade math tutoring: regrouping as real bundling (not a borrowing ritual), fact fluency within 20 finished through games, and the grade-3 multiplication runway laid on time. One-hour classes twice a week. Priority Demo available."
 canonical: https://learn.modernagecoders.com/online-math-tutor-2nd-grade
 source: src/pages/online-math-tutor-2nd-grade.html
 ---
-> Live 1:1 second grade math tutoring: regrouping as real bundling (not a borrowing ritual), fact fluency within 20 finished through games, and the grade-3 multiplication runway laid on time. One-hour classes twice a week, free demo.
+> Live 1:1 second grade math tutoring: regrouping as real bundling (not a borrowing ritual), fact fluency within 20 finished through games, and the grade-3 multiplication runway laid on time. One-hour classes twice a week. Priority Demo available.
 
 Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the placement pick for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the placement pick for you.
 
-[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)Best fit  Elementary Mathematics Masterclass The grades 1-5 road with second grade's regrouping and the grade-3 runway taught properly inside it. Grades 1-58 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids The fluency engine second grade demands: facts within 20 from memory, built through games. Ages 5-108 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)[![Early Math Foundations course thumbnail](/images/early-math-k2.webp)  Early Math Foundations (K-2) For the second grader whose gaps trace back further: the K-2 foundation, rebuilt kindly. Ages 4-78 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/early-math-foundations)See what is includedThe 20-second answer
+[![Elementary Mathematics Masterclass course thumbnail](/images/elementary-maths.webp)Best fit  Elementary Mathematics Masterclass The grades 1-5 road with second grade's regrouping and the grade-3 runway taught properly inside it. Grades 1-58 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/elementary-mathematics-complete-masterclass)[![Mental Maths Mastery for Kids course thumbnail](/images/mental-maths-kids.webp)  Mental Maths Mastery for Kids The fluency engine second grade demands: facts within 20 from memory, built through games. Ages 5-108 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/mental-maths-mastery-kids)[![Early Math Foundations course thumbnail](/images/early-math-k2.webp)  Early Math Foundations (K-2) For the second grader whose gaps trace back further: the K-2 foundation, rebuilt kindly. Ages 4-78 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/early-math-foundations)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-Good 2nd grade math tutoring does three things: **teaches regrouping as unbundling real tens** (not a borrowing ritual), **finishes fact fluency within 20** so bigger arithmetic has fuel, and **builds the grade-3 runway**, skip counting and arrays that make multiplication feel inevitable instead of alien. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, free demo class first.
+Good 2nd grade math tutoring does three things: **teaches regrouping as unbundling real tens** (not a borrowing ritual), **finishes fact fluency within 20** so bigger arithmetic has fuel, and **builds the grade-3 runway**, skip counting and arrays that make multiplication feel inevitable instead of alien. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
 
 Why second grade bites
 
@@ -83,7 +83,7 @@ The year, mapped
 
 ## From bundles to grade-3 ready.
 
-### Class 1 · The free demo
+### Class 1 · The Priority Demo
 
 A real lesson plus a diagnostic: fact-fluency stage, place-value depth, and whether ritual or sense is currently steering.
 
@@ -162,6 +162,8 @@ $150 / month
 - Diagnostic-led plan against the full 2nd grade map
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -173,7 +175,7 @@ $100 / month
 
 [See the elementary course](/courses/elementary-mathematics-complete-masterclass)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US math tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your child
 
@@ -235,7 +237,7 @@ It runs underneath school rather than against it: same territory, deeper method,
 
 What does it cost?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month, and every student starts with a free demo class. No registration fee, no contract. US tutoring centers charge $300 to $450 a month for less individual attention.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract. US tutoring centers charge $300 to $450 a month for less individual attention.
 
 My child is behind from earlier grades. Is 2nd grade tutoring still right?
 
@@ -245,9 +247,9 @@ What happens after 2nd grade?
 
 The same mentor carries your child into third grade, the famous multiplication-and-fractions year, with the runway already built. Our 3rd grade page and the Elementary Masterclass cover that road.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every child starts with a free live demo class that doubles as the diagnostic, no card details, no obligation. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -259,7 +261,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, you get a diagnostic against the full 2nd grade map, and nobody asks for a card. If your child does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

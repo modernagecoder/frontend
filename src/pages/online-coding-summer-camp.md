@@ -1,20 +1,20 @@
 ---
 title: "Online Coding Summer Camp | Ages 6-16, Live Mentors | Modern Age Coders"
-description: "A live online coding summer camp for ages 6-16: four tracks from Scratch to Python and AI, 8 one-hour mentor-led classes a month, one shipped project, vacation-proof scheduling. From $100/month while US day camps run $300-$500 a week. Free demo."
+description: "A live online coding summer camp for ages 6-16: four tracks from Scratch to Python and AI, 8 one-hour mentor-led classes a month, one shipped project, vacation-proof scheduling. From $100/month while US day camps run $300-$500 a week. Priority Demo available."
 canonical: https://learn.modernagecoders.com/online-coding-summer-camp
 source: src/pages/online-coding-summer-camp.html
 ---
-> A live online coding summer camp for ages 6-16: four tracks from Scratch to Python and AI, 8 one-hour mentor-led classes a month, one shipped project, vacation-proof scheduling. From $100/month while US day camps run $300-$500 a week. Free demo.
+> A live online coding summer camp for ages 6-16: four tracks from Scratch to Python and AI, 8 one-hour mentor-led classes a month, one shipped project, vacation-proof scheduling. From $100/month while US day camps run $300-$500 a week. Priority Demo available.
 
 Enroll now
 
 ## Pick the track. Summer is short.
 
-Each camp track runs on a structured course, adapted live to your child. Open one to see the syllabus and enroll in minutes, or start with the **free demo class** and let the placement pick for you.
+Each camp track runs on a structured course, adapted live to your child. Open one to see the syllabus and enroll in minutes, or start with a **Priority Demo** and let the placement pick for you.
 
-[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Most popular  Vibe Coding for Kids The summer crowd-pleaser: blocks, game builds and AI tools in one joyful arc, ages 8-12. Ages 8-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)  Scratch Programming Complete First Games track for ages 6-9: real ideas in friendly blocks, from first sprite to shipped game. Ages 6-98 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids Python Start and AI Explorers tracks: real text code and honest AI, for ages 10-14. Ages 10-148 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)See what is includedThe 20-second answer
+[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)Most popular  Vibe Coding for Kids The summer crowd-pleaser: blocks, game builds and AI tools in one joyful arc, ages 8-12. Ages 6-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)  Scratch Programming Complete First Games track for ages 6-9: real ideas in friendly blocks, from first sprite to shipped game. Ages 6-98 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  Python & AI for Kids Python Start and AI Explorers tracks: real text code and honest AI, for ages 10-14. Ages 10-148 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-A good online coding camp gives your child **real live teaching** (not videos with a camp logo), **a project they ship** by summer's end, and **scheduling that survives family vacations**. That is ours: 8 live one-hour classes a month with a dedicated mentor, tracks by age from Scratch to Python and AI, 1-on-1 or small group, priced for your country and shown in your local currency, free demo class first, and the option to simply keep going in September, because the mentor does not disappear when the campfire goes out.
+A good online coding camp gives your child **real live teaching** (not videos with a camp logo), **a project they ship** by summer's end, and **scheduling that survives family vacations**. That is ours: 8 live one-hour classes a month with a dedicated mentor, tracks by age from Scratch to Python and AI, 1-on-1 or small group, priced for your country and shown in your local currency, Priority Demo first, and the option to simply keep going in September, because the mentor does not disappear when the campfire goes out.
 
 The summer camp math
 
@@ -24,7 +24,7 @@ Here is what US parents actually face each summer: tech day camps at $300 to $50
 
 Skills are built the way sports coaches and music teachers have always known: **regular sessions, spaced over weeks, with the same teacher**. That is precisely what an online camp can do and a physical one cannot. Two one-hour classes a week, all summer, with a mentor who remembers exactly where your child left off, even if the family spent two of those weeks at the lake, because slots move with your vacation.
 
-The economics only work in your favor because our cost base is global: a month of eight live classes costs $100 in a small group or $150 fully 1-on-1, less than a single week at most US tech camps. Quality first, and the price simply makes trying it a non-decision.
+The economics only work in your favor because our cost base is global: a month of eight live classes costs less than a single week at most US tech camps. Quality first, and the price simply makes trying it a non-decision.
 
 And the quiet advantage nobody markets: a summer camp with us is a **beginning, not an event**. The child who discovers they love building games in July keeps the same mentor in September. No cliff, no "see you next summer", just a skill that compounds while other kids' camp certificates gather dust.
 
@@ -39,9 +39,9 @@ Camp tracks
 | Python Start | 10-14 | Real text code: a quiz game, a generative art piece, or Minecraft commanded by Python | The Python and AI masterclasses |
 | AI Explorers | 11-16 | Hands-on AI projects: chatbots, image tools and an honest understanding of how the magic works | AI/ML tracks for teens |
 
-Every track is live, mentor-taught and project-first. The free demo doubles as track placement, one hour with a mentor beats any age chart.
+Every track is live, mentor-taught and project-first. The Priority Demo doubles as track placement, one hour with a mentor beats any age chart.
 
-Is this your summer?
+[Book a Priority Demo](/priority-demo)Is this your summer?
 
 ## Eight signs the online camp is the right call.
 
@@ -87,7 +87,7 @@ A real Game Builders arc · ages 9-12Week 1-2: the world takes shape → player 
 
 By the final class the child demos a finished game to the family, it goes up on our [Student Labs wall](/student-labs), and the mentor hands over an honest read: what your child loved, where they shine, and what the right next step is, including "take a break" when that is the truth.
 
-[Watch real recorded classes](/how-we-teach)How camp works
+[Book a Priority Demo](/priority-demo)[Watch real recorded classes](/how-we-teach)How camp works
 
 ## Camp energy, school-year substance.
 
@@ -130,9 +130,9 @@ The camp arc
 
 ## From demo to demo day, mapped.
 
-### Before camp · The free demo
+### Before camp · The Priority Demo
 
-A real class, a track placement, and your questions answered, no card, no commitment, no camp-brochure gloss.
+A real class, a track placement, and your questions answered, no commitment, no camp-brochure gloss.
 
 ### Weeks 1-2 · Foundations at speed
 
@@ -187,6 +187,8 @@ $150 / month
 - Projects chosen with, and built by, your child
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -198,7 +200,7 @@ $100 / month
 
 [See the top camp track](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
 
-That is **$12.50 per dedicated hour** of 1-on-1 teaching, or $5 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what US kids coding costs in 2026](/coding-classes-for-kids-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US kids coding costs in 2026](/coding-classes-for-kids-cost).
 
 Who teaches your child
 
@@ -244,7 +246,7 @@ Honestly: it is our regular teaching wearing sunscreen, and that is the point. S
 
 What ages does the camp cover?
 
-Ages 6-16 across four tracks: First Games with Scratch (6-9), Game Builders (9-12), Python Start (10-14) and AI Explorers (11-16). The free demo places your child by evidence rather than age-chart guesswork.
+Ages 6-16 across four tracks: First Games with Scratch (6-9), Game Builders (9-12), Python Start (10-14) and AI Explorers (11-16). The Priority Demo places your child by evidence rather than age-chart guesswork.
 
 We travel in July. Does the schedule survive vacations?
 
@@ -252,7 +254,7 @@ Yes, this is the online camp's superpower. Slots move around your trips, a lapto
 
 How does this compare to iD Tech or a local tech camp?
 
-Different shapes: those are one intense in-person week, typically $300-$500 (premium brands $1,000+), great fun, poor retention. Ours is eight spaced weeks of live 1-on-1 or small-group teaching for $100-$150 a month, which is how skills actually form. If you need childcare hours, the physical camp wins; if you want the skill, spacing wins.
+Different shapes: those are one intense in-person week, typically $300-$500 (premium brands $1,000+), great fun, poor retention. Ours is eight spaced weeks of live 1-on-1 or small-group teaching at our regular monthly fee, which is how skills actually form. If you need childcare hours, the physical camp wins; if you want the skill, spacing wins.
 
 Is it too late to join mid-summer?
 
@@ -268,7 +270,7 @@ Yes, and it is wonderful: we can build a small group from two or three friends i
 
 What does the camp cost?
 
-Exactly our regular pricing, because it is our regular teaching: 1-on-1 is $150 a month and small group is $100 a month, 8 live one-hour classes, recordings included, no registration fee. A single week at a US tech day camp typically costs more than our entire summer.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time. A single week at a US tech day camp typically costs more than our entire summer.
 
 What equipment is needed?
 
@@ -278,9 +280,9 @@ Do you run a camp for maths too?
 
 Yes, the summer math program runs on the same bones: catch-up and get-ahead tracks, live one-hour classes, vacation-friendly. Plenty of families pair one coding and one maths slot per week.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every camper starts with a free live demo class that doubles as track placement, a real lesson, a real read on your child, no card details. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -292,7 +294,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, builds something real inside the hour, and you get an honest track placement, and nobody asks for a card. If your child does not leave the hour asking when the next class is, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 ---
 

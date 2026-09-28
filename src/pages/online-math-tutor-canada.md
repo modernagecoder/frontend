@@ -1,20 +1,20 @@
 ---
 title: "Online Math Tutor Canada | EQAO to Calculus & Vectors | Modern Age Coders"
-description: "Live 1:1 online math tutoring for Canadian students, province-exact: Ontario (coding strand, de-streamed Grade 9, MHF4U/MCV4U), BC pathways, Alberta diploma courses, EQAO gap repair, CEMC contest coaching. One-hour classes twice a week, free demo."
+description: "Live 1:1 online math tutoring for Canadian students, province-exact: Ontario (coding strand, de-streamed Grade 9, MHF4U/MCV4U), BC pathways, Alberta diploma courses, EQAO gap repair, CEMC contest coaching. One-hour classes twice a week. Priority Demo available."
 canonical: https://learn.modernagecoders.com/online-math-tutor-canada
 source: src/pages/online-math-tutor-canada.html
 ---
-> Live 1:1 online math tutoring for Canadian students, province-exact: Ontario (coding strand, de-streamed Grade 9, MHF4U/MCV4U), BC pathways, Alberta diploma courses, EQAO gap repair, CEMC contest coaching. One-hour classes twice a week, free demo.
+> Live 1:1 online math tutoring for Canadian students, province-exact: Ontario (coding strand, de-streamed Grade 9, MHF4U/MCV4U), BC pathways, Alberta diploma courses, EQAO gap repair, CEMC contest coaching. One-hour classes twice a week. Priority Demo available.
 
 Enroll now
 
 ## Pick the course. Start this week.
 
-Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with the **free demo class** and let the diagnostic pick the level for you.
+Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick the level for you.
 
-[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  Maths Through Coding Learn math by building it in Python: fraction machines, turtle geometry and probability simulators. Ages 10-158 live classes / monthFree demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/maths-through-coding)See what is includedThe 20-second answer
+[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  Maths Through Coding Learn math by building it in Python: fraction machines, turtle geometry and probability simulators. Ages 10-158 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/maths-through-coding)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-A good online math tutor for a Canadian student is **province-exact**: Ontario, BC, Alberta and Quebec run genuinely different curricula, pathways and exams. They treat EQAO and numeracy assessments as gap-finders, build the runway to the Grade 12 courses universities actually require (in Ontario: Advanced Functions and Calculus & Vectors), and teach for understanding throughout. That is what we do: 8 live one-hour classes a month across every Canadian time zone, 1-on-1 for USD $150 a month (about C$205) or small group for $100, free demo class first.
+A good online math tutor for a Canadian student is **province-exact**: Ontario, BC, Alberta and Quebec run genuinely different curricula, pathways and exams. They treat EQAO and numeracy assessments as gap-finders, build the runway to the Grade 12 courses universities actually require (in Ontario: Advanced Functions and Calculus & Vectors), and teach for understanding throughout. That is what we do: 8 live one-hour classes a month across every Canadian time zone, 1-on-1 or small group, priced in your currency, Priority Demo first.
 
 Why Canadian families come looking
 
@@ -41,7 +41,7 @@ Know the road
 
 Curricula and assessments evolve by province; we verify current ministry and assessment-authority documentation (EQAO, BC graduation assessments, Alberta diploma exam weighting) for your child's province and year.
 
-Facing a pathway choice, or repairing after one? The free demo doubles as an honest province-specific consult.
+Facing a pathway choice, or repairing after one? The Priority Demo doubles as an honest province-specific consult.
 
 Is this your child?
 
@@ -139,7 +139,7 @@ A typical arc
 
 ## From diagnostic to the Grade 12 gate, mapped.
 
-### Class 1 · The free demo diagnostic
+### Class 1 · The Priority Demo diagnostic
 
 A real lesson plus an audit: province and course confirmed, fraction and algebra base checked, and the actual root of the trouble located.
 
@@ -226,6 +226,8 @@ $150 / month
 - Diagnostic-led plan for your child's province and grade
 - Class recordings for revision · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Class
 
 $100 / month
@@ -237,7 +239,7 @@ $100 / month
 
 [See the high school course](/courses/complete-high-school-mathematics-mastery)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and a free demo before any payment. [Read our zero-risk promise](/guarantee) or compare with [what maths tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what maths tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your child
 
@@ -265,7 +267,7 @@ An honest comparison
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | USD $100-$150 / month (≈ C$140-$205) | 8 live one-hour 1-on-1 classes, province-exact, understanding-first, coding strand included | Sustained repair and stretch, from EQAO years to the Grade 12 gate |
+| Modern Age Coders | $100-$150 / month | Live one-hour 1-on-1 classes, province-exact, understanding-first, coding strand included | Sustained repair and stretch, from EQAO years to the Grade 12 gate |
 | Private tutors | C$40-$80+ / hour | Quality varies widely; twice weekly runs C$320-$640+ a month | Families who have found, and can keep, a proven local gem |
 | Mathnasium-style centers | C$300-$450 / month | Drop-in worksheet floors with rotating instructors, plus the drive | Children who focus better out of the house |
 | Kumon | C$150-$220 / subject / month | Daily drill packets and brief check-ins, process without teaching | Building a practice habit and calculation speed |
@@ -307,7 +309,7 @@ We schedule around your family, from Atlantic to Pacific, with after-school, eve
 
 What does it cost, honestly?
 
-1-on-1 is USD $150 a month (about C$205) and small group is USD $100 (about C$140), both with 8 live one-hour classes (2 per week) and recordings included, no registration fee, no contract. A local tutor twice a week typically runs C$320 to C$640 a month, and center franchises C$300 to C$450.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
 Can you rescue a Grade 11 or 12 student mid-course?
 
@@ -319,11 +321,11 @@ Happily. Strong students extend into contest problems, deeper proofs, and coding
 
 Who teaches, and can I see it before deciding?
 
-Mentors who teach both mathematics and programming, trained in concrete-first, understanding-before-procedure teaching. Meet the team on our team page, read our 547 Google reviews, and judge the real thing in the free demo class.
+Mentors who teach both mathematics and programming, trained in concrete-first, understanding-before-procedure teaching. Meet the team on our team page, read our 547 Google reviews, and judge the real thing in a Priority Demo.
 
-Can we try before paying anything?
+Can we try a class before enrolling?
 
-Yes. Every child starts with a free live demo class that doubles as the diagnostic, province, course and gaps, no card details, no obligation. The promise is written on our guarantee page.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Keep exploring
 
@@ -335,7 +337,7 @@ Keep exploring
 
 Book the demo class. Your child gets a real lesson with a real mentor, you get a diagnostic against their province and grade, one full hour of real math teaching, free, and nobody asks for a card. If your child does not leave the hour lighter about math, walk away with our thanks.
 
-[Watch real classes first](/how-we-teach)
+[Book a Priority Demo](/priority-demo)[Watch real classes first](/how-we-teach)
 
 Real student projects
 

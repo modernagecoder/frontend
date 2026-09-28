@@ -166,6 +166,8 @@ $150 / month
 - Taught to your board & tier, with past papers
 - A diagnostic-led plan · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Cohort
 
 $100 / month
@@ -229,9 +231,9 @@ How much does it cost?
 
 A flat monthly fee, shown in your own currency in the pricing section of this page: private one-to-one with eight live lessons a month, two each week, or a small-group batch of 5 to 10 at a lower fee. No enrolment charge and no contract; stop at any month end.
 
-Is there a free trial?
+Can we try a class before enrolling?
 
-Yes, the first lesson is free, no card needed. We diagnose where marks are being lost.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Will my child keep the same tutor?
 

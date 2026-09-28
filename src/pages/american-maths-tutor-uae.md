@@ -10,7 +10,7 @@ In short
 
 **Modern Age Coders provides live one-to-one online maths tutoring for American-curriculum students across the UAE**, middle and high school math, the Digital SAT, and AP Calculus and Statistics.
 
-We build the algebra and reasoning that lift both GPA and the SAT score, then train the specific test technique, with the same tutor throughout. Pricing is **USD 150 per month** for eight 1:1 sessions, lessons run in Gulf Standard Time, and the first session is free.
+We build the algebra and reasoning that lift both GPA and the SAT score, then train the specific test technique, with the same tutor throughout. Lessons run in Gulf Standard Time, the monthly plans are shown in your currency in the pricing section, and you can see a full class first with a Priority Demo.
 
 Why American-curriculum families need joined-up help
 
@@ -156,6 +156,8 @@ $150 / month
 - Understanding first, then test technique
 - Official SAT/AP material · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Cohort
 
 $100 / month
@@ -213,11 +215,11 @@ Yes: AP Calculus AB/BC and AP Statistics, CED aligned, with free-response techni
 
 How much does it cost?
 
-USD 150/month for 1:1, eight live sessions, two a week. Small-group option USD 100/month. No contract.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
-Is the first session free?
+Can we try a class before enrolling?
 
-Yes, no card needed.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Will my child keep the same tutor?
 

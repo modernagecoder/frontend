@@ -10,7 +10,7 @@ In short
 
 **Modern Age Coders provides live one-to-one online IB Maths tutoring across the UAE**: Analysis & Approaches (AA) and Applications & Interpretation (AI), at Standard and Higher Level, including support with the Internal Assessment exploration.
 
-We teach the concepts properly, coach the GDC and Paper 1/2/3 technique, and keep the same IB-experienced tutor throughout. Pricing is **USD 150 per month** for eight 1:1 sessions, lessons run in Gulf Standard Time, and the first session is free.
+We teach the concepts properly, coach the GDC and Paper 1/2/3 technique, and keep the same IB-experienced tutor throughout. Lessons run in Gulf Standard Time, the monthly plans are shown in your currency in the pricing section, and you can see a full class first with a Priority Demo.
 
 Why IB Maths is so demanding
 
@@ -156,6 +156,8 @@ $150 / month
 - Concepts, IA support, GDC and past papers
 - Same tutor throughout · cancel any time
 
+[Book a Priority Demo](/priority-demo)
+
 ### Small-Group Cohort
 
 $100 / month
@@ -217,11 +219,11 @@ Yes, efficient calculator use and Paper 1, 2 and (HL) Paper 3 practice.
 
 How much does it cost?
 
-USD 150/month for 1:1, eight live sessions, two a week. Small-group option USD 100/month. No contract.
+The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
-Is the first session free?
+Can we try a class before enrolling?
 
-Yes, no card needed.
+Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
 Will my child keep the same tutor?
 
