@@ -16507,6 +16507,18 @@
   to = "/src/pages/ai-and-programming-classes-in-east-kilbride.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-livingston"
+  to = "/src/pages/best-coding-and-ai-classes-in-livingston.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-livingston.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-livingston.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

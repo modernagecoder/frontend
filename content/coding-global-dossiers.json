@@ -31576,5 +31576,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-livingston": {
+    "market": "Livingston",
+    "bodyClass": "cg-lvg",
+    "pageType": "city",
+    "curriculumAuthority": "West Lothian (S12000040). Scotland: Curriculum for Excellence, SQA National 5 to Advanced Higher. NRS mid-2020 settlement and locality estimates: Livingston 56,840. postcodes.io (West Lothian, EH54): Craigshill, Ladywell, Knightsridge, Dedridge, Howden, Eliburn, Deans, Murieston, Adambrae, Bellsquarry (suburban areas).",
+    "localProject": "OSM API 0.6 bbox -3.575,55.865,-3.465,55.910 (12 tiles): 9,827 highway ways; histories of 96 edited since 1 July 2026; 19 created after, 9,808 in both. SHA-256 leaves, tree height 14; 75 changed (geometry 40, tags 50; 2 edited back to identical). Merkle walk 823 comparisons vs 9,808; single change 29. Lesson family: Merkle trees, change detection, data integrity.",
+    "requiredMentions": [
+      "56,840",
+      "9,808",
+      "Dedridge",
+      "Murieston",
+      "Craigshill",
+      "Knightsridge",
+      "Eliburn",
+      "Bellsquarry",
+      "Merkle tree"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap map data and way version histories for Livingston, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "National Records of Scotland, population estimates for settlements and localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in West Lothian.",
+        "url": "https://api.postcodes.io/places?q=Dedridge"
+      }
+    ],
+    "rejectedClaims": [
+      "New-town history: not read from a source; not claimed.",
+      "Why the mapped roads changed: edits are volunteer map updates; no real-world road changes are claimed.",
+      "Ways deleted since 1 July 2026: not visible in the current download; not counted.",
+      "Largest locality in West Lothian: per NRS mid-2020 figures quoted on the West Lothian page (Livingston 56,840, Bathgate 23,600).",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
