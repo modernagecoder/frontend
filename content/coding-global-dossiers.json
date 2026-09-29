@@ -31048,5 +31048,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-chatham": {
+    "market": "Chatham",
+    "bodyClass": "cg-cht",
+    "pageType": "city",
+    "curriculumAuthority": "Medway (E06000035), Census 2021 TS001 usual residents 279,773. ONS 2021 BUAs (published): Chatham 76,955; Gillingham (Medway) 108,480; Rochester 67,285. postcodes.io (Medway) suburban areas: Luton, Walderslade.",
+    "localProject": "Nomis TS044 + TS045 for 853 Medway OAs (111,425 households); label mostly terraced 296 (34.7%). AUC: random 0.515; no-car share 0.642; logistic on two car features (5-fold held-out) 0.673. Cut-offs: 0.382 catches 51.4% with 161 false alarms of 557; 0.338 70.6% (218); 0.308 80.1% (287); 0.279 90.2% (356); 0.258 95.3% (405). At 0.5: 11 of 296 caught, 41 false alarms, accuracy 61.8% vs always-no 65.3%. Lesson family: ROC curve, AUC, thresholds and costs.",
+    "requiredMentions": [
+      "76,955",
+      "279,773",
+      "111,425",
+      "Walderslade",
+      "ROC curve",
+      "area under the curve",
+      "0.673",
+      "0.642",
+      "853"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Census 2021 TS044 and TS045 for Medway output areas, and TS001 usual residents, via the Nomis API.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Medway.",
+        "url": "https://api.postcodes.io/places?q=Walderslade"
+      }
+    ],
+    "rejectedClaims": [
+      "Dockyard or naval history: not read from a source; not claimed.",
+      "Why terraced housing and car ownership go together: not measured; not claimed.",
+      "How any named spam or medical system sets its threshold: mentioned only as general examples.",
+      "Age features: requested but downloads were cut short, so not used.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
