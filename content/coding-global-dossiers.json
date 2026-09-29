@@ -31949,5 +31949,50 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-airdrie": {
+    "market": "Airdrie",
+    "bodyClass": "cg-adr",
+    "pageType": "city",
+    "curriculumAuthority": "North Lanarkshire (S12000050). Scotland: Curriculum for Excellence, SQA National 5 to Advanced Higher. NRS mid-2020 settlement and locality estimates: Airdrie 36,390 (Cumbernauld 50,530, Coatbridge 43,950). postcodes.io (North Lanarkshire, ML6): Cairnhill, Clarkston, Craigneuk, Gartlea, Holehills, Petersburn, Rawyards, Thrashbush, Whinhall (suburban areas); Calderbank, Caldercruix, Chapelhall, Glenmavis, Plains (villages).",
+    "localProject": "OSM API 0.6 bbox -4.010,55.850,-3.945,55.880: 171 bus stops (47 shelter=yes, 113 no, 11 untagged); 8 random shelter=no stops A-H (seed 2026). Agents rank by homes within 300 m, nearest shop, gap to nearest shelter, EU-DEM height, distance to primary/secondary road. Plurality G (2 firsts); Borda A=B=G 20; Condorcet none (A, B, G each 5 of 7); instant-runoff G over B 3-2 (alphabetical tie-breaks). Lesson family: voting rules for aggregating agent rankings.",
+    "requiredMentions": [
+      "36,390",
+      "Petersburn",
+      "Rawyards",
+      "Holehills",
+      "Whinhall",
+      "Cairnhill",
+      "Chapelhall",
+      "Borda count",
+      "Condorcet",
+      "instant-runoff"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap bus stops, buildings, shops and roads in Airdrie, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "OpenTopoData API, EU-DEM 25 m dataset (Copernicus EU-DEM v1.1).",
+        "url": "https://www.opentopodata.org/datasets/eudem/"
+      },
+      {
+        "claim": "National Records of Scotland, population estimates for settlements and localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and villages in North Lanarkshire.",
+        "url": "https://api.postcodes.io/places?q=Petersburn"
+      }
+    ],
+    "rejectedClaims": [
+      "Which real bus stop needs a shelter: not claimed; a teaching exercise only, stop names deliberately not shown.",
+      "That OpenStreetMap shelter tags are complete or current: not claimed.",
+      "That the height agent's priority is correct: stated as our assumption.",
+      "Third locality in North Lanarkshire: per NRS mid-2020 figures quoted on the North Lanarkshire page (Cumbernauld 50,530, Coatbridge 43,950, Airdrie 36,390).",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
