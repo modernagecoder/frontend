@@ -31495,5 +31495,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-paisley": {
+    "market": "Paisley",
+    "bodyClass": "cg-psy",
+    "pageType": "city",
+    "curriculumAuthority": "Renfrewshire (S12000038). Scotland: Curriculum for Excellence, SQA National 5, Higher, Advanced Higher. NRS mid-2020 settlement and locality estimates: Paisley 77,270. postcodes.io (Renfrewshire, PA1 to PA3): Ferguslie Park, Glenburn, Ralston, Gallowhill, Dykebar, Hunterhill, Williamsburgh, Seedhill, Oldhall, Lochfield, Shortroods, Blackhall (suburban areas).",
+    "localProject": "Met Office historic station data, Paisley (32 m amsl), sunshine 1959 to 2010 (52 complete years; site closed 2011). Sunniest month: May 27, June 13, July 5, August 4, April 3. Skip-r-then-choose success, random order / calendar order: r 0 8.1 / 0; r 3 37.8 / 19.2; r 4 38.8 / 65.4; r 5 39.2 / 36.5; r 6 37.3 / 13.5. Always May 51.9%. Lesson family: optimal stopping, secretary problem, random-order assumption.",
+    "requiredMentions": [
+      "77,270",
+      "Ralston",
+      "Glenburn",
+      "Gallowhill",
+      "Ferguslie Park",
+      "Williamsburgh",
+      "Dykebar",
+      "secretary problem",
+      "optimal stopping",
+      "37% rule"
+    ],
+    "sources": [
+      {
+        "claim": "Met Office historic station data, Paisley, monthly sunshine hours (Open Government Licence).",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/paisleydata.txt"
+      },
+      {
+        "claim": "National Records of Scotland, population estimates for settlements and localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Renfrewshire.",
+        "url": "https://api.postcodes.io/places?q=Ralston"
+      }
+    ],
+    "rejectedClaims": [
+      "Paisley pattern, thread mills or abbey history: not read from a source; not claimed.",
+      "Why May is sunny in Paisley: no cause claimed; only the counts from the records.",
+      "Any sunshine after 2011: the station closed; no later data used or implied.",
+      "Largest settlement in Renfrewshire: per the NRS mid-2020 locality figures (Paisley 77,270, Renfrew 24,270, Johnstone 15,930, Erskine 15,010).",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
