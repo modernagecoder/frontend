@@ -31210,5 +31210,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-burton-upon-trent": {
+    "market": "Burton upon Trent",
+    "bodyClass": "cg-btt",
+    "pageType": "city",
+    "curriculumAuthority": "East Staffordshire (E07000193), Census 2021 TS001 usual residents 124,020. ONS 2021 BUAs (published): Burton upon Trent 76,255; Uttoxeter 14,020; Barton-under-Needwood 4,715; Stretton (East Staffordshire) 4,650; Tutbury 3,675; Rolleston on Dove 2,900. postcodes.io (East Staffordshire) suburban areas: Horninglow, Stapenhill, Winshill, Branston, Outwoods, Shobnall.",
+    "localProject": "Census 2021 TS006 density + TS045 no-car share for 384 East Staffordshire OAs; OA21-BUA22 lookup. Town = Burton or Uttoxeter BUA (273), else 111. Linear SVC, standardised: baseline 71.1%; C 0.01 214 SVs 80.2%; 0.1 180 81.2%; 1 175 81.8%; 10/100 174 81.8%; density only 81.2%. C 1 called town: Burton 222/227, Uttoxeter 41/46, Stretton 16/16, Barton 12/14, Tutbury 11/12, no BUA 0/34. Median density Burton 5,111, Stretton 3,924, Uttoxeter 3,486, Tutbury 3,369, Barton 3,189, no BUA 44. Lesson family: SVM, support vectors, soft margin C, baseline accuracy, label vs feature.",
+    "requiredMentions": [
+      "124,020",
+      "76,255",
+      "14,020",
+      "Horninglow",
+      "Stapenhill",
+      "Shobnall",
+      "support vectors",
+      "soft margin",
+      "baseline accuracy"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS006 population density, TS045 car or van availability and TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS output area to built-up area lookup (OA21 to BUA22), ONS Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in East Staffordshire.",
+        "url": "https://api.postcodes.io/places?q=Horninglow"
+      }
+    ],
+    "rejectedClaims": [
+      "Brewing history or named breweries: not read from a source; not claimed.",
+      "Why Stretton counts as a separate built-up area: the ONS method is not quoted; only the model result is reported.",
+      "Whether the Burton upon Trent built-up area lies wholly in East Staffordshire: not claimed.",
+      "Sum of the built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
