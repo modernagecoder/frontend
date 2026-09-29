@@ -692,6 +692,11 @@ const MARKETS = [
   ['best-coding-and-ai-classes-in-carrickfergus', 'Carrickfergus, Northern Ireland'],
   ['best-coding-and-ai-classes-in-portadown', 'Portadown, Northern Ireland'],
   ['vibe-coding-and-ai-agents-classes-in-coleraine', 'Coleraine, Northern Ireland'],
+  ['ai-and-programming-classes-in-newtownards', 'Newtownards, Northern Ireland'],
+  ['vibe-coding-and-ai-agents-classes-in-lurgan', 'Lurgan, Northern Ireland'],
+  ['online-coding-and-python-classes-in-ballymena', 'Ballymena, Northern Ireland'],
+  ['vibe-coding-and-ai-agents-classes-in-dungannon', 'Dungannon, Northern Ireland'],
+  ['online-coding-and-python-classes-in-downpatrick', 'Downpatrick, Northern Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

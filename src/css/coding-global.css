@@ -1345,3 +1345,8 @@
 .cg-root.cg-ckf  { --cg-accent: #8A3E70; --cg-accent-soft: rgba(138,62,112,.10); }   /* Carrickfergus: a deep mulberry (5.63:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-ptd  { --cg-accent: #8A1572; --cg-accent-soft: rgba(138,21,114,.10); }   /* Portadown: a deep magenta (6.96:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-crn  { --cg-accent: #5C2955; --cg-accent-soft: rgba(92,41,85,.10); }   /* Coleraine: a deep plum (8.89:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-nwa  { --cg-accent: #66507A; --cg-accent-soft: rgba(102,80,122,.10); }   /* Newtownards: a muted heather purple (5.65:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-lrg  { --cg-accent: #4C0B4C; --cg-accent-soft: rgba(76,11,76,.10); }   /* Lurgan: a very deep plum (11.59:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-bmy  { --cg-accent: #5B1B6B; --cg-accent-soft: rgba(91,27,107,.10); }   /* Ballymena: a deep damson purple (9.33:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-dgn  { --cg-accent: #A0461F; --cg-accent-soft: rgba(160,70,31,.10); }   /* Dungannon: a warm terracotta (5.84:1 on paper), chosen by hand to stand apart from the purples, navies and greens of recent pages */
+.cg-root.cg-dpk  { --cg-accent: #6B6A10; --cg-accent-soft: rgba(107,106,16,.10); }   /* Downpatrick: a dark mustard olive (5.36:1 on paper), chosen by hand to differ in hue from the purples, navies and greens of recent pages */

@@ -16735,6 +16735,66 @@
   to = "/src/pages/vibe-coding-and-ai-agents-classes-in-coleraine.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-newtownards"
+  to = "/src/pages/ai-and-programming-classes-in-newtownards.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-newtownards.md"
+  to = "/src/pages/ai-and-programming-classes-in-newtownards.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-lurgan"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-lurgan.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-lurgan.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-lurgan.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-ballymena"
+  to = "/src/pages/online-coding-and-python-classes-in-ballymena.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-ballymena.md"
+  to = "/src/pages/online-coding-and-python-classes-in-ballymena.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-dungannon"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-dungannon.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-dungannon.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-dungannon.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-downpatrick"
+  to = "/src/pages/online-coding-and-python-classes-in-downpatrick.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-downpatrick.md"
+  to = "/src/pages/online-coding-and-python-classes-in-downpatrick.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

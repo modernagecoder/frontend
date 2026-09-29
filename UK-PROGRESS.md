@@ -473,7 +473,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 421 | best-coding-and-ai-classes-in-motherwell (mtw, #25336B) | cg- town page | 2,649 | 2.1% vs best-coding-and-ai-classes-in-glenrothes | can one-way streets trap a driver? | strongly connected components, Kosaraju, edge artefacts | 27ad866e |
 | 422 | vibe-coding-and-ai-agents-classes-in-st-andrews (sad, #8A223E) | cg- town page | 2,734 | 2.3% vs vibe-coding-and-ai-agents-classes-in-airdrie | how should an agent explore without a map? | BFS vs DFS, uninformed search | 5790398e |
 | 423 | online-coding-and-python-classes-in-musselburgh (msb, #8A4C8A) | cg- town page | 2,752 | 2.2% vs online-coding-and-python-classes-in-corby | how do you find the distance between every pair of places at once? | Floyd-Warshall, all-pairs shortest paths, numpy vectorisation | 2ec0672e |
-| 424 | ai-and-programming-classes-in-elgin (elg, #7A4A10) | cg- town page | 2,798 | 2.3% vs ai-and-programming-classes-in-kirkcaldy | how does a program find a pattern in a long sequence? | Knuth-Morris-Pratt, failure function, one-pass search | (this commit) |
+| 424 | ai-and-programming-classes-in-elgin (elg, #7A4A10) | cg- town page | 2,798 | 2.3% vs ai-and-programming-classes-in-kirkcaldy | how does a program find a pattern in a long sequence? | Knuth-Morris-Pratt, failure function, one-pass search | 160bfdfe |
+| 425 | best-coding-and-ai-classes-in-portadown (ptd, #8A1572) | cg- town page | 2,874 | 2% vs best-coding-and-ai-classes-in-carrickfergus | what does central really mean? | closeness centrality, degree centrality, edge effects | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

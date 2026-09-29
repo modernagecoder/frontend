@@ -1132,6 +1132,11 @@ USD 100 a month small group, USD 150 a month one to one.
 - Carrickfergus, Northern Ireland: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-carrickfergus
 - Portadown, Northern Ireland: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-portadown
 - Coleraine, Northern Ireland: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-coleraine
+- Newtownards, Northern Ireland: https://learn.modernagecoders.com/ai-and-programming-classes-in-newtownards
+- Lurgan, Northern Ireland: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-lurgan
+- Ballymena, Northern Ireland: https://learn.modernagecoders.com/online-coding-and-python-classes-in-ballymena
+- Dungannon, Northern Ireland: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-dungannon
+- Downpatrick, Northern Ireland: https://learn.modernagecoders.com/online-coding-and-python-classes-in-downpatrick
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).

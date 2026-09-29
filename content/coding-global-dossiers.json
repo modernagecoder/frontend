@@ -32359,5 +32359,208 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-newtownards": {
+    "market": "Newtownards",
+    "bodyClass": "cg-nwa",
+    "pageType": "city",
+    "curriculumAuthority": "Ards and North Down (N09000011). Northern Ireland Curriculum; CCEA GCSE and A level. NISRA Census 2021 MS-A01: settlement NEWTOWNARDS 29,677; DEA Newtownards 29,395; LGD Ards and North Down 163,659. postcodes.io outcode BT23 wards include Conway Square, Cronstown, Glen, Gregstown, Loughries, Movilla, Scrabo, West Winds.",
+    "localProject": "NISRA Census 2021 MS-A02 settlement sheet: 146 settlements of 1,000+, 19 five-year age shares. True nearest to Newtownards: Enniskillen, Coleraine, Ballymoney, Ballymena, Larne. PCA 2D: 55.0% + 11.8% variance, trust 0.893, 10-NN kept 45.7%. t-SNE perplexity 5/30/50 x seeds 0-2: trust 0.886 to 0.913, kept 46.8 to 50.6%; map neighbours of Newtownards change every run; Ballymena never in map top 5. Lesson family: t-SNE, dimensionality reduction for visualisation.",
+    "requiredMentions": [
+      "29,677",
+      "29,395",
+      "163,659",
+      "Scrabo",
+      "Movilla",
+      "Gregstown",
+      "Loughries",
+      "West Winds",
+      "t-SNE",
+      "trustworthiness"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA Census 2021 MS-A01 usual residents by settlement, DEA and LGD.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "NISRA Census 2021 MS-A02 age in five-year bands by settlement.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a02.xlsx"
+      },
+      {
+        "claim": "postcodes.io outcode BT23: administrative wards listed for the district.",
+        "url": "https://api.postcodes.io/outcodes/BT23"
+      }
+    ],
+    "rejectedClaims": [
+      "Scrabo Tower, airfield or priory history: not read from a source; not claimed.",
+      "Why towns share age profiles: no cause claimed; similarity is arithmetic on NISRA shares only.",
+      "That the BT23 wards are all inside the Newtownards settlement: not claimed; the district also covers Comber and Ballygowan areas.",
+      "Rank of Newtownards among Northern Ireland towns: not claimed.",
+      "Named schools, transfer test advice and term dates: none.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-lurgan": {
+    "market": "Lurgan",
+    "bodyClass": "cg-lrg",
+    "pageType": "city",
+    "curriculumAuthority": "Armagh City, Banbridge and Craigavon (N09000002). Northern Ireland Curriculum; CCEA GCSE and A level. NISRA Census 2021 MS-A01: Lurgan DEA 38,198 (no separate Lurgan settlement; part of Craigavon Urban Area including Aghacommon). Neighbourhoods (OpenStreetMap place=suburb): Ballyblagh, Dougher, Drumnamoe, Knocknashane, Mourneview, Silverwood, Taghneven, Tannaghmore, Toberhewny.",
+    "localProject": "OSM API 0.6: 60 x 60 grid of 20 m cells centred on place=town node 5286382091; 503 blocked (building), 346 main-road cells, 3,085 open cells connected to goal. Start (3,3), goal (56,56); step 1, main-road +10; 80% intended, 10% each side. Value iteration 229 sweeps. No-slip optimum 132. 4,000 runs: slip-ignoring replanner mean 186.9, road cells 3.65, steps 150.5, p90 214; MDP policy 173.3 (model 173.6), 2.92, 144.2, p90 194. Lesson family: Markov decision processes, value iteration.",
+    "requiredMentions": [
+      "38,198",
+      "Mourneview",
+      "Taghneven",
+      "Toberhewny",
+      "Drumnamoe",
+      "Knocknashane",
+      "Ballyblagh",
+      "Markov decision process",
+      "value iteration"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA, Census 2021 main statistics table MS-A01, usual residents by district electoral area and settlement.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "OpenStreetMap buildings, roads and place names around Lurgan, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "CCEA qualifications used in Northern Ireland schools (GCSE and A level).",
+        "url": "https://ccea.org.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "A Lurgan settlement population: NISRA publishes none; only the DEA figure is used.",
+      "Park, linen or lough history: not read from a source; not claimed.",
+      "Advice about real streets or road safety: the robot, costs and slip rate are a teaching model only.",
+      "Politics or identity topics: excluded.",
+      "Named schools, term dates or transfer test advice: none.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-ballymena": {
+    "market": "Ballymena",
+    "bodyClass": "cg-bmy",
+    "pageType": "city",
+    "curriculumAuthority": "Mid and East Antrim (N09000008). Northern Ireland Curriculum; CCEA GCSE and A level. NISRA Census 2021 MS-A01: settlement BALLYMENA 31,205; DEA Ballymena 24,295; LGD Mid and East Antrim 138,994. postcodes.io outcodes BT42 and BT43 wards include Academy, Ardeevin, Ballee and Harryville, Ballykeel, Braidwater, Castle Demesne, Fair Green, Galgorm, Kirkinriola, Park.",
+    "localProject": "OSM API 0.6 bbox -6.320,54.845,-6.235,54.885: 2,473 junctions (3+ drivable ways), 11,552 buildings, 11,534 within 400 m of a junction. Set cover at 400 m: greedy 69 (about 1 s); LP relaxation 48.27 (so at least 49); scipy milp with HiGHS, 10-minute limit, best 50, not proven optimal; true minimum 49 or 50. Lesson family: integer programming, set cover, greedy vs exact, LP relaxation bound.",
+    "requiredMentions": [
+      "31,205",
+      "24,295",
+      "138,994",
+      "11,552",
+      "Galgorm",
+      "Ballee and Harryville",
+      "Ballykeel",
+      "Ardeevin",
+      "Kirkinriola",
+      "integer programming",
+      "LP relaxation"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA Census 2021 MS-A01 usual residents by settlement, DEA and LGD.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "OpenStreetMap buildings and streets in Ballymena, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "postcodes.io outcodes BT42 and BT43: administrative wards listed for the districts.",
+        "url": "https://api.postcodes.io/outcodes/BT43"
+      }
+    ],
+    "rejectedClaims": [
+      "Linen, market town or castle history: not read from a source; not claimed.",
+      "That the chosen junctions are a proposal for any real service: stated as a thought experiment.",
+      "An exact optimum: not proven within the solver time limit; reported as 49 or 50.",
+      "That the BT42 and BT43 wards are all inside the Ballymena settlement: not claimed.",
+      "Named schools, transfer test advice and term dates: none.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-dungannon": {
+    "market": "Dungannon",
+    "bodyClass": "cg-dgn",
+    "pageType": "city",
+    "curriculumAuthority": "Mid Ulster (N09000009). Northern Ireland Curriculum; CCEA GCSE and A level. NISRA Census 2021 MS-A01: Dungannon settlement 16,282; Dungannon DEA 25,640; Mid Ulster LGD 150,293. Wards: Ballysaggart 5,062; Killymeal 5,003; Mullaghmore 4,408; Moygashel 3,606 (Nominatim: each in Dungannon or Mid-Ulster District). OSM place nodes: Granville (village), Lardan (locality).",
+    "localProject": "OSM API 0.6 bbox -6.810,54.485,-6.735,54.525 (6 tiles): public roads 105.0 km, 972 junctions, 1,043 segments. 383 random trips (>= 800 m) with one mid-route segment closed; 83 left no route in the box; 300 scored. Extra distance vs knowing in advance: full replan median 8.3% (p90 45.4%); local repair median 10.4% (p90 49.5%), within 1% of replan in 78.7%. Junctions examined: replan 403, repair 117. Lesson family: dynamic replanning, plan repair, unreachable goals.",
+    "requiredMentions": [
+      "16,282",
+      "25,640",
+      "Ballysaggart",
+      "Killymeal",
+      "Mullaghmore",
+      "Moygashel",
+      "Granville",
+      "replanning",
+      "plan repair"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA, Census 2021 main statistics table MS-A01, usual residents by settlement, ward, district electoral area and LGD.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "OpenStreetMap road data for Dungannon, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "CCEA qualifications used in Northern Ireland schools (GCSE and A level).",
+        "url": "https://ccea.org.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Town history, castle or plantation-era claims: not read from a source; not claimed, and identity topics avoided.",
+      "Real roadworks or closures: none modelled; closures are random.",
+      "That the 83 disconnected trips are real dead ends: many may be artefacts of cutting the map at the rectangle; not claimed otherwise.",
+      "Sum of settlement, DEA and LGD figures: different geographies; never added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-downpatrick": {
+    "market": "Downpatrick",
+    "bodyClass": "cg-dpk",
+    "pageType": "city",
+    "curriculumAuthority": "Newry, Mourne and Down (N09000010). Northern Ireland Curriculum; CCEA GCSE and A level. NISRA Census 2021 MS-A01: Downpatrick settlement 11,545; Downpatrick DEA 21,916; Newry, Mourne and Down LGD 182,074; Killyleagh settlement 2,787; Ardglass settlement 1,761; wards Cathedral 4,217 and Quoile 4,172.",
+    "localProject": "OSM API 0.6 bbox -5.750,54.310,-5.690,54.345: 40 shops, 5,865 buildings. Welzl (iterative): shops radius 1,834.3 m, 2 support points, 229 checks; brute force 10,660 candidates, 15,409 checks; box-centre 1,855.9 m; average-centre 2,338.7 m, centre offset 509.4 m. Buildings: shuffled 65,666 checks (20 shuffles median 50,206.5, range 27,632 to 140,080); west to east 239,155; east to west 205,503. Lesson family: smallest enclosing circle, Welzl, input order.",
+    "requiredMentions": [
+      "11,545",
+      "21,916",
+      "5,865",
+      "Cathedral ward",
+      "Quoile",
+      "Killyleagh",
+      "Ardglass",
+      "Welzl",
+      "enclosing circle"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA, Census 2021 main statistics table MS-A01, usual residents by settlement, ward, district electoral area and LGD.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "OpenStreetMap shops and buildings in Downpatrick, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "CCEA qualifications used in Northern Ireland schools (GCSE and A level).",
+        "url": "https://ccea.org.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Religious sites, saint or cathedral history: not read from a source; not claimed, and identity topics avoided.",
+      "Named shops: none named.",
+      "That the building circle means anything about the town: it is bounded by our rectangle and used only for the speed test.",
+      "Sum of the NISRA figures: different geographies; never added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
