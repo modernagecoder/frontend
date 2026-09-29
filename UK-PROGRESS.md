@@ -453,7 +453,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 401 | best-coding-and-ai-classes-in-south-shields (shs, #5C5C17) | cg- town page | 2,875 | 2.2% vs vibe-coding-and-ai-agents-classes-in-kettering | how does attention in AI decide what to look at? | attention, queries keys values, hard vs soft attention | 80319977 |
 | 402 | vibe-coding-and-ai-agents-classes-in-bognor-regis (bgr, #5A638A) | cg- town page | 2,796 | 1.8% vs ai-and-programming-classes-in-burton-upon-trent | what happens when an agent keeps checking until it finds a result? | optional stopping, peeking, A/A test, p-hacking | 87688dfd |
 | 403 | online-coding-and-python-classes-in-corby (cbn, #7A4377) | cg- town page | 2,755 | 2.3% vs online-coding-and-python-classes-in-ashford | how does Python sort, and when does a sort that never compares win? | Timsort runs, adaptive sorting, radix sort | 1a879be2 |
-| 404 | ai-and-programming-classes-in-ellesmere-port (elp, #461B6B) | cg- town page | 2,842 | 1.4% vs ai-and-programming-classes-in-chatham | why does a model score better in testing than in real use? | data leakage, spatial autocorrelation, grouped split | (this commit) |
+| 404 | ai-and-programming-classes-in-ellesmere-port (elp, #461B6B) | cg- town page | 2,842 | 1.4% vs ai-and-programming-classes-in-chatham | why does a model score better in testing than in real use? | data leakage, spatial autocorrelation, grouped split | d613eff7 |
+| 405 | best-coding-and-ai-classes-in-farnborough (fnb, #466B4D) | cg- town page | 2,737 | 1.7% vs online-coding-and-python-classes-in-runcorn | which inputs does a model really rely on? | feature importance, permutation importance, noise control | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
