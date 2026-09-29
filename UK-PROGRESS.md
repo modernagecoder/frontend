@@ -467,7 +467,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 415 | online-coding-and-python-classes-in-coatbridge (ctb, #7A4359) | cg- town page | 2,685 | 2% vs online-coding-and-python-classes-in-cumbernauld | how grid-like are the streets? | street orientation, compass histogram, orientation entropy | 3093abae |
 | 416 | ai-and-programming-classes-in-greenock (grk, #36224C) | cg- town page | 2,756 | 2% vs ai-and-programming-classes-in-east-kilbride | why can a perfect fit be a bad model? | regularisation, ridge regression, overfitting | 575f239b |
 | 417 | best-coding-and-ai-classes-in-glenrothes (glr, #151C8A) | cg- town page | 2,754 | 2.3% vs best-coding-and-ai-classes-in-ayr | where does rain go, from heights alone? | D8 flow routing, pit filling, flow accumulation | e2a442d2 |
-| 418 | vibe-coding-and-ai-agents-classes-in-airdrie (adr, #466B5A) | cg- town page | 2,763 | 1.9% vs vibe-coding-and-ai-agents-classes-in-kilmarnock | how should several AI agents combine their opinions? | voting rules, Borda, Condorcet, instant-runoff | (this commit) |
+| 418 | vibe-coding-and-ai-agents-classes-in-airdrie (adr, #466B5A) | cg- town page | 2,763 | 1.9% vs vibe-coding-and-ai-agents-classes-in-kilmarnock | how should several AI agents combine their opinions? | voting rules, Borda, Condorcet, instant-runoff | c4df66a2 |
+| 419 | online-coding-and-python-classes-in-irvine (irv, #484C0B) | cg- town page | 2,709 | 2.5% vs ai-and-programming-classes-in-east-kilbride | how far can you really walk in ten minutes? | isochrones, Dijkstra with cut-off, network vs circle | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

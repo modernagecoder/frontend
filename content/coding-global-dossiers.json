@@ -31994,5 +31994,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-irvine": {
+    "market": "Irvine",
+    "bodyClass": "cg-irv",
+    "pageType": "city",
+    "curriculumAuthority": "North Ayrshire (S12000021). Scotland: Curriculum for Excellence, SQA National 5 to Advanced Higher. NRS mid-2020 settlement and locality estimates: Irvine 34,130 (Kilwinning 16,100 next). postcodes.io (North Ayrshire, KA11/KA12): Bourtreehill, Dreghorn, Fullarton, Girdle Toll (suburban areas); Perceton, Springside (villages).",
+    "localProject": "OSM API 0.6 bbox -4.705,55.595,-4.625,55.640: walking network 350.6 km (main piece 14,622 nodes), 10,769 buildings, start = place=town node 3824817957 (snap 32.3 m). 80 m/min. Reachable / circle / share: 5 min 20/152/13.2%; 10 min 292/746/39.1%; 15 min 1,065/1,991/53.5%; 20 min 2,370/3,863/61.4%. Lesson family: isochrones, Dijkstra with cut-off.",
+    "requiredMentions": [
+      "34,130",
+      "10,769",
+      "Girdle Toll",
+      "Bourtreehill",
+      "Fullarton",
+      "Perceton",
+      "Springside",
+      "isochrone",
+      "39.1%"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap paths, streets and buildings in Irvine, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "National Records of Scotland, population estimates for settlements and localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and villages in North Ayrshire.",
+        "url": "https://api.postcodes.io/places?q=Girdle%20Toll"
+      }
+    ],
+    "rejectedClaims": [
+      "New-town history, harbour or named landmarks along the walks: not read from a source; not claimed.",
+      "Which specific barrier blocks which walk: described generally; not attributed to named features.",
+      "Official accessibility or walking-time statistics: none; figures are our model.",
+      "Largest locality in North Ayrshire: per NRS mid-2020 figures quoted on the North Ayrshire page (Irvine 34,130, Kilwinning 16,100).",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
