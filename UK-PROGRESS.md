@@ -484,7 +484,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 432 | ai-and-programming-classes-in-banbridge (bbr, #6E5A0A) | cg- town page | 2,758 | 1.6% vs ai-and-programming-classes-in-newtownards | how do you find the exact shortest round without trying every order? | Held-Karp, dynamic programming over subsets, TSP | 8b524eb1 |
 | 433 | best-coding-and-ai-classes-in-enniskillen (enk, #0F6E6E) | cg- town page | 2,708 | 2.2% vs ai-and-programming-classes-in-greenock | which smooth curve tells the truth about a shoreline? | Chaikin corner cutting, Catmull-Rom spline, curve reconstruction | 14166a91 |
 | 434 | vibe-coding-and-ai-agents-classes-in-dungannon (dgn, #A0461F) | cg- town page | 2,888 | 2% vs vibe-coding-and-ai-agents-classes-in-crewe | what should an agent do when its plan breaks? | dynamic replanning, plan repair, unreachable goals | 8ac4f312 |
-| 435 | online-coding-and-python-classes-in-downpatrick (dpk, #6B6A10) | cg- town page | 2,794 | 1.4% vs online-coding-and-python-classes-in-weston-super-mare | what is the smallest circle round every shop? | smallest enclosing circle, Welzl, randomised input order | (this commit) |
+| 435 | online-coding-and-python-classes-in-downpatrick (dpk, #6B6A10) | cg- town page | 2,794 | 1.4% vs online-coding-and-python-classes-in-weston-super-mare | what is the smallest circle round every shop? | smallest enclosing circle, Welzl, randomised input order | c092928d |
+| 436 | ai-and-programming-classes-in-strabane (sbn, #44474A) | cg- town page | 2,822 | 1.5% vs ai-and-programming-classes-in-dumfries | can a model learn from data nobody labelled? | semi-supervised learning, label propagation, label spreading | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
