@@ -463,7 +463,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 411 | online-coding-and-python-classes-in-cumbernauld (cbd, #5C553C) | cg- town page | 2,707 | 1.8% vs online-coding-and-python-classes-in-paisley | how much further is the real route than the straight line? | circuity, detour factor, network shortest paths | aed8217a |
 | 412 | ai-and-programming-classes-in-kirkcaldy (kcd, #546B25) | cg- town page | 2,736 | 2.2% vs online-coding-and-python-classes-in-corby | why can more trees make a boosted model worse? | gradient boosting, learning rate, balanced accuracy | f01a9a12 |
 | 413 | best-coding-and-ai-classes-in-ayr (ayr, #6B3430) | cg- town page | 2,646 | 1.6% vs ai-and-programming-classes-in-east-kilbride | how does a computer compare two versions of a text? | Needleman-Wunsch, sequence alignment, diff | 8ca4bda9 |
-| 414 | vibe-coding-and-ai-agents-classes-in-kilmarnock (kmk, #256B25) | cg- town page | 2,685 | 1.8% vs vibe-coding-and-ai-agents-classes-in-bognor-regis | how much work moves when an agent joins the team? | consistent hashing, hash ring, virtual nodes | (this commit) |
+| 414 | vibe-coding-and-ai-agents-classes-in-kilmarnock (kmk, #256B25) | cg- town page | 2,685 | 1.8% vs vibe-coding-and-ai-agents-classes-in-bognor-regis | how much work moves when an agent joins the team? | consistent hashing, hash ring, virtual nodes | 4038bd7c |
+| 415 | online-coding-and-python-classes-in-coatbridge (ctb, #7A4359) | cg- town page | 2,685 | 2% vs online-coding-and-python-classes-in-cumbernauld | how grid-like are the streets? | street orientation, compass histogram, orientation entropy | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

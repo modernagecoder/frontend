@@ -31823,5 +31823,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-coatbridge": {
+    "market": "Coatbridge",
+    "bodyClass": "cg-ctb",
+    "pageType": "city",
+    "curriculumAuthority": "North Lanarkshire (S12000050). Scotland: Curriculum for Excellence, SQA National 5 upward. NRS mid-2020 settlement and locality estimates: Coatbridge 43,950 (Cumbernauld 50,530). postcodes.io (North Lanarkshire, ML5): Blairhill, Carnbroe, Cliftonville, Dunbeth, Gartsherrie, Greenend, Kirkwood, Langloan, Old Monkland, Rosehall, Shawhead, Sikeside, Townhead, Whifflet (suburban areas); Glenboig (village).",
+    "localProject": "OSM API 0.6 public roads. Coatbridge bbox -4.065,55.845,-3.995,55.878 (6 tiles): 159.2 km, 7,195 segments, entropy 3.488, order 0.085, 33.3% within 15 degrees of four main axes. Glasgow centre bbox -4.268,55.857,-4.245,55.868: 27.9 km, 1,067 segments, entropy 2.179, order 0.870, 92.7%; top slices near 10 and 100 degrees (18.7% and 21.4%). Lesson family: street network orientation, compass histogram, orientation entropy.",
+    "requiredMentions": [
+      "43,950",
+      "159.2 km",
+      "Whifflet",
+      "Kirkwood",
+      "Carnbroe",
+      "Sikeside",
+      "Gartsherrie",
+      "Blairhill",
+      "orientation entropy",
+      "order score"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap road data for Coatbridge and Glasgow city centre, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "National Records of Scotland, population estimates for settlements and localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in North Lanarkshire.",
+        "url": "https://api.postcodes.io/places?q=Whifflet"
+      }
+    ],
+    "rejectedClaims": [
+      "Iron-town or canal history, and why the streets are laid out as they are: not read from a source; not claimed.",
+      "That a grid is better or worse: the score describes streets only.",
+      "Glasgow city centre as a whole: only the stated rectangle was measured.",
+      "Second locality in North Lanarkshire: per NRS mid-2020 figures quoted on the North Lanarkshire page (Cumbernauld 50,530, Coatbridge 43,950).",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

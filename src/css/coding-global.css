@@ -1332,3 +1332,4 @@
 .cg-root.cg-kcd  { --cg-accent: #546B25; --cg-accent-soft: rgba(84,107,37,.10); }   /* Kirkcaldy: a moss green (4.83:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-ayr  { --cg-accent: #6B3430; --cg-accent-soft: rgba(107,52,48,.10); }   /* Ayr: a dark brick red (7.84:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-kmk  { --cg-accent: #256B25; --cg-accent-soft: rgba(37,107,37,.10); }   /* Kilmarnock: a deep leaf green (5.27:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-ctb  { --cg-accent: #7A4359; --cg-accent-soft: rgba(122,67,89,.10); }   /* Coatbridge: a muted plum rose (6.1:1 contrast), picked by colour distance from recent accents */
