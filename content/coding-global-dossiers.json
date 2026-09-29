@@ -31782,5 +31782,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-kilmarnock": {
+    "market": "Kilmarnock",
+    "bodyClass": "cg-kmk",
+    "pageType": "city",
+    "curriculumAuthority": "East Ayrshire (S12000008). Scotland: Curriculum for Excellence, SQA National 5 to Advanced Higher. NRS mid-2020 settlement and locality estimates: Kilmarnock 46,970 (Cumnock 8,700 next). postcodes.io (East Ayrshire, KA1/KA3): Altonhill, Beansburn, Bellfield, Bonnyton, Grange, Knockinlaw, Longpark, New Farm Loch, Onthank, Riccarton, Shortlees (suburban areas); Hurlford, Crosshouse (villages).",
+    "localProject": "OSM API 0.6 bbox -4.545,55.590,-4.455,55.635 (16 tiles): 12,925 buildings as jobs. SHA-256 of way id. 4 to 5 agents: modulo 80.6% moved; ring 1 point 22.3% (max 1.61, min 0.29 of average); 10 points 18.4% (1.39/0.72); 100 points 19.2% (1.15/0.84); ideal 20%. 8 to 9: modulo 88.5%; ring 1 point 14.9% (2.19/0.08); 100 points 11.5% (1.12/0.89); ideal 11.1%. Lesson family: consistent hashing, virtual nodes.",
+    "requiredMentions": [
+      "46,970",
+      "12,925",
+      "Onthank",
+      "Bellfield",
+      "Shortlees",
+      "New Farm Loch",
+      "Knockinlaw",
+      "Bonnyton",
+      "consistent hashing",
+      "virtual points"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap building data for Kilmarnock, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "National Records of Scotland, population estimates for settlements and localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in East Ayrshire.",
+        "url": "https://api.postcodes.io/places?q=Onthank"
+      }
+    ],
+    "rejectedClaims": [
+      "Burns, football or industrial history: not read from a source; not claimed (East Ayrshire page covers Burns).",
+      "That any real AI service shares work this way: described as a common pattern only; no product named.",
+      "Building types or counts as a housing statistic: the IDs are used only as a list of jobs.",
+      "Largest locality in East Ayrshire: per NRS mid-2020 figures quoted on the East Ayrshire page (Kilmarnock 46,970, Cumnock 8,700).",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
