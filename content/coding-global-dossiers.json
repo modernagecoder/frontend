@@ -30366,5 +30366,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-redditch": {
+    "market": "Redditch",
+    "bodyClass": "cg-rdh",
+    "pageType": "city",
+    "curriculumAuthority": "Redditch (E07000236), Census 2021 TS001 usual residents 87,036. ONS 2021 Redditch BUA (published) 81,635; Astwood Bank straddles. 273 OAs, 36,377 households (TS044). postcodes.io suburban areas in Redditch district: Matchborough, Winyates, Batchley, Headless Cross, Webheath, Abbeydale, Oakenshaw, Crabbs Cross, Woodrow, Church Hill.",
+    "localProject": "Decision trees on 273 OAs, label mostly detached (62), features from TS045 and TS007A only. 20 x 5-fold CV: baseline 77.3; depth 1 86.7 (train 88.8, recall 68.1, precision 71.9, 16.5 false alarms); depth 2 86.6; 3 85.9; 4 85.0; unlimited 83.3 (train 100.0, 26 leaves, 24.0 false alarms). Rule: two or more cars > 59% -> mostly detached. Lesson family: decision trees, explainability, depth vs held-out accuracy, recall and precision.",
+    "requiredMentions": [
+      "87,036",
+      "81,635",
+      "36,377",
+      "Matchborough",
+      "Winyates",
+      "Batchley",
+      "Webheath",
+      "Headless Cross",
+      "decision tree",
+      "explainable AI"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Census 2021 TS001, TS007A, TS044 and TS045 for Redditch output areas, via the Nomis API.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas within Redditch district, Worcestershire.",
+        "url": "https://api.postcodes.io/places?q=Matchborough"
+      }
+    ],
+    "rejectedClaims": [
+      "Needle-making or new-town history: not read from a source; not claimed.",
+      "Why car ownership and detached homes go together: not measured; not claimed.",
+      "Tenure-based target (social renting): drafted, then dropped as money-adjacent and area-stigmatising.",
+      "How commercial AI models explain themselves: described only in general terms.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

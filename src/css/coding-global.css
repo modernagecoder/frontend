@@ -1298,3 +1298,4 @@
 .cg-root.cg-tmw  { --cg-accent: #20485C; --cg-accent-soft: rgba(32,72,92,.10); }   /* Tamworth: a deep teal blue (7.9:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-cwe  { --cg-accent: #52437A; --cg-accent-soft: rgba(82,67,122,.10); }   /* Crewe: a muted engine-livery violet (6.93:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-mfd  { --cg-accent: #6B4F25; --cg-accent-soft: rgba(107,79,37,.10); }   /* Mansfield: a warm sandstone brown (6.11:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-rdh  { --cg-accent: #324C13; --cg-accent-soft: rgba(50,76,19,.10); }   /* Redditch: a deep fern green (7.77:1 contrast), picked by colour distance from recent accents */
