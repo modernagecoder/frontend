@@ -30714,5 +30714,49 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-aylesbury": {
+    "market": "Aylesbury",
+    "bodyClass": "cg-ayl",
+    "pageType": "city",
+    "curriculumAuthority": "ONS 2021 BUAs (published): Aylesbury 87,950; Wendover 8,730; Stoke Mandeville 2,850. OpenStreetMap relation 3087398: Aylesbury Town Council, civil_parish, ref:gss E04001559. postcodes.io (Buckinghamshire) suburban areas: Walton Court, Bedgrove, Southcourt, Quarrendon, Elmhurst, Haydon Hill, Watermead, Berryfields, Kingsbrook.",
+    "localProject": "Boundary ring 1,584 vertices from 18 outer ways; area 14.01 km2, bounding box 25.3 km2 (55.4%). 1,405 shop or amenity features (12 tiles); 1,394 in the box; 1,199 inside (ray casting); 195 box-only; winding number agrees 1,394/1,394; naive vertex-inclusive ray test wrong on 1,401 of 1,583 vertex-level points; 8 within 10 m of the line. Suburb reference points inside: Walton Court, Bedgrove, Southcourt, Quarrendon, Elmhurst, Haydon Hill; outside: Watermead, Berryfields, Kingsbrook, Stoke Mandeville, Bierton. Lesson family: point in polygon, ray casting vs winding, vertex trap, bounding-box filter, definitions.",
+    "requiredMentions": [
+      "87,950",
+      "Aylesbury Town Council",
+      "Bedgrove",
+      "Walton Court",
+      "Watermead",
+      "Southcourt",
+      "Berryfields",
+      "ray casting",
+      "winding number",
+      "1,584"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "OpenStreetMap relation 3087398, Aylesbury Town Council civil parish boundary (ODbL).",
+        "url": "https://www.openstreetmap.org/relation/3087398"
+      },
+      {
+        "claim": "OpenStreetMap API 0.6 map data for the boundary rectangle (12 tiles), OpenStreetMap and contributors.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and villages in Buckinghamshire around Aylesbury.",
+        "url": "https://api.postcodes.io/places?q=Bedgrove"
+      }
+    ],
+    "rejectedClaims": [
+      "Market town or county town history: not read from a source; not claimed.",
+      "That the OpenStreetMap line is the legal boundary: described only as the mapped Town Council area.",
+      "That a whole suburb lies inside or outside: only its postcodes.io reference point was tested; stated that way.",
+      "Named schools, catchments and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
