@@ -30538,5 +30538,50 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-harrogate": {
+    "market": "Harrogate",
+    "bodyClass": "cg-hgt",
+    "pageType": "city",
+    "curriculumAuthority": "ONS 2021 BUAs (published): Harrogate 75,515; Knaresborough 15,785; Pannal 2,530 (North Yorkshire). postcodes.io (North Yorkshire): Starbeck, Bilton, Jennyfield, Harlow Hill, Oatlands, New Park (suburban areas); Killinghall, Pannal (villages). OpenStreetMap Wiki, Key:opening_hours/specification: \"the earlier rule is overridden\".",
+    "localProject": "OSM bbox -1.548,53.988,-1.532,53.998: 60 places with opening_hours (55 distinct). Naive regex 12/60; subset parser 54/60; unread: PH 2, comma-joined rules 2, closed 1, time with no days 1 (PH, closed and comma separator are in the specification). 42 of 54 multi-rule; first-rule-only wrong on 755 of 9,072 place-hours (8.3%). Open Sunday 16:30: 17 of 54; Monday 20:00: 10. Lesson family: regular expressions, parsing a real format, spec vs examples, rule precedence.",
+    "requiredMentions": [
+      "75,515",
+      "15,785",
+      "Knaresborough",
+      "Starbeck",
+      "Bilton",
+      "Jennyfield",
+      "Harlow Hill",
+      "opening_hours",
+      "regular expression",
+      "the earlier rule is overridden"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "OpenStreetMap map data for central Harrogate, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "OpenStreetMap Wiki, Key:opening_hours/specification.",
+        "url": "https://wiki.openstreetmap.org/wiki/Key:opening_hours/specification"
+      },
+      {
+        "claim": "postcodes.io places in North Yorkshire (suburban areas and villages around Harrogate).",
+        "url": "https://api.postcodes.io/places?q=Starbeck"
+      }
+    ],
+    "rejectedClaims": [
+      "Spa, conference or tea-room history: not read from a source; not claimed.",
+      "Names of individual businesses: deliberately not published.",
+      "That the OpenStreetMap hours are current or complete: not verified with the businesses; treated only as data to parse.",
+      "That a time with no days is valid under the specification: not claimed; only listed as unread.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
