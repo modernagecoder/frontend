@@ -446,7 +446,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 394 | vibe-coding-and-ai-agents-classes-in-wallasey (wly, #4C223E) | cg- town page | 2,797 | 1.3% vs vibe-coding-and-ai-agents-classes-in-taunton | what should an agent do when a tool says no? | retry storms, exponential backoff, jitter, thundering herd | b6c903bf |
 | 395 | online-coding-and-python-classes-in-runcorn (rnc, #55295C) | cg- town page | 2,726 | 2.4% vs online-coding-and-python-classes-in-margate | can a program find shopping areas by itself? | DBSCAN density clustering, noise, parameter sensitivity, robustness | f817c12d |
 | 396 | ai-and-programming-classes-in-chatham (cht, #4E5C17) | cg- town page | 2,704 | 2.7% vs online-coding-and-python-classes-in-margate | where should an AI draw the yes line? | ROC curve, AUC, threshold choice and costs, weak features | 744900e6 |
-| 397 | best-coding-and-ai-classes-in-cannock (cnc, #5A228A) | cg- town page | 2,703 | 2.8% vs ai-and-programming-classes-in-aylesbury | which districts are like ours, and who decides? | hierarchical clustering, linkage and chaining, dendrogram cuts, cophenetic correlation | (this commit) |
+| 397 | best-coding-and-ai-classes-in-cannock (cnc, #5A228A) | cg- town page | 2,703 | 2.8% vs ai-and-programming-classes-in-aylesbury | which districts are like ours, and who decides? | hierarchical clustering, linkage and chaining, dendrogram cuts, cophenetic correlation | 7286c791 |
+| 398 | vibe-coding-and-ai-agents-classes-in-tynemouth (tyn, #0E5C28) | cg- town page | 2,675 | 2% vs ai-and-programming-classes-in-harrogate | does asking many agents beat asking one? | wisdom of crowds, self-consistency, independence of errors | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

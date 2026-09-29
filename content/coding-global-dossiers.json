@@ -31129,5 +31129,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-tynemouth": {
+    "market": "Tynemouth",
+    "bodyClass": "cg-tyn",
+    "pageType": "city",
+    "curriculumAuthority": "North Tyneside (E08000022), Census 2021 TS001 usual residents 208,967. ONS 2021 BUAs (published): Tynemouth 60,605; Wallsend 45,355; Whitley Bay 36,880. postcodes.io (North Tyneside) suburban areas: Cullercoats, Monkseaton, West Monkseaton, Percy Main, West Chirton.",
+    "localProject": "TS045 over 729 North Tyneside OAs: 96,231 households, 26,773 no car (27.82%). Agents estimate from 10 random OAs; crowd = median; 4,000 repeats. Mean error (90th pct), independent / sharing 8 of 10: 1 agent 4.08 (8.37) / 4.07 (8.21); 3: 2.69 / 3.79; 5: 2.17 / 3.82; 9: 1.67 / 3.71; 15: 1.31 (2.67) / 3.67 (7.59). Lesson family: wisdom of crowds, self-consistency, independence of errors.",
+    "requiredMentions": [
+      "60,605",
+      "208,967",
+      "96,231",
+      "Whitley Bay",
+      "Cullercoats",
+      "Monkseaton",
+      "Percy Main",
+      "wisdom of crowds",
+      "self-consistency"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations and TS001 usual residents via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "Census 2021 TS045 cars or vans for North Tyneside output areas, via the Nomis API.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2063_1.data.csv?geography=E08000022&measures=20100"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in North Tyneside.",
+        "url": "https://api.postcodes.io/places?q=Cullercoats"
+      }
+    ],
+    "rejectedClaims": [
+      "Priory, castle or seaside history: not read from a source; not claimed.",
+      "That any named AI product uses self-consistency: described only as a general technique.",
+      "Why some households have no car: not measured; not claimed.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
