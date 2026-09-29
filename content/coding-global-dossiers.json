@@ -30926,5 +30926,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-paignton": {
+    "market": "Paignton",
+    "bodyClass": "cg-pgn",
+    "pageType": "city",
+    "curriculumAuthority": "Torbay (E06000027), Census 2021 TS001 usual residents 139,324. ONS 2021 BUAs (published): Paignton 67,520; Torquay 52,035; Brixham 17,840. postcodes.io (Torbay): Goodrington, Little Blagdon (suburban areas); Collaton St Mary (village).",
+    "localProject": "Nim heaps 6, 7, 5, 2 from 67,520. 1,008 positions, 882 winning; start nim-sum 6. UCT MCTS vs perfect nim-sum player, 40 games each: 10 playouts 1 win; 100: 0; 1,000: 4; 5,000: 40. Correct winning move in 200 sampled winning positions: 47 (10 playouts), 100 (100), 190 (1,000). Lesson family: Monte Carlo tree search, playouts, compounding error, exact theory as benchmark.",
+    "requiredMentions": [
+      "67,520",
+      "139,324",
+      "17,840",
+      "Brixham",
+      "Goodrington",
+      "Collaton St Mary",
+      "Monte Carlo tree search",
+      "nim-sum",
+      "playouts",
+      "Nim"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations and TS001 usual residents via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS Open Geography portal, built-up areas.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places in Torbay (suburban areas and village).",
+        "url": "https://api.postcodes.io/places?q=Goodrington"
+      }
+    ],
+    "rejectedClaims": [
+      "Seaside or resort history: not read from a source; not claimed.",
+      "How AlphaGo worked in detail: only the general combination of learned judgement and tree search is mentioned.",
+      "That the census digits mean anything as a game: stated as our arbitrary choice of board.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

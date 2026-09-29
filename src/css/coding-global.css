@@ -1311,3 +1311,4 @@
 .cg-root.cg-scn  { --cg-accent: #24205C; --cg-accent-soft: rgba(36,32,92,.10); }   /* Scunthorpe: a deep navy (11.78:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-mgt  { --cg-accent: #6B3410; --cg-accent-soft: rgba(107,52,16,.10); }   /* Margate: a deep burnt umber (7.97:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-sle  { --cg-accent: #4C3232; --cg-accent-soft: rgba(76,50,50,.10); }   /* Sale: a deep mahogany (9.35:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-pgn  { --cg-accent: #7A4B2B; --cg-accent-soft: rgba(122,75,43,.10); }   /* Paignton: a warm sandstone brown (5.9:1 contrast), picked by colour distance from recent accents */
