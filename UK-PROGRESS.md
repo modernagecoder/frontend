@@ -482,7 +482,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 430 | vibe-coding-and-ai-agents-classes-in-coleraine (crn, #5C2955) | cg- town page | 2,846 | 2% vs vibe-coding-and-ai-agents-classes-in-dungannon | how do agents that only talk to neighbours agree on routes? | distance-vector routing, distributed Bellman-Ford, count to infinity, poison reverse | a5696680 |
 | 431 | online-coding-and-python-classes-in-larne (lrn, #9C3D12) | cg- town page | 2,749 | 2% vs online-coding-and-python-classes-in-ballymena | how do you count unique items without storing them all? | HyperLogLog, cardinality estimation, memory vs accuracy | fda649e5 |
 | 432 | ai-and-programming-classes-in-banbridge (bbr, #6E5A0A) | cg- town page | 2,758 | 1.6% vs ai-and-programming-classes-in-newtownards | how do you find the exact shortest round without trying every order? | Held-Karp, dynamic programming over subsets, TSP | 8b524eb1 |
-| 433 | best-coding-and-ai-classes-in-enniskillen (enk, #0F6E6E) | cg- town page | 2,708 | 2.2% vs ai-and-programming-classes-in-greenock | which smooth curve tells the truth about a shoreline? | Chaikin corner cutting, Catmull-Rom spline, curve reconstruction | (this commit) |
+| 433 | best-coding-and-ai-classes-in-enniskillen (enk, #0F6E6E) | cg- town page | 2,708 | 2.2% vs ai-and-programming-classes-in-greenock | which smooth curve tells the truth about a shoreline? | Chaikin corner cutting, Catmull-Rom spline, curve reconstruction | 14166a91 |
+| 434 | vibe-coding-and-ai-agents-classes-in-dungannon (dgn, #A0461F) | cg- town page | 2,888 | 2% vs vibe-coding-and-ai-agents-classes-in-crewe | what should an agent do when its plan breaks? | dynamic replanning, plan repair, unreachable goals | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
