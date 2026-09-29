@@ -1350,3 +1350,4 @@
 .cg-root.cg-bmy  { --cg-accent: #5B1B6B; --cg-accent-soft: rgba(91,27,107,.10); }   /* Ballymena: a deep damson purple (9.33:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-dgn  { --cg-accent: #A0461F; --cg-accent-soft: rgba(160,70,31,.10); }   /* Dungannon: a warm terracotta (5.84:1 on paper), chosen by hand to stand apart from the purples, navies and greens of recent pages */
 .cg-root.cg-dpk  { --cg-accent: #6B6A10; --cg-accent-soft: rgba(107,106,16,.10); }   /* Downpatrick: a dark mustard olive (5.36:1 on paper), chosen by hand to differ in hue from the purples, navies and greens of recent pages */
+.cg-root.cg-lrn  { --cg-accent: #9C3D12; --cg-accent-soft: rgba(156,61,18,.10); }   /* Larne: a deep rust orange (6.8:1 contrast), chosen by hand to differ in hue from the purples, navies and greens of recent pages */

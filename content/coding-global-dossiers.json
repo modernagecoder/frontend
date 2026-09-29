@@ -32562,5 +32562,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-larne": {
+    "market": "Larne",
+    "bodyClass": "cg-lrn",
+    "pageType": "city",
+    "curriculumAuthority": "Mid and East Antrim (N09000008). Northern Ireland Curriculum; CCEA GCSE and A level. NISRA Census 2021 MS-A01: settlement LARNE 18,853 (approximation); DEA Larne Lough 18,324; settlements BALLYCARRY 1,484, GLYNN 583; wards Craigyhill 3,920, Gardenmore 3,290, Curran and Inver 3,384, Kilwaughter 4,791, Islandmagee 3,048 (ward names from postcodes.io outcode BT40).",
+    "localProject": "OSM API 0.6 bbox -5.860,54.830,-5.780,54.875 (12 tiles): 65,602 elements; 216 distinct uids, 1,128 distinct changesets; exact set of ids 5,531,720 bytes. HyperLogLog (blake2b, 200 seeds): changesets median / 90th pct error 16 reg 17.1/43.5%, 64 9.3/20.9, 256 3.9/9.8, 1,024 2.0/4.7; 1,024 reg elements 1.9/5.1, contributors 1.6/3.3; theory 26/13/6.5/3.2%. Lesson family: HyperLogLog cardinality estimation.",
+    "requiredMentions": [
+      "18,853",
+      "18,324",
+      "65,602",
+      "Craigyhill",
+      "Gardenmore",
+      "Curran and Inver",
+      "Kilwaughter",
+      "HyperLogLog",
+      "cardinality estimation"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA Census 2021 MS-A01 usual resident population by settlement, DEA and ward.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "OpenStreetMap map data for Larne with contributor and changeset attributes, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "postcodes.io outcode BT40: wards in Mid and East Antrim.",
+        "url": "https://api.postcodes.io/outcodes/BT40"
+      }
+    ],
+    "rejectedClaims": [
+      "Port, ferry or harbour history: not read from a source; not claimed.",
+      "That the listed wards make up Larne town: they are wards postcodes.io lists for BT40; not claimed as the town's area.",
+      "Names of any OpenStreetMap contributor: none shown.",
+      "Sum of settlement, DEA and ward figures: different geographies; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
