@@ -429,7 +429,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 377 | best-coding-and-ai-classes-in-tamworth (tmw, #20485C) | cg- town page | 2,847 | 1.3% vs vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme | what does a hidden layer add, and when is bigger worse? | hidden layer, backpropagation, overfitting, random starts, neighbour baseline | f0bb47df |
 | 378 | vibe-coding-and-ai-agents-classes-in-crewe (cwe, #52437A) | cg- town page | 2,822 | 2% vs ai-and-programming-classes-in-chesterfield | should an agent learn by trial or plan with a map? | Q-learning, exploration cost, learn vs plan, reward design | 272698e4 |
 | 379 | online-coding-and-python-classes-in-mansfield (mfd, #6B4F25) | cg- town page | 2,865 | 1.4% vs ai-and-programming-classes-in-halifax | how does a search box decide what you meant? | spelling correction with a population prior, fairness by who asks, normalisation | 469106ae |
-| 380 | ai-and-programming-classes-in-redditch (rdh, #324C13) | cg- town page | 2,880 | 1.5% vs best-coding-and-ai-classes-in-tamworth | can an AI model explain itself? | decision trees, explainability, depth vs held-out accuracy, recall and precision | (this commit) |
+| 380 | ai-and-programming-classes-in-redditch (rdh, #324C13) | cg- town page | 2,880 | 1.5% vs best-coding-and-ai-classes-in-tamworth | can an AI model explain itself? | decision trees, explainability, depth vs held-out accuracy, recall and precision | de7b1278 |
+| 381 | best-coding-and-ai-classes-in-gosport (gsp, #38306B) | cg- town page | 2,814 | 2.8% vs ai-and-programming-classes-in-lowestoft | is 95% sure really right 95% of the time? | calibration of stated confidence, bootstrap coverage, small-sample over-confidence | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

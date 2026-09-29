@@ -30407,5 +30407,50 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-gosport": {
+    "market": "Gosport",
+    "bodyClass": "cg-gsp",
+    "pageType": "city",
+    "curriculumAuthority": "Gosport (E07000088), Census 2021 TS001 usual residents 81,952. ONS 2021 Gosport BUA (published) 70,110; Lee-on-the-Solent straddles. TS045 over 279 OAs: 35,912 households, 7,420 no car (20.66%); borough table 7,418 of 35,922. postcodes.io suburban areas in Gosport district: Alverstoke, Bridgemary, Rowner, Elson, Forton, Brockhurst, Privett, Clayhall.",
+    "localProject": "Calibration test of 95% bootstrap intervals (1,000 resamples) from simulated surveys of k OAs, 1,000 surveys per k, truth 20.66%: coverage k=5 80.8, 10 88.9, 20 93.6, 40 93.7, 80 96.8; mean width 17.11 / 13.78 / 10.14 / 7.44 / 5.35 points; median error 3.59 / 2.51 / 1.78 / 1.31 / 0.80. Example k=20: 21.6%, 14.9 to 29.0. Lesson family: calibration of stated confidence, small-sample over-confidence, finite-population effect.",
+    "requiredMentions": [
+      "81,952",
+      "70,110",
+      "35,912",
+      "Alverstoke",
+      "Bridgemary",
+      "Rowner",
+      "Elson",
+      "bootstrap",
+      "confidence interval",
+      "calibration"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Census 2021 TS045 cars or vans for Gosport output areas, and TS001 usual residents, via the Nomis API.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2063_1.data.csv?geography=E07000088&measures=20100"
+      },
+      {
+        "claim": "ONS, protecting personal data in Census 2021 results (small deliberate adjustments to counts).",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/methodologies/protectingpersonaldataincensus2021results"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas within Gosport district, Hampshire.",
+        "url": "https://api.postcodes.io/places?q=Alverstoke"
+      }
+    ],
+    "rejectedClaims": [
+      "Naval or harbour history: not read from a source; not claimed.",
+      "Why some areas have fewer cars: not measured; not claimed.",
+      "How commercial AI systems report confidence: described only in general terms.",
+      "Lee-on-the-Solent population: built-up area crosses the boundary; not tabled.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
