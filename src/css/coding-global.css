@@ -1307,3 +1307,4 @@
 .cg-root.cg-tnt  { --cg-accent: #7A1F7A; --cg-accent-soft: rgba(122,31,122,.10); }   /* Taunton: a deep damson purple (7.34:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-ddy  { --cg-accent: #0B374C; --cg-accent-soft: rgba(11,55,76,.10); }   /* Dudley: a deep slate blue (10.16:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-ayl  { --cg-accent: #5C5529; --cg-accent-soft: rgba(92,85,41,.10); }   /* Aylesbury: a deep olive-bronze (6.07:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-spt  { --cg-accent: #6B256B; --cg-accent-soft: rgba(107,37,107,.10); }   /* Southport: a deep heather plum (8.05:1 contrast), picked by colour distance from recent accents */

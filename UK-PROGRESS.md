@@ -437,7 +437,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 385 | best-coding-and-ai-classes-in-shrewsbury (swy, #334C22) | cg- town page | 2,863 | 1.6% vs best-coding-and-ai-classes-in-walsall | which links hold a network together? | union-find, cut edges vs physical bridges, redundancy | 6f12e536 |
 | 386 | vibe-coding-and-ai-agents-classes-in-taunton (tnt, #7A1F7A) | cg- town page | 2,854 | 1.6% vs vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme | when a swarm of agents agrees, is it right? | ant colony optimisation, consensus vs correctness, premature convergence | 02906f28 |
 | 387 | online-coding-and-python-classes-in-dudley (ddy, #0B374C) | cg- town page | 2,763 | 1.8% vs online-coding-and-python-classes-in-weston-super-mare | why does some code slow to a crawl as data grows? | time complexity measured, quadratic vs linear, nested-loop vs hash join | 80fbfc69 |
-| 388 | ai-and-programming-classes-in-aylesbury (ayl, #5C5529) | cg- town page | 2,853 | 2.1% vs online-coding-and-python-classes-in-dudley | is a place inside the boundary? | point in polygon, ray casting vs winding number, vertex trap, bounding-box filter | (this commit) |
+| 388 | ai-and-programming-classes-in-aylesbury (ayl, #5C5529) | cg- town page | 2,853 | 2.1% vs online-coding-and-python-classes-in-dudley | is a place inside the boundary? | point in polygon, ray casting vs winding number, vertex trap, bounding-box filter | 42d3496f |
+| 389 | best-coding-and-ai-classes-in-southport (spt, #6B256B) | cg- town page | 2,789 | 1.6% vs best-coding-and-ai-classes-in-gosport | how do AI models cut words into tokens? | byte-pair encoding, tokens vs meaning, compression, rare words | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -30758,5 +30758,46 @@
       "Named schools, catchments and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-southport": {
+    "market": "Southport",
+    "bodyClass": "cg-spt",
+    "pageType": "city",
+    "curriculumAuthority": "Sefton (E08000014), Census 2021 TS001 usual residents 279,233. ONS 2021 BUAs (published): Southport 94,440; Formby 22,890; Maghull 20,370. postcodes.io (Sefton) suburban areas: Birkdale, Ainsdale, Churchtown, Crossens, Hillside, Blowick, Marshside, High Park, Woodvale.",
+    "localProject": "Byte-pair encoding on 6,406 England BUA names (train 5,124, test 1,282). First merges n_, on_, ton_. Tokens per unseen name: 0 merges 11.39; 50: 7.01; 200: 5.00; 500: 3.95. Southport south|port_ (500); Ainsdale a|in|s|dale_; Birkdale bir|k|dale_; Churchtown ch|ur|ch|town_. Endings: ton 1,049; ham 354; ley 309; ford 201; field 147; port 14. Lesson family: tokenization by BPE, compression vs meaning, rare words split more.",
+    "requiredMentions": [
+      "94,440",
+      "279,233",
+      "Formby",
+      "Maghull",
+      "Birkdale",
+      "Ainsdale",
+      "Churchtown",
+      "Crossens",
+      "byte-pair encoding",
+      "1,049"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area names and populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Census 2021 TS001 usual residents for Sefton, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Sefton.",
+        "url": "https://api.postcodes.io/places?q=Birkdale"
+      }
+    ],
+    "rejectedClaims": [
+      "Resort, pier or seaside history: not read from a source; not claimed.",
+      "Which tokenizer any named AI product uses: not claimed; \"many AI models\" only.",
+      "That tokenization fully explains letter-counting errors: stated as \"one reason\" only.",
+      "Graph colouring of wards: tried first, dropped because Newcastle upon Tyne owns it.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
