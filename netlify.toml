@@ -16675,6 +16675,42 @@
   to = "/src/pages/vibe-coding-and-ai-agents-classes-in-st-andrews.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-musselburgh"
+  to = "/src/pages/online-coding-and-python-classes-in-musselburgh.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-musselburgh.md"
+  to = "/src/pages/online-coding-and-python-classes-in-musselburgh.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-elgin"
+  to = "/src/pages/ai-and-programming-classes-in-elgin.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-elgin.md"
+  to = "/src/pages/ai-and-programming-classes-in-elgin.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-carrickfergus"
+  to = "/src/pages/best-coding-and-ai-classes-in-carrickfergus.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-carrickfergus.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-carrickfergus.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -1340,3 +1340,6 @@
 .cg-root.cg-dfs  { --cg-accent: #30636B; --cg-accent-soft: rgba(48,99,107,.10); }   /* Dumfries: a deep sea teal (5.42:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-mtw  { --cg-accent: #25336B; --cg-accent-soft: rgba(37,51,107,.10); }   /* Motherwell: a deep navy (9.59:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-sad  { --cg-accent: #8A223E; --cg-accent-soft: rgba(138,34,62,.10); }   /* St Andrews: a deep crimson (7.11:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-msb  { --cg-accent: #8A4C8A; --cg-accent-soft: rgba(138,76,138,.10); }   /* Musselburgh: a soft heather violet (4.86:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-elg  { --cg-accent: #8A3E70; --cg-accent-soft: rgba(138,62,112,.10); }   /* Elgin: a deep berry rose (5.63:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-ckf  { --cg-accent: #8A3E70; --cg-accent-soft: rgba(138,62,112,.10); }   /* Carrickfergus: a deep mulberry (5.63:1 contrast), picked by colour distance from recent accents */

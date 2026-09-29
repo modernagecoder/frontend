@@ -32154,5 +32154,128 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-musselburgh": {
+    "market": "Musselburgh",
+    "bodyClass": "cg-msb",
+    "pageType": "city",
+    "curriculumAuthority": "East Lothian (S12000010). Scotland: Curriculum for Excellence, SQA National 5 to Advanced Higher. NRS mid-2020 settlement and locality estimates: Musselburgh 21,100 (Tranent 11,910 next). postcodes.io (East Lothian, EH21): Fisherrow, Inveresk, Levenhall, Monktonhall, Pinkie, Pinkie Braes, Stoneybank, Stoneyhill (suburban areas); Wallyford, Whitecraig, Old Craighall (villages).",
+    "localProject": "OSM API 0.6 bbox -3.100,55.925,-3.010,55.955: public roads 120.5 km, 1,124 junctions, 1,286 segments. Floyd-Warshall in numpy 10.1 s (1.42 billion updates); Dijkstra-from-all est. 4.2 s; agree. Mean pair 3.21 km, diameter 10.26 km. Chart: Monktonhall-Stoneybank 0.4, Levenhall-Pinkie Braes 0.8, Fisherrow-Stoneyhill 1.3, Inveresk-Monktonhall 3.2 (straight 1.09, ratio 2.9), Wallyford-Monktonhall 5.1; median ratio 1.5. Lesson family: all-pairs shortest paths, Floyd-Warshall.",
+    "requiredMentions": [
+      "21,100",
+      "120.5 km",
+      "Fisherrow",
+      "Inveresk",
+      "Levenhall",
+      "Monktonhall",
+      "Stoneybank",
+      "Pinkie Braes",
+      "Floyd-Warshall",
+      "all-pairs shortest paths"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap roads in Musselburgh, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "National Records of Scotland, population estimates for settlements and localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and villages in East Lothian (EH21).",
+        "url": "https://api.postcodes.io/places?q=Fisherrow"
+      }
+    ],
+    "rejectedClaims": [
+      "Racecourse, harbour or Roman history: not read from a source; not claimed.",
+      "Why Inveresk to Monktonhall is a long drive: not claimed; left for the learner to read from the map.",
+      "Official driving distances or journey times: none; our table covers public roads inside the rectangle only.",
+      "Largest locality in East Lothian: per NRS mid-2020 figures quoted on the East Lothian page (Musselburgh 21,100, Tranent 11,910).",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-elgin": {
+    "market": "Elgin",
+    "bodyClass": "cg-elg",
+    "pageType": "city",
+    "curriculumAuthority": "Moray (S12000020). Scotland: Curriculum for Excellence, SQA National 5 to Advanced Higher. NRS mid-2020 settlement and locality estimates: Elgin 25,040 (Forres 9,900 next). postcodes.io (Moray, IV30): Bishopmill, New Elgin (suburban areas); Fogwatt, Lhanbryde (villages); Longhill (hamlet).",
+    "localProject": "Met Office historic station data, Nairn (site change 1998; closed after December 2014): 1,000 rain months 1931 to 2014; longest unbroken run January 1931 to June 1996, 786 months. Calendar-month thirds coding: L 272, M 263, H 251. Hits: HHH 28, LLL 32, HHHH 6, LLLL 13, HHHHH 1, LLLLL 4, LLLLLH 2. Comparisons naive / KMP: HHH 1,121/1,009; LLLL 1,176/1,044; LLLLLH 1,190/1,047. Invented all-L worst case, LLLLLH: 4,686/1,567. Lesson family: KMP string matching, failure function, one-pass search.",
+    "requiredMentions": [
+      "25,040",
+      "4,686",
+      "Bishopmill",
+      "New Elgin",
+      "Fogwatt",
+      "Longhill",
+      "Nairn station",
+      "Knuth-Morris-Pratt",
+      "failure function"
+    ],
+    "sources": [
+      {
+        "claim": "Met Office historic station data, Nairn, monthly rainfall (Open Government Licence).",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/nairndata.txt"
+      },
+      {
+        "claim": "National Records of Scotland, population estimates for settlements and localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas, villages and hamlets in Moray (IV30).",
+        "url": "https://api.postcodes.io/places?q=Bishopmill"
+      }
+    ],
+    "rejectedClaims": [
+      "That the Nairn station is near Elgin or represents Elgin weather: not claimed; described only from its file header.",
+      "Cathedral, distillery or river history: not read from a source; not claimed.",
+      "Climate trends from the letter coding: none claimed; the coding is a teaching device.",
+      "Largest locality in Moray: per NRS mid-2020 figures quoted on the Moray page (Elgin 25,040, Forres 9,900).",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-carrickfergus": {
+    "market": "Carrickfergus",
+    "bodyClass": "cg-ckf",
+    "pageType": "city",
+    "curriculumAuthority": "Mid and East Antrim (N09000008). Northern Ireland Curriculum, P1 to Year 14, CCEA GCSE and A level. NISRA Census 2021 MS-A01: settlement CARRICKFERGUS 28,141 (approximation); DEAs Carrick Castle 18,430 and Knockagh 17,272; LGD 138,994. OpenStreetMap place nodes: Barn, Boneybefore, Burleigh Hill, Castlemara, Clipperstown, Eden, Kilroot, Sunnylands (suburbs); Trooperslane, Woodburn (villages).",
+    "localProject": "NISRA Census 2021 MS-A09 and MS-E02 Data Zone sheets, 3,780 zones. Target one-person household share; inputs six age-band shares plus residents. Test = 74 zones named Carrick_Castle* or Knockagh* (median 28.4%, range 6.2 to 68.3%). MAE (points): mean guess 11.51; one deep tree 10.07; bootstrap deep trees median 10.83, per-zone sd 8.02; average of 50 (bagging) 8.55; BaggingRegressor 10/50/200 trees 8.17/8.28/8.23; seed-to-seed sd 0.68. Depth-3: 11.90 single, sd 3.01, averaged 10.86. Lesson family: bagging, variance.",
+    "requiredMentions": [
+      "28,141",
+      "18,430",
+      "17,272",
+      "Boneybefore",
+      "Castlemara",
+      "Clipperstown",
+      "Sunnylands",
+      "Burleigh Hill",
+      "Trooperslane",
+      "bagging",
+      "bootstrap sample"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA Census 2021 MS-A01 usual resident population by settlement, DEA and LGD.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "NISRA Census 2021 MS-A09 single year of age and MS-E02 household size, Data Zone level.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-e02.xlsx"
+      },
+      {
+        "claim": "OpenStreetMap place names in and around Carrickfergus, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      }
+    ],
+    "rejectedClaims": [
+      "Castle, gasworks or harbour history: not read from a source here; not claimed (the Mid and East Antrim page covers the gasworks).",
+      "That the 74 test zones exactly match the Carrickfergus settlement: not claimed; they are the zones of two electoral areas.",
+      "Why some zones have more people living alone: no cause claimed.",
+      "Transfer test advice, community background or identity data: excluded by rule.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
