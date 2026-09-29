@@ -700,6 +700,7 @@ const MARKETS = [
   ['online-coding-and-python-classes-in-larne', 'Larne, Northern Ireland'],
   ['ai-and-programming-classes-in-strabane', 'Strabane, Northern Ireland'],
   ['ai-and-programming-classes-in-banbridge', 'Banbridge, Northern Ireland'],
+  ['best-coding-and-ai-classes-in-enniskillen', 'Enniskillen, Northern Ireland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

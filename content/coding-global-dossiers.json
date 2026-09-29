@@ -32682,5 +32682,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-enniskillen": {
+    "market": "Enniskillen",
+    "bodyClass": "cg-enk",
+    "pageType": "city",
+    "curriculumAuthority": "Fermanagh and Omagh (N09000006). Northern Ireland Curriculum; CCEA GCSE and A level. NISRA Census 2021 MS-A01: settlement ENNISKILLEN 14,086 (approximation); DEA Enniskillen 18,451; wards Castlecoole 3,203, Portora 3,185, Erne 3,054, Rossorry 2,543 (ward names from postcodes.io outcode BT74).",
+    "localProject": "OSM API 0.6 bbox -7.680,54.330,-7.600,54.365: Rossole Lough (way 43494816) 103 points, 1,826 m, 158,430 sq m; Lough Coole (way 19629113) 78 points. Keep 1 in k, rebuild straight / Chaikin (4 rounds) / Catmull-Rom; mean error to all original points (m), Rossole: 1 in 2 1.87/2.83/1.55; 1 in 4 4.24/5.37/4.10; 1 in 8 8.07/10.79/6.90; 1 in 16 20.21/28.81/12.52; area at 1 in 16 83.3/78.4/93.3%. Lough Coole 1 in 8: 16.23/18.77/12.99. Lesson family: curve reconstruction, Chaikin vs Catmull-Rom.",
+    "requiredMentions": [
+      "14,086",
+      "18,451",
+      "Rossole Lough",
+      "Lough Coole",
+      "Castlecoole",
+      "Portora",
+      "Rossorry",
+      "Chaikin",
+      "Catmull-Rom"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA Census 2021 MS-A01 usual resident population by settlement, DEA and ward.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "OpenStreetMap lake outlines around Enniskillen, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "postcodes.io outcode BT74: wards in Fermanagh and Omagh.",
+        "url": "https://api.postcodes.io/outcodes/BT74"
+      }
+    ],
+    "rejectedClaims": [
+      "Island town, castle, Lough Erne or school history: not read from a source; not claimed.",
+      "That the OpenStreetMap outlines match the true lake edge exactly: the mapped outline is treated as the reference only.",
+      "That the listed wards make up the town: they are wards postcodes.io lists for BT74.",
+      "Sum of settlement, DEA and ward figures: different geographies; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
