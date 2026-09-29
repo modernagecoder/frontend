@@ -461,7 +461,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 409 | best-coding-and-ai-classes-in-livingston (lvg, #5C4632) | cg- town page | 2,690 | 2.2% vs online-coding-and-python-classes-in-corby | how do you find what changed in a huge dataset? | Merkle tree, hashing, change detection | c173bcc6 |
 | 410 | vibe-coding-and-ai-agents-classes-in-hamilton-scotland (hms, #6B1C10) | cg- town page | 2,739 | 1.7% vs online-coding-and-python-classes-in-corby | should an AI agent plan before it acts? | route inspection, Chinese postman, planning vs greedy | 1ff71f19 |
 | 411 | online-coding-and-python-classes-in-cumbernauld (cbd, #5C553C) | cg- town page | 2,707 | 1.8% vs online-coding-and-python-classes-in-paisley | how much further is the real route than the straight line? | circuity, detour factor, network shortest paths | aed8217a |
-| 412 | ai-and-programming-classes-in-kirkcaldy (kcd, #546B25) | cg- town page | 2,736 | 2.2% vs online-coding-and-python-classes-in-corby | why can more trees make a boosted model worse? | gradient boosting, learning rate, balanced accuracy | (this commit) |
+| 412 | ai-and-programming-classes-in-kirkcaldy (kcd, #546B25) | cg- town page | 2,736 | 2.2% vs online-coding-and-python-classes-in-corby | why can more trees make a boosted model worse? | gradient boosting, learning rate, balanced accuracy | f01a9a12 |
+| 413 | best-coding-and-ai-classes-in-ayr (ayr, #6B3430) | cg- town page | 2,646 | 1.6% vs ai-and-programming-classes-in-east-kilbride | how does a computer compare two versions of a text? | Needleman-Wunsch, sequence alignment, diff | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -31737,5 +31737,50 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-ayr": {
+    "market": "Ayr",
+    "bodyClass": "cg-ayr",
+    "pageType": "city",
+    "curriculumAuthority": "South Ayrshire (S12000028). Scotland: Curriculum for Excellence, SQA National 5 to Advanced Higher. NRS mid-2020 settlement and locality estimates: Ayr 46,260. postcodes.io (South Ayrshire, KA7/KA8): Alloway, Belmont, Castlehill, Dalmilling, Doonfoot, Forehill, Heathfield, Holmston, Kincaidston, Lochside, Masonhill, Newton on Ayr, Seafield, Wallacetown, Whitletts (suburban areas).",
+    "localProject": "Burns, \"The Brigs of Ayr\": Project Gutenberg 1279 (lines 10472-10752) and 18500 (lines 13918-14178); footnotes removed; 1,839 words each. Word-level Needleman-Wunsch (+2/-1/-2), 3,385,600 cells: 1,780 identical, 55 substituted, 4 + 4 gaps; position-by-position 787. First difference word 45 grey/gray. Lesson family: global sequence alignment, edit scripts.",
+    "requiredMentions": [
+      "46,260",
+      "1,780",
+      "Alloway",
+      "Doonfoot",
+      "Whitletts",
+      "Kincaidston",
+      "Holmston",
+      "Wallacetown",
+      "Brigs of Ayr",
+      "Needleman-Wunsch"
+    ],
+    "sources": [
+      {
+        "claim": "Poems and Songs of Robert Burns, Project Gutenberg ebook 1279.",
+        "url": "https://www.gutenberg.org/ebooks/1279"
+      },
+      {
+        "claim": "The Complete Works of Robert Burns, with Allan Cunningham, Project Gutenberg ebook 18500.",
+        "url": "https://www.gutenberg.org/ebooks/18500"
+      },
+      {
+        "claim": "National Records of Scotland, population estimates for settlements and localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in South Ayrshire.",
+        "url": "https://api.postcodes.io/places?q=Doonfoot"
+      }
+    ],
+    "rejectedClaims": [
+      "Burns biography, birthplace or the bridges' construction history: not read from a source; not claimed.",
+      "Which edition is closer to Burns's manuscript: not claimed.",
+      "Meaning of Scots words beyond the pairs shown: not glossed.",
+      "Largest locality in South Ayrshire: per NRS mid-2020 figures quoted on the South Ayrshire page (Ayr 46,260, Troon 14,950, Prestwick 14,880).",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
