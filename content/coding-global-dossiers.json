@@ -30967,5 +30967,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-wallasey": {
+    "market": "Wallasey",
+    "bodyClass": "cg-wly",
+    "pageType": "city",
+    "curriculumAuthority": "Wirral (E08000015), Census 2021 TS001 usual residents 320,199. ONS 2021 BUAs (published): Wallasey 85,610; Birkenhead 109,835. postcodes.io (Wirral) suburban areas: New Brighton, Liscard, Seacombe, Egremont, Poulton, Leasowe, Moreton.",
+    "localProject": "DfT road traffic API, Wirral 2024 AADF: 100 records; five spaced calls 0.93 to 1.26 s, median 1.07 s. Simulation (assumed capacity 20 calls/s, 200 agents at once), median of 50: immediate retry 10.2 s, 6,300 calls, 6,100 refused, typical agent 5.6 s; backoff 107.2 s, 1,640 calls, 1,440 refused, 20.5 s; backoff with jitter 19.6 s, 1,354 calls, 1,154 refused, 5.8 s. Lesson family: retry storms, exponential backoff, jitter, thundering herd.",
+    "requiredMentions": [
+      "85,610",
+      "320,199",
+      "New Brighton",
+      "Liscard",
+      "Seacombe",
+      "Egremont",
+      "Leasowe",
+      "thundering herd",
+      "exponential backoff",
+      "1,354"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations and TS001 usual residents via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "Department for Transport road traffic statistics API, average annual daily flow for Wirral, 2024.",
+        "url": "https://roadtraffic.dft.gov.uk/api/average-annual-daily-flow?filter[local_authority_id]=84&filter[year]=2024"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Wirral.",
+        "url": "https://api.postcodes.io/places?q=Liscard"
+      }
+    ],
+    "rejectedClaims": [
+      "The DfT API's real capacity or rate limits: not tested and not claimed; the simulated capacity is our assumption.",
+      "Seaside, ferry or resort history: not read from a source; not claimed.",
+      "That any service would block immediate retries: stated as \"likely\", not as a fact about a named service.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

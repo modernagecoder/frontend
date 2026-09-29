@@ -442,7 +442,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 390 | vibe-coding-and-ai-agents-classes-in-scunthorpe (scn, #24205C) | cg- town page | 2,839 | 2.7% vs vibe-coding-and-ai-agents-classes-in-taunton | what should an agent check in tool output? | schema validation of tool output, types, nulls, rounding invariants, provenance | 77159562 |
 | 391 | online-coding-and-python-classes-in-margate (mgt, #6B3410) | cg- town page | 2,725 | 2.3% vs online-coding-and-python-classes-in-dudley | what should a program forget when memory is full? | cache eviction, LRU vs FIFO vs frequency, Belady optimal bound | 13169be0 |
 | 392 | ai-and-programming-classes-in-sale (sle, #4C3232) | cg- town page | 2,791 | 2.4% vs ai-and-programming-classes-in-aylesbury | how do also-liked recommendations work? | association rules, support/confidence/lift, shuffle test, basket choice | 4583de54 |
-| 393 | best-coding-and-ai-classes-in-paignton (pgn, #7A4B2B) | cg- town page | 2,725 | 2.1% vs best-coding-and-ai-classes-in-southport | how do game-playing AIs search? | Monte Carlo tree search, playouts, compounding error, exact nim-sum benchmark | (this commit) |
+| 393 | best-coding-and-ai-classes-in-paignton (pgn, #7A4B2B) | cg- town page | 2,725 | 2.1% vs best-coding-and-ai-classes-in-southport | how do game-playing AIs search? | Monte Carlo tree search, playouts, compounding error, exact nim-sum benchmark | e95711d7 |
+| 394 | vibe-coding-and-ai-agents-classes-in-wallasey (wly, #4C223E) | cg- town page | 2,797 | 1.3% vs vibe-coding-and-ai-agents-classes-in-taunton | what should an agent do when a tool says no? | retry storms, exponential backoff, jitter, thundering herd | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
