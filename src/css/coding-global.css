@@ -1317,3 +1317,4 @@
 .cg-root.cg-cht  { --cg-accent: #4E5C17; --cg-accent-soft: rgba(78,92,23,.10); }   /* Chatham: a deep moss olive (5.9:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-cnc  { --cg-accent: #5A228A; --cg-accent-soft: rgba(90,34,138,.10); }   /* Cannock: a deep heather violet (8.33:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-tyn  { --cg-accent: #0E5C28; --cg-accent-soft: rgba(14,92,40,.10); }   /* Tynemouth: a deep bottle green (6.56:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-asf  { --cg-accent: #6B103B; --cg-accent-soft: rgba(107,16,59,.10); }   /* Ashford: a deep claret (9.6:1 contrast), picked by colour distance from recent accents */

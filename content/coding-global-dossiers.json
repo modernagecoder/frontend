@@ -31169,5 +31169,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-ashford": {
+    "market": "Ashford",
+    "bodyClass": "cg-asf",
+    "pageType": "city",
+    "curriculumAuthority": "Ashford (E07000105), Census 2021 TS001 usual residents 132,747. ONS 2021 BUAs of 2,000+ in the borough (published): Ashford 82,140; Tenterden 7,775; Charing 2,170; Wye 2,060. postcodes.io (Ashford, Kent): Kennington, Willesborough, South Willesborough, Singleton, Stanhope, Bybrook, Beaver (suburban areas); Kingsnorth, Great Chart (villages).",
+    "localProject": "Census 2021 TS017 (NM_2037_1): Ashford 53,582 households vs England minus Ashford. Shares 1 person 25.87 vs 30.10, 2 35.26 vs 34.04, 3 16.92 vs 15.97, 4 14.55 vs 12.90, 5+ 7.40 vs 6.99. Chi-square GOF 498.1, df 4, p 1.7e-106; Cohen w 0.096; TVD 4.2 points. Samples (2,000 each): 100 10.8% flagged, w 0.207; 300 22.9%, 0.143; 1,000 68.6%, 0.111; 3,000 99.8%, 0.101; 10,000 100%, 0.098. Lesson family: significance vs effect size, statistical power, sample size.",
+    "requiredMentions": [
+      "132,747",
+      "82,140",
+      "7,775",
+      "53,582",
+      "Tenterden",
+      "Kennington",
+      "Willesborough",
+      "Kingsnorth",
+      "effect size",
+      "statistical power"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS017 household size and TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "Nomis API dataset NM_2037_1, Census 2021 TS017 household size.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2037_1.data.csv?geography=645923061,2092957699&measures=20100"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and villages in Ashford borough.",
+        "url": "https://api.postcodes.io/places?q=Willesborough"
+      }
+    ],
+    "rejectedClaims": [
+      "Railway, commuting or London links: not read from a source; not claimed.",
+      "Why Ashford households differ: no cause is claimed, only the size of the difference.",
+      "Rest of England figures: derived by subtraction and labelled as ours, not published.",
+      "Sum of the built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
