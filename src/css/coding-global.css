@@ -1315,3 +1315,4 @@
 .cg-root.cg-wly  { --cg-accent: #4C223E; --cg-accent-soft: rgba(76,34,62,.10); }   /* Wallasey: a deep damson (10.54:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-rnc  { --cg-accent: #55295C; --cg-accent-soft: rgba(85,41,92,.10); }   /* Runcorn: a deep grape purple (9.11:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-cht  { --cg-accent: #4E5C17; --cg-accent-soft: rgba(78,92,23,.10); }   /* Chatham: a deep moss olive (5.9:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-cnc  { --cg-accent: #5A228A; --cg-accent-soft: rgba(90,34,138,.10); }   /* Cannock: a deep heather violet (8.33:1 contrast), picked by colour distance from recent accents */

@@ -31088,5 +31088,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-cannock": {
+    "market": "Cannock",
+    "bodyClass": "cg-cnc",
+    "pageType": "city",
+    "curriculumAuthority": "Cannock Chase (E07000192), Census 2021 TS001 usual residents 100,519. ONS 2021 BUAs (published): Cannock 63,065; Norton Canes 8,150; Rawnsley 2,470; Rugeley straddles. postcodes.io (Cannock Chase) suburban areas: Hednesford, Heath Hayes, Chadsmoor, Bridgtown, Pye Green, Wimblebury, Hawks Green.",
+    "localProject": "Hierarchical clustering of 296 English districts on 18 TS007A age shares. Four-group sizes: single 293/1/1/1 (Isles of Scilly, City of London, Tower Hamlets); complete 162/93/32/9; average 229/57/9/1; Ward 159/77/33/27. Ward 8 groups: Cannock Chase in a 92-district group spanning all regions outside London. Cophenetic: average 0.797, single 0.714, Ward 0.696, complete 0.562. Closest districts: Barnsley, Wakefield, Ashfield, Wigan, Bolsover. Lesson family: hierarchical clustering, linkage and chaining, dendrogram cuts, cophenetic correlation.",
+    "requiredMentions": [
+      "100,519",
+      "63,065",
+      "Norton Canes",
+      "Rawnsley",
+      "Hednesford",
+      "Heath Hayes",
+      "Chadsmoor",
+      "hierarchical clustering",
+      "dendrogram",
+      "single linkage"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Census 2021 TS007A age by five-year bands for English districts, and TS001 usual residents, via the Nomis API.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Cannock Chase.",
+        "url": "https://api.postcodes.io/places?q=Hednesford"
+      }
+    ],
+    "rejectedClaims": [
+      "Mining, forest or heritage claims about Cannock Chase: not read from a source; not claimed.",
+      "Why districts share age profiles: not measured; not claimed.",
+      "Rugeley population: built-up area crosses the district boundary; not tabled.",
+      "That any clustering is the \"true\" grouping: explicitly not claimed.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
