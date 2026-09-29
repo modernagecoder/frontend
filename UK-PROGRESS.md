@@ -458,7 +458,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 406 | vibe-coding-and-ai-agents-classes-in-halesowen (hso, #4C1713) | cg- town page | 2,836 | 1.5% vs vibe-coding-and-ai-agents-classes-in-bognor-regis | how can an agent know when to say it is not sure? | conformal prediction, calibration set, abstention | 900b3c11 |
 | 407 | online-coding-and-python-classes-in-paisley (psy, #5C3C58) | cg- town page | 2,715 | 2.5% vs best-coding-and-ai-classes-in-gosport | when should you stop looking and choose? | optimal stopping, secretary problem, 37% rule | 84fadedf |
 | 408 | ai-and-programming-classes-in-east-kilbride (ekb, #3E668A) | cg- town page | 2,746 | 2% vs ai-and-programming-classes-in-aylesbury | how does a computer recognise a shape? | feature engineering, circularity, precision vs recall | 8f463236 |
-| 409 | best-coding-and-ai-classes-in-livingston (lvg, #5C4632) | cg- town page | 2,690 | 2.2% vs online-coding-and-python-classes-in-corby | how do you find what changed in a huge dataset? | Merkle tree, hashing, change detection | (this commit) |
+| 409 | best-coding-and-ai-classes-in-livingston (lvg, #5C4632) | cg- town page | 2,690 | 2.2% vs online-coding-and-python-classes-in-corby | how do you find what changed in a huge dataset? | Merkle tree, hashing, change detection | c173bcc6 |
+| 410 | vibe-coding-and-ai-agents-classes-in-hamilton-scotland (hms, #6B1C10) | cg- town page | 2,739 | 1.7% vs online-coding-and-python-classes-in-corby | should an AI agent plan before it acts? | route inspection, Chinese postman, planning vs greedy | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

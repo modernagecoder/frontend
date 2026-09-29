@@ -1327,3 +1327,4 @@
 .cg-root.cg-psy  { --cg-accent: #5C3C58; --cg-accent-soft: rgba(92,60,88,.10); }   /* Paisley: a dusky mauve (7.55:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-ekb  { --cg-accent: #3E668A; --cg-accent-soft: rgba(62,102,138,.10); }   /* East Kilbride: a steel blue (4.87:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-lvg  { --cg-accent: #5C4632; --cg-accent-soft: rgba(92,70,50,.10); }   /* Livingston: a dark walnut brown (7.12:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-hms  { --cg-accent: #6B1C10; --cg-accent-soft: rgba(107,28,16,.10); }   /* Hamilton: a deep rust red (9.41:1 contrast), picked by colour distance from recent accents */

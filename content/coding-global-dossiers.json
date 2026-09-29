@@ -31616,5 +31616,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-hamilton-scotland": {
+    "market": "Hamilton",
+    "bodyClass": "cg-hms",
+    "pageType": "city",
+    "curriculumAuthority": "South Lanarkshire (S12000029). Scotland: Curriculum for Excellence, SQA National 5 upward. NRS mid-2020 settlement and locality estimates: Hamilton 54,480. postcodes.io (South Lanarkshire, ML3): Burnbank, Eddlewood, Fairhill, Hillhouse, Laighstonehall, Low Waters, Silvertonhill, Whitehill, Earnock, Meikle Earnock, Udston (suburban areas); Ferniegair (village).",
+    "localProject": "OSM API 0.6 bbox -4.055,55.765,-4.025,55.782 (4 tiles), drivable streets, two-way, cut at edge: 453 junctions, 545 segments, 44.82 km, 148 dead ends, 420 odd junctions. Min-weight matching adds 22.99 km: optimal closed route 67.80 km (+51.3%). Greedy agent 20 runs mean 80.55 km (+79.7%), range 77.82 to 82.99. Lesson family: route inspection (Chinese postman), Euler circuits, planning vs greedy agents.",
+    "requiredMentions": [
+      "54,480",
+      "44.82 km",
+      "Burnbank",
+      "Eddlewood",
+      "Silvertonhill",
+      "Laighstonehall",
+      "Low Waters",
+      "Chinese postman",
+      "route inspection"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap map data for central Hamilton, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "National Records of Scotland, population estimates for settlements and localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in South Lanarkshire.",
+        "url": "https://api.postcodes.io/places?q=Burnbank"
+      }
+    ],
+    "rejectedClaims": [
+      "Palace, racecourse or mausoleum history: not read from a source; not claimed.",
+      "Real council, gritting or delivery routes: none modelled or claimed; the agents are ours.",
+      "One-way streets: ignored in the model and said so on the page.",
+      "Second largest locality in South Lanarkshire: per NRS mid-2020 figures quoted on the South Lanarkshire page (East Kilbride 75,310, Hamilton 54,480).",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
