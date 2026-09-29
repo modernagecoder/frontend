@@ -16423,6 +16423,18 @@
   to = "/src/pages/best-coding-and-ai-classes-in-south-shields.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-bognor-regis"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-bognor-regis.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-bognor-regis.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-bognor-regis.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

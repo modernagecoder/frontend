@@ -1319,3 +1319,4 @@
 .cg-root.cg-tyn  { --cg-accent: #0E5C28; --cg-accent-soft: rgba(14,92,40,.10); }   /* Tynemouth: a deep bottle green (6.56:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-asf  { --cg-accent: #6B103B; --cg-accent-soft: rgba(107,16,59,.10); }   /* Ashford: a deep claret (9.6:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-btt  { --cg-accent: #8A3078; --cg-accent-soft: rgba(138,48,120,.10); }   /* Burton upon Trent: a deep magenta (6.1:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-bgr  { --cg-accent: #5A638A; --cg-accent-soft: rgba(90,99,138,.10); }   /* Bognor Regis: a slate blue (4.72:1 contrast), picked by colour distance from recent accents */

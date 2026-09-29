@@ -31291,5 +31291,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-bognor-regis": {
+    "market": "Bognor Regis",
+    "bodyClass": "cg-bgr",
+    "pageType": "city",
+    "curriculumAuthority": "Arun (E07000224), Census 2021 TS001 usual residents 164,889. ONS 2021 BUAs (published): Bognor Regis 68,435; Rustington 33,885; Littlehampton 19,065. postcodes.io (Arun): Felpham, Aldwick, Middleton-on-Sea, North Bersted, South Bersted, Rose Green, Nyetimber, Elmer (suburban areas); Pagham, Flansham (villages).",
+    "localProject": "Census 2021 TS045 for 548 Arun OAs: 72,631 households, 12,245 no car. 4,000 random splits into halves of 274 (A/A); Welch t-test on no-car share as pairs arrive. Declared different at p < 0.05: final only 5.2%; every 50 pairs 14.3%; every 10 26.9%; every pair 35.6%; every 10 at p < 0.0075 5.1%. Median stop (every 10) 60 pairs. Lesson family: optional stopping, peeking, A/A test, p-hacking, corrected threshold.",
+    "requiredMentions": [
+      "164,889",
+      "68,435",
+      "72,631",
+      "12,245",
+      "Felpham",
+      "Aldwick",
+      "Nyetimber",
+      "Bersted",
+      "peeking",
+      "A/A test"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS045 car or van availability and TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "Nomis API dataset NM_2063_1, Census 2021 TS045 car or van availability.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2063_1.def.sdmx.json"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and villages in Arun.",
+        "url": "https://api.postcodes.io/places?q=Felpham"
+      }
+    ],
+    "rejectedClaims": [
+      "Seaside resort history and the Regis title: not read from a source; not claimed.",
+      "Why some areas have fewer cars: no cause claimed; the data only feeds a chance-only experiment.",
+      "Named sequential test methods and their guarantees: mentioned in general terms only.",
+      "Sum of the built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
