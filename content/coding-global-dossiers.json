@@ -30497,5 +30497,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-weston-super-mare": {
+    "market": "Weston-super-Mare",
+    "bodyClass": "cg-wsm",
+    "pageType": "city",
+    "curriculumAuthority": "North Somerset (E06000024), Census 2021 TS001 usual residents 216,726. ONS 2021 BUAs (published): Weston-super-Mare 84,605; Portishead 26,355; Clevedon 21,085; Nailsea 15,925; Locking 3,820. postcodes.io (North Somerset): Worle, Uphill, Oldmixon, St Georges (suburban areas); Kewstoke, Hutton, West Wick (villages).",
+    "localProject": "TS007 single year (NM_2027_1), North Somerset, 101 ages, total 216,727, max 3,373 at 55. RMSE per age: ONS 18 bands 196.9; optimal by DP: 3 bands 340.9, 6: 223.2, 8: 176.7 (0-17, 18-28, 29-47, 48-59, 60-77, 78-83, 84-90, 91-100), 12: 132.0, 18: 90.8. 8 optimal bands beat the ONS 18. DP 78,081 steps vs 6,650,134,872,937,201,800 possible 18-band cuts. Lesson family: optimal binning by dynamic programming, brute force vs DP, fitted vs standard bands.",
+    "requiredMentions": [
+      "84,605",
+      "216,726",
+      "Clevedon",
+      "Worle",
+      "Uphill",
+      "Oldmixon",
+      "Kewstoke",
+      "dynamic programming",
+      "3,373",
+      "78,081"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Census 2021 TS007, age by single year, and TS001 usual residents for North Somerset, via the Nomis API.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2027_1.data.csv?geography=E06000024&measures=20100"
+      },
+      {
+        "claim": "postcodes.io places in North Somerset (suburban areas and villages).",
+        "url": "https://api.postcodes.io/places?q=Worle"
+      }
+    ],
+    "rejectedClaims": [
+      "Seaside, pier or resort history: not read from a source; not claimed.",
+      "Why the age curve has its shape: not measured; not claimed.",
+      "Why the ONS chose five-year bands: stated only as the general comparability trade-off, not as an ONS quote.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
