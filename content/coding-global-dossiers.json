@@ -30673,5 +30673,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-dudley": {
+    "market": "Dudley",
+    "bodyClass": "cg-ddy",
+    "pageType": "city",
+    "curriculumAuthority": "Dudley (E08000027), Census 2021 TS001 usual residents 323,486. ONS 2021 BUAs (published): Dudley (Dudley) 64,270; Halesowen 60,110; Stourbridge 56,950; Kingswinford 51,910; Brierley Hill 32,305; Sedgley 31,990; Coseley 25,205. ONS OA21 to BUA22 lookup: 188,880 rows for England and Wales.",
+    "localProject": "Join TS001 OA populations (1,033) with the OA to BUA lookup. Nested loops vs dictionary, median of 5 timings: 125 areas 7,875 comparisons 0.76 ms vs 0.069 ms; 250: 31,375, 3.11 vs 0.153; 500: 125,250, 11.97 vs 0.279; 1,033: 534,061, 51.0 vs 0.635 (about 80 times). Extrapolated to 188,880 areas: 17,837,921,640 comparisons, about 28 minutes, vs 377,760 steps, about 0.12 s (estimate). Lesson family: time complexity measured, quadratic vs linear, nested-loop vs hash join.",
+    "requiredMentions": [
+      "323,486",
+      "64,270",
+      "Stourbridge",
+      "Kingswinford",
+      "Brierley Hill",
+      "Sedgley",
+      "Coseley",
+      "188,880",
+      "Big O",
+      "534,061"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Census 2021 TS001 usual residents by output area for Dudley, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS lookup of 2021 output areas to 2022 built-up areas, England and Wales (188,880 rows).",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/OA21_BUA22_LAD22_RGN22_EW_LU/FeatureServer"
+      }
+    ],
+    "rejectedClaims": [
+      "Castle, zoo or industrial history: not read from a source; not claimed.",
+      "Exact full-country timings: estimated from Dudley measurements, not run; stated as estimates.",
+      "That AI assistants always write the slow version: stated only as \"often\", as a general tendency.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

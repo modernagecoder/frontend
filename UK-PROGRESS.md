@@ -435,7 +435,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 383 | online-coding-and-python-classes-in-weston-super-mare (wsm, #1B434C) | cg- town page | 2,841 | 1.4% vs online-coding-and-python-classes-in-mansfield | how should you group data into bands? | optimal binning by dynamic programming, brute force vs DP, fitted vs standard bands | 302fdd99 |
 | 384 | ai-and-programming-classes-in-harrogate (hgt, #175C32) | cg- town page | 2,830 | 2% vs ai-and-programming-classes-in-redditch | how does an app answer is it open now? | regular expressions, parsing a real format, spec vs examples, rule precedence | e905350e |
 | 385 | best-coding-and-ai-classes-in-shrewsbury (swy, #334C22) | cg- town page | 2,863 | 1.6% vs best-coding-and-ai-classes-in-walsall | which links hold a network together? | union-find, cut edges vs physical bridges, redundancy | 6f12e536 |
-| 386 | vibe-coding-and-ai-agents-classes-in-taunton (tnt, #7A1F7A) | cg- town page | 2,854 | 1.6% vs vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme | when a swarm of agents agrees, is it right? | ant colony optimisation, consensus vs correctness, premature convergence | (this commit) |
+| 386 | vibe-coding-and-ai-agents-classes-in-taunton (tnt, #7A1F7A) | cg- town page | 2,854 | 1.6% vs vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme | when a swarm of agents agrees, is it right? | ant colony optimisation, consensus vs correctness, premature convergence | 02906f28 |
+| 387 | online-coding-and-python-classes-in-dudley (ddy, #0B374C) | cg- town page | 2,763 | 1.8% vs online-coding-and-python-classes-in-weston-super-mare | why does some code slow to a crawl as data grows? | time complexity measured, quadratic vs linear, nested-loop vs hash join | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
