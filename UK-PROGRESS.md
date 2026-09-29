@@ -480,7 +480,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 428 | ai-and-programming-classes-in-newtownards (nwa, #66507A) | cg- town page | 2,830 | 1.9% vs best-coding-and-ai-classes-in-carrickfergus | what can you trust in a t-SNE map? | t-SNE, dimensionality reduction, trustworthiness | 74f50b70 |
 | 429 | best-coding-and-ai-classes-in-carrickfergus (ckf, #8A3E70) | cg- town page | 2,938 | 2% vs best-coding-and-ai-classes-in-portadown | why does a decision tree change its mind, and how does bagging steady it? | bagging, bootstrap sample, model variance | 5d0ee1a7 |
 | 430 | vibe-coding-and-ai-agents-classes-in-coleraine (crn, #5C2955) | cg- town page | 2,846 | 2% vs vibe-coding-and-ai-agents-classes-in-dungannon | how do agents that only talk to neighbours agree on routes? | distance-vector routing, distributed Bellman-Ford, count to infinity, poison reverse | a5696680 |
-| 431 | online-coding-and-python-classes-in-larne (lrn, #9C3D12) | cg- town page | 2,749 | 2% vs online-coding-and-python-classes-in-ballymena | how do you count unique items without storing them all? | HyperLogLog, cardinality estimation, memory vs accuracy | (this commit) |
+| 431 | online-coding-and-python-classes-in-larne (lrn, #9C3D12) | cg- town page | 2,749 | 2% vs online-coding-and-python-classes-in-ballymena | how do you count unique items without storing them all? | HyperLogLog, cardinality estimation, memory vs accuracy | fda649e5 |
+| 432 | ai-and-programming-classes-in-banbridge (bbr, #6E5A0A) | cg- town page | 2,758 | 1.6% vs ai-and-programming-classes-in-newtownards | how do you find the exact shortest round without trying every order? | Held-Karp, dynamic programming over subsets, TSP | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
