@@ -32074,5 +32074,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-motherwell": {
+    "market": "Motherwell",
+    "bodyClass": "cg-mtw",
+    "pageType": "city",
+    "curriculumAuthority": "North Lanarkshire (S12000050). Scotland: Curriculum for Excellence, SQA National 5 to Advanced Higher. NRS mid-2020 settlement and locality estimates: Motherwell 32,840 (fourth after Cumbernauld 50,530, Coatbridge 43,950, Airdrie 36,390). postcodes.io (North Lanarkshire, ML1): Carfin, Flemington, Forgewood, Muirhouse, New Stevenston (suburban areas); Cleland, Newarthill (villages).",
+    "localProject": "OSM API 0.6, analysed in bbox -4.012,55.772,-3.960,55.800: public streets 96.9 km, one-way 14.8 km. Directed graph 4,014 nodes (weak component); 115 SCCs; largest 3,878 nodes (96.61%), 98.8% of directed length. 136 nodes outside; 121 within 300 m of the box edge; 15 interior in 3 pockets (9 nodes / 168 m unclassified, out-not-in; two 3-node tertiary pieces of about 15 and 19 m). Lesson family: directed graphs, strongly connected components, boundary artefacts.",
+    "requiredMentions": [
+      "32,840",
+      "96.9 km",
+      "Forgewood",
+      "Muirhouse",
+      "Flemington",
+      "Carfin",
+      "New Stevenston",
+      "strongly connected",
+      "Kosaraju"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap streets and one-way tags in Motherwell, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "National Records of Scotland, population estimates for settlements and localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and villages in North Lanarkshire.",
+        "url": "https://api.postcodes.io/places?q=Forgewood"
+      }
+    ],
+    "rejectedClaims": [
+      "Steelworks or football history: not read from a source; not claimed.",
+      "That the three pockets are mapping errors or real restrictions: not decided; flagged for checking.",
+      "Named streets in the pockets: not named, to avoid implying a fault on a specific road.",
+      "Fourth locality in North Lanarkshire: per NRS mid-2020 figures quoted on the North Lanarkshire page.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

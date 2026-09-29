@@ -1338,3 +1338,4 @@
 .cg-root.cg-adr  { --cg-accent: #466B5A; --cg-accent-soft: rgba(70,107,90,.10); }   /* Airdrie: a deep teal green (4.82:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-irv  { --cg-accent: #484C0B; --cg-accent-soft: rgba(72,76,11,.10); }   /* Irvine: a dark khaki olive (7.31:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-dfs  { --cg-accent: #30636B; --cg-accent-soft: rgba(48,99,107,.10); }   /* Dumfries: a deep sea teal (5.42:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-mtw  { --cg-accent: #25336B; --cg-accent-soft: rgba(37,51,107,.10); }   /* Motherwell: a deep navy (9.59:1 contrast), picked by colour distance from recent accents */

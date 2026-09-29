@@ -16651,6 +16651,18 @@
   to = "/src/pages/ai-and-programming-classes-in-dumfries.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-motherwell"
+  to = "/src/pages/best-coding-and-ai-classes-in-motherwell.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-motherwell.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-motherwell.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
