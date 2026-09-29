@@ -31864,5 +31864,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-greenock": {
+    "market": "Greenock",
+    "bodyClass": "cg-grk",
+    "pageType": "city",
+    "curriculumAuthority": "Inverclyde (S12000018). Scotland: Curriculum for Excellence, SQA National 5 to Advanced Higher. NRS mid-2020 settlement and locality estimates: Greenock 41,280 (Port Glasgow 14,200 next). postcodes.io (Inverclyde, PA15/PA16): Bow Farm, Braeside, Branchton, Cowdenknowes, Fort Matilda, Gibshill, Lyle Hill, Maukinhill, Overton, Ravenscraig (suburban areas).",
+    "localProject": "OpenTopoData eudem25m: 100 points along 4.7600 W, 55.9525 to 55.9225 N (3,316 m), 5.4 to 275.4 m. 50 draws of 15 training points. Median test / train RMSE (m): deg 1 17.9/16.9; deg 3 15.7/14.2; deg 9 84.5/3.7; deg 14 23,501/0.0; deg 14 ridge (alpha 0.001, standardised) 14.1/9.5. Strength sweep 1e-6 19.8 to 1 16.8 (illustrative, test-based). Lesson family: regularisation, ridge, overfitting.",
+    "requiredMentions": [
+      "41,280",
+      "Braeside",
+      "Branchton",
+      "Gibshill",
+      "Cowdenknowes",
+      "Ravenscraig",
+      "Bow Farm",
+      "regularisation",
+      "ridge regression"
+    ],
+    "sources": [
+      {
+        "claim": "OpenTopoData API, EU-DEM 25 m dataset (Copernicus EU-DEM v1.1).",
+        "url": "https://www.opentopodata.org/datasets/eudem/"
+      },
+      {
+        "claim": "National Records of Scotland, population estimates for settlements and localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Inverclyde.",
+        "url": "https://api.postcodes.io/places?q=Braeside"
+      }
+    ],
+    "rejectedClaims": [
+      "Shipbuilding, harbour or James Watt history: not read from a source; not claimed.",
+      "Exact street names along the line: not claimed; only coordinates are given.",
+      "That the ridge strength shown is the one a proper project would pick: stated as illustrative only.",
+      "Largest locality in Inverclyde: per NRS mid-2020 figures quoted on the Inverclyde page (Greenock 41,280, Port Glasgow 14,200).",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
