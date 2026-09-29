@@ -456,7 +456,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 404 | ai-and-programming-classes-in-ellesmere-port (elp, #461B6B) | cg- town page | 2,842 | 1.4% vs ai-and-programming-classes-in-chatham | why does a model score better in testing than in real use? | data leakage, spatial autocorrelation, grouped split | d613eff7 |
 | 405 | best-coding-and-ai-classes-in-farnborough (fnb, #466B4D) | cg- town page | 2,737 | 1.7% vs online-coding-and-python-classes-in-runcorn | which inputs does a model really rely on? | feature importance, permutation importance, noise control | 2d430855 |
 | 406 | vibe-coding-and-ai-agents-classes-in-halesowen (hso, #4C1713) | cg- town page | 2,836 | 1.5% vs vibe-coding-and-ai-agents-classes-in-bognor-regis | how can an agent know when to say it is not sure? | conformal prediction, calibration set, abstention | 900b3c11 |
-| 407 | online-coding-and-python-classes-in-paisley (psy, #5C3C58) | cg- town page | 2,715 | 2.5% vs best-coding-and-ai-classes-in-gosport | when should you stop looking and choose? | optimal stopping, secretary problem, 37% rule | (this commit) |
+| 407 | online-coding-and-python-classes-in-paisley (psy, #5C3C58) | cg- town page | 2,715 | 2.5% vs best-coding-and-ai-classes-in-gosport | when should you stop looking and choose? | optimal stopping, secretary problem, 37% rule | 84fadedf |
+| 408 | ai-and-programming-classes-in-east-kilbride (ekb, #3E668A) | cg- town page | 2,746 | 2% vs ai-and-programming-classes-in-aylesbury | how does a computer recognise a shape? | feature engineering, circularity, precision vs recall | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

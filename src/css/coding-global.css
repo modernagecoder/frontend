@@ -1325,3 +1325,4 @@
 .cg-root.cg-fnb  { --cg-accent: #466B4D; --cg-accent-soft: rgba(70,107,77,.10); }   /* Farnborough: a grey-green (4.88:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-hso  { --cg-accent: #4C1713; --cg-accent-soft: rgba(76,23,19,.10); }   /* Halesowen: a dark oxblood brown (11.76:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-psy  { --cg-accent: #5C3C58; --cg-accent-soft: rgba(92,60,88,.10); }   /* Paisley: a dusky mauve (7.55:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-ekb  { --cg-accent: #3E668A; --cg-accent-soft: rgba(62,102,138,.10); }   /* East Kilbride: a steel blue (4.87:1 contrast), picked by colour distance from recent accents */

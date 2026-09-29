@@ -31536,5 +31536,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-east-kilbride": {
+    "market": "East Kilbride",
+    "bodyClass": "cg-ekb",
+    "pageType": "city",
+    "curriculumAuthority": "South Lanarkshire (S12000029). Scotland: Curriculum for Excellence, SQA National 5, Higher, Advanced Higher. NRS mid-2020 settlement and locality estimates: East Kilbride 75,310. postcodes.io (South Lanarkshire, G74/G75): Westwood, The Murray, Greenhills, Stewartfield, Lindsayfield, Hairmyres, Nerston, East Mains, Mossneuk, Whitehills (suburban areas); Thorntonhall (village).",
+    "localProject": "OSM API 0.6, bbox -4.235,55.735,-4.125,55.790 (12 tiles): 92 closed junction=roundabout rings, 111 other closed road ways. Circularity median 0.992 vs 0.91. Rules found / false / precision / recall: circularity >= 0.85 90/62/59.2/97.8; arms >= 3 83/25/76.9/90.2; both 82/15/84.5/89.1. 60 of 111 others touch one road. Lesson family: feature engineering, shape descriptor, relational feature.",
+    "requiredMentions": [
+      "75,310",
+      "Stewartfield",
+      "Greenhills",
+      "Lindsayfield",
+      "Hairmyres",
+      "Mossneuk",
+      "The Murray",
+      "circularity",
+      "feature engineering"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap map data for East Kilbride, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "National Records of Scotland, population estimates for settlements and localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in South Lanarkshire.",
+        "url": "https://api.postcodes.io/places?q=Stewartfield"
+      }
+    ],
+    "rejectedClaims": [
+      "New-town history or a \"roundabout town\" nickname: not read from a source; not claimed.",
+      "That every mapped roundabout is complete or correctly tagged: not claimed; 6 groups did not close in the box.",
+      "That the 15 remaining false alarms are or are not roundabouts: not checked; described as needing a look.",
+      "Largest locality in South Lanarkshire: per NRS mid-2020 figures quoted on the South Lanarkshire page (East Kilbride 75,310, Hamilton 54,480).",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
