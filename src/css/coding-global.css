@@ -1329,3 +1329,4 @@
 .cg-root.cg-lvg  { --cg-accent: #5C4632; --cg-accent-soft: rgba(92,70,50,.10); }   /* Livingston: a dark walnut brown (7.12:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-hms  { --cg-accent: #6B1C10; --cg-accent-soft: rgba(107,28,16,.10); }   /* Hamilton: a deep rust red (9.41:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-cbd  { --cg-accent: #5C553C; --cg-accent-soft: rgba(92,85,60,.10); }   /* Cumbernauld: a dark olive grey (6.0:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-kcd  { --cg-accent: #546B25; --cg-accent-soft: rgba(84,107,37,.10); }   /* Kirkcaldy: a moss green (4.83:1 contrast), picked by colour distance from recent accents */

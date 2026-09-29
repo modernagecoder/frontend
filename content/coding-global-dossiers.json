@@ -31696,5 +31696,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-kirkcaldy": {
+    "market": "Kirkcaldy",
+    "bodyClass": "cg-kcd",
+    "pageType": "city",
+    "curriculumAuthority": "Fife (S12000047). Scotland: Curriculum for Excellence, SQA National 5, Higher, Advanced Higher. NRS mid-2020 settlement and locality estimates: Kirkcaldy and Dysart 50,370. postcodes.io (Fife, KY1/KY2): Chapel, Dunnikier, Dysart, Gallatown, Hayfield, Linktown, Pathhead, Sinclairtown, Smeaton, Templehall (suburban areas).",
+    "localProject": "OSM API 0.6 bbox -3.200,56.095,-3.130,56.135 (16 tiles): 8,723 buildings; 2,618 homes, 170 other typed, 5,917 untyped. Seven shape features. Gradient boosting depth 2, 10 splits: always-home accuracy 93.9% (balanced 50); one tree balanced 82.7. LR 0.1 trees 1/10/50/100/400 balanced 76.4/79.6/84.5/85.6/84.6, accuracy 80.6/81.9/87.5/91.4/95.1, others found 71.6/77.1/81.2/79.0/72.5; train 99.3. LR 1.0 peak 82.6 at 10 trees, end 80.2, accuracy 96.3. Lesson family: gradient boosting.",
+    "requiredMentions": [
+      "50,370",
+      "2,618",
+      "5,917",
+      "Templehall",
+      "Sinclairtown",
+      "Pathhead",
+      "Gallatown",
+      "Linktown",
+      "Dunnikier",
+      "gradient boosting"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap building data for Kirkcaldy, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "National Records of Scotland, population estimates for settlements and localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Fife.",
+        "url": "https://api.postcodes.io/places?q=Templehall"
+      }
+    ],
+    "rejectedClaims": [
+      "Linoleum, Adam Smith or harbour history: not read from a source; not claimed.",
+      "Labels for the 5,917 untyped buildings: not predicted, because they could not be checked.",
+      "That OpenStreetMap tags are complete or correct: not claimed; volunteer tags only.",
+      "Second largest locality in Fife: per NRS mid-2020 figures quoted on the Fife page (Dunfermline 54,990, Kirkcaldy and Dysart 50,370); never called the largest.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
