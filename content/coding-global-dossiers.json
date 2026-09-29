@@ -32642,5 +32642,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-banbridge": {
+    "market": "Banbridge",
+    "bodyClass": "cg-bbr",
+    "pageType": "city",
+    "curriculumAuthority": "Armagh City, Banbridge and Craigavon (N09000002). Northern Ireland Curriculum; CCEA GCSE and A level. NISRA Census 2021 MS-A01: settlement BANBRIDGE 17,400 (approximation); DEA Banbridge 34,940; wards Banbridge East 4,479, Banbridge North 4,272, Banbridge South 5,043, Banbridge West 5,431, Gransha 5,155, Loughbrickland 5,711, Quilly 4,497 (ward names from postcodes.io outcode BT32).",
+    "localProject": "OSM API 0.6 bbox -6.305,54.330,-6.240,54.368: walk network 201.2 km, 30 bus stops, start = place=town node 267762560. Held-Karp exact vs nearest-neighbour vs random (2,000). n=8: 2.04 km / 2.18 / 3.69, 449 subproblems; n=12: 4.86 / 5.06 / 10.01, 11,265; n=16: 6.52 / 6.74 (+3.3%) / 15.46, 245,761 subproblems, 1.72M steps, 2.5 s vs 653,837,184,000 brute-force tours. 30 stops about 16.1 billion subproblems. Lesson family: Held-Karp dynamic programming over subsets.",
+    "requiredMentions": [
+      "17,400",
+      "34,940",
+      "Banbridge West",
+      "Loughbrickland",
+      "Gransha",
+      "Quilly",
+      "Held-Karp",
+      "245,761",
+      "653,837,184,000"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA Census 2021 MS-A01 usual resident population by settlement, DEA and ward.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "OpenStreetMap paths and bus stops in Banbridge, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "postcodes.io outcode BT32: wards in Armagh City, Banbridge and Craigavon.",
+        "url": "https://api.postcodes.io/outcodes/BT32"
+      }
+    ],
+    "rejectedClaims": [
+      "Bridge, linen or town history: not read from a source; not claimed.",
+      "Real bus routes or timetables: not modelled; the stops are points only.",
+      "That the listed wards make up the town: they are wards postcodes.io lists for BT32; not claimed as the town area.",
+      "Sum of settlement, DEA and ward figures: different geographies; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

@@ -16819,6 +16819,18 @@
   to = "/src/pages/ai-and-programming-classes-in-strabane.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-banbridge"
+  to = "/src/pages/ai-and-programming-classes-in-banbridge.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-banbridge.md"
+  to = "/src/pages/ai-and-programming-classes-in-banbridge.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
