@@ -1334,3 +1334,4 @@
 .cg-root.cg-kmk  { --cg-accent: #256B25; --cg-accent-soft: rgba(37,107,37,.10); }   /* Kilmarnock: a deep leaf green (5.27:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-ctb  { --cg-accent: #7A4359; --cg-accent-soft: rgba(122,67,89,.10); }   /* Coatbridge: a muted plum rose (6.1:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-grk  { --cg-accent: #36224C; --cg-accent-soft: rgba(54,34,76,.10); }   /* Greenock: a deep aubergine (11.36:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-glr  { --cg-accent: #151C8A; --cg-accent-soft: rgba(21,28,138,.10); }   /* Glenrothes: a deep indigo blue (10.81:1 contrast), picked by colour distance from recent accents */

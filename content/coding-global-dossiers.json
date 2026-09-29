@@ -31904,5 +31904,50 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-glenrothes": {
+    "market": "Glenrothes",
+    "bodyClass": "cg-glr",
+    "pageType": "city",
+    "curriculumAuthority": "Fife (S12000047). Scotland: Curriculum for Excellence, SQA National 5 to Advanced Higher. NRS mid-2020 settlement and locality estimates: Glenrothes 38,360 (Dunfermline 54,990; Kirkcaldy and Dysart 50,370). postcodes.io (Fife, KY6/KY7): Auchmuty, Balfarg, Cadham, Caskieberran, Macedonia, Newcastle, Pitcoudie, Pitteuchar, Rimbleton, Stenton, Tanshall, Woodside (suburban areas); Leslie, Markinch (towns).",
+    "localProject": "OpenTopoData eudem25m 40 x 40 grid, bbox -3.235,56.175,-3.135,56.215 (27.39 sq km, cells ~159 x 113 m), 49.3 to 174.3 m. 19 pits; fill raised 33 cells up to 5.98 m. D8 + accumulation; largest 944 cells (17.0 sq km). OSM 46 waterways (River Leven, Lothrie, Camby, Back, Bighty, Balbirnie burns). Within 150 m of mapped water (all cells 18.5%): >= 0.45 sq km 185 cells 38.4%; >= 0.9 111 cells 49.5%; >= 1.8 60 cells 66.7%. Lesson family: D8 flow routing, pit filling, flow accumulation, validation.",
+    "requiredMentions": [
+      "38,360",
+      "Pitteuchar",
+      "Cadham",
+      "Tanshall",
+      "Rimbleton",
+      "Caskieberran",
+      "Auchmuty",
+      "Lothrie Burn",
+      "flow accumulation",
+      "D8 algorithm"
+    ],
+    "sources": [
+      {
+        "claim": "OpenTopoData API, EU-DEM 25 m dataset (Copernicus EU-DEM v1.1).",
+        "url": "https://www.opentopodata.org/datasets/eudem/"
+      },
+      {
+        "claim": "OpenStreetMap waterways around Glenrothes, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "National Records of Scotland, population estimates for settlements and localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and towns in Fife.",
+        "url": "https://api.postcodes.io/places?q=Pitteuchar"
+      }
+    ],
+    "rejectedClaims": [
+      "New-town history or planning claims: not read from a source; not claimed.",
+      "Flood risk: the model is not a flood assessment and none is implied.",
+      "That unmatched predicted streams are real but unmapped: possible, not claimed.",
+      "Third locality in Fife: per NRS mid-2020 figures quoted on the Fife page (Dunfermline 54,990, Kirkcaldy and Dysart 50,370, Glenrothes 38,360).",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
