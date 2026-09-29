@@ -433,7 +433,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 381 | best-coding-and-ai-classes-in-gosport (gsp, #38306B) | cg- town page | 2,814 | 2.8% vs ai-and-programming-classes-in-lowestoft | is 95% sure really right 95% of the time? | calibration of stated confidence, bootstrap coverage, small-sample over-confidence | a8d24bd0 |
 | 382 | vibe-coding-and-ai-agents-classes-in-kettering (ktg, #223E8A) | cg- town page | 2,876 | 2.8% vs vibe-coding-and-ai-agents-classes-in-crewe | how does a game-playing agent choose a move? | minimax, alpha-beta pruning, horizon, provably unwinnable goals | d136e250 |
 | 383 | online-coding-and-python-classes-in-weston-super-mare (wsm, #1B434C) | cg- town page | 2,841 | 1.4% vs online-coding-and-python-classes-in-mansfield | how should you group data into bands? | optimal binning by dynamic programming, brute force vs DP, fitted vs standard bands | 302fdd99 |
-| 384 | ai-and-programming-classes-in-harrogate (hgt, #175C32) | cg- town page | 2,830 | 2% vs ai-and-programming-classes-in-redditch | how does an app answer is it open now? | regular expressions, parsing a real format, spec vs examples, rule precedence | (this commit) |
+| 384 | ai-and-programming-classes-in-harrogate (hgt, #175C32) | cg- town page | 2,830 | 2% vs ai-and-programming-classes-in-redditch | how does an app answer is it open now? | regular expressions, parsing a real format, spec vs examples, rule precedence | e905350e |
+| 385 | best-coding-and-ai-classes-in-shrewsbury (swy, #334C22) | cg- town page | 2,863 | 1.6% vs best-coding-and-ai-classes-in-walsall | which links hold a network together? | union-find, cut edges vs physical bridges, redundancy | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

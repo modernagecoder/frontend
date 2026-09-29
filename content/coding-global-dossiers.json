@@ -30583,5 +30583,50 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-shrewsbury": {
+    "market": "Shrewsbury",
+    "bodyClass": "cg-swy",
+    "pageType": "city",
+    "curriculumAuthority": "ONS 2021 BUAs (published): Shrewsbury 76,015; Bayston Hill 5,220. postcodes.io (Shropshire) suburban areas: Frankwell, Kingsland, Coleham, Monkmoor, Harlescott, Meole Brace, Castlefields, Copthorne, Ditherington. OSM bridge names: Welsh Bridge, English Bridge, Kingsland Bridge, Greyfriars Bridge, Frankwell Suspension Bridge, Porthill Footbridge, Castle Walk Footbridge.",
+    "localProject": "OSM bbox -2.766,52.700,-2.742,52.716: 6,308 points, 6,971 links, 11 pieces (largest 6,206). 10 bridge ways cross the River Severn line; 9 join the town-centre piece to the other side. Union-find: all closed -> 3,582 vs 2,619; any one closed -> still joined. Tarjan cut edges 1,621 of 6,971 (smaller side 1: 564; 2-9: 877; 10-49: 151; 50+: 29; max 104); no river bridge is a cut edge. Lesson family: union-find, cut edges vs physical bridges, redundancy.",
+    "requiredMentions": [
+      "76,015",
+      "Bayston Hill",
+      "Frankwell",
+      "Monkmoor",
+      "Harlescott",
+      "Meole Brace",
+      "Welsh Bridge",
+      "English Bridge",
+      "union-find",
+      "1,621"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "OpenStreetMap map data for central Shrewsbury, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "OpenStreetMap API 0.6 map call used for the street and river data.",
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-2.766,52.700,-2.742,52.716"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Shropshire around Shrewsbury.",
+        "url": "https://api.postcodes.io/places?q=Frankwell"
+      }
+    ],
+    "rejectedClaims": [
+      "River loop or town-plan history: not read from a source; not claimed.",
+      "Darwin: the Shropshire county page owns that anchor; not reused.",
+      "Bridge ages, traffic or condition: not read; not claimed.",
+      "That the mapped network is complete or official: stated as OpenStreetMap data inside one rectangle only.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
