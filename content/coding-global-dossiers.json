@@ -32034,5 +32034,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-dumfries": {
+    "market": "Dumfries",
+    "bodyClass": "cg-dfs",
+    "pageType": "city",
+    "curriculumAuthority": "Dumfries and Galloway (S12000006). Scotland: Curriculum for Excellence, SQA National 5 to Advanced Higher. NRS mid-2020 settlement and locality estimates: Dumfries 33,470 (Stranraer 10,110 next). postcodes.io (Dumfries and Galloway, DG1/DG2): Georgetown, Kingholm Quay, Larchfield, Lincluden, Lochside, Marchmount, Maxwelltown, Noblehill, Summerville, Troqueer (suburban areas); Cargenbridge, Heathhall, Locharbriggs (villages).",
+    "localProject": "Met Office historic station data, Eskdalemuir (242 m amsl), monthly tmax, 1961 to 2025 complete (2026 provisional excluded). Frozen 1961-1990 climatology vs rolling previous-30-year climatology, tested 1991-2025. Bias / months warmer: frozen 0.20/56.7, 0.79/74.2, 0.82/72.5, 1.57/90.0; rolling 0.16/55.0, 0.58/65.0, 0.36/59.2, 0.86/73.3 (decades 1991-2000 to 2021-2025). Frozen MAE 1.18 to 1.69. Annual mean tmax 10.77 (1961-1990) vs 11.64 (1996-2025). Lesson family: concept drift, monitoring, retraining.",
+    "requiredMentions": [
+      "33,470",
+      "Eskdalemuir",
+      "Lincluden",
+      "Troqueer",
+      "Maxwelltown",
+      "Georgetown",
+      "Noblehill",
+      "concept drift",
+      "knowledge cutoff"
+    ],
+    "sources": [
+      {
+        "claim": "Met Office historic station data, Eskdalemuir, monthly temperatures (Open Government Licence).",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/eskdalemuirdata.txt"
+      },
+      {
+        "claim": "National Records of Scotland, population estimates for settlements and localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and villages in Dumfries and Galloway.",
+        "url": "https://api.postcodes.io/places?q=Lincluden"
+      }
+    ],
+    "rejectedClaims": [
+      "That Eskdalemuir is near Dumfries or represents Dumfries weather: not claimed; described only as a station in Dumfries and Galloway.",
+      "Causes of the warming or a climate projection: not claimed; the page measures model error only.",
+      "Burns, river or town history: not read from a source; not claimed.",
+      "Largest locality in Dumfries and Galloway: per NRS mid-2020 figures quoted on the Dumfries and Galloway page (Dumfries 33,470, Stranraer 10,110).",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
