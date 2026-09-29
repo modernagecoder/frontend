@@ -31372,5 +31372,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-ellesmere-port": {
+    "market": "Ellesmere Port",
+    "bodyClass": "cg-elp",
+    "pageType": "city",
+    "curriculumAuthority": "Cheshire West and Chester (E06000050), Census 2021 TS001 usual residents 357,150. ONS 2021 BUAs (published): Ellesmere Port 65,430; Winsford 32,530. postcodes.io suburban areas (nearest OA centroid in Ellesmere Port BUA, our check): Great Sutton, Little Sutton, Whitby, Little Stanney, Wolverham, Overpool, Stanlow; villages Hooton, Childer Thornton.",
+    "localProject": "Census 2021 TS045/TS017/TS006 for 1,179 OAs (155,125 households, 25,879 no car); ONS OA PWC and OA-MSOA lookup (47 MSOAs). Random forest, 5-fold CV x 3 seeds, MAE points random / MSOA-grouped: location 6.87 / 8.86; census 6.39 / 6.48; both 5.70 / 6.16; mean-only 10.73. Moran I (8 nn) 0.558. Lesson family: data leakage via random split, spatial autocorrelation, grouped CV.",
+    "requiredMentions": [
+      "65,430",
+      "1,179",
+      "155,125",
+      "25,879",
+      "Great Sutton",
+      "Little Sutton",
+      "Overpool",
+      "Little Stanney",
+      "data leakage",
+      "spatial autocorrelation"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS045, TS017 and TS006 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS Output Areas (December 2021) population-weighted centroids and OA to LSOA to MSOA lookup, ONS Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and villages in Cheshire West and Chester.",
+        "url": "https://api.postcodes.io/places?q=Overpool"
+      }
+    ],
+    "rejectedClaims": [
+      "Canal, port or refinery history: not read from a source; not claimed.",
+      "Why some areas have fewer cars: no cause claimed; only prediction errors are reported.",
+      "That Hooton and Childer Thornton are part of Ellesmere Port: they fall in a separate ONS built-up area; described only as villages sharing the CH66 district.",
+      "Sum of the built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
