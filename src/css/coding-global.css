@@ -1323,3 +1323,4 @@
 .cg-root.cg-cbn  { --cg-accent: #7A4377; --cg-accent-soft: rgba(122,67,119,.10); }   /* Corby: a muted plum (5.84:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-elp  { --cg-accent: #461B6B; --cg-accent-soft: rgba(70,27,107,.10); }   /* Ellesmere Port: a deep indigo (10.38:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-fnb  { --cg-accent: #466B4D; --cg-accent-soft: rgba(70,107,77,.10); }   /* Farnborough: a grey-green (4.88:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-hso  { --cg-accent: #4C1713; --cg-accent-soft: rgba(76,23,19,.10); }   /* Halesowen: a dark oxblood brown (11.76:1 contrast), picked by colour distance from recent accents */

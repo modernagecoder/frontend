@@ -31454,5 +31454,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-halesowen": {
+    "market": "Halesowen",
+    "bodyClass": "cg-hso",
+    "pageType": "city",
+    "curriculumAuthority": "Dudley (E08000027), Census 2021 TS001 usual residents 323,486. ONS 2021 BUAs (published): Halesowen 60,110; Stourbridge 56,950. postcodes.io suburban areas (nearest OA centroid in Halesowen BUA, our check): Cradley, Hasbury, Hayley Green, Hawne, Lapal, Hurst Green, Hill and Cakemore.",
+    "localProject": "Census 2021 TS017/TS045/TS006 for 1,033 Dudley OAs: 137,044 households, 41,701 one-person. Random forest predicts % one-person from log density and % no car; 50 splits 60/20/20. 90% ranges: training-error half-width 9.34, coverage 76.0%; split conformal half-width 15.31, coverage 90.6% (84.5 to 96.6). Abstention by tree spread, MAE answering 100/80/60/40/20%: 6.66/5.97/5.26/4.74/4.43; mean-only 8.86. Lesson family: conformal prediction, calibration set, abstention.",
+    "requiredMentions": [
+      "60,110",
+      "137,044",
+      "41,701",
+      "Cradley",
+      "Hasbury",
+      "Hayley Green",
+      "Lapal",
+      "Hill and Cakemore",
+      "conformal prediction",
+      "calibration set"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS017, TS045, TS006 and TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS Output Areas (December 2021) population-weighted centroids and OA to BUA lookup, ONS Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Dudley borough.",
+        "url": "https://api.postcodes.io/places?q=Hasbury"
+      }
+    ],
+    "rejectedClaims": [
+      "Abbey, chain-making or industrial history: not read from a source; not claimed.",
+      "Why some areas have more people living alone: no cause claimed; the data only tests the agent.",
+      "That the Halesowen built-up area lies wholly in Dudley borough: not claimed.",
+      "Sum of the built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
