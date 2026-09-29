@@ -30325,5 +30325,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-mansfield": {
+    "market": "Mansfield",
+    "bodyClass": "cg-mfd",
+    "pageType": "city",
+    "curriculumAuthority": "Mansfield (E07000174), Census 2021 TS001 usual residents 110,482. ONS 2021 BUAs inside the district (published): Mansfield 63,445; Mansfield Woodhouse 19,520; Market Warsop 6,975; Church Warsop 2,140; Meden Vale 2,095. Forest Town (19,010) and Rainworth straddle; not tabled.",
+    "localProject": "Spelling correction over 6,406 England BUA names (all unique), one-edit candidates. 3,000 typos each way: uniform alphabetical 96.7 / population prior 96.9 (hurt 25, helped 30; Cloughton 715 -> Loughton 33,345); population-weighted 96.1 / 98.9. Several candidates 3.9% / 5.6%; typo is another real place 5 / 9. \"kirkby in ashfeild\" no candidate until hyphens normalised. Lesson family: spelling correction with a population prior, fairness by who asks, false friends, normalisation.",
+    "requiredMentions": [
+      "110,482",
+      "63,445",
+      "19,520",
+      "Market Warsop",
+      "Meden Vale",
+      "Church Warsop",
+      "6,406",
+      "spelling corrector",
+      "Did you mean",
+      "Cloughton"
+    ],
+    "sources": [
+      {
+        "claim": "ONS lookup of 2021 output areas to 2022 built-up areas, used to test which built-up areas cross the district boundary.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/OA21_BUA22_LAD22_RGN22_EW_LU/FeatureServer"
+      },
+      {
+        "claim": "Census 2021 TS001 usual residents for Mansfield, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS Census 2021 built-up area names and populations, ONS Open Geography portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Mansfield Park: an Austen novel, not about this town; not mentioned.",
+      "Mining or market history: not read from a source; not claimed.",
+      "How commercial search engines rank suggestions: described only in general terms.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
