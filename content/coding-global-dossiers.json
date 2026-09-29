@@ -31656,5 +31656,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-cumbernauld": {
+    "market": "Cumbernauld",
+    "bodyClass": "cg-cbd",
+    "pageType": "city",
+    "curriculumAuthority": "North Lanarkshire (S12000050). Scotland: Curriculum for Excellence, SQA National 5, Higher, Advanced Higher. NRS mid-2020 settlement and locality estimates: Cumbernauld 50,530. postcodes.io (North Lanarkshire, G67/G68): Abronhill, Balloch, Carbrain, Carrickstone, Condorrat, Greenfaulds, Kildrum, Luggiebank, Seafar, Westerwood, Westfield (suburban areas).",
+    "localProject": "OSM API 0.6 bbox -4.035,55.930,-3.945,55.965 (12 tiles): 248.1 km roads, 209.3 km paths. Walking graph 20,530 nodes, driving 12,025, shared 11,801. 600 random pairs >= 300 m (median 2.06 km). Detour median walk 1.335 (p90 1.737), drive 1.698 (p90 2.706); drive/walk median 1.196; drive > 1.5 x walk in 18.8%. Bands: <1 km 1.455/1.904; 2-4 km 1.297/1.652; >= 4 km 1.232/1.350. Lesson family: circuity / detour factor.",
+    "requiredMentions": [
+      "50,530",
+      "Abronhill",
+      "Condorrat",
+      "Carbrain",
+      "Kildrum",
+      "Seafar",
+      "Greenfaulds",
+      "detour factor",
+      "circuity"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap map data for Cumbernauld, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "National Records of Scotland, population estimates for settlements and localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in North Lanarkshire.",
+        "url": "https://api.postcodes.io/places?q=Abronhill"
+      }
+    ],
+    "rejectedClaims": [
+      "New-town planning history or claims about segregated paths: not read from a source; only mapped lengths are reported.",
+      "Official journey times or travel statistics: none; the detour factors are our own sample.",
+      "One-way streets and routes leaving the rectangle: ignored, and said so on the page.",
+      "Largest locality in North Lanarkshire: per NRS mid-2020 figures quoted on the North Lanarkshire page (Cumbernauld 50,530, Coatbridge 43,950).",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
