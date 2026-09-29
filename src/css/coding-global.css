@@ -1296,3 +1296,4 @@
 .cg-root.cg-hst  { --cg-accent: #444C32; --cg-accent-soft: rgba(68,76,50,.10); }   /* Hastings: a dark sea-kale grey-green (7.28:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-lwt  { --cg-accent: #34158A; --cg-accent-soft: rgba(52,21,138,.10); }   /* Lowestoft: a deep indigo (10.44:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-tmw  { --cg-accent: #20485C; --cg-accent-soft: rgba(32,72,92,.10); }   /* Tamworth: a deep teal blue (7.9:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-cwe  { --cg-accent: #52437A; --cg-accent-soft: rgba(82,67,122,.10); }   /* Crewe: a muted engine-livery violet (6.93:1 contrast), picked by colour distance from recent accents */

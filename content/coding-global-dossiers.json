@@ -30284,5 +30284,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-crewe": {
+    "market": "Crewe",
+    "bodyClass": "cg-cwe",
+    "pageType": "city",
+    "curriculumAuthority": "Cheshire East (E06000049), Census 2021 TS001 usual residents 398,772. ONS 2021 BUAs (published): Crewe 74,120; Nantwich 18,740; Alsager 15,505; Sandbach 11,290; Haslington 5,040. OpenStreetMap: Crewe Heritage Centre (museum, way 815025050), Crewe Library (library, node 5842521464).",
+    "localProject": "OSM API bbox -2.452,53.090,-2.432,53.100: 940 junctions, 1,230 links. Snaps 26.1 m and 32.7 m; straight line 352 m. Dijkstra 498.4 m, 14 junctions, 82 settled. Q-learning (epsilon 0.2, alpha 0.5, reward minus metres), 20 seeds: optimal after median 54 episodes (46 to 62), median 516.3 km walked (477.8 to 573.1). Random walk median 50.8 km per arrival. Lesson family: Q-learning, exploration cost, learn vs plan.",
+    "requiredMentions": [
+      "74,120",
+      "398,772",
+      "Nantwich",
+      "Sandbach",
+      "Alsager",
+      "Haslington",
+      "Crewe Heritage Centre",
+      "Crewe Library",
+      "Q-learning",
+      "reinforcement learning"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations and TS001 usual residents via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "OpenStreetMap map data for central Crewe, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "OpenStreetMap API 0.6 map call used for the street graph.",
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-2.452,53.090,-2.432,53.100"
+      }
+    ],
+    "rejectedClaims": [
+      "Railway history of Crewe: not read from a source; not claimed.",
+      "Opening times or services of the Heritage Centre or Library: not read; not claimed.",
+      "That the route is a recommended or safe walking route: not assessed; it is only the shortest in the map graph.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
