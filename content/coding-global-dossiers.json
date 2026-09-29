@@ -31332,5 +31332,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-corby": {
+    "market": "Corby",
+    "bodyClass": "cg-cbn",
+    "pageType": "city",
+    "curriculumAuthority": "North Northamptonshire (E06000061), Census 2021 TS001 usual residents 359,525. ONS 2021 BUA (published): Corby 68,160. postcodes.io outcodes NN17/NN18 parishes include Corby, Weldon, Gretton, Stanion; places in North Northamptonshire: Great Oakley (suburban area); Weldon, Stanion, Gretton, Cottingham, Rockingham (villages).",
+    "localProject": "OS Code-Point Open 2026.3.0 (RM 17 July 2026): 1,567 postcodes NN17 (909) + NN18 (658), all 8 characters, file already sorted. Comparisons, Python sorted() / merge sort: sorted 1,566 / 8,073; reversed 1,566 / 8,683; 15 pairs swapped 4,384 / 10,654; west to east 12,390 / 14,388; shuffled 14,617 / 14,702; n log2 n 16,632. LSD radix: 7 passes x 1,567 = 10,969 placements. Lesson family: adaptive sorting (runs, Timsort/Powersort) and non-comparison radix sort.",
+    "requiredMentions": [
+      "68,160",
+      "359,525",
+      "NN17",
+      "NN18",
+      "Great Oakley",
+      "Stanion",
+      "Gretton",
+      "radix sort",
+      "Timsort"
+    ],
+    "sources": [
+      {
+        "claim": "Ordnance Survey Code-Point Open, dataset version 2026.3.0, Open Government Licence.",
+        "url": "https://www.ordnancesurvey.co.uk/products/code-point-open"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io outcodes NN17 and NN18 and places in North Northamptonshire.",
+        "url": "https://api.postcodes.io/outcodes/NN17"
+      }
+    ],
+    "rejectedClaims": [
+      "Steel-town or new-town history: not read from a source; not claimed.",
+      "Timings in seconds: not reported; only counted comparisons and placements.",
+      "Python sort internals beyond run detection and the 3.11 Powersort merge rule: not claimed.",
+      "Corby built-up area as a share of the council area: different tables; not compared.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

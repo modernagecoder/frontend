@@ -451,7 +451,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 399 | online-coding-and-python-classes-in-ashford (asf, #6B103B) | cg- town page | 2,837 | 1.9% vs best-coding-and-ai-classes-in-cannock | does statistically significant mean important? | effect size, statistical power, significance vs size | ec1ea31e |
 | 400 | ai-and-programming-classes-in-burton-upon-trent (btt, #8A3078) | cg- town page | 2,952 | 2% vs best-coding-and-ai-classes-in-cannock | can a model tell a town from a village? | support vector machine, soft margin C, baseline accuracy | 2de0ab41 |
 | 401 | best-coding-and-ai-classes-in-south-shields (shs, #5C5C17) | cg- town page | 2,875 | 2.2% vs vibe-coding-and-ai-agents-classes-in-kettering | how does attention in AI decide what to look at? | attention, queries keys values, hard vs soft attention | 80319977 |
-| 402 | vibe-coding-and-ai-agents-classes-in-bognor-regis (bgr, #5A638A) | cg- town page | 2,796 | 1.8% vs ai-and-programming-classes-in-burton-upon-trent | what happens when an agent keeps checking until it finds a result? | optional stopping, peeking, A/A test, p-hacking | (this commit) |
+| 402 | vibe-coding-and-ai-agents-classes-in-bognor-regis (bgr, #5A638A) | cg- town page | 2,796 | 1.8% vs ai-and-programming-classes-in-burton-upon-trent | what happens when an agent keeps checking until it finds a result? | optional stopping, peeking, A/A test, p-hacking | 87688dfd |
+| 403 | online-coding-and-python-classes-in-corby (cbn, #7A4377) | cg- town page | 2,755 | 2.3% vs online-coding-and-python-classes-in-ashford | how does Python sort, and when does a sort that never compares win? | Timsort runs, adaptive sorting, radix sort | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
