@@ -1313,3 +1313,4 @@
 .cg-root.cg-sle  { --cg-accent: #4C3232; --cg-accent-soft: rgba(76,50,50,.10); }   /* Sale: a deep mahogany (9.35:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-pgn  { --cg-accent: #7A4B2B; --cg-accent-soft: rgba(122,75,43,.10); }   /* Paignton: a warm sandstone brown (5.9:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-wly  { --cg-accent: #4C223E; --cg-accent-soft: rgba(76,34,62,.10); }   /* Wallasey: a deep damson (10.54:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-rnc  { --cg-accent: #55295C; --cg-accent-soft: rgba(85,41,92,.10); }   /* Runcorn: a deep grape purple (9.11:1 contrast), picked by colour distance from recent accents */
