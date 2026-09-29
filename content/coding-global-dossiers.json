@@ -30628,5 +30628,50 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-taunton": {
+    "market": "Taunton",
+    "bodyClass": "cg-tnt",
+    "pageType": "city",
+    "curriculumAuthority": "ONS 2021 BUAs (published): Taunton 61,665; Monkton Heathfield 4,585; Norton Fitzwarren 3,770. postcodes.io (Somerset): Wilton, Priorswood, Halcon, Holway, Galmington, Lyngford, Comeytrowe (suburban areas); Staplegrove, Trull (villages). OSM: Taunton Library (node 1651599681), Vivary Park (way 554994523).",
+    "localProject": "OSM bbox -3.114,51.009,-3.100,51.019: 1,044 junctions, 1,270 links. Dijkstra 523.4 m (465 settled). ACO 20 ants x 100 rounds, 10 seeds: optimum 0/10; unanimous final route 10/10, 195.8 to 337.5 m longer (median 222.0); better route found then abandoned 4/10; first arrival median round 21 (2 to 56). 24 more runs over 4 settings: optimum 0, closest +163.1 m. Lesson family: ant colony optimisation, consensus vs correctness, premature convergence.",
+    "requiredMentions": [
+      "61,665",
+      "Monkton Heathfield",
+      "Norton Fitzwarren",
+      "Priorswood",
+      "Halcon",
+      "Galmington",
+      "Taunton Library",
+      "Vivary Park",
+      "ant colony",
+      "523.4"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "OpenStreetMap map data for central Taunton, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "OpenStreetMap API 0.6 map call used for the street graph.",
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-3.114,51.009,-3.100,51.019"
+      },
+      {
+        "claim": "postcodes.io places in Somerset around Taunton (suburban areas and villages).",
+        "url": "https://api.postcodes.io/places?q=Priorswood"
+      }
+    ],
+    "rejectedClaims": [
+      "Castle, county town or cider history: not read from a source; not claimed.",
+      "How real ant colonies perform: described only in general terms, not measured.",
+      "That ant colony optimisation always fails: not claimed; it failed on this map with these settings.",
+      "That the mapped route is a safe or recommended walk: not assessed.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
