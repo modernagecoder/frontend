@@ -32602,5 +32602,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-strabane": {
+    "market": "Strabane",
+    "bodyClass": "cg-sbn",
+    "pageType": "city",
+    "curriculumAuthority": "Derry City and Strabane (N09000005). Northern Ireland Curriculum; CCEA GCSE and A level. NISRA Census 2021 MS-A01: Strabane settlement 13,507; Castlederg 2,980; Sion Mills 1,974; Newtownstewart 1,414; Derry City and Strabane LGD 150,756; wards Ballycolman 3,530, Strabane North 4,006, Strabane West 3,105. OSM place nodes (UK side): Ballycolman, Castletown, Springhill, Head of the Town, Foot of the Town, Lisnafin.",
+    "localProject": "OSM API 0.6 bbox -7.500,54.810,-7.430,54.845, kept lat 54.817-54.845, UK side of border (relations 62149/62273): 2,939 buildings, 1,155 homes, 203 other typed, 1,581 untyped. Label spreading (kNN 10, alpha 0.2) vs kNN (5) on labelled only, 20 draws, balanced accuracy: 1% 54.8/50.0; 2% 58.6/51.6; 5% 69.9/63.6; 10% 76.5/71.0; 25% 83.1/76.9. Lesson family: semi-supervised learning, label propagation/spreading.",
+    "requiredMentions": [
+      "13,507",
+      "2,939",
+      "1,581",
+      "Ballycolman",
+      "Lisnafin",
+      "Head of the Town",
+      "Sion Mills",
+      "label propagation",
+      "semi-supervised"
+    ],
+    "sources": [
+      {
+        "claim": "NISRA, Census 2021 main statistics table MS-A01, usual residents by settlement, ward and LGD.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "OpenStreetMap buildings and administrative boundaries around Strabane, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "CCEA qualifications used in Northern Ireland schools (GCSE and A level).",
+        "url": "https://ccea.org.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "Border politics, identity or history: not discussed; the border is used only to keep the analysis to the UK side.",
+      "Labels for the 1,581 untyped buildings: not predicted or published, because they could not be checked.",
+      "A Strabane electoral-area population: not stated, as the DEA containing the town was not verified.",
+      "Sum of settlement figures: separate NISRA counts; never added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
