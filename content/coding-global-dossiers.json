@@ -30885,5 +30885,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-sale": {
+    "market": "Sale",
+    "bodyClass": "cg-sle",
+    "pageType": "city",
+    "curriculumAuthority": "Trafford (E08000009), Census 2021 TS001 usual residents 235,052. ONS 2021 BUAs (published): Sale 62,550; Altrincham 49,680; Urmston 41,740; Stretford 28,015. postcodes.io (Trafford) suburban areas: Brooklands, Ashton upon Mersey, Timperley.",
+    "localProject": "OSM bbox -2.345,53.412,-2.300,53.438 (6 tiles): 308 shops and everyday places (sensitive categories excluded). 200 m squares: 68 with places, 30 with 2+ types. Commonest: restaurant 17, hairdresser 15, cafe 13, fast food 12, convenience 10. 26 rules (support >= 6). Clothes -> restaurant 7/7 conf 1.00 lift 1.76; hairdresser -> restaurant 13 conf 0.87 lift 1.53; fast food & convenience 1.75; clothes & hairdresser 1.71; cafe & convenience 1.62. Lift >= 1.5: real 12, 300 shuffles median 2, 95th pct 8, max 12. Lesson family: association rules, support/confidence/lift, permutation test, basket choice.",
+    "requiredMentions": [
+      "62,550",
+      "235,052",
+      "Altrincham",
+      "Urmston",
+      "Stretford",
+      "Brooklands",
+      "Ashton upon Mersey",
+      "Timperley",
+      "association rule",
+      "market basket"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations and TS001 usual residents via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "OpenStreetMap map data for central Sale, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Trafford.",
+        "url": "https://api.postcodes.io/places?q=Brooklands"
+      }
+    ],
+    "rejectedClaims": [
+      "Why shops cluster: not studied; patterns are described only as co-occurrence.",
+      "Named businesses: none named or assessed.",
+      "Sensitive shop categories (alcohol, tobacco, gambling, money-lending, health-related): excluded from the data by design.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
