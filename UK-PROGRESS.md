@@ -449,7 +449,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 397 | best-coding-and-ai-classes-in-cannock (cnc, #5A228A) | cg- town page | 2,703 | 2.8% vs ai-and-programming-classes-in-aylesbury | which districts are like ours, and who decides? | hierarchical clustering, linkage and chaining, dendrogram cuts, cophenetic correlation | 7286c791 |
 | 398 | vibe-coding-and-ai-agents-classes-in-tynemouth (tyn, #0E5C28) | cg- town page | 2,675 | 2% vs ai-and-programming-classes-in-harrogate | does asking many agents beat asking one? | wisdom of crowds, self-consistency, independence of errors | 9a1c148d |
 | 399 | online-coding-and-python-classes-in-ashford (asf, #6B103B) | cg- town page | 2,837 | 1.9% vs best-coding-and-ai-classes-in-cannock | does statistically significant mean important? | effect size, statistical power, significance vs size | ec1ea31e |
-| 400 | ai-and-programming-classes-in-burton-upon-trent (btt, #8A3078) | cg- town page | 2,952 | 2% vs best-coding-and-ai-classes-in-cannock | can a model tell a town from a village? | support vector machine, soft margin C, baseline accuracy | (this commit) |
+| 400 | ai-and-programming-classes-in-burton-upon-trent (btt, #8A3078) | cg- town page | 2,952 | 2% vs best-coding-and-ai-classes-in-cannock | can a model tell a town from a village? | support vector machine, soft margin C, baseline accuracy | 2de0ab41 |
+| 401 | best-coding-and-ai-classes-in-south-shields (shs, #5C5C17) | cg- town page | 2,875 | 2.2% vs vibe-coding-and-ai-agents-classes-in-kettering | how does attention in AI decide what to look at? | attention, queries keys values, hard vs soft attention | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
