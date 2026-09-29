@@ -1300,3 +1300,4 @@
 .cg-root.cg-mfd  { --cg-accent: #6B4F25; --cg-accent-soft: rgba(107,79,37,.10); }   /* Mansfield: a warm sandstone brown (6.11:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-rdh  { --cg-accent: #324C13; --cg-accent-soft: rgba(50,76,19,.10); }   /* Redditch: a deep fern green (7.77:1 contrast), picked by colour distance from recent accents */
 .cg-root.cg-gsp  { --cg-accent: #38306B; --cg-accent-soft: rgba(56,48,107,.10); }   /* Gosport: a deep dusk indigo (9.38:1 contrast), picked by colour distance from recent accents */
+.cg-root.cg-ktg  { --cg-accent: #223E8A; --cg-accent-soft: rgba(34,62,138,.10); }   /* Kettering: a deep ink blue (7.97:1 contrast), picked by colour distance from recent accents */

@@ -30452,5 +30452,50 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-kettering": {
+    "market": "Kettering",
+    "bodyClass": "cg-ktg",
+    "pageType": "city",
+    "curriculumAuthority": "North Northamptonshire (E06000061). ONS 2021 BUAs (published): Kettering 63,150; Desborough 11,900; Burton Latimer 10,445; Rothwell (North Northamptonshire) 8,620. postcodes.io: Barton Seagrave (suburban area), Pytchley (village). OSM landmarks: Kettering Library (way 699064990), Manor House Museum (way 699064991), Newlands Shopping Centre (way 190925893).",
+    "localProject": "OSM bbox -0.734,52.396,-0.722,52.404: 640 junctions, 756 links, 101 dead ends. Cops and robbers, cop first, move or stay. Retrograde over 408,960 start pairs: cop forces capture from 5,781 (1.41%), median 13 turns, max 43; from the Library no landmark robber can be caught. Minimax Library vs Newlands (24 links), plain vs alpha-beta: 2: 11/9; 4: 119/52; 6: 1,271/239; 8: 14,381/1,023; 10: 167,653/4,217 (97.5% saved). Lesson family: minimax, alpha-beta, horizon, unwinnable goals.",
+    "requiredMentions": [
+      "63,150",
+      "Desborough",
+      "Barton Seagrave",
+      "Kettering Library",
+      "Manor House Museum",
+      "Newlands Shopping Centre",
+      "minimax",
+      "alpha-beta",
+      "cops and robbers",
+      "167,653"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "OpenStreetMap map data for central Kettering, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "OpenStreetMap API 0.6 map call used for the street graph.",
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-0.734,52.396,-0.722,52.404"
+      },
+      {
+        "claim": "postcodes.io places: Barton Seagrave and Pytchley in North Northamptonshire.",
+        "url": "https://api.postcodes.io/places?q=Barton%20Seagrave"
+      }
+    ],
+    "rejectedClaims": [
+      "Footwear or other industrial history: not read from a source; not claimed.",
+      "Opening hours or services of the named venues: not read; not claimed.",
+      "That the street graph is a complete or safe walking network: not assessed; it is the mapped links inside one rectangle.",
+      "North Northamptonshire unitary total: shared with other towns; not used here.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
