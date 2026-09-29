@@ -30844,5 +30844,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-margate": {
+    "market": "Margate",
+    "bodyClass": "cg-mgt",
+    "pageType": "city",
+    "curriculumAuthority": "Thanet (E07000114), Census 2021 TS001 usual residents 140,587. ONS 2021 BUAs (published): Margate 63,320; Ramsgate 42,030; Broadstairs 25,775. postcodes.io (Thanet) suburban areas: Cliftonville, Garlinge, Westbrook, Northdown. Project Gutenberg 1321, T. S. Eliot, The Waste Land: line 300 begins \"On Margate Sands.\"",
+    "localProject": "Cache eviction on the word stream of The Waste Land (3,071 words, 1,168 distinct; \"the\" 205, \"and\" 107). Max hit rate 62.0%. FIFO / LRU / most frequent / optimal: k=8 11.5 / 12.3 / 20.2 / 31.1; k=32 26.1 / 29.0 / 32.9 / 48.1; k=128 42.0 / 45.9 / 48.7 / 59.5; k=256 48.9 / 51.8 / 53.9 / 62.0. Lesson family: cache eviction, LRU vs FIFO vs frequency, Belady optimal bound, workload dependence.",
+    "requiredMentions": [
+      "63,320",
+      "140,587",
+      "Ramsgate",
+      "Broadstairs",
+      "Cliftonville",
+      "Garlinge",
+      "Westbrook",
+      "Waste Land",
+      "LRU",
+      "3,071"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations and TS001 usual residents via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "Project Gutenberg, T. S. Eliot, The Waste Land (ebook 1321).",
+        "url": "https://www.gutenberg.org/ebooks/1321"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Thanet.",
+        "url": "https://api.postcodes.io/places?q=Cliftonville"
+      }
+    ],
+    "rejectedClaims": [
+      "When or where Eliot wrote the poem: not read from a source; not claimed.",
+      "Seaside, arts or resort history of Margate: not claimed.",
+      "Reproducing the poem: not done; it remains in UK copyright; three words quoted.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
