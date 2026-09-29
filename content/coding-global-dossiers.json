@@ -32114,5 +32114,45 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-st-andrews": {
+    "market": "St Andrews",
+    "bodyClass": "cg-sad",
+    "pageType": "city",
+    "curriculumAuthority": "Fife (S12000047). Scotland: Curriculum for Excellence, SQA National 5 to Advanced Higher. NRS mid-2020 settlement and locality estimates: St Andrews 18,410 (Fife page list). postcodes.io (Fife, KY16): Boarhills, Guardbridge, Strathkinness (villages); Kincaple (hamlet).",
+    "localProject": "OSM API 0.6 bbox -2.835,56.325,-2.770,56.350: walk network simplified to 3,086 junctions, 3,890 segments, 172.4 km; start = place=town node 21511530. 60 random targets; shortest median 1,270 m, 25 junctions. Explored (median): Dijkstra 1,300, BFS 1,387, DFS 1,637. Route vs shortest (median): BFS 1.27 (0/60 exact), DFS 11.43 (91.7% over 3x). Lesson family: uninformed search strategies for an exploring agent.",
+    "requiredMentions": [
+      "18,410",
+      "172.4 km",
+      "3,086",
+      "Strathkinness",
+      "Guardbridge",
+      "Boarhills",
+      "Kincaple",
+      "uninformed search",
+      "depth-first search"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap paths and streets in St Andrews, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "National Records of Scotland, population estimates for settlements and localities in Scotland, mid-2020.",
+        "url": "https://www.nrscotland.gov.uk/publications/population-estimates-for-settlements-and-localities-in-scotland-mid-2020/"
+      },
+      {
+        "claim": "postcodes.io places: villages and hamlets in Fife (KY16).",
+        "url": "https://api.postcodes.io/places?q=Strathkinness"
+      }
+    ],
+    "rejectedClaims": [
+      "University, golf or cathedral history: not read from a source; not claimed.",
+      "That any real agent product uses these strategies: described as general behaviour only.",
+      "Named destinations: the 60 targets are random junctions and are not named.",
+      "Rank of St Andrews among Fife localities: not claimed beyond its NRS figure.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
