@@ -30799,5 +30799,50 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-scunthorpe": {
+    "market": "Scunthorpe",
+    "bodyClass": "cg-scn",
+    "pageType": "city",
+    "curriculumAuthority": "North Lincolnshire (E06000013), Census 2021 TS001 usual residents 169,680. ONS 2021 BUAs (published): Scunthorpe 81,265; Brigg 5,635; Winterton 4,765. postcodes.io (North Lincolnshire): Ashby, Bottesford, Frodingham, Crosby, Old Brumby, New Brumby, Westcliff, Riddings, Yaddlethorpe (suburban areas); Burringham (village). DfT count point 16218, A18, 2024 Counted 15,374.",
+    "localProject": "DfT AADF API, North Lincolnshire, 8 calls, 1,844 rows, 2000 to 2025, 154 count points (5 never counted). Latitude/longitude text in 1,844; link length and junction names null in 436; vehicle types vs all_motor_vehicles off in 462 (1 or 2 vehicles), HGV classes vs all_hgvs off in 464; Estimated 1,078, Counted 766; \"Estimated using AADF from previous year on this link\" 1,050; 2025: 23 counted, 44 estimated. Lesson family: schema validation of tool output, types, nulls, invariants and rounding, provenance.",
+    "requiredMentions": [
+      "81,265",
+      "169,680",
+      "Brigg",
+      "Ashby",
+      "Bottesford",
+      "Frodingham",
+      "Yaddlethorpe",
+      "1,844",
+      "JSON",
+      "15,374"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 built-up area populations and TS001 usual residents via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "Department for Transport road traffic statistics API, average annual daily flow for North Lincolnshire.",
+        "url": "https://roadtraffic.dft.gov.uk/api/average-annual-daily-flow?filter[local_authority_id]=130"
+      },
+      {
+        "claim": "Department for Transport road traffic statistics site.",
+        "url": "https://roadtraffic.dft.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places in North Lincolnshire (suburban areas and village).",
+        "url": "https://api.postcodes.io/places?q=Bottesford"
+      }
+    ],
+    "rejectedClaims": [
+      "Steel industry history: not read from a source; not claimed.",
+      "Why DfT totals differ from their parts: described as consistent with separate rounding, not asserted as the cause.",
+      "Traffic trends or congestion at any road: not analysed; not claimed.",
+      "That any finding is an error by the DfT: explicitly not claimed.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

@@ -438,7 +438,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 386 | vibe-coding-and-ai-agents-classes-in-taunton (tnt, #7A1F7A) | cg- town page | 2,854 | 1.6% vs vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme | when a swarm of agents agrees, is it right? | ant colony optimisation, consensus vs correctness, premature convergence | 02906f28 |
 | 387 | online-coding-and-python-classes-in-dudley (ddy, #0B374C) | cg- town page | 2,763 | 1.8% vs online-coding-and-python-classes-in-weston-super-mare | why does some code slow to a crawl as data grows? | time complexity measured, quadratic vs linear, nested-loop vs hash join | 80fbfc69 |
 | 388 | ai-and-programming-classes-in-aylesbury (ayl, #5C5529) | cg- town page | 2,853 | 2.1% vs online-coding-and-python-classes-in-dudley | is a place inside the boundary? | point in polygon, ray casting vs winding number, vertex trap, bounding-box filter | 42d3496f |
-| 389 | best-coding-and-ai-classes-in-southport (spt, #6B256B) | cg- town page | 2,789 | 1.6% vs best-coding-and-ai-classes-in-gosport | how do AI models cut words into tokens? | byte-pair encoding, tokens vs meaning, compression, rare words | (this commit) |
+| 389 | best-coding-and-ai-classes-in-southport (spt, #6B256B) | cg- town page | 2,789 | 1.6% vs best-coding-and-ai-classes-in-gosport | how do AI models cut words into tokens? | byte-pair encoding, tokens vs meaning, compression, rare words | d1a66f86 |
+| 390 | vibe-coding-and-ai-agents-classes-in-scunthorpe (scn, #24205C) | cg- town page | 2,839 | 2.7% vs vibe-coding-and-ai-agents-classes-in-taunton | what should an agent check in tool output? | schema validation of tool output, types, nulls, rounding invariants, provenance | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
