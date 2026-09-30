@@ -778,6 +778,9 @@ const MARKETS = [
   ['vibe-coding-and-ai-agents-classes-in-washington', 'Washington, Tyne and Wear'],
   ['online-coding-and-python-classes-in-ashton-under-lyne', 'Ashton-under-Lyne, Tameside'],
   ['ai-and-programming-classes-in-horsham', 'Horsham, West Sussex'],
+  ['ai-and-programming-classes-in-andover', 'Andover, Hampshire'],
+  ['best-coding-and-ai-classes-in-yeovil', 'Yeovil, Somerset'],
+  ['online-coding-and-python-classes-in-royal-leamington-spa', 'Royal Leamington Spa, Warwickshire'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

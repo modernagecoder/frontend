@@ -35853,5 +35853,179 @@
       "That the named places are close to the town: not claimed; they are listed as recorded in the district.",
       "Named schools, term dates and sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-washington": {
+    "market": "Washington",
+    "bodyClass": "cg-wsh",
+    "pageType": "city",
+    "curriculumAuthority": "Sunderland (E08000024), Census 2021 TS001 usual residents 274,172. ONS 2021 BUA (published): Washington 51,320. English national curriculum, GCSE and A level. postcodes.io suburban areas whose closest postcode is in the Washington BUA: Blackfell, Concord, Donwell, Sulgrave, Usworth, Albany, Hertburn (NE37); Barmston, Biddick, Columbia, Fatfield, Glebe, Harraton, Lambton, Oxclose, Rickleton, Ayton, Teal Farm (NE38).",
+    "localProject": "Invented meeting-point task on the 179 ONS centroids of the Washington BUA (our sum of OA household counts 22,646, TS017). Score = household-weighted mean straight-line distance; lowest 1,550 m, median 2,077 m, highest 3,503 m. Satisficing agent, random order, 10,000 runs per target: 1,600 m (8 centres qualify) 19.9 scored, 13 m worse than the lowest; 1,700 m (25) 6.9 scored, 74 m worse; 1,800 m (44) 4.0, 129 m; 2,000 m (77) 2.3, 220 m; one random pick 557 m worse; 1,500 m target unreachable, all 179 scored. Lesson family: satisficing, aspiration level, bounded rationality.",
+    "requiredMentions": [
+      "51,320",
+      "Concord",
+      "Oxclose",
+      "Biddick",
+      "Fatfield",
+      "Barmston",
+      "Usworth",
+      "Rickleton",
+      "Satisficing",
+      "22,646"
+    ],
+    "sources": [
+      {
+        "claim": "Simon H. A. (1956), Rational choice and the structure of the environment, Psychological Review 63(2), 129 to 138.",
+        "url": "https://doi.org/10.1037/h0042769"
+      },
+      {
+        "claim": "ONS Census 2021 TS017 and TS001 via Nomis; ONS 2021 built-up area populations; ONS output area centroids and lookups (Open Geography Portal).",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for suburban areas in Sunderland (NE37 and NE38).",
+        "url": "https://api.postcodes.io/places?q=Oxclose"
+      }
+    ],
+    "rejectedClaims": [
+      "That a real meeting point or venue exists at any centre: the task is invented and the page says so.",
+      "Travel times or road distances: none used; straight lines only.",
+      "The new town history of Washington and its numbered districts: not read from a source; not claimed.",
+      "Any link with Washington in the United States: none drawn.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-andover": {
+    "market": "Andover",
+    "bodyClass": "cg-adv",
+    "pageType": "city",
+    "curriculumAuthority": "Test Valley (E07000093), Census 2021 TS001 usual residents 130,492. ONS 2021 BUAs of 6,000+ wholly inside Test Valley (published): Andover 48,480; Romsey 19,920; North Baddesley 7,000. Chandler's Ford straddles the boundary with Eastleigh and is excluded. postcodes.io (Test Valley): Andover (town); Charlton, Picket Piece, Anna Valley, Upper Clatford, Abbotts Ann, Enham Alamein, Penton Mewsey, Weyhill, Goodworth Clatford (villages); Knights Enham, East Anton (hamlets).",
+    "localProject": "OSGB 500 m grid 432000-440000 E, 142500-149500 N: 16 x 14 = 224 squares. OS Code-Point Open 2026.3.0: 1,366 postcodes with a position in the grid (SP10 959, SP11 407). OpenStreetMap roads (trunk to residential) via one Overpass query, box 51.180-51.245 N, 1.545-1.425 W: 303.0 km in the grid. 88 squares with no postcode, 42 with no road, maximum 76, mean 6.1, variance 99.6. Least-squares line: -1.36 + 5.52 x km; 55 negative predictions; MAE 3.35. Poisson regression (IRLS) on km: minimum 1.37, x1.98 per km, maximum prediction 94.7, MAE 3.94. Poisson on log(km + 0.05): exponent 1.53, empty-square prediction 0.03, MAE 2.99. 200 random 70/30 splits (seed 20260930), held-out MAE: line 3.48; Poisson km 4.49 (line ahead in 193); Poisson log km 3.16 (ahead of the line in 193). Line residual spread by third: 0.75, 2.16, 9.88. Pearson dispersion about 3.1 (overdispersed). Lesson family: Poisson regression, count data, log link, held-out testing.",
+    "requiredMentions": [
+      "48,480",
+      "130,492",
+      "Picket Piece",
+      "Anna Valley",
+      "Upper Clatford",
+      "Abbotts Ann",
+      "Enham Alamein",
+      "Penton Mewsey",
+      "Poisson regression",
+      "1,366",
+      "303.0"
+    ],
+    "sources": [
+      {
+        "claim": "OS Code-Point Open, dataset version 2026.3.0: postcode unit positions for the SP area.",
+        "url": "https://www.ordnancesurvey.co.uk/products/code-point-open"
+      },
+      {
+        "claim": "OpenStreetMap roads (ODbL) fetched through the Overpass API for a box around Andover.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: villages and hamlets in Test Valley.",
+        "url": "https://api.postcodes.io/places?q=Picket%20Piece"
+      }
+    ],
+    "rejectedClaims": [
+      "That postcodes measure households or population: not claimed; stated as a caveat.",
+      "Which named area holds the fullest square: not published; the grid is ours.",
+      "Any forecast of housing growth around Andover: not made.",
+      "Chandler's Ford as a Test Valley town: it straddles two districts; excluded.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-yeovil": {
+    "market": "Yeovil",
+    "bodyClass": "cg-yvl",
+    "pageType": "city",
+    "curriculumAuthority": "Somerset Council area (Code-Point lists Yeovil postcodes under E06000066); at Census 2021 the district was South Somerset (E07000189), TS001 usual residents 172,671. ONS 2021 BUA (published): Yeovil 50,170. English national curriculum, GCSE and A level. postcodes.io (Somerset): Preston Plucknett (suburban area, BA20), Yeovil Marsh, Mudford (villages, BA21), West Coker (village, BA22).",
+    "localProject": "OS Code-Point Open 2026.3.0: BA20 (489) and BA21 (773) postcodes, 1,262 units at 1,204 distinct points; heights from OpenTopoData eudem25m (EU-DEM 25 m). Heights 22.4 to 111.5 m, mean 65.7, variance 377.9. 724,206 pairs. Mean absolute height difference by separation: under 100 m 2.0 m (2,254 pairs); 100 to 200 m 4.4; 200 to 300 m 7.0; 400 to 500 m 11.1; 750 m to 1 km 17.3; 1 to 1.5 km 22.4; 1.5 to 2 km 26.8; 2.5 to 3 km 24.0; all pairs 22.3. Semivariance 3.5 in the first band, passes the variance between 1.3 and 1.4 km. Nearest-known-point predictor: random 20% hold-out error 2.16 m (neighbour 70 m away); leave-one-1-km-square-out 6.23 m (238 m away, 33 squares); mean guess 16.47 m. Lesson family: variogram, semivariance, range, spatial dependence, random vs block test split.",
+    "requiredMentions": [
+      "50,170",
+      "172,671",
+      "Preston Plucknett",
+      "Yeovil Marsh",
+      "Mudford",
+      "West Coker",
+      "variogram",
+      "semivariance",
+      "1,204",
+      "724,206"
+    ],
+    "sources": [
+      {
+        "claim": "OS Code-Point Open 2026.3.0, postcode unit positions for BA20 and BA21 (Open Government Licence).",
+        "url": "https://www.ordnancesurvey.co.uk/products/code-point-open"
+      },
+      {
+        "claim": "OpenTopoData public API, dataset eudem25m (EU-DEM 25 m elevation model).",
+        "url": "https://www.opentopodata.org/datasets/eudem/"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: Yeovil and the named places in Somerset.",
+        "url": "https://api.postcodes.io/places?q=Yeovil"
+      }
+    ],
+    "rejectedClaims": [
+      "Heights of named hills, streets or buildings in Yeovil: none given; only summary figures for postcode points.",
+      "That Yeovil is hillier than another town: not compared, not claimed.",
+      "Flooding, drainage or property matters: nothing of the kind is inferred from the heights.",
+      "A fitted variogram model (sill, nugget) with confidence limits: not fitted; the range is read from 100 m bands.",
+      "That the listed villages lie close to the town centre: not claimed; they are listed as recorded by postcodes.io.",
+      "Yeovilton weather data (used on the regional page) and sterling prices: not used."
+    ]
+  },
+  "online-coding-and-python-classes-in-royal-leamington-spa": {
+    "market": "Royal Leamington Spa",
+    "bodyClass": "cg-lms",
+    "pageType": "city",
+    "curriculumAuthority": "Warwick district (E07000222), Census 2021 TS001 usual residents 148,453. ONS 2021 BUA (published): Royal Leamington Spa 51,310. English national curriculum, GCSE and A level. postcodes.io suburban areas whose closest postcode is in the BUA: Lillington, Milverton (CV32), Sydenham (CV31). Whitnash and Cubbington are separate ONS built-up areas.",
+    "localProject": "Census 2021 TS044 accommodation type for the 172 output areas of the Royal Leamington Spa BUA; our sums 22,096 households: detached 2,932, semi-detached 6,348, terraced 5,156, purpose-built flats 5,602, other 2,058; 860 cells. Inside hidden, refitted from the 172 row and 5 column totals. Flat seed: 1 pass, 9,224 households in the wrong cell (41.7%), 238 cells within 10. Zone-mix seed (8 MSOAs): 2 passes, 8,569 (38.8%), 298 cells. Closest-area seed: 5 passes, 7,994 (36.2%), 416 cells; 53 wrong zeros holding 694 households never recover. Lesson family: iterative proportional fitting, margins against cells, the seed decides the inside.",
+    "requiredMentions": [
+      "51,310",
+      "148,453",
+      "Lillington",
+      "Milverton",
+      "Sydenham",
+      "Iterative proportional fitting",
+      "22,096",
+      "41.7%",
+      "36.2%",
+      "5,602"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS044 accommodation type and TS001 via Nomis; ONS 2021 built-up area populations; ONS output area lookups and centroids.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "Deming W. E. and Stephan F. F. (1940), On a least squares adjustment of a sampled frequency table when the expected marginal totals are known, Annals of Mathematical Statistics 11(4), 427 to 444.",
+        "url": "https://doi.org/10.1214/aoms/1177731829"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for suburban areas in Warwick district.",
+        "url": "https://api.postcodes.io/places?q=Lillington"
+      }
+    ],
+    "rejectedClaims": [
+      "That the fitted tables are estimates anyone should use: they are shown to be wrong against the published cells.",
+      "That table fitting always fails: the page says it works when the seed is close to the truth.",
+      "Spa history, Regency architecture and the royal prefix: not read from a source; not claimed.",
+      "That Whitnash, Cubbington or Heathcote are inside the Leamington built-up area: the ONS and the postcode check say otherwise; left out.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

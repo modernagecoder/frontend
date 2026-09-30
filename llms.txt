@@ -1218,6 +1218,9 @@ USD 100 a month small group, USD 150 a month one to one.
 - Washington, Tyne and Wear: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-washington
 - Ashton-under-Lyne, Tameside: https://learn.modernagecoders.com/online-coding-and-python-classes-in-ashton-under-lyne
 - Horsham, West Sussex: https://learn.modernagecoders.com/ai-and-programming-classes-in-horsham
+- Andover, Hampshire: https://learn.modernagecoders.com/ai-and-programming-classes-in-andover
+- Yeovil, Somerset: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-yeovil
+- Royal Leamington Spa, Warwickshire: https://learn.modernagecoders.com/online-coding-and-python-classes-in-royal-leamington-spa
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).
