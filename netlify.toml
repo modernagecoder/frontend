@@ -18247,6 +18247,30 @@
   to = "/src/pages/best-coding-and-ai-classes-in-ramsgate.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-bamber-bridge"
+  to = "/src/pages/best-coding-and-ai-classes-in-bamber-bridge.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-bamber-bridge.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-bamber-bridge.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-urmston"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-urmston.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-urmston.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-urmston.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

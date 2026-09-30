@@ -37686,5 +37686,98 @@
       "Named schools and term dates: none read or named.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-bamber-bridge": {
+    "market": "Bamber Bridge",
+    "bodyClass": "cg-bmb",
+    "pageType": "city",
+    "curriculumAuthority": "South Ribble (E07000126), Census 2021 TS001 usual residents 111,035. ONS 2021 BUA (published): Bamber Bridge 40,360, spanning South Ribble and neighbouring districts. English national curriculum, GCSE and A level. postcodes.io suburban areas whose nearest postcode is in the BUA: Walton-le-Dale, Tardy Gate (South Ribble), Clayton Brook (Chorley), all PR5.",
+    "localProject": "Environment Agency Hydrology API, 15-minute rainfall 2025 at Moor Park 576635 (5.5 km), Common Bank 570788 (8.6 km), Haighton 576578 (8.9 km), Clifton Marsh 576925 (11.0 km); 35,040 readings each; Suspect readings dropped (570, 0, 2,509, 2,940); Common Bank Unchecked kept. Episodes (wet quarter-hours, dry gaps up to 30 minutes joined): 506, 656, 541, 498; 2,201 intervals; longest 32.75 h, median 45 min. Centred interval tree depth 12: 365 queries at 08:30, 2,968 checks vs 803,365 full scan, identical answers. Gauges in an episode at 08:30: 0 on 281 days, 1 on 40, 2 on 18, 3 on 13, 4 on 13. Sort-by-start plus binary search checking only the latest start: 69 of 167 found, 98 missed. Lesson family: interval tree, stabbing queries, overlapping intervals.",
+    "requiredMentions": [
+      "40,360",
+      "111,035",
+      "Walton-le-Dale",
+      "Tardy Gate",
+      "Clayton Brook",
+      "interval tree",
+      "Haighton",
+      "Clifton Marsh",
+      "803,365",
+      "2,968"
+    ],
+    "sources": [
+      {
+        "claim": "de Berg M., Cheong O., van Kreveld M. and Overmars M. (2008), Computational Geometry: Algorithms and Applications, 3rd edition, Springer, chapter 10 (interval trees).",
+        "url": "https://doi.org/10.1007/978-3-540-77974-2"
+      },
+      {
+        "claim": "Environment Agency Hydrology API, 15-minute qualified rainfall, stations 576635, 570788, 576578, 576925, calendar 2025 (Open Government Licence).",
+        "url": "https://environment.data.gov.uk/hydrology/doc/reference"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations and OA21 to BUA22 lookup.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for Bamber Bridge and its suburbs.",
+        "url": "https://api.postcodes.io/places?q=Bamber%20Bridge"
+      }
+    ],
+    "rejectedClaims": [
+      "That the gauges measure rain in Bamber Bridge itself: all four are 5.5 to 11.0 km away, and the page gives the distances.",
+      "That the 08:30 table describes how wet the town is: it depends on our 30-minute joining rule and on suspect readings removed.",
+      "Any flood or storm history for the area: not used.",
+      "Directions of the gauges from the town: only straight-line distances are given.",
+      "Suburbs whose nearest postcode is outside the BUA (Lostock Hall not listed as a suburban area; Gregson Lane, Higher Walton, Whittle-le-Woods in other BUAs): left out.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-urmston": {
+    "market": "Urmston",
+    "bodyClass": "cg-urm",
+    "pageType": "city",
+    "curriculumAuthority": "Trafford (E08000009), Census 2021 TS001 usual residents 235,052. ONS 2021 BUA (published): Urmston 41,740. English national curriculum, GCSE and A level. postcodes.io suburban areas with nearest postcode in the Urmston BUA: Flixton, Davyhulme.",
+    "localProject": "Multi-agent path finding by prioritised planning with a reservation table (cooperative A*). One Overpass query, roads trunk to living_street, 53.433 to 53.468 N, 2.412 to 2.322 W: 1,606 ways, 204.4 km; graph 2,113 points, 2,479 links. Invented rules: 20 m per 10 s tick, one robot per junction per tick, no head-on link sharing. Solo plans clash: 20 robots 11, 40 robots 37 (29 involved), 80 robots 152. Prioritised: 0 clashes; delay 40 robots longest-first 165 ticks (max 21), shortest-first 163; 80 robots random orders 416 to 640, longest-first 457, shortest-first 493.",
+    "requiredMentions": [
+      "41,740",
+      "Flixton",
+      "Davyhulme",
+      "reservation table",
+      "cooperative A*",
+      "2,113 junctions",
+      "37 times",
+      "165 ticks",
+      "416 to 640"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap contributors, road ways via the Overpass API, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "Silver D. (2005), Cooperative pathfinding, Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment 1, 117 to 122.",
+        "url": "https://doi.org/10.1609/aiide.v1i1.18726"
+      },
+      {
+        "claim": "Erdmann M. and Lozano-Pérez T. (1987), On multiple moving objects, Algorithmica 2, 477 to 521.",
+        "url": "https://doi.org/10.1007/BF01840371"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations and output-area lookup.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for Trafford.",
+        "url": "https://api.postcodes.io/places?q=Flixton"
+      }
+    ],
+    "rejectedClaims": [
+      "That delivery robots operate in Urmston: none claimed; the robots are invented and labelled so.",
+      "Real traffic, speeds or journey times: not modelled; ticks are a simulation unit.",
+      "That longest-first is always the better order: true in two of three runs here only (shortest-first won at 40 robots); stated as a single experiment.",
+      "That prioritised planning always finds a plan: it can fail in general; none failed here, stated.",
+      "Woodsend, Lostock and Moorside as suburbs: no matching postcodes.io suburban area; left out.",
+      "Sterling prices: none."
+    ]
   }
 }
