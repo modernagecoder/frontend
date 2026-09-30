@@ -518,7 +518,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 477 | best-coding-and-ai-classes-in-ecclesall-sheffield (ecl, #3A4A5C) | cg- town page | 2,830 | 2.3% vs best-coding-and-ai-classes-in-roath-cardiff | where is the fairest meeting point, and how much better is it than the average? | geometric median, Weiszfeld, flat optimum, robustness | 9ef52a74 |
 | 478 | vibe-coding-and-ai-agents-classes-in-crookes-sheffield (cks, #7A3A2A) | cg- town page | 2,855 | 1.7% vs vibe-coding-and-ai-agents-classes-in-twickenham-london | does a walking agent need to know about hills? | Tobler hiking function, slope-aware routing, world model | 5123d3ff |
 | 479 | online-coding-and-python-classes-in-west-bridgford-nottingham (wbf, #1F5C4A) | cg- town page | 2,885 | 1.7% vs online-coding-and-python-classes-in-wigston-leicester | how does a program match the same street written two ways? | record linkage, fuzzy matching, SequenceMatcher thresholds | b4247a6f |
-| 480 | ai-and-programming-classes-in-earlsdon-coventry (eds, #2A5C7A) | cg- town page | 2,806 | 1.6% vs ai-and-programming-classes-in-barry | can a model say how unsure it is between measurements? | Gaussian process regression, kriging, inverse distance weighting | (this commit) |
+| 480 | ai-and-programming-classes-in-earlsdon-coventry (eds, #2A5C7A) | cg- town page | 2,806 | 1.6% vs ai-and-programming-classes-in-barry | can a model say how unsure it is between measurements? | Gaussian process regression, kriging, inverse distance weighting | 88e2309e |
+| 453 | best-coding-and-ai-classes-in-moseley-birmingham (msy, #2F4F4F) | cg- town page | 2,783 | 2.1% vs best-coding-and-ai-classes-in-withington-manchester | how many clusters are there, and can a score tell you? | silhouette score, choosing k, cluster validity | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
