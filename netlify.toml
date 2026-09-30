@@ -17611,6 +17611,18 @@
   to = "/src/pages/vibe-coding-and-ai-agents-classes-in-sittingbourne.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-wellingborough"
+  to = "/src/pages/best-coding-and-ai-classes-in-wellingborough.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-wellingborough.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-wellingborough.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

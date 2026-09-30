@@ -35337,5 +35337,46 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-wellingborough": {
+    "market": "Wellingborough",
+    "bodyClass": "cg-wlb",
+    "pageType": "city",
+    "curriculumAuthority": "North Northamptonshire (E06000061), Census 2021 TS001 usual residents 359,525. ONS 2021 BUA (published): Wellingborough 54,425. English national curriculum, GCSE and A level. postcodes.io (North Northamptonshire) villages: Wilby, Little Irchester (NN8), Finedon (NN9), Great Doddington, Irchester (NN29).",
+    "localProject": "OSM via Overpass (base 2026-09-30), bbox 52.283,-0.749,52.327,-0.656, 1,769 highway ways (motorway to residential, living_street, link roads). Junction graph, largest component: 2,236 nodes, 2,572 links; degree 1: 811, 2: 7, 3: 1,355, 4: 61, 5: 2. Peeling below 2 links: 8 rounds (811, 239, 90, 46, 22, 11, 3, 1), 1,223 removed; 2-core 1,013 nodes (45.3%), 1,349 links. Peeling below 3 links: 7 rounds, nothing left; 3-core empty; largest core number 2. Lesson family: k-core decomposition, core number, peeling.",
+    "requiredMentions": [
+      "54,425",
+      "2,236",
+      "2,572",
+      "1,013",
+      "Wilby",
+      "Finedon",
+      "Great Doddington",
+      "Little Irchester",
+      "k-core",
+      "core number"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap street data via the Overpass API, (C) OpenStreetMap contributors, ODbL.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: Wellingborough extent and villages in North Northamptonshire.",
+        "url": "https://api.postcodes.io/places?q=Wellingborough"
+      }
+    ],
+    "rejectedClaims": [
+      "That the 2-core is the town centre or any named district: not claimed; it is a property of the network, not a place.",
+      "That Wellingborough streets are more or less looped than another town: not compared, not claimed.",
+      "Traffic, congestion or travel times: none used.",
+      "That the villages are close to or part of the town: not claimed; they are listed as recorded in the council area.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

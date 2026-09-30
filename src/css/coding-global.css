@@ -1417,3 +1417,4 @@
 .cg-root.cg-bnb  { --cg-accent: #864313; --cg-accent-soft: rgba(134,67,19,.10); }   /* Banbury: a burnt sienna (7.4:1 contrast on white), chosen by hand as unused and distinct from the other Phase 10 accents */
 .cg-root.cg-bif  { --cg-accent: #2D5A3C; --cg-accent-soft: rgba(45,90,60,.10); }   /* Barrow-in-Furness: a deep fell green (7.96:1 contrast), chosen by hand to stand apart from recent accents */
 .cg-root.cg-sit  { --cg-accent: #5A4A2A; --cg-accent-soft: rgba(90,74,42,.10); }   /* Sittingbourne: a dark paper-bag brown (8.58:1 contrast), chosen by hand to stand apart from recent accents */
+.cg-root.cg-wlb  { --cg-accent: #8A2F55; --cg-accent-soft: rgba(138,47,85,.10); }   /* Wellingborough: a deep mulberry (8.02:1 contrast), chosen by hand to stand apart from recent accents */
