@@ -35384,7 +35384,7 @@
     "bodyClass": "cg-wlh",
     "pageType": "city",
     "curriculumAuthority": "Walsall (E08000030), Census 2021 TS001 usual residents 284,124. ONS 2021 BUAs wholly inside Walsall (published): Walsall 70,775; Bloxwich 51,875; Willenhall 49,580; Brownhills 21,240; Aldridge 15,835; Pelsall 10,455. Darlaston, Streetly, West Bromwich and Bilston straddle the boundary and are excluded. postcodes.io (Walsall): Willenhall (town); Short Heath, New Invention, Shepwell Green, Spring Bank, Bentley, Little London, Ashmore Lake, Lane Head (suburban areas).",
-    "localProject": "OpenStreetMap roads (motorway to residential, with links) via one Overpass query, box 52.570-52.622 N, 2.075-2.005 W; 350.6 km connected. Nine postcodes.io places snapped within 5 m. 36 pairs: mean straight line 1,818 m, mean shortest road route (Dijkstra) 2,219 m. Classical multidimensional scaling (double-centred squared distances, top two eigenvectors) then Procrustes alignment (rotation or reflection). Straight-line table: 1,374 m mean error unaligned, 0.0 m aligned. Road table: top two eigenvalues 93.7% of positive total, 3 negative; mean error 285 m, largest 624 m (Bentley) unscaled; fitted scale 0.833, mean 134 m, largest 316 m (Bentley). 60 random junctions (seed 20260930): mirrored before alignment, 78.0%, 24 negative, scale 0.804, mean 229 m, largest 891 m. Lesson family: multidimensional scaling (classical MDS), Procrustes alignment, non-Euclidean distances.",
+    "localProject": "OpenStreetMap roads (motorway to residential, with links) via one Overpass query, box 52.570-52.622 N, 2.075-2.005 W; 350.6 km connected. Nine postcodes.io places snapped within 5 m. 36 pairs: mean straight line 1,818 m, mean shortest road route (Dijkstra) 2,219 m. Classical multidimensional scaling (double-centred squared distances, top two eigenvectors) then Procrustes alignment (rotation or reflection). Straight-line table: 1,374 m mean error unaligned, 0.0 m aligned. Road table: top two eigenvalues 93.7% of positive total, 3 negative; mean error 285 m, largest 624 m (Bentley) unscaled; fitted scale 0.833, mean 134 m, largest 316 m (Bentley). 60 random junctions (seed 20260930): mirrored before alignment, 78.0%, 24 negative, scale 0.804, mean 229 m, largest 891 m. Mean road-to-straight ratio per place: Bentley 1.30, others 1.18 (New Invention) to 1.27 (Little London). Lesson family: multidimensional scaling (classical MDS), Procrustes alignment, non-Euclidean distances.",
     "requiredMentions": [
       "49,580",
       "Short Heath",
@@ -35412,7 +35412,7 @@
       }
     ],
     "rejectedClaims": [
-      "Why Bentley is displaced (a motorway, canal or railway in the way): not tested; only the measured error is stated.",
+      "The physical cause of Bentley's longer routes (a motorway, canal or railway in the way): not tested; only the measured detour ratio (1.30 against 1.18 to 1.27) is stated.",
       "Driving times or directions: routes ignore one-way rules and speeds; not claimed.",
       "Willenhall lock-making history: belongs to the Walsall page's source text; not used here.",
       "Sum of the listed built-up areas: not published as a total; not added.",
@@ -36203,7 +36203,7 @@
     "requiredMentions": [
       "47,860",
       "125,343",
-      "Hamp",
+      "Puriton",
       "Wembdon",
       "Chilton Trinity",
       "Durleigh",
