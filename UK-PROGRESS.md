@@ -516,7 +516,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 475 | online-coding-and-python-classes-in-malone-belfast (mal, #2F6B4F) | cg- town page | 2,781 | 2.1% vs online-coding-and-python-classes-in-wigston-leicester | how do you scatter points that look random but never crowd? | Poisson disk sampling, Bridson algorithm, blue noise | 840eec20 |
 | 476 | ai-and-programming-classes-in-ormeau-belfast (orm, #8A4A3A) | cg- town page | 2,827 | 1.9% vs best-coding-and-ai-classes-in-roath-cardiff | When an AI groups things, should the centre of a group be an average that does not exist or a real member? | k-medoids, PAM, medoid, exemplar clustering, clustering with walking distance | f432e2e3 |
 | 477 | best-coding-and-ai-classes-in-ecclesall-sheffield (ecl, #3A4A5C) | cg- town page | 2,830 | 2.3% vs best-coding-and-ai-classes-in-roath-cardiff | where is the fairest meeting point, and how much better is it than the average? | geometric median, Weiszfeld, flat optimum, robustness | 9ef52a74 |
-| 478 | vibe-coding-and-ai-agents-classes-in-crookes-sheffield (cks, #7A3A2A) | cg- town page | 2,855 | 1.7% vs vibe-coding-and-ai-agents-classes-in-twickenham-london | does a walking agent need to know about hills? | Tobler hiking function, slope-aware routing, world model | (this commit) |
+| 478 | vibe-coding-and-ai-agents-classes-in-crookes-sheffield (cks, #7A3A2A) | cg- town page | 2,855 | 1.7% vs vibe-coding-and-ai-agents-classes-in-twickenham-london | does a walking agent need to know about hills? | Tobler hiking function, slope-aware routing, world model | 5123d3ff |
+| 479 | online-coding-and-python-classes-in-west-bridgford-nottingham (wbf, #1F5C4A) | cg- town page | 2,885 | 1.7% vs online-coding-and-python-classes-in-wigston-leicester | how does a program match the same street written two ways? | record linkage, fuzzy matching, SequenceMatcher thresholds | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
