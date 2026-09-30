@@ -1422,3 +1422,5 @@
 .cg-root.cg-fks  { --cg-accent: #082C4C; --cg-accent-soft: rgba(8,44,76,.10); }   /* Folkestone: a very dark Channel navy (14.2:1 contrast), picked by hand and checked against every accent already in use */
 .cg-root.cg-kwf  { --cg-accent: #7A5240; --cg-accent-soft: rgba(122,82,64,.10); }   /* Kingswinford: a fired-clay brown (6.76:1 contrast), picked by hand and checked for distance from every accent in use */
 .cg-root.cg-xch  { --cg-accent: #2A6A96; --cg-accent-soft: rgba(42,106,150,.10); }   /* Christchurch, Dorset: a harbour blue (5.8:1 contrast on white), set by hand well apart from the accents already taken */
+.cg-root.cg-wkh  { --cg-accent: #BE185D; --cg-accent-soft: rgba(190,24,93,.10); }   /* Wokingham: a strong raspberry pink (6.04:1 on white), picked by hand; no recent page sits in this hue */
+.cg-root.cg-blx  { --cg-accent: #7A541C; --cg-accent-soft: rgba(122,84,28,.10); }   /* Bloxwich: a dark saddle ochre (6.75:1 contrast), picked by hand and checked for distance from every accent in use */

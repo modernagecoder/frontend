@@ -35551,5 +35551,91 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-wokingham": {
+    "market": "Wokingham",
+    "bodyClass": "cg-wkh",
+    "pageType": "city",
+    "curriculumAuthority": "Wokingham unitary authority (E06000041), Census 2021 TS001 usual residents 177,503. ONS 2021 BUA (published): Wokingham 50,325. English national curriculum, GCSE and A level. postcodes.io (Wokingham): Emmbrook (suburban area, RG41), Barkham, Sindlesham (villages, RG41), Finchampstead (village, RG40), Winnersh (RG41).",
+    "localProject": "OSM via Overpass (read 30 September 2026), bbox 51.371,-0.896,51.429,-0.8, 2,839 highway ways (motorway to residential, living_street, link roads). Junction graph, largest component: 3,382 junctions, 3,712 links, 271.6 km. 500 random trips of at least 2 km per closure rate, seed 2026; each link shut independently; draws that cut the destination off discarded (72, 236, 986). Agent sees links at its own junction and replans on each discovery. 2%: open map 4,904 m, hindsight 5,216 m, agent 5,776 m, ratio mean 1.083, median 1.000, 95th pct 1.482, max 2.33, 271 of 500 equal to hindsight; with one junction of lookahead 1.066, 305. 5%: 1.232, max 3.66, 142; lookahead 1.185, 176. 10%: 1.504, max 5.85, 55; lookahead 1.393, 75. Closures simulated, not real. Lesson family: Canadian traveller problem, replanning under unknown blockages, value of information.",
+    "requiredMentions": [
+      "50,325",
+      "3,382",
+      "3,712",
+      "271 of 500",
+      "5,216",
+      "Emmbrook",
+      "Barkham",
+      "Sindlesham",
+      "Finchampstead",
+      "Canadian traveller"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap road data via the Overpass API, (C) OpenStreetMap contributors, ODbL.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: Wokingham extent and the named places in the borough.",
+        "url": "https://api.postcodes.io/places?q=Wokingham"
+      }
+    ],
+    "rejectedClaims": [
+      "Real road closures, roadworks or traffic in Wokingham: none used; every closure is a random draw in our program.",
+      "That the agent is optimal or that no better strategy exists: not claimed; two simple strategies are compared.",
+      "That Wokingham streets are easier or harder to cross than another town: not compared.",
+      "That the named villages are close to the town centre: not claimed; they are listed as recorded in the borough.",
+      "Named schools, term dates or exam results: none.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-bloxwich": {
+    "market": "Bloxwich",
+    "bodyClass": "cg-blx",
+    "pageType": "city",
+    "curriculumAuthority": "Walsall (E08000030), Census 2021 TS001 usual residents 284,124. ONS 2021 BUA (published): Bloxwich 51,875. English national curriculum, GCSE and A level. postcodes.io suburban areas whose closest postcode is in the Bloxwich BUA: Leamore (WS2), Blakenall Heath, Little Bloxwich, Wallington Heath, Harden, Coal Pool (WS3).",
+    "localProject": "One Overpass query, public road ways (residential to motorway, no service roads or paths) in the rectangle around the Bloxwich BUA centroids: 1,308 ways. Bends merged away; sample = 1,676 ends and junctions inside the box whose neighbours are all inside. 527 ends (31.4%), 1,087 three-way, 62 four-way. Mean roads per point 2.41; mean of neighbours' averages 2.85; 671 below (40.0%), 626 equal, 379 above (22.6%). Random point is an end 31.4%; one random road step from a random point lands on an end 10.3%. Lesson family: friendship paradox, sampling by following links.",
+    "requiredMentions": [
+      "Leamore",
+      "Blakenall Heath",
+      "Little Bloxwich",
+      "Wallington Heath",
+      "Coal Pool",
+      "friendship paradox",
+      "1,676",
+      "1,087",
+      "2.85",
+      "10.3%"
+    ],
+    "sources": [
+      {
+        "claim": "Feld S. L. (1991), Why your friends have more friends than you do, American Journal of Sociology 96(6), 1464 to 1477.",
+        "url": "https://doi.org/10.1086/229693"
+      },
+      {
+        "claim": "OpenStreetMap contributors, highway ways via the Overpass API, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations and output area centroids.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for suburban areas in Walsall.",
+        "url": "https://api.postcodes.io/places?q=Blakenall%20Heath"
+      }
+    ],
+    "rejectedClaims": [
+      "That the sample is the road network of Bloxwich exactly: it is a rectangle around the town, and the page says so.",
+      "That a mapped road end is a true dead end on the ground: drives and paths were excluded, and the page says so.",
+      "That Goscote and Birchills are in the Bloxwich built-up area: the nearest-postcode check did not confirm it; left out.",
+      "Any statement about traffic, safety or journey times: none made.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

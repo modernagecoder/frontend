@@ -504,7 +504,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 452 | ai-and-programming-classes-in-harborne-birmingham (hbn, #7A1F2E) | cg- town page | 2,764 | 1.5% vs ai-and-programming-classes-in-roundhay-leeds | when an algorithm finds groups, how many are real? | Gaussian mixture model, expectation-maximisation, BIC | e7197e46 |
 | 454 | vibe-coding-and-ai-agents-classes-in-kings-heath-birmingham (khh, #9A3412) | cg- town page | 2,874 | 1.5% vs vibe-coding-and-ai-agents-classes-in-sittingbourne | how does a program with a tiny memory find the most common items in a stream? | Misra-Gries heavy hitters, Count-Min sketch, streaming algorithms | 114b7bf3 |
 | 461 | best-coding-and-ai-classes-in-horsforth-leeds (hfh, #115E59) | cg- town page | 2,623 | 2.3% vs online-coding-and-python-classes-in-paisley | how do you measure fair access to a playground? | two-step floating catchment, 2SFCA, threshold sensitivity | 34210a48 |
-| 462 | vibe-coding-and-ai-agents-classes-in-oadby-leicester (oby, #9F1239) | cg- town page | 2,729 | 1.7% vs online-coding-and-python-classes-in-wigston-leicester | how do agents share out jobs with nobody in charge? | contract net protocol, task auction, gap to optimal assignment | (this commit) |
+| 462 | vibe-coding-and-ai-agents-classes-in-oadby-leicester (oby, #9F1239) | cg- town page | 2,729 | 1.7% vs online-coding-and-python-classes-in-wigston-leicester | how do agents share out jobs with nobody in charge? | contract net protocol, task auction, gap to optimal assignment | 7965b865 |
+| 463 | online-coding-and-python-classes-in-wigston-leicester (wgs, #854D0E) | cg- town page | 2,669 | 2.4% vs ai-and-programming-classes-in-edgware-london | how few points can still draw a boundary? | Visvalingam-Whyatt, line simplification, effective area heap | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -17671,6 +17671,30 @@
   to = "/src/pages/best-coding-and-ai-classes-in-christchurch.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-wokingham"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-wokingham.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-wokingham.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-wokingham.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-bloxwich"
+  to = "/src/pages/ai-and-programming-classes-in-bloxwich.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-bloxwich.md"
+  to = "/src/pages/ai-and-programming-classes-in-bloxwich.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
