@@ -1427,3 +1427,6 @@
 .cg-root.cg-kgh  { --cg-accent: #830752; --cg-accent-soft: rgba(131,7,82,.10); }   /* Keighley: a dark magenta plum (9.9:1 contrast on white), chosen by hand and kept clear of the accents in use */
 .cg-root.cg-wgc  { --cg-accent: #0B6E0B; --cg-accent-soft: rgba(11,110,11,.10); }   /* Welwyn Garden City: a clear leaf green (6.46:1 contrast), picked by hand and checked for distance from every accent in use */
 .cg-root.cg-csb  { --cg-accent: #475569; --cg-accent-soft: rgba(71,85,105,.10); }   /* Crosby: a cool slate grey-blue (7.58:1 on white), chosen by hand as a neutral no recent page has used */
+.cg-root.cg-aul  { --cg-accent: #990921; --cg-accent-soft: rgba(153,9,33,.10); }   /* Ashton-under-Lyne: a strong crimson (8.7:1 contrast on white), hand-picked with clear distance from existing accents */
+.cg-root.cg-wsh  { --cg-accent: #5C0909; --cg-accent-soft: rgba(92,9,9,.10); }   /* Washington: a deep oxblood (14.0:1 contrast), picked by hand and checked for distance from every accent in use */
+.cg-root.cg-hsm  { --cg-accent: #4F5B12; --cg-accent-soft: rgba(79,91,18,.10); }   /* Horsham: a dark olive green (7.40:1 on white), hand-picked and kept away from the blue-greens of recent pages */

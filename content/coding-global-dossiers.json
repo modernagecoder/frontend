@@ -35765,5 +35765,93 @@
       "That the listed places are districts of Crosby or close to it: not claimed; they are listed as recorded in Sefton.",
       "Named schools, term dates and sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-ashton-under-lyne": {
+    "market": "Ashton-under-Lyne",
+    "bodyClass": "cg-aul",
+    "pageType": "city",
+    "curriculumAuthority": "Tameside (E08000008), Census 2021 TS001 usual residents 231,071. ONS 2021 BUAs wholly inside Tameside (published): Ashton-under-Lyne 48,600; Hyde 35,895; Stalybridge 26,830; Droylsden 23,915; Dukinfield 21,155. Denton and Hadfield straddle the boundary and are excluded. postcodes.io (Tameside): Ashton-under-Lyne (town); Hurst, Hurst Knoll, Waterloo, Smallshaw, Limehurst, Hazelhurst, Cockbrook, Crowhill, Guide Bridge (suburban areas); Park Bridge (village). postcodes.io outcodes: OL6 wards include Ashton Hurst, Ashton St Michael's, Ashton Waterloo (the district also reaches into Oldham); OL7 lies in Tameside.",
+    "localProject": "OS Code-Point Open 2026.3.0. 1,319 postcodes in OL6 (898) and OL7 (421). Valid set for lookups: OL plus AL, BL, DL, GL, LL, ML, PL, SL, OX (145,933). Single-character replacements (35 alternatives per position): 276,990 tried, 41,866 (15.1%) real; last character 43.1%, second-last 29.0%. Adjacent swaps: 6,309 tried, 983 (15.6%) real (OL6 6AD / OL6 6DA). 8-bit sum of character codes: 0 replacements missed, 6,309 swaps missed. CRC-8 poly 0x07: 0 and 0. CRC-16-CCITT: 0 and 0. Pairs of distinct postcodes sharing a check, of 869,221: sum 22,503 (55 distinct sums), CRC-8 3,855 (233 values), CRC-16 0. Own CRC-32 equals zlib.crc32 on all 1,319. Test string 123456789: CRC-8 0xF4, CRC-16 0x29B1. Lesson family: cyclic redundancy check (CRC), error detection, bit operations in Python.",
+    "requiredMentions": [
+      "231,071",
+      "Smallshaw",
+      "Limehurst",
+      "Hazelhurst",
+      "Cockbrook",
+      "Guide Bridge",
+      "Hurst Knoll",
+      "cyclic redundancy check",
+      "41,866",
+      "1,319",
+      "CRC-8"
+    ],
+    "sources": [
+      {
+        "claim": "OS Code-Point Open, dataset version 2026.3.0: postcode units for the OL and neighbouring-letter areas.",
+        "url": "https://www.ordnancesurvey.co.uk/products/code-point-open"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places in Tameside and the ward lists for outcodes OL6 and OL7.",
+        "url": "https://api.postcodes.io/outcodes/OL6"
+      },
+      {
+        "claim": "Python standard library zlib.crc32, used as the reference for our CRC-32.",
+        "url": "https://docs.python.org/3/library/zlib.html#zlib.crc32"
+      }
+    ],
+    "rejectedClaims": [
+      "That OL6 and OL7 cover exactly Ashton-under-Lyne: not claimed; OL6 also reaches into Oldham borough.",
+      "Real misdelivery rates or Royal Mail error statistics: not read; the slips are simulated.",
+      "That a CRC makes data secure: explicitly denied on the page.",
+      "Ashton market, canals or history: not read from a source; not claimed.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-horsham": {
+    "market": "Horsham",
+    "bodyClass": "cg-hsm",
+    "pageType": "city",
+    "curriculumAuthority": "Horsham district (E07000227), West Sussex, Census 2021 TS001 usual residents 146,778. ONS 2021 BUA (published): Horsham 50,215. English national curriculum, GCSE and A level. postcodes.io (Horsham, West Sussex): Roffey (suburban area, RH12), Broadbridge Heath, Warnham (villages, RH12), Mannings Heath (village, RH13).",
+    "localProject": "Census 2021 TS007 age by single year, Horsham district (Nomis NM_2027_1): table total 146,776; ages 0 to 99 used (100 values), 100 and over (49) left out. Peak 2,368 at age 55; 980 at age 19; 1,955 at 74, 1,437 at 75. Raw storage 100 x 12 = 1,200 bits. Least-squares polynomial of degree k; two-part code: 3.32 bits per coefficient plus 50 log2(2 pi e RSS/100) bits of corrections. Degree 0: rmse 581.4, 1,126.4 bits; 2: 286.1, 1,030.7; 6: 148.3, 949.2; 12: 137.7, 958.5; 20: 78.8, 904.5 (minimum over 0 to 40); 30: 67.9, 916.3; 40: 55.0, 919.0. Even-age fit, odd-age test: degree 20 99.0 (lowest), degree 30 32,689.1. Degree 20 misses age 19 by 295 (980 vs 1,275). District data, not the town. Lesson family: minimum description length, Occam's razor as code length, model selection.",
+    "requiredMentions": [
+      "146,778",
+      "146,776",
+      "Roffey",
+      "Broadbridge Heath",
+      "Warnham",
+      "Mannings Heath",
+      "minimum description length",
+      "904.5",
+      "1,200 bits",
+      "2,368"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS007 age by single year and TS001 usual residents, via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "Nomis dataset NM_2027_1 (TS007 Age by single year), Horsham local authority district.",
+        "url": "https://www.nomisweb.co.uk/datasets/c2021ts007"
+      },
+      {
+        "claim": "postcodes.io places: Horsham and the named places in Horsham district.",
+        "url": "https://api.postcodes.io/places?q=Horsham"
+      }
+    ],
+    "rejectedClaims": [
+      "Why the age profile has its dips and steps (universities, birth rates, history): no cause is claimed; only the counts are described.",
+      "That degree 20 is the right model of the age profile: not claimed; it gives the shortest message among polynomials under one pricing scheme.",
+      "The sum of our 100 age counts as a population figure: not printed; only the ONS table totals are given.",
+      "That the age profile describes the town of Horsham: not claimed; the data is for the district.",
+      "That the named places are close to the town: not claimed; they are listed as recorded in the district.",
+      "Named schools, term dates and sterling prices: none."
+    ]
   }
 }

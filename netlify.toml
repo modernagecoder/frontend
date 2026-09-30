@@ -17731,6 +17731,42 @@
   to = "/src/pages/online-coding-and-python-classes-in-crosby.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-washington"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-washington.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-washington.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-washington.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-ashton-under-lyne"
+  to = "/src/pages/online-coding-and-python-classes-in-ashton-under-lyne.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-ashton-under-lyne.md"
+  to = "/src/pages/online-coding-and-python-classes-in-ashton-under-lyne.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-horsham"
+  to = "/src/pages/ai-and-programming-classes-in-horsham.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-horsham.md"
+  to = "/src/pages/ai-and-programming-classes-in-horsham.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

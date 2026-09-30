@@ -506,7 +506,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 461 | best-coding-and-ai-classes-in-horsforth-leeds (hfh, #115E59) | cg- town page | 2,623 | 2.3% vs online-coding-and-python-classes-in-paisley | how do you measure fair access to a playground? | two-step floating catchment, 2SFCA, threshold sensitivity | 34210a48 |
 | 462 | vibe-coding-and-ai-agents-classes-in-oadby-leicester (oby, #9F1239) | cg- town page | 2,729 | 1.7% vs online-coding-and-python-classes-in-wigston-leicester | how do agents share out jobs with nobody in charge? | contract net protocol, task auction, gap to optimal assignment | 7965b865 |
 | 463 | online-coding-and-python-classes-in-wigston-leicester (wgs, #854D0E) | cg- town page | 2,669 | 2.4% vs ai-and-programming-classes-in-edgware-london | how few points can still draw a boundary? | Visvalingam-Whyatt, line simplification, effective area heap | 35c11f64 |
-| 464 | ai-and-programming-classes-in-evington-leicester (evn, #0B5C73) | cg- town page | 2,798 | 1.4% vs ai-and-programming-classes-in-barry | how can a program find the odd ones out with no labels? | isolation forest, unsupervised anomaly detection, seed stability | (this commit) |
+| 464 | ai-and-programming-classes-in-evington-leicester (evn, #0B5C73) | cg- town page | 2,798 | 1.4% vs ai-and-programming-classes-in-barry | how can a program find the odd ones out with no labels? | isolation forest, unsupervised anomaly detection, seed stability | d5b0224c |
+| 465 | best-coding-and-ai-classes-in-clifton-bristol (clf, #3F6212) | cg- town page | 2,786 | 1.4% vs ai-and-programming-classes-in-roundhay-leeds | can you find where you are from height alone? | particle filter, Monte Carlo localisation, dead reckoning drift | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
