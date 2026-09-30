@@ -1453,3 +1453,6 @@
 .cg-root.cg-mdl  { --cg-accent: #7A5D31; --cg-accent-soft: rgba(122,93,49,.10); }   /* Middleton: a dark ochre (6.11:1 contrast), picked by hand and checked for distance from every accent in use and from the other Greater Manchester pages */
 .cg-root.cg-bos  { --cg-accent: #C3008D; --cg-accent-soft: rgba(195,0,141,.10); }   /* Boston: a deep magenta (5.67:1 contrast on white), picked by hand at least 31 RGB units from every accent already in use */
 .cg-root.cg-bxh  { --cg-accent: #00545D; --cg-accent-soft: rgba(0,84,93,.10); }   /* Bexhill-on-Sea: a deep sea teal (8.66:1 contrast on white, 7.02:1 on the darkest paper tint), chosen by hand at least 20 RGB steps from every accent in use */
+.cg-root.cg-odb  { --cg-accent: #CF0033; --cg-accent-soft: rgba(207,0,51,.10); }   /* Oldbury: a bright crimson (5.67:1 contrast on white), chosen by hand at least 31 RGB units from each accent already in use */
+.cg-root.cg-trw  { --cg-accent: #365A00; --cg-accent-soft: rgba(54,90,0,.10); }   /* Trowbridge: a water-meadow green (8.02:1 contrast on white, 6.51:1 on the darkest paper tint), chosen by hand at least 20 RGB steps from every accent in use */
+.cg-root.cg-blt  { --cg-accent: #3060CF; --cg-accent-soft: rgba(48,96,207,.10); }   /* Bletchley: a cornflower blue (5.68:1 contrast on white), chosen by hand at least 31 RGB units from every accent already in use */

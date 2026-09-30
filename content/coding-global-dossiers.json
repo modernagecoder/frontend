@@ -36913,5 +36913,146 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-oldbury": {
+    "market": "Oldbury",
+    "bodyClass": "cg-odb",
+    "pageType": "city",
+    "curriculumAuthority": "Sandwell (E08000028), Census 2021 TS001 usual residents 341,832. ONS 2021 BUA Oldbury (Sandwell) 45,180. postcodes.io suburban areas whose nearest postcode lies in the Oldbury BUA: Langley, Langley Green, Brandhall, Causeway Green, Titford, Rood End, Rounds Green (Tividale, Brades Village, Portway and Whiteheath Gate resolve to Rowley Regis; Warley Woods and Londonderry to Smethwick: not claimed). England national curriculum.",
+    "localProject": "Overpass: named highway ways in the Sandwell admin_level 8 area, 10,341 ways (base 2026-09-30T18:14Z). OS Code-Point Open 2026.3.0: 6,906 Sandwell postcodes (PQ<90); per district DY4 935, B70 834, B69 729, B71 687, B68 588, B66 563, WS10 546, B67 523, B65 506, B64 469, B43 373, WS5 126. 9,485 road ways kept; district of nearest postcode to way centre (median 36.5 m); same-name ways chained within 400 m -> 3,815 streets from 3,450 names; 263 names on 2+ streets (628 streets); 234 names spanning 2+ districts (High Street 8 streets in B64, B65, B66, B68, B70, DY4). 20 runs x 20,000 uniform random street questions. Cache key -> hit rate, wrong share of all answers: exact name 82.8%, 7.90% (7.66-8.29); name minus road type 86.7%, 23.39%; first word 88.9%, 31.15%; name + ward 81.2%, 0.11% (0.07-0.17). Lesson family: semantic caching for agents, cache key design.",
+    "requiredMentions": [
+      "45,180",
+      "Langley Green",
+      "Brandhall",
+      "Causeway Green",
+      "Titford",
+      "Rounds Green",
+      "semantic cache",
+      "cache key",
+      "3,815",
+      "7.90%",
+      "0.11%"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap highway names (ODbL) fetched through the Overpass API for the Sandwell boundary.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "OS Code-Point Open, dataset version 2026.3.0: postcode positions, districts and wards.",
+        "url": "https://www.ordnancesurvey.co.uk/products/code-point-open"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest postcodes for Sandwell.",
+        "url": "https://api.postcodes.io/places?q=Brandhall"
+      }
+    ],
+    "rejectedClaims": [
+      "Which AI products use semantic caching: none named.",
+      "That the 400 m rule finds true separate streets: stated as a simplification.",
+      "Tividale and Brades Village as parts of Oldbury: their nearest postcodes resolve to Rowley Regis; not claimed.",
+      "That Newport is ambiguous is general knowledge used as an illustration; no data claim made.",
+      "Sum of census figures: none added.",
+      "Named schools and term dates: none named.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-trowbridge": {
+    "market": "Trowbridge",
+    "bodyClass": "cg-trw",
+    "pageType": "city",
+    "curriculumAuthority": "Wiltshire (E06000054), Census 2021 TS001 usual residents 510,333 (printed on the page; already a requiredMention elsewhere). ONS 2021 BUA Trowbridge 43,750 (published). postcodes.io: suburban areas with nearest postcode in the Trowbridge BUA: Hilperton, Hilperton Marsh, Paxcroft Mead, Studley Green, Trowle Common, Longfield, Lower Studley, Upper Studley. Villages whose nearest postcode is outside it: Staverton (none), North Bradley (North Bradley BUA), Southwick (Southwick BUA), Semington (Semington BUA), Holt (Holt BUA).",
+    "localProject": "OpenStreetMap via one Overpass query: waterway=river|stream in 51.22 to 51.37 N, 2.32 to 2.10 W, 350 ways, directed downstream by mapping convention. Outlet: last River Biss node before the River Avon confluence, 51.33675 N 2.21554 W. Upstream network 1,931 nodes, 34.3 km. One bifurcation: split at 51.33071 N 2.21149 W, side channel about 62 m rejoining at 51.33108 N 2.21074 W. Naive recursive Strahler order at outlet 4; with the side channel merged into the main channel, 3. Corrected: 1,929 nodes, 34.2 km; 16 sources; streams by order 16 / 5 / 1; bifurcation ratios 3.2 and 5.0; length by order 12.0 / 10.9 / 11.3 km; longest source-to-outlet channel 16.0 km. Order 3 begins at 51.2798 N 2.1865 W (Bitham Brook as named in OSM meets an unnamed order-2 stream); Biss Brook (order 2) joins at 51.2907 N 2.2014 W; Lambrok Stream (order 2) joins at 51.3216 N 2.2204 W. Ershov numbers: a*b + c = 2, (a+b)*(c+d) = 3, (a+b)*(c+d) + (e+f)*(g+h) = 4. Lesson family: Strahler stream order by recursion; tree vs graph; Ershov number and register allocation.",
+    "requiredMentions": [
+      "43,750",
+      "Hilperton",
+      "Paxcroft Mead",
+      "Studley Green",
+      "Trowle Common",
+      "Strahler",
+      "Ershov",
+      "River Biss",
+      "Lambrok Stream",
+      "Bitham Brook",
+      "34.3 km"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap contributors: rivers and streams around Trowbridge, via the Overpass API, under the Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "Strahler A. N. (1957), Quantitative analysis of watershed geomorphology, Transactions American Geophysical Union 38(6), 913 to 920.",
+        "url": "https://doi.org/10.1029/TR038i006p00913"
+      },
+      {
+        "claim": "Flajolet P., Raoult J.-C. and Vuillemin J. (1979), The number of registers required for evaluating arithmetic expressions, Theoretical Computer Science 9(1), 99 to 125.",
+        "url": "https://doi.org/10.1016/0304-3975(79)90009-4"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents and 2021 built-up area populations; postcodes.io places and nearest postcodes.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      }
+    ],
+    "rejectedClaims": [
+      "Why the River Biss splits at that point (mill, weir or park channel): not read from a source; only the mapped split is reported.",
+      "That Trowbridge is the county town of Wiltshire: not claimed on this page.",
+      "That the counts describe every stream on the ground: rejected; they describe mapped rivers and streams only.",
+      "Wool or cloth history of Trowbridge: not read from a source; not claimed.",
+      "Rank of Trowbridge among Wiltshire towns: not claimed.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-bletchley": {
+    "market": "Bletchley",
+    "bodyClass": "cg-blt",
+    "pageType": "city",
+    "curriculumAuthority": "Milton Keynes (E06000042), Census 2021 TS001 usual residents 287,060. ONS 2021 BUAs (published): Milton Keynes 197,340; Bletchley 45,010 (straddles: our OA sum inside the borough 44,119); Newport Pagnell 15,250; Olney 6,600. postcodes.io suburban areas whose nearest postcode lies in the Bletchley BUA: Fenny Stratford, Far Bletchley, Water Eaton, Newton Leys, Eaton Leys; Bow Brickhill is a village with its own BUA. England national curriculum.",
+    "localProject": "Nomis Census 2021 TS006, TS017, TS044, TS007A for 874 Milton Keynes OAs; ONS OA21-BUA22 lookup: 129 in Bletchley BUA. Seven boolean columns as Python ints (one bit per OA): Bletchley 129; density >=5,000/km2 355; one-person households >=35% 148; flats >=25% 225; 65+ >=20% 234; detached >=40% 250; under 15 >=20% 418. Queries (identical answers three ways; fastest of five repeats, Python 3.13.6): Bletchley & flats & solo 10 OAs, int 0.25 us, NumPy 5.31 us, loop 53.0 us; Bletchley & kids & not detached 61, 0.29/5.61/58.1; (dense | flats) & not Bletchley & older 56, 0.37/6.85/109.8; loop/bitmap 197-299x. Column size: int 136 bytes, list 7,832 bytes, NumPy 874 bytes. NOT via mask ^ x (Python ~x = -x-1). Lesson family: bitmap index, Python ints as bitsets, bit_count.",
+    "requiredMentions": [
+      "45,010",
+      "197,340",
+      "Fenny Stratford",
+      "Far Bletchley",
+      "Water Eaton",
+      "Newton Leys",
+      "Eaton Leys",
+      "bitmap index",
+      "bit_count",
+      "44,119",
+      "7,832"
+    ],
+    "sources": [
+      {
+        "claim": "Census 2021 tables TS006, TS017, TS044 and TS007A for Milton Keynes output areas, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS output area (2021) to built-up area (2022) lookup and 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places and nearest postcodes for Milton Keynes.",
+        "url": "https://api.postcodes.io/places?q=Fenny%20Stratford"
+      },
+      {
+        "claim": "Python documentation, int.bit_count() (added in Python 3.10) and bitwise operations on integers.",
+        "url": "https://docs.python.org/3/library/stdtypes.html#int.bit_count"
+      }
+    ],
+    "rejectedClaims": [
+      "Bletchley Park history: not used on this page (covered elsewhere on the site).",
+      "Which neighbourhood any output area is: not named.",
+      "That the timings hold on other machines: stated as machine-dependent.",
+      "Denbigh, Mount Farm, Old Bletchley, Lakes Estate and Granby as suburbs: not found in postcodes.io; not listed.",
+      "Sum of the listed built-up areas: not added (our OA sum of 44,119 is labelled as ours).",
+      "Named schools and term dates: none named.",
+      "Sterling prices: none."
+    ]
   }
 }

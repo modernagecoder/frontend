@@ -18043,6 +18043,42 @@
   to = "/src/pages/online-coding-and-python-classes-in-bexhill-on-sea.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-oldbury"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-oldbury.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-oldbury.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-oldbury.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-trowbridge"
+  to = "/src/pages/ai-and-programming-classes-in-trowbridge.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-trowbridge.md"
+  to = "/src/pages/ai-and-programming-classes-in-trowbridge.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-bletchley"
+  to = "/src/pages/online-coding-and-python-classes-in-bletchley.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-bletchley.md"
+  to = "/src/pages/online-coding-and-python-classes-in-bletchley.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
