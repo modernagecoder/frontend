@@ -37191,5 +37191,52 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-braintree": {
+    "market": "Braintree",
+    "bodyClass": "cg-btr",
+    "pageType": "city",
+    "curriculumAuthority": "Braintree district (E07000067), Census 2021 TS001 usual residents 155,268. ONS 2021 BUAs (published): Braintree 43,190; Witham 27,395; Great Notley 7,660. postcodes.io: Bocking (CM7) and Bocking Churchstreet (CM7), suburban areas with nearest postcode in the Braintree BUA; Great Notley (own BUA); Rayne, Black Notley, High Garrett, Panfield (villages).",
+    "localProject": "Census 2021 TS001 via Nomis: MSOAs Braintree 007 to 013 (E02004452 to E02004458), published 9,340; 7,451; 9,441; 7,948; 9,832; 10,611; 9,536. Their 196 OAs (ONS OA21_LAD22_LSOA21_MSOA21 lookup), 135 in the Braintree BUA; OA residents 132 to 608, median 321.5. Boundaries: ONS Output Areas 2021 BFC V8 in EPSG:27700; areas 1.0 to 1,094.2 ha. OS Code-Point Open 2026.3.0 (CM, CO): 1,589 postcode points in the 196 OAs; correlation with OA population 0.37. Each published MSOA total spread over its OAs. Mean absolute error per OA, all 196 / town 135: equal 60.2 / 56.2; postcodes 152.4 / 146.8; area 307.5 / 213.5. Within 20%: equal 119 / 85; postcodes 55 / 35; area 28 / 22. Worst by area E00108436 (539.5 ha, 291 residents, estimate 5,257); worst by postcodes E00173988 (659.4 ha, 47 postcodes, 451 residents, estimate 1,821). OA counts inside each MSOA do not sum exactly to its published total (disclosure control and rounding); the published MSOA totals were spread, not OA sums. OSM buildings dropped: 3,906 mapped in 51.85 to 51.92 N, 0.50 to 0.61 E. Lesson family: dasymetric mapping (areal weighting vs ancillary data vs equal-share baseline; zone design).",
+    "requiredMentions": [
+      "155,268",
+      "43,190",
+      "27,395",
+      "Bocking Churchstreet",
+      "Black Notley",
+      "High Garrett",
+      "dasymetric",
+      "1,589",
+      "307.5",
+      "5,257",
+      "1,094.2"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for output areas and middle layer super output areas, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS Open Geography Portal: Output Areas 2021 boundaries (BFC) and the OA21 to LSOA21 to MSOA21 lookup.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "Ordnance Survey Code-Point Open, release 2026.3.0: postcode unit points.",
+        "url": "https://www.ordnancesurvey.co.uk/products/code-point-open"
+      },
+      {
+        "claim": "postcodes.io places: Bocking, Bocking Churchstreet and nearby villages, with the built-up area of the nearest postcode.",
+        "url": "https://api.postcodes.io/places?q=Bocking"
+      }
+    ],
+    "rejectedClaims": [
+      "That the 47-postcode output area is mostly business premises: not verified; stated only as a likely reason.",
+      "Exact ONS minimum and maximum output area sizes: not quoted; only that OAs are designed within set limits.",
+      "That dasymetric mapping never beats an equal split: rejected; the equal split wins here because output areas are designed to be similar.",
+      "Silk, textile or market-town history of Braintree: not read from a source; not claimed.",
+      "Rank of Braintree among district towns: not claimed.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
