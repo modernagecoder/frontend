@@ -37464,5 +37464,50 @@
       "Titchfield and Stubbington as Fareham suburbs: their nearest postcodes are in other BUAs; left out.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-neath": {
+    "market": "Neath",
+    "bodyClass": "cg-ntb",
+    "pageType": "city",
+    "curriculumAuthority": "Neath Port Talbot (W06000012), Census 2021 TS001 usual residents 142,289. ONS 2021 BUA (published): Neath 40,730. Curriculum for Wales, WJEC GCSE and A level. postcodes.io: Neath (Castell-nedd, Town); suburban areas whose nearest postcode is in the Neath BUA: Cimla, Llantwit, Skewen (Sgiwen), Penrhiwtyn, Neath Abbey, Bryn-coch. Briton Ferry falls in the Baglan BUA.",
+    "localProject": "OpenStreetMap, one Overpass query, named highways 51.635 to 51.70 N, 3.87 to 3.74 W: 1,197 ways, 678 names; 413 ways with name:cy, 240 distinct Welsh names; Heol 70, Stryd 47, Clos 25, Rhodfa 10; 3 with accents. Reference order CLDR Welsh collation (digraph letters after their first letter; case and accents ignored at primary level). Python sorted(): 67 of 240 out of position, 79 pairs reversed; casefold plus accent stripping: 39 and 42; Welsh key: 0. Five names contain n g (Bryngwyn, Heol Llangatwg, Heol Longford, Stryd Whittington, Teras Rockingham), none the Welsh letter ng; ng as one letter vs n plus g changes 0 positions. Lesson family: collation, custom sort keys, digraph tokenising.",
+    "requiredMentions": [
+      "40,730",
+      "142,289",
+      "Cimla",
+      "Skewen",
+      "Penrhiwtyn",
+      "Neath Abbey",
+      "Bryn-coch",
+      "Castell-nedd",
+      "Lon Fedwen",
+      "Bryngwyn"
+    ],
+    "sources": [
+      {
+        "claim": "Unicode CLDR, Welsh (cy) collation tailoring: ch, dd, ff, ng, ll, ph, rh, th as letters after c, d, f, g, l, p, r, t.",
+        "url": "https://github.com/unicode-org/cldr/blob/main/common/collation/cy.xml"
+      },
+      {
+        "claim": "OpenStreetMap highway names and name:cy tags around Neath, via the Overpass API, 30 September 2026 (Open Database Licence).",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "Python documentation, sorting HOW TO and key functions.",
+        "url": "https://docs.python.org/3/howto/sorting.html"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations; postcodes.io places with Welsh names.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      }
+    ],
+    "rejectedClaims": [
+      "That every Neath street has a Welsh name recorded: only 413 of 1,197 mapped sections carry one.",
+      "That the CLDR order is the only correct Welsh order: presented as the published computing standard; dictionaries treat compounds such as Bryngwyn by meaning, as the page explains.",
+      "That any AI model mishandles Welsh in a specific way: stated as a reason to test, not a measured claim.",
+      "Language statistics for Neath residents: none used.",
+      "Suburbs outside the Neath BUA (Briton Ferry in Baglan; Aberdulais, Tonna, Llandarcy outside): left out.",
+      "Sterling prices: none."
+    ]
   }
 }

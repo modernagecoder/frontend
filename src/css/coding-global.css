@@ -1465,3 +1465,4 @@
 .cg-root.cg-lsa  { --cg-accent: #39579E; --cg-accent-soft: rgba(57,87,158,.10); }   /* Lytham St Annes: a muted estuary blue (6.93:1 on white, 5.62:1 on the ledger beige), chosen by hand at least 40 RGB steps from every Lancashire and North West page */
 .cg-root.cg-bse  { --cg-accent: #5A510F; --cg-accent-soft: rgba(90,81,15,.10); }   /* Bury St Edmunds: a dark ochre olive (8.02:1 contrast on white), chosen by hand as a muted tone kept clear of the other Suffolk pages */
 .cg-root.cg-frh  { --cg-accent: #154C18; --cg-accent-soft: rgba(21,76,24,.10); }   /* Fareham: a deep creek green (10.1:1 on white, 8.2:1 on the ledger beige), chosen by hand at least 40 RGB steps from every Hampshire and South East page */
+.cg-root.cg-ntb  { --cg-accent: #21600F; --cg-accent-soft: rgba(33,96,15,.10); }   /* Neath: a valley green (7.65:1 contrast on white), chosen by hand as a muted tone kept clear of the other south Wales pages */
