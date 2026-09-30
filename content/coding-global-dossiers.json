@@ -36237,5 +36237,50 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-hinckley": {
+    "market": "Hinckley",
+    "bodyClass": "cg-hkl",
+    "pageType": "city",
+    "curriculumAuthority": "Hinckley and Bosworth (E07000132), Leicestershire, Census 2021 TS001 usual residents 113,642. ONS 2021 BUA (published): Hinckley 50,725. English national curriculum, GCSE and A level. postcodes.io (Hinckley and Bosworth): Burbage, Sketchley (suburban areas, LE10), Barwell (village, LE9), Earl Shilton (town, LE9), Stoke Golding (village, CV13).",
+    "localProject": "OSM via Overpass (read 30 September 2026), bbox 52.516,-1.418,52.562,-1.337, 1,324 highway ways (motorway to residential, living_street, link roads). Largest component 8,524 mapped points, 8,805 segments; degrees 1: 673, 2: 6,656, 3: 1,156, 4: 38, 5: 1. Bends merged: 1,868 points (673 dead ends, 1,195 junctions), 2,149 links. Cyclomatic number 2,149 - 1,868 + 1 = 282 = 8,805 - 8,524 + 1; after removing dead-end branches 5,477 - 5,196 + 1 = 282; networkx cycle basis 282; spanning tree 8,523 segments. 11 ways tagged bridge or tunnel, so 282 is only approximately a count of enclosed blocks. McCabe complexity of our own functions via ast: rank 7, peel 8, complexity 4, load 16, simplify 10. Lesson family: cyclomatic number, circuit rank, McCabe cyclomatic complexity.",
+    "requiredMentions": [
+      "50,725",
+      "113,642",
+      "Burbage",
+      "Sketchley",
+      "Barwell",
+      "Earl Shilton",
+      "cyclomatic",
+      "1,868",
+      "2,149",
+      "8,524"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap street data via the Overpass API, (C) OpenStreetMap contributors, ODbL.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: Hinckley extent and the named places in Hinckley and Bosworth.",
+        "url": "https://api.postcodes.io/places?q=Hinckley"
+      },
+      {
+        "claim": "T. J. McCabe, \"A Complexity Measure\", IEEE Transactions on Software Engineering, 1976 (cyclomatic complexity and the limit of 10).",
+        "url": "https://doi.org/10.1109/TSE.1976.233837"
+      }
+    ],
+    "rejectedClaims": [
+      "That Hinckley has exactly 282 street blocks: not claimed; 282 is the number of independent loops, and bridges and tunnels make the block reading approximate.",
+      "That Hinckley streets are more or less looped than any other town: not compared.",
+      "That a complexity above 10 means code is wrong: not claimed; it is a guideline for testability.",
+      "Traffic, travel times or road quality: none used.",
+      "That Burbage, Barwell or Earl Shilton are parts of Hinckley or close to it: not claimed; they are listed as recorded in the borough.",
+      "Named schools, term dates and sterling prices: none."
+    ]
   }
 }
