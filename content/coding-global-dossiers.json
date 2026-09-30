@@ -37779,5 +37779,50 @@
       "Woodsend, Lostock and Moorside as suburbs: no matching postcodes.io suburban area; left out.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-eccles": {
+    "market": "Eccles",
+    "bodyClass": "cg-ecc",
+    "pageType": "city",
+    "curriculumAuthority": "Salford (E08000006), Census 2021 TS001 usual residents 269,923 (printed; a required mention on the Salford page). ONS 2021 BUA (published): Eccles (Salford) 41,125. English national curriculum, GCSE and A level. postcodes.io suburban areas whose nearest postcode is in the Eccles BUA (M30): Patricroft, Monton, Winton, Peel Green, Ellesmere Park, Alder Forest, Westwood Park, Barton upon Irwell.",
+    "localProject": "OpenStreetMap, one Overpass query (2026-09-30T20:45Z): 1,401 ways, motorway to living_street plus link roads. Junction graph inside the rectangle round the Eccles BUA OA centres: 1,543 points, 1,781 links, mean degree 2.31 (degree 1: 439, 3: 773, 4: 68, 5: 2). 611,085,091 triples; brute force about 115 s (timed on 5,000,000); set intersection 43 triangles, 4,119 lookups, 0.002 s; matrix trace 43, 0.13 s. Connected triples 3,008; transitivity 0.0429; mean local clustering 0.0264; 123 junctions in a triangle. Closing roads: roundabout 14, link road 11, ordinary 18. Degree-preserving rewiring, 20 runs: mean 0.70 triangles (0 to 4); configuration-model expectation 0.80. Lesson family: triangle counting, clustering coefficient, random baseline.",
+    "requiredMentions": [
+      "41,125",
+      "Patricroft",
+      "Monton",
+      "Peel Green",
+      "Ellesmere Park",
+      "Barton upon Irwell",
+      "clustering coefficient",
+      "611,085,091",
+      "0.0429",
+      "1,543 junctions"
+    ],
+    "sources": [
+      {
+        "claim": "Watts D. J. and Strogatz S. H. (1998), Collective dynamics of small-world networks, Nature 393, 440 to 442.",
+        "url": "https://doi.org/10.1038/30918"
+      },
+      {
+        "claim": "OpenStreetMap roads around Eccles via the Overpass API, 30 September 2026 (Open Database Licence).",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations and OA21 to BUA22 lookup and centroids.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for M30 suburban areas.",
+        "url": "https://api.postcodes.io/places?q=Patricroft"
+      }
+    ],
+    "rejectedClaims": [
+      "That the rectangle is the Eccles boundary: stated as an approximation round the output-area centres.",
+      "Social-network clustering values: no figure quoted; only the general contrast, with Watts and Strogatz as the source of the measure.",
+      "That graph neural networks always fail on triangles: stated only that they are often tested on detecting them.",
+      "History of the Eccles road network or its roundabouts: not used.",
+      "Suburb names with nearest postcode outside the BUA: none of the eight tested fell outside.",
+      "Sterling prices: none."
+    ]
   }
 }
