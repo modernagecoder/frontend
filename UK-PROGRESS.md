@@ -488,7 +488,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 436 | ai-and-programming-classes-in-strabane (sbn, #44474A) | cg- town page | 2,822 | 1.5% vs ai-and-programming-classes-in-dumfries | can a model learn from data nobody labelled? | semi-supervised learning, label propagation, label spreading | 9041cadc |
 | 437 | best-coding-and-ai-classes-in-wembley-london (wmb, #0B5F8A) | cg- town page | 2,806 | 1.9% vs online-coding-and-python-classes-in-corby | which options are genuine trade-offs? | Pareto front, dominance, weighted sums | 924e1c21 |
 | 438 | vibe-coding-and-ai-agents-classes-in-southall-london (swl, #8A5A0B) | cg- town page | 2,724 | 2.3% vs vibe-coding-and-ai-agents-classes-in-hamilton-scotland | how many plans should an agent keep in mind? | beam search, beam width, A* comparison | a2e1db0b |
-| 439 | online-coding-and-python-classes-in-ilford-london (ilf, #0B6E55) | cg- town page | 2,728 | 2.1% vs online-coding-and-python-classes-in-corby | why can a correct formula give an impossible answer? | catastrophic cancellation, float32, Welford online variance | (this commit) |
+| 439 | online-coding-and-python-classes-in-ilford-london (ilf, #0B6E55) | cg- town page | 2,728 | 2.1% vs online-coding-and-python-classes-in-corby | why can a correct formula give an impossible answer? | catastrophic cancellation, float32, Welford online variance | ec6bc205 |
+| 440 | ai-and-programming-classes-in-edgware-london (edg, #7A0B3C) | cg- town page | 2,791 | 2.4% vs online-coding-and-python-classes-in-wigston-leicester | what do wrong training answers do to a model? | label noise, random vs systematic mislabelling | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
