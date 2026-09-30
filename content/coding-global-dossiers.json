@@ -37238,5 +37238,98 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-leighton-buzzard": {
+    "market": "Leighton Buzzard",
+    "bodyClass": "cg-lbz",
+    "pageType": "city",
+    "curriculumAuthority": "Central Bedfordshire (E06000056), Census 2021 TS001 usual residents 294,252. ONS 2021 BUA (published): Leighton Buzzard 42,735. English national curriculum, GCSE and A level. postcodes.io: Linslade (LU7) nearest postcode in the Leighton Buzzard BUA; Heath and Reach, Billington and Stanbridge are separate BUAs.",
+    "localProject": "Contraction hierarchies on the Leighton Buzzard road network. One Overpass query, highway motorway to service in 51.890 to 51.950 N, 0.712 to 0.612 W: 3,008 ways, 305.0 km; largest connected part 4,689 junctions and ends, 5,040 links, 296.3 km; one-way ignored. 1,000 random pairs (seed 20261001), mean trip 3.27 km, longest 9.74 km. Dijkstra to target: mean 2,399.8 settled. Edge-difference order: 3,552 shortcuts, 0.9 s build, mean 44.0 settled (max 74), 1,000 of 1,000 equal. Random order: 30,434 shortcuts, 727.5 s, mean 582.7 settled. Last contracted: Lake Street, Stanbridge Road and Leckbridge Court junction.",
+    "requiredMentions": [
+      "Linslade",
+      "contraction hierarchy",
+      "4,689 points",
+      "3,552 shortcuts",
+      "2,399.8 junctions",
+      "30,434 shortcuts",
+      "witness search",
+      "Stanbridge Road",
+      "Leckbridge Court"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap contributors, road ways via the Overpass API, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "Geisberger R., Sanders P., Schultes D. and Delling D. (2008), Contraction hierarchies: faster and simpler hierarchical routing in road networks, WEA 2008, Lecture Notes in Computer Science 5038, 319 to 333.",
+        "url": "https://doi.org/10.1007/978-3-540-68552-4_24"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations and output-area lookup.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for Central Bedfordshire.",
+        "url": "https://api.postcodes.io/places?q=Linslade"
+      }
+    ],
+    "rejectedClaims": [
+      "One-way streets: ignored in this version; stated on the page.",
+      "That the Lake Street junction is the busiest in town: not claimed; it is only the last node contracted under our ordering.",
+      "Journey times in minutes: none given; only distances and junction counts.",
+      "Timings as general facts: they are from our Python on one computer and are presented that way.",
+      "Heath and Reach, Billington and Stanbridge as parts of the town: separate ONS built-up areas; left out.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-hatfield": {
+    "market": "Hatfield",
+    "bodyClass": "cg-htf",
+    "pageType": "city",
+    "curriculumAuthority": "Welwyn Hatfield (E07000241), Census 2021 TS001 usual residents 119,836 (printed; a required mention on the Welwyn Garden City page). ONS 2021 BUA (published): Hatfield 41,560. English national curriculum, GCSE and A level. postcodes.io suburban areas whose closest postcode is in the Hatfield BUA: South Hatfield, Roe Green, Oxlease, Birchwood, Old Hatfield, Ellenbrook, Hatfield Garden Village (AL10).",
+    "localProject": "English Wikipedia, Hatfield, Hertfordshire, revisions 996519968 (2020-12-27), 1313908684 (2025-09-28), 1377423271 (2026-09-29); counts only. 2025 to 2026: lines 274/274, LCS 258, Myers D 32, position check 263 of 274; words 4,594/4,601, LCS 4,544, D 107, position check 4,550. 2020 to 2025: lines 256/274, LCS 160, D 210, difflib default 224, autojunk off 210; words 3,174/4,594, LCS 2,856, D 2,056, difflib default 2,202, autojunk off 2,066; autojunk popular words 6. Every D verified by a full LCS table (21,136,994 cells for the one-year word pair). Timing: Myers 0.005 s vs table 6.18 s (one year, words); 2.1 s vs 5.0 s (five years). Lesson family: Myers O(ND) diff, shortest edit script, versus difflib and a position-by-position comparison.",
+    "requiredMentions": [
+      "41,560",
+      "South Hatfield",
+      "Roe Green",
+      "Oxlease",
+      "Old Hatfield",
+      "Hatfield Garden Village",
+      "Myers",
+      "4,544",
+      "autojunk",
+      "21,136,994"
+    ],
+    "sources": [
+      {
+        "claim": "Myers E. W. (1986), An O(ND) difference algorithm and its variations, Algorithmica 1, 251 to 266.",
+        "url": "https://doi.org/10.1007/BF01840446"
+      },
+      {
+        "claim": "Git documentation, git diff, --diff-algorithm: myers is described as \"The basic greedy diff algorithm. Currently, this is the default.\"",
+        "url": "https://git-scm.com/docs/git-diff"
+      },
+      {
+        "claim": "Python documentation, difflib.SequenceMatcher and the autojunk heuristic.",
+        "url": "https://docs.python.org/3/library/difflib.html"
+      },
+      {
+        "claim": "English Wikipedia, Hatfield, Hertfordshire, revision 1377423271 (29 September 2026), and earlier revisions 1313908684 and 996519968, fetched through the MediaWiki API.",
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1377423271"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations; postcodes.io places and nearest-postcode lookups.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement about what the Hatfield article says or how it changed in substance: counts only, no text quoted or summarised.",
+      "That Git uses exactly the textbook Myers algorithm: Git calls its default \"the basic greedy diff algorithm\" and offers a separate minimal option; the page says a version of Myers is the default.",
+      "That difflib is wrong or buggy: it is documented as a matching heuristic, not a minimal diff; presented that way.",
+      "That the timings hold on other machines: stated as this laptop only.",
+      "Suburb names whose nearest postcode is outside the Hatfield BUA (Lemsford falls in Welwyn Garden City): left out.",
+      "Sterling prices: none."
+    ]
   }
 }
