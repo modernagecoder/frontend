@@ -37509,5 +37509,49 @@
       "Suburbs outside the Neath BUA (Briton Ferry in Baglan; Aberdulais, Tonna, Llandarcy outside): left out.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-newbury": {
+    "market": "Newbury",
+    "bodyClass": "cg-nby",
+    "pageType": "city",
+    "curriculumAuthority": "West Berkshire (E06000037), Census 2021 TS001 usual residents 161,448. ONS 2021 BUA (published): Newbury 42,260. English national curriculum, GCSE and A level. postcodes.io suburban areas with nearest postcode in the Newbury BUA: Speen, Shaw, Wash Common, Donnington, Greenham.",
+    "localProject": "Savitzky-Golay vs moving average on Environment Agency Hydrology API, Shaw (River Lambourn, NRFA 39041), 15-minute level, 2025: 35,040 Good readings, none missing (98 unchecked off-grid excluded). Level 1.363 to 1.832 m; step sd 0.62 mm; 8 largest rises, largest 143 mm (5 January). Kept (mean, worst) at 24 h: MA 77.8%, 63.6%; SG2 94.5%, 83.5%; SG4 99.1%, 89.4%. Trailing average median peak delay 982 min at 24 h. Step sd after 24 h: MA 0.183 mm, SG4 0.305 mm. Orders 2 and 3 identical.",
+    "requiredMentions": [
+      "42,260",
+      "Wash Common",
+      "Greenham",
+      "River Lambourn",
+      "Savitzky-Golay",
+      "35,040 quality-checked values",
+      "77.8%",
+      "982 minutes",
+      "savgol_filter"
+    ],
+    "sources": [
+      {
+        "claim": "Environment Agency Hydrology API, station Shaw (River Lambourn), 15-minute level readings for 2025, Open Government Licence.",
+        "url": "https://environment.data.gov.uk/hydrology/id/stations/a7709ed1-2912-4369-b70e-b9e78568408e"
+      },
+      {
+        "claim": "Savitzky A. and Golay M. J. E. (1964), Smoothing and differentiation of data by simplified least squares procedures, Analytical Chemistry 36(8), 1627 to 1639.",
+        "url": "https://doi.org/10.1021/ac60214a047"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations and output-area lookup.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for West Berkshire.",
+        "url": "https://api.postcodes.io/places?q=Wash%20Common"
+      }
+    ],
+    "rejectedClaims": [
+      "Flooding or flood risk at Newbury: not analysed or mentioned.",
+      "Causes of any rise (rain, weed cutting, gauge work): not investigated; not claimed.",
+      "Levels as depths of water: the readings are on the gauge's own scale; described that way.",
+      "That the River Lambourn joins the Kennet in Newbury: not needed and not stated.",
+      "Named schools and term dates: none read or named.",
+      "Sterling prices: none."
+    ]
   }
 }
