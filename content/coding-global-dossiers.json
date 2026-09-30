@@ -37868,5 +37868,50 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-bishops-stortford": {
+    "market": "Bishop’s Stortford",
+    "bodyClass": "cg-bps",
+    "pageType": "city",
+    "curriculumAuthority": "East Hertfordshire (E07000242), Census 2021 TS001 usual residents 150,158. ONS 2021 BUA (published): Bishop's Stortford 40,915. English national curriculum, GCSE and A level. postcodes.io places whose nearest postcode is in the BUA (CM23): Thorley, Hockerill (suburban areas), Thorley Street (village). Wards of the nearest postcode to each OA centroid: Bishop's Stortford Thorley Manor, North, Central, Parsonage, South, All Saints.",
+    "localProject": "OpenStreetMap, one Overpass query (2026-09-30T20:56Z), 51.848 to 51.892 N, 0.126 to 0.190 E: 424 features (216 benches, 170 bus stops with 94 names, 38 post boxes). Simulated agents A, B, C on three overlapping longitude strips; round 1 finds 80% (352 known); round 2 offline: A adds misses, B deletes benches it has seen, C deletes same-named stops it has seen. Seed 1: whole-list last-write-wins 191 to 366 items by sync order (worst drops 15 wanted); union 393 (189 benches, 71 same-named stops); observed-remove set 172 in all 6 orders (18 benches, 21 same-named stops kept by concurrent adds); shared rules 133. 100 seeds: OR-set order-independent every time, 27 to 51 items from the shared-rules list. Lesson family: CRDTs (last-write-wins, grow-only union, observed-remove set) for agents sharing state.",
+    "requiredMentions": [
+      "40,915",
+      "150,158",
+      "Thorley",
+      "Hockerill",
+      "Thorley Street",
+      "observed-remove set",
+      "CRDT",
+      "Thorley Manor",
+      "191 to 366",
+      "424 benches, bus stops and post boxes"
+    ],
+    "sources": [
+      {
+        "claim": "Shapiro M., Preguiça N., Baquero C. and Zawirski M. (2011), Conflict-free replicated data types, Stabilization, Safety, and Security of Distributed Systems, LNCS 6976, 386 to 400.",
+        "url": "https://doi.org/10.1007/978-3-642-24550-3_29"
+      },
+      {
+        "claim": "OpenStreetMap bus stops, post boxes and benches around Bishop's Stortford via the Overpass API, 30 September 2026 (Open Database Licence).",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations; OA21 to BUA22 lookup and centroids.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and reverse geocoding for CM23.",
+        "url": "https://api.postcodes.io/places?q=Hockerill"
+      }
+    ],
+    "rejectedClaims": [
+      "That any real AI agent framework behaves like the simulation: the agents and edits are invented, and the page says so.",
+      "That same-named bus stops are duplicates: C's rule is presented as a flawed rule; most are pairs across a road.",
+      "That OpenStreetMap lists every bench or stop in the town: counts are as mapped on the day.",
+      "That the rectangle is the town boundary: stated as a rectangle around the town.",
+      "Suburb names whose nearest postcode is outside the BUA: none of the three used; others not found in the gazetteer.",
+      "Sterling prices: none."
+    ]
   }
 }
