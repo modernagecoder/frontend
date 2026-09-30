@@ -34724,7 +34724,7 @@
     "bodyClass": "cg-smk",
     "pageType": "city",
     "curriculumAuthority": "Sandwell (E08000028), Census 2021 TS001 usual residents 341,832. ONS 2021 BUA (published): Smethwick 56,340. English national curriculum, GCSE and A level. postcodes.io (Sandwell) suburban areas: Bearwood, Cape Hill, Black Patch (B66); West Smethwick, Londonderry, Warley Woods (B67); Rood End (B68).",
-    "localProject": "Census 2021 TS017, TS045, TS044, TS006 for 978 Sandwell OAs, 130,315 households, 21 standardised columns. Median nearest/farthest ratio: real 3 columns 0.009, 8: 0.057, 21: 0.135 (k < 21 median over 30 column draws); random independent 3: 0.043, 8: 0.197, 21: 0.404, 100: 0.673, 1,000: 0.882. Participation ratio 8.8. Noise test on density, no-car share, one-person share: +3 noise columns 4.8% keep nearest neighbour, +10: 0.9%. Lesson family: distance concentration, curse of dimensionality.",
+    "localProject": "Census 2021 TS017, TS045, TS044, TS006 for 978 Sandwell OAs, OA rows sum to 130,315 households (published LAD total 130,246), 21 standardised columns. Median nearest/farthest ratio: real 3 columns 0.009, 8: 0.057, 21: 0.135 (k < 21 median over 30 column draws); random independent 3: 0.043, 8: 0.197, 21: 0.404, 100: 0.673, 1,000: 0.882. Participation ratio 8.8. Noise test on density, no-car share, one-person share: +3 noise columns 4.8% keep nearest neighbour, +10: 0.9%. Lesson family: distance concentration, curse of dimensionality.",
     "requiredMentions": [
       "56,340",
       "130,315",
@@ -34845,7 +34845,7 @@
     "bodyClass": "cg-wym",
     "pageType": "city",
     "curriculumAuthority": "Dorset (E06000059), Census 2021 TS001 usual residents 379,579. ONS 2021 BUA (published): Weymouth 55,535. English national curriculum, GCSE and A level. postcodes.io (Dorset) suburban areas: Wyke Regis, Radipole, Westham, Melcombe Regis, Southill, Rodwell (DT4); Upwey, Broadwey, Littlemoor, Preston, Sutton Poyntz (DT3).",
-    "localProject": "Closed loop through the 192 ONS population-weighted centroids of the Weymouth BUA (25,576 households, TS017), straight-line. Start (code order) 135.5 km. Random reversal kept if shorter; median of 5 seeds: 1,000 tries 118.6 km; 10,000: 75.2; 30,000: 59.0; 100,000: 51.4; 300,000: 51.4; 1,000,000: 51.4. Last improvement between try 93,887 and try 162,402; finals 50.3 to 55.9 km. Nearest-unvisited route 64.0 km. 300,000 tries about 2 s. Lesson family: anytime algorithm, budget against quality.",
+    "localProject": "Closed loop through the 192 ONS population-weighted centroids of the Weymouth BUA (our sum of OA household counts 25,576, TS017), straight-line. Start (code order) 135.5 km. Random reversal kept if shorter; median of 5 seeds: 1,000 tries 118.6 km; 10,000: 75.2; 30,000: 59.0; 100,000: 51.4; 300,000: 51.4; 1,000,000: 51.4. Last improvement between try 93,887 and try 162,402; finals 50.3 to 55.9 km. Nearest-unvisited route 64.0 km. 300,000 tries about 2 s. Lesson family: anytime algorithm, budget against quality.",
     "requiredMentions": [
       "55,535",
       "25,576",
