@@ -1439,3 +1439,4 @@
 .cg-root.cg-atc  { --cg-accent: #57534E; --cg-accent-soft: rgba(87,83,78,.10); }   /* Altrincham: a warm stone grey (7.63:1 on white), chosen by hand; a neutral that none of the recent pages use */
 .cg-root.cg-bwt  { --cg-accent: #9D1B08; --cg-accent-soft: rgba(157,27,8,.10); }   /* Bridgwater: a brick red (8.1:1 contrast on white), chosen by hand with clear separation from accents already used */
 .cg-root.cg-hkl  { --cg-accent: #4338CA; --cg-accent-soft: rgba(67,56,202,.10); }   /* Hinckley: a vivid indigo (7.90:1 on white), chosen by hand; more saturated and more violet than the navy blues used lately */
+.cg-root.cg-kln  { --cg-accent: #0B386B; --cg-accent-soft: rgba(11,56,107,.10); }   /* King's Lynn: a deep estuary blue (11.72:1 contrast), picked by hand and checked for distance from every accent in use */

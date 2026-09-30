@@ -36282,5 +36282,49 @@
       "That Burbage, Barwell or Earl Shilton are parts of Hinckley or close to it: not claimed; they are listed as recorded in the borough.",
       "Named schools, term dates and sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-kings-lynn": {
+    "market": "King's Lynn",
+    "bodyClass": "cg-kln",
+    "pageType": "city",
+    "curriculumAuthority": "King's Lynn and West Norfolk (E07000146), Census 2021 TS001 usual residents 154,325. ONS 2021 BUA (published): King's Lynn 47,615. English national curriculum, GCSE and A level. postcodes.io suburban areas whose closest postcode is in the King's Lynn BUA: Gaywood, South Lynn, North Lynn, Fairstead, North Wootton, South Wootton, Hardwick (PE30).",
+    "localProject": "EA flood-monitoring API, 1 September 2026 00:05 UTC to 30 September 17:15 UTC. King's Lynn E47901 5-minute tidal level: 8,533 readings, 8 gaps (longest 30 min), range -1.805 to 4.483 m AOD. Freebridge E22184 15-minute: 2,850 readings, one 45-minute gap; 1.18 km apart. Of 8,528 King's Lynn rows in the shared window: exact join 2,841 matched, 5,687 blank; merge_asof backward, tolerance 10 min, 8,522 filled (ages 0/5/10 min: 2,841/2,841/2,840); nearest used a later reading for 2,841 rows. Thinning self-test: backward mean error 8.2 cm (max 69.4, 26.2% over 10 cm), nearest 6.4 cm, straight line 1.0 cm. Steepest 10-minute rise 0.884 m (12 September), steepest fall 0.238 m. Lesson family: as-of join (merge_asof, direction and tolerance, look-ahead leakage).",
+    "requiredMentions": [
+      "47,615",
+      "Gaywood",
+      "Fairstead",
+      "North Wootton",
+      "merge_asof",
+      "Freebridge",
+      "5,687",
+      "0.884",
+      "8,533"
+    ],
+    "sources": [
+      {
+        "claim": "Environment Agency real-time flood-monitoring API, stations E47901 (King's Lynn) and E22184 (Freebridge), Open Government Licence.",
+        "url": "https://environment.data.gov.uk/flood-monitoring/doc/reference"
+      },
+      {
+        "claim": "pandas documentation for merge_asof: direction and tolerance parameters.",
+        "url": "https://pandas.pydata.org/docs/reference/api/pandas.merge_asof.html"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for suburban areas in King's Lynn and West Norfolk.",
+        "url": "https://api.postcodes.io/places?q=Gaywood"
+      }
+    ],
+    "rejectedClaims": [
+      "Comparing the two gauges' levels directly: Freebridge is published against a local datum, not Ordnance Datum, so no level difference is stated.",
+      "That the Freebridge gauge is upstream or downstream in flow terms: only its position to the south, from coordinates, is given.",
+      "Record or flood levels from station metadata: not used.",
+      "That West Lynn is inside the built-up area: postcodes.io has no place entry for it; left out.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
