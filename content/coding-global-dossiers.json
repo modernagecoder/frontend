@@ -34511,5 +34511,831 @@
       "Chiswick House, brewery or riverside claims: not read from a source; not claimed.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-barry": {
+    "market": "Barry",
+    "bodyClass": "cg-bay",
+    "pageType": "city",
+    "curriculumAuthority": "Vale of Glamorgan (W06000014), Census 2021 TS001 usual residents 131,939. ONS 2021 BUA (published): Barry 56,605. Curriculum for Wales, WJEC GCSE and A level. postcodes.io (Vale of Glamorgan): Cadoxton, Gibbonsdown, Palmerstown, Barry Dock (CF63); Colcot, Barry Island, Merthyr Dyfan (CF62), suburban areas.",
+    "localProject": "Census 2021 TS017 (NM_2037_1), 434 Vale of Glamorgan OAs, 57,452 households, 8 sizes; OA-LSOA-MSOA lookup (82 LSOAs, 15 MSOAs). Cells under 5 / households: OA x 8 sizes 571 / 1,134 (1.97%), 930 empty of 3,472; OA x 5 groups 146 / 430 (0.75%); OA x 3 groups 0; LSOA x 8 sizes 109 / 209 (0.36%); LSOA x 5 groups 0 (smallest 12). k 10 at full detail: 854 cells, 3,033 households (5.28%). Lesson family: k-anonymity, quasi-identifiers, generalisation.",
+    "requiredMentions": [
+      "56,605",
+      "131,939",
+      "57,452",
+      "Cadoxton",
+      "Gibbonsdown",
+      "Colcot",
+      "Barry Island",
+      "Palmerstown",
+      "k-anonymity",
+      "quasi-identifier"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS017 household size and TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS output area to LSOA to MSOA lookup (December 2021), ONS Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in the Vale of Glamorgan.",
+        "url": "https://api.postcodes.io/places?q=Gibbonsdown"
+      }
+    ],
+    "rejectedClaims": [
+      "That any household can be identified from the table: not claimed and not attempted; the ONS perturbs small counts.",
+      "Docks, resort or railway history: not read from a source; not claimed.",
+      "Why large households are rare in an area: no cause claimed.",
+      "Welsh-language statistics: none used.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-widnes": {
+    "market": "Widnes",
+    "bodyClass": "cg-wdn",
+    "pageType": "city",
+    "curriculumAuthority": "Halton (E06000006). ONS 2021 BUAs (published): Widnes 59,935; Runcorn 61,645. postcodes.io suburban areas (nearest OA centroid in the Widnes BUA, our check): Ditton, Hough Green, Farnworth, Appleton, Upton Rocks, Simm's Cross, Halton View, West Bank, Kingsway, Lunts Heath; village Hale Bank (own BUA).",
+    "localProject": "Census 2021 TS045/TS017/TS044 and OA residents for the 193 OAs of the Widnes BUA. Share held by the top 20% of areas (39): households 26.7% of 25,801; residents 27.7% of 59,938 (our OA sum); one-person households 33.9% of 8,086; no car or van 40.8% of 6,013; purpose-built flats 73.6% of 2,330 (36.8% of areas none; top 5% hold 29.2%; 80% within top 23.8%); 80% of residents needs 74.6% of areas. Lesson family: Pareto principle tested as a claim.",
+    "requiredMentions": [
+      "Pareto principle",
+      "80/20",
+      "73.6%",
+      "25,801",
+      "2,330",
+      "8,086",
+      "Hough Green",
+      "Upton Rocks",
+      "Lunts Heath",
+      "Halton View"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS045, TS017 and TS044 at output area level via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS Output Area (2021) to Built-up Area (2022) lookup and OA population-weighted centroids, Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and villages in Halton.",
+        "url": "https://api.postcodes.io/places?q=Hough%20Green"
+      }
+    ],
+    "rejectedClaims": [
+      "Chemical industry, bridge or rugby history: not read from a source; not claimed.",
+      "Why some areas have more flats or fewer cars: no cause claimed; only shares are reported.",
+      "That the 80/20 rule holds for Widnes in general: it held roughly for one count of five.",
+      "Sum of the Widnes and Runcorn built-up areas: not added.",
+      "Hale Bank as part of Widnes: it has its own ONS built-up area; described only as a village.",
+      "Named schools, term dates or exam results: none named or promised.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-bootle": {
+    "market": "Bootle",
+    "bodyClass": "cg-btl",
+    "pageType": "city",
+    "curriculumAuthority": "Sefton (E08000014), Census 2021 TS001 usual residents 279,233. ONS 2021 BUAs in the borough (published): Southport 94,440; Bootle (Sefton) 53,720; Crosby (Sefton) 50,215; Formby 22,890; Maghull 20,370; Litherland 18,750. postcodes.io (Sefton): Seaforth, Netherton, Orrell, Ford, Waterloo (suburban areas).",
+    "localProject": "Census 2021 OA tables for Sefton via Nomis (TS045, TS017, TS006, TS044): 942 OAs, 123,018 households, 32,443 no car or van. Predict no-car share from log density, one-person share, detached share, purpose-built flat share. 200 held-out areas, 30 repeats. Mean baseline MAE 13.88. Linear test/train: 10 13.66/5.22; 20 10.16/6.86; 50 8.94/8.07; 100 8.51/8.17; 200 8.38/8.12; 400 8.32/8.10; 700 8.31/8.18. Forest (200 trees): 10 9.83/3.82; 20 8.85/3.36; 50 7.93/3.02; 100 7.56/2.79; 200 7.18/2.59; 400 6.89/2.50; 700 6.77/2.44. Lesson family: learning curves.",
+    "requiredMentions": [
+      "53,720",
+      "123,018",
+      "32,443",
+      "Seaforth",
+      "Netherton",
+      "Crosby",
+      "942",
+      "learning curve",
+      "plateau",
+      "13.88"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 tables TS045, TS017, TS006, TS044 and TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "Nomis Census 2021 TS045 car or van availability.",
+        "url": "https://www.nomisweb.co.uk/datasets/c2021ts045"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Sefton.",
+        "url": "https://api.postcodes.io/places?q=Seaforth"
+      }
+    ],
+    "rejectedClaims": [
+      "Why some areas have fewer cars: no cause is claimed and no household is described.",
+      "Docks, port, transport or employer facts: not read from a source; not claimed.",
+      "Sum of the built-up areas: not published as a total; not added.",
+      "Model errors: our own calculation, labelled as ours, not an official statistic.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-huyton-with-roby": {
+    "market": "Huyton with Roby",
+    "bodyClass": "cg-hyr",
+    "pageType": "city",
+    "curriculumAuthority": "Knowsley (E08000011). ONS 2021 BUAs (published): Huyton with Roby 59,845; Kirkby 45,560; Prescot 39,225. postcodes.io suburban areas (nearest OA centroid in the Huyton with Roby BUA, our check): Roby, Page Moss, Bowring Park, Longview, Huyton Park, Woolfall Heath, Court Hey, Stockbridge Village.",
+    "localProject": "Census 2021 OA residents and ONS OA PWC for the 193 Knowsley OAs in the Huyton with Roby BUA (58,998 residents, our sum). 6 sites on OA centroids minimising population-weighted mean straight-line distance; moves to the 8 closest areas; 40 random starts, seed 2026. Random 832.7 m; local search mean 576.6 (lowest 573.0, worst 597.2; 31/40 within 1%; median 1,072 evaluations); tabu 150 moves (~7,199 evaluations): memory 0 576.1/597.2; 3 575.3/587.0; 10 573.2/573.4 (40/40); 25 573.0/573.4; 60 573.4/580.4. Lesson family: tabu search.",
+    "requiredMentions": [
+      "tabu search",
+      "832.7",
+      "576.6",
+      "59,845",
+      "58,998",
+      "Page Moss",
+      "Bowring Park",
+      "Longview",
+      "Woolfall Heath",
+      "Court Hey"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 usual residents at output area level via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS Output Areas (December 2021) population-weighted centroids and OA to built-up area lookup, Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Knowsley.",
+        "url": "https://api.postcodes.io/places?q=Page%20Moss"
+      }
+    ],
+    "rejectedClaims": [
+      "That 573.0 m is the optimal layout: it is only the lowest value our runs reached.",
+      "Real facilities, shops or services at the six sites: the sites are imaginary points.",
+      "Travel times or road distances: only straight-line distances between centre points were computed.",
+      "Swanside as part of Huyton with Roby: its closest output area is in the Liverpool built-up area.",
+      "Sum of the Knowsley built-up areas: not added.",
+      "Local history or notable residents: not read from a source; not claimed.",
+      "Sterling prices and exam results: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-carlton": {
+    "market": "Carlton",
+    "bodyClass": "cg-cto",
+    "pageType": "city",
+    "curriculumAuthority": "Gedling (E07000173), Census 2021 TS001 usual residents 117,264. ONS 2021 BUAs (published): Carlton (Gedling) 53,555; Arnold 40,010; Calverton 7,320. Carlton and Arnold BUAs are not cut at the borough boundary, so no \"wholly in Gedling\" claim. postcodes.io (Gedling): Gedling, Netherfield, Colwick, Porchester (suburban areas); Burton Joyce (village).",
+    "localProject": "Census 2021 OA tables for Gedling via Nomis (TS045, TS017, TS006, TS044): 399 OAs, 51,536 households, 9,763 no car or van (18.94%). Random forest, 500 trees, min leaf 3; 5-fold CV R2 0.733, train R2 0.923. Partial dependence on one-person share: 15% 14.8; 20% 15.8; 30% 19.3; 40% 24.7; 50% 29.2. On detached share: 0% 24.5; 10% 23.0; 20% 20.2; 40% 16.1; 60% 16.1. Raw averages: 15-25% one-person 12.3 (detached 49.8%); 35-45% 25.9 (detached 23.2%). Raw gap 13.6 vs PD gap 8.9. Correlation one-person vs detached -0.42. Lesson family: partial dependence plots.",
+    "requiredMentions": [
+      "53,555",
+      "117,264",
+      "51,536",
+      "9,763",
+      "Netherfield",
+      "Colwick",
+      "Porchester",
+      "Burton Joyce",
+      "partial dependence",
+      "random forest"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 tables TS045, TS017, TS006, TS044 and TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "Nomis Census 2021 TS017 household size.",
+        "url": "https://www.nomisweb.co.uk/datasets/c2021ts017"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and villages in Gedling.",
+        "url": "https://api.postcodes.io/places?q=Netherfield"
+      }
+    ],
+    "rejectedClaims": [
+      "That living alone causes lower car ownership: not claimed; the plot describes the model only.",
+      "Carlton built-up area lying wholly inside Gedling: not claimed; ONS BUAs ignore council boundaries.",
+      "Sum of the three built-up areas: not published as a total; not added.",
+      "Transport, tram or bus facts: not read from a source; not claimed.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-smethwick": {
+    "market": "Smethwick",
+    "bodyClass": "cg-smk",
+    "pageType": "city",
+    "curriculumAuthority": "Sandwell (E08000028), Census 2021 TS001 usual residents 341,832. ONS 2021 BUA (published): Smethwick 56,340. English national curriculum, GCSE and A level. postcodes.io (Sandwell) suburban areas: Bearwood, Cape Hill, Black Patch (B66); West Smethwick, Londonderry, Warley Woods (B67); Rood End (B68).",
+    "localProject": "Census 2021 TS017, TS045, TS044, TS006 for 978 Sandwell OAs, 130,315 households, 21 standardised columns. Median nearest/farthest ratio: real 3 columns 0.009, 8: 0.057, 21: 0.135 (k < 21 median over 30 column draws); random independent 3: 0.043, 8: 0.197, 21: 0.404, 100: 0.673, 1,000: 0.882. Participation ratio 8.8. Noise test on density, no-car share, one-person share: +3 noise columns 4.8% keep nearest neighbour, +10: 0.9%. Lesson family: distance concentration, curse of dimensionality.",
+    "requiredMentions": [
+      "56,340",
+      "130,315",
+      "Cape Hill",
+      "West Smethwick",
+      "Rood End",
+      "Warley Woods",
+      "Black Patch",
+      "distance concentration"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS017, TS045, TS044, TS006 and TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS output area lookups and population-weighted centroids, ONS Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Sandwell.",
+        "url": "https://api.postcodes.io/places?q=Cape%20Hill"
+      }
+    ],
+    "rejectedClaims": [
+      "That Smethwick areas are more or less alike than areas elsewhere: not tested, not claimed.",
+      "That real AI embeddings suffer the same ratios: not measured; the page says their dimensions are learned to be informative.",
+      "Industrial history, canals and foundries: not read from a source; not claimed.",
+      "Any description of who lives in an area beyond housing, household size, cars and density: none used.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-torquay": {
+    "market": "Torquay",
+    "bodyClass": "cg-tqy",
+    "pageType": "city",
+    "curriculumAuthority": "Torbay (E06000027), Census 2021 TS001 usual residents 139,324. ONS 2021 BUAs (published): Paignton 67,520; Torquay 52,035; Brixham 17,840. postcodes.io (Torbay): Babbacombe, St Marychurch, Chelston, Cockington, Ellacombe, Shiphay, Wellswood, Torre (suburban areas).",
+    "localProject": "Census 2021 OA tables for Torbay via Nomis (TS045, TS017, TS006, TS044): 479 OAs, 63,001 households, 14,646 no car or van. Five standardised features. 6x6 self-organising map, 6,000 steps, 10 random starts: quantisation error 0.765, topographic error 1.3%; untrained grid 0.817 and 73.3%. Adjacent node weights 0.80 apart, all pairs 2.28, opposite corners 4.41. Areas per node 5 / 12 / 25. k-means (36) quantisation error 0.636. Corner nodes: density 8,418 vs 413; one-person 27.7 vs 27.5; detached 3.6 vs 56.1; flats 19.8 vs 4.7; no car 27.2 vs 10.6. Lesson family: self-organising map, topology preservation.",
+    "requiredMentions": [
+      "52,035",
+      "63,001",
+      "14,646",
+      "Babbacombe",
+      "St Marychurch",
+      "Chelston",
+      "Cockington",
+      "Ellacombe",
+      "self-organising map",
+      "topographic error"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 tables TS045, TS017, TS006, TS044 and TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "Nomis Census 2021 TS044 accommodation type.",
+        "url": "https://www.nomisweb.co.uk/datasets/c2021ts044"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Torbay.",
+        "url": "https://api.postcodes.io/places?q=Babbacombe"
+      }
+    ],
+    "rejectedClaims": [
+      "Seaside, resort, harbour or tourism facts: not read from a source; not claimed.",
+      "Which Torquay neighbourhood sits on which node: not published; nodes are model averages, no street or household is described.",
+      "Sum of the three built-up areas: not published as a total; not added.",
+      "That the map outperforms k-means: not claimed; k-means had the lower quantisation error.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-scarborough": {
+    "market": "Scarborough",
+    "bodyClass": "cg-scb",
+    "pageType": "city",
+    "curriculumAuthority": "North Yorkshire (E06000065). ONS 2021 BUAs (published): Scarborough 59,505; Filey 6,665. postcodes.io suburban areas with closest postcode in YO12: Falsgrave, Northstead, Barrowcliff, Newby, Throxenby, Edgehill; in YO11: Weaponness, South Cliff, Wheatcroft, Eastfield, Osgodby, Cayton (checked by outcode only, not against the BUA).",
+    "localProject": "OS Code-Point Open 2026.3.0: YO11 + YO12, 1,685 postcodes at 1,606 distinct points (730 + 876), extent 11,163 m x 16,220 m; mean true nearest neighbour 77.1 m. Z key: 8 m cells, 11 bits per axis, 22 bits. Nearest neighbour adjacent / within 8 places / mean hop: shuffled 0.0% / 0.5% / 3,416 m; easting 5.3% / 40.8% / 2,216 m; postcode A-Z 26.7% / 61.3% / 503 m; Z-order 57.3% / 85.4% / 218 m. Worst Z gap 1,503; 14 points split by the first seam. Lesson family: Z-order curve / Morton code / geohash.",
+    "requiredMentions": [
+      "Z-order",
+      "geohash",
+      "59,505",
+      "1,685",
+      "1,606",
+      "57.3%",
+      "85.4%",
+      "Falsgrave",
+      "Northstead",
+      "Barrowcliff"
+    ],
+    "sources": [
+      {
+        "claim": "Ordnance Survey Code-Point Open, dataset version 2026.3.0, Open Government Licence; contains OS data and Royal Mail data.",
+        "url": "https://www.ordnancesurvey.co.uk/products/code-point-open"
+      },
+      {
+        "claim": "ONS 2021 built-up area populations (Census 2021).",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas around Scarborough and their closest postcodes.",
+        "url": "https://api.postcodes.io/places?q=Falsgrave"
+      }
+    ],
+    "rejectedClaims": [
+      "That the listed suburbs are inside the Scarborough built-up area: only their postcode district was checked.",
+      "That YO11 and YO12 equal Scarborough: they also take in Eastfield, Cayton, Seamer and Crossgates; stated on the page.",
+      "Resort, castle, harbour or tourism claims: not read from a source; not claimed.",
+      "That a Z-order key always finds the nearest neighbour: 14.6% were missed within eight places.",
+      "Sum of the two built-up areas: not added.",
+      "Named schools, exam outcomes and sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-weymouth": {
+    "market": "Weymouth",
+    "bodyClass": "cg-wym",
+    "pageType": "city",
+    "curriculumAuthority": "Dorset (E06000059), Census 2021 TS001 usual residents 379,579. ONS 2021 BUA (published): Weymouth 55,535. English national curriculum, GCSE and A level. postcodes.io (Dorset) suburban areas: Wyke Regis, Radipole, Westham, Melcombe Regis, Southill, Rodwell (DT4); Upwey, Broadwey, Littlemoor, Preston, Sutton Poyntz (DT3).",
+    "localProject": "Closed loop through the 192 ONS population-weighted centroids of the Weymouth BUA (25,576 households, TS017), straight-line. Start (code order) 135.5 km. Random reversal kept if shorter; median of 5 seeds: 1,000 tries 118.6 km; 10,000: 75.2; 30,000: 59.0; 100,000: 51.4; 300,000: 51.4; 1,000,000: 51.4. Last improvement between try 93,887 and try 162,402; finals 50.3 to 55.9 km. Nearest-unvisited route 64.0 km. 300,000 tries about 2 s. Lesson family: anytime algorithm, budget against quality.",
+    "requiredMentions": [
+      "55,535",
+      "25,576",
+      "Wyke Regis",
+      "Radipole",
+      "Upwey",
+      "Broadwey",
+      "Littlemoor",
+      "Melcombe Regis",
+      "Sutton Poyntz",
+      "anytime algorithm"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS017 and TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS output area to built-up area lookup and output area population-weighted centroids, ONS Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Dorset.",
+        "url": "https://api.postcodes.io/places?q=Wyke%20Regis"
+      }
+    ],
+    "rejectedClaims": [
+      "That 51.4 km or 50.3 km is the shortest possible loop: not proved, not claimed.",
+      "Road, walking or driving distances: none used; straight lines between centroids only.",
+      "Harbour, beach, sailing or resort history: not read from a source; not claimed.",
+      "Timings as a general benchmark: one laptop, stated as such.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-macclesfield": {
+    "market": "Macclesfield",
+    "bodyClass": "cg-mcf",
+    "pageType": "city",
+    "curriculumAuthority": "Cheshire East (E06000049), Census 2021 TS001 usual residents 398,772. ONS 2021 BUAs (published): Crewe 74,120; Macclesfield 54,345; Congleton 30,005; Wilmslow 25,725; Nantwich 18,740. postcodes.io (Cheshire East): Tytherington, Hurdsfield, Broken Cross (suburban areas); Bollington (town); Prestbury, Gawsworth, Sutton Lane Ends, Langley (villages).",
+    "localProject": "OpenStreetMap public roads via one Overpass query, box 53.235-53.285 N, 2.175-2.085 W: 246.1 km of segments, largest connected network 11,974 points; two-way, distance cost. 400 random trips (seed 2026), median route 3.39 km. Points settled: one-way Dijkstra median 6,252.5, bidirectional 3,536; median ratio 0.554; bidirectional fewer on 93.8% (375 trips), over 10% more on 4.2%. Ratio by length: under 1.5 km (58) 0.506; 1.5-3 km (107) 0.516; over 3 km (235) 0.579. Totals 2,423,317 vs 1,387,810. Equal distances on all 400. Lesson family: bidirectional search.",
+    "requiredMentions": [
+      "54,345",
+      "11,974",
+      "246.1",
+      "Tytherington",
+      "Hurdsfield",
+      "Broken Cross",
+      "Bollington",
+      "Prestbury",
+      "bidirectional",
+      "Gawsworth"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap road data (ODbL) fetched through the Overpass API for a box around Macclesfield.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas, towns and villages in Cheshire East.",
+        "url": "https://api.postcodes.io/places?q=Tytherington"
+      }
+    ],
+    "rejectedClaims": [
+      "Real journey times or traffic: not modelled; cost is distance and streets are two-way in the exercise.",
+      "Silk, mills, hills or railway facts: not read from a source; not claimed.",
+      "That bidirectional search always does less work: not claimed; it did more on 4.2% of trips.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-gravesend": {
+    "market": "Gravesend",
+    "bodyClass": "cg-gvd",
+    "pageType": "city",
+    "curriculumAuthority": "Gravesham (E07000109), Kent. ONS 2021 BUAs (published): Gravesend 58,105; Northfleet 29,900; Meopham 4,350; Istead Rise 3,395. postcodes.io suburban areas (nearest OA centroid in the Gravesend BUA, our check): Chalk, Denton, Riverview Park, Singlewell, Windmill Hill, Westcourt; Perry Street and Rosherville fall in the Northfleet BUA.",
+    "localProject": "Census 2021 TS045 for 327 Gravesham OAs: 41,733 households, 8,199 no car or van (19.65%); OA share sd 13.15 points (0.8% to 62.4%); binomial-only expected sd 3.59. Beta-binomial, flat priors on logit mu and log phi; random-walk Metropolis-Hastings 20,000 steps, burn-in 5,000, start mu 50%. Step 0.05: 59.1% accepted, ESS 1,424, mu 19.38% (18.02 to 20.88), phi 9.7, implied sd 12.55. Step 0.005: 93.9%, ESS 34, first 200 draws mean 46.0%. Step 0.5: 2.8%, ESS 290. Step 3.0: 0.1%, ESS 12. Lesson family: Metropolis-Hastings MCMC.",
+    "requiredMentions": [
+      "Metropolis-Hastings",
+      "beta-binomial",
+      "overdispersion",
+      "58,105",
+      "41,733",
+      "8,199",
+      "59.1%",
+      "Singlewell",
+      "Riverview Park",
+      "Westcourt"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS045 car or van availability at output area level via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS Output Area (2021) to Built-up Area (2022) lookup and population-weighted centroids, Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and villages in Gravesham.",
+        "url": "https://api.postcodes.io/places?q=Singlewell"
+      }
+    ],
+    "rejectedClaims": [
+      "Why car availability differs between areas: no cause claimed; the project measures variation only.",
+      "Naming the areas with the highest or lowest shares: not done.",
+      "River, port, ferry or historical claims about Gravesend: not read from a source; not claimed.",
+      "Northfleet, Perry Street or Rosherville as part of Gravesend: they fall in the separate Northfleet built-up area.",
+      "Sum of the four built-up areas: not added.",
+      "That the sampler output is an official statistic: it is our model on published counts.",
+      "Exam results and sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-clacton-on-sea": {
+    "market": "Clacton-on-Sea",
+    "bodyClass": "cg-cos",
+    "pageType": "city",
+    "curriculumAuthority": "Tendring (E07000076), Census 2021 TS001 usual residents 148,291. ONS 2021 BUAs of 6,000+ within the district (published): Clacton-on-Sea 53,200; Harwich 20,215; Brightlingsea 8,680; Walton-on-the-Naze 6,990; Kirby Cross 6,035. postcodes.io (Tendring): Holland-on-Sea, Great Clacton, Bocking's Elm, Rush Green (suburban areas); Jaywick, Little Clacton (villages); Frinton-on-Sea (town).",
+    "localProject": "OpenStreetMap buildings via one Overpass query, box 51.782-51.800 N, 1.140-1.172 E: 6,454 buildings on a 4 m grid of 550 by 497 cells, 20.9% built. 300 random trips of 50 m or more (seed 2026). Potential field agent (distance to goal + repulsion within 12 m, 8-neighbour descent): reached 60 of 300 (20.0%); 50-250 m 4 of 10; 250-500 m 11 of 33; 500 m-1 km 28 of 97; over 1 km 17 of 160. Stuck after median 143 m (median straight-line 1,135 m). Attraction only 68 (22.7%); 24 m repulsion 58 (19.3%). Shortest-path planner reaches all (one open region of 215,161 cells). Lesson family: potential field navigation, local minima, reactive vs planning agents.",
+    "requiredMentions": [
+      "53,200",
+      "148,291",
+      "6,454",
+      "Jaywick",
+      "Holland-on-Sea",
+      "Great Clacton",
+      "Bocking's Elm",
+      "Frinton-on-Sea",
+      "potential field",
+      "local minimum"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap building outlines (ODbL) fetched through the Overpass API for a box in Clacton-on-Sea.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas, villages and towns in Tendring.",
+        "url": "https://api.postcodes.io/places?q=Jaywick"
+      }
+    ],
+    "rejectedClaims": [
+      "Pier, beach, tourism or seafront facts: not read from a source; not claimed.",
+      "That the grid shows walkable routes: not claimed; fences, water and private land are ignored.",
+      "That potential fields are useless: not claimed; successful trips were about as short as the shortest path.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-bebington": {
+    "market": "Bebington",
+    "bodyClass": "cg-bbt",
+    "pageType": "city",
+    "curriculumAuthority": "Wirral (E08000015). ONS 2021 BUAs (published): Bebington 57,600; Heswall 29,075. postcodes.io suburban areas (nearest OA centroid in the Bebington BUA, our check): Higher Bebington, Lower Bebington, Port Sunlight, New Ferry, Spital, Bromborough, Eastham, Raby Mere, Bromborough Pool. Dacre Hill and Rock Ferry fall in the Birkenhead BUA.",
+    "localProject": "Census 2021 TS044 for 1,080 Wirral OAs: 143,257 households, 16,988 in purpose-built flats, 402 OAs with none; ONS OA PWC. Gi* on flat share, area plus K closest: K=4 94 hot / 0 cold (Bebington BUA, 195 OAs: 3 hot); K=8 114 hot (Birkenhead 78, Wallasey 24, West Kirby 8, Hoylake 3, Heswall 1) / 0 cold (min z -1.95), Bebington 0; 67 above 2.58; 22 above 4.07; 24 hot with own share below mean, 5 with zero; K=16 115 hot / 98 cold, Bebington 1 hot 13 cold. 200 shuffles at K=8: mean 43.2 hot, max 80. Lesson family: Getis-Ord Gi* hot spot analysis.",
+    "requiredMentions": [
+      "Getis-Ord",
+      "hot spot",
+      "57,600",
+      "143,257",
+      "16,988",
+      "1,080",
+      "Port Sunlight",
+      "New Ferry",
+      "Higher Bebington",
+      "Bromborough"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS044 accommodation type at output area level via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS Output Areas (December 2021) population-weighted centroids and OA to built-up area lookup, Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas on Wirral.",
+        "url": "https://api.postcodes.io/places?q=Port%20Sunlight"
+      }
+    ],
+    "rejectedClaims": [
+      "Why flats cluster where they do: no cause claimed.",
+      "That Bebington has no hot spots: true at 8 neighbours only; 3 at 4 neighbours and 1 at 16, all stated.",
+      "Port Sunlight village history, soap works or gallery: not read from a source; not claimed.",
+      "Dacre Hill and Rock Ferry as Bebington suburbs: their closest output areas are in the Birkenhead built-up area.",
+      "Sum of the Wirral built-up areas: not added.",
+      "Exam results, named schools and sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-brentwood": {
+    "market": "Brentwood",
+    "bodyClass": "cg-bwd",
+    "pageType": "city",
+    "curriculumAuthority": "Brentwood (E07000068), Census 2021 TS001 usual residents 77,047. ONS 2021 BUA (published): Brentwood 55,340. English national curriculum, GCSE and A level. postcodes.io (Brentwood): Shenfield, Pilgrims' Hatch (CM15), Hutton, Warley (CM13), Brook Street (CM14) suburban areas; Ingatestone (CM4), Great Warley (CM13) villages.",
+    "localProject": "OS Code-Point Open 2026.3.0, cm.csv, 2,144 postcodes with district code E07000068. Nearest other postcode for each. cProfile on version 1: 9,193,940 calls in 6.495 s; dist() 4,594,592 calls, 4.386 s cumulative (67.5%); double loop body 1.985 s (30.6%); file load 0.121 s (1.9%). Unprofiled medians of 5: v1 3.54 s; v2 inline squared distance 1.04 s (3.4x); v3 500 m grid 0.11 s (32x), 291,987 pair checks (6.36%). Identical results for all 2,144. Lesson family: profiling with cProfile, hotspots, measure before optimising.",
+    "requiredMentions": [
+      "77,047",
+      "55,340",
+      "2,144",
+      "4,594,592",
+      "Shenfield",
+      "Hutton",
+      "Brook Street",
+      "Ingatestone",
+      "Great Warley",
+      "cProfile"
+    ],
+    "sources": [
+      {
+        "claim": "OS Code-Point Open, version 2026.3.0 (Ordnance Survey, Open Government Licence).",
+        "url": "https://www.ordnancesurvey.co.uk/products/code-point-open"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and villages in Brentwood.",
+        "url": "https://api.postcodes.io/places?q=Shenfield"
+      }
+    ],
+    "rejectedClaims": [
+      "That the timings hold on other machines: not claimed; one laptop, stated.",
+      "That the 2,144 postcodes are every postcode in the borough: not claimed; they are the Brentwood-coded rows of the CM file.",
+      "That the grid is the fastest possible method: not claimed.",
+      "Commuting, rail services and local history: not read from a source; not claimed.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-kidderminster": {
+    "market": "Kidderminster",
+    "bodyClass": "cg-kdm",
+    "pageType": "city",
+    "curriculumAuthority": "Wyre Forest (E07000239), Worcestershire. ONS 2021 BUAs (published): Kidderminster 57,560; Stourport-on-Severn 20,305; Bewdley 8,280. postcodes.io suburban areas (nearest OA centroid in the Kidderminster BUA, our check): Franche, Habberley, Foley Park, Comberton, Aggborough, Spennells, Broadwaters, Offmore Farm, Greenhill, Hoobrook, Sutton Farm, Blakebrook, Birchen Coppice; villages Wolverley, Cookley, Blakedown (own BUAs).",
+    "localProject": "Census 2021 for 338 Wyre Forest OAs: residents 101,617 (our sum), households 45,307, one-person 14,367, purpose-built flats 4,464 (120 OAs none). Agent estimates a total from m OAs, 5,000 repeats, seed 2026, RMSE % of truth. Residents, uniform / household-weighted with 1/p correction: m=5 9.4/5.9; 10 6.7/4.2; 20 4.6/3.0; 40 3.3/2.1; 80 2.3/1.4; inverse weights m=20 9.1. Flats m=20: uniform 38.6; household-weighted 35.9; one-person-weighted 26.9. Bias under 0.5% throughout. Lesson family: importance sampling / PPS.",
+    "requiredMentions": [
+      "importance sampling",
+      "57,560",
+      "101,617",
+      "45,307",
+      "4,464",
+      "26.9%",
+      "Franche",
+      "Habberley",
+      "Spennells",
+      "Foley Park"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 usual residents, TS017 and TS044 at output area level via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS Output Area (2021) to Built-up Area (2022) lookup and population-weighted centroids, Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and villages in Wyre Forest.",
+        "url": "https://api.postcodes.io/places?q=Franche"
+      }
+    ],
+    "rejectedClaims": [
+      "That 101,617 is the official population of Wyre Forest: it is our sum of output areas, used only as the target for the agent.",
+      "Carpet industry, canal, railway or safari park claims: not read from a source; not claimed.",
+      "That weighted sampling always helps: with household weights the flats estimate barely improved, and inverse weights made residents worse; both stated.",
+      "Wolverley, Cookley and Blakedown as parts of Kidderminster: each has its own ONS built-up area.",
+      "Sum of the three built-up areas: not added.",
+      "Exam results and sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-beeston": {
+    "market": "Beeston",
+    "bodyClass": "cg-bst",
+    "pageType": "city",
+    "curriculumAuthority": "Broxtowe (E07000172), Census 2021 TS001 usual residents 110,940. ONS 2021 BUAs (published): Beeston (Broxtowe) 52,355; Eastwood 18,890; Stapleford 15,045; Nuthall and Watnall 9,585. postcodes.io (Broxtowe): Chilwell, Bramcote, Attenborough, Toton (suburban areas); Stapleford, Kimberley, Eastwood (towns).",
+    "localProject": "FSA food hygiene ratings API, Broxtowe (authority id 79), read 30 September 2026: 812 records, 535 with an NG9 postcode field (91 of them the partial \"NG9\" only). OS Code-Point Open: 1,671 NG9 postcodes. Nested-loop join with early exit 482,587 comparisons (893,985 without). Sort-merge: 4,011 + 1,701 to sort, 3,858 to merge, 9,570 total, about 50 times fewer. Both match 442; 93 unmatched (91 partial keys, 2 full postcodes not in Code-Point Open). Postcodes only; no business named. Lesson family: sort-merge join, two pointers, nested-loop join.",
+    "requiredMentions": [
+      "52,355",
+      "110,940",
+      "482,587",
+      "9,570",
+      "Chilwell",
+      "Bramcote",
+      "Attenborough",
+      "Toton",
+      "Stapleford",
+      "sort-merge"
+    ],
+    "sources": [
+      {
+        "claim": "Food Standards Agency food hygiene ratings open data API, establishments for Broxtowe.",
+        "url": "https://api.ratings.food.gov.uk/help"
+      },
+      {
+        "claim": "Ordnance Survey Code-Point Open postcode data (Open Government Licence).",
+        "url": "https://www.ordnancesurvey.co.uk/products/code-point-open"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and towns in Broxtowe.",
+        "url": "https://api.postcodes.io/places?q=Chilwell"
+      }
+    ],
+    "rejectedClaims": [
+      "Any named business or any hygiene rating: not used; postcodes only.",
+      "Why some records carry a partial postcode: stated only as the agency publishing a partial address, no further reason claimed.",
+      "University, tram or employer facts: not read from a source; not claimed.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-stourbridge": {
+    "market": "Stourbridge",
+    "bodyClass": "cg-sbg",
+    "pageType": "city",
+    "curriculumAuthority": "Dudley (E08000027), West Midlands. ONS 2021 BUAs (published): Stourbridge 56,950; Kingswinford 51,910. postcodes.io suburban areas (nearest OA centroid in the Stourbridge BUA, our check): Amblecote, Wollaston, Pedmore, Norton, Lye, Wollescote, Stambermill, Old Swinford. Wordsley falls in the Kingswinford BUA.",
+    "localProject": "Census 2021 OA residents and ONS OA PWC for the 186 OAs of the Stourbridge BUA (56,961 residents, our sum). Weighted mean centre 390495, 283903 (SO 904 839); SDE semi-axes 1,409 m / 904 m (ratio 1.56), bearing 110.3; 28.8% of residents inside (52.0% at root-two scale); unweighted centre 73 m away; dropping 5 farthest OAs: 1,370 / 905, bearing 110.4. Dudley-borough parts of other BUAs: Halesowen 1,733 / 974 (1.78, 69.3); Sedgley 1,296 / 621 (2.09, 4.5); Kingswinford 1,202 / 1,051 (1.14); Brierley Hill 909 / 769 (1.18). Lesson family: mean centre and standard deviational ellipse.",
+    "requiredMentions": [
+      "standard deviational ellipse",
+      "mean centre",
+      "56,950",
+      "56,961",
+      "1,409",
+      "110.3",
+      "Amblecote",
+      "Wollaston",
+      "Pedmore",
+      "Old Swinford"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 usual residents at output area level via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS Output Areas (December 2021) population-weighted centroids and OA to built-up area lookup, Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in the borough of Dudley.",
+        "url": "https://api.postcodes.io/places?q=Amblecote"
+      }
+    ],
+    "rejectedClaims": [
+      "That the ellipse is a boundary of Stourbridge: it is a statistical summary only; stated on the page.",
+      "Bearings for Kingswinford and Brierley Hill: shapes too close to round for a stable direction; withheld.",
+      "Glassmaking, canal or market history: not read from a source; not claimed.",
+      "What stands at the mean centre: no building or street was identified or named.",
+      "Wordsley as a Stourbridge suburb: its closest output area is in the Kingswinford built-up area.",
+      "Sum of the borough's built-up areas: not added.",
+      "Exam results and sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-banbury": {
+    "market": "Banbury",
+    "bodyClass": "cg-bnb",
+    "pageType": "city",
+    "curriculumAuthority": "Cherwell (E07000177), Census 2021 TS001 usual residents 161,016. ONS 2021 BUAs of 6,000+ (published): Banbury 52,045; Bicester 37,755; Kidlington 14,640. postcodes.io (Cherwell): Grimsbury, Neithrop, Easington, Ruscote, Hardwick, Calthorpe (suburban areas); Bodicote, Adderbury (villages).",
+    "localProject": "OpenStreetMap roads (trunk to residential, no motorway), rail, rivers and canals via one Overpass query, box 52.035-52.085 N, 1.375-1.295 W. Largest connected road network 229.7 km, 2,747 junctions and road ends, 3,129 links. Laplacian second-smallest eigenvalue 0.00035. Fiedler sign split 1,515 / 1,232, 12 links cut; median split 1,373 / 1,374, 12 cut. Straight-line median halves: east/west 27 cut, north/south 44. Random halves 1,349 / 1,398, 1,535 cut. 14 links cross rail, river or canal; none is among the 12; removing the 14 leaves 2,289 and 409 plus fragments. Lesson family: spectral clustering, Fiedler vector, graph partitioning.",
+    "requiredMentions": [
+      "52,045",
+      "161,016",
+      "2,747",
+      "3,129",
+      "Grimsbury",
+      "Neithrop",
+      "Ruscote",
+      "Bodicote",
+      "Calthorpe",
+      "Fiedler"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap roads, railways and waterways (ODbL) fetched through the Overpass API for a box around Banbury.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and villages in Cherwell.",
+        "url": "https://api.postcodes.io/places?q=Grimsbury"
+      }
+    ],
+    "rejectedClaims": [
+      "Which named streets or neighbourhoods fall on each side of the cut: not published; the cut is a property of our box and graph.",
+      "Banbury Cross, market, motorway or rail service facts: not read from a source; not claimed.",
+      "That the 12-link cut is the smallest possible balanced cut: not claimed; spectral methods give a good cut, not a proven optimum.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-barrow-in-furness": {
+    "market": "Barrow-in-Furness",
+    "bodyClass": "cg-bif",
+    "pageType": "city",
+    "curriculumAuthority": "Barrow-in-Furness district, 2022 boundary (E07000027), Census 2021 TS001 usual residents 67,407. ONS 2021 BUA (published): Barrow-in-Furness 55,255. English national curriculum, GCSE and A level. postcodes.io lists the town under Westmorland and Furness; suburban areas Vickerstown, Hawcoat, Ormsgill, Hindpool, Barrow Island, North Scale (LA14), Roose, Newbarns (LA13).",
+    "localProject": "Census 2021 TS017 (three-person household share) and TS044 (detached share) for 246 OAs, 31,263 households. Spearman rank correlation: all 246 0.040 (Pearson 0.005); top 62 by rank sum -0.702; remaining 184 -0.257; top quarter on either measure (114) -0.591; 2,000 random shortlists of 62: median 0.038, middle 95% -0.175 to 0.256, lowest -0.311. Lesson family: Berkson's paradox, selection (collider) bias in training data.",
+    "requiredMentions": [
+      "67,407",
+      "55,255",
+      "31,263",
+      "Vickerstown",
+      "Hawcoat",
+      "Ormsgill",
+      "Hindpool",
+      "Newbarns",
+      "North Scale",
+      "Berkson"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS017, TS044 and TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas of Barrow-in-Furness, listed under Westmorland and Furness.",
+        "url": "https://api.postcodes.io/places?q=Hawcoat"
+      },
+      {
+        "claim": "Berkson J. (1946), Limitations of the application of fourfold table analysis to hospital data, Biometrics Bulletin 2(3), 47 to 53.",
+        "url": "https://doi.org/10.2307/3002000"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reason why three-person households and detached homes are unrelated here: none claimed.",
+      "That the pattern would appear with any two measures: not tested beyond this pair; the pair was chosen for its near-zero correlation, and the page says so.",
+      "Shipbuilding, the docks and local employers: not read from a source; not claimed.",
+      "Any description of residents beyond household size and type of home: none used.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-sittingbourne": {
+    "market": "Sittingbourne",
+    "bodyClass": "cg-sit",
+    "pageType": "city",
+    "curriculumAuthority": "Swale (E07000113), Census 2021 TS001 usual residents 151,676. ONS 2021 BUA (published): Sittingbourne 54,390. English national curriculum, GCSE and A level. postcodes.io (Swale) suburban areas: Milton Regis, Kemsley, Murston, Chalkwell, Snipeshill, Grove Park (ME10), Bapchild (ME9).",
+    "localProject": "Invented leaflet drop over the 162 ONS centroids of the Sittingbourne BUA (21,521 households, TS017); depot = centre closest to the mean; 161 stops, 21,414 leaflets; straight-line. One trip per stop 478.2 km. Capacity 3,000: closest-next 8 trips 64.7 km; Clarke-Wright savings 8 trips 53.8 km (153 merges, 12,880 pairs). Capacity 2,000: 11 trips 81.5 km against 12 trips 64.1 km. Capacity 5,000: 5 trips 56.8 km against 5 trips 45.5 km. Top saving 5.09 km. Lesson family: Clarke-Wright savings algorithm, capacitated vehicle routing.",
+    "requiredMentions": [
+      "151,676",
+      "54,390",
+      "21,521",
+      "Milton Regis",
+      "Kemsley",
+      "Murston",
+      "Bapchild",
+      "Chalkwell",
+      "Snipeshill",
+      "Clarke-Wright"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS017 and TS001 via Nomis; ONS 2021 built-up area populations; ONS output area centroids and lookups (Open Geography Portal).",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "Clarke G. and Wright J. W. (1964), Scheduling of vehicles from a central depot to a number of delivery points, Operations Research 12(4), 568 to 581.",
+        "url": "https://doi.org/10.1287/opre.12.4.568"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Swale.",
+        "url": "https://api.postcodes.io/places?q=Milton%20Regis"
+      }
+    ],
+    "rejectedClaims": [
+      "That any plan here is the shortest possible: not proved, not claimed.",
+      "Road distances or driving times: none used; straight lines only.",
+      "That a real leaflet drop or depot exists: the scenario is invented and the page says so.",
+      "Paper mills, the creek and local industry: not read from a source; not claimed.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

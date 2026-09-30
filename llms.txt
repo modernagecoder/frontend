@@ -1185,6 +1185,26 @@ USD 100 a month small group, USD 150 a month one to one.
 - Twickenham, London: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-twickenham-london
 - Dulwich, London: https://learn.modernagecoders.com/ai-and-programming-classes-in-dulwich-london
 - Chiswick, London: https://learn.modernagecoders.com/online-coding-and-python-classes-in-chiswick-london
+- Barry, Wales: https://learn.modernagecoders.com/ai-and-programming-classes-in-barry
+- Widnes, England: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-widnes
+- Bootle, Merseyside: https://learn.modernagecoders.com/ai-and-programming-classes-in-bootle
+- Huyton with Roby, England: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-huyton-with-roby
+- Carlton, Nottinghamshire: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-carlton
+- Smethwick, West Midlands: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-smethwick
+- Torquay, Devon: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-torquay
+- Scarborough, England: https://learn.modernagecoders.com/online-coding-and-python-classes-in-scarborough
+- Weymouth, Dorset: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-weymouth
+- Macclesfield, Cheshire: https://learn.modernagecoders.com/online-coding-and-python-classes-in-macclesfield
+- Gravesend, England: https://learn.modernagecoders.com/ai-and-programming-classes-in-gravesend
+- Clacton-on-Sea, Essex: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-clacton-on-sea
+- Bebington, England: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-bebington
+- Brentwood, Essex: https://learn.modernagecoders.com/online-coding-and-python-classes-in-brentwood
+- Kidderminster, England: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-kidderminster
+- Beeston, Nottinghamshire: https://learn.modernagecoders.com/online-coding-and-python-classes-in-beeston
+- Stourbridge, England: https://learn.modernagecoders.com/online-coding-and-python-classes-in-stourbridge
+- Banbury, Oxfordshire: https://learn.modernagecoders.com/ai-and-programming-classes-in-banbury
+- Barrow-in-Furness, Cumbria: https://learn.modernagecoders.com/ai-and-programming-classes-in-barrow-in-furness
+- Sittingbourne, Kent: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-sittingbourne
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).

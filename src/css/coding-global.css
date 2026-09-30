@@ -1397,3 +1397,23 @@
 .cg-root.cg-twk  { --cg-accent: #2F5D8A; --cg-accent-soft: rgba(47,93,138,.10); }   /* Twickenham: a river blue (6.88:1 contrast), chosen by hand and unused elsewhere in the cluster */
 .cg-root.cg-dlw  { --cg-accent: #7B3F61; --cg-accent-soft: rgba(123,63,97,.10); }   /* Dulwich: a mulberry (7.6:1 contrast), chosen by hand and unused elsewhere in the cluster */
 .cg-root.cg-csk  { --cg-accent: #5B4BB0; --cg-accent-soft: rgba(91,75,176,.10); }   /* Chiswick: a wisteria violet (6.4:1 contrast), chosen by hand and unused elsewhere in the cluster */
+.cg-root.cg-bay  { --cg-accent: #0F5F6B; --cg-accent-soft: rgba(15,95,107,.10); }   /* Barry: a deep petrol teal (7.32:1 contrast), chosen by hand to stand apart from recent accents */
+.cg-root.cg-wdn  { --cg-accent: #7A3B12; --cg-accent-soft: rgba(122,59,18,.10); }   /* Widnes: a burnt umber (8.05:1 contrast), hand-picked and unused elsewhere */
+.cg-root.cg-btl  { --cg-accent: #8B2A1A; --cg-accent-soft: rgba(139,42,26,.10); }   /* Bootle: a brick red (8.6:1 contrast on white), chosen by hand as unused and far from the other Phase 10 accents */
+.cg-root.cg-hyr  { --cg-accent: #0F5E4A; --cg-accent-soft: rgba(15,94,74,.10); }   /* Huyton with Roby: a deep pine green (7.28:1 contrast), hand-picked and unused elsewhere */
+.cg-root.cg-cto  { --cg-accent: #1D4E2B; --cg-accent-soft: rgba(29,78,43,.10); }   /* Carlton: a deep forest green (9.6:1 contrast on white), chosen by hand as unused and distinct from the other Phase 10 accents */
+.cg-root.cg-smk  { --cg-accent: #7A2E1F; --cg-accent-soft: rgba(122,46,31,.10); }   /* Smethwick: a dark brick red-brown (9.38:1 contrast), chosen by hand to stand apart from recent accents */
+.cg-root.cg-tqy  { --cg-accent: #7A1F3D; --cg-accent-soft: rgba(122,31,61,.10); }   /* Torquay: a dark raspberry (10.0:1 contrast on white), chosen by hand as unused and apart from the other Phase 10 accents */
+.cg-root.cg-scb  { --cg-accent: #1F5A86; --cg-accent-soft: rgba(31,90,134,.10); }   /* Scarborough: a North Sea blue (6.93:1 contrast), hand-picked and unused elsewhere */
+.cg-root.cg-mcf  { --cg-accent: #34457A; --cg-accent-soft: rgba(52,69,122,.10); }   /* Macclesfield: a slate indigo (9.2:1 contrast on white), chosen by hand as unused and separate from the other Phase 10 accents */
+.cg-root.cg-wym  { --cg-accent: #1A5FA0; --cg-accent-soft: rgba(26,95,160,.10); }   /* Weymouth: a clear harbour blue (6.59:1 contrast), chosen by hand to stand apart from recent accents */
+.cg-root.cg-gvd  { --cg-accent: #6B4A0E; --cg-accent-soft: rgba(107,74,14,.10); }   /* Gravesend: a dark ochre (7.59:1 contrast), hand-picked and unused elsewhere */
+.cg-root.cg-cos  { --cg-accent: #125E66; --cg-accent-soft: rgba(18,94,102,.10); }   /* Clacton-on-Sea: a deep sea teal (7.5:1 contrast on white), chosen by hand as unused and unlike the other Phase 10 accents */
+.cg-root.cg-bbt  { --cg-accent: #2A6B1A; --cg-accent-soft: rgba(42,107,26,.10); }   /* Bebington: a leaf green (6.16:1 contrast), hand-picked and unused elsewhere */
+.cg-root.cg-bwd  { --cg-accent: #6B4E00; --cg-accent-soft: rgba(107,78,0,.10); }   /* Brentwood: a dark ochre brown (7.74:1 contrast), chosen by hand to stand apart from recent accents */
+.cg-root.cg-kdm  { --cg-accent: #8E2D44; --cg-accent-soft: rgba(142,45,68,.10); }   /* Kidderminster: a madder red (7.59:1 contrast), hand-picked and unused elsewhere */
+.cg-root.cg-bst  { --cg-accent: #6A5A00; --cg-accent-soft: rgba(106,90,0,.10); }   /* Beeston: a dark olive gold (6.8:1 contrast on white), chosen by hand as unused and well apart from the other Phase 10 accents */
+.cg-root.cg-sbg  { --cg-accent: #2F5D62; --cg-accent-soft: rgba(47,93,98,.10); }   /* Stourbridge: a dark glass teal (6.92:1 contrast), hand-picked and unused elsewhere */
+.cg-root.cg-bnb  { --cg-accent: #864313; --cg-accent-soft: rgba(134,67,19,.10); }   /* Banbury: a burnt sienna (7.4:1 contrast on white), chosen by hand as unused and distinct from the other Phase 10 accents */
+.cg-root.cg-bif  { --cg-accent: #2D5A3C; --cg-accent-soft: rgba(45,90,60,.10); }   /* Barrow-in-Furness: a deep fell green (7.96:1 contrast), chosen by hand to stand apart from recent accents */
+.cg-root.cg-sit  { --cg-accent: #5A4A2A; --cg-accent-soft: rgba(90,74,42,.10); }   /* Sittingbourne: a dark paper-bag brown (8.58:1 contrast), chosen by hand to stand apart from recent accents */
