@@ -36027,5 +36027,89 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-eastleigh": {
+    "market": "Eastleigh",
+    "bodyClass": "cg-esl",
+    "pageType": "city",
+    "curriculumAuthority": "Eastleigh (E07000086), Census 2021 TS001 usual residents 136,443. ONS 2021 BUAs in the borough (published): Eastleigh 48,360; Hedge End 23,190; West End 10,870; Bursledon 8,070; Netley 6,305. The Southampton and Chandler's Ford built-up areas lie mostly or partly outside the borough and are excluded. postcodes.io (Eastleigh): Eastleigh (town); Boyatt Wood, Bishopstoke, Fair Oak, Allbrook, Hiltingbury (suburban areas); Horton Heath, Crowdhill (villages); North Stoneham (other settlement).",
+    "localProject": "Copernicus EU-DEM v1.1 via OpenTopoData eudem25m. West-east line at 50.969 N, 1.405 W to 1.295 W: 309 points about 25 m apart, 7.7 km, 9 to 49 m. South-north line at 1.353 W, 50.940 N to 51.000 N: 267 points, 6.7 km, 2 to 76 m. Heights rounded to whole metres: 576 heights, 574 steps. Steps: 0 m 348 (60.6%), +1 130, -1 71, +2 15, -2 7, +3 1, -3 1, -4 1. 7-bit heights 4,032 bits; 3-bit steps 1,722; whole-bit prefix (Huffman) code 936 (1.631 per step; flat step 1 bit, information about 0.72 bit); entropy 1.559 bits per step, 894.7 total; arithmetic coder with exact fractions 896 bits (1.561), round trip verified; adaptive without context 929; adaptive with previous step as context 884 (1.540); two-step context about 928. Flat after flat 67.5%. Lesson family: arithmetic coding, fractional bits, adaptive context models, prediction as compression.",
+    "requiredMentions": [
+      "48,360",
+      "136,443",
+      "Boyatt Wood",
+      "Bishopstoke",
+      "Fair Oak",
+      "Allbrook",
+      "Hiltingbury",
+      "Horton Heath",
+      "arithmetic coding",
+      "894.7",
+      "4,032"
+    ],
+    "sources": [
+      {
+        "claim": "Copernicus EU-DEM v1.1 elevation model, read through the OpenTopoData eudem25m API.",
+        "url": "https://www.opentopodata.org/datasets/eudem/"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas, villages and settlements in Eastleigh borough.",
+        "url": "https://api.postcodes.io/places?q=Boyatt%20Wood"
+      }
+    ],
+    "rejectedClaims": [
+      "What lies along the two lines (rivers, railways, hills by name): not read; only heights are reported.",
+      "Eastleigh railway works or airport history: not read from a source; not claimed.",
+      "That Eastleigh is the largest settlement in the borough: not claimed; part of the Southampton built-up area lies inside the borough.",
+      "That arithmetic coding always beats a whole-bit code by this margin: not claimed; the gain depends on the data.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-thundersley-and-south-benfleet": {
+    "market": "Thundersley and South Benfleet",
+    "bodyClass": "cg-tsb",
+    "pageType": "city",
+    "curriculumAuthority": "Castle Point (E07000069), Essex, Census 2021 TS001 usual residents 89,587. ONS 2021 BUA (published): Thundersley and South Benfleet 49,885. English national curriculum, GCSE and A level. postcodes.io (Castle Point, SS7): Thundersley, South Benfleet (other settlements), New Thundersley (suburban area), Tarpots, Hadleigh, Daws Heath (villages).",
+    "localProject": "OSM via Overpass (read 30 September 2026), bbox 51.543,0.542,51.581,0.604: 858 highway ways, network 145.9 km; 108 bus stops (all with NaPTAN codes) on 105 road points; start and finish Benfleet railway station node. Our scoring rule: 10 points under 1 km straight-line from the station (14 stops), 20 for 1 to 2 km (15), 30 beyond (79); 2,810 on offer. Points (stops) by budget, road distances: 4 km closest-next 200 (15), points-per-metre 220 (17), insertion plus 2-opt 220 (17), remove and repair x300 220 (17); 6 km 330 (20), 330 (20), 340 (23), 390 (25); 8 km 630 (30), 820 (39), 620 (33), 840 (39); 10 km 780 (35), 980 (45), 1,010 (46), 1,020 (46). True maximum unknown. Lesson family: orienteering problem, prize collecting under a budget, greedy vs improvement search.",
+    "requiredMentions": [
+      "49,885",
+      "89,587",
+      "New Thundersley",
+      "Tarpots",
+      "Hadleigh",
+      "Daws Heath",
+      "orienteering problem",
+      "108 bus stops",
+      "2,810",
+      "145.9"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap road, bus stop and station data via the Overpass API, (C) OpenStreetMap contributors, ODbL.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: Thundersley, South Benfleet and the named places in Castle Point.",
+        "url": "https://api.postcodes.io/places?q=Thundersley"
+      }
+    ],
+    "rejectedClaims": [
+      "That any of the four routes is optimal: not claimed; the true maximum is unknown and stated as such.",
+      "Bus routes, timetables, frequencies or the quality of any stop: not used; stops are only points with a score of our own making.",
+      "That OpenStreetMap lists every bus stop in the area: not claimed; the 108 are those mapped inside the box on the day read.",
+      "Walking times or safety of any road: not claimed; only road-network distances are used.",
+      "That the listed villages are parts of Thundersley or South Benfleet: not claimed; they are listed as recorded in Castle Point.",
+      "Named schools, term dates and sterling prices: none."
+    ]
   }
 }

@@ -1433,3 +1433,5 @@
 .cg-root.cg-adv  { --cg-accent: #3A6C0A; --cg-accent-soft: rgba(58,108,10,.10); }   /* Andover: a deep leaf green (6.3:1 contrast on white), selected by hand to stand apart from accents in use */
 .cg-root.cg-yvl  { --cg-accent: #A8410A; --cg-accent-soft: rgba(168,65,10,.10); }   /* Yeovil: a burnt orange (6.13:1 on white), set by hand; brighter and redder than the browns used nearby in the list */
 .cg-root.cg-lms  { --cg-accent: #8A0E48; --cg-accent-soft: rgba(138,14,72,.10); }   /* Royal Leamington Spa: a deep raspberry (9.39:1 contrast), picked by hand and checked for distance from every accent in use */
+.cg-root.cg-esl  { --cg-accent: #073084; --cg-accent-soft: rgba(7,48,132,.10); }   /* Eastleigh: a dark royal blue (11.9:1 contrast on white), fixed by hand at a clear distance from every accent in use */
+.cg-root.cg-tsb  { --cg-accent: #0B6A85; --cg-accent-soft: rgba(11,106,133,.10); }   /* Thundersley and South Benfleet: a clear cyan-blue (6.15:1 on white), chosen by hand; lighter and bluer than the dark teals already in use */

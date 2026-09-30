@@ -508,7 +508,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 463 | online-coding-and-python-classes-in-wigston-leicester (wgs, #854D0E) | cg- town page | 2,669 | 2.4% vs ai-and-programming-classes-in-edgware-london | how few points can still draw a boundary? | Visvalingam-Whyatt, line simplification, effective area heap | 35c11f64 |
 | 464 | ai-and-programming-classes-in-evington-leicester (evn, #0B5C73) | cg- town page | 2,798 | 1.4% vs ai-and-programming-classes-in-barry | how can a program find the odd ones out with no labels? | isolation forest, unsupervised anomaly detection, seed stability | d5b0224c |
 | 465 | best-coding-and-ai-classes-in-clifton-bristol (clf, #3F6212) | cg- town page | 2,786 | 1.4% vs ai-and-programming-classes-in-roundhay-leeds | can you find where you are from height alone? | particle filter, Monte Carlo localisation, dead reckoning drift | 8fb31513 |
-| 466 | vibe-coding-and-ai-agents-classes-in-bishopston-bristol (bsp, #1E3A8A) | cg- town page | 2,834 | 1.3% vs vibe-coding-and-ai-agents-classes-in-keighley | which road was a noisy GPS trace really on? | Viterbi map matching, hidden Markov model, nearest-road baseline | (this commit) |
+| 466 | vibe-coding-and-ai-agents-classes-in-bishopston-bristol (bsp, #1E3A8A) | cg- town page | 2,834 | 1.3% vs vibe-coding-and-ai-agents-classes-in-keighley | which road was a noisy GPS trace really on? | Viterbi map matching, hidden Markov model, nearest-road baseline | 96a3c19a |
+| 467 | online-coding-and-python-classes-in-kingswood-bristol (kws, #1F5E8C) | cg- town page | 2,728 | 1.9% vs online-coding-and-python-classes-in-coatbridge | how do photo apps pull detail out of a flat picture? | histogram equalisation, CDF remapping, image contrast | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
