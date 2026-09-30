@@ -493,7 +493,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 441 | best-coding-and-ai-classes-in-stanmore-london (stn, #2F3F8F) | cg- town page | 2,806 | 2.2% vs best-coding-and-ai-classes-in-gosport | If an AI copies an expert at nearly every step, why does it still fail the whole task? | imitation learning, behaviour cloning, compounding errors | 679a0963 |
 | 442 | vibe-coding-and-ai-agents-classes-in-pinner-london (pnr, #56650B) | cg- town page | 2,835 | 1.4% vs vibe-coding-and-ai-agents-classes-in-kings-heath-birmingham | should an agent plan in outline first, and what does that shortcut cost? | hierarchical planning, subgoals, coarse-to-fine routing | 238d0fec |
 | 443 | online-coding-and-python-classes-in-hayes-london (hys, #8A4B00) | cg- town page | 2,928 | 1.5% vs online-coding-and-python-classes-in-malone-belfast | which average survives a freak value? | robust statistics, trimmed mean, median absolute deviation, breakdown point | 27afeaf7 |
-| 444 | ai-and-programming-classes-in-wimbledon-london (wim, #0A6B4F) | cg- town page | 2,858 | 1.6% vs online-coding-and-python-classes-in-runcorn | how much does a tuned model flatter itself? | nested cross-validation, selection optimism | (this commit) |
+| 444 | ai-and-programming-classes-in-wimbledon-london (wim, #0A6B4F) | cg- town page | 2,858 | 1.6% vs online-coding-and-python-classes-in-runcorn | how much does a tuned model flatter itself? | nested cross-validation, selection optimism | e76f8957 |
+| 445 | best-coding-and-ai-classes-in-finchley-london (fnc, #9B2D20) | cg- town page | 2,844 | 2% vs vibe-coding-and-ai-agents-classes-in-bognor-regis | why can a great ROC score still mean mostly false alarms? | precision-recall curve, average precision vs ROC AUC, rare positives | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
