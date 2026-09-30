@@ -34517,7 +34517,7 @@
     "bodyClass": "cg-bay",
     "pageType": "city",
     "curriculumAuthority": "Vale of Glamorgan (W06000014), Census 2021 TS001 usual residents 131,939. ONS 2021 BUA (published): Barry 56,605. Curriculum for Wales, WJEC GCSE and A level. postcodes.io (Vale of Glamorgan): Cadoxton, Gibbonsdown, Palmerstown, Barry Dock (CF63); Colcot, Barry Island, Merthyr Dyfan (CF62), suburban areas.",
-    "localProject": "Census 2021 TS017 (NM_2037_1), 434 Vale of Glamorgan OAs, 57,452 households, 8 sizes; OA-LSOA-MSOA lookup (82 LSOAs, 15 MSOAs). Cells under 5 / households: OA x 8 sizes 571 / 1,134 (1.97%), 930 empty of 3,472; OA x 5 groups 146 / 430 (0.75%); OA x 3 groups 0; LSOA x 8 sizes 109 / 209 (0.36%); LSOA x 5 groups 0 (smallest 12). k 10 at full detail: 854 cells, 3,033 households (5.28%). Lesson family: k-anonymity, quasi-identifiers, generalisation.",
+    "localProject": "Census 2021 TS017 (NM_2037_1), 434 Vale of Glamorgan OAs, OA rows sum to 57,452 households (published LAD total 57,446), 8 sizes; OA-LSOA-MSOA lookup (82 LSOAs, 15 MSOAs). Of the 571 cells under 5, 555 are sizes 5 and over (5: 176, 6: 250, 7: 91, 8+: 38; 3: 5, 4: 11). Cells under 5 / households: OA x 8 sizes 571 / 1,134 (1.97%), 930 empty of 3,472; OA x 5 groups 146 / 430 (0.75%); OA x 3 groups 0; LSOA x 8 sizes 109 / 209 (0.36%); LSOA x 5 groups 0 (smallest 12). k 10 at full detail: 854 cells, 3,033 households (5.28%). Lesson family: k-anonymity, quasi-identifiers, generalisation.",
     "requiredMentions": [
       "56,605",
       "131,939",
