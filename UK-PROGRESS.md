@@ -520,7 +520,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 479 | online-coding-and-python-classes-in-west-bridgford-nottingham (wbf, #1F5C4A) | cg- town page | 2,885 | 1.7% vs online-coding-and-python-classes-in-wigston-leicester | how does a program match the same street written two ways? | record linkage, fuzzy matching, SequenceMatcher thresholds | b4247a6f |
 | 480 | ai-and-programming-classes-in-earlsdon-coventry (eds, #2A5C7A) | cg- town page | 2,806 | 1.6% vs ai-and-programming-classes-in-barry | can a model say how unsure it is between measurements? | Gaussian process regression, kriging, inverse distance weighting | 88e2309e |
 | 453 | best-coding-and-ai-classes-in-moseley-birmingham (msy, #2F4F4F) | cg- town page | 2,783 | 2.1% vs best-coding-and-ai-classes-in-withington-manchester | how many clusters are there, and can a score tell you? | silhouette score, choosing k, cluster validity | 1c49e84a |
-| 470 | vibe-coding-and-ai-agents-classes-in-morningside-edinburgh (mrn, #5E4B8A) | cg- town page | 2,828 | 1.6% vs ai-and-programming-classes-in-leith-edinburgh | how should an agent choose when it does not know what will happen? | decision rules under uncertainty, maximin, minimax regret, expected value | (this commit) |
+| 470 | vibe-coding-and-ai-agents-classes-in-morningside-edinburgh (mrn, #5E4B8A) | cg- town page | 2,828 | 1.6% vs ai-and-programming-classes-in-leith-edinburgh | how should an agent choose when it does not know what will happen? | decision rules under uncertainty, maximin, minimax regret, expected value | d0c6ce38 |
+| 471 | online-coding-and-python-classes-in-stockbridge-edinburgh (stb, #0E5A7A) | cg- town page | 2,856 | 1.5% vs ai-and-programming-classes-in-west-end-glasgow | what is the biggest climb on a line, and why is it not highest minus lowest? | Kadane's algorithm, maximum subarray, one-pass algorithms | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
