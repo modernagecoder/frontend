@@ -1442,3 +1442,4 @@
 .cg-root.cg-kln  { --cg-accent: #0B386B; --cg-accent-soft: rgba(11,56,107,.10); }   /* King's Lynn: a deep estuary blue (11.72:1 contrast), picked by hand and checked for distance from every accent in use */
 .cg-root.cg-tpn  { --cg-accent: #084C15; --cg-accent-soft: rgba(8,76,21,.10); }   /* Tipton: a dark towpath green (10.22:1 contrast), picked by hand and checked for distance from every accent in use and from the other Sandwell pages */
 .cg-root.cg-wml  { --cg-accent: #7A3145; --cg-accent-soft: rgba(122,49,69,.10); }   /* West Molesey: a dark claret (8.93:1 contrast), picked by hand and checked for distance from every accent in use */
+.cg-root.cg-cwb  { --cg-accent: #7A1F25; --cg-accent-soft: rgba(122,31,37,.10); }   /* Cwmbran: a deep Welsh red (10.24:1 contrast), picked by hand and checked for distance from every accent in use */

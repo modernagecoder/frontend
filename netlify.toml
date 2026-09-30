@@ -17911,6 +17911,18 @@
   to = "/src/pages/best-coding-and-ai-classes-in-west-molesey.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-cwmbran"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-cwmbran.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-cwmbran.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-cwmbran.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -36414,5 +36414,49 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-cwmbran": {
+    "market": "Cwmbran",
+    "bodyClass": "cg-cwb",
+    "pageType": "city",
+    "curriculumAuthority": "Torfaen (W06000020), Census 2021 TS001 usual residents 92,276. ONS 2021 BUA (published): Cwmbrân 47,090. Curriculum for Wales, WJEC GCSE and A level. postcodes.io suburban areas whose closest postcode is in the Cwmbrân BUA: Croesyceiliog, Llantarnam, Pontnewydd, Fairwater, Henllys, Oakfield, Coed Eva, Greenmeadow, Thornhill, St Dials, Two Locks, Llanyrafon, Northville, Southville, Old Cwmbran, Ty Canol, Hollybush, Pontrhydyrun, Upper Cwmbran (NP44).",
+    "localProject": "Census 2021 TS061 Torfaen: 40,654 in employment, 25,181 drove a car or van (context). Invented Braess network, 4,000 agents: top Start-A cars/100 + A-End 45; bottom Start-B 45 + B-End cars/100; free A-B link. Seed 20260930, slower agents switch with p per round. No link, p 0.1: about 2,000 / 2,000, 65.0 min; p 1: whole crowd flips, 85 min each round. Link opened, p 0.1: round 1 425 on it (64.70), round 5 1,580 (66.15), round 10 2,576 (70.07), settled round 49 with 3,974 (79.77). p 1: all 4,000 at once, 80.0. Coordinated optimum 1,750 / 1,750 / 500, 64.69 min. Lesson family: Braess's paradox, selfish routing, Wardrop equilibrium, price of anarchy.",
+    "requiredMentions": [
+      "47,090",
+      "Croesyceiliog",
+      "Llantarnam",
+      "Pontnewydd",
+      "Greenmeadow",
+      "Braess's paradox",
+      "25,181",
+      "79.77",
+      "64.69"
+    ],
+    "sources": [
+      {
+        "claim": "Braess D. (1968), Über ein Paradoxon aus der Verkehrsplanung, Unternehmensforschung 12, 258 to 268.",
+        "url": "https://doi.org/10.1007/BF01918335"
+      },
+      {
+        "claim": "Braess D., Nagurney A., Wakolbinger T. (2005), On a paradox of traffic planning, Transportation Science 39(4), 446 to 450.",
+        "url": "https://doi.org/10.1287/trsc.1050.0127"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 and TS061 (method used to travel to work) via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/datasets/c2021ts061"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for suburban areas in Torfaen.",
+        "url": "https://api.postcodes.io/places?q=Croesyceiliog"
+      }
+    ],
+    "rejectedClaims": [
+      "That the model network represents any Cwmbran road: it is invented and the page says so.",
+      "That the 2021 travel-to-work shares are typical: the census week fell in a period of widespread home working; the page says so.",
+      "Any real-world case of a road closure speeding traffic: none cited.",
+      "That Llanfrechfa is inside the Cwmbrân built-up area: its closest postcode is outside any BUA; left out.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
