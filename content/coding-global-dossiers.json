@@ -37144,5 +37144,52 @@
       "Named schools and term dates: none named.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-worksop": {
+    "market": "Worksop",
+    "bodyClass": "cg-wkp",
+    "pageType": "city",
+    "curriculumAuthority": "Bassetlaw (E07000171), Census 2021 TS001 usual residents 117,804. ONS 2021 BUAs inside Bassetlaw (published): Worksop 43,440; Retford 23,740; Harworth and Bircotes 8,885. postcodes.io: Manton (S80), Kilton (S81), Gateford (S81): suburban areas with nearest postcode in the Worksop BUA; Rhodesia and Shireoaks: villages with their own BUAs.",
+    "localProject": "OpenStreetMap via one Overpass query: highway ways (motorway, trunk, primary, secondary, tertiary, unclassified, residential, living_street, service and links) in 53.285 to 53.335 N, 1.170 to 1.075 W; 2,922 ways, 15,739 nodes, 2,733 junctions (degree 3 or more), 315.0 km. 240 random junctions (seed 2026); job = Dijkstra search out to 1,500 m, cost = edge relaxations: min 326, median 4,021, max 8,368, total 969,483. Four agents, lower bound 242,371. Static west-to-east blocks 336,566 (+38.9%), loads 143,016 / 282,554 / 336,566 / 207,347, mean job cost by block 2,384 / 4,709 / 5,609 / 3,456. Round robin 257,374 (+6.2%). Shared queue 242,545 (+0.07%), 240 queue visits. Work stealing (one job from the far end of a random victim, 200 runs): mean 243,767 (+0.6%), range 243,664 to 245,580, steals 33.4, failed tries 18.0. Overhead 50 per contact: stealing 244,109, shared queue 245,601. Steal-half: 9.1 steals, 244,374. Lesson family: work stealing and load balancing across agents.",
+    "requiredMentions": [
+      "117,804",
+      "43,440",
+      "Manton",
+      "Kilton",
+      "Gateford",
+      "work stealing",
+      "969,483",
+      "242,371",
+      "336,566",
+      "243,767",
+      "2,733"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap contributors: roads around Worksop via the Overpass API, under the Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "Blumofe R. D. and Leiserson C. E. (1999), Scheduling multithreaded computations by work stealing, Journal of the ACM 46(5), 720 to 748.",
+        "url": "https://doi.org/10.1145/324133.324234"
+      },
+      {
+        "claim": "Graham R. L. (1969), Bounds on multiprocessing timing anomalies, SIAM Journal on Applied Mathematics 17(2), 416 to 429.",
+        "url": "https://doi.org/10.1137/0117039"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents and 2021 built-up area populations; postcodes.io places.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      }
+    ],
+    "rejectedClaims": [
+      "That the centre of Worksop has more junctions per square kilometre than the edges: not measured directly; only search costs by west-to-east quarter are reported.",
+      "Road traffic, journey times or congestion: not measured; costs are search steps on the map.",
+      "That work stealing always beats a central queue: rejected; without a contact cost the queue finished first.",
+      "Rank of Worksop among Bassetlaw towns: not claimed.",
+      "Heritage or history of Worksop: not read from a source; not claimed.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

@@ -1458,3 +1458,4 @@
 .cg-root.cg-blt  { --cg-accent: #3060CF; --cg-accent-soft: rgba(48,96,207,.10); }   /* Bletchley: a cornflower blue (5.68:1 contrast on white), chosen by hand at least 31 RGB units from every accent already in use */
 .cg-root.cg-csh  { --cg-accent: #B4392A; --cg-accent-soft: rgba(180,57,42,.10); }   /* Cheshunt: a warm brick red (5.90:1 contrast on white, 4.79:1 on the darkest paper tint), chosen by hand at least 20 RGB steps from every accent in use */
 .cg-root.cg-gtm  { --cg-accent: #0000A8; --cg-accent-soft: rgba(0,0,168,.10); }   /* Grantham: a deep ultramarine (13.41:1 contrast on white), selected by hand to sit at least 31 RGB units from every accent in use */
+.cg-root.cg-wkp  { --cg-accent: #873600; --cg-accent-soft: rgba(135,54,0,.10); }   /* Worksop: a burnt sandstone orange (8.21:1 contrast on white, 6.66:1 on the darkest paper tint), chosen by hand at least 20 RGB steps from every accent in use */
