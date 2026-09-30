@@ -17947,6 +17947,30 @@
   to = "/src/pages/online-coding-and-python-classes-in-havant.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-castleford"
+  to = "/src/pages/online-coding-and-python-classes-in-castleford.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-castleford.md"
+  to = "/src/pages/online-coding-and-python-classes-in-castleford.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-batley"
+  to = "/src/pages/best-coding-and-ai-classes-in-batley.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-batley.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-batley.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

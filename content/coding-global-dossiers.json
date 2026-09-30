@@ -36549,5 +36549,95 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-castleford": {
+    "market": "Castleford",
+    "bodyClass": "cg-cfd",
+    "pageType": "city",
+    "curriculumAuthority": "City of Wakefield (E08000036), Census 2021 TS001 usual residents 353,368. ONS 2021 BUAs wholly inside the district (published): Wakefield 97,870; Castleford 45,355; Pontefract 32,975; Normanton (Wakefield) 21,980; Ossett 21,855. postcodes.io suburban areas whose nearest postcode lies in the Castleford BUA: Airedale, Whitwood, Cutsyke, Hightown, Half Acres, Wheldale, Townville, Whitwood Mere, New Fryston. England national curriculum.",
+    "localProject": "OpenTopoData eudem25m (Copernicus EU-DEM v1.1): 61 x 61 points ~50 m apart centred on 53.72580 N, 1.35354 W; 3,721 heights 5.56-74.68 m. Nine hidden 19 x 19 blocks (361 heights each) refilled from the ring by the discrete Laplace equation; exact reference by scipy sparse solve. Sweeps to within 1 cm of exact: Jacobi 219-356, Gauss-Seidel 111-214, SOR omega 1.729 24-40 (means 300.9, 163.4, 33.3). Update-size stop (<1 cm): Jacobi 45-135 sweeps, 0.27-0.43 m off; Gauss-Seidel 33-84, 0.16-0.30 m off; SOR 23-41, <=0.01 m off. RMS error vs real heights: relaxation 1.25-4.74 m, ring-average fill 1.96-16.71 m; relaxation closer in 9 of 9; worst single point 16.3 m; real interior above ring maximum in 2 of 9 blocks (maximum principle). Lesson family: relaxation method (Jacobi, Gauss-Seidel, successive over-relaxation), stopping rules.",
+    "requiredMentions": [
+      "45,355",
+      "32,975",
+      "Airedale",
+      "Whitwood",
+      "Cutsyke",
+      "Half Acres",
+      "Whitwood Mere",
+      "New Fryston",
+      "Gauss-Seidel",
+      "successive over-relaxation",
+      "1.729"
+    ],
+    "sources": [
+      {
+        "claim": "OpenTopoData API, EU-DEM 25 m dataset (Copernicus EU-DEM v1.1).",
+        "url": "https://www.opentopodata.org/datasets/eudem/"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest postcodes for the City of Wakefield district.",
+        "url": "https://api.postcodes.io/places?q=Cutsyke"
+      },
+      {
+        "claim": "Young, D. (1954), Iterative methods for solving partial difference equations of elliptic type, Transactions of the American Mathematical Society 76, 92 to 111: successive over-relaxation and its best factor.",
+        "url": "https://doi.org/10.1090/S0002-9947-1954-0059635-7"
+      }
+    ],
+    "rejectedClaims": [
+      "What lies on the higher ground in the grid (spoil heaps, buildings or anything else): not identified; not claimed.",
+      "That relaxation is a good way to repair real elevation data: not claimed; it cannot recreate hidden hills.",
+      "Glasshoughton, Fryston and Smawthorne as named suburbs: not found in postcodes.io; not listed.",
+      "Sum of the listed built-up areas: not added.",
+      "Named schools and term dates: none named.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-batley": {
+    "market": "Batley",
+    "bodyClass": "cg-bty",
+    "pageType": "city",
+    "curriculumAuthority": "Kirklees (E08000034), Census 2021 TS001 usual residents 433,216. ONS 2021 BUA Batley 44,500 (published). postcodes.io places (suburban areas) whose nearest postcode lies in the Batley BUA, with admin ward: Birstall (Birstall & Birkenshaw), Howden Clough (Birstall & Birkenshaw), Birstall Smithies (Batley West), Carlinghow (Batley West), Healey (Batley West), Staincliffe (Batley West), Upper Batley (Batley East), Mount Pleasant (Batley East), Hanging Heaton (Batley East), Batley Carr (Batley East). Excluded: Chidswell and Dewsbury Moor (nearest postcode in the Dewsbury BUA); Heckmondwike (own BUA); Soothill, Brownhill, Purlwell (no postcodes.io place).",
+    "localProject": "Copernicus EU-DEM v1.1 via OpenTopoData eudem25m, 17 requests. 41 x 41 grid, 100 m spacing, 4 km square centred on 53.71444 N, 1.63370 W (OS Open Names point for Batley via postcodes.io). 1,681 heights: min 46.7 m, max 157.8 m, mean 105.2 m, median 107.7 m. At or above 60 m 96.0%, 80 m 81.6%, 100 m 59.3%, 120 m 33.6%, 140 m 6.2%. Hypsometric integral (mean - min)/(max - min) 0.527; upper half of range 56.9%; top tenth 2.0%. Random samples, 2,000 draws each (seed 2026): 10 points integral 0.407 to 0.661 (5th to 95th percentile), highest seen 138.9 m on average; 25 points 0.452 to 0.631, 145.2 m; 100 points 0.487 to 0.592, 151.6 m; 400 points 0.507 to 0.553, 156.2 m. Sub-grid 1 km apart (25 points) 0.543, highest 155.2 m. Mean slope between neighbours 4.8%, steepest 24.7%. Lesson family: hypsometric curve and hypsometric integral (area-altitude distribution; fragility of range-based statistics under sampling).",
+    "requiredMentions": [
+      "433,216",
+      "1,681",
+      "157.8",
+      "46.7",
+      "0.527",
+      "hypsometric",
+      "Carlinghow",
+      "Staincliffe",
+      "Hanging Heaton",
+      "Howden Clough",
+      "Birstall Smithies",
+      "138.9"
+    ],
+    "sources": [
+      {
+        "claim": "Copernicus EU-DEM v1.1 elevation model, read through the OpenTopoData eudem25m API.",
+        "url": "https://www.opentopodata.org/datasets/eudem/"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and postcodes: suburban areas of Batley and the ward and built-up area of the nearest postcode.",
+        "url": "https://api.postcodes.io/places?q=Carlinghow"
+      }
+    ],
+    "rejectedClaims": [
+      "Names of the hills, valleys or rivers at the highest and lowest grid points: not read from a source; not named.",
+      "Batley textile or mill history: not read from a source; not claimed.",
+      "Rank of Batley among Kirklees towns: not claimed on this page.",
+      "That a regular grid always beats a random sample of the same size: not claimed; only one grid was drawn.",
+      "Chidswell and Dewsbury Moor as parts of Batley: rejected; their nearest postcodes lie in the Dewsbury built-up area.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
