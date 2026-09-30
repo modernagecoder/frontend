@@ -36775,5 +36775,143 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-middleton": {
+    "market": "Middleton",
+    "bodyClass": "cg-mdl",
+    "pageType": "city",
+    "curriculumAuthority": "Rochdale (E08000005), Census 2021 TS001 usual residents 223,773. ONS 2021 BUA (published): Middleton (Rochdale) 46,630. English national curriculum, GCSE and A level. postcodes.io suburban areas whose closest postcode is in the Middleton BUA: Langley, Alkrington Garden Village, Moorclose (M24).",
+    "localProject": "One Overpass query, shop and amenity tags in 53.533 to 53.567 N, 2.228 to 2.170 W: 362 places, 73 kinds; 19 sensitive or untyped kinds removed, leaving 301 places of 54 kinds (parking 121, school 27, pub 21; 28 kinds once). 2,000 random tours, seed 20260930. Good-Turing N1/n vs true unseen share: 10 visits 0.467 / 0.452; 25 0.340 / 0.333; 50 0.248 / 0.246; 100 0.174 / 0.172; 200 0.119 / 0.117. Stop below 5% (from visit 10): fired in 11 tours, median 15 visits, 4.5 kinds seen, true new chance 0.4584 on average. Lesson family: Good-Turing missing mass and stopping rules for exploring agents.",
+    "requiredMentions": [
+      "46,630",
+      "Langley",
+      "Alkrington Garden Village",
+      "Moorclose",
+      "Good-Turing",
+      "missing mass",
+      "301 places",
+      "0.4584",
+      "2,000 random"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap contributors, shop and amenity tags via the Overpass API, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "Good I. J. (1953), The population frequencies of species and the estimation of population parameters, Biometrika 40(3-4), 237 to 264.",
+        "url": "https://doi.org/10.1093/biomet/40.3-4.237"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations and output area centroids.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for suburban areas in Rochdale borough.",
+        "url": "https://api.postcodes.io/places?q=Moorclose"
+      }
+    ],
+    "rejectedClaims": [
+      "That the 301 places are all inside Middleton: the query was a rectangle, and the page says it reaches beyond the town.",
+      "That OpenStreetMap lists every shop in Middleton: coverage depends on volunteer mapping; not claimed.",
+      "Details of Turing's wartime use beyond the published attribution: only that Good credited the idea to Turing.",
+      "That Rhodes, Slattocks or Hopwood are inside the Middleton built-up area: left out.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-boston": {
+    "market": "Boston",
+    "bodyClass": "cg-bos",
+    "pageType": "city",
+    "curriculumAuthority": "Boston (E07000136), Census 2021 TS001 usual residents 70,502. ONS 2021 BUAs of 1,000+ wholly inside the borough (published): Boston 45,340; Kirton (Boston) 5,570; Swineshead 2,650; Butterwick 1,365; Old Leake 1,175; Fishtoft 1,075; Sutterton 1,070. postcodes.io (Boston): Skirbeck, Wyberton, Wyberton Fen (suburban areas, nearest postcode in Boston BUA); Fishtoft, Kirton, Sutterton, Frampton, Swineshead, Old Leake, Butterwick, Freiston, Wrangle, Benington, Leverton, Algarkirk, Bicker, Amber Hill, Holland Fen, Hubbert's Bridge, Kirton End, Kirton Holme, Swineshead Bridge (villages); Brothertoft (hamlet). England national curriculum.",
+    "localProject": "Overpass: named ways waterway=drain|canal|river|ditch, box 52.92-53.05 N, 0.16 W-0.10 E, 148 ways (base 2026-09-30T18:12Z). OSGB36 metres; resampled every 10 m; 26 names with >=1.5 km in box. Fits: OLS northing-on-easting, OLS easting-on-northing, total least squares (perpendicular). New Hammond Beck 5.8 km TLS 80.9 deg, RMS 10.1 m, OLS diffs 0.0/0.0, worst rotated 0.8; Maud Foster Drain 4.2 km 169.3, 47.9 m, 0.5/0.0, 16.3; Hobhole Drain 13.4 km 3.5, 179.8 m, 2.1/0.0, 14.7; Old Hammond Beck 8.5 km 91.5, 291.2 m, 0.0/33.8, 64.5; South Forty Foot Drain 26.9 km 50.0, 2,236.1 m, 5.6/8.0, 89.9. Of 26: y-on-x >1 deg 11; x-on-y >1 deg 13; worst rotated >10 deg 22; <1 deg only New Hammond Beck and Clay Dike (RMS 0.7 m). TLS invariant to rotation. Lesson family: total least squares / orthogonal regression vs ordinary least squares; errors-in-variables.",
+    "requiredMentions": [
+      "45,340",
+      "70,502",
+      "Skirbeck",
+      "Wyberton",
+      "Fishtoft",
+      "Sutterton",
+      "Swineshead",
+      "Maud Foster Drain",
+      "Hobhole Drain",
+      "New Hammond Beck",
+      "total least squares",
+      "orthogonal regression"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap waterways (ODbL) fetched through the Overpass API for a box around Boston; waterway=drain defined in the OSM wiki as an artificial drainage channel.",
+        "url": "https://wiki.openstreetmap.org/wiki/Tag:waterway%3Ddrain"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest postcodes for Boston borough.",
+        "url": "https://api.postcodes.io/places?q=Skirbeck"
+      },
+      {
+        "claim": "Golub and Van Loan (1980), An analysis of the total least squares problem, SIAM Journal on Numerical Analysis 17(6), 883 to 893.",
+        "url": "https://doi.org/10.1137/0717073"
+      }
+    ],
+    "rejectedClaims": [
+      "History of fen drainage or who dug any drain: not claimed.",
+      "That any waterway is straight or winding beyond the measured distances: only measured figures used.",
+      "Flooding or flood risk: excluded.",
+      "Sum of the listed built-up areas: not added.",
+      "Named schools and term dates: none named.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-bexhill-on-sea": {
+    "market": "Bexhill-on-Sea",
+    "bodyClass": "cg-bxh",
+    "pageType": "city",
+    "curriculumAuthority": "Rother (E07000064), Census 2021 TS001 usual residents 93,108. ONS 2021 BUAs inside Rother (published): Bexhill-on-Sea 43,755; Battle 5,330; Rye 4,885. The Hastings BUA (91,490) lies mostly in Hastings borough and is excluded. postcodes.io suburban areas with nearest postcode in the Bexhill-on-Sea BUA: Little Common (Bexhill St Marks ward), Sidley (Bexhill Sidley), Pebsham (Bexhill Pebsham & St Michaels), Glenleigh Park (Bexhill St Stephens), Old Town (Bexhill Old Town & Worsham).",
+    "localProject": "Census 2021 TS061 (Nomis NM_2078_1), category 1 \"Work mainly at or from home\" over category 0 (usual residents aged 16 and over in employment), 154 output areas in the Bexhill-on-Sea BUA (ONS OA21 to BUA22 lookup). Published centre line: Rother 12,306 of 37,932 (32.44%); England 8,321,252 of 26,405,214 (31.51%). OA sizes 6 to 287, median 107; shares 7.1% to 54.5%, median 28.0%; 104 below Rother, 50 above. Exact binomial limits around 32.44%: n 30 95% 16.7 to 50.0, 99.8% 10.0 to 60.0; n 107 23.4 to 41.1, 18.7 to 46.7; n 287 27.2 to 38.0, 24.0 to 41.1. Outside 95% 56 (10 above, 46 below); outside 99.8% 22 (1 above, 21 below). Simulation (500 censuses at the Rother share, seed 7): outside 95% mean 5.9, max 13. Top ten raw shares: median size 67.5; 7 outside 95%, 1 outside 99.8% (E00107317, 43 of 81, 53.1%); highest raw share E00107150, 24 of 44, 54.5%, inside 99.8%. Lesson family: funnel plot with exact binomial control limits; small-number extremes; overdispersion.",
+    "requiredMentions": [
+      "93,108",
+      "43,755",
+      "Little Common",
+      "Glenleigh Park",
+      "Pebsham",
+      "funnel plot",
+      "12,306",
+      "37,932",
+      "32.44%",
+      "54.5%",
+      "output areas"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS061 Method used to travel to work, output areas and local authorities, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/datasets/c2021ts061"
+      },
+      {
+        "claim": "ONS output area to built-up area lookup (OA21 to BUA22), ONS Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents and 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas of Bexhill-on-Sea and the built-up area of the nearest postcode.",
+        "url": "https://api.postcodes.io/places?q=Little%20Common"
+      }
+    ],
+    "rejectedClaims": [
+      "Why some Bexhill areas have more or fewer home workers: not investigated; the funnel shows where, not why.",
+      "A published Bexhill-on-Sea home-working total: not used; the centre line is the published Rother figure, and the 154 areas were not summed into a town total.",
+      "That Bexhill has an older population than elsewhere: not claimed; not measured here.",
+      "Seafront, pavilion or resort history: not read from a source; not claimed.",
+      "Cooden, Collington and Worsham as suburbs: not listed; no postcodes.io suburban-area record found.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

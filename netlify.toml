@@ -18007,6 +18007,42 @@
   to = "/src/pages/vibe-coding-and-ai-agents-classes-in-grays.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-middleton"
+  to = "/src/pages/ai-and-programming-classes-in-middleton.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-middleton.md"
+  to = "/src/pages/ai-and-programming-classes-in-middleton.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-boston"
+  to = "/src/pages/best-coding-and-ai-classes-in-boston.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-boston.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-boston.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-bexhill-on-sea"
+  to = "/src/pages/online-coding-and-python-classes-in-bexhill-on-sea.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-bexhill-on-sea.md"
+  to = "/src/pages/online-coding-and-python-classes-in-bexhill-on-sea.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
