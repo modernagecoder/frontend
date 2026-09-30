@@ -35637,5 +35637,133 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-keighley": {
+    "market": "Keighley",
+    "bodyClass": "cg-kgh",
+    "pageType": "city",
+    "curriculumAuthority": "Bradford (E08000032), Census 2021 TS001 usual residents 546,412. ONS 2021 BUAs in Bradford district (published): Keighley 48,750; Shipley 29,225; Bingley 21,330; Baildon 17,050; Ilkley 14,845. The Bradford BUA is not tabulated. postcodes.io (Bradford): Keighley (town); Riddlesden, Ingrow, Long Lee, Thwaites Brow, Stockbridge, Braithwaite, Exley Head, Bracken Bank (suburban areas); Oakworth, East Morton, Laycock, Hainworth (villages).",
+    "localProject": "OpenStreetMap roads (trunk to residential, with links) via one Overpass query, box 53.840-53.890 N, 1.955-1.865 W; largest connected network 232.0 km. One agent per junction or road end: 2,234 agents, 2,594 links, 801 dead ends. Hop radius 58, hop diameter 115. Leader election by flooding the largest ID (send to neighbours when belief changes; stop after a silent round). 500 random ID assignments (seed 20260930): rounds 60 to 116, median 76.5; messages 32,669 to 51,068, median 37,681; all-pairs 4,988,522. Stopping early, mean share not knowing the leader: 30 rounds 57.1%, 50 rounds 19.9%, 60 rounds 10.0% (494/500 unfinished), 70 rounds 4.6% (338/500). Bridges 1,095 of 2,594; 801 dead-end; 16 cut off 50+; largest split 255 / 1,979, giving two leaders. Majority rule as the cure. Lesson family: leader election in a multi-agent network, split brain.",
+    "requiredMentions": [
+      "48,750",
+      "Riddlesden",
+      "Ingrow",
+      "Long Lee",
+      "Thwaites Brow",
+      "Exley Head",
+      "Oakworth",
+      "leader election",
+      "37,681",
+      "split brain"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap roads (ODbL) fetched through the Overpass API for a box around Keighley.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and villages in Bradford district.",
+        "url": "https://api.postcodes.io/places?q=Riddlesden"
+      }
+    ],
+    "rejectedClaims": [
+      "Which named road is the bridge that splits 255 agents from 1,979: not published; it is a property of our box and graph.",
+      "That Keighley sits in a valley or any other landscape description: not read from a source; the page reports only hop counts.",
+      "Haworth, the Parsonage and the Bronte family: belong to the West Yorkshire page; not used.",
+      "That flooding the largest ID is the most efficient election method: not claimed; it is the simplest.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-welwyn-garden-city": {
+    "market": "Welwyn Garden City",
+    "bodyClass": "cg-wgc",
+    "pageType": "city",
+    "curriculumAuthority": "Welwyn Hatfield (E07000241), Census 2021 TS001 usual residents 119,836. ONS 2021 BUA (published): Welwyn Garden City 51,505. English national curriculum, GCSE and A level. postcodes.io suburban areas whose closest postcode is in the BUA: Panshanger, Haldens, Peartree, Hatfield Hyde, Woodhall, Hall Grove (AL7), Handside, Sherrardspark (AL8), Digswell (AL6).",
+    "localProject": "170 ONS population-weighted centroids of the Welwyn Garden City BUA, 14,365 pairs, straight-line. Gabriel graph 344 links, 94.7 km, mean 275 m, longest 866 m, 1 to 6 links per centre (mean 4.05), one piece. Relative neighbourhood graph 213 links, 50.1 km, 1 to 4 per centre (mean 2.51), one piece, a subset of Gabriel. Closest-one 116 links in 54 pieces; closest-three 308 links, longest 1,142 m; within 300 m 283 links, 12 pieces, 5 unlinked; within 500 m 775 links, 3 pieces, up to 17 per centre. Lesson family: Gabriel graph and relative neighbourhood graph (proximity graphs, neighbour definitions).",
+    "requiredMentions": [
+      "51,505",
+      "119,836",
+      "Panshanger",
+      "Haldens",
+      "Handside",
+      "Sherrardspark",
+      "Hatfield Hyde",
+      "Gabriel graph",
+      "14,365",
+      "94.7 km"
+    ],
+    "sources": [
+      {
+        "claim": "Gabriel K. R. and Sokal R. R. (1969), A new statistical approach to geographic variation analysis, Systematic Zoology 18(3), 259 to 278.",
+        "url": "https://doi.org/10.2307/2412323"
+      },
+      {
+        "claim": "Toussaint G. T. (1980), The relative neighbourhood graph of a finite planar set, Pattern Recognition 12(4), 261 to 268.",
+        "url": "https://doi.org/10.1016/0031-3203(80)90066-7"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations; ONS output area centroids and lookups (Open Geography Portal).",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for suburban areas in Welwyn Hatfield.",
+        "url": "https://api.postcodes.io/places?q=Panshanger"
+      }
+    ],
+    "rejectedClaims": [
+      "The founding and planning history of the garden city: not read from a source for this page; not claimed.",
+      "That linked centres are connected by a road or path: links are straight lines between centroids, and the page says so.",
+      "That the closest-three rule always gives one piece: it did here; no general claim.",
+      "That either geometric rule is the correct definition of neighbour: presented as definitions, not truths.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-crosby": {
+    "market": "Crosby",
+    "bodyClass": "cg-csb",
+    "pageType": "city",
+    "curriculumAuthority": "Sefton (E08000014), Census 2021 TS001 usual residents 279,233. ONS 2021 BUA (published): Crosby (Sefton) 50,215. English national curriculum, GCSE and A level. postcodes.io (Sefton): Great Crosby, Blundellsands, Thornton (suburban areas, L23), Waterloo (suburban area, L22), Little Crosby (village, L23), Hightown (village, L38).",
+    "localProject": "Census 2021 TS001 by output area (Nomis), 169 output areas in the Crosby (Sefton) BUA per the ONS OA21 to BUA22 lookup, counts 129 to 546, mean 297.1, used as sampling weights (our sum 50,218 not printed as a population). 1,000,000 draws, seed 2026. Uniform choice (wrong): largest area 5,879 per million vs 10,873 due, smallest 5,842 vs 2,569. Linear scan of running totals 86.3 comparisons per draw (75.3 sorted largest first); bisect 7.51; alias table (Vose, 168 pairing steps) 1 comparison. Alias gave largest 10,899, smallest 2,539. Chi-square on 168 df: alias 184.6, bisect 166.1, uniform 48,808. Random resident area size 310.0 vs random area 297.1. Lesson family: alias method, weighted random sampling, size-biased sampling.",
+    "requiredMentions": [
+      "50,215",
+      "Blundellsands",
+      "Little Crosby",
+      "5,879",
+      "Great Crosby",
+      "alias method",
+      "10,899",
+      "7.51",
+      "10,873",
+      "169 output areas"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by output area, via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS Open Geography Portal: Output Area (2021) to Built-up Area (2022) lookup for England and Wales.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: Crosby and the named places in Sefton.",
+        "url": "https://api.postcodes.io/places?q=Crosby"
+      }
+    ],
+    "rejectedClaims": [
+      "Our sum of the 169 output-area counts (50,218) as a population figure: not printed; only the ONS published 50,215 is given.",
+      "Timings in seconds: not reported, because the machine was busy; comparisons are counted instead.",
+      "Any description of who lives in which output area: none; only headcounts are used, as weights.",
+      "That language models use the alias method internally: not claimed; only that they make weighted random draws.",
+      "That the listed places are districts of Crosby or close to it: not claimed; they are listed as recorded in Sefton.",
+      "Named schools, term dates and sterling prices: none."
+    ]
   }
 }

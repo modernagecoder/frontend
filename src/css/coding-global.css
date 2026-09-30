@@ -1424,3 +1424,6 @@
 .cg-root.cg-xch  { --cg-accent: #2A6A96; --cg-accent-soft: rgba(42,106,150,.10); }   /* Christchurch, Dorset: a harbour blue (5.8:1 contrast on white), set by hand well apart from the accents already taken */
 .cg-root.cg-wkh  { --cg-accent: #BE185D; --cg-accent-soft: rgba(190,24,93,.10); }   /* Wokingham: a strong raspberry pink (6.04:1 on white), picked by hand; no recent page sits in this hue */
 .cg-root.cg-blx  { --cg-accent: #7A541C; --cg-accent-soft: rgba(122,84,28,.10); }   /* Bloxwich: a dark saddle ochre (6.75:1 contrast), picked by hand and checked for distance from every accent in use */
+.cg-root.cg-kgh  { --cg-accent: #830752; --cg-accent-soft: rgba(131,7,82,.10); }   /* Keighley: a dark magenta plum (9.9:1 contrast on white), chosen by hand and kept clear of the accents in use */
+.cg-root.cg-wgc  { --cg-accent: #0B6E0B; --cg-accent-soft: rgba(11,110,11,.10); }   /* Welwyn Garden City: a clear leaf green (6.46:1 contrast), picked by hand and checked for distance from every accent in use */
+.cg-root.cg-csb  { --cg-accent: #475569; --cg-accent-soft: rgba(71,85,105,.10); }   /* Crosby: a cool slate grey-blue (7.58:1 on white), chosen by hand as a neutral no recent page has used */
