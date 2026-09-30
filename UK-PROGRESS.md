@@ -511,7 +511,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 466 | vibe-coding-and-ai-agents-classes-in-bishopston-bristol (bsp, #1E3A8A) | cg- town page | 2,834 | 1.3% vs vibe-coding-and-ai-agents-classes-in-keighley | which road was a noisy GPS trace really on? | Viterbi map matching, hidden Markov model, nearest-road baseline | 96a3c19a |
 | 467 | online-coding-and-python-classes-in-kingswood-bristol (kws, #1F5E8C) | cg- town page | 2,728 | 1.9% vs online-coding-and-python-classes-in-coatbridge | how do photo apps pull detail out of a flat picture? | histogram equalisation, CDF remapping, image contrast | ded86d82 |
 | 468 | ai-and-programming-classes-in-west-end-glasgow (wng, #2E6B4F) | cg- town page | 2,765 | 1.9% vs ai-and-programming-classes-in-elgin | how can a program choose its own cut-off between two groups? | Otsu's method, automatic thresholding, between-class variance | 1afcac50 |
-| 469 | best-coding-and-ai-classes-in-shawlands-glasgow (shw, #8A4A2A) | cg- town page | 2,725 | 2.1% vs online-coding-and-python-classes-in-musselburgh | how do you rank things fairly when some have only a few votes? | Wilson score interval, ranking with small samples, lower confidence bound | (this commit) |
+| 469 | best-coding-and-ai-classes-in-shawlands-glasgow (shw, #8A4A2A) | cg- town page | 2,725 | 2.1% vs online-coding-and-python-classes-in-musselburgh | how do you rank things fairly when some have only a few votes? | Wilson score interval, ranking with small samples, lower confidence bound | e1ed5fb7 |
+| 473 | best-coding-and-ai-classes-in-roath-cardiff (rth, #1F5C8A) | cg- town page | 2,828 | 2.3% vs best-coding-and-ai-classes-in-ecclesall-sheffield | where does a shopping area begin and end? | alpha shapes, concave hull, Delaunay triangulation | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
