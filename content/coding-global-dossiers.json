@@ -37054,5 +37054,95 @@
       "Named schools and term dates: none named.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-cheshunt": {
+    "market": "Cheshunt",
+    "bodyClass": "cg-csh",
+    "pageType": "city",
+    "curriculumAuthority": "Broxbourne (E07000095), Census 2021 TS001 usual residents 99,009. ONS 2021 BUAs (published): Cheshunt 43,680; Waltham Cross 11,940. The Hoddesdon BUA (40,615) extends beyond the borough and is not quoted. postcodes.io: Flamstead End (EN7), Rosedale (EN7), Hammond Street (EN7), Bury Green (EN7), Churchgate (EN8): suburban areas with nearest postcode in the Cheshunt BUA; Waltham Cross (EN8, own BUA); Turnford and Wormley (EN10, nearest postcode in the Hoddesdon BUA).",
+    "localProject": "OpenStreetMap via one Overpass query: natural=water ways and relations in 51.68 to 51.73 N, 0.06 W to 0.01 E; 17 named features not tagged canal, pond or pool; outer rings joined, islands removed. Exact areas (shoelace, flat local projection): Holyfield Lake 50.10 ha; Seventy Acres Lake 20.14; North Metropolitan Pit 16.89 (19 islands); Bowyers Water 13.13; Hooks Marsh Lake 9.49 (24 islands); Police Pit 8.52; Cheshunt Lake 5.96; Ashley 5.46; Friday Lake 4.55; Cheshunt Reservoir North 2.45; Lee Pit 2.11; Railway Pit 1.90; Marsh Pit 1.12; Britannia Lake 0.98; Boot Pit 0.88; Turnford Pit South 0.58; New Hill Clay Pit 0.56. Rasterised with random grid offsets (8 at 100 m and 50 m, 3 at 20 m; seed 2026). Mean absolute area error, 1 vs 16 samples per pixel: 100 m 29.4% vs 3.6%; 50 m 9.9% vs 1.2%; 20 m 3.7% vs 0.3%. Mean spread across offsets (range / area): 100 m 93.8% vs 11.8%; 50 m 36.5% vs 4.0%; 20 m 5.6% vs 0.6%. Worst lake at 100 m, 1 sample: 111.3%. Cheshunt Lake: 100 m 1 sample 3.0 to 9.0 ha, 16 samples 5.69 to 6.19; 50 m 5.25 to 6.00 vs 5.92 to 6.02. New Hill Clay Pit: 100 m 1 sample 0.0 to 1.0 ha, 16 samples 0.56 to 0.69. Lesson family: anti-aliasing and supersampling in rasterisation.",
+    "requiredMentions": [
+      "99,009",
+      "43,680",
+      "Flamstead End",
+      "Hammond Street",
+      "Bury Green",
+      "Holyfield Lake",
+      "New Hill Clay Pit",
+      "anti-aliasing",
+      "supersampling",
+      "29.4%",
+      "Hooks Marsh Lake"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap contributors: water areas around Cheshunt, via the Overpass API, under the Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest postcodes: suburban areas of Cheshunt, their postcode districts and built-up areas.",
+        "url": "https://api.postcodes.io/places?q=Flamstead%20End"
+      }
+    ],
+    "rejectedClaims": [
+      "County or park that each lake lies in: not claimed; some lie outside Hertfordshire and ownership was not read.",
+      "History of the gravel pits or glasshouse industry: not read from a source; not claimed.",
+      "That supersampling always beats a finer grid: not claimed; one comparison at similar sample density gave similar error.",
+      "Turnford and Wormley as parts of Cheshunt: rejected; their nearest postcodes lie in the Hoddesdon built-up area.",
+      "Rank of Cheshunt among Broxbourne towns: not claimed.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-grantham": {
+    "market": "Grantham",
+    "bodyClass": "cg-gtm",
+    "pageType": "city",
+    "curriculumAuthority": "South Kesteven (E07000141), Census 2021 TS001 usual residents 143,404. ONS 2021 BUAs of 5,000+ wholly inside the district (published): Grantham 44,905; Stamford 20,750; Bourne 17,495; Deeping St James 7,255; Market Deeping 6,535. postcodes.io (South Kesteven), nearest postcode in the Grantham BUA: Spittlegate, Manthorpe (NG31), Earlesfield, Gonerby Hill Foot (suburban areas), Harrowby (other settlement); villages: Great Gonerby, Barrowby, Londonthorpe, Belton, Harlaxton, Barkston, Great Ponton, Syston, Denton, Allington, Sedgebrook, Ropsley, Old Somerby, Colsterworth. England national curriculum.",
+    "localProject": "Nomis Census 2021 TS006, TS017, TS007A, TS044 for 466 South Kesteven OAs; ONS OA21-BUA22 lookup. Label: OA in Grantham, Stamford, Bourne, Deeping St James or Market Deeping BUA (321 yes, 145 no; majority 68.9%). Features: log10 density, one-person share, 65+ share, detached share, flats share, under-15 share (standardised on train). 200 splits 326/140. Teacher logistic regression on train gives difficulty. Student SGD logistic regression lr 0.1, one ordered pass then four shuffled passes. Test accuracy after 10/25/50/100/200/326 and after 5 passes: random 79.4/84.3/86.8/88.1/88.3/88.2, 88.1; easy first 68.5/73.1/74.8/77.1/88.3/86.9, 88.2; easy alternated 71.2/71.7/73.1/75.2/74.9/83.0, 88.1; hard first 21.3/16.5/20.2/72.7/87.4/88.3, 88.2. Easy behind random at 50 in 200/200; alternated behind at 100 in 199/200; hard behind at 10/25/50 in 200/200. Final: easy ahead 73, behind 74; hard ahead 77, behind 69. 40 easiest: 82.5% town. Lesson family: curriculum learning, training order, class balance.",
+    "requiredMentions": [
+      "44,905",
+      "143,404",
+      "Harrowby",
+      "Spittlegate",
+      "Earlesfield",
+      "Gonerby Hill Foot",
+      "Great Gonerby",
+      "Londonthorpe",
+      "Harlaxton",
+      "curriculum learning",
+      "68.9%"
+    ],
+    "sources": [
+      {
+        "claim": "Census 2021 tables TS006, TS017, TS007A and TS044 for South Kesteven output areas, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS output area (2021) to built-up area (2022) lookup and 2021 built-up area populations.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places and nearest postcodes for South Kesteven.",
+        "url": "https://api.postcodes.io/places?q=Spittlegate"
+      },
+      {
+        "claim": "Bengio, Louradour, Collobert and Weston (2009), Curriculum learning, Proceedings of the 26th International Conference on Machine Learning, 41 to 48.",
+        "url": "https://doi.org/10.1145/1553374.1553380"
+      }
+    ],
+    "rejectedClaims": [
+      "Isaac Newton, the King's School or any other Grantham history: not used.",
+      "That curriculum learning never helps: not claimed; only this setup was tested.",
+      "How any named AI company orders its training data: not claimed.",
+      "Anything about residents of particular output areas: not claimed.",
+      "Sum of the listed built-up areas: not added.",
+      "Named schools and term dates: none named.",
+      "Sterling prices: none."
+    ]
   }
 }

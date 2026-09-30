@@ -18079,6 +18079,30 @@
   to = "/src/pages/online-coding-and-python-classes-in-bletchley.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-cheshunt"
+  to = "/src/pages/best-coding-and-ai-classes-in-cheshunt.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-cheshunt.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-cheshunt.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-grantham"
+  to = "/src/pages/ai-and-programming-classes-in-grantham.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-grantham.md"
+  to = "/src/pages/ai-and-programming-classes-in-grantham.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
