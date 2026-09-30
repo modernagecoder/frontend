@@ -17971,6 +17971,42 @@
   to = "/src/pages/best-coding-and-ai-classes-in-batley.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-kirkby"
+  to = "/src/pages/best-coding-and-ai-classes-in-kirkby.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-kirkby.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-kirkby.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-wallsend"
+  to = "/src/pages/ai-and-programming-classes-in-wallsend.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-wallsend.md"
+  to = "/src/pages/ai-and-programming-classes-in-wallsend.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-grays"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-grays.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-grays.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-grays.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -36639,5 +36639,141 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-kirkby": {
+    "market": "Kirkby",
+    "bodyClass": "cg-krb",
+    "pageType": "city",
+    "curriculumAuthority": "Knowsley (E08000011), Census 2021 TS001 usual residents 154,519. ONS 2021 BUA (published): Kirkby 45,560 (137 OAs inside Knowsley, our sum 43,003). English national curriculum, GCSE and A level. postcodes.io suburban areas whose closest postcode is in the Kirkby BUA: Northwood, Southdene, Tower Hill, Westvale (L32, L33).",
+    "localProject": "ONS OA 2021 boundaries for the 137 Kirkby BUA output areas inside Knowsley. Full resolution (BFC, 38,657 points): Polsby-Popper min 0.131 / median 0.350 / max 0.764; convex hull ratio 0.432 / 0.730 / 0.998; Spearman 0.913. Lowest PP E00032611 (0.131), 3rd by hull; lowest hull E00032982 (0.432), 6th by PP; ten lowest share 7; E00172034 125th vs 80th. Generalised (BGC, 2,331 points): PP median 0.412, hull median 0.757; PP ranks Spearman 0.98 across resolutions. Lesson family: shape compactness scores (Polsby-Popper vs convex hull ratio) and boundary resolution.",
+    "requiredMentions": [
+      "45,560",
+      "Northwood",
+      "Southdene",
+      "Tower Hill",
+      "Westvale",
+      "Polsby-Popper",
+      "E00032611",
+      "0.913",
+      "38,657"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Output Areas (December 2021) boundaries, full resolution clipped (BFC) and generalised (BGC), Open Government Licence.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "ONS output area 2021 to built-up area 2022 lookup; ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "SciPy ConvexHull documentation (area of a two-dimensional hull is returned as volume).",
+        "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.ConvexHull.html"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for suburban areas in Knowsley.",
+        "url": "https://api.postcodes.io/places?q=Southdene"
+      }
+    ],
+    "rejectedClaims": [
+      "What any oddly shaped output area contains (fields, industry, water): not checked, not claimed.",
+      "Which neighbouring borough holds the rest of the Kirkby built-up area: not checked; only that part lies outside Knowsley.",
+      "That one compactness score is the right one: the page says both are standard and measure different things.",
+      "The political history of compactness measures: not discussed.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-wallsend": {
+    "market": "Wallsend",
+    "bodyClass": "cg-wsd",
+    "pageType": "city",
+    "curriculumAuthority": "North Tyneside (E08000022), Census 2021 TS001 usual residents 208,967. ONS 2021 BUA Wallsend 45,355. postcodes.io suburban areas whose nearest postcode lies in the Wallsend BUA: Howdon, Willington Quay, Rosehill, Holy Cross, Willington, Point Pleasant, Howdon Pans (Benton and Holystone resolve to Longbenton: not claimed). England national curriculum.",
+    "localProject": "Nomis Census 2021 TS007A (18 five-year age bands) for all 729 North Tyneside output areas; ONS OA21-BUA22 lookup: 163 in Wallsend BUA (residents 108-506, median 271). Vectors of 18 age shares. Queries: 163 Wallsend OAs; truth: 10 nearest OAs by Euclidean distance at full precision. Recall at 10: scalar 8-bit (18 bytes) 98.8%, 4-bit (9) 82.0%, 3-bit (6.75) 66.9%, 2-bit (4.5) 36.2%; product quantisation (k-means codebooks, mean of 5 seeds): 9x256 (9 bytes) 91.5% (91.0-92.0), 9x64 (6.75) 81.1%, 6x256 (6) 84.0%, 6x64 (4.5) 68.4%, 9x16 (4.5) 64.5%, 3x256 (3) 68.0%, 2x256 (2) 58.6%, 2x16 (1) 24.7%. Float64 144 bytes. Codebooks at 256 codes: 4,608 numbers vs 13,122 in the raw table. Age share ranges across Wallsend OAs: under 15 4.5-36.9% (median 15.8), 15-24 3.6-18.5 (10.2), 25-44 8.3-53.6 (26.8), 45-64 7.9-39.7 (27.1), 65+ 0.3-51.6 (17.7). Lesson family: product quantisation, vector compression, recall vs bytes.",
+    "requiredMentions": [
+      "Howdon",
+      "Willington Quay",
+      "Rosehill",
+      "Holy Cross",
+      "Point Pleasant",
+      "Howdon Pans",
+      "product quantisation",
+      "91.5%",
+      "4,608",
+      "13,122"
+    ],
+    "sources": [
+      {
+        "claim": "Census 2021 TS007A age by five-year bands, output areas in North Tyneside, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS output area (2021) to built-up area (2022) lookup, ONS Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places and nearest postcodes for North Tyneside.",
+        "url": "https://api.postcodes.io/places?q=Howdon"
+      },
+      {
+        "claim": "Jegou, Douze and Schmid (2011), Product Quantization for Nearest Neighbor Search, IEEE Transactions on Pattern Analysis and Machine Intelligence 33(1), 117 to 128.",
+        "url": "https://doi.org/10.1109/TPAMI.2010.57"
+      }
+    ],
+    "rejectedClaims": [
+      "Which named vector databases or chatbots use product quantisation: none named; described only as common.",
+      "Anything about the residents of a given output area beyond published age counts: not claimed.",
+      "Battle Hill, Hadrian Park, Carville and Wallsend Green as suburbs: not found in postcodes.io; not listed.",
+      "Sum of census counts across output areas presented as a published total: not done.",
+      "Named schools and term dates: none named.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-grays": {
+    "market": "Grays",
+    "bodyClass": "cg-gys",
+    "pageType": "city",
+    "curriculumAuthority": "Thurrock (E06000034), Census 2021 TS001 usual residents 176,001. ONS 2021 BUAs inside Thurrock (published): Grays 44,345; Stanford-le-Hope 29,525; Chafford Hundred and West Thurrock 23,585; South Ockendon 22,440; Tilbury 14,185. postcodes.io: Little Thurrock (suburban area; nearest postcode RM17 5TF in the Grays BUA); Chadwell St Mary (village; its own BUA); Orsett (village; its own BUA).",
+    "localProject": "OpenTopoData public API, one request per dataset: eudem25m, srtm30m, srtm90m, aster30m, mapzen, etopo1, gebco2020; 10 x 10 grid, 250 m apart, centred 51.488 N 0.330 E. Spread (max - min report) per point mean 8.4 m, range 2.0 to 23.0 m; worst point 51.482386 N 0.33541 E (eudem25m 28.6, srtm30m 29, srtm90m 29, aster30m 40, mapzen 29, etopo1 17, gebco2020 22). srtm30m and mapzen identical at 100 of 100 points. Mean absolute distance from the median of seven: eudem25m 0.46, srtm90m 0.50, srtm30m 0.63, mapzen 0.63, gebco2020 2.00, aster30m 3.89, etopo1 4.92 m. One liar at 1,000 m moves the mean by 139.8 m on average. Median worst-case shift over all liar sets and both directions: 1 liar mean 1.07 max 5.00 m; 2 liars 2.66, max 8.86; 3 liars 6.32, max 14.86; 4 liars unbounded. OM(1) (Lamport, Shostak, Pease 1982), one traitor lying by +50 m, ties fall back to a shared default, 10 runs per point and traitor position: 3 agents 1,000 of 3,000 correct (all 2,000 with a traitorous lieutenant failed); 4 agents 4,000 of 4,000; 5 agents 5,000 of 5,000; 7 agents 7,000 of 7,000. Lesson family: Byzantine fault tolerance (median vote vs mean, correlated agents, 3f + 1).",
+    "requiredMentions": [
+      "176,001",
+      "44,345",
+      "29,525",
+      "23,585",
+      "Little Thurrock",
+      "Byzantine",
+      "3f + 1",
+      "139.8",
+      "14.86",
+      "Oral Messages",
+      "4.92"
+    ],
+    "sources": [
+      {
+        "claim": "OpenTopoData public API and dataset notes for EU-DEM, SRTM, ASTER, Mapzen, ETOPO1 and GEBCO.",
+        "url": "https://www.opentopodata.org/"
+      },
+      {
+        "claim": "Lamport L., Shostak R. and Pease M. (1982), The Byzantine Generals Problem, ACM Transactions on Programming Languages and Systems 4(3), 382 to 401.",
+        "url": "https://doi.org/10.1145/357172.357176"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: Little Thurrock, Chadwell St Mary and Orsett, with the built-up area of the nearest postcode.",
+        "url": "https://api.postcodes.io/places?q=Little%20Thurrock"
+      }
+    ],
+    "rejectedClaims": [
+      "Which elevation model is closest to the true ground height in Grays: not claimed; there is no ground truth in the run.",
+      "That Mapzen copies SRTM in Grays: not claimed as fact; only that the two agree at all 100 points.",
+      "Chalk quarry, river or port history of Grays: not read from a source; not claimed.",
+      "Rank of Grays among Thurrock towns: not claimed.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

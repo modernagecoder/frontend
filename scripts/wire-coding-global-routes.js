@@ -795,6 +795,9 @@ const MARKETS = [
   ['online-coding-and-python-classes-in-havant', 'Havant, Hampshire'],
   ['online-coding-and-python-classes-in-castleford', 'Castleford, West Yorkshire'],
   ['best-coding-and-ai-classes-in-batley', 'Batley, West Yorkshire'],
+  ['best-coding-and-ai-classes-in-kirkby', 'Kirkby, Merseyside'],
+  ['ai-and-programming-classes-in-wallsend', 'Wallsend, North Tyneside'],
+  ['vibe-coding-and-ai-agents-classes-in-grays', 'Grays, Essex'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
