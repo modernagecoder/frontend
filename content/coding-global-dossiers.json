@@ -37642,5 +37642,49 @@
       "Suburbs outside the Hoddesdon BUA (Stanstead Abbotts, St Margarets, Great Amwell, Wormley West End): left out.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-ramsgate": {
+    "market": "Ramsgate",
+    "bodyClass": "cg-rmg",
+    "pageType": "city",
+    "curriculumAuthority": "Thanet (E07000114), Census 2021 TS001 usual residents 140,587. ONS 2021 BUA (published): Ramsgate 42,030. English national curriculum, GCSE and A level. postcodes.io suburban areas with nearest postcode in the Ramsgate BUA: Newington, Pegwell, Nethercourt, Northwood, Haine, Chilton; Dumpton and Westwood (Broadstairs BUA), Cliffs End and Manston excluded.",
+    "localProject": "Weight initialisation of a small tanh network fitting land height. OpenTopoData eudem25m, 41 x 41 grid over 51.322 to 51.362 N, 1.370 to 1.440 E: 1,681 points, 340 sea, 15 at or below 0.5 m dropped, 1,326 land (mean 40.72 m, max 56.05 m); 266 test points. 2-32-32-1 tanh, Adam 0.01, 3,000 steps. Test RMSE: mean guess 10.37 m; zeros 10.37 m (1 distinct unit); all 0.5 7.48 m (1 distinct unit); sd 0.001 2.18 m; Xavier 1.97 m; sd 10 59.08 m, 65% saturated.",
+    "requiredMentions": [
+      "42,030",
+      "Newington",
+      "Pegwell",
+      "Nethercourt",
+      "weight initialisation",
+      "1,326 points on land",
+      "7.48 m",
+      "59.08 m",
+      "Glorot and Bengio"
+    ],
+    "sources": [
+      {
+        "claim": "OpenTopoData, eudem25m dataset (EU-DEM v1.1, Copernicus Land Monitoring Service), heights for a 41 by 41 grid round Ramsgate.",
+        "url": "https://www.opentopodata.org/datasets/eudem/"
+      },
+      {
+        "claim": "Glorot X. and Bengio Y. (2010), Understanding the difficulty of training deep feedforward neural networks, AISTATS, PMLR 9, 249 to 256.",
+        "url": "https://proceedings.mlr.press/v9/glorot10a.html"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations and output-area lookup.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for Thanet.",
+        "url": "https://api.postcodes.io/places?q=Pegwell"
+      }
+    ],
+    "rejectedClaims": [
+      "Heights of cliffs, the harbour or named landmarks: a 25 m elevation model cannot resolve them; not claimed.",
+      "That Xavier is always the right choice: only this run is reported; ReLU networks usually use He initialisation, not tested here.",
+      "That the tiny start fails in general: here Adam rescued it; stated.",
+      "Dumpton, Westwood, Cliffs End and Manston as Ramsgate suburbs: outside the BUA by nearest postcode; left out.",
+      "Named schools and term dates: none read or named.",
+      "Sterling prices: none."
+    ]
   }
 }

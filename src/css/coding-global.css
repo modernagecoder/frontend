@@ -1469,3 +1469,4 @@
 .cg-root.cg-nby  { --cg-accent: #1E6B63; --cg-accent-soft: rgba(30,107,99,.10); }   /* Newbury: a muted chalk-stream teal (6.29:1 on white, 5.11:1 on the ledger beige), picked by hand at least 40 RGB steps from every Berkshire and neighbouring page */
 .cg-root.cg-lli  { --cg-accent: #572E18; --cg-accent-soft: rgba(87,46,24,.10); }   /* Llanelli: a dark tinplate brown (11.61:1 on white, 9.42:1 on the ledger beige), picked by hand at least 40 RGB steps from every Welsh page */
 .cg-root.cg-hdd  { --cg-accent: #9C4E30; --cg-accent-soft: rgba(156,78,48,.10); }   /* Hoddesdon: a terracotta (5.92:1 contrast on white), chosen by hand as a muted tone kept clear of the other Hertfordshire pages */
+.cg-root.cg-rmg  { --cg-accent: #59612B; --cg-accent-soft: rgba(89,97,43,.10); }   /* Ramsgate: a muted chalk-downland olive (6.63:1 on white, 5.38:1 on the ledger beige), chosen by hand at least 40 RGB steps from every Kent and South East page */
