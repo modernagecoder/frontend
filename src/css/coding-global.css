@@ -1473,3 +1473,4 @@
 .cg-root.cg-bmb  { --cg-accent: #66151B; --cg-accent-soft: rgba(102,21,27,.10); }   /* Bamber Bridge: a dark claret (12.44:1 contrast on white), chosen by hand as a muted tone kept clear of the other Lancashire pages */
 .cg-root.cg-urm  { --cg-accent: #322C9E; --cg-accent-soft: rgba(50,44,158,.10); }   /* Urmston: a muted ink blue (10.55:1 on white, 8.57:1 on the ledger beige), chosen by hand at least 40 RGB steps from every Greater Manchester and North West page */
 .cg-root.cg-ecc  { --cg-accent: #0F633C; --cg-accent-soft: rgba(15,99,60,.10); }   /* Eccles: a canal green (7.32:1 contrast on white), chosen by hand as a muted tone kept clear of the other Greater Manchester pages */
+.cg-root.cg-hwh  { --cg-accent: #45459C; --cg-accent-soft: rgba(69,69,156,.10); }   /* Haywards Heath: a muted rain blue (8.13:1 contrast on white), chosen by hand and kept clear of the Sussex pages */
