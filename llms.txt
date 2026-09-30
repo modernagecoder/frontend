@@ -1206,6 +1206,10 @@ USD 100 a month small group, USD 150 a month one to one.
 - Barrow-in-Furness, Cumbria: https://learn.modernagecoders.com/ai-and-programming-classes-in-barrow-in-furness
 - Sittingbourne, Kent: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-sittingbourne
 - Wellingborough, Northamptonshire: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-wellingborough
+- Willenhall, Walsall: https://learn.modernagecoders.com/ai-and-programming-classes-in-willenhall
+- Folkestone, Kent: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-folkestone
+- Kingswinford, West Midlands: https://learn.modernagecoders.com/online-coding-and-python-classes-in-kingswinford
+- Christchurch, Dorset: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-christchurch
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).

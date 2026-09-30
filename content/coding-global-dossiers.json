@@ -35378,5 +35378,178 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-willenhall": {
+    "market": "Willenhall",
+    "bodyClass": "cg-wlh",
+    "pageType": "city",
+    "curriculumAuthority": "Walsall (E08000030), Census 2021 TS001 usual residents 284,124. ONS 2021 BUAs wholly inside Walsall (published): Walsall 70,775; Bloxwich 51,875; Willenhall 49,580; Brownhills 21,240; Aldridge 15,835; Pelsall 10,455. Darlaston, Streetly, West Bromwich and Bilston straddle the boundary and are excluded. postcodes.io (Walsall): Willenhall (town); Short Heath, New Invention, Shepwell Green, Spring Bank, Bentley, Little London, Ashmore Lake, Lane Head (suburban areas).",
+    "localProject": "OpenStreetMap roads (motorway to residential, with links) via one Overpass query, box 52.570-52.622 N, 2.075-2.005 W; 350.6 km connected. Nine postcodes.io places snapped within 5 m. 36 pairs: mean straight line 1,818 m, mean shortest road route (Dijkstra) 2,219 m. Classical multidimensional scaling (double-centred squared distances, top two eigenvectors) then Procrustes alignment (rotation or reflection). Straight-line table: 1,374 m mean error unaligned, 0.0 m aligned. Road table: top two eigenvalues 93.7% of positive total, 3 negative; mean error 285 m, largest 624 m (Bentley) unscaled; fitted scale 0.833, mean 134 m, largest 316 m (Bentley). 60 random junctions (seed 20260930): mirrored before alignment, 78.0%, 24 negative, scale 0.804, mean 229 m, largest 891 m. Lesson family: multidimensional scaling (classical MDS), Procrustes alignment, non-Euclidean distances.",
+    "requiredMentions": [
+      "49,580",
+      "Short Heath",
+      "New Invention",
+      "Shepwell Green",
+      "Ashmore Lake",
+      "Lane Head",
+      "Little London",
+      "multidimensional scaling",
+      "Procrustes",
+      "350.6"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap roads (ODbL) fetched through the Overpass API for a box around Willenhall.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: a town and suburban areas in Walsall, with coordinates.",
+        "url": "https://api.postcodes.io/places?q=Shepwell%20Green"
+      }
+    ],
+    "rejectedClaims": [
+      "Why Bentley is displaced (a motorway, canal or railway in the way): not tested; only the measured error is stated.",
+      "Driving times or directions: routes ignore one-way rules and speeds; not claimed.",
+      "Willenhall lock-making history: belongs to the Walsall page's source text; not used here.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-folkestone": {
+    "market": "Folkestone",
+    "bodyClass": "cg-fks",
+    "pageType": "city",
+    "curriculumAuthority": "Folkestone and Hythe (E07000112), Census 2021 TS001 usual residents 109,758. ONS 2021 BUA (published): Folkestone 51,995. English national curriculum, GCSE and A level. postcodes.io suburban areas whose closest postcode is in the Folkestone BUA: Cheriton, Morehall, Foord (CT19), Sandgate, Coolinge (CT20).",
+    "localProject": "Project Gutenberg eBook 39162 (H. G. Wells, Kipps): 1,138 passages of 25 words or more, 92,961 words; Folkestone occurs 66 times. Query folkestone, leas, lift, harbour, sea: 100 matching passages. Rankers: A count, B share of passage, C distinct words then count. Top-10 overlap A and B 3, all three 2. Fusion with k = 60: first (ranks 1, 4, 1) 0.04841; second (2, 2, 2) 0.04839; third (5, 15, 4) 0.04434; fourth (10, 1, 16) 0.04384; fused top 10 keeps 9 of A, 3 of B, 6 of C and one passage from no top 10 (ranks 16, 21, 11). No relevance labels, so no accuracy claim. Lesson family: reciprocal rank fusion, merging ranked lists from several retrievers.",
+    "requiredMentions": [
+      "51,995",
+      "109,758",
+      "Cheriton",
+      "Morehall",
+      "Foord",
+      "Coolinge",
+      "Kipps",
+      "1,138",
+      "0.04841",
+      "Reciprocal rank fusion"
+    ],
+    "sources": [
+      {
+        "claim": "H. G. Wells, Kipps: The Story of a Simple Soul, Project Gutenberg eBook 39162.",
+        "url": "https://www.gutenberg.org/ebooks/39162"
+      },
+      {
+        "claim": "Cormack G. V., Clarke C. L. A. and Buettcher S. (2009), Reciprocal rank fusion outperforms Condorcet and individual rank learning methods, SIGIR 2009.",
+        "url": "https://doi.org/10.1145/1571941.1572114"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for suburban areas in Folkestone and Hythe.",
+        "url": "https://api.postcodes.io/places?q=Cheriton"
+      }
+    ],
+    "rejectedClaims": [
+      "That fusion found the correct passages: no relevance labels exist for this query, so no accuracy is claimed.",
+      "Where H. G. Wells lived or wrote the book: not read from a source; not claimed.",
+      "That Seabrook or Horn Street are Folkestone suburbs: their closest postcodes are in the Hythe built-up area; left out.",
+      "Descriptions of the present-day Leas, lift or harbour: none made; only the novel is quoted.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-kingswinford": {
+    "market": "Kingswinford",
+    "bodyClass": "cg-kwf",
+    "pageType": "city",
+    "curriculumAuthority": "Dudley (E08000027), Census 2021 TS001 usual residents 323,486. ONS 2021 BUA (published): Kingswinford 51,910. English national curriculum, GCSE and A level. postcodes.io suburban areas whose closest postcode is in the Kingswinford BUA: Wall Heath (DY6), Wordsley (DY8), Pensnett, Bromley (DY5).",
+    "localProject": "One Overpass query, named highway ways in the rectangle around the Kingswinford BUA centroids: 1,767 ways, 810 distinct names (Road 147, Close 128, Drive 102). Comparisons to alphabetise them in download order: one gap 169,625; Shell halving gaps 12,471; Knuth 121, 40, 13, 4, 1: 10,571; Ciura 701 down to 1: 10,067; Python sorted() 6,799; log2(810!) about 6,664. Mean of 20 shuffles: 165,423, 12,154, 10,769, 10,127. Already sorted: 809, 6,485, 3,871, 5,251. Lesson family: Shell sort and gap sequences, comparisons counted.",
+    "requiredMentions": [
+      "51,910",
+      "Wall Heath",
+      "Wordsley",
+      "Pensnett",
+      "Shell sort",
+      "169,625",
+      "12,471",
+      "10,067",
+      "Ciura",
+      "Zaria Court"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap contributors, named highway ways via the Overpass API, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "Shell D. L. (1959), A high-speed sorting procedure, Communications of the ACM 2(7), 30 to 32.",
+        "url": "https://doi.org/10.1145/368370.368387"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations and output area centroids.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for suburban areas in Dudley.",
+        "url": "https://api.postcodes.io/places?q=Wall%20Heath"
+      }
+    ],
+    "rejectedClaims": [
+      "That the 810 names are exactly the streets of Kingswinford: the query was a rectangle around the town, and the page says so.",
+      "That any gap sequence is optimal: not proved for Shell sort, not claimed.",
+      "Timings in seconds: none given; only comparison counts, which do not depend on the computer.",
+      "That Brockmoor is inside the Kingswinford built-up area: its closest postcode is in Brierley Hill; left out.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-christchurch": {
+    "market": "Christchurch",
+    "bodyClass": "cg-xch",
+    "pageType": "city",
+    "curriculumAuthority": "Bournemouth, Christchurch and Poole (E06000058), Census 2021 TS001 usual residents 400,196. ONS 2021 BUAs wholly inside it (published): Bournemouth 196,455; Poole 141,005; Christchurch 48,985. Upton straddles the boundary and is excluded. postcodes.io (Bournemouth, Christchurch and Poole): Christchurch (town); Mudeford, Highcliffe, Burton, Somerford, Stanpit, Purewell, Jumpers Common, Walkford, Friars Cliff, Fairmile (suburban areas); Hurn, Winkton (villages).",
+    "localProject": "Met Office historic station data, Hurn (Lat 50.779 Lon -1.835, 10 m amsl), read 30 September 2026. 69 complete non-provisional calendar years 1957-2025; annual rainfall = our sum of 12 monthly values (3 estimated). Mean 845.2 mm, sd 143.2; formula standard error 17.25; jackknife 17.25; leave-one-out means 839.2 (without 1960, 1,252.4 mm) to 850.1 (without 1973, 509.1 mm). Median 821.7; leave-one-out medians 818.95 x34, 820.45 x1, 823.2 x34; jackknife standard error 17.41 (69 years), 12.28 (68), 17.15 (67), 22.17 (66), 16.88 (65); mean 17.25, 17.47, 17.43, 17.20, 17.42. Maximum: 68 replicates 1,252.4, one 1,217.2. Delete-10 jackknife of median, 20,000 subsets, seed 20260930: 23.37; delete-5 22.74; delete-20 21.89. Station 5.87 km from the postcodes.io Christchurch point (haversine). Lesson family: the jackknife, resampling standard errors, smooth vs non-smooth statistics.",
+    "requiredMentions": [
+      "400,196",
+      "Mudeford",
+      "Highcliffe",
+      "Somerford",
+      "Stanpit",
+      "Purewell",
+      "Friars Cliff",
+      "jackknife",
+      "845.2",
+      "1,252.4"
+    ],
+    "sources": [
+      {
+        "claim": "Met Office historic station data for Hurn: monthly rainfall from January 1957 (Open Government Licence).",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/hurndata.txt"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and villages in Bournemouth, Christchurch and Poole, with coordinates.",
+        "url": "https://api.postcodes.io/places?q=Mudeford"
+      }
+    ],
+    "rejectedClaims": [
+      "Any trend or climate claim from the rainfall record: not tested; not claimed.",
+      "That Hurn rainfall equals rainfall in Christchurch town: not claimed; the station is 5.87 km from the Christchurch point.",
+      "Christchurch Priory, harbour, castle or airport facts: not read from a source; not claimed.",
+      "Comparison with other resampling methods: left out on purpose; the page stays on the jackknife.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

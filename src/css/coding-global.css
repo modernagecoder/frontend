@@ -1418,3 +1418,7 @@
 .cg-root.cg-bif  { --cg-accent: #2D5A3C; --cg-accent-soft: rgba(45,90,60,.10); }   /* Barrow-in-Furness: a deep fell green (7.96:1 contrast), chosen by hand to stand apart from recent accents */
 .cg-root.cg-sit  { --cg-accent: #5A4A2A; --cg-accent-soft: rgba(90,74,42,.10); }   /* Sittingbourne: a dark paper-bag brown (8.58:1 contrast), chosen by hand to stand apart from recent accents */
 .cg-root.cg-wlb  { --cg-accent: #8A2F55; --cg-accent-soft: rgba(138,47,85,.10); }   /* Wellingborough: a deep mulberry (8.02:1 contrast), chosen by hand to stand apart from recent accents */
+.cg-root.cg-wlh  { --cg-accent: #590996; --cg-accent-soft: rgba(89,9,150,.10); }   /* Willenhall: a deep violet (11.0:1 contrast on white), picked by hand at a distance from every accent already in use */
+.cg-root.cg-fks  { --cg-accent: #082C4C; --cg-accent-soft: rgba(8,44,76,.10); }   /* Folkestone: a very dark Channel navy (14.2:1 contrast), picked by hand and checked against every accent already in use */
+.cg-root.cg-kwf  { --cg-accent: #7A5240; --cg-accent-soft: rgba(122,82,64,.10); }   /* Kingswinford: a fired-clay brown (6.76:1 contrast), picked by hand and checked for distance from every accent in use */
+.cg-root.cg-xch  { --cg-accent: #2A6A96; --cg-accent-soft: rgba(42,106,150,.10); }   /* Christchurch, Dorset: a harbour blue (5.8:1 contrast on white), set by hand well apart from the accents already taken */

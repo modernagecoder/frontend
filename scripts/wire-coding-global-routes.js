@@ -766,6 +766,10 @@ const MARKETS = [
   ['ai-and-programming-classes-in-barrow-in-furness', 'Barrow-in-Furness, Cumbria'],
   ['vibe-coding-and-ai-agents-classes-in-sittingbourne', 'Sittingbourne, Kent'],
   ['best-coding-and-ai-classes-in-wellingborough', 'Wellingborough, Northamptonshire'],
+  ['ai-and-programming-classes-in-willenhall', 'Willenhall, Walsall'],
+  ['vibe-coding-and-ai-agents-classes-in-folkestone', 'Folkestone, Kent'],
+  ['online-coding-and-python-classes-in-kingswinford', 'Kingswinford, West Midlands'],
+  ['best-coding-and-ai-classes-in-christchurch', 'Christchurch, Dorset'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
