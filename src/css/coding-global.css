@@ -1443,3 +1443,5 @@
 .cg-root.cg-tpn  { --cg-accent: #084C15; --cg-accent-soft: rgba(8,76,21,.10); }   /* Tipton: a dark towpath green (10.22:1 contrast), picked by hand and checked for distance from every accent in use and from the other Sandwell pages */
 .cg-root.cg-wml  { --cg-accent: #7A3145; --cg-accent-soft: rgba(122,49,69,.10); }   /* West Molesey: a dark claret (8.93:1 contrast), picked by hand and checked for distance from every accent in use */
 .cg-root.cg-cwb  { --cg-accent: #7A1F25; --cg-accent-soft: rgba(122,31,37,.10); }   /* Cwmbran: a deep Welsh red (10.24:1 contrast), picked by hand and checked for distance from every accent in use */
+.cg-root.cg-lgn  { --cg-accent: #0069AE; --cg-accent-soft: rgba(0,105,174,.10); }   /* Leigh: a clear lake blue (5.78:1 contrast on white), picked by hand at least 31 RGB units away from every accent already in use */
+.cg-root.cg-hvt  { --cg-accent: #4C5C8A; --cg-accent-soft: rgba(76,92,138,.10); }   /* Havant: a slate harbour blue (6.55:1 contrast), picked by hand and checked for distance from every accent in use */

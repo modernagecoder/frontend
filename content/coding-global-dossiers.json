@@ -36458,5 +36458,96 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-leigh": {
+    "market": "Leigh",
+    "bodyClass": "cg-lgn",
+    "pageType": "city",
+    "curriculumAuthority": "Wigan (E08000010), Census 2021 TS001 usual residents 329,330. ONS 2021 BUA Leigh (Wigan) 45,495. postcodes.io places (Wigan), with the BUA of the nearest postcode to each place point: Pennington, Westleigh, Bedford, Lilford, Plank Lane, Firs Lane (suburban areas, Leigh (Wigan)); Higher Folds (village, Higher Folds BUA); Lately Common (hamlet, Glazebury BUA). Lowton, Lowton Common and Lowton St Mary's resolve to Golborne, Mosley Common to Walkden, Hindsford to Atherton: not claimed as Leigh. England national curriculum.",
+    "localProject": "OSM way 4762710 Pennington Flash (natural=water, water=lake, v22), 179 distinct vertices, OSGB36 via Helmert. Shoelace area 662,045 m2 (66.2 ha), perimeter 5,197 m, extent 1,605 m E-W by 893 m N-S. Imagined robot boat, 20 m swath. Boustrophedon at 36 directions (0-175 deg anticlockwise from east, 5 deg steps): lane length 33.0-33.2 km (area/swath 33.1 km), lanes 44-84, runs 55-105. Fewest runs 150 deg (bearing 120/300): 47 lanes, 55 runs, 98.77% of 5 m water cells covered; most runs 55 deg (bearing 35/215): 82 lanes, 105 runs, 99.38%. Random-bounce agent (2.5 m steps, random new heading at shore), 20 runs, distance to 50/90/95/99% coverage: median 21.5 / 74.2 / 95.3 / 159.4 km; 99% range 135.5-208.7 km. Nearest postcodes to lake centre: WA3 1BH 493 m (Lowton East), WN7 4BU 621 m (Leigh West). Lesson family: coverage path planning, boustrophedon sweep direction and turns, random coverage.",
+    "requiredMentions": [
+      "45,495",
+      "Pennington Flash",
+      "Westleigh",
+      "Lilford",
+      "Plank Lane",
+      "Firs Lane",
+      "Lately Common",
+      "coverage path planning",
+      "boustrophedon",
+      "66.2",
+      "159.4"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap way 4762710, Pennington Flash (natural=water), ODbL, via the OSM API and one Overpass listing.",
+        "url": "https://www.openstreetmap.org/way/4762710"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest postcodes (wards and built-up areas) for Wigan borough.",
+        "url": "https://api.postcodes.io/places?q=Westleigh"
+      },
+      {
+        "claim": "Boustrophedon cellular decomposition for coverage path planning (Choset and Pignon, 1998).",
+        "url": "https://doi.org/10.1007/978-1-4471-1273-0_32"
+      }
+    ],
+    "rejectedClaims": [
+      "That Pennington Flash lies inside the Leigh built-up area: not claimed; its nearest postcodes are in Lowton East and Leigh West wards.",
+      "Any real boat, survey or management activity on the lake: none described; the boat is imaginary.",
+      "Lowton, Golborne, Atherton or Astley as parts of Leigh: their nearest postcodes resolve to other built-up areas; not claimed.",
+      "That the lane direction with fewest runs is best for a real vessel: not claimed; wind and depth were not modelled.",
+      "Sum of any census figures: none added.",
+      "Named schools and term dates: none named.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-havant": {
+    "market": "Havant",
+    "bodyClass": "cg-hvt",
+    "pageType": "city",
+    "curriculumAuthority": "Havant (E07000090), Census 2021 TS001 usual residents 124,208. ONS 2021 BUA (published): Havant 46,960. English national curriculum, GCSE and A level. postcodes.io suburban areas whose closest postcode is in the Havant BUA: Bedhampton, Leigh Park, Warblington, Langstone, Denvilles, West Leigh (PO9).",
+    "localProject": "EA Hydrology API, Havant (Hermitage Stream), 15-minute flow, 2025-09-01T00:00 to 2026-08-15T09:15: 33,446 rows, 33,443 values; Good 29,121, Unchecked 4,321. Exact median 0.098 m3/s, mean 0.347, 24.3% of readings above the mean, peak 12.009 (1 February 2026). Monthly medians October 2025 0.022, February 2026 1.461. P-square median: shuffled 0.0976 (100 shuffles 0.0974 to 0.0991), sorted up 0.137, recorded order 0.2969 (0.4534 end of March), sorted down 0.3339. 90th exact 1.029 (shuffled 1.0321, recorded 1.7675); 99th exact 2.775 (2.7574, 2.2158). Lesson family: P-square streaming quantile estimation and order dependence.",
+    "requiredMentions": [
+      "46,960",
+      "Bedhampton",
+      "Leigh Park",
+      "Warblington",
+      "Denvilles",
+      "Hermitage Stream",
+      "P-square",
+      "0.2969",
+      "33,443"
+    ],
+    "sources": [
+      {
+        "claim": "Environment Agency Hydrology API, station Havant (Hermitage Stream), 15-minute flow, Open Government Licence.",
+        "url": "https://environment.data.gov.uk/hydrology/doc/reference"
+      },
+      {
+        "claim": "Jain R., Chlamtac I. (1985), The P2 algorithm for dynamic calculation of quantiles and histograms without storing observations, Communications of the ACM 28(10), 1076 to 1085.",
+        "url": "https://doi.org/10.1145/4372.4378"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for suburban areas in Havant.",
+        "url": "https://api.postcodes.io/places?q=Bedhampton"
+      }
+    ],
+    "rejectedClaims": [
+      "Any flooding or damage around the 1 February 2026 peak: not researched and not claimed.",
+      "That unchecked readings are wrong: they are flagged unchecked, and the page says only that they may change.",
+      "That P-square is unreliable in general: the page shows order dependence on this series only.",
+      "That Emsworth or Purbrook are inside the Havant built-up area: they belong to other BUAs; left out.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
