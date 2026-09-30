@@ -37553,5 +37553,94 @@
       "Named schools and term dates: none read or named.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-llanelli": {
+    "market": "Llanelli",
+    "bodyClass": "cg-lli",
+    "pageType": "city",
+    "curriculumAuthority": "Carmarthenshire (W06000010), Census 2021 TS001 usual residents 187,897. ONS 2021 BUA (published): Llanelli 42,155. Curriculum for Wales, WJEC GCSE and A level. postcodes.io suburban areas with nearest postcode in the Llanelli BUA: Felinfoel, Dafen, Llwynhendy, Bynea, Morfa, Seaside, Furnace, Pemberton, Bigyn, Pen-y-fan, Cwmcarnhywel, Sandy, Swiss Valley.",
+    "localProject": "Shortcut learning on Llanelli street names. One Overpass query, all highway ways in 51.658 to 51.712 N, 4.192 to 4.078 W; 559 named streets inside the town box; dead end if an end node joins no other drivable way: 215 (38.5%). English pattern 293 (71 dead, 24.2%): Close 9/11, Court 8/9, Street 7/83. Welsh pattern 122 (72 dead, 59.0%): Clos 15/23, Llys 11/15, Heol 11/31. Logistic regression on last word, 200 splits: English test 82.3% (baseline 75.5%, recall 33.1%); Welsh 41.0% (= baseline), 0 of 72 dead ends found.",
+    "requiredMentions": [
+      "42,155",
+      "Felinfoel",
+      "Llwynhendy",
+      "Cwmcarnhywel",
+      "Swiss Valley",
+      "shortcut learning",
+      "559 named streets",
+      "0 of 72",
+      "15 of the 23"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap contributors, roads and street names via the Overpass API, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "Geirhos R. and others (2020), Shortcut learning in deep neural networks, Nature Machine Intelligence 2, 665 to 673.",
+        "url": "https://doi.org/10.1038/s42256-020-00257-z"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations and output-area lookup.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for Carmarthenshire.",
+        "url": "https://api.postcodes.io/places?q=Felinfoel"
+      }
+    ],
+    "rejectedClaims": [
+      "Anything about the Welsh language, its speakers or its use in Llanelli: not the subject; not claimed.",
+      "That every Welsh-pattern name is in Welsh or every English-pattern name in English: patterns were defined by first or last word only.",
+      "Dead ends for walkers: footpaths ignored; the label is for cars only, stated.",
+      "Machynys, Pwll and Llangennech as Llanelli suburbs: nearest postcodes outside the BUA; left out.",
+      "Named schools and term dates: none read or named.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-hoddesdon": {
+    "market": "Hoddesdon",
+    "bodyClass": "cg-hdd",
+    "pageType": "city",
+    "curriculumAuthority": "Broxbourne (E07000095), Census 2021 TS001 usual residents 99,009 (printed; a required mention on the Cheshunt page). ONS 2021 BUA (published): Hoddesdon 40,615, spanning Broxbourne and East Hertfordshire. English national curriculum, GCSE and A level. postcodes.io suburban areas whose nearest postcode is in the Hoddesdon BUA: Rye Park (EN11), Wormley, Broxbourne, Turnford (EN10).",
+    "localProject": "Census 2021 TS006 density for the 120 Hoddesdon BUA output areas in Broxbourne: 114 to 17,778 per sq km, median 5,592 (hidden truth). Simulated judge P(correct) logistic in log density ratio, scale 0.5; right 78.3% over 19,827 random pairs. Elo from 1,000, 30 repeats: 600 judgements K16 rho 0.811 top-10 4.0, K64 0.817 / 4.2; 1,200 0.891 / 4.5, 0.889 / 4.6; 2,400 0.934 / 6.0, 0.917 / 5.7; 4,800 0.964 / 7.3, 0.934 / 6.3. Same 2,400 judgements, 100 orders: median rank spread 13.5 (K16, 1 leader), 24 (K32, 6 leaders), 41 (K64, 11 leaders). Matched pairs within 10 places: 4,800 judgements rho about 0, top 10 found 2.0. Lesson family: Elo rating, K factor, order dependence, uninformative matchmaking.",
+    "requiredMentions": [
+      "40,615",
+      "Rye Park",
+      "Wormley",
+      "Turnford",
+      "Elo rating",
+      "Chatbot Arena",
+      "17,778",
+      "78.3 per cent",
+      "0.96",
+      "11 different areas"
+    ],
+    "sources": [
+      {
+        "claim": "LMSYS Org (3 May 2023), Chatbot Arena: Benchmarking LLMs in the Wild with Elo Ratings.",
+        "url": "https://lmsys.org/blog/2023-05-03-arena/"
+      },
+      {
+        "claim": "ONS Census 2021 TS006 population density and TS001 via Nomis; ONS OA21 to BUA22 lookup and 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for Broxbourne suburban areas.",
+        "url": "https://api.postcodes.io/places?q=Rye%20Park"
+      },
+      {
+        "claim": "Elo A. E. (1978), The Rating of Chessplayers, Past and Present, the origin of the rating method (catalogue record).",
+        "url": "https://openlibrary.org/search?q=The+Rating+of+Chessplayers+Past+and+Present"
+      }
+    ],
+    "rejectedClaims": [
+      "That the judgements are real human opinions about Hoddesdon: the judge is simulated and the page says so.",
+      "That Chatbot Arena still uses plain Elo today: only the 2023 launch post is cited, and the page describes that post.",
+      "That density says anything about quality of life in an area: used only as a checkable number.",
+      "Any ranking of named Hoddesdon streets or neighbourhoods: output areas are not named on the page.",
+      "Suburbs outside the Hoddesdon BUA (Stanstead Abbotts, St Margarets, Great Amwell, Wormley West End): left out.",
+      "Sterling prices: none."
+    ]
   }
 }
