@@ -1435,3 +1435,6 @@
 .cg-root.cg-lms  { --cg-accent: #8A0E48; --cg-accent-soft: rgba(138,14,72,.10); }   /* Royal Leamington Spa: a deep raspberry (9.39:1 contrast), picked by hand and checked for distance from every accent in use */
 .cg-root.cg-esl  { --cg-accent: #073084; --cg-accent-soft: rgba(7,48,132,.10); }   /* Eastleigh: a dark royal blue (11.9:1 contrast on white), fixed by hand at a clear distance from every accent in use */
 .cg-root.cg-tsb  { --cg-accent: #0B6A85; --cg-accent-soft: rgba(11,106,133,.10); }   /* Thundersley and South Benfleet: a clear cyan-blue (6.15:1 on white), chosen by hand; lighter and bluer than the dark teals already in use */
+.cg-root.cg-rtw  { --cg-accent: #4C081F; --cg-accent-soft: rgba(76,8,31,.10); }   /* Royal Tunbridge Wells: a very dark claret (15.4:1 contrast), picked by hand and checked for distance from every accent in use */
+.cg-root.cg-atc  { --cg-accent: #57534E; --cg-accent-soft: rgba(87,83,78,.10); }   /* Altrincham: a warm stone grey (7.63:1 on white), chosen by hand; a neutral that none of the recent pages use */
+.cg-root.cg-bwt  { --cg-accent: #9D1B08; --cg-accent-soft: rgba(157,27,8,.10); }   /* Bridgwater: a brick red (8.1:1 contrast on white), chosen by hand with clear separation from accents already used */

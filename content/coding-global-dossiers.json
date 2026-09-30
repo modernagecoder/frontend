@@ -36111,5 +36111,131 @@
       "That the listed villages are parts of Thundersley or South Benfleet: not claimed; they are listed as recorded in Castle Point.",
       "Named schools, term dates and sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-royal-tunbridge-wells": {
+    "market": "Royal Tunbridge Wells",
+    "bodyClass": "cg-rtw",
+    "pageType": "city",
+    "curriculumAuthority": "Tunbridge Wells (E07000116), Census 2021 TS001 usual residents 115,311. ONS 2021 BUA (published): Royal Tunbridge Wells 51,220. English national curriculum, GCSE and A level. postcodes.io suburban areas whose closest postcode is in the BUA: High Brooms, Ramslye (TN4); Hawkenbury, Sherwood, Broadwater Down, Camden Park, Sandown Park (TN2). Southborough, Rusthall, Pembury and Paddock Wood are separate ONS built-up areas.",
+    "localProject": "Census 2021 TS017 and TS006 for the 160 output areas of the Royal Tunbridge Wells BUA; our sums 22,238 households, 7,280 one-person (32.74%); density 121 to 23,491 per sq km. Dense = density at or above a cut-off. Cut-off 2,000: dense 139 areas 33.57%, the rest 21 areas 27.47%. Cut-off 10,000: dense 32 areas 34.83%, the rest 128 areas 32.22%. The 107 relabelled areas: 14,786 households, 33.20%. Town unchanged. All 66 cut-off pairs from 1,000 to 12,000 tried: both up in 47, opposite in 19; the search is disclosed on the page. Lesson family: Will Rogers phenomenon, reclassification moving both group averages.",
+    "requiredMentions": [
+      "51,220",
+      "115,311",
+      "High Brooms",
+      "Hawkenbury",
+      "Ramslye",
+      "Broadwater Down",
+      "Camden Park",
+      "Sandown Park",
+      "Will Rogers phenomenon",
+      "22,238"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS017 household size, TS006 population density and TS001 via Nomis; ONS 2021 built-up area populations and output area lookups.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "Feinstein A. R., Sosin D. M. and Wells C. K. (1985), the paper that named the Will Rogers phenomenon, New England Journal of Medicine 312(25), 1604 to 1608.",
+        "url": "https://doi.org/10.1056/NEJM198506203122504"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for suburban areas in Tunbridge Wells.",
+        "url": "https://api.postcodes.io/places?q=High%20Brooms"
+      }
+    ],
+    "rejectedClaims": [
+      "That the effect appears for every choice of cut-off: it appeared in 47 of 66 pairs, and the page says so.",
+      "Any reason why households in denser areas are smaller: not tested; not claimed.",
+      "A verbatim version of the Will Rogers joke: not checked against a source, so it is described and not quoted.",
+      "The Pantiles, the spring and the royal prefix: not read from a source; not claimed.",
+      "That Southborough, Rusthall or Pembury are inside the town figure: the ONS counts them separately; left out.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-altrincham": {
+    "market": "Altrincham",
+    "bodyClass": "cg-atc",
+    "pageType": "city",
+    "curriculumAuthority": "Trafford (E08000009), Greater Manchester, Census 2021 TS001 usual residents 235,052. ONS 2021 BUA (published): Altrincham 49,680. English national curriculum, GCSE and A level. postcodes.io (Trafford): Broadheath, Oldfield Brow (suburban areas, WA14), Bowdon (WA14), Hale (town, WA15), Hale Barns (suburban area, WA15).",
+    "localProject": "OS Code-Point Open 2026.3.0: WA14 (1,131) and WA15 (1,185), 2,316 postcodes in sorted order (2,224 Trafford, 75 Cheshire East, 17 Manchester by the file's authority code). Binary search tested on all 2,316 and on 2,000 made-up absent postcodes, seed 2026. Correct version: all found, at most 12 probes, mean 10.24. Version A (hi starts at len - 1): 1 not found, the last, WA15 9YS; 20 random tests pass with probability 0.991; invariant false before the first probe. Version B (lo = mid): all real postcodes found, 1,998 of 2,000 absent never finish (stopped at 200 probes); invariant holds, window stops shrinking. Version C (hi = mid - 1): 1,023 not found (44.2%); assert fires on all 1,023. Lesson family: loop invariant, termination measure, assert, boundary variants of a search loop.",
+    "requiredMentions": [
+      "49,680",
+      "Broadheath",
+      "Oldfield Brow",
+      "Bowdon",
+      "Hale Barns",
+      "loop invariant",
+      "2,316",
+      "1,023",
+      "WA15 9YS",
+      "1,998"
+    ],
+    "sources": [
+      {
+        "claim": "OS Code-Point Open 2026.3.0, postcode units for WA14 and WA15 (Open Government Licence).",
+        "url": "https://www.ordnancesurvey.co.uk/products/code-point-open"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: Altrincham and the named places in Trafford.",
+        "url": "https://api.postcodes.io/places?q=Altrincham"
+      }
+    ],
+    "rejectedClaims": [
+      "That the 2,316 postcodes are all in Altrincham: not claimed; they are the WA14 and WA15 districts, which the file spreads over three authorities.",
+      "That version B runs forever in a strict sense: each run was stopped at 200 probes, and the page says so.",
+      "That AI assistants usually write binary search wrongly: not claimed; only that one-character slips of this kind can occur and are hard to see.",
+      "Anything about the addresses or residents behind a postcode: nothing used beyond the postcode strings.",
+      "That Bowdon, Hale or Hale Barns are parts of Altrincham: not claimed; they are listed as recorded in Trafford.",
+      "Named schools, term dates and sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-bridgwater": {
+    "market": "Bridgwater",
+    "bodyClass": "cg-bwt",
+    "pageType": "city",
+    "curriculumAuthority": "Sedgemoor (E07000188), the 2021 census district, TS001 usual residents 125,343. ONS 2021 BUAs of 6,000+ (published): Bridgwater 47,860; Burnham-on-Sea 16,320. postcodes.io (county_unitary Somerset): Bridgwater (town); Hamp, Sydenham, Eastover (suburban areas); Wembdon, Chilton Trinity, Cannington, Puriton (villages); Durleigh, Dunwear (hamlets); North Petherton (town).",
+    "localProject": "OpenStreetMap building ways and streets via one Overpass query, box 51.1235-51.1325 N, 3.0135-2.9992 W (999 m x 1,001 m). 2 m cells, 499 x 500 = 249,500. 2,085 building outlines rasterised to 58,365 cells (23.4%). Simulated agent: 17.45 km of streets (no service roads), 3,149 stops 5 m apart, 72 beams of 30 m, 226,380 readings. Perfect sensor: 124,723 cells observed (50.0%), 13,642 wall cells found (23.4% of building cells). Noisy sensor, seed 20260930: 10% false early echo, 10% missed wall, range error sd 0.7 cell. Last reading wins: 95.57% of observed cells correct, 2,384 phantom wall cells, 74.0% of visible walls kept (3,012 wiped). Majority of hits vs passes: 98.75%, 298, 79.7%. Log-odds +0.85 hit / -0.4 pass: 98.32%, 1,420, 92.1% (543 wiped). Lesson family: occupancy grid mapping, log-odds evidence accumulation, unknown vs free.",
+    "requiredMentions": [
+      "47,860",
+      "125,343",
+      "Hamp",
+      "Wembdon",
+      "Chilton Trinity",
+      "Durleigh",
+      "Dunwear",
+      "Eastover",
+      "occupancy grid",
+      "249,500",
+      "13,642"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap building outlines and streets (ODbL) fetched through the Overpass API for a box in Bridgwater.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas, villages and hamlets in Somerset around Bridgwater.",
+        "url": "https://api.postcodes.io/places?q=Wembdon"
+      }
+    ],
+    "rejectedClaims": [
+      "That the box is \"the town centre\" in any official sense: it is our box; the page says central Bridgwater loosely and gives coordinates in the dossier.",
+      "Which named buildings or streets were mapped well or badly: not published.",
+      "The river, docks, carnival or any town history: not read from a source; not claimed.",
+      "Local government changes in Somerset: not stated; Sedgemoor is described only as the 2021 census district.",
+      "That the log-odds weights used are optimal: not claimed; they are one reasonable choice.",
+      "Sum of the listed built-up areas: not published as a total; not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
