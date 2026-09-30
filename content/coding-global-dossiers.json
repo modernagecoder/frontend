@@ -35261,7 +35261,7 @@
     "bodyClass": "cg-bif",
     "pageType": "city",
     "curriculumAuthority": "Barrow-in-Furness district, 2022 boundary (E07000027), Census 2021 TS001 usual residents 67,407. ONS 2021 BUA (published): Barrow-in-Furness 55,255. English national curriculum, GCSE and A level. postcodes.io lists the town under Westmorland and Furness; suburban areas Vickerstown, Hawcoat, Ormsgill, Hindpool, Barrow Island, North Scale (LA14), Roose, Newbarns (LA13).",
-    "localProject": "Census 2021 TS017 (three-person household share) and TS044 (detached share) for 246 OAs, 31,263 households. Spearman rank correlation: all 246 0.040 (Pearson 0.005); top 62 by rank sum -0.702; remaining 184 -0.257; top quarter on either measure (114) -0.591; 2,000 random shortlists of 62: median 0.038, middle 95% -0.175 to 0.256, lowest -0.311. Lesson family: Berkson's paradox, selection (collider) bias in training data.",
+    "localProject": "Census 2021 TS017 (three-person household share) and TS044 (detached share) for 246 OAs, OA rows sum to 31,263 households (published LAD total 31,258). Spearman rank correlation: all 246 0.040 (Pearson 0.005); top 62 by rank sum -0.702; remaining 184 -0.257; top quarter on either measure (114) -0.591; 2,000 random shortlists of 62: median 0.038, middle 95% -0.175 to 0.256, lowest -0.311. Lesson family: Berkson's paradox, selection (collider) bias in training data.",
     "requiredMentions": [
       "67,407",
       "55,255",
@@ -35302,7 +35302,7 @@
     "bodyClass": "cg-sit",
     "pageType": "city",
     "curriculumAuthority": "Swale (E07000113), Census 2021 TS001 usual residents 151,676. ONS 2021 BUA (published): Sittingbourne 54,390. English national curriculum, GCSE and A level. postcodes.io (Swale) suburban areas: Milton Regis, Kemsley, Murston, Chalkwell, Snipeshill, Grove Park (ME10), Bapchild (ME9).",
-    "localProject": "Invented leaflet drop over the 162 ONS centroids of the Sittingbourne BUA (21,521 households, TS017); depot = centre closest to the mean; 161 stops, 21,414 leaflets; straight-line. One trip per stop 478.2 km. Capacity 3,000: closest-next 8 trips 64.7 km; Clarke-Wright savings 8 trips 53.8 km (153 merges, 12,880 pairs). Capacity 2,000: 11 trips 81.5 km against 12 trips 64.1 km. Capacity 5,000: 5 trips 56.8 km against 5 trips 45.5 km. Top saving 5.09 km. Lesson family: Clarke-Wright savings algorithm, capacitated vehicle routing.",
+    "localProject": "Invented leaflet drop over the 162 ONS centroids of the Sittingbourne BUA (our sum of OA household counts 21,521, TS017); depot = centre closest to the mean; 161 stops, 21,414 leaflets; straight-line. One trip per stop 478.2 km. Capacity 3,000: closest-next 8 trips 64.7 km; Clarke-Wright savings 8 trips 53.8 km (153 merges, 12,880 pairs). Capacity 2,000: 11 trips 81.5 km against 12 trips 64.1 km. Capacity 5,000: 5 trips 56.8 km against 5 trips 45.5 km. Top saving 5.09 km. Lesson family: Clarke-Wright savings algorithm, capacitated vehicle routing.",
     "requiredMentions": [
       "151,676",
       "54,390",

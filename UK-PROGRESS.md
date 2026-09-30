@@ -501,7 +501,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 449 | best-coding-and-ai-classes-in-hampstead-london (hsd, #1F5F3A) | cg- town page | 2,845 | 1.9% vs best-coding-and-ai-classes-in-finchley-london | does it matter how you measure distance between neighbourhoods? | Mahalanobis distance, Euclidean distance, correlated features | 42e947ee |
 | 450 | vibe-coding-and-ai-agents-classes-in-sutton-coldfield-birmingham (stc, #8A4B00) | cg- town page | 2,936 | 2.4% vs vibe-coding-and-ai-agents-classes-in-halesowen | how should an agent behave when a service says slow down? | token bucket, rate limiting, client-side throttling | ddd3bcec |
 | 451 | online-coding-and-python-classes-in-edgbaston-birmingham (egb, #0B5A78) | cg- town page | 2,782 | 2.5% vs online-coding-and-python-classes-in-didsbury-manchester | how do you find near-duplicate names without comparing every pair? | MinHash, locality-sensitive hashing, Jaccard similarity | 25566711 |
-| 452 | ai-and-programming-classes-in-harborne-birmingham (hbn, #7A1F2E) | cg- town page | 2,764 | 1.5% vs ai-and-programming-classes-in-roundhay-leeds | when an algorithm finds groups, how many are real? | Gaussian mixture model, expectation-maximisation, BIC | (this commit) |
+| 452 | ai-and-programming-classes-in-harborne-birmingham (hbn, #7A1F2E) | cg- town page | 2,764 | 1.5% vs ai-and-programming-classes-in-roundhay-leeds | when an algorithm finds groups, how many are real? | Gaussian mixture model, expectation-maximisation, BIC | e7197e46 |
+| 454 | vibe-coding-and-ai-agents-classes-in-kings-heath-birmingham (khh, #9A3412) | cg- town page | 2,874 | 1.5% vs vibe-coding-and-ai-agents-classes-in-sittingbourne | how does a program with a tiny memory find the most common items in a stream? | Misra-Gries heavy hitters, Count-Min sketch, streaming algorithms | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
