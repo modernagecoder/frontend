@@ -1141,6 +1141,50 @@ USD 100 a month small group, USD 150 a month one to one.
 - Strabane, Northern Ireland: https://learn.modernagecoders.com/ai-and-programming-classes-in-strabane
 - Banbridge, Northern Ireland: https://learn.modernagecoders.com/ai-and-programming-classes-in-banbridge
 - Enniskillen, Northern Ireland: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-enniskillen
+- Wembley, London: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-wembley-london
+- Southall, London: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-southall-london
+- Kingswood, South Gloucestershire: https://learn.modernagecoders.com/online-coding-and-python-classes-in-kingswood-bristol
+- Horsforth, Leeds: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-horsforth-leeds
+- Roath, Cardiff: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-roath-cardiff
+- Ecclesall, Sheffield: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-ecclesall-sheffield
+- Ilford, London: https://learn.modernagecoders.com/online-coding-and-python-classes-in-ilford-london
+- Crookes, Sheffield: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-crookes-sheffield
+- Headingley, Leeds: https://learn.modernagecoders.com/online-coding-and-python-classes-in-headingley-leeds
+- Llandaff, Cardiff: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-llandaff-cardiff
+- West End, Glasgow: https://learn.modernagecoders.com/ai-and-programming-classes-in-west-end-glasgow
+- Hampstead, London: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-hampstead-london
+- Didsbury, Manchester: https://learn.modernagecoders.com/online-coding-and-python-classes-in-didsbury-manchester
+- Oadby, Leicestershire: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-oadby-leicester
+- West Bridgford, Nottinghamshire: https://learn.modernagecoders.com/online-coding-and-python-classes-in-west-bridgford-nottingham
+- Malone, Belfast: https://learn.modernagecoders.com/online-coding-and-python-classes-in-malone-belfast
+- Roundhay, Leeds: https://learn.modernagecoders.com/ai-and-programming-classes-in-roundhay-leeds
+- Edgware, London: https://learn.modernagecoders.com/ai-and-programming-classes-in-edgware-london
+- Wigston, Leicestershire: https://learn.modernagecoders.com/online-coding-and-python-classes-in-wigston-leicester
+- Earlsdon, Coventry: https://learn.modernagecoders.com/ai-and-programming-classes-in-earlsdon-coventry
+- Shawlands, Glasgow: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-shawlands-glasgow
+- Sutton Coldfield, Birmingham: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-sutton-coldfield-birmingham
+- Withington, Manchester: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-withington-manchester
+- Edgbaston, Birmingham: https://learn.modernagecoders.com/online-coding-and-python-classes-in-edgbaston-birmingham
+- Hayes, London: https://learn.modernagecoders.com/online-coding-and-python-classes-in-hayes-london
+- Evington, Leicester: https://learn.modernagecoders.com/ai-and-programming-classes-in-evington-leicester
+- Harborne, Birmingham: https://learn.modernagecoders.com/ai-and-programming-classes-in-harborne-birmingham
+- Morningside, Edinburgh: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-morningside-edinburgh
+- Chorlton, Manchester: https://learn.modernagecoders.com/ai-and-programming-classes-in-chorlton-manchester
+- Wimbledon, London: https://learn.modernagecoders.com/ai-and-programming-classes-in-wimbledon-london
+- Wythenshawe, Manchester: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-wythenshawe-manchester
+- Stanmore, London: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-stanmore-london
+- Clifton, Bristol: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-clifton-bristol
+- Moseley, Birmingham: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-moseley-birmingham
+- Ormeau, Belfast: https://learn.modernagecoders.com/ai-and-programming-classes-in-ormeau-belfast
+- Stockbridge, Edinburgh: https://learn.modernagecoders.com/online-coding-and-python-classes-in-stockbridge-edinburgh
+- Bishopston, Bristol: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-bishopston-bristol
+- Finchley, London: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-finchley-london
+- Kings Heath, Birmingham: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-kings-heath-birmingham
+- Pinner, London: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-pinner-london
+- Leith, Edinburgh: https://learn.modernagecoders.com/ai-and-programming-classes-in-leith-edinburgh
+- Twickenham, London: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-twickenham-london
+- Dulwich, London: https://learn.modernagecoders.com/ai-and-programming-classes-in-dulwich-london
+- Chiswick, London: https://learn.modernagecoders.com/online-coding-and-python-classes-in-chiswick-london
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).

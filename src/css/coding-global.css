@@ -1354,3 +1354,46 @@
 .cg-root.cg-sbn  { --cg-accent: #44474A; --cg-accent-soft: rgba(68,71,74,.10); }   /* Strabane: a cool charcoal (8.82:1 on paper), chosen by hand to stand apart from the coloured accents of recent pages */
 .cg-root.cg-bbr  { --cg-accent: #6E5A0A; --cg-accent-soft: rgba(110,90,10,.10); }   /* Banbridge: a dark ochre (6.71:1 contrast), chosen by hand to differ in hue from the purples, navies and greens of recent pages */
 .cg-root.cg-enk  { --cg-accent: #0F6E6E; --cg-accent-soft: rgba(15,110,110,.10); }   /* Enniskillen: a deep lough cyan (6.04:1 contrast), chosen by hand to differ in hue from the purples, navies and greens of recent pages */
+.cg-root.cg-wmb  { --cg-accent: #0B5F8A; --cg-accent-soft: rgba(11,95,138,.10); }   /* Wembley: a deep cerulean (6.96:1 contrast), chosen by hand to sit apart from recent purples and greens */
+.cg-root.cg-swl  { --cg-accent: #8A5A0B; --cg-accent-soft: rgba(138,90,11,.10); }   /* Southall: a deep amber (5.92:1 contrast), chosen by hand to stand apart from recent purples and blues */
+.cg-root.cg-kws  { --cg-accent: #1F5E8C; --cg-accent-soft: rgba(31,94,140,.10); }   /* Kingswood: a steel cobalt blue (6.91:1 contrast), chosen by hand to differ in hue from neighbouring Phase 9 pages */
+.cg-root.cg-hfh  { --cg-accent: #115E59; --cg-accent-soft: rgba(17,94,89,.10); }   /* Horsforth: a deep pine teal (7.58:1 contrast), chosen by hand to sit apart from the purples and navies of recent pages */
+.cg-root.cg-rth  { --cg-accent: #1F5C8A; --cg-accent-soft: rgba(31,92,138,.10); }   /* Roath: a harbour steel blue (7.1:1 contrast), picked by hand to differ in hue from recent pages */
+.cg-root.cg-ecl  { --cg-accent: #3A4A5C; --cg-accent-soft: rgba(58,74,92,.10); }   /* Ecclesall: a slate blue-grey (9.08:1 contrast), hand-picked to sit apart from the purples, greens and bronzes of recent pages */
+.cg-root.cg-ilf  { --cg-accent: #0B6E55; --cg-accent-soft: rgba(11,110,85,.10); }   /* Ilford: a deep sea green (6.22:1 contrast), chosen by hand to differ from recent purples and blues */
+.cg-root.cg-cks  { --cg-accent: #7A3A2A; --cg-accent-soft: rgba(122,58,42,.10); }   /* Crookes: a burnt sienna (8.52:1 contrast), hand-picked away from the blues, purples and greens of recent pages */
+.cg-root.cg-hdl  { --cg-accent: #1F5F7A; --cg-accent-soft: rgba(31,95,122,.10); }   /* Headingley: a deep petrol blue (hand-picked for hue distance from other Phase 9 pages, contrast above 6:1) */
+.cg-root.cg-lld  { --cg-accent: #7A1F4A; --cg-accent-soft: rgba(122,31,74,.10); }   /* Llandaff: a deep mulberry (9.89:1 contrast), picked by hand to differ in hue from recent pages */
+.cg-root.cg-wng  { --cg-accent: #2E6B4F; --cg-accent-soft: rgba(46,107,79,.10); }   /* West End, Glasgow: a pine green (6.3:1 contrast), chosen by hand to differ in hue from neighbouring Phase 9 pages */
+.cg-root.cg-hsd  { --cg-accent: #1F5F3A; --cg-accent-soft: rgba(31,95,58,.10); }   /* Hampstead: a deep heath green (7.62:1 contrast), hand-picked to differ in hue from recent pages */
+.cg-root.cg-dsb  { --cg-accent: #7A3A1F; --cg-accent-soft: rgba(122,58,31,.10); }   /* Didsbury: a warm chestnut (hand-picked for hue distance from other Phase 9 pages, contrast above 7:1) */
+.cg-root.cg-oby  { --cg-accent: #9F1239; --cg-accent-soft: rgba(159,18,57,.10); }   /* Oadby: a deep ruby (8.02:1 contrast), chosen by hand to stand apart from recent teals, navies and purples */
+.cg-root.cg-wbf  { --cg-accent: #1F5C4A; --cg-accent-soft: rgba(31,92,74,.10); }   /* West Bridgford: a deep pine green (7.81:1 contrast), hand-picked for distance from the slates and siennas of neighbouring Phase 9 pages */
+.cg-root.cg-mal  { --cg-accent: #2F6B4F; --cg-accent-soft: rgba(47,107,79,.10); }   /* Malone: a parkland green (6.29:1 contrast), picked by hand to differ in hue from recent pages */
+.cg-root.cg-rdy  { --cg-accent: #5B6B12; --cg-accent-soft: rgba(91,107,18,.10); }   /* Roundhay: a deep moss olive (hand-picked for hue distance from other Phase 9 pages, contrast above 5.5:1) */
+.cg-root.cg-edg  { --cg-accent: #7A0B3C; --cg-accent-soft: rgba(122,11,60,.10); }   /* Edgware: a deep raspberry (10.82:1 contrast), chosen by hand to stand apart from neighbouring pages */
+.cg-root.cg-eds  { --cg-accent: #2A5C7A; --cg-accent-soft: rgba(42,92,122,.10); }   /* Earlsdon: a petrol blue (7.22:1 contrast), hand-picked to differ from the slate, sienna and pine of the other Phase 9 pages in this batch */
+.cg-root.cg-wgs  { --cg-accent: #854D0E; --cg-accent-soft: rgba(133,77,14,.10); }   /* Wigston: a dark amber brown (6.85:1 contrast), chosen by hand against the rubies, teals and navies of neighbouring pages */
+.cg-root.cg-shw  { --cg-accent: #8A4A2A; --cg-accent-soft: rgba(138,74,42,.10); }   /* Shawlands: a burnt sienna (6.79:1 contrast), chosen by hand to differ in hue from neighbouring Phase 9 pages */
+.cg-root.cg-stc  { --cg-accent: #8A4B00; --cg-accent-soft: rgba(138,75,0,.10); }   /* Sutton Coldfield: a burnt amber brown (6.8:1 contrast), hand-picked to differ in hue from recent pages */
+.cg-root.cg-wth  { --cg-accent: #3F4F8A; --cg-accent-soft: rgba(63,79,138,.10); }   /* Withington: a slate indigo (hand-picked for hue distance from other Phase 9 pages, contrast above 7:1) */
+.cg-root.cg-egb  { --cg-accent: #0B5A78; --cg-accent-soft: rgba(11,90,120,.10); }   /* Edgbaston: a deep petrol blue (7.64:1 contrast), hand-picked to differ in hue from recent pages */
+.cg-root.cg-hys  { --cg-accent: #8A4B00; --cg-accent-soft: rgba(138,75,0,.10); }   /* Hayes: a burnt amber brown (6.8:1 contrast), chosen by hand to sit apart from the blues and purples of nearby pages */
+.cg-root.cg-evn  { --cg-accent: #0B5C73; --cg-accent-soft: rgba(11,92,115,.10); }   /* Evington: a deep cyan, chosen by hand to differ from the ruby and amber of the Oadby and Wigston pages */
+.cg-root.cg-hbn  { --cg-accent: #7A1F2E; --cg-accent-soft: rgba(122,31,46,.10); }   /* Harborne: a dark wine red (10.18:1 contrast), hand-picked to differ in hue from recent pages */
+.cg-root.cg-mrn  { --cg-accent: #5E4B8A; --cg-accent-soft: rgba(94,75,138,.10); }   /* Morningside: a slate violet (7.37:1 contrast), chosen by hand to differ in hue from neighbouring Phase 9 pages */
+.cg-root.cg-crt  { --cg-accent: #8A1F5C; --cg-accent-soft: rgba(138,31,92,.10); }   /* Chorlton: a deep mulberry (hand-picked for hue distance from other Phase 9 pages, contrast above 7:1) */
+.cg-root.cg-wim  { --cg-accent: #0A6B4F; --cg-accent-soft: rgba(10,107,79,.10); }   /* Wimbledon: a deep emerald (6.5:1 contrast), chosen by hand and unused elsewhere in the cluster */
+.cg-root.cg-wys  { --cg-accent: #A03A2A; --cg-accent-soft: rgba(160,58,42,.10); }   /* Wythenshawe: a brick red (hand-picked for hue distance from other Phase 9 pages, contrast above 6:1) */
+.cg-root.cg-stn  { --cg-accent: #2F3F8F; --cg-accent-soft: rgba(47,63,143,.10); }   /* Stanmore: a deep ultramarine (9.42:1 contrast), chosen by hand to differ from the pages around it */
+.cg-root.cg-clf  { --cg-accent: #3F6212; --cg-accent-soft: rgba(63,98,18,.10); }   /* Clifton: a dark moss green, picked by hand and unlike the Bristol city page accent */
+.cg-root.cg-msy  { --cg-accent: #2F4F4F; --cg-accent-soft: rgba(47,79,79,.10); }   /* Moseley: a dark slate green-grey (8.93:1 contrast), hand-picked to differ in hue from recent pages */
+.cg-root.cg-orm  { --cg-accent: #8A4A3A; --cg-accent-soft: rgba(138,74,58,.10); }   /* Ormeau: a brick terracotta (6.73:1 contrast), picked by hand to differ in hue from recent pages */
+.cg-root.cg-stb  { --cg-accent: #0E5A7A; --cg-accent-soft: rgba(14,90,122,.10); }   /* Stockbridge: a deep teal blue (7.3:1 contrast), picked by hand to sit apart from the violet and plum of the other Edinburgh districts */
+.cg-root.cg-bsp  { --cg-accent: #1E3A8A; --cg-accent-soft: rgba(30,58,138,.10); }   /* Bishopston: a dark royal blue, selected by hand to stand apart from the moss green Clifton page */
+.cg-root.cg-fnc  { --cg-accent: #9B2D20; --cg-accent-soft: rgba(155,45,32,.10); }   /* Finchley: a brick red (7.53:1 contrast), chosen by hand and unused elsewhere in the cluster */
+.cg-root.cg-khh  { --cg-accent: #9A3412; --cg-accent-soft: rgba(154,52,18,.10); }   /* Kings Heath: a burnt orange-brown (7.3:1 contrast), hand-picked to differ in hue from recent pages */
+.cg-root.cg-pnr  { --cg-accent: #56650B; --cg-accent-soft: rgba(86,101,11,.10); }   /* Pinner: a dark olive (6.2:1 contrast or better on paper), picked by hand to sit apart from neighbouring pages */
+.cg-root.cg-twk  { --cg-accent: #2F5D8A; --cg-accent-soft: rgba(47,93,138,.10); }   /* Twickenham: a river blue (6.88:1 contrast), chosen by hand and unused elsewhere in the cluster */
+.cg-root.cg-dlw  { --cg-accent: #7B3F61; --cg-accent-soft: rgba(123,63,97,.10); }   /* Dulwich: a mulberry (7.6:1 contrast), chosen by hand and unused elsewhere in the cluster */
+.cg-root.cg-csk  { --cg-accent: #5B4BB0; --cg-accent-soft: rgba(91,75,176,.10); }   /* Chiswick: a wisteria violet (6.4:1 contrast), chosen by hand and unused elsewhere in the cluster */

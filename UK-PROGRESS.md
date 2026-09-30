@@ -485,7 +485,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 433 | best-coding-and-ai-classes-in-enniskillen (enk, #0F6E6E) | cg- town page | 2,708 | 2.2% vs ai-and-programming-classes-in-greenock | which smooth curve tells the truth about a shoreline? | Chaikin corner cutting, Catmull-Rom spline, curve reconstruction | 14166a91 |
 | 434 | vibe-coding-and-ai-agents-classes-in-dungannon (dgn, #A0461F) | cg- town page | 2,888 | 2% vs vibe-coding-and-ai-agents-classes-in-crewe | what should an agent do when its plan breaks? | dynamic replanning, plan repair, unreachable goals | 8ac4f312 |
 | 435 | online-coding-and-python-classes-in-downpatrick (dpk, #6B6A10) | cg- town page | 2,794 | 1.4% vs online-coding-and-python-classes-in-weston-super-mare | what is the smallest circle round every shop? | smallest enclosing circle, Welzl, randomised input order | c092928d |
-| 436 | ai-and-programming-classes-in-strabane (sbn, #44474A) | cg- town page | 2,822 | 1.5% vs ai-and-programming-classes-in-dumfries | can a model learn from data nobody labelled? | semi-supervised learning, label propagation, label spreading | (this commit) |
+| 436 | ai-and-programming-classes-in-strabane (sbn, #44474A) | cg- town page | 2,822 | 1.5% vs ai-and-programming-classes-in-dumfries | can a model learn from data nobody labelled? | semi-supervised learning, label propagation, label spreading | 9041cadc |
+| 437 | best-coding-and-ai-classes-in-wembley-london (wmb, #0B5F8A) | cg- town page | 2,806 | 1.9% vs online-coding-and-python-classes-in-corby | which options are genuine trade-offs? | Pareto front, dominance, weighted sums | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

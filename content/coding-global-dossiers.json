@@ -32722,5 +32722,1794 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-wembley-london": {
+    "market": "Wembley",
+    "bodyClass": "cg-wmb",
+    "pageType": "city",
+    "curriculumAuthority": "Brent (E09000005), London. England: national curriculum, GCSE and A level. Census 2021 usual residents by 2022 ward (Nomis NM_2021_1, TYPE153): Wembley Central 17,925; Wembley Hill 15,063; Wembley Park 7,548; Tokyngton 10,006; Alperton 15,056. postcodes.io (Brent) suburban areas: Alperton, North Wembley, Sudbury, Tokyngton, Wembley Park.",
+    "localProject": "OSM API 0.6 bbox -0.325,51.540,-0.270,51.570 (9 tiles): walk network 223.0 km, 8 stations, 25 parks (459 vertices), 4 libraries, 279 shops, 3,167 buildings. Multi-source Dijkstra walking distances; medians station 599 m, park 506 m, library 946 m. Pareto fronts: 2 goals 7 (0.22%), 3 goals 44 (1.39%), 4 goals 90 (2.84%). Weighted sums over 101 weights pick 3 distinct buildings; 4 of 7 front members never chosen. Lesson family: Pareto front, dominance, weighted sums.",
+    "requiredMentions": [
+      "17,925",
+      "15,063",
+      "7,548",
+      "3,167",
+      "Tokyngton",
+      "North Wembley",
+      "Sudbury",
+      "Wembley Park",
+      "Pareto front"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by 2022 ward, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "OpenStreetMap map data for Wembley, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Brent.",
+        "url": "https://api.postcodes.io/places?q=Tokyngton"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for Wembley as a whole: no published figure for exactly that area; ward figures only, not summed.",
+      "Stadium, arena or event history: not read from a source; not claimed.",
+      "Advice on where to live: the front describes walking distances only.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-southall-london": {
+    "market": "Southall",
+    "bodyClass": "cg-swl",
+    "pageType": "city",
+    "curriculumAuthority": "Ealing (E09000009), London. England: national curriculum, GCSE and A level. Census 2021 usual residents by 2022 ward (Nomis NM_2021_1, TYPE153): Southall Broadway 10,825; Southall Green 15,694; Southall West 6,581; Dormers Wells 15,609. postcodes.io (Ealing): Norwood Green, Dormer's Wells (suburban areas); Southall (settlement).",
+    "localProject": "OSM via Overpass, bbox -0.405,51.495,-0.350,51.525: 3,058 junctions, 218.7 km, 832 dead ends. 150 journeys >= 800 m (median shortest 2,840 m). Beam search k 1/2/5/20/100: completed 3/30/75/129/149; median length ratio 1.015/1.059/1.050/1.035/1.021; exact 0/2/9/16/14; median expanded 9/49.5/211/1,180.5/4,836. A* median 438 junctions, always shortest. Lesson family: beam search.",
+    "requiredMentions": [
+      "10,825",
+      "15,694",
+      "6,581",
+      "15,609",
+      "Norwood Green",
+      "Dormers Wells",
+      "Southall Broadway",
+      "beam search",
+      "beam width"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by 2022 ward, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "OpenStreetMap streets and paths in Southall via the Overpass API, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and settlements in Ealing.",
+        "url": "https://api.postcodes.io/places?q=Norwood%20Green"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for Southall as a whole: no published figure for exactly that area; ward figures only, not summed.",
+      "Community, religious or heritage descriptions: not used; the page sticks to measured map data.",
+      "How specific language models decode: described only in general terms.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-kingswood-bristol": {
+    "market": "Kingswood",
+    "bodyClass": "cg-kws",
+    "pageType": "city",
+    "curriculumAuthority": "South Gloucestershire (E06000025), Census 2021 TS001 usual residents 290,424. ONS 2021 BUA (published): Kingswood and Fishponds 160,270 (crosses into Bristol; not shared out). postcodes.io (South Gloucestershire, BS15/BS16/BS30): Hanham, Cadbury Heath, Longwell Green, Staple Hill, Lower and Upper Soundwell, Warmley Hill (suburban areas); Warmley (village); Kingswood (other settlement).",
+    "localProject": "OpenTopoData eudem25m 48 x 40 grid (1,920 heights), bbox -2.560,51.430,-2.470,51.470, 7.8 to 114.4 m, median 53.3. Grey quarter shares linear 16.9/46.5/24.4/12.2%, equalised 24.6/25.1/25.1/25.3%. Second quarter heights linear 34.4-61.1 m, equalised 39.8-53.1 m; lightest quarter equalised 69.9-114.4 m. Levels used 251 vs 187; neighbour grey difference 9.52 vs 12.2. Lesson family: histogram equalisation.",
+    "requiredMentions": [
+      "290,424",
+      "160,270",
+      "1,920",
+      "Hanham",
+      "Cadbury Heath",
+      "Longwell Green",
+      "Staple Hill",
+      "Warmley",
+      "histogram equalisation"
+    ],
+    "sources": [
+      {
+        "claim": "OpenTopoData API, EU-DEM 25 m dataset (Copernicus EU-DEM v1.1).",
+        "url": "https://www.opentopodata.org/datasets/eudem/"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis and ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and villages in South Gloucestershire.",
+        "url": "https://api.postcodes.io/places?q=Hanham"
+      }
+    ],
+    "rejectedClaims": [
+      "Coalfield, chapel or forest history: not read from a source; not claimed.",
+      "That Kingswood is in Bristol: not claimed; it is in South Gloucestershire, inside a built-up area that crosses the boundary.",
+      "A population for Kingswood alone: none found; the council and built-up area figures are quoted separately and not combined.",
+      "Named hills or streets on the height map: not identified; the grid is described by coordinates only.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-horsforth-leeds": {
+    "market": "Horsforth",
+    "bodyClass": "cg-hfh",
+    "pageType": "city",
+    "curriculumAuthority": "Leeds (E08000035). England: national curriculum, GCSE and A level. Census 2021 TS001: Horsforth ward (E05011547) 24,310. postcodes.io (Leeds): Horsforth, Cragg Hill, Horsforth Woodside (LS18); Newlay (LS13); Tinshill, Cookridge, West Park (LS16).",
+    "localProject": "Overpass (OSM) rectangle 53.825-53.855 N, 1.665-1.605 W: walkable ways 256.0 km, 16 playgrounds; 122 OAs (PWC) with 37,296 residents (TS001). 2SFCA vs count, network walking. No playground within: 400 m 30,583 (82.0%); 800 m 16,220 (43.5%); 1,200 m 4,865 (13.0%). Spearman among served OAs 0.661 / 0.862 / 0.855. Median catchment residents 622 / 3,230 / 6,692. Lesson family: accessibility measurement, 2SFCA, threshold sensitivity.",
+    "requiredMentions": [
+      "24,310",
+      "37,296",
+      "256.0 km",
+      "Cragg Hill",
+      "Horsforth Woodside",
+      "Newlay",
+      "Tinshill",
+      "Cookridge",
+      "floating catchment"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap paths and playgrounds via the Overpass API, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents for Horsforth ward and output areas, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS Output Areas (December 2021) population-weighted centroids, ONS Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Leeds.",
+        "url": "https://api.postcodes.io/places?q=Cragg%20Hill"
+      }
+    ],
+    "rejectedClaims": [
+      "Town history, landmarks or rankings of Horsforth: not read from a source; not claimed.",
+      "That any area is under-served in fact: the page shows how the answer depends on the threshold; no policy claim.",
+      "That OpenStreetMap lists every playground: not claimed; unmapped playgrounds are not counted.",
+      "A Horsforth built-up area figure: the ONS publishes none; the ward figure is used.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-roath-cardiff": {
+    "market": "Roath",
+    "bodyClass": "cg-rth",
+    "pageType": "city",
+    "curriculumAuthority": "Cardiff (W06000015). Wales: Curriculum for Wales, Years 1 to 13, WJEC GCSE and A level. Nomis Census 2021 TS001, 2022 wards: Plasnewydd 18,277; Penylan 12,911; Cathays 21,821. postcodes.io places: Roath (Y Rhath) and Roath Park, suburban areas of Cardiff, CF23; reverse lookups: 51.4956,-3.1562 Penylan ward; CF24 3HG Plasnewydd ward.",
+    "localProject": "OSM API 0.6 bbox -3.185,51.483,-3.150,51.505 (6 tiles): 529 shops and food places (328 with addr:street). Convex hull 4.842 km2. Alpha (circumradius) 60 / 100 / 150 / 250 / 400 m: area 0.181 / 0.531 / 1.268 / 2.44 / 3.714 km2; share 3.7 / 11.0 / 26.2 / 50.4 / 76.7%; pieces 21 / 13 / 9 / 3 / 1. Largest at 60 m: 235 (Wellfield Road tag), 101 (Crwys Road). Lesson family: alpha shapes, concave hulls.",
+    "requiredMentions": [
+      "18,277",
+      "12,911",
+      "4.842",
+      "Plasnewydd",
+      "Penylan",
+      "Roath Park",
+      "Wellfield Road",
+      "Crwys Road",
+      "alpha shape",
+      "Y Rhath"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap shops, food places and address tags in Roath, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "Nomis Census 2021 TS001 usual residents by 2022 ward, Cardiff.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and reverse postcode lookups: Roath (Y Rhath), Roath Park; Plasnewydd and Penylan wards.",
+        "url": "https://api.postcodes.io/places?q=Roath"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for Roath: no official figure exists; ward counts shown instead and not added together.",
+      "That Roath is exactly Plasnewydd and Penylan wards: not claimed; only that sample points fall there.",
+      "Named shops or the quality of any shopping street: none named or judged.",
+      "Park, lake or history claims: not read from a source; not claimed.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-ecclesall-sheffield": {
+    "market": "Ecclesall",
+    "bodyClass": "cg-ecl",
+    "pageType": "city",
+    "curriculumAuthority": "Sheffield (E08000019), Ecclesall ward (E05010867), Census 2021 TS001 usual residents 20,559 (Nomis NM_2021_1, 2022 wards). England national curriculum; GCSE and A level. postcodes.io (Sheffield): Ecclesall, Greystones, Bents Green, Banner Cross, Parkhead, Whirlow (S11 suburban areas), Millhouses (S7), Ringinglow (hamlet).",
+    "localProject": "ONS OA21 to WD22 lookup: 63 OAs in Ecclesall ward; ONS OA December 2021 population-weighted centroids; TS001 OA counts as weights. Weiszfeld 45 iterations; median 61.1 m from centroid; average distance 889.8 m (centroid) vs 888.9 m (median). Hypothetical 3,000 people 3 km west: centroid moves 385.0 m, median 182.0 m. Sheffield 1,829 OAs: 414 m apart, 4,857 vs 4,842 m (0.31%). Lesson family: geometric median, Weiszfeld, flat optimum, robustness.",
+    "requiredMentions": [
+      "20,559",
+      "Greystones",
+      "Bents Green",
+      "Banner Cross",
+      "Whirlow",
+      "Parkhead",
+      "Ringinglow",
+      "geometric median",
+      "Weiszfeld"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis, 2022 wards and output areas.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS Output Areas (December 2021) population-weighted centroids and OA to ward lookup, ONS Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas of Sheffield.",
+        "url": "https://api.postcodes.io/places?q=Greystones"
+      }
+    ],
+    "rejectedClaims": [
+      "Where any real venue should be sited: not claimed; the meeting point is a teaching exercise.",
+      "Walking distances: all distances are straight lines between area centres, stated on the page.",
+      "That the listed suburbs lie inside the Ecclesall ward boundary: not claimed.",
+      "Sum of ward populations or comparisons with other wards: none made.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-ilford-london": {
+    "market": "Ilford",
+    "bodyClass": "cg-ilf",
+    "pageType": "city",
+    "curriculumAuthority": "Redbridge (E09000026), London. England: national curriculum, GCSE and A level. Census 2021 usual residents by 2022 ward (Nomis NM_2021_1, TYPE153): Ilford Town 12,327; Clementswood 13,503; Loxford 15,123; Valentines 15,209. postcodes.io (Redbridge): Cranbrook, Loxford (IG1), Gants Hill, Newbury Park (IG2), Seven Kings, Goodmayes (IG3) suburban areas; Ilford settlement.",
+    "localProject": "OS Code-Point Open 2026.3.0: 1,325 postcodes IG1 (913) + IG2 (412). Exact variance eastings 603,291.8, northings 1,277,505.9. Float32 one-pass 1,933,312 (+220.46%) and 1,433,600 (+12.22%); two-pass 603,293.0 / 1,277,506.1; Welford 603,046.9 (-0.0406%) / 1,277,274.8 (-0.0181%); float64 one-pass off 0.00005. Sector IG1 1 (220) one-pass float32 -98,304 vs 158,907.5. Lesson family: numerical stability, catastrophic cancellation, Welford.",
+    "requiredMentions": [
+      "12,327",
+      "13,503",
+      "15,123",
+      "1,325",
+      "Gants Hill",
+      "Cranbrook",
+      "Newbury Park",
+      "Seven Kings",
+      "catastrophic cancellation",
+      "Welford"
+    ],
+    "sources": [
+      {
+        "claim": "Ordnance Survey Code-Point Open, dataset version 2026.3.0, Open Government Licence.",
+        "url": "https://www.ordnancesurvey.co.uk/products/code-point-open"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by 2022 ward, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Redbridge.",
+        "url": "https://api.postcodes.io/places?q=Gants%20Hill"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for Ilford as a whole: no published figure for exactly that area; ward figures only, not summed.",
+      "Town history or landmarks: not read from a source; not claimed.",
+      "That a particular AI tool writes the unstable formula: described only as a possibility to test for.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-crookes-sheffield": {
+    "market": "Crookes",
+    "bodyClass": "cg-cks",
+    "pageType": "city",
+    "curriculumAuthority": "Sheffield (E08000019), Crookes and Crosspool ward (E05010863), Census 2021 TS001 usual residents 17,195 (Nomis NM_2021_1, 2022 wards). England national curriculum; GCSE and A level. postcodes.io (Sheffield, S10): Crookes, Crosspool, Nether Green, Lodge Moor, Sandygate, Tapton Hill (suburban areas).",
+    "localProject": "OSM API 0.6 bbox -1.535,53.372,-1.490,53.395: walk graph 11,237 nodes, 197.5 km. OpenTopoData eudem25m 61x52 grid, 82.8 to 263.0 m. Tobler 6 exp(-3.5|s+0.05|) km/h per direction. 300 random pairs >= 600 m. Medians: flat estimate 22.0 min, Tobler on shortest route 24.1, Tobler-optimal 24.0; routes differ 37.7%; saving 0.4% (p90 3.4%); climb 53 vs 52 m; there vs back 10.2% (p90 28.8%); flat estimate 9.7% short. Lesson family: Tobler hiking function, slope-aware asymmetric costs for a planning agent.",
+    "requiredMentions": [
+      "17,195",
+      "197.5 km",
+      "Crosspool",
+      "Nether Green",
+      "Sandygate",
+      "Tapton Hill",
+      "Lodge Moor",
+      "Tobler",
+      "hiking function"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap paths and streets around Crookes, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "OpenTopoData API, EU-DEM 25 m dataset (Copernicus EU-DEM v1.1).",
+        "url": "https://www.opentopodata.org/datasets/eudem/"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis, 2022 wards.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas of Sheffield (S10).",
+        "url": "https://api.postcodes.io/places?q=Crosspool"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for Crookes alone: none is published; only the ward figure is given.",
+      "That Tobler's rule matches real walkers in Crookes: not claimed; stated as a published approximation.",
+      "Named streets, steepest-street or highest-suburb claims: none made.",
+      "Official journey times: none; all times are model outputs.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-headingley-leeds": {
+    "market": "Headingley",
+    "bodyClass": "cg-hdl",
+    "pageType": "city",
+    "curriculumAuthority": "Leeds (E08000035). Census 2021 TS001: Headingley & Hyde Park ward (E05011397) 31,175 usual residents. postcodes.io places (Leeds, LS6): Headingley, Far Headingley, Headingley Hill, Hyde Park (suburban areas). England national curriculum, GCSE and A level.",
+    "localProject": "OS Code-Point Open 2026.3.0 (RM update 17 July 2026): 120 CSV files, 1,749,109 rows. List then filter: tracemalloc peak 1,113.6 MB, 33.2 s. Generator pipeline: peak 0.1 MB, 24.4 s. LS6 postcodes 885; ward E05011397 postcodes 491 (490 LS6, 1 LS2). Lesson family: generators, lazy evaluation, streaming.",
+    "requiredMentions": [
+      "31,175",
+      "1,749,109",
+      "1,113.6 MB",
+      "Far Headingley",
+      "Headingley Hill",
+      "Hyde Park",
+      "LS6",
+      "lazy evaluation",
+      "tracemalloc"
+    ],
+    "sources": [
+      {
+        "claim": "Ordnance Survey Code-Point Open, dataset version 2026.3.0, Open Government Licence.",
+        "url": "https://www.ordnancesurvey.co.uk/products/code-point-open"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by ward, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and outcode LS6: suburban areas and wards in Leeds.",
+        "url": "https://api.postcodes.io/outcodes/LS6"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for Headingley itself: not published; only the ward figure is given and labelled as the ward.",
+      "Cricket ground, stadium, university or student-area claims: not read from a source; not made.",
+      "Timings as general truths: stated as one machine only.",
+      "That LS6 equals Headingley: not claimed; LS6 covers several wards.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-llandaff-cardiff": {
+    "market": "Llandaff",
+    "bodyClass": "cg-lld",
+    "pageType": "city",
+    "curriculumAuthority": "Cardiff (W06000015). Wales: Curriculum for Wales, Years 1 to 13, WJEC GCSE and A level. Nomis Census 2021 TS001, 2022 wards: Llandaff 8,776; Llandaff North 8,425. postcodes.io places: Llandaff (CF5) and Llandaff North (CF14), suburban areas of Cardiff; CF5 2ED resolves to Llandaff ward.",
+    "localProject": "OSM API 0.6 bbox -3.232,51.488,-3.205,51.503 (4 tiles): 2,569 buildings (19,452 wall segments); 2,248 street/path sample points about 20 m apart. Sight line within 120 m crossing no wall. Points seen: median 27, p10 9, p90 51, max 80; median visible share 66.7%. Greedy coverage 1/5/10/20 observers: 3.6 / 14.5 / 25.9 / 43.9%; random median 5/10/20: 6.2 / 11.7 / 22.1%. Lesson family: isovists, ray casting, greedy maximum coverage.",
+    "requiredMentions": [
+      "8,776",
+      "8,425",
+      "2,569",
+      "2,248",
+      "Llandaff North",
+      "CF5 2ED",
+      "isovist",
+      "19,452",
+      "25.9%"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap buildings, streets and paths in Llandaff, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "Nomis Census 2021 TS001 usual residents by 2022 ward, Cardiff.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and postcode lookup: Llandaff, Llandaff North; CF5 2ED in Llandaff ward.",
+        "url": "https://api.postcodes.io/places?q=Llandaff"
+      }
+    ],
+    "rejectedClaims": [
+      "Cathedral, village or river history: not read from a source; not claimed.",
+      "Real camera, policing or surveillance coverage: not modelled or implied; observers are imaginary.",
+      "That greedy placement is optimal: stated as good but not guaranteed.",
+      "Sum of the two wards: separate wards, not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-west-end-glasgow": {
+    "market": "West End, Glasgow",
+    "bodyClass": "cg-wng",
+    "pageType": "city",
+    "curriculumAuthority": "Glasgow City (S12000049). Scotland: Curriculum for Excellence, SQA National 5, Higher, Advanced Higher. No NRS figure for the West End; Glasgow City about 620,700 (Scotland's Census 2022, rounded). postcodes.io (Glasgow City, G3/G11/G12): Broomhill, Dowanhill, Hillhead, Hyndland, Kelvindale, Kelvingrove, Kelvinside, Partick, Yorkhill (suburban areas).",
+    "localProject": "OSM API 0.6 bbox -4.320,55.866,-4.280,55.890: 5,045 building footprints (2,242 untyped; 1,169 houses; 884 apartments). Otsu on log10 area: 144.4 sq m, 81.0% of 2,053 tagged correct (houses 76.6%, apartments 86.8%); label-tuned optimum 152 sq m 82.0%; guesses 50/100/200/300 sq m 46.1/63.0/75.1/66.3%; Otsu on raw area 4,973.9 sq m, 56.9%. Median footprint 158.2 (houses 114.6, apartments 209.3). Lesson family: Otsu automatic threshold.",
+    "requiredMentions": [
+      "5,045",
+      "144.4",
+      "Hillhead",
+      "Hyndland",
+      "Partick",
+      "Dowanhill",
+      "Kelvinside",
+      "Yorkhill",
+      "Otsu",
+      "between-class variance"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap building footprints in the West End of Glasgow, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Glasgow City (G3, G11, G12).",
+        "url": "https://api.postcodes.io/places?q=Hyndland"
+      },
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 rounded population estimates (Glasgow City).",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      }
+    ],
+    "rejectedClaims": [
+      "A population or boundary for the West End: none found; not stated.",
+      "University, museum or park history: not read from a source; not claimed.",
+      "That OpenStreetMap \"apartments\" means tenements specifically: not claimed; the tag is quoted as mapped.",
+      "That footprint size shows how a building is used: not claimed; only agreement with volunteer tags is reported.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-hampstead-london": {
+    "market": "Hampstead",
+    "bodyClass": "cg-hsd",
+    "pageType": "city",
+    "curriculumAuthority": "Camden (E09000007), London. Census 2021 TS001 by 2022 ward via Nomis: Hampstead Town 8,016; Frognal 7,725; Belsize 12,299; West Hampstead 11,162; South Hampstead 12,166. postcodes.io (Camden): Hampstead (NW3), Vale of Health, Gospel Oak, West Hampstead, South Hampstead.",
+    "localProject": "Census 2021 TS045 and TS017 for 751 Camden OAs (92,763 households, 59,026 no car). Features: % no car, % one-person; means 63.01/38.61, sd 14.81/11.15, r 0.552. Top 20 Euclidean vs Mahalanobis: 14 shared, 6 + 6 differ. Example 65.0%/10.7%: Euclidean rank 46, Mahalanobis 16. 97.5% cut-off: 35 Euclidean, 31 Mahalanobis. Hampstead Town + Frognal 60 OAs: mean no-car 44.38%; 8 vs 5 over cut-off. Lesson family: Mahalanobis distance, covariance-aware outliers.",
+    "requiredMentions": [
+      "8,016",
+      "12,299",
+      "92,763",
+      "59,026",
+      "Frognal",
+      "Vale of Health",
+      "West Hampstead",
+      "South Hampstead",
+      "Mahalanobis distance"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001, TS045 and TS017 via Nomis (wards and output areas in Camden).",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS Wards (December 2022) boundaries and output area population-weighted centroids, ONS Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: Hampstead and suburban areas in Camden.",
+        "url": "https://api.postcodes.io/places?q=Vale%20of%20Health"
+      }
+    ],
+    "rejectedClaims": [
+      "Heath, literary or house-price claims about Hampstead: not read from a source; not claimed.",
+      "A single population for \"Hampstead\": no official boundary; ward figures shown separately and not summed.",
+      "Why any area is unusual: no cause claimed; areas are not named or located.",
+      "Camden total 210,136: registered by the Camden page; not repeated as a mention here.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-didsbury-manchester": {
+    "market": "Didsbury",
+    "bodyClass": "cg-dsb",
+    "pageType": "city",
+    "curriculumAuthority": "Manchester (E08000003). Census 2021 TS001: Didsbury East ward (E05011362) 14,709; Didsbury West ward (E05011363) 15,083 (not summed). postcodes.io places (Manchester, M20): Didsbury, East Didsbury, West Didsbury (suburban areas); M20 wards also Withington, Burnage, Old Moat, Chorlton Park. England national curriculum, GCSE and A level.",
+    "localProject": "ONS Wards (December 2022) Boundaries UK BGC: Didsbury East 3,647,598 sq m, Didsbury West 3,353,073 sq m (shoelace on generalised outlines), total 7.001 sq km in a 3.808 x 3.536 km box (52.0%). Area by sampling, median error of 200 repeats, random / Halton: n 100 5.79 / 3.83%; 1,000 2.48 / 0.56%; 10,000 0.71 / 0.11%; 100,000 0.19 / 0.018% (ratios 1.5, 4.4, 6.2, 10.5). Lesson family: quasi-Monte Carlo, low-discrepancy sequences.",
+    "requiredMentions": [
+      "14,709",
+      "15,083",
+      "East Didsbury",
+      "West Didsbury",
+      "3,647,598",
+      "Halton sequence",
+      "low-discrepancy",
+      "quasi-Monte Carlo",
+      "3,353,073"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Open Geography Portal, Wards (December 2022) Boundaries UK BGC (generalised), Open Government Licence.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by ward, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and outcode M20: suburban areas and wards in Manchester.",
+        "url": "https://api.postcodes.io/outcodes/M20"
+      }
+    ],
+    "rejectedClaims": [
+      "A single population for Didsbury: not published; the two ward figures are given separately and not added.",
+      "The exact legal area of the wards: only the generalised outlines were measured, and the page says so.",
+      "That Halton points always win: stated as largest for smooth, low-dimensional problems.",
+      "Village, park or transport claims about Didsbury: not read from a source; not made.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-oadby-leicester": {
+    "market": "Oadby",
+    "bodyClass": "cg-oby",
+    "pageType": "city",
+    "curriculumAuthority": "Oadby and Wigston (E07000135), Leicestershire; separate from the City of Leicester. Census 2021 TS001 district 57,747. ONS 2021 BUA Oadby 24,030. Wards (TS001): Oadby Grange 6,052; Oadby Woodlands 4,634; Oadby St Peter's 4,551; Oadby Uplands 4,522; Oadby Brocks Hill 4,272.",
+    "localProject": "Overpass (OSM) rectangle 52.585-52.615 N, 1.110-1.055 W: roads 161.1 km, 1,375 buildings (641 delivery points). Contract net vs Hungarian optimal vs random, road shortest paths. Ratio to optimal median / p90 / exactly optimal: 3 agents 1.000 / 1.229 / 56.7% (random 1.188); 5 agents 1.050 / 1.224 / 22.0% (random 1.356); 10 agents 1.122 / 1.263 / 0% of 80 (random 1.712). Lesson family: contract net protocol, task allocation by bidding.",
+    "requiredMentions": [
+      "24,030",
+      "57,747",
+      "161.1 km",
+      "Oadby Grange",
+      "Oadby Woodlands",
+      "Oadby Uplands",
+      "Brocks Hill",
+      "6,052",
+      "contract net"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap roads and buildings via the Overpass API, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents (district and wards) via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: Oadby, district Oadby and Wigston.",
+        "url": "https://api.postcodes.io/places?q=Oadby"
+      }
+    ],
+    "rejectedClaims": [
+      "That Oadby is inside the City of Leicester: false; stated as a separate district of Leicestershire.",
+      "Sum of the Oadby wards or a comparison with the built-up area: different boundaries; not added.",
+      "Any real delivery company, racecourse, university or town history: not read from a source; not claimed.",
+      "That real agent products use the contract net: described only as a common pattern.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-west-bridgford-nottingham": {
+    "market": "West Bridgford",
+    "bodyClass": "cg-wbf",
+    "pageType": "city",
+    "curriculumAuthority": "Rushcliffe (E07000176), Nottinghamshire; Census 2021 TS001 119,077. ONS 2021 BUA (published): West Bridgford 36,490. Nomis 2022 wards: Lutterell 5,981; Trent Bridge 5,883; Edwalton 5,774; Compton Acres 5,548; Musters 4,681. England national curriculum; GCSE and A level. postcodes.io: West Bridgford (town, NG2), Gamston, Edwalton (villages), all Rushcliffe. West Bridgford is not in the City of Nottingham.",
+    "localProject": "FSA FHRS API, Rushcliffe (authority 83): 916 establishments, 192 geocoded in bbox -1.145,52.912,-1.090,52.940 (address lines + coordinates only). OSM API 0.6 same box: 454 named streets. Stage 1 exact line 52 (47 within 150 m); stage 2 cleaned 135 (132 within 150 m); stage 3 SequenceMatcher on 5: >= 0.9 accepts 3 (all correct), >= 0.75 accepts 4 (1 wrong), >= 0.6 accepts 5 (2 wrong). Lesson family: record linkage, fuzzy matching thresholds, cleaning first.",
+    "requiredMentions": [
+      "36,490",
+      "119,077",
+      "Lutterell",
+      "Musters",
+      "Compton Acres",
+      "Gamston",
+      "Edwalton",
+      "SequenceMatcher",
+      "record linkage"
+    ],
+    "sources": [
+      {
+        "claim": "Food Standards Agency, Food Hygiene Rating Scheme open data API (Rushcliffe), Open Government Licence.",
+        "url": "https://api.ratings.food.gov.uk/Help"
+      },
+      {
+        "claim": "OpenStreetMap street names in West Bridgford, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 (wards, Rushcliffe) via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: West Bridgford, Gamston, Edwalton in Rushcliffe.",
+        "url": "https://api.postcodes.io/places?q=West%20Bridgford"
+      }
+    ],
+    "rejectedClaims": [
+      "That West Bridgford is part of the City of Nottingham: it is in Rushcliffe; stated on the page.",
+      "Any business name, rating or hygiene information: not used or shown.",
+      "Which spelling of a street is correct when the two sources differ: not decided.",
+      "Sum of ward populations: not published as a total; not added.",
+      "Named schools, sports grounds and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-malone-belfast": {
+    "market": "Malone",
+    "bodyClass": "cg-mal",
+    "pageType": "city",
+    "curriculumAuthority": "Belfast (N09000003). Northern Ireland Curriculum, P1 to Year 14, CCEA GCSE and A level. NISRA Census 2021 MS-A01: Malone ward 4,811; Upper Malone ward 4,974; Musgrave ward 4,836; Balmoral DEA 24,491. OpenStreetMap place labels in the rectangle: Upper Malone, Lower Malone, Balmoral, Taughmonagh, Stranmillis (suburbs).",
+    "localProject": "OSM API 0.6 bbox -5.972,54.552,-5.925,54.590 (9 tiles); park way 554010963 Barnett Demesne, 50.36 ha by our calculation. Bridson Poisson disk (k 30, seed 2026) inside the outline: r 15 m 1,445 points, 52,979 tries, min 15.0 m, median nn 15.9 m; uniform same count min 0.2 m, median 8.9 m, 86.0% closer than r. r 25 m 529 points, 19,247 tries, 25.0 / 26.4; uniform 0.2 / 15.2, 86.4%. r 40 m 218, 8,039, 40.1 / 42.4; uniform 0.6 / 22.8, 87.6%. Lesson family: Poisson disk sampling, blue noise.",
+    "requiredMentions": [
+      "4,974",
+      "24,491",
+      "50.36",
+      "1,445",
+      "Upper Malone",
+      "Lower Malone",
+      "Taughmonagh",
+      "Barnett Demesne",
+      "Poisson disk",
+      "blue noise"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap park outline and place labels in Malone, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "NISRA Census 2021 main statistics table MS-A01, usual resident population by ward and district electoral area.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "CCEA qualifications referred to for Northern Ireland learners.",
+        "url": "https://ccea.org.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "That Barnett Demesne lies in Malone ward, or who owns or manages it: not claimed; it is the largest named park outline in our rectangle.",
+      "Real trees, planting plans or facilities in the park: none described; the points are imaginary.",
+      "A population for \"Malone\" as a neighbourhood: only the NISRA ward and DEA figures are given, not added.",
+      "Community background, religion or identity data: not used.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-roundhay-leeds": {
+    "market": "Roundhay",
+    "bodyClass": "cg-rdy",
+    "pageType": "city",
+    "curriculumAuthority": "Leeds (E08000035). Census 2021 TS001: Roundhay ward (E05011411) 23,809. postcodes.io places (Leeds, LS8): Roundhay, Oakwood, Gledhow (suburban areas); LS8 wards also Chapel Allerton, Moortown, Gipton & Harehills, Killingbeck & Seacroft, Little London & Woodhouse. England national curriculum, GCSE and A level.",
+    "localProject": "Census 2021 TS045/TS017/TS044/TS006 for 2,607 Leeds OAs (341,381 households, 98,083 no car). Gradient boosting (150 trees, depth 3) predicts no-car share; 3-fold CV MAE on 70%, 30% held out; mean-only 15.62. Budget 16: grid 4x4 best 8.587 (lr 0.1, subsample 0.77; rows 14.5 / 9.6 / 8.6 / 11.63-27.24); random median 8.479, worst 8.526, 20/20 ahead; Latin hypercube median 8.474, worst 8.496, 20/20. Overall lowest 8.426 (lr 0.037, sub 0.47). Hold-out: grid winner 8.874, overall winner 8.567. Lesson family: hyperparameter search under a budget.",
+    "requiredMentions": [
+      "23,809",
+      "2,607",
+      "341,381",
+      "98,083",
+      "Oakwood",
+      "Gledhow",
+      "hyperparameter",
+      "Latin hypercube",
+      "random search"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS045, TS017, TS044, TS006 and TS001 via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "Nomis API dataset NM_2063_1, Census 2021 TS045 car or van availability, Leeds output areas.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2063_1.def.sdmx.json"
+      },
+      {
+        "claim": "postcodes.io places and outcode LS8: suburban areas and wards in Leeds.",
+        "url": "https://api.postcodes.io/outcodes/LS8"
+      }
+    ],
+    "rejectedClaims": [
+      "Roundhay Park or any landmark, size or history claim: not read from a source; not made.",
+      "That random search always beats a grid: stated for limited budgets where one setting dominates, as measured here.",
+      "Why areas differ in car ownership: no cause claimed; the data only feeds the tuning exercise.",
+      "A Roundhay-only result: the model uses all Leeds areas, and the page says so.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-edgware-london": {
+    "market": "Edgware",
+    "bodyClass": "cg-edg",
+    "pageType": "city",
+    "curriculumAuthority": "Barnet (E09000003) and Harrow (E09000015), London. England: national curriculum, GCSE and A level. Census 2021 usual residents by 2022 ward (Nomis NM_2021_1, TYPE153): Edgware (Barnet) 19,998; Edgwarebury 12,109; Burnt Oak 21,857; Edgware (Harrow) 15,713. postcodes.io (HA8): Burnt Oak (Barnet), Canons Park, Little Stanmore (Harrow) suburban areas; Edgware settlement; Edgware Bury hamlet.",
+    "localProject": "Census 2021 OA data Barnet + Harrow (TS044, TS006, TS017, TS045): 1,801 OAs, 238,545 households, 77,977 in purpose-built flats, 483 flat-majority (26.8%). 30 splits, clean test. Accuracy / flats found: clean logistic 82.0/55.7, 1-NN 78.4/59.0, 15-NN 83.0/56.0, tree 77.8/58.6; random 10% 81.9, 72.4, 82.2, 71.0; random 30% 81.2, 61.3, 76.4, 60.2; systematic 40% 77.6/20.4, 76.5/35.7, 77.4/20.3, 75.9/35.7; baseline 73.2. Lesson family: label noise.",
+    "requiredMentions": [
+      "19,998",
+      "15,713",
+      "12,109",
+      "21,857",
+      "1,801",
+      "77,977",
+      "Burnt Oak",
+      "Canons Park",
+      "Edgwarebury",
+      "label noise"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS044, TS006, TS017, TS045 and TS001 via Nomis (output areas and 2022 wards).",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "Nomis API dataset NM_2062_1, Census 2021 TS044 accommodation type.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2062_1.def.sdmx.json"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Barnet and Harrow (HA8).",
+        "url": "https://api.postcodes.io/places?q=Burnt%20Oak"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for Edgware as a whole: no published figure for exactly that area; ward figures only, not summed.",
+      "Any claim that the Census data is mislabelled: the corruption is ours, applied only to training copies.",
+      "Community, religious or heritage descriptions: not used.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-earlsdon-coventry": {
+    "market": "Earlsdon",
+    "bodyClass": "cg-eds",
+    "pageType": "city",
+    "curriculumAuthority": "Coventry (E08000026), Earlsdon ward (E05001221), Census 2021 TS001 usual residents 15,384 (Nomis NM_2021_1, 2022 wards). England national curriculum; GCSE and A level. postcodes.io (Coventry): Earlsdon, Whoberley, Canley Gardens (CV5), Canley (CV4) suburban areas.",
+    "localProject": "OpenTopoData eudem25m 40x40 grid, bbox -1.556,52.381,-1.503,52.407 (about 3.6 x 2.9 km), 70.1 to 110.0 m, sd 8.43. GP (constant x RBF + white) vs IDW power 2; 10 draws. RMSE GP/IDW, 95% coverage: n 25 5.47/5.78, 89.4%; 50 4.14/5.06, 90.6%; 100 2.79/4.43, 91.3%; 200 1.85/3.84, 92.7%. n 100 error most-unsure fifth 3.36 vs least-unsure 1.13. Lesson family: Gaussian process regression (kriging), predictive uncertainty, IDW.",
+    "requiredMentions": [
+      "15,384",
+      "Whoberley",
+      "Canley Gardens",
+      "Gaussian process",
+      "kriging",
+      "inverse distance weighting",
+      "8.43 m",
+      "91.3%"
+    ],
+    "sources": [
+      {
+        "claim": "OpenTopoData API, EU-DEM 25 m dataset (Copernicus EU-DEM v1.1).",
+        "url": "https://www.opentopodata.org/datasets/eudem/"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 usual residents via Nomis, 2022 wards.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas of Coventry.",
+        "url": "https://api.postcodes.io/places?q=Earlsdon"
+      }
+    ],
+    "rejectedClaims": [
+      "That the height grid matches the ward boundary: it is a rectangle around the ward, stated as a box.",
+      "Watchmaking or other local history: not read from a source; not claimed.",
+      "That the elevation model is ground truth: stated as an estimate on a 25 m grid.",
+      "Comparisons of Earlsdon with other wards: none made.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-shawlands-glasgow": {
+    "market": "Shawlands",
+    "bodyClass": "cg-shw",
+    "pageType": "city",
+    "curriculumAuthority": "Glasgow City (S12000049). Scotland: Curriculum for Excellence, SQA National 5 to Advanced Higher. No NRS figure for Shawlands; Glasgow City about 620,700 (Scotland's Census 2022, rounded). postcodes.io (Glasgow City, G41/G42/G43): Shawlands, Strathbungo, Crossmyloof, Pollokshields, Langside, Battlefield, Mount Florida, Newlands (suburban areas).",
+    "localProject": "OSM API 0.6 bbox -4.300,55.820,-4.265,55.842: 3,789 buildings assigned to 235 named streets within 40 m; 2,563 (67.6%) described (tag other than yes). 89 streets at 100% raw, 27 with n <= 3; 64 streets n < 5; median n 10. Wilson 95% lower bounds: 1/1 20.7, 3/3 43.8, 10/10 72.2, 30/30 88.6, 60/60 94.0, 55/56 90.6. Nithsdale Road 55/56: raw rank 90, Wilson rank 8; Invergordon Avenue 60/60 first. Lesson family: Wilson score interval ranking.",
+    "requiredMentions": [
+      "3,789",
+      "Strathbungo",
+      "Crossmyloof",
+      "Langside",
+      "Pollokshields",
+      "Mount Florida",
+      "Nithsdale Road",
+      "Wilson score",
+      "55 of 56"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap buildings and street names around Shawlands, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Glasgow City (G41, G42, G43).",
+        "url": "https://api.postcodes.io/places?q=Shawlands"
+      },
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 rounded population estimates (Glasgow City).",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for Shawlands: none found for exactly this area; not stated.",
+      "Any judgement of the streets themselves: the ranking measures OpenStreetMap tagging only.",
+      "Park, arcade or tenement history: not read from a source; not claimed.",
+      "Real AI benchmark results: the 5 of 5 and 480 of 500 example is illustrative arithmetic, labelled as such by context.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-sutton-coldfield-birmingham": {
+    "market": "Sutton Coldfield",
+    "bodyClass": "cg-stc",
+    "pageType": "city",
+    "curriculumAuthority": "Birmingham (E08000025). ONS 2021 BUA (published): Royal Sutton Coldfield 93,375. Census 2021 TS001 by 2022 ward via Nomis: Sutton Vesey 20,113; Sutton Walmley & Minworth 16,318; Sutton Roughley 11,965; Sutton Mere Green 10,145; Sutton Reddicap 10,035; Sutton Trinity 9,485; Sutton Four Oaks 9,329; Sutton Wylde Green 9,295. postcodes.io (Birmingham): Four Oaks, Mere Green, Walmley, Wylde Green, Boldmere, Maney, New Oscott, Minworth, Roughley, Reddicap Heath.",
+    "localProject": "OSM API 0.6, bbox -1.870,52.530,-1.770,52.600, 20 tiles: 112.0 MB, 0.95 to 11.4 MB, 54.9 s download. Simulated INVENTED token bucket 20 MB + 1 MB/s. Time / refusals: retry 1 s 93.9/39; 5 s 94.9/8; 30 s 144.9/3; doubling 93.9/22; gap 2 s 102.9/4; gap 10 s 254.9/0; own bucket 93.2/0; floor 92.0 s. Lesson family: token bucket rate limiting.",
+    "requiredMentions": [
+      "93,375",
+      "20,113",
+      "Four Oaks",
+      "Boldmere",
+      "Walmley",
+      "Wylde Green",
+      "Mere Green",
+      "Maney",
+      "token bucket",
+      "112.0 MB"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap API 0.6 map data over Sutton Coldfield, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 by ward via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Birmingham.",
+        "url": "https://api.postcodes.io/places?q=Boldmere"
+      }
+    ],
+    "rejectedClaims": [
+      "OpenStreetMap's actual rate or bandwidth limits: not stated; the bucket on the page is invented and labelled so.",
+      "Sutton Park, royal town or civic history: not read from a source; not claimed.",
+      "Sum of the eight ward counts, or any comparison with the built-up area: different boundaries; not added.",
+      "Any named language-model provider's limits: not quoted.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-wigston-leicester": {
+    "market": "Wigston",
+    "bodyClass": "cg-wgs",
+    "pageType": "city",
+    "curriculumAuthority": "Oadby and Wigston (E07000135), Leicestershire; separate from the City of Leicester. ONS 2021 BUA Wigston 34,730. Wards (TS001): Wigston Fields 6,863; Wigston St Wolstan's 6,561; Wigston Meadowcourt 6,304; Wigston All Saints 5,874. postcodes.io (LE18): Wigston, Wigston Magna, Wigston Harcourt, South Wigston.",
+    "localProject": "Overpass (OSM) relation 162358 Oadby and Wigston boundary: ring of 1,156 points, our planar area 23.33 sq km, length 31.04 km. VW vs every n-th, largest shift / area error: 50% 9 m vs 93 m (0.01 vs 0.04%); 20% 50 vs 168 (0.00 vs 0.13); 10% 65 vs 284 (0.03 vs 0.13); 5% 169 vs 333 (0.10 vs 0.52); 2% 459 vs 1,252 (1.42 vs 7.06). Length at 5% 26.52 km (VW). 3,229 heap pops to 5%. Lesson family: Visvalingam-Whyatt simplification, heap.",
+    "requiredMentions": [
+      "34,730",
+      "Wigston Magna",
+      "Wigston Harcourt",
+      "South Wigston",
+      "Wigston Fields",
+      "Wigston Meadowcourt",
+      "23.33",
+      "31.04 km",
+      "Visvalingam"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap boundary relation for Oadby and Wigston via the Overpass API, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/relation/162358"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 ward populations via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places in Oadby and Wigston (LE18).",
+        "url": "https://api.postcodes.io/places?q=Wigston%20Magna"
+      }
+    ],
+    "rejectedClaims": [
+      "That Wigston is inside the City of Leicester: false; stated as a separate Leicestershire district.",
+      "Official area or boundary length of the borough: not quoted; only our measurements of the mapped line, labelled as ours.",
+      "Sum of ward figures or comparison with the built-up area: different boundaries; not added.",
+      "Town history, canal or framework-knitting heritage: not read from a source; not claimed.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-withington-manchester": {
+    "market": "Withington",
+    "bodyClass": "cg-wth",
+    "pageType": "city",
+    "curriculumAuthority": "Manchester (E08000003). Census 2021 TS001: Withington ward (E05011380) 15,439. postcodes.io: Withington (suburban area, M20); M20 wards Burnage, Chorlton Park, Didsbury East, Didsbury West, Old Moat, Withington. England national curriculum, GCSE and A level.",
+    "localProject": "Census 2021 TS001 for 1,593 Manchester OAs at ONS population-weighted centroids; 386 OAs in a 5 km square on postcodes.io Withington point (384904, 392774), our sum 141,227. Equal-area 0.25 sq km cells: squares 500 m; hexagons centre spacing 537.3 m, corner 310.2 m (square corner 353.6 m; diagonal neighbours 707.1 m). 200 offsets: busiest cell squares median 4,204 (3,273 to 5,309, 48.4%); hexagons median 4,110 (3,268 to 5,442, 52.9%); top-cell centre wander 870 m / 895 m. Lesson family: hexagonal binning vs squares, placement sensitivity.",
+    "requiredMentions": [
+      "15,439",
+      "141,227",
+      "Old Moat",
+      "Burnage",
+      "537.3 m",
+      "310.2 m",
+      "353.6 m",
+      "hexagonal binning",
+      "hexagon"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by output area and ward, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS Output Areas (December 2021) population-weighted centroids, Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io place Withington and outcode M20 ward list.",
+        "url": "https://api.postcodes.io/outcodes/M20"
+      }
+    ],
+    "rejectedClaims": [
+      "141,227 as a published population: it is our own sum of output-area counts inside our square, and labelled so.",
+      "That hexagons remove bias: only compactness and equal neighbours are claimed; placement sensitivity is shown to remain.",
+      "Hospital, university, high-street or history claims about Withington: not read from a source; not made.",
+      "Any density ranking of real neighbourhoods: cells are not named or ranked.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-edgbaston-birmingham": {
+    "market": "Edgbaston",
+    "bodyClass": "cg-egb",
+    "pageType": "city",
+    "curriculumAuthority": "Birmingham (E08000025). Census 2021 TS001 by 2022 ward via Nomis: Edgbaston 18,730; North Edgbaston 22,565. postcodes.io (Birmingham): Edgbaston (B15), Lee Bank (B15), Harborne (B17), Selly Park (B29).",
+    "localProject": "OSM API 0.6 bbox -1.975,52.420,-1.870,52.480 (24 tiles): 4,842 named places. 3-char shingles, Jaccard >= 0.6: 11,720,061 pairs, 23.5 s, 1,901 true pairs. MinHash 128 (4.7 s). LSH: 64x2 310,693 candidates 100%; 32x4 11,152 candidates 100% (0.5 s); 16x8 1,820 candidates 86.0% (1,635). 288 pairs within 100 m; 90 same tag within 30 m. Lesson family: MinHash, LSH, near-duplicate detection.",
+    "requiredMentions": [
+      "18,730",
+      "22,565",
+      "4,842",
+      "11,720,061",
+      "North Edgbaston",
+      "Lee Bank",
+      "Selly Park",
+      "MinHash",
+      "locality-sensitive hashing"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap named places in south-west Birmingham, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 by ward via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Birmingham (B15, B17, B29).",
+        "url": "https://api.postcodes.io/places?q=Lee%20Bank"
+      }
+    ],
+    "rejectedClaims": [
+      "Cricket ground, university or botanical garden claims: not read from a source; not claimed.",
+      "That any similar-name pair is a mapping mistake: not claimed; no business or place is named.",
+      "That the rectangle equals Edgbaston: it is a larger rectangle of south-west Birmingham and the page says so.",
+      "Sum of the two ward counts: not added.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-hayes-london": {
+    "market": "Hayes",
+    "bodyClass": "cg-hys",
+    "pageType": "city",
+    "curriculumAuthority": "London Borough of Hillingdon (E09000017). Census 2021 usual residents by 2022 ward (published per ward, not summed): Hayes Town 14,998; Pinkwell 16,709; Wood End 19,802; Yeading 13,416; Belmore 17,493. postcodes.io (Hillingdon): Hayes (UB3), Harlington (UB3), Hayes End (UB10).",
+    "localProject": "Census 2021 TS006 density for 201 OAs best-fitted to Hayes Town, Pinkwell, Wood End, Yeading, Belmore. Mean 9,520.5; median 9,177.6; 10% trimmed 8,711.8; winsorised 8,659.4; SD 8,319.4; scaled MAD 3,503.2; max 96,585.4. x100 typos: 1 -> mean 14,040.8, median 9,262.1, trimmed 8,738.3; 5 -> 32,412.3 / 9,409.4 / 8,842.1; 20 -> 103,643.4 / 9,851.5 / 10,483.6; 50 -> 258,462.3 / 11,120.4 / 189,757.3. z > 3 flags 2; modified z > 3.5 flags 7. Lesson family: robust statistics, breakdown point.",
+    "requiredMentions": [
+      "14,998",
+      "16,709",
+      "19,802",
+      "13,416",
+      "Pinkwell",
+      "Yeading",
+      "Harlington",
+      "Hayes End",
+      "trimmed mean",
+      "median absolute deviation"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS006 population density and TS001 usual residents by ward, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS output area to LSOA lookup and LSOA 2021 to ward (May 2022) best-fit lookup, ONS Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: Hayes, Harlington and Hayes End in Hillingdon.",
+        "url": "https://api.postcodes.io/places?q=Harlington"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for \"Hayes\": no single official boundary; ward figures are given separately and never summed.",
+      "That these five wards are the definition of Hayes: stated as our chosen study area.",
+      "Errors in the Census data: none claimed; every mistake in the experiment was planted by us.",
+      "Industrial, canal or airport history: not read from a source; not claimed.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-evington-leicester": {
+    "market": "Evington",
+    "bodyClass": "cg-evn",
+    "pageType": "city",
+    "curriculumAuthority": "City of Leicester (E06000016). England: national curriculum, GCSE and A level. Census 2021 TS001 wards: Evington (E05010464) 17,268; North Evington 23,917. postcodes.io (City of Leicester): Evington, North Evington, Crown Hills, Humberstone, Thurnby Lodge (LE5); Stoneygate (LE2).",
+    "localProject": "Overpass (OSM) rectangle 52.610-52.640 N, 1.100-1.045 W: 1,592 building outlines (1,336 untyped, 256 typed, 56 typed non-homes incl. 13 schools). Six shape features; IsolationForest 200 trees. Median area 130.8 sq m; top 5% (79) median 999 sq m; typed in top 5%: 15 of 28 non-homes (54%) vs base 21.9%; 9 of 13 schools. Top 1% vs largest 1% overlap 26.7%. Seed agreement on top 1%: 88.7% (200 trees), 63.4% (10 trees). Lesson family: isolation forest.",
+    "requiredMentions": [
+      "17,268",
+      "23,917",
+      "1,592",
+      "Crown Hills",
+      "North Evington",
+      "Thurnby Lodge",
+      "Stoneygate",
+      "Humberstone",
+      "isolation forest"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap building outlines via the Overpass API, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 ward populations for Leicester via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in the City of Leicester.",
+        "url": "https://api.postcodes.io/places?q=Evington"
+      }
+    ],
+    "rejectedClaims": [
+      "Any judgement about a specific building, school or business: none named; a flag only means an unusual outline.",
+      "Sum of the Evington and North Evington wards: separate wards; not added.",
+      "Village history, parks or places of worship: not read from a source; not claimed.",
+      "That OpenStreetMap tags are complete: not claimed; 1,336 of 1,592 outlines are untyped.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-harborne-birmingham": {
+    "market": "Harborne",
+    "bodyClass": "cg-hbn",
+    "pageType": "city",
+    "curriculumAuthority": "Birmingham (E08000025). Census 2021 TS001, Harborne ward 23,002 (Nomis). ONS Wards (December 2022) boundary E05011144, 5.09 sq km by our calculation. postcodes.io (Birmingham): Harborne (B17), Edgbaston (B15), Weoley Castle and California (B29).",
+    "localProject": "OSM buildings with centre in Harborne ward: 4,422 footprints, median 101.2 sq m. GMM on log10 area: BIC 1,888.2 / 1,561.3 / 1,500.0 / 1,515.4 / 1,511.9 for 1 to 5 components. k=3: 48.6 sq m (7.7%), 102.4 (78.1%), 207.9 (14.1%). 30/30 random-data starts agree (192 to 1,345 steps, loglik -716.4); default start -741.4 after 11 steps. 66 of 68 garages/sheds in the middle component; 292 footprints of 45 to 52 sq m; 31.5% top posterior < 0.8. Lesson family: Gaussian mixture, EM, BIC, local optima.",
+    "requiredMentions": [
+      "23,002",
+      "4,422",
+      "Weoley Castle",
+      "Gaussian mixture",
+      "expectation-maximisation",
+      "101.2 square metres",
+      "1,500.0",
+      "B17",
+      "Bayesian information criterion"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap building outlines in Harborne, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 by ward via Nomis; ONS Wards (December 2022) boundaries, Open Geography Portal.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Birmingham (B17, B15, B29).",
+        "url": "https://api.postcodes.io/places?q=Harborne"
+      }
+    ],
+    "rejectedClaims": [
+      "What the 48.6 sq m spike physically is: described only as many near-identical small footprints, mostly tagged residential.",
+      "Floor space or property values: outlines only; no such claim.",
+      "High street, clock tower or local history: not read from a source; not claimed.",
+      "That scikit-learn is faulty: the default start is simply one local optimum; stated as such.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-morningside-edinburgh": {
+    "market": "Morningside",
+    "bodyClass": "cg-mrn",
+    "pageType": "city",
+    "curriculumAuthority": "City of Edinburgh (S12000036). Scotland: Curriculum for Excellence, SQA National 5, Higher, Advanced Higher. No NRS figure for Morningside; City of Edinburgh about 512,700 (Scotland's Census 2022, rounded). postcodes.io (City of Edinburgh, EH9/EH10): Morningside, Bruntsfield, Churchhill, Greenbank, Comiston, Marchmont, Blackford (suburban areas).",
+    "localProject": "OSM API 0.6 bbox -3.232,55.912,-3.195,55.935: walking network 130.0 km, 9,799 nodes; 14 place nodes (suburb/neighbourhood); venues = 5 suburb nodes. Mean / longest / largest regret (m): Comiston 1,387 / 1,990 / 1,967; Morningside 1,414 / 2,830 / 1,839; Merchiston 1,551 / 3,250 / 2,692; Greenbank 1,840 / 2,692 / 2,692; Braid Hills 2,068 / 3,248 / 2,560. Expected value and maximin pick Comiston; minimax regret picks Morningside. Lesson family: decision rules under uncertainty.",
+    "requiredMentions": [
+      "Bruntsfield",
+      "Greenbank",
+      "Comiston",
+      "Churchhill",
+      "Merchiston",
+      "Braid Hills",
+      "minimax regret",
+      "maximin",
+      "1,387"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap paths and place nodes in south Edinburgh, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in the City of Edinburgh (EH9, EH10).",
+        "url": "https://api.postcodes.io/places?q=Morningside"
+      },
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 rounded population estimates (City of Edinburgh).",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      }
+    ],
+    "rejectedClaims": [
+      "A population or boundary for Morningside: none found for exactly this area; not stated.",
+      "That a label point marks the centre of a neighbourhood: not claimed; it is where the map prints the name.",
+      "That any venue is a good place to meet: a teaching exercise only.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-chorlton-manchester": {
+    "market": "Chorlton",
+    "bodyClass": "cg-crt",
+    "pageType": "city",
+    "curriculumAuthority": "Manchester (E08000003). Census 2021 TS001: Chorlton ward 12,843; Chorlton Park ward 17,592 (not summed). postcodes.io: place Chorlton-cum-Hardy (M21); M21 Manchester wards Chorlton, Chorlton Park, Whalley Range. England national curriculum, GCSE and A level.",
+    "localProject": "OpenStreetMap buildings in a box around Chorlton: 3,829 outlines, 3,292 typed (3,226 homes, 66 other), 537 untyped excluded. Five labellers vs tags: always home 98.0% agreement / 98.0% chance / kappa 0.00 / 0 of 66; weighted coin 96.3 / 96.3 / 0.01 / 2; 300 sq m rule 97.1 / 95.5 / 0.34 / 27; shape model trained on Wythenshawe buildings 98.2 / 96.4 / 0.52 / 32; balanced model 94.7 / 91.9 / 0.34 / 49 (208 flagged). Lesson family: Cohen's kappa, chance-corrected agreement.",
+    "requiredMentions": [
+      "12,843",
+      "17,592",
+      "Chorlton-cum-Hardy",
+      "Whalley Range",
+      "3,292",
+      "3,226",
+      "Cohen's kappa",
+      "0.52",
+      "Jacob Cohen"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by ward, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "OpenStreetMap building outlines and tags, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "postcodes.io place Chorlton-cum-Hardy and outcode M21 ward list.",
+        "url": "https://api.postcodes.io/outcodes/M21"
+      },
+      {
+        "claim": "Cohen, J. (1960), A coefficient of agreement for nominal scales, Educational and Psychological Measurement 20(1).",
+        "url": "https://doi.org/10.1177/001316446002000104"
+      }
+    ],
+    "rejectedClaims": [
+      "A combined Chorlton population: two ward figures are published separately and not added.",
+      "Any claim about what an individual building is: only aggregate agreement with volunteer tags is reported.",
+      "That OSM tags are ground truth: described as the reference, with their limits stated.",
+      "Descriptions of Chorlton shops, cafes, character or history: not read from a source; not made.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-wimbledon-london": {
+    "market": "Wimbledon",
+    "bodyClass": "cg-wim",
+    "pageType": "city",
+    "curriculumAuthority": "London Borough of Merton (E09000024). Census 2021 usual residents by 2022 ward (published per ward, not summed): Wimbledon Town & Dundonald 12,966; Wimbledon Park 11,071; Village 11,804; Hillside 8,242; Raynes Park 12,301. postcodes.io (Merton): Wimbledon, South Wimbledon, Merton Park (SW19); Raynes Park, Cottenham Park, Copse Hill (SW20).",
+    "localProject": "Census 2021 TS045/TS017/TS044/TS006 for 199 OAs in five Wimbledon wards (23,671 households, 7,585 no car); 455 other Merton OAs as external check. Gradient boosting, 40 random settings, 5-fold CV, 10 repeats. MAE points: winner own CV 6.14; nested 6.37 (winner lower in 8 of 10); rest of Merton 7.04; median setting 7.17; worst 12.36; mean-only 11.6. Lesson family: nested cross-validation, selection optimism.",
+    "requiredMentions": [
+      "12,966",
+      "11,071",
+      "11,804",
+      "12,301",
+      "Raynes Park",
+      "South Wimbledon",
+      "Cottenham Park",
+      "Copse Hill",
+      "nested cross-validation",
+      "Merton Park"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS045, TS017, TS044, TS006 and usual residents by ward, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS output area to LSOA lookup and LSOA 2021 to ward (May 2022) best-fit lookup, ONS Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: Wimbledon and suburban areas in Merton.",
+        "url": "https://api.postcodes.io/places?q=Raynes%20Park"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for \"Wimbledon\": no single official boundary; ward figures given separately, never summed.",
+      "Tennis, the Common or windmill history: not read from a source; not claimed.",
+      "Why car ownership differs between areas: no cause claimed; the data only tests the evaluation method.",
+      "That these five wards define Wimbledon: stated as our chosen study area.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-wythenshawe-manchester": {
+    "market": "Wythenshawe",
+    "bodyClass": "cg-wys",
+    "pageType": "city",
+    "curriculumAuthority": "Manchester (E08000003). No ward named Wythenshawe; no Wythenshawe population stated. Census 2021 TS001 wards: Sharston 17,446; Baguley 16,064; Woodhouse Park 15,414; Northenden 15,064 (never summed). postcodes.io: Wythenshawe, Benchill, Sharston, Moss Nook (M22); Northern Moor, Baguley, Roundthorn (M23). England national curriculum, GCSE and A level.",
+    "localProject": "OpenStreetMap buildings around Wythenshawe: 9,726 outlines; 3,027 typed (2,858 homes, 169 other); 6,699 untyped. Seven labelling functions (coverage / accuracy on typed): 40-160 sq m home 77.9 / 99.4; shared wall home 37.0 / 98.4; over 400 sq m other 5.4 / 75.8; named other 2.5 / 92.1; over 12 corners other 1.9 / 74.1; near shop or amenity point other 0.6 / 50.0; under 25 sq m other 0.2 / 85.7. 1,342 no vote, 147 conflicts. Always home 94.4% (0 of 169); majority vote 97.0%, 119 of 169, 41 false; label model (Dawid-Skene EM with abstain outcome, no tags seen) 95.7%, 144 of 169, 105 false; balanced 84.5 vs 90.8. Lesson family: weak supervision, labelling functions, label model vs majority vote.",
+    "requiredMentions": [
+      "17,446",
+      "16,064",
+      "15,414",
+      "Benchill",
+      "Sharston",
+      "Northern Moor",
+      "9,726",
+      "weak supervision",
+      "label model",
+      "labelling function"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by ward, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "OpenStreetMap building outlines and tags, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "postcodes.io places and ward lists for outcodes M22 and M23.",
+        "url": "https://api.postcodes.io/outcodes/M22"
+      }
+    ],
+    "rejectedClaims": [
+      "Any population for Wythenshawe: no ward or published area of that exact name was read, and ward figures are not summed.",
+      "Brooklands ward figure: the M23 list does not say whether the Manchester or the Trafford ward of that name is meant; omitted.",
+      "Model guesses for the 6,699 untyped buildings: not published as facts.",
+      "That the label model is simply better: reported as a trade, with accuracy lower than the majority vote.",
+      "Airport, hospital, housing-estate history or \"largest\" claims about Wythenshawe: not read from a source; not made.",
+      "Named schools, term dates and sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-stanmore-london": {
+    "market": "Stanmore",
+    "bodyClass": "cg-stn",
+    "pageType": "city",
+    "curriculumAuthority": "Harrow (E09000015), London. England: national curriculum, GCSE and A level. Census 2021 usual residents by 2022 ward (Nomis NM_2021_1, TYPE153): Stanmore 13,501; Canons 9,735; Belmont (Harrow) 9,021; Harrow Weald 14,341. postcodes.io (Harrow): Belmont, Harrow Weald (HA3), Little Stanmore (HA8) suburban areas; Stanmore settlement (HA7).",
+    "localProject": "OSM via Overpass, bbox -0.340,51.600,-0.285,51.632: 2,943 junctions, 203.7 km, 829 dead ends. Expert = shortest path; 300 training trips, 48,373 rows; gradient boosting on 5 features; 200 test trips (median 35 junctions, 9,762 decisions). Step agreement 88.1%; unaided completion 12.5% (<=25 junctions 26.3%, 26-40 14.4%, >40 1.5%); 3 corrective rounds 6.0-7.5%; with visited-junction memory 97.0%, median ratio 1.392, p90 2.265. Lesson family: imitation learning, compounding errors.",
+    "requiredMentions": [
+      "13,501",
+      "9,735",
+      "14,341",
+      "2,943",
+      "48,373",
+      "Belmont",
+      "Harrow Weald",
+      "Little Stanmore",
+      "imitation learning",
+      "behaviour cloning"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by 2022 ward, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "OpenStreetMap streets and paths in Stanmore via the Overpass API, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and settlements in Harrow.",
+        "url": "https://api.postcodes.io/places?q=Harrow%20Weald"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for Stanmore beyond the ward: no published figure for exactly that area.",
+      "Bentley Priory, wartime or other local history: not read from a source; not claimed.",
+      "That corrective demonstrations never help: reported only as not helping in this experiment.",
+      "How any named driving or robot system is trained: described in general terms only.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-clifton-bristol": {
+    "market": "Clifton",
+    "bodyClass": "cg-clf",
+    "pageType": "city",
+    "curriculumAuthority": "City of Bristol (E06000023). England: national curriculum, GCSE and A level. Census 2021 TS001 wards: Clifton 13,022; Clifton Down 11,420. postcodes.io (City of Bristol): Clifton Wood, Hotwells (BS8); Redland, Cotham (BS6).",
+    "localProject": "EU-DEM 25 m via OpenTopoData, 40x40 grid, 51.445-51.475 N, 2.640-2.590 W: 3,468 m by 3,316 m, heights 5.0 to 116.8 m. Simulated walker, unknown start, 25 m steps, compass error 10 degrees, step error 5 m, altimeter error 2 m; 2,000 particles, 40 runs. Median error 501 / 38 / 28 / 28 m after 10 / 30 / 60 / 120 steps; 95% within 100 m at end. Dead reckoning (known start) 17 / 27 / 43 / 64 m. Altimeter 5 m: 36 m, 87.5%. 500 particles: 29 m, 67.5%. 100 particles: 379 m, 40%. Lesson family: particle filter (Monte Carlo localisation).",
+    "requiredMentions": [
+      "13,022",
+      "11,420",
+      "Clifton Wood",
+      "Hotwells",
+      "Redland",
+      "Cotham",
+      "Clifton Down",
+      "particle filter",
+      "116.8"
+    ],
+    "sources": [
+      {
+        "claim": "EU-DEM 25 m elevation model (Copernicus Land Monitoring Service) read through the OpenTopoData API.",
+        "url": "https://www.opentopodata.org/datasets/eudem/"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 ward populations for Bristol via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in the City of Bristol.",
+        "url": "https://api.postcodes.io/places?q=Clifton"
+      }
+    ],
+    "rejectedClaims": [
+      "Landmarks, the gorge, the bridge, the Downs or any named street: not read from a source; none named.",
+      "Sum of Clifton and Clifton Down wards: separate wards; not added.",
+      "Any claim that the method works as a navigation aid or on a real phone: simulated only.",
+      "That 116.8 m is the height of any named hill: it is the highest cell of a 40 by 40 grid over the rectangle, nothing more.",
+      "Named schools, the university and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-moseley-birmingham": {
+    "market": "Moseley",
+    "bodyClass": "cg-msy",
+    "pageType": "city",
+    "curriculumAuthority": "Birmingham (E08000025). Census 2021 TS001, Moseley ward 21,839 (Nomis). ONS Wards (December 2022) boundary E05011154, 5.87 sq km by our calculation. postcodes.io (Birmingham): Moseley, Wake Green, Moor Green, Billesley (B13); Balsall Heath (B12).",
+    "localProject": "OSM shops + cafe/restaurant/fast_food/pub/bar inside Moseley ward: 114 places. k-means (20 starts) k 2-10: silhouette 0.775 (107/7), 0.757, 0.720, 0.749, 0.507 (61/35/...), 0.492, 0.501, 0.514, 0.514; inertia 21.19 to 1.34 sq km. Uniform random points same n: 0.38 to 0.43. Lesson family: silhouette score, choosing k, cluster validity.",
+    "requiredMentions": [
+      "21,839",
+      "Wake Green",
+      "Moor Green",
+      "Billesley",
+      "Balsall Heath",
+      "silhouette score",
+      "0.775",
+      "elbow method",
+      "5.87 square kilometres"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap shops and venues in Moseley, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 by ward via Nomis; ONS Wards (December 2022) boundaries, Open Geography Portal.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Birmingham (B13, B12).",
+        "url": "https://api.postcodes.io/places?q=Wake%20Green"
+      }
+    ],
+    "rejectedClaims": [
+      "Moseley village, park or music-scene claims: not read from a source; not claimed.",
+      "Where the clusters are or which streets they follow: not named; only sizes and scores are reported.",
+      "That 114 is every shop in Moseley: it is what is mapped and tagged on OpenStreetMap.",
+      "An \"optimal\" number of clusters: deliberately not declared.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-ormeau-belfast": {
+    "market": "Ormeau",
+    "bodyClass": "cg-orm",
+    "pageType": "city",
+    "curriculumAuthority": "Belfast (N09000003). Northern Ireland Curriculum, P1 to Year 14, CCEA GCSE and A level. NISRA Census 2021 MS-A01: Ormeau ward 6,532; Rosetta ward 5,793; Botanic DEA 49,727. OpenStreetMap place labels in the rectangle: Lower Ormeau, Ballynafeigh, Ravenhill, Botanic, Stranmillis.",
+    "localProject": "OSM API 0.6 bbox -5.937,54.570,-5.900,54.597 (4 tiles): 341 shop and food place nodes. k = 5: k-means centres 60.4, 7.2, 33.2, 97.3, 6.5 m from nearest place, mean distance 303.7 m; k-medoids all real places, 291.8 m. Bootstrap (60): median centre shift 48.0 vs 36.0 m, p90 156.6 vs 104.5 m. Walking: median straight 1,305 m, walk 1,598 m (ratio 1.234); k = 6 straight vs walking medoids: mean walk 332 vs 324 m, over 1 km 2.1% vs 0.9%, pair agreement 96.4%. Lesson family: k-medoids, exemplars, non-Euclidean distance.",
+    "requiredMentions": [
+      "6,532",
+      "5,793",
+      "49,727",
+      "Ballynafeigh",
+      "Ravenhill",
+      "Lower Ormeau",
+      "Rosetta",
+      "k-medoids",
+      "medoid",
+      "303.7"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap shops, food places, paths and place labels around the Ormeau Road, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "NISRA Census 2021 main statistics table MS-A01, usual resident population by ward and district electoral area.",
+        "url": "https://www.nisra.gov.uk/system/files/statistics/census-2021-ms-a01.xlsx"
+      },
+      {
+        "claim": "CCEA qualifications referred to for Northern Ireland learners.",
+        "url": "https://ccea.org.uk/"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for \"Ormeau\" as a neighbourhood: only NISRA ward and DEA figures are shown, not added or nested.",
+      "Named businesses or judgements about any shopping street: none.",
+      "Community background, religion or identity data: not used; place labels are given only as OpenStreetMap records them.",
+      "Park, bridge or river history: not read from a source; not claimed.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-stockbridge-edinburgh": {
+    "market": "Stockbridge",
+    "bodyClass": "cg-stb",
+    "pageType": "city",
+    "curriculumAuthority": "City of Edinburgh (S12000036). Scotland: Curriculum for Excellence, SQA National 5, Higher, Advanced Higher. No NRS figure for Stockbridge; City of Edinburgh about 512,700 (Scotland's Census 2022, rounded). postcodes.io (City of Edinburgh, EH3/EH4): Stockbridge, Comely Bank, Inverleith, Canonmills (suburban areas).",
+    "localProject": "OpenTopoData eudem25m (EU-DEM v1.1): 300 points on longitude 3.2100 W, 55.9750 N to 55.9450 N, 3,316 m, 11.1 m spacing. Heights 32.5 m first, 75.0 m last, low 16.8 m at 1,420 m, high 76.9 m at 3,205 m. Largest net climb north to south 60.2 m (Kadane 299 steps; all pairs 44,850); south to north 18.3 m (1,420 m to 1,065 m). Total ascent 77.9 m, descent 35.3 m. Lesson family: maximum subarray (Kadane).",
+    "requiredMentions": [
+      "Comely Bank",
+      "Inverleith",
+      "Canonmills",
+      "Kadane",
+      "maximum subarray",
+      "44,850",
+      "60.2 m",
+      "18.3 m",
+      "3.2100 W"
+    ],
+    "sources": [
+      {
+        "claim": "EU-DEM v1.1 elevation, Copernicus Land Monitoring Service (European Environment Agency), read via the OpenTopoData public API.",
+        "url": "https://www.opentopodata.org/datasets/eudem/"
+      },
+      {
+        "claim": "OpenStreetMap suburb outline for Stockbridge, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in the City of Edinburgh (EH3, EH4).",
+        "url": "https://api.postcodes.io/places?q=Stockbridge"
+      },
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 rounded population estimates (City of Edinburgh).",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for Stockbridge: none found for exactly this area; not stated. The only boundary used is the OpenStreetMap suburb outline (70 of 300 profile points inside).",
+      "Naming the river, valley or streets the line crosses: not verified against a source; left out.",
+      "That the line is a walking route or that 60.2 m is the climb of any real walk: not claimed.",
+      "Surveyed accuracy: EU-DEM is a 25 m grid and points are interpolated; stated on the page.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-bishopston-bristol": {
+    "market": "Bishopston",
+    "bodyClass": "cg-bsp",
+    "pageType": "city",
+    "curriculumAuthority": "City of Bristol (E06000023). England: national curriculum, GCSE and A level. Census 2021 TS001 ward Bishopston and Ashley Down 13,304. postcodes.io (City of Bristol): Bishopston, Ashley Down, Horfield, Montpelier, Henleaze, Westbury Park.",
+    "localProject": "Overpass (OSM) rectangle 51.468-51.492 N, 2.605-2.570 W: drivable network 102.0 km, 3,968 nodes, 4,218 segments, 754 ways. 60 simulated shortest-path trips of 800-2,500 m, position every 40 m (2,718 positions), Gaussian noise. Correct-way share (median over trips), closest road vs Viterbi HMM: 5 m 91.8% vs 93.3%; 15 m 76.0% vs 83.3%; 30 m 57.4% vs 65.2%. Lesson family: Viterbi map matching.",
+    "requiredMentions": [
+      "13,304",
+      "Ashley Down",
+      "Horfield",
+      "Montpelier",
+      "Henleaze",
+      "Westbury Park",
+      "Viterbi",
+      "map matching",
+      "102.0 km"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap road network via the Overpass API, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 ward populations for Bristol via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in the City of Bristol.",
+        "url": "https://api.postcodes.io/places?q=Bishopston"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for Bishopston alone: only the ward of Bishopston and Ashley Down (13,304) is published in our source.",
+      "Named roads, shops, stadiums or traffic conditions: not read from a source; none named.",
+      "Real GPS traces or any person's journeys: none used; all trips are simulated.",
+      "That Viterbi is always better: not claimed; the gain was 1.5 points at 5 m and a third of positions stayed wrong at 30 m.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "best-coding-and-ai-classes-in-finchley-london": {
+    "market": "Finchley",
+    "bodyClass": "cg-fnc",
+    "pageType": "city",
+    "curriculumAuthority": "London Borough of Barnet (E09000003). Census 2021 usual residents by 2022 ward (per ward, not summed): East Finchley 16,639; Finchley Church End 18,840; West Finchley 19,430. postcodes.io (Barnet): Finchley (N3), Church End (N3), East Finchley (N2), North Finchley (N12), Woodside Park (N12).",
+    "localProject": "Census 2021 TS045/TS017/TS044/TS006 for 1,113 Barnet OAs. Logistic regression (log density, one-person share, flat share), out-of-fold stratified 5-fold x 5 shuffles. Car-light = top slice by no-car share. Top 50% (557): ROC AUC 0.907, AP 0.901; top 25% (279): 0.908 / 0.750; top 10% (112): 0.915 / 0.521; top 5% (56, >= 56.4%): 0.905 / 0.359; at 80% recall 45 found with 164 false alarms (precision 0.215); top-56 precision 0.375. Lesson family: precision-recall curve, average precision vs ROC AUC under rarity.",
+    "requiredMentions": [
+      "16,639",
+      "18,840",
+      "19,430",
+      "1,113",
+      "East Finchley",
+      "North Finchley",
+      "Woodside Park",
+      "Church End",
+      "average precision",
+      "car-light"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS045, TS017, TS044, TS006 and usual residents by ward, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "Nomis API dataset NM_2063_1, Census 2021 TS045 car or van availability.",
+        "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_2063_1.def.sdmx.json"
+      },
+      {
+        "claim": "postcodes.io places: Finchley and suburban areas in Barnet.",
+        "url": "https://api.postcodes.io/places?q=North%20Finchley"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for \"Finchley\": no single official boundary; ward figures given separately, never summed.",
+      "\"Car-light\" as an official category: it is our own label for the experiment.",
+      "Why some areas have fewer cars: no cause claimed.",
+      "Local history or named landmarks: not read from a source; not claimed.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-kings-heath-birmingham": {
+    "market": "Kings Heath",
+    "bodyClass": "cg-khh",
+    "pageType": "city",
+    "curriculumAuthority": "Birmingham (E08000025). Census 2021 TS001, Brandwood & King's Heath ward 18,786 (Nomis). ONS Wards (December 2022) boundary. postcodes.io (Birmingham): King's Heath, Brandwood End, Yardley Wood (B14); Billesley (B13).",
+    "localProject": "OSM tagged elements inside the ward: 7,377; stream of 20,708 non-identifying tags, 1,291 distinct (seed 2026). Exact top: building=residential 3,330, building=yes 1,028, natural=tree 893. Misra-Gries k / top-10 found / max undercount / N/k: 10/2/1,929/2,071; 20/7/907/1,035; 50/10/289/414; 100/10/121/207; 200/10/45/104. Count-Min (4 rows) cells / max overcount: 200/337; 800/41; 4,000/2; top-10 correct in all. Lesson family: streaming heavy hitters, Misra-Gries, Count-Min sketch.",
+    "requiredMentions": [
+      "18,786",
+      "20,708",
+      "1,291",
+      "7,377",
+      "Brandwood End",
+      "Yardley Wood",
+      "Misra-Gries",
+      "Count-Min sketch",
+      "Heavy hitters"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap tags for Kings Heath, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 by ward via Nomis; ONS Wards (December 2022) boundaries, Open Geography Portal.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas in Birmingham (B14, B13).",
+        "url": "https://api.postcodes.io/places?q=Brandwood%20End"
+      }
+    ],
+    "rejectedClaims": [
+      "High street, park or venue claims about Kings Heath: not read from a source; not claimed.",
+      "That tag counts measure real numbers of houses or trees: they are what is mapped on OpenStreetMap.",
+      "That 18,786 is the population of Kings Heath alone: it is the Brandwood and King's Heath ward figure.",
+      "Bloom filters and HyperLogLog: owned by other pages; not taught here.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-pinner-london": {
+    "market": "Pinner",
+    "bodyClass": "cg-pnr",
+    "pageType": "city",
+    "curriculumAuthority": "Harrow (E09000015), London. England: national curriculum, GCSE and A level. Census 2021 usual residents by 2022 ward (Nomis NM_2021_1, TYPE153): Pinner 13,137; Pinner South 15,739; Hatch End 9,822. postcodes.io (Harrow): Hatch End, Pinner Green, Pinnerwood Park, Rayners Lane (HA5), North Harrow (HA2) suburban areas; Pinner settlement (HA5).",
+    "localProject": "OSM via Overpass, bbox -0.405,51.585,-0.355,51.610: 2,021 junctions, 143.3 km; primary/secondary/tertiary layer 25.5 km, 463 junctions. 500 trips between side-street junctions. Junctions settled: flat Dijkstra 495,141, two-level 127,714 (median 952.5 vs 255.5). Length ratio median 1.084, p90 1.528, 41.6% within 5%, 10.4% over 1.5x; under 800 m (57 trips) 31.6% over 1.5x, worst 14.78; 2 km or more (263) median 1.073, 3.4% over 1.5x. Lesson family: hierarchical planning, subgoals.",
+    "requiredMentions": [
+      "13,137",
+      "15,739",
+      "9,822",
+      "495,141",
+      "127,714",
+      "Hatch End",
+      "Pinner Green",
+      "Pinnerwood Park",
+      "Rayners Lane",
+      "North Harrow",
+      "hierarchical planning"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS001 usual residents by 2022 ward, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "OpenStreetMap streets, paths and highway tags in Pinner via the Overpass API, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "postcodes.io places: suburban areas and settlements in Harrow.",
+        "url": "https://api.postcodes.io/places?q=Hatch%20End"
+      }
+    ],
+    "rejectedClaims": [
+      "A single population for Pinner: no published figure for exactly that area; wards given separately.",
+      "That main roads are the fastest or safest way to walk: not measured; they are only the outline layer.",
+      "Pinner Fair, the High Street or local history: not read from a source; not claimed.",
+      "How any named AI agent product plans internally: described in general terms only.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-leith-edinburgh": {
+    "market": "Leith",
+    "bodyClass": "cg-lei",
+    "pageType": "city",
+    "curriculumAuthority": "City of Edinburgh (S12000036). Scotland: Curriculum for Excellence, SQA National 5, Higher, Advanced Higher. No NRS figure quoted for Leith; City of Edinburgh about 512,700 (Scotland's Census 2022, rounded). postcodes.io (City of Edinburgh): EH6 Leith, North Leith, South Leith, Newhaven, Bonnington, Pilrig, Trinity; EH7 Lochend, Restalrig.",
+    "localProject": "OSM API 0.6, window -3.1800..-3.1720, 55.9730..55.9775 (498 m square): 275 buildings, 3,102 vertices, 1,485 true corners (turn 30 degrees or more, merged at 1 m). Harris k 0.04, sigma 1.5 px, match 2 m. 0.5 m/px: 5% threshold 1,053 detections, precision 97.2%, recall 82.0%; 1% 2,061 detections, 54.1% / 85.0%; 40% 99.8% / 69.3%. 5% at 1 m/px 87.8% / 55.5%; at 2 m/px 46.8% / 16.4%. Lesson family: Harris corner detection.",
+    "requiredMentions": [
+      "Newhaven",
+      "Pilrig",
+      "Bonnington",
+      "Restalrig",
+      "North Leith",
+      "Harris corner detection",
+      "1,485",
+      "97.2%",
+      "precision"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap building outlines in Leith, OpenStreetMap and contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "postcodes.io places in the City of Edinburgh (EH6, EH7).",
+        "url": "https://api.postcodes.io/places?q=Leith"
+      },
+      {
+        "claim": "National Records of Scotland, Scotland's Census 2022 rounded population estimates (City of Edinburgh).",
+        "url": "https://www.scotlandscensus.gov.uk/documents/scotlands-census-2022-rounded-population-estimates-data/"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for Leith: no figure found for exactly that name; not stated.",
+      "Port, dock or waterfront descriptions and any compass direction: not sourced; left out.",
+      "That the scores show how Harris performs on photographs: not claimed; the test image is a clean drawing.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-twickenham-london": {
+    "market": "Twickenham",
+    "bodyClass": "cg-twk",
+    "pageType": "city",
+    "curriculumAuthority": "London Borough of Richmond upon Thames (E09000027). Census 2021 usual residents by 2022 ward (per ward, not summed): Twickenham Riverside 10,992; South Twickenham 10,629; West Twickenham 11,308; St Margarets & North Twickenham 11,945. postcodes.io (Richmond upon Thames): Twickenham (TW1), St Margarets (TW1), Whitton (TW2), Teddington (TW11).",
+    "localProject": "Census 2021 TS045 for 138 OAs in four Twickenham wards: 18,171 households, 4,571 no car (25.16%). Simulated agent, batches of 10, Beta posterior, stop at 95% credible width; 2,000 runs. Flat prior: width 0.20 -> 80 households, 92.6% coverage, 4.32 error; 0.10 -> 290, 94.3%, 2.02; 0.06 -> 810, 94.9%, 1.22. Width 0.10: Beta(10,30) 250, 95.6%, 1.90; Beta(24,16) 280, 60.3%, 4.28; Beta(240,160) 10, 0.0%, 34.0. Forced on: 35.1% after 1,000, 28.3% after 4,000. Lesson family: Bayesian updating, priors, credible intervals.",
+    "requiredMentions": [
+      "18,171",
+      "11,308",
+      "11,945",
+      "Twickenham Riverside",
+      "West Twickenham",
+      "St Margarets",
+      "Whitton",
+      "Bayesian updating",
+      "credible interval"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS045 car or van availability and usual residents by ward, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS output area to LSOA lookup and LSOA 2021 to ward (May 2022) best-fit lookup, ONS Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: Twickenham, St Margarets, Whitton and Teddington.",
+        "url": "https://api.postcodes.io/places?q=St%20Margarets"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for \"Twickenham\": no single official boundary; ward figures given separately, never summed.",
+      "Real survey answers: none; every household answer is simulated at the published Census rate.",
+      "Rugby, riverside or historic house claims: not read from a source; not claimed.",
+      "That language models literally compute Bayesian posteriors: not claimed; the prompt-as-prior point is an analogy and is worded as one.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-dulwich-london": {
+    "market": "Dulwich",
+    "bodyClass": "cg-dlw",
+    "pageType": "city",
+    "curriculumAuthority": "London Borough of Southwark (E09000028). Census 2021 usual residents by 2022 ward (per ward, not summed): Dulwich Village 10,255; Dulwich Wood 10,588; Dulwich Hill 9,591; Goose Green 13,612; Champion Hill 9,219. postcodes.io (Southwark): Dulwich and Dulwich Village (SE21), East Dulwich (SE22), Herne Hill (SE24), Nunhead (SE15).",
+    "localProject": "Census 2021 TS006/TS017/TS044/TS045 for 959 Southwark OAs (156 in five Dulwich-area wards, 20,953 households). Random ReLU features, minimum-norm least squares, 100 train / 859 test, median of 30 seeds. Test RMSE: 5: 10.85; 10: 9.63; 20: 10.17; 40: 13.05; 80: 49.2; 100: 494.87; 120: 78.25; 200: 32.01; 1,000: 18.27; 10,000: 15.59. Train: 9.42, 8.26, 7.68, 6.44, 3.65, 0.98, 0.0. Mean-only 14.91. Ridge 0.001: 12.55 at 100, 11.95 at 1,000. Lesson family: double descent.",
+    "requiredMentions": [
+      "494.87",
+      "10,255",
+      "10,588",
+      "13,612",
+      "Dulwich Village",
+      "East Dulwich",
+      "Herne Hill",
+      "Nunhead",
+      "double descent",
+      "interpolation threshold"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS006, TS017, TS044 and TS045 by output area, and usual residents by ward, via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "ONS output area to LSOA lookup and LSOA 2021 to ward (May 2022) best-fit lookup, ONS Open Geography Portal.",
+        "url": "https://geoportal.statistics.gov.uk/"
+      },
+      {
+        "claim": "postcodes.io places: Dulwich, Dulwich Village, East Dulwich, Herne Hill and Nunhead.",
+        "url": "https://api.postcodes.io/places?q=Dulwich"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for \"Dulwich\": no single official boundary; ward figures given separately, never summed.",
+      "That the experiment uses Dulwich areas only: not claimed; it uses all 959 Southwark output areas, 156 of them in the named wards.",
+      "That bigger models are better: contradicted by our own run (15.59 at 10,000 features against 9.63 at 10 and 14.91 for the mean); the page says so.",
+      "That Goose Green or Champion Hill ward is East Dulwich or part of Dulwich: not claimed; they are listed as wards we chose, and the place names come from postcodes.io.",
+      "Picture gallery, college, park or school claims: not read from a source; not claimed.",
+      "Sterling prices: none."
+    ]
+  },
+  "online-coding-and-python-classes-in-chiswick-london": {
+    "market": "Chiswick",
+    "bodyClass": "cg-csk",
+    "pageType": "city",
+    "curriculumAuthority": "London Borough of Hounslow (E09000018). Census 2021 usual residents by 2022 ward (per ward, not summed): Chiswick Gunnersbury 12,697; Chiswick Homefields 13,740; Chiswick Riverside 10,301. postcodes.io (Hounslow): Chiswick, Grove Park, Gunnersbury, Strand on the Green (W4); Brentford (TW8).",
+    "localProject": "OpenStreetMap API 0.6, bbox -0.285,51.482,-0.245,51.500, read 30 September 2026: 3,109 closed building footprints of at least 5 m2. Min 5.0, max 21,588 m2; mean 212.6, median 95.3, SD 649.8, skewness 18.09; 82.6% below the mean; top 1% hold 22.6% of area. Skew by scale: sqrt 5.13, log 1.08 (geometric mean 110.2), power -0.5 -1.55, reciprocal -5.51, Box-Cox lambda -0.246 -> -0.119. Mean minus 2 SD = -1,086.9. Beyond 3 SD: raw 36 (all large), Box-Cox 38 (6 large, 32 small). Within 2 SD: raw 98.3%, Box-Cox 93.9%. Lesson family: power transforms for skewed data.",
+    "requiredMentions": [
+      "21,588",
+      "12,697",
+      "13,740",
+      "10,301",
+      "Chiswick Homefields",
+      "Strand on the Green",
+      "Grove Park",
+      "Gunnersbury",
+      "Box-Cox",
+      "geometric mean"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap building outlines for the Chiswick bounding box, © OpenStreetMap contributors, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "ONS Census 2021 usual residents by ward (TS001), via Nomis.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places: Chiswick, Grove Park, Gunnersbury, Strand on the Green and Brentford.",
+        "url": "https://api.postcodes.io/places?q=Chiswick"
+      }
+    ],
+    "rejectedClaims": [
+      "A population for \"Chiswick\": no single official boundary; ward figures given separately, never summed.",
+      "That the 3,109 outlines are every building in Chiswick: not claimed; they are what is mapped in our rectangle, which is not a ward boundary.",
+      "Named buildings for the largest or smallest footprint: not identified from a source; not named.",
+      "That Box-Cox makes the data normal: not claimed; only 93.9% fall within two deviations and the page says the tails stay heavy.",
+      "Chiswick House, brewery or riverside claims: not read from a source; not claimed.",
+      "Sterling prices: none."
+    ]
   }
 }
