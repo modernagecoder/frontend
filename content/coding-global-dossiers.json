@@ -36370,5 +36370,49 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-west-molesey": {
+    "market": "West Molesey",
+    "bodyClass": "cg-wml",
+    "pageType": "city",
+    "curriculumAuthority": "Elmbridge (E07000207), Census 2021 TS001 usual residents 138,754. ONS 2021 BUA (published): West Molesey 47,150. English national curriculum, GCSE and A level. postcodes.io places whose closest postcode is in the West Molesey BUA: West Molesey, East Molesey (KT8), Thames Ditton, Weston Green (KT7), Long Ditton (KT6), Hinchley Wood, Claygate (KT10).",
+    "localProject": "Project Gutenberg eBook 308 (Jerome, Three Men in a Boat, 1889): Harris's maze rule in Chapter VI; Chapter VII opens at Moulsey Lock. OSM Molesey Lock 51.4048, -0.3459; nearest postcode KT8 9AW (40 m) in the West Molesey BUA. 1,000 random 15 by 15 mazes (recursive backtracker, seed 20260930, 196 interior walls), start top middle, goal centre. Loop-free: right-hand wall follower 1,000 of 1,000, mean 140.2 steps vs breadth-first shortest 53.2, median ratio 2.36, worst 41.4. Walls removed 10 / 20 / 39: follower 594 / 304 / 62 of 1,000; left-hand identical; BFS 1,000 every time. Lesson family: maze solving, wall follower vs breadth-first search.",
+    "requiredMentions": [
+      "47,150",
+      "East Molesey",
+      "Thames Ditton",
+      "Hinchley Wood",
+      "Claygate",
+      "Moulsey Lock",
+      "wall follower",
+      "594 of 1,000",
+      "KT8 9AW"
+    ],
+    "sources": [
+      {
+        "claim": "Jerome K. Jerome (1889), Three Men in a Boat, Project Gutenberg eBook 308, Chapters VI and VII.",
+        "url": "https://www.gutenberg.org/ebooks/308"
+      },
+      {
+        "claim": "OpenStreetMap contributors, Molesey Lock, via the Overpass API, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/way/605722573"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups in Elmbridge.",
+        "url": "https://api.postcodes.io/postcodes?lon=-0.3459492&lat=51.4048"
+      }
+    ],
+    "rejectedClaims": [
+      "The layout or solvability of the real Hampton Court maze: not modelled and not claimed.",
+      "That Hampton Court is in West Molesey: it is not claimed; only the lock is placed, by postcode.",
+      "That Harris's rule is exactly a textbook wall follower in the novel: the page says the rule becomes one when written as code.",
+      "That Esher or Hersham are inside the West Molesey built-up area: each has its own; left out.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
