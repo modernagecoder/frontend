@@ -810,6 +810,9 @@ const MARKETS = [
   ['online-coding-and-python-classes-in-braintree', 'Braintree, Essex'],
   ['ai-and-programming-classes-in-leighton-buzzard', 'Leighton Buzzard, Bedfordshire'],
   ['online-coding-and-python-classes-in-hatfield', 'Hatfield, Hertfordshire'],
+  ['best-coding-and-ai-classes-in-lytham-st-annes', 'Lytham St Annes, Lancashire'],
+  ['ai-and-programming-classes-in-bury-st-edmunds', 'Bury St Edmunds, Suffolk'],
+  ['vibe-coding-and-ai-agents-classes-in-fareham', 'Fareham, Hampshire'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

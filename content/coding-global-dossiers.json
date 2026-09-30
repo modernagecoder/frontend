@@ -37331,5 +37331,138 @@
       "Suburb names whose nearest postcode is outside the Hatfield BUA (Lemsford falls in Welwyn Garden City): left out.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-lytham-st-annes": {
+    "market": "Lytham St Annes",
+    "bodyClass": "cg-lsa",
+    "pageType": "city",
+    "curriculumAuthority": "Fylde (E07000119), Census 2021 TS001 usual residents 81,374. ONS 2021 BUA (published): Lytham St Anne's 42,695 (our OA sum 42,693). English national curriculum, GCSE and A level. postcodes.io suburban areas with nearest postcode in that BUA: Lytham, Ansdell, Fairhaven, Saltcotes, St Anne's (FY8).",
+    "localProject": "Seam carving on a road raster of Lytham St Annes. One Overpass query (buildings and roads, out geom), 53.730 to 53.775 N, 3.052 to 2.935 W; buildings incomplete (2,621) and not used; 1,299 road ways trunk to living_street, 208.6 km. Raster 10 m, 500 x 770, 20,441 road pixels (5.31%), 4 pieces. Energy 3x3 road mean. At 10/20/30% narrower: even columns 90.4/80.1/70.1% kept, 152/491/882 pieces; emptiest columns 97.9/93.3/87.4%, 21/71/97; seams 99.6/98.4/96.4%, 11/19/36.",
+    "requiredMentions": [
+      "42,695",
+      "Ansdell",
+      "Fairhaven",
+      "Saltcotes",
+      "seam carving",
+      "20,441 pixels",
+      "882 pieces",
+      "96.4% of the road pixels",
+      "Avidan and Shamir"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap contributors, roads and buildings via the Overpass API, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "Avidan S. and Shamir A. (2007), Seam carving for content-aware image resizing, ACM Transactions on Graphics 26(3), article 10.",
+        "url": "https://doi.org/10.1145/1276377.1276390"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations and output-area lookup.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for Fylde.",
+        "url": "https://api.postcodes.io/places?q=Ansdell"
+      }
+    ],
+    "rejectedClaims": [
+      "Building layer: OpenStreetMap coverage is partial (2,621 buildings); not used, stated on the page.",
+      "That St Annes was a planned town or any history of the resort: not checked; not claimed.",
+      "That the seams follow the sea or fields in particular places: not inspected pixel by pixel; not claimed.",
+      "Heyhouses and Squires Gate as suburbs: no matching postcodes.io suburban area; left out.",
+      "Named schools and term dates: none read or named.",
+      "Sterling prices: none."
+    ]
+  },
+  "ai-and-programming-classes-in-bury-st-edmunds": {
+    "market": "Bury St Edmunds",
+    "bodyClass": "cg-bse",
+    "pageType": "city",
+    "curriculumAuthority": "West Suffolk (E07000245), Census 2021 TS001 usual residents 179,948. ONS 2021 BUA (published): Bury St Edmunds 41,280 (printed; the same figure is a required mention on the Greenock page). English national curriculum, GCSE and A level. Council wards of the nearest postcode to each of the 141 OA centroids (postcodes.io): Moreton Hall, Tollgate, Minden, Abbeygate, Westgate, St Olaves, Southgate, Eastgate.",
+    "localProject": "Census 2021 TS061 (method used to travel to work, 11 methods) for the 141 OAs of the Bury St Edmunds BUA: 1,551 cells, 483 zero; shares of each area's workers. 20 per cent hidden at random, 20 masks; score = mean absolute miss in people per hidden cell. Column average 3.52 (known 3.46). Alternating least squares after column-mean removal, 60 sweeps: rank 1 penalty 0.1 3.38 (13 of 20 wins); rank 2 penalty 0.1 2.31 (20 of 20; known 1.19); rank 3 penalty 0.1 2.30; rank 10 penalty 0.001 3.57 hidden, 0.021 known (7 of 20). Half hidden: rank 2 2.95 vs 3.51 (19 of 20); 3 masks left one area fully hidden (cold start). Lesson family: matrix completion by low-rank factorisation, regularisation, cold start.",
+    "requiredMentions": [
+      "179,948",
+      "Moreton Hall",
+      "Tollgate",
+      "Minden",
+      "Abbeygate",
+      "St Olaves",
+      "matrix completion",
+      "alternating least squares",
+      "1,551",
+      "2.31"
+    ],
+    "sources": [
+      {
+        "claim": "Koren Y., Bell R. and Volinsky C. (2009), Matrix factorization techniques for recommender systems, Computer 42(8), 30 to 37.",
+        "url": "https://doi.org/10.1109/MC.2009.263"
+      },
+      {
+        "claim": "Candès E. J. and Recht B. (2009), Exact matrix completion via convex optimization, Foundations of Computational Mathematics 9(6), 717 to 772.",
+        "url": "https://doi.org/10.1007/s10208-009-9045-5"
+      },
+      {
+        "claim": "ONS Census 2021 TS061 method used to travel to work and TS001 via Nomis; ONS OA21 to BUA22 lookup and 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io reverse geocoding of output-area centroids for council ward names.",
+        "url": "https://postcodes.io/"
+      }
+    ],
+    "rejectedClaims": [
+      "A published travel-to-work total or shares for the town: our tally across 141 areas is not printed as a population figure.",
+      "That the low-rank model reveals real causes of how people travel: the hidden numbers are fitted, not interpreted.",
+      "That streaming services use exactly this model today: stated as the approach that popularised recommendation, with sources from 2009.",
+      "Gazetteer suburb names: none has its nearest postcode inside the BUA (Westley, Nowton, Horringer and the Fornhams fall outside); wards used instead.",
+      "Car ownership or any income-linked measure: not used; the table is method of travel only.",
+      "Sterling prices: none."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-fareham": {
+    "market": "Fareham",
+    "bodyClass": "cg-frh",
+    "pageType": "city",
+    "curriculumAuthority": "Fareham (E07000087), Census 2021 TS001 usual residents 114,511. ONS 2021 BUA (published): Fareham 42,625. English national curriculum, GCSE and A level. postcodes.io suburban areas with nearest postcode in the Fareham BUA: Funtley, Wallington, Catisfield, Hill Park, Heathfield; Titchfield (Locks Heath BUA) and Stubbington (Lee-on-the-Solent BUA) excluded.",
+    "localProject": "Earliest deadline first vs nearest-first for a walking errand agent. One Overpass query: 87 post boxes (67 with weekday collection_times: 37 at 09:00, 30 from 16:00 to 18:30), roads trunk to service, largest part 22,632 nodes, 410.5 km. Start West Street, 4.5 km/h, one minute per box, 30 afternoon boxes. On time out of 30 from 15:00: nearest 10 (7 late), EDF 2 (3 late), nearest reachable 12, EDF reachable 10, top of 20,000 randomised 13; from 14:00: 15, 2, 16, 10, 17; from 16:00: 7, 0, 9, 9, 10. EDF walked 16.36 km from 15:00.",
+    "requiredMentions": [
+      "42,625",
+      "Funtley",
+      "Catisfield",
+      "Hill Park",
+      "earliest deadline first",
+      "87 post boxes",
+      "Liu and Layland",
+      "16.36 km",
+      "domino effect"
+    ],
+    "sources": [
+      {
+        "claim": "OpenStreetMap contributors, post boxes with collection_times tags and roads via the Overpass API, Open Database Licence.",
+        "url": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "claim": "Liu C. L. and Layland J. W. (1973), Scheduling algorithms for multiprogramming in a hard-real-time environment, Journal of the ACM 20(1), 46 to 61.",
+        "url": "https://doi.org/10.1145/321738.321743"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations and output-area lookup.",
+        "url": "https://www.nomisweb.co.uk/sources/census_2021"
+      },
+      {
+        "claim": "postcodes.io places and nearest-postcode lookups for Fareham borough.",
+        "url": "https://api.postcodes.io/places?q=Catisfield"
+      }
+    ],
+    "rejectedClaims": [
+      "That the tagged collection times are current: not checked against the boxes; stated on the page.",
+      "Any statement about Royal Mail policy or why many boxes show 09:00: not researched; not claimed.",
+      "That 17 or 13 is the true maximum: only the top score of 20,000 randomised runs; stated as such.",
+      "Walking times on footpaths: footpaths were not in the network; stated.",
+      "Titchfield and Stubbington as Fareham suburbs: their nearest postcodes are in other BUAs; left out.",
+      "Sterling prices: none."
+    ]
   }
 }
