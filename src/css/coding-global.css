@@ -1482,3 +1482,4 @@
 .cg-root.cg-cwn  { --cg-accent: #304C94; --cg-accent-soft: rgba(48,76,148,.10); }   /* Colwyn Bay: a muted bay blue (8.12:1 contrast on white), chosen by hand and kept clear of the other North Wales pages */
 .cg-root.cg-ppl  { --cg-accent: #347024; --cg-accent-soft: rgba(52,112,36,.10); }   /* Pontypool: a muted park green (6.02:1 contrast on white), chosen by hand and kept clear of the other Gwent pages */
 .cg-root.cg-pnh  { --cg-accent: #9C3038; --cg-accent-soft: rgba(156,48,56,.10); }   /* Penarth: a muted pier-rail red (7.26:1 contrast on white), chosen by hand and kept clear of the other Cardiff-area pages */
+.cg-root.cg-rhy  { --cg-accent: #245840; --cg-accent-soft: rgba(36,88,64,.10); }   /* Rhyl: a muted sea green (8.25:1 contrast on white), chosen by hand and kept clear of the other North Wales pages */

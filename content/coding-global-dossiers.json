@@ -38245,5 +38245,49 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-rhyl": {
+    "market": "Rhyl",
+    "bodyClass": "cg-rhy",
+    "pageType": "city",
+    "curriculumAuthority": "Denbighshire (W06000004), Census 2021 TS001 usual residents 95,817. ONS 2021 BUA (published): Rhyl 26,990. Curriculum for Wales, WJEC GCSE and A level. Wards of postcodes.io LL18 postcodes in the Rhyl BUA: Rhyl West, Rhyl South West, Rhyl East, Rhyl South, Rhyl Tŷ Newydd, Rhyl Trellewelyn. Kinmel Bay, Rhuddlan, Prestatyn, Bodelwyddan and Dyserth are separate BUAs.",
+    "localProject": "Invented four-step day-out agent: room 3%, coach 8%, tickets 12%, lunch 5% failure; 4% lost confirmations retried; cancellations fail 10%. 100,000 runs per policy, seed 20261001; all steps succeed 74.6%. No undo: 41,272 bookings left behind in 22,495 failed runs. Cancel once: 4,279 left (1.62 cancel calls per failed run). Cancel with up to 3 tries: 40 left (1.79 calls per failed run). Duplicates from blind retries about 13,500 (13,444 in the retry run); with idempotency keys 0. Riskiest step first: 21 left, 0.97 calls per failed run. Lesson family: saga pattern, compensating actions, retrying compensations, idempotency keys, step ordering.",
+    "requiredMentions": [
+      "26,990",
+      "Rhyl West",
+      "Rhyl South West",
+      "Trellewelyn",
+      "Tŷ Newydd",
+      "saga pattern",
+      "idempotency key",
+      "41,272",
+      "4,279"
+    ],
+    "sources": [
+      {
+        "claim": "Garcia-Molina H., Salem K. (1987), Sagas, Proceedings of the 1987 ACM SIGMOD international conference on management of data, 249 to 259.",
+        "url": "https://doi.org/10.1145/38713.38742"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/datasets/c2021ts001"
+      },
+      {
+        "claim": "postcodes.io postcode lookups for LL18 in Denbighshire (wards and built-up areas).",
+        "url": "https://api.postcodes.io/places?q=Rhyl"
+      },
+      {
+        "claim": "Python documentation, random module (the simulation's random failures).",
+        "url": "https://docs.python.org/3/library/random.html"
+      }
+    ],
+    "rejectedClaims": [
+      "That the day-out scenario or its failure rates describe any real Rhyl business or booking system: invented and labelled; the page says so.",
+      "That Kinmel Bay, Rhuddlan or Prestatyn are part of the Rhyl built-up area: each has its own; left out.",
+      "That retries remove every leftover booking: 40 remained even with three tries; the page says so.",
+      "Any tourism or seafront claims: none made.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
