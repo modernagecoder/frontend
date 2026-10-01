@@ -38061,5 +38061,49 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-port-talbot": {
+    "market": "Port Talbot",
+    "bodyClass": "cg-ptb",
+    "pageType": "city",
+    "curriculumAuthority": "Neath Port Talbot (W06000012), Census 2021 TS001 usual residents 142,289. ONS 2021 BUA (published): Port Talbot 31,555. Curriculum for Wales, progression steps, WJEC GCSE and A level. postcodes.io suburban areas whose nearest postcode is in the Port Talbot BUA: Aberavon, Sandfields, Taibach, Margam, Velindre.",
+    "localProject": "Invented three-agent simulation: events about 10 per second, 35% are messages, delay exponential mean 0.2 s, fixed clock offsets uniform within plus or minus the skew; 20 runs of about 300 events (seeds 0 to 19); 1,537 messages. Receives stamped before their send by wall clock: skew 0: 0; 0.05 s: 84 (5.5%); 0.2 s: 305 (19.8%); 0.5 s: 484 (31.5%); 1 s: 618 (40.2%); Lamport: 0 at every skew. 899,102 event pairs, 57,104 concurrent (6.4%); Lamport numbers differ for 52,786 (92.4%); vector clocks flag all 57,104. Vector length = number of agents (3). Lesson family: logical clocks, Lamport clocks, vector clocks, happened-before, concurrency.",
+    "requiredMentions": [
+      "31,555",
+      "Aberavon",
+      "Sandfields",
+      "Taibach",
+      "Velindre",
+      "vector clock",
+      "57,104",
+      "1,537",
+      "Lamport clock"
+    ],
+    "sources": [
+      {
+        "claim": "Lamport L. (1978), Time, clocks, and the ordering of events in a distributed system, Communications of the ACM 21(7), 558 to 565.",
+        "url": "https://doi.org/10.1145/359545.359563"
+      },
+      {
+        "claim": "Schwarz R., Mattern F. (1994), Detecting causal relationships in distributed computations: in search of the holy grail, Distributed Computing 7(3), 149 to 174.",
+        "url": "https://doi.org/10.1007/BF02277859"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/datasets/c2021ts001"
+      },
+      {
+        "claim": "postcodes.io place and nearest-postcode lookups for SA12 and SA13.",
+        "url": "https://api.postcodes.io/places?q=Sandfields"
+      }
+    ],
+    "rejectedClaims": [
+      "That the agents or timings describe any real system in Port Talbot: invented and labelled; the page says so.",
+      "Any statement about local industry or employment: none made.",
+      "That Baglan, Cwmavon or Bryn are part of the Port Talbot built-up area: each has its own; left out.",
+      "That vector clocks are free: they cost one counter per agent per message; the page says so.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

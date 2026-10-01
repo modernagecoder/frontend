@@ -1478,3 +1478,4 @@
 .cg-root.cg-anl  { --cg-accent: #934E24; --cg-accent-soft: rgba(147,78,36,.10); }   /* Arnold: a muted brick orange (6.26:1 contrast on white), chosen by hand and kept clear of the Nottinghamshire pages */
 .cg-root.cg-abr  { --cg-accent: #984060; --cg-accent-soft: rgba(152,64,96,.10); }   /* Aberdare: a muted heather rose (6.49:1 contrast on white), chosen by hand and kept clear of the other South Wales pages */
 .cg-root.cg-ppd  { --cg-accent: #545C9C; --cg-accent-soft: rgba(84,92,156,.10); }   /* Pontypridd: a muted slate blue (6.2:1 contrast on white), chosen by hand and kept clear of the other South Wales pages */
+.cg-root.cg-ptb  { --cg-accent: #68641C; --cg-accent-soft: rgba(104,100,28,.10); }   /* Port Talbot: a muted dune olive (6.13:1 contrast on white), chosen by hand and kept clear of the other South Wales pages */
