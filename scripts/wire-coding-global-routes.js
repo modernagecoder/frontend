@@ -829,6 +829,7 @@ const MARKETS = [
   ['vibe-coding-and-ai-agents-classes-in-port-talbot', 'Port Talbot, Neath Port Talbot'],
   ['online-coding-and-python-classes-in-colwyn-bay', 'Colwyn Bay, Conwy'],
   ['ai-and-programming-classes-in-pontypool', 'Pontypool, Torfaen'],
+  ['best-coding-and-ai-classes-in-penarth', 'Penarth, Vale of Glamorgan'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

@@ -38201,5 +38201,49 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-penarth": {
+    "market": "Penarth",
+    "bodyClass": "cg-pnh",
+    "pageType": "city",
+    "curriculumAuthority": "Vale of Glamorgan (W06000014), Census 2021 TS001 usual residents 131,939. ONS 2021 BUA (published): Penarth 28,395 (reaches into Cardiff). Curriculum for Wales, WJEC GCSE and A level. postcodes.io suburban areas whose nearest postcode is in the Penarth BUA: Cogan, Lower Penarth, Cosmeston. Wards of CF64 postcodes in the BUA: St Augustine's, Plymouth, Cornerswell, Stanwell, Llandough.",
+    "localProject": "Met Office historic station data, Cardiff Bute Park (about 6 km north of Penarth town centre), monthly mean daily maximum temperature, Sept 1977 to Aug 2026 (47 months estimated; 2026 provisional). 48 complete years 1978 to 2025, each the mean of 12 months (ours): coolest 1979 13.03 C, warmest 2022 16.36 C. LIS 16 (1979, 1985, 1987, 1991, 1992, 1994, 1998, 2000, 2002, 2004, 2005, 2006, 2014, 2020, 2023, 2025); longest consecutive rise 5 (1986 to 1990). DP 1,128 comparisons, patience 141; brute force 20 years 1,048,575 subsets 0.8 s, 48 years about 7 years. 10,000 shuffles: mean LIS 10.9, 10 reached 16. Lesson family: longest increasing subsequence, patience sorting, dynamic programming, exponential brute force, shuffle test.",
+    "requiredMentions": [
+      "28,395",
+      "Cogan",
+      "Cosmeston",
+      "Cornerswell",
+      "Bute Park",
+      "patience sorting",
+      "longest increasing subsequence",
+      "1,128",
+      "16.36"
+    ],
+    "sources": [
+      {
+        "claim": "Met Office historic station data, Cardiff Bute Park, monthly values (Open Government Licence).",
+        "url": "https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/cardiffdata.txt"
+      },
+      {
+        "claim": "Fredman M. L. (1975), On computing the length of longest increasing subsequences, Discrete Mathematics 11(1), 29 to 35.",
+        "url": "https://doi.org/10.1016/0012-365X(75)90103-X"
+      },
+      {
+        "claim": "Aldous D., Diaconis P. (1999), Longest increasing subsequences: from patience sorting to the Baik-Deift-Johansson theorem, Bulletin of the AMS 36(4), 413 to 432.",
+        "url": "https://doi.org/10.1090/S0273-0979-99-00796-X"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations; postcodes.io lookups for CF64.",
+        "url": "https://api.postcodes.io/places?q=Cogan"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement about the cause of warming or about climate change: none made; the page says the project stops at the shuffle result.",
+      "That the yearly averages are official Met Office statistics: they are our means of monthly values; the page says so.",
+      "That Bute Park readings describe Penarth itself: the station is in Cardiff, about 6 km north; stated.",
+      "That Sully or Dinas Powys are part of the Penarth built-up area: they are not; left out.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
