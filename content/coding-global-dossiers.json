@@ -37913,5 +37913,53 @@
       "Suburb names whose nearest postcode is outside the BUA: none of the three used; others not found in the gazetteer.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-arnold": {
+    "market": "Arnold",
+    "bodyClass": "cg-anl",
+    "pageType": "city",
+    "curriculumAuthority": "Gedling (E07000173), Census 2021 TS001 usual residents 117,264. ONS 2021 BUA (published): Arnold 40,010 (reaches beyond Gedling). National curriculum for England; GCSE and A level computer science. Wards of postcodes.io NG5 postcodes in the Arnold BUA: Ernehale, Redhill, Daybrook, Plains, Coppice, Woodthorpe; Redhill, Daybrook and Woodthorpe are suburban areas whose nearest postcode is in the BUA.",
+    "localProject": "Census 2021 TS017 household size for the 128 Gedling output areas in the Arnold BUA (ONS OA21 to BUA22 lookup); 8 columns, 1,024 cells. Python 3.13: [[0]*8]*128 filled cell by cell: 1 row object, 789 of 1,024 cells wrong, only the last row right; comprehension 0 wrong. Tidy in place (fold 8+ into 7, drop last column, append a row): alias sees 17 changed cells, 128 short rows, 129 rows; table.copy() 17, 128, 128 rows; row slices and copy.deepcopy 0. 17 output areas had a household of eight or more. deepcopy 0.38 ms vs row slices 0.011 ms on this laptop. Lesson family: Python aliasing, references, shallow vs deep copy.",
+    "requiredMentions": [
+      "40,010",
+      "Ernehale",
+      "Daybrook",
+      "Woodthorpe",
+      "Coppice",
+      "789",
+      "copy.deepcopy",
+      "shallow copy",
+      "aliasing"
+    ],
+    "sources": [
+      {
+        "claim": "ONS Census 2021 TS017 household size and TS001 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/datasets/c2021ts017"
+      },
+      {
+        "claim": "ONS output area (2021) to built-up area (2022) lookup for England and Wales.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/OA21_BUA22_LAD22_RGN22_EW_LU/FeatureServer/0"
+      },
+      {
+        "claim": "Python documentation, copy module: shallow and deep copy operations.",
+        "url": "https://docs.python.org/3/library/copy.html"
+      },
+      {
+        "claim": "Python documentation, FAQ: why changing list y also changes list x.",
+        "url": "https://docs.python.org/3/faq/programming.html#why-did-changing-list-y-also-change-list-x"
+      },
+      {
+        "claim": "postcodes.io postcode and place lookups for NG5 in Gedling.",
+        "url": "https://api.postcodes.io/places?q=Daybrook"
+      }
+    ],
+    "rejectedClaims": [
+      "A household total for Arnold made by adding output-area counts: not printed; only published figures are shown.",
+      "That the Arnold built-up area lies wholly in Gedling: it reaches beyond the borough; the page says so.",
+      "That Bestwood Village is part of Arnold: it has its own ONS built-up area; left out.",
+      "That the timings hold on any computer: stated as this laptop only.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
