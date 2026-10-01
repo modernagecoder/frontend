@@ -38013,5 +38013,53 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-and-ai-classes-in-pontypridd": {
+    "market": "Pontypridd",
+    "bodyClass": "cg-ppd",
+    "pageType": "city",
+    "curriculumAuthority": "Rhondda Cynon Taf (W06000016), Census 2021 TS001 usual residents 237,651. ONS 2021 BUA (published): Pontypridd 31,900. Curriculum for Wales, progression steps, Years 1 to 13, WJEC GCSE and A level. postcodes.io suburban areas whose nearest postcode is in the Pontypridd BUA: Treforest, Trallwn, Cilfynydd, Graig, Hopkinstown, Glyncoch, Maesycoed, Rhydyfelin, Upper Boat, Hawthorn. CF37 also reaches Trehafod and Ynysybwl (outside the BUA).",
+    "localProject": "OS Code-Point Open 2026.3.0, CF37: 885 postcodes (883 RCT, 2 Caerphilly), 15 wards. Linear scan mean 443 comparisons; binary search 10.85 (log2 885 = 9.79); 92 absent X/Z codes 10.88. Skip list p 1/2, 20 builds: mean 19.15 (16.89 to 20.64), worst 37, tallest 8 to 13, 1.99 pointers per key, half at level 1; absent 18.73. p 1/4: 18.32, worst 49, 1.33 pointers per key. Seed 20261001: levels 464 / 199 / 105 / 57 / 30 / 13 / 8 / 4 / 5; mean 18.75, worst 33. Insert: list shifts about half the list on average; skip list rewires about two links. Lesson family: skip lists, randomised data structures, search cost, read vs update trade-off.",
+    "requiredMentions": [
+      "31,900",
+      "Treforest",
+      "Cilfynydd",
+      "Glyncoch",
+      "Hopkinstown",
+      "skip list",
+      "19.15",
+      "10.85",
+      "CF37 1DL"
+    ],
+    "sources": [
+      {
+        "claim": "Pugh W. (1990), Skip lists: a probabilistic alternative to balanced trees, Communications of the ACM 33(6), 668 to 676.",
+        "url": "https://doi.org/10.1145/78973.78977"
+      },
+      {
+        "claim": "Ordnance Survey Code-Point Open 2026.3.0 (contains Royal Mail and OS data, Open Government Licence).",
+        "url": "https://www.ordnancesurvey.co.uk/products/code-point-open"
+      },
+      {
+        "claim": "Redis documentation: sorted sets are implemented with a skip list and a hash table.",
+        "url": "https://redis.io/docs/latest/develop/data-types/sorted-sets/"
+      },
+      {
+        "claim": "Python documentation, bisect module (binary search on sorted lists).",
+        "url": "https://docs.python.org/3/library/bisect.html"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations; postcodes.io place lookups for CF37.",
+        "url": "https://api.postcodes.io/places?q=Treforest"
+      }
+    ],
+    "rejectedClaims": [
+      "That CF37 equals the town: it also covers Trehafod and Ynysybwl, which are outside the Pontypridd built-up area; the page says so.",
+      "Any claim about the Old Bridge or the river confluence: not used; the county page covers bridge geometry.",
+      "That a skip list beats binary search on lookups: it does not here; the page says so.",
+      "That the skip list figures are fixed: they vary with the coin tosses; ranges are given.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
