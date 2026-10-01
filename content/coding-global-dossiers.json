@@ -37961,5 +37961,57 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-aberdare": {
+    "market": "Aberdare",
+    "bodyClass": "cg-abr",
+    "pageType": "city",
+    "curriculumAuthority": "Rhondda Cynon Taf (W06000016), Census 2021 TS001 usual residents 237,651. ONS 2021 BUA (published): Aberdare 37,675. Curriculum for Wales, progression steps, Years 1 to 13, WJEC GCSE and A level. postcodes.io suburban areas whose nearest postcode is in the Aberdare BUA: Trecynon, Cwmdare, Llwydcoed, Robertstown, Abernant, Gadlys, Cwmbach, Aberaman, Abercwmboi, Godreaman, Cwmaman, Penywaun, Hirwaun.",
+    "localProject": "Census 2021 TS007A, TS044, TS050, TS017, TS061 for 789 RCT output areas; 36 shares per OA turned into +1/-1 against the RCT median. 123 OAs in the Aberdare BUA; all patterns distinct; mean Hamming 17.94 of 36; closest pair 2. Hopfield network, Hebbian weights, zero diagonal, asynchronous updates; 4 of 36 bits flipped; 200 trials per k; seed 20261001. Exact recall real / random: k1 100 / 100; k3 96.3 / 99.7; k4 80.6 / 97.9; k5 63.3 / 87.8; k6 44.5 / 79.8; k8 18.6 / 51.5; k10 7.0 / 27.5 (percent). Spurious share real k8 79.0%, k10 90.0%. Mean absolute correlation between bits across 789 RCT OAs 0.121 (independent bits about 0.028); under-fives vs aged 30 to 34 shares r 0.42. Capacity 0.138N about 5 for N 36. Lesson family: Hopfield networks, associative memory, capacity, spurious attractors, correlated patterns.",
+    "requiredMentions": [
+      "37,675",
+      "Trecynon",
+      "Cwmdare",
+      "Llwydcoed",
+      "Abercwmboi",
+      "Godreaman",
+      "Hopfield network",
+      "63.3%",
+      "17.94"
+    ],
+    "sources": [
+      {
+        "claim": "Hopfield J. J. (1982), Neural networks and physical systems with emergent collective computational abilities, PNAS 79(8), 2554 to 2558.",
+        "url": "https://doi.org/10.1073/pnas.79.8.2554"
+      },
+      {
+        "claim": "Amit D. J., Gutfreund H., Sompolinsky H. (1985), Storing infinite numbers of patterns in a spin-glass model of neural networks, Physical Review Letters 55(14), 1530 to 1533.",
+        "url": "https://doi.org/10.1103/PhysRevLett.55.1530"
+      },
+      {
+        "claim": "ONS Census 2021 TS007A, TS044, TS050, TS017 and TS061 via Nomis; ONS 2021 built-up area populations.",
+        "url": "https://www.nomisweb.co.uk/datasets/c2021ts007a"
+      },
+      {
+        "claim": "ONS output area (2021) to built-up area (2022) lookup for England and Wales.",
+        "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/OA21_BUA22_LAD22_RGN22_EW_LU/FeatureServer/0"
+      },
+      {
+        "claim": "Nobel Prize in Physics 2024, awarded to John J. Hopfield and Geoffrey Hinton.",
+        "url": "https://www.nobelprize.org/prizes/physics/2024/summary/"
+      },
+      {
+        "claim": "postcodes.io place and nearest-postcode lookups for CF44.",
+        "url": "https://api.postcodes.io/places?q=Trecynon"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reading of the census patterns as a description of the people in an area: bits only record above or below a median share.",
+      "That the 0.14 capacity figure applies exactly to 36 units: it is a large-network result; the page calls it a prediction.",
+      "That correlated bits are proven to cause the earlier failure: labelled as our reading.",
+      "That Glenboi is part of the Aberdare built-up area: its nearest postcode is in Mountain Ash; left out.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }

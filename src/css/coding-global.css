@@ -1476,3 +1476,4 @@
 .cg-root.cg-hwh  { --cg-accent: #45459C; --cg-accent-soft: rgba(69,69,156,.10); }   /* Haywards Heath: a muted rain blue (8.13:1 contrast on white), chosen by hand and kept clear of the Sussex pages */
 .cg-root.cg-bps  { --cg-accent: #216F66; --cg-accent-soft: rgba(33,111,102,.10); }   /* Bishop's Stortford: a deep teal (5.95:1 contrast on white), chosen by hand as a muted tone kept clear of the other Hertfordshire pages */
 .cg-root.cg-anl  { --cg-accent: #934E24; --cg-accent-soft: rgba(147,78,36,.10); }   /* Arnold: a muted brick orange (6.26:1 contrast on white), chosen by hand and kept clear of the Nottinghamshire pages */
+.cg-root.cg-abr  { --cg-accent: #984060; --cg-accent-soft: rgba(152,64,96,.10); }   /* Aberdare: a muted heather rose (6.49:1 contrast on white), chosen by hand and kept clear of the other South Wales pages */
