@@ -801,3 +801,4 @@
 .ag-root.ag-oxm { --ag-accent: #127233; --ag-accent-soft: rgba(18,114,51,.09); }   /* Oxford maths: a muted meadow green, chosen by hand and kept clear of the deep teal of our Oxford coding page */
 .ag-root.ag-mte { --ag-accent: #4E458D; --ag-accent-soft: rgba(78,69,141,.09); }   /* Edinburgh maths: a muted slate blue, chosen by hand and clearly different from the plum of our Edinburgh coding page */
 .ag-root.ag-cbm { --ag-accent: #722712; --ag-accent-soft: rgba(114,39,18,.09); }   /* Cambridge maths: a deep brick rust, chosen by hand and kept clear of the magenta of our Cambridge coding page */
+.ag-root.ag-mbf { --ag-accent: #187230; --ag-accent-soft: rgba(24,114,48,.09); }   /* Belfast maths: a muted hill green, chosen by hand and kept apart from the olive on our Belfast coding page */

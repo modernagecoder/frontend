@@ -282,6 +282,7 @@ const SLUGS = [
   'maths-tuition-in-oxford',
   'maths-tuition-in-edinburgh',
   'maths-tuition-in-cambridge',
+  'maths-tuition-in-belfast',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -643,6 +644,7 @@ const LLMS_LABELS = {
   'maths-tuition-in-oxford': 'Maths tuition in Oxford',
   'maths-tuition-in-edinburgh': 'Maths tuition in Edinburgh',
   'maths-tuition-in-cambridge': 'Maths tuition in Cambridge',
+  'maths-tuition-in-belfast': 'Maths tuition in Belfast',
 };
 
 function wireLlms(slugs) {
