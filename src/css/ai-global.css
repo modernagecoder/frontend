@@ -796,3 +796,8 @@
 .ag-root.ag-lum { --ag-accent: #961B2D; --ag-accent-soft: rgba(150,27,45,.09); }   /* Luton maths: a muted crimson, chosen by hand and kept clear of the dusty mauve of our Luton coding page */
 .ag-root.ag-mtl { --ag-accent: #24337E; --ag-accent-soft: rgba(36,51,126,.09); }   /* Liverpool maths: a muted deep-water blue, chosen by hand and kept apart from the teal of our Liverpool coding page */
 .ag-root.ag-msh { --ag-accent: #6C6027; --ag-accent-soft: rgba(108,96,39,.09); }   /* Sheffield maths: a muted brass olive (6.29:1 contrast on white), chosen by hand and kept apart from the deep violet on our Sheffield coding page */
+.ag-root.ag-mtg { --ag-accent: #66301E; --ag-accent-soft: rgba(102,48,30,.09); }   /* Glasgow maths: a muted red sandstone, chosen by hand and well away from the blue on our Glasgow coding page */
+.ag-root.ag-mle { --ag-accent: #36661B; --ag-accent-soft: rgba(54,102,27,.09); }   /* Leeds maths: a muted moorland green (6.83:1 contrast on white), chosen by hand and kept clear of the darker green on our Leeds coding page */
+.ag-root.ag-oxm { --ag-accent: #127233; --ag-accent-soft: rgba(18,114,51,.09); }   /* Oxford maths: a muted meadow green, chosen by hand and kept clear of the deep teal of our Oxford coding page */
+.ag-root.ag-mte { --ag-accent: #4E458D; --ag-accent-soft: rgba(78,69,141,.09); }   /* Edinburgh maths: a muted slate blue, chosen by hand and clearly different from the plum of our Edinburgh coding page */
+.ag-root.ag-cbm { --ag-accent: #722712; --ag-accent-soft: rgba(114,39,18,.09); }   /* Cambridge maths: a deep brick rust, chosen by hand and kept clear of the magenta of our Cambridge coding page */

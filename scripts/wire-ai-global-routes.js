@@ -277,6 +277,11 @@ const SLUGS = [
   'maths-tuition-in-luton',
   'maths-tuition-in-liverpool',
   'maths-tuition-in-sheffield',
+  'maths-tuition-in-glasgow',
+  'maths-tuition-in-leeds',
+  'maths-tuition-in-oxford',
+  'maths-tuition-in-edinburgh',
+  'maths-tuition-in-cambridge',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -633,6 +638,11 @@ const LLMS_LABELS = {
   'maths-tuition-in-luton': 'Maths tuition in Luton',
   'maths-tuition-in-liverpool': 'Maths tuition in Liverpool',
   'maths-tuition-in-sheffield': 'Maths tuition in Sheffield',
+  'maths-tuition-in-glasgow': 'Maths tuition in Glasgow',
+  'maths-tuition-in-leeds': 'Maths tuition in Leeds',
+  'maths-tuition-in-oxford': 'Maths tuition in Oxford',
+  'maths-tuition-in-edinburgh': 'Maths tuition in Edinburgh',
+  'maths-tuition-in-cambridge': 'Maths tuition in Cambridge',
 };
 
 function wireLlms(slugs) {
