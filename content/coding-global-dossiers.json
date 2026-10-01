@@ -38153,5 +38153,53 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "ai-and-programming-classes-in-pontypool": {
+    "market": "Pontypool",
+    "bodyClass": "cg-ppl",
+    "pageType": "city",
+    "curriculumAuthority": "Torfaen (W06000020), Census 2021 TS001 usual residents 92,276. ONS 2021 BUA (published): Pontypool 29,070. Curriculum for Wales, progression steps, WJEC GCSE and A level. postcodes.io suburban areas whose nearest postcode is in the Pontypool BUA: Griffithstown, Sebastopol, New Inn, Pontnewynydd, Trevethin, Penygarn, Wainfelin, Tranch. Wards of the BUA postcodes: Pontypool Fawr, Panteg, Pontnewynydd and Snatchwood, New Inn, Trevethin and Penygarn.",
+    "localProject": "OS Code-Point Open 2026.3.0, 721 NP4 postcodes in the Pontypool BUA (postcodes.io), 5 wards. scikit-learn MLPClassifier (64, 64), easting and northing standardised, 200 passes, batches of 32, 20 seeds, a quarter of each ward held out. Task A (3 northern wards: 351 train, 115 test), task B (New Inn, Panteg: 192, 63; lowest mean northings). After A: A 97.8%. Then B only: A 0.1% (max 1.7%), B 99.3%; 99.9% of A test postcodes called New Inn or Panteg. Replay of 30 A points: A 92.0% (81.7 to 98.3), B 99.4%. Joint: A 97.6%, B 99.2%. Lesson family: catastrophic forgetting, continual learning, replay (rehearsal).",
+    "requiredMentions": [
+      "29,070",
+      "Griffithstown",
+      "Sebastopol",
+      "Wainfelin",
+      "Pontypool Fawr",
+      "Panteg",
+      "catastrophic forgetting",
+      "97.8%",
+      "92.0%"
+    ],
+    "sources": [
+      {
+        "claim": "McCloskey M., Cohen N. J. (1989), Catastrophic interference in connectionist networks: the sequential learning problem, Psychology of Learning and Motivation 24, 109 to 165.",
+        "url": "https://doi.org/10.1016/S0079-7421(08)60536-8"
+      },
+      {
+        "claim": "Robins A. (1995), Catastrophic forgetting, rehearsal and pseudorehearsal, Connection Science 7(2), 123 to 146.",
+        "url": "https://doi.org/10.1080/09540099550039318"
+      },
+      {
+        "claim": "Kirkpatrick J. et al. (2017), Overcoming catastrophic forgetting in neural networks, PNAS 114(13), 3521 to 3526.",
+        "url": "https://doi.org/10.1073/pnas.1611835114"
+      },
+      {
+        "claim": "Ordnance Survey Code-Point Open 2026.3.0 (contains Royal Mail and OS data, Open Government Licence).",
+        "url": "https://www.ordnancesurvey.co.uk/products/code-point-open"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations; postcodes.io lookups for NP4.",
+        "url": "https://api.postcodes.io/places?q=Griffithstown"
+      }
+    ],
+    "rejectedClaims": [
+      "That a ward classifier is useful in practice: official wards are published; the page calls it a teaching task.",
+      "That New Inn and Panteg are strictly south of every other ward: stated only as lowest average northing of their postcodes.",
+      "That replay always keeps 92.0%: results ranged from 81.7% to 98.3% across runs; the page says so.",
+      "That Abersychan or Garndiffaith are part of the Pontypool built-up area: they belong to the Abersychan BUA; left out.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
