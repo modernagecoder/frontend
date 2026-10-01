@@ -21,6 +21,11 @@
   # visitor from any country can say where their number is from. verify:phone
   # fails the build if a page slipped through. See scripts/ensure-phone-country.js.
   #
+  # build:pixel stamps the Meta Pixel into every page's <head> (generated pages
+  # included, so it must follow generate:all) and lovewall/index.html before the
+  # lovewall build copies it; verify:pixel fails the build if any page lacks it.
+  # See scripts/ensure-meta-pixel.js.
+  #
   # pricing:verify then fails the build if any page shows a different price from
   # the one it publishes to Google — the fault that was live on the homepage
   # before this system existed.
@@ -29,7 +34,7 @@
   # exchange-rate data, and running it on every deploy would let prices move
   # without anyone reviewing the change. It is a manual command; the committed
   # data files are what deploys.
-  command = "npm install && npm run generate:all && npm run pricing:verify && npm run build:inline && npm run build:phone && npm run verify:phone && npm run minify && cd lovewall && npm install && npm run build && cd .."
+  command = "npm install && npm run generate:all && npm run pricing:verify && npm run build:inline && npm run build:phone && npm run verify:phone && npm run build:pixel && npm run verify:pixel && npm run minify && cd lovewall && npm install && npm run build && cd .."
   publish = "."
   functions = "api"
 
