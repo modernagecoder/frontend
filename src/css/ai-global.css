@@ -783,3 +783,4 @@
 .ag-root.ag-htm { --ag-accent: #40324C; --ag-accent-soft: rgba(64,50,76,.09); }   /* Hertfordshire 11 plus maths: a dusk plum-grey, chosen by colour distance from every accent on the site (9.51:1 on the darkest paper tint) */
 .ag-root.ag-wwm { --ag-accent: #2C2A4C; --ag-accent-soft: rgba(44,42,76,.09); }   /* Wolverhampton and Walsall 11 plus maths: a Black Country iron-grey indigo, chosen by colour distance from every accent on the site (10.97:1 on the darkest paper tint) */
 .ag-root.ag-mtm { --ag-accent: #813C39; --ag-accent-soft: rgba(129,60,57,.09); }   /* Manchester maths: a muted mill-brick red, chosen by hand and kept clear of the purple on our Manchester coding page */
+.ag-root.ag-mtb { --ag-accent: #246357; --ag-accent-soft: rgba(36,99,87,.09); }   /* Birmingham maths: a muted canal-water green, chosen by hand and kept clear of the navy on our Birmingham 11 plus page */

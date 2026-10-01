@@ -570,7 +570,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 457 | best-coding-and-ai-classes-in-withington-manchester (wth, #3F4F8A) | cg- town page | 2,727 | 2.1% vs best-coding-and-ai-classes-in-moseley-birmingham | why do data maps use hexagons, and does the grid change the map? | hexagonal binning vs square grid, bin placement sensitivity | 1a4ad723 |
 | 458 | vibe-coding-and-ai-agents-classes-in-wythenshawe-manchester (wys, #A03A2A) | cg- town page | 2,818 | 1.8% vs vibe-coding-and-ai-agents-classes-in-weymouth | can several rough rules label data as well as a person? | weak supervision, labelling functions, label model vs majority vote | de22b044 |
 | 459 | online-coding-and-python-classes-in-headingley-leeds (hdl, #1F5F7A) | cg- town page | 2,784 | 2.2% vs best-coding-and-ai-classes-in-gosport | how do you process a file too big for memory? | Python generators, lazy evaluation, streaming | 99cf60b8 |
-| 460 | ai-and-programming-classes-in-roundhay-leeds (rdy, #5B6B12) | cg- town page | 2,797 | 2.2% vs ai-and-programming-classes-in-dulwich-london | how should you spend 16 tries tuning a model? | hyperparameter search, grid vs random vs Latin hypercube | (this commit) |
+| 460 | ai-and-programming-classes-in-roundhay-leeds (rdy, #5B6B12) | cg- town page | 2,797 | 2.2% vs ai-and-programming-classes-in-dulwich-london | how should you spend 16 tries tuning a model? | hyperparameter search, grid vs random vs Latin hypercube | 8739291b |
+| 474 | vibe-coding-and-ai-agents-classes-in-llandaff-cardiff (lld, #7A1F4A) | cg- town page | 2,807 | 2.3% vs vibe-coding-and-ai-agents-classes-in-thundersley-and-south-benfleet | what can an agent see, and where should a team stand? | isovists, ray casting, greedy maximum coverage | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
