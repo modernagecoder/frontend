@@ -18559,6 +18559,18 @@
   to = "/src/pages/maths-tuition-in-liverpool.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/maths-tuition-in-sheffield"
+  to = "/src/pages/maths-tuition-in-sheffield.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tuition-in-sheffield.md"
+  to = "/src/pages/maths-tuition-in-sheffield.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

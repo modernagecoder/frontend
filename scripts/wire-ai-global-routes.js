@@ -276,6 +276,7 @@ const SLUGS = [
   'maths-tuition-in-bristol',
   'maths-tuition-in-luton',
   'maths-tuition-in-liverpool',
+  'maths-tuition-in-sheffield',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -631,6 +632,7 @@ const LLMS_LABELS = {
   'maths-tuition-in-bristol': 'Maths tuition in Bristol',
   'maths-tuition-in-luton': 'Maths tuition in Luton',
   'maths-tuition-in-liverpool': 'Maths tuition in Liverpool',
+  'maths-tuition-in-sheffield': 'Maths tuition in Sheffield',
 };
 
 function wireLlms(slugs) {

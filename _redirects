@@ -5442,4 +5442,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /maths-tuition-in-liverpool /src/pages/maths-tuition-in-liverpool.html 200
 /maths-tuition-in-liverpool.md /src/pages/maths-tuition-in-liverpool.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/maths-tuition-in-sheffield /src/pages/maths-tuition-in-sheffield.html 200
+/maths-tuition-in-sheffield.md /src/pages/maths-tuition-in-sheffield.md 200
 /* /src/pages/404.html 404

@@ -795,3 +795,4 @@
 .ag-root.ag-mbs { --ag-accent: #15631E; --ag-accent-soft: rgba(21,99,30,.09); }   /* Bristol maths: a muted harbourside green (7.41:1 contrast on white), chosen by hand and kept apart from the brown on our Bristol coding page */
 .ag-root.ag-lum { --ag-accent: #961B2D; --ag-accent-soft: rgba(150,27,45,.09); }   /* Luton maths: a muted crimson, chosen by hand and kept clear of the dusty mauve of our Luton coding page */
 .ag-root.ag-mtl { --ag-accent: #24337E; --ag-accent-soft: rgba(36,51,126,.09); }   /* Liverpool maths: a muted deep-water blue, chosen by hand and kept apart from the teal of our Liverpool coding page */
+.ag-root.ag-msh { --ag-accent: #6C6027; --ag-accent-soft: rgba(108,96,39,.09); }   /* Sheffield maths: a muted brass olive (6.29:1 contrast on white), chosen by hand and kept apart from the deep violet on our Sheffield coding page */
