@@ -630,7 +630,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 578 | maths-tuition-in-edinburgh (mte, #4E458D) | ag- maths by city | 3,732 | 1.6% vs maths-tuition-in-belfast | how steep is Arthur's Seat? | gradient as rise over run, average vs local rate of change (chords approaching a tangent), m = tan theta, trapezium rule, DEM resolution | cef4b0ee |
 | 579 | maths-tuition-in-cardiff (mcd, #991E45) | ag- maths by city | 4,046 | 1.5% vs maths-tuition-in-belfast | which age band is really the busiest in Cardiff? | histograms with unequal class widths, frequency density, open-ended classes, comparing distributions by scaling | 6a7a4ae6 |
 | 580 | maths-tuition-in-belfast (mbf, #187230) | ag- maths by city | 3,748 | 1.8% vs maths-tuition-in-glasgow | how far could you see from the top of Divis on a perfectly smooth Earth? | circle theorems (tangent perpendicular to radius), Pythagoras with large and small numbers, sqrt(2Rh) approximation, map vs DEM heights | 913b574f |
-| 581 | maths-tuition-in-milton-keynes (mkm, #18189C) | ag- maths by city | 4,210 | 1.5% vs maths-tuition-in-nottingham | do the Milton Keynes H and V grid roads cross at right angles? | straight-line graphs, gradient, perpendicular gradients, angle between two lines | (this commit) |
+| 581 | maths-tuition-in-milton-keynes (mkm, #18189C) | ag- maths by city | 4,210 | 1.5% vs maths-tuition-in-nottingham | do the Milton Keynes H and V grid roads cross at right angles? | straight-line graphs, gradient, perpendicular gradients, angle between two lines | 124971f8 |
+| 582 | maths-tuition-in-reading (mrd, #0F573F) | ag- maths by city | 4,011 | 1.2% vs maths-tuition-in-oxford | how much Thames water passes Reading in a day? | compound measures and unit conversion, standard form, orders of magnitude and log scales | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
