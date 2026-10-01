@@ -634,7 +634,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 582 | maths-tuition-in-reading (mrd, #0F573F) | ag- maths by city | 4,011 | 1.2% vs maths-tuition-in-oxford | how much Thames water passes Reading in a day? | compound measures and unit conversion, standard form, orders of magnitude and log scales | d9c96b18 |
 | 583 | maths-tuition-in-slough (msl, #15334E) | ag- maths by city | 3,849 | 1.2% vs maths-tuition-in-milton-keynes | how many children and older people are there for every 100 working-age people in Slough? | ratio and proportion, simplest form, unitary method, published totals that differ | 4d49e57b |
 | 584 | maths-tuition-in-luton (lum, #9C391E) | ag- maths by city | 4,049 | 0.9% vs maths-tuition-in-sheffield | why is the runway at Luton numbered 07 and 25? | degrees minutes seconds to decimals, rounding to the nearest ten, right-angled trigonometry, cos(latitude) scale factor | a3b1d830 |
-| 585 | maths-tuition-in-oxford (oxm, #4E6C39) | ag- maths by city | 3,884 | 1.2% vs maths-tuition-in-reading | how many record-breaking years should 173 years of Oxford weather contain? | probability of a record is 1/n, harmonic numbers, simulation by shuffling | (this commit) |
+| 585 | maths-tuition-in-oxford (oxm, #4E6C39) | ag- maths by city | 3,884 | 1.2% vs maths-tuition-in-reading | how many record-breaking years should 173 years of Oxford weather contain? | probability of a record is 1/n, harmonic numbers, simulation by shuffling | 1cdfe86c |
+| 586 | maths-tuition-in-cambridge (cbm, #8A1518) | ag- maths by city | 3,771 | 1.4% vs maths-tuition-in-milton-keynes | how much more do Cambridge workers cycle than England as a whole? | percentages of different bases, percentage points vs percentage change, percentages above 100% | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
