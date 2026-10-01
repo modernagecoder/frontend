@@ -273,6 +273,9 @@ const SLUGS = [
   'maths-tuition-in-coventry',
   'maths-tuition-in-slough',
   'maths-tuition-in-nottingham',
+  'maths-tuition-in-bristol',
+  'maths-tuition-in-luton',
+  'maths-tuition-in-liverpool',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -625,6 +628,9 @@ const LLMS_LABELS = {
   'maths-tuition-in-coventry': 'Maths tuition in Coventry',
   'maths-tuition-in-slough': 'Maths tuition in Slough',
   'maths-tuition-in-nottingham': 'Maths tuition in Nottingham',
+  'maths-tuition-in-bristol': 'Maths tuition in Bristol',
+  'maths-tuition-in-luton': 'Maths tuition in Luton',
+  'maths-tuition-in-liverpool': 'Maths tuition in Liverpool',
 };
 
 function wireLlms(slugs) {

@@ -792,3 +792,6 @@
 .ag-root.ag-mcv { --ag-accent: #7E5A1B; --ag-accent-soft: rgba(126,90,27,.09); }   /* Coventry maths: a muted ochre (6.24:1 contrast on white), chosen by hand and kept apart from the dark olive on our Coventry coding page */
 .ag-root.ag-msl { --ag-accent: #3C5A24; --ag-accent-soft: rgba(60,90,36,.09); }   /* Slough maths: a muted fern green, chosen by hand and kept clear of the deep indigo of our Slough coding page and the gold of our Slough 11 plus page */
 .ag-root.ag-mtn { --ag-accent: #245418; --ag-accent-soft: rgba(36,84,24,.09); }   /* Nottingham maths: a muted forest green, chosen by hand and kept clearly apart from the olive on our Nottingham coding page */
+.ag-root.ag-mbs { --ag-accent: #15631E; --ag-accent-soft: rgba(21,99,30,.09); }   /* Bristol maths: a muted harbourside green (7.41:1 contrast on white), chosen by hand and kept apart from the brown on our Bristol coding page */
+.ag-root.ag-lum { --ag-accent: #961B2D; --ag-accent-soft: rgba(150,27,45,.09); }   /* Luton maths: a muted crimson, chosen by hand and kept clear of the dusty mauve of our Luton coding page */
+.ag-root.ag-mtl { --ag-accent: #24337E; --ag-accent-soft: rgba(36,51,126,.09); }   /* Liverpool maths: a muted deep-water blue, chosen by hand and kept apart from the teal of our Liverpool coding page */
