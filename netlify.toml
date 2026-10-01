@@ -18403,6 +18403,18 @@
   to = "/src/pages/vibe-coding-and-ai-agents-classes-in-rhyl.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/maths-tuition-in-manchester"
+  to = "/src/pages/maths-tuition-in-manchester.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tuition-in-manchester.md"
+  to = "/src/pages/maths-tuition-in-manchester.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

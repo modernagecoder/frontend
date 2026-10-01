@@ -263,6 +263,7 @@ const SLUGS = [
   '11-plus-maths-tuition-calderdale',
   '11-plus-maths-tuition-hertfordshire',
   '11-plus-maths-tuition-wolverhampton-and-walsall',
+  'maths-tuition-in-manchester',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -605,6 +606,7 @@ const LLMS_LABELS = {
   '11-plus-maths-tuition-calderdale': '11 plus maths tuition in Calderdale',
   '11-plus-maths-tuition-hertfordshire': '11 plus maths tuition in Hertfordshire',
   '11-plus-maths-tuition-wolverhampton-and-walsall': '11 plus maths tuition in Wolverhampton and Walsall',
+  'maths-tuition-in-manchester': 'Maths tuition in Manchester',
 };
 
 function wireLlms(slugs) {

@@ -568,7 +568,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 455 | online-coding-and-python-classes-in-didsbury-manchester (dsb, #7A3A1F) | cg- town page | 2,786 | 2.5% vs online-coding-and-python-classes-in-edgbaston-birmingham | can well-spread points beat random ones? | quasi-Monte Carlo, Halton sequence, low-discrepancy sampling | da005341 |
 | 456 | ai-and-programming-classes-in-chorlton-manchester (crt, #8A1F5C) | cg- town page | 2,607 | 1.8% vs ai-and-programming-classes-in-lowestoft | is an AI that is 98% accurate actually good? | Cohen's kappa, chance-corrected agreement on imbalanced labels | a9cdec0f |
 | 457 | best-coding-and-ai-classes-in-withington-manchester (wth, #3F4F8A) | cg- town page | 2,727 | 2.1% vs best-coding-and-ai-classes-in-moseley-birmingham | why do data maps use hexagons, and does the grid change the map? | hexagonal binning vs square grid, bin placement sensitivity | 1a4ad723 |
-| 458 | vibe-coding-and-ai-agents-classes-in-wythenshawe-manchester (wys, #A03A2A) | cg- town page | 2,818 | 1.8% vs vibe-coding-and-ai-agents-classes-in-weymouth | can several rough rules label data as well as a person? | weak supervision, labelling functions, label model vs majority vote | (this commit) |
+| 458 | vibe-coding-and-ai-agents-classes-in-wythenshawe-manchester (wys, #A03A2A) | cg- town page | 2,818 | 1.8% vs vibe-coding-and-ai-agents-classes-in-weymouth | can several rough rules label data as well as a person? | weak supervision, labelling functions, label model vs majority vote | de22b044 |
+| 459 | online-coding-and-python-classes-in-headingley-leeds (hdl, #1F5F7A) | cg- town page | 2,784 | 2.2% vs best-coding-and-ai-classes-in-gosport | how do you process a file too big for memory? | Python generators, lazy evaluation, streaming | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
