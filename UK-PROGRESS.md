@@ -626,7 +626,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | 574 | maths-tuition-in-sheffield (msh, #275799) | ag- maths by city | 3,982 | 1.5% vs maths-tuition-in-coventry | where do the Supertram lines go from the Cathedral stop, by bearing and distance? | three-figure bearings, back bearings, cosine rule, sine rule ambiguous case, area half ab sin C | cf8f9f9d |
 | 575 | maths-tuition-in-liverpool (mtl, #24337E) | ag- maths by city | 4,125 | 1.3% vs maths-tuition-in-belfast | can one cosine curve predict the tide at Liverpool? | trigonometric functions as models, time arithmetic, rule of twelfths, refining a model from its errors | 5e837905 |
 | 576 | maths-tuition-in-nottingham (mtn, #245418) | ag- maths by city | 3,885 | 1.5% vs maths-tuition-in-milton-keynes | does sunshine make a Nottinghamshire month warmer? | scatter graphs, correlation vs causation, lines of fit, interpolation vs extrapolation, lurking variable, residuals | d056942d |
-| 577 | maths-tuition-in-glasgow (mtg, #66301E) | ag- maths by city | 3,855 | 1.8% vs maths-tuition-in-belfast | is the Glasgow Subway a circle? | equation of a circle (Higher), perpendicular bisectors and the circle through three points, arc length (N5), fitting and residuals | (this commit) |
+| 577 | maths-tuition-in-glasgow (mtg, #66301E) | ag- maths by city | 3,855 | 1.8% vs maths-tuition-in-belfast | is the Glasgow Subway a circle? | equation of a circle (Higher), perpendicular bisectors and the circle through three points, arc length (N5), fitting and residuals | d26e6008 |
+| 578 | maths-tuition-in-edinburgh (mte, #4E458D) | ag- maths by city | 3,732 | 1.6% vs maths-tuition-in-belfast | how steep is Arthur's Seat? | gradient as rise over run, average vs local rate of change (chords approaching a tangent), m = tan theta, trapezium rule, DEM resolution | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
