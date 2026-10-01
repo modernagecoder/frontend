@@ -265,6 +265,14 @@ const SLUGS = [
   '11-plus-maths-tuition-wolverhampton-and-walsall',
   'maths-tuition-in-manchester',
   'maths-tuition-in-birmingham',
+  'maths-tuition-in-milton-keynes',
+  'maths-tuition-in-london',
+  'maths-tuition-in-leicester',
+  'maths-tuition-in-reading',
+  'maths-tuition-in-cardiff',
+  'maths-tuition-in-coventry',
+  'maths-tuition-in-slough',
+  'maths-tuition-in-nottingham',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -609,6 +617,14 @@ const LLMS_LABELS = {
   '11-plus-maths-tuition-wolverhampton-and-walsall': '11 plus maths tuition in Wolverhampton and Walsall',
   'maths-tuition-in-manchester': 'Maths tuition in Manchester',
   'maths-tuition-in-birmingham': 'Maths tuition in Birmingham',
+  'maths-tuition-in-milton-keynes': 'Maths tuition in Milton Keynes',
+  'maths-tuition-in-london': 'Maths tuition in London',
+  'maths-tuition-in-leicester': 'Maths tuition in Leicester',
+  'maths-tuition-in-reading': 'Maths tuition in Reading',
+  'maths-tuition-in-cardiff': 'Maths tuition in Cardiff',
+  'maths-tuition-in-coventry': 'Maths tuition in Coventry',
+  'maths-tuition-in-slough': 'Maths tuition in Slough',
+  'maths-tuition-in-nottingham': 'Maths tuition in Nottingham',
 };
 
 function wireLlms(slugs) {
