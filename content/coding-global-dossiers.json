@@ -38105,5 +38105,53 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "online-coding-and-python-classes-in-colwyn-bay": {
+    "market": "Colwyn Bay",
+    "bodyClass": "cg-cwn",
+    "pageType": "city",
+    "curriculumAuthority": "Conwy (W06000003), Census 2021 TS001 usual residents 114,741. ONS 2021 BUA (published): Colwyn Bay 29,275. Curriculum for Wales, progression steps, WJEC GCSE and A level. postcodes.io suburban areas whose nearest postcode is in the Colwyn Bay BUA: Rhôs-on-Sea, Old Colwyn, Mochdre, Tan-y-Lan. LL28 and LL29 also include rural wards outside the town.",
+    "localProject": "OS Code-Point Open 2026.3.0, LL28 (448) and LL29 (618): 1,066 postcodes in Conwy. postcodes.io positions; OpenTopoData eudem25m heights: 1,064 values, 2 null (LL28 4EN, LL28 4PR). Filter nulls then zip with postcodes: 1,064 pairs; LL29 9YP and LL29 9YW dropped; 1,003 postcodes from the 62nd onwards given a neighbour's height, 991 a different number; errors where truth known: median 8.77 m, mean 23.28 m, max 221.3 m, 459 over 10 m. Highest by broken pairs LL29 6AW 306.2 m (true 158.3 m); true highest LL29 6BA 306.2 m. zip strict=True raises ValueError; dict join keeps the 2 nulls. Lesson family: zip() truncation, misalignment after filtering, strict=True, join by key.",
+    "requiredMentions": [
+      "29,275",
+      "Rhôs-on-Sea",
+      "Old Colwyn",
+      "Tan-y-Lan",
+      "LL29 6AW",
+      "LL28 4EN",
+      "strict=True",
+      "1,003",
+      "8.77"
+    ],
+    "sources": [
+      {
+        "claim": "Python documentation, built-in zip() including strict=True (added in Python 3.10).",
+        "url": "https://docs.python.org/3/library/functions.html#zip"
+      },
+      {
+        "claim": "PEP 618, Add optional length-checking to zip.",
+        "url": "https://peps.python.org/pep-0618/"
+      },
+      {
+        "claim": "Ordnance Survey Code-Point Open 2026.3.0 (contains Royal Mail and OS data, Open Government Licence).",
+        "url": "https://www.ordnancesurvey.co.uk/products/code-point-open"
+      },
+      {
+        "claim": "OpenTopoData, EU-DEM 25 m dataset (Copernicus Land Monitoring Service).",
+        "url": "https://www.opentopodata.org/datasets/eudem/"
+      },
+      {
+        "claim": "ONS Census 2021 TS001 via Nomis; ONS 2021 built-up area populations; postcodes.io lookups.",
+        "url": "https://api.postcodes.io/places?q=Old%20Colwyn"
+      }
+    ],
+    "rejectedClaims": [
+      "That the two missing heights are an error in OpenTopoData: the reason is our reading (shoreline points); stated as such.",
+      "That LL28 and LL29 equal the town: they also cover rural wards; the page says so.",
+      "Any flood or sea-level claim about Rhos or the shore: none made.",
+      "That Llysfaen, Bryn-y-Maen or Penrhyn Bay are part of the Colwyn Bay built-up area: they are not; left out.",
+      "Named schools and term dates: none named or read.",
+      "Sterling prices: none."
+    ]
   }
 }
