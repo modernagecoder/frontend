@@ -61,6 +61,13 @@ src="https://www.facebook.com/tr?id=${PIXEL_ID}&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->`;
 
+// Vite parses lovewall/index.html strictly and fails the whole build on an
+// <img> inside a <noscript> in <head> (it did, on 1 Oct 2026). /love is a
+// React app that shows nothing without JavaScript, so it gets the snippet
+// without the no-JS fallback.
+const NO_NOSCRIPT = new Set(['lovewall/index.html']);
+const SNIPPET_JS_ONLY = SNIPPET.replace(/<noscript>[\s\S]*?<\/noscript>\n/, '');
+
 // Everything that is published as a page (see _redirects).
 const DIRS = ['src/pages', 'content/blog/generated', 'content/courses/generated', 'content/resources/generated'];
 // Pages served from outside those dirs. lovewall/index.html is the Vite
@@ -96,14 +103,15 @@ for (const file of files) {
   report.pages++;
   const original = fs.readFileSync(file, 'utf8');
   let html = original;
+  const want = NO_NOSCRIPT.has(rel) ? SNIPPET_JS_ONLY : SNIPPET;
 
   if (CHECK) {
     const blocks = html.match(BLOCK) || [];
     const ids = [...html.matchAll(INIT)].map((m) => m[1]);
     const headEnd = html.search(/<\/head>/i);
     if (blocks.length !== 1) report.gaps.push(`${rel}: ${blocks.length} pixel blocks (want 1)`);
-    else if (blocks[0] !== SNIPPET) report.gaps.push(`${rel}: pixel block differs from the canonical snippet`);
-    else if (headEnd === -1 || html.indexOf(SNIPPET) > headEnd) report.gaps.push(`${rel}: pixel block is not inside <head>`);
+    else if (blocks[0] !== want) report.gaps.push(`${rel}: pixel block differs from the canonical snippet`);
+    else if (headEnd === -1 || html.indexOf(want) > headEnd) report.gaps.push(`${rel}: pixel block is not inside <head>`);
     if (ids.length !== 1 || ids[0] !== PIXEL_ID) report.gaps.push(`${rel}: fbq init ids [${ids.join(', ')}] (want exactly ${PIXEL_ID})`);
     continue;
   }
@@ -112,10 +120,10 @@ for (const file of files) {
   if (count) {
     // Keep the first block's position, drop any duplicates, make it canonical.
     let first = true;
-    html = html.replace(BLOCK, () => (first ? ((first = false), SNIPPET) : ''));
+    html = html.replace(BLOCK, () => (first ? ((first = false), want) : ''));
     if (html !== original) report.rewritten++;
   } else if (/<\/head>/i.test(html)) {
-    html = html.replace(/<\/head>/i, `${SNIPPET}\n</head>`);
+    html = html.replace(/<\/head>/i, `${want}\n</head>`);
     report.added++;
   } else {
     report.gaps.push(rel + ': no </head> to add the pixel to');
@@ -129,7 +137,8 @@ for (const file of files) {
 
 // The fallback script must fire the same pixel, and only when the head did not.
 const fallback = fs.readFileSync(path.join(ROOT, 'src/js/meta-pixel.js'), 'utf8');
-if (!fallback.includes(`'${PIXEL_ID}'`) || !/if \(window\.fbq\) return;/.test(fallback)) {
+// (Patterns allow for minify having already compacted the file.)
+if (!fallback.includes(PIXEL_ID) || !/if\s*\(\s*window\.fbq\s*\)\s*return\b|window\.fbq\s*\|\|/.test(fallback)) {
   report.gaps.push(`src/js/meta-pixel.js: must hold PIXEL_ID ${PIXEL_ID} and return early when window.fbq exists`);
 }
 
