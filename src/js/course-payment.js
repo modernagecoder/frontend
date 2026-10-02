@@ -184,8 +184,14 @@ const CoursePayment = {
     return isLocal ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
   },
 
-  // Initialize payment system
-  init: async function() {
+  // Initialize payment system. The promise is kept so a click that lands
+  // before courses-config.json has loaded waits for it instead of failing.
+  init: function() {
+    this._ready = this._load();
+    return this._ready;
+  },
+
+  _load: async function() {
     try {
       // Load config
       const response = await fetch('/content/courses/data/courses-config.json');
@@ -200,6 +206,8 @@ const CoursePayment = {
       console.log('✅ Course payment initialized for:', this.courseSlug);
     } catch (error) {
       console.error('❌ Failed to initialize course payment:', error);
+    } finally {
+      this._loadDone = true;
     }
   },
 
@@ -309,8 +317,15 @@ const CoursePayment = {
     console.log('✅ CoursePayment ready - waiting for EnrollmentModal to call showPaymentModal()');
   },
 
-  // Show payment modal
+  // The one enrolment popup: plan summary, three fields, pay. It opens
+  // straight from Enroll Now for Indian and international visitors alike
+  // (there is no WhatsApp step in between) and is styled in the editorial
+  // theme the course pages use.
   showPaymentModal: function(planType) {
+    if (!this.config && this._ready && !this._loadDone) {
+      this._ready.then(() => this.showPaymentModal(planType));
+      return;
+    }
     const pricing = this.getPricing(planType);
     if (!pricing) {
       alert('Pricing not available. Please contact us.');
@@ -335,75 +350,124 @@ const CoursePayment = {
     // charge US dollars is how a visitor gets billed ten times what they saw.
     // If the region's price cannot be resolved, the modal does not open.
     if (!isIndian && !intlP) {
-      alert('We could not load the pricing for your region. Please refresh the page and try again, or contact us on WhatsApp.');
+      alert('We could not load the pricing for your region. Please refresh the page and try again, or call +91 91233 66161.');
       return;
     }
 
     const displayPricing = isIndian ? pricing : intlP;
-    const currencySymbol = isIndian ? '₹' : '$';
     const phoneMaxLength = isIndian ? '10' : '15';
     const phonePlaceholder = isIndian ? '10-digit mobile number' : 'Phone number';
-    const phonePattern = isIndian ? '10-digit' : '7-15 digit';
+    // "₹1,499/month" -> "₹1,499" + "/month", so the figure can be set large.
+    const priceText = String(displayPricing.display || '');
+    const cut = priceText.indexOf('/');
+    const priceMain = cut > 0 ? priceText.slice(0, cut) : priceText;
+    const pricePer = cut > 0 ? priceText.slice(cut) : '';
+    // The schedule line and trust line are read off the page, so the popup
+    // repeats what the card the visitor clicked already said.
+    const card = (document.querySelector('.enroll-btn[data-plan-type="' + planType + '"]') || document.body).closest('.enrollment-option');
+    const planInfo = card && card.querySelector('.class-info') ? card.querySelector('.class-info').textContent.trim() : '';
+    const trustEl = document.querySelector('.enroll-trust');
+    const trust = trustEl ? trustEl.textContent.trim() : 'Monthly billing, cancel any time.';
+    const methods = isIndian ? 'UPI · Cards · Net banking · Wallets' : 'Debit and credit cards from any country';
+    const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const lock = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
 
-    // Create modal HTML
+    this.closeModal();
     const modalHtml = `
-      <div id="payment-modal" class="payment-modal-overlay">
-        <div class="payment-modal-content">
-          <button class="payment-modal-close" onclick="CoursePayment.closeModal()">&times;</button>
-          
-          <div class="payment-modal-header">
-            <h2>Complete Your Enrollment</h2>
-            <p>${this.courseName}</p>
+      <div id="payment-modal" class="payment-modal-overlay mac-pay-overlay" role="dialog" aria-modal="true" aria-labelledby="mac-pay-title">
+        <div class="mac-pay">
+          <button type="button" class="mac-pay-close" aria-label="Close">&times;</button>
+          <p class="mac-pay-eyebrow">Enrolment</p>
+          <h2 id="mac-pay-title" class="mac-pay-title">${esc(this.courseName)}</h2>
+
+          <div class="mac-pay-plan">
+            <div class="mac-pay-plan-main">
+              <span class="mac-pay-label">Your plan</span>
+              <strong class="mac-pay-plan-name">${esc(this.getPlanShortName(planType))}</strong>
+              ${planInfo ? `<span class="mac-pay-plan-info">${esc(planInfo)}</span>` : ''}
+            </div>
+            <div class="mac-pay-price"><b>${esc(priceMain)}</b><span>${esc(pricePer)}</span></div>
           </div>
-          
-          <div class="payment-modal-plan">
-            <span class="plan-name">${this.getPlanName(planType)}</span>
-            <span class="plan-price">${displayPricing.display}</span>
-          </div>
-          
-          <form id="payment-form" class="payment-form">
-            <div class="form-group">
-              <label for="pay-name">Full Name *</label>
-              <input type="text" id="pay-name" required placeholder="Enter your full name">
+
+          <form id="payment-form" class="mac-pay-form" novalidate>
+            <div class="mac-pay-field">
+              <label for="pay-name">Student or parent name</label>
+              <input type="text" id="pay-name" autocomplete="name" required placeholder="Full name">
             </div>
-            <div class="form-group">
-              <label for="pay-email">Email Address *</label>
-              <input type="email" id="pay-email" required placeholder="Enter your email">
+            <div class="mac-pay-field">
+              <label for="pay-email">Email</label>
+              <input type="email" id="pay-email" autocomplete="email" inputmode="email" required placeholder="you@example.com">
+              <small>Your receipt and class details are sent here.</small>
             </div>
-            <div class="form-group">
-              <label for="pay-phone">Phone Number *</label>
-              <input type="tel" id="pay-phone" required placeholder="${phonePlaceholder}" maxlength="${phoneMaxLength}">
+            <div class="mac-pay-field">
+              <label for="pay-phone">Phone</label>
+              <input type="tel" id="pay-phone" autocomplete="tel-national" required placeholder="${phonePlaceholder}" maxlength="${phoneMaxLength}">
             </div>
-            <button type="submit" class="payment-submit-btn">
-              Pay ${displayPricing.display}
-            </button>
+            <div class="mac-pay-err" role="alert" hidden></div>
+            <button type="submit" class="payment-submit-btn mac-pay-btn">${lock}<span>Pay ${esc(priceMain)} securely</span></button>
+            <p class="mac-pay-methods">${methods}</p>
           </form>
-          
-          <div class="payment-secure-note">
-            🔒 Secured by Razorpay
-          </div>
-          
-          <div class="whatsapp-help">
-            <p>Need help with payment?</p>
-            <a href="https://wa.me/919123366161?text=${encodeURIComponent('Hi! I need help with payment for ' + this.courseName + ' - ' + this.getPlanName(planType) + ' (' + displayPricing.display + ').')}" target="_blank" rel="noopener">
-              Chat with us on WhatsApp
-            </a>
+
+          <div class="mac-pay-foot">
+            <span class="mac-pay-secure">${lock} Secured by Razorpay</span>
+            <span>${esc(trust)}</span>
+            <span>Questions? Call <a href="tel:+919123366161">+91 91233 66161</a></span>
           </div>
         </div>
       </div>
     `;
-    
-    // Add modal to page
+
     document.body.insertAdjacentHTML('beforeend', modalHtml);
-    
-    // Add styles if not already added
     this.addModalStyles();
-    
-    // Setup form submission
+    document.body.classList.add('mac-pay-open');
+
+    const overlay = document.getElementById('payment-modal');
+    this._payButtonLabel = 'Pay ' + priceMain + ' securely';
+    overlay.querySelector('.mac-pay-close').addEventListener('click', () => this.closeModal());
+    // A tap on the dim backdrop closes it only before checkout has started,
+    // so a stray tap cannot throw away a payment in progress.
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay && !this._paying) this.closeModal();
+    });
+    this._onKey = (e) => { if (e.key === 'Escape' && !this._paying) this.closeModal(); };
+    document.addEventListener('keydown', this._onKey);
+    if (window.matchMedia && window.matchMedia('(pointer: fine)').matches) {
+      const first = document.getElementById('pay-name');
+      if (first) first.focus();
+    }
+
     document.getElementById('payment-form').addEventListener('submit', (e) => {
       e.preventDefault();
       this.processPayment(planType, pricing.amount);
     });
+  },
+
+  // Short plan name for the popup; getPlanName stays the longer form sent
+  // with the order.
+  getPlanShortName: function(planType) {
+    return { group: 'Group Classes', miniBatch: 'Mini Batch', personal: 'Personalized 1-on-1' }[planType] || 'Course Enrollment';
+  },
+
+  // Show an error inside the popup instead of a browser alert.
+  showError: function(message) {
+    const box = document.querySelector('#payment-modal .mac-pay-err');
+    if (!box) { alert(message); return; }
+    box.textContent = message;
+    box.hidden = false;
+  },
+
+  clearError: function() {
+    const box = document.querySelector('#payment-modal .mac-pay-err');
+    if (box) { box.hidden = true; box.textContent = ''; }
+  },
+
+  setPaying: function(paying, label) {
+    this._paying = paying;
+    const btn = document.querySelector('#payment-modal .mac-pay-btn');
+    if (!btn) return;
+    btn.disabled = paying;
+    const span = btn.querySelector('span');
+    if (span) span.textContent = label || this._payButtonLabel || 'Pay securely';
   },
 
   // Get plan display name
@@ -424,6 +488,12 @@ const CoursePayment = {
   closeModal: function() {
     const modal = document.getElementById('payment-modal');
     if (modal) modal.remove();
+    document.body.classList.remove('mac-pay-open');
+    if (this._onKey) {
+      document.removeEventListener('keydown', this._onKey);
+      this._onKey = null;
+    }
+    this._paying = false;
   },
 
   // Process payment
@@ -432,10 +502,15 @@ const CoursePayment = {
     const email = document.getElementById('pay-email').value.trim();
     const phoneEl = document.getElementById('pay-phone');
     const phone = phoneEl.value.trim();
+    this.clearError();
 
     // Validate
     if (!name || !email || !phone) {
-      alert('Please fill all fields');
+      this.showError('Please fill in the name, email and phone.');
+      return;
+    }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      this.showError('Please check the email address.');
       return;
     }
 
@@ -446,19 +521,16 @@ const CoursePayment = {
     // Validate phone against the chosen country.
     const isIndia = ccInfo.iso === 'IN';
     const phoneRegex = isIndia ? /^[0-9]{10}$/ : /^[0-9]{7,15}$/;
-    const phoneMsg = isIndia ? 'Please enter a valid 10-digit phone number' : 'Please enter a valid phone number (7-15 digits)';
+    const phoneMsg = isIndia ? 'Please enter a valid 10-digit mobile number.' : 'Please enter a valid phone number (7 to 15 digits).';
 
     if (!phoneRegex.test(phone.replace(/\D/g, ''))) {
-      alert(phoneMsg);
+      this.showError(phoneMsg);
       return;
     }
-    
+
     try {
-      // Show loading
-      const submitBtn = document.querySelector('.payment-submit-btn');
-      submitBtn.disabled = true;
-      submitBtn.textContent = 'Processing...';
-      
+      this.setPaying(true, 'Opening secure checkout…');
+
       // Determine currency and amount for international users.
       // Mini Batch has no USD price. It's India-only; foreign users are blocked earlier.
       // Prices come from getIntlPricing (context-aware, single source of truth).
@@ -467,9 +539,8 @@ const CoursePayment = {
       // (country-code selection). Without it, a null intl price would fall back
       // to the INR amount while currency says USD, a 90x overcharge.
       if (!isIndian && planType === 'miniBatch') {
-        alert('The Mini Batch plan is available only in India. Please choose Group Classes or Personalized 1-on-1.');
-        const sb = document.querySelector('.payment-submit-btn');
-        if (sb) { sb.disabled = false; sb.textContent = 'Try Again'; }
+        this.setPaying(false);
+        this.showError('The Mini Batch plan is available only in India. Please choose Group Classes or Personalized 1-on-1.');
         return;
       }
       var intlP = this.getIntlPricing(planType);
@@ -482,16 +553,14 @@ const CoursePayment = {
       // roughly 10x overcharge. If the price cannot be resolved, no order is
       // created.
       if (!isIndian && !intlP) {
-        alert('We could not load the pricing for your region. Please refresh the page and try again, or contact us on WhatsApp.');
-        const sb2 = document.querySelector('.payment-submit-btn');
-        if (sb2) { sb2.disabled = false; sb2.textContent = 'Try Again'; }
+        this.setPaying(false);
+        this.showError('We could not load the price for your region. Please refresh the page and try again.');
         return;
       }
 
       const finalAmount = isIndian ? amount : intlP.amount;
       const currency = isIndian ? 'INR' : 'USD';
-      const buttonPriceText = isIndian ? this.getPricing(planType).display : intlP.display;
-      
+
       // Create order
       const apiUrl = this.getApiUrl();
       const response = await fetch(`${apiUrl}/api/payment/create-order`, {
@@ -511,13 +580,13 @@ const CoursePayment = {
           customerCountryName: ccInfo.name
         })
       });
-      
+
       const data = await response.json();
 
       if (!data.success) {
         throw new Error(data.error || 'Failed to create order');
       }
-      
+
       // Open Razorpay checkout
       const options = {
         key: data.key,
@@ -527,39 +596,34 @@ const CoursePayment = {
         description: this.courseName,
         order_id: data.order.id,
         prefill: { name, email, contact: phone },
-        theme: { color: '#a855f7' },
+        theme: { color: '#B45309' },
         handler: async (response) => {
           await this.verifyPayment(response, data.order.orderId);
         },
         modal: {
           ondismiss: () => {
-            submitBtn.disabled = false;
-            submitBtn.textContent = `Pay ${buttonPriceText}`;
+            this.setPaying(false);
           }
         }
       };
-      
+
       const razorpay = new Razorpay(options);
       razorpay.on('payment.failed', (resp) => {
-        alert('Payment failed: ' + resp.error.description);
-        submitBtn.disabled = false;
-        submitBtn.textContent = `Pay ${buttonPriceText}`;
+        this.setPaying(false);
+        this.showError('The payment did not go through: ' + ((resp && resp.error && resp.error.description) || 'please try again') + '. No money has been taken; you can try again or use another method.');
       });
       razorpay.open();
-      
+
     } catch (error) {
       console.error('Payment error:', error);
-      alert('Payment failed: ' + error.message);
-      const submitBtn = document.querySelector('.payment-submit-btn');
-      if (submitBtn) {
-        submitBtn.disabled = false;
-        submitBtn.textContent = 'Try Again';
-      }
+      this.setPaying(false);
+      this.showError('We could not start the payment (' + error.message + '). Please try again, or call +91 91233 66161.');
     }
   },
 
   // Verify payment
   verifyPayment: async function(razorpayResponse, orderId) {
+    this.setPaying(true, 'Confirming your payment…');
     try {
       const apiUrl = this.getApiUrl();
       const response = await fetch(`${apiUrl}/api/payment/verify`, {
@@ -582,7 +646,11 @@ const CoursePayment = {
       }
     } catch (error) {
       console.error('Verification error:', error);
-      alert('Payment verification failed. Please contact support with your payment ID.');
+      // The money may well have been taken, so keep the popup open with the
+      // payment ID on screen rather than an alert that vanishes on OK.
+      this.setPaying(true, 'Payment received');
+      this.showError('We received your payment but could not confirm it automatically. Please call +91 91233 66161 with your payment ID: ' +
+        (razorpayResponse && razorpayResponse.razorpay_payment_id ? razorpayResponse.razorpay_payment_id : orderId) + '.');
     }
   },
 
@@ -626,94 +694,113 @@ const CoursePayment = {
     }
   },
 
-  // Show success message
+  // Show success message (fallback only; normally the page goes to /welcome)
   showSuccessMessage: function(payment) {
     const isIndian = window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : true;
     const currencySymbol = isIndian ? '₹' : '$';
     const successHtml = `
-      <div id="payment-success-modal" class="payment-modal-overlay">
-        <div class="payment-modal-content success">
-          <div class="success-icon">✓</div>
-          <h2>Payment Successful!</h2>
-          <p>Thank you for enrolling in ${this.courseName}</p>
-          <div class="payment-details">
-            <p><strong>Order ID:</strong> ${payment.orderId}</p>
-            <p><strong>Amount:</strong> ${currencySymbol}${payment.amount}</p>
+      <div id="payment-success-modal" class="payment-modal-overlay mac-pay-overlay" role="dialog" aria-modal="true">
+        <div class="mac-pay mac-pay-done">
+          <div class="mac-pay-tick" aria-hidden="true">✓</div>
+          <p class="mac-pay-eyebrow">Payment successful</p>
+          <h2 class="mac-pay-title">Welcome to ${this.courseName}</h2>
+          <div class="mac-pay-plan">
+            <div class="mac-pay-plan-main">
+              <span class="mac-pay-label">Order ID</span>
+              <strong class="mac-pay-plan-name">${payment.orderId}</strong>
+            </div>
+            <div class="mac-pay-price"><b>${currencySymbol}${payment.amount}</b></div>
           </div>
-          <p class="success-note">We have received your response. We will reach out to you within 48 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).</p>
-          <button onclick="document.getElementById('payment-success-modal').remove()" class="payment-submit-btn">Continue</button>
+          <p class="mac-pay-note">We have received your response. We will reach out to you within 48 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).</p>
+          <button type="button" class="mac-pay-btn" onclick="document.getElementById('payment-success-modal').remove();document.body.classList.remove('mac-pay-open')"><span>Continue</span></button>
         </div>
       </div>
     `;
+    this.addModalStyles();
     document.body.insertAdjacentHTML('beforeend', successHtml);
+    document.body.classList.add('mac-pay-open');
   },
 
-  // Add modal styles
+  // Popup styles, in the editorial theme the course pages use (paper, ink,
+  // amber, Fraunces/Inter). Each token has a literal fallback so the popup
+  // still looks right on a page that does not load editorial-theme.css.
   addModalStyles: function() {
     if (document.getElementById('payment-modal-styles')) return;
-    
+
     const styles = document.createElement('style');
     styles.id = 'payment-modal-styles';
     styles.textContent = `
-      .payment-modal-overlay {
-        position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-        background: rgba(0,0,0,0.8); backdrop-filter: blur(8px);
-        display: flex; align-items: center; justify-content: center;
-        z-index: 100000; animation: fadeIn 0.3s ease;
+      body.mac-pay-open{overflow:hidden}
+      body.mac-pay-open .misti-chat-btn,body.mac-pay-open .wa-float-btn{display:none!important}
+      .mac-pay-overlay{position:fixed;inset:0;z-index:2147483000;display:flex;align-items:center;justify-content:center;padding:16px;
+        background:rgba(28,24,20,.58);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);animation:macPayFade .2s ease both}
+      .mac-pay{--mp-ink:var(--ink,#1C1814);--mp-soft:var(--ink-soft,#3A332C);--mp-muted:var(--muted,#6B6259);--mp-line:var(--line,rgba(28,24,20,.12));
+        --mp-paper:var(--paper,#FBF8F2);--mp-paper2:var(--paper-2,#F3EEE5);--mp-amber:var(--amber,#B45309);--mp-amber-deep:var(--amber-deep,#8F3F08);
+        --mp-tint:var(--amber-tint,rgba(180,83,9,.08));--mp-display:var(--font-display,'Fraunces',Georgia,serif);
+        --mp-body:var(--font-body,'Inter',system-ui,-apple-system,'Segoe UI',sans-serif);--mp-mono:var(--font-mono,'JetBrains Mono',ui-monospace,Consolas,monospace);
+        position:relative;box-sizing:border-box;width:100%;max-width:460px;max-height:calc(100dvh - 32px);overflow-y:auto;
+        background:var(--surface,#fff);color:var(--mp-ink);border:1px solid var(--mp-line);border-radius:20px;
+        padding:30px 28px 22px;font-family:var(--mp-body);line-height:1.5;text-align:left;
+        box-shadow:0 30px 70px -30px rgba(28,24,20,.6);animation:macPayUp .28s cubic-bezier(.2,.8,.2,1) both}
+      .mac-pay *,.mac-pay *::before,.mac-pay *::after{box-sizing:border-box}
+      .mac-pay-close{position:absolute;top:14px;right:14px;width:36px;height:36px;display:flex;align-items:center;justify-content:center;
+        border:1px solid var(--mp-line);border-radius:50%;background:var(--mp-paper2);color:var(--mp-muted);font-size:22px;line-height:1;cursor:pointer;
+        font-family:var(--mp-body);transition:color .2s,border-color .2s}
+      .mac-pay-close:hover{color:var(--mp-ink);border-color:var(--mp-ink)}
+      .mac-pay-eyebrow{margin:0 0 6px;font-family:var(--mp-mono);font-size:11.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--mp-amber)}
+      .mac-pay-title{margin:0 44px 18px 0;font-family:var(--mp-display);font-weight:600;font-size:23px;line-height:1.2;letter-spacing:-.015em;
+        color:var(--mp-ink);-webkit-text-fill-color:var(--mp-ink);background:none;text-shadow:none;
+        display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+      .mac-pay-plan{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 16px;margin:0 0 20px;
+        background:var(--mp-tint);border:1px solid rgba(180,83,9,.22);border-left:3px solid var(--mp-amber);border-radius:12px}
+      .mac-pay-plan-main{display:flex;flex-direction:column;gap:2px;min-width:0}
+      .mac-pay-label{font-family:var(--mp-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--mp-muted)}
+      .mac-pay-plan-name{font-family:var(--mp-display);font-weight:600;font-size:17px;color:var(--mp-ink);word-break:break-word}
+      .mac-pay-plan-info{font-size:13px;color:var(--mp-muted);line-height:1.4}
+      .mac-pay-price{text-align:right;white-space:nowrap;flex-shrink:0}
+      .mac-pay-price b{display:block;font-family:var(--mp-display);font-weight:600;font-size:27px;line-height:1.05;color:var(--mp-amber-deep)}
+      .mac-pay-price span{font-size:12.5px;color:var(--mp-muted)}
+      .mac-pay-form{margin:0}
+      .mac-pay-field{margin:0 0 14px}
+      .mac-pay-field label{display:block;margin:0 0 6px;font-size:13.5px;font-weight:600;color:var(--mp-soft)}
+      .mac-pay-field input{width:100%;min-height:46px;padding:11px 13px;font:inherit;font-size:16px;color:var(--mp-ink);background:#fff;
+        border:1.5px solid rgba(28,24,20,.18);border-radius:10px;outline:none;transition:border-color .15s,box-shadow .15s;-webkit-appearance:none;appearance:none}
+      .mac-pay-field input::placeholder{color:#a39a90}
+      .mac-pay-field input:focus{border-color:var(--mp-amber);box-shadow:0 0 0 3px rgba(180,83,9,.16)}
+      .mac-pay-field small{display:block;margin-top:5px;font-size:12px;color:var(--mp-muted)}
+      .mac-pay-field .mac-cc-btn{color:var(--mp-ink);border:1.5px solid rgba(28,24,20,.18);border-right:0;border-radius:10px 0 0 10px;background:var(--mp-paper2)}
+      .mac-pay-field .mac-cc-btn:hover,.mac-pay-field .mac-cc-btn:focus-visible{background:var(--mp-tint)}
+      .mac-pay-err{margin:2px 0 14px;padding:10px 12px;border-radius:10px;font-size:13.5px;line-height:1.45;color:#8a2a22;background:#fdecea;border:1px solid rgba(176,71,60,.35)}
+      .mac-pay-err[hidden]{display:none}
+      .mac-pay-btn{display:flex;align-items:center;justify-content:center;gap:9px;width:100%;min-height:52px;padding:14px 18px;border:1px solid var(--mp-amber);border-radius:12px;
+        background:var(--mp-amber);color:#fff;font-family:var(--mp-body);font-size:16px;font-weight:700;cursor:pointer;
+        box-shadow:0 12px 26px -14px rgba(180,83,9,.85);transition:background .2s,transform .15s,box-shadow .2s}
+      .mac-pay-btn:hover{background:var(--mp-amber-deep);border-color:var(--mp-amber-deep);transform:translateY(-1px)}
+      .mac-pay-btn:disabled{opacity:.75;cursor:progress;transform:none}
+      .mac-pay-methods{margin:10px 0 0;text-align:center;font-family:var(--mp-mono);font-size:11.5px;letter-spacing:.04em;color:var(--mp-muted)}
+      .mac-pay-foot{display:flex;flex-direction:column;align-items:center;gap:4px;margin-top:18px;padding-top:14px;border-top:1px solid var(--mp-line);
+        text-align:center;font-size:12.5px;color:var(--mp-muted)}
+      .mac-pay-secure{display:inline-flex;align-items:center;gap:6px;font-weight:600;color:var(--mp-soft)}
+      .mac-pay-foot a{color:var(--mp-amber-deep);font-weight:600;text-decoration:none}
+      .mac-pay-foot a:hover{text-decoration:underline}
+      .mac-pay-done{text-align:center}
+      .mac-pay-done .mac-pay-title{margin-right:0}
+      .mac-pay-done .mac-pay-plan{text-align:left}
+      .mac-pay-tick{width:62px;height:62px;margin:0 auto 12px;display:flex;align-items:center;justify-content:center;border-radius:50%;
+        background:rgba(31,138,85,.1);color:var(--green,#1F8A55);font-size:30px;font-weight:700}
+      .mac-pay-note{margin:0 0 16px;font-size:14px;color:var(--mp-soft)}
+      @media (max-width:560px){
+        .mac-pay-overlay{padding:0;align-items:flex-end}
+        .mac-pay{max-width:none;max-height:94dvh;border-radius:20px 20px 0 0;border-bottom:0;padding:24px 18px calc(18px + env(safe-area-inset-bottom));animation:macPaySheet .3s cubic-bezier(.2,.8,.2,1) both}
+        .mac-pay-title{font-size:20px;margin-bottom:14px}
+        .mac-pay-plan{padding:13px 14px;margin-bottom:16px}
+        .mac-pay-price b{font-size:23px}
+        .mac-pay-field{margin-bottom:12px}
       }
-      .payment-modal-content {
-        background: linear-gradient(135deg, #10101c, #181828);
-        border: 1px solid rgba(255,255,255,0.1); border-radius: 1.5rem;
-        max-width: 450px; width: 90%; padding: 2rem;
-        box-shadow: 0 20px 60px rgba(0,0,0,0.5);
-        position: relative; animation: slideUp 0.4s ease;
-      }
-
-      .payment-modal-content.success { text-align: center; }
-      .payment-modal-close {
-        position: absolute; top: 1rem; right: 1rem;
-        width: 36px; height: 36px; border: none;
-        background: rgba(255,255,255,0.1); color: #fff;
-        font-size: 1.5rem; border-radius: 50%; cursor: pointer;
-      }
-      .payment-modal-close:hover { background: rgba(255,255,255,0.2); }
-      .payment-modal-header { text-align: center; margin-bottom: 1.5rem; }
-      .payment-modal-header h2 { color: #f8fafc; font-size: 1.5rem; margin-bottom: 0.5rem; }
-      .payment-modal-header p { color: #94a3b8; font-size: 0.95rem; }
-      .payment-modal-plan {
-        background: rgba(168,85,247,0.1); border: 1px solid rgba(168,85,247,0.3);
-        border-radius: 0.75rem; padding: 1rem; margin-bottom: 1.5rem;
-        display: flex; justify-content: space-between; align-items: center;
-      }
-      .plan-name { color: #cbd5e1; font-weight: 500; }
-      .plan-price { color: #a855f7; font-size: 1.25rem; font-weight: 700; }
-      .payment-form .form-group { margin-bottom: 1rem; }
-      .payment-form label { display: block; color: #94a3b8; margin-bottom: 0.5rem; font-size: 0.9rem; }
-      .payment-form input {
-        width: 100%; padding: 0.75rem 1rem; background: rgba(0,0,0,0.3);
-        border: 1px solid rgba(255,255,255,0.1); border-radius: 0.5rem;
-        color: #f8fafc; font-size: 1rem; box-sizing: border-box;
-      }
-      .payment-form input:focus { outline: none; border-color: #a855f7; }
-      .payment-submit-btn {
-        width: 100%; padding: 1rem; background: linear-gradient(135deg, #a855f7, #4ecdc4);
-        border: none; border-radius: 0.75rem; color: #fff;
-        font-size: 1.1rem; font-weight: 600; cursor: pointer;
-        transition: transform 0.2s, box-shadow 0.2s;
-      }
-      .payment-submit-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(168,85,247,0.4); }
-      .payment-submit-btn:disabled { opacity: 0.7; cursor: not-allowed; transform: none; }
-      .payment-secure-note { text-align: center; color: #64748b; font-size: 0.85rem; margin-top: 1rem; }
-      .success-icon {
-        width: 80px; height: 80px; background: #4CAF50; color: #fff;
-        border-radius: 50%; display: flex; align-items: center; justify-content: center;
-        font-size: 2.5rem; margin: 0 auto 1.5rem;
-      }
-      .payment-details { background: rgba(0,0,0,0.2); padding: 1rem; border-radius: 0.5rem; margin: 1rem 0; text-align: left; }
-      .payment-details p { color: #cbd5e1; margin: 0.5rem 0; }
-      .success-note { color: #94a3b8; font-size: 0.9rem; margin: 1rem 0; }
-      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-      @keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes macPayFade{from{opacity:0}to{opacity:1}}
+      @keyframes macPayUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+      @keyframes macPaySheet{from{transform:translateY(40px);opacity:.4}to{transform:none;opacity:1}}
+      @media (prefers-reduced-motion:reduce){.mac-pay-overlay,.mac-pay{animation:none}}
     `;
     document.head.appendChild(styles);
   }

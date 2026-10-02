@@ -257,7 +257,7 @@ function enrolSteps(courseData) {
     },
     {
       title: 'Enrol and pay the first month',
-      body: 'Press Enrol Now on your plan. Choose Pay online for secure Razorpay checkout (you fill in your name, email and phone), or WhatsApp enrolment to talk to our team first.',
+      body: 'Press Enrol Now on your plan, fill in the student\'s name, email and phone, and pay through secure Razorpay checkout: UPI, cards or net banking in India, and debit or credit card from any other country.',
     },
     {
       title: 'Fix your class timings',
