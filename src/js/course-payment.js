@@ -731,7 +731,7 @@ const CoursePayment = {
     styles.id = 'payment-modal-styles';
     styles.textContent = `
       body.mac-pay-open{overflow:hidden}
-      body.mac-pay-open .misti-chat-btn,body.mac-pay-open .wa-float-btn{display:none!important}
+      body.mac-pay-open .misti-chat-btn,body.mac-pay-open .wa-float-btn{visibility:hidden!important;opacity:0!important;pointer-events:none!important}
       .mac-pay-overlay{position:fixed;inset:0;z-index:2147483000;display:flex;align-items:center;justify-content:center;padding:16px;
         background:rgba(28,24,20,.58);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);animation:macPayFade .2s ease both}
       .mac-pay{--mp-ink:var(--ink,#1C1814);--mp-soft:var(--ink-soft,#3A332C);--mp-muted:var(--muted,#6B6259);--mp-line:var(--line,rgba(28,24,20,.12));
