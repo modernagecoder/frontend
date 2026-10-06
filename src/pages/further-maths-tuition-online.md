@@ -161,7 +161,7 @@ $100 / month
 - Same teaching approach, lower price
 - Good for classmates · cancel any time
 
-[See the full course](/courses/college-mathematics-complete-masterclass)
+[See the full course](/courses/a-level-further-maths-course)
 
 Need the main A-Level alongside? See our [**A-Level Maths Tuition →**](/a-level-maths-tuition-online) page.
 
@@ -247,7 +247,7 @@ Yes, evening and weekend slots in UK time, ramping up around exams.
 
 Tell us your board, your options and the topic that's lost you. We'll show you how we'd make it intuitive. And you decide from there. No card needed.
 
-[See the full course](/courses/college-mathematics-complete-masterclass)Keep exploring
+[See the full course](/courses/a-level-further-maths-course)Keep exploring
 
 ## More maths tuition from Modern Age Coders.
 

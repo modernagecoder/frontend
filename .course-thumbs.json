@@ -407,6 +407,10 @@
   "img": "/images/a-level-maths.webp",
   "alt": "A-Level Maths - Modern Age Coders course"
  },
+ "a-level-further-maths-course": {
+  "img": "/images/a-level-further-maths.webp",
+  "alt": "A-Level Further Maths - Modern Age Coders course"
+ },
  "statistics-probability-maths-course": {
   "img": "/images/statistics-probability-maths.webp",
   "alt": "Statistics and Probability - Modern Age Coders course"

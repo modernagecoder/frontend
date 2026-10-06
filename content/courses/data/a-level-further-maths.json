@@ -1,0 +1,811 @@
+{
+  "meta": {
+    "slug": "a-level-further-maths-course",
+    "date": "2026-10-07",
+    "title": "A Level Further Maths: Core Pure and Applied Options",
+    "description": "A Level Further Maths course online: live classes in Core Pure plus mechanics, statistics or decision options for AQA, Edexcel and OCR, ending in timed papers.",
+    "keywords": [
+      "a level further maths course",
+      "further maths tutor online",
+      "a level further maths tuition",
+      "edexcel further maths 9fm0 help",
+      "aqa further maths 7367 tutor",
+      "ocr further maths h245 help",
+      "ocr mei further maths h645",
+      "core pure maths tutor",
+      "further maths online uk"
+    ],
+    "category": "Exam Board Mathematics",
+    "taxonomy": "mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "18 months (72 weeks), taught alongside A Level Maths",
+    "level": "Year 12 and 13 students (or equivalent) taking Further Maths with AQA, Edexcel or OCR",
+    "commitment": "2 live classes/week + 3-4 hours practice, rising to full timed papers in the last two months",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "a-level-further-maths.webp",
+    "dateModified": "2026-10-07"
+  },
+  "program_overview": {
+    "title": "A Level Further Maths: Core Pure and Applied Options",
+    "tagline": "The second maths A level, taught as a subject of its own: complex numbers, matrices, proof and differential equations, then the applied options your board sets.",
+    "description": "Further Maths is a full A level that sits on top of A level Maths. The boards are clear about the relationship: OCR states that learners are assumed to know the content of GCSE Mathematics and A Level Mathematics, and Pearson Edexcel says the students who benefit most are likely to hold A level Maths. In practice most students take the two side by side across Years 12 and 13, and this course is timed to run alongside our A Level Maths course or your school's.\n\nEvery board splits Further Maths into a compulsory pure core and a set of options. Edexcel 9FM0 has two Core Pure papers plus two options chosen from Further Pure, Further Statistics, Further Mechanics and Decision Maths. AQA 7367 has two papers on compulsory content and a third paper on two of mechanics, statistics and discrete mathematics. OCR A H245 has Pure Core papers Y540 and Y541 plus two optional papers, and OCR MEI H645 has the Core Pure paper Y420 with a major option or a set of minor options. We teach the shared core to everyone and the options your school or exam centre has entered you for.\n\nThe first nine months cover the AS-standard core and the first applied option. Months 10 to 16 take the core to full A level depth, from de Moivre's theorem to second-order differential equations, and finish the options. The final two months are revision and past papers under real timing, matched to your board's paper structure and marked against official schemes. Classes are live and small, so the teacher reads your working as you write it.",
+    "what_makes_this_different": [
+      "Built from the boards' own specifications: Edexcel 9FM0, AQA 7367, OCR A H245 and OCR MEI H645, with your board's paper structure driving the practice phase",
+      "Sequenced to run alongside A Level Maths, so each Further Maths topic arrives after the A level Maths skill it leans on, not before",
+      "Proof treated as a skill in its own right: induction, contradiction and the writing of a complete argument are practised every month, not saved for one chapter",
+      "Options taught to your entry, whether that is mechanics, statistics, decision or discrete maths, or further pure, rather than a generic mixture",
+      "Calculator technique for matrices, complex numbers and distributions taught explicitly, alongside the work that must be done by hand",
+      "Two full months of past papers under real timing, marked against official mark schemes, with an error clinic after every paper"
+    ],
+    "learning_path": {
+      "phase_1": "Core Pure, first year: proof by induction, complex numbers and the Argand diagram, matrices and transformations, roots of polynomials, series and vectors in three dimensions",
+      "phase_2": "Applied option one: the first of your board's options, taught to AS depth, then an AS-standard mock across core and option",
+      "phase_3": "Core Pure, second year: de Moivre and complex roots, further calculus, Maclaurin series, polar coordinates, hyperbolic functions and differential equations",
+      "phase_4": "Applied option two and option depth: the second option, and both options taken to full A level standard",
+      "phase_5": "Revision and the past-paper cycle: structured revision by strand, then full papers under timing with marked review"
+    },
+    "career_outcomes": [
+      "The full Further Maths content for your board, with two months kept for revision and papers",
+      "Fluency with the question styles of your own board, built on official past papers and mark schemes",
+      "Proof-writing habits that hold up: induction, contradiction and clearly stated conclusions",
+      "A marked mock series and error log, so the weak spots are known before the exam season",
+      "A stronger base for university courses that lean on linear algebra, complex numbers and differential equations"
+    ]
+  },
+  "phase_1_core_pure_year_one": {
+    "title": "PHASE 1: Core Pure, First Year (Months 1-5, Weeks 1-20)",
+    "description": "The compulsory core every board examines, taught to AS depth. Each topic is introduced after the A level Maths skill it needs, and proof is practised from the first fortnight.",
+    "month_1_proof_and_series": {
+      "title": "Month 1: Proof and Series",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: Diagnostic and Proof by Induction",
+        "topics": [
+          "Diagnostic paper on the A level Maths algebra Further Maths assumes",
+          "The structure of a proof by induction: basis, assumption, inductive step, conclusion",
+          "Induction on sums of series",
+          "Induction on divisibility statements",
+          "Induction on matrix powers, previewed for month 3",
+          "Writing the conclusion so it would earn the final mark"
+        ],
+        "projects": [
+          "Proof portfolio opened: six induction proofs written to exam standard and checked line by line"
+        ],
+        "practice": "12 induction proofs of increasing difficulty, each with a written conclusion sentence"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Standard Series and the Method of Differences",
+        "topics": [
+          "Sigma notation and the standard results for r, r squared and r cubed",
+          "Combining standard results to sum new series",
+          "The method of differences and when it applies",
+          "Partial fractions used to set up a telescoping sum",
+          "Checking a summation formula by substitution and by induction",
+          "Common slips: index limits and the first term"
+        ],
+        "projects": [
+          "Question bank entry: 15 solved series questions, each checked by a second method"
+        ],
+        "practice": "20 series problems mixing standard results and the method of differences",
+        "assessment": "Month 1 test: a 45-minute paper on induction and series, marked with method marks"
+      }
+    },
+    "month_2_complex_numbers": {
+      "title": "Month 2: Complex Numbers",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Complex Arithmetic and the Argand Diagram",
+        "topics": [
+          "The imaginary unit and the algebra of complex numbers",
+          "Conjugates and division of complex numbers",
+          "Solving quadratics, cubics and quartics with complex roots",
+          "Representing complex numbers on an Argand diagram",
+          "Modulus and argument, and the modulus-argument form",
+          "Multiplying and dividing in modulus-argument form"
+        ],
+        "projects": [
+          "Complex number reference sheet built by the student, with one worked example per rule"
+        ],
+        "practice": "25 complex arithmetic and equation problems, roots shown on an Argand diagram"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Loci and Regions",
+        "topics": [
+          "Loci of the form |z - a| = r as circles",
+          "Perpendicular bisectors from |z - a| = |z - b|",
+          "Half-lines from arg(z - a) = theta",
+          "Shading regions defined by inequalities",
+          "Finding greatest and least values of |z| on a locus",
+          "Sketching accurately enough to read answers from the diagram"
+        ],
+        "projects": [
+          "Locus atlas: eight annotated sketches of standard loci and combined regions"
+        ],
+        "practice": "16 locus and region questions, each with a labelled sketch",
+        "assessment": "Month 2 test: a 45-minute paper on complex numbers"
+      }
+    },
+    "month_3_matrices": {
+      "title": "Month 3: Matrices",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Matrix Algebra and Transformations",
+        "topics": [
+          "Matrix addition and multiplication, and why order matters",
+          "The identity and zero matrices",
+          "2 by 2 matrices as transformations of the plane",
+          "Rotations, reflections, enlargements and stretches",
+          "Composite transformations and the product of their matrices",
+          "Invariant points and invariant lines"
+        ],
+        "projects": [
+          "Transformation catalogue: each standard 2 by 2 matrix with its effect drawn on the unit square"
+        ],
+        "practice": "20 problems on matrix products and transformations, with diagrams"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Determinants, Inverses and Linear Systems",
+        "topics": [
+          "Determinants of 2 by 2 and 3 by 3 matrices",
+          "The determinant as an area or volume scale factor",
+          "Inverse matrices and singular matrices",
+          "Solving systems of three linear equations with matrices",
+          "Geometric meaning of a system: three planes and how they can meet",
+          "Calculator checking for 3 by 3 work, and what must still be shown"
+        ],
+        "projects": [
+          "Three-planes casebook: every arrangement of three planes, with a system that produces it"
+        ],
+        "practice": "18 problems on determinants, inverses and linear systems",
+        "assessment": "Month 3 test: a 45-minute paper on matrices"
+      }
+    },
+    "month_4_roots_and_polynomials": {
+      "title": "Month 4: Roots of Polynomials and Rational Functions",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Roots of Polynomials",
+        "topics": [
+          "Relationships between roots and coefficients for quadratics, cubics and quartics",
+          "Symmetric functions of roots",
+          "Forming a new equation whose roots are related to the original roots",
+          "Substitution as a shortcut for transformed roots",
+          "Complex roots of real polynomials and conjugate pairs",
+          "Checking answers by reconstructing the polynomial"
+        ],
+        "projects": [
+          "Question bank entry: 12 roots questions solved two ways, by sums of roots and by substitution"
+        ],
+        "practice": "20 problems on roots and coefficients"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Curve Sketching and Inequalities",
+        "topics": [
+          "Rational functions and their asymptotes",
+          "Sketching graphs of rational functions",
+          "Solving inequalities involving rational expressions",
+          "Graphs of y = |f(x)| and related transformations",
+          "Conic sections in the forms your board specifies",
+          "Using a sketch to check an algebraic answer"
+        ],
+        "projects": [
+          "Graph file: ten sketches with asymptotes, intercepts and turning points labelled"
+        ],
+        "practice": "16 sketching and inequality problems",
+        "assessment": "Month 4 test: a 45-minute paper on roots and curves"
+      }
+    },
+    "month_5_vectors_and_volumes": {
+      "title": "Month 5: Vectors and First Further Calculus",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Lines and Planes in Three Dimensions",
+        "topics": [
+          "Vector and Cartesian equations of a line in three dimensions",
+          "The scalar product and the angle between lines",
+          "Equations of a plane in vector and Cartesian form",
+          "Angles between a line and a plane, and between two planes",
+          "Intersections of lines and planes",
+          "Shortest distances from a point to a line and to a plane"
+        ],
+        "projects": [
+          "3D geometry sheet: every distance and angle method on one page with a worked example"
+        ],
+        "practice": "18 problems on lines and planes"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Volumes of Revolution and Mean Values",
+        "topics": [
+          "Volumes of revolution about the x-axis and the y-axis",
+          "Volumes from parametric curves where your board includes them",
+          "Mean value of a function over an interval",
+          "Choosing the right integral from a description in words",
+          "Modelling a real solid with a volume of revolution",
+          "Accuracy and units in modelling answers"
+        ],
+        "projects": [
+          "Modelling task: the volume of a real container estimated by a volume of revolution and compared with its label"
+        ],
+        "practice": "14 volume and mean value problems",
+        "assessment": "Month 5 test: a 50-minute paper on vectors and first further calculus"
+      }
+    }
+  },
+  "phase_2_applied_option_one": {
+    "title": "PHASE 2: Applied Option One (Months 6-9, Weeks 21-36)",
+    "description": "The first of the options your board and centre have chosen. The topics below show the mechanics route; statistics, decision or discrete students follow the same timetable with their own option content.",
+    "month_6_momentum_and_impulse": {
+      "title": "Month 6: Momentum and Impulse",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Momentum, Impulse and Collisions",
+        "topics": [
+          "Momentum and impulse in one dimension",
+          "Conservation of momentum",
+          "Newton's law of restitution and the coefficient of restitution",
+          "Direct collisions between two particles",
+          "Collisions with a fixed wall",
+          "Loss of kinetic energy in a collision"
+        ],
+        "projects": [
+          "Collision file: worked solutions for every collision type, with a diagram for each"
+        ],
+        "practice": "18 momentum and restitution problems"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Successive Collisions and Impulse in Two Dimensions",
+        "topics": [
+          "Three-particle and successive collisions",
+          "Deciding whether a further collision happens",
+          "Impulse as a vector in two dimensions",
+          "Oblique impacts with a smooth surface where your board includes them",
+          "Setting up equations from a clear diagram",
+          "Statistics route equivalent: discrete random variables, expectation and variance"
+        ],
+        "projects": [
+          "Question bank entry: 10 multi-stage collision problems with the decision points marked"
+        ],
+        "practice": "14 multi-stage problems under 10-minute timing each",
+        "assessment": "Month 6 test: a 45-minute option paper"
+      }
+    },
+    "month_7_work_energy_power": {
+      "title": "Month 7: Work, Energy and Power",
+      "weeks": "Weeks 25-28",
+      "week_25_26": {
+        "title": "Weeks 25-26: Work, Energy and Power",
+        "topics": [
+          "Work done by a constant force",
+          "Kinetic and gravitational potential energy",
+          "The work-energy principle",
+          "Power, and driving force for a vehicle",
+          "Problems on slopes with resistance",
+          "Statistics route equivalent: the Poisson distribution and when it models a count"
+        ],
+        "projects": [
+          "Energy method sheet: when to use energy and when to use Newton's second law"
+        ],
+        "practice": "18 work, energy and power problems"
+      },
+      "week_27_28": {
+        "title": "Weeks 27-28: Elastic Strings and Springs",
+        "topics": [
+          "Hooke's law for strings and springs",
+          "Elastic potential energy",
+          "Energy problems with elastic strings",
+          "Finding extensions and maximum speeds",
+          "Combining elastic energy with gravity",
+          "Decision route equivalent: algorithms, sorting and the order of an algorithm"
+        ],
+        "projects": [
+          "Modelling task: a bungee jump modelled with energy methods and its assumptions criticised"
+        ],
+        "practice": "14 elastic energy problems",
+        "assessment": "Month 7 test: a 45-minute option paper"
+      }
+    },
+    "month_8_circular_motion": {
+      "title": "Month 8: Circular Motion and Dimensional Analysis",
+      "weeks": "Weeks 29-32",
+      "week_29_30": {
+        "title": "Weeks 29-30: Horizontal and Vertical Circular Motion",
+        "topics": [
+          "Angular speed and acceleration towards the centre",
+          "Horizontal circles: conical pendulums and banked tracks",
+          "Vertical circles and energy",
+          "Conditions for completing a vertical circle",
+          "Particles leaving a circular surface",
+          "Statistics route equivalent: chi-squared tests for goodness of fit and contingency tables"
+        ],
+        "projects": [
+          "Circular motion casebook: six standard set-ups with force diagrams"
+        ],
+        "practice": "16 circular motion problems"
+      },
+      "week_31_32": {
+        "title": "Weeks 31-32: Dimensional Analysis and Modelling",
+        "topics": [
+          "Dimensions of physical quantities",
+          "Checking a formula by its dimensions",
+          "Finding an unknown formula by dimensional analysis",
+          "Criticising and refining a mechanics model",
+          "Writing assumptions the way mark schemes expect",
+          "Decision route equivalent: graphs, networks and minimum spanning trees"
+        ],
+        "projects": [
+          "Model critique: one real situation modelled three ways, with the assumptions compared"
+        ],
+        "practice": "12 dimensional analysis and modelling questions",
+        "assessment": "Month 8 test: a 45-minute option paper"
+      }
+    },
+    "month_9_as_checkpoint": {
+      "title": "Month 9: AS Checkpoint",
+      "weeks": "Weeks 33-36",
+      "week_33_34": {
+        "title": "Weeks 33-34: Consolidation of Core and Option",
+        "topics": [
+          "Mixed core problems that do not announce their topic",
+          "Proof rehearsal: induction proofs rewritten from memory",
+          "Option problems mixed across months 6 to 8",
+          "Reading a long question and planning before writing",
+          "Error log review with the teacher",
+          "Targeted re-teach of the two weakest topics per student"
+        ],
+        "projects": [
+          "Revision sheet set one: student-made single pages for every core topic so far"
+        ],
+        "practice": "Two 40-minute mixed papers, one core and one option"
+      },
+      "week_35_36": {
+        "title": "Weeks 35-36: AS-Standard Mock",
+        "topics": [
+          "An AS-standard mock across Core Pure and the first option",
+          "Marking against an official-style scheme",
+          "Classifying every lost mark: knowledge, method, accuracy or reading",
+          "Planning the second year from the mock results",
+          "Students who sit the AS as a standalone qualification prepare for it here",
+          "Summer bridging tasks set for the move to second-year content"
+        ],
+        "projects": [
+          "The mock file: marked script, error classification and a written plan"
+        ],
+        "practice": "Mock review set: every lost mark reworked to full credit",
+        "assessment": "AS-standard mock, marked and reviewed one to one"
+      }
+    }
+  },
+  "phase_3_core_pure_year_two": {
+    "title": "PHASE 3: Core Pure, Second Year (Months 10-14, Weeks 37-56)",
+    "description": "The A level half of the core, where the subject becomes recognisably university mathematics: de Moivre, further calculus, polar curves, hyperbolic functions and differential equations.",
+    "month_10_further_complex": {
+      "title": "Month 10: Further Complex Numbers",
+      "weeks": "Weeks 37-40",
+      "week_37_38": {
+        "title": "Weeks 37-38: Exponential Form and de Moivre's Theorem",
+        "topics": [
+          "The exponential form of a complex number",
+          "De Moivre's theorem and its proof by induction",
+          "Expressing cos n theta and sin n theta in powers",
+          "Powers of sines and cosines in terms of multiple angles",
+          "Sums of series using complex numbers",
+          "Choosing between Cartesian, modulus-argument and exponential form"
+        ],
+        "projects": [
+          "Proof portfolio entry: de Moivre's theorem proved by induction for positive integers"
+        ],
+        "practice": "18 problems on exponential form and de Moivre's theorem"
+      },
+      "week_39_40": {
+        "title": "Weeks 39-40: Roots of Unity and Complex Roots",
+        "topics": [
+          "The nth roots of unity and their symmetry",
+          "The nth roots of any complex number",
+          "Roots shown as regular polygons on the Argand diagram",
+          "Geometric problems solved with complex roots",
+          "Further loci and transformations where your board includes them",
+          "Exam-style questions that chain several complex number techniques"
+        ],
+        "projects": [
+          "Roots of unity poster: the roots for n = 3 to 8 drawn and their sums explained"
+        ],
+        "practice": "16 roots problems",
+        "assessment": "Month 10 test: a 50-minute paper on complex numbers"
+      }
+    },
+    "month_11_further_calculus": {
+      "title": "Month 11: Further Calculus and Series",
+      "weeks": "Weeks 41-44",
+      "week_41_42": {
+        "title": "Weeks 41-42: Improper Integrals and Inverse Trigonometric Functions",
+        "topics": [
+          "Improper integrals and whether they converge",
+          "Derivatives of inverse trigonometric functions",
+          "Integrals that lead to inverse sine and inverse tangent",
+          "Partial fractions with quadratic factors",
+          "Choosing an integration method from the form of the integrand",
+          "Accuracy in exact answers"
+        ],
+        "projects": [
+          "Calculus method map extended: every further integral form routed to its technique"
+        ],
+        "practice": "20 further integration problems"
+      },
+      "week_43_44": {
+        "title": "Weeks 43-44: Maclaurin Series",
+        "topics": [
+          "Maclaurin series from repeated differentiation",
+          "Standard series for exponential, sine, cosine and log functions",
+          "Combining and composing known series",
+          "Range of validity of a series",
+          "Using series to approximate and to find limits",
+          "Checking a series against a calculator value"
+        ],
+        "projects": [
+          "Series table: standard Maclaurin series with validity ranges and one application each"
+        ],
+        "practice": "16 Maclaurin series problems",
+        "assessment": "Month 11 test: a 50-minute paper on further calculus"
+      }
+    },
+    "month_12_polar_and_hyperbolic": {
+      "title": "Month 12: Polar Coordinates and Hyperbolic Functions",
+      "weeks": "Weeks 45-48",
+      "week_45_46": {
+        "title": "Weeks 45-46: Polar Coordinates",
+        "topics": [
+          "Polar coordinates and converting to and from Cartesian form",
+          "Sketching polar curves such as cardioids and spirals",
+          "Areas enclosed by polar curves",
+          "Areas between two polar curves",
+          "Tangents parallel and perpendicular to the initial line",
+          "Reading symmetry from a polar equation"
+        ],
+        "projects": [
+          "Polar curve gallery: eight curves sketched by hand and checked against software"
+        ],
+        "practice": "16 polar coordinate problems"
+      },
+      "week_47_48": {
+        "title": "Weeks 47-48: Hyperbolic Functions",
+        "topics": [
+          "Definitions of sinh, cosh and tanh in terms of exponentials",
+          "Hyperbolic identities and Osborn's rule",
+          "Inverse hyperbolic functions in logarithmic form",
+          "Differentiating and integrating hyperbolic functions",
+          "Integrals that lead to inverse hyperbolic functions",
+          "Solving equations involving hyperbolic functions"
+        ],
+        "projects": [
+          "Hyperbolic reference sheet: definitions, identities, derivatives and integrals on one page"
+        ],
+        "practice": "18 hyperbolic function problems",
+        "assessment": "Month 12 test: a 50-minute paper on polar and hyperbolic work"
+      }
+    },
+    "month_13_differential_equations": {
+      "title": "Month 13: Differential Equations",
+      "weeks": "Weeks 49-52",
+      "week_49_50": {
+        "title": "Weeks 49-50: First and Second Order Differential Equations",
+        "topics": [
+          "First-order linear equations with an integrating factor",
+          "Second-order linear equations with constant coefficients",
+          "The auxiliary equation: real, repeated and complex roots",
+          "Particular integrals for common right-hand sides",
+          "General and particular solutions from boundary conditions",
+          "Checking a solution by substituting it back"
+        ],
+        "projects": [
+          "Question bank entry: one solved example for every case of the auxiliary equation"
+        ],
+        "practice": "18 differential equation problems"
+      },
+      "week_51_52": {
+        "title": "Weeks 51-52: Modelling with Differential Equations",
+        "topics": [
+          "Simple harmonic motion as a second-order equation",
+          "Damped and forced oscillations",
+          "Coupled first-order systems",
+          "Interpreting a solution in the context of the model",
+          "Criticising the assumptions of a differential equation model",
+          "Long questions that combine setting up, solving and interpreting"
+        ],
+        "projects": [
+          "Modelling task: a damped oscillation modelled, solved and compared with measured data"
+        ],
+        "practice": "12 modelling questions with full written interpretation",
+        "assessment": "Month 13 test: a 50-minute paper on differential equations"
+      }
+    },
+    "month_14_core_consolidation": {
+      "title": "Month 14: Core Pure Consolidation",
+      "weeks": "Weeks 53-56",
+      "week_53_54": {
+        "title": "Weeks 53-54: Mixed Core Pure Problems",
+        "topics": [
+          "Long questions that cross complex numbers, matrices and calculus",
+          "Proof by induction across series, divisibility, matrices and derivatives",
+          "Further vectors where your board extends them",
+          "Numerical methods where your board includes them",
+          "Choosing the efficient method under time pressure",
+          "Error log review and targeted re-teach"
+        ],
+        "projects": [
+          "Revision sheet set two: single pages for every second-year core topic"
+        ],
+        "practice": "Two 60-minute mixed Core Pure papers"
+      },
+      "week_55_56": {
+        "title": "Weeks 55-56: Core Pure Mock",
+        "topics": [
+          "A full Core Pure paper under timing for your board",
+          "Marking against an official-style scheme",
+          "Classifying every lost mark",
+          "Rewriting proofs that lost marks to full credit",
+          "Comparing performance with the AS-standard mock",
+          "Setting priorities for the final months"
+        ],
+        "projects": [
+          "The mock file updated with the Core Pure mock and a written plan"
+        ],
+        "practice": "Mock review set: every lost mark reworked",
+        "assessment": "Core Pure mock, marked and reviewed one to one"
+      }
+    }
+  },
+  "phase_4_applied_option_two": {
+    "title": "PHASE 4: Applied Option Two and Option Depth (Months 15-16, Weeks 57-64)",
+    "description": "The second option, taught at the depth your board sets, and the first option extended to full A level standard. Students on a further pure route take their extra pure option here.",
+    "month_15_second_option": {
+      "title": "Month 15: Second Option",
+      "weeks": "Weeks 57-60",
+      "week_57_58": {
+        "title": "Weeks 57-58: Second Option Foundations",
+        "topics": [
+          "Statistics route: discrete and continuous random variables, and the geometric distribution",
+          "Mechanics route: further work on collisions and energy at A level depth",
+          "Decision route: route inspection, travelling salesperson bounds and linear programming",
+          "Further pure route: further vectors, number theory or groups where your board sets them",
+          "Calculator technique for the option",
+          "Reading option questions carefully: what the context is really asking"
+        ],
+        "projects": [
+          "Option reference sheet: every method in the second option on one page"
+        ],
+        "practice": "20 problems on the second option"
+      },
+      "week_59_60": {
+        "title": "Weeks 59-60: Second Option Applications",
+        "topics": [
+          "Statistics route: hypothesis tests for the Poisson and geometric distributions",
+          "Mechanics route: centres of mass of laminas and solids",
+          "Decision route: critical path analysis and network flows",
+          "Further pure route: further calculus and proof extensions",
+          "Long option questions under timing",
+          "Writing conclusions in context"
+        ],
+        "projects": [
+          "Question bank entry: 12 long option questions with model conclusions"
+        ],
+        "practice": "16 option problems under timing",
+        "assessment": "Month 15 test: a 60-minute option paper"
+      }
+    },
+    "month_16_option_depth": {
+      "title": "Month 16: Both Options at Full Depth",
+      "weeks": "Weeks 61-64",
+      "week_61_62": {
+        "title": "Weeks 61-62: First Option to A Level Depth",
+        "topics": [
+          "The first option's A level content beyond the AS checkpoint",
+          "Mixed problems drawing on both options",
+          "Modelling assumptions and their criticism",
+          "Exam technique for multi-part option questions",
+          "Error log review",
+          "Targeted re-teach of the weakest option topics"
+        ],
+        "projects": [
+          "Revision sheet set three: single pages for every option topic"
+        ],
+        "practice": "Two 45-minute option papers, one per option"
+      },
+      "week_63_64": {
+        "title": "Weeks 63-64: Options Mock",
+        "topics": [
+          "A full options paper under timing for your board",
+          "Marking against an official-style scheme",
+          "Classifying every lost mark",
+          "Comparing option performance with core performance",
+          "Planning the final revision cycle",
+          "Agreeing the past-paper timetable"
+        ],
+        "projects": [
+          "The mock file completed with the options mock"
+        ],
+        "practice": "Mock review set: every lost mark reworked",
+        "assessment": "Options mock, marked and reviewed one to one"
+      }
+    }
+  },
+  "phase_5_revision_and_past_papers": {
+    "title": "PHASE 5: Revision and the Past-Paper Cycle (Months 17-18, Weeks 65-72)",
+    "description": "No new content. Structured revision by strand, then full past papers under real timing for your board, marked against official schemes.",
+    "month_17_structured_revision": {
+      "title": "Month 17: Structured Revision",
+      "weeks": "Weeks 65-68",
+      "week_65_66": {
+        "title": "Weeks 65-66: Core Pure Revision by Strand",
+        "topics": [
+          "Rapid re-teach of each student's weakest core topics, chosen from the error log",
+          "Mixed core sets that do not announce their topic",
+          "Formula booklet fluency: what is given and what must be known",
+          "Proof rehearsal from memory",
+          "Accuracy audit: the slips each student makes, named and drilled",
+          "Show-that questions worked backwards honestly"
+        ],
+        "projects": [
+          "Final revision pack: the student's revision sheets combined and tidied"
+        ],
+        "practice": "One 75-mark core paper self-timed, plus a drill on two weak strands"
+      },
+      "week_67_68": {
+        "title": "Weeks 67-68: Option Revision by Strand",
+        "topics": [
+          "Rapid re-teach of the weakest option topics",
+          "Mixed option sets under timing",
+          "Model assumptions and conclusions rehearsed",
+          "Calculator checks for the option",
+          "Long questions planned before writing",
+          "Error log closed out topic by topic"
+        ],
+        "projects": [
+          "Option revision pack completed"
+        ],
+        "practice": "One full option paper self-timed",
+        "assessment": "Revision checkpoint: a mixed 60-minute paper across core and options"
+      }
+    },
+    "month_18_past_papers": {
+      "title": "Month 18: Past Papers Under Timing",
+      "weeks": "Weeks 69-72",
+      "week_69_70": {
+        "title": "Weeks 69-70: Full Past Papers, Core",
+        "topics": [
+          "Full Core Pure past papers for your board under real timing",
+          "Marking against the official mark scheme",
+          "Error clinic after every paper",
+          "Time management across long questions",
+          "Which questions to attempt first",
+          "Checking strategies in the final minutes"
+        ],
+        "projects": [
+          "Past paper score chart started"
+        ],
+        "practice": "Two full core papers under exam timing"
+      },
+      "week_71_72": {
+        "title": "Weeks 71-72: Full Past Papers, Options and Final Review",
+        "topics": [
+          "Full option past papers for your board under real timing",
+          "Marking and error clinic",
+          "Final review of the error log",
+          "Exam-day routine and equipment",
+          "Last proof rehearsal",
+          "A calm plan for the final weeks before the exams"
+        ],
+        "projects": [
+          "Completed mock file: every marked paper, error classification and score chart"
+        ],
+        "practice": "Two full option papers under exam timing",
+        "assessment": "Final past paper series, marked and reviewed"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A proof portfolio: every induction proof type and de Moivre's theorem written to exam standard",
+      "A personal question bank: solved exam-style questions for every core and option topic",
+      "A locus atlas and a polar curve gallery, sketched by hand",
+      "A calculus method map covering every further integral form",
+      "Three modelling tasks: a container volume, a bungee jump and a damped oscillation",
+      "A personal error log kept from the first month and used to steer revision",
+      "An AS-standard mock, a Core Pure mock and an options mock, all marked",
+      "The completed mock file with a past-paper score chart"
+    ],
+    "total_projects_built": "A complete revision system for Further Maths: proof portfolio, question bank, sketches, method map, error log and marked mock file",
+    "skills_mastered": [
+      "The full Further Maths content for your board: Core Pure and two options",
+      "Proof by induction and the writing of complete mathematical arguments",
+      "Complex numbers, matrices and vectors used as tools, not just topics",
+      "Further calculus, Maclaurin series, polar coordinates and hyperbolic functions",
+      "Setting up, solving and interpreting differential equation models",
+      "Timed paper craft and self-marking against official schemes"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week; paper-phase sittings run longer for full timed papers",
+      "practice": "3-4 hours weekly of problem sets, proofs and question-bank building, rising with timed papers in the final months",
+      "review": "Homework marked with method-mark commentary; error logs reviewed with the teacher monthly"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, alongside the student's marked mock series"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with worked solutions for stuck problems",
+      "progress_updates": "Monthly progress notes to parents with test scores and the error-log summary"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "Studying A level Maths at the same time, or already holding it. A strong GCSE Maths grade, which we suggest is 7 or above, makes the first months far smoother. The week 1 diagnostic finds gaps and we close them inside the course",
+    "exam_board": "AQA 7367, Edexcel 9FM0, OCR A H245 or OCR MEI H645. The core is shared; we teach the options your school or exam centre enters you for",
+    "equipment": "A calculator that handles matrices, complex numbers and statistical distributions, notebooks, and a device with stable internet for live classes",
+    "timing": "Best started at the beginning of Year 12 alongside A level Maths; later joiners get a catch-up plan after the diagnostic"
+  },
+  "who_is_this_for": {
+    "year_12_starters": "Students starting Further Maths alongside A level Maths who want both taught in a sensible order",
+    "schools_without_further_maths": "Students whose school or college does not teach Further Maths, who need the whole course taught and will sit the exams at an exam centre",
+    "students_needing_more_support": "Students whose school offers Further Maths in a small, rushed or part-timetabled class and who want steady teaching beside it",
+    "international_students": "Students taking British A levels abroad, at international schools or as private candidates, who need live teaching across time zones",
+    "returning_adults": "Adults who took A level Maths earlier and want the second maths A level for study or for its own sake"
+  },
+  "career_paths_after_completion": [
+    "University courses that lean heavily on mathematics, such as mathematics, physics, engineering, computer science and economics; entry requirements differ by course, so check each one directly",
+    "A head start on first-year university topics that Further Maths introduces, including matrices, complex numbers and differential equations",
+    "Our statistics and programming courses, which put the applied mathematics to work"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate backed by a marked mock file that shows the real grade trajectory.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Monthly tests, an AS-standard mock at month 9, Core Pure and options mocks, and a full marked past-paper cycle."
+  },
+  "faqs": [
+    {
+      "question": "Is Further Maths harder than A level Maths?",
+      "answer": "It goes further rather than simply faster. The boards assume you already know A level Maths: OCR's specification says learners are assumed to know the content of GCSE Mathematics and A Level Mathematics. Further Maths then adds topics that feel new to most students, such as complex numbers, matrices, proof by induction, polar coordinates and differential equations. Many students find the step up is in abstraction and in writing complete arguments, which is why we practise proof every month."
+    },
+    {
+      "question": "Can I take Further Maths online?",
+      "answer": "You can be taught Further Maths online, and this course covers the full content live with a teacher. The exams themselves are sat in person, either at your school or college or at an exam centre that accepts private candidates. We teach the course; your school or exam centre makes the exam entry."
+    },
+    {
+      "question": "Do I need Further Maths for a maths degree?",
+      "answer": "It depends on the university and the course. Some mathematics courses require Further Maths, some prefer it and some do not ask for it. Check the current entry requirements on the page of each course you are interested in. We teach the subject; we do not give admissions advice."
+    },
+    {
+      "question": "Which exam boards do you cover?",
+      "answer": "AQA 7367, Edexcel 9FM0, OCR A H245 and OCR MEI H645. All four have a compulsory pure core and a choice of applied or further pure options. Edexcel has two Core Pure papers and two option papers. AQA has two papers on compulsory content and a third on two optional applications. OCR A has Pure Core papers Y540 and Y541 and two optional papers. OCR MEI has the Core Pure paper Y420 plus a major option or minor options. We teach the core to everyone and your entered options in detail."
+    },
+    {
+      "question": "Can I study Further Maths without A level Maths?",
+      "answer": "Not sensibly on its own. Pearson Edexcel lists no formal prior learning requirement, but says the students who benefit most are likely to hold A level Maths, and OCR assumes its content throughout. Most students take the two together across Years 12 and 13. If you are not yet studying A level Maths, our A Level Maths course runs alongside this one."
+    },
+    {
+      "question": "Which options do you teach: mechanics, statistics or decision?",
+      "answer": "All of them, matched to your board: further mechanics, further statistics, decision or discrete mathematics, and further pure options. Tell us which options your school or exam centre has chosen and those are the ones we teach in depth. If the choice has not been made yet, the first lessons include a conversation about which route suits you."
+    },
+    {
+      "question": "My school does not offer Further Maths. Can I still do it?",
+      "answer": "Yes. This course teaches the whole qualification, and you can sit the exams as a private candidate at an exam centre that accepts private candidates. You arrange the entry with the centre; we make sure the teaching covers every paper on your board's specification."
+    },
+    {
+      "question": "When should I start?",
+      "answer": "The beginning of Year 12, alongside A level Maths, is the natural point, because Further Maths topics are timed to follow the A level Maths skills they need. Students who join later take a diagnostic in the first week and get a catch-up plan."
+    },
+    {
+      "question": "How are the classes run?",
+      "answer": "Live online classes with a real teacher, either in a small group of 5 to 10 students at a similar level or one to one. Homework is marked with method-mark comments, and there is WhatsApp support between classes. Current fees for your region are shown in the pricing section of this page."
+    },
+    {
+      "question": "Can I try a lesson before enrolling?",
+      "answer": "Yes. Book a free demo class first. The teacher works through some Further Maths with you, finds where you are, and suggests whether group or one-to-one teaching fits better. There is no obligation to enrol."
+    }
+  ]
+}
