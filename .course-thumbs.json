@@ -351,6 +351,10 @@
   "img": "/images/gcse-maths.webp",
   "alt": "GCSE Mathematics Mastery - Modern Age Coders course"
  },
+ "functional-skills-maths-course": {
+  "img": "/images/functional-skills-maths.webp",
+  "alt": "Functional Skills Maths - Modern Age Coders course"
+ },
  "roblox-game-coding-for-kids-lua-course": {
   "img": "/images/roblox-coding-kids.webp",
   "alt": "Roblox Game Coding for Kids - Modern Age Coders course"

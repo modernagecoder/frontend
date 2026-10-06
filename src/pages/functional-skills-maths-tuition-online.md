@@ -161,7 +161,7 @@ $100 / month
 - Same teaching approach, lower price
 - A friendly option · cancel any time
 
-[See the full course](/courses/complete-business-finance-mathematics-mastery)
+[See the Functional Skills Maths course](/courses/functional-skills-maths-course)
 
 Considering a GCSE resit instead? See our [**maths classes for adults →**](/online-maths-classes-for-adults-in-uk) to compare.
 
@@ -247,7 +247,7 @@ Often a few months of steady work for Level 2, depending on your starting level.
 
 Tell us the level you need and your deadline. We'll assess where you are calmly and map the path to your pass. No card needed, no pressure.
 
-[See the full course](/courses/complete-business-finance-mathematics-mastery)Keep exploring
+[See the Functional Skills Maths course](/courses/functional-skills-maths-course)Keep exploring
 
 ## More maths tuition from Modern Age Coders.
 
