@@ -4133,6 +4133,21 @@
   status = 301
 
 [[redirects]]
+  from = "/gcse-maths-tutor-cost-uk"
+  to = "/src/pages/gcse-maths-tutor-cost-uk.html"
+  status = 200
+
+[[redirects]]
+  from = "/gcse-maths-tutor-cost-uk.html"
+  to = "/gcse-maths-tutor-cost-uk"
+  status = 301
+
+[[redirects]]
+  from = "/gcse-maths-tutor-cost-uk.md"
+  to = "/src/pages/gcse-maths-tutor-cost-uk.md"
+  status = 200
+
+[[redirects]]
   from = "/a-level-maths-tuition-online"
   to = "/src/pages/a-level-maths-tuition-online.html"
   status = 200
