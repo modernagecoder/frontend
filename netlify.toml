@@ -4158,6 +4158,21 @@
   status = 200
 
 [[redirects]]
+  from = "/gcse-maths-resit-explained"
+  to = "/src/pages/gcse-maths-resit-explained.html"
+  status = 200
+
+[[redirects]]
+  from = "/gcse-maths-resit-explained.html"
+  to = "/gcse-maths-resit-explained"
+  status = 301
+
+[[redirects]]
+  from = "/gcse-maths-resit-explained.md"
+  to = "/src/pages/gcse-maths-resit-explained.md"
+  status = 200
+
+[[redirects]]
   from = "/functional-skills-maths-vs-gcse-maths"
   to = "/src/pages/functional-skills-maths-vs-gcse-maths.html"
   status = 200
