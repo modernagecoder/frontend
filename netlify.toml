@@ -4158,6 +4158,21 @@
   status = 200
 
 [[redirects]]
+  from = "/ks2-sats-maths-papers-explained"
+  to = "/src/pages/ks2-sats-maths-papers-explained.html"
+  status = 200
+
+[[redirects]]
+  from = "/ks2-sats-maths-papers-explained.html"
+  to = "/ks2-sats-maths-papers-explained"
+  status = 301
+
+[[redirects]]
+  from = "/ks2-sats-maths-papers-explained.md"
+  to = "/src/pages/ks2-sats-maths-papers-explained.md"
+  status = 200
+
+[[redirects]]
   from = "/year-4-multiplication-tables-check-explained"
   to = "/src/pages/year-4-multiplication-tables-check-explained.html"
   status = 200
