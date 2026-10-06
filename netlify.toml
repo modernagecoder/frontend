@@ -4158,6 +4158,21 @@
   status = 200
 
 [[redirects]]
+  from = "/gcse-maths-grades-explained"
+  to = "/src/pages/gcse-maths-grades-explained.html"
+  status = 200
+
+[[redirects]]
+  from = "/gcse-maths-grades-explained.html"
+  to = "/gcse-maths-grades-explained"
+  status = 301
+
+[[redirects]]
+  from = "/gcse-maths-grades-explained.md"
+  to = "/src/pages/gcse-maths-grades-explained.md"
+  status = 200
+
+[[redirects]]
   from = "/aqa-vs-edexcel-vs-ocr-gcse-maths"
   to = "/src/pages/aqa-vs-edexcel-vs-ocr-gcse-maths.html"
   status = 200
