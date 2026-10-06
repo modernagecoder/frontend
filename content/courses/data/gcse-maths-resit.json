@@ -1,0 +1,383 @@
+{
+  "meta": {
+    "slug": "gcse-maths-resit-course",
+    "date": "2026-10-07",
+    "title": "GCSE Maths Resit Course Online: Post-16 and Adults",
+    "description": "GCSE maths resit course online for post-16 learners and adults: a diagnostic, targeted repair of the topics that cost marks, then full papers for the November or summer series.",
+    "keywords": [
+      "gcse maths resit course",
+      "gcse maths resit online",
+      "gcse maths resit tutor",
+      "gcse maths resit for adults",
+      "november gcse maths resit",
+      "resit gcse maths grade 4",
+      "foundation gcse maths resit",
+      "gcse maths retake online uk"
+    ],
+    "category": "UK Exam Board Mathematics",
+    "taxonomy": "mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks) for a summer entry; a shorter plan for the November series",
+    "level": "Learners aged 16 and over, and adults, resitting GCSE Maths with AQA, Edexcel or OCR",
+    "commitment": "2 live classes/week + 3 hours of practice, fitted around college or work",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "gcse-maths-resit.webp",
+    "dateModified": "2026-10-07"
+  },
+  "program_overview": {
+    "title": "GCSE Maths Resit Course Online: Post-16 and Adults",
+    "tagline": "Not the whole GCSE again from page one: a diagnostic finds the marks you are losing, we repair those topics, then we practise full papers until the exam feels familiar.",
+    "description": "A resit is a different job from a first attempt. You have already seen most of the content, and the marks you missed usually cluster in a handful of topics and a few habits: rushing, not showing working, misreading what a question asks. This course starts with a diagnostic paper, maps exactly where the marks went, and spends the teaching time there.\n\nGCSE Maths is a linear qualification. AQA's specification, for example, has three papers of 1 hour 30 minutes and 80 marks each, the first without a calculator, and two tiers: Foundation, graded 1 to 5, and Higher, graded 4 to 9. All three papers are taken at the same tier in the same series. AQA offers November entries only to students who were at least 16 on the previous 31 August, which is why the November series is the resit series.\n\nFor 16 to 18 year olds on a study programme, the government's condition of funding guidance sets out who must keep studying maths: students without a grade 4 continue, and full-time students with a grade 3 must study towards GCSE. We work alongside your college, or with you directly as an adult entering through an exam centre. Classes are live and small, and every paper you sit with us is marked against the published mark scheme so you can see the trend, not just hope for it.",
+    "what_makes_this_different": [
+      "Starts with a diagnostic paper and a topic-by-topic map of lost marks, so the teaching time goes where the marks are",
+      "Built around the boards' own specifications: AQA 8300, Edexcel 1MA1 and OCR J560, all three papers at your tier",
+      "Non-calculator paper habits rebuilt from the first fortnight",
+      "A November plan for learners close to the grade they need and a summer plan for those who need more time",
+      "Evening and weekend classes for adults and learners at college during the day",
+      "Every practice paper marked against the published mark scheme, with an error clinic afterwards"
+    ],
+    "learning_path": {
+      "phase_1": "Diagnostic and number: a full diagnostic paper, the lost-marks map, then number, fractions, percentages and the non-calculator paper",
+      "phase_2": "Algebra and ratio: expressions, equations, graphs, ratio, proportion and rates of change",
+      "phase_3": "Geometry, probability and statistics: angles, area and volume, Pythagoras and trigonometry, probability and data",
+      "phase_4": "Papers: full sets of three papers at your tier under real timing, marked, reviewed and repaired"
+    },
+    "career_outcomes": [
+      "A clear map of which topics were costing marks, and those topics re-taught",
+      "Secure non-calculator methods and confident calculator use",
+      "Full papers practised at your tier under real timing",
+      "A marked paper tracker showing progress across the course",
+      "A route on to jobs, apprenticeships and courses that ask for GCSE Maths; check each one's exact requirement"
+    ]
+  },
+  "phase_1_diagnostic_and_number": {
+    "title": "PHASE 1: Diagnostic and Number (Months 1-2, Weeks 1-8)",
+    "description": "Find the lost marks first, then repair number, the strand that runs through every paper and dominates the non-calculator paper.",
+    "month_1_diagnostic": {
+      "title": "Month 1: Diagnostic and the Lost-Marks Map",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: The Diagnostic Paper",
+        "topics": [
+          "A full past-style paper at your tier, sat under timing",
+          "Marking against the official-style scheme together",
+          "Sorting every lost mark: knowledge, method, accuracy or reading",
+          "Building the lost-marks map topic by topic",
+          "Choosing the tier with you and your college if it is still open",
+          "Setting a realistic plan for November or summer"
+        ],
+        "projects": [
+          "Lost-marks map: every topic coloured by how many marks it cost"
+        ],
+        "practice": "Short daily sets on the three topics that cost the most marks"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Number Without a Calculator",
+        "topics": [
+          "Written methods for the four operations, decimals included",
+          "Order of operations and negative numbers",
+          "Factors, multiples, primes and prime factorisation",
+          "Estimation and rounding to check answers",
+          "Powers, roots and, at Higher, index laws and standard form",
+          "Setting out working so method marks are earned"
+        ],
+        "projects": [
+          "Non-calculator method sheet: one worked example of every written method"
+        ],
+        "practice": "20 non-calculator questions a week",
+        "assessment": "Month 1 check: a 40-minute non-calculator section"
+      }
+    },
+    "month_2_fractions_percentages": {
+      "title": "Month 2: Fractions, Decimals and Percentages",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Fractions and Decimals",
+        "topics": [
+          "The four operations with fractions and mixed numbers",
+          "Converting between fractions, decimals and percentages",
+          "Fractions of amounts in context",
+          "Recurring decimals as fractions at Higher",
+          "Bounds and error intervals",
+          "Common slips and how to catch them"
+        ],
+        "projects": [
+          "Repair log: each fraction slip from the diagnostic re-done correctly"
+        ],
+        "practice": "15 fraction and decimal questions a week, half without a calculator"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Percentages and Money",
+        "topics": [
+          "Percentages of amounts and percentage change",
+          "Reverse percentages",
+          "Simple and compound interest, growth and depreciation",
+          "Value-for-money comparisons set out clearly",
+          "Multipliers as the quick calculator method",
+          "Writing a conclusion that answers the question"
+        ],
+        "projects": [
+          "Money problem set: interest, discounts and comparisons solved two ways"
+        ],
+        "practice": "12 percentage problems a week",
+        "assessment": "Month 2 check: a 45-minute number paper with calculator and non-calculator parts"
+      }
+    }
+  },
+  "phase_2_algebra_and_ratio": {
+    "title": "PHASE 2: Algebra and Ratio (Months 3-4, Weeks 9-16)",
+    "description": "The strands where resit learners most often lose marks they could win: forming and solving equations, reading graphs, and ratio in context.",
+    "month_3_algebra": {
+      "title": "Month 3: Expressions, Equations and Graphs",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Expressions and Equations",
+        "topics": [
+          "Simplifying, expanding and factorising",
+          "Substituting into formulae",
+          "Solving linear equations, including unknowns on both sides",
+          "Forming an equation from words",
+          "Inequalities on a number line",
+          "At Higher: quadratics by factorising and the formula, and simultaneous equations"
+        ],
+        "projects": [
+          "Equation bank: one solved example of each equation type, with a check by substitution"
+        ],
+        "practice": "15 algebra questions a week"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Sequences and Graphs",
+        "topics": [
+          "Linear sequences and the nth term",
+          "Plotting and reading straight-line graphs",
+          "Gradient and y = mx + c",
+          "Real-life graphs: distance-time and conversion graphs",
+          "Quadratic graphs and reading roots",
+          "At Higher: graph transformations and equations of circles"
+        ],
+        "projects": [
+          "Graph file: six graph types drawn and annotated"
+        ],
+        "practice": "12 sequence and graph questions a week",
+        "assessment": "Month 3 check: a 45-minute algebra paper"
+      }
+    },
+    "month_4_ratio_proportion": {
+      "title": "Month 4: Ratio, Proportion and Rates",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Ratio and Proportion",
+        "topics": [
+          "Simplifying ratios and sharing in a ratio",
+          "Ratio problems from recipes, maps and mixtures",
+          "Direct and inverse proportion",
+          "Scale factors and similar shapes",
+          "Unit conversions",
+          "At Higher: proportion equations"
+        ],
+        "projects": [
+          "Ratio problem set: five real contexts solved with a bar model and then algebra"
+        ],
+        "practice": "12 ratio and proportion questions a week"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Rates and Compound Measures",
+        "topics": [
+          "Speed, distance and time",
+          "Density and pressure",
+          "Rates of pay and comparing value",
+          "Interpreting rates from graphs",
+          "Multi-step problems that mix ratio and percentages",
+          "Planning a long question before writing"
+        ],
+        "projects": [
+          "Repair log updated: ratio and rate errors from the diagnostic re-done"
+        ],
+        "practice": "10 multi-step problems a week",
+        "assessment": "Month 4 check: a full 1 hour 30 minute calculator paper, marked"
+      }
+    }
+  },
+  "phase_3_geometry_probability_statistics": {
+    "title": "PHASE 3: Geometry, Probability and Statistics (Month 5, Weeks 17-20)",
+    "description": "Shape, space and data, taught to the depth your tier needs and practised in exam-style questions.",
+    "month_5_geometry_and_data": {
+      "title": "Month 5: Geometry, Probability and Statistics",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Geometry and Measures",
+        "topics": [
+          "Angle facts, parallel lines and polygons",
+          "Perimeter, area and volume, including circles and cylinders",
+          "Pythagoras' theorem",
+          "Right-angled trigonometry",
+          "Transformations and constructions",
+          "At Higher: sine and cosine rules, circle theorems and vectors"
+        ],
+        "projects": [
+          "Geometry sheet: every formula and angle fact with a worked example"
+        ],
+        "practice": "15 geometry questions a week"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Probability and Statistics",
+        "topics": [
+          "Probability scales, outcomes and relative frequency",
+          "Tree diagrams and Venn diagrams",
+          "Averages and range from lists and tables",
+          "Charts, scatter graphs and correlation",
+          "Spotting misleading statistics",
+          "At Higher: cumulative frequency, box plots and histograms"
+        ],
+        "projects": [
+          "Data question bank: one solved example of every chart and average type"
+        ],
+        "practice": "12 probability and statistics questions a week",
+        "assessment": "Month 5 check: a full mixed paper at your tier, marked"
+      }
+    }
+  },
+  "phase_4_papers": {
+    "title": "PHASE 4: Full Papers (Month 6, Weeks 21-24)",
+    "description": "No new content. Full sets of three papers at your tier under real timing, marked against published mark schemes, with repair lessons between papers.",
+    "month_6_paper_sets": {
+      "title": "Month 6: Paper Sets and Repair",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Full Sets Under Timing",
+        "topics": [
+          "A full set: non-calculator paper then two calculator papers",
+          "Marking against the published mark scheme",
+          "Updating the lost-marks map",
+          "Repair lessons on the two weakest topics",
+          "Time management: which questions to do first",
+          "Checking in the last ten minutes"
+        ],
+        "projects": [
+          "Paper tracker: every paper's score on one chart"
+        ],
+        "practice": "One full paper every few days, alternating calculator and non-calculator"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Final Set and Exam Readiness",
+        "topics": [
+          "A final full set under real timing",
+          "Review of every lost mark",
+          "Formulae sheet use where your board provides one",
+          "Equipment check and calculator settings",
+          "A calm plan for the days before the exam",
+          "What to do on results day, whatever happens"
+        ],
+        "projects": [
+          "Completed paper tracker and lost-marks map, kept for revision"
+        ],
+        "practice": "Short targeted sets from the lost-marks map",
+        "assessment": "Final paper set, marked and reviewed one to one"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A lost-marks map from the diagnostic, updated after every paper",
+      "A non-calculator method sheet",
+      "A repair log of every diagnostic error re-done correctly",
+      "An equation bank, a graph file and a geometry sheet",
+      "A data question bank",
+      "A paper tracker across the whole course"
+    ],
+    "total_projects_built": "A personal resit kit: lost-marks map, method sheets, repair log and a marked paper tracker",
+    "skills_mastered": [
+      "Number and the non-calculator paper",
+      "Fractions, decimals, percentages and money",
+      "Algebra, sequences and graphs at your tier",
+      "Ratio, proportion and rates of change",
+      "Geometry, probability and statistics",
+      "Paper technique: timing, showing working and checking"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, with evening and weekend options",
+      "practice": "About 3 hours a week of targeted practice from the lost-marks map",
+      "review": "Practice marked with comments; papers marked against published mark schemes"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp support between classes, with worked solutions for stuck questions",
+      "progress_updates": "A monthly progress note with paper scores and the updated lost-marks map"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "You have taken GCSE Maths before, or followed the course at school. The diagnostic paper shows exactly where to start",
+    "exam_entry": "Learners at college are entered by their college. Adults enter through an exam centre that accepts private candidates; you arrange the entry and we teach to your board and tier",
+    "equipment": "A scientific calculator, ruler, protractor, compasses, and a device with stable internet for live classes",
+    "timing": "For the November series, start as early in the autumn term as possible. For the summer series, start any time from September to January"
+  },
+  "who_is_this_for": {
+    "college_students": "16 to 18 year olds at college or sixth form who need to keep working towards GCSE Maths",
+    "adults": "Adults who need GCSE Maths for a job, training course or university application",
+    "near_miss_learners": "Learners who missed the grade they needed by a few marks and want a focused plan for November",
+    "anxious_learners": "Learners who know more than their result shows but lose marks under pressure",
+    "international_candidates": "Candidates sitting UK GCSE Maths as private candidates from abroad"
+  },
+  "career_paths_after_completion": [
+    "Jobs, apprenticeships, training and university courses that ask for GCSE Maths; check each one's exact grade requirement",
+    "Our A Level Maths course for learners who discover they enjoy it",
+    "Our Functional Skills Maths course as an alternative level 2 route where it is accepted"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 learners, with mini-batch (3 to 4 learners) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured plan built from your board's specification and your own diagnostic.",
+    "doubt_support": "Doubt support between classes over WhatsApp.",
+    "certificate": "A course-completion certificate and a personal resit kit you keep.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "A diagnostic paper, monthly checks and full paper sets marked against published mark schemes."
+  },
+  "faqs": [
+    {
+      "question": "When can I resit GCSE Maths?",
+      "answer": "There are November and summer series. AQA, for example, offers GCSE Mathematics every May/June and November, and November entries are only available to students who were at least 16 on the previous 31 August. Check your board and exam centre for the exact dates."
+    },
+    {
+      "question": "Do I have to resit GCSE Maths if I got a grade 3?",
+      "answer": "If you are 16 to 18 on a full-time study programme in England, the government's condition of funding guidance says students with a grade 3 must study towards GCSE Maths. Students with grade 2 or below can work towards Functional Skills Level 2 or a GCSE. Adults are not bound by these rules and can choose."
+    },
+    {
+      "question": "Should I sit the November resit or wait for the summer?",
+      "answer": "November suits learners who were close to the grade they need and can study steadily through the autumn. The government's guidance asks colleges to consider readiness, including attendance, engagement and progress, before entering students with a low grade 3 or below. Our diagnostic paper helps you and your college decide."
+    },
+    {
+      "question": "Foundation or Higher tier for a resit?",
+      "answer": "Foundation is graded 1 to 5 and Higher 4 to 9. Many resit learners aiming for a 4 or 5 sit Foundation, and learners aiming higher sit Higher. Your diagnostic score and the grade you need decide it, together with your college or exam centre."
+    },
+    {
+      "question": "Can adults resit GCSE Maths online?",
+      "answer": "The teaching can be fully online. The exams are sat in person at an exam centre that accepts private candidates, which makes your entry. We teach to your board and tier and practise its paper style."
+    },
+    {
+      "question": "Which exam boards do you cover?",
+      "answer": "AQA 8300, Edexcel 1MA1 and OCR J560. All three have Foundation and Higher tiers and three papers, one of them without a calculator."
+    },
+    {
+      "question": "Is the whole GCSE taught again?",
+      "answer": "No. The diagnostic paper shows which topics are costing marks, and the course spends most of its time there, with full papers throughout. Topics you already handle well get a quick check rather than a re-teach."
+    },
+    {
+      "question": "Can I do Functional Skills instead of a GCSE resit?",
+      "answer": "Sometimes. Some employers and courses accept Functional Skills Maths Level 2 and some ask for GCSE. For 16 to 18 year olds, the condition of funding rules link the choice to your GCSE grade. We run both courses, and the free demo can help you decide."
+    },
+    {
+      "question": "How are the classes run?",
+      "answer": "Live online classes with a real teacher, in a small group of 5 to 10 learners at a similar level or one to one, with evening and weekend options. Current fees for your region are shown in the pricing section of this page."
+    },
+    {
+      "question": "Can I try a lesson first?",
+      "answer": "Yes. Book a free demo class. The teacher works through a few GCSE questions with you, sees where the marks are going, and suggests a November or summer plan and group or one-to-one teaching. There is no obligation to enrol."
+    }
+  ]
+}

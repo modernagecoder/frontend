@@ -351,6 +351,10 @@
   "img": "/images/gcse-maths.webp",
   "alt": "GCSE Mathematics Mastery - Modern Age Coders course"
  },
+ "gcse-maths-resit-course": {
+  "img": "/images/gcse-maths-resit.webp",
+  "alt": "GCSE Maths Resit - Modern Age Coders course"
+ },
  "functional-skills-maths-course": {
   "img": "/images/functional-skills-maths.webp",
   "alt": "Functional Skills Maths - Modern Age Coders course"

@@ -275,7 +275,7 @@ Bring a recent paper or mock. We'll show you exactly where the marks are leaking
 
 ## More maths tuition from Modern Age Coders.
 
-[UK · examA-Level Maths Tuition](/a-level-maths-tuition-online)[UK · KS3/KS4Maths Tuition for Teens](/online-maths-tuition-for-teens-in-uk)[UK · KS3KS3 Maths Tuition](/ks3-maths-tuition-online)[UK · adultsGCSE Resit for Adults](/online-maths-classes-for-adults-in-uk)[USA · examSAT Math Prep](/sat-math-tutoring-online)[CourseGCSE & High School Mathematics](/courses/complete-high-school-mathematics-mastery)
+[UK · examA-Level Maths Tuition](/a-level-maths-tuition-online)[UK · KS3/KS4Maths Tuition for Teens](/online-maths-tuition-for-teens-in-uk)[UK · KS3KS3 Maths Tuition](/ks3-maths-tuition-online)[UK · adultsGCSE Resit for Adults](/online-maths-classes-for-adults-in-uk)[USA · examSAT Math Prep](/sat-math-tutoring-online)[CourseGCSE & High School Mathematics](/courses/complete-high-school-mathematics-mastery)[CourseGCSE Maths Resit (Post-16 & Adults)](/courses/gcse-maths-resit-course)
 
 Real student projects
 
