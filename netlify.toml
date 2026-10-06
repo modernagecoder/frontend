@@ -4158,6 +4158,21 @@
   status = 200
 
 [[redirects]]
+  from = "/year-4-multiplication-tables-check-explained"
+  to = "/src/pages/year-4-multiplication-tables-check-explained.html"
+  status = 200
+
+[[redirects]]
+  from = "/year-4-multiplication-tables-check-explained.html"
+  to = "/year-4-multiplication-tables-check-explained"
+  status = 301
+
+[[redirects]]
+  from = "/year-4-multiplication-tables-check-explained.md"
+  to = "/src/pages/year-4-multiplication-tables-check-explained.md"
+  status = 200
+
+[[redirects]]
   from = "/gcse-maths-grades-explained"
   to = "/src/pages/gcse-maths-grades-explained.html"
   status = 200
