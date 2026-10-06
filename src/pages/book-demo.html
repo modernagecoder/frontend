@@ -1726,6 +1726,25 @@
     <script src="/js/country-code-selector.js?v=20260927a" defer></script>
     <script src="/js/pricing-data.generated.js?v=c1eb685613"></script>
     <script src="/js/international-pricing.js?v=deee271610"></script>
+    <script>
+        // Maths visitors (links from maths pages carry ?subject=maths) see maths wording, not coding.
+        (function () {
+            var p = new URLSearchParams(location.search);
+            if ((p.get('subject') || '').toLowerCase() !== 'maths') return;
+            document.title = 'Book a Free Maths Demo Class | Live Maths Lesson | Modern Age Coders';
+            var hero = document.querySelector('.demo-hero > p');
+            if (hero) hero.textContent = 'Try a live maths lesson with one of our tutors before you commit: primary maths, GCSE, A level, Further Maths or adult maths. Free, with no strings attached.';
+            document.querySelectorAll('.bd-watch-btn--enroll').forEach(function (a) {
+                a.href = '/course-atlas';
+                a.textContent = 'Choose a Maths Course & Enroll';
+            });
+            var msg = document.getElementById('message');
+            if (msg) {
+                msg.placeholder = 'E.g., GCSE maths Higher tier for my Year 10, A level Further Maths, KS2 SATs practice...';
+                if (!msg.value) msg.value = 'Maths demo: ';
+            }
+        })();
+    </script>
 </body>
 
 </html>
