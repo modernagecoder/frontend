@@ -4158,6 +4158,21 @@
   status = 200
 
 [[redirects]]
+  from = "/online-vs-face-to-face-maths-tuition-uk"
+  to = "/src/pages/online-vs-face-to-face-maths-tuition-uk.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-vs-face-to-face-maths-tuition-uk.html"
+  to = "/online-vs-face-to-face-maths-tuition-uk"
+  status = 301
+
+[[redirects]]
+  from = "/online-vs-face-to-face-maths-tuition-uk.md"
+  to = "/src/pages/online-vs-face-to-face-maths-tuition-uk.md"
+  status = 200
+
+[[redirects]]
   from = "/further-maths-tutor-cost-uk"
   to = "/src/pages/further-maths-tutor-cost-uk.html"
   status = 200
