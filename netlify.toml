@@ -4158,6 +4158,21 @@
   status = 200
 
 [[redirects]]
+  from = "/is-a-level-further-maths-worth-it"
+  to = "/src/pages/is-a-level-further-maths-worth-it.html"
+  status = 200
+
+[[redirects]]
+  from = "/is-a-level-further-maths-worth-it.html"
+  to = "/is-a-level-further-maths-worth-it"
+  status = 301
+
+[[redirects]]
+  from = "/is-a-level-further-maths-worth-it.md"
+  to = "/src/pages/is-a-level-further-maths-worth-it.md"
+  status = 200
+
+[[redirects]]
   from = "/maths-tutor-cost-scotland"
   to = "/src/pages/maths-tutor-cost-scotland.html"
   status = 200
