@@ -73,11 +73,11 @@ module.exports = {
   picks: {
     eyebrow: 'Start here',
     h2: 'Three courses for National 5 Maths',
-    lede: 'Our maths courses serve several curricula; we teach the National 5 specification inside them. Each card opens a syllabus.',
+    lede: 'The first card is our National 5 and Higher course, built from the National 5 specification; the other two cover overlapping content for students who need it. Each card opens a syllabus.',
     items: [
-      { course: 'igcse-mathematics-mastery', code: 'N5M / 01', title: 'IGCSE Mathematics', note: 'Surds, indices, quadratics, vectors and trigonometry, most of which National 5 shares.' },
-      { course: 'gcse-mathematics-mastery', code: 'N5M / 02', title: 'GCSE Mathematics', note: 'Number and algebra fluency at the level paper 1 demands, taught without a calculator first.' },
-      { course: 'complete-high-school-mathematics-mastery', code: 'N5M / 03', title: 'High School Mathematics', note: 'A broad secondary course for students who need gaps filled from earlier years.' }
+      { course: 'national-5-and-higher-maths-course', code: 'N5M / 01', title: 'National 5 and Higher Maths', note: 'The National 5 skills strand by strand, then a month of full papers, with Higher to follow.' },
+      { course: 'igcse-mathematics-mastery', code: 'N5M / 02', title: 'IGCSE Mathematics', note: 'Surds, indices, quadratics, vectors and trigonometry, most of which National 5 shares.' },
+      { course: 'gcse-mathematics-mastery', code: 'N5M / 03', title: 'GCSE Mathematics', note: 'Number and algebra fluency at the level paper 1 demands, taught without a calculator first.' }
     ]
   },
 
@@ -200,7 +200,7 @@ module.exports = {
     lede: 'Grouped by purpose. The free lesson decides the starting point.',
     bands: [
       { num: 'I', h3: 'National 5 content', sub: 'Number, algebra, geometry and statistics', courses: [
-        { code: 'UK / N5M1 / 01', slug: 'igcse-mathematics-mastery', title: 'IGCSE mathematics', blurb: 'Surds, vectors and quadratics at the right depth.' },
+        { code: 'UK / N5M1 / 01', slug: 'national-5-and-higher-maths-course', title: 'National 5 and Higher maths', blurb: 'The National 5 specification taught directly, then Higher.' },
         { code: 'UK / N5M1 / 02', slug: 'gcse-mathematics-mastery', title: 'GCSE mathematics', blurb: 'Non-calculator fluency and algebra, built steadily.' },
         { code: 'UK / N5M1 / 03', slug: 'complete-high-school-mathematics-mastery', title: 'High school mathematics', blurb: 'For students filling gaps from earlier years.' }
       ] },

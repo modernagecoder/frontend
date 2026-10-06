@@ -18,11 +18,11 @@ At a glance: Course: Higher Mathematics C847 76; Paper 1: No calculator, 55 mark
 
 ## Three courses for Higher Maths
 
-These courses serve several curricula, and we teach the Higher specification through them. Each card opens a syllabus.
+The first card is our National 5 and Higher course, built from the Higher specification; the other two cover overlapping content at a similar depth. Each card opens a syllabus.
 
+- [National 5 and Higher Maths](/courses/national-5-and-higher-maths-course): The Higher skills strand by strand, from logarithms and the wave function to calculus, then full papers.
 - [A Level Maths](/courses/a-level-maths-course-pure-mechanics-statistics): Differentiation, integration, logarithms, radians and vectors, the core of Higher at a similar depth.
 - [High School Mathematics](/courses/complete-high-school-mathematics-mastery): For students strengthening algebra and functions before the calculus arrives.
-- [IB Mathematics](/courses/ib-mathematics-aa-ai-masterclass): Rigorous working and notation, useful for students aiming at Advanced Higher next.
 
 ## Two papers, 120 marks, no coursework
 
@@ -171,7 +171,7 @@ Arranged by where they help. The first lesson decides the order.
 
 Calculus, functions and geometry
 
-- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Pure mathematics at Higher depth and beyond.
+- [National 5 and Higher maths](/courses/national-5-and-higher-maths-course): The Higher specification taught directly, with full papers.
 - [High school mathematics](/courses/complete-high-school-mathematics-mastery): Algebra and functions made solid.
 - [IB mathematics](/courses/ib-mathematics-aa-ai-masterclass): Careful notation and rigorous working.
 

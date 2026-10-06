@@ -69,11 +69,11 @@ module.exports = {
   picks: {
     eyebrow: 'Start here',
     h2: 'Three courses for Higher Maths',
-    lede: 'These courses serve several curricula, and we teach the Higher specification through them. Each card opens a syllabus.',
+    lede: 'The first card is our National 5 and Higher course, built from the Higher specification; the other two cover overlapping content at a similar depth. Each card opens a syllabus.',
     items: [
-      { course: 'a-level-maths-course-pure-mechanics-statistics', code: 'HM / 01', title: 'A Level Maths', note: 'Differentiation, integration, logarithms, radians and vectors, the core of Higher at a similar depth.' },
-      { course: 'complete-high-school-mathematics-mastery', code: 'HM / 02', title: 'High School Mathematics', note: 'For students strengthening algebra and functions before the calculus arrives.' },
-      { course: 'ib-mathematics-aa-ai-masterclass', code: 'HM / 03', title: 'IB Mathematics', note: 'Rigorous working and notation, useful for students aiming at Advanced Higher next.' }
+      { course: 'national-5-and-higher-maths-course', code: 'HM / 01', title: 'National 5 and Higher Maths', note: 'The Higher skills strand by strand, from logarithms and the wave function to calculus, then full papers.' },
+      { course: 'a-level-maths-course-pure-mechanics-statistics', code: 'HM / 02', title: 'A Level Maths', note: 'Differentiation, integration, logarithms, radians and vectors, the core of Higher at a similar depth.' },
+      { course: 'complete-high-school-mathematics-mastery', code: 'HM / 03', title: 'High School Mathematics', note: 'For students strengthening algebra and functions before the calculus arrives.' }
     ]
   },
 
@@ -202,7 +202,7 @@ module.exports = {
     lede: 'Arranged by where they help. The first lesson decides the order.',
     bands: [
       { num: 'I', h3: 'Higher content', sub: 'Calculus, functions and geometry', courses: [
-        { code: 'UK / HM1 / 01', slug: 'a-level-maths-course-pure-mechanics-statistics', title: 'A level maths', blurb: 'Pure mathematics at Higher depth and beyond.' },
+        { code: 'UK / HM1 / 01', slug: 'national-5-and-higher-maths-course', title: 'National 5 and Higher maths', blurb: 'The Higher specification taught directly, with full papers.' },
         { code: 'UK / HM1 / 02', slug: 'complete-high-school-mathematics-mastery', title: 'High school mathematics', blurb: 'Algebra and functions made solid.' },
         { code: 'UK / HM1 / 03', slug: 'ib-mathematics-aa-ai-masterclass', title: 'IB mathematics', blurb: 'Careful notation and rigorous working.' }
       ] },

@@ -1,0 +1,593 @@
+{
+  "meta": {
+    "slug": "national-5-and-higher-maths-course",
+    "date": "2026-10-07",
+    "title": "National 5 and Higher Maths Course Online (Scotland)",
+    "description": "National 5 and Higher Maths online for Scottish learners: C847 75 and C847 76 taught live, from algebra and trigonometry to calculus, ending in timed papers.",
+    "keywords": [
+      "national 5 maths course online",
+      "higher maths course online",
+      "national 5 maths tutor",
+      "higher maths tutor scotland",
+      "n5 maths online classes",
+      "higher maths calculus help",
+      "scottish maths tutor online",
+      "c847 76 higher mathematics"
+    ],
+    "category": "Scottish Mathematics",
+    "taxonomy": "mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "About 6 months per level: National 5, then Higher (12 months for both)",
+    "level": "S3 to S6 learners and adults in Scotland taking National 5 or Higher Mathematics",
+    "commitment": "2 live classes/week + 3-4 hours of practice, rising to full papers before the exams",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "national-5-higher-maths.webp",
+    "dateModified": "2026-10-07"
+  },
+  "program_overview": {
+    "title": "National 5 and Higher Maths Course Online (Scotland)",
+    "tagline": "The two Scottish maths courses most learners need, taught in order: National 5 for the algebra, geometry and trigonometry, then Higher for functions, vectors and calculus.",
+    "description": "National 5 Mathematics (course code C847 75) and Higher Mathematics (C847 76) are the Scottish courses that open the door to most further study. Their course specifications, published by Qualifications Scotland on sqa.org.uk, give each a notional 160 hours of learning and two question papers. National 5 has a 40-mark non-calculator paper of 1 hour and a 50-mark paper of 1 hour 30 minutes. Higher has a 55-mark non-calculator paper of 1 hour 15 minutes and a 65-mark paper of 1 hour 30 minutes. Both courses are graded A to D on the total mark.\n\nThis course teaches them in sequence. The National 5 half covers the numerical, algebraic, geometric, trigonometric and statistical skills the specification lists, from surds and indices to the sine and cosine rules. The Higher half builds the algebraic and trigonometric, geometric and calculus skills Higher adds: polynomials, logarithms and exponentials, the wave function, the straight line and the circle, vectors, recurrence relations, differentiation and integration. Learners who already hold National 5 start at the Higher half after a diagnostic.\n\nEach level ends with a month of full papers under real timing, marked against published marking instructions. Reasoning is taught throughout, because both specifications expect learners to interpret a situation and explain a solution, not just calculate. Classes are live and small, and they run at times that suit Scottish school days and exam leave.",
+    "what_makes_this_different": [
+      "Built from the National 5 and Higher Mathematics course specifications, version 3.0, valid from session 2023 to 24",
+      "Non-calculator Paper 1 skills practised every week at both levels",
+      "Reasoning taught explicitly: interpreting a situation and explaining a solution",
+      "National 5 then Higher in one sequence, or Higher alone after a diagnostic",
+      "A month of full papers per level, marked against published marking instructions",
+      "Scottish terms and structure throughout: S3 to S6, prelims and the national exam diet"
+    ],
+    "learning_path": {
+      "phase_1": "National 5 skills: numerical, algebraic, geometric, trigonometric and statistical skills, with reasoning throughout",
+      "phase_2": "National 5 papers: prelim-style and full papers under timing, marked and reviewed",
+      "phase_3": "Higher skills: algebraic and trigonometric, geometric and calculus skills, with reasoning throughout",
+      "phase_4": "Higher papers: prelim-style and full papers under timing, marked and reviewed"
+    },
+    "career_outcomes": [
+      "Secure National 5 skills, the base for Higher and for many college courses",
+      "Higher calculus, vectors and functions, the base for Advanced Higher",
+      "Confidence on the non-calculator paper at both levels",
+      "Experience of full papers under real timing before the prelims and the exam",
+      "A firm start for university courses in science, engineering, computing and economics"
+    ]
+  },
+  "phase_1_national_5_skills": {
+    "title": "PHASE 1: National 5 Skills (Months 1-5, Weeks 1-20)",
+    "description": "The skills sampled in National 5 Mathematics, taught strand by strand with reasoning questions in every month.",
+    "month_1_numerical_skills": {
+      "title": "Month 1: Numerical Skills",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: Diagnostic, Surds and Indices",
+        "topics": [
+          "A diagnostic paper to place each learner",
+          "Simplifying surds and rationalising denominators",
+          "Indices, including negative and fractional indices",
+          "Scientific notation",
+          "Rounding to significant figures",
+          "Setting out non-calculator working clearly"
+        ],
+        "projects": [
+          "Skills checklist started: every National 5 skill coloured by confidence"
+        ],
+        "practice": "15 non-calculator number questions a week"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Percentages, Fractions and Appreciation",
+        "topics": [
+          "Reverse percentages",
+          "Appreciation and depreciation, including compound interest",
+          "Operations and combinations of operations on fractions",
+          "Mixed numbers without a calculator",
+          "Choosing a calculator method for repeated percentage change",
+          "Reasoning: explaining whether an offer is worth it"
+        ],
+        "projects": [
+          "Money file: interest and depreciation problems solved and explained"
+        ],
+        "practice": "12 percentage and fraction problems a week",
+        "assessment": "Month 1 check: a 30-minute non-calculator paper"
+      }
+    },
+    "month_2_algebraic_skills_one": {
+      "title": "Month 2: Algebraic Skills, Part One",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Expressions and Factorising",
+        "topics": [
+          "Expanding brackets, including ax(bx + c) and products of binomials",
+          "Factorising: common factors, difference of two squares, trinomials",
+          "Completing the square",
+          "Algebraic fractions: simplifying and the four operations",
+          "Changing the subject of a formula",
+          "Checking by substitution"
+        ],
+        "projects": [
+          "Algebra method sheet: one worked example of every technique"
+        ],
+        "practice": "20 algebra questions a week"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Straight Lines and Equations",
+        "topics": [
+          "Gradient from two points and from a graph",
+          "The equation of a straight line in different forms",
+          "Linear equations and inequations",
+          "Simultaneous equations by graph and by algebra",
+          "Constructing equations from text",
+          "Reasoning: interpreting the solution in context"
+        ],
+        "projects": [
+          "Equation bank: simultaneous equation problems built from real contexts"
+        ],
+        "practice": "15 equation problems a week",
+        "assessment": "Month 2 check: a 40-minute algebra paper"
+      }
+    },
+    "month_3_algebraic_skills_two": {
+      "title": "Month 3: Algebraic Skills, Part Two",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Quadratics",
+        "topics": [
+          "Quadratic functions and their graphs",
+          "Turning points and axes of symmetry",
+          "Solving quadratic equations by factorising and by formula",
+          "The discriminant and the nature of the roots",
+          "Sketching a parabola from its equation",
+          "Problems that lead to a quadratic"
+        ],
+        "projects": [
+          "Parabola file: six quadratics sketched with roots and turning points"
+        ],
+        "practice": "15 quadratic problems a week"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Functions and Mixed Algebra",
+        "topics": [
+          "Functional notation, f(x)",
+          "Finding a quadratic function from its graph",
+          "Reading information from graphs",
+          "Mixed algebra questions from past papers",
+          "Non-calculator algebra under time",
+          "Error log review"
+        ],
+        "projects": [
+          "Skills checklist updated after the first three months"
+        ],
+        "practice": "Two 25-minute mixed algebra sets a week",
+        "assessment": "Month 3 check: a 45-minute mixed paper"
+      }
+    },
+    "month_4_geometric_skills": {
+      "title": "Month 4: Geometric Skills",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Shape, Area and Volume",
+        "topics": [
+          "Arc length and sector area",
+          "Volumes of prisms, cylinders, cones, pyramids and spheres",
+          "Pythagoras' theorem in complex situations, including 3D",
+          "Properties of quadrilaterals, triangles, polygons and circles",
+          "Similarity and scale factors for area and volume",
+          "Rounding volume and area answers sensibly"
+        ],
+        "projects": [
+          "Geometry sheet: every formula and property with a worked example"
+        ],
+        "practice": "15 geometry problems a week"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Vectors and Coordinates",
+        "topics": [
+          "Two-dimensional vectors: adding, subtracting and multiplying by a scalar",
+          "Vector pathways in shapes",
+          "Three-dimensional coordinates from a diagram",
+          "Magnitude of a vector",
+          "Reasoning: explaining a geometric result",
+          "Past paper geometry questions"
+        ],
+        "projects": [
+          "Vector diagram set: five shapes with pathways labelled"
+        ],
+        "practice": "12 vector and coordinate problems a week",
+        "assessment": "Month 4 check: a 45-minute geometry paper"
+      }
+    },
+    "month_5_trigonometry_and_statistics": {
+      "title": "Month 5: Trigonometric and Statistical Skills",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Trigonometry",
+        "topics": [
+          "Area of a triangle using trigonometry",
+          "The sine rule and the cosine rule",
+          "Bearings in problems",
+          "Graphs of trigonometric functions and their translations",
+          "Solving trigonometric equations",
+          "Trigonometric identities used at National 5"
+        ],
+        "projects": [
+          "Triangle casebook: when to use each rule, with a solved example"
+        ],
+        "practice": "15 trigonometry problems a week"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Statistics",
+        "topics": [
+          "Comparing data sets using statistics",
+          "Standard deviation and the semi-interquartile range",
+          "Scatter graphs and the line of fit",
+          "Writing a comparison in context",
+          "Mixed questions across all National 5 skills",
+          "Planning the papers month"
+        ],
+        "projects": [
+          "Skills checklist completed for National 5"
+        ],
+        "practice": "12 statistics questions a week plus a mixed set",
+        "assessment": "Month 5 check: a full mixed paper at National 5"
+      }
+    }
+  },
+  "phase_2_national_5_papers": {
+    "title": "PHASE 2: National 5 Papers (Month 6, Weeks 21-24)",
+    "description": "Full National 5 papers under real timing: Paper 1 without a calculator, 40 marks in 1 hour, and Paper 2, 50 marks in 1 hour 30 minutes.",
+    "month_6_national_5_papers": {
+      "title": "Month 6: Full National 5 Papers",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Prelim-Style Papers",
+        "topics": [
+          "A full Paper 1 and Paper 2 under timing",
+          "Marking against published marking instructions",
+          "Sorting lost marks by skill and by habit",
+          "Re-teaching the weakest skills",
+          "Pacing Paper 1 without a calculator",
+          "Showing working that earns process marks"
+        ],
+        "projects": [
+          "Paper tracker started for National 5"
+        ],
+        "practice": "One full paper pair a week"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Final Papers and Next Steps",
+        "topics": [
+          "A final paper pair under timing",
+          "Review of every lost mark",
+          "Exam-day routine and equipment",
+          "Bridging tasks for Higher: functions and further algebra",
+          "Planning Higher for those continuing",
+          "Revision plan up to the exam"
+        ],
+        "projects": [
+          "Completed National 5 paper tracker and error log"
+        ],
+        "practice": "Targeted sets from the error log",
+        "assessment": "National 5 paper review, one to one"
+      }
+    }
+  },
+  "phase_3_higher_skills": {
+    "title": "PHASE 3: Higher Skills (Months 7-11, Weeks 25-44)",
+    "description": "The skills sampled in Higher Mathematics: algebraic and trigonometric, geometric and calculus skills, with reasoning throughout. Learners joining at Higher start here after a diagnostic.",
+    "month_7_algebra_and_functions": {
+      "title": "Month 7: Algebra and Functions",
+      "weeks": "Weeks 25-28",
+      "week_25_26": {
+        "title": "Weeks 25-26: Polynomials and Quadratic Theory",
+        "topics": [
+          "A diagnostic for learners joining at Higher",
+          "Factorising cubics and quartics with the factor theorem",
+          "Solving polynomial equations",
+          "Quadratic inequalities and the discriminant",
+          "Tangency and intersection of lines and curves",
+          "Completing the square at Higher depth"
+        ],
+        "projects": [
+          "Higher skills checklist started"
+        ],
+        "practice": "15 polynomial and quadratic problems a week"
+      },
+      "week_27_28": {
+        "title": "Weeks 27-28: Functions and Graphs",
+        "topics": [
+          "Composite and inverse functions",
+          "Domain and range",
+          "Related graphs and transformations",
+          "Exponential and logarithmic functions",
+          "Laws of logarithms and solving equations",
+          "Sketching the inverse of a logarithmic or exponential function"
+        ],
+        "projects": [
+          "Graph file: transformations and log graphs annotated"
+        ],
+        "practice": "15 function and logarithm problems a week",
+        "assessment": "Month 7 check: a 45-minute Higher algebra paper"
+      }
+    },
+    "month_8_trigonometry": {
+      "title": "Month 8: Trigonometry at Higher",
+      "weeks": "Weeks 29-32",
+      "week_29_30": {
+        "title": "Weeks 29-30: Radians, Formulae and Identities",
+        "topics": [
+          "Radians and exact values",
+          "Addition formulae and double-angle formulae",
+          "Trigonometric identities",
+          "Solving trigonometric equations in degrees and radians",
+          "Graphs of trigonometric functions",
+          "Non-calculator trigonometry"
+        ],
+        "projects": [
+          "Trigonometry sheet: exact values, formulae and identities"
+        ],
+        "practice": "15 trigonometry problems a week"
+      },
+      "week_31_32": {
+        "title": "Weeks 31-32: The Wave Function",
+        "topics": [
+          "Converting a cos x + b sin x to k cos(x - a) and related forms",
+          "Maximum and minimum values",
+          "Solving equations using the wave function",
+          "Sketching the resulting graph",
+          "Applications in context",
+          "Past paper wave function questions"
+        ],
+        "projects": [
+          "Wave function casebook: four forms with a worked example each"
+        ],
+        "practice": "10 wave function problems a week",
+        "assessment": "Month 8 check: a 45-minute trigonometry paper"
+      }
+    },
+    "month_9_geometry_and_sequences": {
+      "title": "Month 9: Straight Line, Circle, Vectors and Recurrence",
+      "weeks": "Weeks 33-36",
+      "week_33_34": {
+        "title": "Weeks 33-34: The Straight Line and the Circle",
+        "topics": [
+          "Gradients, perpendicular lines and collinearity",
+          "Medians, altitudes and perpendicular bisectors",
+          "Equations of a circle",
+          "Intersection of a line and a circle, and tangency",
+          "Intersection of two circles, and tangency problems",
+          "Coordinate geometry reasoning"
+        ],
+        "projects": [
+          "Coordinate geometry sheet with a solved past-paper style problem"
+        ],
+        "practice": "15 straight line and circle problems a week"
+      },
+      "week_35_36": {
+        "title": "Weeks 35-36: Vectors and Recurrence Relations",
+        "topics": [
+          "Vectors in three dimensions",
+          "The scalar product and the angle between vectors",
+          "Collinearity and dividing a line in a ratio",
+          "Recurrence relations and their limits",
+          "Modelling a situation with a recurrence relation",
+          "Interpreting a limit in context"
+        ],
+        "projects": [
+          "Recurrence model: a real situation modelled and its limit explained"
+        ],
+        "practice": "12 vector and recurrence problems a week",
+        "assessment": "Month 9 check: a 45-minute geometry paper"
+      }
+    },
+    "month_10_differentiation": {
+      "title": "Month 10: Differentiation",
+      "weeks": "Weeks 37-40",
+      "week_37_38": {
+        "title": "Weeks 37-38: Differentiating Functions",
+        "topics": [
+          "Differentiating algebraic functions",
+          "Differentiating k sin x and k cos x",
+          "The chain rule",
+          "Equations of tangents",
+          "Increasing and decreasing functions",
+          "Stationary points and their nature"
+        ],
+        "projects": [
+          "Calculus method sheet: one worked example per rule"
+        ],
+        "practice": "20 differentiation problems a week"
+      },
+      "week_39_40": {
+        "title": "Weeks 39-40: Applying Differentiation",
+        "topics": [
+          "Sketching curves from stationary points",
+          "Greatest and least values on an interval",
+          "Optimisation problems in context",
+          "Rates of change",
+          "Reasoning: justifying a maximum or minimum",
+          "Past paper optimisation questions"
+        ],
+        "projects": [
+          "Optimisation file: three context problems solved and explained"
+        ],
+        "practice": "12 applied differentiation problems a week",
+        "assessment": "Month 10 check: a 45-minute calculus paper"
+      }
+    },
+    "month_11_integration": {
+      "title": "Month 11: Integration",
+      "weeks": "Weeks 41-44",
+      "week_41_42": {
+        "title": "Weeks 41-42: Integrating Functions",
+        "topics": [
+          "Integrating algebraic functions",
+          "Integrating sine and cosine",
+          "Integrating with the chain rule in reverse for linear inner functions",
+          "Definite integrals",
+          "Solving simple differential equations",
+          "Checking an integral by differentiating"
+        ],
+        "projects": [
+          "Calculus method sheet extended with integration"
+        ],
+        "practice": "20 integration problems a week"
+      },
+      "week_43_44": {
+        "title": "Weeks 43-44: Areas and Mixed Calculus",
+        "topics": [
+          "Area under a curve",
+          "Area between two curves",
+          "Mixed calculus questions",
+          "Mixed Higher questions across all skills",
+          "Non-calculator calculus under time",
+          "Planning the papers month"
+        ],
+        "projects": [
+          "Higher skills checklist completed"
+        ],
+        "practice": "Two 30-minute mixed sets a week",
+        "assessment": "Month 11 check: a full mixed paper at Higher"
+      }
+    }
+  },
+  "phase_4_higher_papers": {
+    "title": "PHASE 4: Higher Papers (Month 12, Weeks 45-48)",
+    "description": "Full Higher papers under real timing: Paper 1 without a calculator, 55 marks in 1 hour 15 minutes, and Paper 2, 65 marks in 1 hour 30 minutes.",
+    "month_12_higher_papers": {
+      "title": "Month 12: Full Higher Papers",
+      "weeks": "Weeks 45-48",
+      "week_45_46": {
+        "title": "Weeks 45-46: Prelim-Style Papers",
+        "topics": [
+          "A full Paper 1 and Paper 2 under timing",
+          "Marking against published marking instructions",
+          "Sorting lost marks by skill and by habit",
+          "Re-teaching the weakest skills",
+          "Pacing the non-calculator paper",
+          "Process marks and clear communication"
+        ],
+        "projects": [
+          "Paper tracker started for Higher"
+        ],
+        "practice": "One full paper pair a week"
+      },
+      "week_47_48": {
+        "title": "Weeks 47-48: Final Papers and Next Steps",
+        "topics": [
+          "A final paper pair under timing",
+          "Review of every lost mark",
+          "Exam-day routine and equipment",
+          "A calm plan for exam leave",
+          "Looking ahead to Advanced Higher for those continuing",
+          "Revision plan up to the exam"
+        ],
+        "projects": [
+          "Completed Higher paper tracker and error log"
+        ],
+        "practice": "Targeted sets from the error log",
+        "assessment": "Higher paper review, one to one"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Skills checklists for National 5 and Higher, kept up to date",
+      "Method sheets for algebra, trigonometry, geometry and calculus",
+      "A money file, an equation bank and a parabola file",
+      "A triangle casebook and a wave function casebook",
+      "A recurrence model and an optimisation file",
+      "Paper trackers and error logs for both levels"
+    ],
+    "total_projects_built": "A complete revision kit for National 5 and Higher: checklists, method sheets, casebooks and marked paper trackers",
+    "skills_mastered": [
+      "National 5 numerical, algebraic, geometric, trigonometric and statistical skills",
+      "Higher algebraic and trigonometric skills, including logarithms and the wave function",
+      "Higher geometric skills: straight line, circle and vectors",
+      "Differentiation and integration with applications",
+      "Reasoning: interpreting situations and explaining solutions",
+      "Paper technique with and without a calculator"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week; paper months include longer timed sittings",
+      "practice": "3 to 4 hours a week of practice, rising before prelims and exams",
+      "review": "Practice marked with comments; papers marked against published marking instructions"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp support between classes, with worked solutions for stuck questions",
+      "progress_updates": "A monthly progress note to learners and parents with check scores and next steps"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "For National 5: the fourth curriculum level or National 4 Mathematics, as the course specification recommends. For Higher: National 5 Mathematics or equivalent. A diagnostic in the first week places every learner",
+    "exam_entry": "Learners are entered by their school or college. Adults and private candidates arrange entry through a centre; we teach to the specification and paper style",
+    "equipment": "A scientific calculator, ruler, protractor, compasses, and a device with stable internet for live classes",
+    "timing": "Start National 5 in S3 or early S4, and Higher early in S5, so the papers month comes before the prelims. Later joiners get a catch-up plan"
+  },
+  "who_is_this_for": {
+    "s3_s4_learners": "S3 and S4 learners working towards National 5 Mathematics",
+    "s5_s6_learners": "S5 and S6 learners taking Higher Mathematics",
+    "learners_needing_support": "Learners whose school class moves faster than they can follow and who want steady teaching alongside it",
+    "adult_learners": "Adults in Scotland returning to National 5 or Higher Mathematics for college, university or work",
+    "international_learners": "Learners abroad following the Scottish curriculum who need live teaching across time zones"
+  },
+  "career_paths_after_completion": [
+    "Advanced Higher Mathematics and other Advanced Higher maths courses after Higher",
+    "College and university courses that ask for National 5 or Higher Mathematics; check each one's exact requirement",
+    "Our statistics and programming courses, which put the mathematics to work"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 learners, with mini-batch (3 to 4 learners) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured plan built from the National 5 and Higher course specifications.",
+    "doubt_support": "Doubt support between classes over WhatsApp.",
+    "certificate": "A course-completion certificate and a revision kit the learner keeps.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Monthly checks and a full papers month at each level, marked against published marking instructions."
+  },
+  "faqs": [
+    {
+      "question": "What is in the National 5 Maths exam?",
+      "answer": "Two question papers. Paper 1 is non-calculator, 40 marks in 1 hour. Paper 2 is 50 marks in 1 hour 30 minutes. The grade is based on the total mark across both papers, as set out in the National 5 Mathematics course specification."
+    },
+    {
+      "question": "What is in the Higher Maths exam?",
+      "answer": "Two question papers. Paper 1 is non-calculator, 55 marks in 1 hour 15 minutes. Paper 2 is 65 marks in 1 hour 30 minutes. The course is graded A to D on the total mark."
+    },
+    {
+      "question": "Can I do Higher Maths without National 5?",
+      "answer": "The Higher specification says entry is at the discretion of the centre and that candidates should have achieved National 5 Mathematics or equivalent. If you have not, we recommend the National 5 half of this course first; the diagnostic shows where you stand."
+    },
+    {
+      "question": "How hard is the jump from National 5 to Higher Maths?",
+      "answer": "Higher adds new ideas rather than more of the same: logarithms, the wave function, vectors in three dimensions, recurrence relations, and differentiation and integration. Many learners find the pace the hardest part, which is why the course teaches Higher strand by strand with a check every month."
+    },
+    {
+      "question": "Do you teach Applications of Mathematics?",
+      "answer": "This course follows National 5 and Higher Mathematics. Applications of Mathematics is a separate course with different content. Ask in the free demo and we will tell you honestly whether one-to-one support can cover it."
+    },
+    {
+      "question": "When should I start?",
+      "answer": "For National 5, in S3 or early S4. For Higher, early in S5. Starting early means the full papers month comes before the prelims rather than after them."
+    },
+    {
+      "question": "Can adults take National 5 or Higher Maths online?",
+      "answer": "The teaching can be fully online. The exams are sat in person through a centre, which makes the entry. We teach to the course specification and paper style."
+    },
+    {
+      "question": "Is this the same as GCSE or A level maths?",
+      "answer": "No. National 5 and Higher are Scottish qualifications with their own specifications and papers. We also run GCSE and A Level courses for learners in England, Wales and Northern Ireland."
+    },
+    {
+      "question": "How are the classes run?",
+      "answer": "Live online classes with a real teacher, in a small group of 5 to 10 learners at a similar level or one to one. Current fees for your region are shown in the pricing section of this page."
+    },
+    {
+      "question": "Can I try a lesson first?",
+      "answer": "Yes. Book a free demo class. The teacher works through some National 5 or Higher questions with you, finds where you are, and suggests where to start and whether group or one-to-one teaching fits better. There is no obligation to enrol."
+    }
+  ]
+}

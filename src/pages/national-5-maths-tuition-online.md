@@ -18,11 +18,11 @@ At a glance: Course: National 5 Mathematics C847 75; Paper 1: No calculator, 40 
 
 ## Three courses for National 5 Maths
 
-Our maths courses serve several curricula; we teach the National 5 specification inside them. Each card opens a syllabus.
+The first card is our National 5 and Higher course, built from the National 5 specification; the other two cover overlapping content for students who need it. Each card opens a syllabus.
 
+- [National 5 and Higher Maths](/courses/national-5-and-higher-maths-course): The National 5 skills strand by strand, then a month of full papers, with Higher to follow.
 - [IGCSE Mathematics](/courses/igcse-mathematics-mastery): Surds, indices, quadratics, vectors and trigonometry, most of which National 5 shares.
 - [GCSE Mathematics](/courses/gcse-mathematics-mastery): Number and algebra fluency at the level paper 1 demands, taught without a calculator first.
-- [High School Mathematics](/courses/complete-high-school-mathematics-mastery): A broad secondary course for students who need gaps filled from earlier years.
 
 ## Two papers, no coursework, nowhere else to earn marks
 
@@ -163,7 +163,7 @@ Grouped by purpose. The free lesson decides the starting point.
 
 Number, algebra, geometry and statistics
 
-- [IGCSE mathematics](/courses/igcse-mathematics-mastery): Surds, vectors and quadratics at the right depth.
+- [National 5 and Higher maths](/courses/national-5-and-higher-maths-course): The National 5 specification taught directly, then Higher.
 - [GCSE mathematics](/courses/gcse-mathematics-mastery): Non-calculator fluency and algebra, built steadily.
 - [High school mathematics](/courses/complete-high-school-mathematics-mastery): For students filling gaps from earlier years.
 
