@@ -4158,6 +4158,21 @@
   status = 200
 
 [[redirects]]
+  from = "/functional-skills-maths-course-cost-uk"
+  to = "/src/pages/functional-skills-maths-course-cost-uk.html"
+  status = 200
+
+[[redirects]]
+  from = "/functional-skills-maths-course-cost-uk.html"
+  to = "/functional-skills-maths-course-cost-uk"
+  status = 301
+
+[[redirects]]
+  from = "/functional-skills-maths-course-cost-uk.md"
+  to = "/src/pages/functional-skills-maths-course-cost-uk.md"
+  status = 200
+
+[[redirects]]
   from = "/is-maths-tuition-worth-it-uk"
   to = "/src/pages/is-maths-tuition-worth-it-uk.html"
   status = 200
