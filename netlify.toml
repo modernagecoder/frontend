@@ -4158,6 +4158,21 @@
   status = 200
 
 [[redirects]]
+  from = "/a-level-maths-tutor-cost-uk"
+  to = "/src/pages/a-level-maths-tutor-cost-uk.html"
+  status = 200
+
+[[redirects]]
+  from = "/a-level-maths-tutor-cost-uk.html"
+  to = "/a-level-maths-tutor-cost-uk"
+  status = 301
+
+[[redirects]]
+  from = "/a-level-maths-tutor-cost-uk.md"
+  to = "/src/pages/a-level-maths-tutor-cost-uk.md"
+  status = 200
+
+[[redirects]]
   from = "/ks2-sats-maths-papers-explained"
   to = "/src/pages/ks2-sats-maths-papers-explained.html"
   status = 200
