@@ -161,7 +161,7 @@ $100 / month
 - Same teaching approach, lower price
 - A friendly first step · cancel any time
 
-[See the full course](/courses/elementary-mathematics-complete-masterclass)
+[See the KS2 SATs Maths course](/courses/ks2-sats-maths-course)
 
 Sitting the 11+ as well? See our [**11 Plus Maths Tuition →**](/11-plus-maths-tuition) page.
 
@@ -247,7 +247,7 @@ Yes. We start wherever your child is.
 
 Meet the tutor in a full live class of about 45 to 60 minutes, see how we teach, and watch your child explain a piece of maths back to you. You get a written skill report afterwards, and the fee is adjusted against your first month if you enrol.
 
-[See the full course](/courses/elementary-mathematics-complete-masterclass)Keep exploring
+[See the KS2 SATs Maths course](/courses/ks2-sats-maths-course)Keep exploring
 
 ## More maths tuition from Modern Age Coders.
 

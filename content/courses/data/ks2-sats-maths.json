@@ -1,0 +1,453 @@
+{
+  "meta": {
+    "slug": "ks2-sats-maths-course",
+    "date": "2026-10-07",
+    "title": "KS2 SATs Maths: Arithmetic, Reasoning and Times Tables",
+    "description": "KS2 SATs maths course online for Years 4 to 6: times tables for the multiplication check, the arithmetic paper and both reasoning papers, taught live.",
+    "keywords": [
+      "ks2 sats maths course",
+      "year 6 sats maths tutor",
+      "ks2 maths tutor online",
+      "sats arithmetic paper practice",
+      "sats reasoning paper help",
+      "year 4 multiplication tables check practice",
+      "times tables tutor online",
+      "ks2 maths tuition uk"
+    ],
+    "category": "UK Primary Mathematics",
+    "taxonomy": "mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "8 months (32 weeks), timed to finish before the May tests",
+    "level": "Children in Years 4, 5 and 6 at primary schools in England, ages 8 to 11",
+    "commitment": "2 live classes/week + 20 minutes of practice on most days",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "ks2-sats-maths.webp",
+    "dateModified": "2026-10-07"
+  },
+  "program_overview": {
+    "title": "KS2 SATs Maths: Arithmetic, Reasoning and Times Tables",
+    "tagline": "Instant times tables, a calm arithmetic paper and reasoning answers that show their thinking, built up over eight months rather than crammed in April.",
+    "description": "The key stage 2 maths test is three papers. The test framework sets them out plainly: Paper 1 is arithmetic, 40 marks in 30 minutes, and Papers 2 and 3 are mathematical reasoning, 35 marks and 40 minutes each, so 110 marks across 110 minutes in total. In 2027 the maths papers are timetabled for Wednesday 12 May (Papers 1 and 2) and Thursday 13 May (Paper 3). Results come back as a scaled score between 80 and 120, and a score of at least 100 meets the expected standard.\n\nUnderneath all of it sit the times tables. The national curriculum expects children to have memorised the tables up to 12 by the end of Year 4, and the multiplication tables check tests exactly that: 25 questions, six seconds each, taken in June of Year 4. A child who still counts up in fives to find 7 times 5 loses time on every paper, so this course starts there.\n\nThe course runs in four phases: times tables to instant recall, the arithmetic paper method by method, the reasoning papers question type by question type, and finally full papers under real timing. Classes are live and small, so the teacher sees each child's working, not just the answer, and parents get a short written note every month on what has moved and what is next.",
+    "what_makes_this_different": [
+      "Built from the government's own key stage 2 mathematics test framework: the three papers, their marks and timings, and the resource list children actually use",
+      "Times tables first, because the multiplication tables check and every SATs paper lean on instant recall",
+      "The arithmetic paper taught as a set of written methods, each practised until it is automatic and checked",
+      "Reasoning taught by question type: multi-step word problems, explain-your-answer questions, measures, geometry and statistics",
+      "Full papers under real timing in the last two months, marked against the published mark schemes",
+      "Calm by design: short daily practice and clear progress notes for parents, not late-night cramming"
+    ],
+    "learning_path": {
+      "phase_1": "Times tables to instant recall: every table to 12 by 12, the related division facts, and timed practice in the multiplication check format",
+      "phase_2": "The arithmetic paper: place value, the four written methods, fractions, decimals and percentages as calculations",
+      "phase_3": "The reasoning papers: word problems, measures, geometry, statistics and explaining an answer",
+      "phase_4": "Full papers under timing: past and practice papers, marked and reviewed, with a calm plan for test week"
+    },
+    "career_outcomes": [
+      "Times tables to 12 by 12 recalled instantly, with the matching division facts",
+      "Secure written methods for every calculation type on the arithmetic paper",
+      "A routine for reading, planning and checking reasoning questions",
+      "Experience of full papers under real timing before test week",
+      "A firm base for Year 7 maths, whatever the result"
+    ]
+  },
+  "phase_1_times_tables": {
+    "title": "PHASE 1: Times Tables to Instant Recall (Months 1-2, Weeks 1-8)",
+    "description": "Every table up to 12 by 12 and its division facts, learned through patterns first and speed second. Year 4 children practise in the format of the multiplication tables check; older children use it as a warm-up for the papers.",
+    "month_1_tables_by_pattern": {
+      "title": "Month 1: Tables by Pattern",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: Diagnostic and the Easy Tables",
+        "topics": [
+          "A short diagnostic: which facts are instant, which are counted, which are guessed",
+          "The 2, 5 and 10 tables and the patterns that make them quick",
+          "Doubling to reach the 4 and 8 tables",
+          "Commutativity: why learning 3 times 7 also gives 7 times 3",
+          "The 11 table and its pattern up to 11 times 9",
+          "A personal fact chart: green for instant, amber for slow, red for unknown"
+        ],
+        "projects": [
+          "Fact chart started: every fact up to 12 by 12 coloured by speed after the diagnostic"
+        ],
+        "practice": "Ten minutes of mixed facts on most days, focusing on amber facts"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: The Harder Tables",
+        "topics": [
+          "The 3, 6 and 9 tables and how they connect",
+          "The 7 table, the one most children find hardest, with memory hooks",
+          "The 12 table built from the 10 and 2 tables",
+          "Square numbers up to 12 by 12",
+          "Spotting which facts are still slow and why",
+          "Using known facts to work out unknown ones"
+        ],
+        "projects": [
+          "Fact chart updated: amber and red facts listed with a hook for each"
+        ],
+        "practice": "Daily mixed practice weighted towards the 6, 7, 8 and 12 tables",
+        "assessment": "Month 1 check: 25 mixed facts, untimed, then the same 25 timed"
+      }
+    },
+    "month_2_speed_and_division": {
+      "title": "Month 2: Speed and Division Facts",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Division Facts and Missing Numbers",
+        "topics": [
+          "Division facts from each table, read the other way",
+          "Missing number questions such as 6 times something equals 42",
+          "Fact families: four facts from three numbers",
+          "Multiplying by 10 and 100 using place value",
+          "Scaling a known fact: from 3 times 4 to 30 times 4",
+          "Recognising factors and multiples"
+        ],
+        "projects": [
+          "Fact family cards made for the ten facts the child finds slowest"
+        ],
+        "practice": "Mixed multiplication and division facts with a short timer"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Six-Second Recall",
+        "topics": [
+          "Practice in the multiplication check format: 25 questions, six seconds each",
+          "Typing answers quickly and accurately on a keyboard or tablet",
+          "Staying calm when one fact is missed and moving to the next",
+          "Re-testing every fact that was amber in month 1",
+          "Using tables inside short calculations",
+          "Keeping recall instant with five minutes a day"
+        ],
+        "projects": [
+          "Fact chart completed: the aim is every fact green"
+        ],
+        "practice": "Three short timed checks a week in the check format",
+        "assessment": "Month 2 check: a full 25-question timed check, scored out of 25"
+      }
+    }
+  },
+  "phase_2_arithmetic_paper": {
+    "title": "PHASE 2: The Arithmetic Paper (Months 3-4, Weeks 9-16)",
+    "description": "Paper 1 is 40 marks in 30 minutes, all calculation. Each written method is taught, practised and checked until it is automatic, then mixed under time.",
+    "month_3_whole_numbers": {
+      "title": "Month 3: Whole Numbers and Written Methods",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Place Value and Addition and Subtraction",
+        "topics": [
+          "Place value to ten million and reading large numbers",
+          "Column addition with several carries",
+          "Column subtraction with exchanging across zeros",
+          "Adding and subtracting decimals by lining up the point",
+          "Estimating before calculating to catch slips",
+          "Inverse operations as a check"
+        ],
+        "projects": [
+          "Method book started: one worked example per method, written by the child"
+        ],
+        "practice": "20 column calculations a week, each checked by estimation"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Multiplication and Division",
+        "topics": [
+          "Short multiplication by a one-digit number",
+          "Long multiplication by a two-digit number",
+          "Short division, including remainders",
+          "Long division by a two-digit number",
+          "Order of operations with brackets",
+          "Choosing a mental method when the numbers allow it"
+        ],
+        "projects": [
+          "Method book entry: long multiplication and long division set out step by step"
+        ],
+        "practice": "15 multiplication and division calculations a week",
+        "assessment": "Month 3 test: a half-length arithmetic paper, 20 marks in 15 minutes"
+      }
+    },
+    "month_4_fractions_decimals_percentages": {
+      "title": "Month 4: Fractions, Decimals and Percentages",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Fraction Calculations",
+        "topics": [
+          "Equivalent fractions and simplifying",
+          "Adding and subtracting fractions with different denominators",
+          "Mixed numbers and improper fractions",
+          "Multiplying fractions, including by a whole number",
+          "Dividing a fraction by a whole number",
+          "Fractions of amounts"
+        ],
+        "projects": [
+          "Method book entry: every fraction method with a worked example"
+        ],
+        "practice": "20 fraction calculations a week, answers simplified"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Decimals, Percentages and the Full Paper",
+        "topics": [
+          "Multiplying and dividing decimals by 10, 100 and 1000",
+          "Multiplying a decimal by a whole number",
+          "Percentages of amounts",
+          "Squares, cubes and simple powers",
+          "Working through a full arithmetic paper in 30 minutes",
+          "Checking strategy for the last five minutes"
+        ],
+        "projects": [
+          "Arithmetic tracker: score and time recorded for every practice paper"
+        ],
+        "practice": "One full arithmetic paper a week under timing",
+        "assessment": "Month 4 test: a full arithmetic paper, 40 marks in 30 minutes, marked and reviewed"
+      }
+    }
+  },
+  "phase_3_reasoning_papers": {
+    "title": "PHASE 3: The Reasoning Papers (Months 5-6, Weeks 17-24)",
+    "description": "Papers 2 and 3 are 35 marks and 40 minutes each, and they test whether a child can use maths in context and explain it. Each question type is taught on its own, then mixed.",
+    "month_5_number_and_measures": {
+      "title": "Month 5: Number Reasoning and Measures",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Multi-Step Word Problems",
+        "topics": [
+          "Reading a word problem twice and finding the question",
+          "Bar models for comparison and part-whole problems",
+          "Multi-step problems that combine two or three operations",
+          "Ratio and scaling problems",
+          "Simple algebra: missing numbers and formulae in words",
+          "Showing working so method marks are possible"
+        ],
+        "projects": [
+          "Problem journal started: one solved problem per question type with a bar model"
+        ],
+        "practice": "10 word problems a week, each with a written plan before the calculation"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Measures, Money and Time",
+        "topics": [
+          "Converting units of length, mass and capacity",
+          "Money problems with change and value-for-money comparisons",
+          "Reading and calculating with time, including timetables",
+          "Perimeter and area of rectangles and compound shapes",
+          "Area of triangles and parallelograms",
+          "Volume of cuboids"
+        ],
+        "projects": [
+          "Problem journal entry: a measures question for each unit type"
+        ],
+        "practice": "12 measures questions a week in reasoning-paper style",
+        "assessment": "Month 5 test: a 20-minute reasoning section, marked against a published scheme"
+      }
+    },
+    "month_6_geometry_statistics_explaining": {
+      "title": "Month 6: Geometry, Statistics and Explaining",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Geometry and Statistics",
+        "topics": [
+          "Angles on a line, around a point and in triangles and quadrilaterals",
+          "Measuring and drawing angles with a protractor",
+          "Properties of 2-D and 3-D shapes, including circles",
+          "Coordinates in four quadrants, translations and reflections",
+          "Reading line graphs, tables and pie charts",
+          "Calculating and interpreting the mean"
+        ],
+        "projects": [
+          "Problem journal entry: geometry and statistics questions with labelled diagrams"
+        ],
+        "practice": "12 geometry and statistics questions a week"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Explain, Show and Check",
+        "topics": [
+          "Explain-your-answer questions and what a full answer includes",
+          "Always, sometimes or never true statements",
+          "Spotting and correcting a mistake in someone else's working",
+          "Checking that an answer is sensible in context",
+          "Mixed reasoning sets that do not announce their topic",
+          "Pacing a 40-minute paper"
+        ],
+        "projects": [
+          "Explanation bank: model answers to ten explain questions, written in the child's own words"
+        ],
+        "practice": "One full reasoning paper a week under timing",
+        "assessment": "Month 6 test: a full reasoning paper, 35 marks in 40 minutes, marked and reviewed"
+      }
+    }
+  },
+  "phase_4_full_papers": {
+    "title": "PHASE 4: Full Papers Under Timing (Months 7-8, Weeks 25-32)",
+    "description": "No new content. Full sets of three papers under real timing, marked against the published mark schemes, with a short review after each one and a calm plan for test week.",
+    "month_7_paper_sets": {
+      "title": "Month 7: Paper Sets",
+      "weeks": "Weeks 25-28",
+      "week_25_26": {
+        "title": "Weeks 25-26: First Full Sets",
+        "topics": [
+          "A full set: arithmetic paper, then both reasoning papers on separate days",
+          "Marking against the published mark scheme",
+          "Sorting lost marks: recall, method, reading or carelessness",
+          "Re-teaching the two weakest areas",
+          "Times tables kept instant with short warm-ups",
+          "Using the resource list: ruler, protractor and mirror"
+        ],
+        "projects": [
+          "Paper tracker: scores for each paper on one chart"
+        ],
+        "practice": "One full set of three papers each fortnight"
+      },
+      "week_27_28": {
+        "title": "Weeks 27-28: Targeted Repair",
+        "topics": [
+          "Short lessons on each child's own weak spots, taken from the tracker",
+          "Arithmetic speed drills on the slowest methods",
+          "Reasoning questions of the types most often dropped",
+          "Reading questions aloud in the head before answering",
+          "Leaving and returning to a hard question",
+          "Checking answers in the final minutes"
+        ],
+        "projects": [
+          "Repair list: each weak area with the date it was fixed"
+        ],
+        "practice": "Focused sets on two weak areas a week",
+        "assessment": "Month 7 checkpoint: a second full set of three papers, marked"
+      }
+    },
+    "month_8_test_ready": {
+      "title": "Month 8: Ready for Test Week",
+      "weeks": "Weeks 29-32",
+      "week_29_30": {
+        "title": "Weeks 29-30: Final Sets",
+        "topics": [
+          "A final full set under real timing",
+          "Review of every lost mark",
+          "Mixed practice from the repair list",
+          "Arithmetic in under 30 minutes with checking time left",
+          "Reasoning pacing: 40 minutes per paper",
+          "Confidence from seeing the tracker rise"
+        ],
+        "projects": [
+          "Paper tracker completed"
+        ],
+        "practice": "Short daily mixed practice, no all-day sessions"
+      },
+      "week_31_32": {
+        "title": "Weeks 31-32: Calm Before the Tests",
+        "topics": [
+          "Light revision of methods from the method book",
+          "Times tables warm-ups",
+          "What to expect on each day of test week",
+          "Sleep, breakfast and a normal routine",
+          "A short talk with parents about keeping test week low-pressure",
+          "Planning maths for the summer and Year 7"
+        ],
+        "projects": [
+          "Finished method book, problem journal and explanation bank, kept for Year 7"
+        ],
+        "practice": "Ten minutes a day of light, familiar practice",
+        "assessment": "Final review with the teacher and a written note for parents"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A colour-coded times tables fact chart, filled to green",
+      "A method book with a worked example of every written calculation method",
+      "A problem journal with a solved example of every reasoning question type",
+      "An explanation bank of model answers in the child's own words",
+      "An arithmetic tracker and a full-paper tracker",
+      "A repair list showing each weak area and when it was fixed"
+    ],
+    "total_projects_built": "A complete SATs maths kit: fact chart, method book, problem journal, explanation bank and paper trackers",
+    "skills_mastered": [
+      "Times tables to 12 by 12 recalled instantly, with division facts",
+      "Every written method on the arithmetic paper, with checking",
+      "Fractions, decimals and percentages as calculations",
+      "Reasoning with measures, geometry and statistics",
+      "Explaining an answer clearly enough to earn the mark",
+      "Pacing a timed paper and checking in the final minutes"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live classes per week, 45 to 60 minutes each depending on age and phase",
+      "practice": "About 20 minutes on most days, including a few minutes of times tables",
+      "review": "Practice marked with short comments; papers marked against published schemes"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp support for parents between classes, with worked examples for stuck questions",
+      "progress_updates": "A short written note to parents each month with tracker scores and next steps"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "Working on Year 4, 5 or 6 maths at school. The first week's diagnostic shows where each child is, and the plan starts from there",
+    "school_system": "Built for the key stage 2 tests at primary schools in England. Children elsewhere are welcome for the content, but the papers are England's",
+    "equipment": "Pencil, ruler, protractor, a small mirror, squared paper, and a device with stable internet for live classes",
+    "timing": "Ideally started in the autumn of Year 6, or earlier in Years 4 and 5 for times tables and arithmetic. Later joiners get a shorter plan focused on papers"
+  },
+  "who_is_this_for": {
+    "year_6_children": "Year 6 children preparing for the May tests who want steady, structured practice",
+    "year_4_children": "Year 4 children getting ready for the multiplication tables check",
+    "year_5_children": "Year 5 children who want arithmetic and times tables secure a year early",
+    "children_needing_confidence": "Children who know the maths but freeze or rush under time",
+    "children_aiming_higher": "Children who are already secure and want the harder reasoning questions"
+  },
+  "career_paths_after_completion": [
+    "A smooth start to Year 7 maths with times tables and written methods already secure",
+    "Our KS3 and 11 plus maths courses for children who want to keep going",
+    "Our mental maths and coding courses for children who enjoy number puzzles"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 children, with mini-batch (3 to 4 children) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured plan built from the government's test framework, taught step by step.",
+    "doubt_support": "Doubt support for parents between classes over WhatsApp.",
+    "certificate": "A course-completion certificate and a finished SATs maths kit the child keeps.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Monthly checks, full arithmetic and reasoning papers, and full timed sets marked against published schemes."
+  },
+  "faqs": [
+    {
+      "question": "What is in the KS2 SATs maths test?",
+      "answer": "Three papers. Paper 1 is arithmetic, 40 marks in 30 minutes. Papers 2 and 3 are mathematical reasoning, 35 marks and 40 minutes each. That is 110 marks over 110 minutes in total, set out in the government's key stage 2 mathematics test framework."
+    },
+    {
+      "question": "When are the KS2 SATs maths papers in 2027?",
+      "answer": "The government's primary assessment dates page timetables maths Papers 1 and 2 for Wednesday 12 May 2027 and Paper 3 for Thursday 13 May 2027. The multiplication tables check for Year 4 runs in a two-week window from Monday 7 June 2027."
+    },
+    {
+      "question": "What score does my child need in SATs maths?",
+      "answer": "Results are scaled scores from 80 to 120. A scaled score of at least 100 means the child has met the expected standard. The number of raw marks needed for 100 can change from year to year, because the difficulty of the tests varies."
+    },
+    {
+      "question": "What is the Year 4 multiplication tables check?",
+      "answer": "A short on-screen check taken in June of Year 4. Each child answers 25 times tables questions up to 12 by 12, with six seconds for each one. It checks instant recall, which is why this course spends its first two months on times tables."
+    },
+    {
+      "question": "Can children use a calculator in the SATs maths test?",
+      "answer": "The resource list in the test framework is a pen or pencil, a ruler and an optional rubber for the arithmetic paper, plus an angle measurer or protractor and a mirror for the reasoning papers. A calculator is not on it, so this course teaches every calculation by hand."
+    },
+    {
+      "question": "Is SATs maths the same as 11 plus maths?",
+      "answer": "No. SATs are national tests taken by Year 6 children in England. The 11 plus is a selection test set by some areas and schools, usually in Year 5 or early Year 6, with its own format. There is overlap in the maths, and we also run a separate 11 plus maths course."
+    },
+    {
+      "question": "Are the SATs changing?",
+      "answer": "The government has said future assessment arrangements are under review after the Curriculum and Assessment Review, and that arrangements for the 2026 to 2027 academic year will stay the same. We follow the published framework and will update the course if anything changes."
+    },
+    {
+      "question": "How are the classes run?",
+      "answer": "Live online classes with a real teacher, either in a small group of 5 to 10 children at a similar level or one to one. Practice is short and frequent, and parents get a written note each month. Current fees for your region are shown in the pricing section of this page."
+    },
+    {
+      "question": "My child is in Year 4. Is it too early?",
+      "answer": "Not for times tables and arithmetic. Year 4 is when the multiplication check happens, and secure tables make every later year easier. Younger children follow the first two phases at their own pace and join the paper practice later."
+    },
+    {
+      "question": "Can we try a lesson first?",
+      "answer": "Yes. Book a free demo class. The teacher plays a few times tables games and arithmetic questions with your child, sees where they are, and suggests whether group or one-to-one teaching fits better. There is no obligation to enrol."
+    }
+  ]
+}
