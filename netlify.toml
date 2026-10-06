@@ -4158,6 +4158,21 @@
   status = 200
 
 [[redirects]]
+  from = "/gcse-maths-calculator-vs-non-calculator-papers"
+  to = "/src/pages/gcse-maths-calculator-vs-non-calculator-papers.html"
+  status = 200
+
+[[redirects]]
+  from = "/gcse-maths-calculator-vs-non-calculator-papers.html"
+  to = "/gcse-maths-calculator-vs-non-calculator-papers"
+  status = 301
+
+[[redirects]]
+  from = "/gcse-maths-calculator-vs-non-calculator-papers.md"
+  to = "/src/pages/gcse-maths-calculator-vs-non-calculator-papers.md"
+  status = 200
+
+[[redirects]]
   from = "/a-level-maths-tutor-cost-uk"
   to = "/src/pages/a-level-maths-tutor-cost-uk.html"
   status = 200
