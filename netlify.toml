@@ -4158,6 +4158,21 @@
   status = 200
 
 [[redirects]]
+  from = "/functional-skills-maths-vs-gcse-maths"
+  to = "/src/pages/functional-skills-maths-vs-gcse-maths.html"
+  status = 200
+
+[[redirects]]
+  from = "/functional-skills-maths-vs-gcse-maths.html"
+  to = "/functional-skills-maths-vs-gcse-maths"
+  status = 301
+
+[[redirects]]
+  from = "/functional-skills-maths-vs-gcse-maths.md"
+  to = "/src/pages/functional-skills-maths-vs-gcse-maths.md"
+  status = 200
+
+[[redirects]]
   from = "/national-5-vs-higher-maths"
   to = "/src/pages/national-5-vs-higher-maths.html"
   status = 200
