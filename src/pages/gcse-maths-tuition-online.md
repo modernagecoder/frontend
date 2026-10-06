@@ -177,7 +177,7 @@ $100 / month
 - Same teaching approach, lower price
 - Good for classmates · cancel any time
 
-[See the full course](/courses/complete-high-school-mathematics-mastery)
+[See the full course](/courses/gcse-mathematics-mastery)
 
 Continuing to sixth form? See our [**A-Level Maths Tuition →**](/a-level-maths-tuition-online) page.
 
@@ -271,11 +271,11 @@ A Year 9 student can, and often should, because the foundation and higher tier d
 
 Bring a recent paper or mock. We'll show you exactly where the marks are leaking and how we'd close the gap before the exam. No card needed.
 
-[See the full course](/courses/complete-high-school-mathematics-mastery)Keep exploring
+[See the full course](/courses/gcse-mathematics-mastery)Keep exploring
 
 ## More maths tuition from Modern Age Coders.
 
-[UK · examA-Level Maths Tuition](/a-level-maths-tuition-online)[UK · KS3/KS4Maths Tuition for Teens](/online-maths-tuition-for-teens-in-uk)[UK · KS3KS3 Maths Tuition](/ks3-maths-tuition-online)[UK · adultsGCSE Resit for Adults](/online-maths-classes-for-adults-in-uk)[USA · examSAT Math Prep](/sat-math-tutoring-online)[CourseGCSE & High School Mathematics](/courses/complete-high-school-mathematics-mastery)[CourseGCSE Maths Resit (Post-16 & Adults)](/courses/gcse-maths-resit-course)
+[UK · examA-Level Maths Tuition](/a-level-maths-tuition-online)[UK · KS3/KS4Maths Tuition for Teens](/online-maths-tuition-for-teens-in-uk)[UK · KS3KS3 Maths Tuition](/ks3-maths-tuition-online)[UK · adultsGCSE Resit for Adults](/online-maths-classes-for-adults-in-uk)[USA · examSAT Math Prep](/sat-math-tutoring-online)[CourseGCSE & High School Mathematics](/courses/gcse-mathematics-mastery)[CourseGCSE Maths Resit (Post-16 & Adults)](/courses/gcse-maths-resit-course)
 
 Real student projects
 
