@@ -271,6 +271,7 @@ module.exports = {
     lede: 'The next level, the computing equivalent, and the wider system.',
     items: [
       { href: '/higher-maths-tuition-online', label: 'Higher Maths tuition', p: 'What changes when the working itself earns the marks.' },
+      { href: '/maths-tutor-cost-scotland', label: 'Maths tutor costs in Scotland', p: 'Published National 5 and Higher tutor rates and study centre fees.' },
       { href: '/national-5-computing-science-help', label: 'National 5 Computing Science', p: 'The other National 5 many maths students take.' },
       { href: '/scottish-mathematical-challenge-practice', label: 'Scottish Mathematical Challenge', p: 'Problem solving for pupils who enjoy maths.' },
       { href: '/coding-and-ai-classes-in-scotland', label: 'Coding and AI classes in Scotland', p: 'Primary to S6, and how the system fits together.' },

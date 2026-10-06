@@ -251,6 +251,7 @@ Nothing for the first lesson. Regular lessons are then a single monthly charge i
 ## Further pages for Scottish students
 
 - [Higher Maths tuition](/higher-maths-tuition-online): What changes when the working itself earns the marks.
+- [Maths tutor costs in Scotland](/maths-tutor-cost-scotland): Published National 5 and Higher tutor rates and study centre fees.
 - [National 5 Computing Science](/national-5-computing-science-help): The other National 5 many maths students take.
 - [Scottish Mathematical Challenge](/scottish-mathematical-challenge-practice): Problem solving for pupils who enjoy maths.
 - [Coding and AI classes in Scotland](/coding-and-ai-classes-in-scotland): Primary to S6, and how the system fits together.

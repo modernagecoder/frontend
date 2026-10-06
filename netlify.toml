@@ -4158,6 +4158,21 @@
   status = 200
 
 [[redirects]]
+  from = "/maths-tutor-cost-scotland"
+  to = "/src/pages/maths-tutor-cost-scotland.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tutor-cost-scotland.html"
+  to = "/maths-tutor-cost-scotland"
+  status = 301
+
+[[redirects]]
+  from = "/maths-tutor-cost-scotland.md"
+  to = "/src/pages/maths-tutor-cost-scotland.md"
+  status = 200
+
+[[redirects]]
   from = "/functional-skills-maths-course-cost-uk"
   to = "/src/pages/functional-skills-maths-course-cost-uk.html"
   status = 200
