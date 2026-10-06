@@ -25,7 +25,7 @@ The tutor starts from the grade your child is working at now, measured on full p
 | Grades 1 to 3 | Foundation tier, with number, ratio and algebra gaps fixed first, because those areas hold most Foundation marks | [GCSE Maths](/courses/gcse-mathematics-mastery), plus [Algebra Foundations](/courses/algebra-foundations-masterclass) |
 | Grade 4 secure, grade 5 in reach | Exam technique and the topics that carry grade 5 marks; a look at Higher papers if a 6 is realistic | [GCSE Maths](/courses/gcse-mathematics-mastery) |
 | Grades 6 to 9 | Higher tier, with the Higher-only content taught early and multi-step problems practised every week | [GCSE Maths](/courses/gcse-mathematics-mastery), then [A Level Maths](/courses/a-level-maths-course-pure-mechanics-statistics) |
-| Post-16 or adult without grade 4 | A resit plan from a full diagnostic paper | [GCSE maths resit guide](/gcse-maths-resit-explained) and [GCSE Maths](/courses/gcse-mathematics-mastery) |
+| Post-16 or adult without grade 4 | A resit plan from a full diagnostic paper | [GCSE Maths Resit](/courses/gcse-maths-resit-course), with our [resit guide](/gcse-maths-resit-explained) |
 
 [Book a Priority Demo](/priority-demo)[Or join the free demo list](/book-demo?subject=maths)The scale
 
