@@ -4158,6 +4158,21 @@
   status = 200
 
 [[redirects]]
+  from = "/national-5-vs-higher-maths"
+  to = "/src/pages/national-5-vs-higher-maths.html"
+  status = 200
+
+[[redirects]]
+  from = "/national-5-vs-higher-maths.html"
+  to = "/national-5-vs-higher-maths"
+  status = 301
+
+[[redirects]]
+  from = "/national-5-vs-higher-maths.md"
+  to = "/src/pages/national-5-vs-higher-maths.md"
+  status = 200
+
+[[redirects]]
   from = "/is-a-level-further-maths-worth-it"
   to = "/src/pages/is-a-level-further-maths-worth-it.html"
   status = 200
