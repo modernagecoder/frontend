@@ -174,6 +174,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - IGCSE Mathematics Mastery (0580/0980 + Additional 0606): https://learn.modernagecoders.com/courses/igcse-mathematics-mastery
 - GCSE Mathematics Mastery (9-1, AQA/Edexcel/OCR): https://learn.modernagecoders.com/courses/gcse-mathematics-mastery
 - GCSE Maths Foundation vs Higher tier (grades, allowed grade 3, AQA/Edexcel/OCR papers, how to choose): https://learn.modernagecoders.com/gcse-maths-foundation-vs-higher
+- AQA vs Edexcel vs OCR GCSE maths (papers, marks, non-calculator paper, grade boundaries, November resits): https://learn.modernagecoders.com/aqa-vs-edexcel-vs-ocr-gcse-maths
 - PSLE Maths Mastery (MOE syllabus, model method): https://learn.modernagecoders.com/courses/psle-maths-mastery
 - Mental Maths Mastery for Kids (ages 5-10, number sense): https://learn.modernagecoders.com/courses/mental-maths-mastery-kids
 - Early Math Foundations (K-2, ages 4-7): https://learn.modernagecoders.com/courses/early-math-foundations

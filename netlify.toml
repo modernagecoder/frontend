@@ -4158,6 +4158,21 @@
   status = 200
 
 [[redirects]]
+  from = "/aqa-vs-edexcel-vs-ocr-gcse-maths"
+  to = "/src/pages/aqa-vs-edexcel-vs-ocr-gcse-maths.html"
+  status = 200
+
+[[redirects]]
+  from = "/aqa-vs-edexcel-vs-ocr-gcse-maths.html"
+  to = "/aqa-vs-edexcel-vs-ocr-gcse-maths"
+  status = 301
+
+[[redirects]]
+  from = "/aqa-vs-edexcel-vs-ocr-gcse-maths.md"
+  to = "/src/pages/aqa-vs-edexcel-vs-ocr-gcse-maths.md"
+  status = 200
+
+[[redirects]]
   from = "/a-level-maths-tuition-online"
   to = "/src/pages/a-level-maths-tuition-online.html"
   status = 200
