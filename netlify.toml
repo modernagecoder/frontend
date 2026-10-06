@@ -4158,6 +4158,21 @@
   status = 200
 
 [[redirects]]
+  from = "/is-maths-tuition-worth-it-uk"
+  to = "/src/pages/is-maths-tuition-worth-it-uk.html"
+  status = 200
+
+[[redirects]]
+  from = "/is-maths-tuition-worth-it-uk.html"
+  to = "/is-maths-tuition-worth-it-uk"
+  status = 301
+
+[[redirects]]
+  from = "/is-maths-tuition-worth-it-uk.md"
+  to = "/src/pages/is-maths-tuition-worth-it-uk.md"
+  status = 200
+
+[[redirects]]
   from = "/maths-tutor-vs-tuition-centre-uk"
   to = "/src/pages/maths-tutor-vs-tuition-centre-uk.html"
   status = 200
