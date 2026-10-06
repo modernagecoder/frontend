@@ -4158,6 +4158,21 @@
   status = 200
 
 [[redirects]]
+  from = "/group-vs-one-to-one-maths-tuition"
+  to = "/src/pages/group-vs-one-to-one-maths-tuition.html"
+  status = 200
+
+[[redirects]]
+  from = "/group-vs-one-to-one-maths-tuition.html"
+  to = "/group-vs-one-to-one-maths-tuition"
+  status = 301
+
+[[redirects]]
+  from = "/group-vs-one-to-one-maths-tuition.md"
+  to = "/src/pages/group-vs-one-to-one-maths-tuition.md"
+  status = 200
+
+[[redirects]]
   from = "/online-vs-face-to-face-maths-tuition-uk"
   to = "/src/pages/online-vs-face-to-face-maths-tuition-uk.html"
   status = 200
