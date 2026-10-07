@@ -355,6 +355,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Student hackathons in Australia](/australian-student-hackathons)
 - [After a Girls' Programming Network workshop](/girls-programming-network-next-step-australia)
 - [Australian Mathematical Olympiad preparation](/australian-mathematical-olympiad-preparation)
+- [Coding competitions for primary kids](/australian-coding-competitions-for-primary-kids)
 <!-- AU-LINKS -->
 
 
