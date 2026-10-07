@@ -835,6 +835,23 @@ const MARKETS = [
   ['best-coding-classes-in-sydney', 'Sydney, New South Wales'],
   ['coding-and-ai-classes-in-new-south-wales', 'New South Wales, Australia'],
   ['vibe-coding-and-ai-agents-classes-in-melbourne', 'Melbourne, Victoria'],
+  ['coding-and-ai-classes-in-victoria', 'Victoria, Australia'],
+  ['best-coding-classes-in-brisbane', 'Brisbane, Queensland'],
+  ['coding-and-ai-classes-in-queensland', 'Queensland, Australia'],
+  ['coding-and-ai-classes-in-western-australia', 'Western Australia'],
+  ['online-coding-and-python-classes-in-perth-western-australia', 'Perth, Western Australia'],
+  ['ai-and-programming-classes-in-adelaide', 'Adelaide, South Australia'],
+  ['coding-classes-for-kids-melbourne', 'Melbourne, for kids'],
+  ['coding-and-ai-classes-in-south-australia', 'South Australia'],
+  ['vibe-coding-and-ai-agents-classes-in-canberra', 'Canberra, Australian Capital Territory'],
+  ['coding-classes-for-kids-brisbane', 'Brisbane, for kids'],
+  ['coding-and-ai-classes-in-tasmania', 'Tasmania, Australia'],
+  ['best-coding-classes-in-hobart', 'Hobart, Tasmania'],
+  ['coding-and-ai-classes-in-australian-capital-territory', 'Australian Capital Territory'],
+  ['online-coding-and-python-classes-in-darwin', 'Darwin, Northern Territory'],
+  ['coding-classes-for-kids-adelaide', 'Adelaide, for kids'],
+  ['coding-and-ai-classes-in-northern-territory', 'Northern Territory, Australia'],
+  ['coding-classes-for-kids-perth', 'Perth, for kids'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

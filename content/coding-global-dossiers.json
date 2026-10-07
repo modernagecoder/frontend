@@ -38455,5 +38455,781 @@
       "Income, rent, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with VCAA, Public Transport Victoria, Yarra Trams, OpenStreetMap, the ABS or the Bureau of Meteorology."
     ]
+  },
+  "coding-and-ai-classes-in-victoria": {
+    "market": "Victoria",
+    "bodyClass": "cg-vcst",
+    "pageType": "city",
+    "curriculumAuthority": "Victoria, ABS Census 2021 QuickStats, state 2 (read 7 October 2026): 6,503,491 people; median age 38 (Australia 38); 1,718,771 families; 2,805,661 private dwellings; average 2.5 people per household; level of highest educational attainment, people aged 15 and over, bachelor degree level and above 1,557,447 (29.2 percent; Victoria 2016 1,177,540, 24.3 percent; Australia 2021 26.3 percent). Age table, percent columns Victoria 2021, Victoria 2016 and Australia 2021 for 0-4 to 85 and over. Greater Melbourne GCCSA 2GMEL: 4,917,750 people. Victorian Government school term dates page (vic.gov.au): term dates approved by the Minister in 5-year blocks under Regulation 13 of the Education and Training Reform Regulations 2017; the 2026-2030 dates were approved on 28 June 2021; 2027: Term 1 Wednesday 27 January (students start Thursday 28 January in government schools) to Thursday 25 March; Term 2 Monday 12 April to Friday 25 June; Term 3 Monday 12 July to Friday 17 September; Term 4 Monday 4 October to Friday 17 December. IANA tzdata 2026e, australasia file: Zone Australia/Melbourne uses rule AV; Rule AV 2008 to max: daylight saving from the first Sunday in October to the first Sunday in April. VCE and VCAA facts are linked to the dedicated VCE pages.",
+    "localProject": "Rounding rules on the published QuickStats age-group percentages (calculated 7 October 2026 with Python decimal, ROUND_HALF_UP and ROUND_HALF_EVEN). Sums of the 18 published one-decimal shares: Victoria 2021 100.0, Victoria 2016 100.1, Australia 2021 99.9. Exact .5 ties: Victoria 2021 one (35-39, 7.5), Victoria 2016 none, Australia 2021 one (40-44, 6.5). Whole-number totals: Victoria 2021 100 under both rules (7.5 to 8 either way); Victoria 2016 100 under both; Australia 2021 99 half up, 98 half to even. Python round() on floats follows half to even (round(6.5) = 6, round(7.5) = 8) and totals 98 on the Australian column. Lesson family: round half to even (banker's rounding) versus round half up, double rounding, and why rounded shares do not sum to 100; distinct from apportionment, significant-figure and floating-point error pages.",
+    "requiredMentions": [
+      "6,503,491",
+      "1,718,771",
+      "2,805,661",
+      "1,557,447",
+      "28 June 2021",
+      "Thursday 25 March",
+      "Friday 17 September",
+      "Monday 4 October",
+      "round(6.5)"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Victoria: people, median age, families, private dwellings, household size, highest educational attainment and the age table.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/2"
+      },
+      {
+        "claim": "ABS Census 2021 QuickStats, Greater Melbourne: people.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/2GMEL"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays: 2027 terms, 5-year blocks, approval of the 2026-2030 dates on 28 June 2021.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Australia/Melbourne and rule AV.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      },
+      {
+        "claim": "Python documentation, built-in round(): values halfway between two multiples are rounded toward the even choice.",
+        "url": "https://docs.python.org/3/library/functions.html#round"
+      }
+    ],
+    "rejectedClaims": [
+      "VCE study scores, ATAR outcomes, school results and rankings: excluded by the cluster rules.",
+      "Selective entry offers, cut-offs or school choice advice: admissions-adjacent and excluded.",
+      "A Victorian total rebuilt by adding age-group counts: Census cells are adjusted for privacy, so only the published total is used.",
+      "Income, rent, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Daylight saving dates from a Victorian government page: the vic.gov.au daylight saving URL returned 404, so the rule is quoted from the IANA database instead.",
+      "Any affiliation with the VCAA, the Victorian Department of Education or the ABS."
+    ]
+  },
+  "best-coding-classes-in-brisbane": {
+    "market": "Brisbane",
+    "bodyClass": "cg-bne",
+    "pageType": "city",
+    "curriculumAuthority": "Greater Brisbane, ABS Census 2021 QuickStats, GCCSA 3GBRI (read 7 October 2026): 2,526,238 people; median age 36 (Queensland 38, Australia 38); 674,188 families; 1,016,682 private dwellings; average 2.6 people per household; dwelling structure, occupied private dwellings: flat or apartment 133,894 (14.7 percent; Queensland 12.5; Australia 14.2), separate house 669,242 (73.4 percent); occupation, employed people aged 15 and over: Professionals 307,246 (24.7 percent; Queensland 21.4; Australia 24.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 550,809 (27.0 percent; Queensland 21.9; Australia 26.3); aged 15 to 19: 157,117 (6.2 percent). Queensland Department of Education term dates page: 2026 Term 4 Tuesday 6 October to Friday 11 December, 10 weeks. IANA tz database (australasia file, read 7 October 2026): Zone Australia/Brisbane 10:00 AQ AE%sT from 1971; rule AQ daylight saving 1971-72 and 1989-90 to 1991-92 only; Asia/Kolkata UTC+5:30, so Brisbane is 4 hours 30 minutes ahead of India time all year.",
+    "localProject": "Binary search tree height against insertion order. Translink SEQ_GTFS.zip downloaded 7 October 2026: feed_info publisher Department of Transport and Main Roads - Translink Division, feed_start_date 20261007, feed_end_date 20261206; stops.txt 13,124 rows, 12,855 with location_type 0 and 269 with location_type 1; all 12,855 stop_code values distinct; 24 stop names contain \"ferry terminal\"; routes.txt route_type counts 3: 583, 2: 512, 4: 9, 0: 1. Integer stop codes inserted into an unbalanced binary search tree (height = links on the longest root-to-leaf path): file order (543 ascending runs because the file is sorted by stop_id as text) height 8,427, mean node depth 3,381.3; sorted order height 12,854, mean depth 6,427.0; 200 random shuffles (Python random.seed 2026) mean height 31.13, min 27, max 37, mean node depth 16.14; minimum possible height ceil(log2(12,856)) - 1 = 13; AVL tree inserting the sorted codes height 13 with 12,841 single rotations counted. Lesson family: BST shape depends on insertion order; AVL rebalancing; distinct from quickselect pivots (Sydney), sorting pages, binary search and skip lists.",
+    "requiredMentions": [
+      "2,526,238",
+      "674,188",
+      "1,016,682",
+      "550,809",
+      "307,246",
+      "12,855",
+      "8,427",
+      "12,841",
+      "3,381.3",
+      "31.13"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Greater Brisbane (3GBRI): people, median age, families, private dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/3GBRI"
+      },
+      {
+        "claim": "Translink General Transit Feed Specification for South East Queensland (SEQ_GTFS.zip), Creative Commons Attribution 4.0, listed on the Queensland Government open data portal.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Queensland Department of Education, term dates 2026.",
+        "url": "https://education.qld.gov.au/about-us/calendar/term-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Brisbane rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Bureau of Meteorology station names and observations: the observations feed returned 403 to an automated request on 7 October 2026 and was not circumvented, so no weather facts are used.",
+      "Queensland Curriculum and Assessment Authority syllabus details: qcaa.qld.edu.au returned a Cloudflare 403 and was not circumvented, so no QCE subject facts are quoted.",
+      "Any count of stops for Brisbane City alone: the Translink file covers all of South East Queensland and has no council boundary field.",
+      "Patronage, travel times or service frequency: not measured; the project uses stop codes only.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Translink, the Department of Transport and Main Roads, the ABS or the Queensland Department of Education."
+    ]
+  },
+  "coding-and-ai-classes-in-queensland": {
+    "market": "Queensland",
+    "bodyClass": "cg-qlst",
+    "pageType": "city",
+    "curriculumAuthority": "Queensland, ABS Census 2021 QuickStats, state 3 (read 7 October 2026): 5,156,138 people; median age 38; 1,366,657 families; 2,190,424 private dwellings; average 2.5 people per household; bachelor degree level and above 918,466 (21.9 percent; Queensland 2016 693,410, 18.3 percent; Australia 2021 26.3 percent). Greater Brisbane GCCSA 3GBRI: 2,526,238 people. Queensland Department of Education term dates page (education.qld.gov.au/about-us/calendar/term-dates): 2026 Term 1 Tuesday 27 January to Thursday 2 April, 10 weeks; Term 2 Monday 20 April to Friday 26 June, 10 weeks; Term 3 Monday 13 July to Friday 18 September, 10 weeks; Term 4 Tuesday 6 October to Friday 11 December, 10 weeks; staff professional development days Term 1 Thursday 22 and Friday 23 January, Term 2 Thursday 16 and Friday 17 April, Term 3 Friday 4 September; school holidays after Term 4 Saturday 12 December to Tuesday 26 January 2027, 46 days; 2027 to 2029 dates on a separate future school dates page. IANA tzdata 2026e australasia file: Zone Australia/Brisbane rule AQ; Rule AQ 1989-1991 October last Sunday daylight saving, 1990-1992 March first Sunday standard time, no later rule. QCAA (qcaa.qld.edu.au) returned a Cloudflare challenge (HTTP 403) on 7 October 2026 and was not circumvented.",
+    "localProject": "Linear referencing (chainage) on OpenStreetMap relation 15667051, T5 Gold Coast line Roma Street to Varsity Lakes, read from the OSM API 0.6 on 7 October 2026 (ODbL). Track ways (role empty) joined end to end: 1,434 vertices, 89.103 km. 14 platforms; each platform centre (or the matching stop node for a platform mapped as a relation) projected onto the nearest segment in a local planar projection at latitude 27.75 S. Chainage from the Roma Street platform: South Bank 2.684 km, Boggo Road 4.239, Altandi 17.873, Loganlea 31.249, Beenleigh 40.205, Ormeau 52.537, Coomera 59.441, Hope Island (OSM label) 62.929, Helensvale 68.229, Nerang 76.035, Robina 85.264, Varsity Lakes 89.013. Straight-line distances from Roma Street: South Bank 1.878, Boggo Road 3.287, Altandi 13.792, Loganlea 25.634, Beenleigh 33.409, Coomera 52.033, Helensvale 60.104, Robina 76.032, Varsity Lakes 79.555; ratios 1.429 to 1.119. Platform offsets from the track 0 to 6.4 m. Nearest-vertex snapping instead of projection shifts chainage by up to 73.9 m (Coomera) and 64.6 m (Hope Island). Lesson family: linear referencing, chainage, projecting a point onto a polyline; distinct from map matching, line simplification and shortest-path pages.",
+    "requiredMentions": [
+      "5,156,138",
+      "1,366,657",
+      "2,190,424",
+      "918,466",
+      "79.555 km",
+      "Tuesday 6 October",
+      "46 days",
+      "89.013 km",
+      "73.9 m"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Queensland: people, median age, families, private dwellings, household size, highest educational attainment.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/3"
+      },
+      {
+        "claim": "ABS Census 2021 QuickStats, Greater Brisbane: people.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/3GBRI"
+      },
+      {
+        "claim": "Queensland Department of Education, term dates: 2026 terms, lengths, professional development days and holidays.",
+        "url": "https://education.qld.gov.au/about-us/calendar/term-dates"
+      },
+      {
+        "claim": "OpenStreetMap relation 15667051, T5 Gold Coast line, Roma Street to Varsity Lakes (ODbL), read via the OSM API 0.6.",
+        "url": "https://www.openstreetmap.org/relation/15667051"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Australia/Brisbane and rule AQ.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "QCE subjects, syllabus content and assessment: the QCAA website returned a Cloudflare challenge and was not circumvented.",
+      "Official Queensland Rail chainages and timetable distances: not published in the data read; our chainage starts at the Roma Street platform.",
+      "Whether every platform in OpenStreetMap is a station open to passengers today: not verified; the Hope Island platform is named only as OpenStreetMap labels it.",
+      "Academy offers, cut-offs, school rankings and results: excluded by the cluster rules.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Queensland Rail, the QCAA, the Queensland Department of Education or the ABS."
+    ]
+  },
+  "coding-and-ai-classes-in-western-australia": {
+    "market": "Western Australia",
+    "bodyClass": "cg-wast",
+    "pageType": "city",
+    "curriculumAuthority": "Western Australia, ABS Census 2021 QuickStats, state 5 (read 7 October 2026): 2,660,026 people; median age 38; 703,130 families; 1,147,872 private dwellings; average 2.5 people per household; bachelor degree level and above 513,667 (23.8 percent; WA 2016 410,269, 20.5 percent; Australia 2021 26.3 percent). Greater Perth GCCSA 5GPER: 2,116,647. WA Department of Education future term dates page (education.wa.edu.au/future-term-dates), dates as published in the Western Australian Government Gazette for public schools: 2027 Semester 1 Term 1 Monday 1 February to Friday 9 April; Term 2 Monday 26 April to Friday 2 July; Semester 2 Term 3 Monday 19 July to Friday 24 September; Term 4 Monday 11 October to Thursday 16 December; note that Monday 26 April is expected to be a public holiday in lieu of Anzac Day on Sunday 25 April; dates listed to 2032, with 2031 and 2032 marked preliminary. Landgate project grids and calculations page: MGA2020 is the standard map projection associated with GDA2020, a Transverse Mercator projection that conforms to the internationally standardised Universal Transverse Mercator grid system; within a project grid the plan distance equals the ground distance to a defined tolerance of 20 parts per million; 19 project grids with central meridian, central scale factor and false easting (e.g. Perth PCG2020 115 49 00, 0.99999906, 50 000; Goldfields GOLD2020 121 30 00, 1.00004949, 60 000; Busselton BCG2020 115 26 00, 0.99999592; Christmas Island CIG2020 105 37 30). IANA tzdata 2026e: Zone Australia/Perth rule AW; Rule AW 2006 December 3 to 2009 March last Sunday, no later rule. SCSA (scsa.wa.edu.au, senior-secondary.scsa.wa.edu.au) returned a Cloudflare challenge (HTTP 403) on 7 October 2026 and was not circumvented.",
+    "localProject": "Map grid zone arithmetic on Landgate's 19 project grids (calculated 7 October 2026): zone = floor((longitude + 180) / 6) + 1, zone central meridian = 6 x zone - 183. Central meridians and zones: Albany 117 53 (50), Barrow Island-Onslow 115 15 (50), Broome 122 20 (51), Busselton 115 26 (50), Carnarvon 113 40 (49), Christmas Island 105 37 30 (48), Collie 115 56 (50), Esperance 121 53 (51), Exmouth 114 04 (50), Geraldton 114 35 (50), Goldfields 121 30 (51), Jurien 114 59 (50), Kalbarri 114 18 55 (50), Karratha 116 56 (50), Kununurra 128 45 (52), Lancelin 115 22 (50), Margaret River 115 10 (50), Perth 115 49 (50), Port Hedland 118 36 (50). Counts: zone 50 thirteen, zone 51 three, zones 48, 49 and 52 one each; mainland grids span zones 49 to 52. Carnarvon and Exmouth meridians 0.4 degrees apart either side of 114 E. Karratha 4 minutes west of 117 E. Scale factors 0.99999592 (Busselton) to 1.00004949 (Goldfields). Lesson family: map grid zone arithmetic (UTM/MGA2020 zones from longitude, zone edges, local project grids); distinct from Irish Grid conversion, Mercator distortion and great-circle pages.",
+    "requiredMentions": [
+      "2,660,026",
+      "703,130",
+      "1,147,872",
+      "513,667",
+      "Thursday 16 December",
+      "20 parts per million",
+      "0.99999592",
+      "1.00004949",
+      "113°40'"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Western Australia: people, median age, families, private dwellings, household size, highest educational attainment.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/5"
+      },
+      {
+        "claim": "ABS Census 2021 QuickStats, Greater Perth: people.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/5GPER"
+      },
+      {
+        "claim": "WA Department of Education, future term dates (as gazetted): 2027 terms, the Anzac Day note, dates to 2032.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "Landgate, project grids and calculations: MGA2020 and UTM, the 20 parts per million tolerance, the 19 project grids and their parameters.",
+        "url": "https://www.landgate.wa.gov.au/location-data-and-services/surveying/geodesy/project-grids-and-calculations/"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Australia/Perth and rule AW.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "WACE courses, ATAR syllabuses and assessment: the SCSA websites returned a Cloudflare challenge and were not circumvented.",
+      "The MGA2020 false easting, false northing and central scale factor: the national technical manual site (icsm.gov.au) redirected to an unreachable host, so they are not quoted; only Landgate's project-grid parameters are.",
+      "Exact areas of WA or distances between towns: not needed for the project and not verified.",
+      "GATE offers, selective school outcomes, results and rankings: excluded by the cluster rules.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Landgate, the WA Department of Education, SCSA or the ABS."
+    ]
+  },
+  "online-coding-and-python-classes-in-perth-western-australia": {
+    "market": "Perth",
+    "bodyClass": "cg-pwa",
+    "pageType": "city",
+    "curriculumAuthority": "Greater Perth, ABS Census 2021 QuickStats, GCCSA 5GPER (read 7 October 2026): 2,116,647 people; median age 37 (Western Australia 38, Australia 38); 570,121 families; 882,374 private dwellings; average 2.6 people per household; dwelling structure, occupied private dwellings: separate house 605,453 (77.8 percent; Australia 72.3), flat or apartment 59,492 (7.6 percent; Western Australia 6.5; Australia 14.2); occupation, employed people aged 15 and over: Professionals 250,973 (23.7 percent; Western Australia 22.0; Australia 24.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 454,538 (26.5 percent; Western Australia 23.8; Australia 26.3); aged 15 to 19 123,315 (5.8 percent). WA Department of Education future term dates page, 2027 term dates published in the Western Australian Government Gazette: Term 1 Monday 1 February to Friday 9 April; Term 2 Monday 26 April to Friday 2 July; Term 3 Monday 19 July to Friday 24 September; Term 4 Monday 11 October to Thursday 16 December. IANA tz database: Zone Australia/Perth 8:00 AW AW%sT; rule AW daylight saving periods 1974-75, 1983-84, 1991-92 and 2006-07 to 2008-09; Asia/Kolkata UTC+5:30, so Perth is 2 hours 30 minutes ahead of India time all year. Python FAQ, design: \"CPython’s dictionaries are implemented as resizable hash tables.\"",
+    "localProject": "Cuckoo hashing against chaining and linear probing. WA Department of Education SchoolsListExcel0880.xlsx (Alphabetical list of Western Australian schools, CC BY 4.0, downloaded 7 October 2026): 1,152 school rows; Education Region North Metropolitan 365, South Metropolitan 385; 750 metropolitan rows, 747 distinct names. Hash: BLAKE2b, 8-byte digest, 8-byte salt, modulo table size. Separate chaining, 747 buckets: longest chain 4, mean probes for a successful lookup 1.459, empty buckets 265. Linear probing: load 0.5 (1,494 slots) mean 1.431, max 11; load 0.75 (996) mean 2.134, max 30; load 0.9 (830) mean 3.635, max 65. Cuckoo, two tables, 200 salt pairs per load, 500-kick limit: total load 0.40 (933 per table) 1 failure, longest eviction chain 27; 0.45 (830) 4 failures, 41; 0.49 (762) 21, 57; 0.52 (718) 52, 69; 0.55 (679) 103, 81. Lookup in cuckoo hashing checks at most two slots. Lesson family: cuckoo hashing and open addressing; distinct from Bloom filters, consistent hashing, tries and the other hashing pages on the site.",
+    "requiredMentions": [
+      "2,116,647",
+      "570,121",
+      "882,374",
+      "605,453",
+      "454,538",
+      "250,973",
+      "3.635",
+      "103 of 200",
+      "1.459",
+      "CPython’s dictionaries are implemented as resizable hash tables"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Greater Perth (5GPER): people, median age, families, private dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/5GPER"
+      },
+      {
+        "claim": "Western Australian Department of Education, alphabetical list of Western Australian schools (CC BY 4.0), listed on the WA data catalogue.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/western-australian-schools-lists"
+      },
+      {
+        "claim": "Western Australian Department of Education, future term dates (2027).",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "Python documentation, Design and History FAQ: how dictionaries are implemented in CPython.",
+        "url": "https://docs.python.org/3/faq/design.html"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Perth rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Transperth GTFS stops: the download was cut off at 228,864 bytes and the retry failed to connect; not circumvented, so no transport figures are used.",
+      "School Curriculum and Standards Authority (WACE) details: scsa.wa.edu.au returned a Cloudflare 403 and was not circumvented.",
+      "Bureau of Meteorology station names: the observations feed returned 403 and was not circumvented.",
+      "Enrolment counts, school results or rankings from the school list: excluded by the cluster rules; only names are used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the WA Department of Education, the ABS or the Python Software Foundation."
+    ]
+  },
+  "ai-and-programming-classes-in-adelaide": {
+    "market": "Adelaide",
+    "bodyClass": "cg-adl",
+    "pageType": "city",
+    "curriculumAuthority": "Greater Adelaide, ABS Census 2021 QuickStats, GCCSA 4GADE (read 7 October 2026): 1,387,290 people; median age 39 (South Australia 41, Australia 38); 375,146 families; 593,881 private dwellings; average 2.5 people per household; dwelling structure, occupied private dwellings: separate house 402,136 (75.0 percent), flat or apartment 43,766 (8.2 percent; South Australia 6.8; Australia 14.2); occupation, employed people aged 15 and over: Professionals 158,286 (23.6 percent; South Australia 21.5; Australia 24.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 298,181 (25.9 percent; South Australia 22.7; Australia 26.3); aged 15 to 19 78,280 (5.6 percent). IANA tz database: Zone Australia/Adelaide 9:30 AS AC%sT; daylight saving (UTC+10:30) from Sunday 4 October 2026 to Sunday 4 April 2027; Asia/Kolkata UTC+5:30, so Adelaide is 4 hours ahead of India time in winter and 5 hours ahead during daylight saving. South Australian Department for Education and data.sa.gov.au returned 403 on 7 October 2026 and were not circumvented.",
+    "localProject": "Particle swarm optimisation against baselines for a maximum-coverage placement. Adelaide Metro google_transit.zip (data.gov.au listing: Creative Commons Attribution 3.0 Australia), downloaded 7 October 2026: feed_info Adelaide Metro, 20261002 to 20270409, version 1705. Agencies 2, 3, 4, 5 and 8 (Adelaide Metro Rail Commissioner, Rail Commissioner Tram, SouthLink, Torrens Transit, Busways): 545 route entries, 21,477 trips, 7,680 stops served (stop_times join). Equirectangular projection at 34.93 degrees south; extent 53.9 km by 84.9 km. Objective: number of served stops within 800 m of the nearest of 3 points. Budget 6,000 evaluations per run, 10 runs (seeds 0 to 9): random points in the bounding box mean 121.3 (105 to 146); random stop locations mean 176.9 (171 to 198); PSO (30 particles, w 0.72, c1 = c2 = 1.49) mean 195.1 (167 to 206); greedy over all stop locations 205 (110, 159, 205 after 1, 2, 3 hubs); maximum observed 206 = 2.68 percent of stops. Greedy hubs at Stop V1 King William St - West side, Stop 63C Elizabeth Rd - South side, Stop 3 Ward St - North side. Lesson family: particle swarm optimisation and baseline comparison; distinct from simulated annealing, genetic algorithms, k-means and the facility pages elsewhere on the site.",
+    "requiredMentions": [
+      "1,387,290",
+      "Stop V1 on King William Street",
+      "593,881",
+      "298,181",
+      "158,286",
+      "7,680",
+      "21,477",
+      "195.1",
+      "176.9",
+      "Stop 63C on Elizabeth Road"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Greater Adelaide (4GADE): people, median age, families, private dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/4GADE"
+      },
+      {
+        "claim": "Adelaide Metro General Transit Feed (google_transit.zip), Creative Commons Attribution 3.0 Australia per its data.gov.au listing.",
+        "url": "https://gtfs.adelaidemetro.com.au/v1/static/latest/google_transit.zip"
+      },
+      {
+        "claim": "data.gov.au listing: Adelaide Metro General Transit Feed, Department for Infrastructure and Transport.",
+        "url": "https://data.gov.au/data/dataset/https-gtfs-adelaidemetro-com-au"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Adelaide rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "South Australian Department for Education term dates and SACE Board details beyond the committed SACE pages: education.sa.gov.au and sa.gov.au returned 403 and were not circumvented.",
+      "Bureau of Meteorology station names: the observations feed returned 403 and was not circumvented.",
+      "Any claim that real hubs should be built where the methods placed them: the problem is hypothetical and counts stops, not people or services.",
+      "Walking distances or catchment populations: distances are straight lines on a flat projection.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Adelaide Metro, the Department for Infrastructure and Transport or the ABS."
+    ]
+  },
+  "coding-classes-for-kids-melbourne": {
+    "market": "Melbourne",
+    "bodyClass": "cg-kmel",
+    "pageType": "city",
+    "curriculumAuthority": "Greater Melbourne, ABS Census 2021 QuickStats, GCCSA 2GMEL (read 7 October 2026): 4,917,750 people; median age 37; 1,299,184 families; average number of children per family, for families with children, 1.8; age 0 to 4: 290,649 (5.9 percent); age 5 to 9: 307,523 (6.3 percent; Victoria 6.2, Australia 6.2); age 10 to 14: 293,410 (6.0 percent); Preschool: 107,797 (7.1 percent of people attending an educational institution). Victorian Government school term dates 2027 (vic.gov.au/school-term-dates-and-holidays-victoria): Term 1 Wednesday 27 January (students start Thursday 28 January in government schools) to Thursday 25 March; Term 2 Monday 12 April to Friday 25 June; Term 3 Monday 12 July to Friday 17 September; Term 4 Monday 4 October to Friday 17 December. IANA tz database: Australia/Melbourne UTC+10 and UTC+11; Asia/Kolkata UTC+5:30.",
+    "localProject": "Running minimum on inner-Melbourne playgrounds. One OpenStreetMap Overpass query, snapshot 2026-10-07T12:56:57Z, rectangle 37.850 to 37.770 degrees south and 144.900 to 145.000 degrees east: 234 leisure=playground features (27 named) and State Library Victoria (way 22820458, centre -37.8097018, 144.965488). Haversine distances (R = 6,371,008.8 m) measured 7 October 2026: nearest 805.5 m (unnamed), Flagstaff Gardens Playground 944.4 m, Museum Playground 947.4 m, unnamed 965.1 m, ArtPlay Playground 1,074.3 m; farthest 6,800.5 m; 0 within 500 m; 4 within 1 km. Running minimum over the list in returned order: record changes at items 1 (4,341.8 m), 3 (2,744.3 m), 5 (1,289.0 m), 22 (947.4 m), 138 (944.4 m), 143 (805.5 m): 6 changes. Starting-value check: record initialised to 0 reports 0 m; initialised to 500 reports 500 m (no playground within 500 m); initialised to the first distance reports 805.5 m. Lesson family: running minimum (smallest so far) and the initial-value bug; record-counting theory deliberately left out (maths-tuition-in-oxford covers record years).",
+    "requiredMentions": [
+      "290,649",
+      "293,410",
+      "107,797",
+      "805.5",
+      "4,341.8",
+      "6,800.5",
+      "Flagstaff Gardens Playground",
+      "ArtPlay Playground",
+      "138th and 143rd"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Greater Melbourne (2GMEL): people, median age, families, children per family, age bands, preschool attendance.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/2GMEL"
+      },
+      {
+        "claim": "OpenStreetMap via the Overpass API: leisure=playground features and the State Library Victoria building in the stated rectangle, snapshot 2026-10-07T12:56:57Z (ODbL).",
+        "url": "https://overpass-api.de/api/interpreter"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, Australia/Melbourne and Asia/Kolkata offsets.",
+        "url": "https://www.iana.org/time-zones"
+      }
+    ],
+    "rejectedClaims": [
+      "Bureau of Meteorology observations: the Bureau asked automated requests to stop (403), so no weather station or temperature facts are used.",
+      "Any count of playgrounds for all of Melbourne: OpenStreetMap is incomplete and our rectangle is not a council boundary.",
+      "Walking times to playgrounds: distances are straight lines from the library building.",
+      "The location or council of the unnamed nearest playground: the map data does not name it and we did not guess.",
+      "School sector, income, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with State Library Victoria, OpenStreetMap, the ABS or the Victorian Department of Education."
+    ]
+  },
+  "coding-and-ai-classes-in-south-australia": {
+    "market": "South Australia",
+    "bodyClass": "cg-sast",
+    "pageType": "city",
+    "curriculumAuthority": "South Australia, ABS Census 2021 QuickStats, state 4 (read 7 October 2026): 1,781,516 people; median age 41 (Australia 38); 479,770 families; 806,982 private dwellings; average 2.4 people per household; bachelor degree level and above 335,213 (22.7 percent; SA 2016 256,514, 18.5 percent; Australia 2021 26.3 percent). Greater Adelaide GCCSA 4GADE: 1,387,290 people. SACE Board home page (sace.sa.edu.au): Achieving your SACE, How to build 200 credits, a short video on how the SACE works and how students can achieve the necessary requirements through subjects, VET and other recognised learning; Stage 1 and Stage 2 sections; the SACE Board Strategic Plan 2024 - 2027, Passport to Thrive. IANA tzdata 2026e: Zone Australia/Adelaide UTC+9:30 rule AS; Rule AS 2008 to max: daylight saving from the first Sunday in October to the first Sunday in April. The SA Department for Education (education.sa.gov.au) and sa.gov.au school terms pages returned HTTP 403 on 7 October 2026 and were not circumvented. SACE subject details are on the dedicated SACE pages.",
+    "localProject": "Taxicab geometry on Adelaide's city grid (calculated 7 October 2026). OSM API 0.6 map call, bbox 138.5935,-34.9325,138.6125,-34.9160 (ODbL). Grid angle: 331 segments of 20 m or more on 16 named streets (King William, Grenfell, Pirie, Flinders, Wakefield, Rundle Mall, Currie, Waymouth, Franklin, Grote, Pulteney, Frome, Hindley, Rundle, Angas, Gouger), direction folded to plus or minus 45 degrees, length-weighted mean 3.388 degrees, median 3.509. 126 amenity=cafe nodes; 7,800 pairs at least 50 m apart. Coordinates rotated by the grid angle; taxicab = |dx| + |dy|. Mean taxicab/straight ratio 1.2733 (4/pi = 1.2732), maximum 1.4142, unrotated mean 1.2744; mean extra 182.1 m, median 150.7 m; farthest pair 2,153.4 m straight, 3,043.5 m taxicab. Lesson family: taxicab (Manhattan) distance versus Euclidean distance, expected ratio 4/pi; distinct from shortest-path routing and street-network circuity pages.",
+    "requiredMentions": [
+      "1,781,516",
+      "479,770",
+      "806,982",
+      "335,213",
+      "200 credits",
+      "Passport to Thrive",
+      "3.39 degrees",
+      "1.2733",
+      "3,043.5 m"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, South Australia: people, median age, families, private dwellings, household size, highest educational attainment.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/4"
+      },
+      {
+        "claim": "ABS Census 2021 QuickStats, Greater Adelaide: people.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/4GADE"
+      },
+      {
+        "claim": "SACE Board home page: 200 credits, Stage 1 and Stage 2, the 2024 to 2027 strategic plan.",
+        "url": "https://www.sace.sa.edu.au/"
+      },
+      {
+        "claim": "OpenStreetMap data for Adelaide city via the OSM API 0.6 map call (ODbL).",
+        "url": "https://www.openstreetmap.org/#map=16/-34.9243/138.6030"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Australia/Adelaide and rule AS.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "South Australian school term dates: the Department for Education and sa.gov.au pages returned 403 and were not circumvented.",
+      "SACE results, ATAR outcomes, school rankings and Ignite offers: excluded by the cluster rules.",
+      "Who planned the grid and why it sits at its angle: not verified at a primary source, so the page reports only our measurement of mapped streets.",
+      "Walking times between cafes: not measured; taxicab distance ignores laneways and diagonal paths.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the SACE Board, the SA Department for Education or the ABS."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-canberra": {
+    "market": "Canberra",
+    "bodyClass": "cg-cnb",
+    "pageType": "city",
+    "curriculumAuthority": "Australian Capital Territory, ABS Census 2021 QuickStats, GCCSA 8ACTE (read 7 October 2026): 453,890 people; median age 35 (Australia 38); 119,752 families; 186,963 private dwellings; average 2.5 people per household; dwelling structure, occupied private dwellings: separate house 106,433 (63.2 percent), flat or apartment 32,669 (19.4 percent; Australia 14.2); occupation, employed people aged 15 and over: Professionals 78,121 (31.5 percent; Australia 24.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 159,428 (43.0 percent; Australia 26.3); aged 15 to 19 26,286 (5.8 percent). IANA tz database, backward file: \"Link Australia/Sydney Australia/Canberra\"; daylight saving from Sunday 4 October 2026 to Sunday 4 April 2027; Asia/Kolkata UTC+5:30, so Canberra is 4 hours 30 minutes ahead of India time in winter and 5 hours 30 minutes in summer. ACT Education Directorate, act.gov.au and BSSS pages returned 403 on 7 October 2026 and were not circumvented.",
+    "localProject": "Ring buffer as an agent's bounded memory. ACT open data diwx-p2be \"On Time Running By Week - First Stop Only\" (attribution Transport Canberra; Creative Commons Attribution 4.0; description \"Measures the percentage of scheduled services commence trips on time from the first stop\"; note ending \"data remains unverified\"), JSON endpoint downloaded 7 October 2026: 442 rows, fiscal weeks 2017-06-26 to 2026-06-29; one gap of 210 days between 2024-09-30 and 2025-04-28; 49 rows with total_on_time 0.00 (2024-09-30 and 2025-04-28 to 2026-03-23), treated as missing. 393 valid weeks: mean 80.17; minimum 63.54 (2020-04-20); maximum 88.62 (2017-07-03); last 13 valid weeks mean 82.28; last 52 valid weeks mean 80.81. Agent: alert when a new valid week is more than 5 points below the mean of the previous N valid weeks held in a ring buffer: N = 4: 11 alerts; N = 13: 26 alerts, minimum 13-week mean 67.25 ending 2020-06-22; N = 52: 45 alerts. Including the zero rows, the 13-week ring mean reaches 0.0. Ring mean equalled a slice mean for every week. Lesson family: ring buffer (bounded memory) for an agent; distinct from caching, moving-median filters and the testing-focused Melbourne agent page.",
+    "requiredMentions": [
+      "453,890",
+      "119,752",
+      "186,963",
+      "159,428",
+      "78,121",
+      "80.17",
+      "67.25",
+      "63.54",
+      "a link to Australia/Sydney",
+      "data remains unverified"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Australian Capital Territory (8ACTE): people, median age, families, private dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/8ACTE"
+      },
+      {
+        "claim": "ACT open data, On Time Running By Week - First Stop Only (Transport Canberra, CC BY 4.0).",
+        "url": "https://www.data.act.gov.au/d/diwx-p2be"
+      },
+      {
+        "claim": "ACT open data JSON endpoint used for the download.",
+        "url": "https://www.data.act.gov.au/resource/diwx-p2be.json"
+      },
+      {
+        "claim": "IANA time zone database, backward file: Australia/Canberra linked to Australia/Sydney.",
+        "url": "https://data.iana.org/time-zones/tzdb/backward"
+      }
+    ],
+    "rejectedClaims": [
+      "Any explanation of why on-time running changed in particular weeks: not part of the dataset and not researched.",
+      "Treating the 49 zero weeks as real punctuality: the publisher marks the restored data as unverified and the zeros coincide with that period.",
+      "ACT Education Directorate term dates and BSSS course details: the sites returned 403 and were not circumvented.",
+      "Bureau of Meteorology station names: the observations feed returned 403 and was not circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Transport Canberra, the ACT Government or the ABS."
+    ]
+  },
+  "coding-classes-for-kids-brisbane": {
+    "market": "Brisbane",
+    "bodyClass": "cg-kbne",
+    "pageType": "city",
+    "curriculumAuthority": "Greater Brisbane, ABS Census 2021 QuickStats, GCCSA 3GBRI (read 7 October 2026): 2,526,238 people; median age 36; 674,188 families; average number of children per family, for families with children, 1.8; age 0 to 4: 150,503 (6.0 percent); age 5 to 9: 165,679 (6.6 percent; Australia 6.2); age 10 to 14: 167,962 (6.6 percent); Preschool: 44,957 (5.7 percent of people attending an educational institution). Queensland Department of Education, future school dates (education.qld.gov.au/about-us/calendar/future-dates): 2027 Term 1 Wednesday 27 January to Thursday 25 March (9 weeks), Term 2 Monday 12 April to Friday 25 June (11 weeks), Term 3 Monday 12 July to Friday 17 September (10 weeks), Term 4 Tuesday 5 October to Friday 10 December (10 weeks); Term 4 holidays Saturday 11 December to Sunday 23 January 2028 (44 days). IANA tz database: Australia/Brisbane UTC+10 with no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Letter frequency of Brisbane river ferry stop names. One OpenStreetMap Overpass query, snapshot 2026-10-07T12:58:00Z, amenity=ferry_terminal in 27.560 to 27.380 degrees south and 152.950 to 153.130 degrees east: 40 entries, 26 distinct names including one blank; repeats such as Bulimba (3), Sydney Street, Riverside, New Farm Park, Hawthorne (2 each). Excluded: blank names, Brisbane Cruise Terminal, Tangalooma Ferry Terminal. Kept 23 names, 245 letters. Case-insensitive: t 25, r 24, e 24, a 23, o 15. Case-sensitive: e 23, t 23 (capital T in QUT Gardens Point and Teneriffe). First letters: H, M, N 3 each. Never used: j, x, z. Q appears 3 times, all capitals (QUT Gardens Point, North Quay, UQ St Lucia). Lesson family: letter frequency with a dictionary, de-duplication with a set, case normalisation and tie rules.",
+    "requiredMentions": [
+      "150,503",
+      "167,962",
+      "44,957",
+      "Mowbray Park",
+      "Howard Smith Wharves",
+      "QUT Gardens Point",
+      "Northshore Hamilton",
+      "245 letters",
+      "j, x and z"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Greater Brisbane (3GBRI): people, median age, families, children per family, age bands, preschool attendance.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/3GBRI"
+      },
+      {
+        "claim": "OpenStreetMap via the Overpass API: amenity=ferry_terminal entries in the stated rectangle, snapshot 2026-10-07T12:58:00Z (ODbL).",
+        "url": "https://overpass-api.de/api/interpreter"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 terms, term lengths and holidays.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database, Australia/Brisbane (no daylight saving) and Asia/Kolkata offsets.",
+        "url": "https://www.iana.org/time-zones"
+      }
+    ],
+    "rejectedClaims": [
+      "Bureau of Meteorology observations: the Bureau asked automated requests to stop (403), so no weather facts are used.",
+      "Queensland Curriculum and Assessment Authority pages returned a Cloudflare 403 and were not circumvented, so no QCAA facts are used.",
+      "Ferry timetables, routes or passenger numbers: not read, and not claimed.",
+      "That the 23 names are every stop on the network: OpenStreetMap is incomplete and the rectangle is our choice.",
+      "School sector, income, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Translink, RiverCity Ferries, OpenStreetMap, the ABS or the Queensland Department of Education."
+    ]
+  },
+  "coding-and-ai-classes-in-tasmania": {
+    "market": "Tasmania",
+    "bodyClass": "cg-tast",
+    "pageType": "city",
+    "curriculumAuthority": "Tasmania, ABS Census 2021 QuickStats, state 6 (read 7 October 2026): 557,571 people; median age 42 (Australia 38); 150,573 families; 258,611 private dwellings; average 2.4 people per household; bachelor degree level and above 101,841 (21.9 percent; Tasmania 2016 67,863, 16.2 percent; Australia 2021 26.3 percent). Greater Hobart GCCSA 6GHOB: 247,086 people. Department for Education, Children and Young People term dates page (decyp.tas.gov.au/learning/term-dates): 2027 Term 1 4 February - 9 April; Term 1 Holiday 10 April - 25 April; Term 2 26 April - 2 July; Term 2 Holiday 3 July - 18 July; Term 3 19 July - 24 September; Term 3 Holiday 25 September - 10 October; Term 4 11 October - 16 December; colleges have their own finishing dates, which may depend on exam dates; teachers in schools commence on Monday 1 February and finish on Friday 17 December; teachers in colleges commence on Monday 25 January and finish on Friday 10 December; 2027 professional learning days Friday, 11 June K-12 Statewide; Monday, 19 July K-10 Statewide; Friday, 22 October K-10 South only; Friday, 29 October K-10 North only. IANA tzdata 2026e: Zone Australia/Hobart rule AT; Rule AT 2001 to max October Sunday on or after 1st daylight saving, 2008 to max April Sunday on or after 1st standard time. TASC details are on the dedicated TASC pages.",
+    "localProject": "Conway's Doomsday rule on the 2027 DECYP calendar (calculated 7 October 2026). Century anchor for 2000-2099 Tuesday; 2027: 27 // 12 = 2, 27 % 12 = 3, 3 // 4 = 0; 2 + 3 + 0 = 5; Tuesday + 5 = Sunday. Doomsday reference dates in 2027 (non-leap): 3 January, 28 February, 14 March, 4 April, 9 May, 6 June, 11 July, 8 August, 5 September, 10 October, 7 November, 12 December. Results: Term 1 starts Thursday 4 February, ends Friday 9 April; holidays start Saturday and end Sunday (10 to 25 April, 3 to 18 July, 25 September to 10 October); Terms 2 to 4 start on Mondays; Terms 1 to 3 end on Fridays; Term 4 ends Thursday 16 December. Agrees with all 8 weekdays printed by DECYP for 2027 and with Python datetime on all 22 dates checked. Monday 19 July is both the published Term 3 start and a K-10 statewide professional learning day. Lesson family: Conway's Doomsday rule, mental day-of-week calculation; distinct from ISO week numbering, Zeller-style congruence and time-zone pages.",
+    "requiredMentions": [
+      "557,571",
+      "150,573",
+      "258,611",
+      "101,841",
+      "Friday 11 June",
+      "South only",
+      "North only",
+      "Monday 25 January",
+      "Doomsday rule"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Tasmania: people, median age, families, private dwellings, household size, highest educational attainment.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/6"
+      },
+      {
+        "claim": "ABS Census 2021 QuickStats, Greater Hobart: people.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/6GHOB"
+      },
+      {
+        "claim": "Department for Education, Children and Young People (Tasmania), school terms and holidays: 2027 terms, college note, teacher dates and professional learning days.",
+        "url": "https://www.decyp.tas.gov.au/learning/term-dates/"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Australia/Hobart and rule AT.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      },
+      {
+        "claim": "Python documentation, datetime module, used as the independent check on every computed weekday.",
+        "url": "https://docs.python.org/3/library/datetime.html"
+      }
+    ],
+    "rejectedClaims": [
+      "Tasmanian public holidays, statewide and regional: the WorkSafe Tasmania and CBOS pages returned 403 and were not circumvented.",
+      "Whether students attend on Monday 19 July 2027 at every school: the page lists it as a K-10 statewide professional learning day; we state only that both entries exist.",
+      "TASC results, ATAR outcomes, school rankings and college comparisons: excluded by the cluster rules.",
+      "Biographical detail about John Conway beyond devising the rule: not needed and not verified at a primary source.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with DECYP, TASC or the ABS."
+    ]
+  },
+  "best-coding-classes-in-hobart": {
+    "market": "Hobart",
+    "bodyClass": "cg-hba",
+    "pageType": "city",
+    "curriculumAuthority": "Greater Hobart, ABS Census 2021 QuickStats, GCCSA 6GHOB (read 7 October 2026): 247,086 people; median age 39 (Tasmania 42, Australia 38); 66,185 families; 106,298 private dwellings; average 2.4 people per household; dwelling structure, occupied private dwellings: separate house 80,846 (85.1 percent; Tasmania 87.7; Australia 72.3), flat or apartment 7,759 (8.2 percent; Tasmania 5.3; Australia 14.2); occupation, employed people aged 15 and over: Professionals 28,533 (24.0 percent; Tasmania 20.0; Australia 24.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 59,920 (29.2 percent; Tasmania 21.9; Australia 26.3); aged 15 to 19 13,323 (5.4 percent). Department for Education, Children and Young People, 2027 school term dates: Term 1 4 February to 9 April; Term 2 26 April to 2 July; Term 3 19 July to 24 September; Term 4 11 October to 16 December. IANA tz database: Australia/Hobart, daylight saving Sunday 4 October 2026 to Sunday 4 April 2027; Asia/Kolkata UTC+5:30.",
+    "localProject": "Euler's formula for planar graphs as a data check. City of Hobart Open Data, Road Centre Lines (ArcGIS item 22ff6fa713bb452c975e4c78202ce1cf, CC BY 4.0), GeoJSON downloaded 7 October 2026: 2,343 LineString features; Type_Description roaloc 1,358, roacol 418, roaart 379, roapat 188. Car roads (roaloc, roacol, roaart): 2,155 pieces; haversine length 350.4 km (Shape__Length sum agrees within 0.2 km); 673 distinct Road_Name values; Speed_Limit 50 on 1,924 pieces. Graph with piece endpoints snapped at 1 m (local metric projection at 42.88 degrees south): 113 connected components, 85 of a single edge; largest component V = 1,573, E = 1,861 (2 closed pieces excluded), faces traced by the rotation of edges at each node from first and last segment bearings F = 262; planar expectation E - V + 2 = 290; V - E + F = -26. Segment-intersection search between car-road pieces (proper crossings away from shared points): 176, including pairs named Domain Highway / Tasman Highway, Brooker Highway / Domain Highway, Olinda Grove / Southern Outlet, Elizabeth Street / Melville Street. Lesson family: Euler's formula and invariants as data-quality tests; distinct from Eulerian paths, shoelace areas and the other graph pages on the site.",
+    "requiredMentions": [
+      "247,086",
+      "66,185",
+      "106,298",
+      "59,920",
+      "28,533",
+      "2,155",
+      "1,573",
+      "1,861",
+      "350.4 km",
+      "Elizabeth Street with Melville Street"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Greater Hobart (6GHOB): people, median age, families, private dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/6GHOB"
+      },
+      {
+        "claim": "City of Hobart Open Data, Road Centre Lines (CC BY 4.0), with the council's completeness disclaimer.",
+        "url": "https://data-1-hobartcc.opendata.arcgis.com/datasets/hobartcc::road-centre-lines"
+      },
+      {
+        "claim": "Department for Education, Children and Young People, Tasmanian school term dates 2027.",
+        "url": "https://www.decyp.tas.gov.au/learning/term-dates/"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Hobart rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Which of the 176 crossings are flyovers and which are drawing gaps: not verified against a second source, so no individual crossing is labelled either way.",
+      "The number of city blocks in Hobart: the traced regions depend on the file and the 1 m joining tolerance and are not an official count.",
+      "Tasmanian Government transport data (GTFS): transport.tas.gov.au returned 403 and was not circumvented.",
+      "Bureau of Meteorology station names: the observations feed returned 403 and was not circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the City of Hobart, the Tasmanian Government or the ABS."
+    ]
+  },
+  "coding-and-ai-classes-in-australian-capital-territory": {
+    "market": "the Australian Capital Territory",
+    "bodyClass": "cg-acst",
+    "pageType": "city",
+    "curriculumAuthority": "Australian Capital Territory, ABS Census 2021 QuickStats, state 8 (read 7 October 2026): 454,499 people; median age 35 (Australia 38); 119,752 families; 186,963 private dwellings; average 2.5 people per household; bachelor degree level and above 159,540 (42.9 percent; ACT 2016 119,919, 37.1 percent; Australia 2021 26.3 percent). Bachelor shares on the other state pages read the same day: NSW 27.8, Victoria 29.2, Queensland 21.9, SA 22.7, WA 23.8, Tasmania 21.9, NT 21.5. IANA tzdata 2026e backward file: Link Australia/Sydney Australia/Canberra; Australia/Sydney rule AN. The ACT Education Directorate term dates page and the Board of Senior Secondary Studies site (bsss.act.edu.au) returned HTTP 403 on 7 October 2026 and were not circumvented.",
+    "localProject": "Bayesian average ranking on ACT Government open data, ACTGOV Playground Assets (data.act.gov.au dataset e4ug-7r3x), read via the JSON endpoint on 7 October 2026: 537 records, 108 suburbs and districts. shade_level counts: FAIR 292, GOOD 131, NO SHADE 44, POOR 37, MODERATE 7, blank 23, SURROUNDING TREES 2, SHADE STRUCTURE ADJACENT 1. Rated set (GOOD, FAIR, MODERATE, POOR, NO SHADE): 511 records, 131 GOOD, territory share 0.2564. Raw share ranking: 9 suburbs at 100 percent (6 with one rated playground), 36 at 0 percent; median 4 rated playgrounds per suburb, maximum Kambah 37 (6 GOOD). Bayesian average (g + m x 0.2564) / (n + m): m = 5 top Fadden 4/5 0.528, Forde 4/5 0.528, Giralang 4/6 0.480, Oaks Estate 2/2 0.469; City 1/1 0.380; Kambah 0.173; Fadden and Forde first at m = 2, 10 and 20. Lesson family: Bayesian average / additive smoothing for ranking small samples; distinct from Wilson interval and confidence interval pages.",
+    "requiredMentions": [
+      "454,499",
+      "159,540",
+      "ACTGOV Playground Assets",
+      "131 of 511",
+      "Kambah",
+      "Fadden",
+      "Australia/Canberra",
+      "0.528"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Australian Capital Territory: people, median age, families, private dwellings, household size, highest educational attainment.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/8"
+      },
+      {
+        "claim": "ACT Government open data, ACTGOV Playground Assets dataset (e4ug-7r3x): playground records with suburb and shade level.",
+        "url": "https://www.data.act.gov.au/d/e4ug-7r3x"
+      },
+      {
+        "claim": "IANA time zone database 2026e, backward file: Australia/Canberra links to Australia/Sydney.",
+        "url": "https://data.iana.org/time-zones/tzdb/backward"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Australia/Sydney and rule AN.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "ACT school term dates: the ACT Education Directorate page returned 403 and was not circumvented.",
+      "ACT senior secondary course details: the BSSS site returned 403 and was not circumvented.",
+      "That shade ratings describe current conditions at every playground: they are asset-register entries and may be out of date.",
+      "Any ranking of ACT schools, results or suburbs by income, rent or demographics: excluded by the cluster rules.",
+      "Income, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the ACT Government, the Education Directorate, the BSSS or the ABS."
+    ]
+  },
+  "online-coding-and-python-classes-in-darwin": {
+    "market": "Darwin",
+    "bodyClass": "cg-drw",
+    "pageType": "city",
+    "curriculumAuthority": "Greater Darwin, ABS Census 2021 QuickStats, GCCSA 7GDAR (read 7 October 2026): 139,902 people; median age 34 (Northern Territory 33, Australia 38); 34,687 families; 58,528 private dwellings; average 2.6 people per household; dwelling structure, occupied private dwellings: separate house 29,937 (63.3 percent; Northern Territory 66.8), flat or apartment 11,824 (25.0 percent; Northern Territory 17.9; Australia 14.2); occupation, employed people aged 15 and over: Professionals 16,185 (21.7 percent; Northern Territory 22.0; Australia 24.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 29,016 (26.0 percent; Northern Territory 21.5; Australia 26.3); aged 5 to 9 9,728 (7.0 percent); aged 15 to 19 7,651 (5.5 percent). IANA tz database 2026e: Australia/Darwin UTC+9:30 all year; Asia/Kolkata UTC+5:30, so Darwin is 4 hours ahead of India time all year. NT Department of Education and nt.gov.au returned 403 on 7 October 2026 and were not circumvented, so no NT school dates or senior certificate facts are quoted.",
+    "localProject": "Recursive-descent parser for the IANA time zone database. Release 2026e (data.iana.org/time-zones/tzdb/version), files australasia and zone.tab, public domain, read 7 October 2026. australasia: 39 Zone blocks, 179 Rule lines parsed with no unrecognised line. Darwin: \"Zone Australia/Darwin 8:43:20 - LMT 1895 Feb\", \"9:00 - ACST 1899 May\", \"9:30 Aus AC%sT\"; zone.tab \"AU -1228+13050 Australia/Darwin Northern Territory\"; zone.tab has 12 AU lines. LMT offset in seconds divided by 240 gives longitude in degrees: Darwin 31,400 s = 130.8333 (130 degrees 50 minutes, equal to zone.tab); Perth 7:43:24 = 115.85 (zone.tab 115 51); Adelaide 9:14:20 = 138.5833 (138 35); Brisbane 10:12:08 = 153.0333 (153 02); Sydney 10:04:52 = 151.2167; Melbourne 9:39:52 = 144.9667; Hobart 9:49:16 = 147.3167, all equal to zone.tab; Lindeman 9:55:56 = 148.9833 against zone.tab 149 00 at 20 degrees 16 minutes south, about 1.74 km. Python zoneinfo transitions for Australia/Darwin: 1895-02 to UTC+9, 1899-05 to UTC+9:30, daylight saving 1917 and 1942 to 1944 (rule Aus), last change March 1944. Lesson family: recursive-descent parsing of a real text format; distinct from the regular-expression and opening-hours parsing pages on the site.",
+    "requiredMentions": [
+      "139,902",
+      "34,687",
+      "58,528",
+      "29,016",
+      "16,185",
+      "11,824",
+      "8 hours 43 minutes 20 seconds",
+      "130 degrees 50 minutes east",
+      "39 Zone blocks",
+      "179 Rule lines"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Greater Darwin (7GDAR): people, median age, families, private dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/7GDAR"
+      },
+      {
+        "claim": "IANA time zone database, australasia file (Zone Australia/Darwin and rule Aus), release 2026e, public domain.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      },
+      {
+        "claim": "IANA time zone database, zone.tab coordinates for Australian zones.",
+        "url": "https://data.iana.org/time-zones/tzdb/zone.tab"
+      },
+      {
+        "claim": "IANA time zone database version file (2026e).",
+        "url": "https://data.iana.org/time-zones/tzdb/version"
+      }
+    ],
+    "rejectedClaims": [
+      "Why Darwin chose a half-hour offset in 1899: the database records the change, and the reasons were not researched.",
+      "Northern Territory school term dates and NTCET details: the NT Government sites returned 403 and were not circumvented.",
+      "Bureau of Meteorology station names and weather: the observations feed returned 403 and was not circumvented.",
+      "Any claim that the local mean time figures were measured historically: the page reports only that they match zone.tab coordinates.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with IANA, the Northern Territory Government or the ABS."
+    ]
+  },
+  "coding-classes-for-kids-adelaide": {
+    "market": "Adelaide",
+    "bodyClass": "cg-kadl",
+    "pageType": "city",
+    "curriculumAuthority": "Greater Adelaide, ABS Census 2021 QuickStats, GCCSA 4GADE (read 7 October 2026): 1,387,290 people; median age 39; 375,146 families; average number of children per family, for families with children, 1.8; age 0 to 4: 74,749 (5.4 percent); age 5 to 9: 81,431 (5.9 percent; Australia 6.2); age 10 to 14: 81,359 (5.9 percent); Preschool: 22,500 (5.7 percent of people attending an educational institution). ABS Schools methodology 2025: Pre-Year 1 known as reception in South Australia; South Australia - children must attend school from the age of six; children turning five before 1 May can start school in term 1; children turning 5 by 31 October can start school in term 3 and undertake 6 terms of reception. IANA tz database: Australia/Adelaide UTC+9:30 and UTC+10:30; Asia/Kolkata UTC+5:30.",
+    "localProject": "Symmetry of the Adelaide city squares. One OpenStreetMap Overpass query, snapshot 2026-10-07T16:29:30Z, name~\"Square\" in 34.940 to 34.910 degrees south and 138.580 to 138.620 east. Points: Victoria Square way 1336429555 (place=square) -34.9286111, 138.5998743; Hindmarsh Square relation 13040624 -34.9243671, 138.6056033; Hurtle Square relation 2573738 -34.9322396, 138.606314; Whitmore Square way 679957023 -34.9328299, 138.5942051; Light Square midpoint of ways 189318146 and 194852575 -34.9248692, 138.5932931. Equirectangular metres from Victoria Square: Hindmarsh (522.3, 471.9) 703.9 m; Hurtle (587.1, -403.5) 712.4 m; Whitmore (-516.8, -469.1) 698.0 m; Light (-600.0, 416.1) 730.1 m. Mirror x to -x: Hindmarsh vs Light 95.7 m, Hurtle vs Whitmore 96.1 m. Mirror y to -y: Hindmarsh vs Hurtle 94.2 m, Light vs Whitmore 98.6 m. Half turn: Hindmarsh vs Whitmore 6.1 m, Hurtle vs Light 18.0 m. Lesson family: reflection versus rotational symmetry tested on coordinates with a tolerance.",
+    "requiredMentions": [
+      "74,749",
+      "81,359",
+      "22,500",
+      "96.1",
+      "522.3",
+      "95.7",
+      "6.1 metres",
+      "18.0 metres",
+      "6 terms of reception"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Greater Adelaide (4GADE): people, median age, families, children per family, age bands, preschool attendance.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/4GADE"
+      },
+      {
+        "claim": "ABS Schools methodology 2025: names for the first year of school and the South Australian school start rules.",
+        "url": "https://www.abs.gov.au/methodologies/schools-methodology/2025"
+      },
+      {
+        "claim": "OpenStreetMap via the Overpass API: the five city squares, snapshot 2026-10-07T16:29:30Z (ODbL).",
+        "url": "https://overpass-api.de/api/interpreter"
+      },
+      {
+        "claim": "IANA time zone database, Australia/Adelaide and Asia/Kolkata offsets.",
+        "url": "https://www.iana.org/time-zones"
+      }
+    ],
+    "rejectedClaims": [
+      "South Australian school term dates: education.sa.gov.au and sa.gov.au returned 403 to automated requests and were not circumvented, so no term dates are printed.",
+      "Bureau of Meteorology observations: the Bureau asked automated requests to stop (403), so no weather facts are used.",
+      "Any history of who designed the city squares or why: not verified at a primary source, so not stated.",
+      "Dual names of the squares: OpenStreetMap carries several spellings, so only the English names are used.",
+      "School sector, income, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the City of Adelaide, OpenStreetMap, the ABS or the South Australian Department for Education."
+    ]
+  },
+  "coding-and-ai-classes-in-northern-territory": {
+    "market": "the Northern Territory",
+    "bodyClass": "cg-ntst",
+    "pageType": "city",
+    "curriculumAuthority": "Northern Territory, ABS Census 2021 QuickStats, state 7 (read 7 October 2026): 232,605 people; median age 33 (Australia 38); 54,507 families; 95,779 private dwellings; average 2.8 people per household; bachelor degree level and above 39,428 (21.5 percent; NT 2016 30,712, 17.1 percent; Australia 2021 26.3 percent). Median ages on the other state pages read the same day: NSW 39, Victoria 38, Queensland 38, SA 41, WA 38, Tasmania 42, ACT 35; household sizes: Victoria 2.5, Queensland 2.5, SA 2.4, WA 2.5, Tasmania 2.4, ACT 2.5. Greater Darwin GCCSA 7GDAR: 139,902. IANA tzdata 2026e australasia file: Zone Australia/Darwin 9:30 rule Aus, Aus rules ending in the 1940s, so no current daylight saving. The NT Department of Education (education.nt.gov.au) and nt.gov.au school pages returned HTTP 403 on 7 October 2026 and were not circumvented.",
+    "localProject": "Spherical excess on the Darwin, Nhulunbuy, Alice Springs triangle (calculated 7 October 2026). Coordinates from OpenStreetMap Nominatim (ODbL): Darwin -12.4604400, 130.8410469 (node 1639099539); Nhulunbuy -12.1804346, 136.7759913; Alice Springs -23.6983884, 133.8812885; Katherine -14.4646157, 132.2635993 (relation centroids for the last three). Sphere radius 6,371.0088 km. Sides: Darwin-Nhulunbuy 645.5 km, Nhulunbuy-Alice Springs 1,316.7 km, Darwin-Alice Springs 1,290.1 km. Angles: Darwin 78.1546, Nhulunbuy 73.5804, Alice Springs 28.8420; sum 180.57707 degrees; excess 0.57707 degrees = 2,077.4 arcseconds; area (Girard) 408,809 square km; flat triangle with the same sides (Heron) 407,207 square km. Darwin, Katherine, Alice Springs: excess 0.0864 degrees (311.0 arcseconds), area 61,210 square km. Lesson family: spherical excess and Girard's theorem; distinct from great-circle distance, horizon distance and map projection pages.",
+    "requiredMentions": [
+      "232,605",
+      "54,507",
+      "95,779",
+      "39,428",
+      "Nhulunbuy",
+      "180.577",
+      "408,809",
+      "2,077 arcseconds"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Northern Territory: people, median age, families, private dwellings, household size, highest educational attainment.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/7"
+      },
+      {
+        "claim": "ABS Census 2021 QuickStats, Greater Darwin: people.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/7GDAR"
+      },
+      {
+        "claim": "OpenStreetMap Nominatim search results for Darwin, Nhulunbuy, Alice Springs and Katherine (ODbL).",
+        "url": "https://nominatim.openstreetmap.org/"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Australia/Darwin.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "NT school term dates and senior secondary subjects: the NT Department of Education and nt.gov.au pages returned 403 and were not circumvented.",
+      "Official surveyed distances between the towns: not used; our distances are on a perfect sphere between mapped points.",
+      "The area of the Northern Territory: not verified at a primary source and not needed for the project.",
+      "Any claim about remote internet coverage in particular communities: not verified.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the NT Government, the NT Department of Education or the ABS."
+    ]
+  },
+  "coding-classes-for-kids-perth": {
+    "market": "Perth",
+    "bodyClass": "cg-kper",
+    "pageType": "city",
+    "curriculumAuthority": "Greater Perth, ABS Census 2021 QuickStats, GCCSA 5GPER (read 7 October 2026): 2,116,647 people; median age 37; 570,121 families; average number of children per family, for families with children, 1.8; age 0 to 4: 129,598 (6.1 percent); age 5 to 9: 136,414 (6.4 percent; Australia 6.2); age 10 to 14: 135,222 (6.4 percent); Preschool: 36,950 (5.8 percent of people attending an educational institution). Department of Education WA, future term dates (as published in the Western Australian Government Gazette), 2027: Term 1 Monday 1 February to Friday 9 April; Term 2 Monday 26 April to Friday 2 July; Term 3 Monday 19 July to Friday 24 September; Term 4 Monday 11 October to Thursday 16 December. ABS Schools methodology 2025: Pre-Year 1 known as pre-primary in Western Australia; children must start school from the beginning of the year if they are to reach the age of five years and six months during the year. IANA tz database: Australia/Perth UTC+8 with no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Reverse-and-compare on the Fremantle line. One OpenStreetMap Overpass query, snapshot 2026-10-07T12:58:00Z: relation 2033169 \"Fremantle Line: Perth → Fremantle\", stop members in order (17): Perth, City West, West Leederville, Subiaco, Daglish, Shenton Park, Karrakatta, Loch Street, Showgrounds, Claremont, Swanbourne, Grant Street, Cottesloe, Mosman Park, Victoria Street, North Fremantle, Fremantle. Relation 14677731 \"Fremantle Line: Fremante → Perth\" (17): identical to the reversed outbound list except position 5, \"Cottlesloe\" against \"Cottesloe\". Reversed outbound vs return: 16 of 17 positions equal. Lesson family: reversing a list, position-by-position comparison and reporting (not fixing) data typos.",
+    "requiredMentions": [
+      "129,598",
+      "135,222",
+      "36,950",
+      "Cottlesloe",
+      "Fremante",
+      "16 of 17",
+      "West Leederville",
+      "Karrakatta",
+      "Mosman Park against Mosman Park"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Greater Perth (5GPER): people, median age, families, children per family, age bands, preschool attendance.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/5GPER"
+      },
+      {
+        "claim": "Department of Education WA, future term dates for public schools, 2027 (Government Gazette dates).",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "ABS Schools methodology 2025: first year name and Western Australian school start rule.",
+        "url": "https://www.abs.gov.au/methodologies/schools-methodology/2025"
+      },
+      {
+        "claim": "OpenStreetMap via the Overpass API: Fremantle line route relations 2033169 and 14677731, snapshot 2026-10-07T12:58:00Z (ODbL).",
+        "url": "https://overpass-api.de/api/interpreter"
+      }
+    ],
+    "rejectedClaims": [
+      "Bureau of Meteorology observations: the Bureau asked automated requests to stop (403), so no weather facts are used.",
+      "School Curriculum and Standards Authority pages returned a Cloudflare 403 and were not circumvented, so no SCSA facts are used.",
+      "Timetables, train frequencies or which services stop at Showgrounds: not read and not claimed.",
+      "That the spelling slips are still in OpenStreetMap: volunteers may have corrected them after our 7 October 2026 snapshot.",
+      "School sector, income, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Transperth, the Public Transport Authority, OpenStreetMap, the ABS or the WA Department of Education."
+    ]
   }
 }

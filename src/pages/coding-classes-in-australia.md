@@ -375,6 +375,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding class or maths tutor first?](/coding-class-or-maths-tutor-first-australia)
 - [Online coding classes compared](/online-coding-classes-australia-compared)
 - [After-school coding club vs online class](/after-school-coding-club-vs-online-class-australia)
+- [Coding classes in Brisbane](/best-coding-classes-in-brisbane)
 <!-- AU-LINKS -->
 
 
