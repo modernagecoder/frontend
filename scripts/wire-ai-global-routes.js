@@ -312,6 +312,7 @@ const SLUGS = [
   'online-coding-tutor-australia',
   'ai-classes-for-teens-australia',
   'one-on-one-coding-tutor-australia',
+  'school-holiday-coding-course-australia',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -703,6 +704,7 @@ const LLMS_LABELS = {
   'online-coding-tutor-australia': 'Online coding tutor, Australia',
   'ai-classes-for-teens-australia': 'AI classes for teens, Australia',
   'one-on-one-coding-tutor-australia': 'One-on-one coding tutor, Australia',
+  'school-holiday-coding-course-australia': 'School holiday coding course, Australia',
 };
 
 function wireLlms(slugs) {

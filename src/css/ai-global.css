@@ -833,3 +833,4 @@
 .ag-root.ag-otau { --ag-accent: #485498; --ag-accent-soft: rgba(72,84,152,.09); }   /* Online coding tutor, Australia: a muted dusk blue chosen by hand, at least 13 RGB units from every accent in use and below the violet band */
 .ag-root.ag-atau { --ag-accent: #302D8A; --ag-accent-soft: rgba(48,45,138,.09); }   /* AI classes for teens, Australia: a deep night indigo chosen by hand, muted, at least 16 RGB units from every accent in use, below the violet band and at least 40 from the other Phase 2 doors */
 .ag-root.ag-ooau { --ag-accent: #6C1C2C; --ag-accent-soft: rgba(108,28,44,.09); }   /* One-to-one coding tutor, Australia: a deep shiraz red chosen by hand, at least 10 RGB units from every accent in use */
+.ag-root.ag-shau { --ag-accent: #1C2858; --ag-accent-soft: rgba(28,40,88,.09); }   /* School holiday coding, Australia: a deep night navy chosen by hand, at least 11 RGB units from every accent in use */
