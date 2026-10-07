@@ -852,6 +852,7 @@ const MARKETS = [
   ['coding-classes-for-kids-adelaide', 'Adelaide, for kids'],
   ['coding-and-ai-classes-in-northern-territory', 'Northern Territory, Australia'],
   ['coding-classes-for-kids-perth', 'Perth, for kids'],
+  ['coding-classes-for-kids-canberra', 'Canberra, for kids'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

@@ -39231,5 +39231,49 @@
       "School sector, income, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with Transperth, the Public Transport Authority, OpenStreetMap, the ABS or the WA Department of Education."
     ]
+  },
+  "coding-classes-for-kids-canberra": {
+    "market": "Canberra",
+    "bodyClass": "cg-kcbr",
+    "pageType": "city",
+    "curriculumAuthority": "Australian Capital Territory, ABS Census 2021 QuickStats, GCCSA 8ACTE (read 7 October 2026): 453,890 people; median age 35; 119,752 families; average number of children per family, for families with children, 1.8; age 0 to 4: 26,660 (5.9 percent); age 5 to 9: 29,156 (6.4 percent; Australia 6.2); age 10 to 14: 27,079 (6.0 percent); Preschool: 8,837 (6.0 percent of people attending an educational institution). ABS Schools methodology 2025: Pre-Year 1 known as kindergarten in the Australian Capital Territory and New South Wales; Australian Capital Territory - children must attend school from the age of six. IANA tz database: Australia/ACT links to Australia/Sydney, UTC+10 and UTC+11; Asia/Kolkata UTC+5:30.",
+    "localProject": "Pictogram of Canberra playgrounds. One OpenStreetMap Overpass query, snapshot 2026-10-07T12:59:01Z, rectangle 35.500 to 35.100 degrees south and 148.950 to 149.250 degrees east: 769 leisure=playground features; place nodes Canberra (city, -35.2975906, 149.1012676), Woden (town, -35.3498582, 149.0940482), Tuggeranong (town, -35.4209771, 149.0921341), Gungahlin (town, -35.1788782, 149.123653), Belconnen (town, -35.2274338, 149.0431454). Haversine counts within 2,000 m: Canberra 6, Woden 25, Tuggeranong 26, Gungahlin 30, Belconnen 44 (within 3,000 m: 14, 48, 62, 66, 88, not used). Minimum centre separation 5,849 m (Canberra to Woden). Icons at 1 icon = 10: 0.6, 2.5, 2.6, 3.0, 4.4; at 1 icon = 5: 1.2, 5.0, 5.2, 6.0, 8.8. Lesson family: pictogram key choice, quotient and remainder, part icons.",
+    "requiredMentions": [
+      "26,660",
+      "27,079",
+      "8,837",
+      "Gungahlin, Woden or Tuggeranong",
+      "769 playgrounds",
+      "5.85 kilometres",
+      "one icon for ten",
+      "Tuggeranong",
+      "Belconnen gets four and a bit icons"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Australian Capital Territory (8ACTE): people, median age, families, children per family, age bands, preschool attendance.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/8ACTE"
+      },
+      {
+        "claim": "ABS Schools methodology 2025: first year name and ACT compulsory school age.",
+        "url": "https://www.abs.gov.au/methodologies/schools-methodology/2025"
+      },
+      {
+        "claim": "OpenStreetMap via the Overpass API: leisure=playground features and place nodes in the stated rectangle, snapshot 2026-10-07T12:59:01Z (ODbL).",
+        "url": "https://overpass-api.de/api/interpreter"
+      },
+      {
+        "claim": "IANA time zone database, Australia/ACT (Australia/Sydney rules) and Asia/Kolkata offsets.",
+        "url": "https://www.iana.org/time-zones"
+      }
+    ],
+    "rejectedClaims": [
+      "ACT school term dates: education.act.gov.au and act.gov.au returned 403 to automated requests and were not circumvented, so no term dates are printed.",
+      "ACT Board of Senior Secondary Studies pages returned 403 and were not used.",
+      "Bureau of Meteorology observations: the Bureau asked automated requests to stop (403), so no weather facts are used.",
+      "Any reason why one town centre has more mapped playgrounds than another: not studied, so not claimed.",
+      "School sector, income, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the ACT Government, OpenStreetMap or the ABS."
+    ]
   }
 }
