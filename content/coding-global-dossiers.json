@@ -38289,5 +38289,115 @@
       "Named schools and term dates: none named or read.",
       "Sterling prices: none."
     ]
+  },
+  "best-coding-classes-in-sydney": {
+    "market": "Sydney",
+    "bodyClass": "cg-syd",
+    "pageType": "city",
+    "curriculumAuthority": "Greater Sydney, ABS Census 2021 QuickStats, GCCSA 1GSYD (read 7 October 2026): 5,231,147 people; median age 37 (New South Wales 39, Australia 38); 1,380,176 families; 2,076,284 private dwellings; average 2.7 people per household; dwelling structure, occupied private dwellings: flat or apartment 561,988 (30.7 percent; Australia 14.2 percent), separate house 1,020,631 (55.8 percent); occupation of employed people aged 15 and over: Professionals 711,729 (29.3 percent; Australia 24.0 percent); age 5 to 9: 329,072 (6.3 percent). Bureau of Meteorology: Capital City Observations IDN60901 header names station 94768 Sydney - Observatory Hill; Climate Data Online available-years list for station 066062, daily maximum temperature, begins 1859. NSW Government daylight saving page: starts Sunday 4 October 2026 at 2am AEST (clocks to 3am), ends Sunday 4 April 2027 at 3am AEDT (clocks to 2am). IANA tz database: Australia/Sydney UTC+10 and UTC+11; Asia/Kolkata UTC+5:30.",
+    "localProject": "Quickselect on inner-Sydney bus stops. One OpenStreetMap Overpass query, snapshot 2026-10-07T08:03Z, rectangle 33.84 to 33.92 degrees south and 151.17 to 151.24 degrees east: 885 highway=bus_stop nodes and 24 railway=station nodes. Haversine distances (R = 6,371,008.8 m) from the Town Hall station node (-33.873567, 151.2068498), measured 7 October 2026: median 2,781.6 m; maximum 6,029 m; 37 stops within 500 m; 128 within 1 km; the ten nearest within 213.6 m, nearest Town Hall, Park St, Stand J at 86 m. Comparison counts: Python sorted() with a counting comparator on a shuffled list 7,496, on the sorted list 884; quickselect (Lomuto partition, random pivot) on 200 shuffled lists mean 2,974.1, min 1,476, max 6,151, all 200 equal to the sorted median; first-element pivot on the sorted list 293,709 (n(n-1)/2 = 391,170); random pivot on the sorted list 3,790. Lesson family: selection without sorting, pivot choice, adversarial (sorted) input; distinct from sorting pages, binary search, k-d trees and quadtrees.",
+    "requiredMentions": [
+      "5,231,147",
+      "1,380,176",
+      "2,076,284",
+      "561,988",
+      "711,729",
+      "2,781.6",
+      "293,709",
+      "7,496",
+      "Town Hall, Park St, Stand J",
+      "Observatory Hill"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Greater Sydney (1GSYD): people, median age, families, private dwellings, dwelling structure, occupation, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1GSYD"
+      },
+      {
+        "claim": "OpenStreetMap via the Overpass API: highway=bus_stop and railway=station nodes in the stated rectangle, snapshot 2026-10-07T08:03Z (ODbL).",
+        "url": "https://overpass-api.de/api/interpreter"
+      },
+      {
+        "claim": "Bureau of Meteorology Capital City Observations, station 94768 Sydney - Observatory Hill.",
+        "url": "https://www.bom.gov.au/fwo/IDN60901/IDN60901.94768.json"
+      },
+      {
+        "claim": "Bureau of Meteorology Climate Data Online, station 066062, daily maximum temperature available years from 1859.",
+        "url": "https://www.bom.gov.au/jsp/ncc/cdio/wData/wdata?p_stn_num=066062&p_display_type=availableYears&p_nccObsCode=122"
+      },
+      {
+        "claim": "NSW Government, daylight saving 2026 and 2027 start and end dates and times.",
+        "url": "https://www.nsw.gov.au/about-nsw/daylight-saving"
+      }
+    ],
+    "rejectedClaims": [
+      "Bureau of Meteorology daily data downloads returned 403 to an automated request and were not circumvented, so no temperature figures are quoted.",
+      "Any count of bus stops for all of Sydney: OpenStreetMap is incomplete and our rectangle is not an official boundary.",
+      "Walking times or routes between stops: distances are straight lines from the Town Hall station node.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "School rankings, HSC results and selective school statistics: excluded by the cluster rules.",
+      "Any affiliation with Transport for NSW, OpenStreetMap, the ABS, the Bureau of Meteorology or the NSW Department of Education."
+    ]
+  },
+  "coding-and-ai-classes-in-new-south-wales": {
+    "market": "New South Wales",
+    "bodyClass": "cg-nsa",
+    "pageType": "city",
+    "curriculumAuthority": "New South Wales, ABS Census 2021 QuickStats, state 1 (read 7 October 2026): 8,072,163 people; median age 39 (Australia 38); 2,135,964 families; 3,357,785 private dwellings; level of highest educational attainment, people aged 15 and over: bachelor degree level and above 1,838,502 (27.8 percent; 2016 23.4 percent; Australia 26.3 percent). NSW Government, About the HSC: the HSC is the highest level of attainment that school students can achieve in NSW; NESA oversees the HSC; at least 12 units of preliminary courses and 10 units of HSC courses, including English; more than 60,000 students sit a compulsory English exam each year; in 2023 there were 124 written exams; first HSC 1967, about 18,000 students, roughly 74,480 in 2022. NSW Department of Education placement test page: Selective High School Placement Test for Year 7 entry in 2027, Friday 1 to Saturday 2 May 2026, make-up Friday 22 May 2026; Opportunity Class Placement Test for Year 5 entry in 2027, Friday 8 to Saturday 9 May 2026; computer-based on computers provided by the department; one test day per student; example timetable Reading Test 45 mins, Mathematical Reasoning Test 40 mins, Thinking Skills Test 40 mins, Writing Test 30 mins. NSW Curriculum primary stages page: Early Stage 1 Kindergarten; Stage 1 Year 1 and Year 2; Stage 2 Year 3 and Year 4; Stage 3 Year 5 and Year 6; Stage 4 Year 7 and Year 8; Stage 5 Year 9 and Year 10; Stage 6 Year 11 and Year 12; NESA provides the curriculum for Kindergarten to Year 12. NSW Curriculum: Mathematics K-10 Syllabus (2022), Early Stage 1 and Stage 1 for K-2, paths in Stages 4 and 5, core content as the foundation for Mathematics Standard 11-12; Software Engineering 11-12 Syllabus (2022), Year 11 course on fundamental elements of creating software, Year 12 course extends them, a major software project. NSW Department of Education term dates 2027: Term 1 Eastern Thursday 28 January to Friday 9 April, Western Thursday 4 February to Friday 9 April; Term 2 Tuesday 27 April to Friday 2 July; Term 3 Monday 19 July to Friday 24 September; Term 4 Monday 11 October to Monday 20 December; school development days are included in the term dates. NSW Government daylight saving: Sunday 4 October 2026 2am AEST to Sunday 4 April 2027 3am AEDT.",
+    "localProject": "ISO week dates on the 2027 NSW school terms (calculated 7 October 2026 with Python date.isocalendar and strftime). Friday 1 January 2027 = ISO 2026-W53; ISO 2026 has 53 weeks and ISO 2027 52. Over the 365 days of 2027, naive week ((day of year - 1) // 7 + 1) differs from the ISO week on 157 days, strftime %U on 54 and %W on 3 (1 to 3 January, ISO year 2026). ISO weeks by term: Term 1 Eastern 4 to 14 (naive 4 to 15), Western 5 to 14 (5 to 15), Term 2 17 to 26 (17 to 27), Term 3 29 to 38 (29 to 39), Term 4 41 to 51 (41 to 51). Weekdays Monday to Friday between published first and last dates: 52, 47 (Western Term 1), 49, 50, 51; Eastern total 202, which is not a count of student attendance days. Lesson family: ISO 8601 week dates, year-boundary weeks, calendar arithmetic; distinct from time-zone, Julian day and date-parsing pages.",
+    "requiredMentions": [
+      "8,072,163",
+      "2,135,964",
+      "3,357,785",
+      "1,838,502",
+      "74,480",
+      "124 written exams",
+      "Friday 22 May 2026",
+      "week 53 of 2026",
+      "Thursday 28 January",
+      "Monday 20 December"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, New South Wales: people, median age, families, private dwellings, highest educational attainment.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1"
+      },
+      {
+        "claim": "NSW Government, About the HSC: NESA, unit requirements, exam snapshot, 2023 exam committees and written exams, history from 1967.",
+        "url": "https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/hsc/about-HSC"
+      },
+      {
+        "claim": "NSW Department of Education, placement test page: test dates for 2027 entry, computer-based delivery, example timetables.",
+        "url": "https://education.nsw.gov.au/schooling/parents-and-carers/choosing-a-school-setting/selective-high-schools/placement-test"
+      },
+      {
+        "claim": "NSW Department of Education, future and past NSW term dates and school holidays (2027 terms; development days included).",
+        "url": "https://education.nsw.gov.au/schooling/calendars/future-and-past-nsw-term-and-vacation-dates"
+      },
+      {
+        "claim": "NSW Curriculum, primary stages page: Early Stage 1 Kindergarten through Stage 6 Year 11 and Year 12.",
+        "url": "https://curriculum.nsw.edu.au/stages/primary"
+      },
+      {
+        "claim": "NSW Curriculum, Mathematics K-10 Syllabus (2022) overview.",
+        "url": "https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-k-10-2022/overview"
+      },
+      {
+        "claim": "NSW Curriculum, Software Engineering 11-12 Syllabus (2022) overview.",
+        "url": "https://curriculum.nsw.edu.au/learning-areas/tas/software-engineering-11-12-2022/overview"
+      },
+      {
+        "claim": "NSW Government, daylight saving 2026 and 2027 dates.",
+        "url": "https://www.nsw.gov.au/about-nsw/daylight-saving"
+      }
+    ],
+    "rejectedClaims": [
+      "Selective school cut-off scores, offers or rankings: admissions-adjacent and excluded by the cluster rules.",
+      "HSC results, bands, ATAR outcomes and school league tables: excluded by the cluster rules.",
+      "Student attendance days per term: the published term dates include school development days and public holidays, which were not subtracted, so only weekdays are counted.",
+      "Opportunity class test section timings beyond the Reading test: not quoted in full.",
+      "Income, rent, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with NESA, the NSW Department of Education or the ABS."
+    ]
   }
 }

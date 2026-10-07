@@ -283,6 +283,11 @@ const SLUGS = [
   'maths-tuition-in-edinburgh',
   'maths-tuition-in-cambridge',
   'maths-tuition-in-belfast',
+  'game-development-for-kids-australia',
+  'online-coding-classes-for-kids-australia',
+  'australian-coding-maths-and-ai-competitions-calendar',
+  'naplan-numeracy-practice-online',
+  'hsc-software-engineering-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -645,6 +650,11 @@ const LLMS_LABELS = {
   'maths-tuition-in-edinburgh': 'Maths tuition in Edinburgh',
   'maths-tuition-in-cambridge': 'Maths tuition in Cambridge',
   'maths-tuition-in-belfast': 'Maths tuition in Belfast',
+  'game-development-for-kids-australia': 'Game development for kids, Australia',
+  'online-coding-classes-for-kids-australia': 'Online coding classes for kids, Australia',
+  'australian-coding-maths-and-ai-competitions-calendar': 'Australian coding, maths and AI competitions calendar',
+  'naplan-numeracy-practice-online': 'NAPLAN numeracy practice online',
+  'hsc-software-engineering-help': 'HSC Software Engineering help',
 };
 
 function wireLlms(slugs) {

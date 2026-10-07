@@ -831,6 +831,9 @@ const MARKETS = [
   ['ai-and-programming-classes-in-pontypool', 'Pontypool, Torfaen'],
   ['best-coding-and-ai-classes-in-penarth', 'Penarth, Vale of Glamorgan'],
   ['vibe-coding-and-ai-agents-classes-in-rhyl', 'Rhyl, Denbighshire'],
+  // Australia cluster (scripts/nl)
+  ['best-coding-classes-in-sydney', 'Sydney, New South Wales'],
+  ['coding-and-ai-classes-in-new-south-wales', 'New South Wales, Australia'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

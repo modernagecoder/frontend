@@ -5529,4 +5529,35 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /maths-tuition-in-belfast /src/pages/maths-tuition-in-belfast.html 200
 /maths-tuition-in-belfast.md /src/pages/maths-tuition-in-belfast.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/game-development-for-kids-australia /src/pages/game-development-for-kids-australia.html 200
+/game-development-for-kids-australia.md /src/pages/game-development-for-kids-australia.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/online-coding-classes-for-kids-australia /src/pages/online-coding-classes-for-kids-australia.html 200
+/online-coding-classes-for-kids-australia.md /src/pages/online-coding-classes-for-kids-australia.md 200
+/coding-classes-cost-australia /src/pages/coding-classes-cost-australia.html 200
+/coding-classes-cost-australia.html /coding-classes-cost-australia 301!
+/coding-classes-cost-australia.md /src/pages/coding-classes-cost-australia.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/australian-coding-maths-and-ai-competitions-calendar /src/pages/australian-coding-maths-and-ai-competitions-calendar.html 200
+/australian-coding-maths-and-ai-competitions-calendar.md /src/pages/australian-coding-maths-and-ai-competitions-calendar.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/naplan-numeracy-practice-online /src/pages/naplan-numeracy-practice-online.html 200
+/naplan-numeracy-practice-online.md /src/pages/naplan-numeracy-practice-online.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/hsc-software-engineering-help /src/pages/hsc-software-engineering-help.html 200
+/hsc-software-engineering-help.md /src/pages/hsc-software-engineering-help.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-classes-in-sydney /src/pages/best-coding-classes-in-sydney.html 200
+/best-coding-classes-in-sydney.md /src/pages/best-coding-classes-in-sydney.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-and-ai-classes-in-new-south-wales /src/pages/coding-and-ai-classes-in-new-south-wales.html 200
+/coding-and-ai-classes-in-new-south-wales.md /src/pages/coding-and-ai-classes-in-new-south-wales.md 200
 /* /src/pages/404.html 404

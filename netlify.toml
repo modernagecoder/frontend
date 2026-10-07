@@ -18943,6 +18943,105 @@
   to = "/src/pages/maths-tuition-in-belfast.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/game-development-for-kids-australia"
+  to = "/src/pages/game-development-for-kids-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/game-development-for-kids-australia.md"
+  to = "/src/pages/game-development-for-kids-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-classes-for-kids-australia"
+  to = "/src/pages/online-coding-classes-for-kids-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-classes-for-kids-australia.md"
+  to = "/src/pages/online-coding-classes-for-kids-australia.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-cost-australia"
+  to = "/src/pages/coding-classes-cost-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-cost-australia.html"
+  to = "/coding-classes-cost-australia"
+  status = 301
+
+[[redirects]]
+  from = "/coding-classes-cost-australia.md"
+  to = "/src/pages/coding-classes-cost-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/australian-coding-maths-and-ai-competitions-calendar"
+  to = "/src/pages/australian-coding-maths-and-ai-competitions-calendar.html"
+  status = 200
+
+[[redirects]]
+  from = "/australian-coding-maths-and-ai-competitions-calendar.md"
+  to = "/src/pages/australian-coding-maths-and-ai-competitions-calendar.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/naplan-numeracy-practice-online"
+  to = "/src/pages/naplan-numeracy-practice-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/naplan-numeracy-practice-online.md"
+  to = "/src/pages/naplan-numeracy-practice-online.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/hsc-software-engineering-help"
+  to = "/src/pages/hsc-software-engineering-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/hsc-software-engineering-help.md"
+  to = "/src/pages/hsc-software-engineering-help.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-classes-in-sydney"
+  to = "/src/pages/best-coding-classes-in-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-classes-in-sydney.md"
+  to = "/src/pages/best-coding-classes-in-sydney.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-and-ai-classes-in-new-south-wales"
+  to = "/src/pages/coding-and-ai-classes-in-new-south-wales.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-and-ai-classes-in-new-south-wales.md"
+  to = "/src/pages/coding-and-ai-classes-in-new-south-wales.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

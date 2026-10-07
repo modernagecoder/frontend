@@ -802,3 +802,10 @@
 .ag-root.ag-mte { --ag-accent: #4E458D; --ag-accent-soft: rgba(78,69,141,.09); }   /* Edinburgh maths: a muted slate blue, chosen by hand and clearly different from the plum of our Edinburgh coding page */
 .ag-root.ag-cbm { --ag-accent: #722712; --ag-accent-soft: rgba(114,39,18,.09); }   /* Cambridge maths: a deep brick rust, chosen by hand and kept clear of the magenta of our Cambridge coding page */
 .ag-root.ag-mbf { --ag-accent: #187230; --ag-accent-soft: rgba(24,114,48,.09); }   /* Belfast maths: a muted hill green, chosen by hand and kept apart from the olive on our Belfast coding page */
+
+/* Australia cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints. */
+.ag-root.ag-gdau { --ag-accent: #2D6F30; --ag-accent-soft: rgba(45,111,48,.09); }   /* Game development for kids, Australia: a eucalyptus green chosen by hand, muted, at least 13 RGB units from every accent in use and clear of the cyan and violet bands */
+.ag-root.ag-ocau { --ag-accent: #963F2A; --ag-accent-soft: rgba(150,63,42,.09); }   /* Online coding for kids, Australia: a red-ochre chosen by hand, muted, at least 11 RGB units from every accent in use and clear of the cyan and violet bands */
+.ag-root.ag-auc { --ag-accent: #756012; --ag-accent-soft: rgba(117,96,18,.09); }   /* Australian competitions calendar: a muted wattle ochre (5.0:1 on #EDE7DA), at least 12 RGB from every accent on the site */
+.ag-root.ag-nnp { --ag-accent: #5A1827; --ag-accent-soft: rgba(90,24,39,.09); }   /* NAPLAN numeracy: a deep muted claret (10.7:1 on #EDE7DA), at least 11 RGB from every accent on the site */
+.ag-root.ag-hse { --ag-accent: #185A96; --ag-accent-soft: rgba(24,90,150,.09); }   /* HSC Software Engineering: a muted harbour blue (5.8:1 on #EDE7DA), at least 11 RGB from every accent on the site */

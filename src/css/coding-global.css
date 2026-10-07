@@ -1483,3 +1483,7 @@
 .cg-root.cg-ppl  { --cg-accent: #347024; --cg-accent-soft: rgba(52,112,36,.10); }   /* Pontypool: a muted park green (6.02:1 contrast on white), chosen by hand and kept clear of the other Gwent pages */
 .cg-root.cg-pnh  { --cg-accent: #9C3038; --cg-accent-soft: rgba(156,48,56,.10); }   /* Penarth: a muted pier-rail red (7.26:1 contrast on white), chosen by hand and kept clear of the other Cardiff-area pages */
 .cg-root.cg-rhy  { --cg-accent: #245840; --cg-accent-soft: rgba(36,88,64,.10); }   /* Rhyl: a muted sea green (8.25:1 contrast on white), chosen by hand and kept clear of the other North Wales pages */
+
+/* Australia cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints, separated only from the pages each one links to. */
+.cg-root.cg-syd  { --cg-accent: #182C98; --cg-accent-soft: rgba(24,44,152,.10); }   /* Sydney: a deep harbour blue (HSV saturation 0.84, value 0.60), at least 15 RGB units from every accent already in content/, 4.8:1 or better on every paper tint */
+.cg-root.cg-nsa  { --cg-accent: #287044; --cg-accent-soft: rgba(40,112,68,.10); }   /* New South Wales: a eucalypt green (HSV saturation 0.64, value 0.44), at least 12 RGB units from every accent in content/ and far from the Sydney harbour blue, 4.8:1 or better on every paper tint */
