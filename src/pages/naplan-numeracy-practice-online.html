@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NAPLAN Numeracy Practice Online | Years 3, 5, 7 and 9</title>
+  <meta name="description" content="NAPLAN numeracy practice for Years 3, 5, 7 and 9: the 2027 test dates, how the tailored online test works, calculator rules, and original practice questions.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/naplan-numeracy-practice-online">
+  <link rel="alternate" type="text/markdown" href="/src/pages/naplan-numeracy-practice-online.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#5A1827">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/naplan-numeracy-practice-online">
+  <meta property="og:title" content="NAPLAN Numeracy Practice Online | Years 3, 5, 7 and 9">
+  <meta property="og:description" content="The NAPLAN numeracy test explained from ACARA's own pages: durations by year, the tailored testlet design, the Years 7 and 9 calculator rule, 2027 dates, and estimation practice we wrote ourselves.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NAPLAN Numeracy Practice Online">
+  <meta name="twitter:description" content="NAPLAN numeracy for Years 3, 5, 7 and 9: dates, test design and estimation practice.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-nnp .ag-hero-grid { gap: clamp(1rem, 2.8vw, 2.4rem); }
+.ag-root.ag-nnp .ag-hero h1 { letter-spacing: -0.016em; }
+.ag-root.ag-nnp .ag-capsule { border-left-width: 5px; }
+.ag-root.ag-nnp .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-nnp .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-nnp .ag-table th { letter-spacing: 0.015em; }
+.ag-root.ag-nnp .ag-spec dt { letter-spacing: 0.1em; }
+.ag-root.ag-nnp .ag-slots { gap: 1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/naplan-numeracy-practice-online#page","url":"https://learn.modernagecoders.com/naplan-numeracy-practice-online","name":"NAPLAN Numeracy Practice Online","description":"A guide to NAPLAN numeracy for Australian families: what the test assesses, how long it runs in each year, how tailored testing works, the 2027 test window, proficiency levels, and original estimation practice for Years 3, 5, 7 and 9.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Online maths tutoring in Australia","item":"https://learn.modernagecoders.com/online-maths-tutoring-australia"},{"@type":"ListItem","position":3,"name":"NAPLAN numeracy practice","item":"https://learn.modernagecoders.com/naplan-numeracy-practice-online"}]},{"@type":"Course","name":"NAPLAN Numeracy Practice Online","description":"Live online maths classes for Australian primary and secondary students that build number sense, estimation and reasoning, the skills NAPLAN numeracy draws on, without promising any result.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/naplan-numeracy-practice-online"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/naplan-numeracy-practice-online"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/naplan-numeracy-practice-online"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is NAPLAN numeracy?","acceptedAnswer":{"@type":"Answer","text":"It is the maths test within NAPLAN, the national assessment for students in Years 3, 5, 7 and 9. ACARA says it measures the application of mathematics knowledge, skills, procedures and processes across number, algebra, measurement, space, statistics and probability."}},{"@type":"Question","name":"When is NAPLAN in 2027?","acceptedAnswer":{"@type":"Answer","text":"The 2027 test window is 10 to 22 March. Schools set the exact days within the window and run numeracy after the conventions of language test."}},{"@type":"Question","name":"How long is the numeracy test?","acceptedAnswer":{"@type":"Answer","text":"45 minutes in Year 3, 50 minutes in Year 5, and 65 minutes in Years 7 and 9."}},{"@type":"Question","name":"Can students use a calculator?","acceptedAnswer":{"@type":"Answer","text":"In Years 7 and 9 the test has a short non-calculator section first, after which an online calculator is available. Students cannot return to the non-calculator section once they move on."}},{"@type":"Question","name":"What is a tailored test?","acceptedAnswer":{"@type":"Answer","text":"The test adapts as a student answers. Everyone starts with testlet A, and the answers decide whether the next questions are less or more complex. Results depend on both the number answered correctly and how difficult those questions were."}},{"@type":"Question","name":"What are the proficiency levels?","acceptedAnswer":{"@type":"Answer","text":"Results are reported as Exceeding, Strong, Developing or Needs additional support. ACARA publishes descriptions of each level by year and domain."}},{"@type":"Question","name":"What is front-end estimation?","acceptedAnswer":{"@type":"Answer","text":"A way of estimating by working with the leading digits first and adjusting afterwards. It gives a rough answer quickly, so a calculated answer can be checked against it."}},{"@type":"Question","name":"Where can my child try practice questions?","acceptedAnswer":{"@type":"Answer","text":"ACARA's public demonstration site has sample questions year-round, and schools can run practice tests in the assessment platform from Term 3, 2026. Our practice questions on this page are written by us."}},{"@type":"Question","name":"Will your classes raise my child's NAPLAN result?","acceptedAnswer":{"@type":"Answer","text":"We do not promise any result or proficiency level. We teach number sense, estimation and reasoning properly, and those skills are what the test draws on."}},{"@type":"Question","name":"What time would a class be for us?","acceptedAnswer":{"@type":"Answer","text":"We fix one weekly slot with you once the trial class is done, normally just after school in your state. Brisbane is four and a half hours ahead of India time all year, as Queensland has no daylight saving."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/naplan-numeracy-practice-online","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-nnp">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#test">The test</a></li>
+      <li><a href="#tailored">Tailored design</a></li>
+      <li><a href="#dates">Dates</a></li>
+      <li><a href="#estimation">Practice</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/online-maths-tutoring-australia">Online maths tutoring in Australia</a> / NAPLAN numeracy practice
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; NAPLAN Years 3, 5, 7 and 9 &middot; Live online</p>
+        <h1>NAPLAN numeracy practice</h1>
+        <p class="ag-lede">NAPLAN numeracy is a short online test, but it measures something that takes years to build: whether a child can reason with numbers rather than only follow steps. The questions change as a student answers, the Year 7 and 9 tests lock the calculator away for the first part, and the results come back as one of four proficiency levels. This page explains how the test actually works, using ACARA's own descriptions, gives the confirmed dates for 2027, and offers practice questions we wrote around one habit that helps in every year level: estimating before calculating. Nothing here promises a score. Good teaching shows up in NAPLAN as a by-product, not the other way round.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#estimation" class="ag-btn ag-btn--ghost">Try the practice questions</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20class%20about%20number%20sense%20and%20NAPLAN%20numeracy." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'nnp'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Facts from ACARA's NAPLAN site &middot; Original practice &middot; No score promises</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Who sits it</dt><dd>Years 3, 5, 7 and 9</dd>
+          <dt>2027 window</dt><dd>10 to 22 March</dd>
+          <dt>Design</dt><dd>Tailored: adapts as students answer</dd>
+          <dt>Year 3</dt><dd>45 minutes</dd>
+          <dt>Year 5</dt><dd>50 minutes</dd>
+          <dt>Years 7 and 9</dt><dd>65 minutes, calculator after a short section</dd>
+          <dt>Results</dt><dd>Four proficiency levels</dd>
+          <dt>We teach</dt><dd>Number sense and reasoning</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>NAPLAN numeracy is the national maths test for Years 3, 5, 7 and 9. It runs 45 minutes in Year 3, 50 in Year 5 and 65 in Years 7 and 9, where a short non-calculator section comes first. The tailored design adapts the questions to each student. In 2027 the test window is 10 to 22 March. Results are reported as four proficiency levels.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three courses that build what NAPLAN measures</h2>
+      <p class="ag-lede">Number sense first, then the reasoning that the later testlets reward.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/mental-maths-mastery-kids">
+        <div class="ag-pick-shot"><img src="/images/mental-maths-kids.webp" alt="Mental Maths for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">NNP / 01</p>
+          <h3>Mental maths for primary</h3>
+          <p>Place value, estimation and quick reasoning: the ground Years 3 and 5 stand on.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/elementary-mathematics-complete-masterclass">
+        <div class="ag-pick-shot"><img src="/images/elementary-maths.webp" alt="Elementary Maths for Grades 1-5 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">NNP / 02</p>
+          <h3>Primary maths, all strands</h3>
+          <p>Number, measurement, space and data in step with what Australian classrooms cover.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/comprehensive-middle-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/middle-school-maths.webp" alt="Middle School Mathematics Mastery course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">NNP / 03</p>
+          <h3>Years 7 to 9 maths</h3>
+          <p>Fractions, ratios, algebra and geometry, with reasoning written out.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="test">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What the numeracy test is</p><h2>One test, four year levels, five content strands</h2><p class="ag-lede">Durations and rules are ACARA's, from the NAPLAN site, checked on 7 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>NAPLAN numeracy by year level</caption><thead><tr><th scope="col">Year</th><th scope="col">Duration</th><th scope="col">Calculator</th></tr></thead><tbody><tr><td>Year 3</td><td>45 minutes</td><td>No calculator section is described</td></tr><tr><td>Year 5</td><td>50 minutes</td><td>No calculator section is described</td></tr><tr><td>Year 7</td><td>65 minutes</td><td>A short non-calculator section first, then an online calculator</td></tr><tr><td>Year 9</td><td>65 minutes</td><td>A short non-calculator section first, then an online calculator</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>ACARA describes the numeracy tests as measuring students' "application of mathematics knowledge, skills, procedures and processes" across the content strands of number, algebra, measurement, space, statistics and probability. Questions arrive as multiple choice, text entry and technology-enhanced items such as drag-and-drop and hot-spot.</p>
+<p>The questions are mostly built on skills taught in earlier years. ACARA notes that a few assess content from the year of testing and the following year, so a Year 5 student may see something they meet properly in Year 6.</p></div><div><p>In Years 7 and 9 the calculator rule shapes the whole test. The first section asks students to show arithmetic without help. Once they move on, an online calculator appears, and they cannot go back to the non-calculator section.</p>
+<p>NAPLAN is aligned with the Australian Curriculum: Mathematics. While states move from version 8.4 to version 9.0, ACARA says the tests assess skills common to both versions.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.nap.edu.au/naplan/whats-in-the-tests" rel="noopener" target="_blank">NAPLAN, What's in the tests</a>; <a class="ag-inline-link" href="https://www.nap.edu.au/naplan/key-dates/naplan-test-window" rel="noopener" target="_blank">NAPLAN test window and durations</a>. Read at source on 7 October 2026; ACARA has no connection with Modern Age Coders.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="tailored">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How the test adapts</p><h2>Tailored testing: three testlets, several pathways</h2><p class="ag-lede">NAPLAN numeracy is not the same paper for everyone. The questions a student sees depend on how they answer, which changes how practice should be done.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The numeracy testlet design, as ACARA describes it</caption><thead><tr><th scope="col">Stage</th><th scope="col">What happens</th></tr></thead><tbody><tr><td>First testlet</td><td>Every student at a year level starts with testlet A</td></tr><tr><td>Second testlet</td><td>Answers in A decide the next set: less complex (B) or more complex (D); a low score in A leads to testlet C early, then B</td></tr><tr><td>Final testlet</td><td>The second testlet decides the last one: highest complexity (F), average (E) or lowest (C)</td></tr><tr><td>Scoring</td><td>Based on both the number of questions answered correctly and the average difficulty of the questions the student received</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The practical consequence is about care, not speed. A careless slip early in testlet A can send a capable student down a gentler pathway, and ACARA states that a student who answers the same number of questions correctly on a less complex pathway can receive a lower scale score.</p>
+<p>That is why our practice puts so much weight on checking an answer against an estimate. A check that takes ten seconds protects the pathway for the rest of the test.</p></div><div><p>Results are reported against four proficiency levels: Exceeding, Strong, Developing and Needs additional support. ACARA publishes descriptions of what students at each level typically show, by year and domain.</p>
+<p>The levels describe what a child could do on the day. They are a useful snapshot for a teacher, and a poor reason for drilling. Children who understand the mathematics tend to read the questions calmly, and that matters more than practice volume.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.nap.edu.au/naplan/understanding-online-assessment/tailored-tests" rel="noopener" target="_blank">NAPLAN, Tailored tests</a>; <a class="ag-inline-link" href="https://www.nap.edu.au/naplan/results-and-reports/proficiency-level-descriptions" rel="noopener" target="_blank">NAPLAN proficiency level descriptions</a>. Checked on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="dates">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Key dates</p><h2>When NAPLAN runs in 2027, 2028 and 2029</h2><p class="ag-lede">ACARA publishes test windows years ahead. Schools choose the exact days within the window.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>NAPLAN test windows, as published on the NAPLAN key dates page</caption><thead><tr><th scope="col">Year</th><th scope="col">Test window</th></tr></thead><tbody><tr><td>2027</td><td>10 to 22 March</td></tr><tr><td>2028</td><td>15 to 27 March</td></tr><tr><td>2029</td><td>14 to 26 March</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>Inside the window, ACARA sets the order: writing first, then reading, then conventions of language, then numeracy. Schools are asked to schedule tests as soon as possible within the window and to prefer mornings.</p>
+<p>If a student is absent, schools can run catch-up sessions later in the window. Exact days for any child come from their school, not from us.</p></div><div><p>Familiarisation is free and official. ACARA says schools can complete practice tests in the assessment platform from Term 3, 2026, and the public demonstration site offers sample questions year-round so students can see the item types before test week.</p>
+<p>We recommend that every student tries the public demonstration site once, simply to remove surprise about how drag-and-drop or text entry works on screen.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://www.nap.edu.au/naplan/key-dates" rel="noopener" target="_blank">NAPLAN key dates</a>. Checked on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="estimation">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Practice we wrote</p><h2>Front-end estimation and benchmark fractions</h2><p class="ag-lede">One habit runs through every year level: decide roughly what the answer should be before working it out. Front-end estimation uses the leading digits; benchmark fractions compare everything to a half or a whole.</p></div>
+    <div class="ag-grid-3"><div><h3>Front-end estimation</h3><p>Work with the leading digits first, then adjust. For 48 times 3, think 40 times 3 is 120 and 8 times 3 is 24, so about 144. The rough answer arrives before any written method.</p></div><div><h3>Benchmark fractions</h3><p>Compare fractions to 0, a half and 1 before calculating. Five eighths is more than a half; three sevenths is less. The comparison is done without common denominators.</p></div><div><h3>The ten-second check</h3><p>After calculating, set the answer beside the estimate. If they disagree by a factor of ten, a decimal point or a digit has slipped, and there is still time to fix it.</p></div></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Original practice questions by year level, with the estimate and the exact answer</caption><thead><tr><th scope="col">Year</th><th scope="col">Question</th><th scope="col">Estimate first</th><th scope="col">Exact answer</th></tr></thead><tbody><tr><td>Year 3</td><td>A class receives 3 boxes of 48 pencils. About how many pencils is that?</td><td>40 times 3 is 120, plus 8 times 3 is 24: about 144</td><td>144</td></tr><tr><td>Year 5</td><td>Which is larger, five eighths or three sevenths?</td><td>Five eighths is more than a half; three sevenths is less than a half</td><td>Five eighths</td></tr><tr><td>Year 5</td><td>A 3.8 metre ribbon is cut into 4 equal pieces. About how long is each piece?</td><td>3.8 is close to 4, and 4 shared by 4 is 1: just under 1 metre</td><td>0.95 metres</td></tr><tr><td>Year 7</td><td>Without a calculator: is seven twelfths plus five ninths more or less than 1?</td><td>Each fraction is more than a half, so the total is more than 1</td><td>More than 1 (it is 1 and 5 thirty-sixths)</td></tr><tr><td>Year 7</td><td>Without a calculator: estimate 49 times 21.</td><td>50 times 20 is 1,000; both numbers moved, so the answer is near 1,000</td><td>1,029</td></tr><tr><td>Year 9</td><td>A crowd of 23,847 people is 38 per cent under 18. About how many is that?</td><td>About 24,000 times two fifths: about 9,600, a little high because both numbers were rounded up</td><td>9,062 (to the nearest person)</td></tr><tr><td>Year 9</td><td>A calculator shows 8.4 for 2.4 times 0.35. Is that reasonable?</td><td>2.4 is about 2 and 0.35 about a third, so the answer is under 1</td><td>No: the answer is 0.84, a slipped decimal point</td></tr></tbody></table></div>
+    <p>Notice what the estimates do. In the Year 9 calculator question, the student never needs to redo the multiplication to know something is wrong; the estimate alone catches a decimal point in the wrong place. In the Year 7 fraction question, no common denominator is needed to answer correctly. Those are exactly the moments the tailored design rewards, because a slip caught early keeps a student on the pathway their understanding deserves.</p>
+    <p>We do not sell NAPLAN drilling, and we do not promise a proficiency level. Our classes teach the mathematics properly, with estimation and checking built in from the first lesson, and families tell us the test week feels calmer as a result.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Building number sense</p>
+      <h2>Four rungs from Year 3 to Year 9</h2>
+      <p class="ag-lede">Where a child starts depends on how they reason with numbers, not on their year level.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Estimation and reasoning, rung by rung</caption><thead><tr><th scope="col">Around</th><th scope="col">Rung</th><th scope="col">The sign it is secure</th></tr></thead><tbody><tr><td>Year 3</td><td class="ag-num">1. Place value</td><td class="ag-num">Rounds to the nearest ten or hundred and explains why</td></tr><tr><td>Year 5</td><td class="ag-num">2. Front-end estimation</td><td class="ag-num">Estimates products and quotients before calculating</td></tr><tr><td>Year 7</td><td class="ag-num">3. Benchmarks</td><td class="ag-num">Compares fractions and percentages to a half and a whole without converting</td></tr><tr><td>Year 9</td><td class="ag-num">4. Reasonableness</td><td class="ag-num">Spots a wrong calculator answer from an estimate alone</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If maths feels stressful</h3><p>Anxiety about tests usually comes from not knowing whether an answer is right. Estimation gives a child a way to check, which changes how a test feels.</p>
+<p>Short, regular practice with talk about reasoning beats long sessions of worksheets.</p></div><div><h3>Beyond NAPLAN</h3><p>Students who enjoy the reasoning side often try the Australian Mathematics Competition, covered on our <a class="ag-inline-link" href="/australian-maths-trust-amc-aio-cat-preparation">Australian Maths Trust page</a>.</p>
+<p>The same habits carry into senior maths, where checking a result against an estimate saves marks in every exam.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine maths courses for Australian students</h2>
+      <p class="ag-lede">Grouped by stage. Full syllabuses open from each card.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Years 3 to 5</h3>
+        <span class="ag-band-sub">Number sense and fluency</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">NNP / P / 01</p>
+          <h4>Mental maths for kids</h4>
+          <p>Number sense and estimation, not tricks.</p>
+          <a class="ag-course-link" href="/courses/mental-maths-mastery-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NNP / P / 02</p>
+          <h4>Primary maths</h4>
+          <p>All strands, taught with reasoning out loud.</p>
+          <a class="ag-course-link" href="/courses/elementary-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NNP / P / 03</p>
+          <h4>Abacus mental maths</h4>
+          <p>Visual calculation for younger learners who like structure.</p>
+          <a class="ag-course-link" href="/courses/abacus-mental-maths-course-for-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Years 7 to 9</h3>
+        <span class="ag-band-sub">Fractions to algebra</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">NNP / S / 01</p>
+          <h4>Middle years maths</h4>
+          <p>Fractions, ratios, geometry and early algebra.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NNP / S / 02</p>
+          <h4>Algebra foundations</h4>
+          <p>Equations and expressions, understood rather than memorised.</p>
+          <a class="ag-course-link" href="/courses/algebra-foundations-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NNP / S / 03</p>
+          <h4>Statistics and probability</h4>
+          <p>Data, chance and the reasoning NAPLAN's later items use.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Stretch</h3>
+        <span class="ag-band-sub">For keen problem solvers</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">NNP / X / 01</p>
+          <h4>Competition maths</h4>
+          <p>Problem solving for the AMC and beyond.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NNP / X / 02</p>
+          <h4>Problem solving and computational thinking</h4>
+          <p>Logic and patterns for curious primary students.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NNP / X / 03</p>
+          <h4>Vedic maths</h4>
+          <p>Fast calculation methods, always checked against an estimate.</p>
+          <a class="ag-course-link" href="/courses/vedic-maths-course-speed-calculation-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Weekly classes, timed for Australian afternoons</h2>
+      <p class="ag-lede">Our maths teachers are based in India, which sits behind every Australian capital. A 4 pm class in Brisbane, for instance, begins at 11.30 am India time, so primary-age slots straight after the school bell are simple to staff and simple to keep.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday after school</p><p class="ag-slot-l">The usual choice for primary and middle years.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend morning</p><p class="ag-slot-l">For families who prefer a calmer start.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">School holidays</p><p class="ag-slot-l">Short catch-up blocks on a single topic.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Reasoning out loud</h3><p>Students explain how they know, not just what they got.</p></div>
+      <div><h3>Estimation built in</h3><p>Every calculation starts with a rough answer and ends with a check.</p></div>
+      <div><h3>Classes of five to ten</h3><p>Children grouped by what they can already do, so nobody waits and nobody is lost.</p></div>
+      <div><h3>Private lessons</h3><p>Chosen when a child needs a particular gap closed or confidence rebuilt.</p></div>
+      <div><h3>Parents kept informed</h3><p>A short note on what was covered and what to try at home.</p></div>
+      <div><h3>No promises</h3><p>No proficiency level is promised. We teach the maths; the result is the child's.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students have published</h2>
+      <p class="ag-lede">Work our learners made for its own sake, with no test attached. The full gallery lives in the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Australian families are billed monthly in US dollars, the same rate we charge everywhere outside India, with nothing to pay up front and freedom to stop at any month end.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A real lesson with a teacher</li><li>An honest view of where your child is</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students at one level</li><li>The same teacher each week</li><li>Work reviewed and explained</li><li>A certificate at the end</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher for one child</li><li>Focused on specific gaps</li><li>Flexible weekly times</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents in their own words, quoted exactly as they appear on Google.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about NAPLAN numeracy</p>
+      <h2>What Australian parents ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is NAPLAN numeracy?</h3>
+        <p>It is the maths test within NAPLAN, the national assessment for students in Years 3, 5, 7 and 9. ACARA says it measures the application of mathematics knowledge, skills, procedures and processes across number, algebra, measurement, space, statistics and probability.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is NAPLAN in 2027?</h3>
+        <p>The 2027 test window is 10 to 22 March. Schools set the exact days within the window and run numeracy after the conventions of language test.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long is the numeracy test?</h3>
+        <p>45 minutes in Year 3, 50 minutes in Year 5, and 65 minutes in Years 7 and 9.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can students use a calculator?</h3>
+        <p>In Years 7 and 9 the test has a short non-calculator section first, after which an online calculator is available. Students cannot return to the non-calculator section once they move on.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is a tailored test?</h3>
+        <p>The test adapts as a student answers. Everyone starts with testlet A, and the answers decide whether the next questions are less or more complex. Results depend on both the number answered correctly and how difficult those questions were.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What are the proficiency levels?</h3>
+        <p>Results are reported as Exceeding, Strong, Developing or Needs additional support. ACARA publishes descriptions of each level by year and domain.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is front-end estimation?</h3>
+        <p>A way of estimating by working with the leading digits first and adjusting afterwards. It gives a rough answer quickly, so a calculated answer can be checked against it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where can my child try practice questions?</h3>
+        <p>ACARA's public demonstration site has sample questions year-round, and schools can run practice tests in the assessment platform from Term 3, 2026. Our practice questions on this page are written by us.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will your classes raise my child's NAPLAN result?</h3>
+        <p>We do not promise any result or proficiency level. We teach number sense, estimation and reasoning properly, and those skills are what the test draws on.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What time would a class be for us?</h3>
+        <p>We fix one weekly slot with you once the trial class is done, normally just after school in your state. Brisbane is four and a half hours ahead of India time all year, as Queensland has no daylight saving.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>More for Australian families</h2>
+      <p class="ag-lede">Maths beyond NAPLAN, competitions, and coding.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/online-maths-tutoring-australia">Online maths tutoring in Australia</a></h3><p>From Foundation year to senior maths, taught live.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Australian competitions calendar</a></h3><p>Maths, coding and AI contests, month by month.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-maths-trust-amc-aio-cat-preparation">AMC and CAT preparation</a></h3><p>Getting primary and middle-years students ready for AMT papers.</p></div>
+      <div><h3><a class="ag-inline-link" href="/math-olympiad-amc-tutoring">Maths olympiad tutoring</a></h3><p>For students who want harder problems.</p></div>
+      <div><h3><a class="ag-inline-link" href="/maths-challenges">Maths challenges</a></h3><p>Puzzles to try at home.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>Where maths meets programming.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Start with a free maths class</h2>
+        <p class="ag-lede">Tell us the year level and what feels hard right now. The free class works on number sense and reasoning, and ends with an honest view of next steps.</p>
+        <p class="ag-mt-40">Rather browse quietly? Every maths course is laid out on the <a class="ag-inline-link" href="/course-atlas">course atlas</a>, and <a class="ag-inline-link" href="/how-we-teach">how we teach</a> describes a lesson from start to finish.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20class%20about%20number%20sense%20and%20NAPLAN%20numeracy." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'nnp',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">A WhatsApp message tends to get the quickest reply. Our number carries the +91 Indian code: the school operates from India and keeps no premises in Australia.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_nnp(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card, no obligation. One reply to arrange the class.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Australia</h4><ul><li><a href="/online-maths-tutoring-australia">Maths tutoring in Australia</a></li><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li><li><a href="/australian-maths-trust-amc-aio-cat-preparation">AMT competitions</a></li></ul></div>
+      <div><h4>Learn more</h4><ul><li><a href="/maths-challenges">Maths challenges</a></li><li><a href="/math-olympiad-amc-tutoring">Olympiad tutoring</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>We teach the maths; no NAPLAN result is promised</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_nnp = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'naplan-numeracy-practice-online-inline', meta: { name: name, age: age, page: 'naplan-numeracy-practice-online' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
