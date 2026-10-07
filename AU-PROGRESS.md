@@ -95,7 +95,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 61 | vce-maths-methods-tutoring (vcmm, #4C349C) | ag- exam door | 3,483 | 1.8% vs vce-specialist-maths-tutoring | Does the order of a dilation and a translation change the graph? | order of transformations, dilation before or after translation | 4b05df01 |
 | 62 | vce-specialist-maths-tutoring (vcsm, #815433) | ag- exam door | 3,446 | 1.8% vs vce-maths-methods-tutoring | Why do the nth roots of unity form a regular polygon, and what does that predict? | nth roots of unity as regular polygon vertices | e09c473d |
 | 63 | vce-general-maths-tutoring (vcgm, #9C394E) | ag- exam door | 3,368 | 1.7% vs vce-maths-methods-tutoring | Where does a first-order linear recurrence settle in the long run? | first-order linear recurrence steady state | 6777d34e |
-| 64 | vce-foundation-maths-help (vcfm, #630F0F) | ag- exam door | 3,349 | 1.4% vs vce-specialist-maths-tutoring | When should a practical answer be rounded up, rounded down or given as a range? | floor and ceiling values with interval estimates | (this commit) |
+| 64 | vce-foundation-maths-help (vcfm, #630F0F) | ag- exam door | 3,349 | 1.4% vs vce-specialist-maths-tutoring | When should a practical answer be rounded up, rounded down or given as a range? | floor and ceiling values with interval estimates | 916f7160 |
+| 51 | hsc-enterprise-computing-help (hent, #845121) | ag- exam door | 3,261 | 1.8% vs choosing-year-11-computing-subjects-australia | What does NSW Enterprise Computing teach across its seven focus areas, how is its online HSC exam built, and how can a chart mislead without lying? | truncated y-axis distortion in a bar chart | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

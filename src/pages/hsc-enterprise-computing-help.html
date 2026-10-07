@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>HSC Enterprise Computing Help | NSW Year 11 and 12 Online</title>
+  <meta name="description" content="HSC Enterprise Computing help for NSW Year 11 and 12: data science, visualisation, intelligent systems, security and the online HSC exam. We never write projects.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/hsc-enterprise-computing-help">
+  <link rel="alternate" type="text/markdown" href="/src/pages/hsc-enterprise-computing-help.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#845121">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/hsc-enterprise-computing-help">
+  <meta property="og:title" content="HSC Enterprise Computing Help | NSW Year 11 and 12 Online">
+  <meta property="og:description" content="Enterprise Computing explained from the NSW syllabus: the Year 11 and Year 12 focus areas with their hours, the online HSC exam, school-based assessment, and a lesson on charts that mislead with a truncated axis.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="HSC Enterprise Computing Help">
+  <meta name="twitter:description" content="HSC Enterprise Computing from the NSW syllabus: data, users, security and an online exam.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-hent .ag-hero-grid { gap: clamp(1.1rem, 3vw, 2.5rem); }
+.ag-root.ag-hent .ag-hero h1 { letter-spacing: -0.016em; }
+.ag-root.ag-hent .ag-capsule { border-left-width: 6px; }
+.ag-root.ag-hent .ag-section-head h2 { max-width: 29ch; }
+.ag-root.ag-hent .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-hent .ag-table th { letter-spacing: 0.025em; }
+.ag-root.ag-hent .ag-spec dt { letter-spacing: 0.13em; }
+.ag-root.ag-hent .ag-slots { gap: 1.1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/hsc-enterprise-computing-help#page","url":"https://learn.modernagecoders.com/hsc-enterprise-computing-help","name":"HSC Enterprise Computing Help","description":"Support for NSW students in Enterprise Computing 11-12: what the course teaches, its focus areas and hours, enrolment details, the HSC examination format, school-based assessment requirements, and an original data visualisation lesson.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":3,"name":"HSC Enterprise Computing","item":"https://learn.modernagecoders.com/hsc-enterprise-computing-help"}]},{"@type":"Course","name":"HSC Enterprise Computing Help","description":"Live online teaching in data analysis, data visualisation, databases, networking concepts, cybersecurity and user experience for NSW Enterprise Computing students, without doing any assessed work.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/hsc-enterprise-computing-help"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/hsc-enterprise-computing-help"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/hsc-enterprise-computing-help"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is HSC Enterprise Computing?","acceptedAnswer":{"@type":"Answer","text":"A two-unit NSW Stage 6 course set by the Enterprise Computing 11-12 Syllabus (2022). Year 11 covers interactive media and the user experience, networking systems and social computing, and principles of cybersecurity. Year 12 covers data science, data visualisation, intelligent systems and an enterprise project."}},{"@type":"Question","name":"How is it different from Software Engineering?","acceptedAnswer":{"@type":"Answer","text":"Software Engineering centres on programming and building software. Enterprise Computing centres on data, users and systems in organisations, with less emphasis on writing large programs."}},{"@type":"Question","name":"How long is the Enterprise Computing exam?","acceptedAnswer":{"@type":"Answer","text":"2 hours and 30 minutes including 10 minutes reading time. It is worth 80 marks and is completed on a computer, with headphones for audio and video questions."}},{"@type":"Question","name":"How is the exam split?","acceptedAnswer":{"@type":"Answer","text":"Roughly a quarter of the marks come from short objective items worth up to 4 marks each; the other three quarters come from written answers, a few of which carry 4 to 8 marks."}},{"@type":"Question","name":"What is a truncated axis?","acceptedAnswer":{"@type":"Answer","text":"A chart axis that starts above zero. On a bar chart it can make small differences look large, because readers compare bar lengths. In our example, scores of 52 and 55 drawn from a baseline of 50 look about 2.36 times more different than they are."}},{"@type":"Question","name":"What are the school assessment components?","acceptedAnswer":{"@type":"Answer","text":"For Year 12, NESA sets knowledge and understanding of course content at 50% and knowledge and skills in the practical application of the content at 50%. Schools may set only one take-home task, worth no more than 15%."}},{"@type":"Question","name":"Do I need to know how to code?","acceptedAnswer":{"@type":"Answer","text":"Some programming helps, especially for data science, but the course is not built around large programs. We can teach the Python and SQL that make the data work easier."}},{"@type":"Question","name":"Will you help with my Enterprise Project?","acceptedAnswer":{"@type":"Answer","text":"We teach the skills a project needs, using our own examples. We do not build, write, edit or review any part of a project or other assessed work."}},{"@type":"Question","name":"Can you promise a high band?","acceptedAnswer":{"@type":"Answer","text":"No. We teach thoroughly and honestly, and the result is earned by the student."}},{"@type":"Question","name":"When are lessons for NSW students?","acceptedAnswer":{"@type":"Answer","text":"Usually after school or on weekends in NSW time, which is late morning or midday for our tutors. The weekly time is agreed after the free class."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/hsc-enterprise-computing-help","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-hent">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#what">What it is</a></li>
+      <li><a href="#structure">Focus areas</a></li>
+      <li><a href="#charts">Honest charts</a></li>
+      <li><a href="#assessment">Exam and tasks</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / HSC Enterprise Computing
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">New South Wales &middot; Enterprise Computing 11-12 &middot; Live online</p>
+        <h1>HSC Enterprise Computing help</h1>
+        <p class="ag-lede">Enterprise Computing is the NSW computing course about how organisations use data, networks and software. Where Software Engineering trains programmers, Enterprise Computing trains people who can collect data responsibly, analyse it, present it honestly and think about the systems and users around it. It suits curious students who like asking what the numbers really say.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#charts" class="ag-btn ag-btn--ghost">See the misleading chart lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20HSC%20Enterprise%20Computing%20in%20NSW." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'hent'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">From the NSW syllabus &middot; Data skills taught for real &middot; Lessons at NSW after-school times</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Course</dt><dd>Enterprise Computing 11-12 (2022)</dd>
+          <dt>Year 11</dt><dd>Three focus areas, 120 hours</dd>
+          <dt>Year 12</dt><dd>Four focus areas, 120 hours</dd>
+          <dt>Course numbers</dt><dd>11175 and 15175</dd>
+          <dt>HSC exam</dt><dd>80 marks, on a computer</dd>
+          <dt>Exam length</dt><dd>2 hours 30, reading time included</dd>
+          <dt>We teach</dt><dd>Data, systems and security skills</dd>
+          <dt>We never</dt><dd>Build the Enterprise Project</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>HSC Enterprise Computing is a two-unit NSW Stage 6 course set by the Enterprise Computing 11-12 Syllabus (2022). Year 11 covers interactive media and the user experience, networking and social computing, and cybersecurity. Year 12 covers data science, data visualisation, intelligent systems and an enterprise project. The HSC exam is an 80-mark paper sat on a computer.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Good starting points</p>
+      <h2>Three courses that match Enterprise Computing</h2>
+      <p class="ag-lede">Data first, then databases, then the security thinking Year 11 introduces.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/data-science-course-for-teens-python-data">
+        <div class="ag-pick-shot"><img src="/images/data-science-teens.webp" alt="Data Science for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HENT / 01</p>
+          <h3>Data science with Python</h3>
+          <p>Cleaning, analysing and charting real data, the core of the Year 12 Data Science and Data Visualisation areas.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/mysql-mastery-for-teens">
+        <div class="ag-pick-shot"><img src="/images/mysql-teens.webp" alt="MySQL for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HENT / 02</p>
+          <h3>Databases and SQL</h3>
+          <p>How organisations store and query data, a practical skill that runs underneath the whole course.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/cybersecurity-course-for-teens-ethical-defensive">
+        <div class="ag-pick-shot"><img src="/images/cybersecurity-teens.webp" alt="Cybersecurity for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HENT / 03</p>
+          <h3>Defensive cybersecurity</h3>
+          <p>Threats, protections and safe data handling, matching the Year 11 Principles of Cybersecurity area.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="what">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What the course is for</p><h2>Data, users and systems inside organisations</h2><p class="ag-lede">NESA's course description lists three things students learn, quoted here from the syllabus as published on 7 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Enterprise Computing 11-12: what students learn, in NESA's words</caption><thead><tr><th scope="col">Students learn to</th><th scope="col">What that looks like in practice</th></tr></thead><tbody><tr><td>"evaluate how data is safely and securely collected, stored, manipulated and used when developing enterprise computing systems"</td><td>Judging where data comes from, how it is kept, and who can see it</td></tr><tr><td>"explain the social, ethical and legal implications of the application of enterprise computing systems on the individual, society and the environment"</td><td>Weighing what a system does to the people it touches</td></tr><tr><td>"apply tools and resources to design, develop and evaluate enterprise computing systems"</td><td>Building and testing a working system in the Year 12 project</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The right-hand column is our plain-English reading, not NESA's. The left-hand column is the syllabus itself, and it is worth noticing the verbs: evaluate, explain, apply. Most marks go to students who can judge and justify, not just operate software.</p>
+<p>The syllabus also describes Year 12 as a chance to "extend their knowledge and understanding of enterprise computing systems" and apply it in "a major enterprise project using project management skills". That project is the student's own work, which shapes everything about how we help.</p></div><div><p>Enterprise Computing sits beside Software Engineering in the NSW technology courses, and both were written in 2022. Students sometimes ask which to choose. The short version is that Software Engineering is centred on programming, and Enterprise Computing is centred on data and systems; our <a class="ag-inline-link" href="/choosing-year-11-computing-subjects-australia">guide to choosing computing subjects</a> sets out both.</p>
+<p>NESA lists no prerequisite for Year 11 Enterprise Computing. Year 12 Enterprise Computing requires the Year 11 course, which NESA lists as number 11175; Year 12 is 15175. Both are two-unit courses of 120 indicative hours.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://curriculum.nsw.edu.au/learning-areas/tas/enterprise-computing-11-12-2022/overview/course" rel="noopener" target="_blank">NSW Curriculum, Enterprise Computing 11-12 Syllabus (2022), course description and enrolment details</a>. Checked on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="structure">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The focus areas</p><h2>Seven focus areas over two years</h2><p class="ag-lede">NESA's indicative hours for each focus area, from the course structure. Checked on 7 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Enterprise Computing 11-12 Syllabus (2022): focus areas and indicative hours</caption><thead><tr><th scope="col">Year</th><th scope="col">Focus area</th><th scope="col">Hours</th></tr></thead><tbody><tr><td>Year 11</td><td>Interactive Media and the User Experience</td><td>40</td></tr><tr><td>Year 11</td><td>Networking Systems and Social Computing</td><td>40</td></tr><tr><td>Year 11</td><td>Principles of Cybersecurity</td><td>40</td></tr><tr><td>Year 12</td><td>Data Science</td><td>30</td></tr><tr><td>Year 12</td><td>Data Visualisation</td><td>30</td></tr><tr><td>Year 12</td><td>Intelligent Systems</td><td>30</td></tr><tr><td>Year 12</td><td>Enterprise Project</td><td>30</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>Year 11 is about people and connections: how users experience interactive media, how networks and social platforms work, and how systems are protected. Year 12 turns to data: analysing it, presenting it, building intelligent systems on it, and finishing with a project.</p>
+<p>NESA's diagram of the course puts "Learning through project work" at the centre, with skills wrapped around every focus area. In other words, the focus areas are not meant to be learned as separate lists of facts, but practised through making things.</p></div><div><p>For students, the Year 12 areas reward real fluency with data. A student who has cleaned a messy spreadsheet, queried a database and built a chart that tells the truth will find Data Science and Data Visualisation far easier than one who has only read about them.</p>
+<p>Intelligent Systems overlaps with the AI and machine learning ideas we teach elsewhere. We keep that teaching general and practical, so it supports the course without straying into a student's assessed work.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://curriculum.nsw.edu.au/learning-areas/tas/enterprise-computing-11-12-2022/overview" rel="noopener" target="_blank">NSW Curriculum, Enterprise Computing 11-12 overview and course structure</a>. Checked on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="charts">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Data Visualisation in practice</p><h2>How a truncated axis exaggerates a gap</h2><p class="ag-lede">One of the most useful habits in Data Visualisation is spotting a chart that misleads without lying. The classic trick is a vertical axis that does not start at zero.</p></div>
+    <p>A worked lesson, with invented data. Two school canteens run a student survey and report average satisfaction scores out of 100: Canteen A scores 52 and Canteen B scores 55. Draw them as bars two ways: once with the axis starting at 0, once with the axis starting at 50.</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The same two scores drawn with two different baselines</caption><thead><tr><th scope="col">Axis starts at</th><th scope="col">Bar A height</th><th scope="col">Bar B height</th><th scope="col">B looks bigger than A by</th></tr></thead><tbody><tr><td>0</td><td>52</td><td>55</td><td>about 5.8%</td></tr><tr><td>50</td><td>2</td><td>5</td><td>150%, two and a half times as tall</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The true difference is 3 points, about 5.8% of Canteen A's score. With the axis starting at 50, Canteen B's bar is 5 units tall against Canteen A's 2, so it looks two and a half times as large. Dividing the visual ratio of 2.5 by the true ratio of about 1.058 gives roughly 2.36: the chart exaggerates the gap by a factor of about 2.36.</p>
+<p>Nothing on the second chart is false. The scores are correct, and the axis is labelled. The distortion comes entirely from the choice of baseline, which is exactly why it is worth teaching: students learn to read charts critically and to draw their own honestly.</p></div><div><p>There are good reasons to start an axis above zero, for line charts of something like temperature where zero has no special meaning. Bars are different, because readers judge a bar by its length. The rule we teach is simple: bars start at zero, and any other choice needs a clear reason and a clear label.</p>
+<p>Students who code can make both charts in a few lines of Python and compare them side by side. That small experiment is good preparation for exam questions that show a chart and ask what is wrong with it, a natural fit for an online exam with stimulus material.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="assessment">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Exam and school tasks</p><h2>An online HSC exam and a school program beside it</h2><p class="ag-lede">Both are described on NESA's assessment pages for the course, checked on 7 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Enterprise Computing assessment at a glance</caption><thead><tr><th scope="col">Element</th><th scope="col">NESA requirement</th></tr></thead><tbody><tr><td>HSC exam</td><td>Sat online; 80 marks; two and a half hours, of which 10 minutes is reading</td></tr><tr><td>Stimulus</td><td>Questions may contain stimulus; headphones are needed for audio and video questions</td></tr><tr><td>Objective-response</td><td>Approximately 20 marks over 14 to 18 items, each worth 1 to 4 marks</td></tr><tr><td>Short-answer</td><td>Approximately 60 marks over 16 to 18 items, at least three worth 4 to 8 marks</td></tr><tr><td>Year 12 school components</td><td>Knowledge and understanding of course content 50%; Knowledge and skills in the practical application of the content 50%</td></tr><tr><td>Task rules</td><td>One take-home task worth no more than 15%; individual tasks weighted between 10% and 40%</td></tr></tbody></table></div>
+    <p>The exam format matches the online format used for HSC Software Engineering, which our <a class="ag-inline-link" href="/hsc-software-engineering-help">Software Engineering page</a> covers in more detail. NESA also notes that schools can enrol students in an online sample exam for Enterprise Computing through Schools Online, which is the closest practice there is to the real conditions.</p>
+    <p>Half of the school mark is for practical application, and the Enterprise Project is where that shows most. We teach data handling, charting, databases and security with our own examples and data sets. We do not build, write, edit or review any part of a student's project or other assessed work.</p>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://curriculum.nsw.edu.au/learning-areas/tas/enterprise-computing-11-12-2022/assessment/hsc-examinations" rel="noopener" target="_blank">NSW Curriculum, Enterprise Computing HSC examinations</a>; <a class="ag-inline-link" href="https://curriculum.nsw.edu.au/learning-areas/tas/enterprise-computing-11-12-2022/assessment/school-based-assessment" rel="noopener" target="_blank">school-based assessment</a>. Checked on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Building up</p>
+      <h2>Four stages through Enterprise Computing</h2>
+      <p class="ag-lede">Stages describe skills a student can show, which is what the practical half of the course rewards.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From spreadsheet confidence to a finished enterprise project</caption><thead><tr><th scope="col">Stage</th><th scope="col">Skill</th><th scope="col">The sign it is there</th></tr></thead><tbody><tr><td>1</td><td class="ag-num">Working with data</td><td class="ag-num">Cleans and sorts a messy data set without losing rows</td></tr><tr><td>2</td><td class="ag-num">Asking questions of data</td><td class="ag-num">Writes a query or formula that answers a stated question</td></tr><tr><td>3</td><td class="ag-num">Presenting data</td><td class="ag-num">Draws a chart that a stranger reads correctly</td></tr><tr><td>4</td><td class="ag-num">Running a project</td><td class="ag-num">Plans and documents work with dated evidence</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If Year 11 feels abstract</h3><p>Networking and user experience can feel like theory. Building something small, a simple web page with a form or a home network diagram, makes the concepts concrete quickly.</p>
+<p>Cybersecurity sticks best through scenarios: what would an attacker try here, and what would stop them?</p></div><div><h3>Where it leads</h3><p>The data skills here feed directly into university data, business and information systems courses, and into any job that touches spreadsheets or dashboards.</p>
+<p>Students interested in the AI side can explore our <a class="ag-inline-link" href="/ai-classes-for-teens-australia">AI classes for teens</a> alongside the course.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for Enterprise Computing students</h2>
+      <p class="ag-lede">Grouped by focus area. Each opens a full syllabus.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Year 11 areas</h3>
+        <span class="ag-band-sub">Users, networks and security</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HENT / Y11 / 01</p>
+          <h4>Frontend development</h4>
+          <p>Building interfaces that people can actually use.</p>
+          <a class="ag-course-link" href="/courses/frontend-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HENT / Y11 / 02</p>
+          <h4>Cybersecurity for teens</h4>
+          <p>Defence, risk and safe practice online.</p>
+          <a class="ag-course-link" href="/courses/cybersecurity-course-for-teens-ethical-defensive">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HENT / Y11 / 03</p>
+          <h4>Creative media</h4>
+          <p>Images, video and layout for interactive media.</p>
+          <a class="ag-course-link" href="/courses/creative-media-design-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Year 12 areas</h3>
+        <span class="ag-band-sub">Data, charts and intelligent systems</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HENT / Y12 / 01</p>
+          <h4>Data science for teens</h4>
+          <p>Python for cleaning, analysing and charting data.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HENT / Y12 / 02</p>
+          <h4>MySQL for teens</h4>
+          <p>Database design and SQL queries from scratch.</p>
+          <a class="ag-course-link" href="/courses/mysql-mastery-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HENT / Y12 / 03</p>
+          <h4>AI and machine learning</h4>
+          <p>How intelligent systems learn from data, built in Python.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Extra strength</h3>
+        <span class="ag-band-sub">For students going further</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HENT / X / 01</p>
+          <h4>Data analytics with spreadsheets</h4>
+          <p>Analysis and dashboards without heavy coding.</p>
+          <a class="ag-course-link" href="/courses/data-and-ai-analytics-for-non-programmers-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HENT / X / 02</p>
+          <h4>Python for teens</h4>
+          <p>General programming that makes every data task easier.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HENT / X / 03</p>
+          <h4>Git and GitHub for teens</h4>
+          <p>Version control and dated history for any project.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How we teach it</p>
+      <h2>Weekly lessons in NSW afternoon hours</h2>
+      <p class="ag-lede">Our tutors work from India. India time trails Sydney by four and a half hours in winter and five and a half hours from October to April, when NSW is on daylight saving. That puts a 5 pm Sydney lesson in summer at 11.30 am for the tutor, so after-school lessons are no trouble to arrange.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday after school</p><p class="ag-slot-l">A regular weekly lesson through Year 11 and Year 12.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend sessions</p><p class="ag-slot-l">Longer blocks for hands-on data work.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Holiday intensives</p><p class="ag-slot-l">Revision before trials and the HSC.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Real data sets</h3><p>We teach with public or invented data, never the student's project data.</p></div>
+      <div><h3>Charts read critically</h3><p>Every lesson on visualisation includes spotting a misleading chart.</p></div>
+      <div><h3>Short-answer writing</h3><p>Practice in answers that name a concept, apply it to the stimulus and conclude.</p></div>
+      <div><h3>Small classes</h3><p>Five to ten Enterprise Computing students at one level, all speaking up.</p></div>
+      <div><h3>One-to-one sessions</h3><p>Focused help on a single focus area before trials.</p></div>
+      <div><h3>Integrity first</h3><p>We never write or review assessed work, and we never promise a band.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students have published</h2>
+      <p class="ag-lede">Personal projects, separate from any school assessment. See more in our <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Each month is charged in US dollars at one rate for every family outside India. There is nothing to pay to join, and no charge past the month you are in.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A full lesson on a real skill</li><li>Clear advice on next steps</li><li>No payment card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students together</li><li>The same tutor each week</li><li>Exercises reviewed in class</li><li>A certificate at the finish</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A tutor just for you</li><li>Aimed at your weakest area</li><li>Handy before trial exams</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">As written on Google by our students and parents.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about the course</p>
+      <h2>What Enterprise Computing students ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is HSC Enterprise Computing?</h3>
+        <p>A two-unit NSW Stage 6 course set by the Enterprise Computing 11-12 Syllabus (2022). Year 11 covers interactive media and the user experience, networking systems and social computing, and principles of cybersecurity. Year 12 covers data science, data visualisation, intelligent systems and an enterprise project.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is it different from Software Engineering?</h3>
+        <p>Software Engineering centres on programming and building software. Enterprise Computing centres on data, users and systems in organisations, with less emphasis on writing large programs.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long is the Enterprise Computing exam?</h3>
+        <p>2 hours and 30 minutes including 10 minutes reading time. It is worth 80 marks and is completed on a computer, with headphones for audio and video questions.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is the exam split?</h3>
+        <p>Roughly a quarter of the marks come from short objective items worth up to 4 marks each; the other three quarters come from written answers, a few of which carry 4 to 8 marks.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is a truncated axis?</h3>
+        <p>A chart axis that starts above zero. On a bar chart it can make small differences look large, because readers compare bar lengths. In our example, scores of 52 and 55 drawn from a baseline of 50 look about 2.36 times more different than they are.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What are the school assessment components?</h3>
+        <p>For Year 12, NESA sets knowledge and understanding of course content at 50% and knowledge and skills in the practical application of the content at 50%. Schools may set only one take-home task, worth no more than 15%.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need to know how to code?</h3>
+        <p>Some programming helps, especially for data science, but the course is not built around large programs. We can teach the Python and SQL that make the data work easier.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you help with my Enterprise Project?</h3>
+        <p>We teach the skills a project needs, using our own examples. We do not build, write, edit or review any part of a project or other assessed work.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you promise a high band?</h3>
+        <p>No. We teach thoroughly and honestly, and the result is earned by the student.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are lessons for NSW students?</h3>
+        <p>Usually after school or on weekends in NSW time, which is late morning or midday for our tutors. The weekly time is agreed after the free class.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>More for NSW computing students</h2>
+      <p class="ag-lede">The other NSW computing course, subject choice, and the data side of mathematics.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/hsc-software-engineering-help">HSC Software Engineering</a></h3><p>The programming course beside this one.</p></div>
+      <div><h3><a class="ag-inline-link" href="/choosing-year-11-computing-subjects-australia">Choosing Year 11 computing</a></h3><p>Comparing the computing subjects on offer.</p></div>
+      <div><h3><a class="ag-inline-link" href="/hsc-maths-standard-tutoring">HSC Maths Standard</a></h3><p>Statistics and data in applied mathematics.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-australia">AI and machine learning in Australia</a></h3><p>For students drawn to intelligent systems.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>Every Australian page in one place.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Our teaching method, laid out.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free Enterprise Computing lesson</h2>
+        <p class="ag-lede">Which year is the student in, which focus area is the class on, and where are marks going missing? The free lesson builds that skill with our own data and examples.</p>
+        <p class="ag-mt-40">Reading first? Course outlines are on the <a class="ag-inline-link" href="/course-atlas">course atlas</a>, our approach is on <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, and the <a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">competitions calendar</a> lists coding contests for the year.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20HSC%20Enterprise%20Computing%20in%20NSW." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'hent',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp is the quickest route to us. The +91 prefix is Indian, as we teach from India; we keep no office in NSW.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_hent(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card, nothing to sign. We reply once to set the lesson.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/ai-and-machine-learning-classes-in-australia">AI and machine learning</a></li><li><a href="/coding-and-ai-classes-in-new-south-wales">New South Wales</a></li><li><a href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li></ul></div>
+      <div><h4>NSW computing</h4><ul><li><a href="/hsc-software-engineering-help">Software Engineering</a></li><li><a href="/choosing-year-11-computing-subjects-australia">Choosing computing subjects</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Bars start at zero; projects stay the student's own</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_hent = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'hsc-enterprise-computing-help-inline', meta: { name: name, age: age, page: 'hsc-enterprise-computing-help' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
