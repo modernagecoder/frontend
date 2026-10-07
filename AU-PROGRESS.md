@@ -161,7 +161,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 133 | coding-classes-for-kids-newcastle (kncl, #521C1C) | cg- kids city page | 3,204 | 1.7% vs coding-classes-for-kids-melbourne | Why does the computer say 3 plus 6 is 36 when it reads Newcastle bench data? | numbers stored as text, concatenation versus addition, int() conversion | 44415031 |
 | 134 | coding-classes-for-kids-sydney (ksyd, #122052) | cg- kids city page | 3,240 | 2% vs coding-classes-for-kids-adelaide | How do you fit Sydney Harbour onto a Scratch stage without squashing it? | linear scaling to screen coordinates, aspect ratio and screen resolution | 20031c80 |
 | 143 | best-coding-classes-in-toowoomba (twba, #307214) | cg- regional city page | 3,341 | 2% vs online-coding-and-python-classes-in-mackay | How does a journey planner find the earliest bus? | Connection Scan Algorithm on the Translink Toowoomba GTFS | 393118d3 |
-| 144 | online-coding-and-python-classes-in-ballarat (blrt, #603E10) | cg- regional city page | 3,134 | 1.9% vs online-coding-and-python-classes-in-mackay | What can a range like 3-6 honestly tell you? | binned range strings parsed into intervals (bounds not midpoints) on the Ballarat tree register | (this commit) |
+| 144 | online-coding-and-python-classes-in-ballarat (blrt, #603E10) | cg- regional city page | 3,134 | 1.9% vs online-coding-and-python-classes-in-mackay | What can a range like 3-6 honestly tell you? | binned range strings parsed into intervals (bounds not midpoints) on the Ballarat tree register | 614ffb88 |
+| 145 | ai-and-programming-classes-in-bendigo (bdgo, #526830) | cg- regional city page | 3,112 | 2% vs ai-and-programming-classes-in-rockhampton | Does a model score better if you judge it at a coarser label? | label hierarchies: fine vs coarse labels and hierarchical scoring on the Bendigo tree register | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

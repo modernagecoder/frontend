@@ -40359,5 +40359,53 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with the NSW Department of Education, Wagga Wagga City Council or the ABS."
     ]
+  },
+  "online-coding-and-python-classes-in-shepparton": {
+    "market": "Shepparton",
+    "bodyClass": "cg-shp",
+    "pageType": "city",
+    "curriculumAuthority": "Shepparton, ABS Census 2021 QuickStats, Shepparton - Mooroopna Significant Urban Area 2016 (read 7 October 2026): 53,841 people; median age 38 (Victoria 38, Australia 38); 13,653 families; 22,547 private dwellings; average 2.5 people per household; dwelling structure, occupied private dwellings: separate house 16,961 (86.7 percent; Victoria 73.4; Australia 72.3), semi-detached, row or terrace house, townhouse etc 2,076 (10.6 percent), flat or apartment 58 (0.3 percent; Victoria 12.1; Australia 14.2); occupation: Technicians and Trades Workers 3,097 (13.3 percent; Victoria 12.6), Professionals 4,286 (18.5 percent; Victoria 25.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 6,526 (15.1 percent; Victoria 29.2; Australia 26.3); aged 5 to 9 3,653 (6.8 percent); aged 15 to 19 3,248 (6.0 percent). Victorian Government, school term dates 2027: Term 1 Wednesday 27 January (students start Thursday 28 January in government schools) to Thursday 25 March; Term 2 Monday 12 April to Friday 25 June; Term 3 Monday 12 July to Friday 17 September; Term 4 Monday 4 October to Friday 17 December. IANA tz database: Australia/Melbourne, daylight saving Sunday 4 October 2026 to Sunday 4 April 2027; Asia/Kolkata UTC+5:30.",
+    "localProject": "Spatial hash grid join versus nested loops. Greater Shepparton City Council datasets on data.gov.au (Creative Commons Attribution 4.0 International), downloaded 7 October 2026: playgrounds.csv 127 rows (type Neighbourhood 63, District 21, Recreation Reserve 18, Child Care 16, Regional 5, NCA 4; all with valid coordinates), bins.csv 1,045 rows (all valid), seats.csv 870 rows (869 inside a Shepparton bounding box; 1 at longitude -81.67118462143821, latitude 17.982635498046875, location City of Greater Shepparton, num_of 98). Projection: x = longitude x 111,320 x cos(-36.38 degrees), y = latitude x 110,574 (metres). Nested loops: 127 x 1,045 = 132,715 squared-distance comparisons. Spatial hash: dict keyed by (floor(x/R), floor(y/R)), 3 x 3 neighbourhood per playground. R = 25 m: 186 comparisons, 79 playgrounds with a bin, 752 occupied cells; R = 50 m: 367 comparisons, 95 with a bin (32 without), 599 cells; R = 100 m: 770 comparisons, 108 with a bin, 414 cells. Both methods agree at every R. Lesson family: spatial hash grid join; distinct from k-d trees, quadtrees and hash tables for exact keys used elsewhere on the site.",
+    "requiredMentions": [
+      "53,841",
+      "13,653",
+      "22,547",
+      "16,961",
+      "6,526",
+      "132,715",
+      "367 checks",
+      "1,045 public bins",
+      "127 playgrounds"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Shepparton - Mooroopna Significant Urban Area (2016): people, median age, families, private dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/2016"
+      },
+      {
+        "claim": "Greater Shepparton City Council, Playgrounds - Greater Shepparton (Creative Commons Attribution 4.0 International).",
+        "url": "https://data.gov.au/data/dataset/playgrounds-greater-shepparton"
+      },
+      {
+        "claim": "Greater Shepparton City Council, Bins - Greater Shepparton and Seats - Greater Shepparton (Creative Commons Attribution 4.0 International).",
+        "url": "https://data.gov.au/data/dataset/bins-greater-shepparton"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That any playground should have a bin, or that the council's bin placement is good or poor: not assessed; the project is about matching points.",
+      "The cause of the seat row placed in the Caribbean Sea: not known; it is described as a likely placeholder or entry error only.",
+      "Walking distances between playgrounds and bins: straight-line distances on a flat approximation are used.",
+      "Bureau of Meteorology facts for Shepparton: the Bureau returned 403 and was not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Greater Shepparton City Council, the Victorian Government or the ABS."
+    ]
   }
 }
