@@ -123,7 +123,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 105 | australian-maths-competitions-for-primary-kids (mpka, #6C6028) | ag- exam door | 3,368 | 1.9% vs australian-coding-competitions-for-primary-kids | Which maths competitions can Australian primary students enter, and which strategy helps on almost every paper? | solve a simpler problem first | 3eab15be |
 | 80 | australian-curriculum-digital-technologies-help (acdt, #153384) | ag- exam door | 3,899 | 1.1% vs digital-technologies-years-7-to-10-coding | How is Digital Technologies in the Australian Curriculum organised, and what does each band expect? | multi-factor authentication odds (AC9TDI8P13) | a97c9a08 |
 | 81 | digital-technologies-years-7-to-10-coding (dtsn, #2A5181) | ag- exam door | 3,181 | 1.1% vs australian-curriculum-digital-technologies-help | What does Digital Technologies ask students to program, store and secure in Years 7 to 10? | composite key stopping duplicate reviews (AC9TDI10P03) | 04612887 |
-| 82 | digital-technologies-primary-coding-help (dtpr, #247212) | ag- exam door | 3,420 | 1.1% vs naplan-year-3-numeracy-practice | What does primary Digital Technologies ask children to code, from Foundation to Year 6? | past-tense rule algorithm (AC9TDI4P02 elaboration) | (this commit) |
+| 82 | digital-technologies-primary-coding-help (dtpr, #247212) | ag- exam door | 3,420 | 1.1% vs naplan-year-3-numeracy-practice | What does primary Digital Technologies ask children to code, from Foundation to Year 6? | past-tense rule algorithm (AC9TDI4P02 elaboration) | 299db2e3 |
+| 83 | australian-curriculum-maths-year-7-to-10-help (mtsn, #7E1521) | ag- exam door | 3,383 | 1.1% vs australian-curriculum-digital-technologies-help | What does Australian Curriculum maths expect in Years 7 to 10, and how do error and approximation work? | absolute, relative and percentage error (AC9M9M04, AC9M10N01) | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

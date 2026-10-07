@@ -370,6 +370,7 @@ const SLUGS = [
   'coding-classes-vs-coding-camps-australia',
   'icas-maths-practice-online',
   'tutor-vs-tutoring-centre-maths-australia',
+  'coding-class-or-maths-tutor-first-australia',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -819,6 +820,7 @@ const LLMS_LABELS = {
   'coding-classes-vs-coding-camps-australia': 'Coding classes vs coding camps, Australia',
   'icas-maths-practice-online': 'ICAS Maths practice online',
   'tutor-vs-tutoring-centre-maths-australia': 'Maths tutor vs tutoring centre, Australia',
+  'coding-class-or-maths-tutor-first-australia': 'Coding class or maths tutor first, Australia',
 };
 
 function wireLlms(slugs) {
