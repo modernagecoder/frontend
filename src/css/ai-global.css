@@ -880,3 +880,4 @@
 .ag-root.ag-tamm { --ag-accent: #8C204C; --ag-accent-soft: rgba(140,32,76,.09); }   /* TASC Mathematics Methods: a deep beetroot crimson chosen by hand, at least 12 RGB from every site accent and 4.8:1 or better on #EDE7DA */
 .ag-root.ag-gpns { --ag-accent: #504098; --ag-accent-soft: rgba(80,64,152,.09); }   /* Girls' Programming Network next steps: a soft blue violet chosen by hand, muted, at least 10 RGB from every accent in use or claimed */
 .ag-root.ag-aiop { --ag-accent: #332193; --ag-accent-soft: rgba(51,33,147,.09); }   /* Informatics Olympiad: a deep indigo chosen by hand, muted, at least 10 RGB from every accent in content and stylesheets and above 4.8:1 on #EDE7DA */
+.ag-root.ag-amop { --ag-accent: #281894; --ag-accent-soft: rgba(40,24,148,.09); }   /* Australian Mathematical Olympiad: a deep proof-ink indigo chosen by hand, muted, at least 10 RGB from every accent in use or claimed */

@@ -359,6 +359,7 @@ const SLUGS = [
   'tasc-mathematics-methods-tutoring',
   'girls-programming-network-next-step-australia',
   'australian-informatics-olympiad-preparation',
+  'australian-mathematical-olympiad-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -797,6 +798,7 @@ const LLMS_LABELS = {
   'tasc-mathematics-methods-tutoring': 'TASC Mathematics Methods tutoring',
   'girls-programming-network-next-step-australia': 'Girls\' Programming Network: next steps',
   'australian-informatics-olympiad-preparation': 'Australian Informatics Olympiad preparation',
+  'australian-mathematical-olympiad-preparation': 'Australian Mathematical Olympiad preparation',
 };
 
 function wireLlms(slugs) {

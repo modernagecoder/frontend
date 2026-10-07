@@ -589,6 +589,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - TASC Mathematics Methods tutoring: https://learn.modernagecoders.com/tasc-mathematics-methods-tutoring
 - Girls' Programming Network: next steps: https://learn.modernagecoders.com/girls-programming-network-next-step-australia
 - Australian Informatics Olympiad preparation: https://learn.modernagecoders.com/australian-informatics-olympiad-preparation
+- Australian Mathematical Olympiad preparation: https://learn.modernagecoders.com/australian-mathematical-olympiad-preparation
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
