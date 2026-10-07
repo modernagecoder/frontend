@@ -50,7 +50,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 1 | game-development-for-kids-australia (gdau, #2D6F30) | ag- high-demand door | 4,154 | 0.4% vs coding-for-university-students-uk | How do Australian kids go from a Scratch game to a real engine, and what does a game development lesson actually contain? | hitbox: axis-aligned bounding box overlap test | 21c26db2 |
 | 2 | online-coding-classes-for-kids-australia (ocau, #963F2A) | ag- kids door | 3,990 | 0.4% vs transition-year-coding-course-ireland | What do online coding classes look like for Australian primary children across six names for the first school year and three time zones? | clock arithmetic modulo 24 hours with half-hour offsets | df0cde68 |
 | 5 | coding-classes-cost-australia (static mp- page) | mp- cost page | about 1,850 | n/a (static mp- page) | What does a coding class cost an Australian family per lesson and per term? | how each format charges; per-term arithmetic in USD | df0cde68 |
-| 6 | best-coding-classes-in-sydney (syd, #182C98) | cg- city page | 3,536 | 0.5% vs best-coding-class-in-cambridge | Which bus stop is in the middle, and do we need to sort them all to find it? | quickselect, selection without sorting, pivot choice, sorted-input worst case | (this commit) |
+| 6 | best-coding-classes-in-sydney (syd, #182C98) | cg- city page | 3,536 | 0.5% vs best-coding-class-in-cambridge | Which bus stop is in the middle, and do we need to sort them all to find it? | quickselect, selection without sorting, pivot choice, sorted-input worst case | d5c55aee |
+| 7 | coding-and-ai-classes-in-new-south-wales (nsa, #287044) | cg- state page | 3,757 | 0.6% vs coding-classes-in-greater-manchester | Which week does each 2027 term start and end in? | ISO 8601 week dates, week 53, strftime %U and %W, calendar arithmetic | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
