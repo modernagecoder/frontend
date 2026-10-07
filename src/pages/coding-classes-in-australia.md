@@ -388,6 +388,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding and AI classes in Tasmania](/coding-and-ai-classes-in-tasmania)
 - [Coding and AI classes in the ACT](/coding-and-ai-classes-in-australian-capital-territory)
 - [Coding and AI classes in the Northern Territory](/coding-and-ai-classes-in-northern-territory)
+- [Coding classes for kids in Melbourne](/coding-classes-for-kids-melbourne)
 <!-- AU-LINKS -->
 
 
