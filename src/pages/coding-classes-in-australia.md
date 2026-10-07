@@ -361,6 +361,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Years 7 to 10 coding in Digital Technologies](/digital-technologies-years-7-to-10-coding)
 - [Primary Digital Technologies coding help](/digital-technologies-primary-coding-help)
 - [Australian Curriculum maths, Years 7 to 10](/australian-curriculum-maths-year-7-to-10-help)
+- [Bebras Challenge practice](/bebras-challenge-australia-practice)
 <!-- AU-LINKS -->
 
 

@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Bebras Challenge Australia Practice | Computational Thinking</title>
+  <meta name="description" content="Bebras Challenge practice for Australian students in Years 3 to 12: format, divisions and scoring from the Australian Maths Trust, and an original practice task.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/bebras-challenge-australia-practice">
+  <link rel="alternate" type="text/markdown" href="/src/pages/bebras-challenge-australia-practice.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#6C5A1B">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/bebras-challenge-australia-practice">
+  <meta property="og:title" content="Bebras Challenge Australia Practice | Computational Thinking">
+  <meta property="og:description" content="The Bebras Computational Thinking Challenge in Australia explained from the AMT's own page: 15 questions, timing by division, the 135-mark scoring, free past challenges, and a practice task we wrote.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bebras Challenge Australia Practice">
+  <meta name="twitter:description" content="Bebras Challenge practice for Australian students, with an original computational thinking task.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-bebr .ag-hero h1 { letter-spacing: -0.011em; }
+.ag-root.ag-bebr .ag-capsule { border-left-width: 6px; }
+.ag-root.ag-bebr .ag-table td:first-child { font-weight: 600; }
+.ag-root.ag-bebr .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-bebr .ag-grid-2 h3 { letter-spacing: -0.004em; }
+.ag-root.ag-bebr .ag-spec dd { font-variant-numeric: tabular-nums; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/bebras-challenge-australia-practice#page","url":"https://learn.modernagecoders.com/bebras-challenge-australia-practice","name":"Bebras Challenge Australia Practice","description":"A guide for Australian students, parents and teachers to the Bebras Computational Thinking Challenge: who runs it, the 2026 challenge period, divisions and timing, the scoring and award bands, the free Bebras 365 archive, and an original practice task on sorting networks with worked answers.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Australian competitions calendar","item":"https://learn.modernagecoders.com/australian-coding-maths-and-ai-competitions-calendar"},{"@type":"ListItem","position":3,"name":"Bebras Challenge practice","item":"https://learn.modernagecoders.com/bebras-challenge-australia-practice"}]},{"@type":"Course","name":"Bebras Challenge Australia Practice","description":"Live online computational thinking and coding classes for Australian students from Year 3 to Year 12 that build the logic, patterns and algorithms Bebras tasks draw on.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/bebras-challenge-australia-practice"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/bebras-challenge-australia-practice"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/bebras-challenge-australia-practice"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the Bebras Challenge?","acceptedAnswer":{"@type":"Answer","text":"An international computational thinking challenge. Students solve short story-based tasks that hide ideas from computer science, without needing to code. In Australia the Australian Maths Trust runs it."}},{"@type":"Question","name":"Who can enter Bebras in Australia?","acceptedAnswer":{"@type":"Answer","text":"Students in Years 3 to 12, in five divisions from Middle Primary to Senior. Entry is normally arranged through schools."}},{"@type":"Question","name":"When is Bebras held?","acceptedAnswer":{"@type":"Answer","text":"In Term 1. In 2026 the challenge period was 9 February to 8 March. Check the AMT's page for the next period."}},{"@type":"Question","name":"How long is the Bebras Challenge?","acceptedAnswer":{"@type":"Answer","text":"60 minutes for Middle Primary (Years 3 and 4) and 45 minutes for all other divisions, with 15 questions."}},{"@type":"Question","name":"Does Bebras need coding?","acceptedAnswer":{"@type":"Answer","text":"No. The AMT states that coding skills are not required. Tasks test logical and algorithmic thinking."}},{"@type":"Question","name":"How is Bebras scored?","acceptedAnswer":{"@type":"Answer","text":"Easy questions are worth 6 marks, medium 9 and hard 12, up to 135. Wrong and unanswered questions score zero."}},{"@type":"Question","name":"Can students work in teams?","acceptedAnswer":{"@type":"Answer","text":"Yes. The AMT says students can take part individually or in teams of up to four."}},{"@type":"Question","name":"What is a sorting network?","acceptedAnswer":{"@type":"Answer","text":"A fixed sequence of compare-and-swap steps that puts items in order whatever order they start in. Some steps can happen at the same time, which is why sorting networks are used in hardware."}},{"@type":"Question","name":"Where can students practise?","acceptedAnswer":{"@type":"Answer","text":"The AMT's free Bebras 365 archive holds past challenges for each division, and its Mini Challenges are short skill sets. Our classes teach the underlying thinking."}},{"@type":"Question","name":"Are you part of the AMT or Bebras?","acceptedAnswer":{"@type":"Answer","text":"No. We are an independent online school preparing students through computational thinking lessons."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/bebras-challenge-australia-practice","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-bebr">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#format">Format</a></li>
+      <li><a href="#scoring">Scoring</a></li>
+      <li><a href="#task">Practice task</a></li>
+      <li><a href="#prepare">Preparing</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/australian-coding-maths-and-ai-competitions-calendar">Australian competitions calendar</a> / Bebras Challenge practice
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; Bebras Challenge &middot; Years 3 to 12</p>
+        <h1>Bebras Challenge practice</h1>
+        <p class="ag-lede">The Bebras Challenge asks students to think like computer scientists without writing a line of code. Each task is a short story, often about beavers, that hides an idea from computing: a sorting method, a graph, a way of encoding information, a rule that has to be followed exactly. In Australia it is run by the Australian Maths Trust, open to Years 3 to 12, and held in Term 1. This page sets out the format and scoring from the Trust's own page, explains what the questions really test, and gives an original practice task on sorting networks with the answers worked through. We prepare students for Bebras by teaching computational thinking; we are not connected with the Trust or with the international challenge.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#task" class="ag-btn ag-btn--ghost">Try the practice task</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20computational%20thinking%20class%20to%20prepare%20for%20Bebras." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'bebr'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Format and scoring from the AMT's Bebras page &middot; Checked on 7 October 2026</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Run in Australia by</dt><dd>Australian Maths Trust</dd>
+          <dt>Who can enter</dt><dd>Years 3 to 12</dd>
+          <dt>2026 period</dt><dd>9 February to 8 March</dd>
+          <dt>Questions</dt><dd>15, multiple choice, integer and interactive</dd>
+          <dt>Time</dt><dd>60 min Middle Primary, 45 min others</dd>
+          <dt>Maximum score</dt><dd>135 marks</dd>
+          <dt>Coding needed</dt><dd>No</dd>
+          <dt>Teams</dt><dd>Individually or in teams of up to four</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>The Bebras Computational Thinking Challenge is an international problem-solving contest that needs no coding. In Australia the Australian Maths Trust runs it for Years 3 to 12 in Term 1. In 2026 it ran from 9 February to 8 March. There are 15 questions, worth 6, 9 or 12 marks by difficulty, to a maximum of 135, with 60 minutes for Middle Primary and 45 for other divisions.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">For Bebras-style thinking</p>
+      <h2>Three courses that build what Bebras tests</h2>
+      <p class="ag-lede">Logic and patterns for primary students, algorithms for secondary students, and competition problem solving for the keenest.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/problem-solving-and-computational-thinking-for-kids">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-kids.webp" alt="Problem Solving and Computational Thinking for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BEBR / 01</p>
+          <h3>Computational thinking for primary</h3>
+          <p>Rules, patterns, sorting and searching worked through as puzzles, exactly the territory of the primary divisions.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-dsa-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-teens.webp" alt="Problem Solving for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BEBR / 02</p>
+          <h3>Algorithms for secondary</h3>
+          <p>Graphs, sorting, search and efficiency, the ideas behind the harder Junior to Senior tasks.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/competitive-programming-for-teens-course">
+        <div class="ag-pick-shot"><img src="/images/competitive-programming-teens.webp" alt="Competitive Programming for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BEBR / 03</p>
+          <h3>From Bebras to programming contests</h3>
+          <p>For students who want to turn puzzle skill into code, on the road to the Australian Informatics Olympiad.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="format">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The challenge itself</p><h2>Who runs Bebras in Australia, and how it works</h2><p class="ag-lede">Everything in this section is from the Australian Maths Trust's Bebras page, read on 7 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Bebras Challenge in Australia, 2026, as published by the AMT</caption><thead><tr><th scope="col">Detail</th><th scope="col">What the AMT states</th></tr></thead><tbody><tr><td>Challenge period</td><td>Monday 9 February to Sunday 8 March 2026, with entries closing Friday 6 March</td></tr><tr><td>Timing</td><td>60 minutes for Middle Primary (Years 3 and 4); 45 minutes for all other divisions</td></tr><tr><td>Divisions</td><td>Middle Primary (Years 3 and 4), Upper Primary (5 and 6), Junior (7 and 8), Intermediate (9 and 10), Senior (11 and 12)</td></tr><tr><td>Questions</td><td>15, a combination of multiple choice, integer and interactive responses</td></tr><tr><td>Delivery</td><td>Online; students choose any day in the period and must finish within the time allowed</td></tr><tr><td>Participation</td><td>Individually or in teams of up to four</td></tr><tr><td>Coding</td><td>"Coding skills are not required to complete the Bebras Challenge."</td></tr><tr><td>Topics</td><td>Vary each year</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The AMT describes Bebras as an international challenge "that involves over 2.9 million students from 60 countries". The name is Lithuanian for beaver, chosen by the founder, Professor Valentina Dagiene of the University of Vilnius, and tasks are assessed each year by the International Bebras Committee.</p>
+<p>In Australia, Bebras began in 2014 and was delivered by CSIRO until 2023. From 2024 the Australian Maths Trust took it over. The main round runs in Term 1, and the AMT notes a follow-up event in Term 4 for international Bebras week.</p></div><div><p>Schools enter students through the Trust; families do not normally enter directly. Entry fees are set by the AMT in Australian dollars, so we do not print them here; ask your school or check the Trust's page.</p>
+<p>Dates for 2027 had not been published when we checked. The 2026 pattern, a window across February and early March, is a reasonable guide to planning, but the Trust's page is the place to confirm the next challenge period.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: Australian Maths Trust, <a class="ag-inline-link" href="https://amt.edu.au/bebras" rel="noopener" target="_blank">Bebras Computational Thinking Challenge</a>, read on 7 October 2026. We are independent of the AMT and of the International Bebras Committee.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="scoring">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Marks and awards</p><h2>How Bebras is scored, and what the awards mean</h2><p class="ag-lede">Difficulty decides how much each question is worth. A wrong answer and a blank score the same: zero.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Bebras scoring and award bands, from the AMT page (2026)</caption><thead><tr><th scope="col">Item</th><th scope="col">AMT rule</th></tr></thead><tbody><tr><td>Easy question</td><td>6 marks</td></tr><tr><td>Medium question</td><td>9 marks</td></tr><tr><td>Hard question</td><td>12 marks</td></tr><tr><td>Wrong or unanswered</td><td>Zero</td></tr><tr><td>Highest possible</td><td>135 marks</td></tr><tr><td>Excellence</td><td>135 marks, with a certificate of excellence</td></tr><tr><td>High Distinction</td><td>114 to 134 marks</td></tr><tr><td>Distinction</td><td>102 to 113 marks</td></tr><tr><td>Credit</td><td>87 to 101 marks</td></tr><tr><td>Merit</td><td>60 to 86 marks</td></tr><tr><td>Participation</td><td>0 to 59 marks</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The AMT does not say how many questions sit at each level. Five easy, five medium and five hard would give exactly 135, but other mixes add up too, so students should not count on any pattern. What matters for timing is simpler: a student who spends ten minutes on one 12-mark question has used more than a fifth of a 45-minute paper on it.</p>
+<p>Because there is no penalty for a wrong answer, every question should get some answer before time runs out. That is not gaming the contest; it is reading its rules.</p></div><div><p>The award bands are fixed marks rather than percentiles, so a student can see exactly how far they are from the next band. Moving from Merit to Credit, for example, needs 87 marks, which is any combination of questions adding to that number.</p>
+<p>We treat awards as a by-product. Students who enjoy the puzzles and understand the ideas behind them do well; students drilled on question types tend to stall when the topics change, and the AMT notes that they vary each year.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="task">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">An original practice task</p><h2>Beavers at the gates: a sorting network puzzle</h2><p class="ag-lede">This task is ours, written in the Bebras style. It hides a real idea from computing, a sorting network, inside a story. Try it before reading the answers.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The task</h3><p>Four beavers stand in a row of four places, numbered 1 to 4 from left to right. At each gate, the beavers in two named places compare heights, and if the taller one is on the left they swap. The gates are checked in order.</p>
+<p>Gate list A has five gates: places 1 and 2, then 3 and 4, then 1 and 3, then 2 and 4, then 2 and 3. Gate list B has only the first four of those gates. Question: does each list always finish with the beavers in order from shortest to tallest, whatever order they start in?</p></div><div><h3>The answer</h3><p>List A always works. We checked all 24 possible starting orders of four beavers, and every one finishes sorted. Its five gates also run in three rounds, because the first two gates touch different places and so can happen at the same time, as can the next two.</p>
+<p>List B fails. Leaving out the last gate breaks 16 of the 24 starting orders. Start with heights 1, 3, 2, 4 and no gate ever swaps anyone, yet the middle two are in the wrong order. For four items in this design, five comparators are needed and four are not enough.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Results of our check, run over every starting order</caption><thead><tr><th scope="col">Gate list</th><th scope="col">Gates</th><th scope="col">Rounds</th><th scope="col">Starting orders sorted</th><th scope="col">Orders of 0s and 1s sorted</th></tr></thead><tbody><tr><td>A</td><td>5</td><td>3</td><td>24 of 24</td><td>16 of 16</td></tr><tr><td>B</td><td>4</td><td>2</td><td>8 of 24</td><td>12 of 16</td></tr></tbody></table></div>
+    <p>The last column is a shortcut worth knowing. If you only test lists made of 0s and 1s, there are 16 to try instead of 24, and the faulty list B is still caught: four of those sixteen come out unsorted. Students who notice that a smaller test can still find the bug are thinking the way Bebras rewards.</p>
+    <p class="ag-source-note ag-mt-40">Task and results are ours, checked in Python over all 24 orderings and all 16 lists of 0s and 1s on 7 October 2026. The story follows the Bebras style but is not an AMT or Bebras question.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="prepare">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Getting ready</p><h2>How to prepare without drilling</h2><p class="ag-lede">The Trust publishes a large free archive. Used well, it is enough practice for most students.</p></div>
+    <div class="ag-grid-3"><div><h3>Bebras 365</h3><p>The AMT describes it as a free resource with all past challenges, "more than 12 different challenges for each of the five divisions", open without a login.</p></div><div><h3>Mini Challenges</h3><p>Short sets built around key algorithmic thinking skills, also free and available at any time, which suit a weekly practice habit.</p></div><div><h3>Teacher resources</h3><p>The Trust states that teachers do not need to register for the challenge to use its resources.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The most useful preparation is talking through answers. After each past task, ask what idea was hidden in it: a search, a sort, a rule applied repeatedly, a way of encoding. The ideas repeat across years even when the stories change.</p>
+<p>Timing practice helps older students. Try a full past challenge under the real limit, then look at which questions took longest and whether they were worth it.</p></div><div><p>Our classes teach the computational thinking itself: patterns, decomposition, algorithms and abstraction, with puzzles like the one above and with code for older students. We do not use or reproduce the AMT's papers in class beyond linking to its free archive.</p>
+<p>Students who enjoy Bebras often go on to the Computational and Algorithmic Thinking competition and, with programming, the Australian Informatics Olympiad. Both are on our competitions calendar.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Bebras 365, Mini Challenges and teacher resources as described on the AMT's <a class="ag-inline-link" href="https://amt.edu.au/bebras" rel="noopener" target="_blank">Bebras page</a>, read on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">From puzzles to programs</p>
+      <h2>Four stages of computational thinking</h2>
+      <p class="ag-lede">Bebras sits at the start of a long path. Each stage keeps the one before it.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A computational thinking path for Australian students</caption><thead><tr><th scope="col">Around</th><th scope="col">Stage</th><th scope="col">The sign it is secure</th></tr></thead><tbody><tr><td>Years 3 to 4</td><td class="ag-num">1. Following rules exactly</td><td class="ag-num">Applies a puzzle's rule without skipping steps</td></tr><tr><td>Years 5 to 6</td><td class="ag-num">2. Spotting the hidden idea</td><td class="ag-num">Says which computing idea a Bebras task is about</td></tr><tr><td>Years 7 to 9</td><td class="ag-num">3. Designing an approach</td><td class="ag-num">Explains why one strategy beats another</td></tr><tr><td>Years 9 to 12</td><td class="ag-num">4. Writing it as code</td><td class="ag-num">Turns a puzzle's method into a working program</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If your child finds the puzzles hard</h3><p>Bebras questions are meant to be unfamiliar. Reading the story twice and drawing it usually helps more than any trick.</p>
+<p>Working in a team of up to four, which the AMT allows, is a good way to start.</p></div><div><h3>What comes next</h3><p>The <a class="ag-inline-link" href="/australian-informatics-olympiad-preparation">Australian Informatics Olympiad page</a> explains the step to programming contests.</p>
+<p>The <a class="ag-inline-link" href="/australian-maths-trust-amc-aio-cat-preparation">AMT competitions page</a> compares the AMC, AIO and CAT.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for puzzle-minded students</h2>
+      <p class="ag-lede">Grouped by stage. Every card opens a full syllabus.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Primary</h3>
+        <span class="ag-band-sub">Logic and patterns</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">BEBR / P / 01</p>
+          <h4>Computational thinking</h4>
+          <p>Puzzles that teach algorithms.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BEBR / P / 02</p>
+          <h4>Scratch programming</h4>
+          <p>Turning puzzle rules into visual code.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BEBR / P / 03</p>
+          <h4>Mental maths</h4>
+          <p>Number sense for integer-answer questions.</p>
+          <a class="ag-course-link" href="/courses/mental-maths-mastery-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Secondary</h3>
+        <span class="ag-band-sub">Algorithms and code</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">BEBR / S / 01</p>
+          <h4>Python for teens</h4>
+          <p>A language for testing ideas quickly.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BEBR / S / 02</p>
+          <h4>Algorithms and data structures</h4>
+          <p>Sorting, searching and graphs, properly.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BEBR / S / 03</p>
+          <h4>Maths through coding</h4>
+          <p>Patterns and counting with Python.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Competition track</h3>
+        <span class="ag-band-sub">For the keenest</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">BEBR / X / 01</p>
+          <h4>Competitive programming</h4>
+          <p>Contest problems, judged by code.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BEBR / X / 02</p>
+          <h4>Competition maths</h4>
+          <p>Counting and logic for maths contests.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BEBR / X / 03</p>
+          <h4>C++ for teens</h4>
+          <p>A fast language used in olympiads.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live problem-solving classes, timed for Australia</h2>
+      <p class="ag-lede">Our teachers work from India. During daylight saving, a 4.30 pm lesson in Melbourne starts at 11 am India time, so after-school puzzle classes are easy for us to run.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Term 4 and the holidays</p><p class="ag-slot-l">A good time to start before the February challenge.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekly after school</p><p class="ag-slot-l">Steady practice through Term 1.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend sessions</p><p class="ag-slot-l">Team practice for groups of friends.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Draw the story</h3><p>Every task is sketched before it is solved.</p></div>
+      <div><h3>Name the idea</h3><p>Students say which computing concept the puzzle hides.</p></div>
+      <div><h3>Groups of five to ten</h3><p>Matched by stage rather than only by year.</p></div>
+      <div><h3>One-to-one option</h3><p>For students aiming at the harder divisions.</p></div>
+      <div><h3>Notes for parents</h3><p>One idea learned and one puzzle to try at home.</p></div>
+      <div><h3>No award promises</h3><p>We teach thinking; the result is the student's.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students have shared</h2>
+      <p class="ag-lede">Made because learners wanted to, with no contest attached. More are in the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Australian families pay monthly in US dollars, the same rate we use in every country outside India, with no deposit and the freedom to stop at any month end. Bebras entry is arranged and paid through schools, separately.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A real lesson with a teacher</li><li>A view of your child's problem-solving level</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students at one stage</li><li>The same teacher every week</li><li>Puzzles discussed in depth</li><li>A certificate at the end</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher for one student</li><li>Aimed at a chosen division</li><li>A weekly time that suits you</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents' words, quoted exactly from Google.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about Bebras</p>
+      <h2>What families and students ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is the Bebras Challenge?</h3>
+        <p>An international computational thinking challenge. Students solve short story-based tasks that hide ideas from computer science, without needing to code. In Australia the Australian Maths Trust runs it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Who can enter Bebras in Australia?</h3>
+        <p>Students in Years 3 to 12, in five divisions from Middle Primary to Senior. Entry is normally arranged through schools.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is Bebras held?</h3>
+        <p>In Term 1. In 2026 the challenge period was 9 February to 8 March. Check the AMT's page for the next period.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long is the Bebras Challenge?</h3>
+        <p>60 minutes for Middle Primary (Years 3 and 4) and 45 minutes for all other divisions, with 15 questions.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does Bebras need coding?</h3>
+        <p>No. The AMT states that coding skills are not required. Tasks test logical and algorithmic thinking.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is Bebras scored?</h3>
+        <p>Easy questions are worth 6 marks, medium 9 and hard 12, up to 135. Wrong and unanswered questions score zero.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can students work in teams?</h3>
+        <p>Yes. The AMT says students can take part individually or in teams of up to four.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is a sorting network?</h3>
+        <p>A fixed sequence of compare-and-swap steps that puts items in order whatever order they start in. Some steps can happen at the same time, which is why sorting networks are used in hardware.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where can students practise?</h3>
+        <p>The AMT's free Bebras 365 archive holds past challenges for each division, and its Mini Challenges are short skill sets. Our classes teach the underlying thinking.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you part of the AMT or Bebras?</h3>
+        <p>No. We are an independent online school preparing students through computational thinking lessons.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>More competitions for Australian students</h2>
+      <p class="ag-lede">The full calendar, the next contests up, and the curriculum underneath.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></h3><p>Every Australian contest, month by month.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-maths-trust-amc-aio-cat-preparation">AMC, AIO and CAT preparation</a></h3><p>The Trust's other competitions compared.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-informatics-olympiad-preparation">Australian Informatics Olympiad</a></h3><p>Where Bebras thinking meets code.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-curriculum-digital-technologies-help">Digital Technologies help</a></h3><p>The curriculum behind the puzzles.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-games-for-kids-australia">Coding games for kids</a></h3><p>Games that build the same thinking.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>Our main Australian page.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free computational thinking class</h2>
+        <p class="ag-lede">Tell us the year level and whether Bebras is coming up. The free class works through puzzles like the one on this page and ends with honest advice on preparation.</p>
+        <p class="ag-mt-40">Prefer to explore? The <a class="ag-inline-link" href="/course-atlas">course atlas</a> lists every course, and <a class="ag-inline-link" href="/how-we-teach">how we teach</a> describes a lesson.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20computational%20thinking%20class%20to%20prepare%20for%20Bebras." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'bebr',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp usually brings the quickest reply. Our number starts +91 because the school runs from India; we keep no Australian office.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_bebr(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No payment details and no obligation. We reply once to book it.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Australia</h4><ul><li><a href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li><li><a href="/australian-informatics-olympiad-preparation">Informatics Olympiad</a></li><li><a href="/australian-maths-trust-amc-aio-cat-preparation">AMT competitions</a></li><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li></ul></div>
+      <div><h4>Learn more</h4><ul><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/course-atlas">Course atlas</a></li><li><a href="/coding-games-for-kids-australia">Coding games for kids</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Independent of the AMT and Bebras; facts from the AMT's page</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_bebr = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'bebras-challenge-australia-practice-inline', meta: { name: name, age: age, page: 'bebras-challenge-australia-practice' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
