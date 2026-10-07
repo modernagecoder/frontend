@@ -252,6 +252,8 @@ Your child tries a short puzzle and a small Scratch task with a teacher, and you
 - [Maths competitions for primary kids](/australian-maths-competitions-for-primary-kids): The maths side of the same picture.
 - [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Every contest by month.
 - [ICAS Digital Technologies](/icas-digital-technologies-practice): Papers for Years 2 to 7.
+- [Bebras practice](/bebras-challenge-australia-practice): Original puzzles in the Bebras style.
+- [AIO preparation](/australian-informatics-olympiad-preparation): For older students who want real programming contests.
 - [Coding for 7 and 8 year olds](/coding-classes-for-7-and-8-year-olds-australia): What lessons look like at that age.
 - [Coding classes for kids](/online-coding-classes-for-kids-australia): Live online classes explained.
 - [Coding classes in Australia](/coding-classes-in-australia): The national guide.

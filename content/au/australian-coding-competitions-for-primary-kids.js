@@ -267,6 +267,8 @@ module.exports = {
       { href: '/australian-maths-competitions-for-primary-kids', label: 'Maths competitions for primary kids', p: 'The maths side of the same picture.' },
       { href: '/australian-coding-maths-and-ai-competitions-calendar', label: 'Competitions calendar', p: 'Every contest by month.' },
       { href: '/icas-digital-technologies-practice', label: 'ICAS Digital Technologies', p: 'Papers for Years 2 to 7.' },
+      { href: '/bebras-challenge-australia-practice', label: 'Bebras practice', p: 'Original puzzles in the Bebras style.' },
+      { href: '/australian-informatics-olympiad-preparation', label: 'AIO preparation', p: 'For older students who want real programming contests.' },
       { href: '/coding-classes-for-7-and-8-year-olds-australia', label: 'Coding for 7 and 8 year olds', p: 'What lessons look like at that age.' },
       { href: '/online-coding-classes-for-kids-australia', label: 'Coding classes for kids', p: 'Live online classes explained.' },
       { href: '/coding-classes-in-australia', label: 'Coding classes in Australia', p: 'The national guide.' }

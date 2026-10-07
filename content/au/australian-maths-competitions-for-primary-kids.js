@@ -264,6 +264,10 @@ module.exports = {
     items: [
       { href: '/australian-coding-competitions-for-primary-kids', label: 'Coding competitions for primary kids', p: 'Bebras, the CAT and more.' },
       { href: '/australian-coding-maths-and-ai-competitions-calendar', label: 'Competitions calendar', p: 'Every contest by month.' },
+      { href: '/australian-mathematics-competition-practice-by-year', label: 'AMC practice by year', p: 'Divisions and question style.' },
+      { href: '/maths-challenge-for-young-australians-practice', label: 'Maths Challenge practice', p: 'Problems marked with a rubric.' },
+      { href: '/apsmo-maths-olympiad-practice', label: 'APSMO practice', p: 'Five questions, thirty minutes.' },
+      { href: '/icas-maths-practice-online', label: 'ICAS Maths practice', p: 'Papers and entry routes.' },
       { href: '/naplan-numeracy-practice-online', label: 'NAPLAN numeracy', p: 'How the tailored test works.' },
       { href: '/australian-maths-trust-amc-aio-cat-preparation', label: 'AMT competitions', p: 'The AMC, CAT and AIO in depth.' },
       { href: '/online-maths-tutoring-australia', label: 'Maths tutoring online', p: 'Weekly maths for Australian students.' },

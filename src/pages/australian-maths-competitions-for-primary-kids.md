@@ -250,6 +250,10 @@ Your child tries a few problems with a teacher, including one that uses a strate
 
 - [Coding competitions for primary kids](/australian-coding-competitions-for-primary-kids): Bebras, the CAT and more.
 - [Competitions calendar](/australian-coding-maths-and-ai-competitions-calendar): Every contest by month.
+- [AMC practice by year](/australian-mathematics-competition-practice-by-year): Divisions and question style.
+- [Maths Challenge practice](/maths-challenge-for-young-australians-practice): Problems marked with a rubric.
+- [APSMO practice](/apsmo-maths-olympiad-practice): Five questions, thirty minutes.
+- [ICAS Maths practice](/icas-maths-practice-online): Papers and entry routes.
 - [NAPLAN numeracy](/naplan-numeracy-practice-online): How the tailored test works.
 - [AMT competitions](/australian-maths-trust-amc-aio-cat-preparation): The AMC, CAT and AIO in depth.
 - [Maths tutoring online](/online-maths-tutoring-australia): Weekly maths for Australian students.
