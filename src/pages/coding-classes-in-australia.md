@@ -292,6 +292,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Kids coding languages](/kids-coding-languages-australia)
 - [Coding classes for 5 and 6 year olds](/coding-classes-for-5-and-6-year-olds-australia)
 - [Coding for Year 7](/coding-for-year-7-australia)
+- [Coding classes for 7 and 8 year olds](/coding-classes-for-7-and-8-year-olds-australia)
 <!-- AU-LINKS -->
 
 
