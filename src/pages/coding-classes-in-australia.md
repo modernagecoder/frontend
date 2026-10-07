@@ -357,6 +357,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Australian Mathematical Olympiad preparation](/australian-mathematical-olympiad-preparation)
 - [Coding competitions for primary kids](/australian-coding-competitions-for-primary-kids)
 - [Maths competitions for primary kids](/australian-maths-competitions-for-primary-kids)
+- [Digital Technologies curriculum help](/australian-curriculum-digital-technologies-help)
 <!-- AU-LINKS -->
 
 

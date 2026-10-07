@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Australian Curriculum Digital Technologies Help | F to 10</title>
+  <meta name="description" content="Australian Curriculum Digital Technologies explained from ACARA's Version 9.0 files: the two strands, every sub-strand, what each band expects, and live help.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/australian-curriculum-digital-technologies-help">
+  <link rel="alternate" type="text/markdown" href="/src/pages/australian-curriculum-digital-technologies-help.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#153384">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/australian-curriculum-digital-technologies-help">
+  <meta property="og:title" content="Australian Curriculum Digital Technologies Help | F to 10">
+  <meta property="og:description" content="A parent's and student's map of Digital Technologies in the Australian Curriculum, Version 9.0: strands, sub-strands, bands from Foundation to Year 10, and a worked security example.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Australian Curriculum Digital Technologies Help">
+  <meta name="twitter:description" content="Digital Technologies in the Australian Curriculum, band by band, with live help.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-acdt .ag-hero h1 { letter-spacing: -0.014em; }
+.ag-root.ag-acdt .ag-capsule { border-left-width: 6px; }
+.ag-root.ag-acdt .ag-table td:first-child { font-weight: 600; }
+.ag-root.ag-acdt .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-acdt .ag-spec dd { font-variant-numeric: tabular-nums; }
+.ag-root.ag-acdt .ag-grid-3 > div { padding-top: 0.25rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/australian-curriculum-digital-technologies-help#page","url":"https://learn.modernagecoders.com/australian-curriculum-digital-technologies-help","name":"Australian Curriculum Digital Technologies Help","description":"A guide to the Australian Curriculum: Digital Technologies, Version 9.0, for families: how the subject is organised into strands and sub-strands, what students are expected to do by the end of each band from Foundation to Year 10, and a worked example on multi-factor authentication taken from the Years 7 to 8 content.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":3,"name":"Digital Technologies curriculum","item":"https://learn.modernagecoders.com/australian-curriculum-digital-technologies-help"}]},{"@type":"Course","name":"Australian Curriculum Digital Technologies Help","description":"Live online coding and digital technologies classes for Australian students from Year 1 to Year 10, built around the same skills the curriculum names: algorithms, data, programming and security.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/australian-curriculum-digital-technologies-help"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/australian-curriculum-digital-technologies-help"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/australian-curriculum-digital-technologies-help"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is Digital Technologies in the Australian Curriculum?","acceptedAnswer":{"@type":"Answer","text":"It is the computing subject within the Technologies learning area. It teaches how digital systems work, how data is represented and analysed, and how to design, build and evaluate digital solutions, including programs."}},{"@type":"Question","name":"What is the difference between the two strands?","acceptedAnswer":{"@type":"Answer","text":"Knowledge and understanding covers digital systems and data representation. Processes and production skills covers what students do: acquiring and analysing data, defining problems, designing, programming, evaluating, collaborating, and privacy and security."}},{"@type":"Question","name":"When does text-based coding start?","acceptedAnswer":{"@type":"Answer","text":"Up to Year 6 the content asks for visual programs. The Years 7 to 8 band asks students to implement algorithms in a general-purpose programming language, and Years 9 to 10 add object-oriented programming."}},{"@type":"Question","name":"What does a code like AC9TDI8P13 mean?","acceptedAnswer":{"@type":"Answer","text":"AC9 marks Australian Curriculum Version 9.0, TDI marks Technologies: Digital Technologies, the number is the year at the end of the band, P means Processes and production skills (K means Knowledge and understanding), and the last digits number the content description."}},{"@type":"Question","name":"Is Digital Technologies taught the same way in every state?","acceptedAnswer":{"@type":"Answer","text":"No. The national curriculum is the shared reference, but each state and territory decides how it is implemented, and some publish their own syllabuses built on it."}},{"@type":"Question","name":"What is multi-factor authentication, in curriculum terms?","acceptedAnswer":{"@type":"Answer","text":"A login that asks for more than a password, such as a one-time code. The Years 7 to 8 content asks students to explain how it protects an account when the password is compromised."}},{"@type":"Question","name":"Can you help with a school project?","acceptedAnswer":{"@type":"Answer","text":"We teach the skills a project needs, such as defining the problem, designing the algorithm and testing. The project itself stays the student's own work under the school's rules."}},{"@type":"Question","name":"Which language do you teach first?","acceptedAnswer":{"@type":"Answer","text":"For most students in Years 7 and above we start with Python. Younger students begin with visual programming, as the curriculum does."}},{"@type":"Question","name":"Are your classes linked to ACARA?","acceptedAnswer":{"@type":"Answer","text":"No. ACARA writes the curriculum; we are an independent online school whose lessons build the same skills."}},{"@type":"Question","name":"What time would lessons be for us?","acceptedAnswer":{"@type":"Answer","text":"We agree a weekly slot after the trial class, usually after school in your state. Every Australian state and territory is ahead of India time, by between two and a half and five and a half hours depending on the state and the season."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/australian-curriculum-digital-technologies-help","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-acdt">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#structure">Structure</a></li>
+      <li><a href="#bands">Bands</a></li>
+      <li><a href="#security">Worked example</a></li>
+      <li><a href="#home">At home</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / Digital Technologies curriculum
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; Digital Technologies F to 10 &middot; Live online</p>
+        <h1>Digital Technologies curriculum help</h1>
+        <p class="ag-lede">Digital Technologies is the part of the Australian Curriculum where children learn how computers represent information, how algorithms are designed, and how programs are written and tested. It runs from the first year of school to Year 10, and by the end it expects real programming in a general-purpose language and some thinking about security and privacy. Many parents never studied anything like it. This page sets out how Version 9.0 is organised, quotes what ACARA says students should manage at the end of each band, and works one example from the Years 7 to 8 content so you can see the level involved. We are an online school teaching coding and maths; we are not part of ACARA and we do not write anyone's school assessment.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#bands" class="ag-btn ag-btn--ghost">See what each band expects</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20to%20help%20with%20Digital%20Technologies%20at%20school." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'acdt'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Quoted from ACARA's Version 9.0 files &middot; Checked on 7 October 2026</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Subject</dt><dd>Digital Technologies</dd>
+          <dt>Curriculum</dt><dd>Australian Curriculum, Version 9.0</dd>
+          <dt>Range</dt><dd>Foundation to Year 10</dd>
+          <dt>Bands</dt><dd>Foundation, 1 to 2, 3 to 4, 5 to 6, 7 to 8, 9 to 10</dd>
+          <dt>Strands</dt><dd>Two, with sub-strands under each</dd>
+          <dt>Programming</dt><dd>Visual programs to Year 6, then text languages</dd>
+          <dt>Taught by</dt><dd>Your school, following your state or territory</dd>
+          <dt>We offer</dt><dd>Live classes that build the same skills</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Digital Technologies is the Australian Curriculum subject about computing. Version 9.0 has two strands, Knowledge and understanding and Processes and production skills, each split into sub-strands, and it is written in bands from Foundation to Year 10. Students move from following simple algorithms to writing visual programs by Year 6, then a general-purpose language in Years 7 and 8 and an object-oriented one by Year 10.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Matched to the curriculum</p>
+      <h2>Three courses that line up with Digital Technologies</h2>
+      <p class="ag-lede">One for each stage the curriculum describes: visual programming, the first text language, and serious programming.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/problem-solving-and-computational-thinking-for-kids">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-kids.webp" alt="Problem Solving and Computational Thinking for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ACDT / 01</p>
+          <h3>Algorithms for primary students</h3>
+          <p>Sequencing, branching and repetition, the ideas Years 1 to 6 build on, worked through puzzles and visual code.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ACDT / 02</p>
+          <h3>Python for Years 7 to 10</h3>
+          <p>The general-purpose language most schools reach first, taught with tracing and testing from week one.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/cybersecurity-course-for-teens-ethical-defensive">
+        <div class="ag-pick-shot"><img src="/images/cybersecurity-teens.webp" alt="Cybersecurity for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ACDT / 03</p>
+          <h3>Security for teenagers</h3>
+          <p>Passwords, authentication and threats, the privacy and security side of the curriculum, taught defensively.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="structure">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How the subject is organised</p><h2>Two strands, several sub-strands, six bands</h2><p class="ag-lede">Every content description in Digital Technologies sits in a strand, a sub-strand and a band. Knowing where a task sits tells you what it is really asking for.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The structure of Digital Technologies, Version 9.0, as set out in ACARA's Years 7 to 10 file</caption><thead><tr><th scope="col">Strand</th><th scope="col">Sub-strand</th><th scope="col">What it covers in plain terms</th></tr></thead><tbody><tr><td>Knowledge and understanding</td><td>Digital systems</td><td>Hardware, software and networks: what the parts are and how they move data</td></tr><tr><td>Knowledge and understanding</td><td>Data representation</td><td>How text, images, sound and numbers become integers and binary</td></tr><tr><td>Processes and production skills</td><td>Acquiring, managing and analysing data</td><td>Collecting data, checking it and finding patterns with spreadsheets and databases</td></tr><tr><td>Processes and production skills</td><td>Investigating and defining</td><td>Turning a vague need into a defined problem with design criteria and user stories</td></tr><tr><td>Processes and production skills</td><td>Generating and designing</td><td>Designing algorithms and user experiences before building</td></tr><tr><td>Processes and production skills</td><td>Producing and implementing</td><td>Writing, editing and debugging programs</td></tr><tr><td>Processes and production skills</td><td>Evaluating</td><td>Judging a solution against its criteria, its users and its wider impact</td></tr><tr><td>Processes and production skills</td><td>Collaborating and managing</td><td>Planning projects and working with others using digital tools</td></tr><tr><td>Processes and production skills</td><td>Privacy and security</td><td>Accounts, passwords, authentication, digital footprints and threats</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The bands are Foundation, then Years 1 to 2, 3 to 4, 5 to 6, 7 to 8 and 9 to 10. Each band has a band level description, an achievement standard and a set of content descriptions with codes such as AC9TDI8P13, where the digits after TDI name the year at the end of the band and the P or K says which strand it belongs to.</p>
+<p>The codes are useful in conversations with a teacher. If a report says your child is working towards a standard in data representation, the code points to exactly which skill, and the elaborations under it show the kind of task schools use.</p></div><div><p>Not every sub-strand appears in every band. In the early years, for example, the Foundation content is short: recognising digital systems, representing data as objects, pictures and symbols, and identifying data that is personal and owned by the child. The data sub-strand under Processes and production skills appears as the bands rise.</p>
+<p>Your state or territory decides how the curriculum is taught. Some publish their own syllabuses built from it, and schools choose how much time it gets. What follows is the national content, the shared reference point underneath those choices.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: ACARA, Australian Curriculum Version 9.0, <a class="ag-inline-link" href="https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-f-6-v9.docx" rel="noopener" target="_blank">Digital Technologies content F to 6</a> and <a class="ag-inline-link" href="https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx" rel="noopener" target="_blank">Digital Technologies content 7 to 10</a>, Word downloads read on 7 October 2026. We have no connection with ACARA.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="bands">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Band by band</p><h2>What the achievement standards ask for, quoted</h2><p class="ag-lede">An achievement standard says what a student should be able to do by the end of a band. These lines are taken word for word from the Version 9.0 files.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Opening of each Digital Technologies achievement standard, Version 9.0</caption><thead><tr><th scope="col">By the end of</th><th scope="col">ACARA's wording (opening sentences)</th></tr></thead><tbody><tr><td>Foundation</td><td>"students show familiarity with digital systems and use them for a purpose. They represent data using objects, pictures and symbols and identify examples of data that is owned by them."</td></tr><tr><td>Year 2</td><td>"students show how simple digital solutions meet a need for known users. Students represent and process data in different ways. They follow and describe basic algorithms involving a sequence of steps and branching."</td></tr><tr><td>Year 4</td><td>"students create simple digital solutions and use provided design criteria to check if solutions meet user needs. Students process and represent data for different purposes. They follow and describe simple algorithms involving branching and iteration and implement them as visual programs."</td></tr><tr><td>Year 6</td><td>"students develop and modify digital solutions, and define problems and evaluate solutions using user stories and design criteria. They process data and show how digital systems represent data. Students design algorithms involving complex branching and iteration and implement them as visual programs including variables."</td></tr><tr><td>Year 8</td><td>"students develop and modify creative digital solutions, decompose real-world problems, and evaluate alternative solutions against user stories and design criteria."</td></tr><tr><td>Year 10</td><td>"students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories."</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The two big shifts</h3><p>The first shift happens between Year 6 and Year 8. Up to Year 6 the curriculum asks for visual programs, the block-based coding most primary schools use. The Years 7 to 8 band description says students should implement algorithms "in a general-purpose programming language", and the Year 8 standard repeats it: students "design and trace algorithms and implement them in a general-purpose programming language."</p>
+<p>The second shift comes in Years 9 to 10, where the Year 10 standard adds programs "including in an object-oriented programming language" and asks students to "model cyber security threats and explore a vulnerability." That is real software engineering vocabulary, and students who meet it cold often find it the hardest year.</p></div><div><h3>What does not change</h3><p>Every band asks students to define problems before solving them and to judge solutions afterwards. Even in Years 1 to 2, the standard begins with showing how a digital solution meets a need for known users.</p>
+<p>Privacy and security also run the whole way through, from identifying personal data in Foundation to recorded usernames and passwords in Years 1 to 2, memorised passwords in Years 3 to 4, unique passphrases in Years 5 to 6, and authentication and threat models in secondary school.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="security">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked example from Years 7 to 8</p><h2>Why a stolen password is not enough: AC9TDI8P13 in numbers</h2><p class="ag-lede">One Years 7 to 8 content description asks students to "explain how multi-factor authentication protects an account when the password is compromised and identify phishing and other cyber security threats". Here is how we teach it, with arithmetic a Year 8 student can follow.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><p>ACARA's elaboration describes multi-factor authentication as preventing "unauthorised access by prompting the account owner for a token or single-use password", and gives the example of a funds transfer that needs "a one-time password received via SMS" as well as a login.</p>
+<p>The point students need to grasp is that the second factor is something the attacker does not have, even after a password leak. We make that concrete by counting. A six-digit one-time password can be any number from 000000 to 999999, so there are 1,000,000 possible codes, and a fresh one is issued each time.</p></div><div><p>Suppose an attacker has the password and a site allows five guesses at the code before locking the attempt. The chance of guessing right is at most 5 in 1,000,000, or 0.0005 per cent. Without the second factor, the leaked password alone gets them in every time.</p>
+<p>Students then test the idea against the phishing half of the description. ACARA's elaboration lists techniques such as "using an email address from an unofficial domain when pretending to be an online retailer". If a fake page asks for the code as well as the password, the maths stops protecting you, which is why the lesson ends with spotting the fake page rather than trusting the numbers.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>How hard is it to guess the second factor? Our arithmetic, for teaching</caption><thead><tr><th scope="col">Second factor</th><th scope="col">Possible values</th><th scope="col">Chance with 5 guesses</th></tr></thead><tbody><tr><td>None (password only, already stolen)</td><td>Not applicable</td><td>Certain</td></tr><tr><td>4-digit code</td><td>10,000</td><td>5 in 10,000 (0.05 per cent)</td></tr><tr><td>6-digit code</td><td>1,000,000</td><td>5 in 1,000,000 (0.0005 per cent)</td></tr><tr><td>6-digit code given away on a phishing page</td><td>1,000,000</td><td>Certain: the attacker was handed it</td></tr></tbody></table></div>
+    <p>The last row is the reason the content description pairs authentication with phishing. A good lesson does not stop at "turn on two-factor". It shows why it works, then shows exactly how people defeat it, which is the habit of thinking about an attacker that the Years 9 to 10 band later formalises as a threat model.</p>
+    <p class="ag-source-note ag-mt-40">Quotations: ACARA, Digital Technologies content 7 to 10, Version 9.0, code AC9TDI8P13 and its elaborations, read on 7 October 2026. The guess limits and percentages are an illustration we wrote; real services set their own rules.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="home">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Helping at home</p><h2>What families can usefully do in each band</h2><p class="ag-lede">You do not need to code to help. Most of the support a child needs is conversation about problems, steps and checking.</p></div>
+    <div class="ag-grid-3"><div><h3>Foundation to Year 2</h3><p>Talk through everyday algorithms: getting dressed, a recipe, the route to school. Ask what happens if a step is missed or swapped. That is the sequencing and branching the early standards describe.</p></div><div><h3>Years 3 to 6</h3><p>Ask to see the visual program, then ask your child to predict what it will do before pressing run. Predicting first is the habit that later becomes tracing and debugging.</p></div><div><h3>Years 7 to 10</h3><p>Ask how they tested it. A program that works on one example is not finished. The Years 9 to 10 content asks students to "validate algorithms and programs by comparing their output against a range of test cases".</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>Security is the area where family habits matter most. Content descriptions from Years 1 to 2 onwards deal with usernames, passwords and personal data. Setting up a passphrase together, or turning on a second factor on a shared account, makes the classroom content real.</p>
+<p>The Years 9 to 10 band also asks students to "investigate how hardware and software manage, control and secure access to data in networked digital systems" (AC9TDI10K01) and to apply the Australian Privacy Principles to the data that services collect (AC9TDI10P14). Reading a privacy policy together is a genuine curriculum activity.</p></div><div><p>When a teenager gets stuck on a project, the most useful question is about the problem, not the code: who is it for, and how will they know it works? The curriculum calls these user stories and design criteria, and most stalled projects are missing one or the other.</p>
+<p>If you want structured help, our classes teach the same skills in a steadier sequence than a school timetable allows. We teach technique and thinking; any assessed work a school sets stays the student's own.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Quoted content descriptions: AC9TDI10P06, AC9TDI10K01 and AC9TDI10P14, ACARA Digital Technologies content 7 to 10, Version 9.0, read on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">From blocks to text</p>
+      <h2>Five rungs through Digital Technologies</h2>
+      <p class="ag-lede">Children reach each rung at different ages. The order is what matters.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A path through the curriculum's programming content</caption><thead><tr><th scope="col">Around</th><th scope="col">Rung</th><th scope="col">The sign it is secure</th></tr></thead><tbody><tr><td>Years 1 to 2</td><td class="ag-num">1. Steps and choices</td><td class="ag-num">Describes a sequence with a decision in it, out loud</td></tr><tr><td>Years 3 to 4</td><td class="ag-num">2. Visual programs</td><td class="ag-num">Builds a block program with a loop and a condition</td></tr><tr><td>Years 5 to 6</td><td class="ag-num">3. Variables</td><td class="ag-num">Uses a variable to keep score or count, and explains why</td></tr><tr><td>Years 7 to 8</td><td class="ag-num">4. A text language</td><td class="ag-num">Writes and traces a short program with functions</td></tr><tr><td>Years 9 to 10</td><td class="ag-num">5. Testing and structure</td><td class="ag-num">Tests boundaries and invalid input on purpose</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If the jump to text code feels steep</h3><p>Most of the difficulty is typing and syntax, not ideas. Students who could build a working block program already understand loops and conditions; they need time with a text editor.</p>
+<p>Short daily practice beats occasional long sessions while that adjustment happens.</p></div><div><h3>Beyond the classroom</h3><p>Students who enjoy the puzzles often try the Bebras Challenge and the Australian Informatics Olympiad, both listed on our <a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Australian competitions calendar</a>.</p>
+<p>Senior computing subjects differ by state, and we cover several of them on separate pages.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for Australian students of Digital Technologies</h2>
+      <p class="ag-lede">Grouped by where a student is in the curriculum. Each card opens a full syllabus.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Primary years</h3>
+        <span class="ag-band-sub">Algorithms and visual code</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ACDT / P / 01</p>
+          <h4>Scratch programming</h4>
+          <p>The visual language many primary classrooms use, taken further.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACDT / P / 02</p>
+          <h4>Coding for kids</h4>
+          <p>Blocks to games, apps and a first look at AI.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACDT / P / 03</p>
+          <h4>AI literacy for kids</h4>
+          <p>How AI works, explained without hype.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Years 7 to 10</h3>
+        <span class="ag-band-sub">Text programming and data</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ACDT / S / 01</p>
+          <h4>Python for teens</h4>
+          <p>Variables to files, with tests written as you go.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACDT / S / 02</p>
+          <h4>SQL and databases</h4>
+          <p>Structured data and queries, as the 9 to 10 content describes.</p>
+          <a class="ag-course-link" href="/courses/mysql-mastery-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACDT / S / 03</p>
+          <h4>HTML and CSS</h4>
+          <p>Content, structure and presentation, built into real pages.</p>
+          <a class="ag-course-link" href="/courses/html-css-course-for-beginners-build-real-websites">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Further on</h3>
+        <span class="ag-band-sub">For keen students</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ACDT / X / 01</p>
+          <h4>Problem solving and algorithms</h4>
+          <p>The step from writing code to designing efficient solutions.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACDT / X / 02</p>
+          <h4>Cyber security for teens</h4>
+          <p>Threats, defences and ethics, taught from the defender's side.</p>
+          <a class="ag-course-link" href="/courses/cybersecurity-course-for-teens-ethical-defensive">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACDT / X / 03</p>
+          <h4>Java for teens</h4>
+          <p>An object-oriented language from first class to full programs.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live classes that fit around an Australian school day</h2>
+      <p class="ag-lede">Our teachers work from India, behind every Australian state and territory. A 4.30 pm class in Adelaide in October, for example, starts at 11.30 am India time, so after-school slots are easy for us to staff and to keep steady all year.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">The usual choice for primary and middle years.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend mornings</p><p class="ag-slot-l">Popular with secondary students who have sport after school.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">School holidays</p><p class="ag-slot-l">A short block on one topic, such as a first text language.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Predict, then run</h3><p>Students say what code will do before running it, every time.</p></div>
+      <div><h3>Testing taught early</h3><p>Boundary and invalid inputs are part of every program, not an afterthought.</p></div>
+      <div><h3>Groups of five to ten</h3><p>Placed by what students can already do, not only by year level.</p></div>
+      <div><h3>One-to-one if needed</h3><p>For a gap that needs closing quickly, or a student ready to race ahead.</p></div>
+      <div><h3>Short parent notes</h3><p>What was covered and one thing worth asking about at home.</p></div>
+      <div><h3>School work stays theirs</h3><p>We teach the skill; assessed tasks are completed by the student under the school's rules.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students have published</h2>
+      <p class="ag-lede">Built by learners for their own reasons. More are in the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Families in Australia pay monthly in US dollars, the rate we charge in every country outside India, with no deposit and the option to stop at the end of any month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A live lesson with a teacher</li><li>A clear view of where your child sits</li><li>No payment details needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students at one level</li><li>The same teacher each week</li><li>Homework reviewed and explained</li><li>A certificate at the end</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher for your child alone</li><li>Built around one goal</li><li>Weekly time chosen with you</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Families describing their experience, quoted as they wrote it on Google.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about Digital Technologies</p>
+      <h2>What Australian families ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is Digital Technologies in the Australian Curriculum?</h3>
+        <p>It is the computing subject within the Technologies learning area. It teaches how digital systems work, how data is represented and analysed, and how to design, build and evaluate digital solutions, including programs.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the difference between the two strands?</h3>
+        <p>Knowledge and understanding covers digital systems and data representation. Processes and production skills covers what students do: acquiring and analysing data, defining problems, designing, programming, evaluating, collaborating, and privacy and security.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When does text-based coding start?</h3>
+        <p>Up to Year 6 the content asks for visual programs. The Years 7 to 8 band asks students to implement algorithms in a general-purpose programming language, and Years 9 to 10 add object-oriented programming.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does a code like AC9TDI8P13 mean?</h3>
+        <p>AC9 marks Australian Curriculum Version 9.0, TDI marks Technologies: Digital Technologies, the number is the year at the end of the band, P means Processes and production skills (K means Knowledge and understanding), and the last digits number the content description.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Digital Technologies taught the same way in every state?</h3>
+        <p>No. The national curriculum is the shared reference, but each state and territory decides how it is implemented, and some publish their own syllabuses built on it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is multi-factor authentication, in curriculum terms?</h3>
+        <p>A login that asks for more than a password, such as a one-time code. The Years 7 to 8 content asks students to explain how it protects an account when the password is compromised.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you help with a school project?</h3>
+        <p>We teach the skills a project needs, such as defining the problem, designing the algorithm and testing. The project itself stays the student's own work under the school's rules.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which language do you teach first?</h3>
+        <p>For most students in Years 7 and above we start with Python. Younger students begin with visual programming, as the curriculum does.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are your classes linked to ACARA?</h3>
+        <p>No. ACARA writes the curriculum; we are an independent online school whose lessons build the same skills.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What time would lessons be for us?</h3>
+        <p>We agree a weekly slot after the trial class, usually after school in your state. Every Australian state and territory is ahead of India time, by between two and a half and five and a half hours depending on the state and the season.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>More for Australian students</h2>
+      <p class="ag-lede">Curriculum, competitions and coding pathways.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>Our main page for Australian families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-year-7-australia">Coding for Year 7</a></h3><p>The step into a text language, in detail.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-coding-classes-for-kids-australia">Online coding for kids</a></h3><p>Primary-age classes, state by state.</p></div>
+      <div><h3><a class="ag-inline-link" href="/hsc-software-engineering-help">HSC Software Engineering</a></h3><p>Where Digital Technologies leads in NSW.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></h3><p>Bebras, the AIO and more, month by month.</p></div>
+      <div><h3><a class="ag-inline-link" href="/understand-the-code-dont-copy-paste-australia">Understand the code</a></h3><p>Why copied code fails, and what to do instead.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Start with a free Digital Technologies class</h2>
+        <p class="ag-lede">Tell us the year level and what the class is working on. The free lesson starts from there and ends with a straight answer about next steps.</p>
+        <p class="ag-mt-40">Prefer to look around first? Every course sits on the <a class="ag-inline-link" href="/course-atlas">course atlas</a>, and <a class="ag-inline-link" href="/how-we-teach">how we teach</a> walks through a real lesson.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20to%20help%20with%20Digital%20Technologies%20at%20school." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'acdt',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp usually gets the fastest reply. Our number begins +91 because the school runs from India; we have no Australian office.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_acdt(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card, no commitment. We reply once to book the class.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/online-coding-classes-for-kids-australia">Online coding for kids</a></li><li><a href="/coding-for-year-7-australia">Coding for Year 7</a></li><li><a href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li></ul></div>
+      <div><h4>Learn more</h4><ul><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/course-atlas">Course atlas</a></li><li><a href="/understand-the-code-dont-copy-paste-australia">Understand the code</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Independent of ACARA; curriculum quoted from its published files</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_acdt = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'australian-curriculum-digital-technologies-help-inline', meta: { name: name, age: age, page: 'australian-curriculum-digital-technologies-help' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

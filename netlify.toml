@@ -20014,6 +20014,30 @@
   to = "/src/pages/coding-classes-vs-coding-camps-australia.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/icas-maths-practice-online"
+  to = "/src/pages/icas-maths-practice-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/icas-maths-practice-online.md"
+  to = "/src/pages/icas-maths-practice-online.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/tutor-vs-tutoring-centre-maths-australia"
+  to = "/src/pages/tutor-vs-tutoring-centre-maths-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/tutor-vs-tutoring-centre-maths-australia.md"
+  to = "/src/pages/tutor-vs-tutoring-centre-maths-australia.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

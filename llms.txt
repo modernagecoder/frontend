@@ -598,6 +598,8 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - APSMO Maths Olympiad practice: https://learn.modernagecoders.com/apsmo-maths-olympiad-practice
 - Online vs in-person coding classes, Australia: https://learn.modernagecoders.com/online-vs-in-person-coding-classes-australia
 - Coding classes vs coding camps, Australia: https://learn.modernagecoders.com/coding-classes-vs-coding-camps-australia
+- ICAS Maths practice online: https://learn.modernagecoders.com/icas-maths-practice-online
+- Maths tutor vs tutoring centre, Australia: https://learn.modernagecoders.com/tutor-vs-tutoring-centre-maths-australia
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
