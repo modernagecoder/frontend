@@ -44,7 +44,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 
 | # | Slug | Type | Words | Worst overlap | AI H2 used | Lesson family | Commit |
 |---|------|------|-------|---------------|------------|---------------|--------|
-| 3 | hsc-software-engineering-help (hse, #185A96) | ag- exam door | 3,728 | 0.8% vs ai-and-machine-learning-classes-in-australia | What does the NSW Software Engineering HSC actually assess, and how do you design test data that earns marks? | equivalence partitioning of test data plus a desk check | (this commit) |
+| 3 | hsc-software-engineering-help (hse, #185A96) | ag- exam door | 3,728 | 0.8% vs ai-and-machine-learning-classes-in-australia | What does the NSW Software Engineering HSC actually assess, and how do you design test data that earns marks? | equivalence partitioning of test data plus a desk check | 1e051d53 |
+| 9 | australian-coding-maths-and-ai-competitions-calendar (auc, #756012) | ag- competition hub | 3,337 | 0.2% vs ccea-gcse-maths-help | Which coding, maths and AI competitions can Australian students enter, and when? | backward planning from a competition date | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -281,6 +281,8 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AMC, AIO and CAT preparation](/australian-maths-trust-amc-aio-cat-preparation)
 - [Maths olympiad and AMC tutoring](/math-olympiad-amc-tutoring)
 - [HSC Software Engineering help](/hsc-software-engineering-help)
+- [NAPLAN numeracy practice](/naplan-numeracy-practice-online)
+- [Australian coding and maths competitions](/australian-coding-maths-and-ai-competitions-calendar)
 <!-- AU-LINKS -->
 
 
