@@ -367,6 +367,7 @@ const SLUGS = [
   'australian-maths-competitions-for-primary-kids',
   'apsmo-maths-olympiad-practice',
   'online-vs-in-person-coding-classes-australia',
+  'coding-classes-vs-coding-camps-australia',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -813,6 +814,7 @@ const LLMS_LABELS = {
   'australian-maths-competitions-for-primary-kids': 'Maths competitions for primary kids in Australia',
   'apsmo-maths-olympiad-practice': 'APSMO Maths Olympiad practice',
   'online-vs-in-person-coding-classes-australia': 'Online vs in-person coding classes, Australia',
+  'coding-classes-vs-coding-camps-australia': 'Coding classes vs coding camps, Australia',
 };
 
 function wireLlms(slugs) {

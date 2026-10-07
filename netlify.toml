@@ -20002,6 +20002,18 @@
   to = "/src/pages/online-vs-in-person-coding-classes-australia.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-vs-coding-camps-australia"
+  to = "/src/pages/coding-classes-vs-coding-camps-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-vs-coding-camps-australia.md"
+  to = "/src/pages/coding-classes-vs-coding-camps-australia.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
