@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>RoboCup Junior Australia Coding Help: Challenges Explained</title>
+  <meta name="description" content="RoboCup Junior Australia explained: OnStage, Rescue Line, Rescue Maze, Soccer and the SPIKE Prime Challenge, the divisions, and the programming each one needs.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/robocup-junior-australia-coding-help">
+  <link rel="alternate" type="text/markdown" href="/src/pages/robocup-junior-australia-coding-help.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#841834">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/robocup-junior-australia-coding-help">
+  <meta property="og:title" content="RoboCup Junior Australia Coding Help: Challenges Explained">
+  <meta property="og:description" content="A clear guide to RoboCup Junior Australia for students and coaches: the four challenge areas and the SPIKE Prime Challenge, their divisions, and the programming skills that separate a working robot from a lucky one.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="RoboCup Junior Australia Coding Help: Challenges Explained">
+  <meta name="twitter:description" content="RoboCup Junior Australia challenges and divisions, and the programming each one asks for.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-rcja .ag-hero-grid { gap: clamp(1rem, 2.6vw, 2.2rem); }
+.ag-root.ag-rcja .ag-hero h1 { letter-spacing: -0.016em; }
+.ag-root.ag-rcja .ag-capsule { border-left-width: 7px; }
+.ag-root.ag-rcja .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-rcja .ag-table caption { font-style: italic; }
+.ag-root.ag-rcja .ag-table th { letter-spacing: 0.015em; }
+.ag-root.ag-rcja .ag-spec dt { letter-spacing: 0.12em; }
+.ag-root.ag-rcja .ag-slots { gap: 1.2rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/robocup-junior-australia-coding-help#page","url":"https://learn.modernagecoders.com/robocup-junior-australia-coding-help","name":"RoboCup Junior Australia Coding Help","description":"A guide to RoboCup Junior Australia for students, parents and coaches: OnStage, Rescue Line, Rescue Maze and Soccer, the LEGO SPIKE Prime Challenge, their entry-level and open divisions, team sizes and event levels, with a worked lesson on timing an OnStage robot to music.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":3,"name":"RoboCup Junior Australia","item":"https://learn.modernagecoders.com/robocup-junior-australia-coding-help"}]},{"@type":"Course","name":"RoboCup Junior Australia Coding Help","description":"Live online programming classes for Australian students in robotics teams, covering block and Python programming, sensors, timing and debugging, while the team builds its own robot.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/robocup-junior-australia-coding-help"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/robocup-junior-australia-coding-help"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/robocup-junior-australia-coding-help"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is RoboCup Junior Australia?","acceptedAnswer":{"@type":"Answer","text":"A project-oriented educational initiative, in the organiser's words, that supports local, regional and international robotics events for school students, in OnStage, Rescue and Soccer challenges."}},{"@type":"Question","name":"Which challenge suits a beginner?","acceptedAnswer":{"@type":"Answer","text":"Each challenge has an entry-level division, such as Novice OnStage, Riley Rover Rescue Line, Mighty Maisy Maze and Standard Soccer. OnStage is often a gentle start because any platform can be used."}},{"@type":"Question","name":"How big is a RoboCup team?","acceptedAnswer":{"@type":"Answer","text":"The organiser's Beginners Guide says teams are generally between 2 and 4 students, and schools can enter multiple teams in any challenge."}},{"@type":"Question","name":"How long is an OnStage performance?","acceptedAnswer":{"@type":"Answer","text":"Longer than 1 minute and less than 2 minutes, with a maximum of 6 minutes on stage, on a 2 by 2 metre square marked with black tape."}},{"@type":"Question","name":"What is the SPIKE Prime Challenge?","acceptedAnswer":{"@type":"Answer","text":"A nationally coordinated RoboCup Junior Australia challenge for teams using LEGO SPIKE. The 2026 theme was \"Survivors of the Future: Robots on a New World\", with everything due by Friday 26 June 2026."}},{"@type":"Question","name":"What is beats per minute?","acceptedAnswer":{"@type":"Answer","text":"The tempo of a piece of music: how many beats fall in one minute. Divide 60,000 by the tempo to get milliseconds per beat, which is how a robot routine is timed to a song."}},{"@type":"Question","name":"Do robots have to be autonomous?","acceptedAnswer":{"@type":"Answer","text":"Yes. RoboCup Junior robots must work without remote control; soccer robots, for example, must find the ball, face the right way and stay in the field on their own."}},{"@type":"Question","name":"Will you program our robot for us?","acceptedAnswer":{"@type":"Answer","text":"No. We teach team members programming and debugging so the team can program its own robot. Judges expect a team's work to be its own."}},{"@type":"Question","name":"Do we need to buy a kit first?","acceptedAnswer":{"@type":"Answer","text":"Not for lessons. Many programming ideas can be learned in Scratch or Python before a kit arrives, and then applied to the team's robot."}},{"@type":"Question","name":"Can lessons help with Rescue Simulation?","acceptedAnswer":{"@type":"Answer","text":"Yes, in the programming sense. The 2026 demonstration competition uses a virtual robot in the Webots-Erebus simulator, so navigation and mapping code matter more than hardware."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/robocup-junior-australia-coding-help","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-rcja">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#challenges">Challenges</a></li>
+      <li><a href="#divisions">Divisions</a></li>
+      <li><a href="#timing">OnStage timing</a></li>
+      <li><a href="#coaching">How we help</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / RoboCup Junior Australia
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; Primary and secondary &middot; Checked at RoboCup Junior Australia</p>
+        <h1>RoboCup Junior Australia coding help</h1>
+        <p class="ag-lede">RoboCup Junior Australia asks students to design, build and program robots that dance, rescue or play soccer without anyone touching a controller. The building is visible and exciting; the programming is where most teams quietly win or lose. A robot that follows a line in the practice room and wanders off on competition day usually has a code problem, not a hardware one. This page explains the challenges and divisions as RoboCup Junior Australia publishes them, then works through one programming skill every OnStage team needs. We are independent of RoboCup Junior Australia and help with the coding, never with building a team's robot for it.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#timing" class="ag-btn ag-btn--ghost">See the timing lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20programming%20for%20a%20RoboCup%20Junior%20team%20in%20Australia." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'rcja'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Checked at robocupjunior.org.au on 7 October 2026 &middot; Independent of the organiser &middot; The team's own robot</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Organiser</dt><dd>RoboCup Junior Australia</dd>
+          <dt>Challenge areas</dt><dd>OnStage, Rescue (Line and Maze), Soccer</dd>
+          <dt>Also run</dt><dd>LEGO SPIKE Prime Challenge</dd>
+          <dt>Team size</dt><dd>Generally 2 to 4 students</dd>
+          <dt>Event levels</dt><dd>Regional, state and national</dd>
+          <dt>2026 SPIKE Prime theme</dt><dd>Survivors of the Future: Robots on a New World</dd>
+          <dt>We provide</dt><dd>Programming lessons for team members</dd>
+          <dt>We are not</dt><dd>An organiser, judge or robot builder</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>RoboCup Junior Australia runs robotics challenges for school students in three areas: OnStage, Rescue (Line and Maze) and Soccer, each with an entry-level division, plus a LEGO SPIKE Prime Challenge. Teams are generally 2 to 4 students, robots must work autonomously, and events run at regional, state and national level. Programming, not building, is where most teams gain or lose points.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three courses for robotics team members</h2>
+      <p class="ag-lede">Most RoboCup robots are programmed in blocks first and text later; these follow that path.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/scratch-programming-complete-course">
+        <div class="ag-pick-shot"><img src="/images/scratch-kids.webp" alt="Scratch Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">RCJ / 01</p>
+          <h3>Scratch for kids</h3>
+          <p>Loops, conditions and events in blocks, the same ideas a SPIKE word-block program uses.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">RCJ / 02</p>
+          <h3>Python and AI for kids</h3>
+          <p>A first text language for primary students ready to move beyond blocks.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">RCJ / 03</p>
+          <h3>Python for teens</h3>
+          <p>For secondary students heading into the open divisions, where custom code is common.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="challenges">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The challenges</p><h2>Four challenge areas and a SPIKE Prime Challenge</h2><p class="ag-lede">RoboCup Junior Australia describes itself as a project-oriented educational initiative that supports local, regional and international robotic events for young students. Each challenge asks for something different from a team's code.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>RoboCup Junior Australia challenges, as described by the organiser</caption><thead><tr><th scope="col">Challenge</th><th scope="col">What the robot does</th><th scope="col">What the programming must handle</th></tr></thead><tbody><tr><td>OnStage</td><td>Performs a dance or theatrical piece to music on a 2 by 2 metre stage</td><td>Timing against the music, staying inside the boundary, repeatable moves</td></tr><tr><td>Rescue Line</td><td>Follows a winding line over tiles to a rescue area, then deals with "the victim"</td><td>Line following, gaps and obstacles, finding and moving an object</td></tr><tr><td>Rescue Maze</td><td>Explores a maze representing a damaged building and locates victims</td><td>Navigation, mapping, coping with holes, steps and ramps</td></tr><tr><td>Soccer</td><td>Two robots play against an opposing pair</td><td>Finding the ball, facing the right way, staying in the field</td></tr><tr><td>SPIKE Prime Challenge</td><td>An autonomous creation on a yearly theme, documented and filmed</td><td>A design the team explains through a learning journal and video</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The organiser's Beginners Guide splits RoboCup into three challenge areas: OnStage, Rescue (Line and Maze) and Soccer. Each has an entry-level division meant for beginners. Teams are generally between 2 and 4 students, and a school can enter several teams in any challenge.</p>
+<p>Events run at regional, state and national level, and RoboCup Junior Australia also runs workshops. Each state and territory keeps its own event calendar on the organiser's site.</p></div><div><p>The 2026 SPIKE Prime Challenge, themed "Survivors of the Future: Robots on a New World", opened for entry on Monday 23 February 2026 and asked for all registrations and submissions by Friday 26 June 2026. It is only for teams using the LEGO SPIKE platform, and the robot cannot be remote controlled.</p>
+<p>For the 2026 National Championships, the organiser announced a demonstration competition in Rescue Simulation, where teams program a virtual robot in the Webots-Erebus simulator instead of building a physical one.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.robocupjunior.org.au/" rel="noopener" target="_blank">RoboCup Junior Australia home</a>; <a class="ag-inline-link" href="https://www.robocupjunior.org.au/resources/beginners/" rel="noopener" target="_blank">Beginners Guide</a>; <a class="ag-inline-link" href="https://www.robocupjunior.org.au/spike-challenge/" rel="noopener" target="_blank">SPIKE Prime Challenge</a>; <a class="ag-inline-link" href="https://www.robocupjunior.org.au/2026-rescue-simulation/" rel="noopener" target="_blank">2026 Rescue Simulation demo</a>. Read 7 October 2026. Entry fees are set by the organiser and are not shown.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="divisions">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Divisions</p><h2>From entry level to open, challenge by challenge</h2><p class="ag-lede">Divisions let beginners compete fairly while experienced teams push further. The names and limits below are the organiser's.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Divisions listed on each RoboCup Junior Australia challenge page</caption><thead><tr><th scope="col">Challenge</th><th scope="col">Entry level</th><th scope="col">Next steps</th><th scope="col">Top level</th></tr></thead><tbody><tr><td>OnStage</td><td>Novice: every member has 2 years or less of OnStage experience</td><td>None listed</td><td>Open: any team may enter</td></tr><tr><td>Rescue Line</td><td>Riley Rover: primary and secondary students</td><td>Primary, then Secondary (adds tiles such as the "gridlock")</td><td>Open: for teams seeking a greater challenge, including international qualification</td></tr><tr><td>Rescue Maze</td><td>Mighty Maisy Maze</td><td>Intermediate Maze, added from 2025</td><td>Open Maze</td></tr><tr><td>Soccer</td><td>Simple Simon (run at select events) and Standard</td><td>Lightweight</td><td>Open: an orange ball found with cameras and computer vision</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Limits that shape the code</h3><p>In Standard Soccer, robots must be built from LEGO parts (except certain sensors), weigh at most 1 kg and fit within a 22 cm cylinder, and they track a ball that emits infrared light. Lightweight allows any materials up to 1.4 kg in the same cylinder. Open Soccer swaps the infrared ball for a bright orange one, so robots need cameras and vision software.</p>
+<p>In OnStage, the stage is a 2 by 2 metre square marked with a 50 mm black tape boundary. Performances must run longer than 1 minute and less than 2 minutes, with at most 6 minutes on stage, and marks are deducted when a robot completely leaves the area.</p></div><div><h3>What the step up really means</h3><p>Moving up a division is mostly a programming jump. A Secondary Rescue Line robot must contain or grab the victim and either move it out of the spill or lift it onto a platform, instead of simply pushing it. That needs a sequence of states, not one long block of instructions.</p>
+<p>The organiser notes that in Rescue Maze the challenge changes every round, and that a less complex but more reliable robot may beat a theoretically stronger one. Reliability is a coding habit: testing every branch, not just the one that worked last time.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="timing">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Worked lesson</p><h2>Timing an OnStage routine to the beat</h2><p class="ag-lede">OnStage robots perform to music, and judges notice immediately when a robot drifts behind the song. The fix is arithmetic, not luck. This example is ours.</p></div>
+    <div class="ag-grid-3"><div><h3>Beats into milliseconds</h3><p>Songs are described in beats per minute. One minute is 60,000 milliseconds, so one beat lasts 60,000 divided by the tempo. At 120 beats per minute a beat is 500 ms; at 96 it is 625 ms.</p></div><div><h3>Fit the time limit</h3><p>A routine must run longer than 1 minute and less than 2. At 96 beats per minute, 128 beats take 128 times 625 ms, which is 80 seconds, comfortably inside the window.</p></div><div><h3>Plan in phrases</h3><p>Music groups beats in bars of four and phrases of eight bars. At 96 beats per minute an eight-bar phrase is 32 beats, which is exactly 20 seconds. Four phrases make the 80-second routine.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>How a small timing error grows when moves are simply chained (our illustration)</caption><thead><tr><th scope="col">Beats danced</th><th scope="col">Planned time</th><th scope="col">Each move actually takes 640 ms, not 625</th><th scope="col">Behind the music</th></tr></thead><tbody><tr><td class="ag-num">8</td><td class="ag-num">5.0 s</td><td class="ag-num">5.12 s</td><td class="ag-num">0.12 s</td></tr><tr><td class="ag-num">32</td><td class="ag-num">20.0 s</td><td class="ag-num">20.48 s</td><td class="ag-num">0.48 s</td></tr><tr><td class="ag-num">64</td><td class="ag-num">40.0 s</td><td class="ag-num">40.96 s</td><td class="ag-num">0.96 s</td></tr><tr><td class="ag-num">128</td><td class="ag-num">80.0 s</td><td class="ag-num">81.92 s</td><td class="ag-num">1.92 s</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Motors take a moment to start and stop, so a move programmed as one beat often runs a little long. Fifteen extra milliseconds per move sounds harmless; after 128 beats the robot is almost two seconds late, which an audience can see. Chaining waits one after another lets those errors pile up. The steadier method is to start a timer when the music starts and, at the beginning of every phrase, wait until the timer reaches the phrase's planned start: 0, 20, 40 and 60 seconds in this example. Each phrase then begins on time, and the error can never grow beyond one phrase.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Trying it in class</h3><p>Students first measure the real duration of one move by running it ten times and dividing the total. Then they calculate the drift over a whole routine, predict it, and run the routine with a stopwatch to compare.</p>
+<p>Next they rewrite the program so each phrase waits for the timer, and run it again. Seeing the error vanish is usually the moment a team stops trusting guesswork.</p></div><div><h3>Where the same idea reappears</h3><p>Resynchronising against a clock instead of adding up delays is how games keep animation smooth and how music software keeps tracks together. It is a real engineering pattern, met here first on a 2 metre stage.</p>
+<p>The same thinking helps Rescue and Soccer teams: a robot that checks its sensors at a steady rate behaves the same way every run, while one with uneven delays is hard to debug.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="coaching">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How we help</p><h2>Programming help, while the robot stays the team's own</h2><p class="ag-lede">RoboCup is a team project. Our part is to make each member a stronger programmer, so the team's own robot does what the team designed it to do.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><p>Lessons cover the ideas behind every challenge: loops and conditions, reading sensors, thresholds, simple states for multi-step tasks, and timing. Students practise on small exercises and on their own code, explaining each decision.</p>
+<p>For younger teams we start in blocks. SPIKE kits can be programmed in word blocks, icon blocks or Python, as FIRST Australia notes for its LEGO programs, so moving a team member from blocks to Python is a natural next step.</p></div><div><p>We never write a team's competition program or design its robot. The SPIKE Prime Challenge page asks that a team's creation be its own design, and judges in OnStage interview teams about their technical work. A student who has learned the ideas can answer those questions honestly.</p>
+<p>We do not promise a placing or a trophy. We teach the programming and debugging habits that make a robot reliable, and the team does the rest.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>A term of programming support for a RoboCup team member</caption><thead><tr><th scope="col">Weeks</th><th scope="col">Focus</th><th scope="col">Sign of progress</th></tr></thead><tbody><tr><td>1 and 2</td><td>Loops, conditions and events in blocks</td><td>Predicts what a short program will do before running it</td></tr><tr><td>3 and 4</td><td>Sensors and thresholds</td><td>Chooses a light threshold from measured readings, not a guess</td></tr><tr><td>5 and 6</td><td>Timing and synchronisation</td><td>Keeps a routine on the beat for its full length</td></tr><tr><td>7 and 8</td><td>States for multi-step tasks</td><td>Writes a clear sequence such as find, grab, carry, release</td></tr><tr><td>9 and 10</td><td>Testing and debugging</td><td>Keeps a test log and fixes one problem at a time</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Growing as a robot programmer</p>
+      <h2>Four rungs from first robot to open division</h2>
+      <p class="ag-lede">Year level matters less than how a student programs.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From moving a motor to a reliable autonomous robot</caption><thead><tr><th scope="col">Around</th><th scope="col">Rung</th><th scope="col">The sign it is secure</th></tr></thead><tbody><tr><td>Upper primary</td><td class="ag-num">1. Moves on purpose</td><td class="ag-num">Makes the robot drive a set distance and turn a set angle</td></tr><tr><td>Upper primary to Year 8</td><td class="ag-num">2. Reacts to the world</td><td class="ag-num">Uses a sensor reading to change what the robot does</td></tr><tr><td>Years 7 to 10</td><td class="ag-num">3. Plans in steps</td><td class="ag-num">Breaks a task into states and handles each one cleanly</td></tr><tr><td>Years 9 to 12</td><td class="ag-num">4. Reliable under change</td><td class="ag-num">Tests every branch and keeps working when the field changes</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>When a run goes wrong</h3><p>Write down what the robot did and what it should have done before changing any code. Most fixes come from that one sentence.</p>
+<p>Change one thing at a time. A team that changes three things at once never learns which one mattered.</p></div><div><h3>Related reading</h3><p>The <a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Australian competitions calendar</a> lists other coding and maths contests across the year.</p>
+<p>Teams also often enter <a class="ag-inline-link" href="/first-lego-league-australia-coding-help">FIRST LEGO League in Australia</a>, which uses SPIKE kits too.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for robotics students</h2>
+      <p class="ag-lede">From first blocks to code an open division needs. Each card opens the full syllabus.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Blocks</h3>
+        <span class="ag-band-sub">Primary team members</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">RCJ / BL / 01</p>
+          <h4>Scratch for kids</h4>
+          <p>Events, loops and conditions.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RCJ / BL / 02</p>
+          <h4>Coding for kids</h4>
+          <p>Blocks to games and simple apps.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RCJ / BL / 03</p>
+          <h4>Computational thinking</h4>
+          <p>Breaking a task into steps.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Text code</h3>
+        <span class="ag-band-sub">Moving to Python</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">RCJ / TX / 01</p>
+          <h4>Python and AI for kids</h4>
+          <p>A gentle first text language.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RCJ / TX / 02</p>
+          <h4>Python for teens</h4>
+          <p>Functions, files and structure.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RCJ / TX / 03</p>
+          <h4>Maths through coding</h4>
+          <p>Angles, distances and timing in code.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Advanced</h3>
+        <span class="ag-band-sub">Open divisions and beyond</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">RCJ / AD / 01</p>
+          <h4>Problem solving for teens</h4>
+          <p>Searching, states and efficient logic.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RCJ / AD / 02</p>
+          <h4>Data science for teens</h4>
+          <p>Reading sensor logs like data.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RCJ / AD / 03</p>
+          <h4>Competitive programming</h4>
+          <p>Fast, correct code under pressure.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Online programming lessons around team practice</h2>
+      <p class="ag-lede">Lessons are taught live from India. Australian clocks run ahead of India's: Brisbane is four and a half hours ahead of India time all year, and Adelaide is four hours ahead in winter and five in summer. A lesson after an Australian school day falls in the Indian afternoon, so it slots easily around a team's practice nights.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">A weekday afternoon</p><p class="ag-slot-l">Programming ideas, practised on small exercises.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">A weekend session</p><p class="ag-slot-l">Reviewing the student's own robot code together.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Before an event</p><p class="ag-slot-l">Testing and debugging habits, run by run.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Ideas first</h3><p>Students learn why a program works, so they can fix it on the day.</p></div>
+      <div><h3>Their robot, their code</h3><p>We explain and question; the team writes and builds.</p></div>
+      <div><h3>Blocks to Python</h3><p>A clear path from SPIKE blocks to text code.</p></div>
+      <div><h3>Groups of five to ten</h3><p>Students at a similar level comparing approaches.</p></div>
+      <div><h3>One-to-one option</h3><p>For a team's lead programmer who wants to go further.</p></div>
+      <div><h3>No placing promised</h3><p>We teach programming; judges and referees decide results.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students have built</h2>
+      <p class="ag-lede">Built because students wanted to, apart from any competition. Browse them in the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Programming lessons are charged monthly in US dollars, our international rate, without a joining fee or a lock-in. Any RoboCup entry fee or kit purchase is separate and paid to the organiser or supplier, not to us.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A first lesson with a teacher, free</li><li>A look at the student's current code if they have some</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students at a similar level</li><li>The same teacher through the term</li><li>Programming ideas tested on shared exercises</li><li>A certificate on completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher for one student</li><li>Time spent on that student's own robot code</li><li>Weekly times that fit team practice</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews from our Google listing, left exactly as written.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about RoboCup Junior</p>
+      <h2>What students and parents ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is RoboCup Junior Australia?</h3>
+        <p>A project-oriented educational initiative, in the organiser's words, that supports local, regional and international robotics events for school students, in OnStage, Rescue and Soccer challenges.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which challenge suits a beginner?</h3>
+        <p>Each challenge has an entry-level division, such as Novice OnStage, Riley Rover Rescue Line, Mighty Maisy Maze and Standard Soccer. OnStage is often a gentle start because any platform can be used.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How big is a RoboCup team?</h3>
+        <p>The organiser's Beginners Guide says teams are generally between 2 and 4 students, and schools can enter multiple teams in any challenge.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long is an OnStage performance?</h3>
+        <p>Longer than 1 minute and less than 2 minutes, with a maximum of 6 minutes on stage, on a 2 by 2 metre square marked with black tape.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the SPIKE Prime Challenge?</h3>
+        <p>A nationally coordinated RoboCup Junior Australia challenge for teams using LEGO SPIKE. The 2026 theme was "Survivors of the Future: Robots on a New World", with everything due by Friday 26 June 2026.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is beats per minute?</h3>
+        <p>The tempo of a piece of music: how many beats fall in one minute. Divide 60,000 by the tempo to get milliseconds per beat, which is how a robot routine is timed to a song.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do robots have to be autonomous?</h3>
+        <p>Yes. RoboCup Junior robots must work without remote control; soccer robots, for example, must find the ball, face the right way and stay in the field on their own.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you program our robot for us?</h3>
+        <p>No. We teach team members programming and debugging so the team can program its own robot. Judges expect a team's work to be its own.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do we need to buy a kit first?</h3>
+        <p>Not for lessons. Many programming ideas can be learned in Scratch or Python before a kit arrives, and then applied to the team's robot.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can lessons help with Rescue Simulation?</h3>
+        <p>Yes, in the programming sense. The 2026 demonstration competition uses a virtual robot in the Webots-Erebus simulator, so navigation and mapping code matter more than hardware.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>More for Australian students</h2>
+      <p class="ag-lede">Other competitions and coding pathways.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></h3><p>Coding and maths contests by month.</p></div>
+      <div><h3><a class="ag-inline-link" href="/first-lego-league-australia-coding-help">FIRST LEGO League</a></h3><p>Another robotics program using SPIKE.</p></div>
+      <div><h3><a class="ag-inline-link" href="/game-development-for-kids-australia">Game development for kids</a></h3><p>Programming that moves things on screen.</p></div>
+      <div><h3><a class="ag-inline-link" href="/after-scratch-next-step-python-australia">After Scratch, Python</a></h3><p>The step from blocks to text.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>Every state and every age.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-coding-classes-for-kids-australia">Coding classes for kids</a></h3><p>What an online class looks like.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Start with a free programming class</h2>
+        <p class="ag-lede">Tell us the year level, the challenge and how the team programs now. The free class works on one real programming idea from that challenge and ends with a practical next step.</p>
+        <p class="ag-mt-40">Want to look around first? All course outlines are on the <a class="ag-inline-link" href="/course-atlas">course atlas</a>, and <a class="ag-inline-link" href="/how-we-teach">how we teach</a> walks through a lesson.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20programming%20for%20a%20RoboCup%20Junior%20team%20in%20Australia." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'rcja',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp is normally the quickest way to reach us. The number is Indian, because that is where we are based; there is no Australian office.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_rcja(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card and no obligation. We reply once to arrange a time.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/online-coding-classes-for-kids-australia">Coding for kids</a></li><li><a href="/game-development-for-kids-australia">Game development</a></li><li><a href="/online-maths-tutoring-australia">Maths tutoring</a></li></ul></div>
+      <div><h4>Competitions</h4><ul><li><a href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li><li><a href="/first-lego-league-australia-coding-help">FIRST LEGO League</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/course-atlas">Course atlas</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Independent of RoboCup Junior Australia; facts checked at source</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_rcja = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'robocup-junior-australia-coding-help-inline', meta: { name: name, age: age, page: 'robocup-junior-australia-coding-help' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

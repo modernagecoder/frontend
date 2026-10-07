@@ -349,6 +349,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [TASC Computer Science help](/tasc-computer-science-help)
 - [TASC Mathematics Methods tutoring](/tasc-mathematics-methods-tutoring)
 - [ICAS Digital Technologies practice](/icas-digital-technologies-practice)
+- [RoboCup Junior Australia coding help](/robocup-junior-australia-coding-help)
 <!-- AU-LINKS -->
 
 

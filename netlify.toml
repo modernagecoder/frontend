@@ -19978,6 +19978,18 @@
   to = "/src/pages/australian-maths-competitions-for-primary-kids.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/apsmo-maths-olympiad-practice"
+  to = "/src/pages/apsmo-maths-olympiad-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/apsmo-maths-olympiad-practice.md"
+  to = "/src/pages/apsmo-maths-olympiad-practice.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
