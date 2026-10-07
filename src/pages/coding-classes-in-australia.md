@@ -303,6 +303,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Roblox coding classes](/roblox-coding-classes-australia)
 - [Minecraft coding classes](/minecraft-coding-classes-australia)
 - [Python AI course for kids](/python-ai-course-for-kids-australia)
+- [AI courses for kids](/ai-courses-for-kids-australia)
 <!-- AU-LINKS -->
 
 
