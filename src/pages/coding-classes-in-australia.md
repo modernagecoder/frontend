@@ -299,6 +299,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding for homeschool kids](/coding-for-homeschool-kids-australia)
 - [Coding games for kids](/coding-games-for-kids-australia)
 - [Game programming course](/game-programming-course-australia)
+- [Video game design for kids](/video-game-design-for-kids-australia)
 <!-- AU-LINKS -->
 
 

@@ -62,7 +62,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 35 | after-scratch-next-step-python-australia (aspy, #99335A) | ag- topic door | 3,328 | 1.3% vs coding-classes-for-7-and-8-year-olds-australia | When is an Australian child ready to move from Scratch to Python, and how does one Scratch game translate into Python block by block? | Scratch-to-Python translation table | b101deb4 |
 | 38 | coding-for-homeschool-kids-australia (hsch, #723618) | ag- topic door | 3,291 | 1.2% vs after-scratch-next-step-python-australia | How can home-schooling families in Australia add live coding to a home education program, and keep a simple record of what was learned? | exit tickets as a home-education record | 9583f1fc |
 | 10 | coding-games-for-kids-australia (cgau, #366396) | ag- topic door | 3,971 | 1.2% vs kids-coding-languages-australia | Which coding games teach real programming, and how does a child move from playing them to writing code? | instruction count: unrolled vs looped vs nested-loop programs | 5d71e360 |
-| 12 | game-programming-course-australia (gpau, #994236) | ag- topic door | 3,689 | 1.2% vs game-development-for-kids-australia | Why does the same game code jump higher on a slow laptop, and how do game programmers make physics identical on every machine? | fixed timestep and the accumulator | (this commit) |
+| 12 | game-programming-course-australia (gpau, #994236) | ag- topic door | 3,689 | 1.2% vs game-development-for-kids-australia | Why does the same game code jump higher on a slow laptop, and how do game programmers make physics identical on every machine? | fixed timestep and the accumulator | 5895c4e6 |
+| 13 | video-game-design-for-kids-australia (vgau, #36570F) | ag- topic door | 3,606 | 1.6% vs minecraft-coding-classes-australia | How do kids design a level that teaches a new idea without a single word of instructions? | level gating | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
