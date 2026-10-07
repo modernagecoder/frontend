@@ -887,3 +887,4 @@
 .ag-root.ag-mcha { --ag-accent: #36541B; --ag-accent-soft: rgba(54,84,27,.09); }   /* Maths Challenge practice: a deep fern green chosen by hand, muted, at least 10 RGB from every accent in content and stylesheets and above 4.8:1 on #EDE7DA */
 .ag-root.ag-mpka { --ag-accent: #6C6028; --ag-accent-soft: rgba(108,96,40,.09); }   /* Maths competitions for primary kids: a warm olive chosen by hand, muted, at least 10 RGB from every accent in use or claimed */
 .ag-root.ag-apsm { --ag-accent: #663939; --ag-accent-soft: rgba(102,57,57,.09); }   /* APSMO practice: a muted terracotta brown chosen by hand, at least 10 RGB from every accent in content and stylesheets and above 4.8:1 on #EDE7DA */
+.ag-root.ag-ovau { --ag-accent: #40649C; --ag-accent-soft: rgba(64,100,156,.09); }   /* Online vs in-person, Australia: a steel blue chosen by hand, muted, at least 10 RGB units from every accent in use and outside the excluded hue bands */
