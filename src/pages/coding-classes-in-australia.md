@@ -341,6 +341,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Software Engineering project help](/software-engineering-major-project-help-hsc)
 - [The ATAR explained](/atar-explained-for-coding-students)
 - [Choosing Year 11 computing subjects](/choosing-year-11-computing-subjects-australia)
+- [Year 10 maths for Methods](/year-10-maths-methods-preparation)
 <!-- AU-LINKS -->
 
 
