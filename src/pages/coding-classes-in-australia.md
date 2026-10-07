@@ -310,6 +310,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-australia)
 - [Understand the code, don't copy-paste](/understand-the-code-dont-copy-paste-australia)
 - [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-australia)
+- [Problem solving through coding](/problem-solving-through-coding-australia)
 <!-- AU-LINKS -->
 
 

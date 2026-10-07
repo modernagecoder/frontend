@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Problem Solving Through Coding | Australian Students</title>
+  <meta name="description" content="How coding builds problem solving for Australian students: decomposition from the curriculum, an unsolved puzzle to explore in code, and what a program cannot prove.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/problem-solving-through-coding-australia">
+  <link rel="alternate" type="text/markdown" href="/src/pages/problem-solving-through-coding-australia.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#984438">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/problem-solving-through-coding-australia">
+  <meta property="og:title" content="Problem Solving Through Coding | Australian Students">
+  <meta property="og:description" content="Start with 27, halve the evens, triple and add one to the odds: it takes 111 steps and climbs to 9,232. How a famous unsolved puzzle teaches Australian students to solve problems in code.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Problem Solving Through Coding">
+  <meta name="twitter:description" content="Problem solving through coding for Australian students, taught with the Collatz puzzle and the curriculum's own words.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-psau .ag-hero h1 { letter-spacing: -0.015em; }
+.ag-root.ag-psau .ag-capsule { border-left-width: 3px; border-radius: 14px; }
+.ag-root.ag-psau .ag-section-head h2 { max-width: 29ch; }
+.ag-root.ag-psau .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-psau .ag-band-head h3 { letter-spacing: -0.005em; }
+.ag-root.ag-psau .ag-slots { gap: 1.4rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/problem-solving-through-coding-australia#page","url":"https://learn.modernagecoders.com/problem-solving-through-coding-australia","name":"Problem Solving Through Coding","description":"A guide for Australian families on how coding develops problem solving, using decomposition, exploration and the difference between evidence and proof.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":4,"name":"Problem solving through coding","item":"https://learn.modernagecoders.com/problem-solving-through-coding-australia"}]},{"@type":"Course","name":"Problem Solving Through Coding","description":"Live online courses for Australian students in which problems are defined, broken down, explored in code and explained, from logic for primary children to algorithms for teens and adults.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/problem-solving-through-coding-australia"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/problem-solving-through-coding-australia"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/problem-solving-through-coding-australia"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does coding really teach problem solving?","acceptedAnswer":{"@type":"Answer","text":"It does when children work on real problems, ones they must define, break down, test and explain, rather than following step-by-step instructions. We do not claim it automatically improves every other subject."}},{"@type":"Question","name":"What is the Collatz conjecture?","acceptedAnswer":{"@type":"Answer","text":"The Collatz conjecture says that if you take any whole number, halve it when it is even and multiply by three and add one when it is odd, and repeat, you will always eventually reach 1. It has never been proved."}},{"@type":"Question","name":"What is problem decomposition?","acceptedAnswer":{"@type":"Answer","text":"Problem decomposition is breaking a large problem into smaller parts that can each be solved and tested on their own, then combining them. The Australian Curriculum names it for Years 7 and 8."}},{"@type":"Question","name":"Why use an unsolved maths problem with children?","acceptedAnswer":{"@type":"Answer","text":"Because it is easy to understand, impossible to shortcut and rewards exploration. It also teaches the difference between evidence from a program and a proof."}},{"@type":"Question","name":"Can a computer prove the Collatz conjecture by checking numbers?","acceptedAnswer":{"@type":"Answer","text":"No. Checking any finite set of numbers, however large, gives evidence but not proof, because the conjecture is about every whole number."}},{"@type":"Question","name":"What age is this suitable for?","acceptedAnswer":{"@type":"Answer","text":"Children from about 8 can follow the rule and explore small numbers in Scratch. Writing the full exploration in Python suits students from about 10."}},{"@type":"Question","name":"Does my child need to be good at maths?","acceptedAnswer":{"@type":"Answer","text":"No. Halving, tripling and counting are enough to start. Problem solving through coding often builds maths confidence rather than requiring it."}},{"@type":"Question","name":"Does this follow the Australian Curriculum?","acceptedAnswer":{"@type":"Answer","text":"It reinforces the computational thinking described in the Digital Technologies curriculum, from sequences and decisions in the early years to decomposition in Years 7 and 8."}},{"@type":"Question","name":"Are lessons live?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every lesson is live online with a teacher, in small groups of five to ten or one to one, at times set for your state."}},{"@type":"Question","name":"How much does it cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. After that, fees are monthly with no joining fee and no term lock-in; see the fees section on this page."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/problem-solving-through-coding-australia","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-psau">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#curriculum">The curriculum</a></li>
+      <li><a href="#puzzle">The puzzle</a></li>
+      <li><a href="#explore">Exploring in code</a></li>
+      <li><a href="#proof">Evidence and proof</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / Problem solving through coding
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; Ages 8 and up &middot; Think it through, then code it</p>
+        <h1>Problem solving through coding</h1>
+        <p class="ag-lede">Parents are often told that coding teaches problem solving, and it can, but only when children are given real problems rather than step-by-step instructions to follow. A real problem has an unclear path, needs breaking into parts, and rewards a child who tests an idea, notices a pattern and asks why. This page shows what that looks like in practice, using the Australian Curriculum's own description of problem decomposition and one of the most famous unsolved puzzles in mathematics, which a ten-year-old can explore with a short loop and which no mathematician has yet managed to prove.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#puzzle" class="ag-btn ag-btn--ghost">The puzzle</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20my%20child%20to%20build%20problem-solving%20skills%20through%20coding.%20Could%20we%20book%20a%20free%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'psau'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; real problems, not recipes</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Ages 8 and up</dd>
+          <dt>Focus</dt><dd>Defining, decomposing and testing</dd>
+          <dt>Example</dt><dd>The Collatz puzzle</dd>
+          <dt>Languages</dt><dd>Scratch, then Python</dd>
+          <dt>Curriculum</dt><dd>Digital Technologies, F to 10</dd>
+          <dt>Format</dt><dd>Live online video</dd>
+          <dt>Group</dt><dd>Five to ten, or one to one</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Problem solving through coding means using programs to explore, test and explain a problem that has no ready-made recipe. Students define the problem, break it into parts, try ideas in code and check the results. The Collatz puzzle shows how: starting from 27, the rule takes 111 steps and climbs to 9,232 before reaching 1. Code gives strong evidence about such patterns, but it cannot prove them.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three courses built around real problems</h2>
+      <p class="ag-lede">By age and readiness. The free first lesson decides which suits.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/problem-solving-and-computational-thinking-for-kids">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-kids.webp" alt="Problem Solving and Computational Thinking for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PSAU / 01</p>
+          <h3>Puzzles and logic for children</h3>
+          <p>Ages 7 to 12. Step-by-step thinking before, during and after any code.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/maths-through-coding">
+        <div class="ag-pick-shot"><img src="/images/maths-through-coding.webp" alt="Maths Through Coding course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PSAU / 02</p>
+          <h3>Maths explored in Python</h3>
+          <p>Ages 10 to 15. Patterns, conjectures and experiments, written as programs.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-dsa-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-teens.webp" alt="Problem Solving for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PSAU / 03</p>
+          <h3>Algorithms for teens</h3>
+          <p>Ages 13 to 18. Breaking hard problems into structures and steps.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="curriculum">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The curriculum</p><h2>Problem solving, in the Australian Curriculum's words</h2><p class="ag-lede">The Australian Curriculum v9 describes the problem-solving side of Digital Technologies as computational thinking, and it grows across the years from simple sequences to breaking real problems apart.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Computational thinking in the band descriptions, Australian Curriculum v9 Digital Technologies</caption><thead><tr><th scope="col">Years</th><th scope="col">What students should have had the opportunity to do</th></tr></thead><tbody><tr><td>1 and 2</td><td>"apply computational thinking by describing algorithms that include sequences of instructions and decisions"</td></tr><tr><td>7 and 8</td><td>"apply computational thinking by defining and decomposing real-world problems, creating user experiences, designing and modifying algorithms, and implementing them in a general-purpose programming language"</td></tr><tr><td>7 and 8</td><td>"practising problem decomposition, using approaches such as divide and conquer to more clearly understand a problem by describing its component parts"</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Decomposition, in plain words</h3><p>Problem decomposition means breaking a big problem into smaller ones that can each be solved on its own. Divide and conquer is one way to do it: split the problem, solve the halves, combine the answers.</p>
+<p>It is how a game is built, how a school project is planned and how a hard maths question is tackled. Code makes the idea concrete, because each part becomes a function that either works or does not.</p></div><div><h3>Where children start</h3><p>In the early years the curriculum asks for algorithms with sequences and decisions, which in Scratch means a stack of blocks with an <em>if</em> inside.</p>
+<p>By the middle years, children are defining the problem themselves, which is the hardest and most valuable step of all.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 7 October 2026: ACARA, Australian Curriculum v9, Digital Technologies content <a class="ag-inline-link" href="https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-f-6-v9.docx" rel="noopener" target="_blank">Foundation to Year 6</a> and <a class="ag-inline-link" href="https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx" rel="noopener" target="_blank">Years 7 to 10</a> (band descriptions).</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="puzzle">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The puzzle</p><h2>A rule a child can follow and no one can prove</h2><p class="ag-lede">Pick any whole number. If it is even, halve it. If it is odd, multiply by three and add one. Repeat. The Collatz conjecture says you will always reach 1, whatever number you start with. No one has yet proved it.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Steps to reach 1, starting from 1 to 12 (our program, matching OEIS A006577)</caption><thead><tr><th scope="col">Start</th><th scope="col">1</th><th scope="col">2</th><th scope="col">3</th><th scope="col">4</th><th scope="col">5</th><th scope="col">6</th><th scope="col">7</th><th scope="col">8</th><th scope="col">9</th><th scope="col">10</th><th scope="col">11</th><th scope="col">12</th></tr></thead><tbody><tr><td>Steps</td><td>0</td><td>1</td><td>7</td><td>2</td><td>5</td><td>8</td><td>16</td><td>3</td><td>19</td><td>6</td><td>14</td><td>9</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The surprise at 27</h3><p>Small numbers settle quickly. Then a child tries 27 and the sequence wanders for a long time, climbing as high as 9,232 before finally dropping to 1 after 111 steps.</p>
+<p>Nothing about 27 looks special. That unpredictability is what makes the puzzle such a good problem-solving exercise: there is no shortcut, only exploration.</p></div><div><h3>Where the puzzle is recorded</h3><p>The On-Line Encyclopedia of Integer Sequences lists the step counts as sequence A006577, which our program matches.</p>
+<p>The mathematician Jeffrey Lagarias surveyed the problem in a 1985 article, "The 3x + 1 Problem and Its Generalizations", in The American Mathematical Monthly, and it remains open.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://oeis.org/A006577" rel="noopener" target="_blank">OEIS A006577</a>, read 7 October 2026; Lagarias, J. C. (1985), The American Mathematical Monthly 92(1), <a class="ag-inline-link" href="https://doi.org/10.2307/2322189" rel="noopener" target="_blank">doi.org/10.2307/2322189</a> (details confirmed via Crossref).</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="explore">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Exploring in code</p><h2>From one number to ten thousand</h2><p class="ag-lede">Following the rule by hand for 27 takes a patient afternoon. A program does it instantly, which lets a student ask bigger questions, and that is where problem solving really begins.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What our program found for starting numbers from 1 to 10,000 (Python)</caption><thead><tr><th scope="col">Question</th><th scope="col">Answer</th></tr></thead><tbody><tr><td>How many steps does 27 take?</td><td>111 steps, with a highest value of 9,232</td></tr><tr><td>Which start takes the most steps?</td><td>6171, with 261 steps</td></tr><tr><td>Which start climbs highest?</td><td>9663, which reaches 27,114,424 before falling to 1</td></tr><tr><td>Did every start reach 1?</td><td>Yes, every one from 1 to 10,000</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Decompose</h3><p>Split the job: one function applies the rule once, another counts steps, a third tracks the highest value, a loop tries every start.</p></div><div><h3>Test each part</h3><p>Check the step counter against the known values for 1 to 12 before trusting it on ten thousand numbers.</p></div><div><h3>Ask a new question</h3><p>Which starting numbers take exactly 100 steps? Do even starts finish faster? Each answer suggests the next question.</p></div></div>
+    <p class="ag-mt-40">Younger children do the same exploration in Scratch with a counter variable and a <em>repeat until</em> block, testing small numbers. Older students write it in Python, then chart the results, and some go on to time their program and make it faster by remembering answers they have already worked out.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="proof">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Evidence and proof</p><h2>What a program can show, and what it cannot</h2><p class="ag-lede">The most important problem-solving lesson in this puzzle is about the limits of checking.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Ten thousand is not all</h3><p>Our program checked every start from 1 to 10,000, and every one reached 1. That is strong evidence. It is not a proof, because there are infinitely many whole numbers, and one counterexample anywhere would break the conjecture.</p>
+<p>Students who understand this difference think more clearly about every claim, including claims made by computers.</p></div><div><h3>An honest note on transfer</h3><p>Coding builds problem solving most reliably for problems like the ones practised: defining, breaking down, testing and explaining. We do not claim it automatically makes children better at everything.</p>
+<p>What it does give is repeated practice at a process, with instant feedback, which is a sound way to learn any skill.</p></div></div>
+    <div class="ag-capsule"><p class="ag-capsule-q">A good question to ask any program</p><p>What did it actually check, and what is it only suggesting? A student who asks that habitually has learned something more valuable than any single algorithm.</p></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Make a prediction</h3><p>Before running the program on 1 to 10,000, students guess which start will take longest. Almost nobody guesses a number in the six thousands, which makes the answer memorable.</p></div><div><h3>Look for patterns</h3><p>Students chart steps against starting number and notice that the chart is jagged, with no smooth trend. Describing what they see, in words, is part of the exercise.</p></div><div><h3>State the limits</h3><p>Every write-up ends with a sentence on what was not checked. It is the habit that separates a careful investigator from someone who simply ran some code.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="process">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The process</p><h2>Four steps we use on every problem</h2><p class="ag-lede">Whatever the age or the language, our lessons follow the same problem-solving loop.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our problem-solving loop</caption><thead><tr><th scope="col">Step</th><th scope="col">The question the student answers</th></tr></thead><tbody><tr><td>1. Define</td><td>What exactly is being asked, and what would a correct answer look like?</td></tr><tr><td>2. Decompose</td><td>What smaller problems is this made of, and in what order?</td></tr><tr><td>3. Test</td><td>How will I know each part works, before I combine them?</td></tr><tr><td>4. Explain</td><td>Can I describe my solution, and its limits, to someone else?</td></tr></tbody></table></div>
+    <p class="ag-mt-40">The same loop powers projects in our <a class="ag-inline-link" href="/game-development-for-kids-australia">game development path for kids</a> and the senior work on our <a class="ag-inline-link" href="/hsc-software-engineering-help">HSC Software Engineering page</a>. For checking answers from AI tools with the same care, see <a class="ag-inline-link" href="/learn-to-think-not-just-use-ai-tools-australia">learning to think, not just use AI tools</a>.</p>
+    <p class="ag-mt-40">Parents sometimes ask how to tell whether the loop is working. Listen to how your child talks about a problem. Early on, they describe what they typed. Later, they describe what the problem needed, which parts they built first, how they knew each part worked, and what they would try next. That shift, from narrating keystrokes to explaining decisions, is the clearest sign that problem solving is growing, and our teachers often hear it after a term or so of regular lessons.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Stages</p>
+      <h2>How problem solving grows with age</h2>
+      <p class="ag-lede">The same skills at four levels of independence.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Four stages of problem solving through coding</caption><thead><tr><th scope="col">Stage</th><th scope="col">What the student does</th></tr></thead><tbody><tr><td>1. Follow</td><td class="ag-num">Follows a sequence with decisions and repeats, and predicts what it will do</td></tr><tr><td>2. Fix</td><td class="ag-num">Finds and fixes the mistake in a short program that almost works</td></tr><tr><td>3. Design</td><td class="ag-num">Breaks a new problem into parts and builds each one</td></tr><tr><td>4. Investigate</td><td class="ag-num">Explores an open question, gathers evidence and explains its limits</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Primary years</h3><p>Stages one and two, mostly in Scratch, with puzzles that have satisfying answers.</p>
+<p>Children learn that mistakes are information, not failure.</p></div><div><h3>Secondary years and adults</h3><p>Stages three and four, in Python and beyond, including open questions like the Collatz puzzle.</p>
+<p>Students learn to say not just what they found, but how sure they are.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses built on real problems</h2>
+      <p class="ag-lede">Grouped by age. The free first lesson places each learner.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Primary</h3>
+        <span class="ag-band-sub">Ages 7 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PSAU / PRI / 01</p>
+          <h4>Logic puzzles in code</h4>
+          <p>Sequences, decisions and repeats.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PSAU / PRI / 02</p>
+          <h4>Scratch problem projects</h4>
+          <p>Games that need planning.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PSAU / PRI / 03</p>
+          <h4>Number sense</h4>
+          <p>The maths behind good guesses.</p>
+          <a class="ag-course-link" href="/courses/mental-maths-mastery-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Secondary</h3>
+        <span class="ag-band-sub">Ages 10 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PSAU / SEC / 01</p>
+          <h4>Maths experiments in Python</h4>
+          <p>Conjectures tested with code.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PSAU / SEC / 02</p>
+          <h4>Structures and algorithms</h4>
+          <p>Decomposition for harder problems.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PSAU / SEC / 03</p>
+          <h4>Competitive programming</h4>
+          <p>Timed problems, careful solutions.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Adults and keen students</h3>
+        <span class="ag-band-sub">15 and over</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PSAU / ADV / 01</p>
+          <h4>Algorithms in depth</h4>
+          <p>For university and interviews.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PSAU / ADV / 02</p>
+          <h4>Competition mathematics</h4>
+          <p>Problem solving without a calculator.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PSAU / ADV / 03</p>
+          <h4>Python for problem solvers</h4>
+          <p>For adults learning to code.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Lessons that start with a question, not a recipe</h2>
+      <p class="ag-lede">Teachers bring a problem; students do the thinking. The teacher's job is to ask the next good question.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">Weekday afternoons in your state.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evenings</p><p class="ag-slot-l">For teens and adults.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Saturday and Sunday options.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Define first</h3><p>Students restate the problem before writing any code.</p></div>
+      <div><h3>Small parts</h3><p>Every solution is built and tested in pieces.</p></div>
+      <div><h3>Mistakes welcome</h3><p>A wrong guess is the start of the next idea.</p></div>
+      <div><h3>Explain it</h3><p>Students describe their solution and its limits.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten learners, or one to one.</p></div>
+      <div><h3>Same teacher</h3><p>One teacher who knows how each student thinks.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Problems our students have solved</h2>
+      <p class="ag-lede">Projects where the path was not given in advance. There are more on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Outside India the fee is monthly, in US dollars, and the same wherever you live. There is no enrolment charge and no requirement to stay for a term, so you can end after any month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A first lesson that is free</li><li>An honest view of where to begin</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten learners</li><li>A consistent teacher</li><li>Similar age and level</li><li>Monthly, cancel any time</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>One teacher, one learner</li><li>A time that suits you</li><li>Pace set by the learner</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews written by our families, reproduced exactly.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from parents</p>
+      <h2>Common questions about problem solving through coding</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Does coding really teach problem solving?</h3>
+        <p>It does when children work on real problems, ones they must define, break down, test and explain, rather than following step-by-step instructions. We do not claim it automatically improves every other subject.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the Collatz conjecture?</h3>
+        <p>The Collatz conjecture says that if you take any whole number, halve it when it is even and multiply by three and add one when it is odd, and repeat, you will always eventually reach 1. It has never been proved.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is problem decomposition?</h3>
+        <p>Problem decomposition is breaking a large problem into smaller parts that can each be solved and tested on their own, then combining them. The Australian Curriculum names it for Years 7 and 8.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why use an unsolved maths problem with children?</h3>
+        <p>Because it is easy to understand, impossible to shortcut and rewards exploration. It also teaches the difference between evidence from a program and a proof.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a computer prove the Collatz conjecture by checking numbers?</h3>
+        <p>No. Checking any finite set of numbers, however large, gives evidence but not proof, because the conjecture is about every whole number.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age is this suitable for?</h3>
+        <p>Children from about 8 can follow the rule and explore small numbers in Scratch. Writing the full exploration in Python suits students from about 10.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child need to be good at maths?</h3>
+        <p>No. Halving, tripling and counting are enough to start. Problem solving through coding often builds maths confidence rather than requiring it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does this follow the Australian Curriculum?</h3>
+        <p>It reinforces the computational thinking described in the Digital Technologies curriculum, from sequences and decisions in the early years to decomposition in Years 7 and 8.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are lessons live?</h3>
+        <p>Yes. Every lesson is live online with a teacher, in small groups of five to ten or one to one, at times set for your state.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much does it cost?</h3>
+        <p>The first lesson is free. After that, fees are monthly with no joining fee and no term lock-in; see the fees section on this page.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More on thinking skills, maths and coding for Australian students.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>Our main page for Australian families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/understand-the-code-dont-copy-paste-australia">Understand the code</a></h3><p>Contracts, tests and honest work.</p></div>
+      <div><h3><a class="ag-inline-link" href="/learn-to-think-not-just-use-ai-tools-australia">Learn to think, not just use AI</a></h3><p>Checking AI answers.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-maths-tutoring-australia">Online maths tutoring in Australia</a></h3><p>Maths taught with the same depth.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></h3><p>Coding and maths competitions by month.</p></div>
+      <div><h3><a class="ag-inline-link" href="/game-development-for-kids-australia">Game development for kids</a></h3><p>Problem solving through games.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us a number and a convenient time. The student tackles a small open problem with a teacher, and you watch how they think.</p>
+        <p class="ag-mt-40">If you prefer to look around first, read <a class="ag-inline-link" href="/how-we-teach">how a lesson runs</a> or browse <a class="ag-inline-link" href="/courses">the courses</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20my%20child%20to%20build%20problem-solving%20skills%20through%20coding.%20Could%20we%20book%20a%20free%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'psau',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">For a quick reply from Australia, use WhatsApp. We are based in India and answer from a +91 number, with no Australian office.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_psau(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free first lesson, no card, no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Thinking skills</h4><ul><li><a href="/understand-the-code-dont-copy-paste-australia">Understand the code</a></li><li><a href="/learn-to-think-not-just-use-ai-tools-australia">Think, not just use AI</a></li><li><a href="/learn-to-train-ai-not-just-prompt-it-australia">Train AI</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/online-maths-tutoring-australia">Maths tutoring</a></li><li><a href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li><li><a href="/naplan-numeracy-practice-online">NAPLAN numeracy</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Evidence from a program, proof from an argument</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_psau = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'problem-solving-through-coding-australia-inline', meta: { name: name, age: age, page: 'problem-solving-through-coding-australia' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
