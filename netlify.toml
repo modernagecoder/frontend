@@ -19306,6 +19306,18 @@
   to = "/src/pages/ai-courses-for-kids-australia.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-tutor-australia"
+  to = "/src/pages/online-coding-tutor-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-tutor-australia.md"
+  to = "/src/pages/online-coding-tutor-australia.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

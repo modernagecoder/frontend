@@ -309,6 +309,7 @@ const SLUGS = [
   'python-ai-course-for-kids-australia',
   'problem-solving-through-coding-australia',
   'ai-courses-for-kids-australia',
+  'online-coding-tutor-australia',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -697,6 +698,7 @@ const LLMS_LABELS = {
   'python-ai-course-for-kids-australia': 'Python AI course for kids, Australia',
   'problem-solving-through-coding-australia': 'Problem solving through coding, Australia',
   'ai-courses-for-kids-australia': 'AI courses for kids, Australia',
+  'online-coding-tutor-australia': 'Online coding tutor, Australia',
 };
 
 function wireLlms(slugs) {

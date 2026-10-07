@@ -5648,4 +5648,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ai-courses-for-kids-australia /src/pages/ai-courses-for-kids-australia.html 200
 /ai-courses-for-kids-australia.md /src/pages/ai-courses-for-kids-australia.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/online-coding-tutor-australia /src/pages/online-coding-tutor-australia.html 200
+/online-coding-tutor-australia.md /src/pages/online-coding-tutor-australia.md 200
 /* /src/pages/404.html 404
