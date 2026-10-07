@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>TASC Computer Science Help | ITC315118 Java Online</title>
+  <meta name="description" content="TASC Computer Science (ITC315118) help for Tasmanian students: Java programming, computer fundamentals, the TOY machine and the five-section external exam.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/tasc-computer-science-help">
+  <link rel="alternate" type="text/markdown" href="/src/pages/tasc-computer-science-help.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#34582C">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/tasc-computer-science-help">
+  <meta property="og:title" content="TASC Computer Science Help | ITC315118 Java Online">
+  <meta property="og:description" content="TASC Computer Science Level 3 explained from the course document: four content areas and their hours, the work requirements, how the award is calculated, the three-hour exam, and a worked TOY machine trace.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TASC Computer Science Help">
+  <meta name="twitter:description" content="TASC Computer Science from the course document: Java, binary, logic, the TOY machine and a five-section exam.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-tacs .ag-hero-grid { gap: clamp(1rem, 2.6vw, 2.3rem); }
+.ag-root.ag-tacs .ag-hero h1 { letter-spacing: -0.012em; }
+.ag-root.ag-tacs .ag-capsule { border-left-width: 5px; }
+.ag-root.ag-tacs .ag-section-head h2 { max-width: 27ch; }
+.ag-root.ag-tacs .ag-table td:nth-child(2) { font-family: 'JetBrains Mono', monospace; }
+.ag-root.ag-tacs .ag-table caption { text-align: left; }
+.ag-root.ag-tacs .ag-spec dt { letter-spacing: 0.12em; }
+.ag-root.ag-tacs .ag-slots { gap: 1.05rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/tasc-computer-science-help#page","url":"https://learn.modernagecoders.com/tasc-computer-science-help","name":"TASC Computer Science Help","description":"Support for Tasmanian students taking TASC Computer Science (ITC315118): the four content areas and hours, Java requirements, work requirements, the criteria and award rules, the external exam structure and 2026 date, and a worked lesson tracing a TOY machine program.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":3,"name":"TASC Computer Science","item":"https://learn.modernagecoders.com/tasc-computer-science-help"}]},{"@type":"Course","name":"TASC Computer Science Help","description":"Live online computer science lessons in Java programming, algorithms, binary and two's complement, logic and machine code for Tasmanian students taking TASC Computer Science, without completing any assessed work.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/tasc-computer-science-help"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/tasc-computer-science-help"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/tasc-computer-science-help"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is TASC Computer Science?","acceptedAnswer":{"@type":"Answer","text":"It is a Level 3 Tasmanian senior secondary course, code ITC315118, with a size value of 15. It covers problem solving and programming in Java, computer fundamentals and limitations, social and ethical issues, and a computing option."}},{"@type":"Question","name":"Which programming language does the course use?","acceptedAnswer":{"@type":"Answer","text":"Java. Since the 2022 version of the course document, Java applications are compulsory, and the document lists the Java features students should use."}},{"@type":"Question","name":"How is the final award worked out?","acceptedAnswer":{"@type":"Answer","text":"TASC determines it from 14 ratings: nine from internal assessment by the school and five from the external exam. Each rating is A, B or C, with t and z notations below C."}},{"@type":"Question","name":"How long is the exam?","acceptedAnswer":{"@type":"Answer","text":"Three hours, plus 15 minutes of preparation time. It has five sections of about 36 minutes and 36 marks each, one for each externally assessed criterion."}},{"@type":"Question","name":"When is the 2026 exam?","acceptedAnswer":{"@type":"Answer","text":"The 2026 TASC Written Exam Timetable lists Computer Science (ITC315118) on Thursday 19 November."}},{"@type":"Question","name":"What is the TOY machine?","acceptedAnswer":{"@type":"Answer","text":"An imaginary computer created at Princeton for teaching, with 256 words of memory, 16 registers and 16 instruction types. TASC Computer Science includes a TOY machine assessment task, and students learn to trace and write simple TOY programs."}},{"@type":"Question","name":"What is two's complement?","acceptedAnswer":{"@type":"Answer","text":"The usual way computers store negative whole numbers. In 16 bits, minus three is FFFD: invert every bit of the pattern and add one to get back to 3."}},{"@type":"Question","name":"Will you help with my computing option?","acceptedAnswer":{"@type":"Answer","text":"We teach the skills with projects we invent. We never write, debug or review an assessed program, report or option product."}},{"@type":"Question","name":"Is the course good preparation for university computing?","acceptedAnswer":{"@type":"Answer","text":"The course document describes it as a starting point for further education in ICT or engineering, and the content overlaps with a first-year programming and computer systems course."}},{"@type":"Question","name":"What time are lessons for Tasmanian students?","acceptedAnswer":{"@type":"Answer","text":"Late afternoon in Hobart falls in our tutors' working day. The weekly time is agreed after the free lesson."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/tasc-computer-science-help","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-tacs">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#areas">Four areas</a></li>
+      <li><a href="#award">Award and exam</a></li>
+      <li><a href="#toy">TOY trace</a></li>
+      <li><a href="#java">Java</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / TASC Computer Science
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Tasmania &middot; TASC Level 3 &middot; Live online</p>
+        <h1>TASC Computer Science help</h1>
+        <p class="ag-lede">Computer Science in Tasmania is a genuine first course in the discipline: Java applications on one side, binary, logic gates and machine code on the other. Students who love programming are sometimes caught out by the second half, because the exam gives equal time to how a computer stores and moves data.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#toy" class="ag-btn ag-btn--ghost">See the TOY machine lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20about%20TASC%20Computer%20Science%20(ITC315118)." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'tacs'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Course document read at source &middot; Java and machine code both taught &middot; Lessons on Hobart time</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Course</dt><dd>Computer Science</dd>
+          <dt>Code</dt><dd>ITC315118</dd>
+          <dt>Level</dt><dd>3, size value 15</dd>
+          <dt>Language</dt><dd>Java applications</dd>
+          <dt>Content hours</dt><dd>70, 40, 10 and 30</dd>
+          <dt>Exam</dt><dd>Three hours, five sections</dd>
+          <dt>2026 exam</dt><dd>Thursday 19 November</dd>
+          <dt>We never</dt><dd>Write assessed work</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>TASC Computer Science (ITC315118) is a Level 3 Tasmanian course with four compulsory content areas: problem solving and programming in Java (70 hours), computer fundamentals and limitations (40 hours), social and ethical issues (10 hours) and a computing option (30 hours). The final award combines nine internal ratings with five from a three-hour external exam.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to begin</p>
+      <h2>Three courses behind ITC315118</h2>
+      <p class="ag-lede">Java first, then the fundamentals the exam weighs equally, then algorithm practice.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/java-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/java-teens.webp" alt="Java for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">TACS / 01</p>
+          <h3>Java for teens</h3>
+          <p>Classes, arrays, strings, methods and event-driven GUIs, the Java features the course document lists.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ap-computer-science-a-java-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-computer-science-a.webp" alt="AP Computer Science A course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">TACS / 02</p>
+          <h3>AP Computer Science A</h3>
+          <p>A Java exam course that drills tracing and writing code by hand, the skill the written exam rewards.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/competitive-programming-for-teens-course">
+        <div class="ag-pick-shot"><img src="/images/competitive-programming-teens.webp" alt="Competitive Programming for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">TACS / 03</p>
+          <h3>Competitive programming</h3>
+          <p>Designing and improving algorithms under time pressure, Criterion 1 in practice.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="areas">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Inside the course document</p><h2>Four areas, 150 hours of content</h2><p class="ag-lede">From the TASC Computer Science (ITC315118) course page, read on 7 October 2026. The course is current for 2026, with accreditation renewed from 1 January 2026. All content areas are compulsory.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>ITC315118 content areas, hours and work requirements</caption><thead><tr><th scope="col">Area</th><th scope="col">Hours</th><th scope="col">What it covers</th><th scope="col">Work requirements</th></tr></thead><tbody><tr><td>1. Problem solving and programming</td><td>70</td><td>Algorithm design, the software development life cycle, Java applications with objects, events and GUIs, testing and documentation</td><td>Ten programming tasks, an algorithms task and an SDLC task of about 2 hours each, two fully documented programs</td></tr><tr><td>2. Computer fundamentals and limitations</td><td>40</td><td>Binary and hexadecimal, two's complement, data types, logic gates and Karnaugh maps, the von Neumann architecture, machine code and the JVM</td><td>Four tasks of about 2 hours: logic, number representation, data representation and the TOY machine</td></tr><tr><td>3. Social and ethical issues</td><td>10</td><td>Careers, professional codes of ethics, responsibilities and the consequences of technological errors</td><td>One task of about 1000 words</td></tr><tr><td>4. Computing option</td><td>30</td><td>An area of interest in depth, from a Java application for a client to AI, games or microcontrollers</td><td>A documented program or investigation report, about 4000 words or equivalent</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The course document is unusually specific about Java. It lists primitive types with promotion and casting, arithmetic and logic operators including the modulus, classes and information hiding, arrays and strings, control flow, methods and scope, GUI widgets, and events and listeners using the AWT library. Since the 2022 version, Java applications are compulsory.</p>
+<p>It also asks for programming style. Programs should follow a defined set of standards for names, comments and indenting, with style guides such as the Oracle Java Code Conventions and the Google Java Style Guide given as examples, and Javadoc documentation comments recommended.</p></div><div><p>Area 2 is where many students need the most help. It runs from binary fractions and two's complement arithmetic, through Boolean operators, logic gates and the flip-flop, to the fetch, decode and execute cycle and the role of the Java Virtual Machine.</p>
+<p>The computing option leaves room for personal interest. Suggested topics include game development, mobile programming, cryptography, artificial intelligence and machine learning, network programming and programming LEGO robots with LeJOS.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://www.tasc.tas.gov.au/students/courses/technologies/itc315118-8/" rel="noopener" target="_blank">TASC, Computer Science (ITC315118) course page</a>, including content, work requirements and accreditation history, read on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="award">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Ratings, award and exam</p><h2>Nine internal ratings, five from a three-hour exam</h2><p class="ag-lede">TASC courses are assessed against criteria, each rated A, B or C, with t and z notations below C. The rules below come from the course document, the External Assessment Specifications (Version 5, February 2026) and the 2026 written exam timetable.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>How ITC315118 is assessed</caption><thead><tr><th scope="col">Piece</th><th scope="col">Detail from TASC</th></tr></thead><tbody><tr><td>Criteria</td><td>Nine criteria; criteria 1 to 5 are assessed both internally and externally</td></tr><tr><td>Final award</td><td>Determined by TASC from 14 ratings: 9 internal and 5 external</td></tr><tr><td>Exceptional Achievement</td><td>At least 12 A and 2 B ratings, including 4 A and 1 B from external assessment</td></tr><tr><td>Exam length</td><td>Three hours, plus 15 minutes of preparation time for notes and highlighting</td></tr><tr><td>Exam sections</td><td>Five sections, A to E, each about 36 minutes and 36 marks, three compulsory questions of 12 marks each</td></tr><tr><td>Materials</td><td>The TASC Computer Science Information Sheet is provided</td></tr><tr><td>2026 date</td><td>Thursday 19 November, on the TASC written exam timetable</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>Each section maps to one externally assessed criterion. Section A is algorithm design, B is writing programs in a high-level language, C is using objects in program design, D is computer architecture and E is data representation and storage. The specifications say the algorithm for the final rating takes account of each section carrying equal time weight.</p>
+<p>That equal weighting is the strategic fact. A student who writes excellent Java but cannot add in two's complement or trace a machine-code program leaves two fifths of the paper exposed.</p></div><div><p>The specifications also explain mark allocation: a 10 mark question is designed for roughly 10 minutes of reading, thinking and answering. Practising at a mark a minute teaches a student when to move on.</p>
+<p>Past exam papers and exemplar questions are linked from the course page. We use them to show the style of question, and we write our own practice in the same style rather than reproducing them.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: ITC315118 course page (criteria and award); <a class="ag-inline-link" href="https://assets.tasc.tas.gov.au/uploads/2026/06/ITC315118-Computer-Science-External-Assessment-Specifications.pdf" rel="noopener" target="_blank">External Assessment Specifications</a>; <a class="ag-inline-link" href="https://assets.tasc.tas.gov.au/uploads/2026/08/2026-TASC-Written-Exam-Timetable.pdf" rel="noopener" target="_blank">2026 TASC Written Exam Timetable</a>. Read on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="toy">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked lesson</p><h2>Tracing a TOY machine program by hand</h2><p class="ag-lede">Area 2 includes a TOY machine assessment task, and the course standards ask students to trace simple TOY programs, complete them, and relate TOY operations to Java. TOY is an imaginary computer created at Princeton for teaching. The program below is ours; the machine facts are Princeton's.</p></div>
+    <div class="ag-grid-3"><div><h3>The machine</h3><p>TOY has 256 words of main memory, 16 registers and 16-bit instructions. There are 16 instruction types, opcodes 0 to F, and register 0 always holds 0.</p></div><div><h3>Two formats</h3><p>In Format 1 the last two hex digits name source registers, so 1462 adds registers 6 and 2 into register 4. In Format 2 they are a memory address, so 9462 stores register 4 at address 62.</p></div><div><h3>The task</h3><p>Load 5 and 8 from memory, store their sum and their difference, and halt. Predict every register before running anything.</p></div></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our TOY program starting at address 10, with memory 20 = 0005 and 21 = 0008</caption><thead><tr><th scope="col">Address</th><th scope="col">Instruction</th><th scope="col">Meaning</th><th scope="col">After it runs</th></tr></thead><tbody><tr><td>10</td><td>8A20</td><td>Load register A from memory 20</td><td>R[A] = 0005</td></tr><tr><td>11</td><td>8B21</td><td>Load register B from memory 21</td><td>R[B] = 0008</td></tr><tr><td>12</td><td>1CAB</td><td>R[C] = R[A] + R[B]</td><td>R[C] = 000D (13)</td></tr><tr><td>13</td><td>2DAB</td><td>R[D] = R[A] minus R[B]</td><td>R[D] = FFFD</td></tr><tr><td>14</td><td>9C22</td><td>Store R[C] in memory 22</td><td>mem[22] = 000D</td></tr><tr><td>15</td><td>9D23</td><td>Store R[D] in memory 23</td><td>mem[23] = FFFD</td></tr><tr><td>16</td><td>0000</td><td>Halt</td><td>Seven instructions executed</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The interesting line is address 13. Five minus eight is minus three, and in a 16-bit word that appears as FFFD. Written in binary it is 1111 1111 1111 1101. Inverting every bit gives 0000 0000 0000 0010, and adding one gives 3, so FFFD is the two's complement representation of minus three. That is the "addition and subtraction only" two's complement arithmetic the course lists, met inside a real program.</p>
+<p>Students who trace this table by hand, one row at a time, rarely confuse a register with a memory address again. That confusion, mixing up Format 1 and Format 2, is the most common error we see.</p></div><div><p>Relating TOY to Java, the top standard in this criterion, is easier than it sounds. Java's short type is also a 16-bit two's complement integer, so short a = 5, b = 8 followed by short d = (short) (a minus b) leaves minus three in d, with the same bit pattern as R[D]. The addition line corresponds to an assignment, the loads and stores to reading and writing variables.</p>
+<p>We checked this program in a short simulator we wrote, which steps through each instruction and prints the registers. Writing such a simulator in Java is itself an excellent revision exercise for both halves of the course.</p></div></div>
+    <p class="ag-source-note ag-mt-40">TOY machine description: <a class="ag-inline-link" href="https://introcs.cs.princeton.edu/java/62toy/" rel="noopener" target="_blank">Princeton, Introduction to Programming in Java, section 6.2 TOY Machine</a>. TOY standards: ITC315118 course page. The program, trace and simulator are our own, checked on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="java">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The programming half</p><h2>Java the way the course document describes it</h2><p class="ag-lede">Area 1 is the largest block of hours. These are the habits we build, mapped to the course document, using small applications we invent.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What we practise for Area 1, mapped to the course document</caption><thead><tr><th scope="col">Course document</th><th scope="col">What we practise</th></tr></thead><tbody><tr><td>Algorithm design and problem solving</td><td>Decomposing a problem and expressing the solution before coding</td></tr><tr><td>Primitive types, promotion and casting</td><td>Predicting results of mixed int and double arithmetic, then checking</td></tr><tr><td>Classes and information hiding</td><td>Private fields with methods that protect them</td></tr><tr><td>GUIs, events and listeners using AWT</td><td>Small event-driven programs with buttons, text fields and labels</td></tr><tr><td>Testing and evaluation</td><td>Writing a test plan from a specification before the program exists</td></tr><tr><td>Documentation</td><td>Javadoc comments and a short user guide for every significant program</td></tr></tbody></table></div>
+    <p>All practice uses programs we design. We do not write, debug or review any assessed task, documented program or computing option product, because TASC requires assessed work to be the student's own and providers report each rating to TASC.</p>
+    <p class="ag-source-note ag-mt-40">Source: ITC315118 course page, Area 1 content and work requirements, read on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Getting ready for Level 3</p>
+      <h2>Rungs from first Java to exam-ready Computer Science</h2>
+      <p class="ag-lede">Most students arrive with some coding. The rungs that matter most are the ones about the machine.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From Year 10 coding to the ITC315118 exam</caption><thead><tr><th scope="col">When</th><th scope="col">Rung</th><th scope="col">The sign it is secure</th></tr></thead><tbody><tr><td>Year 10</td><td class="ag-num">1. Java basics</td><td class="ag-num">Writes classes with methods and arrays without copying an example</td></tr><tr><td>Early Level 3</td><td class="ag-num">2. Number systems</td><td class="ag-num">Converts between binary, decimal and hexadecimal in both directions</td></tr><tr><td>Mid Level 3</td><td class="ag-num">3. Logic</td><td class="ag-num">Simplifies a Boolean expression with a Karnaugh map and draws the circuit</td></tr><tr><td>Late Level 3</td><td class="ag-num">4. The machine</td><td class="ag-num">Traces a machine-code program and explains it in Java terms</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If programming is strong but theory is weak</h3><p>Spend a third of every week on Area 2. Number systems and logic are skills, so short daily practice works far better than cramming.</p>
+<p>Tracing by hand, on paper, is what the written exam needs. Do it before reaching for the computer.</p></div><div><h3>Comparing courses</h3><p>Students elsewhere can compare with <a class="ag-inline-link" href="/hsc-software-engineering-help">HSC Software Engineering</a> or <a class="ag-inline-link" href="/vce-algorithmics-hess-help">VCE Algorithmics</a>.</p>
+<p>For the maths that pairs well with computing, see <a class="ag-inline-link" href="/tasc-mathematics-methods-tutoring">TASC Mathematics Methods</a>.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for ITC315118 students</h2>
+      <p class="ag-lede">Grouped by area of the course. Every card opens a full syllabus.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Java and algorithms</h3>
+        <span class="ag-band-sub">Area 1</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">TACS / JA / 01</p>
+          <h4>Java for teens</h4>
+          <p>Objects, events and GUIs in Java.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TACS / JA / 02</p>
+          <h4>AP Computer Science A</h4>
+          <p>Java tracing and writing by hand.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TACS / JA / 03</p>
+          <h4>Java masterclass</h4>
+          <p>Deeper Java for students racing ahead.</p>
+          <a class="ag-course-link" href="/courses/complete-java-programming-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Fundamentals</h3>
+        <span class="ag-band-sub">Area 2</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">TACS / FU / 01</p>
+          <h4>AS and A Level Computer Science</h4>
+          <p>Binary, logic and architecture at senior depth.</p>
+          <a class="ag-course-link" href="/courses/cambridge-a-level-computer-science-9618-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TACS / FU / 02</p>
+          <h4>IGCSE Computer Science</h4>
+          <p>Number systems and logic gates from the start.</p>
+          <a class="ag-course-link" href="/courses/igcse-computer-science-0478-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TACS / FU / 03</p>
+          <h4>Data structures and algorithms</h4>
+          <p>Arrays and memory, the step after Area 2.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Options</h3>
+        <span class="ag-band-sub">Area 4 interests</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">TACS / OP / 01</p>
+          <h4>Game development</h4>
+          <p>A suggested option topic in its own right.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TACS / OP / 02</p>
+          <h4>AI and machine learning</h4>
+          <p>Another suggested option topic.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TACS / OP / 03</p>
+          <h4>Cybersecurity</h4>
+          <p>Cryptography and security, also on the list.</p>
+          <a class="ag-course-link" href="/courses/cybersecurity-course-for-teens-ethical-defensive">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Computer Science lessons on Hobart time</h2>
+      <p class="ag-lede">Lessons are live with our tutors in India. Hobart is four and a half hours ahead of India time in winter and five and a half hours ahead in daylight saving, which runs from 4 October 2026 to 4 April 2027 on the IANA time zone database. A 5 pm Hobart lesson in summer is 11.30 am India time.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday after school</p><p class="ag-slot-l">Java and fundamentals, alternating weeks.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend morning</p><p class="ag-slot-l">Timed exam-style sections.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">School holidays</p><p class="ag-slot-l">Area 2 catch-up blocks.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Trace by hand</h3><p>Every program traced on paper before it runs.</p></div>
+      <div><h3>Both halves</h3><p>Java and machine theory taught in the same course.</p></div>
+      <div><h3>Mark a minute</h3><p>Practice timed the way the exam is designed.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten students at one level, comparing traces.</p></div>
+      <div><h3>One-to-one sessions</h3><p>For one area, often logic or two's complement.</p></div>
+      <div><h3>No predictions</h3><p>We never forecast a TASC award; the work belongs to the student.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students made for themselves</h2>
+      <p class="ag-lede">Built outside school and never assessed. The full set is in our <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Lessons are billed monthly in US dollars at a single rate for families outside India. There is no joining fee and no commitment beyond the month in progress.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A full computer science lesson with a tutor</li><li>A clear plan for the weakest area</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students at one level</li><li>One tutor all term</li><li>Traces and code reviewed in class</li><li>A certificate at the end</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A tutor for one student</li><li>Built around one area of the course</li><li>Useful in the weeks before November</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews, quoted exactly as families and students wrote them.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about ITC315118</p>
+      <h2>TASC Computer Science questions we hear</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is TASC Computer Science?</h3>
+        <p>It is a Level 3 Tasmanian senior secondary course, code ITC315118, with a size value of 15. It covers problem solving and programming in Java, computer fundamentals and limitations, social and ethical issues, and a computing option.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which programming language does the course use?</h3>
+        <p>Java. Since the 2022 version of the course document, Java applications are compulsory, and the document lists the Java features students should use.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is the final award worked out?</h3>
+        <p>TASC determines it from 14 ratings: nine from internal assessment by the school and five from the external exam. Each rating is A, B or C, with t and z notations below C.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long is the exam?</h3>
+        <p>Three hours, plus 15 minutes of preparation time. It has five sections of about 36 minutes and 36 marks each, one for each externally assessed criterion.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the 2026 exam?</h3>
+        <p>The 2026 TASC Written Exam Timetable lists Computer Science (ITC315118) on Thursday 19 November.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the TOY machine?</h3>
+        <p>An imaginary computer created at Princeton for teaching, with 256 words of memory, 16 registers and 16 instruction types. TASC Computer Science includes a TOY machine assessment task, and students learn to trace and write simple TOY programs.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is two's complement?</h3>
+        <p>The usual way computers store negative whole numbers. In 16 bits, minus three is FFFD: invert every bit of the pattern and add one to get back to 3.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you help with my computing option?</h3>
+        <p>We teach the skills with projects we invent. We never write, debug or review an assessed program, report or option product.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the course good preparation for university computing?</h3>
+        <p>The course document describes it as a starting point for further education in ICT or engineering, and the content overlaps with a first-year programming and computer systems course.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What time are lessons for Tasmanian students?</h3>
+        <p>Late afternoon in Hobart falls in our tutors' working day. The weekly time is agreed after the free lesson.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>More for Tasmanian students</h2>
+      <p class="ag-lede">Maths that pairs with computing, and computing courses in other states.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/tasc-mathematics-methods-tutoring">TASC Mathematics Methods tutoring</a></h3><p>Level 4 calculus and statistics in Tasmania.</p></div>
+      <div><h3><a class="ag-inline-link" href="/hsc-software-engineering-help">HSC Software Engineering help</a></h3><p>The New South Wales course for comparison.</p></div>
+      <div><h3><a class="ag-inline-link" href="/vce-algorithmics-hess-help">VCE Algorithmics help</a></h3><p>Victoria's algorithms study.</p></div>
+      <div><h3><a class="ag-inline-link" href="/choosing-year-11-computing-subjects-australia">Choosing Year 11 computing subjects</a></h3><p>How senior computing differs between states.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Australian competitions calendar</a></h3><p>Coding competitions through the year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>The full list of our Australian pages.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Start with a free Computer Science lesson</h2>
+        <p class="ag-lede">Tell us whether Java or the theory side is harder, and how far through the year you are. The free lesson works on that area with problems we write.</p>
+        <p class="ag-mt-40">Before booking, look through syllabuses in the <a class="ag-inline-link" href="/course-atlas">course atlas</a>, read <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, or see the <a class="ag-inline-link" href="/coding-classes-in-australia">Australian pages</a> for other states.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20class%20about%20TASC%20Computer%20Science%20(ITC315118)." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'tacs',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp reaches us fastest. Our number begins +91 because the school is in India, and we have no office in Tasmania or anywhere else in Australia.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_tacs(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card, no obligation. A single reply books the lesson.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Australia</h4><ul><li><a href="/tasc-mathematics-methods-tutoring">TASC Mathematics Methods</a></li><li><a href="/hsc-software-engineering-help">HSC Software Engineering</a></li><li><a href="/online-coding-classes-for-kids-australia">Online coding for kids</a></li><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li></ul></div>
+      <div><h4>Learn more</h4><ul><li><a href="/understand-the-code-dont-copy-paste-australia">Understand the code</a></li><li><a href="/coding-roadmap">The coding roadmap</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>We teach the computing; assessed work stays the student's own</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_tacs = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'tasc-computer-science-help-inline', meta: { name: name, age: age, page: 'tasc-computer-science-help' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
