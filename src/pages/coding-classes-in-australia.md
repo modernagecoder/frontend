@@ -291,6 +291,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agents classes in Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne)
 - [Kids coding languages](/kids-coding-languages-australia)
 - [Coding classes for 5 and 6 year olds](/coding-classes-for-5-and-6-year-olds-australia)
+- [Coding for Year 7](/coding-for-year-7-australia)
 <!-- AU-LINKS -->
 
 

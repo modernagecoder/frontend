@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding for Year 7 in Australia: From Blocks to Python</title>
+  <meta name="description" content="Coding for Year 7 in Australia: what Digital Technologies expects in the first year of high school, from tracing algorithms to Python, and how to get ready.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-for-year-7-australia">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-for-year-7-australia.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#723C4B">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-for-year-7-australia">
+  <meta property="og:title" content="Coding for Year 7 in Australia: From Blocks to Python">
+  <meta property="og:description" content="Year 7 is where Australian students meet a general-purpose programming language. What the curriculum asks, a worked example on simple ciphers, and how to prepare.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding for Year 7 in Australia: From Blocks to Python">
+  <meta name="twitter:description" content="Coding in Year 7, Australia: the jump from blocks to a real programming language, explained for families.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-yrsv .ag-hero h1 { letter-spacing: -0.02em; }
+.ag-root.ag-yrsv .ag-capsule { border-left-width: 6px; }
+.ag-root.ag-yrsv .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-yrsv .ag-table caption { font-weight: 600; }
+.ag-root.ag-yrsv .ag-grid-3 h3 { letter-spacing: -0.008em; }
+.ag-root.ag-yrsv .ag-slots { gap: 1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-for-year-7-australia#page","url":"https://learn.modernagecoders.com/coding-for-year-7-australia","name":"Coding for Year 7 in Australia","description":"A guide for Australian families to coding in Year 7: the Australian Curriculum v9 Digital Technologies expectations for Years 7 and 8, the move from visual to text programming, and live online preparation.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":4,"name":"Coding for Year 7","item":"https://learn.modernagecoders.com/coding-for-year-7-australia"}]},{"@type":"Course","name":"Coding for Year 7 in Australia","description":"Live online coding for Australian Year 7 students: Python, algorithm tracing, functions and small projects that match the Digital Technologies curriculum for Years 7 and 8.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-for-year-7-australia"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-for-year-7-australia"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-for-year-7-australia"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is coding in Year 7?","acceptedAnswer":{"@type":"Answer","text":"In Australia, Year 7 is usually when students move from block coding to writing programs in a typed, general-purpose language such as Python, and learn to plan programs with flowcharts and pseudocode."}},{"@type":"Question","name":"What coding language is used in Year 7?","acceptedAnswer":{"@type":"Answer","text":"The Australian Curriculum does not require one language, but gives Python, JavaScript or C# as examples of a general-purpose language. Python is the most common choice for beginners."}},{"@type":"Question","name":"What is a desk check?","acceptedAnswer":{"@type":"Answer","text":"A desk check is working through a program by hand, line by line, writing down what each variable holds and what the program outputs. ACARA suggests it for tracing algorithms in Years 7 and 8."}},{"@type":"Question","name":"What is ROT13?","acceptedAnswer":{"@type":"Answer","text":"ROT13 is a simple cipher that replaces each letter with the letter thirteen places further along the alphabet. Applying it twice returns the original message, so the same function both scrambles and unscrambles."}},{"@type":"Question","name":"Should my child learn Python before Year 7?","acceptedAnswer":{"@type":"Answer","text":"It helps. A term or two of Python in Year 5 or 6 means the ideas in Year 7 Digital Technologies arrive as revision rather than as a shock. It is not required, though."}},{"@type":"Question","name":"My child loved Scratch but struggles with Python. Is that normal?","acceptedAnswer":{"@type":"Answer","text":"Very. The thinking carries over; the typing, punctuation and error messages are new. Most students settle within a few weeks with practice reading error messages."}},{"@type":"Question","name":"Do you help with school coding assignments?","acceptedAnswer":{"@type":"Answer","text":"We teach the skills that school tasks draw on, but we never write, complete or check assessed work. That keeps the work honestly the student's own."}},{"@type":"Question","name":"Is Year 7 the start of high school everywhere in Australia?","acceptedAnswer":{"@type":"Answer","text":"Yes. According to the ABS, secondary school runs from Year 7 to Year 12 in all states and territories, after Queensland and Western Australia changed in 2015 and South Australia completed its change in 2022."}},{"@type":"Question","name":"How often should a Year 7 student have lessons?","acceptedAnswer":{"@type":"Answer","text":"Once a week is enough to make steady progress; twice a week suits a student preparing for a particular term or catching up quickly."}},{"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"The opening lesson is free with no card needed. Monthly prices for group places and private lessons are listed in the fees section further up this page."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-for-year-7-australia","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-yrsv">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#expects">What Year 7 expects</a></li>
+      <li><a href="#jump">The jump</a></li>
+      <li><a href="#cipher">Worked example</a></li>
+      <li><a href="#term">A first term</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / Coding for Year 7
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; Years 7 and 8 &middot; Live online</p>
+        <h1>Coding for Year 7</h1>
+        <p class="ag-lede">Year 7 is a turning point for young programmers in Australia, and few families notice it happening. Through primary school, coding in class mostly means dragging blocks on a screen. From Year 7 the Australian Curriculum expects students to write programs in a general-purpose language, the kind professionals type every day, and to plan them first with flowcharts and pseudocode. At the same moment, students are changing schools, meeting new teachers and juggling a timetable full of subjects. This page explains exactly what the curriculum asks of Years 7 and 8, why the move from blocks to text catches some students out, and how a child can arrive in Year 7 already comfortable rather than scrambling to catch up.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#expects" class="ag-btn ag-btn--ghost">See what Year 7 expects</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20starting%20or%20in%20Year%207%20in%20Australia%20and%20we%20would%20like%20help%20with%20coding.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'yrsv'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; preparation, never homework done for them</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Years 6, 7 and 8</dd>
+          <dt>Language</dt><dd>Usually Python</dd>
+          <dt>Also covers</dt><dd>Flowcharts and pseudocode</dd>
+          <dt>Skills</dt><dd>Tracing, debugging, functions</dd>
+          <dt>Curriculum</dt><dd>Australian Curriculum v9</dd>
+          <dt>Format</dt><dd>Live online lessons</dd>
+          <dt>Group</dt><dd>Five to ten, or one to one</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Coding for Year 7 means writing programs in a general-purpose language such as Python, after years of visual block coding in primary school. The Australian Curriculum v9 expects that by the end of Year 8 students "design and trace algorithms and implement them in a general-purpose programming language". The best preparation is a term or two of Python before or during Year 7, plus practice predicting what a program will do before running it.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three ways to get ready for Year 7</h2>
+      <p class="ag-lede">Pick by how much coding your child has already done.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">YRSV / 01</p>
+          <h3>Python and AI for Kids</h3>
+          <p>For upper primary students, about 9 to 12, who want a head start in text coding before high school.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">YRSV / 02</p>
+          <h3>Python for Teens</h3>
+          <p>For students already in Year 7 or 8, from first lines of code to confident, well-organised programs.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-and-computational-thinking-for-kids">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-kids.webp" alt="Problem Solving and Computational Thinking for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">YRSV / 03</p>
+          <h3>Problem Solving for Kids</h3>
+          <p>For students who need the thinking first: breaking problems down, patterns and algorithms, ages 7 to 12.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="expects">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The curriculum</p><h2>What Digital Technologies asks of Years 7 and 8</h2><p class="ag-lede">The Australian Curriculum v9 groups Years 7 and 8 into one band. Its band description sets the scene in one sentence: students apply computational thinking by "designing and modifying algorithms, and implementing them in a general-purpose programming language".</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Programming content descriptions for Years 7 and 8, Australian Curriculum v9 (quoted)</caption><thead><tr><th scope="col">Code</th><th scope="col">Students learn to</th></tr></thead><tbody><tr><td>AC9TDI8P04</td><td>"define and decompose real-world problems with design criteria and by creating user stories"</td></tr><tr><td>AC9TDI8P05</td><td>design algorithms with nested control structures and show them as flowcharts and pseudocode</td></tr><tr><td>AC9TDI8P06</td><td>"trace algorithms to predict output for a given input and to identify errors"</td></tr><tr><td>AC9TDI8P09</td><td>write, change and fix programs that use control structures and functions, in a general-purpose language</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The skill most students underrate</h3><p>Tracing is the quiet star of the list. For AC9TDI8P06, ACARA suggests students might do a "desk check with a table of input, variables and output": writing down, line by line, what every variable holds as the program runs, before the computer runs it.</p>
+<p>Students who can trace find their own bugs. Students who cannot spend Year 7 changing things at random until the program works, and learning very little from it.</p></div><div><h3>Where the security ideas come in</h3><p>The same band asks students to investigate how data is sent and secured on networks (AC9TDI8K02). One of ACARA's example activities is "exploring simple encryption and decryption algorithms, for example ROT13 and XOR".</p>
+<p>That suggestion is a gift to anyone teaching a new programmer, because both ciphers are short enough to write in a lesson and strange enough to be interesting. We work one through below.</p></div></div>
+    <p class="ag-mt-40">The achievement standard for the end of Year 8 sums it up: students "design and trace algorithms and implement them in a general-purpose programming language". A child who leaves Year 6 able to read and predict simple Python is well placed to meet that standard on time.</p>
+    <p class="ag-source-note ag-mt-40">Checked on 7 October 2026 against ACARA's Word download of the <a class="ag-inline-link" href="https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx" rel="noopener" target="_blank">Digital Technologies content for Years 7 to 10</a>. Quotation marks show ACARA's exact words; the other rows are close summaries. NSW and some other jurisdictions publish their own syllabuses, so a school's course may be organised differently.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="jump">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Blocks to text</p><h2>Why the jump from blocks to text catches students out</h2><p class="ag-lede">Most Year 7 students have coded before, usually in Scratch. The ideas carry over. The surprises are almost all about the medium.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What changes when a student moves from blocks to a typed language</caption><thead><tr><th scope="col">In block coding</th><th scope="col">In Year 7 text coding</th><th scope="col">What helps</th></tr></thead><tbody><tr><td>Blocks only fit together in valid ways</td><td>One missing bracket stops the whole program</td><td>Reading error messages aloud and finding the line they name</td></tr><tr><td>Everything is visible on one screen</td><td>Programs grow past what fits on screen</td><td>Splitting code into named functions</td></tr><tr><td>A sprite shows what is happening</td><td>Output may be a single line of text</td><td>Printing values while the program runs</td></tr><tr><td>Mistakes look obvious</td><td>Mistakes hide inside a correct-looking line</td><td>Tracing by hand before running</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The error message is a friend</h3><p>The first time a Python program refuses to run, many students read the red text, panic and delete the last thing they typed. A better habit is to read the message slowly: it names a line number and usually the kind of mistake.</p>
+<p>We spend real lesson time on this, because a student who trusts error messages becomes independent within weeks.</p></div><div><h3>Functions are the big new idea</h3><p>Scratch has custom blocks, but many primary students never use them. In Year 7, functions become central: naming a piece of code so it can be reused and tested on its own.</p>
+<p>Functions are also how a long program stays readable, which matters once a school task runs to a hundred lines.</p></div></div>
+    <p class="ag-mt-40">Year 7 is the first year of secondary school across Australia; in the ABS's words, secondary school runs "from Year 7 to Year 12 in all states and territories". That was not always so: Queensland and Western Australia moved Year 7 into secondary school in 2015, and the ABS records that in 2022 South Australia "completed transition to year 7 secondary for all government and non-government schools". So a Year 7 student everywhere now meets text coding in a new school, often with a specialist teacher. Families still choosing a first language may find our guide to <a class="ag-inline-link" href="/kids-coding-languages-australia">kids coding languages</a> useful.</p>
+    <p class="ag-source-note ag-mt-40">Source, read 7 October 2026: <a class="ag-inline-link" href="https://www.abs.gov.au/methodologies/schools-methodology/2025" rel="noopener" target="_blank">ABS, Schools methodology, 2025</a>, schooling structure and the history of changes to the year in which secondary school begins.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="cipher">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked example</p><h2>ROT13 and XOR: two ciphers that undo themselves</h2><p class="ag-lede">Here is the kind of lesson we run with Year 7 students, built on ACARA's own suggestion. The surprising idea at its heart is a function that, applied twice, gives back exactly what you started with.</p></div>
+    <p><strong>ROT13</strong> replaces each letter with the letter thirteen places further along the alphabet, wrapping round from Z back to A. Because the alphabet has 26 letters, moving thirteen places and then thirteen more is a full lap. So ROT13 is its own decoder: run it once to scramble a message, run it again to unscramble it. Mathematicians call a function like this <strong>self-inverse</strong>.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>ROT13 by hand (our worked example, checked in Python)</caption><thead><tr><th scope="col">Step</th><th scope="col">H</th><th scope="col">E</th><th scope="col">L</th><th scope="col">L</th><th scope="col">O</th></tr></thead><tbody><tr><td>Original letter</td><td>H</td><td>E</td><td>L</td><td>L</td><td>O</td></tr><tr><td>Thirteen places on</td><td>U</td><td>R</td><td>Y</td><td>Y</td><td>B</td></tr><tr><td>Thirteen places again</td><td>H</td><td>E</td><td>L</td><td>L</td><td>O</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>XOR does the same with numbers</h3><p>Computers store every letter as a number. In the code most systems use, capital H is 72. XOR (exclusive or) compares two numbers bit by bit and keeps a 1 wherever the bits differ.</p>
+<p>Take a secret key of 42. Then 72 XOR 42 gives 98, which happens to be the code for a lower-case b. Apply XOR with 42 to 98 and you get 72 again: H is back. XOR with the same key is self-inverse too, which is why it appears inside real encryption.</p></div><div><h3>What students write</h3><p>In Python, ROT13 is a short function with a loop over the letters, a calculation with the remainder operator to wrap round the alphabet, and a test for whether each character is a letter at all.</p>
+<p>Students then write a second function that applies the first one twice and checks the result matches the original. That test is the real lesson: it turns "I think it works" into evidence.</p></div></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Trace it first</h3><p>Before running, students fill in a table: each letter, its position, its position plus thirteen, the wrapped position and the new letter.</p></div><div><h3>Then break it</h3><p>What happens with a space, a full stop or a lower-case letter? Each answer is a small decision the student has to program.</p></div><div><h3>Then question it</h3><p>ROT13 is easy to break, so why is it taught? Because it shows the shape of encryption without the maths of real ciphers.</p></div></div>
+    <p class="ag-mt-40">We check every worked example ourselves: <code>HELLO</code> becomes <code>URYYB</code> and back, and 72 XOR 42 is 98 and back to 72. Students are encouraged to check ours too.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="term">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A first term</p><h2>A ten-week plan for a Year 7 student new to text coding</h2><p class="ag-lede">Australian school terms run roughly ten weeks. This is how we would use one with a student who has done some Scratch but no typed code.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our ten-week starter plan (one or two live lessons a week)</caption><thead><tr><th scope="col">Weeks</th><th scope="col">Focus</th><th scope="col">By the end the student can</th></tr></thead><tbody><tr><td>1 and 2</td><td>First programs, printing and input</td><td>Run a program, read an error message and fix a typo</td></tr><tr><td>3 and 4</td><td>Variables and decisions</td><td>Write a small quiz that keeps score and reacts to answers</td></tr><tr><td>5 and 6</td><td>Loops and tracing</td><td>Predict a loop's output in a desk check table before running it</td></tr><tr><td>7 and 8</td><td>Functions</td><td>Split a program into named functions and test each one</td></tr><tr><td>9 and 10</td><td>A small project</td><td>Build and explain a ROT13 message machine or a guessing game</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Flowcharts and pseudocode too</h3><p>Because the curriculum asks for algorithms to be planned in flowcharts and pseudocode, students draw at least one plan before each project. It feels slow at first and saves time by week six.</p>
+<p>We keep the plans simple: boxes, diamonds and arrows on paper, photographed and shared in the lesson.</p></div><div><h3>Faster for some students</h3><p>A student who has done Python before may cover this plan in five weeks and move on to lists, files and larger projects.</p>
+<p>A student who finds typing hard may spend longer on weeks one to four. The plan bends to the student, not the other way round.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="help">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Helping at home</p><h2>How parents can help without knowing how to code</h2><p class="ag-lede">You do not need to read Python to support a Year 7 coder. A few habits matter far more than technical knowledge.</p></div>
+    <div class="ag-grid-3"><div><h3>Ask for a prediction</h3><p>Before they run a program, ask what they expect to happen. Matching the prediction to the result is the core habit of programming.</p></div><div><h3>Ask them to teach you</h3><p>Explaining a program to someone who does not code exposes the parts the student only half understands.</p></div><div><h3>Protect the struggle</h3><p>Being stuck for ten minutes on a bug is normal and useful. Resist fixing it for them, and resist letting an AI tool fix it for them too.</p></div></div>
+    <p class="ag-mt-40">About AI tools: many Year 7 students now have access to chatbots that write code. Used well, they explain error messages. Used badly, they hand over working code the student cannot explain, which collapses the moment a teacher asks a question. Our page on <a class="ag-inline-link" href="/how-we-teach">how we teach</a> sets out how lessons keep students explaining their own code, with or without an AI tool open.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Stages</p>
+      <h2>Four stages through Years 7 and 8</h2>
+      <p class="ag-lede">With one or two lessons a week, most students reach the third stage during Year 7.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From first lines to confident programs</caption><thead><tr><th scope="col">Stage</th><th scope="col">What your child can do</th></tr></thead><tbody><tr><td>1. Reads code</td><td class="ag-num">Predicts what a short program will print and explains each line</td></tr><tr><td>2. Writes code</td><td class="ag-num">Writes a working program with variables, decisions and loops from a blank file</td></tr><tr><td>3. Organises code</td><td class="ag-num">Splits a longer program into functions and tests each one separately</td></tr><tr><td>4. Plans code</td><td class="ag-num">Plans a project in pseudocode, builds it, traces it and fixes it independently</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Is Year 7 too late to start?</h3><p>Not at all. Plenty of strong programmers wrote their first line in Year 7 or later. Starting in Year 7 just means pairing the text coding with the thinking skills primary school would otherwise have built.</p>
+<p>For those students we often add a few weeks of problem-solving work alongside Python.</p></div><div><h3>Fitting it round school</h3><p>Lessons are after school or at the weekend and continue across the four school terms if a family wants. Billing is monthly, so pausing in a busy term is easy.</p>
+<p>We do not do or check assessed school work; we build the skills that make it manageable.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Courses for Years 6 to 8</h2>
+      <p class="ag-lede">Grouped by where a student is starting from.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Before Year 7</h3>
+        <span class="ag-band-sub">Upper primary</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">YRSV / PRE / 01</p>
+          <h4>Python and AI for Kids</h4>
+          <p>A first text language with games and small AI projects.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">YRSV / PRE / 02</p>
+          <h4>Problem Solving for Kids</h4>
+          <p>Decomposition, patterns and algorithms before code.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">YRSV / PRE / 03</p>
+          <h4>Scratch Coding for Kids</h4>
+          <p>For students who have not yet coded with blocks.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>During Years 7 and 8</h3>
+        <span class="ag-band-sub">Lower secondary</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">YRSV / SEC / 01</p>
+          <h4>Python for Teens</h4>
+          <p>Python from first lines to organised, tested programs.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">YRSV / SEC / 02</p>
+          <h4>Web Development for Kids</h4>
+          <p>HTML, CSS and a first look at JavaScript.</p>
+          <a class="ag-course-link" href="/courses/kids-ai-web-development-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">YRSV / SEC / 03</p>
+          <h4>Maths Through Coding</h4>
+          <p>Python used to explore the maths of Years 5 to 10.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Stretch</h3>
+        <span class="ag-band-sub">Keen Year 8 students</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">YRSV / EXT / 01</p>
+          <h4>Competitive Programming for Teens</h4>
+          <p>Algorithm puzzles for students who love a challenge.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">YRSV / EXT / 02</p>
+          <h4>JavaScript for Teens</h4>
+          <p>A second language through interactive web pages.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">YRSV / EXT / 03</p>
+          <h4>Cybersecurity for Teens</h4>
+          <p>Ethical, defensive security for students drawn to ciphers.</p>
+          <a class="ag-course-link" href="/courses/cybersecurity-course-for-teens-ethical-defensive">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live lessons around a Year 7 timetable</h2>
+      <p class="ag-lede">Our teachers are based in India. Every Australian state is ahead of India time, by between two and a half hours (Perth) and five and a half (the eastern states in summer), so after-school lessons in Australia fall in the Indian afternoon.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday, late afternoon</p><p class="ag-slot-l">Popular with Year 7 students who travel to a new school.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekday, early evening</p><p class="ag-slot-l">Works around sport and homework.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Saturday or Sunday</p><p class="ag-slot-l">A longer session for project work.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A free first class</h3><p>The teacher checks what your child can already read and write in code.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten students of a similar level, usually all in Years 6 to 8.</p></div>
+      <div><h3>One to one</h3><p>Helpful for a student who is anxious about text coding or far ahead of their class.</p></div>
+      <div><h3>Their own code</h3><p>The student types every line. Teachers explain, ask and point at errors.</p></div>
+      <div><h3>Parents can watch</h3><p>Every lesson is live, so you can see exactly how your child is taught.</p></div>
+      <div><h3>No ghost-writing</h3><p>Assessment tasks are never written or checked by our teachers.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects built by our students</h2>
+      <p class="ag-lede">A few finished projects by our students, several of whom began text coding around Year 7. See more in our <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for Year 7 coding</h2>
+      <p class="ag-lede">Australian families pay one monthly price in US dollars. Nothing is charged to join, and there is no term-long contract.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A short Python task with a teacher</li><li>A recommended starting course</li><li>No card or bank details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students per class</li><li>The same teacher each week</li><li>Classmates of a similar level</li><li>Stop after any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Lessons shaped around your child</li><li>A pace that suits them</li><li>Time for one ambitious project</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Word for word as parents and students wrote them on Google.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from parents</p>
+      <h2>What parents ask about coding in Year 7</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is coding in Year 7?</h3>
+        <p>In Australia, Year 7 is usually when students move from block coding to writing programs in a typed, general-purpose language such as Python, and learn to plan programs with flowcharts and pseudocode.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What coding language is used in Year 7?</h3>
+        <p>The Australian Curriculum does not require one language, but gives Python, JavaScript or C# as examples of a general-purpose language. Python is the most common choice for beginners.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is a desk check?</h3>
+        <p>A desk check is working through a program by hand, line by line, writing down what each variable holds and what the program outputs. ACARA suggests it for tracing algorithms in Years 7 and 8.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is ROT13?</h3>
+        <p>ROT13 is a simple cipher that replaces each letter with the letter thirteen places further along the alphabet. Applying it twice returns the original message, so the same function both scrambles and unscrambles.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should my child learn Python before Year 7?</h3>
+        <p>It helps. A term or two of Python in Year 5 or 6 means the ideas in Year 7 Digital Technologies arrive as revision rather than as a shock. It is not required, though.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>My child loved Scratch but struggles with Python. Is that normal?</h3>
+        <p>Very. The thinking carries over; the typing, punctuation and error messages are new. Most students settle within a few weeks with practice reading error messages.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you help with school coding assignments?</h3>
+        <p>We teach the skills that school tasks draw on, but we never write, complete or check assessed work. That keeps the work honestly the student's own.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Year 7 the start of high school everywhere in Australia?</h3>
+        <p>Yes. According to the ABS, secondary school runs from Year 7 to Year 12 in all states and territories, after Queensland and Western Australia changed in 2015 and South Australia completed its change in 2022.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How often should a Year 7 student have lessons?</h3>
+        <p>Once a week is enough to make steady progress; twice a week suits a student preparing for a particular term or catching up quickly.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does it cost?</h3>
+        <p>The opening lesson is free with no card needed. Monthly prices for group places and private lessons are listed in the fees section further up this page.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Australian students around Years 6 to 8.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>The index of our pages for Australian students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/kids-coding-languages-australia">Kids coding languages</a></h3><p>Which language to start with, and why.</p></div>
+      <div><h3><a class="ag-inline-link" href="/after-scratch-next-step-python-australia">After Scratch: Python</a></h3><p>The step from blocks to text.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-11-and-12-year-olds-australia">Coding for 11 and 12 year olds</a></h3><p>The last primary years, just before Year 7.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-12-year-olds">Python for 12 year olds</a></h3><p>A closer look at Python at this age.</p></div>
+      <div><h3><a class="ag-inline-link" href="/naplan-numeracy-practice-online">NAPLAN numeracy practice</a></h3><p>For the Year 7 NAPLAN tests in March.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Send your details and we will call at a time that suits. In the free class your child reads and writes a little Python with a teacher, and you hear honestly whether they are ready for Year 7 coding and what would help.</p>
+        <p class="ag-mt-40">Curious how a lesson actually runs? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> breaks one down, and our <a class="ag-inline-link" href="/courses">courses</a> page lists what comes after Year 8.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20starting%20or%20in%20Year%207%20in%20Australia%20and%20we%20would%20like%20help%20with%20coding.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'yrsv',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Australian families often find WhatsApp the quickest way to reach us. Our number begins +91 because the team is in India, and we do not have an Australian office.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_yrsv(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Years 6 to 8</h4><ul><li><a href="/kids-coding-languages-australia">Kids coding languages</a></li><li><a href="/after-scratch-next-step-python-australia">After Scratch: Python</a></li><li><a href="/coding-roadmap">The coding roadmap</a></li><li><a href="/python-for-12-year-olds">Python for 12 year olds</a></li></ul></div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/hsc-software-engineering-help">HSC Software Engineering</a></li><li><a href="/naplan-numeracy-practice-online">NAPLAN numeracy</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Predict it, run it, then explain the difference</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_yrsv = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'coding-for-year-7-australia-inline', meta: { name: name, age: age, page: 'coding-for-year-7-australia' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
