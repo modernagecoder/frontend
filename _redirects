@@ -5540,6 +5540,9 @@
 /coding-classes-cost-australia /src/pages/coding-classes-cost-australia.html 200
 /coding-classes-cost-australia.html /coding-classes-cost-australia 301!
 /coding-classes-cost-australia.md /src/pages/coding-classes-cost-australia.md 200
+/maths-tutor-cost-australia-explained /src/pages/maths-tutor-cost-australia-explained.html 200
+/maths-tutor-cost-australia-explained.html /maths-tutor-cost-australia-explained 301!
+/maths-tutor-cost-australia-explained.md /src/pages/maths-tutor-cost-australia-explained.md 200
 
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /australian-coding-maths-and-ai-competitions-calendar /src/pages/australian-coding-maths-and-ai-competitions-calendar.html 200
@@ -5900,4 +5903,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /online-coding-classes-australia-compared /src/pages/online-coding-classes-australia-compared.html 200
 /online-coding-classes-australia-compared.md /src/pages/online-coding-classes-australia-compared.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/after-school-coding-club-vs-online-class-australia /src/pages/after-school-coding-club-vs-online-class-australia.html 200
+/after-school-coding-club-vs-online-class-australia.md /src/pages/after-school-coding-club-vs-online-class-australia.md 200
 /* /src/pages/404.html 404

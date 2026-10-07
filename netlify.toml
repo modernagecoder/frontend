@@ -18982,6 +18982,21 @@
   to = "/src/pages/coding-classes-cost-australia.md"
   status = 200
 
+[[redirects]]
+  from = "/maths-tutor-cost-australia-explained"
+  to = "/src/pages/maths-tutor-cost-australia-explained.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tutor-cost-australia-explained.html"
+  to = "/maths-tutor-cost-australia-explained"
+  status = 301
+
+[[redirects]]
+  from = "/maths-tutor-cost-australia-explained.md"
+  to = "/src/pages/maths-tutor-cost-australia-explained.md"
+  status = 200
+
 # Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
 
 [[redirects]]
@@ -20060,6 +20075,18 @@
 [[redirects]]
   from = "/online-coding-classes-australia-compared.md"
   to = "/src/pages/online-coding-classes-australia-compared.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/after-school-coding-club-vs-online-class-australia"
+  to = "/src/pages/after-school-coding-club-vs-online-class-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/after-school-coding-club-vs-online-class-australia.md"
+  to = "/src/pages/after-school-coding-club-vs-online-class-australia.md"
   status = 200
 
 [[redirects]]

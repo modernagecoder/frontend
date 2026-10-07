@@ -515,6 +515,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Game development for kids, Australia: https://learn.modernagecoders.com/game-development-for-kids-australia
 - Online coding classes for kids, Australia: https://learn.modernagecoders.com/online-coding-classes-for-kids-australia
 - Coding classes cost in Australia, 2026 (free clubs, how term classes, camps and tutors charge, our price per lesson and per term): https://learn.modernagecoders.com/coding-classes-cost-australia
+- Maths tutor cost in Australia, 2026 (published hourly and per-session rates converted to USD, what moves the price, our price per lesson and per term): https://learn.modernagecoders.com/maths-tutor-cost-australia-explained
 - Australian coding, maths and AI competitions calendar: https://learn.modernagecoders.com/australian-coding-maths-and-ai-competitions-calendar
 - NAPLAN numeracy practice online: https://learn.modernagecoders.com/naplan-numeracy-practice-online
 - HSC Software Engineering help: https://learn.modernagecoders.com/hsc-software-engineering-help
@@ -602,6 +603,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Maths tutor vs tutoring centre, Australia: https://learn.modernagecoders.com/tutor-vs-tutoring-centre-maths-australia
 - Coding class or maths tutor first, Australia: https://learn.modernagecoders.com/coding-class-or-maths-tutor-first-australia
 - Online coding classes compared, Australia: https://learn.modernagecoders.com/online-coding-classes-australia-compared
+- After-school coding club vs online class, Australia: https://learn.modernagecoders.com/after-school-coding-club-vs-online-class-australia
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
