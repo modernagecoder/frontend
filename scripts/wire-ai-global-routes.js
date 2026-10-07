@@ -308,6 +308,7 @@ const SLUGS = [
   'learn-to-train-ai-not-just-prompt-it-australia',
   'python-ai-course-for-kids-australia',
   'problem-solving-through-coding-australia',
+  'ai-courses-for-kids-australia',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -695,6 +696,7 @@ const LLMS_LABELS = {
   'learn-to-train-ai-not-just-prompt-it-australia': 'Learn to train AI, not just prompt it, Australia',
   'python-ai-course-for-kids-australia': 'Python AI course for kids, Australia',
   'problem-solving-through-coding-australia': 'Problem solving through coding, Australia',
+  'ai-courses-for-kids-australia': 'AI courses for kids, Australia',
 };
 
 function wireLlms(slugs) {

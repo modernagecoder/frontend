@@ -53,7 +53,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 6 | best-coding-classes-in-sydney (syd, #182C98) | cg- city page | 3,536 | 0.5% vs best-coding-class-in-cambridge | Which bus stop is in the middle, and do we need to sort them all to find it? | quickselect, selection without sorting, pivot choice, sorted-input worst case | d5c55aee |
 | 7 | coding-and-ai-classes-in-new-south-wales (nsa, #287044) | cg- state page | 3,757 | 0.6% vs coding-classes-in-greater-manchester | Which week does each 2027 term start and end in? | ISO 8601 week dates, week 53, strftime %U and %W, calendar arithmetic | a6246d58 |
 | 8 | vibe-coding-and-ai-agents-classes-in-melbourne (mel, #941830) | cg- city page | 3,419 | 0.8% vs vibe-coding-and-ai-agents-classes-in-weymouth | Does the tram-stop agent still give the right answers after a tidy-up? | golden-set regression testing for an AI agent tool, detection power of a small test set | 209947bf |
-| 20 | kids-coding-languages-australia (klng, #274569) | ag- topic door | 3,854 | 1.2% vs coding-games-for-kids-australia | Which coding language should an Australian child learn first, and how much typing does each one ask of them? | typing load: characters and symbols per program across languages | (this commit) |
+| 20 | kids-coding-languages-australia (klng, #274569) | ag- topic door | 3,854 | 1.2% vs coding-games-for-kids-australia | Which coding language should an Australian child learn first, and how much typing does each one ask of them? | typing load: characters and symbols per program across languages | 7dabafc0 |
+| 21 | coding-classes-for-5-and-6-year-olds-australia (kfiv, #51511B) | ag- topic door | 3,655 | 0.7% vs coding-classes-for-7-and-8-year-olds-australia | What can a 5 or 6 year old in Australia realistically learn about coding, and when do live classes make sense? | arrow-card grid programs (unplugged) | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
