@@ -335,6 +335,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [HSC Enterprise Computing help](/hsc-enterprise-computing-help)
 - [HSC Maths Standard tutoring](/hsc-maths-standard-tutoring)
 - [HSC Maths Advanced tutoring](/hsc-maths-advanced-tutoring)
+- [HSC Maths Extension 1 tutoring](/hsc-maths-extension-1-tutoring)
 <!-- AU-LINKS -->
 
 

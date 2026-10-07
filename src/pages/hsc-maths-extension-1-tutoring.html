@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>HSC Maths Extension 1 Tutoring | NSW Online Help</title>
+  <meta name="description" content="HSC Maths Extension 1 tutoring online for NSW students: the 2024 syllabus, the 70-mark paper, proof by induction done properly, and how Ext 1 counts for ATAR.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/hsc-maths-extension-1-tutoring">
+  <link rel="alternate" type="text/markdown" href="/src/pages/hsc-maths-extension-1-tutoring.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#90424B">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/hsc-maths-extension-1-tutoring">
+  <meta property="og:title" content="HSC Maths Extension 1 Tutoring | NSW Online Help">
+  <meta property="og:description" content="Mathematics Extension 1 explained from the 2024 NSW syllabus: its focus areas, how it sits on Advanced, the 70-mark HSC paper, the extra paper students also sit, and a worked lesson on testing a claim before proving it.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="HSC Maths Extension 1 Tutoring">
+  <meta name="twitter:description" content="HSC Maths Extension 1 from the 2024 syllabus: the 70-mark paper, induction, vectors, and how it counts for the ATAR.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-hexo .ag-hero-grid { gap: clamp(1rem, 2.8vw, 2.4rem); }
+.ag-root.ag-hexo .ag-hero h1 { letter-spacing: -0.015em; }
+.ag-root.ag-hexo .ag-capsule { border-left-width: 7px; }
+.ag-root.ag-hexo .ag-section-head h2 { max-width: 26ch; }
+.ag-root.ag-hexo .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-hexo .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-hexo .ag-spec dt { letter-spacing: 0.08em; }
+.ag-root.ag-hexo .ag-slots { gap: 1.2rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/hsc-maths-extension-1-tutoring#page","url":"https://learn.modernagecoders.com/hsc-maths-extension-1-tutoring","name":"HSC Maths Extension 1 Tutoring","description":"Help for NSW students taking Mathematics Extension 1: the 2024 syllabus and its dates, Year 11 and Year 12 focus areas, enrolment rules, the HSC examination specification, how UAC counts the course towards the ATAR, and an original lesson on mathematical induction.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":3,"name":"HSC Maths Extension 1","item":"https://learn.modernagecoders.com/hsc-maths-extension-1-tutoring"}]},{"@type":"Course","name":"HSC Maths Extension 1 Tutoring","description":"Live online teaching for NSW Mathematics Extension 1 students: polynomials, combinatorics, the binomial theorem, proof by induction, vectors, inverse trigonometric functions and further calculus.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/hsc-maths-extension-1-tutoring"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/hsc-maths-extension-1-tutoring"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/hsc-maths-extension-1-tutoring"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is HSC Mathematics Extension 1?","acceptedAnswer":{"@type":"Answer","text":"A one-unit NSW mathematics course taken with Mathematics Advanced. Under the 2024 syllabus it adds polynomials, combinatorics, the binomial theorem, proof by mathematical induction, vectors, inverse trigonometric functions, further calculus, and the binomial distribution with the sampling distribution of the mean."}},{"@type":"Question","name":"Do I have to take Mathematics Advanced as well?","acceptedAnswer":{"@type":"Answer","text":"Yes. NESA lists Year 11 Advanced as a corequisite for Year 11 Extension 1, and Year 12 Advanced as a corequisite for Year 12 Extension 1."}},{"@type":"Question","name":"How long is the Extension 1 exam?","acceptedAnswer":{"@type":"Answer","text":"2 hours plus 10 minutes reading time, for a paper worth 70 marks with a reference sheet and approved calculators."}},{"@type":"Question","name":"Do Extension 1 students sit more than one paper?","acceptedAnswer":{"@type":"Answer","text":"Yes. NESA states that students also complete either the Mathematics Advanced paper or the Mathematics Extension 2 paper, depending on their enrolment."}},{"@type":"Question","name":"What is proof by mathematical induction?","acceptedAnswer":{"@type":"Answer","text":"A way of proving a statement for every positive integer from a starting value. You show it holds for the first value, then show that if it holds for any value k it must hold for k + 1. Together these cover every case."}},{"@type":"Question","name":"Why is checking many cases not a proof?","acceptedAnswer":{"@type":"Answer","text":"Because a pattern can hold for a long time and then fail. The expression n squared + n + 41 is prime for n = 0 to 39 but equals 1681, which is 41 squared, at n = 40."}},{"@type":"Question","name":"How does Extension 1 count towards the ATAR?","acceptedAnswer":{"@type":"Answer","text":"UAC says up to 4 units of calculus-based maths can be included. Extension 1 counts as 1 unit when paired with Advanced, and as 2 units when paired with Extension 2."}},{"@type":"Question","name":"Is there a Year 11 Extension 2 course?","acceptedAnswer":{"@type":"Answer","text":"No. Under the 2024 syllabus, Extension 2 is a Year 12 course; Extension 1 in Year 11 is part of the pathway towards it."}},{"@type":"Question","name":"Will you guarantee a top result?","acceptedAnswer":{"@type":"Answer","text":"No. We teach the mathematics and the writing; the result is earned by the student."}},{"@type":"Question","name":"Do you help with take-home tasks?","acceptedAnswer":{"@type":"Answer","text":"We teach the underlying mathematics with our own problems, and we do not write, edit or check any work that a school will mark."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/hsc-maths-extension-1-tutoring","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-hexo">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#course">The course</a></li>
+      <li><a href="#exam">The exam</a></li>
+      <li><a href="#induction">Induction</a></li>
+      <li><a href="#atar">Units and the ATAR</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / HSC Maths Extension 1
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">New South Wales &middot; Mathematics Extension 1 &middot; Live online</p>
+        <h1>HSC Maths Extension 1 tutoring</h1>
+        <p class="ag-lede">Extension 1 is where NSW mathematics starts asking students to prove things rather than just compute them. It is only one unit, sixty indicative hours a year, but it changes how a student thinks: a pattern that holds for ten cases is no longer good enough. We teach that shift carefully, alongside the algebra and calculus the course demands.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#induction" class="ag-btn ag-btn--ghost">See the induction lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20HSC%20Mathematics%20Extension%201." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'hexo'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Syllabus read at the source &middot; Proof taught as reasoning, not ritual &middot; Lessons after NSW school hours</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Syllabus</dt><dd>Mathematics Extension 1 11-12 (2024)</dd>
+          <dt>Size</dt><dd>1 unit, 60 hours each year</dd>
+          <dt>Must also take</dt><dd>Mathematics Advanced</dd>
+          <dt>HSC paper</dt><dd>70 marks, 2 hours plus reading</dd>
+          <dt>Also sit</dt><dd>The Advanced or Extension 2 paper</dd>
+          <dt>First exam, new syllabus</dt><dd>2027</dd>
+          <dt>We teach</dt><dd>Proof, technique, written method</dd>
+          <dt>We never</dt><dd>Promise a band or an ATAR</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>HSC Mathematics Extension 1 is a one-unit NSW course taken alongside Mathematics Advanced. Under the 2024 syllabus it adds polynomials, combinatorics, the binomial theorem, proof by mathematical induction, vectors, inverse trigonometric functions and further calculus. Its HSC exam is a 70-mark paper of 2 hours plus 10 minutes reading time, and students also sit either the Advanced or the Extension 2 paper.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">A sensible start</p>
+      <h2>Three courses Extension 1 students lean on</h2>
+      <p class="ag-lede">Calculus fluency first, then counting and proof, then problems that stretch.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/complete-high-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/high-school-maths.webp" alt="High School Mathematics course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HEXO / 01</p>
+          <h3>The Advanced core</h3>
+          <p>Functions, trigonometry and calculus at full strength, because every Extension 1 question assumes the Advanced course is solid.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/olympiad-competition-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/olympiad-competition-maths.webp" alt="Maths Olympiad &amp; Competition Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HEXO / 02</p>
+          <h3>Proof and problem solving</h3>
+          <p>Induction, counting arguments and careful reasoning, practised on problems harder than the syllabus sets.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/statistics-probability-maths-course">
+        <div class="ag-pick-shot"><img src="/images/statistics-probability-maths.webp" alt="Statistics &amp; Probability course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HEXO / 03</p>
+          <h3>Probability to the binomial</h3>
+          <p>Counting, combinations and the binomial distribution, the statistics thread of Year 12 Extension 1.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="course">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What Extension 1 adds</p><h2>Eleven focus areas on top of Advanced</h2><p class="ag-lede">NESA lists the focus areas below in the course structure of the 2024 syllabus. Checked on the NSW Curriculum site on 7 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Mathematics Extension 1 11-12 Syllabus (2024): focus areas</caption><thead><tr><th scope="col">Year</th><th scope="col">Area of study</th><th scope="col">Focus area</th></tr></thead><tbody><tr><td>Year 11</td><td>Functions</td><td>Further work with functions; Polynomials</td></tr><tr><td>Year 11</td><td>Trigonometric functions</td><td>Further trigonometry</td></tr><tr><td>Year 11</td><td>Combinatorics</td><td>Permutations and combinations; The binomial theorem</td></tr><tr><td>Year 12</td><td>Proof</td><td>Proof by mathematical induction</td></tr><tr><td>Year 12</td><td>Vectors</td><td>Introduction to vectors</td></tr><tr><td>Year 12</td><td>Trigonometric functions</td><td>Inverse trigonometric functions</td></tr><tr><td>Year 12</td><td>Calculus</td><td>Further calculus skills; Further applications of calculus</td></tr><tr><td>Year 12</td><td>Statistical analysis</td><td>The binomial distribution and sampling distribution of the mean</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>Extension 1 is not a separate subject so much as a second storey on the Advanced building. NESA makes that explicit in the enrolment rules: the Year 11 course, number 11250, has Year 11 Advanced as a corequisite, and the Year 12 course, number 15250, needs both Year 11 courses as prerequisites and Year 12 Advanced alongside it. Each is worth 1 unit and 60 indicative hours.</p>
+<p>In Year 11 the new material is mostly algebraic and combinatorial: polynomials and their roots, further trigonometry, and counting arrangements. Year 12 brings the topics students remember as the real Extension 1: induction, vectors, inverse trigonometric functions and harder calculus.</p></div><div><p>The 2024 syllabus follows the same timetable as Advanced. NESA says it "is to be implemented from 2026", with Year 12 teaching from Term 4 of 2026 and the first HSC examination on it in 2027. Students moving through Year 11 and 12 during the changeover should check which version their school is teaching before buying any revision book.</p>
+<p>Vectors is the area most likely to feel new to a student who has only seen older materials, and statistics now ends at the sampling distribution of the mean. Both reward students who understand the idea behind the formula, which is the way we teach them.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-extension-1-11-12-2024/overview" rel="noopener" target="_blank">NSW Curriculum, Mathematics Extension 1 11-12 Syllabus (2024), overview</a>; <a class="ag-inline-link" href="https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-extension-1-11-12-2024/overview/course" rel="noopener" target="_blank">course structure and enrolment details</a>. Checked on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="exam">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The HSC examination</p><h2>A 70-mark paper, and a second paper beside it</h2><p class="ag-lede">The specification below is quoted from NESA's HSC examinations page for the 2024 syllabus, checked on 7 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Mathematics Extension 1 HSC examination specification</caption><thead><tr><th scope="col">Feature</th><th scope="col">What NESA specifies</th></tr></thead><tbody><tr><td>Marks and time</td><td>A written paper worth 70 marks; 2 hours plus 10 minutes reading time</td></tr><tr><td>Support</td><td>A reference sheet will be provided; NESA-approved calculators may be used</td></tr><tr><td>Section I</td><td>Objective-response questions to the value of 10 marks</td></tr><tr><td>Section II</td><td>60 marks; questions may contain parts; there will be 23 to 28 items</td></tr><tr><td>Longer items</td><td>At least one item will be worth 4 or 5 marks</td></tr><tr><td>Assumed knowledge</td><td>The Mathematics Advanced course and the Extension 1 Year 11 course; Year 11 Extension 1 may be examined</td></tr><tr><td>The second paper</td><td>Students also complete either the Mathematics Advanced paper or the Mathematics Extension 2 paper, depending on enrolment</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>Sixty marks across 23 to 28 items puts the average item at a little over two marks, much like Advanced, but the items are denser. A two-mark Extension 1 question can hide a substitution, a sign check and a domain restriction, and each of them costs the mark if it is skipped.</p>
+<p>With two hours for 70 marks the pace is about 1.7 minutes per mark. Students who practise to that budget learn to recognise the questions worth leaving for a second pass, rather than spending fifteen minutes stuck on a single part.</p></div><div><p>The second paper is easy to forget when planning. An Extension 1 student also sits the Advanced paper, or the Extension 2 paper if enrolled in that course, so revision time has to cover both. In our experience the Advanced paper is where Extension 1 students lose marks to carelessness, simply because the questions feel easy.</p>
+<p>The 2026 HSC written exams run from 13 October to no later than 5 November 2026, by NESA's key dates. Students sitting the first paper on the new syllabus in 2027 should watch for NESA's 2027 timetable.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-extension-1-11-12-2024/assessment/hsc-examinations" rel="noopener" target="_blank">NSW Curriculum, Mathematics Extension 1 HSC examinations</a>; <a class="ag-inline-link" href="https://www.nsw.gov.au/education-and-training/nesa/key-dates/hsc" rel="noopener" target="_blank">NESA, 2026 HSC key dates</a>. Checked on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="induction">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Proof by mathematical induction</p><h2>Check the cases, then prove the claim</h2><p class="ag-lede">Induction is a Year 12 focus area and the clearest example of what Extension 1 asks for. The habit we teach has two halves: test a claim on small cases to see whether it is even true, then prove it, because no number of cases is a proof.</p></div>
+    <p>A worked lesson, written by us. Claim: the sum of the first n odd numbers is n squared. Before proving anything, a student checks small values of n. A short loop in Python or a column on paper does the job.</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Testing the claim 1 + 3 + 5 + ... + (2n minus 1) = n squared</caption><thead><tr><th scope="col">n</th><th scope="col">Last odd number</th><th scope="col">Sum of odd numbers</th><th scope="col">n squared</th><th scope="col">Match?</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>1</td><td>1</td><td>Yes</td></tr><tr><td>2</td><td>3</td><td>4</td><td>4</td><td>Yes</td></tr><tr><td>3</td><td>5</td><td>9</td><td>9</td><td>Yes</td></tr><tr><td>4</td><td>7</td><td>16</td><td>16</td><td>Yes</td></tr><tr><td>5</td><td>9</td><td>25</td><td>25</td><td>Yes</td></tr><tr><td>6</td><td>11</td><td>36</td><td>36</td><td>Yes</td></tr></tbody></table></div>
+    <p>The cases agree, so the claim is worth proving. The base case is n = 1, where both sides equal 1. For the inductive step, assume the sum of the first k odd numbers is k squared. The next odd number is 2k + 1, so the sum of the first k + 1 odd numbers is k squared plus 2k + 1, which factorises to (k + 1) squared. The statement for k implies the statement for k + 1, and with the base case the claim holds for every positive integer n.</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Why cases alone are never enough: n squared + n + 41</caption><thead><tr><th scope="col">n</th><th scope="col">Value</th><th scope="col">Prime?</th></tr></thead><tbody><tr><td>0</td><td>41</td><td>Yes</td></tr><tr><td>1</td><td>43</td><td>Yes</td></tr><tr><td>10</td><td>151</td><td>Yes</td></tr><tr><td>39</td><td>1601</td><td>Yes</td></tr><tr><td>40</td><td>1681</td><td>No: 1681 = 41 squared</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The second table is the warning. The expression n squared + n + 41 gives a prime for every n from 0 to 39, forty cases in a row, and then fails at n = 40, where it equals 1681, which is 41 times 41. A student who stopped testing at 39 would have "proved" something false.</p>
+<p>That is the whole reason induction exists, and explaining it in a sentence is worth practising. Markers look for a correct base case, a clearly stated assumption, and a step that actually uses the assumption rather than restating it.</p></div><div><p>Choosing the base case matters too. The statement 2 to the power n is greater than n squared is true for n = 1, false for n = 2, 3 and 4 (4 is not greater than 4, 8 is not greater than 9, 16 is not greater than 16), and true from n = 5 onwards. A proof must start at n = 5, and a quick table shows why.</p>
+<p>This test-then-prove habit also carries straight into programming, where a function can pass a hundred test cases and still be wrong. Students who study both subjects find that each one makes the other easier to understand.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="atar">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Units and the ATAR</p><h2>How UAC counts Extension 1</h2><p class="ag-lede">This section explains UAC's published rules only. It is not advice on subject choice and it promises no rank.</p></div>
+    <p>UAC, which calculates the NSW ATAR, states that "Up to 4 units of calculus-based maths can be included in the ATAR calculation." It also explains that Mathematics Extension 1 carries a different weighting depending on its partner course: with Mathematics Advanced, Extension 1 counts as 1 unit; with Mathematics Extension 2, Extension 1 counts as 2 units, calculated by doubling its mark.</p>
+    <p>UAC adds a detail families often miss: a student who completes Advanced and then goes on to complete Extension 1 and Extension 2 will not have the Advanced result included in the calculation. None of this tells a student which courses to choose. That decision belongs with the student, the family and the school, and it should rest on which mathematics the student wants to learn and is ready for.</p>
+    <p>For how the ATAR works more generally, from ranks to scaling, see our page on <a class="ag-inline-link" href="/atar-explained-for-coding-students">the ATAR explained for coding students</a>.</p>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://www.uac.edu.au/future-applicants/atar/how-your-atar-is-calculated" rel="noopener" target="_blank">UAC, how your ATAR is calculated</a>. Checked on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Readiness</p>
+      <h2>Four checkpoints before the Extension 1 exam</h2>
+      <p class="ag-lede">The checkpoints follow the skills the course builds, in the order students usually meet them.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From Advanced fluency to Extension 1 proof</caption><thead><tr><th scope="col">Stage</th><th scope="col">Checkpoint</th><th scope="col">The sign it is in place</th></tr></thead><tbody><tr><td>Year 10 into 11</td><td class="ag-num">1. Algebra under pressure</td><td class="ag-num">Divides polynomials and finds roots without notes</td></tr><tr><td>Year 11</td><td class="ag-num">2. Counting</td><td class="ag-num">Explains why an arrangement is a permutation or a combination</td></tr><tr><td>Year 12, early</td><td class="ag-num">3. Proof</td><td class="ag-num">Writes an induction proof whose step really uses the assumption</td></tr><tr><td>Year 12, late</td><td class="ag-num">4. Two papers</td><td class="ag-num">Finishes timed Advanced and Extension 1 papers in one week</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If proof feels slippery</h3><p>Most trouble with induction comes from algebra in the inductive step, not from the logic. Practising the factorising on its own first usually fixes it.</p>
+<p>Writing a single sentence that says what the assumption is, before using it, makes the structure visible to the student as well as the marker.</p></div><div><h3>Beyond Extension 1</h3><p>Students who enjoy proof and vectors may continue to <a class="ag-inline-link" href="/hsc-maths-extension-2-tutoring">Mathematics Extension 2</a>, the one-unit Year 12 course that sits above this one.</p>
+<p>Competition problems are another outlet; the <a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">competitions calendar</a> lists maths contests open to secondary students.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for Extension 1 students</h2>
+      <p class="ag-lede">Arranged by the part of the course they serve. Each card opens a full syllabus.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Under the course</h3>
+        <span class="ag-band-sub">Advanced at full strength</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HEXO / A / 01</p>
+          <h4>High school mathematics</h4>
+          <p>The functions and calculus that Extension 1 assumes from Advanced.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HEXO / A / 02</p>
+          <h4>Algebra foundations</h4>
+          <p>Polynomial manipulation and rearranging, practised until it is fast.</p>
+          <a class="ag-course-link" href="/courses/algebra-foundations-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HEXO / A / 03</p>
+          <h4>Calculus practice</h4>
+          <p>Written for the US AP exam, with plenty of differentiation and integration that overlaps NSW calculus.</p>
+          <a class="ag-course-link" href="/courses/ap-calculus-exam-prep">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>The Extension 1 threads</h3>
+        <span class="ag-band-sub">Proof, counting and probability</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HEXO / T / 01</p>
+          <h4>Competition mathematics</h4>
+          <p>Induction, combinatorics and proof on demanding problems.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HEXO / T / 02</p>
+          <h4>Statistics and probability</h4>
+          <p>The binomial distribution and sampling ideas in depth.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HEXO / T / 03</p>
+          <h4>IB Mathematics</h4>
+          <p>An international course with strong overlap in vectors and calculus.</p>
+          <a class="ag-course-link" href="/courses/ib-mathematics-aa-ai-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Further on</h3>
+        <span class="ag-band-sub">For students looking past the HSC</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HEXO / F / 01</p>
+          <h4>Further mathematics</h4>
+          <p>A UK course whose core pure content overlaps Extension 2 territory.</p>
+          <a class="ag-course-link" href="/courses/a-level-further-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HEXO / F / 02</p>
+          <h4>University mathematics</h4>
+          <p>Calculus and linear algebra at first-year pace.</p>
+          <a class="ag-course-link" href="/courses/college-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HEXO / F / 03</p>
+          <h4>Maths through coding</h4>
+          <p>Python for testing conjectures before proving them.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Lesson rhythm</p>
+      <h2>Weekly sessions that fit an NSW school day</h2>
+      <p class="ag-lede">Our tutors teach from India, which is four and a half hours behind Sydney in winter and five and a half hours behind once NSW daylight saving starts in October. A 5 pm lesson in Sydney falls around midday for the tutor, so after-school teaching is straightforward to arrange.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday afternoons</p><p class="ag-slot-l">Most Extension 1 students take one or two of these a week.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend mornings</p><p class="ag-slot-l">Longer blocks for proof practice or a full timed paper.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Before trials</p><p class="ag-slot-l">Short runs in the school holidays.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Proof as a sentence</h3><p>Students say what they are assuming and why it helps, before writing a symbol.</p></div>
+      <div><h3>Cases before claims</h3><p>Quick tables or short programs check a statement before any proof is attempted.</p></div>
+      <div><h3>Both papers practised</h3><p>Advanced items keep their place in revision, where careless marks hide.</p></div>
+      <div><h3>Classes of five to ten</h3><p>Extension 1 students at one level, each explaining a step aloud every week.</p></div>
+      <div><h3>Individual help</h3><p>A single tutor for a single focus area that will not click.</p></div>
+      <div><h3>No rank promises</h3><p>We never forecast an ATAR or a band. The effort and the result are the student's.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students have published</h2>
+      <p class="ag-lede">Personal projects, none of them school assessment. The full set lives in our <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">One monthly charge in US dollars, identical for every family outside India, with no joining fee and nothing payable beyond the current month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A full lesson with a tutor</li><li>A straight answer on readiness</li><li>No payment details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students at one level</li><li>One tutor all term</li><li>Proofs marked and discussed</li><li>A certificate on completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A tutor for one student</li><li>Focused on chosen topics</li><li>Good for the weeks before trials</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Exactly as posted on Google by students and parents.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about Extension 1</p>
+      <h2>What Extension 1 families ask us</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is HSC Mathematics Extension 1?</h3>
+        <p>A one-unit NSW mathematics course taken with Mathematics Advanced. Under the 2024 syllabus it adds polynomials, combinatorics, the binomial theorem, proof by mathematical induction, vectors, inverse trigonometric functions, further calculus, and the binomial distribution with the sampling distribution of the mean.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I have to take Mathematics Advanced as well?</h3>
+        <p>Yes. NESA lists Year 11 Advanced as a corequisite for Year 11 Extension 1, and Year 12 Advanced as a corequisite for Year 12 Extension 1.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long is the Extension 1 exam?</h3>
+        <p>2 hours plus 10 minutes reading time, for a paper worth 70 marks with a reference sheet and approved calculators.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do Extension 1 students sit more than one paper?</h3>
+        <p>Yes. NESA states that students also complete either the Mathematics Advanced paper or the Mathematics Extension 2 paper, depending on their enrolment.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is proof by mathematical induction?</h3>
+        <p>A way of proving a statement for every positive integer from a starting value. You show it holds for the first value, then show that if it holds for any value k it must hold for k + 1. Together these cover every case.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why is checking many cases not a proof?</h3>
+        <p>Because a pattern can hold for a long time and then fail. The expression n squared + n + 41 is prime for n = 0 to 39 but equals 1681, which is 41 squared, at n = 40.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How does Extension 1 count towards the ATAR?</h3>
+        <p>UAC says up to 4 units of calculus-based maths can be included. Extension 1 counts as 1 unit when paired with Advanced, and as 2 units when paired with Extension 2.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is there a Year 11 Extension 2 course?</h3>
+        <p>No. Under the 2024 syllabus, Extension 2 is a Year 12 course; Extension 1 in Year 11 is part of the pathway towards it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you guarantee a top result?</h3>
+        <p>No. We teach the mathematics and the writing; the result is earned by the student.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you help with take-home tasks?</h3>
+        <p>We teach the underlying mathematics with our own problems, and we do not write, edit or check any work that a school will mark.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>More for NSW mathematics students</h2>
+      <p class="ag-lede">The course below this one, the course above it, and how it all feeds the ATAR.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/hsc-maths-advanced-tutoring">HSC Maths Advanced</a></h3><p>The corequisite course, explained from its 2024 syllabus.</p></div>
+      <div><h3><a class="ag-inline-link" href="/hsc-maths-extension-2-tutoring">HSC Maths Extension 2</a></h3><p>Complex numbers, mechanics and harder proof in Year 12.</p></div>
+      <div><h3><a class="ag-inline-link" href="/atar-explained-for-coding-students">The ATAR explained</a></h3><p>Ranks, scaling and units, from the admissions centres.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-new-south-wales">Coding and AI in New South Wales</a></h3><p>Every NSW page and the state's school system.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-maths-trust-amc-aio-cat-preparation">AMC and AIO preparation</a></h3><p>Competition mathematics and informatics.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>The method behind every lesson.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Try a free Extension 1 lesson</h2>
+        <p class="ag-lede">Send us the year level, the focus area that is hardest right now, and the school's current topic. The free lesson works on it with our own questions.</p>
+        <p class="ag-mt-40">Want to look around first? Full course outlines are on the <a class="ag-inline-link" href="/course-atlas">course atlas</a>, the teaching method is on <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, and our <a class="ag-inline-link" href="/hsc-maths-advanced-tutoring">Advanced page</a> covers the corequisite course.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20HSC%20Mathematics%20Extension%201." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'hexo',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp answers fastest. The +91 code is Indian because we teach from India; nothing here claims an office in NSW.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_hexo(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card, no contract. A single reply to set up the lesson.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/online-maths-tutoring-australia">Maths tutoring</a></li><li><a href="/coding-and-ai-classes-in-new-south-wales">New South Wales</a></li><li><a href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li></ul></div>
+      <div><h4>HSC mathematics</h4><ul><li><a href="/hsc-maths-advanced-tutoring">Maths Advanced</a></li><li><a href="/hsc-maths-extension-2-tutoring">Maths Extension 2</a></li><li><a href="/atar-explained-for-coding-students">The ATAR explained</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Test the cases, then write the proof</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_hexo = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'hsc-maths-extension-1-tutoring-inline', meta: { name: name, age: age, page: 'hsc-maths-extension-1-tutoring' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
