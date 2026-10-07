@@ -22,10 +22,14 @@ for k, v in {'em dash': '—', 'en dash': '–', 'euro sign': '€'}.items():
     print(('ok   ' if n == 0 else 'BAD  ') + k + ' in raw html: ' + str(n))
     bad += 1 if n else 0
 rules = {'bare IST': (r'\bIST\b', raw, 0), 'bare BST': (r'\bBST\b', noscript, 0), 'pound sign or GBP': (r'£|&pound;|&#163;|\bGBP\b', noscript, 0),
-         'Premium': (r'\bpremium\b', raw, re.I), 'AggregateRating': (r'AggregateRating', raw, 0)}
+         'Premium': (r'\bpremium\b', raw, re.I), 'AggregateRating': (r'AggregateRating', raw, 0),
+         'AUD figure': (r'\bA\$|\bAU\$|\bAUD\b', noscript, 0)}
 gb = "countryIso:'GB'" in raw or "countryIso: 'GB'" in raw
+au = "countryIso:'AU'" in raw or "countryIso: 'AU'" in raw
 for k, (pat, src, fl) in rules.items():
     if k in ('bare BST', 'pound sign or GBP') and not gb:
+        continue
+    if k == 'AUD figure' and not au:
         continue
     n = len(re.findall(pat, src, fl))
     print(('ok   ' if n == 0 else 'BAD  ') + k + ': ' + str(n))

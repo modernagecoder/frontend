@@ -14,12 +14,13 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..', '..', '..');
-const DIR = path.join(ROOT, 'content', 'uk');
 const unq = s => s.replace(/\\'/g, "'");
 const field = (src, re) => { const m = src.match(re); return m ? unq(m[1]) : ''; };
 const STR = "'((?:[^'\\\\]|\\\\.)*)'";
 
-function builtUkPages() {
+// builtPages('au') serves the Australian indexes the same way (content/au).
+function builtPages(market) {
+  const DIR = path.join(ROOT, 'content', market);
   if (!fs.existsSync(DIR)) return [];
   return fs.readdirSync(DIR).filter(f => f.endsWith('.js')).map(f => {
     const src = fs.readFileSync(path.join(DIR, f), 'utf8');
@@ -36,4 +37,6 @@ function builtUkPages() {
   }).filter(p => p.slug && fs.existsSync(path.join(ROOT, 'src', 'pages', p.slug + '.html')));
 }
 
-module.exports = { builtUkPages };
+const builtUkPages = () => builtPages('uk');
+
+module.exports = { builtUkPages, builtPages };

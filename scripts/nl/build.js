@@ -21,9 +21,12 @@ const { contrast, PAPERS } = require('./lib/accent');
 
 const ROOT = path.resolve(__dirname, '..', '..');
 const slug = process.argv[2];
-if (!slug) { console.error('usage: node scripts/nl/build.js <slug>'); process.exit(2); }
+// --dry-run validates and renders through every gate below, then stops before writing,
+// registering or routing anything (used to prove a renderer or gate change leaves pages alone).
+const DRY = process.argv.includes('--dry-run');
+if (!slug) { console.error('usage: node scripts/nl/build.js <slug> [--dry-run]'); process.exit(2); }
 
-const MARKET_DIRS = ['nl', 'ie', 'uk'];
+const MARKET_DIRS = ['nl', 'ie', 'uk', 'au'];
 const modPath = MARKET_DIRS.map(d => path.join(ROOT, 'content', d, slug + '.js')).find(p => fs.existsSync(p));
 if (!modPath) { console.error('no content module for ' + slug + ' in content/' + MARKET_DIRS.join(', content/')); process.exit(2); }
 delete require.cache[require.resolve(modPath)];
@@ -95,6 +98,23 @@ if (LEAD_ISO === 'IE' && /\bIST\b/.test(html.replace(/<script[\s\S]*?<\/script>/
 // UK: BST is also Bangladesh Standard Time and IST India Standard Time, so neither is ever written bare.
 if (LEAD_ISO === 'GB' && /\b(IST|BST)\b/.test(html.replace(/<script[\s\S]*?<\/script>/g, ' '))) fail('bare BST or IST on a UK page: write UK time or India time');
 if (LEAD_ISO === 'GB' && /(£|&pound;|&#163;|\bGBP\b)/.test(html.replace(/<script[\s\S]*?<\/script>/g, ' '))) fail('pound sign or GBP on a UK page: USD is the only currency (spec section 9)');
+// Australia (spec docs/superpowers/specs/2026-10-07-au-cluster-design.md, section 9). IST means India
+// Standard Time to the teachers and nothing to an Australian family, so it is never written bare; AUD
+// figures are a second currency; 'Premium' and en dashes are banned site-wide in new copy.
+if (LEAD_ISO === 'AU') {
+  const vis = html.replace(/<script[\s\S]*?<\/script>/g, ' ');
+  if (/\bIST\b/.test(vis)) fail('bare IST on an Australian page: write India time, and AEST, AEDT, ACST, AWST or the state name');
+  if (/(\bA\$|\bAU\$|\bAUD\b)/.test(vis)) fail('AUD figure on an Australian page: USD is the only printed currency');
+  if (/\bpremium\b/i.test(vis)) fail("'Premium' on an Australian page");
+  if (/\u2013|&ndash;/.test(vis)) fail('en dash on an Australian page');
+  if (!/<html lang="en(-AU)?"/.test(html)) fail('html lang must be en or en-AU on an Australian page');
+}
+if (DRY) {
+  const vw = html.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<head[\s\S]*?<\/head>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/&[a-z]+;|&#\d+;/gi, ' ').replace(/\s+/g, ' ').trim().split(' ').filter(Boolean).length;
+  if (vw < FLOORS[page.pageType]) fail(`${vw} visible words, under the ${FLOORS[page.pageType]} floor`);
+  if (/—/.test(twin(page))) fail('em dash in md twin');
+  console.log(`dry-run ${slug}: all build gates pass (${vw} visible words), nothing written`); process.exit(0);
+}
 
 // --- write -------------------------------------------------------------------
 const outHtml = path.join(ROOT, 'src', 'pages', slug + '.html');
