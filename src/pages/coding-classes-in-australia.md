@@ -370,6 +370,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [ICAS Maths practice](/icas-maths-practice-online)
 - [Maths tutor cost in Australia](/maths-tutor-cost-australia-explained)
 - [Online vs in-person coding classes](/online-vs-in-person-coding-classes-australia)
+- [Coding classes vs coding camps](/coding-classes-vs-coding-camps-australia)
 <!-- AU-LINKS -->
 
 
