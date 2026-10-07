@@ -316,6 +316,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [School holiday coding course in Australia](/school-holiday-coding-course-australia)
 - [NAPLAN Year 3 numeracy practice](/naplan-year-3-numeracy-practice)
 - [NAPLAN Year 5 numeracy practice](/naplan-year-5-numeracy-practice)
+- [NAPLAN Year 7 numeracy practice](/naplan-year-7-numeracy-practice)
 <!-- AU-LINKS -->
 
 
