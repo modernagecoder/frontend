@@ -157,7 +157,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 129 | coding-classes-for-kids-perth (kper, #1C1E7E) | cg- kids city page | 3,213 | 1.2% vs coding-classes-for-kids-gold-coast | Is the trip home on the Fremantle line just the trip out, reversed? | reversing a list and comparing two lists to catch a data typo | bf7b796c |
 | 130 | coding-classes-for-kids-adelaide (kadl, #964454) | cg- kids city page | 3,355 | 2% vs coding-classes-for-kids-sydney | Are Adelaide's five city squares a mirror image or a half turn? | reflection versus rotational symmetry tested on coordinates | 48289b76 |
 | 131 | coding-classes-for-kids-canberra (kcbr, #423680) | cg- kids city page | 3,194 | 1.4% vs coding-classes-for-kids-melbourne | How many playgrounds surround each Canberra town centre, and which pictogram key shows them fairly? | pictogram key choice, quotient and remainder, part icons | dbdf050d |
-| 132 | coding-classes-for-kids-gold-coast (kgcs, #941C3A) | cg- kids city page | 3,165 | 1.2% vs coding-classes-for-kids-melbourne | How far apart are the G:link stops, and what does a stem-and-leaf plot show that an average hides? | stem-and-leaf plots, mean versus median with a long tail | (this commit) |
+| 132 | coding-classes-for-kids-gold-coast (kgcs, #941C3A) | cg- kids city page | 3,165 | 1.2% vs coding-classes-for-kids-melbourne | How far apart are the G:link stops, and what does a stem-and-leaf plot show that an average hides? | stem-and-leaf plots, mean versus median with a long tail | cf9137fd |
+| 133 | coding-classes-for-kids-newcastle (kncl, #521C1C) | cg- kids city page | 3,204 | 1.7% vs coding-classes-for-kids-melbourne | Why does the computer say 3 plus 6 is 36 when it reads Newcastle bench data? | numbers stored as text, concatenation versus addition, int() conversion | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
