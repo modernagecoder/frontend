@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Australian Mathematical Olympiad Preparation: AMO Explained</title>
+  <meta name="description" content="The Australian Mathematical Olympiad since 2026: AMO Summer, Winter and Finals, the invitation route through the AMC and AIMO, and how olympiad proofs work.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/australian-mathematical-olympiad-preparation">
+  <link rel="alternate" type="text/markdown" href="/src/pages/australian-mathematical-olympiad-preparation.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#281894">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/australian-mathematical-olympiad-preparation">
+  <meta property="og:title" content="Australian Mathematical Olympiad Preparation: AMO Explained">
+  <meta property="og:description" content="How the Australian Mathematical Olympiad works since its 2026 restructure into Summer, Winter and Finals, how students are invited, and a worked olympiad problem with a full proof.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Australian Mathematical Olympiad Preparation: AMO Explained">
+  <meta name="twitter:description" content="The AMO after 2026: Summer, Winter and Finals, the invitation route, and olympiad proof writing.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-amop .ag-hero-grid { gap: clamp(1rem, 2.5vw, 2.2rem); }
+.ag-root.ag-amop .ag-hero h1 { letter-spacing: -0.015em; }
+.ag-root.ag-amop .ag-capsule { border-left-width: 8px; }
+.ag-root.ag-amop .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-amop .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-amop .ag-table caption { text-align: left; }
+.ag-root.ag-amop .ag-spec dt { letter-spacing: 0.12em; }
+.ag-root.ag-amop .ag-slots { gap: 1.2rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/australian-mathematical-olympiad-preparation#page","url":"https://learn.modernagecoders.com/australian-mathematical-olympiad-preparation","name":"Australian Mathematical Olympiad Preparation","description":"A guide to the Australian Mathematical Olympiad for students, parents and teachers: the 2026 restructure into AMO Summer, AMO Winter and AMO Finals, dates and formats, how invitations are made, the open competitions that lead there, and a worked lesson on the postage-stamp problem with a complete proof.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":3,"name":"Australian Mathematical Olympiad","item":"https://learn.modernagecoders.com/australian-mathematical-olympiad-preparation"}]},{"@type":"Course","name":"Australian Mathematical Olympiad Preparation","description":"Live online olympiad mathematics classes for Australian students, focused on problem solving and writing complete proofs, from AMC and AIMO preparation upwards.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/australian-mathematical-olympiad-preparation"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/australian-mathematical-olympiad-preparation"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/australian-mathematical-olympiad-preparation"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the Australian Mathematical Olympiad?","acceptedAnswer":{"@type":"Answer","text":"An invitation-only proof-based mathematics exam run by the Australian Maths Trust for students in Year 11 or below. Since 2026 it has three parts: AMO Summer, AMO Winter and AMO Finals."}},{"@type":"Question","name":"How do students get invited?","acceptedAnswer":{"@type":"Answer","text":"Invitations are made by AMOC State Directors. The AMT says students considered for invitational maths training need outstanding results in the AMC or a Maths for Young Australians module."}},{"@type":"Question","name":"When were the 2026 AMO exams?","acceptedAnswer":{"@type":"Answer","text":"AMO Summer on Wednesday 25 February, AMO Winter on Wednesday 29 July, and AMO Finals on Tuesday 1 and Wednesday 2 September 2026."}},{"@type":"Question","name":"What is the format of AMO Summer and Winter?","acceptedAnswer":{"@type":"Answer","text":"Six questions in three hours, sat at school, by about 250 invited students each. AMO Finals is two papers of four questions in four hours, for about 60 students."}},{"@type":"Question","name":"What is the postage-stamp problem?","acceptedAnswer":{"@type":"Answer","text":"Finding which totals can be made from two fixed amounts, such as 5 and 8. For coprime amounts a and b, the largest total that cannot be made is ab minus a minus b."}},{"@type":"Question","name":"What should a younger student enter first?","acceptedAnswer":{"@type":"Answer","text":"The AMC, then the AJMO (up to Year 8) or the AIMO (Years 7 to 10). The AIMO's written questions are the first open papers that test proof directly."}},{"@type":"Question","name":"Can a student do maths and informatics olympiads together?","acceptedAnswer":{"@type":"Answer","text":"Not in the same year. The AMT and Australian Science Innovations allow a student to take part in only one olympiad program per year."}},{"@type":"Question","name":"Do you use AMO past papers?","acceptedAnswer":{"@type":"Answer","text":"No. The AMT sells its own past papers. We teach with original problems and classical results proved in class."}},{"@type":"Question","name":"Can lessons guarantee an invitation?","acceptedAnswer":{"@type":"Answer","text":"No. Only the AMOC decides invitations and selections. We teach the problem solving and proof writing that strong results reflect."}},{"@type":"Question","name":"What happens in the free class?","acceptedAnswer":{"@type":"Answer","text":"A student works one olympiad style problem with a teacher, from experiment to written proof, and gets honest feedback on the proof."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/australian-mathematical-olympiad-preparation","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-amop">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#structure">The new AMO</a></li>
+      <li><a href="#route">Getting invited</a></li>
+      <li><a href="#proof">A full proof</a></li>
+      <li><a href="#train">How we train</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / Australian Mathematical Olympiad
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; Year 11 or below &middot; Checked at the Australian Maths Trust</p>
+        <h1>Australian Mathematical Olympiad preparation</h1>
+        <p class="ag-lede">The Australian Mathematical Olympiad is an invitation-only exam for some of the country's strongest young mathematicians, and from 1 January 2026 it changed shape: one exam became three. Its problems are not harder versions of school maths. They ask for complete, convincing proofs of statements nobody has shown the student how to prove. This page explains the new structure and the route to an invitation exactly as the Australian Maths Trust publishes them, then works one classic olympiad problem from first experiments to a written proof. We are independent of the Australian Maths Trust and its committees, and no class can secure an invitation.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#proof" class="ag-btn ag-btn--ghost">Work through the proof</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20olympiad%20maths%20class%20for%20a%20student%20in%20Australia." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'amop'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Checked at amt.edu.au on 7 October 2026 &middot; Independent of the AMT &middot; Invitation decided by the AMOC</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Exam</dt><dd>Australian Mathematical Olympiad (AMO)</dd>
+          <dt>Since 1 January 2026</dt><dd>AMO Summer, AMO Winter, AMO Finals</dd>
+          <dt>AMO Summer and Winter</dt><dd>6 questions in 3 hours, sat at school</dd>
+          <dt>AMO Finals</dt><dd>2 papers, 4 questions in 4 hours each day</dd>
+          <dt>Who sits it</dt><dd>Invited students in Year 11 or below</dd>
+          <dt>Invitations by</dt><dd>AMOC State Directors</dd>
+          <dt>We provide</dt><dd>Olympiad problem solving and proof writing</dd>
+          <dt>We are not</dt><dd>The AMT, the AMOC or a selector</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>From 1 January 2026 the Australian Mathematical Olympiad became three exams: AMO Summer and AMO Winter, each 6 questions in 3 hours sat at school by about 250 invited students, and AMO Finals, two days of 4 questions in 4 hours for about 60 students. Invitations go to students in Year 11 or below, made by AMOC State Directors. Every problem requires a proof.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three courses on the road to olympiad maths</h2>
+      <p class="ag-lede">Olympiad readiness rests on strong problem solving and the habit of proving things.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/olympiad-competition-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/olympiad-competition-maths.webp" alt="Maths Olympiad &amp; Competition Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AMO / 01</p>
+          <h3>Competition maths</h3>
+          <p>From AMC-style problems to olympiad proofs, with number theory, combinatorics, geometry and inequalities.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/comprehensive-middle-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/middle-school-maths.webp" alt="Middle School Mathematics Mastery course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AMO / 02</p>
+          <h3>Middle years maths</h3>
+          <p>Secure algebra and geometry for younger students, the base AIMO problems build on.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-dsa-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-teens.webp" alt="Problem Solving for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AMO / 03</p>
+          <h3>Problem solving for teens</h3>
+          <p>Structured reasoning and careful case analysis, useful in both olympiad maths and informatics.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="structure">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The new AMO</p><h2>Three exams instead of one, from 2026</h2><p class="ag-lede">Before 2026 the AMO was a two-day contest of four questions each day, sat under school supervision by about 200 invited students. The Australian Maths Trust now runs it as three separate competitions.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The Australian Mathematical Olympiad in 2026, as published by the Australian Maths Trust</caption><thead><tr><th scope="col"></th><th scope="col">AMO Summer</th><th scope="col">AMO Winter</th><th scope="col">AMO Finals</th></tr></thead><tbody><tr><td>Date in 2026</td><td>Wednesday 25 February</td><td>Wednesday 29 July</td><td>Tuesday 1 and Wednesday 2 September</td></tr><tr><td>Where</td><td>At school</td><td>At school</td><td>AMT-organised exam hubs</td></tr><tr><td>Students</td><td>About 250, invited</td><td>About 250, invited</td><td>About 60, invited</td></tr><tr><td>Format</td><td>6 questions in 3 hours</td><td>6 questions in 3 hours</td><td>2 papers over two days, 4 questions in 4 hours each day</td></tr><tr><td>Purpose</td><td>Selects for the Autumn School of Excellence and State Director mentoring</td><td>Selects for AMO Finals</td><td>Selects for the Spring School of Excellence</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>Invitations to AMO Summer and AMO Winter are made by Australian Mathematical Olympiad Committee (AMOC) State Directors, and go to around 200 to 250 students in Year 11 or below across Australia. Students who attended the AMOC School of Excellence or the Autumn School of Excellence are invited, along with some participants in the Australian Training Tournament.</p>
+<p>The AMT describes AMO Summer as six challenging problems requiring sound mathematical proofs, and adds that even solving one of them is a significant achievement.</p></div><div><p>For AMO Summer 2026, the AMT published award cut-offs of 35, 27 and 16 points for gold, silver and bronze, given approximately to the top 20, top 50 and top 100. Honourable mentions go to students with full marks on at least one problem who miss out on those awards.</p>
+<p>Those numbers are published to describe results, not targets. The AMO is about the quality of reasoning on problems most strong students cannot finish.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://amt.edu.au/amo" rel="noopener" target="_blank">Australian Maths Trust, Australian Mathematical Olympiad</a>, read 7 October 2026. 2027 dates had not been published there.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="route">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Getting invited</p><h2>The open competitions that lead towards the AMO</h2><p class="ag-lede">Nobody enters the AMO directly. The AMT says students considered for invitational maths training need outstanding results in the Australian Mathematics Competition or one of the modules under Maths for Young Australians.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Open AMT competitions on the way to olympiad level, 2026 details from the AMT</caption><thead><tr><th scope="col">Competition</th><th scope="col">Who</th><th scope="col">Format</th><th scope="col">2026 date</th></tr></thead><tbody><tr><td>Australian Mathematics Competition (AMC)</td><td>Years 3 to 12</td><td>60 minutes primary, 75 minutes secondary</td><td>4 to 6 August</td></tr><tr><td>Australian Junior Mathematics Olympiad (AJMO)</td><td>Up to Year 8</td><td>10 problems, 90 minutes, online, integer answers 0 to 999</td><td>Thursday 10 September</td></tr><tr><td>Australian Intermediate Mathematics Olympiad (AIMO)</td><td>Years 7 to 10, pitched at Year 10</td><td>4 hours; 10 questions, 8 integer answers and 2 written solutions; 35 marks</td><td>Thursday 10 September</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The AJMO is new: the AMT describes it as an accessible introduction to olympiad-style problems for students up to Year 8 who are not yet ready for the AIMO. Because both run on the same day, schools choose one per student, and students in Year 8 or below who are ready for the AIMO should still sit it.</p>
+<p>The AIMO, according to the AMT, can be used to identify students for its olympiad pathway. Its written questions may include proofs, so it is the first open paper where proof writing is tested directly.</p></div><div><p>Beyond the AMO, the AMT lists training schools, the AMOC Senior Contest and the Asian Pacific Mathematics Olympiad. Each year four Australian girls are selected for the European Girls' Mathematical Olympiad and six students for the International Mathematical Olympiad.</p>
+<p>The AMT and Australian Science Innovations do not let a student take part in more than one olympiad program in the same year, so students invited to several must choose one subject.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://amt.edu.au/olympiad-programs" rel="noopener" target="_blank">AMT Olympiad and Pathways</a>; <a class="ag-inline-link" href="https://amt.edu.au/aimo" rel="noopener" target="_blank">AIMO</a>; <a class="ag-inline-link" href="https://amt.edu.au/ajmo" rel="noopener" target="_blank">AJMO</a>; <a class="ag-inline-link" href="https://amt.edu.au/amc" rel="noopener" target="_blank">AMC</a>. Read 7 October 2026. Entry prices printed there are not shown.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="proof">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Worked lesson</p><h2>The postage-stamp problem, from experiment to proof</h2><p class="ag-lede">A classic olympiad style question, with values chosen by us: a game awards either 5 points or 8 points per move. Which totals can never be reached, and what is the largest one?</p></div>
+    <div class="ag-grid-3"><div><h3>1. Experiment</h3><p>List reachable totals: 5, 8, 10, 13, 15, 16, 18, 20, 21, 23, 24, 25, 26, 28 and onwards. The gaps are 1, 2, 3, 4, 6, 7, 9, 11, 12, 14, 17, 19, 22 and 27. After 27, nothing seems to be missing.</p></div><div><h3>2. Conjecture</h3><p>The largest unreachable total is 27, and there are 14 unreachable totals. For coprime scores a and b, a known result says the largest is ab minus a minus b, which is 40 minus 13, so 27.</p></div><div><h3>3. Prove it</h3><p>A list is evidence, not proof: we must show every total from 28 upwards is reachable, and that 27 is not. The neat way is to sort totals by their remainder when divided by 5.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Multiples of 8 sorted by their remainder on division by 5</caption><thead><tr><th scope="col">Number of 8-point moves</th><th scope="col">Points from those moves</th><th scope="col">Remainder when divided by 5</th><th scope="col">Smallest reachable total with that remainder</th></tr></thead><tbody><tr><td class="ag-num">0</td><td class="ag-num">0</td><td class="ag-num">0</td><td class="ag-num">0</td></tr><tr><td class="ag-num">2</td><td class="ag-num">16</td><td class="ag-num">1</td><td class="ag-num">16</td></tr><tr><td class="ag-num">4</td><td class="ag-num">32</td><td class="ag-num">2</td><td class="ag-num">32</td></tr><tr><td class="ag-num">1</td><td class="ag-num">8</td><td class="ag-num">3</td><td class="ag-num">8</td></tr><tr><td class="ag-num">3</td><td class="ag-num">24</td><td class="ag-num">4</td><td class="ag-num">24</td></tr></tbody></table></div>
+    <p class="ag-mt-40">The proof follows from the table. Adding 5-point moves never changes a total's remainder on division by 5, so for each remainder the smallest reachable total is the multiple of 8 shown, and every larger number with the same remainder is reachable by adding fives. The largest of those smallest values is 32, with remainder 2. So 32 minus 5, which is 27, has remainder 2 but is below the first reachable total with that remainder: 27 cannot be reached. Every number from 28 onwards lies at or above the first reachable total for its remainder (28 is 8 plus four fives, 29 is 24 plus 5, 30 is six fives, 31 is 16 plus three fives, 32 is four eights), so every one can be reached. That completes the proof that 27 is the largest unreachable total.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What an olympiad marker looks for</h3><p>A complete answer states the claim, explains why the remainder idea works, shows that 27 fails and that every larger number succeeds, and ends with a clear conclusion. Missing the "every larger number" half is the most common reason for losing marks.</p>
+<p>Writing the proof in short numbered steps, each justified, helps a marker follow it and helps the writer spot gaps.</p></div><div><h3>Going further</h3><p>The same argument, with a in place of 5 and b in place of 8, proves the general formula ab minus a minus b for any two coprime scores. Counting the unreachable totals, which gives (a minus 1) times (b minus 1) divided by 2, is a good next challenge: here it is 4 times 7 divided by 2, which is 14, matching the list.</p>
+<p>Why must the scores be coprime? Try 6 and 9: every reachable total is a multiple of 3, so infinitely many totals are unreachable and there is no largest.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="train">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How we train</p><h2>Olympiad preparation that respects how selection works</h2><p class="ag-lede">Invitations are decided by the AMOC from competition results and its own programs. Our role is to build the problem solving and proof writing those results reflect.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><p>Classes work through problems by area: number theory, combinatorics, geometry, algebra and inequalities. Each problem is explored, conjectured and then proved, with students writing full solutions that a teacher marks as an olympiad marker would.</p>
+<p>Younger students build towards the AJMO and AIMO first, where integer-answer questions sit alongside the first written proofs. Older students practise full proof papers under time.</p></div><div><p>We never reproduce AMT papers or solutions; past papers belong to the AMT, which sells them on its own site. All our problems are original or classical results proved from scratch in class.</p>
+<p>We do not promise an invitation, a medal or selection to any team. Only the AMOC makes those decisions, and they rest on the student's own results.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>A term of olympiad training for a strong Year 8 to 10 student</caption><thead><tr><th scope="col">Weeks</th><th scope="col">Focus</th><th scope="col">Sign of progress</th></tr></thead><tbody><tr><td>1 and 2</td><td>Experiment, conjecture, prove</td><td>Separates evidence from proof in their own words</td></tr><tr><td>3 and 4</td><td>Number theory: remainders and divisibility</td><td>Writes a complete remainder argument</td></tr><tr><td>5 and 6</td><td>Combinatorics: counting and cases</td><td>Covers every case without overlap</td></tr><tr><td>7 and 8</td><td>Geometry: angles and similar triangles</td><td>Justifies every step of a diagram argument</td></tr><tr><td>9 and 10</td><td>Timed mixed papers with written solutions</td><td>Produces at least one fully correct proof per paper</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Growing towards olympiad level</p>
+      <h2>Four rungs from AMC problems to olympiad proofs</h2>
+      <p class="ag-lede">Year level is less important than the kind of reasoning a student can sustain.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From strong problem solving to complete proofs</caption><thead><tr><th scope="col">Around</th><th scope="col">Rung</th><th scope="col">The sign it is secure</th></tr></thead><tbody><tr><td>Years 5 to 7</td><td class="ag-num">1. Enjoys hard problems</td><td class="ag-num">Persists with an unfamiliar problem for thirty minutes</td></tr><tr><td>Years 7 to 8</td><td class="ag-num">2. Explains answers</td><td class="ag-num">Says why an answer must be right, not only what it is</td></tr><tr><td>Years 8 to 10</td><td class="ag-num">3. Writes proofs</td><td class="ag-num">Produces a complete written argument for a simple claim</td></tr><tr><td>Years 10 to 11</td><td class="ag-num">4. Olympiad proofs</td><td class="ag-num">Proves unfamiliar results under time pressure</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If progress stalls</h3><p>Go back to small cases. Most olympiad breakthroughs begin by working out a pattern by hand.</p>
+<p>Read model proofs slowly and rewrite them in your own words; it builds the language of proof.</p></div><div><h3>Related reading</h3><p>Our <a class="ag-inline-link" href="/australian-maths-trust-amc-aio-cat-preparation">Australian Maths Trust page</a> covers the AMC, CAT and AIO.</p>
+<p>For broader competition preparation, see <a class="ag-inline-link" href="/math-olympiad-amc-tutoring">maths olympiad tutoring</a>.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for mathematically ambitious students</h2>
+      <p class="ag-lede">From secure foundations to olympiad proofs. Each card opens its syllabus.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Foundations</h3>
+        <span class="ag-band-sub">Before olympiad problems</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AMO / FD / 01</p>
+          <h4>Middle years maths</h4>
+          <p>Algebra and geometry done properly.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AMO / FD / 02</p>
+          <h4>Mental maths for kids</h4>
+          <p>Number sense for younger students.</p>
+          <a class="ag-course-link" href="/courses/mental-maths-mastery-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AMO / FD / 03</p>
+          <h4>Algebra foundations</h4>
+          <p>Fluent, accurate symbol work.</p>
+          <a class="ag-course-link" href="/courses/algebra-foundations-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Competition</h3>
+        <span class="ag-band-sub">AMC, AJMO and AIMO</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AMO / CP / 01</p>
+          <h4>Competition maths</h4>
+          <p>From contest problems to proofs.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AMO / CP / 02</p>
+          <h4>Statistics and probability</h4>
+          <p>Counting and chance in depth.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AMO / CP / 03</p>
+          <h4>Computational thinking</h4>
+          <p>Patterns and logic for younger students.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Beyond</h3>
+        <span class="ag-band-sub">Proof and computation</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AMO / BY / 01</p>
+          <h4>Problem solving for teens</h4>
+          <p>Rigorous case analysis.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AMO / BY / 02</p>
+          <h4>Competitive programming</h4>
+          <p>For students also drawn to informatics.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AMO / BY / 03</p>
+          <h4>Maths through coding</h4>
+          <p>Testing conjectures with code.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live olympiad classes from India</h2>
+      <p class="ag-lede">Our olympiad teachers are based in India. The time difference works in favour of families: when it is 6pm in Sydney it is 1:30pm India time in winter and 12:30pm in summer, and 6pm in Perth is 3:30pm India time all year. Evening problem sessions in Australia therefore sit inside the Indian working day.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday evening</p><p class="ag-slot-l">One area of olympiad maths per week.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">A timed proof paper and marking.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Before AIMO or AMO</p><p class="ag-slot-l">Mixed papers and proof clean-up.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Proof first</h3><p>Every answer is written as a complete argument.</p></div>
+      <div><h3>Original problems</h3><p>Never copied from AMT papers.</p></div>
+      <div><h3>Marked like a marker</h3><p>Feedback on gaps, not only on the final answer.</p></div>
+      <div><h3>Matched squads</h3><p>A squad of five to ten olympiad students working on the same problems.</p></div>
+      <div><h3>One-to-one option</h3><p>For a student already on the olympiad pathway.</p></div>
+      <div><h3>No selection promised</h3><p>Invitations and teams are the AMOC's decision.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Work our students have published</h2>
+      <p class="ag-lede">Projects made for their own sake. Browse the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Olympiad classes cost a flat monthly amount in US dollars, the rate we use outside India; nothing is payable to join and you can stop at the end of any month. AMT competition entries are a matter between schools and the AMT, not us.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A first olympiad class, free</li><li>An honest read on proof-writing level</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students at one level</li><li>One teacher across the term</li><li>Solutions marked and discussed</li><li>A certificate at the end</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher for one student</li><li>Work shaped around that student's weakest area</li><li>Weekly times arranged with you</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews, exactly as written by families.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about the AMO</p>
+      <h2>What students and parents ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is the Australian Mathematical Olympiad?</h3>
+        <p>An invitation-only proof-based mathematics exam run by the Australian Maths Trust for students in Year 11 or below. Since 2026 it has three parts: AMO Summer, AMO Winter and AMO Finals.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do students get invited?</h3>
+        <p>Invitations are made by AMOC State Directors. The AMT says students considered for invitational maths training need outstanding results in the AMC or a Maths for Young Australians module.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When were the 2026 AMO exams?</h3>
+        <p>AMO Summer on Wednesday 25 February, AMO Winter on Wednesday 29 July, and AMO Finals on Tuesday 1 and Wednesday 2 September 2026.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the format of AMO Summer and Winter?</h3>
+        <p>Six questions in three hours, sat at school, by about 250 invited students each. AMO Finals is two papers of four questions in four hours, for about 60 students.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the postage-stamp problem?</h3>
+        <p>Finding which totals can be made from two fixed amounts, such as 5 and 8. For coprime amounts a and b, the largest total that cannot be made is ab minus a minus b.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What should a younger student enter first?</h3>
+        <p>The AMC, then the AJMO (up to Year 8) or the AIMO (Years 7 to 10). The AIMO's written questions are the first open papers that test proof directly.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a student do maths and informatics olympiads together?</h3>
+        <p>Not in the same year. The AMT and Australian Science Innovations allow a student to take part in only one olympiad program per year.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you use AMO past papers?</h3>
+        <p>No. The AMT sells its own past papers. We teach with original problems and classical results proved in class.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can lessons guarantee an invitation?</h3>
+        <p>No. Only the AMOC decides invitations and selections. We teach the problem solving and proof writing that strong results reflect.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens in the free class?</h3>
+        <p>A student works one olympiad style problem with a teacher, from experiment to written proof, and gets honest feedback on the proof.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>More for mathematically able students</h2>
+      <p class="ag-lede">Competitions and maths pathways in Australia.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/australian-maths-trust-amc-aio-cat-preparation">AMT competitions</a></h3><p>The AMC, CAT and AIO in depth.</p></div>
+      <div><h3><a class="ag-inline-link" href="/math-olympiad-amc-tutoring">Maths olympiad tutoring</a></h3><p>Contest preparation at every level.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></h3><p>Every contest by month.</p></div>
+      <div><h3><a class="ag-inline-link" href="/year-10-maths-methods-preparation">Year 10 Methods preparation</a></h3><p>Strong algebra before senior maths.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-maths-tutoring-australia">Maths tutoring online</a></h3><p>Weekly maths alongside olympiad work.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>The national guide, state by state.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free olympiad class</h2>
+        <p class="ag-lede">Tell us the year level and which competitions the student has sat. The free class works one problem from experiment to proof and ends with honest advice on next steps.</p>
+        <p class="ag-mt-40">To look before booking, browse the full syllabi on our <a class="ag-inline-link" href="/course-atlas">course atlas</a> or read <a class="ag-inline-link" href="/how-we-teach">how we teach</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20olympiad%20maths%20class%20for%20a%20student%20in%20Australia." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'amop',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Messages on WhatsApp tend to be answered first. You will see an Indian number, since our teachers and office are in India, not Australia.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_amop(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card and no obligation. We reply once to find a time.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Australia</h4><ul><li><a href="/online-maths-tutoring-australia">Maths tutoring</a></li><li><a href="/year-10-maths-methods-preparation">Year 10 Methods</a></li><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/naplan-numeracy-practice-online">NAPLAN numeracy</a></li></ul></div>
+      <div><h4>Competitions</h4><ul><li><a href="/australian-maths-trust-amc-aio-cat-preparation">AMT competitions</a></li><li><a href="/math-olympiad-amc-tutoring">Olympiad tutoring</a></li><li><a href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li><li><a href="/course-atlas">Course atlas</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Independent of the AMT and the AMOC; facts checked at source</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_amop = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'australian-mathematical-olympiad-preparation-inline', meta: { name: name, age: age, page: 'australian-mathematical-olympiad-preparation' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

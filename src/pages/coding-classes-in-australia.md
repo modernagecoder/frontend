@@ -354,6 +354,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Young ICT Explorers project help](/young-ict-explorers-project-help)
 - [Student hackathons in Australia](/australian-student-hackathons)
 - [After a Girls' Programming Network workshop](/girls-programming-network-next-step-australia)
+- [Australian Mathematical Olympiad preparation](/australian-mathematical-olympiad-preparation)
 <!-- AU-LINKS -->
 
 
