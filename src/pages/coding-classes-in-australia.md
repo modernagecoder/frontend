@@ -364,6 +364,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Bebras Challenge practice](/bebras-challenge-australia-practice)
 - [Australian Informatics Olympiad preparation](/australian-informatics-olympiad-preparation)
 - [AIO to IOI pathway in Australia](/aio-to-ioi-pathway-australia)
+- [AMC practice by year](/australian-mathematics-competition-practice-by-year)
 <!-- AU-LINKS -->
 
 
