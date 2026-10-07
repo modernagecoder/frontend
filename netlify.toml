@@ -19042,6 +19042,18 @@
   to = "/src/pages/coding-and-ai-classes-in-new-south-wales.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-melbourne"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-melbourne.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-melbourne.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

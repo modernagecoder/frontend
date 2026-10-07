@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Game Development for Kids in Australia | Live Online Classes</title>
+  <meta name="description" content="Game development for kids in Australia: Scratch games in Year 3, Python and Pygame by Year 7, a real engine by Year 9, taught live online. First class free.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/game-development-for-kids-australia">
+  <link rel="alternate" type="text/markdown" href="/src/pages/game-development-for-kids-australia.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#2D6F30">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/game-development-for-kids-australia">
+  <meta property="og:title" content="Game Development for Kids in Australia | Live Online Classes">
+  <meta property="og:description" content="From a Scratch game in primary school to Python and a real engine in high school: how Australian kids learn game development, step by step, with the curriculum codes.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Game Development for Kids in Australia">
+  <meta name="twitter:description" content="Game development for Australian kids, Year 3 to Year 10: Scratch, then Python and Pygame, then a real engine. Live online, first class free.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-gdau .ag-hero h1 { letter-spacing: -0.016em; }
+.ag-root.ag-gdau .ag-capsule { border-left-width: 5px; border-radius: 4px; }
+.ag-root.ag-gdau .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-gdau .ag-table caption { text-align: left; font-weight: 620; }
+.ag-root.ag-gdau .ag-band-head h3 { letter-spacing: -0.004em; }
+.ag-root.ag-gdau .ag-slots { gap: 1.1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/game-development-for-kids-australia#page","url":"https://learn.modernagecoders.com/game-development-for-kids-australia","name":"Game Development for Kids in Australia","description":"A live online game development pathway for Australian children and teens, mapped to the Australian Curriculum v9 Digital Technologies content descriptions from Year 3 to Year 10.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":4,"name":"Game development for kids","item":"https://learn.modernagecoders.com/game-development-for-kids-australia"}]},{"@type":"Course","name":"Game Development for Kids in Australia","description":"Live online game development for Australian kids and teens: Scratch games, Python with Pygame, Roblox and Unity, built around real projects and the Digital Technologies curriculum.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/game-development-for-kids-australia"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/game-development-for-kids-australia"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/game-development-for-kids-australia"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is game development for kids?","acceptedAnswer":{"@type":"Answer","text":"It is designing and programming a playable game: deciding its rules, making things move, keeping score and detecting when objects touch. For children it usually starts in a visual language such as Scratch and moves to text languages such as Python later."}},{"@type":"Question","name":"What is a hitbox in a game?","acceptedAnswer":{"@type":"Answer","text":"A hitbox is an invisible rectangle around an object that a game uses to decide whether two things are touching. It is fast to check, but slightly larger than a round object, which is why a near miss sometimes counts as a hit."}},{"@type":"Question","name":"What age can my child start making games?","acceptedAnswer":{"@type":"Answer","text":"Many children start in Scratch at about six or seven, once they can read simple words. Python usually suits children from about nine or ten, and engines such as Unity suit teenagers."}},{"@type":"Question","name":"Should my child learn Scratch or Python first?","acceptedAnswer":{"@type":"Answer","text":"For most children under about ten, Scratch first, because it removes typing errors and leaves all their attention for logic. Older beginners can often move to Python within weeks."}},{"@type":"Question","name":"Does this match what my child does at school?","acceptedAnswer":{"@type":"Answer","text":"It follows the same order as the Australian Curriculum v9 Digital Technologies content: visual programs in Years 3 to 6, a general-purpose language such as Python in Years 7 and 8, and object-oriented programming by Year 10."}},{"@type":"Question","name":"Is Roblox safe for my child to code in?","acceptedAnswer":{"@type":"Answer","text":"Roblox Studio is a development tool, and our lessons focus on building, not chatting with strangers. Parents should still review Roblox's own age guidance and parental controls before setting up an account."}},{"@type":"Question","name":"Will my child just play games in the lessons?","acceptedAnswer":{"@type":"Answer","text":"No. They test games, but nearly all lesson time goes into building, fixing and explaining them. Playing each other's finished games is a short and useful part of the end of a project."}},{"@type":"Question","name":"What computer does my child need?","acceptedAnswer":{"@type":"Answer","text":"A laptop or desktop with a keyboard and a modern browser is enough for Scratch and Python. Engines such as Unity need more memory, so we check your computer before recommending one."}},{"@type":"Question","name":"When are lessons in Australian time?","acceptedAnswer":{"@type":"Answer","text":"After school or at the weekend in your own state's time, agreed in the free first class. Our teachers are in India, which is between two and a half and five and a half hours behind Australian clocks depending on state and season."}},{"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"The first class is free and needs no card. Monthly fees for group and one-to-one lessons are shown in the fees section of this page, with no enrolment charge and no term contract."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/game-development-for-kids-australia","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-gdau">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#path">The path</a></li>
+      <li><a href="#curriculum">Curriculum</a></li>
+      <li><a href="#hitbox">A worked example</a></li>
+      <li><a href="#first-games">First games</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / Game development for kids
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; Ages 6 to 18 &middot; Live online</p>
+        <h1>Game development for kids in Australia</h1>
+        <p class="ag-lede">Most children who ask to make games have already spent hundreds of hours playing them, so they arrive knowing exactly what a good game feels like and nothing about why. That gap is where the learning lives. Making a game means deciding what counts as a win, what the player sees first, what happens when two things touch and how fast anything moves. Each of those is a small programming problem in disguise. This page sets out how Australian kids can go from a first Scratch game in primary school to Python and Pygame around Year 7 and a real engine by Year 9 or 10, which mirrors the order the Australian Curriculum itself uses: visual programs first, then a general-purpose language, then object-oriented code. It also shows one idea worked all the way through, the hitbox, so you can see what a lesson actually contains.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#path" class="ag-btn ag-btn--ghost">See the path</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20Australia%20and%20wants%20to%20learn%20game%20development.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'gdau'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; every game built by the child, line by line</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Kids and teens, ages 6 to 18</dd>
+          <dt>Starts with</dt><dd>Scratch, a free visual language</dd>
+          <dt>Then</dt><dd>Python and the Pygame library</dd>
+          <dt>Later</dt><dd>Unity and C#, or Godot</dd>
+          <dt>Also</dt><dd>Roblox Studio and Minecraft</dd>
+          <dt>Format</dt><dd>Live online, after school</dd>
+          <dt>Group</dt><dd>Five to ten, or one to one</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Game development for kids is the practice of designing and programming a playable game: its rules, its moving objects, its scoring and what happens when things collide. In Australia the Digital Technologies curriculum moves from visual programs in Years 3 to 6 to a general-purpose language such as Python in Years 7 and 8, so a strong path is Scratch first, then Python with Pygame, then an engine such as Unity or Godot. Modern Age Coders teaches that path live online, in small groups or one to one, and the first class is free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three ways into making games</h2>
+      <p class="ag-lede">Pick by age and by how much your child already knows. Each card opens the full syllabus.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/game-development-masterclass-for-kids">
+        <div class="ag-pick-shot"><img src="/images/game-dev-kids.webp" alt="Game Development for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GDAU / 01</p>
+          <h3>Game Development for Kids</h3>
+          <p>Ages 8 to 12. Real games in Scratch first, then Roblox and Minecraft worlds, over six to eight months.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GDAU / 02</p>
+          <h3>Python and AI for Kids</h3>
+          <p>Ages 9 to 12. From first lines of Python to Pygame games and small, kid-safe AI projects.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-game-development-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/game-dev-teens.webp" alt="Game Development for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GDAU / 03</p>
+          <h3>Game Development for Teens</h3>
+          <p>Ages 13 to 18. Unity and C#, 2D and 3D games, and the habits of shipping something finished.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="path">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The path</p><h2>From a Scratch game to a real engine, by year level</h2><p class="ag-lede">Children learn game development fastest when each stage removes one kind of friction at a time. Scratch removes typing errors, Python removes the blocks, and an engine removes the plumbing so a teenager can think about design.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A typical progression for Australian students</caption><thead><tr><th scope="col">Year level</th><th scope="col">Tool</th><th scope="col">What a finished game looks like</th></tr></thead><tbody><tr><td>Foundation to Year 2</td><td>Scratch Junior style activities, then Scratch</td><td>A character that moves when a key is pressed and makes a sound when it reaches a goal</td></tr><tr><td>Years 3 and 4</td><td>Scratch</td><td>A catch-the-falling-objects game with a score that goes up and a timer that runs out</td></tr><tr><td>Years 5 and 6</td><td>Scratch, with variables and clones</td><td>A platformer with gravity, two levels and a high score the player can beat</td></tr><tr><td>Years 7 and 8</td><td>Python with Pygame</td><td>A top-down maze game written as text, with a game loop the student wrote themselves</td></tr><tr><td>Years 9 and 10</td><td>Unity with C#, or Godot</td><td>A small 2D or 3D game split into scripts and scenes, with enemies that each have their own behaviour</td></tr><tr><td>Years 11 and 12, and adults</td><td>Unity, Godot or Unreal</td><td>A finished project with menus, saving and a build that someone else can install</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why blocks come first</h3><p>In Scratch a child cannot make a spelling mistake, because every instruction is a block that snaps into place. That leaves all of their attention for the actual logic: when should the score increase, what should happen when time runs out, why does the cat walk through the wall?</p>
+<p>Younger children who start in a text language often spend their first month fighting brackets. Children who start in Scratch spend it making games, and they arrive at Python already knowing what a loop and a variable are for.</p></div><div><h3>Why blocks are not the end</h3><p>Scratch has a ceiling. Large projects become hard to read, there is no real way to split a game into files, and the skills do not carry straight into the jobs that use code.</p>
+<p>Moving to Python, and later to an engine, is not about leaving childish things behind. It is about being able to build something bigger than one screen can hold, and to read code that somebody else wrote.</p></div></div>
+    <p class="ag-mt-40">Ages are a guide, not a rule. A keen Year 4 student can start Python; a Year 9 student who has never coded usually still benefits from two or three weeks of Scratch first. The free first class is where that decision gets made, with the child at the keyboard rather than by guesswork. If you are weighing the two languages, our comparison of <a class="ag-inline-link" href="/blog/scratch-vs-python-which-better-young-learners">Scratch and Python for young learners</a> goes into more detail.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="curriculum">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The Australian Curriculum</p><h2>How this lines up with Digital Technologies at school</h2><p class="ag-lede">Version 9 of the Australian Curriculum, published by ACARA, sets out what students should learn in Digital Technologies from Foundation to Year 10. The programming strand follows the same order as a good game development path.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Programming content descriptions in Digital Technologies, Australian Curriculum v9</caption><thead><tr><th scope="col">Band</th><th scope="col">Code</th><th scope="col">Content description, as published</th></tr></thead><tbody><tr><td>Years 3 and 4</td><td>AC9TDI4P04</td><td>"implement simple algorithms as visual programs involving control structures and input"</td></tr><tr><td>Years 5 and 6</td><td>AC9TDI6P05</td><td>"implement algorithms as visual programs involving control structures, variables and input"</td></tr><tr><td>Years 7 and 8</td><td>AC9TDI8P09</td><td>"implement, modify and debug programs involving control structures and functions in a general-purpose programming language"</td></tr><tr><td>Years 9 and 10</td><td>AC9TDI10P09</td><td>"implement, modify and debug modular programs, applying selected algorithms and data structures, including in an object-oriented programming language"</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Games appear in the curriculum itself</h3><p>The elaborations ACARA publishes alongside the content descriptions use games as examples more than once. For Years 3 and 4 (AC9TDI4P03) the example is "sketching different ideas for a computer game". For Years 5 and 6 (AC9TDI6P04) it is "modifying a game or game controller so that it can be used by a wider range of players".</p>
+<p>For Years 9 and 10 (AC9TDI10P09) students might use "the codebase of an existing adventure game" and build new characters, levels or abilities, or store character details in "a role-playing game (RPG)" using a dictionary.</p></div><div><h3>The language question</h3><p>For Years 7 and 8, the elaboration names the kind of general-purpose language it means: "such as Python, JavaScript or C#". All three are taught in our game courses: Python with Pygame, JavaScript for browser games, and C# inside Unity.</p>
+<p>We do not teach to any particular school's assessment task, and we never complete assessed work. What we can do is make sure the ideas a child meets in class are ones they have already used for real in a game of their own.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source, read 7 October 2026: ACARA, Australian Curriculum Version 9.0, Technologies, Digital Technologies <a class="ag-inline-link" href="https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-f-6-v9.docx" rel="noopener" target="_blank">curriculum content F-6</a> and <a class="ag-inline-link" href="https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx" rel="noopener" target="_blank">curriculum content 7-10</a> (Word downloads). States and territories implement the Australian Curriculum in their own ways; NSW, for example, publishes its own syllabuses.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="hitbox">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked example</p><h2>What a lesson looks like: the hitbox</h2><p class="ag-lede">Almost every game has to answer one question dozens of times a second: are these two things touching? Here is how we teach the answer, from a hand-drawn sketch to working code.</p></div>
+    <p>In Scratch, the question is a single block: <em>touching coin?</em> It works, and children love it. But it hides the idea. So once a student is comfortable, we take the block away and ask them to decide for themselves when two rectangles overlap. The rectangle drawn around a sprite for this purpose is called its <strong>hitbox</strong>, and the test is called an axis-aligned bounding box check, because the box edges run along the screen's x and y axes.</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our worked example: does the player collect the coin?</caption><thead><tr><th scope="col">Object</th><th scope="col">Left edge (x)</th><th scope="col">Top edge (y)</th><th scope="col">Width</th><th scope="col">Height</th></tr></thead><tbody><tr><td>Player</td><td>100</td><td>200</td><td>40</td><td>40</td></tr><tr><td>Coin</td><td>130</td><td>220</td><td>16</td><td>16</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Check across</h3><p>The player's left edge (100) is left of the coin's right edge (130 + 16 = 146), and the player's right edge (100 + 40 = 140) is right of the coin's left edge (130). So they overlap side to side.</p></div><div><h3>Check down</h3><p>The player's top (200) is above the coin's bottom (220 + 16 = 236), and the player's bottom (240) is below the coin's top (220). So they overlap up and down as well.</p></div><div><h3>The verdict</h3><p>Both checks pass, so the boxes overlap and the coin is collected. If either check fails, they are not touching, however close they look on screen.</p></div></div>
+    <p class="ag-mt-40">In Python with Pygame, the same test becomes four comparisons joined by <code>and</code>, and a student who has worked it by hand can write it from memory. Pygame also has a built-in method for it, <code>colliderect</code>, but we only introduce it after the student has written their own version and tested it against the example above.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The catch, in numbers</h3><p>Boxes are fast but not exact. Our coin is round: a circle 16 pixels across has an area of about 201.06 square pixels, but its 16 by 16 hitbox covers 256. By our arithmetic the box counts about 27.3% more area than the coin really has, all of it in the corners.</p>
+<p>That is why a player can sometimes "collect" a coin they visibly missed. Spotting this, and deciding whether it matters, is real game design.</p></div><div><h3>What students do with it</h3><p>Older students go on to shrink hitboxes slightly so the game feels fair, to use circles for round objects, and to check only the objects that are nearby so a busy screen does not slow down.</p>
+<p>Each of those is a trade-off between speed and accuracy, which is one of the most useful ideas in all of programming, not just games.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="first-games">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">First games</p><h2>Games children build in their first term</h2><p class="ag-lede">Every project is small enough to finish and share, and each one is chosen because it teaches one new idea properly.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Starter projects and the idea each one teaches</caption><thead><tr><th scope="col">Game</th><th scope="col">Tool</th><th scope="col">The idea it teaches</th></tr></thead><tbody><tr><td>Catch the falling fruit</td><td>Scratch</td><td>Random positions, a score variable and a game-over condition</td></tr><tr><td>Maze escape</td><td>Scratch</td><td>Detecting walls and resetting the player to a start point</td></tr><tr><td>Pong for two players</td><td>Scratch, then Python</td><td>Angles of reflection and a ball that speeds up</td></tr><tr><td>Space dodger</td><td>Python and Pygame</td><td>A game loop, keyboard input and the hitbox test above</td></tr><tr><td>Treasure hunt quiz</td><td>Python</td><td>Lists of questions, shuffling and keeping a high score in a file</td></tr><tr><td>Platformer level</td><td>Unity or Godot</td><td>Physics, jumping, and splitting a game into scenes and scripts</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>One idea at a time</h3><p>A first game has one moving object and one rule. The second adds a score. By the fifth, the child is combining ideas without being told how.</p></div><div><h3>Finished, then shared</h3><p>Scratch projects can be shared to the Scratch website; Python games run on the family computer. Showing a sibling or a grandparent is part of the lesson.</p></div><div><h3>Ideas when stuck</h3><p>Children who run out of ideas between lessons can browse our list of <a class="ag-inline-link" href="/blog/30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced">Scratch project ideas</a>, sorted from beginner to advanced.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="engines">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Engines and platforms</p><h2>Scratch, Pygame, Roblox, Unity and Godot, compared honestly</h2><p class="ag-lede">Parents often ask which tool is right. The honest answer is that each one is right at a different stage, and some children will use three of them in a single year.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What each tool is good for</caption><thead><tr><th scope="col">Tool</th><th scope="col">Language</th><th scope="col">Cost to the family</th><th scope="col">Good for</th></tr></thead><tbody><tr><td>Scratch</td><td>Blocks</td><td>Free to use</td><td>First games and first ideas, from about age 6</td></tr><tr><td>Pygame</td><td>Python</td><td>Free and open source (pygame 2.6.1 is published under the LGPL)</td><td>Learning how a game loop really works, in text</td></tr><tr><td>Roblox Studio</td><td>Luau</td><td>See Roblox's current terms</td><td>Building worlds other people can join, with a real scripting language</td></tr><tr><td>Unity</td><td>C#</td><td>See Unity's current licence terms</td><td>Teen and adult 2D and 3D games, with a large community of tutorials</td></tr><tr><td>Godot</td><td>GDScript or C#</td><td>Free and open source, released under the MIT licence</td><td>A lightweight engine that runs well on modest school laptops</td></tr></tbody></table></div>
+    <p class="ag-mt-40">We avoid recommending tools by brand loyalty. A child who learns why a game loop exists, how collision is detected and how a state such as "paused" or "game over" is stored can move between any of these in a few weeks. That transferable understanding is the point; the tool is the vehicle.</p>
+    <p class="ag-source-note ag-mt-40">Sources, read 7 October 2026: <a class="ag-inline-link" href="https://godotengine.org/license/" rel="noopener" target="_blank">Godot Engine licence page</a> ("free and open source software released under the permissive MIT license"); the Python Package Index entry for pygame (version 2.6.1, licence LGPL). Licence terms for Unity and Roblox change; read the current terms on their own sites before relying on them.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Stages</p>
+      <h2>Four stages from player to game maker</h2>
+      <p class="ag-lede">At one or two live lessons a week, most children reach the third stage within a school year. The fourth usually takes a second year.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From playing games to making them</caption><thead><tr><th scope="col">Stage</th><th scope="col">What your child can do</th></tr></thead><tbody><tr><td>1. Remix</td><td class="ag-num">Change an existing game's speed, sprites and score, and predict what each change will do</td></tr><tr><td>2. Build</td><td class="ag-num">Make a complete small game from a blank project, with a start, a goal and an ending</td></tr><tr><td>3. Explain</td><td class="ag-num">Write the same game in Python and explain each line, including the game loop and collisions</td></tr><tr><td>4. Design</td><td class="ag-num">Plan a larger game on paper, split it into parts, build it in an engine and test it with real players</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Does my child need to be good at maths?</h3><p>No, but game development is one of the friendliest ways to meet coordinates, negative numbers, angles and percentages. Children often understand x and y axes in a game months before they meet them in class.</p>
+<p>For children who want more, our <a class="ag-inline-link" href="/courses/maths-through-coding">Maths Through Coding</a> course uses Python to teach maths directly.</p></div><div><h3>Around school terms</h3><p>Australian schools run four terms a year. Billing is monthly, so families can pause over the long summer break or during exam weeks and restart when ready.</p>
+<p>Lessons are after school or at the weekend; the hour is agreed in the free first class.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for young game makers</h2>
+      <p class="ag-lede">Grouped by stage. The free first class settles where your child starts.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>First games</h3>
+        <span class="ag-band-sub">Primary school</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GDAU / FST / 01</p>
+          <h4>Scratch Coding for Kids</h4>
+          <p>From a first block to real games and animations.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GDAU / FST / 02</p>
+          <h4>Coding for Kids</h4>
+          <p>Scratch to games, apps and a first taste of Python.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GDAU / FST / 03</p>
+          <h4>Game Development for Kids</h4>
+          <p>Scratch, then Roblox and Minecraft worlds.</p>
+          <a class="ag-course-link" href="/courses/game-development-masterclass-for-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Worlds and text</h3>
+        <span class="ag-band-sub">Upper primary and Years 7 and 8</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GDAU / WLD / 01</p>
+          <h4>Roblox Game Coding for Kids</h4>
+          <p>Roblox Studio and Luau, up to a published game.</p>
+          <a class="ag-course-link" href="/courses/roblox-game-coding-for-kids-lua-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GDAU / WLD / 02</p>
+          <h4>Minecraft Coding for Kids</h4>
+          <p>From blocks to real code inside a world they know.</p>
+          <a class="ag-course-link" href="/courses/minecraft-coding-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GDAU / WLD / 03</p>
+          <h4>Python and AI for Kids</h4>
+          <p>Pygame games, turtle art and small AI projects.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Real engines</h3>
+        <span class="ag-band-sub">Years 9 to 12 and beyond</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GDAU / ENG / 01</p>
+          <h4>Game Development for Teens</h4>
+          <p>Unity and C#, from a first scene to a shipped game.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GDAU / ENG / 02</p>
+          <h4>JavaScript for Teens</h4>
+          <p>Interactive websites and games that run in a browser.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GDAU / ENG / 03</p>
+          <h4>Game Development Course</h4>
+          <p>Unity, C# and Unreal for older teens and adults.</p>
+          <a class="ag-course-link" href="/courses/game-development-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live lessons that fit an Australian school week</h2>
+      <p class="ag-lede">Our teachers are in India. In winter, Sydney, Melbourne, Brisbane, Canberra and Hobart are four and a half hours ahead of India time, Adelaide and Darwin four hours ahead and Perth two and a half. After school in Australia falls in the Indian afternoon, so lessons sit comfortably in the school week.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday, after school</p><p class="ag-slot-l">The most common choice for primary students.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Saturday</p><p class="ag-slot-l">A longer build session for older students.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Sunday</p><p class="ag-slot-l">For families with busy Saturday sport.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Try before paying</h3><p>The opening class costs nothing; it shows the teacher how far your child has already got.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten children of a similar level, playing and testing each other's games.</p></div>
+      <div><h3>Private lessons</h3><p>Suited to a quick learner, a quiet child or a teenager chasing one ambitious game.</p></div>
+      <div><h3>Their own games</h3><p>Every line is typed or snapped in by the child. Teachers explain and question; they do not build it for them.</p></div>
+      <div><h3>Parents can watch</h3><p>Lessons are live, so you can sit in, and finished games can be played at home.</p></div>
+      <div><h3>No assessed work</h3><p>We never complete school assessment tasks, though skills learned here help in class.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects built by our students</h2>
+      <p class="ag-lede">A few games and apps our students finished and published. More of them, from young beginners to adults, sit in our <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for game development</h2>
+      <p class="ag-lede">Families outside India pay a single monthly price in US dollars. Nothing is charged to enrol and nobody signs up for a whole term: stopping after any month is fine, the long summer break included.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A small game made during the class</li><li>Advice on the right starting course</li><li>No card or bank details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Between five and ten children per class</li><li>One teacher who knows your child</li><li>Classmates play-test each game</li><li>Stop after any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Every minute spent on your child</li><li>Timing worked around sport and homework</li><li>Space for one big game of their own</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Copied exactly as families and learners posted them on our Google profile.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from parents</p>
+      <h2>What Australian parents ask about game development</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is game development for kids?</h3>
+        <p>It is designing and programming a playable game: deciding its rules, making things move, keeping score and detecting when objects touch. For children it usually starts in a visual language such as Scratch and moves to text languages such as Python later.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is a hitbox in a game?</h3>
+        <p>A hitbox is an invisible rectangle around an object that a game uses to decide whether two things are touching. It is fast to check, but slightly larger than a round object, which is why a near miss sometimes counts as a hit.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age can my child start making games?</h3>
+        <p>Many children start in Scratch at about six or seven, once they can read simple words. Python usually suits children from about nine or ten, and engines such as Unity suit teenagers.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should my child learn Scratch or Python first?</h3>
+        <p>For most children under about ten, Scratch first, because it removes typing errors and leaves all their attention for logic. Older beginners can often move to Python within weeks.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does this match what my child does at school?</h3>
+        <p>It follows the same order as the Australian Curriculum v9 Digital Technologies content: visual programs in Years 3 to 6, a general-purpose language such as Python in Years 7 and 8, and object-oriented programming by Year 10.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Roblox safe for my child to code in?</h3>
+        <p>Roblox Studio is a development tool, and our lessons focus on building, not chatting with strangers. Parents should still review Roblox's own age guidance and parental controls before setting up an account.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will my child just play games in the lessons?</h3>
+        <p>No. They test games, but nearly all lesson time goes into building, fixing and explaining them. Playing each other's finished games is a short and useful part of the end of a project.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What computer does my child need?</h3>
+        <p>A laptop or desktop with a keyboard and a modern browser is enough for Scratch and Python. Engines such as Unity need more memory, so we check your computer before recommending one.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are lessons in Australian time?</h3>
+        <p>After school or at the weekend in your own state's time, agreed in the free first class. Our teachers are in India, which is between two and a half and five and a half hours behind Australian clocks depending on state and season.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does it cost?</h3>
+        <p>The first class is free and needs no card. Monthly fees for group and one-to-one lessons are shown in the fees section of this page, with no enrolment charge and no term contract.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">For Australian families, for younger beginners and for choosing a first language.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>All of our Australian pages in one place.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-australia">AI and machine learning in Australia</a></h3><p>For teens ready to build with AI.</p></div>
+      <div><h3><a class="ag-inline-link" href="/scratch-coding-classes-for-kids">Scratch coding classes</a></h3><p>The first stage of the path, in detail.</p></div>
+      <div><h3><a class="ag-inline-link" href="/roblox-coding-classes-for-kids">Roblox coding classes</a></h3><p>Building worlds with Roblox Studio and Luau.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/top-coding-games-platforms-make-learning-fun-kids">Coding games and platforms</a></h3><p>Where children can practise between lessons.</p></div>
+      <div><h3><a class="ag-inline-link" href="/best-age-to-start-coding">The right age to start coding</a></h3><p>What changes at six, nine and twelve.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Send your details and we will ring when it suits you. During the free class your child makes a small game with a teacher, and afterwards you hear plainly which course would suit them and why.</p>
+        <p class="ag-mt-40">Prefer to read more before calling? Our page on <a class="ag-inline-link" href="/how-we-teach">the way we teach</a> explains a lesson minute by minute, and the <a class="ag-inline-link" href="/courses">full course list</a> covers every age.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20Australia%20and%20wants%20to%20learn%20game%20development.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'gdau',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Messaging us on WhatsApp from an Australian phone is often quickest. Our team works from India, which is why the number starts with +91, and we have no office in Australia.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_gdau(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Game making</h4><ul><li><a href="/scratch-coding-classes-for-kids">Scratch classes</a></li><li><a href="/roblox-coding-classes-for-kids">Roblox classes</a></li><li><a href="/minecraft-coding-classes-for-kids">Minecraft classes</a></li><li><a href="/coding-roadmap">The coding roadmap</a></li></ul></div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/online-coding-classes-for-kids-australia">Online coding for kids</a></li><li><a href="/australian-maths-trust-amc-aio-cat-preparation">AMT competitions</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Players notice what a game does; makers know why</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_gdau = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'game-development-for-kids-australia-inline', meta: { name: name, age: age, page: 'game-development-for-kids-australia' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

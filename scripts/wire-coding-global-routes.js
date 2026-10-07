@@ -834,6 +834,7 @@ const MARKETS = [
   // Australia cluster (scripts/nl)
   ['best-coding-classes-in-sydney', 'Sydney, New South Wales'],
   ['coding-and-ai-classes-in-new-south-wales', 'New South Wales, Australia'],
+  ['vibe-coding-and-ai-agents-classes-in-melbourne', 'Melbourne, Victoria'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

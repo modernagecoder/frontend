@@ -1308,6 +1308,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Rhyl, Denbighshire: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-rhyl
 - Sydney, New South Wales: https://learn.modernagecoders.com/best-coding-classes-in-sydney
 - New South Wales, Australia: https://learn.modernagecoders.com/coding-and-ai-classes-in-new-south-wales
+- Melbourne, Victoria: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-melbourne
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).

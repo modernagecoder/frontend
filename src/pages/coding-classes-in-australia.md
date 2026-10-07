@@ -283,6 +283,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [HSC Software Engineering help](/hsc-software-engineering-help)
 - [NAPLAN numeracy practice](/naplan-numeracy-practice-online)
 - [Australian coding and maths competitions](/australian-coding-maths-and-ai-competitions-calendar)
+- [Game development for kids in Australia](/game-development-for-kids-australia)
 <!-- AU-LINKS -->
 
 

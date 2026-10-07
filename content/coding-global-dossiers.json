@@ -38399,5 +38399,61 @@
       "Income, rent, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with NESA, the NSW Department of Education or the ABS."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-melbourne": {
+    "market": "Melbourne",
+    "bodyClass": "cg-mel",
+    "pageType": "city",
+    "curriculumAuthority": "Greater Melbourne, ABS Census 2021 QuickStats, GCCSA 2GMEL (read 7 October 2026): 4,917,750 people; median age 37 (Victoria 38, Australia 38); 1,299,184 families; 2,057,482 private dwellings; occupied private dwellings: flat or apartment 277,512 (15.6 percent; Australia 14.2 percent); occupation of employed people aged 15 and over: Professionals 656,333 (26.8 percent; Australia 24.0 percent); age 20 to 24: 328,543 (6.7 percent; Australia 6.2 percent); age 25 to 29: 383,135 (7.8 percent; Australia 7.0 percent). VCAA, VCE Algorithmics (HESS): accreditation period from 2023, Units 3 and 4; planning page: Unit 3 Algorithmic problem-solving; Area of Study 1 Data modelling with abstract data types, Area of Study 2 Algorithm design, Area of Study 3 Applied algorithms; School-assessed Task; time complexity analysis by step counting, inspection, the Master Theorem or measuring execution time. VCAA, VCE Applied Computing: accreditation period from 2025, Units 1 to 4; 2026 administrative information for school-based assessment in Data Analytics and in Software Development. Victorian Government, Enrolling in Foundation (Prep): in Victoria the first year of primary school is called Foundation or Prep; to start Foundation (Prep) in 2027 a child must turn 5 years old by 30 April 2027; school is compulsory for children who have turned 6. Victorian Government school term dates: 2026 Term 4 Monday 5 October to Friday 18 December; 2027 Term 1 Wednesday 27 January (students start 28 January in government schools) to Thursday 25 March; Term 2 Monday 12 April to Friday 25 June; Term 3 Monday 12 July to Friday 17 September; Term 4 Monday 4 October to Friday 17 December. Bureau of Meteorology Capital City Observations IDV60901: station 95936 Melbourne (Olympic Park). IANA tz database: Australia/Melbourne UTC+10 before and UTC+11 from 4 October 2026, back to UTC+10 on 4 April 2027; Asia/Kolkata UTC+5:30.",
+    "localProject": "Golden-set regression testing of an agent tool on Melbourne tram stops. One OpenStreetMap Overpass query, snapshot 2026-10-07T08:07Z, rectangle 37.70 to 37.95 degrees south and 144.85 to 145.15 degrees east: 1,603 railway=tram_stop nodes with 916 distinct names. 300 golden questions (seed 2026): a point uniformly within 400 m of a randomly chosen stop; golden answer = nearest stop by haversine (R = 6,371,008.8 m); golden distances median 157 m, maximum 396 m. Tool v1 (raw-degree Euclidean): 21 of 300 answers name a different stop, 39 a different node; extra distance among wrong answers median 1.7 m, maximum 79.1 m. Tool v2 (longitude times cos latitude): 0 of 300 wrong. Tool v3 (latitude and longitude swapped): 300 of 300 wrong. Detection power of a random golden subset for v1 over 10,000 draws: 10 questions 52.46 percent (theory 51.6), 20 77.41 (76.6), 30 89.85 (88.7), 50 98.07 (97.3), 100 99.97 (99.9). Lesson family: golden-set regression testing for an AI agent tool and the detection power of a small test set; distinct from precision and recall, confusion matrices and calibration pages.",
+    "requiredMentions": [
+      "4,917,750",
+      "1,299,184",
+      "2,057,482",
+      "277,512",
+      "656,333",
+      "383,135",
+      "1,603 OpenStreetMap stop points",
+      "21 of 300",
+      "Melbourne (Olympic Park)",
+      "Algorithmics (HESS)"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Greater Melbourne (2GMEL): people, median age, families, private dwellings, dwelling structure, occupation, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/2GMEL"
+      },
+      {
+        "claim": "OpenStreetMap via the Overpass API: railway=tram_stop nodes in the stated rectangle, snapshot 2026-10-07T08:07Z (ODbL).",
+        "url": "https://overpass-api.de/api/interpreter"
+      },
+      {
+        "claim": "VCAA, VCE Algorithmics (HESS) study design page and planning page: accreditation from 2023, Units 3 and 4, areas of study, School-assessed Task, Master Theorem in the planning advice.",
+        "url": "https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/algorithmics/planning"
+      },
+      {
+        "claim": "VCAA, VCE Applied Computing: accreditation from 2025, Units 1 to 4, Data Analytics and Software Development assessment information for 2026.",
+        "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/applied-computing-data-analytics/applied-computing"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays 2026 and 2027.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "Victorian Government, Enrolling in Foundation (Prep): first year called Foundation or Prep; turn 5 by 30 April 2027.",
+        "url": "https://www.vic.gov.au/enrolling-foundation-prep"
+      },
+      {
+        "claim": "Bureau of Meteorology Capital City Observations, station 95936 Melbourne (Olympic Park).",
+        "url": "https://www.bom.gov.au/fwo/IDV60901/IDV60901.95936.json"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim about the size or ranking of Melbourne's tram network: no primary source was read for it, and the stop count is an OpenStreetMap snapshot for our own rectangle.",
+      "Tram timetables, frequencies or service quality: not part of the data used.",
+      "VCE study scores, ATAR outcomes or school results: excluded by the cluster rules.",
+      "Income, rent, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with VCAA, Public Transport Victoria, Yarra Trams, OpenStreetMap, the ABS or the Bureau of Meteorology."
+    ]
   }
 }
