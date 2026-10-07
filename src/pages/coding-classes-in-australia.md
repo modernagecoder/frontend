@@ -298,6 +298,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [After Scratch: moving to Python](/after-scratch-next-step-python-australia)
 - [Coding for homeschool kids](/coding-for-homeschool-kids-australia)
 - [Coding games for kids](/coding-games-for-kids-australia)
+- [Game programming course](/game-programming-course-australia)
 <!-- AU-LINKS -->
 
 

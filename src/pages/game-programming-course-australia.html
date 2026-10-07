@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Game Programming Course in Australia | Teens and Adults</title>
+  <meta name="description" content="A live game programming course for Australian teens and adults: game loops, time, physics and clean code in Python, C# and GDScript. Your first class is free.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/game-programming-course-australia">
+  <link rel="alternate" type="text/markdown" href="/src/pages/game-programming-course-australia.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#994236">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/game-programming-course-australia">
+  <meta property="og:title" content="Game Programming Course in Australia | Teens and Adults">
+  <meta property="og:description" content="Why a jump goes higher on a slow laptop, and how real game programmers fix it: a live online game programming course for Australian teens and adults.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Game Programming Course in Australia">
+  <meta name="twitter:description" content="Game programming for Australian teens and adults: the game loop, fixed timesteps, physics and structure. Live online, first class free.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-gpau .ag-hero h1 { letter-spacing: -0.018em; }
+.ag-root.ag-gpau .ag-capsule { border-left-width: 4px; border-radius: 2px; }
+.ag-root.ag-gpau .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-gpau .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-gpau .ag-band-head h3 { letter-spacing: -0.01em; }
+.ag-root.ag-gpau .ag-slots { gap: 1.2rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/game-programming-course-australia#page","url":"https://learn.modernagecoders.com/game-programming-course-australia","name":"Game Programming Course in Australia","description":"A live online game programming course for Australian secondary students and adults, covering the game loop, frame-rate independence, physics, state and project structure.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":4,"name":"Game programming course","item":"https://learn.modernagecoders.com/game-programming-course-australia"}]},{"@type":"Course","name":"Game Programming Course in Australia","description":"Live online game programming for Australian teens and adults: Python with Pygame, C# with Unity and GDScript with Godot, built around complete, shippable projects.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/game-programming-course-australia"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/game-programming-course-australia"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/game-programming-course-australia"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is game programming?","acceptedAnswer":{"@type":"Answer","text":"It is writing the code that makes a game run: the loop that reads input, updates the world and draws it, plus physics, collision, game state and the structure that holds a growing project together. It is narrower than game development, which also includes art, sound and design."}},{"@type":"Question","name":"What is a fixed timestep in games?","acceptedAnswer":{"@type":"Answer","text":"It is updating physics in equal slices of time, such as 1/60 of a second, regardless of how fast the screen redraws. It makes movement and collisions behave the same on fast and slow computers."}},{"@type":"Question","name":"Do I need to know how to code first?","acceptedAnswer":{"@type":"Answer","text":"No. Complete beginners start with Python and build up to games. Students who already code move to the game loop and an engine sooner."}},{"@type":"Question","name":"Is this course for teenagers or adults?","acceptedAnswer":{"@type":"Answer","text":"Both, in separate groups by age. Teens from about Year 9 join teen groups; university students and working adults join adult groups or learn one to one."}},{"@type":"Question","name":"Should I learn Unity, Godot or Unreal?","acceptedAnswer":{"@type":"Answer","text":"Learn the ideas first, in any of them. Godot is light and free, Unity has the largest body of tutorials, and Unreal suits high-end 3D. Students who understand the game loop can move between them in weeks."}},{"@type":"Question","name":"Which language do game programmers use?","acceptedAnswer":{"@type":"Answer","text":"C++ and C# are common in engines and studios, GDScript in Godot, and Python is widely used for learning and tools. We teach the language that suits your goal and engine."}},{"@type":"Question","name":"Will this help with my school computing subject?","acceptedAnswer":{"@type":"Answer","text":"It applies the same ideas, such as testing, tracing and object-oriented design, to real projects. We do not complete assessed work or major projects for students."}},{"@type":"Question","name":"Can I get a job in games after this course?","acceptedAnswer":{"@type":"Answer","text":"We do not promise jobs. You will finish with games you built and can explain, which is a sound starting portfolio for further study or applications."}},{"@type":"Question","name":"What computer do I need?","acceptedAnswer":{"@type":"Answer","text":"Python and Godot run well on most laptops from the last several years. Unity and Unreal need more memory and graphics power, so we check your machine before recommending them."}},{"@type":"Question","name":"What does the course cost?","acceptedAnswer":{"@type":"Answer","text":"The first class is free with no card. Monthly fees for group and one-to-one lessons appear in the fees section of this page, with no enrolment charge."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/game-programming-course-australia","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-gpau">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#who">Who it is for</a></li>
+      <li><a href="#loop">The game loop</a></li>
+      <li><a href="#timestep">A worked example</a></li>
+      <li><a href="#modules">Modules</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / Game programming course
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; Year 9 to adult &middot; Live online</p>
+        <h1>Game programming course</h1>
+        <p class="ag-lede">Plenty of online courses will walk you through clicking together a platformer in an afternoon. Far fewer explain why your character jumps higher on a slow laptop than on a fast one, why enemies sometimes pass through walls, or why the code that worked for one level collapses when you add the tenth. Those are game programming problems, and they are the subject of this course. It is for Australian secondary students from about Year 9, university students and working adults who want to write games properly: the loop that drives every game, how time is measured and stepped, how physics is made stable, and how a project is structured so it can keep growing. You work in real languages and real engines, live with a teacher, and you finish with games you understand line by line.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#timestep" class="ag-btn ag-btn--ghost">See a worked example</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Australia%20and%20want%20to%20take%20a%20game%20programming%20course.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'gpau'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; complete games, explained line by line</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Year 9 students to adults</dd>
+          <dt>Languages</dt><dd>Python, C# and GDScript</dd>
+          <dt>Engines</dt><dd>Pygame, Unity and Godot</dd>
+          <dt>Core ideas</dt><dd>Loop, time, physics, state</dd>
+          <dt>Prior coding</dt><dd>Helpful, not required</dd>
+          <dt>Format</dt><dd>Live online lessons</dd>
+          <dt>Group</dt><dd>Five to ten, or one to one</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>A game programming course teaches the code that makes games work: the game loop that updates and draws each frame, frame-rate independent movement, a fixed timestep for stable physics, collision, game state and project structure. Ours is taught live online to Australian teens from about Year 9 and to adults, in Python with Pygame, C# with Unity and GDScript with Godot. Every module ends with a playable game the student wrote and can explain, and the first class is free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Choose a starting point</p>
+      <h2>Three ways into game programming</h2>
+      <p class="ag-lede">Matched to age and to how much code you have already written. Each card opens the full syllabus.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/complete-game-development-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/game-dev-teens.webp" alt="Game Development for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GPAU / 01</p>
+          <h3>Game Development for Teens</h3>
+          <p>Ages 13 to 18. Unity and C#, from a first scene to a shipped 2D or 3D game.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/game-development-complete-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/game-dev-college.webp" alt="Game Development Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GPAU / 02</p>
+          <h3>Game Development Course</h3>
+          <p>Ages 18 and over. Unity, C# and Unreal Engine for university students and working adults.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GPAU / 03</p>
+          <h3>Python for Teens</h3>
+          <p>For teens who want strong Python first, then games with Pygame on top of it.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="who">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Who it is for</p><h2>Who takes a game programming course with us</h2><p class="ag-lede">The students are different; the questions they bring are surprisingly similar.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Typical students and what they want from the course</caption><thead><tr><th scope="col">Student</th><th scope="col">Where they start</th><th scope="col">What they leave with</th></tr></thead><tbody><tr><td>Year 9 or 10 student</td><td>Has made Scratch or Roblox games</td><td>A typed game loop of their own and the confidence to read engine code</td></tr><tr><td>Year 11 or 12 student</td><td>Studying a computing subject at school</td><td>Real projects that show object-oriented design and testing in practice</td></tr><tr><td>University student</td><td>Can program, has never shipped a game</td><td>Finished, playable games and a clear grasp of engine architecture</td></tr><tr><td>Working adult</td><td>Codes for work, or has never coded</td><td>A hobby skill built properly, without gaps from video tutorials</td></tr><tr><td>Career changer</td><td>Curious about the games industry</td><td>An honest view of the skills involved and a portfolio to start from</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What makes this different from a tutorial</h3><p>Video tutorials are excellent at showing what to click. They rarely stop to ask why, and they cannot see where you are stuck. A live teacher can.</p>
+<p>Every lesson here includes a question you answer before the code is written: what will this frame do if it takes twice as long, what happens when two objects arrive at the same time, where should this state live? Those questions are the course.</p></div><div><h3>What you do not need</h3><p>You do not need a powerful gaming computer to begin. Python with Pygame and the Godot engine both run on ordinary laptops, and we check your machine before recommending Unity.</p>
+<p>You do not need advanced maths. Coordinates, a little algebra and the idea of speed are enough to start; vectors and trigonometry are taught when a game needs them.</p></div></div>
+    <p class="ag-mt-40">Younger children and complete beginners start in a different place. Our page on <a class="ag-inline-link" href="/game-development-for-kids-australia">game development for kids in Australia</a> covers the path from a first Scratch game. Students who want the design side of games more than the code will find <a class="ag-inline-link" href="/video-game-design-for-kids-australia">video game design for kids</a> a better fit.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="loop">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The game loop</p><h2>The three jobs every game does, many times a second</h2><p class="ag-lede">Under every engine and every genre sits the same loop. Students who understand it can learn any engine quickly; students who skip it spend years guessing.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>One pass through a game loop</caption><thead><tr><th scope="col">Step</th><th scope="col">What happens</th><th scope="col">Typical bug when it is wrong</th></tr></thead><tbody><tr><td>Read input</td><td>Keys, mouse, controller and network messages are collected</td><td>A key press is missed because it happened between two checks</td></tr><tr><td>Update</td><td>Positions, health, timers and scores change by the time that has passed</td><td>Movement speeds up or slows down with the frame rate</td></tr><tr><td>Draw</td><td>The current state is rendered to the screen</td><td>Objects flicker or appear a frame late</td></tr><tr><td>Wait or repeat</td><td>The loop runs again, ideally at a steady rate</td><td>Uneven frame times make motion stutter</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How the engines name it</h3><p>In Godot the update step is split in two: <code>_process()</code> runs every rendered frame, and <code>_physics_process()</code> runs at a fixed rate. The Godot documentation states plainly that "Physics processing happens at a fixed rate, 60 times per second by default."</p>
+<p>In Unity the same split appears as <code>Update</code> and <code>FixedUpdate</code>. Unity describes <code>Time.fixedDeltaTime</code> as "The interval in seconds of in-game time at which physics and other fixed frame rate updates (like MonoBehaviour's MonoBehaviour.FixedUpdate) are performed."</p></div><div><h3>Why we write one by hand first</h3><p>In Pygame nothing is hidden: the student writes the loop, reads the clock and decides what to update. Building that once, badly and then well, makes every engine feel familiar instead of magical.</p>
+<p>The Godot documentation gives the rule that most beginners break: "you should always multiply a speed value by delta to animate a moving object." The worked example below shows what happens when you do not, and why even multiplying by delta is not the whole answer.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 7 October 2026: Godot Engine documentation, <a class="ag-inline-link" href="https://docs.godotengine.org/en/stable/tutorials/scripting/idle_and_physics_processing.html" rel="noopener" target="_blank">Idle and Physics Processing</a>; Unity Scripting API, <a class="ag-inline-link" href="https://docs.unity3d.com/ScriptReference/Time-fixedDeltaTime.html" rel="noopener" target="_blank">Time.fixedDeltaTime</a>. We are independent of both engines.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="timestep">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked example</p><h2>Why the jump is higher on a slow laptop</h2><p class="ag-lede">This is the first big lesson of the course. It takes about an hour, and it explains a bug that beginners meet again and again.</p></div>
+    <p>Drop a ball from rest and let gravity pull it down at 9.8 metres per second per second. Physics tells us that after exactly one second it has fallen 4.9 metres. A game cannot do the calculus; it steps the motion forward one frame at a time, adding a little to the speed, then a little to the position. We ran that frame-by-frame update for one second of game time at three common frame rates.</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Distance fallen after one second, stepped once per frame (our runs, semi-implicit Euler)</caption><thead><tr><th scope="col">Frame rate</th><th scope="col">Step size</th><th scope="col">Distance after 1 second</th><th scope="col">Gap from the exact 4.9 m</th></tr></thead><tbody><tr><td>30 frames a second</td><td>1/30 s</td><td>5.0633 m</td><td>0.1633 m</td></tr><tr><td>60 frames a second</td><td>1/60 s</td><td>4.9817 m</td><td>0.0817 m</td></tr><tr><td>144 frames a second</td><td>1/144 s</td><td>4.9340 m</td><td>0.0340 m</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>The problem</h3><p>The same code, the same second, three different answers. A player on an older school laptop running at 30 frames a second falls further, jumps differently and may clip through a thin platform that a fast machine handles cleanly.</p></div><div><h3>The fix</h3><p>Step the physics in fixed slices, say 1/60 of a second, whatever the screen is doing. Every machine then performs the same 60 steps per second and gets the same 4.9817 m, every time.</p></div><div><h3>The accumulator</h3><p>Each frame, add the real time that passed to a running total. While the total holds at least one slice, take a physics step and subtract the slice. Leftover time waits for the next frame.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>A fixed 1/60 s physics step under different display rates (our runs, one second each)</caption><thead><tr><th scope="col">Display rate</th><th scope="col">Frames with no physics step</th><th scope="col">Frames with one step</th><th scope="col">Frames with two steps</th><th scope="col">Physics steps in total</th></tr></thead><tbody><tr><td>144 frames a second</td><td>84</td><td>60</td><td>0</td><td>60</td></tr><tr><td>60 frames a second</td><td>0</td><td>60</td><td>0</td><td>60</td></tr><tr><td>30 frames a second</td><td>0</td><td>0</td><td>30</td><td>60</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Where this pattern comes from</h3><p>The accumulator approach was set out for game developers by Glenn Fiedler in his 2004 article <a class="ag-inline-link" href="https://gafferongames.com/post/fix_your_timestep/" rel="noopener" target="_blank">"Fix Your Timestep!"</a>, which is still widely read. Godot's fixed physics rate and Unity's <code>FixedUpdate</code> do the same job for you.</p>
+<p>Students write the accumulator in Python first, so that when they meet it inside an engine they recognise it.</p></div><div><h3>The detail students then discover</h3><p>At 144 frames a second, more than half of all frames do no physics at all. If you only draw the latest physics state, objects appear to move in small jumps.</p>
+<p>The cure is to draw objects slightly blended between their last two physics positions, which is what engines call physics interpolation. Finding that problem yourself, and fixing it, is the kind of understanding that separates game programmers from tutorial followers.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="modules">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Modules</p><h2>What the course covers, module by module</h2><p class="ag-lede">Order and pace adjust to the student. Each module finishes with a playable game.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Course modules and the game each one produces</caption><thead><tr><th scope="col">Module</th><th scope="col">Key ideas</th><th scope="col">Finished game</th></tr></thead><tbody><tr><td>1. The loop by hand</td><td>Input, update, draw, the clock, delta time</td><td>A dodging game in Python with Pygame</td></tr><tr><td>2. Time and physics</td><td>Fixed timestep, accumulator, gravity, interpolation</td><td>A platformer whose jumps match on every machine</td></tr><tr><td>3. Collision</td><td>Overlap tests, resolving contacts, tunnelling through thin walls</td><td>A top-down arena with solid walls</td></tr><tr><td>4. State and structure</td><td>Finite state machines, scenes, separating data from code</td><td>A game with menus, pause, levels and game over</td></tr><tr><td>5. An engine</td><td>Nodes or game objects, scripts, signals or events</td><td>The platformer rebuilt in Godot or Unity</td></tr><tr><td>6. Finishing</td><td>Saving, settings, testing, building for others to install</td><td>A complete game someone else can download and play</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How this sits beside school computing</h3><p>The Australian Curriculum v9 asks students in Years 7 and 8 to "trace algorithms to predict output for a given input and to identify errors" (AC9TDI8P06) and in Years 9 and 10 to "validate algorithms and programs by comparing their output against a range of test cases" (AC9TDI10P06). The frame-rate table above is exactly that kind of test.</p>
+<p>Students taking a senior computing subject can see the same ideas applied to a bigger project. For New South Wales, our page on <a class="ag-inline-link" href="/hsc-software-engineering-help">HSC Software Engineering help</a> explains how we support that course without writing assessed work.</p></div><div><h3>Honest limits</h3><p>This is a programming course. It does not teach 3D modelling, music or professional art, though students learn to use free assets responsibly.</p>
+<p>We do not promise jobs in the games industry. What we can promise is that you will understand the games you build, and be able to show and explain them.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Curriculum wording copied on 7 October 2026 from the ACARA Version 9.0 Digital Technologies <a class="ag-inline-link" href="https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx" rel="noopener" target="_blank">content for Years 7 to 10</a>, a Word file.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progress</p>
+      <h2>Four levels of game programming</h2>
+      <p class="ag-lede">Most students who come with some coding reach level three in two to three terms of weekly lessons. Level four is where a portfolio starts.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From writing a loop to shipping a game</caption><thead><tr><th scope="col">Level</th><th scope="col">What you can do</th></tr></thead><tbody><tr><td>1. Loop</td><td class="ag-num">Write a game loop by hand, move objects with delta time and explain each line</td></tr><tr><td>2. Stable</td><td class="ag-num">Run physics on a fixed timestep with an accumulator, and say why it matters</td></tr><tr><td>3. Structured</td><td class="ag-num">Organise a game into states and scenes so new levels do not break old ones</td></tr><tr><td>4. Shipped</td><td class="ag-num">Finish, test and package a game that someone else can install and play</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Python, C# or GDScript first?</h3><p>Python if you are new to typed code: it is readable and Pygame keeps the game loop in plain sight.</p>
+<p>C# with Unity if you already program and want the widest range of tutorials and jobs. GDScript with Godot if you want a light, free engine that runs well on modest machines.</p></div><div><h3>Fitting it around school or work</h3><p>Lessons are weekly, in your own state's time, after school, in the evening or at the weekend, agreed in the free class.</p>
+<p>Billing is monthly, so a pause for Year 12 exams, end of semester or a busy work quarter is simple.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Courses that build game programming skill</h2>
+      <p class="ag-lede">Arranged by age and depth. Which one you start with gets decided in the free class.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Games</h3>
+        <span class="ag-band-sub">Teens and adults</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GPAU / GAM / 01</p>
+          <h4>Game Development for Teens</h4>
+          <p>Unity and C#, 2D and 3D, ages 13 to 18.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GPAU / GAM / 02</p>
+          <h4>Game Development Course</h4>
+          <p>Unity, C# and Unreal, for adults.</p>
+          <a class="ag-course-link" href="/courses/game-development-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GPAU / GAM / 03</p>
+          <h4>JavaScript for Teens</h4>
+          <p>Games that run in any browser.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Languages</h3>
+        <span class="ag-band-sub">Strong foundations</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GPAU / LNG / 01</p>
+          <h4>Python for Teens</h4>
+          <p>The language behind Pygame, done properly.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GPAU / LNG / 02</p>
+          <h4>C++ for Teens</h4>
+          <p>The language many engines are written in.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GPAU / LNG / 03</p>
+          <h4>Python for Adults</h4>
+          <p>From zero to advanced, for university and work.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Thinking</h3>
+        <span class="ag-band-sub">Algorithms behind games</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GPAU / THK / 01</p>
+          <h4>Problem Solving and DSA for Teens</h4>
+          <p>Search, graphs and data structures games rely on.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GPAU / THK / 02</p>
+          <h4>Competitive Programming for Teens</h4>
+          <p>Fast, correct code under pressure.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GPAU / THK / 03</p>
+          <h4>Git and GitHub for Teens</h4>
+          <p>Keeping a growing game project safe.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live lessons at an Australian hour</h2>
+      <p class="ag-lede">Teachers work from India. During the southern summer, Sydney, Melbourne, Canberra and Hobart run five and a half hours ahead of India time, Brisbane four and a half, Adelaide five and Perth two and a half, so Australian afternoons and early evenings fall inside the Indian working day.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">For secondary students in their own state.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evening</p><p class="ag-slot-l">For adults after work, by arrangement.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Longer build sessions on bigger projects.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Free first class</h3><p>We look at code you have written, or start from nothing, and set a level honestly.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten students at a similar level, reviewing each other's code.</p></div>
+      <div><h3>One to one</h3><p>For a specific project, a tight timeline or a faster pace.</p></div>
+      <div><h3>Your own code</h3><p>You type everything. Teachers question and guide; they never write your project for you.</p></div>
+      <div><h3>Code review</h3><p>Each module ends with a review of structure, naming and tests, not just whether it runs.</p></div>
+      <div><h3>Portfolio ready</h3><p>Finished games are kept in your own repository to show and keep building.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects built by our students</h2>
+      <p class="ag-lede">Games and apps our students finished and put online. There are more in the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for the game programming course</h2>
+      <p class="ag-lede">Outside India the fee is one monthly price in US dollars. There is no enrolment charge and no semester commitment; stop after any month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A short programming task at your level</li><li>An honest view of where to start</li><li>No card or bank details needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students per class</li><li>A regular teacher who knows your code</li><li>Peer code review</li><li>Stop after any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Lessons built around your own game</li><li>Your choice of engine and language</li><li>Times around school, uni or work</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Taken unchanged from public reviews on our Google profile.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Common questions</p>
+      <h2>What Australians ask about learning game programming</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is game programming?</h3>
+        <p>It is writing the code that makes a game run: the loop that reads input, updates the world and draws it, plus physics, collision, game state and the structure that holds a growing project together. It is narrower than game development, which also includes art, sound and design.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is a fixed timestep in games?</h3>
+        <p>It is updating physics in equal slices of time, such as 1/60 of a second, regardless of how fast the screen redraws. It makes movement and collisions behave the same on fast and slow computers.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need to know how to code first?</h3>
+        <p>No. Complete beginners start with Python and build up to games. Students who already code move to the game loop and an engine sooner.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is this course for teenagers or adults?</h3>
+        <p>Both, in separate groups by age. Teens from about Year 9 join teen groups; university students and working adults join adult groups or learn one to one.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should I learn Unity, Godot or Unreal?</h3>
+        <p>Learn the ideas first, in any of them. Godot is light and free, Unity has the largest body of tutorials, and Unreal suits high-end 3D. Students who understand the game loop can move between them in weeks.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which language do game programmers use?</h3>
+        <p>C++ and C# are common in engines and studios, GDScript in Godot, and Python is widely used for learning and tools. We teach the language that suits your goal and engine.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will this help with my school computing subject?</h3>
+        <p>It applies the same ideas, such as testing, tracing and object-oriented design, to real projects. We do not complete assessed work or major projects for students.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I get a job in games after this course?</h3>
+        <p>We do not promise jobs. You will finish with games you built and can explain, which is a sound starting portfolio for further study or applications.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What computer do I need?</h3>
+        <p>Python and Godot run well on most laptops from the last several years. Unity and Unreal need more memory and graphics power, so we check your machine before recommending them.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does the course cost?</h3>
+        <p>The first class is free with no card. Monthly fees for group and one-to-one lessons appear in the fees section of this page, with no enrolment charge.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Also on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Other routes into making games, and our other Australian pages.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>Every Australian guide we publish, in one list.</p></div>
+      <div><h3><a class="ag-inline-link" href="/game-development-for-kids-australia">Game development for kids</a></h3><p>The younger route, from a first Scratch game.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-games-for-kids-australia">Coding games for kids</a></h3><p>Puzzle games that teach programming ideas.</p></div>
+      <div><h3><a class="ag-inline-link" href="/hsc-software-engineering-help">HSC Software Engineering help</a></h3><p>For NSW Year 11 and 12 students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/c-plus-plus-game-development">C++ game development</a></h3><p>The language under many big engines, for teens and adults.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-roadmap">The coding roadmap</a></h3><p>Where game programming fits among other paths.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Leave your details and we will call at a time that suits you. In the free class you write a little game code with a teacher, and you get a straight answer about where to start.</p>
+        <p class="ag-mt-40">Curious about the teaching itself? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> describes a lesson from start to finish, and the <a class="ag-inline-link" href="/courses">course list</a> covers every age and subject.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Australia%20and%20want%20to%20take%20a%20game%20programming%20course.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'gpau',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">From an Australian mobile, WhatsApp is usually the fastest way to reach us. Our team is in India, hence the +91 number, and we do not have an Australian office.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_gpau(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Making games</h4><ul><li><a href="/game-development-for-kids-australia">Game development for kids</a></li><li><a href="/c-plus-plus-game-development">C++ game development</a></li><li><a href="/coding-roadmap">The coding roadmap</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/hsc-software-engineering-help">HSC Software Engineering</a></li><li><a href="/coding-classes-cost-australia">What coding classes cost</a></li><li><a href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Same code, same second, same answer on every machine</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_gpau = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'game-programming-course-australia-inline', meta: { name: name, age: age, page: 'game-programming-course-australia' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
