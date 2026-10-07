@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding Classes for 11 and 12 Year Olds in Australia</title>
+  <meta name="description" content="Coding classes for 11 and 12 year olds in Australia: Python, websites and apps, how computers store letters as binary, and getting ready for Year 7. Live online.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-classes-for-11-and-12-year-olds-australia">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-classes-for-11-and-12-year-olds-australia.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#151251">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-classes-for-11-and-12-year-olds-australia">
+  <meta property="og:title" content="Coding Classes for 11 and 12 Year Olds in Australia">
+  <meta property="og:description" content="Eleven and twelve is the bridge from primary to high school. Python, web and app projects, binary from first principles, and live online lessons for Australian children.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding Classes for 11 and 12 Year Olds in Australia">
+  <meta name="twitter:description" content="Coding for 11 and 12 year olds in Australia: Python, websites, apps and binary, getting ready for Year 7.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-kelv .ag-hero h1 { letter-spacing: -0.015em; }
+.ag-root.ag-kelv .ag-capsule { border-left-width: 5px; border-radius: 3px; }
+.ag-root.ag-kelv .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-kelv .ag-table td code { letter-spacing: 0.04em; }
+.ag-root.ag-kelv .ag-grid-3 h3 { letter-spacing: -0.006em; }
+.ag-root.ag-kelv .ag-band-head h3 { font-weight: 620; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-classes-for-11-and-12-year-olds-australia#page","url":"https://learn.modernagecoders.com/coding-classes-for-11-and-12-year-olds-australia","name":"Coding Classes for 11 and 12 Year Olds in Australia","description":"A guide for Australian parents of 11 and 12 year olds to coding: text programming in Python, web and app projects, how digital systems represent data in binary, and preparation for Year 7.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":4,"name":"Coding for 11 and 12 year olds","item":"https://learn.modernagecoders.com/coding-classes-for-11-and-12-year-olds-australia"}]},{"@type":"Course","name":"Coding Classes for 11 and 12 Year Olds in Australia","description":"Live online coding for Australian 11 and 12 year olds: Python, web development, app making and AI literacy, in small groups or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-classes-for-11-and-12-year-olds-australia"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-classes-for-11-and-12-year-olds-australia"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-classes-for-11-and-12-year-olds-australia"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What coding should an 11 year old learn?","acceptedAnswer":{"@type":"Answer","text":"Most eleven year olds are ready for a text language such as Python, often after a short spell of Scratch if they are new to coding. Web pages and app making are good parallel projects."}},{"@type":"Question","name":"Is 12 too old to start coding?","acceptedAnswer":{"@type":"Answer","text":"Not at all. Twelve year olds usually learn quickly because they read, type and reason fluently, and many cover in a term what takes younger children a year."}},{"@type":"Question","name":"What is the A1Z26 code?","acceptedAnswer":{"@type":"Answer","text":"A1Z26 replaces each letter with its position in the alphabet, so A is 1 and Z is 26. It is a simple way to show how computers turn letters into numbers before storing them."}},{"@type":"Question","name":"What is binary?","acceptedAnswer":{"@type":"Answer","text":"Binary is a way of writing numbers using only 0 and 1, where each digit is worth double the one to its right. Computers store all data in binary because their circuits are either off or on."}},{"@type":"Question","name":"How many binary digits does a letter need?","acceptedAnswer":{"@type":"Answer","text":"For just the 26 capital letters, five binary digits are enough, because five digits make 32 values. Real computers use longer codes to cover small letters, digits, punctuation and other languages."}},{"@type":"Question","name":"Will coding help my child in Year 7?","acceptedAnswer":{"@type":"Answer","text":"Yes. Year 7 Digital Technologies expects programming in a general-purpose language, so a child who already writes Python arrives confident instead of starting from nothing."}},{"@type":"Question","name":"Should my child use AI tools to code?","acceptedAnswer":{"@type":"Answer","text":"Used carefully, they can explain errors and ideas. We teach children to understand every line they use, and we follow each tool's minimum-age terms in lessons."}},{"@type":"Question","name":"What does the curriculum expect by the end of Year 6?","acceptedAnswer":{"@type":"Answer","text":"Among other things, that students show how digital systems represent data, design algorithms with complex branching and iteration, implement them as visual programs with variables, and recognise the permanence of their digital footprint."}},{"@type":"Question","name":"How often should an 11 or 12 year old have lessons?","acceptedAnswer":{"@type":"Answer","text":"Weekly lessons suit most families. Twice a week helps a child preparing quickly for Year 7 or a particular project."}},{"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"Your first class is free, with no card required. Group and one-to-one lessons are each charged monthly at the prices shown under Fees, and there is no enrolment fee."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-classes-for-11-and-12-year-olds-australia","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-kelv">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#bridge">The bridge years</a></li>
+      <li><a href="#letters">Letters to binary</a></li>
+      <li><a href="#curriculum">At school</a></li>
+      <li><a href="#paths">Paths</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / Coding for 11 and 12 year olds
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; Ages 11 and 12 &middot; Live online</p>
+        <h1>Coding classes for 11 and 12 year olds</h1>
+        <p class="ag-lede">Eleven and twelve are the bridge years. Most Australian children of this age are finishing primary school or starting Year 7, and their coding should be crossing a bridge too: from block programs to typed code, from making games for fun to understanding how computers actually work. Children of this age can think abstractly enough to enjoy ideas such as binary and data, and they are old enough to care about privacy and what they leave behind online. This page explains what eleven and twelve year olds can realistically achieve, works through one idea from the curriculum (how a computer turns a letter into ones and zeros), shows how it lines up with Years 5 to 8, and sets out the paths our students take from here.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#letters" class="ag-btn ag-btn--ghost">See letters become binary</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20our%20child%20is%2011%20or%2012%20and%20we%20are%20in%20Australia.%20Could%20we%20book%20a%20free%20first%20coding%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'kelv'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; real code, understood line by line</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Children aged 11 and 12</dd>
+          <dt>School years</dt><dd>Usually Years 6 and 7</dd>
+          <dt>Main language</dt><dd>Python</dd>
+          <dt>Also</dt><dd>Web pages, apps, AI literacy</dd>
+          <dt>Big new ideas</dt><dd>Data, binary, functions</dd>
+          <dt>Format</dt><dd>Live online lessons</dd>
+          <dt>Group</dt><dd>Five to ten, or one to one</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Coding classes for 11 and 12 year olds usually move children from block coding into a text language such as Python, alongside projects like websites and apps. Children of this age also learn how computers represent data: the Australian Curriculum expects Years 5 and 6 to "explain how digital systems represent all data using numbers" and to explore binary. It is the ideal preparation for Year 7, when programming in a general-purpose language becomes part of the curriculum.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three paths for 11 and 12 year olds</h2>
+      <p class="ag-lede">Pick by interest. All three are taught live, with text coding at the centre.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">KELV / 01</p>
+          <h3>Python and AI for Kids</h3>
+          <p>The core choice at eleven: real Python, games, drawings and small AI projects, up to age 12.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/kids-ai-web-development-course">
+        <div class="ag-pick-shot"><img src="/images/html-css-kids.webp" alt="Web Development for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">KELV / 02</p>
+          <h3>Web Development for Kids</h3>
+          <p>For children who want to publish a website of their own: HTML, CSS and a first look at JavaScript.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-literacy-for-kids-course">
+        <div class="ag-pick-shot"><img src="/images/ai-literacy-for-kids.webp" alt="AI Literacy for Kids (Ages 8 to 14) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">KELV / 03</p>
+          <h3>AI Literacy for Kids</h3>
+          <p>How AI really works and how to use it wisely, for curious 8 to 14 year olds.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="bridge">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The bridge years</p><h2>What eleven and twelve year olds can achieve</h2><p class="ag-lede">With a little experience, children of this age write real programs from a blank file, organise them into parts and explain how they work. Without experience, they learn faster than younger beginners because they can handle abstract ideas sooner.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Coding at eleven and twelve (our teaching experience)</caption><thead><tr><th scope="col"></th><th scope="col">With some coding behind them</th><th scope="col">Starting from scratch</th></tr></thead><tbody><tr><td>First term</td><td>Python programs with functions and lists</td><td>A few weeks of Scratch, then first Python</td></tr><tr><td>Projects</td><td>A text adventure, a quiz with a high-score file, a small website</td><td>A Scratch game, then a Python number-guessing game</td></tr><tr><td>Thinking</td><td>Plans a program before writing it</td><td>Learns to break problems into steps</td></tr><tr><td>Debugging</td><td>Reads error messages and fixes them alone</td><td>Fixes errors with a hint from the teacher</td></tr><tr><td>By the end of a year</td><td>Ready for Year 7 coding with room to spare</td><td>Comfortable in Python and ready for Year 7</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Never too late at eleven</h3><p>Parents of eleven and twelve year olds sometimes worry that their child has "missed" the early years. They have not. A twelve year old usually covers in one term what takes a seven year old a year, because they read, type and reason more fluently.</p>
+<p>For complete beginners we spend a short time in Scratch to build the core ideas, then move to Python quickly.</p></div><div><h3>Making things that matter to them</h3><p>At this age motivation comes from making something real: a website about their favourite band, an app for their sports team, a game they can share with friends.</p>
+<p>We choose projects with the child, then teach whatever ideas the project needs. That keeps them coming back.</p></div></div>
+    <p class="ag-mt-40">Most Australian eleven and twelve year olds are in Year 6 or Year 7, and Year 7 is the first year of secondary school in every state and territory. Our page on <a class="ag-inline-link" href="/coding-for-year-7-australia">coding in Year 7</a> covers that first high school year in detail.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="letters">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked example</p><h2>From letters to numbers to binary</h2><p class="ag-lede">Computers only store numbers, and underneath those, only ones and zeros. This lesson shows eleven and twelve year olds exactly how a word gets there, in two steps they can do with a pencil.</p></div>
+    <p><strong>Step one: letters to numbers.</strong> Give each letter its position in the alphabet: A is 1, B is 2, and so on up to Z, which is 26. Puzzle fans call this the <strong>A1Z26</strong> code. The word <code>CODE</code> becomes 3, 15, 4, 5. It is exactly the activity ACARA suggests for Years 5 and 6: "converting letters in a message to numbers using their position in the alphabet".</p>
+    <p class="ag-mt-40"><strong>Step two: numbers to binary.</strong> In binary, each digit is worth double the one to its right: 16, 8, 4, 2, 1. To write 15, children find the digits that add to it: 8 + 4 + 2 + 1, so 15 is <code>01111</code>. Five digits can make every number from 0 up to 31, and 26 letters fit comfortably.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The word CODE in A1Z26 and in five-digit binary (our worked example, checked in Python)</caption><thead><tr><th scope="col">Letter</th><th scope="col">Position (A1Z26)</th><th scope="col">Binary, five digits</th><th scope="col">Made from</th></tr></thead><tbody><tr><td>C</td><td>3</td><td>00011</td><td>2 + 1</td></tr><tr><td>O</td><td>15</td><td>01111</td><td>8 + 4 + 2 + 1</td></tr><tr><td>D</td><td>4</td><td>00100</td><td>4</td></tr><tr><td>E</td><td>5</td><td>00101</td><td>4 + 1</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why five digits, not four?</h3><p>Four binary digits can only make 16 different values, 0 to 15, which is not enough for 26 letters: P to Z would have nowhere to go. Five digits make 32 values, which is enough with six to spare.</p>
+<p>Children work this out by trying, and it is a lovely moment: they have just reasoned about storage the way a computer designer does.</p></div><div><h3>How real computers differ</h3><p>Real computers use a longer code that covers capitals, small letters, digits, punctuation and symbols from every language, so they need many more digits per character.</p>
+<p>In Year 7 and 8 the curriculum takes the next step, with students "counting in binary from 0 to 31" and learning that a byte of 8 bits can represent 0 to 255. Our five-digit code is that same 0 to 31.</p></div></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Write it in Python</h3><p>Children then write a short Python function that turns any word into A1Z26 numbers, and another that turns numbers into five-digit binary.</p></div><div><h3>Send secret messages</h3><p>Classmates swap binary messages and decode each other's, checking the program against their pencil work.</p></div><div><h3>Ask a better question</h3><p>Is this a secret code? Not really: anyone who knows the rule can read it. That opens a good discussion about real encryption.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="curriculum">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The Australian Curriculum</p><h2>How this matches Years 5 to 8 at school</h2><p class="ag-lede">Eleven and twelve year olds sit at the end of the Years 5 and 6 band and the start of the Years 7 and 8 band. Data and binary run through both.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Data, binary and privacy in Digital Technologies, Australian Curriculum v9 (quoted)</caption><thead><tr><th scope="col">Code</th><th scope="col">Students learn to</th></tr></thead><tbody><tr><td>AC9TDI6K03</td><td>"explain how digital systems represent all data using numbers"</td></tr><tr><td>AC9TDI6K04</td><td>"explore how data can be represented by off and on states (zeros and ones in binary)"</td></tr><tr><td>AC9TDI6P10</td><td>"explain the creation and permanence of their digital footprint and consider privacy when collecting user data"</td></tr><tr><td>AC9TDI8K04</td><td>"explain how and why digital systems represent integers in binary"</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Thinking more abstractly</h3><p>The Year 6 band description says students "think in a more abstract way, exploring how on and off states and whole numbers can be used to represent data". That shift is exactly what makes binary fun at eleven instead of baffling.</p>
+<p>It is also why Python suits this age: a typed program is itself an abstraction, a description of what should happen rather than a picture of it.</p></div><div><h3>Footprints and passphrases</h3><p>The same band asks children to understand that what they post online can last. By the end of Year 6, the achievement standard says, students "identify their digital footprint and recognise its permanence".</p>
+<p>Children are also expected to use different passphrases for different accounts (AC9TDI6P09). We reinforce both habits in every course, because this is the age when many children start using more apps.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Quoted from ACARA's Digital Technologies content files for <a class="ag-inline-link" href="https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-f-6-v9.docx" rel="noopener" target="_blank">Foundation to Year 6</a> and <a class="ag-inline-link" href="https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx" rel="noopener" target="_blank">Years 7 to 10</a>, as published on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="paths">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Paths</p><h2>Where eleven and twelve year olds go next</h2><p class="ag-lede">By twelve, most children have a direction. These are the paths our students most often take, and what each one leads to by the mid-teens.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Paths from age 11 or 12</caption><thead><tr><th scope="col">If they love</th><th scope="col">They learn</th><th scope="col">By about 14 they can</th></tr></thead><tbody><tr><td>Games</td><td>Python with Pygame, or Luau in Roblox Studio</td><td>Build and share a complete multi-level game</td></tr><tr><td>Websites</td><td>HTML, CSS and JavaScript</td><td>Publish an interactive site of their own</td></tr><tr><td>Apps</td><td>Block-based app making, then a text language</td><td>Put a working app on a phone</td></tr><tr><td>Puzzles and maths</td><td>Python and algorithms</td><td>Solve competition-style problems in code</td></tr><tr><td>AI</td><td>AI literacy, then Python</td><td>Explain how a model learns and build a small AI project</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>AI tools at this age</h3><p>Eleven and twelve year olds increasingly meet AI chatbots at home and at school. We teach how these tools work and how to use them to learn, not to avoid learning.</p>
+<p>Many AI tools set minimum ages in their terms, so we only use kid-appropriate tools in lessons for this age, with parents informed.</p></div><div><h3>Competitions</h3><p>Some children enjoy coding and maths competitions. Our <a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Australian competitions calendar</a> lists events by month, with links to each organiser.</p>
+<p>Competitions are optional: plenty of strong young coders never enter one.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Stages</p>
+      <h2>Four stages for eleven and twelve year olds</h2>
+      <p class="ag-lede">With a weekly lesson, most children of this age reach the third stage within a school year, even from a standing start.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Coding stages at ages 11 and 12</caption><thead><tr><th scope="col">Stage</th><th scope="col">What your child can do</th></tr></thead><tbody><tr><td>1. Into text</td><td class="ag-num">Writes and runs short Python programs and fixes their own typing errors</td></tr><tr><td>2. Data</td><td class="ag-num">Explains how text becomes numbers and binary, and writes code that converts between them</td></tr><tr><td>3. Structure</td><td class="ag-num">Organises a program into functions and lists and tests each part</td></tr><tr><td>4. Projects</td><td class="ag-num">Plans and builds a website, app or game of their own design, then explains it</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Balancing coding with school</h3><p>Year 6 and Year 7 are busy, with new schools, homework and sport. One lesson a week is enough to keep coding growing without overload.</p>
+<p>Lessons pause easily over the holidays, and billing is monthly.</p></div><div><h3>Support through the move to high school</h3><p>For children starting Year 7, a term of Python beforehand turns the new subject into something familiar.</p>
+<p>We never do or check school assessment tasks, but we build the skills those tasks need.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Courses for ages 11 and 12</h2>
+      <p class="ag-lede">Grouped by direction. The teacher in the free class helps choose.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Python and AI</h3>
+        <span class="ag-band-sub">The core path</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">KELV / PY / 01</p>
+          <h4>Python and AI for Kids</h4>
+          <p>Python games, drawings and small AI projects.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">KELV / PY / 02</p>
+          <h4>AI Literacy for Kids</h4>
+          <p>How machines learn, and using AI wisely.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">KELV / PY / 03</p>
+          <h4>Maths Through Coding</h4>
+          <p>Python as a tool for exploring maths.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Web and apps</h3>
+        <span class="ag-band-sub">For makers</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">KELV / WEB / 01</p>
+          <h4>Web Development for Kids</h4>
+          <p>Websites with HTML, CSS and JavaScript.</p>
+          <a class="ag-course-link" href="/courses/kids-ai-web-development-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">KELV / WEB / 02</p>
+          <h4>App Making for Kids</h4>
+          <p>Phone apps, designed and built by the child.</p>
+          <a class="ag-course-link" href="/courses/block-coding-app-development-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">KELV / WEB / 03</p>
+          <h4>Vibe Coding for Kids</h4>
+          <p>Building with AI help, while understanding the result.</p>
+          <a class="ag-course-link" href="/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Games and puzzles</h3>
+        <span class="ag-band-sub">For players and solvers</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">KELV / PLAY / 01</p>
+          <h4>Game Development for Kids</h4>
+          <p>Bigger games across several tools.</p>
+          <a class="ag-course-link" href="/courses/game-development-masterclass-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">KELV / PLAY / 02</p>
+          <h4>Roblox Game Coding</h4>
+          <p>Luau and Roblox Studio, to a published game.</p>
+          <a class="ag-course-link" href="/courses/roblox-game-coding-for-kids-lua-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">KELV / PLAY / 03</p>
+          <h4>Hackathon Prep for Kids</h4>
+          <p>Team projects built against the clock.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live lessons through Year 6 and Year 7</h2>
+      <p class="ag-lede">Lessons are taught live from India. Because every Australian state is a few hours ahead of India time, afternoons and weekends in Australia are comfortable for our teachers to cover.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday, late afternoon</p><p class="ag-slot-l">Popular with Year 6 students.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekday, early evening</p><p class="ag-slot-l">Often chosen once Year 7 brings a longer school day.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">For longer project sessions.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A free first class</h3><p>Your child tries some Python with a teacher, and we recommend a path from what they enjoy.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten children of similar age and level, often from different states.</p></div>
+      <div><h3>One to one</h3><p>For a child preparing for Year 7 quickly or chasing an ambitious project.</p></div>
+      <div><h3>Written by them</h3><p>Every line is typed by the child; teachers guide with questions.</p></div>
+      <div><h3>Open to parents</h3><p>You are welcome to watch any lesson, live.</p></div>
+      <div><h3>Privacy first</h3><p>No personal details are shared in class, and accounts are set up with a parent.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects built by our students</h2>
+      <p class="ag-lede">Projects by our older students, several of whom wrote their first Python at eleven or twelve. More are in our <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for ages 11 and 12</h2>
+      <p class="ag-lede">One monthly fee in US dollars applies to Australian families, with no joining charge and no fixed term.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A first Python task with a teacher</li><li>A suggested path and course</li><li>No card or bank details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten children per class</li><li>One teacher across the months</li><li>Peers working at the same level</li><li>Stop after any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Lessons built around your child</li><li>Flexible weekly timing</li><li>Space for a project of their own</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Straight from our Google profile, in each parent's or student's own words.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from parents</p>
+      <h2>What parents of 11 and 12 year olds ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What coding should an 11 year old learn?</h3>
+        <p>Most eleven year olds are ready for a text language such as Python, often after a short spell of Scratch if they are new to coding. Web pages and app making are good parallel projects.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is 12 too old to start coding?</h3>
+        <p>Not at all. Twelve year olds usually learn quickly because they read, type and reason fluently, and many cover in a term what takes younger children a year.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the A1Z26 code?</h3>
+        <p>A1Z26 replaces each letter with its position in the alphabet, so A is 1 and Z is 26. It is a simple way to show how computers turn letters into numbers before storing them.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is binary?</h3>
+        <p>Binary is a way of writing numbers using only 0 and 1, where each digit is worth double the one to its right. Computers store all data in binary because their circuits are either off or on.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many binary digits does a letter need?</h3>
+        <p>For just the 26 capital letters, five binary digits are enough, because five digits make 32 values. Real computers use longer codes to cover small letters, digits, punctuation and other languages.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will coding help my child in Year 7?</h3>
+        <p>Yes. Year 7 Digital Technologies expects programming in a general-purpose language, so a child who already writes Python arrives confident instead of starting from nothing.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should my child use AI tools to code?</h3>
+        <p>Used carefully, they can explain errors and ideas. We teach children to understand every line they use, and we follow each tool's minimum-age terms in lessons.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does the curriculum expect by the end of Year 6?</h3>
+        <p>Among other things, that students show how digital systems represent data, design algorithms with complex branching and iteration, implement them as visual programs with variables, and recognise the permanence of their digital footprint.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How often should an 11 or 12 year old have lessons?</h3>
+        <p>Weekly lessons suit most families. Twice a week helps a child preparing quickly for Year 7 or a particular project.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does it cost?</h3>
+        <p>Your first class is free, with no card required. Group and one-to-one lessons are each charged monthly at the prices shown under Fees, and there is no enrolment fee.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Australian children around the move to high school.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>A starting point for every Australian guide we publish.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-year-7-australia">Coding for Year 7</a></h3><p>The first year of high school programming.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-9-and-10-year-olds-australia">Coding for 9 and 10 year olds</a></h3><p>Variables, coordinates and complete games.</p></div>
+      <div><h3><a class="ag-inline-link" href="/kids-coding-languages-australia">Kids coding languages</a></h3><p>Python, JavaScript and Luau compared.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-12-year-olds">Coding for 12 year olds</a></h3><p>Our general guide for twelve year olds.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-12-year-olds">Python for 12 year olds</a></h3><p>A closer look at Python at twelve.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Send your details and we will call at a time that suits. In the free class your child writes a little Python with a teacher, and you hear which path would suit them, especially with Year 7 on the way.</p>
+        <p class="ag-mt-40">To get a feel for lessons first, <a class="ag-inline-link" href="/how-we-teach">how we teach</a> describes one closely; the <a class="ag-inline-link" href="/courses">courses</a> page shows what older students go on to.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20our%20child%20is%2011%20or%2012%20and%20we%20are%20in%20Australia.%20Could%20we%20book%20a%20free%20first%20coding%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'kelv',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp is usually the fastest route from an Australian number. Since our team sits in India the number starts +91; we have no office in Australia.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_kelv(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Ages 11 and 12</h4><ul><li><a href="/coding-for-year-7-australia">Coding for Year 7</a></li><li><a href="/python-for-12-year-olds">Python for 12 year olds</a></li><li><a href="/coding-for-11-year-olds">Coding for 11 year olds</a></li><li><a href="/coding-roadmap">The coding roadmap</a></li></ul></div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/coding-classes-for-9-and-10-year-olds-australia">Ages 9 and 10</a></li><li><a href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>C is 3, and 3 is 00011</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_kelv = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'coding-classes-for-11-and-12-year-olds-australia-inline', meta: { name: name, age: age, page: 'coding-classes-for-11-and-12-year-olds-australia' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
