@@ -130,7 +130,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 90 | aio-to-ioi-pathway-australia (ioip, #1B1B66) | ag- exam door | 3,100 | 1.7% vs australian-informatics-olympiad-preparation | How do Australian students get from the AIO to the International Olympiad in Informatics? | operations budget (estimating running time from n before coding) | 43f1d341 |
 | 91 | australian-mathematics-competition-practice-by-year (amcy, #90242D) | ag- exam door | 3,224 | 1.8% vs bebras-challenge-australia-practice | How is the Australian Mathematics Competition structured for each year level, and how does its scoring shape a good plan? | expected marks under no-penalty scoring | 222a3fdc |
 | 92 | maths-challenge-for-young-australians-practice (mcha, #36541B) | ag- exam door | 3,293 | 1.6% vs australian-informatics-olympiad-preparation | What is the Maths Challenge for Young Australians, and how do written solutions earn marks? | worked-solution marking rubric | 528e804b |
-| 93 | apsmo-maths-olympiad-practice (apsm, #663939) | ag- exam door | 3,147 | 1.9% vs icas-maths-practice-online | How does the APSMO Maths Olympiad work for Years 5 to 8, and how can students prepare fairly? | working backwards (original problems) | (this commit) |
+| 93 | apsmo-maths-olympiad-practice (apsm, #663939) | ag- exam door | 3,147 | 1.9% vs icas-maths-practice-online | How does the APSMO Maths Olympiad work for Years 5 to 8, and how can students prepare fairly? | working backwards (original problems) | 816aa79c |
+| 94 | icas-maths-practice-online (icmt, #303F66) | ag- exam door | 3,164 | 1.9% vs apsmo-maths-olympiad-practice | Which ICAS Mathematics paper does each Australian year sit, and how is a senior-paper topic like recurring decimals worked? | recurring decimals to fractions | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

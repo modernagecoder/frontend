@@ -367,6 +367,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AMC practice by year](/australian-mathematics-competition-practice-by-year)
 - [Maths Challenge for Young Australians practice](/maths-challenge-for-young-australians-practice)
 - [APSMO Maths Olympiad practice](/apsmo-maths-olympiad-practice)
+- [ICAS Maths practice](/icas-maths-practice-online)
 <!-- AU-LINKS -->
 
 
