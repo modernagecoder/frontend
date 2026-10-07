@@ -590,6 +590,11 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Girls' Programming Network: next steps: https://learn.modernagecoders.com/girls-programming-network-next-step-australia
 - Australian Informatics Olympiad preparation: https://learn.modernagecoders.com/australian-informatics-olympiad-preparation
 - Australian Mathematical Olympiad preparation: https://learn.modernagecoders.com/australian-mathematical-olympiad-preparation
+- AIO to IOI pathway in Australia: https://learn.modernagecoders.com/aio-to-ioi-pathway-australia
+- Australian Mathematics Competition practice by year: https://learn.modernagecoders.com/australian-mathematics-competition-practice-by-year
+- Coding competitions for primary kids in Australia: https://learn.modernagecoders.com/australian-coding-competitions-for-primary-kids
+- Maths Challenge for Young Australians practice: https://learn.modernagecoders.com/maths-challenge-for-young-australians-practice
+- Maths competitions for primary kids in Australia: https://learn.modernagecoders.com/australian-maths-competitions-for-primary-kids
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

@@ -360,6 +360,11 @@ const SLUGS = [
   'girls-programming-network-next-step-australia',
   'australian-informatics-olympiad-preparation',
   'australian-mathematical-olympiad-preparation',
+  'aio-to-ioi-pathway-australia',
+  'australian-mathematics-competition-practice-by-year',
+  'australian-coding-competitions-for-primary-kids',
+  'maths-challenge-for-young-australians-practice',
+  'australian-maths-competitions-for-primary-kids',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -799,6 +804,11 @@ const LLMS_LABELS = {
   'girls-programming-network-next-step-australia': 'Girls\' Programming Network: next steps',
   'australian-informatics-olympiad-preparation': 'Australian Informatics Olympiad preparation',
   'australian-mathematical-olympiad-preparation': 'Australian Mathematical Olympiad preparation',
+  'aio-to-ioi-pathway-australia': 'AIO to IOI pathway in Australia',
+  'australian-mathematics-competition-practice-by-year': 'Australian Mathematics Competition practice by year',
+  'australian-coding-competitions-for-primary-kids': 'Coding competitions for primary kids in Australia',
+  'maths-challenge-for-young-australians-practice': 'Maths Challenge for Young Australians practice',
+  'australian-maths-competitions-for-primary-kids': 'Maths competitions for primary kids in Australia',
 };
 
 function wireLlms(slugs) {

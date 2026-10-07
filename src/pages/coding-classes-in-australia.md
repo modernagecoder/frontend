@@ -348,6 +348,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [SACE Specialist Mathematics tutoring](/sace-specialist-mathematics-tutoring)
 - [TASC Computer Science help](/tasc-computer-science-help)
 - [TASC Mathematics Methods tutoring](/tasc-mathematics-methods-tutoring)
+- [ICAS Digital Technologies practice](/icas-digital-technologies-practice)
 <!-- AU-LINKS -->
 
 
