@@ -49,6 +49,7 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 4 | naplan-numeracy-practice-online (nnp, #5A1827) | ag- exam door | 3,336 | 0.4% vs 11-plus-maths-tuition-wirral | How does the tailored NAPLAN numeracy test work, and what habit helps at every year level? | front-end estimation and benchmark fractions | ecea4ba9 |
 | 1 | game-development-for-kids-australia (gdau, #2D6F30) | ag- high-demand door | 4,154 | 0.4% vs coding-for-university-students-uk | How do Australian kids go from a Scratch game to a real engine, and what does a game development lesson actually contain? | hitbox: axis-aligned bounding box overlap test | 21c26db2 |
 | 2 | online-coding-classes-for-kids-australia (ocau, #963F2A) | ag- kids door | 3,990 | 0.4% vs transition-year-coding-course-ireland | What do online coding classes look like for Australian primary children across six names for the first school year and three time zones? | clock arithmetic modulo 24 hours with half-hour offsets | (this commit) |
+| 5 | coding-classes-cost-australia (static mp- page) | mp- cost page | about 1,850 | n/a (static mp- page) | What does a coding class cost an Australian family per lesson and per term? | how each format charges; per-term arithmetic in USD | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

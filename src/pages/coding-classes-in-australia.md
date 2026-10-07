@@ -285,6 +285,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Australian coding and maths competitions](/australian-coding-maths-and-ai-competitions-calendar)
 - [Game development for kids in Australia](/game-development-for-kids-australia)
 - [Online coding classes for kids in Australia](/online-coding-classes-for-kids-australia)
+- [Coding classes cost in Australia](/coding-classes-cost-australia)
 <!-- AU-LINKS -->
 
 
