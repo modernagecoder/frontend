@@ -311,6 +311,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Understand the code, don't copy-paste](/understand-the-code-dont-copy-paste-australia)
 - [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-australia)
 - [Problem solving through coding](/problem-solving-through-coding-australia)
+- [Online coding tutor in Australia](/online-coding-tutor-australia)
 <!-- AU-LINKS -->
 
 

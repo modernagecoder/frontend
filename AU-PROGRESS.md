@@ -74,7 +74,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 31 | learn-to-think-not-just-use-ai-tools-australia (ltau, #1C4498) | ag- topic door | 3,166 | 2.2% vs problem-solving-through-coding-australia | How do Australian students keep the thinking when AI gives the answers, and how many AI answers must they check? | acceptance sampling | 72706327 |
 | 32 | understand-the-code-dont-copy-paste-australia (ucau, #70481C) | ag- topic door | 3,031 | 2% vs learn-to-train-ai-not-just-prompt-it-australia | Why does pasted code fail quietly, and how does a written contract catch it? | postconditions as contracts (design by contract) | 80909b1b |
 | 33 | learn-to-train-ai-not-just-prompt-it-australia (trau, #247038) | ag- topic door | 3,150 | 2% vs understand-the-code-dont-copy-paste-australia | Why should Australian students train models rather than only prompt them, and how do labels cap what a model can show? | inter-annotator agreement | 3ab9549d |
-| 34 | problem-solving-through-coding-australia (psau, #984438) | ag- topic door | 3,081 | 2.2% vs learn-to-think-not-just-use-ai-tools-australia | How does coding build problem solving, and what can a program show but not prove? | Collatz 3x+1 exploration | (this commit) |
+| 34 | problem-solving-through-coding-australia (psau, #984438) | ag- topic door | 3,081 | 2.2% vs learn-to-think-not-just-use-ai-tools-australia | How does coding build problem solving, and what can a program show but not prove? | Collatz 3x+1 exploration | 7e1cc98e |
+| 36 | online-coding-tutor-australia (otau, #485498) | ag- topic door | 3,056 | 2% vs one-on-one-coding-tutor-australia | What should an online coding tutor do each week, and what should Australian parents check before booking one? | use-modify-create progression | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
