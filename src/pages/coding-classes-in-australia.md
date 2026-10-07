@@ -304,6 +304,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Minecraft coding classes](/minecraft-coding-classes-australia)
 - [Python AI course for kids](/python-ai-course-for-kids-australia)
 - [AI courses for kids](/ai-courses-for-kids-australia)
+- [AI classes for teens](/ai-classes-for-teens-australia)
 <!-- AU-LINKS -->
 
 
