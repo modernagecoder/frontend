@@ -6,7 +6,7 @@ source: src/pages/best-coding-classes-in-hobart.html
 ---
 > For a Hobart teenager or adult, a live class where a teacher works through real problems with you, from Python basics to graphs and data checking, using real Tasmanian data. The 2021 Census put Greater Hobart at 247,086 people, nearly three in ten of those aged 15 or older with a degree. We teach over video, one to one or in a small class of learners at your stage, and you pay nothing for the opening lesson.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / Hobart
+[Home](/) / [Australia](/coding-classes-in-australia) / [Tasmania](/coding-and-ai-classes-in-tasmania) / Hobart
 
 Hobart, Tasmania, Australia / Live online
 

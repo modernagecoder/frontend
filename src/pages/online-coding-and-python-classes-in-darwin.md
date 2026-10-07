@@ -6,7 +6,7 @@ source: src/pages/online-coding-and-python-classes-in-darwin.html
 ---
 > For Darwin teenagers and adults, online Python lessons with a live teacher who reads your code as you write it and sets projects on real files. Greater Darwin had 139,902 people at the 2021 Census, a median age of just 34, and a quarter of its occupied homes are flats or apartments. Classes run privately or with a few learners at your level, and the opening lesson is free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / Darwin
+[Home](/) / [Australia](/coding-classes-in-australia) / [Northern Territory](/coding-and-ai-classes-in-northern-territory) / Darwin
 
 Darwin, Northern Territory, Australia / Live online
 

@@ -6,7 +6,7 @@ source: src/pages/vibe-coding-and-ai-agents-classes-in-melbourne.html
 ---
 > Ones where the learner directs the AI and can still prove its work is right. Vibe coding means building software by describing it to an AI assistant; an AI agent is a program that uses tools to act on a goal. Greater Melbourne counted 4,917,750 people in 2021. We teach both live online to teens and adults, privately or in a small group at the same standard, alongside Python, maths and VCE technique, and the trial lesson is free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / Melbourne
+[Home](/) / [Australia](/coding-classes-in-australia) / [Victoria](/coding-and-ai-classes-in-victoria) / Melbourne
 
 Melbourne, Victoria, Australia / Live online
 

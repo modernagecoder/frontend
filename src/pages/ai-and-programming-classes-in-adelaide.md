@@ -6,7 +6,7 @@ source: src/pages/ai-and-programming-classes-in-adelaide.html
 ---
 > For an Adelaide teenager or adult, live lessons where you write the AI yourself, test it against simple alternatives and understand why it works. Greater Adelaide counted 1,387,290 people at the 2021 Census, with a median age of 39, older than most capitals, so our classes run from Year 9 students to people changing careers. Lessons are online, privately or in small level-matched groups, and the first one is free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / Adelaide
+[Home](/) / [Australia](/coding-classes-in-australia) / [South Australia](/coding-and-ai-classes-in-south-australia) / Adelaide
 
 Adelaide, South Australia / Live online
 

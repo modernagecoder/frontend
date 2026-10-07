@@ -44,7 +44,7 @@ module.exports = {
       { type: 'Country', name: 'Australia' }
     ]
   },
-  parents: [{ slug: 'coding-classes-in-australia', name: 'Australia' }],
+  parents: [{ slug: 'coding-classes-in-australia', name: 'Australia' }, { slug: 'coding-and-ai-classes-in-australian-capital-territory', name: 'Australian Capital Territory' }],
   nav: [
     { label: 'Australia', href: '/coding-classes-in-australia' },
     { label: 'Courses', href: '/courses' },

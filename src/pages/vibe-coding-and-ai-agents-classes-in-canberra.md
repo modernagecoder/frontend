@@ -6,7 +6,7 @@ source: src/pages/vibe-coding-and-ai-agents-classes-in-canberra.html
 ---
 > For Canberra teenagers and adults, live classes where you describe a program to an AI, then read, test and steer what it writes until it truly works. The Australian Capital Territory counted 453,890 people at the 2021 Census and 43.0% of residents aged 15 and over hold a bachelor degree or higher, so our learners range from Year 10 students to public servants. Lessons are online, one to one or in small groups, and the first is free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / Canberra
+[Home](/) / [Australia](/coding-classes-in-australia) / [Australian Capital Territory](/coding-and-ai-classes-in-australian-capital-territory) / Canberra
 
 Canberra, Australian Capital Territory / Live online
 

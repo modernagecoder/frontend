@@ -6,7 +6,7 @@ source: src/pages/online-coding-and-python-classes-in-perth-western-australia.ht
 ---
 > For a Perth teenager or adult, a live online class where the teacher reads your Python as you type it and sets projects built on real Western Australian data. Greater Perth counted 2,116,647 people at the 2021 Census, and 77.8% of its occupied homes are separate houses, often a long drive from anywhere else. Online lessons remove the drive. We teach one to one or in small groups at the same level, and the first lesson costs nothing.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / Perth
+[Home](/) / [Australia](/coding-classes-in-australia) / [Western Australia](/coding-and-ai-classes-in-western-australia) / Perth
 
 Perth, Western Australia / Live online
 

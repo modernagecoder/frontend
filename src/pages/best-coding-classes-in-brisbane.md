@@ -6,7 +6,7 @@ source: src/pages/best-coding-classes-in-brisbane.html
 ---
 > For a Brisbane teenager or adult it is a live class where a teacher watches you build, explains why code is slow or fast, and sets projects on real data. Greater Brisbane counted 2,526,238 people in the 2021 Census and 27.0% of its residents aged 15 and over hold a bachelor degree or higher. We teach privately or in small level-matched groups, and the trial lesson is free.
 
-[Home](/) / [Australia](/coding-classes-in-australia) / Brisbane
+[Home](/) / [Australia](/coding-classes-in-australia) / [Queensland](/coding-and-ai-classes-in-queensland) / Brisbane
 
 Brisbane, Queensland, Australia / Live online
 
