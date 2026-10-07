@@ -302,6 +302,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Video game design for kids](/video-game-design-for-kids-australia)
 - [Roblox coding classes](/roblox-coding-classes-australia)
 - [Minecraft coding classes](/minecraft-coding-classes-australia)
+- [Python AI course for kids](/python-ai-course-for-kids-australia)
 <!-- AU-LINKS -->
 
 

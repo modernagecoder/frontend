@@ -65,7 +65,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 12 | game-programming-course-australia (gpau, #994236) | ag- topic door | 3,689 | 1.2% vs game-development-for-kids-australia | Why does the same game code jump higher on a slow laptop, and how do game programmers make physics identical on every machine? | fixed timestep and the accumulator | 5895c4e6 |
 | 13 | video-game-design-for-kids-australia (vgau, #36570F) | ag- topic door | 3,606 | 1.6% vs minecraft-coding-classes-australia | How do kids design a level that teaches a new idea without a single word of instructions? | level gating | b07418b8 |
 | 15 | roblox-coding-classes-australia (rbau, #6F4B1B) | ag- topic door | 3,479 | 1.1% vs python-ai-course-for-kids-australia | Is Roblox coding real programming, and why must a Roblox server never trust the player? | RemoteEvent validation: never trust the client | 696f5c64 |
-| 16 | minecraft-coding-classes-australia (mcau, #156F4B) | ag- topic door | 3,371 | 1.6% vs video-game-design-for-kids-australia | Why does a platform meant to appear above your head land a hundred blocks away, and what does it teach about coordinates? | relative coordinates: world vs relative positions in MakeCode | (this commit) |
+| 16 | minecraft-coding-classes-australia (mcau, #156F4B) | ag- topic door | 3,371 | 1.6% vs video-game-design-for-kids-australia | Why does a platform meant to appear above your head land a hundred blocks away, and what does it teach about coordinates? | relative coordinates: world vs relative positions in MakeCode | f0bc665b |
+| 17 | python-ai-course-for-kids-australia (pyau, #574B99) | ag- topic door | 3,574 | 1.1% vs roblox-coding-classes-australia | How does a computer learn from examples, and why did a learned model beat a hand-written rule 6 to 3? | hand-written rules vs a learned word-count model | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
