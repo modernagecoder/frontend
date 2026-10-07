@@ -384,6 +384,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding and AI classes in Victoria](/coding-and-ai-classes-in-victoria)
 - [Coding and AI classes in Queensland](/coding-and-ai-classes-in-queensland)
 - [Coding and AI classes in Western Australia](/coding-and-ai-classes-in-western-australia)
+- [Coding and AI classes in South Australia](/coding-and-ai-classes-in-south-australia)
 <!-- AU-LINKS -->
 
 
