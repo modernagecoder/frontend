@@ -373,6 +373,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding classes vs coding camps](/coding-classes-vs-coding-camps-australia)
 - [Maths tutor vs tutoring centre](/tutor-vs-tutoring-centre-maths-australia)
 - [Coding class or maths tutor first?](/coding-class-or-maths-tutor-first-australia)
+- [Online coding classes compared](/online-coding-classes-australia-compared)
 <!-- AU-LINKS -->
 
 
