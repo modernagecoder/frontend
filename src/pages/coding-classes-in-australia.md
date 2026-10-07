@@ -315,6 +315,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [One-on-one coding tutor in Australia](/one-on-one-coding-tutor-australia)
 - [School holiday coding course in Australia](/school-holiday-coding-course-australia)
 - [NAPLAN Year 3 numeracy practice](/naplan-year-3-numeracy-practice)
+- [NAPLAN Year 5 numeracy practice](/naplan-year-5-numeracy-practice)
 <!-- AU-LINKS -->
 
 

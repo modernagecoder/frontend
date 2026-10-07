@@ -78,7 +78,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 36 | online-coding-tutor-australia (otau, #485498) | ag- topic door | 3,056 | 2% vs one-on-one-coding-tutor-australia | What should an online coding tutor do each week, and what should Australian parents check before booking one? | use-modify-create progression | 211d9edf |
 | 37 | one-on-one-coding-tutor-australia (ooau, #6C1C2C) | ag- topic door | 3,032 | 2% vs online-coding-tutor-australia | When do one-to-one coding lessons suit better than a small group, and how does mastery pacing work? | mastery learning gate (four of the last five correct) | 942189b4 |
 | 39 | school-holiday-coding-course-australia (shau, #1C2858) | ag- topic door | 3,069 | 1.5% vs problem-solving-through-coding-australia | When are school holidays in each Australian state in 2026-27, which weeks do they share, and how do you plan a holiday coding project? | Gantt chart of state school holidays | 0d9adff0 |
-| 40 | naplan-year-3-numeracy-practice (nyth, #1C5C18) | ag- exam door | 3,192 | 1% vs naplan-year-5-numeracy-practice | What does a Year 3 child meet in NAPLAN numeracy, and how does the open number line make mental addition and subtraction checkable? | jump strategy on an open number line | (this commit) |
+| 40 | naplan-year-3-numeracy-practice (nyth, #1C5C18) | ag- exam door | 3,192 | 1% vs naplan-year-5-numeracy-practice | What does a Year 3 child meet in NAPLAN numeracy, and how does the open number line make mental addition and subtraction checkable? | jump strategy on an open number line | 146454dc |
+| 41 | naplan-year-5-numeracy-practice (nyfi, #785414) | ag- exam door | 3,087 | 1% vs naplan-year-3-numeracy-practice | What separates a Developing from a Strong Year 5 numeracy student, and how does compensation make multi-step calculation reliable? | compensation by rounding (round, calculate, correct) | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
