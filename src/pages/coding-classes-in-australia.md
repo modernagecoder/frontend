@@ -353,6 +353,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [FIRST LEGO League Australia coding help](/first-lego-league-australia-coding-help)
 - [Young ICT Explorers project help](/young-ict-explorers-project-help)
 - [Student hackathons in Australia](/australian-student-hackathons)
+- [After a Girls' Programming Network workshop](/girls-programming-network-next-step-australia)
 <!-- AU-LINKS -->
 
 
