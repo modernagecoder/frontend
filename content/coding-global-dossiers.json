@@ -39275,5 +39275,49 @@
       "School sector, income, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with the ACT Government, OpenStreetMap or the ABS."
     ]
+  },
+  "coding-classes-for-kids-newcastle": {
+    "market": "Newcastle",
+    "bodyClass": "cg-kncl",
+    "pageType": "city",
+    "curriculumAuthority": "Newcastle - Maitland, ABS Census 2021 QuickStats, Significant Urban Area 1025 (read 7 October 2026): 508,437 people; median age 39; 137,303 families; average number of children per family, for families with children, 1.8; age 0 to 4: 29,485 (5.8 percent); age 5 to 9: 31,908 (6.3 percent; Australia 6.2); age 10 to 14: 31,667 (6.2 percent); Preschool: 11,755 (7.9 percent of people attending an educational institution; the other seven areas on our kids pages range from 5.7 to 7.1 percent). ABS Schools methodology 2025: kindergarten in New South Wales; New South Wales - children must attend school from the age of six. NSW Department of Education, 2027 calendar: Term 1 Wednesday 3 February to Friday 9 April; Term 2 Thursday 29 April to Friday 2 July; Term 3 Tuesday 20 July to Friday 24 September; Term 4 Tuesday 12 October to Monday 20 December; school development days listed separately. IANA tz database: Australia/Sydney UTC+10 and UTC+11; Asia/Kolkata UTC+5:30.",
+    "localProject": "Numbers stored as text, Newcastle benches. One OpenStreetMap Overpass query, snapshot 2026-10-07T12:59:01Z, amenity=bench in 32.955 to 32.915 degrees south and 151.740 to 151.800 degrees east: 191 benches. Seats tag on node 12693353736 (\"3\", also direction \"240\", material metal) and node 12822659424 (\"6\"). Python run 7 October 2026: \"3\" + \"6\" == \"36\"; int(\"3\") + int(\"6\") == 9; sorted([\"3\", \"6\", \"240\"]) == [\"240\", \"3\", \"6\"]; max([\"3\", \"6\", \"240\"]) == \"6\"; sorted as integers 3, 6, 240. Lesson family: data types, string concatenation versus addition, lexicographic versus numeric ordering, int() conversion.",
+    "requiredMentions": [
+      "29,485",
+      "31,667",
+      "11,755",
+      "137,303",
+      "191 benches",
+      "\"3\" + \"6\" gives \"36\"",
+      "\"240\", \"3\", \"6\"",
+      "Merewether, Maitland or Lake Macquarie",
+      "Thursday 29 April"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Newcastle - Maitland (SUA 1025): people, median age, families, children per family, age bands, preschool attendance.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1025"
+      },
+      {
+        "claim": "ABS Schools methodology 2025: first year name and NSW compulsory school age.",
+        "url": "https://www.abs.gov.au/methodologies/schools-methodology/2025"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 school calendar for students and development days.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "OpenStreetMap via the Overpass API: amenity=bench in the stated rectangle, snapshot 2026-10-07T12:59:01Z (ODbL).",
+        "url": "https://overpass-api.de/api/interpreter"
+      }
+    ],
+    "rejectedClaims": [
+      "Bureau of Meteorology observations: the Bureau asked automated requests to stop (403), so no weather facts are used.",
+      "Any total number of benches in Newcastle: OpenStreetMap is incomplete and our rectangle is not a council boundary.",
+      "Shares of benches with or without backrests: most benches carry no backrest tag, so no share is stated.",
+      "Which beaches, parks or suburbs the two tagged benches stand in: not checked against an official source, so not named.",
+      "School sector, income, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the City of Newcastle, OpenStreetMap, the ABS or the NSW Department of Education."
+    ]
   }
 }

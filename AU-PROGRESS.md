@@ -143,7 +143,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 122 | online-coding-and-python-classes-in-perth-western-australia (pwa, #407014) | cg- city page | 3,388 | 1.1% vs vibe-coding-and-ai-agents-classes-in-canberra | How does a Python dictionary find one key among hundreds without checking them all? | cuckoo hashing against chaining and linear probing | 0484f434 |
 | 123 | ai-and-programming-classes-in-adelaide (adl, #74443C) | cg- city page | 3,286 | 1.6% vs vibe-coding-and-ai-agents-classes-in-canberra | Can a swarm of simple rules find where three study hubs should go, and does it beat plain common sense? | particle swarm optimisation against random and greedy baselines | 56ae9030 |
 | 124 | vibe-coding-and-ai-agents-classes-in-canberra (cnb, #403080) | cg- city page | 3,404 | 1.9% vs best-coding-classes-in-brisbane | How much should an AI agent remember? | ring buffer as an agent's bounded memory | 1898c623 |
-| 125 | best-coding-classes-in-hobart (hba, #185420) | cg- city page | 3,331 | 0.8% vs coding-and-ai-classes-in-tasmania | Can Euler's formula check a council's road map? | Euler's formula for planar graphs as a data check | (this commit) |
+| 125 | best-coding-classes-in-hobart (hba, #185420) | cg- city page | 3,331 | 0.8% vs coding-and-ai-classes-in-tasmania | Can Euler's formula check a council's road map? | Euler's formula for planar graphs as a data check | 184a1a62 |
+| 126 | online-coding-and-python-classes-in-darwin (drw, #984868) | cg- city page | 3,297 | 1.1% vs online-coding-and-python-classes-in-perth-western-australia | Where does Darwin's half-hour time zone come from, and can a Python parser read the answer out of the time zone database? | recursive-descent parser for a real data format | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

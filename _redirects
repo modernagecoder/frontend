@@ -5979,4 +5979,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-for-kids-canberra /src/pages/coding-classes-for-kids-canberra.html 200
 /coding-classes-for-kids-canberra.md /src/pages/coding-classes-for-kids-canberra.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-for-kids-newcastle /src/pages/coding-classes-for-kids-newcastle.html 200
+/coding-classes-for-kids-newcastle.md /src/pages/coding-classes-for-kids-newcastle.md 200
 /* /src/pages/404.html 404
