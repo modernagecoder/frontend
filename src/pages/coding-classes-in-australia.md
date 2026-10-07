@@ -358,6 +358,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding competitions for primary kids](/australian-coding-competitions-for-primary-kids)
 - [Maths competitions for primary kids](/australian-maths-competitions-for-primary-kids)
 - [Digital Technologies curriculum help](/australian-curriculum-digital-technologies-help)
+- [Years 7 to 10 coding in Digital Technologies](/digital-technologies-years-7-to-10-coding)
 <!-- AU-LINKS -->
 
 
