@@ -305,6 +305,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Python AI course for kids](/python-ai-course-for-kids-australia)
 - [AI courses for kids](/ai-courses-for-kids-australia)
 - [AI classes for teens](/ai-classes-for-teens-australia)
+- [Free coding classes for kids in Australia](/free-coding-classes-for-kids-australia-what-you-get)
 <!-- AU-LINKS -->
 
 

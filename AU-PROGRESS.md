@@ -68,7 +68,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 16 | minecraft-coding-classes-australia (mcau, #156F4B) | ag- topic door | 3,371 | 1.6% vs video-game-design-for-kids-australia | Why does a platform meant to appear above your head land a hundred blocks away, and what does it teach about coordinates? | relative coordinates: world vs relative positions in MakeCode | f0bc665b |
 | 17 | python-ai-course-for-kids-australia (pyau, #574B99) | ag- topic door | 3,574 | 1.1% vs roblox-coding-classes-australia | How does a computer learn from examples, and why did a learned model beat a hand-written rule 6 to 3? | hand-written rules vs a learned word-count model | 015d644d |
 | 18 | ai-courses-for-kids-australia (akau, #723C4B) | ag- topic door | 3,494 | 1% vs learn-to-think-not-just-use-ai-tools-australia | What should an AI course for an Australian child teach, and why will a sorter that never saw a wallaby call every wallaby a kangaroo? | the zero problem (training data coverage) | f60d7ab9 |
-| 19 | ai-classes-for-teens-australia (atau, #302D8A) | ag- topic door | 3,335 | 0.9% vs ai-courses-for-kids-australia | How do Australian teens use AI well, check what it says claim by claim, and build it themselves? | claim-by-claim verification of AI output against primary sources | (this commit) |
+| 19 | ai-classes-for-teens-australia (atau, #302D8A) | ag- topic door | 3,335 | 0.9% vs ai-courses-for-kids-australia | How do Australian teens use AI well, check what it says claim by claim, and build it themselves? | claim-by-claim verification of AI output against primary sources | 216572b7 |
+| 29 | free-coding-classes-for-kids-australia-what-you-get (fcau, #385810) | ag- topic door | 3,643 | 1.1% vs online-coding-classes-for-kids-australia | What do free coding options for Australian kids include, and what do they leave out? | weighted decision matrix | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
