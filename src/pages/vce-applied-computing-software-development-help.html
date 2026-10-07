@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>VCE Software Development Help | Applied Computing 3 and 4</title>
+  <meta name="description" content="Help with VCE Applied Computing: Software Development, Units 3 and 4: OOP modules, the 30 per cent School-assessed Task, the 2-hour exam, and validation technique.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/vce-applied-computing-software-development-help">
+  <link rel="alternate" type="text/markdown" href="/src/pages/vce-applied-computing-software-development-help.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#4B6684">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/vce-applied-computing-software-development-help">
+  <meta property="og:title" content="VCE Software Development Help | Applied Computing 3 and 4">
+  <meta property="og:description" content="VCE Applied Computing: Software Development explained from the VCAA study design: what Units 3 and 4 contain, how the study score splits, the 2026 exam date, and why validation has to run in a set order.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="VCE Software Development Help">
+  <meta name="twitter:description" content="VCE Software Development from the study design: OOP modules, a 30 per cent task, a 2-hour exam and validation done right.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-vcsd .ag-hero-grid { gap: clamp(1.2rem, 2.8vw, 2.4rem); }
+.ag-root.ag-vcsd .ag-hero h1 { letter-spacing: -0.015em; }
+.ag-root.ag-vcsd .ag-capsule { border-left-width: 4px; }
+.ag-root.ag-vcsd .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-vcsd .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-vcsd .ag-table th { letter-spacing: 0.03em; }
+.ag-root.ag-vcsd .ag-spec dt { letter-spacing: 0.08em; }
+.ag-root.ag-vcsd .ag-slots { gap: 1.2rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/vce-applied-computing-software-development-help#page","url":"https://learn.modernagecoders.com/vce-applied-computing-software-development-help","name":"VCE Software Development Help","description":"Support for Victorian students taking VCE Applied Computing: Software Development: Units 3 and 4 structure, assessment weightings and class-time guidance, the 2026 examination session, the artificial intelligence key knowledge, and a worked example of existence, type and range checking.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":3,"name":"VCE Software Development","item":"https://learn.modernagecoders.com/vce-applied-computing-software-development-help"}]},{"@type":"Course","name":"VCE Software Development Help","description":"Live online teaching in object-oriented programming, data validation, testing, project planning and secure software for Victorian VCE Software Development students, without writing any assessed work.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/vce-applied-computing-software-development-help"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/vce-applied-computing-software-development-help"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/vce-applied-computing-software-development-help"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is VCE Applied Computing: Software Development?","acceptedAnswer":{"@type":"Answer","text":"It is the Software Development Units 3 and 4 sequence of VCE Applied Computing, accredited from 1 January 2025. Students develop software modules in an object-oriented language, then analyse, design, build and evaluate a solution to a problem they identify, and study software security."}},{"@type":"Question","name":"How is the Software Development score split?","acceptedAnswer":{"@type":"Answer","text":"School-assessed Coursework contributes 20 per cent (10 from each unit), the School-assessed Task 30 per cent, and the end-of-year examination 50 per cent."}},{"@type":"Question","name":"When is the 2026 exam?","acceptedAnswer":{"@type":"Answer","text":"The VCAA timetable lists Applied Computing: Software Development on Friday 13 November 2026, in the session from 3:00 pm to 5:15 pm. The study design sets the examination at 2 hours."}},{"@type":"Question","name":"Can I take both Software Development and Data Analytics?","acceptedAnswer":{"@type":"Answer","text":"Yes. The study design notes that students may elect to undertake one or both of the Units 3 and 4 sequences."}},{"@type":"Question","name":"Which language should I use?","acceptedAnswer":{"@type":"Answer","text":"The study design asks for an appropriate object-oriented language, and schools choose within the VCAA's annually published requirements. Python, Java and C# are all object-oriented options."}},{"@type":"Question","name":"What is the difference between type checking and range checking?","acceptedAnswer":{"@type":"Answer","text":"Type checking asks whether a value can be read as the right kind of data, such as a whole number. Range checking asks whether that value falls inside allowed limits. Type must be checked first, or converting the value can itself cause a runtime error."}},{"@type":"Question","name":"How long does the School-assessed Task take?","acceptedAnswer":{"@type":"Answer","text":"The VCAA's 2026 guidance allows at least 8 to 10 weeks of class time for the Unit 3 analysis and design, and at least 8 weeks for the Unit 4 development and evaluation."}},{"@type":"Question","name":"Can AI tools be used?","acceptedAnswer":{"@type":"Answer","text":"The key knowledge includes AI trends in programming and the responsible use of AI tools, so students must understand them. The task itself must be authenticated as the student's own work, and each school applies the VCAA's rules."}},{"@type":"Question","name":"Will you help me build my solution?","acceptedAnswer":{"@type":"Answer","text":"No. We teach the skills with projects we invent and never design, write, debug, review or edit anything that will be submitted for assessment."}},{"@type":"Question","name":"Which time suits Victorian students?","acceptedAnswer":{"@type":"Answer","text":"Late afternoon in Victoria works for most senior students and falls in the middle of our teachers' day. We settle the weekly time together after the free class."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/vce-applied-computing-software-development-help","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-vcsd">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#units">The units</a></li>
+      <li><a href="#weights">Weights and exam</a></li>
+      <li><a href="#validation">Validation order</a></li>
+      <li><a href="#task">The task</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / VCE Software Development
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Victoria &middot; Applied Computing: Software Development &middot; Live online</p>
+        <h1>VCE Software Development help</h1>
+        <p class="ag-lede">Software Development is the half of VCE Applied Computing where students actually build programs: first modules to a teacher's design, then a solution to a problem they find themselves. The study design rewards a disciplined process as much as working code, and almost a third of the study score rides on one long project.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#validation" class="ag-btn ag-btn--ghost">See the validation example</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20VCE%20Applied%20Computing%3A%20Software%20Development." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'vcsd'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Study design read at source &middot; Method before features &middot; After-school lessons in Victorian time</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Study</dt><dd>VCE Applied Computing</dd>
+          <dt>Units</dt><dd>3 (IT033) and 4 (IT034)</dd>
+          <dt>Accredited from</dt><dd>1 January 2025</dd>
+          <dt>Task weight</dt><dd>30 per cent of the study score</dd>
+          <dt>Exam</dt><dd>50 per cent, 2 hours</dd>
+          <dt>2026 exam</dt><dd>Friday 13 November</dd>
+          <dt>We teach</dt><dd>OOP, validation and testing</dd>
+          <dt>We never</dt><dd>Build any part of the task</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>VCE Applied Computing: Software Development is the Units 3 and 4 sequence of the Applied Computing study, accredited from 1 January 2025. Unit 3 develops working software modules in an object-oriented language and plans a student-chosen solution; Unit 4 builds and evaluates that solution and studies software security. Coursework is worth 20 per cent, the School-assessed Task 30 and the 2-hour exam 50.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to begin</p>
+      <h2>Three courses that match the two units</h2>
+      <p class="ag-lede">An object-oriented language first, then the algorithms and testing the key knowledge lists.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VCSD / 01</p>
+          <h3>Python for teens</h3>
+          <p>Classes, objects, file handling and graphical interfaces: the features Unit 3 Area of Study 1 asks students to use well.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/java-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/java-teens.webp" alt="Java for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VCSD / 02</p>
+          <h3>Java for teens</h3>
+          <p>For schools teaching in Java or C#, where types and encapsulation are explicit from the first line.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-dsa-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-teens.webp" alt="Problem Solving for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VCSD / 03</p>
+          <h3>Algorithms and data structures</h3>
+          <p>Selection sort, quick sort, binary and linear search, each traced and tested, as the key knowledge requires.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="units">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Inside the study design</p><h2>What Units 3 and 4 ask students to do</h2><p class="ag-lede">From the VCE Applied Computing Study Design, read on 7 October 2026. The study offers two Units 3 and 4 sequences, Software Development and Data Analytics, and the study design notes that students may elect to undertake one or both.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Software Development: units and areas of study</caption><thead><tr><th scope="col">Unit</th><th scope="col">Area of study</th><th scope="col">The work</th></tr></thead><tbody><tr><td>Unit 3 (IT033)</td><td>Software development: programming</td><td>Turn teacher-provided requirements and designs into working modules in an object-oriented language, including a graphical user interface</td></tr><tr><td>Unit 3 (IT033)</td><td>Software development: analysis and design</td><td>Find a problem, need or opportunity, plan it with a Gantt chart, write a software requirements specification, and develop two to three design ideas into a preferred design</td></tr><tr><td>Unit 4 (IT034)</td><td>Development and evaluation</td><td>Build the preferred design into a solution, test and evaluate it, and assess how well the project plan worked</td></tr><tr><td>Unit 4 (IT034)</td><td>Cyber security: software security</td><td>Respond to a teacher-provided case study on an organisation's software development practices and their security</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The Unit 3 key knowledge is long and concrete. It names data types and structures (one-dimensional and two-dimensional arrays and records), data sources (plain text, delimited CSV and XML), the principles of object-oriented programming (abstraction, encapsulation, generalisation and inheritance), and sorting and searching algorithms down to selection sort, quick sort, binary search and linear search.</p>
+<p>It also names three validation techniques, existence checking, type checking and range checking, and three error types: syntax, logic and runtime, with runtime examples including index out of range, type mismatch and divide by zero. The worked example below joins those two lists.</p></div><div><p>Artificial intelligence is now in the key knowledge itself. Unit 3 lists "emerging trends in programming using artificial intelligence", including using prompts to generate code, automated debugging and testing of modules, and code optimisation, alongside the responsible and ethical use of artificial intelligence tools.</p>
+<p>That cuts both ways for students. The exam can ask about these trends, and the School-assessed Task still has to be the student's own. Knowing what an AI tool does to a codebase is examinable; letting one write the task is not allowed.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/applied-computing-data-analytics/applied-computing" rel="noopener" target="_blank">VCAA, Applied Computing study design page</a>; VCE Applied Computing Study Design, Units 1 to 4 accredited from 1 January 2025, read on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="weights">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How the study score is built</p><h2>Half the score in the exam, nearly a third in one project</h2><p class="ag-lede">Weightings are quoted from the study design. The class-time guidance comes from the VCAA's 2026 administrative information for the task, and the exam session from the 2026 timetable, all checked on 7 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>VCE Software Development assessment</caption><thead><tr><th scope="col">Component</th><th scope="col">Contribution to the study score</th><th scope="col">Notes</th></tr></thead><tbody><tr><td>Unit 3 School-assessed Coursework</td><td>10 per cent</td><td>The programming outcome: working modules to a given design</td></tr><tr><td>Unit 4 School-assessed Coursework</td><td>10 per cent</td><td>The security case study</td></tr><tr><td>School-assessed Task</td><td>30 per cent</td><td>Unit 3 analysis and design, then Unit 4 development and evaluation</td></tr><tr><td>End-of-year examination</td><td>50 per cent</td><td>2 hours; in 2026 on Friday 13 November, 3:00 pm to 5:15 pm</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The VCAA's 2026 administrative information gives the task real weight in the timetable as well as the score: at least eight to ten weeks of class time for the Unit 3 analysis and design, and at least 8 weeks of class time for the Unit 4 development and evaluation. Schools also keep an authentication record for every student, filled in as the work progresses.</p>
+<p>One sentence in that document deserves attention. If problems show up in a design after it is marked, teachers can comment on its quality, but "the adjustments must be initiated by the student and not directed by the teacher". The same principle limits any outside tutor even more tightly.</p></div><div><p>The exam covers the key knowledge of both units, which means object-oriented principles, validation, testing tables, naming conventions, project planning and security can all appear in one paper. Students who only revise the code they wrote for the task tend to be caught out by the breadth.</p>
+<p>Good exam preparation therefore looks like short, varied practice: read a fragment and name the error type, design a testing table for a function, explain which validation check catches which input, and justify a design choice against a requirement in two or three sentences.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: VCE Applied Computing Study Design, assessment sections; <a class="ag-inline-link" href="https://www.vcaa.vic.edu.au/sites/default/files/2026-01/2026SoftwareDevelopmentAdmin-Information-for-School-based-Assessment.docx" rel="noopener" target="_blank">VCAA, Software Development administrative information for School-based Assessment in 2026</a>; <a class="ag-inline-link" href="https://www.vcaa.vic.edu.au/administration/key-dates/vce-examination-timetable" rel="noopener" target="_blank">VCAA, 2026 VCE examination timetable</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="validation">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked example from Unit 3</p><h2>Existence, then type, then range: why the order matters</h2><p class="ag-lede">The key knowledge lists existence checking, type checking and range checking side by side. They are not interchangeable, and a program that runs them in the wrong order can crash on exactly the bad data it was meant to catch. The data below is invented for practice.</p></div>
+    <div class="ag-grid-3"><div><h3>Existence</h3><p>Is there anything there at all? A blank cell in a CSV file must be caught first, because every later check assumes a value exists.</p></div><div><h3>Type</h3><p>Can the value be read as the type the program needs? "ten" and "12.0" are present, but neither is a whole number.</p></div><div><h3>Range</h3><p>Is the number inside the allowed limits? A year level of 15 is a valid integer and still wrong for a secondary school.</p></div></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Twelve year-level cells from an invented CSV import, rule: whole number from 7 to 12 (our example)</caption><thead><tr><th scope="col">Cell</th><th scope="col">Existence</th><th scope="col">Type</th><th scope="col">Range</th><th scope="col">Outcome</th></tr></thead><tbody><tr><td>9</td><td>Pass</td><td>Pass</td><td>Pass</td><td>Accepted</td></tr><tr><td>(blank)</td><td>Fail</td><td>Not reached</td><td>Not reached</td><td>Rejected: missing</td></tr><tr><td>11</td><td>Pass</td><td>Pass</td><td>Pass</td><td>Accepted</td></tr><tr><td>ten</td><td>Pass</td><td>Fail</td><td>Not reached</td><td>Rejected: not a whole number</td></tr><tr><td>-4</td><td>Pass</td><td>Pass</td><td>Fail</td><td>Rejected: out of range</td></tr><tr><td>13</td><td>Pass</td><td>Pass</td><td>Fail</td><td>Rejected: out of range</td></tr><tr><td>12.0</td><td>Pass</td><td>Fail</td><td>Not reached</td><td>Rejected: not a whole number</td></tr><tr><td>" 8" (leading space)</td><td>Pass</td><td>Pass</td><td>Pass</td><td>Accepted</td></tr><tr><td>7</td><td>Pass</td><td>Pass</td><td>Pass</td><td>Accepted</td></tr><tr><td>15</td><td>Pass</td><td>Pass</td><td>Fail</td><td>Rejected: out of range</td></tr><tr><td>10</td><td>Pass</td><td>Pass</td><td>Pass</td><td>Accepted</td></tr><tr><td>(blank)</td><td>Fail</td><td>Not reached</td><td>Not reached</td><td>Rejected: missing</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>In the right order the twelve cells sort cleanly: 5 accepted, 2 missing, 2 of the wrong type and 3 out of range, each with a message a user can act on. We ran the same rule in Python on 7 October 2026 and got exactly those counts.</p>
+<p>Now reverse it. A program that jumps straight to "is the year between 7 and 12?" has to convert the text to a number first, and in Python int() raises a ValueError on four of these cells: both blanks, "ten" and "12.0". That is a runtime error of the type mismatch kind the key knowledge names, triggered by the data validation was supposed to handle.</p></div><div><p>The leading space is the subtle row. Python's int() quietly accepts " 8", so it passes, but another language or a stricter check might not. Writing that case into a testing table, with expected and actual output side by side, is precisely what the key knowledge means by constructing relevant test data.</p>
+<p>In the exam, a question that asks which validation technique applies to a given input rewards the same structure: name the check, say what it catches, and say why it must come before or after the others. In a student's own solution, the testing table that shows these cases is evidence of real work.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Validation and error types quoted from the VCE Applied Computing Study Design, Unit 3 key knowledge. The twelve cells, rule and counts are our own, checked in Python on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="task">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The School-assessed Task</p><h2>Why we teach around the task, never inside it</h2><p class="ag-lede">The task is the student's solution to a problem they identified. The study design and the VCAA's 2026 administrative information spell out what that means.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What the VCAA requires of the task</caption><thead><tr><th scope="col">Point</th><th scope="col">What the VCAA says</th></tr></thead><tbody><tr><td>Who finds the problem</td><td>Students are expected to independently identify a problem, need or opportunity from within their community</td></tr><tr><td>Planning</td><td>A project plan with student-determined and teacher-provided milestones in a Gantt chart</td></tr><tr><td>Design</td><td>Two to three design ideas, with evaluation criteria developed by the student to choose the preferred design</td></tr><tr><td>Changes after marking</td><td>The adjustments must be initiated by the student and not directed by the teacher</td></tr><tr><td>Authentication</td><td>Teachers monitor progress and record it on an authentication record form for each student</td></tr></tbody></table></div>
+    <p>So our line is simple. We teach object-oriented programming, validation, testing, Gantt charts and design tools with projects we invent, like the CSV example above. Talk about the student's own task stays general, and nothing that will be submitted, whether code, plan or document, is designed, written, debugged, reviewed or edited by us. A student who builds the skills with us and then builds the task alone can defend every line of it.</p>
+    <p class="ag-source-note ag-mt-40">Sources: VCE Applied Computing Study Design, Unit 3 Area of Study 2; VCAA, Software Development administrative information for School-based Assessment in 2026, read on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">From Unit 1 to the exam</p>
+      <h2>Four rungs through the sequence</h2>
+      <p class="ag-lede">Some students arrive from Units 1 and 2 of Applied Computing, others straight into Unit 3. The rungs describe skill, not year level.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From first programs to an evaluated solution</caption><thead><tr><th scope="col">Stage</th><th scope="col">Milestone</th><th scope="col">Evidence it is in place</th></tr></thead><tbody><tr><td>Before Unit 3</td><td class="ag-num">1. Language fluency</td><td class="ag-num">Writes a hundred lines with functions and a simple interface without help</td></tr><tr><td>Unit 3 programming</td><td class="ag-num">2. Objects and data</td><td class="ag-num">Builds classes that encapsulate their data and read a CSV file safely</td></tr><tr><td>Unit 3 design</td><td class="ag-num">3. Planning</td><td class="ag-num">Writes requirements, a Gantt chart and two genuinely different design ideas</td></tr><tr><td>Unit 4</td><td class="ag-num">4. Evaluation</td><td class="ag-num">Tests against a testing table and judges the solution against its own criteria</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If Unit 3 programming feels heavy</h3><p>The usual gap is objects. Students who learned scripts can make a program run but struggle to split it into classes, and a few weeks of small, deliberate object-oriented exercises closes it faster than more features.</p>
+<p>Validation and testing are also skills on their own. Practising them on throwaway programs means they are automatic by the time the task begins.</p></div><div><h3>Alongside the study</h3><p>Students who enjoy the theory more than the building may also like <a class="ag-inline-link" href="/vce-algorithmics-hess-help">VCE Algorithmics (HESS)</a>, the VCAA's university-level algorithms study.</p>
+<p>The security area of study pairs well with defensive coding practice, the habits behind every input a real user can type.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for Software Development students</h2>
+      <p class="ag-lede">Grouped by the part of the sequence they support. Every card opens a complete syllabus.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Unit 3 programming</h3>
+        <span class="ag-band-sub">Language and objects</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VCSD / U3 / 01</p>
+          <h4>Python for teens</h4>
+          <p>Object-oriented Python with files and interfaces.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCSD / U3 / 02</p>
+          <h4>Java for teens</h4>
+          <p>Strong typing and encapsulation from the first program.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCSD / U3 / 03</p>
+          <h4>Algorithms and data structures</h4>
+          <p>Sorts, searches and structures, traced before they are typed.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Unit 4 solutions</h3>
+        <span class="ag-band-sub">Building something real</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VCSD / U4 / 01</p>
+          <h4>Full stack web development</h4>
+          <p>Interfaces, servers and data for students whose solution lives on the web.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-teens-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCSD / U4 / 02</p>
+          <h4>App development for teens</h4>
+          <p>State, screens and testing for students building an app.</p>
+          <a class="ag-course-link" href="/courses/complete-app-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCSD / U4 / 03</p>
+          <h4>Databases with MySQL</h4>
+          <p>Stored data done properly, for solutions that need more than a file.</p>
+          <a class="ag-course-link" href="/courses/mysql-mastery-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Security and modern practice</h3>
+        <span class="ag-band-sub">Beyond the code</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VCSD / SEC / 01</p>
+          <h4>Cybersecurity for teens</h4>
+          <p>Threats and controls, the language of the Unit 4 case study.</p>
+          <a class="ag-course-link" href="/courses/cybersecurity-course-for-teens-ethical-defensive">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCSD / SEC / 02</p>
+          <h4>React for teens</h4>
+          <p>Component-based interfaces for students who want a modern front end.</p>
+          <a class="ag-course-link" href="/courses/react-for-teens-complete-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCSD / SEC / 03</p>
+          <h4>Vibe coding for teens</h4>
+          <p>Working with AI tools while understanding every line they produce.</p>
+          <a class="ag-course-link" href="/courses/vibe-coding-for-teens-python-web-ai-projects-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Weekly lessons on Victorian time</h2>
+      <p class="ag-lede">Our teachers are based in India. Victorian clocks are ahead of theirs by 4 hours 30 minutes in winter and by 5 hours 30 minutes under daylight saving, which runs from 4 October 2026 to 4 April 2027 according to the IANA time zone database. A lesson at 4.30 pm in Geelong or Melbourne is 11 am India time in summer, comfortably inside the teaching day.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday after school</p><p class="ag-slot-l">The usual slot through Units 3 and 4.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend morning</p><p class="ag-slot-l">For longer practice on objects, testing or design tools.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">School holidays</p><p class="ag-slot-l">Focused revision blocks before the November exam.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Invented projects only</h3><p>Every exercise is ours. Assessed work stays out of the lesson.</p></div>
+      <div><h3>Testing tables taught</h3><p>Expected and actual output, written before the code is run.</p></div>
+      <div><h3>Exam-style short answers</h3><p>Name the technique, apply it to the scenario, state the effect.</p></div>
+      <div><h3>Groups of five to ten</h3><p>Senior students at the same level, each explaining their reasoning out loud.</p></div>
+      <div><h3>One-to-one option</h3><p>For one area of study that needs repair quickly.</p></div>
+      <div><h3>No predictions</h3><p>We do not forecast study scores or ATARs; the solution and its result belong to the student.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students have published</h2>
+      <p class="ag-lede">Personal builds only, never school assessment. More sit in our <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">One monthly fee, charged in US dollars and identical for every family outside India. No sign-up charge, and you can stop at the end of any month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A complete lesson with a teacher</li><li>An honest picture of the gaps</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students at one level</li><li>The same teacher every week</li><li>Practice reviewed together</li><li>A certificate on completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher working with one student</li><li>Focused on a single weak area</li><li>Handy in the run-up to November</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reproduced exactly as families and students wrote them on Google.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about the study</p>
+      <h2>What Victorian students and parents ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is VCE Applied Computing: Software Development?</h3>
+        <p>It is the Software Development Units 3 and 4 sequence of VCE Applied Computing, accredited from 1 January 2025. Students develop software modules in an object-oriented language, then analyse, design, build and evaluate a solution to a problem they identify, and study software security.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is the Software Development score split?</h3>
+        <p>School-assessed Coursework contributes 20 per cent (10 from each unit), the School-assessed Task 30 per cent, and the end-of-year examination 50 per cent.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the 2026 exam?</h3>
+        <p>The VCAA timetable lists Applied Computing: Software Development on Friday 13 November 2026, in the session from 3:00 pm to 5:15 pm. The study design sets the examination at 2 hours.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I take both Software Development and Data Analytics?</h3>
+        <p>Yes. The study design notes that students may elect to undertake one or both of the Units 3 and 4 sequences.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which language should I use?</h3>
+        <p>The study design asks for an appropriate object-oriented language, and schools choose within the VCAA's annually published requirements. Python, Java and C# are all object-oriented options.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the difference between type checking and range checking?</h3>
+        <p>Type checking asks whether a value can be read as the right kind of data, such as a whole number. Range checking asks whether that value falls inside allowed limits. Type must be checked first, or converting the value can itself cause a runtime error.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long does the School-assessed Task take?</h3>
+        <p>The VCAA's 2026 guidance allows at least 8 to 10 weeks of class time for the Unit 3 analysis and design, and at least 8 weeks for the Unit 4 development and evaluation.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can AI tools be used?</h3>
+        <p>The key knowledge includes AI trends in programming and the responsible use of AI tools, so students must understand them. The task itself must be authenticated as the student's own work, and each school applies the VCAA's rules.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you help me build my solution?</h3>
+        <p>No. We teach the skills with projects we invent and never design, write, debug, review or edit anything that will be submitted for assessment.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which time suits Victorian students?</h3>
+        <p>Late afternoon in Victoria works for most senior students and falls in the middle of our teachers' day. We settle the weekly time together after the free class.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>More for Victorian students</h2>
+      <p class="ag-lede">The other VCE computing studies, the Victorian school picture, and competitions that use the same skills.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/vce-algorithmics-hess-help">VCE Algorithmics (HESS) help</a></h3><p>The university-level algorithms study, for theory-minded students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/vibe-coding-and-ai-agents-classes-in-melbourne">Coding and AI classes in Melbourne</a></h3><p>Coding, vibe coding and AI agents for Melbourne students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/hsc-software-engineering-help">HSC Software Engineering help</a></h3><p>The New South Wales equivalent, for comparison.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Australian competitions calendar</a></h3><p>Coding and AI contests through the school year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>Every state and age, and how lessons fit around time zones.</p></div>
+      <div><h3><a class="ag-inline-link" href="/understand-the-code-dont-copy-paste-australia">Understand the code, do not copy it</a></h3><p>Why reading every line matters more than ever.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Start with a free class on one skill</h2>
+        <p class="ag-lede">Tell us the unit and the skill that is not clicking yet: objects, validation, testing or design tools. The free class works on it with our own projects, never with assessed work.</p>
+        <p class="ag-mt-40">Want to read first? Syllabuses are on the <a class="ag-inline-link" href="/course-atlas">course atlas</a>, our approach is on <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, and the Victorian background is on the <a class="ag-inline-link" href="/vibe-coding-and-ai-agents-classes-in-melbourne">Melbourne page</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20VCE%20Applied%20Computing%3A%20Software%20Development." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'vcsd',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp gets the fastest reply. The +91 number is Indian because we teach from India; there is no Victorian office.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_vcsd(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card and no obligation. One message back to set up the class.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/vibe-coding-and-ai-agents-classes-in-melbourne">Melbourne and Victoria</a></li><li><a href="/vce-algorithmics-hess-help">VCE Algorithmics</a></li><li><a href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li></ul></div>
+      <div><h4>Learn more</h4><ul><li><a href="/understand-the-code-dont-copy-paste-australia">Understand the code</a></li><li><a href="/coding-roadmap">The coding roadmap</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>We teach the method; the solution stays the student's own</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_vcsd = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'vce-applied-computing-software-development-help-inline', meta: { name: name, age: age, page: 'vce-applied-computing-software-development-help' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
