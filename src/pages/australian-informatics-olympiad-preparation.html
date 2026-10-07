@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Australian Informatics Olympiad Preparation | AIO Coding</title>
+  <meta name="description" content="Australian Informatics Olympiad preparation: the AIO format, languages, judging and awards from the Australian Maths Trust, and a testing habit that saves marks.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/australian-informatics-olympiad-preparation">
+  <link rel="alternate" type="text/markdown" href="/src/pages/australian-informatics-olympiad-preparation.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#332193">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/australian-informatics-olympiad-preparation">
+  <meta property="og:title" content="Australian Informatics Olympiad Preparation | AIO Coding">
+  <meta property="og:description" content="Preparing for the Australian Informatics Olympiad: six problems in three hours, C, C++, Java or Python 3, judged automatically on speed and correctness, plus how to test a fast solution against brute force.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Australian Informatics Olympiad Preparation">
+  <meta name="twitter:description" content="AIO preparation for Australian students: format, judging and a testing habit that saves marks.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-aiop .ag-hero h1 { letter-spacing: -0.015em; }
+.ag-root.ag-aiop .ag-capsule { border-left-width: 5px; }
+.ag-root.ag-aiop .ag-table td:first-child { font-weight: 600; }
+.ag-root.ag-aiop .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-aiop .ag-grid-3 h3 { letter-spacing: -0.006em; }
+.ag-root.ag-aiop .ag-spec dt { letter-spacing: 0.09em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/australian-informatics-olympiad-preparation#page","url":"https://learn.modernagecoders.com/australian-informatics-olympiad-preparation","name":"Australian Informatics Olympiad Preparation","description":"A guide for Australian secondary students to the Australian Informatics Olympiad: the 2026 date, languages, divisions, question format, how the automated judge scores code, the award bands, where to practise, and a worked lesson on stress testing a fast solution against a brute-force one.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Australian competitions calendar","item":"https://learn.modernagecoders.com/australian-coding-maths-and-ai-competitions-calendar"},{"@type":"ListItem","position":3,"name":"Informatics Olympiad preparation","item":"https://learn.modernagecoders.com/australian-informatics-olympiad-preparation"}]},{"@type":"Course","name":"Australian Informatics Olympiad Preparation","description":"Live online algorithms and competitive programming classes for Australian students preparing for the Australian Informatics Olympiad, in Python or C++.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/australian-informatics-olympiad-preparation"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/australian-informatics-olympiad-preparation"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/australian-informatics-olympiad-preparation"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the Australian Informatics Olympiad?","acceptedAnswer":{"@type":"Answer","text":"A three-hour online programming contest for Australian school students, run by the Australian Maths Trust. Students write code to solve six problems."}},{"@type":"Question","name":"When is the AIO?","acceptedAnswer":{"@type":"Answer","text":"In 2026 it was held on Thursday 27 August, with entries closing on Friday 21 August. Check the AMT's page for the next date."}},{"@type":"Question","name":"Which programming languages can be used in the AIO?","acceptedAnswer":{"@type":"Answer","text":"C, C++, Java or Python 3, according to the AMT."}},{"@type":"Question","name":"How is the AIO marked?","acceptedAnswer":{"@type":"Answer","text":"An automated judging system compiles each submission and runs it against input scenarios, marking speed and correctness. The AMT states that coding style is not considered."}},{"@type":"Question","name":"Are there separate papers for younger students?","acceptedAnswer":{"@type":"Answer","text":"No. There is one paper. Intermediate (up to Year 10) and Senior (up to Year 12) divisions are used only for awards."}},{"@type":"Question","name":"What is stress testing?","acceptedAnswer":{"@type":"Answer","text":"Comparing a fast solution with a slow but obviously correct one on many random inputs, so any disagreement exposes a bug before the judge does."}},{"@type":"Question","name":"How much programming does a student need first?","acceptedAnswer":{"@type":"Answer","text":"The AMT says students need some programming experience and must be able to write code. In practice, comfort with loops, arrays and input and output is the starting point."}},{"@type":"Question","name":"Where can students practise?","acceptedAnswer":{"@type":"Answer","text":"The AMT points to its Informatics Training Site, which has past problems and instant feedback on submitted code. Our classes add teaching and review."}},{"@type":"Question","name":"Can a good AIO result lead further?","acceptedAnswer":{"@type":"Answer","text":"The AMT says students who perform well may be invited into its olympiad programs. Invitations are the Trust's decision; we make no promises."}},{"@type":"Question","name":"Are you connected with the AMT?","acceptedAnswer":{"@type":"Answer","text":"No. We are an independent online school. We quote the Trust because it runs the contest."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/australian-informatics-olympiad-preparation","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-aiop">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#format">Format</a></li>
+      <li><a href="#judging">Judging</a></li>
+      <li><a href="#stress">Testing lesson</a></li>
+      <li><a href="#practise">Practice</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/australian-coding-maths-and-ai-competitions-calendar">Australian competitions calendar</a> / Informatics Olympiad preparation
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; Australian Informatics Olympiad &middot; Live online</p>
+        <h1>Australian Informatics Olympiad preparation</h1>
+        <p class="ag-lede">The Australian Informatics Olympiad is Australia's national programming contest for school students. It is three hours, six problems, and code that a computer marks automatically against tests the student never sees. That last part changes everything about how to prepare: a solution that works on the sample input can still score badly, because it is wrong on an edge case or too slow on a large one. This page sets out the format from the Australian Maths Trust's own page, explains how the judge treats submissions, and teaches one habit that experienced competitors use constantly: checking a clever solution against a slow, obviously correct one on thousands of random inputs before trusting it.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#stress" class="ag-btn ag-btn--ghost">See the testing lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20to%20prepare%20for%20the%20Australian%20Informatics%20Olympiad." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'aiop'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Format from the AMT's AIO page &middot; Test run by us &middot; Checked on 7 October 2026</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Run by</dt><dd>Australian Maths Trust</dd>
+          <dt>2026 date</dt><dd>Thursday 27 August</dd>
+          <dt>Length</dt><dd>3 hours</dd>
+          <dt>Problems</dt><dd>6, answered in source code</dd>
+          <dt>Languages</dt><dd>C, C++, Java or Python 3</dd>
+          <dt>Divisions</dt><dd>Intermediate and Senior, one paper</dd>
+          <dt>Marking</dt><dd>Automated: speed and correctness</dd>
+          <dt>Delivery</dt><dd>Online only</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>The Australian Informatics Olympiad is a three-hour online programming contest run by the Australian Maths Trust. In 2026 it was held on Thursday 27 August. Students solve six problems in C, C++, Java or Python 3, and an automated judge runs their code against hidden inputs, marking speed and correctness. Intermediate (up to Year 10) and Senior (up to Year 12) sit the same paper.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">For AIO preparation</p>
+      <h2>Three courses that build olympiad programming</h2>
+      <p class="ag-lede">A solid language, the algorithms contests use, and practice under contest conditions.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/competitive-programming-for-teens-course">
+        <div class="ag-pick-shot"><img src="/images/competitive-programming-teens.webp" alt="Competitive Programming for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AIOP / 01</p>
+          <h3>Competitive programming for teens</h3>
+          <p>Contest problems judged by tests, with the habits that turn a working idea into full marks.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-dsa-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-teens.webp" alt="Problem Solving for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AIOP / 02</p>
+          <h3>Algorithms and data structures</h3>
+          <p>Sorting, searching, graphs and dynamic programming, the toolkit behind the harder AIO problems.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/cpp-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/cpp-teens.webp" alt="C++ for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AIOP / 03</p>
+          <h3>C++ for teens</h3>
+          <p>For students who want the speed many olympiad competitors choose, taught from the ground up.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="format">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The contest</p><h2>What the AIO is, according to the Australian Maths Trust</h2><p class="ag-lede">Everything in this table is from the Trust's AIO page, read on 7 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Australian Informatics Olympiad 2026, as published by the AMT</caption><thead><tr><th scope="col">Detail</th><th scope="col">What the AMT states</th></tr></thead><tbody><tr><td>Date</td><td>Thursday 27 August 2026</td></tr><tr><td>Time allowed</td><td>3 hours</td></tr><tr><td>Entries close</td><td>Friday 21 August 2026</td></tr><tr><td>Who it is for</td><td>Students with "some programming experience" who can "write code"</td></tr><tr><td>Languages</td><td>C, C++, Java or Python 3</td></tr><tr><td>Divisions</td><td>Intermediate (students up to Year 10) and Senior (up to Year 12), with "only one AIO paper"; divisions are for awards only</td></tr><tr><td>Questions</td><td>6 questions, with answers in source code</td></tr><tr><td>Delivery</td><td>Online only</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The Trust describes the content plainly: "Students invent algorithms and write code to solve problems." The skills it lists are modest on paper, "opening, reading and writing files; declaring variables and arrays; and using loops, conditional (if) statements and simple arithmetic operations", but the problems are designed so that the thinking, not the syntax, is the hard part.</p>
+<p>The AIO also opens doors. The Trust says students who perform well "may be invited to participate in the AMT's olympiad programs", which lead towards the team that represents Australia internationally. Our <a class="ag-inline-link" href="/aio-to-ioi-pathway-australia">AIO to IOI pathway page</a> explains those steps.</p></div><div><p>Entry is through schools, and the fee is set by the Trust in Australian dollars, so we do not quote it here. Talk to the school's maths or computing coordinator well before the entry deadline.</p>
+<p>Dates for 2027 had not been published when we checked. The AIO has sat in late August in 2026, so students who want to prepare properly should start in Term 1 or 2, not the week before.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: Australian Maths Trust, <a class="ag-inline-link" href="https://amt.edu.au/aio" rel="noopener" target="_blank">Australian Informatics Olympiad</a>, read on 7 October 2026. We are independent of the AMT.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="judging">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How code is marked</p><h2>An automated judge, hidden tests, and no marks for style</h2><p class="ag-lede">The AIO is marked by a machine, not a person. Understanding exactly what it checks is the first step in preparing.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><p>The AMT states that "students submit source code which is compiled and run against input scenarios to test correctness and efficiency. Submissions are marked on speed and correctness." It adds: "Coding style is not taken into consideration."</p>
+<p>It also notes that "students can see their marks during the competition as they are calculated by an automated judging system". That feedback is useful, but it tells a student their score, not why a test failed. Finding the reason is up to them.</p></div><div><p>Two kinds of failure cost marks. A wrong answer on some hidden input, often an edge case such as the smallest or largest allowed value, and a correct answer that arrives too slowly on a large input. A program can be right and still lose marks on efficiency.</p>
+<p>That is why preparation is not only about knowing algorithms. It is about the discipline of checking a solution properly before submitting it, which is what the lesson below teaches.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>AIO award bands, as published by the AMT</caption><thead><tr><th scope="col">Award</th><th scope="col">Who receives it</th></tr></thead><tbody><tr><td>Gold</td><td>Top 10 per cent</td></tr><tr><td>Silver</td><td>The next 15 per cent</td></tr><tr><td>Bronze</td><td>The next 25 per cent</td></tr><tr><td>Credit</td><td>The next 20 per cent</td></tr><tr><td>Participation</td><td>All remaining students</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Scoring and awards quoted from the AMT's <a class="ag-inline-link" href="https://amt.edu.au/aio" rel="noopener" target="_blank">AIO page</a>, read on 7 October 2026. We make no award or invitation promises.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="stress">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The testing habit</p><h2>Stress testing: checking a fast solution against a slow one</h2><p class="ag-lede">Experienced competitors rarely trust a clever solution on sight. They write a second, slow solution that is obviously correct and compare the two on many random inputs. Here is that habit on a small problem of our own.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The problem and two solutions</h3><p>Given a list of whole numbers and a window length k, find the largest total of any k numbers in a row. The brute-force solution adds up every window separately. It is slow on long lists but almost impossible to get wrong.</p>
+<p>The fast solution keeps a running total, adding the number entering the window and subtracting the one leaving. Our first version had a classic slip: its loop stopped one step early, so it never checked the last window.</p></div><div><h3>What the stress test found</h3><p>We generated 1,000 random lists, each between 1 and 8 numbers long with values from minus 5 to 5 and a random window length, and compared the two solutions on every one. The buggy fast version disagreed with brute force on 230 of the 1,000 tests.</p>
+<p>The first disagreement came on test 7: the list 2, minus 3, 5, 4, minus 1 with k equal to 3. The right answer is 8, from 5, 4 and minus 1; the buggy code said 6. After fixing the loop, the two solutions agreed on all 1,000 tests.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Our stress test, 1,000 random cases (Python, seed 2026)</caption><thead><tr><th scope="col">Fast solution</th><th scope="col">Disagreements with brute force</th><th scope="col">First failing case found</th></tr></thead><tbody><tr><td>Loop stops one step early</td><td>230 of the 1,000</td><td>Test 7: list 2, minus 3, 5, 4, minus 1, k = 3 (expected 8, got 6)</td></tr><tr><td>Loop fixed</td><td>0 of the 1,000</td><td>None</td></tr></tbody></table></div>
+    <p>Notice that the sample a problem statement gives would probably have passed. Small random tests catch the edge that a person forgets, here the final window, and they catch it in seconds. In the AIO the judge's hidden tests do the same thing to you; stress testing lets you do it to yourself first. The brute-force solution has a second use too: on a hard problem, submitting it can collect the marks for small inputs while you work on the fast version.</p>
+    <p class="ag-source-note ag-mt-40">The problem, both solutions and the 1,000-test run are ours, executed in Python on 7 October 2026. The AIO's own problems are not reproduced here.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="practise">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Where to practise</p><h2>Using the Trust's training site well</h2><p class="ag-lede">The AMT points students to its own Informatics Training Site for practice material.</p></div>
+    <div class="ag-grid-3"><div><h3>The training site</h3><p>The AIO page sends students to the AMT's Informatics Training Site, which invites students to practise "on past problems" and promises "instant" feedback on submitted code.</p></div><div><h3>Past problems first</h3><p>Work through earlier AIO problems on the site, under a time limit, before learning new techniques. They show what level of thinking each problem number needs.</p></div><div><h3>Read others' code</h3><p>The training site invites students to learn from tutorials and from other users' code. Reading a better solution after your own attempt is how speed improves.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>Choose one language and stay with it. Python 3 is allowed and is where most of our students start; some move to C++ later for its speed. Switching languages close to the contest usually costs more than it gains.</p>
+<p>Practise reading input and writing output exactly as a problem specifies. The AMT lists file input and output among the skills the AIO uses, and a formatting slip can turn a correct algorithm into zero marks.</p></div><div><p>Our classes teach the algorithms, the testing habit and the contest strategy: reading all six problems first, collecting easy marks early, and knowing when a brute-force answer is worth submitting. We use our own problems and the Trust's public training material, not leaked or restricted papers.</p>
+<p>Students should also try the Computational and Algorithmic Thinking competition and Bebras earlier in the year. Both build the same thinking with lower stakes.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: AMT <a class="ag-inline-link" href="https://amt.edu.au/aio" rel="noopener" target="_blank">AIO page</a> and the AMT <a class="ag-inline-link" href="https://orac.amt.edu.au/hub/" rel="noopener" target="_blank">Informatics Training Site</a>, read on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Building towards the AIO</p>
+      <h2>Four stages of olympiad programming</h2>
+      <p class="ag-lede">Most students need a year or more between a first program and a strong AIO.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A path towards the Australian Informatics Olympiad</caption><thead><tr><th scope="col">Stage</th><th scope="col">Focus</th><th scope="col">The sign it is secure</th></tr></thead><tbody><tr><td>1. Fluent coding</td><td class="ag-num">Loops, arrays, functions, input and output</td><td class="ag-num">Writes a correct short program without looking things up</td></tr><tr><td>2. Core algorithms</td><td class="ag-num">Sorting, searching, prefix ideas, greedy methods</td><td class="ag-num">Explains why an approach is correct, not only that it works</td></tr><tr><td>3. Efficiency</td><td class="ag-num">Estimating running time before writing code</td><td class="ag-num">Predicts whether a solution will be fast enough</td></tr><tr><td>4. Contest discipline</td><td class="ag-num">Stress testing, partial marks, time management</td><td class="ag-num">Finishes a past paper with every submission tested</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If the problems feel impossible</h3><p>Every competitor starts there. Begin with the first problems on past papers, which are designed to be reachable, and build up.</p>
+<p>Writing the brute-force answer first is a good way in, and it earns marks on small tests.</p></div><div><h3>Beyond the AIO</h3><p>Our <a class="ag-inline-link" href="/aio-to-ioi-pathway-australia">AIO to IOI pathway page</a> explains the invitational stages that follow.</p>
+<p>The <a class="ag-inline-link" href="/bebras-challenge-australia-practice">Bebras page</a> covers an earlier, code-free step.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for future olympiad programmers</h2>
+      <p class="ag-lede">Grouped by stage. Each card opens the full outline.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Foundations</h3>
+        <span class="ag-band-sub">A language, properly</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AIOP / F / 01</p>
+          <h4>Python for teens</h4>
+          <p>The language most of our AIO students start in.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AIOP / F / 02</p>
+          <h4>C++ for teens</h4>
+          <p>Speed and the standard library.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AIOP / F / 03</p>
+          <h4>Java for teens</h4>
+          <p>Another language the AIO accepts.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Algorithms</h3>
+        <span class="ag-band-sub">The olympiad toolkit</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AIOP / A / 01</p>
+          <h4>Algorithms and data structures</h4>
+          <p>From sorting to graphs.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AIOP / A / 02</p>
+          <h4>Competitive programming</h4>
+          <p>Contest practice with judged tests.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AIOP / A / 03</p>
+          <h4>Maths through coding</h4>
+          <p>The counting and number ideas many problems use.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Further on</h3>
+        <span class="ag-band-sub">For senior students</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AIOP / X / 01</p>
+          <h4>Advanced algorithms</h4>
+          <p>University-level depth for the strongest students.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AIOP / X / 02</p>
+          <h4>Competition maths</h4>
+          <p>Proof and counting for olympiad thinking.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AIOP / X / 03</p>
+          <h4>Competitive programming, advanced</h4>
+          <p>Harder contest material for those ready for it.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live olympiad programming classes for Australian students</h2>
+      <p class="ag-lede">Our teachers are in India, behind every Australian time zone. A 5 pm lesson in Hobart during daylight saving begins at 11.30 am India time, so weekday sessions are straightforward to keep.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Terms 1 to 3</p><p class="ag-slot-l">Steady weekly classes leading up to August.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend contest practice</p><p class="ag-slot-l">Timed past papers with review.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Holiday intensives</p><p class="ag-slot-l">One technique a day for a week.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Brute force first</h3><p>Every problem starts with a slow, correct solution.</p></div>
+      <div><h3>Stress tests always</h3><p>Fast solutions are compared on random inputs before submission.</p></div>
+      <div><h3>Groups of five to ten</h3><p>Placed by programming level.</p></div>
+      <div><h3>One-to-one coaching</h3><p>For students aiming at the invitational stages.</p></div>
+      <div><h3>Progress notes</h3><p>What was learned and the next technique to practise.</p></div>
+      <div><h3>No medal promises</h3><p>We teach the skills; the contest result is the student's.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students have built</h2>
+      <p class="ag-lede">Projects learners made for their own reasons, outside any contest. The rest are in the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Families in Australia pay monthly in US dollars, our standard rate outside India, with no deposit and no lock-in. AIO entry itself is arranged and paid through schools.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A real lesson with a teacher</li><li>An honest read of programming level</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students at one level</li><li>The same teacher every week</li><li>Solutions reviewed line by line</li><li>A certificate at the end</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A coach for one student</li><li>Built around a target contest</li><li>A weekly time that suits you</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents and students in their own words, as written on Google.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about the AIO</p>
+      <h2>What Australian students and parents ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is the Australian Informatics Olympiad?</h3>
+        <p>A three-hour online programming contest for Australian school students, run by the Australian Maths Trust. Students write code to solve six problems.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the AIO?</h3>
+        <p>In 2026 it was held on Thursday 27 August, with entries closing on Friday 21 August. Check the AMT's page for the next date.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which programming languages can be used in the AIO?</h3>
+        <p>C, C++, Java or Python 3, according to the AMT.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is the AIO marked?</h3>
+        <p>An automated judging system compiles each submission and runs it against input scenarios, marking speed and correctness. The AMT states that coding style is not considered.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are there separate papers for younger students?</h3>
+        <p>No. There is one paper. Intermediate (up to Year 10) and Senior (up to Year 12) divisions are used only for awards.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is stress testing?</h3>
+        <p>Comparing a fast solution with a slow but obviously correct one on many random inputs, so any disagreement exposes a bug before the judge does.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much programming does a student need first?</h3>
+        <p>The AMT says students need some programming experience and must be able to write code. In practice, comfort with loops, arrays and input and output is the starting point.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where can students practise?</h3>
+        <p>The AMT points to its Informatics Training Site, which has past problems and instant feedback on submitted code. Our classes add teaching and review.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a good AIO result lead further?</h3>
+        <p>The AMT says students who perform well may be invited into its olympiad programs. Invitations are the Trust's decision; we make no promises.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you connected with the AMT?</h3>
+        <p>No. We are an independent online school. We quote the Trust because it runs the contest.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>More for Australian coders</h2>
+      <p class="ag-lede">Pathways, other contests and the curriculum underneath.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/aio-to-ioi-pathway-australia">AIO to IOI pathway</a></h3><p>The invitational steps after the AIO.</p></div>
+      <div><h3><a class="ag-inline-link" href="/bebras-challenge-australia-practice">Bebras Challenge practice</a></h3><p>Code-free computational thinking.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-maths-trust-amc-aio-cat-preparation">AMC, AIO and CAT preparation</a></h3><p>The Trust's competitions compared.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></h3><p>Every contest through the year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/digital-technologies-years-7-to-10-coding">Years 7 to 10 coding</a></h3><p>The school curriculum the AIO builds on.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>Our main Australian page.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free olympiad programming class</h2>
+        <p class="ag-lede">Tell us the year level, the language your student uses and how much contest experience they have. The free class works on a real problem and ends with honest advice on preparation.</p>
+        <p class="ag-mt-40">Prefer to read first? Every course is on the <a class="ag-inline-link" href="/course-atlas">course atlas</a>, and <a class="ag-inline-link" href="/how-we-teach">how we teach</a> explains a lesson.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20to%20prepare%20for%20the%20Australian%20Informatics%20Olympiad." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'aiop',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp is usually quickest. Our number carries India's +91 code because the school runs from India; there is no Australian office.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_aiop(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card and no obligation. We reply once to arrange a time.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Australia</h4><ul><li><a href="/aio-to-ioi-pathway-australia">AIO to IOI pathway</a></li><li><a href="/bebras-challenge-australia-practice">Bebras practice</a></li><li><a href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li></ul></div>
+      <div><h4>Learn more</h4><ul><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/course-atlas">Course atlas</a></li><li><a href="/digital-technologies-years-7-to-10-coding">Years 7 to 10 coding</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Independent of the AMT; contest facts from its page</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_aiop = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'australian-informatics-olympiad-preparation-inline', meta: { name: name, age: age, page: 'australian-informatics-olympiad-preparation' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
