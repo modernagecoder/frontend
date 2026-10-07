@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Understand the Code, Don't Copy-Paste | Australian Students</title>
+  <meta name="description" content="For Australian students: why pasted code fails quietly, how a written contract catches it, and how understanding each line keeps school work honest and your own.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/understand-the-code-dont-copy-paste-australia">
+  <link rel="alternate" type="text/markdown" href="/src/pages/understand-the-code-dont-copy-paste-australia.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#70481C">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/understand-the-code-dont-copy-paste-australia">
+  <meta property="og:title" content="Understand the Code, Don't Copy-Paste | Australian Students">
+  <meta property="og:description" content="A pasted median function passed a loose check on 10,000 lists and failed an exact one 4,219 times. What that teaches Australian students about owning their code.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Understand the Code, Don't Copy-Paste">
+  <meta name="twitter:description" content="Understand the code, do not copy-paste: contracts, tests and honest work for Australian students.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ucau .ag-hero h1 { letter-spacing: -0.01em; }
+.ag-root.ag-ucau .ag-capsule { border-left-width: 3px; border-radius: 2px; }
+.ag-root.ag-ucau .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-ucau .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-ucau .ag-band-head h3 { letter-spacing: -0.012em; }
+.ag-root.ag-ucau .ag-slots { gap: 1.25rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/understand-the-code-dont-copy-paste-australia#page","url":"https://learn.modernagecoders.com/understand-the-code-dont-copy-paste-australia","name":"Understand the Code, Don't Copy-Paste","description":"A guide for Australian secondary students on understanding code rather than pasting it, using postconditions, assertions and the curriculum's expectations on testing.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":4,"name":"Understand the code","item":"https://learn.modernagecoders.com/understand-the-code-dont-copy-paste-australia"}]},{"@type":"Course","name":"Understand the Code, Don't Copy-Paste","description":"Live online programming courses for Australian students in which every line is explained, predicted and tested by the student who writes it.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/understand-the-code-dont-copy-paste-australia"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/understand-the-code-dont-copy-paste-australia"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/understand-the-code-dont-copy-paste-australia"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does understand the code, don't copy-paste mean?","acceptedAnswer":{"@type":"Answer","text":"It means being able to explain what every line of a program does and why, and to predict and test its output, rather than inserting code from elsewhere that you cannot explain."}},{"@type":"Question","name":"What is a postcondition?","acceptedAnswer":{"@type":"Answer","text":"A postcondition is a statement that must be true when a function finishes, such as \"the result is sorted and contains the same items as the input\". Writing and checking postconditions is the heart of design by contract."}},{"@type":"Question","name":"What is design by contract?","acceptedAnswer":{"@type":"Answer","text":"Design by contract is a way of writing software in which each function states what it needs before it runs and what it promises when it finishes, and those statements are checked, often with assertions."}},{"@type":"Question","name":"Is copying code from examples cheating?","acceptedAnswer":{"@type":"Answer","text":"Learning from examples is normal. What matters is whether you understand and can rebuild what you keep, and whether your school's rules allow it in assessed work."}},{"@type":"Question","name":"Why did the pasted median function pass the loose check?","acceptedAnswer":{"@type":"Answer","text":"The loose check only required no more than half the items below and above the answer. Any value between the two middle items meets that, so it could not tell the correct median from a nearly correct one."}},{"@type":"Question","name":"Can I use AI to help with coding assignments?","acceptedAnswer":{"@type":"Answer","text":"That depends on your state and school rules, which differ and are changing. Whatever is allowed, keep only code you understand and can explain."}},{"@type":"Question","name":"Do you write students' assessed work or major projects?","acceptedAnswer":{"@type":"Answer","text":"No. We teach reading, writing and testing code until the student understands it. Assessed work, including major projects and take-home tasks, stays the student's own."}},{"@type":"Question","name":"Should asserts be used to check user input?","acceptedAnswer":{"@type":"Answer","text":"No. Python skips assert statements when optimisation is switched on, so they suit checks during development. Use ordinary if statements to validate input in a finished program."}},{"@type":"Question","name":"What age is this for?","acceptedAnswer":{"@type":"Answer","text":"Mostly secondary students from Year 7 and adults. Younger children learn the same habit through predicting what Scratch programs will do."}},{"@type":"Question","name":"How much are lessons?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. After that, families pay monthly with no joining fee and no term lock-in; see the fees section on this page."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/understand-the-code-dont-copy-paste-australia","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-ucau">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#why">Why it matters</a></li>
+      <li><a href="#experiment">The experiment</a></li>
+      <li><a href="#contracts">Writing contracts</a></li>
+      <li><a href="#integrity">Honest work</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / Understand the code
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; Years 7 to 12 and adults &middot; Own every line</p>
+        <h1>Understand the code, don't copy-paste</h1>
+        <p class="ag-lede">Copying code has never been easier. A forum answer, a tutorial or an AI assistant will hand a student a function that runs first time, and it is tempting to drop it in and move on. The trouble is that code which runs is not the same as code which is right, and a student who does not understand a function cannot tell the difference. This page shows the problem with a real experiment: one short, pasted function, ten thousand test inputs, and two ways of checking it. One check passed it every time. The other caught it failing thousands of times. The difference was whether the person checking understood what the function was supposed to do.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#experiment" class="ag-btn ag-btn--ghost">The experiment</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20copies%20code%20without%20really%20understanding%20it.%20Could%20we%20book%20a%20free%20lesson%20to%20work%20on%20that%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ucau'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; predict it, write it, test it</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Secondary students and adults</dd>
+          <dt>Focus</dt><dd>Reading, predicting and testing code</dd>
+          <dt>Tools</dt><dd>Assertions and written contracts</dd>
+          <dt>Languages</dt><dd>Python first, then Java or JavaScript</dd>
+          <dt>Integrity</dt><dd>We never write assessed work</dd>
+          <dt>Format</dt><dd>Live online video</dd>
+          <dt>Group</dt><dd>Five to ten, or one to one</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Understanding code means being able to say what a function should return for any input, then checking that it does. A precise statement of that promise is called a postcondition. In our test, a pasted median function passed a loose postcondition on all 10,000 random lists, yet gave the wrong answer 4,219 times, which an exact postcondition caught every time. Pasting skips the understanding that writes the exact check.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three courses built on reading and testing code</h2>
+      <p class="ag-lede">Each one asks students to predict, explain and test what they write. The free first lesson chooses between them.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">UCAU / 01</p>
+          <h3>Python, line by line</h3>
+          <p>Ages 13 to 18. Every program predicted on paper before it runs.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-dsa-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-teens.webp" alt="Problem Solving for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">UCAU / 02</p>
+          <h3>Logic and algorithms for teens</h3>
+          <p>Ages 13 to 18. Data structures you can explain, not just use.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/git-github-version-control-course-for-teens">
+        <div class="ag-pick-shot"><img src="/images/git-github-teens.webp" alt="Git &amp; GitHub Course for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">UCAU / 03</p>
+          <h3>Version control, honestly</h3>
+          <p>Ages 13 to 18. A history of your own work that shows how it grew.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="why">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Why it matters</p><h2>Running is not the same as right</h2><p class="ag-lede">Pasted code usually fails in one of two ways. Either it crashes, which is easy to notice, or it quietly returns a wrong answer for some inputs, which is not. The second kind is the dangerous one, and only understanding catches it.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>What the curriculum expects</h3><p>The Australian Curriculum v9 says that by the end of Year 10 students verify their solutions "by validating their algorithms, represented as flowcharts and pseudocode, and using test cases to confirm the correctness of their solutions".</p>
+<p>A test case confirms correctness only if the student knows what the correct answer is. That knowledge is exactly what pasting skips.</p></div><div><h3>Reading other people's code</h3><p>The same curriculum includes, as an example for Years 9 and 10, "reading and interpreting programs split across files, functions or classes, and modifying them to add functionality".</p>
+<p>Reading code is a skill to practise, not a sign of laziness. The difference from pasting is that reading ends in understanding.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source, read 7 October 2026: ACARA, <a class="ag-inline-link" href="https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx" rel="noopener" target="_blank">Australian Curriculum v9, Digital Technologies content, Years 7 to 10</a> (Year 10 band description, and an elaboration under AC9TDI10P09).</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="experiment">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The experiment</p><h2>One pasted function, ten thousand lists</h2><p class="ag-lede">We took a short median function of the kind that circulates online: sort the list and return the middle item. It runs without error on any list of numbers. Then we checked it two ways on 10,000 random lists of 1 to 12 whole numbers between 0 and 20.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The pasted function against two postconditions (our experiment, Python, fixed random seed 2026)</caption><thead><tr><th scope="col">What we measured</th><th scope="col">Result</th></tr></thead><tbody><tr><td>Random lists tested</td><td>10,000</td></tr><tr><td>Lists with an even number of items</td><td>4,962</td></tr><tr><td>Wrong answers returned by the pasted function</td><td>4,219</td></tr><tr><td>Failures caught by the loose postcondition: no more than half the items below the answer, no more than half above</td><td>0</td></tr><tr><td>Failures caught by the exact postcondition: the middle item for odd lengths, the mean of the two middle items for even lengths</td><td>4,219</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the function is wrong</h3><p>For a list with an odd number of items, the middle item is the median, and the pasted code is right. For an even number, the median is halfway between the two middle items, and the code returns only the upper one.</p>
+<p>It was right for every odd-length list and for even-length lists whose two middle items happened to be equal, which is why it looks fine in a quick test.</p></div><div><h3>Why the loose check missed it</h3><p>The loose check is true of the real median, so it sounds sensible. But it is also true of any value between the two middle items, so it cannot tell a right answer from a nearly right one.</p>
+<p>Only someone who knows the definition of a median writes the exact check. That knowledge is the understanding that pasting skips.</p></div></div>
+    <div class="ag-capsule"><p class="ag-capsule-q">The lesson in one line</p><p>A test can only be as precise as the tester's understanding. Weak understanding writes weak tests, and weak tests pass wrong code.</p></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="contracts">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Writing contracts</p><h2>Postconditions: promises a function must keep</h2><p class="ag-lede">A postcondition is a statement that must be true when a function finishes. Writing it down forces the writer to understand what the function promises, and checking it automatically catches the moment the promise is broken. The approach is often called design by contract.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Postconditions for three everyday functions</caption><thead><tr><th scope="col">Function</th><th scope="col">Its postcondition, in words</th></tr></thead><tbody><tr><td>Sort a list</td><td>The result has the same items as the input, and each item is no larger than the next</td></tr><tr><td>Find the median</td><td>For an odd length, the middle item; for an even length, the mean of the two middle items</td></tr><tr><td>Convert minutes to hours and minutes</td><td>Hours times 60, plus minutes, equals the input, and minutes is between 0 and 59</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Checking with assert</h3><p>In Python, the simplest way to check a postcondition is an <code>assert</code> statement. The Python Language Reference describes it as "a convenient way to insert debugging assertions into a program", equivalent to raising an <code>AssertionError</code> when the condition is false.</p>
+<p>A student who writes <code>assert</code> lines for their own functions is writing their understanding down, where the computer can check it.</p></div><div><h3>A catch worth knowing</h3><p>The same reference explains that assertions run only while the built-in <code>__debug__</code> is true, and that "the current code generator emits no code for an assert statement when optimization is requested at compile time".</p>
+<p>So asserts are for checking during development, not for guarding a finished program. Real input validation needs ordinary <code>if</code> statements.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source, read 7 October 2026: <a class="ag-inline-link" href="https://docs.python.org/3/reference/simple_stmts.html" rel="noopener" target="_blank">The Python Language Reference, simple statements, "The assert statement"</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="integrity">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Honest work</p><h2>Understanding is also what keeps school work yours</h2><p class="ag-lede">Every Australian state sets its own rules on what help is allowed in assessed work, and the rules are tightening as AI tools spread. A student who understands every line of their code is safe under any of them.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>An example from NSW</h3><p>In New South Wales, NESA describes its All My Own Work program as one that "gives students the opportunity to understand, value and use ethical practices when locating and using information during their studies".</p>
+<p>Other states have their own equivalents and their own rules on AI in assessment. Check the rules that apply to your school and course.</p></div><div><h3>What we do and do not do</h3><p>We teach students to read, predict, write and test code until they understand it. We never write a student's assessed work, major project or take-home task.</p>
+<p>NSW students working on a senior project can read our <a class="ag-inline-link" href="/hsc-software-engineering-help">HSC Software Engineering page</a> for how we help with technique while the work stays theirs.</p></div></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Predict before running</h3><p>Say what the program will print before you run it. A wrong prediction is the start of real understanding.</p></div><div><h3>Rebuild without looking</h3><p>If you learned something from an example, close it and write it again from memory. What you cannot rebuild, you have not yet learned.</p></div><div><h3>Write the contract</h3><p>For every function, write its postcondition first. If you cannot state it, you are not ready to write the function.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source, read 7 October 2026: <a class="ag-inline-link" href="https://educationstandards.nsw.edu.au/" rel="noopener" target="_blank">NSW Education Standards Authority</a>, key services, All My Own Work.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Stages</p>
+      <h2>From pasting to owning</h2>
+      <p class="ag-lede">The steps students take as they stop copying and start understanding.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Four stages of owning your code</caption><thead><tr><th scope="col">Stage</th><th scope="col">What the student does</th></tr></thead><tbody><tr><td>1. Read</td><td class="ag-num">Read a short program and say, in words, what it does</td></tr><tr><td>2. Predict</td><td class="ag-num">Predict exact output for a given input before running it</td></tr><tr><td>3. Contract</td><td class="ag-num">Write postconditions and assertions for their own functions</td></tr><tr><td>4. Defend</td><td class="ag-num">Explain and justify every line of a project to someone else</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Using examples well</h3><p>Examples are how everyone learns. The question is what happens after you read one.</p>
+<p>Read it, close it, rebuild it, test it. That turns someone else's code into your own understanding.</p></div><div><h3>Using AI well</h3><p>An AI assistant is a fast source of examples, and the same rules apply: never keep a line you cannot explain.</p>
+<p>Our page on <a class="ag-inline-link" href="/learn-to-think-not-just-use-ai-tools-australia">learning to think, not just use AI tools</a> covers how many AI answers to check.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses where students own their code</h2>
+      <p class="ag-lede">Grouped by stage. The free first lesson finds the right starting point.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Foundations</h3>
+        <span class="ag-band-sub">Ages 11 to 15</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UCAU / FND / 01</p>
+          <h4>Python with explanations</h4>
+          <p>First programs, every line discussed.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UCAU / FND / 02</p>
+          <h4>JavaScript you can read</h4>
+          <p>Interactive pages and browser games.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UCAU / FND / 03</p>
+          <h4>Maths you can test</h4>
+          <p>Python programs that check maths.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Secondary</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UCAU / SEC / 01</p>
+          <h4>Complete Python for teens</h4>
+          <p>Beginner to advanced, tested as you go.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UCAU / SEC / 02</p>
+          <h4>Java, classes and objects</h4>
+          <p>Object-oriented code you can explain.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UCAU / SEC / 03</p>
+          <h4>Algorithms with proofs of behaviour</h4>
+          <p>Data structures and their contracts.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Adults</h3>
+        <span class="ag-band-sub">18 and over</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UCAU / ADL / 01</p>
+          <h4>Python from the ground up</h4>
+          <p>For adults who want to understand, not copy.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UCAU / ADL / 02</p>
+          <h4>Data structures and algorithms</h4>
+          <p>Interview-ready because understood.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UCAU / ADL / 03</p>
+          <h4>Team-ready Git</h4>
+          <p>Your work, its history, your name on it.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-college-students">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Lessons where nothing is pasted</h2>
+      <p class="ag-lede">Students type, predict and test everything they keep. Teachers ask "what will this print?" far more often than they explain.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">Weekday afternoons in your state.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evenings</p><p class="ag-slot-l">For senior students and adults.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Saturday and Sunday options.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Prediction first</h3><p>Every new idea starts with a guess about what the code will do.</p></div>
+      <div><h3>Contracts written</h3><p>Students state what each function promises before writing it.</p></div>
+      <div><h3>Tests by the student</h3><p>Students write their own checks, including the awkward cases.</p></div>
+      <div><h3>Explain it back</h3><p>A program is finished when the student can explain every line.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten students, or one to one.</p></div>
+      <div><h3>Never your assessment</h3><p>We teach technique; assessed work stays the student's own.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students can explain line by line</h2>
+      <p class="ag-lede">Each of these was typed, tested and defended by the student who built it. Find more on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Families outside India are billed monthly in US dollars at a rate that does not change between countries. No sign-up fee applies and nothing locks you in for a term; any month can be the last.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A full trial lesson, free</li><li>An honest read of current level</li><li>No card required</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students</li><li>One steady teacher</li><li>Matched by level</li><li>Month by month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>One teacher, one student</li><li>Around school and exams</li><li>Your pace</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews posted on Google by our families, shown without edits.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from students and parents</p>
+      <h2>Common questions about understanding code</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What does understand the code, don't copy-paste mean?</h3>
+        <p>It means being able to explain what every line of a program does and why, and to predict and test its output, rather than inserting code from elsewhere that you cannot explain.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is a postcondition?</h3>
+        <p>A postcondition is a statement that must be true when a function finishes, such as "the result is sorted and contains the same items as the input". Writing and checking postconditions is the heart of design by contract.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is design by contract?</h3>
+        <p>Design by contract is a way of writing software in which each function states what it needs before it runs and what it promises when it finishes, and those statements are checked, often with assertions.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is copying code from examples cheating?</h3>
+        <p>Learning from examples is normal. What matters is whether you understand and can rebuild what you keep, and whether your school's rules allow it in assessed work.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why did the pasted median function pass the loose check?</h3>
+        <p>The loose check only required no more than half the items below and above the answer. Any value between the two middle items meets that, so it could not tell the correct median from a nearly correct one.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I use AI to help with coding assignments?</h3>
+        <p>That depends on your state and school rules, which differ and are changing. Whatever is allowed, keep only code you understand and can explain.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you write students' assessed work or major projects?</h3>
+        <p>No. We teach reading, writing and testing code until the student understands it. Assessed work, including major projects and take-home tasks, stays the student's own.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should asserts be used to check user input?</h3>
+        <p>No. Python skips assert statements when optimisation is switched on, so they suit checks during development. Use ordinary if statements to validate input in a finished program.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age is this for?</h3>
+        <p>Mostly secondary students from Year 7 and adults. Younger children learn the same habit through predicting what Scratch programs will do.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much are lessons?</h3>
+        <p>The first lesson is free. After that, families pay monthly with no joining fee and no term lock-in; see the fees section on this page.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More on thinking with AI, building it and senior school computing.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>Our main page for Australian families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/learn-to-think-not-just-use-ai-tools-australia">Learn to think, not just use AI</a></h3><p>How many AI answers to check.</p></div>
+      <div><h3><a class="ag-inline-link" href="/learn-to-train-ai-not-just-prompt-it-australia">Learn to train AI</a></h3><p>Building models, not prompting them.</p></div>
+      <div><h3><a class="ag-inline-link" href="/problem-solving-through-coding-australia">Problem solving through coding</a></h3><p>Thinking skills that transfer.</p></div>
+      <div><h3><a class="ag-inline-link" href="/hsc-software-engineering-help">HSC Software Engineering</a></h3><p>For NSW senior students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-year-7-australia">Coding for Year 7</a></h3><p>Starting secondary school computing.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Send a number and a good time to call. The student works through a short program with a teacher, predicting and testing it, and you see the difference understanding makes.</p>
+        <p class="ag-mt-40">Would you like more detail first? Read <a class="ag-inline-link" href="/how-we-teach">how a lesson runs</a> or look over <a class="ag-inline-link" href="/courses">our courses</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20copies%20code%20without%20really%20understanding%20it.%20Could%20we%20book%20a%20free%20lesson%20to%20work%20on%20that%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ucau',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">From Australia, WhatsApp gets the quickest reply. We are an India-based team, so messages come from a +91 number; there is no Australian office.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ucau(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The trial lesson is free and needs no card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Owning your code</h4><ul><li><a href="/learn-to-think-not-just-use-ai-tools-australia">Think, not just use AI</a></li><li><a href="/problem-solving-through-coding-australia">Problem solving</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/hsc-software-engineering-help">HSC Software Engineering</a></li><li><a href="/coding-for-year-7-australia">Coding for Year 7</a></li><li><a href="/online-coding-tutor-australia">Online coding tutor</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>State the promise, then test it</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ucau = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'understand-the-code-dont-copy-paste-australia-inline', meta: { name: name, age: age, page: 'understand-the-code-dont-copy-paste-australia' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
