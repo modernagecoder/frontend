@@ -397,6 +397,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding classes for kids in Newcastle](/coding-classes-for-kids-newcastle)
 - [Coding classes for kids in Sydney](/coding-classes-for-kids-sydney)
 - [Coding classes in Toowoomba](/best-coding-classes-in-toowoomba)
+- [Online coding and Python classes in Ballarat](/online-coding-and-python-classes-in-ballarat)
 <!-- AU-LINKS -->
 
 
