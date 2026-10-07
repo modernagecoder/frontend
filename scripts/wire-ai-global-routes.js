@@ -341,6 +341,7 @@ const SLUGS = [
   'choosing-year-11-computing-subjects-australia',
   'year-10-maths-methods-preparation',
   'sa-ignite-entry-maths-practice',
+  'year-12-maths-holiday-revision-australia',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -761,6 +762,7 @@ const LLMS_LABELS = {
   'choosing-year-11-computing-subjects-australia': 'Choosing Year 11 computing subjects',
   'year-10-maths-methods-preparation': 'Year 10 maths for Methods',
   'sa-ignite-entry-maths-practice': 'SA Ignite assessment maths practice',
+  'year-12-maths-holiday-revision-australia': 'Year 12 maths holiday revision',
 };
 
 function wireLlms(slugs) {

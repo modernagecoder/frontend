@@ -571,6 +571,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Choosing Year 11 computing subjects: https://learn.modernagecoders.com/choosing-year-11-computing-subjects-australia
 - Year 10 maths for Methods: https://learn.modernagecoders.com/year-10-maths-methods-preparation
 - SA Ignite assessment maths practice: https://learn.modernagecoders.com/sa-ignite-entry-maths-practice
+- Year 12 maths holiday revision: https://learn.modernagecoders.com/year-12-maths-holiday-revision-australia
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

@@ -862,3 +862,4 @@
 .ag-root.ag-csub { --ag-accent: #2D695D; --ag-accent-soft: rgba(45,105,93,.09); }   /* Choosing computing subjects: a muted deep teal at hue 169, contrast above 4.9:1 on #EDE7DA, at least 10 RGB from every accent on the site */
 .ag-root.ag-ytmp { --ag-accent: #572A33; --ag-accent-soft: rgba(87,42,51,.09); }   /* Year 10 Methods preparation: a muted plum brown at hue 349, contrast above 4.9:1 on #EDE7DA, at least 10 RGB from every accent on the site */
 .ag-root.ag-saig { --ag-accent: #9C1824; --ag-accent-soft: rgba(156,24,36,.09); }   /* SA Ignite: a deep crimson (6.6:1 on #EDE7DA), at least 13 RGB from every accent on the site */
+.ag-root.ag-yhrv { --ag-accent: #333054; --ag-accent-soft: rgba(51,48,84,.09); }   /* Year 12 holiday revision: a muted slate navy, contrast above 4.9:1 on #EDE7DA, at least 11 RGB from every accent on the site */
