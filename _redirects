@@ -5991,4 +5991,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-for-kids-sydney /src/pages/coding-classes-for-kids-sydney.html 200
 /coding-classes-for-kids-sydney.md /src/pages/coding-classes-for-kids-sydney.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/best-coding-classes-in-gold-coast /src/pages/best-coding-classes-in-gold-coast.html 200
+/best-coding-classes-in-gold-coast.md /src/pages/best-coding-classes-in-gold-coast.md 200
 /* /src/pages/404.html 404

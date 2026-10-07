@@ -39407,5 +39407,51 @@
       "School sector, income, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with Transport for NSW, Sydney Ferries, the Scratch team, OpenStreetMap, the ABS or the NSW Department of Education."
     ]
+  },
+  "best-coding-classes-in-gold-coast": {
+    "market": "Gold Coast",
+    "bodyClass": "cg-gcbt",
+    "pageType": "city",
+    "curriculumAuthority": "Gold Coast - Tweed Heads Significant Urban Area, ABS Census 2021 QuickStats, area code 3007, compared by QuickStats with Queensland and Australia (read 7 October 2026): 693,596 people; median age 40; 186,286 families; 302,683 private dwellings; average 2.5 people per household; dwelling structure, occupied private dwellings: separate house 145,389 (56.8 percent; Queensland 74.8), flat or apartment 54,022 (21.1 percent; Queensland 12.5; Australia 14.2); occupation, employed people aged 15 and over: Professionals 67,905 (20.4 percent; Queensland 21.4; Australia 24.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 122,502 (21.4 percent; Queensland 21.9; Australia 26.3); aged 15 to 19: 39,832 (5.7 percent); aged 20 to 24: 42,213 (6.1 percent). Queensland Department of Education term dates page: 2026 Term 4 Tuesday 6 October to Friday 11 December, 10 weeks. IANA tz database (australasia file): Australia/Brisbane UTC+10 with no daylight saving since March 1992; Australia/Sydney UTC+10 and UTC+11 in summer; Asia/Kolkata UTC+5:30, so the Queensland side is 4 hours 30 minutes ahead of India time all year.",
+    "localProject": "Segment tree range-maximum queries with point updates over G:link light rail headways. Translink SEQ_GTFS.zip (feed_info publisher Department of Transport and Main Roads - Translink Division, feed_start_date 20261007, feed_end_date 20261206), route L1-5029 Helensvale - Burleigh Heads, route_type 0. Service day Wednesday 14 October 2026 resolved from calendar.txt and calendar_dates.txt: 273 of 1,030 L1 trips run. Stop \"Cavill Avenue station, platform 2\": 134 departures, first 04:20, last 24:21 (GTFS notation for 00:21 next day); 133 gaps: 105 of 7.5 minutes, 25 of 15 minutes, one each of 14, 14.5 and 10.5; median 7.5; maximum 15. Recursive segment tree (max) over the 133 gaps: height 8, array of 532 slots; range 7am to 9am (16 gaps) 19 node visits, maximum 7.5; 6pm to midnight (30 gaps) 23 visits, maximum 15; 1,000 random ranges (random.seed 2026) mean 20.432 node visits against mean 34.345 gaps scanned, all answers equal to max() over the slice; cancelling the 08:03 departure merges two 7.5 minute gaps into one of 15 via point updates touching 16 nodes, after which the 7am to 9am maximum is 15.0. Lesson family: segment tree; distinct from BST height (Brisbane), quickselect (Sydney), cuckoo hashing (Perth) and the one site page that mentions a Fenwick tree.",
+    "requiredMentions": [
+      "693,596",
+      "39,832",
+      "302,683",
+      "122,502",
+      "67,905",
+      "54,022",
+      "Cavill Avenue station, platform 2",
+      "20.4 nodes visited",
+      "34.3 gaps checked",
+      "Helensvale or Burleigh Heads"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Gold Coast - Tweed Heads Significant Urban Area (3007): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/3007"
+      },
+      {
+        "claim": "Translink General Transit Feed Specification for South East Queensland (SEQ_GTFS.zip), Creative Commons Attribution 4.0, listed on the Queensland Government open data portal.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Queensland Department of Education, term dates 2026.",
+        "url": "https://education.qld.gov.au/about-us/calendar/term-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Brisbane and Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "OpenStreetMap stations and track geometry: the Overpass API returned 406 to this machine on 7 October 2026 and no mirror was tried, so no map data is used.",
+      "Bureau of Meteorology observations for the Gold Coast: the observations feed returned 403 and was not circumvented.",
+      "Queensland Curriculum and Assessment Authority syllabus details: qcaa.qld.edu.au returned a Cloudflare 403 and was not circumvented, so no QCE subject facts are quoted.",
+      "Patronage, crowding or on-time performance of G:link: not in the timetable file and not measured.",
+      "Separate figures for the Gold Coast City council area or for Tweed Heads alone: the page uses the published Significant Urban Area totals only and does not split or add them.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Translink, the Department of Transport and Main Roads, the ABS or the Queensland Department of Education."
+    ]
   }
 }

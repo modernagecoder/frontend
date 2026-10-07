@@ -154,7 +154,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 120 | coding-and-ai-classes-in-northern-territory (ntst, #544018) | cg- state page | 3,170 | 1.7% vs coding-and-ai-classes-in-australian-capital-territory | Why do the angles of a Darwin, Nhulunbuy, Alice Springs triangle add up to more than 180 degrees? | spherical excess (Girard's theorem) on a Northern Territory triangle | d404c5aa |
 | 127 | coding-classes-for-kids-melbourne (kmel, #185422) | cg- kids city page | 3,486 | 2% vs coding-and-ai-classes-in-victoria | Which playground is nearest the State Library, and why does the starting record matter? | running minimum (smallest so far) and the starting-value bug | 9d834dff |
 | 128 | coding-classes-for-kids-brisbane (kbne, #844026) | cg- kids city page | 3,347 | 1.6% vs coding-classes-for-kids-melbourne | Which letter is most common in Brisbane ferry stop names, and does a capital count the same? | letter frequency with a dictionary, de-duplication and case | 2f97bd26 |
-| 129 | coding-classes-for-kids-perth (kper, #1C1E7E) | cg- kids city page | 3,213 | 1.2% vs coding-classes-for-kids-gold-coast | Is the trip home on the Fremantle line just the trip out, reversed? | reversing a list and comparing two lists to catch a data typo | (this commit) |
+| 129 | coding-classes-for-kids-perth (kper, #1C1E7E) | cg- kids city page | 3,213 | 1.2% vs coding-classes-for-kids-gold-coast | Is the trip home on the Fremantle line just the trip out, reversed? | reversing a list and comparing two lists to catch a data typo | bf7b796c |
+| 130 | coding-classes-for-kids-adelaide (kadl, #964454) | cg- kids city page | 3,355 | 2% vs coding-classes-for-kids-sydney | Are Adelaide's five city squares a mirror image or a half turn? | reflection versus rotational symmetry tested on coordinates | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

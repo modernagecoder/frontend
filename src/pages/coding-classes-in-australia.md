@@ -391,6 +391,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding classes for kids in Melbourne](/coding-classes-for-kids-melbourne)
 - [Coding classes for kids in Brisbane](/coding-classes-for-kids-brisbane)
 - [Coding classes for kids in Perth](/coding-classes-for-kids-perth)
+- [Coding classes for kids in Adelaide](/coding-classes-for-kids-adelaide)
 <!-- AU-LINKS -->
 
 
