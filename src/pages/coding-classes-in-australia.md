@@ -313,6 +313,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Problem solving through coding](/problem-solving-through-coding-australia)
 - [Online coding tutor in Australia](/online-coding-tutor-australia)
 - [One-on-one coding tutor in Australia](/one-on-one-coding-tutor-australia)
+- [School holiday coding course in Australia](/school-holiday-coding-course-australia)
 <!-- AU-LINKS -->
 
 

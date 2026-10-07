@@ -76,7 +76,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 33 | learn-to-train-ai-not-just-prompt-it-australia (trau, #247038) | ag- topic door | 3,150 | 2% vs understand-the-code-dont-copy-paste-australia | Why should Australian students train models rather than only prompt them, and how do labels cap what a model can show? | inter-annotator agreement | 3ab9549d |
 | 34 | problem-solving-through-coding-australia (psau, #984438) | ag- topic door | 3,081 | 2.2% vs learn-to-think-not-just-use-ai-tools-australia | How does coding build problem solving, and what can a program show but not prove? | Collatz 3x+1 exploration | 7e1cc98e |
 | 36 | online-coding-tutor-australia (otau, #485498) | ag- topic door | 3,056 | 2% vs one-on-one-coding-tutor-australia | What should an online coding tutor do each week, and what should Australian parents check before booking one? | use-modify-create progression | 211d9edf |
-| 37 | one-on-one-coding-tutor-australia (ooau, #6C1C2C) | ag- topic door | 3,032 | 2% vs online-coding-tutor-australia | When do one-to-one coding lessons suit better than a small group, and how does mastery pacing work? | mastery learning gate (four of the last five correct) | (this commit) |
+| 37 | one-on-one-coding-tutor-australia (ooau, #6C1C2C) | ag- topic door | 3,032 | 2% vs online-coding-tutor-australia | When do one-to-one coding lessons suit better than a small group, and how does mastery pacing work? | mastery learning gate (four of the last five correct) | 942189b4 |
+| 39 | school-holiday-coding-course-australia (shau, #1C2858) | ag- topic door | 3,069 | 1.5% vs problem-solving-through-coding-australia | When are school holidays in each Australian state in 2026-27, which weeks do they share, and how do you plan a holiday coding project? | Gantt chart of state school holidays | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
