@@ -342,6 +342,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [The ATAR explained](/atar-explained-for-coding-students)
 - [Choosing Year 11 computing subjects](/choosing-year-11-computing-subjects-australia)
 - [Year 10 maths for Methods](/year-10-maths-methods-preparation)
+- [Year 12 maths holiday revision](/year-12-maths-holiday-revision-australia)
 <!-- AU-LINKS -->
 
 
