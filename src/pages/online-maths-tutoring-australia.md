@@ -213,7 +213,7 @@ Every mentor teaches from a structured curriculum, adapted live to your child. I
 
 [Foundation-Year 6Elementary Mathematics Masterclass](/courses/elementary-mathematics-complete-masterclass)[Years 7-10Middle School Mathematics Mastery Program](/courses/comprehensive-middle-school-mathematics-mastery)[Years 11-12High School Mathematics Mastery Program](/courses/complete-high-school-mathematics-mastery)[For the Specialist mindsetOlympiad & Competition Mathematics](/courses/olympiad-competition-mathematics-mastery)Pricing
 
-## Premium teaching. One honest price.
+## Deep teaching. One honest price.
 
 You are paying for a real teacher, live, for a full hour, twice a week, the format Australian private tutors bill A$50 to A$100 an hour for. Our cost base is global, so the price is not.
 

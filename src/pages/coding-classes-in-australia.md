@@ -144,7 +144,7 @@ US
 
 Sydney · NSW
 
-Bachelor of Advanced Computing + Engineering Honours. Sydney AI Centre. Strong USyd Robotics. ATAR mid-90s for premium programs.
+Bachelor of Advanced Computing + Engineering Honours. Sydney AI Centre. Strong USyd Robotics. Check the university for its current selection ranks.
 
 ANU
 
@@ -270,49 +270,22 @@ Gemini AIFull-StackDatabaseQuiz Gen[Open the live project ↗](https://bookdesk1
 
 An interactive web tool that calculates expected lifespan, shows days, months and years lived, and visualises remaining time to motivate better habits.
 
-JavaScriptAPIsDate Calc[Open the live project ↗](https://lifespantracker.netlify.app/)Meet the mentor team
+JavaScriptAPIsDate Calc[Open the live project ↗](https://lifespantracker.netlify.app/)Guides for Australian families
 
-## Working engineers, AIO veterans and Go8 alumni.
+## Australian pages: states, cities, exams and topics.
 
-Every Aussie student is paired with one mentor for the year. We match on time zone, state exam system, and goal: ATAR, AIO, career switch.
+Each guide below is written for one Australian need, from a state's senior computing exam to game development for kids. Lessons are live and online, taught by our mentors in India at times that suit Australian afternoons and evenings.
 
-AI
+- [AI and machine learning classes in Australia](/ai-and-machine-learning-classes-in-australia)
+- [Online maths tutoring in Australia](/online-maths-tutoring-australia)
+- [AMC, AIO and CAT preparation](/australian-maths-trust-amc-aio-cat-preparation)
+- [Maths olympiad and AMC tutoring](/math-olympiad-amc-tutoring)
+<!-- AU-LINKS -->
 
-### The AI engineer
-
-LLMs · Agents
-
-Ships LLM products at a Sydney or Melbourne tech shop (Atlassian, Canva, SafetyCulture, REA Group, Culture Amp).
-
-AO
-
-### The AIO coach
-
-Olympiad · ATAR
-
-Australian Informatics Olympiad veteran. Best fit for AIO progression, Year-12 exam prep and Go8 admissions.
-
-GO
-
-### The Go8 alumnus
-
-Melbourne · UNSW · Monash
-
-Recent Group of Eight CS / Engineering graduate. Best for premium-program application coaching and first-year prep.
-
-KD
-
-### The kids-first mentor
-
-Years 1: 6
-
-Patient, child-development-aware, calm pace. Bridges Scratch to real Python so even a Year-3 student leaves able to write a working program.
-
-Also at Modern Age Coders
 
 ## Maths, taught with the same depth.
 
-The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For Australian students that means the Australian Curriculum, NAPLAN-flagged gap repair, and the HSC/VCE/QCE road to Methods. Premium 1-on-1 mentorship is USD 150 a month and small-group plans are USD 100, billed in USD, 8 classes a month, and every student starts with a free demo class.
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For Australian students that means the Australian Curriculum, NAPLAN-flagged gap repair, and the HSC/VCE/QCE road to Methods. One-to-one mentorship is USD 150 a month and small-group plans are USD 100, billed in USD, 8 classes a month, and every student starts with a free demo class.
 
 [Maths Tutoring Australia](/online-maths-tutoring-australia)[IB Maths (AA & AI)](/ib-maths-tuition-online)[IGCSE Maths](/igcse-maths-tuition-online)[Catch-Up Program](/math-catch-up-program)[Competition Maths](/courses/olympiad-competition-mathematics-mastery)[The 2026 Guide](/best-online-math-tutoring-2026)
 
