@@ -295,6 +295,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding classes for 7 and 8 year olds](/coding-classes-for-7-and-8-year-olds-australia)
 - [Coding classes for 9 and 10 year olds](/coding-classes-for-9-and-10-year-olds-australia)
 - [Coding classes for 11 and 12 year olds](/coding-classes-for-11-and-12-year-olds-australia)
+- [After Scratch: moving to Python](/after-scratch-next-step-python-australia)
 <!-- AU-LINKS -->
 
 
