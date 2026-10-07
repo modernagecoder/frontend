@@ -148,7 +148,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 114 | coding-and-ai-classes-in-victoria (vcst, #38489C) | cg- state page | 3,471 | 2.4% vs coding-and-ai-classes-in-queensland | Why do the published Census age shares add up to 99.9, and what does the rounding rule change? | round half to even (banker's rounding) vs round half up on Census shares | 6baf02c6 |
 | 115 | coding-and-ai-classes-in-queensland (qlst, #843014) | cg- state page | 3,371 | 2.4% vs coding-and-ai-classes-in-victoria | How far along the Gold Coast line is each station, measured along the track? | linear referencing (chainage) of stations along an OSM rail line | 2c598bd9 |
 | 116 | coding-and-ai-classes-in-western-australia (wast, #1C7020) | cg- state page | 3,375 | 1.8% vs coding-and-ai-classes-in-new-south-wales | Which national map zone does each of Landgate's WA project grids fall in? | MGA2020 / UTM grid-zone arithmetic across WA project grids | 8a7ade83 |
-| 117 | coding-and-ai-classes-in-south-australia (sast, #804C60) | cg- state page | 3,300 | 1.7% vs coding-and-ai-classes-in-new-south-wales | How much farther is it between Adelaide cafes when you have to follow the street grid? | taxicab (Manhattan) vs Euclidean distance on Adelaide's city grid | (this commit) |
+| 117 | coding-and-ai-classes-in-south-australia (sast, #804C60) | cg- state page | 3,300 | 1.7% vs coding-and-ai-classes-in-new-south-wales | How much farther is it between Adelaide cafes when you have to follow the street grid? | taxicab (Manhattan) vs Euclidean distance on Adelaide's city grid | 715fed5e |
+| 118 | coding-and-ai-classes-in-tasmania (tast, #304454) | cg- state page | 3,402 | 2.3% vs coding-and-ai-classes-in-victoria | What weekday does each 2027 Tasmanian school date fall on, worked out with the Doomsday rule? | Conway's Doomsday rule for the weekday of Tasmanian 2027 term dates | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
