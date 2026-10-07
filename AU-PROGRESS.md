@@ -145,7 +145,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 124 | vibe-coding-and-ai-agents-classes-in-canberra (cnb, #403080) | cg- city page | 3,404 | 1.9% vs best-coding-classes-in-brisbane | How much should an AI agent remember? | ring buffer as an agent's bounded memory | 1898c623 |
 | 125 | best-coding-classes-in-hobart (hba, #185420) | cg- city page | 3,331 | 0.8% vs coding-and-ai-classes-in-tasmania | Can Euler's formula check a council's road map? | Euler's formula for planar graphs as a data check | 184a1a62 |
 | 126 | online-coding-and-python-classes-in-darwin (drw, #984868) | cg- city page | 3,297 | 1.1% vs online-coding-and-python-classes-in-perth-western-australia | Where does Darwin's half-hour time zone come from, and can a Python parser read the answer out of the time zone database? | recursive-descent parser for a real data format | c5dff2f8 |
-| 114 | coding-and-ai-classes-in-victoria (vcst, #38489C) | cg- state page | 3,471 | 2.4% vs coding-and-ai-classes-in-queensland | Why do the published Census age shares add up to 99.9, and what does the rounding rule change? | round half to even (banker's rounding) vs round half up on Census shares | (this commit) |
+| 114 | coding-and-ai-classes-in-victoria (vcst, #38489C) | cg- state page | 3,471 | 2.4% vs coding-and-ai-classes-in-queensland | Why do the published Census age shares add up to 99.9, and what does the rounding rule change? | round half to even (banker's rounding) vs round half up on Census shares | 6baf02c6 |
+| 115 | coding-and-ai-classes-in-queensland (qlst, #843014) | cg- state page | 3,371 | 2.4% vs coding-and-ai-classes-in-victoria | How far along the Gold Coast line is each station, measured along the track? | linear referencing (chainage) of stations along an OSM rail line | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
