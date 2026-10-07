@@ -327,6 +327,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [SA Ignite assessment maths practice](/sa-ignite-entry-maths-practice)
 - [VCE Algorithmics (HESS) help](/vce-algorithmics-hess-help)
 - [VCE Software Development help](/vce-applied-computing-software-development-help)
+- [VCE Data Analytics help](/vce-applied-computing-data-analytics-help)
 <!-- AU-LINKS -->
 
 

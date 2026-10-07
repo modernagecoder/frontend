@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>VCE Data Analytics Help | Applied Computing Units 3 and 4</title>
+  <meta name="description" content="Help with VCE Applied Computing: Data Analytics, Units 3 and 4: SQL, cleansing, statistics, visualisations, the 30 per cent task and the 2-hour exam.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/vce-applied-computing-data-analytics-help">
+  <link rel="alternate" type="text/markdown" href="/src/pages/vce-applied-computing-data-analytics-help.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#45571E">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/vce-applied-computing-data-analytics-help">
+  <meta property="og:title" content="VCE Data Analytics Help | Applied Computing Units 3 and 4">
+  <meta property="og:description" content="VCE Applied Computing: Data Analytics explained from the VCAA study design, plus a data cleansing exercise on the VCAA's own 2026 exam timetable that shows how one bad row can triple a standard deviation.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="VCE Data Analytics Help">
+  <meta name="twitter:description" content="VCE Data Analytics from the study design, with data cleansing practised on the real 2026 exam timetable.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-vcda .ag-hero-grid { gap: clamp(1rem, 3vw, 2.5rem); }
+.ag-root.ag-vcda .ag-hero h1 { letter-spacing: -0.012em; }
+.ag-root.ag-vcda .ag-capsule { border-left-width: 6px; }
+.ag-root.ag-vcda .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-vcda .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-vcda .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-vcda .ag-spec dt { letter-spacing: 0.11em; }
+.ag-root.ag-vcda .ag-slots { gap: 0.9rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/vce-applied-computing-data-analytics-help#page","url":"https://learn.modernagecoders.com/vce-applied-computing-data-analytics-help","name":"VCE Data Analytics Help","description":"Support for Victorian students taking VCE Applied Computing: Data Analytics: Units 3 and 4 structure and assessment, the 2026 examination session, SQL and statistics key knowledge, and a worked data cleansing exercise on the VCAA 2026 examination timetable.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":3,"name":"VCE Data Analytics","item":"https://learn.modernagecoders.com/vce-applied-computing-data-analytics-help"}]},{"@type":"Course","name":"VCE Data Analytics Help","description":"Live online teaching in SQL, spreadsheet analysis, descriptive statistics, data cleansing and data visualisation design for Victorian VCE Data Analytics students, without writing any assessed work.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/vce-applied-computing-data-analytics-help"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/vce-applied-computing-data-analytics-help"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/vce-applied-computing-data-analytics-help"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is VCE Applied Computing: Data Analytics?","acceptedAnswer":{"@type":"Answer","text":"One of the two Units 3 and 4 sequences in VCE Applied Computing (accredited from 1 January 2025), focused on extracting, cleansing, analysing and visualising data, then on a research question of the student's own and on data security."}},{"@type":"Question","name":"How is a Data Analytics score built?","acceptedAnswer":{"@type":"Answer","text":"Half the score is the 2-hour examination; the task is worth 30 per cent and coursework 20 per cent, split evenly between the units."}},{"@type":"Question","name":"When is the 2026 exam?","acceptedAnswer":{"@type":"Answer","text":"The VCAA timetable lists Applied Computing: Data Analytics on Monday 9 November 2026, in the session from 11:45 am to 2:00 pm."}},{"@type":"Question","name":"Which SQL do I need?","acceptedAnswer":{"@type":"Answer","text":"The key knowledge lists SELECT, FROM, WHERE, ORDER BY and INNER JOIN, with the Boolean operators AND, NOT and OR used in WHERE statements."}},{"@type":"Question","name":"What is data cleansing?","acceptedAnswer":{"@type":"Answer","text":"Finding and fixing errors and inconsistencies in data before analysis, such as missing values, wrong types and inconsistent formats, and deciding how to treat records that do not belong. Good cleansing is documented so others can check it."}},{"@type":"Question","name":"Which statistics are in the study?","acceptedAnswer":{"@type":"Answer","text":"Average, median, minimum, maximum, range, standard deviation, count or frequency and sum, plus Pearson's correlation coefficient and the shape and skew of data."}},{"@type":"Question","name":"How long is the School-assessed Task?","acceptedAnswer":{"@type":"Answer","text":"For 2026 the VCAA asks for eight to ten weeks of class time at minimum on the Unit 3 part, and eight weeks at minimum on the Unit 4 part."}},{"@type":"Question","name":"Can I do both Data Analytics and Software Development?","acceptedAnswer":{"@type":"Answer","text":"Yes. The study design allows students to take one or both Units 3 and 4 sequences of Applied Computing."}},{"@type":"Question","name":"Will you help with my research question or data?","acceptedAnswer":{"@type":"Answer","text":"No. We teach the skills with datasets and questions we choose, and never propose, refine, collect, analyse, design or edit anything for a student's assessed task."}},{"@type":"Question","name":"What time do lessons run?","acceptedAnswer":{"@type":"Answer","text":"Late afternoon in Victoria suits most senior students and sits in the middle of our teachers' day. We agree the weekly time after the free class."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/vce-applied-computing-data-analytics-help","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-vcda">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#outline">The units</a></li>
+      <li><a href="#marks">Marks and exam</a></li>
+      <li><a href="#cleanse">A cleansing exercise</a></li>
+      <li><a href="#research">The research task</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / VCE Data Analytics
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Victoria &middot; Applied Computing: Data Analytics &middot; Live online</p>
+        <h1>VCE Data Analytics help</h1>
+        <p class="ag-lede">Data Analytics is the VCE study where computing meets evidence. Students pull data out of large repositories with SQL, clean it in a spreadsheet, test it with statistics and present what it shows, then do the whole thing again for a research question of their own. Most of the marks reward judgement about data, not cleverness with tools.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#cleanse" class="ag-btn ag-btn--ghost">Try the cleansing exercise</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20VCE%20Applied%20Computing%3A%20Data%20Analytics." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'vcda'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Study design read at source &middot; Real data, honestly cleaned &middot; Lessons after school in Victorian time</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Study</dt><dd>VCE Applied Computing</dd>
+          <dt>Units</dt><dd>3 (IT023) and 4 (IT024)</dd>
+          <dt>Accredited from</dt><dd>1 January 2025</dd>
+          <dt>Task weight</dt><dd>30 per cent of the study score</dd>
+          <dt>Exam</dt><dd>50 per cent, 2 hours</dd>
+          <dt>2026 exam</dt><dd>Monday 9 November</dd>
+          <dt>We teach</dt><dd>SQL, statistics and visual design</dd>
+          <dt>We never</dt><dd>Touch the research project</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>VCE Applied Computing: Data Analytics is the Units 3 and 4 sequence in which students extract, cleanse, analyse and visualise data. Unit 3 builds visualisations to a teacher's design and plans a student research question; Unit 4 turns that plan into infographics or dynamic visualisations and studies data security. Marks split 20 per cent coursework, 30 per cent task and 50 per cent examination.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to begin</p>
+      <h2>Three courses under the key knowledge</h2>
+      <p class="ag-lede">Queries first, statistics second, then the visual design that turns findings into a message.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/mysql-mastery-for-teens">
+        <div class="ag-pick-shot"><img src="/images/mysql-teens.webp" alt="MySQL for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VCDA / 01</p>
+          <h3>Databases with MySQL</h3>
+          <p>SELECT, WHERE, ORDER BY and INNER JOIN on real tables: the exact SQL the Unit 3 key knowledge lists.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/statistics-probability-maths-course">
+        <div class="ag-pick-shot"><img src="/images/statistics-probability-maths.webp" alt="Statistics &amp; Probability course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VCDA / 02</p>
+          <h3>Statistics and probability</h3>
+          <p>Mean, median, standard deviation, Pearson's r and skew, understood rather than just calculated.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-science-course-for-teens-python-data">
+        <div class="ag-pick-shot"><img src="/images/data-science-teens.webp" alt="Data Science for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VCDA / 03</p>
+          <h3>Data science with Python</h3>
+          <p>Cleaning and charting data in code, a strong partner to spreadsheet work.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="outline">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Inside the study design</p><h2>Two units of data work, and the tools they require</h2><p class="ag-lede">Our summary of what the VCAA's Applied Computing study design (read 7 October 2026) sets out. Data Analytics is one of two Units 3 and 4 sequences in the study; Software Development is the other.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The Data Analytics sequence at a glance</caption><thead><tr><th scope="col">Unit</th><th scope="col">Area of study</th><th scope="col">What students do</th></tr></thead><tbody><tr><td>Unit 3 (IT023)</td><td>Data analytics</td><td>Extract authentic data from large repositories, cleanse and analyse it, and build data visualisations to teacher-provided requirements and designs</td></tr><tr><td>Unit 3 (IT023)</td><td>Data analytics: analysis and design</td><td>Propose a research question, collect primary and secondary data, plan with a Gantt chart, and design infographics or dynamic visualisations</td></tr><tr><td>Unit 4 (IT024)</td><td>Data analytics: development and evaluation</td><td>Develop the preferred design, evaluate it against the student's own criteria, and assess the project plan</td></tr><tr><td>Unit 4 (IT024)</td><td>Cyber security: data security</td><td>Respond to a teacher-provided case study on the impact of a data breach and an organisation's security strategies</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>Unit 3 names the software students must both study and use: database software, spreadsheet software and data visualisation software, plus a tool for running Structured Query Language queries. The SQL itself is spelt out: SELECT, FROM, WHERE, ORDER BY and INNER JOIN, with the Boolean operators AND, NOT and OR in WHERE statements.</p>
+<p>The statistics are equally specific: average, median, minimum, maximum, range, standard deviation, count or frequency and sum, then Pearson's correlation coefficient and the shape and skew of data. Data sources must be referenced in the American Psychological Association (APA) style.</p></div><div><p>Visualisation is treated as design, not decoration. The study design separates infographics, dashboards and dynamic data visualisations, and asks for mock-ups and storyboards before building. Testing includes checking that a chart is representative of the data behind it, a skill many adults never learn.</p>
+<p>Artificial intelligence appears in the key knowledge as well: AI features in software tools, generating visualisations by writing and refining prompts, and machine learning for predictions and recommendations. Students need to understand these, and to judge when a generated chart misrepresents its data.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Summarised on 7 October 2026 from the <a class="ag-inline-link" href="https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/applied-computing-data-analytics/applied-computing" rel="noopener" target="_blank">VCAA Applied Computing page</a> and its study design.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="marks">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How the study score is built</p><h2>A 2-hour exam and a two-term project</h2><p class="ag-lede">The split below is the study design's; the weeks of class time come from the VCAA's 2026 Data Analytics administrative notes, and the exam date from the 2026 timetable (all read on 7 October 2026).</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Data Analytics marks, piece by piece</caption><thead><tr><th scope="col">Assessment</th><th scope="col">Share of study score</th><th scope="col">Focus</th></tr></thead><tbody><tr><td>Coursework, Unit 3</td><td>One tenth</td><td>Visualisations made to requirements and designs a teacher supplies</td></tr><tr><td>Coursework, Unit 4</td><td>One tenth</td><td>A case study on a data breach</td></tr><tr><td>The research project (SAT)</td><td>Three tenths</td><td>The student's own research question, carried from Unit 3 into Unit 4</td></tr><tr><td>Exam at year end</td><td>One half</td><td>Two hours, held on Monday 9 November in 2026 in the 11:45 am to 2:00 pm session</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>For the task, the VCAA's 2026 guidance asks schools to allow at least 8 to 10 weeks of class time for the Unit 3 analysis and design, and at least 8 weeks for the Unit 4 development and evaluation. Teachers record progress for each student on an authentication record, which is why steady, dated work matters more than a final sprint.</p>
+<p>The scope rules are demanding in a quiet way. The research question has to be answerable from data the student can actually collect, primary and secondary, within legal requirements. A question that sounds impressive but cannot be answered from available data is the most common way a strong student loses marks before building anything.</p></div><div><p>The exam draws on all of the key knowledge, so SQL syntax, statistical interpretation, visualisation conventions, testing and data security can sit side by side in one paper. Students who learned the tools only through their own project often meet unfamiliar question types here.</p>
+<p>Useful exam practice is short and varied: write the query that answers a stated question, say what a correlation of a given strength does and does not show, pick the visualisation type for a stated audience, and identify the threat in a short breach scenario.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Assessment weights from the study design; task timing from the <a class="ag-inline-link" href="https://www.vcaa.vic.edu.au/sites/default/files/2026-01/2026DataAnalyticsAdmin-Information-for-School-based-Assessment.docx" rel="noopener" target="_blank">VCAA Data Analytics administrative information for 2026</a>; the date from the <a class="ag-inline-link" href="https://www.vcaa.vic.edu.au/administration/key-dates/vce-examination-timetable" rel="noopener" target="_blank">2026 timetable</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="cleanse">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked exercise on real data</p><h2>Cleansing the 2026 VCE exam timetable</h2><p class="ag-lede">The key knowledge asks for techniques to manipulate and cleanse data, including identifying and fixing errors, and descriptive statistics to find patterns. The VCAA's own timetable page makes a fair practice dataset: authentic, public, and slightly messy.</p></div>
+    <div class="ag-grid-3"><div><h3>The dataset</h3><p>Every written-exam session window from Thursday 15 October to Wednesday 18 November 2026: 45 windows across 18 exam days, holding 91 subject lines, as printed on the VCAA page on 7 October 2026.</p></div><div><h3>The dirt</h3><p>43 windows follow one pattern, such as "11:45 am" to "2:00 pm" with spaces around the dash. Two do not: one writes its end time as "5.15pm" with a full stop and no space, and one prints its dash with no spaces at all.</p></div><div><h3>The outlier</h3><p>One window runs from 8:00 am to 6:00 pm. It is not an exam length: the page explains that each Auslan student sits one two-hour session somewhere inside that day.</p></div></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Session window lengths before and after cleansing (our calculation from the 2026 VCAA timetable)</caption><thead><tr><th scope="col">Measure</th><th scope="col">All 45 windows</th><th scope="col">44 windows, Auslan day removed</th></tr></thead><tbody><tr><td>Mean length</td><td>138.78 minutes</td><td>128.30 minutes</td></tr><tr><td>Median length</td><td>135 minutes</td><td>135 minutes</td></tr><tr><td>Standard deviation (population)</td><td>74.58 minutes</td><td>27.28 minutes</td></tr><tr><td>Minimum and maximum</td><td>75 and 600 minutes</td><td>75 and 195 minutes</td></tr><tr><td>Most common length</td><td>135 minutes, 20 windows</td><td>135 minutes, 20 windows</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>One row out of 45 almost triples the standard deviation and drags the mean up by more than ten minutes, while the median does not move at all. That is the shape-and-skew lesson the study design asks for, demonstrated on a dataset nobody invented. The right cleansing decision is not to delete the row silently but to recognise it as a different kind of record, document why it was excluded, and report both versions.</p>
+<p>The "5.15pm" row is the other half of the lesson. A spreadsheet formula that splits times on a colon reads it as nonsense; a person reads it instantly. Validation rules for time fields catch it, and fixing it should be logged, because changing source data without a record is how analyses become impossible to check.</p></div><div><p>The pattern in the clean lengths is informative too. Twenty windows of 135 minutes, thirteen of 105 and three of 75 suggest a small set of standard formats. A WHERE filter on the subject text shows what the short windows hold: the two technology-free mathematics papers, Mathematical Methods Examination 1 and Specialist Mathematics Examination 1, each sharing its window with music examinations. Testing a hunch before claiming it is the habit the exam rewards.</p>
+<p>This is exactly the kind of exercise we use in lessons: a real, public dataset, a question worth asking, and the discipline to report what was changed. Students then apply the same discipline to data they choose for their own work, without our involvement.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Dataset: <a class="ag-inline-link" href="https://www.vcaa.vic.edu.au/administration/key-dates/vce-examination-timetable" rel="noopener" target="_blank">VCAA, 2026 VCE examination timetable</a>, read on 7 October 2026. Window counts, lengths and statistics are our own calculation in Python. Cleansing wording from the VCE Applied Computing Study Design, Unit 3 key knowledge.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="research">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The School-assessed Task</p><h2>The research question has to stay the student's</h2><p class="ag-lede">In Data Analytics the task starts with a question the student proposes. The study design and the 2026 administrative information set out what follows from that.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The research task, in the VCAA's terms</caption><thead><tr><th scope="col">Stage</th><th scope="col">Requirement</th></tr></thead><tbody><tr><td>The question</td><td>Students independently determine and propose a research question</td></tr><tr><td>The data</td><td>Data from both primary and secondary sources, collected with appropriate methods and legal requirements considered</td></tr><tr><td>The plan</td><td>A Gantt chart mixing milestones the student sets with ones the teacher sets</td></tr><tr><td>The designs</td><td>Two or three design ideas, judged against criteria the student writes</td></tr><tr><td>Checking authorship</td><td>Teachers monitor progress regularly and record it for each student</td></tr></tbody></table></div>
+    <p>We therefore teach every skill the task needs, from writing an answerable question to choosing a chart for an audience, using datasets and questions we pick ourselves, like the timetable above. We never propose, refine, collect for, analyse, design or edit any part of a student's task. A student who has cleaned and questioned a dozen datasets with us is ready to do their own alone.</p>
+    <p class="ag-source-note ag-mt-40">Drawn from Unit 3 Area of Study 2 of the study design and the VCAA's 2026 Data Analytics administrative information (7 October 2026).</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Getting ready</p>
+      <h2>Four rungs from spreadsheets to findings</h2>
+      <p class="ag-lede">Students start Unit 3 from very different places. The rungs describe the skill reached, whatever the year.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From first queries to an evaluated visualisation</caption><thead><tr><th scope="col">Point in the year</th><th scope="col">Step</th><th scope="col">You are ready when</th></tr></thead><tbody><tr><td>Before Unit 3</td><td class="ag-num">1. Spreadsheet fluency</td><td class="ag-num">Sorts, filters and writes formulas without looking anything up</td></tr><tr><td>Unit 3 data analytics</td><td class="ag-num">2. Queries</td><td class="ag-num">Writes SELECT queries with WHERE, ORDER BY and an INNER JOIN on two tables</td></tr><tr><td>Unit 3 design</td><td class="ag-num">3. Questions</td><td class="ag-num">Turns a curiosity into a research question that available data can answer</td></tr><tr><td>Unit 4</td><td class="ag-num">4. Evaluation</td><td class="ag-num">Judges a visualisation against criteria and checks it represents the data</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If statistics is the weak spot</h3><p>Many students can calculate a standard deviation and cannot say what it means. A few weeks of interpreting spread, correlation and skew on real data repairs that faster than more formulas.</p>
+<p>Pearson's r is the classic trap: it measures linear association, not cause, and a single outlier can change it, as the timetable example shows for spread.</p></div><div><h3>Alongside the study</h3><p>Students who also enjoy building programs often take <a class="ag-inline-link" href="/vce-applied-computing-software-development-help">VCE Software Development</a> as well; the study design allows one or both sequences.</p>
+<p>The analytical habits here, documenting every change to data, carry straight into university statistics and data science.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for Data Analytics students</h2>
+      <p class="ag-lede">Grouped by the part of the study they support. Each card opens a full syllabus.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Data and queries</h3>
+        <span class="ag-band-sub">The Unit 3 toolset</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VCDA / U3 / 01</p>
+          <h4>Databases with MySQL</h4>
+          <p>Tables, keys and SQL queries, from first SELECT to joins.</p>
+          <a class="ag-course-link" href="/courses/mysql-mastery-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCDA / U3 / 02</p>
+          <h4>Python for teens</h4>
+          <p>Scripting for students who outgrow spreadsheet formulas.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCDA / U3 / 03</p>
+          <h4>Data science with Python</h4>
+          <p>Cleaning, describing and charting data in code.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Analysis</h3>
+        <span class="ag-band-sub">Statistics with meaning</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VCDA / AN / 01</p>
+          <h4>Statistics and probability</h4>
+          <p>Spread, correlation and skew, interpreted carefully.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCDA / AN / 02</p>
+          <h4>Mathematics for data analytics</h4>
+          <p>The maths underneath summaries, trends and predictions.</p>
+          <a class="ag-course-link" href="/courses/data-analytics-mathematics-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCDA / AN / 03</p>
+          <h4>Visual machine learning with Orange</h4>
+          <p>Predictions and recommendations without heavy code, matching the AI key knowledge.</p>
+          <a class="ag-course-link" href="/courses/orange-data-mining-visual-machine-learning-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Beyond the study</h3>
+        <span class="ag-band-sub">Security and depth</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VCDA / EX / 01</p>
+          <h4>Cybersecurity for teens</h4>
+          <p>Breaches, threats and defences, as the Unit 4 case study discusses them.</p>
+          <a class="ag-course-link" href="/courses/cybersecurity-course-for-teens-ethical-defensive">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCDA / EX / 02</p>
+          <h4>AI and machine learning for teens</h4>
+          <p>How models learn from data, and how they mislead.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCDA / EX / 03</p>
+          <h4>Data analysis, university level</h4>
+          <p>For students heading into data-heavy degrees.</p>
+          <a class="ag-course-link" href="/courses/data-analysis-mastery-course-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Analytics lessons after school</h2>
+      <p class="ag-lede">Our teachers log in from India. Victoria leads India by 4.5 hours in winter; with daylight saving (4 October 2026 to 4 April 2027 in the IANA data) the lead becomes 5.5 hours, putting a 5.30 pm lesson in Ballarat or Bendigo at noon in India.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday after school</p><p class="ag-slot-l">The standard choice through Units 3 and 4.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend morning</p><p class="ag-slot-l">Longer blocks for SQL, statistics or visual design.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">School holidays</p><p class="ag-slot-l">Exam-focused practice before November.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Our datasets only</h3><p>Public data and questions we choose; assessed work never enters the lesson.</p></div>
+      <div><h3>Every change logged</h3><p>Cleansing taught as a documented process, not silent deletion.</p></div>
+      <div><h3>Interpretation drilled</h3><p>What a statistic shows, what it hides, and how to say so briefly.</p></div>
+      <div><h3>Small senior groups</h3><p>Five to ten students at one level, each defending an analysis aloud.</p></div>
+      <div><h3>One-to-one option</h3><p>For SQL or statistics gaps that need fast repair.</p></div>
+      <div><h3>Straight about results</h3><p>We will not promise a study score or ATAR; the analysis and the mark are the student's.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Student work, published</h2>
+      <p class="ag-lede">Personal work only, never school assessment. Browse more in our <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Data Analytics lessons are priced per month in US dollars, one rate for every family outside India, with nothing up front and no contract.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A real lesson with a teacher</li><li>A clear read on what to work on</li><li>No card required</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students at one level</li><li>A steady teacher all term</li><li>Analyses reviewed together</li><li>A certificate at the end</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher for one student</li><li>Concentrated on one weak skill</li><li>Good for the weeks before the exam</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Shown exactly as students and parents wrote them on Google.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about the study</p>
+      <h2>Data Analytics questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is VCE Applied Computing: Data Analytics?</h3>
+        <p>One of the two Units 3 and 4 sequences in VCE Applied Computing (accredited from 1 January 2025), focused on extracting, cleansing, analysing and visualising data, then on a research question of the student's own and on data security.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is a Data Analytics score built?</h3>
+        <p>Half the score is the 2-hour examination; the task is worth 30 per cent and coursework 20 per cent, split evenly between the units.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the 2026 exam?</h3>
+        <p>The VCAA timetable lists Applied Computing: Data Analytics on Monday 9 November 2026, in the session from 11:45 am to 2:00 pm.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which SQL do I need?</h3>
+        <p>The key knowledge lists SELECT, FROM, WHERE, ORDER BY and INNER JOIN, with the Boolean operators AND, NOT and OR used in WHERE statements.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is data cleansing?</h3>
+        <p>Finding and fixing errors and inconsistencies in data before analysis, such as missing values, wrong types and inconsistent formats, and deciding how to treat records that do not belong. Good cleansing is documented so others can check it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which statistics are in the study?</h3>
+        <p>Average, median, minimum, maximum, range, standard deviation, count or frequency and sum, plus Pearson's correlation coefficient and the shape and skew of data.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long is the School-assessed Task?</h3>
+        <p>For 2026 the VCAA asks for eight to ten weeks of class time at minimum on the Unit 3 part, and eight weeks at minimum on the Unit 4 part.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I do both Data Analytics and Software Development?</h3>
+        <p>Yes. The study design allows students to take one or both Units 3 and 4 sequences of Applied Computing.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you help with my research question or data?</h3>
+        <p>No. We teach the skills with datasets and questions we choose, and never propose, refine, collect, analyse, design or edit anything for a student's assessed task.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What time do lessons run?</h3>
+        <p>Late afternoon in Victoria suits most senior students and sits in the middle of our teachers' day. We agree the weekly time after the free class.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>Related reading for Victorian students</h2>
+      <p class="ag-lede">The sister computing sequence, the theory study, and the Victorian school picture.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/vce-applied-computing-software-development-help">VCE Software Development help</a></h3><p>The other Applied Computing sequence, where students build programs.</p></div>
+      <div><h3><a class="ag-inline-link" href="/vce-algorithmics-hess-help">VCE Algorithmics (HESS) help</a></h3><p>The VCAA's university-level algorithms study.</p></div>
+      <div><h3><a class="ag-inline-link" href="/vibe-coding-and-ai-agents-classes-in-melbourne">Coding and AI classes in Melbourne</a></h3><p>Victoria's schools and the AI skills students ask about.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Australian competitions calendar</a></h3><p>Data, coding and AI contests through the year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-maths-tutoring-australia">Online maths tutoring in Australia</a></h3><p>The statistics that sit beneath every analysis.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>Coding for all ages, from our national page.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Start with a free class on one data skill</h2>
+        <p class="ag-lede">Tell us whether SQL, statistics, cleansing or visual design is the sticking point. The free class works on it with a dataset we choose, never with assessed work.</p>
+        <p class="ag-mt-40">Prefer to read first? Every syllabus is on the <a class="ag-inline-link" href="/course-atlas">course atlas</a>, the teaching method on <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, and the Victorian context on the <a class="ag-inline-link" href="/vibe-coding-and-ai-agents-classes-in-melbourne">Melbourne page</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20VCE%20Applied%20Computing%3A%20Data%20Analytics." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'vcda',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp is the quickest route. The +91 prefix is Indian because we teach from India; we claim no office in Victoria.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_vcda(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card and no obligation. We reply once to arrange the class.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/vibe-coding-and-ai-agents-classes-in-melbourne">Melbourne and Victoria</a></li><li><a href="/vce-applied-computing-software-development-help">VCE Software Development</a></li><li><a href="/vce-algorithmics-hess-help">VCE Algorithmics</a></li></ul></div>
+      <div><h4>Learn more</h4><ul><li><a href="/online-maths-tutoring-australia">Maths tutoring</a></li><li><a href="/coding-roadmap">The coding roadmap</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>We teach the analysis; the research stays the student's own</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_vcda = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'vce-applied-computing-data-analytics-help-inline', meta: { name: name, age: age, page: 'vce-applied-computing-data-analytics-help' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
