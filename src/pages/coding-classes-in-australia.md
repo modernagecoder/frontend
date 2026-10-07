@@ -404,6 +404,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Mackay](/online-coding-and-python-classes-in-mackay)
 - [AI and programming classes in Rockhampton](/ai-and-programming-classes-in-rockhampton)
 - [Vibe coding and AI agents classes in Bunbury](/vibe-coding-and-ai-agents-classes-in-bunbury)
+- [Coding classes on the Gold Coast](/best-coding-classes-in-gold-coast)
 <!-- AU-LINKS -->
 
 

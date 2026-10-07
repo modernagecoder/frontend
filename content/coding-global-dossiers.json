@@ -40453,5 +40453,50 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with Mildura Rural City Council, the Victorian Government or the ABS."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-port-macquarie": {
+    "market": "Port Macquarie",
+    "bodyClass": "cg-pmq",
+    "pageType": "city",
+    "curriculumAuthority": "Port Macquarie, ABS Census 2021 QuickStats, Significant Urban Area 1028 (read 7 October 2026): 50,193 people; median age 47 (New South Wales 39, Australia 38); 13,754 families; 23,562 private dwellings; average 2.3 people per household; dwelling structure, occupied private dwellings: separate house 13,782 (67.1 percent; NSW 65.6; Australia 72.3), semi-detached, row or terrace house, townhouse etc 3,606 (17.6 percent; NSW 11.7; Australia 12.6), flat or apartment 3,011 (14.7 percent; NSW 21.7); occupation: Professionals 4,997 (23.5 percent; NSW 25.8); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 8,208 (19.5 percent; NSW 27.8; Australia 26.3); aged 10 to 14 3,050 (6.1 percent); aged 15 to 19 2,897 (5.8 percent). NSW Department of Education, 2027 term dates, Eastern division: Term 1 Wednesday 3 February to Friday 9 April; Term 2 Thursday 29 April to Friday 2 July; Term 3 Tuesday 20 July to Friday 24 September; Term 4 Tuesday 12 October to Monday 20 December. IANA tz database: Australia/Sydney, daylight saving Sunday 4 October 2026 to Sunday 4 April 2027; Asia/Kolkata UTC+5:30.",
+    "localProject": "Tool-call budgets and early stopping for agents. NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (data.nsw.gov.au, Creative Commons Attribution), master_dataset.csv downloaded 7 October 2026, Date_extracted 2026-10-02. Rows with LGA = Port Macquarie-Hastings: 21 (Primary School 17, Secondary School 4), including Hastings Secondary College, Port Macquarie Campus and Westport Campus as separate rows. Earliest Date_1st_teacher: Port Macquarie Public School 1852-01-01; then Wauchope Public School 1868-01-01, Huntingdon Public School 1868-07-01, Beechwood Public School 1869-08-01. Simulated paged tool: 5 rows per call sorted by School_name (5 calls for 21 rows); Port Macquarie Public School at alphabetical position 15 (page 3). Agent keeps the earliest date seen and stops after k calls: k = 1 answer Beechwood Public School (1869-08-01), k = 2 Huntingdon Public School (1868-07-01), k = 3 correct. Random page order, 10,000 shuffles, random.seed(20261007): success 23.7, 47.3, 71.6, 95.7, 100.0 percent for k = 1 to 5; exact min(1, 5k/21) = 23.8, 47.6, 71.4, 95.2, 100. Tool with a date sort: correct in 1 call. Lesson family: tool-call budgets, early stopping and tool design for agents.",
+    "requiredMentions": [
+      "50,193",
+      "13,754",
+      "23,562",
+      "3,606",
+      "3,050",
+      "Beechwood Public School, 1869",
+      "Huntingdon Public School, 1868",
+      "Port Macquarie Public School, 1852",
+      "47.3%"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Port Macquarie Significant Urban Area (1028): people, median age, families, private dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1028"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That any real school information service pages results in this way: the paged tool is our simulation.",
+      "That a 1 January first-teacher date means the school opened on New Year's Day: the date may record the year only.",
+      "Port Macquarie-Hastings Council ArcGIS layers (parks, bridges, flood planning): licence terms unclear or flood topics excluded, so not used.",
+      "Enrolment, ICSEA, Indigenous and LBOTE figures from the master dataset: excluded or not needed.",
+      "Bureau of Meteorology facts for Port Macquarie: the Bureau returned 403 and was not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education, Port Macquarie-Hastings Council or the ABS."
+    ]
   }
 }
