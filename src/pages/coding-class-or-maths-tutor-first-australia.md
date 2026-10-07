@@ -1,0 +1,282 @@
+---
+title: "Coding Class or Maths Tutor First? A Guide for Australian Parents"
+description: "Should your child start with a coding class or a maths tutor? How the Australian Curriculum links the two, signs that point each way, and a task that needs both."
+canonical: https://learn.modernagecoders.com/coding-class-or-maths-tutor-first-australia
+source: src/pages/coding-class-or-maths-tutor-first-australia.html
+---
+> Start with a maths tutor if gaps in number basics, such as place value or times tables, are holding your child back in class; start with coding if maths is fine and your child is keen on games and making things. Often the two go together: the Australian Curriculum already asks children in Years 3 to 6 to follow and create algorithms that generate number patterns, which is coding thinking inside maths.
+
+[Home](/) / [Courses](/courses) / [Coding classes in Australia](/coding-classes-in-australia) / Coding or maths first
+
+Australia · Ages 6 to 12 and beyond · Where to start
+
+# Coding class or maths tutor first?
+
+Parents often ask us which comes first: a coding class, because their child loves games and screens, or a maths tutor, because school reports mention numeracy. It is a fair question, and the answer depends on the child. This page sets out the signs that point each way, shows how the Australian Curriculum already asks primary children to write and follow algorithms in maths, and walks through a growing-pattern task that is half maths and half code, which is often where the answer lies.
+
+At a glance: For: Ages 6 to 12, and older; Options: Coding, maths or both; Combined course: Maths through coding; Teacher: The same one each week; Delivery: Live online video; Group size: Five to ten, or one to one; Times: Set for your state; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+
+## A coding course, a maths course, or both at once
+
+Pick the one that matches what your child needs most right now.
+
+- [Coding first](/courses/kids-coding-blocks-masterclass): Ages 6 to 12. Scratch games, apps and early Python.
+- [Maths first](/courses/elementary-mathematics-complete-masterclass): Foundation to Year 5. Number sense, place value and fractions.
+- [Both together](/courses/maths-through-coding): Maths ideas explored and checked in code.
+
+## Signs that point to maths first, coding first, or both
+
+There is no rule that one must come first. These are the patterns we look for in the free first lesson.
+
+**What points towards maths first, coding first or both**
+
+| What you notice | Points towards | Why |
+|---|---|---|
+| Struggles with times tables or place value in Years 3 to 5 | Maths first | Coding uses these constantly, and gaps make coding frustrating |
+| Avoids maths homework but builds things for hours | Coding first, with maths woven in | Motivation is the way in; maths can ride along |
+| Fine at maths, bored in class | Coding first | A new kind of problem to solve, at their level |
+| Teacher reports "careless errors" | Maths first, with diagnosis | Careless errors are often one misunderstood idea |
+| Loves puzzles and patterns | Both together | Patterns are where maths and code meet |
+| Anxious about maths | Coding first, or a gentle maths tutor | Success elsewhere can rebuild confidence |
+
+### When a maths tutor should come first
+
+If a child cannot yet multiply single digits quickly, even a simple game becomes hard: scoring, movement and timing all use multiplication and number sense.
+
+The Australian Tutoring Association notes that "Tutoring may be appropriate for students who have particular difficulties or those that are intellectually advanced." A clear gap in number basics is exactly that kind of difficulty.
+
+### When coding can come first
+
+If maths is broadly fine, coding offers a new kind of challenge, and many children discover that they enjoy logic and patterns once they meet them in a game.
+
+Coding also gives maths a reason. A child who needs to work out how far a sprite moves each second suddenly cares about multiplication.
+
+Quoted from the [Australian Tutoring Association page on starting tutoring](https://ata.edu.au/parent-info/when-to-start-tutoring/), checked on 7 October 2026.
+
+## The Australian Curriculum already puts algorithms inside maths
+
+Many parents are surprised to learn that "algorithm" is a maths word in the Australian Curriculum, not only a Digital Technologies one. These maths content descriptions are quoted exactly.
+
+**Algorithm and pattern content descriptions in Australian Curriculum v9 Mathematics (ACARA)**
+
+| Year | Code | Content description (quoted) |
+|---|---|---|
+| Year 3 | AC9M3N07 | follow and create algorithms involving a sequence of steps and decisions to investigate numbers; describe any emerging patterns |
+| Year 4 | AC9M4N09 | follow and create algorithms involving a sequence of steps and decisions that use addition or multiplication to generate sets of numbers; identify and describe any emerging patterns |
+| Year 6 | AC9M6A01 | recognise and use rules that generate visually growing patterns and number patterns involving rational numbers |
+| Year 6 | AC9M6A03 | create and use algorithms involving a sequence of steps and decisions that use rules to generate sets of numbers; identify, interpret and explain emerging patterns |
+
+### What this means for parents
+
+From Year 3, children are expected to follow and create step-by-step procedures in maths. That is the core of programming, written in maths language.
+
+In secondary school the idea continues: the Year 7 maths curriculum asks students to "design and create algorithms involving a sequence of steps and decisions that will sort and classify sets of shapes according to their attributes, and describe how the algorithms work".
+
+### So the choice is smaller than it looks
+
+A good coding class practises the algorithm and pattern skills the maths curriculum names, and a good maths tutor can use simple code to explore patterns.
+
+The real question is which need is more urgent: closing a number gap, or building confidence and interest through making things.
+
+Sources, read 7 October 2026: ACARA, Australian Curriculum v9 [Mathematics F to 6 content](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/mathematics/mathematics-curriculum-content-f-6-v9.docx) and [Mathematics 7 to 10 content](https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/mathematics/mathematics-curriculum-content-7-10-v9.docx).
+
+## A growing pattern: term-to-term rule or explicit formula?
+
+Here is a pattern task in the spirit of AC9M6A01 that works as a maths lesson and a coding lesson at once.
+
+**Square garden beds in a row, with a border of square tiles (our example)**
+
+| Beds in the row (n) | Border tiles | Change from the last |
+|---|---|---|
+| 1 | 8 | start |
+| 2 | 10 | +2 |
+| 3 | 12 | +2 |
+| 4 | 14 | +2 |
+| 5 | 16 | +2 |
+| 100 | 206 tiles | by formula |
+
+### Two ways to describe it
+
+The term-to-term rule says: start at 8 and add 2 each time. It is easy to see, but reaching the 100th row of beds takes 99 additions.
+
+The explicit formula links the number of beds directly to the tiles: tiles = 2n + 6. One bed: 2 + 6 = 8. A hundred beds: 200 + 6 = 206 tiles, in one multiplication and one addition.
+
+### Why 2n + 6?
+
+Each bed adds a tile above it and a tile below it, which is the 2n. The two ends each need three more tiles to close the border, which is the 6.
+
+Working backwards answers a different question: with 100 tiles, 2n + 6 = 100 gives n = 47, so 100 tiles border a row of 47 beds.
+
+In Python, the term-to-term rule is a loop and the explicit formula is one line, and children can check that both agree for every n up to 100:tiles = 8for n in range(2, 101): tiles = tiles + 2print(tiles, 2 * 100 + 6)Both print 206. Seeing the loop do 99 steps while the formula does one is a child's first taste of why mathematicians look for explicit formulas, and why programmers care about how much work a program does.
+
+This single task covers the Year 6 pattern description and the coding idea of a loop. That is why our [Maths through Coding](/courses/maths-through-coding) course exists: for children who need maths practice but come alive when they build something.
+
+## Three ways to start, depending on your child
+
+Families usually settle on one of these after the first lesson.
+
+**Three starting plans**
+
+| Plan | What a week looks like | Suits |
+|---|---|---|
+| Maths first | Two maths lessons a week on the specific gap, then coding once it closes | Children with a clear number gap |
+| Coding first | Two coding lessons a week, with maths ideas built into projects | Children fine at maths, keen to make things |
+| Combined | One maths lesson and one coding lesson, or a combined course | Children who need both and enjoy patterns |
+| Maths through coding | Maths topics explored and checked in Python or Scratch | Children who resist worksheets but love screens |
+
+### How long before switching
+
+A specific gap, such as times tables or fractions, often closes within one or two terms of focused work. After that, coding can join or replace the maths lessons.
+
+We tell families plainly when a gap is closed, so nobody pays for maths help that is no longer needed.
+
+### Keeping both going
+
+Some families keep one maths and one coding lesson a week for years, especially through the upper primary and early secondary years.
+
+The same teacher can often teach both, which keeps the links between them visible.
+
+Choosing the maths format is a separate question; our guide to [a maths tutor versus a tutoring centre](/tutor-vs-tutoring-centre-maths-australia) covers it. For the coding side, see [online coding classes for kids in Australia](/online-coding-classes-for-kids-australia).
+
+## How the answer changes with age
+
+The right first step depends a lot on where a child is at school.
+
+**Coding or maths first, by stage of schooling**
+
+| Stage | Usual advice | Reason |
+|---|---|---|
+| Foundation to Year 2 | Playful maths first, unplugged coding alongside | Counting and number sense come before screens |
+| Years 3 to 4 | Either, guided by times tables | Multiplication fluency unlocks both |
+| Years 5 to 6 | Often both | Fractions, patterns and algorithms all appear in maths |
+| Years 7 to 10 | Depends on goals | Algebra gaps first; otherwise coding for interest |
+| Years 11 to 12 | Follow the subject choices | Senior maths and computing subjects set the priorities |
+
+## How combined learners progress
+
+What we see when children learn maths and coding side by side.
+
+**Four stages for combined maths and coding learners**
+
+| Stage | What it looks like |
+|---|---|
+| 1. Close the gap | Number basics secured, so coding is not blocked |
+| 2. Patterns in code | Loops generate the patterns maths lessons describe |
+| 3. Formulas | Children replace loops with formulas and check they agree |
+| 4. Own projects | Games and tools that use the maths they know |
+
+### For primary children
+
+Times tables, place value and patterns come first, then appear inside Scratch games.
+Parents see maths confidence grow through things the child builds.
+
+### For secondary students
+
+Algebra, functions and statistics connect naturally to Python.
+Students who enjoy both often lean towards computing and maths subjects later.
+
+## Nine courses for coding, maths or both
+
+Every course is taught live, in small groups or one to one.
+
+### Maths
+
+Foundation to Year 10
+
+- [Mental maths](/courses/mental-maths-mastery-kids): Number sense, not tricks.
+- [Primary maths](/courses/elementary-mathematics-complete-masterclass): The full primary journey.
+- [Middle-years maths](/courses/comprehensive-middle-school-mathematics-mastery): Fractions to early algebra.
+
+### Coding
+
+Ages 6 to 18
+
+- [Scratch](/courses/scratch-programming-complete-course): Games and animations.
+- [Python and AI for kids](/courses/python-ai-kids-masterclass): From blocks to typed Python.
+- [Problem solving for kids](/courses/problem-solving-and-computational-thinking-for-kids): Logic before syntax.
+
+### Both
+
+Combined
+
+- [Maths through coding](/courses/maths-through-coding): Maths explored in code.
+- [Statistics and probability](/courses/statistics-probability-maths-course): Data, chance and code.
+- [Competition maths](/courses/olympiad-competition-mathematics-mastery): For keen problem solvers.
+
+## One teacher who sees both sides
+
+Lessons are planned around the learner, whichever subject comes first.
+
+- **After school** Weekday afternoons in your state.
+- **Evenings** For older learners.
+- **Weekends** Saturday and Sunday slots.
+
+- **Diagnosis first** A short check shows where to begin.
+- **Same teacher** Week after week.
+- **Maths in code** Patterns checked by programs.
+- **Code with maths** Games that use real numbers.
+- **Live, online** No travel, any state.
+- **Honest switching** We say when a gap is closed.
+
+## Fees
+
+Coding and maths lessons outside India are billed monthly in US dollars at one rate for every country. You can switch between subjects as needs change, with no joining fee and no term contract.
+
+- Free first class: USD 0. A free first lesson. Advice on which to start with. No card details.
+- Group batch: USD 100 a month. Five to ten learners. One regular teacher. Coding or maths. Monthly.
+- One to one: USD 150 a month. A teacher to yourself. Coding, maths or both. Your own pace.
+
+## Coding or maths first: common questions
+
+### Should my child learn coding or maths first?
+
+Start with maths if number basics are holding your child back in class; start with coding if maths is broadly fine and your child is keen to make things. Many children benefit from both together.
+
+### What is a term-to-term rule?
+
+A term-to-term rule describes how to get from one term of a pattern to the next, such as add 2 each time. It is easy to follow but slow for finding a term far along the pattern.
+
+### What is an explicit formula?
+
+An explicit formula gives any term of a pattern directly from its position, such as tiles = 2n + 6. It finds the 100th term in one step instead of 99 additions.
+
+### Does the Australian Curriculum include algorithms in maths?
+
+Yes. For example, AC9M3N07 asks Year 3 students to follow and create algorithms to investigate numbers, and AC9M6A03 asks Year 6 students to create and use algorithms that use rules to generate sets of numbers.
+
+### Do you need to be good at maths to code?
+
+Not to start. Early coding uses counting, simple arithmetic and patterns. Gaps in times tables or place value can make it frustrating, which is when maths help first makes sense.
+
+### Can coding help with maths?
+
+Often. Coding gives maths a purpose, and writing a program that generates a pattern is a direct way to practise the algorithm and pattern skills the maths curriculum names.
+
+### Can one teacher teach both coding and maths?
+
+Yes. We teach both, and the same teacher can often cover both for a child, which keeps the connections visible.
+
+### What is the Maths through Coding course?
+
+A course that explores maths topics, such as patterns, fractions and statistics, by building and checking them in code.
+
+### How long does maths tutoring usually last before switching?
+
+A specific gap often closes within one or two terms of focused work. We tell families when it is closed so they can move on.
+
+### How much do lessons cost?
+
+Nothing for the first lesson. After it, coding or maths is paid month by month, never by the term, and there is no joining fee; see the fees section.
+
+## Related pages
+
+- [Coding classes in Australia](/coding-classes-in-australia): Every Australian guide in one place.
+- [Online maths tutoring](/online-maths-tutoring-australia): Maths help for every year level.
+- [Tutor or tutoring centre?](/tutor-vs-tutoring-centre-maths-australia): Choosing the maths format.
+- [Kids coding languages](/kids-coding-languages-australia): Scratch, Python and more.
+- [NAPLAN numeracy practice](/naplan-numeracy-practice-online): How the numeracy test works.
+- [How we teach](/how-we-teach): What happens in a live lesson.
+
+## Contact
+
+Book the free first class at [https://learn.modernagecoders.com/coding-class-or-maths-tutor-first-australia](https://learn.modernagecoders.com/coding-class-or-maths-tutor-first-australia#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
