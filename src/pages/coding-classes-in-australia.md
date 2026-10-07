@@ -322,6 +322,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [NSW selective test Thinking Skills practice](/nsw-selective-test-thinking-skills-practice)
 - [OC test maths practice](/oc-test-maths-practice-nsw)
 - [Victorian selective entry exam maths practice](/victorian-selective-entry-exam-maths-practice)
+- [Queensland Academies entrance test maths practice](/queensland-academies-entry-maths-practice)
 <!-- AU-LINKS -->
 
 
