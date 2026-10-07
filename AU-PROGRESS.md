@@ -141,6 +141,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 69-72 wace-computer-science-atar-help, wace-maths-methods-atar-tutoring, wace-maths-specialist-atar-tutoring, wace-maths-applications-atar-tutoring | Blocked: scsa.wa.edu.au Cloudflare 403, not circumvented (2026-10-07) | wa-gate-aset-maths-practice; atar-explained-for-coding-students |
 | 78 act-bsss-computer-science-help | Blocked: bsss.act.edu.au Cloudflare 403, not circumvented (2026-10-07) | choosing-year-11-computing-subjects-australia |
 | 79 ntcet-maths-help-northern-territory | Blocked: education.nt.gov.au and nt.gov.au 403, not circumvented (2026-10-07) | online-maths-tutoring-australia |
+| 100 csiro-digital-careers-student-coding-help | Program ended: CSIRO says Digital Careers concluded 31 January 2024 | australian-student-hackathons; australian-coding-competitions-for-primary-kids |
+| 102 cyber-taipan-ctf-preparation | Program ended: CSIRO delivered CyberTaipan 2020 to October 2023; site unreachable | australian-coding-maths-and-ai-competitions-calendar |
 | coding-classes-cost-australia-per-term | Merged to avoid two pages on one intent | coding-classes-cost-australia |
 | 11 programming-games-for-kids-australia, 14 game-coding-courses-online-australia | Merged to avoid two pages on one intent | coding-games-for-kids-australia; game-programming-course-australia |
 | 23, 25, 27 single-age pages (6, 8, 10 year olds) | Merged to avoid two pages on one intent | coding-classes-for-5-and-6, 7-and-8, 9-and-10, 11-and-12-year-olds-australia |
