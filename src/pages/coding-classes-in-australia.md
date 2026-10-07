@@ -407,6 +407,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding classes on the Gold Coast](/best-coding-classes-in-gold-coast)
 - [Online coding and Python classes in Newcastle](/online-coding-and-python-classes-in-newcastle-nsw)
 - [AI and programming classes on the Sunshine Coast](/ai-and-programming-classes-in-sunshine-coast)
+- [Vibe coding and AI agents classes on the Central Coast](/vibe-coding-and-ai-agents-classes-in-central-coast-nsw)
 <!-- AU-LINKS -->
 
 
