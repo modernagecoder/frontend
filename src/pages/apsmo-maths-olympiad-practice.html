@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>APSMO Maths Olympiad Practice | Years 5 to 8 Problem Solving</title>
+  <meta name="description" content="APSMO Maths Olympiad practice for Years 5 to 8: four contests, five questions in 30 minutes, the 2026 dates and integrity rules, and strategies on our own problems.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/apsmo-maths-olympiad-practice">
+  <link rel="alternate" type="text/markdown" href="/src/pages/apsmo-maths-olympiad-practice.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#663939">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/apsmo-maths-olympiad-practice">
+  <meta property="og:title" content="APSMO Maths Olympiad Practice | Years 5 to 8 Problem Solving">
+  <meta property="og:description" content="The APSMO Maths Olympiad explained from APSMO's own pages: Division J and Division S, four contests a year, five questions in 30 minutes, school entry only, and the working-backwards strategy.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="APSMO Maths Olympiad Practice">
+  <meta name="twitter:description" content="APSMO Maths Olympiad practice for Years 5 to 8, with strategies taught on our own problems.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-apsm .ag-hero h1 { letter-spacing: -0.012em; }
+.ag-root.ag-apsm .ag-capsule { border-left-width: 6px; }
+.ag-root.ag-apsm .ag-table td:first-child { font-weight: 600; }
+.ag-root.ag-apsm .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-apsm .ag-grid-2 p { line-height: 1.62; }
+.ag-root.ag-apsm .ag-spec dt { letter-spacing: 0.06em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/apsmo-maths-olympiad-practice#page","url":"https://learn.modernagecoders.com/apsmo-maths-olympiad-practice","name":"APSMO Maths Olympiad Practice","description":"A guide for Australian families and teachers to the APSMO Maths Olympiad for Years 5 to 8: who runs it, the 2026 contest dates, format and entry rules, the integrity conditions that govern preparation, and a lesson on working backwards using original problems.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Australian competitions calendar","item":"https://learn.modernagecoders.com/australian-coding-maths-and-ai-competitions-calendar"},{"@type":"ListItem","position":3,"name":"APSMO Maths Olympiad practice","item":"https://learn.modernagecoders.com/apsmo-maths-olympiad-practice"}]},{"@type":"Course","name":"APSMO Maths Olympiad Practice","description":"Live online problem-solving classes for Australian students in Years 5 to 8 that teach general strategies such as working backwards, organised lists and patterns, using our own problems.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/apsmo-maths-olympiad-practice"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/apsmo-maths-olympiad-practice"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/apsmo-maths-olympiad-practice"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the APSMO Maths Olympiad?","acceptedAnswer":{"@type":"Answer","text":"An inter-school problem-solving competition for capable students in Years 5 to 8, run by the Australasian Problem Solving Mathematical Olympiads, a not-for-profit established in 1987."}},{"@type":"Question","name":"What are Division J and Division S?","acceptedAnswer":{"@type":"Answer","text":"Division J is the Junior Division for Years 5 and 6. Division S is the Senior Division for Years 7 and 8, and up to Year 9 in New Zealand."}},{"@type":"Question","name":"How many contests are there?","acceptedAnswer":{"@type":"Answer","text":"Four a year, about six weeks apart, starting in early Term 2. In 2026 they were on 6 May, 10 June, 29 July and 9 September. Students must complete all four."}},{"@type":"Question","name":"How long is each contest?","acceptedAnswer":{"@type":"Answer","text":"30 minutes for 5 questions, each worth 1 mark, sat individually under exam conditions and marked by the teacher."}},{"@type":"Question","name":"Can my child enter on their own?","acceptedAnswer":{"@type":"Answer","text":"No. APSMO states that individual registration is not possible; schools register teams of up to 30 students."}},{"@type":"Question","name":"Can you coach my child on the contest questions?","acceptedAnswer":{"@type":"Answer","text":"No. APSMO prohibits teaching to the upcoming questions, including practice that is very similar to them. We teach general strategies on our own problems."}},{"@type":"Question","name":"What is working backwards?","acceptedAnswer":{"@type":"Answer","text":"A strategy for problems that give the final result and the steps that produced it. You start at the end and undo each step in reverse order, then check by working forwards."}},{"@type":"Question","name":"How is the Olympiad different from the Maths Games?","acceptedAnswer":{"@type":"Answer","text":"APSMO describes the Maths Games as designed for mainstream students to learn problem-solving skills, and the Olympiad as a competitive format for high achievers."}},{"@type":"Question","name":"Where does practice material come from?","acceptedAnswer":{"@type":"Answer","text":"APSMO sends schools a Preparation Kit in Term 1 with a practice paper and solutions. Ask the school; our classes add strategy teaching around it."}},{"@type":"Question","name":"Are you part of APSMO?","acceptedAnswer":{"@type":"Answer","text":"No. We are an independent online school, quoting APSMO because it runs the competition."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/apsmo-maths-olympiad-practice","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-apsm">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#about">About APSMO</a></li>
+      <li><a href="#format">Format</a></li>
+      <li><a href="#integrity">Integrity</a></li>
+      <li><a href="#backwards">Strategy</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/australian-coding-maths-and-ai-competitions-calendar">Australian competitions calendar</a> / APSMO Maths Olympiad practice
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; APSMO Maths Olympiad &middot; Years 5 to 8</p>
+        <h1>APSMO Maths Olympiad practice</h1>
+        <p class="ag-lede">The APSMO Maths Olympiad is a schools competition for capable students in Years 5 to 8: four short contests across the year, each just five questions in thirty minutes, sat in the classroom and marked by the teacher. Five questions sounds easy until you meet them. Each one rewards a strategy rather than a procedure, which is why the competition suits children who enjoy thinking more than calculating. This page sets out the format and dates from APSMO's own pages, explains the integrity rules that shape how anyone may prepare, and teaches one general strategy, working backwards, with problems we wrote ourselves. We are an independent online school with no connection to APSMO.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#backwards" class="ag-btn ag-btn--ghost">Try the strategy</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20problem-solving%20class%20for%20the%20APSMO%20Maths%20Olympiad." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'apsm'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Format from APSMO's own pages &middot; Problems are ours &middot; Checked on 7 October 2026</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Run by</dt><dd>APSMO, a not-for-profit</dd>
+          <dt>Divisions</dt><dd>J (Years 5 and 6), S (Years 7 and 8)</dd>
+          <dt>Contests</dt><dd>Four a year, about six weeks apart</dd>
+          <dt>Each contest</dt><dd>5 questions, 1 mark each, 30 minutes</dd>
+          <dt>2026 dates</dt><dd>6 May, 10 June, 29 July, 9 September</dd>
+          <dt>Entry</dt><dd>Schools only; teams of up to 30</dd>
+          <dt>Marked by</dt><dd>The teacher, results sent to APSMO</dd>
+          <dt>We teach</dt><dd>General strategies, our own problems</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>The APSMO Maths Olympiad is an inter-school problem-solving competition run by the Australasian Problem Solving Mathematical Olympiads, a not-for-profit established in 1987. Division J is for Years 5 and 6 and Division S for Years 7 and 8. Students sit four contests a year, each of 5 questions worth 1 mark in 30 minutes. In 2026 they fell on 6 May, 10 June, 29 July and 9 September. Only schools can enter.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">For olympiad problem solving</p>
+      <h2>Three courses for APSMO-age students</h2>
+      <p class="ag-lede">Strategy-based problem solving for Years 5 to 8, at three depths.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/problem-solving-and-computational-thinking-for-kids">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-kids.webp" alt="Problem Solving and Computational Thinking for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">APSM / 01</p>
+          <h3>Problem-solving strategies</h3>
+          <p>Working backwards, organised lists, patterns and logical elimination, practised on fresh problems every week.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/comprehensive-middle-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/middle-school-maths.webp" alt="Middle School Mathematics Mastery course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">APSM / 02</p>
+          <h3>Years 5 to 8 maths</h3>
+          <p>Fractions, ratios, number properties and geometry, the content olympiad problems quietly rely on.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/olympiad-competition-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/olympiad-competition-maths.webp" alt="Maths Olympiad &amp; Competition Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">APSM / 03</p>
+          <h3>Competition maths</h3>
+          <p>For students who want harder problems and longer arguments beyond the school contests.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="about">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Who runs it</p><h2>APSMO and its programs</h2><p class="ag-lede">From APSMO's About Us and program pages, read on 7 October 2026.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><p>APSMO describes itself as "a not-for-profit, professional organisation established in 1987". The initials stand for Australasian Problem Solving Mathematical Olympiads. It says it is affiliated with MOEMS, the Mathematical Olympiads for Elementary and Middle Schools in the United States, and that over 100,000 students take part in its programs each year across Australia and New Zealand.</p>
+<p>The Maths Olympiad is one of several APSMO programs. The others named on its site are Maths Quest for Years 1 and 2, Maths Explorer for Years 3 and 4, and Maths Games for Years 5 and 6 and for Years 7 and 8.</p></div><div><p>APSMO draws a clear line between them. The Maths Games, it says, are "specifically designed to provide mainstream students" with a chance to learn problem-solving skills, while the Olympiad is "an ideal format for high achieving students to work in a competitive environment with challenging questions".</p>
+<p>For the Years 7 and 8 contest, APSMO is blunter still: "The Maths Olympiad is not a teaching program". It is a competition, and the teaching is meant to happen around it.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: APSMO <a class="ag-inline-link" href="https://apsmo.edu.au/about-us/" rel="noopener" target="_blank">About Us</a>, <a class="ag-inline-link" href="https://apsmo.edu.au/competitions-programs/maths-olympiad-years-5-6/faqs-olympiad-years-5-6/" rel="noopener" target="_blank">Maths Olympiad Years 5 and 6 FAQs</a> and <a class="ag-inline-link" href="https://apsmo.edu.au/competitions-programs/maths-olympiad-years-7-8/" rel="noopener" target="_blank">Maths Olympiad Years 7 and 8</a>, read on 7 October 2026. We are independent of APSMO.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="format">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The competition</p><h2>Four contests, five questions, thirty minutes</h2><p class="ag-lede">The format is the same in both divisions. These details are from APSMO's Maths Olympiad pages.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>APSMO Maths Olympiad, as published for 2026</caption><thead><tr><th scope="col">Detail</th><th scope="col">Division J</th><th scope="col">Division S</th></tr></thead><tbody><tr><td>Year levels</td><td>Years 5 and 6</td><td>Years 7 and 8 (and up to Year 9 in New Zealand)</td></tr><tr><td>Running since</td><td>In Australia since 1987</td><td>Not stated on the page read</td></tr><tr><td>2026 contests</td><td>Wednesday 6 May, Wednesday 10 June, Wednesday 29 July, Wednesday 9 September</td><td>The same four Wednesdays</td></tr><tr><td>Each contest</td><td>5 questions, 1 mark each, 30 minutes</td><td>5 questions, 1 mark each, 30 minutes</td></tr><tr><td>Conditions</td><td>Individual, exam conditions in the classroom, no collaboration</td><td>The same</td></tr><tr><td>Marking</td><td>By the teacher in charge, results submitted to APSMO</td><td>The same</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>APSMO says the four contests are held "approximately six weeks apart, starting in early Term 2" and that "students are required to complete all four contests". After each paper it recommends reviewing and discussing the solutions as a group.</p>
+<p>Entry is only through schools. "Individual registration is not possible", APSMO states, and registration is open to schools in Australia and New Zealand and to Australian International Schools. Schools can enter any number of teams of up to 30 students. Team fees are in Australian dollars, so we do not print them.</p></div><div><p>With only five marks per contest, every question matters, and twenty marks across the year decide the final picture. Thirty minutes for five questions is about six minutes each, which is generous for some and tight for others; reading carefully is worth more than speed.</p>
+<p>Dates for 2027 were not on the pages when we checked. The 2026 pattern, early Term 2 through to September, is a useful guide; your school will confirm the real dates.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: APSMO <a class="ag-inline-link" href="https://apsmo.edu.au/competitions-programs/maths-olympiad-years-5-6/" rel="noopener" target="_blank">Maths Olympiad Years 5 and 6</a> and <a class="ag-inline-link" href="https://apsmo.edu.au/competitions-programs/maths-olympiad-years-7-8/" rel="noopener" target="_blank">Years 7 and 8</a> pages, read on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="integrity">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How preparation must work</p><h2>APSMO's integrity rules, and what they mean for tutoring</h2><p class="ag-lede">APSMO publishes strict conditions to keep the contests fair. Any honest preparation has to respect them.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>APSMO's integrity conditions for the Maths Olympiad, quoted from its FAQ</caption><thead><tr><th scope="col">Condition</th><th scope="col">APSMO's wording</th></tr></thead><tbody><tr><td>Exam conditions</td><td>"Maths Olympiad contests must be conducted in examination conditions."</td></tr><tr><td>Papers kept closed</td><td>Contest papers are not provided to schools until the week of the contest</td></tr><tr><td>No early access</td><td>"Students are not to have access to the Maths Olympiad questions, answers or solution methods prior to sitting the contest."</td></tr><tr><td>No teaching to the test</td><td>Teachers "are prohibited from teaching to the upcoming Maths Olympiad questions. This includes intentionally providing preparation questions that are very similar to the actual questions."</td></tr><tr><td>Re-examination</td><td>APSMO "reserves the right to re-examine students prior to determining the final Awards."</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>These rules shape everything we do for APSMO students. We teach general problem-solving strategies on problems we write ourselves. We never see contest papers before a contest, never try to predict upcoming questions, and never set practice designed to resemble them.</p>
+<p>That is not a limitation. The Olympiad is built to reward flexible thinking on unfamiliar problems, and drilling look-alike questions would not build that even if it were allowed.</p></div><div><p>APSMO provides its own preparation material to schools. Its FAQ says schools receive a Preparation Kit in Term 1 with a practice paper and detailed solutions, and that teachers can access the previous year's papers through the members' area.</p>
+<p>Families should therefore ask the school about practice. What we add is steady teaching of the strategies underneath: working backwards, organised lists, looking for patterns, drawing a diagram and checking an answer against the question.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Quotations: APSMO <a class="ag-inline-link" href="https://apsmo.edu.au/competitions-programs/maths-olympiad-years-5-6/faqs-olympiad-years-5-6/" rel="noopener" target="_blank">Maths Olympiad Years 5 and 6 FAQs</a>, read on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="backwards">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A general strategy</p><h2>Working backwards, on problems we wrote</h2><p class="ag-lede">When a problem tells you the end result and the steps that led to it, the fastest route is often to start at the end and undo each step. These problems are ours and are not based on any APSMO paper.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Two original problems solved by working backwards, each checked forwards</caption><thead><tr><th scope="col">Problem</th><th scope="col">Undo the steps</th><th scope="col">Check forwards</th></tr></thead><tbody><tr><td>A number is doubled, then 6 is added, then the result is divided by 4. The answer is 9. What was the number?</td><td>9 times 4 is 36; 36 minus 6 is 30; 30 halved is 15</td><td>15 doubled is 30, plus 6 is 36, divided by 4 is 9</td></tr><tr><td>Ana gives Ben half of her marbles, then gives him 3 more, and has 5 left. How many did she start with?</td><td>5 plus 3 is 8; she had given away half, so she started with twice 8, which is 16</td><td>16, give away 8, leaves 8; give 3 more, leaves 5</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>Each operation is undone by its opposite, in reverse order: dividing becomes multiplying, adding becomes subtracting, halving becomes doubling. The order matters as much as the operations. Undoing the steps in the original order gives the wrong answer, which is the most common slip we see.</p>
+<p>The check forwards is not optional. It takes ten seconds and catches almost every mistake, and in a five-question contest a single caught mistake is a fifth of the marks.</p></div><div><p>Compare working backwards with guessing and checking on the first problem. A student guessing 10, then 12, then 14, then 15 needs four trials to land on the answer, and has no guarantee of stopping. Working backwards gets there in three steps, every time, and shows why the answer is right.</p>
+<p>Guess and check still has its place, especially when steps cannot be reversed. Good problem solvers know several strategies and choose between them, which is what our classes practise, always on fresh problems.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Problems and solutions are ours, checked forwards by hand and in Python on 7 October 2026. No APSMO question is reproduced or imitated.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">A strategy toolkit</p>
+      <h2>Five strategies for olympiad-style problems</h2>
+      <p class="ag-lede">Students build these one at a time. Each strategy is practised until choosing it feels natural.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Problem-solving strategies we teach, in the order we teach them</caption><thead><tr><th scope="col">Strategy</th><th scope="col">When it helps</th><th scope="col">The sign it is secure</th></tr></thead><tbody><tr><td>Draw a diagram</td><td class="ag-num">Shapes, distances, arrangements</td><td class="ag-num">Draws before calculating, without being told</td></tr><tr><td>Organised list</td><td class="ag-num">Counting possibilities</td><td class="ag-num">Lists every case once, in an order that shows none are missing</td></tr><tr><td>Look for a pattern</td><td class="ag-num">Sequences and repeated steps</td><td class="ag-num">Predicts the next case and then checks it</td></tr><tr><td>Work backwards</td><td class="ag-num">An end result is given</td><td class="ag-num">Undoes steps in reverse order and checks forwards</td></tr><tr><td>Guess, check, refine</td><td class="ag-num">Steps cannot be reversed</td><td class="ag-num">Each new guess is better informed than the last</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If your child finds the problems hard</h3><p>That is expected; the Olympiad is designed to stretch high achievers. Discussing solutions afterwards, as APSMO recommends, is where most learning happens.</p>
+<p>Encourage drawing and writing, even when the answer seems obvious.</p></div><div><h3>Other contests</h3><p>Our <a class="ag-inline-link" href="/australian-mathematics-competition-practice-by-year">AMC by year page</a> covers the Australian Maths Trust's competition.</p>
+<p>The <a class="ag-inline-link" href="/maths-challenge-for-young-australians-practice">Maths Challenge page</a> covers a module with written solutions.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for Years 5 to 8 problem solvers</h2>
+      <p class="ag-lede">Grouped by depth. Each card opens a full outline.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Foundations</h3>
+        <span class="ag-band-sub">Confident with numbers</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">APSM / F / 01</p>
+          <h4>Mental maths</h4>
+          <p>Quick, reliable number sense.</p>
+          <a class="ag-course-link" href="/courses/mental-maths-mastery-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">APSM / F / 02</p>
+          <h4>Primary maths</h4>
+          <p>Every strand, reasoning out loud.</p>
+          <a class="ag-course-link" href="/courses/elementary-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">APSM / F / 03</p>
+          <h4>Vedic maths</h4>
+          <p>Fast calculation, always checked.</p>
+          <a class="ag-course-link" href="/courses/vedic-maths-course-speed-calculation-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Problem solving</h3>
+        <span class="ag-band-sub">Strategies and content</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">APSM / P / 01</p>
+          <h4>Problem-solving strategies</h4>
+          <p>A strategy a fortnight, on fresh problems.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">APSM / P / 02</p>
+          <h4>Middle years maths</h4>
+          <p>Fractions to early algebra.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">APSM / P / 03</p>
+          <h4>Algebra foundations</h4>
+          <p>When working backwards becomes equations.</p>
+          <a class="ag-course-link" href="/courses/algebra-foundations-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Stretch</h3>
+        <span class="ag-band-sub">For the keenest</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">APSM / X / 01</p>
+          <h4>Competition maths</h4>
+          <p>Harder problems and full arguments.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">APSM / X / 02</p>
+          <h4>Maths through coding</h4>
+          <p>Testing patterns with Python.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">APSM / X / 03</p>
+          <h4>Statistics and probability</h4>
+          <p>Counting and chance, carefully.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live problem-solving classes for Years 5 to 8</h2>
+      <p class="ag-lede">Our teachers work from India, behind every Australian time zone. A 4 pm lesson in Adelaide during daylight saving begins at 11 am India time, so after-school sessions are simple for us to keep.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Term 1</p><p class="ag-slot-l">Building strategies before the first contest.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekly through the year</p><p class="ag-slot-l">One strategy, several fresh problems.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Holiday sessions</p><p class="ag-slot-l">A short block on one strategy.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Strategy named</h3><p>Students say which strategy they chose and why.</p></div>
+      <div><h3>Always checked</h3><p>Every answer is checked against the question.</p></div>
+      <div><h3>Groups of five to ten</h3><p>Children at a similar problem-solving stage.</p></div>
+      <div><h3>One-to-one option</h3><p>For students who want a faster pace.</p></div>
+      <div><h3>Short parent notes</h3><p>The strategy of the week and a problem to try.</p></div>
+      <div><h3>Fair play</h3><p>We never use or imitate contest papers.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students made</h2>
+      <p class="ag-lede">Learners' own work, outside any contest. More in the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Australian families are charged monthly in US dollars, the same rate we use everywhere outside India, with nothing to pay up front and freedom to stop at any month end. APSMO entry is arranged and paid by schools.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A real lesson with a teacher</li><li>An honest view of problem-solving level</li><li>No payment details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students at one stage</li><li>The same teacher each week</li><li>Solutions discussed in depth</li><li>A certificate at the end</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher for one student</li><li>Paced to suit them</li><li>A weekly time you choose</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents' reviews, quoted from Google word for word.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about the APSMO Maths Olympiad</p>
+      <h2>What Australian families ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is the APSMO Maths Olympiad?</h3>
+        <p>An inter-school problem-solving competition for capable students in Years 5 to 8, run by the Australasian Problem Solving Mathematical Olympiads, a not-for-profit established in 1987.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What are Division J and Division S?</h3>
+        <p>Division J is the Junior Division for Years 5 and 6. Division S is the Senior Division for Years 7 and 8, and up to Year 9 in New Zealand.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many contests are there?</h3>
+        <p>Four a year, about six weeks apart, starting in early Term 2. In 2026 they were on 6 May, 10 June, 29 July and 9 September. Students must complete all four.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long is each contest?</h3>
+        <p>30 minutes for 5 questions, each worth 1 mark, sat individually under exam conditions and marked by the teacher.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my child enter on their own?</h3>
+        <p>No. APSMO states that individual registration is not possible; schools register teams of up to 30 students.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you coach my child on the contest questions?</h3>
+        <p>No. APSMO prohibits teaching to the upcoming questions, including practice that is very similar to them. We teach general strategies on our own problems.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is working backwards?</h3>
+        <p>A strategy for problems that give the final result and the steps that produced it. You start at the end and undo each step in reverse order, then check by working forwards.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is the Olympiad different from the Maths Games?</h3>
+        <p>APSMO describes the Maths Games as designed for mainstream students to learn problem-solving skills, and the Olympiad as a competitive format for high achievers.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where does practice material come from?</h3>
+        <p>APSMO sends schools a Preparation Kit in Term 1 with a practice paper and solutions. Ask the school; our classes add strategy teaching around it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you part of APSMO?</h3>
+        <p>No. We are an independent online school, quoting APSMO because it runs the competition.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>More maths competitions in Australia</h2>
+      <p class="ag-lede">Other contests for the same age group and our maths pages.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/australian-mathematics-competition-practice-by-year">AMC practice by year</a></h3><p>The Australian Maths Trust's competition.</p></div>
+      <div><h3><a class="ag-inline-link" href="/maths-challenge-for-young-australians-practice">Maths Challenge practice</a></h3><p>Written solutions over several weeks.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></h3><p>Every contest by month.</p></div>
+      <div><h3><a class="ag-inline-link" href="/naplan-year-7-numeracy-practice">NAPLAN Year 7 numeracy</a></h3><p>The national test in the same years.</p></div>
+      <div><h3><a class="ag-inline-link" href="/maths-challenges">Maths challenges</a></h3><p>Puzzles to try at home.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-maths-tutoring-australia">Maths tutoring in Australia</a></h3><p>Our main maths page for Australia.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free problem-solving class</h2>
+        <p class="ag-lede">Tell us the year level and whether your child sits the APSMO Olympiad at school. The free class teaches one strategy on our own problems and ends with honest advice.</p>
+        <p class="ag-mt-40">Prefer to look first? The <a class="ag-inline-link" href="/course-atlas">course atlas</a> has every course, and <a class="ag-inline-link" href="/how-we-teach">how we teach</a> describes a lesson.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20problem-solving%20class%20for%20the%20APSMO%20Maths%20Olympiad." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'apsm',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp usually gets the quickest reply. The number begins +91 because the school runs from India and has no Australian address.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_apsm(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card and no obligation. One reply to set it up.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Australia</h4><ul><li><a href="/australian-mathematics-competition-practice-by-year">AMC by year</a></li><li><a href="/maths-challenge-for-young-australians-practice">Maths Challenge</a></li><li><a href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li><li><a href="/online-maths-tutoring-australia">Maths tutoring in Australia</a></li></ul></div>
+      <div><h4>Learn more</h4><ul><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/course-atlas">Course atlas</a></li><li><a href="/maths-challenges">Maths challenges</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Independent of APSMO; we never use or imitate contest papers</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_apsm = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'apsmo-maths-olympiad-practice-inline', meta: { name: name, age: age, page: 'apsmo-maths-olympiad-practice' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

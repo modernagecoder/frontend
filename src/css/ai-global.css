@@ -892,3 +892,4 @@
 .ag-root.ag-icmt { --ag-accent: #303F66; --ag-accent-soft: rgba(48,63,102,.09); }   /* ICAS Maths: a deep slate blue chosen by hand, muted, at least 10 RGB from every accent in content and stylesheets and above 4.8:1 on #EDE7DA */
 .ag-root.ag-tvcm { --ag-accent: #3C5028; --ag-accent-soft: rgba(60,80,40,.09); }   /* Tutor vs tutoring centre, Australia: an olive green chosen by hand, muted, at least 10 RGB units from every accent in use and outside the excluded hue bands */
 .ag-root.ag-cotf { --ag-accent: #282874; --ag-accent-soft: rgba(40,40,116,.09); }   /* Coding or maths first, Australia: a deep navy chosen by hand, muted, at least 10 RGB units from every accent in use and outside the excluded hue bands */
+.ag-root.ag-occo { --ag-accent: #402C9C; --ag-accent-soft: rgba(64,44,156,.09); }   /* Online classes compared, Australia: a deep indigo chosen by hand, muted, at least 10 RGB units from every accent in use and outside the excluded hue bands */

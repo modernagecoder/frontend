@@ -129,7 +129,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 89 | australian-informatics-olympiad-preparation (aiop, #332193) | ag- exam door | 3,156 | 1.7% vs aio-to-ioi-pathway-australia | How does the Australian Informatics Olympiad work, and how do competitors check their code before the judge does? | randomised cross-check of a fast solution against brute force (stress testing) | 46c62071 |
 | 90 | aio-to-ioi-pathway-australia (ioip, #1B1B66) | ag- exam door | 3,100 | 1.7% vs australian-informatics-olympiad-preparation | How do Australian students get from the AIO to the International Olympiad in Informatics? | operations budget (estimating running time from n before coding) | 43f1d341 |
 | 91 | australian-mathematics-competition-practice-by-year (amcy, #90242D) | ag- exam door | 3,224 | 1.8% vs bebras-challenge-australia-practice | How is the Australian Mathematics Competition structured for each year level, and how does its scoring shape a good plan? | expected marks under no-penalty scoring | 222a3fdc |
-| 92 | maths-challenge-for-young-australians-practice (mcha, #36541B) | ag- exam door | 3,293 | 1.6% vs australian-informatics-olympiad-preparation | What is the Maths Challenge for Young Australians, and how do written solutions earn marks? | worked-solution marking rubric | (this commit) |
+| 92 | maths-challenge-for-young-australians-practice (mcha, #36541B) | ag- exam door | 3,293 | 1.6% vs australian-informatics-olympiad-preparation | What is the Maths Challenge for Young Australians, and how do written solutions earn marks? | worked-solution marking rubric | 528e804b |
+| 93 | apsmo-maths-olympiad-practice (apsm, #663939) | ag- exam door | 3,147 | 1.9% vs icas-maths-practice-online | How does the APSMO Maths Olympiad work for Years 5 to 8, and how can students prepare fairly? | working backwards (original problems) | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
