@@ -39498,5 +39498,51 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with Translink, the Queensland Government, Toowoomba Regional Council or the ABS."
     ]
+  },
+  "online-coding-and-python-classes-in-newcastle-nsw": {
+    "market": "Newcastle",
+    "bodyClass": "cg-ncpy",
+    "pageType": "city",
+    "curriculumAuthority": "Newcastle - Maitland Significant Urban Area, ABS Census 2021 QuickStats, area code 1025, compared with New South Wales and Australia (read 7 October 2026): 508,437 people; median age 39; 137,303 families; 212,798 private dwellings; average 2.5 people per household; dwelling structure: separate house 153,857 (80.0 percent; NSW 65.6), flat or apartment 13,876 (7.2 percent; NSW 21.7; Australia 14.2); occupation: Professionals 54,052 (22.5 percent; NSW 25.8; Australia 24.0), Technicians and Trades Workers 35,275 (14.7 percent; NSW 11.9); Bachelor Degree level and above 84,955 (20.5 percent; NSW 27.8; Australia 26.3); aged 15 to 19: 29,785 (5.9 percent); aged 20 to 24: 33,805 (6.6 percent). NSW Department of Education 2026 calendar, Eastern division: Term 4 Tuesday 13 October to Thursday 17 December; school development day Monday 12 October. IANA tz database: Australia/Sydney UTC+10, UTC+11 in daylight saving from the first Sunday in October to the first Sunday in April; Asia/Kolkata UTC+5:30.",
+    "localProject": "Property-based testing of a grid nearest-school search. NSW public schools master dataset (master_dataset.csv, Date_extracted 2026-10-02), rows with LGA Newcastle (47), Lake Macquarie (68) and Maitland (22): 137 schools; Level_of_schooling: Primary School 101, Secondary School 22, Schools for Specific Purposes 10, Infants School 2, Environmental Education Centre 1, Central/Community School 1. Only School_name, Level_of_schooling, LGA, Latitude, Longitude and Date_1st_teacher used. Distance: equirectangular metres at the mean latitude. Grid of 0.02 degree cells (about 2,211 m by 1,869 m), 83 occupied. Buggy search returns the nearest school in the first non-empty ring of cells. Property: equals brute force. 10,000 uniform random points in the schools bounding box (lat -33.1748 to -32.7003, lon 151.4418 to 151.7811), random.seed 2026: 1,598 failures (16.0 percent), first failure on test 8 at (-33.060978, 151.650194); shrunk by rounding to (-33.061, 151.65): brute force Marks Point Public School 389 m, buggy Blacksmiths Public School 1,199 m (810 m extra); worst failure 3,452 m extra. One-extra-ring patch: 86 failures in 10,000 (seed 7). Radius-based search (all cells within the best distance found): 0 failures in 10,000 (seed 11). Earliest Date_1st_teacher in these rows: Largs Public School 1849-01-01, Bolwarra Public School 1852-01-01, Lochinvar Public School 1852-02-01. Lesson family: property-based testing with shrinking.",
+    "requiredMentions": [
+      "508,437",
+      "212,798",
+      "153,857",
+      "84,955",
+      "54,052",
+      "35,275",
+      "1,598 times",
+      "Marks Point Public School",
+      "3,452 m",
+      "Merewether to Maitland"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Newcastle - Maitland Significant Urban Area (1025): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1025"
+      },
+      {
+        "claim": "NSW Department of Education, NSW public schools master dataset, Creative Commons Attribution, on Data.NSW.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, school calendar 2026: Eastern division term dates and school development days.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2026"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "OpenStreetMap roads or coastline: the Overpass API returned 406 to this machine on 7 October 2026 and no mirror was tried; distances are straight lines between published school coordinates.",
+      "Bureau of Meteorology observations: the observations feed returned 403 and was not circumvented.",
+      "Enrolment, Indigenous, language background and socio-economic index columns of the schools file: present in the file but deliberately not used.",
+      "Non-government schools: the NSW master dataset lists public schools only, so the page never claims to cover every school in the area.",
+      "Any claim that a school is the right choice for a family: the project is about testing code, not choosing schools.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education or the ABS."
+    ]
   }
 }
