@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>VCE Algorithmics (HESS) Help | Units 3 and 4 Online</title>
+  <meta name="description" content="VCE Algorithmics (HESS) help for Victorian students: both units, the 2-hour exam worth 60 per cent, the School-assessed Task, and worked algorithm design.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/vce-algorithmics-hess-help">
+  <link rel="alternate" type="text/markdown" href="/src/pages/vce-algorithmics-hess-help.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#271E69">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/vce-algorithmics-hess-help">
+  <meta property="og:title" content="VCE Algorithmics (HESS) Help | Units 3 and 4 Online">
+  <meta property="og:description" content="VCE Algorithmics (HESS) explained from the VCAA study design: Units 3 and 4, how the study score is built, the 2026 exam date, and a worked change-making problem that shows why greedy algorithms can fail.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="VCE Algorithmics (HESS) Help">
+  <meta name="twitter:description" content="VCE Algorithmics (HESS) from the study design: two units, a 60 per cent exam, and the dynamic programming it names.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-vcal .ag-hero-grid { gap: clamp(1rem, 3.2vw, 2.8rem); }
+.ag-root.ag-vcal .ag-hero h1 { letter-spacing: -0.02em; }
+.ag-root.ag-vcal .ag-capsule { border-left-width: 5px; }
+.ag-root.ag-vcal .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-vcal .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-vcal .ag-table td { line-height: 1.5; }
+.ag-root.ag-vcal .ag-spec dt { letter-spacing: 0.1em; }
+.ag-root.ag-vcal .ag-slots { gap: 1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/vce-algorithmics-hess-help#page","url":"https://learn.modernagecoders.com/vce-algorithmics-hess-help","name":"VCE Algorithmics (HESS) Help","description":"Support for Victorian students taking VCE Algorithmics (HESS): structure of Units 3 and 4, assessment weightings, the 2026 examination session, key knowledge areas, and a worked comparison of greedy and dynamic programming solutions to the change-making problem.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":3,"name":"VCE Algorithmics (HESS)","item":"https://learn.modernagecoders.com/vce-algorithmics-hess-help"}]},{"@type":"Course","name":"VCE Algorithmics (HESS) Help","description":"Live online teaching in algorithm design, abstract data types, graph algorithms, complexity analysis and Python implementation for Victorian VCE Algorithmics (HESS) students, without writing any assessed work.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/vce-algorithmics-hess-help"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/vce-algorithmics-hess-help"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/vce-algorithmics-hess-help"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is VCE Algorithmics (HESS)?","acceptedAnswer":{"@type":"Answer","text":"It is a Victorian Units 3 and 4 study, accredited from 1 January 2023, that teaches algorithmic thinking: modelling problems with abstract data types, designing algorithms, analysing their efficiency and exploring the limits of computation. HESS stands for Higher Education scored study, and the VCAA designs it to the standard of a first-year university subject."}},{"@type":"Question","name":"How is the study score made up?","acceptedAnswer":{"@type":"Answer","text":"School-assessed Coursework contributes 20 per cent (12 from Unit 3 and 8 from Unit 4), the School-assessed Task 20 per cent, and the end-of-year examination 60 per cent."}},{"@type":"Question","name":"When is the 2026 Algorithmics exam?","acceptedAnswer":{"@type":"Answer","text":"The VCAA timetable lists it on Wednesday 4 November 2026, in the session from 11:45 am to 2:00 pm. The study design sets the examination at 2 hours."}},{"@type":"Question","name":"Do I need to be a strong programmer?","acceptedAnswer":{"@type":"Answer","text":"It helps, but the study design says the focus is on algorithmic thinking rather than coding. Students who can trace, model and argue tend to do better than students who can only write fast code."}},{"@type":"Question","name":"Which programming language is used?","acceptedAnswer":{"@type":"Answer","text":"The study design asks for a very high-level language that directly supports a graph abstract data type. Python with a graph library is a common choice; your school decides."}},{"@type":"Question","name":"What is the change-making problem?","acceptedAnswer":{"@type":"Answer","text":"Given coin values and a target amount, find the fewest coins that make the target. The study design names it as an example of dynamic programming with a single dimension array. Greedy algorithms solve it for some coin systems and fail for others."}},{"@type":"Question","name":"Can I take Units 3 and 4 separately?","acceptedAnswer":{"@type":"Answer","text":"No. The VCAA requires Units 3 and 4 of Algorithmics to be taken as a sequence."}},{"@type":"Question","name":"Will you help with my School-assessed Task?","acceptedAnswer":{"@type":"Answer","text":"We teach the skills the task needs using our own problems. We never design, write, analyse, edit or debug anything that will be submitted, because the VCAA accepts the work only if it is the student's own."}},{"@type":"Question","name":"Does Algorithmics count towards university entry?","acceptedAnswer":{"@type":"Answer","text":"The study design notes that some universities may offer accelerated pathways to students who complete it. Admission rules belong to each university and to VTAC; we make no promise about scores, ATARs or offers."}},{"@type":"Question","name":"What time of day suits Victorian students?","acceptedAnswer":{"@type":"Answer","text":"Late afternoon in Victoria suits most senior students, and it falls in the middle of our teachers' day. The weekly time is agreed together after the free class."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/vce-algorithmics-hess-help","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-vcal">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#study">The study</a></li>
+      <li><a href="#score">Score and exam</a></li>
+      <li><a href="#change">Greedy or not</a></li>
+      <li><a href="#integrity">The SAT</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / VCE Algorithmics (HESS)
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Victoria &middot; VCE Algorithmics (HESS) &middot; Live online</p>
+        <h1>VCE Algorithmics (HESS) help</h1>
+        <p class="ag-lede">Algorithmics is the one VCE computing study that the VCAA pitches at first-year university level, and it reads that way. Graphs, recurrences, the Master Theorem, the Halting Problem and neural networks all sit inside two units, and the exam alone decides 60 per cent of the study score. Students who do well treat it as a reasoning subject that happens to use code.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#change" class="ag-btn ag-btn--ghost">See the worked problem</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20VCE%20Algorithmics%20(HESS)%20in%20Victoria." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'vcal'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Study design read at source &middot; Reasoning before code &middot; Lessons after school in Victorian time</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Study</dt><dd>VCE Algorithmics (HESS)</dd>
+          <dt>Units</dt><dd>3 and 4, taken as a sequence</dd>
+          <dt>Accredited from</dt><dd>1 January 2023</dd>
+          <dt>Exam weight</dt><dd>60 per cent of the study score</dd>
+          <dt>Exam length</dt><dd>2 hours</dd>
+          <dt>2026 exam</dt><dd>Wednesday 4 November</dd>
+          <dt>We teach</dt><dd>Design, analysis and proof technique</dd>
+          <dt>We never</dt><dd>Touch the School-assessed Task</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>VCE Algorithmics (HESS) is a Victorian Units 3 and 4 study, accredited from 1 January 2023 and designed to the standard of a first-year university subject. Unit 3 covers abstract data types and algorithm design; Unit 4 covers complexity, advanced design patterns and the limits of computation. The study score comes from coursework (20 per cent), a School-assessed Task (20 per cent) and a 2-hour exam (60 per cent).</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to begin</p>
+      <h2>Three courses that carry the study design</h2>
+      <p class="ag-lede">Reasoning about algorithms first, then the speed and accuracy that exam conditions demand.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/problem-solving-dsa-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-teens.webp" alt="Problem Solving for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VCAL / 01</p>
+          <h3>Data structures and algorithms</h3>
+          <p>Stacks, queues, graphs, searching and sorting, each traced by hand before it is run: the ground Unit 3 is built on.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/competitive-programming-for-teens-course">
+        <div class="ag-pick-shot"><img src="/images/competitive-programming-teens.webp" alt="Competitive Programming for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VCAL / 02</p>
+          <h3>Competitive programming</h3>
+          <p>Greedy, dynamic programming and backtracking under time pressure, the three design patterns Unit 4 asks students to tell apart.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VCAL / 03</p>
+          <h3>Python for teens</h3>
+          <p>A very high-level language with dictionaries, sets and graph libraries, which is what the study design requires for implementation.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="study">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Inside the study design</p><h2>Two units, six areas of study, one sequence</h2><p class="ag-lede">The outline below comes from the VCAA study design for VCE Algorithmics (HESS), read on 7 October 2026. Units 3 and 4 cannot be split: the VCAA requires them as a sequence.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>VCE Algorithmics (HESS): units and areas of study</caption><thead><tr><th scope="col">Unit</th><th scope="col">Area of study</th><th scope="col">What it covers</th></tr></thead><tbody><tr><td>Unit 3: Algorithmic problem-solving</td><td>Data modelling with abstract data types</td><td>Sets, lists, arrays, dictionaries, stacks, queues, priority queues and graphs, plus decision trees and state graphs</td></tr><tr><td>Unit 3</td><td>Algorithm design</td><td>Pseudocode, recursion, brute-force and greedy patterns, breadth-first and depth-first search, Prim, Dijkstra, Bellman-Ford, Floyd-Warshall and PageRank</td></tr><tr><td>Unit 3</td><td>Applied algorithms</td><td>Choosing and justifying a combination of data types and algorithms for a real problem</td></tr><tr><td>Unit 4: Principles of algorithmics</td><td>Formal algorithm analysis</td><td>Big-O, recurrence relations, the Master Theorem, and the P, NP, NP-Hard and NP-Complete classes</td></tr><tr><td>Unit 4</td><td>Advanced algorithm design</td><td>Binary search, mergesort, quicksort, dynamic programming, backtracking and heuristics including A* and simulated annealing</td></tr><tr><td>Unit 4</td><td>Computer science: past and present</td><td>Turing machines, the Halting Problem, the Chinese Room, support vector machines and multi-layer perceptrons</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The study design is blunt about its own priority: "The focus is not on coding but on ‘algorithmic thinking’." That sentence explains why strong programmers sometimes find Algorithmics harder than they expected. Writing a working Dijkstra is the easy half; explaining why it fails on a negative edge, and naming the algorithm that copes, is the half that earns marks.</p>
+<p>Each unit involves at least 50 hours of scheduled classroom instruction. The VCAA also lists assumed mathematics, including sets, recursion-generated sequences, exponents and logarithms, so a student whose algebra is shaky meets the complexity work in Unit 4 with a handicap.</p></div><div><p>Implementation still matters. The study design says students must implement algorithms "in a very high-level programming language that directly supports a graph ADT", which in practice usually means Python with a graph library. Students are not asked how a dictionary or priority queue is built inside the language, only how to choose and use one well.</p>
+<p>The final area of study reaches back to Hilbert, Church and Turing and forward to neural networks. It rewards students who can argue in prose as well as in pseudocode, because the Chinese Room and machine ethics are examined alongside forward propagation.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/algorithms-hess/vce-algorithmics-hess" rel="noopener" target="_blank">VCAA, VCE Algorithmics (HESS) study design page</a>; VCE Algorithmics (HESS) Study Design (accreditation from 1 January 2023), read on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="score">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How the study score is built</p><h2>Sixty per cent in one 2-hour sitting</h2><p class="ag-lede">The weightings and exam conditions below are quoted from the study design; the 2026 date and session come from the VCAA examination timetable, checked on 7 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>VCE Algorithmics (HESS) assessment, as the study design sets it</caption><thead><tr><th scope="col">Component</th><th scope="col">Contribution to the study score</th><th scope="col">What it assesses</th></tr></thead><tbody><tr><td>Unit 3 School-assessed Coursework</td><td>12 per cent</td><td>Unit 3 Outcomes 1 and 2: data modelling and algorithm design</td></tr><tr><td>Unit 4 School-assessed Coursework</td><td>8 per cent</td><td>Unit 4 Outcome 3: the history of computer science and modern machine learning</td></tr><tr><td>School-assessed Task</td><td>20 per cent</td><td>Unit 3 Outcome 3 with Unit 4 Outcomes 1 and 2: a designed solution, its complexity analysis and an improved design</td></tr><tr><td>End-of-year examination</td><td>60 per cent</td><td>All key knowledge and key skills from both units; 2 hours</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>In 2026 the examination falls on Wednesday 4 November, in the session the VCAA timetable prints as 11:45 am to 2:00 pm. The study design sets the duration at 2 hours and says every key knowledge point and key skill from both units is examinable, so nothing can be left out on the assumption it will not appear.</p>
+<p>Because the exam is so heavy, revision should mirror its demands: reading unfamiliar pseudocode and executing it by hand, writing a recurrence for a recursive procedure and solving it with the stated Master Theorem, and arguing correctness by induction or contradiction in a few clear lines.</p></div><div><p>The School-assessed Task is unusual in that it spans both units. It starts with a data model and algorithm for an applied problem in Unit 3, continues with a formal time complexity analysis, and ends with an improved design and a comparison in Unit 4. A student who rushes the first design inherits a weak base for everything after it.</p>
+<p>The study design also notes that some universities may offer accelerated pathways to students who complete the study. That is the universities' decision, not ours or the VCAA's, and no page here promises any pathway, score or ATAR.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: VCE Algorithmics (HESS) Study Design, assessment sections; <a class="ag-inline-link" href="https://www.vcaa.vic.edu.au/administration/key-dates/vce-examination-timetable" rel="noopener" target="_blank">VCAA, 2026 VCE examination timetable</a>, checked on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="change">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked problem from Unit 4</p><h2>When greedy gets the change-making problem wrong</h2><p class="ag-lede">Unit 4 names it directly: dynamic programming algorithms that need no more than a single dimension array, "including the Fibonacci numbers and change-making problem". Here is that idea worked through on a coin system we invented for practice.</p></div>
+    <div class="ag-grid-3"><div><h3>The problem</h3><p>Given coin values and a target, use as few coins as possible. Our practice system has coins worth 1, 7 and 10, and every target from 1 to 100 has a solution because the 1 coin always fits.</p></div><div><h3>The greedy guess</h3><p>Always take the largest coin that still fits. For a target of 14 that gives 10, then four 1s: five coins. It is fast and it feels sensible, which is exactly why it is dangerous.</p></div><div><h3>The dynamic programme</h3><p>Fill an array fewest[0..t] where fewest[v] is the fewest coins for value v, built from smaller values. For 14 the array finds 7 plus 7: two coins.</p></div></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The single dimension array for targets 0 to 14, coins 1, 7 and 10 (our calculation)</caption><thead><tr><th scope="col">Value v</th><th scope="col">0</th><th scope="col">1</th><th scope="col">2</th><th scope="col">3</th><th scope="col">4</th><th scope="col">5</th><th scope="col">6</th><th scope="col">7</th><th scope="col">8</th><th scope="col">9</th><th scope="col">10</th><th scope="col">11</th><th scope="col">12</th><th scope="col">13</th><th scope="col">14</th></tr></thead><tbody><tr><td>fewest[v]</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>1</td><td>2</td><td>3</td><td>1</td><td>2</td><td>3</td><td>4</td><td>2</td></tr></tbody></table></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Greedy against dynamic programming, targets 1 to 100, coins 1, 7 and 10 (our calculation)</caption><thead><tr><th scope="col">Measure</th><th scope="col">Result</th></tr></thead><tbody><tr><td>Targets where greedy uses more coins than necessary</td><td>27 of the 100</td></tr><tr><td>First targets where greedy fails</td><td>14, 15, 16, then 24, 25, 26, and so on</td></tr><tr><td>Largest excess coins from greedy on one target</td><td>3</td></tr><tr><td>Array cells filled by the dynamic programme for a target of 100</td><td>100, each checking 3 coins</td></tr><tr><td>The six Australian coin denominations, treated the same way</td><td>Greedy never fails for any multiple of 5 cents up to 500</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The pattern in the table is the lesson. Greedy fails in runs of three because a 10 plus a few 1s keeps losing to two 7s, and it fails often enough that no one should trust it without a proof. Australian coins happen to form a system where greedy is always right, which is why the habit feels safe in a shop and is unsafe in an exam question that changes the coins.</p>
+<p>The dynamic programme also shows what the study design means by a single dimension array. Each cell depends only on cells to its left, so a student can fill it on paper in the exam, row by row, and read the answer from the last cell.</p></div><div><p>For exam answers the structure that scores is consistent: state the design pattern, give the recurrence in words or symbols (fewest[v] is one more than the smallest fewest[v minus c] over the coins c that fit), show a few cells, and state the time complexity in terms of the target and the number of coins.</p>
+<p>The same comparison is a model for the School-assessed Task's final stage, where an improved design must be compared with the original. Here the comparison is complete: greedy is faster but sometimes wrong; the array is correct for every target and still cheap.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Dynamic programming wording quoted from the VCE Algorithmics (HESS) Study Design, Unit 4 Area of Study 2. Coin system, array and counts are our own, computed in Python on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="integrity">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The School-assessed Task</p><h2>Whose work the task has to be</h2><p class="ag-lede">The VCAA accepts School-based assessment only when the teacher can attest to who did it. The wording below is quoted from the study design.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>VCAA rules that shape how we help</caption><thead><tr><th scope="col">Point</th><th scope="col">What the study design says</th></tr></thead><tbody><tr><td>Authentication</td><td>Work will be accepted only if the teacher can attest that, to the best of their knowledge, all unacknowledged work is the student’s own</td></tr><tr><td>Coursework conditions</td><td>Tasks must be completed mainly in class and within a limited timeframe</td></tr><tr><td>The SAT's first part</td><td>A data model and algorithm combination for a real-world or applied problem, with multiple solution options considered</td></tr><tr><td>The SAT's later parts</td><td>A formal time complexity analysis, then an improved design compared with the original</td></tr></tbody></table></div>
+    <p>Our rule follows from that. We teach algorithm design, complexity analysis and proof with problems we write ourselves, like the coin system above. We talk about a student's task only in general terms, and we never design, write, analyse, edit or debug anything that will be submitted for assessment. A student who can explain every choice in their own task is also the student most likely to explain choices under exam conditions.</p>
+    <p class="ag-source-note ag-mt-40">Source: VCE Algorithmics (HESS) Study Design, authentication and School-assessed Task sections, read on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Building towards Unit 3</p>
+      <h2>Four rungs before and during the study</h2>
+      <p class="ag-lede">Most students meet Algorithmics in Year 12, sometimes in Year 11 as an acceleration. The ladder depends on how they reason, not which year they are in.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From confident coder to algorithmics student</caption><thead><tr><th scope="col">When</th><th scope="col">Rung</th><th scope="col">The sign it is secure</th></tr></thead><tbody><tr><td>Before Unit 3</td><td class="ag-num">1. Fluent tracing</td><td class="ag-num">Executes unfamiliar pseudocode by hand and records every variable without slipping</td></tr><tr><td>Early Unit 3</td><td class="ag-num">2. Modelling</td><td class="ag-num">Chooses a stack, queue, dictionary or graph for a problem and says why the others fit worse</td></tr><tr><td>Late Unit 3</td><td class="ag-num">3. Graph algorithms</td><td class="ag-num">Picks Dijkstra, Bellman-Ford or Floyd-Warshall for a stated problem and justifies the choice</td></tr><tr><td>Unit 4</td><td class="ag-num">4. Analysis</td><td class="ag-num">Writes a recurrence, solves it with the stated Master Theorem, and explains what the bound means</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If Unit 3 feels abstract</h3><p>The jump from writing programs to modelling problems is the usual stall point. Drawing the graph first, with labelled vertices and weighted edges, before writing a single line of pseudocode fixes most of it.</p>
+<p>Students who have only met loops benefit from a few weeks of recursion practice, because Unit 3 assumes recursion is comfortable before it builds on it.</p></div><div><h3>Beyond the study</h3><p>Students who enjoy the puzzle side can try the Australian Informatics Olympiad; our <a class="ag-inline-link" href="/australian-maths-trust-amc-aio-cat-preparation">AIO and CAT preparation page</a> explains how it runs.</p>
+<p>The study's habits, proving correctness and estimating cost before coding, are the ones first-year computer science subjects ask for.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for Algorithmics students</h2>
+      <p class="ag-lede">Grouped by the unit they support most. Each card opens a full syllabus.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Unit 3 foundations</h3>
+        <span class="ag-band-sub">Data types and design</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VCAL / U3 / 01</p>
+          <h4>Algorithms and data structures</h4>
+          <p>Abstract data types and the searches built on them, reasoned before coded.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCAL / U3 / 02</p>
+          <h4>Python for teens</h4>
+          <p>The implementation language most Victorian classes use, from loops to classes.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCAL / U3 / 03</p>
+          <h4>Java for teens</h4>
+          <p>A typed second language that makes abstract data types explicit.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Unit 4 depth</h3>
+        <span class="ag-band-sub">Complexity and design patterns</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VCAL / U4 / 01</p>
+          <h4>Competitive programming</h4>
+          <p>Greedy, dynamic programming and backtracking, tested against hard cases.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCAL / U4 / 02</p>
+          <h4>Data structures and algorithms, university level</h4>
+          <p>Recurrences and complexity at the depth first-year subjects expect.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCAL / U4 / 03</p>
+          <h4>University mathematics</h4>
+          <p>Logarithms, induction and discrete maths for the analysis work.</p>
+          <a class="ag-course-link" href="/courses/college-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>The AI area of study</h3>
+        <span class="ag-band-sub">Machine learning and its limits</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VCAL / AI / 01</p>
+          <h4>AI and machine learning for teens</h4>
+          <p>Training, overfitting and simple networks, built and evaluated honestly.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCAL / AI / 02</p>
+          <h4>Statistics and probability</h4>
+          <p>The probability behind randomised search and data-driven algorithms.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCAL / AI / 03</p>
+          <h4>Competitive programming, advanced</h4>
+          <p>For students who finish Unit 4 hungry for harder problems.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Weekly classes, timed for Victoria</h2>
+      <p class="ag-lede">Our teachers work from India, and Victoria runs ahead of them: four and a half hours in winter and five and a half during daylight saving, which the IANA time zone database places from Sunday 4 October 2026 to Sunday 4 April 2027. A 5 pm lesson in Melbourne therefore lands at 11.30 am India time in summer and 12.30 pm in winter, inside our teachers' working day.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday after school</p><p class="ag-slot-l">The common choice through Units 3 and 4.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend morning</p><p class="ag-slot-l">Longer sessions for proofs, recurrences or timed papers.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">School holidays</p><p class="ag-slot-l">Short intensives before the November exam.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Our own problems</h3><p>Every example is written by us, never taken from a student's assessed task.</p></div>
+      <div><h3>Hand execution drilled</h3><p>Pseudocode traced on paper until reading it is as quick as reading prose.</p></div>
+      <div><h3>Exam-length answers</h3><p>Short written arguments that name a pattern, justify it and state a bound.</p></div>
+      <div><h3>Senior groups of five to ten</h3><p>Students at a matching level, each one explaining a solution aloud every week.</p></div>
+      <div><h3>Solo sessions</h3><p>For one area of study that needs repair before the exam.</p></div>
+      <div><h3>Nothing guaranteed</h3><p>No study score, ATAR or university offer is promised; the thinking and the outcome are the student's.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students have published</h2>
+      <p class="ag-lede">Personal projects only, none of them school assessment. More are in our <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">A single monthly fee in US dollars, the same for every family outside India. There is no joining charge and nothing continues past the month you are in.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A full lesson with a teacher</li><li>A frank view of what needs work</li><li>No card details asked</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students at one level</li><li>One teacher all term</li><li>Practice marked and talked through</li><li>A certificate when the course ends</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>One teacher, one student</li><li>Aimed at the weakest area of study</li><li>Useful in the weeks before November</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Copied word for word from Google, exactly as families and students posted them.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about the study</p>
+      <h2>Questions Algorithmics students ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is VCE Algorithmics (HESS)?</h3>
+        <p>It is a Victorian Units 3 and 4 study, accredited from 1 January 2023, that teaches algorithmic thinking: modelling problems with abstract data types, designing algorithms, analysing their efficiency and exploring the limits of computation. HESS stands for Higher Education scored study, and the VCAA designs it to the standard of a first-year university subject.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is the study score made up?</h3>
+        <p>School-assessed Coursework contributes 20 per cent (12 from Unit 3 and 8 from Unit 4), the School-assessed Task 20 per cent, and the end-of-year examination 60 per cent.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the 2026 Algorithmics exam?</h3>
+        <p>The VCAA timetable lists it on Wednesday 4 November 2026, in the session from 11:45 am to 2:00 pm. The study design sets the examination at 2 hours.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need to be a strong programmer?</h3>
+        <p>It helps, but the study design says the focus is on algorithmic thinking rather than coding. Students who can trace, model and argue tend to do better than students who can only write fast code.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which programming language is used?</h3>
+        <p>The study design asks for a very high-level language that directly supports a graph abstract data type. Python with a graph library is a common choice; your school decides.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the change-making problem?</h3>
+        <p>Given coin values and a target amount, find the fewest coins that make the target. The study design names it as an example of dynamic programming with a single dimension array. Greedy algorithms solve it for some coin systems and fail for others.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I take Units 3 and 4 separately?</h3>
+        <p>No. The VCAA requires Units 3 and 4 of Algorithmics to be taken as a sequence.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you help with my School-assessed Task?</h3>
+        <p>We teach the skills the task needs using our own problems. We never design, write, analyse, edit or debug anything that will be submitted, because the VCAA accepts the work only if it is the student's own.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does Algorithmics count towards university entry?</h3>
+        <p>The study design notes that some universities may offer accelerated pathways to students who complete it. Admission rules belong to each university and to VTAC; we make no promise about scores, ATARs or offers.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What time of day suits Victorian students?</h3>
+        <p>Late afternoon in Victoria suits most senior students, and it falls in the middle of our teachers' day. The weekly time is agreed together after the free class.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>More for Victorian and Australian students</h2>
+      <p class="ag-lede">The Victorian school picture, competitions beside the study, and other senior computing courses.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/vibe-coding-and-ai-agents-classes-in-melbourne">Coding and AI classes in Melbourne</a></h3><p>Victoria's school side and the AI agent skills Melbourne teens ask for.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Australian competitions calendar</a></h3><p>Coding, maths and AI contests through the year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-maths-trust-amc-aio-cat-preparation">Informatics olympiad preparation</a></h3><p>The AIO, for students who want harder algorithm problems.</p></div>
+      <div><h3><a class="ag-inline-link" href="/hsc-software-engineering-help">HSC Software Engineering help</a></h3><p>The New South Wales senior computing course, for comparison.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>Every state, every age, and how online lessons fit time zones.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-maths-tutoring-australia">Online maths tutoring in Australia</a></h3><p>The logarithms and proof that Unit 4 leans on.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Begin with a free class on the hard part</h2>
+        <p class="ag-lede">Tell us the unit, the area of study and the idea that is not landing. The free class works on that idea with our own problems, never with assessed work.</p>
+        <p class="ag-mt-40">Prefer to read first? Every syllabus is on the <a class="ag-inline-link" href="/course-atlas">course atlas</a>, our teaching method is set out on <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, and the Victorian context sits on the <a class="ag-inline-link" href="/vibe-coding-and-ai-agents-classes-in-melbourne">Melbourne page</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20class%20about%20VCE%20Algorithmics%20(HESS)%20in%20Victoria." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'vcal',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp is the quickest way to reach us. The +91 prefix is Indian because the school runs from India; no Victorian office is claimed anywhere.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_vcal(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card and no commitment. We reply once to set the class up.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/vibe-coding-and-ai-agents-classes-in-melbourne">Melbourne and Victoria</a></li><li><a href="/online-maths-tutoring-australia">Maths tutoring</a></li><li><a href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li></ul></div>
+      <div><h4>Learn more</h4><ul><li><a href="/australian-maths-trust-amc-aio-cat-preparation">AMT competitions</a></li><li><a href="/coding-roadmap">The coding roadmap</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>We teach the reasoning; the assessed work stays the student's own</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_vcal = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'vce-algorithmics-hess-help-inline', meta: { name: name, age: age, page: 'vce-algorithmics-hess-help' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
