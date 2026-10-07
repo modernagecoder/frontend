@@ -339,6 +339,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [HSC Maths Extension 2 tutoring](/hsc-maths-extension-2-tutoring)
 - [Year 11 HSC maths help](/preliminary-hsc-maths-year-11-help)
 - [Software Engineering project help](/software-engineering-major-project-help-hsc)
+- [The ATAR explained](/atar-explained-for-coding-students)
 <!-- AU-LINKS -->
 
 
