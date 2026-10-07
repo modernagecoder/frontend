@@ -19354,6 +19354,342 @@
   to = "/src/pages/school-holiday-coding-course-australia.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/naplan-year-3-numeracy-practice"
+  to = "/src/pages/naplan-year-3-numeracy-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/naplan-year-3-numeracy-practice.md"
+  to = "/src/pages/naplan-year-3-numeracy-practice.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/hsc-maths-advanced-tutoring"
+  to = "/src/pages/hsc-maths-advanced-tutoring.html"
+  status = 200
+
+[[redirects]]
+  from = "/hsc-maths-advanced-tutoring.md"
+  to = "/src/pages/hsc-maths-advanced-tutoring.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/naplan-year-5-numeracy-practice"
+  to = "/src/pages/naplan-year-5-numeracy-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/naplan-year-5-numeracy-practice.md"
+  to = "/src/pages/naplan-year-5-numeracy-practice.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/hsc-maths-extension-1-tutoring"
+  to = "/src/pages/hsc-maths-extension-1-tutoring.html"
+  status = 200
+
+[[redirects]]
+  from = "/hsc-maths-extension-1-tutoring.md"
+  to = "/src/pages/hsc-maths-extension-1-tutoring.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vce-algorithmics-hess-help"
+  to = "/src/pages/vce-algorithmics-hess-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/vce-algorithmics-hess-help.md"
+  to = "/src/pages/vce-algorithmics-hess-help.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/naplan-year-7-numeracy-practice"
+  to = "/src/pages/naplan-year-7-numeracy-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/naplan-year-7-numeracy-practice.md"
+  to = "/src/pages/naplan-year-7-numeracy-practice.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/hsc-maths-extension-2-tutoring"
+  to = "/src/pages/hsc-maths-extension-2-tutoring.html"
+  status = 200
+
+[[redirects]]
+  from = "/hsc-maths-extension-2-tutoring.md"
+  to = "/src/pages/hsc-maths-extension-2-tutoring.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/naplan-year-9-numeracy-practice"
+  to = "/src/pages/naplan-year-9-numeracy-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/naplan-year-9-numeracy-practice.md"
+  to = "/src/pages/naplan-year-9-numeracy-practice.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/hsc-maths-standard-tutoring"
+  to = "/src/pages/hsc-maths-standard-tutoring.html"
+  status = 200
+
+[[redirects]]
+  from = "/hsc-maths-standard-tutoring.md"
+  to = "/src/pages/hsc-maths-standard-tutoring.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/nsw-selective-test-mathematical-reasoning-practice"
+  to = "/src/pages/nsw-selective-test-mathematical-reasoning-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/nsw-selective-test-mathematical-reasoning-practice.md"
+  to = "/src/pages/nsw-selective-test-mathematical-reasoning-practice.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/preliminary-hsc-maths-year-11-help"
+  to = "/src/pages/preliminary-hsc-maths-year-11-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/preliminary-hsc-maths-year-11-help.md"
+  to = "/src/pages/preliminary-hsc-maths-year-11-help.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/nsw-selective-test-thinking-skills-practice"
+  to = "/src/pages/nsw-selective-test-thinking-skills-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/nsw-selective-test-thinking-skills-practice.md"
+  to = "/src/pages/nsw-selective-test-thinking-skills-practice.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/hsc-enterprise-computing-help"
+  to = "/src/pages/hsc-enterprise-computing-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/hsc-enterprise-computing-help.md"
+  to = "/src/pages/hsc-enterprise-computing-help.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vce-applied-computing-software-development-help"
+  to = "/src/pages/vce-applied-computing-software-development-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/vce-applied-computing-software-development-help.md"
+  to = "/src/pages/vce-applied-computing-software-development-help.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vce-applied-computing-data-analytics-help"
+  to = "/src/pages/vce-applied-computing-data-analytics-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/vce-applied-computing-data-analytics-help.md"
+  to = "/src/pages/vce-applied-computing-data-analytics-help.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vce-maths-methods-tutoring"
+  to = "/src/pages/vce-maths-methods-tutoring.html"
+  status = 200
+
+[[redirects]]
+  from = "/vce-maths-methods-tutoring.md"
+  to = "/src/pages/vce-maths-methods-tutoring.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vce-specialist-maths-tutoring"
+  to = "/src/pages/vce-specialist-maths-tutoring.html"
+  status = 200
+
+[[redirects]]
+  from = "/vce-specialist-maths-tutoring.md"
+  to = "/src/pages/vce-specialist-maths-tutoring.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vce-general-maths-tutoring"
+  to = "/src/pages/vce-general-maths-tutoring.html"
+  status = 200
+
+[[redirects]]
+  from = "/vce-general-maths-tutoring.md"
+  to = "/src/pages/vce-general-maths-tutoring.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vce-foundation-maths-help"
+  to = "/src/pages/vce-foundation-maths-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/vce-foundation-maths-help.md"
+  to = "/src/pages/vce-foundation-maths-help.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/oc-test-maths-practice-nsw"
+  to = "/src/pages/oc-test-maths-practice-nsw.html"
+  status = 200
+
+[[redirects]]
+  from = "/oc-test-maths-practice-nsw.md"
+  to = "/src/pages/oc-test-maths-practice-nsw.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/victorian-selective-entry-exam-maths-practice"
+  to = "/src/pages/victorian-selective-entry-exam-maths-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/victorian-selective-entry-exam-maths-practice.md"
+  to = "/src/pages/victorian-selective-entry-exam-maths-practice.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/software-engineering-major-project-help-hsc"
+  to = "/src/pages/software-engineering-major-project-help-hsc.html"
+  status = 200
+
+[[redirects]]
+  from = "/software-engineering-major-project-help-hsc.md"
+  to = "/src/pages/software-engineering-major-project-help-hsc.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/queensland-academies-entry-maths-practice"
+  to = "/src/pages/queensland-academies-entry-maths-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/queensland-academies-entry-maths-practice.md"
+  to = "/src/pages/queensland-academies-entry-maths-practice.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/atar-explained-for-coding-students"
+  to = "/src/pages/atar-explained-for-coding-students.html"
+  status = 200
+
+[[redirects]]
+  from = "/atar-explained-for-coding-students.md"
+  to = "/src/pages/atar-explained-for-coding-students.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/wa-gate-aset-maths-practice"
+  to = "/src/pages/wa-gate-aset-maths-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/wa-gate-aset-maths-practice.md"
+  to = "/src/pages/wa-gate-aset-maths-practice.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/choosing-year-11-computing-subjects-australia"
+  to = "/src/pages/choosing-year-11-computing-subjects-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/choosing-year-11-computing-subjects-australia.md"
+  to = "/src/pages/choosing-year-11-computing-subjects-australia.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/year-10-maths-methods-preparation"
+  to = "/src/pages/year-10-maths-methods-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/year-10-maths-methods-preparation.md"
+  to = "/src/pages/year-10-maths-methods-preparation.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/sa-ignite-entry-maths-practice"
+  to = "/src/pages/sa-ignite-entry-maths-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/sa-ignite-entry-maths-practice.md"
+  to = "/src/pages/sa-ignite-entry-maths-practice.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
