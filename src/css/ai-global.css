@@ -879,3 +879,4 @@
 .ag-root.ag-bebr { --ag-accent: #6C5A1B; --ag-accent-soft: rgba(108,90,27,.09); }   /* Bebras practice: an olive bronze chosen by hand, muted, at least 10 RGB from every accent in content and stylesheets and above 4.8:1 on #EDE7DA */
 .ag-root.ag-tamm { --ag-accent: #8C204C; --ag-accent-soft: rgba(140,32,76,.09); }   /* TASC Mathematics Methods: a deep beetroot crimson chosen by hand, at least 12 RGB from every site accent and 4.8:1 or better on #EDE7DA */
 .ag-root.ag-gpns { --ag-accent: #504098; --ag-accent-soft: rgba(80,64,152,.09); }   /* Girls' Programming Network next steps: a soft blue violet chosen by hand, muted, at least 10 RGB from every accent in use or claimed */
+.ag-root.ag-aiop { --ag-accent: #332193; --ag-accent-soft: rgba(51,33,147,.09); }   /* Informatics Olympiad: a deep indigo chosen by hand, muted, at least 10 RGB from every accent in content and stylesheets and above 4.8:1 on #EDE7DA */

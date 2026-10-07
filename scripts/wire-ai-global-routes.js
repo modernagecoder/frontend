@@ -358,6 +358,7 @@ const SLUGS = [
   'bebras-challenge-australia-practice',
   'tasc-mathematics-methods-tutoring',
   'girls-programming-network-next-step-australia',
+  'australian-informatics-olympiad-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -795,6 +796,7 @@ const LLMS_LABELS = {
   'bebras-challenge-australia-practice': 'Bebras Challenge Australia practice',
   'tasc-mathematics-methods-tutoring': 'TASC Mathematics Methods tutoring',
   'girls-programming-network-next-step-australia': 'Girls\' Programming Network: next steps',
+  'australian-informatics-olympiad-preparation': 'Australian Informatics Olympiad preparation',
 };
 
 function wireLlms(slugs) {
