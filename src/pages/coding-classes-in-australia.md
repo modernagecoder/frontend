@@ -286,6 +286,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Game development for kids in Australia](/game-development-for-kids-australia)
 - [Online coding classes for kids in Australia](/online-coding-classes-for-kids-australia)
 - [Coding classes cost in Australia](/coding-classes-cost-australia)
+- [Coding classes in Sydney](/best-coding-classes-in-sydney)
 <!-- AU-LINKS -->
 
 
