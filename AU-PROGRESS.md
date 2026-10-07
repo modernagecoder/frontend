@@ -93,7 +93,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 59 | vce-applied-computing-software-development-help (vcsd, #4B6684) | ag- exam door | 3,662 | 2.1% vs vce-applied-computing-data-analytics-help | Why must existence, type and range checks run in that order? | validation order: existence, then type, then range | a188520b |
 | 60 | vce-applied-computing-data-analytics-help (vcda, #45571E) | ag- exam door | 3,506 | 2.1% vs vce-applied-computing-software-development-help | How much can one bad row distort a dataset, and how should cleansing be documented? | data cleansing of the 2026 VCE exam timetable | f760dd47 |
 | 61 | vce-maths-methods-tutoring (vcmm, #4C349C) | ag- exam door | 3,483 | 1.8% vs vce-specialist-maths-tutoring | Does the order of a dilation and a translation change the graph? | order of transformations, dilation before or after translation | 4b05df01 |
-| 62 | vce-specialist-maths-tutoring (vcsm, #815433) | ag- exam door | 3,446 | 1.8% vs vce-maths-methods-tutoring | Why do the nth roots of unity form a regular polygon, and what does that predict? | nth roots of unity as regular polygon vertices | (this commit) |
+| 62 | vce-specialist-maths-tutoring (vcsm, #815433) | ag- exam door | 3,446 | 1.8% vs vce-maths-methods-tutoring | Why do the nth roots of unity form a regular polygon, and what does that predict? | nth roots of unity as regular polygon vertices | e09c473d |
+| 63 | vce-general-maths-tutoring (vcgm, #9C394E) | ag- exam door | 3,368 | 1.7% vs vce-maths-methods-tutoring | Where does a first-order linear recurrence settle in the long run? | first-order linear recurrence steady state | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

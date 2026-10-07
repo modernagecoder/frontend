@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>VCE General Maths Tutoring | Units 3 and 4 Online</title>
+  <meta name="description" content="VCE General Maths tutoring online for Victorian students: data analysis, recursion, matrices and networks, both 1.5-hour exams and the SACs, with real reasoning.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/vce-general-maths-tutoring">
+  <link rel="alternate" type="text/markdown" href="/src/pages/vce-general-maths-tutoring.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#9C394E">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/vce-general-maths-tutoring">
+  <meta property="og:title" content="VCE General Maths Tutoring | Units 3 and 4 Online">
+  <meta property="og:description" content="VCE General Mathematics from the VCAA study design: the four topics of Units 3 and 4, how the coursework and two exams weigh, the 2026 exam dates, and the steady state every first-order recurrence heads towards.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="VCE General Maths Tutoring">
+  <meta name="twitter:description" content="VCE General Maths from the study design: four topics, two exams, and the long-run value inside every recurrence.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-vcgm .ag-hero-grid { gap: clamp(1.1rem, 2.9vw, 2.5rem); }
+.ag-root.ag-vcgm .ag-hero h1 { letter-spacing: -0.013em; }
+.ag-root.ag-vcgm .ag-capsule { border-left-width: 4px; }
+.ag-root.ag-vcgm .ag-section-head h2 { max-width: 27ch; }
+.ag-root.ag-vcgm .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-vcgm .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-vcgm .ag-spec dt { letter-spacing: 0.1em; }
+.ag-root.ag-vcgm .ag-slots { gap: 1.25rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/vce-general-maths-tutoring#page","url":"https://learn.modernagecoders.com/vce-general-maths-tutoring","name":"VCE General Maths Tutoring","description":"Support for Victorian students taking VCE General Mathematics Units 3 and 4: the topics in each unit, coursework tasks and weights, both examinations and their conditions, the 2026 sessions, and a worked lesson on the steady state of a first-order linear recurrence.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":3,"name":"VCE General Maths","item":"https://learn.modernagecoders.com/vce-general-maths-tutoring"}]},{"@type":"Course","name":"VCE General Maths Tutoring","description":"Live online maths tutoring in data analysis, recurrence relations, matrices, networks and decision mathematics for Victorian VCE General Mathematics students, without completing any School-assessed Coursework.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/vce-general-maths-tutoring"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/vce-general-maths-tutoring"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/vce-general-maths-tutoring"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is VCE General Mathematics?","acceptedAnswer":{"@type":"Answer","text":"It is a VCE mathematics study of non-calculus and discrete mathematics. Units 3 and 4 cover data analysis, recursion and financial modelling, matrices, and networks and decision mathematics."}},{"@type":"Question","name":"How is the study score made up?","acceptedAnswer":{"@type":"Answer","text":"School-assessed Coursework contributes 40 per cent (24 per cent in Unit 3 and 16 per cent in Unit 4), and Examination 1 and Examination 2 contribute 30 per cent each."}},{"@type":"Question","name":"When are the 2026 General Maths exams?","acceptedAnswer":{"@type":"Answer","text":"The VCAA timetable lists Examination 1 on Friday 30 October 2026 and Examination 2 on Monday 2 November, both in the 2:00 pm to 3:45 pm session. Each examination is 1.5 hours."}},{"@type":"Question","name":"What is the difference between the two exams?","acceptedAnswer":{"@type":"Answer","text":"Examination 1 is multiple choice across all areas of study; Examination 2 is written response with extended application problems. Both assume approved technology and allow one bound reference text."}},{"@type":"Question","name":"What is a first-order linear recurrence?","acceptedAnswer":{"@type":"Answer","text":"A rule that gives each term from the one before: u0 = a and un+1 = R times un + d, where a, R and d are constants. When R is between 0 and 1 the terms settle towards d divided by (1 minus R)."}},{"@type":"Question","name":"Is General Maths easier than Methods?","acceptedAnswer":{"@type":"Answer","text":"It is different rather than easier. General has no calculus and focuses on applied and discrete mathematics, with heavy emphasis on interpretation. Many students take both."}},{"@type":"Question","name":"What are the General Maths SACs?","acceptedAnswer":{"@type":"Answer","text":"Unit 3 has an application task of 4 to 6 hours over 1 to 2 weeks and a modelling or problem-solving task on recursion and financial modelling. Unit 4 has two more modelling or problem-solving tasks."}},{"@type":"Question","name":"Will you help with my SAC?","acceptedAnswer":{"@type":"Answer","text":"No. We teach each topic with examples we make up and keep well away from SAC work, which the VCAA only credits as the student's own."}},{"@type":"Question","name":"Does the bound reference text matter?","acceptedAnswer":{"@type":"Answer","text":"Yes. Both exams allow one bound reference, which may be annotated. A reference built carefully through the year, with a worked example for every topic, saves real time in the exams."}},{"@type":"Question","name":"When do lessons run?","acceptedAnswer":{"@type":"Answer","text":"Late afternoon in Victoria suits most students and falls during our tutors' working day. We agree the weekly time after the free lesson."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/vce-general-maths-tutoring","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-vcgm">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#topics">Four topics</a></li>
+      <li><a href="#exams">Two exams</a></li>
+      <li><a href="#steady">Steady state</a></li>
+      <li><a href="#sacs">The SACs</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / VCE General Maths
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Victoria &middot; VCE General Mathematics &middot; Live online</p>
+        <h1>VCE General Maths tutoring</h1>
+        <p class="ag-lede">General Mathematics is the VCE maths study for students who want mathematics they can use: statistics on real data, recurrence models, matrices and networks. It is non-calculus, but it is not easy, and the two exams test whether students can interpret a model as well as compute with it.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#steady" class="ag-btn ag-btn--ghost">See the recurrence lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20class%20about%20VCE%20General%20Mathematics." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'vcgm'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Study design read at source &middot; Interpretation, not only calculation &middot; After-school lessons in Victorian time</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Study</dt><dd>VCE General Mathematics</dd>
+          <dt>Units</dt><dd>3 and 4</dd>
+          <dt>Accredited from</dt><dd>1 January 2023</dd>
+          <dt>Exam 1</dt><dd>30 per cent, multiple choice</dd>
+          <dt>Exam 2</dt><dd>30 per cent, written response</dd>
+          <dt>Each exam</dt><dd>1.5 hours</dd>
+          <dt>2026 exams</dt><dd>30 October and 2 November</dd>
+          <dt>We never</dt><dd>Complete any SAC</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>VCE General Mathematics Units 3 and 4 cover data analysis and recursion and financial modelling in Unit 3, and matrices and networks and decision mathematics in Unit 4. Coursework counts 40 per cent (24 in Unit 3, 16 in Unit 4), and two 1.5-hour examinations count 30 per cent each: Examination 1 is multiple choice and Examination 2 is written response.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to begin</p>
+      <h2>Three courses that fit General Maths</h2>
+      <p class="ag-lede">Statistics first, because Data analysis carries the largest share of Unit 3, then the discrete topics.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/statistics-probability-maths-course">
+        <div class="ag-pick-shot"><img src="/images/statistics-probability-maths.webp" alt="Statistics &amp; Probability course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VCGM / 01</p>
+          <h3>Statistics and probability</h3>
+          <p>Distributions, association, least squares lines and residuals, read for meaning rather than plugged into a calculator.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-high-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/high-school-maths.webp" alt="High School Mathematics course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VCGM / 02</p>
+          <h3>High school mathematics</h3>
+          <p>Sequences, linear relations and matrices, the algebra beneath recursion and Unit 4.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-analytics-mathematics-masterclass">
+        <div class="ag-pick-shot"><img src="/images/data-analytics-maths.webp" alt="Maths for Data Science course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VCGM / 03</p>
+          <h3>Mathematics for data analytics</h3>
+          <p>Trends, time series and forecasting, the applied side of the Data analysis topic.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="topics">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Inside the study design</p><h2>Four topics across two units</h2><p class="ag-lede">We read the VCE Mathematics Study Design on 7 October 2026. General Units 3 and 4 consist of two areas of study, Data analysis, probability and statistics, and Discrete mathematics, split into four topics.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>VCE General Mathematics Units 3 and 4: topics and examples of key knowledge</caption><thead><tr><th scope="col">Unit</th><th scope="col">Topic</th><th scope="col">Examples from the key knowledge</th></tr></thead><tbody><tr><td>Unit 3</td><td>Data analysis</td><td>Least squares lines, residual analysis to check fit, data transformations, and time series with seasonality and smoothing by moving medians</td></tr><tr><td>Unit 3</td><td>Recursion and financial modelling</td><td>First-order linear recurrence relations, depreciation, compound interest and the time value of money</td></tr><tr><td>Unit 4</td><td>Matrices</td><td>Matrix operations, transition matrices, Leslie matrices and matrix recurrence relations with an equilibrium state</td></tr><tr><td>Unit 4</td><td>Networks and decision mathematics</td><td>Eulerian trails and circuits, Hamiltonian paths, minimum spanning trees by Prim’s algorithm, and flow problems with the maximum-flow minimum-cut theorem</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The study design describes General Mathematics as the study of non-calculus and discrete mathematics topics, designed to be widely accessible. That makes it a good fit for students heading into business, health, trades and many university courses, and a common pairing with Mathematical Methods for students who want breadth.</p>
+<p>Data analysis is the heaviest single topic, and its key knowledge is precise: the least squares line y = a + bx is fitted with x as the explanatory variable and y as the response, the slope and intercepts are interpreted in context, and residual plots are used to judge whether a linear model is good enough.</p></div><div><p>The discrete topics reward a different habit, careful bookkeeping. A transition matrix question is mostly about setting up the matrix correctly; a network question is mostly about reading the graph accurately. Most lost marks in Unit 4 come from setup, not arithmetic.</p>
+<p>Technology is assumed in both exams, with numerical, graphical, symbolic, financial and statistical functionality. That shifts the challenge from calculating to choosing: which model, which input, and what the output means.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Checked on 7 October 2026 at the <a class="ag-inline-link" href="https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/general-mathematics/vce-general-mathematics" rel="noopener" target="_blank">VCAA General Mathematics page</a> and in the Mathematics study design document.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="exams">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How the study score is built</p><h2>Two 1.5-hour papers, a weekend apart</h2><p class="ag-lede">Each weight, task length and exam rule below is the study design's; the dates are from the VCAA timetable as it stood on 7 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>General Mathematics: what each part of the score asks for</caption><thead><tr><th scope="col">Part</th><th scope="col">Counts for</th><th scope="col">In practice</th></tr></thead><tbody><tr><td>Unit 3 coursework</td><td>24 per cent</td><td>Two tasks: an application task of four to six hours across one or two weeks, and a recursion and financial modelling task of two to three hours inside a week</td></tr><tr><td>Unit 4 coursework</td><td>16 per cent</td><td>The second and third modelling or problem-solving tasks</td></tr><tr><td>Examination 1</td><td>30 per cent</td><td>Ninety minutes of multiple-choice questions spanning every area of study</td></tr><tr><td>Examination 2</td><td>30 per cent</td><td>Ninety minutes of written responses, including extended applications</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>In 2026 General Mathematics Examination 1 is on Friday 30 October and Examination 2 on Monday 2 November, both in the 2:00 pm to 3:45 pm session the VCAA timetable prints. General students therefore finish their maths exams before Methods students start.</p>
+<p>Both papers assume approved technology with financial and statistical functionality, and both allow one bound reference text, which may be annotated. A well-organised reference, with worked examples for each topic, is worth building through the year rather than the week before.</p></div><div><p>Multiple choice is not easier than written response; it is faster. Each question is worth getting right in about a minute and a half on average, so a student must recognise the topic and the trap quickly. Practising whole sets under time is the only reliable preparation.</p>
+<p>Examination 2 asks for extended application problems, where the marks are in setting up and interpreting: stating what a slope means for the context, or what a steady state says about the long run. Answers that stop at a number lose those marks.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Assessment details: VCE Mathematics Study Design (General). Exam sessions: <a class="ag-inline-link" href="https://www.vcaa.vic.edu.au/administration/key-dates/vce-examination-timetable" rel="noopener" target="_blank">VCAA 2026 timetable</a>, viewed 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="steady">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked lesson</p><h2>Where a first-order recurrence settles</h2><p class="ag-lede">The study design uses a first-order linear recurrence of the form u0 = a, un+1 = R times un + d, with a, R and d constants. Every such recurrence with R between 0 and 1 heads to a fixed value, and finding it turns a long table into one line. The example below is ours and deliberately has nothing to do with money.</p></div>
+    <div class="ag-grid-3"><div><h3>The model</h3><p>A school library starts the year with 5,000 books. Each year it withdraws 8 per cent of its stock and adds 300 new books. So u0 = 5,000 and un+1 = 0.92 un + 300.</p></div><div><h3>The steady state</h3><p>If the stock ever stopped changing, it would satisfy S = 0.92 S + 300, so 0.08 S = 300 and S = 3,750. That is where the library is heading, whatever it starts with.</p></div><div><h3>How fast</h3><p>The gap to 3,750 shrinks by 8 per cent a year, so it halves roughly every 8.3 years. Starting from 5,000, the stock is within 50 books of 3,750 after 39 years.</p></div></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The library recurrence, year by year (our calculation)</caption><thead><tr><th scope="col">Year n</th><th scope="col">0</th><th scope="col">1</th><th scope="col">2</th><th scope="col">3</th><th scope="col">4</th><th scope="col">5</th></tr></thead><tbody><tr><td>Starting at 5,000</td><td>5,000</td><td>4,900</td><td>4,808</td><td>4,723.4</td><td>4,645.5</td><td>4,573.9</td></tr><tr><td>Starting at 3,000</td><td>3,000</td><td>3,060</td><td>3,115.2</td><td>3,166.0</td><td>3,212.7</td><td>3,255.7</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The two rows tell the whole story. A library that starts above 3,750 shrinks towards it; one that starts below grows towards it. The steady state does not depend on the starting value at all, only on R and d, which is why the formula S = d divided by (1 minus R) is worth understanding rather than memorising.</p>
+<p>This is the kind of interpretation Examination 2 rewards. "In the long run the library will hold about 3,750 books" earns the mark that "u39 = 3,798.4" does not, because it answers the question a real person would ask.</p></div><div><p>The same idea reappears in Unit 4. A regular transition matrix settles to an equilibrium state matrix in exactly the same way, and the study design asks students to identify it informally by watching successive state matrices stop changing. Recognising one idea in two topics is efficient revision.</p>
+<p>A short program makes the idea concrete: a loop of three lines prints the table above, and changing R or d shows the steady state move instantly. That is how we teach recursion, and it suits students who think visually.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Recurrence form and equilibrium key knowledge from the VCE Mathematics Study Design, General Mathematics Units 3 and 4. The library model and all values are our own, computed in Python on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="sacs">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">School-assessed Coursework</p><h2>We teach the topics, never the SAC itself</h2><p class="ag-lede">Coursework is 40 per cent of General Mathematics, and the VCAA accepts it only as the student's own work. The points below are quoted from the study design.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Coursework rules, in brief</caption><thead><tr><th scope="col">Topic</th><th scope="col">The VCAA position</th></tr></thead><tbody><tr><td>Who did the work</td><td>Teachers must be able to confirm that unacknowledged work came from the student</td></tr><tr><td>When and where</td><td>Largely in class, within a set period</td></tr><tr><td>Unit 3</td><td>The application task plus a recursion and financial modelling task</td></tr><tr><td>Unit 4</td><td>Two more modelling or problem-solving tasks</td></tr></tbody></table></div>
+    <p>We teach data analysis, recursion, matrices and networks with examples we write, like the library above, and show students how to use technology to check their thinking. Our tutors leave SAC work alone entirely: no completing, checking or tidying, and no practising answers for a task that has been announced. Students who can model an unfamiliar situation with us can handle the school's version alone.</p>
+    <p class="ag-source-note ag-mt-40">From the General Mathematics coursework and authentication sections of the study design (7 October 2026).</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Getting ready</p>
+      <h2>Four rungs to exam readiness</h2>
+      <p class="ag-lede">Students arrive at General Mathematics from many directions. The rungs describe the skill, not the year.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From Year 10 statistics to both exams</caption><thead><tr><th scope="col">When</th><th scope="col">Rung</th><th scope="col">The sign it is secure</th></tr></thead><tbody><tr><td>Year 10 or Units 1 and 2</td><td class="ag-num">1. Describing data</td><td class="ag-num">Reads a distribution and states its shape, centre and spread in words</td></tr><tr><td>Unit 3 Data analysis</td><td class="ag-num">2. Modelling association</td><td class="ag-num">Fits a least squares line and uses a residual plot to judge it</td></tr><tr><td>Unit 3 Recursion</td><td class="ag-num">3. Recurrences</td><td class="ag-num">Writes a recurrence from a description and finds its long-run value</td></tr><tr><td>Unit 4</td><td class="ag-num">4. Matrices and networks</td><td class="ag-num">Sets up a transition matrix or reads a network without errors</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If data analysis feels vague</h3><p>The usual gap is interpretation. Students can produce a slope but not say what it means. Writing one plain-English sentence after every calculation fixes this faster than more calculation.</p>
+<p>Residual plots deserve their own practice: a pattern in the residuals means the line is the wrong model, no matter how close the coefficient looks.</p></div><div><h3>Beyond General</h3><p>Students who enjoy the data topic may like our <a class="ag-inline-link" href="/vce-applied-computing-data-analytics-help">VCE Data Analytics</a> page, which applies the same statistics in software.</p>
+<p>Networks and decision mathematics lead straight into logistics, operations and computing, where shortest paths and flows are everyday tools.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for General Maths students</h2>
+      <p class="ag-lede">Grouped by the topics they support. Each card opens a full syllabus.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Data analysis</h3>
+        <span class="ag-band-sub">Statistics with meaning</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VCGM / DA / 01</p>
+          <h4>Statistics and probability</h4>
+          <p>Distributions, association and regression, interpreted carefully.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCGM / DA / 02</p>
+          <h4>Statistics, exam level</h4>
+          <p>More regression and data practice from a parallel senior course.</p>
+          <a class="ag-course-link" href="/courses/ap-statistics-maths-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCGM / DA / 03</p>
+          <h4>Data science with Python</h4>
+          <p>Real datasets, cleaned and charted in code.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Algebra and recursion</h3>
+        <span class="ag-band-sub">The ground under Unit 3</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VCGM / AL / 01</p>
+          <h4>Algebra foundations</h4>
+          <p>Linear relations and sequences, rebuilt with confidence.</p>
+          <a class="ag-course-link" href="/courses/algebra-foundations-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCGM / AL / 02</p>
+          <h4>High school mathematics</h4>
+          <p>Senior-years maths across every General topic.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCGM / AL / 03</p>
+          <h4>Maths through coding</h4>
+          <p>Recurrences, matrices and simulations written as small programs.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Matrices, networks and beyond</h3>
+        <span class="ag-band-sub">Unit 4 and next steps</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VCGM / UN / 01</p>
+          <h4>Mathematics for data analytics</h4>
+          <p>Matrices and models for students heading into data work.</p>
+          <a class="ag-course-link" href="/courses/data-analytics-mathematics-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCGM / UN / 02</p>
+          <h4>Middle school mathematics</h4>
+          <p>For gaps from earlier years that resurface in Units 3 and 4.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCGM / UN / 03</p>
+          <h4>IGCSE Mathematics</h4>
+          <p>Extra practice in sets, matrices and graphs from another syllabus.</p>
+          <a class="ag-course-link" href="/courses/igcse-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>General Maths lessons, after school</h2>
+      <p class="ag-lede">We teach live from India. During daylight saving (4 October 2026 to 4 April 2027 in the IANA time zone database) Victoria sits five and a half hours ahead of us, and four and a half the rest of the year; a 4.30 pm class in Victoria therefore starts at 11 am in India over summer.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday after school</p><p class="ag-slot-l">Weekly progress through the four topics.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend morning</p><p class="ag-slot-l">Timed multiple-choice sets and longer written questions.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">School holidays</p><p class="ag-slot-l">Exam blocks before late October.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A sentence after every number</h3><p>Each answer finishes with what it means in context.</p></div>
+      <div><h3>Reference built through the year</h3><p>Students assemble their bound reference as they learn, not the night before.</p></div>
+      <div><h3>Timed sets</h3><p>Multiple-choice practice at real exam pace.</p></div>
+      <div><h3>Five to ten per group</h3><p>Matched by level, and everyone explains a model aloud.</p></div>
+      <div><h3>Private lessons</h3><p>When one topic needs focused attention.</p></div>
+      <div><h3>Results belong to you</h3><p>We make no claims about study scores or ATARs; the work and the result are yours.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects from our students</h2>
+      <p class="ag-lede">Self-chosen builds rather than assessed work; dozens more sit in the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">General Maths lessons have one monthly price, set in US dollars and equal for every family outside India; there is no joining charge and you are free to stop each month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A full lesson with a tutor</li><li>An honest read on weak topics</li><li>No card asked for</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students at one level</li><li>A steady tutor each week</li><li>Practice checked and discussed</li><li>A certificate at the end</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A tutor for one student</li><li>Centred on one topic</li><li>Common before the October exams</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Exactly as students and parents wrote them on Google.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about General Maths</p>
+      <h2>General Maths questions from students and parents</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is VCE General Mathematics?</h3>
+        <p>It is a VCE mathematics study of non-calculus and discrete mathematics. Units 3 and 4 cover data analysis, recursion and financial modelling, matrices, and networks and decision mathematics.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is the study score made up?</h3>
+        <p>School-assessed Coursework contributes 40 per cent (24 per cent in Unit 3 and 16 per cent in Unit 4), and Examination 1 and Examination 2 contribute 30 per cent each.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are the 2026 General Maths exams?</h3>
+        <p>The VCAA timetable lists Examination 1 on Friday 30 October 2026 and Examination 2 on Monday 2 November, both in the 2:00 pm to 3:45 pm session. Each examination is 1.5 hours.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the difference between the two exams?</h3>
+        <p>Examination 1 is multiple choice across all areas of study; Examination 2 is written response with extended application problems. Both assume approved technology and allow one bound reference text.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is a first-order linear recurrence?</h3>
+        <p>A rule that gives each term from the one before: u0 = a and un+1 = R times un + d, where a, R and d are constants. When R is between 0 and 1 the terms settle towards d divided by (1 minus R).</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is General Maths easier than Methods?</h3>
+        <p>It is different rather than easier. General has no calculus and focuses on applied and discrete mathematics, with heavy emphasis on interpretation. Many students take both.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What are the General Maths SACs?</h3>
+        <p>Unit 3 has an application task of 4 to 6 hours over 1 to 2 weeks and a modelling or problem-solving task on recursion and financial modelling. Unit 4 has two more modelling or problem-solving tasks.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you help with my SAC?</h3>
+        <p>No. We teach each topic with examples we make up and keep well away from SAC work, which the VCAA only credits as the student's own.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does the bound reference text matter?</h3>
+        <p>Yes. Both exams allow one bound reference, which may be annotated. A reference built carefully through the year, with a worked example for every topic, saves real time in the exams.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When do lessons run?</h3>
+        <p>Late afternoon in Victoria suits most students and falls during our tutors' working day. We agree the weekly time after the free lesson.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>Other pages for Victorian learners</h2>
+      <p class="ag-lede">The other VCE maths studies, the data study that uses the same statistics, and the wider picture.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/vce-maths-methods-tutoring">VCE Maths Methods tutoring</a></h3><p>Functions and calculus, often taken alongside General.</p></div>
+      <div><h3><a class="ag-inline-link" href="/vce-applied-computing-data-analytics-help">VCE Data Analytics help</a></h3><p>Statistics and visualisation in the Applied Computing study.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-maths-tutoring-australia">Online maths tutoring in Australia</a></h3><p>Maths help well beyond the VCE.</p></div>
+      <div><h3><a class="ag-inline-link" href="/vibe-coding-and-ai-agents-classes-in-melbourne">Coding and AI classes in Melbourne</a></h3><p>Coding for General Maths students who like data.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Australian competitions calendar</a></h3><p>Maths contests through the school year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>A starting point for coding at any age.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Start with a free General Maths lesson</h2>
+        <p class="ag-lede">Tell us the topic that worries you most, whether data analysis, recursion, matrices or networks. The free lesson works on it with our own examples.</p>
+        <p class="ag-mt-40">Want detail first? Open any syllabus in the <a class="ag-inline-link" href="/course-atlas">course atlas</a>, read <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, or see our <a class="ag-inline-link" href="/online-maths-tutoring-australia">Australian maths tutoring page</a> for younger years.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20class%20about%20VCE%20General%20Mathematics." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'vcgm',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">For the fastest response, use WhatsApp. Our +91 number reflects where we teach from, India; nothing on this page claims a Victorian address.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_vcgm(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card and no obligation. One reply to book the lesson.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Australia</h4><ul><li><a href="/online-maths-tutoring-australia">Maths tutoring in Australia</a></li><li><a href="/vce-maths-methods-tutoring">VCE Maths Methods</a></li><li><a href="/vibe-coding-and-ai-agents-classes-in-melbourne">Melbourne and Victoria</a></li><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li></ul></div>
+      <div><h4>Learn more</h4><ul><li><a href="/vce-applied-computing-data-analytics-help">VCE Data Analytics</a></li><li><a href="/coding-roadmap">The coding roadmap</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>We teach the models; the SACs stay the student's own</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_vcgm = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'vce-general-maths-tutoring-inline', meta: { name: name, age: age, page: 'vce-general-maths-tutoring' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

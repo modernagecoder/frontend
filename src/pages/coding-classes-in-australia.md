@@ -330,6 +330,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [VCE Data Analytics help](/vce-applied-computing-data-analytics-help)
 - [VCE Maths Methods tutoring](/vce-maths-methods-tutoring)
 - [VCE Specialist Maths tutoring](/vce-specialist-maths-tutoring)
+- [VCE General Maths tutoring](/vce-general-maths-tutoring)
 <!-- AU-LINKS -->
 
 
