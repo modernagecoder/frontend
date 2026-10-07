@@ -307,6 +307,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI classes for teens](/ai-classes-for-teens-australia)
 - [Free coding classes for kids in Australia](/free-coding-classes-for-kids-australia-what-you-get)
 - [Coding classes near me in Australia](/coding-classes-near-me-australia-online-or-local)
+- [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-australia)
 <!-- AU-LINKS -->
 
 

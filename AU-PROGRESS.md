@@ -70,7 +70,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 18 | ai-courses-for-kids-australia (akau, #723C4B) | ag- topic door | 3,494 | 1% vs learn-to-think-not-just-use-ai-tools-australia | What should an AI course for an Australian child teach, and why will a sorter that never saw a wallaby call every wallaby a kangaroo? | the zero problem (training data coverage) | f60d7ab9 |
 | 19 | ai-classes-for-teens-australia (atau, #302D8A) | ag- topic door | 3,335 | 0.9% vs ai-courses-for-kids-australia | How do Australian teens use AI well, check what it says claim by claim, and build it themselves? | claim-by-claim verification of AI output against primary sources | 216572b7 |
 | 29 | free-coding-classes-for-kids-australia-what-you-get (fcau, #385810) | ag- topic door | 3,643 | 1.1% vs online-coding-classes-for-kids-australia | What do free coding options for Australian kids include, and what do they leave out? | weighted decision matrix | e6b9427f |
-| 30 | coding-classes-near-me-australia-online-or-local (nmau, #305068) | ag- topic door | 3,297 | 1.7% vs online-coding-tutor-australia | What does coding classes near me mean in Australia, and how do you check a provider before booking? | lateral reading | (this commit) |
+| 30 | coding-classes-near-me-australia-online-or-local (nmau, #305068) | ag- topic door | 3,297 | 1.7% vs online-coding-tutor-australia | What does coding classes near me mean in Australia, and how do you check a provider before booking? | lateral reading | 17208fde |
+| 31 | learn-to-think-not-just-use-ai-tools-australia (ltau, #1C4498) | ag- topic door | 3,166 | 2.2% vs problem-solving-through-coding-australia | How do Australian students keep the thinking when AI gives the answers, and how many AI answers must they check? | acceptance sampling | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
