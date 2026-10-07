@@ -333,6 +333,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [VCE General Maths tutoring](/vce-general-maths-tutoring)
 - [VCE Foundation Maths help](/vce-foundation-maths-help)
 - [HSC Enterprise Computing help](/hsc-enterprise-computing-help)
+- [HSC Maths Standard tutoring](/hsc-maths-standard-tutoring)
 <!-- AU-LINKS -->
 
 
