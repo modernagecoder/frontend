@@ -39453,5 +39453,50 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with Translink, the Department of Transport and Main Roads, the ABS or the Queensland Department of Education."
     ]
+  },
+  "best-coding-classes-in-toowoomba": {
+    "market": "Toowoomba",
+    "bodyClass": "cg-twba",
+    "pageType": "city",
+    "curriculumAuthority": "Toowoomba, ABS Census 2021 QuickStats, Significant Urban Area 3016 (read 7 October 2026): 142,163 people; median age 37; 37,577 families; 60,212 private dwellings; average 2.5 people per household; dwelling structure, occupied private dwellings: separate house 42,814 (80.1 percent; Queensland 74.8; Australia 72.3), flat or apartment 2,358 (4.4 percent; Queensland 12.5; Australia 14.2); occupation: Professionals 14,198 (21.5 percent; Queensland 21.4; Australia 24.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 23,818 (20.9 percent; Queensland 21.9; Australia 26.3); aged 15 to 19 9,586 (6.7 percent; Queensland 6.1; Australia 5.7). Queensland Department of Education term dates: 2026 Term 4 Tuesday 6 October to Friday 11 December; school holidays Saturday 12 December 2026 to Tuesday 26 January 2027. IANA tz database: Australia/Brisbane has no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Connection Scan Algorithm (earliest arrival). Translink GTFS for Toowoomba, TWB_GTFS.zip listed on data.qld.gov.au (Translink General transit feed specification, CC BY 4.0), downloaded 7 October 2026: agency Bus Qld Toowoomba; feed_info start 20261007, end 20261206; 642 stop records (641 boarding stops plus parent station place_twbstn); routes 901 to 907 and 950; 370 trips; 17,272 stop_times. Weekday service (calendar Monday flag): 202 trips, 9,444 consecutive stop-to-stop connections. Source stop 880176 Toowoomba bus station stop 2A; footpaths between stops within 150 m (haversine) at 1.2 m/s. Departure 08:00: 8,397 connections with departure at or after 08:00 scanned; 641 of 641 stops reached; 376 by 09:00; travel time quartiles 33.0 / 52.0 / 77.0 min; 5 stops first reached after 12:00; latest first arrival 15:50 at stop 881145, whose only weekday arrival is 15:50. Departure 08:05: 8,361 scanned; 373 by 09:00; median 47.2 min. Brute-force check by repeated relaxation over trips: 2 passes, 0 disagreements at 08:00.",
+    "requiredMentions": [
+      "142,163",
+      "37,577",
+      "60,212",
+      "23,818",
+      "14,198",
+      "376 of the 641 stops",
+      "8,397",
+      "47.2 minutes",
+      "Toowoomba bus station stop 2A",
+      "6 October to Friday 11 December 2026"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Toowoomba Significant Urban Area (3016): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/3016"
+      },
+      {
+        "claim": "Translink General transit feed specification (GTFS), Toowoomba feed, CC BY 4.0.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Queensland Department of Education, school term dates 2026.",
+        "url": "https://education.qld.gov.au/about-us/calendar/term-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Brisbane.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "How punctual Toowoomba buses are: the feed is a schedule, not a record of actual running, so no punctuality claim is made.",
+      "The name of the last stop reached and why it has one afternoon service: not verified with the operator, so it is described only by its timetable.",
+      "Toowoomba Regional Council open data: no council dataset was needed; nothing is quoted from it.",
+      "Bureau of Meteorology station data: the observations feed returned 403 to automated reads and was not circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Translink, the Queensland Government, Toowoomba Regional Council or the ABS."
+    ]
   }
 }

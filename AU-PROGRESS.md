@@ -155,7 +155,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 127 | coding-classes-for-kids-melbourne (kmel, #185422) | cg- kids city page | 3,486 | 2% vs coding-and-ai-classes-in-victoria | Which playground is nearest the State Library, and why does the starting record matter? | running minimum (smallest so far) and the starting-value bug | 9d834dff |
 | 128 | coding-classes-for-kids-brisbane (kbne, #844026) | cg- kids city page | 3,347 | 1.6% vs coding-classes-for-kids-melbourne | Which letter is most common in Brisbane ferry stop names, and does a capital count the same? | letter frequency with a dictionary, de-duplication and case | 2f97bd26 |
 | 129 | coding-classes-for-kids-perth (kper, #1C1E7E) | cg- kids city page | 3,213 | 1.2% vs coding-classes-for-kids-gold-coast | Is the trip home on the Fremantle line just the trip out, reversed? | reversing a list and comparing two lists to catch a data typo | bf7b796c |
-| 130 | coding-classes-for-kids-adelaide (kadl, #964454) | cg- kids city page | 3,355 | 2% vs coding-classes-for-kids-sydney | Are Adelaide's five city squares a mirror image or a half turn? | reflection versus rotational symmetry tested on coordinates | (this commit) |
+| 130 | coding-classes-for-kids-adelaide (kadl, #964454) | cg- kids city page | 3,355 | 2% vs coding-classes-for-kids-sydney | Are Adelaide's five city squares a mirror image or a half turn? | reflection versus rotational symmetry tested on coordinates | 48289b76 |
+| 131 | coding-classes-for-kids-canberra (kcbr, #423680) | cg- kids city page | 3,194 | 1.4% vs coding-classes-for-kids-melbourne | How many playgrounds surround each Canberra town centre, and which pictogram key shows them fairly? | pictogram key choice, quotient and remainder, part icons | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

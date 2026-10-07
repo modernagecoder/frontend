@@ -857,6 +857,7 @@ const MARKETS = [
   ['coding-classes-for-kids-gold-coast', 'Gold Coast, for kids'],
   ['coding-classes-for-kids-sydney', 'Sydney, for kids'],
   ['best-coding-classes-in-gold-coast', 'Gold Coast, Queensland'],
+  ['best-coding-classes-in-toowoomba', 'Toowoomba, Queensland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
