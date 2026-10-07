@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NAPLAN Year 9 Numeracy Practice | Algebra, Levels, Checks</title>
+  <meta name="description" content="NAPLAN Year 9 numeracy practice: the 65-minute test, the algebra in the Strong and Exceeding descriptions, and equation questions with checks written out in full.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/naplan-year-9-numeracy-practice">
+  <link rel="alternate" type="text/markdown" href="/src/pages/naplan-year-9-numeracy-practice.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#7C1814">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/naplan-year-9-numeracy-practice">
+  <meta property="og:title" content="NAPLAN Year 9 Numeracy Practice | Algebra, Levels, Checks">
+  <meta property="og:description" content="Year 9 NAPLAN numeracy from ACARA's own descriptions: what Strong and Exceeding demand in algebra, the calculator split, and practice that checks every solution by substituting it back.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NAPLAN Year 9 Numeracy Practice">
+  <meta name="twitter:description" content="Year 9 NAPLAN numeracy: algebra, the levels and a checking habit.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-nynn .ag-hero-grid { gap: clamp(1.2rem, 2.9vw, 2.5rem); }
+.ag-root.ag-nynn .ag-hero h1 { letter-spacing: -0.014em; }
+.ag-root.ag-nynn .ag-capsule { border-left-width: 6px; }
+.ag-root.ag-nynn .ag-section-head h2 { max-width: 25ch; }
+.ag-root.ag-nynn .ag-table caption { text-align: left; }
+.ag-root.ag-nynn .ag-table th { letter-spacing: 0.01em; }
+.ag-root.ag-nynn .ag-spec dt { letter-spacing: 0.11em; }
+.ag-root.ag-nynn .ag-slots { gap: 1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/naplan-year-9-numeracy-practice#page","url":"https://learn.modernagecoders.com/naplan-year-9-numeracy-practice","name":"NAPLAN Year 9 Numeracy Practice","description":"A Year 9 guide to NAPLAN numeracy for Australian families: the 65-minute test with its non-calculator opening, ACARA's Year 9 descriptions with their emphasis on algebra, and original linear-equation practice checked by back-substitution.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"NAPLAN numeracy practice","item":"https://learn.modernagecoders.com/naplan-numeracy-practice-online"},{"@type":"ListItem","position":3,"name":"Year 9 numeracy","item":"https://learn.modernagecoders.com/naplan-year-9-numeracy-practice"}]},{"@type":"Course","name":"NAPLAN Year 9 Numeracy Practice","description":"Live online maths classes for Australian students in Years 8 to 10 covering linear equations, index laws, rates and ratios, statistics and probability, taught for understanding and senior-school readiness rather than for a NAPLAN level.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/naplan-year-9-numeracy-practice"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/naplan-year-9-numeracy-practice"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/naplan-year-9-numeracy-practice"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How long is the Year 9 NAPLAN numeracy test?","acceptedAnswer":{"@type":"Answer","text":"65 minutes, taken after the conventions of language test within the national window."}},{"@type":"Question","name":"Is there a calculator in Year 9 NAPLAN?","acceptedAnswer":{"@type":"Answer","text":"Yes, after a short non-calculator section at the start. Once students leave that section, an online calculator is available for the rest of the test and they cannot go back."}},{"@type":"Question","name":"When is Year 9 NAPLAN in 2027?","acceptedAnswer":{"@type":"Answer","text":"Within the 10 to 22 March 2027 window, on a date the school chooses."}},{"@type":"Question","name":"What is back-substitution?","acceptedAnswer":{"@type":"Answer","text":"Checking a solution by putting it back into the original equation and evaluating both sides. If the two sides are equal, the solution is correct."}},{"@type":"Question","name":"What does Strong mean in Year 9?","acceptedAnswer":{"@type":"Answer","text":"Among other skills, ACARA lists solving linear equations algebraically, evaluating an expression using substitution of values for variables, and solving a range of problems involving rates and ratios."}},{"@type":"Question","name":"What does Exceeding add?","acceptedAnswer":{"@type":"Answer","text":"Lines such as solving a linear equation algebraically and graphically, determining the rule for a linear relationship, and calculating a percentage increase or decrease."}},{"@type":"Question","name":"Is Year 9 the last NAPLAN?","acceptedAnswer":{"@type":"Answer","text":"Yes. NAPLAN is sat in Years 3, 5, 7 and 9, so Year 9 is the final test."}},{"@type":"Question","name":"Do you prepare students for reading and writing?","acceptedAnswer":{"@type":"Answer","text":"No. We teach mathematics only."}},{"@type":"Question","name":"Can you guarantee a NAPLAN level?","acceptedAnswer":{"@type":"Answer","text":"No. We never promise levels or scores; we teach the algebra and reasoning the test draws on."}},{"@type":"Question","name":"What time would lessons be in Melbourne?","acceptedAnswer":{"@type":"Answer","text":"We agree a weekly time after the free class. During daylight saving Melbourne is five and a half hours ahead of India time, so 6 pm there is 12.30 pm in India."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/naplan-year-9-numeracy-practice","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-nynn">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#year9">Year 9 test</a></li>
+      <li><a href="#algebra">Algebra in the levels</a></li>
+      <li><a href="#check">Check by substituting</a></li>
+      <li><a href="#after">After Year 9</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/naplan-numeracy-practice-online">NAPLAN numeracy practice</a> / Year 9 numeracy
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; NAPLAN Year 9 numeracy &middot; Live online</p>
+        <h1>NAPLAN Year 9 numeracy practice</h1>
+        <p class="ag-lede">Year 9 is the last time students sit NAPLAN, and the numeracy descriptions show why it matters beyond the test: at the Strong and Exceeding levels they read like a checklist for senior maths, with linear equations, index notation, rates, ratios and probability. The test runs 65 minutes and opens with a short section without a calculator. This page sets out what ACARA describes at the top two levels, then teaches the single habit that most protects a Year 9 algebra answer: substituting the solution back into the original equation. We teach numeracy only, and we promise no level.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#check" class="ag-btn ag-btn--ghost">Try the equation questions</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20class%20for%20my%20Year%209%20child%2C%20on%20algebra%20and%20equations." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'nynn'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Year 9 facts from ACARA &middot; Questions written by us &middot; Numeracy only</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Year level</dt><dd>Year 9</dd>
+          <dt>Numeracy time</dt><dd>65 minutes</dd>
+          <dt>Structure</dt><dd>Short non-calculator section first</dd>
+          <dt>2027 window</dt><dd>10 to 22 March</dd>
+          <dt>Higher levels</dt><dd>Algebra, indices, rates and ratios</dd>
+          <dt>Our focus</dt><dd>Equations, checked every time</dd>
+          <dt>Not covered</dt><dd>Literacy tests</dd>
+          <dt>Promise</dt><dd>None about results</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Year 9 NAPLAN numeracy is a 65-minute test with a short non-calculator section at the start and an online calculator for the rest. In 2027 it falls within the 10 to 22 March window. ACARA's Year 9 Strong description includes solving linear equations algebraically and evaluating an expression by substituting values for variables; Exceeding adds solving a linear equation algebraically and graphically.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three courses that match Year 9</h2>
+      <p class="ag-lede">Each targets the algebra and reasoning the upper Year 9 levels describe.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/algebra-foundations-masterclass">
+        <div class="ag-pick-shot"><img src="/images/algebra-foundations.webp" alt="Algebra Foundations course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">NY9 / 01</p>
+          <h3>Algebra foundations</h3>
+          <p>Equations, expressions and substitution, built carefully from the start.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/comprehensive-middle-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/middle-school-maths.webp" alt="Middle School Mathematics Mastery course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">NY9 / 02</p>
+          <h3>Years 7 to 9 maths</h3>
+          <p>Indices, rates, ratios, geometry and data in one course.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-high-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/high-school-maths.webp" alt="High School Mathematics course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">NY9 / 03</p>
+          <h3>High school maths</h3>
+          <p>For students looking ahead to Year 10 and senior subjects.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="year9">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The Year 9 numeracy test</p><h2>The final NAPLAN numeracy test</h2><p class="ag-lede">Details are ACARA's, from the NAPLAN website, as read on 7 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Year 9 numeracy summary</caption><thead><tr><th scope="col">Point</th><th scope="col">ACARA's detail</th></tr></thead><tbody><tr><td>Running time</td><td>65 minutes</td></tr><tr><td>Sequence</td><td>Follows the conventions of language test</td></tr><tr><td>Two sections</td><td>A short one without a calculator, then an online calculator for what remains</td></tr><tr><td>Strands assessed</td><td>Number, algebra, measurement, space, statistics and probability</td></tr><tr><td>Answer formats</td><td>Multiple choice, text entry, drag-and-drop, hot-spot</td></tr><tr><td>2027 window</td><td>10 to 22 March</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>Like Year 7, the Year 9 test locks the non-calculator section once a student moves on. The arithmetic expected without a device is heavier in Year 9: index notation, prime factors and fraction work all appear in the descriptions at the middle levels.</p>
+<p>The test is tailored, so the first testlet is shared and the later ones depend on accuracy. In Year 9, a wrong algebraic answer early on is the most common way a strong student ends up on an easier path.</p></div><div><p>ACARA's own advice is that "The best preparation for NAPLAN is to teach the curriculum." For Year 9 that means the algebra and statistics of the Years 7 to 9 curriculum, understood rather than memorised.</p>
+<p>Because it is the last NAPLAN, Year 9 results are often read alongside subject choices for senior school. We think the skills matter more than the label: a student who can check an equation is ready for Year 10 whatever the level says.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.nap.edu.au/naplan/key-dates/naplan-test-window" rel="noopener" target="_blank">NAPLAN test window</a>; <a class="ag-inline-link" href="https://www.nap.edu.au/naplan/whats-in-the-tests" rel="noopener" target="_blank">What's in the tests</a>. Checked on 7 October 2026. Modern Age Coders has no link to ACARA.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="algebra">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Year 9 proficiency levels</p><h2>How much algebra the top two levels expect</h2><p class="ag-lede">Every line below is quoted from ACARA's Year 9 numeracy descriptions. We grouped them by idea.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Year 9 Strong and Exceeding, selected lines (ACARA wording)</caption><thead><tr><th scope="col">Idea</th><th scope="col">Strong: the student can</th><th scope="col">Exceeding: the student can</th></tr></thead><tbody><tr><td>Equations</td><td>solve linear equations algebraically</td><td>solve a linear equation algebraically and graphically</td></tr><tr><td>Substitution</td><td>evaluate an expression using substitution of values for variables</td><td>evaluate a pronumeral using substitution into a formula</td></tr><tr><td>Expressions</td><td>factorise expressions using numerical factors</td><td>expand and simplify an algebraic expression</td></tr><tr><td>Graphs</td><td>identify linear equations on the Cartesian plane</td><td>determine the rule for a linear relationship</td></tr><tr><td>Rates and change</td><td>solve a range of problems involving rates and ratios</td><td>calculate a percentage increase or decrease</td></tr><tr><td>Data</td><td>determine the outcomes of a two-step chance experiment</td><td>use two-way tables and Venn diagrams to solve problems</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>Substitution appears in both columns, once as a skill in its own right and once inside formulas. It is also the most reliable way to check an equation, which is why the practice below builds the two together.</p>
+<p>At the Developing level, by contrast, ACARA lists ideas such as "identify equivalent expressions using the order of operations" and "express word problems using numeric and algebraic expressions". The climb from Developing to Strong is a climb into solving, not just writing, equations.</p></div><div><p>The Exceeding phrase "algebraically and graphically" matters. A student who can solve 4x minus 9 = 2x + 15 on paper and also see the answer as the point where two lines meet understands what a solution is.</p>
+<p>None of these lines is a promise or a target. They describe what students showed on the day of a test, and they are useful mainly for teachers planning what to teach next.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://www.nap.edu.au/naplan/results-and-reports/proficiency-level-descriptions" rel="noopener" target="_blank">NAPLAN proficiency level descriptions, Numeracy Year 9</a>. Checked on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="check">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Practice we wrote</p><h2>Back-substitution: check every solution</h2><p class="ag-lede">Solve the equation, then put your answer back into the original equation, not into a later line of working. If both sides agree, the answer is right. If they do not, you know before the test does.</p></div>
+    <div class="ag-grid-3"><div><h3>Use the original line</h3><p>Errors usually happen between lines. Checking against a later line repeats the mistake; checking against the first line exposes it.</p></div><div><h3>Evaluate both sides</h3><p>Work out the left side and the right side separately with your value, then compare. Two numbers either match or they do not.</p></div><div><h3>Mind the brackets</h3><p>Substitute into brackets first. For 5(x minus 2) with x = 9, the bracket is 7 and the side is 35.</p></div></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Original Year 9 practice: solution, then the back-substitution check</caption><thead><tr><th scope="col">Question</th><th scope="col">Solution</th><th scope="col">Back-substitution check</th><th scope="col">Verdict</th></tr></thead><tbody><tr><td>Solve 3x + 7 = 31</td><td>x = 8</td><td>Left: 3 times 8, plus 7, is 31. Right: 31</td><td>Correct</td></tr><tr><td>Solve 5(x minus 2) = 35</td><td>x = 9</td><td>Left: 5 times 7 is 35. Right: 35</td><td>Correct</td></tr><tr><td>Solve 4x minus 9 = 2x + 15</td><td>x = 12</td><td>Left: 48 minus 9 is 39. Right: 24 + 15 is 39</td><td>Correct</td></tr><tr><td>Solve (x + 6) divided by 4 = 5</td><td>x = 14</td><td>Left: 20 divided by 4 is 5. Right: 5</td><td>Correct</td></tr><tr><td>A student writes x = 11 for 2x + 5 = 17</td><td>x = 11 (claimed)</td><td>Left: 22 + 5 is 27. Right: 17</td><td>Wrong; the solution is x = 6</td></tr><tr><td>The perimeter P = 2(l + w) is 46 and w = 8. Find l.</td><td>l = 15</td><td>2 times (15 + 8) is 2 times 23, which is 46</td><td>Correct</td></tr><tr><td>A line passes through (0, 3) and (2, 11). Find its rule.</td><td>y = 4x + 3</td><td>At x = 2: 8 + 3 is 11. At x = 0: 3</td><td>Correct</td></tr><tr><td>A population grows from 80 to 92. Percentage increase?</td><td>15 per cent</td><td>80 times 1.15 is 92</td><td>Correct</td></tr></tbody></table></div>
+    <p>The fifth row is the reason the habit exists. The student who wrote x = 11 probably added 5 instead of subtracting it. Substituting 11 back gives 27, not 17, and the error is caught in a few seconds, before it decides which testlet comes next.</p>
+    <p>The last two rows show that the same idea works beyond equations. A linear rule is checked by substituting the given points; a percentage change is checked by applying the multiplier to the starting value. In each case the student proves the answer rather than hoping.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="after">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">After Year 9</p><h2>From NAPLAN to senior maths</h2><p class="ag-lede">The Year 9 descriptions overlap heavily with what Year 10 and senior maths courses assume.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Skills that carry forward</h3><p>Linear equations become simultaneous equations and inequalities. Students who already check by substitution handle both more calmly.</p>
+<p>Index notation, prime factorisation and rates feed straight into the advanced maths subjects that most states offer in Years 11 and 12.</p>
+<p>Two-step probability and two-way tables are the foundation of senior statistics.</p></div><div><h3>What families can do now</h3><p>Ask your child to explain how they know an answer is right. If the explanation includes a check, the habit is forming.</p>
+<p>If algebra feels shaky in Year 9, fix it before Year 10. The gaps widen quickly once senior subjects begin.</p>
+<p>Look at senior subject choices with your school; we teach the maths but do not advise on subject selection.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Algebra, step by step</p>
+      <h2>Four rungs through Years 8 to 10</h2>
+      <p class="ag-lede">Students move at their own speed; the year levels are only rough markers.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Equation skills, rung by rung</caption><thead><tr><th scope="col">Rung</th><th scope="col">Description</th><th scope="col">Ready for the next rung when</th></tr></thead><tbody><tr><td>1. Substitution</td><td class="ag-num">Evaluates expressions for given values</td><td class="ag-num">Finds 3x + 7 when x = 8 without hesitation</td></tr><tr><td>2. One-sided equations</td><td class="ag-num">Solves equations with the unknown on one side</td><td class="ag-num">Solves 5(x minus 2) = 35 and checks it</td></tr><tr><td>3. Unknowns on both sides</td><td class="ag-num">Collects terms to one side first</td><td class="ag-num">Solves 4x minus 9 = 2x + 15 and checks both sides</td></tr><tr><td>4. Graphs and rules</td><td class="ag-num">Links equations to lines</td><td class="ag-num">Finds the rule through two points and tests a third</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>When algebra causes stress</h3><p>Algebra anxiety often comes from never being sure an answer is right. Back-substitution removes that uncertainty, which changes how a test feels.</p>
+<p>Short daily practice of a few equations, each checked, beats a long session the night before.</p></div><div><h3>Other year levels</h3><p>Proportion and the double number line from Year 7 are covered on <a class="ag-inline-link" href="/naplan-year-7-numeracy-practice">NAPLAN Year 7 numeracy</a>.</p>
+<p>The national overview, with dates and testlets, is on <a class="ag-inline-link" href="/naplan-numeracy-practice-online">NAPLAN numeracy practice</a>.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Courses for Years 8 to 10</p>
+      <h2>Maths courses for the later middle years</h2>
+      <p class="ag-lede">Grouped by focus. Open any card for its full syllabus.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Algebra</h3>
+        <span class="ag-band-sub">Equations, expressions, graphs</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">NY9 / A / 01</p>
+          <h4>Algebra foundations</h4>
+          <p>Solving and checking equations properly.</p>
+          <a class="ag-course-link" href="/courses/algebra-foundations-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NY9 / A / 02</p>
+          <h4>Middle years maths</h4>
+          <p>The full Years 7 to 9 course.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NY9 / A / 03</p>
+          <h4>High school maths</h4>
+          <p>Year 10 and the road to senior subjects.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Data and chance</h3>
+        <span class="ag-band-sub">Statistics and probability</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">NY9 / D / 01</p>
+          <h4>Statistics and probability</h4>
+          <p>Two-way tables, Venn diagrams and distributions.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NY9 / D / 02</p>
+          <h4>Mental maths</h4>
+          <p>Sharp arithmetic for the non-calculator section.</p>
+          <a class="ag-course-link" href="/courses/mental-maths-mastery-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NY9 / D / 03</p>
+          <h4>Problem solving</h4>
+          <p>Multi-step reasoning, broken into checks.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Stretch</h3>
+        <span class="ag-band-sub">For confident students</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">NY9 / X / 01</p>
+          <h4>Competition maths</h4>
+          <p>Harder problems for the keen.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NY9 / X / 02</p>
+          <h4>Vedic maths</h4>
+          <p>Fast calculation with a check built in.</p>
+          <a class="ag-course-link" href="/courses/vedic-maths-course-speed-calculation-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NY9 / X / 03</p>
+          <h4>Maths through coding</h4>
+          <p>Equations and graphs explored in Python.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How our classes run</p>
+      <h2>Evening classes that suit Year 9 schedules</h2>
+      <p class="ag-lede">Our teachers live in India, which is behind every Australian state. In Melbourne during daylight saving, a 6 pm class begins at 12.30 pm India time, so evening slots after sport are straightforward.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday evening</p><p class="ag-slot-l">The usual choice for Year 9 students.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">For students with busy weekday activities.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Holiday intensive</p><p class="ag-slot-l">A few sessions to secure algebra before Year 10.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Check before moving on</h3><p>Every solution is substituted back before the next question.</p></div>
+      <div><h3>Algebra and graphs together</h3><p>Students see each equation as a line as well as a calculation.</p></div>
+      <div><h3>Groups of five to ten</h3><p>Matched by current skill, not just year level.</p></div>
+      <div><h3>Private tutoring</h3><p>For targeted work on particular algebra gaps.</p></div>
+      <div><h3>Progress notes</h3><p>Brief updates for parents after each unit.</p></div>
+      <div><h3>No level guaranteed</h3><p>We teach the mathematics; the result belongs to the student.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects by our students</h2>
+      <p class="ag-lede">Built by learners for the fun of it. Browse the rest in the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Families in Australia are billed each month in US dollars, our standard rate for every country except India. There is nothing to pay up front, and you can stop after any month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A real lesson with a teacher</li><li>A frank view of current skills</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students at one level</li><li>One regular teacher</li><li>Feedback on all work</li><li>Certificate on completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher for one student</li><li>Focus on specific algebra gaps</li><li>Times to suit you</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parent reviews from Google, unedited.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about Year 9 NAPLAN numeracy</p>
+      <h2>Year 9 questions we hear</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>How long is the Year 9 NAPLAN numeracy test?</h3>
+        <p>65 minutes, taken after the conventions of language test within the national window.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is there a calculator in Year 9 NAPLAN?</h3>
+        <p>Yes, after a short non-calculator section at the start. Once students leave that section, an online calculator is available for the rest of the test and they cannot go back.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is Year 9 NAPLAN in 2027?</h3>
+        <p>Within the 10 to 22 March 2027 window, on a date the school chooses.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is back-substitution?</h3>
+        <p>Checking a solution by putting it back into the original equation and evaluating both sides. If the two sides are equal, the solution is correct.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does Strong mean in Year 9?</h3>
+        <p>Among other skills, ACARA lists solving linear equations algebraically, evaluating an expression using substitution of values for variables, and solving a range of problems involving rates and ratios.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does Exceeding add?</h3>
+        <p>Lines such as solving a linear equation algebraically and graphically, determining the rule for a linear relationship, and calculating a percentage increase or decrease.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Year 9 the last NAPLAN?</h3>
+        <p>Yes. NAPLAN is sat in Years 3, 5, 7 and 9, so Year 9 is the final test.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you prepare students for reading and writing?</h3>
+        <p>No. We teach mathematics only.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you guarantee a NAPLAN level?</h3>
+        <p>No. We never promise levels or scores; we teach the algebra and reasoning the test draws on.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What time would lessons be in Melbourne?</h3>
+        <p>We agree a weekly time after the free class. During daylight saving Melbourne is five and a half hours ahead of India time, so 6 pm there is 12.30 pm in India.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>More for Year 9 and beyond</h2>
+      <p class="ag-lede">Other NAPLAN years, coding and senior study support.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/naplan-numeracy-practice-online">NAPLAN numeracy across the years</a></h3><p>Dates, testlets and how results are reported.</p></div>
+      <div><h3><a class="ag-inline-link" href="/naplan-year-7-numeracy-practice">NAPLAN Year 7 numeracy</a></h3><p>Proportion and the first calculator split.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-maths-tutoring-australia">Maths tutoring in Australia</a></h3><p>Live lessons through to Year 12.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></h3><p>Maths and coding contests by month.</p></div>
+      <div><h3><a class="ag-inline-link" href="/hsc-software-engineering-help">HSC Software Engineering</a></h3><p>For students drawn to computing.</p></div>
+      <div><h3><a class="ag-inline-link" href="/maths-challenges">Maths challenges</a></h3><p>Problems beyond the syllabus.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free Year 9 maths class</h2>
+        <p class="ag-lede">Tell us which topic feels unsteady, whether equations, indices or probability. The trial lesson starts there and ends with honest advice about next steps.</p>
+        <p class="ag-mt-40">Would you rather browse? All maths courses are on the <a class="ag-inline-link" href="/course-atlas">course atlas</a>, and <a class="ag-inline-link" href="/how-we-teach">how we teach</a> shows a lesson from start to finish.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20class%20for%20my%20Year%209%20child%2C%20on%20algebra%20and%20equations." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'nynn',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Messages on WhatsApp are usually answered fastest. Our +91 number is Indian because the school runs from India; there is no Australian office.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_nynn(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card required, no commitment. One reply to set the time.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>NAPLAN numeracy</h4><ul><li><a href="/naplan-numeracy-practice-online">All year levels</a></li><li><a href="/naplan-year-3-numeracy-practice">Year 3</a></li><li><a href="/naplan-year-5-numeracy-practice">Year 5</a></li><li><a href="/naplan-year-7-numeracy-practice">Year 7</a></li></ul></div>
+      <div><h4>Looking ahead</h4><ul><li><a href="/hsc-software-engineering-help">HSC Software Engineering</a></li><li><a href="/online-maths-tutoring-australia">Maths tutoring</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Year 9 algebra taught and checked; no level promised</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_nynn = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'naplan-year-9-numeracy-practice-inline', meta: { name: name, age: age, page: 'naplan-year-9-numeracy-practice' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
