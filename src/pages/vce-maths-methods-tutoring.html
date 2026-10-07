@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>VCE Maths Methods Tutoring | Units 3 and 4 Online</title>
+  <meta name="description" content="VCE Maths Methods tutoring online for Victorian students: the four areas of study, Exam 1 without technology, Exam 2 with it, the SACs, and transformation technique.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/vce-maths-methods-tutoring">
+  <link rel="alternate" type="text/markdown" href="/src/pages/vce-maths-methods-tutoring.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#4C349C">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/vce-maths-methods-tutoring">
+  <meta property="og:title" content="VCE Maths Methods Tutoring | Units 3 and 4 Online">
+  <meta property="og:description" content="VCE Mathematical Methods explained from the VCAA study design: what Units 3 and 4 cover, how the two exams and three coursework tasks weigh, the 2026 exam dates, and why the order of transformations matters.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="VCE Maths Methods Tutoring">
+  <meta name="twitter:description" content="VCE Maths Methods from the study design: two exams, three SACs, and the transformation order that trips students up.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-vcmm .ag-hero-grid { gap: clamp(1.1rem, 3vw, 2.6rem); }
+.ag-root.ag-vcmm .ag-hero h1 { letter-spacing: -0.02em; }
+.ag-root.ag-vcmm .ag-capsule { border-left-width: 6px; }
+.ag-root.ag-vcmm .ag-section-head h2 { max-width: 29ch; }
+.ag-root.ag-vcmm .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-vcmm .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-vcmm .ag-spec dt { letter-spacing: 0.12em; }
+.ag-root.ag-vcmm .ag-slots { gap: 1.05rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/vce-maths-methods-tutoring#page","url":"https://learn.modernagecoders.com/vce-maths-methods-tutoring","name":"VCE Maths Methods Tutoring","description":"Support for Victorian students taking VCE Mathematical Methods Units 3 and 4: areas of study, School-assessed Coursework tasks and durations, both examinations and their conditions, the 2026 examination sessions, and a worked lesson on the order of graph transformations.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":3,"name":"VCE Maths Methods","item":"https://learn.modernagecoders.com/vce-maths-methods-tutoring"}]},{"@type":"Course","name":"VCE Maths Methods Tutoring","description":"Live online maths tutoring in functions, transformations, calculus, probability and statistics for Victorian VCE Mathematical Methods students, without completing any School-assessed Coursework.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/vce-maths-methods-tutoring"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/vce-maths-methods-tutoring"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/vce-maths-methods-tutoring"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is VCE Mathematical Methods?","acceptedAnswer":{"@type":"Answer","text":"It is a VCE mathematics study covering functions, algebra, calculus, and probability and statistics. Units 1 to 4 are accredited from 1 January 2023, and Units 3 and 4 are assessed by coursework and two end-of-year examinations."}},{"@type":"Question","name":"How is the Methods study score made up?","acceptedAnswer":{"@type":"Answer","text":"School-assessed Coursework contributes 40 per cent (20 per cent in each unit), Examination 1 contributes 20 per cent and Examination 2 contributes 40 per cent."}},{"@type":"Question","name":"Can I use a calculator in Examination 1?","acceptedAnswer":{"@type":"Answer","text":"No. The study design says no technology (calculators or software) or notes of any kind are permitted. A sheet of formulas is provided. Examination 2 allows approved technology and one bound reference text."}},{"@type":"Question","name":"When are the 2026 Methods exams?","acceptedAnswer":{"@type":"Answer","text":"The VCAA timetable lists Examination 1 on Thursday 5 November 2026 (9:00 am to 10:15 am session) and Examination 2 on Friday 6 November (11:45 am to 2:00 pm session)."}},{"@type":"Question","name":"What are the Methods SACs?","acceptedAnswer":{"@type":"Answer","text":"Unit 3 has an application task of 4 to 6 hours over 1 to 2 weeks. Unit 4 has two modelling or problem-solving tasks of 2 to 3 hours over a week each, one of them on data analysis, probability and statistics."}},{"@type":"Question","name":"What is a dilation from the y-axis?","acceptedAnswer":{"@type":"Answer","text":"A stretch parallel to the x-axis, away from the y-axis, by a given factor. A dilation by factor 3 from the y-axis turns the point (1, 1) into (3, 1) and replaces x with x divided by 3 in the rule."}},{"@type":"Question","name":"Do I need Methods for Specialist Mathematics?","acceptedAnswer":{"@type":"Answer","text":"The study design says Specialist Mathematics Units 3 and 4 assumes concurrent study or previous completion of Mathematical Methods Units 3 and 4."}},{"@type":"Question","name":"Will you help with my SAC?","acceptedAnswer":{"@type":"Answer","text":"We teach the mathematics with our own problems. We never complete, check or edit any part of a SAC, because the VCAA accepts coursework only as the student's own work."}},{"@type":"Question","name":"Is online maths tutoring effective for Methods?","acceptedAnswer":{"@type":"Answer","text":"For most students, yes. Working on a shared screen, writing every step and getting immediate correction is close to sitting beside a tutor, provided the student does the writing rather than watching."}},{"@type":"Question","name":"What time do lessons run for Victorian students?","acceptedAnswer":{"@type":"Answer","text":"Late afternoon in Victoria works for most, and it falls during our tutors' working day. The weekly time is agreed after the free class."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/vce-maths-methods-tutoring","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-vcmm">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#areas">Areas of study</a></li>
+      <li><a href="#exams">Two exams</a></li>
+      <li><a href="#order">Transformations</a></li>
+      <li><a href="#sacs">The SACs</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / VCE Maths Methods
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Victoria &middot; VCE Mathematical Methods &middot; Live online</p>
+        <h1>VCE Maths Methods tutoring</h1>
+        <p class="ag-lede">Mathematical Methods is the VCE maths study most students mean when they say "Methods": functions, calculus and probability, examined twice, once without a calculator and once with one. The jump from Units 1 and 2 is real, and it usually shows up first as small algebra slips that compound under time pressure.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#order" class="ag-btn ag-btn--ghost">See the transformation lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20class%20about%20VCE%20Mathematical%20Methods." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'vcmm'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Study design read at source &middot; By hand first, technology second &middot; After-school lessons in Victorian time</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Study</dt><dd>VCE Mathematical Methods</dd>
+          <dt>Units</dt><dd>3 and 4</dd>
+          <dt>Accredited from</dt><dd>1 January 2023</dd>
+          <dt>Exam 1</dt><dd>20 per cent, 1 hour, no technology</dd>
+          <dt>Exam 2</dt><dd>40 per cent, 2 hours, technology</dd>
+          <dt>Coursework</dt><dd>40 per cent, three tasks</dd>
+          <dt>2026 exams</dt><dd>5 and 6 November</dd>
+          <dt>We never</dt><dd>Complete any SAC</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>VCE Mathematical Methods Units 3 and 4 cover four areas of study: functions, relations and graphs; algebra, number and structure; calculus; and data analysis, probability and statistics. School-assessed Coursework counts 40 per cent across three tasks, Examination 1 (1 hour, no technology) counts 20 per cent, and Examination 2 (2 hours, with approved technology) counts 40 per cent.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to begin</p>
+      <h2>Three courses beneath Methods</h2>
+      <p class="ag-lede">Fluent algebra and functions first, then calculus and probability at exam pace.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/complete-high-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/high-school-maths.webp" alt="High School Mathematics course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VCMM / 01</p>
+          <h3>High school mathematics</h3>
+          <p>Algebra, functions and graphs worked by hand until they are automatic, which is what Examination 1 demands.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ap-calculus-exam-prep">
+        <div class="ag-pick-shot"><img src="/images/ap-calculus-prep.webp" alt="AP Calculus AB &amp; BC Exam Prep, Live Online, Score 5 Goal course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VCMM / 02</p>
+          <h3>Calculus foundations</h3>
+          <p>Derivatives, the chain rule, antiderivatives and areas under curves, the calculus content Methods builds on.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/statistics-probability-maths-course">
+        <div class="ag-pick-shot"><img src="/images/statistics-probability-maths.webp" alt="Statistics &amp; Probability course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VCMM / 03</p>
+          <h3>Statistics and probability</h3>
+          <p>Binomial and normal distributions and sample proportions, the area one Unit 4 task must address.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="areas">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Inside the study design</p><h2>Four areas of study, three outcomes</h2><p class="ag-lede">Drawn from the VCE Mathematics Study Design, which covers Foundation, General, Mathematical Methods and Specialist Mathematics, read on 7 October 2026. Units 1 to 4 are accredited from 1 January 2023.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Mathematical Methods Units 3 and 4: areas of study and typical placement</caption><thead><tr><th scope="col">Area of study</th><th scope="col">What it covers</th><th scope="col">Typical unit</th></tr></thead><tbody><tr><td>Functions, relations and graphs</td><td>Power, exponential, logarithmic and circular functions, their key features, and the effect of transformations</td><td>Unit 3, finished in Unit 4</td></tr><tr><td>Algebra, number and structure</td><td>Composition and inverse functions, and solving equations of these function types</td><td>Unit 3, finished in Unit 4</td></tr><tr><td>Calculus</td><td>Derivatives and their applications, antidifferentiation, and the definite integral</td><td>Begun in Unit 3, extended in Unit 4</td></tr><tr><td>Data analysis, probability and statistics</td><td>Discrete and continuous random variables, the binomial and normal distributions, and sample proportions</td><td>Unit 4</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The study design describes Unit 3 as typically covering functions, algebra and the early calculus of stationary points and graph features, with Unit 4 completing the calculus and adding random variables, probability distributions and the distribution of sample proportions. Schools order content themselves, so a student's timetable may differ.</p>
+<p>Three outcomes run through both units. The first is concepts and routines; the second is applying mathematics in non-routine contexts; the third is to "apply computational thinking" and use the numerical, graphical, symbolic and statistical functions of technology to develop ideas and carry out analysis.</p></div><div><p>That third outcome is why a coding school teaches maths well. A student who has written a small program to sample a binomial distribution, or to check a derivative numerically, understands what the CAS calculator is doing instead of pressing buttons in hope.</p>
+<p>Methods is also the assumed knowledge for Specialist Mathematics Units 3 and 4, which the study design says requires concurrent study or previous completion of Methods Units 3 and 4. Students taking both need Methods secure early.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/mathematical-methods/vce-mathematical-methods" rel="noopener" target="_blank">VCAA, VCE Mathematical Methods study design page</a>; VCE Mathematics Study Design, Mathematical Methods Units 3 and 4, read on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="exams">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How the study score is built</p><h2>One exam without technology, one exam with it</h2><p class="ag-lede">Every weight and condition below is copied from the study design. The VCAA timetable supplied the 2026 sessions when we looked on 7 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Where a Methods study score comes from</caption><thead><tr><th scope="col">Piece of assessment</th><th scope="col">Share</th><th scope="col">Format</th></tr></thead><tbody><tr><td>Unit 3 coursework (SAC)</td><td>One fifth</td><td>An application task: four to six hours, spread over one or two weeks</td></tr><tr><td>Unit 4 coursework (SACs)</td><td>One fifth</td><td>Two modelling or problem-solving tasks of two to three hours across a week each; one has to be on data analysis, probability and statistics</td></tr><tr><td>Examination 1</td><td>One fifth</td><td>Sixty minutes with no calculators, software or notes; a sheet of formulas is provided</td></tr><tr><td>Examination 2</td><td>Two fifths</td><td>Two hours of multiple-choice and extended-answer questions, with approved technology and a bound reference</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>In 2026 Mathematical Methods Examination 1 sits on Thursday 5 November in the 9:00 am to 10:15 am session, and Examination 2 on Friday 6 November from 11:45 am to 2:00 pm, as the VCAA timetable prints them. Two papers on consecutive days leave very little room for catch-up revision between them.</p>
+<p>Examination 1 rewards a particular kind of fluency: exact values, clean algebra and short calculus done by hand. It is only an hour, so a student who has to reconstruct a method under pressure runs out of time, not knowledge.</p></div><div><p>Examination 2 assumes access to technology with numerical, graphical, symbolic and statistical functionality, and allows one bound reference. Students who rely on the calculator without understanding often lose marks on interpretation: the device solves the equation, but the student has to say which solution fits the context.</p>
+<p>The coursework tasks are completed mainly in class within a limited timeframe, as the study design requires. Good preparation is the underlying skill, not rehearsing a particular task, because tasks change from school to school.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Weights and exam rules: VCE Mathematics Study Design (Methods). Dates: <a class="ag-inline-link" href="https://www.vcaa.vic.edu.au/administration/key-dates/vce-examination-timetable" rel="noopener" target="_blank">VCAA 2026 VCE examination timetable</a>, viewed 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="order">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked lesson</p><h2>Dilate then translate, or translate then dilate?</h2><p class="ag-lede">The study design lists the effect of transformations on graphs and the general transformation of a function. Students who know each transformation individually still lose marks when two are combined, because the order changes the answer. Both examples below are ours.</p></div>
+    <div class="ag-grid-3"><div><h3>The setup</h3><p>Start with y = x squared, vertex at the origin. Apply two transformations: a dilation by factor 3 from the y-axis, and a translation 2 units right.</p></div><div><h3>Dilation first</h3><p>Stretching first moves the vertex nowhere, then the translation carries it to x = 2. The rule is y = ((x - 2)/3) squared. The point (1, 1) lands on (5, 1).</p></div><div><h3>Translation first</h3><p>Moving first puts the vertex at x = 2, then the stretch from the y-axis multiplies that x-value by 3. The vertex ends at x = 6, with rule y = ((x - 6)/3) squared. The point (1, 1) lands on (9, 1).</p></div></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Two orders, two different graphs (our worked examples)</caption><thead><tr><th scope="col">Original</th><th scope="col">Transformations</th><th scope="col">Order</th><th scope="col">Image rule</th><th scope="col">Key feature</th></tr></thead><tbody><tr><td>y = x squared</td><td>Dilation factor 3 from the y-axis; translation 2 right</td><td>Dilate, then translate</td><td>y = ((x - 2)/3) squared</td><td>Vertex at (2, 0)</td></tr><tr><td>y = x squared</td><td>The same two</td><td>Translate, then dilate</td><td>y = ((x - 6)/3) squared</td><td>Vertex at (6, 0)</td></tr><tr><td>y = 2 to the power x</td><td>Dilation factor 2 from the x-axis; translation 3 up</td><td>Dilate, then translate</td><td>y = 2 times 2 to the power x, plus 3</td><td>Asymptote y = 3</td></tr><tr><td>y = 2 to the power x</td><td>The same two</td><td>Translate, then dilate</td><td>y = 2 times 2 to the power x, plus 6</td><td>Asymptote y = 6</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><p>The rule that saves marks is to follow a single point through each transformation in the stated order. Track (1, 1) for the parabola, or the asymptote for the exponential, and the image rule writes itself. Students who instead edit the equation in their head usually apply the steps in the order they appear in the rule, which is often the reverse of the order stated in the question.</p>
+<p>This is exactly the kind of slip Examination 1 punishes, because there is no technology to sketch the graph and reveal the mistake. Practising with point tracking makes the check routine.</p></div><div><p>It is also where a little code helps. Plotting both images in a few lines of Python shows the two vertices sitting 4 units apart, and testing a dozen points confirms which rule matches which order. That is the "computational thinking" outcome in action, and it builds a habit students then carry into Examination 2.</p>
+<p>The same reasoning extends to the inverse transformation the study design also lists: undoing a sequence means undoing the steps in reverse order, the way you take off shoes before socks.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Transformation key knowledge from the VCE Mathematics Study Design, Mathematical Methods Units 3 and 4. Examples, images and point checks are our own, verified on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="sacs">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">School-assessed Coursework</p><h2>How we help with SACs: around them, never inside</h2><p class="ag-lede">Coursework is 40 per cent of Methods, and the VCAA accepts it only as the student's own work. The rules below are quoted from the study design.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>VCAA rules on coursework that shape our tutoring</caption><thead><tr><th scope="col">Point</th><th scope="col">What the study design says</th></tr></thead><tbody><tr><td>Authentication</td><td>Work is accepted only if the teacher can attest that, to the best of their knowledge, all unacknowledged work is the student’s own</td></tr><tr><td>Where SACs happen</td><td>Tasks must be completed mainly in class and within a limited timeframe</td></tr><tr><td>Unit 3 task</td><td>An application task of 4 to 6 hours over 1 to 2 weeks</td></tr><tr><td>Unit 4 tasks</td><td>Two modelling or problem-solving tasks, each of 2 to 3 hours over 1 week</td></tr></tbody></table></div>
+    <p>We teach the mathematics and the modelling process with problems we write, like the transformation examples above, and we teach students to use technology to check and explore. We do not complete, check or edit any part of a SAC, and we do not coach answers to a known task. A student who can model an unfamiliar situation with us can model the school's one alone.</p>
+    <p class="ag-source-note ag-mt-40">Source: VCE Mathematics Study Design, authentication and Mathematical Methods School-assessed Coursework, read on 7 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Getting ready for Units 3 and 4</p>
+      <h2>Four rungs from Year 10 to the November exams</h2>
+      <p class="ag-lede">Where a student starts depends on algebra fluency more than on year level.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From Year 10 algebra to exam-ready Methods</caption><thead><tr><th scope="col">When</th><th scope="col">Rung</th><th scope="col">The sign it is secure</th></tr></thead><tbody><tr><td>Year 10</td><td class="ag-num">1. Algebra</td><td class="ag-num">Expands, factorises and solves without a calculator and without slips</td></tr><tr><td>Units 1 and 2</td><td class="ag-num">2. Functions</td><td class="ag-num">Sketches power, exponential and circular graphs from their rules</td></tr><tr><td>Unit 3</td><td class="ag-num">3. Calculus</td><td class="ag-num">Differentiates compositions with the chain rule and interprets the result</td></tr><tr><td>Unit 4</td><td class="ag-num">4. Probability</td><td class="ag-num">Chooses binomial or normal models and explains what an answer means in context</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If Examination 1 is the worry</h3><p>Timed, by-hand practice in short sets is the cure: ten minutes, five questions, exact answers, every week. Speed comes from fluency, not from rushing.</p>
+<p>Most lost marks in technology-free work are algebra, not calculus. Repairing algebra repairs the whole paper.</p></div><div><h3>Beyond Methods</h3><p>Students taking both maths studies will find the next layer on our <a class="ag-inline-link" href="/vce-specialist-maths-tutoring">VCE Specialist Maths</a> page.</p>
+<p>Methods' calculus and probability are the mathematics under data science and machine learning, which our AI courses build on.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for Methods students</h2>
+      <p class="ag-lede">Grouped by the area of study they support. Every card opens a full syllabus.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Functions and algebra</h3>
+        <span class="ag-band-sub">The ground under everything</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VCMM / FN / 01</p>
+          <h4>Algebra foundations</h4>
+          <p>Rebuilding the algebra that technology-free papers expose.</p>
+          <a class="ag-course-link" href="/courses/algebra-foundations-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCMM / FN / 02</p>
+          <h4>High school mathematics</h4>
+          <p>Functions, graphs and equations across the senior years.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCMM / FN / 03</p>
+          <h4>Precalculus</h4>
+          <p>Exponential, logarithmic and circular functions in depth.</p>
+          <a class="ag-course-link" href="/courses/ap-precalculus-exam-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Calculus</h3>
+        <span class="ag-band-sub">Rates and areas</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VCMM / CA / 01</p>
+          <h4>Calculus foundations</h4>
+          <p>Differentiation and integration with clear reasoning.</p>
+          <a class="ag-course-link" href="/courses/ap-calculus-exam-prep">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCMM / CA / 02</p>
+          <h4>IB Mathematics</h4>
+          <p>A parallel senior course for students who want extra problem variety.</p>
+          <a class="ag-course-link" href="/courses/ib-mathematics-aa-ai-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCMM / CA / 03</p>
+          <h4>University mathematics</h4>
+          <p>For students looking past Unit 4 to first-year maths.</p>
+          <a class="ag-course-link" href="/courses/college-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Probability and technology</h3>
+        <span class="ag-band-sub">Unit 4 and Outcome 3</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VCMM / PR / 01</p>
+          <h4>Statistics and probability</h4>
+          <p>Random variables, distributions and sample proportions.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCMM / PR / 02</p>
+          <h4>Maths through coding</h4>
+          <p>Checking and exploring maths in code, the computational thinking outcome made real.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VCMM / PR / 03</p>
+          <h4>A level Mathematics</h4>
+          <p>Extra calculus and statistics practice from a parallel syllabus.</p>
+          <a class="ag-course-link" href="/courses/a-level-maths-course-pure-mechanics-statistics">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Methods lessons on Victorian time</h2>
+      <p class="ag-lede">Lessons come to you live from India. Melbourne clocks read four and a half hours later than India through winter, and five and a half later once daylight saving starts on 4 October 2026, lasting until 4 April 2027 on the IANA time zone database. So a 5 pm Melbourne lesson is 11.30 am for your tutor in summer.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday after school</p><p class="ag-slot-l">Steady weekly work through Units 3 and 4.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend morning</p><p class="ag-slot-l">Longer sessions for timed Examination 1 sets.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">School holidays</p><p class="ag-slot-l">Exam blocks before November.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>By hand first</h3><p>Every method practised without technology before the calculator comes out.</p></div>
+      <div><h3>Point tracking</h3><p>Transformations checked one point at a time, every time.</p></div>
+      <div><h3>Exam-length sets</h3><p>Short timed practice that mirrors a one-hour paper.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten students at one level, each explaining a method aloud.</p></div>
+      <div><h3>One-to-one sessions</h3><p>For a single topic that needs repair before the exams.</p></div>
+      <div><h3>Honest about outcomes</h3><p>We never forecast a study score or an ATAR; the effort and the result are the student's.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students build outside school</h2>
+      <p class="ag-lede">Coding projects students made in their own time, never school work. The full collection is in our <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Methods tutoring is billed monthly in US dollars at one rate for all families outside India, with no sign-up fee and nothing owed beyond the current month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A full maths lesson with a tutor</li><li>A straight answer on what to fix</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten students at one level</li><li>The same tutor each week</li><li>Practice marked and discussed</li><li>A certificate on completion</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A tutor for one student</li><li>Built around one weak topic</li><li>Popular in the final weeks before November</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Quoted exactly as families and students posted them on Google.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about Methods</p>
+      <h2>Methods questions we hear most</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is VCE Mathematical Methods?</h3>
+        <p>It is a VCE mathematics study covering functions, algebra, calculus, and probability and statistics. Units 1 to 4 are accredited from 1 January 2023, and Units 3 and 4 are assessed by coursework and two end-of-year examinations.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is the Methods study score made up?</h3>
+        <p>School-assessed Coursework contributes 40 per cent (20 per cent in each unit), Examination 1 contributes 20 per cent and Examination 2 contributes 40 per cent.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I use a calculator in Examination 1?</h3>
+        <p>No. The study design says no technology (calculators or software) or notes of any kind are permitted. A sheet of formulas is provided. Examination 2 allows approved technology and one bound reference text.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are the 2026 Methods exams?</h3>
+        <p>The VCAA timetable lists Examination 1 on Thursday 5 November 2026 (9:00 am to 10:15 am session) and Examination 2 on Friday 6 November (11:45 am to 2:00 pm session).</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What are the Methods SACs?</h3>
+        <p>Unit 3 has an application task of 4 to 6 hours over 1 to 2 weeks. Unit 4 has two modelling or problem-solving tasks of 2 to 3 hours over a week each, one of them on data analysis, probability and statistics.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is a dilation from the y-axis?</h3>
+        <p>A stretch parallel to the x-axis, away from the y-axis, by a given factor. A dilation by factor 3 from the y-axis turns the point (1, 1) into (3, 1) and replaces x with x divided by 3 in the rule.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need Methods for Specialist Mathematics?</h3>
+        <p>The study design says Specialist Mathematics Units 3 and 4 assumes concurrent study or previous completion of Mathematical Methods Units 3 and 4.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you help with my SAC?</h3>
+        <p>We teach the mathematics with our own problems. We never complete, check or edit any part of a SAC, because the VCAA accepts coursework only as the student's own work.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is online maths tutoring effective for Methods?</h3>
+        <p>For most students, yes. Working on a shared screen, writing every step and getting immediate correction is close to sitting beside a tutor, provided the student does the writing rather than watching.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What time do lessons run for Victorian students?</h3>
+        <p>Late afternoon in Victoria works for most, and it falls during our tutors' working day. The weekly time is agreed after the free class.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>More for Victorian maths and computing students</h2>
+      <p class="ag-lede">The other VCE maths studies, the computing studies Methods students often pair with, and the wider picture.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/vce-algorithmics-hess-help">VCE Algorithmics (HESS) help</a></h3><p>Recurrences and logarithms in a computing study.</p></div>
+      <div><h3><a class="ag-inline-link" href="/vce-applied-computing-data-analytics-help">VCE Data Analytics help</a></h3><p>Statistics and data in the Applied Computing study.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-maths-tutoring-australia">Online maths tutoring in Australia</a></h3><p>Tutoring for every Australian year level, not only VCE.</p></div>
+      <div><h3><a class="ag-inline-link" href="/vibe-coding-and-ai-agents-classes-in-melbourne">Coding and AI classes in Melbourne</a></h3><p>Where Methods students in Victoria can add coding and AI.</p></div>
+      <div><h3><a class="ag-inline-link" href="/australian-coding-maths-and-ai-competitions-calendar">Australian competitions calendar</a></h3><p>Maths competitions through the school year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>Our national hub for coding, from first blocks to AI.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Start with a free Methods lesson</h2>
+        <p class="ag-lede">Tell us the unit, the topic that is hurting, and whether Examination 1 or Examination 2 worries you more. The free lesson works on that topic with our own problems.</p>
+        <p class="ag-mt-40">Before booking, browse full syllabuses in the <a class="ag-inline-link" href="/course-atlas">course atlas</a>, see the lesson method on <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, or look at maths for other year levels on the <a class="ag-inline-link" href="/online-maths-tutoring-australia">Australian maths tutoring page</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20class%20about%20VCE%20Mathematical%20Methods." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'vcmm',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Messages on WhatsApp are answered first. Our number starts +91 because the school is in India; we have no office in Victoria or anywhere in Australia.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_vcmm(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card and no obligation. One reply to book the lesson.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Australia</h4><ul><li><a href="/online-maths-tutoring-australia">Maths tutoring in Australia</a></li><li><a href="/vce-algorithmics-hess-help">VCE Algorithmics</a></li><li><a href="/vibe-coding-and-ai-agents-classes-in-melbourne">Melbourne and Victoria</a></li><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li></ul></div>
+      <div><h4>Learn more</h4><ul><li><a href="/australian-coding-maths-and-ai-competitions-calendar">Competitions calendar</a></li><li><a href="/coding-roadmap">The coding roadmap</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>We teach the mathematics; the SACs stay the student's own</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_vcmm = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'vce-maths-methods-tutoring-inline', meta: { name: name, age: age, page: 'vce-maths-methods-tutoring' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

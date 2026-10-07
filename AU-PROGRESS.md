@@ -91,7 +91,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 50 | sa-ignite-entry-maths-practice (saig, #9C1824) | ag- exam door | 3,051 | 1.5% vs queensland-academies-entry-maths-practice | What is the ACER Ignite Assessment for South Australia's gifted program, and how do colouring arguments prove a task impossible? | colouring arguments (checkerboard invariants) | 77510148 |
 | 58 | vce-algorithmics-hess-help (vcal, #271E69) | ag- exam door | 3,805 | 1.3% vs vce-maths-methods-tutoring | Why can a greedy algorithm fail the change-making problem, and how does a single dimension array fix it? | change-making problem, greedy against 1-D dynamic programming | 0b68a2f9 |
 | 59 | vce-applied-computing-software-development-help (vcsd, #4B6684) | ag- exam door | 3,662 | 2.1% vs vce-applied-computing-data-analytics-help | Why must existence, type and range checks run in that order? | validation order: existence, then type, then range | a188520b |
-| 60 | vce-applied-computing-data-analytics-help (vcda, #45571E) | ag- exam door | 3,506 | 2.1% vs vce-applied-computing-software-development-help | How much can one bad row distort a dataset, and how should cleansing be documented? | data cleansing of the 2026 VCE exam timetable | (this commit) |
+| 60 | vce-applied-computing-data-analytics-help (vcda, #45571E) | ag- exam door | 3,506 | 2.1% vs vce-applied-computing-software-development-help | How much can one bad row distort a dataset, and how should cleansing be documented? | data cleansing of the 2026 VCE exam timetable | f760dd47 |
+| 61 | vce-maths-methods-tutoring (vcmm, #4C349C) | ag- exam door | 3,483 | 1.8% vs vce-specialist-maths-tutoring | Does the order of a dilation and a translation change the graph? | order of transformations, dilation before or after translation | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
