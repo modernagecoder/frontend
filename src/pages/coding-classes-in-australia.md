@@ -378,6 +378,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding classes in Brisbane](/best-coding-classes-in-brisbane)
 - [Online coding and Python classes in Perth](/online-coding-and-python-classes-in-perth-western-australia)
 - [AI and programming classes in Adelaide](/ai-and-programming-classes-in-adelaide)
+- [Vibe coding and AI agents classes in Canberra](/vibe-coding-and-ai-agents-classes-in-canberra)
 <!-- AU-LINKS -->
 
 
