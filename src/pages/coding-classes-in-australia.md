@@ -320,6 +320,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [NAPLAN Year 9 numeracy practice](/naplan-year-9-numeracy-practice)
 - [NSW selective test Mathematical Reasoning practice](/nsw-selective-test-mathematical-reasoning-practice)
 - [NSW selective test Thinking Skills practice](/nsw-selective-test-thinking-skills-practice)
+- [OC test maths practice](/oc-test-maths-practice-nsw)
 <!-- AU-LINKS -->
 
 
