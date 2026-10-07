@@ -289,6 +289,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding classes in Sydney](/best-coding-classes-in-sydney)
 - [Coding and AI classes in New South Wales](/coding-and-ai-classes-in-new-south-wales)
 - [Vibe coding and AI agents classes in Melbourne](/vibe-coding-and-ai-agents-classes-in-melbourne)
+- [Kids coding languages](/kids-coding-languages-australia)
 <!-- AU-LINKS -->
 
 
