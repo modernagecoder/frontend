@@ -381,6 +381,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agents classes in Canberra](/vibe-coding-and-ai-agents-classes-in-canberra)
 - [Coding classes in Hobart](/best-coding-classes-in-hobart)
 - [Online coding and Python classes in Darwin](/online-coding-and-python-classes-in-darwin)
+- [Coding and AI classes in Victoria](/coding-and-ai-classes-in-victoria)
 <!-- AU-LINKS -->
 
 

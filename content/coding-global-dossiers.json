@@ -39319,5 +39319,49 @@
       "School sector, income, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with the City of Newcastle, OpenStreetMap, the ABS or the NSW Department of Education."
     ]
+  },
+  "coding-classes-for-kids-gold-coast": {
+    "market": "Gold Coast",
+    "bodyClass": "cg-kgcs",
+    "pageType": "city",
+    "curriculumAuthority": "Gold Coast - Tweed Heads, ABS Census 2021 QuickStats, Significant Urban Area 3007 (read 7 October 2026): 693,596 people; median age 40; 186,286 families; average number of children per family, for families with children, 1.8; age 0 to 4: 36,727 (5.3 percent); age 5 to 9: 41,429 (6.0 percent; Australia 6.2); age 10 to 14: 42,914 (6.2 percent); Preschool: 12,741 (6.1 percent of people attending an educational institution). Queensland Department of Education future school dates, 2027 school holidays: Term 1 Friday 26 March to Sunday 11 April (17 days); Term 2 Saturday 26 June to Sunday 11 July (16 days); Term 3 Saturday 18 September to Monday 4 October (17 days); Term 4 Saturday 11 December to Sunday 23 January 2028 (44 days). ABS Schools methodology 2025: preparatory in Queensland; Queensland - children must attend school from the age of six years and six months. IANA tz database: Australia/Brisbane UTC+10, no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Stem-and-leaf of G:link stop gaps. One OpenStreetMap Overpass query, snapshot 2026-10-07T16:38:38Z, route=light_rail relations in 28.200 to 27.900 degrees south and 153.300 to 153.500 degrees east; relation 6363673 \"L1 G:Link: Helensvale → Burleigh Heads\", 27 stops in member order. Haversine gaps (R = 6,371,008.8 m), metres: 3008, 2115, 1615, 461, 1214, 1380, 587, 582, 340, 1065, 1308, 430, 558, 523, 438, 808, 1190, 838, 785, 976, 1025, 606, 518, 856, 956, 776. Sorted: min 340, max 3008, median 823 (808 and 838), mean 959.9. Helensvale to Burleigh Heads straight line 21,377 m. Stem-and-leaf (hundreds | tens) as printed. Lesson family: stem-and-leaf plots, mean versus median with a long tail.",
+    "requiredMentions": [
+      "36,727",
+      "42,914",
+      "12,741",
+      "186,286",
+      "959.9",
+      "823 metres",
+      "3,008 metres",
+      "21,377",
+      "Broadwater Parklands"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Gold Coast - Tweed Heads (SUA 3007): people, median age, families, children per family, age bands, preschool attendance.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/3007"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates: 2027 holidays and their lengths.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "ABS Schools methodology 2025: first year name and Queensland compulsory school age.",
+        "url": "https://www.abs.gov.au/methodologies/schools-methodology/2025"
+      },
+      {
+        "claim": "OpenStreetMap via the Overpass API: G:link route relation 6363673 and its stop positions, snapshot 2026-10-07T16:38:38Z (ODbL).",
+        "url": "https://overpass-api.de/api/interpreter"
+      }
+    ],
+    "rejectedClaims": [
+      "Travel times, timetables or distances along the track: our gaps are straight lines between stop points.",
+      "Queensland Curriculum and Assessment Authority pages returned a Cloudflare 403 and were not circumvented, so no QCAA facts are used.",
+      "Bureau of Meteorology observations: the Bureau asked automated requests to stop (403), so no weather facts are used.",
+      "Which parts of the urban area lie in New South Wales: not stated on the QuickStats page we read, so not claimed.",
+      "School sector, income, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Translink, the G:link operator, OpenStreetMap, the ABS or the Queensland Department of Education."
+    ]
   }
 }
