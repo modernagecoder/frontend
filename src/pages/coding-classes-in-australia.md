@@ -401,6 +401,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in Bendigo](/ai-and-programming-classes-in-bendigo)
 - [Vibe coding and AI agents classes in Albury-Wodonga](/vibe-coding-and-ai-agents-classes-in-albury-wodonga)
 - [Coding classes in Launceston](/best-coding-classes-in-launceston)
+- [Online coding and Python classes in Mackay](/online-coding-and-python-classes-in-mackay)
 <!-- AU-LINKS -->
 
 
