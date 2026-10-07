@@ -324,6 +324,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Victorian selective entry exam maths practice](/victorian-selective-entry-exam-maths-practice)
 - [Queensland Academies entrance test maths practice](/queensland-academies-entry-maths-practice)
 - [WA GATE ASET maths practice](/wa-gate-aset-maths-practice)
+- [SA Ignite assessment maths practice](/sa-ignite-entry-maths-practice)
 <!-- AU-LINKS -->
 
 
