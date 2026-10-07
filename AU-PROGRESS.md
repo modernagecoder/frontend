@@ -72,7 +72,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 29 | free-coding-classes-for-kids-australia-what-you-get (fcau, #385810) | ag- topic door | 3,643 | 1.1% vs online-coding-classes-for-kids-australia | What do free coding options for Australian kids include, and what do they leave out? | weighted decision matrix | e6b9427f |
 | 30 | coding-classes-near-me-australia-online-or-local (nmau, #305068) | ag- topic door | 3,297 | 1.7% vs online-coding-tutor-australia | What does coding classes near me mean in Australia, and how do you check a provider before booking? | lateral reading | 17208fde |
 | 31 | learn-to-think-not-just-use-ai-tools-australia (ltau, #1C4498) | ag- topic door | 3,166 | 2.2% vs problem-solving-through-coding-australia | How do Australian students keep the thinking when AI gives the answers, and how many AI answers must they check? | acceptance sampling | 72706327 |
-| 32 | understand-the-code-dont-copy-paste-australia (ucau, #70481C) | ag- topic door | 3,031 | 2% vs learn-to-train-ai-not-just-prompt-it-australia | Why does pasted code fail quietly, and how does a written contract catch it? | postconditions as contracts (design by contract) | (this commit) |
+| 32 | understand-the-code-dont-copy-paste-australia (ucau, #70481C) | ag- topic door | 3,031 | 2% vs learn-to-train-ai-not-just-prompt-it-australia | Why does pasted code fail quietly, and how does a written contract catch it? | postconditions as contracts (design by contract) | 80909b1b |
+| 33 | learn-to-train-ai-not-just-prompt-it-australia (trau, #247038) | ag- topic door | 3,150 | 2% vs understand-the-code-dont-copy-paste-australia | Why should Australian students train models rather than only prompt them, and how do labels cap what a model can show? | inter-annotator agreement | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

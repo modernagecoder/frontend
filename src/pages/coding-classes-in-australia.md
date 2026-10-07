@@ -309,6 +309,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding classes near me in Australia](/coding-classes-near-me-australia-online-or-local)
 - [Learn to think, not just use AI tools](/learn-to-think-not-just-use-ai-tools-australia)
 - [Understand the code, don't copy-paste](/understand-the-code-dont-copy-paste-australia)
+- [Learn to train AI, not just prompt it](/learn-to-train-ai-not-just-prompt-it-australia)
 <!-- AU-LINKS -->
 
 

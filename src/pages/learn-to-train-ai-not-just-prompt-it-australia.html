@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Learn to Train AI, Not Just Prompt It | Australian Students</title>
+  <meta name="description" content="For Australian students: what the curriculum says about training AI models, why labels matter more than prompts, and the agreement maths that caps any model built.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-australia">
+  <link rel="alternate" type="text/markdown" href="/src/pages/learn-to-train-ai-not-just-prompt-it-australia.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#247038">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-australia">
+  <meta property="og:title" content="Learn to Train AI, Not Just Prompt It | Australian Students">
+  <meta property="og:description" content="Prompting uses someone else's model. Training builds your own. Why Australian students should learn the second, starting with the labels the model learns from.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_AU">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Learn to Train AI, Not Just Prompt It">
+  <meta name="twitter:description" content="Learn to train AI, not just prompt it: labels, agreement and honest testing for Australian students.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="AU">
+  <meta name="geo.placename" content="Australia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-trau .ag-hero h1 { letter-spacing: -0.018em; }
+.ag-root.ag-trau .ag-capsule { border-left-width: 4px; border-radius: 12px; }
+.ag-root.ag-trau .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-trau .ag-table caption { text-align: left; font-weight: 500; }
+.ag-root.ag-trau .ag-band-head h3 { letter-spacing: -0.008em; }
+.ag-root.ag-trau .ag-slots { gap: 1.15rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Australia"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-australia#page","url":"https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-australia","name":"Learn to Train AI, Not Just Prompt It","description":"A guide for Australian students on training machine learning models rather than only prompting chatbots, covering labelled data, labeller agreement and held-out testing.","inLanguage":"en-AU","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Australia","item":"https://learn.modernagecoders.com/coding-classes-in-australia"},{"@type":"ListItem","position":4,"name":"Train AI, not just prompt it","item":"https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-australia"}]},{"@type":"Course","name":"Learn to Train AI, Not Just Prompt It","description":"Live online courses in which Australian students label data, train machine learning models and test them honestly, from AI literacy for children to machine learning for teens and adults.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-australia"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-australia"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-australia"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does learn to train AI, not just prompt it mean?","acceptedAnswer":{"@type":"Answer","text":"It means building and testing machine learning models from labelled data yourself, rather than only typing requests into a chatbot that someone else trained."}},{"@type":"Question","name":"What is inter-annotator agreement?","acceptedAnswer":{"@type":"Answer","text":"Inter-annotator agreement measures how often two or more people labelling the same examples independently give the same label. It shows how reliable the labels are, and therefore how far any model trained on them can be trusted."}},{"@type":"Question","name":"Why does agreement matter so much?","acceptedAnswer":{"@type":"Answer","text":"Because a model learns from labels and is scored against labels. If two careful labellers at 90% each agree only about 82% of the time, a model tested on those labels cannot show its true quality."}},{"@type":"Question","name":"Is training AI part of the Australian Curriculum?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Australian Curriculum v9 includes elaborations in Digital Technologies about exploring machine learning trained on a data set and comparing a classification model with manually tagged data."}},{"@type":"Question","name":"What age can my child start training models?","acceptedAnswer":{"@type":"Answer","text":"Children from about 8 can label examples and train simple classifiers in visual tools. Training in Python usually starts from around 12 or 13."}},{"@type":"Question","name":"Does my child need maths to train AI?","acceptedAnswer":{"@type":"Answer","text":"Basic percentages are enough to begin. More maths becomes useful later, and our maths and coding courses support each other."}},{"@type":"Question","name":"What is a test set?","acceptedAnswer":{"@type":"Answer","text":"A test set is a group of examples kept aside and never shown to the model during training, so that its score on them shows how well it handles new data."}},{"@type":"Question","name":"Will my child use ChatGPT or Claude in these courses?","acceptedAnswer":{"@type":"Answer","text":"Not to build the models. Students train their own. Where chatbots appear, we follow each tool's minimum age in its terms."}},{"@type":"Question","name":"Are classes live?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every lesson is live online with a teacher, in a small group of five to ten or one to one, at times set for your state."}},{"@type":"Question","name":"How much are the courses?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. Families then pay monthly with no joining fee and no term lock-in, as shown in the fees section."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Australia"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/learn-to-train-ai-not-just-prompt-it-australia","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="AU">
+</head>
+
+<body class="ag-root ag-trau">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">AU</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#difference">Prompt or train</a></li>
+      <li><a href="#curriculum">The curriculum</a></li>
+      <li><a href="#labels">Labels first</a></li>
+      <li><a href="#testing">Testing honestly</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-australia">Coding classes in Australia</a> / Train AI, not just prompt it
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Australia &middot; Ages 10 and up &middot; Build the model</p>
+        <h1>Learn to train AI, not just prompt it</h1>
+        <p class="ag-lede">Typing a request into a chatbot uses a model that someone else trained, on data someone else chose, tested in ways someone else decided. Training a model, even a tiny one, puts all three decisions in the student's hands. It is also where the most important lesson in machine learning becomes obvious: a model can only be as good as the labels it learns from. This page explains the difference between prompting and training, what the Australian Curriculum asks students to explore, and a short calculation every young model-builder should do before trusting their own results.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#labels" class="ag-btn ag-btn--ghost">Labels first</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20wants%20to%20build%20AI%2C%20not%20just%20use%20chatbots.%20Could%20we%20book%20a%20free%20lesson%20about%20training%20models%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'trau'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; models you train and test yourself</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Ages 10 and up</dd>
+          <dt>Focus</dt><dd>Training and testing models</dd>
+          <dt>Starts with</dt><dd>Labelling your own data</dd>
+          <dt>Then</dt><dd>Python and real libraries</dd>
+          <dt>Curriculum</dt><dd>Digital Technologies, Years 7 to 10</dd>
+          <dt>Format</dt><dd>Live online video</dd>
+          <dt>Group</dt><dd>Five to ten, or one to one</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Training AI means building a model from labelled examples and testing it on examples it has not seen, rather than prompting a model someone else built. The labels set the ceiling: two careful labellers who are each right 90% of the time agree on only about 82% of two-label examples. Students who check their own labels, hold back test data and measure honestly understand AI in a way prompting alone cannot teach.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three courses where students build the model</h2>
+      <p class="ag-lede">From labelling pictures to training in Python. The free first lesson picks the right level.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ai-literacy-for-kids-course">
+        <div class="ag-pick-shot"><img src="/images/ai-literacy-for-kids.webp" alt="AI Literacy for Kids (Ages 8 to 14) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">TRAU / 01</p>
+          <h3>How machines learn, for children</h3>
+          <p>Ages 8 to 14. Collect and label examples, train a simple classifier, then try to fool it.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/orange-data-mining-visual-machine-learning-course-for-teens">
+        <div class="ag-pick-shot"><img src="/images/orange-data-mining-teens.webp" alt="Orange Data Mining Course for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">TRAU / 02</p>
+          <h3>Machine learning without code first</h3>
+          <p>Teens. Build and test models visually, so the ideas come before the syntax.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">TRAU / 03</p>
+          <h3>Machine learning in Python</h3>
+          <p>Teens ready for Python. Real datasets, real libraries, honest test scores.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="difference">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Prompt or train</p><h2>Two very different ways to use AI</h2><p class="ag-lede">Both are useful. Only one teaches how AI actually works.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Prompting a model compared with training one</caption><thead><tr><th scope="col">Question</th><th scope="col">When you prompt a chatbot</th><th scope="col">When you train a model</th></tr></thead><tbody><tr><td>Who chose the data?</td><td>The company that built it</td><td>You</td></tr><tr><td>Who decided what counts as right?</td><td>Its builders and their labellers</td><td>You and your labels</td></tr><tr><td>How was it tested?</td><td>In ways you usually cannot see</td><td>On test data you held back</td></tr><tr><td>Can you explain a wrong answer?</td><td>Rarely</td><td>Often, by inspecting your data</td></tr><tr><td>What you learn</td><td>How to ask</td><td>How AI learns, and where it fails</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Students who have trained even a small classifier read AI news differently. When a system makes a strange mistake, their first question is "what was it trained on, and who labelled it?", which is exactly the right question.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="curriculum">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The curriculum</p><h2>What the Australian Curriculum asks students to explore</h2><p class="ag-lede">Training, not only prompting, is already part of the Australian Curriculum v9. The elaborations for Digital Technologies in Years 7 to 10 describe it directly.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Machine learning in the Australian Curriculum v9, Digital Technologies, as published</caption><thead><tr><th scope="col">Years</th><th scope="col">Code</th><th scope="col">Elaboration</th></tr></thead><tbody><tr><td>7 and 8</td><td>AC9TDI8P02</td><td>"comparing the output from a classification model against data tagged manually to verify its accuracy and effectiveness"</td></tr><tr><td>9 and 10</td><td>AC9TDI10P02</td><td>"exploring machine learning, a form of artificial intelligence where an algorithm is trained using a data set, for example to classify images into categories"</td></tr><tr><td>9 and 10</td><td>AC9TDI10P02</td><td>"adjusting parameters of an AI model to observe the impact of different factors on predicted outcomes"</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Data tagged manually</h3><p>The Years 7 and 8 example compares a model's output with "data tagged manually". That phrase hides the whole subject of this page: someone has to tag the data, and people do not always agree.</p>
+<p>If the manual tags are unreliable, comparing a model against them measures the tags as much as the model.</p></div><div><h3>Trained using a data set</h3><p>The Years 9 and 10 example describes machine learning as an algorithm "trained using a data set". The data set is where the student's choices live: what to collect, how to label it, and what to keep aside for testing.</p>
+<p>We teach those choices explicitly, because they matter more than any single algorithm.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source, read 7 October 2026: ACARA, <a class="ag-inline-link" href="https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/technologies/digital-technologies/technologies-digital-technologies-curriculum-content-7-10-v9.docx" rel="noopener" target="_blank">Australian Curriculum v9, Digital Technologies content, Years 7 to 10</a>. Elaborations are examples, not compulsory content.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="labels">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Labels first</p><h2>Inter-annotator agreement: the ceiling on your model</h2><p class="ag-lede">Before training anything, ask two people to label the same examples independently and count how often they agree. Machine learning practitioners call this inter-annotator agreement, and it tells you how much your labels can be trusted.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>How often two independent labellers agree on two-label data (our calculation and simulation)</caption><thead><tr><th scope="col">Each labeller is right</th><th scope="col">Agreement, by formula</th><th scope="col">Agreement, 500 simulated runs of 200 items</th></tr></thead><tbody><tr><td>95% of the time</td><td>90.5%</td><td>90.5%</td></tr><tr><td>90% of the time</td><td>82.0%</td><td>82.1%</td></tr><tr><td>80% of the time</td><td>68.0%</td><td>68.0%</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why agreement falls so fast</h3><p>Two labellers agree when both are right or both are wrong in the same way. On two-label data the chance is p times p plus (1 minus p) times (1 minus p). At 90% each, that is 0.81 plus 0.01, or 82.0%.</p>
+<p>So two people who are each careful nine times in ten still disagree on nearly one example in five. Children are usually amazed by this, and then they understand why labelled data is precious.</p></div><div><h3>What it means for a model</h3><p>Test a perfect model against labels that are 90% right and it will appear to score about 90%, because the "mistakes" are in the labels. A model can never look better than its answer key.</p>
+<p>One fix is a majority vote: three labellers at 90% each produce a majority label that is right 97.2% of the time. Better labels raise the ceiling for every model trained on them.</p></div></div>
+    <p class="ag-mt-40">The scikit-learn library, which our older students use, has a ready-made measure called Cohen's kappa, which its documentation describes as "a statistic that measures inter-annotator agreement". Younger students start with simple percentage agreement, counted by hand and then by a few lines of Python.</p>
+    <p class="ag-source-note ag-mt-40">Source, read 7 October 2026: <a class="ag-inline-link" href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.cohen_kappa_score.html" rel="noopener" target="_blank">scikit-learn, cohen_kappa_score</a>. The agreement figures are our own calculation and simulation, labelled as such.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="testing">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Testing honestly</p><h2>Keep some data back, every time</h2><p class="ag-lede">The second habit of a real model-builder is never testing on the examples the model learned from.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The rule, in a library's own words</h3><p>The scikit-learn user guide puts it bluntly: "Learning the parameters of a prediction function and testing it on the same data is a methodological mistake."</p>
+<p>A model that memorised its training examples would score perfectly on them and still fail on anything new.</p></div><div><h3>How children practise it</h3><p>Younger students label 40 pictures, train on 30 and test on the other 10, which they hid in a separate folder. Older students use a train and test split in Python.</p>
+<p>Both learn the same thing: a score only means something if the model has never seen the test.</p></div></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Label twice</h3><p>Have two people label a sample independently and count agreement before training.</p></div><div><h3>Hide the test set</h3><p>Set test examples aside before training starts, and do not peek.</p></div><div><h3>Change one thing</h3><p>Adjust one setting at a time and watch the test score, just as the curriculum's example suggests.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source, read 7 October 2026: <a class="ag-inline-link" href="https://scikit-learn.org/stable/modules/cross_validation.html" rel="noopener" target="_blank">scikit-learn User Guide, 3.1 Cross-validation</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="at-home">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Try it at home</p><h2>A labelling experiment for a kitchen table</h2><p class="ag-lede">Families can run the first stage of this page in half an hour with a pile of photos and two pencils. It needs no computer at all, and it makes the rest of machine learning easier to grasp.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A home labelling experiment in five steps</caption><thead><tr><th scope="col">Step</th><th scope="col">What to do</th><th scope="col">What it teaches</th></tr></thead><tbody><tr><td>1. Choose a question</td><td>Pick something with two answers, such as "is this photo of a dog or a cat?" or "is this leaf from a gum tree?"</td><td>A model always starts from a clearly defined question</td></tr><tr><td>2. Gather 30 examples</td><td>Print or collect 30 pictures, including a few awkward ones</td><td>Real data contains hard cases</td></tr><tr><td>3. Label separately</td><td>Two family members label every picture without talking</td><td>Labels are human judgements</td></tr><tr><td>4. Count agreement</td><td>Count how many of the 30 labels match and turn it into a percentage</td><td>Agreement is a measurement, not a feeling</td></tr><tr><td>5. Discuss the misses</td><td>Look at every disagreement and decide what the rule should have been</td><td>Better instructions make better labels</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What families usually find</h3><p>Most pairs agree on the easy pictures and split on the strange ones: a blurry photo, an animal half out of frame, a leaf from a garden shrub. Those disagreements are exactly the examples a model will find hard too.</p>
+<p>Writing a one-line rule for each disputed case, then labelling again, usually raises agreement. That is how professional labelling teams work.</p></div><div><h3>The step into code</h3><p>Once the labels are agreed, the same 30 pictures become a first training set. Children train a simple classifier on 20 and test it on the other 10, and then explain every test mistake.</p>
+<p>The habit they carry forward is the most valuable one in the field: look hard at the data before trusting any score.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Stages</p>
+      <h2>From prompting to building</h2>
+      <p class="ag-lede">The progression we use, from a first labelled set to a tested model.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Four stages of training AI</caption><thead><tr><th scope="col">Stage</th><th scope="col">What the student does</th></tr></thead><tbody><tr><td>1. Label</td><td class="ag-num">Collect and label a small set of examples, and measure agreement</td></tr><tr><td>2. Train</td><td class="ag-num">Train a simple classifier in a visual tool</td></tr><tr><td>3. Test</td><td class="ag-num">Hold back data, test honestly and explain the errors</td></tr><tr><td>4. Code</td><td class="ag-num">Train and evaluate models in Python with real libraries</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For children</h3><p>Stages one and two use pictures, sounds and simple tools that need no adult-only accounts.</p>
+<p>The lessons are hands-on: children see their own labelling mistakes turn into model mistakes.</p></div><div><h3>For teens and adults</h3><p>Stages three and four use Python, real datasets and libraries such as scikit-learn.</p>
+<p>For the thinking side of AI use, read our page on <a class="ag-inline-link" href="/learn-to-think-not-just-use-ai-tools-australia">learning to think, not just use AI tools</a>.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for building AI yourself</h2>
+      <p class="ag-lede">Grouped by age and experience. The free first lesson places each learner.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Children</h3>
+        <span class="ag-band-sub">Ages 8 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">TRAU / CHD / 01</p>
+          <h4>Machines that learn from examples</h4>
+          <p>Label, train, test, repeat.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TRAU / CHD / 02</p>
+          <h4>Python and small models</h4>
+          <p>First code that learns.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TRAU / CHD / 03</p>
+          <h4>Games with an AI helper</h4>
+          <p>Describe, build, then understand.</p>
+          <a class="ag-course-link" href="/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Teenagers</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">TRAU / TEN / 01</p>
+          <h4>Visual machine learning</h4>
+          <p>Models built with blocks and charts.</p>
+          <a class="ag-course-link" href="/courses/orange-data-mining-visual-machine-learning-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TRAU / TEN / 02</p>
+          <h4>Python machine learning</h4>
+          <p>Real data, honest evaluation.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TRAU / TEN / 03</p>
+          <h4>Data science for teens</h4>
+          <p>Cleaning and labelling data well.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Adults</h3>
+        <span class="ag-band-sub">18 and over</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">TRAU / ADL / 01</p>
+          <h4>Machine learning and deep learning</h4>
+          <p>From Python to neural networks.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TRAU / ADL / 02</p>
+          <h4>Data science, end to end</h4>
+          <p>Data, models and evaluation.</p>
+          <a class="ag-course-link" href="/courses/data-science-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TRAU / ADL / 03</p>
+          <h4>Machine learning without code</h4>
+          <p>For analysts and students.</p>
+          <a class="ag-course-link" href="/courses/orange-data-mining-machine-learning-course-for-college-students">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Lessons where students make the data</h2>
+      <p class="ag-lede">Students collect, label, train and test in every course. Teachers ask "how do you know?" until the answer is a measurement.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">Weekday afternoons in your state.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evenings</p><p class="ag-slot-l">For senior students and adults.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Saturday and Sunday options.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Their own data</h3><p>Students build datasets about things they care about.</p></div>
+      <div><h3>Agreement checked</h3><p>Labels are double-checked before any training.</p></div>
+      <div><h3>Tests held back</h3><p>Every model is tested on data it has never seen.</p></div>
+      <div><h3>Errors explained</h3><p>Students find out why a model got something wrong.</p></div>
+      <div><h3>Small groups</h3><p>Five to ten learners, or one to one.</p></div>
+      <div><h3>Age-appropriate tools</h3><p>Younger students use tools that need no adult accounts.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Models and projects our students built</h2>
+      <p class="ag-lede">Real work by learners who trained and tested their own models. See more on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">A monthly fee in US dollars applies to every country outside India, at one shared rate. There is no charge to start and no term-length commitment, so any month can be your last.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A trial lesson at no cost</li><li>A frank view of the right level</li><li>Card details not needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Five to ten learners</li><li>A dedicated teacher</li><li>Similar age and level</li><li>Pay as you go, monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Individual teaching</li><li>Flexible weekly time</li><li>Learner-led pace</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Families' Google reviews, quoted exactly as they appear.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from students and parents</p>
+      <h2>Common questions about training AI</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What does learn to train AI, not just prompt it mean?</h3>
+        <p>It means building and testing machine learning models from labelled data yourself, rather than only typing requests into a chatbot that someone else trained.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is inter-annotator agreement?</h3>
+        <p>Inter-annotator agreement measures how often two or more people labelling the same examples independently give the same label. It shows how reliable the labels are, and therefore how far any model trained on them can be trusted.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does agreement matter so much?</h3>
+        <p>Because a model learns from labels and is scored against labels. If two careful labellers at 90% each agree only about 82% of the time, a model tested on those labels cannot show its true quality.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is training AI part of the Australian Curriculum?</h3>
+        <p>Yes. The Australian Curriculum v9 includes elaborations in Digital Technologies about exploring machine learning trained on a data set and comparing a classification model with manually tagged data.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age can my child start training models?</h3>
+        <p>Children from about 8 can label examples and train simple classifiers in visual tools. Training in Python usually starts from around 12 or 13.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child need maths to train AI?</h3>
+        <p>Basic percentages are enough to begin. More maths becomes useful later, and our maths and coding courses support each other.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is a test set?</h3>
+        <p>A test set is a group of examples kept aside and never shown to the model during training, so that its score on them shows how well it handles new data.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will my child use ChatGPT or Claude in these courses?</h3>
+        <p>Not to build the models. Students train their own. Where chatbots appear, we follow each tool's minimum age in its terms.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are classes live?</h3>
+        <p>Yes. Every lesson is live online with a teacher, in a small group of five to ten or one to one, at times set for your state.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much are the courses?</h3>
+        <p>The first lesson is free. Families then pay monthly with no joining fee and no term lock-in, as shown in the fees section.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More on thinking with AI, AI for different ages and Python.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-australia">Coding classes in Australia</a></h3><p>Our main page for Australian families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/learn-to-think-not-just-use-ai-tools-australia">Learn to think, not just use AI</a></h3><p>Checking AI answers properly.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-ai-course-for-kids-australia">Python and AI for kids</a></h3><p>A first AI course in Python.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-classes-for-teens-australia">AI classes for teens</a></h3><p>AI for secondary students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/understand-the-code-dont-copy-paste-australia">Understand the code</a></h3><p>Owning what you write.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-australia">AI and machine learning in Australia</a></h3><p>Our AI hub for Australian learners.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Share a number and a time. The learner labels a few examples, trains a tiny model and tests it with a teacher, so you can see the difference between building AI and asking it.</p>
+        <p class="ag-mt-40">Reading first is fine too: <a class="ag-inline-link" href="/how-we-teach">how a lesson runs</a>, or <a class="ag-inline-link" href="/courses">the full course list</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20wants%20to%20build%20AI%2C%20not%20just%20use%20chatbots.%20Could%20we%20book%20a%20free%20lesson%20about%20training%20models%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'trau',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp from Australia reaches our team in India fastest; replies come from a +91 number, as we have no Australian office.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_trau(event)" novalidate>
+          <div class="ag-field">
+            <label for="au-name">Your name</label>
+            <input id="au-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-phone">Phone or WhatsApp, Australia +61</label>
+            <input id="au-phone" type="tel" name="phone" placeholder="491 570 156" required>
+          </div>
+          <div class="ag-field">
+            <label for="au-age">Learner age group</label>
+            <select id="au-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free trial, no card, no commitment.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Building AI</h4><ul><li><a href="/ai-and-machine-learning-classes-in-australia">AI and machine learning</a></li><li><a href="/learn-to-think-not-just-use-ai-tools-australia">Think, not just use AI</a></li><li><a href="/python-ai-course-for-kids-australia">Python and AI for kids</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div><h4>Australia</h4><ul><li><a href="/coding-classes-in-australia">Coding classes in Australia</a></li><li><a href="/ai-classes-for-teens-australia">AI classes for teens</a></li><li><a href="/ai-courses-for-kids-australia">AI courses for kids</a></li><li><a href="/online-coding-tutor-australia">Online coding tutor</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>A model is only as good as its answer key</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_trau = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0061') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('61') === 0 && phoneDigits.length > 9) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 9) { if (note) note.textContent = 'Please enter a valid Australia phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+61', countryIso: 'AU', countryName: 'Australia',
+      source: 'learn-to-train-ai-not-just-prompt-it-australia-inline', meta: { name: name, age: age, page: 'learn-to-train-ai-not-just-prompt-it-australia' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
