@@ -19702,6 +19702,198 @@
   to = "/src/pages/year-12-maths-holiday-revision-australia.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/australian-curriculum-digital-technologies-help"
+  to = "/src/pages/australian-curriculum-digital-technologies-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/australian-curriculum-digital-technologies-help.md"
+  to = "/src/pages/australian-curriculum-digital-technologies-help.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/sace-digital-technologies-help"
+  to = "/src/pages/sace-digital-technologies-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/sace-digital-technologies-help.md"
+  to = "/src/pages/sace-digital-technologies-help.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/sace-mathematical-methods-tutoring"
+  to = "/src/pages/sace-mathematical-methods-tutoring.html"
+  status = 200
+
+[[redirects]]
+  from = "/sace-mathematical-methods-tutoring.md"
+  to = "/src/pages/sace-mathematical-methods-tutoring.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/icas-digital-technologies-practice"
+  to = "/src/pages/icas-digital-technologies-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/icas-digital-technologies-practice.md"
+  to = "/src/pages/icas-digital-technologies-practice.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/digital-technologies-years-7-to-10-coding"
+  to = "/src/pages/digital-technologies-years-7-to-10-coding.html"
+  status = 200
+
+[[redirects]]
+  from = "/digital-technologies-years-7-to-10-coding.md"
+  to = "/src/pages/digital-technologies-years-7-to-10-coding.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/robocup-junior-australia-coding-help"
+  to = "/src/pages/robocup-junior-australia-coding-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/robocup-junior-australia-coding-help.md"
+  to = "/src/pages/robocup-junior-australia-coding-help.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/digital-technologies-primary-coding-help"
+  to = "/src/pages/digital-technologies-primary-coding-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/digital-technologies-primary-coding-help.md"
+  to = "/src/pages/digital-technologies-primary-coding-help.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/sace-specialist-mathematics-tutoring"
+  to = "/src/pages/sace-specialist-mathematics-tutoring.html"
+  status = 200
+
+[[redirects]]
+  from = "/sace-specialist-mathematics-tutoring.md"
+  to = "/src/pages/sace-specialist-mathematics-tutoring.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/first-lego-league-australia-coding-help"
+  to = "/src/pages/first-lego-league-australia-coding-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/first-lego-league-australia-coding-help.md"
+  to = "/src/pages/first-lego-league-australia-coding-help.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/australian-curriculum-maths-year-7-to-10-help"
+  to = "/src/pages/australian-curriculum-maths-year-7-to-10-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/australian-curriculum-maths-year-7-to-10-help.md"
+  to = "/src/pages/australian-curriculum-maths-year-7-to-10-help.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/young-ict-explorers-project-help"
+  to = "/src/pages/young-ict-explorers-project-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/young-ict-explorers-project-help.md"
+  to = "/src/pages/young-ict-explorers-project-help.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/tasc-computer-science-help"
+  to = "/src/pages/tasc-computer-science-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/tasc-computer-science-help.md"
+  to = "/src/pages/tasc-computer-science-help.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/australian-student-hackathons"
+  to = "/src/pages/australian-student-hackathons.html"
+  status = 200
+
+[[redirects]]
+  from = "/australian-student-hackathons.md"
+  to = "/src/pages/australian-student-hackathons.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/bebras-challenge-australia-practice"
+  to = "/src/pages/bebras-challenge-australia-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/bebras-challenge-australia-practice.md"
+  to = "/src/pages/bebras-challenge-australia-practice.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/tasc-mathematics-methods-tutoring"
+  to = "/src/pages/tasc-mathematics-methods-tutoring.html"
+  status = 200
+
+[[redirects]]
+  from = "/tasc-mathematics-methods-tutoring.md"
+  to = "/src/pages/tasc-mathematics-methods-tutoring.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/girls-programming-network-next-step-australia"
+  to = "/src/pages/girls-programming-network-next-step-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/girls-programming-network-next-step-australia.md"
+  to = "/src/pages/girls-programming-network-next-step-australia.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
