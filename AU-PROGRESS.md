@@ -63,7 +63,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 38 | coding-for-homeschool-kids-australia (hsch, #723618) | ag- topic door | 3,291 | 1.2% vs after-scratch-next-step-python-australia | How can home-schooling families in Australia add live coding to a home education program, and keep a simple record of what was learned? | exit tickets as a home-education record | 9583f1fc |
 | 10 | coding-games-for-kids-australia (cgau, #366396) | ag- topic door | 3,971 | 1.2% vs kids-coding-languages-australia | Which coding games teach real programming, and how does a child move from playing them to writing code? | instruction count: unrolled vs looped vs nested-loop programs | 5d71e360 |
 | 12 | game-programming-course-australia (gpau, #994236) | ag- topic door | 3,689 | 1.2% vs game-development-for-kids-australia | Why does the same game code jump higher on a slow laptop, and how do game programmers make physics identical on every machine? | fixed timestep and the accumulator | 5895c4e6 |
-| 13 | video-game-design-for-kids-australia (vgau, #36570F) | ag- topic door | 3,606 | 1.6% vs minecraft-coding-classes-australia | How do kids design a level that teaches a new idea without a single word of instructions? | level gating | (this commit) |
+| 13 | video-game-design-for-kids-australia (vgau, #36570F) | ag- topic door | 3,606 | 1.6% vs minecraft-coding-classes-australia | How do kids design a level that teaches a new idea without a single word of instructions? | level gating | b07418b8 |
+| 15 | roblox-coding-classes-australia (rbau, #6F4B1B) | ag- topic door | 3,479 | 1.1% vs python-ai-course-for-kids-australia | Is Roblox coding real programming, and why must a Roblox server never trust the player? | RemoteEvent validation: never trust the client | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

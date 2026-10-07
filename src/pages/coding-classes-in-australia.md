@@ -300,6 +300,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding games for kids](/coding-games-for-kids-australia)
 - [Game programming course](/game-programming-course-australia)
 - [Video game design for kids](/video-game-design-for-kids-australia)
+- [Roblox coding classes](/roblox-coding-classes-australia)
 <!-- AU-LINKS -->
 
 
