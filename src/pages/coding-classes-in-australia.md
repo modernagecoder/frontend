@@ -331,6 +331,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [VCE Maths Methods tutoring](/vce-maths-methods-tutoring)
 - [VCE Specialist Maths tutoring](/vce-specialist-maths-tutoring)
 - [VCE General Maths tutoring](/vce-general-maths-tutoring)
+- [VCE Foundation Maths help](/vce-foundation-maths-help)
 <!-- AU-LINKS -->
 
 
