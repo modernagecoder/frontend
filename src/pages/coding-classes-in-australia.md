@@ -369,6 +369,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [APSMO Maths Olympiad practice](/apsmo-maths-olympiad-practice)
 - [ICAS Maths practice](/icas-maths-practice-online)
 - [Maths tutor cost in Australia](/maths-tutor-cost-australia-explained)
+- [Online vs in-person coding classes](/online-vs-in-person-coding-classes-australia)
 <!-- AU-LINKS -->
 
 
