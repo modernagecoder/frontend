@@ -352,6 +352,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [RoboCup Junior Australia coding help](/robocup-junior-australia-coding-help)
 - [FIRST LEGO League Australia coding help](/first-lego-league-australia-coding-help)
 - [Young ICT Explorers project help](/young-ict-explorers-project-help)
+- [Student hackathons in Australia](/australian-student-hackathons)
 <!-- AU-LINKS -->
 
 
