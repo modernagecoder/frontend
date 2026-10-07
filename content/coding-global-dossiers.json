@@ -39544,5 +39544,820 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with the NSW Department of Education or the ABS."
     ]
+  },
+  "ai-and-programming-classes-in-sunshine-coast": {
+    "market": "Sunshine Coast",
+    "bodyClass": "cg-ssca",
+    "pageType": "city",
+    "curriculumAuthority": "Sunshine Coast Significant Urban Area, ABS Census 2021 QuickStats, area code 3015, compared with Queensland and Australia (read 7 October 2026): 382,903 people; median age 44; 106,804 families; 169,780 private dwellings; average 2.5 people per household; dwelling structure: separate house 105,022 (73.2 percent; Queensland 74.8), flat or apartment 18,015 (12.6 percent; Queensland 12.5; Australia 14.2); occupation: Professionals 37,359 (21.0 percent; Queensland 21.4; Australia 24.0), Technicians and Trades Workers 26,957 (15.1 percent; Queensland 13.7); Bachelor Degree level and above 68,285 (21.5 percent; Queensland 21.9; Australia 26.3); aged 15 to 19: 22,369 (5.8 percent); aged 20 to 24: 18,780 (4.9 percent). Queensland Department of Education term dates: 2026 Term 4 Tuesday 6 October to Friday 11 December. IANA tz database: Australia/Brisbane UTC+10 without daylight saving since March 1992; Asia/Kolkata UTC+5:30.",
+    "localProject": "Calibration and the reliability diagram. Translink SEQ_GTFS.zip (valid 20261007 to 20261206). Our rectangle latitude -26.95 to -26.38, longitude 152.85 to 153.16: 985 boarding stops; 975 with at least one trip on Wednesday 14 October 2026 (calendar and calendar_dates resolved). Weekday trips per stop: median 24, maximum 360. Most frequent route numbers among these stops: 620, 602, 631. Label: at least 16 trips on Sunday 18 October 2026; 481 of 975 (49.3 percent). Features: log(weekday trips) and number of routes serving the stop. Logistic regression by batch gradient descent (40,000 steps, learning rate 0.05) on 682 training stops, 293 test stops (numpy default_rng seed 2026), 145 test positives. Test accuracy 96.9 percent for fitted logits, logits times 3 and logits times 0.35. Expected calibration error, five equal-width bins: 0.059, 0.050, 0.210. Brier score: 0.0384, 0.0352, 0.0782. Fitted bins: 0.0-0.2 n 140 mean 0.041 observed 0.0; 0.4-0.6 n 25 mean 0.544 observed 0.96; 0.6-0.8 n 7 mean 0.709 observed 0.857; 0.8-1.0 n 121 mean 0.95 observed 0.95. Softened bins include 0.2-0.4 n 89 mean 0.268 observed 0.0. Lesson family: calibration, reliability diagram, proper scoring.",
+    "requiredMentions": [
+      "382,903",
+      "106,804",
+      "169,780",
+      "68,285",
+      "37,359",
+      "26,957",
+      "975 bus stops",
+      "481, or 49.3%",
+      "Caloundra to Noosa, one live classroom",
+      "0.210"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Sunshine Coast Significant Urban Area (3015): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/3015"
+      },
+      {
+        "claim": "Translink General Transit Feed Specification for South East Queensland (SEQ_GTFS.zip), Creative Commons Attribution 4.0, Queensland Government open data portal.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Queensland Department of Education, term dates 2026.",
+        "url": "https://education.qld.gov.au/about-us/calendar/term-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Brisbane.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "OpenStreetMap boundaries for the Sunshine Coast: the Overpass API returned 406 to this machine on 7 October 2026 and no mirror was tried; the stop rectangle is our own choice and is stated as such.",
+      "Any reason for the smaller 20 to 24 age band compared with 15 to 19: not stated by the ABS, so not offered.",
+      "Bureau of Meteorology observations: the observations feed returned 403 and was not circumvented.",
+      "QCAA senior subject details: qcaa.qld.edu.au returned a Cloudflare 403 and was not circumvented.",
+      "Any claim about real Sunday bus reliability or patronage: the model predicts timetabled trips only.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Translink, the Department of Transport and Main Roads, the ABS or the Queensland Department of Education."
+    ]
+  },
+  "online-coding-and-python-classes-in-ballarat": {
+    "market": "Ballarat",
+    "bodyClass": "cg-blrt",
+    "pageType": "city",
+    "curriculumAuthority": "Ballarat, ABS Census 2021 QuickStats, Significant Urban Area 2003 (read 7 October 2026): 111,973 people; median age 38; 29,291 families; 49,430 private dwellings; average 2.4 people per household; dwelling structure, occupied private dwellings: separate house 37,386 (85.0 percent; Victoria 73.4; Australia 72.3), flat or apartment 1,121 (2.5 percent; Victoria 12.1; Australia 14.2); occupation: Professionals 11,915 (22.8 percent; Victoria 25.0; Australia 24.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 21,174 (23.3 percent; Victoria 29.2; Australia 26.3); aged 15 to 19 6,815 (6.1 percent; Victoria 5.6; Australia 5.7). vic.gov.au, 2027 Victorian school term dates: Term 1 Wednesday 27 January (government school students start Thursday 28 January) to Thursday 25 March; Term 2 Monday 12 April to Friday 25 June; Term 3 Monday 12 July to Friday 17 September; Term 4 Monday 4 October to Friday 17 December. IANA tz database: Australia/Melbourne daylight saving rule AV, from the first Sunday in October to the first Sunday in April; Asia/Kolkata UTC+5:30.",
+    "localProject": "Binned range strings parsed into intervals. City of Ballarat, Ballarat Trees (data.gov.au ballarattrees, CC BY 3.0 AU, metadata modified 2026-09-30), ballarattrees.csv downloaded 7 October 2026: 75,347 rows; 2,025 distinct location values; genus 352 distinct values, 35,487 Not Assessed. Height (no unit): Not Assessed 38,117 (50.6 percent); <3 12,255; 3-6 9,672; 6-10 6,178; 10-15 4,883; 15-25 3,942; 25-40 300; assessed 37,230; median class 3-6 (cumulative 58.9 percent); mean bounds 4.88 to 9.14 m; midpoint mean 7.01 m. dbh: Not Assessed 37,877 (50.3 percent); <15cm 17,045; 16cm - 30cm 6,989; 31cm - 60cm 6,559; 61cm-90cm 3,660; > 90cm 3,217; assessed 37,470; median class 16cm - 30cm; gaps 15 to 16, 30 to 31, 60 to 61; lower-bound mean 22.10 cm, upper bound undefined (open class). Crown (m suffix): Not Assessed 12,696 (16.9 percent); assessed 62,651; median class 3-6m; mean bounds 3.04 to 6.59 m. Joint missingness: height and dbh both Not Assessed 35,558; height only 2,559; dbh only 2,319.",
+    "requiredMentions": [
+      "111,973",
+      "29,291",
+      "49,430",
+      "21,174",
+      "11,915",
+      "75,347",
+      "4.88 to 9.14 metres",
+      "at least 22.10 cm",
+      "35,558",
+      "Thursday 28 January 2027"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Ballarat Significant Urban Area (2003): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/2003"
+      },
+      {
+        "claim": "City of Ballarat, Ballarat Trees open dataset (CC BY 3.0 AU) on data.gov.au.",
+        "url": "https://data.gov.au/data/dataset/ballarattrees"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne and rule AV.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "The condition, health or safety of any tree: the register's health and structure fields are empty in the download, and no claim is made.",
+      "The true average height or trunk width of Ballarat's trees: only bounds are supported by range data, and half the register is not assessed.",
+      "Why the trunk classes leave one-centimetre gaps: not explained by the council, so only the gap itself is reported.",
+      "Bureau of Meteorology station data: the observations feed returned 403 and was not circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the City of Ballarat, the Victorian Government or the ABS."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-central-coast-nsw": {
+    "market": "Central Coast",
+    "bodyClass": "cg-ccag",
+    "pageType": "city",
+    "curriculumAuthority": "Central Coast Significant Urban Area, ABS Census 2021 QuickStats, area code 1010, compared with New South Wales and Australia (read 7 October 2026): 343,180 people; median age 43; 93,891 families; 151,482 private dwellings; average 2.5 people per household; dwelling structure: separate house 102,204 (78.2 percent; NSW 65.6), flat or apartment 11,484 (8.8 percent; NSW 21.7; Australia 14.2); occupation: Professionals 30,404 (20.4 percent; NSW 25.8; Australia 24.0), Technicians and Trades Workers 21,775 (14.6 percent; NSW 11.9); Bachelor Degree level and above 50,188 (17.8 percent; NSW 27.8; Australia 26.3); aged 15 to 19: 20,002 (5.8 percent); aged 20 to 24: 18,281 (5.3 percent). NSW Department of Education 2026 calendar, Eastern division: Term 4 Tuesday 13 October to Thursday 17 December. IANA tz database: Australia/Sydney daylight saving from the first Sunday in October to the first Sunday in April; Asia/Kolkata UTC+5:30.",
+    "localProject": "Context-window token budget for an agent. NSW public schools master dataset (Date_extracted 2026-10-02), 46 columns; LGA \"Central Coast (NSW)\": 77 rows; Level_of_schooling: Primary School 54, Secondary School 17, Schools for Specific Purposes 4, Environmental Education Centre 1, Central/Community School 1; 61 distinct Town_suburb values. Written as CSV (Python csv.writer, LF line endings): all columns 43,215 characters, 2,557 whitespace words; six columns (School_name, Town_suburb, Postcode, Level_of_schooling, Latitude, Longitude) 6,187 characters, 399 words; five rows nearest Gosford Public School by equirectangular distance, six columns, 503 characters, 29 words. Mean characters per row: 551.6 (all columns), 79.4 (six). Token estimate = ceil(characters / 4), labelled as a rule of thumb: 10,804, 1,547, 126. In a 2,000-token data allowance: 14 full rows, 100 slim rows. Enrolment, Indigenous, language-background and socio-economic columns are present in the file and deliberately excluded from every version sent. Earliest Date_1st_teacher: Ourimbah Public School 1863-01-01, Gosford Public School 1865-02-01. Lesson family: context budget, column and row selection, data minimisation for agents.",
+    "requiredMentions": [
+      "343,180",
+      "93,891",
+      "151,482",
+      "102,204",
+      "50,188",
+      "21,775",
+      "43,215",
+      "6,187",
+      "Woy Woy to The Entrance",
+      "About 10,800"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Central Coast Significant Urban Area (1010): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1010"
+      },
+      {
+        "claim": "NSW Department of Education, NSW public schools master dataset, Creative Commons Attribution, on Data.NSW.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, school calendar 2026: Eastern division term dates.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2026"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Exact token counts for any named model: tokenisers differ, so tokens are given only as an estimate at about four characters per token, with characters and words exact.",
+      "Any figure from the enrolment, Indigenous, language background or socio-economic columns of the schools file: not used or quoted.",
+      "Non-government schools: the NSW master dataset covers public schools only.",
+      "OpenStreetMap data: the Overpass API returned 406 to this machine on 7 October 2026 and no mirror was tried.",
+      "Bureau of Meteorology observations: the observations feed returned 403 and was not circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education or the ABS."
+    ]
+  },
+  "best-coding-classes-in-wollongong": {
+    "market": "Wollongong",
+    "bodyClass": "cg-wolb",
+    "pageType": "city",
+    "curriculumAuthority": "Wollongong Significant Urban Area, ABS Census 2021 QuickStats, area code 1036, compared with New South Wales and Australia (read 7 October 2026): 305,691 people; median age 39; 83,172 families; 126,004 private dwellings; average 2.5 people per household; dwelling structure: separate house 81,177 (71.3 percent; NSW 65.6), flat or apartment 16,888 (14.8 percent; NSW 21.7; Australia 14.2); occupation: Professionals 32,151 (23.1 percent; NSW 25.8; Australia 24.0), Technicians and Trades Workers 20,454 (14.7 percent; NSW 11.9); Bachelor Degree level and above 55,394 (22.1 percent; NSW 27.8; Australia 26.3); aged 15 to 19: 18,627 (6.1 percent); aged 20 to 24: 20,968 (6.9 percent). NSW Department of Education 2026 calendar, Eastern division: Term 4 Tuesday 13 October to Thursday 17 December. IANA tz database: Australia/Sydney daylight saving from the first Sunday in October to the first Sunday in April; Asia/Kolkata UTC+5:30.",
+    "localProject": "K-way merge with a heap against Timsort. NSW public schools master dataset (Date_extracted 2026-10-02): LGA Wollongong 63, Shellharbour 20, Kiama 5 rows, 88 schools, all with Date_1st_teacher. Each list sorted by (Date_1st_teacher, School_name). Comparisons counted with a wrapper class whose __lt__ increments a counter: heapq.merge 161; hand-written heap merge (heapq push and pop of (item, list index, position)) 161; sorted() on the concatenation 188; sorted() on a random.shuffle of the concatenation (random.seed 2026) 450; all outputs identical. Merged first: Wollongong Public School 1851-01-01, Berkeley Public School 1858-01-01, Fairy Meadow Public School 1858-12-01; last: Flinders Public School 2003-01-29, Shell Cove Public School 2005-01-28, Tullimbar Public School 2008-01-29. Per council earliest and latest: Wollongong 1851 (Wollongong Public School) to 1979 (Smiths Hill High School); Shellharbour 1859 (Shellharbour Public School) to 2008 (Tullimbar Public School); Kiama 1861-05-01 (Kiama Public School) to 1976 (Minnamurra Public School). Decade counts: 1850s 5, 1860s 4, 1870s 6, 1880s 5, 1890s 3, 1910s 3, 1920s 2, 1930s 2, 1940s 2, 1950s 26, 1960s 13, 1970s 11, 1990s 3, 2000s 3. Same-date ties: 24. Lesson family: k-way merge, heap, Timsort run detection, external sorting.",
+    "requiredMentions": [
+      "305,691",
+      "83,172",
+      "126,004",
+      "55,394",
+      "32,151",
+      "20,454",
+      "Tullimbar Public School",
+      "161 for the three-way merge",
+      "Thirroul to Kiama",
+      "26 of the 88"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Wollongong Significant Urban Area (1036): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1036"
+      },
+      {
+        "claim": "NSW Department of Education, NSW public schools master dataset, Creative Commons Attribution, on Data.NSW.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, school calendar 2026: Eastern division term dates.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2026"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That a first-teacher date is the date a school opened: the department records a first-teacher date, and the page uses that wording.",
+      "Any reason for the larger 20 to 24 age band than 15 to 19: not stated by the ABS, so not offered.",
+      "Non-government schools: the NSW master dataset covers public schools only.",
+      "OpenStreetMap data and Bureau of Meteorology observations: Overpass returned 406 and the observations feed 403 on 7 October 2026; neither was circumvented.",
+      "Enrolment, Indigenous, language background and socio-economic columns: present in the schools file but not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education or the ABS."
+    ]
+  },
+  "ai-and-programming-classes-in-bendigo": {
+    "market": "Bendigo",
+    "bodyClass": "cg-bdgo",
+    "pageType": "city",
+    "curriculumAuthority": "Bendigo, ABS Census 2021 QuickStats, Significant Urban Area 2004 (read 7 October 2026): 103,034 people; median age 39; 27,171 families; 44,922 private dwellings; average 2.4 people per household; dwelling structure, occupied private dwellings: separate house 36,178 (90.4 percent; Victoria 73.4; Australia 72.3), flat or apartment 429 (1.1 percent; Victoria 12.1; Australia 14.2); occupation: Professionals 10,576 (22.1 percent; Victoria 25.0; Australia 24.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 16,983 (20.3 percent; Victoria 29.2; Australia 26.3); aged 15 to 19 5,980 (5.8 percent; Victoria 5.6; Australia 5.7). vic.gov.au 2027 Victorian school term dates: Term 2 Monday 12 April to Friday 25 June; Term 3 Monday 12 July to Friday 17 September. IANA tz database: Australia/Melbourne rule AV, daylight saving from the first Sunday in October to the first Sunday in April; Asia/Kolkata UTC+5:30.",
+    "localProject": "Label hierarchies and hierarchical scoring. City of Greater Bendigo, Environment - Trees (data.gov.au city-of-greater-bendigo-environment-trees, CC BY 2.5 AU), cogb-environment-trees.shz downloaded 7 October 2026, read as cp1252: 121,481 records; 55 Suburb values; 664 Species values; 198 Genus values; species to genus label mapping has 0 conflicts. Genus \"Eucalyptus A to L\" 22,193 and \"Eucalyptus M to Z\" 37,457 (together 59,650, 49.1 percent). Species first word versus genus label: 249 mismatches (214 hybrid written \"x Cupressocyparis\"; 25 \"Myoprum\" under \"Myoporum\"; 4 \"Livistona\" under \"Livistonia\"; 3 \"Eucalyptus\" under \"Eorbifolia\"; 2 \"Eucalytpus\" under \"Eucalyptus A to L\"; 1 \"X\" under \"Catalpa\"). Suburb-majority species baseline: species accuracy 18.568 percent; published genus accuracy 31.261 percent; genus accuracy with the two eucalyptus buckets merged 48.829 percent. Suburbs whose commonest species is a eucalypt: 42 of 55. Suburb Bendigo: 9,076 records, commonest Ulmus procera - English Elm 1,867.",
+    "requiredMentions": [
+      "103,034",
+      "27,171",
+      "36,178",
+      "16,983",
+      "10,576",
+      "121,481",
+      "18.57%",
+      "31.26%",
+      "48.83%",
+      "42 of 55 suburbs have a eucalypt"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Bendigo Significant Urban Area (2004): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/2004"
+      },
+      {
+        "claim": "City of Greater Bendigo, Environment - Trees open dataset (CC BY 2.5 AU) on data.gov.au.",
+        "url": "https://data.gov.au/data/dataset/city-of-greater-bendigo-environment-trees"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne and rule AV.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Which spelling in each mismatched pair is botanically correct: not checked against a botanical authority, so the page only reports that the columns differ.",
+      "Why the council splits eucalypts alphabetically: not stated in the dataset, so only the split itself is reported.",
+      "The health, value or management of any tree: the register has no such fields in this download, and no claim is made.",
+      "Bureau of Meteorology station data: the observations feed returned 403 and was not circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the City of Greater Bendigo, the Victorian Government or the ABS."
+    ]
+  },
+  "online-coding-and-python-classes-in-geelong": {
+    "market": "Geelong",
+    "bodyClass": "cg-geep",
+    "pageType": "city",
+    "curriculumAuthority": "Geelong Significant Urban Area, ABS Census 2021 QuickStats, area code 2008, compared with Victoria and Australia (read 7 October 2026): 289,630 people; median age 39; 76,918 families; 127,113 private dwellings; average 2.5 people per household; dwelling structure: separate house 94,723 (86.7 percent; Victoria 73.4), flat or apartment 2,616 (2.4 percent; Victoria 12.1; Australia 14.2); occupation: Professionals 32,821 (23.5 percent; Victoria 25.0; Australia 24.0), Technicians and Trades Workers 20,021 (14.3 percent; Victoria 12.6); Bachelor Degree level and above 60,585 (25.6 percent; Victoria 29.2; Australia 26.3); aged 15 to 19: 16,313 (5.6 percent); aged 20 to 24: 18,066 (6.2 percent). Victorian Government school term dates: 2026 Term 4 Monday 5 October to Friday 18 December. IANA tz database: Australia/Melbourne daylight saving from the first Sunday in October to the first Sunday in April; Asia/Kolkata UTC+5:30.",
+    "localProject": "UTF-8 byte order mark and text normalisation. Victorian Department of Education School Locations 2025 (dv402-SchoolLocations2025.csv), CC BY 4.0 on DataVic, downloaded 7 October 2026: 534,679 bytes; bytes 0 to 2 = EF BB BF; 2,302 CRLF line endings; 2,301 data rows via csv.DictReader. Decoded with utf-8: first header repr '\\ufeffEducation_Sector', length 17; DictReader row['Education_Sector'] raises KeyError. Decoded with utf-8-sig: 'Education_Sector'. LGA_Name 'Greater Geelong (C)': 85 rows, School_Status all 'O'; School_Type Primary 57, Secondary 15, Pri/Sec 8, Special 4, Language 1. Address_Town in Geelong rows: 54 distinct raw values, 36 after strip().casefold(); 18 towns appear in two spellings (newtown, drysdale, geelong, geelong west, geelong east, bell park, manifold heights, newcomb, corio, grovedale, ocean grove, lara, belmont, whittington, armstrong creek, highton, ceres, bell post hill); 29 rows have an all-capitals town; NEWTOWN 4 rows, Newtown 3 rows. Statewide: 1,303 raw town values, 942 after casefold; 27 data lines where str.split(',') yields a different field count from the header (quoted commas), 0 of them in Geelong rows; 4 School_Name values contain U+2019. Lesson family: encodings, BOM, utf-8-sig, casefold normalisation, using a real CSV parser.",
+    "requiredMentions": [
+      "289,630",
+      "76,918",
+      "127,113",
+      "94,723",
+      "60,585",
+      "32,821",
+      "EF BB BF",
+      "54 town spellings",
+      "Lara to Ocean Grove",
+      "534,679 bytes"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Geelong Significant Urban Area (2008): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/2008"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025, Creative Commons Attribution 4.0 International, on DataVic.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays: 2026 Term 4.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "A breakdown of Geelong schools by sector: available in the file but not shown, to keep the page about reading data rather than comparing school systems.",
+      "Any claim about why the file contains a byte order mark or mixed capitals: the cause is not documented, so only the effect is described.",
+      "The Victorian Curriculum and Assessment Authority study details for VCE computing: covered on the dedicated VCE pages and not repeated here.",
+      "OpenStreetMap data and Bureau of Meteorology observations: Overpass returned 406 and the observations feed 403 on 7 October 2026; neither was circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the Victorian Department of Education or the ABS."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-albury-wodonga": {
+    "market": "Albury-Wodonga",
+    "bodyClass": "cg-albw",
+    "pageType": "city",
+    "curriculumAuthority": "Albury - Wodonga, ABS Census 2021 QuickStats, Significant Urban Area 1001 (read 7 October 2026; compared by the ABS with New South Wales): 97,793 people; median age 38; 25,718 families; 43,012 private dwellings; average 2.4 people per household; dwelling structure, occupied private dwellings: separate house 31,941 (83.9 percent; New South Wales 65.6; Australia 72.3), flat or apartment 611 (1.6 percent; New South Wales 21.7; Australia 14.2); occupation: Professionals 8,689 (18.8 percent; New South Wales 25.8; Australia 24.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 13,944 (17.7 percent; New South Wales 27.8; Australia 26.3); aged 15 to 19 6,009 (6.1 percent; New South Wales 5.7; Australia 5.7). Councils: AlburyCity (alburycity.nsw.gov.au) and Wodonga Council (wodonga.vic.gov.au). vic.gov.au: 2027 government school students start Thursday 28 January. education.nsw.gov.au: 2027 Eastern division Term 1 Wednesday 3 February to Friday 9 April. IANA tz database: Australia/Sydney and Australia/Melbourne share daylight saving dates; Asia/Kolkata UTC+5:30.",
+    "localProject": "GTFS service calendars with exception dates as an agent tool. Transport Victoria, GTFS Schedule (data.vic.gov.au, CC BY 4.0), gtfs.zip downloaded 7 October 2026 (250,188,897 bytes, last-modified 4 October 2026), regional bus feed 6/google_transit.zip: routes whose long or short name contains Wodonga 14 (AW Wodonga - Albury; 150 Wodonga (South) - Albury; 160 Wodonga (North) - Albury; B, C, E, F, G, M, O, S, T, WS; Albury - Wodonga - Myrtleford); 279 trips; service_ids T0 (1111100, 135 trips, exceptions type 2 on 20261103, 20261225, 20261228), UU (0100000, 129 trips, type 2 on every Tuesday 20261006 to 20261229 except 20261103), T2 (0000010, 15 trips, routes 150 and 160, type 2 on 20261226); all start 20261001, end 20261231; 16 exception rows. Over 92 days, calendar.txt-only counts differ from calendar plus calendar_dates on 16 days, 1,968 trips in total: ordinary Tuesdays 264 versus 135; 20261103 264 versus 129; 20261225 135 versus 0; 20261226 15 versus 0; 20261228 135 versus 0.",
+    "requiredMentions": [
+      "97,793",
+      "25,718",
+      "43,012",
+      "13,944",
+      "8,689",
+      "31,941",
+      "16 of the 92 days",
+      "1,968 trips",
+      "Victorian government school students begin 2027",
+      "Wednesday 3 February to Friday 9 April 2027"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Albury - Wodonga Significant Urban Area (1001): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1001"
+      },
+      {
+        "claim": "Transport Victoria GTFS Schedule (CC BY 4.0), regional bus feed including Wodonga routes.",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "NSW Department of Education, future and past term and vacation dates, 2027.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/future-and-past-nsw-term-and-vacation-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney and Australia/Melbourne.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Why the feed runs a different timetable on Tuesday 3 November 2026: the reason is not in the data and the Victorian public holiday page could not be fetched (business.vic.gov.au returned 403, not circumvented), so no reason is given.",
+      "New South Wales bus services on the Albury side: the NSW open transport feed needs an API key and was not used; only Transport Victoria routes are counted.",
+      "Separate Albury and Wodonga population figures added together: never summed; only the bureau's combined urban area figure is used.",
+      "Which New South Wales school division Albury schools follow: not verified, so only the Eastern division dates are quoted as the state's standard calendar.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Transport Victoria, the New South Wales or Victorian governments, AlburyCity, Wodonga Council or the ABS."
+    ]
+  },
+  "ai-and-programming-classes-in-townsville": {
+    "market": "Townsville",
+    "bodyClass": "cg-tsva",
+    "pageType": "city",
+    "curriculumAuthority": "Townsville Significant Urban Area, ABS Census 2021 QuickStats, area code 3017, compared with Queensland and Australia (read 7 October 2026): 179,011 people; median age 35; 45,989 families; 75,844 private dwellings; average 2.5 people per household; dwelling structure: separate house 51,876 (80.1 percent; Queensland 74.8), flat or apartment 4,845 (7.5 percent; Queensland 12.5; Australia 14.2); occupation: Professionals 17,600 (20.0 percent; Queensland 21.4; Australia 24.0), Technicians and Trades Workers 12,628 (14.4 percent; Queensland 13.7); Bachelor Degree level and above 26,584 (18.4 percent; Queensland 21.9; Australia 26.3); aged 15 to 19: 12,203 (6.8 percent); aged 20 to 24: 14,528 (8.1 percent). Queensland Department of Education term dates: 2026 Term 4 Tuesday 6 October to Friday 11 December. IANA tz database: Australia/Brisbane UTC+10 without daylight saving since March 1992; Asia/Kolkata UTC+5:30.",
+    "localProject": "Early stopping on validation loss. Translink TSV_GTFS.zip (feed_info publisher Department of Transport and Main Roads - Translink Division, 20261007 to 20261206; agency Kinetic (Townsville)): 17 routes, 638 stops, 992 trips in stop_times. For each trip, consecutive stop pairs (sorted by stop_sequence) give scheduled minutes = next arrival minus this departure; 719 distinct (from, to) pairs; per pair median minutes and straight-line distance (equirectangular). Median distance 394 m; median minutes 1.0; 138 pairs at 0 minutes. Model: degree-9 polynomial in standardised distance (km), features column-scaled, batch gradient descent learning rate 0.02 on 60 training pairs (numpy default_rng seed 2026 permutation), 240 validation, 419 test. MSE (squared minutes) train/validation: epoch 100 0.611/38.195; 400 0.462/1.430; 1,000 0.458/15.201; 2,000 0.454/77.555; 5,000 0.452/268.384; 10,000 0.450/521.187; 50,000 0.444/2,257.365; 100,000 0.443/2,727.526; 200,000 0.442/1,619.720. Best validation epoch 400; patience 2,000 epochs (checked every 100) triggers at 2,400. Test MSE: best weights 1.069, final weights 4,509.885. Straight line (numpy polyfit degree 1) on the same 60 pairs: test MSE 1.196, slope 3.735 minutes per km, intercept -0.471. Lesson family: early stopping, overfitting, train/validation/test discipline.",
+    "requiredMentions": [
+      "179,011",
+      "45,989",
+      "75,844",
+      "51,876",
+      "26,584",
+      "17,600",
+      "719 stop-to-stop segments",
+      "4,509.9",
+      "Bushland Beach to the city",
+      "epoch 2,400"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Townsville Significant Urban Area (3017): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/3017"
+      },
+      {
+        "claim": "Translink General Transit Feed Specification, Townsville feed (TSV_GTFS.zip), Creative Commons Attribution 4.0, Queensland Government open data portal.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Queensland Department of Education, term dates 2026.",
+        "url": "https://education.qld.gov.au/about-us/calendar/term-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Brisbane.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Measured bus travel times or on-time performance: the file holds scheduled times only, and the page says so.",
+      "Any reason for Townsville's younger median age: not stated by the ABS, so not offered.",
+      "Bureau of Meteorology observations: the observations feed returned 403 and was not circumvented.",
+      "QCAA senior subject details: qcaa.qld.edu.au returned a Cloudflare 403 and was not circumvented.",
+      "OpenStreetMap road distances: the Overpass API returned 406 to this machine on 7 October 2026; straight-line distances between published stop coordinates are used instead.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Translink, Kinetic, the Department of Transport and Main Roads, the ABS or the Queensland Department of Education."
+    ]
+  },
+  "best-coding-classes-in-launceston": {
+    "market": "Launceston",
+    "bodyClass": "cg-lstn",
+    "pageType": "city",
+    "curriculumAuthority": "Launceston, ABS Census 2021 QuickStats, Significant Urban Area 6004 (read 7 October 2026): 90,953 people; median age 39; 24,061 families; 40,151 private dwellings; average 2.4 people per household; dwelling structure, occupied private dwellings: separate house 29,618 (82.2 percent; Tasmania 87.7; Australia 72.3), flat or apartment 2,904 (8.1 percent; Tasmania 5.3; Australia 14.2); occupation: Professionals 8,939 (20.9 percent; Tasmania 20.0; Australia 24.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 16,406 (21.8 percent; Tasmania 21.9; Australia 26.3); aged 15 to 19 5,242 (5.8 percent; Tasmania 5.4); aged 20 to 24 5,898 (6.5 percent; Tasmania 5.6). Department for Education, Children and Young People, 2027 term dates: Term 2 26 April to 2 July; Term 3 19 July to 24 September; teachers in schools commence Monday 1 February; colleges have their own finishing dates. IANA tz database: Australia/Hobart daylight saving Sunday 4 October 2026 to Sunday 4 April 2027; Asia/Kolkata UTC+5:30.",
+    "localProject": "Directed versus symmetric Hausdorff distance. City of Launceston Open Data, AdministrativeAreas FeatureServer (services.arcgis.com/yeXpdyjk3azbqItW), item d622bbe04fb74325a6b0c18e1678e965, licence CC BY 4.0, queried as GeoJSON (outSR 4326) on 7 October 2026. Layer 3 Launceston_LGA: 1 polygon, 3,265 vertices, Shape__Area 1,420,268,517.9 m2, Shape__Length 228,166.0 m. Layer 1 Launceston_LGA_Pre1985: 1 polygon, 1,057 vertices, Shape__Area 28,562,958.4 m2. Local equirectangular projection at 41.44 S; our shoelace areas 1,411.36 and 28.42 km2. Boundaries densified to 50 m: 5,966 and 1,413 points. Older-boundary samples inside the current polygon: 1,162 of 1,413; the 251 outside are at most 17.2 m from the current boundary (region-directed Hausdorff older to current 17.2 m). Grid of 50 m cells inside the older polygon: 11,369, of which 10 outside the current polygon. Region-directed Hausdorff current to older: 38.99 km (farthest sample near 147.648 E, 41.478 S). Boundary-only directed Hausdorff older line to current line: 5.47 km.",
+    "requiredMentions": [
+      "90,953",
+      "24,061",
+      "40,151",
+      "16,406",
+      "8,939",
+      "5,898",
+      "17.2 metres",
+      "38.99 kilometres",
+      "5.47 kilometres",
+      "10 of 11,369"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Launceston Significant Urban Area (6004): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/6004"
+      },
+      {
+        "claim": "City of Launceston Open Data, Launceston LGA and Launceston LGA Pre1985 layers (CC BY 4.0).",
+        "url": "https://opendata.launceston.tas.gov.au/datasets/launceston::launceston-lga-1"
+      },
+      {
+        "claim": "Department for Education, Children and Young People, Tasmanian school term dates 2027.",
+        "url": "https://www.decyp.tas.gov.au/learning/term-dates/"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Hobart.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "When or why Launceston's council boundary changed: the layer names do not explain it and no council history page was verified, so no history is given.",
+      "That the 17.2-metre slivers are digitising differences: likely but unconfirmed, and stated only as likely.",
+      "Flood extent, discharge and evacuation layers on the same portal: excluded by the cluster rules on disaster content.",
+      "Tasmanian Government transport data (GTFS): transport.tas.gov.au returned 403 and was not circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the City of Launceston, the Tasmanian Government or the ABS."
+    ]
+  },
+  "best-coding-classes-in-coffs-harbour": {
+    "market": "Coffs Harbour",
+    "bodyClass": "cg-cfh",
+    "pageType": "city",
+    "curriculumAuthority": "Coffs Harbour, ABS Census 2021 QuickStats, Significant Urban Area 1011 (read 7 October 2026): 74,195 people; median age 44 (New South Wales 39, Australia 38); 19,961 families; 32,710 private dwellings; average 2.4 people per household; dwelling structure, occupied private dwellings: separate house 21,024 (74.6 percent; NSW 65.6; Australia 72.3), flat or apartment 3,074 (10.9 percent; NSW 21.7; Australia 14.2); occupation, employed people aged 15 and over: Professionals 6,369 (19.9 percent; NSW 25.8; Australia 24.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 11,180 (18.3 percent; NSW 27.8; Australia 26.3); aged 10 to 14 4,834 (6.5 percent); aged 15 to 19 4,245 (5.7 percent). NSW Department of Education, 2027 term dates, Eastern division, first to last days for students: Term 1 Wednesday 3 February to Friday 9 April; Term 2 Thursday 29 April to Friday 2 July; Term 3 Tuesday 20 July to Friday 24 September; Term 4 Tuesday 12 October to Monday 20 December. IANA tz database: Australia/Sydney, daylight saving Sunday 4 October 2026 to Sunday 4 April 2027; Asia/Kolkata UTC+5:30.",
+    "localProject": "Reciprocal (mutual) nearest neighbours. NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (data.nsw.gov.au, Creative Commons Attribution), master_dataset.csv downloaded 7 October 2026, Date_extracted 2026-10-02. Rows with LGA = Coffs Harbour: 26 (Primary School 20, Secondary School 5, Schools for Specific Purposes 1). Nearest neighbour per school by haversine distance (R = 6,371,008.8 m) on Latitude and Longitude, brute force over the other 25. Reciprocal pairs (6, covering 12 schools): Tyalla Public School / Orara High School 126 m; Toormina Public School / Toormina High School 291 m; Woolgoolga Public School / Woolgoolga High School 1,487 m; Coffs Harbour Public School / Coffs Harbour High School 1,532 m; Lowanna Public School / Ulong Public School 4,236 m; Coramba Public School / Karangi Public School 4,887 m. In-degree of the nearest-neighbour relation: 9 schools 0, maximum 2 (William Bayldon Public School, Karangi Public School, Coramba Public School, Orara High School). Nearest-neighbour distance: median 2,079 m (mean of 13th and 14th values), minimum 126 m, maximum 9,572 m (Nana Glen Public School to Coramba Public School). North-south span of the 26 schools about 39.8 km. Earliest Date_1st_teacher 1884-02-01 (Corindi Public School, Woolgoolga Public School); Coffs Harbour Senior College School_subtype Year 11 to Year 12. Lesson family: reciprocal nearest neighbours as an asymmetric relation; distinct from Voronoi, Delaunay, Gabriel and relative-neighbourhood graphs and from k-means used elsewhere on the site.",
+    "requiredMentions": [
+      "74,195",
+      "19,961",
+      "32,710",
+      "11,180",
+      "21,024",
+      "Tyalla Public School and Orara High School",
+      "Lowanna Public School and Ulong Public School",
+      "2,079 m",
+      "9,572 m"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Coffs Harbour Significant Urban Area (1011): people, median age, families, private dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1011"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Why four of the six pairs join a primary school to a high school (shared sites, planning history): not verified, so no reason is given.",
+      "Road or walking distances between schools: not computed; all distances are straight lines between published coordinates.",
+      "Enrolment, ICSEA, Indigenous and LBOTE figures from the master dataset: excluded by the cluster rules or not needed.",
+      "The specialty description of the one School for Specific Purposes: not printed, to keep the page about geometry rather than individual students.",
+      "Bureau of Meteorology station facts: the Bureau's pages returned 403 and were not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education, Coffs Harbour City Council or the ABS."
+    ]
+  },
+  "online-coding-and-python-classes-in-mackay": {
+    "market": "Mackay",
+    "bodyClass": "cg-mkay",
+    "pageType": "city",
+    "curriculumAuthority": "Mackay, ABS Census 2021 QuickStats, Significant Urban Area 3011 (read 7 October 2026): 84,333 people; median age 37; 22,006 families; 36,057 private dwellings; average 2.5 people per household; dwelling structure, occupied private dwellings: separate house 24,705 (81.2 percent; Queensland 74.8; Australia 72.3), flat or apartment 1,476 (4.8 percent; Queensland 12.5; Australia 14.2); occupation: Technicians and Trades Workers 8,110 (19.6 percent; Queensland 13.7; Australia 12.9), Professionals 6,929 (16.7 percent; Queensland 21.4; Australia 24.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 9,573 (14.2 percent; Queensland 21.9; Australia 26.3); aged 15 to 19 5,093 (6.0 percent; Queensland 6.1). Queensland Department of Education term dates: 2026 Term 4 Tuesday 6 October to Friday 11 December (10 weeks); school holidays Saturday 12 December 2026 to Tuesday 26 January 2027 (46 days). IANA tz database: Australia/Brisbane has no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Join cardinality and row explosion. Translink GTFS for Mackay, MKY_GTFS.zip listed on data.qld.gov.au (CC BY 4.0), downloaded 7 October 2026: agency Mackay Transit Coaches; feed_info 20261007 to 20261206; calendars MKY 26_27-43106 (Monday to Friday, 20261007 to 20261204, 204 trips) and MKY 26_27-43105 (Saturday, 20261010 to 20261205, 76 trips); stops 277; routes 11 (300 to 310); trips 280; stop_times 4,687; shapes 10,220 points, 30 shape_id. pandas 3.0.0: stop_times merge trips on trip_id (validate many_to_one) 4,687; merge routes 4,687; merge stops on stop_id 4,687. Stop names: 243 distinct, 34 shared by two stops (maximum 2, e.g. Hoey St at Nott Street). stop_times joined to stops by stop_name: 5,572 rows (885 extra); validate many_to_one raises MergeError. stop_times joined to shapes via trips.shape_id: 1,725,944 rows.",
+    "requiredMentions": [
+      "84,333",
+      "22,006",
+      "36,057",
+      "8,110",
+      "6,929",
+      "9,573",
+      "5,572",
+      "1,725,944",
+      "Hoey St at Nott Street",
+      "46 days of school holidays"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Mackay Significant Urban Area (3011): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/3011"
+      },
+      {
+        "claim": "Translink General transit feed specification (GTFS), Mackay feed, CC BY 4.0.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Queensland Department of Education, school term dates 2026.",
+        "url": "https://education.qld.gov.au/about-us/calendar/term-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Brisbane.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That every pair of same-named stops faces across the road: typical of bus networks but not checked stop by stop, so it is stated as usual, not certain.",
+      "How Mackay buses actually perform: the feed is a schedule, so no punctuality or reliability claim is made.",
+      "Mackay tide and wave datasets on the same portal: not used; the project needed only the timetable.",
+      "Bureau of Meteorology station data: the observations feed returned 403 and was not circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Translink, the Queensland Government, Mackay Regional Council or the ABS."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-cairns": {
+    "market": "Cairns",
+    "bodyClass": "cg-cnsa",
+    "pageType": "city",
+    "curriculumAuthority": "Cairns Significant Urban Area, ABS Census 2021 QuickStats, area code 3004, compared with Queensland and Australia (read 7 October 2026): 153,425 people; median age 39; 38,870 families; 66,690 private dwellings; average 2.5 people per household; dwelling structure: separate house 39,513 (71.0 percent; Queensland 74.8), flat or apartment 9,440 (17.0 percent; Queensland 12.5; Australia 14.2); occupation: Professionals 15,309 (20.9 percent; Queensland 21.4; Australia 24.0), Technicians and Trades Workers 10,791 (14.7 percent; Queensland 13.7); Bachelor Degree level and above 24,519 (19.7 percent; Queensland 21.9; Australia 26.3); aged 15 to 19: 9,428 (6.1 percent); aged 20 to 24: 8,537 (5.6 percent). Queensland Department of Education term dates: 2026 Term 4 Tuesday 6 October to Friday 11 December. IANA tz database: Australia/Brisbane UTC+10 without daylight saving since March 1992; Asia/Kolkata UTC+5:30.",
+    "localProject": "Connection scan algorithm (earliest arrival) and the service-calendar filter. Translink CNS_GTFS.zip (publisher Department of Transport and Main Roads - Translink Division, 20261007 to 20261206; agency Kinetic (Cairns)): routes.txt 22 routes, stops.txt 463 stops, 1,493 trips with stop_times. Service day Wednesday 14 October 2026 resolved from calendar.txt and calendar_dates.txt: 638 trips; elementary connections (consecutive stop_times by stop_sequence) 17,125, sorted by departure; ignoring the calendar 40,802. CSA with stop names stripped of \", platform N\" (platforms merged) and zero transfer time (our simplifications). Query 1: from \"Cedar Rd at Coral Coast Drive (Palm Cove)\" at 08:00 to \"Ravizza Dr at Hancock St (Edmonton Centre)\": legs 110 08:06 to Cairns City bus station 09:01; 133 09:30 to Cairns Central Shopping Centre (Spence St) 09:33; 140 09:35 to Edmonton Centre 10:12; connections scanned 2,649. Same query on all 40,802 connections: 110 08:06 to 09:01 then 150E 09:08 to Edmonton Centre 09:40 (trip not in the Wednesday service set); scanned 4,302. Query 2: Palm Cove 08:00 to Cairns City bus station: 110 08:06 to 09:01; scanned 1,253 (2,602 without the filter). Lesson family: connection scan earliest-arrival routing; tool testing for agents.",
+    "requiredMentions": [
+      "153,425",
+      "38,870",
+      "66,690",
+      "24,519",
+      "15,309",
+      "10,791",
+      "17,125",
+      "40,802",
+      "Palm Cove to Edmonton without the bus",
+      "09:40, impossible"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Cairns Significant Urban Area (3004): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/3004"
+      },
+      {
+        "claim": "Translink General Transit Feed Specification, Cairns feed (CNS_GTFS.zip), Creative Commons Attribution 4.0, Queensland Government open data portal.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Queensland Department of Education, term dates 2026.",
+        "url": "https://education.qld.gov.au/about-us/calendar/term-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Brisbane.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That the plans are travel advice: transfers are assumed instant and platforms merged, and the page tells travellers to check Translink.",
+      "Real-time bus positions or delays: not in the static timetable and not used.",
+      "OpenStreetMap walking paths between stops: the Overpass API returned 406 to this machine on 7 October 2026; no mirror was tried.",
+      "Bureau of Meteorology observations and QCAA syllabus details: the observations feed returned 403 and qcaa.qld.edu.au a Cloudflare 403; neither was circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Translink, Kinetic, the Department of Transport and Main Roads, the ABS or the Queensland Department of Education."
+    ]
+  },
+  "ai-and-programming-classes-in-rockhampton": {
+    "market": "Rockhampton",
+    "bodyClass": "cg-rokh",
+    "pageType": "city",
+    "curriculumAuthority": "Rockhampton, ABS Census 2021 QuickStats, Significant Urban Area 3014 (read 7 October 2026): 79,293 people; median age 36; 20,332 families; 33,528 private dwellings; average 2.5 people per household; dwelling structure, occupied private dwellings: separate house 25,007 (87.8 percent; Queensland 74.8; Australia 72.3), flat or apartment 1,344 (4.7 percent; Queensland 12.5); occupation: Technicians and Trades Workers 5,731 (15.8 percent; Queensland 13.7; Australia 12.9), Professionals 6,254 (17.2 percent; Queensland 21.4); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 9,097 (14.4 percent; Queensland 21.9); aged 15 to 19 5,248 (6.6 percent; Queensland 6.1; Australia 5.7); aged 20 to 24 5,190 (6.5 percent). Queensland Department of Education: 2026 Term 3 holidays Saturday 19 September to Monday 5 October (17 days); Term 4 Tuesday 6 October to Friday 11 December. IANA tz database: Australia/Brisbane has no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Interval partitioning (minimum resources equal maximum overlap). Translink GTFS for Rockhampton-Yeppoon, RKY_GTFS.zip listed on data.qld.gov.au (CC BY 4.0), downloaded 7 October 2026: agency Translink; feed_info 20261007 to 20261206; 485 stops; 19 routes; 400 trips; 10,197 stop_times; calendars ROK 26_27-42954 (Monday to Friday), ROK 26_27-42953 (Saturday), YEPP 26_27-43897 (Monday to Friday), YEPP 26_27-43891 (Saturday), YEPP 26_27-43892 (Sunday). Rockhampton weekday: 182 trips, routes 401, 402, 403, 404, 405, 406, 407, 410, 411; trip interval from first departure to last arrival; earliest start 06:41 (24,060 s), latest end 18:29 (66,540 s); total 92.7 bus-hours; maximum simultaneous trips 13 at 08:31; greedy (min-heap of finish times) vehicles 13 / 16 / 19 for turnaround 0 / 300 / 600 s. Yeppoon weekday: 142 trips, routes 440, 441, 442, 444, 445, 446, 447, 448, 450, 451; earliest 05:18, latest end 20:35; 98.5 bus-hours; maximum overlap 14 at 08:15; greedy 14 / 15 / 16. Deadhead (empty running) between trip end and next start not modelled.",
+    "requiredMentions": [
+      "79,293",
+      "20,332",
+      "33,528",
+      "5,731",
+      "6,254",
+      "9,097",
+      "5,190",
+      "13, at 8:31am",
+      "92.7 bus-hours",
+      "Saturday 19 September to Monday 5 October 2026"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Rockhampton Significant Urban Area (3014): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/3014"
+      },
+      {
+        "claim": "Translink General transit feed specification (GTFS), Rockhampton-Yeppoon feed, CC BY 4.0.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Queensland Department of Education, school term dates 2026.",
+        "url": "https://education.qld.gov.au/about-us/calendar/term-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Brisbane.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "The number of buses the Rockhampton operator actually uses: not published in the feed, and the computed figures are lower bounds only.",
+      "Which weekday trips run on school days only: not separated in this analysis, so no school-trip figure is given.",
+      "Rockhampton tide gauge files: some resources listed under the gauge on the portal carry another station's name, so tide data was not used.",
+      "Bureau of Meteorology station data: the observations feed returned 403 and was not circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Translink, the Queensland Government, Rockhampton Regional Council or the ABS."
+    ]
+  },
+  "online-coding-and-python-classes-in-bundaberg": {
+    "market": "Bundaberg",
+    "bodyClass": "cg-bnd",
+    "pageType": "city",
+    "curriculumAuthority": "Bundaberg, ABS Census 2021 QuickStats, Significant Urban Area 3003 (read 7 October 2026): 73,747 people; median age 45 (Queensland 38, Australia 38); 20,096 families; 33,376 private dwellings; average 2.4 people per household; dwelling structure, occupied private dwellings: separate house 23,614 (81.7 percent; Queensland 74.8; Australia 72.3); occupation, employed people aged 15 and over: Technicians and Trades Workers 4,015 (13.7 percent; Queensland 13.7; Australia 12.9), Professionals 4,919 (16.7 percent; Queensland 21.4; Australia 24.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 7,852 (12.8 percent; Queensland 21.9; Australia 26.3); aged 15 to 19 4,186 (5.7 percent). Queensland Department of Education, future dates, 2027: Term 1 Wednesday 27 January to Thursday 25 March; Term 2 Monday 12 April to Friday 25 June; Term 3 Monday 12 July to Friday 17 September; Term 4 Tuesday 5 October to Friday 10 December. IANA tz database: Australia/Brisbane UTC+10, no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Bisection method on monotone functions. Translink Bundaberg GTFS (BUN_GTFS.zip, gtfsrt.api.translink.com.au; data.qld.gov.au dataset general-transit-feed-specification-gtfs-translink, CC BY 4.0), downloaded 7 October 2026, feed_info 20261007 to 20261206. routes.txt: 13 routes (600 to 610, 621, 622); stops.txt: 296 stops. calendar.txt: BUND 26_27-42985 Monday to Friday (92 trips), BUND 26_27-42986 Saturday (46 trips); no Sunday service. Weekday stop_times departures: 2,724, first 06:25:00, last 17:50:00; route B608 has 17 weekday trips, the most. Saturday departures 1,429, 07:35:00 to 16:05:00. count(t) = departures at or before t; target 1,362 (half of 2,724); bisection on [06:25, 17:50] to a 60 s window: 10 iterations, answer 11:47 (exact 1,362nd departure 11:47:00 from the sorted list); linear scan in 60 s steps: 322 steps. Radius: haversine distance from stop 730001 Woongarra St at City Centre; half of 296 stops = 148 within 3,207 m (exact 148th distance 3,207.3 m); maximum 22.26 km; bisection to 1 m: 15 iterations. Clock midpoint of 06:25 and 17:50: 12:07:30. Lesson family: bisection method; distinct from binary search on sorted arrays and from secant slopes used elsewhere on the site.",
+    "requiredMentions": [
+      "73,747",
+      "20,096",
+      "33,376",
+      "23,614",
+      "7,852",
+      "2,724",
+      "11:47am",
+      "3,207 m",
+      "Woongarra St at City Centre"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Bundaberg Significant Urban Area (3003): people, median age, families, private dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/3003"
+      },
+      {
+        "claim": "Translink general transit feed specification feeds, including Bundaberg, published under Creative Commons Attribution 4.0.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Queensland Department of Education, school term dates from 2027.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Brisbane.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Patronage, crowding or punctuality of any Bundaberg service: not in the timetable feed, so nothing is claimed.",
+      "Walking distances to stops: all distances are straight lines between published coordinates.",
+      "QCAA senior syllabus details for Digital Solutions: qcaa.qld.edu.au returned a Cloudflare 403 and was not circumvented; the subject is named only.",
+      "Bureau of Meteorology facts for Bundaberg: the Bureau returned 403 and was not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Translink, the Queensland Government, Bundaberg Regional Council or the ABS."
+    ]
+  },
+  "ai-and-programming-classes-in-melton": {
+    "market": "Melton",
+    "bodyClass": "cg-mlt",
+    "pageType": "city",
+    "curriculumAuthority": "City of Melton, ABS Census 2021 QuickStats, Melton (C) LGA24650 (read 7 October 2026): 178,960 people; median age 33 (Victoria 38, Australia 38); 46,567 families; 60,338 private dwellings; average 3.1 people per household; dwelling structure, occupied private dwellings: separate house 49,974 (91.0 percent; Victoria 73.4; Australia 72.3), flat or apartment 409 (0.7 percent; Victoria 12.1; Australia 14.2); age: 5 to 9 15,297 (8.5 percent; Victoria 6.2), 10 to 14 13,832 (7.7 percent; Victoria 6.0), 15 to 19 11,568 (6.5 percent; Victoria 5.6); occupation: Professionals 13,993 (17.2 percent; Victoria 25.0; Australia 24.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 29,286 (21.6 percent; Victoria 29.2; Australia 26.3). ABS Significant Urban Area list 2021: codes 2011 Melbourne and 2012 Mildura - Buronga, no separate Melton SUA. Victorian Government, school term dates 2027: Term 1 Wednesday 27 January (students start Thursday 28 January in government schools) to Thursday 25 March; Term 2 Monday 12 April to Friday 25 June; Term 3 Monday 12 July to Friday 17 September; Term 4 Monday 4 October to Friday 17 December. IANA tz database: Australia/Melbourne, daylight saving Sunday 4 October 2026 to Sunday 4 April 2027; Asia/Kolkata UTC+5:30.",
+    "localProject": "Character-level Markov text model. Victorian Department of Education, School Locations 2025 (DataVic, CC BY 4.0), dv402-SchoolLocations2025.csv downloaded 7 October 2026: 2,301 rows; Education_Sector Government 1,575, Catholic 493, Independent 233; LGA_Name Melton (C): 48 schools (School_Type Primary 29, Secondary 9, Pri/Sec 8, Special 2), 32 Government. Training set: the 1,575 Government School_Name values (all unique). Model: order-k character Markov chain with start padding and an end marker, k = 2 to 6; 1,000 samples per k from random.Random(20261007). Contexts learned 700 / 3,235 / 6,485 / 8,959 / 11,006. Exact copies of a training name in 1,000 outputs 0 / 39 / 218 / 519 / 698. Novel outputs ending in School or College 555 / 899 / 765 / 469 / 291. Example outputs, each absent from all 2,301 names: Cre Colle Sechoolege (k=2), Irympleston Primary School and Banmira College (k=4), Katandra Rise Primary School (k=6). Lesson family: character-level Markov text and the memorisation versus novelty trade-off; distinct from the n-gram and Markov chain pages elsewhere on the site, which do not generate text.",
+    "requiredMentions": [
+      "178,960",
+      "46,567",
+      "60,338",
+      "49,974",
+      "29,286",
+      "1,575",
+      "Irympleston Primary School",
+      "Katandra Rise Primary School",
+      "698 copies in 1,000"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Melton (C) local government area (LGA24650): people, median age, families, private dwellings, dwelling structure, age, occupation, education.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA24650"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 on DataVic (Creative Commons Attribution 4.0).",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That any generated name refers to a real or planned school: each example was checked against the full 2025 list and none matches.",
+      "Catholic and independent school names in the training set: left out so the model learns place and school-type words rather than any affiliation.",
+      "A Melton Significant Urban Area: the ABS list has none, so council-area figures are used and labelled as such.",
+      "Melton City Council open datasets (playgrounds, libraries, kindergartens): available under CC BY 2.5 AU but not needed for this project.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the Victorian Department of Education, Melton City Council or the ABS."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-bunbury": {
+    "market": "Bunbury",
+    "bodyClass": "cg-bnby",
+    "pageType": "city",
+    "curriculumAuthority": "Bunbury, ABS Census 2021 QuickStats, Significant Urban Area 5003 (read 7 October 2026): 76,452 people; median age 39; 20,598 families; 32,807 private dwellings; average 2.5 people per household; dwelling structure, occupied private dwellings: separate house 24,294 (85.5 percent; Western Australia 79.7; Australia 72.3), flat or apartment 610 (2.1 percent; Western Australia 6.5); occupation: Technicians and Trades Workers 6,573 (18.4 percent; Western Australia 15.3; Australia 12.9), Professionals 5,826 (16.3 percent; Western Australia 22.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 8,911 (14.5 percent; Western Australia 23.8); aged 15 to 19 4,749 (6.2 percent; Western Australia 5.8). WA Department of Education future term dates, 2027: Term 1 Monday 1 February to Friday 9 April; Term 4 Monday 11 October to Thursday 16 December. IANA tz database: Australia/Perth has no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Jaro-Winkler string similarity and acceptance thresholds for an agent lookup tool. WA Department of Education, Western Australian Schools Lists (catalogue.data.wa.gov.au western-australian-schools-lists, CC BY 4.0, metadata modified 2025-11-04), SchoolsListExcel0880.xlsx as downloaded 7 October 2026: 1,152 school rows. Reference point: listed coordinates of Bunbury Senior High School (-33.32746917, 115.6326077); 44 schools within 25 km (haversine); 16 distinct suburb names. Jaro-Winkler (prefix scale 0.1, up to 4 characters) checked: MARTHA/MARHTA 0.9611, DWAYNE/DUANE 0.84, DIXON/DICKSONX 0.8133. Typos: random.Random(2026), for each name 4 swaps, 4 drops, 4 doubles = 192. Top-1 correct: Jaro-Winkler 192, Levenshtein 192. Minimum Jaro-Winkler of a typo to its source 0.8905 (BUUREKUP/BUREKUP). Impostors: 483 suburb names in the list outside the 16; highest best-match 0.89 (SOUTH YUNDERUP to SOUTH BUNBURY). Thresholds: 0.85 accepts 192 typos, 6 impostors; 0.90 accepts 191, 0; 0.95 accepts 182, 0. Queries: BUSSELTON to BUREKUP 0.67; PERTH to EATON 0.6; BUNBRY to BUNBURY 0.971; AUSTRLIND to AUSTRALIND 0.98; SOUTH BUNBURY vs EAST BUNBURY 0.7675.",
+    "requiredMentions": [
+      "76,452",
+      "20,598",
+      "32,807",
+      "6,573",
+      "5,826",
+      "8,911",
+      "SOUTH YUNDERUP",
+      "0.8905",
+      "6 of 483",
+      "Monday 1 February to Friday 9 April"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Bunbury Significant Urban Area (5003): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/5003"
+      },
+      {
+        "claim": "WA Department of Education, Western Australian Schools Lists (CC BY 4.0).",
+        "url": "https://catalogue.data.wa.gov.au/dataset/western-australian-schools-lists"
+      },
+      {
+        "claim": "WA Department of Education, future term dates 2027.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Perth.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "School enrolment figures in the list: not used, since the project needs only suburb names and locations.",
+      "Any ranking or comparison of schools: none is made; schools only define the area.",
+      "That 0.90 is the right threshold for every application: it suits this test set only, and the page says the choice is a product decision.",
+      "Bureau of Meteorology station data: the observations feed returned 403 and was not circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the WA Department of Education, the Western Australian Government, the City of Bunbury or the ABS."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-hervey-bay": {
+    "market": "Hervey Bay",
+    "bodyClass": "cg-hvb",
+    "pageType": "city",
+    "curriculumAuthority": "Hervey Bay, ABS Census 2021 QuickStats, Significant Urban Area 3009 (read 7 October 2026): 57,722 people; median age 51 (Queensland 38, Australia 38); 16,342 families; 27,454 private dwellings; average 2.3 people per household; dwelling structure, occupied private dwellings: separate house 19,030 (82.2 percent; Queensland 74.8; Australia 72.3), semi-detached, row or terrace house, townhouse etc 2,889 (12.5 percent), flat or apartment 687 (3.0 percent); occupation: Professionals 3,732 (19.0 percent; Queensland 21.4; Australia 24.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 6,352 (13.0 percent; Queensland 21.9; Australia 26.3); aged 10 to 14 3,568 (6.2 percent); aged 15 to 19 2,986 (5.2 percent). Queensland Department of Education, future dates, 2027: Term 1 Wednesday 27 January to Thursday 25 March; Term 2 Monday 12 April to Friday 25 June; Term 3 Monday 12 July to Friday 17 September; Term 4 Tuesday 5 October to Friday 10 December. IANA tz database: Australia/Brisbane UTC+10, no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Cache time-to-live for an agent's tool results. Translink Maryborough-Hervey Bay GTFS (MHB_GTFS.zip, gtfsrt.api.translink.com.au; data.qld.gov.au general-transit-feed-specification-gtfs-translink, CC BY 4.0), downloaded 7 October 2026, feed_info 20261007 to 20261206. routes.txt 14 routes (701 to 720); stops.txt 389 stops. trips per service: MHB 26_27-43729 (Mon to Fri) 87, 43731 (Sat) 59, 43733 (Sun) 3, 43729-0101000 (Tue, Thu) 1. Wednesday (43729): 386 stops with a pickup-allowed departure, 3,450 departures; busiest stop 840017 Central Ave at Stockland Hervey Bay 71 departures 06:35 to 19:01; then 840161 Station Square Shopping Centre 67. Simulation: queries every 10 s from each stop's first to last departure; cache filled at the start of each fixed TTL window (aligned to multiples of the TTL from midnight); an answer is wrong when the cached next departure is earlier than the query time. Wrong share all stops / busiest stop: 1 min 1.72 / 8.29; 5 min 5.19 / 30.53; 15 min 13.51 / 57.34; 30 min 24.23 / 77.44; 60 min 46.19 / 88.85 percent. Cache fills at the busiest stop 746 / 150 / 51 / 26 / 14. Event-based expiry at the cached departure: 0 wrong, about one refresh per departure. Lesson family: cache time-to-live and event-based invalidation for agent tool results.",
+    "requiredMentions": [
+      "57,722",
+      "16,342",
+      "27,454",
+      "19,030",
+      "6,352",
+      "Central Ave at Stockland Hervey Bay",
+      "57.34%",
+      "46.19%",
+      "3,450"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Hervey Bay Significant Urban Area (3009): people, median age, families, private dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/3009"
+      },
+      {
+        "claim": "Translink general transit feed specification feeds, including Maryborough-Hervey Bay, published under Creative Commons Attribution 4.0.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Queensland Department of Education, school term dates from 2027.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Brisbane.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Real-time delays, crowding or reliability of Fraser Coast buses: the scheduled feed contains none, so nothing is claimed.",
+      "That any production system uses the cache lifetimes in the table: they are test values for the simulation.",
+      "QCAA Digital Solutions syllabus detail: qcaa.qld.edu.au returned a Cloudflare 403 and was not circumvented; the subject is named only.",
+      "Bureau of Meteorology facts for Hervey Bay: the Bureau returned 403 and was not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Translink, the Queensland Government, Fraser Coast Regional Council or the ABS."
+    ]
+  },
+  "best-coding-classes-in-wagga-wagga": {
+    "market": "Wagga Wagga",
+    "bodyClass": "cg-wgw",
+    "pageType": "city",
+    "curriculumAuthority": "Wagga Wagga, ABS Census 2021 QuickStats, Significant Urban Area 1035 (read 7 October 2026): 57,003 people; median age 36 (New South Wales 39, Australia 38); 14,576 families; 24,251 private dwellings; average 2.5 people per household; dwelling structure, occupied private dwellings: separate house 17,960 (83.9 percent; NSW 65.6; Australia 72.3), flat or apartment 2,204 (10.3 percent); occupation: Technicians and Trades Workers 3,975 (14.4 percent; NSW 11.9; Australia 12.9), Professionals 5,876 (21.3 percent; NSW 25.8; Australia 24.0); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 8,931 (19.6 percent; NSW 27.8; Australia 26.3); aged 15 to 19 3,785 (6.6 percent; NSW 5.7). NSW Department of Education, 2027 term dates, Eastern division: Term 1 Wednesday 3 February to Friday 9 April; Term 2 Thursday 29 April to Friday 2 July; Term 3 Tuesday 20 July to Friday 24 September; Term 4 Tuesday 12 October to Monday 20 December. IANA tz database: Australia/Sydney, daylight saving Sunday 4 October 2026 to Sunday 4 April 2027; Asia/Kolkata UTC+5:30.",
+    "localProject": "Histogram bin-count rules. NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (data.nsw.gov.au, Creative Commons Attribution), master_dataset.csv downloaded 7 October 2026, Date_extracted 2026-10-02. Rows with LGA = Wagga Wagga: 24 (Primary School 17, Secondary School 3, Schools for Specific Purposes 3, Environmental Education Centre 1). Date_1st_teacher as decimal year (year + (day of year - 1) / days in year): minimum 1861.0 (Wagga Wagga Public School, 1861-01-01), maximum 2021.07 (Estella Public School, 2021-01-27), range 160.07. Sturges: k = ceil(1 + log2 24) = ceil(5.585) = 6, width 26.68; counts [1861.0, 1887.7) 8, [1887.7, 1914.4) 2, [1914.4, 1941.0) 0, [1941.0, 1967.7) 7, [1967.7, 1994.4) 5, [1994.4, 2021.1] 2. Freedman-Diaconis: statistics.quantiles(n=4, method=inclusive) Q1 1880.62, Q3 1970.75, IQR 90.13; h = 2 x 90.13 / 24^(1/3) = 62.49; range / h = 2.56, k = 3, width 53.36; counts 10, 7, 7. Decade counts: 1860s 2, 1870s 3, 1880s 3, 1890s 1, 1910s 1, 1950s 4, 1960s 3, 1970s 3, 1980s 2, 2000s 1, 2020s 1. Wagga Wagga High School 1912-01-01. Lesson family: histogram bin-count rules (Sturges versus Freedman-Diaconis); distinct from frequency density with unequal class widths used elsewhere on the site.",
+    "requiredMentions": [
+      "57,003",
+      "14,576",
+      "24,251",
+      "17,960",
+      "3,975",
+      "1 + log2(n), rounded up",
+      "90.13 years",
+      "Estella Public School",
+      "160.07 years"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Wagga Wagga Significant Urban Area (1035): people, median age, families, private dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1035"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That no school opened in Wagga Wagga between 1914 and 1941: the file lists only schools operating now, so the gap may hold schools that later closed; the page says so.",
+      "That a 1 January first-teacher date means the school opened on New Year's Day: such dates may record the year only, so no day-level claim is made.",
+      "Wagga Wagga City Council flood studies and reports on data.nsw.gov.au: not used, under the cluster rule against disaster topics.",
+      "Enrolment, ICSEA, Indigenous and LBOTE figures from the master dataset: excluded or not needed.",
+      "Bureau of Meteorology facts for Wagga Wagga: the Bureau returned 403 and was not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education, Wagga Wagga City Council or the ABS."
+    ]
   }
 }

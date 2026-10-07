@@ -1419,6 +1419,24 @@ USD 100 a month small group, USD 150 a month one to one.
 - Gold Coast, Queensland: https://learn.modernagecoders.com/best-coding-classes-in-gold-coast
 - Toowoomba, Queensland: https://learn.modernagecoders.com/best-coding-classes-in-toowoomba
 - Newcastle, New South Wales: https://learn.modernagecoders.com/online-coding-and-python-classes-in-newcastle-nsw
+- Sunshine Coast, Queensland: https://learn.modernagecoders.com/ai-and-programming-classes-in-sunshine-coast
+- Ballarat, Victoria: https://learn.modernagecoders.com/online-coding-and-python-classes-in-ballarat
+- Central Coast, New South Wales: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-central-coast-nsw
+- Wollongong, New South Wales: https://learn.modernagecoders.com/best-coding-classes-in-wollongong
+- Bendigo, Victoria: https://learn.modernagecoders.com/ai-and-programming-classes-in-bendigo
+- Geelong, Victoria: https://learn.modernagecoders.com/online-coding-and-python-classes-in-geelong
+- Albury-Wodonga, NSW and Victoria: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-albury-wodonga
+- Townsville, Queensland: https://learn.modernagecoders.com/ai-and-programming-classes-in-townsville
+- Launceston, Tasmania: https://learn.modernagecoders.com/best-coding-classes-in-launceston
+- Coffs Harbour, New South Wales: https://learn.modernagecoders.com/best-coding-classes-in-coffs-harbour
+- Mackay, Queensland: https://learn.modernagecoders.com/online-coding-and-python-classes-in-mackay
+- Cairns, Queensland: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-cairns
+- Rockhampton, Queensland: https://learn.modernagecoders.com/ai-and-programming-classes-in-rockhampton
+- Bundaberg, Queensland: https://learn.modernagecoders.com/online-coding-and-python-classes-in-bundaberg
+- Melton, Victoria: https://learn.modernagecoders.com/ai-and-programming-classes-in-melton
+- Bunbury, Western Australia: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-bunbury
+- Hervey Bay, Queensland: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-hervey-bay
+- Wagga Wagga, New South Wales: https://learn.modernagecoders.com/best-coding-classes-in-wagga-wagga
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).
