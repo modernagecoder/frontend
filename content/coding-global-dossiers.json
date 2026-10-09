@@ -41448,5 +41448,46 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with the Tasmanian Government, Burnie City Council or the ABS."
     ]
+  },
+  "best-coding-classes-in-alice-springs": {
+    "market": "Alice Springs",
+    "bodyClass": "cg-alc",
+    "pageType": "city",
+    "curriculumAuthority": "Alice Springs, ABS Census 2021 QuickStats, Significant Urban Area 7001 (read 9 October 2026): 25,912 people; median age 34 (Northern Territory 33, Australia 38); 6,213 families; 11,621 private dwellings; average 2.6 people per household; dwelling structure, occupied private dwellings: separate house 5,709 (64.2 percent; NT 66.8; Australia 72.3), semi-detached, row or terrace house, townhouse 2,482 (27.9 percent; NT 12.7; Australia 12.6), flat or apartment 375 (4.2 percent; NT 17.9; Australia 14.2); occupation: Professionals 3,486 (25.4 percent; NT 22.0; Australia 24.0); Bachelor Degree level and above 5,582 (27.2 percent; NT 21.5; Australia 26.3); aged 5 to 9 1,817 (7.0 percent); aged 10 to 14 1,716 (6.6 percent); aged 15 to 19 1,490 (5.8 percent). IANA tz database: Australia/Darwin UTC+9:30, no daylight saving; Asia/Kolkata UTC+5:30. Northern Territory education department pages returned 403 and were not used.",
+    "localProject": "Trapezoidal rule numerical integration and sampling step. ARPANSA, Ultraviolet Radiation Index - Alice Springs (data.gov.au dataset 532e300b-89a7-4b37-9ec1-f0476ccdce94, Creative Commons Attribution 2.5 Australia), resource uv-alice-springs-2025.csv (columns Date-Time, Lat -23.80, Lon 133.89, UV_Index), downloaded 9 October 2026. 525,021 one-minute readings of 525,600 minutes; gaps: 578 minutes after 2025-06-03 23:30 and 1 minute after 2025-12-11 05:18; 362 complete days. Maximum UV_Index 15.43 at 2025-01-09 12:23. Daily trapezoid area on 1-minute data, index-hours: maximum 82.75 (2025-01-10), minimum 6.08 (2025-05-27), median 42.39. Subsampled trapezoids (every k minutes, endpoint 23:59 included) versus 1-minute area over 362 complete days, mean / median / maximum absolute percent error: k=5 0.219 / 0.028 / 2.01; k=10 0.471 / 0.050 / 4.86; k=30 1.088 / 0.093 / 12.98; k=60 1.907 / 0.155 / 16.85; k=120 3.334 / 0.293 / 48.8. Mean daily maximum by month: Jan 13.42, Feb 13.15, Mar 11.15, Apr 8.70, May 5.69, Jun 4.75, Jul 5.24, Aug 6.78, Sep 8.85, Oct 9.80, Nov 11.60, Dec 13.21. Median minute of daily maximum by month (file timestamps): 12:18 (Nov) to 12:50 (Feb).",
+    "requiredMentions": [
+      "25,912",
+      "6,213",
+      "11,621",
+      "5,582",
+      "2,482",
+      "525,021",
+      "82.75 index-hours",
+      "48.8%",
+      "trapezoidal rule"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Alice Springs Significant Urban Area (7001): people, median age, families, private dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/7001"
+      },
+      {
+        "claim": "ARPANSA, Ultraviolet Radiation Index - Alice Springs, one-minute UV Index data (Creative Commons Attribution 2.5 Australia).",
+        "url": "https://data.gov.au/data/dataset/ultraviolet-radiation-index-alice-springs"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Darwin.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any health, sun-safety or exposure advice based on UV readings: excluded by the cluster rules; the data is used only as a measured curve.",
+      "The time zone of the file's timestamps: the dataset does not state it, so peak times are quoted as they appear in the file.",
+      "Why the June gap occurred: not stated by the publisher, so no reason is given.",
+      "Northern Territory school term dates and curriculum facts: the Territory's education pages returned 403 and were not circumvented.",
+      "Bureau of Meteorology station facts: the Bureau's pages returned 403 and were not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language, religion and Indigenous status figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with ARPANSA, the Alice Springs Town Council, the Northern Territory Government or the ABS."
+    ]
   }
 }

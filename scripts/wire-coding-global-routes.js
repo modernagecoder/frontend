@@ -900,6 +900,7 @@ const MARKETS = [
   ['ai-and-programming-classes-in-maryborough-qld', 'Maryborough, Queensland'],
   ['vibe-coding-and-ai-agents-classes-in-mount-gambier', 'Mount Gambier, South Australia'],
   ['vibe-coding-and-ai-agents-classes-in-burnie', 'Burnie, Tasmania'],
+  ['best-coding-classes-in-alice-springs', 'Alice Springs, Northern Territory'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
