@@ -188,7 +188,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 160 | online-coding-and-python-classes-in-tamworth-nsw (tamn, #515230) | cg- regional city page | 3,207 | 1.5% vs vibe-coding-and-ai-agents-classes-in-orange | How many real climbs are on a ridge walk? | rainflow counting of climbs on a contour elevation profile | 50849d16 |
 | 161 | ai-and-programming-classes-in-traralgon (trg, #116E1D) | cg- regional city page | 3,094 | 2.1% vs best-coding-classes-in-busselton | Which stops are within walking distance of the new path? | buffer zone by point-to-segment distance between transit stops and a shared path | fceba806 |
 | 162 | vibe-coding-and-ai-agents-classes-in-orange (orn, #915256) | cg- regional city page | 2,978 | 1.5% vs online-coding-and-python-classes-in-tamworth-nsw | Straight lines or a smooth curve up Mount Canobolas? | natural cubic spline against linear interpolation of a contour elevation profile | 43dce7b8 |
-| 163 | best-coding-classes-in-busselton (bsln, #2D639E) | cg- regional city page | 2,820 | 2.1% vs ai-and-programming-classes-in-traralgon | How much possum habitat is inside the box? | Sutherland-Hodgman polygon clipping of habitat polygons to a window | (this commit) |
+| 163 | best-coding-classes-in-busselton (bsln, #2D639E) | cg- regional city page | 2,820 | 2.1% vs ai-and-programming-classes-in-traralgon | How much possum habitat is inside the box? | Sutherland-Hodgman polygon clipping of habitat polygons to a window | bb2b21f3 |
+| 164 | online-coding-and-python-classes-in-bowral (bwl, #28522F) | cg- regional city page | 2,952 | 1.5% vs online-coding-and-python-classes-in-tamworth-nsw | How much hill is Mount Gibraltar? | frustum (contour slice) volume of a hill from closed contour rings | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
