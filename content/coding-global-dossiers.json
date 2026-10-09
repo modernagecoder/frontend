@@ -41029,5 +41029,424 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with NASA, Northern Star Resources, the WA Department of Education or the ABS."
     ]
+  },
+  "best-coding-classes-in-lismore": {
+    "market": "Lismore",
+    "bodyClass": "cg-lsm",
+    "pageType": "city",
+    "curriculumAuthority": "Lismore, ABS Census 2021 QuickStats, Significant Urban Area 1018 (read 9 October 2026): 28,816 people; median age 42 (New South Wales 39, Australia 38); 7,238 families; 13,026 private dwellings; average 2.3 people per household; dwelling structure, occupied private dwellings: separate house 8,939 (77.2 percent; NSW 65.6; Australia 72.3), semi-detached, row or terrace house, townhouse 1,668 (14.4 percent; NSW 11.7), flat or apartment 737 (6.4 percent; NSW 21.7; Australia 14.2); occupation, employed people aged 15 and over: Professionals 2,563 (20.2 percent; NSW 25.8), Technicians and Trades Workers 1,642 (12.9 percent); highest educational attainment, people aged 15 and over: Bachelor Degree level and above 4,592 (19.2 percent; NSW 27.8; Australia 26.3); aged 10 to 14 1,831 (6.4 percent); aged 15 to 19 1,768 (6.1 percent). NSW Department of Education, 2027 term dates, Eastern division: Term 1 Wednesday 3 February to Friday 9 April; Term 2 Thursday 29 April to Friday 2 July; Term 3 Tuesday 20 July to Friday 24 September; Term 4 Tuesday 12 October to Monday 20 December. IANA tz database: Australia/Sydney, daylight saving Sunday 4 October 2026 to Sunday 4 April 2027; Asia/Kolkata UTC+5:30.",
+    "localProject": "Lagrange polynomial interpolation versus piecewise linear interpolation (Runge's phenomenon). NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (data.nsw.gov.au, Creative Commons Attribution), master_dataset.csv downloaded 7 October 2026, Date_extracted 2026-10-02. Rows with LGA = Lismore: 28 (Primary School 22, Secondary School 3, Central/Community School 1, Environmental Education Centre 1, Schools for Specific Purposes 1). Count of schools with Date_1st_teacher year <= Y. Knots every 20 years 1870 to 2010: 2, 10, 15, 20, 22, 25, 28, 28. Lagrange polynomial (exact rational arithmetic, Python fractions) over every year 1870 to 2010: maximum absolute error 5.70 at 1878 (estimate 7.70, true 2), mean 1.00, estimate falls in 13 of 140 year steps; piecewise linear: maximum 3.40 at 1881 (estimate 6.40, true 3), mean 0.73. Selected years (true, linear, Lagrange): 1875 (2, 4.00, 6.33), 1880 (3, 6.00, 8.31), 1905 (12, 13.75, 13.46), 1935 (20, 20.50, 20.68), 1965 (25, 24.25, 24.03), 1995 (28, 28.00, 27.94). Extrapolation: 1860 -22.92 (true 0), 2020 37.89 (true 28). Knots every 10 years 1870 to 2020 (16 knots): maximum error 104.4 at 2017 (estimate -76.4, true 28), falls in 38 of 150 year steps. Earliest Date_1st_teacher 1867-01-01 Wyrallah Public School; latest 1978-09-01 Wilson Park School; nine first-teacher dates between 1882 and 1891. Lesson family distinct from curve fitting by least squares, splines and interval methods used elsewhere on the site.",
+    "requiredMentions": [
+      "28,816",
+      "1,831 residents aged 10 to 14",
+      "13,026",
+      "4,592",
+      "737 homes",
+      "Wyrallah Public School",
+      "-76.4",
+      "8.31 schools in 1880",
+      "Runge's phenomenon"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Lismore Significant Urban Area (1018): people, median age, families, private dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1018"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any history of schools that have closed: the department's file lists only schools operating today, so the counts describe today's 28 schools, not every school that ever existed.",
+      "Flood or disaster history of Lismore: excluded by the cluster rules and not used.",
+      "Southern Cross University facts: not needed for the project and not verified at source.",
+      "Enrolment, ICSEA, Indigenous and LBOTE figures from the master dataset: excluded by the cluster rules or not needed.",
+      "Bureau of Meteorology station facts: the Bureau's pages returned 403 and were not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education, Lismore City Council or the ABS."
+    ]
+  },
+  "ai-and-programming-classes-in-dubbo": {
+    "market": "Dubbo",
+    "bodyClass": "cg-dubb",
+    "pageType": "city",
+    "curriculumAuthority": "Dubbo, ABS Census 2021 QuickStats, Significant Urban Area 1012 (read 8 October 2026): 40,578 people; median age 35; 10,276 families; 16,842 private dwellings; average 2.5 people per household; aged 0 to 4 3,066 (7.6 percent; NSW 5.8; Australia 5.8); aged 5 to 9 2,887 (7.1 percent; NSW 6.2; Australia 6.2); worked full-time 12,642 (62.9 percent; NSW 55.2; Australia 55.9); separate house 11,998 (82.3 percent; NSW 65.6; Australia 72.3); flat or apartment 1,106 (7.6 percent; NSW 21.7; Australia 14.2); Technicians and Trades Workers 2,726 (14.1 percent; NSW 11.9; Australia 12.9); Bachelor Degree level and above 6,075 (19.1 percent; NSW 27.8; Australia 26.3). NSW place names inside the SUA polygon (Spatial Services places): Apollo, Bunglegumbie, Churchill Gardens, Delroy Gardens, Dubbo, Dulhunty, Equus, Eulomogo, Keswick, Manera Heights, North Dubbo, Orana Heights, South Dubbo, Troy Junction, West Dubbo, Yuulong. NSW Department of Education 2027: Term 2 Tuesday 27 April to Friday 2 July; Term 3 Monday 19 July to Friday 24 September; Term 4 Monday 11 October to Monday 20 December. IANA tz 2026e: Australia/Sydney rule AN; Asia/Kolkata UTC+5:30.",
+    "localProject": "Hampel filter on a house-number sequence. NSW Spatial Services, NSW Geocoded Addressing Theme MapServer layer 1 (AddressPoint), extracted 8 October 2026, box 148.55 to 148.68 E and 32.19 to 32.30 S: 21,185 points; attribution (c) Spatial Services; item licence links to Spatial Services terms of service and copyright pages. Method: points whose address ends with the street name and DUBBO; leading house number parsed; points projected on the first principal axis of their positions; duplicates at the same rounded position and number merged; Hampel window 5 each side, threshold 3 times 1.4826 times MAD. DARLING STREET: 328 points, 212 sites, 3,306 m; mixed 59 flags; odd side 106 sites, 2 flags (lowest odd numbers); even side 106 sites, 0 flags; highest odd 363, highest even 272. FITZROY STREET: 444 points, 311 sites, 5,730 m; mixed 6 flags (5 with MAD floor 4); odd 147 sites, 0 flags, highest 411; even 164 sites, 3 flags (1 with MAD floor 4), highest 434. No individual addresses published.",
+    "requiredMentions": [
+      "40,578",
+      "10,276",
+      "16,842",
+      "11,998",
+      "12,642",
+      "Darling Street",
+      "Fitzroy Street",
+      "59 alarms",
+      "363 and 272",
+      "Hampel filter"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Dubbo Significant Urban Area (1012): people, median age, families, dwellings, age, labour force, dwelling structure, occupation, education.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1012"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Geocoded Addressing Theme, AddressPoint layer ((c) Spatial Services).",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Geocoded_Addressing_Theme/MapServer/1"
+      },
+      {
+        "claim": "NSW Spatial Services portal item for the Address Point feature service, with its terms and copyright links.",
+        "url": "https://portal.spatial.nsw.gov.au/portal/sharing/rest/content/items/d3cf7c7edef14ca18248c6dc5fcaff96?f=json"
+      },
+      {
+        "claim": "NSW Department of Education, future and past NSW term and vacation dates.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/future-and-past-nsw-term-and-vacation-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney and rule AN.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Individual flagged addresses: never printed, so no house or business can be identified from the page.",
+      "Claims that any flagged number is an error in the official data: flags are only prompts to check, and none were verified on the ground.",
+      "A Creative Commons licence statement for the address layer: the item links to Spatial Services copyright terms whose page returned 403 to automated reads, so the page attributes the data and publishes only derived counts.",
+      "Term 1 2027 dates: NSW lists Eastern and Western division dates and this page does not establish the division, so Term 1 is omitted.",
+      "Income, rent, ancestry, religion and health figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Spatial Services, the NSW Government, Dubbo Regional Council or the ABS."
+    ]
+  },
+  "online-coding-and-python-classes-in-warragul": {
+    "market": "Warragul",
+    "bodyClass": "cg-wrgl",
+    "pageType": "city",
+    "curriculumAuthority": "Warragul - Drouin Significant Urban Area, ABS Census 2021 QuickStats, area code 2020, with Victoria and Australia (read 8 October 2026): 42,827 people; median age 40 (Victoria 38; Australia 38); 11,719 families; 17,790 private dwellings; 2.5 people per household; separate house 14,220 (89.7 percent; Vic 73.4; Australia 72.3); flat or apartment 575 (3.6 percent; Vic 12.1); Professionals 3,580 (18.2 percent; Vic 25.0); Technicians and Trades Workers 3,121 (15.8 percent; Vic 12.6; Australia 12.9); Labourers 2,514 (12.8 percent; Vic 8.8); Bachelor Degree level and above 5,888 (17.1 percent; Vic 29.2; Australia 26.3); aged 15 to 19: 2,362 (5.5 percent); aged 20 to 24: 2,216 (5.2 percent); industry: Primary Education 560 (2.8 percent; Vic 1.9), Secondary Education 497 (2.5 percent; Vic 1.7). Victorian school term dates (vic.gov.au): 2026 Term 4 Monday 5 October to Friday 18 December; government school students start Thursday 28 January 2027; 2027 Term 1 ends Thursday 25 March. IANA tz database: Australia/Melbourne AEST UTC+10, AEDT UTC+11 first Sunday in October to first Sunday in April; Asia/Kolkata UTC+5:30.",
+    "localProject": "Trip-pattern deduplication with tuple keys. Transport Victoria GTFS Schedule (CC BY 4.0, discover.data.vic.gov.au), regional bus folder 4, feed dated 2 October 2026. Routes 80, 81, 82, 83, 85, 86. 1,542 trips; 21,135 stop_times rows; 13 distinct ordered stop sequences (180 sequence stops); one timing pattern per sequence; 332 distinct (sequence, first departure) pairs; 48 service_ids. Trips/sequences: 80 276/2; 81 276/2; 82 270/2; 83 270/2; 85 279/3; 86 171/2. Route 85 direction 0: Drouin Station to Warragul Station, and a Drouin loop returning to Drouin Station. Frozenset key 13; first/last stop key 13; no sequence is a contiguous piece of another; list key raises TypeError (unhashable type). Route 80 name and stop names other than the two stations deliberately not printed.",
+    "requiredMentions": [
+      "42,827",
+      "11,719",
+      "17,790",
+      "14,220",
+      "3,121",
+      "5,888",
+      "21,135 rows",
+      "332 timed departures",
+      "Drouin to Warragul"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Warragul - Drouin Significant Urban Area (2020): people, median age, families, dwellings, dwelling structure, occupation, education, age, industry.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/2020"
+      },
+      {
+        "claim": "Transport Victoria GTFS Schedule, Creative Commons Attribution 4.0, regional bus feed.",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "Victorian Government, school term dates: 2026 Term 4, 2027 start and Term 1 end.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne offsets and daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement about how often buses actually run, ridership or reliability: the feed is a published schedule, and only its structure is analysed.",
+      "Printing route 80's name or stop names that refer to a hospital, aged care or a chapel: excluded under the cluster rules on health and religion.",
+      "Treating the 48 service calendars as 48 different days: a service_id is a calendar pattern, and the page does not decode them.",
+      "OpenStreetMap data and Bureau of Meteorology observations: Overpass returned 406 and BOM 403 to this machine in October 2026; neither was circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Transport Victoria, Baw Baw Shire Council, the Victorian Department of Education or the ABS."
+    ]
+  },
+  "online-coding-and-python-classes-in-nelson-bay": {
+    "market": "Nelson Bay",
+    "bodyClass": "cg-nlb",
+    "pageType": "city",
+    "curriculumAuthority": "Nelson Bay, ABS Census 2021 QuickStats, Significant Urban Area 1024 (read 9 October 2026): 28,418 people; median age 54 (New South Wales 39, Australia 38); 16,431 private dwellings; average 2.3 people per household; dwelling structure, occupied private dwellings: separate house 7,857 (67.2 percent; NSW 65.6), semi-detached, row or terrace house, townhouse 2,692 (23.0 percent; NSW 11.7; Australia 12.6), flat or apartment 936 (8.0 percent; NSW 21.7); occupation: Professionals 1,883 (17.1 percent; NSW 25.8), Technicians and Trades Workers 1,821 (16.6 percent; NSW 11.9; Australia 12.9); Bachelor Degree level and above 4,022 (16.3 percent; NSW 27.8; Australia 26.3); aged 10 to 14 1,543 (5.4 percent); aged 15 to 19 1,471 (5.2 percent). NSW Department of Education, 2027 term dates, Eastern division: Term 1 Wednesday 3 February to Friday 9 April. IANA tz database: Australia/Sydney, daylight saving Sunday 4 October 2026 to Sunday 4 April 2027; Asia/Kolkata UTC+5:30.",
+    "localProject": "Python dataclasses and string-versus-number comparison bugs. NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (data.nsw.gov.au, Creative Commons Attribution), master_dataset.csv downloaded 7 October 2026, Date_extracted 2026-10-02. Rows with LGA = Port Stephens: 21 (Primary School 18, Secondary School 3). csv.DictReader leaves Latitude as text: min/max by string give Karuah Public School (-32.654344) as southernmost and Fern Bay Public School (-32.871657) as northernmost, the reverse of the numeric answer; all 210 pairs are ordered differently by string and by float. dict.get(\"Date_1st_Teacher\") (misspelt key) counts 0 schools before 1900; the real key Date_1st_teacher counts 9. Town_suburb: \"Raymond Terrace\" 3 rows and \"RAYMOND TERRACE\" 1 row; \"SALT ASH\" in capitals. Frozen ordered dataclass School(opened: date, name, lat: float, lon: float, level) sorted by date: oldest Hinton Public School 1849-04-01, newest Grahamstown Public School 1994-01-31; first-teacher dates by century 1800s 9, 1900s 12; assignment to a field raises dataclasses.FrozenInstanceError.",
+    "requiredMentions": [
+      "28,418",
+      "16,431",
+      "2,692",
+      "4,022",
+      "Karuah Public School",
+      "Fern Bay Public School",
+      "Hinton Public School",
+      "FrozenInstanceError",
+      "0 of 210"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Nelson Bay Significant Urban Area (1024): people, median age, private dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1024"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "Python documentation, dataclasses module: frozen and order parameters, FrozenInstanceError.",
+        "url": "https://docs.python.org/3/library/dataclasses.html"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Why the Nelson Bay area has many more dwellings than its population suggests (holiday homes or otherwise): not verified, so no reason is given.",
+      "That the 21 schools are all within the Nelson Bay urban area: they are the Port Stephens council area, which also takes in Raymond Terrace and inland places, and the page says so.",
+      "Enrolment, ICSEA, Indigenous and LBOTE figures from the master dataset: excluded by the cluster rules or not needed.",
+      "Bureau of Meteorology station facts: the Bureau's pages returned 403 and were not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education, Port Stephens Council or the ABS."
+    ]
+  },
+  "ai-and-programming-classes-in-devonport": {
+    "market": "Devonport",
+    "bodyClass": "cg-dvpt",
+    "pageType": "city",
+    "curriculumAuthority": "Devonport Significant Urban Area, ABS Census 2021 QuickStats, area code 6002, with Tasmania and Australia (read 8 October 2026): 31,721 people; median age 43 (Tasmania 42; Australia 38); 8,712 families; 14,512 private dwellings; 2.3 people per household; separate house 11,453 (88.2 percent; Tas 87.7; Australia 72.3); flat or apartment 34 (0.3 percent; Tas 5.3); Professionals 1,882 (13.7 percent; Tas 20.0); Technicians and Trades Workers 2,126 (15.5 percent; Tas 13.9; Australia 12.9); Labourers 2,056 (15.0 percent; Tas 11.3); Bachelor Degree level and above 3,324 (12.6 percent; Tas 21.9; Australia 26.3); aged 15 to 19: 1,741 (5.5 percent); aged 20 to 24: 1,714 (5.4 percent); industry: Supermarket and Grocery Stores 463 (3.4 percent; Tas 2.9), Primary Education 401 (2.9 percent; Tas 2.6). Tasmanian Department for Education, Children and Young People: 2026 Term 4 19 October to 18 December; 2027 Term 1 4 February to 9 April. IANA tz database: Australia/Hobart AEST UTC+10, AEDT UTC+11 first Sunday in October to first Sunday in April; Asia/Kolkata UTC+5:30.",
+    "localProject": "Gini impurity against misclassification error as a decision-tree split criterion. Land Tasmania LIST Building Points (OpenDataWFS MapServer layer 12; CC BY 3.0 AU per layer copyright text; layer description: structures with one side under 25 m, larger buildings in LIST Building Polygons), envelope 146.32,-41.21,146.40,-41.15, queried 8 October 2026. 5,265 points; Shed 4,242 (80.57 percent), Residential Building 475, Commercial Facility 419. Root Gini 0.3131; misclassification error 19.43 percent. Nearest-neighbour distance (local equirectangular metres): quantiles 10/25/50/75/90 percent = 9.0/12.5/18.3/26.1/41.0; best Gini threshold 10.77 m, weighted Gini 0.3083, gain 0.0048, left 895 (91.4 percent Shed), right 4,370 (78.4 percent Shed); stump accuracy 80.57 percent = majority baseline; misclassification error unchanged at all 3,623 candidate thresholds. Points within 30 m: best threshold above 6, weighted Gini 0.3085, gain 0.0046, right 47 (29.8 percent Shed), accuracy 80.93 percent.",
+    "requiredMentions": [
+      "31,721",
+      "8,712",
+      "14,512",
+      "11,453",
+      "2,126",
+      "3,324",
+      "5,265 building points",
+      "10.77 m",
+      "Miandetta to Quoiba"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Devonport Significant Urban Area (6002): people, median age, families, dwellings, dwelling structure, occupation, education, age, industry.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/6002"
+      },
+      {
+        "claim": "Land Tasmania, LIST Building Points layer (OpenDataWFS layer 12), Creative Commons Attribution 3.0 Australia, layer description and attributes.",
+        "url": "https://services.thelist.tas.gov.au/arcgis/rest/services/Public/OpenDataWFS/MapServer/12"
+      },
+      {
+        "claim": "Tasmanian Department for Education, Children and Young People, school term dates for 2026 and 2027.",
+        "url": "https://www.decyp.tas.gov.au/learning/term-dates/"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Hobart offsets and daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement about how individual structures are used or who owns them: the tree works only with the map type labels.",
+      "Building heights: the MEAN_HGT field was empty for this layer, so an earlier height-based project was dropped.",
+      "Naming smaller structure categories that refer to care or emergency services: excluded under the cluster rules on health and disaster topics.",
+      "Treating the study rectangle as the Devonport urban area boundary: the project uses the rectangle as stated.",
+      "OpenStreetMap data and Bureau of Meteorology observations: Overpass returned 406 and BOM 403 to this machine in October 2026; neither was circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Land Tasmania, Devonport City Council, the Tasmanian Department for Education, Children and Young People or the ABS."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-warrnambool": {
+    "market": "Warrnambool",
+    "bodyClass": "cg-wbl",
+    "pageType": "city",
+    "curriculumAuthority": "Warrnambool, ABS Census 2021 QuickStats, Significant Urban Area 2021 (read 8 October 2026): 35,743 people; median age 42; 9,525 families; 16,101 private dwellings; average 2.3 people per household; aged 15 to 19 2,129 (6.0 percent; Victoria 5.6; Australia 5.7); attending Secondary - Government 1,416 (14.2 percent of people attending an educational institution; Victoria 11.7; Australia 12.2); separate house 11,775 (83.4 percent; Victoria 73.4; Australia 72.3); flat or apartment 619 (4.4 percent; Victoria 12.1; Australia 14.2); Bachelor Degree level and above 5,724 (19.4 percent; Victoria 29.2; Australia 26.3). Victorian Government school term dates: 2026 Term 4 Monday 5 October to Friday 18 December; 2027 Term 1 Wednesday 27 January (government school students start Thursday 28 January) to Thursday 25 March. IANA tz 2026e: Australia/Melbourne rule AV; Asia/Kolkata UTC+5:30.",
+    "localProject": "Goertzel algorithm on clock-face bus headways. Transport Victoria GTFS Schedule (CC BY 4.0), regional bus feed folder 6, files dated 2026-10-02; routes with ids beginning 6-wr: 1 Dennington, 2 Gateway Plaza, 3 Deakin University via Gateway Plaza, 4 Tower Square via Gateway Plaza, 5 Lake Pertobe Loop, 6 Merrivale, 8 Port Fairy, 9 Allansford. Service date Wednesday 2026-10-14 (calendar plus calendar_dates): 202 trips. First-stop departure per trip; per route and direction, one-minute impulse series from first to last departure; Goertzel power at 15, 20, 24, 30, 40, 45, 50, 60, 75, 90, 120 minutes, normalised to the maximum. Route 1 direction 0: 16 departures 08:00 to 18:30, gaps 30 x 9 and 60 x 6, relative power 15 1.00, 20 0.14, 30 1.00, 60 0.14, 120 0.01. Eleven directions with 10 or more departures: argmax equals modal gap in 6; longest period with power at least 0.9 of maximum equals modal gap in 8. Route 2 direction 1 (gaps 30 x 7, 60 x 8) and route 4 both directions (30 x 6, 60 x 7) have modal gap 60 with power at 60 of 0.06 to 0.11. Routes 8 and 9: 5 or 6 departures per direction.",
+    "requiredMentions": [
+      "35,743",
+      "9,525",
+      "16,101",
+      "11,775",
+      "2,129",
+      "Goertzel",
+      "202 town bus trips",
+      "harmonic trap",
+      "Lake Pertobe Loop",
+      "0.06 to 0.11"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Warrnambool Significant Urban Area (2021): people, median age, families, dwellings, age, education attendance, dwelling structure, qualifications.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/2021"
+      },
+      {
+        "claim": "Transport Victoria GTFS Schedule (CC BY 4.0), regional bus feed with Warrnambool town routes.",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne and rule AV.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Real-time punctuality or reliability of Warrnambool buses: only the published schedule was analysed.",
+      "Weekend or school-holiday timetables: only Wednesday 14 October 2026 was analysed, so no other day is described.",
+      "Towns in Time population history for Warrnambool (planning.vic.gov.au): returned 403 to automated reads and was not circumvented.",
+      "Suburb or locality names inside Warrnambool: not verified for this page; only route names as printed in the feed are used.",
+      "Income, rent, ancestry, religion and health figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Transport Victoria, the Victorian Government, Warrnambool City Council or the ABS."
+    ]
+  },
+  "ai-and-programming-classes-in-maryborough-qld": {
+    "market": "Maryborough",
+    "bodyClass": "cg-mbq",
+    "pageType": "city",
+    "curriculumAuthority": "Maryborough (Queensland), ABS Census 2021 QuickStats, Significant Urban Area 3012 (read 9 October 2026): 27,489 people; median age 47 (Queensland 38, Australia 38); 7,259 families; 12,282 private dwellings; average 2.3 people per household; dwelling structure, occupied private dwellings: separate house 9,467 (88.4 percent; Queensland 74.8; Australia 72.3), semi-detached, row or terrace house, townhouse 693 (6.5 percent), flat or apartment 385 (3.6 percent; Queensland 12.5; Australia 14.2); occupation: Technicians and Trades Workers 1,369 (14.8 percent; Queensland 13.7; Australia 12.9); aged 10 to 14 1,654 (6.0 percent); aged 15 to 19 1,576 (5.7 percent). Queensland Department of Education, future dates (read raw): 2027 Term 1 Wednesday 27 January to Thursday 25 March, Term 2 Monday 12 April to Friday 25 June, Term 3 Monday 12 July to Friday 17 September, Term 4 Tuesday 5 October to Friday 10 December. IANA tz database: Australia/Brisbane UTC+10, no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Floating-point precision on measured route lengths. Translink GTFS, Maryborough and Hervey Bay feed (Wide Bay Transit; feed_start_date 20261007, feed_end_date 20261206), Creative Commons Attribution 4.0 via data.qld.gov.au, downloaded 7 October 2026. Routes 701 to 707 (route_short_name): 7 routes, 36 shapes, 80 trips, 244 distinct stops in stop_times. Segment lengths by haversine (R = 6,371,008.8 m) between consecutive shape points sorted by shape_pt_sequence: 16,378 segments, median 49.7 m, maximum 1,432.3 m. Route 705 longest shape H7050163: 1,220 points; math.fsum 102,231.220 m; float64 running sum differs by about 1.3e-10 m; numpy float32 accumulator 102,231.16 m (0.056 m short); float16 accumulator in metres overflows to inf; float16 accumulator in kilometres 101.812 km; coordinates rounded to float16 (spacing 0.01563 degrees at 25.5, 0.125 at 152.7) give 135,471.6 m. Longest shape per route, fsum m / float16 m: 701 13,004.6 / 12,992; 702 15,079.4 / 15,080; 703 22,213.0 / 22,272; 704 18,584.3 / 18,608; 705 102,231.2 / inf (101.812 km in float16 km); 706 29,320.5 / 29,376; 707 70,325.2 / inf (70.312 km). float16 spacing 8 at 8,192 and 32 at 32,768; maximum finite value 65,504. Pairwise (tree) summation of the route 705 segments in float16 kilometres: 102.25 km (exact 102.231).",
+    "requiredMentions": [
+      "27,489",
+      "12,282",
+      "9,467",
+      "1,654",
+      "102,231",
+      "65,504",
+      "135,472 metres",
+      "Torbanlea",
+      "Mixed-precision training"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Maryborough Significant Urban Area (3012): people, median age, families, private dwellings, dwelling structure, occupation, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/3012"
+      },
+      {
+        "claim": "Translink general transit feed specification feeds, including Maryborough and Hervey Bay, published under Creative Commons Attribution 4.0.",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "Queensland Department of Education, school term dates from 2027.",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "NumPy documentation, finfo and float16: largest finite half-precision value 65,504.",
+        "url": "https://numpy.org/doc/stable/reference/generated/numpy.finfo.html"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Brisbane.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Official route lengths or timetabled distances: not published in the feed; all lengths are our straight-line sums between shape points.",
+      "Route and headsign names that refer to health facilities: not printed, under the cluster rules; routes are named by number and by town.",
+      "Maryborough heritage and history claims (founding dates, buildings): not verified at a primary source, so none is given beyond the census and feed facts.",
+      "Queensland senior syllabus details from QCAA: the QCAA site returned a Cloudflare 403 and was not used.",
+      "Bureau of Meteorology station facts: the Bureau's pages returned 403 and were not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Translink, the Queensland Department of Transport and Main Roads, Fraser Coast Regional Council or the ABS."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-mount-gambier": {
+    "market": "Mount Gambier",
+    "bodyClass": "cg-mgmb",
+    "pageType": "city",
+    "curriculumAuthority": "Mount Gambier Significant Urban Area, ABS Census 2021 QuickStats, area code 4002, with South Australia and Australia (read 8 October 2026): 29,446 people; median age 41 (SA 41; Australia 38); 7,834 families; 13,763 private dwellings; 2.3 people per household; separate house 9,334 (79.0 percent; SA 78.0; Australia 72.3); flat or apartment 934 (7.9 percent; SA 6.8); Professionals 2,035 (14.7 percent; SA 21.5); Technicians and Trades Workers 2,027 (14.7 percent; SA 13.2); Machinery Operators and Drivers 1,256 (9.1 percent; SA 6.0; Australia 6.3); Bachelor Degree level and above 2,863 (11.9 percent; SA 22.7; Australia 26.3); aged 15 to 19: 1,868 (6.3 percent; SA 5.6); aged 20 to 24: 1,600 (5.4 percent); industry: Road Freight Transport 408 (3.0 percent; SA 1.2; Australia 1.1). IANA tz database: Australia/Adelaide ACST UTC+9:30, ACDT UTC+10:30 first Sunday in October to first Sunday in April; Asia/Kolkata UTC+5:30. South Australian school term dates not published here (education.sa.gov.au returned 403).",
+    "localProject": "Two-pass connected-component labelling of flat surfaces. NASA SRTMGL1 version 3 sampled via OpenTopoData srtm30m on 8 October 2026, points every 0.0005 degrees, latitude -37.865 to -37.815, longitude 140.740 to 140.800, 101 by 121 = 12,221 cells, spacing 43.96 m by 55.29 m, integer metres, range -1 to 174 m. Equal-value labelling with union-find: 4-connectivity 8,298 provisional labels to 7,993 components; 8-connectivity 6,668 to 6,309. Largest: 193 cells (46.9 ha) at 24 m, centroid -37.8471, 140.778; 74 cells (17.98 ha) at -1 m, centroid -37.84, 140.7668 (both identical under both rules). Third largest: 4-conn 21 cells (5.1 ha) at 41 m; 8-conn 58 cells (14.1 ha) at 42 m. Flats not identified as named lakes; -1 m treated as a processing value. DEW record \"Mt Gambier, South Australia, Blue Lake Levels\" on data.gov.au (CC BY 3.0 AU) cited only as an available check; its data file on data.sa.gov.au returned 403 and was not used.",
+    "requiredMentions": [
+      "29,446",
+      "7,834",
+      "13,763",
+      "9,334",
+      "2,027",
+      "2,863",
+      "7,993 flat patches",
+      "6,309",
+      "12,221-cell"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Mount Gambier Significant Urban Area (4002): people, median age, families, dwellings, dwelling structure, occupation, education, age, industry.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/4002"
+      },
+      {
+        "claim": "NASA LP DAAC, SRTMGL1 version 3 elevation product.",
+        "url": "https://lpdaac.usgs.gov/products/srtmgl1v003/"
+      },
+      {
+        "claim": "Department for Environment and Water, Mt Gambier, South Australia, Blue Lake Levels: catalogue record, Creative Commons Attribution 3.0 Australia.",
+        "url": "https://data.gov.au/data/dataset/mt-gambier-south-australia-blue-lake-levels"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Adelaide offsets and daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Naming any flat on the grid as a particular crater lake: the grid carries no labels, so no identification is made.",
+      "Treating the minus one metre flat as a real surface height: it is presented as a likely processing value, our interpretation.",
+      "South Australian school term dates and City of Mount Gambier pages: education.sa.gov.au, data.sa.gov.au and mountgambier.sa.gov.au returned 403 to this machine in October 2026; access was not circumvented and nothing from them is used.",
+      "Suburb names: none could be verified from an accessible official source, so none are printed.",
+      "OpenStreetMap data and Bureau of Meteorology observations: Overpass returned 406 and BOM 403; neither was circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with NASA, the Department for Environment and Water, the City of Mount Gambier or the ABS."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-burnie": {
+    "market": "Burnie",
+    "bodyClass": "cg-bur",
+    "pageType": "city",
+    "curriculumAuthority": "Burnie, ABS Census 2021 QuickStats, Burnie - Somerset Significant Urban Area 6001 (read 9 October 2026): 27,826 people; median age 43 (Tasmania 42, Australia 38); 7,526 families; 13,095 private dwellings; average 2.2 people per household; dwelling structure, occupied private dwellings: separate house 10,349 (89.4 percent; Tasmania 87.7; Australia 72.3), semi-detached, row or terrace house, townhouse 979 (8.5 percent), flat or apartment 156 (1.3 percent; Tasmania 5.3; Australia 14.2); occupation: Professionals 1,896 (16.3 percent; Tasmania 20.0), Technicians and Trades Workers 1,678 (14.5 percent; Tasmania 13.9); aged 10 to 14 1,790 (6.4 percent); aged 15 to 19 1,572 (5.7 percent). Tasmanian Department for Education, Children and Young People, 2027 school term dates (read raw): Term 1 4 February to 9 April; Term 2 26 April to 2 July; Term 3 19 July to 24 September; Term 4 11 October to 16 December. IANA tz database: Australia/Hobart, daylight saving Sunday 4 October 2026 to Sunday 4 April 2027; Asia/Kolkata UTC+5:30.",
+    "localProject": "Reading a tool's truncation flag. LIST Address Points, OpenDataWFS MapServer layer 9 (services.thelist.tas.gov.au/arcgis/rest/services/Public/OpenDataWFS/MapServer/9; maxRecordCount 2000; LIST Web Services Terms and Conditions), queried 9 October 2026 with where POSTCODE=7320. returnCountOnly=true: count 9,267. Default feature query: 2,000 features, exceededTransferLimit true. Paging orderByFields=OBJECTID, resultOffset 0/2000/4000/6000/8000, resultRecordCount 2000: 2,000/2,000/2,000/2,000/1,267 features, flag true on the first four pages and absent on the last; 9,267 unique OBJECTIDs. LOCALITY counts, all records: Park Grove 1,248; Shorewell Park 1,163; Upper Burnie 1,056; Romaine 810; Burnie 741; Acton 701; Montello 644; Hillcrest 529; Parklands 389; Havenview 355; Cooee 347; South Burnie 295; Brooklyn 293; Wivenhoe 184; Ocean Vista 165; Downlands 129; Emu Heights 90; Camdale 68; Round Hill 60. First page only: Park Grove 280, Upper Burnie 240, Shorewell Park 198, Romaine 182, Burnie 163. Most points by street: Mount Street 248. GEO_TYPE: Urban Centroid 8,597; Parent Property Centroid 401; Rural Centroid 136; Building Centroid 132; Property Access Point 1. Addresses missed by the one-call agent: 7,267.",
+    "requiredMentions": [
+      "27,826",
+      "7,526",
+      "13,095",
+      "10,349",
+      "9,267",
+      "exceededTransferLimit",
+      "Shorewell Park",
+      "Mount Street has 248",
+      "returnCountOnly"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Burnie - Somerset Significant Urban Area (6001): people, median age, families, private dwellings, dwelling structure, occupation, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/6001"
+      },
+      {
+        "claim": "Tasmanian Government, LIST Address Points, OpenDataWFS map service layer 9 (record limit 2,000 per request).",
+        "url": "https://services.thelist.tas.gov.au/arcgis/rest/services/Public/OpenDataWFS/MapServer/9"
+      },
+      {
+        "claim": "LIST Web Services Terms and Conditions.",
+        "url": "http://listdata.thelist.tas.gov.au/public/LISTWebServicesTermsConditions.pdf"
+      },
+      {
+        "claim": "Tasmanian Department for Education, Children and Young People, school term dates.",
+        "url": "https://www.decyp.tas.gov.au/learning/term-dates/"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Hobart.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any individual address, owner or household: not printed; the project uses counts only.",
+      "That postcode 7320 matches the Burnie - Somerset urban area: it does not exactly, and the page treats the two separately.",
+      "Burnie port, paper mill or industrial history: not verified at a primary source, so not stated.",
+      "Tasmanian transport data: the state's transport open-data pages returned 403 and were not used.",
+      "Bureau of Meteorology station facts: the Bureau's pages returned 403 and were not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the Tasmanian Government, Burnie City Council or the ABS."
+    ]
   }
 }

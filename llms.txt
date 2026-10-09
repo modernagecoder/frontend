@@ -1451,6 +1451,15 @@ USD 100 a month small group, USD 150 a month one to one.
 - Bowral, New South Wales: https://learn.modernagecoders.com/online-coding-and-python-classes-in-bowral
 - Albany, Western Australia: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-albany-wa
 - Kalgoorlie-Boulder, Western Australia: https://learn.modernagecoders.com/best-coding-classes-in-kalgoorlie
+- Lismore, New South Wales: https://learn.modernagecoders.com/best-coding-classes-in-lismore
+- Dubbo, New South Wales: https://learn.modernagecoders.com/ai-and-programming-classes-in-dubbo
+- Warragul, Victoria: https://learn.modernagecoders.com/online-coding-and-python-classes-in-warragul
+- Nelson Bay, New South Wales: https://learn.modernagecoders.com/online-coding-and-python-classes-in-nelson-bay
+- Devonport, Tasmania: https://learn.modernagecoders.com/ai-and-programming-classes-in-devonport
+- Warrnambool, Victoria: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-warrnambool
+- Maryborough, Queensland: https://learn.modernagecoders.com/ai-and-programming-classes-in-maryborough-qld
+- Mount Gambier, South Australia: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-mount-gambier
+- Burnie, Tasmania: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-burnie
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).

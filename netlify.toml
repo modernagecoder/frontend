@@ -20761,6 +20761,114 @@
   to = "/src/pages/best-coding-classes-in-kalgoorlie.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-classes-in-lismore"
+  to = "/src/pages/best-coding-classes-in-lismore.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-classes-in-lismore.md"
+  to = "/src/pages/best-coding-classes-in-lismore.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-dubbo"
+  to = "/src/pages/ai-and-programming-classes-in-dubbo.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-dubbo.md"
+  to = "/src/pages/ai-and-programming-classes-in-dubbo.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-warragul"
+  to = "/src/pages/online-coding-and-python-classes-in-warragul.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-warragul.md"
+  to = "/src/pages/online-coding-and-python-classes-in-warragul.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-nelson-bay"
+  to = "/src/pages/online-coding-and-python-classes-in-nelson-bay.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-nelson-bay.md"
+  to = "/src/pages/online-coding-and-python-classes-in-nelson-bay.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-devonport"
+  to = "/src/pages/ai-and-programming-classes-in-devonport.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-devonport.md"
+  to = "/src/pages/ai-and-programming-classes-in-devonport.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-warrnambool"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-warrnambool.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-warrnambool.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-warrnambool.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-maryborough-qld"
+  to = "/src/pages/ai-and-programming-classes-in-maryborough-qld.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-maryborough-qld.md"
+  to = "/src/pages/ai-and-programming-classes-in-maryborough-qld.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-mount-gambier"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-mount-gambier.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-mount-gambier.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-mount-gambier.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-burnie"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-burnie.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-burnie.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-burnie.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

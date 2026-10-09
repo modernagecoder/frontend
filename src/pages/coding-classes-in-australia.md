@@ -420,6 +420,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Shepparton](/online-coding-and-python-classes-in-shepparton)
 - [AI and programming classes in Mildura](/ai-and-programming-classes-in-mildura)
 - [Vibe coding and AI agents classes in Port Macquarie](/vibe-coding-and-ai-agents-classes-in-port-macquarie)
+- [Coding classes in Gladstone](/best-coding-classes-in-gladstone)
 <!-- AU-LINKS -->
 
 
