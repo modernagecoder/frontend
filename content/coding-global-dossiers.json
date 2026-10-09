@@ -40981,5 +40981,53 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with the WA Department of Education or the ABS."
     ]
+  },
+  "best-coding-classes-in-kalgoorlie": {
+    "market": "Kalgoorlie-Boulder",
+    "bodyClass": "cg-kalg",
+    "pageType": "city",
+    "curriculumAuthority": "Kalgoorlie - Boulder Significant Urban Area, ABS Census 2021 QuickStats, area code 5007, with Western Australia and Australia (read 8 October 2026): 29,072 people; median age 34 (WA 38; Australia 38); 7,026 families; 13,141 private dwellings; 2.6 people per household; separate house 8,106 (81.3 percent; WA 79.7; Australia 72.3); flat or apartment 125 (1.3 percent; WA 6.5); Technicians and Trades Workers 3,366 (22.2 percent; WA 15.3; Australia 12.9); Machinery Operators and Drivers 2,499 (16.5 percent; WA 7.7; Australia 6.3); Professionals 2,233 (14.7 percent; WA 22.0); Bachelor Degree level and above 3,123 (13.8 percent; WA 23.8; Australia 26.3); aged 5 to 9: 2,216 (7.6 percent; WA 6.5); aged 10 to 14: 2,033 (7.0 percent; WA 6.4); industry: Gold Ore Mining 3,082 (20.3 percent; WA 1.3; Australia 0.2). WA Department of Education 2027 term dates: Term 3 Monday 19 July to Friday 24 September; break Saturday 25 September to Sunday 10 October; Term 4 Monday 11 October to Thursday 16 December. IANA tz database: Australia/Perth UTC+8, no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Pick's theorem against cell counting on a grid polygon. NASA SRTMGL1 version 3 (LP DAAC; acquired 11 to 21 February 2000; voids filled from ASTER GDEM v2, GMTED2010 or NED) sampled via OpenTopoData srtm30m on 8 October 2026, points every 0.0004 degrees, latitude -30.800 to -30.752, longitude 121.480 to 121.532, 121 by 131 points, spacing 38.26 m by 44.23 m. Lowest sample 145 m at -30.7844, 121.5044; grid median 365 m. Region: points below T connected (8-neighbour) to the lowest point, holes filled; outline by Moore boundary tracing. T 200: cells 129, B 47, I 82, Pick 104.5, shoelace 104.5. T 250: 338, 81, 257, 296.5. T 280: 532, 101, 431, 480.5. T 300: 735, 106, 629, 681.0 (124.37 ha cells, 115.23 ha Pick). T 320: 851, 115, 738, Pick 794.5, shoelace 792.5, outline not simple. T 330: 905, 114, 791, 847.0. T 340: 964, 115, 849, 905.5. T 350: 1,032, 119, 913, 971.5. Identification of the hollow with the Fimiston open pit is our interpretation; Northern Star Resources KCGM page: \"Adjacent to the City of Kalgoorlie-Boulder\", \"1989 Commenced gold production\", \"KCGM Operations include the Fimiston open pit (Super Pit)\".",
+    "requiredMentions": [
+      "29,072",
+      "7,026",
+      "13,141",
+      "8,106",
+      "3,366",
+      "2,499",
+      "735 cells",
+      "B/2 + 1",
+      "Kalgoorlie to Boulder"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Kalgoorlie - Boulder Significant Urban Area (5007): people, median age, families, dwellings, dwelling structure, occupation, education, age, industry.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/5007"
+      },
+      {
+        "claim": "NASA LP DAAC, SRTMGL1 version 3: acquisition dates February 2000 and void filling sources.",
+        "url": "https://lpdaac.usgs.gov/products/srtmgl1v003/"
+      },
+      {
+        "claim": "Northern Star Resources, KCGM Operations: location adjacent to the City of Kalgoorlie-Boulder, production from 1989, Fimiston open pit.",
+        "url": "https://www.nsrltd.com/our-assets/kcgm-operations/"
+      },
+      {
+        "claim": "WA Department of Education, future term dates: 2027 Terms 3 and 4.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Perth offset and absence of daylight saving.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Present-day size, depth or production of the Super Pit: the grid is from February 2000, and production and resource figures are excluded as money-adjacent company data.",
+      "Stating that the hollow on the grid is the pit as fact: the data carries no labels, so the identification is presented as our reading.",
+      "Any area figure as the true area of the hollow: every method shown depends on the chosen height, grid spacing and assumptions.",
+      "Geoscience Australia elevation services, OpenStreetMap and Bureau of Meteorology data: Overpass returned 406 and BOM 403 to this machine in October 2026; neither was circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with NASA, Northern Star Resources, the WA Department of Education or the ABS."
+    ]
   }
 }
