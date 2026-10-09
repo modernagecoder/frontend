@@ -20917,6 +20917,18 @@
   to = "/src/pages/vibe-coding-and-ai-agents-classes-in-goulburn.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-whyalla"
+  to = "/src/pages/online-coding-and-python-classes-in-whyalla.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-whyalla.md"
+  to = "/src/pages/online-coding-and-python-classes-in-whyalla.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

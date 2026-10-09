@@ -41634,5 +41634,53 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with the NSW Department of Education, Goulburn Mulwaree Council or the ABS."
     ]
+  },
+  "online-coding-and-python-classes-in-whyalla": {
+    "market": "Whyalla",
+    "bodyClass": "cg-whya",
+    "pageType": "city",
+    "curriculumAuthority": "Whyalla, ABS Census 2021 QuickStats, Significant Urban Area 4008 (read 10 October 2026): 21,154 people; median age 41; 5,539 families; 11,112 private dwellings; average 2.2 people per household; separate house 4,998 (55.8 percent; SA 78.0; Australia 72.3); semi-detached, row or terrace house, townhouse etc 3,497 (39.1 percent; SA 14.6; Australia 12.6); Technicians and Trades Workers 1,537 (17.4 percent; SA 13.2; Australia 12.9); car as driver 6,045 (68.4 percent; SA 63.9; Australia 52.7); aged 10 to 14 1,342 (6.3 percent; SA 5.9; Australia 6.2). ABS ASGS 2021 SUA layer area 40.8706 square kilometres. ABS SAL 2021 polygons at least 80 percent inside the SUA (our overlay): Whyalla, Whyalla Stuart, Whyalla Playford, Whyalla Norrie, Whyalla Jenkins, Mullaquana. IANA tzdb australasia: Australia/Adelaide 9:30 with rule AS (daylight saving from the first Sunday in October to the first Sunday in April). South Australian education department pages returned 403 to automated reads, so no SA term dates are printed.",
+    "localProject": "Running maximum and maximum drawdown with itertools.accumulate. ABS Data API dataflow ABS_ANNUAL_ERP_ASGS2021 version 1.2.0, measure ERP, region type SA2, code 406011136 (Whyalla), annual 2001 to 2025, read 10 October 2026. Values: 2001 22,003; 2002 21,982; 2003 21,920; 2004 21,964; 2005 21,898; 2006 21,955; 2007 22,124; 2008 22,228; 2009 22,299; 2010 22,377; 2011 22,471; 2012 22,538; 2013 22,580; 2014 22,624; 2015 22,591; 2016 22,432; 2017 22,162; 2018 22,010; 2019 21,981; 2020 21,944; 2021 21,862; 2022 21,826; 2023 21,851; 2024 21,793; 2025 21,641. Our code (scratchpad au/r7/why.py): first minus last 362 (1.65 percent); running peak 22,624 (2014); maximum drawdown 983 (4.34 percent) at 2025; 11 rises, 13 falls; largest one-year fall 270 (2016 to 2017); largest rise 169 (2006 to 2007); pairwise comparisons 300 against a single pass of 25. SA2 406011137 (Whyalla - North) is 0 in every year.",
+    "requiredMentions": [
+      "21,154",
+      "5,539",
+      "11,112",
+      "3,497",
+      "22,624",
+      "21,641",
+      "maximum drawdown",
+      "Whyalla Norrie",
+      "itertools.accumulate(values, max)"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Whyalla Significant Urban Area (4008): people, median age, families, dwellings, dwelling structure, occupation, travel to work, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/4008"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by SA2 and above (ASGS Edition 3), dataflow ABS_ANNUAL_ERP_ASGS2021.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_ASGS2021,1.2.0/ERP.SA2.406011136.A?startPeriod=2001"
+      },
+      {
+        "claim": "ABS ASGS 2021 Significant Urban Area and Suburbs and Localities boundaries (geo.abs.gov.au map services).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SUA/MapServer/0"
+      },
+      {
+        "claim": "Python documentation, itertools.accumulate with a func argument such as max.",
+        "url": "https://docs.python.org/3/library/itertools.html#itertools.accumulate"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Adelaide and rule AS.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "South Australian school term dates: the SA Department for Education pages returned 403 to automated reads and were not circumvented, so no term dates are printed.",
+      "Any cause for the rise to 2014 or the fall since (steelworks, mining or other): the page reports the series and our arithmetic only, with no explanation of why it moved.",
+      "A direct comparison between the Census urban-area count and the SA2 estimates: different measures over different boundaries.",
+      "Treating \"Whyalla - North\" as a populated area: the published series is zero in every year and is not used.",
+      "Income, rent, ancestry, religion, health and Indigenous status figures: excluded by the cluster rules.",
+      "Any affiliation with the ABS, the South Australian Government or Whyalla City Council."
+    ]
   }
 }
