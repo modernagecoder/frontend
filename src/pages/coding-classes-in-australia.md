@@ -430,6 +430,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agents classes in Warrnambool](/vibe-coding-and-ai-agents-classes-in-warrnambool)
 - [Coding classes in Geraldton](/best-coding-classes-in-geraldton)
 - [Online coding and Python classes in Nowra](/online-coding-and-python-classes-in-nowra)
+- [AI and programming classes in Bathurst](/ai-and-programming-classes-in-bathurst)
 <!-- AU-LINKS -->
 
 
