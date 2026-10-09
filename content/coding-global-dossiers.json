@@ -40835,5 +40835,54 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with the ABS or the NSW Department of Education."
     ]
+  },
+  "best-coding-classes-in-busselton": {
+    "market": "Busselton",
+    "bodyClass": "cg-bsln",
+    "pageType": "city",
+    "curriculumAuthority": "Busselton, ABS Census 2021 QuickStats, Significant Urban Area 5004 (read 8 October 2026), area 1,423.3 square kilometres: 40,544 people; median age 45; 11,044 families; 21,202 private dwellings; average 2.5 people per household; separate house 13,208 (88.3 percent; WA 79.7; Australia 72.3); flat or apartment 74 (0.5 percent; WA 6.5; Australia 14.2); aged 20 to 24 1,390 (3.4 percent; WA 6.0; Australia 6.2); aged 10 to 14 2,944 (7.3 percent; WA 6.4; Australia 6.2); Technicians and Trades Workers 3,380 (17.9 percent; WA 15.3; Australia 12.9); Bachelor Degree level and above 5,802 (17.6 percent; WA 23.8; Australia 26.3). WA Department of Education term dates: 2026 Term 4 Monday 12 October to Thursday 17 December; 2027 Term 1 Monday 1 February to Friday 9 April. IANA tz 2026e: Australia/Perth UTC+8 with no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Sutherland-Hodgman polygon clipping. Department of Biodiversity, Conservation and Attractions, Western Ringtail Possum Habitat Suitability (DBCA-049), WA data catalogue, Creative Commons Attribution 4.0, package metadata modified 2026-10-06; SLIP Plants_and_Animals MapServer layer 11 queried 8 October 2026. Metadata: southern Swan Coastal Plain between Binningup and Dunsborough; beginning January 2013, ending January 2014; vegetation assumed correct as at 2012; no maintenance planned, areas cleared since 2012 not excluded; HAB_SUITAB A very high, B high, C medium, D low, E very low, U unsuitable. Window (our choice) 115.320 to 115.370 E, 33.638 to 33.668 S, equirectangular about 33.653 S: 4.63 by 3.32 km, 1,536.5 ha. 84 polygons touch the window, 16 cut by its edge. Whole touching polygons 307.6 ha; centroid inside 161.7 ha; clipped 203.1 ha (A 16.0, B 36.2, C 27.0, D 123.7, U 0.2). Independent 10 m grid count 202.8 ha (A 15.9, B 36.1, C 27.0, D 123.6, U 0.2).",
+    "requiredMentions": [
+      "40,544",
+      "11,044",
+      "21,202",
+      "13,208",
+      "1,423.3 square kilometres",
+      "1,536.5 ha",
+      "307.6 ha",
+      "161.7 ha",
+      "203.1 ha",
+      "Binningup"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Busselton Significant Urban Area (5004): people, median age, families, dwellings, dwelling structure, age, occupation, education, area.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/5004"
+      },
+      {
+        "claim": "DBCA, Western Ringtail Possum Habitat Suitability (DBCA-049), Creative Commons Attribution 4.0, with metadata on currency and classes.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/western-ringtail-possum-habitat-suitability"
+      },
+      {
+        "claim": "SLIP Plants_and_Animals map service, layer 11, used to read the polygons.",
+        "url": "https://public-services.slip.wa.gov.au/public/rest/services/SLIP_Public_Services/Plants_and_Animals/MapServer/11"
+      },
+      {
+        "claim": "WA Department of Education, future term dates.",
+        "url": "https://education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Perth.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Possum population numbers, conservation status or sightings: not part of the habitat suitability dataset, so none are stated.",
+      "Present-day vegetation inside the window: the metadata says clearing since 2012 is not removed, so only mapped hectares are reported.",
+      "Suburb or locality names for Busselton: none were verified inside the urban area for this page, so none are named.",
+      "Weather or coastal hazard figures: Bureau of Meteorology pages returned 403 to automated reads and were not circumvented.",
+      "Income, rent, ancestry, religion and health figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with DBCA, the WA Government, the City of Busselton or the ABS."
+    ]
   }
 }
