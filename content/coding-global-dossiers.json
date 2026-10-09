@@ -41682,5 +41682,94 @@
       "Income, rent, ancestry, religion, health and Indigenous status figures: excluded by the cluster rules.",
       "Any affiliation with the ABS, the South Australian Government or Whyalla City Council."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-murray-bridge": {
+    "market": "Murray Bridge",
+    "bodyClass": "cg-mbri",
+    "pageType": "city",
+    "curriculumAuthority": "Murray Bridge, ABS Census 2021 QuickStats, Significant Urban Area 4003 (read 10 October 2026): 18,243 people; median age 42; 4,708 families; 8,412 private dwellings; average 2.3 people per household; separate house 6,263 (87.3 percent; SA 78.0; Australia 72.3); Labourers 1,525 (21.6 percent; SA 10.5; Australia 9.0); Professionals 688 (9.7 percent; SA 21.5; Australia 24.0); car as driver 5,032 (71.2 percent; SA 63.9; Australia 52.7). ABS ASGS 2021 SUA layer area 97.5456 square kilometres. ABS SAL 2021 polygons at least 80 percent inside the SUA (our overlay): Murray Bridge, Murray Bridge East, Murray Bridge South, Northern Heights, Swanport, Mobilong, Riverglades, White Hill, Long Flat (SA), Rocky Gully (SA). IANA tzdb australasia: Australia/Adelaide 9:30, rule AS. SA Department for Education pages returned 403 to automated reads, so no SA term dates are printed.",
+    "localProject": "Map-reduce with sub-agents: mergeable vs non-mergeable aggregates. ABS Data API dataflow ABS_ANNUAL_ERP_ASGS2021 1.2.0, ERP by SA2, all codes beginning 4, years 2015 and 2025, read 10 October 2026; state total STE 4 2025 = 1,902,665. Our code (scratchpad au/r7/mbr.py): kept 166 SA2s in SA4s 401 to 407 with at least 100 residents in 2015 (8 excluded). Ten-year growth per SA2 = 100 x (2025 - 2015) / 2015. Per SA4 (n, median, mean): 401 24, 9.47, 13.45; 402 32, 10.67, 15.24; 403 33, 7.54, 10.33; 404 17, 12.89, 13.47; 405 19, 7.00, 7.89; 406 13, 0.03, -2.77; 407 28, 5.22, 7.36. True median 8.94, median of SA4 medians 7.54; true mean 10.24, plain mean of means 9.28, count-weighted mean of means 10.24; sum of kept SA2s 2015 1,700,549, 2025 1,902,487 (our sum, not an official total); merged 1-point histograms put the median in the 8 to 9 bin. SA2 407031165 Murray Bridge 17,963 to 19,938, +10.99 percent, rank 65 of 166 and 9 of 28 in SA4 407; SA2 407031166 Murray Bridge Surrounds 3,653 to 3,993, +9.31 percent.",
+    "requiredMentions": [
+      "18,243",
+      "4,708",
+      "8,412",
+      "1,525",
+      "19,938",
+      "17,963",
+      "median of medians",
+      "Rocky Gully",
+      "count-weighted"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Murray Bridge Significant Urban Area (4003): people, median age, families, dwellings, dwelling structure, occupation, travel to work.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/4003"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by SA2 and above (ASGS Edition 3), dataflow ABS_ANNUAL_ERP_ASGS2021, all South Australian SA2s and the state total.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_ASGS2021,1.2.0/ERP.SA2..A?startPeriod=2015"
+      },
+      {
+        "claim": "ABS ASGS 2021 Significant Urban Area and Suburbs and Localities boundaries (geo.abs.gov.au map services).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer/0"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Adelaide and rule AS.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Presenting 1,902,487 as South Australia's population: it is our sum over 166 kept areas; the page quotes the bureau's own state figure separately.",
+      "Any reason why particular regions grew or shrank: the page reports growth rates only.",
+      "South Australian school term dates: the SA education pages returned 403 and were not circumvented.",
+      "Comparing the Census urban-area count with the SA2 estimates as if they were the same measure.",
+      "Income, rent, ancestry, religion, health and Indigenous status figures: excluded by the cluster rules.",
+      "Any affiliation with the ABS, the South Australian Government or the Rural City of Murray Bridge."
+    ]
+  },
+  "best-coding-classes-in-port-lincoln": {
+    "market": "Port Lincoln",
+    "bodyClass": "cg-plin",
+    "pageType": "city",
+    "curriculumAuthority": "Port Lincoln Significant Urban Area, ABS Census 2021 QuickStats, area code 4005, with South Australia and Australia (read 10 October 2026): 16,307 people; median age 41; 4,230 families; 7,591 private dwellings; 2.3 people per household; separate house 5,239 (83.1 percent; SA 78.0; Australia 72.3); flat or apartment 352 (5.6 percent; SA 6.8); Professionals 1,231 (16.7 percent; SA 21.5; Australia 24.0); Technicians and Trades Workers 1,116 (15.2 percent; SA 13.2; Australia 12.9); Bachelor Degree level and above 1,567 (11.8 percent; SA 22.7; Australia 26.3); aged 15 to 19: 945 (5.8 percent); aged 20 to 24: 846 (5.2 percent); industry: Combined Primary and Secondary Education 207 (2.8 percent; SA 1.6; Australia 1.2). ABS ERP Port Lincoln LGA (46300) 30 June 2025: 15,065. IANA tz database 2026e and Python tzdata TZif footer ACST-9:30ACDT,M10.1.0,M4.1.0/3: Australia/Adelaide UTC+9:30, daylight saving from the first Sunday in October to the first Sunday in April; Asia/Kolkata UTC+5:30. SA term dates omitted: education.sa.gov.au returned 403.",
+    "localProject": "Gompertz growth curve fit vs exponential and linear. ABS Data API, dataflow ABS_ANNUAL_ERP_LGA2025 version 1.0.0, key ERP.3.TOT.46300.LGA2025.A, read 10 October 2026: Port Lincoln LGA estimated resident population 30 June 2001 13,842; 2005 14,012; 2010 14,432; 2015 14,585; 2016 14,523; 2018 14,652; 2020 14,773; 2021 14,879; 2024 15,067; 2025 15,065. Falls in 2015, 2016 and 2025. Fits (scipy curve_fit) on 2001 to 2018, tested on 2019 to 2025: Gompertz N = K exp(-b exp(-c t)) with K 15,124, b 0.0917, c 0.0643, mean absolute error 169.8, 2025 prediction 14,830; exponential rate 0.351 percent a year, error 39.5, 2025 prediction 15,097; linear error 39.7, 2025 prediction 15,080. Ceiling K by last training year: 2015 17,632; 2018 15,124; 2021 15,559; full series 19,286. Illustrative 2050 values: Gompertz (to 2018) 15,065; linear 16,335; exponential 16,478; Gompertz full series 16,082.",
+    "requiredMentions": [
+      "16,307",
+      "4,230",
+      "7,591",
+      "5,239",
+      "1,567",
+      "13,842",
+      "17,632",
+      "169.8 people",
+      "From the marina to the hills"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Port Lincoln Significant Urban Area (4005): people, median age, families, dwellings, dwelling structure, occupation, education, age, industry.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/4005"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA 2001 to 2025 (ABS_ANNUAL_ERP_LGA2025), Port Lincoln LGA 46300, total persons.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.46300.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Adelaide offsets and daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      },
+      {
+        "claim": "scipy.optimize.curve_fit documentation, the non-linear least squares routine used for the fits.",
+        "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html"
+      }
+    ],
+    "rejectedClaims": [
+      "Any population forecast for Port Lincoln: the fitted 2050 values are classroom illustrations of how models extrapolate, not projections, and the ABS publishes its own projections separately.",
+      "Any explanation of why the estimates fell in 2015, 2016 and 2025: no cause is published with the series, so only the changes are shown.",
+      "South Australian term dates: education.sa.gov.au returned 403 to our request in October 2026 and was not circumvented.",
+      "Suburb names for Port Lincoln: none were verified inside the urban area boundary, so none are listed.",
+      "Fishing, aquaculture or port tonnage figures: not part of the verified Census or ERP sources used here.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the ABS or the Government of South Australia."
+    ]
   }
 }

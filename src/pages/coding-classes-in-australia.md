@@ -434,6 +434,8 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agents classes in Albany](/vibe-coding-and-ai-agents-classes-in-albany-wa)
 - [Coding classes in Kalgoorlie](/best-coding-classes-in-kalgoorlie)
 - [Online coding and Python classes in Warragul](/online-coding-and-python-classes-in-warragul)
+- [AI and programming classes in Devonport](/ai-and-programming-classes-in-devonport)
+- [AI and programming classes in Taree](/ai-and-programming-classes-in-taree)
 <!-- AU-LINKS -->
 
 
