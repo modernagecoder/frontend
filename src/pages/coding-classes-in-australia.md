@@ -432,6 +432,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Nowra](/online-coding-and-python-classes-in-nowra)
 - [AI and programming classes in Bathurst](/ai-and-programming-classes-in-bathurst)
 - [Vibe coding and AI agents classes in Albany](/vibe-coding-and-ai-agents-classes-in-albany-wa)
+- [Coding classes in Kalgoorlie](/best-coding-classes-in-kalgoorlie)
 <!-- AU-LINKS -->
 
 
