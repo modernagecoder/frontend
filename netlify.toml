@@ -20689,6 +20689,30 @@
   to = "/src/pages/ai-and-programming-classes-in-traralgon.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-orange"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-orange.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-orange.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-orange.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-bathurst"
+  to = "/src/pages/ai-and-programming-classes-in-bathurst.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-bathurst.md"
+  to = "/src/pages/ai-and-programming-classes-in-bathurst.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -40738,5 +40738,102 @@
       "Income, rent, ancestry, religion and health figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with Latrobe City Council, Transport Victoria, the Victorian Government or the ABS."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-orange": {
+    "market": "Orange",
+    "bodyClass": "cg-orn",
+    "pageType": "city",
+    "curriculumAuthority": "Orange, ABS Census 2021 QuickStats, Significant Urban Area 1027 (read 8 October 2026): 41,920 people; median age 37; 10,728 families; 18,008 private dwellings; average 2.5 people per household; separate house 13,404 (85.8 percent; NSW 65.6; Australia 72.3); flat or apartment 559 (3.6 percent; NSW 21.7; Australia 14.2); aged 10 to 14 3,102 (7.4 percent; NSW 6.2; Australia 6.2); aged 5 to 9 3,028 (7.2 percent; NSW 6.2; Australia 6.2); Professionals 4,453 (22.7 percent; NSW 25.8; Australia 24.0); Bachelor Degree level and above 6,936 (21.1 percent; NSW 27.8; Australia 26.3). NSW place names inside the SUA polygon (NSW Spatial Services places): Ammerdown, Bletchington, Bloomfield, Bowen, Calare, Clifton Grove, Glenroi, Narrambla, Orange, Summer Hill, Warrendine. NSW Department of Education 2027 term dates: Term 2 Tuesday 27 April to Friday 2 July; Term 3 Monday 19 July to Friday 24 September; spring holidays Monday 27 September to Friday 8 October; Term 4 Monday 11 October to Monday 20 December (school development days included). IANA tz 2026e: Australia/Sydney rule AN; Asia/Kolkata UTC+5:30.",
+    "localProject": "Natural cubic spline against linear interpolation of a contour elevation profile. NSW Spatial Services, NSW Elevation and Depth Theme MapServer layer 2 (Contour), extracted 8 October 2026 (Creative Commons Attribution 4.0, attribution (c) Spatial Services), queried along the straight line from the ORANGE place point (149.0963, -33.2831) to the GAANHA BULA / MOUNT CANOBOLAS physiography point (148.9819, -33.3433, summit spot height 1,397 m): 12,576.5 m, 120 crossings from 870 m at 31.5 m to 1,380 m, contours 2 m in town and 10 or 20 m on the mountain. Leave-one-out on 119 interior points: linear MAE 2.05 m (max 12.06), natural cubic spline (scipy CubicSpline bc_type natural) MAE 2.04 m (max 15.98); spline closer 57, linear closer 62. Town section under 3.6 km (56 points): linear 0.74, spline 1.24. Mountain beyond 9 km (34 points): linear 3.35, spline 3.14. Every-other-point test: linear 1.98, spline 2.45. Full-data spline maximum 958.2 m near 2,699 m between crossings 904 m at 2,603.1 m and 906 m at 2,874.3 m: overshoot 52.2 m above the higher contour.",
+    "requiredMentions": [
+      "41,920",
+      "10,728",
+      "18,008",
+      "13,404",
+      "3,102",
+      "12,576.5 m",
+      "958 m",
+      "Gaanha Bula",
+      "0.74 m",
+      "every other crossing"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Orange Significant Urban Area (1027): people, median age, families, dwellings, dwelling structure, age, occupation, education.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1027"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Elevation and Depth Theme, Contour layer (Creative Commons Attribution 4.0, (c) Spatial Services).",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Elevation_and_Depth_Theme/MapServer/2"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Physiography Category, GAANHA BULA / MOUNT CANOBOLAS point.",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Physiography_Category/MapServer/0"
+      },
+      {
+        "claim": "NSW Spatial Services licence statement on the Elevation and Depth Theme portal item.",
+        "url": "https://portal.spatial.nsw.gov.au/portal/sharing/rest/content/items/ca62b4699e5d43119617a9dce5bbe0c4?f=json"
+      },
+      {
+        "claim": "NSW Department of Education, future and past NSW term and vacation dates.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/future-and-past-nsw-term-and-vacation-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney and rule AN.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Term 1 2027 dates: NSW lists separate Eastern and Western division dates and this page does not establish which division applies, so Term 1 is omitted.",
+      "Any walking, driving or access advice for the mountain or reserve: the transect is a straight line for analysis only.",
+      "True ground heights between contours: unknown from the data; only the contour band constraint is stated.",
+      "Weather, snowfall or climate claims for Orange: Bureau of Meteorology pages returned 403 to automated reads and were not circumvented.",
+      "Income, rent, ancestry, religion and health figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Spatial Services, the NSW Government, Orange City Council or the ABS."
+    ]
+  },
+  "ai-and-programming-classes-in-bathurst": {
+    "market": "Bathurst",
+    "bodyClass": "cg-bthr",
+    "pageType": "city",
+    "curriculumAuthority": "Bathurst Significant Urban Area, ABS Census 2021 QuickStats, area code 1005, with New South Wales and Australia (read 8 October 2026): 37,396 people; median age 37; 9,564 families; 15,710 private dwellings; 2.4 people per household; separate house 11,429 (82.7 percent; NSW 65.6; Australia 72.3); flat or apartment 704 (5.1 percent; NSW 21.7); Professionals 3,365 (19.3 percent; NSW 25.8); Technicians and Trades Workers 2,438 (14.0 percent; NSW 11.9); Community and Personal Service Workers 2,769 (15.9 percent; NSW 10.6); Bachelor Degree level and above 5,762 (19.0 percent; NSW 27.8; Australia 26.3); aged 15 to 19: 2,520 (6.7 percent; NSW 5.7); aged 20 to 24: 2,631 (7.0 percent; NSW 6.1; Australia 6.2); industry: State Government Administration 595 (3.4 percent; NSW 1.5; Australia 1.4). NSW Department of Education 2027 calendar: Term 3 Tuesday 20 July to Friday 24 September; Term 4 Tuesday 12 October to Monday 20 December. IANA tz database: Australia/Sydney; Asia/Kolkata UTC+5:30.",
+    "localProject": "Compound growth, doubling time and the rule of 70. ABS Data API, dataflow ABS_ANNUAL_ERP_LGA2025 version 1.0.0 (Estimated Resident Population by LGA 2025, 2001 to 2025), key ERP.3.TOT.10470.LGA2025.A (Bathurst LGA, persons, total age), CC BY 4.0, read 8 October 2026. Values: 2001 35,504; 2005 36,547; 2009 38,848; 2010 39,484; 2016 42,244; 2020 43,444; 2021 43,674; 2025 45,359 (rises every year). Computed: change 9,855; CAGR 1.0259 percent; exact doubling ln2/ln(1+r) 67.91 years; rule of 70 68.23; rule of 72 70.18; windows 2001-2010 1.188 percent (58.7 years), 2010-2020 0.960 (72.5), 2016-2025 0.794 (87.7), 2020-2025 0.866 (80.3); largest yearly rise 2009 +2.49 percent, smallest 2004 +0.45 percent; mean of yearly rates 1.0268 percent. Rule of 70 versus exact: 1 percent +0.49 percent error, 5 percent -1.45, 10 percent -3.75, 50 percent -18.11.",
+    "requiredMentions": [
+      "37,396",
+      "9,564",
+      "15,710",
+      "11,429",
+      "5,762",
+      "35,504",
+      "45,359",
+      "58.7 to 87.7 years",
+      "Kelso to Eglinton"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Bathurst Significant Urban Area (1005): people, median age, families, dwellings, dwelling structure, occupation, education, age, industry.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1005"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA (2025), 2001 to 2025, Bathurst LGA, CC BY 4.0.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.10470.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "NSW Department of Education 2027 school calendar: Terms 3 and 4.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any population forecast or projected doubling year for Bathurst: the page computes what past rates imply and labels it as not a forecast.",
+      "Any reason for faster growth around 2009 or slower growth after 2016: causes are not documented in the series, so only the rates are shown.",
+      "Treating the urban area census count and the council area estimate as the same population: they are different geographies and are kept apart.",
+      "OpenStreetMap data and Bureau of Meteorology observations: Overpass returned 406 and BOM 403 to this machine in October 2026; neither was circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the ABS or the NSW Department of Education."
+    ]
   }
 }
