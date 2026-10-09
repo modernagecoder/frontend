@@ -426,6 +426,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agents classes in Orange](/vibe-coding-and-ai-agents-classes-in-orange)
 - [Coding classes in Busselton](/best-coding-classes-in-busselton)
 - [Online coding and Python classes in Bowral](/online-coding-and-python-classes-in-bowral)
+- [AI and programming classes in Dubbo](/ai-and-programming-classes-in-dubbo)
 <!-- AU-LINKS -->
 
 
