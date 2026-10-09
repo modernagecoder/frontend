@@ -6597,4 +6597,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/ai-and-programming-classes-in-gympie</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
 </urlset>

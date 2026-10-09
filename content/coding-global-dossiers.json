@@ -41771,5 +41771,54 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with the ABS or the Government of South Australia."
     ]
+  },
+  "ai-and-programming-classes-in-gympie": {
+    "market": "Gympie",
+    "bodyClass": "cg-gymp",
+    "pageType": "city",
+    "curriculumAuthority": "Gympie, ABS Census 2021 QuickStats, Significant Urban Area 3008 (read 10 October 2026): 22,424 people; median age 43; 5,997 families; 9,916 private dwellings; average 2.4 people per household; separate house 7,705 (88.0 percent; Qld 74.8; Australia 72.3); Labourers 1,301 (15.1 percent; Qld 10.1; Australia 9.0); Professionals 1,151 (13.3 percent; Qld 21.4; Australia 24.0); car as driver 6,100 (70.6 percent; Qld 59.5; Australia 52.7); aged 10 to 14 1,529 (6.8 percent; Qld 6.6; Australia 6.2). ABS ASGS 2021 SUA area 69.4615 square kilometres. ABS SAL 2021 polygons at least 80 percent inside (our overlay): Gympie, Araluen, Banks Pocket, Glanmire, Monkland, Southside, Victory Heights, Jones Hill (0.875), Tamaree (0.80). Queensland Department of Education, future school dates (read 10 October 2026): 2027 Term 1 Wednesday 27 January to Thursday 25 March; Term 2 Monday 12 April to Friday 25 June; Term 3 Monday 12 July to Friday 17 September; Term 4 Tuesday 5 October to Friday 10 December. IANA tzdb australasia: Australia/Brisbane 10:00 rule AQ, last daylight saving period ended in March 1992.",
+    "localProject": "Forecast combination. ABS Data API dataflow ABS_ANNUAL_ERP_ASGS2021 1.2.0, ERP by SA2, all Queensland SA2s, 2001 to 2025, read 10 October 2026. Our code (scratchpad au/r7/gym.py): at origin o with the value at o-10, forecasts for o+5: naive = value(o); linear = value(o) + 5 x (value(o) - value(o-10)) / 10; compound = value(o) x (value(o)/value(o-10))^(5/10); combination = mean of the three. Kept SA2s with at least 1,000 residents at o and o-10. Mean and median absolute percentage error: o=2011 n=519 naive 8.021/6.001 linear 5.970/4.298 compound 8.160/4.974 combination 5.622/3.697; o=2015 n=524 7.199/4.848, 5.527/3.706, 6.992/4.359, 4.988/3.151; o=2020 n=525 7.524/5.840, 4.270/2.780, 5.049/3.146, 4.508/3.160. o=2015: combination beat naive in 354, linear in 314, compound in 332 of 524. Gympie - North 319031512: 2001 12,012; 2010 13,355; 2015 14,255; 2020 15,020; 2025 15,512; o=2015 forecasts 14,255 / 15,203 / 15,309 / combination 14,922 (errors 5.09, 1.22, 1.93, 0.65); o=2020 combination 15,600 (0.57). Gympie - South 319031513: 2001 4,267; 2010 6,349; 2015 6,769; 2020 7,434; 2025 9,079; o=2015 combination 7,469 (0.47); o=2020 forecasts 7,434 / 7,976 / 8,044 / combination 7,818 (errors 18.12, 12.14, 11.40, 13.89).",
+    "requiredMentions": [
+      "7,818",
+      "14,922",
+      "5,997",
+      "9,916",
+      "7,705",
+      "Gympie - North",
+      "Gympie - South",
+      "forecast combination",
+      "Victory Heights",
+      "13.89%"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Gympie Significant Urban Area (3008): people, median age, families, dwellings, dwelling structure, occupation, travel to work, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/3008"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by SA2 and above (ASGS Edition 3), dataflow ABS_ANNUAL_ERP_ASGS2021, Queensland SA2s.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_ASGS2021,1.2.0/ERP.SA2..A?startPeriod=2001"
+      },
+      {
+        "claim": "Queensland Department of Education, future school dates (2027 term dates).",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      },
+      {
+        "claim": "ABS ASGS 2021 Significant Urban Area and Suburbs and Localities boundaries.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SUA/MapServer/0"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Brisbane and rule AQ.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any forecast of Gympie's future population: the page scores past forecasts against past estimates only.",
+      "Any cause for the rapid growth of Gympie - South after 2020: not established from the sources.",
+      "Claims that forecast combination always wins: in the 2020 test the straight-line trend alone had the lower mean error, and the page says so.",
+      "Queensland senior subject details from the QCAA: its site returned a Cloudflare 403 and was not circumvented.",
+      "Income, rent, ancestry, religion, health and Indigenous status figures: excluded by the cluster rules.",
+      "Any affiliation with the ABS, the Queensland Government or Gympie Regional Council."
+    ]
   }
 }
