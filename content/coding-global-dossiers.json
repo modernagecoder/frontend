@@ -40884,5 +40884,102 @@
       "Income, rent, ancestry, religion and health figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with DBCA, the WA Government, the City of Busselton or the ABS."
     ]
+  },
+  "online-coding-and-python-classes-in-bowral": {
+    "market": "Bowral",
+    "bodyClass": "cg-bwl",
+    "pageType": "city",
+    "curriculumAuthority": "Bowral - Mittagong, ABS Census 2021 QuickStats, Significant Urban Area 1006 (read 8 October 2026): 41,600 people; median age 47; 11,666 families; 18,146 private dwellings; average 2.4 people per household; separate house 14,135 (88.4 percent; NSW 65.6; Australia 72.3); flat or apartment 442 (2.8 percent; NSW 21.7; Australia 14.2); aged 20 to 24 1,763 (4.2 percent; NSW 6.1; Australia 6.2); aged 10 to 14 2,660 (6.4 percent; NSW 6.2; Australia 6.2); Technicians and Trades Workers 2,990 (15.9 percent; NSW 11.9; Australia 12.9); Bachelor Degree level and above 8,607 (25.0 percent; NSW 27.8; Australia 26.3). NSW place names inside the SUA polygon (Spatial Services places): Alpine, Aylmerton, Balaclava, Balmoral, Berrima, Berrima Junction, Bong Bong, Bowral, Braemar, Burradoo, Colo Vale, East Bowral, Hill Top, Lower Mittagong, Mittagong, Moss Vale, New Berrima, Notts Hill, Renwick, Welby, Willow Vale, Yerrinbool. NSW Department of Education 2027: autumn holidays Monday 12 April to Friday 23 April; Term 2 Tuesday 27 April to Friday 2 July; Term 3 Monday 19 July to Friday 24 September; Term 4 Monday 11 October to Monday 20 December. IANA tz 2026e: Australia/Sydney rule AN; Asia/Kolkata UTC+5:30.",
+    "localProject": "Frustum (contour slice) volume of a hill. NSW Spatial Services, NSW Elevation and Depth Theme MapServer layer 2 (Contour), extracted 8 October 2026 (Creative Commons Attribution 4.0, attribution (c) Spatial Services), around the MOUNT GIBRALTAR point in NSW_Physiography_Category layer 0 (150.428, -34.4652). Closed rings enclosing the summit ring centre (150.42804, -34.46537): 27 elevations, every 10 m from 770 to 820 m and every 2 m from 820 to 862 m. Shoelace areas: 770 m 163.37 ha; 800 m 84.21 ha; 820 m 58.99 ha; 840 m 15.91 ha; 860 m 1.22 ha; 862 m 0.59 ha. Volumes 770 to 860 m, 10 m slices, million cubic metres: lower-area 64.66, upper-area 48.45, trapezoid 56.55, frustum 56.24. Volumes 820 to 860 m: 10 m slices lower 10.91, upper 5.14, trapezoid 8.03, frustum 7.83; 2 m slices lower 8.54, upper 7.38, trapezoid 7.96, frustum 7.95.",
+    "requiredMentions": [
+      "41,600",
+      "11,666",
+      "18,146",
+      "14,135",
+      "8,607",
+      "Mount Gibraltar",
+      "163.37 ha",
+      "56.24",
+      "64.66",
+      "48.45"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Bowral - Mittagong Significant Urban Area (1006): people, median age, families, dwellings, dwelling structure, age, occupation, education.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1006"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Elevation and Depth Theme, Contour layer (Creative Commons Attribution 4.0, (c) Spatial Services).",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Elevation_and_Depth_Theme/MapServer/2"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Physiography Category, MOUNT GIBRALTAR point.",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Physiography_Category/MapServer/0"
+      },
+      {
+        "claim": "NSW Spatial Services licence statement on the Elevation and Depth Theme portal item.",
+        "url": "https://portal.spatial.nsw.gov.au/portal/sharing/rest/content/items/ca62b4699e5d43119617a9dce5bbe0c4?f=json"
+      },
+      {
+        "claim": "NSW Department of Education, future and past NSW term and vacation dates.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/future-and-past-nsw-term-and-vacation-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney and rule AN.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Total mass or tonnage of the hill: no density is published for it, so only volumes are given.",
+      "Volume below the 770 m ring: the lowest ring that closes around the summit is 770 m, so the hill is measured only above it.",
+      "Term 1 2027 dates: NSW lists Eastern and Western division dates and the page does not establish the division, so Term 1 is omitted.",
+      "Walking tracks, lookouts or access on the mountain: not checked against an official source, so none are mentioned.",
+      "Income, rent, ancestry, religion and health figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Spatial Services, the NSW Government, Wingecarribee Shire Council or the ABS."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-albany-wa": {
+    "market": "Albany",
+    "bodyClass": "cg-alby",
+    "pageType": "city",
+    "curriculumAuthority": "Albany Significant Urban Area, ABS Census 2021 QuickStats, area code 5001, with Western Australia and Australia (read 8 October 2026): 35,053 people; median age 45; 9,245 families; 16,140 private dwellings; 2.3 people per household; separate house 12,112 (90.0 percent; WA 79.7; Australia 72.3); flat or apartment 64 (0.5 percent; WA 6.5); Professionals 2,717 (17.2 percent; WA 22.0); Technicians and Trades Workers 2,500 (15.9 percent; WA 15.3); Labourers 2,003 (12.7 percent; WA 9.4; Australia 9.0); Bachelor Degree level and above 4,407 (15.2 percent; WA 23.8; Australia 26.3); aged 15 to 19: 2,170 (6.2 percent); aged 20 to 24: 1,611 (4.6 percent; WA 6.0); industry: Cafes and Restaurants 486 (3.1 percent; WA 2.3). WA Department of Education 2027 term dates: Term 2 Monday 26 April to Friday 2 July; Term 4 Monday 11 October to Thursday 16 December. IANA tz database: Australia/Perth UTC+8, no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Difference array (range increments) for year-level coverage. WA Department of Education, Western Australian Schools Lists, SchoolsListExcel0880.xlsx, CC BY 4.0 on data.wa.gov.au, downloaded 8 October 2026 (list headed with the 2026 Semester 1 census). Columns used: Postcode, Low Year, High Year. Statewide 1,152 schools, 2 without Low/High Year. Postcode 6330: 20 schools. Levels KIN, PPR, Y01 to Y12 (14). Coverage: KIN 16, PPR 14, Y01-Y06 14, Y07-Y10 8, Y11-Y12 7. Work: 160 per-level increments versus 40 range updates plus a 14-step running total; statewide 9,756 increments versus 2,300 updates. Faulty variant (subtract at the high year instead of high year plus one): KIN 13, PPR 14, Y01-Y05 14, Y06 5, Y07-Y09 8, Y10 7, Y11 7, Y12 0. No school names, sectors or student numbers used on the page.",
+    "requiredMentions": [
+      "35,053",
+      "9,245",
+      "16,140",
+      "12,112",
+      "1,611",
+      "4,407",
+      "postcode 6330",
+      "Little Grove to Lower King",
+      "9,756 increments"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Albany Significant Urban Area (5001): people, median age, families, dwellings, dwelling structure, occupation, education, age, industry.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/5001"
+      },
+      {
+        "claim": "WA Department of Education, Western Australian Schools Lists (Excel), Creative Commons Attribution 4.0, on data.wa.gov.au.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/western-australian-schools-lists"
+      },
+      {
+        "claim": "WA Department of Education, future term dates: 2027 Terms 2 and 4.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Perth offset and absence of daylight saving.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Naming individual schools, comparing government and non-government schools, or using student numbers: excluded so the project stays about counting ranges.",
+      "Any claim about school places, quality or enrolment availability: the year ranges say only which levels a school teaches.",
+      "Treating postcode 6330 as identical to the Albany urban area: the project uses the postcode as stated, not the census boundary.",
+      "OpenStreetMap data and Bureau of Meteorology observations: Overpass returned 406 and BOM 403 to this machine in October 2026; neither was circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the WA Department of Education or the ABS."
+    ]
   }
 }

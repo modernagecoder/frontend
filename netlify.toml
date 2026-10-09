@@ -20725,6 +20725,30 @@
   to = "/src/pages/best-coding-classes-in-busselton.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-bowral"
+  to = "/src/pages/online-coding-and-python-classes-in-bowral.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-bowral.md"
+  to = "/src/pages/online-coding-and-python-classes-in-bowral.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-albany-wa"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-albany-wa.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-albany-wa.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-albany-wa.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -417,6 +417,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in Melton](/ai-and-programming-classes-in-melton)
 - [Vibe coding and AI agents classes in Hervey Bay](/vibe-coding-and-ai-agents-classes-in-hervey-bay)
 - [Coding classes in Wagga Wagga](/best-coding-classes-in-wagga-wagga)
+- [Online coding and Python classes in Shepparton](/online-coding-and-python-classes-in-shepparton)
 <!-- AU-LINKS -->
 
 
