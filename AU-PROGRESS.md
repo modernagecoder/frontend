@@ -191,7 +191,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 163 | best-coding-classes-in-busselton (bsln, #2D639E) | cg- regional city page | 2,820 | 2.1% vs ai-and-programming-classes-in-traralgon | How much possum habitat is inside the box? | Sutherland-Hodgman polygon clipping of habitat polygons to a window | bb2b21f3 |
 | 164 | online-coding-and-python-classes-in-bowral (bwl, #28522F) | cg- regional city page | 2,952 | 1.5% vs online-coding-and-python-classes-in-tamworth-nsw | How much hill is Mount Gibraltar? | frustum (contour slice) volume of a hill from closed contour rings | be595ecd |
 | 165 | ai-and-programming-classes-in-dubbo (dubb, #600F28) | cg- regional city page | 2,888 | 1% vs ai-and-programming-classes-in-traralgon | Can an outlier detector find odd house numbers? | Hampel filter on a street house-number sequence | 63da5935 |
-| 166 | vibe-coding-and-ai-agents-classes-in-warrnambool (wbl, #2E3274) | cg- regional city page | 2,903 | 2% vs ai-and-programming-classes-in-traralgon | Can a frequency detector read a bus timetable? | Goertzel algorithm detecting clock-face bus headways | (this commit) |
+| 166 | vibe-coding-and-ai-agents-classes-in-warrnambool (wbl, #2E3274) | cg- regional city page | 2,903 | 2% vs ai-and-programming-classes-in-traralgon | Can a frequency detector read a bus timetable? | Goertzel algorithm detecting clock-face bus headways | 037f2978 |
+| 167 | best-coding-classes-in-geraldton (grld, #62662E) | cg- regional city page | 2,982 | 2.4% vs online-coding-and-python-classes-in-geelong | How many separate pieces is Geraldton's planned cycle network, and why does the answer depend on a tolerance? | endpoint snapping tolerance when building a network graph from line segments (WA DoT Regional LTCN, Geraldton 2050) | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

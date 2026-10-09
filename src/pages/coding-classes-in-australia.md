@@ -428,6 +428,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Bowral](/online-coding-and-python-classes-in-bowral)
 - [AI and programming classes in Dubbo](/ai-and-programming-classes-in-dubbo)
 - [Vibe coding and AI agents classes in Warrnambool](/vibe-coding-and-ai-agents-classes-in-warrnambool)
+- [Coding classes in Geraldton](/best-coding-classes-in-geraldton)
 <!-- AU-LINKS -->
 
 
