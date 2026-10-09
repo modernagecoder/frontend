@@ -40498,5 +40498,245 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with the NSW Department of Education, Port Macquarie-Hastings Council or the ABS."
     ]
+  },
+  "best-coding-classes-in-gladstone": {
+    "market": "Gladstone",
+    "bodyClass": "cg-gldq",
+    "pageType": "city",
+    "curriculumAuthority": "Gladstone, ABS Census 2021 QuickStats, Significant Urban Area 3006 (read 8 October 2026): 45,185 people; median age 36; 11,924 families; 20,608 private dwellings; average 2.5 people per household; separate house 13,971 (82.8 percent; Queensland 74.8; Australia 72.3); flat or apartment 1,543 (9.1 percent; Queensland 12.5; Australia 14.2); Technicians and Trades Workers 4,265 (20.4 percent; Queensland 13.7; Australia 12.9); Bachelor Degree level and above 4,645 (13.2 percent; Queensland 21.9; Australia 26.3); aged 10 to 14 3,473 (7.7 percent; Queensland 6.6; Australia 6.2). Queensland spatial services Places layer 20 (population centres) inside the ABS SUA 3006 polygon: Bangalee, Boyne Island, Clinton, Gladstone, Tannum Sands. Queensland Department of Education term dates: 2026 Term 4 Tuesday 6 October to Friday 11 December; holidays Saturday 12 December 2026 to Tuesday 26 January 2027. IANA tz 2026e: Australia/Brisbane follows rule AQ with no daylight saving in force; Asia/Kolkata UTC+5:30.",
+    "localProject": "Three-point (circumcircle) radius of curvature on railway balloon loops. Queensland spatial services, Transportation/OtherTransport MapServer layer 155 Railways [detail], queried 8 October 2026 with envelope 151.00,-24.05,151.45,-23.75 (outSR 4326): 458 features; feature_source Orthophotography_10cm_Gladstone Urban for 450 and feature_date 2016-05-30 for 426; railway_owner Aurizon 373, Queensland Rail 67, Private 18; electrified 345, non electrified 113. Named loops (section_name containing Balloon or Ballon): Barney Point Loop Balloon, Clinton Balloon Loop, Clinton Balloon Loop No 1, No 2, No 3, Comlaco Ballon Loop, East End Balloon Loop, Fishermans Landing Balloon Loop, Wiggins Island Balloon Loop. Each path projected to metres (equirectangular about 23.85 S), resampled at 5, 20, 50 and 100 m, radius R = abc / (2 |cross|) for consecutive triples, collinear triples skipped. Minimum radius: Clinton No 2 (objectid 5, 4,504 m) 36 / 171 / 229 / 257 m; Clinton No 1 (objectid 271, 4,281 m) 49 / 159 / 260 / 288 m; Fishermans Landing (objectid 6836, 1,567 m) 48 / 149 / 196 / 220 m; Wiggins Island (objectid 7569, 12,211 m) 38 / 219 / 363 / 391 m.",
+    "requiredMentions": [
+      "45,185",
+      "11,924",
+      "13,971",
+      "4,265",
+      "1,543",
+      "Clinton Balloon Loop No 2",
+      "nine balloon loops",
+      "257 metres",
+      "30 May 2016",
+      "Bangalee"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Gladstone Significant Urban Area (3006): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/3006"
+      },
+      {
+        "claim": "Queensland Government spatial services, Railways [detail] layer (OtherTransport map service), State of Queensland.",
+        "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Transportation/OtherTransport/MapServer/155"
+      },
+      {
+        "claim": "Queensland Government spatial services, Places map service, population centres layer.",
+        "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Location/Places/MapServer/20"
+      },
+      {
+        "claim": "Queensland Department of Education, school term dates 2026.",
+        "url": "https://education.qld.gov.au/about-us/calendar/term-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Brisbane.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Design or minimum engineering radii of any loop, and train speeds: not published in the layer; the page gives only our geometric estimates and says so.",
+      "Coal tonnages or port throughput: money and trade figures excluded by the cluster rules and not needed.",
+      "Tide gauge and wave buoy data from data.qld.gov.au and data.des.qld.gov.au: both returned a bot challenge to automated reads and were not circumvented.",
+      "Bureau of Meteorology observations: returned 403 to automated reads and were not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the Queensland Government, Aurizon, Queensland Rail, Gladstone Regional Council or the ABS."
+    ]
+  },
+  "online-coding-and-python-classes-in-tamworth-nsw": {
+    "market": "Tamworth",
+    "bodyClass": "cg-tamn",
+    "pageType": "city",
+    "curriculumAuthority": "Tamworth, ABS Census 2021 QuickStats, Significant Urban Area 1032 (read 8 October 2026): 43,874 people; median age 37; 11,242 families; 19,242 private dwellings; average 2.4 people per household; separate house 13,946 (84.2 percent; NSW 65.6; Australia 72.3); flat or apartment 368 (2.2 percent; NSW 21.7; Australia 14.2); aged 15 to 19 2,899 (6.6 percent; NSW 5.7; Australia 5.7); Professionals 3,608 (18.5 percent; NSW 25.8; Australia 24.0); Bachelor Degree level and above 5,400 (15.5 percent; NSW 27.8; Australia 26.3). NSW Spatial Services Features of Interest PlacePoint layer, points inside the ABS SUA 1032 polygon: Calala, East Tamworth, Hillvue, Kingswood, Nemingha, North Tamworth, Oxley Vale, South Tamworth, Taminda, Tamworth, West Tamworth, Westdale. NSW Department of Education 2027 term dates: Term 2 Tuesday 27 April to Friday 2 July; Term 3 Monday 19 July to Friday 24 September; Term 4 Monday 11 October to Monday 20 December; school development days included. IANA tz 2026e: Australia/Sydney rule AN, daylight saving from the first Sunday in October to the first Sunday in April; Asia/Kolkata UTC+5:30.",
+    "localProject": "Rainflow counting on an elevation profile. NSW Spatial Services, NSW Elevation and Depth Theme MapServer layer 2 (Contour), extracted 8 October 2026 (Creative Commons Attribution 4.0, attribution (c) Spatial Services), queried with a polyline through NSW_Physiography_Category layer 0 points Macpherson Hill (150.9588,-31.1003), Flagstaff Mountain (150.9667,-31.0857), Bald Hill (150.9579,-31.0757), Daves Hill (150.9501,-31.0643), Mount Daruka (150.9488,-31.0301). Projected equirectangular about 31.07 S. Leg ends 0, 1,781, 3,169, 4,632, 8,415 m. 871 distinct (distance, elevation) crossings; elevation 560 to 830 m; first 670, last 730. Sum of rises 1,416 m, falls 1,356 m; 221 reversals after collapsing same-direction runs. Three-point stack rainflow: 108 full and 4 half cycles; range bins (full=1, half=0.5) under 4 m 39, 4 to 10 m 44, 10 to 40 m 22, 40 to 100 m 2.5, 100 m and over 2.5; largest cycles half 270, half 250, full 208, half 170 m; weighted range sum 1,386 m; ascent from cycles >= 10 m 1,066 m, >= 20 m 878 m.",
+    "requiredMentions": [
+      "43,874",
+      "11,242",
+      "19,242",
+      "2,899",
+      "3,608",
+      "Flagstaff Mountain",
+      "Daves Hill",
+      "871",
+      "1,066 metres",
+      "Taminda"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Tamworth Significant Urban Area (1032): people, median age, families, dwellings, dwelling structure, age, occupation, education.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1032"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Elevation and Depth Theme, Contour layer (Creative Commons Attribution 4.0, (c) Spatial Services).",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Elevation_and_Depth_Theme/MapServer/2"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Physiography Category, named hill points.",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Physiography_Category/MapServer/0"
+      },
+      {
+        "claim": "NSW Spatial Services licence statement on the Elevation and Depth Theme portal item.",
+        "url": "https://portal.spatial.nsw.gov.au/portal/sharing/rest/content/items/ca62b4699e5d43119617a9dce5bbe0c4?f=json"
+      },
+      {
+        "claim": "NSW Department of Education, future and past NSW term and vacation dates (2027).",
+        "url": "https://education.nsw.gov.au/schooling/calendars/future-and-past-nsw-term-and-vacation-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney and rule AN.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Walking-track distances or any claim that the transect is a public route: the line joins map points and crosses private land; the page says so.",
+      "Peak heights of the five hills: only contour crossings were measured, so no summit height is claimed.",
+      "Whether Tamworth schools follow the Eastern or Western division Term 1 dates: the department page does not say which towns are in each division, so only terms 2 to 4 are quoted.",
+      "Peel River gauge data from WaterNSW: realtimedata.waternsw.com.au returned 403 to automated reads and was not circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Spatial Services, the NSW Government, Tamworth Regional Council or the ABS."
+    ]
+  },
+  "best-coding-classes-in-geraldton": {
+    "market": "Geraldton",
+    "bodyClass": "cg-grld",
+    "pageType": "city",
+    "curriculumAuthority": "Geraldton Significant Urban Area, ABS Census 2021 QuickStats, area code 5006, with Western Australia and Australia (read 8 October 2026): 38,595 people; median age 40; 9,955 families; 17,434 private dwellings; 2.4 people per household; separate house 12,062 (86.0 percent; WA 79.7; Australia 72.3); flat or apartment 227 (1.6 percent; WA 6.5); Professionals 2,992 (17.0 percent; WA 22.0; Australia 24.0); Technicians and Trades Workers 2,989 (17.0 percent; WA 15.3; Australia 12.9); Bachelor Degree level and above 3,801 (12.3 percent; WA 23.8; Australia 26.3); aged 15 to 19: 2,454 (6.4 percent); aged 20 to 24: 2,033 (5.3 percent); industry: Iron Ore Mining 500 (2.8 percent; WA 2.9; Australia 0.4). WA Department of Education term dates: 2026 Term 4 Monday 12 October to Thursday 17 December; 2027 Term 1 Monday 1 February to Friday 9 April. IANA tz database: Australia/Perth UTC+8, no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Endpoint snapping tolerance when building a network graph. WA Department of Transport, Regional Long-Term Cycle Network (DOT-036), rltcn20260319.shp.zip from data.wa.gov.au, CC BY 4.0, downloaded 8 October 2026, GDA2020 geographic coordinates. Strategy = Geraldton 2050: 222 line features (single-part). Lengths on a local equirectangular projection (approximation): total 460.97 km; Infra_Clas Existing (adequate) 24.12 km, Existing (needs improvement) 189.06 km, Proposed 247.78 km. Graph: two nodes per line (its ends), one edge per line, plus edges between ends of different lines closer than the tolerance (scipy cKDTree query_pairs), networkx connected components. Pieces: 0 m 218 (largest 59.57 km, 12.9 percent of total length); 0.5 m 194; 1 m 164; 2 m 128; 5 m 104; 10 m 84 (largest 67.58 km); 20 m 70 (largest 74.30 km); 50 m 51 (largest 118.64 km, 25.7 percent); 100 m 37 (largest 221.34 km, 48.0 percent). Nearest end of another line: exact 4 of 444 ends; within 1 m 111; within 5 m 225; within 10 m 258; within 50 m 312.",
+    "requiredMentions": [
+      "38,595",
+      "9,955",
+      "17,434",
+      "12,062",
+      "2,989",
+      "3,801",
+      "218 islands",
+      "460.97 km",
+      "Waggrakine to Wandina"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Geraldton Significant Urban Area (5006): people, median age, families, dwellings, dwelling structure, occupation, education, age, industry.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/5006"
+      },
+      {
+        "claim": "WA Department of Transport, Regional Long-Term Cycle Network (DOT-036), Creative Commons Attribution 4.0, on data.wa.gov.au.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/regional-long-term-cycle-network-ltcn-dot-036"
+      },
+      {
+        "claim": "WA Department of Education, future school term dates: 2026 Term 4 and 2027 Term 1.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Perth offset and absence of daylight saving.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement that the cycle network is or is not built on the ground beyond the Infra_Clas labels in the layer: the layer is a planning dataset, and its labels are reported as published.",
+      "Any claim about why line ends miss each other by small distances: the cause is not documented, so only the measured distances are shown.",
+      "A full list of Geraldton suburbs: only Waggrakine and Wandina are named, both checked as school suburbs (postcode 6530) in the WA Department of Education schools list read on 8 October 2026.",
+      "OpenStreetMap data and Bureau of Meteorology observations: Overpass returned 406 and BOM 403 to this machine in October 2026; neither was circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the WA Department of Transport, the WA Department of Education or the ABS."
+    ]
+  },
+  "online-coding-and-python-classes-in-nowra": {
+    "market": "Nowra",
+    "bodyClass": "cg-nwra",
+    "pageType": "city",
+    "curriculumAuthority": "Nowra - Bomaderry Significant Urban Area, ABS Census 2021 QuickStats, area code 1026, with New South Wales and Australia (read 8 October 2026): 38,678 people; median age 39; 9,950 families; 15,983 private dwellings; 2.4 people per household; separate house 12,142 (86.1 percent; NSW 65.6; Australia 72.3); flat or apartment 384 (2.7 percent; NSW 21.7); Professionals 2,597 (16.6 percent; NSW 25.8); Technicians and Trades Workers 2,499 (16.0 percent; NSW 11.9); Community and Personal Service Workers 2,640 (16.9 percent; NSW 10.6; Australia 11.5); Bachelor Degree level and above 4,412 (14.1 percent; NSW 27.8; Australia 26.3); aged 15 to 19: 2,257 (5.8 percent); aged 20 to 24: 2,296 (5.9 percent); industry: Defence 1,021 (6.5 percent; NSW 0.6; Australia 0.7). NSW Department of Education calendars: 2026 Term 4 Tuesday 13 October to Thursday 17 December; 2027 Term 2 Thursday 29 April to Friday 2 July. IANA tz database: Australia/Sydney daylight saving first Sunday in October to first Sunday in April; Asia/Kolkata UTC+5:30.",
+    "localProject": "Doubling experiment (empirical complexity), list vs set membership. NSW Department of Education, NSW public schools master dataset, CSV, Creative Commons Attribution, data.nsw.gov.au (resource modified 2 October 2026), downloaded 7 October 2026: 2,210 rows, 2,210 unique School_code values; LGA Shoalhaven 30 rows (Primary School 23, Secondary School 5, Schools for Specific Purposes 2). Random sample of codes (seed 2026), every sampled code looked up once in the list and in the set. Comparisons for list membership (position plus one, summed): n 125 7,875; 250 31,375; 500 125,250; 1,000 500,500; 2,000 2,001,000. Timing with timeit, best of 7, Python 3.13.6, one laptop, 9 October 2026: list 0.18, 0.72, 2.95, 12.74, 53.32 ms; set 0.012, 0.024, 0.053, 0.095, 0.206 ms; ratios per doubling list 3.90, 4.12, 4.32, 4.18; set 2.05, 2.20, 1.78, 2.16. Earlier runs gave list ratios 3.36 to 5.06 and set ratios 1.92 to 2.14. Enrolment, Indigenous, language-background and index columns never used.",
+    "requiredMentions": [
+      "38,678",
+      "9,950",
+      "15,983",
+      "12,142",
+      "2,640",
+      "4,412",
+      "2,001,000",
+      "Bomaderry to North Nowra",
+      "53.32 ms"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Nowra - Bomaderry Significant Urban Area (1026): people, median age, families, dwellings, dwelling structure, occupation, education, age, industry.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1026"
+      },
+      {
+        "claim": "NSW Department of Education, NSW public schools master dataset, Creative Commons Attribution, on data.nsw.gov.au.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education school calendars: 2026 Term 4 and 2027 Term 2.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement about which NSW Department of Education division Nowra schools belong to for Term 1 start dates: not confirmed at source, so only terms that both divisions share are printed.",
+      "Enrolment numbers, background percentages or index values from the schools file: excluded by the cluster rules and not used.",
+      "Any timing claim beyond this one laptop and Python version: the milliseconds are labelled as one machine's measurement.",
+      "OpenStreetMap data and Bureau of Meteorology observations: Overpass returned 406 and BOM 403 to this machine in October 2026; neither was circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education or the ABS."
+    ]
+  },
+  "ai-and-programming-classes-in-traralgon": {
+    "market": "Traralgon",
+    "bodyClass": "cg-trg",
+    "pageType": "city",
+    "curriculumAuthority": "Traralgon - Morwell, ABS Census 2021 QuickStats, Significant Urban Area 2018 (read 8 October 2026): 43,252 people; median age 40; 11,185 families; 19,912 private dwellings; average 2.3 people per household; separate house 14,753 (86.1 percent; Victoria 73.4; Australia 72.3); flat or apartment 1,405 (8.2 percent; Victoria 12.1; Australia 14.2); Technicians and Trades Workers 2,802 (15.5 percent; Victoria 12.6; Australia 12.9); Bachelor Degree level and above 4,810 (13.6 percent; Victoria 29.2; Australia 26.3). Victorian Government school term dates: 2026 Term 4 Monday 5 October to Friday 18 December; 2027 Term 1 Wednesday 27 January (students start Thursday 28 January in government schools) to Thursday 25 March. IANA tz 2026e: Australia/Melbourne rule AV, daylight saving from the first Sunday in October to the first Sunday in April; Asia/Kolkata UTC+5:30.",
+    "localProject": "Buffer zone by point-to-segment distance. Latrobe City Council, Latrobe Traralgon to Morwell Shared Path (data.gov.au, Creative Commons Attribution 2.5 Australia, metadata modified 2026-10-01), GeoJSON from the data.gov.au geoserver WFS: 8 MultiLineString features, 1,717 vertices, properties ID, Stage, Condition. Projected equirectangular about 38.2 S. Lengths: Stage 1A 670 m Completed, 1B 1,456 m Under Construction, 1C 633 m Completed, 2A 3,319 m Completed, 3A 3,613 m Under Construction, 3B 780 m Under Construction, 4 4,086 m Out to Tender, 5 816 m Completed; totals Completed 5.44 km, Under Construction 5.85 km, Out to Tender 4.09 km, all 15.37 km. Stops: Transport Victoria GTFS Schedule regional bus (folder 6) and regional train (folder 1) stops.txt, files dated 2026-10-02, inside 146.35 to 146.58 E and 38.17 to 38.26 S: 15 records (11 bus, 4 train). Nearest distance to any path segment (clamped projection): within 200 m 4, within 400 m 4, within 800 m 5; Morwell Bus Interchange/Commercial Rd 38 m; Morwell Railway Station 164 m; Morwell Station 167 m; Mid Valley Shopping Centre/Mid Valley Dr 591 m; Traralgon Railway Station 2,210 m. Thinning test: every vertex, vertex and segment distances within 1 m; every 10th vertex (184) vertex-only overstates by up to 14 m, segment distance moves up to 1 m; every 25th (82) vertex-only overstates by up to 12 m beyond segment, segment distance moves up to 22 m.",
+    "requiredMentions": [
+      "43,252",
+      "4,810",
+      "19,912",
+      "14,753",
+      "2,802",
+      "15.37 km",
+      "Morwell Bus Interchange",
+      "2,210 metres",
+      "1,717",
+      "Out to tender"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Traralgon - Morwell Significant Urban Area (2018): people, median age, families, dwellings, dwelling structure, occupation, education.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/2018"
+      },
+      {
+        "claim": "Latrobe City Council, Latrobe Traralgon to Morwell Shared Path (Creative Commons Attribution 2.5 Australia).",
+        "url": "https://data.gov.au/data/dataset/latrobe-traralgon-to-morwell-shared-path"
+      },
+      {
+        "claim": "Transport Victoria GTFS Schedule (CC BY 4.0), regional bus and regional train feeds.",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne and rule AV.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Completion dates for any stage: the dataset gives a status, not dates, so none are stated.",
+      "Walking times or routes between stops and the path: only straight-line distances were computed.",
+      "Stop names that refer to health or care facilities: measured and counted but not printed, under the cluster rule against health content.",
+      "Latrobe Valley local bus routes: not present in the regional feed files used, so only the stops that are present were measured and the page says the area has 15 stop records.",
+      "Towns in Time population history for Traralgon (planning.vic.gov.au): returned 403 to automated reads and was not circumvented.",
+      "Income, rent, ancestry, religion and health figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Latrobe City Council, Transport Victoria, the Victorian Government or the ABS."
+    ]
   }
 }

@@ -412,6 +412,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Geelong](/online-coding-and-python-classes-in-geelong)
 - [AI and programming classes in Townsville](/ai-and-programming-classes-in-townsville)
 - [Vibe coding and AI agents classes in Cairns](/vibe-coding-and-ai-agents-classes-in-cairns)
+- [Coding classes in Coffs Harbour](/best-coding-classes-in-coffs-harbour)
 <!-- AU-LINKS -->
 
 

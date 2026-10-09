@@ -20629,6 +20629,66 @@
   to = "/src/pages/vibe-coding-and-ai-agents-classes-in-port-macquarie.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-classes-in-gladstone"
+  to = "/src/pages/best-coding-classes-in-gladstone.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-classes-in-gladstone.md"
+  to = "/src/pages/best-coding-classes-in-gladstone.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-tamworth-nsw"
+  to = "/src/pages/online-coding-and-python-classes-in-tamworth-nsw.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-tamworth-nsw.md"
+  to = "/src/pages/online-coding-and-python-classes-in-tamworth-nsw.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-classes-in-geraldton"
+  to = "/src/pages/best-coding-classes-in-geraldton.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-classes-in-geraldton.md"
+  to = "/src/pages/best-coding-classes-in-geraldton.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-nowra"
+  to = "/src/pages/online-coding-and-python-classes-in-nowra.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-nowra.md"
+  to = "/src/pages/online-coding-and-python-classes-in-nowra.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-traralgon"
+  to = "/src/pages/ai-and-programming-classes-in-traralgon.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-traralgon.md"
+  to = "/src/pages/ai-and-programming-classes-in-traralgon.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
