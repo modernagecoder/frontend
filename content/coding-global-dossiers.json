@@ -41489,5 +41489,54 @@
       "Income, rent, mortgage, ancestry, birthplace, language, religion and Indigenous status figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with ARPANSA, the Alice Springs Town Council, the Northern Territory Government or the ABS."
     ]
+  },
+  "online-coding-and-python-classes-in-ballina": {
+    "market": "Ballina",
+    "bodyClass": "cg-bal",
+    "pageType": "city",
+    "curriculumAuthority": "Ballina, ABS Census 2021 QuickStats, Significant Urban Area 1003 (read 9 October 2026): 46,190 people; median age 48 (New South Wales 39, Australia 38); 12,726 families; 20,798 private dwellings; average 2.4 people per household; dwelling structure, occupied private dwellings: separate house 13,086 (71.7 percent; NSW 65.6), semi-detached, row or terrace house, townhouse 3,776 (20.7 percent; NSW 11.7; Australia 12.6), flat or apartment 921 (5.0 percent; NSW 21.7); occupation: Professionals 4,677 (22.6 percent; NSW 25.8), Technicians and Trades Workers 2,854 (13.8 percent; NSW 11.9; Australia 12.9); Bachelor Degree level and above 8,789 (22.7 percent; NSW 27.8; Australia 26.3); aged 10 to 14 2,798 (6.1 percent); aged 15 to 19 2,416 (5.2 percent). NSW Department of Education, 2027 term dates, Eastern division: Term 4 Tuesday 12 October to Monday 20 December. IANA tz database: Australia/Sydney, daylight saving Sunday 4 October 2026 to Sunday 4 April 2027; Asia/Kolkata UTC+5:30.",
+    "localProject": "Memoization with functools.lru_cache. NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (data.nsw.gov.au, Creative Commons Attribution), master_dataset.csv downloaded 7 October 2026, Date_extracted 2026-10-02. Rows with LGA = Ballina: 15 (Primary School 12, Secondary School 3), sorted by School_name. Haversine distance, R = 6,371,008.8 m. All ordered pairs: 210 calls uncached; lru_cache on (i, j): CacheInfo hits 0, misses 210; key normalised to (min(i, j), max(i, j)): hits 105, misses 105. Held-Karp shortest closed tour from the first school over the first k schools alphabetically: k = 6, 39,329 m, plain recursion 326 calls, lru_cache 81 calls; k = 8, 54,286 m, 13,700 vs 449; k = 10, 63,652 m, 986,410 vs 2,305; k = 15, 68.18 km, 114,689 memoized calls; distinct round trips for 15 points (15 - 1)! / 2 = 43,589,145,600. Town_suburb (title case): Alstonville 3, Ballina 2, East Ballina 2, Wardell 2, Empire Vale 1, Fernleigh 1, Lennox Head 1, Newrybar 1, Tintenbar 1, Wollongbar 1.",
+    "requiredMentions": [
+      "46,190",
+      "12,726",
+      "2,798 residents aged 10 to 14",
+      "3,776",
+      "8,789",
+      "986,410",
+      "2,305 calls",
+      "43,589,145,600",
+      "lru_cache"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Ballina Significant Urban Area (1003): people, median age, families, private dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1003"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "Python documentation, functools.lru_cache and cache_info().",
+        "url": "https://docs.python.org/3/library/functools.html"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Road distances or travel times between schools: not computed; all distances are straight lines between published coordinates.",
+      "That the 15 schools all lie inside the Ballina urban area: they are the council area, which includes Alstonville, Wardell and other towns, and the page says so.",
+      "Flood or disaster history: excluded by the cluster rules and not used.",
+      "Enrolment, ICSEA, Indigenous and LBOTE figures from the master dataset: excluded by the cluster rules or not needed.",
+      "Bureau of Meteorology station facts: the Bureau's pages returned 403 and were not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education, Ballina Shire Council or the ABS."
+    ]
   }
 }

@@ -186,7 +186,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 158 | vibe-coding-and-ai-agents-classes-in-port-macquarie (pmq, #1C642A) | cg- town page | 3,195 | 1.5% vs best-coding-classes-in-coffs-harbour | How many tool calls does an agent need before it can name the oldest Port Macquarie-Hastings school? | agent tool-call budgets and early stopping (push the sort into the tool), NSW schools master dataset | ffb17c6d |
 | 159 | best-coding-classes-in-gladstone (gldq, #753634) | cg- regional city page | 3,274 | 1.2% vs best-coding-classes-in-toowoomba | How tightly does a balloon loop turn? | radius of curvature by the three-point circle on Queensland railway balloon loops | 16d7e73e |
 | 160 | online-coding-and-python-classes-in-tamworth-nsw (tamn, #515230) | cg- regional city page | 3,207 | 1.5% vs vibe-coding-and-ai-agents-classes-in-orange | How many real climbs are on a ridge walk? | rainflow counting of climbs on a contour elevation profile | 50849d16 |
-| 161 | ai-and-programming-classes-in-traralgon (trg, #116E1D) | cg- regional city page | 3,094 | 2.1% vs best-coding-classes-in-busselton | Which stops are within walking distance of the new path? | buffer zone by point-to-segment distance between transit stops and a shared path | (this commit) |
+| 161 | ai-and-programming-classes-in-traralgon (trg, #116E1D) | cg- regional city page | 3,094 | 2.1% vs best-coding-classes-in-busselton | Which stops are within walking distance of the new path? | buffer zone by point-to-segment distance between transit stops and a shared path | fceba806 |
+| 162 | vibe-coding-and-ai-agents-classes-in-orange (orn, #915256) | cg- regional city page | 2,978 | 1.5% vs online-coding-and-python-classes-in-tamworth-nsw | Straight lines or a smooth curve up Mount Canobolas? | natural cubic spline against linear interpolation of a contour elevation profile | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

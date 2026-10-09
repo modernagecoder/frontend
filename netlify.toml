@@ -20881,6 +20881,18 @@
   to = "/src/pages/best-coding-classes-in-alice-springs.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-ballina"
+  to = "/src/pages/online-coding-and-python-classes-in-ballina.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-ballina.md"
+  to = "/src/pages/online-coding-and-python-classes-in-ballina.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
