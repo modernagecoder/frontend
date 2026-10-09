@@ -179,7 +179,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 151 | best-coding-classes-in-coffs-harbour (cfh, #282882) | cg- town page | 3,292 | 1.8% vs best-coding-classes-in-wagga-wagga | Which Coffs Harbour public schools are each other's nearest neighbour? | reciprocal (mutual) nearest neighbours, NSW public schools master dataset | 1a9e7fbe |
 | 152 | online-coding-and-python-classes-in-bundaberg (bnd, #6E2A1C) | cg- town page | 3,200 | 1.5% vs ai-and-programming-classes-in-melton | When has half of Bundaberg's weekday bus service run, and how fast can bisection find it? | bisection method (binary search on a monotone quantity), Translink Bundaberg GTFS | 9235c53b |
 | 153 | ai-and-programming-classes-in-melton (mlt, #446C30) | cg- town page | 3,195 | 1.7% vs best-coding-classes-in-coffs-harbour | How much does a character-level Markov model copy as its order rises? | character-level Markov text generation (order n), DataVic school locations | 2d5776de |
-| 154 | vibe-coding-and-ai-agents-classes-in-hervey-bay (hvb, #267058) | cg- town page | 3,168 | 1.4% vs vibe-coding-and-ai-agents-classes-in-port-macquarie | How long can an agent cache a next-bus answer before it goes wrong? | cache time-to-live and staleness, Translink Maryborough-Hervey Bay GTFS | (this commit) |
+| 154 | vibe-coding-and-ai-agents-classes-in-hervey-bay (hvb, #267058) | cg- town page | 3,168 | 1.4% vs vibe-coding-and-ai-agents-classes-in-port-macquarie | How long can an agent cache a next-bus answer before it goes wrong? | cache time-to-live and staleness, Translink Maryborough-Hervey Bay GTFS | a7ed4f82 |
+| 155 | best-coding-classes-in-wagga-wagga (wgw, #7A3C44) | cg- town page | 3,171 | 1.8% vs best-coding-classes-in-coffs-harbour | How many bins should a histogram of Wagga Wagga school founding dates have? | histogram bin rules: Sturges versus Freedman-Diaconis | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
