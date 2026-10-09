@@ -41586,5 +41586,53 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with the NSW Department of Education, MidCoast Council or the ABS."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-goulburn": {
+    "market": "Goulburn",
+    "bodyClass": "cg-gbn",
+    "pageType": "city",
+    "curriculumAuthority": "Goulburn, ABS Census 2021 QuickStats, Significant Urban Area 1014 (read 9 October 2026): 24,565 people; median age 40 (New South Wales 39, Australia 38); 6,245 families; 10,872 private dwellings; average 2.3 people per household; dwelling structure, occupied private dwellings: separate house 8,002 (84.4 percent; NSW 65.6; Australia 72.3), semi-detached, row or terrace house, townhouse 1,027 (10.8 percent), flat or apartment 359 (3.8 percent; NSW 21.7; Australia 14.2); occupation: Professionals 1,656 (15.2 percent; NSW 25.8), Technicians and Trades Workers 1,560 (14.3 percent; NSW 11.9; Australia 12.9); Bachelor Degree level and above 2,839 (14.1 percent); aged 5 to 9 1,534; aged 10 to 14 1,506; aged 15 to 19 1,294. NSW Department of Education, 2027 term dates, Eastern division: Term 1 Wednesday 3 February to Friday 9 April. IANA tz database: Australia/Sydney, daylight saving Sunday 4 October 2026 to Sunday 4 April 2027; Asia/Kolkata UTC+5:30.",
+    "localProject": "Plan-and-execute agent versus an interleaved reason-act-observe agent, our own scripted simulation. NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (data.nsw.gov.au, Creative Commons Attribution), master_dataset.csv downloaded 7 October 2026, Date_extracted 2026-10-02. Rows with LGA = Goulburn Mulwaree: 14 (Primary School 11, Secondary School 2, other 1). Town_suburb raw labels: 7 distinct; 11 of 14 end in a space; Goulburn (with trailing space) 8, GOULBURN 1 (Bradfordville Public School), Goulburn North (trailing space) 1, Marulan 1, TALLONG 1, Tarago 1, Windellama 1. Question: how many schools are in the town of Goulburn. Plan-and-execute, plan fixed before data (load, Town_suburb == \"Goulburn\", count): 3 tool calls, answer 0. With one validation and replan (strip): 5 calls, answer 8. Interleaved: 6 calls; exact 0, distinct 7, strip 8, casefold 9, prefix \"goulburn\" 10. Date_1st_teacher: Goulburn Public School 1858-07-01 (oldest), Marulan Public School 1860-09-01, Tallong Public School 1865-09-01, Windellama Public School 1871-05-01, Tarago Public School 1878-03-01, Goulburn High School 1913-01-01, Mulwaree High School 1971-01-01.",
+    "requiredMentions": [
+      "24,565",
+      "10,872",
+      "Bradfordville Public School",
+      "Goulburn North Public School",
+      "Tallong Public School",
+      "Windellama Public School",
+      "Mulwaree High School",
+      "plan-and-execute",
+      "1,534 residents aged 5 to 9"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Goulburn Significant Urban Area (1014): people, median age, families, private dwellings, dwelling structure, occupation, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1014"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "Yao and others (2022), ReAct: Synergizing Reasoning and Acting in Language Models, arXiv 2210.03629.",
+        "url": "https://arxiv.org/abs/2210.03629"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That Goulburn North is or is not part of the town of Goulburn: the page treats it as a question of definition and shows both counts.",
+      "Any claim about how commercial AI agents behave: the two agents are our own scripts and the page says so.",
+      "The specific-purpose classification of one Goulburn school, and enrolment, ICSEA, Indigenous and LBOTE figures from the master dataset: excluded by the cluster rules.",
+      "Bureau of Meteorology station facts: the Bureau's pages returned 403 and were not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education, Goulburn Mulwaree Council or the ABS."
+    ]
   }
 }
