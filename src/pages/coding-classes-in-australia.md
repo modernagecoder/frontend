@@ -437,6 +437,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in Devonport](/ai-and-programming-classes-in-devonport)
 - [AI and programming classes in Taree](/ai-and-programming-classes-in-taree)
 - [Vibe coding and AI agents classes in Mount Gambier](/vibe-coding-and-ai-agents-classes-in-mount-gambier)
+- [Coding classes in Lismore](/best-coding-classes-in-lismore)
 <!-- AU-LINKS -->
 
 
