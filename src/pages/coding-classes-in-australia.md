@@ -436,6 +436,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Warragul](/online-coding-and-python-classes-in-warragul)
 - [AI and programming classes in Devonport](/ai-and-programming-classes-in-devonport)
 - [AI and programming classes in Taree](/ai-and-programming-classes-in-taree)
+- [Vibe coding and AI agents classes in Mount Gambier](/vibe-coding-and-ai-agents-classes-in-mount-gambier)
 <!-- AU-LINKS -->
 
 
