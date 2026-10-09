@@ -190,7 +190,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 162 | vibe-coding-and-ai-agents-classes-in-orange (orn, #915256) | cg- regional city page | 2,978 | 1.5% vs online-coding-and-python-classes-in-tamworth-nsw | Straight lines or a smooth curve up Mount Canobolas? | natural cubic spline against linear interpolation of a contour elevation profile | 43dce7b8 |
 | 163 | best-coding-classes-in-busselton (bsln, #2D639E) | cg- regional city page | 2,820 | 2.1% vs ai-and-programming-classes-in-traralgon | How much possum habitat is inside the box? | Sutherland-Hodgman polygon clipping of habitat polygons to a window | bb2b21f3 |
 | 164 | online-coding-and-python-classes-in-bowral (bwl, #28522F) | cg- regional city page | 2,952 | 1.5% vs online-coding-and-python-classes-in-tamworth-nsw | How much hill is Mount Gibraltar? | frustum (contour slice) volume of a hill from closed contour rings | be595ecd |
-| 165 | ai-and-programming-classes-in-dubbo (dubb, #600F28) | cg- regional city page | 2,888 | 1% vs ai-and-programming-classes-in-traralgon | Can an outlier detector find odd house numbers? | Hampel filter on a street house-number sequence | (this commit) |
+| 165 | ai-and-programming-classes-in-dubbo (dubb, #600F28) | cg- regional city page | 2,888 | 1% vs ai-and-programming-classes-in-traralgon | Can an outlier detector find odd house numbers? | Hampel filter on a street house-number sequence | 63da5935 |
+| 166 | vibe-coding-and-ai-agents-classes-in-warrnambool (wbl, #2E3274) | cg- regional city page | 2,903 | 2% vs ai-and-programming-classes-in-traralgon | Can a frequency detector read a bus timetable? | Goertzel algorithm detecting clock-face bus headways | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
