@@ -927,6 +927,7 @@ const MARKETS = [
   ['vibe-coding-and-ai-agents-classes-in-ipswich-qld', 'Ipswich, Queensland'],
   ['best-coding-classes-in-logan', 'Logan, Queensland'],
   ['vibe-coding-and-ai-agents-classes-in-ryde-sydney', 'Ryde, Sydney'],
+  ['online-coding-and-python-classes-in-moreton-bay', 'Moreton Bay, Queensland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

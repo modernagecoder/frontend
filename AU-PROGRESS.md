@@ -211,7 +211,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 183 | best-coding-classes-in-armidale (armd, #8C403A) | cg- regional city page | 2,849 | 1.5% vs ai-and-programming-classes-in-grafton | How fast can you find a word in every Armidale street name? | suffix array substring search vs linear scan over street names | 2e254aeb |
 | 184 | online-coding-and-python-classes-in-whyalla (whya, #50623A) | cg- regional city page | 2,871 | 1.5% vs ai-and-programming-classes-in-traralgon | How far did Whyalla fall from its peak? | running maximum and maximum drawdown with itertools.accumulate | aadd57dc |
 | 185 | ai-and-programming-classes-in-gympie (gymp, #127412) | cg- regional city page | 2,817 | 1.4% vs ai-and-programming-classes-in-dubbo | Does averaging three forecasts beat picking one? | forecast combination (averaging simple forecasters, held-out years) | ae3c1216 |
-| 186 | vibe-coding-and-ai-agents-classes-in-echuca (echm, #16308E) | cg- regional city page | 2,915 | 0.9% vs online-coding-and-python-classes-in-wangaratta | Which state's calendar should the agent call? | agent tool routing by jurisdiction (NSW vs Victorian school calendar tools) | (this commit) |
+| 186 | vibe-coding-and-ai-agents-classes-in-echuca (echm, #16308E) | cg- regional city page | 2,915 | 0.9% vs online-coding-and-python-classes-in-wangaratta | Which state's calendar should the agent call? | agent tool routing by jurisdiction (NSW vs Victorian school calendar tools) | 2f38d893 |
+| 187 | best-coding-classes-in-griffith (grif, #4A508E) | cg- regional city page | 2,801 | 1.2% vs best-coding-classes-in-armidale | Why does the computer put house 10 before house 2? | natural sort order of house numbers vs lexicographic | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

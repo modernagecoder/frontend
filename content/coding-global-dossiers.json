@@ -42728,5 +42728,57 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with the NSW Department of Education, City of Ryde, Transport for NSW or the ABS."
     ]
+  },
+  "online-coding-and-python-classes-in-moreton-bay": {
+    "market": "Moreton Bay",
+    "bodyClass": "cg-mrtb",
+    "pageType": "city",
+    "curriculumAuthority": "Moreton Bay LGA, ABS Census 2021 QuickStats, area code LGA35010, with Queensland and Australia (read 10 October 2026): 476,340 people; median age 39; 132,607 families; 188,200 private dwellings; 2.6 people per household; separate house 138,771 (81.1 percent; Qld 74.8; Australia 72.3); flat or apartment 7,974 (4.7 percent; Qld 12.5; Australia 14.2); Professionals 39,202 (17.9 percent; Qld 21.4; Australia 24.0); Technicians and Trades Workers 32,335 (14.7 percent; Qld 13.7; Australia 12.9); Bachelor Degree level and above 65,353 (17.1 percent; Qld 21.9; Australia 26.3); aged 15 to 19: 30,026 (6.3 percent; Qld 6.1); aged 20 to 24: 27,256 (5.7 percent; Qld 6.3). ABS ERP Moreton Bay LGA (35010) 30 June 2025: 532,445. Queensland Department of Education future dates: 2027 Term 3 Monday 12 July to Friday 17 September; Term 4 Tuesday 5 October to Friday 10 December; holidays to Sunday 23 January 2028 (44 days). IANA tz Australia/Brisbane UTC+10, no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "__slots__ and per-object memory. Translink SEQ GTFS (data.qld.gov.au, CC BY 4.0), feed_info start 20261007, end 20261206; 2,879,577 stop_times rows in the feed. Stops inside the ABS ASGS 2021 Moreton Bay LGA polygon (lga_code_2021 35010, 7 rings, maxAllowableOffset 0.0005, even-odd test): 1,347 stops; 137,865 stop_times rows; 8,525 trips. Stops checked: Kippa-Ring, Petrie, Strathpine and Caboolture stations and Bribie Island stops inside; Bracken Ridge and Chermside stops outside. tracemalloc, Python 3.13.6, strings shared across runs, 7 fields per record: dict 38.6 MB, per-object 272 B; plain class 18.8 MB, 176 B (object plus instance dict); __slots__ 13.3 MB, 88 B; tuple 14.4 MB, 96 B; namedtuple 15.5 MB, 96 B; dataclass 18.8 MB, 176 B; dataclass(slots=True) 13.3 MB, 88 B.",
+    "requiredMentions": [
+      "476,340",
+      "132,607",
+      "188,200",
+      "532,445",
+      "137,865",
+      "38.6 megabytes",
+      "1,347 stops",
+      "2,879,577",
+      "From Redcliffe to Caboolture, one online class"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Moreton Bay LGA (LGA35010): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA35010"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA 2001 to 2025 (ABS_ANNUAL_ERP_LGA2025), Moreton Bay LGA 35010, total persons, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.35010.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "Translink General transit feed specification (GTFS), Queensland Government open data (CC BY 4.0).",
+        "url": "https://www.data.qld.gov.au/dataset/general-transit-feed-specification-gtfs-translink"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas layer, Moreton Bay boundary used for the point-in-polygon filter.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Python documentation, tracemalloc and the data model entry for __slots__.",
+        "url": "https://docs.python.org/3/reference/datamodel.html#slots"
+      },
+      {
+        "claim": "Queensland Department of Education, future term dates (2027).",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      }
+    ],
+    "rejectedClaims": [
+      "Service frequency, punctuality or patronage for Moreton Bay routes: not measured here and not shown.",
+      "Exact memory figures for other Python versions or platforms: measured only on Python 3.13.6 on Windows, and stated as such.",
+      "Stops just outside the council boundary, including northern Brisbane suburbs: excluded by the polygon filter.",
+      "Aged care and health industry figures from QuickStats: excluded by the cluster rules.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Translink, the Queensland Government, the ABS or the City of Moreton Bay."
+    ]
   }
 }
