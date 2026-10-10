@@ -443,6 +443,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in Maryborough](/ai-and-programming-classes-in-maryborough-qld)
 - [Vibe coding and AI agents classes in Burnie](/vibe-coding-and-ai-agents-classes-in-burnie)
 - [Coding classes in Alice Springs](/best-coding-classes-in-alice-springs)
+- [Vibe coding and AI agents classes in Goulburn](/vibe-coding-and-ai-agents-classes-in-goulburn)
 <!-- AU-LINKS -->
 
 

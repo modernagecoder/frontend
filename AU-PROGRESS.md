@@ -206,7 +206,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 176 | online-coding-and-python-classes-in-nelson-bay (nlb, #264690) | cg- city page | 3,208 | 2.2% vs online-coding-and-python-classes-in-ballina | What goes wrong when a CSV is loaded as plain text, and how does a Python dataclass stop it? | Python dataclasses and typed parsing versus string-versus-float bugs | b1c2aeff |
 | 177 | ai-and-programming-classes-in-maryborough-qld (mbq, #62210F) | cg- city page | 3,181 | 1.9% vs vibe-coding-and-ai-agents-classes-in-burnie | How many digits does a computer need to add up a bus route? | Floating-point precision: float16, float32 and math.fsum on route lengths | de1fa895 |
 | 178 | vibe-coding-and-ai-agents-classes-in-burnie (bur, #1C1E92) | cg- city page | 3,181 | 2.3% vs vibe-coding-and-ai-agents-classes-in-port-macquarie | Does your agent notice when its data tool has quietly cut the answer short? | Truncated tool results: the exceededTransferLimit flag, paging and server-side counts | e7cb95d8 |
-| 179 | best-coding-classes-in-alice-springs (alc, #9E3A3A) | cg- city page | 3,120 | 2.4% vs best-coding-classes-in-lismore | How often do you need to sample a curve to measure the area under it? | Trapezoidal rule integration error versus sampling interval | (this commit) |
+| 179 | best-coding-classes-in-alice-springs (alc, #9E3A3A) | cg- city page | 3,120 | 2.4% vs best-coding-classes-in-lismore | How often do you need to sample a curve to measure the area under it? | Trapezoidal rule integration error versus sampling interval | 60deee7d |
+| 182 | vibe-coding-and-ai-agents-classes-in-goulburn (gbn, #821844) | cg- city page | 3,233 | 1.4% vs vibe-coding-and-ai-agents-classes-in-port-macquarie | Should an AI agent write its whole plan before it looks at the data, or check after every step? | Plan-and-execute agent versus interleaved reason-act-observe agent | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
