@@ -42628,5 +42628,57 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with the City of Ipswich, the ABS or the Queensland Government."
     ]
+  },
+  "best-coding-classes-in-logan": {
+    "market": "Logan",
+    "bodyClass": "cg-lgan",
+    "pageType": "city",
+    "curriculumAuthority": "Logan LGA, ABS Census 2021 QuickStats, area code LGA34590, with Queensland and Australia (read 10 October 2026): 345,098 people; median age 34; 90,481 families; 125,926 private dwellings; 2.9 people per household; separate house 95,721 (85.0 percent; Qld 74.8; Australia 72.3); flat or apartment 3,075 (2.7 percent; Qld 12.5; Australia 14.2); Professionals 21,402 (14.1 percent; Qld 21.4; Australia 24.0); Technicians and Trades Workers 23,874 (15.7 percent; Qld 13.7; Australia 12.9); Bachelor Degree level and above 36,742 (13.7 percent; Qld 21.9; Australia 26.3); aged 15 to 19: 23,169 (6.7 percent; Qld 6.1); aged 20 to 24: 22,856 (6.6 percent; Qld 6.3). ABS ERP Logan LGA (34590) 30 June 2025: 403,515. Queensland Department of Education future dates: 2027 Term 1 Wednesday 27 January to Thursday 25 March (9 weeks); Term 2 Monday 12 April to Friday 25 June (11 weeks). ABS ASGS 2021 SAL: Slacks Creek at -27.642, 153.13; Daisy Hill (Qld) at -27.6236, 153.1582 and -27.6293, 153.1495. IANA tz Australia/Brisbane UTC+10, no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Terrain ruggedness index (Riley, DeGloria and Elliot 1999, Intermountain Journal of Sciences 5: TRI = square root of the sum of squared elevation differences to the 8 neighbours; classes level 0 to 80 m, nearly level 81 to 116, slightly rugged 117 to 161, intermediately rugged 162 to 239, moderately rugged 240 to 497, highly rugged 498 to 958, extremely rugged 959 to 4,367, from 1 km2 cells). SRTM 1 arc-second via OpenTopoData srtm30m, fetched 10 October 2026: 151 x 201, step 0.0003 degrees, 30,351 points, elevation -1 to 127 m, mean 30.4, 8 cells at or below 0. TRI: full grid 29,651 cells mean 4.99 m, median 4.36, p95 10.25, max 29.73 (at -27.6293, 153.1495); stride 3 (about 90 m) 3,185 cells mean 12.37; stride 9 (about 270 m) 315 cells mean 25.29, 313 level and 2 nearly level; stride 27 (about 800 m) 24 cells mean 38.56, max 115.12, 22 level and 2 nearly level. Mean absolute difference variant: correlation 0.992, mean ratio 3.419. Corners and edge midpoints in Logan LGA (ASGS 2021).",
+    "requiredMentions": [
+      "345,098",
+      "90,481",
+      "125,926",
+      "403,515",
+      "29,651",
+      "38.56 m",
+      "29.73 m",
+      "correlation 0.992",
+      "Logan homes, live online lessons"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Logan LGA (LGA34590): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA34590"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA 2001 to 2025 (ABS_ANNUAL_ERP_LGA2025), Logan LGA 34590, total persons, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.34590.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "OpenTopoData, SRTM 30 m dataset documentation (NASA Shuttle Radar Topography Mission, public domain).",
+        "url": "https://www.opentopodata.org/datasets/srtm/"
+      },
+      {
+        "claim": "Riley, DeGloria and Elliot (1999), A terrain ruggedness index that quantifies topographic heterogeneity, Intermountain Journal of Sciences 5: formula, 1 km2 cells and class breaks (scan hosted by the QGIS project).",
+        "url": "https://download.osgeo.org/qgis/doc/reference-docs/Terrain_Ruggedness_Index.pdf"
+      },
+      {
+        "claim": "ABS ASGS 2021 boundaries (LGA and Suburbs and Localities layers) used for point checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Queensland Department of Education, future term dates (2027).",
+        "url": "https://education.qld.gov.au/about-us/calendar/future-dates"
+      }
+    ],
+    "rejectedClaims": [
+      "Where the cells at or below zero metres lie: not checked against any land use source, so not described.",
+      "Flood, landslip or drainage risk for any Logan suburb: not part of the data and excluded as disaster content.",
+      "Any suburb name other than Slacks Creek and Daisy Hill: only those two were verified by point query against the ABS boundary layer.",
+      "Crime, health or socio-economic indicators for Logan: excluded by the cluster rules.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with NASA, OpenTopoData, the ABS or Logan City Council."
+    ]
   }
 }

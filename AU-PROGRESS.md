@@ -209,7 +209,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 179 | best-coding-classes-in-alice-springs (alc, #9E3A3A) | cg- city page | 3,120 | 2.4% vs best-coding-classes-in-lismore | How often do you need to sample a curve to measure the area under it? | Trapezoidal rule integration error versus sampling interval | 60deee7d |
 | 182 | vibe-coding-and-ai-agents-classes-in-goulburn (gbn, #821844) | cg- city page | 3,233 | 1.4% vs vibe-coding-and-ai-agents-classes-in-port-macquarie | Should an AI agent write its whole plan before it looks at the data, or check after every step? | Plan-and-execute agent versus interleaved reason-act-observe agent | 4a9c50ff |
 | 183 | best-coding-classes-in-armidale (armd, #8C403A) | cg- regional city page | 2,849 | 1.5% vs ai-and-programming-classes-in-grafton | How fast can you find a word in every Armidale street name? | suffix array substring search vs linear scan over street names | 2e254aeb |
-| 184 | online-coding-and-python-classes-in-whyalla (whya, #50623A) | cg- regional city page | 2,871 | 1.5% vs ai-and-programming-classes-in-traralgon | How far did Whyalla fall from its peak? | running maximum and maximum drawdown with itertools.accumulate | (this commit) |
+| 184 | online-coding-and-python-classes-in-whyalla (whya, #50623A) | cg- regional city page | 2,871 | 1.5% vs ai-and-programming-classes-in-traralgon | How far did Whyalla fall from its peak? | running maximum and maximum drawdown with itertools.accumulate | aadd57dc |
+| 185 | ai-and-programming-classes-in-gympie (gymp, #127412) | cg- regional city page | 2,817 | 1.4% vs ai-and-programming-classes-in-dubbo | Does averaging three forecasts beat picking one? | forecast combination (averaging simple forecasters, held-out years) | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
