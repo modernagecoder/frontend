@@ -43733,5 +43733,57 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with Lane Cove Council, the NSW Department of Education or the ABS."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-auburn-sydney": {
+    "market": "Auburn",
+    "bodyClass": "cg-aubn",
+    "pageType": "city",
+    "curriculumAuthority": "Auburn, ABS Census 2021 QuickStats, suburb Auburn SAL10107 (read 10 October 2026): 39,333 people; median age 31 (NSW 39, Australia 38); 8,583 families; 12,921 private dwellings; 3.3 people per household; age 0 to 4 2,523 (6.4 percent; NSW 5.8); age 20 to 24 4,606 (11.7 percent; NSW 6.1, Australia 6.2); flat or apartment 5,189 (47.3 percent; NSW 21.7, Australia 14.2); separate house 4,615 (42.0 percent; NSW 65.6, Australia 72.3); Bachelor Degree level and above 7,803 (24.0 percent). ABS ASGS 2021: 4,000 random points in SAL10107 all inside Cumberland LGA. IANA Australia/Sydney daylight saving Sunday 4 October 2026 to Sunday 4 April 2027.",
+    "localProject": "Human-in-the-loop confidence-gated escalation. NSW Spatial Services NSW_Transport_Theme railway station points inside Cumberland LGA: 11 (Granville, Auburn, Merrylands, Guildford, Regents Park, Pendle Hill, Wentworthville, Westmead, Clyde, Berala, Lidcombe). NSW Department of Education master dataset (CC BY), Date_extracted 2026-10-02: 23 Cumberland schools with Level_of_schooling Primary School or Infants School. Haversine distance, true nearest: Auburn Station Auburn Public School 522 m, Auburn North Public School 1,003 m, gap 480 m; Lidcombe Public School 360 m vs Auburn Public School 1,570 m; Clyde Granville Public School 1,174 m vs Granville East Public School 1,499 m, gap 325 m (smallest). Simulation (our calculation), Gaussian noise per axis, Python random seed 42, 2,000 lookups per station: sigma 250 m, threshold 0/100/200/400 m: escalated 0/6.0/11.8/24.4 percent, wrong 7.56/4.55/2.69/1.01 percent; Auburn Station wrong 333 (threshold 0), 422 escalated and 156 wrong (200), 823 escalated and 64 wrong (400). Sigma 100 m: wrong 0.22 percent at 0; 1.2 percent escalated, 0.03 wrong at 100; 4.5 escalated, 0.01 wrong at 200. Transport for NSW monthly entries (CC BY): August 2026 Auburn Station 379,198 (highest of the 11), Lidcombe 347,831; August 2025 Auburn 363,950; Auburn October 2024 388,451 (highest of 23 months). School first teacher dates: Auburn Public School 1886-03-01, Auburn North Public School 1891-01-01, Auburn West Public School 1934-08-01.",
+    "requiredMentions": [
+      "39,333",
+      "2,523",
+      "12,921",
+      "4,606",
+      "363,950",
+      "379,198",
+      "388,451",
+      "Auburn North Public School",
+      "7.56%"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Auburn (SAL10107).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10107"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits, monthly station usage (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Transport Theme feature service (station points).",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Transport_Theme/FeatureServer"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 boundaries (SAL and LGA), geo.abs.gov.au map services.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Method of travel to work: not used, because Census day 2021 fell in an unusual period for Sydney commuting and the page would need context we did not verify.",
+      "Secondary, single-sex and specific-purpose schools: excluded from the project; only primary and infants schools are used.",
+      "School catchments or enrolment: not claimed; nearest straight-line distance is not a catchment.",
+      "Why Auburn Station entries rose year on year: not claimed.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education, NSW Spatial Services, Transport for NSW, Cumberland Council or the ABS."
+    ]
   }
 }

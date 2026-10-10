@@ -473,6 +473,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in Penrith](/ai-and-programming-classes-in-penrith-nsw)
 - [Vibe coding and AI agents classes in Campbelltown](/vibe-coding-and-ai-agents-classes-in-campbelltown-nsw)
 - [Coding and AI classes in Georges River](/best-coding-and-ai-classes-in-georges-river-sydney)
+- [Vibe coding and AI agents classes in Liverpool](/vibe-coding-and-ai-agents-classes-in-liverpool-sydney)
 <!-- AU-LINKS -->
 
 
