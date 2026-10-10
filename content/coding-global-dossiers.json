@@ -42780,5 +42780,53 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with Translink, the Queensland Government, the ABS or the City of Moreton Bay."
     ]
+  },
+  "online-coding-and-python-classes-in-strathfield-sydney": {
+    "market": "Strathfield",
+    "bodyClass": "cg-strf",
+    "pageType": "city",
+    "curriculumAuthority": "Strathfield, ABS Census 2021 QuickStats, Strathfield local government area LGA17100 (read 10 October 2026): 45,593 people; median age 33 (NSW 39, Australia 38); 18,273 private dwellings; average 2.7 people per household (NSW 2.6); flat or apartment 9,366 (59.5 percent; NSW 21.7; Australia 14.2); separate house 5,388 (34.2 percent; NSW 65.6; Australia 72.3); Bachelor Degree level and above 17,344 (44.7 percent; NSW 27.8; Australia 26.3); age 20 to 24 4,601 (10.1 percent; NSW 6.1; Australia 6.2); Professionals 7,694 (33.8 percent). NSW Department of Education master dataset (CC BY), LGA = Strathfield: 8 schools; Date_1st_teacher Strathfield South Public School 1881-02-01, Homebush Public School 1885-02-01, Marie Bashir Public School 2014-01-28. NSW 2027 term dates, Eastern division: Term 1 Wednesday 3 February; Term 2 Thursday 29 April to Friday 2 July. IANA Australia/Sydney daylight saving Sunday 4 October 2026 to Sunday 4 April 2027.",
+    "localProject": "Percentile rank definitions with ties. Transport for NSW Train Station Entries and Exits, monthly (CC BY), 2024-10 to 2026-08, Entry rows; Station names whitespace-normalised; key Station plus Station_Type. August 2026: 375 entry rows, 16 with Trip \"Less than 50\". Strict = 100*below/n, weak = 100*(below+equal)/n, mid = 100*(below+equal/2)/n. Strathfield Station (Train) 653,253, rank 8 from top: dropped (n 359) 97.77/98.05/97.91; kept as 0, 25 or 49 (n 375) 97.87/98.13/98.00. Homebush Station 97,496, rank 87: dropped 75.77/76.04/75.91; kept 76.80/77.07/76.93. A tied \"Less than 50\" station, kept: 0.00/4.27/2.13. Strathfield rank 7 to 9 in each of 23 months among stations with numbers (342 to 364 per month); mean 601,741; min 496,401 (2025-01); max 682,906 (2024-10). Other August 2026 entries: Flemington Station 135,349; North Strathfield Station 63,099.",
+    "requiredMentions": [
+      "45,593",
+      "18,273",
+      "9,366",
+      "17,344",
+      "653,253",
+      "97,496",
+      "Strathfield South Public School",
+      "Marie Bashir Public School",
+      "63,099"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Strathfield local government area (LGA17100).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA17100"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits, monthly station usage (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Why particular stations reported \"Less than 50\" in August 2026: not known from the file, so no station in that group is named and no cause is given.",
+      "That Strathfield, Homebush, Flemington or North Strathfield stations lie inside the Strathfield council area: not verified, so stations are named without a council claim.",
+      "School types beyond primary and secondary, and single-sex school names: left out as unnecessary.",
+      "That Strathfield South Public School is in the suburb of Strathfield South: the file gives a Strathfield address, so no suburb claim is made.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Transport for NSW, the NSW Department of Education, Strathfield Council or the ABS."
+    ]
   }
 }
