@@ -21769,6 +21769,30 @@
   to = "/src/pages/best-coding-and-ai-classes-in-boroondara-melbourne.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-berwick-melbourne"
+  to = "/src/pages/ai-and-programming-classes-in-berwick-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-berwick-melbourne.md"
+  to = "/src/pages/ai-and-programming-classes-in-berwick-melbourne.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-clayton-melbourne"
+  to = "/src/pages/ai-and-programming-classes-in-clayton-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-clayton-melbourne.md"
+  to = "/src/pages/ai-and-programming-classes-in-clayton-melbourne.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

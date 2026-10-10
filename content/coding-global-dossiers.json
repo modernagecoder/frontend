@@ -45241,5 +45241,118 @@
       "Sums of Census age bands into a child total: not computed.",
       "Any affiliation with the City of Boroondara or the Victorian Department of Education."
     ]
+  },
+  "ai-and-programming-classes-in-berwick-melbourne": {
+    "market": "Berwick",
+    "bodyClass": "cg-bwck",
+    "pageType": "city",
+    "curriculumAuthority": "Berwick, ABS Census 2021 QuickStats, Berwick (Vic.) suburb SAL20224 (read 10 October 2026): 50,298 people; median age 38; 13,846 families; 17,981 private dwellings; 2.9 people per household; 2.1 motor vehicles per dwelling; separate house 89.0% (14,827; Victoria 73.4%); flat or apartment 0.3% (52; Victoria 12.1%); aged 5-9 7.5% (3,750; Victoria 6.2%); aged 10-14 7.7% (3,890; Victoria 6.0%); car as driver 54.9% (13,925; Victoria 49.9%); worked at home 25.2% (6,401, lockdown Census day). ABS SAL area 33.1956 square kilometres. Berwick station is the only metropolitan station inside the boundary. Victorian School Locations 2025: 12 open schools inside the boundary (Primary 7, Secondary 3, Pri/Sec 2; Government 9, Catholic 2, Independent 1), including Berwick Primary School and Berwick Secondary College. Victorian 2027 Term 1: students start Thursday 28 January, ends Thursday 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Ranking evaluation. 219 metropolitan stations with Pax_annual in FY18-19 (nonzero), FY23-24 and FY24-25. Target ratio FY24-25/FY18-19. True top 10: Merinda Park 1.882, Officer 1.697, Cranbourne 1.289, Stony Point 1.287, Hughesdale 1.251, Craigieburn 1.22, Mernda 1.178, Berwick 1.166, Middle Gorge 1.157, Hawkstowe 1.077. Berwick 1,008,200 vs 864,800, rank 8. Models: last year (FY23-24/FY18-19) P@10 0.8, NDCG@10 0.9898 (graded gain = true ratio), Spearman 0.86, Berwick predicted 8; distance from Flinders Street (descending) P@10 0.2, NDCG 0.6049, Spearman -0.0429, Berwick 14; weekend share FY18-19 P@10 0.1, NDCG 0.487, Spearman -0.0071, Berwick 210; random 1,000 runs seed 42 mean P@10 0.0475, NDCG 0.553. Script: scratchpad au/b7/bwck.py.",
+    "requiredMentions": [
+      "50,298",
+      "13,846",
+      "17,981",
+      "1,008,200",
+      "864,800",
+      "14,827",
+      "0.9898",
+      "Merinda Park",
+      "Berwick Secondary College",
+      "33.20 square kilometres"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Berwick (Vic.) suburb (SAL20224).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL20224"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL20224 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Reasons any station grew or shrank between FY18-19 and FY24-25 (new stations, line works, housing): not claimed.",
+      "That the last-year model would work in another year: not tested; one year only.",
+      "Names of the selective-entry, Catholic or independent schools in Berwick: not used; counted only.",
+      "A total across stations or suburbs: not computed; published parts are never summed.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the City of Casey, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
+  },
+  "ai-and-programming-classes-in-clayton-melbourne": {
+    "market": "Clayton",
+    "bodyClass": "cg-clyt",
+    "pageType": "city",
+    "curriculumAuthority": "Clayton, ABS Census 2021 QuickStats, Clayton suburb SAL20569 (read 10 October 2026): 18,988 people; median age 28; 3,390 families; 7,846 private dwellings; 2.5 people per household; 1.4 vehicles per dwelling; university 4,841 (54.4% of people attending an educational institution; Victoria 16.6%); semi-detached 42.5% (2,605); flats 21.7% (1,331); separate houses 35.4% (2,171); bachelor degree or higher 42.3% (7,363); worked at home 19.9% (1,874, lockdown Census day); aged 5-9 490; 10-14 383; 20-24 4,186 (22.0%); 25-29 3,715 (19.6%). Victoria: semi 13.9%, houses 73.4%, bachelor 29.2%, median age 38. ABS SAL area 7.821 square kilometres. Victorian School Locations 2025: 3 schools inside the boundary, including Clayton North Primary School. Clayton station inside; 89 metro bus stop entries inside. Victorian 2027 Term 1: 28 January to 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027.",
+    "localProject": "Covariate shift. Annual metropolitan train station entries FY24-25 (daily averages by day type and time band, rounded to 50; no published hour definitions for bands). 73 stations with Pax_norm_weekday >= 2000. Features: interpeak/AM, PM/AM. Target: Pax_sch_hol_weekday / Pax_norm_weekday. Linear least squares (numpy lstsq) trained on 44 stations with PM/AM < 1 (training PM/AM 0.17 to 0.93; interpeak/AM 0.28 to 1.13); weights [0.689, 0.305, -0.078]. Leave-one-out MAE in range 0.066 (median baseline 0.060); MAE on 29 out-of-range stations 0.132 (median baseline 0.088). Clayton: normal weekday 4,950, school-holiday weekday 4,050, AM 1,350, interpeak 1,300, PM 1,500; f1 0.96, f2 1.11; predicted 0.896, actual 0.818, training median 0.796. Melbourne Central predicted 1.413, actual 0.831. Huntingdale predicted 0.873, actual 0.589. Script: scratchpad au/b6/clyt.py.",
+    "requiredMentions": [
+      "18,988",
+      "3,390",
+      "7,846",
+      "4,186",
+      "3,715",
+      "7,363",
+      "1.413",
+      "0.132",
+      "Clayton North Primary School"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Clayton suburb (SAL20569).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL20569"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Department of Transport and Planning, GTFS Schedule (Creative Commons Attribution 4.0), metropolitan train and bus feeds.",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "NumPy linalg.lstsq, least-squares solution used for the linear model.",
+        "url": "https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL20569 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Naming any university or campus near Clayton station: not done; the relevant site could not be fetched (403) and the page relies on Census education figures only.",
+      "Reasons why Clayton, Huntingdale or Melbourne Central differ from the model: not claimed.",
+      "Hour definitions for AM peak, interpeak and PM peak: not given by the publisher, so none are stated.",
+      "Selective-entry school and Catholic school names: not printed.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the City of Monash, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
   }
 }
