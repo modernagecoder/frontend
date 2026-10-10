@@ -482,6 +482,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in Cherrybrook](/ai-and-programming-classes-in-cherrybrook-sydney)
 - [Coding and AI classes in Macquarie Park](/best-coding-and-ai-classes-in-macquarie-park-sydney)
 - [Vibe coding and AI agents classes in Lane Cove](/vibe-coding-and-ai-agents-classes-in-lane-cove-sydney)
+- [Online coding and Python classes in Mosman](/online-coding-and-python-classes-in-mosman-sydney)
 <!-- AU-LINKS -->
 
 
