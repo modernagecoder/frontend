@@ -46034,5 +46034,65 @@
       "Sums of Census age bands into a child total: not computed.",
       "Any affiliation with the City of Kingston or the Victorian Department of Education."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-glen-eira-melbourne": {
+    "market": "Glen Eira",
+    "bodyClass": "cg-glne",
+    "pageType": "city",
+    "curriculumAuthority": "City of Glen Eira, ABS Census 2021 QuickStats, Glen Eira LGA22310 (read 11 October 2026): 148,908 people; median age 38; 39,585 families; 66,162 private dwellings; 2.5 people per household; bachelor degree or higher 46.4% (56,949; Victoria 29.2%); professionals 36.1% (28,781; Victoria 25.0%); flats 28.3% (16,397; Victoria 12.1%); separate houses 47.5% (27,526); train to work 3.2% (2,571; Victoria 1.6%); worked at home 39.7% (31,611, lockdown Census day); aged 5-9 8,943; aged 10-14 9,365. ABS area 38.6908 sq km. Victorian School Locations 2025: 34 schools with LGA_Name Glen Eira (C), including Bentleigh Secondary College, McKinnon Secondary College and Glen Eira College. Stations inside the LGA boundary by our point-in-polygon check: Murrumbeena, Carnegie, Patterson, Bentleigh, McKinnon, Ormond, Glenhuntly, Caulfield, Elsternwick; Caulfield FY24-25 entries 3,205,100. Victorian 2027 Term 1 starts Thursday 28 January, ends Thursday 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Agent dry run before a bulk write. GTFS Schedule metropolitan bus feed, stops with location_type empty or 0 inside the LGA22310 boundary: 516 stops, 387 distinct names; 129 names shared by exactly two stops; a \"merge same-name stops\" write would delete 129 stops (25.0%). Pair separation (equirectangular metres): median 19.3, min 6.0 (Kambrook Rd/Glen Eira Rd), max 142.8 (McLaurin Rd/Murrumbeena Rd). From stop_times joined to trips (route_id, direction_id): 114 pairs share a route with disjoint directions (opposite sides), 12 share a route and direction, 3 share no route. No claim on which same-direction pairs are true duplicates. Scripts: scratchpad au/b9/glne.py and stopidx.py.",
+    "requiredMentions": [
+      "28,781",
+      "39,585",
+      "56,949",
+      "9,365",
+      "516 stops",
+      "142.8 metres",
+      "Kambrook Rd/Glen Eira Rd",
+      "McKinnon Secondary College",
+      "Bentleigh Secondary College"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Glen Eira local government area (LGA22310).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA22310"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) LGA boundary LGA22310, geo.abs.gov.au map service, used for our point-in-boundary checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Planning, GTFS Schedule (Creative Commons Attribution 4.0), metropolitan bus feed: stops, trips and stop times.",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "GTFS Schedule reference: stops.txt, trips.txt direction_id and stop_times.txt.",
+        "url": "https://gtfs.org/documentation/schedule/reference/"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That any of the 12 same-direction pairs are genuine duplicates: not claimed; they are flagged for a person to review.",
+      "That the GTFS feed contains errors: not claimed; the page is about an over-broad instruction, not the data.",
+      "Any change to real transport records: none made; the merge was only simulated as a dry run.",
+      "Special school names, sector breakdowns, enrolments and results: not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Glen Eira City Council, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
   }
 }
