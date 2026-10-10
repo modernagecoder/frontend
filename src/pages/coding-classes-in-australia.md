@@ -478,6 +478,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in North Sydney](/ai-and-programming-classes-in-north-sydney-sydney)
 - [Coding and AI classes in Willoughby](/best-coding-and-ai-classes-in-willoughby-sydney)
 - [Vibe coding and AI agents classes in Epping](/vibe-coding-and-ai-agents-classes-in-epping-sydney)
+- [Online coding and Python classes in Castle Hill](/online-coding-and-python-classes-in-castle-hill-sydney)
 <!-- AU-LINKS -->
 
 
