@@ -476,6 +476,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agents classes in Liverpool](/vibe-coding-and-ai-agents-classes-in-liverpool-sydney)
 - [Online coding and Python classes in the Sutherland Shire](/online-coding-and-python-classes-in-sutherland-shire-sydney)
 - [AI and programming classes in North Sydney](/ai-and-programming-classes-in-north-sydney-sydney)
+- [Coding and AI classes in Willoughby](/best-coding-and-ai-classes-in-willoughby-sydney)
 <!-- AU-LINKS -->
 
 
