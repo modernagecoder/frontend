@@ -21517,6 +21517,66 @@
   to = "/src/pages/vibe-coding-and-ai-agents-classes-in-randwick-sydney.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-schofields-sydney"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-schofields-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-schofields-sydney.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-schofields-sydney.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-waverley-sydney"
+  to = "/src/pages/online-coding-and-python-classes-in-waverley-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-waverley-sydney.md"
+  to = "/src/pages/online-coding-and-python-classes-in-waverley-sydney.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-rhodes-sydney"
+  to = "/src/pages/ai-and-programming-classes-in-rhodes-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-rhodes-sydney.md"
+  to = "/src/pages/ai-and-programming-classes-in-rhodes-sydney.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-marrickville-sydney"
+  to = "/src/pages/ai-and-programming-classes-in-marrickville-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-marrickville-sydney.md"
+  to = "/src/pages/ai-and-programming-classes-in-marrickville-sydney.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-oran-park-sydney"
+  to = "/src/pages/online-coding-and-python-classes-in-oran-park-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-oran-park-sydney.md"
+  to = "/src/pages/online-coding-and-python-classes-in-oran-park-sydney.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

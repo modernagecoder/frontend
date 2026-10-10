@@ -44086,5 +44086,261 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with Randwick City Council, Transport for NSW, UNSW, the NSW Department of Education or the ABS."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-schofields-sydney": {
+    "market": "Schofields",
+    "bodyClass": "cg-schf",
+    "pageType": "city",
+    "curriculumAuthority": "Schofields, ABS Census 2021 QuickStats, Schofields (NSW) suburb and locality SAL13517 (read 10 October 2026): 15,213 people; median age 32; 4,222 families; 4,991 private dwellings; average 3.2 people per household; aged 0 to 4 10.9% (1,656); aged 5 to 9 10.2% (1,554); separate houses 83.1% (3,820), flats 10.6% (488), townhouses 5.9% (269); couple families with children 64.7% (2,733); bachelor degree or higher 47.1% (5,150); professionals 34.1% (2,636). ABS ASGS 2021 SAL area 8.8765 square kilometres. NSW Department of Education master dataset: Schofields Public School (first teacher 1919) and Galungara Public School (2021), both Blacktown council. NSW Department of Education 2027 Eastern division: Term 2 students Thursday 29 April 2027; development days 27 and 28 April.",
+    "localProject": "Anti-join to expose rows an inner join hides. Transport for NSW monthly station usage (Opal batch data, CC BY), October 2024 to August 2026. SQLite: 382 named stations x 23 months = 8,786 entry pairs; 8,586 entry rows present; anti-join returns 200 missing pairs at 27 stations (146 train, 54 light rail): Hurlstone Park 19, Punchbowl 19, Wiley Park 18, Marrickville 17, Dulwich Hill 17. 368 entry rows \"Less than 50\". 338 stations with all 23 numeric months; 44 without (26 train, 18 light rail), 14 with none. Schofields Station: 23 of 23 numeric, average 95,128 (ours), lowest 63,988 (January 2025), highest 117,374 (March 2026), 54th of 282 and of 270 train stations.",
+    "requiredMentions": [
+      "15,213",
+      "4,222",
+      "4,991",
+      "8,786",
+      "338 of 382",
+      "Galungara Public School",
+      "117,374",
+      "63,988",
+      "95,128"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Schofields (NSW) suburb and locality (SAL13517): people, median age, families, dwellings, dwelling structure, family composition, education, occupation, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL13517"
+      },
+      {
+        "claim": "Transport for NSW, Train, Metro and Light Rail Station Monthly Usage, Opal batch data (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations (Creative Commons Attribution); names, suburbs, councils and first-teacher dates only.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "SQLite documentation, the LEFT JOIN operator.",
+        "url": "https://www.sqlite.org/lang_select.html"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Why particular stations have missing or suppressed months: not stated in the file, so no cause is given.",
+      "Any claim that the agent shown is a commercial product: it is our own script.",
+      "Journey to work and working at home figures from the 2021 Census: excluded because the Census was taken during a lockdown period.",
+      "Income, rent, mortgage, tenure, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Enrolment, ICSEA, Indigenous, LBOTE and selective columns of the school dataset: excluded by the cluster rules.",
+      "Any affiliation with Transport for NSW, the NSW Department of Education, Blacktown City Council or the ABS."
+    ]
+  },
+  "online-coding-and-python-classes-in-waverley-sydney": {
+    "market": "Waverley",
+    "bodyClass": "cg-wvly",
+    "pageType": "city",
+    "curriculumAuthority": "Waverley, ABS Census 2021 QuickStats, Waverley local government area LGA18050 (read 10 October 2026): 68,605 people; median age 35; 16,776 families; 32,775 private dwellings; 2.3 people per household; flats or apartments 64.1% (17,590); separate houses 16.0%; aged 30-34 12.6% (8,654); aged 25-29 10.9%; bachelor degree or higher 52.0% (30,052); professionals 41.8% (15,962); worked at home 55.1% (21,049, lockdown Census day); drove to work 19.9% (7,615). Transport for NSW station usage file, Bondi Junction Station Entry rows, October 2024 to August 2026: August 2026 533,333; August 2025 500,540; September 2025 544,205; eleven year-on-year pairs October 2025 to August 2026. NSW government schools file (Date_extracted 2026-10-02): Waverley Public School 1879, Bondi Public School 1883, Bondi Beach Public School 1923, Bronte Public School 1927, Rose Bay Secondary College 1982 (Dover Heights). NSW 2027 Eastern division Term 1: 3 February to 9 April. Sydney daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Negative indexing and slicing for year-on-year comparison on Bondi Junction monthly entries (23 months). e[-1] August 2026 533,333; e[-13] August 2025 500,540, change +6.6%; off-by-one e[-12] September 2025 544,205, change -2.0%. e[-24:-12] returns 11 values, not 12. Eleven year-on-year pairs: 7 up, 4 down; range -4.5% (April) to +6.6% (August). No annual totals computed. Script: scratchpad au/b4/wvly.py.",
+    "requiredMentions": [
+      "68,605",
+      "16,776",
+      "32,775",
+      "17,590",
+      "30,052",
+      "15,962",
+      "21,049",
+      "533,333",
+      "500,540",
+      "Bronte Public School"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Waverley local government area (LGA18050).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA18050"
+      },
+      {
+        "claim": "Transport for NSW, Train, Metro and Light Rail Station Monthly Usage from November 2024, based on Opal batch data (Creative Commons Attribution), file updated 15 September 2026.",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution), Date_extracted 2026-10-02.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "Python tutorial: lists, negative indices and slicing.",
+        "url": "https://docs.python.org/3/tutorial/introduction.html#lists"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates (Eastern division).",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Annual totals of station entries: not computed; monthly figures are compared one pair at a time.",
+      "Why Bondi Junction entries rose or fell in any month: not explained; no cause was checked.",
+      "Passenger numbers including untapped trips: not available; the file counts tap-on entries only.",
+      "Names of schools for specific purposes: not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Waverley Council, Transport for NSW, the NSW Department of Education or the ABS."
+    ]
+  },
+  "ai-and-programming-classes-in-rhodes-sydney": {
+    "market": "Rhodes",
+    "bodyClass": "cg-rhds",
+    "pageType": "city",
+    "curriculumAuthority": "Rhodes, ABS Census 2021 QuickStats, suburb Rhodes SAL13372 (read 10 October 2026): 11,453 people; median age 32 (NSW 39); 3,314 families; 5,871 private dwellings; 2.2 people per household; age 0 to 4 807 (7.0 percent; NSW 5.8); age 10 to 14 190 (1.7 percent; NSW 6.2); age 30 to 34 2,352 (20.5 percent; NSW 7.3); flat or apartment 4,765 (95.1 percent; NSW 21.7); separate house 161 (3.2 percent; NSW 65.6); Bachelor Degree level and above 6,241 (62.0 percent; NSW 27.8, Australia 26.3); Professionals 2,890 (43.8 percent; NSW 25.8). ABS ASGS 2021: 4,000 random points in SAL13372 all inside Canada Bay LGA. NSW Department of Education master dataset (Date_extracted 2026-10-02): no school with Town_suburb Rhodes; 12 schools with LGA Canada Bay. IANA Australia/Sydney daylight saving Sunday 4 October 2026 to Sunday 4 April 2027.",
+    "localProject": "Transfer learning. Transport for NSW monthly entries (CC BY), 2024-10 to 2026-08; 338 stations with a numeric Entry value in all 23 months. Model on log entries: level = mean over the target's last k months before March 2026 of (log value minus month effect); month effect learned from the other 337 stations over 2024-10 to 2026-02 (deviation from each station's mean). Alone = mean of the target's last k months. Test March to August 2026, mean absolute percentage error (our calculation). Rhodes Station: k=1 12.81 vs 10.96; k=2 17.72 vs 11.56; k=3 16.60 vs 11.03; k=6 8.96 vs 8.65; k=12 7.10 vs 6.97; k=17 9.38 vs 8.88; seasonal naive (same month 2025) 5.25. All 338 stations: k=3 transfer better at 295, median 14.78 vs 10.11; k=12 better at 269, median 9.42 vs 9.05, seasonal naive median 8.69. Rhodes Station entries: 2025-01 178,854 (lowest), 2025-12 207,329, 2026-01 187,947, 2026-02 211,025, 2026-03 259,845 (highest), 2026-08 237,289.",
+    "requiredMentions": [
+      "237,289",
+      "3,314",
+      "5,871",
+      "2,352",
+      "2,890",
+      "259,845",
+      "178,854",
+      "16.60%",
+      "14.78%"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Rhodes (SAL13372).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL13372"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits, monthly station usage (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 boundaries (SAL and LGA), geo.abs.gov.au map services.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Why Rhodes Station is busiest in March or quietest in January: not claimed; the file has counts only.",
+      "Non-government schools in Rhodes: not checked, so the page claims only that no government school has a Rhodes address.",
+      "Worked at home and travel to work: not used, because Census day 2021 needs context we did not verify.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Transport for NSW, the NSW Department of Education, the City of Canada Bay or the ABS."
+    ]
+  },
+  "ai-and-programming-classes-in-marrickville-sydney": {
+    "market": "Marrickville",
+    "bodyClass": "cg-mkvl",
+    "pageType": "city",
+    "curriculumAuthority": "Marrickville, ABS Census 2021 QuickStats, suburb SAL12514 (read 10 October 2026): 26,570 people; median age 37; 6,678 families; 12,127 private dwellings; 2.3 people per household; flats or apartments 47.2% (5,020); separate houses 32.0% (3,404); bachelor degree or higher 43.1% (9,917); professionals 39.7% (5,749); aged 30-34 11.6%; worked at home 50.1% (7,257, lockdown Census day); train 3.8%; drove to work 22.1%. Neighbour suburbs from QuickStats (SAL): Dulwich Hill 14,046 people, median age 38, 2.2 per household, flats 57.0%, houses 28.8%, degree 44.7%, professionals 39.5%, home 51.7%, drove 23.1%; Petersham median 36, 2.2, flats 47.2%, houses 22.5%, degree 48.0%, professionals 43.0%, home 54.6%, drove 18.8%; also Earlwood, Enmore, Newtown, St Peters, Stanmore, Sydenham, Tempe, Wolli Creek. NSW government schools file (Date_extracted 2026-10-02): Marrickville Public School 1864, Marrickville West Public School 1886, Ferncourt Public School 1922, Wilkins Public School 1982, Marrickville High School 1979. NSW 2027 Eastern division Term 1: 3 February to 9 April. Sydney daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Leave-one-feature-out explanation of a nearest-neighbour match. Eight QuickStats measures for Marrickville and ten nearby suburbs, z-scored across the 11; Euclidean distance. Ranking: Dulwich Hill 0.83, Petersham 1.66, St Peters 2.08, Stanmore 2.10, Enmore 2.45, Sydenham 3.32, Newtown 3.44, Tempe 3.47, Wolli Creek 4.04, Earlwood 5.03. Removing each measure in turn: Dulwich Hill first and Petersham second in all 8; distance to Dulwich Hill 0.69 (people per household removed) to 0.83 (professionals removed). Unscaled, the flats gap supplies about 85% of the squared distance (96.04 of 113.45). Scripts: scratchpad au/b4/mkvl_nn.py, mkvl2.py.",
+    "requiredMentions": [
+      "26,570",
+      "6,678",
+      "12,127",
+      "5,020",
+      "3,404",
+      "9,917",
+      "5,749",
+      "7,257",
+      "Marrickville West Public School"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Marrickville (suburb) (SAL12514).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL12514"
+      },
+      {
+        "claim": "ABS Census 2021 QuickStats for nearby suburbs (SAL), for example Dulwich Hill (SAL11306).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL11306"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution), Date_extracted 2026-10-02.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "Transport for NSW, Train, Metro and Light Rail Station Monthly Usage from November 2024, based on Opal batch data (Creative Commons Attribution), file updated 15 September 2026.",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates (Eastern division).",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That Dulwich Hill is the most similar suburb in any wider sense: not claimed; similarity is on eight chosen Census measures only.",
+      "Any reason why the Marrickville station has so few usage figures for these months: not stated; only the absence of data is noted.",
+      "A cyclical (sine and cosine) month model of Marrickville station entries: dropped because the data is too sparse.",
+      "Any total formed by adding suburbs together: not computed.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Inner West Council, Transport for NSW, the NSW Department of Education or the ABS."
+    ]
+  },
+  "online-coding-and-python-classes-in-oran-park-sydney": {
+    "market": "Oran Park",
+    "bodyClass": "cg-orpk",
+    "pageType": "city",
+    "curriculumAuthority": "Oran Park, ABS Census 2021 QuickStats, Oran Park (NSW) suburb and locality SAL13102 (read 10 October 2026): 17,624 people; median age 30; 4,741 families; 5,612 private dwellings; average 3.3 people per household; age bands (count, per cent): 0 to 4 2,198 12.5; 30 to 34 2,151 12.2; 35 to 39 2,022 11.5; 50 to 54 647 3.7; 85 and over 71 0.4; separate houses 86.9% (4,485), townhouses 11.7% (603), flats 1.1% (57); couple families with children 60.5% (2,866). ABS ASGS 2021 SAL area 13.2477 square kilometres. NSW Department of Education master dataset: Oran Park Public School (2014), Oran Park High School (2020), Barramurra Public School (2021), Camden council. NSW 2027 Eastern division: winter holidays Monday 5 July to Friday 16 July; Term 3 Tuesday 20 July to Friday 24 September.",
+    "localProject": "Python format specification mini-language on Oran Park's 18 Census age bands: share = count / 17,624 printed with {:.1%} matches the published one-decimal share in all 18 bands (ours); {:%} prints 12.471630% for 0 to 4; {:,} 2,198; {:_} 2_198; {:>6} right-aligns labels; round(2.5) = 2, round(3.5) = 4; round(0.125, 2) = 0.12. Bars: share x 200 hashes, 0 to 4 gets 25, 85 and over 1.",
+    "requiredMentions": [
+      "17,624",
+      "4,741",
+      "2,866",
+      "12.471630%",
+      "Barramurra Public School",
+      "Oran Park High School",
+      "2,198",
+      "13.2 square kilometres",
+      "4,485"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Oran Park (NSW) suburb and locality (SAL13102): people, median age, families, dwellings, age bands, dwelling structure, family composition.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL13102"
+      },
+      {
+        "claim": "Python documentation, Format Specification Mini-Language.",
+        "url": "https://docs.python.org/3/library/string.html#format-specification-mini-language"
+      },
+      {
+        "claim": "Python documentation, built-in round(): values are rounded to the closest multiple, ties to even.",
+        "url": "https://docs.python.org/3/library/functions.html#round"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations (Creative Commons Attribution); names, suburbs, councils and first-teacher dates only.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) suburbs and localities: Oran Park area.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      }
+    ],
+    "rejectedClaims": [
+      "A total built by adding the 18 published age band counts: never printed, because the bureau perturbs small cells and published parts need not reach the published total.",
+      "That Oran Park is the youngest suburb in Sydney: not checked against every suburb, so the page says one of the youngest.",
+      "Journey to work and working at home figures from the 2021 Census: excluded because the Census was taken during a lockdown period.",
+      "Income, rent, mortgage, tenure, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Enrolment, ICSEA, Indigenous, LBOTE and selective columns of the school dataset: excluded by the cluster rules.",
+      "Any affiliation with the ABS, Camden Council or the NSW Department of Education."
+    ]
   }
 }
