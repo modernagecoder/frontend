@@ -43785,5 +43785,101 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with the NSW Department of Education, NSW Spatial Services, Transport for NSW, Cumberland Council or the ABS."
     ]
+  },
+  "online-coding-and-python-classes-in-mosman-sydney": {
+    "market": "Mosman",
+    "bodyClass": "cg-msmn",
+    "pageType": "city",
+    "curriculumAuthority": "Mosman, ABS Census 2021 QuickStats, Mosman local government area LGA15350 (read 10 October 2026): 28,329 people; median age 45; 7,723 families; 13,399 private dwellings; average 2.3 people per household; flats or apartments 52.0% (6,001); separate houses 34.9% (4,028); bachelor degree or higher 54.5% (12,938); professionals 41.6% (5,881); worked at home 58.8% (8,321, lockdown Census day); drove to work 19.8%; age bands 0-4 1,220, 5-9 1,522, 10-14 1,871, 15-19 1,619, 85 and over 916 (3.2%). NSW government schools file (Date_extracted 2026-10-02): Mosman Public School (1880), Middle Harbour Public School (1916), Beauty Point Public School (1951), Mosman High School (1961). NSW 2027 Eastern division Term 1: 3 February to 9 April. Sydney daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Half-open intervals vs inclusive Census age bands. Bands stored as Python ranges [lo, lo+5) plus 85 and over; query of inclusive ages first..last as [first, last+1). 12 questions: under 5, 5 to 9, 10 to 14, 5 to 14, 12 to 17, 13 to 19, 15 to 19, 18 to 24, 65 and over, 85 and over, 6 to 12, 20 to 29. Correct classifier: 5 single band, 3 several bands (not summed), 4 not answerable. Without the +1: 1 single, 1 several, 10 not answerable; disagrees on 6 of 12. Script: scratchpad au/b4/msmn2.py.",
+    "requiredMentions": [
+      "28,329",
+      "7,723",
+      "6,001",
+      "4,028",
+      "12,938",
+      "5,881",
+      "8,321",
+      "1,871",
+      "Middle Harbour Public School"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Mosman local government area (LGA15350).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA15350"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution), Date_extracted 2026-10-02.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "Python documentation, built-in types: range (start included, stop excluded).",
+        "url": "https://docs.python.org/3/library/stdtypes.html#range"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates (Eastern division).",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "A count of residents aged 5 to 14 formed by adding two bands: not computed, because perturbed cells do not add to official figures.",
+      "Single-year ages for Mosman: not used; QuickStats publishes five-year bands only.",
+      "That Beauty Point or Balmoral figures differ from the council total: not compared; only council-area figures are used.",
+      "That the bus was the main way Mosman residents travelled to work: not claimed; only the published shares are quoted.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Mosman Council, the NSW Department of Education or the ABS."
+    ]
+  },
+  "online-coding-and-python-classes-in-homebush-sydney": {
+    "market": "Homebush",
+    "bodyClass": "cg-hmbs",
+    "pageType": "city",
+    "curriculumAuthority": "Homebush, ABS Census 2021 QuickStats, suburb Homebush SAL11936 (read 10 October 2026): 11,660 people; median age 31 (NSW 39, Australia 38); 3,049 families; 5,217 private dwellings; 2.5 people per household; age 10 to 14 397 (3.4 percent; NSW 6.2, Australia 6.2); age 25 to 29 1,957 (16.8 percent; NSW 6.9, Australia 7.0); flat or apartment 3,595 (81.7 percent; NSW 21.7); separate house 539 (12.3 percent; NSW 65.6); Bachelor Degree level and above 5,131 (51.6 percent; NSW 27.8, Australia 26.3); Professionals 2,224 (34.8 percent; NSW 25.8, Australia 24.0). ABS ASGS 2021: 4,000 random points in SAL11936, 99.38 percent Strathfield LGA, 0.62 percent Canada Bay LGA. IANA Australia/Sydney daylight saving Sunday 4 October 2026 to Sunday 4 April 2027.",
+    "localProject": "Calendar month arithmetic vs fixed 30-day timedelta. Transport for NSW monthly entries (CC BY), Homebush Station, 2024-10 to 2026-08 (23 months): 2024-10 94,155; 2024-11 95,699; 2025-01 79,387 (lowest); 2025-05 90,479; 2025-08 90,912; 2025-11 93,308; 2026-03 101,807 (highest, only month above 100,000); 2026-05 97,300; 2026-07 95,452; 2026-08 97,496. Python loop date(2024,10,1) + timedelta(days=30*k), k = 0 to 22: intended month only at k = 0; 22 distinct months; 2024-10 read twice; 2026-08 never read; k = 22 lands on 2026-07-23. Correct year on year (our calculation): August +7.24 percent, May +7.54 percent, November 2025 -2.50 percent. date(2024,3,1) - timedelta(days=365) = 2023-03-02. ABS QuickStats: average children per family, for families with children, 1.5.",
+    "requiredMentions": [
+      "11,660",
+      "3,049",
+      "5,217",
+      "1,957",
+      "3,595",
+      "94,155",
+      "95,452",
+      "101,807",
+      "79,387"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Homebush (SAL11936).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL11936"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits, monthly station usage (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 boundaries (SAL and LGA), geo.abs.gov.au map services.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Python documentation, datetime module (timedelta and date arithmetic).",
+        "url": "https://docs.python.org/3/library/datetime.html"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Reasons for monthly changes in Homebush Station entries: not claimed.",
+      "Homebush schools: not used; the Strathfield council page already carries Homebush Public School, and the only Homebush secondary school listed is single-sex.",
+      "Homebush West, Homebush Bay and Sydney Olympic Park facts: not used; they are separate places.",
+      "Worked at home and travel to work: not used, because Census day 2021 needs context we did not verify.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Transport for NSW, Strathfield Council or the ABS."
+    ]
   }
 }
