@@ -21733,6 +21733,42 @@
   to = "/src/pages/vibe-coding-and-ai-agents-classes-in-camberwell-melbourne.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-craigieburn-melbourne"
+  to = "/src/pages/online-coding-and-python-classes-in-craigieburn-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-craigieburn-melbourne.md"
+  to = "/src/pages/online-coding-and-python-classes-in-craigieburn-melbourne.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-balwyn-melbourne"
+  to = "/src/pages/online-coding-and-python-classes-in-balwyn-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-balwyn-melbourne.md"
+  to = "/src/pages/online-coding-and-python-classes-in-balwyn-melbourne.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-boroondara-melbourne"
+  to = "/src/pages/best-coding-and-ai-classes-in-boroondara-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-boroondara-melbourne.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-boroondara-melbourne.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

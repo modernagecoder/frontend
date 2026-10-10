@@ -500,6 +500,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agents classes in Schofields](/vibe-coding-and-ai-agents-classes-in-schofields-sydney)
 - [Online coding and Python classes in Oran Park](/online-coding-and-python-classes-in-oran-park-sydney)
 - [AI and programming classes in Camden](/ai-and-programming-classes-in-camden-sydney)
+- [Coding and AI classes in Baulkham Hills](/best-coding-and-ai-classes-in-baulkham-hills-sydney)
 <!-- AU-LINKS -->
 
 

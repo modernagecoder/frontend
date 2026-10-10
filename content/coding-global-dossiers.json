@@ -45068,5 +45068,178 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with the City of Boroondara, the Victorian Department of Education or the Department of Transport and Planning."
     ]
+  },
+  "online-coding-and-python-classes-in-craigieburn-melbourne": {
+    "market": "Craigieburn",
+    "bodyClass": "cg-crgb",
+    "pageType": "city",
+    "curriculumAuthority": "Craigieburn, ABS Census 2021 QuickStats, Craigieburn suburb SAL20661 (read 10 October 2026): 65,178 people; median age 32; 16,781 families; 20,732 private dwellings; 3.3 people per household; 2 vehicles per dwelling; separate houses 89.2% (16,907); flats 1.2% (222); drove to work 60.4% (16,864); train 2.1% (598); worked at home 16.7% (4,660, lockdown Census day); aged 5-9 6,067 (9.3%); 10-14 4,993; 15-19 4,053. Victoria: houses 73.4%, flats 12.1%, drove 49.9%, train 1.6%, median age 38. ABS SAL area 35.4498 square kilometres. Victorian School Locations 2025: 13 schools inside the boundary, including Aitken Creek Primary School, Willmott Park Primary School and Mount Ridley P-12 College. GTFS Schedule: Craigieburn line 20 stations (Craigieburn to Flinders Street); 201 metro bus stop entries inside the boundary; Craigieburn station inside. Victorian 2027 Term 1: 28 January to 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027.",
+    "localProject": "pandas merge indicator. Annual metropolitan train station entries FY18-19 (222 rows) and FY24-25 (222 rows), rounded to 50. pandas 3.0.0 outer merge indicator=True. On Stop_name: both 219, left_only 3 (Mckinnon, Mont Albert, Surrey Hills), right_only 3 (East Pakenham, McKinnon, Union). On lowercased name: 220/2/2. On Stop_ID: 220/2/2 (left_only 19895 Surrey Hills, 19896 Mont Albert; right_only 49343 Union, 49458 East Pakenham). Inner merge on name: 219 rows. validate=\"one_to_one\" passes. Craigieburn 1,236,250 -> 1,508,250 (122.0%); 19 of 219 name-matched stations above FY18-19 level; Craigieburn 6th by ratio (Merinda Park 188.2%, Officer 169.7%, Cranbourne 128.9%, Stony Point 128.7%, Hughesdale 125.1%). Script: scratchpad au/b6/crgb.py.",
+    "requiredMentions": [
+      "65,178",
+      "16,781",
+      "20,732",
+      "16,907",
+      "16,864",
+      "1,236,250",
+      "1,508,250",
+      "Aitken Creek Primary School",
+      "Mount Ridley P-12 College"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Craigieburn suburb (SAL20661).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL20661"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Department of Transport and Planning, GTFS Schedule (Creative Commons Attribution 4.0), metropolitan train and bus feeds.",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "pandas DataFrame.merge: how, indicator (_merge values left_only, right_only, both) and validate.",
+        "url": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL20661 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Why Surrey Hills and Mont Albert are absent from FY24-25 or why Union and East Pakenham appear: not claimed; the files record counts only.",
+      "Reasons for the rise at Craigieburn station: not claimed.",
+      "Special school and Catholic school names: not printed.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "A network total of entries: not computed; published parts are never summed.",
+      "Any affiliation with Hume City Council, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
+  },
+  "online-coding-and-python-classes-in-balwyn-melbourne": {
+    "market": "Balwyn",
+    "bodyClass": "cg-balw",
+    "pageType": "city",
+    "curriculumAuthority": "Balwyn, ABS Census 2021 QuickStats, Balwyn suburb SAL20123 (read 10 October 2026): 13,495 people; median age 43; 3,766 families; 5,923 private dwellings; 2.6 people per household; aged 10-14 7.2% (979; Victoria 6.0%); aged 15-19 7.0% (945; Victoria 5.6%); bachelor degree or higher 48.5% (5,490; Victoria 29.2%); professionals 38.4% (2,385; Victoria 25.0%); semi-detached, row or terrace house, townhouse 26.0% (1,320; Victoria 13.9%); train to work 1.2% (74); car as driver 38.8% (2,409; Victoria 49.9%); worked at home 38.0% (2,358, lockdown Census day). ABS SAL area 4.3843 square kilometres. No metropolitan station inside the boundary. Victorian School Locations 2025: 4 open schools inside the boundary (Primary 1, Pri/Sec 1, Special 2; Government 2, Independent 2), named only Balwyn Primary School. Victorian 2027: students start Thursday 28 January; Term 4 Monday 4 October to Friday 17 December. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Python logging pipeline over Victorian School Locations 2025: loaded 2,301 rows; School_Status O 2,297 (4 C dropped); LGA Boroondara (C) 57; Address_Town == \"Balwyn\" 2; WARNING same town spelled 2 ways (Balwyn 2, BALWYN 2); case-insensitive 4; inside ABS SAL20123 polygon 4, identical set. Substring \"balwyn\" in Address_Town: 10 (Balwyn 2, BALWYN 2, Balwyn North 5, BALWYN NORTH 1). 730 of 2,297 open schools have an all-caps Address_Town. Script: scratchpad au/b7/balw.py.",
+    "requiredMentions": [
+      "13,495",
+      "3,766",
+      "5,923",
+      "5,490",
+      "2,358",
+      "2,301",
+      "2,297",
+      "Balwyn Primary School",
+      "4.38 square kilometres",
+      "Address_Town"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Balwyn suburb (SAL20123).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL20123"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL20123 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Python documentation, logging module (standard library levels DEBUG, INFO, WARNING, ERROR, CRITICAL).",
+        "url": "https://docs.python.org/3/library/logging.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Why some school records use capitals for the town: not claimed.",
+      "Names of the specialist and single-sex schools inside Balwyn: not used; counted only.",
+      "Balwyn North schools or Census figures: not counted for Balwyn; separate suburb.",
+      "A combined Balwyn and Balwyn North total: not computed; published parts are never summed.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the City of Boroondara or the Victorian Department of Education."
+    ]
+  },
+  "best-coding-and-ai-classes-in-boroondara-melbourne": {
+    "market": "Boroondara",
+    "bodyClass": "cg-boro",
+    "pageType": "city",
+    "curriculumAuthority": "City of Boroondara, ABS Census 2021 QuickStats, LGA21110 (read 10 October 2026): 167,900 people; median age 40; 44,611 families; 72,817 private dwellings; 2.5 people per household; 1.7 vehicles per dwelling; aged 0-4 6,653 (4.0%); 5-9 8,964 (5.3%); 10-14 11,314 (6.7%); bachelor or higher 73,669 (52.3%, Victoria 29.2%); professionals 35,030 (40.3%, Victoria 25.0%); worked at home 36,499 (42.0%, lockdown Census day); separate houses 34,771 (55.4%, Victoria 73.4%); flats 15,162 (24.2%, Victoria 12.1%). ABS LGA area 60.18 square kilometres. Victorian School Locations 2025: 27 government schools in Boroondara (C): 20 primary, 6 secondary, 1 special. Victorian 2027 Term 1: 28 January to 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027.",
+    "localProject": "pandas pivot_table with margins on DTP annual metropolitan station entries FY18-19 to FY24-25, stations inside the ABS LGA21110 polygon by point-in-polygon on the file coordinates. 15 station names, 7 years, 99 filled cells of 105 (Surrey Hills FY18-19 to FY22-23 only; Union FY22-23 to FY24-25 only). Sum margins: FY18-19 9,092,350; FY20-21 2,887,000; FY24-25 6,525,800; all-years 41,057,950; Surrey Hills all-years 1,956,750; Union 1,156,750; Glenferrie FY24-25 1,978,650 (30.3% of FY24-25 margin), FY18-19 2,729,100, FY20-21 749,450; Camberwell 1,969,600 / 641,150 / 1,260,400; Auburn 744,050 / 278,650 / 650,000; Hawthorn 709,100 / 243,600 / 531,400; Willison 102,600 / 32,400 / 73,100. FY24-25 over FY18-19 margin 0.718; 13 stations present both years 0.709. Mean margins: grand mean 414,727; mean of station means 413,171. Script: scratchpad au/b8/boro.py.",
+    "requiredMentions": [
+      "167,900",
+      "44,611",
+      "72,817",
+      "73,669",
+      "35,030",
+      "15,162",
+      "9,092,350",
+      "6,525,800",
+      "1,956,750"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Boroondara local government area (LGA21110).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA21110"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council polygons and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "pandas documentation, pandas.pivot_table (index, columns, values, aggfunc, margins, margins_name).",
+        "url": "https://pandas.pydata.org/docs/reference/api/pandas.pivot_table.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reason for the fall in entries after FY18-19 or for Surrey Hills and Union appearing and disappearing: not claimed.",
+      "A council-wide passenger total: our margins are sums of rounded station estimates, labelled as our calculation, not a published figure.",
+      "Catholic or independent school counts and any sector breakdown: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Sums of Census age bands into a child total: not computed.",
+      "Any affiliation with the City of Boroondara or the Victorian Department of Education."
+    ]
   }
 }
