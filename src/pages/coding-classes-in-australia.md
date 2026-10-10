@@ -441,6 +441,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Ballina](/online-coding-and-python-classes-in-ballina)
 - [Online coding and Python classes in Nelson Bay](/online-coding-and-python-classes-in-nelson-bay)
 - [AI and programming classes in Maryborough](/ai-and-programming-classes-in-maryborough-qld)
+- [Vibe coding and AI agents classes in Burnie](/vibe-coding-and-ai-agents-classes-in-burnie)
 <!-- AU-LINKS -->
 
 

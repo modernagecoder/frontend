@@ -41920,5 +41920,53 @@
       "Income, rent, ancestry, religion, health and Indigenous status figures: excluded by the cluster rules.",
       "Any affiliation with the Victorian or NSW governments, the Department of Transport and Planning or Campaspe Shire Council."
     ]
+  },
+  "best-coding-and-ai-classes-in-parramatta-sydney": {
+    "market": "Parramatta",
+    "bodyClass": "cg-prmt",
+    "pageType": "city",
+    "curriculumAuthority": "Parramatta, ABS Census 2021 QuickStats, Parramatta local government area LGA16260 (read 10 October 2026): 256,729 people; median age 35 (New South Wales 39, Australia 38); 69,127 families; 106,562 private dwellings; average 2.6 people per household; dwelling structure, occupied private dwellings: separate house 35,872 (38.9 percent; NSW 65.6; Australia 72.3), flat or apartment 43,561 (47.3 percent; NSW 21.7; Australia 14.2); occupation: Professionals 43,035 (35.0 percent; NSW 25.8; Australia 24.0); education, people aged 15 and over: Bachelor Degree level and above 92,832 (44.2 percent; NSW 27.8; Australia 26.3); age 20 to 24 16,999 (6.6 percent); age 10 to 14 13,966 (5.4 percent). NSW Department of Education 2027 term dates, Eastern division: Term 1 Wednesday 3 February to Friday 9 April; Term 4 Tuesday 12 October to Monday 20 December. IANA tz Australia/Sydney: daylight saving from Sunday 4 October 2026 to Sunday 4 April 2027. Transport for NSW monthly station usage (entry_exit.csv, CC BY): Parramatta Station, Train, Entry, August 2026, 1,058,394.",
+    "localProject": "Central limit theorem. NSW Department of Education master dataset (data.nsw.gov.au, CC BY), Date_extracted 2026-10-02, rows with LGA = Parramatta: 49 (Primary 33, Secondary 10, SSP 5, Other 1). Year of Date_1st_teacher: mean 1952.94, SD 37.97 (population), median 1958, skewness -0.531, min 1852 (Parramatta North Public School), max 2025 (Wentworth Point High School); 24 of 49 between 1950 and 1974. Simulation, seed 2026, 20,000 samples with replacement per size: SD of means 38.08, 19.02, 12.65, 9.52, 7.61 for n = 1, 4, 9, 16, 25 (theory 37.97, 18.99, 12.66, 9.49, 7.59); skewness -0.538, -0.249, -0.215, -0.147, -0.110; within one SD 71.4, 68.7, 68.4, 68.2, 68.4 percent; within two SD 95.7, 95.3, 95.6, 95.3, 95.5 percent.",
+    "requiredMentions": [
+      "256,729",
+      "69,127",
+      "106,562",
+      "43,561",
+      "92,832",
+      "Parramatta North Public School",
+      "Wentworth Point High School",
+      "1,058,394",
+      "1952.94"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Parramatta local government area (LGA16260): people, median age, families, private dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA16260"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits: monthly station usage from Opal data (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Why so many Parramatta schools opened between 1950 and 1974: not verified, so no reason is given.",
+      "Any statement about school quality, size, results or enrolment: excluded; the project uses dates only.",
+      "Enrolment, ICSEA, Indigenous and LBOTE columns of the master dataset: excluded by the cluster rules.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Suburb lists for the council area: not printed, because each suburb's boundary was not verified against the LGA.",
+      "Any affiliation with the NSW Department of Education, City of Parramatta, Transport for NSW or the ABS."
+    ]
   }
 }
