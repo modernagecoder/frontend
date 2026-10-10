@@ -45750,5 +45750,61 @@
       "Sums of Census age bands into a child total: not computed.",
       "Any affiliation with Brimbank City Council or the Victorian Department of Education."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-knox-melbourne": {
+    "market": "Knox",
+    "bodyClass": "cg-knox",
+    "pageType": "city",
+    "curriculumAuthority": "Knox City Council, ABS Census 2021 QuickStats, LGA23670 (read 10 October 2026): 159,103 people; median age 40; 45,145 families; 61,956 private dwellings; 2.7 people per household; 2 vehicles per dwelling; aged 0-4 8,428 (5.3%); 5-9 9,408 (5.9%); bachelor or higher 36,895 (28.0%, Victoria 29.2%); professionals 19,146 (23.5%, Victoria 25.0%); worked at home 20,582 (25.2%, lockdown Census day); separate houses 47,854 (83.3%, Victoria 73.4%); flats 1,531 (2.7%, Victoria 12.1%). ABS LGA area 113.91 square kilometres. Victorian School Locations 2025: 33 government schools in Knox (C): 26 primary, 5 secondary, 1 Pri/Sec, 1 special. DTP FY24-25 metro stations inside the polygon: Boronia 462,850; Bayswater 446,150; Ferntree Gully 337,700; Upper Ferntree Gully 180,450. 2027 Term 1: 28 January to 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027.",
+    "localProject": "string.Template prompt sentences for the 33 Knox government schools (Victorian School Locations 2025). Slots: name, kind (lookup covers Primary, Secondary, Pri/Sec; the 1 special school deliberately missing), town (title case), nearest of 222 FY24-25 metro stations by haversine from school X/Y, distance. substitute: 1 KeyError; safe_substitute: 1 sentence leaving the placeholder; format_map with defaultdict(lambda: None): 1 sentence with None. Nearest station counts: Ferntree Gully 11, Boronia 8, Bayswater 5, Heathmont 4, Upper Ferntree Gully 3, Glen Waverley 1, Yarraman 1 (6 schools nearest a station outside Knox). Straight-line distances 0.6 to 6.9 km. Example: Scoresby Primary School, Glen Waverley 6.0 km. Script: scratchpad au/b8/knox.py.",
+    "requiredMentions": [
+      "159,103",
+      "45,145",
+      "61,956",
+      "9,408",
+      "47,854",
+      "36,895",
+      "462,850",
+      "Scoresby Primary School",
+      "113.9"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Knox local government area (LGA23670).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA23670"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council polygons and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Python documentation, string.Template: substitute raises KeyError for missing placeholders; safe_substitute leaves them in place.",
+        "url": "https://docs.python.org/3/library/string.html#template-strings-pep292"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Year levels taught by each school: not claimed; the template uses only the school type in the file.",
+      "Travel times or walking distances to stations: not claimed; distances are straight-line.",
+      "Naming the specific-purpose school: counted only.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Sums of Census age bands into a child total: not computed.",
+      "Any affiliation with Knox City Council or the Victorian Department of Education."
+    ]
   }
 }

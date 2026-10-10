@@ -21877,6 +21877,18 @@
   to = "/src/pages/best-coding-and-ai-classes-in-brimbank-melbourne.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-knox-melbourne"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-knox-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-knox-melbourne.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-knox-melbourne.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

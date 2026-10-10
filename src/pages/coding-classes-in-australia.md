@@ -510,6 +510,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in Point Cook](/ai-and-programming-classes-in-point-cook-melbourne)
 - [Coding and AI classes in Werribee](/best-coding-and-ai-classes-in-werribee-melbourne)
 - [Vibe coding and AI agents classes in Tarneit](/vibe-coding-and-ai-agents-classes-in-tarneit-melbourne)
+- [Online coding and Python classes in Craigieburn](/online-coding-and-python-classes-in-craigieburn-melbourne)
 <!-- AU-LINKS -->
 
 
