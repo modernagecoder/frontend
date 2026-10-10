@@ -213,7 +213,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 185 | ai-and-programming-classes-in-gympie (gymp, #127412) | cg- regional city page | 2,817 | 1.4% vs ai-and-programming-classes-in-dubbo | Does averaging three forecasts beat picking one? | forecast combination (averaging simple forecasters, held-out years) | ae3c1216 |
 | 186 | vibe-coding-and-ai-agents-classes-in-echuca (echm, #16308E) | cg- regional city page | 2,915 | 0.9% vs online-coding-and-python-classes-in-wangaratta | Which state's calendar should the agent call? | agent tool routing by jurisdiction (NSW vs Victorian school calendar tools) | 2f38d893 |
 | 187 | best-coding-classes-in-griffith (grif, #4A508E) | cg- regional city page | 2,801 | 1.2% vs best-coding-classes-in-armidale | Why does the computer put house 10 before house 2? | natural sort order of house numbers vs lexicographic | c9c7627c |
-| 188 | online-coding-and-python-classes-in-wangaratta (wgta, #123066) | cg- regional city page | 2,775 | 1.3% vs ai-and-programming-classes-in-gympie | Can one match statement sort every Wangaratta bus stop? | Python structural pattern matching (match/case) on GTFS stop names vs if/elif | (this commit) |
+| 188 | online-coding-and-python-classes-in-wangaratta (wgta, #123066) | cg- regional city page | 2,775 | 1.3% vs ai-and-programming-classes-in-gympie | Can one match statement sort every Wangaratta bus stop? | Python structural pattern matching (match/case) on GTFS stop names vs if/elif | 7e652ef0 |
+| 189 | ai-and-programming-classes-in-grafton (grft, #342076) | cg- regional city page | 2,787 | 1.5% vs best-coding-classes-in-armidale | Can two banks of the Clarence train one model without sharing data? | federated averaging with non-IID clients | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
