@@ -44394,5 +44394,57 @@
       "Income, rent, mortgage, tenure, ancestry, birthplace, language, religion and one-parent family figures: excluded by the cluster rules.",
       "Any affiliation with the ABS, Camden Council or the NSW Department of Education."
     ]
+  },
+  "best-coding-and-ai-classes-in-baulkham-hills-sydney": {
+    "market": "Baulkham Hills",
+    "bodyClass": "cg-bkhl",
+    "pageType": "city",
+    "curriculumAuthority": "Baulkham Hills, ABS Census 2021 QuickStats, Baulkham Hills (NSW) suburb and locality SAL10233 (read 10 October 2026): 37,415 people; median age 39; 10,574 families; 13,155 private dwellings; average 3 people per household; bachelor degree or higher 41.2% (12,081); professionals 34.4% (6,204); aged 5 to 9 8.3% (3,110); aged 10 to 14 7.4%; couple families with children 58.2% (6,158); separate houses 75.4% (9,256); flats 11.3%. ABS ASGS 2021 SAL area 13.6507 square kilometres. NSW Department of Education master dataset, suburb Baulkham Hills, The Hills Shire: Baulkham Hills North Public School and Jasper Road Public School (1967), Baulkham Hills High School (1971), Crestwood Public School (1972), Model Farms High School (1975), Crestwood High School (1981), Matthew Pearce Public School (1982). NSW 2027 Eastern division: spring holidays Monday 27 September to Friday 8 October; Term 4 Tuesday 12 October to Monday 20 December.",
+    "localProject": "argparse command-line tool on the NSW school locations file for Baulkham Hills (ours): 6 of 7 suburb values end in a space, exact match finds 1, stripped match 7; type=bool makes --secondary False return the 3 high schools instead of the 4 primary schools; BooleanOptionalAction --no-secondary returns 4; --since 975 as text matches 0, as int 7; --since 1970 returns 5 either way.",
+    "requiredMentions": [
+      "37,415",
+      "10,574",
+      "13,155",
+      "Model Farms High School",
+      "Matthew Pearce Public School",
+      "Jasper Road Public School",
+      "13.65 square kilometres",
+      "BooleanOptionalAction",
+      "12,081"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Baulkham Hills (NSW) suburb and locality (SAL10233): people, median age, families, dwellings, qualifications, occupation, age, family and dwelling structure.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10233"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations (Creative Commons Attribution); names, suburbs, councils and first-teacher dates only.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "Python documentation, argparse: type, choices and BooleanOptionalAction.",
+        "url": "https://docs.python.org/3/library/argparse.html"
+      },
+      {
+        "claim": "Python documentation, truth value testing: non-empty strings are true.",
+        "url": "https://docs.python.org/3/library/stdtypes.html#truth-value-testing"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) suburbs and localities: Baulkham Hills area.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      }
+    ],
+    "rejectedClaims": [
+      "Any description of a Baulkham Hills school as selective, or any enrolment, ICSEA, Indigenous or LBOTE figure: excluded by the cluster rules.",
+      "Journey to work and working at home figures from the 2021 Census: excluded because the Census was taken during a lockdown period.",
+      "Income, rent, mortgage, tenure, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "A reason why the suburb values carry trailing spaces: not known, so not given.",
+      "Any total built by adding published Census parts.",
+      "Any affiliation with the ABS, The Hills Shire Council or the NSW Department of Education."
+    ]
   }
 }

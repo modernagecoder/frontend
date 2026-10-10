@@ -21589,6 +21589,18 @@
   to = "/src/pages/ai-and-programming-classes-in-camden-sydney.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-baulkham-hills-sydney"
+  to = "/src/pages/best-coding-and-ai-classes-in-baulkham-hills-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-baulkham-hills-sydney.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-baulkham-hills-sydney.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
