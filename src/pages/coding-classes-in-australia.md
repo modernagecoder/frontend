@@ -513,6 +513,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Craigieburn](/online-coding-and-python-classes-in-craigieburn-melbourne)
 - [AI and programming classes in Clayton](/ai-and-programming-classes-in-clayton-melbourne)
 - [Coding and AI classes in Dandenong](/best-coding-and-ai-classes-in-dandenong-melbourne)
+- [Vibe coding and AI agents classes in Camberwell](/vibe-coding-and-ai-agents-classes-in-camberwell-melbourne)
 <!-- AU-LINKS -->
 
 

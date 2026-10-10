@@ -45978,5 +45978,61 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with Bayside City Council, the Victorian Department of Education or the Department of Transport and Planning."
     ]
+  },
+  "ai-and-programming-classes-in-kingston-melbourne": {
+    "market": "Kingston",
+    "bodyClass": "cg-kgsv",
+    "pageType": "city",
+    "curriculumAuthority": "City of Kingston (Vic.), ABS Census 2021 QuickStats, LGA23430 (read 10 October 2026): 158,129 people; median age 41; 43,676 families; 67,560 private dwellings; 2.5 people per household; 1.8 vehicles per dwelling; aged 0-4 8,611 (5.4%); 5-9 9,279 (5.9%); bachelor or higher 40,750 (31.1%, Victoria 29.2%); professionals 21,568 (26.5%, Victoria 25.0%); worked at home 24,383 (30.0%, lockdown Census day); separate houses 35,855 (58.8%, Victoria 73.4%); flats 9,155 (15.0%, Victoria 12.1%). ABS LGA area 91.37 square kilometres. Victorian School Locations 2025: 30 government schools in Kingston (C): 23 primary, 5 secondary, 2 special. DTP FY24-25 metro stations inside the polygon (12): Carrum, Bonbeach, Chelsea, Edithvale, Aspendale, Mordialloc, Parkdale, Mentone, Cheltenham 717,500 (largest), Westall, Moorabbin, Southland. 2027 Term 1: 28 January to 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027.",
+    "localProject": "Imbalanced classification on DTP FY24-25 station entries. 197 stations with normal weekday entries >= 500; label Saturday-busy = Pax_Saturday >= 0.8 x Pax_norm_weekday (15 positive). Features: shares of weekday entries in 5 time bands, standardised. NumPy logistic regression (gradient descent, L2 0.01), leave-one-out. Baseline always-no 92.4%. Plain: accuracy 93.4%, TP 2 (Richmond, Jolimont), FP 0, recall 2/15. Balanced weights (n/(2 x class count), about 6.6 and 0.54): accuracy 75.6%, TP 9, FP 42, FN 6, recall 9/15, precision 9/51. Kingston (11 modelled, Bonbeach under 500): Southland 0.34 -> 0.95 (positive), Mordialloc 0.06 -> 0.44 and Carrum 0.04 -> 0.31 (positives missed), Moorabbin 0.64 and Edithvale 0.63 false alarms. Script: scratchpad au/b8/kgsv.py.",
+    "requiredMentions": [
+      "158,129",
+      "43,676",
+      "67,560",
+      "9,279",
+      "40,750",
+      "9,155",
+      "717,500",
+      "Southland",
+      "Edithvale"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Kingston local government area (LGA23430).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA23430"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council polygons and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "scikit-learn documentation, LogisticRegression: class_weight \"balanced\" uses n_samples / (n_classes * np.bincount(y)).",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Why Southland is busy on Saturdays: not claimed; the page reports the pattern only.",
+      "That either model is good: not claimed; the page says weekday time shares are a weak signal.",
+      "Confusion with Kingston in other states or countries: the page names the Victorian council.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Sums of Census age bands into a child total: not computed.",
+      "Any affiliation with the City of Kingston or the Victorian Department of Education."
+    ]
   }
 }
