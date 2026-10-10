@@ -21001,6 +21001,30 @@
   to = "/src/pages/best-coding-and-ai-classes-in-parramatta-sydney.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-broken-hill"
+  to = "/src/pages/online-coding-and-python-classes-in-broken-hill.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-broken-hill.md"
+  to = "/src/pages/online-coding-and-python-classes-in-broken-hill.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-classes-in-armidale"
+  to = "/src/pages/best-coding-classes-in-armidale.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-classes-in-armidale.md"
+  to = "/src/pages/best-coding-classes-in-armidale.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

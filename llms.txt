@@ -1471,6 +1471,8 @@ USD 100 a month small group, USD 150 a month one to one.
 - Horsham, Victoria: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-horsham-victoria
 - Echuca, Victoria: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-echuca
 - Parramatta, Sydney: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-parramatta-sydney
+- Broken Hill, New South Wales: https://learn.modernagecoders.com/online-coding-and-python-classes-in-broken-hill
+- Armidale, New South Wales: https://learn.modernagecoders.com/best-coding-classes-in-armidale
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).

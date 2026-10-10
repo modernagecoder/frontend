@@ -41968,5 +41968,105 @@
       "Suburb lists for the council area: not printed, because each suburb's boundary was not verified against the LGA.",
       "Any affiliation with the NSW Department of Education, City of Parramatta, Transport for NSW or the ABS."
     ]
+  },
+  "online-coding-and-python-classes-in-broken-hill": {
+    "market": "Broken Hill",
+    "bodyClass": "cg-brkh",
+    "pageType": "city",
+    "curriculumAuthority": "Broken Hill Significant Urban Area, ABS Census 2021 QuickStats, area code 1007, with New South Wales and Australia (read 10 October 2026): 17,588 people; median age 44; 4,505 families; 9,551 private dwellings; 2.2 people per household; separate house 6,910 (94.6 percent; NSW 65.6; Australia 72.3); flat or apartment 186 (2.5 percent); Professionals 1,181 (16.5 percent; NSW 25.8; Australia 24.0); Technicians and Trades Workers 1,115 (15.5 percent; NSW 11.9; Australia 12.9); Bachelor Degree level and above 1,522 (10.4 percent; NSW 27.8; Australia 26.3); aged 15 to 19: 971 (5.5 percent); aged 20 to 24: 896 (5.1 percent). ABS ERP Broken Hill LGA (11250) 30 June 2025: 17,515. NSW public schools master dataset (data.nsw, extracted 2 October 2026): 9 schools with LGA Broken Hill. NSW Department of Education term dates 2027: Term 1 Eastern Thursday 28 January, Western Thursday 4 February, to Friday 9 April; Term 2 Tuesday 27 April to Friday 2 July; Term 3 Monday 19 July to Friday 24 September; Term 4 Monday 11 October to Monday 20 December. IANA tz australasia (2026e): Australia/Broken_Hill LMT 9:25:48 to 1895 Feb; 10:00 to 1896 Aug 23; 9:00 to 1899 May; 9:30 Aus rules to 1971; 9:30 AN (NSW) rules to 2000; 9:30 AS (SA) rules since. Asia/Kolkata UTC+5:30.",
+    "localProject": "Big-endian binary parsing with struct.unpack. Python tzdata package 2025.3 (IANA 2025c), file zoneinfo/Australia/Broken_Hill, read 10 October 2026: 941 bytes; magic TZif, version 2; legacy v1 block 51 bytes (counts 0,0,0,0,1,1); v2 header counts big-endian isutcnt 0, isstdcnt 0, leapcnt 0, timecnt 85, typecnt 5, charcnt 19; read little-endian 1,426,063,360, 83,886,080 and 318,767,104. First transition int64 big-endian -2,364,110,748 (1895-01-31 14:34 UTC), little-endian 7,244,064,688,097,460,223. Types: LMT 33,948 s; AEST 36,000; ACST 32,400; ACDT 37,800 (DST); ACST 34,200. First type offset read little-endian -1,669,070,848. Footer ACST-9:30ACDT,M10.1.0,M4.1.0/3. Australia/Adelaide 921 bytes, 84 transitions; Australia/Sydney 904 bytes, 83 transitions, footer AEST-10AEDT,M10.1.0,M4.1.0/3. Since 2000: 17 stored transitions each; Broken Hill equals Adelaide at all 17 instants and Sydney at 0. 1971 to 1999: Broken Hill transition years differing from Adelaide 1982, 1990, 1992, 1994, 1995.",
+    "requiredMentions": [
+      "17,588",
+      "17,515",
+      "94.6%",
+      "941 bytes",
+      "1,426,063,360",
+      "33,948 seconds",
+      "-2,364,110,748",
+      "85 moments",
+      "From the far west, the same live class"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Broken Hill Significant Urban Area (1007): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1007"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA 2001 to 2025 (ABS_ANNUAL_ERP_LGA2025), Broken Hill LGA 11250, total persons, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.11250.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "IANA time zone database, australasia source file: Australia/Broken_Hill zone lines and rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      },
+      {
+        "claim": "RFC 9636, the TZif format: header layout and big-endian integer fields.",
+        "url": "https://www.rfc-editor.org/rfc/rfc9636.html"
+      },
+      {
+        "claim": "NSW Department of Education, future and past NSW term dates and school holidays (2027 dates).",
+        "url": "https://education.nsw.gov.au/schooling/calendars/future-and-past-nsw-term-dates-and-school-holidays"
+      },
+      {
+        "claim": "NSW public schools master dataset (Data.NSW), schools by local government area.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      }
+    ],
+    "rejectedClaims": [
+      "Mining output, employment or company figures for Broken Hill: not part of the verified Census, ERP or time zone sources used here.",
+      "Which NSW term division Broken Hill schools follow: the department page lists Eastern and Western dates without naming schools, so families are told to check.",
+      "Any nickname for the city: none was verified in an official source used for this page.",
+      "Industry of employment figures from QuickStats: the leading local industries were left out to avoid health and mining figures.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with IANA, the ABS or the NSW Government."
+    ]
+  },
+  "best-coding-classes-in-armidale": {
+    "market": "Armidale",
+    "bodyClass": "cg-armd",
+    "pageType": "city",
+    "curriculumAuthority": "Armidale, ABS Census 2021 QuickStats, Significant Urban Area 1002 (read 10 October 2026): 23,967 people; median age 36; 5,594 families; 10,409 private dwellings; average 2.3 people per household; aged 15 to 19 2,028 (8.5 percent; NSW 5.7; Australia 5.7); aged 20 to 24 2,111 (8.8 percent; NSW 6.1; Australia 6.2); bachelor degree level and above 5,650 (28.7 percent; NSW 27.8; Australia 26.3); Professionals 2,781 (26.8 percent; NSW 25.8; Australia 24.0); separate house 7,185 (81.8 percent; NSW 65.6; Australia 72.3). ABS ASGS 2021 SUA area 274.5996 square kilometres. ABS SAL 2021 polygons at least 80 percent inside (our overlay): Armidale only. NSW Department of Education future and past term dates (read 10 October 2026): 2027 Term 2 Tuesday 27 April to Friday 2 July; Term 3 Monday 19 July to Friday 24 September; Term 4 Monday 11 October to Monday 20 December; Term 1 differs by division. IANA tzdb australasia: Australia/Sydney rule AN, daylight saving 4 October 2026 to 4 April 2027.",
+    "localProject": "Suffix array substring search vs linear scan. NSW Spatial Services, NSW_Geocoded_Addressing_Theme MapServer layer 1 (AddressPoint), (c) Spatial Services, queried 10 October 2026 by envelope 151.5592, -30.5867, 151.7756, -30.4172: 14,056 points; 13,766 inside the ABS Armidale SUA polygon; 13,744 with address ending ARMIDALE. House-number tokens removed: 512 distinct street names. Our code (scratchpad au/r7/arm_sa.py): text = names joined by newline, 7,406 characters, suffix array of 7,406 suffixes; query = two binary searches (comparisons counted); scan = sum over names of (len(name) - len(query) + 1) positions. Results (names found, SA comparisons, scan positions): VIEW 5, 20, 5,358; PARK 5, 24, 5,358; HILL 8, 25, 5,358; CREEK 0, 26, 4,846; AVENUE 79, 25, 4,334; ROAD 118, 24, 5,358; STREET 107, 23, 4,334; COURT 12, 26, 4,846; PLACE 39, 23, 4,846; CLOSE 34, 26, 4,846; DRIVE 37, 25, 4,846; MOUNT 1; RIDGE 2; DALE 3; WOOD 7. Last-word counts ROAD 117, STREET 107, AVENUE 79, PLACE 39, DRIVE 36, CLOSE 34, CRESCENT 33, LANE 32, COURT 12, PARADE 4. Substring extras: ROAD in TANGLEWOOD ROAD SOUTH; DRIVE in ARUNDEL DRIVE NORTH; HILL in PHILLIP STREET.",
+    "requiredMentions": [
+      "23,967",
+      "5,594",
+      "10,409",
+      "2,111",
+      "7,406",
+      "suffix array",
+      "Phillip Street",
+      "Tanglewood Road South",
+      "5,358"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Armidale Significant Urban Area (1002): people, median age, families, dwellings, age, qualifications, occupation, dwelling structure.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1002"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Geocoded Addressing Theme, AddressPoint layer (street names, counts only).",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Geocoded_Addressing_Theme/MapServer/1"
+      },
+      {
+        "claim": "NSW Department of Education, future and past NSW term and vacation dates (2027).",
+        "url": "https://education.nsw.gov.au/schooling/calendars/future-and-past-nsw-term-and-vacation-dates"
+      },
+      {
+        "claim": "ABS ASGS 2021 Significant Urban Area and Suburbs and Localities boundaries.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SUA/MapServer/0"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney and rule AN.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any individual address or house number: only street names and counts are printed.",
+      "Timing claims in seconds: the page compares counted operations, which do not depend on the computer used.",
+      "NSW Term 1 2027 dates: they differ between Eastern and Western division schools.",
+      "Any figure for university enrolments or a named institution: the page uses Census age and qualification shares only.",
+      "Income, rent, ancestry, religion, health and Indigenous status figures: excluded by the cluster rules.",
+      "Any affiliation with NSW Spatial Services, the ABS or Armidale Regional Council."
+    ]
   }
 }
