@@ -21025,6 +21025,150 @@
   to = "/src/pages/best-coding-classes-in-armidale.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-blacktown-sydney"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-blacktown-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-blacktown-sydney.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-blacktown-sydney.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-classes-in-griffith"
+  to = "/src/pages/best-coding-classes-in-griffith.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-classes-in-griffith.md"
+  to = "/src/pages/best-coding-classes-in-griffith.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-karratha"
+  to = "/src/pages/ai-and-programming-classes-in-karratha.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-karratha.md"
+  to = "/src/pages/ai-and-programming-classes-in-karratha.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-wangaratta"
+  to = "/src/pages/online-coding-and-python-classes-in-wangaratta.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-wangaratta.md"
+  to = "/src/pages/online-coding-and-python-classes-in-wangaratta.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-hornsby-sydney"
+  to = "/src/pages/online-coding-and-python-classes-in-hornsby-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-hornsby-sydney.md"
+  to = "/src/pages/online-coding-and-python-classes-in-hornsby-sydney.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-classes-in-mount-isa"
+  to = "/src/pages/best-coding-classes-in-mount-isa.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-classes-in-mount-isa.md"
+  to = "/src/pages/best-coding-classes-in-mount-isa.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-grafton"
+  to = "/src/pages/ai-and-programming-classes-in-grafton.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-grafton.md"
+  to = "/src/pages/ai-and-programming-classes-in-grafton.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-ku-ring-gai-sydney"
+  to = "/src/pages/ai-and-programming-classes-in-ku-ring-gai-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-ku-ring-gai-sydney.md"
+  to = "/src/pages/ai-and-programming-classes-in-ku-ring-gai-sydney.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-queanbeyan"
+  to = "/src/pages/online-coding-and-python-classes-in-queanbeyan.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-queanbeyan.md"
+  to = "/src/pages/online-coding-and-python-classes-in-queanbeyan.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-mandurah"
+  to = "/src/pages/ai-and-programming-classes-in-mandurah.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-mandurah.md"
+  to = "/src/pages/ai-and-programming-classes-in-mandurah.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-the-hills-shire-sydney"
+  to = "/src/pages/best-coding-and-ai-classes-in-the-hills-shire-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-the-hills-shire-sydney.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-the-hills-shire-sydney.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-ipswich-qld"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-ipswich-qld.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-ipswich-qld.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-ipswich-qld.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

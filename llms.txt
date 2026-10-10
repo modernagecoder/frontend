@@ -1473,6 +1473,18 @@ USD 100 a month small group, USD 150 a month one to one.
 - Parramatta, Sydney: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-parramatta-sydney
 - Broken Hill, New South Wales: https://learn.modernagecoders.com/online-coding-and-python-classes-in-broken-hill
 - Armidale, New South Wales: https://learn.modernagecoders.com/best-coding-classes-in-armidale
+- Blacktown, Sydney: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-blacktown-sydney
+- Griffith, New South Wales: https://learn.modernagecoders.com/best-coding-classes-in-griffith
+- Karratha, Western Australia: https://learn.modernagecoders.com/ai-and-programming-classes-in-karratha
+- Wangaratta, Victoria: https://learn.modernagecoders.com/online-coding-and-python-classes-in-wangaratta
+- Hornsby, Sydney: https://learn.modernagecoders.com/online-coding-and-python-classes-in-hornsby-sydney
+- Mount Isa, Queensland: https://learn.modernagecoders.com/best-coding-classes-in-mount-isa
+- Grafton, New South Wales: https://learn.modernagecoders.com/ai-and-programming-classes-in-grafton
+- Ku-ring-gai, Sydney: https://learn.modernagecoders.com/ai-and-programming-classes-in-ku-ring-gai-sydney
+- Queanbeyan, New South Wales: https://learn.modernagecoders.com/online-coding-and-python-classes-in-queanbeyan
+- Mandurah, Western Australia: https://learn.modernagecoders.com/ai-and-programming-classes-in-mandurah
+- The Hills Shire, Sydney: https://learn.modernagecoders.com/best-coding-and-ai-classes-in-the-hills-shire-sydney
+- Ipswich, Queensland: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-ipswich-qld
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).

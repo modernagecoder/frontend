@@ -444,6 +444,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agents classes in Burnie](/vibe-coding-and-ai-agents-classes-in-burnie)
 - [Coding classes in Alice Springs](/best-coding-classes-in-alice-springs)
 - [Vibe coding and AI agents classes in Goulburn](/vibe-coding-and-ai-agents-classes-in-goulburn)
+- [Coding classes in Armidale](/best-coding-classes-in-armidale)
 <!-- AU-LINKS -->
 
 

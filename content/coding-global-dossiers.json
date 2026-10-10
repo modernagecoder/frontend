@@ -42068,5 +42068,565 @@
       "Income, rent, ancestry, religion, health and Indigenous status figures: excluded by the cluster rules.",
       "Any affiliation with NSW Spatial Services, the ABS or Armidale Regional Council."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-blacktown-sydney": {
+    "market": "Blacktown",
+    "bodyClass": "cg-bktn",
+    "pageType": "city",
+    "curriculumAuthority": "Blacktown, ABS Census 2021 QuickStats, Blacktown local government area LGA10750 (read 10 October 2026): 396,776 people; median age 34 (NSW 39, Australia 38); 104,171 families; 133,887 private dwellings; average 3.1 people per household; separate house 98,390 (81.1 percent; NSW 65.6; Australia 72.3); flat or apartment 8,158 (6.7 percent; NSW 21.7; Australia 14.2); Professionals 41,583 (23.8 percent; NSW 25.8); Bachelor Degree level and above 89,682 (29.2 percent; NSW 27.8; Australia 26.3); age 5 to 9 31,388 (7.9 percent); age 10 to 14 28,829 (7.3 percent; NSW 6.2). NSW Department of Education 2027 term dates, Eastern division: Term 1 Wednesday 3 February to Friday 9 April; Term 2 Thursday 29 April to Friday 2 July. IANA tz Australia/Sydney daylight saving Sunday 4 October 2026 to Sunday 4 April 2027. Transport for NSW monthly station usage (CC BY): Blacktown Station, Train, Entry, August 2026, 371,550, twentieth of the entry rows.",
+    "localProject": "Inclusion-exclusion in an agent that adds tool counts. NSW Department of Education master dataset (CC BY), Date_extracted 2026-10-02, LGA = Blacktown: 87 schools (Primary 60, Secondary 19, SSP 8). A: Date_1st_teacher before 1950, 12; B: Preschool_ind = Y, 13; C: haversine distance at most 5,000 m from Blacktown South Public School (-33.780193, 150.905175), 29. A and B 3; A and C 3; B and C 5; A, B and C 2. Sum 54; union 45; sum minus pairs 43; inclusion-exclusion 54 - 11 + 2 = 45. Earliest first teachers: Colyton Public School 1861-09-01, Eastern Creek Public School 1866-10-01, Vineyard Public School 1872-06-01.",
+    "requiredMentions": [
+      "396,776",
+      "104,171",
+      "133,887",
+      "98,390",
+      "89,682",
+      "Colyton Public School",
+      "Blacktown South Public School",
+      "371,550",
+      "12 + 13 + 29 - 3 - 3 - 5 + 2 = 45"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Blacktown local government area (LGA10750).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA10750"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits, monthly station usage (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Partially selective status of two high schools: in the file but not used, to keep the page off school selection.",
+      "Support class and specialty columns of the master dataset: excluded, as they concern individual students.",
+      "Why some schools run preschools: not verified, so no reason is given.",
+      "Suburb lists for the Blacktown council area: not printed, because suburb boundaries were not checked against the LGA.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education, Blacktown City Council, Transport for NSW or the ABS."
+    ]
+  },
+  "best-coding-classes-in-griffith": {
+    "market": "Griffith",
+    "bodyClass": "cg-grif",
+    "pageType": "city",
+    "curriculumAuthority": "Griffith, ABS Census 2021 QuickStats, Significant Urban Area 1016 (read 10 October 2026): 20,569 people; median age 37; 5,279 families; 8,272 private dwellings; average 2.6 people per household; worked full-time 6,731 (63.2 percent; NSW 55.2; Australia 55.9); Labourers 2,155 (20.9 percent; NSW 8.2; Australia 9.0); car as driver 7,552 (73.3 percent; NSW 43.1; Australia 52.7); aged 0 to 4 1,380 (6.7 percent; NSW 5.8; Australia 5.8); separate house 5,771 (80.4 percent; NSW 65.6; Australia 72.3). ABS ASGS 2021 SUA area 56.3332 square kilometres. ABS SAL 2021 polygons at least 80 percent inside (our overlay): Griffith only; Yoogali about 18 percent. NSW Department of Education term dates (read 10 October 2026): 2027 Term 4 Monday 11 October to Monday 20 December. IANA tzdb australasia: Australia/Sydney rule AN, daylight saving 4 October 2026 to 4 April 2027.",
+    "localProject": "Natural sort order of house numbers. NSW Spatial Services, NSW_Geocoded_Addressing_Theme MapServer layer 1 (AddressPoint), (c) Spatial Services, queried 10 October 2026 by envelope 145.9919, -34.3176, 146.1017, -34.2332, fields address and housenumber: 11,303 points; 10,587 inside the ABS Griffith SUA polygon; 9,880 with address ending GRIFFITH and a non-empty house number (217 empty excluded); 349 streets. Forms: plain 7,391; unit (slash) 1,619; letter suffix 534; range 327; a few mixed forms such as 16A-18. Our code (scratchpad au/r7/gri_ns.py): per street, distinct house numbers (9,786 in total); lexicographic sorted() vs natural key (digit runs as integers) differ on 261 of 349 streets and 8,894 of 9,786 positions; natural vs address-aware key (number after the slash first, unit second) differ on 104 streets and 4,250 positions. Largest street: BANNA AVENUE, 318 distinct house numbers. Example [10, 2, 12A, 12, 1/12, 3]: lexicographic 1/12, 10, 12, 12A, 2, 3; natural 1/12, 2, 3, 10, 12, 12A; address-aware 2, 3, 10, 12, 1/12, 12A.",
+    "requiredMentions": [
+      "20,569",
+      "5,279",
+      "8,272",
+      "8,894",
+      "7,552",
+      "natural sort order",
+      "Banna Avenue",
+      "261 of 349",
+      "9,880"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Griffith Significant Urban Area (1016): people, median age, families, dwellings, employment, occupation, travel to work, age, dwelling structure.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1016"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Geocoded Addressing Theme, AddressPoint layer (house number forms and counts only).",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Geocoded_Addressing_Theme/MapServer/1"
+      },
+      {
+        "claim": "NSW Department of Education, future and past NSW term and vacation dates (2027).",
+        "url": "https://education.nsw.gov.au/schooling/calendars/future-and-past-nsw-term-and-vacation-dates"
+      },
+      {
+        "claim": "ABS ASGS 2021 Significant Urban Area and Suburbs and Localities boundaries.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SUA/MapServer/0"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney and rule AN.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any full street address: only house-number forms, counts and the name Banna Avenue are printed.",
+      "A total of the form counts presented as the number of addresses: the forms table lists the main forms only and the page says a few mixed forms are not shown.",
+      "Claims about how any particular council or postal system orders addresses: not established from the sources.",
+      "Income, rent, ancestry, religion, health and Indigenous status figures: excluded by the cluster rules.",
+      "Any affiliation with NSW Spatial Services, the ABS or Griffith City Council."
+    ]
+  },
+  "ai-and-programming-classes-in-karratha": {
+    "market": "Karratha",
+    "bodyClass": "cg-krth",
+    "pageType": "city",
+    "curriculumAuthority": "Karratha Significant Urban Area, ABS Census 2021 QuickStats, area code 5008, with Western Australia and Australia (read 10 October 2026): 17,013 people; median age 32; 3,839 families; 7,610 private dwellings; 2.8 people per household; separate house 4,015 (79.3 percent; WA 79.7; Australia 72.3); flat or apartment 298 (5.9 percent); Professionals 1,348 (15.2 percent; WA 22.0; Australia 24.0); Technicians and Trades Workers 2,203 (24.8 percent; WA 15.3; Australia 12.9); Bachelor Degree level and above 2,111 (16.9 percent; WA 23.8; Australia 26.3); aged 15 to 19: 924 (5.4 percent); aged 20 to 24: 890 (5.2 percent). ABS ERP Karratha LGA (54310) 30 June 2025: 25,429. WA Department of Education term dates: 2026 Term 4 Monday 12 October to Thursday 17 December; 2027 Term 1 Monday 1 February to Friday 9 April. IANA tz Australia/Perth UTC+8, no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Solar declination and the days the sun passes directly overhead. Main Roads WA, SLK Points for Road Network (CC BY 4.0), FeatureServer layer 0, query 10 October 2026, envelope 116.76 to 116.92 E, -20.78 to -20.69: 2,003 points, 2,000 downloaded; latitude -20.7796 to -20.7067, median -20.7414. NOAA solar equations (Meeus), obliquity 23.4381: declination equals -20.7414 at 2026-01-17 12:53 and 2026-11-25 12:44 AWST; 2027-01-17 18:37 and 2027-11-25 18:36. Edges: -20.7067 crosses 2026-01-17 17:06 and 2026-11-25 08:29; -20.7796 crosses 2026-01-17 08:13 and 2026-11-25 17:26. Noon altitude 45.82 degrees (June solstice), 87.30 (December solstice, sun south of zenith). 53 days in 2026 with the noon sun south of the zenith. sin(23.44) radians -0.9926, degrees 0.3978. Cooper (1969) approximation 23.45 sin(360(284+n)/365): maximum error against NOAA 1.10 degrees, mean 0.40 (noon AWST samples); crossing days 17 January and 22 November 2026. NOAA declination extremes 2026: 23.438 and -23.438.",
+    "requiredMentions": [
+      "17,013",
+      "25,429",
+      "24.8%",
+      "20.7414",
+      "45.82 degrees",
+      "87.30 degrees",
+      "-0.9926",
+      "53 such days",
+      "Pilbara distance, no disadvantage"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Karratha Significant Urban Area (5008): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/5008"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA 2001 to 2025 (ABS_ANNUAL_ERP_LGA2025), Karratha LGA 54310, total persons, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.54310.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "Main Roads Western Australia, SLK Points for Road Network (CC BY 4.0), listed on data.wa.gov.au.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/mrwa-slk-points-for-road-network"
+      },
+      {
+        "claim": "NOAA Global Monitoring Laboratory, solar calculation details (equations after Meeus).",
+        "url": "https://gml.noaa.gov/grad/solcalc/calcdetails.html"
+      },
+      {
+        "claim": "WA Department of Education, future term dates.",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      }
+    ],
+    "rejectedClaims": [
+      "Mining, gas or port production, revenue or employment figures for Karratha: excluded by the brief.",
+      "Any health, heat-stress or ultraviolet exposure figure linked to the overhead sun: excluded by the cluster rules.",
+      "Exact clock times of the overhead sun at a named landmark: only the median road latitude and the town's edges were computed.",
+      "Weather or climate statistics: the Bureau of Meteorology is excluded as a source for this cluster.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Main Roads WA, the ABS, NOAA or the WA Government."
+    ]
+  },
+  "online-coding-and-python-classes-in-wangaratta": {
+    "market": "Wangaratta",
+    "bodyClass": "cg-wgta",
+    "pageType": "city",
+    "curriculumAuthority": "Wangaratta, ABS Census 2021 QuickStats, Significant Urban Area 2019 (read 10 October 2026): 19,882 people; median age 44; 5,206 families; 9,175 private dwellings; average 2.2 people per household; separate house 6,979 (85.7 percent; Vic 73.4; Australia 72.3); flat or apartment 5 (0.1 percent; Vic 12.1; Australia 14.2); Community and Personal Service Workers 1,307 (14.6 percent; Vic 11.0; Australia 11.5); Professionals 1,698 (19.0 percent; Vic 25.0; Australia 24.0); car as driver 5,899 (66.0 percent; Vic 49.9; Australia 52.7). ABS ASGS 2021 SUA area 57.5836 square kilometres. ABS SAL 2021 polygons at least 80 percent inside (our overlay): Waldara, Wangaratta (0.917). Victorian Government school term dates (read 10 October 2026): 2027 Term 2 Monday 12 April to Friday 25 June; Term 3 Monday 12 July to Friday 17 September; Term 4 Monday 4 October to Friday 17 December. IANA tzdb australasia: Australia/Melbourne rule AV, daylight saving 4 October 2026 to 4 April 2027.",
+    "localProject": "Python structural pattern matching on GTFS stop names. Victorian GTFS schedule (Department of Transport and Planning, CC BY 4.0, gtfs.zip last modified 4 October 2026), folder 6, routes 6-a20 (401 Wangaratta - West End), 6-a21 (402 Wangaratta - Yarrunga via Murdoch Road), 6-a22 (403 Wangaratta - Yarrawonga Road), 6-W04 (404 Wangaratta - Yarrunga via Mason Street). Our code (scratchpad au/r7/wgt_stops.py): 161 trips, 112 stops, 2,544 stop times; stops per route 45, 41, 37, 38. wgt_match.py: name split on \"/\", pieces stripped; match/case with guards on street suffixes (St, Rd, Ave, Dr, Cres, Lane, Bvd, Gr, Ct, Tce, Way): intersection 66, landmark on a street 44, house number 2, other 0. Distinct names 107; 5 names used by two stops. Naive if/elif without strip differs on exactly one stop, Wangaratta Coach Stop/Rowan St with a trailing space (naive: other). Street frequency in names: Phillipson St 9; Appin St, Williams Rd, Murdoch Rd, Burke St, Swan St 7. Same first word with two suffixes: Cribbes Rd/St, Murdoch Rd/St, Edwards St/Rd.",
+    "requiredMentions": [
+      "19,882",
+      "5,206",
+      "161 trips",
+      "Cribbes Rd",
+      "5,899",
+      "Phillipson St",
+      "structural pattern matching",
+      "trailing space",
+      "2,544"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Wangaratta Significant Urban Area (2019): people, median age, families, dwellings, dwelling structure, occupation, travel to work.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/2019"
+      },
+      {
+        "claim": "Victorian GTFS schedule, Department of Transport and Planning (Wangaratta town bus routes 401 to 404).",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays (2027).",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "ABS ASGS 2021 Significant Urban Area and Suburbs and Localities boundaries.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SUA/MapServer/0"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne and rule AV.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That Cribbes Rd and St, Murdoch Rd and St, or Edwards St and Rd are data errors: they may be separate real streets, and the page says to check.",
+      "Stop names of health facilities: deliberately not printed.",
+      "Patronage or frequency claims about the routes: the page counts trips, stops and timed stops only.",
+      "Income, rent, ancestry, religion, health and Indigenous status figures: excluded by the cluster rules.",
+      "Any affiliation with the Department of Transport and Planning, the Victorian Government or the Rural City of Wangaratta."
+    ]
+  },
+  "online-coding-and-python-classes-in-hornsby-sydney": {
+    "market": "Hornsby",
+    "bodyClass": "cg-hrnb",
+    "pageType": "city",
+    "curriculumAuthority": "Hornsby, ABS Census 2021 QuickStats, Hornsby local government area LGA14000 (read 10 October 2026): 151,811 people; median age 41 (NSW 39, Australia 38); 42,716 families; 55,909 private dwellings; average 2.8 people per household; separate house 35,868 (69.5 percent; NSW 65.6); flat or apartment 11,283 (21.9 percent); Professionals 27,084 (36.2 percent; NSW 25.8; Australia 24.0); Bachelor Degree level and above 54,377 (44.2 percent; NSW 27.8; Australia 26.3); age 10 to 14 10,958 (7.2 percent; NSW 6.2); age 15 to 19 9,774 (6.4 percent; NSW 5.7). NSW Department of Education 2027 term dates, Eastern division: Term 1 Wednesday 3 February to Friday 9 April; Term 3 Tuesday 20 July to Friday 24 September. IANA tz Australia/Sydney daylight saving Sunday 4 October 2026 to Sunday 4 April 2027. Transport for NSW monthly station usage (CC BY): Hornsby Station, Train, Entry, August 2026, 289,451.",
+    "localProject": "Longest common prefix and sorted-neighbour autocomplete. NSW Department of Education master dataset (CC BY), Date_extracted 2026-10-02, LGA = Hornsby: 35 schools (Primary 25, Secondary 8, SSP 1, EEC 1). Names sorted; 34 adjacent LCPs. Largest: Pennant Hills High School / Pennant Hills Public School 14; Normanhurst Boys High School / Normanhurst Public School 12; Normanhurst Public School / Normanhurst West Public School 12; Cherrybrook Public School / Cherrybrook Technology High School 12; Hornsby Heights Public School / Hornsby High School 9. Shortest unique prefix = 1 + max(LCP with previous, LCP with next): sum 226, full names 881 characters; mean 6.46 vs 25.17; distribution 1 char 4 names, 2 chars 10, 3 chars 2, 4 chars 1, 7 chars 2, 9 chars 7, 10 chars 2, 13 chars 5, 15 chars 2. Brute force over all names agrees for all 35. Lower-case \"hornsby\": 0 matches raw, 5 after casefold. Earliest Date_1st_teacher West Pennant Hills Public School 1850-01-01; latest 1992-01-28 Cherrybrook Technology High School and Oakhill Drive Public School.",
+    "requiredMentions": [
+      "151,811",
+      "42,716",
+      "55,909",
+      "54,377",
+      "27,084",
+      "Epping North Public School",
+      "Mount Kuring-gai Public School",
+      "289,451",
+      "226 keystrokes"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Hornsby local government area (LGA14000).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA14000"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits, monthly station usage (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Which suburbs lie inside Hornsby Shire: not listed, as suburb boundaries were not checked against the LGA; only school locations from the file are named.",
+      "Why Mount Kuring-gai sits in Hornsby rather than Ku-ring-gai: not verified, so no history is given.",
+      "Any claim about school quality, size, results or enrolment: excluded; the project uses names only.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education, Hornsby Shire Council, Transport for NSW or the ABS."
+    ]
+  },
+  "best-coding-classes-in-mount-isa": {
+    "market": "Mount Isa",
+    "bodyClass": "cg-mtis",
+    "pageType": "city",
+    "curriculumAuthority": "Mount Isa Significant Urban Area, ABS Census 2021 QuickStats, area code 3013, with Queensland and Australia (read 10 October 2026): 18,317 people; median age 31; 4,430 families; 8,714 private dwellings; 2.6 people per household; separate house 4,751 (75.1 percent; Qld 74.8; Australia 72.3); flat or apartment 267 (4.2 percent; Qld 12.5); Professionals 1,588 (17.3 percent; Qld 21.4; Australia 24.0); Technicians and Trades Workers 1,925 (21.0 percent; Qld 13.7; Australia 12.9); Bachelor Degree level and above 2,029 (14.5 percent; Qld 21.9; Australia 26.3); aged 15 to 19: 1,170 (6.4 percent); aged 20 to 24: 1,320 (7.2 percent). ABS ERP Mount Isa LGA (35300) 30 June 2025: 18,585. Queensland Department of Education term dates: 2026 Term 4 Tuesday 6 October to Friday 11 December; summer holidays to Tuesday 26 January 2027. IANA tz Australia/Brisbane UTC+10, no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Sky view factor (terrain openness) from an elevation grid. SRTM 1 arc-second (NASA, public domain) via OpenTopoData public API dataset srtm30m, fetched 10 October 2026: 134 x 151 grid, step 0.0003 degrees (dy 33.2 m, dx 31.2 m), latitude -20.745 to -20.705, longitude 139.470 to 139.515, 20,234 points, elevation 279 to 464 m, mean 366.9. Horizon method (SVF = 1 - mean over directions of sin of the maximum horizon angle): R 600 m, 16 directions: 10,434 cells, mean 0.9552, minimum 0.5636, 29.2 percent below 0.95, 5.5 percent below 0.90. Common 4,088 cells: R 300 m mean 0.9625; 600 m 0.9591; 1,200 m 0.9568; 600 m with 8 directions 0.9595; 32 directions 0.9587. Slope-only (1 + cos slope)/2 on the 10,434 cells: mean 0.9975, correlation 0.752, mean absolute difference 0.0422.",
+    "requiredMentions": [
+      "18,317",
+      "8,714",
+      "18,585",
+      "0.9552",
+      "0.9975",
+      "10,434",
+      "0.5636",
+      "correlation of only 0.752",
+      "Outback address, city classroom"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Mount Isa Significant Urban Area (3013): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/3013"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA 2001 to 2025 (ABS_ANNUAL_ERP_LGA2025), Mount Isa LGA 35300, total persons, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.35300.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "OpenTopoData, SRTM 30 m dataset documentation (NASA Shuttle Radar Topography Mission, public domain).",
+        "url": "https://www.opentopodata.org/datasets/srtm/"
+      },
+      {
+        "claim": "Queensland Department of Education, term dates.",
+        "url": "https://education.qld.gov.au/about-us/calendar/term-dates"
+      }
+    ],
+    "rejectedClaims": [
+      "Mine production, mine size, company or money figures for Mount Isa: excluded by the brief.",
+      "What lies at the point with the lowest sky view factor: it was not checked against any land use source, so it is not described.",
+      "Health, heat or ultraviolet effects of sky openness: excluded by the cluster rules.",
+      "Weather or climate statistics: the Bureau of Meteorology is excluded as a source for this cluster.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "A journal citation for the horizon definition: the publisher returned 403 to our check, so no paper is cited.",
+      "Any affiliation with NASA, OpenTopoData, the ABS or the Queensland Government."
+    ]
+  },
+  "ai-and-programming-classes-in-grafton": {
+    "market": "Grafton",
+    "bodyClass": "cg-grft",
+    "pageType": "city",
+    "curriculumAuthority": "Grafton, ABS Census 2021 QuickStats, Significant Urban Area 1015 (read 10 October 2026): 19,255 people; median age 43; 4,973 families; 8,711 private dwellings; average 2.3 people per household; Community and Personal Service Workers 1,305 (18.1 percent; NSW 10.6; Australia 11.5); Labourers 957 (13.3 percent; NSW 8.2; Australia 9.0); Professionals 1,115 (15.5 percent; NSW 25.8; Australia 24.0); separate house 6,265 (82.3 percent; NSW 65.6; Australia 72.3); car as driver 4,875 (67.8 percent; NSW 43.1; Australia 52.7). ABS ASGS 2021 SUA area 106.2537 square kilometres. ABS SAL 2021 polygons at least 80 percent inside (our overlay): Grafton, South Grafton, Junction Hill, Great Marlow, Waterview, Carrs Creek, Carrs Island, Carrs Peninsula, Alumy Creek, Koolkhan, Trenayr, Southampton, Crowther Island. NSW Department of Education term dates (read 10 October 2026): 2027 Term 3 Monday 19 July to Friday 24 September. IANA tzdb australasia: Australia/Sydney rule AN, daylight saving 4 October 2026 to 4 April 2027.",
+    "localProject": "Federated averaging with non-IID clients. NSW Spatial Services, NSW_Geocoded_Addressing_Theme MapServer layer 1 (AddressPoint), (c) Spatial Services, queried 10 October 2026 by envelope 152.8742, -29.7611, 153.0066, -29.5987: 11,966 points; 10,887 inside the ABS Grafton SUA polygon; locality from the address suffix: GRAFTON 6,155, SOUTH GRAFTON 3,402 (9,557 used). Our code (scratchpad au/r7/gra_fed.py): features = east and north kilometres from 152.93, -29.68, standardised; logistic regression, learning rate 0.5; test split 20 percent with numpy default_rng(7): 1,911 test (1,206 Grafton, 705 South Grafton), 7,646 train. Client A = Grafton training points only; client B = South Grafton only; FedAvg weighted by client size; 400 local steps in total. Test accuracy: centralised 400 steps 0.99948 (1 error); FedAvg E=1, 400 rounds 0.9995; E=5, 80 rounds 0.9995; E=20, 20 rounds 0.9990; E=100, 4 rounds 0.9979; north-only model 0.6583 (predicts Grafton for 1,859 of 1,911); south-only model 0.4767.",
+    "requiredMentions": [
+      "19,255",
+      "4,973",
+      "8,711",
+      "6,265",
+      "1,911",
+      "federated averaging",
+      "client drift",
+      "Crowther Island",
+      "99.79%"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Grafton Significant Urban Area (1015): people, median age, families, dwellings, occupation, dwelling structure, travel to work.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/1015"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Geocoded Addressing Theme, AddressPoint layer (positions and locality labels only).",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Geocoded_Addressing_Theme/MapServer/1"
+      },
+      {
+        "claim": "NSW Department of Education, future and past NSW term and vacation dates (2027).",
+        "url": "https://education.nsw.gov.au/schooling/calendars/future-and-past-nsw-term-and-vacation-dates"
+      },
+      {
+        "claim": "ABS ASGS 2021 Significant Urban Area and Suburbs and Localities boundaries.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SUA/MapServer/0"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney and rule AN.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any individual address: only positions and locality labels were used, and none are printed.",
+      "Claims that any named company or hospital uses federated learning: the page speaks only in general terms.",
+      "That federated learning guarantees privacy: the page says it keeps data local but does not claim more.",
+      "Income, rent, ancestry, religion, health and Indigenous status figures: excluded by the cluster rules.",
+      "Any affiliation with NSW Spatial Services, the ABS or Clarence Valley Council."
+    ]
+  },
+  "ai-and-programming-classes-in-ku-ring-gai-sydney": {
+    "market": "Ku-ring-gai",
+    "bodyClass": "cg-krgs",
+    "pageType": "city",
+    "curriculumAuthority": "Ku-ring-gai, ABS Census 2021 QuickStats, Ku-ring-gai local government area LGA14500 (read 10 October 2026): 124,076 people; median age 42 (NSW 39, Australia 38); 35,318 families; 45,849 private dwellings; average 2.9 people per household; separate house 28,718 (68.6 percent); flat or apartment 11,365 (27.1 percent; NSW 21.7); Professionals 24,359 (41.6 percent; NSW 25.8; Australia 24.0); Bachelor Degree level and above 53,618 (53.7 percent; NSW 27.8; Australia 26.3); age 10 to 14 8.0 percent; age 15 to 19 9,124 (7.4 percent; NSW 5.7). NSW Department of Education master dataset (CC BY), LGA = Ku-ring-gai: 24 schools; earliest Date_1st_teacher Lindfield Public School 1903-04-01, Warrawee Public School 1906-01-01, Roseville Public School 1913-08-01. NSW 2027 term dates, Eastern division: Term 1 Wednesday 3 February to Friday 9 April; Term 4 Tuesday 12 October to Monday 20 December. IANA tz Australia/Sydney daylight saving Sunday 4 October 2026 to Sunday 4 April 2027.",
+    "localProject": "Lasso (L1) regression among correlated inputs. Transport for NSW monthly station usage (entry_exit.csv, CC BY), Train Entry, October 2024 to August 2026 (23 months): Roseville, Lindfield, Killara, Gordon, Pymble, Turramurra, Warrawee, Wahroonga. Gordon mean 150,171 (min 112,189, max 177,251); August 2026 168,651. Correlations with Gordon: Roseville 0.956, Lindfield 0.939, Killara 0.912, Pymble 0.924, Turramurra 0.907, Warrawee 0.937, Wahroonga 0.935; minimum predictor pair 0.882. Inputs standardised; coordinate-descent lasso. Full-data least squares weights: Roseville -3,369, Lindfield 20,850, Killara 2,455, Pymble -22,706, Turramurra -16,825, Warrawee 4,728, Wahroonga 30,633. Lasso 500: Roseville 8,415, Lindfield 1,927, Warrawee 4,863; 5,000: Roseville, Warrawee; 10,000: Roseville; 20,000: none. Train 2024-10 to 2026-02, test 2026-03 to 2026-08: mean-only test MAE 15,633 (train 13,400); least squares test 8,329 (train 1,366); lasso 2,000 test 4,285 (train 3,572); lasso 10,000 test 9,547 (train 9,087).",
+    "requiredMentions": [
+      "124,076",
+      "35,318",
+      "45,849",
+      "53,618",
+      "24,359",
+      "Lindfield Public School",
+      "168,651",
+      "-22,706",
+      "8,329"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Ku-ring-gai local government area (LGA14500).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA14500"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits, monthly station usage (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That all eight stations lie inside the Ku-ring-gai council area: not verified, so the page describes them as North Shore line stations from Roseville to Wahroonga.",
+      "Any reason why particular months were busier or quieter: not verified, so no cause is given.",
+      "That the lasso is better than least squares in general: six test months are too few; the page reports only this comparison.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Transport for NSW, Ku-ring-gai Council, the NSW Department of Education or the ABS."
+    ]
+  },
+  "online-coding-and-python-classes-in-queanbeyan": {
+    "market": "Queanbeyan",
+    "bodyClass": "cg-qbyn",
+    "pageType": "city",
+    "curriculumAuthority": "Queanbeyan-Palerang Regional LGA, ABS Census 2021 QuickStats, area code LGA16490, with New South Wales and Australia (read 10 October 2026): 63,304 people; median age 38; 17,312 families; 26,503 private dwellings; 2.6 people per household; separate house 17,078 (73.9 percent; NSW 65.6; Australia 72.3); flat or apartment 2,661 (11.5 percent; NSW 21.7; Australia 14.2); Professionals 7,654 (22.0 percent; NSW 25.8; Australia 24.0); Technicians and Trades Workers 4,624 (13.3 percent; NSW 11.9; Australia 12.9); Bachelor Degree level and above 14,348 (28.2 percent; NSW 27.8; Australia 26.3); industry of employment: Central Government Administration 3,836 (11.0 percent; NSW 0.8; Australia 1.1); Defence 2,660 (7.6 percent; NSW 0.6; Australia 0.7). ABS ERP Queanbeyan-Palerang LGA (16490) 30 June 2025: 67,633. NSW Department of Education 2027 term dates: Term 1 Eastern Thursday 28 January, Western Thursday 4 February, to Friday 9 April; Term 4 Monday 11 October to Monday 20 December. IANA tz Australia/Sydney (same rules as Australia/ACT): UTC+10, daylight saving UTC+11 from the first Sunday in October to the first Sunday in April; Asia/Kolkata UTC+5:30.",
+    "localProject": "itertools.groupby groups only consecutive items. NSW public schools master dataset (Data.NSW), Date_extracted 2026-10-02, 2,210 rows. LGA Queanbeyan-Palerang: 15 schools; Town_suburb raw values Braidwood(trailing space), Bungendore(trailing space), CAPTAINS FLAT, Queanbeyan(trailing space) x6, Jerrabomberra(trailing space), Queanbeyan, Googong, Karabar, Bungendore, Jerrabomberra. groupby file order 11 groups; sorted raw 10; normalised unsorted 11; normalised sorted 7 (queanbeyan 7, bungendore 2, jerrabomberra 2, braidwood 1, captains flat 1, googong 1, karabar 1); collections.Counter agrees. Level_of_schooling: Primary School 8, Secondary School 4, Central/Community School 2, Schools for Specific Purposes 1. Date_1st_teacher earliest Braidwood Central School 1849-08-01; latest Bungendore High School and Jerrabomberra High School 2023-01-27. Statewide: LGA in file order 2,094 groupby runs, 129 distinct LGAs; Town_suburb 1,620 distinct raw, 1,328 after strip and casefold.",
+    "requiredMentions": [
+      "63,304",
+      "17,312",
+      "26,503",
+      "67,633",
+      "2,094 groups",
+      "1,620 different spellings",
+      "Braidwood Central School on 1 August 1849",
+      "Captains Flat",
+      "Next door to the capital, a class at home"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Queanbeyan-Palerang Regional LGA (LGA16490): people, median age, families, dwellings, dwelling structure, occupation, education, industry.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA16490"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA 2001 to 2025 (ABS_ANNUAL_ERP_LGA2025), Queanbeyan-Palerang LGA 16490, total persons, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.16490.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "NSW public schools master dataset (Data.NSW): school names, town, LGA, level of schooling and date of first teacher.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "Python documentation, itertools.groupby.",
+        "url": "https://docs.python.org/3/library/itertools.html#itertools.groupby"
+      },
+      {
+        "claim": "NSW Department of Education, future and past NSW term dates and school holidays (2027 dates).",
+        "url": "https://education.nsw.gov.au/schooling/calendars/future-and-past-nsw-term-dates-and-school-holidays"
+      }
+    ],
+    "rejectedClaims": [
+      "Enrolment, ICSEA or other per-school measures from the master dataset: not needed for the grouping lesson and not shown.",
+      "Which NSW term division Queanbeyan schools follow: the department page lists both without naming schools, so both are shown.",
+      "Electorate fields in the master dataset: political boundaries are not used on this page.",
+      "Commuting figures between Queanbeyan and Canberra: not part of the verified sources used here.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education, the ABS or Queanbeyan-Palerang Regional Council."
+    ]
+  },
+  "ai-and-programming-classes-in-mandurah": {
+    "market": "Mandurah",
+    "bodyClass": "cg-mndr",
+    "pageType": "city",
+    "curriculumAuthority": "Mandurah LGA, ABS Census 2021 QuickStats, area code LGA55110, with Western Australia and Australia (read 10 October 2026): 90,306 people; median age 45; 25,111 families; 44,094 private dwellings; 2.4 people per household; separate house 29,540 (83.5 percent; WA 79.7; Australia 72.3); flat or apartment 1,006 (2.8 percent; WA 6.5; Australia 14.2); Professionals 5,215 (14.4 percent; WA 22.0; Australia 24.0); Technicians and Trades Workers 6,739 (18.6 percent; WA 15.3; Australia 12.9); Bachelor Degree level and above 9,103 (12.2 percent; WA 23.8; Australia 26.3); aged 15 to 19: 4,962 (5.5 percent); aged 20 to 24: 4,506 (5.0 percent); aged 65 to 69: 6,242 (6.9 percent; WA 5.0; Australia 5.1). ABS ERP Mandurah LGA (55110) 30 June 2025: 106,827. WA Department of Education 2027 term dates: Term 1 Monday 1 February to Friday 9 April; Term 2 Monday 26 April to Friday 2 July; Term 3 Monday 19 July to Friday 24 September; Term 4 Monday 11 October to Thursday 16 December. IANA tz Australia/Perth UTC+8, no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Heteroscedastic residuals and prediction bands. Main Roads WA, SLK Points for Road Network (CC BY 4.0), FeatureServer layer 0, queried 10 October 2026, envelope 115.66 to 115.80 E, -32.62 to -32.47: 5,887 points, 1,557 carriageways (ROAD_NAME, RoadCway). Runs with 10 or more points and SLK gaps up to 0.15 km: 102 roads, 1,824 pairs from each run's first point (x SLK difference, y equirectangular straight-line distance). x up to 4 km: n 1,623; slope through origin 0.8710; pooled residual sd 0.2587 km. By band: 0 to 0.5 km n 520 sd 0.0276; 0.5 to 1 n 503 sd 0.1070; 1 to 2 n 408 sd 0.2764; 2 to 4 n 192 sd 0.6058. Fixed band +/-0.507 km coverage 100.0, 99.6, 92.2, 78.6 (95.4 overall). Proportional band c 0.2909: coverage 99.4, 97.2, 91.2, 85.4 (95.0 overall), mean widths 0.175, 0.461, 0.844, 1.637 km. WLS (1/x^2) slope 0.9132. Most pairs: Lakelands Lake Clifton Rd 185, Pinjarra Rd 89, Melville Mandurah Hwy 61, Lakes Rd 53, Kwinana Fwy 53.",
+    "requiredMentions": [
+      "90,306",
+      "25,111",
+      "44,094",
+      "106,827",
+      "5,887 points",
+      "1,623 pairs",
+      "plus or minus 507 metres",
+      "from 0.8710 to 0.9132",
+      "Peel region learners, live from home"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Mandurah LGA (LGA55110): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA55110"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA 2001 to 2025 (ABS_ANNUAL_ERP_LGA2025), Mandurah LGA 55110, total persons, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.55110.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "Main Roads Western Australia, SLK Points for Road Network (CC BY 4.0), listed on data.wa.gov.au.",
+        "url": "https://catalogue.data.wa.gov.au/dataset/mrwa-slk-points-for-road-network"
+      },
+      {
+        "claim": "WA Department of Education, future term dates (2027).",
+        "url": "https://www.education.wa.edu.au/future-term-dates"
+      }
+    ],
+    "rejectedClaims": [
+      "Transperth timetable data: considered for the project but dropped because its licence restricts use of PTA trademarks with the data.",
+      "Travel times, traffic volumes or crash figures on Mandurah roads: not part of the reference point data and excluded by the cluster rules.",
+      "Any reason the roads bend, such as particular waterways or estates: not verified against a source, so not stated.",
+      "Pairs longer than 4 km: dominated by a few long main roads, so excluded from the error analysis and not presented as representative.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Main Roads WA, the ABS or the City of Mandurah."
+    ]
+  },
+  "best-coding-and-ai-classes-in-the-hills-shire-sydney": {
+    "market": "The Hills Shire",
+    "bodyClass": "cg-thls",
+    "pageType": "city",
+    "curriculumAuthority": "The Hills Shire, ABS Census 2021 QuickStats, The Hills Shire local government area LGA17420 (read 10 October 2026): 191,876 people; median age 38 (NSW 39, Australia 38); 54,291 families; 64,041 private dwellings; average 3.1 people per household; separate house 48,537 (81.2 percent; NSW 65.6; Australia 72.3); flat or apartment 5,836 (9.8 percent); Professionals 31,402 (32.5 percent); Bachelor Degree level and above 61,188 (40.5 percent; NSW 27.8); age 5 to 9 14,738 (7.7 percent); age 10 to 14 14,852 (7.7 percent; NSW 6.2); age 15 to 19 13,071 (6.8 percent). NSW 2027 term dates, Eastern division: Term 2 Thursday 29 April to Friday 2 July; Term 3 Tuesday 20 July to Friday 24 September. IANA tz Australia/Sydney daylight saving Sunday 4 October 2026 to Sunday 4 April 2027. Transport for NSW monthly station usage (CC BY): Castle Hill Station, Metro, Entry, August 2026, 221,078, fortieth of the entry rows.",
+    "localProject": "Maximum-cardinality matching vs greedy closest-pair-first. NSW Department of Education master dataset (CC BY), Date_extracted 2026-10-02, LGA = The Hills: 31 schools (Primary 22, Secondary 7, SSP 1, EEC 1). Haversine distances between the 22 primary schools; networkx max_weight_matching(maxcardinality=True). Limit 3,500 m: 41 edges; isolated Hillside, Maroota, Wisemans Ferry, Box Hill Public Schools; greedy 7 pairs (Beaumont Hills-North Kellyville 1,129; Crestwood-Matthew Pearce 1,284; Rouse Hill-Ironbark Ridge 1,453; Excelsior-Baulkham Hills North 1,552; Samuel Gilbert-Sherwood Ridge 1,681; Kellyville-Bella Vista 1,745; Dural-Glenhaven 2,723) leaving Castle Hill, Kenthurst, Annangrove, Jasper Road unpaired; maximum 9 pairs. Augmenting path Castle Hill-Samuel Gilbert 2,017, Samuel Gilbert=Sherwood Ridge 1,681, Sherwood Ridge-Glenhaven 2,608, Glenhaven=Dural 2,723, Dural-Kenthurst 3,041. Limit 3,000 m: 29 edges, greedy 7, maximum 8. Limit 2,000 m: 15 edges, greedy 6, maximum 7. Earliest first teachers Wisemans Ferry Public School 1865-02-01, Dural Public School 1869-01-01, Kellyville Public School 1873-11-01; newest North Kellyville Public School 2019-01-29, Box Hill Public School 2025-01-31, Box Hill High School 2026-01-27.",
+    "requiredMentions": [
+      "191,876",
+      "54,291",
+      "64,041",
+      "48,537",
+      "61,188",
+      "Wisemans Ferry Public School",
+      "Box Hill High School",
+      "221,078",
+      "Castle Hill Public School"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, The Hills Shire local government area (LGA17420).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA17420"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits, monthly station usage (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any real buddy-school program in The Hills: none claimed; the scenario is ours.",
+      "Which council area each metro station lies in: not verified, so Castle Hill is named only as a station.",
+      "Road distances between schools: not computed; all distances are straight lines.",
+      "Suburb lists for the shire: not printed, as suburb boundaries were not checked against the LGA.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education, The Hills Shire Council, Transport for NSW or the ABS."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-ipswich-qld": {
+    "market": "Ipswich",
+    "bodyClass": "cg-ipsq",
+    "pageType": "city",
+    "curriculumAuthority": "Ipswich LGA, ABS Census 2021 QuickStats, area code LGA33960, with Queensland and Australia (read 10 October 2026): 229,208 people; median age 33; 60,293 families; 87,287 private dwellings; 2.8 people per household; separate house 69,218 (88.7 percent; Qld 74.8; Australia 72.3); flat or apartment 1,346 (1.7 percent; Qld 12.5; Australia 14.2); Professionals 17,051 (16.4 percent; Qld 21.4; Australia 24.0); Technicians and Trades Workers 14,898 (14.3 percent; Qld 13.7; Australia 12.9); Bachelor Degree level and above 27,224 (15.5 percent; Qld 21.9; Australia 26.3); aged 15 to 19: 15,085 (6.6 percent; Qld 6.1); aged 20 to 24: 15,512 (6.8 percent; Qld 6.3). ABS ERP Ipswich LGA (33960) 30 June 2025: 268,272. Queensland Department of Education: 2026 Term 4 Tuesday 6 October to Friday 11 December (10 weeks); holidays Saturday 12 December to Tuesday 26 January 2027 (46 days). IANA tz Australia/Brisbane UTC+10, no daylight saving; Asia/Kolkata UTC+5:30.",
+    "localProject": "Zero used as an unknown placeholder (sentinel values) skewing an agent's averages. City of Ipswich, Ipswich City Road Bridges (data.gov.au dataset ipswich-city-road-bridges, CC BY 3.0 AU), WFS GeoJSON read 10 October 2026: 190 records; TYPE Pedestrian Bridge 186, Bridge 4. BRIDGE_HEI zero 158, mean all 0.523 m, non-zero n 32 mean 3.103 m median 1.60. SPAN_LENGT zero 101, mean all 6.112, non-zero n 89 mean 13.047. BRIDGE_LEN zero 22, mean all 15.156, non-zero 17.141. BRIDGE_WID zero 17, mean all 2.106, non-zero 2.313. SPANS zero 99. SPANS x SPAN_LENGT equals BRIDGE_LEN for 73 records, differs for 11. DIVISION -9999 for 2 records (others 1 to 4). TYPE_CONST \".\" for 6; timber 129. Construction year blank 8, range 1940 to 2023.",
+    "requiredMentions": [
+      "229,208",
+      "60,293",
+      "87,287",
+      "268,272",
+      "0.523 metres",
+      "3.103 metres",
+      "158 of the 190",
+      "-9999",
+      "Every Ipswich suburb, one live class"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Ipswich LGA (LGA33960): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA33960"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA 2001 to 2025 (ABS_ANNUAL_ERP_LGA2025), Ipswich LGA 33960, total persons, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.33960.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "City of Ipswich, Ipswich City Road Bridges, data.gov.au (CC BY 3.0 AU).",
+        "url": "https://data.gov.au/data/dataset/ipswich-city-road-bridges"
+      },
+      {
+        "claim": "Queensland Department of Education, school holidays and term dates (2026).",
+        "url": "https://education.qld.gov.au/about-us/calendar/term-dates"
+      }
+    ],
+    "rejectedClaims": [
+      "The condition, safety or load rating of any Ipswich bridge: not part of the data and not discussed.",
+      "What the council intends a zero height to mean: no data dictionary was found, so zeros are described as most likely unrecorded, not as a confirmed convention.",
+      "Names of individual bridges: several records are unnamed and one name contains a spelling error, so none are quoted.",
+      "Why the register titled road bridges holds mostly pedestrian bridges: no explanation was found, so only the counts are given.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the City of Ipswich, the ABS or the Queensland Government."
+    ]
   }
 }

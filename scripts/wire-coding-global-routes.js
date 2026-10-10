@@ -913,6 +913,18 @@ const MARKETS = [
   ['best-coding-and-ai-classes-in-parramatta-sydney', 'Parramatta, Sydney'],
   ['online-coding-and-python-classes-in-broken-hill', 'Broken Hill, New South Wales'],
   ['best-coding-classes-in-armidale', 'Armidale, New South Wales'],
+  ['best-coding-classes-in-griffith', 'Griffith, New South Wales'],
+  ['vibe-coding-and-ai-agents-classes-in-blacktown-sydney', 'Blacktown, Sydney'],
+  ['ai-and-programming-classes-in-karratha', 'Karratha, Western Australia'],
+  ['online-coding-and-python-classes-in-wangaratta', 'Wangaratta, Victoria'],
+  ['online-coding-and-python-classes-in-hornsby-sydney', 'Hornsby, Sydney'],
+  ['best-coding-classes-in-mount-isa', 'Mount Isa, Queensland'],
+  ['ai-and-programming-classes-in-grafton', 'Grafton, New South Wales'],
+  ['ai-and-programming-classes-in-ku-ring-gai-sydney', 'Ku-ring-gai, Sydney'],
+  ['online-coding-and-python-classes-in-queanbeyan', 'Queanbeyan, New South Wales'],
+  ['ai-and-programming-classes-in-mandurah', 'Mandurah, Western Australia'],
+  ['best-coding-and-ai-classes-in-the-hills-shire-sydney', 'The Hills Shire, Sydney'],
+  ['vibe-coding-and-ai-agents-classes-in-ipswich-qld', 'Ipswich, Queensland'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
