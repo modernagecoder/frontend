@@ -959,6 +959,7 @@ const MARKETS = [
   ['ai-and-programming-classes-in-rhodes-sydney', 'Rhodes, Sydney'],
   ['ai-and-programming-classes-in-marrickville-sydney', 'Marrickville, Sydney'],
   ['online-coding-and-python-classes-in-oran-park-sydney', 'Oran Park, Sydney'],
+  ['ai-and-programming-classes-in-camden-sydney', 'Camden, Sydney'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

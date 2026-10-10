@@ -44342,5 +44342,57 @@
       "Enrolment, ICSEA, Indigenous, LBOTE and selective columns of the school dataset: excluded by the cluster rules.",
       "Any affiliation with the ABS, Camden Council or the NSW Department of Education."
     ]
+  },
+  "ai-and-programming-classes-in-camden-sydney": {
+    "market": "Camden",
+    "bodyClass": "cg-cmdn",
+    "pageType": "city",
+    "curriculumAuthority": "Camden, ABS Census 2021 QuickStats, Camden (NSW) suburb and locality SAL10769 (read 10 October 2026): 3,378 people; median age 43; 846 families; 1,434 private dwellings; average 2.4 people per household; separate houses 73.8% (947), townhouses etc 17.2% (221), flats 8.4% (108); aged 65 to 69 5.4% (182); technicians and trades workers 15.9% (241). ABS ASGS 2021 SAL area 4.6376 square kilometres. NSW Department of Education master dataset: Camden Public School (1849), Mount Hunter Public School (1859, Wollondilly council), Camden South Public School (1961), Camden High School (1961), address suburb Camden. NSW 2027 Eastern division: autumn holidays Monday 12 April to Friday 23 April; Term 2 Thursday 29 April to Friday 2 July.",
+    "localProject": "Two-stage retrieval with reranking for \"schools in Camden\" over the NSW school locations file: substring retriever gives 28 candidates (24 in Camden council); truth = address suburb Camden (4 schools). Precision at 4 (ours): file order 2, alphabetical 1, distance from the ABS boundary centre 2, field scores 4, fields then distance 4; precision at 8: distance 3, alphabetical 3. Camdenville Public School 47.5 km (Newtown), Camden Haven High School 329.6 km (Laurieton), Mount Hunter Public School 5.57 km, Camden High School 2.88 km and seventh by distance.",
+    "requiredMentions": [
+      "Camden South Public School",
+      "Mount Hunter Public School",
+      "Camdenville Public School",
+      "Camden Haven High School",
+      "329.6 kilometres",
+      "47.5 kilometres",
+      "5.57 kilometres",
+      "4.64 square kilometres",
+      "2.88 kilometres"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Camden (NSW) suburb and locality (SAL10769): people, median age, families, dwellings, dwelling structure, age, occupation.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10769"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations (Creative Commons Attribution); names, suburbs, councils, coordinates and first-teacher dates only.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) suburbs and localities: Camden boundary and area.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Python documentation, Sorting techniques: key functions and tuples as sort keys.",
+        "url": "https://docs.python.org/3/howto/sorting.html"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "Camden Council, the local government area named in the school dataset.",
+        "url": "https://www.camden.nsw.gov.au/"
+      }
+    ],
+    "rejectedClaims": [
+      "Figures for Camden council as a whole: this page is the suburb, so it does not overlap the Oran Park page.",
+      "That Camden Public School is the oldest school in the region: only the 28 search candidates were compared, so the page says earliest of the 28.",
+      "Naming a school for specific purposes that appeared among the candidates: left unnamed.",
+      "Journey to work and working at home figures from the 2021 Census: excluded because the Census was taken during a lockdown period.",
+      "Income, rent, mortgage, tenure, ancestry, birthplace, language, religion and one-parent family figures: excluded by the cluster rules.",
+      "Any affiliation with the ABS, Camden Council or the NSW Department of Education."
+    ]
   }
 }
