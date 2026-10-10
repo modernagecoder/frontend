@@ -45806,5 +45806,61 @@
       "Sums of Census age bands into a child total: not computed.",
       "Any affiliation with Knox City Council or the Victorian Department of Education."
     ]
+  },
+  "ai-and-programming-classes-in-manningham-melbourne": {
+    "market": "City of Manningham",
+    "bodyClass": "cg-mngm",
+    "pageType": "city",
+    "curriculumAuthority": "City of Manningham, ABS Census 2021 QuickStats, Manningham (C) local government area LGA24210 (read 10 October 2026): 124,700 people; median age 43; 35,767 families; 49,886 private dwellings; 2.7 people per household; 2.0 motor vehicles per dwelling; bus to work 2.3% (1,345; Victoria 0.6%); walked only 1.0% (593; Victoria 2.3%); bachelor degree or higher 38.2% (39,909; Victoria 29.2%); managers 17.1% (10,003; Victoria 14.0%); semi-detached, row or terrace house, townhouse 16.7% (7,437; Victoria 13.9%); worked at home 32.4% (18,957, lockdown Census day). ABS LGA area 113.3479 square kilometres. 0 of 222 FY24-25 metropolitan stations inside the boundary. Victorian School Locations 2025: 30 open schools inside the boundary (Primary 21, Secondary 6, Pri/Sec 1, Special 2; Government 21, Catholic 8, Independent 1); named only government co-educational schools Wonga Park Primary School, Warrandyte High School, Templestowe Park Primary School, Warrandyte Primary School. Victorian 2027 Term 1: students start Thursday 28 January, ends Thursday 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Local Outlier Factor vs fixed distance rule. 30 open schools inside LGA24210 (Victorian School Locations 2025 coordinates, equirectangular km). Nearest-school distance median 0.837 km, max 5.446 km (Wonga Park Primary School). Rule nn > 1.5 km flags 5 (Wonga Park PS 5.45, Warrandyte High School 2.06, a Catholic secondary college 1.98, Templestowe Park PS 1.86, a fifth government primary 1.61). scikit-learn LocalOutlierFactor: k=3 top Wonga Park 2.21, Templestowe Park PS 1.49; k=5 Wonga Park 2.06, Warrandyte HS 1.31; k=8 Wonga Park 2.10, Warrandyte PS 1.39; exactly 1 school with score > 1.5 at each k. Script: scratchpad au/b7/mngm.py.",
+    "requiredMentions": [
+      "124,700",
+      "35,767",
+      "49,886",
+      "39,909",
+      "18,957",
+      "1,345",
+      "Wonga Park Primary School",
+      "Warrandyte High School",
+      "Templestowe Park Primary School",
+      "113.35 square kilometres"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Manningham (C) local government area (LGA24210).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA24210"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (LGA24210 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "scikit-learn documentation, sklearn.neighbors.LocalOutlierFactor.",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.LocalOutlierFactor.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any judgement of school quality, access or travel time from distances: not claimed; straight-line geometry only.",
+      "Names of Catholic, independent or specialist schools flagged by either method: not used; counted only.",
+      "Doncaster suburb figures: not repeated; it has its own page.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Manningham City Council or the Victorian Department of Education."
+    ]
   }
 }
