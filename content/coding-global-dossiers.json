@@ -43426,5 +43426,57 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with Transport for NSW, NSW Spatial Services, Georges River Council, the NSW Department of Education or the ABS."
     ]
+  },
+  "online-coding-and-python-classes-in-castle-hill-sydney": {
+    "market": "Castle Hill",
+    "bodyClass": "cg-cshl",
+    "pageType": "city",
+    "curriculumAuthority": "Castle Hill, ABS Census 2021 QuickStats, Castle Hill (NSW) suburb and locality SAL10846 (read 10 October 2026): 40,874 people; median age 42; 11,503 families; 14,345 private dwellings; average 3 people per household; separate houses 73.7% (9,748), flats or apartments 15.3% (2,026), semi-detached 10.9% (1,436); couple families with children 55.8% (6,423); bachelor degree or higher 42.9% (14,244); managers 19.5% (3,770); professionals 34.7% (6,722); aged 10 to 14 7.9%; aged 15 to 19 6.7% (2,739). ABS ASGS 2021 SAL area 18.8102 square kilometres; our grid estimate splits it between The Hills Shire (most) and Hornsby (the rest). NSW Department of Education 2027 calendar, Eastern division: summer holidays Friday 18 December 2026 to Wednesday 27 January 2027; students Term 1 from Wednesday 3 February 2027.",
+    "localProject": "Inverting a one-to-many mapping with defaultdict(set). NSW Department of Education master dataset (CC BY), Date_extracted 2026-10-02, 2,210 rows, Town_suburb and LGA columns. 1,620 raw suburb keys, 1,328 normalised; 18 multi-council suburb names on raw keys, 25 normalised, holding 81 schools; plain dict mislabels 33 schools (last wins) or 32 (first wins). Castle Hill: Castle Hill Public School 1880, Castle Hill High School 1963, Excelsior Public School 1971, Samuel Gilbert Public School 1986 (The Hills), Oakhill Drive Public School 1992 (Hornsby); stored with a trailing space. 129 LGA values; Hornsby 22 suburb names, The Hills 16.",
+    "requiredMentions": [
+      "40,874",
+      "11,503",
+      "14,345",
+      "9,748",
+      "6,423",
+      "14,244",
+      "Oakhill Drive Public School",
+      "Excelsior Public School",
+      "1,328"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Castle Hill (NSW) suburb and locality (SAL10846): people, median age, families, dwellings, dwelling structure, family composition, education, occupation, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10846"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution); suburb and council columns only.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) suburbs and localities: Castle Hill boundary and area, used for the council split.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Python documentation, collections.defaultdict.",
+        "url": "https://docs.python.org/3/library/collections.html#collections.defaultdict"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates and school holidays, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "An exact percentage split of Castle Hill between the two councils: our grid estimate is approximate, so the page says only most and the rest.",
+      "Castle Hill metro station usage: covered on The Hills Shire page and not repeated here.",
+      "Which streets fall in which council: not verified.",
+      "Income, rent, mortgage, tenure, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Enrolment, ICSEA, Indigenous, LBOTE and selective columns of the master dataset: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education, The Hills Shire Council, Hornsby Shire Council or the ABS."
+    ]
   }
 }

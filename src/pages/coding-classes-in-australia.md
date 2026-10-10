@@ -461,6 +461,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Strathfield](/online-coding-and-python-classes-in-strathfield-sydney)
 - [AI and programming classes in Burwood](/ai-and-programming-classes-in-burwood-sydney)
 - [Coding classes in Mount Isa](/best-coding-classes-in-mount-isa)
+- [Online coding and Python classes in Broken Hill](/online-coding-and-python-classes-in-broken-hill)
 <!-- AU-LINKS -->
 
 
