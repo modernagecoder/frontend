@@ -43176,5 +43176,53 @@
       "Enrolment, ICSEA, Indigenous and LBOTE columns of the master dataset: excluded by the cluster rules.",
       "Any affiliation with Transport for NSW, the NSW Department of Education, North Sydney Council or the ABS."
     ]
+  },
+  "best-coding-and-ai-classes-in-willoughby-sydney": {
+    "market": "Willoughby",
+    "bodyClass": "cg-wlby",
+    "pageType": "city",
+    "curriculumAuthority": "Willoughby, ABS Census 2021 QuickStats, Willoughby local government area LGA18250 (read 10 October 2026): 75,613 people; median age 39; 20,701 families; 31,141 private dwellings; average 2.6 people per household; couple families with children 51.0% (10,550) (NSW 44.7%, Australia 43.7%); separate houses 44.7% (12,337), flats or apartments 47.1%, semi-detached 7.8% (2,145); bachelor degree or higher 53.1% (32,588); professionals 41.4% (15,460), managers 20.7% (7,726); aged 5 to 9 6.9% (5,182). ABS ASGS 2021 LGA boundary area 22.43 square kilometres. NSW Department of Education 2027 calendar, Eastern division: students Term 1 from Wednesday 3 February 2027; summer holidays Friday 18 December 2026 to Wednesday 27 January 2027.",
+    "localProject": "Log differences vs percentage changes. Transport for NSW Train Station Entries and Exits (CC BY), October 2024 to August 2026. Three stations inside the ABS Willoughby LGA polygon by NSW Transport Theme points ((c) Spatial Services): Chatswood (Metro Shared), Artarmon, St Leonards. Chatswood 805,797 to 949,108: summed monthly percentages 21.75%, true 17.79%, summed log differences 0.16369 = ln(last/first); mean monthly 0.989% vs geometric 0.747%; January 2025 -9.12% (log -9.56), February 2025 +13.02% (log +12.24). Artarmon 102,749 to 103,516: summed +11.62%, true +0.75%. St Leonards 263,333 to 257,822: summed +10.65%, true -2.09%, summed logs -0.02115. NSW schools master dataset rows with LGA Willoughby: 11 (6 primary, 3 secondary, 2 SSP); Willoughby Public School 1863, Chatswood Public School 1883, Artarmon Public School 1910, Chatswood High School 1959, Bradfield College 1993, Naremburn School 2001.",
+    "requiredMentions": [
+      "75,613",
+      "20,701",
+      "31,141",
+      "12,337",
+      "32,588",
+      "Willoughby Public School",
+      "Bradfield College",
+      "949,108",
+      "257,822"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Willoughby local government area (LGA18250): people, median age, families, dwellings, dwelling structure, family composition, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA18250"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits: monthly station usage from Opal data (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates and school holidays, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reason for the growth at Chatswood or the fall at St Leonards: not verified, so no cause is given.",
+      "Treating Opal entries as a count of people: entries are gate taps.",
+      "Naming the hospital school in the Willoughby rows: counted in the total but not named.",
+      "Income, rent, mortgage, tenure, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Enrolment, ICSEA, Indigenous, LBOTE and selective columns of the master dataset: excluded by the cluster rules.",
+      "Any affiliation with Transport for NSW, the NSW Department of Education, Willoughby City Council or the ABS."
+    ]
   }
 }
