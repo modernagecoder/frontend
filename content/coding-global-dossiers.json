@@ -43633,5 +43633,53 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with the NSW Department of Education, Canterbury-Bankstown Council, Transport for NSW or the ABS."
     ]
+  },
+  "best-coding-and-ai-classes-in-macquarie-park-sydney": {
+    "market": "Macquarie Park",
+    "bodyClass": "cg-mqpk",
+    "pageType": "city",
+    "curriculumAuthority": "Macquarie Park, ABS Census 2021 QuickStats, Macquarie Park suburb SAL12446 (read 10 October 2026): 11,071 people; median age 31; 2,736 families; 6,142 private dwellings; average 2 people per household; flats or apartments 89.5% (4,282), separate houses 0.0%; bachelor degree or higher 58.5% (5,756); professionals 43.6%; aged 20 to 24 13.5% (1,490); aged 10 to 14 204 (1.8%); worked at home 50.5% (Census day in the 2021 lockdown). NSW Department of Education 2027 Eastern division Term 1: Wednesday 3 February to Friday 9 April. Sydney daylight saving 4 October 2026 to 4 April 2027 (IANA). NSW government schools file (Date_extracted 2026-10-02): no school with a Macquarie Park address; Marsfield has one.",
+    "localProject": "Flow conservation on Transport for NSW Opal station usage (CC BY), October 2024 to August 2026, 23 months. Our sums: Macquarie Park Station entries 2,597,760, exits 2,566,270, net +31,490 (1.21%), entries above exits in 21 of 23 months, largest +3,176 (August 2026), deficits May 2025 (-865) and March 2026 (-1,334). Macquarie University Station entries 8,678,337, exits 8,818,944, net -140,607 (1.62%), exits above entries in 23 of 23 months, from -1,865 (December 2024) to -8,177 (March 2025). Both together -109,117. Running total checked against column sums. August 2026 entries: Macquarie Park 128,427; highest month March 2025, 129,460.",
+    "requiredMentions": [
+      "2,597,760",
+      "2,566,270",
+      "8,678,337",
+      "8,818,944",
+      "140,607",
+      "31,490",
+      "5,756",
+      "4,282",
+      "109,117"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Macquarie Park suburb (SAL12446).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL12446"
+      },
+      {
+        "claim": "Transport for NSW, Train, Metro and Light Rail Station Monthly Usage from November 2024, based on Opal batch data (Creative Commons Attribution), file updated 15 September 2026.",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution), Date_extracted 2026-10-02.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates (Eastern division).",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Why Macquarie University Station records more exits than entries: the counts do not show cause, so none is claimed.",
+      "That the two stations balance across the whole network: not tested; only the two stations were summed.",
+      "That untapped or non-Opal trips are included: they are not in the published table.",
+      "Any figure for the City of Ryde council area: kept to the Ryde page; this page uses the suburb only.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Transport for NSW, the NSW Department of Education or the ABS."
+    ]
   }
 }
