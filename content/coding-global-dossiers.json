@@ -43127,5 +43127,54 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with Transport for NSW, the NSW Department of Education, Sutherland Shire Council or the ABS."
     ]
+  },
+  "ai-and-programming-classes-in-north-sydney-sydney": {
+    "market": "North Sydney",
+    "bodyClass": "cg-nsyd",
+    "pageType": "city",
+    "curriculumAuthority": "North Sydney, ABS Census 2021 QuickStats, North Sydney local government area LGA15950 (read 10 October 2026): 68,950 people; median age 38 (NSW 39, Australia 38); 18,403 families; 38,990 private dwellings; average 2 people per household; flats or apartments 75.7% (24,535), separate houses 11.1% (3,593); professionals 45.3% (18,641), managers 22.8% (9,403); bachelor degree or higher 59.5% (35,807); aged 30 to 34 11.6% (8,002); aged 10 to 14 3.5% (2,421). ABS ASGS 2021 LGA boundary area 10.49 square kilometres. NSW Department of Education 2027 calendar, Eastern division: students Term 1 from Wednesday 3 February 2027; summer holidays Friday 18 December 2026 to Wednesday 27 January 2027.",
+    "localProject": "AR(1) one-step forecast vs naive and mean baselines. Transport for NSW Train Station Entries and Exits (CC BY), October 2024 to August 2026. Six stations inside the ABS North Sydney LGA polygon by NSW Transport Theme points ((c) Spatial Services): August 2026 entries Victoria Cross 474,104, Crows Nest 321,487, North Sydney 252,640, Milsons Point 173,243, Wollstonecraft 49,566, Waverton 48,472. Rolling origin, 11 forecasts October 2025 to August 2026, mean absolute error North Sydney naive 18,496, mean 16,310, AR(1) 15,114 (full-series phi 0.284); Victoria Cross naive 50,444, mean 47,410, AR(1) 47,546. North Sydney entries max 288,569 (October 2024), min 197,234 (January 2025); Victoria Cross 363,170 (October 2024) to 474,104 (August 2026), max 490,264 (March 2026). NSW schools master dataset rows with LGA North Sydney: 7 (4 primary, 3 secondary).",
+    "requiredMentions": [
+      "68,950",
+      "18,403",
+      "38,990",
+      "24,535",
+      "35,807",
+      "Neutral Bay Public School",
+      "Cammeraygal High School",
+      "252,640",
+      "15,114"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, North Sydney local government area (LGA15950): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA15950"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits: monthly station usage from Opal data (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates and school holidays, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reason for the rise at Victoria Cross or the dip in January: not verified, so no cause is given.",
+      "Calling Opal entries passengers or people: entries are gate taps.",
+      "Selective-school status of any North Sydney school: the selective column is excluded by the cluster rules.",
+      "A list of suburbs in the council area beyond place names used for orientation: not printed as a verified list.",
+      "Income, rent, mortgage, tenure, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Enrolment, ICSEA, Indigenous and LBOTE columns of the master dataset: excluded by the cluster rules.",
+      "Any affiliation with Transport for NSW, the NSW Department of Education, North Sydney Council or the ABS."
+    ]
   }
 }

@@ -456,6 +456,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agents classes in Blacktown](/vibe-coding-and-ai-agents-classes-in-blacktown-sydney)
 - [Online coding and Python classes in Hornsby](/online-coding-and-python-classes-in-hornsby-sydney)
 - [AI and programming classes in Ku-ring-gai](/ai-and-programming-classes-in-ku-ring-gai-sydney)
+- [Coding and AI classes in The Hills Shire](/best-coding-and-ai-classes-in-the-hills-shire-sydney)
 <!-- AU-LINKS -->
 
 
