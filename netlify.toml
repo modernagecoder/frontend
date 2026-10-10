@@ -20977,6 +20977,18 @@
   to = "/src/pages/vibe-coding-and-ai-agents-classes-in-horsham-victoria.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-echuca"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-echuca.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-echuca.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-echuca.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -41868,5 +41868,57 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with Horsham Rural City Council, GWM Water, the Victorian Government or the ABS."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-echuca": {
+    "market": "Echuca",
+    "bodyClass": "cg-echm",
+    "pageType": "city",
+    "curriculumAuthority": "Echuca - Moama, ABS Census 2021 QuickStats, Significant Urban Area 2007, comparison column Victoria (read 10 October 2026): 22,568 people; median age 46; 6,168 families; 10,298 private dwellings; average 2.4 people per household; separate house 7,564 (86.2 percent; Vic 73.4; Australia 72.3); flat or apartment 21 (0.2 percent; Vic 12.1; Australia 14.2); Technicians and Trades Workers 1,621 (16.0 percent; Vic 12.6; Australia 12.9); car as driver 6,857 (67.5 percent; Vic 49.9; Australia 52.7); aged 20 to 24 1,051 (4.7 percent; Vic 6.3; Australia 6.2). ABS ASGS 2021 SUA area 350.96 square kilometres. ABS SAL 2021 polygons at least 80 percent inside (our overlay): Echuca, Echuca Village; Moama 28.6 percent inside. NSW Department of Education future and past term dates and Victorian Government school term dates (read 10 October 2026): NSW 2027 Term 2 Tuesday 27 April to Friday 2 July, Term 3 Monday 19 July to Friday 24 September, Term 4 Monday 11 October to Monday 20 December; Victoria 2027 Term 2 Monday 12 April to Friday 25 June, Term 3 Monday 12 July to Friday 17 September, Term 4 Monday 4 October to Friday 17 December. IANA tzdb australasia: Australia/Melbourne rule AV, Australia/Sydney rule AN, both 10:00 with daylight saving from the first Sunday in October to the first Sunday in April.",
+    "localProject": "Agent tool routing by jurisdiction. Victorian GTFS schedule (Department of Transport and Planning, CC BY 4.0, gtfs.zip last modified 4 October 2026), folder 6 regional bus, routes 6-a36 (1 Echuca - Echuca South), 6-a37 (2 Echuca - Echuca East), 6-a38 (3 Echuca - Moama), 6-Ec4 (4), 6-Ec5 (5 Echuca - 24 Lane); route 8 to Barmah excluded. Our code (scratchpad au/r7/ech_stops.py): 78 trips, 93 distinct stops; stop coordinates point-in-polygon against ABS SAL 2021: 62 Victoria (Echuca), 31 New South Wales (Moama); per route Vic/NSW: 1 34/0, 2 26/0, 3 1/28, 4 5/0, 5 1/4. Our code (ech_terms.py): weekdays 12 April to 20 December 2027 = 181; both in term 139; NSW only 11; Vic only 21; neither 10; disagree 32 (17.7 percent). Start gaps (NSW minus Vic): Term 2 15 days, Term 3 7, Term 4 7; end gaps 7, 7, 3 days.",
+    "requiredMentions": [
+      "22,568",
+      "6,168",
+      "10,298",
+      "7,564",
+      "6,857",
+      "Echuca Village",
+      "tool routing",
+      "17.7%",
+      "32 of 181"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Echuca - Moama Significant Urban Area (2007): people, median age, families, dwellings, dwelling structure, occupation, travel to work, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/2007"
+      },
+      {
+        "claim": "Victorian GTFS schedule, Department of Transport and Planning (regional bus routes and stops, Echuca).",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "NSW Department of Education, future and past NSW term and vacation dates (2027).",
+        "url": "https://education.nsw.gov.au/schooling/calendars/future-and-past-nsw-term-and-vacation-dates"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays (2027).",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundaries, used to place each stop in a state.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer/0"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne and Australia/Sydney.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "NSW Term 1 2027 dates: they differ between Eastern and Western division schools, so the comparison starts at Term 2.",
+      "Which school any Moama student attends, or how many cross the bridge: not measured; the page says only that the router must use the school's state.",
+      "Listing Moama as a locality inside the urban area: only 28.6 percent of the Moama locality lies inside it.",
+      "Route 8 to Barmah: left out of the town-route counts.",
+      "Income, rent, ancestry, religion, health and Indigenous status figures: excluded by the cluster rules.",
+      "Any affiliation with the Victorian or NSW governments, the Department of Transport and Planning or Campaspe Shire Council."
+    ]
   }
 }
