@@ -460,6 +460,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agents classes in Ryde](/vibe-coding-and-ai-agents-classes-in-ryde-sydney)
 - [Online coding and Python classes in Strathfield](/online-coding-and-python-classes-in-strathfield-sydney)
 - [AI and programming classes in Burwood](/ai-and-programming-classes-in-burwood-sydney)
+- [Coding classes in Mount Isa](/best-coding-classes-in-mount-isa)
 <!-- AU-LINKS -->
 
 

@@ -21313,6 +21313,54 @@
   to = "/src/pages/best-coding-and-ai-classes-in-willoughby-sydney.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-epping-sydney"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-epping-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-epping-sydney.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-epping-sydney.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-kellyville-sydney"
+  to = "/src/pages/best-coding-and-ai-classes-in-kellyville-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-kellyville-sydney.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-kellyville-sydney.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-chatswood-sydney"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-chatswood-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-chatswood-sydney.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-chatswood-sydney.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-hurstville-sydney"
+  to = "/src/pages/online-coding-and-python-classes-in-hurstville-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-hurstville-sydney.md"
+  to = "/src/pages/online-coding-and-python-classes-in-hurstville-sydney.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

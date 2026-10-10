@@ -937,6 +937,10 @@ const MARKETS = [
   ['online-coding-and-python-classes-in-sutherland-shire-sydney', 'Sutherland Shire, Sydney'],
   ['ai-and-programming-classes-in-north-sydney-sydney', 'North Sydney, Sydney'],
   ['best-coding-and-ai-classes-in-willoughby-sydney', 'Willoughby, Sydney'],
+  ['vibe-coding-and-ai-agents-classes-in-epping-sydney', 'Epping, Sydney'],
+  ['best-coding-and-ai-classes-in-kellyville-sydney', 'Kellyville, Sydney'],
+  ['vibe-coding-and-ai-agents-classes-in-chatswood-sydney', 'Chatswood, Sydney'],
+  ['online-coding-and-python-classes-in-hurstville-sydney', 'Hurstville, Sydney'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

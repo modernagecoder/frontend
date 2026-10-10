@@ -43224,5 +43224,207 @@
       "Enrolment, ICSEA, Indigenous, LBOTE and selective columns of the master dataset: excluded by the cluster rules.",
       "Any affiliation with Transport for NSW, the NSW Department of Education, Willoughby City Council or the ABS."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-epping-sydney": {
+    "market": "Epping",
+    "bodyClass": "cg-epsy",
+    "pageType": "city",
+    "curriculumAuthority": "Epping, ABS Census 2021 QuickStats, Epping (NSW) suburb and locality SAL11431 (read 10 October 2026): 29,551 people; median age 36 (NSW 39); 8,399 families; 11,515 private dwellings; average 2.8 people per household; flats or apartments 47.4% (4,904), separate houses 42.6% (4,398), semi-detached 9.8% (1,012); couple families with children 52.9% (4,443); professionals 44.4% (6,396); bachelor degree or higher 55.9%; aged 10 to 14 6.9% (2,036). ABS ASGS 2021 SAL area 6.8382 square kilometres; our grid estimate places 100% of the suburb in the City of Parramatta LGA. NSW Department of Education 2027 calendar, Eastern division: students Term 1 from Wednesday 3 February 2027; summer holidays Friday 18 December 2026 to Wednesday 27 January 2027.",
+    "localProject": "Unexpected category values in an agent allow-list filter. Transport for NSW Train Station Entries and Exits (CC BY), August 2026 entry rows: Train 289, Light rail 65, Metro 16, Metro Shared 5 (Central, Chatswood, Epping, Martin Place, Sydenham); all types present from October 2024. Train-only ranking: Town Hall 1,832,430, Wynyard 1,147,663, Parramatta 1,058,394. With Metro Shared: Central 2,358,027 first, Epping 435,308 14th. Metro Shared 19.07% of numeric Train plus Metro Shared entries (our arithmetic). 16 entry values \"Less than 50\" excluded. Epping October 2024 370,793. NSW schools master dataset rows with Town_suburb Epping: 5 (Epping Public School 1901, Epping West Public School 1927, Epping Heights Public School 1956, Karonga School 1974, Ngarala Public School 2023), all LGA Parramatta.",
+    "requiredMentions": [
+      "29,551",
+      "8,399",
+      "11,515",
+      "4,904",
+      "4,443",
+      "Epping West Public School",
+      "Epping Heights Public School",
+      "435,308",
+      "2,358,027"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Epping (NSW) suburb and locality (SAL11431): people, median age, families, dwellings, dwelling structure, family composition, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL11431"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits: monthly station usage from Opal data, with Station_Type values (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) suburbs and localities and local government areas: boundaries used for the council check.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates and school holidays, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That \"Metro Shared\" is a new or recently added category: it appears from October 2024, the first month in the file.",
+      "Any explanation of what \"Metro Shared\" means operationally: the file does not define it, so the page only reports the label.",
+      "Treating Opal entries as people: entries are gate taps.",
+      "Income, rent, mortgage, tenure, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Enrolment, ICSEA, Indigenous, LBOTE and selective columns of the master dataset: excluded by the cluster rules.",
+      "Any affiliation with Transport for NSW, the NSW Department of Education, City of Parramatta Council or the ABS."
+    ]
+  },
+  "best-coding-and-ai-classes-in-kellyville-sydney": {
+    "market": "Kellyville",
+    "bodyClass": "cg-kely",
+    "pageType": "city",
+    "curriculumAuthority": "Kellyville, ABS Census 2021 QuickStats, Kellyville suburb SAL12096 (read 10 October 2026): 27,011 people; median age 38; 7,590 families; 8,555 private dwellings; 3.3 people per household; separate house 7,104 (87.7 percent; NSW 65.6; Australia 72.3); flat or apartment 420 (5.2 percent; NSW 21.7); age 5 to 9 2,125 (7.9 percent; NSW 6.2); age 10 to 14 2,159 (8.0 percent; NSW 6.2); Bachelor Degree level and above 8,588 (40.6 percent; NSW 27.8; Australia 26.3); Managers 2,622 (18.9 percent; NSW 14.6). Council: 4,000 random points inside the ABS SAL boundary all fall in The Hills Shire LGA (ABS ASGS 2021 boundaries). NSW 2027 Eastern division winter holidays Monday 5 July to Friday 16 July. IANA Australia/Sydney daylight saving Sunday 4 October 2026 to Sunday 4 April 2027.",
+    "localProject": "Monotonic stack, next greater element. Transport for NSW monthly station entries (CC BY), Kellyville Station, Station_Type Metro, Entry, October 2024 to August 2026: 102128, 97559, 97269, 88086, 96287, 112923, 100270, 109235, 105621, 102698, 105644, 107644, 111697, 101568, 95167, 87000, 102709, 115666, 101498, 112190, 110127, 107454, 119415. Waits (months until strictly greater): 5,4,3,1,1,12,1,5,2,1,1,1,5,3,2,1,1,5,1,3,2,1,none. Ten months beaten next month; March 2025 waits 12 (beaten by March 2026, 115,666); August 2026 never beaten. Stack: 45 operations (23 pushes, 22 pops); brute-force forward scan: 61 comparisons; same values sorted descending: brute force 253 comparisons, stack 23 pushes. All 338 stations with numeric entries in all 23 months: stack 14,430 operations, brute force 21,231 comparisons; both methods agree on every wait. First-teacher dates (NSW Department of Education master dataset, Date_extracted 2026-10-02, Town_suburb Kellyville): Kellyville Public School 1873-11-01; Kellyville High School 2003-01-29; Sherwood Ridge Public School 2004-01-27.",
+    "requiredMentions": [
+      "27,011",
+      "7,590",
+      "2,125",
+      "7,104",
+      "2,159",
+      "112,923",
+      "119,415",
+      "115,666",
+      "Sherwood Ridge Public School"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Kellyville (SAL12096).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL12096"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits, monthly station usage (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates and school holidays.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 boundaries (SAL and LGA), geo.abs.gov.au map services.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reason why one month was busier than another at Kellyville Station: not claimed.",
+      "That station entries equal individual passengers: not claimed; the count is gate entries.",
+      "Details of the School for Specific Purposes in Kellyville: left out because they concern students' needs.",
+      "Income, mortgage, rent, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "A complete list of suburbs in The Hills Shire: not given.",
+      "Any affiliation with Transport for NSW, the NSW Department of Education, The Hills Shire Council or the ABS."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-chatswood-sydney": {
+    "market": "Chatswood",
+    "bodyClass": "cg-chsw",
+    "pageType": "city",
+    "curriculumAuthority": "Chatswood, ABS Census 2021 QuickStats, Chatswood suburb SAL10891 (read 10 October 2026): 25,553 people; median age 37; 6,937 families; 11,129 private dwellings; 2.5 people per household; flat or apartment 6,442 (67.6 percent; NSW 21.7; Australia 14.2); separate house 2,660 (27.9 percent; NSW 65.6); Bachelor Degree level and above 11,221 (52.7 percent; NSW 27.8; Australia 26.3); Professionals 4,821 (39.6 percent; NSW 25.8); Walked only 856 (7.0 percent; NSW 2.5); Worked at home 6,073 (49.9 percent). Council: 4,000 random points inside the ABS SAL boundary all fall in Willoughby LGA. IANA Australia/Sydney daylight saving Sunday 4 October 2026 to Sunday 4 April 2027.",
+    "localProject": "Trajectory evaluation. Transport for NSW monthly station entries (CC BY), Chatswood Station, Station_Type Metro Shared (5 of 383 stations carry that label), Entry, October 2024 to August 2026: 805797, 797300, 755816, 686889, 776344, 864970, 785227, 841439, 830132, 812973, 843763, 846971, 880189, 850319, 794279, 724159, 809054, 867365, 813555, 888501, 869428, 877023, 949108. Busiest month August 2026 (949,108); quietest January 2025 (686,889). Agent A reads all 23 months numerically; agent B reads the last 3 months; agent C reads all 23 and compares as strings. Chatswood: all three answer August 2026. Across 338 stations with numeric counts in all 23 months: A 338 correct (7,774 calls), B 29 correct (1,014 calls), C 259 correct (exactly the stations whose counts all have the same number of digits). Busiest month across stations: March 2026 at 177 of 338. First-teacher dates (NSW Department of Education master dataset, Town_suburb Chatswood): Chatswood Public School 1883-07-01; Chatswood High School 1959-01-01.",
+    "requiredMentions": [
+      "25,553",
+      "6,937",
+      "11,129",
+      "6,442",
+      "11,221",
+      "724,159",
+      "686,889",
+      "Chatswood Public School",
+      "Metro Shared"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Chatswood (SAL10891).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10891"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits, monthly station usage (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 boundaries (SAL and LGA), geo.abs.gov.au map services.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Which train lines or metro services use Chatswood Station: not verified from the data file, so only the file label Metro Shared is quoted.",
+      "Any cause for busy or quiet months, including school holidays: not claimed.",
+      "That the agents represent any commercial product: they are teaching scripts written by us.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Transport for NSW, Willoughby City Council, the NSW Department of Education or the ABS."
+    ]
+  },
+  "online-coding-and-python-classes-in-hurstville-sydney": {
+    "market": "Hurstville",
+    "bodyClass": "cg-hurv",
+    "pageType": "city",
+    "curriculumAuthority": "Hurstville, ABS Census 2021 QuickStats, Hurstville suburb SAL11971 (read 10 October 2026): 31,162 people; median age 33; 8,232 families; 11,976 private dwellings; 2.8 people per household; age 20 to 24 3,606 (11.6 percent; NSW 6.1; Australia 6.2); flat or apartment 6,467 (61.4 percent; NSW 21.7); Train 1,924 (13.3 percent; NSW 1.7); Bachelor Degree level and above 10,337 (38.1 percent; NSW 27.8); Tertiary University or other higher education 2,926 (28.4 percent of those attending education; NSW 15.3). Council: 4,000 random points inside the ABS SAL boundary all fall in Georges River LGA. IANA Australia/Sydney daylight saving Sunday 4 October 2026 to Sunday 4 April 2027.",
+    "localProject": "Fisher-Yates vs naive shuffle. Exact enumeration on four station names [Hurstville, Penshurst, Mortdale, Oatley]: naive (for i: j = randrange(n); swap) has 256 equally likely runs over 24 orders, run counts per order 8 (2 orders), 9 (4), 10 (7), 11 (7), 14 (3), 15 (1); most common order Penshurst, Hurstville, Oatley, Mortdale 15/256 = 5.86 percent; least Oatley, Hurstville, Penshurst, Mortdale 8/256 = 3.13 percent; Hurstville in each position 64 times. Fisher-Yates (j from i to n-1): 24 runs, one per order. Simulation, 1,000,000 shuffles each, seed 2026, nine stations [Hurstville, Penshurst, Mortdale, Oatley, Beverly Hills, Allawah, Carlton, Kogarah, Riverwood]: naive first-place counts 111276, 142257, 130680, 121101, 112650, 104866, 98454, 91815, 86901; Fisher-Yates first-place counts range 110,656 to 111,493; fair 111,111. Station council areas: NSW Spatial Services NSW_Transport_Theme points tested against ABS LGA 2021 (all nine Georges River). Transport for NSW monthly entries (CC BY) Hurstville Station August 2026: 499,555. First-teacher dates (NSW Department of Education master dataset, Town_suburb Hurstville): Hurstville Public School 1876-10-01; Hurstville South Public School 1915-06-01.",
+    "requiredMentions": [
+      "31,162",
+      "8,232",
+      "11,976",
+      "1,924",
+      "6,467",
+      "142,257",
+      "86,901",
+      "130,680",
+      "Hurstville South Public School"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Hurstville (SAL11971).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL11971"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits, monthly station usage (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Transport Theme feature service (station points).",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Transport_Theme/FeatureServer"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "Python documentation, random.shuffle.",
+        "url": "https://docs.python.org/3/library/random.html#random.shuffle"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That Narwee station is in Georges River: our check placed it in Canterbury-Bankstown, so it was dropped from the station list.",
+      "Which lines serve each station: not verified from the files used, so not stated.",
+      "Details of the School for Specific Purposes in Hurstville: left out as they concern students' needs.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Transport for NSW, NSW Spatial Services, Georges River Council, the NSW Department of Education or the ABS."
+    ]
   }
 }
