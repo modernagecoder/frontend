@@ -45580,5 +45580,61 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with Monash City Council, Monash University, the Victorian Department of Education or the Department of Transport and Planning."
     ]
+  },
+  "ai-and-programming-classes-in-hume-melbourne": {
+    "market": "Hume",
+    "bodyClass": "cg-hume",
+    "pageType": "city",
+    "curriculumAuthority": "Hume City Council, ABS Census 2021 QuickStats, LGA23270 (read 10 October 2026): 243,901 people; median age 33; 63,644 families; 83,928 private dwellings; 3.1 people per household; 2 vehicles per dwelling; aged 0-4 18,851 (7.7%); 5-9 18,924 (7.8%); bachelor or higher 38,291 (20.2%, Victoria 29.2%); professionals 17,264 (16.8%, Victoria 25.0%); worked at home 18,302 (17.8%, lockdown Census day); separate houses 66,487 (87.8%, Victoria 73.4%); flats 2,242 (3.0%, Victoria 12.1%). ABS LGA area 503.85 square kilometres. Victorian School Locations 2025: 49 government schools in Hume (C): 34 primary, 9 secondary, 1 Pri/Sec, 5 special. DTP FY24-25 metro stations inside the polygon: Sunbury 691,050; Upfield 264,250; Broadmeadows 878,300; Roxburgh Park 498,650; Craigieburn 1,508,250; Coolaroo 281,400. 2027 Term 1: 28 January to 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027.",
+    "localProject": "Target leakage in a secondary-vs-not classifier for government schools (Victorian School Locations 2025, metro councils, types Primary/Secondary/Pri/Sec/Special). Hume 49 schools (9 secondary); other metro councils 854. Always not-secondary: Hume 40/49 (81.6%), others 688/854 (80.6%). Name contains \"College\": Hume 48/49 (98.0%; miss Mount Ridley P-12 College, Pri/Sec), others 785/854 (91.9%). Name contains \"Secondary College\" or \"High School\": Hume 47/49 (95.9%; misses Sunbury College, Roxburgh College), others 817/854 (95.7%). 5-nearest-neighbour vote on school coordinates trained on other councils: Hume 40/49 (81.6%), predicted 0 secondary, ties the baseline. Script: scratchpad au/b8/hume.py.",
+    "requiredMentions": [
+      "243,901",
+      "63,644",
+      "83,928",
+      "18,924",
+      "66,487",
+      "38,291",
+      "878,300",
+      "Sunbury College",
+      "48 of 49"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Hume local government area (LGA23270).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA23270"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council polygons and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "scikit-learn documentation, Common pitfalls and recommended practices: data leakage.",
+        "url": "https://scikit-learn.org/stable/common_pitfalls.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That school names are assigned by any formal rule: not claimed; the page says names follow habits with exceptions.",
+      "Naming or describing specific-purpose schools: counted only.",
+      "Catholic and independent school counts: not used in the project.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Sums of Census age bands into a child total: not computed.",
+      "Any affiliation with Hume City Council or the Victorian Department of Education."
+    ]
   }
 }
