@@ -43984,5 +43984,107 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with Inner West Council, Transport for NSW, the NSW Department of Education or the ABS."
     ]
+  },
+  "best-coding-and-ai-classes-in-rouse-hill-sydney": {
+    "market": "Rouse Hill",
+    "bodyClass": "cg-rshl",
+    "pageType": "city",
+    "curriculumAuthority": "Rouse Hill, ABS Census 2021 QuickStats, Rouse Hill (NSW) suburb and locality SAL13444 (read 10 October 2026): 11,349 people; median age 34; 3,092 families; 4,159 private dwellings; separate houses 54.4% (2,000), semi-detached or townhouse 19.9% (732), flats or apartments 25.4% (932); couple families with children 57.8% (1,788); bachelor degree or higher 36.0% (3,238); managers 17.3% (1,087); professionals 28.2% (1,772); aged 10 to 14 7.3% (828); aged 15 to 19 8.1% (925). ABS ASGS 2021 SAL area 12.8226 square kilometres. NSW Department of Education 2027 term dates, Eastern division: students Term 1 Wednesday 3 February to Friday 9 April 2027. NSW Department of Education master dataset: Rouse Hill Public School (1875), Ironbark Ridge Public School (2005), Rouse Hill High School (2009) under The Hills; Tallawong Public School (2024) under Blacktown.",
+    "localProject": "Line coverage vs branch coverage. Transport for NSW monthly station usage (Opal batch data, CC BY), October 2024 to August 2026, 17,218 rows. Rouse Hill Station (Metro): 46 rows, all whole numbers; a three-line cleaner passes all 46 tests with 3 of 3 body lines run and 1 of 2 if outcomes; on the full file 745 rows read \"Less than 50\" (722 Train, 23 Light rail; 368 entry, 377 exit) across 31 stations, each raising UnboundLocalError. Rouse Hill entries: lowest 101,049 (January 2025), highest 151,886 (August 2026), 23-month sum 2,946,119 (ours), ninth of 16 Metro-type stations by entries.",
+    "requiredMentions": [
+      "11,349",
+      "3,092",
+      "4,159",
+      "2,946,119",
+      "151,886",
+      "101,049",
+      "Ironbark Ridge Public School",
+      "Tallawong Public School",
+      "12.8 square kilometres"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Rouse Hill (NSW) suburb and locality (SAL13444): people, median age, families, dwellings, dwelling structure, family composition, education, occupation, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL13444"
+      },
+      {
+        "claim": "Transport for NSW, Train, Metro and Light Rail Station Monthly Usage, Opal batch data (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations (Creative Commons Attribution); school name, suburb, council and first-teacher date only.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) suburbs and localities: Rouse Hill area.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Why Rouse Hill Station entries rose or fell in any month: not stated by the publisher, so no cause is given.",
+      "How Rouse Hill splits between The Hills and Blacktown councils by area: not verified; only the school list's council column is quoted.",
+      "Journey to work and working at home figures from the 2021 Census: excluded because the Census was taken during a lockdown period.",
+      "Income, rent, mortgage, tenure, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Enrolment, ICSEA, Indigenous, LBOTE and selective columns of the school dataset: excluded by the cluster rules.",
+      "Any affiliation with Transport for NSW, Sydney Metro, the NSW Department of Education or the ABS."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-randwick-sydney": {
+    "market": "Randwick",
+    "bodyClass": "cg-rdwk",
+    "pageType": "city",
+    "curriculumAuthority": "Randwick, ABS Census 2021 QuickStats, Randwick local government area LGA16550 (read 10 October 2026): 134,252 people; median age 37; 33,700 families; 59,773 private dwellings; 2.4 people per household; flats or apartments 55.5% (28,527); separate houses 26.8% (13,790); bachelor degree or higher 43.3% (49,178); professionals 37.1% (25,647); worked at home 45.2% (31,221, lockdown Census day); drove to work 27.1% (18,700); walked only 4.1%; bicycle 1.0%. Transport for NSW station usage file, light rail Entry rows, August 2026: UNSW Anzac Parade 119,668; Randwick 99,155; UNSW High Street 94,948; Juniors Kingsford 74,860; Kingsford 45,786; Kensington 40,528; ES Marks 27,198; Royal Randwick 25,878; Wansey Road 23,021; published months October 2024 to August 2026. NSW government schools file (Date_extracted 2026-10-02): 16 schools in the LGA (11 primary, 3 secondary); La Perouse Public School 1868, Coogee Public School 1876, Randwick Public School 1883. NSW 2027 Eastern division Term 1: 3 February to 9 April. Sydney daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Tool argument validation for an agent: lookup(stop, month) over nine light rail stops. 20 scripted requests, 14 answerable, 6 not (ambiguous UNSW, 2026-09 and 2024-09 out of range, month 13, Coogee not a stop, \"last month\"). Naive tool (substring match, default month): 9 right, 5 wrong stop or month, 6 invented answers. Validating tool (tidy words, abbreviations, exact or unique match, four month formats, range check): 14 right, 0 wrong, 6 refused with reasons. Requests and validator written by us, so the score flatters it. Script: scratchpad au/b4/rdwk2.py.",
+    "requiredMentions": [
+      "134,252",
+      "33,700",
+      "59,773",
+      "28,527",
+      "13,790",
+      "49,178",
+      "25,647",
+      "31,221",
+      "99,155",
+      "119,668"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Randwick local government area (LGA16550).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA16550"
+      },
+      {
+        "claim": "Transport for NSW, Train, Metro and Light Rail Station Monthly Usage from November 2024, based on Opal batch data (Creative Commons Attribution), file updated 15 September 2026.",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution), Date_extracted 2026-10-02.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates (Eastern division).",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That the validating tool would score 14 of 14 on real conversations: not claimed; we wrote the requests and the checks.",
+      "Any total of entries across the nine stops: not computed.",
+      "Which council area each stop lies in: not checked or claimed; stops are named only.",
+      "Passenger numbers including untapped trips: not available; the file counts tap-on entries only.",
+      "Names of schools for specific purposes: not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Randwick City Council, Transport for NSW, UNSW, the NSW Department of Education or the ABS."
+    ]
   }
 }
