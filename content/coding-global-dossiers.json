@@ -45694,5 +45694,61 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with Whitehorse City Council, the Victorian Department of Education or the Department of Transport and Planning."
     ]
+  },
+  "best-coding-and-ai-classes-in-brimbank-melbourne": {
+    "market": "Brimbank",
+    "bodyClass": "cg-brim",
+    "pageType": "city",
+    "curriculumAuthority": "Brimbank City Council, ABS Census 2021 QuickStats, LGA21180 (read 10 October 2026): 194,618 people; median age 37; 51,032 families; 71,808 private dwellings; 2.9 people per household; 1.9 vehicles per dwelling; aged 0-4 10,994 (5.6%); 5-9 11,743 (6.0%); bachelor or higher 31,853 (19.8%, Victoria 29.2%); professionals 13,915 (16.8%, Victoria 25.0%); worked at home 14,851 (17.9%, lockdown Census day); separate houses 52,121 (81.5%, Victoria 73.4%); flats 2,731 (4.3%, Victoria 12.1%). ABS LGA area 123.40 square kilometres. Victorian School Locations 2025: 38 government schools in Brimbank (C): 29 primary, 6 secondary, 3 special. DTP FY24-25 metro stations inside the polygon, rank of 222: Sunshine 15 (1,577,600), Watergardens 23 (1,295,450), St Albans 35 (962,650), Ginifer 64 (624,500), Keilor Plains 68 (599,750), Albion 114 (413,900). 2027 Term 1: 28 January to 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027.",
+    "localProject": "Top-k selection on DTP FY24-25 annual entries, 222 stations, comparisons counted with a __lt__ counter. heapq.nlargest vs sorted(reverse=True)[:k], identical results every time. k=1: 221 vs 1,435; k=5: 281 vs 1,435; k=15: 514 vs 1,435; k=50: 996 vs 1,435; k=100: 1,532 vs 1,435 (sort wins); k=200: 1,734 vs 1,435. Top-5 input order: ascending 829, descending 232, 200 random shuffles min 259, mean 287.9, max 317. One tied value (Ashburton and Westgarth, 201,950), outside the top 15. Script: scratchpad au/b8/brim.py.",
+    "requiredMentions": [
+      "194,618",
+      "51,032",
+      "71,808",
+      "11,743",
+      "52,121",
+      "31,853",
+      "1,577,600",
+      "1,435",
+      "Keilor Plains"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Brimbank local government area (LGA21180).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA21180"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council polygons and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "Python documentation, heapq: nlargest is equivalent to sorted(...)[:n] and performs best for smaller values of n.",
+        "url": "https://docs.python.org/3/library/heapq.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That Watergardens or any station officially belongs to Brimbank: not claimed; membership is our point-in-polygon test.",
+      "That heapq is always faster: not claimed; sorting wins from about k = 100 on this list.",
+      "Catholic and independent school counts: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Sums of Census age bands into a child total: not computed.",
+      "Any affiliation with Brimbank City Council or the Victorian Department of Education."
+    ]
   }
 }

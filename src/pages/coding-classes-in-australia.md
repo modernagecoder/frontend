@@ -508,6 +508,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agents classes in Box Hill](/vibe-coding-and-ai-agents-classes-in-box-hill-melbourne)
 - [Online coding and Python classes in Doncaster](/online-coding-and-python-classes-in-doncaster-melbourne)
 - [AI and programming classes in Point Cook](/ai-and-programming-classes-in-point-cook-melbourne)
+- [Coding and AI classes in Werribee](/best-coding-and-ai-classes-in-werribee-melbourne)
 <!-- AU-LINKS -->
 
 
