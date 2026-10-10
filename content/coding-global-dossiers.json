@@ -43681,5 +43681,57 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with Transport for NSW, the NSW Department of Education or the ABS."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-lane-cove-sydney": {
+    "market": "Lane Cove",
+    "bodyClass": "cg-lncv",
+    "pageType": "city",
+    "curriculumAuthority": "Lane Cove, ABS Census 2021 QuickStats, Lane Cove local government area LGA14700 (read 10 October 2026): 39,438 people; median age 37; 10,827 families; 17,320 private dwellings; average 2.4 people per household; flats or apartments 56.7% (8,750); separate houses 37.8% (5,832); bachelor degree or higher 56.7% (18,279); professionals 43.5% (9,507); worked at home 55.7% (12,160, Census day in the 2021 lockdown); aged 10 to 14 2,245 (5.7%). NSW government schools file (Date_extracted 2026-10-02): 3 schools in the LGA, all primary: Lane Cove Public School (first teacher February 1876), Greenwich Public School (October 1876), Lane Cove West Public School (1951). NSW 2027 Eastern division Term 1: 3 February to 9 April. Sydney daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Conversation state for an agent. Data: ABS QuickStats for Lane Cove LGA14700 (39,438; 37; 56.7%; 55.7%), Mosman LGA15350 (28,329; 45; 52.0%; 58.8%), Ryde LGA16700 (129,123; 37; 44.6%; 46.0%), North Sydney LGA15950 (68,950; 38; 75.7%; 60.9%), columns residents, median age, flats share, worked-at-home share. Four scripted conversations, 21 user turns. Correct: stateless 5 of 21; one-slot memory 13 of 21 (fails comparisons and group questions); topic-list memory 20 of 21 (fails the turn asking to leave North Sydney out). Script: scratchpad au/b4/lncv3.py.",
+    "requiredMentions": [
+      "39,438",
+      "10,827",
+      "17,320",
+      "8,750",
+      "5,832",
+      "18,279",
+      "9,507",
+      "12,160",
+      "Greenwich Public School"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Lane Cove local government area (LGA14700).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA14700"
+      },
+      {
+        "claim": "ABS Census 2021 QuickStats, Mosman local government area (LGA15350).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA15350"
+      },
+      {
+        "claim": "ABS Census 2021 QuickStats, North Sydney local government area (LGA15950).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA15950"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution), Date_extracted 2026-10-02.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates (Eastern division).",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That the topic-list agent would score 20 of 21 on real conversations: not claimed; the test and the agent are our own.",
+      "That large language model assistants fail on these exact turns: not tested; the page says only that they can lose context.",
+      "Suburb-level figures for Greenwich or Lane Cove West: not used; all Census numbers are for the council area.",
+      "Any total formed by adding council areas together: not computed.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Lane Cove Council, the NSW Department of Education or the ABS."
+    ]
   }
 }

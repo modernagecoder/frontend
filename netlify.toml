@@ -21421,6 +21421,18 @@
   to = "/src/pages/best-coding-and-ai-classes-in-macquarie-park-sydney.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-lane-cove-sydney"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-lane-cove-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-lane-cove-sydney.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-lane-cove-sydney.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
