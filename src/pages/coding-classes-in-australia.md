@@ -497,6 +497,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Homebush](/online-coding-and-python-classes-in-homebush-sydney)
 - [AI and programming classes in Rhodes](/ai-and-programming-classes-in-rhodes-sydney)
 - [Coding and AI classes in Rouse Hill](/best-coding-and-ai-classes-in-rouse-hill-sydney)
+- [Vibe coding and AI agents classes in Schofields](/vibe-coding-and-ai-agents-classes-in-schofields-sydney)
 <!-- AU-LINKS -->
 
 
