@@ -45015,5 +45015,58 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with the City of Greater Dandenong, the Victorian Department of Education or the Department of Transport and Planning."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-camberwell-melbourne": {
+    "market": "Camberwell",
+    "bodyClass": "cg-cmbw",
+    "pageType": "city",
+    "curriculumAuthority": "Camberwell, ABS Census 2021 QuickStats, Camberwell (Vic.) suburb SAL20453 (read 10 October 2026): 21,965 people; median age 43; 5,875 families; 9,041 private dwellings; 2.6 people per household; bachelor degree or higher 52.2% (9,658; Victoria 29.2%); professionals 39.9% (4,399; Victoria 25.0%); aged 15-19 7.0% (1,539; Victoria 5.6%); car as driver 32.6% (3,588; Victoria 49.9%); semi-detached, row or terrace house, townhouse 21.7% (1,713; Victoria 13.9%); worked at home 43.9% (4,840, lockdown Census day). ABS SAL area 7.589 square kilometres. Five metropolitan stations inside the boundary: Camberwell, East Camberwell (185,950 FY24-25), Riversdale (144,000), Hartwell (138,050), Willison (73,100). Victorian School Locations 2025: 5 open schools inside the boundary (3 government, 2 Catholic), including Camberwell High School and Hartwell Primary School. Victorian 2027: government school students start Thursday 28 January; Term 3 Monday 12 July to Friday 17 September. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Temporal grounding of relative dates for an agent. Today 10 October 2026, current Australian financial year 2026-27; station-entry files FY18-19 to FY24-25. Camberwell entries: 1,969,600; 1,496,350; 641,150; 789,300; 1,631,400; 1,241,500; 1,260,400. 12 scripted phrases. Naive resolver (calendar year arithmetic from today, no existence check): 2 right (2023-24; two financial years ago), 5 wrong year (the year to June 2024 gave FY24-25 1,260,400 not FY23-24 1,241,500; FY23 gave 2023-24 not 2022-23; the 2019 financial year gave 2019-20 not 2018-19; three financial years before the latest one gave 2023-24 not 2021-22; in 2024 gave 2024-25 without asking), 5 silent no-answer (last financial year looked for FY25-26, this financial year FY26-27, the latest year you have, the year to June 2025, last year). Grounded resolver 12 of 12 (says FY25-26 and FY26-27 not published; asks on last year and in 2024). Script: scratchpad au/b7/cmbw.py.",
+    "requiredMentions": [
+      "21,965",
+      "5,875",
+      "9,041",
+      "1,260,400",
+      "1,241,500",
+      "1,969,600",
+      "Hartwell",
+      "Willison",
+      "Camberwell High School",
+      "7.59 square kilometres"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Camberwell (Vic.) suburb (SAL20453).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL20453"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL20453 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "How any commercial AI assistant resolves these phrases: not tested; the scores are for our two scripted resolvers.",
+      "Reasons for the change in Camberwell station entries between FY22-23 and FY23-24: not claimed.",
+      "Names of Catholic or independent schools: not used; counted only.",
+      "A total across the five Camberwell stations: not computed; published parts are never summed.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the City of Boroondara, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
   }
 }
