@@ -447,6 +447,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding classes in Armidale](/best-coding-classes-in-armidale)
 - [Online coding and Python classes in Whyalla](/online-coding-and-python-classes-in-whyalla)
 - [AI and programming classes in Gympie](/ai-and-programming-classes-in-gympie)
+- [Vibe coding and AI agents classes in Echuca](/vibe-coding-and-ai-agents-classes-in-echuca)
 <!-- AU-LINKS -->
 
 

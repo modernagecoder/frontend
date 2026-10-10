@@ -42680,5 +42680,53 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with NASA, OpenTopoData, the ABS or Logan City Council."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-ryde-sydney": {
+    "market": "Ryde",
+    "bodyClass": "cg-rydv",
+    "pageType": "city",
+    "curriculumAuthority": "Ryde, ABS Census 2021 QuickStats, Ryde local government area LGA16700 (read 10 October 2026): 129,123 people; median age 37 (NSW 39, Australia 38); 34,985 families; 55,669 private dwellings; average 2.5 people per household; separate house 20,016 (40.8 percent); flat or apartment 21,854 (44.6 percent; NSW 21.7; Australia 14.2); Professionals 24,337 (37.1 percent; NSW 25.8); Bachelor Degree level and above 50,196 (46.4 percent; NSW 27.8; Australia 26.3); age 20 to 24 8,607 (6.7 percent); age 10 to 14 6,283 (4.9 percent). NSW 2027 term dates, Eastern division: Term 1 Wednesday 3 February to Friday 9 April. IANA tz Australia/Sydney daylight saving Sunday 4 October 2026 to Sunday 4 April 2027. Transport for NSW monthly station usage (CC BY), August 2026 entries: Macquarie University Station, Metro, 482,099; West Ryde Station, Train, 113,714.",
+    "localProject": "Retrieval chunking for an agent. NSW Department of Education master dataset (CC BY), Date_extracted 2026-10-02, LGA = Ryde: 19 schools (Primary 14, Secondary 3, EEC 1, SSP 1). One sentence per school (name, level, Town_suburb, postcode, Date_1st_teacher; School_subtype excluded), 2,284 characters. 19 questions \"When did <school> first have a teacher?\". Retrieval score = number of distinct non-stop-word tokens shared; first top-scoring chunk taken. Success = school name and date both in the retrieved chunk. Fixed characters, no overlap: 60 0/19, 120 1/19, 200 8/19, 400 10/19, 800 14/19, whole text 19/19. With 25 percent overlap: 60 0, 120 0, 200 4, 400 11, 800 13. Sentences per chunk 1: 16/19; 2: 13; 3: 14; 5: 14. One-sentence failures: Eastwood Public School -> Denistone East Public School (Town_suburb Eastwood); Ryde Public School -> Ermington Public School (Town_suburb West Ryde); West Ryde Public School -> Ermington Public School. Earliest Date_1st_teacher Ryde Public School 1868-01-01, North Ryde Public School 1878-01-01, Gladesville Public School 1879-04-01.",
+    "requiredMentions": [
+      "129,123",
+      "34,985",
+      "55,669",
+      "21,854",
+      "50,196",
+      "Ermington Public School",
+      "Eastwood Public School",
+      "113,714",
+      "482,099"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Ryde local government area (LGA16700).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA16700"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits, monthly station usage (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "School subtype of the School for Specific Purposes: left out of the text and the page, as it concerns students' needs.",
+      "That the address suburbs are a complete list of suburbs in the City of Ryde: not claimed; only school addresses are listed.",
+      "That embeddings would fix all three failures: not tested, so the page only suggests trying them.",
+      "Which council area each station lies in: not verified, so stations are named without council claims.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education, City of Ryde, Transport for NSW or the ABS."
+    ]
   }
 }
