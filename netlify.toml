@@ -21385,6 +21385,18 @@
   to = "/src/pages/ai-and-programming-classes-in-bankstown-sydney.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-cherrybrook-sydney"
+  to = "/src/pages/ai-and-programming-classes-in-cherrybrook-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-cherrybrook-sydney.md"
+  to = "/src/pages/ai-and-programming-classes-in-cherrybrook-sydney.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
