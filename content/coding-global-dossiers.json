@@ -43074,5 +43074,58 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with the NSW Department of Education, the ABS or Campbelltown City Council."
     ]
+  },
+  "online-coding-and-python-classes-in-sutherland-shire-sydney": {
+    "market": "Sutherland Shire",
+    "bodyClass": "cg-suth",
+    "pageType": "city",
+    "curriculumAuthority": "Sutherland Shire, ABS Census 2021 QuickStats, Sutherland Shire local government area LGA17150 (read 10 October 2026): 230,211 people; median age 41 (New South Wales 39, Australia 38); 64,749 families; 90,913 private dwellings; average 2.7 people per household; separate houses 60.8% (50,676), semi-detached, terrace or townhouse 13.9% (11,559), flats or apartments 24.8% (20,656); managers 17.1% (20,035); professionals 26.3% (30,922); advanced diploma or diploma 11.9% (22,290); aged 10 to 14 14,824 (6.4%). ABS ASGS 2021 LGA boundary area 333.5806 square kilometres. NSW Department of Education 2027 calendar, Eastern division: students Term 1 from Wednesday 3 February 2027; summer holidays Friday 18 December 2026 to Wednesday 27 January 2027.",
+    "localProject": "namedtuple records vs positional indexes. Transport for NSW Train Station Entries and Exits (CC BY), 598 rows for the 13 stations whose NSW Transport Theme points ((c) Spatial Services) fall inside the ABS Sutherland Shire LGA polygon, October 2024 to August 2026, none \"Less than 50\". Filter on column index 2 = Entry: 0 rows; on column 3 or the named field direction: 299 rows. August 2026 entries Sutherland 152,354, Miranda 81,783, Cronulla 61,856, Caringbah 61,198, Jannali 57,285, Gymea 44,524, Kirrawee 42,051, Woolooware 28,792, Engadine 28,748, Como 15,773, Heathcote 11,931, Loftus 9,983, Waterfall 9,839; exits Waterfall 10,223 above Loftus 9,139. Minimum monthly entries Loftus January 2025 5,529. NSW schools master dataset rows with LGA Sutherland: 62; earliest first teachers Sylvania Public School 1884, Heathcote Public School 1886, Sutherland Public School 1887.",
+    "requiredMentions": [
+      "230,211",
+      "64,749",
+      "90,913",
+      "11,559",
+      "20,035",
+      "Sylvania Public School",
+      "152,354",
+      "598 rows",
+      "Lucas Heights Community School"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Sutherland Shire local government area (LGA17150): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA17150"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits: monthly station usage from Opal data (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "Python documentation, collections.namedtuple: factory function for tuples with named fields, _replace and _fields.",
+        "url": "https://docs.python.org/3/library/collections.html#collections.namedtuple"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates and school holidays, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reason why Miranda has more exits than entries: not verified, so no cause is given.",
+      "Treating Opal entries as people: entries are gate taps and the page never calls them passengers.",
+      "A list of Shire suburbs: not printed; only station locations were checked against the boundary.",
+      "Home ownership and tenure figures from QuickStats: excluded with the other money-related tables.",
+      "Enrolment, ICSEA, Indigenous, LBOTE and selective-school columns of the master dataset: excluded by the cluster rules.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Transport for NSW, the NSW Department of Education, Sutherland Shire Council or the ABS."
+    ]
   }
 }

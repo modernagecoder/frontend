@@ -453,6 +453,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in Grafton](/ai-and-programming-classes-in-grafton)
 - [Vibe coding and AI agents classes in Murray Bridge](/vibe-coding-and-ai-agents-classes-in-murray-bridge)
 - [Coding and AI classes in Parramatta](/best-coding-and-ai-classes-in-parramatta-sydney)
+- [Vibe coding and AI agents classes in Blacktown](/vibe-coding-and-ai-agents-classes-in-blacktown-sydney)
 <!-- AU-LINKS -->
 
 
