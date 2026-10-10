@@ -249,7 +249,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 229 | online-coding-and-python-classes-in-mosman-sydney (msmn, #426224) | cg- district page | 2,713 | 2.4% vs vibe-coding-and-ai-agents-classes-in-randwick-sydney | half-open intervals vs inclusive Census age bands | half-open intervals | 6086939c |
 | 230 | ai-and-programming-classes-in-northern-beaches-sydney (nbch, #34229E) | cg- district page | 2,847 | 2.3% vs ai-and-programming-classes-in-marrickville-sydney | random vs north-south block cross-validation for a neighbour model of SA2 median age | spatial block cross-validation | 92b63610 |
 | 231 | best-coding-and-ai-classes-in-inner-west-sydney (inwt, #42369E) | cg- district page | 2,776 | 2.3% vs ai-and-programming-classes-in-marrickville-sydney | base-month choice flips the light rail growth story at ten L1 stops | base-period index numbers (fixed vs chained vs averaged growth) | 6ea69dfc |
-| 232 | vibe-coding-and-ai-agents-classes-in-randwick-sydney (rdwk, #3C4080) | cg- district page | 2,740 | 2.5% vs ai-and-programming-classes-in-marrickville-sydney | agent tool that validates light rail stop names and months before answering | tool argument validation for an agent | (this commit) |
+| 232 | vibe-coding-and-ai-agents-classes-in-randwick-sydney (rdwk, #3C4080) | cg- district page | 2,740 | 2.5% vs ai-and-programming-classes-in-marrickville-sydney | agent tool that validates light rail stop names and months before answering | tool argument validation for an agent | 44ff2fd9 |
+| 234 | ai-and-programming-classes-in-marrickville-sydney (mkvl, #16347A) | cg- district page | 2,688 | 2.5% vs vibe-coding-and-ai-agents-classes-in-randwick-sydney | leave-one-measure-out explanation of why Dulwich Hill is Marrickville's nearest Census match | leave-one-feature-out explanation of a nearest-neighbour match | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
