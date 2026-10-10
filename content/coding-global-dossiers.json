@@ -45862,5 +45862,121 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with Manningham City Council or the Victorian Department of Education."
     ]
+  },
+  "online-coding-and-python-classes-in-maroondah-melbourne": {
+    "market": "Maroondah",
+    "bodyClass": "cg-mrdh",
+    "pageType": "city",
+    "curriculumAuthority": "Maroondah City Council, ABS Census 2021 QuickStats, LGA24410 (read 10 October 2026): 115,043 people; median age 39; 31,842 families; 46,870 private dwellings; 2.6 people per household; 1.9 vehicles per dwelling; aged 0-4 6,862 (6.0%); 5-9 7,251 (6.3%); bachelor or higher 28,262 (30.1%, Victoria 29.2%); professionals 15,617 (26.5%, Victoria 25.0%); worked at home 16,913 (28.7%, lockdown Census day); separate houses 37,499 (87.2%, Victoria 73.4%); flats 1,711 (4.0%, Victoria 12.1%). ABS LGA area 61.41 square kilometres. Victorian School Locations 2025: 23 government schools in Maroondah (C): 17 primary, 5 secondary, 1 special. DTP FY24-25 metro stations inside the polygon: Ringwood 1,514,250; Croydon 447,350; Ringwood East 268,800; Heathmont 199,600 (Heatherdale DTP point about 50 m outside). 2027 Term 1: 28 January to 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027.",
+    "localProject": "Streaming vs loading the Transport Victoria metropolitan train GTFS stop_times.txt (feed downloaded 10 October 2026; 688,380 data rows, 56.6 MB). 82 stop points inside the ABS LGA24410 polygon. Rows at those points: 12,164 (Ringwood Station 3,787; Heatherdale 2,995; Heathmont 1,802; Croydon 1,790; Ringwood East 1,790). readlines list: peak 90.1 MB, median 1.1 s of 3; file iteration: peak 0.035 MB, median 0.92 s. islice first 200,000 lines: list peak 25.67 MB, stream 0.035 MB, 4,971 matches. First matching line 16,976. Heatherdale GTFS platform points 62 m and 86 m inside; DTP patronage point about 50 m outside (local equirectangular). Scripts: scratchpad au/b8/mrdh.py, mrdh2.py.",
+    "requiredMentions": [
+      "115,043",
+      "31,842",
+      "46,870",
+      "7,251",
+      "37,499",
+      "28,262",
+      "688,380",
+      "12,164",
+      "1,514,250"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Maroondah local government area (LGA24410).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA24410"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council polygons and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Planning, GTFS Schedule (Creative Commons Attribution 4.0), metropolitan train and bus feeds.",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "Python documentation, tracemalloc: trace memory allocations, get_traced_memory() current and peak.",
+        "url": "https://docs.python.org/3/library/tracemalloc.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Trains per day at any station: not claimed; rows span every service day in the feed.",
+      "Which council Heatherdale officially belongs to: not claimed; the two data sets disagree and the page says so.",
+      "That streaming is much faster: not claimed; the measured gain is memory, time was similar.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Sums of Census age bands into a child total: not computed.",
+      "Any affiliation with Maroondah City Council or the Victorian Department of Education."
+    ]
+  },
+  "best-coding-and-ai-classes-in-bayside-melbourne": {
+    "market": "Bayside",
+    "bodyClass": "cg-bysd",
+    "pageType": "city",
+    "curriculumAuthority": "City of Bayside, ABS Census 2021 QuickStats, Bayside (Vic.) LGA20910 (read 11 October 2026): 101,306 people; median age 45; 27,964 families; 43,058 private dwellings; 2.5 people per household; bachelor degree or higher 44.0% (36,775; Victoria 29.2%); professionals 33.6% (16,991; Victoria 25.0%); separate houses 62.5% (23,722); semi-detached 22.7% (8,612); drove to work 35.6% (18,002; Victoria 49.9%); worked at home 43.0% (21,709, lockdown Census day); aged 5-9 5,913; aged 10-14 7,315. ABS area 37.2111 sq km. Victorian School Locations 2025: 28 schools with LGA_Name Bayside (C): 18 primary, 4 secondary, 4 Pri/Sec, 2 special; government secondaries Beaumaris Secondary College, Brighton Secondary College, Sandringham College. Stations inside the LGA boundary by our point-in-polygon check: Highett, Sandringham, Hampton, Brighton Beach, Middle Brighton, North Brighton, Gardenvale; Sandringham FY24-25 entries 710,850. Victorian 2027 Term 1 starts Thursday 28 January, ends Thursday 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "kd-tree nearest-neighbour search. 222 FY24-25 metropolitan station coordinates, converted to metres with an equirectangular projection at latitude -37.9; 28 Bayside schools from School Locations 2025. Brute force 28 x 222 = 6,216 distance checks; kd-tree 433 (min 8, max 30, mean 15.46); every answer identical. Median nearest straight-line distance 786.5 m; Cheltenham Primary School 217 m (Cheltenham); Hampton Primary School 537 m (Hampton); Brighton Secondary College 1,539 m (Patterson); Black Rock Primary School 2,630 m (Sandringham). 11 of 28 nearest stations outside Bayside (Cheltenham 4, Moorabbin 2, Bentleigh, Elsternwick, Mentone, Patterson, Ormond 1 each). Tree on raw degrees: different nearest station for 2 schools (Beaumaris Primary School: Cheltenham instead of Mentone, and one non-government school). Script: scratchpad au/b9/bysd.py.",
+    "requiredMentions": [
+      "101,306",
+      "27,964",
+      "36,775",
+      "7,315",
+      "6,216",
+      "433 distance checks",
+      "2,630",
+      "Sandringham College",
+      "Beaumaris Secondary College"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Bayside (Vic.) local government area (LGA20910).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA20910"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) LGA boundary LGA20910, geo.abs.gov.au map service, used for our point-in-boundary checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Bentley, J. L. (1975). Multidimensional binary search trees used for associative searching. Communications of the ACM 18(9), 509-517.",
+        "url": "https://doi.org/10.1145/361002.361007"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Walking or travel distances to stations: not computed; every distance is straight-line and labelled so.",
+      "That any school is or is not well served by trains: not claimed.",
+      "Non-government school names: two appear only in our working notes and are counted, not named; special schools are counted only.",
+      "Sector breakdowns, enrolments and school results: not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Bayside City Council, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
   }
 }

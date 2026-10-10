@@ -275,7 +275,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 247 | best-coding-and-ai-classes-in-werribee-melbourne (wrbe, #621836) | cg- district page | 2,492 | 2.2% vs best-coding-and-ai-classes-in-boroondara-melbourne | year-on-year station entries with LAG, and the missing PARTITION BY | SQL window function LAG for year-on-year change per station | 89426e02 |
 | 248 | vibe-coding-and-ai-agents-classes-in-tarneit-melbourne (trnt, #2A2690) | cg- district page | 2,524 | 1.8% vs ai-and-programming-classes-in-point-cook-melbourne | an agent tool that turns no rows into zero (metro vs regional station files) | agent tool coverage, an empty result is not a zero | a0edc049 |
 | 249 | online-coding-and-python-classes-in-craigieburn-melbourne (crgb, #3C4294) | cg- district page | 2,411 | 2.1% vs online-coding-and-python-classes-in-doncaster-melbourne | which stations vanish when two years of station files are joined | pandas merge indicator to audit keys between two years | 316221b5 |
-| 250 | ai-and-programming-classes-in-clayton-melbourne (clyt, #243E96) | cg- district page | 2,552 | 2.2% vs best-coding-and-ai-classes-in-boroondara-melbourne | a school-holiday model trained on unlike stations applied to Clayton | covariate shift | (this commit) |
+| 250 | ai-and-programming-classes-in-clayton-melbourne (clyt, #243E96) | cg- district page | 2,552 | 2.2% vs best-coding-and-ai-classes-in-boroondara-melbourne | a school-holiday model trained on unlike stations applied to Clayton | covariate shift | 0b55df5f |
+| 251 | best-coding-and-ai-classes-in-dandenong-melbourne (dndg, #263289) | cg- district page | 2,816 | 1.3% vs online-coding-and-python-classes-in-balwyn-melbourne | longest common subsequence of Pakenham and Cranbourne stopping patterns (metro GTFS, Wed 28 Oct 2026) | longest common subsequence (dynamic programming) | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
