@@ -44446,5 +44446,62 @@
       "Any total built by adding published Census parts.",
       "Any affiliation with the ABS, The Hills Shire Council or the NSW Department of Education."
     ]
+  },
+  "best-coding-and-ai-classes-in-glen-waverley-melbourne": {
+    "market": "Glen Waverley",
+    "bodyClass": "cg-glwv",
+    "pageType": "city",
+    "curriculumAuthority": "Glen Waverley, ABS Census 2021 QuickStats, Glen Waverley suburb SAL21013 (read 10 October 2026): 42,642 people; median age 40; 11,757 families; 16,537 private dwellings; 2.8 people per household; bachelor degree or higher 43.8% (15,584; Victoria 29.2%); professionals 33.7% (6,492; Victoria 25.0%); separate houses 79.1% (11,428); flats 10.2% (1,469); train to work 2.7% (515; Victoria 1.6%); worked at home 32.9% (6,350, lockdown Census day); aged 5-9 2,547; aged 10-14 2,912. Victorian School Locations 2025: 13 schools inside the SAL boundary (8 primary, 3 secondary, 2 special), including Glen Waverley Secondary College, Highvale Secondary College and Brentwood Secondary College. Glen Waverley and Syndal stations inside the boundary (station coordinates in the entries file). Victorian 2027 Term 1: students start Thursday 28 January, ends Thursday 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "SQLite index and EXPLAIN QUERY PLAN. Seven annual metropolitan station-entry files FY18-19 to FY24-25 loaded into one table: 1,555 rows, 225 distinct stop names. Query: SELECT fin_year, pax_annual WHERE stop_name = Glen Waverley ORDER BY fin_year. Plans: no index SCAN + temp B-tree for ORDER BY, 4,739 VM steps (progress handler, n=1); index on stop_name SEARCH USING INDEX + temp B-tree, 98 steps; index on (stop_name, fin_year) SEARCH, no sort, 55 steps. LIKE %Waverley matched 14 rows and scanned; lower(stop_name)= scanned. Laptop timing 155.6 vs 14.0 microseconds per lookup (machine dependent). Glen Waverley entries FY18-19 1,693,350; FY19-20 1,305,600; FY20-21 530,400; FY21-22 705,400; FY22-23 1,291,900; FY23-24 1,326,650; FY24-25 1,209,700 (71.4% of FY18-19). Script: scratchpad au/b6/glwv.py.",
+    "requiredMentions": [
+      "42,642",
+      "11,757",
+      "15,584",
+      "6,492",
+      "2,912",
+      "1,693,350",
+      "4,739",
+      "Highvale Secondary College",
+      "Brentwood Secondary College"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Glen Waverley suburb (SAL21013).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL21013"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "SQLite documentation, EXPLAIN QUERY PLAN (SCAN and SEARCH).",
+        "url": "https://www.sqlite.org/eqp.html"
+      },
+      {
+        "claim": "SQLite documentation, the query planner and indexes.",
+        "url": "https://www.sqlite.org/queryplanner.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "A reason for the fall in Glen Waverley entries between FY18-19 and FY24-25: not claimed; the page reports the published figures only.",
+      "A total of station entries for the Glen Waverley line formed by adding stations: not computed; published parts are never summed.",
+      "That the index makes the real Victorian transport systems faster: not claimed; the measurements are for our own SQLite table.",
+      "Timing as a fixed fact: the microsecond figures are from our laptop and labelled as machine dependent.",
+      "Catholic or independent school names and any school sector breakdown: not used; special schools are counted, not named.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the City of Monash, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
   }
 }
