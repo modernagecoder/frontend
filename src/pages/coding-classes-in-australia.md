@@ -493,6 +493,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Hurstville](/online-coding-and-python-classes-in-hurstville-sydney)
 - [AI and programming classes in Bankstown](/ai-and-programming-classes-in-bankstown-sydney)
 - [Coding and AI classes in Canterbury-Bankstown](/best-coding-and-ai-classes-in-canterbury-bankstown-sydney)
+- [Vibe coding and AI agents classes in Auburn](/vibe-coding-and-ai-agents-classes-in-auburn-sydney)
 <!-- AU-LINKS -->
 
 
