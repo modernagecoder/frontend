@@ -43582,5 +43582,56 @@
       "Enrolment, ICSEA, Indigenous, LBOTE and selective columns of the master dataset: excluded by the cluster rules.",
       "Any affiliation with Transport for NSW, the NSW Department of Education, Hornsby Shire Council or the ABS."
     ]
+  },
+  "best-coding-and-ai-classes-in-canterbury-bankstown-sydney": {
+    "market": "Canterbury-Bankstown",
+    "bodyClass": "cg-cbnk",
+    "pageType": "city",
+    "curriculumAuthority": "Canterbury-Bankstown, ABS Census 2021 QuickStats, Canterbury-Bankstown local government area LGA11570 (read 10 October 2026): 371,006 people; median age 36; 92,604 families; 133,317 private dwellings; 2.9 people per household; age 0 to 4 24,664 (6.6 percent; NSW 5.8); age 5 to 9 24,804; age 10 to 14 24,009; separate house 64,393 (55.0 percent); semi-detached, row or terrace house, townhouse 18,398 (15.7 percent; NSW 11.7); flat or apartment 33,403 (28.5 percent; NSW 21.7); Bachelor Degree level and above 70,107 (23.6 percent; NSW 27.8). ABS ASGS 2021 LGA area 110.2374 square kilometres. IANA Australia/Sydney daylight saving Sunday 4 October 2026 to Sunday 4 April 2027.",
+    "localProject": "Boyer-Moore majority element. NSW Department of Education master dataset (CC BY), Date_extracted 2026-10-02, LGA Canterbury-Bankstown: 75 schools; Level_of_schooling Primary School 46, Secondary School 17, Schools for Specific Purposes 9, Infants School 3. Level pass (file order): candidate Primary School, final counter 17; verified 46 of 75 (majority). Town_suburb: 46 distinct raw strings, 30 suburbs after whitespace and case normalisation (examples BASS HILL, KINGSGROVE, trailing spaces); most common Bankstown 8, Panania 6. Suburb pass, file order: candidate Punchbowl, counter 1, verified 3 of 75 (2 before normalising): no majority. Sorted by School_name: candidate Yagoona, verified 1 of 75. All NSW schools (2,210): Primary School 1,582, verified majority. Earliest Date_1st_teacher in the LGA: Belmore South Public School 1862-01-01, Bankstown North Public School 1868-01-01, Lakemba Public School 1869-04-01, Canterbury Public School 1878-03-01. NSW Spatial Services transport points: 18 railway stations inside the LGA boundary. Transport for NSW monthly entries (CC BY), August 2026: Revesby Station 135,103 (highest among the LGA stations with a count); several LGA stations have no count or Less than 50.",
+    "requiredMentions": [
+      "371,006",
+      "92,604",
+      "133,317",
+      "24,664",
+      "18,398",
+      "70,107",
+      "Belmore South Public School",
+      "135,103",
+      "Punchbowl"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Canterbury-Bankstown (LGA11570).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA11570"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits, monthly station usage (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Transport Theme feature service (station points).",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Transport_Theme/FeatureServer"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 boundaries (LGA), geo.abs.gov.au map services.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Why several stations in the council area have no August 2026 count: not claimed; no reason was verified.",
+      "Details of the Schools for Specific Purposes: counted but not named, as they concern students' needs.",
+      "School results, enrolments or rankings: not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education, Canterbury-Bankstown Council, Transport for NSW or the ABS."
+    ]
   }
 }
