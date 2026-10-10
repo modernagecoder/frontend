@@ -41820,5 +41820,53 @@
       "Income, rent, ancestry, religion, health and Indigenous status figures: excluded by the cluster rules.",
       "Any affiliation with the ABS, the Queensland Government or Gympie Regional Council."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-horsham-victoria": {
+    "market": "Horsham",
+    "bodyClass": "cg-hrsv",
+    "pageType": "city",
+    "curriculumAuthority": "Horsham Significant Urban Area, ABS Census 2021 QuickStats, area code 2010, with Victoria and Australia (read 10 October 2026): 16,985 people; median age 40; 4,515 families; 7,978 private dwellings; 2.3 people per household; separate house 6,220 (89.5 percent; Victoria 73.4; Australia 72.3); flat or apartment 366 (5.3 percent; Victoria 12.1); Professionals 1,502 (18.8 percent; Victoria 25.0; Australia 24.0); Technicians and Trades Workers 1,158 (14.5 percent; Victoria 12.6); Bachelor Degree level and above 2,045 (14.8 percent; Victoria 29.2; Australia 26.3); aged 15 to 19: 955 (5.6 percent); aged 20 to 24: 977 (5.8 percent); industry: Secondary Education 224 (2.8 percent; Victoria 1.7), Local Government Administration 207 (2.6 percent; Victoria 1.4). ABS ERP Horsham LGA (23190) 30 June 2025: 20,252. vic.gov.au school term dates: 2026 Term 4 Monday 5 October to Friday 18 December; 2027 Term 1 Wednesday 27 January (students start Thursday 28 January in government schools) to Thursday 25 March; Term 2 Monday 12 April to Friday 25 June. IANA tz: Australia/Melbourne UTC+10, daylight saving UTC+11 from the first Sunday in October to the first Sunday in April; Asia/Kolkata UTC+5:30.",
+    "localProject": "Unit confusion (millimetres vs metres) in an agent answer. GWM Water mains, Horsham Rural City Council on data.gov.au (gwm-water-mains.geojson, Creative Commons Attribution 2.5 Australia), downloaded 10 October 2026, CRS84 coordinates. 3,899 line features, STAGE IN for all; DIAMETER 40 to 1,200 (1,533 features at 100, 611 at 150, 389 at 63); materials PVC-U 1,803, PVC-M 825, S 439, PE100 324, AC 233. Lengths on a local equirectangular projection (approximation): whole layer 1,756.43 km; 396 pieces under 1 m. Pieces whose first vertex lies within 5 km of 142.1997 E, 36.7117 S (our choice): 2,077, totalling 231.62 km, length-weighted diameter 148.1 mm. Full-pipe volume sum of pi (d/2)^2 L: diameter in mm converted to m 6,801 cubic metres (6.80 ML); read as cm 680,104 cubic metres; read as m 6.801e9 cubic metres.",
+    "requiredMentions": [
+      "16,985",
+      "4,515",
+      "7,978",
+      "6,220",
+      "1,502",
+      "6,801 cubic metres",
+      "231.62 km",
+      "1,756.43 km",
+      "Across the Wimmera, from one laptop"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Horsham Significant Urban Area (2010): people, median age, families, dwellings, dwelling structure, occupation, education, age, industry.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/2010"
+      },
+      {
+        "claim": "GWM Water mains published by Horsham Rural City Council on data.gov.au, Creative Commons Attribution 2.5 Australia.",
+        "url": "https://data.gov.au/data/dataset/gwm-water-mains"
+      },
+      {
+        "claim": "Victorian Government school term dates and holidays, 2026 and 2027.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA 2025, Horsham LGA 23190.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.23190.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne offsets and daylight saving.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement about how much water GWM Water actually holds in or supplies through its mains: the full-pipe volume is a classroom calculation, not an operating figure.",
+      "Any claim that the DIAMETER field is documented as millimetres in the layer itself: no unit is stored with the field; millimetres is inferred from the values and labelled as our reading.",
+      "Suburb or locality names around Horsham: none were verified inside the urban area boundary, so none are listed.",
+      "OpenStreetMap data and Bureau of Meteorology observations: Overpass returned 406 and BOM 403 to this machine in October 2026; neither was circumvented.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Horsham Rural City Council, GWM Water, the Victorian Government or the ABS."
+    ]
   }
 }

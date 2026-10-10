@@ -439,6 +439,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agents classes in Mount Gambier](/vibe-coding-and-ai-agents-classes-in-mount-gambier)
 - [Coding classes in Lismore](/best-coding-classes-in-lismore)
 - [Online coding and Python classes in Ballina](/online-coding-and-python-classes-in-ballina)
+- [Online coding and Python classes in Nelson Bay](/online-coding-and-python-classes-in-nelson-bay)
 <!-- AU-LINKS -->
 
 
