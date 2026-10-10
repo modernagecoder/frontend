@@ -491,6 +491,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding and AI classes in Kellyville](/best-coding-and-ai-classes-in-kellyville-sydney)
 - [Vibe coding and AI agents classes in Chatswood](/vibe-coding-and-ai-agents-classes-in-chatswood-sydney)
 - [Online coding and Python classes in Hurstville](/online-coding-and-python-classes-in-hurstville-sydney)
+- [AI and programming classes in Bankstown](/ai-and-programming-classes-in-bankstown-sydney)
 <!-- AU-LINKS -->
 
 
