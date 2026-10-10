@@ -42686,7 +42686,7 @@
     "bodyClass": "cg-rydv",
     "pageType": "city",
     "curriculumAuthority": "Ryde, ABS Census 2021 QuickStats, Ryde local government area LGA16700 (read 10 October 2026): 129,123 people; median age 37 (NSW 39, Australia 38); 34,985 families; 55,669 private dwellings; average 2.5 people per household; separate house 20,016 (40.8 percent); flat or apartment 21,854 (44.6 percent; NSW 21.7; Australia 14.2); Professionals 24,337 (37.1 percent; NSW 25.8); Bachelor Degree level and above 50,196 (46.4 percent; NSW 27.8; Australia 26.3); age 20 to 24 8,607 (6.7 percent); age 10 to 14 6,283 (4.9 percent). NSW 2027 term dates, Eastern division: Term 1 Wednesday 3 February to Friday 9 April. IANA tz Australia/Sydney daylight saving Sunday 4 October 2026 to Sunday 4 April 2027. Transport for NSW monthly station usage (CC BY), August 2026 entries: Macquarie University Station, Metro, 482,099; West Ryde Station, Train, 113,714.",
-    "localProject": "Retrieval chunking for an agent. NSW Department of Education master dataset (CC BY), Date_extracted 2026-10-02, LGA = Ryde: 19 schools (Primary 14, Secondary 3, EEC 1, SSP 1). One sentence per school (name, level, Town_suburb, postcode, Date_1st_teacher; School_subtype excluded), 2,284 characters. 19 questions \"When did <school> first have a teacher?\". Retrieval score = number of distinct non-stop-word tokens shared; first top-scoring chunk taken. Success = school name and date both in the retrieved chunk. Fixed characters, no overlap: 60 0/19, 120 1/19, 200 8/19, 400 10/19, 800 14/19, whole text 19/19. With 25 percent overlap: 60 0, 120 0, 200 4, 400 11, 800 13. Sentences per chunk 1: 16/19; 2: 13; 3: 14; 5: 14. One-sentence failures: Eastwood Public School -> Denistone East Public School (Town_suburb Eastwood); Ryde Public School -> Ermington Public School (Town_suburb West Ryde); West Ryde Public School -> Ermington Public School. Earliest Date_1st_teacher Ryde Public School 1868-01-01, North Ryde Public School 1878-01-01, Gladesville Public School 1879-04-01.",
+    "localProject": "Retrieval chunking for an agent. NSW Department of Education master dataset (CC BY), Date_extracted 2026-10-02, LGA = Ryde: 19 schools (Primary 14, Secondary 3, EEC 1, SSP 1). One sentence per school (name, level, Town_suburb, postcode, Date_1st_teacher; School_subtype excluded), 2,284 characters. 19 questions \"When did <school> first have a teacher?\". Retrieval score = number of distinct non-stop-word tokens shared; first top-scoring chunk taken. Success = school name and date both in the retrieved chunk. Fixed characters, no overlap: 60 0/19, 120 1/19, 200 8/19, 400 10/19, 800 14/19, whole text 19/19. With 25 percent overlap: 60 0, 120 0, 200 4, 400 11, 800 13. Sentences per chunk 1: 16/19; 2: 13; 3: 14; 5: 14. One-sentence failures are ties lost on text order (first top-scoring chunk taken), not higher scores; reading the top 3 sentences answers 18/19 (Ryde Public School still missed). One-sentence failures: Eastwood Public School -> Denistone East Public School (Town_suburb Eastwood); Ryde Public School -> Ermington Public School (Town_suburb West Ryde); West Ryde Public School -> Ermington Public School. Earliest Date_1st_teacher Ryde Public School 1868-01-01, North Ryde Public School 1878-01-01, Gladesville Public School 1879-04-01.",
     "requiredMentions": [
       "129,123",
       "34,985",
@@ -42972,6 +42972,107 @@
       "Enrolment, ICSEA, Indigenous, LBOTE and selective-school columns of the master dataset: excluded by the cluster rules.",
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with Transport for NSW, the NSW Department of Education, Georges River Council or the ABS."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-liverpool-sydney": {
+    "market": "Liverpool",
+    "bodyClass": "cg-lvsy",
+    "pageType": "city",
+    "curriculumAuthority": "Liverpool, ABS Census 2021 QuickStats, Liverpool local government area LGA14900 (read 10 October 2026): 233,446 people; median age 34 (New South Wales 39, Australia 38); 59,471 families; 77,824 private dwellings; average 3.2 people per household; separate houses 73.1% (50,658), flats or apartments 16.3% (11,301); couple families with children 55.8% (33,171); aged 0 to 4 16,664, 5 to 9 17,670 (7.6%), 10 to 14 17,236. ABS ASGS 2021 LGA boundary area 305.7401 square kilometres. NSW Department of Education 2027 calendar, Eastern division: students Term 1 from Wednesday 3 February 2027, Term 4 to Monday 20 December 2027.",
+    "localProject": "Keyword search vs structured field filter in an agent tool. NSW Department of Education master dataset (CC BY), Date_extracted 2026-10-02, 2,210 rows. LGA exactly Liverpool: 49 (Primary 33, Secondary 12, SSP 3, Environmental Education Centre 1). School_name contains liverpool: 5, all in the LGA (recall 10.2%). Town_suburb exactly Liverpool: 2; trimmed and case-folded: 7, all in the LGA (recall 14.3%). LGA contains liverpool: 59 including 10 Liverpool Plains schools (precision 83.1%). Statewide 1,357 Town_suburb values end in a space and 432 are capitals; Liverpool rows 37 raw suburb labels, 28 after normalising. Oldest first teachers Luddenham Public School 1860, Liverpool Public School 1863; newest Gulyangarri Public School 2024. Transport for NSW (CC BY): Liverpool Station entries August 2026 210,605.",
+    "requiredMentions": [
+      "233,446",
+      "59,471",
+      "77,824",
+      "33,171",
+      "17,670",
+      "Luddenham Public School",
+      "Gulyangarri Public School",
+      "210,605",
+      "Liverpool Plains"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Liverpool local government area (LGA14900): people, median age, families, dwellings, dwelling structure, family composition, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA14900"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits: monthly station usage from Opal data (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) local government area boundaries, used for the station location check.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any statement about why few Liverpool schools carry the suburb name: not verified, so no reason is given.",
+      "Naming the hospital school in the dataset: counted in the totals but not named, to keep health settings off the page.",
+      "Leppington station as part of the Liverpool council area: not checked on the boundary, so it is not listed.",
+      "School sizes, enrolments, ICSEA, Indigenous and LBOTE columns: excluded by the cluster rules.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any claim that a particular AI product makes these mistakes: the four tools are our own scripted versions, not a named product.",
+      "Any affiliation with the NSW Department of Education, Transport for NSW, Liverpool City Council or the ABS."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-campbelltown-nsw": {
+    "market": "Campbelltown",
+    "bodyClass": "cg-cmbt",
+    "pageType": "city",
+    "curriculumAuthority": "Campbelltown (NSW) LGA, ABS Census 2021 QuickStats, area code LGA11500, with New South Wales and Australia (read 10 October 2026): 176,519 people; median age 35; 46,917 families; 63,062 private dwellings; 2.9 people per household; separate house 44,903 (78.3 percent; NSW 65.6; Australia 72.3); flat or apartment 3,674 (6.4 percent; NSW 21.7; Australia 14.2); Professionals 13,760 (18.9 percent; NSW 25.8; Australia 24.0); Technicians and Trades Workers 8,805 (12.1 percent; NSW 11.9; Australia 12.9); Bachelor Degree level and above 28,589 (20.8 percent; NSW 27.8; Australia 26.3); aged 15 to 19: 10,930 (6.2 percent; NSW 5.7); aged 20 to 24: 11,285 (6.4 percent; NSW 6.1). Campbelltown (SA) LGA40910: 54,800 people, median age 40; ABS ASGS 2021 point query at 138.67 E, 34.88 S returns LGA Campbelltown (SA) and GCCSA Greater Adelaide. ABS ERP 30 June 2025: Campbelltown (NSW) LGA 11500 191,285; Campbelltown (SA) LGA 40910 58,826. NSW Department of Education 2027: Term 3 Monday 19 July to Friday 24 September; Term 4 Monday 11 October to Monday 20 December. IANA tz Australia/Sydney UTC+10, daylight saving UTC+11; Australia/Adelaide UTC+9:30; Asia/Kolkata UTC+5:30.",
+    "localProject": "Namesake place names and qualified keys. NSW public schools master dataset (Data.NSW), Date_extracted 2026-10-02, 2,210 rows. Town_suburb normalised (strip, casefold) equal to campbelltown: 10 rows (raw Campbelltown with trailing space 8, CAMPBELLTOWN 1, Campbelltown 1; Postcode 2560 for all). Exact raw Campbelltown: 1. LGA Campbelltown (NSW): 53 (Primary School 33, Secondary School 12, Schools for Specific Purposes 8; 43 outside the suburb; 21 normalised suburbs; Date_1st_teacher 1867-01-01 Minto Public School to 2021-10-18 Denham Court Public School; Campbelltown Public School 1876-01-01). School_name containing Campbelltown: 4 (Campbelltown Public School, Campbelltown North Public School, Campbelltown East Public School, Campbelltown Performing Arts High School). Rows with Campbelltown in any column: 111 (Operational_directorate_office 81, LGA 53, Principal_network 18, Town_suburb 10, School_name 4; electorate columns also match but are not used). Campbelltown SA rows: 0.",
+    "requiredMentions": [
+      "176,519",
+      "46,917",
+      "63,062",
+      "191,285",
+      "54,800",
+      "LGA11500",
+      "LGA40910",
+      "Denham Court Public School",
+      "South west Sydney, live on screen"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Campbelltown (NSW) LGA (LGA11500): people, median age, families, dwellings, dwelling structure, occupation, education, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA11500"
+      },
+      {
+        "claim": "ABS Census 2021 QuickStats, Campbelltown (SA) LGA (LGA40910): people and median age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA40910"
+      },
+      {
+        "claim": "ABS Data API, Estimated Resident Population by LGA 2001 to 2025 (ABS_ANNUAL_ERP_LGA2025), Campbelltown (NSW) 11500 and Campbelltown (SA) 40910, 2025.",
+        "url": "https://data.api.abs.gov.au/rest/data/ABS,ABS_ANNUAL_ERP_LGA2025,1.0.0/ERP.3.TOT.11500+40910.LGA2025.A?format=csvfilewithlabels"
+      },
+      {
+        "claim": "NSW public schools master dataset (Data.NSW): school names, town, postcode, LGA, level of schooling, date of first teacher.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, future and past NSW term dates and school holidays (2027 dates).",
+        "url": "https://education.nsw.gov.au/schooling/calendars/future-and-past-nsw-term-dates-and-school-holidays"
+      }
+    ],
+    "rejectedClaims": [
+      "Electorate names in the schools dataset: political boundaries are not used on this page, although they also contain the word Campbelltown.",
+      "Enrolment, ICSEA or other per-school measures: not needed for the matching lesson and not shown.",
+      "Any comparison of the two Campbelltowns beyond population and median age: only those two SA figures were verified for this page.",
+      "Which NSW term division Campbelltown schools follow: not needed, since only Terms 3 and 4 are quoted.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with the NSW Department of Education, the ABS or Campbelltown City Council."
     ]
   }
 }

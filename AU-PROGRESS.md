@@ -215,7 +215,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 187 | best-coding-classes-in-griffith (grif, #4A508E) | cg- regional city page | 2,801 | 1.2% vs best-coding-classes-in-armidale | Why does the computer put house 10 before house 2? | natural sort order of house numbers vs lexicographic | c9c7627c |
 | 188 | online-coding-and-python-classes-in-wangaratta (wgta, #123066) | cg- regional city page | 2,775 | 1.3% vs ai-and-programming-classes-in-gympie | Can one match statement sort every Wangaratta bus stop? | Python structural pattern matching (match/case) on GTFS stop names vs if/elif | 7e652ef0 |
 | 189 | ai-and-programming-classes-in-grafton (grft, #342076) | cg- regional city page | 2,787 | 1.5% vs best-coding-classes-in-armidale | Can two banks of the Clarence train one model without sharing data? | federated averaging with non-IID clients | 8242b9cd |
-| 190 | vibe-coding-and-ai-agents-classes-in-murray-bridge (mbri, #32189E) | cg- regional city page | 2,876 | 1% vs vibe-coding-and-ai-agents-classes-in-blacktown-sydney | Which sub-agent answers can be merged? | map-reduce with sub-agents: mergeable vs non-mergeable aggregates (median of medians) | (this commit) |
+| 190 | vibe-coding-and-ai-agents-classes-in-murray-bridge (mbri, #32189E) | cg- regional city page | 2,876 | 1% vs vibe-coding-and-ai-agents-classes-in-blacktown-sydney | Which sub-agent answers can be merged? | map-reduce with sub-agents: mergeable vs non-mergeable aggregates (median of medians) | 7a7518b5 |
+| 203 | best-coding-and-ai-classes-in-parramatta-sydney (prmt, #983630) | cg- district page | 3,274 | 1.4% vs best-coding-and-ai-classes-in-georges-river-sydney | Do random averages of Parramatta school founding years behave as the central limit theorem says? | central limit theorem (sampling distribution of the mean) | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

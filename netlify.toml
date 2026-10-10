@@ -21253,6 +21253,30 @@
   to = "/src/pages/best-coding-and-ai-classes-in-georges-river-sydney.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-liverpool-sydney"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-liverpool-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-liverpool-sydney.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-liverpool-sydney.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-campbelltown-nsw"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-campbelltown-nsw.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-campbelltown-nsw.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-campbelltown-nsw.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
