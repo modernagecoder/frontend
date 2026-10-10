@@ -44503,5 +44503,399 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with the City of Monash, the Victorian Department of Education or the Department of Transport and Planning."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-box-hill-melbourne": {
+    "market": "Box Hill",
+    "bodyClass": "cg-bxhl",
+    "pageType": "city",
+    "curriculumAuthority": "Box Hill, ABS Census 2021 QuickStats, Box Hill (Vic.) suburb SAL20314 (read 10 October 2026): 14,353 people; median age 33; 3,422 families; 7,777 private dwellings; 2.2 people per household; 1.1 motor vehicles per dwelling; professionals 30.1% (2,088; Victoria 25.0%); flats 53.1% (3,168; Victoria 12.1%); train to work 6.7% (464); drove 33.9% (2,348; Victoria 49.9%); bachelor degree or higher 39.9% (5,173); aged 20-24 1,899; aged 25-29 2,111; university or other higher education 1,701 (32.2% of those attending); worked at home 26.5% (1,839, lockdown Census day). ABS SAL area 3.52 square kilometres. Box Hill station inside the boundary. Victorian School Locations 2025: 3 schools inside the boundary (1 primary, 2 secondary), including Box Hill High School. Victorian 2027 Term 1: students start Thursday 28 January, ends Thursday 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Column disambiguation for an agent tool. FY24-25 annual metropolitan station entries, Box Hill: Pax_annual 2,648,350 (rank 10 of 222 rows), Pax_weekday 8,350, Pax_norm_weekday 8,650, Pax_sch_hol_weekday 7,100, Pax_Saturday 5,350, Pax_Sunday 4,100. 8 scripted questions (term weekday, all-year average weekday, holiday weekday, Saturday, Sunday, whole year, term time, schools closed). Keyword tool (first column whose last name part appears in the question): 4 right, 4 wrong (all four returned Pax_weekday). Described-column tool: 7 right, 1 clarifying question (all-year average weekday matched two descriptions), 0 wrong. Implied school-holiday share of weekdays (norm - weekday)/(norm - holiday): Box Hill 19.4%, 16.1% to 22.6% across +/-25 rounding; median 21.4% (16.7% to 30.0%) over 49 stations with norm - holiday >= 500. 178 stations have Pax_weekday different from Pax_norm_weekday. Script: scratchpad au/b6/bxhl.py.",
+    "requiredMentions": [
+      "14,353",
+      "3,422",
+      "7,777",
+      "1,701",
+      "1,839",
+      "1,899",
+      "2,648,350",
+      "Pax_norm_weekday",
+      "3.52 square kilometres"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Box Hill (Vic.) suburb (SAL20314).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL20314"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL20314 area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "How any commercial AI assistant would answer the weekday questions: not tested; the scores are for our own two scripted tools.",
+      "The exact number of school-holiday weekdays in FY24-25: not claimed; the implied share is our estimate, widened by the publisher's rounding to 50.",
+      "A reason why Richmond and a few other stations show a higher all-year weekday than term weekday: not claimed.",
+      "A total for Box Hill, Box Hill North and Box Hill South: not computed; published parts are never summed.",
+      "Catholic or independent school names and any sector breakdown: not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the City of Whitehorse, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-pennant-hills-sydney": {
+    "market": "Pennant Hills",
+    "bodyClass": "cg-pnhl",
+    "pageType": "city",
+    "curriculumAuthority": "Pennant Hills, ABS Census 2021 QuickStats, Pennant Hills (NSW) suburb and locality SAL13194 (read 10 October 2026): 7,588 people; median age 43; 2,151 families; 2,876 private dwellings; average 2.8 people per household; bachelor degree or higher 48.6% (3,055); professionals 38.5% (1,431); university or other higher education 22.4% (528); aged 10 to 14 6.8% (514); flats 14.9% (389). ABS ASGS 2021 SAL area 6.1227 square kilometres. NSW Department of Education master dataset: Pennant Hills Public School (1925), Pennant Hills High School (1966), Hornsby council. NSW 2026 to 2027 Eastern division: summer holidays Friday 18 December 2026 to Wednesday 27 January 2027; Term 1 2027 ends Friday 9 April.",
+    "localProject": "Naive vs aware datetimes on Transport for NSW monthly station entries (Opal, CC BY), Oct 2024 to Aug 2026, Pennant Hills station (ours): busiest March 2026 65,719, quietest January 2025 26,935; Sydney month stamps converted to UTC move all 23 months back one (busiest reported as February 2026; March query returns 53,599, the April figure); offsets +11 November to April, +10 May to October; average 44,111 a month, 107th of 270 train stations with all 23 months; Thornleigh 38,127, Beecroft 31,103.",
+    "requiredMentions": [
+      "7,588",
+      "2,876",
+      "65,719",
+      "53,599",
+      "26,935",
+      "44,111",
+      "Pennant Hills Public School",
+      "6.12 square kilometres",
+      "107th of 270"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Pennant Hills (NSW) suburb and locality (SAL13194): people, median age, families, dwellings, qualifications, occupation, education, age, dwelling structure.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL13194"
+      },
+      {
+        "claim": "Transport for NSW, Train station entries and exits, monthly Opal data (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "Python documentation, datetime: aware and naive objects; astimezone.",
+        "url": "https://docs.python.org/3/library/datetime.html#aware-and-naive-objects"
+      },
+      {
+        "claim": "Python documentation, zoneinfo: IANA time zone support (Australia/Sydney).",
+        "url": "https://docs.python.org/3/library/zoneinfo.html"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations (Creative Commons Attribution); names, suburbs, councils and first-teacher dates only.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates and holidays, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reason why March 2026 was the busiest month or January 2025 the quietest: not known from the data, so none is given.",
+      "Journey to work and working at home figures from the 2021 Census: excluded because the Census was taken during a lockdown period.",
+      "Income, rent, mortgage, tenure, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Enrolment, ICSEA, Indigenous, LBOTE and selective columns of the school dataset: excluded by the cluster rules.",
+      "Any total built by adding published Census parts or the monthly station figures of other stations.",
+      "Any affiliation with the ABS, Transport for NSW, Hornsby Shire Council or the NSW Department of Education."
+    ]
+  },
+  "online-coding-and-python-classes-in-carlingford-sydney": {
+    "market": "Carlingford",
+    "bodyClass": "cg-crlf",
+    "pageType": "city",
+    "curriculumAuthority": "Carlingford, ABS Census 2021 QuickStats, Carlingford (NSW) suburb and locality SAL10817 (read 10 October 2026): 28,044 people; median age 38; 8,017 families; 10,144 private dwellings; average 3 people per household; flats 29.5% (2,682); bachelor degree or higher 44.7% (9,911); aged 5 to 9 8.6% (2,419); professionals 35.5% (4,365); couple families with children 56.4% (4,518). ABS ASGS 2021 SAL area 8.5522 square kilometres. NSW Department of Education master dataset, suburb Carlingford, City of Parramatta: Carlingford Public School (1883), Cumberland High School (1962), James Ruse Agricultural High School (1962), Roselea Public School (1965), Carlingford West Public School (1967), Carlingford High School (1968), Murray Farm Public School (1969). NSW 2027 Eastern division: winter holidays Monday 5 July to Friday 16 July; spring holidays Monday 27 September to Friday 8 October.",
+    "localProject": "NumPy matrix multiplication on Transport for NSW monthly entries (Opal, CC BY) at the 16 Parramatta Light Rail stops, Dec 2024 to Aug 2026, M shape (21, 16), ours: M @ ones(16) monthly line entries min 91,771 (Dec 2024) max 429,899 (Mar 2026); ones(21) @ M stop totals, Carlingford 416,808, 5th of 16, 6.07%; Telopea 266,656, Dundas 198,407; Carlingford monthly 11,621 (Dec 2024) to 23,923 (Aug 2026); termini M @ w 19,720 to 46,532; M @ ones(21) raises a core dimension mismatch ValueError.",
+    "requiredMentions": [
+      "28,044",
+      "10,144",
+      "416,808",
+      "6.07%",
+      "429,899",
+      "91,771",
+      "Murray Farm Public School",
+      "Roselea Public School",
+      "8.55 square kilometres"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Carlingford (NSW) suburb and locality (SAL10817): people, median age, families, dwellings, dwelling structure, qualifications, age, occupation, family composition.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10817"
+      },
+      {
+        "claim": "Transport for NSW, monthly Opal entries and exits by station and light rail stop (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NumPy documentation, numpy.matmul and the @ operator: shapes and broadcasting rules.",
+        "url": "https://numpy.org/doc/stable/reference/generated/numpy.matmul.html"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations (Creative Commons Attribution); names, suburbs, councils and first-teacher dates only.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates and holidays, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) suburbs and localities: Carlingford area.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      }
+    ],
+    "rejectedClaims": [
+      "The Parramatta Light Rail opening date: not stated; December 2024 is only described as the first light rail month in the file.",
+      "Any reason for the monthly rise or fall in entries: not known from the data, so none is given.",
+      "Any description of a Carlingford school as selective, or any enrolment, ICSEA, Indigenous or LBOTE figure: excluded by the cluster rules.",
+      "Journey to work and working at home figures from the 2021 Census: excluded because the Census was taken during a lockdown period.",
+      "Income, rent, mortgage, tenure, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the ABS, Transport for NSW, City of Parramatta Council or the NSW Department of Education."
+    ]
+  },
+  "online-coding-and-python-classes-in-doncaster-melbourne": {
+    "market": "Doncaster",
+    "bodyClass": "cg-dnct",
+    "pageType": "city",
+    "curriculumAuthority": "Doncaster, ABS Census 2021 QuickStats, Doncaster suburb SAL20771 (read 10 October 2026): 25,020 people; median age 40; 7,181 families; 11,731 private dwellings; 2.4 people per household; separate houses 53.1% (5,272); flats 27.3% (2,712); semi-detached 19.6% (1,946); bachelor degree or higher 40.8% (8,774); professionals 31.6% (3,645); drove to work 45.2% (5,216); worked at home 31.2% (3,602, lockdown Census day); aged 5-9 1,227; aged 10-14 1,115; no train row in travel to work. ABS SAL area 8.80 square kilometres. Victorian School Locations 2025: 4 schools inside the boundary (3 primary, 1 secondary), including Doncaster Primary School, Birralee Primary School and Doncaster Secondary College. No metropolitan or regional station inside the boundary. Victorian 2027 Term 1: students start Thursday 28 January, ends Thursday 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Python set algebra with symmetric difference. GTFS Schedule metro bus feed (calendar 8 October to 31 December 2026): 22,633 stops, 110 inside the Doncaster SAL polygon; 8,589,911 stop_times rows streamed; 17,437 trips touch Doncaster stops. Active services by calendar plus calendar_dates on Wed 14 Oct, Sat 17 Oct, Sun 18 Oct 2026: routes 17 / 15 / 14, trips 1,329 / 763 / 591. wed - (sat|sun) = {309, 318}; wed ^ sat = {309, 318}; wed ^ sun = {281, 309, 318}; sat ^ sun = {281}; wed & sat & sun = 14 routes; union 17. Seven stop entries named Doncaster Shopping Centre/Williamsons Rd. Script: scratchpad au/b6/dnct.py.",
+    "requiredMentions": [
+      "25,020",
+      "7,181",
+      "11,731",
+      "2,712",
+      "8,774",
+      "3,645",
+      "17,437",
+      "Birralee Primary School",
+      "8,589,911"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Doncaster suburb (SAL20771).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL20771"
+      },
+      {
+        "claim": "Department of Transport and Planning, GTFS Schedule (Creative Commons Attribution 4.0), metropolitan train and bus feeds.",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "Python documentation, set types: union, intersection, difference and symmetric_difference.",
+        "url": "https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL20771 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Route names, destinations or frequencies beyond the route numbers: not claimed; only route numbers and trip counts from the feed are used.",
+      "That routes 309 and 318 never run at weekends in any week: not claimed; the comparison covers the three October 2026 days checked.",
+      "Names of stops at health or aged-care facilities: not printed; such stops are counted only.",
+      "A combined figure for Doncaster and Doncaster East: not computed; published parts are never summed.",
+      "Catholic or independent school names and any sector breakdown: not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the City of Manningham, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
+  },
+  "ai-and-programming-classes-in-point-cook-melbourne": {
+    "market": "Point Cook",
+    "bodyClass": "cg-ptck",
+    "pageType": "city",
+    "curriculumAuthority": "Point Cook, ABS Census 2021 QuickStats, Point Cook suburb SAL22086 (read 10 October 2026): 66,781 people; median age 33; 18,022 families; 22,500 private dwellings; 3.2 people per household; 1.9 vehicles per dwelling; separate houses 88.0% (17,715); flats 2.6% (527); bachelor degree or higher 41.1% (19,902); professionals 28.5% (9,245); worked at home 34.1% (11,077, lockdown Census day); aged 0-4 5,686 (8.5%); 5-9 6,965 (10.4%); 10-14 5,652 (8.5%). Victoria: median age 38, houses 73.4%, flats 12.1%, bachelor 29.2%, professionals 25.0%. ABS SAL area 38.336 square kilometres. Victorian School Locations 2025: 10 schools inside the boundary (5 primary/secondary combined, 3 primary, 2 secondary), including Featherbrook P-9 College and Saltwater P-9 College. GTFS Schedule metro bus feed: 122 stop entries inside the boundary; no railway station inside. Victorian 2027 Term 1: 28 January to 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027.",
+    "localProject": "Agglomerative clustering, single vs complete linkage. Inputs: 2021 QuickStats age-band percentages (18 bands) for Point Cook, Craigieburn, Tarneit, Werribee, Glen Waverley, Doncaster, Box Hill, Clayton. Euclidean distance (percentage points). Point Cook to: Craigieburn 4.74, Tarneit 6.43, Werribee 8.79, Glen Waverley 12.12, Doncaster 13.03, Box Hill 18.10, Clayton 26.57. Single linkage merges 4.67 (GW+D), 4.74 (PC+Cr), 5.31 (W), 5.63 (T), 5.97 (GW-D joins), 11.36 (BH+Cl), 11.61. Complete linkage merges 4.67, 4.74, 6.43 (T), 6.88 (W joins GW-D), 11.36, 15.36, 26.57. Three-group cut: single {PC, Cr, W, T, GW, D} {BH} {Cl}; complete {PC, Cr, T} {W, GW, D} {BH, Cl}. scikit-learn AgglomerativeClustering default linkage is ward (API page read 10 October 2026). Script: scratchpad au/b6/ptck.py.",
+    "requiredMentions": [
+      "66,781",
+      "18,022",
+      "5,652",
+      "17,715",
+      "19,902",
+      "11,077",
+      "6,965",
+      "Featherbrook P-9 College",
+      "26.57"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Point Cook suburb (SAL22086).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL22086"
+      },
+      {
+        "claim": "ABS Census 2021 QuickStats, Craigieburn suburb (SAL20661).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL20661"
+      },
+      {
+        "claim": "ABS Census 2021 QuickStats, Clayton suburb (SAL20569).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL20569"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "Department of Transport and Planning, GTFS Schedule (Creative Commons Attribution 4.0), metropolitan train and bus feeds.",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "scikit-learn AgglomerativeClustering: linkage options ward, complete, average, single; default ward.",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html"
+      },
+      {
+        "claim": "scikit-learn user guide, hierarchical clustering and linkage criteria.",
+        "url": "https://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL22086 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That Point Cook is the youngest suburb in Melbourne or Victoria: not claimed; only eight suburbs were compared.",
+      "Any reason why the suburbs cluster as they do (housing, migration, estate age): not claimed.",
+      "Catholic or independent school names and any sector breakdown: not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Sums of age bands into a single child total: not computed; published parts are never summed.",
+      "Any affiliation with the City of Wyndham or the Victorian Department of Education."
+    ]
+  },
+  "ai-and-programming-classes-in-wentworthville-sydney": {
+    "market": "Wentworthville",
+    "bodyClass": "cg-wvle",
+    "pageType": "city",
+    "curriculumAuthority": "Wentworthville, ABS Census 2021 QuickStats, Wentworthville (NSW) suburb and locality SAL14245 (read 10 October 2026): 15,098 people; median age 33; 3,926 families; 5,721 private dwellings; average 2.9 people per household; flats 40.0% (1,958); townhouses etc 22.3% (1,089); separate houses 37.2%; bachelor degree or higher 47.7% (5,801); aged 0 to 4 7.7% (1,169); couple families with children 57.2% (2,246). ABS ASGS 2021 SAL area 3.1203 square kilometres. NSW Department of Education master dataset, suburb Wentworthville: Wentworthville Public School (1891, Cumberland), Darcy Road Public School (1955, Parramatta), Pendle Hill Public School (1955, Cumberland), Pendle Hill High School (1965, Parramatta). NSW Eastern division: summer holidays Friday 18 December 2026 to Wednesday 27 January 2027; Term 1 2027 ends Friday 9 April; autumn holidays Monday 12 to Friday 23 April 2027.",
+    "localProject": "Coefficient of determination on Transport for NSW monthly entries (Opal, CC BY), Wentworthville station, Oct 2024 to Aug 2026, least squares in NumPy (ours): train Oct 2024 to Feb 2026, test Mar to Aug 2026; R squared all-data fit / held out vs test mean / vs training mean / test MAE: mean 0.000 / -5.598 / 0.000 / 7,331; trend 0.094 / -7.218 / -0.246 / 8,334; month 0.875 / -2.411 / 0.483 / 5,103; trend and month 0.934 / -0.984 / 0.699 / 3,865. Station min 68,953 (Jan 2025), max 97,307 (Mar 2026), average 87,159, 58th of 270; Westmead 151,164 (35th), Pendle Hill 70,999 (68th).",
+    "requiredMentions": [
+      "15,098",
+      "87,159",
+      "97,307",
+      "68,953",
+      "Darcy Road Public School",
+      "Pendle Hill High School",
+      "3.12 square kilometres",
+      "0.934",
+      "58th of 270"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Wentworthville (NSW) suburb and locality (SAL14245): people, median age, families, dwellings, dwelling structure, qualifications, age, family composition.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL14245"
+      },
+      {
+        "claim": "Transport for NSW, Train station entries and exits, monthly Opal data (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "scikit-learn documentation, r2_score: best possible score 1.0, can be negative; computed against the mean of y_true.",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html"
+      },
+      {
+        "claim": "NumPy documentation, numpy.linalg.lstsq: least-squares solution.",
+        "url": "https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations (Creative Commons Attribution); names, suburbs, councils and first-teacher dates only.",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, 2026 to 2027 term dates and holidays, Eastern division.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reason why March 2026 was the busiest month or January 2025 the quietest, or why the held-out months ran higher: not known from the data, so none is given.",
+      "Journey to work, train travel and working at home figures from the 2021 Census: excluded because the Census was taken during a lockdown period.",
+      "Income, rent, mortgage, tenure, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Enrolment, ICSEA, Indigenous, LBOTE and selective columns of the school dataset: excluded by the cluster rules.",
+      "Any total built by adding published Census parts.",
+      "Any affiliation with the ABS, Transport for NSW, Cumberland City Council, City of Parramatta Council or the NSW Department of Education."
+    ]
+  },
+  "best-coding-and-ai-classes-in-werribee-melbourne": {
+    "market": "Werribee",
+    "bodyClass": "cg-wrbe",
+    "pageType": "city",
+    "curriculumAuthority": "Werribee, ABS Census 2021 QuickStats, Werribee suburb SAL22750 (read 10 October 2026): 50,027 people; median age 35; 13,202 families; 19,890 private dwellings; 2.7 people per household; separate houses 85.0% (14,970); flats 1.1% (192); drove to work 55.0% (12,645); train 2.3% (538); worked at home 20.6% (4,744, lockdown Census day); aged 0-4 3,736; 5-9 3,426; 10-14 3,088; 15-19 2,705. Victoria: houses 73.4%, flats 12.1%, drove 49.9%, train 1.6%, median age 38. ABS SAL area 42.8849 square kilometres. Victorian School Locations 2025: 19 schools inside the boundary, including Thomas Chirnside Primary School, Lollypop Creek Primary School and Walcom Ngarrwa Secondary College. GTFS Schedule metro bus feed: 260 stop entries inside the boundary; Werribee station inside. Victorian 2027 Term 1: 28 January to 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027.",
+    "localProject": "SQL window function LAG. Annual metropolitan train station entries FY18-19 to FY24-25 (rounded to 50) for 8 outer Werribee line stations (Werribee, Hoppers Crossing, Williams Landing, Aircraft, Laverton, Westona, Altona, Seaholme; from GTFS train feed): 56 rows in SQLite 3.50.4. Werribee: 1,211,200; 1,061,600; 351,350; 532,750; 941,250; 1,085,250; 1,049,600; LAG changes -149,600, -710,250, +181,400, +408,500, +144,000, -35,650. Without PARTITION BY: 7 of 56 rows wrong (each station first year except the first station), e.g. Werribee FY18-19 +1,118,100, Seaholme -785,400. FY20-21 falls: Aircraft -71.8%, Williams Landing -71.0%, Hoppers Crossing -67.6%, Werribee -66.9%, Westona -49.4%. FY24-25 as share of FY18-19: Westona 95.5%, Werribee 86.7%, Aircraft 82.1%, Williams Landing 79.1%, Hoppers Crossing 74.2%. Largest yearly rise: Aircraft FY22-23 +166.5%. Script: scratchpad au/b6/wrbe.py.",
+    "requiredMentions": [
+      "50,027",
+      "13,202",
+      "19,890",
+      "14,970",
+      "12,645",
+      "1,211,200",
+      "1,049,600",
+      "Lollypop Creek Primary School",
+      "Walcom Ngarrwa Secondary College"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Werribee suburb (SAL22750).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL22750"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Department of Transport and Planning, GTFS Schedule (Creative Commons Attribution 4.0), metropolitan train and bus feeds.",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "SQLite window functions: lag(expr), PARTITION BY and ORDER BY in the window definition.",
+        "url": "https://www.sqlite.org/windowfunctions.html"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL22750 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Reasons for any change in station entries (lockdowns, new estates, timetable changes): not claimed; the files give counts only.",
+      "That Werribee is the end of the line or the busiest Wyndham station: not claimed.",
+      "Selective-entry and special school names: not printed; Catholic and independent school names not used.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "A total of entries across the eight stations: not computed; published parts are never summed.",
+      "Any affiliation with the City of Wyndham, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
   }
 }

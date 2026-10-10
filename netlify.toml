@@ -21613,6 +21613,90 @@
   to = "/src/pages/best-coding-and-ai-classes-in-glen-waverley-melbourne.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-box-hill-melbourne"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-box-hill-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-box-hill-melbourne.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-box-hill-melbourne.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-pennant-hills-sydney"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-pennant-hills-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-pennant-hills-sydney.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-pennant-hills-sydney.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-carlingford-sydney"
+  to = "/src/pages/online-coding-and-python-classes-in-carlingford-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-carlingford-sydney.md"
+  to = "/src/pages/online-coding-and-python-classes-in-carlingford-sydney.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-doncaster-melbourne"
+  to = "/src/pages/online-coding-and-python-classes-in-doncaster-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-doncaster-melbourne.md"
+  to = "/src/pages/online-coding-and-python-classes-in-doncaster-melbourne.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-point-cook-melbourne"
+  to = "/src/pages/ai-and-programming-classes-in-point-cook-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-point-cook-melbourne.md"
+  to = "/src/pages/ai-and-programming-classes-in-point-cook-melbourne.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-wentworthville-sydney"
+  to = "/src/pages/ai-and-programming-classes-in-wentworthville-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-wentworthville-sydney.md"
+  to = "/src/pages/ai-and-programming-classes-in-wentworthville-sydney.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-werribee-melbourne"
+  to = "/src/pages/best-coding-and-ai-classes-in-werribee-melbourne.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-werribee-melbourne.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-werribee-melbourne.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
