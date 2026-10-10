@@ -503,6 +503,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding and AI classes in Baulkham Hills](/best-coding-and-ai-classes-in-baulkham-hills-sydney)
 - [Vibe coding and AI agents classes in Pennant Hills](/vibe-coding-and-ai-agents-classes-in-pennant-hills-sydney)
 - [Online coding and Python classes in Carlingford](/online-coding-and-python-classes-in-carlingford-sydney)
+- [AI and programming classes in Wentworthville](/ai-and-programming-classes-in-wentworthville-sydney)
 <!-- AU-LINKS -->
 
 
