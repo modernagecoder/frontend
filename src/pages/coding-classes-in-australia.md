@@ -462,6 +462,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in Burwood](/ai-and-programming-classes-in-burwood-sydney)
 - [Coding classes in Mount Isa](/best-coding-classes-in-mount-isa)
 - [Online coding and Python classes in Broken Hill](/online-coding-and-python-classes-in-broken-hill)
+- [AI and programming classes in Karratha](/ai-and-programming-classes-in-karratha)
 <!-- AU-LINKS -->
 
 

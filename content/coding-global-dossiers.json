@@ -43478,5 +43478,57 @@
       "Enrolment, ICSEA, Indigenous, LBOTE and selective columns of the master dataset: excluded by the cluster rules.",
       "Any affiliation with the NSW Department of Education, The Hills Shire Council, Hornsby Shire Council or the ABS."
     ]
+  },
+  "ai-and-programming-classes-in-bankstown-sydney": {
+    "market": "Bankstown",
+    "bodyClass": "cg-bnks",
+    "pageType": "city",
+    "curriculumAuthority": "Bankstown, ABS Census 2021 QuickStats, Bankstown suburb SAL10181 (read 10 October 2026): 34,933 people; median age 34; 8,573 families; 13,033 private dwellings; 2.9 people per household; age 0 to 4 2,763 (7.9 percent; NSW 5.8); flat or apartment 6,419 (58.5 percent; NSW 21.7); Car as driver 4,710 (41.1 percent; NSW 43.1; Australia 52.7); Bachelor Degree level and above 6,681 (24.0 percent; NSW 27.8). Council: 4,000 random points inside the ABS SAL boundary all fall in Canterbury-Bankstown LGA. IANA Australia/Sydney daylight saving Sunday 4 October 2026 to Sunday 4 April 2027.",
+    "localProject": "Multiple comparisons. Transport for NSW monthly station entries (CC BY), 338 stations with numeric Entry counts in all 23 months (October 2024 to August 2026). Paired t-test (scipy.stats.ttest_rel) on natural-log entries, October 2024 to August 2025 vs October 2025 to August 2026 matched by calendar month; September 2025 excluded. p < 0.05: 234; Bonferroni p < 0.05/338: 55; Benjamini-Hochberg FDR 0.05: 220 (217 higher in second year, 3 lower). Null check: 200 shuffles, months randomly reassigned within each station (two-sample t-test): mean 16.54 below 0.05, min 4, max 28; expected 16.9. Bankstown Station (Train) series: 43003, 102830, 58337, 28227, 60532, 75233, 60224, 372, 3618, 90567, 88515, 95946, 97354, 94025, 77653, 78082, 82591, 104295, 95843, 98841, 99012, 102667, 104723; p = 0.0596, rank 239 of 338 (BH threshold at that rank 0.0354). First-teacher dates (NSW Department of Education master dataset, Town_suburb Bankstown): Bankstown North Public School 1868-01-01; Bankstown Public School 1915-04-01; Bankstown West Public School 1931-05-01; Bankstown Senior College 1963-01-01.",
+    "requiredMentions": [
+      "34,933",
+      "8,573",
+      "13,033",
+      "2,763",
+      "6,419",
+      "Bankstown North Public School",
+      "Bankstown Senior College",
+      "0.0596",
+      "3,618"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Bankstown (SAL10181).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10181"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits, monthly station usage (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "Benjamini, Y. and Hochberg, Y. (1995), Controlling the false discovery rate, Journal of the Royal Statistical Society Series B 57(1), 289 to 300.",
+        "url": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 boundaries (SAL and LGA), geo.abs.gov.au map services.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Why Bankstown Station recorded 372 and 3,618 entries in May and June 2025: not claimed; no cause was verified.",
+      "Any statement about rail line closures or conversions: not verified from a primary source for this page, so not made.",
+      "That the 217 stations with higher entries share one cause: not claimed.",
+      "Schools with a single-sex intake and a hospital school with a Bankstown address: not named, under the cluster rules.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Transport for NSW, Canterbury-Bankstown Council, the NSW Department of Education or the ABS."
+    ]
   }
 }
