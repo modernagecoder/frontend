@@ -504,6 +504,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agents classes in Pennant Hills](/vibe-coding-and-ai-agents-classes-in-pennant-hills-sydney)
 - [Online coding and Python classes in Carlingford](/online-coding-and-python-classes-in-carlingford-sydney)
 - [AI and programming classes in Wentworthville](/ai-and-programming-classes-in-wentworthville-sydney)
+- [Coding and AI classes in Glen Waverley](/best-coding-and-ai-classes-in-glen-waverley-melbourne)
 <!-- AU-LINKS -->
 
 

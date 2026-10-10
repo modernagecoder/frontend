@@ -45410,5 +45410,122 @@
       "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with the City of Wyndham or the Victorian Department of Education."
     ]
+  },
+  "best-coding-and-ai-classes-in-frankston-melbourne": {
+    "market": "Frankston",
+    "bodyClass": "cg-frkn",
+    "pageType": "city",
+    "curriculumAuthority": "Frankston, ABS Census 2021 QuickStats, Frankston (Vic.) suburb SAL20947 (read 10 October 2026): 37,331 people; median age 39; 9,611 families; 17,419 private dwellings; 2.2 people per household; separate house 73.4% (11,159; Victoria 73.4%); semi-detached, row or terrace house, townhouse 20.3% (3,082; Victoria 13.9%); flat or apartment 6.1% (928; Victoria 12.1%); car as driver 56.5% (9,763; Victoria 49.9%); train 0.9% (154; Victoria 1.6%); worked at home 19.1% (3,299, lockdown Census day). ABS SAL area 19.779 square kilometres. Metropolitan stations inside the boundary: Frankston (1,035,450 FY24-25, rank 31 of 222; FY18-19 1,296,500) and Leawarra (5,500 FY24-25, fourth lowest of 222). Victorian School Locations 2025: 15 open schools inside the boundary (Primary 10, Secondary 2, Special 3; Government 11, Catholic 3, Independent 1), including Frankston Primary School and McClelland Secondary College. Victorian 2027 Term 3: Monday 12 July to Friday 17 September. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Exponential (galloping) search. Metro train GTFS Schedule (downloaded 10 October 2026), Wednesday 28 October 2026: 106 Frankston line (FKN) trips departing Frankston towards the city, first 04:13, last 23:06, gaps 4 to 20 minutes. Next-departure queries from 05:00 to 23:00. Every minute: 1,081 queries, linear 65,454 comparisons (60.5 per query), binary 7,357 (6.81), gallop from last position 1,187 (1.10). Every 3 minutes: 361 queries, 21,848 / 2,461 / 467. Every 10 minutes: 109 queries, 6,612 / 741 / 215. All methods agree on every query. Three far-apart queries (05:00, 12:00, 22:00): gallop 30, binary 21. Script: scratchpad au/b7/frkn.py.",
+    "requiredMentions": [
+      "37,331",
+      "9,611",
+      "17,419",
+      "1,035,450",
+      "1,296,500",
+      "Leawarra",
+      "65,454",
+      "7,357",
+      "McClelland Secondary College",
+      "19.78 square kilometres"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Frankston (Vic.) suburb (SAL20947).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL20947"
+      },
+      {
+        "claim": "Department of Transport and Planning, GTFS Schedule (Creative Commons Attribution 4.0), metropolitan train feed downloaded 10 October 2026, calendar 9 October to 31 December 2026.",
+        "url": "https://discover.data.vic.gov.au/dataset/gtfs-schedule"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "ABS ASGS 2021 Suburbs and Localities boundary service (SAL20947 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer"
+      },
+      {
+        "claim": "Python documentation, bisect module (array bisection algorithm).",
+        "url": "https://docs.python.org/3/library/bisect.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Timings in milliseconds: not measured; only comparisons were counted.",
+      "Stony Point line departures from Frankston: not included; Frankston line trips only.",
+      "Reasons for the fall in Frankston station entries since FY18-19: not claimed.",
+      "Names of Catholic, independent or specialist schools: not used; counted only.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Frankston City Council, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
+  },
+  "online-coding-and-python-classes-in-casey-melbourne": {
+    "market": "Casey",
+    "bodyClass": "cg-csey",
+    "pageType": "city",
+    "curriculumAuthority": "City of Casey, ABS Census 2021 QuickStats, LGA21610 (read 10 October 2026): 365,239 people; median age 34; 97,338 families; 122,583 private dwellings; 3.1 people per household; 2.1 vehicles per dwelling; aged 0-4 27,841 (7.6%); 5-9 28,849 (7.9%); 10-14 26,361 (7.2%); bachelor or higher 61,966 (22.0%, Victoria 29.2%); professionals 29,881 (17.2%, Victoria 25.0%); worked at home 31,089 (17.9%, lockdown Census day); separate houses 102,149 (90.1%, Victoria 73.4%); flats 1,007 (0.9%, Victoria 12.1%). ABS LGA area 409.43 square kilometres. Victorian School Locations 2025: 69 government schools in Casey (C): 49 primary, 14 secondary, 3 Pri/Sec, 3 special. DTP FY24-25 metro entries inside the polygon: Berwick 1,008,200; Narre Warren 522,200; Hallam 521,500; Cranbourne 1,054,250; Merinda Park 577,750; Lynbrook 407,450. Victorian 2027 Term 1: 28 January to 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027.",
+    "localProject": "unittest subTest test suite for a ray-casting point-in-polygon function on the ABS LGA21610 polygon (one ring, 7,437 vertices, 28 horizontal edges). Cases: 6 FY24-25 stations inside (Berwick, Narre Warren, Hallam, Cranbourne, Merinda Park, Lynbrook) and 4 nearby stations outside (Beaconsfield, Dandenong, Officer, Yarraman). Distance to boundary (our calculation, local equirectangular): Lynbrook 0.496 km, Berwick 1.728, Hallam 1.809, Merinda Park 2.095, Cranbourne 3.921, Narre Warren 4.965; Beaconsfield 0.119 km outside, Dandenong 1.525, Officer 2.587, Yarraman 3.437. Strict version 0 failures, inclusive (<=, >=) version 0 failures, swapped coordinates 6 failures (all inside stations). Corner point (vertex 100) and edge midpoint: strict says outside, inclusive says inside. Script: scratchpad au/b8/csey.py.",
+    "requiredMentions": [
+      "365,239",
+      "97,338",
+      "122,583",
+      "28,849",
+      "102,149",
+      "61,966",
+      "7,437",
+      "27,841",
+      "1,054,250"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Casey local government area (LGA21610).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA21610"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council polygons and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "Python documentation, unittest: distinguishing test iterations using subtests (TestCase.subTest).",
+        "url": "https://docs.python.org/3/library/unittest.html#distinguishing-test-iterations-using-subtests"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That Beaconsfield or any station officially belongs to a particular council: not claimed; only position against the ABS outline is used.",
+      "That one boundary rule is correct in general: not claimed; the page says the team must choose.",
+      "Catholic or independent school counts and any sector breakdown: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Sums of Census age bands into a child total: not computed.",
+      "Any affiliation with the City of Casey or the Victorian Department of Education."
+    ]
   }
 }
