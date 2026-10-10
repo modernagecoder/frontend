@@ -467,6 +467,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding classes in Port Lincoln](/best-coding-classes-in-port-lincoln)
 - [Online coding and Python classes in Queanbeyan](/online-coding-and-python-classes-in-queanbeyan)
 - [AI and programming classes in Mandurah](/ai-and-programming-classes-in-mandurah)
+- [Vibe coding and AI agents classes in Ipswich](/vibe-coding-and-ai-agents-classes-in-ipswich-qld)
 <!-- AU-LINKS -->
 
 
