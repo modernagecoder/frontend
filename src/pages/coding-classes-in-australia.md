@@ -485,6 +485,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Mosman](/online-coding-and-python-classes-in-mosman-sydney)
 - [AI and programming classes in the Northern Beaches](/ai-and-programming-classes-in-northern-beaches-sydney)
 - [Coding and AI classes in the Inner West](/best-coding-and-ai-classes-in-inner-west-sydney)
+- [Vibe coding and AI agents classes in Randwick](/vibe-coding-and-ai-agents-classes-in-randwick-sydney)
 <!-- AU-LINKS -->
 
 

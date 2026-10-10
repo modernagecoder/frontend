@@ -248,7 +248,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 228 | vibe-coding-and-ai-agents-classes-in-lane-cove-sydney (lncv, #9C3442) | cg- district page | 2,825 | 2% vs vibe-coding-and-ai-agents-classes-in-chatswood-sydney | How much conversation state does an agent need to answer follow-up questions about Lane Cove? | conversation state for an agent's follow-up questions (stateless vs one slot vs topic list) | 869ec333 |
 | 229 | online-coding-and-python-classes-in-mosman-sydney (msmn, #426224) | cg- district page | 2,713 | 2.4% vs vibe-coding-and-ai-agents-classes-in-randwick-sydney | half-open intervals vs inclusive Census age bands | half-open intervals | 6086939c |
 | 230 | ai-and-programming-classes-in-northern-beaches-sydney (nbch, #34229E) | cg- district page | 2,847 | 2.3% vs ai-and-programming-classes-in-marrickville-sydney | random vs north-south block cross-validation for a neighbour model of SA2 median age | spatial block cross-validation | 92b63610 |
-| 231 | best-coding-and-ai-classes-in-inner-west-sydney (inwt, #42369E) | cg- district page | 2,776 | 2.3% vs ai-and-programming-classes-in-marrickville-sydney | base-month choice flips the light rail growth story at ten L1 stops | base-period index numbers (fixed vs chained vs averaged growth) | (this commit) |
+| 231 | best-coding-and-ai-classes-in-inner-west-sydney (inwt, #42369E) | cg- district page | 2,776 | 2.3% vs ai-and-programming-classes-in-marrickville-sydney | base-month choice flips the light rail growth story at ten L1 stops | base-period index numbers (fixed vs chained vs averaged growth) | 6ea69dfc |
+| 232 | vibe-coding-and-ai-agents-classes-in-randwick-sydney (rdwk, #3C4080) | cg- district page | 2,740 | 2.5% vs ai-and-programming-classes-in-marrickville-sydney | agent tool that validates light rail stop names and months before answering | tool argument validation for an agent | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
