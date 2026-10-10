@@ -445,6 +445,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding classes in Alice Springs](/best-coding-classes-in-alice-springs)
 - [Vibe coding and AI agents classes in Goulburn](/vibe-coding-and-ai-agents-classes-in-goulburn)
 - [Coding classes in Armidale](/best-coding-classes-in-armidale)
+- [Online coding and Python classes in Whyalla](/online-coding-and-python-classes-in-whyalla)
 <!-- AU-LINKS -->
 
 
