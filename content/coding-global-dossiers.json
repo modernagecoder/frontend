@@ -45527,5 +45527,58 @@
       "Sums of Census age bands into a child total: not computed.",
       "Any affiliation with the City of Casey or the Victorian Department of Education."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-monash-melbourne": {
+    "market": "City of Monash",
+    "bodyClass": "cg-mnsh",
+    "pageType": "city",
+    "curriculumAuthority": "City of Monash, ABS Census 2021 QuickStats, Monash (C) local government area LGA24970 (read 10 October 2026): 190,397 people; median age 38; 50,528 families; 76,177 private dwellings; 2.7 people per household; bachelor degree or higher 41.2% (66,197; Victoria 29.2%); professionals 32.0% (29,473; Victoria 25.0%); train to work 2.6% (2,375; Victoria 1.6%); bus 1.2% (1,102; Victoria 0.6%); flat or apartment 15.2% (10,187; Victoria 12.1%); aged 15-19 5.8% (11,078; Victoria 5.6%); worked at home 31.6% (29,062, lockdown Census day). ABS LGA area 81.4829 square kilometres. Eight metropolitan stations inside the boundary: Oakleigh 1,624,200, Huntingdale 1,590,050, Clayton 1,514,000, Syndal 698,100, Mount Waverley 658,250, Hughesdale 555,350, Jordanville 388,950, Glen Waverley (FY24-25). Victorian School Locations 2025: 54 open schools inside the boundary (Primary 34, Secondary 13, Pri/Sec 2, Special 5; Government 37, Catholic 13, Independent 4). Victorian 2027: students start Thursday 28 January; Term 2 Monday 12 April to Friday 25 June. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "Verifier recomputation. FY23-24 and FY24-25 station-entry files, 8 stations inside LGA24970. 26 scripted questions: entries 8, busiest 1, growth on previous year 8, entries (agent rounds) 8, name match \"Waverley\" 1. Sloppy agent habits: previous-year file for every second station alphabetically; first row as busiest (Clayton, truth Oakleigh 1,624,200); growth divided by new year; rounding to nearest 100,000; substring name match (Glen Waverley; no station named Waverley). Wrong answers 18 (entries 4, busiest 1, growth 4, rounded 8, match 1). Exact verifier flags 18; 5% relative tolerance flags 8 (entries 2, busiest 1, growth 2, rounded 2, match 1). Rounding errors 0.3% (Syndal) to 8.0% (Hughesdale 600,000 vs 555,350). Wrong-base growth equals true one-decimal growth for Clayton, Hughesdale, Jordanville and Mount Waverley. Script: scratchpad au/b7/mnsh.py.",
+    "requiredMentions": [
+      "190,397",
+      "50,528",
+      "76,177",
+      "66,197",
+      "1,624,200",
+      "1,590,050",
+      "555,350",
+      "Jordanville",
+      "81.48 square kilometres",
+      "29,062"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Monash (C) local government area (LGA24970).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA24970"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (LGA24970 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "How any commercial AI assistant would answer these questions: not tested; the agent and its habits are ours.",
+      "Glen Waverley and Clayton suburb figures: not repeated; they have their own pages.",
+      "School names: not used on this council page; counted only.",
+      "A total of entries across the eight stations: not computed; published parts are never summed.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Monash City Council, Monash University, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
   }
 }
