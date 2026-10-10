@@ -495,6 +495,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding and AI classes in Canterbury-Bankstown](/best-coding-and-ai-classes-in-canterbury-bankstown-sydney)
 - [Vibe coding and AI agents classes in Auburn](/vibe-coding-and-ai-agents-classes-in-auburn-sydney)
 - [Online coding and Python classes in Homebush](/online-coding-and-python-classes-in-homebush-sydney)
+- [AI and programming classes in Rhodes](/ai-and-programming-classes-in-rhodes-sydney)
 <!-- AU-LINKS -->
 
 
