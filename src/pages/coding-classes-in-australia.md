@@ -502,6 +502,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [AI and programming classes in Camden](/ai-and-programming-classes-in-camden-sydney)
 - [Coding and AI classes in Baulkham Hills](/best-coding-and-ai-classes-in-baulkham-hills-sydney)
 - [Vibe coding and AI agents classes in Pennant Hills](/vibe-coding-and-ai-agents-classes-in-pennant-hills-sydney)
+- [Online coding and Python classes in Carlingford](/online-coding-and-python-classes-in-carlingford-sydney)
 <!-- AU-LINKS -->
 
 

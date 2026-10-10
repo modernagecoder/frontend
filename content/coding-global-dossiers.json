@@ -45354,5 +45354,61 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
       "Any affiliation with the City of Monash, the Victorian Department of Education or the Department of Transport and Planning."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-wyndham-melbourne": {
+    "market": "Wyndham",
+    "bodyClass": "cg-wynd",
+    "pageType": "city",
+    "curriculumAuthority": "City of Wyndham, ABS Census 2021 QuickStats, LGA27260 (read 10 October 2026): 292,011 people; median age 32; 76,145 families; 100,326 private dwellings; 3.1 people per household; 1.9 vehicles per dwelling; aged 0-4 26,099 (8.9%); 5-9 26,833 (9.2%); 10-14 21,187 (7.3%); bachelor or higher 70,611 (32.4%, Victoria 29.2%); professionals 29,780 (21.9%, Victoria 25.0%); worked at home 34,423 (25.3%, lockdown Census day); separate houses 79,221 (88.2%, Victoria 73.4%); flats 2,045 (2.3%, Victoria 12.1%). ABS LGA area 542.09 square kilometres. Victorian School Locations 2025: 49 government schools in Wyndham (C): 26 primary, 11 Pri/Sec, 10 secondary, 2 special. DTP FY24-25 metro station entries inside the LGA polygon: Werribee 1,049,600; Hoppers Crossing 925,850; Williams Landing 1,389,550. Victorian 2027 Term 1: 28 January to 25 March. Melbourne daylight saving 4 October 2026 to 4 April 2027.",
+    "localProject": "Dead-letter queue for an agent. 49 tasks (Wyndham (C) government schools, 2025 locations file); tool returns nearest DTP FY24-25 metro station (haversine) and its entries, within 10 km. Nearest stations: Werribee 21, Hoppers Crossing 17, Williams Landing 11; median distance 3.98 km; maximum 15.88 km (Little River Primary School, only school beyond 10 km: permanent failure). Transient failures SIMULATED at 12% per call (Python random, seeds 0-999; seed 42 shown). Seed 42: skip 38 answered / 49 calls / 11 lost; retry in place up to 5 tries 48 / 63 / 1 lost; DLQ with 2 retry passes 48 / 61 / 0 lost / 1 left (permanent). Means over 1,000 seeds: skip 42.289 answered, 6.711 lost; retry 48.0 answered, 59.564 calls; DLQ 47.896 answered, 57.452 calls, 1.104 left in queue. Script: scratchpad au/b8/wynd.py.",
+    "requiredMentions": [
+      "292,011",
+      "76,145",
+      "100,326",
+      "26,833",
+      "79,221",
+      "70,611",
+      "15.88 km",
+      "Little River Primary School",
+      "1,389,550"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Wyndham local government area (LGA27260).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA27260"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (council polygons and areas).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Amazon SQS Developer Guide, using dead-letter queues.",
+        "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "That any real station tool or agent fails 12% of the time: the transient failure rate is our simulation, labelled on the page.",
+      "That Little River has no public transport: not claimed; only that no metropolitan station in the entries file is within 10 km.",
+      "Regional station entry figures for Tarneit or Wyndham Vale: not used on this page.",
+      "Catholic or independent school counts and any sector breakdown: not used.",
+      "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with the City of Wyndham or the Victorian Department of Education."
+    ]
   }
 }
