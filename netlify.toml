@@ -21229,6 +21229,30 @@
   to = "/src/pages/ai-and-programming-classes-in-penrith-nsw.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-burwood-sydney"
+  to = "/src/pages/ai-and-programming-classes-in-burwood-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-burwood-sydney.md"
+  to = "/src/pages/ai-and-programming-classes-in-burwood-sydney.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-georges-river-sydney"
+  to = "/src/pages/best-coding-and-ai-classes-in-georges-river-sydney.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-georges-river-sydney.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-georges-river-sydney.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

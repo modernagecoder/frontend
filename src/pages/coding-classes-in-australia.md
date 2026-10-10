@@ -451,6 +451,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding classes in Griffith](/best-coding-classes-in-griffith)
 - [Online coding and Python classes in Wangaratta](/online-coding-and-python-classes-in-wangaratta)
 - [AI and programming classes in Grafton](/ai-and-programming-classes-in-grafton)
+- [Vibe coding and AI agents classes in Murray Bridge](/vibe-coding-and-ai-agents-classes-in-murray-bridge)
 <!-- AU-LINKS -->
 
 

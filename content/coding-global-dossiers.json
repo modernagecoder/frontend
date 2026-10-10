@@ -42872,5 +42872,106 @@
       "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
       "Any affiliation with the ABS, the NSW Department of Education or Penrith City Council."
     ]
+  },
+  "ai-and-programming-classes-in-burwood-sydney": {
+    "market": "Burwood",
+    "bodyClass": "cg-bwda",
+    "pageType": "city",
+    "curriculumAuthority": "Burwood, ABS Census 2021 QuickStats, Burwood local government area LGA11300 (read 10 October 2026): 40,217 people; median age 34 (NSW 39, Australia 38); 16,160 private dwellings; average 2.7 people per household (NSW 2.6); age 20 to 24 5,006 (12.5 percent; NSW 6.1; Australia 6.2); flat or apartment 6,944 (49.1 percent; NSW 21.7; Australia 14.2); separate house 4,871 (34.5 percent); Bachelor Degree level and above 13,395 (37.8 percent; NSW 27.8; Australia 26.3); Professionals 5,659 (30.2 percent; NSW 25.8; Australia 24.0). NSW Department of Education master dataset (CC BY), LGA = Burwood: Burwood Public School Date_1st_teacher 1858-04-01, Croydon Public School 1884-02-01, Croydon Park Public School 1886-02-01, Enfield Public School 1924-01-01; Town_suburb values Burwood, Croydon, Croydon Park, Enfield. NSW 2027 term dates, Eastern division: Term 3 Tuesday 20 July to Friday 24 September; Term 4 Tuesday 12 October to Monday 20 December. IANA Australia/Sydney daylight saving Sunday 4 October 2026 to Sunday 4 April 2027.",
+    "localProject": "Linear autoencoder bottleneck and reconstruction error. Transport for NSW Train Station Entries and Exits, monthly (CC BY), 23 months 2024-10 to 2026-08; Entry rows, Station_Type Train, names whitespace-normalised; 296 stations, 270 with a number every month. Profile = month / station mean, centred on the mean profile. SVD variance shares 0.2914, 0.164, 0.107, 0.085. RMS reconstruction error, Burwood Station (rank of 270, 1 = least typical) and median: k=0 0.0355 (257) 0.0587; k=1 0.0309 (227) 0.0504; k=2 0.0300 (192) 0.0425; k=3 0.0277 (191) 0.0400. Least typical at k=0: Gerringong, Clarendon, Bankstown; k=3: Warabrook, Bankstown, Yagoona. Linear autoencoder 23-2-23, gradient descent, seed 2026: MSE 0.011495 (epoch 0), 0.006284 (1,000), 0.006157 (5,000), 0.006155 (30,000); PCA k=2 optimum 0.006155; Burwood AE error 0.0300. Burwood Station entries: min 418,631 (2025-01), max 563,430 (2026-03), mean 502,685, August 2026 553,354; profile January 2025 0.833 vs mean profile 0.812. Croydon Station August 2026 58,449.",
+    "requiredMentions": [
+      "40,217",
+      "16,160",
+      "13,395",
+      "553,354",
+      "418,631",
+      "563,430",
+      "Burwood Public School",
+      "Croydon Park Public School",
+      "0.006155"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Burwood local government area (LGA11300).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA11300"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits, monthly station usage (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Why Clarendon, Bankstown or any other station has an unusual monthly pattern: not established by the data, so no cause is given.",
+      "That Burwood or Croydon stations lie inside the Burwood Council area: not verified, so no council claim is made for stations.",
+      "Single-sex school names and school subtypes: left out as unnecessary.",
+      "That the four address suburbs are every suburb in the council area: not claimed; they are only school addresses.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Transport for NSW, the NSW Department of Education, Burwood Council or the ABS."
+    ]
+  },
+  "best-coding-and-ai-classes-in-georges-river-sydney": {
+    "market": "Georges River",
+    "bodyClass": "cg-gres",
+    "pageType": "city",
+    "curriculumAuthority": "Georges River, ABS Census 2021 QuickStats, Georges River local government area LGA12930 (read 10 October 2026): 152,274 people; median age 38 (New South Wales 39, Australia 38); 41,152 families; 58,386 private dwellings; average 2.8 people per household; flats or apartments 36.2% (18,946), separate houses 51.6% (27,051); bachelor degree or higher 34.1% (43,706); aged 20 to 24 11,587 (7.6%); professionals 19,712 (28.0%). ABS ASGS 2021 LGA boundary area 38.3375 square kilometres. NSW Department of Education 2027 calendar, Eastern division: students Term 1 Wednesday 3 February to Friday 9 April 2027; Term 1 school development days Thursday 28 January to Tuesday 2 February 2027.",
+    "localProject": "Herfindahl-Hirschman index. Transport for NSW Train Station Entries and Exits (CC BY), August 2026 entries for the ten stations whose NSW Transport Theme points ((c) Spatial Services) fall inside the ABS Georges River LGA polygon (our check; Narwee station falls in Canterbury-Bankstown): Hurstville 499,555; Kogarah 258,775; Mortdale 81,934; Riverwood 78,665; Penshurst 67,216; Carlton 65,941; Allawah 63,038; Kingsgrove 52,014; Beverly Hills 49,353; Oatley 45,930. Shares of the ten-station sum (our arithmetic): Hurstville 39.57%, Kogarah 20.50%. HHI 2,193.1, equivalent 4.56 stations; without Hurstville 1,717.6 (5.82); top three 66.56%; monthly HHI October 2024 to August 2026 between 2,105.5 (February 2026) and 2,203.7 (January 2026).",
+    "requiredMentions": [
+      "152,274",
+      "41,152",
+      "58,386",
+      "18,946",
+      "43,706",
+      "Kogarah Public School",
+      "Peakhurst Public School",
+      "499,555",
+      "258,775"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Georges River local government area (LGA12930): people, median age, families, dwellings, dwelling structure, education, occupation, age.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA12930"
+      },
+      {
+        "claim": "Transport for NSW, Train Station Entries and Exits: monthly station usage from Opal data (Creative Commons Attribution).",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Department of Education, Master dataset: NSW government school locations and student enrolment numbers (Creative Commons Attribution).",
+        "url": "https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) local government area boundaries, used for the station location check.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "NSW Department of Education, 2027 term dates, Eastern division, first to last days for students and school development days.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/2027"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Sydney daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Any reason why Hurstville or Kogarah carry most of the entries: not verified, so no cause is given.",
+      "A full list of suburbs in the council area: not printed, because edge suburbs are shared with Bayside and Canterbury-Bankstown.",
+      "Narwee station as part of Georges River: its station point falls inside Canterbury-Bankstown on the ABS boundary, so it is excluded.",
+      "Treating Opal entries as a count of people: entries are gate taps, so the page never calls them passengers or residents.",
+      "Enrolment, ICSEA, Indigenous, LBOTE and selective-school columns of the master dataset: excluded by the cluster rules.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures from QuickStats: excluded by the cluster rules.",
+      "Any affiliation with Transport for NSW, the NSW Department of Education, Georges River Council or the ABS."
+    ]
   }
 }
