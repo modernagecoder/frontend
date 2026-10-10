@@ -471,6 +471,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding classes in Logan](/best-coding-classes-in-logan)
 - [Online coding and Python classes in Moreton Bay](/online-coding-and-python-classes-in-moreton-bay)
 - [AI and programming classes in Penrith](/ai-and-programming-classes-in-penrith-nsw)
+- [Vibe coding and AI agents classes in Campbelltown](/vibe-coding-and-ai-agents-classes-in-campbelltown-nsw)
 <!-- AU-LINKS -->
 
 
