@@ -459,6 +459,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding and AI classes in The Hills Shire](/best-coding-and-ai-classes-in-the-hills-shire-sydney)
 - [Vibe coding and AI agents classes in Ryde](/vibe-coding-and-ai-agents-classes-in-ryde-sydney)
 - [Online coding and Python classes in Strathfield](/online-coding-and-python-classes-in-strathfield-sydney)
+- [AI and programming classes in Burwood](/ai-and-programming-classes-in-burwood-sydney)
 <!-- AU-LINKS -->
 
 
