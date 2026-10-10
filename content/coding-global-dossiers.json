@@ -45636,5 +45636,63 @@
       "Sums of Census age bands into a child total: not computed.",
       "Any affiliation with Hume City Council or the Victorian Department of Education."
     ]
+  },
+  "online-coding-and-python-classes-in-whitehorse-melbourne": {
+    "market": "City of Whitehorse",
+    "bodyClass": "cg-whte",
+    "pageType": "city",
+    "curriculumAuthority": "City of Whitehorse, ABS Census 2021 QuickStats, Whitehorse (C) local government area LGA26980 (read 10 October 2026): 169,346 people; median age 39; 45,342 families; 71,521 private dwellings; 2.6 people per household; semi-detached, row or terrace house, townhouse 24.1% (15,216; Victoria 13.9%); bachelor degree or higher 41.7% (59,350; Victoria 29.2%); professionals 33.4% (27,848; Victoria 25.0%); train to work 2.5% (2,118; Victoria 1.6%); car as driver 40.6% (33,835; Victoria 49.9%); aged 10-14 5.7% (9,692); worked at home 34.3% (28,574, lockdown Census day). ABS LGA area 64.2801 square kilometres. Stations inside the boundary in FY24-25: Box Hill, Blackburn 1,206,950, Mitcham 925,550, Nunawading 758,050, Heatherdale 448,700, Laburnum 316,900; Mont Albert in files FY18-19 to FY22-23 only (92,300 in FY22-23). Victorian School Locations 2025: 49 open schools inside the boundary (Primary 31, Secondary 9, Pri/Sec 4, Special 4, Language 1; Government 33, Catholic 10, Independent 6). Victorian 2027: students start Thursday 28 January; Term 4 Monday 4 October to Friday 17 December. Melbourne daylight saving 4 October 2026 to 4 April 2027 (IANA).",
+    "localProject": "pathlib and glob discovery, Python 3.13 on Windows. Seven official files annual_metropolitan_train_station_entries_fy_YYYY_YYYY.csv (FY18-19 to FY24-25). Patterns: *.csv 7; *2024* 2 (2023_2024, 2024_2025); *fy_2024_* 1 (2024_2025); *_2024.csv 1 (2023_2024); annual_metropolitan_train_station_entries_fy_20??_20??.csv 7; *FY* 7 (case-insensitive on Windows); *FY* with case_sensitive=True 0; *.CSV 7. Name order equals year order. Rows: 222 in six files, 223 in FY22-23. FY24-25 starts with a UTF-8 byte order mark. Whitehorse stations FY18-19 vs FY24-25: Blackburn 1,484,400 / 1,206,950; Mitcham 1,241,550 / 925,550 (74.5%); Nunawading 1,148,000 / 758,050; Heatherdale 605,900 / 448,700; Laburnum 414,700 / 316,900; Mont Albert 260,850 FY18-19, 92,300 FY22-23, absent after. Python docs (3.12 pathlib): Path.glob case_sensitive added in 3.12; default follows platform rules, typically case-insensitive on Windows. Script: scratchpad au/b7/whte.py.",
+    "requiredMentions": [
+      "169,346",
+      "45,342",
+      "71,521",
+      "15,216",
+      "1,206,950",
+      "925,550",
+      "316,900",
+      "Mont Albert",
+      "92,300",
+      "64.28 square kilometres"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Whitehorse (C) local government area (LGA26980).",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA26980"
+      },
+      {
+        "claim": "Department of Transport and Planning, Annual metropolitan train station patronage (station entries), FY18-19 to FY24-25 (Creative Commons Attribution 4.0); estimates rounded to the nearest 50.",
+        "url": "https://discover.data.vic.gov.au/dataset/annual-metropolitan-train-station-patronage-station-entries"
+      },
+      {
+        "claim": "Victorian Department of Education, School Locations 2025 (Creative Commons Attribution 4.0), dv402-SchoolLocations2025.csv.",
+        "url": "https://discover.data.vic.gov.au/dataset/school-locations-2025"
+      },
+      {
+        "claim": "ABS ASGS 2021 Local Government Areas boundary service (LGA26980 polygon and area).",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Python documentation, pathlib: Path.glob case_sensitive parameter (changed in version 3.12) and platform casing rules.",
+        "url": "https://docs.python.org/3.12/library/pathlib.html"
+      },
+      {
+        "claim": "Victorian Government, school term dates and holidays, 2027 Victorian school term dates.",
+        "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria"
+      },
+      {
+        "claim": "IANA time zone database, australasia file: Australia/Melbourne daylight saving rules.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Why Mont Albert stops appearing after FY22-23: not claimed.",
+      "Why FY22-23 has one more row: not claimed.",
+      "Box Hill suburb figures: not repeated; it has its own page.",
+      "School names: not used on this council page; counted only.",
+      "A total of entries across stations: not computed; published parts are never summed.",
+      "Income, rent, mortgage, ancestry, birthplace, language and religion figures: excluded by the cluster rules.",
+      "Any affiliation with Whitehorse City Council, the Victorian Department of Education or the Department of Transport and Planning."
+    ]
   }
 }
