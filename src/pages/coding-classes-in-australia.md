@@ -454,6 +454,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Vibe coding and AI agents classes in Murray Bridge](/vibe-coding-and-ai-agents-classes-in-murray-bridge)
 - [Coding and AI classes in Parramatta](/best-coding-and-ai-classes-in-parramatta-sydney)
 - [Vibe coding and AI agents classes in Blacktown](/vibe-coding-and-ai-agents-classes-in-blacktown-sydney)
+- [Online coding and Python classes in Hornsby](/online-coding-and-python-classes-in-hornsby-sydney)
 <!-- AU-LINKS -->
 
 
